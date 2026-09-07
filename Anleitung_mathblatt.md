@@ -1,5 +1,5 @@
 mathblatt.sty – Anleitung (Stufe 3)
-Gehört zu Vorlagenversion 2026-09-07c. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
+Gehört zu Vorlagenversion 2026-09-07d. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
  
 Datei `mathblatt.sty` neben die .tex-Datei legen, `\usepackage{mathblatt}` im Kopf. Kompilieren mit `xelatex` (nicht pdflatex): nur so sind Umlaute, ß, € und die Textextraktion sauber, weil im Sandbox keine Type-1-T1-Schriften liegen. Das Modell schreibt nur Inhalt; Ränder, Karogrößen, Fluchten, Kopf- und Fußzeile sind fest.
  
@@ -23,7 +23,10 @@ Grundgerüst
 \begin{teile} \teil ... \steil ... \end{teile}     → a), ☆b)
 \begin{teilezwei} \tz ... & \tz ... \\ \tz ... & \tz ... \end{teilezwei}   → zweispaltig; Regel: mehr als vier kurze Teilaufgaben (Term plus Feld unter halber Satzbreite) hierhin statt in geruest; tabular-Syntax: & trennt die Spalten, \\ beendet die Zeile, Stern mit \stz
 \begin{geruest} \gz{a}{$y=2x+3$}{\feld{m}\feld{n}} \gzs{b}{...}{...} \end{geruest}
-\feld{W} → „W = ___" (2 cm); \leerfeld → „___" (3 cm) ohne Bezeichner (nie \feld{} – das ergibt „= ___"); beide hängen am Wort davor und brechen nicht allein um
+\begin{gleichungsraster}[2] \gl{x+5=9} & \gl{x-3=4} \\ \gl[3]{2x+3=11} & \sgl[3]{7-2x=15} \\ \end{gleichungsraster}   → zweispaltig, unter jeder Gleichung Schreibzeilen (grau, 9 mm) für die senkrechte Umformung; Regel: jede Hauptnummer, deren Lösung eine Umformung untereinander ist (Gleichungen, Systeme, Klammern auflösen), hierhin statt in teilezwei, ohne \feld{x}; optionales Argument = Schreibzeilen je Gleichung (Standard 2), je Gleichung mit \gl[n] überschreibbar; Zeilenende \\ wie in teilezwei
+\beispiel{x + 5 &= 9 &&\mid -5 \\ x + 5 - 5 &= 9 - 5 \\ x &= 4}   → „Beispiel:“ und senkrechte Rechnung: & vor dem Gleichheitszeichen, && vor der Umformung oder dem Kommentar, \\ trennt die Zeilen; Text in \text{...}: \beispiel{x + 4 &= 7 && x = 3 \\ 3 + 4 &= 7 \\ 7 &= 7 && \text{(wA)}\quad x = 3 \text{ ist Lösung}}
+\rechnung{5x - 8 &= 12 &&\mid -8 \\ 5x &= 4}   → dieselbe Rechnung ohne „Beispiel:“ (Vorgabe in Fehler-finden-Aufgaben, Rechenweg im Begleitteil)
+\feld{W} → „W = ___" (2 cm); \leerfeld → „___" (3 cm) ohne Bezeichner (nie \feld{} – das ergibt „= ___"); Einheit als optionales Argument: \leerfeld[\%] → „___ %“, \feld[cm]{l} → „l = ___ cm“ – Feld und Einheit bleiben zusammen, kein \mbox nötig; ein Umbruch vor dem Feld ist erlaubt, aber teuer, TeX dehnt die Zeile nur, wenn der Umbruch schlechter wäre
 \feld{m}  \feldl{y}  \punktfeld  \janein  \kreuz{Text}      \janein ohne Argument → „☐ ja ☐ nein"; andere Beschriftungen mit \kreuz{A}\kreuz{B} – ein \janein[...] gibt es nicht
 \mnliste[9]{2x+3, 5x-1, ...}            m und n je Gerade, eine Zeile statt geruest
 \nullstellenliste[7]{x-4, 2x-6, ...}    x_0 je Gerade
@@ -280,4 +283,4 @@ Trigonometrie
 
 Noch nicht in Stufe 3
  
-Zweitafelprojektion; im 3D-System Spurgeraden, Ebenen ohne Achsenabschnitte, Kegel/Kugel/Zylinder. Die Bausteinliste Stufe 3 ist damit abgearbeitet.
+Zweitafelprojektion; im 3D-System Spurgeraden, Ebenen ohne Achsenabschnitte, Kegel/Kugel/Zylinder; Dreisatz-Schema (zwei Spalten mit Pfeilen) als Schreibform für Prozent und Zuordnungen. Die Bausteinliste Stufe 3 ist damit abgearbeitet.

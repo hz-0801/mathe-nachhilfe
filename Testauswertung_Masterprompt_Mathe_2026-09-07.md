@@ -12,17 +12,19 @@ Ablauf bei Upload eines Archivs: entpacken und in dieser Reihenfolge prüfen.
    - Kopfzeilen: Prompt-Version gegen den Repo-Stand; Vorlagenversion gegen Zeile 2 der mitgelieferten `mathblatt.sty` und gegen das Repo. Weicht die Vorlage vom Repo ab, ist das ein Befund für den Prompt (Abruf), nicht für die Vorlage.
    - Zählung gegen das PDF nachzählen (Hauptnummern, Grafiken, Seiten vor dem Begleitteil); geplante gegen gezählte Zahlen.
    - Masterprompt: Budget 6/2/4 und Schnitt gegen die Regel „so wenige Teile wie möglich" und gegen frühere Läufe desselben Themas: gleiche Teilzahl, gleiche Zuordnung der Typen. Prüfungsprompt: Typenliste gegen den Katalog (jeder Typ eine Hauptnummer, jede Hauptnummer ihre Decke), Katalog-ids der Originale stimmen.
+   - Korrekturrunden, in denen Aufgabentext gekürzt oder Zahlen geändert wurden, um Layout zu retten: Klasse P (4.6 Inhaltstreue), zusätzlich prüfen, welches Makro gefehlt hat.
    - Messzeile: Korrekturrunden, Sekunden, Anteil – gegen die vorigen Läufe. Planungszeit gegen die vorigen Läufe.
 
 2. `chat.txt`
    - Deutungszeile gegen 1.2: Blattbezeichnung wortgleich, nur Ergänztes und Abgeleitetes.
    - Rückfragen gegen 1.1 und 1.4: nur die vorgesehenen, keine Erklärsätze davor, Buttonbeschriftungen nach Muster.
-   - Ausgabeblock gegen 6.3; übergebene Dateinamen gegen 4.6.
+   - Ausgabeblock gegen 6.3; übergebene Dateinamen gegen 4.6. Teile-Zeile wortgleich mit der Teilauswahl; Abweichungszeile nur, wenn 6.3 Nr. 1 zutrifft.
 
 3. PDF
    - Je Hauptnummer: leichter Einstieg; Masterprompt bis Kl. 10: Vorstufe (2.2 b, vier bis fünf) bei jedem Verfahren mit Erkennungsschritt, mit Antwortfeld; Grundfall in Teil 1 vier- bis fünfmal; die ersten sechs Teilaufgaben ohne die Sprossen ab der Mitte lösbar (zählen, nicht schätzen). Kette mit genau einem Merkmal je Schritt, keine Zahlenwiederholung, genau eine Teilaufgabe auf Prüfungshöhe am Ende (Masterprompt: geschätzt; Prüfungsprompt: verfremdetes Original mit Stern).
    - Masterprompt Aufgabe 1 (Übung): je Fertigkeit zwei leichte, eine mittlere, je Fallstrick eine; höchstens zwölf; Hinrichtung prüfen – jeder Fallstrick aus Aufgabe 1 kommt an einer Stelle des Blatts wieder, sonst wurde Ungebrauchtes geübt (P). Zuordnung im Begleitteil, keine Fokus-Zeile.
-   - Masterprompt: Kasten in fester Zeilenform (3.1): je Zeile eine Regel, Varianten zusammen, höchstens fünf Zeilen, nichts aus der Vorstufe. Bis Kl. 10 `\weit` im .tex nach `\blattkopf` (4.6), Hilfe-Seite nur auf „mit hilfe" (4.2). Beide: Kopfzeile mit Blattbezeichnung, Legende in der Fußzeile nur bei Sternen (4.1), Hilfe-Seite nur wo vorgesehen und ohne Ergebnisse oder Zwischenwerte aus Teilaufgaben (4.2).
+   - Beispiel und Vorgabe-Rechnung in der Schreibform des Verfahrens (2.2): Umformungen senkrecht mit `\beispiel`/`\rechnung`, Zwischenzeile nur im ersten Beispiel des Blatts, Einsetzen mit „(wA)" und Schluss; keine waagerechte Kette mit Pfeilen. Umformungs-Hauptnummern im `gleichungsraster` (3.2), Zeilenzahl nach Schrittzahl, kein `\feld{x}`; Teilaufgaben je Verfahrens-Hauptnummer höchstens zwölf, im Raster höchstens zehn.
+   - Masterprompt: Kasten in fester Zeilenform (3.1): je Zeile eine Regel, Varianten zusammen, höchstens fünf Zeilen, nichts aus der Vorstufe und keine Fertigkeit aus Aufgabe 1. Bis Kl. 10 `\weit` im .tex nach `\blattkopf` (4.6), Hilfe-Seite nur auf „mit hilfe" (4.2). Beide: Kopfzeile mit Blattbezeichnung, Legende in der Fußzeile nur bei Sternen (4.1), Hilfe-Seite nur wo vorgesehen und ohne Ergebnisse oder Zwischenwerte aus Teilaufgaben (4.2).
    - Ergebnisse stichprobenartig nachrechnen, mindestens drei je Blatt, bevorzugt Umkehrungen und Rundungsfälle; `pruef_out.txt` muss null Abweichungen zeigen. Ergebnisse ohne Senkrechtstrich (3.4); kein unerklärter Buchstabe, keine doppelt belegten Labels (3.6).
 
 4. `.log`, `.tex`, `mathblatt.sty`, Anleitung

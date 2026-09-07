@@ -1,54 +1,48 @@
 Zuerst dieses Zip hochladen.
 
-# Übergabe Werkstatt – Lieferung 2026-09-07f
+# Übergabe Werkstatt – Lieferung 2026-09-07g
 
 ## 1 Ziel
-Der Masterprompt soll Blätter liefern, mit denen ein schwacher Schüler bis Klasse 10 eine Einheit lang allein arbeiten kann: Schwerpunkt jeder Hauptnummer unten (Übung der Fertigkeiten, Vorstufe, Grundfall), Prüfungsniveau nur als Zielmarke. Gleiche Qualität, weniger Korrekturrunden.
+Der Masterprompt soll Blätter liefern, mit denen ein schwacher Schüler bis Klasse 10 eine Einheit lang allein arbeiten kann: Schwerpunkt jeder Hauptnummer unten, Prüfungsniveau nur als Zielmarke, und das Blatt zeigt die Schreibform, in der gerechnet werden soll. Gleiche Qualität, weniger Korrekturrunden.
 
 ## 2 Arbeitsgrundlage
-- `masterprompt.md` v3.32 – maßgeblich; Änderungen in 0, 1.1, 1.2, 1.4, 2.1, 2.2, 2.4, 3.1, 4.1, 4.2, 4.6, 5.1 b, 6.3, 6.4.
-- `pruefungsprompt.md` v0.12 – nur 4.1 Muster (`\quad`) und 6.3 Versionszeile.
-- `mathblatt.sty` 2026-09-07c – `\weit` 1,6 / 6 pt; `\leerfeld` 3 cm, `\feld` 2 cm, `\feldl` 3 cm; Felder brechen nicht mehr allein um. Gegen T1, T2 und Prozent-Heft vom 07.09. kompiliert, ohne Warnungen.
-- `Anleitung_mathblatt.md` – zu 2026-09-07c; `teilezwei`-Regel, Feldbreiten, `\weit`.
-- `Testauswertung_Masterprompt_Mathe_2026-09-07.md` – Prüfpunkte Übung/Hinrichtung, „erste sechs", Kasten, `\weit`, `teilezwei`, Feld-Umbruch; Testauftrag ohne „start", zwei Themen beim Masterprompt.
-- `CHANGELOG.md` – Einträge v3.32, v0.12, Vorlage 07c.
-- `blatt-konzept.md` lag nicht in Lieferung 07e und liegt auch hier nicht bei.
+- `masterprompt.md` v3.33 – maßgeblich; Änderungen in 2.2 (Beispiel in Schreibform, Muster Gleichungsraster, Obergrenze je Verfahrens-Hauptnummer), 2.2 Pflichtelemente (Fehler finden mit `\rechnung`), 3.1, 3.2 (Raster-Ausnahme), 4.6 (Inhaltstreue), 5.1 e, 6.3.
+- `pruefungsprompt.md` v0.13 – gemeinsame Abschnitte 2.2, 3.2, 4.6, 5.1 e wie v3.33; sonst unverändert.
+- `mathblatt.sty` 2026-09-07d – `gleichungsraster`/`\gl`/`\sgl`, `\beispiel`/`\rechnung`, Felder mit Einheit (`\leerfeld[\%]`, `\feld[cm]{l}`), Umbruch vor Feldern mit Strafe statt Verbot. Gegen Glg T1, Terme T1, Prozent-Heft vom 07.09. kompiliert: 0 Fehler, 0 Overfull.
+- `Anleitung_mathblatt.md` – zu 2026-09-07d.
+- `Testauswertung_Masterprompt_Mathe_2026-09-07.md` – Prüfpunkte Schreibform/Raster, Kasten ohne Fertigkeiten aus Aufgabe 1, Textkürzung für Layout = P, Teile-Zeile wortgleich.
+- `CHANGELOG.md` – Einträge v3.33, v0.13, Vorlage 07d.
+- `blatt-konzept.md` liegt weiterhin nicht bei.
 
 ## 3 Arbeitsstand
-Abgeschlossen: Auswertung der Archive Terme T1/T2 (v3.31) und Prozent Heft (v0.11), alle mit Fable 5.1. Befunde: Prüfskripte 0 Abweichungen, Zählungen stimmen, keine Log-Warnungen; Vorstufe, `\quad`-Regel und Symbolregel umgesetzt. P: Termwert ohne eigene Hauptnummer ohne Abweichungszeile; Erklärsatz vor dem Bau nach Off-Menu-Antwort „1 bis 4"; T2 Aufgabe 2 a) und c) derselbe Term. V (über drei Archive wiederholt): Feld allein in der nächsten Zeile → Vorlage 07c. A: `teilezwei` nie genutzt → Anleitung. Nicht beurteilbar: ob der Schnitt in zwei Teile reproduzierbar ist (früheres Terme-Protokoll fehlte). Testeingabe war „terme zusammenfassen" ohne „kl. 8" – Deutungszeile daher nicht vergleichbar.
-Alle Prompt-Änderungen dieser Lieferung sind ungetestet.
+Abgeschlossen: Auswertung der Archive Glg T1 und Terme T1 (v3.32) und Prozent-Heft (v0.12), alle Fable 5.1. Alle Prüfpunkte der Lieferung 07f erfüllt (Aufgabe 1 je zwölf, `\weit`, Hilfe-Seite aus, Stern am Ende, 0 Abweichungen, keine Log-Warnungen). Messwerte: Terme T1 0 Korrekturrunden von 3, 211 s (vorher 2 von 4, 238 s); Glg T1 1 von 5, 213 s; Prozent 2 von 12, 565 s.
+Befunde P: Beispiele und Fehler-finden-Vorgabe waagerecht mit Pfeilen (Folge der Zwei-Zeilen-Regel); Verfahrens-Hauptnummern mit 14–19 Teilaufgaben; Glg Teile-Zeile weicht von der Teilauswahl ab, Abweichungszeile ohne Anlass; Terme Kasten mit „Punkt vor Strich"; Prozent: vier Aufgabentexte gekürzt, um gedehnte Zeilen zu vermeiden. V: 07c-`\nobreak` dehnt Zeilen, Einheit hinter dem Feld bricht allein um (24 `\mbox`); fehlender Baustein Gleichungsraster. F: `&` im Kasten (Glg). L: Seitentausch (Prozent).
+Alle Prompt-Änderungen dieser Lieferung sind ungetestet; die Vorlage ist nur gegen alte .tex und ein Werkstatt-Testblatt kompiliert.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
-- Rangfolge gedreht: Einstieg jeder Hauptnummer vor Typenvollständigkeit vor Rest der Kette. Reicht das Budget nicht, wandert ein Typ in den nächsten Teil, nie eine Einstiegssprosse. Budget 6/2/4 bleibt.
-- Prüfungsniveau genau eine Teilaufgabe je Hauptnummer, markiert, am Ende; „Erhöht" macht sie anspruchsvoller, nicht zahlreicher. Begründung: Prüfungsniveau wird in einer Einheit nicht erreicht; die Aufgabe ist Vorrat für spätere Einheiten.
-- Aufgabe 1 ist Übung, nicht Diagnose: je Fertigkeit zwei leichte, eine mittlere, je Fallstrick des Blatts eine; rückwärts vom Blatt geplant; höchstens zwölf; keine Fokus-Zeile. Prüfregel (Hinrichtung): jeder Fallstrick aus Aufgabe 1 kommt auf dem Blatt wieder.
-- Vorstufe vier bis fünf, Grundfall in Teil 1 vier- bis fünfmal; Kriterium: die ersten sechs Teilaufgaben jeder Verfahrens-Hauptnummer ohne die Sprossen ab der Mitte lösbar.
-- Teil 0 und „vorbereiten" gestrichen; Fertigkeiten liegen auf jedem Blatt in Aufgabe 1, mehr davon ist ein Fokus.
-- Hilfe-Seite bis Kl. 10 nur auf „mit hilfe"; ab Kl. 11 und im Erarbeitungsmodus wie bisher. Gilt nur für den Masterprompt.
-- Kasten (3.1): je Zeile eine Regel, Varianten derselben Regel zusammen, höchstens fünf Zeilen, nichts aus der Vorstufe.
-- Antwort außerhalb der Buttons wird als Freitext gedeutet, Ergebnis in der Deutungszeile, kein Erklärsatz, kein Zusatzbutton. Ein Blatt je Antwort bleibt („weiter").
-- `\weit` Standard bis Kl. 10 (Masterprompt 4.6); Prüfungsprompt setzt es ohnehin.
-- „start" ist Produkt (Start-PDF für den Schüler), nicht Testeingabe; Messbasis Prüfungsprompt neu ab v0.12.
-- Weiterhin: keine neuen Signalwörter; bis Kl. 10 keine Schulform-Filterung; 3.2 „kein Rechenplatz".
+- Beispiel in der Schreibform des Verfahrens, so viele Zeilen wie Schritte, keine Nebenrechnung; nur der Grundfall, nie der Sternfall. Zwischenzeile (x + 5 − 5 = 9 − 5) nur im ersten Beispiel des Blatts, auf dem der Strich neu ist. Einsetzen: „(wA)"/„(fA)" und Schluss „x = 3 ist Lösung", kein Pfeil, kein Haken.
+- Rechenplatz-Verbot (3.2) bleibt; Ausnahme nur, wo die Schreibform Lerninhalt ist (senkrechte Umformung): Gleichungsraster, zwei Spalten, Zeilenzahl nach Schrittzahl des Grundfalls, graue Linien 9 mm, kein `\feld{x}`. Vorstufe „nur Umformung anschreiben" als eigenes Raster mit Kurzzeile, keine eigene Hauptnummer.
+- Verfahrens-Hauptnummer höchstens zwölf Teilaufgaben, im Raster zehn (Vorstufe vier, Grundfall vier, eine mittlere, ein Stern).
+- Layoutprobleme werden im Satz gelöst, nie durch Änderung von Aufgabentext oder Zahlen.
+- Dreisatz-Schema als Baustein erst, wenn ein Prozent-Lauf zeigt, dass es fehlt.
+- Weiterhin aus 07f: Rangfolge Einstieg vor Typenvollständigkeit; genau ein Stern je Hauptnummer; Aufgabe 1 Übung höchstens zwölf mit Hinrichtung; Hilfe-Seite bis Kl. 10 nur auf „mit hilfe"; Kasten höchstens fünf Zeilen; Budget 6/2/4; „start" ist Produkt, nicht Testeingabe; keine neuen Signalwörter.
 
 ## 5 Offene Punkte und verworfene Ansätze
 Offen:
-- Hält „erste sechs allein lösbar" im Bau? Das Modell beurteilt „lösbar" selbst; erst das PDF zeigt es. Deshalb zwei Themen im Test.
-- Prüfungsprompt: Hilfe-Seite bleibt dort an, weil 3.1 über sie auf die Formelsammlung verweist. Ob die Kl.-10-Regel dort gelten soll, nach dem Test entscheiden.
-- Reproduzierbarkeit des Schnitts (Terme: früher ein Blatt, jetzt zwei Teile, mit v3.32 vermutlich drei). Frühere Protokolle desselben Themas in der Werkstatt sammeln.
-- T2 Aufgabe 2 a) und c) derselbe Term (Vorstufe und Grundfall): gewollt oder Verstoß gegen 3.6 – nicht entschieden.
-- Abweichungszeile im Ausgabeblock, wenn ein Typ keine eigene Hauptnummer bekommt (T1 Termwert): Prompt verlangt sie, das Modell hat sie nicht geschrieben; beim nächsten Lauf prüfen.
-- Auslöser-Inventar aufschreiben und Ungenutztes streichen (aus 07e, weiter offen).
-- `\kreuz`-Zeilen brechen bei vielen Kästchen um (T1 4 m, Klasse F); erst bei Wiederholung ein Vorlagen-Befund.
+- Passt ein Glg-Teil-1 mit drei Raster-Hauptnummern in vier Seiten? Erst der Bau zeigt es; sonst Schnitt in drei Teile oder Obergrenze acht.
+- Terme T1: greift das Raster dort (Zusammenfassen ist einzeilig – vermutlich nein; Ausmultiplizieren in Teil 2 vermutlich ja)?
+- Terme wurde zweimal ohne „kl. 8" getestet; Deutungszeile bleibt unvergleichbar, bis die Eingabe wortgleich ist.
+- Prüfungsprompt: Hilfe-Seite bleibt an; Kl.-10-Regel dort noch nicht entschieden.
+- Reproduzierbarkeit des Schnitts (Terme zweimal 2 Teile); Auslöser-Inventar; `\kreuz`-Umbruch bei vielen Kästchen (aus 07f, weiter offen).
 Verworfen:
-- Button „alle": verspricht mehr als ein Tap liefert (baut trotzdem nur Teil 1) und ist ein Signalwort.
-- Teil 0 als Warm-up-Blatt: zweiter Mechanismus für dasselbe Bedürfnis, nie gebaut.
-- „So viele Übungsaufgaben wie nötig" ohne Form: nicht prüfbar, führte in T1 zu 13–14 Teilaufgaben je Hauptnummer.
-- Zwei Sternaufgaben je Hauptnummer bei „Erhöht": Mengenhebel gegen das Ziel „Schwerpunkt unten".
+- Vorstufe „Umformung anschreiben" als eigene Hauptnummer: kostet eine von sechs Hauptnummern für einen Vorschritt.
+- Linien ganz weglassen (Karopapier-Gewohnheit): keine Orientierung, wo die nächste Gleichung beginnt.
+- Zwischenzeile in jedem Beispiel: kostet bei Klammern und x beidseitig zu viele Zeilen; der Strich ist ab dem zweiten Beispiel bekannt.
+- Aus 07f weiterhin: Button „alle"; Teil 0; „so viele Übungsaufgaben wie nötig"; zwei Sterne bei „Erhöht".
 
 ## 6 Nächster Arbeitsschritt
 Teste
-* Masterprompt v3.32: „terme zusammenfassen kl. 8"
-* Masterprompt v3.32: „lineare gleichungen kl. 8"
-* Prüfungsprompt v0.12: „prozent"
-Ergebnis-Zips mit dieser Lieferung in einen neuen Chat. Auswertung nach Testauswertung; Schwerpunkt: Aufgabe 1 als Übung mit Hinrichtung, Vorstufe vier bis fünf, erste sechs allein lösbar, Kasten fünf Zeilen, Hilfe-Seite aus, `\weit` gesetzt, Felder nicht allein umgebrochen, Teilzahl je Thema; Terme gegen die Archive vom 07.09. (T1: 2 Korrekturrunden von 4 Schritten, 238 s).
+* Masterprompt v3.33: „lineare gleichungen kl. 8" → Teil 1 (Raster in Aufgabe 3–5, Beispiele senkrecht, Fehler finden mit `\rechnung`, Seitenzahl)
+* Masterprompt v3.33: „terme zusammenfassen kl. 8" → Teil 2 („weiter"; Ausmultiplizieren im Raster?)
+* Prüfungsprompt v0.13: „prozent" (Felder mit Einheit ohne `\mbox`, keine Textkürzung, Seitenzahl)
+Ergebnis-Zips mit dieser Lieferung in einen neuen Chat. Auswertung nach Testauswertung; Schwerpunkt: Schreibform der Beispiele, Raster-Zeilenzahl je Hauptnummer, Teilaufgaben je Hauptnummer, Seiten vor dem Begleitteil, Korrekturrunden gegen Glg 1/5, Terme 0/3, Prozent 2/12.

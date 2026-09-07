@@ -1,4 +1,5 @@
 % mathblatt.sty – Vorlage für Nachhilfe-Arbeitsblätter, Stufe 3 (Sek I und Oberstufe)
+% Version 2026-09-07d (neu: gleichungsraster mit \gl/\sgl, \beispiel und \rechnung senkrecht; feld/feldl/leerfeld mit optionaler Einheit im Kasten, Umbruch davor erlaubt mit Strafe statt verboten)
 % Version 2026-09-07c (weit auf 1,6/6 pt; leerfeld 3 cm, feld 2 cm; Felder brechen nicht mehr allein in die nächste Zeile um)
 % Version 2026-09-07b (neu: sachtabelle mit Kopfzeile, leerzelle, kreisdiagrammleer; gerade: Label nicht mehr auf den Achsen)
 % Version 2026-09-07a (gerade: Label bleibt in der Zeichenfläche – Kante nach Austrittsseite, sonst Suche wie bei funktion; sonst wie 06e)
@@ -149,11 +150,39 @@
 \newcommand{\tz}{\stepcounter{teil}\alph{teil})\ }
 \newcommand{\stz}{\stepcounter{teil}$\star$\,\alph{teil})\ }
 
-% Antwortfeld: \feld{m} → "m = ____"   ;  \feldx{x_0}  (Mathe-Bezeichner)
-\newcommand{\feld}[1]{\unskip\nobreak\hspace{0.5em}\ensuremath{#1 = \underline{\hspace{2cm}}}\hspace{0.8em}}
-\newcommand{\feldl}[1]{\unskip\nobreak\hspace{0.5em}\ensuremath{#1 = \underline{\hspace{3cm}}}\hspace{0.8em}}
-% Leeres Feld ohne Bezeichner und ohne Gleichheitszeichen: \leerfeld  (nach eigenem Text wie „alter Preis:")
-\newcommand{\leerfeld}{\unskip\nobreak\hspace{0.5em}\underline{\hspace{3cm}}\hspace{0.8em}}
+% Gleichungsraster: zwei Spalten, unter jeder Gleichung Schreibzeilen (grau, 9 mm) fuer die
+% senkrechte Umformung. Optionales Argument = Schreibzeilen je Gleichung (Standard 2),
+% je Gleichung ueberschreibbar. Stern mit \sgl. Zeilenende mit \\ wie in teilezwei.
+%   \begin{gleichungsraster}[2]
+%   \gl{x + 5 = 9} & \gl{x - 3 = 4} \\
+%   \gl[3]{2x + 3 = 11} & \sgl[3]{7 - 2x = 15} \\
+%   \end{gleichungsraster}
+\newcounter{mbsz}
+\newcommand{\mbglzeilen}{2}
+\newcommand{\schreibzeilen}[1]{\par\nointerlineskip\setcounter{mbsz}{0}%
+  \loop\ifnum\value{mbsz}<#1\relax
+    \vspace*{9mm}\noindent{\color{black!40}\rule{\linewidth}{0.4pt}}\par\nointerlineskip
+    \stepcounter{mbsz}\repeat\vspace{3pt}}
+\newenvironment{gleichungsraster}[1][2]{\mbteilstart\renewcommand{\mbglzeilen}{#1}\par\nopagebreak
+  \begin{tabular}{@{}p{0.46\linewidth}@{\hspace{0.08\linewidth}}p{0.46\linewidth}@{}}}{\end{tabular}\par}
+\newcommand{\gl}[2][\mbglzeilen]{\stepcounter{teil}\alph{teil})\ $#2$\schreibzeilen{#1}}
+\newcommand{\sgl}[2][\mbglzeilen]{\stepcounter{teil}$\star$\,\alph{teil})\ $#2$\schreibzeilen{#1}}
+
+% Senkrechte Rechnung: Gleichheitszeichen untereinander, Umformung hinter dem Strich in
+% eigener Spalte (&&). \beispiel setzt "Beispiel:" davor; \rechnung ohne Vorspann
+% (Vorgabe-Rechnung in Fehler-finden-Aufgaben, Beispiel im Begleitteil).
+%   \beispiel{x + 5 &= 9 &&\mid -5 \\ x + 5 - 5 &= 9 - 5 \\ x &= 4}
+%   \beispiel{x + 4 &= 7 && x = 3 \\ 3 + 4 &= 7 \\ 7 &= 7 && \text{(wA)}\quad x = 3 \text{ ist Lösung}}
+\newcommand{\rechnung}[1]{\par\nopagebreak\noindent\hspace{1.6em}$\begin{aligned}[t]#1\end{aligned}$\par\nopagebreak}
+\newcommand{\beispiel}[1]{\par\nopagebreak\noindent Beispiel:\ $\begin{aligned}[t]#1\end{aligned}$\par\nopagebreak}
+
+% Antwortfeld: \feld{m} → "m = ____"; \feld[cm]{x} → "x = ____ cm" (Feld und Einheit in einem Kasten)
+% Vor dem Feld ist ein Umbruch erlaubt, aber teuer (penalty 500): TeX dehnt die Zeile nur, wenn das billiger ist.
+\newcommand{\mbfeldkasten}[2]{\mbox{\underline{\hspace{#1}}\ifblank{#2}{}{\,#2}}}
+\newcommand{\feld}[2][]{\unskip\penalty500\hspace{0.5em}\mbox{\ensuremath{#2 = }\mbfeldkasten{2cm}{#1}}\hspace{0.8em}}
+\newcommand{\feldl}[2][]{\unskip\penalty500\hspace{0.5em}\mbox{\ensuremath{#2 = }\mbfeldkasten{3cm}{#1}}\hspace{0.8em}}
+% Leeres Feld ohne Bezeichner: \leerfeld (3 cm); \leerfeld[\%] mit Einheit
+\newcommand{\leerfeld}[1][]{\unskip\penalty500\hspace{0.5em}\mbfeldkasten{3cm}{#1}\hspace{0.8em}}
 \newcommand{\punktfeld}{\ensuremath{S(\underline{\hspace{0.8cm}}\,|\,\underline{\hspace{0.8cm}})}}
 
 % Antwortgerüst in Fluchten: Umgebung geruest, Zeilen mit \gz{a}{Aufgabentext}{Felder}

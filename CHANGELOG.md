@@ -3,6 +3,7 @@
 Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anleitung bis dahin im Repo nachhilfe-arbeitsblatt-vorlage). Ältere Fassungen (v3.27, v0.7) liegen in der Werkstatt; ab v3.28/v0.8 hält die Git-Historie jede Fassung. Masterfassungen: `masterprompt.md` (Themen ohne Katalog) und `pruefungsprompt.md` (Prüfungsprompt, Themen mit Katalog; bis v0.7 `blatt-prompt.md`). Die Projektanweisungen in den Claude-Projekten sind Kopien; Zeile 2 nennt die Version. Änderungen an den gemeinsamen Abschnitten 3–6 werden in beiden Prompts gemacht und hier je einmal genannt.
 
 ## masterprompt.md
+- 2026-09-07 v3.33: 2.2 Beispiel in der Schreibform des Verfahrens statt „höchstens zwei Zeilen“ (senkrecht mit `\beispiel`, Zwischenzeile nur im ersten Beispiel, Einsetzen mit „(wA)“); Muster Gleichungsraster; Verfahrens-Hauptnummer höchstens zwölf, im Raster zehn. 3.1 keine Fertigkeiten aus Aufgabe 1 im Kasten. 3.2 Ausnahme vom Rechenplatz-Verbot: Umformungs-Hauptnummern im `gleichungsraster`. Fehler-finden-Vorgabe mit `\rechnung`. 4.6 Layout nie durch Textänderung retten. 5.1 e Schreibform. 6.3 Teile-Zeile wortgleich mit Teilauswahl. Befunde aus Glg T1 und Terme T1 (v3.32), Prozent-Heft (v0.12).
 
 - 2026-09-07 v3.32 (nach Auswertung Terme T1/T2 mit v3.31 und Prozent Heft mit v0.11, Fable 5.1; Werkstatt-Entscheidungen): Abschnitt 0 Rangfolge gedreht – Einstieg jeder Hauptnummer (Übung, Vorstufe, Grundfall) vor Typenvollständigkeit vor Rest der Kette; Prüfungsniveau genau eine Teilaufgabe je Hauptnummer, „Erhöht" ohne zweite Sternaufgabe (1.4, 2.2 c). 2.1/2.2 Aufgabe 1 von Check zu Übung: je Fertigkeit zwei leichte, eine mittlere, je Fallstrick des Blatts eine, rückwärts geplant, höchstens zwölf; Fokus-Zeile entfällt; „vorausgehende Themen" statt „früher". 2.2 b Vorstufe vier bis fünf, Grundfall in Teil 1 vier- bis fünfmal, Kriterium „erste sechs allein lösbar" (auch 5.1 b). Teil 0 und „vorbereiten" gestrichen (0, 1.1, 1.2, 2.2, 3.1, 6.4). 1.1 Antwort außerhalb der Buttons als Freitext, kein Erklärsatz. 3.1 Kasten: eine Regel je Zeile, Varianten zusammen, fünf Zeilen, nichts aus der Vorstufe. 4.2 Hilfe-Seite bis Kl. 10 nur auf Zuruf. 4.6 `\weit` bis Kl. 10. 4.1 Muster Begleitteil mit `\quad`. Ungetestet.
 - 2026-09-07 v3.31 (nach Diskussion Terme zusammenfassen Kl. 8, drei Fassungen in einem Chat): 2.2 b Vorstufe – Verfahren mit Erkennungsschritt beginnen bis Kl. 10 mit zwei bis drei Teilaufgaben, die nur diesen Schritt verlangen (Standard bei Lernblatt und Teilen, nicht bei Fokus, kurz, Test). 3.4 Teillösungen durch `\quad` statt `|`. 3.6 Symbolregel: keine unerklärten Buchstaben, ein Buchstabe je Blatt für eine Sache. Ungetestet.
@@ -12,6 +13,7 @@ Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anlei
 - 2026-09-05 v3.27: Budget mit Zähldefinition; Umgruppieren nur nach 4.3; Achtung-Hinweise nach Aufgabenart; Protokoll-Archiv als zweite Datei.
 
 ## pruefungsprompt.md (Prüfungsprompt; bis v0.7 blatt-prompt.md)
+- 2026-09-07 v0.13: 2.2 Beispiel in Schreibform, 3.2 Raster-Ausnahme, 4.6 Layout nie durch Textänderung, 5.1 e Schreibform (gemeinsame Abschnitte wie v3.33). Prozent-Heft v0.12 hatte vier Aufgabentexte gekürzt, um gedehnte Zeilen zu vermeiden.
 
 - 2026-09-07 v0.12: 4.1 Muster Begleitteil mit `\quad` (wie 3.4); 6.3 Versionszeile nachgezogen (stand auf v0.10). Bauregeln unverändert; Hilfe-Seite bleibt an (3.1 verweist über sie auf die Formelsammlung) – offen, ob die Kl.-10-Regel des Masterprompts hier gelten soll.
 - 2026-09-07 v0.11: 3.4 Teillösungen durch `\quad` statt `|`; 3.6 Symbolregel wie Masterprompt v3.31. Bauregeln unverändert. Ungetestet.
@@ -27,6 +29,7 @@ Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anlei
 - 2026-09-06 v0.1: angelegt; Abschnitte 0–2 eigen, 3–6 aus Masterprompt v3.27 mit den Abweichungen aus blatt-konzept §5.
 
 ## mathblatt.sty und Anleitung_mathblatt.md
+- 2026-09-07d: neu `gleichungsraster` mit `\gl`/`\sgl` (zwei Spalten, graue Schreibzeilen 9 mm, Zeilenzahl als Argument), `\beispiel` und `\rechnung` (senkrechte Rechnung über `aligned`); `\feld`, `\feldl`, `\leerfeld` mit optionaler Einheit in einem Kasten (`\leerfeld[\%]`), Umbruch vor dem Feld mit `\penalty500` statt `\nobreak` (07c erzeugte gedehnte Zeilen, Prozent-Heft brauchte 24 `\mbox`). Gegen Glg T1, Terme T1, Prozent-Heft vom 07.09. kompiliert: 0 Overfull, Underfull 1/1/1 (vorher 0/1/2). Anleitung: Raster-Regel, Beispiel-Syntax, Einheit im Feld; Stufe-4-Liste: Dreisatz-Schema.
 
 Die Versionszeile steht in Zeile 2 der `.sty`; die Anleitung nennt in Zeile 2, zu welcher Vorlagenversion sie gehört. Ältere Einträge stehen im Kopf der `.sty`.
 
