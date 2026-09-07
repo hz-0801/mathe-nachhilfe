@@ -1,6 +1,6 @@
 # Blatt-Konzept – Nachhilfehefte aus dem Prüfungskatalog
 
-Stand 2026-09-06, v0.6. Ergänzt `konzept.md` (Katalog). Für die Heft-Phase gilt bei Widerspruch diese Datei. Baumaschine ist der MSA-Prompt (§5), der nur als Projektanweisung im Aufgaben-Projekt liegt, nicht im Repo: Abschnitte 0–2 eigen, Abschnitte 3–6 aus dem Masterprompt v3.27 übernommen. Diese Datei regelt, was sich durch den Katalog als Quelle ändert; die Bauregeln selbst stehen im Prompt.
+Stand 2026-09-07, v0.7. Ergänzt `konzept.md` (Katalog). Für die Heft-Phase gilt bei Widerspruch diese Datei. Baumaschine ist der Prüfungsprompt (`pruefungsprompt.md`, bis v0.7 `blatt-prompt.md`; §5); seine Masterfassung liegt im Repo, die Projektanweisung im Aufgaben-Projekt ist eine Kopie mit Versionszeile. Abschnitte 0–2 eigen, Abschnitte 3–6 aus dem Masterprompt hervorgegangen. Diese Datei regelt, was sich durch den Katalog als Quelle ändert; die Bauregeln selbst stehen im Prompt.
 
 ## 1 Ziel
 
@@ -42,9 +42,11 @@ Eigener MSA-Prompt, kein Profil am Masterprompt. Entscheidung nach Stufe 2, Begr
 - Masterprompt 1.4 ist für Kl. 10 sachlich veraltet („P10 für alle drei Schulformen"; seit 2025/26 keine P10 am Gymnasium, seit 2026 getrennte EBR/FOR-Hefte). Im MSA-Prompt ist der Stoffstand fest: Kl. 10, FOR. Befund für die nächste Masterprompt-Fassung.
 - Abschnitte 3–6 werden wortgleich übernommen mit gezielten Abweichungen: 3.1 kein Übersichtskasten (siehe Festlegungen), 3.4 Lösungen, 4.1 Reihenfolge ohne Kasten, 4.2 Hilfe-Seite mit Verweis auf die Formelsammlung, 4.6 Dateinamen mit Typkürzel (`Heft`, `Basis`, `Vorb`, `Fokus_[Typ]`, `Pruefung`), Start-PDF mit `_Start`, Datum nur im Archiv, 6.3 ohne Orientierungszeile (kein Schnitt), protokoll.txt mit Kapitelstruktur statt Schnitt.
 
-Regel gegen Auseinanderlaufen: Änderungen an 3–6 werden zuerst im Masterprompt gemacht und dann in den MSA-Prompt übertragen; der Kopf des MSA-Prompts nennt die Masterprompt-Version, aus der 3–6 stammen. Die Testauswertung gilt für beide Prompts.
+Aufteilung nach Quelle (2026-09-07): Zwei Prompts, unterschieden allein danach, woher Typen und Decke kommen. Der Prüfungsprompt (`pruefungsprompt.md`) baut alle Prüfungen, für die ein Katalog vorliegt – heute msa; fhr und abi kommen als Profil dazu, sobald ihr Katalog erfasst ist. Ein Profil ist ein kurzer Faktenblock (Prüfung, Stoffstand, Hilfsmittel, Probeprüfungsformat, Notation, Dateipräfix); Teil A/B, Kursart und Rechnervariante sind Katalogspalten (`block`, `hilfsmittel`, `papier`), keine Prompt-Struktur. Der Masterprompt baut alles ohne Katalog: laufenden Unterricht Kl. 8–13, Klassenarbeiten und Prüfungsschüler, deren Katalog noch fehlt. Er wird nicht abgelöst, weil der Unterricht nie einen Katalog hat.
 
-Verworfen: gemeinsamer Kern 3–6 als eigene Datei für beide Prompts – sauberer, aber Neustrukturierung des Masterprompts und zwei Dateien je Upload; erst wieder prüfen, wenn ein drittes Profil (abi) dazukommt.
+Pflege der gemeinsamen Abschnitte 3–6: Die Regel „Änderungen zuerst im Masterprompt" ist aufgehoben. Was quellenunabhängig ist (Pipeline, Prüfung, Protokoll, Hilfe-Seite, Kette), wird in beiden Prompts geändert und im CHANGELOG je einmal genannt; was aus der Quelle folgt (Kasten, Budget und Schnitt, Stern-Schwelle, Fehler-finden-Pflicht, Ergebnisformat), bleibt verschieden. Die Testauswertung gilt für beide Prompts und trennt die Befunde nach Prompt, Vorlage und Anleitung.
+
+Verworfen, endgültig: gemeinsamer Kern 3–6 als geholte Datei. Geholter Text wirkt schwächer als die Projektanweisung, und der Unterschied zwischen den Prompts kommt aus der Quelle, nicht aus dem Wortlaut – ein Kern müsste jede quellenbedingte Abweichung als Schalter tragen. Ein Profil des Masterprompts für Katalogthemen bleibt verworfen (oben).
 
 ## 6 Festlegungen
 
@@ -77,6 +79,8 @@ Verworfen: gemeinsamer Kern 3–6 als eigene Datei für beide Prompts – sauber
 - Heft A (Originalsammlung mit Lösungen): Scope unklar, getrennte Layoutarbeit, nicht Teil dieses Konzepts.
 - Vom Lehrer unbestätigt: Vorbereitung ohne Zuruf bei bekannten Vorwissenslücken (§2).
 - Katalog prüfen: keine Gymnasial-Aufgabe-1 (hilfsmittelfrei 2019–2025) enthalten; papier-Feld sieht sauber aus.
+- Zip-Regressionssatz: Die .tex-Dateien der Protokoll-Archive werden in der Werkstatt gesammelt; jede neue Vorlage läuft dort gegen alle alten .tex, bevor sie ins Repo geht. Nicht ins öffentliche Repo (Aufgabentexte, bei „original" wortgleiche Prüfungsaufgaben).
+- Profil fhr: Die FHR-Lehrerhefte enthalten den Erwartungshorizont (geprüft 2026-09-07 an 26_FOS_Ma_LH_B); je Termin zwei gleichwertige Aufgabensätze, alle Aufgaben Pflicht, Formelsammlung und Taschenrechner ohne CAS. Katalog noch nicht erfasst.
 
 ## 8 Nächste Stufen
 
@@ -96,3 +100,4 @@ Verworfen: gemeinsamer Kern 3–6 als eigene Datei für beide Prompts – sauber
 - 2026-09-06 v0.4: nach Auswertung Themenheft 2 und Probeprüfung 2025. Herkunft nur im Protokoll; Kopfzeile, zwei PDFs, Vorablauf auf Zuruf; Originale gleicher Merkmale eine Sprosse; Probeprüfung nie wortgleich; Prompt nur als Projektanweisung. Vorlage 2026-09-06c (blattkopf, weit, kreissektor, leerfeld, drei Reparaturen).
 - 2026-09-06 v0.5: nach Auswertung Themenheft Prozent 3 („start") und Lineare Funktionen 1. Stern = Prüfungsaufgabe (Niveaumarke); Hilfe-Seite ohne Ergebnisse des Hefts; Dateirollen, Datum nur im Archiv; Skriptausgabe mit Sollwerten; 4.3/5.1 c ohne Widerspruch (Achsenbereich statt Grafik), Seitenfüllung als Maß. Vorlage 2026-09-06d (Legende als Argument). Befund: 2026-09-06c war nicht im Repo, beide Läufe bauten gegen b.
 - 2026-09-06 v0.6: nach Auswertung Prozent 4 („start") und Lineare Funktionen 2 mit v0.5. Ein PDF statt zwei; Grundfall-Originale sind Grundfall-Teilaufgaben mit Stern, keine Zusatzsprosse; Hilfe-Seite ungekürzt und mehrseitig; höchstens vier Graphen je Ablesegrafik, Gefragtes sichtbar in der Fläche; Zählung aus dem Kompilat; chat.txt mit übergebenen Dateinamen. Vorlage 2026-09-06e (`\wertetabelle` mit leeren Feldern).
+- 2026-09-07 v0.7: nach Chat „Werkstatt – Architektur". §5 Aufteilung nach Quelle: Prüfungsprompt für alle Prüfungen mit Katalog (Profile als Faktenblock), Masterprompt für alles ohne Katalog; Regel „zuerst im Masterprompt" aufgehoben, 3–6 in beiden Prompts gepflegt; gemeinsamer Kern endgültig verworfen. Masterfassung des Prüfungsprompts im Repo (hebt v0.4 „nur als Projektanweisung" auf). Prompt-Historien in CHANGELOG.md. §7: Zip-Regressionssatz, FHR-Befunde. Prüfungsprompt v0.8 (Datei `pruefungsprompt.md`), Masterprompt v3.28. Repo umbenannt in mathe-nachhilfe, Vorlage und Anleitung darin; das Vorlagen-Repo wird archiviert, sobald der erste Lauf mit der neuen Adresse gebaut hat.

@@ -1,0 +1,1482 @@
+% mathblatt.sty – Vorlage für Nachhilfe-Arbeitsblätter, Stufe 3 (Sek I und Oberstufe)
+% Version 2026-09-06e (wertetabelle: leere Einträge in der Werteliste ergeben leere Felder; sonst wie d)
+% Version 2026-09-06d (blattkopf*: Legendentext als drittes Argument, kein Text mehr in der Vorlage; sonst wie c)
+% Version 2026-09-06c (neu: blattkopf mit Sternlegende, weit/eng, kreissektor, leerfeld; Reparaturen: kreisdiagramm-Überlauf, schritte-Zähler, geruest-Umbruch; blattfuss unverändert)
+% Version 2026-09-05i (Stufe 2: ksys-leit, Achsenzahlen, teil-Zaehler, Koerper, rquader/rpyramide,
+%                      boxplots, histogramm, kreis, Winkelfiguren, Dezimalkomma;
+%                      Block 5 Analysis: ableitungspaar, flaeche, flaechezwischen, tangentean,
+%                      hochpunkt/tiefpunkt/wendepunkt, asymptote; Kurvenlabel neu positioniert;
+%                      Block 6 Stochastik: baumdrei, kreisdiagramm, vierfeldertafel,
+%                      binomialverteilung, normalverteilung; histogramm mit titel;
+%                      Block 7 Geometrie: viereck (+parallelogramm, rechteck, trapez, raute, drachen),
+%                      Netze, strahlensatz, mittelpunktswinkel, umfangswinkel;
+%                      Block 8 Zahlen/Trigo: zahlenstrahl, zahlengerade+intervall, bruchkreis,
+%                      bruchrechteck, termbaum, einheitskreis, ksys[trigo], sinus, kosinus;
+%                      05h: \x in Nutzertermen geklammert (\x^2 bei x<0), Baumlabels frei,
+%                      Radius-/Durchmesser-/Sehnenlabel neben der Linie;
+%                      05i: \funktion[x]/\funktionab[x] mit Labelstelle)
+%
+% Verwendung:  \usepackage{mathblatt}   (Datei neben der .tex-Datei)
+% Kompilieren mit  xelatex  (saubere Schrift, Umlaute, €, Textextraktion);
+% pdflatex geht auch, liefert aber ohne cm-super/lmodern Bitmap-Schriften.
+% Alle Makros sind unten mit Beispiel dokumentiert. Das Modell schreibt nur
+% Inhalt; Layout, Grafikgrößen und Ausrichtung sind hier festgelegt.
+%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mathblatt}[2026/09/06 Nachhilfe-Arbeitsblatt 2026-09-06e]
+
+\RequirePackage[a4paper,margin=18mm,top=16mm,bottom=18mm]{geometry}
+\RequirePackage{iftex}
+\ifPDFTeX
+  \RequirePackage[T1]{fontenc}
+  \RequirePackage[utf8]{inputenc}
+  \IfFileExists{lmodern.sty}{\RequirePackage{lmodern}}{}
+\else % xelatex oder lualatex
+  \RequirePackage{fontspec}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+  \setmonofont{Latin Modern Mono}
+\fi
+\RequirePackage{amsmath,amssymb}
+\RequirePackage{xcolor}
+\RequirePackage{tikz}
+\RequirePackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,arrows.meta,shapes.misc}
+\RequirePackage{tcolorbox}
+\RequirePackage{fancyhdr}
+\RequirePackage{array,colortbl,booktabs}
+\RequirePackage{etoolbox}
+\RequirePackage{pgffor}
+\RequirePackage{xparse}
+\RequirePackage{ifthen}
+\RequirePackage{needspace}
+\IfFileExists{parskip.sty}{\RequirePackage{parskip}}{\setlength{\parindent}{0pt}\setlength{\parskip}{4pt}}
+\IfFileExists{ngerman.ldf}{\RequirePackage[ngerman]{babel}}{}
+
+% Alle Achsenzahlen mit Dezimalkomma und ohne Tausendertrennung
+\pgfkeys{/pgf/number format/.cd,use comma,1000 sep={},precision=3,fixed,fixed zerofill=false}
+
+\definecolor{mbgrau}{gray}{0.55}
+\definecolor{mbgitter}{gray}{0.82}
+\definecolor{mbkasten}{gray}{0.94}
+
+% ---------------------------------------------------------------------------
+% A  Grundgerüst
+% ---------------------------------------------------------------------------
+
+% \blattfuss{Lineare Funktionen}{Lernblatt Teil 1 von 3}   unverändert: Thema · Bezeichnung unten links, Seite unten rechts
+\newcommand{\blattfuss}[2]{%
+  \pagestyle{fancy}\fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[L]{\footnotesize\color{mbgrau}#1 \,\textperiodcentered\, #2}%
+  \fancyfoot[R]{\footnotesize\color{mbgrau}Seite \thepage}%
+}
+% \blattkopf{Prozentrechnung}{Themenheft}   Alternative: Thema · Bezeichnung oben links, Seite unten rechts;
+%   \blattkopf*{...}{...}{$\star$ = Prüfungsaufgabe} setzt zusätzlich die Legende unten links; den Text
+%   liefert der Aufruf (Mathemodus für den Stern), die Vorlage enthält keinen Legendentext.
+% \weit   Schalter: Teilaufgaben- und Gerüstzeilen im Aufgabenteil um ein Drittel weiter; vor der ersten
+%   Aufgabe setzen. Wirkt nicht auf Begleitteil und Hilfe-Seite (\eng setzt zurück). Voreinstellung: eng.
+\newcommand{\weit}{\renewcommand{\arraystretch}{1.35}\setlength{\mbteilsep}{4pt}}
+\newcommand{\eng}{\renewcommand{\arraystretch}{1.0}\setlength{\mbteilsep}{0pt}}
+\newlength{\mbteilsep}\setlength{\mbteilsep}{0pt}
+\NewDocumentCommand{\blattkopf}{s m m}{%
+  \pagestyle{fancy}\fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyhead[L]{\footnotesize\color{mbgrau}#2 \,\textperiodcentered\, #3}%
+  \fancyfoot[R]{\footnotesize\color{mbgrau}Seite \thepage}%
+  \IfBooleanT{#1}{\mbblattkopflegende}%
+}
+\NewDocumentCommand{\mbblattkopflegende}{m}{\fancyfoot[L]{\footnotesize\color{mbgrau}#1}}
+
+% Übersichtskasten: \uebersichtskasten{Text}  oder  \uebersichtskasten[Grafik]{Text}
+% Mit Grafik: Text links (60 %), Grafik rechts, beide oben bündig.
+\NewDocumentCommand{\uebersichtskasten}{+o +m}{%
+  \begin{tcolorbox}[colback=mbkasten,colframe=mbgrau,boxrule=0.4pt,arc=1pt,
+                    left=4pt,right=4pt,top=4pt,bottom=4pt]
+  \IfNoValueTF{#1}{#2}{%
+    \begin{minipage}[t]{0.60\linewidth}\vspace{0pt}#2\end{minipage}\hfill
+    \begin{minipage}[t]{0.37\linewidth}\vspace{0pt}#1\end{minipage}}%
+  \end{tcolorbox}}
+
+% Sternlegende (einmal im Kasten): \sternlegende
+\newcommand{\sternlegende}{\par\smallskip{\small$\star$ = anspruchsvoll, darf übersprungen werden}}
+
+% Aufgaben: Umgebung aufgabe – die komplette Hauptnummer samt Teilaufgaben,
+% Tabellen und Grafiken bleibt auf einer Seite; passt sie nicht mehr, rückt
+% sie als Ganzes auf die nächste.
+%   \begin{aufgabe}{Bestimme Steigung und y-Achsenabschnitt.}
+%     \begin{teile}\teil ... \end{teile}
+%     \begin{ksys}[...]\end{ksys}
+%   \end{aufgabe}
+\newcounter{aufgabe}
+\newsavebox{\mbaufgabebox}
+\newlength{\mbaufgabehoehe}
+\newif\ifmbinaufgabe
+\newenvironment{aufgabe}[1]{%
+  \stepcounter{aufgabe}\setcounter{teil}{0}\mbinaufgabetrue
+  \begin{lrbox}{\mbaufgabebox}%
+  \begin{minipage}[t]{\linewidth}%
+  \noindent\textbf{\theaufgabe.}\ #1\par}%
+ {\end{minipage}\end{lrbox}%
+  \setlength{\mbaufgabehoehe}{\dimexpr\ht\mbaufgabebox+\dp\mbaufgabebox\relax}%
+  \par\addvspace{5pt}%
+  \ifdim\mbaufgabehoehe>\textheight
+    \PackageWarning{mathblatt}{Hauptnummer \theaufgabe\space ist hoeher als eine
+      Seite und wird umbrochen}%
+  \else
+    \Needspace*{\mbaufgabehoehe}%
+  \fi
+  \noindent\usebox{\mbaufgabebox}\par\addvspace{5pt}}
+
+% Teilaufgaben: Umgebung teile; \teil{...} und \steil{...} (mit Stern)
+% Der Buchstabenzaehler laeuft innerhalb einer aufgabe ueber alle teile-, teilezwei-,
+% geruest-Bloecke und Listenmakros weiter; ausserhalb einer aufgabe beginnt jeder Block bei a).
+\newcounter{teil}
+\newcommand{\mbteilstart}{\ifmbinaufgabe\else\setcounter{teil}{0}\fi}
+\newenvironment{teile}{\mbteilstart\par\nopagebreak
+  \begin{list}{}{\setlength{\leftmargin}{1.6em}\setlength{\labelwidth}{1.4em}
+   \setlength{\labelsep}{0.2em}\setlength{\itemsep}{\mbteilsep}\setlength{\parsep}{0pt}
+   \setlength{\topsep}{1pt}}}{\end{list}}
+\newcommand{\teil}{\stepcounter{teil}\item[\alph{teil})]}
+\newcommand{\steil}{\stepcounter{teil}\item[$\star$\,\alph{teil})]}
+% Zweispaltig: Umgebung teilezwei (kurze Teilaufgaben nebeneinander)
+\newenvironment{teilezwei}{\mbteilstart\par\nopagebreak
+  \begin{tabular}{@{}p{0.48\linewidth}@{}p{0.48\linewidth}@{}}}{\end{tabular}\par}
+\newcommand{\tz}{\stepcounter{teil}\alph{teil})\ }
+\newcommand{\stz}{\stepcounter{teil}$\star$\,\alph{teil})\ }
+
+% Antwortfeld: \feld{m} → "m = ____"   ;  \feldx{x_0}  (Mathe-Bezeichner)
+\newcommand{\feld}[1]{\ensuremath{#1 = \underline{\hspace{1.4cm}}}\hspace{0.8em}}
+\newcommand{\feldl}[1]{\ensuremath{#1 = \underline{\hspace{2.6cm}}}\hspace{0.8em}}
+% Leeres Feld ohne Bezeichner und ohne Gleichheitszeichen: \leerfeld  (nach eigenem Text wie „alter Preis:")
+\newcommand{\leerfeld}{\underline{\hspace{1.4cm}}\hspace{0.8em}}
+\newcommand{\punktfeld}{\ensuremath{S(\underline{\hspace{0.8cm}}\,|\,\underline{\hspace{0.8cm}})}}
+
+% Antwortgerüst in Fluchten: Umgebung geruest, Zeilen mit \gz{a}{Aufgabentext}{Felder}
+%   \begin{geruest}
+%   \gz{a}{$y = 3x + 2$}{\feld{m}\feld{n}}
+%   \gz{b}{$y = -x + 5$}{\feld{m}\feld{n}}
+%   \end{geruest}
+\newenvironment{geruest}{\mbteilstart\par\nopagebreak
+  \begin{tabular}{@{\hspace{0.4em}}l@{\hspace{0.4em}}l@{\hspace{1.2em}}l@{}}}{\end{tabular}\par}
+% Aufgabentext länger als \mbgzmax (Satzspiegel minus 6 cm für die Felder) wird umbrochen.
+\newlength{\mbgzmax}\newlength{\mbgzw}
+\newcommand{\mbgztext}[1]{\setlength{\mbgzmax}{\dimexpr\linewidth-6cm\relax}\settowidth{\mbgzw}{#1}%
+  \ifdim\mbgzw>\mbgzmax\parbox[t]{\mbgzmax}{\strut\raggedright #1\strut\vspace{2pt}}\else #1\fi}
+\newcommand{\gz}[3]{\stepcounter{teil}#1) & \mbgztext{#2} & #3 \\}
+\newcommand{\gzs}[3]{\stepcounter{teil}$\star$\,#1) & \mbgztext{#2} & #3 \\}
+
+% Listenmakros: eine Zeile statt eines geruest-Blocks. Eintraege mit Komma getrennt; Dezimalkomma als 0{,}5 schreiben.
+% Optionales Argument = Nummer der ersten Sternaufgabe (Sterne stehen immer am Ende).
+%   \mnliste[7]{2x+3; 5x-1; ...}          a) y = 2x+3    m = __  n = __
+%   \nullstellenliste[7]{x-4; 2x-6; ...}  a) y = x-4     x_0 = __
+%   \punktprobenliste[7]{2x-1/A(3|5); ...} a) y = 2x-1, A(3|5)   ja / nein
+\newcommand{\mbtabkopf}{\begin{tabular}{@{\hspace{0.4em}}l@{\hspace{0.4em}}l@{\hspace{1.2em}}l@{}}}
+\NewDocumentCommand{\mnliste}{o m}{%
+  \def\mbrows{}\mbteilstart
+  \foreach \e in {#2}{\stepcounter{teil}%
+    \IfNoValueTF{#1}{\def\mbs{}}{\ifnum\value{teil}<#1 \def\mbs{}\else\def\mbs{$\star$\,}\fi}%
+    \edef\mbz{\mbs\alph{teil})}%
+    \xappto\mbrows{\mbz & $y = \e$ & \noexpand\feld{m}\noexpand\feld{n} \noexpand\\}}%
+  \par\nopagebreak\mbtabkopf\mbrows\end{tabular}\par\addvspace{3pt}}
+\NewDocumentCommand{\nullstellenliste}{o m}{%
+  \def\mbrows{}\mbteilstart
+  \foreach \e in {#2}{\stepcounter{teil}%
+    \IfNoValueTF{#1}{\def\mbs{}}{\ifnum\value{teil}<#1 \def\mbs{}\else\def\mbs{$\star$\,}\fi}%
+    \edef\mbz{\mbs\alph{teil})}%
+    \xappto\mbrows{\mbz & $y = \e$ & \noexpand\feldl{x_0} \noexpand\\}}%
+  \par\nopagebreak\mbtabkopf\mbrows\end{tabular}\par\addvspace{3pt}}
+\NewDocumentCommand{\punktprobenliste}{o m}{%
+  \def\mbrows{}\mbteilstart
+  \foreach \t/\pk in {#2}{\stepcounter{teil}%
+    \IfNoValueTF{#1}{\def\mbs{}}{\ifnum\value{teil}<#1 \def\mbs{}\else\def\mbs{$\star$\,}\fi}%
+    \edef\mbz{\mbs\alph{teil})}%
+    \xappto\mbrows{\mbz & $y = \t$, \noexpand\quad $\pk$ & \noexpand\janein \noexpand\\}}%
+  \par\nopagebreak\mbtabkopf\mbrows\end{tabular}\par\addvspace{3pt}}
+
+% Ankreuzen
+\newcommand{\janein}{$\square$ ja \quad $\square$ nein}
+\newcommand{\kreuz}[1]{$\square$ #1\quad}
+
+% Begleitteil / Hilfe
+\newcommand{\begleitteil}{\clearpage\eng\setcounter{aufgabe}{0}%
+  \section*{\normalsize Ergebnisse}}
+\newcommand{\hilfeseite}{\clearpage\eng\section*{\normalsize Hilfe: Lösungsstrategie}}
+\newcommand{\verfahren}[1]{\par\medskip\noindent\textbf{#1}\par\nopagebreak}
+\newcounter{schritt}
+\newenvironment{schritte}{\begin{list}{}{\setlength{\leftmargin}{1.6em}\setlength{\labelwidth}{1.4em}
+   \setlength{\labelsep}{0.2em}\setlength{\itemsep}{1pt}\setlength{\parsep}{0pt}\setlength{\topsep}{1pt}}
+   \setcounter{schritt}{0}}{\end{list}}
+\newcommand{\schritt}{\stepcounter{schritt}\item[\theschritt.]}
+\newcommand{\achtung}[1]{\par\textit{Achtung:} #1}
+
+% Ergebniszeile: \erg{3}{a) 1 | b) 2 | ...}
+\newcommand{\erg}[2]{\par\noindent\textbf{#1)}\ #2}
+
+% ---------------------------------------------------------------------------
+% B  Wertetabelle
+% ---------------------------------------------------------------------------
+% \wertetabelle{x}{y}{-2,-1,0,1,2}        → x-Zeile vorgegeben, y-Zeile leer
+% \wertetabelle[7,4,1,-2]{x}{f(x)}{-2,-1,0,1,2}  → gefüllt (Begleitteil)
+% \wertetabelle[,4,,-2]{x}{f(x)}{-2,-1,0,1,2}    → teilweise gefüllt: leerer Eintrag = leeres Feld
+\newlength{\mbzell}\setlength{\mbzell}{1.1cm}
+\newlength{\mbzeile}\setlength{\mbzeile}{0.75cm}
+\NewDocumentCommand{\wertetabelle}{o m m m}{%
+  \def\mbkopf{}\def\mbwerte{}\def\mbleer{}\setcounter{mbn}{0}%
+  \foreach \v in {#4}{\xappto\mbkopf{& $\v$}\xappto\mbleer{& }\stepcounter{mbn}\xdef\mbnn{\arabic{mbn}}}%
+  \IfNoValueTF{#1}{}{\foreach \v in {#1}{\ifdefempty{\v}{\xappto\mbwerte{& }}{\xappto\mbwerte{& $\v$}}}}%
+  \begingroup\renewcommand{\arraystretch}{1.3}%
+  \edef\mbpre{|>{\noexpand\columncolor{mbkasten}}c|*{\mbnn}{>{\noexpand\centering\noexpand\arraybackslash}p{\noexpand\mbzell}|}}%
+  \expandafter\mbtabstart\expandafter{\mbpre}\hline
+  $#2$ \mbkopf \\ \hline
+  \IfNoValueTF{#1}{\rule{0pt}{\mbzeile}$#3$ \mbleer \\ \hline}{$#3$ \mbwerte \\ \hline}
+  \end{tabular}\endgroup\par\addvspace{4pt}}
+\newcounter{mbn}
+\newcommand{\mbtabstart}[1]{\begin{tabular}{#1}}
+% Leere Tabelle zum Selbstanlegen: \wertetabelleleer{x}{y}{5}
+\newcommand{\wertetabelleleer}[3]{%
+  \begingroup\renewcommand{\arraystretch}{1.3}%
+  \begin{tabular}{|>{\columncolor{mbkasten}}c|*{#3}{p{\mbzell}|}}\hline
+  $#1$ & \multicolumn{#3}{c|}{} \\ \hline
+  \rule{0pt}{\mbzeile}$#2$ & \multicolumn{#3}{c|}{} \\ \hline
+  \end{tabular}\endgroup\par\addvspace{4pt}}
+
+% ---------------------------------------------------------------------------
+% D  Koordinatensystem 2D
+% ---------------------------------------------------------------------------
+% \begin{ksys}[xmin=-4,xmax=4,ymin=-5,ymax=5]           Zeichenfläche, Karo 8 mm
+% \begin{ksys}[xmin=-5,xmax=5,ymin=-5,ymax=5,ablesen]   Ablesegrafik, Karo 6 mm
+% \begin{ksys}[...,klein]                               Lösungsgrafik, Karo 3.5 mm
+% \begin{ksys}[leit]                                    Leitgrafik im Übersichtskasten: Karo 6 mm, -3..3
+% \begin{ksys}[...,xlabel=t in min,ylabel=W in l,xstep=5,ystep=40,karo=0.16]
+%   \gerade{2}{-1}{g}          y = 2x - 1, beschriftet g (an rechtem/oberem Rand)
+%   \punkt{2}{3}{A}            Punkt mit Beschriftung
+%   \steigungsdreieck{0}{-1}{2}   ab Punkt (0|-1), 1 nach rechts, m=2 nach oben
+%   \parabel{1}{-1}{-2}{p}     y = a(x-d)^2+e mit Scheitel markiert
+%   \funktion{0.5*\x^2-2}{f}   beliebiger Term in pgf-Syntax; die Variable heisst \x
+%   \funktion[2.5]{...}{f}     Label an der Stelle x=2.5 (mehrere Graphen: Labels auseinanderziehen)
+% \end{ksys}
+% karo = Kantenlänge einer Gitterzelle in cm (nicht cm je Achseneinheit).
+% Der Maßstab je Achse ergibt sich aus karo und xstep/ystep, deshalb sind
+% ungleiche Achsen ohne Rechnung möglich: xstep=5, ystep=40 → Zelle bleibt 8 mm.
+% Achsenzahlen: unter Karo 6 mm in \tiny statt \scriptsize; passt die breiteste
+% Zahl nicht in ein Karo, wird nur jede zweite (dritte …) Zahl gesetzt, immer
+% ausgehend von 0. Beides automatisch, kein Schlüssel.
+\newsavebox{\mbmessbox}
+\pgfkeys{/ksys/.is family, /ksys,
+  xmin/.estore in=\ksxmin, xmax/.estore in=\ksxmax,
+  ymin/.estore in=\ksymin, ymax/.estore in=\ksymax,
+  xstep/.estore in=\ksxstep, ystep/.estore in=\ksystep,
+  karo/.estore in=\kskaro,
+  xlabel/.estore in=\ksxlabel, ylabel/.estore in=\ksylabel,
+  ablesen/.style={karo=0.6}, klein/.style={karo=0.35},
+  leit/.style={karo=0.6,xmin=-3,xmax=3,ymin=-3,ymax=3},
+  default/.style={xmin=-4,xmax=4,ymin=-4,ymax=4,xstep=1,ystep=1,karo=0.8,xlabel=$x$,ylabel=$y$,pizahlen=false}}
+% Kern des ksys in drei Hilfsmakros, damit \ableitungspaar zwei Systeme in ein Bild setzen kann:
+% \mbksyssetup{Schlüssel} liest Schlüssel und rechnet Maßstäbe, \mbksysachsen zeichnet Gitter,
+% Achsen und Bezifferung, \mbksysclip öffnet den Clip-Bereich (Scope wird vom Aufrufer geschlossen).
+\newcommand{\mbksyssetup}[1]{\pgfkeys{/ksys,default,#1}\mbksysrechnen}
+\newcommand{\mbksysrechnen}{%
+  \pgfmathsetmacro{\ksxk}{\kskaro/\ksxstep}%
+  \pgfmathsetmacro{\ksyk}{\kskaro/\ksystep}%
+  \pgfmathsetmacro{\kstx}{0.12*\ksxstep}%
+  \pgfmathsetmacro{\ksty}{0.12*\ksystep}%
+  \pgfmathsetmacro{\ksxpfeil}{\ksxmax+0.5*\ksxstep}%
+  \pgfmathsetmacro{\ksypfeil}{\ksymax+0.5*\ksystep}%
+  \pgfmathsetmacro{\ksxa}{\ksxmin+\ksxstep}\pgfmathsetmacro{\ksya}{\ksymin+\ksystep}%
+  \ifdim\kskaro cm<0.6cm \def\mbtf{\tiny}\else\def\mbtf{\scriptsize}\fi
+  \xdef\mbwmax{0pt}% breiteste x-Zahl bestimmt die Ausduennung
+  \foreach \x in {\ksxmin,\ksxa,...,\ksxmax}{\sbox\mbmessbox{\mbtf$\pgfmathprintnumber{\x}$}%
+    \ifdim\wd\mbmessbox>\mbwmax\xdef\mbwmax{\the\wd\mbmessbox}\fi}%
+  \edef\mbhh{\the\dimexpr\ht\mbmessbox+\dp\mbmessbox\relax}%
+  \pgfmathtruncatemacro{\ksxl}{max(1,ceil((\mbwmax+2pt)/(\kskaro cm)))}%
+  \pgfmathtruncatemacro{\ksyl}{max(1,ceil((\mbhh+2pt)/(\kskaro cm)))}}
+\newcommand{\mbksysachsen}{%
+    \draw[mbgitter,line width=0.3pt] (\ksxmin,\ksymin) grid[xstep=\ksxstep,ystep=\ksystep] (\ksxmax,\ksymax);
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\ksxmin,0) -- (\ksxpfeil,0) node[right] {\small\ksxlabel};
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (0,\ksymin) -- (0,\ksypfeil) node[above] {\small\ksylabel};
+    \foreach \x in {\ksxmin,\ksxa,...,\ksxmax}{\ifdim \x pt=0pt\else
+      \pgfmathtruncatemacro{\mbrest}{mod(abs(round(\x/\ksxstep)),\ksxl)}%
+      \draw (\x,\ksty) -- (\x,-\ksty)
+        \ifnum\mbrest=0 node[below,inner sep=1.5pt] {\mbtf$\ifmbpizahlen\mbpizahl{\x}\else\pgfmathprintnumber{\x}\fi$}\fi;\fi}
+    \foreach \y in {\ksymin,\ksya,...,\ksymax}{\ifdim \y pt=0pt\else
+      \pgfmathtruncatemacro{\mbrest}{mod(abs(round(\y/\ksystep)),\ksyl)}%
+      \draw (\kstx,\y) -- (-\kstx,\y)
+        \ifnum\mbrest=0 node[left,inner sep=1.5pt] {\mbtf$\pgfmathprintnumber{\y}$}\fi;\fi}}
+% x-Zahl als Vielfaches von pi/2: \mbpizahl{4.7124} -> \frac{3\pi}{2}
+\newcommand{\mbpizahl}[1]{\pgfmathtruncatemacro{\mbpk}{round(2*(#1)/pi)}%
+  \pgfmathtruncatemacro{\mbpg}{\mbpk/2}\pgfmathtruncatemacro{\mbpr}{abs(\mbpk)-2*abs(\mbpg)}%
+  \ifnum\mbpr=0 \ifnum\mbpg=1 \pi\else\ifnum\mbpg=-1 -\pi\else\mbpg\pi\fi\fi
+  \else\ifnum\mbpk<0 -\fi\ifnum\mbpk=1 \tfrac{\pi}{2}\else\ifnum\mbpk=-1 \tfrac{\pi}{2}\else\tfrac{\the\numexpr\ifnum\mbpk<0 -\fi\mbpk\relax\pi}{2}\fi\fi\fi}
+\newcommand{\mbksysclip}{\begin{scope}\clip (\ksxmin,\ksymin) rectangle (\ksxmax,\ksymax);}
+\newenvironment{ksys}[1][]{%
+  \mbksyssetup{#1}%
+  \begin{tikzpicture}[x=\ksxk cm,y=\ksyk cm,baseline=(current bounding box.north)]
+  \mbksysachsen
+  \mbksysclip
+}{\end{scope}\end{tikzpicture}}
+% Objekte im ksys
+\newcommand{\gerade}{}
+% \gerade{m}{n}{Label}  oder  \gerade[x]{m}{n}{Label} – x = Stelle, an der das
+% Label sitzt (Achseneinheiten). Bei mehreren Geraden in einem System die Labels
+% mit verschiedenen x auseinanderziehen, statt die Aufgabenwerte zu aendern.
+\RenewDocumentCommand{\gerade}{o m m m}{%
+  \IfNoValueTF{#1}{%
+    \pgfmathsetmacro{\mblx}{\ksxmax-0.6*\ksxstep}%
+    \pgfmathsetmacro{\mbly}{#2*\mblx+#3}%
+    \pgfmathparse{(\mbly>\ksymax-0.3*\ksystep) || (\mbly<\ksymin+0.3*\ksystep)}%
+    \ifnum\pgfmathresult=1
+      \pgfmathsetmacro{\mbly}{ifthenelse(#2>0,\ksymax-0.5*\ksystep,\ksymin+0.5*\ksystep)}%
+      \pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}%
+    \fi}%
+   {\pgfmathsetmacro{\mblx}{#1}\pgfmathsetmacro{\mbly}{#2*\mblx+#3}%
+    \pgfmathparse{(\mbly>\ksymax-0.3*\ksystep) || (\mbly<\ksymin+0.3*\ksystep)}%
+    \ifnum\pgfmathresult=1
+      \pgfmathsetmacro{\mbly}{ifthenelse(#2>0,\ksymax-0.5*\ksystep,\ksymin+0.5*\ksystep)}%
+      \pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}%
+    \fi}%
+  \draw[line width=0.8pt,domain=\ksxmin:\ksxmax,samples=2] plot (\x,{#2*\x+#3});
+  \ifblank{#4}{}{\node[fill=white,inner sep=1pt,font=\small] at (\mblx,\mbly) {$#4$};}}
+\newcommand{\punkt}[3]{\fill (#1,#2) circle (1.6pt) node[above right,font=\small] {$#3$};}
+\newcommand{\steigungsdreieck}[3]{%
+  \draw[mbgrau,dashed] (#1,#2) -- ({#1+1},#2) -- ({#1+1},{#2+#3});
+  \node[below,font=\scriptsize,mbgrau] at ({#1+0.5},#2) {1};
+  \node[right,font=\scriptsize,mbgrau] at ({#1+1},{#2+#3/2}) {$#3$};}
+\newcommand{\parabel}[4]{%
+  \draw[line width=0.8pt,domain=\ksxmin:\ksxmax,samples=80,smooth] plot (\x,{#1*(\x-#2)^2+#3});
+  \mbfunklabel{(#1)*(\x-(#2))^2+(#3)}{#4}{\ksxmin}{\ksxmax}%
+  \fill (#2,#3) circle (1.4pt);}
+% Nutzerterme in \x: pgfmath rechnet -2^2 = -4, deshalb wird \x als geklammerter Wert (\mbt)
+% eingesetzt. Alle plot-Aufrufe mit Nutzertermen laufen über mbterm und \mbxsicher.
+\tikzset{mbterm/.style={variable=\mbt}}
+\newcommand{\mbxsicher}{\def\x{(\mbt)}}
+% Kurvenlabel: pos= auf plot-Pfaden ist unzuverlässig, deshalb sucht \mbfunklabel vom rechten
+% Rand aus die erste Stelle, an der der Graph innerhalb der Zeichenfläche liegt (40 Schritte).
+\newcommand{\mbfunklabel}[4]{% Term, Label, von, bis
+  \ifblank{#2}{}{%
+    \pgfmathsetmacro{\mbfx}{#4}\pgfmathsetmacro{\mbfd}{((#4)-(#3))/40}%
+    \def\mbfn{0}\def\mbfok{0}%
+    \loop
+      \begingroup\edef\x{(\mbfx)}\pgfmathparse{#1}\global\let\mbfy\pgfmathresult\endgroup
+      \pgfmathtruncatemacro{\mbfok}{(\mbfy<\ksymax-0.3*\ksystep)&&(\mbfy>\ksymin+0.3*\ksystep)}%
+      \pgfmathtruncatemacro{\mbfn}{\mbfn+1}%
+      \ifnum\mbfok=0 \pgfmathsetmacro{\mbfx}{\mbfx-\mbfd}\fi
+      \pgfmathtruncatemacro{\mbfgo}{(\mbfok==0)&&(\mbfn<40)}%
+    \ifnum\mbfgo=1 \repeat
+    \ifnum\mbfok=1
+      \node[fill=white,inner sep=1pt,font=\small] at (\mbfx,\mbfy) {$#2$};
+    \else\PackageWarning{mathblatt}{Label #2: Graph liegt im Bereich nicht in der Zeichenflaeche}\fi}}
+\NewDocumentCommand{\funktion}{o m m}{%
+  \begingroup\mbxsicher
+  \draw[mbterm,line width=0.8pt,domain=\ksxmin:\ksxmax,samples=120,smooth] plot (\mbt,{#2});\endgroup
+  \IfNoValueTF{#1}{\mbfunklabel{#2}{#3}{\ksxmin}{\ksxmax}}{\mbfunklabel{#2}{#3}{\ksxmin}{#1}}}
+\NewDocumentCommand{\funktionab}{o m m m m}{% [Labelstelle] Term, Label, von, bis  (bei Definitionslücken)
+  \begingroup\mbxsicher
+  \draw[mbterm,line width=0.8pt,domain=#4:#5,samples=120,smooth] plot (\mbt,{#2});\endgroup
+  \IfNoValueTF{#1}{\mbfunklabel{#2}{#3}{#4}{#5}}{\mbfunklabel{#2}{#3}{#4}{#1}}}
+% Zwei Systeme nebeneinander: \ksysabstand dazwischen
+\newcommand{\ksysabstand}{\hspace{1.0cm}}
+
+% ---------------------------------------------------------------------------
+% E  Dreieck
+% ---------------------------------------------------------------------------
+% \dreieck{(0,0)}{(5,0)}{(1.5,3)}{a}{b}{c}{\alpha}{\beta}{\gamma}   allgemein
+% \dreieckrw{4}{3}{a}{b}{c}    rechtwinklig bei C, Katheten a (waagerecht), b (senkrecht)
+%   Leere Beschriftung {} lässt das Label weg. Koordinaten in cm.
+\NewDocumentCommand{\dreieck}{m m m m m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north)]
+    \coordinate (A) at #1; \coordinate (B) at #2; \coordinate (C) at #3;
+    \draw[line width=0.8pt] (A) -- (B) -- (C) -- cycle;
+    \node[below left,font=\small] at (A) {$A$};
+    \node[below right,font=\small] at (B) {$B$};
+    \node[above,font=\small] at (C) {$C$};
+    \path (B) -- (C) node[midway,above right,font=\small] {$#4$};
+    \path (A) -- (C) node[midway,above left,font=\small] {$#5$};
+    \path (A) -- (B) node[midway,below,font=\small] {$#6$};
+    \node[font=\small] at ($(A)+(0.55,0.22)$) {$#7$};
+    \node[font=\small] at ($(B)+(-0.55,0.22)$) {$#8$};
+    \node[font=\small] at ($(C)+(0,-0.45)$) {$#9$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\dreieckrw}{m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north)]
+    \coordinate (C) at (0,0); \coordinate (B) at (#1,0); \coordinate (A) at (0,#2);
+    \draw[line width=0.8pt] (A) -- (B) -- (C) -- cycle;
+    \draw (0.35,0) -- (0.35,0.35) -- (0,0.35); \fill (0.17,0.17) circle (0.8pt);
+    \node[above,font=\small] at (A) {$A$};
+    \node[right,font=\small] at (B) {$B$};
+    \node[below left,font=\small] at (C) {$C$};
+    \path (C) -- (B) node[midway,below,font=\small] {$#3$};
+    \path (C) -- (A) node[midway,left,font=\small] {$#4$};
+    \path (A) -- (B) node[midway,above right,font=\small] {$#5$};
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% Hilfsmakros für Körper (F) und Objekte im ksys3 (I)
+% ---------------------------------------------------------------------------
+% \mbrdrei x,y,z\relax → \mbrA \mbrB \mbrC ;  \mbrzwei a:b\relax → \mbrtmin \mbrtmax
+\def\mbrdrei#1,#2,#3\relax{\def\mbrA{#1}\def\mbrB{#2}\def\mbrC{#3}}
+\def\mbrzwei#1:#2\relax{\def\mbrtmin{#1}\def\mbrtmax{#2}}
+% Sichtbarkeit einer Fläche: \mbsicht{K}{L}{S}{M} setzt \mbvis auf 1, wenn die Fläche
+% durch K, L, S dem Betrachter zugewandt ist; M ist ein innerer Punkt des Körpers.
+% Blickvektor \mbvx,\mbvy,\mbvz (Richtung zum Betrachter) setzt der Aufrufer:
+% Körper in F (Tiefe nach rechts oben): (1|-2|1); ksys3: (2|1|1).
+\newcommand{\mbsicht}[4]{%
+  \expandafter\mbrdrei#1\relax\let\mbkx\mbrA\let\mbky\mbrB\let\mbkz\mbrC
+  \expandafter\mbrdrei#2\relax\let\mblx\mbrA\let\mbly\mbrB\let\mblz\mbrC
+  \expandafter\mbrdrei#3\relax\let\mbsx\mbrA\let\mbsy\mbrB\let\mbsz\mbrC
+  \expandafter\mbrdrei#4\relax\let\mbmx\mbrA\let\mbmy\mbrB\let\mbmz\mbrC
+  \pgfmathsetmacro{\mbnx}{(\mbly-\mbky)*(\mbsz-\mbkz)-(\mblz-\mbkz)*(\mbsy-\mbky)}%
+  \pgfmathsetmacro{\mbny}{(\mblz-\mbkz)*(\mbsx-\mbkx)-(\mblx-\mbkx)*(\mbsz-\mbkz)}%
+  \pgfmathsetmacro{\mbnz}{(\mblx-\mbkx)*(\mbsy-\mbky)-(\mbly-\mbky)*(\mbsx-\mbkx)}%
+  \pgfmathsetmacro{\mbda}{\mbnx*\mbvx+\mbny*\mbvy+\mbnz*\mbvz}%
+  \pgfmathsetmacro{\mbdb}{\mbnx*(\mbmx-\mbkx)+\mbny*(\mbmy-\mbky)+\mbnz*(\mbmz-\mbkz)}%
+  \pgfmathtruncatemacro{\mbvis}{(\mbda>0&&\mbdb<0)||(\mbda<0&&\mbdb>0)}}
+% Kante: \mbkante{n}{P}{Q} – durchgezogen, wenn n>0 (Zahl der sichtbaren Nachbarflächen)
+\newcommand{\mbkante}[3]{\pgfmathtruncatemacro{\mbkn}{#1}\ifnum\mbkn>0 \draw[line width=0.7pt] (#2) -- (#3);\else
+  \draw[dashed,line width=0.5pt] (#2) -- (#3);\fi}
+% Eckpunkte einer Rechteckpyramide aus Minimalecke (\mbpx,\mbpy,\mbpz), Kanten a (x-Richtung),
+% b (y-Richtung), Spitze S als Tripel → Makros \mbpa..\mbpd, \mbps und Komponenten
+\newcommand{\mbpyramideecken}[3]{%
+  \pgfmathsetmacro{\mbpax}{\mbpx}\pgfmathsetmacro{\mbpay}{\mbpy}\pgfmathsetmacro{\mbpaz}{\mbpz}%
+  \pgfmathsetmacro{\mbpbx}{\mbpx+(#1)}\let\mbpby\mbpay\let\mbpbz\mbpaz
+  \let\mbpcx\mbpbx\pgfmathsetmacro{\mbpcy}{\mbpy+(#2)}\let\mbpcz\mbpaz
+  \let\mbpdx\mbpax\let\mbpdy\mbpcy\let\mbpdz\mbpaz
+  \mbrdrei#3\relax\pgfmathsetmacro{\mbpsx}{\mbrA}\pgfmathsetmacro{\mbpsy}{\mbrB}\pgfmathsetmacro{\mbpsz}{\mbrC}%
+  \edef\mbpa{\mbpax,\mbpay,\mbpaz}\edef\mbpb{\mbpbx,\mbpby,\mbpbz}%
+  \edef\mbpc{\mbpcx,\mbpcy,\mbpcz}\edef\mbpd{\mbpdx,\mbpdy,\mbpdz}\edef\mbps{\mbpsx,\mbpsy,\mbpsz}}
+% Alle acht Kanten der Pyramide, verdeckte gestrichelt (nach \mbpyramideecken)
+\newcommand{\mbpyramidekanten}{%
+  \pgfmathsetmacro{\mbmx}{(\mbpax+\mbpcx)/4+\mbpsx/2}\pgfmathsetmacro{\mbmy}{(\mbpay+\mbpcy)/4+\mbpsy/2}%
+  \pgfmathsetmacro{\mbmz}{(\mbpaz+\mbpcz)/4+\mbpsz/2}\edef\mbpm{\mbmx,\mbmy,\mbmz}%
+  \mbsicht{\mbpa}{\mbpb}{\mbps}{\mbpm}\let\mbfa\mbvis
+  \mbsicht{\mbpb}{\mbpc}{\mbps}{\mbpm}\let\mbfb\mbvis
+  \mbsicht{\mbpc}{\mbpd}{\mbps}{\mbpm}\let\mbfc\mbvis
+  \mbsicht{\mbpd}{\mbpa}{\mbps}{\mbpm}\let\mbfd\mbvis
+  \mbsicht{\mbpa}{\mbpb}{\mbpc}{\mbpm}\let\mbfg\mbvis
+  \mbkante{\mbfg+\mbfa}{\mbpa}{\mbpb}\mbkante{\mbfg+\mbfb}{\mbpb}{\mbpc}%
+  \mbkante{\mbfg+\mbfc}{\mbpc}{\mbpd}\mbkante{\mbfg+\mbfd}{\mbpd}{\mbpa}%
+  \mbkante{\mbfd+\mbfa}{\mbpa}{\mbps}\mbkante{\mbfa+\mbfb}{\mbpb}{\mbps}%
+  \mbkante{\mbfb+\mbfc}{\mbpc}{\mbps}\mbkante{\mbfc+\mbfd}{\mbpd}{\mbps}}
+
+% ---------------------------------------------------------------------------
+% F  Körper (Schrägbild, Kavalier 45°, Tiefe halbiert)
+% ---------------------------------------------------------------------------
+% \quader{4}{2}{3}{a}{b}{c}   Länge, Tiefe, Höhe in cm; Labels (leer = ohne)
+% \zylinder{1.5}{3}{r}{h}     Radius, Höhe
+% \prismadreieck{4}{3}{2}{}{}{}   Grundkante, Grundhöhe (Dreieck), Tiefe
+% \pyramide{4}{3}{3.5}{a}{b}{h}  Rechteckpyramide: Grundkanten a (vorn), b (Tiefe), Höhe h;
+%                                quadratisch mit a = b. Höhe gestrichelt mit Fußpunkt.
+% \kegel{1.5}{3}{r}{h}{s}     Radius, Höhe; Labels r, h, s (Mantellinie), leer = ohne
+% \kugel{1.5}{r}              Radius; Äquator angedeutet, Radius gestrichelt
+\NewDocumentCommand{\quader}{m m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),
+     x={(1cm,0cm)},y={(0.5cm,0.5cm)},z={(0cm,1cm)},line width=0.7pt]
+    \draw (0,0,0) -- (#1,0,0) -- (#1,0,#3) -- (0,0,#3) -- cycle;
+    \draw (#1,0,0) -- (#1,#2,0) -- (#1,#2,#3) -- (#1,0,#3);
+    \draw (0,0,#3) -- (0,#2,#3) -- (#1,#2,#3);
+    \draw[dashed,line width=0.5pt] (0,0,0) -- (0,#2,0) -- (#1,#2,0);
+    \draw[dashed,line width=0.5pt] (0,#2,0) -- (0,#2,#3);
+    \node[below,font=\small] at ({#1/2},0,0) {$#4$};
+    \node[below right,font=\small] at (#1,{#2/2},0) {$#5$};
+    \node[left,font=\small] at (0,0,{#3/2}) {$#6$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\zylinder}{m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.7pt]
+    \draw (0,#2) ellipse ({#1} and {#1*0.35});
+    \draw (-#1,0) -- (-#1,#2); \draw (#1,0) -- (#1,#2);
+    \draw (-#1,0) arc (180:360:{#1} and {#1*0.35});
+    \draw[dashed,line width=0.5pt] (-#1,0) arc (180:0:{#1} and {#1*0.35});
+    \fill (0,#2) circle (0.8pt);
+    \draw[dashed,line width=0.5pt] (0,#2) -- (#1,#2) node[midway,fill=white,inner sep=1pt,font=\small] {$#3$};
+    \node[right,font=\small] at (#1,{#2/2}) {$#4$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\prismadreieck}{m m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),
+     x={(1cm,0cm)},y={(0.5cm,0.5cm)},z={(0cm,1cm)},line width=0.7pt]
+    \draw (0,0,0) -- (#1,0,0) -- ({#1/2},0,#2) -- cycle;
+    \draw (#1,0,0) -- (#1,#3,0) -- ({#1/2},#3,#2) -- ({#1/2},0,#2);
+    \draw[dashed,line width=0.5pt] (0,0,0) -- (0,#3,0) -- (#1,#3,0);
+    \draw[dashed,line width=0.5pt] (0,#3,0) -- ({#1/2},#3,#2);
+    \node[below,font=\small] at ({#1/2},0,0) {$#4$};
+    \ifblank{#5}{}{\draw[dashed,line width=0.5pt] ({#1/2},0,0) -- ({#1/2},0,#2)
+      node[midway,right,inner sep=1.5pt,font=\small] {$#5$};
+      \draw[line width=0.4pt] ({#1/2},0,0.22) -- ({#1/2+0.22},0,0.22) -- ({#1/2+0.22},0,0);}
+    \node[below right,font=\small] at (#1,{#3/2},0) {$#6$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\pyramide}{m m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),
+     x={(1cm,0cm)},y={(0.5cm,0.5cm)},z={(0cm,1cm)}]
+    \def\mbvx{1}\def\mbvy{-2}\def\mbvz{1}%
+    \def\mbpx{0}\def\mbpy{0}\def\mbpz{0}%
+    \mbpyramideecken{#1}{#2}{{(#1)/2},{(#2)/2},{#3}}%
+    \mbpyramidekanten
+    \fill ({(#1)/2},{(#2)/2},0) circle (0.8pt);
+    \draw[dashed,line width=0.5pt] ({(#1)/2},{(#2)/2},0) -- ({(#1)/2},{(#2)/2},#3)
+      node[midway,left,inner sep=1.5pt,font=\small] {$#6$};
+    \draw[line width=0.4pt] ({(#1)/2},{(#2)/2},0.22) -- ({(#1)/2+0.22},{(#2)/2},0.22) -- ({(#1)/2+0.22},{(#2)/2},0);
+    \node[below,font=\small] at ({(#1)/2},0,0) {$#4$};
+    \node[below right,font=\small] at (#1,{(#2)/2},0) {$#5$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\kegel}{m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.7pt]
+    \draw (-#1,0) -- (0,#2) -- (#1,0);
+    \draw (-#1,0) arc (180:360:{#1} and {#1*0.35});
+    \draw[dashed,line width=0.5pt] (-#1,0) arc (180:0:{#1} and {#1*0.35});
+    \fill (0,0) circle (0.8pt);
+    \draw[dashed,line width=0.5pt] (0,0) -- (0,#2) node[midway,left,inner sep=1.5pt,font=\small] {$#4$};
+    \draw[dashed,line width=0.5pt] (0,0) -- (#1,0) node[midway,fill=white,inner sep=1pt,font=\small] {$#3$};
+    \draw[line width=0.4pt] (0,0.18) -- (0.18,0.18) -- (0.18,0);
+    \path (#1,0) -- (0,#2) node[midway,above right,inner sep=1.5pt,font=\small] {$#5$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\kugel}{m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.7pt]
+    \draw (0,0) circle (#1);
+    \draw[line width=0.5pt] (-#1,0) arc (180:360:{#1} and {#1*0.35});
+    \draw[dashed,line width=0.5pt] (-#1,0) arc (180:0:{#1} and {#1*0.35});
+    \fill (0,0) circle (0.8pt);
+    \draw[dashed,line width=0.5pt] (0,0) -- (#1,0) node[midway,fill=white,inner sep=1pt,font=\small] {$#2$};
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% H  Baumdiagramm und Säulendiagramm
+% ---------------------------------------------------------------------------
+% Zweistufig: \baumzwei{Stufe 1}{Stufe 2 nach 1. Ast}{Stufe 2 nach 2. Ast}
+%   Listen als  Label/Wahrscheinlichkeit , leere Wahrscheinlichkeit = Feld zum Eintragen
+%   \baumzwei{R/0.4,B/0.6}{R/0.4,B/0.6}{R/0.4,B/0.6}
+%   \baumzwei{R/,B/}{R/,B/}{R/,B/}
+\NewDocumentCommand{\baumzwei}{m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt,
+     ast/.style={font=\small,inner sep=1.5pt}, wk/.style={font=\scriptsize,fill=white,inner sep=1pt}]
+    \coordinate (S) at (0,0);
+    \def\mbi{0}
+    \foreach \l/\p [count=\i] in {#1}{%
+      \pgfmathsetmacro{\yy}{2.2-2.2*\i+1.1}
+      \node[ast] (E\i) at (2.4,\yy) {$\l$};
+      \draw (S) -- (E\i) node[wk,pos=0.5] {\ifx\p\empty\underline{\hspace{5mm}}\else$\p$\fi};
+      \ifnum\i=1 \foreach \m/\q [count=\j] in {#2}{%
+         \pgfmathsetmacro{\zz}{\yy+0.55-1.1*(\j-1)}
+         \draw (E\i) -- (4.8,\zz) node[wk,pos=0.5] {\ifx\q\empty\underline{\hspace{5mm}}\else$\q$\fi}
+               node[ast,right] {$\m$};}\fi
+      \ifnum\i=2 \foreach \m/\q [count=\j] in {#3}{%
+         \pgfmathsetmacro{\zz}{\yy+0.55-1.1*(\j-1)}
+         \draw (E\i) -- (4.8,\zz) node[wk,pos=0.5] {\ifx\q\empty\underline{\hspace{5mm}}\else$\q$\fi}
+               node[ast,right] {$\m$};}\fi
+    }
+  \end{tikzpicture}}
+% Säulendiagramm: \saeulen{Mo/12,Di/7,Mi/9}{ymax}{ystep}{Achsentitel}
+%   Ohne Werte (Schüler zeichnet): \saeulen{Mo/,Di/,Mi/}{16}{4}{Anzahl}
+\NewDocumentCommand{\saeulen}{m m m m}{%
+  \def\mbcats{}\def\mbpaare{}\def\mbhat{0}%
+  \foreach \k/\w in {#1}{%
+    \ifx\mbcats\empty\xdef\mbcats{\k}\else\xdef\mbcats{\mbcats,\k}\fi
+    \ifx\w\empty\xappto\mbpaare{(\k,0) }\else\xappto\mbpaare{(\k,\w) }\gdef\mbhat{1}\fi}%
+  \begin{tikzpicture}[baseline=(current bounding box.north)]
+  \begin{axis}[ybar,width=8cm,height=5.5cm,ymin=0,ymax=#2,ytick distance=#3,
+    symbolic x coords/.expanded={\mbcats},xtick/.expanded={\mbcats},enlarge x limits=0.25,bar width=9mm,
+    ylabel={#4},ylabel style={font=\small},tick label style={font=\small},
+    ymajorgrids,grid style={mbgitter},axis line style={line width=0.6pt}]
+    \ifnum\mbhat=1
+      \addplot[fill=mbkasten,draw=black,nodes near coords,every node near coord/.append style={font=\scriptsize}]
+        coordinates {\mbpaare};
+    \else
+      \addplot[draw=none,fill=none] coordinates {\mbpaare};
+    \fi
+  \end{axis}
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% J  Boxplot und Histogramm
+% ---------------------------------------------------------------------------
+% Boxplots mit gemeinsamer Achse, von unten nach oben; Gitter zum Selbstzeichnen.
+% \begin{boxplots}[xmin=0,xmax=20,xstep=2,xlabel=Punkte]
+%   \bp{4,7,9,13,18}{A}      Minimum, unteres Quartil, Median, oberes Quartil, Maximum
+%                            Label im Textmodus (Klasse 8a); Werte ausserhalb xmin..xmax -> Warnung
+%   \bp{}{B}                 leere Zeile: Schüler zeichnet selbst
+% \end{boxplots}
+% karo = Kantenlänge einer Gitterzelle in cm (Voreinstellung 0.5); der Maßstab
+% ergibt sich wie beim ksys aus karo und xstep.
+\pgfkeys{/bpl/.is family, /bpl,
+  xmin/.estore in=\bpxmin, xmax/.estore in=\bpxmax, xstep/.estore in=\bpxstep,
+  karo/.estore in=\bpkaro, xlabel/.estore in=\bpxlabel,
+  default/.style={xmin=0,xmax=20,xstep=2,karo=0.5,xlabel=$x$}}
+\newcounter{mbbp}
+\newenvironment{boxplots}[1][]{%
+  \pgfkeys{/bpl,default,#1}%
+  \setcounter{mbbp}{0}%
+  \pgfmathsetmacro{\bpk}{\bpkaro/\bpxstep}%
+  \pgfmathsetmacro{\bptx}{0.12*\bpxstep}%
+  \pgfmathsetmacro{\bppfeil}{\bpxmax+0.6*\bpxstep}%
+  \pgfmathsetmacro{\bpxa}{\bpxmin+\bpxstep}%
+  \ifdim\bpkaro cm<0.6cm \def\mbtf{\tiny}\else\def\mbtf{\scriptsize}\fi
+  \xdef\mbwmax{0pt}%
+  \foreach \x in {\bpxmin,\bpxa,...,\bpxmax}{\sbox\mbmessbox{\mbtf$\pgfmathprintnumber{\x}$}%
+    \ifdim\wd\mbmessbox>\mbwmax\xdef\mbwmax{\the\wd\mbmessbox}\fi}%
+  \pgfmathtruncatemacro{\bpl}{max(1,ceil((\mbwmax+2pt)/(\bpkaro cm)))}%
+  \begin{tikzpicture}[x=\bpk cm,y=1cm,baseline=(current bounding box.north)]
+}{%
+  \pgfmathsetmacro{\bphoehe}{1.2*\value{mbbp}+0.2}%
+  \draw[mbgitter,line width=0.3pt] (\bpxmin,0) grid[xstep=\bpxstep,ystep=\bpkaro] (\bpxmax,\bphoehe);
+  \draw[-{Stealth[length=2mm]},line width=0.6pt] (\bpxmin,0) -- (\bppfeil,0) node[right] {\small\bpxlabel};
+  \foreach \x in {\bpxmin,\bpxa,...,\bpxmax}{%
+    \pgfmathtruncatemacro{\mbrest}{mod(abs(round(\x/\bpxstep)),\bpl)}%
+    \draw (\x,0.12) -- (\x,-0.12)
+      \ifnum\mbrest=0 node[below,inner sep=1.5pt] {\mbtf$\pgfmathprintnumber{\x}$}\fi;}
+  \end{tikzpicture}}
+\def\mbbpfuenf#1,#2,#3,#4,#5\relax{\def\bpa{#1}\def\bpb{#2}\def\bpc{#3}\def\bpd{#4}\def\bpe{#5}}
+\NewDocumentCommand{\bp}{m m}{%
+  \stepcounter{mbbp}%
+  \pgfmathsetmacro{\bpy}{1.2*\value{mbbp}-0.6}%
+  \node[left,font=\small,inner sep=4pt] at (\bpxmin,\bpy) {#2};
+  \ifblank{#1}{}{%
+    \mbbpfuenf#1\relax
+    \pgfmathparse{(\bpa<\bpxmin)||(\bpe>\bpxmax)}\ifdim\pgfmathresult pt>0pt
+      \PackageWarning{mathblatt}{bp: Werte liegen ausserhalb von xmin..xmax}\fi
+    \pgfmathsetmacro{\bpu}{\bpy-0.35}\pgfmathsetmacro{\bpo}{\bpy+0.35}%
+    \draw[line width=0.7pt] (\bpa,\bpu) -- (\bpa,\bpo) (\bpe,\bpu) -- (\bpe,\bpo);
+    \draw[line width=0.7pt] (\bpa,\bpy) -- (\bpb,\bpy) (\bpd,\bpy) -- (\bpe,\bpy);
+    \filldraw[fill=mbkasten,line width=0.7pt] (\bpb,\bpu) rectangle (\bpd,\bpo);
+    \draw[line width=1pt] (\bpc,\bpu) -- (\bpc,\bpo);}}
+% Histogramm: Klassen als  von:bis/Höhe , durch Komma getrennt.
+% \histogramm{0:10/4, 10:20/9, 20:40/6}                 Höhe = Häufigkeit
+% \histogramm[dichte]{0:10/4, 10:20/9, 20:40/6}         Höhe = Häufigkeit / Klassenbreite
+% \histogramm{0:10/, 10:20/, 20:40/}                    nur Achsen und Klassengrenzen
+% Schlüssel: ymax, ystep, karo, xlabel, ylabel, dichte, titel (Textmodus, über dem Diagramm)
+\pgfkeys{/hst/.is family, /hst,
+  ymax/.estore in=\hsymax, ystep/.estore in=\hsystep, xstep/.estore in=\hsxstep,
+  karo/.estore in=\hskaro, xlabel/.estore in=\hsxlabel, ylabel/.estore in=\hsylabel,
+  dichte/.is if=mbhsdichte, titel/.estore in=\hstitel,
+  default/.style={ymax=10,ystep=1,xstep=10,karo=0.5,xlabel=$x$,ylabel=$h$,titel=}}
+\newif\ifmbhsdichte
+\NewDocumentCommand{\histogramm}{O{} m}{%
+  \mbhsdichtefalse\pgfkeys{/hst,default,#1}%
+  \def\hsxa{}\def\hsxb{}%
+  \foreach \k/\h in {#2}{\expandafter\mbrzwei\k\relax
+    \ifx\hsxa\empty\xdef\hsxa{\mbrtmin}\fi\xdef\hsxb{\mbrtmax}}%
+  \pgfmathsetmacro{\hsxk}{\hskaro/\hsxstep}%
+  \pgfmathsetmacro{\hsyk}{\hskaro/\hsystep}%
+  \pgfmathsetmacro{\hsxpfeil}{\hsxb+0.6*\hsxstep}%
+  \pgfmathsetmacro{\hsypfeil}{\hsymax+0.6*\hsystep}%
+  \ifdim\hskaro cm<0.6cm \def\mbtf{\tiny}\else\def\mbtf{\scriptsize}\fi
+  \begin{tikzpicture}[x=\hsxk cm,y=\hsyk cm,baseline=(current bounding box.north)]
+    \draw[mbgitter,line width=0.3pt] (\hsxa,0) grid[xstep=\hsxstep,ystep=\hsystep] (\hsxb,\hsymax);
+    \foreach \k/\h in {#2}{\expandafter\mbrzwei\k\relax
+      \ifx\h\empty\else
+        \ifmbhsdichte\pgfmathsetmacro{\hsh}{(\h)/(\mbrtmax-\mbrtmin)}\else\pgfmathsetmacro{\hsh}{\h}\fi
+        \filldraw[fill=mbkasten,line width=0.7pt] (\mbrtmin,0) rectangle (\mbrtmax,\hsh);
+      \fi}%
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\hsxa,0) -- (\hsxpfeil,0) node[right] {\small\hsxlabel};
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\hsxa,0) -- (\hsxa,\hsypfeil) node[above] {\small\hsylabel};
+    \ifdefempty{\hstitel}{}{\pgfmathsetmacro{\hsty}{\hsypfeil+0.45/\hsyk}%
+      \node[above,font=\small\bfseries,inner sep=2pt] at ({(\hsxa+\hsxb)/2},\hsty) {\hstitel};}
+    \foreach \k/\h [count=\i] in {#2}{\expandafter\mbrzwei\k\relax
+      \ifnum\i=1 \draw (\mbrtmin,{0.12*\hsystep}) -- (\mbrtmin,{-0.12*\hsystep})
+        node[below,inner sep=1.5pt] {\mbtf$\pgfmathprintnumber{\mbrtmin}$};\fi
+      \draw (\mbrtmax,{0.12*\hsystep}) -- (\mbrtmax,{-0.12*\hsystep})
+        node[below,inner sep=1.5pt] {\mbtf$\pgfmathprintnumber{\mbrtmax}$};}%
+    \pgfmathsetmacro{\hsya}{\hsystep}\pgfmathsetmacro{\hsyb}{2*\hsystep}%
+    \foreach \y in {\hsya,\hsyb,...,\hsymax}{\ifdim \y pt=0pt\else
+      \draw (\hsxa,\y) ++({0.12*\hsxstep},0) -- ++({-0.24*\hsxstep},0)
+        node[left,inner sep=1.5pt] {\mbtf$\pgfmathprintnumber{\y}$};\fi}
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% K  Kreis und Winkelfiguren (Maße in cm, Winkel in Grad, 0 Grad = rechts)
+% ---------------------------------------------------------------------------
+% Ein Kreis mit Zusätzen: Umgebung kreis, Radius in cm.
+% \begin{kreis}[2]                          Radius 2 cm (Voreinstellung 2)
+%   \mittelpunkt{M}                         Punkt und Label in der Mitte
+%   \radius{40}{r}                          Radius zum Randpunkt bei 40 Grad
+%   \durchmesser{0}{d}                      Durchmesser durch den Mittelpunkt
+%   \sehne{200}{340}{s}                     Sehne zwischen zwei Randpunkten
+%   \tangente{300}{t}                       Tangente im Randpunkt, Beruehrpunkt markiert
+%   \sektor{30}{110}{\alpha}                grau gefuellter Sektor, Winkel beschriftet
+%   \bogen{30}{110}{b}                      nur der Bogen, dicker gezeichnet
+%   \kreispunkt{110}{B}                     Punkt auf dem Rand mit Label
+% \end{kreis}
+% Winkel werden gegen den Uhrzeigersinn gezaehlt; leeres Label {} laesst es weg.
+\pgfkeys{/krs/.is family, /krs, r/.estore in=\krr, default/.style={r=2}}
+\newenvironment{kreis}[1][2]{%
+  \pgfkeys{/krs,default,r=#1}%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.7pt]
+    \draw (0,0) circle (\krr);
+}{\end{tikzpicture}}
+% \mblabel{Text}{Position}{Optionen} – setzt nichts, wenn der Text leer ist
+\newcommand{\mbklabel}[3]{\ifblank{#1}{}{\node[#3,font=\small] at #2 {$#1$};}}
+\newcommand{\mittelpunkt}[1]{\fill (0,0) circle (1.6pt);
+  \mbklabel{#1}{(0,0)}{below left,inner sep=3pt}}
+\NewDocumentCommand{\kreispunkt}{O{} m m}{%
+  \fill (#2:\krr) circle (1.6pt);
+  \mbklabel{#3}{({#2}:{\krr+0.3})}{#1}}
+\newcommand{\radius}[2]{%
+  \draw[line width=0.7pt] (0,0) -- (#1:\krr);
+  \mbklabel{#2}{($({#1}:{0.55*\krr})+({#1-90}:0.22)$)}{inner sep=1pt}}
+\newcommand{\durchmesser}[2]{%
+  \draw[line width=0.7pt] ({#1+180}:\krr) -- (#1:\krr);
+  \mbklabel{#2}{($({#1}:{0.6*\krr})+({#1+90}:0.22)$)}{inner sep=1pt}}
+\newcommand{\sehne}[3]{%
+  \draw[line width=0.7pt] (#1:\krr) -- (#2:\krr);
+  \mbklabel{#3}{($0.5*(#1:\krr)+0.5*(#2:\krr)+({(#1+#2)/2}:0.22)$)}{inner sep=1pt}}
+% Tangente: Beruehrpunkt bei #1, rechter Winkel zum Radius markiert
+\newcommand{\tangente}[2]{%
+  \pgfmathsetmacro{\krl}{0.85*\krr}%
+  \draw[dashed,line width=0.5pt] (0,0) -- (#1:\krr);
+  \draw[line width=0.7pt] ($(#1:\krr)+({#1+90}:\krl)$) -- ($(#1:\krr)+({#1-90}:\krl)$);
+  \draw[line width=0.4pt] ($(#1:\krr)+({#1+90}:0.22)$) -- ($(#1:\krr)+({#1+90}:0.22)+({#1+180}:0.22)$)
+    -- ($(#1:\krr)+({#1+180}:0.22)$);
+  \fill (#1:\krr) circle (1.4pt);
+  \mbklabel{#2}{($(#1:\krr)+({#1-90}:{0.75*\krl})$)}{fill=white,inner sep=1pt}}
+\newcommand{\sektor}[3]{%
+  \filldraw[fill=mbgrau,fill opacity=0.15,line width=0.7pt]
+    (0,0) -- (#1:\krr) arc (#1:#2:\krr) -- cycle;
+  \pgfmathsetmacro{\krm}{(#1+#2)/2}%
+  \mbklabel{#3}{(\krm:{0.45*\krr})}{}}
+\newcommand{\bogen}[3]{%
+  \draw[line width=1.1pt] (#1:\krr) arc (#1:#2:\krr);
+  \pgfmathsetmacro{\krm}{(#1+#2)/2}%
+  \mbklabel{#3}{(\krm:{\krr+0.32})}{}}
+% Winkelfiguren
+% \geradenkreuzung{35}{\alpha}{\beta}{\gamma}{\delta}  zwei Geraden durch einen Punkt;
+%   alpha rechts oben, beta links oben, gamma links unten (Scheitel zu alpha), delta rechts unten
+% \parallelenpaar{60}{\alpha}{\beta}{\gamma}{\delta}   zwei Parallelen mit Schnittgerade;
+%   alpha, beta an der oberen Kreuzung (rechts oben, links oben), gamma, delta an der unteren
+% \winkel[4]{40}{\alpha}   ein Winkel, Schenkellaenge 4 cm (Voreinstellung 3)
+\NewDocumentCommand{\geradenkreuzung}{m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.7pt]
+    \draw (180:2.4) -- (0:2.4);
+    \draw ({#1+180}:2.4) -- (#1:2.4);
+    \draw[mbgrau,line width=0.5pt] (0.75,0) arc (0:#1:0.75);
+    \pgfmathsetmacro{\wka}{#1/2}\pgfmathsetmacro{\wkb}{(#1+180)/2}%
+    \mbklabel{#2}{(\wka:1.1)}{}\mbklabel{#3}{(\wkb:1.1)}{}%
+    \mbklabel{#4}{({\wka+180}:1.1)}{}\mbklabel{#5}{({\wkb+180}:1.1)}{}%
+    \fill (0,0) circle (1.4pt);
+  \end{tikzpicture}}
+\NewDocumentCommand{\parallelenpaar}{m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.7pt]
+    \pgfmathsetmacro{\wpdx}{2.2*cos(#1)/sin(#1)}% cot statt 1/tan wegen #1 = 90
+    \pgfmathsetmacro{\wpl}{min(\wpdx,0)-1.5}\pgfmathsetmacro{\wpr}{max(\wpdx,0)+1.5}%
+    \coordinate (Q) at (0,0); \coordinate (P) at (\wpdx,2.2);
+    \draw (\wpl,0) -- (\wpr,0); \draw (\wpl,2.2) -- (\wpr,2.2);
+    \draw ($(Q)+({#1+180}:1.1)$) -- ($(P)+({#1}:1.1)$);
+    \foreach \s in {P,Q}{%
+      \draw[mbgrau,line width=0.5pt] ($(\s)+(0.7,0)$) arc (0:#1:0.7);
+      \draw[mbgrau,line width=0.5pt] ($(\s)+({#1}:0.7)$) arc (#1:180:0.7);
+      \fill (\s) circle (1.4pt);}%
+    \pgfmathsetmacro{\wpa}{#1/2}\pgfmathsetmacro{\wpb}{(#1+180)/2}%
+    \mbklabel{#2}{($(P)+({\wpa}:1.05)$)}{}\mbklabel{#3}{($(P)+({\wpb}:1.05)$)}{}%
+    \mbklabel{#4}{($(Q)+({\wpa}:1.05)$)}{}\mbklabel{#5}{($(Q)+({\wpb}:1.05)$)}{}%
+  \end{tikzpicture}}
+\NewDocumentCommand{\winkel}{O{3} m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.7pt]
+    \draw (0:#1) -- (0,0) -- (#2:#1);
+    \draw[mbgrau,line width=0.5pt] (0.7,0) arc (0:#2:0.7);
+    \pgfmathsetmacro{\wka}{#2/2}%
+    \mbklabel{#3}{(\wka:1.1)}{}%
+    \fill (0,0) circle (1.4pt);
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% I  Koordinatensystem 3D (Kavalierprojektion nach Masterprompt §4.5)
+% ---------------------------------------------------------------------------
+% x2 waagerecht, x3 senkrecht, x1 unter 45° nach links unten, halbiert.
+% Bildpunkt von (x1|x2|x3): (x2 - x1/2 | x3 - x1/2). 1 Einheit = 2 Karos.
+% \begin{ksys3}                                        Oberstufe, Achsen x_1,x_2,x_3, Karo 5 mm
+% \begin{ksys3}[x1min=-2,x1max=6,x2min=-3,x2max=6,x3min=-2,x3max=5]   (= Voreinstellung)
+% \begin{ksys3}[xyz]                                   Sek I: Achsen x,y,z
+% \begin{ksys3}[...,karo=0.4]                          Karo = Kantenlänge einer Gitterzelle in cm
+% \begin{ksys3}[...,x1schritt=2]                       x1 nur bei 2, 4, 6 beziffert (bei engem System)
+% \begin{ksys3}[leit]                                  Leitgrafik im Übersichtskasten: Karo 4 mm, 0..2
+%   \rpunkt{4}{4}{3}{A}               Punkt mit Lot: entlang x1, dann parallel x2, dann parallel x3
+%   \rpunkt[below right]{4}{4}{3}{A}  Labelposition wie bei TikZ-Knoten (Voreinstellung above right)
+%   \rpunkt*{1}{1.5}{1.5}{S}          Punkt ohne Lot (Durchstoß-, Schnitt-, Spurpunkt)
+%   \rvektor{2,4,3}{\vec a}                Ortsvektor vom Ursprung, Label in Pfeilmitte
+%   \rvektorab[below]{1,1,0}{4,5,2}{\vec u}  Pfeil von A nach B (erstes Argument: Labelposition)
+%   \rgerade{0,-2,1}{1,1,0.5}{g}           Stützpunkt, Richtungsvektor; läuft bis zum Rand des Achsenquaders
+%   \rgerade[-1:1.5]{3,1,-1}{0,1,2}{h}     Parameterbereich t = -1..1,5 statt Rand; Label am Ende (t max)
+%   \rebene{4}{6}{3}{E}                    Spurdreieck aus den Achsenabschnitten (x1|x2|x3)
+%   \rebenepar{1,1,1}{2,1,0}{0,2,2}{F}     Parallelogramm: Stützpunkt, zwei Spannvektoren (als Pfeile)
+%   \rebenepar*{0,0,3}{4,0,1}{0,5,0}{D}    Sternform: Fläche ohne Spannvektorpfeile (Dach, Wand)
+%   \rquader{1,1,0}{3}{4}{2}               Quader: Ecke mit kleinsten Koordinaten, Kanten a (x1), b (x2), c (x3)
+%   \rpyramide{0,1,0}{4}{3}{2,2.5,5}       Rechteckpyramide: Ecke, Kanten a (x1), b (x2), Spitze
+% \end{ksys3}
+% Körper im ksys3 tragen keine Labels; Eckpunkte setzt der Nutzer mit \rpunkt*.
+% Verdeckte Kanten sind gestrichelt (Betrachter in Richtung (2|1|1)).
+% Punkte und Vektoren der Vektor-, Geraden- und Ebenenmakros stehen als Tripel
+% {x1,x2,x3} in einem Argument (LaTeX erlaubt höchstens 9 Argumente). \rpunkt und
+% \rebene behalten getrennte Argumente.
+% Das 5-mm-Gitter wird am Ende hinter die ganze gezeichnete Fläche gelegt; Punkte
+% außerhalb der Achsbereiche liegen trotzdem auf Karo, die Achsen enden dann aber vor
+% ihnen. Nicht mit den Körpern aus Abschnitt F auf einem Blatt kombinieren, die haben
+% eine andere Blickrichtung (Tiefe nach rechts oben).
+\pgfdeclarelayer{mbhinten}
+\pgfkeys{/ksys3/.is family, /ksys3,
+  x1min/.estore in=\ksamin, x1max/.estore in=\ksamax,
+  x2min/.estore in=\ksbmin, x2max/.estore in=\ksbmax,
+  x3min/.estore in=\kscmin, x3max/.estore in=\kscmax,
+  karo/.estore in=\ksdkaro, x1schritt/.estore in=\ksaschritt,
+  x1name/.estore in=\ksaname, x2name/.estore in=\ksbname, x3name/.estore in=\kscname,
+  xyz/.style={x1name=x,x2name=y,x3name=z},
+  leit/.style={karo=0.4,x1min=0,x1max=2,x2min=0,x2max=2,x3min=0,x3max=2},
+  default/.style={x1min=-2,x1max=6,x2min=-3,x2max=6,x3min=-2,x3max=5,karo=0.5,x1schritt=1,
+                  x1name=x_1,x2name=x_2,x3name=x_3}}
+% Gitter über die gesamte gezeichnete Fläche, auf Karo-Vielfache gerastert, ein Karo Rand
+\newcommand{\mbdreigitter}{%
+  \path (current bounding box.south west); \pgfgetlastxy{\mbbxa}{\mbbya}%
+  \path (current bounding box.north east); \pgfgetlastxy{\mbbxb}{\mbbyb}%
+  \pgfmathsetlengthmacro{\mbgxa}{(floor(\mbbxa/(\ksdkaro cm)+0.001)-1)*\ksdkaro cm}%
+  \pgfmathsetlengthmacro{\mbgya}{(floor(\mbbya/(\ksdkaro cm)+0.001)-1)*\ksdkaro cm}%
+  \pgfmathsetlengthmacro{\mbgxb}{(ceil(\mbbxb/(\ksdkaro cm)-0.001)+1)*\ksdkaro cm}%
+  \pgfmathsetlengthmacro{\mbgyb}{(ceil(\mbbyb/(\ksdkaro cm)-0.001)+1)*\ksdkaro cm}%
+  \begin{pgfonlayer}{mbhinten}
+    \draw[mbgitter,line width=0.3pt] (\mbgxa,\mbgya) grid[step=\ksdkaro cm] (\mbgxb,\mbgyb);
+  \end{pgfonlayer}}
+\newenvironment{ksys3}[1][]{%
+  \pgfkeys{/ksys3,default,#1}%
+  \pgfmathsetmacro{\ksde}{2*\ksdkaro}% Einheit in cm
+  \pgfmathsetmacro{\ksapfeil}{\ksamax+0.7}% 0.7 Einheiten schräg = 0.5 Einheiten Sichtlänge
+  \pgfmathsetmacro{\ksbpfeil}{\ksbmax+0.5}%
+  \pgfmathsetmacro{\kscpfeil}{\kscmax+0.5}%
+  \pgfsetlayers{mbhinten,main}%
+  \begin{tikzpicture}[x={(-\ksdkaro cm,-\ksdkaro cm)},y={(\ksde cm,0cm)},z={(0cm,\ksde cm)},
+      baseline=(current bounding box.north),execute at end picture={\mbdreigitter}]
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\ksamin,0,0) -- (\ksapfeil,0,0) node[below left] {\small$\ksaname$};
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (0,\ksbmin,0) -- (0,\ksbpfeil,0) node[right] {\small$\ksbname$};
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (0,0,\kscmin) -- (0,0,\kscpfeil) node[above] {\small$\kscname$};
+    \foreach \a in {\ksamin,...,\ksamax}{\ifdim \a pt=0pt\else
+      \pgfmathtruncatemacro{\mbrest}{mod(\a,\ksaschritt)}%
+      \draw ($(\a,0,0)+(-0.85mm,0.85mm)$) -- ($(\a,0,0)+(0.85mm,-0.85mm)$)
+        \ifnum\mbrest=0 node[below,inner sep=1.5pt] {\scriptsize$\pgfmathprintnumber{\a}$}\fi;\fi}
+    \foreach \b in {\ksbmin,...,\ksbmax}{\ifdim \b pt=0pt\else
+      \draw (0,\b,0.12) -- (0,\b,-0.12) node[below] {\scriptsize$\pgfmathprintnumber{\b}$};\fi}
+    \foreach \c in {\kscmin,...,\kscmax}{\ifdim \c pt=0pt\else
+      \draw (0,0.12,\c) -- (0,-0.12,\c) node[left] {\scriptsize$\pgfmathprintnumber{\c}$};\fi}
+}{\end{tikzpicture}}
+% Objekte im ksys3
+\NewDocumentCommand{\rpunkt}{s O{above right} m m m m}{%
+  \IfBooleanF{#1}{\draw[dashed,line width=0.5pt] (0,0,0) -- (#3,0,0) -- (#3,#4,0) -- (#3,#4,#5);}%
+  \fill (#3,#4,#5) circle (1.6pt) node[#2,font=\small] {$#6$};}
+\NewDocumentCommand{\rvektor}{O{above right} m m}{%
+  \draw[-{Stealth[length=2mm]},line width=0.8pt] (0,0,0) -- (#2) node[midway,#1,font=\small] {$#3$};}
+\NewDocumentCommand{\rvektorab}{O{above right} m m m}{%
+  \draw[-{Stealth[length=2mm]},line width=0.8pt] (#2) -- (#3) node[midway,#1,font=\small] {$#4$};}
+% Gerade: ohne Parameterbereich wird t so gewählt, dass die Gerade genau im Quader
+% x1min..x1max, x2min..x2max, x3min..x3max liegt (Liang-Barsky je Achse).
+\newcommand{\mbrclip}[4]{% p, u, min, max -> engt \mbrtmin, \mbrtmax ein
+  \pgfmathsetmacro{\mbru}{#2}%
+  \ifdim\mbru pt=0pt
+    \pgfmathparse{((#1)<(#3))||((#1)>(#4))}\ifdim\pgfmathresult pt>0pt \def\mbrleer{1}\fi
+  \else
+    \pgfmathsetmacro{\mbrta}{((#3)-(#1))/(#2)}%
+    \pgfmathsetmacro{\mbrtb}{((#4)-(#1))/(#2)}%
+    \pgfmathsetmacro{\mbrtmin}{max(\mbrtmin,min(\mbrta,\mbrtb))}%
+    \pgfmathsetmacro{\mbrtmax}{min(\mbrtmax,max(\mbrta,\mbrtb))}%
+  \fi}
+\NewDocumentCommand{\rgerade}{O{} m m m}{%
+  \mbrdrei#2\relax\let\mbrpa\mbrA\let\mbrpb\mbrB\let\mbrpc\mbrC
+  \mbrdrei#3\relax\let\mbrua\mbrA\let\mbrub\mbrB\let\mbruc\mbrC
+  \ifblank{#1}{%
+    \def\mbrtmin{-1000}\def\mbrtmax{1000}\def\mbrleer{0}%
+    \mbrclip{\mbrpa}{\mbrua}{\ksamin}{\ksamax}%
+    \mbrclip{\mbrpb}{\mbrub}{\ksbmin}{\ksbmax}%
+    \mbrclip{\mbrpc}{\mbruc}{\kscmin}{\kscmax}%
+    \pgfmathparse{\mbrtmax<=\mbrtmin}\ifdim\pgfmathresult pt>0pt \def\mbrleer{1}\fi
+    \ifnum\mbrleer=1
+      \PackageWarning{mathblatt}{rgerade #4: Gerade liegt ausserhalb der Achsbereiche, zeichne t=-1..3}%
+      \def\mbrtmin{-1}\def\mbrtmax{3}\fi
+  }{\mbrzwei#1\relax}%
+  \draw[line width=0.8pt] ({\mbrpa+\mbrtmin*\mbrua},{\mbrpb+\mbrtmin*\mbrub},{\mbrpc+\mbrtmin*\mbruc})
+    -- ({\mbrpa+\mbrtmax*\mbrua},{\mbrpb+\mbrtmax*\mbrub},{\mbrpc+\mbrtmax*\mbruc})
+    node[above right,fill=white,inner sep=1pt,font=\small] {$#4$};}
+% Ebenen: Spurdreieck (Achsenabschnitte) und Parallelogramm (Stützpunkt + Spannvektoren);
+% Label in der Flächenmitte, optionales Argument = Knotenoptionen für das Label.
+\NewDocumentCommand{\rebene}{O{} m m m m}{%
+  \filldraw[fill=mbgrau,fill opacity=0.15,line width=0.6pt] (#2,0,0) -- (0,#3,0) -- (0,0,#4) -- cycle;
+  \node[font=\small,#1] at ({(#2)/3},{(#3)/3},{(#4)/3}) {$#5$};}
+\NewDocumentCommand{\rebenepar}{s O{} m m m m}{%
+  \filldraw[fill=mbgrau,fill opacity=0.15,line width=0.6pt]
+    (#3) -- ($(#3)+(#4)$) -- ($(#3)+(#4)+(#5)$) -- ($(#3)+(#5)$) -- cycle;
+  \IfBooleanF{#1}{%
+    \draw[-{Stealth[length=2mm]},line width=0.8pt] (#3) -- ($(#3)+(#4)$);
+    \draw[-{Stealth[length=2mm]},line width=0.8pt] (#3) -- ($(#3)+(#5)$);}%
+  \node[font=\small,#2] at ($(#3)+0.5*(#4)+0.5*(#5)$) {$#6$};}
+% Körper im ksys3: Betrachter steht in Richtung (2|1|1), sichtbar sind die Flächen mit
+% den größten Koordinaten. Beim Quader sind die drei Kanten an der Minimalecke verdeckt.
+\NewDocumentCommand{\rquader}{m m m m}{%
+  \mbrdrei#1\relax
+  \pgfmathsetmacro{\mbqa}{min(\mbrA,\mbrA+(#2))}\pgfmathsetmacro{\mbqA}{max(\mbrA,\mbrA+(#2))}%
+  \pgfmathsetmacro{\mbqb}{min(\mbrB,\mbrB+(#3))}\pgfmathsetmacro{\mbqB}{max(\mbrB,\mbrB+(#3))}%
+  \pgfmathsetmacro{\mbqc}{min(\mbrC,\mbrC+(#4))}\pgfmathsetmacro{\mbqC}{max(\mbrC,\mbrC+(#4))}%
+  \draw[dashed,line width=0.5pt] (\mbqA,\mbqb,\mbqc) -- (\mbqa,\mbqb,\mbqc) -- (\mbqa,\mbqB,\mbqc)
+    (\mbqa,\mbqb,\mbqc) -- (\mbqa,\mbqb,\mbqC);
+  \draw[line width=0.7pt] (\mbqA,\mbqb,\mbqc) -- (\mbqA,\mbqB,\mbqc) -- (\mbqa,\mbqB,\mbqc)
+    (\mbqA,\mbqb,\mbqc) -- (\mbqA,\mbqb,\mbqC) (\mbqA,\mbqB,\mbqc) -- (\mbqA,\mbqB,\mbqC)
+    (\mbqa,\mbqB,\mbqc) -- (\mbqa,\mbqB,\mbqC)
+    (\mbqa,\mbqb,\mbqC) -- (\mbqA,\mbqb,\mbqC) -- (\mbqA,\mbqB,\mbqC) -- (\mbqa,\mbqB,\mbqC) -- cycle;}
+\NewDocumentCommand{\rpyramide}{m m m m}{%
+  \def\mbvx{2}\def\mbvy{1}\def\mbvz{1}%
+  \mbrdrei#1\relax\let\mbpx\mbrA\let\mbpy\mbrB\let\mbpz\mbrC
+  \mbpyramideecken{#2}{#3}{#4}%
+  \mbpyramidekanten}
+
+% ---------------------------------------------------------------------------
+% L  Analysis (Objekte im ksys, sofern nicht anders vermerkt)
+% ---------------------------------------------------------------------------
+% \ableitungspaar[ksys-Schlüssel]{Term f}{f}{Term f'}{f'}   freistehend, zwei Systeme untereinander
+%   mit gleicher x-Achse; Schlüssel wie beim ksys, dazu ymin2/ymax2/ystep2/ylabel2 für das
+%   untere System. Leerer Term = leeres System (Schüler zeichnet).
+%   \ableitungspaar[xmin=-3,xmax=3,ymin=-2,ymax=6,ymin2=-4,ymax2=4]{0.5*\x^2-2}{f}{\x}{f'}
+% \flaeche{Term}{a}{b}{A}                 Fläche zwischen Graph und x-Achse von a bis b, grau
+% \flaechezwischen{Term f}{Term g}{a}{b}{A}   Fläche zwischen zwei Graphen
+% \tangentean{Term}{x0}{t}                Tangente in x0 mit Steigungsdreieck (1 nach rechts, m senkrecht);
+%   \tangentean*{Term}{x0}{t}             ohne Steigungsdreieck; \tangentean[1{,}5]{...} setzt den
+%                                          Steigungstext selbst (sonst numerisch, 2 Nachkommastellen)
+% \hochpunkt{x}{y}{H}  \tiefpunkt{x}{y}{T}  \wendepunkt{x}{y}{W}  \wendepunkt[m]{x}{y}{W}
+%   Punkt mit Label über, unter bzw. rechts über dem Punkt; Wendepunkt mit optionaler Steigung m
+%   der Wendetangente (kurzes gestricheltes Stück), \wendepunkt[0] für den Sattelpunkt.
+% \asymptote{x=2}{}   \asymptote{y=-1}{}   \asymptote{y=0.5*\x+1}{a}   gestrichelt, Label optional
+\pgfkeys{/ksys,
+  ymin2/.estore in=\ksyminu, ymax2/.estore in=\ksymaxu,
+  ystep2/.estore in=\ksystepu, ylabel2/.estore in=\ksylabelu}
+\NewDocumentCommand{\ableitungspaar}{O{} m m m m}{%
+  \def\ksyminu{}\def\ksymaxu{}\def\ksystepu{}\def\ksylabelu{}%
+  \mbksyssetup{#1}%
+  \begin{tikzpicture}[x=\ksxk cm,y=\ksyk cm,baseline=(current bounding box.north)]
+    \mbksysachsen
+    \mbksysclip
+      \ifblank{#2}{}{\funktion{#2}{#3}}
+    \end{scope}
+    \pgfmathsetmacro{\mbyu}{\ksymin*\ksyk}% untere Kante des oberen Systems in cm
+    \pgfkeys{/ksys,default,#1}%
+    \ifx\ksyminu\empty\else\pgfkeys{/ksys,ymin=\ksyminu}\fi
+    \ifx\ksymaxu\empty\else\pgfkeys{/ksys,ymax=\ksymaxu}\fi
+    \ifx\ksystepu\empty\else\pgfkeys{/ksys,ystep=\ksystepu}\fi
+    \ifx\ksylabelu\empty\else\pgfkeys{/ksys,ylabel=\ksylabelu}\fi
+    \mbksysrechnen
+    \pgfmathsetmacro{\mbys}{\mbyu-1.3-\ksypfeil*\ksyk}%
+    \begin{scope}[y=\ksyk cm,yshift=\mbys cm]
+      \mbksysachsen
+      \mbksysclip
+        \ifblank{#4}{}{\funktion{#4}{#5}}
+      \end{scope}
+    \end{scope}
+  \end{tikzpicture}}
+% Flächen: Rand des Graphen durchgezogen, Begrenzungen bei a und b dünn; Label in der Mitte.
+\NewDocumentCommand{\flaeche}{m m m m}{%
+  \begingroup\mbxsicher
+  \fill[mbgrau,fill opacity=0.3] plot[mbterm,domain=#2:#3,samples=80,smooth] (\mbt,{#1}) -- (#3,0) -- (#2,0) -- cycle;
+  \draw[line width=0.4pt] plot[mbterm,domain=#2:#3,samples=80,smooth] (\mbt,{#1}) -- (#3,0) -- (#2,0) -- cycle;\endgroup
+  \ifblank{#4}{}{%
+    \begingroup\def\x{(((#2)+(#3))/2)}\pgfmathparse{#1}\global\let\mbfm\pgfmathresult\endgroup
+    \node[font=\small] at ({((#2)+(#3))/2},{\mbfm/2}) {$#4$};}}
+\NewDocumentCommand{\flaechezwischen}{m m m m m}{%
+  \begingroup\mbxsicher
+  \fill[mbgrau,fill opacity=0.3] plot[mbterm,domain=#3:#4,samples=80,smooth] (\mbt,{#1})
+    -- plot[mbterm,domain=#4:#3,samples=80,smooth] (\mbt,{#2}) -- cycle;
+  \draw[line width=0.4pt] plot[mbterm,domain=#3:#4,samples=80,smooth] (\mbt,{#1})
+    -- plot[mbterm,domain=#4:#3,samples=80,smooth] (\mbt,{#2}) -- cycle;\endgroup
+  \ifblank{#5}{}{%
+    \begingroup\def\x{(((#3)+(#4))/2)}\pgfmathparse{#1}\global\let\mbfm\pgfmathresult
+      \pgfmathparse{#2}\global\let\mbgm\pgfmathresult\endgroup
+    \node[font=\small] at ({((#3)+(#4))/2},{(\mbfm+\mbgm)/2}) {$#5$};}}
+% Tangente: Steigung numerisch (zentraler Differenzenquotient, h = 0.01), Gerade über \gerade,
+% Label am Rand wie bei \gerade ohne optionales Argument.
+\NewDocumentCommand{\tangentean}{s O{} m m m}{%
+  \begingroup
+    \def\x{((#4)+0.01)}\pgfmathparse{#3}\global\let\mbfp\pgfmathresult
+    \def\x{((#4)-0.01)}\pgfmathparse{#3}\global\let\mbfq\pgfmathresult
+    \def\x{(#4)}\pgfmathparse{#3}\global\let\mbfz\pgfmathresult
+  \endgroup
+  \pgfmathsetmacro{\mbm}{(\mbfp-\mbfq)/0.02}%
+  \pgfmathsetmacro{\mbn}{\mbfz-\mbm*(#4)}%
+  \gerade{\mbm}{\mbn}{#5}%
+  \IfBooleanF{#1}{%
+    \pgfmathsetmacro{\mbdx}{ifthenelse((#4)+1.3*\ksxstep>\ksxmax,-1,1)}%
+    \pgfmathsetmacro{\mbxv}{(#4)+\mbdx}% senkrechte Seite des Dreiecks
+    \draw[mbgrau,dashed] (#4,\mbfz) -- (\mbxv,\mbfz) -- (\mbxv,{\mbfz+\mbdx*\mbm});
+    \node[below,font=\scriptsize,mbgrau] at ({(#4)+\mbdx/2},\mbfz) {1};
+    % Steigungstext außen neben der senkrechten Seite; innen, wenn außen die y-Achse
+    % oder der Rand im Weg ist
+    \pgfmathtruncatemacro{\mbinnen}{(\mbdx>0 && ((\mbxv>-1.2*\ksxstep && \mbxv<0.2*\ksxstep) || \mbxv+\ksxstep>\ksxmax))
+      || (\mbdx<0 && ((\mbxv<0.2*\ksxstep && \mbxv>-0.2*\ksxstep) || \mbxv-\ksxstep<\ksxmin))}%
+    \ifnum\mbinnen=1
+      \ifdim\mbdx pt>0pt \def\mbanch{left}\else\def\mbanch{right}\fi
+    \else
+      \ifdim\mbdx pt>0pt \def\mbanch{right}\else\def\mbanch{left}\fi
+    \fi
+    \node[\mbanch,font=\scriptsize,mbgrau] at (\mbxv,{\mbfz+\mbdx*\mbm/2})
+      {\ifblank{#2}{$\pgfmathprintnumber[precision=2]{\mbm}$}{$#2$}};}
+  \fill (#4,\mbfz) circle (1.6pt);}
+% Markierte Punkte
+\newcommand{\hochpunkt}[3]{\fill (#1,#2) circle (1.6pt); \ifblank{#3}{}{\node[above,font=\small,inner sep=3pt] at (#1,#2) {$#3$};}}
+\newcommand{\tiefpunkt}[3]{\fill (#1,#2) circle (1.6pt); \ifblank{#3}{}{\node[below,font=\small,inner sep=3pt] at (#1,#2) {$#3$};}}
+\NewDocumentCommand{\wendepunkt}{o m m m}{%
+  \IfNoValueF{#1}{\draw[mbgrau,dashed] ({(#2)-0.6*\ksxstep},{(#3)-0.6*\ksxstep*(#1)}) -- ({(#2)+0.6*\ksxstep},{(#3)+0.6*\ksxstep*(#1)});}%
+  \fill (#2,#3) circle (1.6pt);
+  \ifblank{#4}{}{\node[above right,font=\small,inner sep=2pt] at (#2,#3) {$#4$};}}
+% Asymptote: Argument  x=Wert  (senkrecht) oder  y=Term  (waagerecht/schräg, Term in \x)
+\def\mbasparse#1=#2\relax{\def\mbasl{#1}\def\mbasr{#2}}
+\NewDocumentCommand{\asymptote}{m m}{%
+  \mbasparse#1\relax
+  \if x\mbasl
+    \draw[dashed,line width=0.5pt] (\mbasr,\ksymin) -- (\mbasr,\ksymax);
+    \ifblank{#2}{}{\node[right,font=\small,fill=white,inner sep=1pt] at (\mbasr,{\ksymax-0.7*\ksystep}) {$#2$};}%
+  \else
+    \begingroup\mbxsicher
+    \draw[mbterm,dashed,line width=0.5pt,domain=\ksxmin:\ksxmax,samples=40] plot (\mbt,{\mbasr});\endgroup
+    \pgfmathsetmacro{\mbasx}{\ksxmax-0.15*(\ksxmax-\ksxmin)}%
+    \mbfunklabel{\mbasr}{#2}{\ksxmin}{\mbasx}%
+  \fi}
+
+% ---------------------------------------------------------------------------
+% M  Stochastik: dreistufiger Baum, Kreisdiagramm, Vierfeldertafel,
+%    Binomialverteilung, Normalverteilung (freistehend)
+% ---------------------------------------------------------------------------
+% \baumdrei{S1}{S2 nach 1. Ast}{S2 nach 2. Ast}{S3 nach 1-1}{S3 nach 1-2}{S3 nach 2-1}{S3 nach 2-2}
+%   Listen wie bei \baumzwei (Label/Wahrscheinlichkeit, leer = Feld). Zwei Aeste je Stufe.
+% \baumdreigleich{R/0.4,B/0.6}     alle Stufen gleich (Ziehen mit Zuruecklegen)
+\newcommand{\mbaeste}[6]{% Startkoordinate, y des Starts, x der Ziele, Liste, Abstand, Praefix
+  \pgfmathtruncatemacro{\mban}{0}%
+  \foreach \l/\p in #4{\xdef\mban{\the\numexpr\mban+1}}%
+  \foreach \l/\p [count=\mbc] in #4{%
+    \pgfmathsetmacro{\yy}{#2+#5*((\mban+1)/2-\mbc)}%
+    \expandafter\xdef\csname mby#6\mbc\endcsname{\yy}%
+    \node[ast] (#6\mbc) at (#3,\yy) {$\l$};
+    \draw (#1) -- (#6\mbc) node[wk,pos=0.5] {\ifx\p\empty\underline{\hspace{5mm}}\else$\p$\fi};}}
+\NewDocumentCommand{\baumdrei}{m m m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt,
+     ast/.style={font=\small,inner sep=1.5pt}, wk/.style={font=\scriptsize,fill=white,inner sep=1pt}]
+    \coordinate (S) at (0,0);
+    \mbaeste{S}{0}{2.4}{{#1}}{3}{A}%
+    \foreach \i in {1,2}{\ifnum\i=1 \def\mbl{#2}\else\def\mbl{#3}\fi
+      \mbaeste{A\i}{\csname mbyA\i\endcsname}{4.8}{\mbl}{1.5}{B\i}}%
+    \foreach \i/\j/\k in {1/1/1,1/2/2,2/1/3,2/2/4}{%
+      \ifcase\k\or\def\mbl{#4}\or\def\mbl{#5}\or\def\mbl{#6}\or\def\mbl{#7}\fi
+      \mbaeste{B\i\j}{\csname mbyB\i\j\endcsname}{7.2}{\mbl}{0.75}{C\i\j}}%
+  \end{tikzpicture}}
+\newcommand{\baumdreigleich}[1]{\baumdrei{#1}{#1}{#1}{#1}{#1}{#1}{#1}}
+
+% \kreisdiagramm[r]{Label/Wert, ...}   Winkel proportional zu den Werten (Prozent oder absolut),
+%   Label im Textmodus außen; leeres Label {} = Sektor ohne Text; leere Liste = Kreis mit Mittelpunkt.
+%   Radius in cm, Voreinstellung 1.8. Sektoren beginnen oben und laufen im Uhrzeigersinn.
+\NewDocumentCommand{\kreisdiagramm}{O{1.8} m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt]
+    \ifblank{#2}{\draw (0,0) circle (#1); \fill (0,0) circle (1.4pt);}{%
+      \pgfmathsetmacro{\mbsum}{0}%
+      \foreach \l/\w in {#2}{\pgfmathsetmacro{\mbsum}{\mbsum+\w}\xdef\mbsum{\mbsum}}%
+      \xdef\mbwa{90}%
+      \foreach \l/\w [count=\i] in {#2}{%
+        \edef\mbwb{\fpeval{round(\mbwa-360*\w/\mbsum,3)}}% fpeval statt pgfmath: 360*w überläuft ab w>45
+        \pgfmathsetmacro{\mbg}{0.96-0.14*mod(\i-1,4)}%
+        \filldraw[fill=black!\fpeval{round((1-\mbg)*100)}] (0,0) -- (\mbwa:#1) arc (\mbwa:\mbwb:#1) -- cycle;
+        \ifdefempty{\l}{}{\pgfmathsetmacro{\mbwm}{(\mbwa+\mbwb)/2}%
+          \node[font=\small,anchor={\mbwm+180}] at (\mbwm:{#1+0.3}) {\l};}
+        \xdef\mbwa{\mbwb}}%
+      \draw (0,0) circle (#1);}
+  \end{tikzpicture}}
+
+% \kreissektor[r]{Winkel}{Label}   Kreis mit Mittelpunkt M und einem grau gefüllten Sektor von Winkel Grad,
+%   beginnend oben, im Uhrzeigersinn; Label (z. B. 135°) im Sektor. Radius in cm, Voreinstellung 1.8.
+\NewDocumentCommand{\kreissektor}{O{1.8} m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt]
+    \edef\mbwe{\fpeval{90-#2}}%
+    \filldraw[fill=black!15] (0,0) -- (90:#1) arc (90:\mbwe:#1) -- cycle;
+    \draw (0,0) circle (#1); \fill (0,0) circle (1.4pt);
+    \node[below left,font=\small] at (0,0) {$M$};
+    \edef\mbwm{\fpeval{90-#2/2}}%
+    \node[font=\small] at (\mbwm:{#1*0.6}) {#3};
+  \end{tikzpicture}}
+
+% \vierfeldertafel{A}{B}{n11,n12,n1s,n21,n22,n2s,ns1,ns2,n}   zeilenweise: B / nicht B / Summe,
+%   spaltenweise A / nicht A / Summe. Leere Eintraege lassen das Feld frei, {} alles leer.
+\def\mbvfneun#1,#2,#3,#4,#5,#6,#7,#8,#9\relax{\def\vfa{#1}\def\vfb{#2}\def\vfc{#3}\def\vfd{#4}%
+  \def\vfe{#5}\def\vff{#6}\def\vfg{#7}\def\vfh{#8}\def\vfi{#9}}
+\newcommand{\mbvfz}[1]{\ifblank{#1}{\rule{0pt}{0.65cm}}{\rule{0pt}{0.65cm}$#1$}}
+\NewDocumentCommand{\vierfeldertafel}{m m m}{%
+  \ifblank{#3}{\mbvfneun,,,,,,,,\relax}{\mbvfneun#3\relax}%
+  \begingroup\renewcommand{\arraystretch}{1.3}%
+  \begin{tabular}{|>{\columncolor{mbkasten}}c|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.5cm}|}\hline
+  \cellcolor{mbkasten} & \cellcolor{mbkasten}$#1$ & \cellcolor{mbkasten}$\overline{#1}$ & \cellcolor{mbkasten} \\ \hline
+  $#2$ & \mbvfz{\vfa} & \mbvfz{\vfb} & \mbvfz{\vfc} \\ \hline
+  $\overline{#2}$ & \mbvfz{\vfd} & \mbvfz{\vfe} & \mbvfz{\vff} \\ \hline
+  & \mbvfz{\vfg} & \mbvfz{\vfh} & \mbvfz{\vfi} \\ \hline
+  \end{tabular}\endgroup\par\addvspace{4pt}}
+
+% \binomialverteilung[Schlüssel]{n}{p}   Stabdiagramm P(X=k) für k = von..bis (Voreinstellung 0..n).
+%   Schlüssel: von, bis, ymax, ystep (ohne Angabe automatisch), karo (0.5), markiere=a:b (Stäbe a..b dunkel).
+%   Bei n > 25 ohne von/bis: nur k mit P(X=k) >= 0.0005, Warnung im Log. Rechnung über Logarithmen.
+%   Breite = (bis-von+1) Karos; über 30 Stäbe passen nicht in die Zeile.
+\pgfkeys{/bin/.is family, /bin,
+  von/.estore in=\bnvon, bis/.estore in=\bnbis, ymax/.estore in=\bnymax, ystep/.estore in=\bnystep,
+  karo/.estore in=\bnkaro, markiere/.estore in=\bnmark,
+  default/.style={von=0,bis=,ymax=,ystep=,karo=0.5,markiere=}}
+\newcommand{\mbbinp}[3]{% n, p, k -> \mbbp
+  \pgfmathsetmacro{\mblc}{0}%
+  \pgfmathtruncatemacro{\mbkk}{#3}%
+  \ifnum\mbkk>0 \foreach \i in {1,...,\mbkk}{\pgfmathsetmacro{\mblc}{\mblc+ln(#1-\mbkk+\i)-ln(\i)}\xdef\mblc{\mblc}}\fi
+  \pgfmathsetmacro{\mble}{\mblc+\mbkk*ln(#2)+(#1-\mbkk)*ln(1-(#2))}%
+  \pgfmathsetmacro{\mbbp}{ifthenelse(\mble<-11,0,exp(\mble))}}
+\NewDocumentCommand{\binomialverteilung}{O{} m m}{%
+  \pgfkeys{/bin,default,#1}%
+  \ifx\bnbis\empty\edef\bnbis{#2}%
+    \ifnum#2>25 % grosses n: Bereich auf P(X=k) >= 0.0005 einschraenken
+      \def\bnvon{}\foreach \k in {0,...,#2}{\mbbinp{#2}{#3}{\k}%
+        \pgfmathparse{\mbbp>=0.0005}\ifdim\pgfmathresult pt>0pt
+          \ifx\bnvon\empty\xdef\bnvon{\k}\fi\xdef\bnbis{\k}\fi}%
+      \PackageWarning{mathblatt}{binomialverteilung n=#2: zeige k=\bnvon..\bnbis\space (P(X=k)>=0.0005); von/bis setzen fuer anderen Bereich}%
+    \fi\fi
+  \pgfmathsetmacro{\bnpmax}{0}%
+  \foreach \k in {\bnvon,...,\bnbis}{\mbbinp{#2}{#3}{\k}\pgfmathsetmacro{\bnpmax}{max(\bnpmax,\mbbp)}\xdef\bnpmax{\bnpmax}}%
+  \ifx\bnystep\empty\pgfmathsetmacro{\bnystep}{ifthenelse(\bnpmax>0.25,0.05,ifthenelse(\bnpmax>0.1,0.02,0.01))}\fi
+  \ifx\bnymax\empty\pgfmathsetmacro{\bnymax}{ceil(\bnpmax/\bnystep+0.3)*\bnystep}\fi
+  \pgfmathsetmacro{\bnyk}{\bnkaro/\bnystep}%
+  \pgfmathsetmacro{\bnxa}{\bnvon-0.5}\pgfmathsetmacro{\bnxb}{\bnbis+0.5}%
+  \pgfmathsetmacro{\bnypfeil}{\bnymax+0.6*\bnystep}%
+  \pgfmathtruncatemacro{\bnl}{max(1,ceil((\bnbis-\bnvon)/25))}% jede l-te Zahl
+  \ifx\bnmark\empty\def\bnma{-1}\def\bnmb{-1}\else\expandafter\mbrzwei\bnmark\relax\let\bnma\mbrtmin\let\bnmb\mbrtmax\fi
+  \begin{tikzpicture}[x=\bnkaro cm,y=\bnyk cm,baseline=(current bounding box.north)]
+    \draw[mbgitter,line width=0.3pt] (\bnxa,0) grid[xstep=1,ystep=\bnystep] (\bnxb,\bnymax);
+    \foreach \k in {\bnvon,...,\bnbis}{\mbbinp{#2}{#3}{\k}%
+      \pgfmathparse{(\k>=\bnma)&&(\k<=\bnmb)}\ifdim\pgfmathresult pt>0pt
+        \filldraw[fill=mbgrau,line width=0.5pt] (\k-0.3,0) rectangle (\k+0.3,\mbbp);
+      \else\filldraw[fill=mbkasten,line width=0.5pt] (\k-0.3,0) rectangle (\k+0.3,\mbbp);\fi
+      \pgfmathtruncatemacro{\mbrest}{mod(\k,\bnl)}%
+      \ifnum\mbrest=0 \node[below,inner sep=2pt,font=\scriptsize] at (\k,0) {$\k$};\fi}
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\bnxa,0) -- (\bnxb+0.7,0) node[right] {\small$k$};
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\bnxa,0) -- (\bnxa,\bnypfeil) node[above right,inner sep=1pt] {\small$P(X=k)$};
+    \pgfmathsetmacro{\bnya}{\bnystep}\pgfmathsetmacro{\bnyb}{2*\bnystep}%
+    \foreach \y in {\bnya,\bnyb,...,\bnymax}{%
+      \draw (\bnxa-0.15,\y) -- (\bnxa+0.15,\y) node[left,inner sep=3pt,font=\scriptsize] {$\pgfmathprintnumber{\y}$};}
+  \end{tikzpicture}}
+
+% \normalverteilung[Schlüssel]{mu}{sigma}   Dichtekurve mit x-Achse; Schlüssel: xstep (Voreinstellung
+%   sigma), xmin/xmax (mu ± 3.5 sigma), karo (0.8), von=a, bis=b (Fläche schraffiert grau; nur von
+%   oder nur bis = einseitig), xlabel. Höhe des Maximums 4 Karos, y-Achse ohne Zahlen.
+\pgfkeys{/nv/.is family, /nv,
+  xmin/.estore in=\nvxmin, xmax/.estore in=\nvxmax, xstep/.estore in=\nvxstep, karo/.estore in=\nvkaro,
+  von/.estore in=\nvvon, bis/.estore in=\nvbis, xlabel/.estore in=\nvxlabel,
+  default/.style={xmin=,xmax=,xstep=,karo=0.8,von=,bis=,xlabel=$x$}}
+\NewDocumentCommand{\normalverteilung}{O{} m m}{%
+  \pgfkeys{/nv,default,#1}%
+  \ifx\nvxstep\empty\edef\nvxstep{#3}\fi
+  \ifx\nvxmin\empty\pgfmathsetmacro{\nvxmin}{(#2)-3.5*(#3)}\fi
+  \ifx\nvxmax\empty\pgfmathsetmacro{\nvxmax}{(#2)+3.5*(#3)}\fi
+  \ifx\nvvon\empty\let\nvvon\nvxmin\fi
+  \ifx\nvbis\empty\let\nvbis\nvxmax\fi
+  \pgfmathsetmacro{\nvxk}{\nvkaro/\nvxstep}%
+  \pgfmathsetmacro{\nvyk}{4*\nvkaro}% Maximum der Kurve = 4 Karos
+  \pgfmathsetmacro{\nvxpfeil}{\nvxmax+0.4*\nvxstep}%
+  \pgfmathsetmacro{\nvga}{ceil(\nvxmin/\nvxstep)*\nvxstep}\pgfmathsetmacro{\nvgb}{\nvga+\nvxstep}%
+  \pgfmathsetmacro{\nvgz}{floor(\nvxmax/\nvxstep)*\nvxstep}%
+  \begin{tikzpicture}[x=\nvxk cm,y=\nvyk cm,baseline=(current bounding box.north)]
+    \draw[mbgitter,line width=0.3pt] (\nvga,0) grid[xstep=\nvxstep,ystep=0.25] (\nvgz,1.25);
+    \ifdim\nvvon pt=\nvxmin pt\ifdim\nvbis pt=\nvxmax pt\else
+      \fill[mbgrau,fill opacity=0.35,domain=\nvvon:\nvbis,samples=60] plot (\x,{exp(-0.5*((\x-(#2))/(#3))^2)}) -- (\nvbis,0) -- (\nvvon,0) -- cycle;\fi
+    \else
+      \fill[mbgrau,fill opacity=0.35,domain=\nvvon:\nvbis,samples=60] plot (\x,{exp(-0.5*((\x-(#2))/(#3))^2)}) -- (\nvbis,0) -- (\nvvon,0) -- cycle;\fi
+    \draw[line width=0.8pt,domain=\nvxmin:\nvxmax,samples=120,smooth] plot (\x,{exp(-0.5*((\x-(#2))/(#3))^2)});
+    \draw[dashed,line width=0.5pt] (#2,0) -- (#2,1);
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\nvxmin,0) -- (\nvxpfeil,0) node[right] {\small\nvxlabel};
+    \foreach \x in {\nvga,\nvgb,...,\nvgz}{\draw (\x,0.03) -- (\x,-0.03) node[below,inner sep=2pt,font=\scriptsize] {$\pgfmathprintnumber{\x}$};}
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% N  Geometrie Sek I: Vierecke, Netze, Strahlensatz, Winkel am Kreis (Maße in cm)
+% ---------------------------------------------------------------------------
+% \viereck[Schlüssel]{(0,0)}{(5,0)}{(6,3)}{(1,3)}   Ecken A, B, C, D gegen den Uhrzeigersinn
+%   Schlüssel: punkte={A,B,C,D} (Voreinstellung; punkte= ohne Labels), seiten={a,b,c,d},
+%   diagonalen (Labels e, f) oder diagonalen={e,f}, hoehe (Lot von D auf AB, Label h) oder hoehe=h,
+%   winkel (alpha..delta) oder winkel={\alpha,\beta,,}, achsen=senkrecht|waagerecht|beide|diagonalen|alle
+% \parallelogramm[Schlüssel]{a}{b}{alpha}   \trapez[Schlüssel]{a}{c}{h}   \raute[Schlüssel]{e}{f}
+% \rechteck[Schlüssel]{a}{b}   \drachen[Schlüssel]{e}{f}{t}  (t = Anteil von e bis zur Querdiagonale, 0..1)
+\pgfkeys{/vrk/.is family, /vrk,
+  punkte/.estore in=\vrpunkte, seiten/.estore in=\vrseiten,
+  diagonalen/.estore in=\vrdiag, diagonalen/.default={e,f},
+  hoehe/.estore in=\vrhoehe, hoehe/.default=h,
+  winkel/.estore in=\vrwinkel, winkel/.default={\alpha,\beta,\gamma,\delta},
+  achsen/.estore in=\vrachsen,
+  default/.style={punkte={A,B,C,D},seiten=,diagonalen=,hoehe=,winkel=,achsen=}}
+\def\mbvier#1,#2,#3,#4\relax{\def\mbva{#1}\def\mbvb{#2}\def\mbvc{#3}\def\mbvd{#4}}
+\def\mbzweik#1,#2\relax{\def\mbva{#1}\def\mbvb{#2}}
+% Innenwinkelbogen an Ecke P zwischen Richtungen zu Q (vorher) und R (nachher), Label #4
+\newcommand{\mbwinkelbogen}[4]{%
+  \pgfmathanglebetweenpoints{\pgfpointanchor{#1}{center}}{\pgfpointanchor{#3}{center}}\let\mbwa\pgfmathresult
+  \pgfmathanglebetweenpoints{\pgfpointanchor{#1}{center}}{\pgfpointanchor{#2}{center}}\let\mbwb\pgfmathresult
+  \pgfmathsetmacro{\mbwb}{ifthenelse(\mbwb<\mbwa,\mbwb+360,\mbwb)}%
+  \pgfmathparse{\mbwb-\mbwa>180}\ifdim\pgfmathresult pt>0pt % immer den kleineren Winkel
+    \pgfmathsetmacro{\mbwt}{\mbwb-360}\let\mbwb\mbwa\let\mbwa\mbwt\fi
+  \draw[mbgrau,line width=0.5pt] ($(#1)+(\mbwa:0.55)$) arc (\mbwa:\mbwb:0.55);
+  \pgfmathsetmacro{\mbwm}{(\mbwa+\mbwb)/2}%
+  \mbklabel{#4}{($(#1)+(\mbwm:0.85)$)}{}}
+\NewDocumentCommand{\viereck}{O{} m m m m}{%
+  \pgfkeys{/vrk,default,#1}%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.8pt]
+    \coordinate (A) at #2; \coordinate (B) at #3; \coordinate (C) at #4; \coordinate (D) at #5;
+    \ifdefempty{\vrachsen}{}{%
+      \coordinate (M) at ($0.25*(A)+0.25*(B)+0.25*(C)+0.25*(D)$);
+      \def\mbachse##1##2{\draw[mbgrau,dash pattern=on 4pt off 2pt on 1pt off 2pt,line width=0.5pt] ($(##1)!-0.5cm!(##2)$) -- ($(##2)!-0.5cm!(##1)$);}
+      \edef\mbat{\vrachsen}%
+      \ifx\mbat\mbsenk\mbachse{M}{$(M)+(0,1)$}\fi
+      \ifx\mbat\mbwaag\mbachse{M}{$(M)+(1,0)$}\fi
+      \ifx\mbat\mbbeide\mbachse{M}{$(M)+(0,1)$}\mbachse{M}{$(M)+(1,0)$}\fi
+      \ifx\mbat\mbdiag\mbachse{A}{C}\mbachse{B}{D}\fi
+      \ifx\mbat\mballe\mbachse{M}{$(M)+(0,1)$}\mbachse{M}{$(M)+(1,0)$}\mbachse{A}{C}\mbachse{B}{D}\fi}
+    \draw (A) -- (B) -- (C) -- (D) -- cycle;
+    \ifdefempty{\vrdiag}{}{\expandafter\mbzweik\vrdiag\relax
+      \draw[dashed,line width=0.5pt] (A) -- (C); \mbklabel{\mbva}{($(A)!0.3!(C)$)}{fill=white,inner sep=1pt}
+      \draw[dashed,line width=0.5pt] (B) -- (D); \mbklabel{\mbvb}{($(B)!0.3!(D)$)}{fill=white,inner sep=1pt}}
+    \ifdefempty{\vrhoehe}{}{%
+      \coordinate (F) at ($(A)!(D)!(B)$);
+      \draw[dashed,line width=0.5pt] (D) -- (F);
+      \draw[line width=0.4pt] ($(F)!0.22cm!(D)$) -- ($(F)!0.22cm!(D)+($(F)!0.22cm!(B)$)-(F)$) -- ($(F)!0.22cm!(B)$);
+      \fill ($(F)!0.11cm!(D)+($(F)!0.11cm!(B)$)-(F)$) circle (0.6pt);
+      \node[right,font=\small,inner sep=2pt] at ($(D)!0.5!(F)$) {$\vrhoehe$};}
+    \ifdefempty{\vrseiten}{}{\expandafter\mbvier\vrseiten\relax
+      \path (A) -- (B) node[midway,below,font=\small] {$\mbva$};
+      \path (B) -- (C) node[midway,right,font=\small] {$\mbvb$};
+      \path (C) -- (D) node[midway,above,font=\small] {$\mbvc$};
+      \path (D) -- (A) node[midway,left,font=\small] {$\mbvd$};}
+    \ifdefempty{\vrwinkel}{}{\expandafter\mbvier\vrwinkel\relax
+      \mbwinkelbogen{A}{D}{B}{\mbva}\mbwinkelbogen{B}{A}{C}{\mbvb}%
+      \mbwinkelbogen{C}{B}{D}{\mbvc}\mbwinkelbogen{D}{C}{A}{\mbvd}}
+    \ifdefempty{\vrpunkte}{}{\expandafter\mbvier\vrpunkte\relax
+      \mbklabel{\mbva}{(A)}{below left}\mbklabel{\mbvb}{(B)}{below right}%
+      \mbklabel{\mbvc}{(C)}{above right}\mbklabel{\mbvd}{(D)}{above left}}
+  \end{tikzpicture}}
+\def\mbsenk{senkrecht}\def\mbwaag{waagerecht}\def\mbbeide{beide}\def\mbdiag{diagonalen}\def\mballe{alle}
+\NewDocumentCommand{\parallelogramm}{O{} m m m}{%
+  \pgfmathsetmacro{\mbpx}{(#3)*cos(#4)}\pgfmathsetmacro{\mbpy}{(#3)*sin(#4)}%
+  \viereck[#1]{(0,0)}{(#2,0)}{({#2+\mbpx},\mbpy)}{(\mbpx,\mbpy)}}
+\NewDocumentCommand{\rechteck}{O{} m m}{\viereck[#1]{(0,0)}{(#2,0)}{(#2,#3)}{(0,#3)}}
+\NewDocumentCommand{\trapez}{O{} m m m}{% a unten, c oben zentriert, Höhe h
+  \pgfmathsetmacro{\mbtx}{((#2)-(#3))/2}%
+  \viereck[#1]{(0,0)}{(#2,0)}{({#2-\mbtx},#4)}{(\mbtx,#4)}}
+\NewDocumentCommand{\raute}{O{} m m}{% Diagonalen e (waagerecht), f
+  \viereck[#1]{(0,{-(#3)/2})}{({(#2)/2},0)}{(0,{(#3)/2})}{({-(#2)/2},0)}}
+\NewDocumentCommand{\drachen}{O{} m m m}{% e senkrecht (Symmetrieachse), f quer bei Anteil t von e
+  \pgfmathsetmacro{\mbdy}{(#4)*(#2)}%
+  \viereck[#1]{(0,0)}{({(#3)/2},\mbdy)}{(0,#2)}{({-(#3)/2},\mbdy)}}
+
+% Netze: \netzquader{a}{b}{c}{a}{b}{c}   Längen in cm, Labels (leer = ohne); Faltkanten dünn
+%        \netzwuerfel{a}{a}   \netzpyramide{a}{hs}{a}{h_s}   \netzzylinder{r}{h}{r}{h}
+\NewDocumentCommand{\netzquader}{m m m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.8pt,falt/.style={line width=0.4pt}]
+    % Kreuz: Mitte vorn (a x c), links/rechts (b x c), oben/unten (a x b), hinten rechts (a x c)
+    \draw[falt] (#2,0) -- (#2,#3) ({#2+#1},0) -- ({#2+#1},#3) ({#2+#1+#2},0) -- ({#2+#1+#2},#3)
+      (#2,#3) -- ({#2+#1},#3) (#2,0) -- ({#2+#1},0);
+    \draw (0,0) -- (#2,0) -- (#2,{-#2}) -- ({#2+#1},{-#2}) -- ({#2+#1},0) -- ({#2+#1+#2+#1},0)
+      -- ({#2+#1+#2+#1},#3) -- ({#2+#1},#3) -- ({#2+#1},{#3+#2}) -- (#2,{#3+#2}) -- (#2,#3) -- (0,#3) -- cycle;
+    \node[below,font=\small] at ({#2+#1/2},{-#2}) {$#4$};
+    \node[below,font=\small] at ({#2/2},0) {$#5$};
+    \node[left,font=\small] at (0,{#3/2}) {$#6$};
+  \end{tikzpicture}}
+\newcommand{\netzwuerfel}[2]{\netzquader{#1}{#1}{#1}{#2}{}{}}
+\NewDocumentCommand{\netzpyramide}{m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.8pt,falt/.style={line width=0.4pt}]
+    \pgfmathsetmacro{\mbh}{#1/2}%
+    \draw[falt] (-\mbh,-\mbh) rectangle (\mbh,\mbh);
+    \draw (-\mbh,-\mbh) -- (0,{-\mbh-#2}) -- (\mbh,-\mbh) -- ({\mbh+#2},0) -- (\mbh,\mbh)
+      -- (0,{\mbh+#2}) -- (-\mbh,\mbh) -- ({-\mbh-#2},0) -- cycle;
+    \draw[dashed,line width=0.5pt] (0,-\mbh) -- (0,{-\mbh-#2});
+    \draw[line width=0.4pt] (0.2,-\mbh) -- (0.2,{-\mbh-0.2}) -- (0,{-\mbh-0.2}); \fill (0.1,{-\mbh-0.1}) circle (0.6pt);
+    \node[below,font=\small] at (0,\mbh) {$#3$};
+    \node[right,font=\small,inner sep=2pt] at (0,{-\mbh-#2/2}) {$#4$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\netzzylinder}{m m m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.8pt,falt/.style={line width=0.4pt}]
+    \pgfmathsetmacro{\mbu}{2*pi*#1}%
+    \draw (0,0) rectangle (\mbu,#2);
+    \draw (#1,{#2+#1}) circle (#1); \draw (#1,{-#1}) circle (#1);
+    \draw[dashed,line width=0.5pt] (#1,{#2+#1}) -- ({2*#1},{#2+#1});
+    \fill (#1,{#2+#1}) circle (1.2pt);
+    \node[above,font=\small,inner sep=1.5pt] at ({1.5*#1},{#2+#1}) {$#3$};
+    \node[right,font=\small] at (\mbu,{#2/2}) {$#4$};
+    \node[below,font=\small,mbgrau] at ({\mbu/2},0) {$u = 2\pi r$};
+  \end{tikzpicture}}
+
+% Strahlensatz: \strahlensatz[Schlüssel]{ZA}{ZA'}{Winkel}   V-Figur; [x] für die X-Figur
+%   Schlüssel: punkte={Z,A,B,A',B'} (Voreinstellung), strecken={ZA,AA',AB,A'B'} Labels (leer = ohne;
+%   bei der X-Figur ZA, ZA', AB, A'B'), faktor=1.3 (ZB = faktor * ZA), x
+\pgfkeys{/stz/.is family, /stz,
+  punkte/.estore in=\stpunkte, strecken/.estore in=\ststrecken, faktor/.estore in=\stfaktor,
+  x/.is if=mbstx,
+  default/.style={punkte={Z,A,B,A',B'},strecken=,faktor=1.3}}
+\newif\ifmbstx
+\def\mbfuenf#1,#2,#3,#4,#5\relax{\def\mbva{#1}\def\mbvb{#2}\def\mbvc{#3}\def\mbvd{#4}\def\mbve{#5}}
+\NewDocumentCommand{\strahlensatz}{O{} m m m}{%
+  \mbstxfalse\pgfkeys{/stz,default,#1}%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.8pt]
+    \coordinate (Z) at (0,0);
+    \pgfmathsetmacro{\stza}{#2}\pgfmathsetmacro{\stzb}{#3}%
+    \pgfmathsetmacro{\stka}{\stza*\stfaktor}\pgfmathsetmacro{\stkb}{\stzb*\stfaktor}%
+    \pgfmathsetmacro{\stl}{\stzb+0.8}\pgfmathsetmacro{\stlb}{\stkb+0.8}%
+    \ifmbstx
+      \coordinate (A) at (180:\stza); \coordinate (B) at ({180+#4}:\stka);
+      \coordinate (Ab) at (0:\stzb); \coordinate (Bb) at (#4:\stkb);
+      \draw[line width=0.6pt] (180:{\stza+0.8}) -- (0:\stl);
+      \draw[line width=0.6pt] ({180+#4}:{\stka+0.8}) -- (#4:\stlb);
+    \else
+      \coordinate (A) at (0:\stza); \coordinate (B) at (#4:\stka);
+      \coordinate (Ab) at (0:\stzb); \coordinate (Bb) at (#4:\stkb);
+      \draw[line width=0.6pt] (Z) -- (0:\stl); \draw[line width=0.6pt] (Z) -- (#4:\stlb);
+    \fi
+    \draw (A) -- (B); \draw (Ab) -- (Bb);
+    \foreach \p in {Z,A,B,Ab,Bb}{\fill (\p) circle (1.4pt);}
+    \ifdefempty{\stpunkte}{}{\expandafter\mbfuenf\stpunkte\relax
+      \mbklabel{\mbva}{(Z)}{below}%
+      \ifmbstx\mbklabel{\mbvb}{(A)}{above}\mbklabel{\mbvc}{(B)}{below left}\else\mbklabel{\mbvb}{(A)}{below}\mbklabel{\mbvc}{(B)}{above left}\fi
+      \mbklabel{\mbvd}{(Ab)}{below}\mbklabel{\mbve}{(Bb)}{above left}}
+    % Streckenlabels: V-Figur ZA, AA', AB, A'B'; X-Figur ZA, ZA', AB, A'B'
+    \ifdefempty{\ststrecken}{}{\expandafter\mbvier\ststrecken\relax
+      \mbklabel{\mbva}{($(Z)!0.5!(A)$)}{below,inner sep=3pt}%
+      \ifmbstx\mbklabel{\mbvb}{($(Z)!0.5!(Ab)$)}{below,inner sep=3pt}\else\mbklabel{\mbvb}{($(A)!0.5!(Ab)$)}{below,inner sep=3pt}\fi
+      \mbklabel{\mbvc}{($(A)!0.5!(B)$)}{fill=white,inner sep=1pt}\mbklabel{\mbvd}{($(Ab)!0.5!(Bb)$)}{fill=white,inner sep=1pt}}
+  \end{tikzpicture}}
+
+% Winkel am Kreis (in der Umgebung kreis):
+% \mittelpunktswinkel{a}{b}{\mu}     Schenkel M-A, M-B zu den Randpunkten bei a und b Grad, Bogen an M
+% \umfangswinkel{a}{b}{c}{\gamma}    Sehnen von C (bei c Grad) nach A und B, Bogen an C;
+%                                    bei b - a = 180 (Thales) rechter Winkel markiert
+\newcommand{\mittelpunktswinkel}[3]{%
+  \draw[line width=0.7pt] (#1:\krr) -- (0,0) -- (#2:\krr);
+  \draw[mbgrau,line width=0.5pt] (#1:0.5) arc (#1:#2:0.5);
+  \pgfmathsetmacro{\krm}{(#1+#2)/2}\mbklabel{#3}{(\krm:0.8)}{}%
+  \fill (0,0) circle (1.4pt);}
+\newcommand{\umfangswinkel}[4]{%
+  \coordinate (kA) at (#1:\krr); \coordinate (kB) at (#2:\krr); \coordinate (kC) at (#3:\krr);
+  \draw[line width=0.7pt] (kA) -- (kC) -- (kB);
+  \pgfmathtruncatemacro{\krd}{abs(#2-#1)}%
+  \ifnum\krd=180
+    \draw[line width=0.4pt] ($(kC)!0.25cm!(kA)$) -- ($(kC)!0.25cm!(kA)+($(kC)!0.25cm!(kB)$)-(kC)$) -- ($(kC)!0.25cm!(kB)$);
+    \fill ($(kC)!0.12cm!(kA)+($(kC)!0.12cm!(kB)$)-(kC)$) circle (0.6pt);
+    \pgfmathanglebetweenpoints{\pgfpointanchor{kC}{center}}{\pgfpointanchor{kA}{center}}\let\mbwa\pgfmathresult
+    \pgfmathanglebetweenpoints{\pgfpointanchor{kC}{center}}{\pgfpointanchor{kB}{center}}\let\mbwb\pgfmathresult
+    \pgfmathsetmacro{\mbwb}{ifthenelse(\mbwb<\mbwa,\mbwb+360,\mbwb)}\pgfmathsetmacro{\mbwm}{(\mbwa+\mbwb)/2}%
+    \mbklabel{#4}{($(kC)+(\mbwm:0.6)$)}{}%
+  \else
+    \mbwinkelbogen{kC}{kA}{kB}{#4}%
+  \fi
+  \fill (kC) circle (1.4pt);}
+
+% ---------------------------------------------------------------------------
+% O  Zahlen, Algebra, Trigonometrie
+% ---------------------------------------------------------------------------
+% \zahlenstrahl[Schlüssel]{Punkte}   Schlüssel: xmin=-5, xmax=5, xstep=1, karo=0.8 (cm je Schritt)
+%   Punkte: Wert/Label durch Komma, leeres Label = nur Markierung; \zahlenstrahl{} nur die Gerade.
+%   \zahlenstrahl[xmin=0,xmax=2,xstep=0.25]{0.5/\frac12, 1.75/B}
+% \intervall{a}{b}{Label}   im Zahlenstrahl: Strecke mit vollen Enden, [a;b]
+%   \intervall{a}{b}{}  ;  offene Enden mit  \intervallo{a}{b}{Label}  (beide offen)
+%   halboffen: \intervall*{a}{b}{L} (links offen) , \intervallo*{a}{b}{L} (rechts offen)
+%   Unbeschränkt: a oder b leer = Pfeil ins Unendliche  \intervall{2}{}{x>=2}
+%   Mehrere Intervalle liegen untereinander, wenn sie sich überschneiden: zweites Argument der
+%   Umgebung ist die Zeile: \intervall[2]{...}
+\pgfkeys{/zst/.is family, /zst,
+  xmin/.estore in=\zsxmin, xmax/.estore in=\zsxmax, xstep/.estore in=\zsxstep, karo/.estore in=\zskaro,
+  default/.style={xmin=-5,xmax=5,xstep=1,karo=0.8}}
+\newenvironment{zahlengerade}[1][]{%
+  \pgfkeys{/zst,default,#1}%
+  \pgfmathsetmacro{\zsk}{\zskaro/\zsxstep}%
+  \pgfmathsetmacro{\zsxa}{\zsxmin+\zsxstep}\pgfmathsetmacro{\zspfeil}{\zsxmax+0.5*\zsxstep}%
+  \pgfmathsetmacro{\zsl}{\zsxmin-0.3*\zsxstep}%
+  \xdef\mbwmax{0pt}% Ausduennung wie beim ksys
+  \foreach \x in {\zsxmin,\zsxa,...,\zsxmax}{\sbox\mbmessbox{\scriptsize$\pgfmathprintnumber{\x}$}%
+    \ifdim\wd\mbmessbox>\mbwmax\xdef\mbwmax{\the\wd\mbmessbox}\fi}%
+  \pgfmathtruncatemacro{\zsxl}{max(1,ceil((\mbwmax+2pt)/(\zskaro cm)))}%
+  \begin{tikzpicture}[x=\zsk cm,y=1cm,baseline=(current bounding box.north)]
+    \draw[-{Stealth[length=2mm]},line width=0.6pt] (\zsl,0) -- (\zspfeil,0);
+    \foreach \x in {\zsxmin,\zsxa,...,\zsxmax}{%
+      \pgfmathtruncatemacro{\mbrest}{mod(abs(round(\x/\zsxstep)),\zsxl)}%
+      \draw (\x,0.1) -- (\x,-0.1)
+      \ifnum\mbrest=0 node[below,inner sep=2pt,font=\scriptsize] {$\pgfmathprintnumber{\x}$}\fi;}
+}{\end{tikzpicture}}
+\NewDocumentCommand{\zahlenstrahl}{O{} m}{%
+  \begin{zahlengerade}[#1]
+    \ifblank{#2}{}{\foreach \v/\l in {#2}{\fill (\v,0) circle (1.6pt);
+      \ifdefempty{\l}{}{\node[above,inner sep=3pt,font=\small] at (\v,0) {$\l$};}}}
+  \end{zahlengerade}}
+% Intervall in der Umgebung zahlengerade; Ende leer = Pfeil
+\newcommand{\mbivende}[3]{% x, offen(0/1), Richtung fuer Pfeil (-1 links, 1 rechts) wenn x leer
+  \ifblank{#1}{}{\ifnum#2=1 \filldraw[fill=white,line width=0.8pt] (#1,\mbivy) circle (2pt);
+    \else\fill (#1,\mbivy) circle (2pt);\fi}}
+\NewDocumentCommand{\intervall}{s O{1} m m m}{\mbintervall{#2}{#3}{#4}{#5}{\IfBooleanTF{#1}{1}{0}}{0}}
+\NewDocumentCommand{\intervallo}{s O{1} m m m}{\mbintervall{#2}{#3}{#4}{#5}{1}{\IfBooleanTF{#1}{0}{1}}}
+\newcommand{\mbintervall}[6]{% Zeile, a, b, Label, links offen, rechts offen
+  \pgfmathsetmacro{\mbivy}{0.65*#1}%
+  \ifblank{#2}{\def\mbiva{\zsl}}{\def\mbiva{#2}}\ifblank{#3}{\def\mbivb{\zspfeil}}{\def\mbivb{#3}}%
+  \ifblank{#2}{\def\mbivl{Stealth}}{\def\mbivl{}}\ifblank{#3}{\def\mbivr{Stealth}}{\def\mbivr{}}%
+  \edef\mbivarr{\mbivl-\mbivr}%
+  \draw[line width=1.6pt,arrows/.expanded=\mbivarr,>={Stealth[length=2.5mm]}] (\mbiva,\mbivy) -- (\mbivb,\mbivy);
+  \mbivende{#2}{#5}{-1}\mbivende{#3}{#6}{1}%
+  \ifblank{#4}{}{\node[above,inner sep=2pt,font=\small] at ({(\mbiva+\mbivb)/2},\mbivy) {$#4$};}}
+
+% Bruchteile: \bruchkreis{3}{8}   3 von 8 Teilen gefuellt (Radius 1 cm; [r] fuer anderen)
+%             \bruchrechteck{3}{8}   Streifen 4 cm x 1 cm in 8 Felder, 3 gefuellt
+%             \bruchkreis{0}{8}, \bruchrechteck{0}{8}  nur die Teilung
+\NewDocumentCommand{\bruchkreis}{O{1} m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt]
+    \pgfmathsetmacro{\mbw}{360/#3}%
+    \ifnum#2>0 \fill[mbgrau,fill opacity=0.45] (0,0) -- (90:#1) arc (90:{90-#2*\mbw}:#1) -- cycle;\fi
+    \foreach \i in {1,...,#3}{\draw (0,0) -- ({90-\i*\mbw}:#1);}
+    \draw (0,0) circle (#1);
+  \end{tikzpicture}}
+\NewDocumentCommand{\bruchrechteck}{O{4} m m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt]
+    \pgfmathsetmacro{\mbw}{#1/#3}%
+    \ifnum#2>0 \fill[mbgrau,fill opacity=0.45] (0,0) rectangle ({#2*\mbw},1);\fi
+    \foreach \i in {1,...,#3}{\draw ({\i*\mbw},0) -- ({\i*\mbw},1);}
+    \draw (0,0) rectangle (#1,1);
+  \end{tikzpicture}}
+
+% Termbaum: \termbaum{Wurzel}{Kind}{Kind}   Kinder sind Text (Blatt) oder \tb{Knoten}{Kind}{Kind}:
+%   \termbaum{+}{3x}{\tb{\cdot}{2}{y}}     Leerer Knoten {} = Feld zum Eintragen. Alles im Mathemodus.
+%   Der Baum wird vor dem Zeichnen zu einem TikZ-Pfad expandiert (\tb ist expandierbar).
+\newcommand{\mbtbknoten}[1]{\ifblank{#1}{\underline{\hspace{5mm}}}{$#1$}}
+\def\mbfirst#1#2\mbend{#1}
+\def\tb#1#2#3{node[tbk]{\noexpand\mbtbknoten{#1}} child{\mbtbc{#2}} child{\mbtbc{#3}}}
+\def\mbtbc#1{\expandafter\ifx\mbfirst#1\mbguard\mbend\tb #1\else node[tbk]{\noexpand\mbtbknoten{#1}}\fi}
+\NewDocumentCommand{\termbaum}{m m m}{%
+  \protected@edef\mbtree{\tb{#1}{#2}{#3}}%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt,
+     tbk/.style={font=\small,inner sep=2pt,minimum size=5mm},
+     level distance=9mm, level 1/.style={sibling distance=30mm},
+     level 2/.style={sibling distance=15mm}, level 3/.style={sibling distance=8mm}]
+    \path \mbtree;
+  \end{tikzpicture}}
+
+% Einheitskreis: \einheitskreis{50}   Winkel in Grad; sin als senkrechte, cos als waagerechte Strecke
+%   \einheitskreis[karo=1.5]{50}   Radius in cm (Voreinstellung 2); [ohne]{50} nur Punkt und Radius
+\pgfkeys{/ehk/.is family, /ehk, karo/.estore in=\ehr, ohne/.is if=mbehohne,
+  default/.style={karo=2,ohne=false}}
+\newif\ifmbehohne
+\NewDocumentCommand{\einheitskreis}{O{} m}{%
+  \mbehohnefalse\pgfkeys{/ehk,default,#1}%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt]
+    \pgfmathsetmacro{\ehp}{\ehr+0.45}\pgfmathsetmacro{\ehm}{-\ehr-0.3}%
+    \draw[mbgitter,line width=0.3pt] (-\ehr,-\ehr) grid[step=0.5*\ehr] (\ehr,\ehr);
+    \draw[-{Stealth[length=2mm]}] (\ehm,0) -- (\ehp,0) node[right] {\small$x$};
+    \draw[-{Stealth[length=2mm]}] (0,\ehm) -- (0,\ehp) node[above] {\small$y$};
+    \foreach \v/\t in {1/1,-1/-1}{\draw ({\v*\ehr},0.08) -- ({\v*\ehr},-0.08) node[below,font=\scriptsize] {$\t$};
+      \draw (0.08,{\v*\ehr}) -- (-0.08,{\v*\ehr}) node[left,font=\scriptsize] {$\t$};}
+    \draw[line width=0.8pt] (0,0) circle (\ehr);
+    \pgfmathsetmacro{\ehx}{\ehr*cos(#2)}\pgfmathsetmacro{\ehy}{\ehr*sin(#2)}%
+    \ifmbehohne\else
+      \draw[line width=1pt] (\ehx,0) -- (\ehx,\ehy) node[midway,right,font=\small,fill=white,inner sep=1pt] {$\sin\alpha$};
+      \draw[line width=1pt] (0,0) -- (\ehx,0) node[midway,below,font=\small,fill=white,inner sep=1pt] {$\cos\alpha$};
+    \fi
+    \draw[line width=0.8pt] (0,0) -- (\ehx,\ehy);
+    \draw[mbgrau,line width=0.5pt] (0.5,0) arc (0:#2:0.5);
+    \pgfmathsetmacro{\ehw}{#2/2}\node[font=\small] at (\ehw:0.75) {$\alpha$};
+    \fill (\ehx,\ehy) circle (1.6pt) node[above right,font=\small] {$P$};
+  \end{tikzpicture}}
+
+% Trigonometrische Kurven im ksys: x-Achse in Vielfachen von pi beschriftet.
+% \begin{ksys}[trigo]  = xmin=-pi/2..2*pi, xstep=pi/2 (Karo 1 cm = pi/2), ymin=-2, ymax=2;
+%   die x-Zahlen werden als Vielfache von pi gesetzt (-pi/2, pi/2, pi, 3pi/2, 2pi).
+%   \sinus{2}{1}{f}    a*sin(b*x) ; \kosinus{1}{1}{g}
+%   Nullstellen, Hoch- und Tiefpunkte mit \punkt, \hochpunkt, \tiefpunkt (x in Bogenmass: pi/2 = 1.5708)
+\pgfkeys{/ksys, trigo/.style={xmin=-1.5708,xmax=6.2832,xstep=1.5708,ymin=-2,ymax=2,karo=1.0,pizahlen}}
+\newif\ifmbpizahlen
+\pgfkeys{/ksys, pizahlen/.is if=mbpizahlen}
+\NewDocumentCommand{\sinus}{m m m}{\funktion{(#1)*sin(deg((#2)*\x))}{#3}}
+\NewDocumentCommand{\kosinus}{m m m}{\funktion{(#1)*cos(deg((#2)*\x))}{#3}}
+
+\endinput

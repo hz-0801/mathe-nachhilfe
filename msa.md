@@ -7,7 +7,7 @@ Zentrale schriftliche Prüfung für Oberschulen und Gesamtschulen im Land Brande
 
 ## 2 Ablage und Quellen
 
-Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/pruefungskatalog/main/ (alle Dateien liegen flach im Wurzelverzeichnis; bei anderer Ablage nur diese Zeile ändern).
+Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/mathe-nachhilfe/main/ (alle Dateien liegen flach im Wurzelverzeichnis; bei anderer Ablage nur diese Zeile ändern).
 Hefte: Adresse und Dateinamen stehen in pruefungen.md; die Domain bildungsserver.berlin-brandenburg.de ist aus der Sandbox erreichbar, Hefte werden mit curl geholt.
 Amtliche Lösungen gibt es nur für die Musteraufgaben 2028 (Fachbrief Mathematik Nr. 10, Erwartungshorizont mit Bewertungseinheiten, Anforderungsbereich, Standardbezug). Für alle Hefte sind die Ergebnisse eigene Rechnung.
 Amtliche Vorgaben und Formatwechsel stehen in vorgaben.md; für die Erfassung reicht dieses Profil.
