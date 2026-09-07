@@ -21,13 +21,14 @@ Grundgerüst
 \uebersichtskasten[<Leitgrafik>]{<Formelzeilen>}          Sternlegende nicht hier, sondern über \blattkopf*
 \begin{aufgabe}{Text} ... \end{aufgabe}            → nummeriert, bleibt auf einer Seite
 \begin{teile} \teil ... \steil ... \end{teile}     → a), ☆b)
+\begin{teilezwei} \tz ... & \tz ... \\ \tz ... & \tz ... \end{teilezwei}   → zweispaltig für kurze Teilaufgaben; tabular-Syntax: & trennt die Spalten, \\ beendet die Zeile, Stern mit \stz
 \begin{geruest} \gz{a}{$y=2x+3$}{\feld{m}\feld{n}} \gzs{b}{...}{...} \end{geruest}
 \feld{W} → „W = ___"; \leerfeld → „___" ohne Bezeichner (nie \feld{} – das ergibt „= ___")
 \feld{m}  \feldl{y}  \punktfeld  \janein  \kreuz{Text}      \janein ohne Argument → „☐ ja ☐ nein"; andere Beschriftungen mit \kreuz{A}\kreuz{B} – ein \janein[...] gibt es nicht
 \mnliste[9]{2x+3, 5x-1, ...}            m und n je Gerade, eine Zeile statt geruest
 \nullstellenliste[7]{x-4, 2x-6, ...}    x_0 je Gerade
 \punktprobenliste[7]{2x-1/A(3|5), ...}  Punktprobe mit ja/nein
-\begleitteil   \erg{3}{a) ... | b) ...}
+\begleitteil   \erg{3}{a) ... \quad b) ...}     Teillösungen durch \quad getrennt, kein |
 \hilfeseite    \verfahren{Name} \begin{schritte} \schritt ... \achtung{...} \end{schritte}
 ```
  
