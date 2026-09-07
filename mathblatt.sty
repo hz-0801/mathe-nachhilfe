@@ -1,4 +1,5 @@
 % mathblatt.sty – Vorlage für Nachhilfe-Arbeitsblätter, Stufe 3 (Sek I und Oberstufe)
+% Version 2026-09-07a (gerade: Label bleibt in der Zeichenfläche – Kante nach Austrittsseite, sonst Suche wie bei funktion; sonst wie 06e)
 % Version 2026-09-06e (wertetabelle: leere Einträge in der Werteliste ergeben leere Felder; sonst wie d)
 % Version 2026-09-06d (blattkopf*: Legendentext als drittes Argument, kein Text mehr in der Vorlage; sonst wie c)
 % Version 2026-09-06c (neu: blattkopf mit Sternlegende, weit/eng, kreissektor, leerfeld; Reparaturen: kreisdiagramm-Überlauf, schritte-Zähler, geruest-Umbruch; blattfuss unverändert)
@@ -322,22 +323,24 @@
 % Label sitzt (Achseneinheiten). Bei mehreren Geraden in einem System die Labels
 % mit verschiedenen x auseinanderziehen, statt die Aufgabenwerte zu aendern.
 \RenewDocumentCommand{\gerade}{o m m m}{%
-  \IfNoValueTF{#1}{%
-    \pgfmathsetmacro{\mblx}{\ksxmax-0.6*\ksxstep}%
-    \pgfmathsetmacro{\mbly}{#2*\mblx+#3}%
-    \pgfmathparse{(\mbly>\ksymax-0.3*\ksystep) || (\mbly<\ksymin+0.3*\ksystep)}%
-    \ifnum\pgfmathresult=1
-      \pgfmathsetmacro{\mbly}{ifthenelse(#2>0,\ksymax-0.5*\ksystep,\ksymin+0.5*\ksystep)}%
-      \pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}%
-    \fi}%
-   {\pgfmathsetmacro{\mblx}{#1}\pgfmathsetmacro{\mbly}{#2*\mblx+#3}%
-    \pgfmathparse{(\mbly>\ksymax-0.3*\ksystep) || (\mbly<\ksymin+0.3*\ksystep)}%
-    \ifnum\pgfmathresult=1
-      \pgfmathsetmacro{\mbly}{ifthenelse(#2>0,\ksymax-0.5*\ksystep,\ksymin+0.5*\ksystep)}%
-      \pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}%
-    \fi}%
   \draw[line width=0.8pt,domain=\ksxmin:\ksxmax,samples=2] plot (\x,{#2*\x+#3});
-  \ifblank{#4}{}{\node[fill=white,inner sep=1pt,font=\small] at (\mblx,\mbly) {$#4$};}}
+  \ifblank{#4}{}{\IfNoValueTF{#1}{\mbgeradelabel{\ksxmax-0.6*\ksxstep}{#2}{#3}{#4}}{\mbgeradelabel{#1}{#2}{#3}{#4}}}}
+% Label einer Geraden an der Stelle x. Liegt der Punkt oben oder unten außerhalb der Zeichen-
+% fläche, wandert er auf die Kante, an der er hinausgelaufen ist (nicht nach Vorzeichen von m);
+% liegt er dann seitlich außerhalb, sucht \mbfunklabel vom rechten Rand her eine Stelle im Bild.
+% Vorher konnte der Ausweichpunkt außerhalb liegen und wurde vom Clipping stumm entfernt.
+\newcommand{\mbgeradelabel}[4]{% x, m, n, Label
+  \pgfmathsetmacro{\mblx}{#1}\pgfmathsetmacro{\mbly}{#2*\mblx+#3}%
+  \pgfmathtruncatemacro{\mbltop}{\mbly>\ksymax-0.3*\ksystep}%
+  \pgfmathtruncatemacro{\mblbot}{\mbly<\ksymin+0.3*\ksystep}%
+  \ifnum\mbltop=1 \pgfmathsetmacro{\mbly}{\ksymax-0.5*\ksystep}\pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}\fi
+  \ifnum\mblbot=1 \pgfmathsetmacro{\mbly}{\ksymin+0.5*\ksystep}\pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}\fi
+  \pgfmathtruncatemacro{\mblin}{(\mblx>\ksxmin+0.3*\ksxstep)&&(\mblx<\ksxmax-0.3*\ksxstep)&&(\mbly>\ksymin+0.3*\ksystep)&&(\mbly<\ksymax-0.3*\ksystep)}%
+  \ifnum\mblin=1
+    \node[fill=white,inner sep=1pt,font=\small] at (\mblx,\mbly) {$#4$};
+  \else
+    \mbfunklabel{#2*\x+#3}{#4}{\ksxmin}{\ksxmax}%
+  \fi}
 \newcommand{\punkt}[3]{\fill (#1,#2) circle (1.6pt) node[above right,font=\small] {$#3$};}
 \newcommand{\steigungsdreieck}[3]{%
   \draw[mbgrau,dashed] (#1,#2) -- ({#1+1},#2) -- ({#1+1},{#2+#3});

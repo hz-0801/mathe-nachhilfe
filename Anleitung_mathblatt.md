@@ -1,11 +1,11 @@
 mathblatt.sty – Anleitung (Stufe 3)
-Gehört zu Vorlagenversion 2026-09-06e. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
+Gehört zu Vorlagenversion 2026-09-07a. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
  
 Datei `mathblatt.sty` neben die .tex-Datei legen, `\usepackage{mathblatt}` im Kopf. Kompilieren mit `xelatex` (nicht pdflatex): nur so sind Umlaute, ß, € und die Textextraktion sauber, weil im Sandbox keine Type-1-T1-Schriften liegen. Das Modell schreibt nur Inhalt; Ränder, Karogrößen, Fluchten, Kopf- und Fußzeile sind fest.
  
 Schreibweisen: Kompiliert wird mit xelatex, deshalb schreibst du Umlaute, ß, € und deutsche
 Anführungszeichen direkt in den Quelltext. `\ss`, `\euro`, `\"a` und `\glqq` sind weder nötig noch
-zuverlässig. Bei Zahlen mit Dezimalkomma in Mathematik `$0{,}5$` schreiben, damit der Abstand stimmt. In den Grafikmakros gibst du Koordinaten und Werte dagegen mit Dezimalpunkt an (`2.5`); die Achsenbezifferung setzt die Vorlage selbst mit Komma.
+zuverlässig. Bei Zahlen mit Dezimalkomma in Mathematik `$0{,}5$` schreiben, damit der Abstand stimmt. In den Grafikmakros gibst du Koordinaten und Werte dagegen mit Dezimalpunkt an (`2.5`); die Achsenbezifferung setzt die Vorlage selbst mit Komma. Das Prozentzeichen schreibst du im Text immer als `\%`, auch in `\achtung` und in Aufgabentexten – ein nacktes `%` macht den Rest der Zeile zum Kommentar und der Fehler erscheint erst Zeilen später. Einheiten im Mathemodus mit `\,` davor (`$240\,€$`); ohne den Abstand klebt die Einheit an der Zahl.
  
 Beschriftungen: Alle Label-Argumente der Grafikmakros – `\gerade`, `\parabel`, `\funktion`, `\punkt`,
 `\steigungsdreieck`, `\dreieck`, `\rpunkt`, `\rvektor`, `\rgerade`, `\rebene`, die Körper, die Analysis-Makros – werden vom Makro selbst in Mathematik gesetzt. Du
@@ -18,12 +18,12 @@ Grundgerüst
 \blattfuss{Lineare Funktionen}{Lernblatt Teil 1 von 3}   → Thema · Bezeichnung unten links, Seite unten rechts
 \blattkopf{...}{...} / \blattkopf*{...}{...}{$\star$ = ...}  → Alternative: oben links; mit * dazu Legende unten links, Text im dritten Argument
 \weit                                                    → weitere Zeilen im Aufgabenteil (ein Drittel); Begleitteil und Hilfe-Seite setzen selbst auf eng zurück
-\uebersichtskasten[<Leitgrafik>]{<Formelzeilen> \sternlegende}
+\uebersichtskasten[<Leitgrafik>]{<Formelzeilen>}          Sternlegende nicht hier, sondern über \blattkopf*
 \begin{aufgabe}{Text} ... \end{aufgabe}            → nummeriert, bleibt auf einer Seite
 \begin{teile} \teil ... \steil ... \end{teile}     → a), ☆b)
 \begin{geruest} \gz{a}{$y=2x+3$}{\feld{m}\feld{n}} \gzs{b}{...}{...} \end{geruest}
 \feld{W} → „W = ___"; \leerfeld → „___" ohne Bezeichner (nie \feld{} – das ergibt „= ___")
-\feld{m}  \feldl{y}  \punktfeld  \janein  \kreuz{Text}
+\feld{m}  \feldl{y}  \punktfeld  \janein  \kreuz{Text}      \janein ohne Argument → „☐ ja ☐ nein"; andere Beschriftungen mit \kreuz{A}\kreuz{B} – ein \janein[...] gibt es nicht
 \mnliste[9]{2x+3, 5x-1, ...}            m und n je Gerade, eine Zeile statt geruest
 \nullstellenliste[7]{x-4, 2x-6, ...}    x_0 je Gerade
 \punktprobenliste[7]{2x-1/A(3|5), ...}  Punktprobe mit ja/nein
@@ -64,9 +64,9 @@ Koordinatensystem 2D
  
 In `\funktion` und `\funktionab` heißt die Variable `\x` mit Backslash: `\funktion{0.5*\x^2-2}{f}`. Ein `x` ohne Backslash bricht die Kompilierung ab (`Unknown function 'x'`). Potenzen schreibst du direkt als `\x^2`, `\x^3`; die Vorlage setzt `\x` geklammert ein, negative x werden richtig gerechnet. Das Label von `\funktion`, `\funktionab` und `\parabel` sitzt an der ersten Stelle vom rechten Rand aus, an der der Graph in der Zeichenfläche liegt; verlässt der Graph rechts die Fläche, rückt es nach links nach. Liegt der Graph im ganzen Bereich außerhalb, fehlt das Label und das Log meldet `Package mathblatt Warning`. Leeres Label `{}` lässt das Label weg, auch bei `\gerade`.
 
-Bei `\gerade` lässt sich die Stelle des Labels als optionales Argument setzen: `\gerade[1.5]{2}{-1}{g}` beschriftet die Gerade bei $x=1{,}5$. Liegen mehrere Geraden in einem System, ziehst du die Labels damit auseinander, statt die Aufgabenwerte zu ändern. Fällt die gewählte Stelle aus der Zeichenfläche, rückt das Label automatisch an den Rand.
+Bei `\gerade` lässt sich die Stelle des Labels als optionales Argument setzen: `\gerade[1.5]{2}{-1}{g}` beschriftet die Gerade bei $x=1{,}5$. Liegt der Punkt dort außerhalb der Zeichenfläche, rückt die Vorlage das Label von selbst an den Rand, an dem die Gerade das Bild verlässt (ab 2026-09-07a; vorher konnte es unsichtbar wegfallen). Liegen mehrere Geraden in einem System, ziehst du die Labels damit auseinander, statt die Aufgabenwerte zu ändern. Fällt die gewählte Stelle aus der Zeichenfläche, rückt das Label automatisch an den Rand.
  
-Zwei Systeme nebeneinander: `\end{ksys}\ksysabstand\begin{ksys}...`. Zeichenflächen stehen in einem eigenen Absatz: Leerzeile vor dem ersten `\begin{ksys}`, sonst hängt es hinten an der Textzeile und die folgenden rutschen darunter. Drei Systeme: zwei nebeneinander, Leerzeile, das dritte.
+Zwei Systeme nebeneinander: `\end{ksys}\ksysabstand\begin{ksys}...`. Alle Grafiken – `ksys`, `\kreisdiagramm`, `\saeulen`, `\histogramm`, `\boxplots`, Baumdiagramme, Körper – stehen in einem eigenen Absatz: Leerzeile davor und danach. Auf derselben Zeile hängt die Grafik unter den Text, und was danach kommt (etwa `\leerfeld`), steht neben ihr statt darunter. Drei Systeme: zwei nebeneinander, Leerzeile, das dritte.
  
 Koordinatensystem 3D (Kavalierprojektion)
  
