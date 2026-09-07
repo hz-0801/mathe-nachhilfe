@@ -4,6 +4,7 @@ Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anlei
 
 ## masterprompt.md
 
+- 2026-09-07 v3.32 (nach Auswertung Terme T1/T2 mit v3.31 und Prozent Heft mit v0.11, Fable 5.1; Werkstatt-Entscheidungen): Abschnitt 0 Rangfolge gedreht – Einstieg jeder Hauptnummer (Übung, Vorstufe, Grundfall) vor Typenvollständigkeit vor Rest der Kette; Prüfungsniveau genau eine Teilaufgabe je Hauptnummer, „Erhöht" ohne zweite Sternaufgabe (1.4, 2.2 c). 2.1/2.2 Aufgabe 1 von Check zu Übung: je Fertigkeit zwei leichte, eine mittlere, je Fallstrick des Blatts eine, rückwärts geplant, höchstens zwölf; Fokus-Zeile entfällt; „vorausgehende Themen" statt „früher". 2.2 b Vorstufe vier bis fünf, Grundfall in Teil 1 vier- bis fünfmal, Kriterium „erste sechs allein lösbar" (auch 5.1 b). Teil 0 und „vorbereiten" gestrichen (0, 1.1, 1.2, 2.2, 3.1, 6.4). 1.1 Antwort außerhalb der Buttons als Freitext, kein Erklärsatz. 3.1 Kasten: eine Regel je Zeile, Varianten zusammen, fünf Zeilen, nichts aus der Vorstufe. 4.2 Hilfe-Seite bis Kl. 10 nur auf Zuruf. 4.6 `\weit` bis Kl. 10. 4.1 Muster Begleitteil mit `\quad`. Ungetestet.
 - 2026-09-07 v3.31 (nach Diskussion Terme zusammenfassen Kl. 8, drei Fassungen in einem Chat): 2.2 b Vorstufe – Verfahren mit Erkennungsschritt beginnen bis Kl. 10 mit zwei bis drei Teilaufgaben, die nur diesen Schritt verlangen (Standard bei Lernblatt und Teilen, nicht bei Fokus, kurz, Test). 3.4 Teillösungen durch `\quad` statt `|`. 3.6 Symbolregel: keine unerklärten Buchstaben, ein Buchstabe je Blatt für eine Sache. Ungetestet.
 - 2026-09-07 v3.30 (nach Auswertung LinFkt Teil 1 mit v3.29, Opus 5): Zeitmessung auf „Gesamt" (t1 − t0) und „Korrekturrunden: n von m Schritten" reduziert; Sekunden je Schritt entfallen, weil die Bash-Dauer nicht misst, was zwischen den Aufrufen geschieht.
 - 2026-09-07 v3.29 (nach Auswertung LinFkt Teil 1 und 2 mit v3.28, Sonnet): 4.3 Seitenfüllung mit Drittel-Maß, eine Hauptnummer allein ist kein Anlass, nichts kürzen (aus Prüfungsprompt); 5.2 a Maß aus der Textextraktion. 4.4 höchstens vier Graphen je System, Gefragtes in der Fläche. 5.1 a Skript vergleicht Zahlenwerte, null Abweichungen vor der Übergabe. 6.3 Zeile „Modell"; Zeiten gemessen mit t0/t1-Stempeln statt geschätzt. 4.6 PDF ohne Datum, Archiv `[Thema]_[Typ]_[Datum]_protokoll.zip`.
@@ -12,6 +13,7 @@ Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anlei
 
 ## pruefungsprompt.md (Prüfungsprompt; bis v0.7 blatt-prompt.md)
 
+- 2026-09-07 v0.12: 4.1 Muster Begleitteil mit `\quad` (wie 3.4); 6.3 Versionszeile nachgezogen (stand auf v0.10). Bauregeln unverändert; Hilfe-Seite bleibt an (3.1 verweist über sie auf die Formelsammlung) – offen, ob die Kl.-10-Regel des Masterprompts hier gelten soll.
 - 2026-09-07 v0.11: 3.4 Teillösungen durch `\quad` statt `|`; 3.6 Symbolregel wie Masterprompt v3.31. Bauregeln unverändert. Ungetestet.
 - 2026-09-07 v0.10 (nach Auswertung Prozent 7 mit v0.9, Opus 5): Zeitmessung wie im Masterprompt reduziert.
 - 2026-09-07 v0.9 (nach Auswertung Prozent 6 („start") mit v0.8, Sonnet): 2.1/2.2 b Grundfall-Originale gleicher Merkmale sind eine Sternsprosse. 5.1 a Skript vergleicht Zahlenwerte, null Abweichungen vor der Übergabe. 6.3 Zeile „Modell"; Zeiten gemessen mit t0/t1-Stempeln statt geschätzt.
@@ -27,6 +29,8 @@ Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anlei
 ## mathblatt.sty und Anleitung_mathblatt.md
 
 Die Versionszeile steht in Zeile 2 der `.sty`; die Anleitung nennt in Zeile 2, zu welcher Vorlagenversion sie gehört. Ältere Einträge stehen im Kopf der `.sty`.
+
+- 2026-09-07c: `\weit` auf 1,6 / 6 pt; `\leerfeld` 3 cm, `\feld` 2 cm, `\feldl` 3 cm; Felder hängen mit `\unskip\nobreak` am Wort davor (Befund aus drei Archiven: Feld allein in der nächsten Zeile). Gegen T1, T2 und Prozent-Heft vom 07.09. kompiliert, ohne Warnungen. Anleitung: `teilezwei`-Regel (mehr als vier kurze Teilaufgaben), Feldbreiten, `\weit`-Beschreibung.
 
 - 2026-09-07b, Anleitung ergänzt (Vorlage unverändert): Syntaxzeile für `teilezwei` (`\tz`, `&`, `\\`, `\stz`); `\erg`-Beispiel mit `\quad` statt `|`.
 - 2026-09-07b (nach Auswertung LinFkt Teil 1 und Prozent 7, beide Opus 5): neu `\sachtabelle{Spalten}{Kopf}{Zeilen}` mit `\leerzelle` (mehrzeilige Sachtabellen wurden dreimal mit rohem `tabular` gebaut) und `\kreisdiagrammleer` (Sektoren mit Beschriftungslinien für Zuordnungsaufgaben); `\gerade` – das Label weicht auch den Achsen aus, nicht nur dem Rand. Geprüft gegen alle fünf gesammelten .tex: gleiche Seitenzahlen, keine Fehler, keine Warnungen.

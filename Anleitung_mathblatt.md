@@ -1,5 +1,5 @@
 mathblatt.sty – Anleitung (Stufe 3)
-Gehört zu Vorlagenversion 2026-09-07b. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
+Gehört zu Vorlagenversion 2026-09-07c. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
  
 Datei `mathblatt.sty` neben die .tex-Datei legen, `\usepackage{mathblatt}` im Kopf. Kompilieren mit `xelatex` (nicht pdflatex): nur so sind Umlaute, ß, € und die Textextraktion sauber, weil im Sandbox keine Type-1-T1-Schriften liegen. Das Modell schreibt nur Inhalt; Ränder, Karogrößen, Fluchten, Kopf- und Fußzeile sind fest.
  
@@ -17,13 +17,13 @@ Grundgerüst
 ```
 \blattfuss{Lineare Funktionen}{Lernblatt Teil 1 von 3}   → Thema · Bezeichnung unten links, Seite unten rechts
 \blattkopf{...}{...} / \blattkopf*{...}{...}{$\star$ = ...}  → Alternative: oben links; mit * dazu Legende unten links, Text im dritten Argument
-\weit                                                    → weitere Zeilen im Aufgabenteil (ein Drittel); Begleitteil und Hilfe-Seite setzen selbst auf eng zurück
+\weit                                                    → Schreibraum: Zeilen im Aufgabenteil gut halb so weit wie eng; Begleitteil und Hilfe-Seite setzen selbst auf eng zurück
 \uebersichtskasten[<Leitgrafik>]{<Formelzeilen>}          Sternlegende nicht hier, sondern über \blattkopf*
 \begin{aufgabe}{Text} ... \end{aufgabe}            → nummeriert, bleibt auf einer Seite
 \begin{teile} \teil ... \steil ... \end{teile}     → a), ☆b)
-\begin{teilezwei} \tz ... & \tz ... \\ \tz ... & \tz ... \end{teilezwei}   → zweispaltig für kurze Teilaufgaben; tabular-Syntax: & trennt die Spalten, \\ beendet die Zeile, Stern mit \stz
+\begin{teilezwei} \tz ... & \tz ... \\ \tz ... & \tz ... \end{teilezwei}   → zweispaltig; Regel: mehr als vier kurze Teilaufgaben (Term plus Feld unter halber Satzbreite) hierhin statt in geruest; tabular-Syntax: & trennt die Spalten, \\ beendet die Zeile, Stern mit \stz
 \begin{geruest} \gz{a}{$y=2x+3$}{\feld{m}\feld{n}} \gzs{b}{...}{...} \end{geruest}
-\feld{W} → „W = ___"; \leerfeld → „___" ohne Bezeichner (nie \feld{} – das ergibt „= ___")
+\feld{W} → „W = ___" (2 cm); \leerfeld → „___" (3 cm) ohne Bezeichner (nie \feld{} – das ergibt „= ___"); beide hängen am Wort davor und brechen nicht allein um
 \feld{m}  \feldl{y}  \punktfeld  \janein  \kreuz{Text}      \janein ohne Argument → „☐ ja ☐ nein"; andere Beschriftungen mit \kreuz{A}\kreuz{B} – ein \janein[...] gibt es nicht
 \mnliste[9]{2x+3, 5x-1, ...}            m und n je Gerade, eine Zeile statt geruest
 \nullstellenliste[7]{x-4, 2x-6, ...}    x_0 je Gerade

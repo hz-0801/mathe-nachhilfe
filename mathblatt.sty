@@ -1,4 +1,5 @@
 % mathblatt.sty – Vorlage für Nachhilfe-Arbeitsblätter, Stufe 3 (Sek I und Oberstufe)
+% Version 2026-09-07c (weit auf 1,6/6 pt; leerfeld 3 cm, feld 2 cm; Felder brechen nicht mehr allein in die nächste Zeile um)
 % Version 2026-09-07b (neu: sachtabelle mit Kopfzeile, leerzelle, kreisdiagrammleer; gerade: Label nicht mehr auf den Achsen)
 % Version 2026-09-07a (gerade: Label bleibt in der Zeichenfläche – Kante nach Austrittsseite, sonst Suche wie bei funktion; sonst wie 06e)
 % Version 2026-09-06e (wertetabelle: leere Einträge in der Werteliste ergeben leere Felder; sonst wie d)
@@ -77,9 +78,9 @@
 % \blattkopf{Prozentrechnung}{Themenheft}   Alternative: Thema · Bezeichnung oben links, Seite unten rechts;
 %   \blattkopf*{...}{...}{$\star$ = Prüfungsaufgabe} setzt zusätzlich die Legende unten links; den Text
 %   liefert der Aufruf (Mathemodus für den Stern), die Vorlage enthält keinen Legendentext.
-% \weit   Schalter: Teilaufgaben- und Gerüstzeilen im Aufgabenteil um ein Drittel weiter; vor der ersten
+% \weit   Schalter: Teilaufgaben- und Gerüstzeilen im Aufgabenteil um gut die Hälfte weiter (Schreibraum); vor der ersten
 %   Aufgabe setzen. Wirkt nicht auf Begleitteil und Hilfe-Seite (\eng setzt zurück). Voreinstellung: eng.
-\newcommand{\weit}{\renewcommand{\arraystretch}{1.35}\setlength{\mbteilsep}{4pt}}
+\newcommand{\weit}{\renewcommand{\arraystretch}{1.6}\setlength{\mbteilsep}{6pt}}
 \newcommand{\eng}{\renewcommand{\arraystretch}{1.0}\setlength{\mbteilsep}{0pt}}
 \newlength{\mbteilsep}\setlength{\mbteilsep}{0pt}
 \NewDocumentCommand{\blattkopf}{s m m}{%
@@ -149,10 +150,10 @@
 \newcommand{\stz}{\stepcounter{teil}$\star$\,\alph{teil})\ }
 
 % Antwortfeld: \feld{m} → "m = ____"   ;  \feldx{x_0}  (Mathe-Bezeichner)
-\newcommand{\feld}[1]{\ensuremath{#1 = \underline{\hspace{1.4cm}}}\hspace{0.8em}}
-\newcommand{\feldl}[1]{\ensuremath{#1 = \underline{\hspace{2.6cm}}}\hspace{0.8em}}
+\newcommand{\feld}[1]{\unskip\nobreak\hspace{0.5em}\ensuremath{#1 = \underline{\hspace{2cm}}}\hspace{0.8em}}
+\newcommand{\feldl}[1]{\unskip\nobreak\hspace{0.5em}\ensuremath{#1 = \underline{\hspace{3cm}}}\hspace{0.8em}}
 % Leeres Feld ohne Bezeichner und ohne Gleichheitszeichen: \leerfeld  (nach eigenem Text wie „alter Preis:")
-\newcommand{\leerfeld}{\underline{\hspace{1.4cm}}\hspace{0.8em}}
+\newcommand{\leerfeld}{\unskip\nobreak\hspace{0.5em}\underline{\hspace{3cm}}\hspace{0.8em}}
 \newcommand{\punktfeld}{\ensuremath{S(\underline{\hspace{0.8cm}}\,|\,\underline{\hspace{0.8cm}})}}
 
 % Antwortgerüst in Fluchten: Umgebung geruest, Zeilen mit \gz{a}{Aufgabentext}{Felder}

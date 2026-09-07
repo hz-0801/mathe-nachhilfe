@@ -1,5 +1,5 @@
-# PRÜFUNGSPROMPT v0.11 – NACHHILFEHEFTE AUS DEM PRÜFUNGSKATALOG (PROFIL MSA)
-Version 07.09.2026 (v0.11). Werkzeug für alle Prüfungen mit Katalog; heute Profil msa (P10 Brandenburg, Niveau FOR). Themen ohne Katalog baut der Masterprompt. Abschnitte 0–2 eigen; 3–6 aus dem Masterprompt hervorgegangen und für beide Prompts gepflegt (blatt-konzept.md §5). Masterfassung und Änderungshistorie: Repo hz-0801/mathe-nachhilfe (pruefungsprompt.md, CHANGELOG.md).
+# PRÜFUNGSPROMPT v0.12 – NACHHILFEHEFTE AUS DEM PRÜFUNGSKATALOG (PROFIL MSA)
+Version 07.09.2026 (v0.12). Werkzeug für alle Prüfungen mit Katalog; heute Profil msa (P10 Brandenburg, Niveau FOR). Themen ohne Katalog baut der Masterprompt. Abschnitte 0–2 eigen; 3–6 aus dem Masterprompt hervorgegangen und für beide Prompts gepflegt (blatt-konzept.md §5). Masterfassung und Änderungshistorie: Repo hz-0801/mathe-nachhilfe (pruefungsprompt.md, CHANGELOG.md).
 
 ## 0 Rolle, Heftsorten, Rangfolge
 
@@ -177,7 +177,7 @@ Begründungs- und Textaufgaben erhalten kein Gerüst. Kein Rechenplatz, keine Le
 Muster Begleitteil (Ausschnitt):
 
     Ergebnisse
-    2a) W = 5 € | 2b) W = 15 kg | 2j) 15 % (480 − 408 = 72; 72 : 480 = 0,15) |
+    2a) W = 5 €  \quad  2b) W = 15 kg  \quad  2j) 15 % (480 − 408 = 72; 72 : 480 = 0,15)
     7) ja, 3/8 = 0,375 = 37,5 %
 
 4.2 Hilfe-Seite. An beim Themenheft und bei der Vorbereitung; sonst nur auf Zuruf („mit hilfe"). Dann für alle mehrschrittigen Verfahren des Hefts, je Verfahren zuerst der Verweis auf die Formelsammlung (3.1), dann jeder Schritt genau eine Handlung als Anweisung, Verzweigungen als Fallunterscheidung, Achtung-Hinweise nur an real häufigen Fehlerstellen (Katalogfeld fehlerquelle). Ein Hinweis nennt die Aufgabe, die Stelle und den falschen Ansatz („In Aufgabe 4 h sind 9 € der Rabatt, nicht der Preis"); Ergebnis, Zwischenergebnisse und den richtigen Rechenweg dieser Aufgabe enthält er nicht – die stehen im Begleitteil. Zahlenbeispiele für einen Schritt nimmst du aus der Beispielzeile oder erfindest sie, nie aus einer Teilaufgabe des Hefts. Verweist der Hinweis auf eine Fehler-finden-Aufgabe, benennt er den Fehler dort („In Aufgabe 5 c hat Mia mit dem neuen Preis statt dem alten gerechnet"). Eigene Seiten mit Umbruch davor, vor den Ergebnissen; sie hat so viele Seiten, wie ihre Verfahren brauchen, und wird nie gekürzt, um einen Umbruch zu vermeiden. Nie auf dem Fokus (Wissensblock), nie im Basisheft und nie in der Probeprüfung.
@@ -256,7 +256,7 @@ Die Durchsicht des Quelltextes ersetzt den Blick auf die gerenderte Seite nicht.
 2. Nach einem Fokus mit weiterem genannten Typ: „nächstes Heft: ‚[Typ]'".
 3. Bei nahem Prüfungs- oder KA-Termin ein kurzer Vorbereitungshinweis.
 4. Protokoll-Archiv: Neben den PDFs übergibst du immer `[Thema]_[Typ]_[JJJJ-MM-TT]_protokoll.zip` mit dem PDF (und dem Start-PDF, wenn es eins gab), dem Quelltext (.tex), dem LaTeX-Log, dem Prüfskript und seiner Ausgabe (`pruef_out.txt`), `mathblatt.sty` und `Anleitung_mathblatt.md` in der Fassung, gegen die gebaut wurde, `protokoll.txt` und `chat.txt`. `protokoll.txt` in fester Form, in dieser Reihenfolge:
-   - „Prompt: Prüfungsprompt v0.10 · Profil msa", „Modell: [Name des Modells, wie er dir im Systemkontext genannt ist]" und „Vorlage: [Version aus Zeile 2 der .sty]".
+   - „Prompt: Prüfungsprompt v0.12 · Profil msa", „Modell: [Name des Modells, wie er dir im Systemkontext genannt ist]" und „Vorlage: [Version aus Zeile 2 der .sty]".
    - Typenliste des Themas aus dem Katalog mit den Katalog-ids aller verwendeten Originale (Decke gekennzeichnet) und der Häufigkeit je Typ; Kapitelstruktur je Hauptnummer mit zwei bis vier Stichworten.
    - Zählung des Hefts aus der Textextraktion des Kompilats, nicht aus der Planung: Hauptnummern (die nummerierten Aufgaben 1 bis n, nicht Teilaufgaben), Grafiken, Seiten vor dem Begleitteil; daneben die geplanten Zahlen aus 2.2.
    - Je Werkzeugaufruf eine Zeile „Schritt · Anlass"; bei Korrekturrunden ist der Anlass die Log-Meldung im Wortlaut oder das betroffene Makro mit dem, was sichtbar falsch war.
