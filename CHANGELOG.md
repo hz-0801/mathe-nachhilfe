@@ -1,6 +1,6 @@
 # CHANGELOG – Prompts und Vorlage
 
-Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anleitung bis dahin im Repo nachhilfe-arbeitsblatt-vorlage). Masterfassungen: `masterprompt.md` (Themen ohne Katalog) und `pruefungsprompt.md` (Prüfungsprompt, Themen mit Katalog; bis v0.7 `blatt-prompt.md`). Die Projektanweisungen in den Claude-Projekten sind Kopien; Zeile 2 nennt die Version. Änderungen an den gemeinsamen Abschnitten 3–6 werden in beiden Prompts gemacht und hier je einmal genannt.
+Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anleitung bis dahin im Repo nachhilfe-arbeitsblatt-vorlage). Ältere Fassungen (v3.27, v0.7) liegen in der Werkstatt; ab v3.28/v0.8 hält die Git-Historie jede Fassung. Masterfassungen: `masterprompt.md` (Themen ohne Katalog) und `pruefungsprompt.md` (Prüfungsprompt, Themen mit Katalog; bis v0.7 `blatt-prompt.md`). Die Projektanweisungen in den Claude-Projekten sind Kopien; Zeile 2 nennt die Version. Änderungen an den gemeinsamen Abschnitten 3–6 werden in beiden Prompts gemacht und hier je einmal genannt.
 
 ## masterprompt.md
 
@@ -29,7 +29,3 @@ Die Versionszeile steht in Zeile 2 der `.sty`; die Anleitung nennt in Zeile 2, z
 - 2026-09-06e: `\wertetabelle` – leere Einträge in der Werteliste ergeben leere Felder.
 - 2026-09-06d: `\blattkopf*` – Legendentext als drittes Argument, kein Text mehr in der Vorlage.
 - 2026-09-06c: neu `\blattkopf` mit Sternlegende, `\weit`/`\eng`, `\kreissektor`, `\leerfeld`; Reparaturen kreisdiagramm-Überlauf, schritte-Zähler, geruest-Umbruch.
-
-## archiv/
-
-Fassungen von vor der Ablage im Repo: `masterprompt-v3.27.md` (05.09.2026), `blatt-prompt-v0.7.md` (06.09.2026). Ab v3.28/v0.8 hält die Git-Historie jede Fassung.

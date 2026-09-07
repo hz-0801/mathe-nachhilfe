@@ -12,6 +12,5 @@ Ein Repo für die Mathe-Nachhilfe: Prüfungskataloge, die Prompts, die LaTeX-Vor
 | `konzept.md`, `blatt-konzept.md` | Entscheidungen: Katalog bzw. Hefte. Bei Widerspruch in der Heft-Phase gilt blatt-konzept. |
 | `pruefungen.md`, `vorgaben.md` | Heftliste mit Erfassungsstatus; amtliche Vorgaben mit Jahrescheck. |
 | `CHANGELOG.md` | Änderungshistorie der Prompts und der Vorlage. |
-| `archiv/` | Prompt-Fassungen von vor der Ablage im Repo (v3.27, v0.7). |
 
 Aufteilung der Prompts nach Quelle: Katalog vorhanden → Prüfungsprompt, sonst Masterprompt (blatt-konzept §5). Gemeinsame Abschnitte 3–6 werden in beiden gepflegt. Testauswertung und Protokoll-Archive liegen im Werkstatt-Projekt, nicht hier.
