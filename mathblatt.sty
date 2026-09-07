@@ -1,4 +1,5 @@
 % mathblatt.sty – Vorlage für Nachhilfe-Arbeitsblätter, Stufe 3 (Sek I und Oberstufe)
+% Version 2026-09-07b (neu: sachtabelle mit Kopfzeile, leerzelle, kreisdiagrammleer; gerade: Label nicht mehr auf den Achsen)
 % Version 2026-09-07a (gerade: Label bleibt in der Zeichenfläche – Kante nach Austrittsseite, sonst Suche wie bei funktion; sonst wie 06e)
 % Version 2026-09-06e (wertetabelle: leere Einträge in der Werteliste ergeben leere Felder; sonst wie d)
 % Version 2026-09-06d (blattkopf*: Legendentext als drittes Argument, kein Text mehr in der Vorlage; sonst wie c)
@@ -335,6 +336,13 @@
   \pgfmathtruncatemacro{\mblbot}{\mbly<\ksymin+0.3*\ksystep}%
   \ifnum\mbltop=1 \pgfmathsetmacro{\mbly}{\ksymax-0.5*\ksystep}\pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}\fi
   \ifnum\mblbot=1 \pgfmathsetmacro{\mbly}{\ksymin+0.5*\ksystep}\pgfmathsetmacro{\mblx}{(\mbly-#3)/(#2+0.000001)}\fi
+  % nicht auf den Achsen sitzen: dort steht die Bezifferung
+  \pgfmathtruncatemacro{\mblachse}{(abs(\mbly)<0.7*\ksystep)||(abs(\mblx)<0.7*\ksxstep)}%
+  \ifnum\mblachse=1
+    \pgfmathsetmacro{\mblx}{\mblx-1.3*\ksxstep}\pgfmathsetmacro{\mbly}{#2*\mblx+#3}%
+    \pgfmathtruncatemacro{\mblachse}{(abs(\mbly)<0.7*\ksystep)||(abs(\mblx)<0.7*\ksxstep)}%
+    \ifnum\mblachse=1 \pgfmathsetmacro{\mblx}{\mblx+2.6*\ksxstep}\pgfmathsetmacro{\mbly}{#2*\mblx+#3}\fi
+  \fi
   \pgfmathtruncatemacro{\mblin}{(\mblx>\ksxmin+0.3*\ksxstep)&&(\mblx<\ksxmax-0.3*\ksxstep)&&(\mbly>\ksymin+0.3*\ksystep)&&(\mbly<\ksymax-0.3*\ksystep)}%
   \ifnum\mblin=1
     \node[fill=white,inner sep=1pt,font=\small] at (\mblx,\mbly) {$#4$};
@@ -1075,6 +1083,53 @@
           \node[font=\small,anchor={\mbwm+180}] at (\mbwm:{#1+0.3}) {\l};}
         \xdef\mbwa{\mbwb}}%
       \draw (0,0) circle (#1);}
+  \end{tikzpicture}}
+
+% \sachtabelle{Spaltentypen}{Kopfzeile}{Zeilen}   Tabelle mit Rahmen, zentriert, Kopf abgesetzt.
+%   Spaltentypen wie bei tabular ohne Striche: l, c, r – die Linien setzt die Vorlage.
+%   Kopfzeile und Zeilen mit & getrennt, Zeilen untereinander mit \\ am Zeilenende.
+%   \sachtabelle{lcc}{Medium & Mädchen & Jungen}{Smartphone & 97\,\% & 94\,\%\\ Bücher & 48\,\% & 32\,\%}
+%   Leere Zelle zum Eintragen: \leerzelle (Schreiblinie ohne Gleichheitszeichen).
+\newcommand{\leerzelle}{\rule[-0.5ex]{1.4cm}{0.4pt}}
+\ExplSyntaxOn
+\NewDocumentCommand{\sachtabelle}{m m m}{
+  \par\medskip\noindent
+  \group_begin:
+  \dim_set:Nn \tabcolsep {7pt} \renewcommand{\arraystretch}{1.25}
+  \centering
+  \mbtab_build:nnn {#1}{#2}{#3}
+  \par \group_end: \medskip}
+\tl_new:N \l__mbtab_cols_tl
+\cs_new_protected:Npn \mbtab_build:nnn #1#2#3 {
+  \tl_clear:N \l__mbtab_cols_tl
+  \tl_put_right:Nn \l__mbtab_cols_tl {|}
+  \tl_map_inline:nn {#1}{ \tl_put_right:Nn \l__mbtab_cols_tl {##1|} }
+  \use:x { \exp_not:N \begin{tabular}{\exp_not:V \l__mbtab_cols_tl} }
+    \hline #2 \\ \hline #3 \\ \hline
+  \end{tabular} }
+\ExplSyntaxOff
+
+% \kreisdiagramm*[r]{Label/Wert, ...}   wie \kreisdiagramm, aber statt der Labels führt aus jedem
+%   Sektor eine Linie nach außen auf einen Schreibstrich – für Zuordnungs- und Beschriftungsaufgaben.
+\NewDocumentCommand{\kreisdiagrammleer}{O{1.8} m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt]
+    \pgfmathsetmacro{\mbsum}{0}%
+    \foreach \l/\w in {#2}{\pgfmathsetmacro{\mbsum}{\mbsum+\w}\xdef\mbsum{\mbsum}}%
+    \xdef\mbwa{90}%
+    \foreach \l/\w [count=\i] in {#2}{%
+      \edef\mbwb{\fpeval{round(\mbwa-360*\w/\mbsum,3)}}%
+      \pgfmathsetmacro{\mbg}{0.96-0.14*mod(\i-1,4)}%
+      \filldraw[fill=black!\fpeval{round((1-\mbg)*100)}] (0,0) -- (\mbwa:#1) arc (\mbwa:\mbwb:#1) -- cycle;
+      \pgfmathsetmacro{\mbwm}{(\mbwa+\mbwb)/2}%
+      \pgfmathtruncatemacro{\mbrechts}{(cos(\mbwm)>=0)}%
+      \draw[line width=0.4pt] (\mbwm:{#1*0.75}) -- (\mbwm:{#1+0.45});
+      \ifnum\mbrechts=1
+        \draw[line width=0.4pt] (\mbwm:{#1+0.45}) -- ++(1.5,0);
+      \else
+        \draw[line width=0.4pt] (\mbwm:{#1+0.45}) -- ++(-1.5,0);
+      \fi
+      \xdef\mbwa{\mbwb}}%
+    \draw (0,0) circle (#1);
   \end{tikzpicture}}
 
 % \kreissektor[r]{Winkel}{Label}   Kreis mit Mittelpunkt M und einem grau gefüllten Sektor von Winkel Grad,

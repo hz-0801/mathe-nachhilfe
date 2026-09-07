@@ -1,5 +1,5 @@
 mathblatt.sty – Anleitung (Stufe 3)
-Gehört zu Vorlagenversion 2026-09-07a. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
+Gehört zu Vorlagenversion 2026-09-07b. Die Version steht in Zeile 2 der `mathblatt.sty`. Weichen beide ab, gilt die Vorlage: Makros, die sie nicht kennt, benutzt du nicht, und du meldest die Abweichung in einer Zeile im Ausgabeblock.
  
 Datei `mathblatt.sty` neben die .tex-Datei legen, `\usepackage{mathblatt}` im Kopf. Kompilieren mit `xelatex` (nicht pdflatex): nur so sind Umlaute, ß, € und die Textextraktion sauber, weil im Sandbox keine Type-1-T1-Schriften liegen. Das Modell schreibt nur Inhalt; Ränder, Karogrößen, Fluchten, Kopf- und Fußzeile sind fest.
  
@@ -174,6 +174,8 @@ Stochastik
 \kreisdiagramm{Bus 40 \%/40, Rad 25 \%/25, Auto 20 \%/20, zu Fuß 15 \%/15}
 \kreisdiagramm[1.2]{A/3, B/5, /2}       Radius in cm (Voreinstellung 1,8); leeres Label = Sektor ohne Text
 \kreisdiagramm{}                         leerer Kreis mit Mittelpunkt (Schüler zeichnet)
+\kreisdiagrammleer{Bus/40, Rad/25, Auto/20, Fuß/15}   wie oben, aber ohne Text: aus jedem Sektor führt eine Linie nach außen auf einen Schreibstrich (Zuordnen, Beschriften)
+\sachtabelle{lcc}{Medium & Mädchen & Jungen}{Smartphone & 97\,\% & 94\,\%\\ Bücher & 48\,\% & 32\,\%}   Sachtabelle mit Rahmen, Kopfzeile abgesetzt; leere Zelle zum Eintragen: \leerzelle
 \kreissektor{135}{135°}                  Kreis mit einem grauen Sektor von 135° ab oben, Label im Sektor
 \vierfeldertafel{A}{B}{20,30,50,10,40,50,30,70,100}   zeilenweise B, nicht B, Summe; leere Einträge frei
 \vierfeldertafel{A}{B}{}                 alle Felder leer

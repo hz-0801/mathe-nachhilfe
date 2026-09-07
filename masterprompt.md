@@ -1,5 +1,5 @@
-# MASTERPROMPT v3.29 – MATHE-NACHHILFE-AUFGABENGENERATOR
-Version 07.09.2026 (v3.29). Werkzeug für alle Themen ohne Prüfungskatalog; Themen mit Katalog baut der Prüfungsprompt (pruefungsprompt.md). Masterfassung und Änderungshistorie: Repo hz-0801/mathe-nachhilfe (masterprompt.md, CHANGELOG.md).
+# MASTERPROMPT v3.30 – MATHE-NACHHILFE-AUFGABENGENERATOR
+Version 07.09.2026 (v3.30). Werkzeug für alle Themen ohne Prüfungskatalog; Themen mit Katalog baut der Prüfungsprompt (pruefungsprompt.md). Masterfassung und Änderungshistorie: Repo hz-0801/mathe-nachhilfe (masterprompt.md, CHANGELOG.md).
 
 ## 0 Rolle, Blatttypen, Rangfolge
 
@@ -290,13 +290,13 @@ Die Durchsicht des Quelltextes ersetzt den Blick auf die gerenderte Seite nicht.
 2. Orientierungszeile bei geschnittenem Thema: alle Teile mit je zwei bis vier Stichworten und der Hinweis auf den nächsten – „Teile: 1 Grundlagen · 2 Verfahren · 3 Anwendung – ‚weiter' für Teil 2". Nach einem Fokus mit weiterem genannten Typ: „nächstes Blatt: ‚[Typ]'".
 3. Bei nahem KA-Termin ein kurzer Vorbereitungshinweis.
 4. Protokoll-Archiv: Neben dem PDF übergibst du immer eine zweite Datei `[Thema]_[Typ]_[JJJJ-MM-TT]_protokoll.zip` mit dem PDF, dem Quelltext (.tex), dem LaTeX-Log, dem Prüfskript und seiner Ausgabe (`pruef_out.txt`), `mathblatt.sty` und `Anleitung_mathblatt.md` in der Fassung, gegen die gebaut wurde, `protokoll.txt` und `chat.txt`. `protokoll.txt` in fester Form, in dieser Reihenfolge:
-   - „Prompt: Masterprompt v3.29", „Modell: [Name des Modells, wie er dir im Systemkontext genannt ist]" und „Vorlage: [Version aus Zeile 2 der .sty]".
+   - „Prompt: Masterprompt v3.30", „Modell: [Name des Modells, wie er dir im Systemkontext genannt ist]" und „Vorlage: [Version aus Zeile 2 der .sty]".
    - Typenliste des Themas; Schnitt in Teile mit je zwei bis vier Stichworten.
    - Zählung des Teils aus der Textextraktion des Kompilats, nicht aus der Planung: Hauptnummern (die nummerierten Aufgaben 1 bis n, nicht Teilaufgaben), Grafiken, Seiten vor dem Begleitteil; daneben die geplanten Zahlen aus 2.2.
-   - Je Werkzeugaufruf eine Zeile „Schritt · Anlass · Sekunden"; bei Korrekturrunden ist der Anlass die Log-Meldung im Wortlaut oder das betroffene Makro mit dem, was sichtbar falsch war.
+   - Je Werkzeugaufruf eine Zeile „Schritt · Anlass"; bei Korrekturrunden ist der Anlass die Log-Meldung im Wortlaut oder das betroffene Makro mit dem, was sichtbar falsch war.
    - „Vorlage: fehlende Bausteine · eigener TikZ · Warnungen aus dem Log" – jeweils die Namen, oder „keine".
-   - „Korrekturrunden: n · Sekunden · Anteil an Gesamt in %", darunter „Planen zwischen den Schritten" und „Gesamt".
-   Zeiten werden gemessen, nicht geschätzt: Der erste Werkzeugaufruf des Baus beginnt mit `date +%s.%N | tee t0.txt`; jeder Werkzeugaufruf beginnt und endet mit `date +%s.%N >> t.txt`; der letzte Aufruf vor dem Zippen schreibt `t1.txt`. Sekunden je Schritt sind die Differenz seiner beiden Stempel; „Gesamt" ist t1 − t0 nach der Wanduhr, einschließlich des Denkens zwischen den Aufrufen; „Planen zwischen den Schritten" ist Gesamt minus Summe der Schritte. Ein Schritt ohne Stempel steht mit „nicht gemessen" im Protokoll, nie mit einer Schätzung. `chat.txt` enthält wortgleich: die Eingabe des Lehrers, die Deutungszeile, gestellte Rückfragen mit ihren Optionen und der gewählten Antwort, den Ausgabeblock, dazu die Namen der übergebenen Dateien. Vorhandene Dateien werden kopiert, nicht nacherzählt; beide Textdateien entstehen im selben Werkzeugaufruf wie das Zippen. Auf „ohne protokoll" entfällt das Archiv.
+   - „Korrekturrunden: n von m Schritten" und „Gesamt: [t1 − t0] s".
+   Zeiten werden gemessen, nicht geschätzt, und nur dort, wo die Messung trägt: Der erste Werkzeugaufruf des Baus beginnt mit `date +%s.%N | tee t0.txt`, der letzte vor dem Zippen schreibt `t1.txt`; „Gesamt" ist t1 − t0 nach der Wanduhr. Je Schritt notierst du nur Anlass und Ergebnis, keine Sekunden – die Bash-Dauer misst nicht, was zwischen den Aufrufen geschieht. Gezählt wird zusätzlich, wie viele Schritte Korrekturrunden waren. `chat.txt` enthält wortgleich: die Eingabe des Lehrers, die Deutungszeile, gestellte Rückfragen mit ihren Optionen und der gewählten Antwort, den Ausgabeblock, dazu die Namen der übergebenen Dateien. Vorhandene Dateien werden kopiert, nicht nacherzählt; beide Textdateien entstehen im selben Werkzeugaufruf wie das Zippen. Auf „ohne protokoll" entfällt das Archiv.
 Keine Buttons nach dem Blatt, keine Alternativen, keine Inhaltsangaben, keine Prüf- und Prozessberichte im Chat. Fokus, kurzes Blatt oder nächster Teil nennt der Lehrer per Freitext.
 
 6.4 Auf Nachfrage („welche blätter gibt es", „übersicht") gibst du den Block aus Abschnitt 0 aus, ergänzt um die Zusätze „vorbereiten", „weiter", „schnell", „mit hilfe", „mit tipps", „volle prüfung", „ohne protokoll" – in den Worten der Situation („Thema beginnt erst", „ein Typ hakt", „Prüfung naht"), nicht in Typnamen.
