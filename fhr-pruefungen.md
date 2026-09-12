@@ -22,7 +22,7 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | 2024 | C | 24_FOS_Ma_C_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
 | 2024 | B | 24_FOS_Ma_B_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
 | 2023 | C | 23_FOS_Ma_C_LH.pdf | 05.05.2023 | 8 | 30+20+20 = 70 | erfasst | 14 | 12.09.2026 |
-| 2023 | A | 23_FOS_Ma_A_LH.pdf | 05.05.2023 | 10 | 30+20+20 = 70 | nicht erfasst | | |
+| 2023 | A | 23_FOS_Ma_A_LH.pdf | 05.05.2023 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
 
 Reihenfolge der Erfassung: vom jüngsten zum ältesten. „weiter" nimmt das nächste Heft mit Status „nicht erfasst".
 
@@ -34,6 +34,22 @@ Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibet
 
 ## Änderungslog
 
+- 12.09.2026 – Abgleichlauf nach Kern § 9 über alle 131 Zeilen. Typenzahl 110 → 108, Status aller
+  Typen von „neu" auf „geprüft". Zusammengezogen: Achsen- und Punktsymmetrie am Funktionsterm
+  beurteilen zu Symmetrie am Funktionsterm beurteilen; Wertetabelle aufstellen und Wertetabelle
+  ergänzen zu Wertetabelle erstellen. Neues Thema Laplace-Wahrscheinlichkeit unter Stochastik mit
+  drei Typen und der Zeile 2023-C-3b. Nullstellen und y-Achsenschnitt unterscheiden von Symmetrie
+  nachweisen nach Nullstellen ganzrationaler Funktionen umgehängt; Definition von Stelle zu
+  gegebenem Funktionswert berechnen auf mehrere sinnvolle Lösungen erweitert. Punktsummen
+  unverändert, Gesamtsumme 560 = 8 · 70.
+- 12.09.2026 – Heft 2023 A erfasst, 17 Zeilen, 4 Typen neu. Punktsummen 30/20/20 geprüft,
+  Gesamtsumme 70. Damit ist der Erfassungsumfang 2023–2026 vollständig: acht Hefte, 131 Zeilen,
+  110 Typen. Alle Ergebnisse gegen den Erwartungshorizont gestellt, keine sachliche Abweichung;
+  eine Rundungsnotiz (2023-A-1f: A'' an der ungerundeten Extremstelle 4,4548 ergibt −57,05 statt
+  amtlich −56,75, ohne Folge, weil nur das Vorzeichen zählt). Zweite Fundstelle des Themas
+  Normale (2023-A-1c), damit ist die Wortsuche für dieses Heft bestätigt. Erwartungswert bleibt
+  im gesamten Bestand ohne Fundstelle. Fußzeile wie in den anderen Heften uneinheitlich:
+  Aufgabenseiten 23_FOS_Ma_A, Erwartungshorizont und Gutachtenbogen 23_FOS_Ma_EH_A.
 - 12.09.2026 – Heft 2023 C erfasst, 14 Zeilen, 11 Typen neu. Punktsummen 30/20/20 geprüft,
   Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt, keine sachliche
   Abweichung; eine Rundungsnotiz (2023-C-1c: f'' an den ungerundeten Extremstellen −222,72 und
