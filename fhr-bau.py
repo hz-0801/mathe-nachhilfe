@@ -16,9 +16,9 @@ import csv, io, os, re, sys
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2026",
-    "papier": "B",
-    "datei": "26_FOS_Ma_LH_B.pdf",
+    "jahr": "2024",
+    "papier": "C",
+    "datei": "24_FOS_Ma_C_LH.pdf",
     "seiten": 10,
     # Sollpunkte je Aufgabe aus der Punktetabelle am Ende jeder Aufgabe
     "soll": {"1": 30, "2": 20, "3": 20},

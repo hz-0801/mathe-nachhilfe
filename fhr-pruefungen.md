@@ -18,8 +18,8 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | 2026 | C | 26_FOS_Ma_LH_C.pdf | 05.06.2026 | 10 | 27+23+20 = 70 | erfasst | 16 | 12.09.2026 |
 | 2026 | B | 26_FOS_Ma_LH_B.pdf | 05.06.2026 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
 | 2025 | C | 25_FOS_Ma_LH_C.pdf | 28.05.2025 | 10 | 30+20+20 = 70 | erfasst | 15 | 12.09.2026 |
-| 2025 | A | 25_FOS_Ma_LH_A.pdf | 28.05.2025 | 9 | 30+20+20 = 70 | nicht erfasst | | |
-| 2024 | C | 24_FOS_Ma_C_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | nicht erfasst | | |
+| 2025 | A | 25_FOS_Ma_LH_A.pdf | 28.05.2025 | 9 | 30+20+20 = 70 | erfasst | 19 | 12.09.2026 |
+| 2024 | C | 24_FOS_Ma_C_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
 | 2024 | B | 24_FOS_Ma_B_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | nicht erfasst | | |
 | 2023 | C | 23_FOS_Ma_C_LH.pdf | 05.05.2023 | 8 | 30+20+20 = 70 | nicht erfasst | | |
 | 2023 | A | 23_FOS_Ma_A_LH.pdf | 05.05.2023 | 10 | 30+20+20 = 70 | nicht erfasst | | |
@@ -34,6 +34,17 @@ Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibet
 
 ## Änderungslog
 
+- 12.09.2026 – Heft 2024 C erfasst, 17 Zeilen, 9 Typen neu. Punktsummen 30/20/20 geprüft,
+  Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt; eine Rundungsnotiz
+  (2024-C-1d f''(2,77) amtlich 4,16, mit ungerundeter Stelle 4,15, ohne Folge für die Art des
+  Punktes). Erste Fundstelle des Themas Rotationsvolumen um die x-Achse (2024-C-2c); damit hat
+  jedes Thema der Liste eine Ankeraufgabe außer Erwartungswert. Fußzeile dieses Hefts uneinheitlich:
+  Aufgabenseiten 24_FOS_Ma_C, Erwartungshorizont 24_FOS_Ma_EH_C, Datei 24_FOS_Ma_C_LH.pdf.
+- 12.09.2026 – Heft 2025 A erfasst, 19 Zeilen, 13 Typen neu. Punktsummen 30/20/20 geprüft,
+  Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt, keine Abweichung.
+  Erste Fundstellen der Themen Normale (2025-A-1h) und Extremwertaufgaben (2025-A-2d bis 2f);
+  damit ist nur noch Rotationsvolumen um die x-Achse ohne Fundstelle. Auch dieses Heft nennt in
+  der Fußzeile 25_FOS_Ma_EH_A, während die Datei auf dem Server 25_FOS_Ma_LH_A.pdf heißt.
 - 12.09.2026 – Heft 2025 C erfasst, 15 Zeilen, 14 Typen neu. Punktsummen 30/20/20 geprüft,
   Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt, keine Abweichung.
   Erste Fundstelle des Themas Mehrstufige Zufallsexperimente (2025-C-3c, dreistufig ohne

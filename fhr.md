@@ -1,5 +1,5 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
-Version 0.5 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.7 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
 
 ## 1 Prüfung
 
@@ -67,21 +67,23 @@ Grundlagen: Prozentrechnung · Gleichungen lösen · Größen und Einheiten · T
 Anmerkungen zum Stand:
 - Funktionsgleichung bestimmen reicht 2027 bis zum zweiten, 2028 bis zum vierten Grad (dritter und vierter nur über Symmetrie). Das Vorkommen 2026-C-2c ist quadratisch, gilt also für beide Jahrgänge.
 - Unabhängigkeit von Ereignissen und Körpervolumen aus Grundfläche und Länge stehen erst in den Schwerpunkten 2027/28, kommen aber bereits 2026 vor (2026-C-3e, 2026-C-2e). Beide Themen haben damit eine Ankeraufgabe.
-- Kombinatorische Abzählverfahren ist seit 2026 B belegt (2026-B-3d Kombination mit Wiederholung, 2026-B-3e Permutation mit Wiederholung). Voraussichtliche Fundorte der noch fehlenden Themen, ermittelt per Wortsuche über alle Hefte und am Heft nicht geprüft (?): Normale in 2023 A und 2025 A; Rotationsvolumen um die x-Achse in 2024 C.
+- Kombinatorische Abzählverfahren ist seit 2026 B belegt (2026-B-3d Kombination mit Wiederholung, 2026-B-3e Permutation mit Wiederholung).
+- Normale ist seit 2025 A belegt (2025-A-1h, Normalengleichung an einer Stelle samt Einzeichnen). Extremwertaufgaben sind seit 2025 A belegt (2025-A-2d bis 2025-A-2f, Trainingsfläche mit 46 m Material als Kette aus Einzelwerten, Zielfunktion und Maximum).
+- Rotationsvolumen um die x-Achse ist seit 2024 C belegt (2024-C-2c, Football-Spielball). Damit hat jedes Thema der Themenliste eine Ankeraufgabe außer Erwartungswert. Die Wortsuche hatte die Normale auch für 2023 A angezeigt; dieses Heft ist noch nicht erfasst.
 - Erwartungswert kommt in keinem der 16 auf dem Bildungsserver liegenden Hefte 2019–2026 vor (Wortsuche). Das Thema steht in beiden Schwerpunktfassungen und bleibt in der Liste, ist aber als Prüfungsinhalt bisher unbelegt.
-- Mehrstufige Zufallsexperimente und Baumdiagramm und Pfadregeln bleiben getrennt. Arbeitsregel seit 2025 C: zweistufige Versuche mit Zurücklegen gehen nach Baumdiagramm und Pfadregeln (2026-C-3d, 2026-B-3c), Versuche mit drei oder mehr Stufen oder ohne Zurücklegen nach Mehrstufige Zufallsexperimente (2025-C-3c). Damit hat auch das zweite Thema eine Ankeraufgabe.
+- Mehrstufige Zufallsexperimente und Baumdiagramm und Pfadregeln bleiben getrennt. Arbeitsregel seit 2025 C: zweistufige Versuche mit Zurücklegen gehen nach Baumdiagramm und Pfadregeln (2026-C-3d, 2026-B-3c), Versuche mit drei oder mehr Stufen oder ohne Zurücklegen nach Mehrstufige Zufallsexperimente (2025-C-3c ohne Zurücklegen, 2025-A-3e dreistufig mit Zurücklegen). Damit hat auch das zweite Thema eine Ankeraufgabe.
 
 ## 7 Besonderheiten beim Erfassen
 
 - Drei Seitensorten je Heft. Die Aufgabe steht auf der Aufgabenseite, ergebnis und zwischenergebnis kommen aus dem Erwartungshorizont, die Punkteaufteilung aus dem Gutachtenbogen. Nichts aus Erwartungshorizont oder Gutachtenbogen gehört in gegeben oder gesucht.
 - punkte kommt aus der Punktetabelle am Ende der Aufgabe und bleibt ungeteilt. Die feinere Aufteilung steht in bemerkung, mit der Formulierung des Gutachtenbogens (Kern § 4).
-- Elementargeometrie als Werkzeug: Dreiecks-, Rechteck- und Körperflächen kommen in Analysis-Aufgaben vor, die Themenliste hat dafür keinen Eintrag. Solche Teilaufgaben werden beim nächstliegenden Thema geführt (2026-B-1h bei Anstieg und Tangente, weil das Dreieck von der Tangente eingeschlossen wird) und im Bericht gemeldet. Reine Umrechnungen über einen Maßstab gehen nach Grundlagen / Größen und Einheiten.
+- Elementargeometrie als Werkzeug: Dreiecks-, Rechteck- und Körperflächen kommen in Analysis-Aufgaben vor, die Themenliste hat dafür keinen Eintrag. Solche Teilaufgaben werden beim nächstliegenden Thema geführt (2026-B-1h bei Anstieg und Tangente, weil das Dreieck von der Tangente eingeschlossen wird; 2025-A-2d bei Extremwertaufgaben, weil die Rechteckfläche der erste Schritt einer Extremwertaufgabe ist) und im Bericht gemeldet. Reine Umrechnungen über einen Maßstab gehen nach Grundlagen / Größen und Einheiten.
 - Eine Teilaufgabe verlangt oft zwei oder drei Leistungen ohne eigene Buchstaben („Ermitteln Sie … und bestimmen Sie …", „Prüfen Sie, ob …"). Das bleibt eine Zeile: gesucht, ergebnis und format nennen alle Leistungen in ihrer Reihenfolge, typ ist die erste, typ_neben die weiteren.
 - Vorgegebene Zwischen- und Kontrollergebnisse: Nennt eine Teilaufgabe ein Ergebnis aus einem früheren Teil, steht der Wert in gegeben und die frühere Kennung trotzdem in abhaengig_von.
 - Der Funktionsterm steht im Stamm und gehört vollständig in gegeben jeder Zeile, die ihn braucht – sonst fällt die Zeile durch den Nachbau-Test.
 - Zu rendern sind alle Aufgabenseiten: Abbildungsauswahl (mehrere Graphen), vorgedruckte Wertetabellen und Preistabellen. Bei Widerspruch gilt das Bild.
 - Zeichnet der Prüfling das Material selbst (Koordinatensystem mit frei gewählter Achseneinteilung, Baumdiagramm, Diagramm), ist material „keins"; skizze beschreibt dann, was entstehen soll.
-- ergebnis trägt bei amtlicher Übernahme den Zusatz „amtlich". Weicht die eigene Rechnung ab, bleibt das amtliche Ergebnis in ergebnis und die Abweichung steht in bemerkung. Der Erwartungshorizont rechnet gelegentlich mit gerundeten Zwischenwerten weiter (2026-C-3b: amtlich 204 €, exakt 203,90 €).
+- ergebnis trägt bei amtlicher Übernahme den Zusatz „amtlich". Weicht die eigene Rechnung ab, bleibt das amtliche Ergebnis in ergebnis und die Abweichung steht in bemerkung. Der Erwartungshorizont rechnet gelegentlich mit gerundeten Zwischenwerten weiter (2026-C-3b: amtlich 204 €, exakt 203,90 €; 2024-C-1d: f''(2,77) amtlich 4,16, mit der ungerundeten Stelle 4,15).
 - Rundung zwei Dezimalstellen; „rund" oder „etwa" übernehmen, wo der Erwartungshorizont ≈ setzt.
 - Stochastik-Aufgaben mischen regelmäßig Prozentrechnung und Gleichungen hinein. Solche Teilaufgaben bekommen leitidee Grundlagen, nicht Stochastik.
 
