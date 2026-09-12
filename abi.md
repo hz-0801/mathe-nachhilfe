@@ -1,8 +1,8 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.3 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
-Änderungen gegenüber 0.2 (nach dem vollständigen Heft 2018-bb-ea): § 2 Begründung der
-einen Katalogdatei ausgetauscht, § 6 Lückenstand, § 7 Kettenstruktur richtiggestellt,
-skizze-Ausnahme als Regel formuliert, Nebentypen entschieden, § 9 gekürzt.
+Version 0.4 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.3 (nach dem Heft 2017-bb-ea): § 6 Lückenstand und drei neue
+Themenlücken, § 7 Grenze der Leitfassungsregel, § 9 Frage zu den eigenen Aufgaben der
+Berliner LK-Hefte.
 
 ## 1 Prüfung
 
@@ -180,8 +180,13 @@ Aufgabenstellung trägt: „Flächeninhalt und Volumen im Raum“ würde passen,
 aber unter Analytischer Geometrie. Bis zur Entscheidung wird das nächstliegende
 Thema gewählt und der Fall in bemerkung vermerkt. Erst nach mehreren Heften
 entscheiden, ob die Liste ergänzt oder die Regel gelockert wird.
-Stand nach dem vollständigen Heft 2018-bb-ea: keine weiteren Lücken; 23 der 46
-Themen sind belegt.
+Stand nach 2018-bb-ea und 2017-bb-ea: 29 der 46 Themen sind belegt. 2017 hat drei
+weitere Fälle derselben Art gebracht, jeweils in Analysisaufgaben: das Eintragen
+einer Zeichnung in ein vorgegebenes Koordinatensystem (2.2 c), die Umrechnung
+zwischen Modell- und Realmaßen bei Flächen und Volumina (2.1 e, 2.1 f, 2.2 f) und
+die Bestimmung eines Punktes in vorgegebener Entfernung auf einer Geraden (2.2 e),
+die rechnerisch elementargeometrisch ist. Verfahren wie bisher: nächstliegendes
+Thema wählen, Fall in bemerkung vermerken, Entscheidung nach mehreren Heften.
 
 ## 7 Besonderheiten beim Erfassen
 
@@ -190,7 +195,13 @@ Themen sind belegt.
   nichts veröffentlicht. Wortgleiche Zwillinge des anderen Landes werden nicht als
   Zeile erfasst, sondern in abi-pruefungen.md notiert. Eigene Zeile nur bei
   abweichender Teilung; Erkennungsregel ist der Vergleich der BE-Vektoren
-  (abi-aufbau.md § 4).
+  (abi-aufbau.md § 4). **Grenze der Regel** (Befund an 2017, abi-pruefungen.md
+  § 4): Die Berliner LK-Hefte sind keine Zwillinge, sondern Überschneidungen. 2017
+  stehen drei der sechs Wahlaufgaben wortgleich in beiden Heften, drei weitere gibt
+  es nur in Berlin (Verbindungsbrücke, Solarmodule, Autopanne, zusammen 100 BE) und
+  drei nur in Brandenburg; 2018 ist es dasselbe Bild mit je zwei eigenen Aufgaben.
+  Die Leitfassungsregel deckt also nicht das ganze Aufgabenwerk ab. Ob die eigenen
+  Berliner Aufgaben nachträglich erfasst werden, ist offen (§ 9).
 - **CAS als Nachtrag**, und nur für Aufgaben mit „CAS:"-Präfix. Der Eingriff ist
   punktuell und sitzt in `gegeben`, `gesucht`, `punkte` und teils `verfahren`;
   typisch wird ein im WTR-Heft vorgegebener Kontrollwert in der CAS-Fassung selbst
@@ -339,6 +350,9 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
 - Werden die Themenlücken aus § 6 durch neue Themen geschlossen oder durch eine
   Lockerung der Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt?
 - Existiert in Brandenburg eine eigene Prüfung auf grundlegendem Niveau?
+- Werden die Aufgaben nacherfasst, die nur in den Berliner LK-Heften stehen? Sie
+  gehören zum selben Aufgabenwerk und brächten je Jahrgang rund 100 BE zusätzliche
+  Typenquelle; erfasst würden nur die dort eigenen Aufgaben.
 - Auf welcher Vereinbarung beruht das gemeinsame Aufgabenwerk, und welche Länder
   gehören dazu?
 - Ab wann genau gilt in Berlin Teil A/Teil B, und seit wann in Brandenburg? Belegt
