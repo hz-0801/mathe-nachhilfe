@@ -1,0 +1,1690 @@
+{
+ "2017-bb-ea-cas": [
+  {
+   "nr": "1",
+   "titel": "hilfsmittelfreier Teil",
+   "be": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    3
+   ],
+   "summe": 15,
+   "buchstaben": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "CAS: Eisbecher",
+   "be": [
+    7,
+    7,
+    13,
+    4,
+    6,
+    6,
+    7
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "CAS: Straßenverlauf",
+   "be": [
+    6,
+    9,
+    9,
+    5,
+    6,
+    10,
+    5
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "CAS: Zelt",
+   "be": [
+    5,
+    4,
+    4,
+    3,
+    4,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Gartenpavillon",
+   "be": [
+    3,
+    2,
+    3,
+    2
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.1",
+   "titel": "Vereinsjubiläum",
+   "be": [
+    2,
+    4,
+    4
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.2",
+   "titel": "CAS: Freizeit",
+   "be": [
+    8,
+    4,
+    5,
+    4,
+    4
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2017-bb-ea": [
+  {
+   "nr": "1",
+   "titel": "hilfsmittelfreier Teil",
+   "be": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    3
+   ],
+   "summe": 15,
+   "buchstaben": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "Eisbecher",
+   "be": [
+    8,
+    8,
+    14,
+    4,
+    9,
+    7
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "Straßenverlauf",
+   "be": [
+    6,
+    10,
+    9,
+    6,
+    10,
+    9
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "Zelt",
+   "be": [
+    5,
+    4,
+    5,
+    3,
+    3,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Gartenpavillon",
+   "be": [
+    3,
+    2,
+    3,
+    2
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.1",
+   "titel": "Vereinsjubiläum",
+   "be": [
+    2,
+    4,
+    4
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.2",
+   "titel": "Freizeit",
+   "be": [
+    8,
+    4,
+    5,
+    4,
+    4
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2017-be-gk-cas": [
+  {
+   "nr": "1.1",
+   "titel": "CAS: Holzeisenbahn",
+   "be": [
+    8,
+    4,
+    5,
+    5,
+    10,
+    8
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "CAS: Dachformen",
+   "be": [
+    5,
+    9,
+    5,
+    3,
+    7,
+    4,
+    7
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "CAS: Startbahn Ost",
+   "be": [
+    7,
+    5,
+    4,
+    4
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "CAS: Schokotrüffel",
+   "be": [
+    2,
+    4,
+    6,
+    3,
+    5
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "CAS: Smartphone",
+   "be": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    4,
+    4
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "CAS: Zufallsexperimente",
+   "be": [
+    5,
+    3,
+    4,
+    4,
+    4
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2017-be-gk": [
+  {
+   "nr": "1.1",
+   "titel": "Holzeisenbahn",
+   "be": [
+    9,
+    6,
+    6,
+    5,
+    5,
+    9
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "Dachformen",
+   "be": [
+    11,
+    3,
+    5,
+    5,
+    9,
+    7
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "Startbahn Ost",
+   "be": [
+    7,
+    5,
+    4,
+    4
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "Schokotrüffel",
+   "be": [
+    2,
+    4,
+    5,
+    4,
+    5
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "Smartphone",
+   "be": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    4,
+    4
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Zufallsexperimente",
+   "be": [
+    5,
+    3,
+    5,
+    3,
+    4
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2017-be-lk-cas": [
+  {
+   "nr": "1.1",
+   "titel": "CAS: Verbindungsbrücke",
+   "be": [
+    13,
+    5,
+    7,
+    8,
+    6,
+    3,
+    8
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "CAS: Straßenverlauf",
+   "be": [
+    6,
+    9,
+    9,
+    5,
+    6,
+    10,
+    5
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "CAS: Solarmodule",
+   "be": [
+    6,
+    3,
+    4,
+    5,
+    4,
+    3
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "CAS: Zelt",
+   "be": [
+    5,
+    4,
+    4,
+    3,
+    4,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "CAS: Autopanne",
+   "be": [
+    3,
+    9,
+    5,
+    3,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "CAS: Freizeit",
+   "be": [
+    8,
+    4,
+    5,
+    4,
+    4
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2017-be-lk": [
+  {
+   "nr": "1.1",
+   "titel": "Verbindungsbrücke",
+   "be": [
+    12,
+    6,
+    9,
+    8,
+    6,
+    9
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "Straßenverlauf",
+   "be": [
+    6,
+    10,
+    9,
+    6,
+    10,
+    9
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "Solarmodule",
+   "be": [
+    6,
+    4,
+    3,
+    5,
+    4,
+    3
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "Zelt",
+   "be": [
+    5,
+    4,
+    5,
+    3,
+    3,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "Autopanne",
+   "be": [
+    3,
+    10,
+    4,
+    3,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Freizeit",
+   "be": [
+    8,
+    4,
+    5,
+    4,
+    4
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2018-bb-ea-cas": [
+  {
+   "nr": "1",
+   "titel": "hilfsmittelfreier Teil",
+   "be": [
+    2,
+    3,
+    2,
+    3,
+    3,
+    2
+   ],
+   "summe": 15,
+   "buchstaben": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "CAS: Vase",
+   "be": [
+    8,
+    3,
+    3,
+    5,
+    7,
+    5,
+    5,
+    5,
+    2,
+    7
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "CAS: Gartenteich",
+   "be": [
+    6,
+    5,
+    2,
+    6,
+    8,
+    9,
+    3,
+    6,
+    5
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "CAS: Museum",
+   "be": [
+    4,
+    3,
+    5,
+    4,
+    3,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Quadrat",
+   "be": [
+    2,
+    6,
+    2
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.1",
+   "titel": "Medinet",
+   "be": [
+    3,
+    2,
+    2,
+    3
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.2",
+   "titel": "CAS: Brillenträger",
+   "be": [
+    5,
+    4,
+    5,
+    5,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2018-bb-ea": [
+  {
+   "nr": "1",
+   "titel": "hilfsmittelfreier Teil",
+   "be": [
+    2,
+    3,
+    2,
+    3,
+    3,
+    2
+   ],
+   "summe": 15,
+   "buchstaben": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "Vase",
+   "be": [
+    8,
+    3,
+    4,
+    5,
+    8,
+    6,
+    7,
+    2,
+    7
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "Gartenteich",
+   "be": [
+    6,
+    7,
+    2,
+    6,
+    9,
+    9,
+    5,
+    6
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "Museum",
+   "be": [
+    4,
+    3,
+    5,
+    4,
+    3,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Quadrat",
+   "be": [
+    2,
+    6,
+    2
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.1",
+   "titel": "Medinet",
+   "be": [
+    3,
+    2,
+    2,
+    3
+   ],
+   "summe": 10,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "4.2",
+   "titel": "Brillenträger",
+   "be": [
+    5,
+    4,
+    5,
+    5,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2018-be-gk-cas": [
+  {
+   "nr": "1.1",
+   "titel": "CAS: Skisprunganlage",
+   "be": [
+    3,
+    4,
+    7,
+    3,
+    4,
+    11,
+    8
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "CAS: Höhenprofil",
+   "be": [
+    4,
+    6,
+    4,
+    4,
+    4,
+    4,
+    5,
+    9
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "CAS: Brücke",
+   "be": [
+    4,
+    3,
+    6,
+    2,
+    5
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "CAS: Kletteranlage",
+   "be": [
+    3,
+    3,
+    3,
+    6,
+    5
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "CAS: Gewinnspiel",
+   "be": [
+    2,
+    5,
+    5,
+    2,
+    6
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "CAS: Bildschirme",
+   "be": [
+    4,
+    2,
+    3,
+    4,
+    3,
+    2,
+    2
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2018-be-gk": [
+  {
+   "nr": "1.1",
+   "titel": "Skisprunganlage",
+   "be": [
+    3,
+    5,
+    6,
+    4,
+    6,
+    10,
+    6
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "Höhenprofil",
+   "be": [
+    2,
+    7,
+    9,
+    4,
+    4,
+    5,
+    9
+   ],
+   "summe": 40,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "Brücke",
+   "be": [
+    4,
+    3,
+    6,
+    2,
+    5
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "Kletteranlage",
+   "be": [
+    3,
+    3,
+    3,
+    6,
+    5
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "Gewinnspiel",
+   "be": [
+    2,
+    5,
+    5,
+    2,
+    6
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Bildschirme",
+   "be": [
+    4,
+    2,
+    3,
+    4,
+    3,
+    2,
+    2
+   ],
+   "summe": 20,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2018-be-lk-cas": [
+  {
+   "nr": "1.1",
+   "titel": "CAS: Vase",
+   "be": [
+    8,
+    3,
+    3,
+    5,
+    7,
+    5,
+    5,
+    5,
+    2,
+    7
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "CAS: Gartenteich",
+   "be": [
+    6,
+    5,
+    2,
+    6,
+    8,
+    9,
+    3,
+    6,
+    5
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "CAS: Museum",
+   "be": [
+    4,
+    3,
+    5,
+    4,
+    3,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "CAS: Quader",
+   "be": [
+    3,
+    3,
+    3,
+    3,
+    5,
+    4,
+    4
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "CAS: Smartphone",
+   "be": [
+    6,
+    5,
+    5,
+    4,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "CAS: Brillenträger",
+   "be": [
+    4,
+    5,
+    5,
+    2,
+    3,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  }
+ ],
+ "2018-be-lk": [
+  {
+   "nr": "1.1",
+   "titel": "Vase",
+   "be": [
+    8,
+    3,
+    4,
+    5,
+    8,
+    6,
+    7,
+    2,
+    7
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "1.2",
+   "titel": "Gartenteich",
+   "be": [
+    6,
+    7,
+    2,
+    6,
+    9,
+    9,
+    5,
+    6
+   ],
+   "summe": 50,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.1",
+   "titel": "Museum",
+   "be": [
+    4,
+    3,
+    5,
+    4,
+    3,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "2.2",
+   "titel": "Quader",
+   "be": [
+    3,
+    3,
+    5,
+    3,
+    5,
+    4,
+    2
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.1",
+   "titel": "Smartphone",
+   "be": [
+    6,
+    5,
+    5,
+    4,
+    5
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "assert_summe": true
+  },
+  {
+   "nr": "3.2",
+   "titel": "Brillenträger",
+   "be": [
+    4,
+    5,
+    5,
+    2,
+    3,
+    6
+   ],
+   "summe": 25,
+   "buchstaben": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "assert_summe": true
+  }
+ ]
+}
