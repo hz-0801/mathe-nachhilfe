@@ -149,6 +149,358 @@ def row(**kw):
 #       niveau_geschaetzt="II", fehlerquelle="...", bemerkung="Eigene Rechnung.")
 
 
+row(id="2018-bb-ea-A1.2a", block="A", aufgabe="1.2", titel="Analytische Geometrie",
+teilaufgabe="a",
+    seite="2", punkte="2",
+    leitidee="Analytische Geometrie", thema="Ebenen",
+    typ="Trägerebene über Normalenvektor begründen",
+    typ_neben="",
+    stichwoerter="Quadrat|Normalenvektor|y-z-Ebene|Trägerebene",
+    voraussetzungen="Richtungsvektor einer Geraden ablesen|Koordinatenebenen durch ihre "
+                    "Gleichung kennen",
+    format="Begründung", operator="Begründen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Der Punkt P(0 | 1 | 5) ist Eckpunkt eines Quadrates. Orthogonal zu der Ebene, in "
+            "der dieses Quadrat liegt, verläuft die Gerade g mit x = (5 | 4 | 1) + t · (1 | 0 | "
+            "0), t ∈ IR.",
+    gesucht="Begründung, dass das Quadrat in der y-z-Ebene liegt",
+    verfahren="Der Richtungsvektor von g ist Normalenvektor der Trägerebene. Da er der "
+              "Einheitsvektor in x-Richtung ist, hat die Ebene eine Gleichung der Form x = c; "
+              "aus der x-Koordinate 0 von P folgt c = 0, also die y-z-Ebene.",
+    schritte="2", zahlenraum="ganz", einheiten="",
+    abhaengig_von="",
+    ergebnis="Der Richtungsvektor (1 | 0 | 0) von g ist Normalenvektor der Trägerebene; diese "
+             "ist damit orthogonal zur x-Achse und hat die Gleichung x = c. Wegen P(0 | 1 | 5) "
+             "ist c = 0, das ist die y-z-Ebene.",
+    zwischenergebnis="",
+    niveau_geschaetzt="II",
+    fehlerquelle="den Richtungsvektor von g als Richtungsvektor der Ebene statt als "
+                 "Normalenvektor deuten",
+    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Geometrie, a) 2 "
+              "BE); an der Aufgabe selbst steht keine Punktangabe. Eigene Rechnung.")
+
+row(id="2018-bb-ea-A1.2b", block="A", aufgabe="1.2", titel="Analytische Geometrie",
+teilaufgabe="b",
+    seite="2", punkte="3",
+    leitidee="Analytische Geometrie", thema="Orthogonalität",
+    typ="Eckpunkt eines Quadrates nachweisen",
+    typ_neben="Durchstoßpunkt einer Geraden durch eine Ebene bestimmen|Streckenlänge im Raum "
+              "berechnen",
+    stichwoerter="Quadrat|Diagonalenschnittpunkt|Halbdiagonalen|Skalarprodukt",
+    voraussetzungen="Vektorlänge berechnen|Skalarprodukt bilden|Eigenschaften der "
+                    "Quadratdiagonalen kennen",
+    format="Begründung", operator="Zeigen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Quadrat mit Eckpunkt P(0 | 1 | 5) in der y-z-Ebene; die Gerade g mit x = (5 | 4 | "
+            "1) + t · (1 | 0 | 0) verläuft orthogonal zur Trägerebene. Der Schnittpunkt der "
+            "beiden Diagonalen des Quadrates liegt auf g. Der Punkt Q(0 | 8 | 4) liegt in der "
+            "y-z-Ebene.",
+    gesucht="Nachweis, dass Q einer der beiden zu P benachbarten Eckpunkte des Quadrates ist",
+    verfahren="Diagonalenschnittpunkt M als Schnittpunkt von g mit der y-z-Ebene bestimmen "
+              "(x-Koordinate 0 setzen). Dann die Halbdiagonalen MP und MQ vergleichen: gleiche "
+              "Länge zeigt, dass Q Eckpunkt ist, Skalarprodukt 0 zeigt, dass Q nicht der zu P "
+              "gegenüberliegende, sondern ein benachbarter Eckpunkt ist.",
+    schritte="4", zahlenraum="ganz", einheiten="",
+    abhaengig_von="2018-bb-ea-A1.2a",
+    ergebnis="M(0 | 4 | 1). Mit MP = (0 | −3 | 4) und MQ = (0 | 4 | 3) ist |MP| = |MQ| = 5 und "
+             "MP · MQ = −12 + 12 = 0. Im Quadrat sind die vier Halbdiagonalen gleich lang und "
+             "die Diagonalen orthogonal, also ist Q ein zu P benachbarter Eckpunkt.",
+    zwischenergebnis="M(0 | 4 | 1)|MP = (0 | −3 | 4)|MQ = (0 | 4 | 3)|Seitenlänge |PQ| = 5·√2",
+    niveau_geschaetzt="II",
+    fehlerquelle="gleiche Länge der Halbdiagonalen allein als Nachweis nehmen und den "
+                 "gegenüberliegenden Eckpunkt nicht ausschließen",
+    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Geometrie, b) 3 "
+              "BE). Eigene Rechnung.")
+
+row(id="2018-bb-ea-B2.1a", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="a",
+    seite="5", punkte="8",
+    leitidee="Analysis", thema="Funktionsscharen und Ortskurven",
+    typ="Nullstellen einer Funktionenschar mit Fallunterscheidung ermitteln",
+    typ_neben="Grenzverhalten einer Exponentialfunktion untersuchen",
+    stichwoerter="Funktionenschar|Nullstellen|Fallunterscheidung|Grenzwert",
+    voraussetzungen="Satz vom Nullprodukt|quadratische Gleichung lösen|Vorzeichen der "
+                    "Exponentialfunktion kennen",
+    format="Rechnung|Begründung", operator="Ermitteln Sie|Untersuchen Sie", antwort="Term|Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Funktionenschar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR; die Graphen der "
+            "Schar sind G_a.",
+    gesucht="Anzahl der Nullstellen von f_a in Abhängigkeit von a; Verhalten der Funktionswerte "
+            "für x → ∞ und für x → −∞",
+    verfahren="Der Faktor e^(0,5 − x) ist stets positiv, also nur x² + a = 0 lösen: x² = −a mit "
+              "Fallunterscheidung a < 0, a = 0, a > 0. Für x → ∞ dominiert der fallende "
+              "Exponentialfaktor, für x → −∞ wachsen beide Faktoren unbeschränkt.",
+    schritte="5", zahlenraum="ganz|Wurzel|Potenz", einheiten="",
+    abhaengig_von="",
+    ergebnis="a < 0: zwei Nullstellen x = ±√(−a); a = 0: eine Nullstelle x = 0; a > 0: keine "
+             "Nullstelle. Für x → ∞ gilt f_a(x) → 0, für x → −∞ gilt f_a(x) → +∞.",
+    zwischenergebnis="",
+    niveau_geschaetzt="II",
+    fehlerquelle="den Exponentialfaktor als möglichen Nullfaktor behandeln oder die "
+                 "Fallunterscheidung auf a < 0 und a > 0 verkürzen",
+    bemerkung="Zwei Themen in einer Einheit: Nullstellen der Schar und Grenzverhalten. Das Feld "
+              "thema ist einwertig, das zweite Thema (Grenzwerte und Verhalten im Unendlichen) "
+              "erscheint nur über typ_neben. Eigene Rechnung.")
+
+row(id="2018-bb-ea-B2.1b", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="b",
+    seite="5|6", punkte="3",
+    leitidee="Analysis", thema="Funktionsscharen und Ortskurven",
+    typ="Schnittpunkt mit der y-Achse angeben",
+    typ_neben="Parameterwert aus dem Graphen einer Schar ermitteln|Graphen einer Schar "
+              "beschriften",
+    stichwoerter="y-Achsenschnittpunkt|Parameterwert|Graphenzuordnung|Hochpunkt",
+    voraussetzungen="Funktionswert an der Stelle 0 berechnen|Graphen einer Schar an Merkmalen "
+                    "unterscheiden",
+    format="Kurzantwort|Rechnung|Eintragen", operator="Geben Sie an|Ermitteln Sie|Beschriften Sie",
+    antwort="Term|Grafik",
+    material="Koordinatensystem",
+    skizze="Abbildung 1 (Anlage, PDF-Seite 6): Koordinatensystem mit feinem Gitter, x-Achse von "
+           "etwa −0,5 bis 7,5 mit Teilstrichen 0 bis 7, y-Achse mit Teilstrichen 1, 2, 3 und "
+           "darüber hinausreichend. Zwei unbeschriftete Graphen der Schar. Der erste kommt von "
+           "links oben steil fallend, schneidet die y-Achse bei etwa 3,3 und fällt monoton gegen "
+           "0. Der zweite beginnt im Ursprung, steigt bis zu einem Hochpunkt bei x = 2 mit y ≈ "
+           "0,89 und fällt dann ebenfalls gegen 0. Beide nähern sich rechts der x-Achse. Die "
+           "Beschriftung der Graphen ist Teil der Aufgabe.",
+    kontext="ohne", textumfang="mittel",
+    gegeben="Funktionenschar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR; die Graphen der "
+            "Schar sind G_a. In Abbildung 1 sind für ganzzahlige Parameterwerte a zwei Graphen "
+            "der Schar dargestellt.",
+    gesucht="Schnittpunkt von G_a mit der y-Achse; die beiden Parameterwerte der dargestellten "
+            "Graphen; Beschriftung der Graphen",
+    verfahren="f_a(0) einsetzen ergibt den y-Achsenschnittpunkt in Abhängigkeit von a. Für die "
+              "Zuordnung den y-Achsenschnittpunkt des ersten Graphen mit a · √e vergleichen und "
+              "den zweiten Graphen am Ursprung als Nullstelle erkennen.",
+    schritte="3", zahlenraum="ganz|dezimal|Potenz", einheiten="",
+    abhaengig_von="",
+    ergebnis="S(0 | a · √e). Dargestellt sind die Graphen zu a = 2 (y-Achsenschnitt 2 · √e ≈ "
+             "3,30) und a = 0 (Graph durch den Ursprung mit Hochpunkt bei x = 2, f_0(2) = 4 · "
+             "e^(−1,5) ≈ 0,89).",
+    zwischenergebnis="f_a(0) = a · e^0,5|f_2(0) ≈ 3,297|f_0(2) ≈ 0,893",
+    niveau_geschaetzt="II",
+    fehlerquelle="die Parameterwerte aus der Höhe der Hochpunkte statt aus dem y-Achsenschnitt "
+                 "ablesen",
+    bemerkung="Drei Leistungen in einer Einheit mit nur 3 BE. Abbildung 1 steht in der Anlage "
+              "auf PDF-Seite 6, die Aufgabenstellung auf Seite 5. Eigene Rechnung.")
+
+row(id="2018-bb-ea-B2.1c", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="c",
+    seite="5", punkte="4",
+    leitidee="Analysis", thema="Flächeninhalt durch Integration",
+    typ="Fläche zwischen zwei Graphen berechnen",
+    typ_neben="",
+    stichwoerter="Flächeninhalt|Differenzfunktion|Integral|Randgeraden",
+    voraussetzungen="Stammfunktion der Exponentialfunktion bilden|bestimmtes Integral auswerten",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Funktionenschar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR; die Graphen der "
+            "Schar sind G_a. Die Graphen G_2 und G_0, die y-Achse und die Gerade mit der "
+            "Gleichung x = 3 schließen eine Fläche ein.",
+    gesucht="Inhalt A der eingeschlossenen Fläche",
+    verfahren="Differenzfunktion f_2 − f_0 = 2 · e^(0,5 − x) bilden und über dem Intervall [0; "
+              "3] integrieren; da G_2 dort vollständig oberhalb von G_0 liegt, ist kein "
+              "Vorzeichenwechsel zu beachten.",
+    schritte="3", zahlenraum="dezimal|Potenz", einheiten="",
+    abhaengig_von="",
+    ergebnis="A = 2 · (e^0,5 − e^(−2,5)) ≈ 3,13 (FE)",
+    zwischenergebnis="f_2(x) − f_0(x) = 2 · e^(0,5 − x)|Stammfunktion −2 · e^(0,5 − x)",
+    niveau_geschaetzt="II",
+    fehlerquelle="beide Funktionen einzeln integrieren und die Differenz der Beträge bilden, "
+                 "oder das Vorzeichen der inneren Ableitung bei der Stammfunktion vergessen",
+    bemerkung="Eigene Rechnung, sympy-Kontrolle 3,1332725.")
+
+row(id="2018-bb-ea-B2.1d", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="d",
+    seite="5", punkte="5",
+    leitidee="Analysis", thema="Kurvenuntersuchung",
+    typ="Fehlen von Extrempunkten einer Schar über die Diskriminante nachweisen",
+    typ_neben="Ableitung mit Produkt- und Kettenregel bilden",
+    stichwoerter="Extrempunkt|Funktionenschar|Diskriminante|notwendige Bedingung",
+    voraussetzungen="Produkt- und Kettenregel anwenden|quadratische Gleichung mit Parameter "
+                    "diskutieren",
+    format="Rechnung|Begründung", operator="Weisen Sie nach", antwort="Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Funktionenschar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR; die Graphen der "
+            "Schar sind G_a. Betrachtet wird der Fall a > 1. Zur Kontrolle ist angegeben: "
+            "f_a′(x) = (−x² + 2x − a) · e^(0,5 − x).",
+    gesucht="Nachweis, dass die Graphen G_a für a > 1 keine Extrempunkte besitzen",
+    verfahren="f_a′(x) = 0 setzen; wegen e^(0,5 − x) > 0 bleibt x² − 2x + a = 0 mit x = 1 ± √(1 "
+              "− a). Für a > 1 ist der Radikand negativ, es gibt keine reelle Lösung, also keine "
+              "Stelle mit waagerechter Tangente und damit keinen Extrempunkt.",
+    schritte="4", zahlenraum="ganz|Wurzel|Potenz", einheiten="",
+    abhaengig_von="",
+    ergebnis="Aus f_a′(x) = 0 folgt x² − 2x + a = 0, also x = 1 ± √(1 − a). Für a > 1 ist 1 − a "
+             "< 0; die Gleichung hat keine reelle Lösung. Da die notwendige Bedingung nirgends "
+             "erfüllt ist, besitzt G_a keine Extrempunkte.",
+    zwischenergebnis="",
+    niveau_geschaetzt="II",
+    fehlerquelle="die Existenz der Nullstellen der Ableitung nicht über das Vorzeichen des "
+                 "Radikanden begründen, sondern nur Beispiele einsetzen",
+    bemerkung="Die Kontrollangabe des Hefts steht in gegeben und ist durch eigene Rechnung "
+              "bestätigt (f_a′ = (−x² + 2x − a) · e^(0,5 − x)). Eigene Rechnung.")
+
+row(id="2018-bb-ea-B2.1e", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="e",
+    seite="5", punkte="8",
+    leitidee="Analysis", thema="Ableitungsregeln",
+    typ="Zweite Ableitung nachweisen",
+    typ_neben="Krümmungsverhalten aus der zweiten Ableitung deuten",
+    stichwoerter="zweite Ableitung|Produktregel|Krümmung|Flachpunkt",
+    voraussetzungen="Produkt- und Kettenregel zweimal anwenden|Terme zusammenfassen|Vorzeichen "
+                    "eines Produkts beurteilen",
+    format="Rechnung|Begründung", operator="Weisen Sie nach|Erläutern Sie", antwort="Term|Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Die Funktion f_2 mit f_2(x) = (x² + 2) · e^(0,5 − x) aus der Schar f_a; ihre erste "
+            "Ableitung ist f_2′(x) = (−x² + 2x − 2) · e^(0,5 − x).",
+    gesucht="Nachweis von f_2″(x) = (x − 2)² · e^(0,5 − x); Schlussfolgerungen über den Verlauf "
+            "von G_2",
+    verfahren="f_2′ nochmals mit Produkt- und Kettenregel ableiten und den Term als "
+              "vollständiges Quadrat zusammenfassen. Dann das Vorzeichen beurteilen: Quadrat und "
+              "Exponentialfaktor sind nicht negativ, die Nullstelle bei x = 2 ist doppelt, also "
+              "ohne Vorzeichenwechsel.",
+    schritte="4", zahlenraum="ganz|Potenz", einheiten="",
+    abhaengig_von="2018-bb-ea-B2.1d",
+    ergebnis="f_2″(x) = (x − 2)² · e^(0,5 − x). Da (x − 2)² ≥ 0 und e^(0,5 − x) > 0 ist, gilt "
+             "f_2″(x) ≥ 0 für alle x, mit Gleichheit nur bei x = 2 und ohne Vorzeichenwechsel. "
+             "G_2 ist also auf ganz IR linksgekrümmt, besitzt keinen Wendepunkt und hat bei x = "
+             "2 einen Flachpunkt.",
+    zwischenergebnis="",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Nullstelle von f_2″ bei x = 2 als Wendestelle deuten, ohne den "
+                 "Vorzeichenwechsel zu prüfen",
+    bemerkung="Zweite Leistung ist eine Deutung ohne Rechnung; die 8 BE liegen überwiegend dort. "
+              "Eigene Rechnung, sympy-Kontrolle bestätigt den Term.")
+
+row(id="2018-bb-ea-B2.1f", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="f",
+    seite="5", punkte="6",
+    leitidee="Analysis", thema="Tangente, Normale, Schnittwinkel",
+    typ="Tangentengleichung an einer Stelle ermitteln",
+    typ_neben="Relative Abweichung zweier Funktionswerte prüfen",
+    stichwoerter="Tangente|Linearisierung|relative Abweichung|Prozent",
+    voraussetzungen="Ableitung als Steigung nutzen|Punkt-Steigungs-Form|relativen Anteil "
+                    "berechnen",
+    format="Rechnung", operator="Ermitteln Sie|Zeigen Sie", antwort="Term|Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
+    gegeben="Die Funktion f_2 mit f_2(x) = (x² + 2) · e^(0,5 − x); G_2 verläuft im Intervall [1; "
+            "3] annähernd geradlinig und wird vereinfacht durch die Tangente t in x = 2 "
+            "dargestellt. Zur Kontrolle ist angegeben: t(x) = −2 · e^(−1,5) · x + 10 · e^(−1,5).",
+    gesucht="Gleichung der Tangente t; Nachweis, dass t(1) um weniger als 2 % von f_2(1) abweicht",
+    verfahren="f_2(2) und f_2′(2) berechnen und in die Punkt-Steigungs-Form einsetzen. Dann t(1) "
+              "und f_2(1) bestimmen und die Differenz auf f_2(1) beziehen.",
+    schritte="5", zahlenraum="dezimal|Prozent|Potenz", einheiten="",
+    abhaengig_von="2018-bb-ea-B2.1d",
+    ergebnis="t(x) = −2 · e^(−1,5) · x + 10 · e^(−1,5). Mit t(1) = 8 · e^(−1,5) ≈ 1,785 und "
+             "f_2(1) = 3 · e^(−0,5) ≈ 1,820 beträgt die relative Abweichung rund 1,90 % und "
+             "liegt damit unter 2 %.",
+    zwischenergebnis="f_2(2) = 6 · e^(−1,5)|f_2′(2) = −2 · e^(−1,5)|Differenz ≈ 0,0346",
+    niveau_geschaetzt="II",
+    fehlerquelle="die Abweichung auf den Tangentenwert statt auf den Funktionswert beziehen oder "
+                 "absolut statt relativ vergleichen",
+    bemerkung="Die Kontrollangabe des Hefts steht in gegeben und ist durch eigene Rechnung "
+              "bestätigt. sympy-Kontrolle: 1,89882 %. Der Nebentyp gehört thematisch zur "
+              "Prozentrechnung; die Themenliste des Profils führt dafür kein Analysis-Thema.")
+
+row(id="2018-bb-ea-B2.1g", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="g",
+    seite="5|6", punkte="7",
+    leitidee="Analysis", thema="Kurvenuntersuchung",
+    typ="Stellen mit maximalem Funktionswert einschließlich Rand bestimmen",
+    typ_neben="",
+    stichwoerter="Randextremum|lokales Maximum|Rotationskörper|Radius",
+    voraussetzungen="notwendige und hinreichende Bedingung anwenden|Randwerte eines Intervalls "
+                    "prüfen|Funktionswert als Größe im Sachkontext deuten",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="Koordinatensystem",
+    skizze="Abbildung 2 (Anlage, PDF-Seite 6): Koordinatensystem, x-Achse mit Teilstrichen 1, 2, "
+           "3, y-Achse mit Teilstrich 1. Der mit G_0,65 beschriftete Graph beginnt auf der "
+           "y-Achse bei etwa 1,07, fällt leicht bis etwa x = 0,4, steigt zu einem flachen "
+           "Hochpunkt bei etwa x = 1,6 und fällt dann bis x = 3 auf etwa 0,79. Die Fläche "
+           "zwischen Graph und x-Achse über [0; 3] ist grau ausgefüllt und rechts durch eine "
+           "senkrechte Strecke bei x = 3 begrenzt.",
+    kontext="Vase / Rotationskörper", textumfang="mittel",
+    gegeben="Die Funktion f_0,65 mit f_0,65(x) = (x² + 0,65) · e^(0,5 − x) aus der Schar; ihr "
+            "Graph schließt über [0; 3] mit der x-Achse eine Fläche ein (Abbildung 2). Durch "
+            "Rotation dieser Fläche um die x-Achse entsteht ein Körper, der modellhaft einer "
+            "liegenden, nach links geöffneten Vase entspricht; 1 LE = 1 dm. Die Vase nimmt an "
+            "zwei verschiedenen Stellen einen maximalen Radius von ca. 1,07 dm an.",
+    gesucht="die beiden Stellen, an denen der Radius maximal ist",
+    verfahren="Der Radius an der Stelle x ist f_0,65(x). Nullstellen der Ableitung bestimmen: x² "
+              "− 2x + 0,65 = 0 liefert x = 1 ± √0,35, davon ist x ≈ 0,41 ein lokales Minimum und "
+              "x ≈ 1,59 ein lokales Maximum. Zusätzlich die Randwerte bei x = 0 und x = 3 "
+              "vergleichen; der linke Rand liefert denselben Radius wie das lokale Maximum.",
+    schritte="5", zahlenraum="dezimal|Wurzel|Potenz", einheiten="dm",
+    abhaengig_von="2018-bb-ea-B2.1d",
+    ergebnis="Die beiden Stellen sind x₁ = 0 mit f_0,65(0) = 0,65 · √e ≈ 1,072 dm (Randstelle) "
+             "und x₂ = 1 + √0,35 ≈ 1,592 mit f_0,65(x₂) ≈ 1,069 dm (lokales Maximum).",
+    zwischenergebnis="x = 1 ± √0,35, also 0,408 und 1,592|f_0,65(0,408) ≈ 0,895 (lokales "
+                     "Minimum)|f_0,65(3) ≈ 0,792",
+    niveau_geschaetzt="III",
+    fehlerquelle="nur die Nullstellen der Ableitung untersuchen und die Randstelle x = 0 "
+                 "übersehen",
+    bemerkung="Die Formulierung „ca. 1,07“ verdeckt, dass die beiden Radien nicht gleich sind "
+              "(1,0717 gegen 1,0685); ohne den Randwertvergleich ist die Aufgabe nicht lösbar. "
+              "Eigene Rechnung, sympy-Kontrolle.")
+
+row(id="2018-bb-ea-B2.1h", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="h",
+    seite="5", punkte="2",
+    leitidee="Analysis", thema="Rotationsvolumen",
+    typ="Integralfunktion im Sachzusammenhang deuten",
+    typ_neben="",
+    stichwoerter="Rotationsvolumen|variable Integrationsgrenze|Füllhöhe|Sachbezug",
+    voraussetzungen="Formel für das Rotationsvolumen kennen|variable Grenze als Parameter deuten",
+    format="Kurzantwort", operator="Interpretieren Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="Vase / Rotationskörper", textumfang="kurz",
+    gegeben="Die Vase entsteht durch Rotation der Fläche unter G_0,65 über [0; 3] um die "
+            "x-Achse, 1 LE = 1 dm; die Öffnung liegt bei x = 0, der Boden bei x = 3. Gegeben ist "
+            "die Funktion b(t) = π · ∫ von 3 − t bis 3 über (f_0,65(x))² dx.",
+    gesucht="Deutung von b(t) im Sachzusammenhang",
+    verfahren="Die Integralformel als Rotationsvolumen erkennen; die untere Grenze 3 − t zeigt, "
+              "dass vom Boden aus ein Stück der Länge t erfasst wird.",
+    schritte="0", zahlenraum="dezimal", einheiten="dm|dm³",
+    abhaengig_von="2018-bb-ea-B2.1g",
+    ergebnis="b(t) ist das Volumen des Vasenteils in dm³ (Liter), das vom Boden bei x = 3 aus "
+             "bis zur Höhe t reicht, also die Füllmenge der stehenden Vase bei einer Füllhöhe "
+             "von t dm (0 ≤ t ≤ 3); b(3) ≈ 8,98 dm³ ist der gesamte Rauminhalt.",
+    zwischenergebnis="",
+    niveau_geschaetzt="III",
+    fehlerquelle="t als Stelle auf der x-Achse statt als Füllhöhe ab dem Boden deuten und die "
+                 "Integrationsrichtung umkehren",
+    bemerkung="schritte = 0, weil nichts zu rechnen ist; das Feld trägt bei reinen "
+              "Deutungsaufgaben keine Information. Eigene Rechnung für b(3).")
+
+row(id="2018-bb-ea-B2.1i", block="B", aufgabe="2.1", titel="Vase", teilaufgabe="i",
+    seite="6", punkte="7",
+    leitidee="Analysis", thema="Rotationsvolumen",
+    typ="Umbeschriebenes Prisma zu einem Rotationskörper bestimmen",
+    typ_neben="Flächeninhalt eines regelmäßigen Sechsecks aus dem Inkreisradius "
+              "berechnen|Sachzusammenhang durch Skizze und Gleichung darstellen",
+    stichwoerter="regelmäßiges Sechseck|Inkreisradius|Prisma|Mindestvolumen",
+    voraussetzungen="regelmäßiges Sechseck in Dreiecke zerlegen|Inkreisradius und Seitenlänge "
+                    "umrechnen|Einheiten dm³ in cm³ umrechnen",
+    format="Zeichnen|Rechnung", operator="Stellen Sie dar|Ermitteln Sie", antwort="Grafik|Zahl",
+    material="keins",
+    skizze="Im Heft ist keine Abbildung vorgegeben; die Skizze ist Teil der Lösung. Gefordert "
+           "ist eine Draufsicht auf das regelmäßige Sechseck der Grundfläche mit eingezeichnetem "
+           "Inkreis vom Radius r (maximaler Vasenradius), dem Inkreisradius als Abstand vom "
+           "Mittelpunkt zur Seitenmitte und der Seitenlänge s.",
+    kontext="Verpackung / Vase", textumfang="mittel",
+    gegeben="Die Vase hat die Länge 3 dm und einen maximalen Radius von ca. 1,07 dm. Sie soll "
+            "stehend in einem Karton verpackt werden, der die Form eines regelmäßigen "
+            "sechsseitigen Prismas besitzt.",
+    gesucht="Zusammenhang zwischen dem maximalen Radius der Vase und der Grundfläche des Kartons "
+            "als Skizze und Gleichung; Mindestvolumen des Kartons in cm³",
+    verfahren="Der maximale Radius ist der Inkreisradius r des regelmäßigen Sechsecks. Aus s = "
+              "2r / √3 folgt für die Grundfläche A = 6 · (s · r / 2) = 2√3 · r². Die Prismenhöhe "
+              "ist die Vasenlänge 3 dm, also V = 2√3 · r² · 3; Ergebnis in cm³ umrechnen.",
+    schritte="5", zahlenraum="dezimal|Wurzel", einheiten="dm|cm³",
+    abhaengig_von="2018-bb-ea-B2.1g",
+    ergebnis="A = 2√3 · r² ≈ 3,98 dm² und V = 6√3 · r² ≈ 11,9 dm³, also muss der Karton "
+             "mindestens etwa 11 900 cm³ Volumen haben.",
+    zwischenergebnis="s = 2r / √3 ≈ 1,237 dm|A ≈ 3,98 dm²|V ≈ 11,94 dm³",
+    niveau_geschaetzt="III",
+    fehlerquelle="den Umkreisradius statt des Inkreisradius mit dem Vasenradius gleichsetzen, "
+                 "oder dm³ nicht in cm³ umrechnen",
+    bemerkung="Mit r = 0,65 · √e ≈ 1,0717 dm ergibt sich V ≈ 11 935 cm³, mit dem gerundeten r = "
+              "1,07 dm ≈ 11 898 cm³; beides rundet auf 11 900 cm³. Das Feld skizze beschreibt "
+              "hier eine vom Prüfling zu erstellende Skizze, nicht vorhandenes Aufgabenmaterial. "
+              "Die Teilaufgabe ist elementargeometrisch; die Themenliste Analysis führt dafür "
+              "kein passendes Thema, ersatzweise Rotationsvolumen. Eigene Rechnung.")
+
+
 _ABB = ("Kartesisches Koordinatensystem, x-Achse von −5 bis 5 mit den ganzen Zahlen beschriftet, "
         "y-Achse von 0 bis 5 mit den ganzen Zahlen beschriftet, Achsen mit x und y benannt. "
         "Dargestellt ist der Graph von f(x) = 4 · x^(−2): zwei zur y-Achse spiegelbildliche Äste, "
@@ -1060,6 +1412,93 @@ row(id="2018-bb-ea-B4.2e", block="B", aufgabe="4.2", titel="Brillenträger", tei
 
 
 NEUE_TYPEN = [
+    ("Trägerebene über Normalenvektor begründen", "Analytische Geometrie", "Ebenen",
+     "Aus dem Richtungsvektor einer zur Ebene orthogonalen Geraden die Lage der Trägerebene "
+     "erschließen und begründen.",
+     "2018-bb-ea-A1.2a"),
+    ("Eckpunkt eines Quadrates nachweisen", "Analytische Geometrie", "Orthogonalität",
+     "Über Länge und Skalarprodukt der Halbdiagonalen nachweisen, dass ein gegebener Punkt "
+     "Eckpunkt eines Quadrates ist, und ihn als benachbart oder gegenüberliegend einordnen.",
+     "2018-bb-ea-A1.2b"),
+    ("Durchstoßpunkt einer Geraden durch eine Ebene bestimmen", "Analytische Geometrie",
+     "Schnittmengen",
+     "Eine Gerade aufstellen oder übernehmen, den Geradenparameter aus der Koordinatengleichung "
+     "der Ebene bestimmen und den Durchstoßpunkt durch Einsetzen angeben. Schließt Koordinaten- "
+     "und achsenparallele Ebenen ein, bei denen eine Koordinate gleichgesetzt wird.",
+     "2018-bb-ea-B3.1e"),
+    ("Streckenlänge im Raum berechnen", "Analytische Geometrie", "Abstände",
+     "Die Länge einer Strecke im Raum als Betrag des Verbindungsvektors berechnen.",
+     "2018-bb-ea-A1.2b"),
+    ("Nullstellen einer Funktionenschar mit Fallunterscheidung ermitteln", "Analysis",
+     "Funktionsscharen und Ortskurven",
+     "Die Anzahl und Lage der Nullstellen einer Schar in Abhängigkeit vom Parameter mit "
+     "Fallunterscheidung bestimmen.",
+     "2018-bb-ea-B2.1a"),
+    ("Grenzverhalten einer Exponentialfunktion untersuchen", "Analysis",
+     "Grenzwerte und Verhalten im Unendlichen",
+     "Das Verhalten der Funktionswerte eines Produkts aus Polynom und Exponentialfunktion für x "
+     "gegen plus und minus unendlich bestimmen.",
+     "2018-bb-ea-B2.1a"),
+    ("Schnittpunkt mit der y-Achse angeben", "Analysis", "Funktionsklassen und Eigenschaften",
+     "Den Funktionswert an der Stelle 0 bestimmen und als Punkt angeben.",
+     "2018-bb-ea-B2.1b"),
+    ("Parameterwert aus dem Graphen einer Schar ermitteln", "Analysis",
+     "Funktionsscharen und Ortskurven",
+     "Aus einem abgebildeten Graphen einer Schar den zugehörigen Parameterwert erschließen.",
+     "2018-bb-ea-B2.1b"),
+    ("Graphen einer Schar beschriften", "Analysis", "Funktionsscharen und Ortskurven",
+     "Abgebildete Graphen einer Schar den ermittelten Parameterwerten zuordnen und im "
+     "Koordinatensystem kennzeichnen.",
+     "2018-bb-ea-B2.1b"),
+    ("Fläche zwischen zwei Graphen berechnen", "Analysis", "Flächeninhalt durch Integration",
+     "Den Inhalt einer von zwei Graphen und Randgeraden eingeschlossenen Fläche über das "
+     "Integral der Differenzfunktion berechnen.",
+     "2018-bb-ea-B2.1c"),
+    ("Fehlen von Extrempunkten einer Schar über die Diskriminante nachweisen", "Analysis",
+     "Kurvenuntersuchung",
+     "Über die notwendige Bedingung und das Vorzeichen des Radikanden nachweisen, dass eine "
+     "Schar für einen Parameterbereich keine Extrempunkte hat.",
+     "2018-bb-ea-B2.1d"),
+    ("Ableitung mit Produkt- und Kettenregel bilden", "Analysis", "Ableitungsregeln",
+     "Die Ableitung eines Produkts aus Polynom und Exponentialfunktion bilden und zusammenfassen.",
+     "2018-bb-ea-B2.1d"),
+    ("Zweite Ableitung nachweisen", "Analysis", "Ableitungsregeln",
+     "Einen vorgegebenen Term als zweite Ableitung durch eigene Rechnung bestätigen.",
+     "2018-bb-ea-B2.1e"),
+    ("Krümmungsverhalten aus der zweiten Ableitung deuten", "Analysis", "Kurvenuntersuchung",
+     "Aus dem Vorzeichen der zweiten Ableitung Krümmung, Wendepunkte und Flachpunkte eines "
+     "Graphen erschließen.",
+     "2018-bb-ea-B2.1e"),
+    ("Tangentengleichung an einer Stelle ermitteln", "Analysis",
+     "Tangente, Normale, Schnittwinkel",
+     "Die Gleichung der Tangente an einen Graphen an einer gegebenen Stelle aus Funktionswert "
+     "und Ableitung bestimmen.",
+     "2018-bb-ea-B2.1f"),
+    ("Relative Abweichung zweier Funktionswerte prüfen", "Analysis",
+     "Tangente, Normale, Schnittwinkel",
+     "Die Abweichung eines Näherungswerts vom Funktionswert relativ berechnen und gegen eine "
+     "Schranke prüfen.",
+     "2018-bb-ea-B2.1f"),
+    ("Stellen mit maximalem Funktionswert einschließlich Rand bestimmen", "Analysis",
+     "Kurvenuntersuchung",
+     "Die Stellen des größten Funktionswerts auf einem Intervall bestimmen und dabei lokale "
+     "Extrema und Randwerte vergleichen.",
+     "2018-bb-ea-B2.1g"),
+    ("Integralfunktion im Sachzusammenhang deuten", "Analysis", "Rotationsvolumen",
+     "Ein Integral mit variabler Grenze als Größe im Sachkontext deuten.",
+     "2018-bb-ea-B2.1h"),
+    ("Umbeschriebenes Prisma zu einem Rotationskörper bestimmen", "Analysis", "Rotationsvolumen",
+     "Aus dem maximalen Radius eines Rotationskörpers die Grundfläche und das Mindestvolumen "
+     "eines umbeschriebenen Prismas bestimmen.",
+     "2018-bb-ea-B2.1i"),
+    ("Flächeninhalt eines regelmäßigen Sechsecks aus dem Inkreisradius berechnen", "Analysis",
+     "Rotationsvolumen",
+     "Den Flächeninhalt eines regelmäßigen Sechsecks über die Zerlegung in Dreiecke aus dem "
+     "Inkreisradius berechnen.",
+     "2018-bb-ea-B2.1i"),
+    ("Sachzusammenhang durch Skizze und Gleichung darstellen", "Analysis", "Rotationsvolumen",
+     "Einen geometrischen Zusammenhang durch eine eigene Skizze und eine Gleichung darstellen.",
+     "2018-bb-ea-B2.1i"),
     ("Parameter einer Parallelen zur x-Achse aus einer Abstandsbedingung berechnen", "Analysis",
      "Funktionsklassen und Eigenschaften",
      "Aus dem vorgegebenen Abstand der beiden Schnittpunkte einer Parallelen zur x-Achse mit einem "
