@@ -1,5 +1,5 @@
 # KONZEPT – Arbeitsblätter aus alten Prüfungen
-Stand 05.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
+Stand 12.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
 
 ## 1 Ziel
 
@@ -31,7 +31,36 @@ Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochlade
 
 Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentlich, damit curl ohne Anmeldung liest). Die Basis-URL steht in msa.md, im Prüfungsprompt (2.1, 4.6) und im Masterprompt (4.6) – vier Stellen, die bei anderer Ablage geändert werden. Claude liest per curl, der Lehrer lädt geänderte Dateien hoch. Geschrieben wird nur beim Aufbau und einmal im Jahr.
 
-## 3 Entscheidungen
+## 3 Themenkatalog
+
+Der Themenkatalog beschreibt den Stoff, nicht ein Blatt. Je Thema hält er fest, was
+dazugehört und in welcher Reihenfolge man es lernt: Lerneinheiten, Voraussetzungen,
+Grundvorstellung, typische Fehler, Merkkasten. Er wird einmal recherchiert und belegt
+(Rahmenlehrplan, Lehrwerksgliederung, Förderliteratur, Prüfungsoriginale) und ist an
+einer Stelle prüfbar und korrigierbar.
+
+Beide Prompts lesen dieselbe Datei und nehmen daraus, was ihnen fehlt:
+
+- Der Masterprompt bekommt die didaktische Struktur, die er sonst in jedem Lauf neu
+  erfindet – Stoffauswahl, Reihenfolge, Niveau. Er erfindet dann nur noch Zahlen und
+  Kontexte.
+- Der Prüfungsprompt bekommt die Gliederung in Lerneinheiten, die der Prüfungskatalog
+  nicht hat: Er kennt Typen und Originale, aber keine Lernreihenfolge.
+
+Arbeitsteilung mit dem Prüfungskatalog: Der Themenkatalog sagt, **was** gelernt wird,
+der Prüfungskatalog **wie hoch**. Die Decke einer Kette kommt immer aus dem
+Prüfungskatalog der jeweiligen Prüfungsart; der Themenkatalog setzt keine Decke.
+
+Daraus folgt, dass ein Eintrag prüfungsartübergreifend gilt. Die Lerneinheiten zu einem
+Thema sind dieselben, ob der Schüler P10, FHR oder Abitur schreibt – verschieden ist nur
+die oberste Sprosse. Ein Thema bekommt deshalb einen Eintrag, nicht einen je Profil.
+
+Offen: Die vorhandenen Sek-I-Einträge führen Sprossen. Gemeint ist die Lernreihenfolge,
+nicht die Teilaufgabenfolge eines Hefts – die baut der Prüfungsprompt aus den Originalen
+(blatt-konzept.md §3). Ob die Trennung in der Praxis hält, entscheidet der erste
+Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
+
+## 4 Entscheidungen
 
 1. Die Einheit ist der Aufgabentyp, nicht die Aufgabe. Ein Typ ist eine Fertigkeit, die man als Einheit übt. Das Original ist Muster und Messlatte.
 2. Auf dem Blatt gibt es drei Sorten Aufgaben: hinführende (leichter, eigene Struktur), die Originalfassung (Struktur und Wortlaut des Originals, neue Werte, leicht umformuliert) und weitere Varianten desselben Typs (gleiche Struktur, anderer Kontext). Struktur ändern nie – dann ist es ein anderer Typ. Auffüllende Aufgaben nach didaktischem Bedarf.
@@ -56,7 +85,7 @@ Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentli
 21. Versteckte Leistungen in einer Einheit bleiben eine Zeile; alle Leistungen werden in gesucht, ergebnis, format, typ und typ_neben erfasst; Punkte werden nicht geschätzt aufgeteilt.
 22. Arbeitsweise Schritt für Schritt: Claude liefert Dateien mit Pfad und Namen, der Lehrer legt sie ab und meldet sich; dann nennt Claude den nächsten Schritt. Aufwendige Aktionen werden vorher angekündigt.
 
-## 4 Verworfen
+## 5 Verworfen
 
 - Häufigkeitsschwelle und „Kerntypen": schließt aus, was die Prüfung trotzdem bringen kann.
 - Reserveprüfung: Wiedererkennung bei neuen Werten klein, Bestand endlich.
@@ -68,7 +97,7 @@ Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentli
 - Ein Prompt für alle Prüfungen ohne Profil: verliert die konkreten Regeln, die Zeilen gut machen.
 - Google Drive als Ablage: möglich, aber Dateien laufen bei jeder Sitzung durch den Kontext; Aktualisieren über den Konnektor ungetestet. Bleibt Alternative, falls das Hochladen zu lästig wird.
 
-## 5 Offen
+## 6 Offen
 
 - Ablageort bestätigen (Basis-URL im Profil).
 - Prüfungsjahr des Schülers: Annahme 2027 (aktuelles Format). Bei 2028 rücken hilfsmittelfreier Teil und Musteraufgaben nach vorn.
@@ -76,7 +105,7 @@ Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentli
 - PDF-Archiv anlegen.
 - Profil abi: Schülerart am Oberstufenzentrum klären (berufliches Gymnasium oder Fachoberschule), Quellen und Erwartungshorizonte prüfen.
 
-## 6 Ablauf
+## 7 Ablauf
 
 1. Entwurf: abgeschlossen (Kern, Profil, Dateien, Vorgaben). Ablage flach im Repo pruefungskatalog.
 2. Probelauf: abgeschlossen (2025, 2026 FOR, 2024; 89 Zeilen). EBR-Hefte zurückgestellt: kein EBR-Schüler, Aufgaben weitgehend Dubletten der FOR-Hefte.
@@ -86,8 +115,11 @@ Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentli
 5. Blatt-Prompt fertigstellen.
 Jährlich: Vorgabencheck (vorgaben.md), neues Heft erfassen, Typenbibliothek neu ableiten.
 
-## 7 Änderungen
+## 8 Änderungen
 
+- 2026-09-12: §3 Themenkatalog aufgenommen – Zweck, Leser, Arbeitsteilung mit dem
+  Prüfungskatalog, Geltung über die Prüfungsarten hinweg. Bis dahin war der Themenkatalog
+  im Repo nirgends beschrieben. Folgeabschnitte umnummeriert (3–7 → 4–8).
 - 2026-09-12: Baustein Typenbibliothek je Profil (Ausgabe und erzeugendes Skript); für fhr angelegt,
   nachdem dessen Katalog vollständig war. Die Deckenwahl darin ist als vorläufige Rechnung gekennzeichnet,
   solange die Merkmalsfrage offen ist (blatt-konzept.md § 7).
