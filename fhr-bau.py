@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """fhr-bau.py – Gerüst für die Erfassung eines Hefts im Profil fhr.
-Version 0.1 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und fhr.md v0.3
+Version 0.2 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und fhr.md v0.5
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles darunter
 bleibt unverändert und prüft nach Kern Abschnitt 7.
@@ -17,11 +17,11 @@ import csv, io, os, re, sys
 # ===================================================================== KONFIG
 KONFIG = {
     "jahr": "2026",
-    "papier": "C",
-    "datei": "26_FOS_Ma_LH_C.pdf",
+    "papier": "B",
+    "datei": "26_FOS_Ma_LH_B.pdf",
     "seiten": 10,
     # Sollpunkte je Aufgabe aus der Punktetabelle am Ende jeder Aufgabe
-    "soll": {"1": 27, "2": 23, "3": 20},
+    "soll": {"1": 30, "2": 20, "3": 20},
     "soll_gesamt": 70,
 }
 
@@ -85,6 +85,14 @@ FORMATE = {"Ankreuzen","Kurzantwort","Rechnung","Begründung","Zeichnen","Konstr
 ANTWORTEN = {"Zahl","Term","Text","Grafik","Kreuz","Tabelle"}
 MATERIAL = {"keins","Figur","Körper","Koordinatensystem","Diagramm","Tabelle","Skizze","Foto"}
 ZAHLENRAUM = {"ganz","dezimal","Bruch","negativ","Prozent","Potenz","Wurzel"}
+# Stämme, die eine ASCII-Umschrift von ä, ö, ü oder ß verraten. Positivliste: der frühere
+# Mustertest auf ae|oe|ue|ss schlug bei Wörtern wie Paprikastreuer oder Koeffizient fehl.
+UMSCHRIFT = ("flaeche", "laenge", "naechst", "haeufig", "zufaell", "waehl", "aender", "aeusser",
+ "gefaess", "verhaeltnis", "erklaer", "zaehl", "traeg", "gaeng", "maessig", "hoehe", "groesse",
+ "groess", "loesung", "loes", "moegl", "koerper", "oeffn", "schoen", "pruef", "stueck", "gewuerz",
+ "kruemmung", "ueber", "fuer", "muess", "fuehr", "gueltig", "zurueck", "huelle", "schluessel",
+ "urspruengl", "gross", "massstab", "masszahl", "schliess", "heisst", "weiss", "strasse",
+ "gemaess", "fuss")
 PFLICHT = ("id jahr papier aufgabe teilaufgabe seite punkte hilfsmittel leitidee thema typ format "
            "operator antwort material skizze kontext textumfang gegeben gesucht verfahren schritte "
            "ergebnis niveau_geschaetzt fehlerquelle").split()
@@ -165,9 +173,8 @@ def main():
               f"{z['id']}: Fragezeichen in {k} ohne Grund in bemerkung")
             a(not re.search(r"(?<=[\d\s(])-(?=\d)", v),
               f"{z['id']}: ASCII-Bindestrich als Minus in {k}")
-            a(not re.search(r"[A-Za-z](ae|oe|ue|ss)[a-z]", v) or k in ("stichwoerter",) or
-              re.search(r"[äöüß]", v) or v in ("Masse",),
-              f"{z['id']}: mögliche ASCII-Umschrift in {k}: {v[:40]}")
+            a(k in ("stichwoerter",) or not [w for w in UMSCHRIFT if w in v.lower()],
+              f"{z['id']}: ASCII-Umschrift in {k}: {v[:40]}")
     a(not ({t[0] for t in NEUE_TYPEN} - verwendet),
       f"neue Typen unbenutzt: {sorted({t[0] for t in NEUE_TYPEN} - verwendet)}")
 

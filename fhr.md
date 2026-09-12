@@ -1,5 +1,5 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
-Version 0.3 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.5 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
 
 ## 1 Prüfung
 
@@ -67,14 +67,15 @@ Grundlagen: Prozentrechnung · Gleichungen lösen · Größen und Einheiten · T
 Anmerkungen zum Stand:
 - Funktionsgleichung bestimmen reicht 2027 bis zum zweiten, 2028 bis zum vierten Grad (dritter und vierter nur über Symmetrie). Das Vorkommen 2026-C-2c ist quadratisch, gilt also für beide Jahrgänge.
 - Unabhängigkeit von Ereignissen und Körpervolumen aus Grundfläche und Länge stehen erst in den Schwerpunkten 2027/28, kommen aber bereits 2026 vor (2026-C-3e, 2026-C-2e). Beide Themen haben damit eine Ankeraufgabe.
-- Voraussichtliche Fundorte der noch nicht erfassten Themen, ermittelt per Wortsuche über alle Hefte und am Heft nicht geprüft (?): Normale in 2023 A und 2025 A; Rotationsvolumen um die x-Achse in 2024 C; Kombinatorische Abzählverfahren in 2026 B.
+- Kombinatorische Abzählverfahren ist seit 2026 B belegt (2026-B-3d Kombination mit Wiederholung, 2026-B-3e Permutation mit Wiederholung). Voraussichtliche Fundorte der noch fehlenden Themen, ermittelt per Wortsuche über alle Hefte und am Heft nicht geprüft (?): Normale in 2023 A und 2025 A; Rotationsvolumen um die x-Achse in 2024 C.
 - Erwartungswert kommt in keinem der 16 auf dem Bildungsserver liegenden Hefte 2019–2026 vor (Wortsuche). Das Thema steht in beiden Schwerpunktfassungen und bleibt in der Liste, ist aber als Prüfungsinhalt bisher unbelegt.
-- Mehrstufige Zufallsexperimente und Baumdiagramm und Pfadregeln überlappen; im Probelauf fiel alles auf das zweite Thema. Vorschlag: zusammenführen, sobald ein zweites Heft erfasst ist und die Lage klar ist.
+- Mehrstufige Zufallsexperimente und Baumdiagramm und Pfadregeln bleiben getrennt. Arbeitsregel seit 2025 C: zweistufige Versuche mit Zurücklegen gehen nach Baumdiagramm und Pfadregeln (2026-C-3d, 2026-B-3c), Versuche mit drei oder mehr Stufen oder ohne Zurücklegen nach Mehrstufige Zufallsexperimente (2025-C-3c). Damit hat auch das zweite Thema eine Ankeraufgabe.
 
 ## 7 Besonderheiten beim Erfassen
 
 - Drei Seitensorten je Heft. Die Aufgabe steht auf der Aufgabenseite, ergebnis und zwischenergebnis kommen aus dem Erwartungshorizont, die Punkteaufteilung aus dem Gutachtenbogen. Nichts aus Erwartungshorizont oder Gutachtenbogen gehört in gegeben oder gesucht.
 - punkte kommt aus der Punktetabelle am Ende der Aufgabe und bleibt ungeteilt. Die feinere Aufteilung steht in bemerkung, mit der Formulierung des Gutachtenbogens (Kern § 4).
+- Elementargeometrie als Werkzeug: Dreiecks-, Rechteck- und Körperflächen kommen in Analysis-Aufgaben vor, die Themenliste hat dafür keinen Eintrag. Solche Teilaufgaben werden beim nächstliegenden Thema geführt (2026-B-1h bei Anstieg und Tangente, weil das Dreieck von der Tangente eingeschlossen wird) und im Bericht gemeldet. Reine Umrechnungen über einen Maßstab gehen nach Grundlagen / Größen und Einheiten.
 - Eine Teilaufgabe verlangt oft zwei oder drei Leistungen ohne eigene Buchstaben („Ermitteln Sie … und bestimmen Sie …", „Prüfen Sie, ob …"). Das bleibt eine Zeile: gesucht, ergebnis und format nennen alle Leistungen in ihrer Reihenfolge, typ ist die erste, typ_neben die weiteren.
 - Vorgegebene Zwischen- und Kontrollergebnisse: Nennt eine Teilaufgabe ein Ergebnis aus einem früheren Teil, steht der Wert in gegeben und die frühere Kennung trotzdem in abhaengig_von.
 - Der Funktionsterm steht im Stamm und gehört vollständig in gegeben jeder Zeile, die ihn braucht – sonst fällt die Zeile durch den Nachbau-Test.
@@ -131,5 +132,5 @@ Ein „?" hinter einem Wert bedeutet: plausibel, aber nicht am Bild geprüft; de
 - Bedeutung der Buchstaben A, B, C ist nicht belegt.
 - Umfang: erfasst werden 2023–2026 (acht Hefte). Die Jahrgänge 2019–2022 liegen auf dem Bildungsserver und bleiben Reserve; sie liefern nach der Wortsuche kein Thema, das der Bestand nicht schon enthält, und stehen unter älteren, teils coronabedingt gekürzten Vorgaben. Herangezogen werden sie nur, wenn beim Blattbau ein Typ zu wenige Originale für eine Kette hat.
 - Nachschreibe-Vorschläge fehlen für alle Jahrgänge.
-- Überlappung Mehrstufige Zufallsexperimente / Baumdiagramm und Pfadregeln (§ 6); Erwartungswert ohne Fundstelle (§ 6).
+- Erwartungswert ohne Fundstelle (§ 6). Die Überlappung Mehrstufige Zufallsexperimente / Baumdiagramm und Pfadregeln ist mit der Arbeitsregel in § 6 geklärt.
 - msa.md schreibt Koordinaten mit „|" und damit mit dem Zeichen des Mehrfachwerts; dieses Profil weicht bewusst ab. Vorschlag zur Nachbesserung an msa.md, hier nicht ausgeführt.

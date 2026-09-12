@@ -16,8 +16,8 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | jahr | papier | Datei | Prüfung | Seiten | Punkte | Status | Zeilen | erfasst am |
 |---|---|---|---|---|---|---|---|---|
 | 2026 | C | 26_FOS_Ma_LH_C.pdf | 05.06.2026 | 10 | 27+23+20 = 70 | erfasst | 16 | 12.09.2026 |
-| 2026 | B | 26_FOS_Ma_LH_B.pdf | 05.06.2026 | 10 | 70 | nicht erfasst | | |
-| 2025 | C | 25_FOS_Ma_LH_C.pdf | 28.05.2025 | 10 | 30+20+20 = 70 | nicht erfasst | | |
+| 2026 | B | 26_FOS_Ma_LH_B.pdf | 05.06.2026 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
+| 2025 | C | 25_FOS_Ma_LH_C.pdf | 28.05.2025 | 10 | 30+20+20 = 70 | erfasst | 15 | 12.09.2026 |
 | 2025 | A | 25_FOS_Ma_LH_A.pdf | 28.05.2025 | 9 | 30+20+20 = 70 | nicht erfasst | | |
 | 2024 | C | 24_FOS_Ma_C_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | nicht erfasst | | |
 | 2024 | B | 24_FOS_Ma_B_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | nicht erfasst | | |
@@ -34,4 +34,13 @@ Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibet
 
 ## Änderungslog
 
+- 12.09.2026 – Heft 2025 C erfasst, 15 Zeilen, 14 Typen neu. Punktsummen 30/20/20 geprüft,
+  Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt, keine Abweichung.
+  Erste Fundstelle des Themas Mehrstufige Zufallsexperimente (2025-C-3c, dreistufig ohne
+  Zurücklegen). Im Heft steht in der Fußzeile die Kennung 25_FOS_Ma_EH_C, der Dateiname auf dem
+  Bildungsserver lautet 25_FOS_Ma_LH_C.pdf.
+- 12.09.2026 – Heft 2026 B erfasst, 17 Zeilen, 16 Typen neu. Punktsummen 30/20/20 geprüft,
+  Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt; zwei Rundungsabweichungen
+  dokumentiert (2026-B-2d Volumen 1,58 statt 1,59 m³; 2026-B-3a Standardabweichung 57,73 statt
+  57,74). Erste Fundstelle des Themas Kombinatorische Abzählverfahren (2026-B-3d, 2026-B-3e).
 - 12.09.2026 – Datei angelegt. Umfang auf 2023–2026 festgelegt, acht Hefte; 2019–2022 als Reserve vermerkt. Quelle Bildungsserver geprüft: `26_FOS_Ma_LH_C.pdf` byteidentisch zur Lieferung des Lehrers. Heft 2026 C erfasst, 16 Zeilen, 34 Typen neu. Punktsummen 27/23/20 geprüft, Gesamtsumme 70. Alle Ergebnisse gegen den amtlichen Erwartungshorizont gestellt; eine Abweichung dokumentiert (2026-C-3b Mehreinnahmen, eigene Rechnung 203,90 €, amtlich 204 €).
