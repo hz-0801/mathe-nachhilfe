@@ -1,7 +1,7 @@
 # FHR – erfasste Prüfungen
 Profil fhr · Stand 12.09.2026
 
-Zentrale schriftliche Fachhochschulreifeprüfung Mathematik, Land Brandenburg. Ein Heft ist ein Aufgabenvorschlag für einen Prüfungstermin; pro Jahrgang liegen zwei gleichwertige Vorschläge zum selben Termin vor. Die Hefte sind „Unterlagen für die Lehrkraft" und enthalten Aufgabentext, Erwartungshorizont und Gutachtenbogen.
+Zentrale schriftliche Fachhochschulreifeprüfung Mathematik, Land Brandenburg. Ein Heft ist ein Aufgabenvorschlag für einen Prüfungstermin; pro Jahrgang liegen zwei gleichwertige Vorschläge zum selben Termin vor. Die Hefte sind „Unterlagen für die Lehrkraft" und enthalten Aufgabentext und Erwartungshorizont, ab 2021 meist auch einen Gutachtenbogen; er fehlt in 2023 C, 2021 B und in allen vier Heften der Jahrgänge 2019 und 2020.
 
 ## Quelle
 
@@ -27,20 +27,74 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | 2022 | B | 22_FOS_Ma_B_LH.pdf | 06.05.2022 | 10 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
 | 2021 | B | 21_FOS_Ma_LH_B.pdf | 2021 | 8 | 32+18+20 = 70 | erfasst | 15 | 12.09.2026 |
 | 2021 | A | 21_FOS_Ma_LH_A.pdf | 2021 | 9 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
+| 2020 | C | 20_FOS_Ma_EH_C.pdf | 03.06.2020 | 9 | 29+21+20 = 70 | erfasst | 15 | 12.09.2026 |
+| 2020 | A | 20_FOS_Ma_EH_A.pdf | 03.06.2020 | 9 | 28+21+21 = 70 | erfasst | 15 | 12.09.2026 |
+| 2019 | C | 19_Mathematik_FOS_Lehrer_C.pdf | 10.05.2019 | 9 | 30+20+20 = 70 | erfasst | 14 | 12.09.2026 |
+| 2019 | A | 19_Mathematik_FOS_Lehrer_A.pdf | 10.05.2019 | 10 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
 
 Reihenfolge der Erfassung: vom jüngsten zum ältesten. „weiter" nimmt das nächste Heft mit Status „nicht erfasst".
 
-## Erweiterung 2021/2022 und Reserve
+## Umfang 2019–2026
 
-Auf dem Bildungsserver liegen insgesamt sechzehn Hefte, je zwei für die Jahrgänge 2019 bis 2026. Der ursprüngliche Umfang waren die acht Hefte 2023–2026. Am 12.09.2026 wurde er auf 2021 und 2022 ausgedehnt, weil der Katalog nur rund 1,2 Originale je Typ enthielt und damit für die meisten Typen keine Kette aus mehreren Originalen zulässt; die Regel „Reserve nur bei Bedarf" hätte im Regelfall gegriffen statt in Ausnahmen. Dabei aufgegeben wurde der Ausschlussgrund „fehlende Prüfungsschwerpunkte": auf dem Bildungsserver liegen nur die Fassungen 2026/27 und 2027/28, für die erfassten Jahrgänge 2023–2026 fehlen sie also ebenso, und gefiltert wird ohnehin über die geltenden Schwerpunkte, nicht über die des Prüfungsjahrs.
+Auf dem Bildungsserver liegen sechzehn Hefte, je zwei für die Jahrgänge 2019 bis 2026. Alle sechzehn gehören zum Erfassungsumfang und sind seit dem 12.09.2026 erfasst; der Bestand ist damit vollständig. Der ursprüngliche Umfang waren die acht Hefte 2023–2026; am 12.09.2026 wurde er zuerst auf 2021 und 2022 und dann auf 2019 und 2020 ausgedehnt.
 
-Weiterhin außerhalb des Umfangs: `19_Mathematik_FOS_Lehrer_A/_C` (vor dem Rahmenlehrplan vom 01.08.2019) und `20_FOS_Ma_EH_A/_C`. Für 2020 ist kein inhaltlicher Grund belegt; auffällig ist nur, dass die Dateien im Namen „EH" tragen, während die Lehrerhefte ab 2021 „LH" heißen – ob dort der Aufgabentext fehlt, ist ungeprüft. Beide Jahrgänge werden herangezogen, wenn beim Blattbau ein Typ auch nach der Erweiterung zu wenige Originale für eine Kette hat.
+Grund der ersten Erweiterung: Der Katalog enthielt nur rund 1,2 Originale je Typ und ließ damit für die meisten Typen keine Kette aus mehreren Originalen zu. Dabei aufgegeben wurde der Ausschlussgrund „fehlende Prüfungsschwerpunkte": auf dem Bildungsserver liegen nur die Fassungen 2026/27 und 2027/28, für die erfassten Jahrgänge 2023–2026 fehlen sie also ebenso, und gefiltert wird ohnehin über die geltenden Schwerpunkte, nicht über die des Prüfungsjahrs.
 
-Aus der Erweiterung folgt eine Regel für die Heft-Phase: Originale vor 2023 stehen unter älteren, 2021 und 2022 coronabedingt gekürzten Vorgaben. Sie dienen als Sprossen einer Kette, nie als deren Decke; die Decke ist immer ein Original ab 2023.
+Grund der zweiten Erweiterung: Die frühere Regel „2019 und 2020 nur bei Bedarf" ist aufgegeben. Der Erfassungsaufwand liegt allein beim Modell, Wartezeit ist kein Grund, Material liegen zu lassen; und der Einwand, 2019 stehe vor dem Rahmenlehrplan vom 01.08.2019, trägt gegen die Decke einer Kette, nicht gegen ihre Sprossen. Die Vermutung, das „EH" im Dateinamen der 2020er Hefte könnte für einen bloßen Erwartungshorizont ohne Aufgabentext stehen, hat sich nicht bestätigt: `20_FOS_Ma_EH_A/_C` und `19_Mathematik_FOS_Lehrer_A/_C` sind vollwertige Lehrerhefte mit Aufgabentext, Punktetabelle und Erwartungshorizont.
+
+Aus der Erweiterung folgt eine offene Frage für die Heft-Phase: Originale vor 2023 stehen unter älteren, 2021 und 2022 coronabedingt gekürzten Vorgaben. Bisher gilt, dass sie als Sprossen einer Kette dienen, nie als deren Decke; die Decke ist immer ein Original ab 2023. Ob diese Regel bleibt, entscheidet der Lehrer, sobald der Bestand 2019–2026 vollständig ist und sichtbar wird, welche Typen ihre Originale ausschließlich vor 2023 haben.
 
 Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibetermin stellt das Ministerium je Jahrgang einen weiteren Aufgabenvorschlag bereit (Prüfungsschwerpunkte § 2.1); auf dem Bildungsserver liegt keiner.
 
 ## Änderungslog
+
+- 12.09.2026 – Hefte 2019 A und 2019 C erfasst, 16 und 14 Zeilen, zusammen 4 Typen neu. Punktsummen
+  beide 30/20/20, Gesamtsumme je 70. **Damit ist der Bestand vollständig: sechzehn Hefte, 253 Zeilen,
+  135 Typen, Gesamtsumme 1120 = 16 · 70.** Auch diese beiden Hefte haben keinen Gutachtenbogen.
+  Alle Ergebnisse gegen den Erwartungshorizont gestellt; vier Rundungsnotizen (2019-A-2c Schablone
+  amtlich 4633 cm^2, mit der ungerundeten Maßzahl 4633,33; 2019-C-1d Wendepunkte amtlich 2,42 an den
+  gerundeten Wendestellen ±1,15, an den exakten ±1,1547 aber 2,44; 2019-C-3d Überschuss amtlich 350 €
+  aus dem gerundeten Erwartungswert 1,30 €, mit 1,305 € aber 347,50 €, der Erwartungshorizont nennt
+  345 € als zweite Alternative; 2019-C-3e Mindesteinsatz amtlich 4,90 € aus der gerundeten
+  Gewinnwahrscheinlichkeit 0,34, mit 0,3439 aber 4,94 €). Keine mit Folgen für spätere Teilaufgaben.
+  Neue Typen aus 2019 A: Stelle zu gegebenem Anstieg berechnen, Median und Mittelwert bei Ausreißern
+  vergleichen. Aus 2019 C: Beispiele für Laplace-Experimente nennen, Überschuss aus Einsatz und
+  durchschnittlicher Auszahlung berechnen. Eine Definition erweitert: Aussagen zu Stellen mit
+  waagerechter Tangente beurteilen deckt jetzt auch die rechnerische Prüfung an einer konkreten
+  Stelle ab (2019-A-1c).
+  **2019-C-3d ist die zweite Fundstelle des Themas Erwartungswert** nach 2021-B-3e; beide liegen vor
+  2023. Etikettenfragen: thema bei 2019-A-2a nach dem Punkt-Schwerpunkt, obwohl der typ unter einem
+  anderen Thema steht; thema bei 2019-C-1a und 2019-C-2c nach der ersten Leistung, weil die Punkte
+  gleich stehen; 2019-A-3c läuft als zweistufiger Versuch mit bedingten zweiten Stufen nach der
+  Arbeitsregel in fhr.md § 6 unter Baumdiagramm und Pfadregeln. Die Typnamen der beiden
+  Umrechnungstypen nennen Meter und Quadratmeter, die Fälle 2019 rechnen in Zentimeter, Kilometer
+  und Quadratkilometer; die Definitionen tragen, die Namen bleiben eng.
+  Keines der vier Hefte 2019 und 2020 nennt die zugelassenen Hilfsmittel; `hilfsmittel` steht dort
+  aus den Vorgaben auf „ja" und nicht aus dem Heft belegt.
+
+- 12.09.2026 – Umfang auf 2019–2026 erweitert, sechzehn Hefte (Begründung im Abschnitt davor); Hefte
+  2020 A und 2020 C erfasst, je 15 Zeilen, zusammen 6 Typen neu. Punktsummen geprüft: 2020 A hat
+  28/21/21, 2020 C hat 29/21/20, beide Gesamtsumme 70. Katalog jetzt 223 Zeilen, 131 Typen.
+  **Beide Hefte haben wie 2021 B und 2023 C keinen Gutachtenbogen**; die Punkteaufteilung stammt aus
+  dem Erwartungshorizont, der hier durchgehend feiner aufteilt als die Punktetabelle. Beide weichen
+  außerdem von der Verteilung 30/20/20 ab – zusammen mit 2021 B und 2026 C sind das vier von
+  vierzehn erfassten Heften, die Verteilung ist also keine Konstante der Prüfung.
+  Alle Ergebnisse gegen den Erwartungshorizont gestellt; zwei Rundungsnotizen (2020-A-1c Wendepunkt
+  amtlich 2,61 an der gerundeten Wendestelle −0,33, an der exakten Stelle −1/3 aber 2,59;
+  2020-C-1d Wendepunkte amtlich −10,5 an den gerundeten Stellen ±1,23, an den exakten Stellen
+  ±1,2324 aber −10,53). Beide ohne Folge für die weiteren Teilaufgaben.
+  Neue Typen aus 2020 A: Gesamteinnahme aus Stückzahlen und Einzelpreisen berechnen, Variation ohne
+  Wiederholung berechnen. Aus 2020 C: Aussagen zu Stellen mit waagerechter Tangente beurteilen,
+  Punkte mit waagerechtem Anstieg berechnen, Rechteck in das Koordinatensystem einzeichnen, Streuung
+  zweier Verteilungen vergleichen.
+  Etikettenfragen: thema bei 2020-C-1a, 2020-C-2c und 2020-C-3b nach dem Punkt-Schwerpunkt, obwohl
+  der typ unter einem anderen Thema steht; 2020-A-3b läuft als Gesamteinnahme unter Grundlagen und
+  nicht als Erwartungswert, weil kein gewichteter Mittelwert gefragt ist; 2020-A-3e Bedingung II
+  läuft unter dem vorhandenen Typ Anzahl über das Zählprinzip berechnen, während für Bedingung III
+  ein eigener Typ angelegt wurde. Ein Vorschlag für den nächsten Abgleichlauf: die Definition von
+  Produkt zweier Funktionsterme ausmultiplizieren auf mehrere Faktoren erweitern (2020-A-1a hat
+  drei), und Dreieck sowie Rechteck in das Koordinatensystem einzeichnen zu einem Typ Figur in das
+  Koordinatensystem einzeichnen zusammenziehen.
 
 - 12.09.2026 – Zweiter Abgleichlauf über alle 193 Zeilen und 128 Typen (Kern § 9). Ergebnis 125 Typen,
   alle auf Status „geprüft"; 14 Katalogzeilen mit geändertem Etikett, keine Fakten verändert.
