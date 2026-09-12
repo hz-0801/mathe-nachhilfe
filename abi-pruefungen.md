@@ -26,7 +26,7 @@ in vorgaben.md.
 | 2017 | 2017-bb-ea-cas | BB | erhöht | CAS | 10 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-gk | BE | grundlegend | WTR | 11 | 210 | 80 | nicht erfasst · Leitfassung grundlegend |
 | 2018 | 2018-be-lk | BE | erhöht | WTR | 11 | 270 | 100 | nicht erfasst · Zwilling zu 2018-bb-ea |
-| 2018 | 2018-bb-ea | BB | erhöht | WTR | 13 | 270 | 100 | **teilerfasst 2026-09-12, 11 Zeilen** (Feldprobe: 1.2 und 2.1) |
+| 2018 | 2018-bb-ea | BB | erhöht | WTR | 13 | 270 | 100 | **erfasst 2026-09-12, 41 Zeilen** (alle Aufgaben, beide Wahlwege) |
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
@@ -61,8 +61,25 @@ brandenburgisch, die Sachgebietsaufgaben stammen aus dem gemeinsamen Werk.
 einzelnen Aufgaben, sondern gesammelt in einer Tabelle am Ende von Teil 1
 (Analysis 2 + 3, Geometrie 2 + 3, Stochastik 3 + 2 = 15).
 
+**2018-bb-ea.** Die Wahlaufgaben sind ungleich gewichtet: 3.1 hat 25 BE, 3.2
+nur 10; bei Aufgabenstellung 4 ist es umgekehrt (4.1 zehn, 4.2 fünfundzwanzig).
+Erst die Kopplung 3.1 mit 4.1 beziehungsweise 3.2 mit 4.2 bringt beide Wege auf
+35 BE und damit auf die 100 BE der Prüfung. Die Kopplung ist also nicht nur
+inhaltlich begründet, sie gleicht die Punkte aus.
+
+**2018-bb-ea.** Die BE-Tabellen sind in der Textextraktion mit
+`pdftotext -layout` vollständig enthalten, auch die gegliederte Tabelle von
+Teil 1. Das Rendern der Seiten bleibt für Abbildungen, Formelbilder und
+Vektorschreibweisen nötig, nicht für die Punkte.
+
+**2018-bb-ea.** Die beiden Analysisaufgaben sind gegensätzlich gebaut. In 2.1
+ist `abhaengig_von` in sechs von elf Zeilen belegt, in 2.2 in keiner von acht:
+dort steht jede Teilaufgabe für sich. Die Kettenstruktur ist damit eine
+Eigenschaft der einzelnen Aufgabe, keine des Prüfungsformats.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-12 | 2018-bb-ea vollständig erfasst: 30 Zeilen ergänzt (1.1, 1.3, 2.2, 3.1, 3.2, 4.1, 4.2), Katalog jetzt 41 Zeilen, Typenliste 60. Punktsummen aller sieben Aufgaben gegen die BE-Tabellen geprüft. Drei Befunde in § 4 ergänzt. |
 | 2026-09-12 | Datei angelegt. Bestand aus abi-quellen.md übernommen, Feldprobe an 2018-bb-ea (11 Zeilen, Aufgaben 1.2 und 2.1) eingetragen, Befunde § 4 aufgenommen. |
