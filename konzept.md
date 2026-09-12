@@ -22,7 +22,9 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     typen.csv              Typvokabular, wächst beim Erfassen
     katalog-basis.csv      Zeilen der Basisaufgaben
     katalog-kontext.csv    Zeilen der Kontextaufgaben
-    typenbibliothek.md     abgeleitet aus dem Katalog, wird erzeugt, nie editiert (noch nicht vorhanden)
+    <kennung>-typenbibliothek.md  abgeleitet aus dem Katalog, wird erzeugt, nie editiert; je Profil eine Datei
+    <kennung>-typenbibliothek.py  erzeugt sie und hält die Zählweise als Code fest
+                           für fhr vorhanden (12.09.2026), für msa noch nicht
     pdf/                   Archiv der Hefte (noch nicht angelegt)
 
 Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Kommt ein zweites Profil, wird die Ordnung dann entschieden (eigenes Repo oder Präfixe).
@@ -86,6 +88,9 @@ Jährlich: Vorgabencheck (vorgaben.md), neues Heft erfassen, Typenbibliothek neu
 
 ## 7 Änderungen
 
+- 2026-09-12: Baustein Typenbibliothek je Profil (Ausgabe und erzeugendes Skript); für fhr angelegt,
+  nachdem dessen Katalog vollständig war. Die Deckenwahl darin ist als vorläufige Rechnung gekennzeichnet,
+  solange die Merkmalsfrage offen ist (blatt-konzept.md § 7).
 - 2026-09-05: angelegt.
 - 2026-09-05: Probelauf abgeschlossen. EBR zurückgestellt, Profil abi vorgemerkt (Entscheidung 12 ergänzt). Typen-Check: drei Bruchteil-Typen zusammengelegt, Flächen-/Umfangsterm → „Term zu Figur zuordnen“, „Wahrscheinlichkeit zweistufig“ in unabhängig/ohne Zurücklegen getrennt, Mittelpunktswinkel als Baustein vermerkt; alle Typen auf „gültig“. Kern §1: Dateinamen nach Profil.
 - 2026-09-05: Typen-Check nach Heften 2023–2019: 147 → 141 Typen, alle „gültig“. Zusammengelegt: Winkel im Trapez/Parallelogramm → „Winkel im Viereck berechnen“; Wahrscheinlichkeit zwei-/dreistufig → „… mehrstufig unabhängig“ und „… mehrstufig ohne Zurücklegen“ (Stufenzahl in gegeben/schritte); Flächenformel Dreieck/Rechteck angeben + Term zu Figur zuordnen → „Term zu Figur angeben“ (Leistung in format); Flächeninhalt Dreieck über Höhe → „Flächeninhalt Dreieck berechnen“ (Vorarbeit in typ_neben). Umbenannt: Lineare Kostenfunktion aufstellen → „Lineare Funktion aus Sachverhalt aufstellen“ (gegen „Lineare Gleichung aus Sachverhalt aufstellen“ abgegrenzt); Endwert linearer Zunahme → „… Veränderung“; Bruch in Prozent umwandeln → „Prozent und Anteil umwandeln“; Zehnerpotenz Exponent bestimmen → „Zehnerpotenzschreibweise umwandeln“; Säulendiagramm ergänzen → „Säulen- oder Balkendiagramm ergänzen“. Definitionen erweitert: Gleichung im Sachzusammenhang deuten (Bestandteile benennen), Term zu Sachtext zuordnen (auch Gleichungen), Proportionale Zuordnung Dreisatz (Abgrenzung zu Zeit aus Weg und Geschwindigkeit), Zufallsgerät entwerfen (Thema jetzt Wahrscheinlichkeit einstufig). Lösung durch Einsetzen prüfen: Thema Lineare Gleichungen. Getrennt gelassen: Gleichung/Graph zu Tarif zuordnen, Geradengleichung zu Graph zuordnen, Graph nach Eigenschaft auswählen (vier verschiedene Richtungen); Nullstelle berechnen vs. am Graphen ablesen. Zwei „?“ in gesucht (2026-FOR-K5b, 2024-OS-K3c) umformuliert.
