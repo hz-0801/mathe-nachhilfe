@@ -1,5 +1,7 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.1 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.2 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.1: § 4 punkte und seite präzisiert, § 6 Themenlücken, § 7 um
+vier Befunde der Feldprobe ergänzt, § 8 mit Beispielzeilen gefüllt, § 9 fortgeschrieben.
 
 ## 1 Prüfung
 
@@ -106,7 +108,14 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             Erwartungshorizont zu füllen.
     seite:  Seite im PDF. Die Brandenburger Dateien sind Zusammenschnitte mit
             eigener Seitenzählung je Teil; die gedruckte Angabe weicht ab.
+            Liegt die zugehörige Abbildung in einer Anlage auf einer anderen
+            Seite, werden beide genannt (5|6).
     punkte: Bewertungseinheiten (BE) laut der Tabelle am Ende jeder Aufgabe.
+            Im hilfsmittelfreien Teil steht keine Tabelle an den einzelnen
+            Aufgaben; die BE aller drei Sachgebiete stehen gesammelt auf der
+            letzten Seite von Teil 1, nach Teilgebiet und Buchstabe gegliedert
+            (2018: Analysis 2 + 3, Geometrie 2 + 3, Stochastik 3 + 2 = 15).
+            Die Herkunft der BE gehört in diesen Fällen nach bemerkung.
 
 ## 5 Sachgebiete
 
@@ -160,6 +169,16 @@ Nicht Prüfungsgegenstand (Prüfungsschwerpunkte 2027): Beweise erläutern oder
 entwickeln (K1); Simulationen (L5). Aufgaben dieser Art erscheinen im Katalog
 nicht, auch wenn der Rahmenlehrplan sie führt.
 
+**Bekannte Lücken** (Feldprobe 2018-bb-ea 2.1). Zwei Fertigkeiten treten in
+Analysisaufgaben auf, ohne dass die Analysis-Liste ein Thema dafür hätte:
+die relative Abweichung zweier Funktionswerte in Prozent (2.1 f) und eine
+elementargeometrische Nebenrechnung, hier der Flächeninhalt eines regelmäßigen
+Sechsecks (2.1 i). Ursache ist die Regel, dass leitidee das Sachgebiet der
+Aufgabenstellung trägt: „Flächeninhalt und Volumen im Raum“ würde passen, liegt
+aber unter Analytischer Geometrie. Bis zur Entscheidung wird das nächstliegende
+Thema gewählt und der Fall in bemerkung vermerkt. Erst nach mehreren Heften
+entscheiden, ob die Liste ergänzt oder die Regel gelockert wird.
+
 ## 7 Besonderheiten beim Erfassen
 
 - **Eine Leitfassung je Jahr und Niveau.** Auf erhöhtem Niveau bb-ea, weil sie den
@@ -182,18 +201,134 @@ nicht, auch wenn der Rahmenlehrplan sie führt.
 - **Umfang.** Eine Analysisaufgabe hat bis zu zehn Teilaufgaben und 50 BE. Ob
   `verfahren` und `schritte` diesen Umfang tragen, ist in der Feldprobe zu prüfen,
   bevor ein ganzes Heft erfasst wird.
+- **Mehrere Leistungen je Einheit sind der Normalfall.** Kern § 4 hält sie in
+  einer Zeile: typ trägt die erste Leistung, typ_neben die weiteren. In der
+  Feldprobe entfielen zehn von 21 Typen allein auf typ_neben. Das Feld thema ist
+  dabei einwertig, obwohl die Einheit oft zwei Themen berührt (2.1 a: Nullstellen
+  einer Schar und Grenzverhalten); ein zweites Thema ist nur mittelbar über
+  typ_neben sichtbar. Folge für die Heft-Phase: ein Typ, der nur als Nebenleistung
+  vorkommt, hat keine Ankeraufgabe, die als Decke taugt. Offen, ob typen.csv das
+  markiert oder die Ankeraufgabe auf die Teilleistung zugeschnitten wird.
+- **schritte trägt hier wenig.** Bei Deutungsaufgaben ohne Rechnung steht 0
+  (2.1 h), bei langen Ketten ist der Wert eine Schätzung, weil Ableiten,
+  Gleichsetzen, Fallunterscheidung und Randvergleich keine natürliche
+  Schrittzahl haben. Das Feld wird gefüllt, aber nicht ausgewertet.
+- **skizze meint Material, nicht Lösung.** Verlangt eine Aufgabe selbst eine
+  Skizze (2.1 i: „mit Hilfe einer Skizze und einer Gleichung“), beschreibt das
+  Feld ausnahmsweise die zu erstellende Skizze; der Fall wird in bemerkung
+  kenntlich gemacht.
+- **Kontrollangaben** in eckigen Klammern stehen in gegeben der Teilaufgabe, in
+  der sie abgedruckt sind, und werden durch eigene Rechnung bestätigt; die
+  Bestätigung wird in bemerkung vermerkt.
 - **Kein Volltext.** Beschreibung statt Wortlaut, auch bei den langen
   Aufgabenstämmen. Das Original wird nur für Wortlaut und Bild der Ankeraufgabe
   herangezogen.
 
 ## 8 Beispielzeilen
 
-Folgen aus der Feldprobe an 2018-bb-ea; bis dahin gilt das Muster von msa.md § 8.
+Drei Zeilen aus der Feldprobe an 2018-bb-ea, zur Lesbarkeit als Feld = Wert; in
+abi-katalog.csv stehen dieselben Werte als eine Zeile in der Reihenfolge der
+Kopfzeile. Gewählt sind eine Zeile aus dem hilfsmittelfreien Teil und zwei aus
+der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
+
+    id = 2018-bb-ea-A1.2b · jahr = 2018 · papier = 2018-bb-ea · block = A · aufgabe = 1.2 ·
+      titel = Analytische Geometrie · teilaufgabe = b · seite = 2
+    punkte = 3 · stern =  · hilfsmittel = nein · afb_amtlich =
+    leitidee = Analytische Geometrie · thema = Orthogonalität · typ = Eckpunkt eines Quadrates
+      nachweisen · typ_neben = Schnittpunkt Gerade Koordinatenebene berechnen|Streckenlänge im
+      Raum berechnen · stichwoerter =
+      Quadrat|Diagonalenschnittpunkt|Halbdiagonalen|Skalarprodukt · voraussetzungen =
+      Vektorlänge berechnen|Skalarprodukt bilden|Eigenschaften der Quadratdiagonalen kennen
+    format = Begründung · operator = Zeigen Sie · antwort = Text
+    material = keins · skizze = keine · kontext = ohne · textumfang = kurz
+    gegeben = Quadrat mit Eckpunkt P(0 | 1 | 5) in der y-z-Ebene; die Gerade g mit x = (5 | 4 |
+      1) + t · (1 | 0 | 0) verläuft orthogonal zur Trägerebene. Der Schnittpunkt der beiden
+      Diagonalen des Quadrates liegt auf g. Der Punkt Q(0 | 8 | 4) liegt in der y-z-Ebene. ·
+      gesucht = Nachweis, dass Q einer der beiden zu P benachbarten Eckpunkte des Quadrates ist
+      · verfahren = Diagonalenschnittpunkt M als Schnittpunkt von g mit der y-z-Ebene bestimmen
+      (x-Koordinate 0 setzen). Dann die Halbdiagonalen MP und MQ vergleichen: gleiche Länge
+      zeigt, dass Q Eckpunkt ist, Skalarprodukt 0 zeigt, dass Q nicht der zu P
+      gegenüberliegende, sondern ein benachbarter Eckpunkt ist. · schritte = 4 · zahlenraum =
+      ganz · einheiten =  · abhaengig_von = 2018-bb-ea-A1.2a
+    ergebnis = M(0 | 4 | 1). Mit MP = (0 | −3 | 4) und MQ = (0 | 4 | 3) ist |MP| = |MQ| = 5 und
+      MP · MQ = −12 + 12 = 0. Im Quadrat sind die vier Halbdiagonalen gleich lang und die
+      Diagonalen orthogonal, also ist Q ein zu P benachbarter Eckpunkt. · zwischenergebnis = M(0
+      | 4 | 1)|MP = (0 | −3 | 4)|MQ = (0 | 4 | 3)|Seitenlänge |PQ| = 5·√2
+    niveau_geschaetzt = II · fehlerquelle = gleiche Länge der Halbdiagonalen allein als Nachweis
+      nehmen und den gegenüberliegenden Eckpunkt nicht ausschließen · bemerkung = BE aus der
+      gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Geometrie, b) 3 BE). Eigene Rechnung.
+
+    id = 2018-bb-ea-B2.1a · jahr = 2018 · papier = 2018-bb-ea · block = B · aufgabe = 2.1 ·
+      titel = Vase · teilaufgabe = a · seite = 5
+    punkte = 8 · stern =  · hilfsmittel = ja · afb_amtlich =
+    leitidee = Analysis · thema = Funktionsscharen und Ortskurven · typ = Nullstellen einer
+      Funktionenschar mit Fallunterscheidung ermitteln · typ_neben = Grenzverhalten einer
+      Exponentialfunktion untersuchen · stichwoerter =
+      Funktionenschar|Nullstellen|Fallunterscheidung|Grenzwert · voraussetzungen = Satz vom
+      Nullprodukt|quadratische Gleichung lösen|Vorzeichen der Exponentialfunktion kennen
+    format = Rechnung|Begründung · operator = Ermitteln Sie|Untersuchen Sie · antwort =
+      Term|Text
+    material = keins · skizze = keine · kontext = ohne · textumfang = kurz
+    gegeben = Funktionenschar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR; die Graphen der
+      Schar sind G_a. · gesucht = Anzahl der Nullstellen von f_a in Abhängigkeit von a;
+      Verhalten der Funktionswerte für x → ∞ und für x → −∞ · verfahren = Der Faktor e^(0,5 − x)
+      ist stets positiv, also nur x² + a = 0 lösen: x² = −a mit Fallunterscheidung a < 0, a = 0,
+      a > 0. Für x → ∞ dominiert der fallende Exponentialfaktor, für x → −∞ wachsen beide
+      Faktoren unbeschränkt. · schritte = 5 · zahlenraum = ganz|Wurzel|Potenz · einheiten =  ·
+      abhaengig_von =
+    ergebnis = a < 0: zwei Nullstellen x = ±√(−a); a = 0: eine Nullstelle x = 0; a > 0: keine
+      Nullstelle. Für x → ∞ gilt f_a(x) → 0, für x → −∞ gilt f_a(x) → +∞. · zwischenergebnis =
+    niveau_geschaetzt = II · fehlerquelle = den Exponentialfaktor als möglichen Nullfaktor
+      behandeln oder die Fallunterscheidung auf a < 0 und a > 0 verkürzen · bemerkung = Zwei
+      Themen in einer Einheit: Nullstellen der Schar und Grenzverhalten. Das Feld thema ist
+      einwertig, das zweite Thema (Grenzwerte und Verhalten im Unendlichen) erscheint nur über
+      typ_neben. Eigene Rechnung.
+
+    id = 2018-bb-ea-B2.1i · jahr = 2018 · papier = 2018-bb-ea · block = B · aufgabe = 2.1 ·
+      titel = Vase · teilaufgabe = i · seite = 6
+    punkte = 7 · stern =  · hilfsmittel = ja · afb_amtlich =
+    leitidee = Analysis · thema = Rotationsvolumen · typ = Umbeschriebenes Prisma zu einem
+      Rotationskörper bestimmen · typ_neben = Flächeninhalt eines regelmäßigen Sechsecks aus dem
+      Inkreisradius berechnen|Sachzusammenhang durch Skizze und Gleichung darstellen ·
+      stichwoerter = regelmäßiges Sechseck|Inkreisradius|Prisma|Mindestvolumen · voraussetzungen
+      = regelmäßiges Sechseck in Dreiecke zerlegen|Inkreisradius und Seitenlänge
+      umrechnen|Einheiten dm³ in cm³ umrechnen
+    format = Zeichnen|Rechnung · operator = Stellen Sie dar|Ermitteln Sie · antwort =
+      Grafik|Zahl
+    material = keins · skizze = Im Heft ist keine Abbildung vorgegeben; die Skizze ist Teil der
+      Lösung. Gefordert ist eine Draufsicht auf das regelmäßige Sechseck der Grundfläche mit
+      eingezeichnetem Inkreis vom Radius r (maximaler Vasenradius), dem Inkreisradius als
+      Abstand vom Mittelpunkt zur Seitenmitte und der Seitenlänge s. · kontext = Verpackung /
+      Vase · textumfang = mittel
+    gegeben = Die Vase hat die Länge 3 dm und einen maximalen Radius von ca. 1,07 dm. Sie soll
+      stehend in einem Karton verpackt werden, der die Form eines regelmäßigen sechsseitigen
+      Prismas besitzt. · gesucht = Zusammenhang zwischen dem maximalen Radius der Vase und der
+      Grundfläche des Kartons als Skizze und Gleichung; Mindestvolumen des Kartons in cm³ ·
+      verfahren = Der maximale Radius ist der Inkreisradius r des regelmäßigen Sechsecks. Aus s
+      = 2r / √3 folgt für die Grundfläche A = 6 · (s · r / 2) = 2√3 · r². Die Prismenhöhe ist
+      die Vasenlänge 3 dm, also V = 2√3 · r² · 3; Ergebnis in cm³ umrechnen. · schritte = 5 ·
+      zahlenraum = dezimal|Wurzel · einheiten = dm|cm³ · abhaengig_von = 2018-bb-ea-B2.1g
+    ergebnis = A = 2√3 · r² ≈ 3,98 dm² und V = 6√3 · r² ≈ 11,9 dm³, also muss der Karton
+      mindestens etwa 11 900 cm³ Volumen haben. · zwischenergebnis = s = 2r / √3 ≈ 1,237 dm|A ≈
+      3,98 dm²|V ≈ 11,94 dm³
+    niveau_geschaetzt = III · fehlerquelle = den Umkreisradius statt des Inkreisradius mit dem
+      Vasenradius gleichsetzen, oder dm³ nicht in cm³ umrechnen · bemerkung = Mit r = 0,65 · √e
+      ≈ 1,0717 dm ergibt sich V ≈ 11 935 cm³, mit dem gerundeten r = 1,07 dm ≈ 11 898 cm³;
+      beides rundet auf 11 900 cm³. Das Feld skizze beschreibt hier eine vom Prüfling zu
+      erstellende Skizze, nicht vorhandenes Aufgabenmaterial. Die Teilaufgabe ist
+      elementargeometrisch; die Themenliste Analysis führt dafür kein passendes Thema,
+      ersatzweise Rotationsvolumen. Eigene Rechnung.
 
 ## 9 Offen
 
 - Welches Land und welches Niveau schreibt der Schüler? Davon hängt die
-  Erfassungsreihenfolge ab, nicht die Methode.
+  Erfassungsreihenfolge ab, nicht die Methode. Bis zur Antwort gilt die Annahme
+  Brandenburg, erhöhtes Niveau, also bb-ea als Leitfassung.
+- Bekommen Typen, die nur als typ_neben auftreten, eine eigene Markierung in
+  typen.csv? Entscheidung nach dem ersten vollständigen Heft, da die Liste
+  profilübergreifend ist und msa wie fhr mitbetroffen wären.
+- Werden die Themenlücken aus § 6 durch neue Themen geschlossen oder durch eine
+  Lockerung der Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt?
 - Existiert in Brandenburg eine eigene Prüfung auf grundlegendem Niveau?
 - Auf welcher Vereinbarung beruht das gemeinsame Aufgabenwerk, und welche Länder
   gehören dazu?
