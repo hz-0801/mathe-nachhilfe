@@ -24,7 +24,7 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | 2023 | C | 23_FOS_Ma_C_LH.pdf | 05.05.2023 | 8 | 30+20+20 = 70 | erfasst | 14 | 12.09.2026 |
 | 2023 | A | 23_FOS_Ma_A_LH.pdf | 05.05.2023 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
 | 2022 | C | 22_FOS_Ma_C_LH.pdf | 06.05.2022 | 10 | 30+20+20 = 70 | erfasst | 15 | 12.09.2026 |
-| 2022 | B | 22_FOS_Ma_B_LH.pdf | 06.05.2022 | ? | ? | nicht erfasst | | |
+| 2022 | B | 22_FOS_Ma_B_LH.pdf | 06.05.2022 | 10 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
 | 2021 | B | 21_FOS_Ma_LH_B.pdf | ? | ? | ? | nicht erfasst | | |
 | 2021 | A | 21_FOS_Ma_LH_A.pdf | ? | ? | ? | nicht erfasst | | |
 
@@ -41,6 +41,22 @@ Aus der Erweiterung folgt eine Regel für die Heft-Phase: Originale vor 2023 ste
 Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibetermin stellt das Ministerium je Jahrgang einen weiteren Aufgabenvorschlag bereit (Prüfungsschwerpunkte § 2.1); auf dem Bildungsserver liegt keiner.
 
 ## Änderungslog
+
+- 12.09.2026 – Heft 2022 B erfasst, 16 Zeilen, 4 Typen neu (Funktionswert an einer Stelle
+  berechnen, Prozentsatz aus Anteil berechnen, Vertauschung der Reihenfolge bei unabhängigen
+  Stufen begründen, Wahrscheinlichkeitsverteilung der Augensumme aufstellen). Punktsummen
+  30/20/20 geprüft, Gesamtsumme 70. Katalog jetzt 162 Zeilen, 116 Typen. Alle Ergebnisse gegen
+  den Erwartungshorizont gestellt, keine Abweichung; auch die Extremwerte stimmen, obwohl die
+  Extremstellen irrational sind. Zwei Definitionen vorhandener Typen erweitert, weil dieses Heft
+  sie über ihren bisherigen Wortlaut hinaus belegt: Nullstellen mit Polynomdivision gilt jetzt
+  auch für eine durch Probieren gefundene Nullstelle (2022-B-1b), Laplace-Wahrscheinlichkeit
+  berechnen auch für den mehrstufigen Laplace-Versuch (2022-B-3b, zwei Drehungen mit neun gleich
+  wahrscheinlichen Ergebnissen). Vier Etikettenfragen entschieden und im Bericht gemeldet: thema
+  bei 2022-B-1a, 2022-B-1f und 2022-B-2d nach dem Punkt-Schwerpunkt, obwohl der typ jeweils unter
+  einem anderen Thema steht; 2022-B-3f bekommt keinen eigenen Typ für die vierte Stufe, sondern
+  läuft unter Wahrscheinlichkeit über mehrere Pfade summieren. Erste Fundstelle dafür, dass der
+  Erwartungshorizont den Nenner n − 1 als Hauptweg der Standardabweichung führt (2022-B-3c);
+  2022-C-3b und 2026-B-3a machen es umgekehrt.
 
 - 12.09.2026 – Umfang auf 2021 und 2022 erweitert (Begründung im Abschnitt davor); Heft 2022 C
   erfasst, 15 Zeilen, 4 Typen neu (Geradengleichung aus zwei Punkten bestimmen, Anstieg einer
