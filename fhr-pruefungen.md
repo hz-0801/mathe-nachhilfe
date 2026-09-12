@@ -23,17 +23,38 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | 2024 | B | 24_FOS_Ma_B_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
 | 2023 | C | 23_FOS_Ma_C_LH.pdf | 05.05.2023 | 8 | 30+20+20 = 70 | erfasst | 14 | 12.09.2026 |
 | 2023 | A | 23_FOS_Ma_A_LH.pdf | 05.05.2023 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
+| 2022 | C | 22_FOS_Ma_C_LH.pdf | 06.05.2022 | 10 | 30+20+20 = 70 | erfasst | 15 | 12.09.2026 |
+| 2022 | B | 22_FOS_Ma_B_LH.pdf | 06.05.2022 | ? | ? | nicht erfasst | | |
+| 2021 | B | 21_FOS_Ma_LH_B.pdf | ? | ? | ? | nicht erfasst | | |
+| 2021 | A | 21_FOS_Ma_LH_A.pdf | ? | ? | ? | nicht erfasst | | |
 
 Reihenfolge der Erfassung: vom jüngsten zum ältesten. „weiter" nimmt das nächste Heft mit Status „nicht erfasst".
 
-## Reserve, nicht erfasst
+## Erweiterung 2021/2022 und Reserve
 
-Auf dem Bildungsserver liegen acht weitere Hefte: `19_Mathematik_FOS_Lehrer_A/_C`, `20_FOS_Ma_EH_A/_C`, `21_FOS_Ma_LH_A/_B`, `22_FOS_Ma_B_LH/_C_LH`. Sie bleiben außerhalb des Umfangs: 2019 liegt vor dem Rahmenlehrplan vom 01.08.2019, 2021 und 2022 stehen unter coronabedingt gekürzten Vorgaben, und für alle vier Jahrgänge fehlen die zugehörigen Prüfungsschwerpunkte zur Einordnung nach Schwerpunktstand. Nach Wortsuche enthalten sie kein Thema, das der Bestand 2023–2026 nicht schon abdeckt. Herangezogen werden sie nur, wenn beim Blattbau ein Typ zu wenige Originale für eine Kette hat.
+Auf dem Bildungsserver liegen insgesamt sechzehn Hefte, je zwei für die Jahrgänge 2019 bis 2026. Der ursprüngliche Umfang waren die acht Hefte 2023–2026. Am 12.09.2026 wurde er auf 2021 und 2022 ausgedehnt, weil der Katalog nur rund 1,2 Originale je Typ enthielt und damit für die meisten Typen keine Kette aus mehreren Originalen zulässt; die Regel „Reserve nur bei Bedarf" hätte im Regelfall gegriffen statt in Ausnahmen. Dabei aufgegeben wurde der Ausschlussgrund „fehlende Prüfungsschwerpunkte": auf dem Bildungsserver liegen nur die Fassungen 2026/27 und 2027/28, für die erfassten Jahrgänge 2023–2026 fehlen sie also ebenso, und gefiltert wird ohnehin über die geltenden Schwerpunkte, nicht über die des Prüfungsjahrs.
+
+Weiterhin außerhalb des Umfangs: `19_Mathematik_FOS_Lehrer_A/_C` (vor dem Rahmenlehrplan vom 01.08.2019) und `20_FOS_Ma_EH_A/_C`. Für 2020 ist kein inhaltlicher Grund belegt; auffällig ist nur, dass die Dateien im Namen „EH" tragen, während die Lehrerhefte ab 2021 „LH" heißen – ob dort der Aufgabentext fehlt, ist ungeprüft. Beide Jahrgänge werden herangezogen, wenn beim Blattbau ein Typ auch nach der Erweiterung zu wenige Originale für eine Kette hat.
+
+Aus der Erweiterung folgt eine Regel für die Heft-Phase: Originale vor 2023 stehen unter älteren, 2021 und 2022 coronabedingt gekürzten Vorgaben. Sie dienen als Sprossen einer Kette, nie als deren Decke; die Decke ist immer ein Original ab 2023.
 
 Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibetermin stellt das Ministerium je Jahrgang einen weiteren Aufgabenvorschlag bereit (Prüfungsschwerpunkte § 2.1); auf dem Bildungsserver liegt keiner.
 
 ## Änderungslog
 
+- 12.09.2026 – Umfang auf 2021 und 2022 erweitert (Begründung im Abschnitt davor); Heft 2022 C
+  erfasst, 15 Zeilen, 4 Typen neu (Geradengleichung aus zwei Punkten bestimmen, Anstieg einer
+  senkrechten Geraden angeben, Ganzzahlige Nullstellen durch Probieren finden, Änderung der
+  Häufigkeiten bei größerer Stichprobe begründen). Punktsummen 30/20/20 geprüft, Gesamtsumme 70.
+  Katalog jetzt 146 Zeilen, 112 Typen. Alle Ergebnisse gegen den Erwartungshorizont gestellt,
+  keine Abweichung – auch nicht bei den Wendepunkten, weil die exakten Stellen ±Wurzel aus 7/6 und
+  ±Wurzel aus 3,5 auf zwei Stellen dieselben Funktionswerte liefern wie die gerundeten. Kein neues
+  Thema; elf der fünfzehn Zeilen belegen Typen zum zweiten oder dritten Mal. 3b lässt wie 2026-B-3a
+  beide Nenner der Standardabweichung gelten und nennt 37,74 € und 42,20 €. Drei Etikettenfragen
+  entschieden und im Bericht gemeldet: thema bei 2022-C-1a nach der ersten Leistung, weil die
+  Punkte 2 zu 2 stehen; thema bei 2022-C-2c und 2022-C-3d nach dem Punkt-Schwerpunkt, obwohl der
+  typ unter einem anderen Thema steht; die zweite Wendetangente in 2022-C-1e bekommt keinen
+  eigenen Typ, weil der Weg über die Symmetrie nur eine Abkürzung des Aufstellens im Punkt ist.
 - 12.09.2026 – Abgleichlauf nach Kern § 9 über alle 131 Zeilen. Typenzahl 110 → 108, Status aller
   Typen von „neu" auf „geprüft". Zusammengezogen: Achsen- und Punktsymmetrie am Funktionsterm
   beurteilen zu Symmetrie am Funktionsterm beurteilen; Wertetabelle aufstellen und Wertetabelle
