@@ -1,5 +1,5 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
-Version 0.7 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.9 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
 
 ## 1 Prüfung
 
@@ -22,7 +22,7 @@ Ein Heft ist ein Aufgabenvorschlag für einen Prüfungstermin. Zum Haupttermin s
 
 Ein Heft enthält drei voneinander unabhängige, mehrteilige Aufgaben mit Überschrift – zweimal Differential- und Integralrechnung, einmal Stochastik –, laut Prüfungsschwerpunkten sind auch vier möglich, im Bestand kommen nur drei vor. Punkte: 30 + 20 + 20 = 70 (2026: 27 + 23 + 20 = 70). Arbeitszeit 180 Minuten. Jede Aufgabe gliedert sich in Teilaufgaben a) bis h) mit Aufgabenstamm; am Ende jeder Aufgabe steht eine Punktetabelle „Aufgabenteil / Punkte" mit Summe. Praxisbezug ist möglich, in der Analysis meist nicht vorhanden, in der Stochastik in der Regel gegeben.
 
-Drei Seitensorten: Aufgabenseite (Aufgabentext, Punktetabelle), Erwartungshorizont („Teil / Erwartete Teilleistung / Pkt.") und als letzte Seite der Gutachtenbogen. Der Gutachtenbogen listet jede Teilleistung in Worten mit ihrem BE-Soll und ist die bequemste Quelle für die Punkteaufteilung; er fasst gelegentlich gröber zusammen als der Erwartungshorizont (2026 C, 3a: Gutachten 2 + 2, Erwartungshorizont 1 + 1 + 2).
+Drei Seitensorten: Aufgabenseite (Aufgabentext, Punktetabelle), Erwartungshorizont („Teil / Erwartete Teilleistung / Pkt.") und als letzte Seite der Gutachtenbogen. Ausnahme 2023 C: dort fehlt der Gutachtenbogen, die Datei endet nach dem Erwartungshorizont mit „Seite 8 von 9"; die Punkteaufteilung kommt dann aus dem Erwartungshorizont, der ohnehin feiner aufteilt. Der Gutachtenbogen listet jede Teilleistung in Worten mit ihrem BE-Soll und ist die bequemste Quelle für die Punkteaufteilung; er fasst gelegentlich gröber zusammen als der Erwartungshorizont (2026 C, 3a: Gutachten 2 + 2, Erwartungshorizont 1 + 1 + 2).
 
 Zwischenergebnisse sind mitunter als Vorgabe oder als „Zur Kontrolle" in späteren Teilaufgaben genannt, damit ein Quereinstieg möglich ist.
 
@@ -70,6 +70,7 @@ Anmerkungen zum Stand:
 - Kombinatorische Abzählverfahren ist seit 2026 B belegt (2026-B-3d Kombination mit Wiederholung, 2026-B-3e Permutation mit Wiederholung).
 - Normale ist seit 2025 A belegt (2025-A-1h, Normalengleichung an einer Stelle samt Einzeichnen). Extremwertaufgaben sind seit 2025 A belegt (2025-A-2d bis 2025-A-2f, Trainingsfläche mit 46 m Material als Kette aus Einzelwerten, Zielfunktion und Maximum).
 - Rotationsvolumen um die x-Achse ist seit 2024 C belegt (2024-C-2c, Football-Spielball). Damit hat jedes Thema der Themenliste eine Ankeraufgabe außer Erwartungswert. Die Wortsuche hatte die Normale auch für 2023 A angezeigt; dieses Heft ist noch nicht erfasst.
+- Einstufige Laplace-Experimente haben kein eigenes Thema. 2023-C-3b (Ergebnismenge angeben, Laplace-Bedingung begründen, zwei Wahrscheinlichkeiten vergleichen) läuft beim nächstliegenden Thema Baumdiagramm und Pfadregeln. Ein Thema „Laplace-Wahrscheinlichkeit" unter Stochastik wäre die Alternative; beim Abgleichlauf zu entscheiden.
 - Erwartungswert kommt in keinem der 16 auf dem Bildungsserver liegenden Hefte 2019–2026 vor (Wortsuche). Das Thema steht in beiden Schwerpunktfassungen und bleibt in der Liste, ist aber als Prüfungsinhalt bisher unbelegt.
 - Mehrstufige Zufallsexperimente und Baumdiagramm und Pfadregeln bleiben getrennt. Arbeitsregel seit 2025 C: zweistufige Versuche mit Zurücklegen gehen nach Baumdiagramm und Pfadregeln (2026-C-3d, 2026-B-3c), Versuche mit drei oder mehr Stufen oder ohne Zurücklegen nach Mehrstufige Zufallsexperimente (2025-C-3c ohne Zurücklegen, 2025-A-3e dreistufig mit Zurücklegen). Damit hat auch das zweite Thema eine Ankeraufgabe.
 
@@ -79,11 +80,14 @@ Anmerkungen zum Stand:
 - punkte kommt aus der Punktetabelle am Ende der Aufgabe und bleibt ungeteilt. Die feinere Aufteilung steht in bemerkung, mit der Formulierung des Gutachtenbogens (Kern § 4).
 - Elementargeometrie als Werkzeug: Dreiecks-, Rechteck- und Körperflächen kommen in Analysis-Aufgaben vor, die Themenliste hat dafür keinen Eintrag. Solche Teilaufgaben werden beim nächstliegenden Thema geführt (2026-B-1h bei Anstieg und Tangente, weil das Dreieck von der Tangente eingeschlossen wird; 2025-A-2d bei Extremwertaufgaben, weil die Rechteckfläche der erste Schritt einer Extremwertaufgabe ist) und im Bericht gemeldet. Reine Umrechnungen über einen Maßstab gehen nach Grundlagen / Größen und Einheiten.
 - Eine Teilaufgabe verlangt oft zwei oder drei Leistungen ohne eigene Buchstaben („Ermitteln Sie … und bestimmen Sie …", „Prüfen Sie, ob …"). Das bleibt eine Zeile: gesucht, ergebnis und format nennen alle Leistungen in ihrer Reihenfolge, typ ist die erste, typ_neben die weiteren.
+- thema bei mehrleistigen Zeilen nach dem Punkt-Schwerpunkt wählen, auch wenn der typ in fhr-typen.csv unter einem anderen Thema steht; der Fall gehört in den Bericht (2025-A-1c, 2024-C-1d; 2024-B-2a: Achsensymmetrie begründen 1 BE, Achsen einzeichnen 2 BE, daher Graph zeichnen und zuordnen).
+- Aussagenlisten: Verlangt eine Teilaufgabe Begründungen zu mehreren durchnummerierten Aussagen ((I) bis (IV) in 2024-B-1b), bleibt das nach Kern § 4 eine Zeile; stichwoerter nennt den Inhalt jeder Aussage, ergebnis die Begründung jeder Aussage in derselben Reihenfolge.
+- Aufgaben ohne Funktionsgleichung: Manche Teilaufgaben argumentieren allein am abgebildeten Graphen (2024-B-1a, 2024-B-1b, 2025-A-1b). skizze muss den Verlauf dann so genau beschreiben, dass Extrempunkte, Nullstellen und Krümmungswechsel daraus hervorgehen; gegeben nennt ausdrücklich, dass keine Funktionsgleichung vorliegt.
 - Vorgegebene Zwischen- und Kontrollergebnisse: Nennt eine Teilaufgabe ein Ergebnis aus einem früheren Teil, steht der Wert in gegeben und die frühere Kennung trotzdem in abhaengig_von.
 - Der Funktionsterm steht im Stamm und gehört vollständig in gegeben jeder Zeile, die ihn braucht – sonst fällt die Zeile durch den Nachbau-Test.
 - Zu rendern sind alle Aufgabenseiten: Abbildungsauswahl (mehrere Graphen), vorgedruckte Wertetabellen und Preistabellen. Bei Widerspruch gilt das Bild.
 - Zeichnet der Prüfling das Material selbst (Koordinatensystem mit frei gewählter Achseneinteilung, Baumdiagramm, Diagramm), ist material „keins"; skizze beschreibt dann, was entstehen soll.
-- ergebnis trägt bei amtlicher Übernahme den Zusatz „amtlich". Weicht die eigene Rechnung ab, bleibt das amtliche Ergebnis in ergebnis und die Abweichung steht in bemerkung. Der Erwartungshorizont rechnet gelegentlich mit gerundeten Zwischenwerten weiter (2026-C-3b: amtlich 204 €, exakt 203,90 €; 2024-C-1d: f''(2,77) amtlich 4,16, mit der ungerundeten Stelle 4,15).
+- ergebnis trägt bei amtlicher Übernahme den Zusatz „amtlich". Weicht die eigene Rechnung ab, bleibt das amtliche Ergebnis in ergebnis und die Abweichung steht in bemerkung. Der Erwartungshorizont rechnet gelegentlich mit gerundeten Zwischenwerten weiter (2026-C-3b: amtlich 204 €, exakt 203,90 €; 2024-C-1d: f''(2,77) amtlich 4,16, mit der ungerundeten Stelle 4,15; 2024-B-1e: Wendepunkte amtlich (2,06; −13,67) und (−1,46; 3,99), mit den ungerundeten Wendestellen −13,63 und 3,98).
 - Rundung zwei Dezimalstellen; „rund" oder „etwa" übernehmen, wo der Erwartungshorizont ≈ setzt.
 - Stochastik-Aufgaben mischen regelmäßig Prozentrechnung und Gleichungen hinein. Solche Teilaufgaben bekommen leitidee Grundlagen, nicht Stochastik.
 
@@ -134,5 +138,6 @@ Ein „?" hinter einem Wert bedeutet: plausibel, aber nicht am Bild geprüft; de
 - Bedeutung der Buchstaben A, B, C ist nicht belegt.
 - Umfang: erfasst werden 2023–2026 (acht Hefte). Die Jahrgänge 2019–2022 liegen auf dem Bildungsserver und bleiben Reserve; sie liefern nach der Wortsuche kein Thema, das der Bestand nicht schon enthält, und stehen unter älteren, teils coronabedingt gekürzten Vorgaben. Herangezogen werden sie nur, wenn beim Blattbau ein Typ zu wenige Originale für eine Kette hat.
 - Nachschreibe-Vorschläge fehlen für alle Jahrgänge.
+- Kein Thema für einstufige Laplace-Experimente (§ 6); die drei Typen Ergebnismenge eines Zufallsexperiments angeben, Laplace-Bedingung begründen und Laplace-Wahrscheinlichkeit berechnen hängen deshalb unter Baumdiagramm und Pfadregeln.
 - Erwartungswert ohne Fundstelle (§ 6). Die Überlappung Mehrstufige Zufallsexperimente / Baumdiagramm und Pfadregeln ist mit der Arbeitsregel in § 6 geklärt.
 - msa.md schreibt Koordinaten mit „|" und damit mit dem Zeichen des Mehrfachwerts; dieses Profil weicht bewusst ab. Vorschlag zur Nachbesserung an msa.md, hier nicht ausgeführt.

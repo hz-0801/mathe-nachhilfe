@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """fhr-bau.py – Gerüst für die Erfassung eines Hefts im Profil fhr.
-Version 0.2 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und fhr.md v0.5
+Version 0.2 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und fhr.md v0.9
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles darunter
 bleibt unverändert und prüft nach Kern Abschnitt 7.
@@ -16,10 +16,10 @@ import csv, io, os, re, sys
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2024",
+    "jahr": "2023",
     "papier": "C",
-    "datei": "24_FOS_Ma_C_LH.pdf",
-    "seiten": 10,
+    "datei": "23_FOS_Ma_C_LH.pdf",
+    "seiten": 8,
     # Sollpunkte je Aufgabe aus der Punktetabelle am Ende jeder Aufgabe
     "soll": {"1": 30, "2": 20, "3": 20},
     "soll_gesamt": 70,

@@ -20,8 +20,8 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | 2025 | C | 25_FOS_Ma_LH_C.pdf | 28.05.2025 | 10 | 30+20+20 = 70 | erfasst | 15 | 12.09.2026 |
 | 2025 | A | 25_FOS_Ma_LH_A.pdf | 28.05.2025 | 9 | 30+20+20 = 70 | erfasst | 19 | 12.09.2026 |
 | 2024 | C | 24_FOS_Ma_C_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
-| 2024 | B | 24_FOS_Ma_B_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | nicht erfasst | | |
-| 2023 | C | 23_FOS_Ma_C_LH.pdf | 05.05.2023 | 8 | 30+20+20 = 70 | nicht erfasst | | |
+| 2024 | B | 24_FOS_Ma_B_LH.pdf | 08.05.2024 | 10 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
+| 2023 | C | 23_FOS_Ma_C_LH.pdf | 05.05.2023 | 8 | 30+20+20 = 70 | erfasst | 14 | 12.09.2026 |
 | 2023 | A | 23_FOS_Ma_A_LH.pdf | 05.05.2023 | 10 | 30+20+20 = 70 | nicht erfasst | | |
 
 Reihenfolge der Erfassung: vom jüngsten zum ältesten. „weiter" nimmt das nächste Heft mit Status „nicht erfasst".
@@ -34,6 +34,20 @@ Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibet
 
 ## Änderungslog
 
+- 12.09.2026 – Heft 2023 C erfasst, 14 Zeilen, 11 Typen neu. Punktsummen 30/20/20 geprüft,
+  Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt, keine sachliche
+  Abweichung; eine Rundungsnotiz (2023-C-1c: f'' an den ungerundeten Extremstellen −222,72 und
+  −42,94 statt amtlich −222,36 und −42,93, ohne Folge, weil nur das Vorzeichen zählt). Dieses Heft
+  hat als einziges keinen Gutachtenbogen: die Datei umfasst 8 Seiten, die Fußzeile zählt bis
+  „Seite 8 von 9"; die Punkteaufteilung stammt daher aus dem Erwartungshorizont. Erste Fundstelle
+  für ein einstufiges Laplace-Experiment (2023-C-3b) – dafür fehlt ein Thema in der Liste.
+- 12.09.2026 – Heft 2024 B erfasst, 16 Zeilen, 9 Typen neu. Punktsummen 30/20/20 geprüft,
+  Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt; zwei Rundungsnotizen
+  (2024-B-1e Wendepunkte mit den ungerundeten Wendestellen −13,63 und 3,98 statt amtlich −13,67
+  und 3,99; 2024-B-2d Stückzahl 22,5 statt amtlich 22,39, Ergebnis 22 in beiden Fällen). Erste
+  Fundstellen für Graph-Deutung ohne Funktionsgleichung (2024-B-1a, 1b) und für die Medianklasse
+  bei klassierten Daten (2024-B-3a). Fußzeile: Aufgabenseiten 24_FOS_Ma_B, Erwartungshorizont und
+  Gutachtenbogen 24_FOS_Ma_EH_B, Datei 24_FOS_Ma_B_LH.pdf.
 - 12.09.2026 – Heft 2024 C erfasst, 17 Zeilen, 9 Typen neu. Punktsummen 30/20/20 geprüft,
   Gesamtsumme 70. Alle Ergebnisse gegen den Erwartungshorizont gestellt; eine Rundungsnotiz
   (2024-C-1d f''(2,77) amtlich 4,16, mit ungerundeter Stelle 4,15, ohne Folge für die Art des
