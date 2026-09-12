@@ -30,18 +30,15 @@ import csv, io, os, re, sys
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2017",
-    "papier": "2017-bb-ea",
-    "datei": "BB_17_Ma_Aufgaben.pdf",
-    "seiten": 10,
-    # Sollpunkte je Aufgabe. Teil 1 aus der gesammelten Tabelle am Ende von
-    # Teil 1, Teil 2 aus der Tabelle am Ende jeder Aufgabe. Werte, die noch
-    # nicht am Heft geprüft sind, weglassen – fehlende Einträge melden.
-    "soll": {"1.1": 5, "1.2": 5, "1.3": 5,
-             "2.1": 50, "2.2": 50, "3.1": 25, "3.2": 10, "4.1": 10, "4.2": 25},
+    "jahr": "2018",
+    "papier": "2018-be-gk",
+    "datei": "18_Ma_GK_Aufgaben.pdf",
+    "seiten": 11,
+    # Sollpunkte je Aufgabe aus der BE-Tabelle am Ende jeder Aufgabe. Das Heft
+    # hat keinen hilfsmittelfreien Teil, deshalb kein soll_teil1.
+    "soll": {"1.1": 40, "1.2": 40, "2.1": 20, "2.2": 20, "3.1": 20, "3.2": 20},
     # Kein soll_gesamt: das Heft enthält Wahlaufgaben, die Summe aller
-    # erfassten Zeilen ist deshalb größer als die 100 BE der Prüfung.
-    "soll_teil1": 15,
+    # erfassten Zeilen ist deshalb größer als die 80 BE der Prüfung.
 }
 
 # ========================================= QUELLEN UND PRÜFUNG, NICHT ÄNDERN
@@ -136,9 +133,10 @@ def row(**kw):
 # ============================================================ ZEILEN JE HEFT
 # Ein Eintrag je Teilaufgabe. Nicht genannte Felder bleiben leer; jahr, papier,
 # stern, afb_amtlich und hilfsmittel setzt row() selbst.
+# Heft 2018-be-gk: kein hilfsmittelfreier Teil, alle Zeilen block B.
 # Vorlage:
-#   row(id="2018-bb-ea-B2.2a", block="B", aufgabe="2.2", titel="Gartenteich",
-#       teilaufgabe="a", seite="7", punkte="5",
+#   row(id="2018-be-gk-B1.1a", block="B", aufgabe="1.1", titel="Skisprunganlage",
+#       teilaufgabe="a", seite="2", punkte="3",
 #       leitidee="Analysis", thema="...", typ="...", typ_neben="",
 #       stichwoerter="...|...", voraussetzungen="",
 #       format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
@@ -148,1451 +146,1281 @@ def row(**kw):
 #       ergebnis="...", zwischenergebnis="",
 #       niveau_geschaetzt="II", fehlerquelle="...", bemerkung="Eigene Rechnung.")
 
-row(id="2017-bb-ea-A1.1a", block="A", aufgabe="1.1", titel="Analysis", teilaufgabe="a",
-    seite="2", punkte="2",
-    leitidee="Analysis", thema="Gleichungen lösen",
-    typ="Nullstelle einer Exponentialfunktion durch Logarithmieren bestimmen",
-    typ_neben="",
-    stichwoerter="Exponentialfunktion|Nullstelle|Logarithmieren|hilfsmittelfrei",
-    voraussetzungen="Exponentialgleichung nach dem Exponenten auflösen|Logarithmus als "
-                    "Umkehrung der Exponentialfunktion kennen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Funktion f mit f(x) = 2 · e^(0,5 · x) − 1; x ∈ IR.",
-    gesucht="Nullstelle der Funktion f",
-    verfahren="f(x) = 0 setzen, nach der Exponentialfunktion auflösen und logarithmieren: "
-              "e^(0,5 · x) = 0,5, also 0,5 · x = ln 0,5.",
-    schritte="3", zahlenraum="dezimal", einheiten="",
-    abhaengig_von="",
-    ergebnis="x = 2 · ln 0,5 = −2 · ln 2 ≈ −1,39",
-    zwischenergebnis="e^(0,5 · x) = 0,5",
-    niveau_geschaetzt="I",
-    fehlerquelle="den Faktor 2 vor der Exponentialfunktion beim Logarithmieren mitziehen oder "
-                 "den Faktor 0,5 im Exponenten vergessen",
-    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Analysis, a) 2 BE); "
-              "an der Aufgabe selbst steht keine Punktangabe. Eigene Rechnung.")
+SKIZZE_11 = ("Profilzeichnung in einem x-y-Koordinatensystem ohne Achsenteilung. Links der "
+             "y-Achse liegt das grau ausgefüllte Bauwerk ABCS: A oben links auf dem Graphen von "
+             "h, B senkrecht darunter, C rechts von B, S senkrecht über C auf der y-Achse; die "
+             "Oberkante von A nach S ist mit h beschriftet und als Anlaufbahn bezeichnet. Rechts "
+             "der y-Achse fällt der mit g beschriftete Aufsprunghang von C aus bis zum "
+             "Tiefpunkt U und steigt danach leicht an; auf dem fallenden Ast ist der Punkt K "
+             "markiert. Die Fläche unter dem Bauwerk und unter dem Aufsprunghang ist "
+             "schraffiert.")
 
-row(id="2017-bb-ea-A1.1b", block="A", aufgabe="1.1", titel="Analysis", teilaufgabe="b",
+SKIZZE_11KS = ("Vorgegebenes Koordinatensystem mit Gitternetz: x-Achse von −10 bis 120 (in m), "
+               "y-Achse von 0 bis über 70 (in m), Rasterweite 10. Eingezeichnet sind der grau "
+               "ausgefüllte Querschnitt des Bauwerks zwischen x = −20 und x = 0 mit der Oberkante "
+               "h sowie der Graph von g, der bei (0 | 50) beginnt, bei (100 | 0) sein Minimum hat "
+               "und danach wieder ansteigt; S ist an der y-Achse beschriftet.")
+
+row(id="2018-be-gk-B1.1a", block="B", aufgabe="1.1", titel="Skisprunganlage", teilaufgabe="a",
     seite="2", punkte="3",
-    leitidee="Analysis", thema="Tangente, Normale, Schnittwinkel",
-    typ="Gleichschenkligkeit des Achsenabschnittsdreiecks einer Tangente nachweisen",
-    typ_neben="Tangentengleichung an einer Stelle ermitteln",
-    stichwoerter="Tangente|Achsenabschnitte|gleichschenkliges Dreieck|hilfsmittelfrei",
-    voraussetzungen="Ableitung der Exponentialfunktion bilden|Punkt-Steigungs-Form aufstellen|"
-                    "Achsenschnittpunkte einer Geraden bestimmen",
-    format="Begründung", operator="Weisen Sie nach", antwort="Text",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Funktion f mit f(x) = 2 · e^(0,5 · x) − 1; x ∈ IR. Die Tangente an den Graphen von f "
-            "im Punkt S(0 | 1) begrenzt mit den beiden Koordinatenachsen ein Dreieck.",
-    gesucht="Nachweis, dass dieses Dreieck gleichschenklig ist",
-    verfahren="f'(x) = e^(0,5 · x), also f'(0) = 1 und t: y = x + 1. Die Schnittpunkte der "
-              "Tangente mit den Achsen sind (0 | 1) und (−1 | 0); das Dreieck ist im "
-              "Koordinatenursprung rechtwinklig, seine beiden Katheten sind je 1 LE lang.",
-    schritte="4", zahlenraum="ganz", einheiten="",
-    abhaengig_von="",
-    ergebnis="t: y = x + 1 mit den Achsenschnittpunkten (−1 | 0) und (0 | 1). Beide Katheten "
-             "haben die Länge 1, das Dreieck ist also gleichschenklig (und zugleich "
-             "rechtwinklig).",
-    zwischenergebnis="f'(0) = 1|t: y = x + 1",
-    niveau_geschaetzt="II",
-    fehlerquelle="die Gleichschenkligkeit an der Zeichnung ablesen, statt die beiden "
-                 "Achsenabschnitte zu berechnen und zu vergleichen",
-    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Analysis, b) 3 BE). "
-              "Eigene Rechnung.")
-
-row(id="2017-bb-ea-A1.2a", block="A", aufgabe="1.2", titel="Analytische Geometrie",
-    teilaufgabe="a", seite="2", punkte="2",
-    leitidee="Analytische Geometrie", thema="Flächeninhalt und Volumen im Raum",
-    typ="Flächeninhalt eines Dreiecks aus den Spurpunkten einer Ebene berechnen",
-    typ_neben="Spurpunkte einer Ebene auf den Koordinatenachsen bestimmen",
-    stichwoerter="Ebene|Spurpunkte|rechtwinkliges Dreieck|hilfsmittelfrei",
-    voraussetzungen="Koordinatengleichung einer Ebene lesen|Flächenformel für das rechtwinklige "
-                    "Dreieck anwenden",
-    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Ebene E: 2x + y − 2z = −18. Der Schnittpunkt von E mit der x-Achse, der Schnittpunkt "
-            "von E mit der y-Achse und der Koordinatenursprung sind die Eckpunkte eines Dreiecks.",
-    gesucht="Flächeninhalt dieses Dreiecks",
-    verfahren="Spurpunkte durch Nullsetzen der jeweils anderen Koordinaten bestimmen: "
-              "S_x(−9 | 0 | 0) und S_y(0 | −18 | 0). Das Dreieck ist im Ursprung rechtwinklig, "
-              "seine Katheten liegen auf den Achsen und sind 9 und 18 LE lang: A = 0,5 · 9 · 18.",
-    schritte="3", zahlenraum="ganz|negativ", einheiten="",
-    abhaengig_von="",
-    ergebnis="S_x(−9 | 0 | 0), S_y(0 | −18 | 0), A = 81 FE",
-    zwischenergebnis="S_x(−9 | 0 | 0)|S_y(0 | −18 | 0)",
-    niveau_geschaetzt="II",
-    fehlerquelle="die negativen Achsenabschnitte als negative Seitenlängen in die Flächenformel "
-                 "einsetzen",
-    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Geometrie, a) 2 BE). "
-              "Eigene Rechnung.")
-
-row(id="2017-bb-ea-A1.2b", block="A", aufgabe="1.2", titel="Analytische Geometrie",
-    teilaufgabe="b", seite="2", punkte="3",
-    leitidee="Analytische Geometrie", thema="Ebenen",
-    typ="Normalenvektor als Ortsvektor eines Ebenenpunktes bestimmen",
-    typ_neben="",
-    stichwoerter="Normalenvektor|Ortsvektor|Punktprobe|hilfsmittelfrei",
-    voraussetzungen="Normalenvektor aus der Koordinatenform ablesen|Vielfache eines Vektors "
-                    "ansetzen|lineare Gleichung lösen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Term",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Ebene E: 2x + y − 2z = −18.",
-    gesucht="Koordinaten des Vektors, der zugleich Normalenvektor von E und Ortsvektor eines "
-            "Punktes der Ebene E ist",
-    verfahren="Jeder Normalenvektor ist ein Vielfaches von (2 | 1 | −2). Diesen Ansatz "
-              "t · (2 | 1 | −2) als Punkt in die Ebenengleichung einsetzen: "
-              "4t + t + 4t = −18, also 9t = −18.",
-    schritte="3", zahlenraum="ganz|negativ", einheiten="",
-    abhaengig_von="",
-    ergebnis="t = −2, der gesuchte Vektor ist (−4 | −2 | 4).",
-    zwischenergebnis="Ansatz t · (2 | 1 | −2)|9t = −18",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Normalenvektor selbst einsetzen und aus dem Widerspruch schließen, es gebe "
-                 "keinen solchen Vektor, statt ein Vielfaches anzusetzen",
-    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Geometrie, b) 3 BE). "
-              "Eigene Rechnung.")
-
-row(id="2017-bb-ea-A1.3a", block="A", aufgabe="1.3", titel="Stochastik", teilaufgabe="a",
-    seite="2", punkte="2",
-    leitidee="Stochastik", thema="Baumdiagramm und Pfadregeln",
-    typ="Wahrscheinlichkeit bei zweistufigem Umlegen zwischen Urnen berechnen",
-    typ_neben="",
-    stichwoerter="Urnen|Umlegen|Pfadregel|Fallunterscheidung|hilfsmittelfrei",
-    voraussetzungen="Pfadregeln anwenden|veränderte Urneninhalte nach dem ersten Zug "
-                    "berücksichtigen",
-    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
-    material="Figur",
-    skizze="Drei nach oben offene, rechteckig gezeichnete Urnen nebeneinander, beschriftet mit "
-           "Urne A, Urne B und Urne C. Urne A enthält vier Kugeln (zwei weiße, zwei schwarze), "
-           "Urne B drei Kugeln (zwei weiße, eine schwarze), Urne C zwei weiße Kugeln. Schwarze "
-           "Kugeln sind ausgefüllt, weiße nur umrandet gezeichnet.",
-    kontext="ohne", textumfang="mittel",
-    gegeben="Drei Urnen: Urne A mit zwei weißen und zwei schwarzen Kugeln, Urne B mit zwei weißen "
-            "und einer schwarzen Kugel, Urne C mit zwei weißen Kugeln. Aus Urne A wird zunächst "
-            "eine Kugel zufällig entnommen und in Urne B gelegt, anschließend wird aus Urne B "
-            "eine Kugel zufällig entnommen und in Urne C gelegt.",
-    gesucht="Wahrscheinlichkeit dafür, dass sich danach in Urne C zwei weiße und eine schwarze "
-            "Kugel befinden",
-    verfahren="In Urne C liegen bereits zwei weiße Kugeln; das Ereignis tritt genau dann ein, "
-              "wenn die zweite gezogene Kugel schwarz ist. Zwei Pfade: Urne A liefert schwarz "
-              "(Wahrscheinlichkeit 2/4), dann enthält B zwei weiße und zwei schwarze Kugeln "
-              "(2/4); Urne A liefert weiß (2/4), dann enthält B drei weiße und eine schwarze "
-              "Kugel (1/4). Pfadwahrscheinlichkeiten multiplizieren und addieren.",
-    schritte="4", zahlenraum="Bruch", einheiten="",
-    abhaengig_von="",
-    ergebnis="P = 0,5 · 0,5 + 0,5 · 0,25 = 3/8 = 0,375",
-    zwischenergebnis="Pfad schwarz–schwarz: 1/4|Pfad weiß–schwarz: 1/8",
-    niveau_geschaetzt="II",
-    fehlerquelle="übersehen, dass sich der Inhalt von Urne B durch die umgelegte Kugel ändert, "
-                 "und mit unveränderten Wahrscheinlichkeiten rechnen",
-    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Stochastik, a) "
-              "2 BE). Die Urneninhalte stehen nur in der Abbildung. Eigene Rechnung.")
-
-row(id="2017-bb-ea-A1.3b", block="A", aufgabe="1.3", titel="Stochastik", teilaufgabe="b",
-    seite="2", punkte="3",
-    leitidee="Stochastik", thema="Kenngrößen von Verteilungen",
-    typ="Auszahlung eines fairen Spiels aus der Fairnessbedingung bestimmen",
-    typ_neben="Totale Wahrscheinlichkeit bei zufälliger Auswahl einer Urne berechnen",
-    stichwoerter="Glücksspiel|faires Spiel|Erwartungswert|totale Wahrscheinlichkeit|"
-                 "hilfsmittelfrei",
-    voraussetzungen="Pfadregeln anwenden|Erwartungswert einer Zufallsgröße bilden|lineare "
-                    "Gleichung lösen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="Figur",
-    skizze="Dieselbe Abbildung wie in Teilaufgabe a: drei nach oben offene Urnen nebeneinander, "
-           "Urne A mit zwei weißen und zwei schwarzen, Urne B mit zwei weißen und einer "
-           "schwarzen, Urne C mit zwei weißen Kugeln; schwarze Kugeln ausgefüllt, weiße "
-           "umrandet.",
-    kontext="Glücksspiel", textumfang="mittel",
-    gegeben="Drei Urnen mit den Inhalten der Abbildung: A mit zwei weißen und zwei schwarzen, B "
-            "mit zwei weißen und einer schwarzen, C mit zwei weißen Kugeln. Spielregel: Es wird "
-            "ein Einsatz von 1 Euro eingezahlt, danach wird eine der drei Urnen zufällig "
-            "ausgewählt und aus dieser eine Kugel zufällig gezogen. Nur bei einer schwarzen "
-            "Kugel wird ein bestimmter Geldbetrag ausgezahlt.",
-    gesucht="Höhe des Geldbetrags, damit Einsätze und Auszahlungen auf lange Sicht ausgeglichen "
-            "sind",
-    verfahren="Wahrscheinlichkeit für Schwarz über die drei gleich wahrscheinlichen Urnen: "
-              "1/3 · (2/4 + 1/3 + 0) = 5/18. Fairness bedeutet, dass der erwartete Gewinn null "
-              "ist: Auszahlung · 5/18 = 1 Euro.",
-    schritte="4", zahlenraum="Bruch|dezimal", einheiten="Euro",
-    abhaengig_von="",
-    ergebnis="P(schwarz) = 5/18; die Auszahlung muss 18/5 Euro = 3,60 Euro betragen.",
-    zwischenergebnis="P(schwarz) = 1/3 · (1/2 + 1/3 + 0) = 5/18",
-    niveau_geschaetzt="II",
-    fehlerquelle="die Wahrscheinlichkeiten der drei Urnen addieren, ohne sie vorher mit 1/3 zu "
-                 "gewichten, oder die leere Urne C auslassen",
-    bemerkung="BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Stochastik, b) "
-              "3 BE). Ausgeglichen heißt hier: erwartete Auszahlung gleich Einsatz; die "
-              "Auszahlung schließt den Einsatz ein. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.1a", block="B", aufgabe="2.1", titel="Eisbecher", teilaufgabe="a",
-    seite="4", punkte="8",
     leitidee="Analysis", thema="Funktionsklassen und Eigenschaften",
-    typ="Definitionsbereich einer Logarithmusfunktion angeben",
-    typ_neben="Gemeinsamen Punkt aller Graphen einer Schar nachweisen|Parameterwert einer Schar "
-              "aus einer Funktionswertbedingung exakt bestimmen",
-    stichwoerter="Logarithmusfunktion|Definitionsbereich|Funktionenschar|gemeinsamer Punkt",
-    voraussetzungen="Definitionsbereich des natürlichen Logarithmus kennen|Logarithmusgleichung "
-                    "exponenzieren|mit dem Parameter rechnen",
-    format="Kurzantwort|Begründung|Rechnung",
-    operator="Geben Sie an|Zeigen Sie|Ermitteln Sie", antwort="Term|Text|Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Funktionenschar f_a mit f_a(x) = ln(a · x² + 1); a ∈ IR, a > 0. Die Graphen dieser "
-            "Funktionen sind G_a.",
-    gesucht="Definitionsbereich von f_a; Nachweis, dass alle Graphen G_a durch den "
-            "Koordinatenursprung verlaufen; exakter Wert von a mit f_a(2) = 2",
-    verfahren="Für a > 0 ist a · x² + 1 ≥ 1 > 0, der Logarithmus also für jedes x definiert. "
-              "f_a(0) = ln 1 = 0 unabhängig von a. Aus ln(4a + 1) = 2 folgt durch Exponenzieren "
-              "4a + 1 = e², also a = (e² − 1)/4.",
-    schritte="4", zahlenraum="ganz|Potenz", einheiten="",
+    typ="Vertikalen Abstand zweier Punkte als Differenz von Funktionswerten berechnen",
+    typ_neben="Schnittpunkt mit der y-Achse angeben",
+    stichwoerter="Skisprunganlage|Funktionswert|Höhenunterschied|Bauwerk",
+    voraussetzungen="Funktionswerte einsetzen|Lage der Punkte aus der Abbildung entnehmen",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="Skizze", skizze=SKIZZE_11, kontext="Skisprunganlage", textumfang="mittel",
+    gegeben="Profil einer Skisprunganlage mit g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000) für "
+            "den Aufsprunghang und h(x) = 0,05x² + 54 für die Anlaufbahn, 1 LE = 1 m. Die "
+            "Anlaufbahn ist die Oberseite des Bauwerks ABCS und verläuft von A bis S auf dem "
+            "Graphen von h. S und C liegen auf der y-Achse, die Strecke von B nach C ist "
+            "waagerecht und 20 m lang.",
+    gesucht="Höhenunterschied zwischen S und C; Länge der Strecke von A nach B",
+    verfahren="S und C sind die Schnittpunkte der beiden Graphen mit der y-Achse: h(0) = 54 und "
+              "g(0) = 50, also liegt S 4 m höher. Da BC waagerecht und 20 m lang ist, hat B die "
+              "x-Koordinate −20 und die Höhe von C; A liegt senkrecht darüber auf dem Graphen von "
+              "h. Die Länge von AB ist die Differenz h(−20) − 50.",
+    schritte="4", zahlenraum="ganz|dezimal|negativ", einheiten="m",
     abhaengig_von="",
-    ergebnis="D = IR. Wegen f_a(0) = ln 1 = 0 verläuft jeder Graph G_a durch O(0 | 0). "
-             "a = (e² − 1)/4 ≈ 1,597",
-    zwischenergebnis="4a + 1 = e²",
+    ergebnis="S liegt 4 m höher als C. A(−20 | 74) und B(−20 | 50), also ist die Strecke AB "
+             "24 m lang.",
+    zwischenergebnis="h(0) = 54|g(0) = 50|h(−20) = 74",
     niveau_geschaetzt="II",
-    fehlerquelle="den Definitionsbereich ohne Rücksicht auf a > 0 einschränken oder den exakten "
-                 "Wert von a durch einen gerundeten ersetzen",
-    bemerkung="Drei Leistungen in einer Einheit; thema folgt dem ersten Typ, die beiden weiteren "
-              "Themen erscheinen nur über typ_neben. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.1b", block="B", aufgabe="2.1", titel="Eisbecher", teilaufgabe="b",
-    seite="4", punkte="8",
-    leitidee="Analysis", thema="Funktionsscharen und Ortskurven",
-    typ="Gemeinsamen Extrempunkt einer Funktionenschar nachweisen",
-    typ_neben="Art eines Extrempunktes über den Vorzeichenwechsel der ersten Ableitung begründen",
-    stichwoerter="Funktionenschar|gemeinsamer Extrempunkt|Vorzeichenwechsel|Tiefpunkt",
-    voraussetzungen="Kettenregel anwenden|Ableitung des natürlichen Logarithmus kennen|"
-                    "Vorzeichenwechselkriterium kennen",
-    format="Begründung|Rechnung", operator="Zeigen Sie|Begründen Sie", antwort="Text|Term",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Funktionenschar f_a mit f_a(x) = ln(a · x² + 1); a ∈ IR, a > 0, mit den Graphen G_a.",
-    gesucht="Nachweis, dass alle Graphen G_a einen gemeinsamen lokalen Extrempunkt haben; "
-            "Begründung ohne Zuhilfenahme der zweiten Ableitung, dass dieser Extrempunkt für "
-            "a > 0 ein Tiefpunkt ist",
-    verfahren="f_a'(x) = 2a · x / (a · x² + 1). Der Nenner ist stets positiv, also ist x = 0 für "
-              "jedes a die einzige Nullstelle der Ableitung; f_a(0) = 0 liefert für alle Graphen "
-              "denselben Punkt. Der Zähler 2a · x wechselt bei a > 0 an der Stelle 0 das "
-              "Vorzeichen von minus nach plus, also liegt ein Tiefpunkt vor.",
-    schritte="4", zahlenraum="ganz", einheiten="",
-    abhaengig_von="",
-    ergebnis="f_a'(x) = 2a · x / (a · x² + 1) mit der einzigen Nullstelle x = 0 und f_a(0) = 0: "
-             "alle Graphen haben den gemeinsamen Extrempunkt T(0 | 0). Für x < 0 ist "
-             "f_a'(x) < 0, für x > 0 ist f_a'(x) > 0 – Vorzeichenwechsel von minus nach plus, "
-             "also ein Tiefpunkt.",
-    zwischenergebnis="f_a'(x) = 2a · x / (a · x² + 1)|f_a(0) = 0",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Nenner als möglichen Nullfaktor behandeln oder die geforderte Begründung "
-                 "doch über die zweite Ableitung führen",
-    bemerkung="Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.1c", block="B", aufgabe="2.1", titel="Eisbecher", teilaufgabe="c",
-    seite="4", punkte="14",
-    leitidee="Analysis", thema="Tangente, Normale, Schnittwinkel",
-    typ="Schranke für den Anstieg der Tangenten einer Schar begründen",
-    typ_neben="Tangentengleichung an einer Stelle ermitteln|Normalengleichung an einer Stelle "
-              "ermitteln|Flächeninhalt des von Tangente, Normale und y-Achse begrenzten Dreiecks "
-              "berechnen",
-    stichwoerter="Tangentenschar|Anstiegsschranke|Normale|Dreiecksfläche",
-    voraussetzungen="Ableitung einer Schar bilden|Term durch Polynomdivision oder Umformen "
-                    "abschätzen|Normale als Gerade mit dem negativen Kehrwert des Anstiegs "
-                    "aufstellen",
-    format="Begründung|Rechnung", operator="Begründen Sie|Ermitteln Sie", antwort="Text|Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
-    gegeben="Funktionenschar f_a mit f_a(x) = ln(a · x² + 1), a > 0. Die Tangenten an G_a im "
-            "Punkt B_a(1 | f_a(1)) sind t_a. Für a = 1 ist f_1(x) = ln(x² + 1) mit "
-            "B_1(1 | ln 2). [Kontrollergebnis: t_1: y = x + ln 2 − 1]",
-    gesucht="Begründung, dass keine der Tangenten t_a einen Anstieg größer als 2 haben kann; "
-            "Flächeninhalt des Dreiecks, das von der y-Achse sowie der Tangente und der Normalen "
-            "an G_1 im Punkt B_1 begrenzt wird",
-    verfahren="Anstieg m(a) = f_a'(1) = 2a/(a + 1) = 2 − 2/(a + 1); für a > 0 ist der "
-              "Subtrahend positiv, also m(a) < 2. Für a = 1 ist m = 1, damit t_1: y = x + ln 2 − 1 "
-              "und n_1: y = −x + ln 2 + 1. Beide Geraden schneiden die y-Achse in ln 2 − 1 und "
-              "ln 2 + 1; die Grundseite auf der y-Achse ist 2 LE lang, die zugehörige Höhe ist "
-              "der x-Abstand 1 des Punktes B_1.",
-    schritte="7", zahlenraum="ganz", einheiten="",
-    abhaengig_von="",
-    ergebnis="m(a) = 2a/(a + 1) = 2 − 2/(a + 1) < 2 für alle a > 0, der Anstieg bleibt also "
-             "stets unter 2. t_1: y = x + ln 2 − 1, n_1: y = −x + ln 2 + 1; das Dreieck hat die "
-             "Grundseite 2 und die Höhe 1, sein Flächeninhalt ist A = 1 FE.",
-    zwischenergebnis="m(a) = 2a/(a + 1)|t_1: y = x + ln 2 − 1|n_1: y = −x + ln 2 + 1|"
-                     "Achsenschnittpunkte (0 | ln 2 − 1) und (0 | ln 2 + 1)",
-    niveau_geschaetzt="III",
-    fehlerquelle="den Grenzwert 2 des Anstiegs als angenommenen Wert deuten statt als obere "
-                 "Schranke, oder bei der Dreiecksfläche die Grundseite auf der y-Achse mit der "
-                 "Höhe verwechseln",
-    bemerkung="Das Kontrollergebnis t_1 ist im Heft abgedruckt und durch eigene Rechnung "
-              "bestätigt. Mit 14 BE die umfangreichste Teilaufgabe des Hefts. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.1d", block="B", aufgabe="2.1", titel="Eisbecher", teilaufgabe="d",
-    seite="4", punkte="4",
-    leitidee="Analysis", thema="Rotationsvolumen",
-    typ="Umbeschriebenes Prisma zu einem Rotationskörper bestimmen",
-    typ_neben="",
-    stichwoerter="Rotationskörper|maximaler Radius|Verpackung|Maßstab",
-    voraussetzungen="Randwerte einer Funktion berechnen|Längenmaßstab 1 LE = 4 cm anwenden|"
-                    "Durchmesser aus dem Radius bilden",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="Figur",
-    skizze="Halber Längsquerschnitt eines Eisbechers im ersten Quadranten: zwei von links unten "
-           "nach rechts oben verlaufende Kurven, innen der Graph G_h, außen der Graph G_k; die "
-           "dunkel getönte Fläche zwischen beiden ist die Becherwand, die hellere Fläche links "
-           "davon der Innenraum. Unten sitzt zwischen x-Achse und der Parabel p der Fuß. Auf der "
-           "x-Achse ist 1 beschriftet, auf der y-Achse 1 und 2; rechts begrenzt eine gestrichelte "
-           "Senkrechte bei x = 1,5 die Fläche.",
-    kontext="Verpackung / Eisbecher", textumfang="lang",
-    gegeben="Der halbe Längsquerschnitt eines Eisbechers wird im Intervall [0; 1,5] durch Teile "
-            "der Graphen von h mit h(x) = 0,75 · f_2(x) + 1 = 0,75 · ln(2x² + 1) + 1 und von k "
-            "mit k(x) = 1,75 · ln(2,5x + 1) − 0,5, eine zur y-Achse symmetrische quadratische "
-            "Parabel p und die beiden Koordinatenachsen begrenzt. Der Eisbecher entsteht durch "
-            "Rotation dieser Fläche um die y-Achse, 1 LE = 4 cm. Je zwölf Eisbecher werden "
-            "stehend in einem quaderförmigen Karton mit zwölf gleich großen quaderförmigen "
-            "Fächern verpackt.",
-    gesucht="Kantenlängen, die ein Fach für einen stehenden Eisbecher mindestens haben muss",
-    verfahren="Der größte Radius des Rotationskörpers ist der Randwert x = 1,5 LE, also 6 cm; die "
-              "Grundfläche eines Fachs muss deshalb mindestens 12 cm mal 12 cm messen. Die Höhe "
-              "ist der größte Funktionswert am rechten Rand: h(1,5) = 0,75 · ln 5,5 + 1.",
-    schritte="4", zahlenraum="dezimal", einheiten="cm",
-    abhaengig_von="",
-    ergebnis="Ein Fach muss mindestens 12 cm mal 12 cm messen und rund 9,2 cm hoch sein "
-             "(Radius 1,5 LE = 6 cm; Höhe h(1,5) ≈ 2,279 LE ≈ 9,11 cm).",
-    zwischenergebnis="h(1,5) = 0,75 · ln 5,5 + 1 ≈ 2,279|Durchmesser 2 · 1,5 LE = 12 cm",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Radius statt des Durchmessers als Kantenlänge nehmen oder die Umrechnung "
-                 "1 LE = 4 cm vergessen",
-    bemerkung="Die Becherhöhe ist der Funktionswert von h am Rand x = 1,5, nicht der von k "
-              "(k(1,5) ≈ 2,227). Der vorhandene Typ ist übernommen; seine Definition nennt "
-              "bislang nur Grundfläche und Mindestvolumen, hier sind es Grundfläche und Höhe. "
-              "Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.1e", block="B", aufgabe="2.1", titel="Eisbecher", teilaufgabe="e",
-    seite="4", punkte="9",
-    leitidee="Analysis", thema="Rekonstruktion von Funktionsgleichungen",
-    typ="Parabelgleichung aus Symmetrie und einer Flächenbedingung rekonstruieren",
-    typ_neben="",
-    stichwoerter="Parabel|Symmetrie|Flächenbedingung|Maßstab|Rekonstruktion",
-    voraussetzungen="Integral einer quadratischen Funktion bilden|Flächenmaßstab 1 FE = 16 cm² "
-                    "anwenden|Ansatz mit Symmetrie verkürzen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Term",
-    material="Figur",
-    skizze="Im halben Längsquerschnitt des Eisbechers liegt unten am Fuß die zur y-Achse "
-           "symmetrische Parabel p; die dunkel getönte Fläche zwischen ihr und der x-Achse reicht "
-           "von der y-Achse bis zur Nullstelle der Parabel bei x = 1 und ist am linken Rand "
-           "0,2 LE hoch.",
-    kontext="Verpackung / Eisbecher", textumfang="mittel",
-    gegeben="Der Fuß des Eisbechers, dessen oberer Rand im Querschnitt durch die zur y-Achse "
-            "symmetrische quadratische Parabel p modelliert wird, hat am Boden einen Durchmesser "
-            "von 8 cm und eine Querschnittsfläche von 64/15 cm². Es gilt 1 LE = 4 cm. "
-            "[Kontrollergebnis: p(x) = −0,2x² + 0,2]",
-    gesucht="Gleichung der Parabel p",
-    verfahren="Symmetrie zur y-Achse liefert den Ansatz p(x) = a · x² + c. Der Durchmesser 8 cm "
-              "entspricht 2 LE, also ist p(1) = 0 und damit a = −c, das heißt "
-              "p(x) = c · (1 − x²). Die Querschnittsfläche 64/15 cm² entspricht wegen "
-              "1 FE = 16 cm² genau 4/15 FE. Aus dem Integral von −1 bis 1 über c · (1 − x²) "
-              "folgt 4c/3 = 4/15.",
-    schritte="5", zahlenraum="dezimal|Bruch", einheiten="cm|cm²",
-    abhaengig_von="",
-    ergebnis="c = 0,2, also p(x) = −0,2x² + 0,2",
-    zwischenergebnis="Ansatz p(x) = c · (1 − x²)|Fläche in Flächeneinheiten: 4c/3|"
-                     "64/15 cm² = 4/15 FE",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Querschnittsfläche ohne die Umrechnung 1 FE = 16 cm² einsetzen oder nur "
-                 "die halbe Fläche von 0 bis 1 ansetzen",
-    bemerkung="Das Kontrollergebnis ist im Heft abgedruckt und durch eigene Rechnung bestätigt; "
-              "die Bestätigung gelingt nur mit der vollen Querschnittsfläche von −1 bis 1. "
-              "Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.1f", block="B", aufgabe="2.1", titel="Eisbecher", teilaufgabe="f",
-    seite="4", punkte="7",
-    leitidee="Analysis", thema="Rotationsvolumen",
-    typ="Fehlerhaftes Verfahren zur Volumenberechnung beurteilen und berichtigen",
-    typ_neben="Rotationsvolumen um die y-Achse über die Umkehrfunktion aufstellen|"
-              "Volumenmaßstab zwischen Modell und Wirklichkeit umrechnen",
-    stichwoerter="Rotation um die y-Achse|Volumenmaßstab|Dichte|Fehleranalyse",
-    voraussetzungen="Formel für das Rotationsvolumen um die y-Achse kennen|Umkehrung einer "
-                    "Parabel bilden|Masse als Produkt aus Volumen und Dichte kennen",
-    format="Begründung", operator="Beurteilen Sie|Beschreiben Sie", antwort="Text",
-    material="keins",
-    skizze="Im Heft ist zu dieser Teilaufgabe keine Abbildung vorgegeben; eine Skizze ist "
-           "ausdrücklich freigestellt. Sinnvoll ist der Fuß als Rotationskörper um die y-Achse "
-           "mit der Parabel p als oberem Rand und einer waagerechten Scheibe der Dicke Δy mit "
-           "dem Radius x(y).",
-    kontext="Verpackung / Eisbecher", textumfang="lang",
-    gegeben="Der Fuß des Eisbechers entsteht durch Rotation der Fläche zwischen der Parabel p mit "
-            "p(x) = −0,2x² + 0,2 und der x-Achse um die y-Achse; es gilt 1 LE = 4 cm. Zur "
-            "Berechnung der Masse des Fußes geht ein Schüler so vor: (1) Volumen in VE über "
-            "V = π · Integral von 0 bis 1 über (p(x))² dx; (2) Umwandeln in cm³ über den Ansatz "
-            "1 VE / 4 cm³ = V / V(cm³); (3) Multiplizieren des erhaltenen Wertes mit der Dichte "
-            "des Materials.",
-    gesucht="Beurteilung der drei Teilschritte jeweils einzeln und Beschreibung, wie fehlerhafte "
-            "Schritte zu berichtigen sind",
-    verfahren="Schritt 1 gehört zur Rotation um die x-Achse. Bei Rotation um die y-Achse ist über "
-              "y zu integrieren: aus y = −0,2x² + 0,2 folgt x² = 1 − 5y, also "
-              "V = π · Integral von 0 bis 0,2 über (1 − 5y) dy. Schritt 2 überträgt den "
-              "Längenmaßstab ohne Potenzierung: aus 1 LE = 4 cm folgt 1 VE = 4³ cm³ = 64 cm³. "
-              "Schritt 3 ist richtig, sofern Volumen und Dichte in zueinander passenden "
-              "Einheiten stehen.",
-    schritte="5", zahlenraum="dezimal|Potenz", einheiten="cm³",
-    abhaengig_von="2017-bb-ea-B2.1e",
-    ergebnis="(1) falsch – die Rotation um die y-Achse verlangt "
-             "V = π · Integral von 0 bis 0,2 über (1 − 5y) dy = 0,1 · π VE ≈ 0,314 VE. "
-             "(2) falsch – es gilt 1 VE = 64 cm³, nicht 4 cm³; der Wert ist mit 64 zu "
-             "multiplizieren, hier also rund 20,1 cm³. (3) richtig – die Masse ist das Produkt "
-             "aus Volumen und Dichte, wenn die Einheiten zusammenpassen.",
-    zwischenergebnis="x² = 1 − 5y|V = 0,1 · π VE ≈ 0,314 VE|V ≈ 20,1 cm³",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Rotationsachse nicht prüfen und den Ansatz für die x-Achse übernehmen, oder "
-                 "den Längenmaßstab ohne dritte Potenz auf das Volumen übertragen",
-    bemerkung="Die Zahlenwerte 0,314 VE und 20,1 cm³ sind eigene Rechnung; das Heft verlangt nur "
-              "die Beurteilung und die Berichtigung. Das Feld skizze beschreibt eine "
-              "freigestellte, vom Prüfling zu erstellende Darstellung, nicht vorhandenes "
-              "Aufgabenmaterial. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.2a", block="B", aufgabe="2.2", titel="Straßenverlauf", teilaufgabe="a",
-    seite="5", punkte="6",
-    leitidee="Analysis", thema="Grenzwerte und Verhalten im Unendlichen",
-    typ="Grenzverhalten einer Exponentialfunktion untersuchen",
-    typ_neben="Nullstellenfreiheit über das Vorzeichen des Funktionsterms begründen|"
-              "Achsensymmetrie am Funktionsterm nachweisen",
-    stichwoerter="Funktionenschar|Grenzverhalten|Nullstellenfreiheit|Achsensymmetrie",
-    voraussetzungen="Verhalten der Exponentialfunktion für große und kleine Argumente kennen|"
-                    "Symmetriekriterium f(−x) = f(x) anwenden",
-    format="Kurzantwort|Begründung", operator="Geben Sie an|Begründen Sie|Weisen Sie nach",
-    antwort="Term|Text",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Funktionenschar f_a mit f_a(x) = e^(2ax) + e^(−2ax); x ∈ IR, a ∈ IR, a ≠ 0. Die "
-            "zugehörigen Graphen sind G_a.",
-    gesucht="Verhalten der Funktionswerte für a > 0 bei x → +∞ und bei x → −∞; Begründung, dass "
-            "keine Funktion f_a eine Nullstelle hat; Nachweis, dass alle Graphen G_a "
-            "achsensymmetrisch zur y-Achse verlaufen",
-    verfahren="Für a > 0 wächst e^(2ax) bei x → +∞ unbeschränkt, während e^(−2ax) gegen null "
-              "geht; bei x → −∞ vertauschen sich die Rollen. Beide Summanden sind stets positiv, "
-              "also ist f_a(x) > 0. Für die Symmetrie f_a(−x) bilden und mit f_a(x) vergleichen.",
-    schritte="4", zahlenraum="ganz|Potenz", einheiten="",
-    abhaengig_von="",
-    ergebnis="Für a > 0 gilt f_a(x) → +∞ sowohl für x → +∞ als auch für x → −∞. Als Summe zweier "
-             "stets positiver Exponentialterme ist f_a(x) > 0, es gibt also keine Nullstelle. "
-             "Wegen f_a(−x) = e^(−2ax) + e^(2ax) = f_a(x) ist jeder Graph achsensymmetrisch zur "
-             "y-Achse.",
-    zwischenergebnis="f_a(−x) = e^(−2ax) + e^(2ax)",
-    niveau_geschaetzt="II",
-    fehlerquelle="beim Grenzverhalten nur den wachsenden Summanden betrachten und das Vorzeichen "
-                 "von a außer Acht lassen",
-    bemerkung="Drei Leistungen in einer Einheit; thema folgt dem ersten Typ. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.2b", block="B", aufgabe="2.2", titel="Straßenverlauf", teilaufgabe="b",
-    seite="5", punkte="10",
-    leitidee="Analysis", thema="Funktionsscharen und Ortskurven",
-    typ="Gemeinsamen Extrempunkt einer Funktionenschar nachweisen",
-    typ_neben="Art eines Extrempunktes über die zweite Ableitung bestimmen|Fehlen von "
-              "Wendepunkten über die zweite Ableitung nachweisen",
-    stichwoerter="Funktionenschar|gemeinsamer Tiefpunkt|zweite Ableitung|Wendepunkte",
-    voraussetzungen="Ableitung von Exponentialfunktionen mit Kettenregel bilden|Exponential"
-                    "gleichung lösen|hinreichendes Kriterium für Extrem- und Wendestellen kennen",
-    format="Rechnung|Begründung", operator="Zeigen Sie|Ermitteln Sie|Untersuchen Sie",
-    antwort="Term|Text",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Funktionenschar f_a mit f_a(x) = e^(2ax) + e^(−2ax); x ∈ IR, a ∈ IR, a ≠ 0, mit den "
-            "Graphen G_a.",
-    gesucht="Nachweis, dass alle Graphen G_a denselben lokalen Extrempunkt besitzen; dessen Art "
-            "und Koordinaten; Untersuchung auf mögliche Wendepunkte",
-    verfahren="f_a'(x) = 2a · (e^(2ax) − e^(−2ax)); Nullsetzen führt auf e^(4ax) = 1 und damit "
-              "auf x = 0 für jedes a, mit f_a(0) = 2. f_a''(x) = 4a² · (e^(2ax) + e^(−2ax)) ist "
-              "für a ≠ 0 stets positiv: an der Stelle 0 liegt ein Tiefpunkt, und weil die zweite "
-              "Ableitung nirgends null wird, gibt es keine Wendepunkte.",
-    schritte="6", zahlenraum="ganz|Potenz", einheiten="",
-    abhaengig_von="",
-    ergebnis="Alle Graphen haben den gemeinsamen Tiefpunkt T(0 | 2). Wegen "
-             "f_a''(x) = 4a² · f_a(x) > 0 für alle x besitzt kein Graph G_a einen Wendepunkt.",
-    zwischenergebnis="f_a'(x) = 2a · (e^(2ax) − e^(−2ax))|e^(4ax) = 1|f_a''(x) = 4a² · f_a(x)",
-    niveau_geschaetzt="II",
-    fehlerquelle="aus e^(4ax) = 1 auf 4ax = 1 statt auf 4ax = 0 schließen oder die Wendepunkte "
-                 "nur an einem Beispielgraphen prüfen",
-    bemerkung="Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.2c", block="B", aufgabe="2.2", titel="Straßenverlauf", teilaufgabe="c",
-    seite="5|6", punkte="9",
-    leitidee="Analysis", thema="Extremalprobleme",
-    typ="Dreieck zu Schnittpunkten mit einer Parallelen zur x-Achse einzeichnen",
-    typ_neben="Existenz eines Flächenmaximums ohne Rechnung begründen|Zielfunktion für den "
-              "Flächeninhalt eines Dreiecks aufstellen",
-    stichwoerter="Parallele zur x-Achse|Dreieck|Zielfunktion|Randverhalten|Maximum",
-    voraussetzungen="Achsensymmetrie des Graphen nutzen|Flächenformel für das Dreieck anwenden|"
-                    "offene und abgeschlossene Intervalle unterscheiden",
-    format="Zeichnen|Begründung|Rechnung",
-    operator="Zeichnen Sie ein|Begründen Sie|Ermitteln Sie", antwort="Grafik|Text|Term",
-    material="Koordinatensystem",
-    skizze="Vorgegeben ist ein Koordinatensystem von x = −6 bis 6 und y = 0 bis etwa 7,5 mit dem "
-           "bereits eingezeichneten Graphen G_0,15: eine nach oben geöffnete, zur y-Achse "
-           "symmetrische Kurve mit dem Tiefpunkt (0 | 2), die am Rand bei x = ±6 etwa den Wert "
-           "7,3 erreicht, beschriftet mit G_0,15. Einzuzeichnen sind eine Parallele zur x-Achse "
-           "y = k mit 2 < k < 6, deren beide Schnittpunkte A_k und B_k mit dem Graphen und das "
-           "Dreieck A_k B_k C mit C(0 | 6).",
-    kontext="ohne", textumfang="lang",
-    gegeben="Funktionenschar f_a mit f_a(x) = e^(2ax) + e^(−2ax); für a = 0,15 ist "
-            "f_0,15(x) = e^(0,3x) + e^(−0,3x) mit dem Graphen G_0,15. Dieser wird von den "
-            "Parallelen zur x-Achse mit der Gleichung y = k; 2 < k < 6 in den Punkten A_k und "
-            "B_k geschnitten. A_k, B_k und der Punkt C(0 | 6) bilden ein Dreieck. Ein "
-            "Koordinatensystem mit dem Graphen G_0,15 ist auf der Folgeseite abgedruckt.",
-    gesucht="Zeichnung eines der möglichen Dreiecke A_k B_k C; Begründung ohne Rechnung, dass "
-            "keines der Dreiecke einen minimalen Flächeninhalt haben kann, wohl aber eines einen "
-            "maximalen; Gleichung für den Flächeninhalt in Abhängigkeit vom x-Wert des im "
-            "I. Quadranten liegenden Eckpunktes",
-    verfahren="Wegen der Achsensymmetrie liegen A_k und B_k spiegelbildlich zur y-Achse: ist u "
-              "der x-Wert des Eckpunktes im I. Quadranten, so ist die Grundseite 2u lang und die "
-              "Höhe 6 − k = 6 − f_0,15(u). Für k gegen 2 schrumpft die Grundseite, für k gegen 6 "
-              "die Höhe gegen null; da beide Randwerte wegen 2 < k < 6 nicht angenommen werden, "
-              "gibt es kein kleinstes Dreieck, wegen der Stetigkeit im Inneren aber ein größtes.",
-    schritte="5", zahlenraum="dezimal|Potenz", einheiten="",
-    abhaengig_von="",
-    ergebnis="A(u) = u · (6 − e^(0,3u) − e^(−0,3u)). Ein minimaler Flächeninhalt existiert nicht, "
-             "weil die Fläche an den offenen Rändern k → 2 und k → 6 beliebig klein wird, ohne "
-             "den Wert null anzunehmen; ein maximaler Flächeninhalt existiert, weil die Fläche "
-             "im offenen Inneren stetig und positiv ist und zu beiden Rändern hin abfällt.",
-    zwischenergebnis="Grundseite A_k B_k = 2u|Höhe 6 − f_0,15(u)",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Randfälle k = 2 und k = 6 als mögliche Dreiecke zulassen und daraus auf ein "
-                 "Minimum schließen",
-    bemerkung="Das Koordinatensystem steht auf der folgenden Seite; seite nennt Aufgabenseite "
-              "und Anlage. Das Feld skizze beschreibt sowohl das vorgegebene Material als auch "
-              "die zu erstellende Zeichnung. Zur Einordnung: das Maximum liegt bei u ≈ 3,56 mit "
-              "A ≈ 9,78 FE, im Heft ist es nicht gefordert. Das Einzeichnen hat in der "
-              "Themenliste Analysis kein eigenes Thema; ersatzweise Extremalprobleme. Eigene "
-              "Rechnung.")
-
-row(id="2017-bb-ea-B2.2d", block="B", aufgabe="2.2", titel="Straßenverlauf", teilaufgabe="d",
-    seite="5", punkte="6",
-    leitidee="Analysis", thema="Tangente, Normale, Schnittwinkel",
-    typ="Näherungsweise tangentiale Einmündung einer Geraden nachweisen",
-    typ_neben="",
-    stichwoerter="knickfreier Anschluss|Tangente|Näherung|Modellierung",
-    voraussetzungen="Funktionswert und Ableitungswert an einer Stelle berechnen|Bedingungen für "
-                    "eine Tangente kennen",
-    format="Rechnung|Begründung", operator="Zeigen Sie", antwort="Text|Zahl",
-    material="keins", skizze="keine", kontext="Straßenbau", textumfang="mittel",
-    gegeben="Für diese Teilaufgabe gilt 1 LE = 150 m. Eine langgezogene Kurve auf einer "
-            "Landstraße wird im Intervall [−2; 4] näherungsweise durch den Graphen G_0,15 von "
-            "f_0,15(x) = e^(0,3x) + e^(−0,3x) modelliert. Im Punkt P(4 | f_0,15(4)) mündet sie "
-            "tangential, also ohne Knick, in eine zunächst geradlinig verlaufende Schnellstraße.",
-    gesucht="Nachweis, dass ein Teil der Schnellstraße für x ≥ 4 näherungsweise durch einen Teil "
-            "der Geraden g mit y = 0,9x modelliert werden kann",
-    verfahren="Funktionswert und Anstieg an der Stelle 4 mit den Werten der Geraden vergleichen: "
-              "f_0,15(4) = e^(1,2) + e^(−1,2) gegen g(4) = 3,6 sowie "
-              "f_0,15'(4) = 0,3 · (e^(1,2) − e^(−1,2)) gegen den Anstieg 0,9.",
-    schritte="4", zahlenraum="dezimal|Potenz", einheiten="m",
-    abhaengig_von="",
-    ergebnis="f_0,15(4) ≈ 3,621 gegenüber g(4) = 3,6 und f_0,15'(4) ≈ 0,906 gegenüber dem "
-             "Anstieg 0,9: Berührpunkt und Anstieg stimmen bis auf wenige Tausendstel überein, "
-             "die Gerade ist also eine geeignete Näherung.",
-    zwischenergebnis="f_0,15(4) ≈ 3,6213|f_0,15'(4) ≈ 0,9057",
-    niveau_geschaetzt="II",
-    fehlerquelle="nur den Funktionswert vergleichen und die Übereinstimmung der Anstiege nicht "
-                 "prüfen",
-    bemerkung="Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.2e", block="B", aufgabe="2.2", titel="Straßenverlauf", teilaufgabe="e",
-    seite="5", punkte="10",
-    leitidee="Analysis", thema="Gleichungen lösen",
-    typ="Punkt in vorgegebener Entfernung auf einer Geraden bestimmen",
-    typ_neben="Gleichungssystem zur Bestimmung einer Parabelgleichung aufstellen",
-    stichwoerter="Streckenlänge|Maßstab|knickfreier Übergang|Gleichungssystem|Parabel",
-    voraussetzungen="Satz des Pythagoras in der Ebene anwenden|Maßstab 1 LE = 150 m umrechnen|"
-                    "Bedingungen für Punkt und Anstieg in Gleichungen übersetzen",
-    format="Rechnung", operator="Ermitteln Sie|Stellen Sie auf", antwort="Zahl|Term",
-    material="keins", skizze="keine", kontext="Straßenbau", textumfang="lang",
-    gegeben="Es gilt 1 LE = 150 m. Die Schnellstraße verläuft ab dem Punkt P(4 | 3,6) entlang der "
-            "Geraden g mit y = 0,9x über eine Strecke von 2,1 km geradlinig bis zum Punkt S und "
-            "führt dann knickfrei durch eine scharfe Rechtskurve auf eine Bundesstraße. Die "
-            "Rechtskurve wird durch eine quadratische Parabel beschrieben, auf der unter anderem "
-            "der Punkt Q(15,5 | 13,3) liegt. [Zur Kontrolle: S(14,4 | 13)]",
-    gesucht="Koordinaten des Punktes S; Gleichungssystem zur Ermittlung der Parabelgleichung",
-    verfahren="2,1 km entsprechen 14 LE. Von P aus in Richtung (1 | 0,9) weitergehen: die Länge "
-              "14 verteilt sich auf Δx = 14 / √(1 + 0,81) und Δy = 0,9 · Δx; daraus folgen die "
-              "Koordinaten von S. Für die Parabel y = ax² + bx + c drei Bedingungen aufstellen: "
-              "Punkt S, Punkt Q und knickfreier Anschluss, also Anstieg 0,9 an der Stelle 14,4.",
-    schritte="6", zahlenraum="dezimal|Wurzel", einheiten="m|km",
-    abhaengig_von="2017-bb-ea-B2.2d",
-    ergebnis="S(14,4 | 13) – eigene Rechnung liefert (14,406 | 12,966). Gleichungssystem: "
-             "207,36a + 14,4b + c = 13; 240,25a + 15,5b + c = 13,3; 28,8a + b = 0,9.",
-    zwischenergebnis="2,1 km = 14 LE|Δx = 14/√1,81 ≈ 10,406",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Streckenlänge 14 LE als Zuwachs in x-Richtung nehmen, statt sie über den "
-                 "Pythagoras auf Δx und Δy aufzuteilen",
-    bemerkung="Die Kontrollangabe S(14,4 | 13) ist im Heft abgedruckt und durch eigene Rechnung "
-              "bestätigt; sie ist gerundet. Das Gleichungssystem ist nur aufzustellen, nicht zu "
-              "lösen. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B2.2f", block="B", aufgabe="2.2", titel="Straßenverlauf", teilaufgabe="f",
-    seite="6", punkte="9",
-    leitidee="Analysis", thema="Flächeninhalt durch Integration",
-    typ="Abschnittsweise begrenzte Fläche durch Integration berechnen",
-    typ_neben="Flächenmaßstab eines Modells auf eine Realfläche anwenden",
-    stichwoerter="Integral|abschnittsweise Berandung|Flächenmaßstab|Hektar",
-    voraussetzungen="Stammfunktion von Exponentialfunktionen bilden|Integral einer linearen "
-                    "Funktion berechnen|Prozentanteil bilden|1 ha = 10 000 m² kennen",
-    format="Rechnung", operator="Ermitteln Sie|Geben Sie an", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Landwirtschaft", textumfang="mittel",
-    gegeben="Es gilt 1 LE = 150 m. Die Landstraße wird für 0 ≤ x ≤ 4 durch den Graphen von "
-            "f_0,15(x) = e^(0,3x) + e^(−0,3x) modelliert, die Schnellstraße für x ≥ 4 durch die "
-            "Gerade y = 0,9x. Die von den beiden Koordinatenachsen, der Landstraße, der "
-            "Schnellstraße und der Geraden x = 7 eingeschlossene Fläche nutzt ein Landwirt zu "
-            "80 % für den Anbau von Getreide.",
-    gesucht="Größe der Getreideanbaufläche in Hektar",
-    verfahren="Die Fläche in zwei Abschnitten integrieren: von 0 bis 4 unter dem Graphen von "
-              "f_0,15 mit der Stammfunktion (10/3) · (e^(0,3x) − e^(−0,3x)), von 4 bis 7 unter "
-              "der Geraden. Die Summe mit 1 FE = 150² m² = 22 500 m² in Quadratmeter umrechnen "
-              "und davon 80 % nehmen.",
-    schritte="6", zahlenraum="dezimal|Prozent|Potenz", einheiten="m²|ha",
-    abhaengig_von="2017-bb-ea-B2.2d",
-    ergebnis="Integral von 0 bis 4 ≈ 10,063 FE, Integral von 4 bis 7 = 14,85 FE, zusammen "
-             "≈ 24,913 FE ≈ 560 544 m². Davon 80 % sind rund 448 435 m², also etwa 44,8 ha.",
-    zwischenergebnis="Integral von 0 bis 4 ≈ 10,063|Integral von 4 bis 7 = 14,85|"
-                     "Gesamtfläche ≈ 24,913 FE",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Flächenmaßstab mit 150 statt mit 150² ansetzen oder die Umrechnung von "
-                 "Quadratmetern in Hektar vergessen",
+    fehlerquelle="die Länge von AB als Abstand zweier Punkte mit dem Satz des Pythagoras "
+                 "berechnen, obwohl die Strecke senkrecht verläuft, oder B bei x = +20 ansetzen",
     bemerkung="Eigene Rechnung, mit sympy bestätigt.")
 
-row(id="2017-bb-ea-B3.1a", block="B", aufgabe="3.1", titel="Zelt", teilaufgabe="a",
-    seite="7", punkte="5",
-    leitidee="Analytische Geometrie", thema="Punkte und Strecken im Koordinatensystem",
-    typ="Koordinaten der Eckpunkte einer Pyramide aus der Beschreibung angeben",
-    typ_neben="Mittelpunkt eines Quadrates als Diagonalenmittelpunkt bestimmen|Körper in ein "
-              "räumliches Koordinatensystem einzeichnen",
-    stichwoerter="Pyramide|quadratische Grundfläche|Spitze|Schrägbild",
-    voraussetzungen="Lage von Punkten auf den Koordinatenachsen lesen|Mittelpunkt einer Strecke "
-                    "berechnen|räumliches Koordinatensystem zeichnen",
-    format="Kurzantwort|Zeichnen", operator="Geben Sie an|Zeichnen Sie ein", antwort="Zahl|Grafik",
-    material="Koordinatensystem",
-    skizze="Abbildung 1 zeigt ein leeres räumliches Koordinatensystem ohne Skalierung: z-Achse "
-           "nach oben, y-Achse nach rechts, x-Achse nach vorn links. Einzuzeichnen ist die "
-           "Pyramide ABCDS mit quadratischer Grundfläche in der x-y-Ebene, Kantenlänge 5, und "
-           "der Spitze S senkrecht über dem Grundflächenmittelpunkt in der Höhe 3,9.",
-    kontext="Camping", textumfang="lang",
-    gegeben="Ein geschlossenes Zelt auf horizontalem Untergrund hat die Form einer Pyramide mit "
-            "quadratischer Grundfläche; es ist 3,90 m hoch, die Seitenlänge des Zeltbodens "
-            "beträgt 5,00 m. Im Modell ist die Pyramide ABCDS mit der Spitze S dargestellt: A "
-            "liegt im Koordinatenursprung, B auf dem positiven Teil der x-Achse, D auf dem "
-            "positiven Teil der y-Achse, C hat die Koordinaten (5 | 5 | 0); M ist der "
-            "Mittelpunkt der Grundfläche. Das Dreieck ABS liegt in der Ebene E: −39y + 25z = 0. "
-            "Eine Längeneinheit entspricht einem Meter.",
-    gesucht="Koordinaten der Punkte B, D, M und S; Zeichnung der Pyramide in ein Koordinaten"
-            "system gemäß Abbildung 1",
-    verfahren="Aus der Seitenlänge 5 und der Lage auf den Achsen folgen B und D; M ist der "
-              "Mittelpunkt der Diagonale von A nach C; S liegt senkrecht über M in der Höhe 3,9. "
-              "Kontrolle mit der Ebenengleichung: −39 · 2,5 + 25 · 3,9 = 0.",
-    schritte="3", zahlenraum="dezimal", einheiten="m",
-    abhaengig_von="",
-    ergebnis="B(5 | 0 | 0), D(0 | 5 | 0), M(2,5 | 2,5 | 0), S(2,5 | 2,5 | 3,9); die Pyramide "
-             "wird mit quadratischer Grundfläche in der x-y-Ebene und der Spitze über M "
-             "eingezeichnet.",
-    zwischenergebnis="Probe: −39 · 2,5 + 25 · 3,9 = 0",
-    niveau_geschaetzt="I",
-    fehlerquelle="die Spitze über einem Eckpunkt statt über dem Mittelpunkt der Grundfläche "
-                 "annehmen",
-    bemerkung="Das Feld skizze beschreibt das vorgegebene leere Koordinatensystem (Abbildung 1) "
-              "und die zu erstellende Zeichnung. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B3.1b", block="B", aufgabe="3.1", titel="Zelt", teilaufgabe="b",
-    seite="7", punkte="4",
-    leitidee="Analytische Geometrie", thema="Skalarprodukt und Winkel",
-    typ="Schnittwinkel zweier Ebenen über die Normalenvektoren berechnen",
-    typ_neben="Koordinatengleichung einer Ebene aus drei Punkten aufstellen",
-    stichwoerter="Zeltwände|Normalenvektoren|Schnittwinkel|Nebenwinkel",
-    voraussetzungen="Koordinatengleichung einer Ebene aufstellen|Skalarprodukt und Beträge "
-                    "berechnen|spitzen und stumpfen Winkel unterscheiden",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Camping", textumfang="kurz",
-    gegeben="Pyramide ABCDS mit A(0 | 0 | 0), B(5 | 0 | 0), C(5 | 5 | 0), D(0 | 5 | 0) und "
-            "S(2,5 | 2,5 | 3,9); die Zeltwände sind die Dreiecke ABS, BCS, CDS und ADS. Das "
-            "Dreieck ABS liegt in der Ebene E: −39y + 25z = 0. Jeweils zwei benachbarte "
-            "Zeltwände schließen im Inneren des Zelts einen stumpfen Winkel ein.",
-    gesucht="Größe dieses stumpfen Winkels",
-    verfahren="Die Ebene der Nachbarwand BCS aufstellen: 39x + 25z = 195 mit dem Normalenvektor "
-              "(39 | 0 | 25); E hat den Normalenvektor (0 | −39 | 25). Über "
-              "cos φ = (n_1 · n_2)/(|n_1| · |n_2|) = 625/2146 den Winkel zwischen den "
-              "Normalenvektoren bestimmen; der Innenwinkel des Zelts ist dessen Nebenwinkel.",
-    schritte="4", zahlenraum="dezimal", einheiten="Grad",
-    abhaengig_von="2017-bb-ea-B3.1a",
-    ergebnis="cos φ = 625/2146 ≈ 0,2912, also φ ≈ 73,1°; der stumpfe Innenwinkel zwischen zwei "
-             "benachbarten Zeltwänden beträgt rund 106,9°.",
-    zwischenergebnis="Ebene BCS: 39x + 25z = 195|n_1 = (0 | −39 | 25), n_2 = (39 | 0 | 25)|"
-                     "φ ≈ 73,1°",
-    niveau_geschaetzt="II",
-    fehlerquelle="den berechneten spitzen Winkel als Antwort angeben, ohne zum stumpfen "
-                 "Innenwinkel überzugehen",
-    bemerkung="Eigene Rechnung.")
-
-row(id="2017-bb-ea-B3.1c", block="B", aufgabe="3.1", titel="Zelt", teilaufgabe="c",
-    seite="7", punkte="5",
-    leitidee="Analytische Geometrie", thema="Abstände",
-    typ="Punkt mit gleichem Abstand zu allen Seitenflächen über die Symmetrieachse bestimmen",
-    typ_neben="Abstand eines Punktes von einer Ebene mit der Hesseschen Normalform berechnen",
-    stichwoerter="Lichtquelle|Abstand zur Ebene|Symmetrieachse|Hessesche Normalform",
-    voraussetzungen="Hessesche Normalform aufstellen|Betragsgleichung lösen|Symmetrie eines "
-                    "Körpers ausnutzen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Camping", textumfang="kurz",
-    gegeben="Pyramide ABCDS mit quadratischer Grundfläche der Seitenlänge 5 und der Spitze "
-            "S(2,5 | 2,5 | 3,9); der Grundflächenmittelpunkt ist M(2,5 | 2,5 | 0). Die Wand ABS "
-            "liegt in der Ebene E: −39y + 25z = 0. Im Zelt hängt eine Lichtquelle so, dass sie "
-            "von jeder der vier Wände 80 cm Abstand hat; 1 LE entspricht 1 m.",
-    gesucht="Koordinaten des Punktes, der die Lichtquelle im Modell darstellt",
-    verfahren="Aus der Symmetrie der Pyramide folgt, dass der Punkt auf der Senkrechten durch M "
-              "liegt, also die Form L(2,5 | 2,5 | z) hat. Abstand zu E über die Hessesche "
-              "Normalform: |−39 · 2,5 + 25z| / √(39² + 25²) = 0,8 mit √2146 ≈ 46,32. Von den "
-              "beiden Lösungen die im Zeltinneren wählen.",
-    schritte="5", zahlenraum="dezimal", einheiten="m|cm",
-    abhaengig_von="2017-bb-ea-B3.1a",
-    ergebnis="Aus 97,5 − 25z = 0,8 · √2146 ≈ 37,06 folgt z ≈ 2,418; die Lichtquelle liegt bei "
-             "L(2,5 | 2,5 | 2,42). Die zweite Lösung z ≈ 5,38 liegt oberhalb der Spitze und "
-             "entfällt.",
-    zwischenergebnis="√2146 ≈ 46,32|0,8 · √2146 ≈ 37,06",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Betragsgleichung nur mit einem Vorzeichen lösen und den Punkt außerhalb des "
-                 "Zelts angeben, oder 80 cm nicht in 0,8 LE umrechnen",
-    bemerkung="Eigene Rechnung.")
-
-row(id="2017-bb-ea-B3.1d", block="B", aufgabe="3.1", titel="Zelt", teilaufgabe="d",
-    seite="7", punkte="3",
-    leitidee="Analytische Geometrie", thema="Linearkombination und lineare Abhängigkeit",
-    typ="Lage eines Punktes auf einer Strecke über eine Linearkombination nachweisen",
+row(id="2018-be-gk-B1.1b", block="B", aufgabe="1.1", titel="Skisprunganlage", teilaufgabe="b",
+    seite="2", punkte="5",
+    leitidee="Analysis", thema="Flächeninhalt durch Integration",
+    typ="Fläche zwischen zwei Graphen berechnen",
     typ_neben="",
-    stichwoerter="Linearkombination|Ortsvektor|Strecke|Parameterdarstellung",
-    voraussetzungen="mit Ortsvektoren rechnen|Parameterform einer Strecke kennen|Terme umformen",
-    format="Begründung", operator="Weisen Sie nach", antwort="Text",
-    material="keins", skizze="keine", kontext="Camping", textumfang="kurz",
-    gegeben="Pyramide ABCDS mit C(5 | 5 | 0) und S(2,5 | 2,5 | 3,9). Der Ortsvektor eines Punktes "
-            "P lässt sich in der Form OP = r · OC + s · OS mit r, s ∈ [0; 1] und r + s = 1 "
-            "darstellen.",
-    gesucht="Nachweis, dass P auf der Strecke CS liegt",
-    verfahren="r = 1 − s einsetzen und umformen: OP = (1 − s) · OC + s · OS = OC + s · (OS − OC) "
-              "= OC + s · CS. Das ist die Parameterdarstellung der Strecke von C nach S, die für "
-              "s ∈ [0; 1] genau diese Strecke durchläuft.",
-    schritte="3", zahlenraum="ganz", einheiten="",
-    abhaengig_von="",
-    ergebnis="OP = OC + s · CS mit s ∈ [0; 1]; für s = 0 ist P = C, für s = 1 ist P = S, "
-             "dazwischen liegt P auf der Strecke CS.",
-    zwischenergebnis="OP = (1 − s) · OC + s · OS",
+    stichwoerter="Querschnittsfläche|Integral|Bauwerk|Differenzfunktion",
+    voraussetzungen="Stammfunktion einer ganzrationalen Funktion bilden|bestimmtes Integral "
+                    "berechnen|Integrationsgrenzen aus der Lage der Punkte ablesen",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="Skizze", skizze=SKIZZE_11, kontext="Skisprunganlage", textumfang="kurz",
+    gegeben="Bauwerk ABCS mit A(−20 | 74), B(−20 | 50), C(0 | 50) und S(0 | 54); die Oberseite "
+            "von A nach S verläuft auf dem Graphen von h mit h(x) = 0,05x² + 54, 1 LE = 1 m.",
+    gesucht="Inhalt der Querschnittsfläche des Bauwerks ABCS",
+    verfahren="Die Fläche wird oben vom Graphen von h, unten von der waagerechten Strecke BC auf "
+              "der Höhe y = 50 und seitlich von x = −20 und x = 0 begrenzt. Also das Integral der "
+              "Differenz h(x) − 50 von −20 bis 0 berechnen.",
+    schritte="4", zahlenraum="ganz|dezimal|negativ", einheiten="m|m²",
+    abhaengig_von="2018-be-gk-B1.1a",
+    ergebnis="A = 640/3 m² ≈ 213,3 m²",
+    zwischenergebnis="Integrand h(x) − 50 = 0,05x² + 4|Stammfunktion x³/60 + 4x",
     niveau_geschaetzt="II",
-    fehlerquelle="an einem einzelnen Zahlenbeispiel prüfen, statt allgemein mit r = 1 − s "
-                 "umzuformen",
-    bemerkung="Der vorhandene Typ zum Beschreiben einer Linearkombination bleibt getrennt: dort "
-              "wird eine Lage in Worten gedeutet, hier wird sie durch Umformung nachgewiesen. "
-              "Eigene Rechnung.")
+    fehlerquelle="über h statt über h − 50 integrieren und so die Fläche bis zur x-Achse statt "
+                 "bis zur Strecke BC berechnen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
 
-row(id="2017-bb-ea-B3.1e", block="B", aufgabe="3.1", titel="Zelt", teilaufgabe="e",
-    seite="7", punkte="3",
-    leitidee="Analytische Geometrie", thema="Abstände",
-    typ="Strecke in einer geneigten Ebene über einen Höhenschnitt bestimmen",
-    typ_neben="Streckenlänge im Raum berechnen",
-    stichwoerter="Vordach|geneigte Wand|Höhenschnitt|Rechteckseite",
-    voraussetzungen="Koordinatengleichung nach einer Koordinate auflösen|Satz des Pythagoras "
-                    "anwenden|Maße aus einer Abbildung entnehmen",
-    format="Rechnung|Begründung", operator="Weisen Sie nach", antwort="Zahl|Text",
-    material="Figur",
-    skizze="Abbildung 2 zeigt das Zelt als Schrägbild einer Pyramide. An der rechten vorderen "
-           "Wand ist ein dunkel ausgefülltes waagerechtes Vordach aufgespannt, darunter die helle "
-           "dreieckige Öffnung; zwei senkrechte Stangen stützen die äußere Vordachkante. Rechts "
-           "daneben zwei Maßangaben: 1,80 m als Höhe des Vordachs über dem Boden und 1,40 m als "
-           "Breite zwischen den beiden Stangen.",
-    kontext="Camping", textumfang="lang",
-    gegeben="Die Zeltwand CDS liegt in der Ebene F: 39y + 25z = 195, mit C(5 | 5 | 0) und "
-            "D(0 | 5 | 0). Ein Teil dieser Wand wird mithilfe zweier Stangen zu einem "
-            "waagerechten Vordach in 1,80 m Höhe aufgespannt; die dadurch entstehende Öffnung "
-            "ist im Modell ein Rechteck, dessen eine Seite so auf der Strecke CD liegt, dass der "
-            "eine Endpunkt von C ebenso weit entfernt ist wie der andere von D. Die Breite des "
-            "Vordachs beträgt laut Abbildung 1,40 m; 1 LE entspricht 1 m.",
-    gesucht="Nachweis, dass die Länge des Vordachs etwa 2,14 m beträgt",
-    verfahren="Die Klappkante des Rechtecks liegt in der Wandebene in 1,80 m Höhe: aus "
-              "39y + 25 · 1,8 = 195 folgt y = 150/39 ≈ 3,846. Die Vordachlänge ist die "
-              "Rechteckseite von der Bodenkante CD (y = 5, z = 0) bis zu dieser Kante, in der "
-              "Wandebene gemessen, also √((5 − 3,846)² + 1,8²).",
-    schritte="4", zahlenraum="dezimal|Wurzel", einheiten="m",
+row(id="2018-be-gk-B1.1c", block="B", aufgabe="1.1", titel="Skisprunganlage", teilaufgabe="c",
+    seite="2", punkte="6",
+    leitidee="Analysis", thema="Kurvenuntersuchung",
+    typ="Lage und Art aller lokalen Extrempunkte bestimmen",
+    typ_neben="Extrempunkt einem Punkt im Sachzusammenhang zuordnen",
+    stichwoerter="Extrempunkte|notwendige und hinreichende Bedingung|tiefste Stelle|Aufsprunghang",
+    voraussetzungen="Ableitungen einer ganzrationalen Funktion bilden|Produkt gleich null "
+                    "setzen|Vorzeichen der zweiten Ableitung deuten",
+    format="Rechnung|Begründung", operator="Ermitteln Sie|Entscheiden Sie", antwort="Zahl|Text",
+    material="Skizze", skizze=SKIZZE_11, kontext="Skisprunganlage", textumfang="mittel",
+    gegeben="Aufsprunghang g mit g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000), 1 LE = 1 m; der "
+            "Hang beginnt am Punkt C(0 | 50). Der Punkt U liegt an der tiefsten Stelle des "
+            "Aufsprunghangs. Als Kontrollergebnis ist g'(x) = 1/1000 · (1/500 · x³ − 20x) "
+            "angegeben.",
+    gesucht="Lage und Art aller lokalen Extrempunkte des Graphen von g; Entscheidung, welcher "
+            "Extrempunkt dem Punkt U entspricht",
+    verfahren="g'(x) = 0 setzen und x ausklammern: x · (x² − 10 000) = 0 liefert x = −100, x = 0 "
+              "und x = 100. Mit der zweiten Ableitung g''(x) = 1/1000 · (3/500 · x² − 20) die Art "
+              "bestimmen: g''(0) < 0 ergibt einen Hochpunkt, g''(±100) > 0 je einen Tiefpunkt. Der "
+              "Aufsprunghang beginnt bei C, liegt also rechts der y-Achse; U ist der Tiefpunkt "
+              "bei x = 100.",
+    schritte="6", zahlenraum="ganz|negativ", einheiten="m",
     abhaengig_von="",
-    ergebnis="y(z = 1,8) = 150/39 ≈ 3,846; die Länge beträgt √(1,154² + 1,8²) ≈ 2,138 m, also "
-             "etwa 2,14 m.",
-    zwischenergebnis="y(z = 1,8) ≈ 3,846|Differenz in y-Richtung ≈ 1,154",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Vordachlänge als waagerechten Abstand messen und die Neigung der Zeltwand "
-                 "außer Acht lassen",
-    bemerkung="Die Maße 1,80 m und 1,40 m stehen nur in Abbildung 2. Die eigene Rechnung "
-              "bestätigt zugleich die in Teilaufgabe f genannte y-Koordinate 5,98 der äußeren "
-              "Vordachkante: 3,846 + 2,138 = 5,984. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B3.1f", block="B", aufgabe="3.1", titel="Zelt", teilaufgabe="f",
-    seite="7", punkte="5",
-    leitidee="Analytische Geometrie", thema="Scharen von Geraden und Ebenen",
-    typ="Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen",
-    typ_neben="Durchstoßpunkt einer Geraden durch eine Ebene bestimmen",
-    stichwoerter="Sonnenstrahl|Richtungsvektor mit Parameter|Vordach|ganzzahlige Lösung",
-    voraussetzungen="Geradengleichung aus Punkt und Richtungsvektor aufstellen|Parameter aus "
-                    "einer Koordinatenbedingung bestimmen|Lösungsbereich abschätzen",
-    format="Rechnung", operator="Ermitteln Sie|Geben Sie an", antwort="Zahl",
-    material="Figur",
-    skizze="Dieselbe Abbildung 2 wie in Teilaufgabe e: Zelt als Schrägbild mit dunkel "
-           "ausgefülltem waagerechtem Vordach an der rechten vorderen Wand, zwei Stützstangen "
-           "und den Maßangaben 1,80 m für die Höhe und 1,40 m für die Breite.",
-    kontext="Camping", textumfang="lang",
-    gegeben="Zelt als Pyramide ABCDS mit dem Bodenmittelpunkt M(2,5 | 2,5 | 0). Das waagerechte "
-            "Vordach liegt in 1,80 m Höhe, ist 1,40 m breit und mittig zur Kante CD angesetzt; "
-            "seine wandseitige Kante liegt bei y ≈ 3,85, alle Punkte der äußeren Kante, an deren "
-            "Enden die beiden Stangen befestigt sind, haben die y-Koordinate 5,98. Auf das Zelt "
-            "treffendes Sonnenlicht verläuft längs paralleler Geraden mit dem Richtungsvektor "
-            "(0,5 | −4,2 | a) und fällt durch ein kleines Loch im Vordach genau auf den "
-            "Mittelpunkt des Zeltbodens; für a kommen verschiedene ganzzahlige Werte infrage.",
-    gesucht="Ein möglicher ganzzahliger Wert für a und die Koordinaten des zugehörigen Punktes, "
-            "der eine mögliche Position des Lochs im Vordach darstellt",
-    verfahren="Gerade durch M mit dem gegebenen Richtungsvektor ansetzen und die Vordachhöhe "
-              "z = 1,8 fordern: t = 1,8/a. Damit sind x = 2,5 + 0,5 · 1,8/a und "
-              "y = 2,5 − 4,2 · 1,8/a. Das Loch muss auf dem Vordach liegen, also y zwischen 3,85 "
-              "und 5,98 und x zwischen 1,8 und 3,2; das führt auf negative ganzzahlige Werte "
-              "von a.",
-    schritte="6", zahlenraum="dezimal|negativ", einheiten="m",
-    abhaengig_von="2017-bb-ea-B3.1e",
-    ergebnis="Möglich sind a = −3, a = −4 und a = −5. Für a = −3 ist t = −0,6 und das Loch liegt "
-             "bei (2,2 | 5,02 | 1,8).",
-    zwischenergebnis="t = 1,8/a|a = −4: (2,275 | 4,39 | 1,8)|a = −5: (2,32 | 4,012 | 1,8)",
-    niveau_geschaetzt="III",
-    fehlerquelle="das Vorzeichen von a nicht prüfen und einen Punkt außerhalb des Vordachs "
-                 "angeben",
-    bemerkung="Die wandseitige Kante bei y ≈ 3,85 folgt aus Teilaufgabe e und steht im Heft "
-              "nicht ausdrücklich; sie begrenzt den zulässigen Bereich nach unten. Eigene "
+    ergebnis="Hochpunkt H(0 | 50), Tiefpunkte T₁(−100 | 0) und T₂(100 | 0). U entspricht "
+             "T₂(100 | 0).",
+    zwischenergebnis="g''(x) = 1/1000 · (3/500 · x² − 20)|g''(0) = −0,02|g''(±100) = 0,04",
+    niveau_geschaetzt="II",
+    fehlerquelle="nur die Nullstellen der Ableitung angeben, ohne die Art über die zweite "
+                 "Ableitung zu bestimmen, oder den Tiefpunkt bei x = −100 übersehen",
+    bemerkung="Das Kontrollergebnis für g' ist durch eigene Rechnung bestätigt. Die Aufgabe fragt "
+              "nach allen lokalen Extrempunkten des Graphen, deshalb steht auch der Tiefpunkt bei "
+              "x = −100 im Ergebnis, obwohl er außerhalb des Aufsprunghangs liegt. Eigene "
               "Rechnung, mit sympy bestätigt.")
 
-row(id="2017-bb-ea-B3.2a", block="B", aufgabe="3.2", titel="Gartenpavillon", teilaufgabe="a",
-    seite="8", punkte="3",
-    leitidee="Analytische Geometrie", thema="Skalarprodukt und Winkel",
-    typ="Schnittwinkel zwischen Gerade und Ebene berechnen",
+row(id="2018-be-gk-B1.1d", block="B", aufgabe="1.1", titel="Skisprunganlage", teilaufgabe="d",
+    seite="2", punkte="4",
+    leitidee="Analysis", thema="Kurvenuntersuchung",
+    typ="Stelle des stärksten Gefälles über die zweite Ableitung bestimmen",
     typ_neben="",
-    stichwoerter="Dachkante|Neigungswinkel|Grundflächenebene|Richtungsvektor",
-    voraussetzungen="Richtungsvektor einer Geraden ablesen|Normalenvektor der x-y-Ebene kennen|"
-                    "Winkelformel für Gerade und Ebene anwenden",
+    stichwoerter="stärkstes Gefälle|Wendestelle|zweite Ableitung|notwendige Bedingung",
+    voraussetzungen="zweite Ableitung bilden|quadratische Gleichung lösen|Wurzel im Nenner "
+                    "vereinfachen",
     format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Figur",
-    skizze="Schrägbild eines Pavillons: ein Quader mit quadratischer Grundfläche, deren "
-           "Mittelpunkt im Koordinatenursprung liegt, darauf eine gerade quadratische Pyramide "
-           "mit der Spitze S auf der z-Achse. Eingezeichnet sind die z-Achse nach oben, die "
-           "y-Achse nach rechts, die x-Achse nach vorn links sowie die Punkte S oben, E an der "
-           "oberen vorderen Quaderecke und A senkrecht darunter am Boden; verdeckte Kanten sind "
-           "gestrichelt.",
-    kontext="Gartenbau", textumfang="lang",
-    gegeben="Ein Pavillon wird vereinfacht als zusammengesetzter Körper aus einem Quader mit "
-            "quadratischer Grundfläche und einer aufgesetzten geraden quadratischen Pyramide "
-            "aufgefasst. Eine der senkrechten Kanten ist die Strecke AE mit A(1,5 | 1,5 | 0) und "
-            "E(1,5 | 1,5 | 2,1); der Mittelpunkt der in der x-y-Ebene liegenden Grundfläche ist "
-            "O(0 | 0 | 0). Eine der in der Spitze S zusammentreffenden Dachkanten ist Teil der "
-            "Geraden g: x = (−1,5 | 1,5 | 2,1) + t · (−1,5 | 1,5 | −1); t ∈ IR. Es gilt "
-            "1 LE = 1 m.",
-    gesucht="Neigungswinkel einer Dachkante gegenüber der Grundflächenebene",
-    verfahren="Winkel zwischen dem Richtungsvektor (−1,5 | 1,5 | −1) und der x-y-Ebene mit dem "
-              "Normalenvektor (0 | 0 | 1) über sin α = |v_z| / |v| bestimmen; "
-              "|v| = √(2,25 + 2,25 + 1) = √5,5.",
-    schritte="3", zahlenraum="dezimal|Wurzel", einheiten="Grad",
-    abhaengig_von="",
-    ergebnis="|v| = √5,5 ≈ 2,345 und sin α = 1/√5,5 ≈ 0,4264, also α ≈ 25,2°.",
-    zwischenergebnis="|v| = √5,5 ≈ 2,345",
+    material="Skizze", skizze=SKIZZE_11, kontext="Skisprunganlage", textumfang="mittel",
+    gegeben="Aufsprunghang g mit g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000) und "
+            "g'(x) = 1/1000 · (1/500 · x³ − 20x), 1 LE = 1 m. Der Punkt K ist die Stelle des "
+            "Aufsprunghangs mit dem stärksten Gefälle; für die x-Koordinate genügt die "
+            "notwendige Bedingung.",
+    gesucht="Koordinaten des Punktes K",
+    verfahren="Das stärkste Gefälle liegt dort, wo g' minimal wird, also bei g''(x) = 0. Aus "
+              "3/500 · x² − 20 = 0 folgt x² = 10 000/3 und im Bereich des Hangs x = 100/√3 ≈ 57,7. "
+              "Den zugehörigen Funktionswert durch Einsetzen in g bestimmen.",
+    schritte="4", zahlenraum="ganz|dezimal|Wurzel", einheiten="m",
+    abhaengig_von="2018-be-gk-B1.1c",
+    ergebnis="K(100/√3 | 200/9), also K ≈ (57,7 | 22,2); das Gefälle beträgt dort "
+             "g'(K) ≈ −0,77.",
+    zwischenergebnis="g''(x) = 1/1000 · (3/500 · x² − 20)|x² = 10 000/3|x ≈ 57,74",
     niveau_geschaetzt="II",
-    fehlerquelle="den Winkel zwischen Richtungs- und Normalenvektor angeben, statt ihn auf die "
-                 "Ebene zu beziehen",
-    bemerkung="Eigene Rechnung.")
+    fehlerquelle="die erste statt der zweiten Ableitung null setzen, oder die negative Lösung "
+                 "x = −57,7 angeben, die nicht auf dem Aufsprunghang liegt",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
 
-row(id="2017-bb-ea-B3.2b", block="B", aufgabe="3.2", titel="Gartenpavillon", teilaufgabe="b",
-    seite="8", punkte="2",
-    leitidee="Analytische Geometrie", thema="Schnittmengen",
-    typ="Gesamthöhe eines zusammengesetzten Körpers über die Spitze bestimmen",
-    typ_neben="Durchstoßpunkt einer Geraden durch eine Ebene bestimmen",
-    stichwoerter="Pavillon|Spitze|z-Achse|Gesamthöhe",
-    voraussetzungen="Geradenparameter aus einer Koordinatenbedingung bestimmen|Punkt durch "
-                    "Einsetzen berechnen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="Figur",
-    skizze="Dasselbe Schrägbild wie in Teilaufgabe a: Quader mit quadratischer Grundfläche um den "
-           "Koordinatenursprung, darauf die Pyramide mit der Spitze S auf der z-Achse; "
-           "beschriftet sind S, E und A sowie die drei Koordinatenachsen.",
-    kontext="Gartenbau", textumfang="mittel",
-    gegeben="Pavillon aus Quader und aufgesetzter gerader quadratischer Pyramide; der "
-            "Grundflächenmittelpunkt ist O(0 | 0 | 0), die Quaderkante AE reicht von "
-            "A(1,5 | 1,5 | 0) bis E(1,5 | 1,5 | 2,1). Eine Dachkante ist Teil der Geraden "
-            "g: x = (−1,5 | 1,5 | 2,1) + t · (−1,5 | 1,5 | −1); 1 LE = 1 m.",
-    gesucht="Gesamthöhe des Pavillons",
-    verfahren="Die Spitze liegt auf g und zugleich auf der z-Achse, also über dem "
-              "Grundflächenmittelpunkt: aus −1,5 − 1,5 · t = 0 folgt t = −1. Einsetzen liefert "
-              "den Punkt; die Gesamthöhe ist dessen z-Koordinate.",
-    schritte="3", zahlenraum="dezimal", einheiten="m",
-    abhaengig_von="",
-    ergebnis="t = −1 und S(0 | 0 | 3,1); der Pavillon ist 3,1 m hoch.",
-    zwischenergebnis="t = −1",
-    niveau_geschaetzt="II",
-    fehlerquelle="die Quaderhöhe 2,1 m und die Pyramidenhöhe verwechseln oder nur die "
-                 "Pyramidenhöhe angeben",
-    bemerkung="Eigene Rechnung.")
-
-row(id="2017-bb-ea-B3.2c", block="B", aufgabe="3.2", titel="Gartenpavillon", teilaufgabe="c",
-    seite="8", punkte="3",
-    leitidee="Analytische Geometrie", thema="Ebenen",
-    typ="Koordinatengleichung einer Ebene aus Gerade und Punkt nachweisen",
+row(id="2018-be-gk-B1.1e", block="B", aufgabe="1.1", titel="Skisprunganlage", teilaufgabe="e",
+    seite="2", punkte="6",
+    leitidee="Analysis", thema="Rekonstruktion von Funktionsgleichungen",
+    typ="Quadratische Funktion aus knickfreiem Übergang und einer Wertbedingung rekonstruieren",
     typ_neben="",
-    stichwoerter="Dachfläche|Ebene durch Gerade und Punkt|Punktprobe|Normalenvektor",
-    voraussetzungen="Punktprobe in einer Koordinatengleichung durchführen|Orthogonalität über das "
-                    "Skalarprodukt prüfen",
-    format="Begründung", operator="Weisen Sie nach", antwort="Text",
-    material="keins", skizze="keine", kontext="Gartenbau", textumfang="mittel",
-    gegeben="Eine der dreieckigen Teilflächen des Pavillondaches liegt in der Ebene H, die die "
-            "Gerade g: x = (−1,5 | 1,5 | 2,1) + t · (−1,5 | 1,5 | −1) und den Punkt "
-            "E(1,5 | 1,5 | 2,1) enthält.",
-    gesucht="Nachweis, dass die Ebene H durch die Gleichung 3y + 4,5z = 13,95 beschrieben werden "
-            "kann",
-    verfahren="Stützpunkt von g und Punkt E in die Gleichung einsetzen; anschließend zeigen, dass "
-              "der Richtungsvektor von g orthogonal zum Normalenvektor (0 | 3 | 4,5) ist, damit "
-              "die ganze Gerade in H liegt.",
-    schritte="3", zahlenraum="dezimal", einheiten="",
+    stichwoerter="Flugbahn|knickfreier Übergang|quadratische Funktion|Bedingungen",
+    voraussetzungen="allgemeinen Ansatz für eine quadratische Funktion aufstellen|Bedingungen in "
+                    "Gleichungen übersetzen|lineare Gleichung lösen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Term",
+    material="Skizze", skizze=SKIZZE_11, kontext="Skisprunganlage", textumfang="mittel",
+    gegeben="Anlaufbahn h mit h(x) = 0,05x² + 54 und Aufsprunghang g mit "
+            "g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000), 1 LE = 1 m. Die Flugbahn des "
+            "Springers ist eine quadratische Funktion f; im Punkt S(0 | 54) geht die Anlaufbahn "
+            "ohne Knick in die Flugbahn über. Bei x = 60 m hat der Springer eine vertikale Höhe "
+            "von 4,72 m über dem Aufsprunghang. Als Kontrolle ist f(x) = −0,008x² + 54 angegeben.",
+    gesucht="Funktionsgleichung der Flugbahn f",
+    verfahren="Ansatz f(x) = ax² + bx + c. Knickfreier Übergang in S heißt f(0) = h(0) = 54, also "
+              "c = 54, und f'(0) = h'(0) = 0, also b = 0. Die dritte Bedingung ist "
+              "f(60) − g(60) = 4,72 mit g(60) = 20,48; daraus 3600a + 54 = 25,2 und a = −0,008.",
+    schritte="5", zahlenraum="ganz|dezimal|negativ", einheiten="m",
     abhaengig_von="",
-    ergebnis="Für (−1,5 | 1,5 | 2,1) und für E(1,5 | 1,5 | 2,1) ergibt 3y + 4,5z jeweils 13,95. "
-             "Wegen 3 · 1,5 + 4,5 · (−1) = 0 steht der Richtungsvektor von g senkrecht auf dem "
-             "Normalenvektor, also liegt g ganz in H; damit beschreibt die Gleichung die Ebene "
-             "durch g und E.",
-    zwischenergebnis="3 · 1,5 + 4,5 · 2,1 = 13,95|n · v = 0",
+    ergebnis="f(x) = −0,008x² + 54",
+    zwischenergebnis="c = 54|b = 0|g(60) = 20,48|f(60) = 25,2",
     niveau_geschaetzt="II",
-    fehlerquelle="nur den Stützpunkt einsetzen und die Richtung der Geraden nicht prüfen",
-    bemerkung="Eigene Rechnung.")
+    fehlerquelle="die Höhe 4,72 m als Funktionswert f(60) statt als Abstand zum Aufsprunghang "
+                 "deuten, oder den knickfreien Übergang nur über den Funktionswert und nicht "
+                 "über die Steigung ansetzen",
+    bemerkung="Das Kontrollergebnis ist durch eigene Rechnung bestätigt. Eigene Rechnung, mit "
+              "sympy bestätigt.")
 
-row(id="2017-bb-ea-B3.2d", block="B", aufgabe="3.2", titel="Gartenpavillon", teilaufgabe="d",
-    seite="8", punkte="2",
-    leitidee="Analytische Geometrie", thema="Abstände",
-    typ="Lotgerade von einem Punkt auf eine Ebene angeben",
+row(id="2018-be-gk-B1.1f", block="B", aufgabe="1.1", titel="Skisprunganlage", teilaufgabe="f",
+    seite="3", punkte="10",
+    leitidee="Analysis", thema="Gleichungen lösen",
+    typ="Schnittpunkt zweier Graphen über eine biquadratische Gleichung berechnen",
+    typ_neben="Graphen einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen",
+    stichwoerter="Landepunkt|biquadratische Gleichung|Substitution|Flugbahn einzeichnen",
+    voraussetzungen="Gleichung durch Substitution u = x² auf eine quadratische zurückführen|"
+                    "quadratische Gleichung lösen|Lösungen auf den Sachzusammenhang prüfen|"
+                    "Funktionswerte für eine Wertetabelle berechnen",
+    format="Rechnung|Zeichnen", operator="Berechnen Sie|Skizzieren Sie", antwort="Zahl|Grafik",
+    material="Koordinatensystem", skizze=SKIZZE_11KS, kontext="Skisprunganlage",
+    textumfang="mittel",
+    gegeben="Flugbahn f mit f(x) = −0,008x² + 54 und Aufsprunghang g mit "
+            "g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000), 1 LE = 1 m. Der Springer landet im "
+            "Punkt L auf dem Aufsprunghang. Ein Koordinatensystem mit beiden Graphen ist "
+            "vorgegeben. Als Kontrolle ist L(73,9 | 10,3) angegeben.",
+    gesucht="Koordinaten des Landepunktes L; Skizze der Flugbahn im vorgegebenen "
+            "Koordinatensystem",
+    verfahren="f(x) = g(x) setzen und ordnen: x⁴/2 000 000 − 0,002x² − 4 = 0, also nach "
+              "Multiplikation x⁴ − 4000x² − 8 000 000 = 0. Mit u = x² die quadratische Gleichung "
+              "u² − 4000u − 8 000 000 = 0 lösen; nur die positive Lösung u = 2000 + 2000√3 ist "
+              "brauchbar, daraus x = √u ≈ 73,9 und y = g(73,9) ≈ 10,3. Für die Zeichnung die "
+              "nach unten geöffnete Parabel von S(0 | 54) über (60 | 25,2) bis L eintragen.",
+    schritte="6", zahlenraum="ganz|dezimal|Wurzel|negativ", einheiten="m",
+    abhaengig_von="2018-be-gk-B1.1e",
+    ergebnis="u = 2000 + 2000√3 ≈ 5464,1, also L(73,9 | 10,3). Die Flugbahn ist eine nach unten "
+             "geöffnete Parabel mit Scheitel S(0 | 54), die durch (40 | 41,2) und (60 | 25,2) "
+             "verläuft und im Punkt L auf dem Graphen von g endet.",
+    zwischenergebnis="x⁴ − 4000x² − 8 000 000 = 0|u = 2000 + 2000√3|x ≈ 73,92|g(73,92) ≈ 10,29",
+    niveau_geschaetzt="II",
+    fehlerquelle="beim Rücksubstituieren die negative Wurzel mitnehmen oder die negative Lösung "
+                 "für u weiterverwenden, obwohl u = x² nicht negativ sein kann",
+    bemerkung="Die Angaben f) und das Koordinatensystem stehen auf derselben Seite 3. Das Feld "
+              "skizze beschreibt das vorgegebene Koordinatensystem; die Flugbahn ist einzutragen. "
+              "Das Einzeichnen in ein vorgegebenes Koordinatensystem hat in der Themenliste "
+              "Analysis kein eigenes Thema, ersatzweise Funktionsklassen und Eigenschaften für "
+              "den Nebentyp. Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B1.1g", block="B", aufgabe="1.1", titel="Skisprunganlage", teilaufgabe="g",
+    seite="3", punkte="6",
+    leitidee="Analysis", thema="Extremalprobleme",
+    typ="Maximalen vertikalen Abstand zweier Graphen über die Differenzfunktion nachweisen",
     typ_neben="",
-    stichwoerter="Lampe|kleinster Abstand|Lotgerade|Normalenvektor",
-    voraussetzungen="Normalenvektor aus der Koordinatenform ablesen|Parameterform einer Geraden "
-                    "aufschreiben|Lotfußpunkt als Punkt kleinsten Abstands kennen",
-    format="Kurzantwort", operator="Geben Sie an", antwort="Term",
-    material="keins", skizze="keine", kontext="Gartenbau", textumfang="kurz",
-    gegeben="Eine Dachteilfläche des Pavillons liegt in der Ebene H: 3y + 4,5z = 13,95. Im "
-            "Inneren des Pavillons befindet sich eine Lampe, vereinfacht durch den Punkt "
-            "L(0 | 1 | 2) modelliert.",
-    gesucht="Gleichung einer Geraden k, auf der neben L auch der Punkt der Ebene H liegt, der den "
-            "kleinsten Abstand zu L hat",
-    verfahren="Der Punkt kleinsten Abstands ist der Lotfußpunkt; die gesuchte Gerade ist das Lot "
-              "durch L, also die Gerade mit dem Normalenvektor von H als Richtungsvektor.",
+    stichwoerter="vertikaler Abstand|Differenzfunktion|Maximum|Sicherheit",
+    voraussetzungen="Differenzfunktion aufstellen|ableiten und null setzen|Produkt gleich null "
+                    "setzen",
+    format="Begründung|Rechnung", operator="Weisen Sie nach", antwort="Text|Zahl",
+    material="Koordinatensystem", skizze=SKIZZE_11KS, kontext="Skisprunganlage",
+    textumfang="mittel",
+    gegeben="Flugbahn f mit f(x) = −0,008x² + 54 und Aufsprunghang g mit "
+            "g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000), 1 LE = 1 m; der Sprung führt von "
+            "S(0 | 54) bis zum Landepunkt L(73,9 | 10,3). Auf die hinreichende Bedingung darf "
+            "verzichtet werden.",
+    gesucht="Nachweis, dass der maximale vertikale Abstand des Springers zum Hang höchstens 6 m "
+            "beträgt",
+    verfahren="Die Differenzfunktion d(x) = f(x) − g(x) beschreibt den vertikalen Abstand. "
+              "d'(x) = 0,004x − x³/500 000 = 0 liefert nach Ausklammern x = 0 und x² = 2000, also "
+              "x = 20√5 ≈ 44,7 im Flugbereich. Einsetzen ergibt d(20√5) = 38 − 32 = 6.",
+    schritte="5", zahlenraum="ganz|dezimal|Wurzel", einheiten="m",
+    abhaengig_von="2018-be-gk-B1.1e",
+    ergebnis="Der Abstand ist bei x = 20√5 ≈ 44,7 m maximal und beträgt dort genau 6 m; damit ist "
+             "der vertikale Abstand während des ganzen Fluges höchstens 6 m.",
+    zwischenergebnis="d(x) = −0,008x² + 4 − x⁴/2 000 000 + 0,01x²|d'(x) = 0,004x − x³/500 000|"
+                     "x = 20√5 ≈ 44,72|f(44,72) = 38|g(44,72) = 32",
+    niveau_geschaetzt="II",
+    fehlerquelle="den Abstand als Abstand Punkt–Kurve senkrecht zum Hang deuten statt als "
+                 "vertikale Differenz, oder die Lösung x = 0 der Ableitung als Maximum nehmen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt; das Maximum ist exakt 6 m.")
+
+SKIZZE_12 = ("Höhenprofil eines Wanderwegs als Flächendiagramm: eine von 0 ausgehende Kurve, die "
+             "kurz nach dem Start ein flaches Maximum erreicht und danach bis zum rechten Rand "
+             "fällt; die Fläche darunter ist grau. Beschriftet sind Höhe y, Entfernung x, Start "
+             "links, Ziel rechts, die Überschrift Wanderung auf dem Maximiliansweg und die "
+             "x-Werte 0 und 5. Keine Achsenteilung an der Höhenachse.")
+
+SKIZZE_12ANL = ("Anlage: Koordinatensystem mit x von −1 bis 7 und y von 0 bis über 3, Rasterweite "
+                "1. Eingezeichnet sind die Gerade g durch (−1 | 0) mit dem Anstieg 1 und der "
+                "Graph von f, der ebenfalls bei (−1 | 0) beginnt, oberhalb von g verläuft, bei "
+                "x = 1 ein flaches Maximum mit y ≈ 1,2 hat und danach auf die x-Achse zufällt; "
+                "beide Graphen sind mit f und g beschriftet.")
+
+row(id="2018-be-gk-B1.2a", block="B", aufgabe="1.2", titel="Höhenprofil", teilaufgabe="a",
+    seite="4", punkte="2",
+    leitidee="Analysis", thema="Grenzwerte und Verhalten im Unendlichen",
+    typ="Grenzverhalten einer Exponentialfunktion untersuchen",
+    typ_neben="",
+    stichwoerter="Grenzwert|Exponentialfunktion|Verhalten im Unendlichen|Asymptote",
+    voraussetzungen="Wachstumsvergleich von Polynom und Exponentialfunktion kennen",
+    format="Begründung", operator="Untersuchen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Funktion f mit f(x) = (x + 1) · e^(−0,5x).",
+    gesucht="Verhalten der Funktionswerte von f für x → +∞",
+    verfahren="Der Faktor x + 1 wächst über alle Grenzen, der Faktor e^(−0,5x) fällt gegen null; "
+              "die Exponentialfunktion ist dabei stärker, also gehen die Funktionswerte gegen "
+              "null.",
     schritte="2", zahlenraum="dezimal", einheiten="",
-    abhaengig_von="2017-bb-ea-B3.2c",
-    ergebnis="k: x = (0 | 1 | 2) + r · (0 | 3 | 4,5); r ∈ IR, gleichwertig mit dem "
-             "Richtungsvektor (0 | 2 | 3).",
+    abhaengig_von="",
+    ergebnis="Für x → +∞ gilt f(x) → 0; die x-Achse ist waagerechte Asymptote, die Annäherung "
+             "erfolgt von oben.",
     zwischenergebnis="",
     niveau_geschaetzt="I",
-    fehlerquelle="einen Richtungsvektor innerhalb der Ebene statt des Normalenvektors verwenden",
-    bemerkung="Eigene Rechnung.")
+    fehlerquelle="aus dem Produkt aus wachsendem und fallendem Faktor auf einen unbestimmten "
+                 "Grenzwert schließen, statt das stärkere Wachstum der Exponentialfunktion zu "
+                 "nutzen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
 
-row(id="2017-bb-ea-B4.1a", block="B", aufgabe="4.1", titel="Vereinsjubiläum", teilaufgabe="a",
+row(id="2018-be-gk-B1.2b", block="B", aufgabe="1.2", titel="Höhenprofil", teilaufgabe="b",
+    seite="4", punkte="7",
+    leitidee="Analysis", thema="Tangente, Normale, Schnittwinkel",
+    typ="Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen",
+    typ_neben="Ableitung mit Produkt- und Kettenregel bilden",
+    stichwoerter="Schnittwinkel|Tangente|Anstieg|Steigungswinkel",
+    voraussetzungen="Produkt- und Kettenregel anwenden|Steigungswinkel mit dem Arkustangens "
+                    "bestimmen|Winkeldifferenz bilden",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Funktionen f mit f(x) = (x + 1) · e^(−0,5x) und g mit g(x) = x + 1; beide Graphen "
+            "schneiden die y-Achse im Punkt S(0 | 1). Als Kontrolle ist "
+            "f'(x) = (−0,5x + 0,5) · e^(−0,5x) angegeben.",
+    gesucht="Winkel, unter dem sich die Tangente an den Graphen von f im Punkt S und die Gerade g "
+            "schneiden",
+    verfahren="f' mit Produkt- und Kettenregel bilden und f'(0) = 0,5 als Anstieg der Tangente "
+              "bestimmen; g hat den Anstieg 1. Die beiden Steigungswinkel sind arctan 0,5 ≈ 26,6° "
+              "und arctan 1 = 45°, der Schnittwinkel ist ihre Differenz. Gleichwertig über "
+              "tan φ = |(m₂ − m₁)/(1 + m₁ · m₂)| = 1/3.",
+    schritte="4", zahlenraum="dezimal|Bruch", einheiten="",
+    abhaengig_von="",
+    ergebnis="f'(0) = 0,5; mit tan φ = 1/3 ergibt sich φ ≈ 18,4°.",
+    zwischenergebnis="f'(x) = (0,5 − 0,5x) · e^(−0,5x)|f'(0) = 0,5|arctan 0,5 ≈ 26,57°|"
+                     "arctan 1 = 45°",
+    niveau_geschaetzt="II",
+    fehlerquelle="die Anstiege statt der Steigungswinkel voneinander abziehen, oder beim "
+                 "Ableiten die innere Ableitung −0,5 vergessen",
+    bemerkung="Das Kontrollergebnis für f' ist durch eigene Rechnung bestätigt. Eigene Rechnung, "
+              "mit sympy bestätigt.")
+
+row(id="2018-be-gk-B1.2c", block="B", aufgabe="1.2", titel="Höhenprofil", teilaufgabe="c",
+    seite="4|5", punkte="9",
+    leitidee="Analysis", thema="Stammfunktion und Hauptsatz",
+    typ="Stammfunktion durch Ableiten nachweisen",
+    typ_neben="Einzige Nullstelle über den positiven Exponentialfaktor nachweisen|"
+              "Fläche zwischen zwei Graphen berechnen",
+    stichwoerter="Stammfunktion|Nullstelle|eingeschlossene Fläche|zweiter Quadrant",
+    voraussetzungen="Produkt- und Kettenregel anwenden|Satz vom Nullprodukt|bestimmtes Integral "
+                    "einer Differenz berechnen|Integrationsgrenzen aus den Nullstellen gewinnen",
+    format="Begründung|Rechnung", operator="Weisen Sie nach|Zeigen Sie|Berechnen Sie",
+    antwort="Text|Zahl",
+    material="Koordinatensystem", skizze=SKIZZE_12ANL, kontext="ohne", textumfang="mittel",
+    gegeben="Funktionen f mit f(x) = (x + 1) · e^(−0,5x) und g mit g(x) = x + 1 sowie F mit "
+            "F(x) = (−2x − 6) · e^(−0,5x). Die Graphen von f und g schließen im zweiten "
+            "Quadranten eine Fläche mit dem Inhalt A vollständig ein; die Graphen sind in der "
+            "Anlage dargestellt.",
+    gesucht="Nachweis, dass F eine Stammfunktion von f ist; Nachweis, dass beide Funktionen nur "
+            "bei x = −1 eine Nullstelle haben; Wert von A",
+    verfahren="F mit Produkt- und Kettenregel ableiten: F'(x) = −2e^(−0,5x) + (−2x − 6) · (−0,5) "
+              "· e^(−0,5x) = (x + 1) · e^(−0,5x) = f(x). Da e^(−0,5x) stets positiv ist, wird f "
+              "nur für x + 1 = 0 null; g wird ebenfalls nur bei x = −1 null. Die Fläche liegt "
+              "zwischen der gemeinsamen Nullstelle x = −1 und der y-Achse, dort verläuft f "
+              "oberhalb von g: A = Integral von −1 bis 0 über f(x) − g(x).",
+    schritte="6", zahlenraum="ganz|dezimal|negativ|Wurzel", einheiten="",
+    abhaengig_von="",
+    ergebnis="F'(x) = (x + 1) · e^(−0,5x) = f(x), also ist F eine Stammfunktion. Beide Funktionen "
+             "haben nur bei x = −1 eine Nullstelle. A = 4√e − 6,5 ≈ 0,09 FE.",
+    zwischenergebnis="F'(x) = (x + 1) · e^(−0,5x)|F(0) = −6|F(−1) = −4√e ≈ −6,595|Integral über g "
+                     "von −1 bis 0 ist 0,5",
+    niveau_geschaetzt="II",
+    fehlerquelle="die Fläche als Integral über f allein berechnen, oder die Grenzen vertauschen "
+                 "und einen negativen Flächeninhalt angeben",
+    bemerkung="seite nennt die Aufgabenseite und die Anlage mit den Graphen. Eigene Rechnung, mit "
+              "sympy bestätigt.")
+
+row(id="2018-be-gk-B1.2d", block="B", aufgabe="1.2", titel="Höhenprofil", teilaufgabe="d",
+    seite="4", punkte="4",
+    leitidee="Analysis", thema="Kurvenuntersuchung",
+    typ="Hochpunkt über die notwendige Bedingung bestimmen",
+    typ_neben="",
+    stichwoerter="höchster Punkt|notwendige Bedingung|Wanderweg|Ableitung null setzen",
+    voraussetzungen="Ableitung eines Produkts bilden|Satz vom Nullprodukt|Funktionswert berechnen",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="Diagramm", skizze=SKIZZE_12, kontext="Wanderweg / Höhenprofil", textumfang="mittel",
+    gegeben="Das Höhenprofil eines Wanderwegs wird durch f mit f(x) = (x + 1) · e^(−0,5x) für "
+            "0 ≤ x ≤ 6 beschrieben, 1 LE = 1 km; f'(x) = (0,5 − 0,5x) · e^(−0,5x). Die "
+            "hinreichende Bedingung muss nicht untersucht werden.",
+    gesucht="Koordinaten des höchsten Punktes des Höhenprofils",
+    verfahren="f'(x) = 0 setzen; da e^(−0,5x) stets positiv ist, bleibt 0,5 − 0,5x = 0, also "
+              "x = 1. Den Funktionswert f(1) = 2 · e^(−0,5) berechnen.",
+    schritte="3", zahlenraum="dezimal", einheiten="km",
+    abhaengig_von="2018-be-gk-B1.2b",
+    ergebnis="Höchster Punkt (1 | 2 · e^(−0,5)) ≈ (1 | 1,21), also 1 km nach dem Start in etwa "
+             "1,21 km Höhe.",
+    zwischenergebnis="0,5 − 0,5x = 0|x = 1|f(1) = 2 · e^(−0,5)",
+    niveau_geschaetzt="II",
+    fehlerquelle="den Exponentialfaktor als möglichen Nullfaktor behandeln und eine zweite "
+                 "Lösung angeben",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B1.2e", block="B", aufgabe="1.2", titel="Höhenprofil", teilaufgabe="e",
+    seite="4", punkte="4",
+    leitidee="Analysis", thema="Ableitung und Änderungsrate",
+    typ="Sekantengleichung durch zwei Punkte eines Graphen ermitteln",
+    typ_neben="",
+    stichwoerter="Sekante|Geradengleichung|zwei Punkte|Näherung",
+    voraussetzungen="Funktionswerte berechnen|Anstieg aus zwei Punkten bestimmen|"
+                    "Punkt-Steigungs-Form anwenden",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Term",
+    material="Diagramm", skizze=SKIZZE_12, kontext="Wanderweg / Höhenprofil", textumfang="kurz",
+    gegeben="Höhenprofil f mit f(x) = (x + 1) · e^(−0,5x) für 0 ≤ x ≤ 6, 1 LE = 1 km. Im "
+            "Intervall [2 ; 6] soll das Profil näherungsweise durch die Gerade durch die Punkte "
+            "(2 | f(2)) und (6 | f(6)) ersetzt werden.",
+    gesucht="Gleichung dieser Geraden",
+    verfahren="f(2) = 3 · e^(−1) ≈ 1,104 und f(6) = 7 · e^(−3) ≈ 0,349 berechnen, daraus den "
+              "Anstieg m = (f(6) − f(2))/4 ≈ −0,189 bilden und die Gerade in der "
+              "Punkt-Steigungs-Form y = m · (x − 2) + f(2) aufstellen.",
+    schritte="4", zahlenraum="dezimal|negativ", einheiten="km",
+    abhaengig_von="",
+    ergebnis="m ≈ −0,1888 und y ≈ −0,189x + 1,481",
+    zwischenergebnis="f(2) = 3 · e^(−1) ≈ 1,1036|f(6) = 7 · e^(−3) ≈ 0,3485",
+    niveau_geschaetzt="I",
+    fehlerquelle="den Anstieg durch die Differenz der Funktionswerte ohne Division durch die "
+                 "Intervalllänge 4 bestimmen",
+    bemerkung="Der Anstieg der Sekante ist die mittlere Änderungsrate; deshalb Thema Ableitung "
+              "und Änderungsrate, obwohl das Ergebnis eine Geradengleichung ist. Eigene Rechnung, "
+              "mit sympy bestätigt.")
+
+row(id="2018-be-gk-B1.2f", block="B", aufgabe="1.2", titel="Höhenprofil", teilaufgabe="f",
+    seite="4", punkte="5",
+    leitidee="Analysis", thema="Ableitung und Änderungsrate",
+    typ="Unterschreiten einer Steigungsschranke über das Minimum der Ableitung nachweisen",
+    typ_neben="",
+    stichwoerter="Steigung|Schranke|Minimum der Ableitung|Wendestelle",
+    voraussetzungen="zweite Ableitung bilden|Extremstelle der ersten Ableitung bestimmen|"
+                    "Zahlenwerte vergleichen",
+    format="Begründung|Rechnung", operator="Weisen Sie nach", antwort="Text|Zahl",
+    material="Diagramm", skizze=SKIZZE_12, kontext="Wanderweg / Höhenprofil", textumfang="kurz",
+    gegeben="Höhenprofil f mit f(x) = (x + 1) · e^(−0,5x) für 0 ≤ x ≤ 6 und "
+            "f'(x) = (0,5 − 0,5x) · e^(−0,5x), 1 LE = 1 km.",
+    gesucht="Nachweis, dass es im Intervall [2 ; 6] eine Stelle gibt, an der die Steigung des "
+            "Höhenprofils kleiner als −0,222 ist",
+    verfahren="Die Steigung ist im Intervall dort am kleinsten, wo f' sein Minimum hat, also bei "
+              "f''(x) = 0,25 · (x − 3) · e^(−0,5x) = 0 und damit bei x = 3. Dort ist "
+              "f'(3) = −e^(−1,5) ≈ −0,2231 und damit kleiner als −0,222. Es genügt auch, den "
+              "Wert f'(3) zu berechnen und mit der Schranke zu vergleichen.",
+    schritte="4", zahlenraum="dezimal|negativ", einheiten="",
+    abhaengig_von="",
+    ergebnis="An der Stelle x = 3 ist f'(3) = −e^(−1,5) ≈ −0,223 < −0,222; damit ist die Existenz "
+             "einer solchen Stelle nachgewiesen.",
+    zwischenergebnis="f''(x) = 0,25 · (x − 3) · e^(−0,5x)|x = 3|f'(3) = −e^(−1,5)",
+    niveau_geschaetzt="III",
+    fehlerquelle="die mittlere Steigung aus e) als Beleg nehmen; sie beträgt nur etwa −0,189 und "
+                 "liegt über der Schranke",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B1.2g", block="B", aufgabe="1.2", titel="Höhenprofil", teilaufgabe="g",
+    seite="5", punkte="9",
+    leitidee="Analysis", thema="Ableitung und Änderungsrate",
+    typ="Mittlere Änderungsraten zweier Modelle vergleichen",
+    typ_neben="Parameter einer Exponentialfunktion aus zwei Wertepaaren bestimmen",
+    stichwoerter="mittlere Steigung|Vergleich|Parameter bestimmen|Logarithmieren",
+    voraussetzungen="mittlere Änderungsrate als Differenzenquotient bilden|Beträge vergleichen|"
+                    "Exponentialgleichung durch Logarithmieren lösen",
+    format="Rechnung|Begründung", operator="Untersuchen Sie|Ermitteln Sie", antwort="Zahl|Term",
+    material="Tabelle",
+    skizze="Kleine Wertetabelle mit zwei Spalten: x in km mit den Werten 0 und 6, darunter die "
+           "Höhe h_W(x) in km mit den Werten 1,2 und 0,3.",
+    kontext="Wanderweg / Höhenprofil", textumfang="mittel",
+    gegeben="Höhenprofil f mit f(x) = (x + 1) · e^(−0,5x), 1 LE = 1 km. Ähnliche Profile werden "
+            "durch h(x) = (x + a) · e^(b · x) mit a > 0 und b < 0 beschrieben. Von einem Profil "
+            "h_W ist bekannt: h_W(0) = 1,2 km und h_W(6) = 0,3 km.",
+    gesucht="Vergleich der Beträge der mittleren Steigungen von f und h_W im Intervall [0 ; 6]; "
+            "Werte von a und b für h_W",
+    verfahren="Mittlere Steigung als Differenzenquotient: bei f ist (f(6) − f(0))/6 = "
+              "(7 · e^(−3) − 1)/6 ≈ −0,109, bei h_W ist (0,3 − 1,2)/6 = −0,15; der Betrag ist bei "
+              "h_W größer. Für die Parameter aus h_W(0) = a = 1,2 und aus "
+              "(6 + 1,2) · e^(6b) = 0,3 die Gleichung e^(6b) = 1/24 durch Logarithmieren lösen.",
+    schritte="6", zahlenraum="dezimal|negativ|Bruch", einheiten="km",
+    abhaengig_von="",
+    ergebnis="Die mittlere Steigung beträgt bei f etwa −0,109, bei h_W −0,15; der Betrag ist bei "
+             "h_W größer. Für h_W gilt a = 1,2 und b = −ln 24 / 6 ≈ −0,53.",
+    zwischenergebnis="f(0) = 1|f(6) = 7 · e^(−3) ≈ 0,3485|a = 1,2|e^(6b) = 1/24",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Beträge der negativen Steigungen falsch herum vergleichen, oder beim "
+                 "Logarithmieren den Faktor 6 im Exponenten vergessen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+FOTO_21 = ("Fotografie einer Brücke über eine Autobahn, aufgenommen von der Fahrbahn aus. Die "
+           "Eckpunkte der seitlichen Streben sind beschriftet: A und C am linken Widerlager "
+           "(C oberhalb von A), B und D am rechten Widerlager (D oberhalb von B); die Strebe von "
+           "A nach B bildet die Unterkante, die von C nach D die Oberkante des Fachwerks. Auf der "
+           "Fahrbahn sind die Fahrzeugpositionen P (vorn) und Q (weiter hinten) markiert.")
+
+row(id="2018-be-gk-B2.1a", block="B", aufgabe="2.1", titel="Brücke", teilaufgabe="a",
+    seite="6", punkte="4",
+    leitidee="Analytische Geometrie", thema="Ebenen",
+    typ="Koordinatengleichung einer Ebene aus drei Punkten aufstellen",
+    typ_neben="",
+    stichwoerter="Normalenvektor|Koordinatenform|Ebene durch drei Punkte|Brückenstrebe",
+    voraussetzungen="Verbindungsvektoren bilden|Kreuzprodukt oder lineares Gleichungssystem für "
+                    "den Normalenvektor|Punktprobe zur Bestimmung des absoluten Glieds",
+    format="Rechnung", operator="Ermitteln Sie|Geben Sie an", antwort="Term",
+    material="Foto", skizze=FOTO_21, kontext="Brücke über eine Autobahn", textumfang="mittel",
+    gegeben="Seitliche Streben einer Brücke im Koordinatensystem durch A(0 | 0 | 5), "
+            "B(4,4 | 44 | 5), C(0,2 | 2 | 7) und D(4,8 | 48 | 9); die Fahrbahn liegt in der "
+            "x-y-Ebene, 1 LE = 1 m. Die Punkte A, B und C liegen in der Ebene E. Als Kontrolle "
+            "ist E: −10x + y = 0 angegeben.",
+    gesucht="Normalenvektor der Ebene E; Gleichung von E in Koordinatenform",
+    verfahren="Die Verbindungsvektoren AB = (4,4 | 44 | 0) und AC = (0,2 | 2 | 2) bilden und ihr "
+              "Kreuzprodukt n = (88 | −8,8 | 0) berechnen; gekürzt ist n = (10 | −1 | 0). Mit dem "
+              "Ansatz 10x − y = d und dem Punkt A folgt d = 0, also E: −10x + y = 0.",
+    schritte="4", zahlenraum="ganz|dezimal|negativ", einheiten="m",
+    abhaengig_von="",
+    ergebnis="n = (10 | −1 | 0) beziehungsweise (−10 | 1 | 0); E: −10x + y = 0",
+    zwischenergebnis="AB = (4,4 | 44 | 0)|AC = (0,2 | 2 | 2)|n = (88 | −8,8 | 0)",
+    niveau_geschaetzt="II",
+    fehlerquelle="beim Kreuzprodukt die Komponenten vertauschen, oder das absolute Glied nicht "
+                 "über eine Punktprobe bestimmen",
+    bemerkung="Das Kontrollergebnis ist durch eigene Rechnung bestätigt. Eigene Rechnung, mit "
+              "sympy bestätigt.")
+
+row(id="2018-be-gk-B2.1b", block="B", aufgabe="2.1", titel="Brücke", teilaufgabe="b",
+    seite="6", punkte="3",
+    leitidee="Analytische Geometrie", thema="Lagebeziehungen",
+    typ="Punktprobe an einer Ebenengleichung durchführen",
+    typ_neben="Orthogonalität zweier Ebenen über die Normalenvektoren nachweisen",
+    stichwoerter="Punktprobe|Orthogonalität zweier Ebenen|Normalenvektor|x-y-Ebene",
+    voraussetzungen="Koordinaten in eine Ebenengleichung einsetzen|Skalarprodukt bilden|"
+                    "Normalenvektor der x-y-Ebene kennen",
+    format="Begründung", operator="Weisen Sie nach|Zeigen Sie", antwort="Text",
+    material="Foto", skizze=FOTO_21, kontext="Brücke über eine Autobahn", textumfang="kurz",
+    gegeben="Ebene E: −10x + y = 0 und der Punkt D(4,8 | 48 | 9); die Fahrbahn liegt in der "
+            "x-y-Ebene, 1 LE = 1 m.",
+    gesucht="Nachweis, dass D in E liegt; Nachweis, dass E orthogonal zur x-y-Ebene liegt",
+    verfahren="D in die Ebenengleichung einsetzen: −10 · 4,8 + 48 = 0, die Gleichung ist erfüllt. "
+              "Für die Orthogonalität das Skalarprodukt der Normalenvektoren "
+              "n_E = (−10 | 1 | 0) und n_xy = (0 | 0 | 1) bilden; es ist null, also stehen die "
+              "Ebenen senkrecht aufeinander.",
+    schritte="3", zahlenraum="ganz|dezimal|negativ", einheiten="m",
+    abhaengig_von="2018-be-gk-B2.1a",
+    ergebnis="−10 · 4,8 + 48 = 0, also liegt D in E. n_E · n_xy = 0, also steht E senkrecht auf "
+             "der x-y-Ebene; gleichwertig: der Normalenvektor von E hat die z-Komponente null.",
+    zwischenergebnis="n_E = (−10 | 1 | 0)|n_xy = (0 | 0 | 1)",
+    niveau_geschaetzt="II",
+    fehlerquelle="für orthogonale Ebenen ein Skalarprodukt der Normalenvektoren ungleich null "
+                 "erwarten, weil die Bedingung mit der für orthogonale Geraden verwechselt wird",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B2.1c", block="B", aufgabe="2.1", titel="Brücke", teilaufgabe="c",
+    seite="6", punkte="6",
+    leitidee="Analytische Geometrie", thema="Lagebeziehungen",
+    typ="Existenz eines Geradenschnittpunkts über die gemeinsame Ebene begründen",
+    typ_neben="Schnittwinkel zweier Geraden über das Skalarprodukt berechnen",
+    stichwoerter="windschief oder schneidend|gemeinsame Ebene|Richtungsvektoren|Schnittwinkel",
+    voraussetzungen="Richtungsvektoren auf Vielfache prüfen|Skalarprodukt und Beträge berechnen|"
+                    "Arkuskosinus anwenden",
+    format="Begründung|Rechnung", operator="Begründen Sie|Berechnen Sie", antwort="Text|Zahl",
+    material="Foto", skizze=FOTO_21, kontext="Brücke über eine Autobahn", textumfang="mittel",
+    gegeben="A(0 | 0 | 5), B(4,4 | 44 | 5), C(0,2 | 2 | 7) und D(4,8 | 48 | 9) liegen alle in der "
+            "Ebene E: −10x + y = 0. Die Gerade g verläuft durch A und B, die Gerade h durch C und "
+            "D; 1 LE = 1 m.",
+    gesucht="Begründung, dass g und h einen Schnittpunkt haben müssen; Schnittwinkel der beiden "
+            "Geraden",
+    verfahren="Alle vier Punkte liegen in E, also liegen auch beide Geraden in dieser Ebene. Ihre "
+              "Richtungsvektoren (4,4 | 44 | 0) und (4,6 | 46 | 2) sind keine Vielfachen "
+              "voneinander, die Geraden sind also nicht parallel; zwei nicht parallele Geraden "
+              "einer Ebene schneiden sich. Den Winkel über "
+              "cos φ = |u · v| / (|u| · |v|) berechnen.",
+    schritte="5", zahlenraum="ganz|dezimal", einheiten="m",
+    abhaengig_von="2018-be-gk-B2.1b",
+    ergebnis="Beide Geraden liegen in E und sind nicht parallel, also schneiden sie sich. Mit "
+             "u · v = 2044,24, |u| ≈ 44,22 und |v| ≈ 46,27 ist cos φ ≈ 0,9991 und φ ≈ 2,5°.",
+    zwischenergebnis="u = (4,4 | 44 | 0)|v = (4,6 | 46 | 2)|u · v = 2044,24|Schnittpunkt "
+                     "(−4,4 | −44 | 5)",
+    niveau_geschaetzt="II",
+    fehlerquelle="aus der Ähnlichkeit der Richtungsvektoren auf Parallelität schließen, oder die "
+                 "Existenz des Schnittpunkts durch Gleichsetzen nachrechnen, statt sie mit der "
+                 "gemeinsamen Ebene zu begründen",
+    bemerkung="Der Schnittpunkt liegt bei (−4,4 | −44 | 5) und damit außerhalb des abgebildeten "
+              "Brückenteils; gefragt ist nur die Begründung der Existenz. Eigene Rechnung, mit "
+              "sympy bestätigt.")
+
+row(id="2018-be-gk-B2.1d", block="B", aufgabe="2.1", titel="Brücke", teilaufgabe="d",
+    seite="6", punkte="2",
+    leitidee="Analytische Geometrie", thema="Abstände",
+    typ="Streckenlänge im Raum berechnen",
+    typ_neben="Geschwindigkeit aus Weg und Zeit berechnen und in Kilometer pro Stunde umrechnen",
+    stichwoerter="Betrag eines Vektors|zurückgelegte Strecke|Geschwindigkeit|Einheiten umrechnen",
+    voraussetzungen="Verbindungsvektor bilden|Betrag berechnen|Meter je Sekunde in Kilometer je "
+                    "Stunde umrechnen",
+    format="Rechnung", operator="Berechnen Sie|Geben Sie an", antwort="Zahl",
+    material="Foto", skizze=FOTO_21, kontext="Brücke über eine Autobahn", textumfang="mittel",
+    gegeben="Ein Fahrzeug bewegt sich mit konstanter Geschwindigkeit geradlinig; zunächst ist es "
+            "im Punkt P(82 | 40 | 0) und 1,5 s später im Punkt Q(42 | 36 | 0), 1 LE = 1 m.",
+    gesucht="in 1,5 s zurückgelegte Strecke; Geschwindigkeit des Fahrzeugs in Kilometern je "
+            "Stunde",
+    verfahren="Den Vektor PQ = (−40 | −4 | 0) bilden und seinen Betrag berechnen. Die "
+              "Geschwindigkeit ist der Quotient aus Weg und Zeit; das Ergebnis in Metern je "
+              "Sekunde mit 3,6 multiplizieren.",
+    schritte="3", zahlenraum="ganz|dezimal|negativ|Wurzel", einheiten="m|s|km/h",
+    abhaengig_von="",
+    ergebnis="|PQ| = 4√101 ≈ 40,2 m; v ≈ 26,8 m je Sekunde, also etwa 96,5 km je Stunde.",
+    zwischenergebnis="PQ = (−40 | −4 | 0)|1616 unter der Wurzel",
+    niveau_geschaetzt="I",
+    fehlerquelle="beim Umrechnen durch 3,6 teilen statt zu multiplizieren",
+    bemerkung="Die Umrechnung in Kilometer je Stunde ist eine Sachrechnung ohne eigenes Thema in "
+              "der Themenliste Analytische Geometrie; der Nebentyp steht ersatzweise unter Punkte "
+              "und Strecken im Koordinatensystem. Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B2.1e", block="B", aufgabe="2.1", titel="Brücke", teilaufgabe="e",
+    seite="6", punkte="5",
+    leitidee="Analytische Geometrie", thema="Schnittmengen",
+    typ="Zeit bis zum Erreichen einer Ebene aus dem Geradenparameter bestimmen",
+    typ_neben="Durchstoßpunkt einer Geraden durch eine Ebene bestimmen",
+    stichwoerter="Fahrtdauer|Geradengleichung|senkrecht unter der Strebe|Parameter deuten",
+    voraussetzungen="Geradengleichung aus zwei Punkten aufstellen|Parameter aus einer "
+                    "Koordinatengleichung bestimmen|Parameter als Vielfaches der Zeitspanne "
+                    "deuten",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="Foto", skizze=FOTO_21, kontext="Brücke über eine Autobahn", textumfang="mittel",
+    gegeben="Das Fahrzeug fährt geradlinig und gleichförmig von P(82 | 40 | 0) über Q(42 | 36 | 0) "
+            "weiter; für die Strecke von P nach Q braucht es 1,5 s. Die Strebe durch A(0 | 0 | 5) "
+            "und B(4,4 | 44 | 5) liegt in der Ebene E: −10x + y = 0, die senkrecht auf der "
+            "Fahrbahn steht; 1 LE = 1 m.",
+    gesucht="Zeit, die das Fahrzeug von Q bis zu dem Punkt braucht, der genau vertikal unter der "
+            "Strebe durch A und B liegt",
+    verfahren="Genau vertikal unter der Strebe liegen die Punkte der Fahrbahn, die in der Ebene E "
+              "liegen, weil E senkrecht auf der Fahrbahn steht und die Strebe enthält. Die "
+              "Fahrzeugbahn x = Q + r · (−40 | −4 | 0) in E einsetzen: "
+              "−10 · (42 − 40r) + (36 − 4r) = 0 ergibt r = 32/33. Da r = 1 der Zeitspanne 1,5 s "
+              "entspricht, ist die gesuchte Zeit 1,5 s · 32/33.",
+    schritte="5", zahlenraum="ganz|dezimal|Bruch|negativ", einheiten="m|s",
+    abhaengig_von="2018-be-gk-B2.1d",
+    ergebnis="r = 32/33, der Punkt ist (3,2 | 32,1 | 0); die Fahrzeit beträgt 16/11 s ≈ 1,45 s.",
+    zwischenergebnis="Bahn x = (42 | 36 | 0) + r · (−40 | −4 | 0)|396r = 384",
+    niveau_geschaetzt="III",
+    fehlerquelle="den Fußpunkt als Lotfußpunkt auf die Gerade durch A und B bestimmen, statt den "
+                 "Durchstoßpunkt der Fahrbahnbahn mit der senkrechten Ebene E zu suchen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+SKIZZE_22 = ("Schrägbild eines räumlichen Koordinatensystems mit x nach vorn (Teilung bis 12), y "
+             "nach rechts (Teilung bis 16) und z nach oben (Teilung bis 6). Dargestellt sind zwei "
+             "waagerechte, grau ausgefüllte Plattformen, jede um einen senkrechten Pfahl gebaut: "
+             "Plattform 1 in Höhe z = 2 um den Pfahl 1 durch P₁(0 | 0 | 0) mit den beschrifteten "
+             "Eckpunkten A, B, C und D, Plattform 2 in Höhe z = 3 um den Pfahl 2 durch "
+             "P₂(5 | 10 | 0) mit den Eckpunkten R, S und T. Zwischen der Plattform 1 und dem "
+             "Untergrund liegt die grau ausgefüllte, geneigte Kletterwand mit den Eckpunkten A, "
+             "B oben und E, F auf dem Untergrund; sie ist mit Kletterwand beschriftet.")
+
+row(id="2018-be-gk-B2.2a", block="B", aufgabe="2.2", titel="Kletteranlage", teilaufgabe="a",
+    seite="7", punkte="3",
+    leitidee="Analytische Geometrie", thema="Abstände",
+    typ="Streckenlänge im Raum berechnen",
+    typ_neben="Mittelpunkt einer Strecke im Raum bestimmen",
+    stichwoerter="Kantenmittelpunkte|Abstand|Seillänge|prozentualer Zuschlag",
+    voraussetzungen="Mittelpunkt als halbe Summe der Ortsvektoren bilden|Betrag eines Vektors "
+                    "berechnen|einen Zuschlag von 20 Prozent berechnen",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="Körper", skizze=SKIZZE_22, kontext="Kletteranlage", textumfang="mittel",
+    gegeben="Die Kletterwand ist das Viereck mit den Eckpunkten A(3 | 0 | 2), B(0 | 3 | 2) als "
+            "oberer Kante und E(6 | 0 | 0), F(0 | 6 | 0) als unterer Kante; 1 LE = 1 m. In den "
+            "Mittelpunkten der oberen und der unteren Kante sind die Enden eines Seils "
+            "befestigt, das 20 Prozent länger ist als der Abstand dieser Mittelpunkte.",
+    gesucht="Länge des Seils",
+    verfahren="Die Mittelpunkte M₁ = (1,5 | 1,5 | 2) der Kante AB und M₂ = (3 | 3 | 0) der Kante "
+              "EF bestimmen, den Betrag des Verbindungsvektors (1,5 | 1,5 | −2) berechnen und das "
+              "Ergebnis mit 1,2 multiplizieren.",
+    schritte="4", zahlenraum="ganz|dezimal|Wurzel|negativ", einheiten="m",
+    abhaengig_von="",
+    ergebnis="M₁(1,5 | 1,5 | 2), M₂(3 | 3 | 0), Abstand √8,5 ≈ 2,92 m; das Seil ist etwa 3,50 m "
+             "lang.",
+    zwischenergebnis="M₁M₂ = (1,5 | 1,5 | −2)|8,5 unter der Wurzel",
+    niveau_geschaetzt="II",
+    fehlerquelle="die Seillänge als 20 Prozent des Abstands statt als das 1,2fache berechnen, "
+                 "oder die Mittelpunkte der Seitenkanten statt der oberen und unteren Kante nehmen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B2.2b", block="B", aufgabe="2.2", titel="Kletteranlage", teilaufgabe="b",
+    seite="7", punkte="3",
+    leitidee="Analytische Geometrie", thema="Punkte und Strecken im Koordinatensystem",
+    typ="Trapezform eines Vierecks im Raum nachweisen",
+    typ_neben="",
+    stichwoerter="Trapez|Parallelität|gleich lange Schenkel|Vektorvergleich",
+    voraussetzungen="Richtungsvektoren auf Vielfache prüfen|Beträge von Vektoren vergleichen",
+    format="Begründung", operator="Zeigen Sie", antwort="Text",
+    material="Körper", skizze=SKIZZE_22, kontext="Kletteranlage", textumfang="kurz",
+    gegeben="Kletterwand mit den Eckpunkten A(3 | 0 | 2), B(0 | 3 | 2), E(6 | 0 | 0) und "
+            "F(0 | 6 | 0), 1 LE = 1 m.",
+    gesucht="Nachweis, dass die Kletterwand ein Trapez ist, in dem zwei gegenüberliegende Seiten "
+            "gleich lang sind",
+    verfahren="AB = (−3 | 3 | 0) und EF = (−6 | 6 | 0) = 2 · AB, also sind diese beiden Seiten "
+              "parallel und die Wand ist ein Trapez. Für die Schenkel AE = (3 | 0 | −2) und "
+              "BF = (0 | 3 | −2) ist |AE| = |BF| = √13, sie sind also gleich lang.",
+    schritte="4", zahlenraum="ganz|negativ|Wurzel", einheiten="m",
+    abhaengig_von="",
+    ergebnis="EF = 2 · AB, also AB parallel zu EF und damit ein Trapez; |AE| = |BF| = √13 ≈ 3,61 m, "
+             "die beiden Schenkel sind gleich lang.",
+    zwischenergebnis="AB = (−3 | 3 | 0)|EF = (−6 | 6 | 0)|AE = (3 | 0 | −2)|BF = (0 | 3 | −2)",
+    niveau_geschaetzt="II",
+    fehlerquelle="Parallelität aus gleich langen Vektoren statt aus dem Vielfachenverhältnis "
+                 "schließen, oder die falschen Seitenpaare vergleichen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B2.2c", block="B", aufgabe="2.2", titel="Kletteranlage", teilaufgabe="c",
+    seite="7", punkte="3",
+    leitidee="Analytische Geometrie", thema="Skalarprodukt und Winkel",
+    typ="Schnittwinkel zweier Ebenen über die Normalenvektoren berechnen",
+    typ_neben="",
+    stichwoerter="Neigungswinkel|Normalenvektoren|Kletterwand|Untergrund",
+    voraussetzungen="Normalenvektor aus der Koordinatengleichung ablesen|Skalarprodukt und "
+                    "Beträge berechnen|Arkuskosinus anwenden",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="Körper", skizze=SKIZZE_22, kontext="Kletteranlage", textumfang="kurz",
+    gegeben="Die Punkte A(3 | 0 | 2), B(0 | 3 | 2), E(6 | 0 | 0) und F(0 | 6 | 0) der Kletterwand "
+            "liegen in der Ebene L: 2x + 2y + 3z − 12 = 0; der Untergrund ist die x-y-Ebene, "
+            "1 LE = 1 m.",
+    gesucht="Größe des Winkels zwischen Kletterwand und Untergrund",
+    verfahren="Die Normalenvektoren n_L = (2 | 2 | 3) und n_xy = (0 | 0 | 1) ablesen und "
+              "cos φ = |n_L · n_xy| / (|n_L| · |n_xy|) = 3/√17 berechnen; der Winkel zwischen den "
+              "Normalen ist zugleich der Winkel zwischen den Ebenen.",
+    schritte="3", zahlenraum="ganz|dezimal|Wurzel", einheiten="",
+    abhaengig_von="",
+    ergebnis="cos φ = 3/√17 ≈ 0,7276, also φ ≈ 43,3°.",
+    zwischenergebnis="n_L = (2 | 2 | 3)|n_xy = (0 | 0 | 1)|√17 ≈ 4,123",
+    niveau_geschaetzt="II",
+    fehlerquelle="den Nebenwinkel 136,7° angeben, oder den Winkel zwischen Normalenvektor und "
+                 "Ebene mit dem Winkel zwischen den Ebenen verwechseln",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B2.2d", block="B", aufgabe="2.2", titel="Kletteranlage", teilaufgabe="d",
+    seite="7", punkte="6",
+    leitidee="Analytische Geometrie", thema="Geraden",
+    typ="Lage eines Punktes auf einer Strecke über die Parameterform nachweisen",
+    typ_neben="Schattenpunkt bei paralleler Projektion bestimmen|"
+              "Schatten einer Fläche in eine Abbildung einzeichnen",
+    stichwoerter="Schatten|parallele Lichtstrahlen|Punkt auf einer Strecke|Schattendreieck",
+    voraussetzungen="Parameterform einer Strecke aufstellen|Parameter auf das Intervall von 0 bis "
+                    "1 prüfen|Richtungsvektor aus zwei zugeordneten Punkten gewinnen|"
+                    "Durchstoßpunkt mit der x-y-Ebene bestimmen",
+    format="Begründung|Rechnung|Zeichnen",
+    operator="Zeigen Sie|Berechnen Sie|Stellen Sie dar", antwort="Text|Zahl|Grafik",
+    material="Körper", skizze=SKIZZE_22, kontext="Kletteranlage", textumfang="mittel",
+    gegeben="Sonnenlicht wird durch parallele Geraden beschrieben. Die Plattform 2 hat die "
+            "Eckpunkte R(5 | 7 | 3), S(8 | 13 | 3) und T(2 | 10 | 3), ihre Schattenpunkte auf dem "
+            "Untergrund sind R'(4 | 2 | 0), S' und T'(1 | 5 | 0); außerdem sind E(6 | 0 | 0) und "
+            "F(0 | 6 | 0) gegeben, 1 LE = 1 m.",
+    gesucht="Nachweis, dass T' auf der Strecke EF liegt; Koordinaten von S'; Darstellung des "
+            "Schattens der Plattform 2 in der Abbildung",
+    verfahren="Die Strecke EF als E + t · (F − E) ansetzen und T' einsetzen: aus 6 − 6t = 1 folgt "
+              "t = 5/6, die übrigen Koordinaten stimmen und t liegt zwischen 0 und 1. Die "
+              "Lichtrichtung ist R'− R = (−1 | −5 | −3); von S aus in dieser Richtung bis z = 0 "
+              "gehen liefert S'. Danach das Dreieck R'S'T' in die Abbildung eintragen.",
+    schritte="5", zahlenraum="ganz|Bruch|negativ", einheiten="m",
+    abhaengig_von="",
+    ergebnis="T' = E + 5/6 · (F − E) mit 5/6 zwischen 0 und 1, also liegt T' auf der Strecke EF. "
+             "S'(7 | 8 | 0). Der Schatten ist das Dreieck mit den Ecken R'(4 | 2 | 0), "
+             "S'(7 | 8 | 0) und T'(1 | 5 | 0) auf dem Untergrund.",
+    zwischenergebnis="t = 5/6|Lichtrichtung (−1 | −5 | −3)|Probe mit T und T' bestätigt die "
+                     "Richtung",
+    niveau_geschaetzt="II",
+    fehlerquelle="nur zeigen, dass T' auf der Geraden durch E und F liegt, ohne den Parameter auf "
+                 "das Intervall von 0 bis 1 zu prüfen",
+    bemerkung="Das Feld skizze beschreibt das vorgegebene Schrägbild; der Schatten ist darin zu "
+              "ergänzen. Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B2.2e", block="B", aufgabe="2.2", titel="Kletteranlage", teilaufgabe="e",
+    seite="8", punkte="5",
+    leitidee="Analytische Geometrie", thema="Geraden",
+    typ="Lösungsweg zur Bestimmung eines Punktes auf einer Geraden beschreiben",
+    typ_neben="",
+    stichwoerter="Drahtseil|Teilverhältnis|Lösungsweg beschreiben|Höhe am Pfahl",
+    voraussetzungen="Teilpunkt einer Strecke über das Teilverhältnis ansetzen|Gerade durch zwei "
+                    "Punkte aufstellen|Schnitt mit einer senkrechten Geraden bilden",
+    format="Begründung", operator="Beschreiben Sie", antwort="Text",
+    material="Körper", skizze=SKIZZE_22, kontext="Kletteranlage", textumfang="lang",
+    gegeben="Ein geradlinig gespanntes Drahtseil ist am Pfahl 1 durch P₁(0 | 0 | 0) in Höhe der "
+            "Plattform 1 befestigt, also im Punkt (0 | 0 | 2), und am Pfahl 2 durch "
+            "P₂(5 | 10 | 0) oberhalb der Plattform 2, die in der Höhe z = 3 liegt. Das Seil "
+            "berührt die Plattform 2 an der Seite RT mit R(5 | 7 | 3) und T(2 | 10 | 3). Das "
+            "Verhältnis, in dem der Berührpunkt die Strecke RT teilt, ist als bekannt "
+            "vorausgesetzt; 1 LE = 1 m.",
+    gesucht="Beschreibung eines Verfahrens, mit dem sich der Abstand des Befestigungspunktes am "
+            "Pfahl 2 von der Plattform 2 berechnen lässt",
+    verfahren="Aus dem bekannten Teilverhältnis den Berührpunkt X als R + k · (T − R) bestimmen. "
+              "Das Seil ist die Gerade durch den Befestigungspunkt (0 | 0 | 2) und X. Der Pfahl 2 "
+              "ist die senkrechte Gerade mit x = 5 und y = 10; den Schnittpunkt dieser Geraden "
+              "mit der Seilgeraden bestimmen. Der gesuchte Abstand ist die Differenz zwischen "
+              "seiner z-Koordinate und der Plattformhöhe 3.",
+    schritte="4", zahlenraum="ganz", einheiten="m",
+    abhaengig_von="",
+    ergebnis="Beschreibung des Weges: Berührpunkt X aus dem Teilverhältnis auf RT bestimmen, "
+             "Gerade durch (0 | 0 | 2) und X aufstellen, ihren Schnittpunkt mit der Senkrechten "
+             "durch P₂ berechnen und von dessen z-Koordinate die Plattformhöhe 3 abziehen.",
+    zwischenergebnis="",
+    niveau_geschaetzt="III",
+    fehlerquelle="den Abstand als Abstand des Punktes von der Plattformebene im Sinne eines "
+                 "Lotfußpunkts beschreiben, obwohl die Plattform waagerecht liegt und die "
+                 "Höhendifferenz gemeint ist",
+    bemerkung="Gefragt ist nur die Beschreibung des Verfahrens, keine Zahlenrechnung; das "
+              "Teilverhältnis wird im Heft nicht angegeben. Eigene Rechnung nicht erforderlich.")
+
+row(id="2018-be-gk-B3.1a", block="B", aufgabe="3.1", titel="Gewinnspiel", teilaufgabe="a",
     seite="9", punkte="2",
+    leitidee="Stochastik", thema="Zufallsexperimente und Urnenmodelle",
+    typ="Wahrscheinlichkeit beim Ziehen ohne Zurücklegen mit der Pfadregel nachweisen",
+    typ_neben="",
+    stichwoerter="Urne|ohne Zurücklegen|Pfadregel|Gewinnwahrscheinlichkeit",
+    voraussetzungen="zweistufiges Ziehen ohne Zurücklegen modellieren|Pfadregel anwenden|"
+                    "alternativ mit Binomialkoeffizienten abzählen",
+    format="Begründung|Rechnung", operator="Weisen Sie nach", antwort="Text|Zahl",
+    material="keins", skizze="keine", kontext="Gewinnspiel auf einem Schulfest",
+    textumfang="mittel",
+    gegeben="In einem Topf liegen 2 schwarze und 4 weiße Kugeln. Bei einem Spiel werden zwei "
+            "Kugeln mit einem Griff, also ohne Zurücklegen, gezogen. Der Spieler gewinnt genau "
+            "dann, wenn keine schwarze Kugel dabei ist.",
+    gesucht="Nachweis, dass die Gewinnwahrscheinlichkeit p = 0,4 beträgt",
+    verfahren="Zweistufiges Ziehen ohne Zurücklegen: beide Kugeln weiß mit der Pfadregel "
+              "4/6 · 3/5 = 12/30. Gleichwertig über Binomialkoeffizienten: die Zahl der "
+              "Möglichkeiten, 2 der 4 weißen Kugeln zu ziehen, geteilt durch die Zahl der "
+              "Möglichkeiten, 2 der 6 Kugeln zu ziehen.",
+    schritte="2", zahlenraum="Bruch|dezimal", einheiten="",
+    abhaengig_von="",
+    ergebnis="p = 4/6 · 3/5 = 2/5 = 0,4; gleichwertig 6/15 = 0,4.",
+    zwischenergebnis="4/6 · 3/5 = 12/30",
+    niveau_geschaetzt="I",
+    fehlerquelle="mit Zurücklegen rechnen und (4/6)² = 4/9 erhalten",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.1b", block="B", aufgabe="3.1", titel="Gewinnspiel", teilaufgabe="b",
+    seite="9", punkte="5",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Wahrscheinlichkeit einer Binomialverteilung für genau k Treffer berechnen",
+    typ_neben="Kumulierte Wahrscheinlichkeit einer Binomialverteilung berechnen",
+    stichwoerter="Bernoulli-Kette|genau vier Treffer|erstes Spiel gewonnen|höchstens ein Treffer",
+    voraussetzungen="Binomialformel anwenden|Unabhängigkeit aufeinanderfolgender Spiele nutzen|"
+                    "Ereignis in zwei unabhängige Teile zerlegen",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Gewinnspiel auf einem Schulfest", textumfang="kurz",
+    gegeben="Ein Spieler spielt das Spiel mit der Gewinnwahrscheinlichkeit p = 0,4 zehnmal; nach "
+            "jedem Spiel werden die Kugeln zurückgelegt. Ereignis A: genau 4 der 10 Spiele "
+            "gewonnen. Ereignis B: das erste Spiel gewonnen und von den übrigen 9 höchstens eins.",
+    gesucht="Wahrscheinlichkeiten der Ereignisse A und B",
+    verfahren="A mit der Binomialformel für n = 10, p = 0,4 und k = 4 berechnen. B in zwei "
+              "unabhängige Teile zerlegen: das erste Spiel gewinnen mit 0,4, und von den übrigen "
+              "9 Spielen höchstens eines gewinnen, also 0,6⁹ + 9 · 0,4 · 0,6⁸; die beiden "
+              "Wahrscheinlichkeiten multiplizieren.",
+    schritte="5", zahlenraum="dezimal|Potenz", einheiten="",
+    abhaengig_von="2018-be-gk-B3.1a",
+    ergebnis="P(A) ≈ 0,2508; P(B) = 0,4 · (0,6⁹ + 9 · 0,4 · 0,6⁸) ≈ 0,0282.",
+    zwischenergebnis="P(A) = 210 · 0,4⁴ · 0,6⁶|P(höchstens 1 von 9) ≈ 0,0705",
+    niveau_geschaetzt="II",
+    fehlerquelle="bei B mit n = 10 statt mit n = 9 für den zweiten Teil rechnen, oder höchstens "
+                 "eins als genau eins lesen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.1c", block="B", aufgabe="3.1", titel="Gewinnspiel", teilaufgabe="c",
+    seite="9", punkte="5",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Behauptung zur Monotonie einer Wahrscheinlichkeit an Beispielwerten prüfen",
+    typ_neben="Wahrscheinlichkeit für wenigstens einen Treffer über das Gegenereignis berechnen",
+    stichwoerter="wenigstens ein Treffer|Gegenereignis|Monotonie|Behauptung prüfen",
+    voraussetzungen="Gegenereignis bilden|Potenzen vergleichen|eine Behauptung an Beispielen "
+                    "widerlegen",
+    format="Rechnung|Begründung", operator="Entscheiden Sie", antwort="Zahl|Text",
+    material="keins", skizze="keine", kontext="Gewinnspiel auf einem Schulfest", textumfang="mittel",
+    gegeben="Das Spiel hat die Gewinnwahrscheinlichkeit p = 0,4 und wird n-mal gespielt. Ereignis "
+            "C: wenigstens eins von n Spielen wird gewonnen. Eine Spielerin behauptet, P(C) werde "
+            "kleiner, wenn n größer wird.",
+    gesucht="Entscheidung über die Behauptung anhand zweier berechneter Wahrscheinlichkeiten",
+    verfahren="P(C) über das Gegenereignis kein Gewinn bestimmen: P(C) = 1 − 0,6ⁿ. Zwei Werte "
+              "berechnen, etwa n = 1 mit 0,4 und n = 10 mit etwa 0,994; da 0,6ⁿ mit wachsendem n "
+              "kleiner wird, wächst P(C). Die Behauptung ist damit widerlegt.",
+    schritte="3", zahlenraum="dezimal|Potenz", einheiten="",
+    abhaengig_von="2018-be-gk-B3.1a",
+    ergebnis="P(C) = 1 − 0,6ⁿ; für n = 1 ist P(C) = 0,4, für n = 10 ist P(C) ≈ 0,9940. P(C) wird "
+             "also größer, die Behauptung ist falsch.",
+    zwischenergebnis="0,6¹⁰ ≈ 0,0060",
+    niveau_geschaetzt="II",
+    fehlerquelle="P(C) als Summe der Einzelwahrscheinlichkeiten aufschreiben und im Rechenaufwand "
+                 "steckenbleiben, statt das Gegenereignis zu nutzen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.1d", block="B", aufgabe="3.1", titel="Gewinnspiel", teilaufgabe="d",
+    seite="9", punkte="2",
+    leitidee="Stochastik", thema="Kenngrößen von Verteilungen",
+    typ="Erwartungswert einer Zufallsgröße im Sachzusammenhang berechnen",
+    typ_neben="",
+    stichwoerter="Erwartungswert|Einsatz und Auszahlung|langfristiger Gewinn|Anbieter",
+    voraussetzungen="Zufallsgröße für den Gewinn festlegen|Erwartungswert als gewichtete Summe "
+                    "bilden|Vorzeichen im Sachzusammenhang deuten",
+    format="Rechnung|Begründung", operator="Zeigen Sie", antwort="Zahl|Text",
+    material="keins", skizze="keine", kontext="Gewinnspiel auf einem Schulfest", textumfang="kurz",
+    gegeben="Der Einsatz beträgt 1 € je Spiel. Mit der Wahrscheinlichkeit 0,4 werden 2 € "
+            "ausgezahlt, sonst ist der Einsatz verloren.",
+    gesucht="Nachweis, dass das Spiel aus Sicht des Anbieters auf lange Sicht gewinnbringend ist",
+    verfahren="Den Erwartungswert der Auszahlung bilden: 0,4 · 2 € = 0,80 €. Er ist kleiner als "
+              "der Einsatz von 1 €, der Anbieter nimmt also im Mittel 0,20 € je Spiel ein.",
+    schritte="2", zahlenraum="dezimal", einheiten="Euro",
+    abhaengig_von="2018-be-gk-B3.1a",
+    ergebnis="Erwartete Auszahlung 0,80 € gegenüber 1 € Einsatz; der Anbieter gewinnt im Mittel "
+             "0,20 € je Spiel, das Spiel ist für ihn auf lange Sicht gewinnbringend.",
+    zwischenergebnis="0,4 · 2 € = 0,80 €",
+    niveau_geschaetzt="II",
+    fehlerquelle="den Einsatz von 1 € nicht gegenrechnen und die Auszahlung allein als Gewinn "
+                 "deuten",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.1e", block="B", aufgabe="3.1", titel="Gewinnspiel", teilaufgabe="e",
+    seite="9", punkte="6",
+    leitidee="Stochastik", thema="Zufallsexperimente und Urnenmodelle",
+    typ="Anzahl der Kugeln aus einer Fairnessbedingung bestimmen",
+    typ_neben="Wahrscheinlichkeit beim Ziehen ohne Zurücklegen mit der Pfadregel nachweisen",
+    stichwoerter="faires Spiel|Urnenzusammensetzung|quadratische Gleichung|Gegenprobe",
+    voraussetzungen="Wahrscheinlichkeit in Abhängigkeit von einer Unbekannten aufstellen|"
+                    "quadratische Gleichung lösen|Lösung auf den Sachzusammenhang prüfen",
+    format="Rechnung|Begründung", operator="Zeigen Sie|Ermitteln Sie", antwort="Zahl|Text",
+    material="keins", skizze="keine", kontext="Gewinnspiel auf einem Schulfest",
+    textumfang="mittel",
+    gegeben="Zu den 4 weißen Kugeln kommen 11 weitere weiße, zu den 2 schwarzen kommen x "
+            "schwarze. Es werden weiterhin zwei Kugeln mit einem Griff gezogen; gewonnen wird "
+            "nur, wenn keine schwarze Kugel dabei ist. Das Spiel ist fair, wenn die "
+            "Gewinnwahrscheinlichkeit q = 0,5 beträgt.",
+    gesucht="Nachweis, dass x = 2 nicht zu q = 0,5 führt; Anzahl der zuzugebenden schwarzen "
+            "Kugeln für ein faires Spiel",
+    verfahren="Mit 15 weißen und 2 + x schwarzen Kugeln, also 17 + x insgesamt, ist "
+              "q(x) = 15/(17 + x) · 14/(16 + x). Für x = 2 ergibt das 35/57 ≈ 0,614, also nicht "
+              "0,5. Die Gleichung q(x) = 0,5 führt auf (17 + x) · (16 + x) = 420, also "
+              "x² + 33x − 148 = 0 mit der brauchbaren Lösung x = 4.",
+    schritte="6", zahlenraum="Bruch|dezimal|ganz", einheiten="",
+    abhaengig_von="2018-be-gk-B3.1a",
+    ergebnis="Für x = 2 ist q = 35/57 ≈ 0,614 und damit nicht 0,5. Aus x² + 33x − 148 = 0 folgt "
+             "x = 4 (die zweite Lösung x = −37 entfällt); bei 15 weißen und 6 schwarzen Kugeln "
+             "ist q = 105/210 = 0,5, das Spiel ist fair.",
+    zwischenergebnis="q(x) = 210/((17 + x) · (16 + x))|q(2) = 35/57|(17 + x) · (16 + x) = 420",
+    niveau_geschaetzt="III",
+    fehlerquelle="beim Ziehen ohne Zurücklegen im zweiten Faktor den Nenner nicht um eins "
+                 "verringern, oder die negative Lösung der quadratischen Gleichung mitnehmen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.2a", block="B", aufgabe="3.2", titel="Bildschirme", teilaufgabe="a",
+    seite="10|11", punkte="4",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Kumulierte Wahrscheinlichkeit einer Binomialverteilung berechnen",
+    typ_neben="Wahrscheinlichkeit eines Intervalls als Differenz kumulierter Werte berechnen",
+    stichwoerter="Binomialverteilung|höchstens acht|Intervall|Tabelle der summierten "
+                 "Binomialverteilung",
+    voraussetzungen="Tabellenwerte für summierte Binomialverteilungen lesen|Ereignis in "
+                    "kumulierte Wahrscheinlichkeiten übersetzen|Grenzen richtig einschließen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="Tabelle",
+    skizze="Anlage: Tabelle der summierten Binomialverteilung für n = 50 mit den Spalten für "
+           "p von 0,05 bis 0,5 und den Zeilen k von 0 bis 37; die Werte sind auf vier "
+           "Nachkommastellen gerundet und ohne die führende Null angegeben.",
+    kontext="Bildschirmproduktion", textumfang="mittel",
+    gegeben="Im Mittel ist einer von fünf Bildschirmen fehlerhaft, die Anzahl fehlerhafter Geräte "
+            "ist binomialverteilt mit p = 0,2. Es werden 50 Bildschirme zufällig ausgewählt. "
+            "Ereignis A: höchstens 8 fehlerhaft. Ereignis B: mehr als 10 und weniger als 15 "
+            "fehlerhaft.",
+    gesucht="Wahrscheinlichkeiten der Ereignisse A und B",
+    verfahren="A ist P(X ≤ 8) und wird direkt aus der Tabelle abgelesen. B ist "
+              "P(11 ≤ X ≤ 14) = P(X ≤ 14) − P(X ≤ 10); beide Werte ablesen und subtrahieren.",
+    schritte="3", zahlenraum="dezimal", einheiten="",
+    abhaengig_von="",
+    ergebnis="P(A) = P(X ≤ 8) ≈ 0,3073; P(B) = P(X ≤ 14) − P(X ≤ 10) ≈ 0,9393 − 0,5836 ≈ 0,3557.",
+    zwischenergebnis="P(X ≤ 14) ≈ 0,9393|P(X ≤ 10) ≈ 0,5836",
+    niveau_geschaetzt="II",
+    fehlerquelle="bei mehr als 10 und weniger als 15 die Grenzen einschließen und P(X ≤ 15) − "
+                 "P(X ≤ 9) rechnen",
+    bemerkung="seite nennt die Aufgabenseite und die Anlage mit der Tabelle. Die Tabellenwerte "
+              "stimmen mit der eigenen Rechnung überein. Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.2b", block="B", aufgabe="3.2", titel="Bildschirme", teilaufgabe="b",
+    seite="10", punkte="2",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Modalwert einer Binomialverteilung bestimmen",
+    typ_neben="",
+    stichwoerter="wahrscheinlichste Trefferzahl|Erwartungswert|Binomialverteilung|n gleich 250",
+    voraussetzungen="Erwartungswert n · p berechnen|Einzelwahrscheinlichkeiten in der Umgebung "
+                    "vergleichen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Bildschirmproduktion", textumfang="kurz",
+    gegeben="Die Anzahl fehlerhafter Geräte unter 250 zufällig ausgewählten Bildschirmen ist "
+            "binomialverteilt mit p = 0,2.",
+    gesucht="Anzahl fehlerhafter Bildschirme, die mit der größten Wahrscheinlichkeit auftritt",
+    verfahren="Den Erwartungswert 250 · 0,2 = 50 bestimmen und die Einzelwahrscheinlichkeiten in "
+              "seiner Umgebung vergleichen; alternativ über (n + 1) · p = 50,2 und Abrunden.",
+    schritte="2", zahlenraum="ganz|dezimal", einheiten="",
+    abhaengig_von="",
+    ergebnis="50 fehlerhafte Bildschirme; P(X = 50) ≈ 0,0630 ist größer als P(X = 49) und "
+             "P(X = 51).",
+    zwischenergebnis="n · p = 50|(n + 1) · p = 50,2",
+    niveau_geschaetzt="II",
+    fehlerquelle="den Erwartungswert angeben, ohne zu prüfen, ob die Nachbarwerte kleinere "
+                 "Wahrscheinlichkeiten haben",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.2c", block="B", aufgabe="3.2", titel="Bildschirme", teilaufgabe="c",
+    seite="10", punkte="3",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Aussage zur Änderung einer Wahrscheinlichkeit bei größerer Stichprobe beurteilen",
+    typ_neben="",
+    stichwoerter="alle fehlerfrei|Stichprobe vergrößern|Potenz|Aussage beurteilen",
+    voraussetzungen="Wahrscheinlichkeit für null Treffer als Potenz schreiben|Potenzen mit "
+                    "Basis kleiner eins vergleichen",
+    format="Begründung", operator="Beurteilen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="Bildschirmproduktion", textumfang="mittel",
+    gegeben="Die Anzahl fehlerhafter Bildschirme ist binomialverteilt mit p = 0,2. Zu beurteilen "
+            "ist die Aussage, dass die Wahrscheinlichkeit dafür, dass alle Geräte fehlerfrei "
+            "sind, geringer wird, wenn eine Stichprobe um einen zufällig ausgewählten Bildschirm "
+            "ergänzt wird.",
+    gesucht="Beurteilung der Aussage",
+    verfahren="Bei n Geräten ist die Wahrscheinlichkeit 0,8ⁿ, bei n + 1 Geräten "
+              "0,8^(n+1) = 0,8 · 0,8ⁿ. Da mit 0,8 multipliziert wird, ist der Wert kleiner; die "
+              "Aussage trifft zu.",
+    schritte="2", zahlenraum="dezimal|Potenz", einheiten="",
+    abhaengig_von="",
+    ergebnis="Die Aussage ist richtig: 0,8^(n+1) = 0,8 · 0,8ⁿ < 0,8ⁿ, die Wahrscheinlichkeit wird "
+             "mit jedem weiteren Gerät um den Faktor 0,8 kleiner.",
+    zwischenergebnis="",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Aussage nur an einem Zahlenbeispiel prüfen und den allgemeinen Grund nicht "
+                 "nennen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.2d", block="B", aufgabe="3.2", titel="Bildschirme", teilaufgabe="d",
+    seite="10", punkte="4",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Trefferwahrscheinlichkeit aus einer Bedingung an die Wahrscheinlichkeit für null "
+        "Treffer bestimmen",
+    typ_neben="",
+    stichwoerter="Anteil fehlerhafter Geräte|kein Treffer|Wurzel ziehen|Mindestwahrscheinlichkeit",
+    voraussetzungen="Ansatz (1 − p)ⁿ aufstellen|Ungleichung durch Wurzelziehen lösen|"
+                    "Ergebnis als Anteil deuten",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Bildschirmproduktion", textumfang="mittel",
+    gegeben="Nach einer Verbesserung soll die Wahrscheinlichkeit dafür, dass unter 25 zufällig "
+            "ausgewählten Bildschirmen keiner fehlerhaft ist, mindestens 10 Prozent betragen.",
+    gesucht="höchster Anteil fehlerhafter Geräte nach der Verbesserung",
+    verfahren="Ansatz (1 − p)²⁵ ≥ 0,1 aufstellen und die 25. Wurzel ziehen: "
+              "1 − p ≥ 0,1^(1/25) ≈ 0,9120, also p ≤ 0,0880.",
+    schritte="3", zahlenraum="dezimal|Prozent|Wurzel", einheiten="",
+    abhaengig_von="",
+    ergebnis="p ≤ 1 − 0,1^(1/25) ≈ 0,088; der Anteil fehlerhafter Geräte darf höchstens etwa "
+             "8,8 Prozent betragen.",
+    zwischenergebnis="0,1^(1/25) ≈ 0,91201",
+    niveau_geschaetzt="II",
+    fehlerquelle="beim Ziehen der Wurzel das Ungleichheitszeichen falsch umdrehen oder p und "
+                 "1 − p verwechseln",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.2e", block="B", aufgabe="3.2", titel="Bildschirme", teilaufgabe="e",
+    seite="10", punkte="3",
     leitidee="Stochastik", thema="Vierfeldertafel",
     typ="Vierfeldertafel aus Anteilen aufstellen",
     typ_neben="",
-    stichwoerter="Vierfeldertafel|Randhäufigkeiten|Prozentanteil|absolute Zahlen",
-    voraussetzungen="Prozentwert einer Gesamtzahl berechnen|Randsummen einer Vierfeldertafel "
-                    "ergänzen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Vereinsfest", textumfang="mittel",
-    gegeben="Zu einer Autogrammstunde haben 30 Frauen und 50 Männer je eine Frage eingereicht. "
-            "75 Prozent aller eingereichten Fragen beziehen sich auf den Fußball, die übrigen "
-            "sind eher allgemeiner Natur. Die Fragen der Frauen verteilen sich zu gleichen "
-            "Teilen auf rein fußballerische und allgemeine.",
-    gesucht="Anzahl der von Männern gestellten Fragen, die eher allgemeine Dinge betreffen",
-    verfahren="Insgesamt sind es 80 Fragen, davon 25 % allgemeine, also 20. Von den Frauen "
-              "stammen 15 allgemeine Fragen; die Differenz entfällt auf die Männer.",
-    schritte="3", zahlenraum="ganz|Prozent", einheiten="",
+    stichwoerter="Vierfeldertafel|Display|Netzteil|weder noch",
+    voraussetzungen="Gegenwahrscheinlichkeiten bilden|Randsummen zur Ergänzung nutzen",
+    format="Tabelle", operator="Stellen Sie dar", antwort="Tabelle",
+    material="keins", skizze="keine", kontext="Bildschirmproduktion", textumfang="mittel",
+    gegeben="Für einen zufällig ausgewählten Bildschirm gilt: das Display ist mit der "
+            "Wahrscheinlichkeit 10,7 Prozent defekt, das Netzteil mit 3,0 Prozent, und mit "
+            "87,3 Prozent ist weder das Display noch das Netzteil defekt.",
+    gesucht="vollständig ausgefüllte Vierfeldertafel",
+    verfahren="Aus dem Rand für das Display folgt der Gegenwert 89,3 Prozent; das Feld Display "
+              "heil und Netzteil defekt ergibt sich als 89,3 − 87,3 = 2,0 Prozent. Damit ist das "
+              "Feld Display defekt und Netzteil defekt 3,0 − 2,0 = 1,0 Prozent und das Feld "
+              "Display defekt und Netzteil heil 10,7 − 1,0 = 9,7 Prozent.",
+    schritte="4", zahlenraum="dezimal|Prozent", einheiten="",
     abhaengig_von="",
-    ergebnis="20 − 15 = 5 Fragen von Männern betreffen eher allgemeine Dinge.",
-    zwischenergebnis="80 Fragen insgesamt|20 allgemeine Fragen|15 allgemeine Fragen von Frauen",
-    niveau_geschaetzt="I",
-    fehlerquelle="die 75 Prozent auf die Männerfragen statt auf alle Fragen beziehen",
-    bemerkung="Der vorhandene Typ wird übernommen, obwohl hier absolute Häufigkeiten statt "
-              "Anteilen gegeben sind; der Lösungsweg ist derselbe. Eigene Rechnung.")
+    ergebnis="Display und Netzteil defekt 1,0 Prozent; nur Display defekt 9,7 Prozent; nur "
+             "Netzteil defekt 2,0 Prozent; keines defekt 87,3 Prozent. Ränder: Display 10,7 zu "
+             "89,3 Prozent, Netzteil 3,0 zu 97,0 Prozent.",
+    zwischenergebnis="Display heil 89,3 Prozent|nur Netzteil defekt 2,0 Prozent",
+    niveau_geschaetzt="II",
+    fehlerquelle="die 87,3 Prozent als Wahrscheinlichkeit dafür lesen, dass das Display heil ist, "
+                 "statt dass beide Bauteile heil sind",
+    bemerkung="Die Definition des Typs nennt Randanteile und einen Anteil innerhalb einer "
+              "Teilgruppe; hier sind zwei Randanteile und ein Innenfeld gegeben. Die Definition "
+              "sollte verallgemeinert werden, Vorschlag im Bericht. Eigene Rechnung, mit sympy "
+              "bestätigt.")
 
-row(id="2017-bb-ea-B4.1b", block="B", aufgabe="4.1", titel="Vereinsjubiläum", teilaufgabe="b",
-    seite="9", punkte="4",
+row(id="2018-be-gk-B3.2f", block="B", aufgabe="3.2", titel="Bildschirme", teilaufgabe="f",
+    seite="10", punkte="2",
     leitidee="Stochastik", thema="Bedingte Wahrscheinlichkeit und Bayes",
     typ="Bedingte Wahrscheinlichkeit aus der Vierfeldertafel berechnen",
     typ_neben="",
-    stichwoerter="Losentscheid|bedingte Wahrscheinlichkeit|Teilgruppe|Vierfeldertafel",
-    voraussetzungen="bedingte Wahrscheinlichkeit als Anteil innerhalb einer Teilgruppe deuten|"
-                    "Vierfeldertafel auswerten",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Vereinsfest", textumfang="mittel",
-    gegeben="Unter den 80 Personen, die je eine Frage eingereicht haben (30 Frauen, 50 Männer), "
-            "wird eine Jahreskarte verlost. 20 der Fragen sind eher allgemeiner Natur, davon 15 "
-            "von Frauen und 5 von Männern. Bekannt ist bereits, dass der Gewinner eine eher "
-            "allgemeine Frage gestellt hat.",
-    gesucht="Wahrscheinlichkeit dafür, dass die Jahreskarte von einem Mann gewonnen wird",
-    verfahren="Bedingte Wahrscheinlichkeit: Anteil der Männer unter den 20 Personen mit "
-              "allgemeiner Frage, also 5/20.",
-    schritte="2", zahlenraum="Bruch|dezimal", einheiten="",
-    abhaengig_von="2017-bb-ea-B4.1a",
-    ergebnis="P(Mann | allgemeine Frage) = 5/20 = 0,25",
+    stichwoerter="bedingte Wahrscheinlichkeit|defektes Display|defektes Netzteil|Quotient",
+    voraussetzungen="bedingte Wahrscheinlichkeit als Quotient ansetzen|Werte aus der "
+                    "Vierfeldertafel entnehmen",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Bildschirmproduktion", textumfang="kurz",
+    gegeben="Vierfeldertafel mit den Werten: Display und Netzteil defekt 1,0 Prozent, nur Display "
+            "defekt 9,7 Prozent, nur Netzteil defekt 2,0 Prozent, keines defekt 87,3 Prozent; der "
+            "Rand für ein defektes Display beträgt 10,7 Prozent.",
+    gesucht="Wahrscheinlichkeit dafür, dass ein Bildschirm mit defektem Display auch ein defektes "
+            "Netzteil hat",
+    verfahren="Den Quotienten aus dem Feld beide defekt und dem Rand defektes Display bilden: "
+              "0,010 geteilt durch 0,107.",
+    schritte="2", zahlenraum="dezimal|Prozent", einheiten="",
+    abhaengig_von="2018-be-gk-B3.2e",
+    ergebnis="P ≈ 0,0935, also etwa 9,3 Prozent.",
+    zwischenergebnis="0,010 / 0,107",
+    niveau_geschaetzt="II",
+    fehlerquelle="durch den Rand für das defekte Netzteil statt für das defekte Display teilen "
+                 "und die Bedingung damit vertauschen",
+    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
+
+row(id="2018-be-gk-B3.2g", block="B", aufgabe="3.2", titel="Bildschirme", teilaufgabe="g",
+    seite="10", punkte="2",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Ungeeignetheit des Binomialmodells begründen",
+    typ_neben="",
+    stichwoerter="ohne Zurücklegen|Trefferwahrscheinlichkeit ändert sich|Binomialmodell|"
+                 "Stichprobenumfang",
+    voraussetzungen="Bedingungen einer Bernoulli-Kette kennen|Auswahl ohne Zurücklegen erkennen",
+    format="Begründung", operator="Beurteilen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="Bildschirmproduktion", textumfang="mittel",
+    gegeben="Von vierzig geprüften Bildschirmen, unter denen sechs fehlerhaft sind, werden "
+            "nacheinander zehn zufällig ausgewählt.",
+    gesucht="Beurteilung, ob die Anzahl fehlerhafter Bildschirme unter den ausgewählten "
+            "binomialverteilt ist",
+    verfahren="Prüfen, ob die Bedingungen einer Bernoulli-Kette erfüllt sind. Es wird aus einer "
+              "festen Menge ohne Zurücklegen gezogen, die Wahrscheinlichkeit für ein fehlerhaftes "
+              "Gerät ändert sich also von Zug zu Zug; bei zehn aus vierzig ist der Anteil zu "
+              "groß, um das zu vernachlässigen.",
+    schritte="0", zahlenraum="Bruch|dezimal", einheiten="",
+    abhaengig_von="",
+    ergebnis="Nein. Die Auswahl erfolgt ohne Zurücklegen, die Trefferwahrscheinlichkeit bleibt "
+             "also nicht bei 6/40 = 0,15, sondern hängt von den vorherigen Zügen ab; die Anzahl "
+             "ist hypergeometrisch verteilt. Da ein Viertel des Bestands gezogen wird, ist auch "
+             "eine Näherung durch die Binomialverteilung nicht zu rechtfertigen.",
     zwischenergebnis="",
     niveau_geschaetzt="II",
-    fehlerquelle="die Wahrscheinlichkeit auf alle 80 Personen beziehen und 5/80 angeben",
-    bemerkung="Eigene Rechnung.")
-
-row(id="2017-bb-ea-B4.1c", block="B", aufgabe="4.1", titel="Vereinsjubiläum", teilaufgabe="c",
-    seite="9", punkte="4",
-    leitidee="Stochastik", thema="Kenngrößen von Verteilungen",
-    typ="Erwartungswert einer Zufallsgröße im Sachzusammenhang berechnen",
-    typ_neben="Wahrscheinlichkeit aus den Sektorwinkeln eines Glücksrads bestimmen",
-    stichwoerter="Glücksrad|Sektorwinkel|Erwartungswert|Gewinn je Wurst",
-    voraussetzungen="Wahrscheinlichkeit aus Winkelanteilen bestimmen|Erwartungswert einer "
-                    "Zufallsgröße bilden|Selbstkosten aus Preis und Gewinn erschließen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Imbissstand", textumfang="lang",
-    gegeben="Eine Bratwurst kostet 1,50 €, der Betreiber erzielt dabei 0,30 € Gewinn je "
-            "verkaufter Wurst. Er stellt ein Glücksrad aus schwarzen und weißen Sektoren auf; "
-            "die weißen Sektoren nehmen zusammen einen Winkel von 36° ein. Wer Weiß dreht, "
-            "erhält die Wurst kostenlos.",
-    gesucht="Betrag, auf den sich der Gewinn pro abgegebener Bratwurst durch die Aktion "
-            "verringert",
-    verfahren="P(weiß) = 36°/360° = 0,1. Bei Weiß entgehen dem Betreiber die Selbstkosten von "
-              "1,50 € − 0,30 € = 1,20 €. Erwartungswert des Gewinns: "
-              "0,9 · 0,30 € + 0,1 · (−1,20 €).",
-    schritte="4", zahlenraum="dezimal", einheiten="Euro|Grad",
-    abhaengig_von="",
-    ergebnis="P(weiß) = 0,1; der erwartete Gewinn beträgt 0,27 € − 0,12 € = 0,15 € je "
-             "abgegebener Bratwurst, sinkt also von 0,30 € auf 0,15 € und damit um die Hälfte.",
-    zwischenergebnis="P(weiß) = 0,1|Verlust bei Weiß 1,20 €",
-    niveau_geschaetzt="III",
-    fehlerquelle="bei einer kostenlos abgegebenen Wurst nur den entgangenen Gewinn von 0,30 € "
-                 "statt der Selbstkosten von 1,20 € ansetzen",
-    bemerkung="Das Heft nennt keinen Einkaufspreis; die Selbstkosten von 1,20 € folgen aus Preis "
-              "minus Gewinn. Die Frageformulierung nennt den neuen Gewinn, die Verringerung "
-              "beträgt ebenfalls 0,15 €. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B4.2a", block="B", aufgabe="4.2", titel="Freizeit", teilaufgabe="a",
-    seite="10", punkte="8",
-    leitidee="Stochastik", thema="Zufallsgrößen und Verteilungen",
-    typ="Wahrscheinlichkeit für den ersten Treffer bei der k-ten Wiederholung berechnen",
-    typ_neben="Wahrscheinlichkeit einer festgelegten Trefferfolge berechnen|Kumulierte "
-              "Wahrscheinlichkeit einer Binomialverteilung berechnen",
-    stichwoerter="Bernoulli-Kette|erster Treffer|festgelegte Positionen|kumulierte "
-                 "Wahrscheinlichkeit",
-    voraussetzungen="Pfadregel für unabhängige Wiederholungen anwenden|Binomialformel anwenden|"
-                    "Ereignis mehr als 18 in Einzelfälle zerlegen",
-    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Freizeitverhalten", textumfang="lang",
-    gegeben="In der deutschen Bevölkerung ab 14 Jahre sehen 96 % mindestens einmal pro Woche "
-            "fern, 72,6 % lesen gern und 60,3 % arbeiten gern am Computer. Ereignis A: Zufällig "
-            "ausgewählte Personen werden nacheinander befragt, erst die fünfte antwortet, dass "
-            "sie gern am Computer arbeitet. Ereignis B: Von acht zufällig ausgewählten Personen "
-            "arbeiten nur die dritte und die fünfte gern am Computer. Ereignis C: Unter 20 "
-            "zufällig ausgewählten Personen befinden sich mehr als 18, die mindestens einmal pro "
-            "Woche fernsehen.",
-    gesucht="Wahrscheinlichkeiten der Ereignisse A, B und C",
-    verfahren="A als Kette von vier Nichttreffern und einem Treffer: 0,397⁴ · 0,603. B mit "
-              "festgelegten Positionen über die Pfadregel ohne Binomialkoeffizient: "
-              "0,603² · 0,397⁶. C als Binomialverteilung mit n = 20 und p = 0,96 über "
-              "P(X = 19) + P(X = 20).",
-    schritte="6", zahlenraum="dezimal|Prozent|Potenz", einheiten="",
-    abhaengig_von="",
-    ergebnis="P(A) = 0,397⁴ · 0,603 ≈ 0,0150; P(B) = 0,603² · 0,397⁶ ≈ 0,00142; "
-             "P(C) = 20 · 0,96¹⁹ · 0,04 + 0,96²⁰ ≈ 0,8103.",
-    zwischenergebnis="0,397⁴ ≈ 0,02484|0,96²⁰ ≈ 0,4420|P(X = 19) ≈ 0,3683",
-    niveau_geschaetzt="II",
-    fehlerquelle="bei B den Binomialkoeffizienten ansetzen, obwohl die Positionen der beiden "
-                 "Treffer festgelegt sind",
-    bemerkung="Drei Ereignisse in einer Einheit; thema folgt dem ersten Typ. Eigene Rechnung, "
+    fehlerquelle="aus der festen Fehlerquote 6/40 auf eine konstante Trefferwahrscheinlichkeit "
+                 "schließen",
+    bemerkung="Zum Vergleich: die Wahrscheinlichkeit für genau zwei fehlerhafte Geräte beträgt "
+              "hypergeometrisch etwa 0,321, binomial mit p = 0,15 etwa 0,276. Eigene Rechnung, "
               "mit sympy bestätigt.")
-
-row(id="2017-bb-ea-B4.2b", block="B", aufgabe="4.2", titel="Freizeit", teilaufgabe="b",
-    seite="10", punkte="4",
-    leitidee="Stochastik", thema="Binomialverteilung",
-    typ="Mindestanzahl von Versuchen einer Bernoulli-Kette über das Gegenereignis bestimmen",
-    typ_neben="",
-    stichwoerter="Mindestwahrscheinlichkeit|Gegenereignis|Logarithmus|Stichprobenumfang",
-    voraussetzungen="Gegenereignis bilden|Exponentialungleichung durch Logarithmieren lösen|auf "
-                    "die nächste ganze Zahl aufrunden",
-    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Freizeitverhalten", textumfang="mittel",
-    gegeben="72,6 % der deutschen Bevölkerung ab 14 Jahre lesen in ihrer Freizeit gern, die "
-            "übrigen 27,4 % nicht.",
-    gesucht="Mindestanzahl der Personen, die befragt werden müssten, um mit einer "
-            "Mindestwahrscheinlichkeit von 98 % wenigstens eine Person zu finden, die nicht gern "
-            "liest",
-    verfahren="Gegenereignis: alle Befragten lesen gern. Aus 1 − 0,726ⁿ ≥ 0,98 folgt "
-              "0,726ⁿ ≤ 0,02, also n ≥ ln 0,02 / ln 0,726; aufrunden.",
-    schritte="4", zahlenraum="dezimal|Prozent", einheiten="",
-    abhaengig_von="",
-    ergebnis="n ≥ 12,22, es müssen also mindestens 13 Personen befragt werden.",
-    zwischenergebnis="0,726ⁿ ≤ 0,02|ln 0,02 / ln 0,726 ≈ 12,22",
-    niveau_geschaetzt="II",
-    fehlerquelle="beim Logarithmieren einer Ungleichung mit negativem Logarithmus das "
-                 "Ungleichheitszeichen nicht umdrehen oder abrunden",
-    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
-
-row(id="2017-bb-ea-B4.2c", block="B", aufgabe="4.2", titel="Freizeit", teilaufgabe="c",
-    seite="10", punkte="5",
-    leitidee="Stochastik", thema="Bedingte Wahrscheinlichkeit und Bayes",
-    typ="Anteil einer Teilgruppe aus der totalen Wahrscheinlichkeit berechnen",
-    typ_neben="Baumdiagramm zu einer zweistufigen Situation erstellen",
-    stichwoerter="totale Wahrscheinlichkeit|Frauenanteil|Baumdiagramm|Vierfeldertafel",
-    voraussetzungen="Satz von der totalen Wahrscheinlichkeit anwenden|lineare Gleichung mit einer "
-                    "Unbekannten lösen|reduziertes Baumdiagramm zeichnen",
-    format="Rechnung|Zeichnen", operator="Berechnen Sie|Veranschaulichen Sie",
-    antwort="Zahl|Grafik",
-    material="keins",
-    skizze="Im Heft ist keine Abbildung vorgegeben; zu erstellen ist ein reduziertes "
-           "Baumdiagramm mit der ersten Stufe weiblich (Anteil w) und männlich (1 − w) und der "
-           "zweiten Stufe liest gern mit 0,76 beziehungsweise 0,69, alternativ eine "
-           "Vierfeldertafel mit denselben Werten und der Randwahrscheinlichkeit 0,726.",
-    kontext="Freizeitverhalten", textumfang="mittel",
-    gegeben="72,6 % der deutschen Bevölkerung ab 14 Jahre lesen in ihrer Freizeit gern. Dabei "
-            "lesen 76 % der weiblichen und 69 % der männlichen Bevölkerung gern.",
-    gesucht="Anteil der Frauen in der deutschen Bevölkerung; Veranschaulichung des Lösungsansatzes "
-            "durch ein reduziertes Baumdiagramm oder eine Vierfeldertafel",
-    verfahren="Frauenanteil w ansetzen und die totale Wahrscheinlichkeit bilden: "
-              "0,76 · w + 0,69 · (1 − w) = 0,726, also 0,07 · w = 0,036.",
-    schritte="4", zahlenraum="dezimal|Prozent", einheiten="",
-    abhaengig_von="",
-    ergebnis="w = 0,036/0,07 = 18/35 ≈ 0,514; der Frauenanteil beträgt rund 51,4 %.",
-    zwischenergebnis="0,07 · w = 0,036",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Mittelwert aus 76 % und 69 % bilden, statt mit den unbekannten Anteilen zu "
-                 "gewichten",
-    bemerkung="Das Feld skizze beschreibt eine vom Prüfling zu erstellende Darstellung, nicht "
-              "vorhandenes Aufgabenmaterial. Eigene Rechnung.")
-
-row(id="2017-bb-ea-B4.2d", block="B", aufgabe="4.2", titel="Freizeit", teilaufgabe="d",
-    seite="10", punkte="4",
-    leitidee="Stochastik", thema="Binomialverteilung",
-    typ="Wahrscheinlichkeit einer Binomialverteilung für genau k Treffer berechnen",
-    typ_neben="Modalwert einer Binomialverteilung bestimmen",
-    stichwoerter="Stornierung|Binomialformel|Term angeben|größte Wahrscheinlichkeit",
-    voraussetzungen="Bernoulli-Kette erkennen|Binomialformel mit dem Binomialkoeffizienten "
-                    "aufschreiben|Erwartungswert n · p als Orientierung nutzen",
-    format="Rechnung|Kurzantwort", operator="Geben Sie an|Ermitteln Sie", antwort="Term|Zahl",
-    material="keins", skizze="keine", kontext="Lesung / Kartenverkauf", textumfang="lang",
-    gegeben="Ein Buchhändler organisiert eine Lesung in einem Saal mit 175 Plätzen. Da im Mittel "
-            "5 % der bestellten Karten storniert werden, lässt er 180 Kartenreservierungen "
-            "annehmen. k ist die Anzahl der stornierten Karten.",
-    gesucht="Term für P(k), mit dem die Wahrscheinlichkeit für genau k Stornierungen berechnet "
-            "werden kann; größter Wert dieser Wahrscheinlichkeit",
-    verfahren="Bernoulli-Kette mit n = 180 und p = 0,05: P(k) = C(180; k) · 0,05^k · "
-              "0,95^(180 − k). Der größte Wert liegt beim Modalwert in der Nähe des "
-              "Erwartungswerts n · p = 9; die Werte um 9 herum vergleichen.",
-    schritte="4", zahlenraum="dezimal|Prozent|Potenz", einheiten="",
-    abhaengig_von="",
-    ergebnis="P(k) = C(180; k) · 0,05^k · 0,95^(180 − k); der größte Wert wird bei k = 9 "
-             "erreicht: P(9) ≈ 0,1352 gegenüber P(8) ≈ 0,1344 und P(10) ≈ 0,1217.",
-    zwischenergebnis="Erwartungswert n · p = 9",
-    niveau_geschaetzt="II",
-    fehlerquelle="die Stornierungen als Treffer mit p = 0,95 ansetzen oder den größten Wert bei "
-                 "k = 5 vermuten",
-    bemerkung="Die Saalkapazität von 175 Plätzen wird in dieser Teilaufgabe nicht gebraucht. "
-              "Eigene Rechnung, mit sympy bestätigt.")
-
-row(id="2017-bb-ea-B4.2e", block="B", aufgabe="4.2", titel="Freizeit", teilaufgabe="e",
-    seite="10", punkte="4",
-    leitidee="Stochastik", thema="Hypergeometrische Verteilung",
-    typ="Wahrscheinlichkeit beim Ziehen ohne Zurücklegen über das Gegenereignis berechnen",
-    typ_neben="Ungeeignetheit des Binomialmodells begründen",
-    stichwoerter="Auslosung|ohne Zurücklegen|bestimmte Person|Modellkritik",
-    voraussetzungen="Anzahl der Auswahlmöglichkeiten mit Binomialkoeffizienten bestimmen|"
-                    "Gegenereignis bilden|Voraussetzungen der Binomialverteilung kennen",
-    format="Rechnung|Begründung", operator="Berechnen Sie|Begründen Sie", antwort="Zahl|Text",
-    material="keins", skizze="keine", kontext="Lesung / Kartenverkauf", textumfang="mittel",
-    gegeben="An der Lesung nehmen 174 Besucher teil, darunter ein Deutschkurs und dessen "
-            "Lehrerin. Aus den Teilnehmern werden fünf Personen ausgelost, die je eine Freikarte "
-            "für die nächste Veranstaltung erhalten.",
-    gesucht="Wahrscheinlichkeit dafür, dass die Lehrerin unter den fünf Gewinnern ist; "
-            "Begründung, dass das Modell der Binomialverteilung dafür ungeeignet ist",
-    verfahren="Ziehen ohne Zurücklegen: über das Gegenereignis "
-              "P = 1 − C(173; 5)/C(174; 5) = 1 − 169/174, gleichwertig zur Überlegung, dass "
-              "jede der 174 Personen dieselbe Chance hat, unter den fünf Gezogenen zu sein. Die "
-              "Binomialverteilung setzt unabhängige Wiederholungen mit gleichbleibender "
-              "Trefferwahrscheinlichkeit voraus.",
-    schritte="3", zahlenraum="Bruch|dezimal", einheiten="",
-    abhaengig_von="",
-    ergebnis="P = 5/174 ≈ 0,0287. Die Binomialverteilung ist ungeeignet, weil ohne Zurücklegen "
-             "gezogen wird: Die Trefferwahrscheinlichkeit ändert sich von Zug zu Zug, die Züge "
-             "sind nicht unabhängig.",
-    zwischenergebnis="C(173; 5)/C(174; 5) = 169/174",
-    niveau_geschaetzt="II",
-    fehlerquelle="mit fünf unabhängigen Zügen und der festen Wahrscheinlichkeit 1/174 rechnen",
-    bemerkung="Eigene Rechnung, mit sympy bestätigt.")
 
 
 NEUE_TYPEN = [
-    ("Nullstelle einer Exponentialfunktion durch Logarithmieren bestimmen", "Analysis",
+    ("Vertikalen Abstand zweier Punkte als Differenz von Funktionswerten berechnen", "Analysis",
+     "Funktionsklassen und Eigenschaften",
+     "Den senkrechten Abstand zweier Punkte, die dieselbe x-Koordinate haben, als Differenz der "
+     "zugehörigen Funktionswerte berechnen.",
+     "2018-be-gk-B1.1a"),
+    ("Lage und Art aller lokalen Extrempunkte bestimmen", "Analysis", "Kurvenuntersuchung",
+     "Alle Stellen mit waagerechter Tangente über die erste Ableitung bestimmen, ihre Art mit der "
+     "zweiten Ableitung entscheiden und die Extrempunkte mit beiden Koordinaten angeben.",
+     "2018-be-gk-B1.1c"),
+    ("Extrempunkt einem Punkt im Sachzusammenhang zuordnen", "Analysis", "Kurvenuntersuchung",
+     "Aus mehreren berechneten Extrempunkten denjenigen auswählen, der einem im Sachtext "
+     "benannten Punkt entspricht, und die Auswahl begründen.",
+     "2018-be-gk-B1.1c"),
+    ("Stelle des stärksten Gefälles über die zweite Ableitung bestimmen", "Analysis",
+     "Kurvenuntersuchung",
+     "Die Stelle mit dem stärksten Anstieg oder Gefälle als Extremstelle der ersten Ableitung "
+     "bestimmen, indem die zweite Ableitung null gesetzt wird.",
+     "2018-be-gk-B1.1d"),
+    ("Quadratische Funktion aus knickfreiem Übergang und einer Wertbedingung rekonstruieren",
+     "Analysis", "Rekonstruktion von Funktionsgleichungen",
+     "Aus der Forderung, dass zwei Graphen an einer Stelle ohne Knick ineinander übergehen, die "
+     "Bedingungen gleicher Funktionswert und gleicher Anstieg gewinnen und mit einer weiteren "
+     "Bedingung die Gleichung einer quadratischen Funktion bestimmen.",
+     "2018-be-gk-B1.1e"),
+    ("Schnittpunkt zweier Graphen über eine biquadratische Gleichung berechnen", "Analysis",
      "Gleichungen lösen",
-     "Eine Gleichung der Form c · e^(kx) + d = 0 nach der Exponentialfunktion auflösen und durch "
-     "Logarithmieren die Nullstelle exakt angeben.",
-     "2017-bb-ea-A1.1a"),
-    ("Gleichschenkligkeit des Achsenabschnittsdreiecks einer Tangente nachweisen", "Analysis",
+     "Zwei Funktionsterme gleichsetzen, die entstehende Gleichung vierten Grades mit der "
+     "Substitution u = x² auf eine quadratische zurückführen und die brauchbare Lösung "
+     "zurücksubstituieren.",
+     "2018-be-gk-B1.1f"),
+    ("Graphen einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen", "Analysis",
+     "Funktionsklassen und Eigenschaften",
+     "Den Verlauf einer Funktion mit Hilfe einiger berechneter Punkte in ein vorgegebenes "
+     "Koordinatensystem eintragen, das bereits andere Graphen enthält.",
+     "2018-be-gk-B1.1f"),
+    ("Maximalen vertikalen Abstand zweier Graphen über die Differenzfunktion nachweisen",
+     "Analysis", "Extremalprobleme",
+     "Die Differenz zweier Funktionen als Zielfunktion aufstellen, ihre Extremstelle bestimmen "
+     "und den größten vertikalen Abstand gegen eine vorgegebene Schranke prüfen.",
+     "2018-be-gk-B1.1g"),
+    ("Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen", "Analysis",
      "Tangente, Normale, Schnittwinkel",
-     "Die Achsenschnittpunkte einer Tangente berechnen und aus dem Vergleich der beiden "
-     "Achsenabschnitte eine Eigenschaft des entstehenden Dreiecks nachweisen.",
-     "2017-bb-ea-A1.1b"),
-    ("Flächeninhalt eines Dreiecks aus den Spurpunkten einer Ebene berechnen",
-     "Analytische Geometrie", "Flächeninhalt und Volumen im Raum",
-     "Aus den Spurpunkten einer Ebene auf zwei Koordinatenachsen und dem Koordinatenursprung ein "
-     "rechtwinkliges Dreieck bilden und seinen Flächeninhalt aus den Achsenabschnitten "
-     "bestimmen.",
-     "2017-bb-ea-A1.2a"),
-    ("Spurpunkte einer Ebene auf den Koordinatenachsen bestimmen", "Analytische Geometrie",
-     "Schnittmengen",
-     "Aus der Koordinatengleichung einer Ebene die Schnittpunkte mit den Koordinatenachsen "
-     "bestimmen, indem die jeweils anderen Koordinaten null gesetzt werden.",
-     "2017-bb-ea-A1.2a"),
-    ("Normalenvektor als Ortsvektor eines Ebenenpunktes bestimmen", "Analytische Geometrie",
-     "Ebenen",
-     "Ein Vielfaches des Normalenvektors als Ortsvektor ansetzen, in die Koordinatengleichung der "
-     "Ebene einsetzen und den Faktor bestimmen.",
-     "2017-bb-ea-A1.2b"),
-    ("Wahrscheinlichkeit bei zweistufigem Umlegen zwischen Urnen berechnen", "Stochastik",
-     "Baumdiagramm und Pfadregeln",
-     "Ein zweistufiges Urnenexperiment mit Umlegen einer Kugel als Baum auffassen, die durch den "
-     "ersten Zug veränderten Inhalte berücksichtigen und die Pfadwahrscheinlichkeiten "
-     "zusammenfassen.",
-     "2017-bb-ea-A1.3a"),
-    ("Auszahlung eines fairen Spiels aus der Fairnessbedingung bestimmen", "Stochastik",
-     "Kenngrößen von Verteilungen",
-     "Die unbekannte Auszahlung eines Glücksspiels so bestimmen, dass der erwartete Gewinn null "
-     "ist, indem Erwartungswert und Einsatz gleichgesetzt werden.",
-     "2017-bb-ea-A1.3b"),
-    ("Totale Wahrscheinlichkeit bei zufälliger Auswahl einer Urne berechnen", "Stochastik",
-     "Baumdiagramm und Pfadregeln",
-     "Die Wahrscheinlichkeit eines Ereignisses über mehrere gleich wahrscheinliche Teilversuche "
-     "hinweg bestimmen, indem die bedingten Wahrscheinlichkeiten gewichtet addiert werden.",
-     "2017-bb-ea-A1.3b"),
-    ("Definitionsbereich einer Logarithmusfunktion angeben", "Analysis",
+     "Den Anstieg der Tangente über die Ableitung bestimmen und den Winkel zur gegebenen Geraden "
+     "aus beiden Anstiegen berechnen, über die Differenz der Steigungswinkel oder über die "
+     "Tangensformel.",
+     "2018-be-gk-B1.2b"),
+    ("Stammfunktion durch Ableiten nachweisen", "Analysis", "Stammfunktion und Hauptsatz",
+     "Eine vorgegebene Funktion ableiten und zeigen, dass die Ableitung mit dem gegebenen "
+     "Integranden übereinstimmt.",
+     "2018-be-gk-B1.2c"),
+    ("Einzige Nullstelle über den positiven Exponentialfaktor nachweisen", "Analysis",
      "Funktionsklassen und Eigenschaften",
-     "Den größtmöglichen Definitionsbereich einer Logarithmusfunktion aus der Bedingung "
-     "bestimmen, dass das Argument positiv sein muss, gegebenenfalls in Abhängigkeit von einem "
-     "Parameter.",
-     "2017-bb-ea-B2.1a"),
-    ("Gemeinsamen Punkt aller Graphen einer Schar nachweisen", "Analysis",
-     "Funktionsscharen und Ortskurven",
-     "Zeigen, dass ein Punkt auf allen Graphen einer Schar liegt, indem der Funktionswert an "
-     "dieser Stelle vom Parameter unabhängig ist.",
-     "2017-bb-ea-B2.1a"),
-    ("Parameterwert einer Schar aus einer Funktionswertbedingung exakt bestimmen", "Analysis",
-     "Funktionsscharen und Ortskurven",
-     "Den Scharparameter aus einer Bedingung an einen Funktionswert bestimmen, indem die "
-     "entstehende Gleichung exakt, also ohne Rundung, nach dem Parameter aufgelöst wird.",
-     "2017-bb-ea-B2.1a"),
-    ("Gemeinsamen Extrempunkt einer Funktionenschar nachweisen", "Analysis",
-     "Funktionsscharen und Ortskurven",
-     "Die Ableitung der Schar bilden, ihre Nullstelle als parameterunabhängig nachweisen und aus "
-     "dem zugehörigen Funktionswert den für alle Graphen gemeinsamen Extrempunkt angeben.",
-     "2017-bb-ea-B2.1b"),
-    ("Art eines Extrempunktes über den Vorzeichenwechsel der ersten Ableitung begründen",
-     "Analysis", "Kurvenuntersuchung",
-     "Ohne zweite Ableitung begründen, ob an einer Stelle ein Hoch- oder Tiefpunkt vorliegt, "
-     "indem das Vorzeichen der ersten Ableitung links und rechts der Stelle bestimmt wird.",
-     "2017-bb-ea-B2.1b"),
-    ("Schranke für den Anstieg der Tangenten einer Schar begründen", "Analysis",
-     "Tangente, Normale, Schnittwinkel",
-     "Den Tangentenanstieg an einer festen Stelle als Term im Scharparameter aufstellen und durch "
-     "Umformen oder Grenzwertbetrachtung zeigen, dass er eine Schranke nicht überschreitet.",
-     "2017-bb-ea-B2.1c"),
-    ("Normalengleichung an einer Stelle ermitteln", "Analysis", "Tangente, Normale, Schnittwinkel",
-     "Die Gleichung der Normalen an einen Graphen an einer gegebenen Stelle aus Funktionswert und "
-     "negativem Kehrwert der Ableitung bestimmen.",
-     "2017-bb-ea-B2.1c"),
-    ("Flächeninhalt des von Tangente, Normale und y-Achse begrenzten Dreiecks berechnen",
-     "Analysis", "Tangente, Normale, Schnittwinkel",
-     "Die Achsenschnittpunkte von Tangente und Normale bestimmen und aus der Strecke auf der "
-     "Achse als Grundseite und dem Abstand des Berührpunktes als Höhe den Flächeninhalt "
-     "berechnen.",
-     "2017-bb-ea-B2.1c"),
-    ("Parabelgleichung aus Symmetrie und einer Flächenbedingung rekonstruieren", "Analysis",
-     "Rekonstruktion von Funktionsgleichungen",
-     "Den Ansatz einer achsensymmetrischen Parabel über eine Nullstelle verkürzen und den "
-     "verbliebenen Koeffizienten aus einer vorgegebenen Flächengröße über das Integral "
-     "bestimmen.",
-     "2017-bb-ea-B2.1e"),
-    ("Fehlerhaftes Verfahren zur Volumenberechnung beurteilen und berichtigen", "Analysis",
-     "Rotationsvolumen",
-     "Die Teilschritte einer vorgelegten fremden Rechnung einzeln auf Richtigkeit prüfen, die "
-     "fehlerhaften benennen und die richtige Vorgehensweise beschreiben.",
-     "2017-bb-ea-B2.1f"),
-    ("Rotationsvolumen um die y-Achse über die Umkehrfunktion aufstellen", "Analysis",
-     "Rotationsvolumen",
-     "Für die Rotation einer Fläche um die y-Achse den Funktionsterm nach x² auflösen und das "
-     "Volumenintegral über y aufstellen und auswerten.",
-     "2017-bb-ea-B2.1f"),
-    ("Volumenmaßstab zwischen Modell und Wirklichkeit umrechnen", "Analysis", "Rotationsvolumen",
-     "Aus dem Längenmaßstab eines Modells den Volumenmaßstab als dritte Potenz bilden und ein in "
-     "Volumeneinheiten berechnetes Volumen in Realmaße umrechnen.",
-     "2017-bb-ea-B2.1f"),
-    ("Nullstellenfreiheit über das Vorzeichen des Funktionsterms begründen", "Analysis",
-     "Funktionsklassen und Eigenschaften",
-     "Begründen, dass eine Funktion keine Nullstelle hat, indem der Funktionsterm als Summe oder "
-     "Produkt stets positiver Bestandteile erkannt wird.",
-     "2017-bb-ea-B2.2a"),
-    ("Achsensymmetrie am Funktionsterm nachweisen", "Analysis",
-     "Funktionsklassen und Eigenschaften",
-     "Die Symmetrie eines Graphen zur y-Achse nachweisen, indem f(−x) gebildet und mit f(x) "
+     "Bei einem Produkt aus Polynom und Exponentialfunktion begründen, dass nur der Polynomfaktor "
+     "null werden kann, und daraus die vollständige Nullstellenmenge angeben.",
+     "2018-be-gk-B1.2c"),
+    ("Hochpunkt über die notwendige Bedingung bestimmen", "Analysis", "Kurvenuntersuchung",
+     "Die erste Ableitung null setzen, die Extremstelle bestimmen und den zugehörigen "
+     "Funktionswert angeben, ohne die hinreichende Bedingung zu prüfen.",
+     "2018-be-gk-B1.2d"),
+    ("Sekantengleichung durch zwei Punkte eines Graphen ermitteln", "Analysis",
+     "Ableitung und Änderungsrate",
+     "Zu zwei Stellen die Funktionswerte berechnen, daraus den Anstieg der Sekante als "
+     "Differenzenquotient bilden und die Geradengleichung aufstellen.",
+     "2018-be-gk-B1.2e"),
+    ("Unterschreiten einer Steigungsschranke über das Minimum der Ableitung nachweisen",
+     "Analysis", "Ableitung und Änderungsrate",
+     "Die Existenz einer Stelle mit einer Steigung unterhalb einer vorgegebenen Schranke zeigen, "
+     "indem die Extremstelle der ersten Ableitung bestimmt und der dortige Wert mit der Schranke "
      "verglichen wird.",
-     "2017-bb-ea-B2.2a"),
-    ("Art eines Extrempunktes über die zweite Ableitung bestimmen", "Analysis",
-     "Kurvenuntersuchung",
-     "Mit dem Vorzeichen der zweiten Ableitung an einer Stelle mit waagerechter Tangente "
-     "entscheiden, ob ein Hoch- oder ein Tiefpunkt vorliegt.",
-     "2017-bb-ea-B2.2b"),
-    ("Fehlen von Wendepunkten über die zweite Ableitung nachweisen", "Analysis",
-     "Kurvenuntersuchung",
-     "Zeigen, dass ein Graph keine Wendepunkte besitzt, indem die zweite Ableitung als nirgends "
-     "null nachgewiesen wird.",
-     "2017-bb-ea-B2.2b"),
-    ("Dreieck zu Schnittpunkten mit einer Parallelen zur x-Achse einzeichnen", "Analysis",
-     "Extremalprobleme",
-     "In ein vorgegebenes Koordinatensystem mit Graph eine Parallele zur x-Achse, ihre beiden "
-     "Schnittpunkte mit dem Graphen und das daraus mit einem festen Punkt gebildete Dreieck "
-     "eintragen.",
-     "2017-bb-ea-B2.2c"),
-    ("Existenz eines Flächenmaximums ohne Rechnung begründen", "Analysis", "Extremalprobleme",
-     "Aus dem Verhalten einer Flächenfunktion an den offenen Rändern des zulässigen Bereichs "
-     "begründen, dass ein größter Wert angenommen wird, ein kleinster dagegen nicht.",
-     "2017-bb-ea-B2.2c"),
-    ("Zielfunktion für den Flächeninhalt eines Dreiecks aufstellen", "Analysis",
-     "Extremalprobleme",
-     "Grundseite und Höhe eines Dreiecks durch eine gemeinsame Variable ausdrücken und daraus die "
-     "Flächeninhaltsfunktion als Gleichung aufstellen.",
-     "2017-bb-ea-B2.2c"),
-    ("Näherungsweise tangentiale Einmündung einer Geraden nachweisen", "Analysis",
-     "Tangente, Normale, Schnittwinkel",
-     "Zeigen, dass eine Gerade an einer Anschlussstelle näherungsweise Tangente eines Graphen "
-     "ist, indem Funktionswert und Anstieg mit den Werten der Geraden verglichen werden.",
-     "2017-bb-ea-B2.2d"),
-    ("Punkt in vorgegebener Entfernung auf einer Geraden bestimmen", "Analysis",
-     "Gleichungen lösen",
-     "Von einem Ausgangspunkt aus einen Punkt auf einer Geraden bestimmen, dessen Entfernung "
-     "vorgegeben ist, indem die Länge über den Satz des Pythagoras auf die Koordinatenzuwächse "
-     "verteilt wird.",
-     "2017-bb-ea-B2.2e"),
-    ("Gleichungssystem zur Bestimmung einer Parabelgleichung aufstellen", "Analysis",
-     "Lineare Gleichungssysteme",
-     "Aus Punktbedingungen und einer Anstiegsbedingung ein lineares Gleichungssystem für die "
-     "Koeffizienten einer quadratischen Funktion aufstellen, ohne es zu lösen.",
-     "2017-bb-ea-B2.2e"),
-    ("Abschnittsweise begrenzte Fläche durch Integration berechnen", "Analysis",
-     "Flächeninhalt durch Integration",
-     "Eine Fläche, deren oberer Rand abschnittsweise durch verschiedene Funktionen gegeben ist, "
-     "in Teilintegrale zerlegen und die Teilflächen addieren.",
-     "2017-bb-ea-B2.2f"),
-    ("Flächenmaßstab eines Modells auf eine Realfläche anwenden", "Analysis",
-     "Flächeninhalt durch Integration",
-     "Aus dem Längenmaßstab eines Modells den Flächenmaßstab als zweite Potenz bilden und eine in "
-     "Flächeneinheiten berechnete Fläche in Realmaße umrechnen.",
-     "2017-bb-ea-B2.2f"),
-    ("Koordinaten der Eckpunkte einer Pyramide aus der Beschreibung angeben",
+     "2018-be-gk-B1.2f"),
+    ("Mittlere Änderungsraten zweier Modelle vergleichen", "Analysis",
+     "Ableitung und Änderungsrate",
+     "Für zwei Funktionen auf demselben Intervall den Differenzenquotienten bilden und die "
+     "Beträge der mittleren Änderungsraten vergleichen.",
+     "2018-be-gk-B1.2g"),
+    ("Parameter einer Exponentialfunktion aus zwei Wertepaaren bestimmen", "Analysis",
+     "Rekonstruktion von Funktionsgleichungen",
+     "Aus zwei gegebenen Funktionswerten die Parameter eines Terms der Form (x + a) · e^(b · x) "
+     "bestimmen, wobei der zweite Parameter durch Logarithmieren gewonnen wird.",
+     "2018-be-gk-B1.2g"),
+    ("Punktprobe an einer Ebenengleichung durchführen", "Analytische Geometrie",
+     "Lagebeziehungen",
+     "Die Koordinaten eines Punktes in die Koordinatengleichung einer Ebene einsetzen und aus dem "
+     "Erfülltsein der Gleichung auf die Lage in der Ebene schließen.",
+     "2018-be-gk-B2.1b"),
+    ("Orthogonalität zweier Ebenen über die Normalenvektoren nachweisen", "Analytische Geometrie",
+     "Orthogonalität",
+     "Zeigen, dass zwei Ebenen senkrecht aufeinander stehen, indem das Skalarprodukt ihrer "
+     "Normalenvektoren null ergibt.",
+     "2018-be-gk-B2.1b"),
+    ("Existenz eines Geradenschnittpunkts über die gemeinsame Ebene begründen",
+     "Analytische Geometrie", "Lagebeziehungen",
+     "Begründen, dass zwei Geraden sich schneiden müssen, weil sie in einer gemeinsamen Ebene "
+     "liegen und ihre Richtungsvektoren keine Vielfachen voneinander sind.",
+     "2018-be-gk-B2.1c"),
+    ("Geschwindigkeit aus Weg und Zeit berechnen und in Kilometer pro Stunde umrechnen",
      "Analytische Geometrie", "Punkte und Strecken im Koordinatensystem",
-     "Aus Angaben zu Lage, Seitenlänge und Höhe eines Körpers die Koordinaten seiner Eckpunkte "
-     "und der Spitze bestimmen.",
-     "2017-bb-ea-B3.1a"),
-    ("Körper in ein räumliches Koordinatensystem einzeichnen", "Analytische Geometrie",
-     "Punkte und Strecken im Koordinatensystem",
-     "Einen durch Koordinaten gegebenen Körper als Schrägbild in ein vorgegebenes räumliches "
-     "Koordinatensystem eintragen.",
-     "2017-bb-ea-B3.1a"),
-    ("Schnittwinkel zweier Ebenen über die Normalenvektoren berechnen", "Analytische Geometrie",
-     "Skalarprodukt und Winkel",
-     "Den Winkel zwischen zwei Ebenen aus dem Skalarprodukt ihrer Normalenvektoren bestimmen und "
-     "je nach Fragestellung den spitzen Winkel oder seinen Nebenwinkel angeben.",
-     "2017-bb-ea-B3.1b"),
-    ("Koordinatengleichung einer Ebene aus drei Punkten aufstellen", "Analytische Geometrie",
-     "Ebenen",
-     "Aus drei Punkten einer Ebene einen Normalenvektor gewinnen und die Koordinatengleichung "
-     "aufstellen.",
-     "2017-bb-ea-B3.1b"),
-    ("Punkt mit gleichem Abstand zu allen Seitenflächen über die Symmetrieachse bestimmen",
-     "Analytische Geometrie", "Abstände",
-     "Aus der Symmetrie eines Körpers schließen, dass der gesuchte Punkt auf der Mittelsenkrechten "
-     "liegt, und seine verbleibende Koordinate aus einer Abstandsbedingung zu einer Seitenfläche "
-     "bestimmen.",
-     "2017-bb-ea-B3.1c"),
-    ("Abstand eines Punktes von einer Ebene mit der Hesseschen Normalform berechnen",
-     "Analytische Geometrie", "Abstände",
-     "Die Koordinatengleichung einer Ebene normieren und den Abstand eines Punktes durch "
-     "Einsetzen seiner Koordinaten bestimmen.",
-     "2017-bb-ea-B3.1c"),
-    ("Lage eines Punktes auf einer Strecke über eine Linearkombination nachweisen",
-     "Analytische Geometrie", "Linearkombination und lineare Abhängigkeit",
-     "Eine Linearkombination zweier Ortsvektoren mit der Nebenbedingung, dass die Koeffizienten "
-     "zusammen eins ergeben, in die Parameterform einer Strecke umformen und so die Lage des "
-     "Punktes nachweisen.",
-     "2017-bb-ea-B3.1d"),
-    ("Strecke in einer geneigten Ebene über einen Höhenschnitt bestimmen",
-     "Analytische Geometrie", "Abstände",
-     "Zu einer vorgegebenen Höhe den zugehörigen Punkt einer geneigten Ebene bestimmen und die "
-     "Länge der Strecke von einer Grundkante dorthin in der Ebene berechnen.",
-     "2017-bb-ea-B3.1e"),
-    ("Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen",
-     "Analytische Geometrie", "Scharen von Geraden und Ebenen",
-     "Den Parameter im Richtungsvektor einer Geradenschar so bestimmen, dass der Durchstoßpunkt "
-     "durch eine Ebene in einem vorgegebenen Bereich liegt, und daraus zulässige ganzzahlige "
-     "Werte angeben.",
-     "2017-bb-ea-B3.1f"),
-    ("Schnittwinkel zwischen Gerade und Ebene berechnen", "Analytische Geometrie",
-     "Skalarprodukt und Winkel",
-     "Den Neigungswinkel einer Geraden gegenüber einer Ebene über den Sinus aus Richtungs- und "
-     "Normalenvektor bestimmen.",
-     "2017-bb-ea-B3.2a"),
-    ("Gesamthöhe eines zusammengesetzten Körpers über die Spitze bestimmen",
+     "Aus einer im Koordinatensystem bestimmten Streckenlänge und der zugehörigen Zeitspanne die "
+     "Geschwindigkeit berechnen und die Einheit von Metern je Sekunde in Kilometer je Stunde "
+     "umrechnen.",
+     "2018-be-gk-B2.1d"),
+    ("Zeit bis zum Erreichen einer Ebene aus dem Geradenparameter bestimmen",
      "Analytische Geometrie", "Schnittmengen",
-     "Die Spitze eines Körpers als Punkt einer Kantengeraden über der Symmetrieachse bestimmen "
-     "und ihre Höhe als Gesamthöhe angeben.",
-     "2017-bb-ea-B3.2b"),
-    ("Koordinatengleichung einer Ebene aus Gerade und Punkt nachweisen", "Analytische Geometrie",
-     "Ebenen",
-     "Eine vorgegebene Koordinatengleichung als Ebene durch eine Gerade und einen Punkt "
-     "bestätigen, indem Punktproben durchgeführt und Richtungsvektor und Normalenvektor als "
-     "orthogonal nachgewiesen werden.",
-     "2017-bb-ea-B3.2c"),
-    ("Lotgerade von einem Punkt auf eine Ebene angeben", "Analytische Geometrie", "Abstände",
-     "Die Gerade durch einen Punkt mit dem Normalenvektor einer Ebene als Richtungsvektor "
-     "aufstellen, auf der der Punkt kleinsten Abstands liegt.",
-     "2017-bb-ea-B3.2d"),
-    ("Wahrscheinlichkeit aus den Sektorwinkeln eines Glücksrads bestimmen", "Stochastik",
+     "Eine geradlinige und gleichförmige Bewegung als Gerade beschreiben, den Parameter des "
+     "Durchstoßpunkts mit einer Ebene bestimmen und ihn als Vielfaches der bekannten Zeitspanne "
+     "in eine Zeit umrechnen.",
+     "2018-be-gk-B2.1e"),
+    ("Mittelpunkt einer Strecke im Raum bestimmen", "Analytische Geometrie",
+     "Punkte und Strecken im Koordinatensystem",
+     "Den Mittelpunkt einer Strecke als halbe Summe der Ortsvektoren ihrer Endpunkte berechnen.",
+     "2018-be-gk-B2.2a"),
+    ("Trapezform eines Vierecks im Raum nachweisen", "Analytische Geometrie",
+     "Punkte und Strecken im Koordinatensystem",
+     "Aus den Koordinaten der vier Eckpunkte nachweisen, dass ein Viereck ein Trapez ist, indem "
+     "zwei Seitenvektoren als Vielfache voneinander erkannt und die Längen der übrigen Seiten "
+     "verglichen werden.",
+     "2018-be-gk-B2.2b"),
+    ("Lage eines Punktes auf einer Strecke über die Parameterform nachweisen",
+     "Analytische Geometrie", "Geraden",
+     "Einen durch Koordinaten gegebenen Punkt in die Parameterform einer Strecke einsetzen, den "
+     "Parameter bestimmen und prüfen, ob er zwischen null und eins liegt.",
+     "2018-be-gk-B2.2d"),
+    ("Schattenpunkt bei paralleler Projektion bestimmen", "Analytische Geometrie", "Schnittmengen",
+     "Aus einem Punkt und seinem bekannten Schattenpunkt die Richtung der parallelen Lichtstrahlen "
+     "gewinnen und damit den Schattenpunkt eines weiteren Punktes als Durchstoßpunkt mit der "
+     "Grundebene berechnen.",
+     "2018-be-gk-B2.2d"),
+    ("Schatten einer Fläche in eine Abbildung einzeichnen", "Analytische Geometrie",
+     "Punkte und Strecken im Koordinatensystem",
+     "Die berechneten Schattenpunkte in ein vorgegebenes Schrägbild eintragen und zur "
+     "Schattenfläche verbinden.",
+     "2018-be-gk-B2.2d"),
+    ("Lösungsweg zur Bestimmung eines Punktes auf einer Geraden beschreiben",
+     "Analytische Geometrie", "Geraden",
+     "Ohne Zahlenrechnung beschreiben, wie ein gesuchter Punkt über einen Teilpunkt, eine Gerade "
+     "durch zwei Punkte und deren Schnitt mit einer weiteren Geraden bestimmt und daraus eine "
+     "Länge gewonnen wird.",
+     "2018-be-gk-B2.2e"),
+    ("Wahrscheinlichkeit beim Ziehen ohne Zurücklegen mit der Pfadregel nachweisen", "Stochastik",
      "Zufallsexperimente und Urnenmodelle",
-     "Die Wahrscheinlichkeit eines Ergebnisses beim Glücksrad als Anteil des zugehörigen "
-     "Mittelpunktswinkels am Vollwinkel bestimmen.",
-     "2017-bb-ea-B4.1c"),
-    ("Wahrscheinlichkeit für den ersten Treffer bei der k-ten Wiederholung berechnen",
-     "Stochastik", "Zufallsgrößen und Verteilungen",
-     "Die Wahrscheinlichkeit dafür berechnen, dass bei unabhängigen Wiederholungen erst der k-te "
-     "Versuch ein Treffer ist, als Produkt aus Nichttreffern und einem Treffer.",
-     "2017-bb-ea-B4.2a"),
-    ("Wahrscheinlichkeit einer festgelegten Trefferfolge berechnen", "Stochastik",
-     "Baumdiagramm und Pfadregeln",
-     "Die Wahrscheinlichkeit einer Bernoulli-Kette mit festgelegten Trefferpositionen über die "
-     "Pfadregel ohne Binomialkoeffizient bestimmen.",
-     "2017-bb-ea-B4.2a"),
-    ("Kumulierte Wahrscheinlichkeit einer Binomialverteilung berechnen", "Stochastik",
+     "Das zweifache Ziehen ohne Zurücklegen als zweistufiges Experiment beschreiben und die "
+     "Wahrscheinlichkeit eines Ergebnisses mit der Pfadmultiplikationsregel oder über "
+     "Binomialkoeffizienten bestimmen.",
+     "2018-be-gk-B3.1a"),
+    ("Behauptung zur Monotonie einer Wahrscheinlichkeit an Beispielwerten prüfen", "Stochastik",
      "Binomialverteilung",
-     "Ein Ereignis wie mindestens oder mehr als k Treffer in Einzelfälle zerlegen und die "
-     "Wahrscheinlichkeiten summieren oder über das Gegenereignis bestimmen.",
-     "2017-bb-ea-B4.2a"),
-    ("Mindestanzahl von Versuchen einer Bernoulli-Kette über das Gegenereignis bestimmen",
+     "Eine Behauptung über das Wachsen oder Fallen einer von der Versuchszahl abhängigen "
+     "Wahrscheinlichkeit prüfen, indem zwei Werte berechnet und verglichen werden.",
+     "2018-be-gk-B3.1c"),
+    ("Wahrscheinlichkeit für wenigstens einen Treffer über das Gegenereignis berechnen",
      "Stochastik", "Binomialverteilung",
-     "Die kleinste Zahl unabhängiger Wiederholungen bestimmen, für die mindestens ein Treffer mit "
-     "vorgegebener Mindestwahrscheinlichkeit auftritt, über das Gegenereignis und Logarithmieren.",
-     "2017-bb-ea-B4.2b"),
-    ("Anteil einer Teilgruppe aus der totalen Wahrscheinlichkeit berechnen", "Stochastik",
-     "Bedingte Wahrscheinlichkeit und Bayes",
-     "Den unbekannten Anteil einer Teilgruppe bestimmen, indem die Gesamtwahrscheinlichkeit als "
-     "gewichtete Summe der bedingten Wahrscheinlichkeiten angesetzt und die Gleichung gelöst "
-     "wird.",
-     "2017-bb-ea-B4.2c"),
-    ("Modalwert einer Binomialverteilung bestimmen", "Stochastik", "Binomialverteilung",
-     "Die Trefferzahl mit der größten Einzelwahrscheinlichkeit bestimmen, indem die Werte in der "
-     "Umgebung des Erwartungswerts verglichen werden.",
-     "2017-bb-ea-B4.2d"),
-    ("Ungeeignetheit des Binomialmodells begründen", "Stochastik", "Binomialverteilung",
-     "Begründen, dass eine Situation nicht binomialverteilt ist, weil ohne Zurücklegen gezogen "
-     "wird und die Trefferwahrscheinlichkeit deshalb nicht gleich bleibt.",
-     "2017-bb-ea-B4.2e"),
+     "Die Wahrscheinlichkeit für mindestens einen Treffer in einer Bernoulli-Kette als "
+     "Gegenwahrscheinlichkeit zu keinem Treffer angeben.",
+     "2018-be-gk-B3.1c"),
+    ("Anzahl der Kugeln aus einer Fairnessbedingung bestimmen", "Stochastik",
+     "Zufallsexperimente und Urnenmodelle",
+     "Die Gewinnwahrscheinlichkeit eines Urnenspiels in Abhängigkeit von der Zahl zugegebener "
+     "Kugeln aufstellen, sie der Fairnessbedingung gleichsetzen und die entstehende quadratische "
+     "Gleichung lösen.",
+     "2018-be-gk-B3.1e"),
+    ("Wahrscheinlichkeit eines Intervalls als Differenz kumulierter Werte berechnen", "Stochastik",
+     "Binomialverteilung",
+     "Ein Ereignis der Form mehr als a und weniger als b Treffer in die Differenz zweier "
+     "kumulierter Wahrscheinlichkeiten übersetzen und die Grenzen dabei richtig einschließen.",
+     "2018-be-gk-B3.2a"),
+    ("Aussage zur Änderung einer Wahrscheinlichkeit bei größerer Stichprobe beurteilen",
+     "Stochastik", "Binomialverteilung",
+     "Beurteilen, wie sich eine Wahrscheinlichkeit ändert, wenn der Stichprobenumfang um eins "
+     "wächst, und die Antwort allgemein über den Faktor der Potenz begründen.",
+     "2018-be-gk-B3.2c"),
+    ("Trefferwahrscheinlichkeit aus einer Bedingung an die Wahrscheinlichkeit für null Treffer "
+     "bestimmen", "Stochastik", "Binomialverteilung",
+     "Aus einer Mindestwahrscheinlichkeit für das Ausbleiben jedes Treffers die zulässige "
+     "Trefferwahrscheinlichkeit bestimmen, indem der Ansatz (1 − p)ⁿ nach p aufgelöst wird.",
+     "2018-be-gk-B3.2d"),
 ]
-
-
-
 
 
 def lade(pfad, kopf):

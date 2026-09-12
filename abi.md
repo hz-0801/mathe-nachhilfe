@@ -1,8 +1,8 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.4 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
-Änderungen gegenüber 0.3 (nach dem Heft 2017-bb-ea): § 6 Lückenstand und drei neue
-Themenlücken, § 7 Grenze der Leitfassungsregel, § 9 Frage zu den eigenen Aufgaben der
-Berliner LK-Hefte.
+Version 0.5 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.4 (nach dem Heft 2018-be-gk, erstes Heft auf grundlegendem
+Niveau): § 3 Aufbau am Heft bestätigt, § 6 Lückenstand und eine neue Themenlücke, § 7
+neuer Punkt zum grundlegenden Niveau.
 
 ## 1 Prüfung
 
@@ -18,6 +18,19 @@ für Bildung, Jugend und Familie, und ein erheblicher Teil der Aufgaben ist in
 beiden Ländern wortgleich (Nachweis in abi-aufbau.md § 4). Die Länder stellen aus
 diesem Werk verschieden zusammen. Auf grundlegendem Niveau tragen die
 veröffentlichten Hefte nur die Berliner Behörde.
+
+**Zeitleiste der Zusammenarbeit.** Berlin führte das Zentralabitur im Schuljahr
+2006/2007 ein; seit dem Schuljahr 2009/2010 entwickeln Berlin und Brandenburg die
+Aufgaben für Deutsch, Englisch, Französisch und Mathematik gemeinsam, koordiniert
+vom LISUM. Bis 2013 erschien je Niveau ein Heft ohne Länderkennzeichnung, ab 2014
+drei Hefte je Jahrgang (be-gk, be-lk, bb-ea) aus einem gemeinsamen Werk mit
+landeseigener Auswahl. Das LISUM wurde Ende 2024 aufgelöst; seit dem Abitur 2026
+erstellt Berlin seine Aufgaben über das BLiQ, Brandenburg über das LIBRA. Belegt
+ist der Bruch an den Prüfungsschwerpunkten 2027, die für beide Länder getrennt
+erscheinen und sich inhaltlich unterscheiden (§ 3). Für den Katalog heißt das: der
+Bestand 2017/2018 bildet eine Kooperation ab, die für den Prüfungsjahrgang 2027
+nicht mehr besteht. Er bleibt Typenquelle, ist aber kein Beleg dafür, dass beide
+Länder dasselbe schreiben.
 
 Bestand: Die Hefte laut abi-quellen.md § 2, zunächst 2017 und 2018.
 Sagt der Lehrer Abi, Abitur, GK oder LK, ist dieses Profil gemeint.
@@ -75,7 +88,16 @@ Pflichtaufgaben aus Gruppe 1, dazu zwei aus sechs angebotenen der Gruppe 2; GK:
 je drei Aufgaben beider Gruppen zur Auswahl, aus jeder Gruppe eine. Teil B enthält
 komplexe Aufgaben, mindestens eine aus der Analysis, dazu Analytische Geometrie
 und Stochastik, teils Pflicht, teils Wahl. Arbeitszeit Brandenburg LK 2027
-330 Minuten inklusive Auswahlzeit. Hilfsmittel: Nachschlagewerk zur
+330 Minuten inklusive Auswahlzeit, Abgabe von Teil A innerhalb der ersten
+110 Minuten; auf grundlegendem Niveau 285 Minuten und 100 Minuten, in Berlin und
+Brandenburg gleich. Die 255 Minuten aus den Berliner Fachbriefen 21 und 22 sind
+ein historischer Wert und gelten nicht mehr. **Getrennte Kataloge ab 2027:**
+Brandenburg verlangt im Grundkurs hypergeometrische Verteilung, Satz von Bayes,
+Axiomensystem von Kolmogorow, Hessesche Normalenform und die Ableitung von Sinus-
+und Kosinusfunktionen; Berlin nichts davon, schließt Abstandsformeln und Hessesche
+Normalenform ausdrücklich aus, verlangt dafür Wurzelgleichungen, das Lotto-Modell
+und Sachkontexte wie Masse, Volumen, Dichte und begnügt sich bei Extrempunkten mit
+der notwendigen Bedingung. Struktur und Zeit sind identisch, die Inhalte nicht. Hilfsmittel: Nachschlagewerk zur
 Rechtschreibung, Formelsammlung des IQB (nicht in Teil A), Taschenrechner (nicht
 in Teil A), Standard-Zeichenwerkzeuge.
 
@@ -106,8 +128,18 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             papier-Kürzel.
     hilfsmittel: nein in block A, sonst ja.
     afb_amtlich: leer für 2017/2018 – diese Hefte weisen keine
-            Anforderungsbereiche aus. Ab Erfassung von Poolaufgaben aus dem
-            Erwartungshorizont zu füllen.
+            Anforderungsbereiche aus, und die zugehörigen Erwartungshorizonte
+            sind nicht veröffentlicht. Eine Schätzung gehört nicht in dieses
+            Feld; sie steht in niveau_geschaetzt. Gefüllt wird erst, wenn
+            Poolaufgaben des IQB erfasst werden: deren Erwartungshorizont führt
+            je Teilaufgabe eine Tabelle mit BE, den Kompetenzen K1 bis K6 und
+            einer angekreuzten Spalte je Anforderungsbereich.
+            Schreibweise: die Werte I, II und III, mehrere mit „|" in
+            aufsteigender Reihenfolge (II|III). Die Verteilung der BE auf die
+            Bereiche kommt wörtlich nach bemerkung, nicht ins Feld – eine
+            Teilaufgabe trägt regelmäßig zwei Bereiche mit ungleichem Gewicht
+            (Fachbrief Mathematik BB Nr. 3: bei Teilaufgabe b) eine BE im
+            Bereich II und drei im Bereich III).
     seite:  Seite im PDF. Die Brandenburger Dateien sind Zusammenschnitte mit
             eigener Seitenzählung je Teil; die gedruckte Angabe weicht ab.
             Liegt die zugehörige Abbildung in einer Anlage auf einer anderen
@@ -180,7 +212,15 @@ Aufgabenstellung trägt: „Flächeninhalt und Volumen im Raum“ würde passen,
 aber unter Analytischer Geometrie. Bis zur Entscheidung wird das nächstliegende
 Thema gewählt und der Fall in bemerkung vermerkt. Erst nach mehreren Heften
 entscheiden, ob die Liste ergänzt oder die Regel gelockert wird.
-Stand nach 2018-bb-ea und 2017-bb-ea: 29 der 46 Themen sind belegt. 2017 hat drei
+Stand nach 2018-be-gk: 33 der 46 Themen sind belegt. Das GK-Heft hat vier Themen
+zum ersten Mal belegt, und zwar die elementaren – Ableitung und Änderungsrate,
+Stammfunktion und Hauptsatz, Geraden, Lagebeziehungen; die LK-Hefte überspringen
+sie, weil sie dort Voraussetzung statt Prüfungsgegenstand sind. Neu offen aus
+2018-be-gk: die Umrechnung einer Geschwindigkeit von Metern je Sekunde in
+Kilometer je Stunde (2.1 d) hat in der Liste Analytische Geometrie kein Thema,
+ersatzweise Punkte und Strecken im Koordinatensystem. Das Zeichnen in ein
+vorgegebenes Koordinatensystem (1.1 f) trat wie 2017 erneut auf.
+Stand nach 2018-bb-ea und 2017-bb-ea: 29 der 46 Themen waren belegt. 2017 hat drei
 weitere Fälle derselben Art gebracht, jeweils in Analysisaufgaben: das Eintragen
 einer Zeichnung in ein vorgegebenes Koordinatensystem (2.2 c), die Umrechnung
 zwischen Modell- und Realmaßen bei Flächen und Volumina (2.1 e, 2.1 f, 2.2 f) und
@@ -202,6 +242,12 @@ Thema wählen, Fall in bemerkung vermerken, Entscheidung nach mehreren Heften.
   drei nur in Brandenburg; 2018 ist es dasselbe Bild mit je zwei eigenen Aufgaben.
   Die Leitfassungsregel deckt also nicht das ganze Aufgabenwerk ab. Ob die eigenen
   Berliner Aufgaben nachträglich erfasst werden, ist offen (§ 9).
+- **Grundlegendes Niveau.** Die be-gk-Hefte bis 2018 haben keinen
+  hilfsmittelfreien Teil; alle Zeilen tragen block B, `soll_teil1` entfällt in
+  KONFIG. Beide Wahlwege sind gleich gewichtet (40/40, 20/20, 20/20), eine
+  Kopplung wie in bb-ea gibt es nicht. Die Typenliste trägt über die
+  Niveaugrenze, aber ungleichmäßig: 16 der 50 Typen von 2018-be-gk waren
+  bekannt, in der Stochastik 7 von 14, in der Analysis nur 4 von 20.
 - **CAS als Nachtrag**, und nur für Aufgaben mit „CAS:"-Präfix. Der Eingriff ist
   punktuell und sitzt in `gegeben`, `gesucht`, `punkte` und teils `verfahren`;
   typisch wird ein im WTR-Heft vorgegebener Kontrollwert in der CAS-Fassung selbst
@@ -349,12 +395,18 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
   Brandenburg, erhöhtes Niveau, also bb-ea als Leitfassung.
 - Werden die Themenlücken aus § 6 durch neue Themen geschlossen oder durch eine
   Lockerung der Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt?
-- Existiert in Brandenburg eine eigene Prüfung auf grundlegendem Niveau?
+- Beantwortet: Brandenburg hat eine eigene zentrale Prüfung auf grundlegendem
+  Niveau. Die Prüfungsschwerpunkte PS_Mathematik_GK_2027.pdf liegen auf dem
+  Bildungsserver; nur die Aufgabenhefte werden nicht veröffentlicht. Damit ist
+  offen, woher Material auf grundlegendem Niveau für einen Brandenburger
+  Prüfling kommt – die Berliner GK-Hefte sind seit 2026 nicht mehr dieselbe
+  Prüfung.
 - Werden die Aufgaben nacherfasst, die nur in den Berliner LK-Heften stehen? Sie
   gehören zum selben Aufgabenwerk und brächten je Jahrgang rund 100 BE zusätzliche
   Typenquelle; erfasst würden nur die dort eigenen Aufgaben.
 - Auf welcher Vereinbarung beruht das gemeinsame Aufgabenwerk, und welche Länder
   gehören dazu?
-- Ab wann genau gilt in Berlin Teil A/Teil B, und seit wann in Brandenburg? Belegt
-  ist: Brandenburg hatte den hilfsmittelfreien Teil bereits 2017, Berlin nach den
-  Fachbriefen ab 2019.
+- Ab wann genau gilt in Berlin Teil A/Teil B? Belegt ist: Brandenburg hatte den
+  hilfsmittelfreien Teil bereits 2017, Berlin nach den Fachbriefen ab 2019.
+- Trägt das CAS-Delta über alle Sachgebiete? Geprüft ist nur Analysis (2016,
+  Aufgabe 1.1).

@@ -24,7 +24,7 @@ in vorgaben.md.
 | 2017 | 2017-be-gk-cas | BE | grundlegend | CAS | 8 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2017 | 2017-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2017 | 2017-bb-ea-cas | BB | erhöht | CAS | 10 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2018 | 2018-be-gk | BE | grundlegend | WTR | 11 | 210 | 80 | nicht erfasst · Leitfassung grundlegend |
+| 2018 | 2018-be-gk | BE | grundlegend | WTR | 11 | 210 | 80 | **erfasst 2026-09-12, 36 Zeilen** (alle Aufgaben, beide Wahlwege) · Leitfassung grundlegend |
 | 2018 | 2018-be-lk | BE | erhöht | WTR | 11 | 270 | 100 | teilweise abgedeckt · vier Aufgaben gleichlautend in 2018-bb-ea, zwei eigene noch nicht erfasst |
 | 2018 | 2018-bb-ea | BB | erhöht | WTR | 13 | 270 | 100 | **erfasst 2026-09-12, 41 Zeilen** (alle Aufgaben, beide Wahlwege) |
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
@@ -111,10 +111,78 @@ Museum und Brillenträger stehen in beiden Heften; Quader und Smartphone gibt es
 nur in Berlin, Quadrat und Medinet nur in Brandenburg. Ob Quader und Quadrat
 dieselbe Aufgabe unter anderem Namen sind, ist ungeprüft.
 
+**2018-be-gk.** Der Aufbau des grundlegenden Niveaus ist am Heft bestätigt: kein
+hilfsmittelfreier Teil, drei Aufgabenstellungen mit je zwei Wahlaufgaben,
+40 + 20 + 20 = 80 BE, 210 Minuten. Alle Zeilen tragen deshalb block B. Anders
+als auf erhöhtem Niveau sind die beiden Wege gleich gewichtet: 1.1 und 1.2 haben
+je 40 BE, 2.1 und 2.2 je 20, 3.1 und 3.2 je 20. Ein Punktausgleich über eine
+Kopplung wie in bb-ea ist deshalb nicht nötig, und es gibt keine.
+
+**2018-be-gk: die Typenliste trägt über die Niveaugrenze, aber ungleichmäßig.**
+Von den 50 im Heft verwendeten Typen waren 16 aus den beiden LK-Heften bekannt,
+also 32 Prozent – deutlich mehr als die 18 Prozent, die 2017 gegen 2018 auf
+erhöhtem Niveau erreicht wurden. Der Unterschied sitzt im Sachgebiet: in der
+Stochastik waren 7 von 14 Typen bekannt, in der Analytischen Geometrie 5 von 16,
+in der Analysis nur 4 von 20. Die Stochastik prüft auf beiden Niveaus dieselben
+Fertigkeiten, die Analysis nicht.
+
+**2018-be-gk: der Grundkurs bringt eigene Themen, nicht nur eigene Typen.** Vier
+Themen sind zum ersten Mal belegt, und zwar genau die elementaren: Ableitung und
+Änderungsrate, Stammfunktion und Hauptsatz, Geraden, Lagebeziehungen. Die beiden
+LK-Hefte haben sie übersprungen, weil sie dort Voraussetzung sind statt
+Prüfungsgegenstand. Für die Heft-Phase heißt das: Basisaufgaben zu den Grundlagen
+kommen eher aus den GK-Heften als aus den LK-Heften.
+
+**2018-be-gk.** Fünf der 36 Teilaufgaben enthalten eine Kontrollangabe in eckigen
+Klammern (1.1 c, 1.1 e, 1.1 f, 1.2 b, 2.1 a), in den beiden LK-Heften sind es
+zusammen sechs von 77. Alle fünf wurden durch eigene Rechnung bestätigt.
+
+**2018-be-gk.** Die BE-Tabellen der ersten Wahlaufgabe jeder Aufgabenstellung
+sind mit „Teilaufgabe“ überschrieben, die der zweiten mit „Aufgabenteil“ – über
+alle drei Aufgabenstellungen hinweg. Das ist ein Hinweis darauf, dass die beiden
+Wahlaufgaben aus verschiedenen Quellen zusammengestellt wurden; für die Erfassung
+ist es ohne Folgen.
+
+**2018-be-gk.** Zwei Aufgaben haben eine Anlage: die Graphen zu 1.2 stehen auf
+Seite 5 unter dem Schluss der Aufgabe, die Tabelle der summierten
+Binomialverteilungen zu 3.2 auf Seite 11. Die betreffenden Zeilen tragen die
+Seitenangaben 4|5 und 10|11. Das zu 1.1 f gehörende Koordinatensystem steht
+dagegen auf derselben Seite wie die Teilaufgabe.
+
+**Berlin und Brandenburg: Zeitleiste der Zusammenarbeit.** Berlin führte das
+Zentralabitur 2006/2007 ein, seit dem Schuljahr 2009/2010 entwickeln beide Länder
+die Aufgaben für Deutsch, Englisch, Französisch und Mathematik gemeinsam
+(LISUM); die Serverpfade heißen entsprechend „gemeinsames_Abitur_Be_BB". Bis 2013
+gab es je Niveau ein Heft ohne Länderkennzeichnung, ab 2014 drei Hefte je Jahrgang
+mit landeseigener Auswahl aus einem gemeinsamen Werk. Das LISUM wurde Ende 2024
+aufgelöst; seit dem Abitur 2026 erstellt Berlin über das BLiQ und Brandenburg über
+das LIBRA getrennt. Am Dokument belegt: die Prüfungsschwerpunkte 2027 erscheinen
+für beide Länder getrennt und unterscheiden sich im Grundkurs inhaltlich deutlich
+(Brandenburg mit hypergeometrischer Verteilung, Bayes, Kolmogorow, Hessescher
+Normalenform und Ableitung der Sinus- und Kosinusfunktion; Berlin ohne all das,
+dafür mit Wurzelgleichungen, Lotto-Modell und Sachkontexten). Struktur und
+Arbeitszeit sind gleich: Teil A und B, drei Pflichtaufgaben plus je eine aus drei
+je Aufgabengruppe, 285 Minuten, Teil A innerhalb der ersten 100 Minuten. Die
+Verlagsaussage, die Prüfungen seien ab 2018 vollkommen übereinstimmend, ist damit
+doppelt widerlegt – am Heftvergleich 2017/2018 und an der heutigen Lage.
+
+**Arbeitszeit Grundkurs.** Die Prüfungsschwerpunkte 2027 nennen für Berlin und
+Brandenburg je 285 Minuten. Der in einem früheren Arbeitsstand aus den Berliner
+Fachbriefen 21 und 22 abgeleitete Wert von 255 Minuten gilt nicht mehr; ob er
+je galt oder falsch abgeleitet war, ist nicht geklärt und für den Katalog ohne
+Folgen.
+
+**Brandenburg auf grundlegendem Niveau.** Die Frage ist beantwortet: Brandenburg
+hat eine eigene zentrale Prüfung. PS_Mathematik_GK_2027.pdf liegt unter
+.../abitur_bb/RS_ZA_2027/ und beschreibt Struktur, Hilfsmittel und Arbeitszeit
+vollständig. Nicht veröffentlicht werden nur die Aufgabenhefte.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-12 | Quellenlage geklärt: gemeinsame Aufgabenentwicklung Berlin/Brandenburg seit 2009/10, seit dem Abitur 2026 getrennt (LISUM aufgelöst). Prüfungsschwerpunkte 2027 beider Länder verglichen – Struktur und Arbeitszeit gleich, Inhalte verschieden. Brandenburg hat eine eigene Prüfung auf grundlegendem Niveau. Befunde in § 4, abi.md auf v0.5 (§ 1 Zeitleiste, § 3 Kataloge 2027, § 4 Schreibweise afb_amtlich, § 9). |
+| 2026-09-12 | 2018-be-gk vollständig erfasst: 36 Zeilen, Katalog jetzt 113 Zeilen, Typenliste 146. Alle sechs Punktsummen gegen die BE-Tabellen geprüft (40-40-20-20-20-20), zwei Läufe aus frischen Repo-Kopien byteidentisch, Selbstprüfung über den Gesamtbestand bestanden. 34 Typen neu, 16 der 50 verwendeten Typen waren bekannt (32 Prozent). Erstes Heft auf grundlegendem Niveau; sechs Befunde in § 4 ergänzt. |
 | 2026-09-12 | 2017-bb-ea vollständig erfasst: 36 Zeilen, Katalog jetzt 77 Zeilen, Typenliste 112. Alle neun Punktsummen und die Teil-1-Summe 15 gegen die BE-Tabellen geprüft, Lauf zweimal byteidentisch, Selbstprüfung über den Gesamtbestand bestanden. 53 Typen neu, nur 12 der 65 verwendeten Typen waren aus 2018 bekannt. Befunde in § 4 ergänzt, darunter der Vergleich mit den Berliner LK-Heften. |
 | 2026-09-12 | Feldprobe nachgetragen: die 11 Zeilen der Aufgaben 1.2 und 2.1 und ihre 21 Typen stehen jetzt in ZEILEN und NEUE_TYPEN von abi-bau.py. Vollrebuild aus leeren Katalogdateien reproduziert Katalog und Typenliste byteidentisch. 2018-bb-ea ist damit vollständig aus dem Skript herstellbar. |
 | 2026-09-12 | Typenliste bereinigt: „Fehlen von Extrempunkten einer Schar nachweisen“ in „… über die Diskriminante nachweisen“ umbenannt; „Schnittpunkt Gerade Koordinatenebene berechnen“ und „Durchstoßpunkt einer Geraden durch eine Ebene nachweisen“ zu „Durchstoßpunkt einer Geraden durch eine Ebene bestimmen“ zusammengelegt (gleicher Lösungsweg). Katalog unverändert 41 Zeilen, Typenliste jetzt 59, davon 21 nur als typ_neben. |
