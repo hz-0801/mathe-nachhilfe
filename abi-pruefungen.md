@@ -81,5 +81,6 @@ Eigenschaft der einzelnen Aufgabe, keine des Prüfungsformats.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-12 | Typenliste bereinigt: „Fehlen von Extrempunkten einer Schar nachweisen“ in „… über die Diskriminante nachweisen“ umbenannt; „Schnittpunkt Gerade Koordinatenebene berechnen“ und „Durchstoßpunkt einer Geraden durch eine Ebene nachweisen“ zu „Durchstoßpunkt einer Geraden durch eine Ebene bestimmen“ zusammengelegt (gleicher Lösungsweg). Katalog unverändert 41 Zeilen, Typenliste jetzt 59, davon 21 nur als typ_neben. |
 | 2026-09-12 | 2018-bb-ea vollständig erfasst: 30 Zeilen ergänzt (1.1, 1.3, 2.2, 3.1, 3.2, 4.1, 4.2), Katalog jetzt 41 Zeilen, Typenliste 60. Punktsummen aller sieben Aufgaben gegen die BE-Tabellen geprüft. Drei Befunde in § 4 ergänzt. |
 | 2026-09-12 | Datei angelegt. Bestand aus abi-quellen.md übernommen, Feldprobe an 2018-bb-ea (11 Zeilen, Aufgaben 1.2 und 2.1) eingetragen, Befunde § 4 aufgenommen. |

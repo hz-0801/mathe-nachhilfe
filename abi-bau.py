@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.1 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und abi.md v0.2
+Version 0.2 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und abi.md v0.3
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles darunter
 bleibt unverändert.
@@ -19,6 +19,12 @@ Ablauf:
      Bericht aus. Bei einem Fehler wird nichts geschrieben.
   4. Ist ZEILEN leer, läuft nur die Selbstprüfung: Vokabular parsen und die
      vorhandenen Katalogzeilen dagegen prüfen. Nichts wird geschrieben.
+
+Änderungen gegenüber 0.1: Der Umschrift-Assert blendet die Feldnamen des Schemas
+aus, damit ein Feldname im Fließtext einer bemerkung nicht anschlägt. Neu ist die
+Umschrift-Liste am Ende des Berichts – jedes Wort mit ss, ae, oe oder ue zur
+Sichtprüfung. Sie ist kein Assert: die Positivliste UMSCHRIFT findet nur, was in
+ihr steht, die Liste zeigt alles.
 """
 import csv, io, os, re, sys
 
@@ -359,7 +365,7 @@ row(id="2018-bb-ea-B2.2c", block="B", aufgabe="2.2", titel="Gartenteich", teilau
     zwischenergebnis="h′(x) = (3/2)·x^(−4)",
     niveau_geschaetzt="II",
     fehlerquelle="aus h′(x) ≠ 0 auf globale Monotonie über die Definitionslücke hinweg schließen",
-    bemerkung="Typ getrennt von „Fehlen von Extrempunkten einer Schar nachweisen“ (2.1 d): dort "
+    bemerkung="Typ getrennt von „Fehlen von Extrempunkten einer Schar über die Diskriminante nachweisen“ (2.1 d): dort "
               "wird über die Diskriminante argumentiert, hier über das Vorzeichen einer Potenz. "
               "Vorschlag zur Typenliste steht im Bericht. Eigene Rechnung, mit sympy bestätigt.")
 
@@ -636,7 +642,7 @@ row(id="2018-bb-ea-B3.1d", block="B", aufgabe="3.1", titel="Museum", teilaufgabe
 row(id="2018-bb-ea-B3.1e", block="B", aufgabe="3.1", titel="Museum", teilaufgabe="e",
     seite="9", punkte="3",
     leitidee="Analytische Geometrie", thema="Schnittmengen",
-    typ="Durchstoßpunkt einer Geraden durch eine Ebene nachweisen",
+    typ="Durchstoßpunkt einer Geraden durch eine Ebene bestimmen",
     typ_neben="",
     stichwoerter="Gerade durch A und G|Ebene des Dreiecks DEF|waagerechte Ebene z gleich 15|Parameter bestimmen|Punkt R",
     voraussetzungen="Gerade durch zwei Punkte in Parameterform aufstellen|erkennen, dass die Ebene des Dreiecks DEF die Gleichung z = 15 hat|Parameter aus einer Koordinatengleichung bestimmen",
@@ -655,9 +661,10 @@ row(id="2018-bb-ea-B3.1e", block="B", aufgabe="3.1", titel="Museum", teilaufgabe
     niveau_geschaetzt="II",
     fehlerquelle="die Ebene des Dreiecks DEF aufwendig aus drei Punkten bestimmen, statt am "
                  "gemeinsamen z-Wert 15 abzulesen",
-    bemerkung="Naher Verwandter des vorhandenen Typs Schnittpunkt Gerade Koordinatenebene "
-              "berechnen; hier ist die Ebene keine Koordinatenebene, sondern parallel dazu. Ein "
-              "Vorschlag zur Zusammenlegung steht im Bericht. Eigene Rechnung, mit sympy bestätigt.")
+    bemerkung="Hier ist die Ebene keine Koordinatenebene, sondern parallel dazu; der "
+              "Lösungsweg ist derselbe, deshalb ein Typ mit A1.2b. Eine Ebene in Parameterform "
+              "verlangt ein Gleichungssystem und wäre ein eigener Typ. Eigene Rechnung, mit "
+              "sympy bestätigt.")
 
 row(id="2018-bb-ea-B3.1f", block="B", aufgabe="3.1", titel="Museum", teilaufgabe="f",
     seite="9", punkte="6",
@@ -1163,11 +1170,6 @@ NEUE_TYPEN = [
      "Aus einem berechneten Volumen über einen Dreisatz eine Bedarfsgröße wie Leistung oder Menge "
      "bestimmen und gegen einen vorgegebenen Wert prüfen.",
      "2018-bb-ea-B3.1d"),
-    ("Durchstoßpunkt einer Geraden durch eine Ebene nachweisen", "Analytische Geometrie",
-     "Schnittmengen",
-     "Eine Gerade durch zwei Punkte aufstellen, den Parameter aus der Ebenengleichung bestimmen "
-     "und den behaupteten Schnittpunkt durch Einsetzen bestätigen.",
-     "2018-bb-ea-B3.1e"),
     ("Punkt auf einer Strecke mit vorgegebenem Abstand zu einer Ebene bestimmen",
      "Analytische Geometrie", "Abstände",
      "Den Parameter eines Punktes auf einer Strecke so bestimmen, dass sein über die Hessesche "
@@ -1271,6 +1273,28 @@ def schreibe(pfad, kopf, zeilen):
             w.writerow(z)
 
 
+def ohne_feldnamen(v):
+    """Feldnamen des Schemas aus dem Text nehmen. Sie sind bewusst umlautfrei und
+    stehen in bemerkung als Fachwort (abhaengig_von), ohne Umschrift zu sein."""
+    t = v.lower()
+    for f in sorted(HEAD, key=len, reverse=True):
+        t = t.replace(f, " ")
+    return t
+
+
+def umschrift_liste(zeilen):
+    """Sichtprüfung, kein Assert: alle Wörter mit ss, ae, oe oder ue."""
+    worte = {}
+    for z in zeilen:
+        for k, v in z.items():
+            if k in OHNE_UMLAUT:
+                continue
+            for w in re.findall(r"[^\W\d_]+", ohne_feldnamen(v), re.UNICODE):
+                if any(p in w for p in ("ss", "ae", "oe", "ue")):
+                    worte[w] = worte.get(w, 0) + 1
+    return sorted(worte.items())
+
+
 def pruefe_zeile(z, a, heftkennung=True):
     """Alle Prüfungen, die eine einzelne Zeile aus sich selbst bestehen kann."""
     i = z["id"] or "(ohne id)"
@@ -1309,7 +1333,7 @@ def pruefe_zeile(z, a, heftkennung=True):
         a(not re.search(r"(?<=[\d\s(])-(?=\d)", v),
           f"{i}: ASCII-Bindestrich als Minus in {k}")
         if k not in OHNE_UMLAUT:
-            treffer = [w for w in UMSCHRIFT if w in v.lower()]
+            treffer = [w for w in UMSCHRIFT if w in ohne_feldnamen(v)]
             a(not treffer, f"{i}: ASCII-Umschrift in {k}: {treffer}")
 
 
@@ -1349,6 +1373,10 @@ def main():
             sys.exit(1)
         print(f"Selbstprüfung bestanden: {len(alt)} Katalogzeilen, {len(alt_typ)} Typen, "
               f"alle Typen verwendet. ZEILEN ist leer, nichts geschrieben.")
+        print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
+              "(Häufigkeit in Klammern):")
+        liste = umschrift_liste(alt)
+        print("  " + ", ".join(f"{w} ({n})" for w, n in liste) if liste else "  keines")
         return
 
     # ---- Normalfall: neues Heft anhängen
@@ -1437,6 +1465,10 @@ def main():
     print(f"Typen: {len(haupt | neben)} gesamt, {len(neben - haupt)} nur als typ_neben")
     unsicher = [z["id"] for z in ZEILEN if any("?" in v for v in z.values())]
     print("Unsichere Zeilen:", ", ".join(unsicher) if unsicher else "keine")
+    print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
+          "(Häufigkeit in Klammern):")
+    liste = umschrift_liste(ZEILEN)
+    print("  " + ", ".join(f"{w} ({n})" for w, n in liste) if liste else "  keines")
     for w in warnung:
         print("Hinweis:", w)
     print("Alle Prüfungen bestanden.")

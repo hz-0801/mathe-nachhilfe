@@ -1,7 +1,8 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.2 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
-Änderungen gegenüber 0.1: § 4 punkte und seite präzisiert, § 6 Themenlücken, § 7 um
-vier Befunde der Feldprobe ergänzt, § 8 mit Beispielzeilen gefüllt, § 9 fortgeschrieben.
+Version 0.3 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.2 (nach dem vollständigen Heft 2018-bb-ea): § 2 Begründung der
+einen Katalogdatei ausgetauscht, § 6 Lückenstand, § 7 Kettenstruktur richtiggestellt,
+skizze-Ausnahme als Regel formuliert, Nebentypen entschieden, § 9 gekürzt.
 
 ## 1 Prüfung
 
@@ -26,9 +27,10 @@ Sagt der Lehrer Abi, Abitur, GK oder LK, ist dieses Profil gemeint.
 Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/mathe-nachhilfe/main/
 (alle Dateien flach in der Wurzel; bei anderer Ablage nur diese Zeile ändern).
 Katalogdateien dieses Profils: abi-quellen.md, abi-pruefungen.md, abi-typen.csv,
-abi-katalog.csv. Eine Katalogdatei, kein zweiter Block wie beim Profil msa – der
-hilfsmittelfreie Teil hat zu wenige Zeilen, um eine eigene Datei zu rechtfertigen;
-er wird über das Feld `block` unterschieden.
+abi-katalog.csv. Eine Katalogdatei, kein zweiter Block wie beim Profil msa: Das Feld `block` trägt
+die Unterscheidung zwischen hilfsmittelfreiem Teil und Teil mit Hilfsmitteln
+bereits. Eine zweite Datei würde dieselbe Information ein zweites Mal ablegen und
+die Auswertung über beide Teile hinweg erschweren.
 
 Hefte: abi-quellen.md nennt Verzeichnis, Dateinamen und papier-Kürzel; geholt wird
 mit curl. Veröffentlicht sind nur 2011–2018.
@@ -178,6 +180,8 @@ Aufgabenstellung trägt: „Flächeninhalt und Volumen im Raum“ würde passen,
 aber unter Analytischer Geometrie. Bis zur Entscheidung wird das nächstliegende
 Thema gewählt und der Fall in bemerkung vermerkt. Erst nach mehreren Heften
 entscheiden, ob die Liste ergänzt oder die Regel gelockert wird.
+Stand nach dem vollständigen Heft 2018-bb-ea: keine weiteren Lücken; 23 der 46
+Themen sind belegt.
 
 ## 7 Besonderheiten beim Erfassen
 
@@ -194,9 +198,10 @@ entscheiden, ob die Liste ergänzt oder die Regel gelockert wird.
 - **Wahl ist keine Eigenschaft der Teilaufgabe.** Dass 2.1 und 2.2 zur Wahl stehen
   und dass 3.x und 4.x in bb-ea gekoppelt sind, steht in diesem Profil und in
   abi-pruefungen.md, nicht im Katalog.
-- **Aufbauende Teilaufgaben.** Oberstufenaufgaben sind Ketten: Teilaufgabe d) nutzt
-  das Ergebnis aus b). Feld `abhaengig_von` wird deutlich häufiger belegt als beim
-  MSA. Kontrollangaben in eckigen Klammern („Zur Kontrolle: …") gehören nach
+- **Aufbauende Teilaufgaben.** Manche Aufgaben sind Ketten: Teilaufgabe d) nutzt das
+  Ergebnis aus b). Das ist eine Eigenschaft der einzelnen Aufgabe, nicht des Formats –
+  in 2.1 ist `abhaengig_von` in 6 von 11 Zeilen belegt, in 2.2 in keiner von 8, im
+  ganzen Heft in 8 von 41. Kontrollangaben in eckigen Klammern („Zur Kontrolle: …") gehören nach
   `gegeben` der folgenden Teilaufgabe.
 - **Umfang.** Eine Analysisaufgabe hat bis zu zehn Teilaufgaben und 50 BE. Ob
   `verfahren` und `schritte` diesen Umfang tragen, ist in der Feldprobe zu prüfen,
@@ -206,17 +211,24 @@ entscheiden, ob die Liste ergänzt oder die Regel gelockert wird.
   Feldprobe entfielen zehn von 21 Typen allein auf typ_neben. Das Feld thema ist
   dabei einwertig, obwohl die Einheit oft zwei Themen berührt (2.1 a: Nullstellen
   einer Schar und Grenzverhalten); ein zweites Thema ist nur mittelbar über
-  typ_neben sichtbar. Folge für die Heft-Phase: ein Typ, der nur als Nebenleistung
-  vorkommt, hat keine Ankeraufgabe, die als Decke taugt. Offen, ob typen.csv das
-  markiert oder die Ankeraufgabe auf die Teilleistung zugeschnitten wird.
+  typ_neben sichtbar. In 2018-bb-ea entfielen 22 von 60 Typen allein auf `typ_neben`,
+  fast alle in den Analysis-Kontextaufgaben; Geometrie und Stochastik haben meist
+  eine Leistung je Teilaufgabe. Folge für die Heft-Phase: ein Typ, der nur als
+  Nebenleistung vorkommt, hat keine Ankeraufgabe, die als Decke taugt. Entschieden:
+  `typen.csv` markiert das nicht. Ob ein Typ je als Haupttyp auftritt, ist aus dem
+  Katalog jederzeit berechenbar; ein eigenes Feld wäre dieselbe Information ein
+  zweites Mal, veraltet mit dem ersten Heft, das den Typ als Haupttyp verwendet, und
+  müsste über msa und fhr mitgepflegt werden. Stattdessen wird beim Bau die
+  Ankeraufgabe auf die Teilleistung zugeschnitten.
 - **schritte trägt hier wenig.** Bei Deutungsaufgaben ohne Rechnung steht 0
   (2.1 h), bei langen Ketten ist der Wert eine Schätzung, weil Ableiten,
   Gleichsetzen, Fallunterscheidung und Randvergleich keine natürliche
   Schrittzahl haben. Das Feld wird gefüllt, aber nicht ausgewertet.
-- **skizze meint Material, nicht Lösung.** Verlangt eine Aufgabe selbst eine
-  Skizze (2.1 i: „mit Hilfe einer Skizze und einer Gleichung“), beschreibt das
-  Feld ausnahmsweise die zu erstellende Skizze; der Fall wird in bemerkung
-  kenntlich gemacht.
+- **skizze meint Material, nicht Lösung.** Verlangt die Aufgabe selbst eine
+  Darstellung, beschreibt das Feld ausnahmsweise die zu erstellende Darstellung
+  statt vorhandenen Materials; der Fall wird in `bemerkung` kenntlich gemacht. Das
+  gilt für jede zu erstellende Darstellung, nicht nur für Skizzen im engeren Sinn –
+  belegt an 2.1 i (Skizze zur Sechseckfläche) und 4.1 a (Baumdiagramm).
 - **Kontrollangaben** in eckigen Klammern stehen in gegeben der Teilaufgabe, in
   der sie abgedruckt sind, und werden durch eigene Rechnung bestätigt; die
   Bestätigung wird in bemerkung vermerkt.
@@ -235,8 +247,8 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
       titel = Analytische Geometrie · teilaufgabe = b · seite = 2
     punkte = 3 · stern =  · hilfsmittel = nein · afb_amtlich =
     leitidee = Analytische Geometrie · thema = Orthogonalität · typ = Eckpunkt eines Quadrates
-      nachweisen · typ_neben = Schnittpunkt Gerade Koordinatenebene berechnen|Streckenlänge im
-      Raum berechnen · stichwoerter =
+      nachweisen · typ_neben = Durchstoßpunkt einer Geraden durch eine Ebene bestimmen|
+      Streckenlänge im Raum berechnen · stichwoerter =
       Quadrat|Diagonalenschnittpunkt|Halbdiagonalen|Skalarprodukt · voraussetzungen =
       Vektorlänge berechnen|Skalarprodukt bilden|Eigenschaften der Quadratdiagonalen kennen
     format = Begründung · operator = Zeigen Sie · antwort = Text
@@ -324,9 +336,6 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
 - Welches Land und welches Niveau schreibt der Schüler? Davon hängt die
   Erfassungsreihenfolge ab, nicht die Methode. Bis zur Antwort gilt die Annahme
   Brandenburg, erhöhtes Niveau, also bb-ea als Leitfassung.
-- Bekommen Typen, die nur als typ_neben auftreten, eine eigene Markierung in
-  typen.csv? Entscheidung nach dem ersten vollständigen Heft, da die Liste
-  profilübergreifend ist und msa wie fhr mitbetroffen wären.
 - Werden die Themenlücken aus § 6 durch neue Themen geschlossen oder durch eine
   Lockerung der Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt?
 - Existiert in Brandenburg eine eigene Prüfung auf grundlegendem Niveau?
