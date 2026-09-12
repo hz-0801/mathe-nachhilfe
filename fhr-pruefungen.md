@@ -42,6 +42,16 @@ Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibet
 
 ## Änderungslog
 
+- 12.09.2026 – Zweiter Abgleichlauf über alle 193 Zeilen und 128 Typen (Kern § 9). Ergebnis 125 Typen,
+  alle auf Status „geprüft"; 14 Katalogzeilen mit geändertem Etikett, keine Fakten verändert.
+  Zusammengezogen: Baumdiagramm zweistufig/dreistufig ohne Zurücklegen darstellen zu Baumdiagramm mehrstufig
+  ohne Zurücklegen darstellen (8 Vorkommen); Pfadregel zweistufig/dreistufig ohne Zurücklegen anwenden zu
+  Pfadregel mehrstufig ohne Zurücklegen anwenden (8); Wendepunkt aus vorgegebenen Punkten auswählen in
+  Wendepunkte über zweite Ableitung (2021-A-1d). Umbenannt ohne Zusammenlegung: Baumdiagramm und Pfadregel
+  dreistufig mit Zurücklegen zu mehrstufig mit Zurücklegen; Wahrscheinlichkeitsverteilung der Augensumme
+  aufstellen zu Wahrscheinlichkeitsverteilung aufstellen. Die beispiel_id der zusammengeführten Typen ist die
+  des aufnehmenden Typs (2025-C-3c beziehungsweise 2026-C-1f), nicht die älteste Fundstelle.
+  Nach dem Lauf 193 Zeilen auf 125 Typen, 1,54 Originale je Typ.
 - 12.09.2026 – Hefte 2021 B und 2021 A erfasst, 15 und 16 Zeilen, zusammen 12 Typen neu. Damit ist
   der Umfang 2021–2026 vollständig: zwölf Hefte, 193 Zeilen, 128 Typen, Gesamtsumme 840 = 12 · 70.
   Alle Ergebnisse gegen den Erwartungshorizont gestellt. Eine Abweichung: 2021-B-1d ergibt an der
