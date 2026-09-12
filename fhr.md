@@ -1,5 +1,5 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
-Version 1.1 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
+Version 1.2 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
 
 ## 1 Prüfung
 
@@ -71,8 +71,8 @@ Anmerkungen zum Stand:
 - Normale ist seit 2025 A belegt (2025-A-1h, Normalengleichung an einer Stelle samt Einzeichnen; zweite Fundstelle 2023-A-1c, Normale im gegebenen Punkt nach Nachweis des Anstiegs). Extremwertaufgaben sind seit 2025 A belegt (2025-A-2d bis 2025-A-2f, Trainingsfläche mit 46 m Material als Kette aus Einzelwerten, Zielfunktion und Maximum).
 - Rotationsvolumen um die x-Achse ist seit 2024 C belegt (2024-C-2c, Football-Spielball). Damit hat jedes Thema der Themenliste eine Ankeraufgabe außer Erwartungswert.
 - Laplace-Wahrscheinlichkeit ist wie Grundlagen eine Zutat dieses Profils und trägt keine Schwerpunktmarkierung: die Schwerpunkte führen einstufige Laplace-Versuche nicht als eigenen Inhalt, das Heft verlangt sie aber (2023-C-3b: Ergebnismenge angeben, Laplace-Bedingung begründen, zwei Wahrscheinlichkeiten vergleichen). Die drei zugehörigen Typen hingen bis zum Abgleichlauf am 12.09.2026 ersatzweise unter Baumdiagramm und Pfadregeln; das Thema dort beschreibt mehrstufige Versuche und passte nicht.
-- Vier Themen haben keine Zeile, in der sie das thema stellen, sondern kommen nur als Nebentyp innerhalb anderer Aufgaben vor: Stammfunktion bilden und Bestimmtes Integral berechnen (immer Schritt einer Flächenberechnung), Gleichungen lösen (2025-C-2b) und Erwartungswert (ohne Fundstelle). Für die Heft-Phase heißt das: aus dem Katalog lässt sich zu diesen Themen kein eigenes Heft bauen.
-- Erwartungswert kommt in keinem der 16 auf dem Bildungsserver liegenden Hefte 2019–2026 vor (Wortsuche); mit dem Abschluss der Erfassung aller acht Hefte ist das für 2023–2026 auch am Heft bestätigt. Das Thema steht in beiden Schwerpunktfassungen und bleibt in der Liste, ist aber als Prüfungsinhalt unbelegt.
+- Drei Themen haben keine Zeile, in der sie das thema stellen, sondern kommen nur als Nebentyp innerhalb anderer Aufgaben vor: Stammfunktion bilden und Bestimmtes Integral berechnen (immer Schritt einer Flächenberechnung) und Gleichungen lösen (2025-C-2b). Für die Heft-Phase heißt das: aus dem Katalog lässt sich zu diesen Themen kein eigenes Heft bauen. Erwartungswert ist seit 2021-B-3e nicht mehr in dieser Liste, steht aber mit nur einer Zeile da.
+- Erwartungswert ist seit der Erweiterung auf 2021 belegt: 2021-B-3e verlangt die durchschnittliche Einnahme aus einem Menüpreis, dessen Hauptgang zu gleichen Anteilen 5 € oder 8 € kostet – gerechnet wird der gewichtete Mittelwert, das Wort Erwartungswert fällt im Heft nicht. In den Heften 2023–2026 kommt das Thema nicht vor; die frühere Wortsuche über alle 16 Hefte hatte es übersehen, weil sie auf das Wort und nicht auf das Verfahren zielte. Damit hat jedes Thema der Liste eine Ankeraufgabe.
 - Mehrstufige Zufallsexperimente und Baumdiagramm und Pfadregeln bleiben getrennt. Arbeitsregel seit 2025 C: zweistufige Versuche mit Zurücklegen gehen nach Baumdiagramm und Pfadregeln (2026-C-3d, 2026-B-3c), Versuche mit drei oder mehr Stufen oder ohne Zurücklegen nach Mehrstufige Zufallsexperimente (2025-C-3c ohne Zurücklegen, 2025-A-3e dreistufig mit Zurücklegen). Damit hat auch das zweite Thema eine Ankeraufgabe.
 
 ## 7 Besonderheiten beim Erfassen

@@ -25,8 +25,8 @@ Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bild
 | 2023 | A | 23_FOS_Ma_A_LH.pdf | 05.05.2023 | 10 | 30+20+20 = 70 | erfasst | 17 | 12.09.2026 |
 | 2022 | C | 22_FOS_Ma_C_LH.pdf | 06.05.2022 | 10 | 30+20+20 = 70 | erfasst | 15 | 12.09.2026 |
 | 2022 | B | 22_FOS_Ma_B_LH.pdf | 06.05.2022 | 10 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
-| 2021 | B | 21_FOS_Ma_LH_B.pdf | ? | ? | ? | nicht erfasst | | |
-| 2021 | A | 21_FOS_Ma_LH_A.pdf | ? | ? | ? | nicht erfasst | | |
+| 2021 | B | 21_FOS_Ma_LH_B.pdf | 2021 | 8 | 32+18+20 = 70 | erfasst | 15 | 12.09.2026 |
+| 2021 | A | 21_FOS_Ma_LH_A.pdf | 2021 | 9 | 30+20+20 = 70 | erfasst | 16 | 12.09.2026 |
 
 Reihenfolge der Erfassung: vom jüngsten zum ältesten. „weiter" nimmt das nächste Heft mit Status „nicht erfasst".
 
@@ -41,6 +41,32 @@ Aus der Erweiterung folgt eine Regel für die Heft-Phase: Originale vor 2023 ste
 Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibetermin stellt das Ministerium je Jahrgang einen weiteren Aufgabenvorschlag bereit (Prüfungsschwerpunkte § 2.1); auf dem Bildungsserver liegt keiner.
 
 ## Änderungslog
+
+- 12.09.2026 – Hefte 2021 B und 2021 A erfasst, 15 und 16 Zeilen, zusammen 12 Typen neu. Damit ist
+  der Umfang 2021–2026 vollständig: zwölf Hefte, 193 Zeilen, 128 Typen, Gesamtsumme 840 = 12 · 70.
+  Alle Ergebnisse gegen den Erwartungshorizont gestellt. Eine Abweichung: 2021-B-1d ergibt an der
+  ungerundeten Wendestelle den Funktionswert 6,25 statt amtlich 6,2, was auf den y-Achsenabschnitt
+  der Wendetangente durchschlägt. Drei weitere Abweichungen weist der Erwartungshorizont selbst
+  aus (2021-B-1f bei 1,48 statt 89/60; 2021-A-2b bei exakter x-Koordinate; 2021-A-3b bei Nutzung
+  des gerundeten Mittelwerts aus der Vorgängeraufgabe).
+  Besonderheiten dieser beiden Hefte: 2021 B weicht als einziges Heft des Bestands von der
+  Punkteverteilung 30/20/20 ab und hat 32/18/20; es hat wie 2023 C keinen Gutachtenbogen, die
+  Punkteaufteilung stammt aus dem Erwartungshorizont. **2021-B-3e ist die erste und bisher einzige
+  Fundstelle für das Thema Erwartungswert im gesamten Bestand** – das Wort fällt im Heft nicht,
+  gerechnet wird der gewichtete Mittelwert eines Menüpreises. 2021-B-3c ist die erste Fundstelle,
+  in der die Laplace-Bedingung verneint wird.
+  Neue Typen aus 2021 B: Gegebene Stelle als Extremstelle nachweisen, Gesamtfläche aus mehreren
+  Teilflächen berechnen, Anstieg einer Strecke aus den Endpunkten angeben, Streckenlänge über den
+  Satz des Pythagoras berechnen, Flächeninhalt einer zusammengesetzten Figur berechnen, Steilsten
+  Anstieg über den Wendepunkt bestimmen, Anzahl über das Zählprinzip berechnen, Fehlende Anzahl aus
+  der Gesamtzahl der Möglichkeiten bestimmen, Baumdiagramm dreistufig mit Zurücklegen darstellen,
+  Erwartungswert berechnen. Aus 2021 A: Wendepunkt aus vorgegebenen Punkten auswählen, Fehlenden
+  Wert aus vorgegebenem Mittelwert bestimmen.
+  Eine weitere Definition erweitert: Pfadregel dreistufig ohne Zurücklegen anwenden gilt jetzt für
+  drei oder mehr Stufen (2021-A-3e hat vier). Der Name bleibt eng, die Definition trägt.
+  Etikettenfragen: thema bei 2021-B-1a, 2021-A-1a und 2021-A-3a nach dem Punkt-Schwerpunkt, obwohl
+  der typ unter einem anderen Thema steht; 2021-B-2a und 2021-B-2b führen Elementargeometrie als
+  Werkzeug nach der Regel in fhr.md Abschnitt 7.
 
 - 12.09.2026 – Heft 2022 B erfasst, 16 Zeilen, 4 Typen neu (Funktionswert an einer Stelle
   berechnen, Prozentsatz aus Anteil berechnen, Vertauschung der Reihenfolge bei unabhängigen
