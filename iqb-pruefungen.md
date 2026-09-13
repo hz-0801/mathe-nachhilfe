@@ -24,7 +24,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2024-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 30 Zeilen** · 27 Typen neu, 4 wiederverwendet · Eichung eng 26 von 30 |
 | 2024-ea-A | 19 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 32 von 32 (Deutungsliste v0.5) |
 | 2023-ga-A | 14 (13 + 1 Dublette) | **erfasst 2026-09-13, 24 Zeilen** · 19 Typen neu, 4 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
-| 2023-ea-A | 18 | nicht erfasst |
+| 2023-ea-A | 18 (17 + 1 Dublette) | **erfasst 2026-09-13, 32 Zeilen** · 25 Typen neu, 6 wiederverwendet · Eichung 29 von 32 (Liste v0.6) |
 | 2022-ga-A | 14 | nicht erfasst |
 | 2022-ea-A | 17 | nicht erfasst |
 | 2021-ga-A | 13 (11 + 2 Dubletten) | nicht erfasst |
@@ -42,7 +42,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
-damit 313 zu erfassende Aufgaben.
+damit 312 zu erfassende Aufgaben (16 Paare seit dem Scan v0.2 vor 2023-ea-A).
 
 Kennzahlen je Stapel (Zeile „Kennzahlen:" aus iqb-bau.py; Grundlage für die
 Schwellenwerte nach drei Stapeln, iqb.md § 7):
@@ -56,6 +56,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2024-ga-A | 30 | 31 | 27 (87 %) | eng 26 von 30 (87 %) | 0 | 1 | 2 von 31 aus 2026-ga-A und 2025-ga-A (6 %) | 4, 4, 4, 4 |
 | 2024-ea-A | 32 | 32 | 28 (88 %) | 32 von 32 (100 %), Liste v0.5 | 0 | 0 | 1 von 32 aus 2026-ea-A (3 %) | 13, 3, 13, 3 |
 | 2023-ga-A | 24 | 23 | 19 (83 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 3 von 23 (13 %); Schnitt 18 Werte, 18 von 24 Zeilen bekannt (75 %) | 3, 3, 3, 3 |
+| 2023-ea-A | 32 | 31 | 25 (81 %) | 29 von 32 (91 %), Liste v0.6 | 0 | 0 | 5 von 31 (16 %); Schnitt 26 Werte, 15 von 32 Zeilen bekannt (47 %) | 9, 5, 9, 5 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -630,10 +631,64 @@ Mengenoperation zweier Ereignisse angeben".
 (AGLAA112 a, b; AGLAA12). Bestand jetzt be-gk 37, be-lk 20, bb-gk 36, bb-ea 19
 von 221 Zeilen.
 
+**Stapel 2023-ea-A.** 18 Dateien, eine Dublette (AGLAA211 = AGLAA111), 32
+Zeilen aus 17 Dateien, alle 5 BE bestätigt, kein „?", kein „ersatzweise".
+Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung über den Bestand (253
+Zeilen, 218 Typen, 8 Stapel) bestanden. Drei ungegliederte Aufgaben
+(Analysis 2.2, AGLAA111, AGLAA221). Zwei Dateien mit drei Seiten (AGLAA112,
+AGLAA12; je eine Teilaufgabe auf Seite 2). Erste Fundstelle des Themas
+Rotationsvolumen (Analysis 1.3 b, Abschätzung über Zylinder) und der
+Spiegelung an einer Ebene als Konstruktionsaufgabe (AGLAA222 b). Die Dublette
+AGLAA211 hatte der Scan v0.1 übersehen, weil die beiden PDF-Erzeuger Glyphen
+wie ≠ und − verschieden ausgeben; iqb-quellen.py v0.2 vergleicht nur
+Buchstaben und Ziffern, die CSV wurde neu erzeugt (einzige Änderung: die
+Dublette), Teil A hat damit 312 Aufgaben.
+
+**Eichung 2023-ea-A: 29 von 32 mit der Liste v0.6.** Drei Abweichungen, alle
+geschätzt III, amtlich II: Analysis 1.3 b (Term als Rotationsvolumen deuten
+und mit Zylindern abschätzen – (d) gefeuert; das IQB wertet die Deutung des
+Terms als bekanntes Muster), AGLAA111 (Fallunterscheidung nach b bei einem
+gestaffelten System – Grundregel gefeuert, wie schon 2025-ea-A bei demselben
+Typ: der Fall „ein Koeffizient null" zählt amtlich nicht als
+Fallunterscheidung), Stochastik 1.3 a (Bedingung „ein Behälter einfarbig"
+auf „rote Kugel" zurückführen – (a) gefeuert). Gefeuert und getroffen: (e)
+bei Analysis 2.1 b (Stammfunktionsgraph), (a)+(c) bei Analysis 2.2
+(Kosinusfunktion in p), (d) mit Fallunterscheidung bei AGLAA12 b
+(Matrixpotenz als Populationsentwicklung), (a) bei AGLAA221 (Dreieck),
+(a)+(b) bei AGLAA222 b (Spiegelebene), (a) bei Stochastik 2.1 b und 2.2 b.
+Nicht gefeuert nach dem Prinzip, amtlich II, Treffer: Analysis 1.2 b
+(Flächengleichheit wörtlich vorgegeben), AGLAA213 b (Nachrechnen mit
+mitgeführtem a), Stochastik 1.2 b (Unabhängigkeit als Definition
+vorgegeben). Befund: die Grundregel „Fallunterscheidung heißt III" hat nun
+zweimal bei demselben LGS-Typ verfehlt; ein einzelner Nullfall eines
+Koeffizienten sollte wie das Prinzip behandelt werden (Vorschlag für die
+Liste, nicht umgesetzt).
+
+**Typen 2023-ea-A.** 31 verwendet, 25 neu, 6 wiederverwendet: Fläche zwischen
+Graph und x-Achse in Abhängigkeit vom Scharparameter (2024-ea-A),
+Transformation: Extrempunkt eines transformierten Graphen (2024-ga-A),
+Lösungsanzahl eines gestaffelten Gleichungssystems mit Parameter
+(2025-ea-A), Punktprobe an einer Geraden (2025-ga-A), Term und Ereignis:
+Ereignis zu einem Wahrscheinlichkeitsterm (zweimal), Unbekannte Größe aus
+einer Erwartungswertbedingung. Konvergenz im erhöhten Niveau: 16 % nach
+typ, 47 % nach dem Schnitt (26 Werte, 15 von 32 Zeilen bekannt) – der
+Schnitt kennt im erhöhten Niveau noch weniger als im grundlegenden, weil die
+Matrizen- und Rotationsaufgaben je Stapel neue Klassen bringen. Vorschläge
+für den Abgleichlauf 2: „Übergangsprozess: Zeile der Übergangsmatrix aus dem
+Diagramm angeben" prüfen gegen die Matrizen-Typen aus 2026-ea-A und
+2024-ea-A (Übergangsmatrix aus Diagramm aufstellen).
+
+**Geltung 2023-ea-A.** Außerhalb der Geltung 9, 5, 9, 5 von 32: Matrizen
+(fünf Zeilen, alle Prüfungen), dazu für die Grundkurse Funktionsschar
+(Analysis 1.2), Rotationsvolumen (Analysis 1.3 b) und Geradenschar
+(AGLAA213 b). Bestand jetzt be-gk 46, be-lk 25, bb-gk 45, bb-ea 24 von 253
+Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2023-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien (eine Dublette), Katalog 253 Zeilen, Typenliste 218. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 29 von 32 mit der Liste v0.6. Dubletten-Scan iqb-quellen.py v0.2 (nur Buchstaben und Ziffern): 16 Paare, Teil A 312 Aufgaben; iqb-quellen.csv neu erzeugt, iqb-quellen.md und iqb.md nachgeführt. |
 | 2026-09-13 | 2023-ga-A vollständig erfasst: 24 Zeilen aus 13 Dateien (eine Dublette), Katalog 221 Zeilen, Typenliste 193. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand (Abgleich, dann Stapel) byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6; rückwirkend v0.6 in § 4 (186 von 197, zwei Gewinne durch (e)). Kennzahlenzeile um den Schnitt erweitert. |
 | 2026-09-13 | Abgleichlauf 1 (Entscheidung 24): Schnitt Thema × Gegenstandsklasse × Handlung umgesetzt – Klassenliste je Thema in iqb.md v0.6 § 6, Präfix im Typnamen, iqb-bau.py v0.4 prüft es; iqb-abgleich.py v0.1 angelegt. 183 → 174 Typen: 60 Präfixe, 9 Zusammenziehungen (Liste alt → neu in § 4). Deutungsliste v0.6: Prinzip am Kopf, Eintrag (e); konzept.md Entscheidung 24; CLAUDE.md § 4 ergänzt. |
 | 2026-09-13 | 2024-ea-A vollständig erfasst: 32 Zeilen aus 19 Dateien, Katalog 197 Zeilen, Typenliste 183. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 32 von 32 mit der geänderten Deutungsliste (iqb.md v0.5 § 7: „faires Spiel" und „Aussage beurteilen" gestrichen, „allgemeiner Nachweis mit Parameter" und „Term in Sachaussage übersetzen" aufgenommen); rückwirkende Eichung der fünf früheren Stapel in § 4 (152 von 165 in beiden Fassungen, drei Verluste, drei Gewinne). iqb.md § 6: Aufgabengruppe A1 überwiegend Matrizen, außerhalb der Geltung. Zwischenstufe Thema × Gegenstandsklasse × Handlung über 197 Zeilen in § 4 (114 Werte, 1,73 je Wert, trennt den Prüfstein Matrizen; als Schnitt für Teil A vorgeschlagen, nicht umgesetzt). |

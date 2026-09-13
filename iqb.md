@@ -397,11 +397,11 @@ Stand v0.1: keine.
   iqb-pruefungen.md § 4 gesammelt); nach drei Stapeln werden Schwellenwerte
   vorgeschlagen, die aus den gemessenen Quoten folgen.
 - **Dubletten.** Aufgaben, die für beide AG/LA-Alternativen taugen, liegen im
-  Pool zweimal, wortgleich unter A1 und unter A2 (Teil A: 15 Paare, alle AG/LA,
+  Pool zweimal, wortgleich unter A1 und unter A2 (Teil A: 16 Paare, alle AG/LA,
   Scan vom 13.09.2026). Dublette heißt: Aufgabe, Erwartungshorizont **und**
   Standardbezug sind gleich – iqb-quellen.py vergleicht alle drei Abschnitte
   ohne Leerraum (ein Paar unterschied sich nur in „1: 3" gegen „1:3"); bei
-  allen 15 Paaren sind auch die Formelbilder gleich, geprüft über die
+  allen 15 Paaren des ersten Scans sind auch die Formelbilder gleich, geprüft über die
   Bildobjekte, bei einem Paar nur anders kodiert. Stimmt bei gleicher Aufgabe
   Erwartungshorizont oder Standardbezug nicht überein, ist das keine Dublette,
   sondern eine eigene Fassung: sie bekommt eine eigene Zeile und teilt nur den

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-quellen.py – erzeugt iqb-quellen.csv aus der Übersichtsseite des IQB.
-Version 0.1 · 13.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
+Version 0.2 · 13.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
 
 Ablauf:
   1. Übersichtsseiten ?page=1 … holen, bis eine Seite keine Aufgabe mehr nennt;
@@ -128,9 +128,10 @@ def scanne_teil_a(rows, cache):
 
 def abschnitte(t):
     """(Aufgabe, Erwartungshorizont, Standardbezug) als normierter Text, ohne
-    Fußzeilen-Kennung, ohne die Alternative im Sachgebietsnamen und ohne
-    Leerraum (2024MgrundlegendAAGLAA112/212 unterscheiden sich nur in „1: 3"
-    gegen „1:3")."""
+    Fußzeilen-Kennung, ohne die Alternative im Sachgebietsnamen, nur Buchstaben
+    und Ziffern (2024MgrundlegendAAGLAA112/212 unterscheiden sich nur in „1: 3"
+    gegen „1:3"; 2023MerhoehtAAGLAA111/211 nur in den Glyphen für ≠ und −, die
+    der jeweilige PDF-Erzeuger anders ausgibt – v0.2)."""
     t = re.sub(r"(?:\d{4}|Beispielaufgaben)_M_\w+", "", t)
     t = re.sub(r"AG/LA \(A[12]\)", "AG/LA", t)
     teile = []
@@ -138,7 +139,7 @@ def abschnitte(t):
                          ("2\\s+Erwartungshorizont", "3\\s+Standardbezug"),
                          ("3\\s+Standardbezug", "4\\s+Bewertungshinweise")):
         m = re.search(anfang + r"(.*?)" + ende, t, re.S)
-        teile.append(re.sub(r"\s+", "", m.group(1) if m else t))
+        teile.append(re.sub(r"[^0-9A-Za-zÄÖÜäöüß]", "", m.group(1) if m else t))
     return tuple(teile)
 
 
