@@ -98,22 +98,48 @@ def scanne_teil_a(rows, cache):
         rd = PdfReader(pfad)
         r["seiten"] = str(len(rd.pages))
         t = "\n".join(p.extract_text() for p in rd.pages)
-        m = re.search(r"1\s+Aufgabe(.*?)2\s+Erwartungshorizont", t, re.S)
-        texte[r["kennung"]] = re.sub(r"\s+", " ", m.group(1) if m else t).strip()
+        texte[r["kennung"]] = abschnitte(t)
+    # Dublette nur, wenn Aufgabe, Erwartungshorizont und Standardbezug gleich sind
+    # (iqb.md § 7). Gleiche Aufgabe mit anderem Erwartungshorizont oder
+    # Standardbezug ist eine eigene Fassung und wird gemeldet, nicht markiert.
     reihe = {r["kennung"]: i for i, r in enumerate(rows)}
-    gruppen = collections.defaultdict(list)
-    for k, t in texte.items():
-        gruppen[t].append(k)
-    dubl = {}
-    for ks in gruppen.values():
-        if len(ks) > 1:
-            erste = min(ks, key=lambda k: reihe[k])
-            for k in ks:
-                if k != erste:
-                    dubl[k] = erste
+    nach_aufgabe = collections.defaultdict(list)
+    for k, (a, e, s) in texte.items():
+        nach_aufgabe[a].append(k)
+    dubl, fassungen = {}, []
+    for ks in nach_aufgabe.values():
+        if len(ks) < 2:
+            continue
+        erste = min(ks, key=lambda k: reihe[k])
+        for k in ks:
+            if k == erste:
+                continue
+            if texte[k] == texte[erste]:
+                dubl[k] = erste
+            else:
+                fassungen.append((erste, k))
     for r in rows:
         r["dublette_von"] = dubl.get(r["kennung"], "")
     print(f"Teil A: {len(texte)} Dateien gescannt, {len(dubl)} Dubletten")
+    for erste, k in fassungen:
+        print(f"  Achtung: {k} hat dieselbe Aufgabe wie {erste}, aber anderen Erwartungshorizont "
+              f"oder Standardbezug – eigene Fassung, keine Dublette (iqb.md § 7)")
+
+
+def abschnitte(t):
+    """(Aufgabe, Erwartungshorizont, Standardbezug) als normierter Text, ohne
+    Fußzeilen-Kennung, ohne die Alternative im Sachgebietsnamen und ohne
+    Leerraum (2024MgrundlegendAAGLAA112/212 unterscheiden sich nur in „1: 3"
+    gegen „1:3")."""
+    t = re.sub(r"(?:\d{4}|Beispielaufgaben)_M_\w+", "", t)
+    t = re.sub(r"AG/LA \(A[12]\)", "AG/LA", t)
+    teile = []
+    for anfang, ende in (("1\\s+Aufgabe", "2\\s+Erwartungshorizont"),
+                         ("2\\s+Erwartungshorizont", "3\\s+Standardbezug"),
+                         ("3\\s+Standardbezug", "4\\s+Bewertungshinweise")):
+        m = re.search(anfang + r"(.*?)" + ende, t, re.S)
+        teile.append(re.sub(r"\s+", "", m.group(1) if m else t))
+    return tuple(teile)
 
 
 def main():

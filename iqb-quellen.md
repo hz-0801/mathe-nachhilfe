@@ -49,10 +49,11 @@ Teil A je Stapel (Jahr-Niveau-A), zugleich die Erfassungsreihenfolge:
 | 2017-ga-A | 10 | 2017-ea-A | 11 |
 | bsp-ga-A | 16 | bsp-ea-A | 14 |
 
-Dubletten in Teil A (Scan 13.09.2026): 13 Paare wortgleicher Dateien, alle
-AG/LA, je einmal unter A1 und A2 abgelegt; die zweite Datei zeigt in
-dublette_von auf die erste und wird nicht erfasst. Zu erfassen sind damit 315
-Aufgaben. Seitenzahl: 312 Dateien mit zwei Seiten, 16 mit drei.
+Dubletten in Teil A (Scan 13.09.2026, alle drei Abschnitte ohne Leerraum
+verglichen): 15 Paare wortgleicher Dateien, alle AG/LA, je einmal unter A1
+und A2 abgelegt; die zweite Datei zeigt in dublette_von auf die erste und wird
+nicht erfasst. Zu erfassen sind damit 313 Aufgaben. Seitenzahl: 312 Dateien
+mit zwei Seiten, 16 mit drei.
 
 Teil B: je Jahr und Niveau eine Datei je Sachgebiet und Rechnerfassung, mit
 Nummer, wenn es mehrere gibt (WTR1, WTR2, MMS1 …). Das Rechnerkürzel heißt

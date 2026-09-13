@@ -20,8 +20,8 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2026-ga-A | 19 (18 + 1 Dublette) | **erfasst 2026-09-13, 33 Zeilen** · 34 Typen neu · Eichung 30 von 33 |
 | 2026-ea-A | 20 | nicht erfasst |
 | 2025-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
-| 2025-ea-A | 20 | nicht erfasst |
-| 2024-ga-A | 17 | nicht erfasst |
+| 2025-ea-A | 20 (19 + 1 Dublette) | nicht erfasst |
+| 2024-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
 | 2024-ea-A | 19 | nicht erfasst |
 | 2023-ga-A | 14 (13 + 1 Dublette) | nicht erfasst |
 | 2023-ea-A | 18 | nicht erfasst |
@@ -42,7 +42,14 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
-damit 315 zu erfassende Aufgaben.
+damit 313 zu erfassende Aufgaben.
+
+Kennzahlen je Stapel (Zeile „Kennzahlen:" aus iqb-bau.py; Grundlage für die
+Schwellenwerte nach drei Stapeln, iqb.md § 7):
+
+| Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise |
+|---|---|---|---|---|---|---|
+| 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 |
 
 ## 3 Zurückgestellt
 
@@ -72,11 +79,19 @@ Kopie byteidentisch, Selbstprüfung über den Bestand bestanden.
 
 **Dubletten im Pool.** Aufgaben, die für beide AG/LA-Alternativen taugen,
 nennen in der Kurzbeschreibung nur „AG/LA" und liegen wortgleich unter A1 und
-A2 (2026MgrundlegendAAGLAA112 = …212). Ein Textvergleich des Abschnitts
-„1 Aufgabe" über alle 328 Teil-A-Dateien fand 13 solche Paare, alle AG/LA;
-sie stehen in iqb-quellen.csv (dublette_von). Sechzehn Teil-A-Dateien haben
-drei Seiten (Bewertungshinweise rutschen auf Seite 3), die Seitenzahl steht in
-iqb-quellen.csv.
+A2 (2026MgrundlegendAAGLAA112 = …212). Der erste Textvergleich des Abschnitts
+„1 Aufgabe" über alle 328 Teil-A-Dateien fand 13 Paare; die Absicherung vom
+selben Tag (Auftrag des Lehrers) verglich alle drei Abschnitte – Aufgabe,
+Erwartungshorizont, Standardbezug – und zusätzlich die Bildobjekte: bei allen
+Paaren gleich, ein Paar nur in der Bildkodierung verschieden
+(BeispielaufgabenMerhoehtAAGLAA111/211), eines nur im Leerraum („1: 3" gegen
+„1:3", 2024MgrundlegendAAGLAA112/212). Der Scan vergleicht seitdem alle drei
+Abschnitte ohne Leerraum und findet 15 Paare, alle AG/LA; sie stehen in
+iqb-quellen.csv (dublette_von). Eine Fassung mit gleicher Aufgabe, aber
+anderem Erwartungshorizont oder Standardbezug gibt es in Teil A nicht; die
+Regel dafür (eigene Zeile, geteilter Typ) steht in iqb.md § 7. Sechzehn
+Teil-A-Dateien haben drei Seiten (Bewertungshinweise rutschen auf Seite 3),
+die Seitenzahl steht in iqb-quellen.csv.
 
 **Ungegliederte Aufgaben.** Vier der 18 Aufgaben haben keine
 Teilaufgabenbuchstaben, alle in Gruppe 2 (AGLAA12, AGLAA221, Stochastik21,

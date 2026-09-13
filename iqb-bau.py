@@ -1324,6 +1324,11 @@ def main():
           + (f"; Abweichungen: {'; '.join(abw)}" if abw else ""))
     print(f"Schwellen: {len(unsicher)} Zeilen mit „?“ (erlaubt {grenze_frage}), "
           f"{len(ersatz)} ohne passendes Thema (erlaubt {grenze_ersatz})")
+    # Kennzahlen je Stapel (iqb.md § 7): gemessene Quoten, aus denen nach drei
+    # Stapeln die Schwellenwerte abgeleitet werden. Zeile für iqb-pruefungen.md § 4.
+    print(f"Kennzahlen: | {stapel} | {n} | {len(verwendet)} | {len(neu & verwendet)} "
+          f"({100 * len(neu & verwendet) / len(verwendet):.0f} %) | {treffer} von {n} "
+          f"({100 * treffer / n:.0f} %) | {len(unsicher)} | {len(ersatz)} |")
     print("Unsichere Zeilen:", ", ".join(unsicher) if unsicher else "keine")
     print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
           "(Häufigkeit in Klammern):")

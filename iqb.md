@@ -147,10 +147,15 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
             („Standardbezug: K1 I, K2 II, K5 II").
     niveau_geschaetzt: eigene Schätzung nach Kern § 5, aus dem Aufgabentext
             gebildet, nicht aus dem Standardbezug abgeschrieben – sonst eicht
-            das Feld nichts. Eichung (Auswertungsregel, keine Erfassungsregel):
-            verglichen wird mit dem höchsten Bereich in afb_amtlich, weil das
-            Feld einwertig ist und die Teilaufgabe insgesamt meint. iqb-bau.py
-            gibt die Trefferquote je Lauf aus.
+            das Feld nichts. Erfassungshinweis aus der Eichung siehe § 7
+            („Kombinieren heißt III"). Eichung (Auswertungsregel, keine
+            Erfassungsregel): verglichen wird mit dem höchsten Bereich in
+            afb_amtlich, weil das Feld einwertig ist und die Teilaufgabe
+            insgesamt meint. iqb-bau.py gibt die Trefferquote je Lauf aus.
+            Die Beispielaufgaben erklären die Matrix in einer Fußnote: „Für jede
+            Kompetenz, die bei der Bearbeitung der Teilaufgabe eine wesentliche
+            Rolle spielt, ist der Anforderungsbereich eingetragen, in dem die
+            Kompetenz benötigt wird."
     ergebnis: amtliches Ergebnis aus dem Erwartungshorizont mit Zusatz
             „(amtlich)"; weicht die eigene Rechnung ab, bleibt das amtliche in
             ergebnis und die Abweichung geht nach bemerkung. Ergebnisse zu
@@ -257,12 +262,24 @@ Stand v0.1: keine.
   zu prüfen: Typen gegen den Bestand abgleichen, Themen erneut zuordnen,
   Unsicheres nachrechnen – und dann erneut laufen lassen. Erst wenn das nicht
   hilft, wird der Schwellenwert im Skript geändert und die Änderung in
-  iqb-pruefungen.md § 5 begründet.
+  iqb-pruefungen.md § 5 begründet. Die Werte sind vorerst Schätzung. Der Bericht
+  jedes Stapels nennt als **Kennzahlen** die Quote neuer Typen an den
+  verwendeten und die Eichtrefferquote (Zeile „Kennzahlen:" von iqb-bau.py, in
+  iqb-pruefungen.md § 4 gesammelt); nach drei Stapeln werden Schwellenwerte
+  vorgeschlagen, die aus den gemessenen Quoten folgen.
 - **Dubletten.** Aufgaben, die für beide AG/LA-Alternativen taugen, liegen im
-  Pool zweimal, wortgleich unter A1 und unter A2 (Teil A: 13 Paare, alle AG/LA,
-  Scan vom 13.09.2026). Die Spalte dublette_von in iqb-quellen.csv nennt für die
-  zweite Datei die erste (Ordnung nach § 7); Dubletten bekommen keine Zeile und
-  kein Soll, iqb-bau.py verlangt sie nicht und weist sie ab. Der Befund steht in
+  Pool zweimal, wortgleich unter A1 und unter A2 (Teil A: 15 Paare, alle AG/LA,
+  Scan vom 13.09.2026). Dublette heißt: Aufgabe, Erwartungshorizont **und**
+  Standardbezug sind gleich – iqb-quellen.py vergleicht alle drei Abschnitte
+  ohne Leerraum (ein Paar unterschied sich nur in „1: 3" gegen „1:3"); bei
+  allen 15 Paaren sind auch die Formelbilder gleich, geprüft über die
+  Bildobjekte, bei einem Paar nur anders kodiert. Stimmt bei gleicher Aufgabe
+  Erwartungshorizont oder Standardbezug nicht überein, ist das keine Dublette,
+  sondern eine eigene Fassung: sie bekommt eine eigene Zeile und teilt nur den
+  Typ; das Skript meldet solche Fälle und markiert sie nicht (bisher keiner).
+  Die Spalte dublette_von in iqb-quellen.csv nennt für die zweite Datei die
+  erste (Ordnung nach § 7); Dubletten bekommen keine Zeile und kein Soll,
+  iqb-bau.py verlangt sie nicht und weist sie ab. Der Befund steht in
   bemerkung der ersten Datei. Ein Stapel zählt deshalb nach Dateien ohne
   Dubletten (2026-ga-A: 19 Dateien, 18 erfasst).
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
@@ -272,6 +289,21 @@ Stand v0.1: keine.
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
   und Standardbezug. Die Schätzung wird nicht nachträglich an den Standardbezug
   angepasst; eine Abweichung ist ein Messwert, kein Fehler.
+- **Kombinieren heißt III** (Erfassungshinweis aus der Eichung 2026-ga-A,
+  Entscheidung des Lehrers 13.09.2026). Wo eine Teilaufgabe das Kombinieren
+  mehrerer Regeln oder Verfahren verlangt – zwei Formeln verketten, Werte aus
+  einem Graphen ablesen und in eine Regel einsetzen, ein Gleichungssystem aus
+  Kenngrößen aufstellen und lösen –, setzt der amtliche Standardbezug den
+  Anforderungsbereich III, auch wenn jeder Schritt für sich Routine ist.
+  niveau_geschaetzt folgt dem: II ist ein Verfahren mit Deutung oder eine
+  Begründung, III ist die Verkettung. Die drei Abweichungen des ersten Stapels
+  als Beispiele: Analysis 2.1 b (Produktregel mit Werten aus dem Graphen: f'(3) =
+  0 am Tiefpunkt erkennen, g'(3) aus dem Steigungsdreieck, alles in die Regel
+  einsetzen) geschätzt II, amtlich III; Stochastik 2.2 (aus μ = n · p und σ =
+  √(n · p · (1 − p)) erst p, dann n, dann den Bernoulli-Term) geschätzt II,
+  amtlich III. Umgekehrt Analysis 1.4 a (Graph der Funktion vom Ableitungsgraphen
+  unterscheiden, eine Begründung über ein Vorzeichen): geschätzt II, amtlich I –
+  eine einzelne Beobachtung am Bild ist I, auch wenn sie begründet wird.
 - **Kein Aufgabenstamm im engen Sinn**, aber Text vor a) ist der Normalfall
   („Der Graph der in IR definierten Funktion f mit … wird mit G bezeichnet").
   Jede Zeile wiederholt in gegeben, was sie davon braucht (Kern § 4).
