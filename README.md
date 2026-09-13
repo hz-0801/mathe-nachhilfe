@@ -11,7 +11,7 @@ Ein Repo für die Mathe-Nachhilfe: Prüfungskataloge, die Prompts, die LaTeX-Vor
 | `typen.csv`, `katalog-basis.csv`, `katalog-kontext.csv` | Katalog msa: Typenliste, Basis- und Kontextaufgaben. |
 | `fhr.md`, `fhr-*` | Profil fhr (Fachhochschulreife Brandenburg): Profil, Heftliste, Typenliste, Katalog, Bau-Skript, Typenbibliothek. |
 | `abi.md`, `abi-*` | Profil abi (Zentralabitur Berlin/Brandenburg 2017/2018): Profil, Quellen, Aufbau, Heftliste, Typenliste, Katalog, Bau-Skript, Vorgaben. Arbeitsanweisung in `CLAUDE.md`. |
-| `iqb.md`, `iqb-*` | Profil iqb (IQB-Aufgabenpool, 624 Aufgaben mit Erwartungshorizont): Profil, Quellen (md und csv), Stapelliste, Typenliste, Katalog, Bau-Skript. Arbeitsanweisung in `CLAUDE.md` § 4. |
+| `iqb.md`, `iqb-*` | Profil iqb (IQB-Aufgabenpool, 624 Aufgaben mit Erwartungshorizont): Profil, Quellen (md und csv), Stapelliste, Typenliste, Katalog, Bau-Skript, Abgleich-Skript (`iqb-abgleich.py`, Umbenennen und Zusammenziehen von Typen). Arbeitsanweisung in `CLAUDE.md` § 4. |
 | `konzept.md`, `blatt-konzept.md` | Entscheidungen: Katalog bzw. Hefte. Bei Widerspruch in der Heft-Phase gilt blatt-konzept. |
 | `pruefungen.md`, `vorgaben.md` | Heftliste mit Erfassungsstatus; amtliche Vorgaben mit Jahrescheck. |
 | `CHANGELOG.md` | Änderungshistorie der Prompts und der Vorlage. |

@@ -23,7 +23,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2025-ea-A | 20 (19 + 1 Dublette) | **erfasst 2026-09-13, 34 Zeilen** · 31 Typen neu, 4 wiederverwendet · Eichung eng 30 von 34 |
 | 2024-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 30 Zeilen** · 27 Typen neu, 4 wiederverwendet · Eichung eng 26 von 30 |
 | 2024-ea-A | 19 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 32 von 32 (Deutungsliste v0.5) |
-| 2023-ga-A | 14 (13 + 1 Dublette) | nicht erfasst |
+| 2023-ga-A | 14 (13 + 1 Dublette) | **erfasst 2026-09-13, 24 Zeilen** · 19 Typen neu, 4 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
 | 2023-ea-A | 18 | nicht erfasst |
 | 2022-ga-A | 14 | nicht erfasst |
 | 2022-ea-A | 17 | nicht erfasst |
@@ -55,6 +55,11 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2025-ea-A | 34 | 35 | 31 (89 %) | eng 30 von 34 (88 %) | 0 | 0 | 2 von 35 aus 2026-ea-A (6 %) | 8, 2, 8, 2 |
 | 2024-ga-A | 30 | 31 | 27 (87 %) | eng 26 von 30 (87 %) | 0 | 1 | 2 von 31 aus 2026-ga-A und 2025-ga-A (6 %) | 4, 4, 4, 4 |
 | 2024-ea-A | 32 | 32 | 28 (88 %) | 32 von 32 (100 %), Liste v0.5 | 0 | 0 | 1 von 32 aus 2026-ea-A (3 %) | 13, 3, 13, 3 |
+| 2023-ga-A | 24 | 23 | 19 (83 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 3 von 23 (13 %); Schnitt 18 Werte, 18 von 24 Zeilen bekannt (75 %) | 3, 3, 3, 3 |
+
+Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
+Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
+deren Wert schon im selben Niveau vorkam.
 
 „Davon neu" zählt gegen den Gesamtbestand; die letzte Spalte ist die
 Konvergenzmessung innerhalb eines Niveaus (Typen des Stapels, die schon im
@@ -524,10 +529,113 @@ dem Messskript wird dabei zur Klassenliste je Thema; Themen, die selbst
 schon Gegenstand sind, bekommen keine Unterklasse. Der Typ nach Kern § 6
 bleibt als Feinetikett darunter erhalten.
 
+**Abgleichlauf 1 (Auftrag des Lehrers, vor 2023-ga-A; Entscheidung 24,
+iqb.md v0.6 § 6, iqb-abgleich.py v0.1).** Die Zwischenstufe Thema ×
+Gegenstandsklasse × Handlung ist umgesetzt: acht Themen führen eine
+Klassenliste (Funktionsklassen 4, Flächeninhalt durch Integration 2, Punkte und
+Strecken 3, Lagebeziehungen 2, Orthogonalität 2, Flächeninhalt und Volumen im
+Raum 2, Matrizen 3, Zufallsexperimente 3), die Klasse steht als Präfix vor dem
+Doppelpunkt im Typnamen, iqb-bau.py v0.4 prüft das Präfix und zählt den
+Schnitt als Kennzahl. Ergebnis über den Bestand von 197 Zeilen: **183 → 174
+Typen, 1,08 → 1,13 Zeilen je Typ; 60 Typen mit Präfix, 9 Zusammenziehungen**
+(zwei alte Namen auf einen neuen, die erste beispiel_id bleibt, Definition
+erweitert):
+
+| alt | alt | neu |
+|---|---|---|
+| Graph der Funktion vom Graphen der Ableitung unterscheiden | Graph einer Stammfunktion unter vorgegebenen Graphen begründet auswählen | Graphen von Funktion und Ableitung einander zuordnen |
+| Trefferwahrscheinlichkeit aus dem ganzzahligen Erwartungswert im Diagramm ermitteln | Verhältnis zweier Trefferwahrscheinlichkeiten aus den Erwartungswerten im Diagramm nachweisen | (erster Name bleibt, Definition erweitert) |
+| Integral mit Wert null am Graphen veranschaulichen | Integralwert aus der Symmetrie des Graphen angeben | Integralwert: Integral mit Wert null am Graphen begründen |
+| Orthogonalität von Gerade und Ebene über Normalen- und Richtungsvektor begründen | Vektor als Normalenvektor einer Ebene über Kollinearität nachweisen | Geraden und Ebenen: Orthogonalität zu einer Ebene über Kollinearität mit dem Normalenvektor begründen (Thema Orthogonalität) |
+| Wahrscheinlichkeit für zweimal kein Treffer über die Pfadregel begründen | Pfadwahrscheinlichkeit für lauter Treffer berechnen und mit einer Schranke vergleichen | Pfadwahrscheinlichkeit für lauter gleiche Ergebnisse als Potenz berechnen |
+| Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben | Hypergeometrischen Term im Sachzusammenhang deuten | Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben |
+| Unbekannte Werte einer Zufallsgröße aus dem Erwartungswert bestimmen | Anzahl der Kugeln aus einer Fairnessbedingung bestimmen | Unbekannte Größe aus einer Erwartungswertbedingung bestimmen (Thema Kenngrößen; das gemeinsame Etikett mit abi-typen.csv entfällt) |
+| Punkt auf einer Lotgeraden mit vorgegebenem Abstand zur Ebene bestimmen | Punkt mit vorgegebenem Abstand zu seinem Spiegelbild an einer Ebene bestimmen | Punkt mit vorgegebenem Abstand zur Ebene auf der Lotgeraden bestimmen (Thema Abstände) |
+| Stammfunktionen mit einer Wertebedingung bestimmen | Stammfunktion durch einen vorgegebenen Punkt bestimmen | Stammfunktion mit einer Wertebedingung bestimmen |
+
+Getrennt gelassen: „Parameter für einen rechten Winkel über das Skalarprodukt
+ermitteln" gegen „Rechten Winkel eines Dreiecks mit Parameter nachweisen"
+(andere Handlung, im Schnitt ohnehin verschieden); „Integral null über die
+Punktsymmetrie begründen" (am Term) gegen „Integral mit Wert null am Graphen
+begründen" (anderer Lösungsweg). Die 60 Präfixe stehen vollständig in
+iqb-abgleich.py (PRAEFIX); Beispiele: „Matrizenalgebra: Alle Fixvektoren einer
+Matrix ermitteln", „Verflechtung: Rohstoffbedarf über die Verflechtungsmatrix
+berechnen", „Körper: Volumen eines Teilkörpers eines Würfels berechnen",
+„Laplace-Experiment: Laplace-Wahrscheinlichkeit für den ersten Zug angeben".
+Der Prüfstein Matrizen ist damit im Typnamen dreigeteilt. Die vier
+Beispielzeilen in iqb.md § 8 tragen keine der geänderten Typen. Selbstprüfung
+nach dem Abgleich: 197 Zeilen, 174 Typen, alle Präfixe gültig.
+
+**Deutungsliste v0.6 (Auftrag des Lehrers).** Das Prinzip aus (c) – eine
+Deutung zählt nur, wenn sie zu finden ist; wörtlich Vorgegebenes und das
+Nachrechnen einer Identität mit mitgeführtem Parameter bleiben II – steht jetzt
+am Kopf der Liste. Es schärft (a) um die wörtliche Übersetzung („doppelt so
+viel"), (b) um die schon gezeigte oder in einer vorgegebenen Rechnung benutzte
+Symmetrie (2025-ga-A Analysis 1.2 b, 2024-ea-A Stochastik 1.2 b) und (d) um
+die einfache Termdeutung; (c) trug es schon. Neu (e): Beziehung zwischen
+Funktion und Stammfunktion oder Integralfunktion am Graphen deuten (2026-ga-A
+Analysis 2.2 b, 2026-ea-A Analysis 2.3), nicht das Zuordnen von Graph und
+Ableitungsgraph über Nullstellen und Extremstellen. Rückwirkend mit v0.6:
+
+| Stapel | v0.5 | v0.6 | Änderung |
+|---|---|---|---|
+| 2026-ga-A | 29 von 33 | 30 von 33 | Analysis 2.2 b II → III über (e), amtlich III |
+| 2026-ea-A | 35 von 37 | 36 von 37 | Analysis 2.3 II → III über (e), amtlich III |
+| 2025-ga-A | 29 von 31 | 29 von 31 | – (Analysis 1.2 b bleibt II: Symmetrie in a gezeigt) |
+| 2025-ea-A | 31 von 34 | 31 von 34 | – |
+| 2024-ga-A | 28 von 30 | 28 von 30 | – |
+| 2024-ea-A | 32 von 32 | 32 von 32 | – (Stochastik 1.2 b bleibt II: Symmetrie in der Rechnung vorgegeben) |
+| Summe | 184 von 197 (93 %) | 186 von 197 (94 %) | zwei Gewinne durch (e), das Prinzip ändert keine Schätzung |
+
+Die beiden Verluste aus v0.5 sind damit wieder Treffer; offen bleiben
+2025-ga-A Stochastik 2.2 b (Kugelzahl aus Fairness, amtlich III, nach dem
+Prinzip II: die Ausgleichsbedingung ist wörtlich vorgegeben) und die
+Einzelfälle aus den ersten Stapeln (AGLAA121 a, AGLAA211 a, Stochastik 2.1
+in 2025-ea-A; AGLAA12 b, Stochastik 2.1 a in 2024-ga-A).
+
+**Stapel 2023-ga-A.** 14 Dateien, eine Dublette (AGLAA211 = AGLAA111), 24
+Zeilen aus 13 Dateien, alle 5 BE bestätigt, kein „?", kein „ersatzweise".
+Lauf aus dem HEAD-Stand (Abgleichlauf, dann Stapel) byteidentisch,
+Selbstprüfung über den Bestand (221 Zeilen, 193 Typen, 7 Stapel) bestanden.
+Drei ungegliederte Aufgaben (Analysis 2 und Stochastik 2 sind jeweils die
+einzige Datei ihrer Gruppe, aufgabe „2"; AGLAA12). Erste Fundstelle des
+Themas Schnittmengen im grundlegenden Niveau (Schnitt zweier Geraden). Ein
+Sachkontext in AG/LA (Standseilbahn mit Foto). Erster Stapel mit Präfixen in
+den neuen Typen (Nullstellen und Werte, Matrizenalgebra, Körper, Punkt und
+Ebene).
+
+**Eichung 2023-ga-A: 23 von 24 mit der Liste v0.6.** Abweichung: Analysis 2 a
+(Wertemenge von e^(x²)) geschätzt II, amtlich III über K1 – kein Eintrag
+feuert; die Verkettung zweier Wertemengen ist nach dem Prinzip Routine.
+Gefeuert: (a) und (b) bei Analysis 2 b (Schnittbedingung f = 2x · f, Kürzen
+durch f > 0), (a) und (b) bei AGLAA22 b (Volumen als Parabel in k, Scheitel
+aus den Nullstellen), (a) bei Stochastik 2 (Ausgleich zweier
+Zahlungsrichtungen als Gleichung), Fallunterscheidung bei AGLAA12. Nicht
+gefeuert nach dem Prinzip: Analysis 1.2 a (Symmetrie im Text vorgegeben),
+Stochastik 1.2 b (Einsatz gleich Erwartungswert wörtlich) – beide amtlich II,
+Treffer.
+
+**Typen 2023-ga-A.** 23 verwendet, 19 neu, 4 wiederverwendet: Bestimmtes
+Integral einer ganzrationalen Funktion (2026-ga-A), Punktprobe an einer
+Geraden (2025-ga-A), Punkt und Ebene: Parameter einer Ebenengleichung aus
+einem enthaltenen Punkt (2026-ea-A), Unbekannte Größe aus einer
+Erwartungswertbedingung (zweimal, zusammengezogener Typ). Konvergenz im
+grundlegenden Niveau: 13 % nach typ, 75 % nach dem Schnitt (18 Werte, 18 von
+24 Zeilen bekannt). Vorschlag für den nächsten Abgleich: „Ergebnisse zur
+Schnittmenge zweier Ereignisse angeben" mit „Ergebnisse zum Gegenereignis
+zweier Ereignisse aufzählen" (2026-ga-A) zu „Ergebnisse zu einer
+Mengenoperation zweier Ereignisse angeben".
+
+**Geltung 2023-ga-A.** Außerhalb der Geltung 3, 3, 3, 3 von 24: nur Matrizen
+(AGLAA112 a, b; AGLAA12). Bestand jetzt be-gk 37, be-lk 20, bb-gk 36, bb-ea 19
+von 221 Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2023-ga-A vollständig erfasst: 24 Zeilen aus 13 Dateien (eine Dublette), Katalog 221 Zeilen, Typenliste 193. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand (Abgleich, dann Stapel) byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6; rückwirkend v0.6 in § 4 (186 von 197, zwei Gewinne durch (e)). Kennzahlenzeile um den Schnitt erweitert. |
+| 2026-09-13 | Abgleichlauf 1 (Entscheidung 24): Schnitt Thema × Gegenstandsklasse × Handlung umgesetzt – Klassenliste je Thema in iqb.md v0.6 § 6, Präfix im Typnamen, iqb-bau.py v0.4 prüft es; iqb-abgleich.py v0.1 angelegt. 183 → 174 Typen: 60 Präfixe, 9 Zusammenziehungen (Liste alt → neu in § 4). Deutungsliste v0.6: Prinzip am Kopf, Eintrag (e); konzept.md Entscheidung 24; CLAUDE.md § 4 ergänzt. |
 | 2026-09-13 | 2024-ea-A vollständig erfasst: 32 Zeilen aus 19 Dateien, Katalog 197 Zeilen, Typenliste 183. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 32 von 32 mit der geänderten Deutungsliste (iqb.md v0.5 § 7: „faires Spiel" und „Aussage beurteilen" gestrichen, „allgemeiner Nachweis mit Parameter" und „Term in Sachaussage übersetzen" aufgenommen); rückwirkende Eichung der fünf früheren Stapel in § 4 (152 von 165 in beiden Fassungen, drei Verluste, drei Gewinne). iqb.md § 6: Aufgabengruppe A1 überwiegend Matrizen, außerhalb der Geltung. Zwischenstufe Thema × Gegenstandsklasse × Handlung über 197 Zeilen in § 4 (114 Werte, 1,73 je Wert, trennt den Prüfstein Matrizen; als Schnitt für Teil A vorgeschlagen, nicht umgesetzt). |
 | 2026-09-13 | 2024-ga-A vollständig erfasst: 30 Zeilen aus 16 Dateien (eine Dublette), Katalog 165 Zeilen, Typenliste 155. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung eng 26 von 30 (87 %), je Abweichung der gefeuerte Eintrag der Deutungsliste in § 4 (Vorschlag: „faires Spiel" und „Aussage beurteilen" einschränken, „allgemeiner Nachweis" und „Term in Sachaussage" ergänzen – nicht umgesetzt). Zwischenschnitt Thema × Handlungsklasse über 165 Zeilen in § 4 (75 Werte, 2,20 je Wert, Wiederverwendung im Niveau 67 % gegen 7 % nach typ; nicht umgesetzt). |
 | 2026-09-13 | 2025-ea-A vollständig erfasst: 34 Zeilen aus 19 Dateien (eine Dublette), Katalog 135 Zeilen, Typenliste 128. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung eng 30 von 34 (88 %), Schranke 85 % gehalten; Wiederverwendung im Niveau 2 von 35; außerhalb der Geltung be-gk 8, be-lk 2, bb-gk 8, bb-ea 2. Befunde in § 4 (Messwerte zur engen Fassung, Scharen auf erhöhtem Niveau, Vorschläge für den Abgleich). |

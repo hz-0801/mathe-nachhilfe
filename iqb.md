@@ -1,5 +1,8 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.5 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.6 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.5 (nach 2024-ea-A): § 6 Gegenstandsklassen je Thema als
+Schnitt für Teil A, Präfix im Typnamen (Entscheidung 24, Abgleichlauf über
+alle Typen); § 7 Deutungsliste mit Prinzip am Kopf und Eintrag (e).
 Änderungen gegenüber 0.4 (nach 2024-ga-A): § 7 Deutungsliste (a)–(d) neu
 gefasst – „faires Spiel" und „Aussage beurteilen" gestrichen, „allgemeiner
 Nachweis mit Parameter" und „Term in Sachaussage übersetzen" aufgenommen; § 6
@@ -318,6 +321,38 @@ Aufgabengruppe AG/LA (A1) des Pools ist überwiegend Matrizen (Verflechtung,
 ebene Vektorrechnung) und liegt für alle vier Zielprüfungen außerhalb der
 Geltung.
 
+**Gegenstandsklassen je Thema (Schnitt für Teil A, Entscheidung 24 in
+konzept.md, 13.09.2026).** Für den Blattbau zählt in Teil A der Schnitt Thema
+× Gegenstandsklasse × Handlung (Handlung aus dem ersten Wert von `format`:
+Rechnung → berechnen, Begründung → begründen, Kurzantwort und Ankreuzen →
+angeben, Zeichnen und Eintragen → zeichnen). Die Gegenstandsklasse steht als
+erstes Wort des Typnamens vor einem Doppelpunkt („Verflechtung: Rohstoffbedarf
+über die Verflechtungsmatrix berechnen"); der Typ nach Kern § 6 bleibt als
+Feinetikett dahinter erhalten. Unterklassen bekommen nur Themen, die mehrere
+Gegenstände bündeln; Themen, die selbst schon der Gegenstand sind, führen
+keine (Typname ohne Doppelpunkt). Die Zuordnung eines Typs richtet sich nach
+dem Thema in iqb-typen.csv, nicht nach dem Thema der einzelnen Zeile.
+
+| Thema | Gegenstandsklassen |
+|---|---|
+| Funktionsklassen und Eigenschaften | Symmetrie · Transformation · Extrempunkte · Nullstellen und Werte |
+| Flächeninhalt durch Integration | Integralwert · Fläche |
+| Punkte und Strecken im Koordinatensystem | Punkt · Ebene Figur · Körper |
+| Lagebeziehungen | Punkt und Ebene · Gerade und Ebene |
+| Orthogonalität | Dreieck · Geraden und Ebenen |
+| Flächeninhalt und Volumen im Raum | Ebene Figur · Körper |
+| Matrizen und Übergangsprozesse | Verflechtung · Übergangsprozess · Matrizenalgebra |
+| Zufallsexperimente und Urnenmodelle | Term und Ereignis · Laplace-Experiment · Ziehen ohne Zurücklegen |
+
+Lesart: Integralwert heißt deuten, abschätzen, begründen oder ablesen eines
+Integrals (auch über Symmetrie), Fläche heißt berechnen eines Flächeninhalts;
+Ebene Figur sind Dreieck, Viereck und Quadrat auch im Raum, Körper sind Prisma,
+Pyramide, Würfel und Quader; Term und Ereignis ist das Deuten oder Aufstellen
+eines Wahrscheinlichkeitsterms, Laplace-Experiment das Abzählen gleich
+wahrscheinlicher Ergebnisse. Die Liste wächst beim Abgleichlauf, wenn ein
+Thema einen weiteren Gegenstand bekommt; iqb-bau.py prüft, dass jeder Typ
+eines Themas mit Klassen ein gültiges Präfix trägt und jeder andere keines.
+
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
 Simulation ist. Bisher keine Fundstelle; die Regel wird beim ersten Fall geprüft.
@@ -387,21 +422,35 @@ Stand v0.1: keine.
   enge Fassung; Entscheidung nach dem Stapel 2025-ga-A, 13.09.2026). Der
   amtliche Standardbezug setzt III, wo eine Teilaufgabe mehrere Regeln oder
   Verfahren verkettet **und** dabei eine Deutung oder Fallunterscheidung
-  verlangt. Deutungsliste (Stand nach 2024-ga-A, geändert am 13.09.2026):
-  (a) eine Bedingung aus dem Sachverhalt oder der Geometrie erst in eine
-  Gleichung übersetzen (Flächenhalbierung als Integral gleich null, Abstand zum
-  Spiegelbild als doppelter Abstand zur Ebene, mittlere Änderungsrate als
-  Steigung der Sekante, Diagonalenschnittpunkt als Spurpunkt); (b) eine
-  Symmetrie oder einen Sonderfall erkennen und ausnutzen; (c) einen
-  allgemeinen Nachweis mit Parameter führen, bei dem eine Beziehung
+  verlangt. **Prinzip** (an den Kopf gestellt nach 2024-ea-A, v0.6): Eine
+  Deutung zählt nur, wenn sie zu finden ist – eine Beziehung wird hergeleitet,
+  eine Bedingung erst gefunden, eine Symmetrie erst erkannt. Was der Text
+  wörtlich vorgibt oder was sich als Identität mit mitgeführtem Parameter
+  nachrechnen lässt, ist Routine und bleibt II. Deutungsliste (Stand v0.6,
+  13.09.2026): (a) eine Bedingung aus dem Sachverhalt oder der Geometrie
+  erst in eine Gleichung übersetzen (Flächenhalbierung als Integral gleich
+  null, Abstand zum Spiegelbild als doppelter Abstand zur Ebene, mittlere
+  Änderungsrate als Steigung der Sekante, Diagonalenschnittpunkt als
+  Spurpunkt) – nicht, wenn die Übersetzung wörtlich vorgegeben ist („doppelt
+  so viel", „viermal so groß"); (b) eine Symmetrie oder einen Sonderfall
+  erkennen und ausnutzen (Spiegelung an y = x, gemeinsamer Lotfußpunkt, zwei
+  Behälter mit gleichem Anteil) – nicht, wenn die Symmetrie schon in einer
+  vorigen Teilaufgabe gezeigt oder in einer vorgegebenen Rechnung benutzt ist;
+  (c) einen allgemeinen Nachweis mit Parameter führen, bei dem eine Beziehung
   hergeleitet wird (Tangente an der Stelle u schneidet bei −f(u); g'(a) = 0
   zieht f'(a) = −f(a) nach sich; zwei Scharebenen mit a ≠ b sind nie
-  parallel) – nicht das bloße Nachrechnen einer Identität mit mitgeführtem
+  parallel) – nicht das Nachrechnen einer Identität mit mitgeführtem
   Parameter (Skalarprodukt mit t gleich null, f_a'(0) = 1, f_a(−x) = −f_a(x),
-  amtlich I bis II); (d)
-  einen Term oder eine Ungleichung in eine Sachaussage übersetzen, wenn dazu
-  zwei Deutungen verkettet werden (Gleichung als totale Wahrscheinlichkeit
-  und Binomialsumme als kumulierte Wahrscheinlichkeit). Gestrichen nach
+  amtlich I bis II); (d) einen Term oder eine Ungleichung in eine Sachaussage
+  übersetzen, wenn dazu zwei Deutungen verkettet werden (Gleichung als totale
+  Wahrscheinlichkeit und Binomialsumme als kumulierte Wahrscheinlichkeit) –
+  nicht die einfache Deutung eines Terms als Ereignis; (e) die Beziehung
+  zwischen Funktion und Stammfunktion oder Integralfunktion am Graphen deuten
+  (Extrempunkte von F aus dem Vorzeichen von f, Nullstellen einer
+  Integralfunktion als Flächenbilanz; ergänzt nach 2024-ea-A) – nicht das
+  Zuordnen von Graph und Ableitungsgraph über Nullstellen und Extremstellen,
+  das ist II. Das Prinzip schärft (a), (b) und (d) um die jeweils genannte
+  Ausnahme; (c) trug es schon. Gestrichen nach
   2024-ga-A: „faires Spiel als Erwartungswert gleich Einsatz" (in drei
   Fällen zweimal amtlich II) und „eine Aussage beurteilen" (feuert auch bei
   einem einfachen Vergleich; eine Beurteilung ist nur III, wenn (a) bis (d)
@@ -430,7 +479,10 @@ Stand v0.1: keine.
   oben, v0.5). Rückwirkend mit der Liste v0.5: 2026-ga-A 29, 2026-ea-A 35,
   2025-ga-A 29, 2025-ea-A 31, 2024-ga-A 28 – zusammen 152 von 165 wie zuvor,
   Einzelheiten in iqb-pruefungen.md § 4. Erster Stapel mit der Liste v0.5:
-  2024-ea-A 32 von 32.
+  2024-ea-A 32 von 32. Mit der Liste v0.6 (Prinzip, (e)) rückwirkend 186 von
+  197 – (e) holt 2026-ga-A Analysis 2.2 b und 2026-ea-A Analysis 2.3 zurück,
+  das Prinzip ändert keine Schätzung; erster Stapel mit v0.6: 2023-ga-A 23
+  von 24 (Wertemenge von e^(x²) amtlich III, kein Eintrag).
   Die weite Fassung „Kombinieren heißt III" (Stand nach 2026-ga-A) hatte die
   Verkettung allein zum Maß gemacht; sie trifft die amtlich mit III belegten
   Zeilen ebenso, überschätzt aber Routineverkettungen. Im Katalog tragen die
