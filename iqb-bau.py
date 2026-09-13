@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 0.2 · 13.09.2026 · gilt mit katalog-prompt.md v0.3 und iqb.md v0.2
+Version 0.3 · 13.09.2026 · gilt mit katalog-prompt.md v0.3 und iqb.md v0.4
 
 Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" bleibt unverändert.
+
+Änderungen gegenüber 0.2: Geltungstabelle aus iqb.md § 6 (Zeilen außerhalb der
+Geltung je Zielprüfung in den Kennzahlen); Eichung auch nach der engen Fassung
+(Vermerk „Schätzung enge Fassung: …" in bemerkung) mit Schranke; Schranke für
+neue Typen abschaltbar (None); Wiederverwendung im selben Niveau als Kennzahl.
 
 Änderungen gegenüber 0.1: Aufgaben ohne Teilaufgabenbuchstaben (row ohne
 teilaufgabe, id gleich Kennung, genau eine Zeile je Datei); Dubletten nach
@@ -81,8 +86,13 @@ PFLICHT = ("id jahr papier block aufgabe titel seite punkte hilfsmittel afb_amtl
 # verwendeten Typen des Stapels; „mindestens" ist die Zahl, die immer erlaubt ist.
 SCHWELLEN = {
     "fragezeichen_anteil": 0.10, "fragezeichen_mindestens": 2,
-    "neue_typen_anteil": 0.60, "neue_typen_ab_bestand": 100,
+    # Schranke für neue Typen deaktiviert (13.09.2026, Entscheidung des Lehrers),
+    # bis der Typenschnitt für Teil A geklärt ist; gemessen wird sie weiter.
+    "neue_typen_anteil": None, "neue_typen_ab_bestand": 100,
     "ersatzweise_anteil": 0.10, "ersatzweise_mindestens": 2,
+    # Eichung nach der engen Fassung (iqb.md § 7): Trefferquote gegen den
+    # höchsten amtlichen Bereich, ab dieser Zeilenzahl im Stapel scharf.
+    "eichung_mindestens": 0.85, "eichung_ab_zeilen": 10,
 }
 
 # Stämme, die eine ASCII-Umschrift von ä, ö, ü oder ß verraten. Positivliste,
@@ -150,6 +160,33 @@ def vokabular():
     return head, v, leitideen, themen
 
 
+def geltung():
+    """Geltungstabelle aus iqb.md § 6: Thema × Zielprüfung, ja/nein.
+    Liefert (Zielprüfungen, {thema: Menge der Zielprüfungen mit ja})."""
+    profil = lies(PROFIL)
+    m = re.search(r"^\| Thema \|(.+?)\|\s*\n\|[-| ]+\|\s*\n((?:\|.*\|\s*\n)+)", profil, re.M)
+    if not m:
+        sys.exit(f"{PROFIL}: Geltungstabelle nicht gefunden.")
+    ziele = [z.strip() for z in m.group(1).split("|") if z.strip()]
+    tab = {}
+    for zeile in m.group(2).strip().splitlines():
+        zellen = [c.strip() for c in zeile.strip().strip("|").split("|")]
+        if len(zellen) != len(ziele) + 1:
+            sys.exit(f"{PROFIL}: Geltungszeile hat {len(zellen)} Zellen: {zeile}")
+        thema, werte = zellen[0], zellen[1:]
+        if any(w not in ("ja", "nein") for w in werte):
+            sys.exit(f"{PROFIL}: Geltung muss ja oder nein sein: {zeile}")
+        tab[thema] = {z for z, w in zip(ziele, werte) if w == "ja"}
+    alle = {t for liste in THEMEN.values() for t in liste}
+    fehlt = sorted(alle - set(tab))
+    if fehlt:
+        sys.exit(f"{PROFIL}: Themen ohne Geltungszeile: {fehlt}")
+    fremd = sorted(set(tab) - alle)
+    if fremd:
+        sys.exit(f"{PROFIL}: Geltungszeilen ohne Thema in der Liste: {fremd}")
+    return ziele, tab
+
+
 def quellen():
     """iqb-quellen.csv: Kennung -> Zeile (Zerlegung, papier, stapel)."""
     with io.open(QUELLEN, encoding="utf-8", newline="") as fh:
@@ -164,6 +201,7 @@ def quellen():
 
 
 HEAD, VOK, LEITIDEEN, THEMEN = vokabular()
+ZIELE, GELTUNG = geltung()
 QUELLE = quellen()
 
 
@@ -1059,16 +1097,28 @@ def typen_von(z):
     return t
 
 
-def eichung(zeilen):
-    """Trefferquote niveau_geschaetzt gegen den höchsten amtlichen Bereich (iqb.md § 4)."""
+ENG = re.compile(r"Schätzung enge Fassung: (I{1,3})")
+
+
+def geschaetzt_eng(z):
+    """Schätzung nach der engen Fassung (iqb.md § 7): steht sie in bemerkung, gilt sie,
+    sonst niveau_geschaetzt. Zeilen, die schon nach der engen Fassung erfasst sind,
+    tragen keinen Vermerk."""
+    m = ENG.search(z["bemerkung"])
+    return m.group(1) if m else z["niveau_geschaetzt"]
+
+
+def eichung(zeilen, eng=False):
+    """Trefferquote der Schätzung gegen den höchsten amtlichen Bereich (iqb.md § 4);
+    eng=True wertet die enge Fassung aus."""
     treffer, abw = 0, []
     for z in zeilen:
         amt = hoechster_afb(z["afb_amtlich"])
-        eig = ORD.get(z["niveau_geschaetzt"], 0)
-        if amt == eig:
+        wert = geschaetzt_eng(z) if eng else z["niveau_geschaetzt"]
+        if amt == ORD.get(wert, 0):
             treffer += 1
         else:
-            abw.append(f"{z['id']} geschätzt {z['niveau_geschaetzt']}, amtlich höchstens "
+            abw.append(f"{z['id']} geschätzt {wert}, amtlich höchstens "
                        f"{[k for k, v in ORD.items() if v == amt][0] if amt else '–'}")
     return treffer, abw
 
@@ -1126,11 +1176,16 @@ def main():
                 print(" -", f_)
             sys.exit(1)
         treffer, abw = eichung(alt)
+        treffer_eng, _ = eichung(alt, eng=True)
         print(f"Selbstprüfung bestanden: {len(alt)} Katalogzeilen, {len(alt_typ)} Typen, "
               f"alle Typen verwendet, {len(stapel)} Stapel vollständig. ZEILEN ist leer, nichts geschrieben.")
         if alt:
             print(f"Eichung über den Bestand: {treffer} von {len(alt)} Zeilen treffen den höchsten "
-                  f"amtlichen Bereich ({100 * treffer // len(alt)} %).")
+                  f"amtlichen Bereich ({100 * treffer // len(alt)} %), enge Fassung {treffer_eng} "
+                  f"({100 * treffer_eng // len(alt)} %).")
+            print("Außerhalb der Geltung: " + ", ".join(
+                f"{ziel} {sum(1 for z in alt if ziel not in GELTUNG.get(z['thema'], set()))}"
+                for ziel in ZIELE) + f" von {len(alt)} Zeilen")
         print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
               "(Häufigkeit in Klammern):")
         liste = umschrift_liste(alt)
@@ -1206,11 +1261,21 @@ def main():
       f"Schwelle gerissen: {len(unsicher)} Zeilen mit „?“, erlaubt {grenze_frage}: {unsicher}")
     a(len(ersatz) <= grenze_ersatz,
       f"Schwelle gerissen: {len(ersatz)} Zeilen ohne passendes Thema, erlaubt {grenze_ersatz}: {ersatz}")
-    if len(alt) >= SCHWELLEN["neue_typen_ab_bestand"] and verwendet:
+    if (SCHWELLEN["neue_typen_anteil"] is not None
+            and len(alt) >= SCHWELLEN["neue_typen_ab_bestand"] and verwendet):
         anteil = len(neu & verwendet) / len(verwendet)
         a(anteil <= SCHWELLEN["neue_typen_anteil"],
           f"Schwelle gerissen: {len(neu & verwendet)} von {len(verwendet)} verwendeten Typen neu "
           f"({100 * anteil:.0f} %), erlaubt {100 * SCHWELLEN['neue_typen_anteil']:.0f} %")
+    treffer_eng, abw_eng = eichung(ZEILEN, eng=True)
+    if n >= SCHWELLEN["eichung_ab_zeilen"]:
+        a(treffer_eng / n >= SCHWELLEN["eichung_mindestens"],
+          f"Schwelle gerissen: Eichung (enge Fassung) {treffer_eng} von {n} "
+          f"({100 * treffer_eng / n:.0f} %), verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %: "
+          f"{'; '.join(abw_eng)}")
+    # Geltung (iqb.md § 6): Zeilen, deren Thema für eine Zielprüfung nicht gilt
+    ausserhalb = {ziel: [z["id"] for z in ZEILEN if ziel not in GELTUNG.get(z["thema"], set())]
+                  for ziel in ZIELE}
 
     if fehler:
         print(f"ABBRUCH – {len(fehler)} Fehler, nichts geschrieben:")
@@ -1252,13 +1317,32 @@ def main():
     treffer, abw = eichung(ZEILEN)
     print(f"Eichung: {treffer} von {n} Zeilen treffen den höchsten amtlichen Bereich"
           + (f"; Abweichungen: {'; '.join(abw)}" if abw else ""))
+    if treffer_eng != treffer:
+        print(f"Eichung enge Fassung: {treffer_eng} von {n}")
     print(f"Schwellen: {len(unsicher)} Zeilen mit „?“ (erlaubt {grenze_frage}), "
-          f"{len(ersatz)} ohne passendes Thema (erlaubt {grenze_ersatz})")
-    # Kennzahlen je Stapel (iqb.md § 7): gemessene Quoten, aus denen nach drei
-    # Stapeln die Schwellenwerte abgeleitet werden. Zeile für iqb-pruefungen.md § 4.
+          f"{len(ersatz)} ohne passendes Thema (erlaubt {grenze_ersatz}), "
+          f"Eichung {100 * treffer_eng / n:.0f} % (verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %)")
+    # Wiederverwendung im selben Niveau: Typen des Stapels, die schon in einem
+    # Stapel desselben Niveaus vorkamen (Konvergenzmessung, iqb-pruefungen.md § 4)
+    niveau = QUELLE[next(iter(dateien))]["niveau"]
+    im_niveau = set()
+    for z in alt:
+        k = kennung_aus_id(z["id"])[0]
+        if k in QUELLE and QUELLE[k]["niveau"] == niveau:
+            im_niveau |= typen_von(z)
+    wieder = verwendet & im_niveau
+    # Geltung je Zielprüfung
+    geltung_txt = ", ".join(f"{ziel} {len(ids)}" for ziel, ids in ausserhalb.items())
+    for ziel, ids in ausserhalb.items():
+        if ids:
+            print(f"Außerhalb der Geltung {ziel}: {', '.join(ids)}")
+    # Kennzahlen je Stapel (iqb.md § 7). Zeile für iqb-pruefungen.md § 4.
     print(f"Kennzahlen: | {stapel} | {n} | {len(verwendet)} | {len(neu & verwendet)} "
           f"({100 * len(neu & verwendet) / len(verwendet):.0f} %) | {treffer} von {n} "
-          f"({100 * treffer / n:.0f} %) | {len(unsicher)} | {len(ersatz)} |")
+          f"({100 * treffer / n:.0f} %)"
+          + (f", eng {treffer_eng} ({100 * treffer_eng / n:.0f} %)" if treffer_eng != treffer else "")
+          + f" | {len(unsicher)} | {len(ersatz)} | {len(wieder)} von {len(verwendet)} "
+          f"({100 * len(wieder) / len(verwendet):.0f} %) | {geltung_txt} |")
     print("Unsichere Zeilen:", ", ".join(unsicher) if unsicher else "keine")
     print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
           "(Häufigkeit in Klammern):")

@@ -14,8 +14,11 @@ Vorgabencheck (§ 4) steht noch aus.
   https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/abitur_bb/RS_ZA_JJJJ/PS_Mathematik_LK_JJJJ.pdf
   (entsprechend PS_Mathematik_GK_JJJJ.pdf). Dazu das Rundschreiben des MBJS zum
   Zentralabitur des Jahrgangs (Termine, Organisation).
-- Prüfungsschwerpunkte Berlin, je Prüfungsjahr und Niveau: unter berlin.de,
-  ps_mathematik_JJJJ_lk.pdf bzw. ps_mathematik_JJJJ_gk.pdf.
+- Prüfungsschwerpunkte Berlin, je Prüfungsjahr und Niveau:
+  https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/ps_mathematik_JJJJ_lk.pdf
+  bzw. ps_mathematik_JJJJ_gk.pdf (2027 geholt am 13.09.2026, 8 bzw. 7 Seiten;
+  Brandenburg 7 bzw. 6 Seiten). Aus den vier Papieren 2027 ist die
+  Geltungstabelle in iqb.md § 6 abgeleitet.
 - Fachbriefe Mathematik Brandenburg (Liste in vorgaben.md § 1); für das Abitur
   einschlägig sind die Nummern mit Abschnitten zur GOST, etwa Nr. 3 (2019:
   hilfsmittelfreier Teil, Anforderungsbereiche im Erwartungshorizont).
@@ -71,3 +74,7 @@ und Wurzelgleichungen.
 
 - 2026-09-13: angelegt als Abi-Pendant zu vorgaben.md, aus abi.md v0.5 und
   abi-pruefungen.md § 4 zusammengetragen; kein eigener Vorgabencheck.
+- 2026-09-13: die vier Prüfungsschwerpunkte 2027 gelesen; Geltungstabelle
+  Thema × Zielprüfung in iqb.md § 6, Anmerkungen dort (Bayes/Kolmogorow nur
+  BB, Lotto-Modell statt hypergeometrischer Verteilung in BE, Abstände in BE
+  nur über Lotfußpunkte, Matrizen nirgends).

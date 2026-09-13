@@ -1,5 +1,8 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.3 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.4 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.3: § 6 Geltungstabelle Thema × (be-gk, be-lk, bb-gk,
+bb-ea) aus den Prüfungsschwerpunkten 2027; § 7 Schranke für neue Typen
+deaktiviert, Eichschranke 85 % nach der engen Fassung.
 Änderungen gegenüber 0.2 (nach den Stapeln 2026-ea-A und 2025-ga-A): § 7
 Erfassungshinweis auf die enge Fassung „Kombinieren mit Deutung heißt III"
 umgestellt, mit der Messung; § 7 Dubletten-Fassungsregel, Kennzahlen je Stapel.
@@ -232,6 +235,81 @@ Kurzbeschreibung trägt und nicht umsortiert wird, braucht die Liste Analytische
 Geometrie das Thema ebenfalls. Typen zu LGS werden je Sachgebiet geführt; beim
 Abgleich ist zu prüfen, ob dieselbe Fertigkeit unter beiden steht.
 
+**Geltungstabelle.** Ob ein Thema Prüfungsgegenstand ist, hängt von Land und
+Niveau ab. Quelle sind die vier Prüfungsschwerpunkte 2027 (Berlin
+ps_mathematik_2027_gk/lk, Brandenburg PS_Mathematik_GK/LK_2027; gelesen am
+13.09.2026, Ablage in abi-vorgaben.md § 1). ja = in den Schwerpunkten genannt,
+nein = nicht genannt. iqb-bau.py liest die Tabelle und zählt je Stapel die
+Zeilen, deren Thema für eine Zielprüfung nicht gilt; gefiltert wird über das
+Thema, ein Zeilenfeld gibt es dafür nicht (Geltung ist eine Eigenschaft des
+Themas, nicht der Zeile). Jedes Thema der Liste braucht eine Zeile.
+
+| Thema | be-gk | be-lk | bb-gk | bb-ea |
+|---|---|---|---|---|
+| Gleichungen lösen | ja | ja | ja | ja |
+| Lineare Gleichungssysteme | ja | ja | ja | ja |
+| Funktionsklassen und Eigenschaften | ja | ja | ja | ja |
+| Umkehrfunktion | ja | ja | ja | ja |
+| Grenzwerte und Verhalten im Unendlichen | ja | ja | ja | ja |
+| Ableitung und Änderungsrate | ja | ja | ja | ja |
+| Ableitungsregeln | ja | ja | ja | ja |
+| Tangente, Normale, Schnittwinkel | ja | ja | ja | ja |
+| Kurvenuntersuchung | ja | ja | ja | ja |
+| Ableitungsgraph und Funktionsgraph | ja | ja | ja | ja |
+| Funktionsscharen und Ortskurven | nein | ja | nein | ja |
+| Rekonstruktion von Funktionsgleichungen | ja | ja | ja | ja |
+| Extremalprobleme | ja | ja | ja | ja |
+| Stammfunktion und Hauptsatz | ja | ja | ja | ja |
+| Integrationsregeln | ja | ja | ja | ja |
+| Flächeninhalt durch Integration | ja | ja | ja | ja |
+| Rekonstruktion von Beständen | ja | ja | ja | ja |
+| Uneigentliche Integrale | nein | ja | nein | ja |
+| Rotationsvolumen | nein | ja | nein | ja |
+| Punkte und Strecken im Koordinatensystem | ja | ja | ja | ja |
+| Vektoren und Rechenoperationen | ja | ja | ja | ja |
+| Linearkombination und lineare Abhängigkeit | ja | ja | ja | ja |
+| Geraden | ja | ja | ja | ja |
+| Ebenen | ja | ja | ja | ja |
+| Lagebeziehungen | ja | ja | ja | ja |
+| Schnittmengen | ja | ja | ja | ja |
+| Skalarprodukt und Winkel | ja | ja | ja | ja |
+| Orthogonalität | ja | ja | ja | ja |
+| Abstände | ja | ja | ja | ja |
+| Flächeninhalt und Volumen im Raum | ja | ja | ja | ja |
+| Scharen von Geraden und Ebenen | nein | ja | nein | ja |
+| Spiegelung | ja | ja | ja | ja |
+| Matrizen und Übergangsprozesse | nein | nein | nein | nein |
+| Ereignisse und Mengenoperationen | ja | ja | ja | ja |
+| Zufallsexperimente und Urnenmodelle | ja | ja | ja | ja |
+| Kombinatorik | ja | ja | ja | ja |
+| Baumdiagramm und Pfadregeln | ja | ja | ja | ja |
+| Vierfeldertafel | ja | ja | ja | ja |
+| Bedingte Wahrscheinlichkeit und Bayes | ja | ja | ja | ja |
+| Unabhängigkeit | ja | ja | ja | ja |
+| Lage- und Streumaße einer Stichprobe | ja | ja | ja | ja |
+| Zufallsgrößen und Verteilungen | ja | ja | ja | ja |
+| Binomialverteilung | ja | ja | ja | ja |
+| Kenngrößen von Verteilungen | ja | ja | ja | ja |
+| Hypergeometrische Verteilung | nein | nein | ja | ja |
+| Normalverteilung und Sigma-Regeln | nein | ja | nein | ja |
+| Hypothesentests | nein | ja | nein | ja |
+
+Anmerkungen zur Tabelle: Abstände gelten in Berlin nur über Lotfußpunkte,
+Abstandsformeln und Hessesche Normalenform sind dort „nicht notwendig"; der
+Abstand Punkt–Gerade und windschiefer Geraden steht nur in den LK-Papieren.
+Bedingte Wahrscheinlichkeit gilt überall, der Satz von Bayes und das
+Axiomensystem von Kolmogorow nur in Brandenburg. Berlin führt statt der
+hypergeometrischen Verteilung das „Lotto-Modell" (Ziehen ohne Zurücklegen
+über Urnenmodelle); Aufgaben mit Binomialkoeffizienten-Quotienten sind dort
+also nicht ausgeschlossen, die Verteilung als Begriff schon – die Tabelle
+folgt dem Wortlaut. Berlin verlangt zusätzlich Wurzelgleichungen (GK
+„grundlegend", LK) und die Sachkontexte Geschwindigkeit–Weg, Masse–Volumen–
+Dichte, Zeit–Uhrzeit, die in der Themenliste keine eigenen Themen haben.
+Kettenregel im Berliner GK nur mit linearer innerer Funktion, in Brandenburg
+auch quadratisch. Sinus- und Kosinusfunktionen: Ableitung nur bb-gk, bb-ea und
+be-lk; be-gk nur die Sek-I-Form. Matrizen sind in keinem der vier Papiere
+Prüfungsgegenstand (das Wort fällt nur bei der MMS-Zulassung).
+
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
 Simulation ist. Bisher keine Fundstelle; die Regel wird beim ersten Fall geprüft.
@@ -257,8 +335,13 @@ Stand v0.1: keine.
   wenn ein Schwellenwert gerissen wird; die Werte stehen in SCHWELLEN im Skript
   und sind revidierbar:
   · Zeilen mit „?": höchstens 10 % der Zeilen des Stapels, mindestens 2 erlaubt.
-  · Neue Typen: höchstens 60 % der im Stapel verwendeten Typen, sobald der
-    Katalog 100 Zeilen hat (davor ist fast jeder Typ neu).
+  · Neue Typen: Schranke deaktiviert (13.09.2026). Nach drei Stapeln lag der
+    Anteil neuer Typen bei 100, 82 und 94 % – die geplanten 60 % hätten jeden
+    weiteren Stapel abgebrochen, ohne dass etwas faul ist. Gemessen wird der
+    Anteil weiter (Kennzahlen); eine neue Schranke wird erst gesetzt, wenn der
+    Typenschnitt für Teil A entschieden ist (iqb-pruefungen.md § 4).
+  · Eichung: mindestens 85 % der Zeilen treffen nach der engen Fassung den
+    höchsten amtlichen Bereich (ab 10 Zeilen im Stapel scharf).
   · Zeilen mit „ersatzweise" (kein passendes Thema): höchstens 10 % der Zeilen,
     mindestens 2 erlaubt.
   Reißt eine Schranke, ist der Stapel nicht schlecht, sondern die Etiketten sind

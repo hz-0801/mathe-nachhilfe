@@ -47,11 +47,11 @@ damit 313 zu erfassende Aufgaben.
 Kennzahlen je Stapel (Zeile „Kennzahlen:" aus iqb-bau.py; Grundlage für die
 Schwellenwerte nach drei Stapeln, iqb.md § 7):
 
-| Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise | Wiederverwendung im selben Niveau |
-|---|---|---|---|---|---|---|---|
-| 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 | – |
-| 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %), enge Fassung 36 (97 %) | 0 | 0 | – (erstes Stapel erhöht) |
-| 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) |
+| Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise | Wiederverwendung im selben Niveau | außerhalb der Geltung be-gk, be-lk, bb-gk, bb-ea |
+|---|---|---|---|---|---|---|---|---|
+| 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 | – | 0, 0, 0, 0 |
+| 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %), enge Fassung 36 (97 %) | 0 | 0 | – (erster Stapel erhöht) | 7, 6, 7, 6 |
+| 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) | 2, 2, 1, 1 |
 
 „Davon neu" zählt gegen den Gesamtbestand; die letzte Spalte ist die
 Konvergenzmessung innerhalb eines Niveaus (Typen des Stapels, die schon im
@@ -197,6 +197,39 @@ Normalenvektor einer Ebene über Kollinearität nachweisen" mit „Orthogonalit�
 von Gerade und Ebene über Normalen- und Richtungsvektor begründen"
 zusammenziehen (dieselbe Prüfung).
 
+**Typenschnitt gemessen (Auftrag des Lehrers, 13.09.2026, Bestand 101
+Zeilen).** Wiederverwendung je Stapel, Anteil der Zeilen, deren Schlüssel
+schon in einem früheren Stapel vorkam:
+
+| Stapel | nach typ gesamt | nach typ im Niveau | nach thema gesamt | nach thema im Niveau |
+|---|---|---|---|---|
+| 2026-ea-A | 6 von 37 (16 %) | – | 25 von 37 (68 %) | – |
+| 2025-ga-A | 3 von 31 (10 %) | 1 von 31 (3 %) | 29 von 31 (94 %) | 24 von 31 (77 %) |
+
+Zeilen je Wert: Haupttyp 1,09 (101 Zeilen auf 93 Typen; 86 Typen kommen
+einmal vor, 6 zweimal, 1 dreimal; grundlegend 1,03, erhöht 1,00). Thema 3,48
+(29 belegte Themen; grundlegend 2,46 auf 26, erhöht 1,85 auf 20). 30 der 48
+Themen sind belegt; unbelegt vor allem die LK-Themen (uneigentliche
+Integrale, Rotationsvolumen, Normalverteilung, Hypothesentests) und Ebenen,
+Schnittmengen, Skalarprodukt und Winkel, Vierfeldertafel, Unabhängigkeit.
+Zwischenschnitt Thema × Handlungsklasse (berechnen, begründen, angeben,
+zeichnen, aus format): 56 Werte, 1,8 Zeilen je Wert; 2025-ga-A gegen
+2026-ga-A 12 von 31 Zeilen bekannt (39 %).
+
+Lesart: Der Typ nach Kern § 6 ist für die Kurzaufgaben des Teils A so fein,
+dass fast jede Zeile ihr eigenes Etikett trägt; eine Kette aus mehreren
+Originalen (blatt-konzept.md § 3) kommt so nicht zustande. Das Thema
+konvergiert dagegen schon nach einem Jahrgang auf drei Viertel. **Vorschlag,
+nicht umgesetzt, ohne Änderung am Kern:** (1) Für Teil A stützt der Blattbau
+Kette und Decke auf `thema` statt auf `typ`; der Typ bleibt als Feinetikett
+für die Auswahl der Sprossen. (2) Beim ersten Abgleichlauf über ein
+vollständiges Niveau (Kern § 9 erlaubt das Vereinheitlichen) die Teil-A-Typen
+gröber schneiden: Gegenstand auf Themenebene plus Handlung, Zielgröße etwa
+drei Zeilen je Typ – das entspricht dem Zwischenschnitt Thema × Handlungsklasse
+(1,8 Zeilen je Wert nach drei Stapeln, steigend). Die Feinheit wandert nach
+`stichwoerter` und `verfahren`, wo sie schon steht. Erst nach dem Abgleich
+eine Schranke für neue Typen setzen.
+
 **Matrizen auch auf grundlegendem Niveau.** 2025MgrundlegendAAGLAA11 ist eine
 Matrizenaufgabe; der Befund aus 2026-ea-A gilt also nicht nur für erhöht. Im
 Bestand jetzt 7 Zeilen unter Matrizen und Übergangsprozesse. Vorschlag zur
@@ -208,6 +241,7 @@ und iqb.md § 6.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | Vorarbeiten vor 2025-ea-A: Typenschnitt gemessen (§ 4, Vorschlag nicht umgesetzt); Schranke für neue Typen deaktiviert, Eichschranke 85 % nach der engen Fassung scharf; Geltungstabelle aus den vier Prüfungsschwerpunkten 2027 in iqb.md § 6 (v0.4), iqb-bau.py v0.3 zählt Zeilen außerhalb der Geltung je Zielprüfung und die Wiederverwendung im Niveau als Kennzahlen; abi-vorgaben.md ergänzt. |
 | 2026-09-13 | 2025-ga-A vollständig erfasst: 31 Zeilen aus 16 Dateien (eine Dublette), Katalog 101 Zeilen, Typenliste 97. Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung doppelt gerechnet (weit 29, eng 30 von 31); Entscheidung für die enge Fassung, iqb.md v0.3 § 7. Wiederverwendung innerhalb des Niveaus als Kennzahl aufgenommen. Befunde in § 4 (Matrizen auch grundlegend, Hypergeometrische Verteilung belegt). |
 | 2026-09-13 | 2026-ea-A vollständig erfasst: 37 Zeilen aus 20 Dateien, Katalog 70 Zeilen, Typenliste 66. Alle 20 Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden, Eichung 34 von 37, Kennzahlen in § 4. Befunde in § 4 (Matrizen auf erhöhtem Niveau, Varianten über die Niveaus, Gegenbefund zur Regel „Kombinieren heißt III"). |
 | 2026-09-13 | Dublettenprüfung abgesichert (alle Paare in drei Abschnitten und Bildobjekten gleich, Regel bleibt; Scan verschärft, 15 statt 13 Paare, Teil A 313 Aufgaben). iqb.md § 7: Fassungsregel, Erfassungshinweis „Kombinieren heißt III", Kennzahlen je Stapel; iqb-bau.py gibt die Kennzahlenzeile aus. |
