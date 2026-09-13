@@ -1,5 +1,8 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.2 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.3 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.2 (nach den Stapeln 2026-ea-A und 2025-ga-A): § 7
+Erfassungshinweis auf die enge Fassung „Kombinieren mit Deutung heißt III"
+umgestellt, mit der Messung; § 7 Dubletten-Fassungsregel, Kennzahlen je Stapel.
 Änderungen gegenüber 0.1 (nach dem Stapel 2026-ga-A): § 4 ungegliederte Aufgaben
 (teilaufgabe leer, id gleich Kennung) und titel bei Kurzbeschreibung „AG/LA";
 § 6 Lineare Gleichungssysteme auch unter Analytische Geometrie; § 7 Dubletten;
@@ -148,7 +151,7 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
     niveau_geschaetzt: eigene Schätzung nach Kern § 5, aus dem Aufgabentext
             gebildet, nicht aus dem Standardbezug abgeschrieben – sonst eicht
             das Feld nichts. Erfassungshinweis aus der Eichung siehe § 7
-            („Kombinieren heißt III"). Eichung (Auswertungsregel, keine
+            („Kombinieren mit Deutung heißt III"). Eichung (Auswertungsregel, keine
             Erfassungsregel): verglichen wird mit dem höchsten Bereich in
             afb_amtlich, weil das Feld einwertig ist und die Teilaufgabe
             insgesamt meint. iqb-bau.py gibt die Trefferquote je Lauf aus.
@@ -289,21 +292,32 @@ Stand v0.1: keine.
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
   und Standardbezug. Die Schätzung wird nicht nachträglich an den Standardbezug
   angepasst; eine Abweichung ist ein Messwert, kein Fehler.
-- **Kombinieren heißt III** (Erfassungshinweis aus der Eichung 2026-ga-A,
-  Entscheidung des Lehrers 13.09.2026). Wo eine Teilaufgabe das Kombinieren
-  mehrerer Regeln oder Verfahren verlangt – zwei Formeln verketten, Werte aus
-  einem Graphen ablesen und in eine Regel einsetzen, ein Gleichungssystem aus
-  Kenngrößen aufstellen und lösen –, setzt der amtliche Standardbezug den
-  Anforderungsbereich III, auch wenn jeder Schritt für sich Routine ist.
-  niveau_geschaetzt folgt dem: II ist ein Verfahren mit Deutung oder eine
-  Begründung, III ist die Verkettung. Die drei Abweichungen des ersten Stapels
-  als Beispiele: Analysis 2.1 b (Produktregel mit Werten aus dem Graphen: f'(3) =
-  0 am Tiefpunkt erkennen, g'(3) aus dem Steigungsdreieck, alles in die Regel
-  einsetzen) geschätzt II, amtlich III; Stochastik 2.2 (aus μ = n · p und σ =
-  √(n · p · (1 − p)) erst p, dann n, dann den Bernoulli-Term) geschätzt II,
-  amtlich III. Umgekehrt Analysis 1.4 a (Graph der Funktion vom Ableitungsgraphen
-  unterscheiden, eine Begründung über ein Vorzeichen): geschätzt II, amtlich I –
-  eine einzelne Beobachtung am Bild ist I, auch wenn sie begründet wird.
+- **Kombinieren mit Deutung heißt III** (Erfassungshinweis aus der Eichung,
+  enge Fassung; Entscheidung nach dem Stapel 2025-ga-A, 13.09.2026). Der
+  amtliche Standardbezug setzt III, wo eine Teilaufgabe mehrere Regeln oder
+  Verfahren verkettet **und** dabei eine Deutung oder Fallunterscheidung
+  verlangt: eine Bedingung aus dem Sachverhalt oder der Geometrie erst in eine
+  Gleichung übersetzen (Flächenhalbierung als Integral gleich null, Abstand zum
+  Spiegelbild als doppelter Abstand zur Ebene, faires Spiel als Erwartungswert
+  gleich Einsatz), eine Aussage beurteilen, eine Symmetrie oder einen
+  Sonderfall erkennen und ausnutzen. Reine Verkettungen von Standardschritten
+  bleiben II: Ableitung bilden und eine Bruchgleichung lösen, Schnittstelle und
+  Steigungen und Winkelbedingung, μ und σ berechnen und im Diagramm ablesen,
+  Mittelpunkt und Höhe und Fläche. I bleibt die einzelne Beobachtung oder
+  Rechnung, auch wenn sie begründet wird (Graph der Funktion vom
+  Ableitungsgraphen unterscheiden: geschätzt II, amtlich I).
+  Messung, die zur engen Fassung geführt hat (Treffer der Schätzung gegen den
+  höchsten amtlichen Bereich): 2026-ga-A 30 von 33 in beiden Fassungen;
+  2026-ea-A weit 34, eng 36 von 37 (Analysis 1.1 b und Stochastik 1.1 b sind
+  Routineverkettungen mit amtlich II); 2025-ga-A weit 29, eng 30 von 31 (die
+  weite Fassung überschätzt AGLAA11 und AGLAA212-b, die enge unterschätzt nur
+  Analysis 2.2 a, wo der Standardbezug die Bruchgleichung mit K5 III belegt).
+  Die weite Fassung „Kombinieren heißt III" (Stand nach 2026-ga-A) hatte die
+  Verkettung allein zum Maß gemacht; sie trifft die amtlich mit III belegten
+  Zeilen ebenso, überschätzt aber Routineverkettungen. Im Katalog tragen die
+  Zeilen von 2026-ea-A und 2025-ga-A die Schätzung der jeweils geltenden
+  Fassung; wo die enge Fassung abweicht, steht sie in bemerkung („Schätzung enge
+  Fassung: II").
 - **Kein Aufgabenstamm im engen Sinn**, aber Text vor a) ist der Normalfall
   („Der Graph der in IR definierten Funktion f mit … wird mit G bezeichnet").
   Jede Zeile wiederholt in gegeben, was sie davon braucht (Kern § 4).

@@ -19,7 +19,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 |---|---|---|
 | 2026-ga-A | 19 (18 + 1 Dublette) | **erfasst 2026-09-13, 33 Zeilen** · 34 Typen neu · Eichung 30 von 33 |
 | 2026-ea-A | 20 | **erfasst 2026-09-13, 37 Zeilen** · 32 Typen neu, 7 wiederverwendet · Eichung 34 von 37 |
-| 2025-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
+| 2025-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 31 Zeilen** · 31 Typen neu, 2 wiederverwendet · Eichung weit 29, eng 30 von 31 |
 | 2025-ea-A | 20 (19 + 1 Dublette) | nicht erfasst |
 | 2024-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
 | 2024-ea-A | 19 | nicht erfasst |
@@ -47,10 +47,15 @@ damit 313 zu erfassende Aufgaben.
 Kennzahlen je Stapel (Zeile „Kennzahlen:" aus iqb-bau.py; Grundlage für die
 Schwellenwerte nach drei Stapeln, iqb.md § 7):
 
-| Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise |
-|---|---|---|---|---|---|---|
-| 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 |
-| 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %) | 0 | 0 |
+| Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise | Wiederverwendung im selben Niveau |
+|---|---|---|---|---|---|---|---|
+| 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 | – |
+| 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %), enge Fassung 36 (97 %) | 0 | 0 | – (erstes Stapel erhöht) |
+| 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) |
+
+„Davon neu" zählt gegen den Gesamtbestand; die letzte Spalte ist die
+Konvergenzmessung innerhalb eines Niveaus (Typen des Stapels, die schon im
+vorigen Stapel desselben Niveaus vorkamen).
 
 ## 3 Zurückgestellt
 
@@ -160,10 +165,50 @@ Verkettungen aus Routineschritten. Gegenbefund zum ersten Stapel; nach dem
 dritten Stapel entscheiden, ob „Kombinieren" auf Verkettungen mit einer
 Deutung oder Fallunterscheidung einzugrenzen ist.
 
+**Stapel 2025-ga-A.** 17 Dateien, eine Dublette (AGLAA222 = AGLAA12), 31
+Zeilen aus 16 Dateien, alle 5 BE bestätigt, kein „?", kein „ersatzweise". Lauf
+aus dem HEAD-Stand byteidentisch, Selbstprüfung über den Bestand (101 Zeilen,
+97 Typen, 3 Stapel) bestanden. Zwei ungegliederte Aufgaben (AGLAA11 als einzige
+Aufgabe der Gruppe 1, Kurzbeschreibung „AG/LA (1)"). Erste Fundstelle des
+Themas Hypergeometrische Verteilung (Stochastik 1.3 b).
+
+**Eichung doppelt gerechnet (Auftrag des Lehrers).** Weite Fassung
+„Kombinieren heißt III": 29 von 31; enge Fassung „III nur bei Verkettung mit
+Deutung oder Fallunterscheidung": 30 von 31. Die weite Fassung überschätzt
+AGLAA11 (Gleichungssystem aus M · v = v aufstellen und lösen) und AGLAA212-b
+(Mittelpunkt, Höhe, Fläche), amtlich je II; die enge unterschätzt nur Analysis
+2.2 a (Ableitung und Bruchgleichung), amtlich III über K5. Rückblick auf
+2026-ea-A: die enge Fassung hätte dort 36 statt 34 von 37 getroffen; 2026-ga-A
+ist in beiden Fassungen 30 von 33. **Entscheidung: die enge Fassung bleibt**
+(iqb.md § 7, v0.3). Die Zeilen tragen die Schätzung der beim Erfassen
+geltenden Fassung, die enge steht bei Abweichung in bemerkung.
+
+**Wiederverwendung innerhalb des Niveaus.** Von 33 in 2025-ga-A verwendeten
+Typen kam genau einer in 2026-ga-A vor (Punktprobe an einer Ebenengleichung),
+ein zweiter in 2026-ea-A (Ereignis zu einem gegebenen Wahrscheinlichkeitsterm
+beschreiben, dreimal verwendet). Konvergenz innerhalb des grundlegenden Niveaus
+nach zwei Jahrgängen: 3 %. Zum Vergleich abi: 2017-bb-ea gegen 2018-bb-ea
+18 %, 2018-be-gk gegen die LK-Hefte 32 % – dort aber Kontextaufgaben mit
+mehr Zeilen je Typ. Die Kurzaufgaben des Teils A sind nach zwei Jahrgängen noch
+nahezu disjunkt; zwei Typennamen aus abi-typen.csv übernommen (Baumdiagramm
+zu einer zweistufigen Situation erstellen, Anzahl der Kugeln aus einer
+Fairnessbedingung bestimmen). Vorschlag für den Abgleich: „Vektor als
+Normalenvektor einer Ebene über Kollinearität nachweisen" mit „Orthogonalität
+von Gerade und Ebene über Normalen- und Richtungsvektor begründen"
+zusammenziehen (dieselbe Prüfung).
+
+**Matrizen auch auf grundlegendem Niveau.** 2025MgrundlegendAAGLAA11 ist eine
+Matrizenaufgabe; der Befund aus 2026-ea-A gilt also nicht nur für erhöht. Im
+Bestand jetzt 7 Zeilen unter Matrizen und Übergangsprozesse. Vorschlag zur
+Kennzeichnung (Auftrag des Lehrers, nicht umgesetzt): kein neues Feld und
+keine Zeilenmarkierung, sondern die Geltung am Thema führen – siehe Bericht
+und iqb.md § 6.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2025-ga-A vollständig erfasst: 31 Zeilen aus 16 Dateien (eine Dublette), Katalog 101 Zeilen, Typenliste 97. Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung doppelt gerechnet (weit 29, eng 30 von 31); Entscheidung für die enge Fassung, iqb.md v0.3 § 7. Wiederverwendung innerhalb des Niveaus als Kennzahl aufgenommen. Befunde in § 4 (Matrizen auch grundlegend, Hypergeometrische Verteilung belegt). |
 | 2026-09-13 | 2026-ea-A vollständig erfasst: 37 Zeilen aus 20 Dateien, Katalog 70 Zeilen, Typenliste 66. Alle 20 Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden, Eichung 34 von 37, Kennzahlen in § 4. Befunde in § 4 (Matrizen auf erhöhtem Niveau, Varianten über die Niveaus, Gegenbefund zur Regel „Kombinieren heißt III"). |
 | 2026-09-13 | Dublettenprüfung abgesichert (alle Paare in drei Abschnitten und Bildobjekten gleich, Regel bleibt; Scan verschärft, 15 statt 13 Paare, Teil A 313 Aufgaben). iqb.md § 7: Fassungsregel, Erfassungshinweis „Kombinieren heißt III", Kennzahlen je Stapel; iqb-bau.py gibt die Kennzahlenzeile aus. |
 | 2026-09-13 | 2026-ga-A vollständig erfasst: 33 Zeilen aus 18 Dateien (eine Dublette ohne Zeile), Katalog 33 Zeilen, Typenliste 34. Alle 18 Punktsummen gegen die BE-Spalte geprüft (je 5), Lauf aus frischer Kopie byteidentisch, Selbstprüfung bestanden, Eichung 30 von 33. iqb.md v0.2: § 4 ungegliederte Aufgaben und titel bei „AG/LA", § 6 Lineare Gleichungssysteme auch unter Analytische Geometrie, § 7 Dubletten, § 8 aus dem Katalog. iqb-quellen.csv um seiten und dublette_von ergänzt (Scan aller 328 Teil-A-Dateien: 13 Dublettenpaare, 16 Dateien mit drei Seiten); iqb-quellen.py angelegt. iqb-bau.py v0.2: Dubletten, ungegliederte Aufgaben, Seitenzahl aus der Quelle. Befunde in § 4. |
