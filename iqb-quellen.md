@@ -1,11 +1,12 @@
 # QUELLEN IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
 
-Version 0.1 · 13.09.2026 · gehört zum Profil iqb
+Version 0.2 · 13.09.2026 · gehört zum Profil iqb
 
 Diese Datei beschreibt die Quelle; die vollständige Dateiliste mit Zerlegung der
-Kennungen, papier-Kürzel und Stapelzuordnung steht in iqb-quellen.csv (624
-Zeilen, erzeugt aus der Übersichtsseite des IQB, nicht von Hand gepflegt).
-iqb-bau.py liest sie.
+Kennungen, papier-Kürzel, Stapelzuordnung, Seitenzahl und Dublettenverweis
+steht in iqb-quellen.csv (624 Zeilen, erzeugt von iqb-quellen.py aus der
+Übersichtsseite des IQB und dem Scan der Teil-A-Dateien, nicht von Hand
+gepflegt). iqb-bau.py liest sie.
 
 ## 1 Amtliche Quelle
 
@@ -48,9 +49,15 @@ Teil A je Stapel (Jahr-Niveau-A), zugleich die Erfassungsreihenfolge:
 | 2017-ga-A | 10 | 2017-ea-A | 11 |
 | bsp-ga-A | 16 | bsp-ea-A | 14 |
 
+Dubletten in Teil A (Scan 13.09.2026): 13 Paare wortgleicher Dateien, alle
+AG/LA, je einmal unter A1 und A2 abgelegt; die zweite Datei zeigt in
+dublette_von auf die erste und wird nicht erfasst. Zu erfassen sind damit 315
+Aufgaben. Seitenzahl: 312 Dateien mit zwei Seiten, 16 mit drei.
+
 Teil B: je Jahr und Niveau eine Datei je Sachgebiet und Rechnerfassung, mit
 Nummer, wenn es mehrere gibt (WTR1, WTR2, MMS1 …). Das Rechnerkürzel heißt
-2017–2021 CAS, ab 2022 MMS.
+2017–2021 CAS, ab 2022 MMS. Seitenzahl und Dubletten sind für Teil B noch
+nicht erhoben (Spalten leer).
 
 ## 3 Kennungsmuster
 
@@ -71,9 +78,11 @@ Seitenzahl prüfen (Teil A zwei Seiten, Teil B vier bis sechs), Text je Seite
 extrahieren, jede Aufgabenseite rendern und ansehen – die Formeln liegen als
 Bilder im PDF und fehlen in der Textextraktion.
 
-Liste erneuern: Übersichtsseiten 1–N holen, alle Treffer auf
-`Abituraufgaben_Mathematik/<Kennung>_Aufgabe.pdf` sammeln, zerlegen, sortieren
+Liste erneuern: `python iqb-quellen.py [Cache-Ordner]` holt die
+Übersichtsseiten, sammelt alle Treffer auf
+`Abituraufgaben_Mathematik/<Kennung>_Aufgabe.pdf`, zerlegt und sortiert sie
 (Jahr absteigend, Beispielaufgaben zuletzt; grundlegend vor erhöht; A vor B;
-Analysis, AG/LA (A1), AG/LA (A2), Stochastik; Gruppe bzw. Hilfsmittel; Nummer)
-und als iqb-quellen.csv schreiben. Neue Jahrgänge werden dann als neue Stapel
-sichtbar; Zeilen dürfen nur hinzukommen, nie verschwinden.
+Analysis, AG/LA (A1), AG/LA (A2), Stochastik; Gruppe bzw. Hilfsmittel; Nummer),
+lädt fehlende Teil-A-Dateien in den Cache, liest Seitenzahl und Dubletten und
+schreibt iqb-quellen.csv. Neue Jahrgänge werden dann als neue Stapel sichtbar;
+Kennungen dürfen nur hinzukommen, nie verschwinden – sonst bricht das Skript ab.

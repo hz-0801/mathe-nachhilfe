@@ -1,0 +1,3 @@
+# Cache der Pool-PDFs von iqb-quellen.py; die Dateien werden bei Bedarf neu geholt
+iqb-pdf/
+__pycache__/

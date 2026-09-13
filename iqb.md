@@ -1,5 +1,9 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.1 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.2 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.1 (nach dem Stapel 2026-ga-A): § 4 ungegliederte Aufgaben
+(teilaufgabe leer, id gleich Kennung) und titel bei Kurzbeschreibung „AG/LA";
+§ 6 Lineare Gleichungssysteme auch unter Analytische Geometrie; § 7 Dubletten;
+§ 8 Beispielzeilen aus dem Katalog; § 2 iqb-quellen.py.
 
 ## 1 Prüfung
 
@@ -42,9 +46,10 @@ zweiter Download je Aufgabe ist nicht nötig, die Datei enthält alles.
 
 Gerüst für Erfassung und Prüfung: iqb-bau.py. Es liest Kopfzeile und
 Formvokabular aus katalog-prompt.md § 5, Sachgebiete und Themen aus diesem
-Profil § 5–6, die Stapelzuordnung aus iqb-quellen.csv, und schreibt die beiden
-CSV-Dateien nur, wenn alle Prüfungen bestehen – einschließlich der
-Schwellenwerte aus § 7.
+Profil § 5–6, die Stapelzuordnung, Seitenzahlen und Dubletten aus
+iqb-quellen.csv, und schreibt die beiden CSV-Dateien nur, wenn alle Prüfungen
+bestehen – einschließlich der Schwellenwerte aus § 7. iqb-quellen.py erzeugt
+iqb-quellen.csv aus der Übersichtsseite des IQB und dem Scan der Teil-A-Dateien.
 
 Amtliche Lösungen liegen für jede Aufgabe vor. Es gilt Kern § 3 d in der Fassung
 „amtliche Lösung vorhanden" wie im Profil fhr: der Erwartungshorizont ist
@@ -98,6 +103,9 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
             Hilfsmittel (WTR | CAS | MMS) und, wenn es mehrere Dateien gibt, die
             Nummer (WTR1, MMS2, WTR). Die Zerlegung ist eindeutig (iqb-quellen.csv).
     id:     Kennung-Teilaufgabe · 2026MgrundlegendAAnalysis11-a
+            Aufgaben ohne Teilaufgabenbuchstaben (in Gruppe 2 häufig: eine
+            Aufgabe, 5 BE) sind nach Kern § 4 eine Zeile; teilaufgabe bleibt
+            leer und die id ist die Kennung allein: 2026MgrundlegendAAGLAA12.
             In Teil B zusätzlich die Aufgabennummer innerhalb der Datei:
             2026MgrundlegendBAnalysisWTR1-2a (vorläufig, wird vor Teil B
             bestätigt). Die Kennung ist der Rückweg ins Original: Kennung plus
@@ -114,12 +122,17 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
             Gruppe.Nummer wie in der Kennung – 1.1, 1.2, 2. Nicht umnummerieren.
             Teil B (vorläufig): Dateinummer.Aufgabennummer, ohne Dateinummer nur
             die Aufgabennummer.
-    titel:  das Sachgebiet der Kurzbeschreibung wörtlich: Analysis · AG/LA (A1) ·
-            AG/LA (A2) · Stochastik. Die Aufgaben haben keine Überschrift; über
-            titel bleibt die Alternative A1/A2 erkennbar, die leitidee nicht trägt.
-    teilaufgabe: ein Kleinbuchstabe.
+    titel:  das Sachgebiet nach der Kennung, in der Schreibweise der
+            Kurzbeschreibung: Analysis · AG/LA (A1) · AG/LA (A2) · Stochastik.
+            Die Aufgaben haben keine Überschrift; über titel bleibt die
+            Alternative A1/A2 erkennbar, die leitidee nicht trägt. Aufgaben, die
+            für beide Alternativen taugen, nennen in der Kurzbeschreibung nur
+            „AG/LA"; titel folgt dann der Kennung (Ablage unter A1 oder A2),
+            der Befund steht in bemerkung.
+    teilaufgabe: ein Kleinbuchstabe; leer bei Aufgaben ohne Gliederung.
     seite:  Seite des Aufgabentexts im PDF (Teil A: 1, selten 1|2), nicht die
-            Seite des Erwartungshorizonts.
+            Seite des Erwartungshorizonts. Die Seitenzahl der Datei steht in
+            iqb-quellen.csv (Teil A meist 2, 16 Dateien haben 3).
     punkte: BE am rechten Rand der Teilaufgabe.
     stern:  leer. Das Niveau steht in papier.
     hilfsmittel: nein in block A, ja in block B.
@@ -183,7 +196,7 @@ Rekonstruktion von Beständen · Uneigentliche Integrale · Rotationsvolumen
 Rechenoperationen · Linearkombination und lineare Abhängigkeit · Geraden · Ebenen ·
 Lagebeziehungen · Schnittmengen · Skalarprodukt und Winkel · Orthogonalität ·
 Abstände · Flächeninhalt und Volumen im Raum · Scharen von Geraden und Ebenen ·
-Spiegelung · Matrizen und Übergangsprozesse
+Spiegelung · Lineare Gleichungssysteme · Matrizen und Übergangsprozesse
 
 **Stochastik:** Ereignisse und Mengenoperationen · Zufallsexperimente und
 Urnenmodelle · Kombinatorik · Baumdiagramm und Pfadregeln · Vierfeldertafel ·
@@ -203,6 +216,13 @@ Erfassen.
 Alternative A1, in Berlin und Brandenburg nicht Prüfungsgegenstand. Die
 Aufgaben werden trotzdem erfasst (der Pool ist Typenquelle, Kern § 6:
 ein Vorkommen ist ein vollwertiger Typ); gefiltert wird über das Thema.
+
+**Lineare Gleichungssysteme** steht in beiden Listen. abi.md § 5 führt sie nach
+den Prüfungsschwerpunkten unter Analysis; der Pool stellt reine LGS-Aufgaben
+unter AG/LA (2026MgrundlegendAAGLAA12). Weil leitidee das Sachgebiet der
+Kurzbeschreibung trägt und nicht umsortiert wird, braucht die Liste Analytische
+Geometrie das Thema ebenfalls. Typen zu LGS werden je Sachgebiet geführt; beim
+Abgleich ist zu prüfen, ob dieselbe Fertigkeit unter beiden steht.
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
@@ -238,6 +258,13 @@ Stand v0.1: keine.
   Unsicheres nachrechnen – und dann erneut laufen lassen. Erst wenn das nicht
   hilft, wird der Schwellenwert im Skript geändert und die Änderung in
   iqb-pruefungen.md § 5 begründet.
+- **Dubletten.** Aufgaben, die für beide AG/LA-Alternativen taugen, liegen im
+  Pool zweimal, wortgleich unter A1 und unter A2 (Teil A: 13 Paare, alle AG/LA,
+  Scan vom 13.09.2026). Die Spalte dublette_von in iqb-quellen.csv nennt für die
+  zweite Datei die erste (Ordnung nach § 7); Dubletten bekommen keine Zeile und
+  kein Soll, iqb-bau.py verlangt sie nicht und weist sie ab. Der Befund steht in
+  bemerkung der ersten Datei. Ein Stapel zählt deshalb nach Dateien ohne
+  Dubletten (2026-ga-A: 19 Dateien, 18 erfasst).
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
   Stapels gegen iqb-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
   verfahren, stichwoerter. Ergebnis als Liste alt → neu in iqb-pruefungen.md § 5.
@@ -269,13 +296,16 @@ Stand v0.1: keine.
 
 ## 8 Beispielzeilen
 
-Die zwei Zeilen der Probeerfassung an 2026MgrundlegendAAnalysis11 (zwei
-Teilaufgaben, 5 BE), zur Lesbarkeit als Feld = Wert; in iqb-katalog.csv stehen
-dieselben Werte als eine Zeile in der Reihenfolge der Kopfzeile.
+Vier Zeilen aus dem Stapel 2026-ga-A, zur Lesbarkeit als Feld = Wert; in
+iqb-katalog.csv stehen dieselben Werte als eine Zeile in der Reihenfolge der
+Kopfzeile. Gewählt sind die beiden Zeilen der Probeaufgabe, eine ungegliederte
+Aufgabe (5 BE, teilaufgabe leer, id gleich Kennung) und eine Stochastik-Zeile
+mit Baumdiagramm. Dieser Abschnitt wird aus dem Katalog erzeugt und weicht
+deshalb nicht von ihm ab.
 
-    id = 2026MgrundlegendAAnalysis11-a · jahr = 2026 · papier = 2026-iqb-ga · block = A · aufgabe = 1.1 · titel = Analysis · teilaufgabe = a · seite = 1
+﻿    id = 2026MgrundlegendAAnalysis11-a · jahr = 2026 · papier = 2026-iqb-ga · block = A · aufgabe = 1.1 · titel = Analysis · teilaufgabe = a · seite = 1
     punkte = 2 · stern =  · hilfsmittel = nein · afb_amtlich = I
-    leitidee = Analysis · thema = Kurvenuntersuchung · typ = Hochpunkt an vorgegebener Stelle nachweisen · typ_neben =  · stichwoerter = ganzrationale Funktion dritten Grades|notwendige Bedingung|hinreichende Bedingung|zweite Ableitung · voraussetzungen = Potenzregel anwenden|Vorzeichen der zweiten Ableitung deuten
+    leitidee = Analysis · thema = Kurvenuntersuchung · typ = Extrempunkt an vorgegebener Stelle nachweisen · typ_neben =  · stichwoerter = ganzrationale Funktion dritten Grades|notwendige Bedingung|hinreichende Bedingung|zweite Ableitung · voraussetzungen = Potenzregel anwenden|Vorzeichen der zweiten Ableitung deuten
     format = Begründung · operator = Weisen Sie nach · antwort = Text
     material = keins · skizze = keine · kontext = ohne · textumfang = kurz
     gegeben = f(x) = x^3 − 3x, definiert in IR; Graph G · gesucht = Nachweis, dass G einen Hochpunkt mit der x-Koordinate −1 hat · verfahren = erste und zweite Ableitung bilden, f'(−1) = 0 und f''(−1) < 0 zeigen · schritte = 3 · zahlenraum = ganz|negativ|Potenz · einheiten =  · abhaengig_von = 
@@ -291,8 +321,26 @@ dieselben Werte als eine Zeile in der Reihenfolge der Kopfzeile.
     ergebnis = 2 · √((−1)^2 + 2^2) = 2√5 (amtlich) · zwischenergebnis = f(−1) = 2|H(−1; 2)|T(1; −2)
     niveau_geschaetzt = II · fehlerquelle = den Tiefpunkt neu über die Ableitung berechnen statt die Symmetrie zu nutzen, oder nur den Abstand von H zum Ursprung angeben · bemerkung = Standardbezug: K2 II, K4 I, K5 II. Amtlich, eigene Rechnung bestätigt: 2√5 ≈ 4,47.
 
-Beide Zeilen stehen so in iqb-katalog.csv; dieser Abschnitt wird aus dem
-Katalog übernommen und weicht nicht von ihm ab.
+    id = 2026MgrundlegendAAGLAA12 · jahr = 2026 · papier = 2026-iqb-ga · block = A · aufgabe = 2 · titel = AG/LA (A1) · teilaufgabe =  · seite = 1
+    punkte = 5 · stern =  · hilfsmittel = nein · afb_amtlich = II|III
+    leitidee = Analytische Geometrie · thema = Lineare Gleichungssysteme · typ = Lösung eines unterbestimmten Gleichungssystems unter Zusatzbedingungen auswählen · typ_neben =  · stichwoerter = LGS mit drei Unbekannten|Gleichungen II und III Vielfache|Lösungsschar mit Parameter|negativ und ganzzahlig|größtes y · voraussetzungen = abhängige Gleichungen erkennen|Lösungsmenge mit Parameter angeben|Bedingungen an den Parameter übersetzen
+    format = Rechnung · operator = Bestimmen Sie · antwort = Zahl
+    material = keins · skizze = keine · kontext = ohne · textumfang = mittel
+    gegeben = lineares Gleichungssystem I: −4x + z = 4, II: 2y − z = 4, III: 4y − 2z = 8; betrachtet werden nur Lösungen (x; y; z), bei denen x, y und z negativ und ganzzahlig sind · gesucht = die Lösung mit dem größten Wert für y · verfahren = II und III sind Vielfache, das System hat unendlich viele Lösungen; mit z = t folgt x = t/4 − 1 und y = t/2 + 2; alle drei negativ heißt t < −4, ganzzahlig heißt t Vielfaches von 4; größtes y bei t = −8 · schritte = 4 · zahlenraum = ganz|negativ|Bruch · einheiten =  · abhaengig_von = 
+    ergebnis = (−3; −2; −8) (amtlich) · zwischenergebnis = allgemeine Lösung (t/4 − 1; t/2 + 2; t) mit t aus IR|Bedingung t < −4 und t Vielfaches von 4
+    niveau_geschaetzt = III · fehlerquelle = das System für eindeutig lösbar halten oder die Ganzzahligkeit von x übersehen und t = −6 nehmen · bemerkung = Standardbezug: K1 III, K2 II, K5 III, K6 II. Amtlich, eigene Rechnung bestätigt. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE. Lineare Gleichungssysteme stehen im Pool unter AG/LA, in der Themenliste deshalb auch unter Analytische Geometrie (iqb.md § 6).
+
+    id = 2026MgrundlegendAStochastik13-b · jahr = 2026 · papier = 2026-iqb-ga · block = A · aufgabe = 1.3 · titel = Stochastik · teilaufgabe = b · seite = 1
+    punkte = 2 · stern =  · hilfsmittel = nein · afb_amtlich = I|II
+    leitidee = Stochastik · thema = Bedingte Wahrscheinlichkeit und Bayes · typ = Bedingte Wahrscheinlichkeit aus dem Baumdiagramm mit einer Schranke vergleichen · typ_neben =  · stichwoerter = bedingte Wahrscheinlichkeit|Bedingung verspätet|0,18/(0,08 + 0,18)|größer als 50 % · voraussetzungen = Bedingung als Nenner aus zwei Pfaden zusammensetzen
+    format = Rechnung · operator = Untersuchen Sie · antwort = Zahl|Text
+    material = Diagramm · skizze = zweistufiges Baumdiagramm: erste Stufe A (40 %) und A quer, zweite Stufe je V und V quer; am Ast A–V steht x, am Ende 8 %; am Ast A quer–V steht 30 %, am Ende y; die übrigen Äste ohne Angabe · kontext = Onlinehandel/Versand · textumfang = mittel
+    gegeben = Baumdiagramm: P(A) = 0,4, P(A und verspätet) = 0,08, P(nicht A und verspätet) = 0,18; eine zufällig ausgewählte Sendung wird verspätet zugestellt · gesucht = Untersuchung, ob die Wahrscheinlichkeit, dass diese Sendung nicht mit A verschickt wurde, größer als 50 % ist · verfahren = P(nicht A | verspätet) = 0,18/(0,08 + 0,18) berechnen und mit 0,5 vergleichen · schritte = 2 · zahlenraum = dezimal|Prozent · einheiten =  · abhaengig_von = 2026MgrundlegendAStochastik13-a
+    ergebnis = 0,18/(0,08 + 0,18) = 0,18/0,26 > 0,5, also ja (amtlich) · zwischenergebnis = 0,18/0,26 ≈ 0,69
+    niveau_geschaetzt = II · fehlerquelle = mit 0,3 (Anteil unter den nicht mit A verschickten) statt mit der bedingten Wahrscheinlichkeit unter der Bedingung verspätet antworten · bemerkung = Standardbezug: K1 I, K3 II, K4 II, K5 II, K6 I. Amtlich, eigene Rechnung bestätigt.
+
+Ein „?" hinter einem Wert bedeutet: plausibel, aber nicht am Bild geprüft; der
+Grund steht dann in bemerkung. In diesem Stapel kommt es nicht vor.
 
 ## 9 Offene Punkte
 
