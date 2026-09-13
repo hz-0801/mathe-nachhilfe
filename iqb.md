@@ -1,5 +1,9 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.4 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.5 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.4 (nach 2024-ga-A): § 7 Deutungsliste (a)–(d) neu
+gefasst – „faires Spiel" und „Aussage beurteilen" gestrichen, „allgemeiner
+Nachweis mit Parameter" und „Term in Sachaussage übersetzen" aufgenommen; § 6
+Anmerkung zur Aufgabengruppe A1 (überwiegend Matrizen, außerhalb der Geltung).
 Änderungen gegenüber 0.3: § 6 Geltungstabelle Thema × (be-gk, be-lk, bb-gk,
 bb-ea) aus den Prüfungsschwerpunkten 2027; § 7 Schranke für neue Typen
 deaktiviert, Eichschranke 85 % nach der engen Fassung.
@@ -308,7 +312,11 @@ Dichte, Zeit–Uhrzeit, die in der Themenliste keine eigenen Themen haben.
 Kettenregel im Berliner GK nur mit linearer innerer Funktion, in Brandenburg
 auch quadratisch. Sinus- und Kosinusfunktionen: Ableitung nur bb-gk, bb-ea und
 be-lk; be-gk nur die Sek-I-Form. Matrizen sind in keinem der vier Papiere
-Prüfungsgegenstand (das Wort fällt nur bei der MMS-Zulassung).
+Prüfungsgegenstand (das Wort fällt nur bei der MMS-Zulassung). Die
+Aufgabengruppe AG/LA (A1) des Pools ist überwiegend Matrizen (Verflechtung,
+Übergangsprozesse, Matrizenalgebra, daneben lineare Gleichungssysteme und
+ebene Vektorrechnung) und liegt für alle vier Zielprüfungen außerhalb der
+Geltung.
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
@@ -379,16 +387,33 @@ Stand v0.1: keine.
   enge Fassung; Entscheidung nach dem Stapel 2025-ga-A, 13.09.2026). Der
   amtliche Standardbezug setzt III, wo eine Teilaufgabe mehrere Regeln oder
   Verfahren verkettet **und** dabei eine Deutung oder Fallunterscheidung
-  verlangt: eine Bedingung aus dem Sachverhalt oder der Geometrie erst in eine
+  verlangt. Deutungsliste (Stand nach 2024-ga-A, geändert am 13.09.2026):
+  (a) eine Bedingung aus dem Sachverhalt oder der Geometrie erst in eine
   Gleichung übersetzen (Flächenhalbierung als Integral gleich null, Abstand zum
-  Spiegelbild als doppelter Abstand zur Ebene, faires Spiel als Erwartungswert
-  gleich Einsatz), eine Aussage beurteilen, eine Symmetrie oder einen
-  Sonderfall erkennen und ausnutzen. Reine Verkettungen von Standardschritten
-  bleiben II: Ableitung bilden und eine Bruchgleichung lösen, Schnittstelle und
-  Steigungen und Winkelbedingung, μ und σ berechnen und im Diagramm ablesen,
-  Mittelpunkt und Höhe und Fläche. I bleibt die einzelne Beobachtung oder
-  Rechnung, auch wenn sie begründet wird (Graph der Funktion vom
-  Ableitungsgraphen unterscheiden: geschätzt II, amtlich I).
+  Spiegelbild als doppelter Abstand zur Ebene, mittlere Änderungsrate als
+  Steigung der Sekante, Diagonalenschnittpunkt als Spurpunkt); (b) eine
+  Symmetrie oder einen Sonderfall erkennen und ausnutzen; (c) einen
+  allgemeinen Nachweis mit Parameter führen, bei dem eine Beziehung
+  hergeleitet wird (Tangente an der Stelle u schneidet bei −f(u); g'(a) = 0
+  zieht f'(a) = −f(a) nach sich; zwei Scharebenen mit a ≠ b sind nie
+  parallel) – nicht das bloße Nachrechnen einer Identität mit mitgeführtem
+  Parameter (Skalarprodukt mit t gleich null, f_a'(0) = 1, f_a(−x) = −f_a(x),
+  amtlich I bis II); (d)
+  einen Term oder eine Ungleichung in eine Sachaussage übersetzen, wenn dazu
+  zwei Deutungen verkettet werden (Gleichung als totale Wahrscheinlichkeit
+  und Binomialsumme als kumulierte Wahrscheinlichkeit). Gestrichen nach
+  2024-ga-A: „faires Spiel als Erwartungswert gleich Einsatz" (in drei
+  Fällen zweimal amtlich II) und „eine Aussage beurteilen" (feuert auch bei
+  einem einfachen Vergleich; eine Beurteilung ist nur III, wenn (a) bis (d)
+  greifen). Offen: „Lösungsmenge mit freien Parametern beschreiben" (AGLAA12 b
+  2024 amtlich III, AGLAA11 2025-ga amtlich II). Wörtlich vorgegebene
+  Übersetzungen (doppelt so viel, viermal so groß) sind keine Deutung. Reine
+  Verkettungen von Standardschritten bleiben II: Ableitung bilden und eine
+  Bruchgleichung lösen, Schnittstelle und Steigungen und Winkelbedingung, μ
+  und σ berechnen und im Diagramm ablesen, Mittelpunkt und Höhe und Fläche,
+  Erwartungswert berechnen und mit dem Einsatz vergleichen. I bleibt die
+  einzelne Beobachtung oder Rechnung, auch wenn sie begründet wird (Graph der
+  Funktion vom Ableitungsgraphen unterscheiden: geschätzt II, amtlich I).
   Messung, die zur engen Fassung geführt hat (Treffer der Schätzung gegen den
   höchsten amtlichen Bereich): 2026-ga-A 30 von 33 in beiden Fassungen;
   2026-ea-A weit 34, eng 36 von 37 (Analysis 1.1 b und Stochastik 1.1 b sind
@@ -401,7 +426,11 @@ Stand v0.1: keine.
   von 30; je Abweichung der gefeuerte Eintrag in iqb-pruefungen.md § 4
   („faires Spiel" und „Aussage beurteilen" feuern dort über dem
   Standardbezug, „allgemeiner Nachweis mit Parameter" und „Term in
-  Sachaussage übersetzen" fehlen der Liste – Vorschlag, nicht umgesetzt).
+  Sachaussage übersetzen" fehlen der Liste – daraufhin die Liste (a)–(d)
+  oben, v0.5). Rückwirkend mit der Liste v0.5: 2026-ga-A 29, 2026-ea-A 35,
+  2025-ga-A 29, 2025-ea-A 31, 2024-ga-A 28 – zusammen 152 von 165 wie zuvor,
+  Einzelheiten in iqb-pruefungen.md § 4. Erster Stapel mit der Liste v0.5:
+  2024-ea-A 32 von 32.
   Die weite Fassung „Kombinieren heißt III" (Stand nach 2026-ga-A) hatte die
   Verkettung allein zum Maß gemacht; sie trifft die amtlich mit III belegten
   Zeilen ebenso, überschätzt aber Routineverkettungen. Im Katalog tragen die

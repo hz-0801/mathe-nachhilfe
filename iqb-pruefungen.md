@@ -22,7 +22,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2025-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 31 Zeilen** · 31 Typen neu, 2 wiederverwendet · Eichung weit 29, eng 30 von 31 |
 | 2025-ea-A | 20 (19 + 1 Dublette) | **erfasst 2026-09-13, 34 Zeilen** · 31 Typen neu, 4 wiederverwendet · Eichung eng 30 von 34 |
 | 2024-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 30 Zeilen** · 27 Typen neu, 4 wiederverwendet · Eichung eng 26 von 30 |
-| 2024-ea-A | 19 | nicht erfasst |
+| 2024-ea-A | 19 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 32 von 32 (Deutungsliste v0.5) |
 | 2023-ga-A | 14 (13 + 1 Dublette) | nicht erfasst |
 | 2023-ea-A | 18 | nicht erfasst |
 | 2022-ga-A | 14 | nicht erfasst |
@@ -54,6 +54,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) | 2, 2, 1, 1 |
 | 2025-ea-A | 34 | 35 | 31 (89 %) | eng 30 von 34 (88 %) | 0 | 0 | 2 von 35 aus 2026-ea-A (6 %) | 8, 2, 8, 2 |
 | 2024-ga-A | 30 | 31 | 27 (87 %) | eng 26 von 30 (87 %) | 0 | 1 | 2 von 31 aus 2026-ga-A und 2025-ga-A (6 %) | 4, 4, 4, 4 |
+| 2024-ea-A | 32 | 32 | 28 (88 %) | 32 von 32 (100 %), Liste v0.5 | 0 | 0 | 1 von 32 aus 2026-ea-A (3 %) | 13, 3, 13, 3 |
 
 „Davon neu" zählt gegen den Gesamtbestand; die letzte Spalte ist die
 Konvergenzmessung innerhalb eines Niveaus (Typen des Stapels, die schon im
@@ -396,10 +397,138 @@ die LK-Themen. Vorschlag bleibt wie in der Typenschnittmessung: Blattbau für
 Teil A auf `thema` (oder auf diesem Schnitt), Typ als Feinetikett; gröberer
 Schnitt erst beim Abgleichlauf.
 
+**Deutungsliste geändert (Auftrag des Lehrers, vor 2024-ea-A; iqb.md v0.5
+§ 7).** Gestrichen: „faires Spiel als Erwartungswert gleich Einsatz" und
+„eine Aussage beurteilen". Aufgenommen: (c) „allgemeiner Nachweis mit
+Parameter" – Etikettenentscheidung dazu: nur, wenn eine Beziehung hergeleitet
+wird (Tangente bei −f(u), f'(a) = −f(a), Nichtparallelität für a ≠ b), nicht
+beim Nachrechnen einer Identität mit mitgeführtem Parameter (Skalarprodukt mit t,
+f_a'(0) = 1, f_a(−x) = −f_a(x); amtlich I bis II) – und (d) „Term oder
+Ungleichung in Sachaussage übersetzen" bei zwei verketteten Deutungen. Offen
+bleibt „Lösungsmenge mit freien Parametern".
+
+Rückwirkende Eichung mit der geänderten Liste (Schätzung je Zeile nach der
+neuen Liste nachvollzogen, die Katalogzeilen selbst bleiben unverändert – die
+Schätzung wird nicht nachträglich angepasst, iqb.md § 7):
+
+| Stapel | enge Fassung (Stand v0.4) | Liste v0.5 | Änderungen |
+|---|---|---|---|
+| 2026-ga-A | 30 von 33 | 29 von 33 | Analysis 2.2 b (Aussage über Extrempunkte einer Stammfunktion) III → II, amtlich III: Verlust |
+| 2026-ea-A | 36 von 37 | 35 von 37 | Analysis 2.3 (Nullstellen einer Integralfunktion beurteilen) III → II, amtlich III: Verlust; AGLAA122 b und AGLAA221 b bleiben III über (a) bzw. (b) |
+| 2025-ga-A | 30 von 31 | 29 von 31 | Stochastik 2.2 b (Kugelzahl aus Fairness) III → II, amtlich III: Verlust; AGLAA12 b bleibt III (Fallunterscheidung) |
+| 2025-ea-A | 30 von 34 | 31 von 34 | Stochastik 1.1 b (Auszahlung aus Fairness) III → II, amtlich II: Gewinn; Analysis 1.1 a/b bleiben II (Identität mit Parameter), AGLAA221 b bleibt III über (c) |
+| 2024-ga-A | 26 von 30 | 28 von 30 | Analysis 1.3 b (Verschiebung beurteilen) und Stochastik 1.2 b (Erwartungswert gegen Einsatz) III → II, beide amtlich II: Gewinn |
+| Summe | 152 von 165 (92 %) | 152 von 165 (92 %) | drei Verluste (Beurteilungen mit eigener Deutung, Fairness amtlich III), drei Gewinne |
+
+Lesart: Die Streichung von „Aussage beurteilen" kostet die zwei Beurteilungen,
+deren Deutung keinem Eintrag (a)–(d) zuzuordnen ist (Stammfunktion ↔ f,
+Integralfunktion als Flächenbilanz); die Streichung von „faires Spiel"
+gewinnt zwei, verliert eine. Netto null über fünf Stapel, aber die Liste
+schneidet jetzt an benennbaren Stellen. Kandidat für einen weiteren Eintrag:
+„Beziehung zwischen Funktion und Stammfunktion oder Integralfunktion am
+Graphen deuten" (beide Verluste, beide amtlich III).
+
+**Stapel 2024-ea-A.** 19 Dateien, keine Dublette, 32 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung über den Bestand (197 Zeilen, 183 Typen, 6 Stapel) bestanden.
+Sechs ungegliederte Aufgaben (Analysis 2.2, 2.3, AGLAA121, AGLAA222,
+Stochastik 2.1, 2.2); drei Dateien mit drei Seiten (AGLAA11, AGLAA211,
+Stochastik 2.3), dort steht Teilaufgabe b auf Seite 2, ebenso Analysis 1.1 b.
+Erste Fundstelle des Themas Normalverteilung und Sigma-Regeln (Stochastik
+1.2). Analysis 2.1 ist die Schar-Fassung von 2024-ga-A Analysis 2.1 mit
+derselben Abbildung (beide Typen wiederverwendet). AG/LA (A1): Verflechtung
+zweistufig, Permutationsmatrix, Mischungsaufgabe als LGS.
+
+**Eichung 2024-ea-A: 32 von 32 mit der Liste v0.5.** Erster Stapel ohne
+Abweichung. Gefeuert: (a) bei Analysis 2.2, 2.3, AGLAA121, AGLAA122 b,
+AGLAA221 b, AGLAA222, Stochastik 2.2, 2.3 b; (b) bei Stochastik 2.1 (A und B
+mit gleichem Schwarzanteil); (c) bei Analysis 2.1 b und 2.2; Fallunterscheidung
+bei AGLAA223 b. Nicht gefeuert, obwohl der alte Wortlaut es täte: Analysis 1.1 a
+(Integral am Graphen beurteilen, amtlich II), Analysis 1.3 b (Abbildung
+zuordnen, amtlich II), Stochastik 1.2 b (Erläutern einer vorgegebenen
+Rechnung mit Symmetrie, amtlich II) – alle drei treffen jetzt. Der Stapel
+bestätigt die Streichung von „Aussage beurteilen"; ein Gegenbeleg zur
+Streichung von „faires Spiel" kam nicht vor.
+
+**Typen 2024-ea-A.** 32 verwendet, 28 neu, 4 wiederverwendet: Tangentengleichung
+aus der Abbildung ablesen und y-Achsenabschnitt der Tangente allgemein
+nachweisen (beide 2024-ga-A), Punkt auf einer Lotgeraden mit vorgegebenem
+Abstand (2026-ea-A), Trefferwahrscheinlichkeit aus dem ganzzahligen
+Erwartungswert (2026-ga-A). Konvergenz im erhöhten Niveau nach drei
+Jahrgängen: 3 % (1 von 32).
+
+**Geltung 2024-ea-A.** Außerhalb der Geltung be-gk 13, be-lk 3, bb-gk 13,
+bb-ea 3: Matrizen (AGLAA11 a, b; AGLAA121) überall; Funktionsscharen (Analysis
+1.2, 1.3), Ebenen- und Geradenscharen (AGLAA212, 223) und Normalverteilung
+(Stochastik 1.2) nur für die Grundkurse. Bestand jetzt be-gk 34, be-lk 17,
+bb-gk 33, bb-ea 16 von 197 Zeilen. Zur Aufgabengruppe A1: iqb.md § 6.
+
+**Zwischenstufe Thema × Gegenstandsklasse × Handlung durchgerechnet
+(Auftrag des Lehrers, Bestand 197 Zeilen, nicht umgesetzt).**
+Gegenstandsklasse aus dem Typnamen über eine geordnete Stichwortliste (31
+Klassen, erster Treffer zählt; zwei Zeilen ohne Treffer), Handlungsklasse aus
+`format` wie beim groben Schnitt. Ergebnis: **114 Werte statt 177 Haupttypen
+und 83 Werten des groben Schnitts; 1,73 Zeilen je Wert** (grob 2,37, typ
+1,11); grundlegend 1,45 auf 65 Werte, erhöht 1,32 auf 78; Verteilung 69 × 1,
+25 × 2, 11 × 3, 4 × 4, 2 × 5, 2 × 6, 1 × 7. Wiederverwendung im Niveau je
+Stapel (typ / grob / Zwischenstufe): 2025-ga-A 3 / 39 / 16 %, 2025-ea-A
+6 / 32 / 18 %, 2024-ga-A 7 / 67 / 47 %, 2024-ea-A 3 / 50 / 38 %.
+
+Prüfstein Matrizen: der grobe Schnitt hatte „Matrizen · berechnen" mit acht
+Zeilen aus drei Gegenständen; die Zwischenstufe trennt Matrizenalgebra ·
+berechnen (6: Matrix-Vektor-Gleichungen, inverse Matrix, Vertauschbarkeit,
+Fixvektoren), Verflechtung · berechnen (3: Matrixeintrag, Rohstoffbedarf,
+Verflechtungsmatrix), Übergangsprozess · berechnen (1) und dazu
+Matrizenalgebra · angeben (2) und · begründen (2), Verflechtung · zeichnen
+(1), Übergangsprozess · begründen (1). Ebenso trennt sie Flächeninhalt im
+Raum · berechnen (8) in Integral/Fläche (5: Flächengleichheit, Dreieck,
+Trapez, Quadrat) und Körper (3: Pyramide, Prisma, Würfel-Teilkörper), und
+Funktionsklassen · begründen (5) in Symmetrie (2), Nullstelle (1),
+Transformation (1), Extrempunkte (1). Wo das Thema selbst schon der Gegenstand
+ist (Kenngrößen, Binomialverteilung, Scharen, Tangente), fällt die Zwischenstufe
+mit dem groben Schnitt zusammen. Die zwanzig größten Gruppen:
+
+| Schnittwert | Zeilen | Zeilen darunter (heutige Typen) |
+|---|---|---|
+| Kenngrößen von Verteilungen · Kenngrößen · berechnen | 7 | p aus ganzzahligem E (2×), n und p aus E und σ, Sigma-Intervall, unbekannte Werte aus E (2×), Würfelbeschriftung |
+| Baumdiagramm und Pfadregeln · Baumdiagramm/Pfade · berechnen | 6 | fehlende Astwahrscheinlichkeiten, Vergleich zweier Geräte, ungerade Summe, lauter Treffer, Pfad aus Sachtext, Anteil aus Befragung |
+| Matrizen und Übergangsprozesse · Matrizenalgebra · berechnen | 6 | Vektorparameter, inverse Matrix, Matrixparameter (2×), Vertauschbarkeit, Fixvektoren |
+| Flächeninhalt und Volumen im Raum · Integral/Fläche · berechnen | 5 | Flächengleichheit (2×), gleichschenkliges Dreieck, Dreieck/Trapez, Quadrat aus Spurpunkt |
+| Zufallsexperimente und Urnenmodelle · Ereignis/Laplace · angeben | 5 | Ereignis zu Term (4×), Laplace erster Zug |
+| Binomialverteilung · Binomialverteilung · angeben | 4 | Werte aus Säulendiagramm, Bernoulli-Term (2×), Sachaussage zu Binomialsumme |
+| Funktionsscharen und Ortskurven · Schar · berechnen | 4 | Scharparameter für waagerechte Tangente, Steigung im Ursprung, Punktsymmetrie der Schar, Fläche in Abhängigkeit von a |
+| Kenngrößen von Verteilungen · Kenngrößen · begründen | 4 | Parität von n, Verhältnis der p, Erwartungswert gegen Einsatz, gleiche σ |
+| Lineare Gleichungssysteme · Gleichungssystem · begründen | 4 | Lösung einsetzen, Lösbarkeit mit Parameter, Fallunterscheidung, Lösungsmenge mit Nichtnegativität |
+| Flächeninhalt durch Integration · Integral/Fläche · berechnen | 3 | Graph und Achsen, Flächenhalbierung, zwei Flächenstücke |
+| Flächeninhalt und Volumen im Raum · Körper · berechnen | 3 | Pyramidenhöhe, Prisma über Raute, Würfel-Teilkörper |
+| Funktionsklassen und Eigenschaften · Transformation · angeben | 3 | Abbildung zwischen Graphen (2×), Wertemenge |
+| Matrizen und Übergangsprozesse · Verflechtung · berechnen | 3 | Matrixeintrag aus Mengenbedingungen, Rohstoffbedarf, Verflechtungsmatrix |
+| Orthogonalität · Winkel/Orthogonalität · begründen | 3 | rechter Winkel (3×, davon 2× mit Parameter) |
+| Orthogonalität · Winkel/Orthogonalität · berechnen | 3 | Punkt aus Orthogonalität und Ebene, zwei Geraden, Parameter für rechten Winkel |
+| Punkte und Strecken im Koordinatensystem · Körper · angeben | 3 | Prisma-Eckpunkt (3×) |
+| Scharen von Geraden und Ebenen · Schar · begründen | 3 | Identität der Schar, Nichtparallelität, Parallelität |
+| Tangente, Normale, Schnittwinkel · Tangente/Normale · angeben | 3 | Tangentenbedingung deuten, Tangentengleichung ablesen (2×) |
+| Tangente, Normale, Schnittwinkel · Tangente/Normale · begründen | 3 | fehlende waagerechte Tangente, Achsenabschnitt allgemein (2×) |
+| Tangente, Normale, Schnittwinkel · Tangente/Normale · zeichnen | 3 | parallele Tangente skizzieren, Tangente einzeichnen, Rechteck aus Normale |
+
+**Vorschlag (nicht umgesetzt): die Zwischenstufe als Schnitt für Teil A.**
+Sie trennt die Fälle, die der grobe Schnitt zusammenwirft – Matrizen ist
+dreigeteilt, Flächeninhalt im Raum und Funktionsklassen zweigeteilt – und
+bündelt trotzdem, was als Kette taugt (Kenngrößen · berechnen, Pfade ·
+berechnen, Ereignis zu Term). Der Preis: 1,73 statt 2,37 Zeilen je Wert und 69
+Einzelstücke, die Konvergenz im Niveau fällt von 67 auf 47 % (grundlegend)
+bzw. 50 auf 38 % (erhöht). Umsetzung, wenn gewünscht: kein neues Feld –
+die Gegenstandsklasse ist beim Abgleichlauf als erstes Wort des Typnamens
+zu führen („Verflechtung: Rohstoffbedarf berechnen"), die Stichwortliste aus
+dem Messskript wird dabei zur Klassenliste je Thema; Themen, die selbst
+schon Gegenstand sind, bekommen keine Unterklasse. Der Typ nach Kern § 6
+bleibt als Feinetikett darunter erhalten.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2024-ea-A vollständig erfasst: 32 Zeilen aus 19 Dateien, Katalog 197 Zeilen, Typenliste 183. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 32 von 32 mit der geänderten Deutungsliste (iqb.md v0.5 § 7: „faires Spiel" und „Aussage beurteilen" gestrichen, „allgemeiner Nachweis mit Parameter" und „Term in Sachaussage übersetzen" aufgenommen); rückwirkende Eichung der fünf früheren Stapel in § 4 (152 von 165 in beiden Fassungen, drei Verluste, drei Gewinne). iqb.md § 6: Aufgabengruppe A1 überwiegend Matrizen, außerhalb der Geltung. Zwischenstufe Thema × Gegenstandsklasse × Handlung über 197 Zeilen in § 4 (114 Werte, 1,73 je Wert, trennt den Prüfstein Matrizen; als Schnitt für Teil A vorgeschlagen, nicht umgesetzt). |
 | 2026-09-13 | 2024-ga-A vollständig erfasst: 30 Zeilen aus 16 Dateien (eine Dublette), Katalog 165 Zeilen, Typenliste 155. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung eng 26 von 30 (87 %), je Abweichung der gefeuerte Eintrag der Deutungsliste in § 4 (Vorschlag: „faires Spiel" und „Aussage beurteilen" einschränken, „allgemeiner Nachweis" und „Term in Sachaussage" ergänzen – nicht umgesetzt). Zwischenschnitt Thema × Handlungsklasse über 165 Zeilen in § 4 (75 Werte, 2,20 je Wert, Wiederverwendung im Niveau 67 % gegen 7 % nach typ; nicht umgesetzt). |
 | 2026-09-13 | 2025-ea-A vollständig erfasst: 34 Zeilen aus 19 Dateien (eine Dublette), Katalog 135 Zeilen, Typenliste 128. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung eng 30 von 34 (88 %), Schranke 85 % gehalten; Wiederverwendung im Niveau 2 von 35; außerhalb der Geltung be-gk 8, be-lk 2, bb-gk 8, bb-ea 2. Befunde in § 4 (Messwerte zur engen Fassung, Scharen auf erhöhtem Niveau, Vorschläge für den Abgleich). |
 | 2026-09-13 | Vorarbeiten vor 2025-ea-A: Typenschnitt gemessen (§ 4, Vorschlag nicht umgesetzt); Schranke für neue Typen deaktiviert, Eichschranke 85 % nach der engen Fassung scharf; Geltungstabelle aus den vier Prüfungsschwerpunkten 2027 in iqb.md § 6 (v0.4), iqb-bau.py v0.3 zählt Zeilen außerhalb der Geltung je Zielprüfung und die Wiederverwendung im Niveau als Kennzahlen; abi-vorgaben.md ergänzt. |
