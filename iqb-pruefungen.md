@@ -776,10 +776,72 @@ zweier Wahrscheinlichkeiten …".
 Normalverteilung (Stochastik 1.3 a, b). Bestand jetzt be-gk 62, be-lk 35,
 bb-gk 61, bb-ea 34 von 309 Zeilen.
 
+**Abgleichlauf 2 (nach 2022-ea-A, über den Gesamtbestand von 309 Zeilen;
+iqb-abgleich.py v0.2, Aufruf `python iqb-abgleich.py 2`).** Vier
+Zusammenziehungen nach Kern § 6 (gleiche Fertigkeit, gleiches Etikett), keine
+neuen Präfixe: **268 → 264 Typen, 1,15 → 1,17 Zeilen je Typ**, neun
+Typfelder im Katalog geändert. Die erste beispiel_id bleibt, die Definition
+deckt beide Fassungen:
+
+| alt | alt | neu |
+|---|---|---|
+| Ergebnisse zur Schnittmenge zweier Ereignisse angeben (2026-ga-A) | Ergebnisse zum Gegenereignis zweier Ereignisse aufzählen (2026-ga-A) | Ergebnisse zu einer Mengenoperation zweier Ereignisse angeben |
+| Matrizenalgebra: Alle Fixvektoren einer Matrix ermitteln (2025-ea-A, 2022-ea-A) | Matrizenalgebra: Alle Vektoren mit M · v = t · v für festes t bestimmen (2022-ea-A) | (zweiter Name bleibt; t = 1 sind die Fixvektoren) |
+| Laplace-Experiment: Gleichheit zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen (2026-ea-A, 2022-ea-A) | Laplace-Experiment: Verhältnis zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen (2022-ea-A) | Laplace-Experiment: Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen |
+| Symmetrie: Punktsymmetrie am Term über ungerade Exponenten begründen (2026-ga-A) | Symmetrie: Achsensymmetrie am Term über gerade Exponenten begründen (2022-ea-A) | Symmetrie: Symmetrieart am Term über die Exponenten begründen |
+
+Getrennt gelassen: „Nichtidentität zweier Geraden über die Richtungsvektoren
+begründen" gegen „… paralleler Geraden über den Verbindungsvektor" (anderer
+Lösungsweg); „Matrizenalgebra: Alle Vektoren mit M · v = t · v durch
+Fallunterscheidung bestimmen" (t frei) gegen den zusammengezogenen Typ (t
+fest); „Übergangsprozess: Zeile der Übergangsmatrix aus dem Diagramm angeben"
+gegen „… Übergangsmatrix aus dem Diagramm unter zwei Darstellungen auswählen
+und ergänzen" (andere Handlung); „Laplace-Experiment: Wahrscheinlichkeit
+durch Abzählen günstiger Ergebnisse berechnen" gegen „… Laplace-Wahrschein-
+lichkeit für den ersten Zug angeben" (ein Zug gegen zusammengesetztes
+Experiment); die beiden Glücksrad-Typen (Wahrscheinlichkeitsbedingung gegen
+Maximierung). iqb-abgleich.py führt die Läufe jetzt getrennt (LAEUFE, Lauf 1
+bleibt dokumentiert); Selbstprüfung nach dem Abgleich: 309 Zeilen, 264
+Typen, alle verwendet, 10 Stapel vollständig; Abgleich aus dem HEAD-Stand
+byteidentisch.
+
+**Jahrgangsvergleich Pool 2022 (Corona-Jahrgang) gegen 2023–2026, aus dem
+Bestand (309 Zeilen; Pool 2021 ist noch nicht erfasst, der Vergleich wird nach
+2021-ga-A und 2021-ea-A wiederholt).** Nach Jahr und Niveau:
+
+| Pool | Niveau | Zeilen | Zeilen je Datei | BE 1 / 2 / 3 / 4 / 5 | ungegliedert (5 BE) | amtlich höchstens I / II / III | Anteil III | Eichung | neue Typen |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026 | ga | 33 | 1,83 | 3 / 12 / 13 / 1 / 4 | 12 % | 12 / 14 / 7 | 21 % | 30 von 33 (91 %) | 100 % (erster Stapel) |
+| 2026 | ea | 37 | 1,85 | 10 / 7 / 7 / 10 / 3 | 8 % | 10 / 15 / 12 | 32 % | 34 von 37 (92 %) | 82 % |
+| 2025 | ga | 31 | 1,94 | 5 / 10 / 10 / 5 / 1 | 3 % | 8 / 16 / 7 | 23 % | 29 von 31 (94 %) | 94 % |
+| 2025 | ea | 34 | 1,79 | 4 / 11 / 11 / 4 / 4 | 12 % | 6 / 16 / 12 | 35 % | 30 von 34 (88 %) | 89 % |
+| 2024 | ga | 30 | 1,88 | 4 / 10 / 11 / 2 / 3 | 10 % | 7 / 16 / 7 | 23 % | 26 von 30 (87 %) | 87 % |
+| 2024 | ea | 32 | 1,68 | 5 / 8 / 8 / 5 / 6 | 19 % | 6 / 15 / 11 | 34 % | 32 von 32 (100 %) | 88 % |
+| 2023 | ga | 24 | 1,85 | 5 / 6 / 6 / 5 / 2 | 8 % | 8 / 11 / 5 | 21 % | 23 von 24 (96 %) | 83 % |
+| 2023 | ea | 32 | 1,88 | 4 / 12 / 10 / 3 / 3 | 9 % | 4 / 21 / 7 | 22 % | 29 von 32 (91 %) | 81 % |
+| 2022 | ga | 24 | 1,71 | 2 / 9 / 7 / 1 / 5 | 21 % | 7 / 13 / 4 | 17 % | 23 von 24 (96 %) | 92 % |
+| 2022 | ea | 32 | 1,88 | 4 / 12 / 10 / 3 / 3 | 9 % | 7 / 18 / 7 | 22 % | 30 von 32 (94 %) | 88 % |
+
+Befund: Der Pool 2022 fällt nicht heraus. Eichquote 95 % (53 von 56) gegen
+91–94 % der übrigen Jahrgänge – innerhalb der Streuung, eher am oberen Rand.
+Anteil neuer Typen 92 % und 88 % – wie 2025 und 2024, höher als 2023 (83 %,
+81 %), aber der Anteil hängt vor allem davon ab, wie viele Stapel desselben
+Niveaus schon erfasst sind, nicht vom Jahrgang. BE-Verteilung: 2022-ga hat
+mit 21 % den höchsten Anteil ungegliederter 5-BE-Aufgaben aller Stapel und
+mit 1,71 Zeilen je Datei den niedrigsten Wert im grundlegenden Niveau; das
+ist die einzige Auffälligkeit, und sie betrifft die Aufgabenform, nicht die
+Anforderung. Der Anteil amtlich-III-Zeilen liegt 2022 mit 20 % (2023: 21 %)
+unter 2024–2026 (27–29 %); die Stufe liegt aber zwischen 2023 und 2024, nicht
+zwischen 2022 und 2023 – kein Corona-Muster, eher eine Änderung des
+Standardbezugs ab Pool 2024 (mehr K1/K2 III bei Teil-A-Aufgaben). Die
+Themen sind 2022 unauffällig (Matrizen, Scharen, Normalverteilung wie in
+den Nachbarjahren). Ob 2021 anders aussieht, zeigt der nächste Lauf.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | Abgleichlauf 2 über den Gesamtbestand (309 Zeilen): 268 → 264 Typen, vier Zusammenziehungen (Liste alt → neu in § 4), neun Typfelder im Katalog geändert; iqb-abgleich.py v0.2 führt die Läufe getrennt (python iqb-abgleich.py [N]). Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. Jahrgangsvergleich Pool 2022 gegen 2023–2026 in § 4 (kein Corona-Muster; 2021 folgt). |
 | 2026-09-13 | 2022-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien, Katalog 309 Zeilen, Typenliste 268. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 30 von 32 mit der Liste v0.6. Befund 2022-ga-A: Zählfehler bei den ungegliederten Aufgaben berichtigt (fünf). |
 | 2026-09-13 | 2022-ga-A vollständig erfasst: 24 Zeilen aus 14 Dateien, Katalog 277 Zeilen, Typenliste 240. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6. |
 | 2026-09-13 | 2023-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien (eine Dublette), Katalog 253 Zeilen, Typenliste 218. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 29 von 32 mit der Liste v0.6. Dubletten-Scan iqb-quellen.py v0.2 (nur Buchstaben und Ziffern): 16 Paare, Teil A 312 Aufgaben; iqb-quellen.csv neu erzeugt, iqb-quellen.md und iqb.md nachgeführt. |

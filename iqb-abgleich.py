@@ -1,25 +1,30 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.1 · 13.09.2026 · gilt mit iqb.md v0.6 und iqb-bau.py v0.4
+Version 0.2 · 13.09.2026 · gilt mit iqb.md v0.6 und iqb-bau.py v0.4
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
-Typfeldern von iqb-katalog.csv. Die Regeln stehen in UMBENENNUNG (alt → neu;
-mehrere alte Namen auf denselben neuen Namen heißt zusammenziehen, die erste
-Zeile der Typenliste bleibt mit ihrer beispiel_id), NEUE_DEFINITION und
-NEUES_THEMA (nur für zusammengezogene oder umgewidmete Typen). Schreibt beide
-Dateien im Format von iqb-bau.py und gibt die Liste alt → neu für
-iqb-pruefungen.md § 5 aus. Danach iqb-bau.py mit leerem ZEILEN laufen lassen.
+Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
+(alt → Gegenstandsklasse), ZUSAMMEN (alt → neu; mehrere alte Namen auf
+denselben neuen Namen heißt zusammenziehen, die erste Zeile der Typenliste
+bleibt mit ihrer beispiel_id), NEUE_DEFINITION und NEUES_THEMA (nur für
+zusammengezogene oder umgewidmete Typen). Aufruf `python iqb-abgleich.py [N]`
+führt Lauf N aus (ohne Angabe den jüngsten); jeder Lauf setzt den Stand nach
+dem vorigen voraus und wird genau einmal gefahren. Schreibt beide Dateien im
+Format von iqb-bau.py und gibt die Liste alt → neu für iqb-pruefungen.md § 5
+aus. Danach iqb-bau.py mit leerem ZEILEN laufen lassen.
 
 Lauf 1 (13.09.2026, Entscheidung 24): Gegenstandsklasse als Präfix nach
-iqb.md § 6, neun Zusammenziehungen.
+iqb.md § 6, neun Zusammenziehungen (183 → 174 Typen).
+Lauf 2 (13.09.2026, nach 2022-ea-A): vier Zusammenziehungen (268 → 264).
 """
 import csv, io, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 KAT, TYP = "iqb-katalog.csv", "iqb-typen.csv"
 
+# ======================================================================= Lauf 1
 # ---- Präfixe (Gegenstandsklasse: Feinetikett) für Themen mit Klassen, iqb.md § 6
-PRAEFIX = {
+PRAEFIX_1 = {
     # Funktionsklassen und Eigenschaften
     "Flächeninhalt eines Dreiecks aus Extrempunkten der Sinusfunktion berechnen": "Extrempunkte",
     "Abstand von Extrempunkten einer gestreckten Sinusfunktion vergleichen": "Extrempunkte",
@@ -92,7 +97,7 @@ PRAEFIX = {
 }
 
 # ---- Zusammenziehungen und Umwidmungen (alt → neu, neu kann schon existieren)
-ZUSAMMEN = {
+ZUSAMMEN_1 = {
     "Graph der Funktion vom Graphen der Ableitung unterscheiden":
         "Graphen von Funktion und Ableitung einander zuordnen",
     "Graph einer Stammfunktion unter vorgegebenen Graphen begründet auswählen":
@@ -131,7 +136,7 @@ ZUSAMMEN = {
         "Stammfunktion mit einer Wertebedingung bestimmen",
 }
 
-NEUE_DEFINITION = {
+NEUE_DEFINITION_1 = {
     "Graphen von Funktion und Ableitung einander zuordnen":
         "Unter abgebildeten Graphen den einer Funktion, ihrer Ableitung oder einer Stammfunktion "
         "erkennen, indem Nullstellen, Extremstellen und Wendestellen einander zugeordnet werden.",
@@ -162,7 +167,7 @@ NEUE_DEFINITION = {
         "oder einem vorgegebenen Punkt des Graphen bestimmen.",
 }
 
-NEUES_THEMA = {
+NEUES_THEMA_1 = {
     "Geraden und Ebenen: Orthogonalität zu einer Ebene über Kollinearität mit dem Normalenvektor begründen":
         ("Analytische Geometrie", "Orthogonalität"),
     "Unbekannte Größe aus einer Erwartungswertbedingung bestimmen":
@@ -170,6 +175,49 @@ NEUES_THEMA = {
     "Punkt mit vorgegebenem Abstand zur Ebene auf der Lotgeraden bestimmen":
         ("Analytische Geometrie", "Abstände"),
 }
+
+# ======================================================================= Lauf 2
+# Vier Zusammenziehungen nach Kern § 6 (gleiche Fertigkeit, gleiches Etikett); keine Präfixe.
+ZUSAMMEN_2 = {
+    "Ergebnisse zur Schnittmenge zweier Ereignisse angeben":
+        "Ergebnisse zu einer Mengenoperation zweier Ereignisse angeben",
+    "Ergebnisse zum Gegenereignis zweier Ereignisse aufzählen":
+        "Ergebnisse zu einer Mengenoperation zweier Ereignisse angeben",
+    "Matrizenalgebra: Alle Fixvektoren einer Matrix ermitteln":
+        "Matrizenalgebra: Alle Vektoren mit M · v = t · v für festes t bestimmen",
+    "Matrizenalgebra: Alle Vektoren mit M · v = t · v für festes t bestimmen":
+        "Matrizenalgebra: Alle Vektoren mit M · v = t · v für festes t bestimmen",
+    "Laplace-Experiment: Gleichheit zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen":
+        "Laplace-Experiment: Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen",
+    "Laplace-Experiment: Verhältnis zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen":
+        "Laplace-Experiment: Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen",
+    "Symmetrie: Punktsymmetrie am Term über ungerade Exponenten begründen":
+        "Symmetrie: Symmetrieart am Term über die Exponenten begründen",
+    "Symmetrie: Achsensymmetrie am Term über gerade Exponenten begründen":
+        "Symmetrie: Symmetrieart am Term über die Exponenten begründen",
+}
+
+NEUE_DEFINITION_2 = {
+    "Ergebnisse zu einer Mengenoperation zweier Ereignisse angeben":
+        "Die Ergebnisse angeben, die zu Schnitt, Vereinigung oder Gegenereignis zweier beschriebener "
+        "Ereignisse eines Zufallsexperiments gehören.",
+    "Matrizenalgebra: Alle Vektoren mit M · v = t · v für festes t bestimmen":
+        "Die Lösungen von M · v = t · v für einen vorgegebenen Wert t (t = 1: Fixvektoren) als Vielfache "
+        "eines Vektors angeben, oder einen einzelnen solchen Vektor ungleich null bestimmen.",
+    "Laplace-Experiment: Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen":
+        "Gleichheit oder Verhältnis der Wahrscheinlichkeiten zweier Ereignisse über die Anzahl ihrer "
+        "gleich wahrscheinlichen Ergebnisse begründen.",
+    "Symmetrie: Symmetrieart am Term über die Exponenten begründen":
+        "Achsensymmetrie zur y-Achse oder Punktsymmetrie zum Ursprung damit begründen, dass der Term "
+        "nur gerade bzw. nur ungerade Exponenten enthält.",
+}
+
+LAEUFE = {
+    1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
+    2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
+}
+LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
+PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
 
 
 def neu_name(alt):
@@ -234,12 +282,16 @@ def main():
     schreibe(KAT, kopf_k, kat)
 
     # Bericht
+    print(f"Abgleichlauf {LAUF}")
     print(f"Typen vorher {vorher}, nachher {len(neue_typen)}; {geaendert} Typfelder im Katalog geändert; "
           f"{len(kat)} Zeilen, {len(kat)/len(neue_typen):.2f} Zeilen je Typ.")
     ziel = collections.defaultdict(list)
     for alt, neu in abbildung.items():
         if alt != neu:
             ziel[neu].append(alt)
+    for neu in ziel:  # bestehender Name als Ziel einer Zusammenziehung
+        if neu in namen and neu in ZUSAMMEN.values():
+            ziel[neu].append(neu)
     print("\nZusammengezogen:")
     for neu, alte in ziel.items():
         if len(alte) > 1:
