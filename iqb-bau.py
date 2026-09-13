@@ -35,20 +35,31 @@ import csv, io, os, re, sys
 # ===================================================================== KONFIG
 KONFIG = {
     # Stapel nach Spalte stapel in iqb-quellen.csv: Jahr-Niveau-Teil
-    "stapel": "2026-ga-A",
+    "stapel": "2026-ea-A",
     # Sollpunkte je Datei aus der BE-Summe am Ende von Abschnitt 1 Aufgabe.
     # Dubletten (Spalte dublette_von in iqb-quellen.csv) bekommen keine Zeile
     # und kein Soll.
     "soll": {
-        "2026MgrundlegendAAnalysis11": 5, "2026MgrundlegendAAnalysis12": 5,
-        "2026MgrundlegendAAnalysis13": 5, "2026MgrundlegendAAnalysis14": 5,
-        "2026MgrundlegendAAnalysis21": 5, "2026MgrundlegendAAnalysis22": 5,
-        "2026MgrundlegendAAGLAA111": 5, "2026MgrundlegendAAGLAA112": 5,
-        "2026MgrundlegendAAGLAA12": 5, "2026MgrundlegendAAGLAA211": 5,
-        "2026MgrundlegendAAGLAA213": 5, "2026MgrundlegendAAGLAA221": 5,
-        "2026MgrundlegendAAGLAA222": 5, "2026MgrundlegendAStochastik11": 5,
-        "2026MgrundlegendAStochastik12": 5, "2026MgrundlegendAStochastik13": 5,
-        "2026MgrundlegendAStochastik21": 5, "2026MgrundlegendAStochastik22": 5,
+        "2026MerhoehtAAnalysis11": 5,
+        "2026MerhoehtAAnalysis12": 5,
+        "2026MerhoehtAAnalysis13": 5,
+        "2026MerhoehtAAnalysis14": 5,
+        "2026MerhoehtAAnalysis21": 5,
+        "2026MerhoehtAAnalysis22": 5,
+        "2026MerhoehtAAnalysis23": 5,
+        "2026MerhoehtAAGLAA11": 5,
+        "2026MerhoehtAAGLAA121": 5,
+        "2026MerhoehtAAGLAA122": 5,
+        "2026MerhoehtAAGLAA211": 5,
+        "2026MerhoehtAAGLAA212": 5,
+        "2026MerhoehtAAGLAA221": 5,
+        "2026MerhoehtAAGLAA222": 5,
+        "2026MerhoehtAAGLAA223": 5,
+        "2026MerhoehtAStochastik11": 5,
+        "2026MerhoehtAStochastik12": 5,
+        "2026MerhoehtAStochastik21": 5,
+        "2026MerhoehtAStochastik22": 5,
+        "2026MerhoehtAStochastik23": 5,
     },
     # True: Probelauf – prüfen und berichten, nichts schreiben, Stapel darf
     # unvollständig sein. False: Stapel muss vollständig sein, dann schreiben.
@@ -202,368 +213,380 @@ def row(kennung, teilaufgabe="", **kw):
 # ============================================================ ZEILEN JE STAPEL
 # Ein Eintrag je Teilaufgabe. Nicht genannte Felder bleiben leer.
 
-row("2026MgrundlegendAAnalysis11", "a", seite="1", punkte="2", afb_amtlich="I",
-    leitidee="Analysis", thema="Kurvenuntersuchung",
-    typ="Extrempunkt an vorgegebener Stelle nachweisen", typ_neben="",
-    stichwoerter="ganzrationale Funktion dritten Grades|notwendige Bedingung|hinreichende Bedingung|zweite Ableitung",
-    voraussetzungen="Potenzregel anwenden|Vorzeichen der zweiten Ableitung deuten",
-    format="Begründung", operator="Weisen Sie nach", antwort="Text",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="f(x) = x^3 − 3x, definiert in IR; Graph G",
-    gesucht="Nachweis, dass G einen Hochpunkt mit der x-Koordinate −1 hat",
-    verfahren="erste und zweite Ableitung bilden, f'(−1) = 0 und f''(−1) < 0 zeigen",
-    schritte="3", zahlenraum="ganz|negativ|Potenz", einheiten="", abhaengig_von="",
-    ergebnis="f'(x) = 3x^2 − 3, f''(x) = 6x; f'(−1) = 0 und f''(−1) = −6 < 0, also Hochpunkt bei x = −1 (amtlich)",
-    zwischenergebnis="f'(x) = 3x^2 − 3|f''(x) = 6x",
-    niveau_geschaetzt="I",
-    fehlerquelle="nur f'(−1) = 0 zeigen und die hinreichende Bedingung weglassen",
-    bemerkung="Standardbezug: K1 I, K2 I, K5 I. Amtlich, eigene Rechnung bestätigt.")
-
-row("2026MgrundlegendAAnalysis11", "b", seite="1", punkte="3", afb_amtlich="I|II",
-    leitidee="Analysis", thema="Kurvenuntersuchung",
-    typ="Abstand zweier Extrempunkte über die Punktsymmetrie berechnen", typ_neben="",
-    stichwoerter="Punktsymmetrie zum Ursprung|Hochpunkt|Tiefpunkt|Abstand zweier Punkte",
-    voraussetzungen="Funktionswert berechnen|Abstand zweier Punkte mit dem Satz des Pythagoras|Punktsymmetrie nutzen",
-    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="f(x) = x^3 − 3x, definiert in IR; Graph G; G ist symmetrisch zum Koordinatenursprung; G hat einen Hochpunkt mit der x-Koordinate −1",
-    gesucht="Abstand zwischen Hoch- und Tiefpunkt von G",
-    verfahren="f(−1) = 2 berechnen, Hochpunkt H(−1; 2); wegen der Punktsymmetrie ist der Tiefpunkt T(1; −2); Abstand als Länge der Strecke HT, gleich dem Doppelten des Abstands von H zum Ursprung",
-    schritte="3", zahlenraum="ganz|negativ|Wurzel", einheiten="",
-    abhaengig_von="2026MgrundlegendAAnalysis11-a",
-    ergebnis="2 · √((−1)^2 + 2^2) = 2√5 (amtlich)",
-    zwischenergebnis="f(−1) = 2|H(−1; 2)|T(1; −2)",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Tiefpunkt neu über die Ableitung berechnen statt die Symmetrie zu nutzen, oder nur den Abstand von H zum Ursprung angeben",
-    bemerkung="Standardbezug: K2 II, K4 I, K5 II. Amtlich, eigene Rechnung bestätigt: 2√5 ≈ 4,47.")
-
-# ---- Analysis 1.2: Sinus, Dreieck aus Extrempunkten
-SIN_SKIZZE = ("Koordinatensystem mit x-Achse von 0 bis 3π (Marken π/2, π, 3π/2, 2π, 5π/2, 3π) und "
-              "y-Achse; gestrichelt der Graph von f(x) = sin x; durchgezogen das Dreieck ABC mit "
-              "A(π/2; 1) und C(5π/2; 1) oben und B(3π/2; −1) unten, also drei aufeinanderfolgende "
-              "Extrempunkte; die Seiten AB und BC schneiden die x-Achse bei π und 2π")
-row("2026MgrundlegendAAnalysis12", "a", seite="1", punkte="2", afb_amtlich="I",
+# ---- Analysis 1.1: Exponentialfunktionen, senkrechter Schnitt
+row("2026MerhoehtAAnalysis11", "a", seite="1", punkte="1", afb_amtlich="I|II",
     leitidee="Analysis", thema="Funktionsklassen und Eigenschaften",
-    typ="Flächeninhalt eines Dreiecks aus Extrempunkten der Sinusfunktion berechnen", typ_neben="",
-    stichwoerter="Sinusfunktion|Extrempunkte|Dreieck|Grundseite 2π|Höhe 2",
-    voraussetzungen="Extrempunkte von sin x kennen|Dreiecksfläche aus Grundseite und Höhe",
-    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Koordinatensystem", skizze=SIN_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="f(x) = sin x, definiert in IR; Dreieck ABC, dessen Eckpunkte drei direkt aufeinanderfolgende Extrempunkte des Graphen sind: A(π/2; 1), B(3π/2; −1), C(5π/2; 1) (aus der Abbildung)",
-    gesucht="Flächeninhalt des Dreiecks ABC",
-    verfahren="Grundseite AC mit Länge 2π und Höhe 2 (Abstand von B zur Geraden AC) ablesen, Fläche als halbes Produkt",
+    typ="Abbildung zwischen zwei Graphen angeben", typ_neben="",
+    stichwoerter="e-Funktion|Spiegelung an der y-Achse|f(x) = g(−x)|Parameter k",
+    voraussetzungen="Vorzeichenwechsel im Exponenten als Spiegelung deuten",
+    format="Kurzantwort", operator="Geben Sie an", antwort="Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="k > 0; f(x) = 2e^(k · x) und g(x) = 2e^(−k · x), beide in IR definiert",
+    gesucht="wie der Graph von f aus dem Graphen von g erzeugt werden kann",
+    verfahren="f(x) = g(−x) erkennen, also Spiegelung an der y-Achse",
+    schritte="1", zahlenraum="ganz|Potenz", einheiten="", abhaengig_von="",
+    ergebnis="durch Spiegelung an der y-Achse (amtlich)",
+    zwischenergebnis="",
+    niveau_geschaetzt="I",
+    fehlerquelle="Spiegelung an der x-Achse angeben, weil nur das Vorzeichen wechselt",
+    bemerkung="Standardbezug: K2 II, K4 II, K6 I. Amtlich.")
+
+row("2026MerhoehtAAnalysis11", "b", seite="1", punkte="4", afb_amtlich="I|II",
+    leitidee="Analysis", thema="Tangente, Normale, Schnittwinkel",
+    typ="Parameter aus dem senkrechten Schnitt zweier Graphen bestimmen", typ_neben="",
+    stichwoerter="Schnittstelle x = 0|Ableitung der e-Funktion|Steigungen ±2k|senkrecht heißt Produkt der Steigungen −1|k = 1/2",
+    voraussetzungen="Schnittstelle über Gleichsetzen bestimmen|Kettenregel bei e^(k · x)|Orthogonalitätsbedingung für Steigungen oder Steigungswinkel 45°",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="k > 0; f(x) = 2e^(k · x) und g(x) = 2e^(−k · x), beide in IR definiert; die Graphen von f und g schneiden sich senkrecht",
+    gesucht="Wert von k",
+    verfahren="Schnittstelle aus 2e^(k · x) = 2e^(−k · x), also x = 0; f'(x) = 2k · e^(k · x), f'(0) = 2k und g'(0) = −2k; senkrechter Schnitt bei symmetrischen Steigungen heißt f'(0) = tan 45° = 1, also 2k = 1",
+    schritte="3", zahlenraum="ganz|Bruch|Potenz", einheiten="", abhaengig_von="2026MerhoehtAAnalysis11-a",
+    ergebnis="k = 1/2 (amtlich)",
+    zwischenergebnis="Schnittstelle x = 0|f'(x) = 2k · e^(k · x)|f'(0) = 2k, g'(0) = −2k|über f'(0) · g'(0) = −1: 4k^2 = 1",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Bedingung f'(0) · g'(0) = −1 mit der Symmetrie verwechseln und 2k = −(−2k) setzen",
+    bemerkung="Standardbezug: K2 II, K5 I. Amtlich, eigene Rechnung bestätigt (über das Produkt der Steigungen). Schätzung III nach der Regel „Kombinieren heißt III“ (Schnittstelle, Ableitung, Winkelbedingung), amtlich bis II.")
+
+# ---- Analysis 1.2: lineare Funktion, Integral null, Stammfunktionen
+LIN_SKIZZE = ("Koordinatensystem mit x-Achse von −1 bis 5 und y-Achse von −4 bis 5, Gitter; die "
+              "Gerade g(x) = −2x + 4 fallend durch (0; 4) und (2; 0), bei x = 4 bei −4")
+row("2026MerhoehtAAnalysis12", "a", seite="1", punkte="2", afb_amtlich="I",
+    leitidee="Analysis", thema="Flächeninhalt durch Integration",
+    typ="Integral mit Wert null am Graphen veranschaulichen", typ_neben="",
+    stichwoerter="Integral von 0 bis k gleich null|inhaltsgleiche Flächen über und unter der x-Achse|k = 4|Dreiecke",
+    voraussetzungen="Integral als orientierten Flächeninhalt deuten",
+    format="Zeichnen", operator="Veranschaulichen Sie", antwort="Grafik",
+    material="Koordinatensystem", skizze=LIN_SKIZZE, kontext="ohne", textumfang="mittel",
+    gegeben="g(x) = −2x + 4, Graph in der Abbildung; k > 0 ist Lösung der Gleichung Integral von 0 bis k über g(x) dx = 0",
+    gesucht="Veranschaulichung der geometrischen Bedeutung der Gleichung in der Abbildung",
+    verfahren="k = 4 erkennen; das Dreieck zwischen Graph und x-Achse von 0 bis 2 (über der Achse) und das Dreieck von 2 bis 4 (unter der Achse) markieren und als inhaltsgleich kennzeichnen",
     schritte="2", zahlenraum="ganz", einheiten="", abhaengig_von="",
-    ergebnis="A = 1/2 · 2π · (1 − (−1)) = 2π (amtlich)",
-    zwischenergebnis="Grundseite 2π|Höhe 2",
+    ergebnis="zwei markierte Dreiecksflächen A1 (0 bis 2, über der x-Achse) und A2 (2 bis 4, unter der x-Achse) mit dem Vermerk, dass sie inhaltsgleich sind (amtlich)",
+    zwischenergebnis="k = 4",
     niveau_geschaetzt="I",
-    fehlerquelle="die Höhe mit 1 statt 2 ansetzen, weil der Tiefpunkt bei −1 liegt",
-    bemerkung="Standardbezug: K2 I, K4 I, K5 I. Amtlich, eigene Rechnung bestätigt.")
+    fehlerquelle="nur die Nullstelle 2 markieren und k = 2 annehmen",
+    bemerkung="Standardbezug: K1 I, K4 I, K5 I. Amtlich; der Erwartungshorizont zeigt die Abbildung mit den grau markierten Flächen A1 und A2. Das Feld skizze beschreibt das Material, die Lösung ist eine Zeichnung.")
 
-row("2026MgrundlegendAAnalysis12", "b", seite="1", punkte="3", afb_amtlich="II",
-    leitidee="Analysis", thema="Funktionsklassen und Eigenschaften",
-    typ="Abstand von Extrempunkten einer gestreckten Sinusfunktion vergleichen", typ_neben="",
-    stichwoerter="Streckung in x-Richtung|Streckung in y-Richtung|Faktor 3 und 2|Abstand der Extrempunkte",
-    voraussetzungen="Wirkung der Parameter a und b in a · sin(b · x) kennen|Streckenlänge aus Koordinatendifferenzen",
-    format="Begründung", operator="Untersuchen Sie", antwort="Text",
-    material="Koordinatensystem", skizze=SIN_SKIZZE, kontext="ohne", textumfang="mittel",
-    gegeben="f(x) = sin x mit den Extrempunkten A(π/2; 1) und B(3π/2; −1); g(x) = 2 · sin(1/3 · x), definiert in IR; betrachtet wird die Strecke zwischen zwei direkt aufeinanderfolgenden Extrempunkten des Graphen von g",
-    gesucht="Untersuchung, ob diese Strecke kürzer als die Strecke AB ist",
-    verfahren="den Graphen von g als Streckung des Graphen von f in x-Richtung mit Faktor 3 und in y-Richtung mit Faktor 2 erkennen; beide Faktoren größer als 1, also wächst die waagerechte und die senkrechte Differenz der Extrempunkte, die Strecke ist länger",
-    schritte="2", zahlenraum="ganz|Bruch", einheiten="", abhaengig_von="2026MgrundlegendAAnalysis12-a",
-    ergebnis="nein, die Strecke ist nicht kürzer als AB, weil der Graph von g durch Streckung in x- und in y-Richtung mit Faktoren größer als 1 aus dem Graphen von f entsteht (amtlich)",
-    zwischenergebnis="rechnerisch: |AB| = √(π^2 + 4) ≈ 3,72; bei g Extrempunkte (3π/2; 2) und (9π/2; −2) mit Abstand √(9π^2 + 16) ≈ 10,24",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Faktor 1/3 als Stauchung in x-Richtung deuten",
-    bemerkung="Standardbezug: K1 II, K4 II, K6 II. Amtlich; das amtliche Ergebnis argumentiert ohne Rechnung, eigene Rechnung bestätigt.")
-
-# ---- Analysis 1.3: Integral und Flächeninhalt
-KUB_SKIZZE = ("Koordinatensystem mit x-Achse von −2 bis 2 und y-Achse von −3 bis 4, Gitter; Graph "
-              "von f(x) = x^3 + x^2 − 2x: von links unten steil steigend durch die Nullstelle −2, "
-              "Hochpunkt bei etwa (−1,2; 2,1), fallend durch den Ursprung, Tiefpunkt bei etwa "
-              "(0,55; −0,6), Nullstelle 1, dann steil steigend")
-row("2026MgrundlegendAAnalysis13", "a", seite="1", punkte="3", afb_amtlich="I",
+row("2026MerhoehtAAnalysis12", "b", seite="1", punkte="3", afb_amtlich="I|II",
     leitidee="Analysis", thema="Stammfunktion und Hauptsatz",
-    typ="Bestimmtes Integral einer ganzrationalen Funktion berechnen", typ_neben="",
-    stichwoerter="Stammfunktion|Hauptsatz|Integral von −1 bis 0|Bruchrechnung",
-    voraussetzungen="Potenzregel der Integration|Brüche addieren",
+    typ="Stammfunktionen mit einer Wertebedingung bestimmen", typ_neben="",
+    stichwoerter="Schar der Stammfunktionen|Integrationskonstante c|Maximum der Stammfunktion|ausschließlich negative Werte|c < −4",
+    voraussetzungen="Stammfunktion einer linearen Funktion|Scheitel einer nach unten geöffneten Parabel bestimmen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Term",
+    material="Koordinatensystem", skizze=LIN_SKIZZE, kontext="ohne", textumfang="kurz",
+    gegeben="g(x) = −2x + 4, definiert in IR",
+    gesucht="alle Stammfunktionen von g, die ausschließlich negative Funktionswerte haben",
+    verfahren="alle Stammfunktionen G_c(x) = −x^2 + 4x + c aufstellen; größter Funktionswert im Scheitel bei x = 2: G_c(2) = 4 + c; Bedingung 4 + c < 0",
+    schritte="3", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="G_c(x) = −x^2 + 4x + c mit c < −4 (amtlich)",
+    zwischenergebnis="G_c(2) = 4 + c",
+    niveau_geschaetzt="II",
+    fehlerquelle="c < 0 fordern, ohne den Scheitelwert 4 zu berücksichtigen",
+    bemerkung="Standardbezug: K1 II, K2 II, K5 II, K6 I. Amtlich, eigene Rechnung bestätigt. Datei mit drei Seiten.")
+
+# ---- Analysis 1.3: Logarithmusfunktionen
+LN_SKIZZE = ("Koordinatensystem mit x-Achse von −2 bis 5 und y-Achse von −5 bis 1, Gitter; Graph "
+             "von g beschriftet: von unten an der senkrechten Asymptote x = −2 steil steigend, "
+             "durch (−1; −1), Nullstelle bei etwa 0,7, dann flach steigend bis etwa (5; 0,95)")
+row("2026MerhoehtAAnalysis13", "a", seite="1", punkte="2", afb_amtlich="I",
+    leitidee="Analysis", thema="Gleichungen lösen",
+    typ="Nullstelle einer Logarithmusfunktion berechnen", typ_neben="",
+    stichwoerter="ln(x + 5) + 1 = 0|Umkehrung mit e|x = e^(−1) − 5|exakter Wert",
+    voraussetzungen="Logarithmusgleichung durch Anwenden der e-Funktion lösen",
     format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Koordinatensystem", skizze=KUB_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="f(x) = x^3 + x^2 − 2x, definiert in IR; Nullstellen −2, 0 und 1; Graph in der Abbildung",
-    gesucht="Wert des Integrals von −1 bis 0 über f(x) dx",
-    verfahren="Stammfunktion F(x) = 1/4 x^4 + 1/3 x^3 − x^2 bilden und F(0) − F(−1) berechnen",
-    schritte="2", zahlenraum="ganz|negativ|Bruch|Potenz", einheiten="", abhaengig_von="",
-    ergebnis="13/12 (amtlich)",
-    zwischenergebnis="F(x) = 1/4 x^4 + 1/3 x^3 − x^2|F(−1) = 1/4 − 1/3 − 1 = −13/12",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="f(x) = ln(x + 5) + 1 mit größtmöglicher Definitionsmenge",
+    gesucht="Nullstelle von f",
+    verfahren="ln(x + 5) = −1 setzen, e-Funktion anwenden, x + 5 = e^(−1), nach x auflösen",
+    schritte="2", zahlenraum="negativ|Potenz", einheiten="", abhaengig_von="",
+    ergebnis="x = e^(−1) − 5 (amtlich)",
+    zwischenergebnis="x + 5 = e^(−1)|x ≈ −4,63",
     niveau_geschaetzt="I",
-    fehlerquelle="beim Einsetzen von −1 die Vorzeichen der ungeraden Potenz verfehlen",
+    fehlerquelle="ln(x + 5) = −1 zu x + 5 = −e umformen",
     bemerkung="Standardbezug: K5 I. Amtlich, eigene Rechnung bestätigt.")
 
-row("2026MgrundlegendAAnalysis13", "b", seite="1", punkte="2", afb_amtlich="II",
-    leitidee="Analysis", thema="Flächeninhalt durch Integration",
-    typ="Summe zweier Integrale als Flächeninhalt beurteilen", typ_neben="",
-    stichwoerter="Fläche zwischen Graph und x-Achse|zwei Flächenstücke|negatives Integral|Vorzeichen",
-    voraussetzungen="Integral unterhalb der x-Achse als negativ erkennen",
-    format="Begründung", operator="Beurteilen Sie", antwort="Text",
-    material="Koordinatensystem", skizze=KUB_SKIZZE, kontext="ohne", textumfang="mittel",
-    gegeben="f(x) = x^3 + x^2 − 2x, definiert in IR; Nullstellen −2, 0 und 1; der Graph und die x-Achse schließen eine Fläche aus zwei Flächenstücken ein (über der Achse zwischen −2 und 0, unter der Achse zwischen 0 und 1); Term: Integral von −2 bis 0 über f plus Integral von 0 bis 1 über f",
-    gesucht="Beurteilung, ob der Wert des Terms dem Inhalt dieser Fläche entspricht",
-    verfahren="das zweite Integral ist negativ, weil der Graph zwischen 0 und 1 unter der x-Achse liegt; die Summe ist deshalb kleiner als der Flächeninhalt",
-    schritte="1", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
-    ergebnis="nein; das Integral von 0 bis 1 ist negativ und entspricht nicht dem Inhalt des Flächenstücks unter der x-Achse, das Integral von −2 bis 0 entspricht dem Flächenstück über der Achse, die Summe ist also nicht der Flächeninhalt (amtlich)",
-    zwischenergebnis="rechnerisch: Integral von −2 bis 0 gleich 8/3, von 0 bis 1 gleich −5/12",
+row("2026MerhoehtAAnalysis13", "b", seite="1", punkte="3", afb_amtlich="I|II",
+    leitidee="Analysis", thema="Rekonstruktion von Funktionsgleichungen",
+    typ="Parameter einer Logarithmusfunktion aus Asymptote und Punkt ermitteln", typ_neben="",
+    stichwoerter="Definitionsbereich ]a; ∞[|senkrechte Asymptote x = −2|Punkt (−1; −1)|ln 1 = 0|a = −2, b = −1",
+    voraussetzungen="Definitionsbereich von ln(x − a) kennen|Asymptote am Graphen ablesen|Punkt einsetzen",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="Koordinatensystem", skizze=LN_SKIZZE, kontext="ohne", textumfang="kurz",
+    gegeben="g(x) = ln(x − a) + b mit ganzzahligen a und b und größtmöglicher Definitionsmenge; der Graph verläuft durch (−1; −1); Abbildung mit dem Graphen von g, senkrechte Asymptote bei x = −2",
+    gesucht="a und b",
+    verfahren="Definitionsbereich ]a; ∞[ mit der Asymptote im Bild vergleichen: a = −2; dann (−1; −1) einsetzen: ln 1 + b = −1",
+    schritte="2", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="a = −2 und b = −1 (amtlich)",
+    zwischenergebnis="ln(−1 + 2) = 0",
     niveau_geschaetzt="II",
-    fehlerquelle="jedes Integral als Flächeninhalt lesen und die Summe für richtig halten",
-    bemerkung="Standardbezug: K1 II, K4 II, K6 II. Amtlich, eigene Rechnung bestätigt.")
+    fehlerquelle="a = 2 setzen, weil der Term x − a lautet",
+    bemerkung="Standardbezug: K1 II, K2 II, K4 II, K5 I, K6 I. Amtlich, eigene Rechnung bestätigt.")
 
-# ---- Analysis 1.4: Funktion und Ableitung im Bild
-ABL_SKIZZE = ("Koordinatensystem mit x-Achse von −3 bis 3 und y-Achse von −2 bis 2, Gitter; Graph I "
-              "durchgezogen: von links unten flach steigend, Hochpunkt (0; 2), fallend zum Tiefpunkt "
-              "(2; 0) mit Berührung der x-Achse, dann steil steigend; Graph II gestrichelt: von links "
-              "nahe null, kleines Maximum bei etwa (−2; 0,3), Nullstelle 0, Tiefpunkt bei etwa "
-              "(1; −1,6), Nullstelle 2, dann steil steigend")
-row("2026MgrundlegendAAnalysis14", "a", seite="1", punkte="2", afb_amtlich="I",
-    leitidee="Analysis", thema="Ableitungsgraph und Funktionsgraph",
-    typ="Graph der Funktion vom Graphen der Ableitung unterscheiden", typ_neben="",
-    stichwoerter="Graph und Ableitungsgraph|negative Steigung|Vorzeichen der Ableitung|Zuordnung begründen",
-    voraussetzungen="Steigung des Graphen mit dem Vorzeichen der Ableitung verknüpfen",
-    format="Begründung", operator="Begründen Sie", antwort="Text",
-    material="Koordinatensystem", skizze=ABL_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Abbildung mit zwei Graphen I und II: der Graph einer in IR definierten Funktion f und der Graph ihrer Ableitungsfunktion f'; Graph I hat einen Hochpunkt bei (0; 2) und berührt die x-Achse bei 2, Graph II hat Nullstellen bei 0 und 2 und einen Tiefpunkt bei etwa (1; −1,6)",
-    gesucht="Begründung, dass Graph I der Graph von f ist",
-    verfahren="einen Bereich nennen, in dem Graph I fällt und Graph II negativ ist (0 bis 2), oder umgekehrt in dem Graph II fällt, Graph I aber nicht negativ ist; die Zuordnung Graph II = f' passt zu Graph I",
-    schritte="1", zahlenraum="ganz", einheiten="", abhaengig_von="",
-    ergebnis="es gibt einen Bereich, in dem Graph II negative Steigung hat, Graph I dort aber keine Punkte unterhalb der x-Achse besitzt, also kann Graph I nicht die Ableitung von Graph II sein (amtlich)",
-    zwischenergebnis="",
-    niveau_geschaetzt="II",
-    fehlerquelle="nur behaupten, dass Graph II die Ableitung ist, ohne einen Bereich mit passendem Vorzeichen zu nennen",
-    bemerkung="Standardbezug: K1 I, K4 I. Amtlich. Die amtliche Begründung geht vom Widerspruch aus: Graph I kann nicht Ableitung von Graph II sein.")
-
-row("2026MgrundlegendAAnalysis14", "b", seite="1", punkte="3", afb_amtlich="I|II",
-    leitidee="Analysis", thema="Flächeninhalt durch Integration",
-    typ="Integral einer Differenzfunktion grafisch abschätzen", typ_neben="",
-    stichwoerter="Integral der Differenz|Fläche zwischen zwei Graphen|Vergleichsrechteck 4 mal 3|Eintragen in die Abbildung",
-    voraussetzungen="Integral einer Differenz als Fläche zwischen den Graphen deuten|Rechteckfläche berechnen",
-    format="Zeichnen", operator="Veranschaulichen Sie", antwort="Grafik",
-    material="Koordinatensystem", skizze=ABL_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Abbildung mit dem Graphen von f (Graph I, Hochpunkt (0; 2), Tiefpunkt (2; 0)) und dem Graphen von f' (Graph II, Nullstellen 0 und 2, Tiefpunkt bei etwa (1; −1,6)); Aussage: das Integral von −2 bis 2 über f(x) − f'(x) dx ist kleiner als 12",
-    gesucht="grafische Veranschaulichung der Aussage durch Eintragungen in der Abbildung",
-    verfahren="die Fläche zwischen Graph I und Graph II von x = −2 bis x = 2 schraffieren und ein Rechteck von x = −2 bis 2 und y = −2 bis 1 (Fläche 4 · 3 = 12) eintragen, das die schraffierte Fläche ganz enthält",
-    schritte="2", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="2026MgrundlegendAAnalysis14-a",
-    ergebnis="schraffierte Fläche zwischen den beiden Graphen über dem Intervall von −2 bis 2, umschlossen von einem Rechteck der Breite 4 und Höhe 3 mit Flächeninhalt 12 (amtlich)",
-    zwischenergebnis="",
-    niveau_geschaetzt="II",
-    fehlerquelle="nur die Fläche unter Graph I schraffieren und Graph II nicht berücksichtigen",
-    bemerkung="Standardbezug: K1 II, K2 I, K4 II. Amtlich; der Erwartungshorizont zeigt die Abbildung mit Schraffur und grau hinterlegtem Rechteck von y = −2 bis 1. Das Feld skizze beschreibt das vorgegebene Material, die Lösung ist eine Zeichnung.")
-
-# ---- Analysis 2.1: Produktregel mit Werten aus dem Graphen
-PROD_SKIZZE = ("Koordinatensystem mit x-Achse von −6 bis 10 und y-Achse von −10 bis 10, Gitter; die "
-               "Gerade g steigend durch (1; 0) und (3; 4) mit Steigung 2; der Graph von f "
-               "parabelförmig: von links oben fallend durch (0; 0), Tiefpunkt (3; −6), steigend durch "
-               "(6; 0) nach rechts oben")
-row("2026MgrundlegendAAnalysis21", "a", seite="1", punkte="1", afb_amtlich="I",
-    leitidee="Analysis", thema="Ableitung und Änderungsrate",
-    typ="Steigung einer Geraden am Graphen begründen", typ_neben="",
-    stichwoerter="lineare Funktion|Steigungsdreieck|Ableitung konstant|g'(3) = 2",
-    voraussetzungen="Ableitung einer linearen Funktion als Steigung kennen",
-    format="Begründung", operator="Begründen Sie", antwort="Text",
-    material="Koordinatensystem", skizze=PROD_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Abbildung mit dem Graphen der in IR definierten linearen Funktion g (durch (1; 0) und (3; 4)) und dem Graphen der differenzierbaren Funktion f",
-    gesucht="Begründung, dass g'(3) = 2 gilt",
-    verfahren="am Graphen von g ein Steigungsdreieck ablesen (2 nach rechts, 4 nach oben); die Ableitung einer linearen Funktion ist überall ihre Steigung",
-    schritte="1", zahlenraum="ganz", einheiten="", abhaengig_von="",
-    ergebnis="anhand eines Steigungsdreiecks hat die Gerade die Steigung 2, also ist g'(3) = 2 (amtlich)",
-    zwischenergebnis="",
-    niveau_geschaetzt="I",
-    fehlerquelle="g(3) = 4 als Ableitungswert nehmen",
-    bemerkung="Standardbezug: K1 I, K4 I. Amtlich. Werte nur aus der Abbildung; eine Funktionsgleichung ist nicht gegeben.")
-
-row("2026MgrundlegendAAnalysis21", "b", seite="1", punkte="4", afb_amtlich="II|III",
-    leitidee="Analysis", thema="Ableitungsregeln",
-    typ="Ableitung eines Produkts aus Graphenwerten mit der Produktregel bestimmen", typ_neben="",
-    stichwoerter="Produktregel|Tangentensteigung|Werte aus dem Graphen|Tiefpunkt hat Ableitung null",
-    voraussetzungen="Produktregel anwenden|Funktionswerte und Steigungen aus Graphen ablesen|Tiefpunkt als Stelle mit f' = 0 erkennen",
-    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
-    material="Koordinatensystem", skizze=PROD_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Abbildung mit dem Graphen der linearen Funktion g (Steigung 2, g(3) = 4) und dem Graphen der differenzierbaren Funktion f (Tiefpunkt (3; −6)); h(x) = f(x) · g(x), definiert in IR",
-    gesucht="Steigung der Tangente an den Graphen von h im Punkt (3; h(3))",
-    verfahren="h'(3) = f'(3) · g(3) + f(3) · g'(3) mit der Produktregel; f'(3) = 0 (Tiefpunkt), g(3) = 4, f(3) = −6 und g'(3) = 2 aus der Abbildung einsetzen",
-    schritte="3", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="2026MgrundlegendAAnalysis21-a",
-    ergebnis="h'(3) = f'(3) · g(3) + f(3) · g'(3) = 0 · 4 + (−6) · 2 = −12 (amtlich)",
-    zwischenergebnis="f'(3) = 0|f(3) = −6|g(3) = 4|g'(3) = 2",
-    niveau_geschaetzt="II",
-    fehlerquelle="h'(3) als f'(3) · g'(3) bilden oder f'(3) nicht als null erkennen",
-    bemerkung="Standardbezug: K2 III, K4 III, K5 II. Amtlich, eigene Rechnung bestätigt. Eigene Schätzung II, amtlich bis III.")
-
-# ---- Analysis 2.2: Graph der Ableitung, Monotonie und Stammfunktion
-ABL2_SKIZZE = ("Koordinatensystem mit x-Achse von −4 bis 4 und y-Achse von −3 bis 4, Gitter; Graph "
-               "von f' beschriftet: von links unten steil steigend durch die einzige Nullstelle −3, "
-               "Hochpunkt (−2; 4), dann fallend und sich für große x von oben der x-Achse nähernd "
-               "(bei x = 4 etwa 0,2)")
-row("2026MgrundlegendAAnalysis22", "a", seite="1", punkte="2", afb_amtlich="II",
-    leitidee="Analysis", thema="Ableitungsgraph und Funktionsgraph",
-    typ="Monotonie aus dem Vorzeichen der Ableitung am Graphen begründen", typ_neben="",
-    stichwoerter="Graph der Ableitung|Vorzeichenwechsel|monoton fallend|monoton steigend",
-    voraussetzungen="Monotoniekriterium mit dem Vorzeichen von f' kennen",
-    format="Begründung", operator="Begründen Sie", antwort="Text",
-    material="Koordinatensystem", skizze=ABL2_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Abbildung mit dem Graphen der Ableitungsfunktion f' einer in IR definierten Funktion f; die einzige Nullstelle von f' ist −3; f' ist links von −3 negativ, rechts davon positiv",
-    gesucht="Begründung, dass f für x <= −3 monoton fallend und für x >= −3 monoton steigend ist",
-    verfahren="am Graphen von f' das Vorzeichen links und rechts von −3 ablesen; f' wechselt an seiner einzigen Nullstelle von minus nach plus",
-    schritte="1", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
-    ergebnis="f' wechselt an seiner einzigen Nullstelle −3 das Vorzeichen von minus nach plus, also fällt f links davon und steigt rechts davon (amtlich)",
-    zwischenergebnis="",
-    niveau_geschaetzt="II",
-    fehlerquelle="den abgebildeten Graphen für den Graphen von f halten und mit dessen Steigung argumentieren",
-    bemerkung="Standardbezug: K1 II, K2 II, K4 II. Amtlich.")
-
-row("2026MgrundlegendAAnalysis22", "b", seite="1", punkte="3", afb_amtlich="II|III",
-    leitidee="Analysis", thema="Stammfunktion und Hauptsatz",
-    typ="Aussage über Extrempunkte einer Stammfunktion beurteilen", typ_neben="",
-    stichwoerter="Stammfunktion F|F' = f|Tiefpunkt (−3; 2)|f überall positiv|kein Extrempunkt",
-    voraussetzungen="F' = f verwenden|Tiefpunkt von f aus der Monotonie folgern|notwendige Bedingung für Extrempunkte",
-    format="Begründung", operator="Beurteilen Sie", antwort="Text",
-    material="Koordinatensystem", skizze=ABL2_SKIZZE, kontext="ohne", textumfang="mittel",
-    gegeben="Abbildung mit dem Graphen von f' (einzige Nullstelle −3, Vorzeichenwechsel von minus nach plus); f(−3) = 2; Aussage: ist F eine Stammfunktion von f, dann besitzt der Graph von F keinen Extrempunkt",
-    gesucht="Beurteilung der Aussage",
-    verfahren="aus der Monotonie folgt, dass f bei (−3; 2) seinen einzigen Extrempunkt, einen Tiefpunkt, hat; f ist damit überall positiv, also hat F' = f keine Nullstelle und F keinen Extrempunkt",
-    schritte="2", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="2026MgrundlegendAAnalysis22-a",
-    ergebnis="die Aussage ist wahr: der Graph von f hat mit dem Tiefpunkt (−3; 2) seinen einzigen Extrempunkt, f nimmt nur positive Werte an, F' = f hat also keine Nullstelle (amtlich)",
-    zwischenergebnis="Tiefpunkt von f bei (−3; 2)|f(x) > 0 für alle x",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Nullstelle von f' bei −3 als Extremstelle von F deuten",
-    bemerkung="Standardbezug: K1 III, K2 III, K4 II, K6 III. Amtlich.")
-
-# ---- AG/LA (A1) 1.1: rechtwinkliges Dreieck und Pyramide
-row("2026MgrundlegendAAGLAA111", "a", seite="1", punkte="3", afb_amtlich="I",
-    leitidee="Analytische Geometrie", thema="Orthogonalität",
-    typ="Rechten Winkel und Kathetenlängen eines Dreiecks nachweisen", typ_neben="",
-    stichwoerter="Skalarprodukt null|Betrag eines Vektors|gleichschenklig|Katheten 10",
-    voraussetzungen="Skalarprodukt bilden|Vektorlänge berechnen",
+# ---- Analysis 1.4: Fläche zwischen e-Funktions-Graphen mit gegebener Stammfunktion
+row("2026MerhoehtAAnalysis14", "a", seite="1", punkte="1", afb_amtlich="I",
+    leitidee="Analysis", thema="Gleichungen lösen",
+    typ="Schnittstellen zweier Graphen über den gemeinsamen Exponentialfaktor nachweisen", typ_neben="",
+    stichwoerter="f(x) = g(x)|gemeinsamer Faktor e^(x/2 + 1)|4 = x^2|x = ±2",
+    voraussetzungen="Exponentialfaktor als stets positiv erkennen und kürzen",
     format="Begründung", operator="Zeigen Sie", antwort="Text",
     material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="gleichschenkliges Dreieck OAB mit O(0; 0; 0), A(8; 6; 0) und B(0; 0; 10)",
-    gesucht="Nachweis, dass OAB in O rechtwinklig ist und die Katheten die Länge 10 haben",
-    verfahren="Skalarprodukt OA · OB = 0 zeigen; |OB| = 10 berechnen und aus der Gleichschenkligkeit im rechten Winkel |OA| = |OB| folgern oder |OA| = √(64 + 36) = 10 direkt rechnen",
-    schritte="3", zahlenraum="ganz|Wurzel", einheiten="", abhaengig_von="",
-    ergebnis="OA · OB = 8 · 0 + 6 · 0 + 0 · 10 = 0, also rechter Winkel in O; |OB| = 10 und wegen der Gleichschenkligkeit |OA| = |OB| = 10 (amtlich)",
-    zwischenergebnis="|OA| = √(8^2 + 6^2) = 10",
+    gegeben="f(x) = 4e^(1/2 x + 1) und g(x) = x^2 · e^(1/2 x + 1), beide in IR definiert",
+    gesucht="Nachweis, dass sich die Graphen nur für x = −2 und x = 2 schneiden",
+    verfahren="Gleichsetzen, durch den positiven Faktor e^(1/2 x + 1) teilen, 4 = x^2 lösen",
+    schritte="2", zahlenraum="ganz|negativ|Potenz", einheiten="", abhaengig_von="",
+    ergebnis="f(x) = g(x) ist gleichwertig zu 4 = x^2, also x = −2 oder x = 2 (amtlich)",
+    zwischenergebnis="",
     niveau_geschaetzt="I",
-    fehlerquelle="den rechten Winkel bei A oder B prüfen statt bei O",
+    fehlerquelle="nur x = 2 angeben oder den Exponentialfaktor gleich null setzen wollen",
     bemerkung="Standardbezug: K1 I, K5 I. Amtlich, eigene Rechnung bestätigt.")
 
-row("2026MgrundlegendAAGLAA111", "b", seite="1", punkte="2", afb_amtlich="I|II",
-    leitidee="Analytische Geometrie", thema="Flächeninhalt und Volumen im Raum",
-    typ="Höhe einer Pyramide aus dem Volumen bestimmen", typ_neben="",
-    stichwoerter="Pyramide|Volumen 100|Spitze senkrecht über dem rechten Winkel|Höhe 6",
-    voraussetzungen="Volumenformel der Pyramide|Skalarprodukt null als Orthogonalität deuten",
-    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+row("2026MerhoehtAAnalysis14", "b", seite="1", punkte="4", afb_amtlich="II",
+    leitidee="Analysis", thema="Flächeninhalt durch Integration",
+    typ="Fläche zwischen zwei Graphen mit vorgegebener Stammfunktion berechnen", typ_neben="",
+    stichwoerter="Fläche zwischen f und g|Grenzen −2 und 2|Stammfunktion G gegeben|Stammfunktion von f selbst bilden|Ergebnis 32",
+    voraussetzungen="Stammfunktion von 4e^(1/2 x + 1) mit Faktor 2 bilden|Hauptsatz auf eine Differenz anwenden|e^2-Terme heben sich auf",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
     material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
-    gegeben="Dreieck OAB mit O(0; 0; 0), A(8; 6; 0), B(0; 0; 10), rechtwinklig in O mit Kathetenlänge 10; Pyramide OABS mit Spitze S und Volumen 100; OS · OA = 0 und OS · OB = 0",
-    gesucht="Länge |OS|",
-    verfahren="OS steht senkrecht auf der Grundfläche OAB, ist also die Höhe; Grundfläche 1/2 · 10 · 10 = 50; aus V = 1/3 · 50 · |OS| = 100 folgt |OS| = 6",
-    schritte="2", zahlenraum="ganz", einheiten="", abhaengig_von="2026MgrundlegendAAGLAA111-a",
-    ergebnis="1/3 · 1/2 · 10 · 10 · |OS| = 100, also |OS| = 6 (amtlich)",
-    zwischenergebnis="Grundfläche 50",
+    gegeben="f(x) = 4e^(1/2 x + 1) und g(x) = x^2 · e^(1/2 x + 1); die Graphen schneiden sich nur bei x = −2 und x = 2; G(x) = (2x^2 − 8x + 16) · e^(1/2 x + 1) ist eine Stammfunktion von g",
+    gesucht="Inhalt der Fläche, die die Graphen von f und g einschließen",
+    verfahren="Integral von −2 bis 2 über f(x) − g(x) mit der Stammfunktion 8e^(1/2 x + 1) − G(x) auswerten; die Terme mit e^2 heben sich auf",
+    schritte="3", zahlenraum="ganz|negativ|Potenz", einheiten="", abhaengig_von="2026MerhoehtAAnalysis14-a",
+    ergebnis="[8e^(1/2 x + 1) − (2x^2 − 8x + 16) · e^(1/2 x + 1)] von −2 bis 2 = 8e^2 − 8e^2 − (8 − 40) = 32 (amtlich)",
+    zwischenergebnis="Stammfunktion von f: 8e^(1/2 x + 1)|an der Stelle 2: 8e^2 − 8e^2 = 0|an der Stelle −2: 8 − 40 = −32",
     niveau_geschaetzt="II",
-    fehlerquelle="den Faktor 1/3 der Pyramidenformel vergessen",
-    bemerkung="Standardbezug: K2 II, K4 II, K5 I. Amtlich, eigene Rechnung bestätigt.")
+    fehlerquelle="die Stammfunktion von f mit 2e^(1/2 x + 1) ansetzen (Faktor 1/2 im Exponenten vergessen)",
+    bemerkung="Standardbezug: K2 II, K5 II. Amtlich, eigene Rechnung bestätigt. Zwischen −2 und 2 liegt f über g.")
 
-# ---- AG/LA (A1) 1.2: Dreieck mit Parameter (Dublette 2026MgrundlegendAAGLAA212)
-row("2026MgrundlegendAAGLAA112", "a", seite="1", punkte="2", afb_amtlich="I",
-    leitidee="Analytische Geometrie", thema="Orthogonalität",
-    typ="Rechten Winkel eines Dreiecks mit Parameter nachweisen", typ_neben="",
-    stichwoerter="Skalarprodukt mit Parameter|6t − 6t = 0|rechter Winkel in A",
-    voraussetzungen="Skalarprodukt mit Variablen ausrechnen",
-    format="Begründung", operator="Zeigen Sie", antwort="Text",
+# ---- Analysis 2.1: Wertemenge und Transformation
+row("2026MerhoehtAAnalysis21", "a", seite="1", punkte="1", afb_amtlich="II",
+    leitidee="Analysis", thema="Funktionsklassen und Eigenschaften",
+    typ="Fehlende Punktsymmetrie aus der Wertemenge begründen", typ_neben="",
+    stichwoerter="Wertemenge [−3; 2[|Punktsymmetrie zum Ursprung|−3 enthalten, 3 nicht|Gegenbeispiel",
+    voraussetzungen="Punktsymmetrie als f(−x) = −f(x) und Folge für die Wertemenge kennen",
+    format="Begründung", operator="Begründen Sie", antwort="Text",
     material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Dreieck ABC mit A(0; 0; 0), B(6; 2; 3) und C(t; −3t; 0), t positiv reell",
-    gesucht="Nachweis, dass das Dreieck in A einen rechten Winkel hat",
-    verfahren="Skalarprodukt AB · AC = 6t − 6t + 0 = 0 für jedes t",
-    schritte="1", zahlenraum="ganz", einheiten="", abhaengig_von="",
-    ergebnis="AB · AC = 6 · t + 2 · (−3t) + 3 · 0 = 6t − 6t = 0, also rechter Winkel in A (amtlich)",
+    gegeben="eine in IR definierte Funktion f mit der Wertemenge [−3; 2[",
+    gesucht="Begründung, dass der Graph von f nicht symmetrisch bezüglich des Koordinatenursprungs ist",
+    verfahren="bei Punktsymmetrie müsste mit jedem Wert y auch −y angenommen werden; −3 wird angenommen, 3 nicht",
+    schritte="1", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="in der Wertemenge ist −3 enthalten, 3 aber nicht; bei Punktsymmetrie zum Ursprung müsste zu f(x) = −3 der Wert f(−x) = 3 gehören (amtlich)",
+    zwischenergebnis="",
+    niveau_geschaetzt="II",
+    fehlerquelle="mit der Achsensymmetrie argumentieren oder das offene Intervallende als Grund nennen",
+    bemerkung="Standardbezug: K1 II, K2 II. Amtlich. Keine Funktionsgleichung gegeben, Argument allein aus der Wertemenge.")
+
+row("2026MerhoehtAAnalysis21", "b", seite="1", punkte="4", afb_amtlich="II|III",
+    leitidee="Analysis", thema="Funktionsklassen und Eigenschaften",
+    typ="Wertemenge einer transformierten Funktion begründen", typ_neben="",
+    stichwoerter="h(x) = −2 · f(x − 5) + 1|Spiegelung an der x-Achse|Streckung Faktor 2|Verschiebung um 1 nach oben|Verschiebung in x-Richtung ohne Einfluss|]−3; 7]",
+    voraussetzungen="Wirkung von Vorzeichen, Faktor und Summand auf die Wertemenge|Intervallgrenzen mit offen und abgeschlossen vertauschen",
+    format="Kurzantwort|Begründung", operator="Geben Sie an|Begründen Sie", antwort="Term|Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="f in IR definiert mit Wertemenge [−3; 2[; h(x) = −2 · f(x − 5) + 1, definiert in IR",
+    gesucht="Wertemenge von h mit Begründung",
+    verfahren="die Verschiebung um 5 in x-Richtung ändert die Wertemenge nicht; Spiegelung an der x-Achse und Streckung mit 2 machen aus [−3; 2[ das Intervall ]−4; 6]; die Verschiebung um 1 nach oben liefert ]−3; 7]",
+    schritte="3", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="Wertemenge von h: ]−3; 7]; die Spiegelung an der x-Achse, die Streckung mit Faktor 2 in y-Richtung und die Verschiebung um 1 in positive y-Richtung wirken auf die Wertemenge, die Verschiebung in x-Richtung nicht (amtlich)",
+    zwischenergebnis="−2 · [−3; 2[ = ]−4; 6]|+1: ]−3; 7]",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Verschiebung um 5 auf die Wertemenge anwenden oder die Intervallenden nicht vertauschen",
+    bemerkung="Standardbezug: K1 III, K2 III, K4 II, K6 II. Amtlich, eigene Rechnung bestätigt.")
+
+# ---- Analysis 2.2: Schar h_a = f + a·x, eine waagerechte Tangente (ungegliedert)
+KUB2_SKIZZE = ("Koordinatensystem mit x-Achse von −3 bis 3 und y-Achse von −3 bis 3, Gitter; Graph "
+               "von f punktsymmetrisch zum Ursprung: Nullstellen −3, 0 und 3, Hochpunkt bei etwa "
+               "(−1,7; 3,5), Tiefpunkt bei etwa (1,7; −3,5), im Ursprung fallend mit Steigung etwa −3")
+row("2026MerhoehtAAnalysis22", seite="1", punkte="5", afb_amtlich="II|III",
+    leitidee="Analysis", thema="Funktionsscharen und Ortskurven",
+    typ="Scharparameter für genau eine waagerechte Tangente aus dem Graphen bestimmen", typ_neben="",
+    stichwoerter="h_a(x) = f(x) + a · x|h_a' = f' + a|Parabel mit Scheitel auf der y-Achse|genau eine Nullstelle von h_a' heißt Scheitel auf der x-Achse|f'(0) ≈ −3 aus dem Graphen|a = 3",
+    voraussetzungen="Ableitung einer Summe|waagerechte Tangente als Nullstelle der Ableitung|Steigung im Ursprung am Graphen ablesen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="Koordinatensystem", skizze=KUB2_SKIZZE, kontext="ohne", textumfang="lang",
+    gegeben="Abbildung des zum Ursprung symmetrischen Graphen einer ganzrationalen Funktion f (Nullstellen −3, 0, 3; Steigung im Ursprung etwa −3); h_a(x) = f(x) + a · x für reelle a; der Graph von h_a' ist für jedes a eine Parabel mit Scheitelpunkt auf der y-Achse; es gibt genau einen ganzzahligen Wert a, für den der Graph von h_a genau eine waagerechte Tangente besitzt",
+    gesucht="dieser Wert von a, mithilfe der Abbildung",
+    verfahren="h_a'(x) = f'(x) + a; genau eine waagerechte Tangente heißt, die Parabel h_a' berührt die x-Achse im Scheitel bei x = 0, also h_a'(0) = 0 und a = −f'(0); f'(0) über eine Tangente im Ursprung als etwa −3 ablesen",
+    schritte="3", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="a = 3 (amtlich)",
+    zwischenergebnis="h_a'(x) = f'(x) + a|h_a'(0) = 0 gleichwertig zu a = −f'(0)|f'(0) ≈ −3",
+    niveau_geschaetzt="III",
+    fehlerquelle="die waagerechte Tangente von h_a an den Extremstellen von f suchen statt im Ursprung",
+    bemerkung="Standardbezug: K2 III, K4 II, K5 II, K6 II. Amtlich; der Erwartungshorizont zeigt die Abbildung mit eingezeichneter Tangente im Ursprung und f'(0) ≈ −3. Eigene Rechnung mit f(x) = (x^3 − 9x)/3, die zum Bild passt, bestätigt f'(0) = −3. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE.")
+
+# ---- Analysis 2.3: Nullstellen einer Integralfunktion (ungegliedert)
+INT_SKIZZE = ("Koordinatensystem mit x-Achse von −3 bis 4 und y-Achse von −4 bis 4, Gitter; Graph "
+              "von f: von links unten (etwa (−3; −4)) steil steigend durch die Nullstelle −1,5, kleines "
+              "Maximum bei etwa (−0,8; 0,5), fallend zur Berührstelle im Ursprung, danach steigend und "
+              "sich für große x dem Wert 2 nähernd (bei x = 4 etwa 1,9)")
+row("2026MerhoehtAAnalysis23", seite="1", punkte="5", afb_amtlich="II|III",
+    leitidee="Analysis", thema="Stammfunktion und Hauptsatz",
+    typ="Anzahl der Nullstellen einer Integralfunktion am Graphen beurteilen", typ_neben="",
+    stichwoerter="Integralfunktion J mit unterer Grenze 0|J(0) = 0|J' = f|streng monoton für x > 0|Flächenbilanz links von −1,5|genau zwei Nullstellen",
+    voraussetzungen="untere Integrationsgrenze als Nullstelle erkennen|J' = f und Monotonie|Integral als Flächenbilanz mit Vorzeichen deuten",
+    format="Begründung", operator="Beurteilen Sie", antwort="Text",
+    material="Koordinatensystem", skizze=INT_SKIZZE, kontext="ohne", textumfang="mittel",
+    gegeben="Abbildung des Graphen einer in IR definierten differenzierbaren Funktion f mit genau zwei Nullstellen −1,5 und 0 (bei 0 Berührung der x-Achse, für x > 0 positiv, links von −1,5 negativ und unbeschränkt fallend); J(x) = Integral von 0 bis x über f(t) dt; Aussage: J hat genau zwei Nullstellen",
+    gesucht="Beurteilung der Aussage",
+    verfahren="J(0) = 0 als erste Nullstelle; für x > 0 ist J' = f > 0, J streng monoton steigend, keine Nullstelle; für x < 0 ist J zwischen −1,5 und 0 positiv (Fläche über der Achse, von rechts nach links durchlaufen), und links von −1,5 nimmt J wegen der großen negativen Fläche ab, bis der Wert J(−1,5) ausgeglichen ist: genau eine weitere Nullstelle a < −1,5",
+    schritte="3", zahlenraum="dezimal|negativ", einheiten="", abhaengig_von="",
+    ergebnis="die Aussage ist wahr: 0 ist Nullstelle von J; für x > 0 ist J wegen J' = f > 0 streng monoton steigend ohne Nullstelle; für x < 0 hat J genau eine Nullstelle, weil f dort nur die Nullstelle −1,5 hat und es laut Abbildung ein a < −1,5 gibt, für das das Integral von −1,5 bis a über f gleich −J(−1,5) ist (amtlich)",
+    zwischenergebnis="J(−1,5) = Integral von 0 bis −1,5 über f > 0",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Nullstellen von f für Nullstellen von J halten und die Aussage deshalb für wahr erklären, ohne die Flächenbilanz zu betrachten",
+    bemerkung="Standardbezug: K1 III, K2 III, K4 II, K6 III. Amtlich. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE.")
+
+# ---- AG/LA (A1) 1: Übergangsmatrix Insekten (einzige Aufgabe der Gruppe, Text auf Seite 1 und 2)
+UEB_SKIZZE = ("Übergangsdiagramm mit drei Knoten C (oben links), B (oben rechts), A (unten Mitte); "
+              "Pfeile mit Beschriftung: B nach C 0,6, C nach B 0, A nach C 0, C nach A 2, A nach B r, "
+              "B nach A 0; Schleifen an A, B und C je 0")
+row("2026MerhoehtAAGLAA11", "a", seite="1|2", punkte="1", afb_amtlich="I",
+    leitidee="Analytische Geometrie", thema="Matrizen und Übergangsprozesse",
+    typ="Fehler in einem Übergangsdiagramm gegen die Matrix begründen", typ_neben="",
+    stichwoerter="Übergangsmatrix 3 mal 3|Übergangsdiagramm|Pfeilbeschriftung vertauscht|Spalte gibt Ausgangsstadium an",
+    voraussetzungen="Matrixeintrag m_ij als Übergang von Stadium j nach Stadium i lesen",
+    format="Begründung", operator="Begründen Sie", antwort="Text",
+    material="Diagramm", skizze=UEB_SKIZZE, kontext="Biologie/Insektenpopulation", textumfang="lang",
+    gegeben="Population in drei Stadien A, B, C; Verteilung v_n = (A; B; C); Übergang von einem Tag zum nächsten v_(n+1) = M · v_n mit M = ((0; 0; 2), (r; 0; 0), (0; 0,6; 0)), r reell; v_0 ungleich Nullvektor; das abgebildete Übergangsdiagramm",
+    gesucht="Begründung, dass das Übergangsdiagramm fehlerhaft ist",
+    verfahren="Einträge der Matrix mit den Pfeilen vergleichen: M sagt A nach B mit r, B nach C mit 0,6, C nach A mit 2; im Diagramm sind die Pfeile zwischen A und C mit 2 und 0 vertauscht beschriftet",
+    schritte="1", zahlenraum="dezimal", einheiten="", abhaengig_von="",
+    ergebnis="im Diagramm ist die Beschriftung der Pfeile zwischen A und C vertauscht: nach der Matrix geht der Übergang mit Faktor 2 von C nach A, nicht von A nach C (amtlich)",
     zwischenergebnis="",
     niveau_geschaetzt="I",
-    fehlerquelle="das Skalarprodukt nur für einen Zahlenwert von t prüfen",
-    bemerkung="Standardbezug: K1 I, K5 I. Amtlich, eigene Rechnung bestätigt. Die Kurzbeschreibung nennt das Sachgebiet nur als AG/LA ohne Alternative; die Datei ist wortgleich als 2026MgrundlegendAAGLAA212 ein zweites Mal abgelegt (Dublette ohne Zeile).")
+    fehlerquelle="Zeilen und Spalten der Matrix vertauscht lesen und das Diagramm für richtig halten",
+    bemerkung="Standardbezug: K1 I, K3 I, K4 I. Amtlich. Der Aufgabenstamm steht auf Seite 1, die Teilaufgaben mit dem Diagramm auf Seite 2; Datei mit drei Seiten. Thema Matrizen und Übergangsprozesse (nur A1, iqb.md § 6).")
 
-row("2026MgrundlegendAAGLAA112", "b", seite="1", punkte="3", afb_amtlich="II",
-    leitidee="Analytische Geometrie", thema="Abstände",
-    typ="Parameter aus der Gleichschenkligkeit eines Dreiecks berechnen", typ_neben="",
-    stichwoerter="gleichschenklig|Kathetenlängen gleich|Betrag mit Parameter|√10 · t = 7",
-    voraussetzungen="Vektorlänge mit Parameter berechnen|Wurzelgleichung lösen",
-    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Dreieck ABC mit A(0; 0; 0), B(6; 2; 3) und C(t; −3t; 0), t positiv, rechtwinklig in A; das Dreieck ist gleichschenklig",
-    gesucht="Wert von t",
-    verfahren="im rechtwinkligen gleichschenkligen Dreieck sind die Katheten AB und AC gleich lang: |AB| = 7 und |AC| = √(t^2 + 9t^2) = √10 · t gleichsetzen",
-    schritte="3", zahlenraum="ganz|Wurzel", einheiten="", abhaengig_von="2026MgrundlegendAAGLAA112-a",
-    ergebnis="t = 7/√10 (amtlich)",
-    zwischenergebnis="|AB| = √(36 + 4 + 9) = 7|AC| = √10 · t|t ≈ 2,21",
-    niveau_geschaetzt="II",
-    fehlerquelle="die Hypotenuse BC mit einer Kathete gleichsetzen",
-    bemerkung="Standardbezug: K1 II, K2 II, K5 II. Amtlich, eigene Rechnung bestätigt.")
-
-# ---- AG/LA (A1) 2: lineares Gleichungssystem mit Bedingungen (ungegliedert)
-row("2026MgrundlegendAAGLAA12", seite="1", punkte="5", afb_amtlich="II|III",
-    leitidee="Analytische Geometrie", thema="Lineare Gleichungssysteme",
-    typ="Lösung eines unterbestimmten Gleichungssystems unter Zusatzbedingungen auswählen", typ_neben="",
-    stichwoerter="LGS mit drei Unbekannten|Gleichungen II und III Vielfache|Lösungsschar mit Parameter|negativ und ganzzahlig|größtes y",
-    voraussetzungen="abhängige Gleichungen erkennen|Lösungsmenge mit Parameter angeben|Bedingungen an den Parameter übersetzen",
+row("2026MerhoehtAAGLAA11", "b", seite="1|2", punkte="4", afb_amtlich="I|II",
+    leitidee="Analytische Geometrie", thema="Matrizen und Übergangsprozesse",
+    typ="Parameter einer Übergangsmatrix aus einer Zykluslänge bestimmen", typ_neben="",
+    stichwoerter="M hoch 3|Matrizenmultiplikation|M^3 = 1,2r · E|Verteilung nach drei Tagen gleich Anfangsverteilung|r = 5/6",
+    voraussetzungen="Matrizen multiplizieren|Vielfaches der Einheitsmatrix erkennen|v_3 = M^3 · v_0",
     format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
-    gegeben="lineares Gleichungssystem I: −4x + z = 4, II: 2y − z = 4, III: 4y − 2z = 8; betrachtet werden nur Lösungen (x; y; z), bei denen x, y und z negativ und ganzzahlig sind",
-    gesucht="die Lösung mit dem größten Wert für y",
-    verfahren="II und III sind Vielfache, das System hat unendlich viele Lösungen; mit z = t folgt x = t/4 − 1 und y = t/2 + 2; alle drei negativ heißt t < −4, ganzzahlig heißt t Vielfaches von 4; größtes y bei t = −8",
-    schritte="4", zahlenraum="ganz|negativ|Bruch", einheiten="", abhaengig_von="",
-    ergebnis="(−3; −2; −8) (amtlich)",
-    zwischenergebnis="allgemeine Lösung (t/4 − 1; t/2 + 2; t) mit t aus IR|Bedingung t < −4 und t Vielfaches von 4",
-    niveau_geschaetzt="III",
-    fehlerquelle="das System für eindeutig lösbar halten oder die Ganzzahligkeit von x übersehen und t = −6 nehmen",
-    bemerkung="Standardbezug: K1 III, K2 II, K5 III, K6 II. Amtlich, eigene Rechnung bestätigt. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE. Lineare Gleichungssysteme stehen im Pool unter AG/LA, in der Themenliste deshalb auch unter Analytische Geometrie (iqb.md § 6).")
+    material="Diagramm", skizze=UEB_SKIZZE, kontext="Biologie/Insektenpopulation", textumfang="mittel",
+    gegeben="v_(n+1) = M · v_n mit M = ((0; 0; 2), (r; 0; 0), (0; 0,6; 0)), r reell, v_0 ungleich Nullvektor; nach drei Tagen stimmt die Verteilung mit der zu Beobachtungsbeginn überein",
+    gesucht="Wert von r",
+    verfahren="M^3 berechnen: M^2 = ((0; 1,2; 0), (0; 0; 2r), (0,6r; 0; 0)), M^3 = 1,2r · E; aus v_3 = M^3 · v_0 = v_0 und v_0 ungleich Nullvektor folgt 1,2r = 1",
+    schritte="3", zahlenraum="dezimal|Bruch", einheiten="", abhaengig_von="",
+    ergebnis="r = 5/6 (amtlich)",
+    zwischenergebnis="M^2 = ((0; 1,2; 0), (0; 0; 2r), (0,6r; 0; 0))|M^3 = ((1,2r; 0; 0), (0; 1,2r; 0), (0; 0; 1,2r))",
+    niveau_geschaetzt="II",
+    fehlerquelle="M^3 als komponentenweise dritte Potenz der Einträge bilden",
+    bemerkung="Standardbezug: K1 II, K2 I, K5 II. Amtlich, eigene Rechnung bestätigt.")
 
-# ---- AG/LA (A2) 1.1: Ebene, Lotgerade, Spiegelpunkt
-row("2026MgrundlegendAAGLAA211", "a", seite="1", punkte="3", afb_amtlich="I|II",
-    leitidee="Analytische Geometrie", thema="Lagebeziehungen",
-    typ="Punktprobe an einer Ebenengleichung durchführen",
-    typ_neben="Orthogonalität von Gerade und Ebene über Normalen- und Richtungsvektor begründen",
-    stichwoerter="Koordinatengleichung|Punktprobe|Normalenvektor|Richtungsvektor kollinear|Lotgerade",
-    voraussetzungen="Normalenvektor aus der Koordinatengleichung ablesen|Richtungsvektor aus zwei Punkten bilden|Kollinearität erkennen",
-    format="Begründung", operator="Zeigen Sie|Begründen Sie", antwort="Text",
+# ---- AG/LA (A1) 2.1: Eigenvektor und inverse Matrix
+row("2026MerhoehtAAGLAA121", "a", seite="1", punkte="2", afb_amtlich="I|II",
+    leitidee="Analytische Geometrie", thema="Matrizen und Übergangsprozesse",
+    typ="Parameter eines Vektors aus einer Matrix-Vektor-Gleichung bestimmen", typ_neben="",
+    stichwoerter="A · v = 4 · v|Eigenvektor|zweite Komponente 4a = 4|a = 1",
+    voraussetzungen="Matrix-Vektor-Produkt komponentenweise ausrechnen|eine geeignete Komponente auswählen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
     material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Ebene E: x1 − 3x2 + 2x3 = 11; Gerade g durch P(5; 0; 3) und Q(9; −12; 11)",
-    gesucht="Nachweis, dass P in E liegt|Begründung, dass g senkrecht zu E steht",
-    verfahren="P in die Koordinatengleichung einsetzen; Richtungsvektor PQ = (4; −12; 8) mit dem Normalenvektor (1; −3; 2) vergleichen: PQ = 4 · n, also kollinear",
+    gegeben="A = ((6; −2; 0), (4; 0; 0), (−4; 4; −2)); v_a = (a; 1; 0) mit reellem a; es gilt A · v_a = 4 · v_a",
+    gesucht="Wert von a",
+    verfahren="A · v_a = (6a − 2; 4a; −4a + 4) mit 4 · v_a = (4a; 4; 0) vergleichen; die zweite Komponente liefert 4a = 4",
     schritte="2", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
-    ergebnis="5 − 3 · 0 + 2 · 3 = 11, also liegt P in E|der Richtungsvektor (4; −12; 8) von g und der Normalenvektor (1; −3; 2) von E sind kollinear, also steht g senkrecht auf E (amtlich)",
-    zwischenergebnis="PQ = (4; −12; 8) = 4 · (1; −3; 2)",
+    ergebnis="a = 1 (amtlich)",
+    zwischenergebnis="A · v_a = (6a − 2; 4a; 4 − 4a)",
     niveau_geschaetzt="II",
-    fehlerquelle="für die Orthogonalität das Skalarprodukt von Richtungs- und Normalenvektor gleich null erwarten",
-    bemerkung="Standardbezug: K1 I, K2 II, K5 I. Amtlich, eigene Rechnung bestätigt. Typ Punktprobe an einer Ebenengleichung durchführen aus abi-typen.csv übernommen.")
+    fehlerquelle="aus der ersten Komponente 6a − 2 = 4a rechnen und den Wert nicht an den übrigen Komponenten prüfen",
+    bemerkung="Standardbezug: K1 II, K2 I, K5 I. Amtlich, eigene Rechnung bestätigt: alle drei Komponenten stimmen für a = 1.")
 
-row("2026MgrundlegendAAGLAA211", "b", seite="1", punkte="2", afb_amtlich="I|II",
-    leitidee="Analytische Geometrie", thema="Spiegelung",
-    typ="Spiegelpunkt an einer Ebene über den bekannten Lotfußpunkt bestimmen", typ_neben="",
-    stichwoerter="Spiegelung an einer Ebene|Lotfußpunkt P|symmetrisch bezüglich E|Vektor PQ rückwärts abtragen",
-    voraussetzungen="P als Lotfußpunkt von Q erkennen|Ortsvektor über Vektoraddition bestimmen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+row("2026MerhoehtAAGLAA121", "b", seite="1", punkte="3", afb_amtlich="II|III",
+    leitidee="Analytische Geometrie", thema="Matrizen und Übergangsprozesse",
+    typ="Gleichung mit inverser Matrix über die Eigenvektorbeziehung lösen", typ_neben="",
+    stichwoerter="A^(−1) · (b · v) = c · v|Multiplikation mit A|A · v = 4 · v nutzen|b = 4c|ohne Berechnung der Inversen",
+    voraussetzungen="A · A^(−1) = E anwenden|Linearität des Matrix-Vektor-Produkts|Vektorgleichung mit v ungleich Nullvektor kürzen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Term",
+    material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
+    gegeben="A = ((6; −2; 0), (4; 0; 0), (−4; 4; −2)); v_a = (1; 1; 0) mit A · v_a = 4 · v_a; für jedes reelle c gibt es ein reelles b mit A^(−1) · (b · v_a) = c · v_a; A^(−1) soll nicht berechnet werden",
+    gesucht="b in Abhängigkeit von c",
+    verfahren="beide Seiten mit A multiplizieren: b · v_a = A · (c · v_a) = c · (A · v_a) = c · 4 · v_a; weil v_a nicht der Nullvektor ist, folgt b = 4c",
+    schritte="3", zahlenraum="ganz", einheiten="", abhaengig_von="2026MerhoehtAAGLAA121-a",
+    ergebnis="b = 4c (amtlich)",
+    zwischenergebnis="b · v_a = 4c · v_a",
+    niveau_geschaetzt="III",
+    fehlerquelle="b = c/4 angeben, weil die Inverse den Faktor umkehrt, ohne die Gleichung umzuformen",
+    bemerkung="Standardbezug: K1 II, K2 III, K5 III, K6 II. Amtlich, eigene Rechnung bestätigt.")
+
+# ---- AG/LA (A1) 2.2: orthogonale Matrizen
+row("2026MerhoehtAAGLAA122", "a", seite="1", punkte="1", afb_amtlich="I",
+    leitidee="Analytische Geometrie", thema="Matrizen und Übergangsprozesse",
+    typ="Matrix mit vorgegebener Eigenschaft angeben", typ_neben="",
+    stichwoerter="transponierte Matrix|orthogonal heißt M · M^T = E|Einträge 0 und 1|Vertauschungsmatrix",
+    voraussetzungen="Definition der Transponierten anwenden|Matrizenprodukt 2 mal 2",
+    format="Kurzantwort", operator="Geben Sie an", antwort="Term",
+    material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
+    gegeben="für M = ((a; b), (c; d)) ist M^T = ((a; c), (b; d)) die transponierte Matrix; M heißt orthogonal, wenn M · M^T = ((1; 0), (0; 1))",
+    gesucht="eine orthogonale Matrix der Form M mit a, b, c, d aus {0; 1}, die nicht die Einheitsmatrix ist",
+    verfahren="eine Matrix wählen, deren Zeilen die Länge 1 haben und zueinander senkrecht sind, etwa die Vertauschung der beiden Einheitsvektoren",
+    schritte="1", zahlenraum="ganz", einheiten="", abhaengig_von="",
+    ergebnis="M = ((0; 1), (1; 0)) (amtlich)",
+    zwischenergebnis="",
+    niveau_geschaetzt="I",
+    fehlerquelle="eine Matrix mit einer Nullzeile angeben, deren Produkt mit der Transponierten nicht die Einheitsmatrix ist",
+    bemerkung="Standardbezug: K1 I, K2 I, K4 I, K6 I. Amtlich, eigene Rechnung bestätigt. Transponierte und orthogonale Matrix werden in der Aufgabe definiert.")
+
+row("2026MerhoehtAAGLAA122", "b", seite="1", punkte="4", afb_amtlich="II|III",
+    leitidee="Analytische Geometrie", thema="Matrizen und Übergangsprozesse",
+    typ="Existenz von Matrizen mit vorgegebener Eigenschaft über ein Gleichungssystem beurteilen", typ_neben="",
+    stichwoerter="M · M^T = E ausmultiplizieren|a = d = √5/3|5/9 + b^2 = 1|b = ±2/3, c = −b|zwei verschiedene Matrizen",
+    voraussetzungen="Matrizenprodukt mit Variablen|nichtlineares Gleichungssystem lösen|Fallunterscheidung im Ergebnis",
+    format="Begründung|Rechnung", operator="Beurteilen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
+    gegeben="M = ((a; b), (c; d)) orthogonal, wenn M · M^T = ((1; 0), (0; 1)); Aussage: es gibt orthogonale Matrizen der Form M mit a = d = 1/3 · √5, die ungleich sind",
+    gesucht="Beurteilung der Aussage",
+    verfahren="M · M^T mit a = d = √5/3 ausmultiplizieren: 5/9 + b^2 = 1, (√5/3) · b + (√5/3) · c = 0, c^2 + 5/9 = 1; daraus b = 2/3 und c = −2/3 oder b = −2/3 und c = 2/3",
+    schritte="4", zahlenraum="Bruch|Wurzel|negativ", einheiten="", abhaengig_von="2026MerhoehtAAGLAA122-a",
+    ergebnis="die Aussage ist wahr: aus 5/9 + b^2 = 1, √5/3 · b + √5/3 · c = 0 und c^2 + 5/9 = 1 folgen genau die beiden Matrizen mit b = 2/3, c = −2/3 und mit b = −2/3, c = 2/3 (amtlich)",
+    zwischenergebnis="b^2 = 4/9|c = −b",
+    niveau_geschaetzt="III",
+    fehlerquelle="aus b^2 = 4/9 nur b = 2/3 nehmen und die Aussage für falsch halten",
+    bemerkung="Standardbezug: K1 III, K2 II, K5 III, K6 II. Amtlich, eigene Rechnung bestätigt.")
+
+# ---- AG/LA (A2) 1.1: Lotgerade und Abstand
+row("2026MerhoehtAAGLAA211", "a", seite="1", punkte="2", afb_amtlich="I",
+    leitidee="Analytische Geometrie", thema="Orthogonalität",
+    typ="Orthogonalität von Gerade und Ebene über Normalen- und Richtungsvektor begründen",
+    typ_neben="Punktprobe an einer Ebenengleichung durchführen",
+    stichwoerter="Richtungsvektor gleich Normalenvektor|Koordinatengleichung|Punktprobe|Lotgerade",
+    voraussetzungen="Normalenvektor aus der Koordinatengleichung ablesen|Punkt in die Gleichung einsetzen",
+    format="Begründung", operator="Begründen Sie|Zeigen Sie", antwort="Text",
     material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Ebene E: x1 − 3x2 + 2x3 = 11; P(5; 0; 3) liegt in E; die Gerade g durch P und Q(9; −12; 11) steht senkrecht auf E; Q und R liegen symmetrisch bezüglich E",
-    gesucht="Koordinaten von R",
-    verfahren="P ist der Lotfußpunkt von Q auf E, also ist R = P − PQ (den Vektor PQ von P aus in Gegenrichtung abtragen)",
-    schritte="2", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="2026MgrundlegendAAGLAA211-a",
-    ergebnis="OR = OP − PQ = (1; 12; −5), also R(1; 12; −5) (amtlich)",
-    zwischenergebnis="PQ = (4; −12; 8)",
-    niveau_geschaetzt="II",
-    fehlerquelle="den Lotfußpunkt neu berechnen, obwohl er mit P gegeben ist, oder R = Q − PQ = P erhalten",
-    bemerkung="Standardbezug: K2 II, K4 II, K5 I. Amtlich, eigene Rechnung bestätigt.")
+    gegeben="g: x = (−4; 2; −2) + t · (−2; −1; 2), t reell; E: −2x1 − x2 + 2x3 − 2 = 0; P(−4; 2; −2)",
+    gesucht="Begründung, dass g senkrecht zu E steht|Nachweis, dass P in E liegt",
+    verfahren="der Richtungsvektor (−2; −1; 2) von g ist zugleich Normalenvektor von E; P einsetzen: −2 · (−4) − 2 + 2 · (−2) − 2 = 0",
+    schritte="2", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="der Vektor (−2; −1; 2) ist Richtungsvektor von g und Normalenvektor von E, also steht g senkrecht auf E|−2 · (−4) − 2 + 2 · (−2) − 2 = 0, also liegt P in E (amtlich)",
+    zwischenergebnis="",
+    niveau_geschaetzt="I",
+    fehlerquelle="das Skalarprodukt von Richtungs- und Normalenvektor gleich null erwarten",
+    bemerkung="Standardbezug: K1 I, K2 I, K4 I, K5 I. Amtlich, eigene Rechnung bestätigt. Beide Typen aus 2026-ga-A (AGLAA211-a) wiederverwendet, Reihenfolge der Leistungen hier umgekehrt.")
 
-# ---- AG/LA (A2) 1.3: gerades Prisma
+row("2026MerhoehtAAGLAA211", "b", seite="1", punkte="3", afb_amtlich="II",
+    leitidee="Analytische Geometrie", thema="Abstände",
+    typ="Punkt auf einer Lotgeraden mit vorgegebenem Abstand zur Ebene bestimmen", typ_neben="",
+    stichwoerter="Lotgerade durch P in E|Betrag des Richtungsvektors 3|Abstand 12 heißt t = ±4|Punkt (−12; −2; 6)",
+    voraussetzungen="Abstand entlang der Lotgeraden als Vielfaches des Richtungsvektors|Vektorlänge berechnen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="g: x = (−4; 2; −2) + t · (−2; −1; 2), t reell, steht senkrecht auf E: −2x1 − x2 + 2x3 − 2 = 0; P(−4; 2; −2) liegt in E und auf g",
+    gesucht="Koordinaten eines Punktes auf g mit Abstand 12 zu E",
+    verfahren="der Abstand eines Punktes von g zu E ist |t| · |(−2; −1; 2)| = 3|t|; für Abstand 12 also t = 4 oder t = −4; Punkt einsetzen",
+    schritte="2", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="2026MerhoehtAAGLAA211-a",
+    ergebnis="|(−2; −1; 2)| = 3; (−4; 2; −2) + 4 · (−2; −1; 2) = (−12; −2; 6) (amtlich)",
+    zwischenergebnis="t = ±4|zweiter möglicher Punkt (4; 6; −10)",
+    niveau_geschaetzt="II",
+    fehlerquelle="t = 12 einsetzen, ohne den Richtungsvektor auf die Länge 1 zu beziehen",
+    bemerkung="Standardbezug: K2 II, K5 II. Amtlich, eigene Rechnung bestätigt.")
+
+# ---- AG/LA (A2) 1.2: Prisma (Variante von 2026MgrundlegendAAGLAA213)
 PRISMA_SKIZZE = ("Schrägbild eines dreiseitigen geraden Prismas ABCDEF in einem räumlichen "
                  "Koordinatensystem mit x-Achse nach vorn links, y-Achse nach rechts, z-Achse nach "
-                 "oben; Grundfläche das Dreieck A(0; 0; 0), B(6; 0; 0), C(0; 4; 0) mit gepunktetem "
-                 "Gitter in der xy-Ebene, Deckfläche D(0; 0; 3), E(6; 0; 3), F(0; 4; 3); die Kanten "
-                 "AD und AC verdeckt gestrichelt; Buchstaben an allen Ecken")
-row("2026MgrundlegendAAGLAA213", "a", seite="1", punkte="1", afb_amtlich="I",
+                 "oben; Grundfläche das Dreieck A(0; 0; 0), B(6; 0; 0), C(0; 4; 0), Deckfläche "
+                 "D(0; 0; 3), E(6; 0; 3), F(0; 4; 3); die Kanten AD und AC verdeckt gestrichelt; "
+                 "Buchstaben an allen Ecken")
+row("2026MerhoehtAAGLAA212", "a", seite="1", punkte="1", afb_amtlich="I",
     leitidee="Analytische Geometrie", thema="Punkte und Strecken im Koordinatensystem",
     typ="Koordinaten eines Eckpunkts eines Prismas angeben", typ_neben="",
     stichwoerter="gerades Prisma|Deckfläche|Eckpunkt F|Verschiebung um die Höhe",
@@ -578,429 +601,462 @@ row("2026MgrundlegendAAGLAA213", "a", seite="1", punkte="1", afb_amtlich="I",
     zwischenergebnis="",
     niveau_geschaetzt="I",
     fehlerquelle="E und F verwechseln und (6; 0; 3) angeben",
-    bemerkung="Standardbezug: K4 I. Amtlich. Datei mit drei Seiten (Bewertungshinweise auf Seite 3).")
+    bemerkung="Standardbezug: K4 I. Amtlich. Gleicher Aufgabenstamm wie 2026MgrundlegendAAGLAA213 (Variante auf erhöhtem Niveau mit anderer Teilaufgabe b).")
 
-row("2026MgrundlegendAAGLAA213", "b", seite="1", punkte="1", afb_amtlich="I",
-    leitidee="Analytische Geometrie", thema="Punkte und Strecken im Koordinatensystem",
-    typ="Dreieck in ein Schrägbild einzeichnen", typ_neben="",
-    stichwoerter="Punkt auf einer Kante|P(2; 0; 3) auf DE|Dreieck APC|Schrägbild",
-    voraussetzungen="Punkt auf einer Kante im Schrägbild verorten",
-    format="Zeichnen", operator="Zeichnen Sie", antwort="Grafik",
-    material="Körper", skizze=PRISMA_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Prisma ABCDEF mit A(0; 0; 0), B(6; 0; 0), C(0; 4; 0), D(0; 0; 3), E(6; 0; 3), F(0; 4; 3); P(2; 0; 3) liegt auf der Kante DE",
-    gesucht="Dreieck APC in der Abbildung",
-    verfahren="P auf DE ein Drittel von D aus markieren und mit A und C verbinden; die Kante AP läuft im Innern des Prismas",
-    schritte="1", zahlenraum="ganz", einheiten="", abhaengig_von="",
-    ergebnis="Dreieck mit den Ecken A, P (auf DE, zwei Einheiten von D entfernt) und C, Seiten AP und PC eingezeichnet (amtlich)",
-    zwischenergebnis="",
-    niveau_geschaetzt="I",
-    fehlerquelle="P bei zwei Dritteln der Kante DE eintragen",
-    bemerkung="Standardbezug: K4 I. Amtlich; der Erwartungshorizont zeigt die Abbildung mit dem eingezeichneten Dreieck. Das Feld skizze beschreibt das Material, die Lösung ist eine Zeichnung.")
-
-row("2026MgrundlegendAAGLAA213", "c", seite="1", punkte="3", afb_amtlich="II",
+row("2026MerhoehtAAGLAA212", "b", seite="1", punkte="4", afb_amtlich="II",
     leitidee="Analytische Geometrie", thema="Flächeninhalt und Volumen im Raum",
     typ="Parameter eines Punktes aus einer Flächengleichheit bestimmen", typ_neben="",
-    stichwoerter="Dreiecksfläche|rechter Winkel bei A|gleiche Flächeninhalte|Wurzelgleichung|k = √27",
-    voraussetzungen="Orthogonalität von AC und AQ erkennen|Dreiecksfläche als halbes Kathetenprodukt|Wurzelgleichung lösen",
-    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    stichwoerter="Dreieck APC gegen Rechteck ACFD|P(k; 0; 3) auf DE|Rechteckfläche 12|1/2 · |AC| · |AP| = |AC| · |AD||k = √27",
+    voraussetzungen="Ansatz für P auf der Kante DE|Orthogonalität von AC und AP erkennen|Rechteckfläche|Wurzelgleichung lösen",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
     material="Körper", skizze=PRISMA_SKIZZE, kontext="ohne", textumfang="mittel",
-    gegeben="Prisma mit A(0; 0; 0), B(6; 0; 0), C(0; 4; 0), D(0; 0; 3); Q(k; 0; 3) mit 0 <= k <= 6; das Dreieck AQC hat den gleichen Flächeninhalt wie das Dreieck ABC",
-    gesucht="Wert von k",
-    verfahren="AC steht senkrecht auf AB und auf AQ, beide Dreiecke sind rechtwinklig in A mit gemeinsamer Kathete AC; Flächengleichheit heißt |AQ| = |AB|, also √(k^2 + 9) = 6",
-    schritte="3", zahlenraum="ganz|Wurzel", einheiten="", abhaengig_von="",
-    ergebnis="1/2 · |AC| · |AQ| = 1/2 · |AC| · |AB| führt auf √(k^2 + 3^2) = 6, also k = √27 (amtlich)",
-    zwischenergebnis="|AB| = 6|k^2 = 27|k ≈ 5,20",
+    gegeben="Prisma mit A(0; 0; 0), B(6; 0; 0), C(0; 4; 0), D(0; 0; 3), E(6; 0; 3), F(0; 4; 3); P liegt auf der Kante DE; das Dreieck APC hat den gleichen Flächeninhalt wie das Viereck ACFD",
+    gesucht="Koordinaten von P",
+    verfahren="P(k; 0; 3) mit k > 0 ansetzen; AC steht senkrecht auf AP, also Dreiecksfläche 1/2 · |AC| · |AP|; das Rechteck ACFD hat |AC| · |AD|; gleichsetzen: 1/2 · √(k^2 + 9) = 3",
+    schritte="4", zahlenraum="ganz|Wurzel", einheiten="", abhaengig_von="2026MerhoehtAAGLAA212-a",
+    ergebnis="P(√27; 0; 3), also k = √27 (amtlich)",
+    zwischenergebnis="|AC| = 4, |AD| = 3|√(k^2 + 3^2) = 6|k ≈ 5,20",
     niveau_geschaetzt="II",
-    fehlerquelle="die Fläche mit einer Höhe berechnen, die nicht auf AC senkrecht steht, oder k^2 = 36 setzen",
-    bemerkung="Standardbezug: K1 II, K2 II, K4 II, K5 II. Amtlich, eigene Rechnung bestätigt.")
+    fehlerquelle="das Viereck ACFD als Dreieck behandeln oder den Faktor 1/2 auf beiden Seiten setzen",
+    bemerkung="Standardbezug: K1 II, K2 II, K4 II, K5 II. Amtlich, eigene Rechnung bestätigt. Typ aus 2026MgrundlegendAAGLAA213-c wiederverwendet; dort Dreieck gegen Dreieck, hier Dreieck gegen Rechteck, derselbe Lösungsweg – Vorschlag, die Definition auf beide Fälle zu fassen.")
 
-# ---- AG/LA (A2) 2.1: Punkt aus drei Bedingungen (ungegliedert)
-row("2026MgrundlegendAAGLAA221", seite="1", punkte="5", afb_amtlich="II|III",
-    leitidee="Analytische Geometrie", thema="Orthogonalität",
-    typ="Punkt aus Orthogonalitäts- und Ebenenbedingung bestimmen", typ_neben="",
-    stichwoerter="Ansatz C(x; y; 6)|Skalarprodukt null|Punkt in Ebene|lineares Gleichungssystem zwei Unbekannte|Bruchlösung",
-    voraussetzungen="Bedingungen in Gleichungen übersetzen|Skalarprodukt mit Unbekannten ausrechnen|LGS mit zwei Unbekannten lösen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+# ---- AG/LA (A2) 2.1: Geradenschar in einer Ebene, gleicher Abstand
+row("2026MerhoehtAAGLAA221", "a", seite="1", punkte="1", afb_amtlich="I",
+    leitidee="Analytische Geometrie", thema="Lagebeziehungen",
+    typ="Parameter einer Ebenengleichung aus einem enthaltenen Punkt bestimmen", typ_neben="",
+    stichwoerter="Geradenschar in einer Ebene|Stützpunkt einsetzen|2x2 + x3 = c|c = −5",
+    voraussetzungen="gemeinsamen Stützpunkt der Schar erkennen|Punkt in die Koordinatengleichung einsetzen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
     material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
-    gegeben="A(2; −3; −1) und B(10; −5; 3); für C gilt: die z-Koordinate von C ist 6; die Geraden AB und AC verlaufen senkrecht zueinander; C liegt in der Ebene x + 2y = 0",
-    gesucht="Koordinaten von C",
-    verfahren="C(x; y; 6) ansetzen; AB · AC = 8(x − 2) − 2(y + 3) + 4 · 7 = 8x − 2y + 6 = 0 und x + 2y = 0 als Gleichungssystem lösen",
-    schritte="4", zahlenraum="ganz|negativ|Bruch", einheiten="", abhaengig_von="",
-    ergebnis="C(−2/3; 1/3; 6) (amtlich)",
-    zwischenergebnis="AB = (8; −2; 4)|AC = (x − 2; y + 3; 7)|I: 8x − 2y + 6 = 0, II: x + 2y = 0",
-    niveau_geschaetzt="III",
-    fehlerquelle="die Ebenengleichung x + 2y = 0 als Gerade in der Ebene missdeuten oder beim Skalarprodukt die Konstante 28 vergessen",
-    bemerkung="Standardbezug: K1 III, K2 III, K5 II, K6 II. Amtlich, eigene Rechnung bestätigt. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE.")
-
-# ---- AG/LA (A2) 2.2: Prisma mit Rautengrundfläche, Drehung
-RAUTE_SKIZZE = ("Schrägbild eines Prismas ABCDEFGH über einer Raute in einem räumlichen "
-                "Koordinatensystem (x nach vorn links, y nach rechts, z nach oben) mit gepunktetem "
-                "Gitter in der xy-Ebene; Grundfläche A(2; 0; 0) vorn, B(0; 5; 0) rechts, C(−2; 0; 0) "
-                "hinten, D(0; −5; 0) links, Ursprung O in der Mitte; Deckfläche E über A, F(0; 5; 6) "
-                "über B, G über C, H über D; verdeckte Kanten gestrichelt")
-row("2026MgrundlegendAAGLAA222", "a", seite="1", punkte="2", afb_amtlich="I|II",
-    leitidee="Analytische Geometrie", thema="Flächeninhalt und Volumen im Raum",
-    typ="Volumen eines Prismas über einer Raute berechnen", typ_neben="",
-    stichwoerter="Raute aus vier rechtwinkligen Dreiecken|Diagonalen 4 und 10|Höhe 6|Volumen 120",
-    voraussetzungen="Rautenfläche aus den Diagonalen oder aus vier Dreiecken|Prismenvolumen Grundfläche mal Höhe",
-    format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Körper", skizze=RAUTE_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Prisma ABCDEFGH mit A(2; 0; 0), B(0; 5; 0), C(−2; 0; 0), D(0; −5; 0) und F(0; 5; 6); die Grundfläche ABCD ist eine Raute",
-    gesucht="Volumen des Prismas",
-    verfahren="Raute als vier rechtwinklige Dreiecke mit Katheten 2 und 5 (oder halbes Diagonalenprodukt 1/2 · 4 · 10 = 20); Höhe 6 aus F; Volumen 20 · 6",
-    schritte="2", zahlenraum="ganz", einheiten="", abhaengig_von="",
-    ergebnis="V = 4 · 1/2 · 2 · 5 · 6 = 120 (amtlich)",
-    zwischenergebnis="Grundfläche 20|Höhe 6",
-    niveau_geschaetzt="II",
-    fehlerquelle="die Raute als Rechteck 4 mal 10 nehmen und 240 erhalten",
-    bemerkung="Standardbezug: K2 II, K5 I. Amtlich, eigene Rechnung bestätigt.")
-
-row("2026MgrundlegendAAGLAA222", "b", seite="1", punkte="3", afb_amtlich="II|III",
-    leitidee="Analytische Geometrie", thema="Vektoren und Rechenoperationen",
-    typ="Ortsvektor eines gedrehten Punktes als Term aufstellen", typ_neben="",
-    stichwoerter="Drehung um eine Kante|Punkt in der xy-Ebene|Richtung senkrecht zu AB|Einheitsvektor mal Länge|Term statt Zahl",
-    voraussetzungen="zu AB senkrechten Vektor in der xy-Ebene finden|Vektor auf eine Länge normieren|Ortsvektor als Summe aufstellen",
-    format="Kurzantwort", operator="Geben Sie an", antwort="Term",
-    material="Körper", skizze=RAUTE_SKIZZE, kontext="ohne", textumfang="lang",
-    gegeben="Prisma ABCDEFGH mit A(2; 0; 0), B(0; 5; 0), C(−2; 0; 0), D(0; −5; 0), F(0; 5; 6); das Prisma wird so um die Kante AB gedreht, dass F nach der Drehung in der xy-Ebene liegt und eine positive x-Koordinate hat; dieser Punkt heißt F'",
-    gesucht="Term für den Ortsvektor von F', mit dem die Koordinaten von F' berechnet werden können",
-    verfahren="F' liegt in der xy-Ebene senkrecht zu AB im Abstand |BF| = 6 von B: (5; 2; 0) steht senkrecht auf AB = (−2; 5; 0) und zeigt in positive x-Richtung; OF' = OB + |BF|/|AB| · (5; 2; 0), weil (5; 2; 0) die Länge |AB| = √29 hat",
-    schritte="3", zahlenraum="ganz|Wurzel", einheiten="", abhaengig_von="",
-    ergebnis="OF' = OB + |BF|/|AB| · (5; 2; 0) (amtlich)",
-    zwischenergebnis="|BF| = 6|AB = (−2; 5; 0), |AB| = √29|F' ≈ (5,57; 7,23; 0)",
-    niveau_geschaetzt="III",
-    fehlerquelle="F einfach auf die xy-Ebene projizieren und F' = B setzen, oder die Richtung (5; 2; 0) nicht auf die Länge 6 bringen",
-    bemerkung="Standardbezug: K2 III, K4 III, K5 II, K6 II. Amtlich, eigene Rechnung bestätigt: |BF'| = 6.")
-
-# ---- Stochastik 1.1: Binomialverteilung aus dem Säulendiagramm
-BIN_SKIZZE = ("Säulendiagramm der Wahrscheinlichkeitsverteilung P(X = k) für k = 0 bis 12 mit "
-              "y-Achse von 0 bis 0,25 (Marken 0,05, 0,1, 0,15, 0,2) und feinem Gitter; Säulenhöhen "
-              "etwa 0,01 (k = 0), 0,06 (1), 0,14 (2), 0,205 (3), 0,22 (4, höchste), 0,175 (5), "
-              "0,11 (6), 0,055 (7), 0,02 (8), 0,007 (9), danach nahe null")
-row("2026MgrundlegendAStochastik11", "a", seite="1", punkte="2", afb_amtlich="I",
-    leitidee="Stochastik", thema="Kenngrößen von Verteilungen",
-    typ="Trefferwahrscheinlichkeit aus dem ganzzahligen Erwartungswert im Diagramm ermitteln", typ_neben="",
-    stichwoerter="Binomialverteilung n = 20|Säulendiagramm|Erwartungswert ganzzahlig|höchste Säule bei 4|p = 0,2",
-    voraussetzungen="Erwartungswert n · p kennen|Erwartungswert als Lage der höchsten Säule deuten",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="Diagramm", skizze=BIN_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Säulendiagramm der Wahrscheinlichkeitsverteilung einer binomialverteilten Zufallsgröße X mit n = 20 und unbekanntem p; höchste Säule bei k = 4; der Erwartungswert von X ist ganzzahlig",
-    gesucht="Wert von p",
-    verfahren="der ganzzahlige Erwartungswert liegt an der höchsten Säule, also 20 · p = 4",
-    schritte="2", zahlenraum="dezimal", einheiten="", abhaengig_von="",
-    ergebnis="20 · p = 4 liefert p = 0,2 (amtlich)",
-    zwischenergebnis="",
+    gegeben="g_a: x = (1; −1; −3) + t · (1; a; −2a) für reelle a und t; E: 2x2 + x3 = c; jede Gerade g_a liegt in E",
+    gesucht="Wert von c",
+    verfahren="der gemeinsame Punkt (1; −1; −3) aller Geraden liegt in E: 2 · (−1) + (−3) = c",
+    schritte="1", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="c = −5 (amtlich)",
+    zwischenergebnis="Probe: Richtungsvektor (1; a; −2a) mit Normalenvektor (0; 2; 1): 2a − 2a = 0",
     niveau_geschaetzt="I",
-    fehlerquelle="p aus der Höhe der höchsten Säule (0,22) ablesen",
-    bemerkung="Standardbezug: K2 I, K4 I, K5 I. Amtlich, eigene Rechnung bestätigt.")
+    fehlerquelle="den Richtungsvektor statt des Stützpunkts einsetzen",
+    bemerkung="Standardbezug: K2 I, K5 I. Amtlich, eigene Rechnung bestätigt.")
 
-row("2026MgrundlegendAStochastik11", "b", seite="1", punkte="3", afb_amtlich="I|II",
-    leitidee="Stochastik", thema="Binomialverteilung",
-    typ="Werte zu Wahrscheinlichkeitsbedingungen aus dem Säulendiagramm ablesen", typ_neben="",
-    stichwoerter="P(X = v) ≈ 0,175|kumulierte Wahrscheinlichkeit|0,15 < P(X <= w) < 0,25|Säulen addieren",
-    voraussetzungen="Einzelwahrscheinlichkeit als Säulenhöhe lesen|kumulierte Wahrscheinlichkeit als Summe von Säulen",
-    format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
-    material="Diagramm", skizze=BIN_SKIZZE, kontext="ohne", textumfang="kurz",
-    gegeben="Säulendiagramm von P(X = k) für X binomialverteilt mit n = 20 und p = 0,2: Säulenhöhen etwa 0,01, 0,06, 0,14, 0,205, 0,22, 0,175 für k = 0 bis 5; Bedingungen P(X = v) ≈ 0,175 und 0,15 < P(X <= w) < 0,25",
-    gesucht="natürliche Zahlen v und w",
-    verfahren="v an der Säule mit Höhe 0,175 ablesen; für w die Säulen von k = 0 an addieren, bis die Summe zwischen 0,15 und 0,25 liegt",
-    schritte="2", zahlenraum="dezimal", einheiten="", abhaengig_von="2026MgrundlegendAStochastik11-a",
-    ergebnis="v = 5; w = 2 (amtlich)",
-    zwischenergebnis="P(X <= 1) ≈ 0,07|P(X <= 2) ≈ 0,21|P(X <= 3) ≈ 0,41",
+row("2026MerhoehtAAGLAA221", "b", seite="1", punkte="4", afb_amtlich="II|III",
+    leitidee="Analytische Geometrie", thema="Abstände",
+    typ="Gleichen Abstand eines Punktes zu einer Geradenschar über den Lotfußpunkt beurteilen", typ_neben="",
+    stichwoerter="ohne Abstandsberechnung|gemeinsamer Punkt Q aller Geraden|PQ kollinear zum Normalenvektor|Q ist Lotfußpunkt von P auf E|Aussage wahr",
+    voraussetzungen="Abstand Punkt-Gerade als Länge des Lots|Lotfußpunkt auf der Ebene über den Normalenvektor erkennen|Schar als Geradenbüschel durch einen Punkt deuten",
+    format="Begründung", operator="Beurteilen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
+    gegeben="g_a: x = (1; −1; −3) + t · (1; a; −2a), alle in E: 2x2 + x3 = −5; P(1; 3; −1); Aussage: P hat zu jeder Geraden g_a den gleichen Abstand; Abstände sollen nicht berechnet werden",
+    gesucht="Beurteilung der Aussage",
+    verfahren="Q(1; −1; −3) ist gemeinsamer Punkt aller g_a; PQ = (0; −4; −2) ist kollinear zum Normalenvektor (0; 2; 1) von E, also ist Q der Lotfußpunkt von P auf E; das Lot von P auf E steht senkrecht auf jeder Geraden durch Q in E, der Abstand ist stets |PQ|",
+    schritte="3", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="2026MerhoehtAAGLAA221-a",
+    ergebnis="die Aussage ist wahr: Q(1; −1; −3) liegt auf jeder g_a, PQ = (0; −4; −2) ist kollinear zum Normalenvektor (0; 2; 1), also ist Q der Lotfußpunkt von P auf E und P hat zu jeder Geraden den Abstand |PQ| (amtlich)",
+    zwischenergebnis="PQ = −2 · (0; 2; 1)|zum Vergleich |PQ| = √20",
+    niveau_geschaetzt="III",
+    fehlerquelle="Abstände für einzelne Werte von a berechnen und daraus verallgemeinern",
+    bemerkung="Standardbezug: K1 III, K2 III, K4 II, K6 III. Amtlich, eigene Rechnung bestätigt.")
+
+# ---- AG/LA (A2) 2.2: Dreiecke mit zwei Parametern
+GER_SKIZZE = ("Koordinatensystem mit s-Achse von −4 bis 4 und t-Achse von −6 bis 9, Gitter; eine "
+              "Gerade durch den Ursprung mit Steigung 5 (durch (1; 5) und (−1; −5))")
+row("2026MerhoehtAAGLAA222", "a", seite="1", punkte="2", afb_amtlich="I|II",
+    leitidee="Analytische Geometrie", thema="Orthogonalität",
+    typ="Rechten Winkel eines Dreiecks mit Parameter nachweisen", typ_neben="",
+    stichwoerter="B_s in der xy-Ebene|C_t auf der z-Achse|rechter Winkel in A für alle s, t|Skalarprodukt (4s; 3s; 0) · (0; 0; t) = 0",
+    voraussetzungen="Lage der Punkte in Koordinatenebene und Achse erkennen oder Skalarprodukt mit Parametern",
+    format="Begründung", operator="Begründen Sie", antwort="Text",
+    material="Koordinatensystem", skizze=GER_SKIZZE, kontext="ohne", textumfang="kurz",
+    gegeben="Dreiecke AB_sC_t mit A(0; 0; 0), B_s(4s; 3s; 0) und C_t(0; 0; t), s und t positiv reell",
+    gesucht="Begründung, dass jedes Dreieck AB_sC_t in A rechtwinklig ist",
+    verfahren="die Seite AB_s liegt in der xy-Ebene, die Seite AC_t auf der z-Achse, die auf dieser Ebene senkrecht steht; rechnerisch ist (4s; 3s; 0) · (0; 0; t) = 0",
+    schritte="1", zahlenraum="ganz", einheiten="", abhaengig_von="",
+    ergebnis="AB_s liegt in der xy-Ebene und AC_t auf der z-Achse, die senkrecht zur xy-Ebene steht, also ist der Winkel bei A für alle s und t ein rechter (amtlich)",
+    zwischenergebnis="",
     niveau_geschaetzt="II",
-    fehlerquelle="für w die Säule mit Höhe zwischen 0,15 und 0,25 nehmen statt die Summe zu bilden",
-    bemerkung="Standardbezug: K2 II, K4 II, K5 I. Amtlich, eigene Rechnung bestätigt (P(X = 5) = 0,175, P(X <= 2) = 0,206).")
+    fehlerquelle="nur für ein Zahlenbeispiel von s und t rechnen",
+    bemerkung="Standardbezug: K1 II, K2 I, K4 II, K6 I. Amtlich. Typ aus 2026MgrundlegendAAGLAA112-a wiederverwendet; der Erwartungshorizont argumentiert über die Lage, das Skalarprodukt führt zum selben Nachweis. Das abgebildete s-t-Koordinatensystem gehört zu Teilaufgabe b.")
 
-# ---- Stochastik 1.2: fünf Münzwürfe
-row("2026MgrundlegendAStochastik12", "a", seite="1", punkte="2", afb_amtlich="I",
+row("2026MerhoehtAAGLAA222", "b", seite="1", punkte="3", afb_amtlich="II|III",
+    leitidee="Analytische Geometrie", thema="Abstände",
+    typ="Parameter aus der Gleichschenkligkeit eines Dreiecks berechnen",
+    typ_neben="Beziehung zweier Parameter mit einer abgebildeten Geraden abgleichen",
+    stichwoerter="|AB_s| = |AC_t||√((4s)^2 + (3s)^2) = 5s|t = 5s|Gerade durch den Ursprung mit Steigung 5|Punkte (s; t)",
+    voraussetzungen="Vektorbetrag mit Parameter|Gleichung der abgebildeten Geraden ablesen",
+    format="Begründung", operator="Zeigen Sie", antwort="Text",
+    material="Koordinatensystem", skizze=GER_SKIZZE, kontext="ohne", textumfang="mittel",
+    gegeben="Dreiecke AB_sC_t mit A(0; 0; 0), B_s(4s; 3s; 0), C_t(0; 0; t), s und t positiv, rechtwinklig in A; zu jedem s gibt es ein t mit gleichschenkligem Dreieck; Abbildung eines s-t-Koordinatensystems mit einer Geraden durch den Ursprung mit Steigung 5",
+    gesucht="Nachweis, dass die zugehörigen Punkte (s; t) auf der abgebildeten Geraden liegen",
+    verfahren="gleichschenklig im rechten Winkel heißt |AB_s| = |AC_t|: √(16s^2 + 9s^2) = 5s = t; die abgebildete Gerade hat die Gleichung t = 5s",
+    schritte="2", zahlenraum="ganz|Wurzel", einheiten="", abhaengig_von="2026MerhoehtAAGLAA222-a",
+    ergebnis="t = 5s ist eine Gleichung der dargestellten Geraden; |AB_s| = |AC_t| ist gleichwertig zu √((4s)^2 + (3s)^2) = t, also t = 5s (amtlich)",
+    zwischenergebnis="|AB_s| = 5s",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Hypotenuse B_sC_t mit einer Kathete gleichsetzen",
+    bemerkung="Standardbezug: K1 III, K2 III, K4 III, K5 II, K6 II. Amtlich, eigene Rechnung bestätigt. Haupttyp aus 2026MgrundlegendAAGLAA112-b wiederverwendet.")
+
+# ---- AG/LA (A2) 2.3: Symmetrieebenen einer Pyramidenschar (ungegliedert)
+row("2026MerhoehtAAGLAA223", seite="1", punkte="5", afb_amtlich="II|III",
+    leitidee="Analytische Geometrie", thema="Spiegelung",
+    typ="Symmetrieebenen eines Körpers aus den Koordinaten begründen", typ_neben="",
+    stichwoerter="Pyramidenschar|Grundfläche Rechteck|Symmetrieebene x = 0|Symmetrieebene y = t|Mittelwert der y-Koordinaten|Spitze in beiden Ebenen",
+    voraussetzungen="Spiegelung an einer Koordinatenebene als Vorzeichenwechsel|Mittelebene zweier Punkte über den Mittelwert einer Koordinate|Koordinatengleichung achsenparalleler Ebenen",
+    format="Kurzantwort|Begründung", operator="Geben Sie an|Begründen Sie", antwort="Term|Text",
+    material="keins", skizze="keine", kontext="ohne", textumfang="lang",
+    gegeben="für t > 0 die Pyramide A_tB_tCDS_t mit A_t(1; 1 + 2t; 0), B_t(−1; 1 + 2t; 0), C(−1; −1; 0), D(1; −1; 0) und S_t(0; t; 6); jede Pyramide hat genau zwei Symmetrieebenen",
+    gesucht="je eine Gleichung der beiden Symmetrieebenen für jeden Wert von t, mit Begründung",
+    verfahren="x = 0: D und C sowie A_t und B_t unterscheiden sich nur im Vorzeichen der x-Koordinate, S_t hat x = 0; y = t: D und A_t sowie C und B_t unterscheiden sich nur in der y-Koordinate mit Mittelwert (1 + 2t − 1)/2 = t, S_t hat y = t",
+    schritte="4", zahlenraum="ganz|negativ", einheiten="", abhaengig_von="",
+    ergebnis="x = 0 und y = t; bei x = 0 gehen C und D bzw. A_t und B_t durch Vorzeichenwechsel der x-Koordinate ineinander über und S_t liegt in der Ebene; bei y = t ist t der Mittelwert der y-Koordinaten von D und A_t bzw. C und B_t, und S_t liegt in der Ebene (amtlich)",
+    zwischenergebnis="Grundfläche ist ein Rechteck mit den Seiten 2 und 2 + 2t|Mittelwert (1 + 2t + (−1))/2 = t",
+    niveau_geschaetzt="III",
+    fehlerquelle="y = 1 + t als Mitte der Grundfläche schätzen statt den Mittelwert der y-Koordinaten zu bilden",
+    bemerkung="Standardbezug: K1 II, K2 III, K4 III, K6 II. Amtlich, eigene Rechnung bestätigt. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE. Keine Abbildung.")
+
+# ---- Stochastik 1.1: Binomialverteilung n = 36, p = 0,5
+BIN36_SKIZZE = ("Säulendiagramm der Wahrscheinlichkeitsverteilung P(X = k) für k = 0 bis 36 (Achse "
+                "beschriftet in Zweierschritten), y-Achse von 0 bis 0,15 mit Marken 0,05, 0,1 und "
+                "feinem Gitter; symmetrische Glockenform um k = 18 mit Höhen etwa 0,13 (k = 18), "
+                "0,125 (17 und 19), 0,11 (16 und 20), 0,08 (15 und 21), 0,055 (14 und 22), "
+                "0,035 (13 und 23), 0,02 (12 und 24), unter 0,01 ab k = 10 bzw. 26")
+row("2026MerhoehtAStochastik11", "a", seite="1", punkte="1", afb_amtlich="I",
     leitidee="Stochastik", thema="Binomialverteilung",
     typ="Term für eine Wahrscheinlichkeit einer Bernoulli-Kette angeben", typ_neben="",
-    stichwoerter="fünf Münzwürfe|höchstens einmal Wappen|Term angeben|Binomialkoeffizient 5",
-    voraussetzungen="höchstens einmal als kein Mal oder genau einmal zerlegen|Anzahl der Anordnungen zählen",
+    stichwoerter="B(36; 0,5)|P(X = 27)|Binomialkoeffizient 36 über 27|Term angeben",
+    voraussetzungen="Bernoulli-Formel",
     format="Kurzantwort", operator="Geben Sie an", antwort="Term",
-    material="keins", skizze="keine", kontext="Münzwurf", textumfang="mittel",
-    gegeben="eine Münze mit Zahl und Wappen wird fünfmal geworfen; Ergebnisse sind Abfolgen wie ZWZZW; Ereignis A: es wird höchstens einmal Wappen erzielt",
-    gesucht="Term, mit dem P(A) berechnet werden kann",
-    verfahren="P(kein Wappen) + P(genau einmal Wappen) mit (1/2)^5 und 5 · 1/2 · (1/2)^4",
-    schritte="2", zahlenraum="Bruch|Potenz", einheiten="", abhaengig_von="",
-    ergebnis="(1/2)^5 + 5 · 1/2 · (1/2)^4 (amtlich)",
-    zwischenergebnis="Wert 6/32 = 3/16",
-    niveau_geschaetzt="I",
-    fehlerquelle="den Faktor 5 für die Position des Wappens vergessen",
-    bemerkung="Standardbezug: K2 I, K3 I. Amtlich, eigene Rechnung bestätigt.")
-
-row("2026MgrundlegendAStochastik12", "b", seite="1", punkte="3", afb_amtlich="II",
-    leitidee="Stochastik", thema="Ereignisse und Mengenoperationen",
-    typ="Ergebnisse zum Gegenereignis zweier Ereignisse aufzählen", typ_neben="",
-    stichwoerter="weder A noch B|Gegenereignis|erste zwei Würfe Zahl|mindestens zweimal Wappen|vier Ergebnisse",
-    voraussetzungen="weder-noch als Schnitt der Gegenereignisse deuten|Ergebnisse systematisch aufzählen",
-    format="Kurzantwort", operator="Geben Sie an", antwort="Text",
-    material="keins", skizze="keine", kontext="Münzwurf", textumfang="mittel",
-    gegeben="fünf Münzwürfe mit Ergebnissen als Abfolgen von Z und W; A: höchstens einmal Wappen; B: bei den ersten beiden Würfen mindestens einmal Wappen; es tritt weder A noch B ein",
-    gesucht="alle Ergebnisse, bei denen weder A noch B eintritt",
-    verfahren="nicht B heißt die ersten beiden Würfe sind ZZ; nicht A heißt mindestens zweimal Wappen, also in den letzten drei Würfen zwei oder drei W; alle Abfolgen aufzählen",
-    schritte="2", zahlenraum="ganz", einheiten="", abhaengig_von="",
-    ergebnis="ZZWWW, ZZZWW, ZZWZW, ZZWWZ (amtlich)",
-    zwischenergebnis="",
-    niveau_geschaetzt="II",
-    fehlerquelle="nicht A als genau zweimal Wappen lesen und ZZWWW vergessen",
-    bemerkung="Standardbezug: K2 II, K3 II, K6 II. Amtlich, eigene Aufzählung bestätigt.")
-
-# ---- Stochastik 1.3: Baumdiagramm Versand
-BAUM_SKIZZE = ("zweistufiges Baumdiagramm: erste Stufe A (40 %) und A quer, zweite Stufe je V und "
-               "V quer; am Ast A–V steht x, am Ende 8 %; am Ast A quer–V steht 30 %, am Ende y; die "
-               "übrigen Äste ohne Angabe")
-row("2026MgrundlegendAStochastik13", "a", seite="1", punkte="3", afb_amtlich="I",
-    leitidee="Stochastik", thema="Baumdiagramm und Pfadregeln",
-    typ="Fehlende Wahrscheinlichkeiten im Baumdiagramm über die Pfadregel ermitteln", typ_neben="",
-    stichwoerter="Baumdiagramm|Pfadmultiplikation rückwärts|x = 0,08/0,4|y = 0,6 · 0,3|Prozentangaben",
-    voraussetzungen="Pfadregel|Gegenwahrscheinlichkeit 1 − 0,4",
-    format="Rechnung|Begründung", operator="Ermitteln Sie|Weisen Sie nach", antwort="Zahl|Text",
-    material="Diagramm", skizze=BAUM_SKIZZE, kontext="Onlinehandel/Versand", textumfang="mittel",
-    gegeben="Sendungen werden zu 40 % mit Versandunternehmen A verschickt; 8 % aller Sendungen werden mit A verschickt und verspätet zugestellt; 30 % der nicht mit A verschickten Sendungen werden verspätet zugestellt; Baumdiagramm mit den Anteilen x (Ast A nach V) und y (Ende des Pfads A quer, V)",
-    gesucht="Anteil x|Nachweis, dass y = 18 % gilt",
-    verfahren="x als bedingter Anteil 0,08/0,4; y als Pfadprodukt (1 − 0,4) · 0,3",
-    schritte="2", zahlenraum="dezimal|Prozent", einheiten="", abhaengig_von="",
-    ergebnis="x = 0,08/0,4 = 0,2, also 20 %|y = (1 − 0,4) · 0,3 = 0,18, also 18 % (amtlich)",
-    zwischenergebnis="",
-    niveau_geschaetzt="I",
-    fehlerquelle="x = 0,08 direkt an den Ast schreiben, ohne durch 0,4 zu teilen",
-    bemerkung="Standardbezug: K2 I, K4 I, K5 I. Amtlich, eigene Rechnung bestätigt.")
-
-row("2026MgrundlegendAStochastik13", "b", seite="1", punkte="2", afb_amtlich="I|II",
-    leitidee="Stochastik", thema="Bedingte Wahrscheinlichkeit und Bayes",
-    typ="Bedingte Wahrscheinlichkeit aus dem Baumdiagramm mit einer Schranke vergleichen", typ_neben="",
-    stichwoerter="bedingte Wahrscheinlichkeit|Bedingung verspätet|0,18/(0,08 + 0,18)|größer als 50 %",
-    voraussetzungen="Bedingung als Nenner aus zwei Pfaden zusammensetzen",
-    format="Rechnung", operator="Untersuchen Sie", antwort="Zahl|Text",
-    material="Diagramm", skizze=BAUM_SKIZZE, kontext="Onlinehandel/Versand", textumfang="mittel",
-    gegeben="Baumdiagramm: P(A) = 0,4, P(A und verspätet) = 0,08, P(nicht A und verspätet) = 0,18; eine zufällig ausgewählte Sendung wird verspätet zugestellt",
-    gesucht="Untersuchung, ob die Wahrscheinlichkeit, dass diese Sendung nicht mit A verschickt wurde, größer als 50 % ist",
-    verfahren="P(nicht A | verspätet) = 0,18/(0,08 + 0,18) berechnen und mit 0,5 vergleichen",
-    schritte="2", zahlenraum="dezimal|Prozent", einheiten="", abhaengig_von="2026MgrundlegendAStochastik13-a",
-    ergebnis="0,18/(0,08 + 0,18) = 0,18/0,26 > 0,5, also ja (amtlich)",
-    zwischenergebnis="0,18/0,26 ≈ 0,69",
-    niveau_geschaetzt="II",
-    fehlerquelle="mit 0,3 (Anteil unter den nicht mit A verschickten) statt mit der bedingten Wahrscheinlichkeit unter der Bedingung verspätet antworten",
-    bemerkung="Standardbezug: K1 I, K3 II, K4 II, K5 II, K6 I. Amtlich, eigene Rechnung bestätigt.")
-
-# ---- Stochastik 2.1: Glücksrad (ungegliedert)
-row("2026MgrundlegendAStochastik21", seite="1", punkte="5", afb_amtlich="II|III",
-    leitidee="Stochastik", thema="Zufallsexperimente und Urnenmodelle",
-    typ="Sektorwinkel eines Glücksrads aus einer Wahrscheinlichkeitsbedingung berechnen", typ_neben="",
-    stichwoerter="Glücksrad zwei Sektoren|zweimal gleiche Farbe|p^2 + (1 − p)^2 = 5/9|quadratische Gleichung|Mittelpunktswinkel 120°",
-    voraussetzungen="Pfadregel für zwei Drehungen|quadratische Gleichung lösen|Anteil in Winkel umrechnen",
-    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Glücksrad", textumfang="kurz",
-    gegeben="Glücksrad mit einem roten und einem weißen Sektor; die Wahrscheinlichkeit, beim zweimaligen Drehen zweimal die gleiche Farbe zu erzielen, beträgt 5/9",
-    gesucht="Größe des Mittelpunktswinkels des kleineren Sektors",
-    verfahren="p für den kleineren Sektor ansetzen, p^2 + (1 − p)^2 = 5/9 aufstellen, die quadratische Gleichung 2p^2 − 2p + 4/9 = 0 lösen und die kleinere Lösung 1/3 mit 360° multiplizieren",
-    schritte="4", zahlenraum="Bruch", einheiten="°", abhaengig_von="",
-    ergebnis="p = 1/3, Mittelpunktswinkel 1/3 · 360° = 120° (amtlich)",
-    zwischenergebnis="2p^2 − 2p + 4/9 = 0|p = 1/2 − √(1/4 − 2/9) = 1/3 (andere Lösung 2/3)",
-    niveau_geschaetzt="III",
-    fehlerquelle="nur einen Pfad (zweimal rot) ansetzen oder die Lösung 2/3 als kleineren Sektor nehmen",
-    bemerkung="Standardbezug: K2 III, K3 III, K5 II. Amtlich, eigene Rechnung bestätigt. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE.")
-
-# ---- Stochastik 2.2: n und p aus Erwartungswert und Standardabweichung (ungegliedert)
-row("2026MgrundlegendAStochastik22", seite="1", punkte="5", afb_amtlich="II|III",
-    leitidee="Stochastik", thema="Kenngrößen von Verteilungen",
-    typ="Parameter einer Binomialverteilung aus Erwartungswert und Standardabweichung bestimmen",
-    typ_neben="Term für eine Wahrscheinlichkeit einer Bernoulli-Kette angeben",
-    stichwoerter="μ = n · p|σ = √(n · p · (1 − p))|p = 0,8 und n = 25|parameterfreier Term|P(X = 21)",
-    voraussetzungen="Formeln für Erwartungswert und Standardabweichung der Binomialverteilung|Gleichungssystem durch Einsetzen lösen|Bernoulli-Formel",
-    format="Rechnung", operator="Bestimmen Sie", antwort="Term",
     material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="binomialverteilte Zufallsgröße X mit Erwartungswert μ = 20 und Standardabweichung σ = 2",
-    gesucht="parameterfreier Term für P(X = 21)",
-    verfahren="aus σ^2 = n · p · (1 − p) = μ · (1 − p) folgt 4 = 20 · (1 − p), also p = 0,8 und n = μ/p = 25; dann Bernoulli-Formel für k = 21",
-    schritte="3", zahlenraum="dezimal|Potenz", einheiten="", abhaengig_von="",
-    ergebnis="(25 über 21) · 0,8^21 · 0,2^4 (amtlich)",
-    zwischenergebnis="1 − p = 0,2|p = 0,8|n = 25|Wert ≈ 0,187",
+    gegeben="binomialverteilte Zufallsgröße X mit n = 36 und p = 0,5",
+    gesucht="Term, mit dem P(X = 27) berechnet werden kann",
+    verfahren="Bernoulli-Formel mit k = 27 aufschreiben",
+    schritte="1", zahlenraum="dezimal|Potenz", einheiten="", abhaengig_von="",
+    ergebnis="(36 über 27) · 0,5^27 · 0,5^9 (amtlich)",
+    zwischenergebnis="Wert ≈ 0,0018",
+    niveau_geschaetzt="I",
+    fehlerquelle="den Binomialkoeffizienten weglassen",
+    bemerkung="Standardbezug: K5 I. Amtlich. Typ aus 2026MgrundlegendAStochastik12-a wiederverwendet.")
+
+row("2026MerhoehtAStochastik11", "b", seite="1", punkte="4", afb_amtlich="I|II",
+    leitidee="Stochastik", thema="Kenngrößen von Verteilungen",
+    typ="Wahrscheinlichkeit eines Sigma-Intervalls aus dem Säulendiagramm ermitteln", typ_neben="",
+    stichwoerter="μ = 18, σ = 3|halbes Sigma-Intervall|P(16,5 <= X <= 19,5) = P(17 <= X <= 19)|Säulen addieren|≈ 0,38",
+    voraussetzungen="μ = n · p und σ = √(n · p · (1 − p))|Intervall auf ganze Zahlen übertragen|Säulenhöhen ablesen und addieren",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="Diagramm", skizze=BIN36_SKIZZE, kontext="ohne", textumfang="mittel",
+    gegeben="X binomialverteilt mit n = 36 und p = 0,5; Säulendiagramm der Verteilung mit Höhen etwa 0,13 bei k = 18 und 0,125 bei k = 17 und 19; μ Erwartungswert, σ Standardabweichung",
+    gesucht="Näherungswert für P(μ − 0,5 · σ <= X <= μ + 0,5 · σ)",
+    verfahren="μ = 36 · 0,5 = 18 und σ = √(18 · 0,5) = 3 berechnen; das Intervall [16,5; 19,5] enthält k = 17, 18, 19; deren Säulenhöhen addieren",
+    schritte="3", zahlenraum="dezimal", einheiten="", abhaengig_von="",
+    ergebnis="μ = 18, σ = 3; P(17 <= X <= 19) ≈ 0,13 + 2 · 0,125 = 0,38 (amtlich)",
+    zwischenergebnis="μ − 0,5σ = 16,5|μ + 0,5σ = 19,5|exakt 0,382",
+    niveau_geschaetzt="III",
+    fehlerquelle="σ = √(n · p) = √18 rechnen oder die Grenzen 16,5 und 19,5 auf k = 16 bis 20 runden",
+    bemerkung="Standardbezug: K1 II, K2 I, K4 II, K5 I. Amtlich, eigene Rechnung bestätigt (exakt 0,382). Schätzung III nach der Regel „Kombinieren heißt III“ (zwei Kenngrößen, Intervall übersetzen, Diagramm lesen), amtlich bis II.")
+
+# ---- Stochastik 1.2: Glücksrad, abwechselnd drehen
+row("2026MerhoehtAStochastik12", "a", seite="1", punkte="1", afb_amtlich="I",
+    leitidee="Stochastik", thema="Baumdiagramm und Pfadregeln",
+    typ="Term für die Wahrscheinlichkeit eines mehrstufigen Pfads angeben", typ_neben="",
+    stichwoerter="Glücksrad ein Drittel grün|viermal kein Grün|(2/3)^4|unentschieden",
+    voraussetzungen="Pfadmultiplikation bei gleichbleibender Wahrscheinlichkeit",
+    format="Kurzantwort", operator="Geben Sie an", antwort="Term",
+    material="keins", skizze="keine", kontext="Glücksrad/Spiel", textumfang="lang",
+    gegeben="Glücksrad mit drei gleich großen Sektoren, einer grün; A und B drehen abwechselnd, wer zuerst Grün erzielt, gewinnt; nach je zwei Drehungen ohne Grün endet das Spiel unentschieden; A beginnt",
+    gesucht="Term für die Wahrscheinlichkeit, dass das Spiel unentschieden endet",
+    verfahren="unentschieden heißt viermal nacheinander kein Grün, also (2/3)^4",
+    schritte="1", zahlenraum="Bruch|Potenz", einheiten="", abhaengig_von="",
+    ergebnis="(2/3)^4 (amtlich)",
+    zwischenergebnis="Wert 16/81",
+    niveau_geschaetzt="I",
+    fehlerquelle="(1/3)^4 als Wahrscheinlichkeit für vier Fehlversuche ansetzen",
+    bemerkung="Standardbezug: K2 I, K3 I, K5 I. Amtlich, eigene Rechnung bestätigt.")
+
+row("2026MerhoehtAStochastik12", "b", seite="1", punkte="4", afb_amtlich="I|II",
+    leitidee="Stochastik", thema="Baumdiagramm und Pfadregeln",
+    typ="Gewinnwahrscheinlichkeiten in einem Wechselspiel vergleichen", typ_neben="",
+    stichwoerter="A gewinnt in Runde 1 oder 3|B gewinnt in Runde 2 oder 4|P(A) = 1/3 + (2/3)^2 · 1/3|P(B) = 2/3 · P(A)|Faktor 1,5|Aussage wahr",
+    voraussetzungen="Pfade für die Gewinnzüge aufstellen|Summenregel|Verhältnis zweier Wahrscheinlichkeiten bilden",
+    format="Begründung|Rechnung", operator="Beurteilen Sie", antwort="Text",
+    material="keins", skizze="keine", kontext="Glücksrad/Spiel", textumfang="mittel",
+    gegeben="Glücksrad mit Trefferwahrscheinlichkeit 1/3; A und B drehen abwechselnd, höchstens je zweimal, A beginnt; wer zuerst Grün erzielt, gewinnt; Aussage: P(A gewinnt) ist das 1,5-Fache von P(B gewinnt)",
+    gesucht="Beurteilung der Aussage",
+    verfahren="P(A) = 1/3 + (2/3)^2 · 1/3 (erster oder dritter Dreh), P(B) = 2/3 · 1/3 + (2/3)^3 · 1/3 (zweiter oder vierter Dreh) = 2/3 · P(A); also P(A) = 1,5 · P(B)",
+    schritte="3", zahlenraum="Bruch|Potenz", einheiten="", abhaengig_von="2026MerhoehtAStochastik12-a",
+    ergebnis="P(A gewinnt) = 1/3 + (2/3)^2 · 1/3 und P(B gewinnt) = 2/3 · 1/3 + (2/3)^3 · 1/3 = 2/3 · P(A gewinnt), also P(A gewinnt) = 1,5 · P(B gewinnt): die Aussage ist wahr (amtlich)",
+    zwischenergebnis="P(A) = 13/27|P(B) = 26/81",
     niveau_geschaetzt="II",
-    fehlerquelle="σ statt σ^2 in die Formel setzen und 2 = 20 · (1 − p) rechnen",
-    bemerkung="Standardbezug: K2 III, K5 II, K6 II. Amtlich, eigene Rechnung bestätigt. Aufgabe ohne Teilaufgabenbuchstaben, eine Zeile mit 5 BE. Eigene Schätzung II, amtlich bis III.")
+    fehlerquelle="für B nur den zweiten Dreh berücksichtigen",
+    bemerkung="Standardbezug: K1 II, K2 I, K3 I, K5 II. Amtlich, eigene Rechnung bestätigt.")
+
+# ---- Stochastik 2.1: zwei Würfel mit Netzen
+WUERFEL_SKIZZE = ("zwei Würfelnetze nebeneinander in Kreuzform: Würfel A mit der Reihe 3, 3, 5, 3 "
+                  "und darüber und darunter je 5 (drei Dreien, drei Fünfen); Würfel B mit der Reihe "
+                  "4, 4, 4, 4 und darüber und darunter je 1 (vier Vieren, zwei Einsen)")
+row("2026MerhoehtAStochastik21", "a", seite="1", punkte="3", afb_amtlich="II|III",
+    leitidee="Stochastik", thema="Baumdiagramm und Pfadregeln",
+    typ="Wahrscheinlichkeit eines Vergleichs zweier Zufallsgeräte über Pfade berechnen", typ_neben="",
+    stichwoerter="Würfelnetze|A: 3 oder 5 je 1/2|B: 4 mit 2/3, 1 mit 1/3|A größer als B mit 2/3|zwei Runden (2/3)^2 = 4/9",
+    voraussetzungen="Wahrscheinlichkeiten aus den Netzen ablesen|Fälle für A > B aufstellen|Pfadregeln über zwei Runden",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="Figur", skizze=WUERFEL_SKIZZE, kontext="Würfelspiel", textumfang="mittel",
+    gegeben="Würfel A mit den Zahlen 3, 3, 3, 5, 5, 5 und Würfel B mit 4, 4, 4, 4, 1, 1 (aus den abgebildeten Netzen); pro Runde wird jeder Würfel einmal geworfen; es werden zwei Runden gespielt",
+    gesucht="Wahrscheinlichkeit, dass in beiden Runden mit A eine größere Zahl erzielt wird als mit B",
+    verfahren="in einer Runde ist A größer bei A = 5 (Wahrscheinlichkeit 1/2) oder bei A = 3 und B = 1 (1/2 · 1/3), zusammen 2/3; für zwei Runden quadrieren",
+    schritte="3", zahlenraum="Bruch", einheiten="", abhaengig_von="",
+    ergebnis="in einer Runde 1/2 · 1/3 + 1/2 = 2/3, in zwei Runden (2/3)^2 = 4/9 (amtlich)",
+    zwischenergebnis="P(A = 5) = 1/2|P(A = 3 und B = 1) = 1/6",
+    niveau_geschaetzt="III",
+    fehlerquelle="den Fall A = 3 und B = 1 vergessen und mit (1/2)^2 rechnen",
+    bemerkung="Standardbezug: K1 II, K2 III, K3 II, K5 II, K6 II. Amtlich, eigene Rechnung bestätigt. Die Zahlen stehen nur in der Abbildung.")
+
+row("2026MerhoehtAStochastik21", "b", seite="1", punkte="2", afb_amtlich="II|III",
+    leitidee="Stochastik", thema="Kombinatorik",
+    typ="Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen", typ_neben="",
+    stichwoerter="Summen 4, 6, 7, 9 mit 1/6, 1/6, 1/3, 1/3|alle vier Summen verschieden|4! Anordnungen|Term v · (1/2)^w · (1/3)^2 · (2/3)^2|v = 24, w = 4",
+    voraussetzungen="Verteilung der Summe aus den Netzen aufstellen|Permutationen von vier verschiedenen Ergebnissen zählen|Produkt in die vorgegebene Form umschreiben",
+    format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
+    material="Figur", skizze=WUERFEL_SKIZZE, kontext="Würfelspiel", textumfang="lang",
+    gegeben="Würfel A mit 3, 3, 3, 5, 5, 5 und B mit 4, 4, 4, 4, 1, 1; vier Runden, je Runde die Summe beider Zahlen; Ereignis: alle vier Summen sind verschieden; Term v · (1/2)^w · (1/3)^2 · (2/3)^2",
+    gesucht="natürliche Zahlen v und w, mit denen der Term die Wahrscheinlichkeit des Ereignisses liefert",
+    verfahren="mögliche Summen 4, 6, 7, 9 mit den Wahrscheinlichkeiten 1/6, 1/6, 1/3, 1/3; vier verschiedene Summen in vier Runden in 4! = 24 Reihenfolgen; Produkt (1/6)^2 · (1/3)^2 = (1/2)^4 · (1/3)^2 · (2/3)^2 · … umschreiben",
+    schritte="3", zahlenraum="Bruch|Potenz", einheiten="", abhaengig_von="2026MerhoehtAStochastik21-a",
+    ergebnis="v = 24; w = 4 (amtlich)",
+    zwischenergebnis="P(4) = P(6) = 1/6, P(7) = P(9) = 1/3|Wahrscheinlichkeit 24 · (1/6)^2 · (1/3)^2 = 2/27",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Reihenfolgen nicht zählen und v = 1 setzen",
+    bemerkung="Standardbezug: K2 III, K3 II, K4 III, K5 III, K6 II. Amtlich, eigene Rechnung bestätigt: 24 · (1/2)^4 · (1/3)^2 · (2/3)^2 = 2/27.")
+
+# ---- Stochastik 2.2: Zahlencodes
+row("2026MerhoehtAStochastik22", "a", seite="1", punkte="2", afb_amtlich="I|II",
+    leitidee="Stochastik", thema="Binomialverteilung",
+    typ="Wahrscheinlichkeit für genau einen Treffer bei zwei Versuchen berechnen", typ_neben="",
+    stichwoerter="zwei Zahlencodes|p = 0,1|genau einer enthält die Ziffernfolge|2 · 0,1 · 0,9 = 0,18",
+    voraussetzungen="zwei Pfade für genau einen Treffer|Pfadregeln",
+    format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Zufallsgenerator/Zahlencodes", textumfang="mittel",
+    gegeben="ein Zufallsgenerator erzeugt Zahlencodes; jeder Code enthält eine bestimmte Ziffernfolge mit derselben Wahrscheinlichkeit p; zwei Codes werden erzeugt; p = 0,1",
+    gesucht="Wahrscheinlichkeit, dass genau einer der beiden Codes die Ziffernfolge enthält",
+    verfahren="zwei Pfade (erster ja, zweiter nein und umgekehrt) mit je 0,1 · 0,9 addieren",
+    schritte="2", zahlenraum="dezimal", einheiten="", abhaengig_von="",
+    ergebnis="2 · 0,1 · 0,9 = 0,18 (amtlich)",
+    zwischenergebnis="",
+    niveau_geschaetzt="II",
+    fehlerquelle="nur einen Pfad rechnen und 0,09 angeben",
+    bemerkung="Standardbezug: K3 II, K5 I, K6 II. Amtlich, eigene Rechnung bestätigt.")
+
+row("2026MerhoehtAStochastik22", "b", seite="1", punkte="3", afb_amtlich="II|III",
+    leitidee="Stochastik", thema="Bedingte Wahrscheinlichkeit und Bayes",
+    typ="Term für eine bedingte Wahrscheinlichkeit mit Parameter aufstellen", typ_neben="",
+    stichwoerter="Bedingung mindestens einer|Gegenereignis 1 − (1 − p)^2|genau einer im Zähler|Term in p|Bruch aus Pfadsummen",
+    voraussetzungen="bedingte Wahrscheinlichkeit als Quotient|Gegenereignis zu mindestens einer|Pfade mit Parameter",
+    format="Kurzantwort", operator="Geben Sie an", antwort="Term",
+    material="keins", skizze="keine", kontext="Zufallsgenerator/Zahlencodes", textumfang="mittel",
+    gegeben="jeder von zwei erzeugten Zahlencodes enthält die Ziffernfolge mit Wahrscheinlichkeit p, 0 < p < 1; mindestens einer der beiden Codes enthält die Ziffernfolge",
+    gesucht="Term in p für die Wahrscheinlichkeit, dass die Ziffernfolge nicht in beiden Codes enthalten ist",
+    verfahren="unter der Bedingung mindestens einer ist nicht in beiden gleichbedeutend mit genau einer: Zähler p · (1 − p) + (1 − p) · p, Nenner 1 − (1 − p)^2",
+    schritte="3", zahlenraum="dezimal|Potenz", einheiten="", abhaengig_von="2026MerhoehtAStochastik22-a",
+    ergebnis="(p · (1 − p) + (1 − p) · p) / (1 − (1 − p)^2) (amtlich)",
+    zwischenergebnis="gekürzt 2(1 − p)/(2 − p)|für p = 0,1: 18/19",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Bedingung übersehen und nur 2p(1 − p) angeben",
+    bemerkung="Standardbezug: K2 III, K3 II, K5 II, K6 III. Amtlich, eigene Rechnung bestätigt.")
+
+# ---- Stochastik 2.3: Kugeln mit Zahlen, Erwartungswert
+row("2026MerhoehtAStochastik23", "a", seite="1", punkte="1", afb_amtlich="I|II",
+    leitidee="Stochastik", thema="Zufallsexperimente und Urnenmodelle",
+    typ="Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben", typ_neben="",
+    stichwoerter="1 − 2/5 · 1/4|Gegenereignis|zweimal b ohne Zurücklegen|höchstens eine Kugel mit b",
+    voraussetzungen="Pfad 2/5 · 1/4 als beide Kugeln mit b lesen|Gegenereignis formulieren",
+    format="Kurzantwort", operator="Geben Sie an", antwort="Text",
+    material="keins", skizze="keine", kontext="Urne/Kugeln mit Zahlen", textumfang="mittel",
+    gegeben="fünf Kugeln, drei mit der Zahl a, zwei mit der Zahl b; a + b = 17; zwei Kugeln werden gleichzeitig zufällig entnommen; Term 1 − 2/5 · 1/4",
+    gesucht="ein Ereignis im Sachzusammenhang, dessen Wahrscheinlichkeit der Term liefert",
+    verfahren="2/5 · 1/4 ist die Wahrscheinlichkeit für zwei Kugeln mit b (ohne Zurücklegen); 1 minus das ist das Gegenereignis",
+    schritte="1", zahlenraum="Bruch", einheiten="", abhaengig_von="",
+    ergebnis="es wird höchstens eine Kugel mit der Zahl b entnommen (amtlich)",
+    zwischenergebnis="Wert 9/10",
+    niveau_geschaetzt="II",
+    fehlerquelle="das Ereignis als genau eine Kugel mit b beschreiben",
+    bemerkung="Standardbezug: K2 I, K3 II, K6 II. Amtlich. Typname aus abi-typen.csv übernommen (dort unter Binomialverteilung), hier Ziehen ohne Zurücklegen.")
+
+row("2026MerhoehtAStochastik23", "b", seite="1", punkte="4", afb_amtlich="II|III",
+    leitidee="Stochastik", thema="Kenngrößen von Verteilungen",
+    typ="Unbekannte Werte einer Zufallsgröße aus dem Erwartungswert bestimmen", typ_neben="",
+    stichwoerter="Summe zweier Kugeln|Verteilung 2a mit 3/10, 17 mit 6/10, 2b mit 1/10|E(X) = 16|b = 17 − a|a = 6, b = 11",
+    voraussetzungen="Wahrscheinlichkeiten beim Ziehen ohne Zurücklegen|Erwartungswert als gewichtete Summe|lineare Gleichung mit Nebenbedingung lösen",
+    format="Rechnung", operator="Bestimmen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Urne/Kugeln mit Zahlen", textumfang="mittel",
+    gegeben="fünf Kugeln, drei mit a, zwei mit b, a + b = 17, natürliche Zahlen; zwei Kugeln werden gleichzeitig entnommen; X ist die Summe der beiden Zahlen; E(X) = 16",
+    gesucht="a und b",
+    verfahren="P(2a) = 3/5 · 2/4, P(a + b) = 2 · 3/5 · 2/4, P(2b) = 2/5 · 1/4; Erwartungswert mit b = 17 − a aufstellen und nach a auflösen",
+    schritte="4", zahlenraum="ganz|Bruch", einheiten="", abhaengig_von="",
+    ergebnis="3/5 · 2/4 · 2a + 2 · 3/5 · 2/4 · 17 + 2/5 · 1/4 · 2 · (17 − a) = 16 führt auf 2a + 4 · 17 = 5 · 16, also a = 6 und b = 11 (amtlich)",
+    zwischenergebnis="P(X = 2a) = 3/10|P(X = 17) = 6/10|P(X = 2b) = 1/10",
+    niveau_geschaetzt="III",
+    fehlerquelle="P(a + b) nur mit einer Reihenfolge ansetzen (3/10 statt 6/10)",
+    bemerkung="Standardbezug: K2 III, K3 III, K5 II. Amtlich, eigene Rechnung bestätigt.")
 
 
 # Neue Typen: (typ, leitidee, thema, definition, beispiel_id)
 NEUE_TYPEN = [
-    ("Extrempunkt an vorgegebener Stelle nachweisen", "Analysis", "Kurvenuntersuchung",
-     "Für eine genannte Stelle zeigen, dass dort ein Hoch- oder Tiefpunkt liegt: erste Ableitung "
-     "null (notwendige Bedingung) und Vorzeichen der zweiten Ableitung (hinreichende Bedingung).",
-     "2026MgrundlegendAAnalysis11-a"),
-    ("Abstand zweier Extrempunkte über die Punktsymmetrie berechnen", "Analysis",
-     "Kurvenuntersuchung",
-     "Aus einem bekannten Extrempunkt und der Punktsymmetrie des Graphen zum Ursprung den "
-     "gegenüberliegenden Extrempunkt gewinnen und den Abstand der beiden Punkte berechnen.",
-     "2026MgrundlegendAAnalysis11-b"),
-    ("Flächeninhalt eines Dreiecks aus Extrempunkten der Sinusfunktion berechnen", "Analysis",
-     "Funktionsklassen und Eigenschaften",
-     "Aufeinanderfolgende Extrempunkte von sin x als Eckpunkte eines Dreiecks lesen und dessen "
-     "Flächeninhalt aus Grundseite (Vielfaches von π) und Höhe berechnen.",
-     "2026MgrundlegendAAnalysis12-a"),
-    ("Abstand von Extrempunkten einer gestreckten Sinusfunktion vergleichen", "Analysis",
-     "Funktionsklassen und Eigenschaften",
-     "Aus den Parametern a und b in a · sin(b · x) die Streckung des Graphen in x- und y-Richtung "
-     "erkennen und daraus den Abstand aufeinanderfolgender Extrempunkte mit dem der Grundfunktion "
-     "vergleichen, ohne zu rechnen.",
-     "2026MgrundlegendAAnalysis12-b"),
-    ("Bestimmtes Integral einer ganzrationalen Funktion berechnen", "Analysis",
-     "Stammfunktion und Hauptsatz",
-     "Stammfunktion einer ganzrationalen Funktion bilden und den Wert des Integrals über ein "
-     "Intervall mit dem Hauptsatz berechnen.",
-     "2026MgrundlegendAAnalysis13-a"),
-    ("Summe zweier Integrale als Flächeninhalt beurteilen", "Analysis",
+    ("Abbildung zwischen zwei Graphen angeben", "Analysis", "Funktionsklassen und Eigenschaften",
+     "Zu zwei gegebenen Funktionstermen angeben, durch welche Spiegelung, Streckung oder "
+     "Verschiebung der eine Graph aus dem anderen hervorgeht.",
+     "2026MerhoehtAAnalysis11-a"),
+    ("Parameter aus dem senkrechten Schnitt zweier Graphen bestimmen", "Analysis",
+     "Tangente, Normale, Schnittwinkel",
+     "Den Parameter zweier Funktionen so bestimmen, dass sich ihre Graphen senkrecht schneiden: "
+     "Schnittstelle bestimmen, Steigungen dort berechnen und die Orthogonalitätsbedingung "
+     "für Steigungen anwenden.",
+     "2026MerhoehtAAnalysis11-b"),
+    ("Integral mit Wert null am Graphen veranschaulichen", "Analysis",
      "Flächeninhalt durch Integration",
-     "Beurteilen, ob die Summe von Integralen über Teilintervalle den Inhalt der vom Graphen und "
-     "der x-Achse eingeschlossenen Fläche liefert, anhand des Vorzeichens der Integrale unterhalb "
-     "der Achse.",
-     "2026MgrundlegendAAnalysis13-b"),
-    ("Graph der Funktion vom Graphen der Ableitung unterscheiden", "Analysis",
-     "Ableitungsgraph und Funktionsgraph",
-     "Von zwei abgebildeten Graphen begründen, welcher zur Funktion und welcher zur Ableitung "
-     "gehört, über die Steigung des einen und das Vorzeichen des anderen in einem Bereich.",
-     "2026MgrundlegendAAnalysis14-a"),
-    ("Integral einer Differenzfunktion grafisch abschätzen", "Analysis",
+     "Die Gleichung Integral von 0 bis k gleich null am abgebildeten Graphen deuten und die "
+     "inhaltsgleichen Flächen über und unter der x-Achse markieren.",
+     "2026MerhoehtAAnalysis12-a"),
+    ("Stammfunktionen mit einer Wertebedingung bestimmen", "Analysis", "Stammfunktion und Hauptsatz",
+     "Die Schar aller Stammfunktionen aufstellen und über den größten oder kleinsten "
+     "Funktionswert die Integrationskonstanten bestimmen, für die eine Wertebedingung gilt.",
+     "2026MerhoehtAAnalysis12-b"),
+    ("Nullstelle einer Logarithmusfunktion berechnen", "Analysis", "Gleichungen lösen",
+     "Eine Gleichung der Form ln(x + a) + b = 0 durch Anwenden der e-Funktion exakt lösen.",
+     "2026MerhoehtAAnalysis13-a"),
+    ("Parameter einer Logarithmusfunktion aus Asymptote und Punkt ermitteln", "Analysis",
+     "Rekonstruktion von Funktionsgleichungen",
+     "Bei ln(x − a) + b den Parameter a aus der senkrechten Asymptote im abgebildeten Graphen "
+     "und b aus einem Punkt des Graphen bestimmen.",
+     "2026MerhoehtAAnalysis13-b"),
+    ("Schnittstellen zweier Graphen über den gemeinsamen Exponentialfaktor nachweisen", "Analysis",
+     "Gleichungen lösen",
+     "Beim Gleichsetzen zweier Terme mit demselben positiven Exponentialfaktor diesen kürzen und "
+     "die verbleibende Gleichung lösen, um alle Schnittstellen nachzuweisen.",
+     "2026MerhoehtAAnalysis14-a"),
+    ("Fläche zwischen zwei Graphen mit vorgegebener Stammfunktion berechnen", "Analysis",
      "Flächeninhalt durch Integration",
-     "Das Integral über die Differenz zweier Funktionen als Fläche zwischen ihren Graphen "
-     "deuten, diese in der Abbildung markieren und mit einem Vergleichsrechteck gegen eine "
-     "Schranke abschätzen.",
-     "2026MgrundlegendAAnalysis14-b"),
-    ("Steigung einer Geraden am Graphen begründen", "Analysis", "Ableitung und Änderungsrate",
-     "Den Ableitungswert einer linearen Funktion als ihre Steigung erkennen und diese am "
-     "abgebildeten Graphen über ein Steigungsdreieck begründen.",
-     "2026MgrundlegendAAnalysis21-a"),
-    ("Ableitung eines Produkts aus Graphenwerten mit der Produktregel bestimmen", "Analysis",
-     "Ableitungsregeln",
-     "Die Ableitung von f · g an einer Stelle mit der Produktregel berechnen, wobei Funktionswerte "
-     "und Steigungen von f und g nur aus abgebildeten Graphen abgelesen werden, etwa f' = 0 an "
-     "einem Extrempunkt.",
-     "2026MgrundlegendAAnalysis21-b"),
-    ("Monotonie aus dem Vorzeichen der Ableitung am Graphen begründen", "Analysis",
-     "Ableitungsgraph und Funktionsgraph",
-     "Aus dem abgebildeten Graphen der Ableitung über deren Vorzeichen links und rechts einer "
-     "Nullstelle das Monotonieverhalten der Funktion begründen.",
-     "2026MgrundlegendAAnalysis22-a"),
-    ("Aussage über Extrempunkte einer Stammfunktion beurteilen", "Analysis",
+     "Den Inhalt der von zwei Graphen eingeschlossenen Fläche mit dem Hauptsatz berechnen, wobei "
+     "eine Stammfunktion vorgegeben ist und die andere selbst gebildet wird.",
+     "2026MerhoehtAAnalysis14-b"),
+    ("Fehlende Punktsymmetrie aus der Wertemenge begründen", "Analysis",
+     "Funktionsklassen und Eigenschaften",
+     "Aus einer Wertemenge, die zu einem Wert y nicht −y enthält, begründen, dass der Graph "
+     "nicht punktsymmetrisch zum Ursprung ist.",
+     "2026MerhoehtAAnalysis21-a"),
+    ("Wertemenge einer transformierten Funktion begründen", "Analysis",
+     "Funktionsklassen und Eigenschaften",
+     "Die Wertemenge von a · f(x − d) + e aus der Wertemenge von f herleiten, indem Spiegelung, "
+     "Streckung und Verschiebung in y-Richtung auf die Intervallgrenzen angewendet werden.",
+     "2026MerhoehtAAnalysis21-b"),
+    ("Scharparameter für genau eine waagerechte Tangente aus dem Graphen bestimmen", "Analysis",
+     "Funktionsscharen und Ortskurven",
+     "Für eine Schar f(x) + a · x den Parameter bestimmen, bei dem die Ableitung genau eine "
+     "Nullstelle hat, indem die Steigung von f an der passenden Stelle am Graphen abgelesen wird.",
+     "2026MerhoehtAAnalysis22"),
+    ("Anzahl der Nullstellen einer Integralfunktion am Graphen beurteilen", "Analysis",
      "Stammfunktion und Hauptsatz",
-     "Eine Behauptung über Extrempunkte einer Stammfunktion F beurteilen, indem F' = f genutzt "
-     "und das Vorzeichen von f aus dem Graphen der Ableitung f' und einem Funktionswert "
-     "erschlossen wird.",
-     "2026MgrundlegendAAnalysis22-b"),
-    ("Rechten Winkel und Kathetenlängen eines Dreiecks nachweisen", "Analytische Geometrie",
-     "Orthogonalität",
-     "Über das Skalarprodukt zweier Seitenvektoren den rechten Winkel eines Dreiecks nachweisen "
-     "und die Längen der Katheten als Vektorbeträge berechnen.",
-     "2026MgrundlegendAAGLAA111-a"),
-    ("Höhe einer Pyramide aus dem Volumen bestimmen", "Analytische Geometrie",
-     "Flächeninhalt und Volumen im Raum",
-     "Aus dem gegebenen Volumen einer Pyramide und ihrer Grundfläche die Höhe bestimmen, wobei "
-     "die Höhenkante über Skalarprodukte als senkrecht zur Grundfläche erkannt wird.",
-     "2026MgrundlegendAAGLAA111-b"),
-    ("Rechten Winkel eines Dreiecks mit Parameter nachweisen", "Analytische Geometrie",
-     "Orthogonalität",
-     "Zeigen, dass ein Dreieck, dessen Eckpunkt einen Parameter enthält, für jeden Parameterwert "
-     "einen rechten Winkel hat, weil das Skalarprodukt der Seitenvektoren identisch null ist.",
-     "2026MgrundlegendAAGLAA112-a"),
-    ("Parameter aus der Gleichschenkligkeit eines Dreiecks berechnen", "Analytische Geometrie",
+     "Eine Aussage über die Nullstellen einer Integralfunktion beurteilen, über die untere "
+     "Grenze als Nullstelle, die Monotonie aus dem Vorzeichen des Integranden und die "
+     "Flächenbilanz am abgebildeten Graphen.",
+     "2026MerhoehtAAnalysis23"),
+    ("Fehler in einem Übergangsdiagramm gegen die Matrix begründen", "Analytische Geometrie",
+     "Matrizen und Übergangsprozesse",
+     "Ein Übergangsdiagramm mit der zugehörigen Übergangsmatrix vergleichen und einen "
+     "Widerspruch in der Pfeilbeschriftung benennen.",
+     "2026MerhoehtAAGLAA11-a"),
+    ("Parameter einer Übergangsmatrix aus einer Zykluslänge bestimmen", "Analytische Geometrie",
+     "Matrizen und Übergangsprozesse",
+     "Aus der Bedingung, dass eine Verteilung nach n Schritten wieder erreicht wird, über die "
+     "Matrixpotenz M^n den unbekannten Eintrag der Übergangsmatrix bestimmen.",
+     "2026MerhoehtAAGLAA11-b"),
+    ("Parameter eines Vektors aus einer Matrix-Vektor-Gleichung bestimmen", "Analytische Geometrie",
+     "Matrizen und Übergangsprozesse",
+     "Aus einer Gleichung A · v = k · v den unbekannten Eintrag des Vektors über eine geeignete "
+     "Komponente bestimmen.",
+     "2026MerhoehtAAGLAA121-a"),
+    ("Gleichung mit inverser Matrix über die Eigenvektorbeziehung lösen", "Analytische Geometrie",
+     "Matrizen und Übergangsprozesse",
+     "Eine Gleichung mit A^(−1) ohne Berechnung der Inversen lösen, indem beide Seiten mit A "
+     "multipliziert und A · v = k · v sowie die Linearität genutzt werden.",
+     "2026MerhoehtAAGLAA121-b"),
+    ("Matrix mit vorgegebener Eigenschaft angeben", "Analytische Geometrie",
+     "Matrizen und Übergangsprozesse",
+     "Zu einer in der Aufgabe definierten Eigenschaft (etwa Orthogonalität) eine passende "
+     "Matrix mit vorgegebenen Einträgen angeben.",
+     "2026MerhoehtAAGLAA122-a"),
+    ("Existenz von Matrizen mit vorgegebener Eigenschaft über ein Gleichungssystem beurteilen",
+     "Analytische Geometrie", "Matrizen und Übergangsprozesse",
+     "Eine Aussage über die Existenz von Matrizen mit einer definierten Eigenschaft beurteilen, "
+     "indem die Eigenschaft in ein Gleichungssystem für die Einträge übersetzt und gelöst wird.",
+     "2026MerhoehtAAGLAA122-b"),
+    ("Punkt auf einer Lotgeraden mit vorgegebenem Abstand zur Ebene bestimmen",
+     "Analytische Geometrie", "Abstände",
+     "Auf einer zur Ebene senkrechten Geraden durch einen Ebenenpunkt den Punkt mit gegebenem "
+     "Abstand zur Ebene über die Länge des Richtungsvektors bestimmen.",
+     "2026MerhoehtAAGLAA211-b"),
+    ("Parameter einer Ebenengleichung aus einem enthaltenen Punkt bestimmen",
+     "Analytische Geometrie", "Lagebeziehungen",
+     "Den freien Parameter einer Koordinatengleichung bestimmen, indem ein Punkt eingesetzt "
+     "wird, der in der Ebene liegen soll.",
+     "2026MerhoehtAAGLAA221-a"),
+    ("Gleichen Abstand eines Punktes zu einer Geradenschar über den Lotfußpunkt beurteilen",
+     "Analytische Geometrie", "Abstände",
+     "Ohne Abstandsrechnung beurteilen, ob ein Punkt zu allen Geraden einer Schar in einer Ebene "
+     "denselben Abstand hat, indem der gemeinsame Punkt der Schar als Lotfußpunkt erkannt wird.",
+     "2026MerhoehtAAGLAA221-b"),
+    ("Beziehung zweier Parameter mit einer abgebildeten Geraden abgleichen", "Analytische Geometrie",
      "Abstände",
-     "Den Parameter eines Eckpunkts so bestimmen, dass zwei Seiten eines Dreiecks gleich lang sind, "
-     "über das Gleichsetzen von Vektorbeträgen und Lösen der Wurzelgleichung.",
-     "2026MgrundlegendAAGLAA112-b"),
-    ("Lösung eines unterbestimmten Gleichungssystems unter Zusatzbedingungen auswählen",
-     "Analytische Geometrie", "Lineare Gleichungssysteme",
-     "Bei einem linearen Gleichungssystem mit unendlich vielen Lösungen die Lösungsschar mit einem "
-     "Parameter angeben und aus Bedingungen wie Vorzeichen und Ganzzahligkeit eine bestimmte "
-     "Lösung auswählen.",
-     "2026MgrundlegendAAGLAA12"),
-    ("Punktprobe an einer Ebenengleichung durchführen", "Analytische Geometrie", "Lagebeziehungen",
-     "Die Koordinaten eines Punktes in die Koordinatengleichung einer Ebene einsetzen und aus dem "
-     "Erfülltsein der Gleichung auf die Lage in der Ebene schließen.",
-     "2026MgrundlegendAAGLAA211-a"),
-    ("Orthogonalität von Gerade und Ebene über Normalen- und Richtungsvektor begründen",
-     "Analytische Geometrie", "Orthogonalität",
-     "Begründen, dass eine Gerade senkrecht auf einer Ebene steht, weil ihr Richtungsvektor ein "
-     "Vielfaches des Normalenvektors der Ebene ist.",
-     "2026MgrundlegendAAGLAA211-a"),
-    ("Spiegelpunkt an einer Ebene über den bekannten Lotfußpunkt bestimmen", "Analytische Geometrie",
+     "Eine hergeleitete Beziehung zwischen zwei Parametern mit der Gleichung einer im "
+     "Parameter-Koordinatensystem abgebildeten Geraden vergleichen.",
+     "2026MerhoehtAAGLAA222-b"),
+    ("Symmetrieebenen eines Körpers aus den Koordinaten begründen", "Analytische Geometrie",
      "Spiegelung",
-     "Den Spiegelpunkt eines Punktes an einer Ebene bestimmen, wenn der Lotfußpunkt bereits "
-     "bekannt ist, indem der Verbindungsvektor vom Lotfußpunkt aus in Gegenrichtung abgetragen "
-     "wird.",
-     "2026MgrundlegendAAGLAA211-b"),
-    ("Koordinaten eines Eckpunkts eines Prismas angeben", "Analytische Geometrie",
-     "Punkte und Strecken im Koordinatensystem",
-     "Aus gegebenen Eckpunkten eines geraden Prismas und dem Schrägbild die Koordinaten eines "
-     "weiteren Eckpunkts der Deckfläche angeben.",
-     "2026MgrundlegendAAGLAA213-a"),
-    ("Dreieck in ein Schrägbild einzeichnen", "Analytische Geometrie",
-     "Punkte und Strecken im Koordinatensystem",
-     "Einen durch Koordinaten gegebenen Punkt auf einer Kante im Schrägbild verorten und das "
-     "Dreieck aus ihm und zwei Eckpunkten des Körpers einzeichnen.",
-     "2026MgrundlegendAAGLAA213-b"),
-    ("Parameter eines Punktes aus einer Flächengleichheit bestimmen", "Analytische Geometrie",
-     "Flächeninhalt und Volumen im Raum",
-     "Den Parameter eines Punktes so bestimmen, dass zwei Dreiecke mit gemeinsamer Seite gleichen "
-     "Flächeninhalt haben, über den Vergleich der zugehörigen Höhen oder Katheten.",
-     "2026MgrundlegendAAGLAA213-c"),
-    ("Punkt aus Orthogonalitäts- und Ebenenbedingung bestimmen", "Analytische Geometrie",
-     "Orthogonalität",
-     "Einen Punkt mit teilweise bekannten Koordinaten aus der Bedingung, dass zwei Verbindungs"
-     "vektoren orthogonal sind, und einer Ebenengleichung über ein lineares Gleichungssystem "
-     "bestimmen.",
-     "2026MgrundlegendAAGLAA221"),
-    ("Volumen eines Prismas über einer Raute berechnen", "Analytische Geometrie",
-     "Flächeninhalt und Volumen im Raum",
-     "Das Volumen eines geraden Prismas berechnen, dessen Grundfläche eine Raute mit Eckpunkten "
-     "auf den Koordinatenachsen ist, über die Rautenfläche aus den Diagonalen und die Höhe.",
-     "2026MgrundlegendAAGLAA222-a"),
-    ("Ortsvektor eines gedrehten Punktes als Term aufstellen", "Analytische Geometrie",
-     "Vektoren und Rechenoperationen",
-     "Für einen Punkt, der durch Drehung eines Körpers um eine Kante in eine Koordinatenebene "
-     "kommt, den Ortsvektor als Summe aus einem Ortsvektor und einem auf die richtige Länge "
-     "gebrachten, zur Drehkante senkrechten Vektor aufstellen.",
-     "2026MgrundlegendAAGLAA222-b"),
-    ("Trefferwahrscheinlichkeit aus dem ganzzahligen Erwartungswert im Diagramm ermitteln",
-     "Stochastik", "Kenngrößen von Verteilungen",
-     "Aus dem Säulendiagramm einer Binomialverteilung mit bekanntem n die Lage des ganzzahligen "
-     "Erwartungswerts ablesen und daraus p über n · p bestimmen.",
-     "2026MgrundlegendAStochastik11-a"),
-    ("Werte zu Wahrscheinlichkeitsbedingungen aus dem Säulendiagramm ablesen", "Stochastik",
-     "Binomialverteilung",
-     "Aus dem Säulendiagramm einer Verteilung die Werte k ablesen, für die eine Einzel- oder eine "
-     "kumulierte Wahrscheinlichkeit eine vorgegebene Bedingung erfüllt.",
-     "2026MgrundlegendAStochastik11-b"),
-    ("Term für eine Wahrscheinlichkeit einer Bernoulli-Kette angeben", "Stochastik",
-     "Binomialverteilung",
-     "Für ein Ereignis in einer Bernoulli-Kette einen Rechenterm mit Potenzen von p und 1 − p und "
-     "der Anzahl der Anordnungen angeben, ohne den Wert zu berechnen.",
-     "2026MgrundlegendAStochastik12-a"),
-    ("Ergebnisse zum Gegenereignis zweier Ereignisse aufzählen", "Stochastik",
-     "Ereignisse und Mengenoperationen",
-     "Alle Ergebnisse eines mehrstufigen Experiments aufzählen, bei denen keines von zwei in "
-     "Worten beschriebenen Ereignissen eintritt.",
-     "2026MgrundlegendAStochastik12-b"),
-    ("Fehlende Wahrscheinlichkeiten im Baumdiagramm über die Pfadregel ermitteln", "Stochastik",
+     "Für einen Körper mit Parameter die Gleichungen seiner achsenparallelen Symmetrieebenen "
+     "angeben und über Vorzeichenwechsel und Mittelwerte von Koordinaten begründen.",
+     "2026MerhoehtAAGLAA223"),
+    ("Wahrscheinlichkeit eines Sigma-Intervalls aus dem Säulendiagramm ermitteln", "Stochastik",
+     "Kenngrößen von Verteilungen",
+     "Erwartungswert und Standardabweichung einer Binomialverteilung berechnen, das "
+     "Sigma-Intervall auf ganze Zahlen übertragen und die Wahrscheinlichkeit als Summe der "
+     "abgelesenen Säulenhöhen ermitteln.",
+     "2026MerhoehtAStochastik11-b"),
+    ("Term für die Wahrscheinlichkeit eines mehrstufigen Pfads angeben", "Stochastik",
      "Baumdiagramm und Pfadregeln",
-     "In einem teilweise beschrifteten Baumdiagramm fehlende Ast- oder Pfadwahrscheinlichkeiten "
-     "aus gegebenen Pfad- und Astwerten über die Pfadmultiplikation bestimmen.",
-     "2026MgrundlegendAStochastik13-a"),
-    ("Bedingte Wahrscheinlichkeit aus dem Baumdiagramm mit einer Schranke vergleichen",
-     "Stochastik", "Bedingte Wahrscheinlichkeit und Bayes",
-     "Eine bedingte Wahrscheinlichkeit als Quotient aus einem Pfad und der Summe der Pfade mit der "
-     "Bedingung berechnen und mit einer vorgegebenen Schranke vergleichen.",
-     "2026MgrundlegendAStochastik13-b"),
-    ("Sektorwinkel eines Glücksrads aus einer Wahrscheinlichkeitsbedingung berechnen", "Stochastik",
+     "Für ein in Worten beschriebenes Ereignis, das genau einem Pfad entspricht, den Term aus "
+     "dem Produkt der Astwahrscheinlichkeiten angeben.",
+     "2026MerhoehtAStochastik12-a"),
+    ("Gewinnwahrscheinlichkeiten in einem Wechselspiel vergleichen", "Stochastik",
+     "Baumdiagramm und Pfadregeln",
+     "Für ein Spiel, in dem zwei Personen abwechselnd ziehen und der erste Treffer gewinnt, die "
+     "Gewinnwahrscheinlichkeiten über die Pfade aufstellen und ihr Verhältnis beurteilen.",
+     "2026MerhoehtAStochastik12-b"),
+    ("Wahrscheinlichkeit eines Vergleichs zweier Zufallsgeräte über Pfade berechnen", "Stochastik",
+     "Baumdiagramm und Pfadregeln",
+     "Aus den Verteilungen zweier Zufallsgeräte die Wahrscheinlichkeit, dass das eine einen "
+     "größeren Wert liefert als das andere, über die passenden Pfade berechnen und für mehrere "
+     "Runden potenzieren.",
+     "2026MerhoehtAStochastik21-a"),
+    ("Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen", "Stochastik", "Kombinatorik",
+     "Einen vorgegebenen Term mit Platzhaltern so ergänzen, dass er die Wahrscheinlichkeit eines "
+     "Ereignisses liefert, wobei Anzahl der Anordnungen und Einzelwahrscheinlichkeiten zu "
+     "bestimmen sind.",
+     "2026MerhoehtAStochastik21-b"),
+    ("Wahrscheinlichkeit für genau einen Treffer bei zwei Versuchen berechnen", "Stochastik",
+     "Binomialverteilung",
+     "Die Wahrscheinlichkeit für genau einen Treffer in zwei unabhängigen Versuchen als Summe "
+     "der beiden Pfade berechnen.",
+     "2026MerhoehtAStochastik22-a"),
+    ("Term für eine bedingte Wahrscheinlichkeit mit Parameter aufstellen", "Stochastik",
+     "Bedingte Wahrscheinlichkeit und Bayes",
+     "Eine bedingte Wahrscheinlichkeit als Quotient aus Pfadsummen in Abhängigkeit von einer "
+     "Trefferwahrscheinlichkeit p aufstellen, ohne sie auszurechnen.",
+     "2026MerhoehtAStochastik22-b"),
+    ("Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben", "Stochastik",
      "Zufallsexperimente und Urnenmodelle",
-     "Die Sektorwahrscheinlichkeit eines zweifarbigen Glücksrads aus einer Bedingung an ein "
-     "zweistufiges Ergebnis über eine quadratische Gleichung bestimmen und in den "
-     "Mittelpunktswinkel umrechnen.",
-     "2026MgrundlegendAStochastik21"),
-    ("Parameter einer Binomialverteilung aus Erwartungswert und Standardabweichung bestimmen",
-     "Stochastik", "Kenngrößen von Verteilungen",
-     "Aus μ = n · p und σ = √(n · p · (1 − p)) die Parameter n und p einer Binomialverteilung "
-     "bestimmen.",
-     "2026MgrundlegendAStochastik22"),
+     "Zu einem vorgegebenen Rechenterm ein Ereignis im Sachzusammenhang formulieren, dessen "
+     "Wahrscheinlichkeit der Term liefert, etwa über Gegenereignis und Pfadprodukt.",
+     "2026MerhoehtAStochastik23-a"),
+    ("Unbekannte Werte einer Zufallsgröße aus dem Erwartungswert bestimmen", "Stochastik",
+     "Kenngrößen von Verteilungen",
+     "Die Verteilung einer Zufallsgröße mit unbekannten Werten aufstellen und die Unbekannten "
+     "aus dem gegebenen Erwartungswert und einer Nebenbedingung berechnen.",
+     "2026MerhoehtAStochastik23-b"),
 ]
 
 

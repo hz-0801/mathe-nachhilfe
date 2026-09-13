@@ -18,7 +18,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | Stapel | Dateien | Status |
 |---|---|---|
 | 2026-ga-A | 19 (18 + 1 Dublette) | **erfasst 2026-09-13, 33 Zeilen** · 34 Typen neu · Eichung 30 von 33 |
-| 2026-ea-A | 20 | nicht erfasst |
+| 2026-ea-A | 20 | **erfasst 2026-09-13, 37 Zeilen** · 32 Typen neu, 7 wiederverwendet · Eichung 34 von 37 |
 | 2025-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
 | 2025-ea-A | 20 (19 + 1 Dublette) | nicht erfasst |
 | 2024-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
@@ -50,6 +50,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise |
 |---|---|---|---|---|---|---|
 | 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 |
+| 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %) | 0 | 0 |
 
 ## 3 Zurückgestellt
 
@@ -123,9 +124,47 @@ abi-Kontextaufgaben war es ein Drittel.
 das Sachgebiet als „AG/LA" ohne Alternative, die Fußzeile aber AGLA(A1) bzw.
 AGLA(A2). titel folgt der Kennung (iqb.md § 4).
 
+**Stapel 2026-ea-A.** 20 Dateien, keine Dublette, 37 Zeilen, alle 5 BE je Datei
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung über den Bestand (70 Zeilen, 66 Typen, 2 Stapel) bestanden.
+Drei ungegliederte Aufgaben (Analysis 2.2, 2.3, AGLAA223). AGLAA11 ist die
+einzige Aufgabe der Gruppe 1 (aufgabe „1"); ihr Stamm steht auf Seite 1, die
+Teilaufgaben mit dem Diagramm auf Seite 2 (seite 1|2).
+
+**Erhöhtes Niveau: Matrizen in AG/LA A1.** Alle drei A1-Aufgaben des Stapels sind
+Matrizenaufgaben (Übergangsmatrix, Eigenvektor und Inverse, orthogonale
+Matrizen); sechs Zeilen unter dem Thema Matrizen und Übergangsprozesse, das in
+Berlin und Brandenburg nicht Prüfungsgegenstand ist. Auf grundlegendem Niveau
+2026 waren die A1-Aufgaben noch Vektorgeometrie ohne Matrizen.
+
+**Varianten über die Niveaus.** 2026MerhoehtAAGLAA212 hat denselben
+Aufgabenstamm wie 2026MgrundlegendAAGLAA213 (Prisma), mit anderer
+Teilaufgabe b; 2026MerhoehtAStochastik21 ist die Würfelaufgabe aus dem
+grundlegenden Sondierungsbeispiel (Kennung identisch, in 2026-ga-A nicht
+enthalten). Typen wurden wiederverwendet, keine Dubletten im Sinn von § 7.
+
+**Typen 2026-ea-A.** 39 verwendet, 32 neu, 7 aus 2026-ga-A wiederverwendet
+(Prisma-Eckpunkt, Flächengleichheit, Punktprobe, Orthogonalität Gerade–Ebene,
+rechter Winkel mit Parameter, Gleichschenkligkeit mit Parameter,
+Bernoulli-Term); ein Etikett aus abi-typen.csv (Ereignis zu einem gegebenen
+Wahrscheinlichkeitsterm beschreiben). Vorschlag für den Abgleich: die Definition
+von „Parameter eines Punktes aus einer Flächengleichheit bestimmen" auf Dreieck
+gegen Rechteck erweitern (AGLAA212-b).
+
+**Eichung 2026-ea-A: 34 von 37.** Abweichungen: Analysis 1.1 a (Spiegelung
+angeben) geschätzt I, amtlich bis II; Analysis 1.1 b (Schnittstelle, Ableitung,
+Winkelbedingung) und Stochastik 1.1 b (μ, σ, Intervall, Diagramm) nach der Regel
+„Kombinieren heißt III" geschätzt III, amtlich bis II. Die Regel trifft in
+diesem Stapel alle 12 Zeilen mit amtlich III, überschätzt aber zwei
+Verkettungen aus Routineschritten. Gegenbefund zum ersten Stapel; nach dem
+dritten Stapel entscheiden, ob „Kombinieren" auf Verkettungen mit einer
+Deutung oder Fallunterscheidung einzugrenzen ist.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2026-ea-A vollständig erfasst: 37 Zeilen aus 20 Dateien, Katalog 70 Zeilen, Typenliste 66. Alle 20 Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden, Eichung 34 von 37, Kennzahlen in § 4. Befunde in § 4 (Matrizen auf erhöhtem Niveau, Varianten über die Niveaus, Gegenbefund zur Regel „Kombinieren heißt III"). |
+| 2026-09-13 | Dublettenprüfung abgesichert (alle Paare in drei Abschnitten und Bildobjekten gleich, Regel bleibt; Scan verschärft, 15 statt 13 Paare, Teil A 313 Aufgaben). iqb.md § 7: Fassungsregel, Erfassungshinweis „Kombinieren heißt III", Kennzahlen je Stapel; iqb-bau.py gibt die Kennzahlenzeile aus. |
 | 2026-09-13 | 2026-ga-A vollständig erfasst: 33 Zeilen aus 18 Dateien (eine Dublette ohne Zeile), Katalog 33 Zeilen, Typenliste 34. Alle 18 Punktsummen gegen die BE-Spalte geprüft (je 5), Lauf aus frischer Kopie byteidentisch, Selbstprüfung bestanden, Eichung 30 von 33. iqb.md v0.2: § 4 ungegliederte Aufgaben und titel bei „AG/LA", § 6 Lineare Gleichungssysteme auch unter Analytische Geometrie, § 7 Dubletten, § 8 aus dem Katalog. iqb-quellen.csv um seiten und dublette_von ergänzt (Scan aller 328 Teil-A-Dateien: 13 Dublettenpaare, 16 Dateien mit drei Seiten); iqb-quellen.py angelegt. iqb-bau.py v0.2: Dubletten, ungegliederte Aufgaben, Seitenzahl aus der Quelle. Befunde in § 4. |
 | 2026-09-13 | Profil iqb angelegt (iqb.md v0.1, iqb-quellen.md, iqb-quellen.csv, iqb-bau.py v0.1, diese Datei). Probelauf an 2026MgrundlegendAAnalysis11 bestanden. Schwellenwerte nach iqb.md § 7 als Vorschlag. |
