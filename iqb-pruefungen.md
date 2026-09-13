@@ -25,7 +25,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2024-ea-A | 19 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 32 von 32 (Deutungsliste v0.5) |
 | 2023-ga-A | 14 (13 + 1 Dublette) | **erfasst 2026-09-13, 24 Zeilen** · 19 Typen neu, 4 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
 | 2023-ea-A | 18 (17 + 1 Dublette) | **erfasst 2026-09-13, 32 Zeilen** · 25 Typen neu, 6 wiederverwendet · Eichung 29 von 32 (Liste v0.6) |
-| 2022-ga-A | 14 | nicht erfasst |
+| 2022-ga-A | 14 | **erfasst 2026-09-13, 24 Zeilen** · 22 Typen neu, 2 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
 | 2022-ea-A | 17 | nicht erfasst |
 | 2021-ga-A | 13 (11 + 2 Dubletten) | nicht erfasst |
 | 2021-ea-A | 19 (17 + 2 Dubletten) | nicht erfasst |
@@ -684,10 +684,47 @@ Diagramm angeben" prüfen gegen die Matrizen-Typen aus 2026-ea-A und
 (AGLAA213 b). Bestand jetzt be-gk 46, be-lk 25, bb-gk 45, bb-ea 24 von 253
 Zeilen.
 
+**Stapel 2022-ga-A.** 14 Dateien, keine Dublette, 24 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (277 Zeilen, 240 Typen, 9
+Stapel) bestanden. Vier ungegliederte Aufgaben (Analysis 1.3, Analysis 2,
+AGLAA12, AGLAA22, Stochastik 2 – fünf, davon Analysis 2, AGLAA22 und
+Stochastik 2 als einzige Datei ihrer Gruppe). Erste Fundstellen der Themen
+Ebenen (besondere Lage) und Zufallsgrößen und Verteilungen im grundlegenden
+Niveau. Zwei Sachkontexte in AG/LA (A1) (Stromanbieter) und Stochastik
+(Reiseunternehmen), sonst ohne Kontext. Erster Corona-Jahrgang (Pool 2022).
+
+**Eichung 2022-ga-A: 23 von 24 mit der Liste v0.6.** Abweichung: Stochastik
+1.3 b (X = 2 als unmöglich erkennen) geschätzt III über (b), amtlich II –
+der Sonderfall steht nirgends, das IQB wertet ihn als Routine (K1 II, K3
+II). Gefeuert und getroffen: (a)+(c) bei Analysis 2 (Fläche als Term in m
+mit Orientierung), (a)+(c) bei AGLAA12 (selbstinvers als M² = E), (a) bei
+AGLAA22 (Quadrat in der Ebene), (a)+(d) bei Stochastik 2 (Term in p,
+Maximum als Winkel). Nicht gefeuert nach dem Prinzip, amtlich II, Treffer:
+Analysis 1.1 b (Symmetrie nur Alternative zur Integration), AGLAA212 b
+(Gleichschenkligkeit in a gezeigt), AGLAA213 b (Teilverhältnis wörtlich),
+Stochastik 1.2 b („entweder oder" wörtlich).
+
+**Typen 2022-ga-A.** 24 verwendet, 22 neu, 2 wiederverwendet: Punkt und
+Ebene: Punktprobe an einer Ebenengleichung (2026-ga-A), Ziehen ohne
+Zurücklegen: Wahrscheinlichkeit beim zweimaligen Ziehen (2026-ga-A).
+Konvergenz im grundlegenden Niveau: 8 % nach typ, 58 % nach dem Schnitt (20
+Werte, 14 von 24 Zeilen bekannt). Etikettenentscheidung: „Nichtidentität
+zweier paralleler Geraden über den Verbindungsvektor begründen" bleibt vom
+2023-ea-A-Typ über die Richtungsvektoren getrennt (anderer Lösungsweg).
+Vorschlag für den Abgleichlauf 2: „Laplace-Experiment: Wahrscheinlichkeit
+durch Abzählen günstiger Ergebnisse berechnen" gegen „Laplace-Experiment:
+Laplace-Wahrscheinlichkeit für den ersten Zug angeben" prüfen (2026-ga-A).
+
+**Geltung 2022-ga-A.** Außerhalb der Geltung 3, 3, 3, 3 von 24: nur Matrizen
+(AGLAA11 a, b; AGLAA12). Bestand jetzt be-gk 49, be-lk 28, bb-gk 48, bb-ea 27
+von 277 Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2022-ga-A vollständig erfasst: 24 Zeilen aus 14 Dateien, Katalog 277 Zeilen, Typenliste 240. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6. |
 | 2026-09-13 | 2023-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien (eine Dublette), Katalog 253 Zeilen, Typenliste 218. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 29 von 32 mit der Liste v0.6. Dubletten-Scan iqb-quellen.py v0.2 (nur Buchstaben und Ziffern): 16 Paare, Teil A 312 Aufgaben; iqb-quellen.csv neu erzeugt, iqb-quellen.md und iqb.md nachgeführt. |
 | 2026-09-13 | 2023-ga-A vollständig erfasst: 24 Zeilen aus 13 Dateien (eine Dublette), Katalog 221 Zeilen, Typenliste 193. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand (Abgleich, dann Stapel) byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6; rückwirkend v0.6 in § 4 (186 von 197, zwei Gewinne durch (e)). Kennzahlenzeile um den Schnitt erweitert. |
 | 2026-09-13 | Abgleichlauf 1 (Entscheidung 24): Schnitt Thema × Gegenstandsklasse × Handlung umgesetzt – Klassenliste je Thema in iqb.md v0.6 § 6, Präfix im Typnamen, iqb-bau.py v0.4 prüft es; iqb-abgleich.py v0.1 angelegt. 183 → 174 Typen: 60 Präfixe, 9 Zusammenziehungen (Liste alt → neu in § 4). Deutungsliste v0.6: Prinzip am Kopf, Eintrag (e); konzept.md Entscheidung 24; CLAUDE.md § 4 ergänzt. |
