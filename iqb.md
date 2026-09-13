@@ -397,7 +397,11 @@ Stand v0.1: keine.
   Analysis 2.2 a, wo der Standardbezug die Bruchgleichung mit K5 III belegt).
   Erster Stapel nach der engen Fassung als Regel: 2025-ea-A 30 von 34; die
   Fairnessdeutung (Stochastik 1.1 b) ist dort amtlich nur II, die algebraische
-  Verkettung mit Ersatz n · p = E (Stochastik 2.1) amtlich III.
+  Verkettung mit Ersatz n · p = E (Stochastik 2.1) amtlich III. 2024-ga-A 26
+  von 30; je Abweichung der gefeuerte Eintrag in iqb-pruefungen.md § 4
+  („faires Spiel" und „Aussage beurteilen" feuern dort über dem
+  Standardbezug, „allgemeiner Nachweis mit Parameter" und „Term in
+  Sachaussage übersetzen" fehlen der Liste – Vorschlag, nicht umgesetzt).
   Die weite Fassung „Kombinieren heißt III" (Stand nach 2026-ga-A) hatte die
   Verkettung allein zum Maß gemacht; sie trifft die amtlich mit III belegten
   Zeilen ebenso, überschätzt aber Routineverkettungen. Im Katalog tragen die

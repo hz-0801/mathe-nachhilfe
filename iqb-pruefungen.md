@@ -21,7 +21,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2026-ea-A | 20 | **erfasst 2026-09-13, 37 Zeilen** · 32 Typen neu, 7 wiederverwendet · Eichung 34 von 37 |
 | 2025-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 31 Zeilen** · 31 Typen neu, 2 wiederverwendet · Eichung weit 29, eng 30 von 31 |
 | 2025-ea-A | 20 (19 + 1 Dublette) | **erfasst 2026-09-13, 34 Zeilen** · 31 Typen neu, 4 wiederverwendet · Eichung eng 30 von 34 |
-| 2024-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
+| 2024-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 30 Zeilen** · 27 Typen neu, 4 wiederverwendet · Eichung eng 26 von 30 |
 | 2024-ea-A | 19 | nicht erfasst |
 | 2023-ga-A | 14 (13 + 1 Dublette) | nicht erfasst |
 | 2023-ea-A | 18 | nicht erfasst |
@@ -53,6 +53,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %), enge Fassung 36 (97 %) | 0 | 0 | – (erster Stapel erhöht) | 7, 6, 7, 6 |
 | 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) | 2, 2, 1, 1 |
 | 2025-ea-A | 34 | 35 | 31 (89 %) | eng 30 von 34 (88 %) | 0 | 0 | 2 von 35 aus 2026-ea-A (6 %) | 8, 2, 8, 2 |
+| 2024-ga-A | 30 | 31 | 27 (87 %) | eng 26 von 30 (87 %) | 0 | 1 | 2 von 31 aus 2026-ga-A und 2025-ga-A (6 %) | 4, 4, 4, 4 |
 
 „Davon neu" zählt gegen den Gesamtbestand; die letzte Spalte ist die
 Konvergenzmessung innerhalb eines Niveaus (Typen des Stapels, die schon im
@@ -289,10 +290,117 @@ in beiden Jahrgängen vor, 2026-ea-A eine Zeile (Analysis 2.2, Gruppe 2), hier
 sechs, davon die Funktionsschar in Gruppe 1 (Analysis 1.1) und die Geraden- und
 Ebenenscharen in Gruppe 2.
 
+**Stapel 2024-ga-A.** 17 Dateien, eine Dublette (AGLAA212 = AGLAA112), 30
+Zeilen aus 16 Dateien, alle 5 BE bestätigt, kein „?", einmal „ersatzweise"
+(AGLAA112: ebene Figur aus Vektoren unter Flächeninhalt und Volumen im Raum).
+Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung über den Bestand (165
+Zeilen, 155 Typen, 5 Stapel) bestanden. Drei ungegliederte Aufgaben (Analysis
+2.2, AGLAA112, AGLAA221); AGLAA211 mit drei Teilaufgaben a–c; Stochastik 2.2
+mit drei Seiten (Teilaufgaben auf Seite 2). Kein neues Thema; neue
+Gegenstände sind die Verflechtungsmatrix mit Diagramm (AGLAA111), das
+Randomized-Response-Verfahren (Stochastik 2.2) und die Abstandsbedingung beim
+Abzählen (Stochastik 1.3). Die Dateinamen tragen ab diesem Jahrgang die Endung „.docx" in der
+Fußzeile, die Kennung ist unverändert.
+
+**Eichung 2024-ga-A: eng 26 von 30 (87 %), Schranke 85 % gehalten** – mit dem
+gefeuerten Eintrag der Deutungsliste je Abweichung (Auftrag des Lehrers):
+
+| Zeile | geschätzt | amtlich | Eintrag der Deutungsliste |
+|---|---|---|---|
+| Analysis 1.3 b (Verschiebung zwischen zwei Graphen beurteilen) | III | II | „Aussage beurteilen" hat gefeuert; die Beurteilung ist ein Steigungsvergleich an einer Stelle. |
+| AGLAA12 b (alle Fixvektoren) | II | III | kein Eintrag hat gefeuert (Produkt, Gleichsetzen, Auflösen); amtlich III über K1/K2 für die zweiparametrige Lösungsmenge. |
+| Stochastik 1.2 b (Erwartungswert gegen Einsatz) | III | II | „faires Spiel als Erwartungswert gleich Einsatz" hat gefeuert – dritter Fall über dem Standardbezug (2025-ga-A Stochastik 2.2 b traf, 2025-ea-A Stochastik 1.1 b und hier nicht). |
+| Stochastik 2.1 a (Pfad aus dem Sachtext) | I | II | kein Eintrag; als einzelne Rechnung I, amtlich II über K2/K3 (Sachtext in einen Pfad übersetzen). |
+
+Treffer mit gefeuertem Eintrag: Analysis 2.2 („Bedingung in Gleichung
+übersetzen": mittlere Änderungsrate als Geradensteigung), AGLAA221 (derselbe
+Eintrag: Diagonalenschnittpunkt als Spurpunkt), Stochastik 2.2 a und b
+(derselbe Eintrag: Verneinung der Frage, Ja-Anteil als Pfadsumme). Treffer
+ohne Eintrag, aber III: Analysis 2.1 b (allgemeiner Nachweis mit Parameter u)
+und Stochastik 2.1 b (Ungleichung mit Binomialsumme in eine Sachaussage
+übersetzen). Nicht gefeuert, obwohl der Wortlaut es zuließe, und Treffer:
+Analysis 1.2 b („Symmetrie ausnutzen" – die Symmetrie ist in a gegeben, die
+Fläche eine Routinekette), AGLAA111 b („Bedingung in Gleichung übersetzen" –
+die Übersetzung ist wörtlich: doppelt, viermal).
+
+Lesart nach fünf Stapeln: (1) „faires Spiel" und „Aussage beurteilen" schneiden
+zu weit – beide feuern auch bei Aufgaben, die der Standardbezug mit II belegt;
+Kandidat für die Einschränkung: III nur, wenn die Deutung selbst eine
+Modellierungsentscheidung ist (Bedingung erst finden), nicht, wenn sie
+wörtlich vorgegeben ist („gleichen sich aus", „Verschiebung"). (2) Der Liste
+fehlen zwei Einträge, die in der Praxis III liefern: „allgemeiner Nachweis mit
+Parameter (verallgemeinern)" (2024 Analysis 2.1 b, 2025-ea-A Analysis 2.1 a
+und AGLAA222 b, alle amtlich III) und „Term oder Ungleichung in eine
+Sachaussage übersetzen" (Stochastik 2.1 b, amtlich III). (3) Offen bleibt der
+Eintrag „Lösungsmenge mit freien Parametern beschreiben" (AGLAA12 b, amtlich
+III; 2025-ga-A AGLAA11 amtlich II). Keine Änderung an iqb.md § 7 in diesem
+Lauf; Vorschlag zur Entscheidung.
+
+**Typen 2024-ga-A.** 31 verwendet, 27 neu, 4 wiederverwendet: Koordinaten
+eines Eckpunkts eines Prismas (2026-ga-A), Ereignis zu einem gegebenen
+Wahrscheinlichkeitsterm beschreiben (viertes Vorkommen), Abbildung zwischen
+zwei Graphen angeben und Wahrscheinlichkeit für genau einen Treffer bei zwei
+Versuchen (beide 2026-ea-A). Konvergenz im grundlegenden Niveau nach drei
+Jahrgängen: 6 % (2 von 31). Vorschlag für den Abgleich: „Parameter für einen
+rechten Winkel über das Skalarprodukt ermitteln" mit „Rechten Winkel eines
+Dreiecks mit Parameter nachweisen" (2026-ga-A) zusammenziehen.
+
+**Geltung 2024-ga-A.** Außerhalb der Geltung 4, 4, 4, 4 von 30: nur Matrizen
+(AGLAA111 a, b; AGLAA12 a, b) – im dritten Jahrgang grundlegend wieder eine
+volle Aufgabengruppe AG/LA (A1) mit Matrizen. Bestand jetzt be-gk 21, be-lk 14,
+bb-gk 20, bb-ea 13 von 165 Zeilen.
+
+**Zwischenschnitt Thema × Handlungsklasse durchgerechnet (Auftrag des
+Lehrers, Bestand 165 Zeilen, nicht umgesetzt).** Handlungsklasse aus dem
+ersten Wert von `format`: Rechnung → berechnen (73 Zeilen), Begründung →
+begründen (47), Kurzantwort/Ankreuzen → angeben (35), Zeichnen/Eintragen →
+zeichnen (10). Ergebnis: 75 Werte statt 149 Haupttypen, 2,20 Zeilen je Wert
+(grundlegend 1,84 auf 51 Werte, erhöht 1,39 auf 51); Verteilung 33 × 1, 20 × 2,
+11 × 3, 4 × 4, 4 × 5, 1 × 7, 2 × 8 Zeilen. Wiederverwendung im Niveau je
+Stapel unter diesem Schnitt gegen `typ`: 2025-ga-A 39 % gegen 3 %, 2025-ea-A
+32 % gegen 6 %, 2024-ga-A 67 % gegen 7 %. Die zwanzig größten Gruppen als
+beispielhafte Typenliste (Zeilen darunter in Klammern):
+
+| Schnittwert | Zeilen | Zeilen darunter (heutige Typen) |
+|---|---|---|
+| Flächeninhalt und Volumen im Raum · berechnen | 8 | Pyramidenhöhe aus Volumen, Flächengleichheit (2×), Prisma über Raute, gleichschenkliges Dreieck, Würfel-Teilkörper, Dreieck/Trapez, Quadrat aus Spurpunkt |
+| Matrizen und Übergangsprozesse · berechnen | 8 | Zykluslänge, Vektorparameter, inverse Matrix, Matrixparameter (2×), Vertauschbarkeit, Verflechtungseintrag, Fixvektoren |
+| Baumdiagramm und Pfadregeln · berechnen | 7 | fehlende Astwahrscheinlichkeiten, Vergleich zweier Geräte, ungerade Summe, Produktereignis bei n Würfen, lauter Treffer, Pfad aus Sachtext, Anteil aus Befragung |
+| Funktionsklassen und Eigenschaften · begründen | 5 | Sinus-Extrempunkte, fehlende Punktsymmetrie, Nullstelle einsetzen, ungerade Exponenten, Verschiebung beurteilen |
+| Kenngrößen von Verteilungen · berechnen | 5 | p aus ganzzahligem E, n und p aus E und σ, Sigma-Intervall, unbekannte Werte aus E (2×) |
+| Orthogonalität · begründen | 5 | rechter Winkel (3×, davon 2× mit Parameter), Gerade–Ebene, Normalenvektor über Skalarprodukte |
+| Zufallsexperimente und Urnenmodelle · angeben | 5 | Ereignis zu Term (4×), Laplace erster Zug |
+| Binomialverteilung · angeben | 4 | Werte aus Säulendiagramm, Bernoulli-Term (2×), Sachaussage zu Binomialsumme |
+| Binomialverteilung · berechnen | 4 | genau ein Treffer bei zwei Versuchen (2×), Einzelwert aus Symmetrie, n und p aus Verhältnis |
+| Flächeninhalt durch Integration · berechnen | 4 | zwei Graphen mit Stammfunktion, Graph und Achsen, Flächenhalbierung, zwei Flächenstücke |
+| Punkte und Strecken im Koordinatensystem · angeben | 4 | Prisma-Eckpunkt (3×), Ecke mit Vorzeichen nach Verschiebung |
+| Funktionsklassen und Eigenschaften · angeben | 3 | Abbildung zwischen Graphen (2×), Wertemenge |
+| Funktionsscharen und Ortskurven · berechnen | 3 | Scharparameter für waagerechte Tangente, Steigung im Ursprung, Punktsymmetrie der Schar |
+| Kenngrößen von Verteilungen · begründen | 3 | Parität von n, Verhältnis der p aus E, Erwartungswert gegen Einsatz |
+| Lagebeziehungen · begründen | 3 | Punktprobe Ebene (2×), Parallelität zur xy-Ebene |
+| Lineare Gleichungssysteme · begründen | 3 | Lösung einsetzen, Lösbarkeit mit Parameter, Fallunterscheidung |
+| Matrizen und Übergangsprozesse · begründen | 3 | Übergangsdiagramm, Existenz von Matrizen, Existenz von Kernvektoren |
+| Orthogonalität · berechnen | 3 | Punkt aus Orthogonalität und Ebene, zwei Geraden, Parameter für rechten Winkel |
+| Scharen von Geraden und Ebenen · begründen | 3 | Punktprobe an Schar, Identität der Schar, Nichtparallelität |
+| Spiegelung · berechnen | 3 | Spiegelpunkt an Ebene, an Punkt, Abstand zum Spiegelbild |
+
+Lesart: Der Schnitt bündelt, was im Blattbau als Kette taugt (Flächeninhalt
+im Raum · berechnen, Baumdiagramm · berechnen, Orthogonalität · begründen), und
+konvergiert im grundlegenden Niveau nach drei Jahrgängen auf zwei Drittel.
+Er wirft aber Ungleiches zusammen: unter Matrizen · berechnen liegen
+Verflechtung, Übergangsmatrix und Matrizenalgebra; unter Funktionsklassen ·
+begründen Symmetrie, Nullstelle und Verschiebung. Eine Zwischenstufe (Thema ×
+Handlung × Gegenstandsklasse, etwa „Symmetrie") läge zwischen 1,1 und 2,2
+Zeilen je Wert. 33 der 75 Werte sind noch Einzelstücke, vor allem zeichnen und
+die LK-Themen. Vorschlag bleibt wie in der Typenschnittmessung: Blattbau für
+Teil A auf `thema` (oder auf diesem Schnitt), Typ als Feinetikett; gröberer
+Schnitt erst beim Abgleichlauf.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2024-ga-A vollständig erfasst: 30 Zeilen aus 16 Dateien (eine Dublette), Katalog 165 Zeilen, Typenliste 155. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung eng 26 von 30 (87 %), je Abweichung der gefeuerte Eintrag der Deutungsliste in § 4 (Vorschlag: „faires Spiel" und „Aussage beurteilen" einschränken, „allgemeiner Nachweis" und „Term in Sachaussage" ergänzen – nicht umgesetzt). Zwischenschnitt Thema × Handlungsklasse über 165 Zeilen in § 4 (75 Werte, 2,20 je Wert, Wiederverwendung im Niveau 67 % gegen 7 % nach typ; nicht umgesetzt). |
 | 2026-09-13 | 2025-ea-A vollständig erfasst: 34 Zeilen aus 19 Dateien (eine Dublette), Katalog 135 Zeilen, Typenliste 128. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung eng 30 von 34 (88 %), Schranke 85 % gehalten; Wiederverwendung im Niveau 2 von 35; außerhalb der Geltung be-gk 8, be-lk 2, bb-gk 8, bb-ea 2. Befunde in § 4 (Messwerte zur engen Fassung, Scharen auf erhöhtem Niveau, Vorschläge für den Abgleich). |
 | 2026-09-13 | Vorarbeiten vor 2025-ea-A: Typenschnitt gemessen (§ 4, Vorschlag nicht umgesetzt); Schranke für neue Typen deaktiviert, Eichschranke 85 % nach der engen Fassung scharf; Geltungstabelle aus den vier Prüfungsschwerpunkten 2027 in iqb.md § 6 (v0.4), iqb-bau.py v0.3 zählt Zeilen außerhalb der Geltung je Zielprüfung und die Wiederverwendung im Niveau als Kennzahlen; abi-vorgaben.md ergänzt. |
 | 2026-09-13 | 2025-ga-A vollständig erfasst: 31 Zeilen aus 16 Dateien (eine Dublette), Katalog 101 Zeilen, Typenliste 97. Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung doppelt gerechnet (weit 29, eng 30 von 31); Entscheidung für die enge Fassung, iqb.md v0.3 § 7. Wiederverwendung innerhalb des Niveaus als Kennzahl aufgenommen. Befunde in § 4 (Matrizen auch grundlegend, Hypergeometrische Verteilung belegt). |
