@@ -395,6 +395,9 @@ Stand v0.1: keine.
   Routineverkettungen mit amtlich II); 2025-ga-A weit 29, eng 30 von 31 (die
   weite Fassung überschätzt AGLAA11 und AGLAA212-b, die enge unterschätzt nur
   Analysis 2.2 a, wo der Standardbezug die Bruchgleichung mit K5 III belegt).
+  Erster Stapel nach der engen Fassung als Regel: 2025-ea-A 30 von 34; die
+  Fairnessdeutung (Stochastik 1.1 b) ist dort amtlich nur II, die algebraische
+  Verkettung mit Ersatz n · p = E (Stochastik 2.1) amtlich III.
   Die weite Fassung „Kombinieren heißt III" (Stand nach 2026-ga-A) hatte die
   Verkettung allein zum Maß gemacht; sie trifft die amtlich mit III belegten
   Zeilen ebenso, überschätzt aber Routineverkettungen. Im Katalog tragen die

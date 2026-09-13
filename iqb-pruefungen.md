@@ -20,7 +20,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2026-ga-A | 19 (18 + 1 Dublette) | **erfasst 2026-09-13, 33 Zeilen** · 34 Typen neu · Eichung 30 von 33 |
 | 2026-ea-A | 20 | **erfasst 2026-09-13, 37 Zeilen** · 32 Typen neu, 7 wiederverwendet · Eichung 34 von 37 |
 | 2025-ga-A | 17 (16 + 1 Dublette) | **erfasst 2026-09-13, 31 Zeilen** · 31 Typen neu, 2 wiederverwendet · Eichung weit 29, eng 30 von 31 |
-| 2025-ea-A | 20 (19 + 1 Dublette) | nicht erfasst |
+| 2025-ea-A | 20 (19 + 1 Dublette) | **erfasst 2026-09-13, 34 Zeilen** · 31 Typen neu, 4 wiederverwendet · Eichung eng 30 von 34 |
 | 2024-ga-A | 17 (16 + 1 Dublette) | nicht erfasst |
 | 2024-ea-A | 19 | nicht erfasst |
 | 2023-ga-A | 14 (13 + 1 Dublette) | nicht erfasst |
@@ -52,6 +52,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 | – | 0, 0, 0, 0 |
 | 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %), enge Fassung 36 (97 %) | 0 | 0 | – (erster Stapel erhöht) | 7, 6, 7, 6 |
 | 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) | 2, 2, 1, 1 |
+| 2025-ea-A | 34 | 35 | 31 (89 %) | eng 30 von 34 (88 %) | 0 | 0 | 2 von 35 aus 2026-ea-A (6 %) | 8, 2, 8, 2 |
 
 „Davon neu" zählt gegen den Gesamtbestand; die letzte Spalte ist die
 Konvergenzmessung innerhalb eines Niveaus (Typen des Stapels, die schon im
@@ -237,10 +238,62 @@ Kennzeichnung (Auftrag des Lehrers, nicht umgesetzt): kein neues Feld und
 keine Zeilenmarkierung, sondern die Geltung am Thema führen – siehe Bericht
 und iqb.md § 6.
 
+**Stapel 2025-ea-A.** 20 Dateien, eine Dublette (AGLAA224 = AGLAA121), 34
+Zeilen aus 19 Dateien, alle 5 BE bestätigt, kein „?", kein „ersatzweise". Lauf
+aus dem HEAD-Stand byteidentisch, Selbstprüfung über den Bestand (135 Zeilen,
+128 Typen, 4 Stapel) bestanden. Vier ungegliederte Aufgaben (Analysis 2.2,
+AGLAA122, Stochastik 2.1, 2.3); AGLAA11 wieder einzige Aufgabe der Gruppe 1.
+Datei AGLAA212 mit drei Seiten; Stochastik 1.2 b steht auf Seite 2. Erste
+Fundstellen der Themen Umkehrfunktion (Analysis 2.2), Skalarprodukt und Winkel
+(AGLAA211), Schnittmengen (AGLAA212 b), Scharen von Geraden und Ebenen (AGLAA221,
+222), Unabhängigkeit (Stochastik 2.3); alle rechnerischen Ergebnisse mit sympy
+bestätigt. Erster Stapel nach der engen Fassung als geltender Regel: die Zeilen
+tragen die enge Schätzung direkt, kein Vermerk in bemerkung.
+
+**Eichung 2025-ea-A: eng 30 von 34 (88 %), Schranke 85 % gehalten.**
+Abweichungen: AGLAA121 a (gestaffeltes Gleichungssystem für a = 0 lösen) und
+AGLAA211 a (Ankreuzen: Ergebnisart von Skalarprodukt-Ausdrücken) geschätzt I,
+amtlich bis II; Stochastik 1.1 b (Auszahlung aus der Fairnessbedingung)
+geschätzt III nach dem Regelbeispiel „faires Spiel als Erwartungswert gleich
+Einsatz", amtlich II; Stochastik 2.1 (n und p aus P(X = 1) = 14 · P(X = 0) und
+E = 10) geschätzt II als algebraische Verkettung ohne Deutung, amtlich III über
+K2 und K5. Die Regel trifft 12 von 13 Zeilen mit amtlich III. Die beiden
+letzten Abweichungen sind Messwerte zur Regel selbst: der Standardbezug setzt
+die Fairnessdeutung hier nur II, die algebraische Verkettung mit Ersatz
+n · p = 10 dagegen III; nach einem weiteren Stapel prüfen, ob „faires Spiel"
+aus der Beispielliste der Deutungen fällt.
+
+**Typen 2025-ea-A.** 35 verwendet, 31 neu, 4 wiederverwendet: 2 aus 2026-ea-A
+(Symmetrieebenen eines Körpers, dort mit Begründung, hier nur Angabe; Unbekannte
+Werte einer Zufallsgröße aus dem Erwartungswert), 1 aus 2026-ga-A (Extrempunkt
+an vorgegebener Stelle nachweisen), 1 aus 2025-ga-A (Punktprobe an einer
+Geraden, hier mit Scharparameter). Konvergenz innerhalb des erhöhten Niveaus
+nach zwei Jahrgängen: 6 % (2 von 35), grundlegend waren es 3 %. Vorschläge für
+den Abgleich: „Graph einer Stammfunktion unter vorgegebenen Graphen begründet
+auswählen" mit „Graph der Funktion vom Graphen der Ableitung unterscheiden"
+(2026-ga-A) zusammenziehen; „Verhältnis zweier Trefferwahrscheinlichkeiten aus
+den Erwartungswerten im Diagramm nachweisen" mit „Trefferwahrscheinlichkeit aus
+dem ganzzahligen Erwartungswert im Diagramm ermitteln" (2026-ga-A); „Integralwert
+aus der Symmetrie des Graphen angeben" mit „Integral mit Wert null am Graphen
+veranschaulichen" (2026-ea-A). Getrennt gehalten: „Lösungsanzahl eines
+gestaffelten Gleichungssystems mit Parameter durch Fallunterscheidung
+begründen" gegen „Lösbarkeit eines Gleichungssystems mit Parameter beurteilen"
+(2025-ga-A), anderer Lösungsweg.
+
+**Geltung 2025-ea-A.** Außerhalb der Geltung be-gk 8, be-lk 2, bb-gk 8, bb-ea
+2 von 34: Matrizen (AGLAA11 b, AGLAA122) für alle vier Zielprüfungen,
+Funktionsscharen (Analysis 1.1 a, b) und Scharen von Geraden und Ebenen
+(AGLAA221 a, b, AGLAA222 a, b) nur für die Grundkurse. Bestand jetzt be-gk 17,
+be-lk 10, bb-gk 16, bb-ea 9 von 135 Zeilen. Scharen kommen auf erhöhtem Niveau
+in beiden Jahrgängen vor, 2026-ea-A eine Zeile (Analysis 2.2, Gruppe 2), hier
+sechs, davon die Funktionsschar in Gruppe 1 (Analysis 1.1) und die Geraden- und
+Ebenenscharen in Gruppe 2.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2025-ea-A vollständig erfasst: 34 Zeilen aus 19 Dateien (eine Dublette), Katalog 135 Zeilen, Typenliste 128. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung eng 30 von 34 (88 %), Schranke 85 % gehalten; Wiederverwendung im Niveau 2 von 35; außerhalb der Geltung be-gk 8, be-lk 2, bb-gk 8, bb-ea 2. Befunde in § 4 (Messwerte zur engen Fassung, Scharen auf erhöhtem Niveau, Vorschläge für den Abgleich). |
 | 2026-09-13 | Vorarbeiten vor 2025-ea-A: Typenschnitt gemessen (§ 4, Vorschlag nicht umgesetzt); Schranke für neue Typen deaktiviert, Eichschranke 85 % nach der engen Fassung scharf; Geltungstabelle aus den vier Prüfungsschwerpunkten 2027 in iqb.md § 6 (v0.4), iqb-bau.py v0.3 zählt Zeilen außerhalb der Geltung je Zielprüfung und die Wiederverwendung im Niveau als Kennzahlen; abi-vorgaben.md ergänzt. |
 | 2026-09-13 | 2025-ga-A vollständig erfasst: 31 Zeilen aus 16 Dateien (eine Dublette), Katalog 101 Zeilen, Typenliste 97. Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung doppelt gerechnet (weit 29, eng 30 von 31); Entscheidung für die enge Fassung, iqb.md v0.3 § 7. Wiederverwendung innerhalb des Niveaus als Kennzahl aufgenommen. Befunde in § 4 (Matrizen auch grundlegend, Hypergeometrische Verteilung belegt). |
 | 2026-09-13 | 2026-ea-A vollständig erfasst: 37 Zeilen aus 20 Dateien, Katalog 70 Zeilen, Typenliste 66. Alle 20 Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden, Eichung 34 von 37, Kennzahlen in § 4. Befunde in § 4 (Matrizen auf erhöhtem Niveau, Varianten über die Niveaus, Gegenbefund zur Regel „Kombinieren heißt III"). |
