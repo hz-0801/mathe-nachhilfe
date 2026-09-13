@@ -1,8 +1,16 @@
-# CLAUDE.md – Abitur-Katalogarbeit (Profil abi)
+# CLAUDE.md – Abitur-Katalogarbeit (Profile abi und iqb)
 
 Repo hz-0801/mathe-nachhilfe, alle Dateien flach in der Wurzel. Dieses Dokument
-gilt für die Erfassung der Abiturhefte in den Katalog. Für MSA (Profil msa) und
-FHR (Profil fhr) liegen eigene Dateien daneben; sie werden hier nicht angefasst.
+gilt für die Erfassung der Abiturhefte (Profil abi) und des IQB-Aufgabenpools
+(Profil iqb) in den Katalog. Für MSA (Profil msa) und FHR (Profil fhr) liegen
+eigene Dateien daneben; sie werden hier nicht angefasst. § 1–3 beschreiben abi;
+§ 4 nennt, was für iqb anders ist – alles Übrige gilt dort gleich.
+
+Werkzeuge auf dem Rechner des Lehrers (Windows, nichts im PATH): git aus GitHub
+Desktop (`%LOCALAPPDATA%\GitHubDesktop\app-*\resources\app\git\cmd\git.exe`),
+Python aus LibreOffice (`C:\Program Files\LibreOffice\program\python.exe`),
+sympy und pypdf per `pip install --target` in den Scratchpad, dann `PYTHONPATH`
+setzen. Kein pdftotext: Text mit pypdf, Seiten mit dem Read-Tool ansehen.
 
 ## 1 Maßgebliche Dateien
 
@@ -10,9 +18,9 @@ Regelwerk (lesen, nicht ohne Anlass ändern):
 
 | Datei | Rolle |
 |---|---|
-| `konzept.md` | Gesamtkonzept: Ziel, Bausteine, Entscheidungen 1–22, Verworfenes. Getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt. |
+| `konzept.md` | Gesamtkonzept: Ziel, Bausteine, Entscheidungen 1–23, Verworfenes. Getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt. |
 | `katalog-prompt.md` | Kern der Erfassungsmethode (v0.3, Schema-Version 2): Zeilenregel, 37 Felder mit Kopfzeile, Formvokabular, Prüfung, Ausgabe je Heft. Prüfungsunabhängig. |
-| `abi.md` | Profil abi (v0.5): Prüfung, Basis-URL, Heftaufbau, Kürzel und id-Muster, Sachgebiete (`leitidee`), Themenliste, Besonderheiten beim Erfassen, Beispielzeilen, Offenes. **Bei Widerspruch zum Kern gilt das Profil.** |
+| `abi.md` | Profil abi (v0.6): Prüfung, Basis-URL, Heftaufbau, Kürzel und id-Muster, Sachgebiete (`leitidee`), Themenliste, Besonderheiten beim Erfassen, Beispielzeilen, Offenes. **Bei Widerspruch zum Kern gilt das Profil.** |
 | `abi-quellen.md` | Verzeichnis, Dateinamen, papier-Kürzel und Seitenzahlen der Hefte. |
 | `abi-aufbau.md`, `abi-struktur.json` | Zeiten, Wahlstruktur, BE-Verteilung; Zwillingsnachweis Berlin/Brandenburg über BE-Vektoren. |
 
@@ -25,7 +33,7 @@ Arbeitsdateien (werden je Heft geschrieben):
 | `abi-typen.csv` | Typenliste `typ;leitidee;thema;definition;beispiel_id;status`. Wächst nur über `NEUE_TYPEN`. |
 | `abi-pruefungen.md` | Heftliste mit Status, Befunde je Heft (§ 4), Änderungslog (§ 5). Nach jedem Heft fortschreiben. |
 
-Nicht maßgeblich für die Erfassung: `vorgaben.md` (Fachbriefe, jährlicher Check, vom Katalog-Prompt nicht gelesen), `pruefungsprompt.md`/`masterprompt.md` (Blattbau, kommt später), die msa-/fhr-Dateien.
+Nicht maßgeblich für die Erfassung: `vorgaben.md` und `abi-vorgaben.md` (Fachbriefe, Prüfungsschwerpunkte, jährlicher Check, vom Katalog-Prompt nicht gelesen), `pruefungsprompt.md`/`masterprompt.md` (Blattbau, kommt später), die msa-/fhr-Dateien.
 
 ## 2 Wie ein Heft erfasst wird
 
@@ -49,3 +57,14 @@ Grundlage: `katalog-prompt.md` § 3–8, konkretisiert durch `abi.md` § 4 und �
 - Fakten von Deutung trennen: Deutung nur in `niveau_geschaetzt`, `fehlerquelle`, `bemerkung`. Kein Volltext im Katalog; Wortlaut und Bild holt später nur der Blatt-Prompt.
 - Häufigkeit eines Typs ist Auskunft, keine Priorität; ein einziges Vorkommen ist ein vollwertiger Typ.
 - Sprache und Zeichen: Deutsch, echte Umlaute und ß in allen Textfeldern (nur `id`, `papier`, `abhaengig_von` sind umlautfrei), Unicode-Minus „−" statt Bindestrich vor Zahlen, Dezimalkomma wie im Heft.
+
+## 4 Profil iqb – was anders ist
+
+Regelwerk: `iqb.md` (Profil, bei Widerspruch zum Kern gilt es), `iqb-quellen.md` und `iqb-quellen.csv` (alle 624 Kennungen mit Zerlegung, papier und Stapel; `iqb-bau.py` liest die CSV). Arbeitsdateien: `iqb-bau.py`, `iqb-katalog.csv`, `iqb-typen.csv`, `iqb-pruefungen.md` (Stapelliste, Befunde, Änderungslog). Entscheidung: `konzept.md` Nr. 23.
+
+- **Ein Stapel je Lauf statt ein Heft.** Eine Poolaufgabe ist kein Heft; die Einheit ist der Stapel = Prüfungsteil eines Pooljahrs auf einem Niveau (Spalte `stapel`, z. B. `2026-ga-A`, 10–20 Dateien, 25–50 Zeilen). Der Lehrer nennt ihn („2026 ga", „weiter" = nächster in `iqb-pruefungen.md` § 2). Reihenfolge: Teil A vollständig, jüngstes Jahr zuerst, grundlegend vor erhöht, Beispielaufgaben zuletzt; Teil B liegt.
+- **Holen und lesen.** Je Datei `curl` nach `iqb-quellen.md` § 4, zwei Seiten in Teil A. Die Datei enthält Aufgabe, Erwartungshorizont, Standardbezug und Bewertungshinweise. Formeln sind Bilder: jede Seite rendern. Reihenfolge je Aufgabe: Aufgabe lesen und `niveau_geschaetzt` festlegen, erst dann Erwartungshorizont und Standardbezug lesen (`iqb.md` § 7).
+- **`iqb-bau.py` füllen.** `KONFIG` (`stapel`, `soll` je Kennung aus der BE-Summe, `seiten` nur bei Abweichung von 2, `probe`), dann `row(kennung, teilaufgabe, ...)`: id, jahr, papier, block, aufgabe, titel, stern und hilfsmittel leitet das Skript aus der Kennung ab (`iqb.md` § 4), nicht übergeben. `afb_amtlich` aus dem Standardbezug mit allen vorkommenden Bereichen (`I|II`), die Matrixzeile nach `bemerkung` („Standardbezug: K1 I, K2 II, K5 II"). `ergebnis` amtlich aus dem Erwartungshorizont mit „(amtlich)", eigene Rechnung mit sympy als Kontrolle. Kein passendes Thema: nächstliegendes wählen und „ersatzweise" in `bemerkung`. Beim Anlegen eines Typs in `abi-typen.csv` nachsehen und das Etikett übernehmen, wenn die Fertigkeit dieselbe ist.
+- **Qualitätsschranke im Skript.** `SCHWELLEN` in `iqb-bau.py` (`iqb.md` § 7): Zeilen mit „?", Anteil neuer Typen, Zeilen ohne passendes Thema. Reißt eine Schranke, werden Etiketten und Rechnungen geprüft und der Lauf wiederholt; erst wenn das nicht hilft, wird der Wert im Skript geändert und in `iqb-pruefungen.md` § 5 begründet. `probe: True` prüft alles und schreibt nichts; damit wird eine einzelne Aufgabe ausprobiert, ohne einen Zwischenstand zu erzeugen.
+- **Stapel vollständig.** Das Skript vergleicht die Dateien in `ZEILEN` mit `iqb-quellen.csv` und schreibt nur, wenn jede Datei des Stapels da ist und jede Punktsumme stimmt. Die Selbstprüfung (leeres `ZEILEN`) prüft zusätzlich, dass jeder angefangene Stapel im Bestand vollständig ist, und gibt die Eichung über den Bestand aus.
+- **Abgleichlauf nach jedem Stapel** (Kern § 9): Etiketten des Stapels gegen `iqb-typen.csv` vereinheitlichen, Liste alt → neu in `iqb-pruefungen.md` § 5. Commit je Stapel nach bestandener Selbstprüfung; Nachführen wie bei abi, dazu die Eichungsquote in `iqb-pruefungen.md` § 4.

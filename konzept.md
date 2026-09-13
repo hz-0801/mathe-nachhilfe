@@ -12,6 +12,9 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     konzept.md             diese Datei
     katalog-prompt.md      Kern: Methode der Erfassung, prüfungsunabhängig
     msa.md                 Profil msa: alles, was an der P10 hängt (Quellen, Aufbau, Kürzel, Themenliste, Beispielzeilen)
+    fhr.md, abi.md, iqb.md Profile fhr (Fachhochschulreife BB), abi (Zentralabitur BE/BB), iqb (Aufgabenpool des IQB);
+                           Dateien je Profil mit Präfix: <kennung>-quellen.md, -pruefungen.md, -typen.csv, -katalog.csv, -bau.py
+    vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck für msa bzw. abi/iqb
     pruefungsprompt.md     Prüfungsprompt (bis v0.7 blatt-prompt.md): baut alle Prüfungen mit Katalog, heute Profil msa; Masterfassung hier, Projektanweisung ist Kopie (blatt-konzept.md §5)
     masterprompt.md        Masterprompt: baut alles ohne Katalog (Unterricht, Klassenarbeiten, Prüfungen ohne Katalog); Masterfassung hier, Projektanweisung ist Kopie
     CHANGELOG.md           Änderungshistorie der Prompts und der Vorlage
@@ -84,6 +87,7 @@ Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
 20. Die PDF-Pipeline aus dem Masterprompt (mathblatt.sty, xelatex, Skriptprüfung, Ausgabeblock) bleibt für die Blätter.
 21. Versteckte Leistungen in einer Einheit bleiben eine Zeile; alle Leistungen werden in gesucht, ergebnis, format, typ und typ_neben erfasst; Punkte werden nicht geschätzt aufgeteilt.
 22. Arbeitsweise Schritt für Schritt: Claude liefert Dateien mit Pfad und Namen, der Lehrer legt sie ab und meldet sich; dann nennt Claude den nächsten Schritt. Aufwendige Aktionen werden vorher angekündigt.
+23. Eigenes Profil iqb für den Aufgabenpool des IQB (2026-09-13), nach dem Muster von fhr: gleicher Kern, eigenes Profil, eigene Katalogdatei, eigene Typenliste. Grund: Der Pool ist länderneutral und passt nicht in das abi-Kürzel Jahr-Land-Niveau. Der Pool liefert Typen und eicht über den Standardbezug die Niveauschätzung; die Landeshefte bleiben das Formatmodell. Zusammengeführt wird über die Typen, nicht über die Dateien. Reihenfolge: Prüfungsteil A vollständig, dann Teil B. Einheit des Laufs ist der Stapel (Prüfungsteil eines Pooljahrs auf einem Niveau); die Qualitätsschranke sitzt im Bau-Skript (Schwellenwerte für „?", neue Typen, fehlende Themen), nicht im Urteil des Lehrers, der keine Berichte liest. afb_amtlich trägt alle im Standardbezug vorkommenden Bereiche; die Eichung vergleicht mit dem höchsten.
 
 ## 5 Verworfen
 
@@ -112,11 +116,15 @@ Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
 3. Typenliste nach drei Heften festgezogen (Typen-Check 05.09.2026, 83 Typen gültig); Blatt-Prompt v0.1; zwei, drei Testblätter aus dem Katalog. Fehlt ein Feld, wird es jetzt ergänzt.
 4. Restliche MSA-Hefte 2023 bis 2014 erfasst; Abgleichlauf nach dem letzten Heft abgeschlossen (Typen-Check 05.09.2026, 185 Typen gültig). Offen: Muster 2028 FOR erfassen; Typenbibliothek ableiten.
 4a. Profil abi in eigenem Chat.
+4b. Profil iqb (2026-09-13): Prüfungsteil A in 22 Stapeln, dann Teil B; Abgleichlauf nach jedem Stapel.
 5. Blatt-Prompt fertigstellen.
 Jährlich: Vorgabencheck (vorgaben.md), neues Heft erfassen, Typenbibliothek neu ableiten.
 
 ## 8 Änderungen
 
+- 2026-09-13: Entscheidung 23 – Profil iqb für den IQB-Aufgabenpool, Stapel als
+  Laufeinheit, Qualitätsschranke im Skript. §2 Bausteine um die Profile fhr, abi, iqb
+  und abi-vorgaben.md ergänzt. Ablauf §7: 4b Profil iqb, Teil A zuerst.
 - 2026-09-12: §3 Themenkatalog aufgenommen – Zweck, Leser, Arbeitsteilung mit dem
   Prüfungskatalog, Geltung über die Prüfungsarten hinweg. Bis dahin war der Themenkatalog
   im Repo nirgends beschrieben. Folgeabschnitte umnummeriert (3–7 → 4–8).
