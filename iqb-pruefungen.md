@@ -26,7 +26,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2023-ga-A | 14 (13 + 1 Dublette) | **erfasst 2026-09-13, 24 Zeilen** · 19 Typen neu, 4 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
 | 2023-ea-A | 18 (17 + 1 Dublette) | **erfasst 2026-09-13, 32 Zeilen** · 25 Typen neu, 6 wiederverwendet · Eichung 29 von 32 (Liste v0.6) |
 | 2022-ga-A | 14 | **erfasst 2026-09-13, 24 Zeilen** · 22 Typen neu, 2 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
-| 2022-ea-A | 17 | nicht erfasst |
+| 2022-ea-A | 17 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 30 von 32 (Liste v0.6) |
 | 2021-ga-A | 13 (11 + 2 Dubletten) | nicht erfasst |
 | 2021-ea-A | 19 (17 + 2 Dubletten) | nicht erfasst |
 | 2020-ga-A | 10 | nicht erfasst |
@@ -687,9 +687,9 @@ Zeilen.
 **Stapel 2022-ga-A.** 14 Dateien, keine Dublette, 24 Zeilen, alle 5 BE
 bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
 byteidentisch, Selbstprüfung über den Bestand (277 Zeilen, 240 Typen, 9
-Stapel) bestanden. Vier ungegliederte Aufgaben (Analysis 1.3, Analysis 2,
-AGLAA12, AGLAA22, Stochastik 2 – fünf, davon Analysis 2, AGLAA22 und
-Stochastik 2 als einzige Datei ihrer Gruppe). Erste Fundstellen der Themen
+Stapel) bestanden. Fünf ungegliederte Aufgaben (Analysis 1.3, Analysis 2,
+AGLAA12, AGLAA22, Stochastik 2; davon Analysis 2, AGLAA22 und Stochastik 2
+als einzige Datei ihrer Gruppe). Erste Fundstellen der Themen
 Ebenen (besondere Lage) und Zufallsgrößen und Verteilungen im grundlegenden
 Niveau. Zwei Sachkontexte in AG/LA (A1) (Stromanbieter) und Stochastik
 (Reiseunternehmen), sonst ohne Kontext. Erster Corona-Jahrgang (Pool 2022).
@@ -720,10 +720,67 @@ Laplace-Wahrscheinlichkeit für den ersten Zug angeben" prüfen (2026-ga-A).
 (AGLAA11 a, b; AGLAA12). Bestand jetzt be-gk 49, be-lk 28, bb-gk 48, bb-ea 27
 von 277 Zeilen.
 
+**Stapel 2022-ea-A.** 17 Dateien, keine Dublette, 32 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (309 Zeilen, 268 Typen, 10
+Stapel) bestanden. Drei ungegliederte Aufgaben (Analysis 2 als einzige
+Datei der Gruppe, AGLAA213, Stochastik 2.1). Zwei Dateien mit drei Seiten
+(AGLAA111 mit c auf Seite 2, Stochastik 1.2 mit a und b auf Seite 2). Erste
+Fundstellen: Zufallsgrößen und Verteilungen im erhöhten Niveau
+(Diagrammzuordnung), Normalverteilung im Pool 2022, eine Aufgabe ganz ohne
+Koordinaten (AGLAA221, Quadrat mit Lot – Ähnlichkeit statt Vektorrechnung),
+ein Schrägbild-Argument (AGLAA222 b: Ebene erscheint als Gerade; das Feld
+material führt kein „Schrägbild", eingetragen als Koordinatensystem, die
+Projektion steht in skizze). Zweiter Corona-Jahrgang (Pool 2022, erhöht).
+
+**Eichung 2022-ea-A: 30 von 32 mit der Liste v0.6.** Zwei Abweichungen,
+beide geschätzt III, amtlich II: AGLAA211 b (die Gerade aus a als Lot vom
+Stützpunkt von h erkennen – (b) und (a) gefeuert; das IQB wertet Lotfußpunkt
+plus parallele Gerade als Routine mit K2 II, K5 II, K6 II) und Stochastik
+1.2 b (Term mit zwei Summanden als Zugfolgen deuten und das Zielfeld
+finden – (d) gefeuert; amtlich K1 II, K3 II, K4 II, K6 II). Gefeuert und
+getroffen: (a) bei Analysis 2 (zwei Eigenschaften als Gleichungen), (a)+(c)
+bei AGLAA12 b (stochastisch als Spaltensummen 1, allgemeiner Nachweis), (b)
+bei AGLAA221 a (Ähnlichkeit) und (a) bei AGLAA221 b (Vektorterm mit
+Einheitsvektor), (b)+(d) bei AGLAA222 b (Blickrichtung des Schrägbilds in
+E), (a) bei Stochastik 2.1 (Erwartungswert in b mit b als Wahrscheinlichkeit
+und Auszahlung), (a) bei Stochastik 2.2 b (Gegenereignis mit Anordnungen).
+Nicht gefeuert nach dem Prinzip, amtlich II, Treffer: Analysis 1.1 b (eine
+Deutung f = F', keine Verkettung), Analysis 1.3 b (eine Deutung Stauchung),
+AGLAA212 b („doppelt so groß" wörtlich), AGLAA213 („parallel zur
+x1x3-Ebene" als zweite Komponente 0). Befund zur Liste: beide Abweichungen
+sind Fälle, in denen die Deutung zwar zu finden ist, das IQB sie aber als
+Standardschritt wertet (Lotfußpunkt; Term als Zugfolge) – wie schon 2023-ea-A
+(Term als Rotationskörper). (d) und (b) feuern auf erhöhtem Niveau eher zu
+oft als zu selten; kein Änderungsvorschlag, Beobachtung fortführen.
+
+**Typen 2022-ea-A.** 32 verwendet, 28 neu, 4 wiederverwendet: Geraden und
+Ebenen: Orthogonalität zu einer Ebene über Kollinearität mit dem
+Normalenvektor (2025-ea-A), Matrizenalgebra: Alle Fixvektoren einer Matrix
+(2025-ea-A; hier nur ein Fixvektor verlangt, Fertigkeit gleich),
+Laplace-Experiment: Gleichheit zweier Wahrscheinlichkeiten über die Anzahl
+der Ergebnisse (2026-ea-A), Term und Ereignis: Ereignis zu einem gegebenen
+Wahrscheinlichkeitsterm (Stochastik 1.2 b, mit Anordnungsfaktoren).
+Konvergenz im erhöhten Niveau: 9 % nach typ, 75 % nach dem Schnitt (26
+Werte, 24 von 32 Zeilen bekannt) – der bislang höchste Schnittwert im
+erhöhten Niveau. Vorschläge für den Abgleichlauf 2: „Matrizenalgebra: Alle
+Vektoren mit M · v = t · v für festes t bestimmen" mit „Matrizenalgebra:
+Alle Fixvektoren einer Matrix ermitteln" zusammenziehen; „Laplace-Experiment:
+Verhältnis zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse
+begründen" mit „… Gleichheit zweier Wahrscheinlichkeiten …" zu „… Vergleich
+zweier Wahrscheinlichkeiten …".
+
+**Geltung 2022-ea-A.** Außerhalb der Geltung 13, 7, 13, 7 von 32: Matrizen
+(sieben Zeilen, alle Prüfungen), dazu für die Grundkurse Funktionsschar
+(Analysis 1.2 b, 1.3 a, 1.3 b), Ebenenschar (AGLAA222 a) und
+Normalverteilung (Stochastik 1.3 a, b). Bestand jetzt be-gk 62, be-lk 35,
+bb-gk 61, bb-ea 34 von 309 Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-13 | 2022-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien, Katalog 309 Zeilen, Typenliste 268. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 30 von 32 mit der Liste v0.6. Befund 2022-ga-A: Zählfehler bei den ungegliederten Aufgaben berichtigt (fünf). |
 | 2026-09-13 | 2022-ga-A vollständig erfasst: 24 Zeilen aus 14 Dateien, Katalog 277 Zeilen, Typenliste 240. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6. |
 | 2026-09-13 | 2023-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien (eine Dublette), Katalog 253 Zeilen, Typenliste 218. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 29 von 32 mit der Liste v0.6. Dubletten-Scan iqb-quellen.py v0.2 (nur Buchstaben und Ziffern): 16 Paare, Teil A 312 Aufgaben; iqb-quellen.csv neu erzeugt, iqb-quellen.md und iqb.md nachgeführt. |
 | 2026-09-13 | 2023-ga-A vollständig erfasst: 24 Zeilen aus 13 Dateien (eine Dublette), Katalog 221 Zeilen, Typenliste 193. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand (Abgleich, dann Stapel) byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6; rückwirkend v0.6 in § 4 (186 von 197, zwei Gewinne durch (e)). Kennzahlenzeile um den Schnitt erweitert. |
