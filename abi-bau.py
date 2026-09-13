@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.2 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und abi.md v0.4
+Version 0.2 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und abi.md v0.5 ff.
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles darunter
 bleibt unverändert.

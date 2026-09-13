@@ -1,6 +1,8 @@
 # QUELLEN ABITUR – Mathematik Berlin/Brandenburg
 
-Version 0.1 · 12.09.2026 · gehört zum Profil abi (in Arbeit)
+Version 0.2 · 13.09.2026 · gehört zum Profil abi (in Arbeit)
+Änderungen gegenüber 0.1: § 2 Brandenburg auf grundlegendem Niveau beantwortet,
+BLiQ/LIBRA ab 2026; § 4 und § 6 IQB-Pool auf das Profil iqb verwiesen.
 
 Diese Datei ersetzt eine Ablage der Prüfungshefte. Der Container wird zwischen
 Sitzungen zurückgesetzt; die Hefte werden bei Bedarf über die hier genannten
@@ -41,8 +43,13 @@ Geprüft am 12.09.2026, alle zwölf Dateien mit HTTP 200 geholt.
 
 Vollständige URL = Verzeichnis aus § 1 + Serverdatei.
 
-Auf grundlegendem Niveau gibt es keine Brandenburger Datei. Ob Brandenburg
-dieselbe Prüfung schrieb oder seine gA-Prüfung nicht veröffentlicht, ist offen.
+Auf grundlegendem Niveau gibt es keine Brandenburger Datei. Brandenburg hat eine
+eigene zentrale Prüfung auf grundlegendem Niveau, veröffentlicht aber die
+Aufgabenhefte nicht (abi.md § 9, abi-pruefungen.md § 4).
+
+Ab dem Abitur 2026 entstehen die Aufgaben getrennt: Berlin über das BLiQ,
+Brandenburg über das LIBRA (LISUM Ende 2024 aufgelöst; abi.md § 1). Für die
+Quellenlage ändert das nichts – veröffentlicht bleibt 2011–2018.
 
 ## 3 Vorhanden, aber nicht im Bestand
 
@@ -61,9 +68,10 @@ prüfen.
 
 https://www.iqb.hu-berlin.de/ , Bereich Abituraufgabenpools. Poolaufgaben seit
 Prüfungsjahr 2017, nach der Prüfung veröffentlicht, einschließlich
-Erwartungshorizonten und Bewertungshinweisen. Damit ist die Lösungslücke ab
-2019 geschlossen. Grenze: Es ist nicht erkennbar, welches Land welche
-Poolaufgabe entnommen hat, und die Landesaufgaben stehen dort nicht.
+Erwartungshorizonten und Bewertungshinweisen. Grenze: Es ist nicht erkennbar,
+welches Land welche Poolaufgabe entnommen hat, und die Landesaufgaben stehen
+dort nicht. Der Pool wird seit dem 13.09.2026 im eigenen Profil iqb erfasst
+(iqb.md, iqb-quellen.md); er ist keine Quelle dieses Profils.
 
 ## 5 Verlagsbände (Upload durch den Lehrer)
 
@@ -77,9 +85,8 @@ Differenzmenge.
 ## 6 Lösungen
 
 Für die Landesaufgaben 2017/2018 gibt es keine amtlichen Lösungen; dort gilt
-Kern § 3 d in der Fassung „eigene Rechnung". Für Poolaufgaben ab 2019 liegt der
-Erwartungshorizont vor; dort gilt die Fassung „amtliche Lösung vorhanden" wie
-im Profil fhr, `ergebnis` mit dem Zusatz „amtlich".
+Kern § 3 d in der Fassung „eigene Rechnung". Amtliche Lösungen zu Poolaufgaben
+gehören zum Profil iqb (iqb.md § 2).
 
 ## 7 Holen und Prüfen
 

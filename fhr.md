@@ -1,5 +1,6 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
-Version 1.5 · 12.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
+Version 1.6 · 13.09.2026 · Kennung fhr · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 1.5: § 4 und § 9 Bedeutung der Buchstaben A, B, C aus dem Dateibestand erschlossen; § 9 kein IQB-Pool für die FHR.
 
 ## 1 Prüfung
 
@@ -32,7 +33,7 @@ Die Aufgabenüberschrift ist nicht die Leitidee. Eine Aufgabe „Integralrechnun
 
 ## 4 Kürzel und Werte
 
-papier: A | B | C – der Buchstabe des Aufgabenvorschlags aus dem Dateinamen. Pro Jahrgang liegen zwei Vorschläge zum gleichen Termin vor, die Buchstaben wechseln (2023 A und C, 2024 B und C, 2025 A und C, 2026 B und C). Was die Buchstaben bedeuten, ist nicht belegt (?); sie sind hier nur Kennung und keine Aussage über Haupt- oder Nachschreibetermin – die Prüfungsdaten sind je Jahrgang identisch.
+papier: A | B | C – der Buchstabe des Aufgabenvorschlags aus dem Dateinamen. Pro Jahrgang liegen zwei Vorschläge zum gleichen Termin vor, die Buchstaben wechseln (2023 A und C, 2024 B und C, 2025 A und C, 2026 B und C). Bedeutung (Befund 13.09.2026): Die Prüfungsschwerpunkte nennen zwei gleichwertige Aufgabensätze zum Prüfungstermin und einen Vorschlag für den Nachschreibetermin, das Rundschreiben eine Ersatzaufgabe nach § 31 Absatz 1 FOSFHRV. Auf dem Bildungsserver liegen je Jahrgang genau zwei der drei Buchstaben, in jedem der acht Jahrgänge fehlt genau einer. Die Buchstaben kennzeichnen also die drei Vorschläge; der jeweils fehlende ist der nicht veröffentlichte Nachschreibevorschlag. Das ist eine Schlussfolgerung aus dem Dateibestand, kein Beleg; welcher Buchstabe im Einzelfall der Nachschreibevorschlag ist, folgt nur aus dem Fehlen. Für den Katalog bleibt der Buchstabe reine Kennung – die Prüfungsdaten sind je Jahrgang identisch.
 block: leer. Das Heft hat keine Teile, und es gibt keine Basisaufgaben ohne Stamm. Deshalb entfällt die Zweiteilung des Katalogs aus Kern § 1; alle Zeilen gehen in fhr-katalog.csv.
 id: Jahr-papier-AufgabeTeilaufgabe, z. B. 2026-C-1a, 2026-C-3e, 2024-B-2d.
 jahr: Jahr der Prüfung, nicht des Schuljahres (Heft „26_FOS_Ma_LH_C", Schuljahr 2025/2026, Prüfung 05.06.2026 → 2026).
@@ -137,7 +138,7 @@ Ein „?" hinter einem Wert bedeutet: plausibel, aber nicht am Bild geprüft; de
 
 ## 9 Offene Punkte
 
-- Bedeutung der Buchstaben A, B, C ist nicht belegt.
+- Bedeutung der Buchstaben A, B, C: geklärt als Schlussfolgerung aus dem Dateibestand (§ 4), nicht belegt. Ein IQB-Pool für die Fachhochschulreife existiert nicht; die Pools gelten nur für die Allgemeine Hochschulreife. Der verfügbare Bestand ist mit den sechzehn Heften ausgeschöpft.
 - Umfang: erfasst werden alle sechzehn Hefte 2019–2026. Die Erweiterung auf 2021 und 2022 wurde am 12.09.2026 beschlossen, weil der Katalog mit 131 Zeilen auf 108 Typen nur rund 1,2 Originale je Typ enthielt und damit für die meisten Typen keine Kette aus mehreren Originalen zulässt. Der frühere Ausschlussgrund „fehlende Prüfungsschwerpunkte" ist entfallen: auf dem Bildungsserver liegen nur die Fassungen 2026/27 und 2027/28, für 2023–2026 fehlen sie ebenso, und gefiltert wird über die geltenden Schwerpunkte, nicht über die des Prüfungsjahrs. Am selben Tag wurde auch 2019 und 2020 aufgenommen und die Reserve-Regel aufgegeben: der Erfassungsaufwand liegt allein beim Modell, und der Einwand „2019 vor dem neuen Rahmenlehrplan" trägt nur gegen die Decke einer Kette, nicht gegen ihre Sprossen. Das „EH" im Dateinamen der 2020er Hefte bedeutet nichts; es sind vollwertige Lehrerhefte.
 - Vorgabenstand der Originale (entschieden am 12.09.2026): **Die frühere Regel „Decke ist immer ein Original ab 2023" ist aufgehoben.** Für die Decke gilt ohne Einschränkung blatt-konzept.md §3 – alle Originale eines Typs werden Sprossen, geordnet nach Merkmalen und nicht nach Jahr, Decke ist das Original mit den meisten Merkmalen. Gründe: 29 der 135 Typen haben kein Vorkommen ab 2023 und bekämen sonst keine Decke, darunter beide Fundstellen des Themas Erwartungswert (2019-C-3d, 2021-B-3e); wovor der Vorgabenstand schützen soll, filtert bereits die Themenliste über die Schwerpunktmarkierung; und eine Auswahl nach Jahr widerspricht der Sortierregel des gemeinsamen Konzepts, das dem Jahr nur den letzten Stichentscheid bei Gleichstand zugesteht. Der Vorgabenstand bleibt als Information erhalten: 2021 und 2022 stehen unter coronabedingt gekürzten Vorgaben, 2019 vor dem Rahmenlehrplan vom 01.08.2019, 2020 unter dem heutigen Rahmenlehrplan und vor den Kürzungen. Das Protokoll nennt ihn zur gewählten Decke, damit der Lehrer im Einzelfall widersprechen kann. Ein eigenes Feld gibt es nicht – das Jahr steht in der id und in jahr.
 - Nachschreibe-Vorschläge fehlen für alle Jahrgänge.

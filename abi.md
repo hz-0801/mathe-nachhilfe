@@ -1,5 +1,11 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.5 · 12.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.6 · 13.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.5 (Nacharbeiten nach der Sondierung des IQB-Pools): § 4
+afb_amtlich berichtigt – der Standardbezug ist eine Matrix Teilaufgabe × K1–K6,
+keine angekreuzte Spalte je Bereich; § 9 Land und Niveau des Schülers beantwortet,
+Annahme „Brandenburg, erhöhtes Niveau" gestrichen; § 2 Verweis auf abi-vorgaben.md.
+Poolaufgaben des IQB werden nicht in diesem Profil erfasst, sondern im Profil iqb
+(iqb.md); die Hinweise in § 2 sind entsprechend gefasst.
 Änderungen gegenüber 0.4 (nach dem Heft 2018-be-gk, erstes Heft auf grundlegendem
 Niveau): § 3 Aufbau am Heft bestätigt, § 6 Lückenstand und eine neue Themenlücke, § 7
 neuer Punkt zum grundlegenden Niveau.
@@ -51,15 +57,17 @@ mit curl. Veröffentlicht sind nur 2011–2018.
 Amtliche Lösungen: für die Landesaufgaben 2017/2018 keine. Der Erwartungshorizont
 mit verbindlicher Verteilung der Bewertungseinheiten geht nur an die Schulen. Für
 diese Hefte gilt Kern § 3 d in der Fassung „eigene Rechnung"; Unsicherheiten nach
-`bemerkung`. Für Poolaufgaben des IQB ab Prüfungsjahr 2019 liegt der
-Erwartungshorizont öffentlich vor; dort gilt die Fassung „amtliche Lösung
-vorhanden" wie im Profil fhr, mit dem Zusatz „amtlich" in `ergebnis`.
+`bemerkung`. Die Poolaufgaben des IQB (seit Prüfungsjahr 2017, mit
+Erwartungshorizont und Standardbezug) werden nicht in diesem Profil erfasst,
+sondern im eigenen Profil iqb (iqb.md, iqb-katalog.csv, iqb-typen.csv); dort gilt
+die Fassung „amtliche Lösung vorhanden" wie im Profil fhr. Zusammengeführt wird
+über die Typen, nicht über die Dateien.
 
 Amtliche Vorgaben: die Prüfungsschwerpunkte des jeweiligen Prüfungsjahrs,
 getrennt nach Land und Niveau. Brandenburg unter
 .../fileadmin/bbb/unterricht/pruefungen/abitur_bb/RS_ZA_JJJJ/PS_Mathematik_LK_JJJJ.pdf
 (entsprechend _GK_), Berlin unter berlin.de, ps_mathematik_JJJJ_lk.pdf bzw. _gk.pdf.
-Sie gehören nach vorgaben.md und werden jährlich geprüft.
+Sie gehören nach abi-vorgaben.md und werden jährlich geprüft.
 
 ## 3 Aufbau der Hefte
 
@@ -130,16 +138,16 @@ CAS-Hefte sind durchgehend eigene Fassungen.
     afb_amtlich: leer für 2017/2018 – diese Hefte weisen keine
             Anforderungsbereiche aus, und die zugehörigen Erwartungshorizonte
             sind nicht veröffentlicht. Eine Schätzung gehört nicht in dieses
-            Feld; sie steht in niveau_geschaetzt. Gefüllt wird erst, wenn
-            Poolaufgaben des IQB erfasst werden: deren Erwartungshorizont führt
-            je Teilaufgabe eine Tabelle mit BE, den Kompetenzen K1 bis K6 und
-            einer angekreuzten Spalte je Anforderungsbereich.
-            Schreibweise: die Werte I, II und III, mehrere mit „|" in
-            aufsteigender Reihenfolge (II|III). Die Verteilung der BE auf die
-            Bereiche kommt wörtlich nach bemerkung, nicht ins Feld – eine
-            Teilaufgabe trägt regelmäßig zwei Bereiche mit ungleichem Gewicht
-            (Fachbrief Mathematik BB Nr. 3: bei Teilaufgabe b) eine BE im
-            Bereich II und drei im Bereich III).
+            Feld; sie steht in niveau_geschaetzt. Gefüllt wird nur bei
+            Poolaufgaben des IQB, die im Profil iqb erfasst werden: deren
+            Abschnitt „Standardbezug" ist eine Matrix Teilaufgabe × K1–K6, in
+            den Zellen stehen I, II oder III (Sondierung 13.09.2026). Eine
+            Teilaufgabe trägt also bis zu sechs Bereiche, nicht einen; die
+            frühere Beschreibung „eine angekreuzte Spalte je
+            Anforderungsbereich" war falsch. Schreibweise: alle vorkommenden
+            Werte I, II, III, aufsteigend, ohne Wiederholung, mit „|" getrennt
+            (I|II). Die Matrix mit der Zuordnung zu K1–K6 kommt wörtlich nach
+            bemerkung, nicht ins Feld. Einzelheiten in iqb.md § 4.
     seite:  Seite im PDF. Die Brandenburger Dateien sind Zusammenschnitte mit
             eigener Seitenzählung je Teil; die gedruckte Angabe weicht ab.
             Liegt die zugehörige Abbildung in einer Anlage auf einer anderen
@@ -390,9 +398,12 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
 
 ## 9 Offen
 
-- Welches Land und welches Niveau schreibt der Schüler? Davon hängt die
-  Erfassungsreihenfolge ab, nicht die Methode. Bis zur Antwort gilt die Annahme
-  Brandenburg, erhöhtes Niveau, also bb-ea als Leitfassung.
+- Beantwortet (13.09.2026): Land und Niveau des Schülers sind nicht auf eines
+  festgelegt – der Schüler kann beides schreiben. Die frühere Annahme
+  „Brandenburg, erhöhtes Niveau" ist gestrichen; die Leitfassungsregel in § 7
+  bleibt als Erfassungsordnung bestehen, ist aber keine Aussage über den
+  Schüler. Folge: die nur in den Berliner LK-Heften stehenden Aufgaben sind eine
+  Lücke, keine Dublette (nächster Punkt).
 - Werden die Themenlücken aus § 6 durch neue Themen geschlossen oder durch eine
   Lockerung der Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt?
 - Beantwortet: Brandenburg hat eine eigene zentrale Prüfung auf grundlegendem
