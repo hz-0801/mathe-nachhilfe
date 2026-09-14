@@ -1,9 +1,19 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 0.8 · 14.09.2026 · gilt mit katalog-prompt.md v0.3 und iqb.md v0.8
+Version 0.9 · 15.09.2026 · gilt mit katalog-prompt.md v0.3 und iqb.md v1.0
 
 Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" bleibt unverändert.
+
+Änderungen gegenüber 0.8 (Entscheidung des Lehrers, 15.09.2026: MMS/CAS als
+Delta): Die Erfassungseinheit „Stapel je Rechnerfassung" bleibt für WTR; für
+einen mms-/cas-Stapel gilt: vollständig sind die nicht wortgleichen Dateien,
+das Soll rechnet nur gegen sie. Wortgleiche Dateien stehen in iqb-quellen.csv
+(v0.3, Textvergleich des Abschnitts „1 Aufgabe") mit dublette_von auf die
+WTR-Datei und bekommen keine Zeile – dieselbe Mechanik wie bei den A1/A2-Paaren
+in Teil A. Neu geprüft: die erste Datei einer Dublette muss im Katalog stehen
+(im Stapellauf und in der Selbstprüfung), damit der WTR-Zweig vor dem
+MMS-Zweig erfasst ist.
 
 Änderungen gegenüber 0.7 (2024-ga-B): In Teil B darf eine nummerierte Aufgabe
 ohne Teilaufgabenbuchstaben stehen (erstmals 2024-ga-B Stochastik WTR 2,
@@ -1475,6 +1485,11 @@ def main():
             fehlt = [k for k, q in QUELLE.items()
                      if einheit(q) == s and not q["dublette_von"] and k not in kennungen]
             a(not fehlt, f"Stapel {s} im Bestand unvollständig, es fehlen {fehlt}")
+            # v0.9: Dubletten eines angefangenen Stapels zeigen auf erfasste Dateien
+            for k, q in QUELLE.items():
+                if einheit(q) == s and q["dublette_von"]:
+                    a(q["dublette_von"] in kennungen,
+                      f"Stapel {s}: {k} ist Dublette von {q['dublette_von']}, die nicht im Katalog steht")
         je_datei = {}
         for z in alt:
             k_, innen_, _ = kennung_aus_id(z["id"])
@@ -1543,6 +1558,14 @@ def main():
         warnung.append(f"Probelauf: {len(fehlt)} von {len(im_stapel - dubletten)} Dateien des Stapels fehlen noch")
     if dubletten:
         warnung.append(f"{len(dubletten)} Dubletten im Stapel ohne Zeile: {sorted(dubletten)}")
+    # Teil B, MMS/CAS als Delta (v0.9): eine Dublette verweist auf die erste
+    # Datei (WTR), deren Zeilen müssen schon im Katalog stehen – sonst fehlt
+    # die Aufgabe im Bestand, wenn der WTR-Zweig später erfasst wird.
+    alt_kennungen = {kennung_aus_id(z["id"])[0] for z in alt}
+    for k in sorted(dubletten):
+        erste = QUELLE[k]["dublette_von"]
+        a(erste in alt_kennungen or erste in dateien,
+          f"{k}: Dublette von {erste}, aber {erste} ist noch nicht erfasst (erste Datei zuerst)")
     for k in sorted(dateien):
         a(k in KONFIG["soll"], f"{k}: kein Soll in KONFIG")
     for k, soll in KONFIG["soll"].items():

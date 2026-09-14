@@ -1,11 +1,11 @@
 # QUELLEN IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
 
-Version 0.2 · 13.09.2026 · gehört zum Profil iqb
+Version 0.3 · 15.09.2026 · gehört zum Profil iqb
 
 Diese Datei beschreibt die Quelle; die vollständige Dateiliste mit Zerlegung der
 Kennungen, papier-Kürzel, Stapelzuordnung, Seitenzahl und Dublettenverweis
 steht in iqb-quellen.csv (624 Zeilen, erzeugt von iqb-quellen.py aus der
-Übersichtsseite des IQB und dem Scan der Teil-A-Dateien, nicht von Hand
+Übersichtsseite des IQB und dem Scan aller Dateien, nicht von Hand
 gepflegt). iqb-bau.py liest sie.
 
 ## 1 Amtliche Quelle
@@ -60,8 +60,12 @@ Licht; der Scan v0.1 hatte ihn wegen der Glyphen übersehen.
 
 Teil B: je Jahr und Niveau eine Datei je Sachgebiet und Rechnerfassung, mit
 Nummer, wenn es mehrere gibt (WTR1, WTR2, MMS1 …). Das Rechnerkürzel heißt
-2017–2021 CAS, ab 2022 MMS. Seitenzahl und Dubletten sind für Teil B noch
-nicht erhoben (Spalten leer).
+2017–2021 CAS, ab 2022 MMS. Scan 15.09.2026 (iqb-quellen.py v0.3, Abschnitt
+„1 Aufgabe" ohne Seitenkopfzeilen und Hilfsmittelwort, Schwelle Gleichheit,
+iqb.md § 7): 296 Dateien, 157 WTR, 139 MMS/CAS; 18 Dubletten, alle MMS/CAS →
+WTR (eine von Hand bestätigt, DUBLETTEN_HAND im Skript), 121 MMS/CAS-Dateien
+ohne WTR-Zwilling. Seitenzahl: 83 Dateien mit drei, 164 mit vier, 46 mit
+fünf, 3 mit sechs Seiten.
 
 ## 3 Kennungsmuster
 
@@ -87,6 +91,6 @@ Liste erneuern: `python iqb-quellen.py [Cache-Ordner]` holt die
 `Abituraufgaben_Mathematik/<Kennung>_Aufgabe.pdf`, zerlegt und sortiert sie
 (Jahr absteigend, Beispielaufgaben zuletzt; grundlegend vor erhöht; A vor B;
 Analysis, AG/LA (A1), AG/LA (A2), Stochastik; Gruppe bzw. Hilfsmittel; Nummer),
-lädt fehlende Teil-A-Dateien in den Cache, liest Seitenzahl und Dubletten und
-schreibt iqb-quellen.csv. Neue Jahrgänge werden dann als neue Stapel sichtbar;
+lädt fehlende Dateien beider Teile in den Cache (Teil B seit v0.3), liest
+Seitenzahl und Dubletten und schreibt iqb-quellen.csv. Neue Jahrgänge werden dann als neue Stapel sichtbar;
 Kennungen dürfen nur hinzukommen, nie verschwinden – sonst bricht das Skript ab.

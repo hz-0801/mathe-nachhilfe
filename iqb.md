@@ -1,5 +1,12 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.9 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 1.0 · 15.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.9 (Auftrag „Erhöhtes Niveau absichern, MMS-Dubletten
+bereinigen", Entscheidungen des Lehrers nach der Delta-Messung 2026-ga-B-mms):
+§ 7 MMS/CAS als Delta zum WTR-Zweig – wortgleiche Dateien sind Dubletten der
+WTR-Datei (iqb-quellen.py v0.3 scannt Teil B, Verfahren und Schwelle in § 7),
+Erfassungseinheit für mms-/cas-Stapel sind die nicht wortgleichen Dateien
+(iqb-bau.py v0.9); § 9 offener Punkt MMS geschlossen; § 6 Abbruchkriterium
+erhöht: Reihe wird fortgesetzt (nicht ausgereizt nach 2024-ea-B).
 Änderungen gegenüber 0.8 (Auftrag „Teil B absichern", Entscheidungen des
 Lehrers nach fünf Teil-B-Stapeln): § 6 Abbruchkriterium für Teil B gesetzt
 (getrennt je Niveau, Zielprüfung des Niveaus); § 6 Thema Konfidenzintervalle
@@ -82,7 +89,8 @@ Formvokabular aus katalog-prompt.md § 5, Sachgebiete und Themen aus diesem
 Profil § 5–6, die Stapelzuordnung, Seitenzahlen und Dubletten aus
 iqb-quellen.csv, und schreibt die beiden CSV-Dateien nur, wenn alle Prüfungen
 bestehen – einschließlich der Schwellenwerte aus § 7. iqb-quellen.py erzeugt
-iqb-quellen.csv aus der Übersichtsseite des IQB und dem Scan der Teil-A-Dateien.
+iqb-quellen.csv aus der Übersichtsseite des IQB und dem Scan aller Dateien
+(Teil A seit v0.2, Teil B seit v0.3: Seitenzahl und Dubletten, § 7).
 
 Amtliche Lösungen liegen für jede Aufgabe vor. Es gilt Kern § 3 d in der Fassung
 „amtliche Lösung vorhanden" wie im Profil fhr: der Erwartungshorizont ist
@@ -409,6 +417,10 @@ Gesamtbestand beider Niveaus und beider Prüfungsteile, mit der Zielprüfung des
 Niveaus (be-gk für grundlegend, bb-ea für erhöht). Unter fünf neue Werte je
 Stapel heißt der Zweig des Niveaus ausgereizt. Der Teil-A-Maßstab bleibt
 daneben unberührt. Verlauf und Reihe je Niveau in iqb-pruefungen.md § 4.
+Stand 15.09.2026: grundlegend ausgereizt (7 → 3 → 2 → 2, WTR-Zweig bis
+2023-ga-B); erhöht nicht ausgereizt (9 → 0 → 7 bis 2024-ea-B), die Reihe wird
+mit 2023-ea-B und 2022-ea-B fortgesetzt (Entscheidung des Lehrers). Ein
+mms-Stapel zählt nicht in die Reihe (Delta, § 7).
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
@@ -434,9 +446,18 @@ Stand v0.1: keine.
   Stapelschnitt bekommt die Rechnerfassung als vierte Achse – Prüfungsteil ×
   Pooljahr × Niveau × Rechnerfassung (WTR | MMS | CAS), Kennung in KONFIG
   `2026-ga-B-wtr`; iqb-bau.py v0.6 prüft die Vollständigkeit je Rechnerfassung.
-  Erfasst wird zuerst der WTR-Zweig; MMS bleibt liegen, bis entschieden ist, ob
-  er wie bei abi als Nachtrag kommt. Teil A ist von der vierten Achse
-  unberührt.
+  Erfasst wird zuerst der WTR-Zweig. Teil A ist von der vierten Achse
+  unberührt. **MMS/CAS als Delta** (Entscheidung des Lehrers, 15.09.2026, nach
+  der Delta-Messung 2026-ga-B-mms in iqb-pruefungen.md § 4: 69 % der Zeilen auf
+  Schnittwerten des WTR-Zwillings, 3 von 7 Dateien wortgleich, 2 von 25
+  eigenen Zeilen reine Rechnerbedienung): Die Einheit „Stapel je
+  Rechnerfassung" gilt weiter für WTR. Für einen mms- oder cas-Stapel tritt
+  an ihre Stelle: vollständig sind die nicht wortgleichen Dateien, das Soll
+  rechnet gegen deren BE; wortgleiche Dateien stehen in iqb-quellen.csv mit
+  dublette_von auf die WTR-Datei und bekommen keine Zeile (Dubletten unten).
+  Der WTR-Zweig ist vor dem MMS-Zweig zu erfassen; iqb-bau.py v0.9 prüft, dass
+  die erste Datei jeder Dublette im Katalog steht. Der Rechner ist Lösungsweg
+  unterhalb des Typs, kein eigenes Etikett (Kern § 6).
 - **Trägerbindung in Teil B** (Entscheidung des Lehrers, 14.09.2026): Eine
   Zeile, die ohne den Sachkontext ihrer Trägeraufgabe nicht beschreibbar ist
   (Deutung, Abbildung oder Sachlage, die nur der Aufgabenstamm liefert), trägt
@@ -498,7 +519,26 @@ Stand v0.1: keine.
   Teilaufgaben einer Aufgabe, die als Ganzes nicht wortgleich ist (2025-ea-B
   Stochastik WTR 2 und WTR 3, Aufgabe 2: a und b gleich, c und d verschieden):
   die Regel stellt auf die ganze nummerierte Aufgabe ab, beide Dateien tragen
-  die Zeilen.
+  die Zeilen. **Teil B über die Rechnerfassung hinweg** (15.09.2026,
+  iqb-quellen.py v0.3): Der Pool führt viele Aufgaben wortgleich unter WTR und
+  MMS/CAS (Scan: 18 Dateipaare in Teil B, 17 MMS/CAS → WTR, darunter drei im
+  Stapel 2026-ga-B). Verfahren: iqb-quellen.py lädt alle Teil-B-Dateien,
+  normiert den Abschnitt „1 Aufgabe" (ohne Leerraum, ohne Kennung, ohne
+  Hilfsmittelwort, ohne die Seitenkopfzeilen, die ab Seite 2 den laufenden
+  Abschnitt nennen) und vergleicht ihn innerhalb desselben Stapels und
+  Sachgebiets. **Schwelle: Gleichheit.** Gleicher Aufgabentext heißt
+  Dublette, die spätere Datei (Ordnung § 7: WTR vor CAS/MMS) zeigt in
+  dublette_von auf die frühere; Erwartungshorizont und Standardbezug dürfen
+  abweichen (anderer Rechnerweg), das Skript meldet es. Paare mit Ähnlichkeit
+  ≥ 0,95 (difflib), aber ohne Gleichheit, meldet das Skript als „nahe" – sie
+  sind beim Erfassen des mms-Stapels von Hand anzusehen; ist der Unterschied
+  nur ein Artefakt der Textextraktion (2023-ga-B Stochastik MMS 2 = WTR 2,
+  Kurzbeschreibung „MMS/WTR", die BE-Summe wandert), wird das Paar in
+  DUBLETTEN_HAND im Skript mit Grund eingetragen; unterscheiden sich Zahlen
+  oder Wörter im Aufgabentext (2024-ea-B Stochastik MMS 1: „mehr als 20" statt
+  „mehr als fünf", Ähnlichkeit 0,999), ist es keine Dublette. Die 17 im
+  Stapel 2026-ga-B-mms zunächst aus dem WTR-Zweig übernommenen Zeilen wurden
+  mit Abgleichlauf 9 gestrichen (iqb-pruefungen.md § 5).
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
   Stapels gegen iqb-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
   verfahren, stichwoerter. Ergebnis als Liste alt → neu in iqb-pruefungen.md § 5.
@@ -691,9 +731,9 @@ Grund steht dann in bemerkung. In diesem Stapel kommt es nicht vor.
   einer, unnummerierten Aufgabe führt die Aufgabennummer 1 (id …WTR-1a, aufgabe
   1), der Standardbezug hat in Teil B eine eigene Spalte Anforderungsbereich
   (in bemerkung als „AB amtlich: …"; im Probestapel in allen 45 Zeilen gleich
-  dem höchsten Kompetenzeintrag). Offen bleibt, ob die MMS-Fassung wie bei abi
-  als Nachtrag erfasst wird und ob Teil B überhaupt zeilenweise erfasst wird
-  (Befund zur Trägerbindung in iqb-pruefungen.md § 4).
+  dem höchsten Kompetenzeintrag). MMS-Fassung: entschieden am 15.09.2026 – als
+  Delta zum WTR-Zweig (§ 7). Offen bleibt, ob Teil B überhaupt zeilenweise
+  erfasst wird (Befund zur Trägerbindung in iqb-pruefungen.md § 4).
 - Beispielaufgaben: Veröffentlichungsjahr nicht ermittelt; jahr = „bsp".
 - Schwellenwerte in § 7 sind Vorschläge des ersten Laufs; nach drei Stapeln
   prüfen.

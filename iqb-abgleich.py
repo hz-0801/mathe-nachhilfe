@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.8 · 14.09.2026 · gilt mit iqb.md v0.9 und iqb-bau.py v0.8
+Version 0.9 · 15.09.2026 · gilt mit iqb.md v1.0 und iqb-bau.py v0.9
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -31,6 +31,9 @@ oder Geraden), neues Thema Konfidenzintervalle für fünf Typen und ihre Zeilen
 Lauf 8 (14.09.2026, nach 2024-ea-B, 2023-ga-B und 2026-ga-B-mms): zwei
 Umbenennungen (Wendepunkt Zu- oder Abnahme; Symmetrieebene eines Körpers),
 vier erweiterte Definitionen, keine Zusammenziehung (671).
+Lauf 9 (15.09.2026, MMS als Delta): Bereinigung – Zeilen von Dateien mit
+dublette_von in iqb-quellen.csv v0.3 gestrichen (17 Zeilen aus 2026-ga-B-mms),
+STREICHEN als neue Regelart; Typen unverändert (671).
 """
 import csv, io, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -439,6 +442,25 @@ NEUE_DEFINITION_8 = {
         "aus dem der Schnittanteil folgt – alle Felder einer Vierfeldertafel ergänzen.",
 }
 
+# ======================================================================= Lauf 9
+# Bereinigung (Entscheidung des Lehrers, 15.09.2026: MMS als Delta): Zeilen von
+# Dateien, die in iqb-quellen.csv (v0.3, Textvergleich Teil B) als Dublette einer
+# WTR-Datei stehen, werden gestrichen – die 17 aus dem WTR-Zweig übernommenen
+# Zeilen des Stapels 2026-ga-B-mms. Keine Umbenennung, keine Definition.
+QUELLEN = "iqb-quellen.csv"
+
+
+def dubletten_quellen():
+    with io.open(QUELLEN, encoding="utf-8", newline="") as fh:
+        rows = list(csv.DictReader(fh, delimiter=";"))
+    return {r["kennung"]: r["dublette_von"] for r in rows if r["dublette_von"]}
+
+
+def streiche_9(d, dubl=dubletten_quellen()):
+    """True, wenn die Zeile zu einer Datei mit dublette_von gehört."""
+    return d["id"].split("-")[0] in dubl
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -448,8 +470,10 @@ LAEUFE = {
     6: ({}, ZUSAMMEN_6, NEUE_DEFINITION_6, {}),
     7: ({}, ZUSAMMEN_7, NEUE_DEFINITION_7, NEUES_THEMA_7),
     8: ({}, ZUSAMMEN_8, NEUE_DEFINITION_8, {}),
+    9: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)]}
+STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
 
@@ -531,6 +555,24 @@ def main():
                 korrigiert += 1
                 r[i_feld] = neu
 
+    # Streichen (Lauf 9: Zeilen von Dubletten). Kein Typ darf seine beispiel_id
+    # verlieren, kein Typ unbenutzt werden.
+    gestrichen = []
+    if LAUF in STREICHEN:
+        fn = STREICHEN[LAUF]
+        bleibt = []
+        for r in kat:
+            (gestrichen if fn(dict(zip(kopf_k, r))) else bleibt).append(r)
+        ids_weg = {r[kopf_k.index("id")] for r in gestrichen}
+        verwaist = [t[0] for t in neue_typen if t[4] in ids_weg]
+        if verwaist:
+            sys.exit(f"beispiel_id gestrichener Zeilen: {verwaist}")
+        benutzt = {t for r in bleibt for i in (i_typ, i_neben) for t in r[i].split("|") if t}
+        unbenutzt = [t[0] for t in neue_typen if t[0] not in benutzt]
+        if unbenutzt:
+            sys.exit(f"Typen ohne Zeile nach dem Streichen: {unbenutzt}")
+        kat = bleibt
+
     schreibe(TYP, kopf_t, neue_typen)
     schreibe(KAT, kopf_k, kat)
 
@@ -538,7 +580,10 @@ def main():
     print(f"Abgleichlauf {LAUF}")
     print(f"Typen vorher {vorher}, nachher {len(neue_typen)}; {geaendert} Typfelder im Katalog geändert; "
           f"{len(kat)} Zeilen, {len(kat)/len(neue_typen):.2f} Zeilen je Typ."
-          + (f" Feldkorrektur: {korrigiert} Zeilen." if korrigiert else ""))
+          + (f" Feldkorrektur: {korrigiert} Zeilen." if korrigiert else "")
+          + (f" Gestrichen: {len(gestrichen)} Zeilen." if gestrichen else ""))
+    for r in gestrichen:
+        print("  gestrichen:", r[kopf_k.index("id")])
     ziel = collections.defaultdict(list)
     for alt, neu in abbildung.items():
         if alt != neu:
