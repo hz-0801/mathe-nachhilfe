@@ -31,7 +31,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2021-ea-A | 19 (17 + 2 Dubletten) | **erfasst 2026-09-14, 33 Zeilen** · 30 Typen neu, 3 wiederverwendet · Eichung 33 von 33 (Liste v0.7) |
 | 2020-ga-A | 10 | **erfasst 2026-09-14, 19 Zeilen** · 12 Typen neu, 7 wiederverwendet · Eichung 18 von 19 (Liste v0.7) |
 | 2020-ea-A | 15 | **erfasst 2026-09-14, 28 Zeilen** · 22 Typen neu, 6 wiederverwendet · Eichung 28 von 28 (Liste v0.7) |
-| 2019-ga-A | 11 | nicht erfasst |
+| 2019-ga-A | 11 | **erfasst 2026-09-14, 23 Zeilen** · 15 Typen neu, 8 wiederverwendet · Eichung 22 von 22 gewerteten Zeilen (Liste v0.7; AGLAA22 a ohne Standardbezug) |
 | 2019-ea-A | 10 | nicht erfasst |
 | 2018-ga-A | 12 | nicht erfasst |
 | 2018-ea-A | 12 | nicht erfasst |
@@ -57,6 +57,13 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2024-ea-A | 32 | 32 | 28 (88 %) | 32 von 32 (100 %), Liste v0.5 | 0 | 0 | 1 von 32 aus 2026-ea-A (3 %) | 13, 3, 13, 3 |
 | 2023-ga-A | 24 | 23 | 19 (83 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 3 von 23 (13 %); Schnitt 18 Werte, 18 von 24 Zeilen bekannt (75 %) | 3, 3, 3, 3 |
 | 2023-ea-A | 32 | 31 | 25 (81 %) | 29 von 32 (91 %), Liste v0.6 | 0 | 0 | 5 von 31 (16 %); Schnitt 26 Werte, 15 von 32 Zeilen bekannt (47 %) | 9, 5, 9, 5 |
+| 2022-ga-A | 24 | 24 | 22 (92 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 2 von 24 (8 %); Schnitt 20 Werte, 14 von 24 Zeilen bekannt (58 %) | 3, 3, 3, 3 |
+| 2022-ea-A | 32 | 32 | 28 (88 %) | 30 von 32 (94 %), Liste v0.6 | 0 | 0 | 3 von 32 (9 %); Schnitt 26 Werte, 24 von 32 Zeilen bekannt (75 %) | 13, 7, 13, 7 |
+| 2021-ga-A | 23 | 23 | 13 (57 %) | 23 von 23 (100 %), Liste v0.7 | 0 | 0 | 7 von 23 (30 %); Schnitt 22 Werte, 14 von 23 Zeilen bekannt (61 %) | 2, 2, 2, 2 |
+| 2021-ea-A | 33 | 33 | 30 (91 %) | 33 von 33 (100 %), Liste v0.7 | 0 | 0 | 3 von 33 (9 %); Schnitt 25 Werte, 27 von 33 Zeilen bekannt (82 %) | 7, 4, 7, 4 |
+| 2020-ga-A | 19 | 19 | 12 (63 %) | 18 von 19 (95 %), Liste v0.7 | 0 | 0 | 5 von 19 (26 %); Schnitt 15 Werte, 14 von 19 Zeilen bekannt (74 %) | 6, 6, 6, 6 |
+| 2020-ea-A | 28 | 27 | 22 (81 %) | 28 von 28 (100 %), Liste v0.7 | 0 | 0 | 5 von 27 (19 %); Schnitt 24 Werte, 22 von 28 Zeilen bekannt (79 %) | 6, 3, 6, 3 |
+| 2019-ga-A | 23 | 23 | 15 (65 %) | 22 von 22 gewerteten Zeilen (100 %), Liste v0.7; eine Zeile ohne Standardbezug | 0 | 0 | 6 von 23 (26 %); Schnitt 20 Werte, 20 von 23 Zeilen bekannt (87 %) | 4, 4, 4, 4 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1128,10 +1135,68 @@ Maßstab entscheiden, ob 2017 und die Beispielaufgaben (vier Stapel, 51
 Dateien) noch nötig sind. Läge die Wiederverwendung nach 2018 in beiden
 Niveaus über 85 %, wäre Teil A ausgereizt und Teil B an der Reihe.
 
+**Stapel 2019-ga-A.** 11 Dateien, keine Dublette, 23 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (435 Zeilen, 353 Typen, 15
+Stapel) bestanden. Keine ungegliederte Aufgabe. Zwei Sachkontexte in AG/LA
+A1 (Brutgebiete, Käferpopulation), drei in der Stochastik (Chor, Urne,
+Bonbonspiel).
+
+**Lücke in der Quelle: Standardbezug ohne Eintragung.** Bei AGLAA22 a
+(Punkt auf g mit Abstand 6, 2 BE) ist die Matrixzeile leer – keine
+Kompetenz, kein Bereich; erster Fall in 435 Zeilen. Nichts ergänzt:
+afb_amtlich bleibt leer, bemerkung nennt „Standardbezug: keine Eintragung",
+die Zeile zählt in der Eichung weder als Treffer noch als Abweichung
+(iqb-bau.py v0.5, iqb.md § 4). Die Eichungsnenner heißen seitdem „gewertete
+Zeilen"; für alle früheren Stapel ändert sich nichts.
+
+**Eichung 2019-ga-A: 22 von 22 gewerteten Zeilen mit der Liste v0.7.**
+Fünfter Stapel ohne Abweichung. Gefeuert und getroffen: (c) bei Analysis 2
+b (Steigung 1 für alle k ⇒ gleiche Achsenabschnitte), Fallunterscheidung
+a < 8 / a = 8 / a > 8 bei AGLAA12 b (M³ = a/8 · E), (b) bei AGLAA22 b
+(rechter Winkel bei C, Thaleskreis), (a) bei Stochastik 2 b (unbekannte
+Anzahl in zwei Pfade ohne Zurücklegen übersetzt, quadratische Gleichung).
+Nicht gefeuert nach dem Prinzip, amtlich II, Treffer: Analysis 1.2 b
+(Minimum der Ableitung), AGLAA211 b (Abschätzung über ein nichtnegatives
+Quadrat, Routine), AGLAA212 b (Mantel = Umfang · h), Stochastik 1.1 c
+(hypergeometrisch), 1.2 b (Erwartungswert, Summe 1), 2 a (0,8 als 0,3 + 0,5
+erkennen). Nullfall-Regel: kein Anwendungsfall.
+
+**Typen 2019-ga-A.** 23 verwendet, 15 neu, 8 wiederverwendet: Fläche
+zwischen zwei Graphen als Integral der Differenz (zusammengezogener Typ),
+Transformation: Verschobenen Graphen in die Abbildung skizzieren
+(2025-ga-A), Punkt auf einer Geraden mit vorgegebener Koordinate angeben
+(2025-ga-A), Laplace-Wahrscheinlichkeit für den ersten Zug (2025-ga-A),
+Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse
+(2025-ea-A), Ziehen ohne Zurücklegen: Wahrscheinlichkeit beim zweimaligen
+Ziehen (2026-ga-A; Erwartungshorizont hypergeometrisch mit
+Binomialkoeffizienten, gleichwertig über zwei Pfade – Thema wie bisher
+Zufallsexperimente und Urnenmodelle), Unpassende Säulendiagramme zu einer
+Binomialverteilung (2021-ga-A), Term und Ereignis (zusammengezogener Typ).
+Konvergenz im grundlegenden Niveau: 26 % nach typ, 87 % nach dem Schnitt (20
+Werte, 20 von 23 Zeilen bekannt) – erstmals über 85 %. Neue Schnittwerte im
+Niveau: 3 (Gleichungen lösen · begründen, Abstände · begründen,
+Laplace-Experiment · begründen), alle drei im erhöhten Niveau schon
+vorhanden – im Bestand kein neuer Schnittwert. Etikettenentscheidungen:
+„Übergangsprozess: Langfristige Entwicklung aus M³ als Vielfachem der
+Einheitsmatrix durch Fallunterscheidung beschreiben" getrennt von
+„Entwicklung einer Population aus einer Potenz der inversen Matrix
+beschreiben" (2023-ea-A; dort inverse Matrix und fester Zyklus, hier
+Parameterfälle); „Wahrscheinlichkeit für höchstens einmal bei zwei Zügen
+über das Gegenereignis berechnen" getrennt von „… für mindestens einmal …
+im Baumdiagramm nachweisen" (anderes Ereignis, kein Baumdiagramm).
+
+**Geltung 2019-ga-A.** Außerhalb der Geltung 4, 4, 4, 4 von 23: nur
+Matrizen (AGLAA11 a, b; AGLAA12 a, b). Geltungsquote des Stapels für alle
+vier Zielprüfungen 19 von 23 (83 %). Bestand jetzt außerhalb be-gk 87,
+be-lk 54, bb-gk 86, bb-ea 53 von 435 Zeilen – Geltungsquote be-gk 348 von
+435 (80 %), be-lk 381 (88 %), bb-gk 349 (80 %), bb-ea 382 (88 %).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2019-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien, Katalog 435 Zeilen, Typenliste 353. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 22 von 22 gewerteten Zeilen mit der Liste v0.7. iqb-bau.py v0.5: afb_amtlich darf leer sein, wenn die Matrixzeile im Standardbezug leer ist (AGLAA22 a, bemerkung „Standardbezug: keine Eintragung"); solche Zeilen zählen in der Eichung nicht, Nenner „gewertete Zeilen"; iqb.md § 4 entsprechend. Kennzahlentabelle in § 2 um 2022-ga-A bis 2019-ga-A nachgeführt. |
 | 2026-09-14 | iqb.md § 7: Vermerk zur Nullfall-Regel – sie beruht auf einem einzigen Fall (2023-ea-A AGLAA111), nachdem sich der zweite Beleg (2025-ea-A AGLAA121 b, zwei Fälle a = ±2, Treffer der Grundregel) als falsch erwiesen hat; Versionszeile ergänzt, keine Versionsänderung. |
 | 2026-09-14 | Abgleichlauf 3 über den Gesamtbestand (412 Zeilen): 341 → 338 Typen, drei Zusammenziehungen und zwei erweiterte Definitionen (Liste alt → neu in § 4), fünf Typfelder im Katalog geändert; iqb-abgleich.py v0.3. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: ea-Bias-Test (Testregel kostet netto sechs Treffer, nicht umgesetzt), Jahrgangsvergleich mit 2021 und 2020 vervollständigt (kein Corona-Muster), Abbruchkriterium mit Schnitt-Wiederverwendung je Stapel (Vorschlag: 2019 und 2018 noch erfassen). iqb.md § 7 Anteil amtlich-III um 2021 und 2020 fortgeschrieben. |
 | 2026-09-14 | 2020-ea-A vollständig erfasst: 28 Zeilen aus 15 Dateien, Katalog 412 Zeilen, Typenliste 341. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 28 von 28 mit der Liste v0.7. |

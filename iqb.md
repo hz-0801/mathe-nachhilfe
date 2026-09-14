@@ -4,7 +4,8 @@ Version 0.7 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2
 Nullfall-Regel zur Fallunterscheidung (ein einzelner Nullfall eines Koeffizienten
 zählt nicht; Vermerk nach Abgleichlauf 3: beruht auf einem einzigen Fall, der
 zweite Beleg war falsch); § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe
-zwischen 2023 und 2024, ohne Deutung).
+zwischen 2023 und 2024, ohne Deutung); § 4 afb_amtlich leer bei leerer
+Matrixzeile im Standardbezug (nach 2019-ga-A, iqb-bau.py v0.5).
 Änderungen gegenüber 0.5 (nach 2024-ea-A): § 6 Gegenstandsklassen je Thema als
 Schnitt für Teil A, Präfix im Typnamen (Entscheidung 24, Abgleichlauf über
 alle Typen); § 7 Deutungsliste mit Prinzip am Kopf und Eintrag (e).
@@ -162,7 +163,12 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
             I · I|II · II|III · I|II|III. Nicht nur den höchsten – das Feld hält
             fest, was amtlich ausgewiesen ist, eine Auswahl wäre Deutung. Die
             Matrixzeile mit der Zuordnung zu K1–K6 steht wörtlich in bemerkung
-            („Standardbezug: K1 I, K2 II, K5 II").
+            („Standardbezug: K1 I, K2 II, K5 II"). Ist die Matrixzeile einer
+            Teilaufgabe leer (Lücke in der Quelle, erstmals 2019-ga-A AGLAA22 a),
+            bleibt das Feld leer und bemerkung nennt „Standardbezug: keine
+            Eintragung"; die Zeile zählt in der Eichung nicht mit (iqb-bau.py
+            v0.5). Nichts wird ergänzt – das Feld hält nur fest, was amtlich
+            ausgewiesen ist.
     niveau_geschaetzt: eigene Schätzung nach Kern § 5, aus dem Aufgabentext
             gebildet, nicht aus dem Standardbezug abgeschrieben – sonst eicht
             das Feld nichts. Erfassungshinweis aus der Eichung siehe § 7
