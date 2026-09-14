@@ -27,7 +27,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2023-ea-A | 18 (17 + 1 Dublette) | **erfasst 2026-09-13, 32 Zeilen** · 25 Typen neu, 6 wiederverwendet · Eichung 29 von 32 (Liste v0.6) |
 | 2022-ga-A | 14 | **erfasst 2026-09-13, 24 Zeilen** · 22 Typen neu, 2 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
 | 2022-ea-A | 17 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 30 von 32 (Liste v0.6) |
-| 2021-ga-A | 13 (11 + 2 Dubletten) | nicht erfasst |
+| 2021-ga-A | 13 (11 + 2 Dubletten) | **erfasst 2026-09-14, 23 Zeilen** · 13 Typen neu, 10 wiederverwendet · Eichung 23 von 23 (Liste v0.7) |
 | 2021-ea-A | 19 (17 + 2 Dubletten) | nicht erfasst |
 | 2020-ga-A | 10 | nicht erfasst |
 | 2020-ea-A | 15 | nicht erfasst |
@@ -855,10 +855,47 @@ Die Katalogzeile behält ihre Schätzung (iqb.md § 7); der Befund zu 2023-ea-A
 oben ist berichtigt (die Aussage, derselbe LGS-Typ habe schon 2025-ea-A
 verfehlt, war falsch – dort ist die Zeile ein Treffer mit zwei Fällen).
 
+**Stapel 2021-ga-A.** 13 Dateien, zwei Dubletten (AGLAA212 = AGLAA112, AGLAA22
+= AGLAA12), 23 Zeilen aus 11 Dateien, alle 5 BE bestätigt, kein „?", kein
+„ersatzweise". Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung über den
+Bestand (332 Zeilen, 277 Typen, 11 Stapel) bestanden. Keine ungegliederte
+Aufgabe; eine Datei mit drei Seiten (AGLAA111, b auf Seite 2). Drei Dateien
+tragen in der Kurzbeschreibung nur „AG/LA" ohne Alternative (AGLAA112,
+AGLAA12, AGLAA211). Erste Fundstelle: Aufgabe ohne Koordinaten mit
+Ortsvektoren am Quader (AGLAA12). Zweiter Corona-Jahrgang, grundlegend.
+
+**Eichung 2021-ga-A: 23 von 23 mit der Liste v0.7.** Zweiter Stapel ohne
+Abweichung (nach 2024-ea-A). Gefeuert und getroffen: (e) bei Analysis 2 b
+(Stammfunktionsgraph), (c)+(b) bei AGLAA12 c (Skalarprodukt ohne
+Koordinaten), (b) bei Stochastik 2 b (Symmetrie um 13,5 mit Zerlegung
+verkettet). Nicht gefeuert nach dem Prinzip, amtlich II, Treffer:
+Stochastik 1.1 b (Bayes-Term, eine Deutung), Analysis 1.1 b (Vorgehen
+beschreiben), Stochastik 1.2 b (drei Einzelprüfungen). Nullfall-Regel:
+kein Anwendungsfall im Stapel.
+
+**Typen 2021-ga-A.** 23 verwendet, 13 neu, 10 wiederverwendet – der bisher
+höchste Wiederverwendungsanteil (43 %): Integral über f aus dem Graphen der
+Stammfunktion (2022-ea-A), Fläche aus zwei Flächenstücken (2024-ga-A),
+Extrempunkt an vorgegebener Stelle (2026-ga-A), Graph einer Stammfunktion
+durch einen Punkt (2023-ea-A), Koordinate eines Vektors aus vorgegebener
+Länge (2025-ea-A), Dreieck: Parameter für einen rechten Winkel (2024-ga-A),
+Pfadwahrscheinlichkeit zweier Stufen (2024-ga-A), Pfadwahrscheinlichkeit für
+lauter gleiche Ergebnisse (2026-ga-A), Term einer Bernoulli-Kette
+(2026-ga-A), Einzelwahrscheinlichkeit aus Symmetrie und kumulierten Werten
+(2025-ga-A). Konvergenz im grundlegenden Niveau: 30 % nach typ, 61 % nach dem
+Schnitt (22 Werte, 14 von 23 Zeilen bekannt). Etikettenentscheidung:
+„Integralwert: Vorgehen zur grafischen Bestimmung eines Integrals beschreiben"
+getrennt vom Kästchenzählen (andere Handlung).
+
+**Geltung 2021-ga-A.** Außerhalb der Geltung 2, 2, 2, 2 von 23: nur
+Verflechtung (AGLAA111 a, b). Bestand jetzt be-gk 64, be-lk 37, bb-gk 63,
+bb-ea 36 von 332 Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2021-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien (zwei Dubletten), Katalog 332 Zeilen, Typenliste 277. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 23 mit der Liste v0.7. |
 | 2026-09-14 | iqb.md v0.7: Nullfall-Regel zur Fallunterscheidung in § 7 (ein einzelner Nullfall eines Koeffizienten zählt nicht), rückwirkend eine Änderung (2023-ea-A AGLAA111, Gewinn), Bestand 287 von 309; § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe zwischen 2023 und 2024, aus dem erhöhten Niveau, ohne Deutung). Befund 2023-ea-A berichtigt (2025-ea-A AGLAA121 b ist ein Treffer mit zwei Fällen). |
 | 2026-09-13 | Abgleichlauf 2 über den Gesamtbestand (309 Zeilen): 268 → 264 Typen, vier Zusammenziehungen (Liste alt → neu in § 4), neun Typfelder im Katalog geändert; iqb-abgleich.py v0.2 führt die Läufe getrennt (python iqb-abgleich.py [N]). Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. Jahrgangsvergleich Pool 2022 gegen 2023–2026 in § 4 (kein Corona-Muster; 2021 folgt). |
 | 2026-09-13 | 2022-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien, Katalog 309 Zeilen, Typenliste 268. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 30 von 32 mit der Liste v0.6. Befund 2022-ga-A: Zählfehler bei den ungegliederten Aufgaben berichtigt (fünf). |
