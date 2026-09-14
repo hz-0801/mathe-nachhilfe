@@ -7,7 +7,8 @@ zweite Beleg war falsch); § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe
 zwischen 2023 und 2024, ohne Deutung; nach 2018-ea-A bis Pool 2018
 fortgeschrieben); § 4 afb_amtlich leer bei leerer Matrixzeile im
 Standardbezug (nach 2019-ga-A, iqb-bau.py v0.5); § 7 Messung der Eichung bis
-2018-ea-A.
+2018-ea-A; § 6 Abbruchkriterium für Teil A (neue Schnittwerte innerhalb der
+Geltung, nach Abgleichlauf 4).
 Änderungen gegenüber 0.5 (nach 2024-ea-A): § 6 Gegenstandsklassen je Thema als
 Schnitt für Teil A, Präfix im Typnamen (Entscheidung 24, Abgleichlauf über
 alle Typen); § 7 Deutungsliste mit Prinzip am Kopf und Eintrag (e).
@@ -365,6 +366,15 @@ eines Wahrscheinlichkeitsterms, Laplace-Experiment das Abzählen gleich
 wahrscheinlicher Ergebnisse. Die Liste wächst beim Abgleichlauf, wenn ein
 Thema einen weiteren Gegenstand bekommt; iqb-bau.py prüft, dass jeder Typ
 eines Themas mit Klassen ein gültiges Präfix trägt und jeder andere keines.
+
+**Abbruchkriterium für Teil A (Entscheidung des Lehrers, 14.09.2026, nach
+Abgleichlauf 4).** Maßstab ist je Stapel die Zahl der neuen Schnittwerte
+innerhalb der Geltung (Tabelle oben) – gezählt gegen den Gesamtbestand beider
+Niveaus, getrennt für be-gk und bb-ea; die Zahl im selben Niveau wird
+daneben ausgewiesen. Ein Rohzuwachs außerhalb der Geltung (Matrizen,
+Aufgabengruppe A1) zählt nicht. Unter fünf neue Werte je Stapel heißt
+ausgereizt. Messung in iqb-pruefungen.md § 4 (Skript: neue Werte je Stapel in
+der Erfassungsreihenfolge, Geltung nach dem Thema des Werts).
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine

@@ -35,10 +35,10 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2019-ea-A | 10 | **erfasst 2026-09-14, 20 Zeilen** · 15 Typen neu, 5 wiederverwendet · Eichung 20 von 20 (Liste v0.7) |
 | 2018-ga-A | 12 | **erfasst 2026-09-14, 25 Zeilen** · 17 Typen neu, 8 wiederverwendet · Eichung 23 von 25 (Liste v0.7) |
 | 2018-ea-A | 12 | **erfasst 2026-09-14, 26 Zeilen** · 21 Typen neu, 5 wiederverwendet · Eichung 25 von 26 (Liste v0.7) |
-| 2017-ga-A | 10 | nicht erfasst |
-| 2017-ea-A | 11 | nicht erfasst |
-| bsp-ga-A | 16 (12 + 4 Dubletten) | nicht erfasst |
-| bsp-ea-A | 14 (12 + 2 Dubletten) | nicht erfasst |
+| 2017-ga-A | 10 | entfällt – Teil A nach dem Abbruchkriterium ausgereizt (§ 4, 14.09.2026); Reserve |
+| 2017-ea-A | 11 | entfällt – Reserve (§ 4) |
+| bsp-ga-A | 16 (12 + 4 Dubletten) | entfällt – Reserve (§ 4) |
+| bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -1467,6 +1467,58 @@ Beispielaufgaben (zwei Stapel, 24 Dateien) entbehrlich und Teil B ist an
 der Reihe; bringt 2017 wie 2018 sechs und mehr, folgen die
 Beispielaufgaben.
 
+**Abbruchkriterium, korrigiert auf neue Schnittwerte innerhalb der Geltung
+(Auftrag des Lehrers, iqb.md § 6).** Rückwirkend über alle 18 Stapel; ein
+Wert liegt in der Geltung, wenn sein Thema für die Zielprüfung gilt. „Im
+Niveau" zählt gegen die Stapel desselben Niveaus, „im Bestand" gegen beide
+Niveaus (Maßstab):
+
+| Stapel | Zeilen | neu im Niveau | davon in be-gk | davon in bb-ea | neu im Bestand | davon in be-gk | davon in bb-ea |
+|---|---|---|---|---|---|---|---|
+| 2026-ga-A | 33 | 28 | 28 | 28 | 28 | 28 | 28 |
+| 2026-ea-A | 37 | 33 | 27 | 28 | 23 | 17 | 18 |
+| 2025-ga-A | 31 | 20 | 18 | 19 | 14 | 13 | 14 |
+| 2025-ea-A | 34 | 22 | 20 | 22 | 16 | 14 | 16 |
+| 2024-ga-A | 30 | 14 | 11 | 11 | 7 | 5 | 5 |
+| 2024-ea-A | 32 | 15 | 9 | 14 | 9 | 4 | 9 |
+| 2023-ga-A | 24 | 6 | 6 | 6 | 4 | 4 | 4 |
+| 2023-ea-A | 32 | 13 | 11 | 12 | 5 | 3 | 4 |
+| 2022-ga-A | 24 | 8 | 6 | 6 | 4 | 4 | 4 |
+| 2022-ea-A | 32 | 8 | 5 | 8 | 6 | 3 | 6 |
+| 2021-ga-A | 23 | 9 | 8 | 8 | 4 | 3 | 3 |
+| 2021-ea-A | 33 | 6 | 6 | 6 | 3 | 3 | 3 |
+| 2020-ga-A | 19 | 3 | 2 | 2 | 2 | 2 | 2 |
+| 2020-ea-A | 28 | 6 | 6 | 6 | 4 | 4 | 4 |
+| 2019-ga-A | 23 | 3 | 3 | 3 | 0 | 0 | 0 |
+| 2019-ea-A | 20 | 4 | 4 | 4 | 1 | 1 | 1 |
+| 2018-ga-A | 25 | 6 | 6 | 6 | 2 | 2 | 2 |
+| 2018-ea-A | 26 | 8 | 7 | 7 | 7 | 6 | 6 |
+| Summe | 506 | 212 | 183 | 196 | 139 | 116 | 129 |
+
+Bestand: 139 Schnittwerte, davon in der Geltung be-gk 116, be-lk 128, bb-gk
+117, bb-ea 129. Befund: Der Geltungsfilter ändert die jüngsten Zahlen kaum,
+weil die Matrizenwerte fast alle schon in den ersten Stapeln aufgetreten sind
+– seit 2023 liegt höchstens ein neuer Wert je Stapel außerhalb (2018-ea-A:
+Übergangsdiagramm zeichnen). Maßgeblich im Bestand: 2021-ga-A 3, 2021-ea-A
+3, 2020-ga-A 2, 2020-ea-A 4, 2019-ga-A 0, 2019-ea-A 1, 2018-ga-A 2,
+2018-ea-A 6 (be-gk wie bb-ea). Sieben der letzten acht Stapel liegen unter
+fünf; der Ausreißer 2018-ea-A bringt sechs Werte (Symmetrie · berechnen,
+Kurvenuntersuchung · angeben, Geraden und Ebenen · angeben, Ebene Figur ·
+begründen, Unabhängigkeit · begründen, Zufallsgrößen · angeben), alle sechs
+Handlungen zu Themen, die im Bestand schon mit anderer Handlung stehen. Im
+Niveau gezählt liegen 2019 (3, 4) unter und 2018 (6, 7) über der Schwelle.
+
+Urteil (14.09.2026): Nach dem Maßstab ist Teil A ausgereizt – im Bestand
+bringen seit 2021 sieben von acht Stapeln unter fünf neue Werte innerhalb
+der Geltung, der Mittelwert der letzten vier liegt bei 2,25 (be-gk wie
+bb-ea). 2017 (zwei Stapel, 21 Dateien) wäre nach dem Trend mit je 2 bis 6
+Werten zu erwarten, die Beispielaufgaben (24 Dateien, davon 6 Dubletten) mit
+ähnlich wenig; beide entfallen. Der Vorschlag oben (2017 noch erfassen)
+beruhte auf dem Rohzuwachs im Niveau und ist damit überholt. Teil A gilt
+mit 18 Stapeln, 506 Zeilen und 139 Schnittwerten als erfasst; 2017 und die
+Beispielaufgaben bleiben als Reserve, falls ein Schnittwert für den Blattbau
+zu dünn belegt ist. Teil B ist an der Reihe.
+
 **Geltungsquote je Stapel und im Bestand** (Anteil der Zeilen innerhalb
 der Geltung nach iqb.md § 6; be-gk / be-lk / bb-gk / bb-ea):
 
@@ -1501,6 +1553,7 @@ Bestand bei vier Fünfteln, die Leistungskurs-Geltung bei sechs Siebteln.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Abbruchkriterium Teil A korrigiert (Auftrag des Lehrers): Maßstab sind neue Schnittwerte innerhalb der Geltung (be-gk, bb-ea), gezählt im Gesamtbestand; rückwirkende Tabelle über 18 Stapel in § 4, Regel in iqb.md § 6. Urteil: Teil A ausgereizt (sieben der letzten acht Stapel unter fünf), 2017 und Beispielaufgaben entfallen als Reserve (§ 2). Kein Stapel erfasst. |
 | 2026-09-14 | Abgleichlauf 4 über den Gesamtbestand (506 Zeilen): 406 → 401 Typen, fünf Zusammenziehungen, eine Umbenennung („Tangentensteigung an einer Nullstelle …" → „… in einem Punkt …"), eine erweiterte Definition (Liste alt → neu in § 4), elf Typfelder im Katalog geändert; iqb-abgleich.py v0.4. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: Jahrgangsvergleich um 2019 und 2018 fortgeschrieben, Abbruchkriterium auf neue Schnittwerte je Stapel umgestellt (3, 4, 6, 8 – Vorschlag: 2017 noch erfassen, dann entscheiden), Geltungsquote je Stapel und im Bestand als Tabelle. iqb.md § 7: Anteil amtlich-III und Eichmessung bis Pool 2018 fortgeschrieben. Kennzahlentabelle in § 2 bis 2018-ea-A. |
 | 2026-09-14 | 2018-ea-A vollständig erfasst: 26 Zeilen aus 12 Dateien, Katalog 506 Zeilen, Typenliste 406. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 25 von 26 mit der Liste v0.7 (Analysis 1.2 b über dem amtlichen Bereich geschätzt). |
 | 2026-09-14 | 2018-ga-A vollständig erfasst: 25 Zeilen aus 12 Dateien, Katalog 480 Zeilen, Typenliste 385. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 25 mit der Liste v0.7 (AGLAA12 a und AGLAA22 a unter dem amtlichen Bereich geschätzt). |
