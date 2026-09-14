@@ -2548,10 +2548,24 @@ ausgereizt.** Damit sind beide Niveaus des WTR-Zweigs in Teil B ausgereizt
 (grundlegend 7 → 3 → 2 → 2, erhöht 9 → 0 → 7 → 4 → 3). Bestand: 180
 Schnittwerte, davon 147 in be-gk und 167 in bb-ea.
 
+**Abgleichlauf 10 (iqb-abgleich.py v0.10, nach den beiden erhöhten
+Stapeln).** Eine Zusammenziehung mit neuem Namen: „Kleinstes k mit
+kumulierter Wahrscheinlichkeit über einer Schranke mit dem Rechner
+ermitteln" (2025-ga-B) und „Größtes k mit kumulierter Wahrscheinlichkeit
+unter einer Schranke mit dem Rechner ermitteln" (2022-ea-B) → „Grenze k
+einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner
+ermitteln" – dieselbe Fertigkeit (Nachbarwerte am Rechner), die Richtung
+steht in der Zeile, wie bei der einseitigen Entscheidungsregel in Lauf 7.
+Keine weitere Zusammenziehung: die 103 neuen Typen der beiden Stapel
+haben sonst keinen Zwilling im Bestand. 774 → 773 Typen, 2 Typfelder im
+Katalog. Selbstprüfung bestanden (1029 Zeilen, 773 Typen, 28 Stapel),
+Abgleich aus dem HEAD-Stand byteidentisch.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-15 | Abgleichlauf 10 (iqb-abgleich.py v0.10, nach 2023-ea-B und 2022-ea-B): Kleinstes k mit kumulierter Wahrscheinlichkeit über einer Schranke mit dem Rechner ermitteln, Größtes k mit kumulierter Wahrscheinlichkeit unter einer Schranke mit dem Rechner ermitteln → Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln (Zusammenziehung, Definition mit beiden Richtungen). 774 → 773 Typen, 2 Typfelder im Katalog. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-15 | Stapel 2022-ea-B (WTR-Zweig) erfasst: 69 Zeilen aus 8 Dateien, Katalog 1029 Zeilen, Typenliste 774 (54 neu). Alle BE-Summen geprüft (40/40/40/25/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 62 von 69 (90 %) nach der Spalte Anforderungsbereich. Keine Trägerbindung. Abbruchkriterium erhöht: 3 neue Schnittwerte in bb-ea, Reihe 9 → 0 → 7 → 4 → 3 – erhöht ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-15 | Stapel 2023-ea-B (WTR-Zweig) erfasst: 64 Zeilen aus 8 Dateien, Katalog 960 Zeilen, Typenliste 720 (49 neu). Alle BE-Summen geprüft (40/40/25/25/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 55 von 64 (86 %) nach der Spalte Anforderungsbereich, eine Zeile ersatzweise (Kreisbogen). Keine Trägerbindung. Abbruchkriterium erhöht: 4 neue Schnittwerte in bb-ea, Reihe 9 → 0 → 7 → 4. MMS-Zweig nicht erfasst. |
 | 2026-09-15 | MMS als Delta (Entscheidungen des Lehrers): iqb-quellen.py v0.3 scannt Teil B (Seitenkopfzeilen entfernt, Schwelle Gleichheit des Aufgabentexts, DUBLETTEN_HAND), iqb-quellen.csv mit Seitenzahl aller Teil-B-Dateien und 18 Dubletten MMS/CAS → WTR; iqb-bau.py v0.9 (mms-Stapel vollständig ohne wortgleiche Dateien, erste Datei einer Dublette muss im Katalog stehen); Abgleichlauf 9 (iqb-abgleich.py v0.9, STREICHEN): 17 aus dem WTR-Zweig übernommene Zeilen von 2026-ga-B-mms gestrichen, 913 → 896 Zeilen, 671 Typen. iqb.md v1.0 (§ 7 MMS als Delta, Dubletten über die Rechnerfassung mit Verfahren und Schwelle; § 6 Reihe erhöht wird fortgesetzt; § 9), iqb-quellen.md v0.3. Selbstprüfung bestanden, byteidentisch. |

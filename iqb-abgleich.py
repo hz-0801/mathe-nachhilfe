@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.9 · 15.09.2026 · gilt mit iqb.md v1.0 und iqb-bau.py v0.9
+Version 0.10 · 15.09.2026 · gilt mit iqb.md v1.0 und iqb-bau.py v0.9
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -34,6 +34,8 @@ vier erweiterte Definitionen, keine Zusammenziehung (671).
 Lauf 9 (15.09.2026, MMS als Delta): Bereinigung – Zeilen von Dateien mit
 dublette_von in iqb-quellen.csv v0.3 gestrichen (17 Zeilen aus 2026-ga-B-mms),
 STREICHEN als neue Regelart; Typen unverändert (671).
+Lauf 10 (15.09.2026, nach 2023-ea-B und 2022-ea-B): eine Zusammenziehung mit
+neuem Namen (Grenze k gegen eine Schranke), 774 → 773.
 """
 import csv, io, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -461,6 +463,23 @@ def streiche_9(d, dubl=dubletten_quellen()):
     return d["id"].split("-")[0] in dubl
 
 
+# ======================================================================= Lauf 10
+# Nach 2023-ea-B und 2022-ea-B (Auftrag „Erhöhtes Niveau absichern"): eine
+# Zusammenziehung mit neuem Namen – kleinstes k über der Schranke (2025-ga-B)
+# und größtes k unter der Schranke (2022-ea-B) sind dieselbe Fertigkeit
+# (Grenze am Rechner mit Nachbarwerten, Richtung steht in der Zeile).
+ZUSAMMEN_10 = {
+    "Kleinstes k mit kumulierter Wahrscheinlichkeit über einer Schranke mit dem Rechner ermitteln":
+        "Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln",
+    "Größtes k mit kumulierter Wahrscheinlichkeit unter einer Schranke mit dem Rechner ermitteln":
+        "Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln",
+}
+NEUE_DEFINITION_10 = {
+    "Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln":
+        "Das kleinste bzw. größte k ermitteln, für das P(X ≤ k) oder P(X < k) eine vorgegebene Schranke "
+        "über- bzw. unterschreitet, mit beiden Nachbarwerten am Rechner; die Richtung steht in der Zeile.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -471,6 +490,7 @@ LAEUFE = {
     7: ({}, ZUSAMMEN_7, NEUE_DEFINITION_7, NEUES_THEMA_7),
     8: ({}, ZUSAMMEN_8, NEUE_DEFINITION_8, {}),
     9: ({}, {}, {}, {}),
+    10: ({}, ZUSAMMEN_10, NEUE_DEFINITION_10, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt

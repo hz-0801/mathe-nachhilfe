@@ -418,8 +418,10 @@ Niveaus (be-gk für grundlegend, bb-ea für erhöht). Unter fünf neue Werte je
 Stapel heißt der Zweig des Niveaus ausgereizt. Der Teil-A-Maßstab bleibt
 daneben unberührt. Verlauf und Reihe je Niveau in iqb-pruefungen.md § 4.
 Stand 15.09.2026: grundlegend ausgereizt (7 → 3 → 2 → 2, WTR-Zweig bis
-2023-ga-B); erhöht nicht ausgereizt (9 → 0 → 7 bis 2024-ea-B), die Reihe wird
-mit 2023-ea-B und 2022-ea-B fortgesetzt (Entscheidung des Lehrers). Ein
+2023-ga-B); erhöht nach 2024-ea-B nicht ausgereizt (9 → 0 → 7), auf
+Entscheidung des Lehrers mit 2023-ea-B (4) und 2022-ea-B (3) fortgesetzt –
+zwei Stapel in Folge unter fünf, erhöht ausgereizt (9 → 0 → 7 → 4 → 3).
+Beide Niveaus des WTR-Zweigs in Teil B sind damit ausgereizt. Ein
 mms-Stapel zählt nicht in die Reihe (Delta, § 7).
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
