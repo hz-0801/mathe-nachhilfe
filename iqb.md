@@ -620,9 +620,15 @@ Grund steht dann in bemerkung. In diesem Stapel kommt es nicht vor.
 ## 9 Offene Punkte
 
 - Teil B: Kürzel (papier-Zusatz -mms, aufgabe Dateinummer.Aufgabennummer, id mit
-  Aufgabennummer) sind vorläufig festgelegt und werden bestätigt, wenn Teil A
-  durch ist. Offen ist auch, ob WTR- und MMS-Fassung wie bei abi als
-  Leitfassung plus Nachtrag behandelt werden.
+  Aufgabennummer) im Probestapel 2026-ga-B (WTR-Zweig, 14.09.2026) benutzt und
+  bewährt; Zusätze aus dem Probestapel: Erfassungseinheit ist der Stapel je
+  Rechnerfassung (iqb-bau.py v0.6, KONFIG „2026-ga-B-wtr"), eine Datei mit nur
+  einer, unnummerierten Aufgabe führt die Aufgabennummer 1 (id …WTR-1a, aufgabe
+  1), der Standardbezug hat in Teil B eine eigene Spalte Anforderungsbereich
+  (in bemerkung als „AB amtlich: …"; im Probestapel in allen 45 Zeilen gleich
+  dem höchsten Kompetenzeintrag). Offen bleibt, ob die MMS-Fassung wie bei abi
+  als Nachtrag erfasst wird und ob Teil B überhaupt zeilenweise erfasst wird
+  (Befund zur Trägerbindung in iqb-pruefungen.md § 4).
 - Beispielaufgaben: Veröffentlichungsjahr nicht ermittelt; jahr = „bsp".
 - Schwellenwerte in § 7 sind Vorschläge des ersten Laufs; nach drei Stapeln
   prüfen.

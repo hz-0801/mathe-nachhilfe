@@ -39,6 +39,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2017-ea-A | 11 | entfällt – Reserve (§ 4) |
 | bsp-ga-A | 16 (12 + 4 Dubletten) | entfällt – Reserve (§ 4) |
 | bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
+| 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -67,6 +68,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2019-ea-A | 20 | 20 | 15 (75 %) | 20 von 20 (100 %), Liste v0.7 | 0 | 0 | 3 von 20 (15 %); Schnitt 15 Werte, 16 von 20 Zeilen bekannt (80 %) | 4, 4, 4, 4 |
 | 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 |
 | 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 |
+| 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1549,10 +1551,99 @@ erhöhten Stapeln 2022–2025 kommen für die Grundkurse Funktionsscharen,
 Ebenenscharen und Normalverteilung dazu. Die Grundkurs-Geltung liegt im
 Bestand bei vier Fünfteln, die Leistungskurs-Geltung bei sechs Siebteln.
 
+**Probestapel Teil B: 2026-ga-B, WTR-Zweig (Auftrag des Lehrers,
+14.09.2026, zur Messung; MMS-Zweig nicht erfasst).** 7 Dateien (Analysis
+WTR 1 und 2 mit je zwei Aufgaben und 25 BE, AG/LA A1, AG/LA A2 WTR 1 und 2,
+Stochastik WTR 1 und 2 mit 15 BE), 45 Zeilen, alle BE-Summen bestätigt,
+kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung über den Bestand (551 Zeilen, 433 Typen, 19 Stapel)
+bestanden. Skript: iqb-bau.py v0.6 – Erfassungseinheit in Teil B ist der
+Stapel je Rechnerfassung (KONFIG „2026-ga-B-wtr"), der Bindestrich vor der
+Aufgabennummer in id und abhaengig_von ist von der Minusprüfung
+ausgenommen; eine Datei mit nur einer unnummerierten Aufgabe führt innen =
+1 (vier der sieben Dateien). Quelle: Der Standardbezug hat in Teil B eine
+eigene Spalte „Anforderungsbereich" mit Kreuz; sie stimmt in allen 45
+Zeilen mit dem höchsten Kompetenzeintrag überein – die Eichregel „höchster
+Bereich" ist damit für Teil B amtlich gedeckt. Amtliche Verteilung: I 16,
+II 20, III 9 (20 % III).
+
+*Eichung 2026-ga-B: 44 von 45 mit der Liste v0.7.* Eine Abweichung:
+Analysis WTR 1, 1c (Tangente mit vorgegebenem Achsenabschnitt und
+Schnittwinkel) geschätzt II als Verkettung dreier Standardschritte,
+amtlich I – in Teil B wertet das IQB eine Verkettung von Reproduktionen
+als I. Gefeuert und getroffen (alle amtlich III): (b) plus Rechteck bei
+1e, (a) Kreisberührung als Normale bei 1f, (a) Flächenhalbierung bei WTR 2
+1e, (c)+(d) Proportionalität k − 20 = −400 k' bei 2c, (c) Eigenvektor ⇒
+exponentiell bei AGLAA1 e, (a) Grenzwinkel als Ebenenwinkel bei AGLAA2-1 e,
+(b) Spiegelpaar C ↔ W bei AGLAA2-2 e, (d) Bayes-Term mit Parameter bei
+Stochastik 1 2c, (a) Anordnungsregel bei Stochastik 2 f. Nicht gefeuert,
+amtlich II, Treffer: elf Zeilen (u. a. Differenzenquotient deuten,
+Gegenzufallsgröße, Wertemenge nach Transformation).
+
+*Typen 2026-ga-B.* 42 verwendet, 32 neu, 10 wiederverwendet aus Teil A
+(Transformation: Abbildung zwischen zwei Graphen zweimal, Stammfunktion
+mit Wertebedingung, Tangentengleichung, Übergangsdiagramm zeichnen,
+Matrix-Vektor-Produkt, Parameter eines Vektors aus einer
+Matrix-Vektor-Gleichung, Spiegelebene aus Punkt und Spiegelpunkt, Fehlende
+Werte in einem Wahrscheinlichkeitsterm, Bedingte Wahrscheinlichkeit aus
+Anteil und Schnittanteil, Sitzordnungen mit Abstandsbedingung); elf Zeilen
+tragen einen Teil-A-Typ. Erste Fundstelle des Themas Lage- und Streumaße
+einer Stichprobe (Stochastik WTR 2 e) und erster Typ mit Rechnereinsatz
+(Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln,
+zweimal). Vorschläge für den nächsten Abgleich: Definition von
+„Übergangsdiagramm aus der Übergangstabelle zeichnen" auf die Matrix
+erweitern; „Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil
+berechnen" ohne den Zusatz „ohne Vierfeldertafel"; „Koordinatengleichung
+einer Ebene durch drei Punkte" gegen „… durch zwei sich schneidende Geraden"
+prüfen.
+
+**Messung: Trägt der Schnitt in Teil B?**
+
+| Maß | Wert |
+|---|---|
+| Zeilen je Schnittwert | 45 Zeilen auf 36 Werte, 1,25 (29 Werte einfach, 6 doppelt, einer vierfach: Nullstellen und Werte · berechnen) |
+| Zeilen auf Schnittwerten aus Teil A, gleiches Niveau (ga) | 32 von 45 (71 %) |
+| Zeilen auf Schnittwerten aus Teil A, beide Niveaus | 38 von 45 (84 %) |
+| Schnittwerte neu gegenüber Teil A | 7: Abstände · angeben, Bayes · begründen, Fläche · begründen, Körper · begründen, Körper · zeichnen, Nullstellen und Werte · berechnen, Lage- und Streumaße · berechnen |
+| Zeilen mit Sachkontext (kontext ≠ ohne) | 25 von 45 (56 %) |
+| Zeilen, die ohne den Sachkontext der Trägeraufgabe nicht beschreibbar sind („Trägerbindung: Kontext" in bemerkung) | 6 von 45 (13 %): Analysis WTR 1 2b, 2c (Atemzyklus, Einatmen), Analysis WTR 2 2c (Aussage in Sachbegriffen), AG/LA A1 c (Monatsfolge der Zugabe), AG/LA A2 WTR 1 d, e (Behälter, Drehung, Auslaufen) |
+| Zeilen mit Vorstufe (abhaengig_von) | 6 von 45 (13 %) |
+| Zeilen innerhalb der Geltung be-gk | 40 von 45 (89 %; nur AG/LA A1 außerhalb) |
+
+Befund: Der Schnitt trägt in Teil B. 84 % der Zeilen fallen auf Werte,
+die Teil A schon hat, und die Zeilen je Wert liegen mit 1,25 nahe an den
+Zeilen je Typ des Bestands (1,27). Die sieben neuen Werte sind Handlungen
+zu bekannten Themen (begründen, zeichnen, berechnen), ein neues Thema
+(Lage- und Streumaße). Zeilenweise beschreibbar sind 39 von 45 Zeilen: 20
+rein mathematische Zeilen ohne Sachkontext und 19 Zeilen, deren
+Sachkontext in gegeben in einem Satz mitgeführt werden kann (Term mit
+Deutung der Variablen, Baumdiagramm, Vierfeldertafel). Sechs Zeilen (13 %)
+hängen an der Erzählung der Trägeraufgabe – bei dreien an einer Abbildung
+oder Sachlage, die nur der Aufgabenstamm liefert (Behälterdrehung,
+Volumengraph, Monatsfolge), bei dreien an einer Sachdeutung (Atemzyklus,
+Einatmen, Temperaturdifferenz). Der Nachbau-Test funktioniert in Teil B
+zeilenweise für rund sieben Achtel der Zeilen; für das übrige Achtel muss
+die Zeile die Trägeraufgabe mitführen. Vorschlag (nicht umgesetzt): kein
+neues Feld, sondern die Markierung „Trägerbindung: Kontext" in bemerkung
+beibehalten und beim Blattbau solche Zeilen nur mit der ganzen Aufgabe
+(Kennung als Rückweg) verwenden.
+
+**Aufwand 2026-ga-B (WTR).** 45 Zeilen aus 7 Dateien, 6,4 Zeilen je Datei
+(Teil A: 1,7 bis 2,2). Dauer: 11:58 Uhr Holen der PDFs bis 12:13 Uhr
+bestandene Selbstprüfung – 15 Minuten für Lesen, Schätzen, Rechnung,
+Zeilen, Lauf; mit Nachführen und Messung etwa 25 Minuten, also gut drei
+Minuten je Datei gegenüber etwa einer Minute je Teil-A-Datei, je Zeile
+gleichauf. Eigene Rechnung gegen den Erwartungshorizont: 41 von 45 Zeilen
+(91 %) mit sympy-Kontrolle bestätigt, 4 Zeilen ohne rechnerisches Ergebnis
+(Transformation beschreiben, Übergangsdiagramm, Graph ergänzen); keine
+Abweichung vom Erwartungshorizont. Bilder: sieben Abbildungen beschrieben,
+alle aus dem Render lesbar.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Probestapel Teil B 2026-ga-B (WTR-Zweig) erfasst: 45 Zeilen aus 7 Dateien, Katalog 551 Zeilen, Typenliste 433. Alle BE-Summen geprüft (25/25/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 44 von 45 mit der Liste v0.7. iqb-bau.py v0.6: Erfassungseinheit in Teil B Stapel je Rechnerfassung, Bindestrich der Aufgabennummer in id/abhaengig_von zugelassen; iqb.md § 9 Teil-B-Kürzel bestätigt. Messung Schnitt in Teil B, Trägerbindung und Aufwand in § 4. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Abbruchkriterium Teil A korrigiert (Auftrag des Lehrers): Maßstab sind neue Schnittwerte innerhalb der Geltung (be-gk, bb-ea), gezählt im Gesamtbestand; rückwirkende Tabelle über 18 Stapel in § 4, Regel in iqb.md § 6. Urteil: Teil A ausgereizt (sieben der letzten acht Stapel unter fünf), 2017 und Beispielaufgaben entfallen als Reserve (§ 2). Kein Stapel erfasst. |
 | 2026-09-14 | Abgleichlauf 4 über den Gesamtbestand (506 Zeilen): 406 → 401 Typen, fünf Zusammenziehungen, eine Umbenennung („Tangentensteigung an einer Nullstelle …" → „… in einem Punkt …"), eine erweiterte Definition (Liste alt → neu in § 4), elf Typfelder im Katalog geändert; iqb-abgleich.py v0.4. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: Jahrgangsvergleich um 2019 und 2018 fortgeschrieben, Abbruchkriterium auf neue Schnittwerte je Stapel umgestellt (3, 4, 6, 8 – Vorschlag: 2017 noch erfassen, dann entscheiden), Geltungsquote je Stapel und im Bestand als Tabelle. iqb.md § 7: Anteil amtlich-III und Eichmessung bis Pool 2018 fortgeschrieben. Kennzahlentabelle in § 2 bis 2018-ea-A. |
 | 2026-09-14 | 2018-ea-A vollständig erfasst: 26 Zeilen aus 12 Dateien, Katalog 506 Zeilen, Typenliste 406. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 25 von 26 mit der Liste v0.7 (Analysis 1.2 b über dem amtlichen Bereich geschätzt). |
