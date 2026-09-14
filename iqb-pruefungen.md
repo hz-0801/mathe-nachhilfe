@@ -42,6 +42,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
 | 2026-ea-B (WTR) | 9 von 18 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
 | 2025-ga-B (WTR) | 8 von 16 (MMS-Zweig offen) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
+| 2025-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -73,6 +74,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 |
 | 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 |
 | 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 |
+| 2025-ea-B-wtr (Teil B) | 47 | 44 | 32 (73 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB | 0 | 2 | 6 von 44 (14 %); Schnitt 30 Werte, 45 von 47 Zeilen bekannt (96 %) | 20, 3, 20, 3 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1816,10 +1818,83 @@ der Reichweite, Durchschnitt und Lösung bei den Likes), 7 Zeilen ohne
 rechnerisches Ergebnis; keine Abweichung vom Erwartungshorizont. Sieben
 Abbildungen beschrieben, alle aus dem Render lesbar.
 
+**Stapel 2025-ea-B, WTR-Zweig (dritter Erfassungsstapel Teil B, 14.09.2026;
+MMS-Zweig nicht erfasst).** 8 Dateien (Analysis WTR 1 bis 3 mit je zwei
+Aufgaben und 30 BE; AG/LA A1 mit zwei
+Aufgaben, AG/LA A2 mit einer, je 20 BE; Stochastik WTR 1 und 2 mit je zwei
+Aufgaben und 20 BE; Stochastik WTR 3 mit 16 BE, siehe Dubletten), 47
+Zeilen, alle BE-Summen bestätigt, kein „?", zwei Zeilen „ersatzweise"
+(Konfidenzintervalle unter Hypothesentests). Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (700 Zeilen, 541 Typen, 22
+Stapel) bestanden. Amtliche Verteilung (Spalte Anforderungsbereich): I 15,
+II 21, III 11 (23 % III); die Spalte stimmt in allen 47 Zeilen mit dem
+höchsten Kompetenzeintrag überein.
+
+*Dubletten und geteilte Teilaufgaben.* Stochastik WTR 3, Aufgabe 1 (zwei
+Teilaufgaben, 4 BE) ist wortgleich mit Stochastik WTR 2, Aufgabe 1: keine
+Zeile, Soll 16. Aufgabe 2 beider Dateien teilt die Teilaufgaben a und b
+(Baumdiagramm, Verhältnis der bedingten Wahrscheinlichkeiten), unterscheidet
+sich aber in c und d (Konfidenzintervalle statt Signifikanztest); da die
+Regel auf die ganze nummerierte Aufgabe abstellt, tragen beide Dateien die
+Zeilen 2a und 2b mit gemeinsamen Typen (Vermerk in bemerkung). Über die
+Niveaus hinweg teilt der Stapel viel mit 2025-ga-B: Analysis WTR 1 hat
+dieselbe Reichweiten-Trägeraufgabe (2a wortgleich), AG/LA A2 dieselbe
+Drachenpyramide (a bis c, c wortgleich), Stochastik WTR 1 dieselbe
+Naturkostkette (1a wortgleich) – alles eigene Zeilen mit geteilten Typen.
+iqb.md § 7 Dubletten um den Satz zu geteilten Teilaufgaben innerhalb einer
+nicht wortgleichen Aufgabe ergänzt.
+
+*Eichung 2025-ea-B: 47 von 47 mit der Liste v0.7, Maßstab Spalte
+Anforderungsbereich.* Gefeuert und getroffen (11 Zeilen amtlich III): (e)
+gleitender Streifen mit Monotonie bei Analysis WTR 1 1e, (a) Gleichheit der
+Reichweiten als Gleichung für r(x) bei 2b, (b) Spiegelungen an y = x und
+x = ln 5 für den Flächenterm bei WTR 2 1d, (b) Punktsymmetrie zweier Graphen
+zueinander bei 2b (das Nachrechnen allein wäre II), (a) Quadratbedingung
+x_T = y_T bei WTR 3 1d, (e)+(d) Flächenbilanz und Energiebilanz bei 2d, (a)
+Zulässigkeit des Vorquartals als Ungleichungen bei AG/LA A1 1c, (a)
+Minimalität als Orthogonalität zur Kante bei AG/LA A2 e, (a) Schranke für σ
+aus Bedingung II bei Stochastik WTR 1 2b, (d) Fehler zweiter Art unter der
+Alternative bei WTR 2 2d, (d) zwei Grenzgleichungen als Schwellen für n bei
+WTR 3 2d. Nicht gefeuert, amtlich II, Treffer: 21 Zeilen; amtlich I,
+Treffer: 15 Zeilen.
+
+*Typen 2025-ea-B.* 44 verwendet, 32 neu, 12 wiederverwendet: drei aus
+Teil A (Scharparameter aus einem Punkt des Graphen angeben, zweimal;
+Übergangsprozess: Matrixeintrag im Sachzusammenhang deuten; Baumdiagramm
+zu einer zweistufigen Situation erstellen, zweimal) und neun aus Teil B
+(Hochpunkt eines Produkts aus Polynom und e-Funktion; Extrempunkte:
+Hochpunkt ablesen und deuten; Körper: Kürzeste und längste Kante und
+Volumen einer Pyramide über einem Drachenviereck – hier ohne die längste
+Kante; Aussage über ein Entweder-oder-Ereignis – alle 2025-ga-B;
+Neigungswinkel einer Ebene; Bestimmtes Integral mit vorgegebener
+Stammfunktion – 2026-ea-B; Vierfeldertafel aus Anteilen; Kumulierte
+Binomialwahrscheinlichkeit mit dem Rechner; Verhältnis zweier
+Pfadwahrscheinlichkeiten, zweimal – 2026-ga-B). Getrennt gehalten:
+„Faktorisierung von f(x) − t(x) nachweisen und weiteren Schnittpunkt …
+begründen" von der grundlegenden Fassung mit vorgegebener Faktorisierung;
+„Entscheidungsregel eines rechtsseitigen Signifikanztests" von der
+linksseitigen. Vorschlag für Abgleichlauf 6: die beiden
+Entscheidungsregel-Typen zu „Entscheidungsregel eines einseitigen
+Signifikanztests bestimmen" zusammenziehen (wäre Umbenennung, daher offen).
+
+*Messung 2025-ea-B.* 47 Zeilen auf 30 Schnittwerte (1,57 je Wert); 37 von
+47 Zeilen (78 %) auf Werten aus Teil A erhöht, ebenso 37 (78 %) auf Werten
+beider Niveaus. Trägerbindung: 1 von 47 Zeilen (2 %) – Analysis WTR 2 1d
+(Wappenfigur aus zwei Spiegelungen, nur über Abbildung 2 fassbar). Zeilen
+mit abhaengig_von: 8, Schnitt mit der Kontextmenge leer. Aufwand: 8 Dateien,
+5,9 Zeilen je Datei; 13:08 Uhr Lesen der PDFs bis 13:20 Uhr bestandene
+Selbstprüfung, 12 Minuten, mit Nachführen etwa 20. Eigene Rechnung gegen
+den Erwartungshorizont: 40 von 47 Zeilen (85 %) mit sympy-Kontrolle
+bestätigt, 3 Ablesungen, 4 Zeilen ohne rechnerisches Ergebnis; keine
+Abweichung vom Erwartungshorizont (bei Analysis WTR 1 1e liefert die
+Kontrolle die Streifenwerte 2,83 und 7,25 und die Lösung k ≈ 1,90). Neun
+Abbildungen beschrieben, alle aus dem Render lesbar.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Stapel 2025-ea-B (WTR-Zweig) erfasst: 47 Zeilen aus 8 Dateien, Katalog 700 Zeilen, Typenliste 541 (32 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/16), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 47 von 47 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 16; geteilte Teilaufgaben 2a, 2b bleiben Zeilen (iqb.md § 7 ergänzt). Trägerbindung 1 Zeile. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2025-ga-B (WTR-Zweig) erfasst: 42 Zeilen aus 8 Dateien, Katalog 653 Zeilen, Typenliste 509 (30 neu). Alle BE-Summen geprüft (25/25/15/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 42 von 42 nach der Spalte Anforderungsbereich. Keine Zeile mit Trägerbindung. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2026-ea-B (WTR-Zweig) erfasst: 60 Zeilen aus 9 Dateien, Katalog 611 Zeilen, Typenliste 479 (46 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/20/8), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 60 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 8; iqb.md § 7 Dubletten um wortgleiche Aufgaben innerhalb eines Stapels ergänzt. Trägerbindung 10 Zeilen, Kopplung an abhaengig_von bleibt verworfen (1 von 10 gemeinsam). MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Vorarbeit Teil B (Auftrag des Lehrers): iqb.md v0.8 – Stapelschnitt Teil B mit Rechnerfassung (§ 7), Markierung „Traegerbindung: Kontext" in bemerkung (§ 7; Kopplung an abhaengig_von geprüft und verworfen, 2 von 6 gemeinsam), Eichregel Teil B nach der Spalte Anforderungsbereich (§ 4). iqb-bau.py v0.7 prüft Markierung und Spalte. iqb-abgleich.py v0.5, Lauf 5: zwei erweiterte Definitionen, Feldkorrektur bemerkung in 45 Zeilen des Probestapels; kein Typ geändert (433). Selbstprüfung bestanden, byteidentisch. |

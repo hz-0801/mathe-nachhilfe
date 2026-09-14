@@ -471,7 +471,11 @@ Stand v0.1: keine.
   (letzte Zeile) und in iqb-pruefungen.md § 4. Einzelne wortgleiche Teilaufgaben
   über Niveaus hinweg (2026 Stochastik WTR 1 grundlegend und erhöht teilen vier
   Teilaufgaben) sind keine Dublette: andere Trägeraufgabe, andere Zeile,
-  geteilter Typ.
+  geteilter Typ. Dasselbe gilt innerhalb eines Stapels für geteilte
+  Teilaufgaben einer Aufgabe, die als Ganzes nicht wortgleich ist (2025-ea-B
+  Stochastik WTR 2 und WTR 3, Aufgabe 2: a und b gleich, c und d verschieden):
+  die Regel stellt auf die ganze nummerierte Aufgabe ab, beide Dateien tragen
+  die Zeilen.
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
   Stapels gegen iqb-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
   verfahren, stichwoerter. Ergebnis als Liste alt → neu in iqb-pruefungen.md § 5.
