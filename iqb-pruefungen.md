@@ -44,6 +44,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2025-ga-B (WTR) | 8 von 16 (MMS-Zweig offen) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
 | 2025-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
 | 2024-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **erfasst 2026-09-14, 49 Zeilen** · 31 Typen neu, 17 wiederverwendet · Eichung 46 von 49 (Spalte AB) |
+| 2024-ea-B (WTR) | 7 von 13 (MMS-Zweig offen) | **erfasst 2026-09-14, 61 Zeilen** · 44 Typen neu, 17 wiederverwendet · Eichung 59 von 61 (Spalte AB) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -77,6 +78,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 |
 | 2025-ea-B-wtr (Teil B) | 47 | 44 | 32 (73 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB | 0 | 2 | 6 von 44 (14 %); Schnitt 30 Werte, 45 von 47 Zeilen bekannt (96 %) | 20, 3, 20, 3 |
 | 2024-ga-B-wtr (Teil B) | 49 | 48 | 31 (65 %) | 46 von 49 (94 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 48 (25 %); Schnitt 41 Werte, 42 von 49 Zeilen bekannt (86 %) | 5, 4, 5, 4 |
+| 2024-ea-B-wtr (Teil B) | 61 | 61 | 44 (72 %) | 59 von 61 (97 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 61 (20 %); Schnitt 44 Werte, 51 von 61 Zeilen bekannt (84 %) | 23, 5, 22, 4 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2065,10 +2067,84 @@ Feldkorrektur kann seit v0.7 die ganze Zeile sehen). Bestand ohne
 „ersatzweise" in Teil B. Selbstprüfung bestanden (749 Zeilen, 569 Typen, 49
 Themen), Abgleich aus dem HEAD-Stand byteidentisch.
 
+**Stapel 2024-ea-B, WTR-Zweig (Absicherung erhöht, 14.09.2026; MMS-Zweig
+nicht erfasst).** 7 Dateien (Analysis WTR 1 bis 3 mit je zwei Aufgaben und
+40 BE; AG/LA A1 mit zwei Aufgaben, AG/LA A2 WTR 1 mit einer, je 25 BE;
+Stochastik WTR 1 mit drei, WTR 2 mit zwei Aufgaben, je 25 BE), 61 Zeilen,
+alle BE-Summen bestätigt, kein „?", kein „ersatzweise", keine Dublette.
+Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung über den Bestand (810
+Zeilen, 613 Typen, 24 Stapel) bestanden. Amtliche Verteilung (Spalte
+Anforderungsbereich): I 16, II 30, III 15 (25 % III); die Spalte stimmt in
+allen 61 Zeilen mit dem höchsten Kompetenzeintrag überein.
+
+*Eichung 2024-ea-B: 59 von 61 mit der Liste v0.7, Maßstab Spalte
+Anforderungsbereich.* Zwei Abweichungen: AG/LA A1 1c (Komponentensumme von
+Q · u als 0,9-Faches nachweisen) geschätzt II nach dem Prinzip – Nachrechnen
+mit mitgeführtem Vektor –, amtlich III über K1; Stochastik WTR 1 1c
+(Mindestumfang n für P(X > 5) ≥ 99 %) geschätzt II, amtlich III über K2.
+Gefeuert und getroffen (13 Zeilen amtlich III): (c) Abschätzung
+ln(e^x + 1) > x bei Analysis WTR 1 1e, (b) Punktsymmetrie um (0 | 2) als
+Rechteck bei 1f, Fallunterscheidung nach dem Vorzeichen von c bei 2e, (a)
+negatives Integral bis zur Nullstelle bei WTR 2 1c, (c) Ortskurve der
+Mittelpunkte bei 1e, (a) Gerade durch die Nullstelle als Flächenhalbierer bei
+WTR 3 2e, (d) Dreiecksfläche und Extremwertschritte bei 2f, (a) Rekursion
+der Populationsgröße bei AG/LA A1 1d, (d) Lotgerade, Lotfußpunkt,
+Abstandsgleichheit bei AG/LA A2 d, (b) Halbkreisbahn und halber Kegel bei h,
+(d) Fehler zweiter Art unter selbst gewählter Alternative bei Stochastik WTR
+1 2c, (a) Quantil und Überschreitungswahrscheinlichkeit bei WTR 2 2b, (a)
+Verteilungsfunktion lesen bei 2c. Nicht gefeuert, amtlich II, Treffer: 30
+Zeilen; amtlich I, Treffer: 16 Zeilen.
+
+*Typen 2024-ea-B.* 61 verwendet, 44 neu, 17 wiederverwendet: sechs aus Teil
+A (Stammfunktion durch Ableiten nachweisen; Graph der Schar zum
+Parametervorzeichen über das Grenzverhalten zuordnen; Symmetrie:
+Symmetrieart am Term über die Exponenten begründen; Übergangsprozess:
+Übergangsdiagramm aus der Übergangstabelle zeichnen; Koordinatengleichung
+einer Ebene aus Punkten oder Geraden bestimmen – Lauf 7; Baumdiagramm zu
+einer zweistufigen Situation erstellen) und elf aus Teil B (Integralwert:
+Integral über die Summe aus ungerader Funktion und Konstante ohne
+Stammfunktion begründen; Mittlere Änderungsrate aus dem Graphen – hier aus
+der Tabelle; Nullstellen und Werte: Funktionswert im Sachzusammenhang
+zweimal; Integral einer Rate mit typ_neben Prozentuale Abweichung;
+Nullstelle und Grenzverhalten eines Produkts aus Polynom und e-Funktion –
+hier mit Parameter; Vierfeldertafel aus Anteilen – hier ein bedingter
+Anteil; Bedingte Anteile vergleichen; Kumulierte Binomialwahrscheinlichkeit
+mit dem Rechner; Kumulierte Binomialsumme als Sachaussage; Wahrscheinlichkeit
+eines Intervalls der Normalverteilung). Erste Fundstelle des Themas
+Hypergeometrische Verteilung (Stochastik WTR 2 1e) und erste Zeilen zu
+Extremalprobleme in Teil B. Vorschläge für den Abgleich: Definitionen von
+„Mittlere Änderungsrate aus dem Graphen im Sachzusammenhang bestimmen" (auch
+aus einer Tabelle) und „Vierfeldertafel aus Anteilen vervollständigen" (auch
+aus einem bedingten Anteil) erweitern.
+
+*Messung 2024-ea-B.* 61 Zeilen auf 44 Schnittwerte (1,39 je Wert); 44 von
+61 Zeilen (72 %) auf Werten aus Teil A erhöht, 47 (77 %) auf Werten beider
+Niveaus. Trägerbindung: 0 von 61 Zeilen – auch Seeadler, Lesebestätigungen,
+Rutschbahn, Streamingdienst, Reifen sind in gegeben in einem Satz fassbar.
+Zeilen mit abhaengig_von: 12, Schnitt mit der Kontextmenge leer. Aufwand: 7
+Dateien, 8,7 Zeilen je Datei (Pool 2024 erhöht: 40 BE in Analysis); 21:31
+Uhr Holen der PDFs bis 21:59 Uhr bestandene Selbstprüfung, 28 Minuten, mit
+Nachführen etwa 40. Eigene Rechnung gegen den Erwartungshorizont: 55 von 61
+Zeilen (90 %) mit sympy-Kontrolle bestätigt, 1 Ablesung, 5 Zeilen ohne
+rechnerisches Ergebnis; keine Abweichung vom Erwartungshorizont. Acht
+Abbildungen beschrieben, alle aus dem Render lesbar.
+
+*Abbruchkriterium erhöht (gesetzter Maßstab, bb-ea, neu im Bestand):* 2024-
+ea-B-wtr bringt 7 neue Schnittwerte innerhalb der Geltung (Extremalprobleme
+· angeben, Körper · angeben, Hypergeometrische Verteilung · berechnen,
+Hypothesentests · angeben und · begründen, Punkt · angeben, Scharen von
+Geraden und Ebenen · zeichnen) – die Reihe erhöht lautet 9 → 0 → 7 (2026,
+2025, 2024; der Wert 2026 sinkt von 11 auf 9, weil Konfidenzintervalle seit
+Lauf 7 außerhalb der Geltung liegen). **Die Schwelle reißt: erhöht ist
+nicht ausgereizt.** Entscheidung über weitere erhöhte Stapel beim Lehrer
+(siehe Bericht); die beiden übrigen Stapel dieses Auftrags (2023-ga-B,
+2026-ga-B-mms) berühren den erhöhten WTR-Zweig nicht und wurden erfasst.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Stapel 2024-ea-B (WTR-Zweig) erfasst: 61 Zeilen aus 7 Dateien, Katalog 810 Zeilen, Typenliste 613 (44 neu). Alle BE-Summen geprüft (40/40/40/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 61 nach der Spalte Anforderungsbereich. Keine Trägerbindung. Abbruchkriterium erhöht: 7 neue Schnittwerte in bb-ea – Schwelle reißt, erhöht nicht ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Vorarbeit „Teil B absichern" (Entscheidungen des Lehrers): iqb.md v0.9 – Abbruchkriterium Teil B gesetzt (§ 6), Thema Konfidenzintervalle (§ 6, Geltung nein/nein/nein/nein). Abgleichlauf 7 (iqb-abgleich.py v0.7): Entscheidungsregel eines linksseitigen Signifikanztests bestimmen, Entscheidungsregel eines rechtsseitigen Signifikanztests bestimmen → Entscheidungsregel eines einseitigen Signifikanztests bestimmen; Koordinatengleichung einer Ebene durch drei Punkte bestimmen, Koordinatengleichung der Ebene durch zwei sich schneidende Geraden bestimmen → Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen; fünf Konfidenzintervall-Typen und ihre Zeilen von Hypothesentests auf Konfidenzintervalle, Vermerk „ersatzweise" gestrichen. 571 → 569 Typen. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-14 | Abgleichlauf 6 (iqb-abgleich.py v0.6, nach vier Erfassungsstapeln Teil B): Übergangsprozess: Matrixeintrag aus einem beobachteten Fixvektor bestimmen → Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen (Zusammenziehung, Definition erweitert); Definition von „Stochastische Unabhängigkeit zweier Ereignisse über die Produktregel untersuchen" um den Weg über die bedingte Wahrscheinlichkeit erweitert. 572 → 571 Typen, ein Typfeld im Katalog. Selbstprüfung bestanden, byteidentisch. Abbruchkriterium Teil B (Verlauf über fünf Stapel je Niveau, Schwelle vorgeschlagen, nicht gesetzt) und Messung über die fünf Stapel in § 4. |
 | 2026-09-14 | Stapel 2024-ga-B (WTR-Zweig) erfasst: 49 Zeilen aus 7 Dateien, Katalog 749 Zeilen, Typenliste 572 (31 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 46 von 49 nach der Spalte Anforderungsbereich. iqb-bau.py v0.8: nummerierte Aufgabe ohne Teilaufgabenbuchstaben in Teil B (Stochastik WTR 2, Aufgabe 3, id …-3). Trägerbindung 3 Zeilen. Berichtigung in § 4 (2026-ea-B): Verflechtung Rohstoffbedarf stammt aus Teil A, Funktionswert im Sachzusammenhang aus 2026-ga-B. MMS-Zweig nicht erfasst. |
