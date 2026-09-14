@@ -32,7 +32,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2020-ga-A | 10 | **erfasst 2026-09-14, 19 Zeilen** · 12 Typen neu, 7 wiederverwendet · Eichung 18 von 19 (Liste v0.7) |
 | 2020-ea-A | 15 | **erfasst 2026-09-14, 28 Zeilen** · 22 Typen neu, 6 wiederverwendet · Eichung 28 von 28 (Liste v0.7) |
 | 2019-ga-A | 11 | **erfasst 2026-09-14, 23 Zeilen** · 15 Typen neu, 8 wiederverwendet · Eichung 22 von 22 gewerteten Zeilen (Liste v0.7; AGLAA22 a ohne Standardbezug) |
-| 2019-ea-A | 10 | nicht erfasst |
+| 2019-ea-A | 10 | **erfasst 2026-09-14, 20 Zeilen** · 15 Typen neu, 5 wiederverwendet · Eichung 20 von 20 (Liste v0.7) |
 | 2018-ga-A | 12 | nicht erfasst |
 | 2018-ea-A | 12 | nicht erfasst |
 | 2017-ga-A | 10 | nicht erfasst |
@@ -64,6 +64,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2020-ga-A | 19 | 19 | 12 (63 %) | 18 von 19 (95 %), Liste v0.7 | 0 | 0 | 5 von 19 (26 %); Schnitt 15 Werte, 14 von 19 Zeilen bekannt (74 %) | 6, 6, 6, 6 |
 | 2020-ea-A | 28 | 27 | 22 (81 %) | 28 von 28 (100 %), Liste v0.7 | 0 | 0 | 5 von 27 (19 %); Schnitt 24 Werte, 22 von 28 Zeilen bekannt (79 %) | 6, 3, 6, 3 |
 | 2019-ga-A | 23 | 23 | 15 (65 %) | 22 von 22 gewerteten Zeilen (100 %), Liste v0.7; eine Zeile ohne Standardbezug | 0 | 0 | 6 von 23 (26 %); Schnitt 20 Werte, 20 von 23 Zeilen bekannt (87 %) | 4, 4, 4, 4 |
+| 2019-ea-A | 20 | 20 | 15 (75 %) | 20 von 20 (100 %), Liste v0.7 | 0 | 0 | 3 von 20 (15 %); Schnitt 15 Werte, 16 von 20 Zeilen bekannt (80 %) | 4, 4, 4, 4 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1192,10 +1193,62 @@ vier Zielprüfungen 19 von 23 (83 %). Bestand jetzt außerhalb be-gk 87,
 be-lk 54, bb-gk 86, bb-ea 53 von 435 Zeilen – Geltungsquote be-gk 348 von
 435 (80 %), be-lk 381 (88 %), bb-gk 349 (80 %), bb-ea 382 (88 %).
 
+**Stapel 2019-ea-A.** 10 Dateien, keine Dublette, 20 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (455 Zeilen, 368 Typen, 16
+Stapel) bestanden. Keine ungegliederte Aufgabe, der kleinste Stapel bisher
+(2,0 Zeilen je Datei). Zwei Aufgaben nur mit Graphen (Analysis 1.2, 2),
+eine Definitionsaufgabe (orthogonale Matrizen, AGLAA12), zwei Sachkontexte
+(Glücksrad, zwei Urnen).
+
+**Eichung 2019-ea-A: 20 von 20 mit der Liste v0.7.** Sechster Stapel ohne
+Abweichung. Gefeuert und getroffen: (c) bei Analysis 2 b (f'' = g' · e^g,
+Vorzeichenwechsel von g' am Graphen), (b) bei AGLAA12 b (V² = E, ungerade
+Potenz gleich V), (a)+(b) bei AGLAA22 b (Punkte mit gleichen Koordinaten
+als Gerade, echt parallele Ebenen), (a) bei Stochastik 2 b (fünf rote
+Kugeln als zwei gleichfarbige Umlegepfade). Nicht gefeuert nach dem
+Prinzip, amtlich II, Treffer: Analysis 1.1 b (Symmetrie im Text
+vorgegeben), Analysis 1.2 b ((e) ohne Verkettung, ein Schritt F' = f ≤ 0),
+AGLAA11 b („weniger als 10 %" wörtlich), AGLAA22 a („Koordinaten
+übereinstimmen" wörtlich), Stochastik 1.1 b (Gleichung vorgegeben).
+Nullfall-Regel: kein Anwendungsfall.
+
+**Typen 2019-ea-A.** 20 verwendet, 15 neu, 5 wiederverwendet: Graphen von
+Funktion und Ableitung einander zuordnen (2026-ga-A), Monotonie aus dem
+Vorzeichen der Ableitung am Graphen begründen (2026-ga-A; hier f als
+Ableitung von F), Punkt zu einem Vektorterm in das Schrägbild einzeichnen
+(2021-ga-A; hier Abbildung von Ebene und Gerade), Wahrscheinlichkeit einer
+vorgegebenen Augensumme bei zwei Würfen über Pfade (2020-ea-A; Glücksrad,
+Schranke „mindestens 11"), Ziehen ohne
+Zurücklegen: Kugelzahl aus einer Wahrscheinlichkeitsbedingung beim Umlegen
+einer Kugel (2023-ea-A; hier Umlegen hin und zurück). Konvergenz im
+erhöhten Niveau: 15 % nach typ, 80 % nach dem Schnitt (15 Werte, 16 von 20
+Zeilen bekannt). Neue Schnittwerte im Niveau: 4 (Nullstellen und Werte ·
+begründen, Schnittmengen · berechnen, Vektoren · zeichnen, Ziehen ohne
+Zurücklegen · angeben), davon einer im Bestand neu (Ziehen ohne Zurücklegen
+· angeben); Bestand 130 Schnittwerte. Etikettenentscheidungen:
+„Einzelwahrscheinlichkeit aus dem Diagramm kumulierter Wahrscheinlichkeiten
+ermitteln" getrennt von „Werte zu Wahrscheinlichkeitsbedingungen aus dem
+Säulendiagramm ablesen" (Differenz kumulierter Werte gegen Ablesen von k);
+„Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt
+berechnen" getrennt von „Term für die Wahrscheinlichkeit eines mehrstufigen
+Pfads angeben" (Wert gegen Term). Vorschlag für den Abgleichlauf 4: die
+Definition von „Ziehen ohne Zurücklegen: Kugelzahl aus einer
+Wahrscheinlichkeitsbedingung beim Umlegen einer Kugel bestimmen" um
+mehrmaliges Umlegen erweitern.
+
+**Geltung 2019-ea-A.** Außerhalb der Geltung 4, 4, 4, 4 von 20: nur
+Matrizen (AGLAA11 a, b; AGLAA12 a, b); keine Funktionsschar, keine
+Normalverteilung. Geltungsquote des Stapels für alle vier Zielprüfungen 16
+von 20 (80 %). Bestand jetzt außerhalb be-gk 91, be-lk 58, bb-gk 90, bb-ea
+57 von 455 Zeilen – Geltungsquote be-gk 364 von 455 (80 %), be-lk 397
+(87 %), bb-gk 365 (80 %), bb-ea 398 (87 %).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2019-ea-A vollständig erfasst: 20 Zeilen aus 10 Dateien, Katalog 455 Zeilen, Typenliste 368. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 20 von 20 mit der Liste v0.7. |
 | 2026-09-14 | 2019-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien, Katalog 435 Zeilen, Typenliste 353. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 22 von 22 gewerteten Zeilen mit der Liste v0.7. iqb-bau.py v0.5: afb_amtlich darf leer sein, wenn die Matrixzeile im Standardbezug leer ist (AGLAA22 a, bemerkung „Standardbezug: keine Eintragung"); solche Zeilen zählen in der Eichung nicht, Nenner „gewertete Zeilen"; iqb.md § 4 entsprechend. Kennzahlentabelle in § 2 um 2022-ga-A bis 2019-ga-A nachgeführt. |
 | 2026-09-14 | iqb.md § 7: Vermerk zur Nullfall-Regel – sie beruht auf einem einzigen Fall (2023-ea-A AGLAA111), nachdem sich der zweite Beleg (2025-ea-A AGLAA121 b, zwei Fälle a = ±2, Treffer der Grundregel) als falsch erwiesen hat; Versionszeile ergänzt, keine Versionsänderung. |
 | 2026-09-14 | Abgleichlauf 3 über den Gesamtbestand (412 Zeilen): 341 → 338 Typen, drei Zusammenziehungen und zwei erweiterte Definitionen (Liste alt → neu in § 4), fünf Typfelder im Katalog geändert; iqb-abgleich.py v0.3. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: ea-Bias-Test (Testregel kostet netto sechs Treffer, nicht umgesetzt), Jahrgangsvergleich mit 2021 und 2020 vervollständigt (kein Corona-Muster), Abbruchkriterium mit Schnitt-Wiederverwendung je Stapel (Vorschlag: 2019 und 2018 noch erfassen). iqb.md § 7 Anteil amtlich-III um 2021 und 2020 fortgeschrieben. |
