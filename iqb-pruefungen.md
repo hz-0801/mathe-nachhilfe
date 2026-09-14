@@ -45,6 +45,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2025-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
 | 2024-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **erfasst 2026-09-14, 49 Zeilen** · 31 Typen neu, 17 wiederverwendet · Eichung 46 von 49 (Spalte AB) |
 | 2024-ea-B (WTR) | 7 von 13 (MMS-Zweig offen) | **erfasst 2026-09-14, 61 Zeilen** · 44 Typen neu, 17 wiederverwendet · Eichung 59 von 61 (Spalte AB) |
+| 2023-ga-B (WTR) | 8 von 14 (MMS-Zweig offen; Stochastik WTR 2 trägt „MMS/WTR") | **erfasst 2026-09-14, 61 Zeilen** · 40 Typen neu, 20 wiederverwendet · Eichung 57 von 61 (Spalte AB) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -79,6 +80,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2025-ea-B-wtr (Teil B) | 47 | 44 | 32 (73 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB | 0 | 2 | 6 von 44 (14 %); Schnitt 30 Werte, 45 von 47 Zeilen bekannt (96 %) | 20, 3, 20, 3 |
 | 2024-ga-B-wtr (Teil B) | 49 | 48 | 31 (65 %) | 46 von 49 (94 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 48 (25 %); Schnitt 41 Werte, 42 von 49 Zeilen bekannt (86 %) | 5, 4, 5, 4 |
 | 2024-ea-B-wtr (Teil B) | 61 | 61 | 44 (72 %) | 59 von 61 (97 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 61 (20 %); Schnitt 44 Werte, 51 von 61 Zeilen bekannt (84 %) | 23, 5, 22, 4 |
+| 2023-ga-B-wtr (Teil B) | 61 | 60 | 40 (67 %) | 57 von 61 (93 %), Liste v0.7, Spalte AB | 0 | 0 | 17 von 60 (28 %); Schnitt 43 Werte, 54 von 61 Zeilen bekannt (89 %) | 7, 4, 6, 3 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1996,6 +1998,14 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2025-ga-B-wtr | 42 | 35 | 6 | 5 | 5 | 3 | 3 | 3 |
 | 2025-ea-B-wtr | 47 | 30 | 2 | 2 | 2 | 0 | 0 | 0 |
 | 2024-ga-B-wtr | 49 | 41 | 6 | 5 | 6 | 2 | 2 | 2 |
+| 2024-ea-B-wtr | 61 | 44 | 9 | 5 | 9 | 7 | 3 | 7 |
+| 2023-ga-B-wtr | 61 | 43 | 7 | 5 | 7 | 2 | 2 | 2 |
+
+*Die beiden letzten Zeilen sind nach Lauf 7 gemessen; seitdem lautet die
+Zeile 2026-ea-B-wtr 60 | 47 | 17 | 11 | 13 | 12 | 7 | 9, weil die
+Konfidenzintervall-Zeilen ein eigenes Thema außerhalb der Geltung bilden.
+Bestand nach sieben Teil-B-Stapeln: 172 Schnittwerte, davon 140 in be-gk
+und 159 in bb-ea.*
 
 Verlauf getrennt nach Niveau, neue Werte in Geltung im Bestand: grundlegend
 7 → 3 → 2 (be-gk wie bb-ea), erhöht 7 → 0 (be-gk) bzw. 11 → 0 (bb-ea). Im
@@ -2021,7 +2031,8 @@ Zielprüfung des Niveaus (be-gk grundlegend, bb-ea erhöht); iqb.md § 6. Der
 Teil-A-Maßstab bleibt daneben unberührt. Die Reihe wird mit 2024-ea-B und
 2023-ga-B fortgeschrieben (unten).*
 
-**Messung über die fünf Teil-B-Stapel (Zusammenfassung).**
+**Messung über die Teil-B-Stapel (Zusammenfassung, ab 2024-ea-B
+fortgeschrieben).**
 
 | Stapel | Zeilen | Schnittwerte | Zeilen je Wert | auf Teil-A-Werten gleiches Niveau | auf Teil-A-Werten beide Niveaus | Trägerbindung Kontext | abhaengig_von | beide | Dateien | Zeilen je Datei | Dauer bis Selbstprüfung |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -2030,6 +2041,8 @@ Teil-A-Maßstab bleibt daneben unberührt. Die Reihe wird mit 2024-ea-B und
 | 2025-ga-B-wtr | 42 | 35 | 1,20 | 30 (71 %) | 38 (90 %) | 0 (0 %) | 8 | 0 | 8 | 5,2 | 11 min |
 | 2025-ea-B-wtr | 47 | 30 | 1,57 | 37 (78 %) | 37 (78 %) | 1 (2 %) | 8 | 0 | 8 | 5,9 | 12 min |
 | 2024-ga-B-wtr | 49 | 41 | 1,20 | 31 (63 %) | 43 (87 %) | 3 (6 %) | 9 | 0 | 7 | 7,0 | 14 min |
+| 2024-ea-B-wtr | 61 | 44 | 1,39 | 44 (72 %) | 47 (77 %) | 0 (0 %) | 12 | 0 | 7 | 8,7 | 28 min |
+| 2023-ga-B-wtr | 61 | 43 | 1,42 | 42 (68 %) | 54 (88 %) | 1 (2 %) | 12 | 0 | 8 | 7,6 | 22 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -2140,10 +2153,94 @@ nicht ausgereizt.** Entscheidung über weitere erhöhte Stapel beim Lehrer
 (siehe Bericht); die beiden übrigen Stapel dieses Auftrags (2023-ga-B,
 2026-ga-B-mms) berühren den erhöhten WTR-Zweig nicht und wurden erfasst.
 
+**Stapel 2023-ga-B, WTR-Zweig (Absicherung grundlegend, 14.09.2026;
+MMS-Zweig nicht erfasst).** 8 Dateien (Analysis WTR 1 mit drei, WTR 2 mit
+zwei Aufgaben, je 35 BE; AG/LA A1 mit zwei Aufgaben, AG/LA A2 WTR 1 und
+WTR 2 mit je einer, je 20 BE; Stochastik WTR 1 und 3 mit je zwei, WTR 2 mit
+zwei Aufgaben, je 20 BE), 61 Zeilen, alle BE-Summen bestätigt, kein „?",
+kein „ersatzweise", keine Dublette. Stochastik WTR 2 trägt in der
+Kurzbeschreibung „MMS/WTR" (eine Datei für beide Rechnerzweige) – für die
+MMS-Messung als Hinweis vermerkt. Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung über den Bestand (871 Zeilen, 653 Typen, 25 Stapel)
+bestanden. Amtliche Verteilung (Spalte Anforderungsbereich): I 23, II 28,
+III 10 (16 % III); die Spalte stimmt in allen 61 Zeilen mit dem höchsten
+Kompetenzeintrag überein.
+
+*Eichung 2023-ga-B: 57 von 61 mit der Liste v0.7, Maßstab Spalte
+Anforderungsbereich.* Vier Abweichungen, alle nach oben: Analysis WTR 1 3c
+(alle a mit genau einer Nullstelle) geschätzt III wegen der Verkettung von
+Grenzwert, Lage beider Extrempunkte und Verschiebung, amtlich II;
+Stochastik WTR 1 1b (alle Gutscheine unter 180 von 200 Packungen)
+geschätzt II, weil das Modell ohne Zurücklegen und die günstigen Fälle
+selbst zu finden sind, amtlich I; Stochastik WTR 2 1b („4" häufiger als
+„2" in X ≥ 16 übersetzen) geschätzt II, amtlich I; Stochastik WTR 2 1f
+(Anfänger verliert bei höchstens vier Würfen) geschätzt III wegen der
+Übersetzung von Werferwechsel und Abbruch in Pfade, amtlich II. Gefeuert
+und getroffen (10 Zeilen amtlich III): (d) relative Abweichung der Tangente
+bei Analysis WTR 1 2c, (a) Mittelpunkt der Extrempunkte bei 3b, (c)
+Vertauschbarkeit der Transformationen bei WTR 2 1e, (d) Monotoniebereiche
+zweier Modelle bei 2d, (a) Mengenverhältnis und Kostenschranke bei AG/LA A1
+2b, (d) Spurpunkt und ebene Zeichnung bei AG/LA A2 WTR 1 g, (c) Linearität
+des Restvolumens bei A2 WTR 2 f, (a) Unabhängigkeit als Gleichung bei
+Stochastik WTR 1 2e, (a) Anteilsbedingung mit bekannten Würfen bei WTR 2
+2b, (a) faires Spiel als E = Einsatz bei WTR 3 2b. Nicht gefeuert, amtlich
+II, Treffer: 26 von 28 Zeilen; amtlich I, Treffer: 21 von 23 Zeilen.
+
+*Typen 2023-ga-B.* 60 verwendet, 40 neu, 20 wiederverwendet: zwölf aus
+Teil A (Fläche zwischen zwei Graphen als Integral der Differenz;
+Integralwert grafisch durch Kästchenzählen; Symmetrieart am Term mit
+typ_neben Stellen mit vorgegebenem Funktionswert; Extrempunkt an
+vorgegebener Stelle nachweisen; Tangentengleichung in einem Punkt; Punkt
+und Ebene: Parameter einer Ebenengleichung aus einem enthaltenen Punkt;
+Koordinatengleichung einer Ebene aus Punkten oder Geraden – Lauf 7; Term
+und Ereignis: Schnittwahrscheinlichkeit deuten; Term und Ereignis: Ereignis
+zu einem Wahrscheinlichkeitsterm; Bedingte Wahrscheinlichkeit aus Anteil
+und Schnittanteil; Unbekannte Größe aus einer Erwartungswertbedingung – hier
+das Kugelverhältnis für ein faires Spiel) und acht aus Teil B (Wendepunkt
+als Zeitpunkt stärkster Abnahme – hier Zunahme; Ebene Figur: Parallelogramm
+als Rechteck; Gerade und Ebene: Spurpunkt einer Lichtgeraden als Schatten
+aus einem Lösungsweg; Hypergeometrische Wahrscheinlichkeit für genau k
+Treffer; Wahrscheinlichkeit eines Ereignisses aus Unabhängigkeit und
+Schnittwahrscheinlichkeit; Kumulierte Binomialwahrscheinlichkeit mit dem
+Rechner; Vierfeldertafel aus Anteilen; Kumulierte Binomialsumme als
+Sachaussage). Ein neuer Typ zweimal im Stapel (Schnittwinkel zwischen
+Gerade und Ebene über Richtungs- und Normalenvektor, A2 WTR 1 f und A2 WTR 2
+c). Erste Fundstelle des Themas Lage- und Streumaße in Teil B grundlegend
+(relative Häufigkeit) und erster Winkel Gerade–Ebene im Bestand. Nicht
+wiederverwendet trotz Nähe: „Symmetrieebenen eines Körpers aus den
+Koordinaten begründen" (A2 WTR 1 c geht über gerades Prisma und
+Symmetrieachse der Grundfläche, anderer Lösungsweg – Kern § 6). Vorschlag
+für den Abgleich: „Wendepunkt als Zeitpunkt stärkster Abnahme im
+Sachzusammenhang deuten" auf Zu- und Abnahme erweitern (Etikett und
+Definition).
+
+*Messung 2023-ga-B.* 61 Zeilen auf 43 Schnittwerte (1,42 je Wert); 42 von
+61 Zeilen (68 %) auf Werten aus Teil A grundlegend, 54 (88 %) auf Werten
+beider Niveaus. Trägerbindung: 1 von 61 Zeilen (2 %) – AG/LA A2 WTR 1 g,
+Zeichnung von Wand und Rolloschatten, nur mit Anbau, Rollo und
+Lichtrichtung der Trägeraufgabe stellbar. Zeilen mit abhaengig_von: 12,
+Schnitt mit der Kontextmenge leer. Aufwand: 8 Dateien, 7,6 Zeilen je Datei;
+22:02 Uhr Holen der PDFs bis 22:24 Uhr bestandene Selbstprüfung, 22 Minuten,
+mit Nachführen etwa 35. Eigene Rechnung gegen den Erwartungshorizont: 51
+von 61 Zeilen (84 %) mit sympy-Kontrolle bestätigt, 10 Zeilen ohne
+rechnerisches Ergebnis (Begründungen, Deutungen, Zeichnung); keine
+Abweichung vom Erwartungshorizont. Elf Abbildungen beschrieben, alle aus dem
+Render lesbar.
+
+*Abbruchkriterium grundlegend (gesetzter Maßstab, be-gk, neu im Bestand):*
+2023-ga-B-wtr bringt 2 neue Schnittwerte innerhalb der Geltung (Integralwert
+· berechnen, Kenngrößen von Verteilungen · angeben) – die Reihe grundlegend
+lautet 7 → 3 → 2 → 2 (2026, 2025, 2024, 2023). Drei Stapel in Folge unter
+der Schwelle: **grundlegend ist ausgereizt.** Neu im Niveau grundlegend 7
+(davon in be-gk 5); unter dem strengeren, nicht gesetzten Maßstab „neu im
+Niveau" liegt grundlegend seit 2025 unverändert genau auf der Schwelle (5,
+5, 5), nicht darunter.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Stapel 2023-ga-B (WTR-Zweig) erfasst: 61 Zeilen aus 8 Dateien, Katalog 871 Zeilen, Typenliste 653 (40 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 57 von 61 nach der Spalte Anforderungsbereich. Eine Trägerbindung (AG/LA A2 WTR 1 g). Abbruchkriterium grundlegend: 2 neue Schnittwerte in be-gk, Reihe 7 → 3 → 2 → 2 – grundlegend ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2024-ea-B (WTR-Zweig) erfasst: 61 Zeilen aus 7 Dateien, Katalog 810 Zeilen, Typenliste 613 (44 neu). Alle BE-Summen geprüft (40/40/40/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 61 nach der Spalte Anforderungsbereich. Keine Trägerbindung. Abbruchkriterium erhöht: 7 neue Schnittwerte in bb-ea – Schwelle reißt, erhöht nicht ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Vorarbeit „Teil B absichern" (Entscheidungen des Lehrers): iqb.md v0.9 – Abbruchkriterium Teil B gesetzt (§ 6), Thema Konfidenzintervalle (§ 6, Geltung nein/nein/nein/nein). Abgleichlauf 7 (iqb-abgleich.py v0.7): Entscheidungsregel eines linksseitigen Signifikanztests bestimmen, Entscheidungsregel eines rechtsseitigen Signifikanztests bestimmen → Entscheidungsregel eines einseitigen Signifikanztests bestimmen; Koordinatengleichung einer Ebene durch drei Punkte bestimmen, Koordinatengleichung der Ebene durch zwei sich schneidende Geraden bestimmen → Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen; fünf Konfidenzintervall-Typen und ihre Zeilen von Hypothesentests auf Konfidenzintervalle, Vermerk „ersatzweise" gestrichen. 571 → 569 Typen. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-14 | Abgleichlauf 6 (iqb-abgleich.py v0.6, nach vier Erfassungsstapeln Teil B): Übergangsprozess: Matrixeintrag aus einem beobachteten Fixvektor bestimmen → Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen (Zusammenziehung, Definition erweitert); Definition von „Stochastische Unabhängigkeit zweier Ereignisse über die Produktregel untersuchen" um den Weg über die bedingte Wahrscheinlichkeit erweitert. 572 → 571 Typen, ein Typfeld im Katalog. Selbstprüfung bestanden, byteidentisch. Abbruchkriterium Teil B (Verlauf über fünf Stapel je Niveau, Schwelle vorgeschlagen, nicht gesetzt) und Messung über die fünf Stapel in § 4. |
