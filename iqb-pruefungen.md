@@ -30,7 +30,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2021-ga-A | 13 (11 + 2 Dubletten) | **erfasst 2026-09-14, 23 Zeilen** · 13 Typen neu, 10 wiederverwendet · Eichung 23 von 23 (Liste v0.7) |
 | 2021-ea-A | 19 (17 + 2 Dubletten) | **erfasst 2026-09-14, 33 Zeilen** · 30 Typen neu, 3 wiederverwendet · Eichung 33 von 33 (Liste v0.7) |
 | 2020-ga-A | 10 | **erfasst 2026-09-14, 19 Zeilen** · 12 Typen neu, 7 wiederverwendet · Eichung 18 von 19 (Liste v0.7) |
-| 2020-ea-A | 15 | nicht erfasst |
+| 2020-ea-A | 15 | **erfasst 2026-09-14, 28 Zeilen** · 22 Typen neu, 6 wiederverwendet · Eichung 28 von 28 (Liste v0.7) |
 | 2019-ga-A | 11 | nicht erfasst |
 | 2019-ea-A | 10 | nicht erfasst |
 | 2018-ga-A | 12 | nicht erfasst |
@@ -967,10 +967,49 @@ Binomialsumme (2024-ga-A). Konvergenz im grundlegenden Niveau: 32 % nach typ,
 Matrizen (AGLAA111 a–c, AGLAA112 a, b, AGLAA12) – ein Drittel des Stapels.
 Bestand jetzt be-gk 77, be-lk 47, bb-gk 76, bb-ea 46 von 384 Zeilen.
 
+**Stapel 2020-ea-A.** 15 Dateien, keine Dublette, 28 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (412 Zeilen, 341 Typen, 14
+Stapel) bestanden. Drei ungegliederte Aufgaben (Analysis 2.2, AGLAA12,
+AGLAA212). Erste Fundstelle des Themas Extremalprobleme (Analysis 1.1,
+Dreieck unter x · e^(−x)). Eine Verkettung nur aus Graphen (Analysis 2.2),
+ein Zylinder (AGLAA211), eine Pyramidenschar (AGLAA22), drei Sachkontexte
+(Apfelplantage, Theaterkulisse, Tulpensträuße).
+
+**Eichung 2020-ea-A: 28 von 28 mit der Liste v0.7.** Vierter Stapel ohne
+Abweichung. Gefeuert und getroffen: Fallunterscheidung (a > 0 / a < 0) mit
+(e) bei Analysis 2.1 b, (b) bei Analysis 2.2 (f(4) trifft den Tiefpunkt von
+g, Kettenregel), (a)+(c) bei AGLAA12 (spaltenstochastisch), (b) mit
+Fallunterscheidung bei AGLAA22 b (Spurgerade y = 8), (a) bei Stochastik 2.1
+b (zwei Fälle als Terme in w, Faktor 1,02) und 2.2 b (Zerlegungen von 15).
+Nicht gefeuert nach dem Prinzip, amtlich II, Treffer: Analysis 1.1 b
+(Zielfunktion vorgegeben), Analysis 1.3 b (k fällt beim Nachrechnen heraus),
+AGLAA211 b (Lage von S und T unmittelbar), AGLAA212 (Schatten als
+Standardmodellierung), Stochastik 1.2 b und 1.3 b (Ausgleich wörtlich).
+Nullfall-Regel: kein Anwendungsfall.
+
+**Typen 2020-ea-A.** 27 verwendet, 22 neu, 6 wiederverwendet:
+Übergangsprozess: Matrixeintrag im Sachzusammenhang deuten (2022-ea-A, hier
+Diagrammzahl), Matrizenalgebra: Erhalt der Spaltensumme unter einer
+stochastischen Matrix (2022-ea-A, hier M²), Term einer Bernoulli-Kette
+(2026-ga-A), Unbekannte Größe aus einer Erwartungswertbedingung (zweimal),
+Term und Ereignis (zusammengezogener Typ). Konvergenz im erhöhten Niveau:
+19 % nach typ, 79 % nach dem Schnitt (24 Werte, 22 von 28 Zeilen bekannt).
+Etikettenentscheidung: „Tangente mit vorgegebener Steigung außerhalb eines
+Punktes angeben" getrennt von „Parallele Tangente über die Ableitung finden
+und skizzieren" (andere Handlung). Vorschlag für den Abgleichlauf 3: die
+Definition von „Matrizenalgebra: Erhalt der Spaltensumme …" um M² erweitern.
+
+**Geltung 2020-ea-A.** Außerhalb der Geltung 6, 3, 6, 3 von 28: Matrizen
+(AGLAA11 a, b; AGLAA12), dazu für die Grundkurse Funktionsscharen (Analysis
+1.3 a, b; 2.1 b). Bestand jetzt be-gk 83, be-lk 50, bb-gk 82, bb-ea 49 von
+412 Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2020-ea-A vollständig erfasst: 28 Zeilen aus 15 Dateien, Katalog 412 Zeilen, Typenliste 341. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 28 von 28 mit der Liste v0.7. |
 | 2026-09-14 | 2020-ga-A vollständig erfasst: 19 Zeilen aus 10 Dateien, Katalog 384 Zeilen, Typenliste 319. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 18 von 19 mit der Liste v0.7. |
 | 2026-09-14 | 2021-ea-A vollständig erfasst: 33 Zeilen aus 17 Dateien (zwei Dubletten), Katalog 365 Zeilen, Typenliste 307. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 33 von 33 mit der Liste v0.7. |
 | 2026-09-14 | 2021-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien (zwei Dubletten), Katalog 332 Zeilen, Typenliste 277. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 23 mit der Liste v0.7. |
