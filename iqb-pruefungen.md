@@ -29,7 +29,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2022-ea-A | 17 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 30 von 32 (Liste v0.6) |
 | 2021-ga-A | 13 (11 + 2 Dubletten) | **erfasst 2026-09-14, 23 Zeilen** · 13 Typen neu, 10 wiederverwendet · Eichung 23 von 23 (Liste v0.7) |
 | 2021-ea-A | 19 (17 + 2 Dubletten) | **erfasst 2026-09-14, 33 Zeilen** · 30 Typen neu, 3 wiederverwendet · Eichung 33 von 33 (Liste v0.7) |
-| 2020-ga-A | 10 | nicht erfasst |
+| 2020-ga-A | 10 | **erfasst 2026-09-14, 19 Zeilen** · 12 Typen neu, 7 wiederverwendet · Eichung 18 von 19 (Liste v0.7) |
 | 2020-ea-A | 15 | nicht erfasst |
 | 2019-ga-A | 11 | nicht erfasst |
 | 2019-ea-A | 10 | nicht erfasst |
@@ -933,10 +933,45 @@ binomischen Gleichung untersuchen" (2025-ea-A) prüfen.
 (Analysis 1.2 b, 2.2 b) und Geradenschar (AGLAA213 a; AGLAA213 b ebenfalls).
 Bestand jetzt be-gk 71, be-lk 41, bb-gk 70, bb-ea 40 von 365 Zeilen.
 
+**Stapel 2020-ga-A.** 10 Dateien, keine Dublette, 19 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (384 Zeilen, 319 Typen, 13
+Stapel) bestanden. Kleinster Stapel bisher (10 Dateien, nur Analysis 1.1
+und 1.2, keine Gruppe 2 in Analysis). Zwei ungegliederte Aufgaben (Analysis
+1.2, AGLAA12). Die Fußnote der Dateien nennt nur die AG/LA-Alternativen
+(Format 2020). Drei Matrizenaufgaben von zehn (AGLAA111, 112, 12), davon
+zwei mit Sachtext-Definition (Vertauschungsmatrix). Erste Fundstelle
+Vierfeldertafel im grundlegenden Niveau. Zwei Sachkontexte (Fest, Kugelspiel).
+
+**Eichung 2020-ga-A: 18 von 19 mit der Liste v0.7.** Abweichung: AGLAA211 b
+(Ebene parallel zur Grundfläche, Volumenverhältnis 1 : 2) geschätzt III über
+(a) – das Volumenverhältnis ist erst in ein Höhenverhältnis am Prisma zu
+übersetzen –, amtlich II (K2 II, K5 II, K6 I). Gefeuert und getroffen: (a)
+mit Fallunterscheidung (b = ±1, zwei Ausgänge) bei AGLAA12, (d) bei
+Stochastik 2 b (Ungleichung als Aufgabenstellung, amtlich III wie 2024-ga-A).
+Nicht gefeuert nach dem Prinzip, amtlich II, Treffer: Analysis 1.1 b (eine
+Deutung), Analysis 1.2 (Tangentengleichung wörtlich in zwei Bedingungen).
+Nullfall-Regel: kein Anwendungsfall.
+
+**Typen 2020-ga-A.** 19 verwendet, 12 neu, 7 wiederverwendet (37 %, neuer
+Höchstwert): Extrempunkt an vorgegebener Stelle (2026-ga-A), Matrizenalgebra:
+Alle Vektoren mit M · v = t · v (zusammengezogener Typ), Geraden und Ebenen:
+Orthogonalität über Kollinearität mit dem Normalenvektor (zusammengezogener
+Typ), Ziehen ohne Zurücklegen: zweimaliges Ziehen (2026-ga-A),
+Gewinnwahrscheinlichkeiten in einem Wechselspiel (2026-ga-A), Bayes-Term im
+Sachzusammenhang deuten (2021-ga-A), Sachaussage zu einer Ungleichung mit
+Binomialsumme (2024-ga-A). Konvergenz im grundlegenden Niveau: 32 % nach typ,
+74 % nach dem Schnitt (15 Werte, 14 von 19 Zeilen bekannt).
+
+**Geltung 2020-ga-A.** Außerhalb der Geltung 6, 6, 6, 6 von 19: nur
+Matrizen (AGLAA111 a–c, AGLAA112 a, b, AGLAA12) – ein Drittel des Stapels.
+Bestand jetzt be-gk 77, be-lk 47, bb-gk 76, bb-ea 46 von 384 Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2020-ga-A vollständig erfasst: 19 Zeilen aus 10 Dateien, Katalog 384 Zeilen, Typenliste 319. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 18 von 19 mit der Liste v0.7. |
 | 2026-09-14 | 2021-ea-A vollständig erfasst: 33 Zeilen aus 17 Dateien (zwei Dubletten), Katalog 365 Zeilen, Typenliste 307. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 33 von 33 mit der Liste v0.7. |
 | 2026-09-14 | 2021-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien (zwei Dubletten), Katalog 332 Zeilen, Typenliste 277. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 23 mit der Liste v0.7. |
 | 2026-09-14 | iqb.md v0.7: Nullfall-Regel zur Fallunterscheidung in § 7 (ein einzelner Nullfall eines Koeffizienten zählt nicht), rückwirkend eine Änderung (2023-ea-A AGLAA111, Gewinn), Bestand 287 von 309; § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe zwischen 2023 und 2024, aus dem erhöhten Niveau, ohne Deutung). Befund 2023-ea-A berichtigt (2025-ea-A AGLAA121 b ist ein Treffer mit zwei Fällen). |
