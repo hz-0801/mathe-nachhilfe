@@ -1,5 +1,10 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.7 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.8 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.7 (Vorarbeit Teil B, Auftrag des Lehrers nach dem
+Probestapel 2026-ga-B): § 7 Stapelschnitt in Teil B mit Rechnerfassung als
+vierter Achse; § 7 Trägerbindung mit fester Markierung „Traegerbindung:
+Kontext" in bemerkung; § 4 Eichregel Teil B nach der Spalte Anforderungsbereich
+des Standardbezugs (Teil A bleibt beim Maximum).
 Änderungen gegenüber 0.6 (nach 2022-ea-A und Abgleichlauf 2): § 7 Deutungsliste –
 Nullfall-Regel zur Fallunterscheidung (ein einzelner Nullfall eines Koeffizienten
 zählt nicht; Vermerk nach Abgleichlauf 3: beruht auf einem einzigen Fall, der
@@ -176,9 +181,15 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
             gebildet, nicht aus dem Standardbezug abgeschrieben – sonst eicht
             das Feld nichts. Erfassungshinweis aus der Eichung siehe § 7
             („Kombinieren mit Deutung heißt III"). Eichung (Auswertungsregel, keine
-            Erfassungsregel): verglichen wird mit dem höchsten Bereich in
+            Erfassungsregel): in Teil A verglichen mit dem höchsten Bereich in
             afb_amtlich, weil das Feld einwertig ist und die Teilaufgabe
-            insgesamt meint. iqb-bau.py gibt die Trefferquote je Lauf aus.
+            insgesamt meint. In Teil B hat der Standardbezug eine eigene Spalte
+            „Anforderungsbereich" mit Kreuz; sie ist maßgeblich (Entscheidung
+            des Lehrers, 14.09.2026) und steht in bemerkung als „AB amtlich:
+            III." (Pflicht in Teil B). Weicht sie vom höchsten Kompetenzeintrag
+            ab, gilt die Spalte und bemerkung trägt „Anforderungsbereich
+            weicht vom höchsten Kompetenzeintrag ab" (iqb-bau.py v0.7 prüft
+            beides). iqb-bau.py gibt die Trefferquote je Lauf aus.
             Die Beispielaufgaben erklären die Matrix in einer Fußnote: „Für jede
             Kompetenz, die bei der Bearbeitung der Teilaufgabe eine wesentliche
             Rolle spielt, ist der Anforderungsbereich eingetragen, in dem die
@@ -396,6 +407,24 @@ Stand v0.1: keine.
   Stapel, keine Zwischenstände, ein Commit je Stapel. Reihenfolge: vom jüngsten
   Pooljahr zum ältesten, je Jahr grundlegend vor erhöht, die Beispielaufgaben
   zuletzt; innerhalb des Stapels Analysis, AG/LA (A1), AG/LA (A2), Stochastik.
+  **Teil B** (Entscheidung des Lehrers, 14.09.2026, nach dem Probestapel): Der
+  Stapelschnitt bekommt die Rechnerfassung als vierte Achse – Prüfungsteil ×
+  Pooljahr × Niveau × Rechnerfassung (WTR | MMS | CAS), Kennung in KONFIG
+  `2026-ga-B-wtr`; iqb-bau.py v0.6 prüft die Vollständigkeit je Rechnerfassung.
+  Erfasst wird zuerst der WTR-Zweig; MMS bleibt liegen, bis entschieden ist, ob
+  er wie bei abi als Nachtrag kommt. Teil A ist von der vierten Achse
+  unberührt.
+- **Trägerbindung in Teil B** (Entscheidung des Lehrers, 14.09.2026): Eine
+  Zeile, die ohne den Sachkontext ihrer Trägeraufgabe nicht beschreibbar ist
+  (Deutung, Abbildung oder Sachlage, die nur der Aufgabenstamm liefert), trägt
+  in bemerkung am Feldanfang die feste Markierung „Traegerbindung: Kontext"
+  (bewusst umlautfrei, exakter Wortlaut, iqb-bau.py prüft ihn), gefolgt von
+  Punkt oder einer Klammer mit dem Grund. Kein eigenes Feld; kein Vermerk heißt
+  frei. Beim Blattbau werden markierte Zeilen nur mit der ganzen Trägeraufgabe
+  (Kennung als Rückweg) verwendet. Die Markierung ist unabhängig von
+  abhaengig_von: im Probestapel 2026-ga-B fielen von sechs kontextgebundenen
+  Zeilen nur zwei mit den sechs Zeilen mit Vorstufe zusammen, deshalb keine
+  Kopplung an abhaengig_von.
 - **Qualitätsschranke im Skript, nicht im Urteil des Lehrers.** Der Lehrer liest
   keine Berichte und entscheidet nicht im Lauf. iqb-bau.py bricht deshalb ab,
   wenn ein Schwellenwert gerissen wird; die Werte stehen in SCHWELLEN im Skript

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.4 · 14.09.2026 · gilt mit iqb.md v0.7 und iqb-bau.py v0.5
+Version 0.5 · 14.09.2026 · gilt mit iqb.md v0.8 und iqb-bau.py v0.7
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -20,8 +20,10 @@ Lauf 3 (14.09.2026, nach 2020-ea-A): drei Zusammenziehungen, zwei erweiterte
 Definitionen (341 → 338).
 Lauf 4 (14.09.2026, nach 2018-ea-A): fünf Zusammenziehungen, eine Umbenennung,
 eine erweiterte Definition (406 → 401).
+Lauf 5 (14.09.2026, nach dem Probestapel Teil B): zwei erweiterte Definitionen,
+Feldkorrektur bemerkung (Markierung Traegerbindung), keine Zusammenziehung (433).
 """
-import csv, io, sys, collections
+import csv, io, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 KAT, TYP = "iqb-katalog.csv", "iqb-typen.csv"
@@ -304,12 +306,43 @@ NEUE_DEFINITION_4 = {
         "umgelegten Kugeln (ein- oder mehrmaliges Umlegen) zurückgeführt und als Gleichung gelöst wird.",
 }
 
+# ======================================================================= Lauf 5
+# Nach dem Probestapel Teil B (Auftrag des Lehrers): zwei erweiterte Definitionen,
+# keine Zusammenziehung, keine Umbenennung. Dazu eine Feldkorrektur in bemerkung:
+# die Markierung der Trägerbindung aus dem Probestapel wird auf den festen
+# Wortlaut „Traegerbindung: Kontext" am Feldanfang gebracht (iqb.md § 7); die
+# Markierung „frei" entfällt (kein Vermerk heißt frei).
+ZUSAMMEN_5 = {}
+NEUE_DEFINITION_5 = {
+    "Übergangsprozess: Übergangsdiagramm aus der Übergangstabelle zeichnen":
+        "Aus einer Von-nach-Tabelle oder der Übergangsmatrix das Übergangsdiagramm mit Schleifen und "
+        "Pfeilen zeichnen.",
+    "Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen":
+        "Eine bedingte Wahrscheinlichkeit als Quotient aus dem Anteil des Schnitts und dem Anteil der "
+        "Bedingung berechnen; die Anteile können im Text oder in einer Vierfeldertafel stehen.",
+}
+BEMERKUNG_5 = re.compile(r"\s*Trägerbindung: (frei|Kontext)( \([^)]*\))?\.")
+
+
+def bemerkung_5(text):
+    """Trägerbindung: „frei" streichen, „Kontext" mit fester Markierung an den Feldanfang."""
+    m = BEMERKUNG_5.search(text)
+    if not m:
+        return text
+    rest = text[:m.start()] + text[m.end():]
+    if m.group(1) == "Kontext":
+        return "Traegerbindung: Kontext" + (m.group(2) or "") + ". " + rest.lstrip()
+    return rest
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
     3: ({}, ZUSAMMEN_3, NEUE_DEFINITION_3, {}),
     4: ({}, ZUSAMMEN_4, NEUE_DEFINITION_4, {}),
+    5: ({}, ZUSAMMEN_5, NEUE_DEFINITION_5, {}),
 }
+FELDKORREKTUR = {5: ("bemerkung", bemerkung_5)}
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
 
@@ -372,13 +405,25 @@ def main():
                 geaendert += 1
                 r[i] = neu
 
+    # Feldkorrektur (Lauf 5: Markierung der Trägerbindung in bemerkung)
+    korrigiert = 0
+    if LAUF in FELDKORREKTUR:
+        feld, fn = FELDKORREKTUR[LAUF]
+        i_feld = kopf_k.index(feld)
+        for r in kat:
+            neu = fn(r[i_feld])
+            if neu != r[i_feld]:
+                korrigiert += 1
+                r[i_feld] = neu
+
     schreibe(TYP, kopf_t, neue_typen)
     schreibe(KAT, kopf_k, kat)
 
     # Bericht
     print(f"Abgleichlauf {LAUF}")
     print(f"Typen vorher {vorher}, nachher {len(neue_typen)}; {geaendert} Typfelder im Katalog geändert; "
-          f"{len(kat)} Zeilen, {len(kat)/len(neue_typen):.2f} Zeilen je Typ.")
+          f"{len(kat)} Zeilen, {len(kat)/len(neue_typen):.2f} Zeilen je Typ."
+          + (f" Feldkorrektur: {korrigiert} Zeilen." if korrigiert else ""))
     ziel = collections.defaultdict(list)
     for alt, neu in abbildung.items():
         if alt != neu:

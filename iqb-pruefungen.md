@@ -1639,10 +1639,38 @@ gleichauf. Eigene Rechnung gegen den Erwartungshorizont: 41 von 45 Zeilen
 Abweichung vom Erwartungshorizont. Bilder: sieben Abbildungen beschrieben,
 alle aus dem Render lesbar.
 
+**Vorarbeit Teil B (Auftrag des Lehrers, 14.09.2026, ein Commit).**
+1. Kopplung Trägerbindung ↔ abhaengig_von im Probestapel geprüft: die sechs
+kontextgebundenen Zeilen (Analysis WTR 1 2b, 2c; Analysis WTR 2 2c; AG/LA
+A1 c; AG/LA A2 WTR 1 d, e) und die sechs Zeilen mit abhaengig_von (Analysis
+WTR 2 1c, 1e; AG/LA A1 e; AG/LA A2 WTR 1 d, e; Stochastik WTR 2 b) haben nur
+zwei gemeinsame Zeilen (AG/LA A2 WTR 1 d, e) – die Mengen fallen auseinander.
+Deshalb Markierung mit festem Präfix „Traegerbindung: Kontext" am Anfang von
+bemerkung (iqb.md § 7), Assert auf den Wortlaut in iqb-bau.py v0.7, kein
+neues Feld; die Markierung „frei" entfällt. Die 45 Zeilen des Probestapels
+wurden über iqb-abgleich.py Lauf 5 (Feldkorrektur bemerkung) umgestellt, sechs
+tragen die Markierung.
+2. iqb.md § 7: Stapelschnitt in Teil B mit der Rechnerfassung als vierter
+Achse (Prüfungsteil × Pooljahr × Niveau × Rechnerfassung).
+3. iqb.md § 4: Eichregel Teil B nach der Spalte Anforderungsbereich
+(„AB amtlich: …" in bemerkung, Pflicht; bei Abweichung vom höchsten
+Kompetenzeintrag gilt die Spalte und bemerkung trägt den Hinweis);
+iqb-bau.py v0.7 eicht Teil B danach. Im Probestapel ändert sich nichts (alle
+45 Zeilen deckungsgleich).
+4. Abgleichlauf 5 (iqb-abgleich.py v0.5): zwei erweiterte Definitionen
+(„Übergangsdiagramm aus der Übergangstabelle zeichnen" auch aus der Matrix;
+„Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen" auch mit
+Vierfeldertafel). Der dritte Vorschlag (Koordinatengleichung durch drei
+Punkte gegen durch zwei sich schneidende Geraden) wäre eine Zusammenziehung
+mit Umbenennung eines bestehenden Typs und bleibt offen. 433 Typen
+unverändert; Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand
+byteidentisch.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Vorarbeit Teil B (Auftrag des Lehrers): iqb.md v0.8 – Stapelschnitt Teil B mit Rechnerfassung (§ 7), Markierung „Traegerbindung: Kontext" in bemerkung (§ 7; Kopplung an abhaengig_von geprüft und verworfen, 2 von 6 gemeinsam), Eichregel Teil B nach der Spalte Anforderungsbereich (§ 4). iqb-bau.py v0.7 prüft Markierung und Spalte. iqb-abgleich.py v0.5, Lauf 5: zwei erweiterte Definitionen, Feldkorrektur bemerkung in 45 Zeilen des Probestapels; kein Typ geändert (433). Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-14 | Probestapel Teil B 2026-ga-B (WTR-Zweig) erfasst: 45 Zeilen aus 7 Dateien, Katalog 551 Zeilen, Typenliste 433. Alle BE-Summen geprüft (25/25/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 44 von 45 mit der Liste v0.7. iqb-bau.py v0.6: Erfassungseinheit in Teil B Stapel je Rechnerfassung, Bindestrich der Aufgabennummer in id/abhaengig_von zugelassen; iqb.md § 9 Teil-B-Kürzel bestätigt. Messung Schnitt in Teil B, Trägerbindung und Aufwand in § 4. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Abbruchkriterium Teil A korrigiert (Auftrag des Lehrers): Maßstab sind neue Schnittwerte innerhalb der Geltung (be-gk, bb-ea), gezählt im Gesamtbestand; rückwirkende Tabelle über 18 Stapel in § 4, Regel in iqb.md § 6. Urteil: Teil A ausgereizt (sieben der letzten acht Stapel unter fünf), 2017 und Beispielaufgaben entfallen als Reserve (§ 2). Kein Stapel erfasst. |
 | 2026-09-14 | Abgleichlauf 4 über den Gesamtbestand (506 Zeilen): 406 → 401 Typen, fünf Zusammenziehungen, eine Umbenennung („Tangentensteigung an einer Nullstelle …" → „… in einem Punkt …"), eine erweiterte Definition (Liste alt → neu in § 4), elf Typfelder im Katalog geändert; iqb-abgleich.py v0.4. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: Jahrgangsvergleich um 2019 und 2018 fortgeschrieben, Abbruchkriterium auf neue Schnittwerte je Stapel umgestellt (3, 4, 6, 8 – Vorschlag: 2017 noch erfassen, dann entscheiden), Geltungsquote je Stapel und im Bestand als Tabelle. iqb.md § 7: Anteil amtlich-III und Eichmessung bis Pool 2018 fortgeschrieben. Kennzahlentabelle in § 2 bis 2018-ea-A. |

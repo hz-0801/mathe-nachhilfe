@@ -1,9 +1,16 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 0.6 · 14.09.2026 · gilt mit katalog-prompt.md v0.3 und iqb.md v0.7
+Version 0.7 · 14.09.2026 · gilt mit katalog-prompt.md v0.3 und iqb.md v0.8
 
 Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" bleibt unverändert.
+
+Änderungen gegenüber 0.6 (Vorarbeit Teil B, Auftrag des Lehrers): Eichung in
+Teil B gegen die Spalte Anforderungsbereich des Standardbezugs („AB amtlich:
+III." in bemerkung, Pflicht in Teil B; weicht sie vom höchsten Kompetenzeintrag
+ab, muss bemerkung den Hinweis tragen); Teil A unverändert (Maximum).
+Trägerbindung: feste Markierung „Traegerbindung: Kontext" am Anfang von
+bemerkung, exakter Wortlaut geprüft, kein eigenes Feld, kein Vermerk heißt frei.
 
 Änderungen gegenüber 0.5: Erfassungseinheit in Teil B ist der Stapel je
 Rechnerfassung (KONFIG["stapel"] = "2026-ga-B-wtr"), damit der WTR-Zweig ohne
@@ -1279,6 +1286,7 @@ def ohne_feldnamen(v):
     """Feldnamen des Schemas und Kennungen aus dem Text nehmen. Beide sind bewusst
     umlautfrei und stehen in bemerkung als Fachwort, ohne Umschrift zu sein."""
     t = KENNUNG.sub(" ", v).lower()
+    t = t.replace(MARKE_KONTEXT.lower(), " ")  # feste Markierung, bewusst umlautfrei (v0.7)
     for f in sorted(HEAD, key=len, reverse=True):
         t = t.replace(f, " ")
     return t
@@ -1350,6 +1358,19 @@ def pruefe_zeile(z, a):
         a(all(t in ORD for t in teile) and [ORD[t] for t in teile if t in ORD] == sorted(
             {ORD[t] for t in teile if t in ORD}), f"{i}: afb_amtlich nicht aufsteigend ohne Wiederholung")
     a("Standardbezug:" in z["bemerkung"], f"{i}: bemerkung nennt den Standardbezug nicht")
+    # Trägerbindung: nur die feste Markierung am Feldanfang, keine andere Schreibweise (v0.7)
+    b = z["bemerkung"]
+    a("Trägerbindung" not in b and "Traegerbindung: frei" not in b,
+      f"{i}: Trägerbindung nur als „{MARKE_KONTEXT}“ am Anfang von bemerkung (kein Vermerk heißt frei)")
+    if MARKE_KONTEXT.lower() in b.lower():
+        a(b.startswith(MARKE_KONTEXT) and (b[len(MARKE_KONTEXT):len(MARKE_KONTEXT) + 1] in (".", " ")),
+          f"{i}: Markierung „{MARKE_KONTEXT}“ muss am Anfang von bemerkung stehen, gefolgt von Punkt oder Klammer")
+    if z["block"] == "B":
+        m = AB_SPALTE.search(b)
+        a(m is not None, f"{i}: Teil B braucht „AB amtlich: I|II|III.“ in bemerkung (Spalte Anforderungsbereich)")
+        if m and z["afb_amtlich"]:
+            a(ORD[m.group(1)] == hoechster_afb(z["afb_amtlich"]) or AB_HINWEIS in b,
+              f"{i}: Spalte Anforderungsbereich ≠ höchster Kompetenzeintrag, bemerkung braucht „{AB_HINWEIS}“")
     a("(amtlich)" in z["ergebnis"], f"{i}: ergebnis ohne Zusatz (amtlich)")
     a(re.fullmatch(r"\d+", z["punkte"]) and int(z["punkte"]) > 0, f"{i}: punkte ungültig")
     a(re.fullmatch(r"\d+(\|\d+)?", z["seite"]), f"{i}: seite ungültig (Zahl oder Zahl|Zahl)")
@@ -1387,6 +1408,21 @@ def typen_von(z):
 
 
 ENG = re.compile(r"Schätzung enge Fassung: (I{1,3})")
+# Teil B: der Standardbezug hat eine eigene Spalte Anforderungsbereich; sie steht in
+# bemerkung als „AB amtlich: III" und ist für die Eichung maßgeblich (iqb.md § 4, v0.7).
+AB_SPALTE = re.compile(r"AB amtlich: (I{1,3})\.")
+AB_HINWEIS = "Anforderungsbereich weicht vom höchsten Kompetenzeintrag ab"
+# Trägerbindung (iqb.md § 7): feste Markierung am Anfang von bemerkung, kein eigenes Feld.
+MARKE_KONTEXT = "Traegerbindung: Kontext"
+
+
+def amtlich_von(z):
+    """Amtlicher Bereich für die Eichung: Teil A das Maximum über afb_amtlich, Teil B die
+    Spalte Anforderungsbereich aus bemerkung."""
+    if z["block"] == "B":
+        m = AB_SPALTE.search(z["bemerkung"])
+        return ORD[m.group(1)] if m else 0
+    return hoechster_afb(z["afb_amtlich"])
 
 
 def geschaetzt_eng(z):
@@ -1403,7 +1439,7 @@ def eichung(zeilen, eng=False):
     der gewerteten Zeilen (ohne afb_amtlich leer, v0.5)."""
     treffer, abw, gewertet = 0, [], 0
     for z in zeilen:
-        amt = hoechster_afb(z["afb_amtlich"])
+        amt = amtlich_von(z)
         if not amt:
             continue
         gewertet += 1
