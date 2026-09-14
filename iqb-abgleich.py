@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.5 · 14.09.2026 · gilt mit iqb.md v0.8 und iqb-bau.py v0.7
+Version 0.6 · 14.09.2026 · gilt mit iqb.md v0.8 und iqb-bau.py v0.8
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -22,6 +22,8 @@ Lauf 4 (14.09.2026, nach 2018-ea-A): fünf Zusammenziehungen, eine Umbenennung,
 eine erweiterte Definition (406 → 401).
 Lauf 5 (14.09.2026, nach dem Probestapel Teil B): zwei erweiterte Definitionen,
 Feldkorrektur bemerkung (Markierung Traegerbindung), keine Zusammenziehung (433).
+Lauf 6 (14.09.2026, nach vier Erfassungsstapeln Teil B): eine Zusammenziehung,
+zwei erweiterte Definitionen (572 → 571).
 """
 import csv, io, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -335,12 +337,33 @@ def bemerkung_5(text):
     return rest
 
 
+# ======================================================================= Lauf 6
+# Nach den vier Erfassungsstapeln Teil B (2026-ea, 2025-ga, 2025-ea, 2024-ga, WTR):
+# eine Zusammenziehung (der neue Fixvektor-Typ aus 2025-ga-B deckt dieselbe
+# Fertigkeit wie der Teil-A-Typ 328, der bestehende Name bleibt), eine erweiterte
+# Definition. Offen, weil Umbenennung: Entscheidungsregel links-/rechtsseitig zu
+# „einseitig" zusammenziehen; Koordinatengleichung durch drei Punkte gegen durch
+# zwei sich schneidende Geraden (seit Lauf 5 offen).
+ZUSAMMEN_6 = {
+    "Übergangsprozess: Matrixeintrag aus einem beobachteten Fixvektor bestimmen":
+        "Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen",
+}
+NEUE_DEFINITION_6 = {
+    "Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen":
+        "Aus der Bedingung M · v = v mit teilweise bekanntem Vektor v unbekannte Einträge der Übergangsmatrix "
+        "und fehlende Komponenten des Bestands bestimmen (Gleichungssystem).",
+    "Stochastische Unabhängigkeit zweier Ereignisse über die Produktregel untersuchen":
+        "Prüfen, ob zwei Ereignisse stochastisch unabhängig sind: über P(A ∩ B) = P(A) · P(B) oder "
+        "gleichwertig über den Vergleich einer bedingten mit der unbedingten Wahrscheinlichkeit.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
     3: ({}, ZUSAMMEN_3, NEUE_DEFINITION_3, {}),
     4: ({}, ZUSAMMEN_4, NEUE_DEFINITION_4, {}),
     5: ({}, ZUSAMMEN_5, NEUE_DEFINITION_5, {}),
+    6: ({}, ZUSAMMEN_6, NEUE_DEFINITION_6, {}),
 }
 FELDKORREKTUR = {5: ("bemerkung", bemerkung_5)}
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)

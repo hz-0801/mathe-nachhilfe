@@ -1966,10 +1966,82 @@ ohne rechnerisches Ergebnis (Diagramme, Skizzen, Deutungen); keine
 Abweichung vom Erwartungshorizont. Acht Abbildungen beschrieben, alle aus
 dem Render lesbar.
 
+**Abgleichlauf 6 (14.09.2026, nach den vier Erfassungsstapeln Teil B,
+iqb-abgleich.py v0.6).** Eine Zusammenziehung: „Übergangsprozess:
+Matrixeintrag aus einem beobachteten Fixvektor bestimmen" (2025-ga-B AG/LA
+A1 1c) → „Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands
+aus einem stationären Vektor bestimmen" (Teil A; dieselbe Fertigkeit,
+Definition auf M · v = v mit teilweise bekanntem v gefasst). Eine erweiterte
+Definition: „Stochastische Unabhängigkeit zweier Ereignisse über die
+Produktregel untersuchen" auch über den Vergleich bedingter und unbedingter
+Wahrscheinlichkeit. 572 → 571 Typen, ein Typfeld im Katalog geändert;
+Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. Offen,
+weil Umbenennung bestehender Typen: „Entscheidungsregel eines links-/
+rechtsseitigen Signifikanztests bestimmen" zu „… eines einseitigen …"
+zusammenziehen; „Koordinatengleichung einer Ebene durch drei Punkte" gegen
+„… durch zwei sich schneidende Geraden" (seit Lauf 5).
+
+**Abbruchkriterium Teil B – Verlauf über fünf Stapel (Auftrag des Lehrers,
+14.09.2026; Skript schnitt_teilb.py im Scratchpad, Geltung nach dem Thema
+des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
+„Neu im Niveau" zählt gegen alle bisher erfassten Stapel desselben Niveaus
+(Teil A und Teil B), „neu im Bestand" gegen beide Niveaus.
+
+| Stapel | Zeilen | Werte | neu im Niveau | davon in be-gk | davon in bb-ea | neu im Bestand | davon in be-gk | davon in bb-ea |
+|---|---|---|---|---|---|---|---|---|
+| 2026-ga-B-wtr | 45 | 36 | 12 | 11 | 11 | 7 | 7 | 7 |
+| 2026-ea-B-wtr | 60 | 46 | 16 | 11 | 15 | 11 | 7 | 11 |
+| 2025-ga-B-wtr | 42 | 35 | 6 | 5 | 5 | 3 | 3 | 3 |
+| 2025-ea-B-wtr | 47 | 30 | 2 | 2 | 2 | 0 | 0 | 0 |
+| 2024-ga-B-wtr | 49 | 41 | 6 | 5 | 6 | 2 | 2 | 2 |
+
+Verlauf getrennt nach Niveau, neue Werte in Geltung im Bestand: grundlegend
+7 → 3 → 2 (be-gk wie bb-ea), erhöht 7 → 0 (be-gk) bzw. 11 → 0 (bb-ea). Im
+Niveau: grundlegend 11 → 5 → 5 (be-gk), erhöht 11 → 2 (be-gk) bzw. 15 → 2
+(bb-ea). Die elf neuen Werte des erhöhten Stapels 2026 sind zur Hälfte neue
+Themen (Hypothesentests dreimal, Umkehrfunktion zweimal, Grenzwerte,
+Rekonstruktion, Rotationsvolumen, Spiegelung, Lage- und Streumaße); der
+zweite erhöhte Stapel bringt nichts Neues mehr. Bestand nach Teil B: 162
+Schnittwerte, davon 135 in be-gk und 152 in bb-ea; Teil B allein 243 Zeilen
+auf 100 Werte (2,43 je Wert). Vorschlag (nicht gesetzt): derselbe Maßstab
+wie in Teil A – unter fünf neue Schnittwerte innerhalb der Geltung im
+Bestand je Stapel heißt ausgereizt –, getrennt je Niveau angewendet und
+mit der Zielprüfung des Niveaus gezählt (be-gk für grundlegend, bb-ea für
+erhöht). Danach wäre erhöht nach 2025-ea-B (0) ausgereizt, grundlegend
+nach 2025-ga-B (3) und 2024-ga-B (2); ein weiterer Stapel je Niveau (2024-
+ea-B, 2023-ga-B) würde den Befund absichern, weil die Reihe in Teil B erst
+zwei bzw. drei Punkte je Niveau hat. Wer strenger zählen will, nimmt „neu
+im Niveau" (5 und 5 bei grundlegend, 2 bei erhöht) – dann liegt grundlegend
+gerade auf der Schwelle.
+
+**Messung über die fünf Teil-B-Stapel (Zusammenfassung).**
+
+| Stapel | Zeilen | Schnittwerte | Zeilen je Wert | auf Teil-A-Werten gleiches Niveau | auf Teil-A-Werten beide Niveaus | Trägerbindung Kontext | abhaengig_von | beide | Dateien | Zeilen je Datei | Dauer bis Selbstprüfung |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-ga-B-wtr | 45 | 36 | 1,25 | 32 (71 %) | 38 (84 %) | 6 (13 %) | 6 | 2 | 7 | 6,4 | 15 min |
+| 2026-ea-B-wtr | 60 | 46 | 1,30 | 41 (68 %) | 44 (73 %) | 10 (17 %) | 11 | 1 | 9 | 6,7 | 20 min |
+| 2025-ga-B-wtr | 42 | 35 | 1,20 | 30 (71 %) | 38 (90 %) | 0 (0 %) | 8 | 0 | 8 | 5,2 | 11 min |
+| 2025-ea-B-wtr | 47 | 30 | 1,57 | 37 (78 %) | 37 (78 %) | 1 (2 %) | 8 | 0 | 8 | 5,9 | 12 min |
+| 2024-ga-B-wtr | 49 | 41 | 1,20 | 31 (63 %) | 43 (87 %) | 3 (6 %) | 9 | 0 | 7 | 7,0 | 14 min |
+
+Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
+liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
+Teil A überhaupt; der erhöhte Stapel 2025 hat mit 1,57 Zeilen je Wert die
+dichteste Belegung. Trägerbindung: 20 von 243 Zeilen (8 %), von 17 % im
+ersten erhöhten Stapel (Bahnhofshalle, Sprungschanze, Treuepunkte,
+Konfidenzintervalle) auf 0 bis 6 % danach; die Kopplung an abhaengig_von
+bleibt verworfen – gemeinsame Zeilen 2, 1, 0, 0, 0 bei 6, 10, 0, 1, 3
+Kontextzeilen und 6, 11, 8, 8, 9 Zeilen mit Vorstufe, die Mengen fallen
+in allen fünf Stapeln auseinander. Umfang: 5,2 bis 7,0 Zeilen je Datei
+(Teil A 1,7 bis 2,2), 11 bis 20 Minuten je Stapel bis zur bestandenen
+Selbstprüfung, mit Nachführen 20 bis 30; die Dauer folgt der Zeilenzahl,
+nicht der Dateizahl.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Abgleichlauf 6 (iqb-abgleich.py v0.6, nach vier Erfassungsstapeln Teil B): Übergangsprozess: Matrixeintrag aus einem beobachteten Fixvektor bestimmen → Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen (Zusammenziehung, Definition erweitert); Definition von „Stochastische Unabhängigkeit zweier Ereignisse über die Produktregel untersuchen" um den Weg über die bedingte Wahrscheinlichkeit erweitert. 572 → 571 Typen, ein Typfeld im Katalog. Selbstprüfung bestanden, byteidentisch. Abbruchkriterium Teil B (Verlauf über fünf Stapel je Niveau, Schwelle vorgeschlagen, nicht gesetzt) und Messung über die fünf Stapel in § 4. |
 | 2026-09-14 | Stapel 2024-ga-B (WTR-Zweig) erfasst: 49 Zeilen aus 7 Dateien, Katalog 749 Zeilen, Typenliste 572 (31 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 46 von 49 nach der Spalte Anforderungsbereich. iqb-bau.py v0.8: nummerierte Aufgabe ohne Teilaufgabenbuchstaben in Teil B (Stochastik WTR 2, Aufgabe 3, id …-3). Trägerbindung 3 Zeilen. Berichtigung in § 4 (2026-ea-B): Verflechtung Rohstoffbedarf stammt aus Teil A, Funktionswert im Sachzusammenhang aus 2026-ga-B. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2025-ea-B (WTR-Zweig) erfasst: 47 Zeilen aus 8 Dateien, Katalog 700 Zeilen, Typenliste 541 (32 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/16), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 47 von 47 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 16; geteilte Teilaufgaben 2a, 2b bleiben Zeilen (iqb.md § 7 ergänzt). Trägerbindung 1 Zeile. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2025-ga-B (WTR-Zweig) erfasst: 42 Zeilen aus 8 Dateien, Katalog 653 Zeilen, Typenliste 509 (30 neu). Alle BE-Summen geprüft (25/25/15/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 42 von 42 nach der Spalte Anforderungsbereich. Keine Zeile mit Trägerbindung. MMS-Zweig nicht erfasst. |
