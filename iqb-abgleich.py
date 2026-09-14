@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.7 · 14.09.2026 · gilt mit iqb.md v0.9 und iqb-bau.py v0.8
+Version 0.8 · 14.09.2026 · gilt mit iqb.md v0.9 und iqb-bau.py v0.8
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -28,6 +28,9 @@ Lauf 7 (14.09.2026, Vorarbeit „Teil B absichern"): zwei Zusammenziehungen mit
 neuem Namen (Entscheidungsregel einseitig; Koordinatengleichung aus Punkten
 oder Geraden), neues Thema Konfidenzintervalle für fünf Typen und ihre Zeilen
 (Feldkorrektur thema und bemerkung), 571 → 569.
+Lauf 8 (14.09.2026, nach 2024-ea-B, 2023-ga-B und 2026-ga-B-mms): zwei
+Umbenennungen (Wendepunkt Zu- oder Abnahme; Symmetrieebene eines Körpers),
+vier erweiterte Definitionen, keine Zusammenziehung (671).
 """
 import csv, io, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -407,6 +410,35 @@ def zeile_7(d):
     return True
 
 
+# ======================================================================= Lauf 8
+# Nach den drei Stapeln des Auftrags „Teil B absichern, MMS-Delta messen"
+# (2024-ea-B, 2023-ga-B, 2026-ga-B-mms): zwei Umbenennungen, bei denen das
+# Etikett enger war als die Fertigkeit (Zu- oder Abnahme; Körper statt
+# Pyramide, Definitionen mitgezogen), zwei erweiterte Definitionen um die
+# neuen Fundstellen (Tabelle statt Graph; bedingter Anteil). Keine
+# Zusammenziehung.
+ZUSAMMEN_8 = {
+    "Wendepunkt als Zeitpunkt stärkster Abnahme im Sachzusammenhang deuten":
+        "Wendepunkt als Zeitpunkt stärkster Zu- oder Abnahme im Sachzusammenhang deuten",
+    "Symmetrieebene einer Pyramide unter vorgegebenen Gleichungen auswählen und eine ausschließen":
+        "Symmetrieebene eines Körpers unter vorgegebenen Gleichungen auswählen und eine ausschließen",
+}
+NEUE_DEFINITION_8 = {
+    "Wendepunkt als Zeitpunkt stärkster Zu- oder Abnahme im Sachzusammenhang deuten":
+        "Die Bedeutung eines Wendepunkts als Zeitpunkt der stärksten Zunahme (steigender Bereich) oder "
+        "der stärksten Abnahme (fallender Bereich) einer Größe im Sachzusammenhang beschreiben; die "
+        "Wendestelle ist gegeben oder wird abgelesen.",
+    "Symmetrieebene eines Körpers unter vorgegebenen Gleichungen auswählen und eine ausschließen":
+        "Unter mehreren Ebenengleichungen die Symmetrieebene eines Körpers (Pyramide, Quader) auswählen "
+        "und für eine andere über eine Punktprobe oder einen Kantenmittelpunkt begründen, dass sie keine ist.",
+    "Mittlere Änderungsrate aus dem Graphen im Sachzusammenhang bestimmen":
+        "Für ein Zeitintervall die Werte am Graphen ablesen oder aus einer Tabelle entnehmen und den "
+        "Differenzenquotienten als Durchschnitt je Zeiteinheit berechnen.",
+    "Vierfeldertafel aus Anteilen vervollständigen":
+        "Aus zwei Randanteilen und einem Schnittanteil – oder einem Randanteil und einem bedingten Anteil, "
+        "aus dem der Schnittanteil folgt – alle Felder einer Vierfeldertafel ergänzen.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -415,6 +447,7 @@ LAEUFE = {
     5: ({}, ZUSAMMEN_5, NEUE_DEFINITION_5, {}),
     6: ({}, ZUSAMMEN_6, NEUE_DEFINITION_6, {}),
     7: ({}, ZUSAMMEN_7, NEUE_DEFINITION_7, NEUES_THEMA_7),
+    8: ({}, ZUSAMMEN_8, NEUE_DEFINITION_8, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)]}
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)

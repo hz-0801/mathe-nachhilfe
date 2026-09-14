@@ -2338,10 +2338,30 @@ unterhalb des Typs). Was das für die Erfassungseinheit „Stapel je
 Rechnerfassung" (iqb-bau.py v0.6) und für die 17 übernommenen Zeilen
 bedeutet, entscheidet der Lehrer.
 
+**Abgleichlauf 8 (iqb-abgleich.py v0.8, nach den drei Stapeln des
+Auftrags).** Zwei Umbenennungen, bei denen das Etikett enger war als die
+Fertigkeit (Kern § 6, kein Schnittwert berührt): „Wendepunkt als Zeitpunkt
+stärkster Abnahme im Sachzusammenhang deuten" → „… stärkster Zu- oder
+Abnahme …" (2023-ga-B Analysis WTR 2 2a ist die Zunahme), „Symmetrieebene
+einer Pyramide unter vorgegebenen Gleichungen auswählen und eine
+ausschließen" → „… eines Körpers …" (2026-ga-B-mms A2 MMS 2 b ist ein
+Quader); Definitionen mitgezogen. Zwei erweiterte Definitionen: „Mittlere
+Änderungsrate aus dem Graphen im Sachzusammenhang bestimmen" auch aus einer
+Tabelle (2024-ea-B Analysis WTR 2 2a), „Vierfeldertafel aus Anteilen
+vervollständigen" auch aus einem bedingten Anteil (2024-ea-B Stochastik WTR
+2 1a). Die Definition von „Übergangsprozess: Übergangsdiagramm aus der
+Übergangstabelle zeichnen" deckt die Matrix schon (kein Eingriff). Keine
+Zusammenziehung: die 98 neuen Typen der drei Stapel haben keinen Zwilling
+im Bestand; ein neuer Typ (Schnittwinkel zwischen Gerade und Ebene) kommt
+im selben Stapel zweimal vor. 671 Typen vorher und nachher, 4 Typfelder im
+Katalog. Selbstprüfung bestanden (913 Zeilen, 671 Typen, 26 Stapel),
+Abgleich aus dem HEAD-Stand byteidentisch.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Abgleichlauf 8 (iqb-abgleich.py v0.8, nach 2024-ea-B, 2023-ga-B, 2026-ga-B-mms): Wendepunkt als Zeitpunkt stärkster Abnahme im Sachzusammenhang deuten → Wendepunkt als Zeitpunkt stärkster Zu- oder Abnahme im Sachzusammenhang deuten; Symmetrieebene einer Pyramide unter vorgegebenen Gleichungen auswählen und eine ausschließen → Symmetrieebene eines Körpers unter vorgegebenen Gleichungen auswählen und eine ausschließen (Umbenennungen, Definitionen mitgezogen); Definitionen von „Mittlere Änderungsrate aus dem Graphen im Sachzusammenhang bestimmen" (auch Tabelle) und „Vierfeldertafel aus Anteilen vervollständigen" (auch bedingter Anteil) erweitert. Keine Zusammenziehung, 671 Typen, 4 Typfelder im Katalog. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-14 | Stapel 2026-ga-B (MMS-Zweig) erfasst, Delta gegen den WTR-Zwilling: 42 Zeilen aus 7 Dateien, davon 17 Zeilen aus drei wortgleichen Dateien (AG/LA A2 MMS 1, Stochastik MMS 1 und 2) per Skript aus dem WTR-Zweig übernommen; Katalog 913 Zeilen, Typenliste 671 (18 neu). Alle BE-Summen geprüft (25/25/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 41 von 42. MMS-Delta in § 4: 69 % der Zeilen auf WTR-Schnittwerten, 2 von 25 eigenen Zeilen reine Rechnerbedienung, 3 von 7 Dateien wortgleich – Einschätzung: kein eigener Strang, als Delta abhandeln. |
 | 2026-09-14 | Stapel 2023-ga-B (WTR-Zweig) erfasst: 61 Zeilen aus 8 Dateien, Katalog 871 Zeilen, Typenliste 653 (40 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 57 von 61 nach der Spalte Anforderungsbereich. Eine Trägerbindung (AG/LA A2 WTR 1 g). Abbruchkriterium grundlegend: 2 neue Schnittwerte in be-gk, Reihe 7 → 3 → 2 → 2 – grundlegend ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2024-ea-B (WTR-Zweig) erfasst: 61 Zeilen aus 7 Dateien, Katalog 810 Zeilen, Typenliste 613 (44 neu). Alle BE-Summen geprüft (40/40/40/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 61 nach der Spalte Anforderungsbereich. Keine Trägerbindung. Abbruchkriterium erhöht: 7 neue Schnittwerte in bb-ea – Schwelle reißt, erhöht nicht ausgereizt. MMS-Zweig nicht erfasst. |
