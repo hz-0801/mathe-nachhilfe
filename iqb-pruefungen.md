@@ -39,7 +39,8 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2017-ea-A | 11 | entfällt – Reserve (§ 4) |
 | bsp-ga-A | 16 (12 + 4 Dubletten) | entfällt – Reserve (§ 4) |
 | bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
-| 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
+| 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig unten) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
+| 2026-ga-B (MMS) | 7 von 14 (drei Dateien wortgleich mit dem WTR-Zwilling) | **erfasst 2026-09-14, 42 Zeilen** (17 aus dem WTR-Zweig übernommen) · 18 Typen neu, 25 wiederverwendet · Eichung 41 von 42 (Spalte AB) · MMS-Delta in § 4 |
 | 2026-ea-B (WTR) | 9 von 18 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
 | 2025-ga-B (WTR) | 8 von 16 (MMS-Zweig offen) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
 | 2025-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
@@ -81,6 +82,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2024-ga-B-wtr (Teil B) | 49 | 48 | 31 (65 %) | 46 von 49 (94 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 48 (25 %); Schnitt 41 Werte, 42 von 49 Zeilen bekannt (86 %) | 5, 4, 5, 4 |
 | 2024-ea-B-wtr (Teil B) | 61 | 61 | 44 (72 %) | 59 von 61 (97 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 61 (20 %); Schnitt 44 Werte, 51 von 61 Zeilen bekannt (84 %) | 23, 5, 22, 4 |
 | 2023-ga-B-wtr (Teil B) | 61 | 60 | 40 (67 %) | 57 von 61 (93 %), Liste v0.7, Spalte AB | 0 | 0 | 17 von 60 (28 %); Schnitt 43 Werte, 54 von 61 Zeilen bekannt (89 %) | 7, 4, 6, 3 |
+| 2026-ga-B-mms (Teil B, 17 Zeilen wortgleich aus WTR) | 42 | 43 | 18 (42 %) | 41 von 42 (98 %), Liste v0.7, Spalte AB | 0 | 0 | 22 von 43 (51 %); Schnitt 34 Werte, 40 von 42 Zeilen bekannt (95 %) | 5, 5, 5, 5 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2000,12 +2002,14 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2024-ga-B-wtr | 49 | 41 | 6 | 5 | 6 | 2 | 2 | 2 |
 | 2024-ea-B-wtr | 61 | 44 | 9 | 5 | 9 | 7 | 3 | 7 |
 | 2023-ga-B-wtr | 61 | 43 | 7 | 5 | 7 | 2 | 2 | 2 |
+| 2026-ga-B-mms | 42 | 34 | 2 | 2 | 2 | 1 | 1 | 1 |
 
-*Die beiden letzten Zeilen sind nach Lauf 7 gemessen; seitdem lautet die
+*Die drei letzten Zeilen sind nach Lauf 7 gemessen; seitdem lautet die
 Zeile 2026-ea-B-wtr 60 | 47 | 17 | 11 | 13 | 12 | 7 | 9, weil die
 Konfidenzintervall-Zeilen ein eigenes Thema außerhalb der Geltung bilden.
 Bestand nach sieben Teil-B-Stapeln: 172 Schnittwerte, davon 140 in be-gk
-und 159 in bb-ea.*
+und 159 in bb-ea; mit dem MMS-Zweig 2026-ga 173 (141, 160). Der MMS-Zweig
+zählt nicht in die Reihe je Niveau (kein WTR-Stapel, Delta-Messung unten).*
 
 Verlauf getrennt nach Niveau, neue Werte in Geltung im Bestand: grundlegend
 7 → 3 → 2 (be-gk wie bb-ea), erhöht 7 → 0 (be-gk) bzw. 11 → 0 (bb-ea). Im
@@ -2043,6 +2047,7 @@ fortgeschrieben).**
 | 2024-ga-B-wtr | 49 | 41 | 1,20 | 31 (63 %) | 43 (87 %) | 3 (6 %) | 9 | 0 | 7 | 7,0 | 14 min |
 | 2024-ea-B-wtr | 61 | 44 | 1,39 | 44 (72 %) | 47 (77 %) | 0 (0 %) | 12 | 0 | 7 | 8,7 | 28 min |
 | 2023-ga-B-wtr | 61 | 43 | 1,42 | 42 (68 %) | 54 (88 %) | 1 (2 %) | 12 | 0 | 8 | 7,6 | 22 min |
+| 2026-ga-B-mms | 42 | 34 | 1,24 | 26 (61 %) | 35 (83 %) | 2 (5 %) | 6 | 2 | 7 | 6,0 | 20 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -2236,10 +2241,108 @@ der Schwelle: **grundlegend ist ausgereizt.** Neu im Niveau grundlegend 7
 Niveau" liegt grundlegend seit 2025 unverändert genau auf der Schwelle (5,
 5, 5), nicht darunter.
 
+**Stapel 2026-ga-B, MMS-Zweig (Delta gegen den WTR-Zwilling, 14.09.2026;
+Auftrag: nicht weiter in MMS hineingehen).** 7 Dateien (Analysis MMS 1 mit
+zwei Aufgaben und MMS 2 mit einer, je 25 BE; AG/LA A1, A2 MMS 1 und 2,
+Stochastik MMS 1 und 2 mit je 15 BE), 42 Zeilen, alle BE-Summen bestätigt,
+kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung über den Bestand (913 Zeilen, 671 Typen, 26 Stapel)
+bestanden. Amtliche Verteilung: I 16, II 19, III 7 (17 % III); Spalte gleich
+höchstem Kompetenzeintrag in allen 42 Zeilen.
+
+*Wortgleiche Dateien.* Drei der sieben MMS-Dateien sind wortgleich mit dem
+WTR-Zwilling (Textvergleich der PDFs mit pypdf, Ähnlichkeit 0,998 bis
+1,000, Unterschiede nur in der Formelextraktion des Erwartungshorizonts):
+AG/LA A2 MMS 1 = A2 WTR 1 (Behälter), Stochastik MMS 1 = WTR 1
+(Treuepunkte), Stochastik MMS 2 = WTR 2 (Playlist) – 17 Zeilen, 45 von 125
+BE. Die vier übrigen Dateien (Analysis MMS 1 Kupfererz und e-Funktion,
+Analysis MMS 2 Dachrinne, AG/LA A1 Kundenverteilung, AG/LA A2 MMS 2 Quader
+mit Pyramiden) sind eigene Aufgaben (Ähnlichkeit 0,23 bis 0,41). Verfahren
+(Entscheidung im Lauf, Kern § 3): die wortgleichen Dateien bekommen Zeilen,
+weil der MMS-Zweig als eigene Erfassungseinheit vollständig sein muss
+(iqb-bau.py v0.6, iqb-quellen.csv kennt keine Dublette über die
+Rechnerfassung hinweg); die 17 Zeilen sind aus dem WTR-Zweig übernommen
+(Skript, alle Felder gleich, id und abhaengig_von auf MMS umgeschrieben,
+Vermerk „Wortgleich mit dem WTR-Zwilling …" in bemerkung). Wird MMS als
+Delta geführt, sind diese 17 Zeilen Dubletten und über dublette_von in
+iqb-quellen.py zu kennzeichnen – Entscheidung beim Lehrer (Bericht).
+
+*Eichung 2026-ga-B-mms: 41 von 42.* Eine Abweichung: Analysis MMS 2 b
+(Hochpunkt aus Grad und Tiefpunkt begründen) geschätzt II, amtlich I.
+Gefeuert und getroffen (7 Zeilen amtlich III): (a) Halbierungsbedingung als
+Gleichung in a mit Achsendreieck bei Analysis MMS 1 2c, (d) Flächengleichheit,
+Ring, Länge, Dichte bei MMS 2 g, (a) Stationarität und Verhältnis 4 : 1 bei
+AG/LA A1 e, (a) Volumenanteil als Gleichung in k bei A2 MMS 2 e; die drei
+übrigen III-Zeilen sind übernommene WTR-Zeilen (A2 MMS 1 e, Stochastik MMS
+1 2c, MMS 2 f).
+
+*Typen 2026-ga-B-mms.* 43 verwendet, 18 neu, 25 wiederverwendet – davon 17
+in den übernommenen Zeilen und 8 in den eigenen: Nullstellen und Werte:
+Funktionswert im Sachzusammenhang berechnen (2026-ga-B); Berührpunkt der
+Tangente mit vorgegebener Steigung berechnen (2026-ea-B); Übergangsprozess:
+Übergangsdiagramm aus der Übergangstabelle zeichnen (Teil A, Definition
+deckt die Matrix); Matrizenalgebra: Matrix-Vektor-Produkt berechnen (Teil
+A); Übergangsprozess: Zeitpunkt für das Unterschreiten eines Anteils … über
+einen konstanten Faktor bestimmen als typ_neben (2024-ea-B); Übergangsprozess:
+Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor
+bestimmen (Lauf 6); Symmetrieebene einer Pyramide unter vorgegebenen
+Gleichungen auswählen und eine ausschließen (2024-ea-B, hier Quader);
+Winkel zwischen zwei Kanten über das Skalarprodukt berechnen (2026-ga-B);
+Punktprobe an einer Geraden durchführen (Teil A). Nicht wiederverwendet
+trotz Nähe: „Zeitpunkt der größten Rate aus der Ableitung angeben" (dort
+Nullstelle einer gegebenen Ableitung, hier k'' selbst bilden); „Fläche:
+Senkrechte Gerade zur Halbierung einer Fläche über den Flächenterm
+bestimmen" (Dreieck statt Integral mit variabler Grenze). Vorschlag für den
+Abgleich: „Symmetrieebene einer Pyramide …" zu „… eines Körpers …" (die
+Definition sagt es schon).
+
+*Messung 2026-ga-B-mms.* 42 Zeilen auf 34 Schnittwerte (1,24 je Wert); 26
+von 42 Zeilen (61 %) auf Werten aus Teil A grundlegend, 35 (83 %) auf
+Werten beider Niveaus. Trägerbindung: 2 von 42 (5 %), beide übernommene
+WTR-Zeilen (Behälter). Zeilen mit abhaengig_von: 6. Aufwand: 7 Dateien, 6,0
+Zeilen je Datei; 22:29 Uhr bis 22:49 Uhr bestandene Selbstprüfung, 20
+Minuten (davon die Hälfte Lesen der PDFs und Textvergleich), mit Nachführen
+etwa 30. Eigene Rechnung: 40 von 42 Zeilen mit sympy-Kontrolle bestätigt,
+2 ohne rechnerisches Ergebnis; keine Abweichung vom Erwartungshorizont.
+
+*MMS gegen WTR desselben Stapels (Auftrag).* Skript mms_delta.py im
+Scratchpad, Vermerk „MMS-Anteil: …" in bemerkung jeder eigenen Zeile.
+– Zeilen auf Schnittwerten, die der WTR-Zwilling schon hat: 29 von 42
+(69 %); ohne die übernommenen Zeilen 12 von 25 (48 %). Die eigenen Zeilen
+belegen 20 Werte, davon 11 nicht im WTR-Zwilling – aber nur 2 davon neu
+gegen alle bisherigen Stapel grundlegend und 1 neu gegen den Gesamtbestand
+(Ableitungsgraph · begründen; Tabelle oben). Was der MMS-Zweig an Werten
+bringt, hat der Bestand aus anderen WTR-Stapeln schon.
+– Reine Rechnerbedienung (Term eingeben, numerisch lösen, ohne eigenen
+Ansatz): 2 von 25 eigenen Zeilen (Analysis MMS 1 1a Funktionswert und
+k(x) = 100; AG/LA A1 b Matrix mal Vektor). Rechner für die Lösung bei
+eigenem Ansatz: 13 (Gleichungen k'(x) = 5, f'(x) = 1, Integrale,
+Gleichungssysteme). Kein Rechneranteil: 10 (Begründungen, Deutungen,
+Zeichnen, Aufgabenstellung formulieren). Rechnertypen im Etikett („mit dem
+Rechner"): 3 Zeilen, davon 2 in den übernommenen WTR-Zeilen – der WTR
+verlangt dieselbe Bedienung (kumulierte Binomialwahrscheinlichkeit).
+– Wortgleiche Aufgaben: 3 von 7 Dateien (43 %), 17 von 42 Zeilen (40 %),
+45 von 125 BE (36 %); in den vier eigenen Dateien keine wortgleiche
+Teilaufgabe.
+– Einschätzung: MMS rechtfertigt keinen eigenen Strang. Die Schnittwerte
+sind zu 69 % (48 %) im WTR-Zwilling und zu 94 % (32 von 34) im Bestand
+grundlegend vorhanden, die Handlungen sind dieselben (die MMS-typische Leistung ist in
+2 von 25 Zeilen die ganze Zeile), und 40 % der Zeilen sind Kopien. Der
+Unterschied liegt im Lösungsweg innerhalb des Typs (numerisch statt
+algebraisch: k(x) = 100, f'(x) = 5, Gleichungssystem im Rechner), nicht im
+Schnitt. MMS ist als Delta abzuhandeln: je Stapel nur die nicht
+wortgleichen Dateien lesen, Zeilen nur für Typen anlegen, die im
+WTR-Zwilling fehlen, und die MMS-Fassung im Etikett nicht trennen (Kern
+§ 6: gleiche Fertigkeit, gleiches Etikett; der Rechner ist Lösungsweg
+unterhalb des Typs). Was das für die Erfassungseinheit „Stapel je
+Rechnerfassung" (iqb-bau.py v0.6) und für die 17 übernommenen Zeilen
+bedeutet, entscheidet der Lehrer.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Stapel 2026-ga-B (MMS-Zweig) erfasst, Delta gegen den WTR-Zwilling: 42 Zeilen aus 7 Dateien, davon 17 Zeilen aus drei wortgleichen Dateien (AG/LA A2 MMS 1, Stochastik MMS 1 und 2) per Skript aus dem WTR-Zweig übernommen; Katalog 913 Zeilen, Typenliste 671 (18 neu). Alle BE-Summen geprüft (25/25/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 41 von 42. MMS-Delta in § 4: 69 % der Zeilen auf WTR-Schnittwerten, 2 von 25 eigenen Zeilen reine Rechnerbedienung, 3 von 7 Dateien wortgleich – Einschätzung: kein eigener Strang, als Delta abhandeln. |
 | 2026-09-14 | Stapel 2023-ga-B (WTR-Zweig) erfasst: 61 Zeilen aus 8 Dateien, Katalog 871 Zeilen, Typenliste 653 (40 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 57 von 61 nach der Spalte Anforderungsbereich. Eine Trägerbindung (AG/LA A2 WTR 1 g). Abbruchkriterium grundlegend: 2 neue Schnittwerte in be-gk, Reihe 7 → 3 → 2 → 2 – grundlegend ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2024-ea-B (WTR-Zweig) erfasst: 61 Zeilen aus 7 Dateien, Katalog 810 Zeilen, Typenliste 613 (44 neu). Alle BE-Summen geprüft (40/40/40/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 61 nach der Spalte Anforderungsbereich. Keine Trägerbindung. Abbruchkriterium erhöht: 7 neue Schnittwerte in bb-ea – Schwelle reißt, erhöht nicht ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Vorarbeit „Teil B absichern" (Entscheidungen des Lehrers): iqb.md v0.9 – Abbruchkriterium Teil B gesetzt (§ 6), Thema Konfidenzintervalle (§ 6, Geltung nein/nein/nein/nein). Abgleichlauf 7 (iqb-abgleich.py v0.7): Entscheidungsregel eines linksseitigen Signifikanztests bestimmen, Entscheidungsregel eines rechtsseitigen Signifikanztests bestimmen → Entscheidungsregel eines einseitigen Signifikanztests bestimmen; Koordinatengleichung einer Ebene durch drei Punkte bestimmen, Koordinatengleichung der Ebene durch zwei sich schneidende Geraden bestimmen → Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen; fünf Konfidenzintervall-Typen und ihre Zeilen von Hypothesentests auf Konfidenzintervalle, Vermerk „ersatzweise" gestrichen. 571 → 569 Typen. Selbstprüfung bestanden, byteidentisch. |
