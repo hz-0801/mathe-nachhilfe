@@ -2012,7 +2012,12 @@ nach 2025-ga-B (3) und 2024-ga-B (2); ein weiterer Stapel je Niveau (2024-
 ea-B, 2023-ga-B) würde den Befund absichern, weil die Reihe in Teil B erst
 zwei bzw. drei Punkte je Niveau hat. Wer strenger zählen will, nimmt „neu
 im Niveau" (5 und 5 bei grundlegend, 2 bei erhöht) – dann liegt grundlegend
-gerade auf der Schwelle.
+gerade auf der Schwelle. *Gesetzt (Entscheidung des Lehrers, 14.09.2026,
+Auftrag „Teil B absichern"): unter fünf neue Schnittwerte innerhalb der
+Geltung, gezählt im Gesamtbestand, getrennt je Niveau und mit der
+Zielprüfung des Niveaus (be-gk grundlegend, bb-ea erhöht); iqb.md § 6. Der
+Teil-A-Maßstab bleibt daneben unberührt. Die Reihe wird mit 2024-ea-B und
+2023-ga-B fortgeschrieben (unten).*
 
 **Messung über die fünf Teil-B-Stapel (Zusammenfassung).**
 
@@ -2037,10 +2042,34 @@ in allen fünf Stapeln auseinander. Umfang: 5,2 bis 7,0 Zeilen je Datei
 Selbstprüfung, mit Nachführen 20 bis 30; die Dauer folgt der Zeilenzahl,
 nicht der Dateizahl.
 
+**Vorarbeit „Teil B absichern, MMS-Delta messen" (Entscheidungen des
+Lehrers, 14.09.2026, ein Commit).**
+1. Abbruchkriterium Teil B gesetzt (oben, iqb.md § 6, v0.9).
+2. Abgleichlauf 7 (iqb-abgleich.py v0.7): „Entscheidungsregel eines
+linksseitigen Signifikanztests bestimmen" + „… rechtsseitigen …" →
+„Entscheidungsregel eines einseitigen Signifikanztests bestimmen" (die
+Richtung steht in der Zeile); „Koordinatengleichung einer Ebene durch drei
+Punkte bestimmen" + „Koordinatengleichung der Ebene durch zwei sich
+schneidende Geraden bestimmen" → „Koordinatengleichung einer Ebene aus
+Punkten oder Geraden bestimmen", Definition deckt beide Gegebenheiten
+(Normalenvektor aus zwei Richtungsvektoren, Konstante aus einem Punkt). 571
+→ 569 Typen, sechs Typfelder im Katalog.
+3. Thema Konfidenzintervalle in iqb.md § 6 (Stochastik-Liste und
+Geltungstabelle: in keinem der vier Prüfungsschwerpunkte 2027 genannt, daher
+nein in allen vier Spalten – die fünf Zeilen fallen damit für bb-ea aus der
+Geltung, be-gk unverändert). Lauf 7 stellt die fünf Typen (2026-ea-B
+Stochastik WTR 3 2a–c, 2025-ea-B Stochastik WTR 3 2c, 2d) und ihre Zeilen
+von Hypothesentests auf das neue Thema um und streicht den Vermerk
+„ersatzweise" (Feldkorrektur thema und bemerkung, 5 Zeilen; die
+Feldkorrektur kann seit v0.7 die ganze Zeile sehen). Bestand ohne
+„ersatzweise" in Teil B. Selbstprüfung bestanden (749 Zeilen, 569 Typen, 49
+Themen), Abgleich aus dem HEAD-Stand byteidentisch.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Vorarbeit „Teil B absichern" (Entscheidungen des Lehrers): iqb.md v0.9 – Abbruchkriterium Teil B gesetzt (§ 6), Thema Konfidenzintervalle (§ 6, Geltung nein/nein/nein/nein). Abgleichlauf 7 (iqb-abgleich.py v0.7): Entscheidungsregel eines linksseitigen Signifikanztests bestimmen, Entscheidungsregel eines rechtsseitigen Signifikanztests bestimmen → Entscheidungsregel eines einseitigen Signifikanztests bestimmen; Koordinatengleichung einer Ebene durch drei Punkte bestimmen, Koordinatengleichung der Ebene durch zwei sich schneidende Geraden bestimmen → Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen; fünf Konfidenzintervall-Typen und ihre Zeilen von Hypothesentests auf Konfidenzintervalle, Vermerk „ersatzweise" gestrichen. 571 → 569 Typen. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-14 | Abgleichlauf 6 (iqb-abgleich.py v0.6, nach vier Erfassungsstapeln Teil B): Übergangsprozess: Matrixeintrag aus einem beobachteten Fixvektor bestimmen → Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen (Zusammenziehung, Definition erweitert); Definition von „Stochastische Unabhängigkeit zweier Ereignisse über die Produktregel untersuchen" um den Weg über die bedingte Wahrscheinlichkeit erweitert. 572 → 571 Typen, ein Typfeld im Katalog. Selbstprüfung bestanden, byteidentisch. Abbruchkriterium Teil B (Verlauf über fünf Stapel je Niveau, Schwelle vorgeschlagen, nicht gesetzt) und Messung über die fünf Stapel in § 4. |
 | 2026-09-14 | Stapel 2024-ga-B (WTR-Zweig) erfasst: 49 Zeilen aus 7 Dateien, Katalog 749 Zeilen, Typenliste 572 (31 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 46 von 49 nach der Spalte Anforderungsbereich. iqb-bau.py v0.8: nummerierte Aufgabe ohne Teilaufgabenbuchstaben in Teil B (Stochastik WTR 2, Aufgabe 3, id …-3). Trägerbindung 3 Zeilen. Berichtigung in § 4 (2026-ea-B): Verflechtung Rohstoffbedarf stammt aus Teil A, Funktionswert im Sachzusammenhang aus 2026-ga-B. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2025-ea-B (WTR-Zweig) erfasst: 47 Zeilen aus 8 Dateien, Katalog 700 Zeilen, Typenliste 541 (32 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/16), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 47 von 47 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 16; geteilte Teilaufgaben 2a, 2b bleiben Zeilen (iqb.md § 7 ergänzt). Trägerbindung 1 Zeile. MMS-Zweig nicht erfasst. |

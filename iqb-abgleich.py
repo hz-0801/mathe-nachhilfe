@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.6 · 14.09.2026 · gilt mit iqb.md v0.8 und iqb-bau.py v0.8
+Version 0.7 · 14.09.2026 · gilt mit iqb.md v0.9 und iqb-bau.py v0.8
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -24,6 +24,10 @@ Lauf 5 (14.09.2026, nach dem Probestapel Teil B): zwei erweiterte Definitionen,
 Feldkorrektur bemerkung (Markierung Traegerbindung), keine Zusammenziehung (433).
 Lauf 6 (14.09.2026, nach vier Erfassungsstapeln Teil B): eine Zusammenziehung,
 zwei erweiterte Definitionen (572 → 571).
+Lauf 7 (14.09.2026, Vorarbeit „Teil B absichern"): zwei Zusammenziehungen mit
+neuem Namen (Entscheidungsregel einseitig; Koordinatengleichung aus Punkten
+oder Geraden), neues Thema Konfidenzintervalle für fünf Typen und ihre Zeilen
+(Feldkorrektur thema und bemerkung), 571 → 569.
 """
 import csv, io, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -357,6 +361,52 @@ NEUE_DEFINITION_6 = {
         "gleichwertig über den Vergleich einer bedingten mit der unbedingten Wahrscheinlichkeit.",
 }
 
+# ======================================================================= Lauf 7
+# Vorarbeit zum Auftrag „Teil B absichern" (Entscheidungen des Lehrers, 14.09.2026):
+# die beiden bisher offenen Umbenennungen ausführen (Entscheidungsregel
+# einseitig; Koordinatengleichung aus Punkten oder Geraden), und das neue Thema
+# Konfidenzintervalle (iqb.md § 6) an die fünf bisher ersatzweise unter
+# Hypothesentests geführten Typen und ihre Zeilen geben.
+ZUSAMMEN_7 = {
+    "Entscheidungsregel eines linksseitigen Signifikanztests bestimmen":
+        "Entscheidungsregel eines einseitigen Signifikanztests bestimmen",
+    "Entscheidungsregel eines rechtsseitigen Signifikanztests bestimmen":
+        "Entscheidungsregel eines einseitigen Signifikanztests bestimmen",
+    "Koordinatengleichung einer Ebene durch drei Punkte bestimmen":
+        "Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen",
+    "Koordinatengleichung der Ebene durch zwei sich schneidende Geraden bestimmen":
+        "Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen",
+}
+NEUE_DEFINITION_7 = {
+    "Entscheidungsregel eines einseitigen Signifikanztests bestimmen":
+        "Für eine einseitige Nullhypothese (p ≤ p0 oder p ≥ p0) die Entscheidungsregel bestimmen: die "
+        "Grenze des Ablehnungsbereichs über kumulierte Binomialwahrscheinlichkeiten so wählen, dass die "
+        "Irrtumswahrscheinlichkeit das Signifikanzniveau nicht überschreitet; die Richtung steht in der Zeile.",
+    "Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen":
+        "Die Koordinatengleichung einer Ebene bestimmen, die durch drei Punkte oder durch zwei sich "
+        "schneidende Geraden gegeben ist: Normalenvektor aus zwei Richtungsvektoren (Skalarprodukte oder "
+        "Ansatz mit Einsetzen), Konstante aus einem Punkt.",
+}
+KONFIDENZ_TYPEN = [
+    "Konfidenzintervall aus dem Diagramm identifizieren und Stichprobenergebnis aus der Grenze berechnen",
+    "Anteil mit genau k von n Konfidenzintervallen verträglich aus dem Diagramm angeben",
+    "Anzahl überdeckender Konfidenzintervalle als binomialverteilt begründen und Wahrscheinlichkeit berechnen",
+    "Konfidenzintervall aus den Graphen der Grenzfunktionen ablesen und eine Vermutung auf Verträglichkeit beurteilen",
+    "Verträglichkeit zweier Annahmen mit demselben Stichprobenanteil über den Stichprobenumfang beurteilen",
+]
+NEUES_THEMA_7 = {t: ("Stochastik", "Konfidenzintervalle") for t in KONFIDENZ_TYPEN}
+ERSATZ_7 = re.compile(r"\s*Thema ersatzweise Hypothesentests( \(Konfidenzintervalle haben keine Themenzeile\))?\.")
+
+
+def zeile_7(d):
+    """Zeilen der Konfidenzintervall-Typen auf das neue Thema umstellen, Vermerk „ersatzweise" streichen."""
+    if d["typ"] not in KONFIDENZ_TYPEN:
+        return False
+    d["thema"] = "Konfidenzintervalle"
+    d["bemerkung"] = ERSATZ_7.sub("", d["bemerkung"]).strip()
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -364,8 +414,9 @@ LAEUFE = {
     4: ({}, ZUSAMMEN_4, NEUE_DEFINITION_4, {}),
     5: ({}, ZUSAMMEN_5, NEUE_DEFINITION_5, {}),
     6: ({}, ZUSAMMEN_6, NEUE_DEFINITION_6, {}),
+    7: ({}, ZUSAMMEN_7, NEUE_DEFINITION_7, NEUES_THEMA_7),
 }
-FELDKORREKTUR = {5: ("bemerkung", bemerkung_5)}
+FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)]}
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
 
@@ -428,10 +479,18 @@ def main():
                 geaendert += 1
                 r[i] = neu
 
-    # Feldkorrektur (Lauf 5: Markierung der Trägerbindung in bemerkung)
+    # Feldkorrektur (Lauf 5: Markierung der Trägerbindung in bemerkung; Lauf 7:
+    # Thema Konfidenzintervalle). Ein Eintrag (feld, fn) korrigiert ein Feld aus
+    # seinem Text; ("*", fn) bekommt die ganze Zeile als dict und ändert sie in place.
     korrigiert = 0
-    if LAUF in FELDKORREKTUR:
-        feld, fn = FELDKORREKTUR[LAUF]
+    for feld, fn in FELDKORREKTUR.get(LAUF, []):
+        if feld == "*":
+            for r in kat:
+                d = dict(zip(kopf_k, r))
+                if fn(d):
+                    korrigiert += 1
+                    r[:] = [d[k] for k in kopf_k]
+            continue
         i_feld = kopf_k.index(feld)
         for r in kat:
             neu = fn(r[i_feld])

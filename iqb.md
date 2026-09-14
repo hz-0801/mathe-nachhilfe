@@ -1,5 +1,11 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.8 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.9 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.8 (Auftrag „Teil B absichern", Entscheidungen des
+Lehrers nach fünf Teil-B-Stapeln): § 6 Abbruchkriterium für Teil B gesetzt
+(getrennt je Niveau, Zielprüfung des Niveaus); § 6 Thema Konfidenzintervalle
+in der Stochastik-Liste und in der Geltungstabelle (bisher ersatzweise unter
+Hypothesentests); § 7 Dubletten unterhalb der Dateiebene in Teil B (nach
+2026-ea-B und 2025-ea-B).
 Änderungen gegenüber 0.7 (Vorarbeit Teil B, Auftrag des Lehrers nach dem
 Probestapel 2026-ga-B): § 7 Stapelschnitt in Teil B mit Rechnerfassung als
 vierter Achse; § 7 Trägerbindung mit fester Markierung „Traegerbindung:
@@ -246,7 +252,13 @@ Urnenmodelle · Kombinatorik · Baumdiagramm und Pfadregeln · Vierfeldertafel �
 Bedingte Wahrscheinlichkeit und Bayes · Unabhängigkeit · Lage- und Streumaße einer
 Stichprobe · Zufallsgrößen und Verteilungen · Binomialverteilung · Kenngrößen von
 Verteilungen · Hypergeometrische Verteilung · Normalverteilung und Sigma-Regeln ·
-Hypothesentests
+Hypothesentests · Konfidenzintervalle
+
+Konfidenzintervalle (v0.9, Entscheidung des Lehrers nach fünf Teil-B-Stapeln):
+eigene Zeile, weil der Pool sie auf erhöhtem Niveau in Teil B stellt (2026-ea-B
+Stochastik WTR 3, 2025-ea-B Stochastik WTR 3); bis dahin ersatzweise unter
+Hypothesentests, mit Abgleichlauf 7 umgestellt. Die Zeile fehlt in abi.md § 6,
+weil kein Landesheft bis 2018 sie stellt.
 
 Nur auf erhöhtem Niveau (abi.md § 6): Uneigentliche Integrale, Rotationsvolumen,
 Funktionsscharen und Ortskurven, Scharen von Geraden und Ebenen,
@@ -325,8 +337,11 @@ Themas, nicht der Zeile). Jedes Thema der Liste braucht eine Zeile.
 | Hypergeometrische Verteilung | nein | nein | ja | ja |
 | Normalverteilung und Sigma-Regeln | nein | ja | nein | ja |
 | Hypothesentests | nein | ja | nein | ja |
+| Konfidenzintervalle | nein | nein | nein | nein |
 
-Anmerkungen zur Tabelle: Abstände gelten in Berlin nur über Lotfußpunkte,
+Anmerkungen zur Tabelle: Konfidenzintervalle nennt keines der vier Papiere
+2027 (Suche in den PDFs nach Konfidenz, Vertrauens, Schätz, 14.09.2026);
+die Zeile folgt dem Wortlaut wie bei der hypergeometrischen Verteilung. Abstände gelten in Berlin nur über Lotfußpunkte,
 Abstandsformeln und Hessesche Normalenform sind dort „nicht notwendig"; der
 Abstand Punkt–Gerade und windschiefer Geraden steht nur in den LK-Papieren.
 Bedingte Wahrscheinlichkeit gilt überall, der Satz von Bayes und das
@@ -386,6 +401,14 @@ daneben ausgewiesen. Ein Rohzuwachs außerhalb der Geltung (Matrizen,
 Aufgabengruppe A1) zählt nicht. Unter fünf neue Werte je Stapel heißt
 ausgereizt. Messung in iqb-pruefungen.md § 4 (Skript: neue Werte je Stapel in
 der Erfassungsreihenfolge, Geltung nach dem Thema des Werts).
+
+**Abbruchkriterium für Teil B (Entscheidung des Lehrers, 14.09.2026, nach
+fünf Teil-B-Stapeln).** Derselbe Maßstab, getrennt je Niveau: je Stapel die
+Zahl der neuen Schnittwerte innerhalb der Geltung, gezählt gegen den
+Gesamtbestand beider Niveaus und beider Prüfungsteile, mit der Zielprüfung des
+Niveaus (be-gk für grundlegend, bb-ea für erhöht). Unter fünf neue Werte je
+Stapel heißt der Zweig des Niveaus ausgereizt. Der Teil-A-Maßstab bleibt
+daneben unberührt. Verlauf und Reihe je Niveau in iqb-pruefungen.md § 4.
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
