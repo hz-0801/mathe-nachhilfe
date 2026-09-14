@@ -34,7 +34,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2019-ga-A | 11 | **erfasst 2026-09-14, 23 Zeilen** · 15 Typen neu, 8 wiederverwendet · Eichung 22 von 22 gewerteten Zeilen (Liste v0.7; AGLAA22 a ohne Standardbezug) |
 | 2019-ea-A | 10 | **erfasst 2026-09-14, 20 Zeilen** · 15 Typen neu, 5 wiederverwendet · Eichung 20 von 20 (Liste v0.7) |
 | 2018-ga-A | 12 | **erfasst 2026-09-14, 25 Zeilen** · 17 Typen neu, 8 wiederverwendet · Eichung 23 von 25 (Liste v0.7) |
-| 2018-ea-A | 12 | nicht erfasst |
+| 2018-ea-A | 12 | **erfasst 2026-09-14, 26 Zeilen** · 21 Typen neu, 5 wiederverwendet · Eichung 25 von 26 (Liste v0.7) |
 | 2017-ga-A | 10 | nicht erfasst |
 | 2017-ea-A | 11 | nicht erfasst |
 | bsp-ga-A | 16 (12 + 4 Dubletten) | nicht erfasst |
@@ -66,6 +66,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2019-ga-A | 23 | 23 | 15 (65 %) | 22 von 22 gewerteten Zeilen (100 %), Liste v0.7; eine Zeile ohne Standardbezug | 0 | 0 | 6 von 23 (26 %); Schnitt 20 Werte, 20 von 23 Zeilen bekannt (87 %) | 4, 4, 4, 4 |
 | 2019-ea-A | 20 | 20 | 15 (75 %) | 20 von 20 (100 %), Liste v0.7 | 0 | 0 | 3 von 20 (15 %); Schnitt 15 Werte, 16 von 20 Zeilen bekannt (80 %) | 4, 4, 4, 4 |
 | 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 |
+| 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1317,10 +1318,77 @@ Bestand jetzt außerhalb be-gk 98, be-lk 65,
 bb-gk 97, bb-ea 64 von 480 Zeilen – Geltungsquote be-gk 382 von 480
 (80 %), be-lk 415 (86 %), bb-gk 383 (80 %), bb-ea 416 (87 %).
 
+**Stapel 2018-ea-A.** 12 Dateien, keine Dublette, 26 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (506 Zeilen, 406 Typen, 18
+Stapel) bestanden. Keine ungegliederte Aufgabe; zwei Dateien mit drei
+Teilaufgaben (AGLAA111 mit 2 + 2 + 1 BE, c auf Seite 2; AGLAA211 mit
+1 + 2 + 2 BE). Sieben Matrizenzeilen (AGLAA111, 112, 12), darunter
+erstmals Matrizen als geometrische Abbildungen der Ebene (Spiegelung,
+Streckung). Kein Sachkontext außer „Zustandssystem" und Glücksrad;
+erstmals die Prüfung der Unabhängigkeit zweier konkreter Ereignisse über
+die Produktregel (Stochastik 1.2 b).
+
+**Eichung 2018-ea-A: 25 von 26 mit der Liste v0.7.** Eine Abweichung:
+Analysis 1.2 b (Anzahl der Schnittpunkte von Geraden durch den Wendepunkt
+nach der Steigung: 3 für 0 < m < 1, 1 für m ≥ 1) geschätzt III über die
+Fallunterscheidung mit verschiedenem Ausgang (Grundregel), verkettet mit
+der Wendetangente als Grenzfall – amtlich II (K1 II, K2 II, K4 II); das
+IQB wertet die Fallunterscheidung am Graphen als Routine. Gefeuert und
+getroffen: (a) bei Analysis 2 a (Abstand 1 der Schnittpunkte mit der
+Symmetrie in ±1/2 übersetzt), (a) bei Analysis 2 b (gleichschenkliges
+Achsendreieck als Steigung −1), (a) bei AGLAA12 b (Mittelpunkt als
+P' = 2 · P*), (a) bei AGLAA22 b (Diagonalenschnittpunkt als Spurpunkt –
+das Beispiel der Liste wörtlich), (a) bei Stochastik 2 b (Ungleichungen
+in Schranken für E(Y)). Nicht gefeuert nach dem Prinzip, amtlich II,
+Treffer: Analysis 1.1 b (feste Grenzen), AGLAA111 b und c (absorbierender
+Zustand aus der Tabelle), AGLAA112 a, b, AGLAA12 a, AGLAA211 c (gleicher
+Abstand und Lot vorgegeben, Q praktisch als Spiegelpunkt benannt),
+AGLAA212 b (Normalenvektor ablesbar), AGLAA22 a, Stochastik 1.1 b
+(Symmetrie wörtlich), 1.2 b, 2 a. Nullfall-Regel: kein Anwendungsfall.
+
+**Typen 2018-ea-A.** 26 verwendet, 21 neu, 5 wiederverwendet:
+Tangentensteigung an einer Nullstelle über die Ableitung nachweisen
+(2021-ea-A; hier im Wendepunkt – die Definition gilt für jeden Punkt),
+Punkt und Ebene: Punktprobe (2026-ga-A), Geraden und Ebenen:
+Orthogonalität zu einer Ebene über Kollinearität mit dem Normalenvektor
+(2026-ga-A), Geraden und Ebenen: Orthogonalität zweier Geraden über das
+Skalarprodukt (2025-ga-A), Unpassende Säulendiagramme zu einer
+Binomialverteilung (2021-ga-A; hier Wertebereich und Summe). Konvergenz im
+erhöhten Niveau: 12 % nach typ, 69 % nach dem Schnitt (22 Werte, 18 von 26
+Zeilen bekannt) – der niedrigste Schnittwert seit 2023-ea-A. Neue
+Schnittwerte im Niveau: 8 (Kurvenuntersuchung · angeben, Symmetrie ·
+berechnen, Übergangsprozess · zeichnen, Geraden und Ebenen · angeben,
+Ebenen · berechnen, Ebene Figur · begründen, Zufallsgrößen · angeben,
+Unabhängigkeit · begründen), davon sieben im Bestand neu (alle außer
+Ebenen · berechnen); Bestand 139 Schnittwerte. Etikettenentscheidungen:
+„Übergangsprozess: Quadrat der Übergangsmatrix aus dem Diagramm berechnen"
+getrennt von „… Quadrat der Übergangsmatrix berechnen und M² · v als
+Zustand nach zwei Schritten deuten" (2018-ga-A; Matrix aus dem Diagramm
+gegen Deutung des Terms) – im Abgleichlauf 4 prüfen; „Übergangsprozess:
+Stationäre Verteilung bei absorbierendem Zustand angeben" getrennt von
+„Matrizenalgebra: Alle Vektoren mit M · v = t · v für festes t bestimmen"
+(eine Verteilung aus dem Sachzusammenhang gegen alle Vektoren); „Ebene
+Figur: Benachbarte Ecke eines Quadrats über den Diagonalenschnittpunkt als
+Spurpunkt nachweisen" getrennt von „… Diagonalenschnittpunkt und
+Flächeninhalt eines Quadrats aus dem Spurpunkt einer Geraden bestimmen"
+(Nachbarschaft gegen Flächeninhalt). Vorschlag für den Abgleichlauf 4:
+„Tangentensteigung an einer Nullstelle über die Ableitung nachweisen" in
+„Tangentensteigung in einem Punkt über die Ableitung nachweisen"
+umbenennen (die Definition ist schon allgemein).
+
+**Geltung 2018-ea-A.** Außerhalb der Geltung 7, 7, 7, 7 von 26: nur
+Matrizen (AGLAA111 a–c; AGLAA112 a, b; AGLAA12 a, b); keine
+Funktionsschar, keine Normalverteilung. Geltungsquote des Stapels für alle
+vier Zielprüfungen 19 von 26 (73 %). Bestand jetzt außerhalb be-gk 105,
+be-lk 72, bb-gk 104, bb-ea 71 von 506 Zeilen – Geltungsquote be-gk 401
+von 506 (79 %), be-lk 434 (86 %), bb-gk 402 (79 %), bb-ea 435 (86 %).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2018-ea-A vollständig erfasst: 26 Zeilen aus 12 Dateien, Katalog 506 Zeilen, Typenliste 406. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 25 von 26 mit der Liste v0.7 (Analysis 1.2 b über dem amtlichen Bereich geschätzt). |
 | 2026-09-14 | 2018-ga-A vollständig erfasst: 25 Zeilen aus 12 Dateien, Katalog 480 Zeilen, Typenliste 385. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 25 mit der Liste v0.7 (AGLAA12 a und AGLAA22 a unter dem amtlichen Bereich geschätzt). |
 | 2026-09-14 | 2019-ea-A vollständig erfasst: 20 Zeilen aus 10 Dateien, Katalog 455 Zeilen, Typenliste 368. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 20 von 20 mit der Liste v0.7. |
 | 2026-09-14 | 2019-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien, Katalog 435 Zeilen, Typenliste 353. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 22 von 22 gewerteten Zeilen mit der Liste v0.7. iqb-bau.py v0.5: afb_amtlich darf leer sein, wenn die Matrixzeile im Standardbezug leer ist (AGLAA22 a, bemerkung „Standardbezug: keine Eintragung"); solche Zeilen zählen in der Eichung nicht, Nenner „gewertete Zeilen"; iqb.md § 4 entsprechend. Kennzahlentabelle in § 2 um 2022-ga-A bis 2019-ga-A nachgeführt. |
