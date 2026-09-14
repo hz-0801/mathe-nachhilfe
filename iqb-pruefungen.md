@@ -28,7 +28,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2022-ga-A | 14 | **erfasst 2026-09-13, 24 Zeilen** · 22 Typen neu, 2 wiederverwendet · Eichung 23 von 24 (Liste v0.6) |
 | 2022-ea-A | 17 | **erfasst 2026-09-13, 32 Zeilen** · 28 Typen neu, 4 wiederverwendet · Eichung 30 von 32 (Liste v0.6) |
 | 2021-ga-A | 13 (11 + 2 Dubletten) | **erfasst 2026-09-14, 23 Zeilen** · 13 Typen neu, 10 wiederverwendet · Eichung 23 von 23 (Liste v0.7) |
-| 2021-ea-A | 19 (17 + 2 Dubletten) | nicht erfasst |
+| 2021-ea-A | 19 (17 + 2 Dubletten) | **erfasst 2026-09-14, 33 Zeilen** · 30 Typen neu, 3 wiederverwendet · Eichung 33 von 33 (Liste v0.7) |
 | 2020-ga-A | 10 | nicht erfasst |
 | 2020-ea-A | 15 | nicht erfasst |
 | 2019-ga-A | 11 | nicht erfasst |
@@ -891,10 +891,53 @@ getrennt vom Kästchenzählen (andere Handlung).
 Verflechtung (AGLAA111 a, b). Bestand jetzt be-gk 64, be-lk 37, bb-gk 63,
 bb-ea 36 von 332 Zeilen.
 
+**Stapel 2021-ea-A.** 19 Dateien, zwei Dubletten (AGLAA212 = AGLAA112, AGLAA22
+= AGLAA121), 33 Zeilen aus 17 Dateien, alle 5 BE bestätigt, kein „?", kein
+„ersatzweise". Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung über den
+Bestand (365 Zeilen, 307 Typen, 12 Stapel) bestanden. Drei ungegliederte
+Aufgaben (AGLAA111, AGLAA122, Stochastik 2.2); eine Datei mit Teilaufgabe b
+auf Seite 2 (AGLAA113). Erste Fundstellen: Themen Rekonstruktion von
+Beständen (Analysis 1.3 c, Computervirus) und Vierfeldertafel (Stochastik
+1.1); Aufgabe mit abstrakten Funktionen ohne Terme (Analysis 2.1 b). Zwei
+Sachkontexte (Computervirus, Verflechtung). Zweiter Corona-Jahrgang, erhöht.
+
+**Eichung 2021-ea-A: 33 von 33 mit der Liste v0.7.** Dritter Stapel ohne
+Abweichung. Gefeuert und getroffen: (c) bei Analysis 2.1 b (Symmetrie ohne
+Terme), (c)+(a) bei Analysis 2.2 b (Tangente an c · f), (a) bei AGLAA121 b
+(Teilverhältnis aus rechtem Winkel), (c) bei AGLAA122 (vertauschbare
+Matrizen, Lösungsmenge mit freien Parametern – amtlich III, stützt den
+offenen Punkt der Liste), (a) bei Stochastik 2.1 b (zwei Zustände des
+Behälters) und Stochastik 2.2 (Auszahlungsfälle finden). Nicht gefeuert
+nach dem Prinzip, amtlich II, Treffer: Analysis 1.1 b (Symmetrie nur als
+Abkürzung), AGLAA111 (Definition „Spur" wörtlich), AGLAA112 b („auf der
+y-Achse" unmittelbar), Stochastik 1.2 b (Symmetrie aus p = 0,5), Stochastik
+1.3 b (Ausgleich wörtlich). Nullfall-Regel: kein Anwendungsfall.
+
+**Typen 2021-ea-A.** 33 verwendet, 30 neu, 3 wiederverwendet: Punkt und
+Ebene: Punktprobe an einer Ebenengleichung (2026-ga-A), Unbekannte Größe aus
+einer Erwartungswertbedingung (zusammengezogener Typ), Pfadwahrscheinlichkeit
+für lauter gleiche Ergebnisse (zusammengezogener Typ). Konvergenz im
+erhöhten Niveau: 9 % nach typ, 82 % nach dem Schnitt (25 Werte, 27 von 33
+Zeilen bekannt) – der Schnitt kennt fast alles, der Typ fast nichts.
+Etikettenentscheidungen: „Ableitung mit Parameter in faktorisierter Form
+nachweisen" (Potenzregel) getrennt von „Ableitung eines Produkts mit
+e-Funktion in vorgegebener Form nachweisen" (Produkt- und Kettenregel);
+„Spiegelpunkt an einer Ebene über die Lotgerade bestimmen" getrennt vom
+Fall mit bekanntem Lotfußpunkt (2026-ga-A). Vorschlag für den Abgleichlauf
+3: „Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln"
+gegen „… Bedingungen für die Vertauschbarkeit zweier Matrizen aus einer
+binomischen Gleichung untersuchen" (2025-ea-A) prüfen.
+
+**Geltung 2021-ea-A.** Außerhalb der Geltung 7, 4, 7, 4 von 33: Matrizen
+(AGLAA111, AGLAA113 a, b, AGLAA122), dazu für die Grundkurse Funktionsschar
+(Analysis 1.2 b, 2.2 b) und Geradenschar (AGLAA213 a; AGLAA213 b ebenfalls).
+Bestand jetzt be-gk 71, be-lk 41, bb-gk 70, bb-ea 40 von 365 Zeilen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2021-ea-A vollständig erfasst: 33 Zeilen aus 17 Dateien (zwei Dubletten), Katalog 365 Zeilen, Typenliste 307. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 33 von 33 mit der Liste v0.7. |
 | 2026-09-14 | 2021-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien (zwei Dubletten), Katalog 332 Zeilen, Typenliste 277. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 23 mit der Liste v0.7. |
 | 2026-09-14 | iqb.md v0.7: Nullfall-Regel zur Fallunterscheidung in § 7 (ein einzelner Nullfall eines Koeffizienten zählt nicht), rückwirkend eine Änderung (2023-ea-A AGLAA111, Gewinn), Bestand 287 von 309; § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe zwischen 2023 und 2024, aus dem erhöhten Niveau, ohne Deutung). Befund 2023-ea-A berichtigt (2025-ea-A AGLAA121 b ist ein Treffer mit zwei Fällen). |
 | 2026-09-13 | Abgleichlauf 2 über den Gesamtbestand (309 Zeilen): 268 → 264 Typen, vier Zusammenziehungen (Liste alt → neu in § 4), neun Typfelder im Katalog geändert; iqb-abgleich.py v0.2 führt die Läufe getrennt (python iqb-abgleich.py [N]). Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. Jahrgangsvergleich Pool 2022 gegen 2023–2026 in § 4 (kein Corona-Muster; 2021 folgt). |
