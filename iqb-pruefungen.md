@@ -43,6 +43,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2026-ea-B (WTR) | 9 von 18 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
 | 2025-ga-B (WTR) | 8 von 16 (MMS-Zweig offen) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
 | 2025-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
+| 2024-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **erfasst 2026-09-14, 49 Zeilen** · 31 Typen neu, 17 wiederverwendet · Eichung 46 von 49 (Spalte AB) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -75,6 +76,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 |
 | 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 |
 | 2025-ea-B-wtr (Teil B) | 47 | 44 | 32 (73 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB | 0 | 2 | 6 von 44 (14 %); Schnitt 30 Werte, 45 von 47 Zeilen bekannt (96 %) | 20, 3, 20, 3 |
+| 2024-ga-B-wtr (Teil B) | 49 | 48 | 31 (65 %) | 46 von 49 (94 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 48 (25 %); Schnitt 41 Werte, 42 von 49 Zeilen bekannt (86 %) | 5, 4, 5, 4 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1721,11 +1723,11 @@ eine Verkettung von Reproduktionen (Scharparameter und Wendepunkt, WTR 1
 1a) in Teil B als I.
 
 *Typen 2026-ea-B.* 59 verwendet, 46 neu, 13 wiederverwendet: vier aus Teil
-A (Transformation: Abbildung zwischen zwei Graphen angeben; Nullstellen und
-Werte: Funktionswert im Sachzusammenhang berechnen; Symmetrieebenen eines
+A (Transformation: Abbildung zwischen zwei Graphen angeben; Verflechtung:
+Rohstoffbedarf über die Verflechtungsmatrix berechnen; Symmetrieebenen eines
 Körpers aus den Koordinaten begründen; Schnittpunkt von Gerade und Ebene
 berechnen) und neun aus 2026-ga-B (Kreismittelpunkt über die Normale,
-Periode der Kosinusfunktion, Verflechtung Rohstoffbedarf, Winkel zwischen
+Periode der Kosinusfunktion, Funktionswert im Sachzusammenhang, Winkel zwischen
 Kanten, Kumulierte Binomialwahrscheinlichkeit mit dem Rechner zweimal,
 Gegenzufallsgröße, Fehlender Anteil im Baumdiagramm, Monotonie der bedingten
 Wahrscheinlichkeit, Vierfeldertafel vervollständigen). Erste Fundstellen
@@ -1890,10 +1892,85 @@ Abweichung vom Erwartungshorizont (bei Analysis WTR 1 1e liefert die
 Kontrolle die Streifenwerte 2,83 und 7,25 und die Lösung k ≈ 1,90). Neun
 Abbildungen beschrieben, alle aus dem Render lesbar.
 
+**Stapel 2024-ga-B, WTR-Zweig (vierter Erfassungsstapel Teil B, 14.09.2026;
+MMS-Zweig nicht erfasst).** 7 Dateien (Analysis WTR 1 und 2 mit je zwei
+Aufgaben und 35 BE – Pool 2024 hat in Analysis 35 statt 25 BE; AG/LA A1,
+AG/LA A2 WTR 1 und 2 mit je einer Aufgabe und 20 BE; Stochastik WTR 1 mit
+zwei, WTR 2 mit drei Aufgaben und 20 BE), 49 Zeilen, alle BE-Summen
+bestätigt, kein „?", kein „ersatzweise", keine Dublette. Lauf aus dem
+HEAD-Stand byteidentisch, Selbstprüfung über den Bestand (749 Zeilen, 572
+Typen, 23 Stapel) bestanden. Amtliche Verteilung (Spalte
+Anforderungsbereich): I 18, II 22, III 9 (18 % III); die Spalte stimmt in
+allen 49 Zeilen mit dem höchsten Kompetenzeintrag überein. Skript:
+iqb-bau.py v0.8 – Stochastik WTR 2 hat eine dritte Aufgabe ohne
+Teilaufgabenbuchstaben (id …-3, teilaufgabe leer); die Prüfung
+„ungegliederte Aufgabe neben gegliederten Zeilen" gilt jetzt je
+Aufgabennummer statt je Datei, das id-Muster lässt den Buchstaben nach der
+Aufgabennummer weg.
+
+*Eichung 2024-ga-B: 46 von 49 mit der Liste v0.7, Maßstab Spalte
+Anforderungsbereich.* Drei Abweichungen, alle um eine Stufe: AG/LA A2 WTR 2
+b (drei Punkte auf einem Kreis über den Thaleskreis) geschätzt II, amtlich
+I – das Erkennen eines Satzes zählt in Teil B als Reproduktion; Stochastik
+WTR 1 1a (P(nicht T ∩ M) = 0,05 in Worte übersetzen) geschätzt I, amtlich II
+über K6; Stochastik WTR 1 2a (Baumdiagramm, Einzelwahrscheinlichkeit erst
+aus 1/36 zu erschließen) geschätzt II, amtlich I. Gefeuert und getroffen (9
+Zeilen amtlich III): (e) Extremstellen der Stammfunktion an den Nullstellen
+bei Analysis WTR 1 1f, (e) Integral des Ableitungsgraphen als
+Bestandsänderung bei 2d, (d) zwei Streckungen aus der Punktzuordnung bei WTR
+2 1d, (e) Differenzintegral als Streckenbilanz bei 2e, (d) Diagonalmatrizen
+als Entnahme und Zugang bei AG/LA A1 d, (b) Körper als schiefes Prisma für
+die Schnittfiguren bei AG/LA A2 WTR 1 e, (b) Sonderfall t = 0 und Grenzfall
+S_6 = A bei WTR 2 e, (a) Spielregel als Erwartungswertterm bei Stochastik
+WTR 1 2c, (a) Bogen als Graph von √(np(1 − p)) bei WTR 2 Aufgabe 3. Nicht
+gefeuert, amtlich II, Treffer: 21 Zeilen; amtlich I, Treffer: 16 Zeilen.
+
+*Typen 2024-ga-B.* 48 verwendet, 31 neu (davon einer nur als typ_neben:
+Koordinatengleichung einer parallelen Ebene durch einen Punkt), 17
+wiederverwendet: zehn aus Teil A (Ableitung eines Produkts mit e-Funktion
+in vorgegebener Form nachweisen; Tangentengleichung in einem Punkt des
+Graphen aufstellen; Übergangsprozess: Übergangsdiagramm aus der
+Übergangstabelle zeichnen – seit Lauf 5 auch aus der Matrix;
+Matrizenalgebra: Matrix-Vektor-Produkt berechnen; Ebene Figur:
+Flächeninhalt eines gleichschenkligen Dreiecks über die Höhe zur Basis;
+Dreieck: Parameter für einen rechten Winkel über das Skalarprodukt; Anteil
+für genau eines von zwei Ereignissen; Stochastische Unabhängigkeit über die
+Produktregel – amtlich über die bedingte Wahrscheinlichkeit, gleichwertig;
+Erwartungswertgleichung für einen Glücksradparameter aus den Spielregeln;
+Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil – seit Lauf 5 auch
+mit Vierfeldertafel) und sieben aus Teil B (Integralwert: Eindeutige Lösung
+einer Flächengleichung – hier nur Existenz; Nullstellen und Werte:
+Funktionswert im Sachzusammenhang; Schnittstellen zweier Graphen;
+Übergangsprozess: Term mit Matrixpotenz und Zugang; Koordinatengleichung
+einer Ebene durch drei Punkte – hier über den Ansatz mit Einsetzen;
+Vierfeldertafel aus Anteilen zweimal; Kumulierte Binomialwahrscheinlichkeit
+mit dem Rechner). Erste Fundstellen der Themen Ableitungsgraph und
+Funktionsgraph sowie Ereignisse und Mengenoperationen in Teil B. Ein neuer
+Typ deckt zwei Zeilen: „Körper: Eckenzahl der Schnittvielecke einer
+Ebenenschar mit einem Körper und Sonderfälle angeben" (AG/LA A2 WTR 1 e und
+WTR 2 e). Vorschlag für Abgleichlauf 6: „Stochastische Unabhängigkeit
+zweier Ereignisse über die Produktregel untersuchen" in der Definition um
+den Weg über die bedingte Wahrscheinlichkeit erweitern (keine Umbenennung).
+
+*Messung 2024-ga-B.* 49 Zeilen auf 41 Schnittwerte (1,20 je Wert); 31 von
+49 Zeilen (63 %) auf Werten aus Teil A grundlegend, 43 (87 %) auf Werten
+beider Niveaus. Trägerbindung: 3 von 49 Zeilen (6 %) – AG/LA A1 d
+(Wochentagsfolge der Wartung), AG/LA A2 WTR 1 c (Innenwinkel im Haus nur
+aus der Abbildung) und d (Lage des Schattens rechts neben der Überdachung).
+Zeilen mit abhaengig_von: 9, Schnitt mit der Kontextmenge leer. Aufwand: 7
+Dateien, 7,0 Zeilen je Datei; 13:21 Uhr Lesen der PDFs bis 13:35 Uhr
+bestandene Selbstprüfung, 14 Minuten (einschließlich der Skriptänderung),
+mit Nachführen etwa 25. Eigene Rechnung gegen den Erwartungshorizont: 37
+von 49 Zeilen (76 %) mit sympy-Kontrolle bestätigt, 2 Ablesungen, 10 Zeilen
+ohne rechnerisches Ergebnis (Diagramme, Skizzen, Deutungen); keine
+Abweichung vom Erwartungshorizont. Acht Abbildungen beschrieben, alle aus
+dem Render lesbar.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Stapel 2024-ga-B (WTR-Zweig) erfasst: 49 Zeilen aus 7 Dateien, Katalog 749 Zeilen, Typenliste 572 (31 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 46 von 49 nach der Spalte Anforderungsbereich. iqb-bau.py v0.8: nummerierte Aufgabe ohne Teilaufgabenbuchstaben in Teil B (Stochastik WTR 2, Aufgabe 3, id …-3). Trägerbindung 3 Zeilen. Berichtigung in § 4 (2026-ea-B): Verflechtung Rohstoffbedarf stammt aus Teil A, Funktionswert im Sachzusammenhang aus 2026-ga-B. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2025-ea-B (WTR-Zweig) erfasst: 47 Zeilen aus 8 Dateien, Katalog 700 Zeilen, Typenliste 541 (32 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/16), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 47 von 47 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 16; geteilte Teilaufgaben 2a, 2b bleiben Zeilen (iqb.md § 7 ergänzt). Trägerbindung 1 Zeile. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2025-ga-B (WTR-Zweig) erfasst: 42 Zeilen aus 8 Dateien, Katalog 653 Zeilen, Typenliste 509 (30 neu). Alle BE-Summen geprüft (25/25/15/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 42 von 42 nach der Spalte Anforderungsbereich. Keine Zeile mit Trägerbindung. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2026-ea-B (WTR-Zweig) erfasst: 60 Zeilen aus 9 Dateien, Katalog 611 Zeilen, Typenliste 479 (46 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/20/8), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 60 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 8; iqb.md § 7 Dubletten um wortgleiche Aufgaben innerhalb eines Stapels ergänzt. Trägerbindung 10 Zeilen, Kopplung an abhaengig_von bleibt verworfen (1 von 10 gemeinsam). MMS-Zweig nicht erfasst. |
