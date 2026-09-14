@@ -40,6 +40,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | bsp-ga-A | 16 (12 + 4 Dubletten) | entfällt – Reserve (§ 4) |
 | bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
 | 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
+| 2026-ea-B (WTR) | 9 von 18 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -69,6 +70,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 |
 | 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 |
 | 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 |
+| 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1666,10 +1668,99 @@ mit Umbenennung eines bestehenden Typs und bleibt offen. 433 Typen
 unverändert; Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand
 byteidentisch.
 
+**Stapel 2026-ea-B, WTR-Zweig (erster Erfassungsstapel Teil B, Auftrag des
+Lehrers, 14.09.2026; MMS-Zweig nicht erfasst).** 9 Dateien (Analysis WTR 1
+und 2 mit je zwei Aufgaben, Analysis WTR 3 mit einer, je 30 BE; AG/LA A1
+mit zwei Aufgaben, AG/LA A2 WTR 1 und 2 mit je einer, je 20 BE; Stochastik
+WTR 1 mit drei, WTR 2 mit zwei Aufgaben, je 20 BE; Stochastik WTR 3 mit 8
+BE, siehe Dubletten), 60 Zeilen, alle BE-Summen bestätigt, kein „?", drei
+Zeilen „ersatzweise" (Konfidenzintervalle unter Hypothesentests, die
+Themenliste hat keine Zeile dafür). Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung über den Bestand (611 Zeilen, 479 Typen, 20 Stapel)
+bestanden. Amtliche Verteilung (Spalte Anforderungsbereich): I 15, II 31,
+III 14 (23 % III); die Spalte stimmt in allen 60 Zeilen mit dem höchsten
+Kompetenzeintrag überein.
+
+*Dubletten unterhalb der Dateiebene.* Stochastik WTR 3, Aufgabe 1
+(Kraftfahrzeuge, 12 BE) ist wortgleich mit Stochastik WTR 2, Aufgabe 1 –
+die Datei unterscheidet sich nur in Aufgabe 2 (Konfidenzintervalle statt
+Signifikanztest). Aufgabe 1 der WTR 3 bekommt keine Zeile, das Soll der
+Datei ist 8 statt 20; Vermerk in bemerkung der letzten Zeile der Datei.
+Regel in iqb.md § 7 (Dubletten) ergänzt: wortgleiche ganze Aufgaben
+innerhalb eines Stapels werden einmal erfasst, das Soll der zweiten Datei
+sinkt um die BE der Aufgabe. Anders die vier Teilaufgaben, die Stochastik
+WTR 1 mit 2026-ga-B Stochastik WTR 1 teilt (1a, 1b, 2b, 2c wortgleich, die
+Trägeraufgaben unterscheiden sich in Aufgabe 3): über die Niveaus hinweg
+keine Dublette, beide Stapel tragen die Zeilen; die Typen sind gemeinsam.
+
+*Eichung 2026-ea-B: 59 von 60 mit der Liste v0.7, Maßstab Spalte
+Anforderungsbereich.* Eine Abweichung: Analysis WTR 2, 1c (verschobene
+Scharfunktion als √a (e^x + e^−x) nachweisen und gerade zeigen) geschätzt
+II nach dem Prinzip – Nachrechnen einer vorgegebenen Identität mit
+mitgeführtem Parameter –, amtlich III über K5; das IQB wertet die
+Potenzumformung e^{½ ln a} = √a als anspruchsvoll. Gefeuert und getroffen
+(13 Zeilen amtlich III): (c)+(d) Steigungsdreieck |T_uQ_u| = f/f' bei
+Analysis WTR 1 1d, (a) Kreisberührung als Normale bei 1e, (b) Symmetrieachse
+über die Verschiebung der geraden Funktion bei WTR 2 1d, (b) Spiegelung an
+y = x bei WTR 3 1g und Trapez mit 45°-Dreieck bei 1h, (a) Kostenschranke als
+Ungleichung im Wachstumsfaktor bei AG/LA A1 2d, (a) Weite als Abstand der
+Projektionen bei AG/LA A2 WTR 1 g, (a) Kreispunkt mit y = 5,6 widerlegen bei
+WTR 2 e, (d) Bayes-Term mit Parameter bei Stochastik WTR 1 2c, (a)
+Abweichung um höchstens zwei als Intervall bei 3c, (d) Summe der
+Intervallgrenzen als Schranke des Mittelwerts bei WTR 2 1e, (d) Fehler
+zweiter Art aus dem Graphen bei 2b, (d) Sicherheitswahrscheinlichkeit als
+Trefferwahrscheinlichkeit bei WTR 3 2c. Nicht gefeuert, amtlich II, Treffer:
+31 Zeilen, darunter die Verkettungen ohne Deutung (Nachweis gemeinsamer
+Scharpunkte, Aufgabenstellung zum Rotationsvolumen, Entscheidungsregel des
+Signifikanztests). Amtlich I, Treffer: 15 Zeilen; wie im Probestapel zählt
+eine Verkettung von Reproduktionen (Scharparameter und Wendepunkt, WTR 1
+1a) in Teil B als I.
+
+*Typen 2026-ea-B.* 59 verwendet, 46 neu, 13 wiederverwendet: vier aus Teil
+A (Transformation: Abbildung zwischen zwei Graphen angeben; Nullstellen und
+Werte: Funktionswert im Sachzusammenhang berechnen; Symmetrieebenen eines
+Körpers aus den Koordinaten begründen; Schnittpunkt von Gerade und Ebene
+berechnen) und neun aus 2026-ga-B (Kreismittelpunkt über die Normale,
+Periode der Kosinusfunktion, Verflechtung Rohstoffbedarf, Winkel zwischen
+Kanten, Kumulierte Binomialwahrscheinlichkeit mit dem Rechner zweimal,
+Gegenzufallsgröße, Fehlender Anteil im Baumdiagramm, Monotonie der bedingten
+Wahrscheinlichkeit, Vierfeldertafel vervollständigen). Erste Fundstellen
+der Themen Grenzwerte und Verhalten im Unendlichen (Analysis WTR 3 1a) und
+Hypothesentests (Stochastik WTR 2 2a, 2b; WTR 3 2a–c ersatzweise für
+Konfidenzintervalle); Rotationsvolumen zum ersten Mal in Teil B. Getrennt
+gehalten: „Körper: Trapezgrundfläche nachweisen und Pyramidenvolumen
+berechnen" von „Ebene Figur: Trapez über parallele Seiten nachweisen und
+Flächeninhalt berechnen" (Volumen statt Fläche); „Berührpunkt der Tangente
+mit vorgegebener Steigung berechnen" von „Tangente mit vorgegebener Steigung
+außerhalb eines Punktes angeben"; „Scharparameter den Graphen über den
+y-Achsenabschnitt zuordnen" von der Zuordnung über das Grenzverhalten.
+Vorschlag für Abgleichlauf 6: „Ebene Figur: Parallelogramm als Rechteck über
+das Skalarprodukt nachweisen" (AG/LA A2 WTR 1 a) gegen die Rechteck-Typen
+aus Teil A prüfen.
+
+*Messung Schnitt, Trägerbindung, Aufwand 2026-ea-B (Zusammenfassung für
+alle vier Stapel folgt nach 2024-ga-B).* 60 Zeilen auf 46 Schnittwerte
+(1,30 je Wert); 41 von 60 Zeilen (68 %) auf Werten aus Teil A erhöht, 44
+(73 %) auf Werten aus Teil A beider Niveaus. Trägerbindung: 10 von 60
+Zeilen (17 %) – Analysis WTR 2 2b, 2c, 2d (Bahnhofshalle: graue Fläche,
+Winkel zur Seitenkante, Signalleuchte), AG/LA A2 WTR 1 e, f, g
+(Sprungschanze: Wasserlinie, Weg des Fahrers, Weite), Stochastik WTR 1 3b,
+3c (Treuepunkte je 5 €), Stochastik WTR 3 2a, 2b (Abbildung der
+Konfidenzintervalle). Zeilen mit abhaengig_von: 11; gemeinsam mit der
+Kontextmenge nur AG/LA A2 WTR 1 f (1 von 10) – die Kopplung bleibt
+verworfen. Aufwand: 9 Dateien, 6,7 Zeilen je Datei; 12:32 Uhr Holen der
+PDFs bis 12:52 Uhr bestandene Selbstprüfung, 20 Minuten, mit Nachführen
+etwa 30. Eigene Rechnung gegen den Erwartungshorizont: 54 von 60 Zeilen
+(90 %) mit sympy-Kontrolle bestätigt (Winkel 146,5° erst nach Korrektur des
+Ansatzes 90° + Steigungswinkel; Term 7,45 statt zunächst 6,5 gerechnet),
+1 Ablesung (Fehler zweiter Art), 5 Zeilen ohne rechnerisches Ergebnis. Elf
+Abbildungen beschrieben, alle aus dem Render lesbar.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Stapel 2026-ea-B (WTR-Zweig) erfasst: 60 Zeilen aus 9 Dateien, Katalog 611 Zeilen, Typenliste 479 (46 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/20/8), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 60 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 8; iqb.md § 7 Dubletten um wortgleiche Aufgaben innerhalb eines Stapels ergänzt. Trägerbindung 10 Zeilen, Kopplung an abhaengig_von bleibt verworfen (1 von 10 gemeinsam). MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Vorarbeit Teil B (Auftrag des Lehrers): iqb.md v0.8 – Stapelschnitt Teil B mit Rechnerfassung (§ 7), Markierung „Traegerbindung: Kontext" in bemerkung (§ 7; Kopplung an abhaengig_von geprüft und verworfen, 2 von 6 gemeinsam), Eichregel Teil B nach der Spalte Anforderungsbereich (§ 4). iqb-bau.py v0.7 prüft Markierung und Spalte. iqb-abgleich.py v0.5, Lauf 5: zwei erweiterte Definitionen, Feldkorrektur bemerkung in 45 Zeilen des Probestapels; kein Typ geändert (433). Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-14 | Probestapel Teil B 2026-ga-B (WTR-Zweig) erfasst: 45 Zeilen aus 7 Dateien, Katalog 551 Zeilen, Typenliste 433. Alle BE-Summen geprüft (25/25/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 44 von 45 mit der Liste v0.7. iqb-bau.py v0.6: Erfassungseinheit in Teil B Stapel je Rechnerfassung, Bindestrich der Aufgabennummer in id/abhaengig_von zugelassen; iqb.md § 9 Teil-B-Kürzel bestätigt. Messung Schnitt in Teil B, Trägerbindung und Aufwand in § 4. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Abbruchkriterium Teil A korrigiert (Auftrag des Lehrers): Maßstab sind neue Schnittwerte innerhalb der Geltung (be-gk, bb-ea), gezählt im Gesamtbestand; rückwirkende Tabelle über 18 Stapel in § 4, Regel in iqb.md § 6. Urteil: Teil A ausgereizt (sieben der letzten acht Stapel unter fünf), 2017 und Beispielaufgaben entfallen als Reserve (§ 2). Kein Stapel erfasst. |

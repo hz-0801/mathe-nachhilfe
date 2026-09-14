@@ -462,7 +462,16 @@ Stand v0.1: keine.
   erste (Ordnung nach § 7); Dubletten bekommen keine Zeile und kein Soll,
   iqb-bau.py verlangt sie nicht und weist sie ab. Der Befund steht in
   bemerkung der ersten Datei. Ein Stapel zählt deshalb nach Dateien ohne
-  Dubletten (2026-ga-A: 19 Dateien, 18 erfasst).
+  Dubletten (2026-ga-A: 19 Dateien, 18 erfasst). **Teil B** (nach
+  2026-ea-B-wtr): Dubletten liegen dort unterhalb der Dateiebene – eine ganze
+  nummerierte Aufgabe kann in zwei Dateien desselben Stapels wortgleich stehen
+  (2026-ea-B Stochastik WTR 2 und WTR 3, Aufgabe 1 mit fünf Teilaufgaben). Die
+  Regel gilt sinngemäß: die zweite Aufgabe bekommt keine Zeile, das Soll der
+  Datei sinkt um ihre BE, der Befund steht in bemerkung der gekürzten Datei
+  (letzte Zeile) und in iqb-pruefungen.md § 4. Einzelne wortgleiche Teilaufgaben
+  über Niveaus hinweg (2026 Stochastik WTR 1 grundlegend und erhöht teilen vier
+  Teilaufgaben) sind keine Dublette: andere Trägeraufgabe, andere Zeile,
+  geteilter Typ.
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
   Stapels gegen iqb-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
   verfahren, stichwoerter. Ergebnis als Liste alt → neu in iqb-pruefungen.md § 5.
