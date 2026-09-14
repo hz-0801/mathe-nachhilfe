@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.3 · 14.09.2026 · gilt mit iqb.md v0.7 und iqb-bau.py v0.4
+Version 0.4 · 14.09.2026 · gilt mit iqb.md v0.7 und iqb-bau.py v0.5
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -18,6 +18,8 @@ iqb.md § 6, neun Zusammenziehungen (183 → 174 Typen).
 Lauf 2 (13.09.2026, nach 2022-ea-A): vier Zusammenziehungen (268 → 264).
 Lauf 3 (14.09.2026, nach 2020-ea-A): drei Zusammenziehungen, zwei erweiterte
 Definitionen (341 → 338).
+Lauf 4 (14.09.2026, nach 2018-ea-A): fünf Zusammenziehungen, eine Umbenennung,
+eine erweiterte Definition (406 → 401).
 """
 import csv, io, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -250,10 +252,63 @@ NEUE_DEFINITION_3 = {
         "erhält oder dass ihr Quadrat wieder stochastisch ist (Spaltensummen über a + c = 1, b + d = 1).",
 }
 
+# ======================================================================= Lauf 4
+# Fünf Zusammenziehungen nach Kern § 6, eine Umbenennung (Name enger als die
+# Definition), eine erweiterte Definition.
+ZUSAMMEN_4 = {
+    "Matrizenalgebra: Einträge der inversen Matrix mit Platzhaltern angeben":
+        "Matrizenalgebra: Inverse Matrix über A · B = E bestimmen",
+    "Matrizenalgebra: Inverse Matrix über ein Gleichungssystem aus A · B = E bestimmen":
+        "Matrizenalgebra: Inverse Matrix über A · B = E bestimmen",
+    "Wahrscheinlichkeit für mindestens einmal über das Gegenereignis im Baumdiagramm nachweisen":
+        "Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen",
+    "Wahrscheinlichkeit für höchstens einmal bei zwei Zügen über das Gegenereignis berechnen":
+        "Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen",
+    "Nullstellen und Werte: Nullstelle durch Einsetzen nachweisen":
+        "Nullstellen und Werte: Nullstelle oder Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen",
+    "Nullstellen und Werte: Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen":
+        "Nullstellen und Werte: Nullstelle oder Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen",
+    "Fläche: Fläche zwischen Graph und waagerechter Gerade über einem Intervall berechnen":
+        "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen",
+    "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen":
+        "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen",
+    "Fläche: Steigung einer Ursprungsgeraden aus dem Flächeninhalt zwischen Parabel und Gerade bestimmen":
+        "Fläche: Parameter einer Geraden aus dem Flächeninhalt zwischen Graph und Gerade bestimmen",
+    "Fläche: Parameter einer Geraden aus dem Flächeninhalt zwischen zwei Graphen bestimmen":
+        "Fläche: Parameter einer Geraden aus dem Flächeninhalt zwischen Graph und Gerade bestimmen",
+    "Tangentensteigung an einer Nullstelle über die Ableitung nachweisen":
+        "Tangentensteigung in einem Punkt über die Ableitung nachweisen",
+}
+
+NEUE_DEFINITION_4 = {
+    "Matrizenalgebra: Inverse Matrix über A · B = E bestimmen":
+        "Die Einträge der inversen Matrix über A · B = E bestimmen – Platzhalter einer vorgegebenen Form (auch "
+        "über Kehrwerte) oder alle Einträge über das Gleichungssystem aus dem Produkt.",
+    "Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen":
+        "In einem zweistufigen Experiment die Wahrscheinlichkeit für mindestens einmal oder höchstens einmal "
+        "über das Gegenereignis (kein Treffer bzw. zweimal Treffer) berechnen oder nachweisen; die Stufen "
+        "können eine Weiche haben.",
+    "Nullstellen und Werte: Nullstelle oder Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen":
+        "Durch Einsetzen zeigen, dass eine genannte Stelle Nullstelle ist oder dass der Graph dort eine "
+        "waagerechte Gerade schneidet (Funktionswert berechnen und vergleichen).",
+    "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen":
+        "Den Inhalt der Fläche zwischen zwei Graphen (auch Graph und waagerechte Gerade) zwischen "
+        "Schnittstellen oder zwischen vorgegebenen senkrechten Grenzen als Integral der Differenz berechnen; "
+        "die Stammfunktion kann vorgegeben sein.",
+    "Fläche: Parameter einer Geraden aus dem Flächeninhalt zwischen Graph und Gerade bestimmen":
+        "Den Parameter einer Geraden (Steigung oder Achsenabschnitt) so bestimmen, dass die mit einem Graphen "
+        "eingeschlossene Fläche einen vorgegebenen Inhalt hat: Grenzen fest oder als Schnittstellen mit "
+        "Parameter, Integral als Term im Parameter, Gleichung lösen.",
+    "Ziehen ohne Zurücklegen: Kugelzahl aus einer Wahrscheinlichkeitsbedingung beim Umlegen einer Kugel bestimmen":
+        "Eine unbekannte Kugelzahl bestimmen, indem eine Bedingung an die Behälter auf die Farben der "
+        "umgelegten Kugeln (ein- oder mehrmaliges Umlegen) zurückgeführt und als Gleichung gelöst wird.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
     3: ({}, ZUSAMMEN_3, NEUE_DEFINITION_3, {}),
+    4: ({}, ZUSAMMEN_4, NEUE_DEFINITION_4, {}),
 }
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]

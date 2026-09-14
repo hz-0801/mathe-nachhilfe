@@ -1384,10 +1384,124 @@ vier Zielprüfungen 19 von 26 (73 %). Bestand jetzt außerhalb be-gk 105,
 be-lk 72, bb-gk 104, bb-ea 71 von 506 Zeilen – Geltungsquote be-gk 401
 von 506 (79 %), be-lk 434 (86 %), bb-gk 402 (79 %), bb-ea 435 (86 %).
 
+**Abgleichlauf 4 (nach 2018-ea-A, über den Gesamtbestand von 506 Zeilen;
+iqb-abgleich.py v0.4, Aufruf `python iqb-abgleich.py 4`).** Fünf
+Zusammenziehungen nach Kern § 6, eine Umbenennung, eine erweiterte
+Definition, keine neuen Präfixe: **406 → 401 Typen, 1,25 → 1,26 Zeilen je
+Typ**, elf Typfelder im Katalog geändert.
+
+| alt | alt | neu |
+|---|---|---|
+| Matrizenalgebra: Einträge der inversen Matrix mit Platzhaltern angeben (2020-ga-A) | Matrizenalgebra: Inverse Matrix über ein Gleichungssystem aus A · B = E bestimmen (2018-ga-A) | Matrizenalgebra: Inverse Matrix über A · B = E bestimmen |
+| Wahrscheinlichkeit für mindestens einmal über das Gegenereignis im Baumdiagramm nachweisen (2020-ea-A) | Wahrscheinlichkeit für höchstens einmal bei zwei Zügen über das Gegenereignis berechnen (2019-ga-A) | Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen |
+| Nullstellen und Werte: Nullstelle durch Einsetzen nachweisen (2025-ga-A) | Nullstellen und Werte: Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen (2019-ea-A) | Nullstellen und Werte: Nullstelle oder Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen |
+| Fläche: Fläche zwischen Graph und waagerechter Gerade über einem Intervall berechnen (2018-ga-A) | Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen (Abgleichlauf 3) | (zweiter Name bleibt; Definition um Graph und waagerechte Gerade zwischen senkrechten Grenzen erweitert) |
+| Fläche: Steigung einer Ursprungsgeraden aus dem Flächeninhalt zwischen Parabel und Gerade bestimmen (2022-ga-A) | Fläche: Parameter einer Geraden aus dem Flächeninhalt zwischen zwei Graphen bestimmen (2018-ea-A) | Fläche: Parameter einer Geraden aus dem Flächeninhalt zwischen Graph und Gerade bestimmen |
+| Tangentensteigung an einer Nullstelle über die Ableitung nachweisen (2021-ea-A) | – | Tangentensteigung in einem Punkt über die Ableitung nachweisen (Umbenennung, die Definition war schon allgemein; 2018-ea-A im Wendepunkt) |
+
+Definition erweitert: „Ziehen ohne Zurücklegen: Kugelzahl aus einer
+Wahrscheinlichkeitsbedingung beim Umlegen einer Kugel bestimmen" (auch
+mehrmaliges Umlegen, 2019-ea-A Stochastik 2 b). Getrennt gelassen: die vier
+M²-Typen (Übergangsprozess: Eintrag von M² und Zeile deuten / Quadrat aus
+dem Diagramm berechnen / Quadrat berechnen und M² · v deuten;
+Matrizenalgebra: Quadrat einer Matrix mit Parameter) – verschiedener
+Gegenstand oder zusätzliche Deutung; „Fehlende Extrempunkte über eine
+positive Ableitung begründen" gegen „Fehlende waagerechte Tangente über
+Vorzeichen am Graphen begründen" (Term gegen Graph); „Übergangsprozess:
+Potenz der Übergangsmatrix gleich Einheitsmatrix als Zyklus deuten" gegen
+„… Langfristige Entwicklung aus M³ als Vielfachem der Einheitsmatrix durch
+Fallunterscheidung beschreiben"; „Pfadwahrscheinlichkeit einer
+vorgegebenen Ergebnisfolge als Produkt berechnen" gegen „Term für die
+Wahrscheinlichkeit eines mehrstufigen Pfads angeben" (Wert gegen Term);
+„Wahrscheinlichkeitsverteilung der Augensumme in einer Tabelle
+vervollständigen" gegen „… über ein unmögliches Ergebnis vervollständigen"
+(Abzählen gegen Summe 1). Selbstprüfung nach dem Abgleich: 506 Zeilen, 401
+Typen, alle verwendet, 18 Stapel vollständig; Abgleich aus dem HEAD-Stand
+byteidentisch.
+
+**Jahrgangsvergleich, um 2019 und 2018 fortgeschrieben** (aus dem Bestand
+von 506 Zeilen, Eichung nach der Liste v0.7; 2019-ga-A mit 22 gewerteten
+Zeilen):
+
+| Pool | Niveau | Zeilen | Zeilen je Datei | BE 1 / 2 / 3 / 4 / 5 | ungegliedert (5 BE) | amtlich höchstens I / II / III | Anteil III | Eichung | neue Typen |
+|---|---|---|---|---|---|---|---|---|---|
+| 2019 | ga | 23 | 2,09 | 5 / 7 / 8 / 3 / 0 | 0 % | 10 / 8 / 4 | 18 % | 22 von 22 (100 %) | 65 % |
+| 2019 | ea | 20 | 2,00 | 2 / 8 / 8 / 2 / 0 | 0 % | 3 / 13 / 4 | 20 % | 20 von 20 (100 %) | 75 % |
+| 2018 | ga | 25 | 2,08 | 1 / 13 / 11 / 0 / 0 | 0 % | 6 / 13 / 6 | 24 % | 23 von 25 (92 %) | 68 % |
+| 2018 | ea | 26 | 2,17 | 2 / 14 / 10 / 0 / 0 | 0 % | 6 / 15 / 5 | 19 % | 25 von 26 (96 %) | 81 % |
+
+Befund: 2019 und 2018 haben keine ungegliederte Aufgabe und 2018 keine
+Teilaufgabe über 3 BE – die 4- und 5-BE-Zeilen beginnen mit dem Pool 2020.
+Anteil amtlich-III: 2018 22 %, 2019 19 % (iqb.md § 7 fortgeschrieben); 2018
+ist das einzige Pooljahr, in dem das grundlegende Niveau (24 %) über dem
+erhöhten (19 %) liegt. Eichung 2019 100 %, 2018 94 %.
+
+**Abbruchkriterium Teil A, umgestellt auf neue Schnittwerte je Stapel
+(Auftrag des Lehrers).** Maßstab: unter fünf neue Schnittwerte je Stapel
+heißt ausgereizt. Gezählt im selben Niveau (wie in der Tabelle oben) und
+zusätzlich im Gesamtbestand (beide Niveaus):
+
+| Stapel | Zeilen | neue Schnittwerte im Niveau | davon im Bestand neu | Schnitt bekannt (Niveau) | Bestand Schnittwerte danach |
+|---|---|---|---|---|---|
+| 2021-ga-A | 23 | 9 | – | 61 % | – |
+| 2021-ea-A | 33 | 6 | – | 82 % | – |
+| 2020-ga-A | 19 | 3 | – | 74 % | – |
+| 2020-ea-A | 28 | 6 | – | 79 % | 129 |
+| 2019-ga-A | 23 | 3 | 0 | 87 % | 129 |
+| 2019-ea-A | 20 | 4 | 1 | 80 % | 130 |
+| 2018-ga-A | 25 | 6 | 2 | 76 % | 132 |
+| 2018-ea-A | 26 | 8 | 7 | 69 % | 139 |
+
+Bestand nach 2018-ea-A: 139 Schnittwerte (grundlegend 97, erhöht 115,
+gemeinsam 73). Urteil: Die beiden 2019-Stapel liegen mit 3 und 4 unter der
+Schwelle, die beiden 2018-Stapel mit 6 und 8 darüber – im Bestand brachte
+2018-ea-A allein sieben neue Werte (Abbildungsmatrizen, Symmetrie ·
+berechnen, Unabhängigkeit, Zufallsgrößen · angeben, Ebene Figur ·
+begründen, Übergangsdiagramm zeichnen, Kurvenuntersuchung · angeben). Der
+Zulauf fällt also nicht monoton; die ältesten Pooljahre bringen wieder mehr,
+weil ihre Aufgabenformen (Abbildungsmatrizen, Tabellen, Diagramm zeichnen)
+in den jüngeren Pools fehlen. Nach dem Maßstab ist Teil A noch nicht
+ausgereizt. Vorschlag (nicht umgesetzt): 2017 (zwei Stapel, 21 Dateien)
+noch erfassen; liegen beide 2017-Stapel unter fünf neuen Werten, sind die
+Beispielaufgaben (zwei Stapel, 24 Dateien) entbehrlich und Teil B ist an
+der Reihe; bringt 2017 wie 2018 sechs und mehr, folgen die
+Beispielaufgaben.
+
+**Geltungsquote je Stapel und im Bestand** (Anteil der Zeilen innerhalb
+der Geltung nach iqb.md § 6; be-gk / be-lk / bb-gk / bb-ea):
+
+| Stapel | Zeilen | be-gk | be-lk | bb-gk | bb-ea |
+|---|---|---|---|---|---|
+| 2026-ga-A | 33 | 100 % | 100 % | 100 % | 100 % |
+| 2026-ea-A | 37 | 81 % | 84 % | 81 % | 84 % |
+| 2025-ga-A | 31 | 94 % | 94 % | 97 % | 97 % |
+| 2025-ea-A | 34 | 76 % | 94 % | 76 % | 94 % |
+| 2024-ga-A | 30 | 87 % | 87 % | 87 % | 87 % |
+| 2024-ea-A | 32 | 59 % | 91 % | 59 % | 91 % |
+| 2023-ga-A | 24 | 88 % | 88 % | 88 % | 88 % |
+| 2023-ea-A | 32 | 72 % | 84 % | 72 % | 84 % |
+| 2022-ga-A | 24 | 88 % | 88 % | 88 % | 88 % |
+| 2022-ea-A | 32 | 59 % | 78 % | 59 % | 78 % |
+| 2021-ga-A | 23 | 91 % | 91 % | 91 % | 91 % |
+| 2021-ea-A | 33 | 79 % | 88 % | 79 % | 88 % |
+| 2020-ga-A | 19 | 68 % | 68 % | 68 % | 68 % |
+| 2020-ea-A | 28 | 79 % | 89 % | 79 % | 89 % |
+| 2019-ga-A | 23 | 83 % | 83 % | 83 % | 83 % |
+| 2019-ea-A | 20 | 80 % | 80 % | 80 % | 80 % |
+| 2018-ga-A | 25 | 72 % | 72 % | 72 % | 72 % |
+| 2018-ea-A | 26 | 73 % | 73 % | 73 % | 73 % |
+| **Bestand** | 506 | 401 (79 %) | 434 (86 %) | 402 (79 %) | 435 (86 %) |
+
+Die Quote hängt fast nur am Matrizenanteil (Aufgabengruppe A1); in den
+erhöhten Stapeln 2022–2025 kommen für die Grundkurse Funktionsscharen,
+Ebenenscharen und Normalverteilung dazu. Die Grundkurs-Geltung liegt im
+Bestand bei vier Fünfteln, die Leistungskurs-Geltung bei sechs Siebteln.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Abgleichlauf 4 über den Gesamtbestand (506 Zeilen): 406 → 401 Typen, fünf Zusammenziehungen, eine Umbenennung („Tangentensteigung an einer Nullstelle …" → „… in einem Punkt …"), eine erweiterte Definition (Liste alt → neu in § 4), elf Typfelder im Katalog geändert; iqb-abgleich.py v0.4. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: Jahrgangsvergleich um 2019 und 2018 fortgeschrieben, Abbruchkriterium auf neue Schnittwerte je Stapel umgestellt (3, 4, 6, 8 – Vorschlag: 2017 noch erfassen, dann entscheiden), Geltungsquote je Stapel und im Bestand als Tabelle. iqb.md § 7: Anteil amtlich-III und Eichmessung bis Pool 2018 fortgeschrieben. Kennzahlentabelle in § 2 bis 2018-ea-A. |
 | 2026-09-14 | 2018-ea-A vollständig erfasst: 26 Zeilen aus 12 Dateien, Katalog 506 Zeilen, Typenliste 406. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 25 von 26 mit der Liste v0.7 (Analysis 1.2 b über dem amtlichen Bereich geschätzt). |
 | 2026-09-14 | 2018-ga-A vollständig erfasst: 25 Zeilen aus 12 Dateien, Katalog 480 Zeilen, Typenliste 385. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 25 mit der Liste v0.7 (AGLAA12 a und AGLAA22 a unter dem amtlichen Bereich geschätzt). |
 | 2026-09-14 | 2019-ea-A vollständig erfasst: 20 Zeilen aus 10 Dateien, Katalog 455 Zeilen, Typenliste 368. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 20 von 20 mit der Liste v0.7. |
