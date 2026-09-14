@@ -1132,6 +1132,7 @@ Niveaus über 85 %, wäre Teil A ausgereizt und Teil B an der Reihe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | iqb.md § 7: Vermerk zur Nullfall-Regel – sie beruht auf einem einzigen Fall (2023-ea-A AGLAA111), nachdem sich der zweite Beleg (2025-ea-A AGLAA121 b, zwei Fälle a = ±2, Treffer der Grundregel) als falsch erwiesen hat; Versionszeile ergänzt, keine Versionsänderung. |
 | 2026-09-14 | Abgleichlauf 3 über den Gesamtbestand (412 Zeilen): 341 → 338 Typen, drei Zusammenziehungen und zwei erweiterte Definitionen (Liste alt → neu in § 4), fünf Typfelder im Katalog geändert; iqb-abgleich.py v0.3. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: ea-Bias-Test (Testregel kostet netto sechs Treffer, nicht umgesetzt), Jahrgangsvergleich mit 2021 und 2020 vervollständigt (kein Corona-Muster), Abbruchkriterium mit Schnitt-Wiederverwendung je Stapel (Vorschlag: 2019 und 2018 noch erfassen). iqb.md § 7 Anteil amtlich-III um 2021 und 2020 fortgeschrieben. |
 | 2026-09-14 | 2020-ea-A vollständig erfasst: 28 Zeilen aus 15 Dateien, Katalog 412 Zeilen, Typenliste 341. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 28 von 28 mit der Liste v0.7. |
 | 2026-09-14 | 2020-ga-A vollständig erfasst: 19 Zeilen aus 10 Dateien, Katalog 384 Zeilen, Typenliste 319. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 18 von 19 mit der Liste v0.7. |

@@ -2,8 +2,9 @@
 Version 0.7 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
 Änderungen gegenüber 0.6 (nach 2022-ea-A und Abgleichlauf 2): § 7 Deutungsliste –
 Nullfall-Regel zur Fallunterscheidung (ein einzelner Nullfall eines Koeffizienten
-zählt nicht); § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe zwischen 2023
-und 2024, ohne Deutung).
+zählt nicht; Vermerk nach Abgleichlauf 3: beruht auf einem einzigen Fall, der
+zweite Beleg war falsch); § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe
+zwischen 2023 und 2024, ohne Deutung).
 Änderungen gegenüber 0.5 (nach 2024-ea-A): § 6 Gegenstandsklassen je Thema als
 Schnitt für Teil A, Präfix im Typnamen (Entscheidung 24, Abgleichlauf über
 alle Typen); § 7 Deutungsliste mit Prinzip am Kopf und Eintrag (e).
@@ -432,7 +433,12 @@ Stand v0.1: keine.
   viele). Ein einzelner Nullfall eines Koeffizienten – ein Parameterwert, für
   den eine Gleichung unlösbar wird, sonst eindeutige Lösung (b = −4 in
   (4 + b) · z = 1) – ist keine Fallunterscheidung und bleibt II (2023-ea-A
-  AGLAA111 amtlich II). **Prinzip** (an den Kopf gestellt nach 2024-ea-A, v0.6): Eine
+  AGLAA111 amtlich II). Die Regel beruht auf diesem einen Fall: der zweite
+  Beleg, mit dem sie ursprünglich begründet wurde (2025-ea-A AGLAA121 b), hat
+  sich als falsch erwiesen – dort werden zwei Fälle a = ±2 mit verschiedenem
+  Ausgang ausgeführt, die Zeile ist ein Treffer der Grundregel. Ein weiterer
+  Nullfall im Bestand würde die Regel erst absichern (Stand 14.09.2026, nach
+  2020-ea-A). **Prinzip** (an den Kopf gestellt nach 2024-ea-A, v0.6): Eine
   Deutung zählt nur, wenn sie zu finden ist – eine Beziehung wird hergeleitet,
   eine Bedingung erst gefunden, eine Symmetrie erst erkannt. Was der Text
   wörtlich vorgibt oder was sich als Identität mit mitgeführtem Parameter
