@@ -502,15 +502,17 @@ Stand v0.1: keine.
   Zeilen von 2026-ea-A und 2025-ga-A die Schätzung der jeweils geltenden
   Fassung; wo die enge Fassung abweicht, steht sie in bemerkung („Schätzung enge
   Fassung: II").
-- **Anteil amtlich-III je Pooljahr** (Befund aus dem Bestand von 309 Zeilen,
+- **Anteil amtlich-III je Pooljahr** (Befund aus dem Bestand von 412 Zeilen,
   Teil A, Stand 14.09.2026; Anteil der Zeilen, deren höchster amtlicher
-  Bereich III ist): Pool 2022 11 von 56 (20 %), 2023 12 von 56 (21 %), 2024
-  18 von 62 (29 %), 2025 19 von 65 (29 %), 2026 19 von 70 (27 %). Nach Niveau:
-  grundlegend 2022 17 %, 2023 21 %, 2024 23 %, 2025 23 %, 2026 21 %; erhöht
-  2022 22 %, 2023 22 %, 2024 34 %, 2025 35 %, 2026 32 %. Die Stufe liegt
-  zwischen den Pooljahren 2023 und 2024 und stammt aus dem erhöhten Niveau.
-  Eine Ursache wird nicht gedeutet; die Zahlen werden nach 2021 und 2020
-  fortgeschrieben.
+  Bereich III ist): Pool 2020 8 von 47 (17 %), 2021 9 von 56 (16 %), 2022 11
+  von 56 (20 %), 2023 12 von 56 (21 %), 2024 18 von 62 (29 %), 2025 19 von 65
+  (29 %), 2026 19 von 70 (27 %). Nach Niveau: grundlegend 2020 11 %, 2021
+  13 %, 2022 17 %, 2023 21 %, 2024 23 %, 2025 23 %, 2026 21 %; erhöht 2020
+  21 %, 2021 18 %, 2022 22 %, 2023 22 %, 2024 34 %, 2025 35 %, 2026 32 %. Die
+  Stufe liegt zwischen den Pooljahren 2023 und 2024 und stammt aus dem
+  erhöhten Niveau; im grundlegenden Niveau steigt der Anteil von 2020 bis 2024
+  gleichmäßig. Eine Ursache wird nicht gedeutet; die Zahlen werden nach 2019
+  und 2018 fortgeschrieben.
 - **Kein Aufgabenstamm im engen Sinn**, aber Text vor a) ist der Normalfall
   („Der Graph der in IR definierten Funktion f mit … wird mit G bezeichnet").
   Jede Zeile wiederholt in gegeben, was sie davon braucht (Kern § 4).

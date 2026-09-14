@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.2 · 13.09.2026 · gilt mit iqb.md v0.6 und iqb-bau.py v0.4
+Version 0.3 · 14.09.2026 · gilt mit iqb.md v0.7 und iqb-bau.py v0.4
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -16,6 +16,8 @@ aus. Danach iqb-bau.py mit leerem ZEILEN laufen lassen.
 Lauf 1 (13.09.2026, Entscheidung 24): Gegenstandsklasse als Präfix nach
 iqb.md § 6, neun Zusammenziehungen (183 → 174 Typen).
 Lauf 2 (13.09.2026, nach 2022-ea-A): vier Zusammenziehungen (268 → 264).
+Lauf 3 (14.09.2026, nach 2020-ea-A): drei Zusammenziehungen, zwei erweiterte
+Definitionen (341 → 338).
 """
 import csv, io, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -212,9 +214,46 @@ NEUE_DEFINITION_2 = {
         "nur gerade bzw. nur ungerade Exponenten enthält.",
 }
 
+# ======================================================================= Lauf 3
+# Drei Zusammenziehungen nach Kern § 6; zwei Definitionen um die neue Fundstelle erweitert.
+ZUSAMMEN_3 = {
+    "Matrizenalgebra: Bedingungen für die Vertauschbarkeit zweier Matrizen aus einer binomischen Gleichung untersuchen":
+        "Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln",
+    "Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln":
+        "Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln",
+    "Fläche: Fläche zwischen zwei Graphen mit vorgegebener Stammfunktion berechnen":
+        "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen",
+    "Fläche: Fläche zwischen zwei Graphen bis zu einer vorgegebenen Grenze berechnen":
+        "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen",
+    "Besondere Lage einer Ebene im Koordinatensystem beschreiben":
+        "Lage einer Ebene zu einer Koordinatenachse aus der Koordinatengleichung begründen",
+    "Parallelität einer Ebene zu einer Koordinatenachse über die Koordinatengleichung begründen":
+        "Lage einer Ebene zu einer Koordinatenachse aus der Koordinatengleichung begründen",
+}
+
+NEUE_DEFINITION_3 = {
+    "Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln":
+        "Alle Matrizen B mit A · B = B · A für eine gegebene Matrix A ermitteln – die Bedingung kann auch "
+        "aus einer binomischen Gleichung (A + B)² = A² + 2AB + B² folgen: allgemeiner Ansatz, Produkte "
+        "vergleichen, Lösungsmenge mit freien Parametern.",
+    "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen":
+        "Den Inhalt der Fläche zwischen zwei Graphen zwischen Schnittstellen oder bis zu einer vorgegebenen "
+        "Grenze als Integral der Differenz berechnen; die Stammfunktion kann vorgegeben sein.",
+    "Lage einer Ebene zu einer Koordinatenachse aus der Koordinatengleichung begründen":
+        "Aus einer Koordinatengleichung ohne eine Variable die Lage der Ebene zu dieser Koordinatenachse "
+        "begründen oder beschreiben (parallel; enthält die Achse, wenn zusätzlich das Absolutglied null ist).",
+    "Übergangsprozess: Matrixeintrag im Sachzusammenhang deuten":
+        "Einen Eintrag der Übergangsmatrix oder eine Zahl des Übergangsdiagramms als Anteil oder Faktor "
+        "eines Übergangs zwischen zwei Zuständen deuten.",
+    "Matrizenalgebra: Erhalt der Spaltensumme unter einer stochastischen Matrix allgemein nachweisen":
+        "Mit allgemeiner Matrix zeigen, dass eine stochastische Matrix die Komponentensumme eines Vektors "
+        "erhält oder dass ihr Quadrat wieder stochastisch ist (Spaltensummen über a + c = 1, b + d = 1).",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
+    3: ({}, ZUSAMMEN_3, NEUE_DEFINITION_3, {}),
 }
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]

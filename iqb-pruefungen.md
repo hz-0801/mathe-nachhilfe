@@ -1005,10 +1005,134 @@ Definition von „Matrizenalgebra: Erhalt der Spaltensumme …" um M² erweitern
 1.3 a, b; 2.1 b). Bestand jetzt be-gk 83, be-lk 50, bb-gk 82, bb-ea 49 von
 412 Zeilen.
 
+**Abgleichlauf 3 (nach 2020-ea-A, über den Gesamtbestand von 412 Zeilen;
+iqb-abgleich.py v0.3, Aufruf `python iqb-abgleich.py 3`).** Drei
+Zusammenziehungen nach Kern § 6 und zwei erweiterte Definitionen, keine neuen
+Präfixe: **341 → 338 Typen, 1,21 → 1,22 Zeilen je Typ**, fünf Typfelder im
+Katalog geändert.
+
+| alt | alt | neu |
+|---|---|---|
+| Matrizenalgebra: Bedingungen für die Vertauschbarkeit zweier Matrizen aus einer binomischen Gleichung untersuchen (2025-ea-A) | Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln (2021-ea-A) | (zweiter Name bleibt; Definition nennt die binomische Gleichung als Zugang) |
+| Fläche: Fläche zwischen zwei Graphen mit vorgegebener Stammfunktion berechnen (2026-ga-A) | Fläche: Fläche zwischen zwei Graphen bis zu einer vorgegebenen Grenze berechnen (2020-ea-A) | Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen |
+| Besondere Lage einer Ebene im Koordinatensystem beschreiben (2022-ga-A) | Parallelität einer Ebene zu einer Koordinatenachse über die Koordinatengleichung begründen (2020-ea-A) | Lage einer Ebene zu einer Koordinatenachse aus der Koordinatengleichung begründen |
+
+Definitionen erweitert: „Übergangsprozess: Matrixeintrag im Sachzusammenhang
+deuten" (auch Diagrammzahlen, 2020-ea-A AGLAA11 a), „Matrizenalgebra: Erhalt
+der Spaltensumme unter einer stochastischen Matrix allgemein nachweisen"
+(auch M², 2020-ea-A AGLAA12). Getrennt gelassen: „Verflechtung: Matrixeintrag
+aus Mengenbedingungen ermitteln" gegen „Verflechtung: Unbekannte Bedarfe im
+Diagramm aus der Gesamtmatrix bestimmen" (Gleichung aus Mengen gegen
+Matrixprodukt), „Verflechtung: Rohstoffbedarf über die Verflechtungsmatrix
+berechnen" gegen „… Rohstoffmenge aus den übrigen Rohstoffen …" (Vorwärts-
+gegen Umkehrrechnung), die beiden Spiegelpunkt-Typen (Lotfußpunkt gegeben
+oder nicht), die beiden Ableitungsnachweise (Potenzregel gegen Produkt- und
+Kettenregel), „Bayes-Term im Sachzusammenhang deuten" gegen „Term und
+Ereignis: …" (anderes Thema, Quotient als bedingte Wahrscheinlichkeit).
+Selbstprüfung nach dem Abgleich: 412 Zeilen, 338 Typen, alle verwendet, 14
+Stapel vollständig; Abgleich aus dem HEAD-Stand byteidentisch.
+
+**ea-Bias-Test (Auftrag des Lehrers, nicht umgesetzt): (b) und (d) feuern
+auf erhöhtem Niveau nur, wenn ein zweiter Eintrag greift.** Rückwirkend über
+alle sieben ea-Stapel mit der Liste v0.7 (die Einträge je Zeile stehen seit
+2024-ea-A in bemerkung; für 2026-ea-A und 2025-ea-A aus den Feldern
+verfahren/bemerkung nachvollzogen). Zeilen, die nur über (b) oder nur über
+(d) auf III kommen, fielen auf II:
+
+| Stapel | Liste v0.7 | Testregel | Änderungen |
+|---|---|---|---|
+| 2026-ea-A | 36 von 37 | 32 von 37 | Analysis 2.1 b (d, Wertemenge transformiert), AGLAA221 b (b, gemeinsamer Lotfußpunkt), AGLAA223 (b, Symmetrieebenen), Stochastik 2.1 b (d, Term mit v und w) – alle amtlich III: vier Verluste |
+| 2025-ea-A | 31 von 34 | 30 von 34 | Analysis 2.3 b (d, Sekantensteigungen) amtlich III: Verlust; Analysis 2.2 bleibt III über (b)+(d) |
+| 2024-ea-A | 32 von 32 | 31 von 32 | Stochastik 2.1 (b, gleicher Schwarzanteil, Bayes) amtlich III: Verlust |
+| 2023-ea-A | 30 von 32 | 31 von 32 | Analysis 1.3 b (d, Rotationskörper) amtlich II: Gewinn; AGLAA12 b bleibt III über (d) mit Fallunterscheidung, AGLAA222 b über (b)+(a) |
+| 2022-ea-A | 30 von 32 | 30 von 32 | AGLAA221 a (b, Ähnlichkeit) amtlich III: Verlust; Stochastik 1.2 b (d, Zugfolgen) amtlich II: Gewinn; AGLAA211 b bleibt Fehltreffer über (b)+(a), AGLAA222 b bleibt III über (b)+(d) |
+| 2021-ea-A | 33 von 33 | 33 von 33 | kein (b)- oder (d)-Alleingang |
+| 2020-ea-A | 28 von 28 | 27 von 28 | Analysis 2.2 (b, Tiefpunkt von g in der Kettenregel) amtlich III: Verlust; AGLAA22 b bleibt III über (b) mit Fallunterscheidung |
+| Summe | 220 von 228 (96 %) | 214 von 228 (94 %) | acht Verluste, zwei Gewinne |
+
+Ergebnis: Die Testregel kostet netto sechs Treffer. Die (b)- und
+(d)-Alleingänge auf erhöhtem Niveau sind in acht von zehn Fällen amtlich III
+– der Bias liegt nicht in der Regel, sondern in zwei Einzelfällen (Term als
+Rotationskörper, Term als Zugfolgen), die das IQB als Standarddeutung wertet.
+Empfehlung: Liste v0.7 unverändert lassen.
+
+**Jahrgangsvergleich Pool 2022 und 2021 (Corona-Jahrgänge) gegen 2020 und
+2023–2026, aus dem Bestand von 412 Zeilen (Eichung je Katalogzeile nach der
+zur Erfassung geltenden Liste; 2023-ea-A mit v0.7 30 von 32).**
+
+| Pool | Niveau | Zeilen | Zeilen je Datei | BE 1 / 2 / 3 / 4 / 5 | ungegliedert (5 BE) | amtlich höchstens I / II / III | Anteil III | Eichung | neue Typen |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026 | ga | 33 | 1,83 | 3 / 12 / 13 / 1 / 4 | 12 % | 12 / 14 / 7 | 21 % | 30 von 33 (91 %) | 100 % |
+| 2026 | ea | 37 | 1,85 | 10 / 7 / 7 / 10 / 3 | 8 % | 10 / 15 / 12 | 32 % | 34 von 37 (92 %) | 82 % |
+| 2025 | ga | 31 | 1,94 | 5 / 10 / 10 / 5 / 1 | 3 % | 8 / 16 / 7 | 23 % | 29 von 31 (94 %) | 94 % |
+| 2025 | ea | 34 | 1,79 | 4 / 11 / 11 / 4 / 4 | 12 % | 6 / 16 / 12 | 35 % | 30 von 34 (88 %) | 89 % |
+| 2024 | ga | 30 | 1,88 | 4 / 10 / 11 / 2 / 3 | 10 % | 7 / 16 / 7 | 23 % | 26 von 30 (87 %) | 87 % |
+| 2024 | ea | 32 | 1,68 | 5 / 8 / 8 / 5 / 6 | 19 % | 6 / 15 / 11 | 34 % | 32 von 32 (100 %) | 88 % |
+| 2023 | ga | 24 | 1,85 | 5 / 6 / 6 / 5 / 2 | 8 % | 8 / 11 / 5 | 21 % | 23 von 24 (96 %) | 83 % |
+| 2023 | ea | 32 | 1,88 | 4 / 12 / 10 / 3 / 3 | 9 % | 4 / 21 / 7 | 22 % | 29 von 32 (91 %) | 81 % |
+| 2022 | ga | 24 | 1,71 | 2 / 9 / 7 / 1 / 5 | 21 % | 7 / 13 / 4 | 17 % | 23 von 24 (96 %) | 92 % |
+| 2022 | ea | 32 | 1,88 | 4 / 12 / 10 / 3 / 3 | 9 % | 7 / 18 / 7 | 22 % | 30 von 32 (94 %) | 88 % |
+| 2021 | ga | 23 | 2,09 | 2 / 10 / 11 / 0 / 0 | 0 % | 5 / 15 / 3 | 13 % | 23 von 23 (100 %) | 57 % |
+| 2021 | ea | 33 | 1,94 | 9 / 9 / 5 / 7 / 3 | 9 % | 8 / 19 / 6 | 18 % | 33 von 33 (100 %) | 91 % |
+| 2020 | ga | 19 | 1,90 | 1 / 9 / 7 / 0 / 2 | 11 % | 3 / 14 / 2 | 11 % | 18 von 19 (95 %) | 63 % |
+| 2020 | ea | 28 | 1,87 | 5 / 9 / 7 / 4 / 3 | 11 % | 9 / 13 / 6 | 21 % | 28 von 28 (100 %) | 81 % |
+
+Befund: Ein Corona-Muster ist nicht zu sehen. Eichquote: 2022 95 %, 2021
+100 %, 2020 98 % – die drei ältesten Jahrgänge liegen oben, die vier
+jüngeren bei 91–94 %; das ist die Reifung der Deutungsliste (v0.7 seit
+2021-ga-A), nicht der Jahrgang. Anteil neuer Typen: 2021-ga 57 % und 2020-ga
+63 % sind die niedrigsten Werte, weil im grundlegenden Niveau inzwischen
+sechs Stapel vorliegen; 2021-ea 91 % ist normal. BE-Verteilung: 2021-ga ist
+der einzige Stapel ohne 4- und 5-BE-Zeilen (alle Aufgaben in 2 + 3 oder
+3 + 2 gegliedert, 2,09 Zeilen je Datei), 2022-ga hat mit 21 % den höchsten
+Anteil ungegliederter Aufgaben – die beiden Corona-Grundkursstapel liegen
+also an den beiden Rändern, kein gemeinsames Muster. Anteil amtlich-III:
+2020 17 %, 2021 16 %, 2022 20 %, 2023 21 %, 2024 29 %, 2025 29 %, 2026 27 %
+– ein Anstieg von 2021 bis 2024 ohne Einbruch bei den Corona-Jahrgängen; im
+grundlegenden Niveau steigt der Anteil gleichmäßig von 11 % (2020) auf 23 %
+(2024), im erhöhten springt er zwischen 2023 (22 %) und 2024 (34 %) (iqb.md
+§ 7, ohne Deutung).
+
+**Abbruchkriterium Teil A (Auftrag des Lehrers, Vorschlag, nicht
+umgesetzt).** Schnitt-Wiederverwendung je Stapel in der Reihenfolge der
+Erfassung mit den heutigen Klassen (Wert bekannt = im selben Niveau schon
+erfasst), dazu die Zahl der neuen Schnittwerte je Stapel:
+
+| Stapel | Zeilen | Schnitt bekannt | neue Schnittwerte | Typ bekannt (Niveau) | Typ bekannt (beide Niveaus) |
+|---|---|---|---|---|---|
+| 2026-ga-A | 33 | 0 % | 28 | 0 % | 0 % |
+| 2026-ea-A | 37 | 0 % | 33 | 0 % | 14 % |
+| 2025-ga-A | 31 | 26 % | 20 | 3 % | 23 % |
+| 2025-ea-A | 34 | 29 % | 22 | 9 % | 21 % |
+| 2024-ga-A | 30 | 50 % | 14 | 7 % | 17 % |
+| 2024-ea-A | 32 | 44 % | 15 | 6 % | 12 % |
+| 2023-ga-A | 24 | 75 % | 6 | 21 % | 25 % |
+| 2023-ea-A | 32 | 47 % | 13 | 19 % | 19 % |
+| 2022-ga-A | 24 | 58 % | 8 | 8 % | 8 % |
+| 2022-ea-A | 32 | 75 % | 8 | 12 % | 22 % |
+| 2021-ga-A | 23 | 61 % | 9 | 30 % | 43 % |
+| 2021-ea-A | 33 | 82 % | 6 | 9 % | 12 % |
+| 2020-ga-A | 19 | 74 % | 3 | 26 % | 37 % |
+| 2020-ea-A | 28 | 79 % | 6 | 25 % | 29 % |
+
+Bestand: 129 Schnittwerte (grundlegend 88, erhöht 103, gemeinsam 62). Die
+Schnitt-Wiederverwendung liegt in den letzten vier Stapeln bei 61, 82, 74
+und 79 % – noch nicht stabil über 85 %; im erhöhten Niveau nähert sie sich
+(75, 82, 79 %), im grundlegenden schwankt sie (58, 61, 74 %). Die Zahl neuer
+Schnittwerte je Stapel ist von 28 auf 3 bis 9 gefallen. Nach typ liegt die
+Wiederverwendung bei 9 bis 30 % und steigt nur langsam – der Typ ist als
+Feinetikett nicht das Maß. Vorschlag: 2019 und 2018 (vier Stapel, 45
+Dateien) noch erfassen – sie bringen nach dem Trend je Stapel noch 3 bis 8
+neue Schnittwerte und dürften das erhöhte Niveau über 85 % heben; danach am
+Maßstab entscheiden, ob 2017 und die Beispielaufgaben (vier Stapel, 51
+Dateien) noch nötig sind. Läge die Wiederverwendung nach 2018 in beiden
+Niveaus über 85 %, wäre Teil A ausgereizt und Teil B an der Reihe.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Abgleichlauf 3 über den Gesamtbestand (412 Zeilen): 341 → 338 Typen, drei Zusammenziehungen und zwei erweiterte Definitionen (Liste alt → neu in § 4), fünf Typfelder im Katalog geändert; iqb-abgleich.py v0.3. Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. In § 4: ea-Bias-Test (Testregel kostet netto sechs Treffer, nicht umgesetzt), Jahrgangsvergleich mit 2021 und 2020 vervollständigt (kein Corona-Muster), Abbruchkriterium mit Schnitt-Wiederverwendung je Stapel (Vorschlag: 2019 und 2018 noch erfassen). iqb.md § 7 Anteil amtlich-III um 2021 und 2020 fortgeschrieben. |
 | 2026-09-14 | 2020-ea-A vollständig erfasst: 28 Zeilen aus 15 Dateien, Katalog 412 Zeilen, Typenliste 341. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 28 von 28 mit der Liste v0.7. |
 | 2026-09-14 | 2020-ga-A vollständig erfasst: 19 Zeilen aus 10 Dateien, Katalog 384 Zeilen, Typenliste 319. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 18 von 19 mit der Liste v0.7. |
 | 2026-09-14 | 2021-ea-A vollständig erfasst: 33 Zeilen aus 17 Dateien (zwei Dubletten), Katalog 365 Zeilen, Typenliste 307. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 33 von 33 mit der Liste v0.7. |
