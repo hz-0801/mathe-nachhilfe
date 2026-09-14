@@ -648,9 +648,10 @@ Dublette), Teil A hat damit 312 Aufgaben.
 geschätzt III, amtlich II: Analysis 1.3 b (Term als Rotationsvolumen deuten
 und mit Zylindern abschätzen – (d) gefeuert; das IQB wertet die Deutung des
 Terms als bekanntes Muster), AGLAA111 (Fallunterscheidung nach b bei einem
-gestaffelten System – Grundregel gefeuert, wie schon 2025-ea-A bei demselben
-Typ: der Fall „ein Koeffizient null" zählt amtlich nicht als
-Fallunterscheidung), Stochastik 1.3 a (Bedingung „ein Behälter einfarbig"
+gestaffelten System – Grundregel gefeuert; anders als bei 2025-ea-A AGLAA121 b
+(a = ±2 mit zwei verschiedenen Ausgängen, amtlich III) ist hier nur ein
+einzelner Koeffizient null, das zählt amtlich nicht als Fallunterscheidung),
+Stochastik 1.3 a (Bedingung „ein Behälter einfarbig"
 auf „rote Kugel" zurückführen – (a) gefeuert). Gefeuert und getroffen: (e)
 bei Analysis 2.1 b (Stammfunktionsgraph), (a)+(c) bei Analysis 2.2
 (Kosinusfunktion in p), (d) mit Fallunterscheidung bei AGLAA12 b
@@ -659,10 +660,10 @@ bei Analysis 2.1 b (Stammfunktionsgraph), (a)+(c) bei Analysis 2.2
 Nicht gefeuert nach dem Prinzip, amtlich II, Treffer: Analysis 1.2 b
 (Flächengleichheit wörtlich vorgegeben), AGLAA213 b (Nachrechnen mit
 mitgeführtem a), Stochastik 1.2 b (Unabhängigkeit als Definition
-vorgegeben). Befund: die Grundregel „Fallunterscheidung heißt III" hat nun
-zweimal bei demselben LGS-Typ verfehlt; ein einzelner Nullfall eines
-Koeffizienten sollte wie das Prinzip behandelt werden (Vorschlag für die
-Liste, nicht umgesetzt).
+vorgegeben). Befund: die Grundregel „Fallunterscheidung heißt III" hat hier
+verfehlt, weil nur ein einzelner Nullfall eines Koeffizienten vorliegt; ein
+solcher Nullfall sollte wie das Prinzip behandelt werden (Vorschlag für die
+Liste; umgesetzt als Nullfall-Regel in iqb.md v0.7, siehe unten).
 
 **Typen 2023-ea-A.** 31 verwendet, 25 neu, 6 wiederverwendet: Fläche zwischen
 Graph und x-Achse in Abhängigkeit vom Scharparameter (2024-ea-A),
@@ -837,10 +838,28 @@ Standardbezugs ab Pool 2024 (mehr K1/K2 III bei Teil-A-Aufgaben). Die
 Themen sind 2022 unauffällig (Matrizen, Scharen, Normalverteilung wie in
 den Nachbarjahren). Ob 2021 anders aussieht, zeigt der nächste Lauf.
 
+**Deutungsliste v0.7: Nullfall-Regel (Auftrag des Lehrers, vor 2021-ga-A).**
+Eine Fallunterscheidung zählt erst, wenn mindestens zwei Fälle mit
+verschiedenem Ausgang ausgeführt werden; ein einzelner Nullfall eines
+Koeffizienten bleibt II (iqb.md § 7). Rückwirkend über alle zehn Stapel
+ändert sich genau eine Schätzung: 2023-ea-A AGLAA111 (b = −4 macht
+(4 + b) · z = 1 unlösbar, sonst eindeutig) III → II, amtlich II – Gewinn.
+Unverändert, weil echte Fallunterscheidungen: 2025-ea-A AGLAA121 b (a = 2 ohne
+Lösung, a = −2 unendlich viele; amtlich III), 2023-ga-A AGLAA12 (a = 0 oder
+t = 2; amtlich III), 2024-ea-A AGLAA223 b (Nachbarschaft; amtlich III),
+2023-ea-A AGLAA12 b (c ≶ 1/20 mit (d); amtlich III). Stand v0.7: 2026-ga-A
+30 von 33, 2026-ea-A 36 von 37, 2025-ga-A 29 von 31, 2025-ea-A 31 von 34,
+2024-ga-A 28 von 30, 2024-ea-A 32 von 32, 2023-ga-A 23 von 24, 2023-ea-A 30
+von 32, 2022-ga-A 23 von 24, 2022-ea-A 30 von 32 – **287 von 309 (93 %)**.
+Die Katalogzeile behält ihre Schätzung (iqb.md § 7); der Befund zu 2023-ea-A
+oben ist berichtigt (die Aussage, derselbe LGS-Typ habe schon 2025-ea-A
+verfehlt, war falsch – dort ist die Zeile ein Treffer mit zwei Fällen).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | iqb.md v0.7: Nullfall-Regel zur Fallunterscheidung in § 7 (ein einzelner Nullfall eines Koeffizienten zählt nicht), rückwirkend eine Änderung (2023-ea-A AGLAA111, Gewinn), Bestand 287 von 309; § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe zwischen 2023 und 2024, aus dem erhöhten Niveau, ohne Deutung). Befund 2023-ea-A berichtigt (2025-ea-A AGLAA121 b ist ein Treffer mit zwei Fällen). |
 | 2026-09-13 | Abgleichlauf 2 über den Gesamtbestand (309 Zeilen): 268 → 264 Typen, vier Zusammenziehungen (Liste alt → neu in § 4), neun Typfelder im Katalog geändert; iqb-abgleich.py v0.2 führt die Läufe getrennt (python iqb-abgleich.py [N]). Selbstprüfung bestanden, Abgleich aus dem HEAD-Stand byteidentisch. Jahrgangsvergleich Pool 2022 gegen 2023–2026 in § 4 (kein Corona-Muster; 2021 folgt). |
 | 2026-09-13 | 2022-ea-A vollständig erfasst: 32 Zeilen aus 17 Dateien, Katalog 309 Zeilen, Typenliste 268. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 30 von 32 mit der Liste v0.6. Befund 2022-ga-A: Zählfehler bei den ungegliederten Aufgaben berichtigt (fünf). |
 | 2026-09-13 | 2022-ga-A vollständig erfasst: 24 Zeilen aus 14 Dateien, Katalog 277 Zeilen, Typenliste 240. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 24 mit der Liste v0.6. |

@@ -1,5 +1,9 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 0.6 · 13.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.7 · 14.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.6 (nach 2022-ea-A und Abgleichlauf 2): § 7 Deutungsliste –
+Nullfall-Regel zur Fallunterscheidung (ein einzelner Nullfall eines Koeffizienten
+zählt nicht); § 7 Befund zum Anteil amtlich-III je Pooljahr (Stufe zwischen 2023
+und 2024, ohne Deutung).
 Änderungen gegenüber 0.5 (nach 2024-ea-A): § 6 Gegenstandsklassen je Thema als
 Schnitt für Teil A, Präfix im Typnamen (Entscheidung 24, Abgleichlauf über
 alle Typen); § 7 Deutungsliste mit Prinzip am Kopf und Eintrag (e).
@@ -422,7 +426,13 @@ Stand v0.1: keine.
   enge Fassung; Entscheidung nach dem Stapel 2025-ga-A, 13.09.2026). Der
   amtliche Standardbezug setzt III, wo eine Teilaufgabe mehrere Regeln oder
   Verfahren verkettet **und** dabei eine Deutung oder Fallunterscheidung
-  verlangt. **Prinzip** (an den Kopf gestellt nach 2024-ea-A, v0.6): Eine
+  verlangt. **Nullfall-Regel** (v0.7, nach 2022-ea-A): Eine Fallunterscheidung
+  zählt erst, wenn mindestens zwei Fälle mit verschiedenem Ausgang ausgeführt
+  werden (a = 0 oder t = 2 in M · v = t · v; a = 2 ohne Lösung, a = −2 unendlich
+  viele). Ein einzelner Nullfall eines Koeffizienten – ein Parameterwert, für
+  den eine Gleichung unlösbar wird, sonst eindeutige Lösung (b = −4 in
+  (4 + b) · z = 1) – ist keine Fallunterscheidung und bleibt II (2023-ea-A
+  AGLAA111 amtlich II). **Prinzip** (an den Kopf gestellt nach 2024-ea-A, v0.6): Eine
   Deutung zählt nur, wenn sie zu finden ist – eine Beziehung wird hergeleitet,
   eine Bedingung erst gefunden, eine Symmetrie erst erkannt. Was der Text
   wörtlich vorgibt oder was sich als Identität mit mitgeführtem Parameter
@@ -482,13 +492,25 @@ Stand v0.1: keine.
   2024-ea-A 32 von 32. Mit der Liste v0.6 (Prinzip, (e)) rückwirkend 186 von
   197 – (e) holt 2026-ga-A Analysis 2.2 b und 2026-ea-A Analysis 2.3 zurück,
   das Prinzip ändert keine Schätzung; erster Stapel mit v0.6: 2023-ga-A 23
-  von 24 (Wertemenge von e^(x²) amtlich III, kein Eintrag).
+  von 24 (Wertemenge von e^(x²) amtlich III, kein Eintrag). Mit v0.6 weiter:
+  2023-ea-A 29 von 32, 2022-ga-A 23 von 24, 2022-ea-A 30 von 32. Mit der
+  Nullfall-Regel (v0.7) rückwirkend: nur 2023-ea-A AGLAA111 ändert sich (III
+  → II, amtlich II), 287 von 309 über zehn Stapel.
   Die weite Fassung „Kombinieren heißt III" (Stand nach 2026-ga-A) hatte die
   Verkettung allein zum Maß gemacht; sie trifft die amtlich mit III belegten
   Zeilen ebenso, überschätzt aber Routineverkettungen. Im Katalog tragen die
   Zeilen von 2026-ea-A und 2025-ga-A die Schätzung der jeweils geltenden
   Fassung; wo die enge Fassung abweicht, steht sie in bemerkung („Schätzung enge
   Fassung: II").
+- **Anteil amtlich-III je Pooljahr** (Befund aus dem Bestand von 309 Zeilen,
+  Teil A, Stand 14.09.2026; Anteil der Zeilen, deren höchster amtlicher
+  Bereich III ist): Pool 2022 11 von 56 (20 %), 2023 12 von 56 (21 %), 2024
+  18 von 62 (29 %), 2025 19 von 65 (29 %), 2026 19 von 70 (27 %). Nach Niveau:
+  grundlegend 2022 17 %, 2023 21 %, 2024 23 %, 2025 23 %, 2026 21 %; erhöht
+  2022 22 %, 2023 22 %, 2024 34 %, 2025 35 %, 2026 32 %. Die Stufe liegt
+  zwischen den Pooljahren 2023 und 2024 und stammt aus dem erhöhten Niveau.
+  Eine Ursache wird nicht gedeutet; die Zahlen werden nach 2021 und 2020
+  fortgeschrieben.
 - **Kein Aufgabenstamm im engen Sinn**, aber Text vor a) ist der Normalfall
   („Der Graph der in IR definierten Funktion f mit … wird mit G bezeichnet").
   Jede Zeile wiederholt in gegeben, was sie davon braucht (Kern § 4).
