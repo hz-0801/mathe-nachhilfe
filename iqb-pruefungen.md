@@ -41,6 +41,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
 | 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
 | 2026-ea-B (WTR) | 9 von 18 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
+| 2025-ga-B (WTR) | 8 von 16 (MMS-Zweig offen) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -71,6 +72,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 |
 | 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 |
 | 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 |
+| 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1756,10 +1758,69 @@ Ansatzes 90° + Steigungswinkel; Term 7,45 statt zunächst 6,5 gerechnet),
 1 Ablesung (Fehler zweiter Art), 5 Zeilen ohne rechnerisches Ergebnis. Elf
 Abbildungen beschrieben, alle aus dem Render lesbar.
 
+**Stapel 2025-ga-B, WTR-Zweig (zweiter Erfassungsstapel Teil B, 14.09.2026;
+MMS-Zweig nicht erfasst).** 8 Dateien (Analysis WTR 1 und 2 mit je zwei
+Aufgaben und 25 BE; AG/LA A1 mit zwei Aufgaben, AG/LA A2 WTR 1 und 2,
+Stochastik WTR 1 bis 3 mit je einer Aufgabe und 15 BE), 42 Zeilen, alle
+BE-Summen bestätigt, kein „?", kein „ersatzweise", keine Dublette. Lauf aus
+dem HEAD-Stand byteidentisch, Selbstprüfung über den Bestand (653 Zeilen,
+509 Typen, 21 Stapel) bestanden. Amtliche Verteilung (Spalte
+Anforderungsbereich): I 15, II 19, III 8 (19 % III); die Spalte stimmt in
+allen 42 Zeilen mit dem höchsten Kompetenzeintrag überein.
+
+*Eichung 2025-ga-B: 42 von 42 mit der Liste v0.7, Maßstab Spalte
+Anforderungsbereich.* Gefeuert und getroffen (8 Zeilen amtlich III): (b)
+Punktsymmetrie um (0 | 4) für den Flächenausgleich bei Analysis WTR 1 1d,
+(a) Gleichung a(x + 3) = a(x) + 1000 als Bedingung an zwei Graphenpunkte bei
+WTR 2 2c, (a) unveränderte Zusammensetzung als Fixvektorgleichung mit zwei
+Unbekannten bei AG/LA A1 1c, (d) Streckenparameter als Position und Gerade
+als Strahl bei AG/LA A2 WTR 1 e, (d) Verschiebung und Skalarprodukt als
+rechter Winkel bei WTR 2 d, (d) Bayes-Quotient und Parameter als
+Verringerung bei Stochastik WTR 1 e, (a) Zählmodell aus den Bedingungen bei
+WTR 2 e, (a) gestaffelte Bezahlung als Erwartungswertterm bei WTR 3 e. Nicht
+gefeuert, amtlich II, Treffer: 19 Zeilen; amtlich I, Treffer: 15 Zeilen.
+
+*Typen 2025-ga-B.* 41 verwendet, 30 neu (davon einer nur als typ_neben:
+Prozentuale Abweichung eines Näherungswerts), 11 wiederverwendet: fünf aus
+Teil A (Tangentengleichung in einem Punkt des Graphen aufstellen;
+Übergangsprozess: Matrixeintrag im Sachzusammenhang deuten; Baumdiagramm
+zu einer zweistufigen Situation erstellen; Term und Ereignis: Ereignis zu
+einem gegebenen Wahrscheinlichkeitsterm beschreiben; Unbekannte Größe aus
+einer Erwartungswertbedingung bestimmen) und sechs aus Teil B
+(Koordinatengleichung einer Ebene durch drei Punkte bestimmen; Kumulierte
+Binomialsumme als Sachaussage formulieren; Vierfeldertafel aus Anteilen
+vervollständigen – alle 2026-ga-B; Bestimmtes Integral mit vorgegebener
+Stammfunktion; Neigungswinkel einer Ebene gegen eine Koordinatenebene
+zweimal; Kumulierte Binomialwahrscheinlichkeit mit dem Rechner zweimal). Erste
+Fundstelle des Themas Kurvenuntersuchung in Teil B (drei Typen). Getrennt
+gehalten: „Normalenvektor einer Ebene aus zwei Richtungsvektoren über
+Skalarprodukte bestimmen" von „Geraden und Ebenen: Normalenvektor einer
+Ebene in Parameterform über Skalarprodukte nachweisen" (bestimmen statt
+nachweisen). Vorschlag für Abgleichlauf 6: „Übergangsprozess: Matrixeintrag
+aus einem beobachteten Fixvektor bestimmen" gegen die Fixvektor-Typen aus
+Teil A (Matrizenalgebra) prüfen.
+
+*Messung 2025-ga-B.* 42 Zeilen auf 35 Schnittwerte (1,20 je Wert); 30 von
+42 Zeilen (71 %) auf Werten aus Teil A grundlegend, 38 (90 %) auf Werten
+aus Teil A beider Niveaus. Trägerbindung: 0 von 42 Zeilen – jede Sachlage
+(Reichweite, Likes, Population, Partyzelt, Haushalte, Brettspiel,
+Naturkostkette) lässt sich in gegeben in einem Satz mitführen, auch die
+beiden zu erläuternden Lösungsansätze (Zelt e: Schiene, Strahl, Loch;
+Drachen d: verschobener Eckpunkt) stehen vollständig in der Teilaufgabe.
+Zeilen mit abhaengig_von: 8, Schnitt mit der Kontextmenge leer. Aufwand: 8
+Dateien, 5,2 Zeilen je Datei; 12:54 Uhr Lesen der PDFs bis 13:05 Uhr
+bestandene Selbstprüfung, 11 Minuten, mit Nachführen etwa 20. Eigene
+Rechnung gegen den Erwartungshorizont: 31 von 42 Zeilen (74 %) mit
+sympy-Kontrolle bestätigt, 4 Ablesungen (Hochpunkt und Temperaturbereich
+der Reichweite, Durchschnitt und Lösung bei den Likes), 7 Zeilen ohne
+rechnerisches Ergebnis; keine Abweichung vom Erwartungshorizont. Sieben
+Abbildungen beschrieben, alle aus dem Render lesbar.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | Stapel 2025-ga-B (WTR-Zweig) erfasst: 42 Zeilen aus 8 Dateien, Katalog 653 Zeilen, Typenliste 509 (30 neu). Alle BE-Summen geprüft (25/25/15/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 42 von 42 nach der Spalte Anforderungsbereich. Keine Zeile mit Trägerbindung. MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Stapel 2026-ea-B (WTR-Zweig) erfasst: 60 Zeilen aus 9 Dateien, Katalog 611 Zeilen, Typenliste 479 (46 neu). Alle BE-Summen geprüft (30/30/30/20/20/20/20/20/8), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 60 nach der Spalte Anforderungsbereich. Stochastik WTR 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1: keine Zeile, Soll 8; iqb.md § 7 Dubletten um wortgleiche Aufgaben innerhalb eines Stapels ergänzt. Trägerbindung 10 Zeilen, Kopplung an abhaengig_von bleibt verworfen (1 von 10 gemeinsam). MMS-Zweig nicht erfasst. |
 | 2026-09-14 | Vorarbeit Teil B (Auftrag des Lehrers): iqb.md v0.8 – Stapelschnitt Teil B mit Rechnerfassung (§ 7), Markierung „Traegerbindung: Kontext" in bemerkung (§ 7; Kopplung an abhaengig_von geprüft und verworfen, 2 von 6 gemeinsam), Eichregel Teil B nach der Spalte Anforderungsbereich (§ 4). iqb-bau.py v0.7 prüft Markierung und Spalte. iqb-abgleich.py v0.5, Lauf 5: zwei erweiterte Definitionen, Feldkorrektur bemerkung in 45 Zeilen des Probestapels; kein Typ geändert (433). Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-14 | Probestapel Teil B 2026-ga-B (WTR-Zweig) erfasst: 45 Zeilen aus 7 Dateien, Katalog 551 Zeilen, Typenliste 433. Alle BE-Summen geprüft (25/25/15/15/15/15/15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 44 von 45 mit der Liste v0.7. iqb-bau.py v0.6: Erfassungseinheit in Teil B Stapel je Rechnerfassung, Bindestrich der Aufgabennummer in id/abhaengig_von zugelassen; iqb.md § 9 Teil-B-Kürzel bestätigt. Messung Schnitt in Teil B, Trägerbindung und Aufwand in § 4. MMS-Zweig nicht erfasst. |
