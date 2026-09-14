@@ -33,7 +33,7 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | 2020-ea-A | 15 | **erfasst 2026-09-14, 28 Zeilen** · 22 Typen neu, 6 wiederverwendet · Eichung 28 von 28 (Liste v0.7) |
 | 2019-ga-A | 11 | **erfasst 2026-09-14, 23 Zeilen** · 15 Typen neu, 8 wiederverwendet · Eichung 22 von 22 gewerteten Zeilen (Liste v0.7; AGLAA22 a ohne Standardbezug) |
 | 2019-ea-A | 10 | **erfasst 2026-09-14, 20 Zeilen** · 15 Typen neu, 5 wiederverwendet · Eichung 20 von 20 (Liste v0.7) |
-| 2018-ga-A | 12 | nicht erfasst |
+| 2018-ga-A | 12 | **erfasst 2026-09-14, 25 Zeilen** · 17 Typen neu, 8 wiederverwendet · Eichung 23 von 25 (Liste v0.7) |
 | 2018-ea-A | 12 | nicht erfasst |
 | 2017-ga-A | 10 | nicht erfasst |
 | 2017-ea-A | 11 | nicht erfasst |
@@ -65,6 +65,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2020-ea-A | 28 | 27 | 22 (81 %) | 28 von 28 (100 %), Liste v0.7 | 0 | 0 | 5 von 27 (19 %); Schnitt 24 Werte, 22 von 28 Zeilen bekannt (79 %) | 6, 3, 6, 3 |
 | 2019-ga-A | 23 | 23 | 15 (65 %) | 22 von 22 gewerteten Zeilen (100 %), Liste v0.7; eine Zeile ohne Standardbezug | 0 | 0 | 6 von 23 (26 %); Schnitt 20 Werte, 20 von 23 Zeilen bekannt (87 %) | 4, 4, 4, 4 |
 | 2019-ea-A | 20 | 20 | 15 (75 %) | 20 von 20 (100 %), Liste v0.7 | 0 | 0 | 3 von 20 (15 %); Schnitt 15 Werte, 16 von 20 Zeilen bekannt (80 %) | 4, 4, 4, 4 |
+| 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -1170,7 +1171,7 @@ Transformation: Verschobenen Graphen in die Abbildung skizzieren
 (2025-ga-A), Laplace-Wahrscheinlichkeit für den ersten Zug (2025-ga-A),
 Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse
 (2025-ea-A), Ziehen ohne Zurücklegen: Wahrscheinlichkeit beim zweimaligen
-Ziehen (2026-ga-A; Erwartungshorizont hypergeometrisch mit
+Ziehen (2025-ga-A; Erwartungshorizont hypergeometrisch mit
 Binomialkoeffizienten, gleichwertig über zwei Pfade – Thema wie bisher
 Zufallsexperimente und Urnenmodelle), Unpassende Säulendiagramme zu einer
 Binomialverteilung (2021-ga-A), Term und Ereignis (zusammengezogener Typ).
@@ -1244,10 +1245,83 @@ von 20 (80 %). Bestand jetzt außerhalb be-gk 91, be-lk 58, bb-gk 90, bb-ea
 57 von 455 Zeilen – Geltungsquote be-gk 364 von 455 (80 %), be-lk 397
 (87 %), bb-gk 365 (80 %), bb-ea 398 (87 %).
 
+**Stapel 2018-ga-A.** 12 Dateien, keine Dublette, 25 Zeilen, alle 5 BE
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (480 Zeilen, 385 Typen, 17
+Stapel) bestanden. Keine ungegliederte Aufgabe; eine Datei mit drei
+Teilaufgaben (AGLAA112, 1 + 2 + 2 BE, drei Seiten). Erste Fundstelle des
+Themas Rekonstruktion von Beständen im grundlegenden Niveau (Analysis 2,
+Zuflussrate; bisher nur 2021-ea-A). Sieben Matrizenzeilen (AGLAA111, 112,
+12), 28 % des Stapels (2020-ga-A: 32 %). Die Standardbezug-Tabelle trägt 2018 noch
+die Fußnote zur Bedeutung der Einträge; Teil-A-Dateien von 2018 nennen das
+Sachgebiet ohne Alternative.
+
+**Eichung 2018-ga-A: 23 von 25 mit der Liste v0.7.** Zwei Abweichungen,
+beide geschätzt unter dem amtlichen Bereich: AGLAA12 a ((A + B)² gegen den
+vorgegebenen Term A² + 2AB + B², b = −1) geschätzt II – die rechte Seite
+ist vorgegeben, es bleibt Ausmultiplizieren und Eintragsvergleich –,
+amtlich III (K2 III, K5 II); AGLAA22 a (rechter Winkel bei B für alle t,
+Skalarprodukt 4t − 4t) geschätzt I wie beim gleichen Typ in 2026-ga-A
+(Identität mit mitgeführtem Parameter, dort amtlich I), amtlich II (nur
+K5 II). Kein Eintrag der Liste betroffen; beides Einzelurteile des IQB
+zur Routine mit Parameter. Gefeuert und getroffen: (e) bei Analysis 2 a
+(Zunahme des Bestands aus dem Vorzeichen der Rate, Parabel), (a) bei
+Analysis 2 b („sieben Liter" als Gleichung mit Integral und variabler
+Grenze), (c) bei AGLAA12 b (C · D + D · C = 0 beim nichtkommutativen
+Ausmultiplizieren), (a) bei AGLAA22 b („zwei Innenwinkel gleich" mit dem
+rechten Winkel in |BA| = |BC_t| übersetzt), (d) bei Stochastik 2 b (1/9
+als zweimal Rot, Summe als kumulierte Binomialwahrscheinlichkeit). Nicht
+gefeuert nach dem Prinzip, amtlich II, Treffer: Analysis 1.1 a (Skizze
+aus dem Term), AGLAA111 b (Formatregel), AGLAA211 b (Kollinearität
+praktisch vorgegeben), AGLAA212 b (Projektion), Stochastik 1.2 b
+(Erwartungswert und Einsatz, reine Verkettung). Nullfall-Regel: kein
+Anwendungsfall.
+
+**Typen 2018-ga-A.** 25 verwendet, 17 neu, 8 wiederverwendet:
+Tangentengleichung in einem Punkt des Graphen aufstellen (2025-ga-A),
+Übergangsprozess: Matrixeintrag im Sachzusammenhang deuten (2022-ea-A;
+hier Gegenanteil), Dreieck: Rechten Winkel eines Dreiecks mit Parameter
+nachweisen (2026-ga-A), Parameter aus der Gleichschenkligkeit eines
+Dreiecks berechnen (2026-ga-A; hier ist die Gleichschenkligkeit erst aus
+„zwei Innenwinkel gleich" zu gewinnen), Ziehen ohne Zurücklegen:
+Wahrscheinlichkeit beim zweimaligen Ziehen (2025-ga-A), Erwartungswert der
+Auszahlung mit dem Einsatz vergleichen (2024-ga-A), Laplace-Experiment:
+Sektorwinkel eines Glücksrads aus einer Wahrscheinlichkeitsbedingung
+(2026-ga-A; hier p² = 1/4), Term und Ereignis (zusammengezogener Typ).
+Konvergenz im grundlegenden Niveau: 28 % nach typ, 76 % nach dem Schnitt
+(22 Werte, 19 von 25 Zeilen bekannt). Neue Schnittwerte im Niveau: 6
+(Rekonstruktion von Beständen · begründen und · angeben, Punkt · berechnen,
+Ebenen · begründen, Körper · begründen, Zufallsgrößen · begründen), davon
+zwei im Bestand neu (Rekonstruktion von Beständen · begründen, Punkt ·
+berechnen); Bestand 132 Schnittwerte. Etikettenentscheidungen:
+„Matrizenalgebra: Inverse Matrix über ein Gleichungssystem aus A · B = E
+bestimmen" getrennt von „… Einträge der inversen Matrix mit Platzhaltern
+angeben" (2020-ga-A; Kehrwerte in vorgegebener Form gegen vier Unbekannte)
+– im Abgleichlauf 4 prüfen; „Matrizenalgebra: Parameter aus der
+Gültigkeit der binomischen Formel für zwei Matrizen bestimmen" getrennt
+von „Alle mit einer Matrix vertauschbaren Matrizen ermitteln" (allgemeiner
+Ansatz mit Lösungsmenge gegen einen Parameter und Vergleich mit
+vorgegebenem Term); „Gleichung für den Zeitpunkt eines Bestandswerts über
+ein Integral der Rate angeben" getrennt von „Term für einen Bestand aus
+einer Rate über ein Integral angeben" (Gleichung mit Bedingung gegen
+Term); „Übergangsprozess: Potenz der Übergangsmatrix gleich Einheitsmatrix
+als Zyklus deuten" getrennt von „… Langfristige Entwicklung aus M³ als
+Vielfachem der Einheitsmatrix durch Fallunterscheidung beschreiben"
+(2019-ga-A; ohne Parameterfälle).
+
+**Geltung 2018-ga-A.** Außerhalb der Geltung 7, 7, 7, 7 von 25: nur
+Matrizen (AGLAA111 a, b; AGLAA112 a–c; AGLAA12 a, b). Geltungsquote des
+Stapels für alle vier Zielprüfungen 18 von 25 (72 %) – nach 2020-ga-A
+(13 von 19, 68 %) die zweitniedrigste Quote eines Grundkursstapels.
+Bestand jetzt außerhalb be-gk 98, be-lk 65,
+bb-gk 97, bb-ea 64 von 480 Zeilen – Geltungsquote be-gk 382 von 480
+(80 %), be-lk 415 (86 %), bb-gk 383 (80 %), bb-ea 416 (87 %).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-14 | 2018-ga-A vollständig erfasst: 25 Zeilen aus 12 Dateien, Katalog 480 Zeilen, Typenliste 385. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 23 von 25 mit der Liste v0.7 (AGLAA12 a und AGLAA22 a unter dem amtlichen Bereich geschätzt). |
 | 2026-09-14 | 2019-ea-A vollständig erfasst: 20 Zeilen aus 10 Dateien, Katalog 455 Zeilen, Typenliste 368. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 20 von 20 mit der Liste v0.7. |
 | 2026-09-14 | 2019-ga-A vollständig erfasst: 23 Zeilen aus 11 Dateien, Katalog 435 Zeilen, Typenliste 353. Alle Punktsummen geprüft (je 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 22 von 22 gewerteten Zeilen mit der Liste v0.7. iqb-bau.py v0.5: afb_amtlich darf leer sein, wenn die Matrixzeile im Standardbezug leer ist (AGLAA22 a, bemerkung „Standardbezug: keine Eintragung"); solche Zeilen zählen in der Eichung nicht, Nenner „gewertete Zeilen"; iqb.md § 4 entsprechend. Kennzahlentabelle in § 2 um 2022-ga-A bis 2019-ga-A nachgeführt. |
 | 2026-09-14 | iqb.md § 7: Vermerk zur Nullfall-Regel – sie beruht auf einem einzigen Fall (2023-ea-A AGLAA111), nachdem sich der zweite Beleg (2025-ea-A AGLAA121 b, zwei Fälle a = ±2, Treffer der Grundregel) als falsch erwiesen hat; Versionszeile ergänzt, keine Versionsänderung. |
