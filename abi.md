@@ -1,5 +1,9 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.6 · 13.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.7 · 15.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.6 (Auftrag „Stark-Heft 2023 Berlin/Brandenburg GK –
+Pool-Abgleich vor Erfassung"): § 4 papier-Kürzel `bebb` für die gemeinsamen
+Hefte Berlin/Brandenburg 2019–2025 aus Verlagsbänden; § 2 Ablage der
+gescannten Hefte unter hefte/ (lokal, nicht im Repo).
 Änderungen gegenüber 0.5 (Nacharbeiten nach der Sondierung des IQB-Pools): § 4
 afb_amtlich berichtigt – der Standardbezug ist eine Matrix Teilaufgabe × K1–K6,
 keine angekreuzte Spalte je Bereich; § 9 Land und Niveau des Schülers beantwortet,
@@ -52,7 +56,11 @@ bereits. Eine zweite Datei würde dieselbe Information ein zweites Mal ablegen u
 die Auswertung über beide Teile hinweg erschweren.
 
 Hefte: abi-quellen.md nennt Verzeichnis, Dateinamen und papier-Kürzel; geholt wird
-mit curl. Veröffentlicht sind nur 2011–2018.
+mit curl. Veröffentlicht sind nur 2011–2018. Hefte ab 2019 liegen nur in
+Verlagsbänden (Stark) vor; ihre Scans stehen lokal unter hefte/<papier>.pdf
+(reine Bildscans ohne Textebene, jede Seite wird gerendert gelesen) und sind
+über .gitignore vom Repo ausgeschlossen, weil sie urheberrechtlich geschützt
+sind. Bestand und Abgleich je Heft in abi-pruefungen.md.
 
 Amtliche Lösungen: für die Landesaufgaben 2017/2018 keine. Der Erwartungshorizont
 mit verbindlicher Verteilung der Bewertungseinheiten geht nur an die Schulen. Für
@@ -122,6 +130,14 @@ CAS-Hefte sind durchgehend eigene Fassungen.
     papier: Jahr-Land-Niveau[-cas], klein und ohne Umlaute
             2017-be-gk · 2017-be-gk-cas · 2017-be-lk · 2017-be-lk-cas
             2017-bb-ea · 2017-bb-ea-cas · entsprechend 2018
+            Land „bebb" für die gemeinsamen Hefte Berlin/Brandenburg der
+            Jahre 2019 bis 2025 (Verlagsbände, Kopf „Berlin/Brandenburg –
+            Mathematik Grundkurs"): 2023-bebb-gk, mit Rechnerfassung
+            2023-bebb-gk-cas bzw. -mms wie der Band sie nennt. Entscheidung
+            15.09.2026 (Vorschlag des Lehrers): das Muster Jahr-Land-Niveau
+            trägt die gemeinsame Prüfung nicht, „bebb" nennt beide Länder in
+            der Reihenfolge der amtlichen Kopfzeile; be und bb bleiben für
+            die landeseigenen Hefte bis 2018 und ab 2026.
             Die Werte stehen in abi-quellen.md § 2 und sind zugleich die
             Dateinamen des Korpus.
     block:  A (hilfsmittelfreier Teil; bis 2018 Aufgabenstellung 1 der

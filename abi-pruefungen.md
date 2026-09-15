@@ -1,5 +1,5 @@
 # Zentralabitur Mathematik Berlin/Brandenburg – Hefte und Erfassungsstatus
-Stand 12.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
+Stand 15.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
 
 ## 1 Quelle
 
@@ -30,6 +30,7 @@ in vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
+| 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **gesichtet 2026-09-15, nicht erfasst** – Bestand und Pool-Abgleich in § 4 (30 von 185 BE im Pool 2023); Erfassung nach Entscheidung des Lehrers |
 
 Leitfassung je Jahr und Niveau: erhöht bb-ea, grundlegend be-gk (abi.md § 7).
 Wortgleiche Zwillinge des anderen Landes werden nicht als Zeile erfasst,
@@ -42,6 +43,9 @@ am BE-Vektor.
 Schnitt bei 2017, alter Rahmenlehrplan 2006). 2019 ff. sind aus
 urheberrechtlichen Gründen nicht veröffentlicht; für Berlin Grundkurs
 2019–2022 gibt es sieben Verlagsbände beim Lehrer, noch nicht hochgeladen.
+Gescannte Verlagshefte (Stark) liegen lokal unter hefte/ und bleiben über
+.gitignore außerhalb des Repos (urheberrechtlich geschützt); erstes Heft
+2023-bebb-gk (§ 2, § 4).
 
 ## 4 Befunde zu einzelnen Heften
 
@@ -177,10 +181,80 @@ hat eine eigene zentrale Prüfung. PS_Mathematik_GK_2027.pdf liegt unter
 .../abitur_bb/RS_ZA_2027/ und beschreibt Struktur, Hilfsmittel und Arbeitszeit
 vollständig. Nicht veröffentlicht werden nur die Aufgabenhefte.
 
+**2023-bebb-gk (Stark-Band, Scan hefte/2023-bebb-gk.pdf, gesichtet
+15.09.2026, nicht erfasst).** 14 Seiten, reiner Bildscan; alle
+Aufgabenseiten vorhanden, keine Lösungen (Verlagsseiten 2023-1 bis 4, 13 bis
+15, 23 bis 25, 31 bis 32, 38 bis 39; die Lücken sind die Tipp- und
+Lösungsseiten des Bands). Kopf „Berlin/Brandenburg – Mathematik Grundkurs
+2023". Aufgabenbestand:
+
+| Aufgabe | Teilaufgaben | BE | Summe im Heft |
+|---|---|---|---|
+| 1 hilfsmittelfreier Teil: Analysis 1 (Tangenten an symmetrischem Graphen), Analysis 2 (Integral und Stammfunktion am Graphen), Analysis 3 (x³ − 3x², Berührung mit 9x + 5), Analytische Geometrie 1 (Gerade g, h durch A und B(5; 1; b)), Analytische Geometrie 2 (Dreieck A(1; 0; 2), B(3; 2; 10), C(4; 3; 5)), Stochastik 1 (Urne 3 rot, 2 weiß), Stochastik 2 (Histogramm, B(12; 0,25)) | je a, b: 2 + 3, 1 + 4, 2 + 3, 1 + 4, 2 + 3, 2 + 3, 2 + 3 | 7 × 5 | 35 ✓ |
+| 2.1 Beistelltisch (Analysis, f(x) = 0,5 (x² − 4) e^x, Tischplatte) | a–m | 2, 5, 2, 4, 2, 5, 5, 2, 2, 3, 4, 5, 4 | 45 ✓ |
+| 2.2 Temperatursteuerung (Analysis, f(x) = x³ − 12x² + 45x − 50, Backofen) | a–k | 4, 6, 3, 5, 4, 3, 5, 1, 4, 4, 6 | 45 ✓ |
+| 3 Körper (Analytische Geometrie, ABCDEF in x + y + z = 4 und 2x + 2y + 2z = 5) | a–i | 4, 2, 3, 3, 3, 3, 4, 4, 4 | 30 ✓ |
+| 4 Lehrkräfte (Stochastik, Aufgabenteil 1 a–h, Aufgabenteil 2 a–c) | 1: 3, 2, 2, 3, 2, 3, 1, 4; 2: 3, 2, 5 | 20 + 10 | 30 ✓ |
+
+Wahl: 2.1 oder 2.2 (Analysis); 3 und 4 ohne Alternative; ob im
+hilfsmittelfreien Teil alle sieben Aufgaben zu bearbeiten sind, steht nicht
+auf den gescannten Seiten. Angeboten 185 BE, bei Wahl in Aufgabe 2 zu
+bearbeiten 140 BE (35 + 45 + 30 + 30). Alle Summen des Hefts (35, 45, 45, 30,
+30) stimmen mit den Teilaufgaben überein.
+
+*Pool-Abgleich (gegen iqb-katalog.csv, Bestand 1061 Zeilen: Teil A 2018 bis
+2026 vollständig, Teil B WTR 2023 bis 2026 grundlegend; Suche über gegeben,
+gesucht, verfahren, stichwoerter und Zahlen, kein Textvergleich möglich).*
+
+| Aufgabe | BE | Pool-Fundstelle | Sicherheit |
+|---|---|---|---|
+| 1 Analysis 1 | 5 | 2023MgrundlegendAAnalysis12 a, b (t1: y = 4/3 x + 4, Umfang des Dreiecks) | sicher – Zahlen und Aufträge gleich |
+| 1 Analysis 2 | 5 | nicht im Pool (2023-ga-A Analysis 1.3 ist x⁴ − 4x³; kein Treffer in anderen Jahrgängen) | sicher |
+| 1 Analysis 3 | 5 | nicht im Pool | sicher |
+| 1 Analytische Geometrie 1 | 5 | 2023MgrundlegendAAGLAA212 a, b (g durch (2; 3; −7), B(5; 1; b)) | sicher |
+| 1 Analytische Geometrie 2 | 5 | nicht im Pool | sicher |
+| 1 Stochastik 1 | 5 | nicht im Pool (2019-ga-A Stochastik 1.2 hat 3 rote und 7 weiße, andere Aufträge) | sicher |
+| 1 Stochastik 2 | 5 | nicht im Pool | sicher |
+| 2.1 Beistelltisch | 45 | nicht im Pool | sicher |
+| 2.2 Temperatursteuerung | 45 | nicht im Pool | sicher |
+| 3 Körper | 30 | nicht im Pool | sicher |
+| 4 Lehrkräfte | 30 | 2023MgrundlegendBStochastikWTR3: Aufgabenteil 1 a–e = 1a–e (12 BE), Aufgabenteil 2 a und c = 2a, 2b (8 BE); Aufgabenteil 1 f–h (mindestens n für 95 %, Präsentation 6 von 20 Lehrkräften: 8 BE) und Aufgabenteil 2 b (Aussage zum erwarteten Gewinn: 2 BE) sind Landeszusatz | sicher für die 20 BE (Zahlen und Aufträge gleich); der Zusatz ist im Pool nicht enthalten |
+
+Anteil im Pool: 3 von 11 Aufgaben (zwei ganz, eine zu zwei Dritteln), 30 von
+185 angebotenen BE (16 %), 30 von 140 zu bearbeitenden BE (21 %); im
+hilfsmittelfreien Teil 10 von 35 BE (29 %), in Teil B 20 von 105 zu
+bearbeitenden BE (19 %). Die Vermutung hoher Überschneidung bestätigt sich
+für 2023 nicht: neun der elf Aufgaben sind Landesaufgaben, und die
+übernommene Poolaufgabe ist um ein Drittel verlängert. Vorbehalt: Pool-Teil B
+2022 und früher ist nicht erfasst (Reserve); eine Verwendung älterer
+Poolaufgaben ist möglich, aber nicht üblich.
+
+*Scan und Aufwand.* Rendern über pypdf und pillow (Seitenbilder 1800 bis
+2300 Pixel breit, auf 1600 Pixel Breite als JPEG und in zwei Hälften mit 1800
+Pixel), 21 s für 14 Seiten; das PDF selbst (90 MB) ist für das Read-Werkzeug
+zu groß. Lesen: 14 Seiten in knapp 3 Minuten (21:55 bis 21:58 Uhr, aus den
+Dateizeiten), rund 12 Sekunden je Seite einschließlich Aufnahme der BE; der
+Pool-Abgleich danach etwa 5 Minuten (zwei Suchläufe über den Katalog, Sicht
+der Trefferzeilen). Scanqualität: 13 Seiten klar; Seite 14
+(Verlagsseite 2023-39, Aufgabe 4 Aufgabenteil 2) ist unscharf mit
+Durchscheinen der Rückseite, in der vergrößerten Hälfte aber lesbar (Term
+8 · (4/9)² + 2 · 2 · 4/9 · 5/9 + 1/2 · (5/9)² gegen den Pool bestätigt).
+Durchscheinen der Rückseiten auf fast allen Seiten, ohne Folgen für das
+Lesen. Fehlende Seiten: keine.
+
+*Vorschlag für die Erfassung (nicht umgesetzt):* papier 2023-bebb-gk;
+hilfsmittelfreier Teil als block A mit aufgabe 1.1 bis 1.7 in Heftreihenfolge,
+Teil B block B mit aufgabe 2.1, 2.2, 3, 4 (Aufgabenteil 1 und 2 als 4.1 und
+4.2); die im Pool stehenden Teilaufgaben nicht neu erfassen, sondern über
+den Typ auf die iqb-Zeile verweisen – oder als abi-Zeile mit Verweis in
+bemerkung, je nach Entscheidung des Lehrers zur Zusammenführung (iqb.md
+§ 9).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-15 | Stark-Heft 2023-bebb-gk gesichtet (Scan lokal unter hefte/, per .gitignore vom Repo ausgeschlossen): Aufgabenbestand mit BE-Summen und Pool-Abgleich in § 4 – 30 von 185 BE im Pool 2023 (Teil A Analysis 1 und AG 1, Aufgabe 4 zu 20 von 30 BE). Kürzel `bebb` für gemeinsame Hefte 2019–2025 in abi.md v0.7 § 4. Keine Zeile erfasst, keine Katalogdatei geändert. |
 | 2026-09-12 | Quellenlage geklärt: gemeinsame Aufgabenentwicklung Berlin/Brandenburg seit 2009/10, seit dem Abitur 2026 getrennt (LISUM aufgelöst). Prüfungsschwerpunkte 2027 beider Länder verglichen – Struktur und Arbeitszeit gleich, Inhalte verschieden. Brandenburg hat eine eigene Prüfung auf grundlegendem Niveau. Befunde in § 4, abi.md auf v0.5 (§ 1 Zeitleiste, § 3 Kataloge 2027, § 4 Schreibweise afb_amtlich, § 9). |
 | 2026-09-12 | 2018-be-gk vollständig erfasst: 36 Zeilen, Katalog jetzt 113 Zeilen, Typenliste 146. Alle sechs Punktsummen gegen die BE-Tabellen geprüft (40-40-20-20-20-20), zwei Läufe aus frischen Repo-Kopien byteidentisch, Selbstprüfung über den Gesamtbestand bestanden. 34 Typen neu, 16 der 50 verwendeten Typen waren bekannt (32 Prozent). Erstes Heft auf grundlegendem Niveau; sechs Befunde in § 4 ergänzt. |
 | 2026-09-12 | 2017-bb-ea vollständig erfasst: 36 Zeilen, Katalog jetzt 77 Zeilen, Typenliste 112. Alle neun Punktsummen und die Teil-1-Summe 15 gegen die BE-Tabellen geprüft, Lauf zweimal byteidentisch, Selbstprüfung über den Gesamtbestand bestanden. 53 Typen neu, nur 12 der 65 verwendeten Typen waren aus 2018 bekannt. Befunde in § 4 ergänzt, darunter der Vergleich mit den Berliner LK-Heften. |
