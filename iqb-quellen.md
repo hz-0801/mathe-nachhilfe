@@ -1,6 +1,6 @@
 # QUELLEN IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
 
-Version 0.3 · 15.09.2026 · gehört zum Profil iqb
+Version 0.4 · 15.09.2026 · gehört zum Profil iqb
 
 Diese Datei beschreibt die Quelle; die vollständige Dateiliste mit Zerlegung der
 Kennungen, papier-Kürzel, Stapelzuordnung, Seitenzahl und Dublettenverweis
@@ -64,7 +64,10 @@ Nummer, wenn es mehrere gibt (WTR1, WTR2, MMS1 …). Das Rechnerkürzel heißt
 „1 Aufgabe" ohne Seitenkopfzeilen und Hilfsmittelwort, Schwelle Gleichheit,
 iqb.md § 7): 296 Dateien, 157 WTR, 139 MMS/CAS; 18 Dubletten, alle MMS/CAS →
 WTR (eine von Hand bestätigt, DUBLETTEN_HAND im Skript), 121 MMS/CAS-Dateien
-ohne WTR-Zwilling. Seitenzahl: 83 Dateien mit drei, 164 mit vier, 46 mit
+ohne WTR-Zwilling. v0.4 (Stapel 2026-ea-B-mms): 19 Dubletten, zwei von Hand
+bestätigt – DUBLETTEN_HAND auch für rein redaktionelle Abweichungen ohne
+Änderung an Zahlen, Aufträgen und BE (2026-ea-B Stochastik MMS 1 = WTR 1, ein
+Artikel; iqb.md § 7), 120 MMS/CAS-Dateien ohne WTR-Zwilling. Seitenzahl: 83 Dateien mit drei, 164 mit vier, 46 mit
 fünf, 3 mit sechs Seiten.
 
 ## 3 Kennungsmuster

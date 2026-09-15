@@ -66,7 +66,7 @@
 "2026MerhoehtBStochastikWTR1";"2026";"erhoeht";"B";"Stochastik";"";"WTR";"1";"2026-iqb-ea";"2026-ea-B";"4";""
 "2026MerhoehtBStochastikWTR2";"2026";"erhoeht";"B";"Stochastik";"";"WTR";"2";"2026-iqb-ea";"2026-ea-B";"4";""
 "2026MerhoehtBStochastikWTR3";"2026";"erhoeht";"B";"Stochastik";"";"WTR";"3";"2026-iqb-ea";"2026-ea-B";"4";""
-"2026MerhoehtBStochastikMMS1";"2026";"erhoeht";"B";"Stochastik";"";"MMS";"1";"2026-iqb-ea-mms";"2026-ea-B";"4";""
+"2026MerhoehtBStochastikMMS1";"2026";"erhoeht";"B";"Stochastik";"";"MMS";"1";"2026-iqb-ea-mms";"2026-ea-B";"4";"2026MerhoehtBStochastikWTR1"
 "2026MerhoehtBStochastikMMS2";"2026";"erhoeht";"B";"Stochastik";"";"MMS";"2";"2026-iqb-ea-mms";"2026-ea-B";"4";"2026MerhoehtBStochastikWTR2"
 "2026MerhoehtBStochastikMMS3";"2026";"erhoeht";"B";"Stochastik";"";"MMS";"3";"2026-iqb-ea-mms";"2026-ea-B";"4";""
 "2025MgrundlegendAAnalysis11";"2025";"grundlegend";"A";"Analysis";"1";"";"1";"2025-iqb-ga";"2025-ga-A";"3";""

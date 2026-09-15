@@ -52,7 +52,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2023-ga-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 2 trägt „MMS/WTR") | **erfasst 2026-09-14, 61 Zeilen** · 40 Typen neu, 20 wiederverwendet · Eichung 57 von 61 (Spalte AB) |
 | 2023-ea-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 2 trägt „MMS/WTR", MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 64 Zeilen** · 49 Typen neu, 17 wiederverwendet · Eichung 55 von 64 (Spalte AB) · eine Zeile ersatzweise |
 | 2022-ea-B (WTR) | 8 von 16 (MMS-Zweig Reserve; Stochastik MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 69 Zeilen** · 54 Typen neu, 17 wiederverwendet · Eichung 62 von 69 (Spalte AB) |
-| 2026-ea-B (MMS) | 8 von 17 | Delta-Stapel erhöht nach iqb.md § 7 (Auftrag „Teil B schließen", 15.09.2026) – siehe unten |
+| 2026-ea-B (MMS) | 5 von 8 (drei Dubletten der WTR-Dateien: AG/LA A2 MMS 1, Stochastik MMS 1 und 2; Stochastik MMS 3 Aufgabe 1 Dublette von WTR 2) | **erfasst 2026-09-15, 32 Zeilen** · 21 Typen neu, 11 wiederverwendet (6 in wortgleichen Teilaufgaben) · Eichung 32 von 32 (Spalte AB) · Delta-Stapel erhöht, MMS-Delta in § 4 |
 | 2022-ga-B (WTR) | 7 von 13 | entfällt – Reserve (Teil B abgeschlossen, § 4, 15.09.2026: grundlegend nach 2023-ga-B ausgereizt) |
 | 2021-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
 | 2021-ea-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
@@ -107,6 +107,7 @@ Schwellenwerte nach drei Stapeln, iqb.md § 7):
 | 2023-ea-B-wtr (Teil B) | 64 | 66 | 49 (74 %) | 55 von 64 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 17 von 66 (26 %); Schnitt 50 Werte, 52 von 64 Zeilen bekannt (81 %) | 16, 7, 16, 7 |
 | 2022-ea-B-wtr (Teil B) | 69 | 71 | 54 (76 %) | 62 von 69 (90 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 71 (17 %); Schnitt 53 Werte, 64 von 69 Zeilen bekannt (93 %) | 22, 4, 22, 4 |
 | 2026-ga-B-mms (Teil B, nach Bereinigung 15.09.2026) | 25 | 27 | 18 (67 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 27 (33 %); Schnitt 20 Werte, 23 von 25 Zeilen bekannt (92 %) | 5, 5, 5, 5 |
+| 2026-ea-B-mms (Teil B, Delta-Stapel erhöht) | 32 | 32 | 21 (66 %) | 32 von 32 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 10 von 32 (31 %); Schnitt 27 Werte, 31 von 32 Zeilen bekannt (97 %) | 14, 7, 14, 7 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2032,6 +2033,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2023-ea-B-wtr | 64 | 50 | 10 | 9 | 9 | 4 | 4 | 4 |
 | 2022-ea-B-wtr | 69 | 53 | 5 | 4 | 5 | 3 | 2 | 3 |
 | 2026-ga-B-mms | 25 | 20 | 2 | 2 | 2 | 1 | 1 | 1 |
+| 2026-ea-B-mms | 32 | 27 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2039,8 +2041,10 @@ unverändert); seitdem lautet die
 Zeile 2026-ea-B-wtr 60 | 47 | 17 | 11 | 13 | 12 | 7 | 9, weil die
 Konfidenzintervall-Zeilen ein eigenes Thema außerhalb der Geltung bilden.
 Bestand nach sieben Teil-B-Stapeln: 172 Schnittwerte, davon 140 in be-gk
-und 159 in bb-ea; mit dem MMS-Zweig 2026-ga 173 (141, 160). Der MMS-Zweig
-zählt nicht in die Reihe je Niveau (kein WTR-Stapel, Delta-Messung unten).*
+und 159 in bb-ea; mit dem MMS-Zweig 2026-ga 173 (141, 160); nach 2022-ea-B
+und dem Delta-Stapel 2026-ea-B-mms 180 (147, 167), der erhöhte Delta-Stapel
+bringt keinen neuen Wert. Die MMS-Zweige zählen nicht in die Reihe je Niveau
+(kein WTR-Stapel, Delta-Messungen unten).*
 
 Verlauf getrennt nach Niveau, neue Werte in Geltung im Bestand: grundlegend
 7 → 3 → 2 (be-gk wie bb-ea), erhöht 7 → 0 (be-gk) bzw. 11 → 0 (bb-ea). Im
@@ -2081,6 +2085,7 @@ fortgeschrieben).**
 | 2026-ga-B-mms (nach Bereinigung) | 25 | 20 | 1,25 | 16 (64 %) | 22 (88 %) | 0 (0 %) | 3 | 0 | 4 | 6,2 | 20 min |
 | 2023-ea-B-wtr | 64 | 50 | 1,28 | 41 (64 %) | 51 (79 %) | 0 (0 %) | 5 | 0 | 8 | 8,0 | 29 min |
 | 2022-ea-B-wtr | 69 | 53 | 1,30 | 54 (78 %) | 58 (84 %) | 0 (0 %) | 18 | 0 | 8 | 8,6 | 16 min |
+| 2026-ea-B-mms (Delta) | 32 | 27 | 1,19 | 23 (71 %) | 28 (87 %) | 2 (6 %) | 8 | 0 | 5 | 6,4 | 15 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -2597,7 +2602,7 @@ Bestand nach Abgleichlauf 10: 1029 Zeilen, 773 Typen, 180 Schnittwerte (147
 in be-gk, 167 in bb-ea), 28 Stapel vollständig. Nicht erfasst und als
 „entfällt – Reserve" in § 2 geführt: die WTR-Stapel 2022-ga-B, 2021 bis 2017
 (je ga und ea) und die Beispielaufgaben (13 Stapel, 87 Dateien) sowie die
-MMS/CAS-Stapel außer den Delta-Stapeln 2026 (20 Stapel, 132 Dateien; Delta
+MMS/CAS-Stapel außer den Delta-Stapeln 2026 (20 Stapel, 124 Dateien; Delta
 nach iqb.md § 7). Berichtigung in § 2: die Dateizahlen „von N" der Teil-B-
 Zeilen waren bisher als Verdopplung der WTR-Zahl geschätzt, jetzt aus
 iqb-quellen.csv gezählt (2026-ea-B 17 statt 18, 2025-ga-B 14 statt 16,
@@ -2618,10 +2623,117 @@ existiert im Pool nicht (CAS-Dateien nur 2017 bis 2021 und Beispielaufgaben),
 und ein CAS-Delta aus 2021 ließe sich nicht messen, weil der WTR-Zwilling
 2021-ea-B nicht erfasst ist (Reserve).
 
+**Stapel 2026-ea-B, MMS-Zweig (Delta-Stapel erhöht nach iqb.md § 7,
+15.09.2026).** 8 MMS-Dateien, davon drei Dubletten der WTR-Dateien (AG/LA A2
+MMS 1 = WTR 1 und Stochastik MMS 2 = WTR 2 aus dem Scan; Stochastik MMS 1 =
+WTR 1 von Hand bestätigt, DUBLETTEN_HAND in iqb-quellen.py v0.4: der
+Aufgabentext weicht nur in einem Artikel ab – „Die normalverteilte
+Zufallsgröße" statt „Eine …" –, Zahlen, Aufträge und BE aller drei Aufgaben
+gleich; Regel in iqb.md § 7 entsprechend gefasst). Fünf Dateien erfasst
+(Analysis MMS 1 mit einer Aufgabe a–h und MMS 2 mit zwei Aufgaben, je 30 BE;
+AG/LA A1 mit zwei Aufgaben, 20 BE; AG/LA A2 MMS 2 mit einer Aufgabe a–f, 20
+BE; Stochastik MMS 3 mit 8 BE: Aufgabe 1 ist wortgleich mit Stochastik WTR 2
+Aufgabe 1, keine Zeile, wie im WTR-Zweig), 32 Zeilen, alle BE-Summen
+bestätigt, kein „?", kein „ersatzweise". Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung über den Bestand (1061 Zeilen, 794 Typen, 29
+Stapel) bestanden. Amtliche Verteilung (Spalte AB): I 9, II 16, III 7 (22 %
+III), Spalte gleich höchstem Kompetenzeintrag in allen 32 Zeilen.
+
+*Wortgleiche Teilaufgaben in nicht wortgleichen Dateien.* AG/LA A1 MMS
+teilt mit A1 WTR die Teilaufgaben 1a, 2a, 2b und 2d (2b: N nur als Produkt
+bezeichnet statt ausgerechnet; 2d mit 5 statt 6 BE), Stochastik MMS 3 mit
+WTR 3 die Teilaufgaben 2b und 2c – sechs Zeilen mit geteiltem Typ und aus der
+WTR-Zeile übernommenen Feldern (Vermerk in bemerkung, Skript gen_geteilt.py im
+Scratchpad). Eigene Teilaufgaben mit anderem Auftrag: A1 1b (Oberfläche
+statt Volumen), A1 2c (E2 = 2 · E1 mit 1298 ME statt E1 = 0 mit 429 ME,
+Typ wiederverwendet), Stochastik MMS 3 2a (Grenzen aus 356 Personen statt
+Anzahl aus der Grenze 0,75, eigener Typ). Analysis MMS 1, MMS 2 und AG/LA A2
+MMS 2 sind eigene Aufgaben (Ähnlichkeit zu jeder WTR-Datei 0,21 bis 0,27).
+
+*Eichung 2026-ea-B-mms: 32 von 32.* Erster Teil-B-Stapel ohne Abweichung.
+Gefeuert und getroffen (7 Zeilen amtlich III): (c) Streckfaktoren und
+s_x · s_y = 1 bei Analysis MMS 1 d, (e) Maximum der Integralfunktion an der
+Schnittstelle der Raten bei MMS 1 h, (e) gemeinsame Punkte aus den
+Ableitungsgraphen bei MMS 2 2c, (a) Quadratbedingung für Hoch- und Tiefpunkt
+bei MMS 2 2d, (a) Lage des Achsendreiecks in Vorzeichenbedingungen bei A2
+MMS 2 f, dazu die übernommenen (a) A1 2d und (d) Stochastik 3 2c. Nicht
+gefeuert, amtlich II, Treffer: 16 von 16, darunter der Nachweis mit
+mitgeführtem Parameter (prozentuale Abweichung, MMS 2 2e) und die
+Gegenbeispiel-Widerlegung (A2 MMS 2 c). Amtlich I, Treffer 9 von 9;
+Analysis MMS 1 a (drei Reproduktionen mit Parameter) nach dem Befund aus
+2026-ga-B als I geschätzt.
+
+*Typen 2026-ea-B-mms.* 32 verwendet, 21 neu, 11 wiederverwendet: 6 in den
+wortgleichen Teilaufgaben, 5 in eigenen Zeilen (Zeitpunkt und Größe der
+maximalen Änderungsrate über die zweite Ableitung – 2026-ga-B-mms, hier
+über g' = 0; Verflechtung: Maximale Produktionsmenge aus dem Rohstoffvorrat
+– 2026-ea-B-wtr; Ebene Figur: Flächeninhalt eines gleichschenkligen Dreiecks
+über die Höhe zur Basis – Teil A; Koordinatengleichung einer Ebene aus Punkten
+oder Geraden – Lauf 7; Gerade und Ebene: Lage einer Geraden in einer Ebene
+durch Einsetzen – Teil A). Nicht wiederverwendet trotz Nähe: „Zeitpunkt der größten Rate aus
+der Ableitung angeben" (Ableitung gegeben, angeben), „Scharparameter für
+einen vorgegebenen Schnittwinkel zwischen Achse und Ebene ermitteln"
+(Sinusformel Gerade–Ebene statt Kosinusformel Ebene–Ebene), „Fläche zwischen
+Graph und x-Achse in Abhängigkeit vom Scharparameter berechnen" (Term statt
+Umkehrung). Vorschläge für den Abgleich: „… Höhe eines Quaders aus der
+Orthogonalität der Raumdiagonalen bestimmen und Volumen berechnen" (WTR) mit
+„… und Oberflächeninhalt berechnen" (MMS) zusammenziehen; „Zeitpunkt und
+Größe der maximalen Änderungsrate über die zweite Ableitung berechnen" mit
+dem neuen „Zeitpunkt der maximalen Rate über die Ableitung der Ratenfunktion
+berechnen" auf ein Etikett „über die Ableitung der Ratenfunktion" ziehen.
+
+*Messung 2026-ea-B-mms.* 32 Zeilen auf 27 Schnittwerte (1,19 je Wert); 23
+von 32 Zeilen (71 %) auf Werten aus Teil A erhöht, 28 (87 %) auf Werten
+beider Niveaus. Trägerbindung: 2 von 32 (6 %), die beiden
+Konfidenzintervall-Zeilen mit Abbildung 2 (Stochastik MMS 3 2a, 2b). Zeilen
+mit abhaengig_von: 8, Schnitt mit der Kontextmenge leer. Aufwand: 5
+Dateien, 6,4 Zeilen je Datei; 01:46 Uhr Lesen der PDFs bis 02:00 Uhr
+bestandene Selbstprüfung, 15 Minuten (davor 5 Minuten Textvergleich der acht
+MMS-Dateien gegen die neun WTR-Dateien), mit Nachführen etwa 30. Eigene
+Rechnung gegen den Erwartungshorizont: 27 von 32 Zeilen (84 %) mit
+sympy-Kontrolle bestätigt, 5 ohne rechnerisches Ergebnis; keine Abweichung.
+Vier Abbildungen beschrieben, alle aus dem Render lesbar.
+
+*MMS gegen WTR desselben Stapels (Delta-Kennzahlen wie bei 2026-ga-B-mms,
+Skript mms_delta2.py).*
+– Wortgleiche Dateien: 3 von 8 (38 %), 60 von 180 BE des MMS-Zweigs; dazu
+eine wortgleiche Aufgabe (Stochastik MMS 3, Aufgabe 1, 12 BE) und sechs
+wortgleiche Teilaufgaben (17 BE) – zusammen 89 von 180 BE (49 %) wortgleich
+mit dem WTR-Zweig (2026-ga-B: 3 von 7 Dateien, 45 von 125 BE, 36 %).
+– Zeilen auf Schnittwerten, die der WTR-Zwilling schon hat: 17 von 32
+(53 %); ohne die sechs geteilten Zeilen 11 von 26 (42 %) (2026-ga-B: 48 %).
+Die 26 eigenen Zeilen belegen 23 Werte, 14 davon nicht im WTR-Zwilling – aber
+alle 14 im Gesamtbestand (12 im erhöhten Niveau, Fläche · begründen aus
+dem grundlegenden, Ableitungsgraph · angeben aus Teil A).
+– Reine Rechnerbedienung: 0 von 26 eigenen Zeilen (2026-ga-B: 2 von 25).
+Rechner für die Lösung bei eigenem Ansatz: 16 von 26 (62 %; Ableitungen,
+Integrale mit Parametergrenzen, Gleichungen r(t) = r(t − 5), f_a'' = 0,
+Winkelgleichung, Konfidenzgrenzen; 2026-ga-B: 13 von 25, 52 %). Kein
+Rechneranteil: 10 (Begründungen, Deutungen, Gegenbeispiel, Nachweis mit
+Parameter). Rechnertyp im Etikett („mit dem Rechner"): 1 Zeile (r(t) =
+r(t − 5)).
+– Neue Schnittwerte im Gesamtbestand: 0 (in Geltung bb-ea 0); neu im
+erhöhten Niveau 1 (Fläche · begründen, aus 2026-ga-B bekannt). Halteschwelle
+des Auftrags (mehr als fünf) weit unterschritten; 2026-ga-B-mms hatte 1.
+– Einschätzung: Auf erhöhtem Niveau macht die Rechnerfassung mehr Aufgabe
+aus als auf grundlegendem – 5 von 8 Dateien sind eigene Aufgaben (ga 4 von
+7), der Rechneranteil in den eigenen Zeilen ist höher (62 % gegen 52 % mit
+Rechner für die Lösung) und die eigenen Werte liegen seltener im
+WTR-Zwilling (42 % gegen 48 %). Aber nichts davon ist neuer Schnitt: 0 neue
+Werte gegen 1, die MMS-typische Leistung ist nirgends die ganze Zeile (0
+gegen 2 rein Rechnerbedienung), die Etiketten decken den Rechner als
+Lösungsweg unterhalb des Typs (eine Zeile mit Rechner im Etikett). Die
+Unterschiede liegen in Aufgabenstoff und Lösungsweg (Scharen mit
+Parametergrenzen im Integral, Gleichungen ohne geschlossene Lösung), nicht in
+Thema, Gegenstand oder Handlung. **Die Delta-Regel trägt auf erhöhtem
+Niveau** – der Delta-Stapel bringt weniger neue Werte als jeder WTR-Stapel
+und weniger als das grundlegende Delta.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-15 | Stapel 2026-ea-B (MMS-Zweig) erfasst, Delta-Stapel erhöht: 32 Zeilen aus 5 Dateien (drei Dubletten der WTR-Dateien, davon Stochastik MMS 1 von Hand bestätigt – iqb-quellen.py v0.4, DUBLETTEN_HAND auch für rein redaktionelle Abweichungen; Stochastik MMS 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1, Soll 8), Katalog 1061 Zeilen, Typenliste 794 (21 neu). Alle BE-Summen geprüft (30/30/20/20/8), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 32 von 32 nach der Spalte Anforderungsbereich. Trägerbindung 2 Zeilen. Sechs wortgleiche Teilaufgaben mit geteiltem Typ und übernommenen Feldern (iqb.md § 7 ergänzt). MMS-Delta in § 4: 0 neue Schnittwerte im Bestand, 42 % der eigenen Zeilen auf WTR-Werten, 0 von 26 reine Rechnerbedienung – Delta-Regel trägt auf erhöhtem Niveau. iqb.md v1.1 § 1, § 6, § 7; iqb-quellen.md v0.4. |
 | 2026-09-15 | Teil B abgeschlossen (Entscheidung des Lehrers): § 2 alle Teil-B-Stapel verzeichnet, nicht erfasste WTR-Stapel und MMS/CAS-Stapel „entfällt – Reserve", Dateizahlen „von N" aus iqb-quellen.csv berichtigt; § 3 nichts zurückgestellt; § 4 Reihen je Niveau und Bestand. Rechnerfassung der Zielprüfungen ab 2027 aus den vier Prüfungsschwerpunkten: Tabelle mit Fundstellen in iqb.md v1.1 § 6 (WTR Regelfall, MMS Kurswahl, CAS keine eigene Fassung), Befund in § 4; iqb.md § 1 Bestand, § 9. abi-vorgaben.md § 2 ergänzt. Kein Stapel erfasst. |
 | 2026-09-15 | Abgleichlauf 10 (iqb-abgleich.py v0.10, nach 2023-ea-B und 2022-ea-B): Kleinstes k mit kumulierter Wahrscheinlichkeit über einer Schranke mit dem Rechner ermitteln, Größtes k mit kumulierter Wahrscheinlichkeit unter einer Schranke mit dem Rechner ermitteln → Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln (Zusammenziehung, Definition mit beiden Richtungen). 774 → 773 Typen, 2 Typfelder im Katalog. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-15 | Stapel 2022-ea-B (WTR-Zweig) erfasst: 69 Zeilen aus 8 Dateien, Katalog 1029 Zeilen, Typenliste 774 (54 neu). Alle BE-Summen geprüft (40/40/40/25/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 62 von 69 (90 %) nach der Spalte Anforderungsbereich. Keine Trägerbindung. Abbruchkriterium erhöht: 3 neue Schnittwerte in bb-ea, Reihe 9 → 0 → 7 → 4 → 3 – erhöht ausgereizt. MMS-Zweig nicht erfasst. |

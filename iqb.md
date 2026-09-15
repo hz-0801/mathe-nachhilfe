@@ -4,7 +4,10 @@ Version 1.1 · 15.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2
 Zielprüfungen klären"): § 1 Bestand fortgeschrieben, Teil B abgeschlossen; § 6
 Rechnerfassung je Zielprüfung aus den vier Prüfungsschwerpunkten 2027 mit
 Fundstellen, neben der Geltungstabelle; § 6 Abbruchkriterium Teil B: Stand
-abgeschlossen, Reserve benannt; § 9 Teil B geschlossen.
+abgeschlossen, Reserve benannt; § 9 Teil B geschlossen; § 7 Dubletten:
+DUBLETTEN_HAND auch für rein redaktionelle Abweichungen, wortgleiche
+Teilaufgaben und Aufgaben in nicht wortgleichen MMS-Dateien (nach dem
+Delta-Stapel 2026-ea-B-mms, iqb-quellen.py v0.4).
 Änderungen gegenüber 0.9 (Auftrag „Erhöhtes Niveau absichern, MMS-Dubletten
 bereinigen", Entscheidungen des Lehrers nach der Delta-Messung 2026-ga-B-mms):
 § 7 MMS/CAS als Delta zum WTR-Zweig – wortgleiche Dateien sind Dubletten der
@@ -79,8 +82,8 @@ Abbruchkriterium ausgereizt am 14.09.2026, Pool 2017 und Beispielaufgaben
 Reserve), dann Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung; der
 WTR-Zweig beider Niveaus ist mit neun Stapeln 2026 bis 2022 ausgereizt,
 15.09.2026, MMS/CAS sind Delta nach § 7 und werden je Niveau an einem Stapel
-gemessen; alles Übrige Reserve). Stand nach 2022-ea-B und Abgleichlauf 10:
-1029 Zeilen, 773 Typen, 180 Schnittwerte in 28 Stapeln (iqb-pruefungen.md § 2
+gemessen; alles Übrige Reserve). Stand nach dem Delta-Stapel 2026-ea-B-mms:
+1061 Zeilen, 794 Typen, 180 Schnittwerte in 29 Stapeln (iqb-pruefungen.md § 2
 und § 4).
 
 ## 2 Ablage und Quellen
@@ -472,8 +475,9 @@ mms-Stapel zählt nicht in die Reihe (Delta, § 7). **Teil B abgeschlossen**
 (Entscheidung des Lehrers, 15.09.2026): die nicht erfassten WTR-Stapel (2022-ga-B,
 2021 bis 2017, Beispielaufgaben) sind Reserve wie 2017 und die
 Beispielaufgaben in Teil A; die MMS/CAS-Stapel sind Delta (§ 7) und werden je
-Niveau an einem Stapel gemessen (2026-ga-B-mms, 2026-ea-B-mms), die übrigen
-sind Reserve. Verzeichnis in iqb-pruefungen.md § 2.
+Niveau an einem Stapel gemessen (2026-ga-B-mms: 1 neuer Schnittwert in
+Geltung, 2026-ea-B-mms: 0), die übrigen sind Reserve. Verzeichnis in
+iqb-pruefungen.md § 2.
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
@@ -587,11 +591,19 @@ Stand v0.1: keine.
   sind beim Erfassen des mms-Stapels von Hand anzusehen; ist der Unterschied
   nur ein Artefakt der Textextraktion (2023-ga-B Stochastik MMS 2 = WTR 2,
   Kurzbeschreibung „MMS/WTR", die BE-Summe wandert), wird das Paar in
-  DUBLETTEN_HAND im Skript mit Grund eingetragen; unterscheiden sich Zahlen
-  oder Wörter im Aufgabentext (2024-ea-B Stochastik MMS 1: „mehr als 20" statt
-  „mehr als fünf", Ähnlichkeit 0,999), ist es keine Dublette. Die 17 im
-  Stapel 2026-ga-B-mms zunächst aus dem WTR-Zweig übernommenen Zeilen wurden
-  mit Abgleichlauf 9 gestrichen (iqb-pruefungen.md § 5).
+  DUBLETTEN_HAND im Skript mit Grund eingetragen – ebenso, wenn die Abweichung
+  rein redaktionell ist und Zahlen, Aufträge und BE aller Aufgaben gleich
+  bleiben (2026-ea-B Stochastik MMS 1 = WTR 1: „Die normalverteilte
+  Zufallsgröße" statt „Eine …", Ähnlichkeit 0,999; iqb-quellen.py v0.4, nach
+  dem Delta-Stapel 2026-ea-B-mms); unterscheiden sich Zahlen oder Aufträge im
+  Aufgabentext (2024-ea-B Stochastik MMS 1: „mehr als 20" statt „mehr als
+  fünf", Ähnlichkeit 0,999), ist es keine Dublette. Wortgleiche Teilaufgaben
+  in einer nicht wortgleichen MMS-Datei teilen den Typ, die Felder werden aus
+  der WTR-Zeile übernommen (Vermerk in bemerkung); eine ganze wortgleiche
+  nummerierte Aufgabe bekommt wie innerhalb des WTR-Zweigs keine Zeile, das
+  Soll sinkt (2026-ea-B Stochastik MMS 3, Aufgabe 1 = WTR 2, Aufgabe 1). Die
+  17 im Stapel 2026-ga-B-mms zunächst aus dem WTR-Zweig übernommenen Zeilen
+  wurden mit Abgleichlauf 9 gestrichen (iqb-pruefungen.md § 5).
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
   Stapels gegen iqb-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
   verfahren, stichwoerter. Ergebnis als Liste alt → neu in iqb-pruefungen.md § 5.

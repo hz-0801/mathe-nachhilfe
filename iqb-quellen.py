@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """iqb-quellen.py – erzeugt iqb-quellen.csv aus der Übersichtsseite des IQB.
-Version 0.3 · 15.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
+Version 0.4 · 15.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
+Änderungen gegenüber 0.3: DUBLETTEN_HAND auch für rein redaktionelle
+Abweichungen (2026-ea-B Stochastik MMS 1 = WTR 1: ein Artikel), iqb.md § 7.
 
 Ablauf:
   1. Übersichtsseiten ?page=1 … holen, bis eine Seite keine Aufgabe mehr nennt;
@@ -137,6 +139,10 @@ def scanne_teil_a(rows, cache):
 DUBLETTEN_HAND = {
     "2023MgrundlegendBStochastikMMS2": ("2023MgrundlegendBStochastikWTR2",
         "Kurzbeschreibung „MMS/WTR“, gleiches Dokument; pypdf setzt die BE-Summe 20 der Aufgabe an eine andere Stelle"),
+    # v0.4 (Stapel 2026-ea-B-mms): rein redaktionelle Abweichung, kein Artefakt –
+    # Zahlen, Aufträge und BE aller drei Aufgaben gleich (iqb.md § 7).
+    "2026MerhoehtBStochastikMMS1": ("2026MerhoehtBStochastikWTR1",
+        "nur redaktionell: Aufgabe 3 beginnt mit „Die normalverteilte Zufallsgröße“ statt „Eine …“; Zahlen, Aufträge und BE gleich"),
 }
 
 
