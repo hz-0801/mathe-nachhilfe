@@ -1,5 +1,12 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.1 · 15.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 1.2 · 15.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 1.1 (Entscheidung 25, Auftrag „Weg A umsetzen"): § 5–6
+Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen, Handlungen und
+Rechnerfassung nach abitur-vokabular.md verschoben, hier nur noch Verweis und
+Profilspezifisches; § 2 gemeinsame Typenliste abitur-typen.csv und abgleich.py
+(vorher iqb-typen.csv, iqb-abgleich.py); § 7 Pool-Teilaufgaben in
+Landesheften (Regel des Profils abi, hier festgehalten); § 9 Zusammenführung
+mit abi entschieden.
 Änderungen gegenüber 1.0 (Auftrag „Teil B schließen, Rechnerfassung der
 Zielprüfungen klären"): § 1 Bestand fortgeschrieben, Teil B abgeschlossen; § 6
 Rechnerfassung je Zielprüfung aus den vier Prüfungsschwerpunkten 2027 mit
@@ -91,18 +98,22 @@ und § 4).
 Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/mathe-nachhilfe/main/
 (alle Dateien flach in der Wurzel; bei anderer Ablage nur diese Zeile ändern).
 Katalogdateien dieses Profils: iqb-quellen.md, iqb-quellen.csv,
-iqb-pruefungen.md, iqb-typen.csv, iqb-katalog.csv. Eine Katalogdatei wie bei abi;
-das Feld `block` trennt Teil A und Teil B.
+iqb-pruefungen.md, iqb-katalog.csv; die Typenliste abitur-typen.csv und das
+Vokabular abitur-vokabular.md sind mit dem Profil abi geteilt (Entscheidung
+25, 15.09.2026; vorher iqb-typen.csv). Eine Katalogdatei wie bei abi; das
+Feld `block` trennt Teil A und Teil B.
 
 Aufgaben: https://www.iqb.hu-berlin.de/media/exercise_files/Abituraufgaben_Mathematik/<Kennung>_Aufgabe.pdf
 Die Kennungen stehen vollständig in iqb-quellen.csv; geholt wird mit curl. Ein
 zweiter Download je Aufgabe ist nicht nötig, die Datei enthält alles.
 
 Gerüst für Erfassung und Prüfung: iqb-bau.py. Es liest Kopfzeile und
-Formvokabular aus katalog-prompt.md § 5, Sachgebiete und Themen aus diesem
-Profil § 5–6, die Stapelzuordnung, Seitenzahlen und Dubletten aus
-iqb-quellen.csv, und schreibt die beiden CSV-Dateien nur, wenn alle Prüfungen
-bestehen – einschließlich der Schwellenwerte aus § 7. iqb-quellen.py erzeugt
+Formvokabular aus katalog-prompt.md § 5, Sachgebiete, Themen, Geltung,
+Klassen und Handlungen aus abitur-vokabular.md, die Stapelzuordnung,
+Seitenzahlen und Dubletten aus iqb-quellen.csv, und schreibt die beiden
+CSV-Dateien nur, wenn alle Prüfungen bestehen – einschließlich der
+Schwellenwerte aus § 7. Umbenennungen und Zusammenziehungen von Typen laufen
+über abgleich.py, das beide Kataloge mitzieht. iqb-quellen.py erzeugt
 iqb-quellen.csv aus der Übersichtsseite des IQB und dem Scan aller Dateien
 (Teil A seit v0.2, Teil B seit v0.3: Seitenzahl und Dubletten, § 7).
 
@@ -115,7 +126,7 @@ Teilaufgabe.
 
 Amtliche Vorgaben: die Prüfungsschwerpunkte der Länder (abi-vorgaben.md) und die
 „Beschreibung der Struktur" des IQB. Dieses Profil liest sie nicht; die
-Themenliste in § 6 ist die des Profils abi.
+Themenliste (abitur-vokabular.md § 2) ist die des Profils abi.
 
 ## 3 Aufbau der Dateien
 
@@ -238,217 +249,29 @@ Brüche und Wurzeln exakt (2√5), der Katalog übernimmt das.
 
 ## 5 Sachgebiete
 
-Feld `leitidee` trägt das Sachgebiet: **Analysis · Analytische Geometrie ·
-Stochastik**.
+Feld `leitidee` trägt das Sachgebiet: Analysis · Analytische Geometrie ·
+Stochastik – die Liste steht in abitur-vokabular.md § 1 (gemeinsam mit dem
+Profil abi, Entscheidung 25). Profilspezifisch: Die Alternativen A1 und A2
+des IQB-Sachgebiets „Analytische Geometrie/Lineare Algebra" gehen beide nach
+Analytische Geometrie; die Alternative steht in titel (§ 4).
 
-Dieselben drei Werte wie im Profil abi, damit die Typen später zusammengeführt
-werden können. Die Alternativen A1 und A2 des IQB-Sachgebiets „Analytische
-Geometrie/Lineare Algebra" gehen beide nach Analytische Geometrie; die
-Alternative steht in titel. A1 ist Vektorgeometrie ohne Ebenen, mit Matrizen und
-Übergangsprozessen; A2 ist die Geometrie mit Geraden, Ebenen, Lagebeziehungen
-und Abständen, wie sie Berlin und Brandenburg prüfen.
+## 6 Themenliste, Geltung, Schnitt
 
-## 6 Themenliste
+Themenliste, Geltungstabelle, Gegenstandsklassen und Handlungen stehen in
+abitur-vokabular.md § 2–5; iqb-bau.py liest sie dort. Bis v1.1 standen sie
+hier; die Rechnerfassung je Zielprüfung ist mit der Geltungstabelle nach
+abitur-vokabular.md § 3 gewandert. Profilspezifisch bleiben:
 
-Übernommen aus abi.md § 6 (Prüfungsschwerpunkte Brandenburg 2027, Rahmenlehrplan
-GOST), ergänzt um ein Thema für die Alternative A1. Feste Ebene zwischen
-Sachgebiet und Typ; Ergänzungen nur über den Bericht. Bei Änderung in abi.md hier
-mitziehen, damit die Typen zusammenführbar bleiben.
-
-**Analysis:** Gleichungen lösen · Lineare Gleichungssysteme · Funktionsklassen und
-Eigenschaften · Umkehrfunktion · Grenzwerte und Verhalten im Unendlichen ·
-Ableitung und Änderungsrate · Ableitungsregeln · Tangente, Normale, Schnittwinkel ·
-Kurvenuntersuchung · Ableitungsgraph und Funktionsgraph · Funktionsscharen und
-Ortskurven · Rekonstruktion von Funktionsgleichungen · Extremalprobleme ·
-Stammfunktion und Hauptsatz · Integrationsregeln · Flächeninhalt durch Integration ·
-Rekonstruktion von Beständen · Uneigentliche Integrale · Rotationsvolumen
-
-**Analytische Geometrie:** Punkte und Strecken im Koordinatensystem · Vektoren und
-Rechenoperationen · Linearkombination und lineare Abhängigkeit · Geraden · Ebenen ·
-Lagebeziehungen · Schnittmengen · Skalarprodukt und Winkel · Orthogonalität ·
-Abstände · Flächeninhalt und Volumen im Raum · Scharen von Geraden und Ebenen ·
-Spiegelung · Lineare Gleichungssysteme · Matrizen und Übergangsprozesse
-
-**Stochastik:** Ereignisse und Mengenoperationen · Zufallsexperimente und
-Urnenmodelle · Kombinatorik · Baumdiagramm und Pfadregeln · Vierfeldertafel ·
-Bedingte Wahrscheinlichkeit und Bayes · Unabhängigkeit · Lage- und Streumaße einer
-Stichprobe · Zufallsgrößen und Verteilungen · Binomialverteilung · Kenngrößen von
-Verteilungen · Hypergeometrische Verteilung · Normalverteilung und Sigma-Regeln ·
-Hypothesentests · Konfidenzintervalle
-
-Konfidenzintervalle (v0.9, Entscheidung des Lehrers nach fünf Teil-B-Stapeln):
-eigene Zeile, weil der Pool sie auf erhöhtem Niveau in Teil B stellt (2026-ea-B
-Stochastik WTR 3, 2025-ea-B Stochastik WTR 3); bis dahin ersatzweise unter
-Hypothesentests, mit Abgleichlauf 7 umgestellt. Die Zeile fehlt in abi.md § 6,
-weil kein Landesheft bis 2018 sie stellt.
-
-Nur auf erhöhtem Niveau (abi.md § 6): Uneigentliche Integrale, Rotationsvolumen,
-Funktionsscharen und Ortskurven, Scharen von Geraden und Ebenen,
-Normalverteilung und Sigma-Regeln, Hypothesentests. Im Pool kann Erhöhtes auch
-auf grundlegendem Niveau vorkommen, weil der Pool für alle Länder gilt; die
-Markierung ist die der Berlin-Brandenburger Schwerpunkte, kein Filter beim
-Erfassen.
-
-**Matrizen und Übergangsprozesse** ist eine Zutat dieses Profils: nur in der
-Alternative A1, in Berlin und Brandenburg nicht Prüfungsgegenstand. Die
-Aufgaben werden trotzdem erfasst (der Pool ist Typenquelle, Kern § 6:
-ein Vorkommen ist ein vollwertiger Typ); gefiltert wird über das Thema.
-
-**Lineare Gleichungssysteme** steht in beiden Listen. abi.md § 5 führt sie nach
-den Prüfungsschwerpunkten unter Analysis; der Pool stellt reine LGS-Aufgaben
-unter AG/LA (2026MgrundlegendAAGLAA12). Weil leitidee das Sachgebiet der
-Kurzbeschreibung trägt und nicht umsortiert wird, braucht die Liste Analytische
-Geometrie das Thema ebenfalls. Typen zu LGS werden je Sachgebiet geführt; beim
-Abgleich ist zu prüfen, ob dieselbe Fertigkeit unter beiden steht.
-
-**Geltungstabelle.** Ob ein Thema Prüfungsgegenstand ist, hängt von Land und
-Niveau ab. Quelle sind die vier Prüfungsschwerpunkte 2027 (Berlin
-ps_mathematik_2027_gk/lk, Brandenburg PS_Mathematik_GK/LK_2027; gelesen am
-13.09.2026, Ablage in abi-vorgaben.md § 1). ja = in den Schwerpunkten genannt,
-nein = nicht genannt. iqb-bau.py liest die Tabelle und zählt je Stapel die
-Zeilen, deren Thema für eine Zielprüfung nicht gilt; gefiltert wird über das
-Thema, ein Zeilenfeld gibt es dafür nicht (Geltung ist eine Eigenschaft des
-Themas, nicht der Zeile). Jedes Thema der Liste braucht eine Zeile.
-
-| Thema | be-gk | be-lk | bb-gk | bb-ea |
-|---|---|---|---|---|
-| Gleichungen lösen | ja | ja | ja | ja |
-| Lineare Gleichungssysteme | ja | ja | ja | ja |
-| Funktionsklassen und Eigenschaften | ja | ja | ja | ja |
-| Umkehrfunktion | ja | ja | ja | ja |
-| Grenzwerte und Verhalten im Unendlichen | ja | ja | ja | ja |
-| Ableitung und Änderungsrate | ja | ja | ja | ja |
-| Ableitungsregeln | ja | ja | ja | ja |
-| Tangente, Normale, Schnittwinkel | ja | ja | ja | ja |
-| Kurvenuntersuchung | ja | ja | ja | ja |
-| Ableitungsgraph und Funktionsgraph | ja | ja | ja | ja |
-| Funktionsscharen und Ortskurven | nein | ja | nein | ja |
-| Rekonstruktion von Funktionsgleichungen | ja | ja | ja | ja |
-| Extremalprobleme | ja | ja | ja | ja |
-| Stammfunktion und Hauptsatz | ja | ja | ja | ja |
-| Integrationsregeln | ja | ja | ja | ja |
-| Flächeninhalt durch Integration | ja | ja | ja | ja |
-| Rekonstruktion von Beständen | ja | ja | ja | ja |
-| Uneigentliche Integrale | nein | ja | nein | ja |
-| Rotationsvolumen | nein | ja | nein | ja |
-| Punkte und Strecken im Koordinatensystem | ja | ja | ja | ja |
-| Vektoren und Rechenoperationen | ja | ja | ja | ja |
-| Linearkombination und lineare Abhängigkeit | ja | ja | ja | ja |
-| Geraden | ja | ja | ja | ja |
-| Ebenen | ja | ja | ja | ja |
-| Lagebeziehungen | ja | ja | ja | ja |
-| Schnittmengen | ja | ja | ja | ja |
-| Skalarprodukt und Winkel | ja | ja | ja | ja |
-| Orthogonalität | ja | ja | ja | ja |
-| Abstände | ja | ja | ja | ja |
-| Flächeninhalt und Volumen im Raum | ja | ja | ja | ja |
-| Scharen von Geraden und Ebenen | nein | ja | nein | ja |
-| Spiegelung | ja | ja | ja | ja |
-| Matrizen und Übergangsprozesse | nein | nein | nein | nein |
-| Ereignisse und Mengenoperationen | ja | ja | ja | ja |
-| Zufallsexperimente und Urnenmodelle | ja | ja | ja | ja |
-| Kombinatorik | ja | ja | ja | ja |
-| Baumdiagramm und Pfadregeln | ja | ja | ja | ja |
-| Vierfeldertafel | ja | ja | ja | ja |
-| Bedingte Wahrscheinlichkeit und Bayes | ja | ja | ja | ja |
-| Unabhängigkeit | ja | ja | ja | ja |
-| Lage- und Streumaße einer Stichprobe | ja | ja | ja | ja |
-| Zufallsgrößen und Verteilungen | ja | ja | ja | ja |
-| Binomialverteilung | ja | ja | ja | ja |
-| Kenngrößen von Verteilungen | ja | ja | ja | ja |
-| Hypergeometrische Verteilung | nein | nein | ja | ja |
-| Normalverteilung und Sigma-Regeln | nein | ja | nein | ja |
-| Hypothesentests | nein | ja | nein | ja |
-| Konfidenzintervalle | nein | nein | nein | nein |
-
-Anmerkungen zur Tabelle: Konfidenzintervalle nennt keines der vier Papiere
-2027 (Suche in den PDFs nach Konfidenz, Vertrauens, Schätz, 14.09.2026);
-die Zeile folgt dem Wortlaut wie bei der hypergeometrischen Verteilung. Abstände gelten in Berlin nur über Lotfußpunkte,
-Abstandsformeln und Hessesche Normalenform sind dort „nicht notwendig"; der
-Abstand Punkt–Gerade und windschiefer Geraden steht nur in den LK-Papieren.
-Bedingte Wahrscheinlichkeit gilt überall, der Satz von Bayes und das
-Axiomensystem von Kolmogorow nur in Brandenburg. Berlin führt statt der
-hypergeometrischen Verteilung das „Lotto-Modell" (Ziehen ohne Zurücklegen
-über Urnenmodelle); Aufgaben mit Binomialkoeffizienten-Quotienten sind dort
-also nicht ausgeschlossen, die Verteilung als Begriff schon – die Tabelle
-folgt dem Wortlaut. Berlin verlangt zusätzlich Wurzelgleichungen (GK
-„grundlegend", LK) und die Sachkontexte Geschwindigkeit–Weg, Masse–Volumen–
-Dichte, Zeit–Uhrzeit, die in der Themenliste keine eigenen Themen haben.
-Kettenregel im Berliner GK nur mit linearer innerer Funktion, in Brandenburg
-auch quadratisch. Sinus- und Kosinusfunktionen: Ableitung nur bb-gk, bb-ea und
-be-lk; be-gk nur die Sek-I-Form. Matrizen sind in keinem der vier Papiere
-Prüfungsgegenstand (das Wort fällt nur bei der MMS-Zulassung). Die
-Aufgabengruppe AG/LA (A1) des Pools ist überwiegend Matrizen (Verflechtung,
-Übergangsprozesse, Matrizenalgebra, daneben lineare Gleichungssysteme und
-ebene Vektorrechnung) und liegt für alle vier Zielprüfungen außerhalb der
-Geltung.
-
-**Rechnerfassung je Zielprüfung ab 2027** (Fakt aus den vier
-Prüfungsschwerpunkten 2027, Abschnitt 3 „Hilfsmittel", gelesen 15.09.2026;
-Dateien wie in abi-vorgaben.md § 1). Alle vier Papiere regeln es gleich:
-Regelfall ist der Taschenrechner, der „nicht programmierbar und nicht
-grafikfähig" ist und weder numerisch differenziert oder integriert noch
-Gleichungen automatisch löst – das ist die WTR-Fassung des Pools. Kurse, für
-die als Prüfungsfach „Mathematik mit MMS" (Brandenburg) bzw. „Mathematik mit
-MMS (CAS)" (Berlin) angegeben ist, erhalten die MMS-Aufgaben samt
-Erwartungshorizont und nutzen außerhalb des Prüfungsteils A das an der Schule
-eingeführte MMS-Rechengerät – das ist die MMS-Fassung des Pools. Eine dritte
-Fassung gibt es nicht: „CAS" ist im Pool der Name derselben Fassung bis 2021
-(iqb-pruefungen.md § 4, Sondierung), Berlin schreibt „MMS (CAS)", Brandenburg
-nur „MMS". Die Wahl ist eine des Kurses, nicht der Prüfung; für jede
-Zielprüfung sind deshalb beide Fassungen möglich, WTR als Regelfall.
-
-| Zielprüfung | WTR | MMS | CAS | Fundstelle |
-|---|---|---|---|---|
-| be-gk | zugelassen, Regelfall (Taschenrechner nach Abschnitt 3) | zugelassen für Kurse mit Prüfungsfach „Mathematik mit MMS (CAS)", dann MMS-Aufgaben | keine eigene Fassung, in Berlin „MMS (CAS)" | ps_mathematik_2027_gk.pdf, Abschnitt 3 (S. 6 mit Fußnote 1, S. 7), Abschnitt 2.2 (S. 2) |
-| be-lk | zugelassen, Regelfall | zugelassen für Kurse mit „Mathematik mit MMS (CAS)" | keine eigene Fassung, „MMS (CAS)" | ps_mathematik_2027_lk.pdf, Abschnitt 3 (S. 7 mit Fußnote 1), Abschnitt 2.2 (S. 2) |
-| bb-gk | zugelassen, Regelfall („Mathematik ohne MMS") | zugelassen für Schulen mit Prüfungsfach „Mathematik mit MMS", dann MMS-Aufgaben | nicht genannt (nur MMS) | PS_Mathematik_GK_2027.pdf, Abschnitt 3 (S. 5 mit Fußnote 1, S. 6), Abschnitt 2.2 (S. 2) |
-| bb-ea | zugelassen, Regelfall („Mathematik ohne MMS") | zugelassen für Schulen mit „Mathematik mit MMS" | nicht genannt (nur MMS) | PS_Mathematik_LK_2027.pdf, Abschnitt 3 (S. 6 mit Fußnote 1), Abschnitt 2.2 (S. 2) |
-
-Anmerkungen: Berlin verlangt vom Taschenrechner in Fußnote 1 ausdrücklich,
-dass „Werte der Binomialverteilungen ermittelt werden können" (GK S. 6, LK
-S. 7); Brandenburg lässt „elementare statistische Funktionen" zu (GK S. 5, LK
-S. 6). Zugelassene MMS-Funktionen in allen vier Papieren gleich: Gleichungen
-und Gleichungssysteme algebraisch lösen, algebraisch differenzieren und
-integrieren, Rechnen mit Vektoren und Matrizen, Werte der Binomial- und
-Normalverteilung, Tabellenrechnung, Graphen darstellen. Abschnitt 2.2 aller
-vier Papiere: die MMS-Aufgaben haben „vergleichbare inhaltliche Schwerpunkte",
-können sich aber „u. U. deutlich" von den Aufgaben ohne MMS unterscheiden und
-sind auf kein Gerät ausgerichtet. Folge für den Katalog: WTR ist der
-Hauptzweig, MMS wird je Niveau als Delta gemessen (§ 7); eine CAS-Messung
-entfällt, weil es keine eigene Fassung ist.
-
-**Gegenstandsklassen je Thema (Schnitt für Teil A, Entscheidung 24 in
-konzept.md, 13.09.2026).** Für den Blattbau zählt in Teil A der Schnitt Thema
-× Gegenstandsklasse × Handlung (Handlung aus dem ersten Wert von `format`:
-Rechnung → berechnen, Begründung → begründen, Kurzantwort und Ankreuzen →
-angeben, Zeichnen und Eintragen → zeichnen). Die Gegenstandsklasse steht als
-erstes Wort des Typnamens vor einem Doppelpunkt („Verflechtung: Rohstoffbedarf
-über die Verflechtungsmatrix berechnen"); der Typ nach Kern § 6 bleibt als
-Feinetikett dahinter erhalten. Unterklassen bekommen nur Themen, die mehrere
-Gegenstände bündeln; Themen, die selbst schon der Gegenstand sind, führen
-keine (Typname ohne Doppelpunkt). Die Zuordnung eines Typs richtet sich nach
-dem Thema in iqb-typen.csv, nicht nach dem Thema der einzelnen Zeile.
-
-| Thema | Gegenstandsklassen |
-|---|---|
-| Funktionsklassen und Eigenschaften | Symmetrie · Transformation · Extrempunkte · Nullstellen und Werte |
-| Flächeninhalt durch Integration | Integralwert · Fläche |
-| Punkte und Strecken im Koordinatensystem | Punkt · Ebene Figur · Körper |
-| Lagebeziehungen | Punkt und Ebene · Gerade und Ebene |
-| Orthogonalität | Dreieck · Geraden und Ebenen |
-| Flächeninhalt und Volumen im Raum | Ebene Figur · Körper |
-| Matrizen und Übergangsprozesse | Verflechtung · Übergangsprozess · Matrizenalgebra |
-| Zufallsexperimente und Urnenmodelle | Term und Ereignis · Laplace-Experiment · Ziehen ohne Zurücklegen |
-
-Lesart: Integralwert heißt deuten, abschätzen, begründen oder ablesen eines
-Integrals (auch über Symmetrie), Fläche heißt berechnen eines Flächeninhalts;
-Ebene Figur sind Dreieck, Viereck und Quadrat auch im Raum, Körper sind Prisma,
-Pyramide, Würfel und Quader; Term und Ereignis ist das Deuten oder Aufstellen
-eines Wahrscheinlichkeitsterms, Laplace-Experiment das Abzählen gleich
-wahrscheinlicher Ergebnisse. Die Liste wächst beim Abgleichlauf, wenn ein
-Thema einen weiteren Gegenstand bekommt; iqb-bau.py prüft, dass jeder Typ
-eines Themas mit Klassen ein gültiges Präfix trägt und jeder andere keines.
+- **Aufgabengruppe A1** ist überwiegend Matrizen (Verflechtung,
+  Übergangsprozesse, Matrizenalgebra) und liegt für alle vier Zielprüfungen
+  außerhalb der Geltung; die Aufgaben werden trotzdem erfasst (Typenquelle).
+- **Konfidenzintervalle** (v0.9, Entscheidung des Lehrers nach fünf
+  Teil-B-Stapeln): eigene Zeile, weil der Pool sie auf erhöhtem Niveau in
+  Teil B stellt; bis dahin ersatzweise unter Hypothesentests, mit
+  Abgleichlauf 7 umgestellt.
+- **Schnitt für den Blattbau** (Entscheidung 24, hier entstanden, seit
+  Entscheidung 25 für beide Profile): Thema × Gegenstandsklasse × Handlung;
+  die Kennzahl „Schnitt" in iqb-pruefungen.md § 2 zählt die Werte je Stapel.
 
 **Abbruchkriterium für Teil A (Entscheidung des Lehrers, 14.09.2026, nach
 Abgleichlauf 4).** Maßstab ist je Stapel die Zahl der neuen Schnittwerte
@@ -479,13 +302,9 @@ Niveau an einem Stapel gemessen (2026-ga-B-mms: 1 neuer Schnittwert in
 Geltung, 2026-ea-B-mms: 0), die übrigen sind Reserve. Verzeichnis in
 iqb-pruefungen.md § 2.
 
-Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
-das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
-Simulation ist. Bisher keine Fundstelle; die Regel wird beim ersten Fall geprüft.
-
-**Bekannte Lücken** werden hier wie in abi.md § 6 gesammelt: nächstliegendes
-Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln.
-Stand v0.1: keine.
+**Bekannte Lücken** werden wie im Profil abi gesammelt: nächstliegendes
+Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
+(abitur-vokabular.md § 2). Stand v1.2: keine.
 
 ## 7 Besonderheiten beim Erfassen
 
@@ -605,8 +424,16 @@ Stand v0.1: keine.
   17 im Stapel 2026-ga-B-mms zunächst aus dem WTR-Zweig übernommenen Zeilen
   wurden mit Abgleichlauf 9 gestrichen (iqb-pruefungen.md § 5).
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
-  Stapels gegen iqb-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
-  verfahren, stichwoerter. Ergebnis als Liste alt → neu in iqb-pruefungen.md § 5.
+  Stapels gegen abitur-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
+  verfahren, stichwoerter; abgleich.py zieht beide Kataloge mit. Ergebnis als
+  Liste alt → neu in iqb-pruefungen.md § 5.
+- **Pool-Teilaufgaben in Landesheften** (Entscheidung des Lehrers, 15.09.2026,
+  Regel des Profils abi, hier festgehalten): Nimmt ein Landesheft eine
+  Poolaufgabe (2018-bb-ea Teil 1 aus dem Pool 2018 erhöht, das Stark-Heft 2023
+  zu 30 von 185 BE), bekommt jede solche Teilaufgabe eine eigene abi-Zeile mit
+  demselben typ wie die iqb-Zeile und dem Verweis „Dublette von: <iqb-id>" am
+  Anfang von bemerkung; abi-bau.py prüft den Verweis gegen iqb-katalog.csv.
+  Die iqb-Zeile bleibt unverändert; der Pool ist die Erstfassung.
 - **Standardbezug vor Erwartungshorizont lesen? Nein.** Reihenfolge beim
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
   und Standardbezug. Die Schätzung wird nicht nachträglich an den Standardbezug
@@ -808,9 +635,9 @@ Grund steht dann in bemerkung. In diesem Stapel kommt es nicht vor.
   Stapeln entscheiden, ob die Schätzregel in Kern § 5 (I reproduzieren, II
   Zusammenhänge herstellen, III verallgemeinern und reflektieren) für das
   Abitur nachjustiert werden muss – die Änderung wäre dann eine am Kern.
-- Zusammenführung mit abi über die Typen: Verfahren offen (gemeinsamer
-  Abgleichlauf über beide Typenlisten?). Bis dahin wächst iqb-typen.csv
-  eigenständig; gleiche Fertigkeiten sollen nach Möglichkeit das Etikett aus
-  abi-typen.csv tragen – beim Anlegen eines Typs dort nachsehen.
+- Zusammenführung mit abi über die Typen: entschieden (Entscheidung 25,
+  15.09.2026) – eine Typenliste abitur-typen.csv, ein Vokabular
+  abitur-vokabular.md, ein Abgleichlauf abgleich.py über beide Kataloge;
+  Umstellungslauf 12 in abi-pruefungen.md § 4 und abi-iqb-typen.md.
 - Aufgabengruppe (1 oder 2) steht nur in aufgabe; ob sie als Merkmal für den
   Blattbau reicht, zeigt die Heft-Phase.

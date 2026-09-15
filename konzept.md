@@ -14,7 +14,11 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     msa.md                 Profil msa: alles, was an der P10 hängt (Quellen, Aufbau, Kürzel, Themenliste, Beispielzeilen)
     fhr.md, abi.md, iqb.md Profile fhr (Fachhochschulreife BB), abi (Zentralabitur BE/BB), iqb (Aufgabenpool des IQB);
                            Dateien je Profil mit Präfix: <kennung>-quellen.md, -pruefungen.md, -typen.csv, -katalog.csv, -bau.py;
-                           iqb zusätzlich iqb-quellen.csv/.py (Kennungen) und iqb-abgleich.py (Abgleichlauf, Entscheidung 24)
+                           iqb zusätzlich iqb-quellen.csv/.py (Kennungen)
+    abitur-vokabular.md    gemeinsames Vokabular von abi und iqb (Sachgebiete, Themen, Geltung, Gegenstandsklassen, Handlungen), Entscheidung 25
+    abitur-typen.csv       gemeinsame Typenliste von abi und iqb (seit 15.09.2026, vorher abi-typen.csv und iqb-typen.csv)
+    abgleich.py            Abgleichlauf über die gemeinsame Typenliste und beide Kataloge (bis Lauf 11 iqb-abgleich.py)
+    hefte/                 gescannte Verlagshefte (Stark) für abi ab 2019, lokal, per .gitignore nicht im Repo
     vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck für msa bzw. abi/iqb
     pruefungsprompt.md     Prüfungsprompt (bis v0.7 blatt-prompt.md): baut alle Prüfungen mit Katalog, heute Profil msa; Masterfassung hier, Projektanweisung ist Kopie (blatt-konzept.md §5)
     masterprompt.md        Masterprompt: baut alles ohne Katalog (Unterricht, Klassenarbeiten, Prüfungen ohne Katalog); Masterfassung hier, Projektanweisung ist Kopie
@@ -90,6 +94,7 @@ Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
 22. Arbeitsweise Schritt für Schritt: Claude liefert Dateien mit Pfad und Namen, der Lehrer legt sie ab und meldet sich; dann nennt Claude den nächsten Schritt. Aufwendige Aktionen werden vorher angekündigt.
 23. Eigenes Profil iqb für den Aufgabenpool des IQB (2026-09-13), nach dem Muster von fhr: gleicher Kern, eigenes Profil, eigene Katalogdatei, eigene Typenliste. Grund: Der Pool ist länderneutral und passt nicht in das abi-Kürzel Jahr-Land-Niveau. Der Pool liefert Typen und eicht über den Standardbezug die Niveauschätzung; die Landeshefte bleiben das Formatmodell. Zusammengeführt wird über die Typen, nicht über die Dateien. Reihenfolge: Prüfungsteil A vollständig, dann Teil B. Einheit des Laufs ist der Stapel (Prüfungsteil eines Pooljahrs auf einem Niveau); die Qualitätsschranke sitzt im Bau-Skript (Schwellenwerte für „?", neue Typen, fehlende Themen), nicht im Urteil des Lehrers, der keine Berichte liest. afb_amtlich trägt alle im Standardbezug vorkommenden Bereiche; die Eichung vergleicht mit dem höchsten.
 24. Schnitt für Teil A des Pools: Thema × Gegenstandsklasse × Handlung (2026-09-13). Grund: Der Typ nach Kern § 6 ist für die Kurzaufgaben des Teils A so fein, dass fast jede Zeile ihr eigenes Etikett trägt (1,1 Zeilen je Typ nach sechs Stapeln, Wiederverwendung im Niveau 3–7 %); das Thema allein wirft Ungleiches zusammen (Matrizen: Verflechtung, Übergangsprozesse, Matrizenalgebra). Die Zwischenstufe trennt diese Fälle (Messung 13.09.2026: 114 Werte auf 197 Zeilen, Wiederverwendung im Niveau 38–47 %) und bündelt, was als Kette taugt. Umsetzung ohne neues Feld: Die Gegenstandsklasse steht als Präfix vor dem Doppelpunkt im Typnamen, die Klassenliste je Thema in iqb.md § 6; Themen, die selbst der Gegenstand sind, führen keine Unterklasse; die Handlung kommt aus format. Der Typ nach Kern § 6 bleibt als Feinetikett hinter dem Präfix; Umbenennungen und Zusammenziehungen laufen über iqb-abgleich.py (Kern § 9). Der Kern bleibt unverändert; für den Blattbau in Teil A zählt der Schnitt, nicht der Feintyp.
+25. Gemeinsame Typenliste für abi und iqb, abi auf dem Typenschnitt nach Entscheidung 24 (2026-09-15). Grund: Die Messung (abi-iqb-typen.md) zeigte, dass 92 % der abi-Zeilen auf Schnittwerten liegen, die der Pool schon hat, und 36 % der abi-Typen ein inhaltsgleiches iqb-Gegenstück haben; die Landeshefte ab 2019 (Stark-Scans) nehmen Poolaufgaben auf. Umsetzung: abitur-vokabular.md als eine Quelle für Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen und Handlungen (abi.md und iqb.md verweisen darauf und führen nur Profilspezifisches); abitur-typen.csv als gemeinsame Typenliste mit beispiel_id in einem der beiden Kataloge; die Kataloge bleiben getrennt (abi-katalog.csv, iqb-katalog.csv); abgleich.py zieht beide Kataloge mit; abi-bau.py auf dem Stand von iqb-bau.py (Präfixregel, Schwellen, Eichung, Vollständigkeit). Pool-Teilaufgaben in Landesheften bekommen eine eigene abi-Zeile mit geteiltem Typ und dem Verweis „Dublette von: <iqb-id>" in bemerkung – kein bloßer Verweis ohne Zeile, kein neues Feld im Kern. Umstellungslauf 12: 938 → 875 Typen, 75 abi-Zeilen und 5 iqb-Zeilen umetikettiert (abi-pruefungen.md § 4). Der Kern bleibt unverändert; seine Sätze „Leitidee und Thema stehen im Profil" gelten über den Verweis des Profils.
 
 ## 5 Verworfen
 
@@ -124,6 +129,9 @@ Jährlich: Vorgabencheck (vorgaben.md), neues Heft erfassen, Typenbibliothek neu
 
 ## 8 Änderungen
 
+- 2026-09-15: Entscheidung 25 – gemeinsame Typenliste abitur-typen.csv und
+  gemeinsames Vokabular abitur-vokabular.md für abi und iqb, abgleich.py über
+  beide Kataloge, Umstellungslauf 12 (938 → 875 Typen). §2 Bausteine ergänzt.
 - 2026-09-13: Entscheidung 24 – Schnitt Thema × Gegenstandsklasse × Handlung für
   Teil A des Pools, Gegenstandsklasse als Präfix im Typnamen, Abgleichlauf über
   iqb-abgleich.py (183 → 174 Typen).

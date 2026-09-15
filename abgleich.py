@@ -1,17 +1,19 @@
 # -*- coding: utf-8 -*-
-"""iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.11 · 15.09.2026 · gilt mit iqb.md v1.1 und iqb-bau.py v0.9
+"""abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
+Version 0.12 · 15.09.2026 · gilt mit abitur-vokabular.md v1.0, abi-bau.py v0.3 und iqb-bau.py v1.0
+(bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
-Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
-Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
-(alt → Gegenstandsklasse), ZUSAMMEN (alt → neu; mehrere alte Namen auf
-denselben neuen Namen heißt zusammenziehen, die erste Zeile der Typenliste
-bleibt mit ihrer beispiel_id), NEUE_DEFINITION und NEUES_THEMA (nur für
-zusammengezogene oder umgewidmete Typen). Aufruf `python iqb-abgleich.py [N]`
-führt Lauf N aus (ohne Angabe den jüngsten); jeder Lauf setzt den Stand nach
-dem vorigen voraus und wird genau einmal gefahren. Schreibt beide Dateien im
-Format von iqb-bau.py und gibt die Liste alt → neu für iqb-pruefungen.md § 5
-aus. Danach iqb-bau.py mit leerem ZEILEN laufen lassen.
+Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
+Typfeldern aller Kataloge (KATALOGE: iqb-katalog.csv, abi-katalog.csv). Die
+Regeln je Lauf stehen in LAEUFE: PRAEFIX (alt → Gegenstandsklasse), ZUSAMMEN
+(alt → neu; mehrere alte Namen auf denselben neuen Namen heißt zusammenziehen,
+die erste Zeile der Typenliste bleibt mit ihrer beispiel_id), NEUE_DEFINITION
+und NEUES_THEMA (nur für zusammengezogene oder umgewidmete Typen). Aufruf
+`python abgleich.py [N]` führt Lauf N aus (ohne Angabe den jüngsten); jeder
+Lauf setzt den Stand nach dem vorigen voraus und wird genau einmal gefahren.
+Schreibt die Dateien im Format der Bau-Skripte und gibt die Liste alt → neu
+für abi-pruefungen.md bzw. iqb-pruefungen.md § 5 aus. Danach beide Bau-Skripte
+mit leerem ZEILEN laufen lassen.
 
 Lauf 1 (13.09.2026, Entscheidung 24): Gegenstandsklasse als Präfix nach
 iqb.md § 6, neun Zusammenziehungen (183 → 174 Typen).
@@ -40,11 +42,23 @@ Lauf 11 (15.09.2026, nach 2026-ea-B-mms): zwei Zusammenziehungen mit neuem
 Namen (Quaderhöhe aus den Raumdiagonalen mit Volumen oder Oberflächeninhalt;
 Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion),
 794 → 792.
+Lauf 12 (15.09.2026, Entscheidung 25 – Umstellungslauf): iqb-typen.csv (792)
+und abi-typen.csv (146) werden zu abitur-typen.csv zusammengeführt; 50 abi-Typen
+gehen in ihr inhaltsgleiches iqb-Gegenstück auf, 2 tragen denselben Namen,
+11 überlappende Paare werden mit erweiterter Definition zusammengezogen
+(drei iqb-Typen dabei umbenannt), 15 abi-Typen in Klassen-Themen bekommen
+den Präfix, 2 wechseln das Thema; beide Kataloge werden umetikettiert
+(abi-iqb-typen.md, Bericht in abi-pruefungen.md § 4). Die Quelldateien
+iqb-typen.csv und abi-typen.csv entfallen.
 """
-import csv, io, re, sys, collections
+import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-KAT, TYP = "iqb-katalog.csv", "iqb-typen.csv"
+TYP = "abitur-typen.csv"
+KATALOGE = ["iqb-katalog.csv", "abi-katalog.csv"]  # in dieser Reihenfolge, nur vorhandene
+# Lauf 12 liest die beiden alten Listen und schreibt erstmals abitur-typen.csv (iqb zuerst:
+# bei gleichem oder zusammengezogenem Namen bleibt der iqb-Eintrag mit seiner beispiel_id).
+QUELL_TYPEN_12 = ["iqb-typen.csv", "abi-typen.csv"]
 
 # ======================================================================= Lauf 1
 # ---- Präfixe (Gegenstandsklasse: Feinetikett) für Themen mit Klassen, iqb.md § 6
@@ -511,6 +525,254 @@ NEUE_DEFINITION_11 = {
         "der zweiten Ableitung), Randstellen prüfen und, wenn verlangt, den Wert der Rate dort angeben.",
 }
 
+# ======================================================================= Lauf 12
+# Umstellungslauf (Entscheidung 25, 15.09.2026): gemeinsame Typenliste für abi
+# und iqb. Zuordnung je abi-Typ und Begründung in abi-iqb-typen.md § 6; die
+# (b)-Zusammenziehungen M1–M11 und die vier Klassenentscheidungen im Bericht
+# (abi-pruefungen.md § 4, 15.09.2026).
+ZUSAMMEN_12 = {
+    # (a) inhaltsgleich: abi-Name → iqb-Name (abi-iqb-typen.md § 6)
+    "Unterschreiten einer Steigungsschranke über das Minimum der Ableitung nachweisen":
+        "Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen",
+    "Ableitung mit Produkt- und Kettenregel bilden":
+        "Ableitung eines Produkts aus x und einer e-Funktion mit Produkt- und Kettenregel bilden",
+    "Zweite Ableitung nachweisen":
+        "Ableitung eines Produkts mit e-Funktion in vorgegebener Form nachweisen",
+    "Zielfunktion für den Flächeninhalt eines Dreiecks aufstellen":
+        "Flächeninhaltsterm eines Dreiecks unter dem Graphen begründen",
+    "Fläche zwischen zwei Graphen berechnen":
+        "Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen",
+    "Achsensymmetrie am Funktionsterm nachweisen":
+        "Symmetrie: Symmetrieart am Term über die Exponenten begründen",
+    "Nullstellenfreiheit über das Vorzeichen des Funktionsterms begründen":
+        "Nullstellen und Werte: Nullstellenfreiheit und Wertemenge einer e-Funktion aus dem Term begründen",
+    "Parameter einer Parallelen zur x-Achse aus einer Abstandsbedingung berechnen":
+        "Symmetrie: Höhe einer waagerechten Sekante aus dem Abstand ihrer Schnittpunkte über die Symmetrie bestimmen",
+    "Punktsymmetrie am Funktionsterm begründen":
+        "Symmetrie: Symmetrieart am Term über die Exponenten begründen",
+    "Schnittpunkt mit der y-Achse angeben":
+        "Nullstellen und Werte: Schnittpunkt mit der y-Achse und Steigung des Graphen dort angeben",
+    "Gemeinsamen Punkt aller Graphen einer Schar nachweisen":
+        "Gemeinsame Punkte aller Graphen einer Schar bestimmen",
+    "Parameterwert aus dem Graphen einer Schar ermitteln":
+        "Scharparameter aus einem Punkt des Graphen angeben",
+    "Punkt in vorgegebener Entfernung auf einer Geraden bestimmen":
+        "Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen",
+    "Grenzverhalten einer Exponentialfunktion untersuchen":
+        "Nullstelle und Grenzverhalten eines Produkts aus Polynom und e-Funktion angeben",
+    "Art eines Extrempunktes über die zweite Ableitung bestimmen":
+        "Extrempunkt an vorgegebener Stelle nachweisen",
+    "Fehlen von Extrempunkten einer Schar über die Diskriminante nachweisen":
+        "Parameterwerte nach der Anzahl der Extrempunkte über die Lösbarkeit der Extremstellengleichung begründen",
+    "Fehlen von Extrempunkten über das Vorzeichen der Ableitung begründen":
+        "Fehlende Extrempunkte über eine positive Ableitung begründen",
+    "Hochpunkt über die notwendige Bedingung bestimmen":
+        "Hochpunkt eines Produkts aus Polynom und e-Funktion berechnen",
+    "Stelle des stärksten Gefälles über die zweite Ableitung bestimmen":
+        "Zeitpunkt stärkster Abnahme über das Minimum der Ableitung berechnen",
+    "Parameter einer Exponentialfunktion aus zwei Wertepaaren bestimmen":
+        "Parameter einer Exponentialfunktion aus zwei Punkten des Graphen bestimmen",
+    "Gleichschenkligkeit des Achsenabschnittsdreiecks einer Tangente nachweisen":
+        "Gleichschenkligkeit des Dreiecks aus Tangente und Koordinatenachsen allgemein begründen",
+    "Normalengleichung an einer Stelle ermitteln":
+        "Gerade senkrecht zu einer gegebenen Tangente durch einen Punkt aufstellen",
+    "Relative Abweichung zweier Funktionswerte prüfen":
+        "Näherung durch die Tangente mit dem Funktionswert im Sachzusammenhang vergleichen",
+    "Tangente aus einer Bedingung an das Achsenabschnittsdreieck bestimmen":
+        "Berührpunkt der Tangente mit gleichschenkligem Achsendreieck über die Steigung −1 berechnen",
+    "Tangentengleichung an einer Stelle ermitteln":
+        "Tangentengleichung in einem Punkt des Graphen aufstellen",
+    "Koordinatengleichung einer Ebene aus drei Punkten aufstellen":
+        "Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen",
+    "Trägerebene über Normalenvektor begründen":
+        "Lage einer Figur in einer Koordinatenebene aus Eckpunkt und orthogonaler Geraden begründen",
+    "Lage eines durch eine Linearkombination gegebenen Punktes beschreiben":
+        "Lage eines Punktes zu einem Vektorterm im Quader beschreiben",
+    "Rechtwinkligkeit eines Dreiecks über Skalarprodukte ausschließen":
+        "Dreieck: Nichtrechtwinkligkeit in einem Eckpunkt über das Skalarprodukt nachweisen",
+    "Geschwindigkeit aus Weg und Zeit berechnen und in Kilometer pro Stunde umrechnen":
+        "Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen",
+    "Koordinaten der Eckpunkte einer Pyramide aus der Beschreibung angeben":
+        "Körper: Koordinaten der Eckpunkte eines beschriebenen Körpers wählen",
+    "Trapezform eines Vierecks im Raum nachweisen":
+        "Ebene Figur: Trapez über parallele Seiten nachweisen und Flächeninhalt berechnen",
+    "Durchstoßpunkt einer Geraden durch eine Ebene bestimmen":
+        "Schnittpunkt von Gerade und Ebene berechnen",
+    "Gesamthöhe eines zusammengesetzten Körpers über die Spitze bestimmen":
+        "Spitze einer Pyramide als Schnittpunkt einer Kantengeraden mit einer Koordinatenachse berechnen",
+    "Innenwinkel eines Dreiecks über das Skalarprodukt berechnen":
+        "Winkel zwischen zwei Kanten über das Skalarprodukt berechnen",
+    "Schnittwinkel zweier Ebenen über die Normalenvektoren berechnen":
+        "Neigungswinkel einer Ebene gegen eine Koordinatenebene über die Normalenvektoren berechnen",
+    "Schnittwinkel zwischen Gerade und Ebene berechnen":
+        "Schnittwinkel zwischen Gerade und Ebene über Richtungs- und Normalenvektor berechnen",
+    "Totale Wahrscheinlichkeit bei zufälliger Auswahl einer Urne berechnen":
+        "Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen",
+    "Wahrscheinlichkeit einer festgelegten Trefferfolge berechnen":
+        "Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen",
+    "Anteil einer Teilgruppe aus der totalen Wahrscheinlichkeit berechnen":
+        "Fehlenden Anteil im Baumdiagramm aus einer Randwahrscheinlichkeit berechnen",
+    "Bedingte Wahrscheinlichkeit aus der Vierfeldertafel berechnen":
+        "Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen",
+    "Kumulierte Wahrscheinlichkeit einer Binomialverteilung berechnen":
+        "Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln",
+    "Wahrscheinlichkeit einer Binomialverteilung für genau k Treffer berechnen":
+        "Einzelwahrscheinlichkeit der Binomialverteilung mit dem Rechner ermitteln",
+    "Auszahlung eines fairen Spiels aus der Fairnessbedingung bestimmen":
+        "Unbekannte Größe aus einer Erwartungswertbedingung bestimmen",
+    "Vierfeldertafel aus Anteilen aufstellen":
+        "Vierfeldertafel aus Anteilen vervollständigen",
+    "Anzahl der Kugeln aus einer Fairnessbedingung bestimmen":
+        "Unbekannte Größe aus einer Erwartungswertbedingung bestimmen",
+    "Wahrscheinlichkeit beim Ziehen ohne Zurücklegen mit der Pfadregel nachweisen":
+        "Ziehen ohne Zurücklegen: Wahrscheinlichkeit beim zweimaligen Ziehen ohne Zurücklegen berechnen",
+    "Punktprobe an einer Ebenengleichung durchführen":
+        "Punkt und Ebene: Punktprobe an einer Ebenengleichung durchführen",
+    "Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben":
+        "Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben",
+    "Entscheidungsregel für einen einseitigen Signifikanztest bestimmen":
+        "Entscheidungsregel eines einseitigen Signifikanztests bestimmen",
+    # (b) zusammengezogen, Definition erweitert (M1–M11 im Bericht)
+    "Parameterwert einer Schar aus einer Funktionswertbedingung exakt bestimmen":
+        "Scharparameter aus einem Punkt des Graphen angeben",
+    "Art eines Extrempunktes über den Vorzeichenwechsel der ersten Ableitung begründen":
+        "Extrempunkt an vorgegebener Stelle nachweisen",
+    "Parabelgleichung aus Symmetrie und einer Flächenbedingung rekonstruieren":
+        "Scharparameter aus einer Nullstelle und einem Flächeninhalt bestimmen",
+    "Flächeninhalt des Achsenabschnittsdreiecks einer Tangente berechnen":
+        "Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen",
+    "Lage eines Punktes auf einer Strecke über die Parameterform nachweisen":
+        "Punktprobe an einer Geraden durchführen",
+    "Mittelpunkt eines Quadrates als Diagonalenmittelpunkt bestimmen":
+        "Punkt: Mittelpunkt einer Strecke im Raum bestimmen",
+    "Wahrscheinlichkeit eines Intervalls als Differenz kumulierter Werte berechnen":
+        "Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln",
+    "Wahrscheinlichkeit aus den Sektorwinkeln eines Glücksrads bestimmen":
+        "Laplace-Experiment: Laplace-Wahrscheinlichkeit als Anteil der günstigen Fälle angeben",
+    "Wahrscheinlichkeit für den ersten Treffer bei der k-ten Wiederholung berechnen":
+        "Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen",
+    "Punktprobe mit gerundeten Koordinaten durchführen":
+        "Nullstellen und Werte: Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen",
+    "Eckpunkt eines Quadrates nachweisen":
+        "Ebene Figur: Benachbarte Ecke eines Quadrats über den Diagonalenschnittpunkt als Spurpunkt nachweisen",
+    # Umbenennungen bestehender iqb-Typen (Ziel der Zusammenziehung)
+    "Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen":
+        "Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen",
+    "Laplace-Experiment: Laplace-Wahrscheinlichkeit für den ersten Zug angeben":
+        "Laplace-Experiment: Laplace-Wahrscheinlichkeit als Anteil der günstigen Fälle angeben",
+    "Nullstellen und Werte: Nullstelle oder Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen":
+        "Nullstellen und Werte: Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen",
+}
+PRAEFIX_12 = {
+    "Definitionsbereich einer Logarithmusfunktion angeben": "Nullstellen und Werte",
+    "Einzige Nullstelle über den positiven Exponentialfaktor nachweisen": "Nullstellen und Werte",
+    "Vertikalen Abstand zweier Punkte als Differenz von Funktionswerten berechnen": "Nullstellen und Werte",
+    "Abschnittsweise begrenzte Fläche durch Integration berechnen": "Fläche",
+    "Flächenmaßstab eines Modells auf eine Realfläche anwenden": "Fläche",
+    "Körper in ein räumliches Koordinatensystem einzeichnen": "Körper",
+    "Mittelpunkt einer Strecke im Raum bestimmen": "Punkt",
+    "Schatten einer Fläche in eine Abbildung einzeichnen": "Ebene Figur",
+    "Orthogonalität zweier Ebenen über die Normalenvektoren nachweisen": "Geraden und Ebenen",
+    "Bedarfsgröße aus einem Volumen im Sachzusammenhang nachweisen": "Körper",
+    "Flächeninhalt eines Dreiecks aus den Spurpunkten einer Ebene berechnen": "Ebene Figur",
+    "Höhe eines Dreiecks im Raum über den Flächeninhalt berechnen": "Ebene Figur",
+    "Pyramidenvolumen aus Grundfläche und Höhe berechnen": "Körper",
+    "Mindestanzahl beim Ziehen ohne Zurücklegen über das Gegenereignis bestimmen": "Ziehen ohne Zurücklegen",
+    "Sektorenzahlen eines Glücksrads aus Wahrscheinlichkeiten ermitteln": "Laplace-Experiment",
+}
+NEUES_THEMA_12 = {
+    "Graphen einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen": ("Analysis", "Kurvenuntersuchung"),
+    "Existenz eines Geradenschnittpunkts über die gemeinsame Ebene begründen": ("Analytische Geometrie", "Geraden"),
+}
+NEUE_DEFINITION_12 = {
+    # (a)-Ziele, deren Definition den abi-Fall noch nicht nannte
+    "Ableitung eines Produkts aus x und einer e-Funktion mit Produkt- und Kettenregel bilden":
+        "Die Ableitung eines Terms p(x) · e^(g(x)) (p Polynom, auch nur x) mit Produkt- und Kettenregel "
+        "bilden und den gemeinsamen Faktor ausklammern.",
+    "Ableitung eines Produkts mit e-Funktion in vorgegebener Form nachweisen":
+        "Eine vorgegebene erste oder zweite Ableitung eines Produkts aus Potenz oder Polynom und e-Funktion "
+        "mit Produkt- und Kettenregel nachweisen und in die vorgegebene Form bringen.",
+    "Symmetrie: Symmetrieart am Term über die Exponenten begründen":
+        "Achsensymmetrie zur y-Achse oder Punktsymmetrie zum Ursprung begründen – über die Parität der "
+        "Exponenten oder über f(−x) = f(x) bzw. f(−x) = −f(x).",
+    "Nullstellen und Werte: Nullstellenfreiheit und Wertemenge einer e-Funktion aus dem Term begründen":
+        "Am Term begründen, dass eine Funktion (etwa a · e^x + c oder eine Summe stets positiver Bestandteile) "
+        "keine Nullstelle hat, und, wenn verlangt, ihre Wertemenge angeben.",
+    "Nullstellen und Werte: Schnittpunkt mit der y-Achse und Steigung des Graphen dort angeben":
+        "Den Schnittpunkt eines Graphen mit der y-Achse als (0 | f(0)) angeben und, wenn verlangt, die "
+        "Steigung dort als f'(0).",
+    "Gerade senkrecht zu einer gegebenen Tangente durch einen Punkt aufstellen":
+        "Die Gleichung der Normalen in einem Graphenpunkt (Steigung −1/f'(x₀)) oder einer Geraden durch einen "
+        "Punkt senkrecht zu einer gegebenen Tangente aufstellen.",
+    "Ebene Figur: Trapez über parallele Seiten nachweisen und Flächeninhalt berechnen":
+        "Ein Viereck über kollineare Verbindungsvektoren zweier Seiten als Trapez nachweisen und, wenn "
+        "verlangt, seinen Flächeninhalt mit der Trapezformel berechnen.",
+    "Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen":
+        "Eine Wahrscheinlichkeit berechnen, wenn erst die Urne oder ihre Zusammensetzung zufällig gewählt wird "
+        "und dann daraus gezogen wird: bedingte Wahrscheinlichkeiten je Fall gewichtet addieren (totale Wahrscheinlichkeit).",
+    "Hochpunkt eines Produkts aus Polynom und e-Funktion berechnen":
+        "Den Hochpunkt eines Produkts aus Polynom und e-Funktion über die notwendige Bedingung berechnen "
+        "(Produktregel); die Art folgt aus der Abbildung oder dem Sachzusammenhang, die hinreichende Bedingung entfällt.",
+    # (b)-Zusammenziehungen M1–M11
+    "Scharparameter aus einem Punkt des Graphen angeben":
+        "Den Parameterwert einer Funktionsschar angeben oder durch exaktes Auflösen bestimmen, für den ein "
+        "gegebener Punkt auf dem Graphen liegt oder ein Funktionswert eine Bedingung erfüllt.",
+    "Extrempunkt an vorgegebener Stelle nachweisen":
+        "Für eine genannte Stelle zeigen, dass dort ein Hoch- oder Tiefpunkt liegt: erste Ableitung null "
+        "(notwendige Bedingung) und Art über das Vorzeichen der zweiten Ableitung oder über den "
+        "Vorzeichenwechsel der ersten Ableitung.",
+    "Scharparameter aus einer Nullstelle und einem Flächeninhalt bestimmen":
+        "Zwei Parameter einer Schar oder einer symmetrisch angesetzten Parabel aus einer vorgegebenen "
+        "Nullstelle und dem Inhalt eines Flächenstücks zwischen Graph und x-Achse bestimmen.",
+    "Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen":
+        "Die Tangente in einem Punkt aufstellen, ihre Achsenabschnitte bestimmen und daraus den Flächeninhalt "
+        "oder den Umfang (Satz des Pythagoras) des von Tangente und Koordinatenachsen begrenzten Dreiecks "
+        "berechnen; welches Maß, steht in der Zeile.",
+    "Punktprobe an einer Geraden durchführen":
+        "Prüfen, ob ein Punkt auf einer Geraden in Parameterform liegt, indem der Parameter aus den Koordinaten "
+        "bestimmt und auf Widerspruch geprüft wird; bei einer Strecke zusätzlich, ob der Parameter zwischen "
+        "null und eins liegt.",
+    "Punkt: Mittelpunkt einer Strecke im Raum bestimmen":
+        "Den Mittelpunkt einer Strecke – auch einer Diagonalen eines Vierecks, also den Mittelpunkt der Figur – "
+        "als halbe Summe der Ortsvektoren der Endpunkte berechnen.",
+    "Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln":
+        "Eine kumulierte Wahrscheinlichkeit einer Binomialverteilung (weniger als, mehr als, höchstens, "
+        "mindestens) mit dem Rechner oder aus der Tabelle ermitteln; „mehr als“ über das Gegenereignis, ein "
+        "Intervall als Differenz zweier kumulierter Werte mit richtig eingeschlossenen Grenzen.",
+    "Laplace-Experiment: Laplace-Wahrscheinlichkeit als Anteil der günstigen Fälle angeben":
+        "Die Wahrscheinlichkeit eines Ergebnisses als Anteil der günstigen an allen gleich wahrscheinlichen "
+        "Fällen angeben – Objekte beim ersten Ziehen oder Sektorwinkel am Vollwinkel beim Glücksrad.",
+    "Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen":
+        "Die Wahrscheinlichkeit einer in fester Reihenfolge vorgegebenen Folge von Ergebnissen als Produkt "
+        "der Einzelwahrscheinlichkeiten berechnen, etwa erster Treffer erst beim k-ten Versuch.",
+    "Nullstellen und Werte: Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen":
+        "Durch Einsetzen zeigen, dass ein Punkt (auch mit gerundeten Koordinaten) auf dem Graphen liegt, dass "
+        "eine Stelle Nullstelle ist oder dass der Graph dort eine waagerechte Gerade schneidet.",
+    "Ebene Figur: Benachbarte Ecke eines Quadrats über den Diagonalenschnittpunkt als Spurpunkt nachweisen":
+        "Nachweisen, dass ein Punkt eine zu einer gegebenen Ecke benachbarte Ecke eines Quadrats ist: "
+        "Diagonalenschnittpunkt als Spurpunkt einer Geraden bestimmen, gleiche Länge und Orthogonalität der "
+        "Halbdiagonalen zeigen (schließt den gegenüberliegenden Eckpunkt aus).",
+}
+
+# Pool-Teilaufgaben in Landesheften (Entscheidung des Lehrers, 15.09.2026, Punkt 3):
+# eigene abi-Zeile mit geteiltem Typ, Verweis „Dublette von: <iqb-id>" am Anfang
+# von bemerkung. Der hilfsmittelfreie Teil 2018-bb-ea nimmt Analysis 2 und AG/LA
+# A2 2 des Pools 2018 erhöht (gleiche Zahlen und Aufträge; 2017 nicht prüfbar,
+# Pool 2017 erhöht A ist Reserve).
+DUBLETTEN_12 = {
+    "2018-bb-ea-A1.1a": "2018MerhoehtAAnalysis2-a", "2018-bb-ea-A1.1b": "2018MerhoehtAAnalysis2-b",
+    "2018-bb-ea-A1.2a": "2018MerhoehtAAGLAA22-a", "2018-bb-ea-A1.2b": "2018MerhoehtAAGLAA22-b",
+}
+
+
+def zeile_12(d):
+    """Verweis auf die Poolzeile an den Anfang von bemerkung setzen."""
+    if d["id"] not in DUBLETTEN_12 or d["bemerkung"].startswith("Dublette von:"):
+        return False
+    d["bemerkung"] = f"Dublette von: {DUBLETTEN_12[d['id']]}. " + d["bemerkung"]
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -523,8 +785,9 @@ LAEUFE = {
     9: ({}, {}, {}, {}),
     10: ({}, ZUSAMMEN_10, NEUE_DEFINITION_10, {}),
     11: ({}, ZUSAMMEN_11, NEUE_DEFINITION_11, {}),
+    12: (PRAEFIX_12, ZUSAMMEN_12, NEUE_DEFINITION_12, NEUES_THEMA_12),
 }
-FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)]}
+FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -553,8 +816,18 @@ def schreibe(pfad, kopf, zeilen):
 
 
 def main():
-    kopf_t, typen = lade(TYP)
-    kopf_k, kat = lade(KAT)
+    if LAUF == 12:
+        # Umstellungslauf: beide alten Listen hintereinander, iqb zuerst
+        if os.path.exists(TYP):
+            sys.exit(f"{TYP} existiert schon – Lauf 12 wird genau einmal gefahren")
+        typen, kopf_t = [], None
+        for p in QUELL_TYPEN_12:
+            k, rows = lade(p)
+            kopf_t = kopf_t or k
+            typen += rows
+    else:
+        kopf_t, typen = lade(TYP)
+    kataloge = [(p, *lade(p)) for p in KATALOGE if os.path.exists(p)]
     namen = [r[0] for r in typen]
     unbekannt = [a for a in list(PRAEFIX) + list(ZUSAMMEN) if a not in namen]
     if unbekannt:
@@ -577,65 +850,79 @@ def main():
         gesehen[neu] = r
         neue_typen.append(r)
 
-    # Katalog: beide Typfelder
-    i_typ, i_neben = kopf_k.index("typ"), kopf_k.index("typ_neben")
-    geaendert = 0
-    for r in kat:
-        for i in (i_typ, i_neben):
-            teile = [abbildung.get(t, t) for t in r[i].split("|") if t]
-            neu = "|".join(teile)
-            if neu != r[i]:
-                geaendert += 1
-                r[i] = neu
+    # Kataloge: beide Typfelder, je Katalog
+    geaendert, zeilen_geaendert, korrigiert, gestrichen, benutzt, alle_ids = {}, {}, 0, [], set(), set()
+    for p, kopf_k, kat in kataloge:
+        i_typ, i_neben = kopf_k.index("typ"), kopf_k.index("typ_neben")
+        geaendert[p] = zeilen_geaendert[p] = 0
+        for r in kat:
+            war = False
+            for i in (i_typ, i_neben):
+                teile = [abbildung.get(t, t) for t in r[i].split("|") if t]
+                neu = "|".join(teile)
+                if neu != r[i]:
+                    geaendert[p] += 1
+                    war = True
+                    r[i] = neu
+            zeilen_geaendert[p] += war
 
-    # Feldkorrektur (Lauf 5: Markierung der Trägerbindung in bemerkung; Lauf 7:
-    # Thema Konfidenzintervalle). Ein Eintrag (feld, fn) korrigiert ein Feld aus
-    # seinem Text; ("*", fn) bekommt die ganze Zeile als dict und ändert sie in place.
-    korrigiert = 0
-    for feld, fn in FELDKORREKTUR.get(LAUF, []):
-        if feld == "*":
+        # Feldkorrektur (Lauf 5: Markierung der Trägerbindung in bemerkung; Lauf 7:
+        # Thema Konfidenzintervalle). Ein Eintrag (feld, fn) korrigiert ein Feld aus
+        # seinem Text; ("*", fn) bekommt die ganze Zeile als dict und ändert sie in place.
+        for feld, fn in FELDKORREKTUR.get(LAUF, []):
+            if feld == "*":
+                for r in kat:
+                    d = dict(zip(kopf_k, r))
+                    if fn(d):
+                        korrigiert += 1
+                        r[:] = [d[k] for k in kopf_k]
+                continue
+            i_feld = kopf_k.index(feld)
             for r in kat:
-                d = dict(zip(kopf_k, r))
-                if fn(d):
+                neu = fn(r[i_feld])
+                if neu != r[i_feld]:
                     korrigiert += 1
-                    r[:] = [d[k] for k in kopf_k]
-            continue
-        i_feld = kopf_k.index(feld)
-        for r in kat:
-            neu = fn(r[i_feld])
-            if neu != r[i_feld]:
-                korrigiert += 1
-                r[i_feld] = neu
+                    r[i_feld] = neu
 
-    # Streichen (Lauf 9: Zeilen von Dubletten). Kein Typ darf seine beispiel_id
-    # verlieren, kein Typ unbenutzt werden.
-    gestrichen = []
-    if LAUF in STREICHEN:
-        fn = STREICHEN[LAUF]
-        bleibt = []
-        for r in kat:
-            (gestrichen if fn(dict(zip(kopf_k, r))) else bleibt).append(r)
-        ids_weg = {r[kopf_k.index("id")] for r in gestrichen}
-        verwaist = [t[0] for t in neue_typen if t[4] in ids_weg]
-        if verwaist:
-            sys.exit(f"beispiel_id gestrichener Zeilen: {verwaist}")
-        benutzt = {t for r in bleibt for i in (i_typ, i_neben) for t in r[i].split("|") if t}
-        unbenutzt = [t[0] for t in neue_typen if t[0] not in benutzt]
-        if unbenutzt:
-            sys.exit(f"Typen ohne Zeile nach dem Streichen: {unbenutzt}")
-        kat = bleibt
+        # Streichen (Lauf 9: Zeilen von Dubletten).
+        if LAUF in STREICHEN:
+            fn = STREICHEN[LAUF]
+            bleibt = []
+            for r in kat:
+                (gestrichen if fn(dict(zip(kopf_k, r))) else bleibt).append(r)
+            kat[:] = bleibt
+        benutzt |= {t for r in kat for i in (i_typ, i_neben) for t in r[i].split("|") if t}
+        alle_ids |= {r[kopf_k.index("id")] for r in kat}
+
+    # Kein Typ darf seine beispiel_id verlieren, kein Typ unbenutzt sein, keine
+    # Zeile einen Typ tragen, der nicht in der Liste steht.
+    verwaist = [t[0] for t in neue_typen if t[4] not in alle_ids]
+    if verwaist:
+        sys.exit(f"beispiel_id in keinem Katalog: {verwaist}")
+    unbenutzt = [t[0] for t in neue_typen if t[0] not in benutzt]
+    if unbenutzt:
+        sys.exit(f"Typen ohne Zeile: {unbenutzt}")
+    fremd = sorted(benutzt - {t[0] for t in neue_typen})
+    if fremd:
+        sys.exit(f"Typen im Katalog, aber nicht in der Liste: {fremd}")
 
     schreibe(TYP, kopf_t, neue_typen)
-    schreibe(KAT, kopf_k, kat)
+    for p, kopf_k, kat in kataloge:
+        schreibe(p, kopf_k, kat)
+    if LAUF == 12:
+        for p in QUELL_TYPEN_12:
+            os.remove(p)
 
     # Bericht
+    zeilen = sum(len(kat) for _, _, kat in kataloge)
     print(f"Abgleichlauf {LAUF}")
-    print(f"Typen vorher {vorher}, nachher {len(neue_typen)}; {geaendert} Typfelder im Katalog geändert; "
-          f"{len(kat)} Zeilen, {len(kat)/len(neue_typen):.2f} Zeilen je Typ."
+    print(f"Typen vorher {vorher}, nachher {len(neue_typen)}; Typfelder geändert: "
+          + ", ".join(f"{p} {n} (in {zeilen_geaendert[p]} Zeilen)" for p, n in geaendert.items())
+          + f"; {zeilen} Zeilen in {len(kataloge)} Katalogen, {zeilen/len(neue_typen):.2f} Zeilen je Typ."
           + (f" Feldkorrektur: {korrigiert} Zeilen." if korrigiert else "")
           + (f" Gestrichen: {len(gestrichen)} Zeilen." if gestrichen else ""))
     for r in gestrichen:
-        print("  gestrichen:", r[kopf_k.index("id")])
+        print("  gestrichen:", r[0])
     ziel = collections.defaultdict(list)
     for alt, neu in abbildung.items():
         if alt != neu:

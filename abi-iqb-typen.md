@@ -8,6 +8,16 @@ für „dieselbe Fertigkeit" ist Kern § 6 (Gegenstand plus Handlung, anderer
 Lösungsweg trennt). Die Zuordnung je abi-Typ steht in § 6; sie ist von Hand
 getroffen und die Grundlage für einen späteren Umstellungslauf.
 
+**Umgesetzt** (Entscheidung 25, Umstellungslauf 12 am 15.09.2026, abgleich.py
+v0.12; Bericht in abi-pruefungen.md § 4): Weg A. Die Zuordnung in § 6 ist die
+Grundlage der Regeln ZUSAMMEN_12, PRAEFIX_12 und NEUES_THEMA_12. Abweichungen
+beim Umsetzen: Nr. 134 von (a) nach (b) zurückgestuft (das iqb-Gegenstück
+meint das Komplement); von den fünf „gleichnamigen" (a)-Fällen waren nur zwei
+wirklich gleichnamig (Nr. 92, 125, 136 tragen in iqb Präfix oder anderen
+Wortlaut); von den geschätzten „rund 25" zusammenziehbaren (b)-Paaren sind
+elf zusammengezogen (M1–M11), die übrigen bleiben nach Kern § 6 getrennt.
+Ergebnis: 938 → 875 Typen, 75 abi-Zeilen und 5 iqb-Zeilen umetikettiert.
+
 ## 1 Klassen
 
 | Klasse | abi → iqb (146 abi-Typen) | iqb → abi (792 iqb-Typen) |

@@ -1,5 +1,11 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.7 · 15.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.8 · 15.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 0.7 (Entscheidung 25, Auftrag „Weg A umsetzen"): § 5–6
+Sachgebiete und Themenliste nach abitur-vokabular.md, hier nur Verweis und
+Lücken; Typenschnitt nach Entscheidung 24 auch für abi; § 2 gemeinsame
+Typenliste abitur-typen.csv und abgleich.py; § 4 typ mit Präfix; § 7
+Pool-Teilaufgaben in Landesheften (eigene Zeile, geteilter Typ, „Dublette
+von:"), Trägerbindung, Qualitätsschranke im Skript (abi-bau.py v0.3).
 Änderungen gegenüber 0.6 (Auftrag „Stark-Heft 2023 Berlin/Brandenburg GK –
 Pool-Abgleich vor Erfassung"): § 4 papier-Kürzel `bebb` für die gemeinsamen
 Hefte Berlin/Brandenburg 2019–2025 aus Verlagsbänden; § 2 Ablage der
@@ -49,8 +55,12 @@ Sagt der Lehrer Abi, Abitur, GK oder LK, ist dieses Profil gemeint.
 
 Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/mathe-nachhilfe/main/
 (alle Dateien flach in der Wurzel; bei anderer Ablage nur diese Zeile ändern).
-Katalogdateien dieses Profils: abi-quellen.md, abi-pruefungen.md, abi-typen.csv,
-abi-katalog.csv. Eine Katalogdatei, kein zweiter Block wie beim Profil msa: Das Feld `block` trägt
+Katalogdateien dieses Profils: abi-quellen.md, abi-pruefungen.md,
+abi-katalog.csv; die Typenliste abitur-typen.csv und das Vokabular
+abitur-vokabular.md sind mit dem Profil iqb geteilt (Entscheidung 25,
+15.09.2026; vorher abi-typen.csv). Umbenennungen und Zusammenziehungen von
+Typen laufen über abgleich.py, das beide Kataloge mitzieht. Eine
+Katalogdatei, kein zweiter Block wie beim Profil msa: Das Feld `block` trägt
 die Unterscheidung zwischen hilfsmittelfreiem Teil und Teil mit Hilfsmitteln
 bereits. Eine zweite Datei würde dieselbe Information ein zweites Mal ablegen und
 die Auswertung über beide Teile hinweg erschweren.
@@ -151,6 +161,10 @@ CAS-Hefte sind durchgehend eigene Fassungen.
     stern:  leer. Es gibt keine Sternaufgaben; Niveauunterschiede stehen im
             papier-Kürzel.
     hilfsmittel: nein in block A, sonst ja.
+    typ:    Etikett aus abitur-typen.csv; in Themen mit Gegenstandsklassen
+            (abitur-vokabular.md § 4) beginnt der Name mit der Klasse und
+            Doppelpunkt („Körper: Pyramidenvolumen aus Grundfläche und Höhe
+            berechnen"), sonst ohne Präfix; abi-bau.py prüft das.
     afb_amtlich: leer für 2017/2018 – diese Hefte weisen keine
             Anforderungsbereiche aus, und die zugehörigen Erwartungshorizonte
             sind nicht veröffentlicht. Eine Schätzung gehört nicht in dieses
@@ -177,82 +191,55 @@ CAS-Hefte sind durchgehend eigene Fassungen.
 
 ## 5 Sachgebiete
 
-Feld `leitidee` trägt das Sachgebiet: **Analysis · Analytische Geometrie ·
-Stochastik**.
+Feld `leitidee` trägt das Sachgebiet: Analysis · Analytische Geometrie ·
+Stochastik. Die Liste und ihre Begründung gegen die KMK-Leitideen stehen in
+abitur-vokabular.md § 1 (gemeinsam mit dem Profil iqb, Entscheidung 25).
 
-Abweichung vom Profil msa, bewusst: Die Bildungsstandards der KMK kennen für die
-Oberstufe fünf Leitideen (Algorithmus und Zahl, Messen, Raum und Form,
-Funktionaler Zusammenhang, Daten und Zufall), und der Rahmenlehrplan weist sie
-jeder Kompetenz zu. Sie sind aber quer zu den Sachgebieten – „Messen" tritt in
-Analysis, Geometrie und Stochastik auf – und damit für die Zuordnung einer
-Teilaufgabe nicht trennscharf. Die Prüfung selbst, die Kurshalbjahre und die
-Prüfungsschwerpunkte sind nach Sachgebieten gegliedert. Lineare Algebra ist kein
-eigener Wert: Die Prüfungsschwerpunkte führen Gleichungssysteme unter Analysis,
-Vektoren unter Analytischer Geometrie.
+## 6 Themenliste, Geltung, Schnitt
 
-## 6 Themenliste
+Themenliste, Geltungstabelle (be-gk, be-lk, bb-gk, bb-ea), Gegenstandsklassen
+und Handlungen stehen in abitur-vokabular.md § 2–5; abi-bau.py liest sie dort.
+Bis v0.7 stand die Themenliste hier (46 Themen); die gemeinsame Liste hat 49
+(dazu Matrizen und Übergangsprozesse, Konfidenzintervalle, Lineare
+Gleichungssysteme auch unter Analytische Geometrie), die Abweichungen der
+beiden Fassungen sind in abitur-vokabular.md § 7 festgehalten. Seit dem
+Umstellungslauf 12 (15.09.2026) gilt für abi der Typenschnitt nach
+Entscheidung 24: Typen in Themen mit Gegenstandsklassen tragen die Klasse als
+Präfix („Ebene Figur: …"), der Schnitt Thema × Gegenstandsklasse × Handlung
+ist die Einheit für den Blattbau, der Typ das Feinetikett.
 
-Feste Ebene zwischen Sachgebiet und Typ. Abgeleitet aus den Prüfungsschwerpunkten
-Brandenburg 2027 (LK und GK) und dem Rahmenlehrplan GOST Teil C Mathematik, gültig
-ab 01.08.2022 (inhaltlich die Kapitel 2–4 des Brandenburger RLP vom 01.08.2018).
-Stand v0.1, in der Feldprobe zu prüfen; Ergänzungen nur über den Bericht.
-
-**Analysis:** Gleichungen lösen · Lineare Gleichungssysteme · Funktionsklassen und
-Eigenschaften · Umkehrfunktion · Grenzwerte und Verhalten im Unendlichen ·
-Ableitung und Änderungsrate · Ableitungsregeln · Tangente, Normale, Schnittwinkel ·
-Kurvenuntersuchung · Ableitungsgraph und Funktionsgraph · Funktionsscharen und
-Ortskurven · Rekonstruktion von Funktionsgleichungen · Extremalprobleme ·
-Stammfunktion und Hauptsatz · Integrationsregeln · Flächeninhalt durch Integration ·
-Rekonstruktion von Beständen · Uneigentliche Integrale · Rotationsvolumen
-
-**Analytische Geometrie:** Punkte und Strecken im Koordinatensystem · Vektoren und
-Rechenoperationen · Linearkombination und lineare Abhängigkeit · Geraden · Ebenen ·
-Lagebeziehungen · Schnittmengen · Skalarprodukt und Winkel · Orthogonalität ·
-Abstände · Flächeninhalt und Volumen im Raum · Scharen von Geraden und Ebenen ·
-Spiegelung
-
-**Stochastik:** Ereignisse und Mengenoperationen · Zufallsexperimente und
-Urnenmodelle · Kombinatorik · Baumdiagramm und Pfadregeln · Vierfeldertafel ·
-Bedingte Wahrscheinlichkeit und Bayes · Unabhängigkeit · Lage- und Streumaße einer
-Stichprobe · Zufallsgrößen und Verteilungen · Binomialverteilung · Kenngrößen von
-Verteilungen · Hypergeometrische Verteilung · Normalverteilung und Sigma-Regeln ·
-Hypothesentests
-
-Nur auf erhöhtem Niveau: Uneigentliche Integrale, Rotationsvolumen, Funktionsscharen
-und Ortskurven, Scharen von Geraden und Ebenen, Normalverteilung und Sigma-Regeln,
-Hypothesentests, goniometrische Gleichungen und Wurzelgleichungen innerhalb von
-„Gleichungen lösen".
-
-Nicht Prüfungsgegenstand (Prüfungsschwerpunkte 2027): Beweise erläutern oder
-entwickeln (K1); Simulationen (L5). Aufgaben dieser Art erscheinen im Katalog
-nicht, auch wenn der Rahmenlehrplan sie führt.
-
-**Bekannte Lücken** (Feldprobe 2018-bb-ea 2.1). Zwei Fertigkeiten treten in
-Analysisaufgaben auf, ohne dass die Analysis-Liste ein Thema dafür hätte:
-die relative Abweichung zweier Funktionswerte in Prozent (2.1 f) und eine
-elementargeometrische Nebenrechnung, hier der Flächeninhalt eines regelmäßigen
-Sechsecks (2.1 i). Ursache ist die Regel, dass leitidee das Sachgebiet der
-Aufgabenstellung trägt: „Flächeninhalt und Volumen im Raum“ würde passen, liegt
-aber unter Analytischer Geometrie. Bis zur Entscheidung wird das nächstliegende
-Thema gewählt und der Fall in bemerkung vermerkt. Erst nach mehreren Heften
-entscheiden, ob die Liste ergänzt oder die Regel gelockert wird.
-Stand nach 2018-be-gk: 33 der 46 Themen sind belegt. Das GK-Heft hat vier Themen
-zum ersten Mal belegt, und zwar die elementaren – Ableitung und Änderungsrate,
-Stammfunktion und Hauptsatz, Geraden, Lagebeziehungen; die LK-Hefte überspringen
-sie, weil sie dort Voraussetzung statt Prüfungsgegenstand sind. Neu offen aus
-2018-be-gk: die Umrechnung einer Geschwindigkeit von Metern je Sekunde in
-Kilometer je Stunde (2.1 d) hat in der Liste Analytische Geometrie kein Thema,
-ersatzweise Punkte und Strecken im Koordinatensystem. Das Zeichnen in ein
-vorgegebenes Koordinatensystem (1.1 f) trat wie 2017 erneut auf.
-Stand nach 2018-bb-ea und 2017-bb-ea: 29 der 46 Themen waren belegt. 2017 hat drei
-weitere Fälle derselben Art gebracht, jeweils in Analysisaufgaben: das Eintragen
-einer Zeichnung in ein vorgegebenes Koordinatensystem (2.2 c), die Umrechnung
-zwischen Modell- und Realmaßen bei Flächen und Volumina (2.1 e, 2.1 f, 2.2 f) und
-die Bestimmung eines Punktes in vorgegebener Entfernung auf einer Geraden (2.2 e),
-die rechnerisch elementargeometrisch ist. Verfahren wie bisher: nächstliegendes
-Thema wählen, Fall in bemerkung vermerken, Entscheidung nach mehreren Heften.
+**Bekannte Lücken** (Feldprobe 2018-bb-ea und die Hefte 2017/2018): relative
+Abweichung in Prozent, elementargeometrische Nebenrechnungen (Sechseck),
+Maßstab, Geschwindigkeit umrechnen, Zeichnen ins vorgegebene
+Koordinatensystem, Punkt in vorgegebener Entfernung auf einer Geraden – im
+Pool haben diese Fertigkeiten ein Thema gefunden (abitur-vokabular.md § 2,
+letzte Anmerkung); die betroffenen Zeilen behalten ihr Thema, „ersatzweise"
+in bemerkung bleibt als Vermerk. Stand nach 2018-be-gk: 33 der 46 damaligen
+Themen belegt.
 
 ## 7 Besonderheiten beim Erfassen
+
+- **Pool-Teilaufgaben in Landesheften** (Entscheidung des Lehrers,
+  15.09.2026): Nimmt ein Landesheft eine Poolaufgabe des IQB (2018-bb-ea
+  Teil 1 Analysis und Geometrie aus dem Pool 2018 erhöht; das Stark-Heft
+  2023 zu 30 von 185 BE), bekommt jede solche Teilaufgabe eine eigene
+  abi-Zeile mit demselben typ wie die iqb-Zeile (geteilter Typ; typ_neben
+  darf Nebenleistungen nennen) und dem Verweis „Dublette von: <iqb-id>." am
+  Anfang von bemerkung. Kein bloßer Verweis ohne Zeile. abi-bau.py prüft,
+  dass die id in iqb-katalog.csv steht und typ übereinstimmt; bei anderer
+  Punktzahl nennt bemerkung die BE. Die Zeile trägt die Fakten des
+  Landeshefts (Seite, BE, Wortlaut der Aufgabe), afb_amtlich darf aus der
+  Poolzeile übernommen werden. Ein eigenes Feld dublette_von gibt es im Kern
+  nicht; die Markierung ersetzt es.
+- **Trägerbindung** wie im Profil iqb (iqb.md § 7): feste Markierung
+  „Traegerbindung: Kontext" am Anfang von bemerkung, kein eigenes Feld.
+- **Qualitätsschranke im Skript** (abi-bau.py v0.3, SCHWELLEN wie iqb-bau.py):
+  Zeilen mit „?" höchstens 10 % (mindestens 2), Zeilen mit „ersatzweise"
+  höchstens 10 % (mindestens 2), Eichung mindestens 85 % der Zeilen mit
+  amtlichem Bereich, scharf ab 10 gewerteten Zeilen; die Hefte bis 2018 haben
+  keinen amtlichen Bereich. Ein Heft ist vollständig, wenn jede Aufgabe aus
+  KONFIG["soll"] Zeilen hat und jede Punktsumme stimmt; probe = True prüft,
+  ohne zu schreiben.
 
 - **Eine Leitfassung je Jahr und Niveau.** Auf erhöhtem Niveau bb-ea, weil sie den
   hilfsmittelfreien Teil enthält; auf grundlegendem be-gk, weil Brandenburg dort
