@@ -250,10 +250,156 @@ den Typ auf die iqb-Zeile verweisen – oder als abi-Zeile mit Verweis in
 bemerkung, je nach Entscheidung des Lehrers zur Zusammenführung (iqb.md
 § 9).
 
+**Umstellungslauf 12 – gemeinsame Typenliste für abi und iqb (Entscheidung
+25, Auftrag „Weg A umsetzen", 15.09.2026).** Grundlage abi-iqb-typen.md
+(Messung vom selben Tag). Zwei Commits: erst abitur-vokabular.md, abgleich.py
+v0.12 (vorher iqb-abgleich.py), abi-bau.py v0.3, iqb-bau.py v1.0 und die
+Dokumente; dann der Lauf.
+
+*Typenliste.* Vorher iqb-typen.csv 792 und abi-typen.csv 146 (zusammen 938),
+nachher abitur-typen.csv 875: 63 abi-Typen sind in iqb-Typen aufgegangen –
+50 inhaltsgleiche mit anderem Namen (Klasse a), 2 mit gleichem Namen
+(Baumdiagramm zu einer zweistufigen Situation erstellen; Stammfunktion durch
+Ableiten nachweisen), 11 überlappende Paare mit erweiterter Definition (M1–M11
+unten); dabei drei iqb-Typen umbenannt (Umfang des Dreiecks aus Tangente und
+Koordinatenachsen → Flächeninhalt oder Umfang …; Laplace-Wahrscheinlichkeit
+für den ersten Zug → … als Anteil der günstigen Fälle angeben; Nullstelle oder
+Schnittstelle mit einer waagerechten Geraden durch Einsetzen → Punkt,
+Nullstelle oder Schnittstelle durch Einsetzen nachweisen). 15 abi-Typen in
+Klassen-Themen tragen jetzt den Präfix, 2 haben das Thema gewechselt (Graphen
+einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen →
+Kurvenuntersuchung; Existenz eines Geradenschnittpunkts über die gemeinsame
+Ebene begründen → Geraden). 83 abi-Typen stehen ohne iqb-Verwendung in der
+Liste (55 aus Klasse b, 27 aus c, dazu Nr. 134), 56 Typen
+werden in beiden Katalogen verwendet, 736 nur in iqb. Zehn (a)-Ziele
+bekamen eine erweiterte Definition, weil sie den abi-Fall noch nicht nannten
+(Polynom statt x vor der e-Funktion, zweite Ableitung, f(−x) neben der
+Parität der Exponenten, Wertemenge und Steigung „wenn verlangt", Normale in
+einem Graphenpunkt, Trapezfläche „wenn verlangt", totale Wahrscheinlichkeit,
+Hochpunkt über die notwendige Bedingung).
+
+*Umetikettiert.* abi-katalog.csv: 98 Typfelder in 75 von 113 Zeilen (dazu die
+vier Dublettenverweise unten, alle in diesen 75); iqb-katalog.csv: 5
+Typfelder in 5 Zeilen (die drei Umbenennungen). Zusammen 80 Zeilen, unter
+der Haltemarke von 100. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung
+beider Bau-Skripte bestanden (abi 113 Zeilen, iqb 1061 Zeilen, 875 Typen,
+alle verwendet, 29 Stapel vollständig).
+
+*Schnittwerte.* Gemeinsamer Bestand nach dem Lauf: 189 Werte nach dem Thema
+der Zeile (iqb 180, abi 61, Schnitt 52), davon 153 in be-gk und 176 in bb-ea;
+nach dem Thema des Typs, das nach abitur-vokabular.md § 4 die Klasse trägt,
+183 (iqb 178, abi 58). Von den 8 neuen abi-Werten der Messung bleiben 5:
+Extremalprobleme · zeichnen, Linearkombination und lineare Abhängigkeit ·
+begründen, Rotationsvolumen · berechnen, Rotationsvolumen · zeichnen (beide
+außerhalb be-gk), Ziehen ohne Zurücklegen · begründen; die drei Werte mit
+offener Klasse sind durch die Klassenentscheidungen in vorhandene Werte
+gefallen. Nach dem Thema der Zeile zählt die Messung vier weitere,
+scheinbar neue Werte (etwa Orthogonalität · Ebene Figur · begründen), die
+nur daher rühren, dass 13 abi-Zeilen und 8 iqb-Zeilen ein anderes Thema
+tragen als ihr Typ – die Bau-Skripte messen den Schnitt bisher mit dem
+Zeilenthema. Nicht geändert; Vorschlag: den Schnitt in beiden Skripten auf
+das Thema des Typs stellen.
+
+*Die vier Klassenentscheidungen.* (1) Definitionsbereich einer
+Logarithmusfunktion angeben → Klasse „Nullstellen und Werte", Lesart in
+abitur-vokabular.md § 4 um Definitions- und Wertemengen erweitert (iqb führt
+Wertemengen schon dort); keine neue Klasse. (2) Graphen einer Funktion in
+ein vorgegebenes Koordinatensystem einzeichnen → Thema Kurvenuntersuchung
+(ohne Klassen), wie „Graphen zu vorgegebenen Nullstellen, Extrem- und
+Wendestellen skizzieren" in iqb. (3) Existenz eines Geradenschnittpunkts über
+die gemeinsame Ebene begründen → Thema Geraden, wo iqb Lagen zweier Geraden
+führt; Lagebeziehungen bleibt bei Punkt/Gerade gegen Ebene. (4) Eckpunkt
+eines Quadrates nachweisen → in den iqb-Typ „Ebene Figur: Benachbarte Ecke
+eines Quadrats über den Diagonalenschnittpunkt als Spurpunkt nachweisen"
+aufgegangen (M11) – es ist dieselbe Aufgabe (2018-bb-ea A1.2b = Pool 2018
+AGLAA22 b), Thema Punkte und Strecken.
+
+*(b)-Zusammenziehungen M1–M11* (Definition jeweils erweitert): M1
+Parameterwert einer Schar aus einer Funktionswertbedingung exakt bestimmen →
+Scharparameter aus einem Punkt des Graphen angeben; M2 Art eines
+Extrempunktes über den Vorzeichenwechsel der ersten Ableitung begründen →
+Extrempunkt an vorgegebener Stelle nachweisen (beide Wege, wie Lauf 6 bei
+der Unabhängigkeit); M3 Parabelgleichung aus Symmetrie und einer
+Flächenbedingung rekonstruieren → Scharparameter aus einer Nullstelle und
+einem Flächeninhalt bestimmen; M4 Flächeninhalt des Achsenabschnittsdreiecks
+einer Tangente → Flächeninhalt oder Umfang des Dreiecks aus Tangente und
+Koordinatenachsen berechnen (wie Lauf 11: das Maß steht in der Zeile); M5
+Lage eines Punktes auf einer Strecke über die Parameterform nachweisen →
+Punktprobe an einer Geraden durchführen; M6 Mittelpunkt eines Quadrates als
+Diagonalenmittelpunkt → Punkt: Mittelpunkt einer Strecke im Raum bestimmen
+(abi-intern); M7 Wahrscheinlichkeit eines Intervalls als Differenz
+kumulierter Werte → Kumulierte Binomialwahrscheinlichkeit mit dem Rechner
+ermitteln; M8 Wahrscheinlichkeit aus den Sektorwinkeln eines Glücksrads →
+Laplace-Wahrscheinlichkeit als Anteil der günstigen Fälle angeben; M9
+Wahrscheinlichkeit für den ersten Treffer bei der k-ten Wiederholung →
+Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt
+berechnen; M10 Punktprobe mit gerundeten Koordinaten → Nullstellen und Werte:
+Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen; M11 wie
+oben. **Abweichung vom Auftrag:** statt der in der Messung geschätzten „rund
+25" sind es elf. Beim Prüfen jedes Paars nach Kern § 6 erwiesen sich die
+Bündelungsfälle (Ursache 1 der Messung) als nicht zusammenziehbar, ohne die
+Leistung einer Zeile zu ändern – ein abi-Typ, der nur die Nebenleistung
+trägt (Maßstab, Streckenlänge, Mittelpunkt), kann nicht in einen iqb-Typ
+aufgehen, der die ganze Teilaufgabe meint; und die Kurzaufgabe-gegen-Kette-
+Fälle (Ursache 2) unterscheiden sich in der Handlung, also im Schnitt.
+Zusätzlich wurde Nr. 134 (Wahrscheinlichkeit für wenigstens einen Treffer
+über das Gegenereignis) von (a) nach (b) zurückgestuft und nicht
+zusammengezogen: das iqb-Gegenstück meint das Komplement (kein Abbruch in n
+Wiederholungen), das nächste iqb-Etikett ist auf zwei Stufen festgelegt.
+
+*Strittige (b)-Paare, getrennt gelassen (je eine Zeile):* Nr. 25 Graphen
+einer Schar beschriften – iqb trennt nach Lösungsweg (y-Achsenabschnitt,
+Spiegelung), der abi-Typ nennt keinen; Nr. 30 Nullstelle einer
+Exponentialfunktion durch Logarithmieren – das iqb-Etikett bündelt den
+Anfangswert, eine abi-Zeile ohne ihn passte nicht unter den Namen; Nr. 44
+Lage und Art aller lokalen Extrempunkte bestimmen – iqb kennt nur
+„Extremstellen berechnen und Monotonieverhalten angeben", andere Leistung;
+Nr. 74 Abstand Punkt–Ebene mit der Hesseschen Normalform – Lösungsweg, den
+der Pool nicht benutzt; Nr. 88 Pyramidenvolumen aus Grundfläche und Höhe –
+ein allgemeines Etikett würde drei spezialisierte iqb-Typen schlucken, das
+ist eine Abgleichentscheidung über iqb-Zeilen, nicht über abi; Nr. 96
+Orthogonalität zweier Ebenen nachweisen gegen Parameter bestimmen – wie
+beim rechten Winkel mit Parameter in iqb getrennt gehalten; Nr. 127
+Mindestanzahl über das Gegenereignis durch Logarithmieren gegen Probieren am
+Rechner – Lösungsweg; Nr. 138 Erwartungswert einer Zufallsgröße im
+Sachzusammenhang berechnen – der Pool fragt ihn nie allein, der abi-Typ ist
+der Grundtyp und bleibt.
+
+*Pool-Teilaufgaben in Landesheften (Entscheidung 3 des Auftrags).* Regel in
+abi.md § 7 und iqb.md § 7; abi-bau.py prüft „Dublette von: <iqb-id>" gegen
+iqb-katalog.csv und verlangt denselben typ. Ein Feld dublette_von gibt es im
+Kern nicht (37 Felder, Schema-Version 2); die Markierung in bemerkung ersetzt
+es, eine Schemaänderung wäre eine am Kern und ist nicht gemacht. Beim
+Zusammenziehen fiel auf, dass der hilfsmittelfreie Teil 2018-bb-ea die
+Poolaufgaben 2018 erhöht Analysis 2 und AG/LA A2 2 wortgleich stellt (gleiche
+Zahlen, Aufträge, BE; die Stochastik-Aufgabe stammt aus dem Heft 2016): die
+vier Zeilen 2018-bb-ea A1.1a, A1.1b, A1.2a, A1.2b tragen seit Lauf 12 den
+Verweis (Feldkorrektur bemerkung, innerhalb der 75 Zeilen). 2017-bb-ea Teil 1
+ist nicht prüfbar, weil der Pool 2017 erhöht Teil A Reserve ist.
+
+*Beim Verschieben des Vokabulars aufgefallen* (abitur-vokabular.md § 7): abi.md
+führte 46 Themen, iqb.md 49; abi.md nannte Wurzelgleichungen als nur erhöht,
+die Berliner Schwerpunkte 2027 verlangen sie im GK; die Geltungstabelle stand
+in iqb.md, beschreibt aber die Zielprüfungen des Profils abi; die Lücken aus
+abi.md § 6 (Maßstab, Streckenlänge, Geschwindigkeit, Zeichnen, Punkt in
+Entfernung) sind im Pool längst unter Themen abgelegt. Zum Kern
+(katalog-prompt.md), nicht verschoben, sondern gemeldet: § 5 „Die Werte für
+… leitidee und thema kommen aus dem Profil" und § 6 „Leitidee und Thema
+sind fest und stehen im Profil" – für abi und iqb stehen sie jetzt in
+abitur-vokabular.md, das Profil verweist darauf; § 6 „Änderungen an
+bestehenden Etiketten schlägst du im Bericht vor und führst sie nicht selbst
+aus" ist seit den Abgleichläufen durch CLAUDE.md überschrieben (Skript mit
+Regeln, Liste alt → neu); die Handlungsklassen (format → Handlung) gehören
+inhaltlich neben Kern § 5, stehen aber im Vokabular; der Kern-Standardname
+„typen.csv" ist vom Profil msa belegt, deshalb abitur-typen.csv. Nichts
+davon verändert den Kern.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-15 | Umstellungslauf 12 (abgleich.py v0.12, Entscheidung 25): abi-typen.csv und iqb-typen.csv → abitur-typen.csv (938 → 875 Typen); 50 abi-Typen in inhaltsgleiche iqb-Typen aufgegangen, 2 gleichnamig, 11 überlappende Paare zusammengezogen (M1–M11, drei iqb-Umbenennungen), 15 Präfixe, 2 Themenwechsel; abi-katalog.csv 98 Typfelder in 75 Zeilen umetikettiert, iqb-katalog.csv 5 Typfelder in 5 Zeilen; Feldkorrektur „Dublette von:“ in 4 Zeilen (2018-bb-ea Teil 1 = Pool 2018 erhöht). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Bericht mit Klassenentscheidungen und strittigen Paaren in § 4. |
+| 2026-09-15 | Weg A vorbereitet (Entscheidung 25): abitur-vokabular.md v1.0 (Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen, Handlungen, Rechnerfassung – aus iqb.md und abi.md, Abweichungen in § 7); abgleich.py v0.12 (vorher iqb-abgleich.py, zwei Kataloge, Lauf 12); abi-bau.py v0.3 auf dem Stand von iqb-bau.py v1.0 (Präfixregel, Schwellen, Eichung, Vollständigkeit, Dublettenverweis, Trägerbindung, Kennzahlen; Zeilenblock geleert); iqb-bau.py v1.0 (Vokabular aus abitur-vokabular.md, gemeinsame Typenliste, Zeilenblock geleert); abi.md v0.8, iqb.md v1.2, CLAUDE.md, konzept.md Entscheidung 25, README.md. Katalog und Typen unverändert; läuft erst mit dem Umstellungslauf. |
 | 2026-09-15 | Typenlisten abi und iqb verglichen (Messung, nichts geändert): abi-iqb-typen.md – 146 abi-Typen gegen 792 iqb-Typen, Klassen (a) 53, (b) 66, (c) 27; auf der Schnittebene liegen 104 von 113 abi-Zeilen auf iqb-Schnittwerten (52 von 60 Werten bekannt, 8 neu, 4 Klassenentscheidungen offen); Aufwand Weg A (gemeinsame Typenliste, 77 Zeilen per Skript umetikettiert) gegen Weg B (Stark-Hefte ins alte Gerüst); Empfehlung Weg A vor dem ersten Stark-Heft. Entscheidung beim Lehrer. |
 | 2026-09-15 | Stark-Heft 2023-bebb-gk gesichtet (Scan lokal unter hefte/, per .gitignore vom Repo ausgeschlossen): Aufgabenbestand mit BE-Summen und Pool-Abgleich in § 4 – 30 von 185 BE im Pool 2023 (Teil A Analysis 1 und AG 1, Aufgabe 4 zu 20 von 30 BE). Kürzel `bebb` für gemeinsame Hefte 2019–2025 in abi.md v0.7 § 4. Keine Zeile erfasst, keine Katalogdatei geändert. |
 | 2026-09-12 | Quellenlage geklärt: gemeinsame Aufgabenentwicklung Berlin/Brandenburg seit 2009/10, seit dem Abitur 2026 getrennt (LISUM aufgelöst). Prüfungsschwerpunkte 2027 beider Länder verglichen – Struktur und Arbeitszeit gleich, Inhalte verschieden. Brandenburg hat eine eigene Prüfung auf grundlegendem Niveau. Befunde in § 4, abi.md auf v0.5 (§ 1 Zeitleiste, § 3 Kataloge 2027, § 4 Schreibweise afb_amtlich, § 9). |
