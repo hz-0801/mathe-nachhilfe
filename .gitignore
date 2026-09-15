@@ -1,3 +1,5 @@
 # Cache der Pool-PDFs von iqb-quellen.py; die Dateien werden bei Bedarf neu geholt
 iqb-pdf/
 __pycache__/
+# Gescannte Prüfungshefte (Stark u. a.): urheberrechtlich geschützt, bleiben lokal
+hefte/
