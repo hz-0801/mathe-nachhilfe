@@ -1,5 +1,5 @@
 # IQB-Aufgabenpool Mathematik – Stapel und Erfassungsstatus
-Stand 13.09.2026 · Profil iqb · gepflegt vom Katalog-Prompt
+Stand 15.09.2026 · Profil iqb · gepflegt vom Katalog-Prompt
 
 ## 1 Quelle
 
@@ -9,11 +9,14 @@ iqb.md. Amtliche Lösungen liegen für jede Aufgabe vor (Erwartungshorizont);
 der Standardbezug liefert afb_amtlich. Amtliche Vorgaben stehen gesondert in
 abi-vorgaben.md.
 
-## 2 Stapel Prüfungsteil A
+## 2 Stapel
 
-Ein Stapel ist ein Prüfungsteil eines Pooljahrs auf einem Niveau (iqb.md § 7);
-Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
-„nicht erfasst".
+Ein Stapel ist ein Prüfungsteil eines Pooljahrs auf einem Niveau, in Teil B je
+Rechnerfassung (iqb.md § 7); Reihenfolge von oben nach unten. Beide
+Prüfungsteile sind abgeschlossen (Teil A 14.09.2026, Teil B 15.09.2026, § 4);
+Stapel mit „entfällt – Reserve" werden nur auf neuen Auftrag erfasst. In Teil B
+zählt die Spalte Dateien alle Dateien des Stapels Jahr-Niveau-B über beide
+Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 
 | Stapel | Dateien | Status |
 |---|---|---|
@@ -41,14 +44,30 @@ Reihenfolge von oben nach unten. „weiter" ist der nächste Stapel mit Status
 | bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
 | 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig unten) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
 | 2026-ga-B (MMS) | 4 von 7 (drei Dubletten der WTR-Dateien, iqb-quellen.csv v0.3) | **erfasst 2026-09-14, 25 Zeilen** (nach Bereinigung 15.09.2026, vorher 42 mit 17 aus dem WTR-Zweig übernommenen) · 18 Typen neu, 9 wiederverwendet · Eichung 24 von 25 (Spalte AB) · MMS-Delta in § 4 |
-| 2026-ea-B (WTR) | 9 von 18 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
-| 2025-ga-B (WTR) | 8 von 16 (MMS-Zweig offen) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
-| 2025-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
-| 2024-ga-B (WTR) | 7 von 14 (MMS-Zweig offen) | **erfasst 2026-09-14, 49 Zeilen** · 31 Typen neu, 17 wiederverwendet · Eichung 46 von 49 (Spalte AB) |
-| 2024-ea-B (WTR) | 7 von 13 (MMS-Zweig offen) | **erfasst 2026-09-14, 61 Zeilen** · 44 Typen neu, 17 wiederverwendet · Eichung 59 von 61 (Spalte AB) |
-| 2023-ga-B (WTR) | 8 von 14 (MMS-Zweig offen; Stochastik WTR 2 trägt „MMS/WTR") | **erfasst 2026-09-14, 61 Zeilen** · 40 Typen neu, 20 wiederverwendet · Eichung 57 von 61 (Spalte AB) |
-| 2023-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik WTR 2 trägt „MMS/WTR", MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 64 Zeilen** · 49 Typen neu, 17 wiederverwendet · Eichung 55 von 64 (Spalte AB) · eine Zeile ersatzweise |
-| 2022-ea-B (WTR) | 8 von 16 (MMS-Zweig offen; Stochastik MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 69 Zeilen** · 54 Typen neu, 17 wiederverwendet · Eichung 62 von 69 (Spalte AB) |
+| 2026-ea-B (WTR) | 9 von 17 (MMS-Zweig unten; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
+| 2025-ga-B (WTR) | 8 von 14 (MMS-Zweig Reserve) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
+| 2025-ea-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
+| 2024-ga-B (WTR) | 7 von 13 (MMS-Zweig Reserve) | **erfasst 2026-09-14, 49 Zeilen** · 31 Typen neu, 17 wiederverwendet · Eichung 46 von 49 (Spalte AB) |
+| 2024-ea-B (WTR) | 7 von 13 (MMS-Zweig Reserve) | **erfasst 2026-09-14, 61 Zeilen** · 44 Typen neu, 17 wiederverwendet · Eichung 59 von 61 (Spalte AB) |
+| 2023-ga-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 2 trägt „MMS/WTR") | **erfasst 2026-09-14, 61 Zeilen** · 40 Typen neu, 20 wiederverwendet · Eichung 57 von 61 (Spalte AB) |
+| 2023-ea-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 2 trägt „MMS/WTR", MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 64 Zeilen** · 49 Typen neu, 17 wiederverwendet · Eichung 55 von 64 (Spalte AB) · eine Zeile ersatzweise |
+| 2022-ea-B (WTR) | 8 von 16 (MMS-Zweig Reserve; Stochastik MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 69 Zeilen** · 54 Typen neu, 17 wiederverwendet · Eichung 62 von 69 (Spalte AB) |
+| 2026-ea-B (MMS) | 8 von 17 | Delta-Stapel erhöht nach iqb.md § 7 (Auftrag „Teil B schließen", 15.09.2026) – siehe unten |
+| 2022-ga-B (WTR) | 7 von 13 | entfällt – Reserve (Teil B abgeschlossen, § 4, 15.09.2026: grundlegend nach 2023-ga-B ausgereizt) |
+| 2021-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
+| 2021-ea-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
+| 2020-ga-B (WTR) | 6 von 13 | entfällt – Reserve (§ 4) |
+| 2020-ea-B (WTR) | 8 von 15 | entfällt – Reserve (§ 4) |
+| 2019-ga-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
+| 2019-ea-B (WTR) | 10 von 17 | entfällt – Reserve (§ 4) |
+| 2018-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
+| 2018-ea-B (WTR) | 8 von 17 | entfällt – Reserve (§ 4) |
+| 2017-ga-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
+| 2017-ea-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
+| bsp-ga-B (WTR) | 4 von 8 | entfällt – Reserve (§ 4) |
+| bsp-ea-B (WTR) | 4 von 9 | entfällt – Reserve (§ 4) |
+| 2025-ga-B bis 2022-ea-B (MMS) | 6, 7, 6, 6, 7, 7, 6, 8 (Dubletten je Stapel in iqb-quellen.csv) | entfällt – Delta zum WTR-Zweig (iqb.md § 7), je Niveau an einem Stapel gemessen (2026-ga-B und 2026-ea-B); Reserve |
+| 2021-ga-B bis 2017-ea-B, bsp-ga-B, bsp-ea-B (CAS) | 5, 5, 7, 7, 6, 7, 5, 9, 5, 6, 4, 5 | entfällt – CAS ist die MMS-Fassung bis 2021, keine eigene Fassung (Berlin schreibt „MMS (CAS)", iqb.md § 6); als Delta durch die MMS-Stapel gemessen; Reserve |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -99,9 +118,12 @@ vorigen Stapel desselben Niveaus vorkamen).
 
 ## 3 Zurückgestellt
 
-Prüfungsteil B (296 Dateien, 20 Stapel Jahr-Niveau-B plus zwei mit
-Beispielaufgaben) liegt, bis Teil A durch ist und die Kennzahlen stehen. Die
-Kürzel für Teil B sind in iqb.md § 4 vorläufig festgelegt.
+Nichts. Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung) lag bis zum
+Abschluss von Teil A (14.09.2026) und ist seit dem 15.09.2026 abgeschlossen
+(§ 4); die Kürzel aus iqb.md § 4 haben sich bewährt. Reserve nach § 2: in Teil
+A die Stapel 2017 und die Beispielaufgaben, in Teil B die WTR-Stapel 2022-ga
+und 2021 bis 2017 samt Beispielaufgaben sowie alle MMS/CAS-Stapel außer den
+beiden Delta-Stapeln 2026.
 
 ## 4 Befunde
 
@@ -2561,10 +2583,46 @@ haben sonst keinen Zwilling im Bestand. 774 → 773 Typen, 2 Typfelder im
 Katalog. Selbstprüfung bestanden (1029 Zeilen, 773 Typen, 28 Stapel),
 Abgleich aus dem HEAD-Stand byteidentisch.
 
+**Teil B abgeschlossen (Entscheidung des Lehrers, 15.09.2026, Auftrag „Teil
+B schließen, Rechnerfassung der Zielprüfungen klären").** Der WTR-Zweig ist
+in beiden Niveaus nach dem gesetzten Abbruchkriterium (iqb.md § 6: unter
+fünf neue Schnittwerte innerhalb der Geltung im Gesamtbestand, Zielprüfung
+des Niveaus) ausgereizt. Reihen je Niveau, neue Werte in Geltung im Bestand,
+in Erfassungsreihenfolge: grundlegend (be-gk) 7 → 3 → 2 → 2 (2026, 2025,
+2024, 2023), ausgereizt nach 2023-ga-B; erhöht (bb-ea) 9 → 0 → 7 → 4 → 3
+(2026 bis 2022), ausgereizt nach 2022-ea-B – beide Reihen enden mit zwei
+Stapeln in Folge unter fünf. Neun WTR-Stapel mit 498 Zeilen erfasst; der
+MMS-Zweig 2026-ga-B (25 Zeilen) ist Delta-Messung, kein Glied der Reihe.
+Bestand nach Abgleichlauf 10: 1029 Zeilen, 773 Typen, 180 Schnittwerte (147
+in be-gk, 167 in bb-ea), 28 Stapel vollständig. Nicht erfasst und als
+„entfällt – Reserve" in § 2 geführt: die WTR-Stapel 2022-ga-B, 2021 bis 2017
+(je ga und ea) und die Beispielaufgaben (13 Stapel, 87 Dateien) sowie die
+MMS/CAS-Stapel außer den Delta-Stapeln 2026 (20 Stapel, 132 Dateien; Delta
+nach iqb.md § 7). Berichtigung in § 2: die Dateizahlen „von N" der Teil-B-
+Zeilen waren bisher als Verdopplung der WTR-Zahl geschätzt, jetzt aus
+iqb-quellen.csv gezählt (2026-ea-B 17 statt 18, 2025-ga-B 14 statt 16,
+2025-ea-B 15 statt 16, 2024-ga-B 13 statt 14, 2023-ga-B und 2023-ea-B 15
+statt 14 bzw. 16).
+
+**Rechnerfassung der Zielprüfungen ab 2027 (aus den vier
+Prüfungsschwerpunkten 2027, 15.09.2026).** Tabelle mit Fundstellen in iqb.md
+§ 6. Befund: alle vier Papiere haben denselben Hilfsmittelabschnitt –
+Regelfall Taschenrechner ohne Grafik, CAS und numerische Verfahren (WTR),
+MMS als Kurswahl („Mathematik mit MMS", Berlin „Mathematik mit MMS (CAS)")
+mit eigenen Aufgaben; CAS ist keine dritte Fassung, sondern der Name der
+MMS-Fassung bis 2021 (Pool) bzw. der Zusatz in Klammern (Berlin). Folge: für
+alle vier Zielprüfungen gilt WTR als Hauptzweig und MMS als Delta; eine
+CAS-Messung entfällt, eine Fassung ohne Zielbezug gibt es nicht. Der
+Delta-Stapel erhöht ist 2026-ea-B-mms (unten); ein Stapel „2026-ea-B-cas"
+existiert im Pool nicht (CAS-Dateien nur 2017 bis 2021 und Beispielaufgaben),
+und ein CAS-Delta aus 2021 ließe sich nicht messen, weil der WTR-Zwilling
+2021-ea-B nicht erfasst ist (Reserve).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-15 | Teil B abgeschlossen (Entscheidung des Lehrers): § 2 alle Teil-B-Stapel verzeichnet, nicht erfasste WTR-Stapel und MMS/CAS-Stapel „entfällt – Reserve", Dateizahlen „von N" aus iqb-quellen.csv berichtigt; § 3 nichts zurückgestellt; § 4 Reihen je Niveau und Bestand. Rechnerfassung der Zielprüfungen ab 2027 aus den vier Prüfungsschwerpunkten: Tabelle mit Fundstellen in iqb.md v1.1 § 6 (WTR Regelfall, MMS Kurswahl, CAS keine eigene Fassung), Befund in § 4; iqb.md § 1 Bestand, § 9. abi-vorgaben.md § 2 ergänzt. Kein Stapel erfasst. |
 | 2026-09-15 | Abgleichlauf 10 (iqb-abgleich.py v0.10, nach 2023-ea-B und 2022-ea-B): Kleinstes k mit kumulierter Wahrscheinlichkeit über einer Schranke mit dem Rechner ermitteln, Größtes k mit kumulierter Wahrscheinlichkeit unter einer Schranke mit dem Rechner ermitteln → Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln (Zusammenziehung, Definition mit beiden Richtungen). 774 → 773 Typen, 2 Typfelder im Katalog. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-15 | Stapel 2022-ea-B (WTR-Zweig) erfasst: 69 Zeilen aus 8 Dateien, Katalog 1029 Zeilen, Typenliste 774 (54 neu). Alle BE-Summen geprüft (40/40/40/25/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 62 von 69 (90 %) nach der Spalte Anforderungsbereich. Keine Trägerbindung. Abbruchkriterium erhöht: 3 neue Schnittwerte in bb-ea, Reihe 9 → 0 → 7 → 4 → 3 – erhöht ausgereizt. MMS-Zweig nicht erfasst. |
 | 2026-09-15 | Stapel 2023-ea-B (WTR-Zweig) erfasst: 64 Zeilen aus 8 Dateien, Katalog 960 Zeilen, Typenliste 720 (49 neu). Alle BE-Summen geprüft (40/40/25/25/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 55 von 64 (86 %) nach der Spalte Anforderungsbereich, eine Zeile ersatzweise (Kreisbogen). Keine Trägerbindung. Abbruchkriterium erhöht: 4 neue Schnittwerte in bb-ea, Reihe 9 → 0 → 7 → 4. MMS-Zweig nicht erfasst. |

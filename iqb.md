@@ -1,5 +1,10 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.0 · 15.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 1.1 · 15.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Änderungen gegenüber 1.0 (Auftrag „Teil B schließen, Rechnerfassung der
+Zielprüfungen klären"): § 1 Bestand fortgeschrieben, Teil B abgeschlossen; § 6
+Rechnerfassung je Zielprüfung aus den vier Prüfungsschwerpunkten 2027 mit
+Fundstellen, neben der Geltungstabelle; § 6 Abbruchkriterium Teil B: Stand
+abgeschlossen, Reserve benannt; § 9 Teil B geschlossen.
 Änderungen gegenüber 0.9 (Auftrag „Erhöhtes Niveau absichern, MMS-Dubletten
 bereinigen", Entscheidungen des Lehrers nach der Delta-Messung 2026-ga-B-mms):
 § 7 MMS/CAS als Delta zum WTR-Zweig – wortgleiche Dateien sind Dubletten der
@@ -68,9 +73,15 @@ Entscheidung 23).
 Sagt der Lehrer IQB, Pool oder Poolaufgabe, ist dieses Profil gemeint. Abi, GK, LK
 meinen weiterhin das Profil abi.
 
-Bestand: 624 Dateien, Sondierung 13.09.2026 (iqb-quellen.md). Erfasst wird
-zuerst Prüfungsteil A vollständig (328 Dateien, 22 Stapel); Teil B liegt, bis
-Teil A durch ist und die Kennzahlen stehen.
+Bestand: 624 Dateien, Sondierung 13.09.2026 (iqb-quellen.md). Erfasst wurde
+zuerst Prüfungsteil A (328 Dateien, 22 Stapel; 18 Stapel erfasst, nach dem
+Abbruchkriterium ausgereizt am 14.09.2026, Pool 2017 und Beispielaufgaben
+Reserve), dann Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung; der
+WTR-Zweig beider Niveaus ist mit neun Stapeln 2026 bis 2022 ausgereizt,
+15.09.2026, MMS/CAS sind Delta nach § 7 und werden je Niveau an einem Stapel
+gemessen; alles Übrige Reserve). Stand nach 2022-ea-B und Abgleichlauf 10:
+1029 Zeilen, 773 Typen, 180 Schnittwerte in 28 Stapeln (iqb-pruefungen.md § 2
+und § 4).
 
 ## 2 Ablage und Quellen
 
@@ -369,6 +380,41 @@ Aufgabengruppe AG/LA (A1) des Pools ist überwiegend Matrizen (Verflechtung,
 ebene Vektorrechnung) und liegt für alle vier Zielprüfungen außerhalb der
 Geltung.
 
+**Rechnerfassung je Zielprüfung ab 2027** (Fakt aus den vier
+Prüfungsschwerpunkten 2027, Abschnitt 3 „Hilfsmittel", gelesen 15.09.2026;
+Dateien wie in abi-vorgaben.md § 1). Alle vier Papiere regeln es gleich:
+Regelfall ist der Taschenrechner, der „nicht programmierbar und nicht
+grafikfähig" ist und weder numerisch differenziert oder integriert noch
+Gleichungen automatisch löst – das ist die WTR-Fassung des Pools. Kurse, für
+die als Prüfungsfach „Mathematik mit MMS" (Brandenburg) bzw. „Mathematik mit
+MMS (CAS)" (Berlin) angegeben ist, erhalten die MMS-Aufgaben samt
+Erwartungshorizont und nutzen außerhalb des Prüfungsteils A das an der Schule
+eingeführte MMS-Rechengerät – das ist die MMS-Fassung des Pools. Eine dritte
+Fassung gibt es nicht: „CAS" ist im Pool der Name derselben Fassung bis 2021
+(iqb-pruefungen.md § 4, Sondierung), Berlin schreibt „MMS (CAS)", Brandenburg
+nur „MMS". Die Wahl ist eine des Kurses, nicht der Prüfung; für jede
+Zielprüfung sind deshalb beide Fassungen möglich, WTR als Regelfall.
+
+| Zielprüfung | WTR | MMS | CAS | Fundstelle |
+|---|---|---|---|---|
+| be-gk | zugelassen, Regelfall (Taschenrechner nach Abschnitt 3) | zugelassen für Kurse mit Prüfungsfach „Mathematik mit MMS (CAS)", dann MMS-Aufgaben | keine eigene Fassung, in Berlin „MMS (CAS)" | ps_mathematik_2027_gk.pdf, Abschnitt 3 (S. 6 mit Fußnote 1, S. 7), Abschnitt 2.2 (S. 2) |
+| be-lk | zugelassen, Regelfall | zugelassen für Kurse mit „Mathematik mit MMS (CAS)" | keine eigene Fassung, „MMS (CAS)" | ps_mathematik_2027_lk.pdf, Abschnitt 3 (S. 7 mit Fußnote 1), Abschnitt 2.2 (S. 2) |
+| bb-gk | zugelassen, Regelfall („Mathematik ohne MMS") | zugelassen für Schulen mit Prüfungsfach „Mathematik mit MMS", dann MMS-Aufgaben | nicht genannt (nur MMS) | PS_Mathematik_GK_2027.pdf, Abschnitt 3 (S. 5 mit Fußnote 1, S. 6), Abschnitt 2.2 (S. 2) |
+| bb-ea | zugelassen, Regelfall („Mathematik ohne MMS") | zugelassen für Schulen mit „Mathematik mit MMS" | nicht genannt (nur MMS) | PS_Mathematik_LK_2027.pdf, Abschnitt 3 (S. 6 mit Fußnote 1), Abschnitt 2.2 (S. 2) |
+
+Anmerkungen: Berlin verlangt vom Taschenrechner in Fußnote 1 ausdrücklich,
+dass „Werte der Binomialverteilungen ermittelt werden können" (GK S. 6, LK
+S. 7); Brandenburg lässt „elementare statistische Funktionen" zu (GK S. 5, LK
+S. 6). Zugelassene MMS-Funktionen in allen vier Papieren gleich: Gleichungen
+und Gleichungssysteme algebraisch lösen, algebraisch differenzieren und
+integrieren, Rechnen mit Vektoren und Matrizen, Werte der Binomial- und
+Normalverteilung, Tabellenrechnung, Graphen darstellen. Abschnitt 2.2 aller
+vier Papiere: die MMS-Aufgaben haben „vergleichbare inhaltliche Schwerpunkte",
+können sich aber „u. U. deutlich" von den Aufgaben ohne MMS unterscheiden und
+sind auf kein Gerät ausgerichtet. Folge für den Katalog: WTR ist der
+Hauptzweig, MMS wird je Niveau als Delta gemessen (§ 7); eine CAS-Messung
+entfällt, weil es keine eigene Fassung ist.
+
 **Gegenstandsklassen je Thema (Schnitt für Teil A, Entscheidung 24 in
 konzept.md, 13.09.2026).** Für den Blattbau zählt in Teil A der Schnitt Thema
 × Gegenstandsklasse × Handlung (Handlung aus dem ersten Wert von `format`:
@@ -422,7 +468,12 @@ Stand 15.09.2026: grundlegend ausgereizt (7 → 3 → 2 → 2, WTR-Zweig bis
 Entscheidung des Lehrers mit 2023-ea-B (4) und 2022-ea-B (3) fortgesetzt –
 zwei Stapel in Folge unter fünf, erhöht ausgereizt (9 → 0 → 7 → 4 → 3).
 Beide Niveaus des WTR-Zweigs in Teil B sind damit ausgereizt. Ein
-mms-Stapel zählt nicht in die Reihe (Delta, § 7).
+mms-Stapel zählt nicht in die Reihe (Delta, § 7). **Teil B abgeschlossen**
+(Entscheidung des Lehrers, 15.09.2026): die nicht erfassten WTR-Stapel (2022-ga-B,
+2021 bis 2017, Beispielaufgaben) sind Reserve wie 2017 und die
+Beispielaufgaben in Teil A; die MMS/CAS-Stapel sind Delta (§ 7) und werden je
+Niveau an einem Stapel gemessen (2026-ga-B-mms, 2026-ea-B-mms), die übrigen
+sind Reserve. Verzeichnis in iqb-pruefungen.md § 2.
 
 Nicht erfasst werden – wie in abi.md § 6 – Teilaufgaben, deren einzige Leistung
 das Erläutern oder Entwickeln eines Beweises (K1 im engen Sinn) oder eine
@@ -734,8 +785,9 @@ Grund steht dann in bemerkung. In diesem Stapel kommt es nicht vor.
   1), der Standardbezug hat in Teil B eine eigene Spalte Anforderungsbereich
   (in bemerkung als „AB amtlich: …"; im Probestapel in allen 45 Zeilen gleich
   dem höchsten Kompetenzeintrag). MMS-Fassung: entschieden am 15.09.2026 – als
-  Delta zum WTR-Zweig (§ 7). Offen bleibt, ob Teil B überhaupt zeilenweise
-  erfasst wird (Befund zur Trägerbindung in iqb-pruefungen.md § 4).
+  Delta zum WTR-Zweig (§ 7). Teil B ist zeilenweise erfasst und abgeschlossen
+  (15.09.2026, § 6); die Trägerbindung liegt bei rund 8 % der Zeilen
+  (iqb-pruefungen.md § 4), die Markierung in bemerkung trägt sie.
 - Beispielaufgaben: Veröffentlichungsjahr nicht ermittelt; jahr = „bsp".
 - Schwellenwerte in § 7 sind Vorschläge des ersten Laufs; nach drei Stapeln
   prüfen.
