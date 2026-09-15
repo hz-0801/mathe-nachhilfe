@@ -2729,10 +2729,29 @@ Thema, Gegenstand oder Handlung. **Die Delta-Regel trägt auf erhöhtem
 Niveau** – der Delta-Stapel bringt weniger neue Werte als jeder WTR-Stapel
 und weniger als das grundlegende Delta.
 
+**Abgleichlauf 11 (iqb-abgleich.py v0.11, nach dem Delta-Stapel
+2026-ea-B-mms).** Zwei Zusammenziehungen mit neuem Namen: „Geraden und
+Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen
+bestimmen und Volumen berechnen" (2026-ea-B-wtr) + „… und Oberflächeninhalt
+berechnen" (2026-ea-B-mms) → „… und Volumen oder Oberflächeninhalt
+berechnen" (dieselbe Fertigkeit, das Maß steht in der Zeile); „Zeitpunkt und
+Größe der maximalen Änderungsrate über die zweite Ableitung berechnen"
+(2026-ga-B-mms) + „Zeitpunkt der maximalen Rate über die Ableitung der
+Ratenfunktion berechnen" (2026-ea-B-mms) → „Zeitpunkt und Größe der
+maximalen Rate über die Ableitung der Ratenfunktion berechnen" (bei
+gegebenem Bestand die zweite, bei gegebener Rate die erste Ableitung; die
+Größe ist ein Ablesen mehr). Keine weitere Zusammenziehung: die übrigen 19
+neuen Typen haben keinen Zwilling im Bestand. 794 → 792 Typen, 5 Typfelder
+im Katalog. Selbstprüfung bestanden (1061 Zeilen, 792 Typen, 29 Stapel),
+Abgleich aus dem HEAD-Stand byteidentisch. Bestand am Ende des Auftrags:
+1061 Zeilen, 792 Typen, 180 Schnittwerte (147 in be-gk, 167 in bb-ea), 29
+Stapel; Teil B abgeschlossen.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-15 | Abgleichlauf 11 (iqb-abgleich.py v0.11, nach 2026-ea-B-mms): Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen berechnen, Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Oberflächeninhalt berechnen → Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen oder Oberflächeninhalt berechnen; Zeitpunkt und Größe der maximalen Änderungsrate über die zweite Ableitung berechnen, Zeitpunkt der maximalen Rate über die Ableitung der Ratenfunktion berechnen → Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion berechnen (Zusammenziehungen, Definitionen neu). 794 → 792 Typen, 5 Typfelder im Katalog. Selbstprüfung bestanden, byteidentisch. |
 | 2026-09-15 | Stapel 2026-ea-B (MMS-Zweig) erfasst, Delta-Stapel erhöht: 32 Zeilen aus 5 Dateien (drei Dubletten der WTR-Dateien, davon Stochastik MMS 1 von Hand bestätigt – iqb-quellen.py v0.4, DUBLETTEN_HAND auch für rein redaktionelle Abweichungen; Stochastik MMS 3 Aufgabe 1 wortgleich mit WTR 2 Aufgabe 1, Soll 8), Katalog 1061 Zeilen, Typenliste 794 (21 neu). Alle BE-Summen geprüft (30/30/20/20/8), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 32 von 32 nach der Spalte Anforderungsbereich. Trägerbindung 2 Zeilen. Sechs wortgleiche Teilaufgaben mit geteiltem Typ und übernommenen Feldern (iqb.md § 7 ergänzt). MMS-Delta in § 4: 0 neue Schnittwerte im Bestand, 42 % der eigenen Zeilen auf WTR-Werten, 0 von 26 reine Rechnerbedienung – Delta-Regel trägt auf erhöhtem Niveau. iqb.md v1.1 § 1, § 6, § 7; iqb-quellen.md v0.4. |
 | 2026-09-15 | Teil B abgeschlossen (Entscheidung des Lehrers): § 2 alle Teil-B-Stapel verzeichnet, nicht erfasste WTR-Stapel und MMS/CAS-Stapel „entfällt – Reserve", Dateizahlen „von N" aus iqb-quellen.csv berichtigt; § 3 nichts zurückgestellt; § 4 Reihen je Niveau und Bestand. Rechnerfassung der Zielprüfungen ab 2027 aus den vier Prüfungsschwerpunkten: Tabelle mit Fundstellen in iqb.md v1.1 § 6 (WTR Regelfall, MMS Kurswahl, CAS keine eigene Fassung), Befund in § 4; iqb.md § 1 Bestand, § 9. abi-vorgaben.md § 2 ergänzt. Kein Stapel erfasst. |
 | 2026-09-15 | Abgleichlauf 10 (iqb-abgleich.py v0.10, nach 2023-ea-B und 2022-ea-B): Kleinstes k mit kumulierter Wahrscheinlichkeit über einer Schranke mit dem Rechner ermitteln, Größtes k mit kumulierter Wahrscheinlichkeit unter einer Schranke mit dem Rechner ermitteln → Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln (Zusammenziehung, Definition mit beiden Richtungen). 774 → 773 Typen, 2 Typfelder im Katalog. Selbstprüfung bestanden, byteidentisch. |

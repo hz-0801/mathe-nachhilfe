@@ -83,7 +83,7 @@ Reserve), dann Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung; der
 WTR-Zweig beider Niveaus ist mit neun Stapeln 2026 bis 2022 ausgereizt,
 15.09.2026, MMS/CAS sind Delta nach § 7 und werden je Niveau an einem Stapel
 gemessen; alles Übrige Reserve). Stand nach dem Delta-Stapel 2026-ea-B-mms:
-1061 Zeilen, 794 Typen, 180 Schnittwerte in 29 Stapeln (iqb-pruefungen.md § 2
+1061 Zeilen, 792 Typen (nach Abgleichlauf 11), 180 Schnittwerte in 29 Stapeln (iqb-pruefungen.md § 2
 und § 4).
 
 ## 2 Ablage und Quellen

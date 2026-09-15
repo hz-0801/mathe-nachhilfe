@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-abgleich.py – Abgleichlauf über die Typenliste des Profils iqb (Kern § 9).
-Version 0.10 · 15.09.2026 · gilt mit iqb.md v1.0 und iqb-bau.py v0.9
+Version 0.11 · 15.09.2026 · gilt mit iqb.md v1.1 und iqb-bau.py v0.9
 
 Benennt Typen um und zieht Typen zusammen, in iqb-typen.csv und in beiden
 Typfeldern von iqb-katalog.csv. Die Regeln je Lauf stehen in LAEUFE: PRAEFIX
@@ -36,6 +36,10 @@ dublette_von in iqb-quellen.csv v0.3 gestrichen (17 Zeilen aus 2026-ga-B-mms),
 STREICHEN als neue Regelart; Typen unverändert (671).
 Lauf 10 (15.09.2026, nach 2023-ea-B und 2022-ea-B): eine Zusammenziehung mit
 neuem Namen (Grenze k gegen eine Schranke), 774 → 773.
+Lauf 11 (15.09.2026, nach 2026-ea-B-mms): zwei Zusammenziehungen mit neuem
+Namen (Quaderhöhe aus den Raumdiagonalen mit Volumen oder Oberflächeninhalt;
+Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion),
+794 → 792.
 """
 import csv, io, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -480,6 +484,33 @@ NEUE_DEFINITION_10 = {
         "über- bzw. unterschreitet, mit beiden Nachbarwerten am Rechner; die Richtung steht in der Zeile.",
 }
 
+# ======================================================================= Lauf 11
+# Nach 2026-ea-B-mms (Auftrag „Teil B schließen, Rechnerfassung klären"): zwei
+# Zusammenziehungen mit neuem Namen. (1) Höhe eines Quaders aus der
+# Orthogonalität der Raumdiagonalen – WTR-Fassung fragt das Volumen, MMS-Fassung
+# den Oberflächeninhalt, dieselbe Fertigkeit; (2) Zeitpunkt der größten Rate
+# über die Ableitung der Ratenfunktion – bei gegebenem Bestand ist das die
+# zweite Ableitung (2026-ga-B-mms), bei gegebener Rate die erste (2026-ea-B-mms
+# zweimal, einmal nur der Zeitpunkt); die Größe der Rate ist ein Ablesen mehr.
+ZUSAMMEN_11 = {
+    "Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen berechnen":
+        "Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen oder Oberflächeninhalt berechnen",
+    "Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Oberflächeninhalt berechnen":
+        "Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen oder Oberflächeninhalt berechnen",
+    "Zeitpunkt und Größe der maximalen Änderungsrate über die zweite Ableitung berechnen":
+        "Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion berechnen",
+    "Zeitpunkt der maximalen Rate über die Ableitung der Ratenfunktion berechnen":
+        "Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion berechnen",
+}
+NEUE_DEFINITION_11 = {
+    "Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen oder Oberflächeninhalt berechnen":
+        "Die unbekannte Höhe eines Quaders aus dem verschwindenden Skalarprodukt zweier Raumdiagonalen bestimmen und "
+        "daraus das Volumen oder den Oberflächeninhalt berechnen; welches Maß, steht in der Zeile.",
+    "Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion berechnen":
+        "Die Stelle der größten Rate als Nullstelle der Ableitung der Ratenfunktion berechnen (ist der Bestand gegeben, "
+        "der zweiten Ableitung), Randstellen prüfen und, wenn verlangt, den Wert der Rate dort angeben.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -491,6 +522,7 @@ LAEUFE = {
     8: ({}, ZUSAMMEN_8, NEUE_DEFINITION_8, {}),
     9: ({}, {}, {}, {}),
     10: ({}, ZUSAMMEN_10, NEUE_DEFINITION_10, {}),
+    11: ({}, ZUSAMMEN_11, NEUE_DEFINITION_11, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
