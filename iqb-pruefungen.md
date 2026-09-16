@@ -2916,6 +2916,7 @@ Typen, 32 Stapel).
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Landesheft 2022-bebb-gk erfasst (Profil abi): 8 Dubletten auf 2022-ga-A (Analysis 2, AG/LA A2 1.1 und 1.2, Stochastik 1.2) und 19 Vormerkungen auf den Reserve-Stapel 2022-ga-B (Analysis WTR 2, AG/LA A2 WTR 2, Stochastik WTR 1; offene Posten, Übergangszustand). Typenliste 1039 (33 neue abi-Typen). |
 | 2026-09-16 | Abgleichlauf 16 (Reste schließen, Profil abi): Landesverwendung 2018-ga-B jetzt 11 Dubletten (3.2 f dazu) und 1 abgewandelte; Typen unverändert (1006). abitur-vokabular.md v1.2 (Geltung gemeinsamer Landeshefte, betrifft nur abi), iqb.md v1.6. |
 | 2026-09-16 | Landesheft 2024-bebb-gk erfasst (Profil abi): 20 Dubletten auf den Pool 2024 grundlegend – Teil A 13 Zeilen (Analysis 1.2, 1.3, AG/LA A1 1.2, A2 1.3, Stochastik 1.1, 1.3, 2.2), Teil B 7 Zeilen (Stochastik WTR 1 vollständig). Landesverwendung jetzt 51 Dubletten und 1 abgewandelte über sieben Stapel. Typenliste 1006 (16 neue abi-Typen). |
 | 2026-09-16 | Abgleichlauf 15 (Verweise schließen): die 17 Vormerkungen des abi-Katalogs auf die Reserve-Stapel sind Verweise; Landesverwendung jetzt 2017-ea-A 6, 2018-ga-B 10 (dazu 1 abgewandelt), 2018-ea-B 0 (3.2 e und g des Landeshefts sind mit dem grundlegenden Pool wortgleich). iqb-bau.py v1.3 (Verweis „Abgewandelt von:“ in der Kennzahl, Vormerkung als Übergangszustand), iqb.md v1.5. Typen unverändert (990). Selbstprüfung bestanden, offene Posten 0. |
