@@ -61,7 +61,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2019-ga-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
 | 2019-ea-B (WTR) | 10 von 17 | entfällt – Reserve (§ 4) |
 | 2018-ga-B (WTR) | 7 von 12 | **erfasst 2026-09-16, 53 Zeilen – wegen Landesheftverweisen** (2018-be-gk 2.2 und 3.2; Reserve geöffnet, Abbruchkriterium unberührt) · 29 Typen neu, 23 wiederverwendet (12 davon Etiketten des Landeshefts) · Eichung 46 von 53 (Spalte AB) |
-| 2018-ea-B (WTR) | 8 von 17 | entfällt – Reserve (§ 4) |
+| 2018-ea-B (WTR) | 8 von 17 | **erfasst 2026-09-16, 69 Zeilen – wegen Landesheftverweisen** (2018-be-gk 3.2 e, g; Reserve geöffnet, Abbruchkriterium unberührt) · 38 Typen neu, 34 wiederverwendet · Eichung 59 von 69 (Spalte AB) · eine Zeile ersatzweise |
 | 2017-ga-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
 | 2017-ea-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
 | bsp-ga-B (WTR) | 4 von 8 | entfällt – Reserve (§ 4) |
@@ -113,6 +113,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2026-ga-B-mms (Teil B, nach Bereinigung 15.09.2026) | 25 | 27 | 18 (67 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 27 (33 %); Schnitt 20 Werte, 23 von 25 Zeilen bekannt (92 %) | 5, 5, 5, 5 | 0 |
 | 2026-ea-B-mms (Teil B, Delta-Stapel erhöht) | 32 | 32 | 21 (66 %) | 32 von 32 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 10 von 32 (31 %); Schnitt 27 Werte, 31 von 32 Zeilen bekannt (97 %) | 14, 7, 14, 7 | 0 |
 | 2018-ga-B-wtr (Teil B, Reserve) | 53 | 52 | 29 (56 %) | 46 von 53 (87 %), Liste v0.7, Spalte AB | 0 | 0 | 11 von 52 (21 %); Schnitt 34 Werte, 48 von 53 Zeilen bekannt (91 %) | 10, 8, 10, 8 | 9 |
+| 2018-ea-B-wtr (Teil B, Reserve) | 69 | 72 | 38 (53 %) | 59 von 69 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 15 von 72 (21 %); Schnitt 44 Werte, 64 von 69 Zeilen bekannt (93 %) | 19, 6, 19, 6 | 2 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2040,6 +2041,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2026-ga-B-mms | 25 | 20 | 2 | 2 | 2 | 1 | 1 | 1 |
 | 2026-ea-B-mms | 32 | 27 | 1 | 1 | 1 | 0 | 0 | 0 |
 | 2018-ga-B-wtr (Reserve) | 53 | 34 | 5 | 3 | 5 | 0 | 0 | 0 |
+| 2018-ea-B-wtr (Reserve) | 69 | 44 | 4 | 3 | 4 | 3 | 2 | 3 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2093,6 +2095,7 @@ fortgeschrieben).**
 | 2022-ea-B-wtr | 69 | 53 | 1,30 | 54 (78 %) | 58 (84 %) | 0 (0 %) | 18 | 0 | 8 | 8,6 | 16 min |
 | 2026-ea-B-mms (Delta) | 32 | 27 | 1,19 | 23 (71 %) | 28 (87 %) | 2 (6 %) | 8 | 0 | 5 | 6,4 | 15 min |
 | 2018-ga-B-wtr (Reserve) | 53 | 34 | 1,56 | 40 (75 %) | 51 (96 %) | 0 (0 %) | 7 | 0 | 7 | 7,6 | 45 min (mit Kontextwechsel) |
+| 2018-ea-B-wtr (Reserve) | 69 | 44 | 1,57 | 56 (81 %) | 58 (84 %) | 0 (0 %) | 10 | 0 | 8 | 8,6 | 60 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -2854,10 +2857,66 @@ der Vermerke folgt im Abgleichlauf 15. Lauf aus dem HEAD-Stand
 byteidentisch, Selbstprüfung beider Skripte bestanden (1137 Zeilen, 952
 Typen, 31 Stapel).
 
+**Stapel 2018-ea-B (WTR) – Reserve geöffnet wegen der Landesheftverweise
+(Entscheidung des Lehrers, 16.09.2026; kein Widerruf des Abbruchs, das
+Abbruchkriterium Teil B erhöht bleibt ausgereizt).** 8 Dateien, 69 Zeilen
+(Analysis WTR 1 14 Zeilen mit 50 BE, Analysis WTR 2 14 Zeilen mit 50 BE –
+Aufgabe 1 dort a–l –, AG/LA A1 7, A2 WTR 1 7, A2 WTR 2 6, A2 WTR 3 7,
+Stochastik 7 + 7), 72 Typen verwendet, 38 neu (53 %), 34 wiederverwendet –
+darunter 17 aus dem grundlegenden Zwilling 2018-ga-B (Analysis 1 b, c, 2 a–e;
+A2 WTR 1 a, b, d, e, f; A2 WTR 2 a, c, d; Stochastik WTR 2 a, d), weil der
+erhöhte Pool 2018 in Teil B weitgehend die grundlegenden Aufgaben um
+Teilaufgaben ergänzt. Eichung 59 von 69 (86 %) nach der Spalte
+Anforderungsbereich; die zehn Abweichungen: Analysis WTR 1 1 b (Wendepunkt
+und Tangente, II gegen I, wie im Zwilling), 1 d und 1 e (Nullstellen der
+Integralfunktion über Flächenbilanz und Symmetrie, geschätzt III nach Eintrag
+(e), amtlich II – **zwei Fälle, in denen (e) über dem Standardbezug feuert**;
+mit den beiden Belegen aus 2026, auf denen (e) beruht, steht der Eintrag jetzt
+2 : 2, wie „faires Spiel“ vor der Streichung; bleibt, bis ein weiterer Fall
+kommt), 1 f (Grad der Integralfunktion, I gegen II), Analysis WTR 2 1 h
+(Steigung der Ortsgeraden aus zwei Hochpunkten, II gegen III) und 2 a
+(Wasservolumen mit Untergrenze aus der Sachlage, III nach (a) gegen II), A2
+WTR 3 c (Hessesche Normalform, I gegen II), Stochastik WTR 1 1 b
+(Mindestanzahl durch Probieren, II gegen III) und 1 d (Wahl der
+Nullhypothese, II gegen III), WTR 2 c (Unabhängigkeit über die Produktregel,
+I gegen II). Stochastik WTR 1 2 b (faires Spiel, Auszahlung aus dem
+Erwartungswert) ist amtlich II – vierter Beleg, die Streichung des Eintrags
+steht damit 3 : 2. Schnitt: 44 Werte, **ein neuer Wert im Gesamtbestand**
+(Stammfunktion und Hauptsatz · angeben, in be-gk und bb-ea; gegen den
+iqb-Bestand allein drei: dazu Fläche · zeichnen und Rotationsvolumen ·
+berechnen, beide aus den Landesheften schon bekannt); 4 Werte neu im Niveau
+erhöht. Die Reihen aus Teil A und Teil B sind unberührt (erhöht 9/0/7/4/3
+bleibt; als Glied gerechnet brächte der Reserve-Stapel 3 gegen den
+iqb-Bestand bzw. 1 gegen den Gesamtbestand, beides unter fünf und im Bild
+des ausgereizten Niveaus). 56 von 69 Zeilen (81 %) liegen auf Teil-A-Werten
+des Niveaus, 58 (84 %) auf Teil-A-Werten überhaupt. Außerhalb der Geltung:
+be-gk und bb-gk 19 Zeilen (Scharen, Rotationsvolumen, Matrizen,
+Hypothesentest, Konfidenzintervalle), be-lk und bb-ea 6 (Matrizen,
+Konfidenzintervalle). Keine Trägerbindung; eine Zeile ersatzweise (Analysis
+WTR 2 1 c, Modellgüte über die Summe vorzeichenbehafteter Abweichungen – die
+Themenliste hat kein Thema für Messwertvergleich, Nullstellen und Werte ist
+das nächstliegende). Befunde am Pooltext: Beide Analysis-Dateien tragen 50 BE
+(Aufgabe 1 mit 30 bzw. 42 BE, Aufgabe 2 mit 20 bzw. 8 BE); Analysis WTR 1
+enthält den grundlegenden Zwilling (Vorfaktor 1/18 statt 1/8) plus
+Integralfunktion, Sinusfunktion und Monotonie einer Schar, Analysis WTR 2
+Aufgabe 1 hat zwölf Teilaufgaben a–l (der Standardbezug-Parser musste auf
+a–l und auf Fortsetzungsseiten ohne Kopfzeile erweitert werden). Die
+Textextraktion verliert Minuszeichen in Koordinaten (AG/LA A1: C(−4 | 14 | 4),
+D(−4 | 8 | 4), Lösung (−1 | 2 | 1) und G(−6 | 12 | 6)) und die Wurzel in
+„b < √150“ – alles am Bild geprüft; die Aufgabe „Ebene durch (0 | 0 | 1)“
+schneidet das Parallelogramm nur mit den Bildkoordinaten. In Landesheften: 2
+Zeilen (2018-be-gk 3.2 e als abgewandelt, 3.2 g), beim Lauf als vorgemerkt
+gemeldet; beide sind mit dem grundlegenden Pool Stochastik WTR 2 e und g
+wortgleich, die Umstellung im Lauf 15 zielt dorthin – der erhöhte Stapel
+behält danach keinen Landesheftverweis. Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung beider Skripte bestanden (1206 Zeilen, 990
+Typen, 32 Stapel).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Stapel 2018-ea-B (WTR-Zweig) erfasst (Reserve geöffnet wegen Landesheftverweisen, Abbruchkriterium unberührt): 69 Zeilen aus 8 Dateien, Katalog 1206 Zeilen, Typenliste 990 (38 neu). Alle BE-Summen geprüft (50/50/25/25/25/25/25/25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 59 von 69 (86 %) nach der Spalte Anforderungsbereich; Eintrag (e) der Deutungsliste feuert zweimal über dem Standardbezug (2 : 2). Eine Zeile ersatzweise. Ein neuer Schnittwert im Gesamtbestand, 4 neu im Niveau. 2 Zeilen in 2018-be-gk vorgemerkt (wortgleich mit dem grundlegenden Pool). |
 | 2026-09-16 | Stapel 2018-ga-B (WTR-Zweig) erfasst (Reserve geöffnet wegen Landesheftverweisen, Abbruchkriterium unberührt): 53 Zeilen aus 7 Dateien, Katalog 1137 Zeilen, Typenliste 952 (29 neu). Alle BE-Summen geprüft (40/20/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 46 von 53 (87 %) nach der Spalte Anforderungsbereich (erster Lauf 44, zwei Schätzungen nach der engen Fassung korrigiert). Kein neuer Schnittwert im Gesamtbestand, 5 neu im Niveau. 9 Zeilen in 2018-be-gk vorgemerkt. |
 | 2026-09-16 | Stapel 2017-ea-A erfasst (Reserve geöffnet wegen Landesheftverweisen, Abbruchkriterium unberührt): 23 Zeilen aus 11 Dateien, Katalog 1084 Zeilen, Typenliste 923 (10 neu). Alle Punktsummen geprüft (11 × 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 22 von 23 (96 %). Kein neuer Schnittwert im Gesamtbestand. 6 Zeilen in 2017-bb-ea vorgemerkt. |
 | 2026-09-16 | Kennzahl „in Landesheften“ je Stapel (iqb-bau.py v1.2): Spalte in der Kennzahlentabelle § 2 (2018-ea-A 4, 2023-ga-A 4, 2023-ga-B-wtr 7, sonst 0), in der Kennzahlenzeile jedes Stapellaufs und in der Selbstprüfung (dazu die vorgemerkten Zeilen nicht erfasster Stapel); beim Stapellauf Hinweis auf vorgemerkte Zeilen. Selbstprüfung bestanden. |
