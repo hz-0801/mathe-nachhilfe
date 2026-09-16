@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.15 · 16.09.2026 · gilt mit abitur-vokabular.md v1.1, abi-bau.py v0.6 und iqb-bau.py v1.3
+Version 0.16 · 16.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.7 und iqb-bau.py v1.3
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -67,6 +67,10 @@ bemerkung; afb_amtlich bleibt bei Heften bis 2018 leer), die abgewandelte 2018-b
 Pool statt auf den erhöhten. Typvergleich je Paar (alle 17 gleich), Abbruch
 bei einem Unterschied oder bei mehr als 17 angefassten Zeilen; Typen
 unverändert (990).
+Lauf 16 (16.09.2026, Reste schließen): 2018-be-gk 3.2 f → „Dublette von:"
+Stochastik WTR 2 f; fünf Teil-B-Zeilen von 2018-be-gk (2.2 a, b, 3.2 b, c, d)
+in niveau_geschaetzt auf die enge Fassung nachgezogen (Wert der wortgleichen
+Poolzeile); Typen unverändert (1006).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -955,6 +959,45 @@ def zeile_15(d):
     return True
 
 
+# ======================================================================= Lauf 16
+# Reste schließen (Auftrag des Lehrers, 16.09.2026): 2018-be-gk 3.2 f bekommt den
+# Verweis „Dublette von:" auf Stochastik WTR 2 f (wortgleich, Befund beim Stapel
+# 2018-ga-B, in Lauf 15 als 18. Zeile ausgespart); die fünf Teil-B-Zeilen von
+# 2018-be-gk, deren Schätzung vom amtlichen Bereich der Poolzeile abwich, werden
+# gegen die enge Eichfassung nachgezogen – sie übernehmen die Schätzung der
+# wortgleichen Poolzeile (dort nach der engen Fassung geschätzt, Treffer), der
+# alte Wert bleibt in bemerkung. Genau sechs Zeilen.
+DUBLETTE_16 = {"2018-be-gk-B3.2f": "2018MgrundlegendBStochastikWTR2-1f"}
+NACHZIEHEN_16 = ["2018-be-gk-B2.2a", "2018-be-gk-B2.2b", "2018-be-gk-B3.2b", "2018-be-gk-B3.2c", "2018-be-gk-B3.2d"]
+_PROTOKOLL_16 = []
+
+
+def zeile_16(d):
+    war = False
+    if d["id"] in DUBLETTE_16 and not d["bemerkung"].startswith("Dublette von"):
+        pid = DUBLETTE_16[d["id"]]; q = poolzeilen_15().get(pid)
+        if q is None or q["typ"] != d["typ"] or q["punkte"] != d["punkte"]:
+            sys.exit(f"{d['id']}: Poolzeile {pid} fehlt oder typ/BE weichen ab")
+        ab = AB_15.search(q["bemerkung"])
+        d["bemerkung"] = (f"Dublette von: {pid}. " + (f"AB amtlich: {ab.group(1)}. " if ab else "")
+                          + "Wortgleich mit dem grundlegenden Pool (Lauf 16; in Lauf 14 als Landesvariante ohne Vermerk geführt, weil gegen den erhöhten Pool verglichen wurde). "
+                          + d["bemerkung"])
+        _PROTOKOLL_16.append((d["id"], f"Dublette von {pid}")); war = True
+    if d["id"] in NACHZIEHEN_16:
+        m = re.match(r"Dublette von: ([A-Za-z0-9-]+)\.", d["bemerkung"])
+        q = poolzeilen_15().get(m.group(1)) if m else None
+        if q is None:
+            sys.exit(f"{d['id']}: kein Dublettenverweis für das Nachziehen")
+        if d["niveau_geschaetzt"] != q["niveau_geschaetzt"]:
+            alt = d["niveau_geschaetzt"]
+            d["niveau_geschaetzt"] = q["niveau_geschaetzt"]
+            d["bemerkung"] += f" Schätzung nach der engen Fassung nachgezogen (Lauf 16): {q['niveau_geschaetzt']} statt {alt}, wie die wortgleiche Poolzeile."
+            _PROTOKOLL_16.append((d["id"], f"niveau {alt} → {q['niveau_geschaetzt']}")); war = True
+    if len(_PROTOKOLL_16) > 6:
+        sys.exit("Lauf 16 fasst mehr als sechs Zeilen an – Abbruch")
+    return war
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -971,9 +1014,10 @@ LAEUFE = {
     13: (PRAEFIX_13, {}, {}, NEUES_THEMA_13),
     14: ({}, {}, {}, {}),
     15: ({}, {}, {}, {}),
+    16: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
-                 13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)]}
+                 13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -1117,6 +1161,10 @@ def main():
           + (f" Gestrichen: {len(gestrichen)} Zeilen." if gestrichen else ""))
     for r in gestrichen:
         print("  gestrichen:", r[0])
+    if LAUF == 16:
+        print(f"\nReste geschlossen ({len(_PROTOKOLL_16)} Zeilen):")
+        for i, was in _PROTOKOLL_16:
+            print(f"  {i}: {was}")
     if LAUF == 15:
         print(f"\nVerweise geschlossen ({len(_PROTOKOLL_15)} Zeilen, höchstens {HOECHSTENS_15}):")
         for i, pid, art, gleich in _PROTOKOLL_15:
