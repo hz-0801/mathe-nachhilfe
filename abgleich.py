@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.14 · 16.09.2026 · gilt mit abitur-vokabular.md v1.1, abi-bau.py v0.5 und iqb-bau.py v1.2
+Version 0.15 · 16.09.2026 · gilt mit abitur-vokabular.md v1.1, abi-bau.py v0.6 und iqb-bau.py v1.3
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -59,6 +59,14 @@ Lauf 14 (16.09.2026, Pool-Abgleich des abi-Bestands bis 2018): Vermerk
 „Poolaufgabe (nicht erfasst): <Kennung>" in 15 wortgleichen und
 „(nicht erfasst, abgewandelt)" in 2 abgewandelten Zeilen (Feldkorrektur
 bemerkung); Typen unverändert (913).
+Lauf 15 (16.09.2026, Verweise schließen nach den Reserve-Stapeln 2017-ea-A,
+2018-ga-B, 2018-ea-B): die 17 Vermerke aus Lauf 14 werden zu Verweisen –
+15 wortgleiche auf „Dublette von: <id>." (mit der AB-Spalte der Poolzeile in
+bemerkung; afb_amtlich bleibt bei Heften bis 2018 leer), die abgewandelte 2018-be-gk 3.2 a auf „Abgewandelt von: <id>;
+<Unterschied>."; 3.2 e und g zeigen jetzt auf den wortgleichen grundlegenden
+Pool statt auf den erhöhten. Typvergleich je Paar (alle 17 gleich), Abbruch
+bei einem Unterschied oder bei mehr als 17 angefassten Zeilen; Typen
+unverändert (990).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -890,6 +898,63 @@ def zeile_14(d):
     return False
 
 
+# ======================================================================= Lauf 15
+# Verweise schließen (Auftrag des Lehrers, 16.09.2026): Die Reserve-Stapel
+# 2017-ea-A, 2018-ga-B und 2018-ea-B sind erfasst; die 17 Vermerke aus Lauf 14
+# werden zu Verweisen. Wortgleich → „Dublette von: <id>." (typ muss gleich sein,
+# afb_amtlich aus der Poolzeile, bei Teil B dazu „AB amtlich: X."); abgewandelt
+# → „Abgewandelt von: <id>; <Unterschied>." (kein Typzwang). Zwei Ziele wandern
+# vom erhöhten auf den wortgleichen grundlegenden Pool (Befund beim Stapel
+# 2018-ga-B). Sicherung: Abbruch, wenn ein typ abweicht oder mehr als 17 Zeilen
+# angefasst würden; 2018-be-gk 3.2 f (wortgleich mit dem grundlegenden Pool,
+# ohne Vermerk) bleibt bewusst unangetastet und offen.
+ZIEL_15 = {"2018-be-gk-B3.2e": "2018MgrundlegendBStochastikWTR2-1e",   # statt erhöht WTR2-1b (abgewandelt)
+           "2018-be-gk-B3.2g": "2018MgrundlegendBStochastikWTR2-1g"}   # statt erhöht WTR2-1d
+HOECHSTENS_15 = 17
+VORSTUFE_15 = re.compile(r"^Poolaufgabe \(nicht erfasst(, abgewandelt)?\): ([A-Za-z0-9-]+)(?:; ([^.]*(?:\.[^ ][^.]*)*))?\. ?")
+AB_15 = re.compile(r"AB amtlich: (I{1,3})\.")
+_POOL_15 = {}
+_PROTOKOLL_15 = []
+
+
+def poolzeilen_15():
+    if not _POOL_15:
+        kopf, rows = lade("iqb-katalog.csv")
+        _POOL_15.update({r[kopf.index("id")]: dict(zip(kopf, r)) for r in rows})
+    return _POOL_15
+
+
+def zeile_15(d):
+    """Vermerk aus Lauf 14 in den Verweis umstellen; typ vergleichen; afb_amtlich übernehmen."""
+    m = VORSTUFE_15.match(d["bemerkung"])
+    if not m:
+        return False
+    abgew, pid, unterschied = m.group(1), ZIEL_15.get(d["id"], m.group(2)), m.group(3)
+    q = poolzeilen_15().get(pid)
+    if q is None:
+        sys.exit(f"{d['id']}: Poolzeile {pid} nicht im iqb-Katalog – Vermerk bleibt")
+    rest = d["bemerkung"][m.end():]
+    if abgew and d["id"] not in ZIEL_15:
+        d["bemerkung"] = f"Abgewandelt von: {pid}; {unterschied}. " + rest
+        _PROTOKOLL_15.append((d["id"], pid, "abgewandelt", d["typ"] == q["typ"]))
+    else:
+        if d["typ"] != q["typ"]:
+            sys.exit(f"{d['id']}: typ weicht von {pid} ab – nicht umstellbar:\n  abi: {d['typ']}\n  iqb: {q['typ']}")
+        ab = AB_15.search(q["bemerkung"])
+        zusatz = f"AB amtlich: {ab.group(1)}. " if ab else ""
+        if abgew:  # 3.2 e: als abgewandelt vorgemerkt, wortgleich mit dem neuen Ziel
+            zusatz += f"Wortgleich mit dem grundlegenden Pool (Lauf 15; in Lauf 14 auf {m.group(2)} als abgewandelt vorgemerkt: {unterschied}). "
+        elif d["id"] in ZIEL_15:
+            zusatz += f"Wortgleich mit dem grundlegenden Pool (Lauf 15; in Lauf 14 auf {m.group(2)} vorgemerkt). "
+        d["bemerkung"] = f"Dublette von: {pid}. " + zusatz + rest
+        if not d["afb_amtlich"] and d["jahr"] > "2018":  # Hefte bis 2018 weisen keinen Bereich aus (abi-bau.py)
+            d["afb_amtlich"] = q["afb_amtlich"]
+        _PROTOKOLL_15.append((d["id"], pid, "dublette", True))
+    if len(_PROTOKOLL_15) > HOECHSTENS_15:
+        sys.exit(f"Lauf 15 fasst mehr als {HOECHSTENS_15} Zeilen an – Abbruch (Auftrag 16.09.2026)")
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -905,9 +970,10 @@ LAEUFE = {
     12: (PRAEFIX_12, ZUSAMMEN_12, NEUE_DEFINITION_12, NEUES_THEMA_12),
     13: (PRAEFIX_13, {}, {}, NEUES_THEMA_13),
     14: ({}, {}, {}, {}),
+    15: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
-                 13: [("*", zeile_13)], 14: [("*", zeile_14)]}
+                 13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -1051,6 +1117,13 @@ def main():
           + (f" Gestrichen: {len(gestrichen)} Zeilen." if gestrichen else ""))
     for r in gestrichen:
         print("  gestrichen:", r[0])
+    if LAUF == 15:
+        print(f"\nVerweise geschlossen ({len(_PROTOKOLL_15)} Zeilen, höchstens {HOECHSTENS_15}):")
+        for i, pid, art, gleich in _PROTOKOLL_15:
+            print(f"  {i} → {pid} [{art}] typ {'gleich' if gleich else 'VERSCHIEDEN'}")
+        rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
+                if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
+        print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
     ziel = collections.defaultdict(list)
     for alt, neu in abbildung.items():
         if alt != neu:

@@ -49,8 +49,8 @@ Kennzahlenzeile (vor v0.3 erfasst).
 
 | Heft | Zeilen | Typen | neu | Eichung | ? | ersatzw. | im Niveau bekannt | außerhalb der Geltung | Schnitt | Pool (Zeilen; BE angeboten) |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), alle vorgemerkt (Pool 2017 nicht erfasst) |
-| 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 9 von 36; 31 von 160 (19 %), alle vorgemerkt (Pool 2018 Teil B nicht erfasst); abgewandelt 2 Zeilen, 7 BE |
+| 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
+| 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 10 von 36; 34 von 160 (21 %), seit Lauf 15 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e dorthin statt zum erhöhten Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“); 3.2 f wortgleich mit WTR 2 f, aber ohne Verweis (offen, siehe § 4 Lauf 15) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
 
@@ -437,6 +437,8 @@ oder vorgemerkt, angebotene BE):
 | 2018-be-gk | 9 von 36 | 31 von 160 (19 %) | kein hilfsmittelfreier Teil | 2 Zeilen, 7 BE (mit ihnen 38 von 160, 24 %) |
 | 2023-bebb-gk | 11 von 58 | 30 von 185 (16 %) | 10 von 35 (29 %) | – |
 
+*Nach Lauf 15* (Stand 16.09.2026): 2018-be-gk 10 von 36 Zeilen, 34 von 160 BE (21 %), abgewandelt 1 Zeile, 4 BE – 3.2 e ist mit dem grundlegenden Pool wortgleich, nicht abgewandelt; die übrigen Hefte unverändert, alle Vermerke sind Verweise.
+
 Muster: Brandenburg erhöht (2017, 2018) nimmt den Pool nur im
 hilfsmittelfreien Teil 1 – 2017 ganz, 2018 zwei der drei Aufgaben – und
 schreibt Teil B selbst (0 von 170 BE). Berlin grundlegend 2018 hat keinen
@@ -467,6 +469,50 @@ Poolzeile abzugleichen, sobald ihr Stapel erfasst ist – erst dann gibt es
 ein zweites Etikett für dieselbe Aufgabe, und der Abgleichlauf entscheidet.
 Bis dahin ist nichts zu ändern: Ein abi-eigener Typ ist kein falsches
 Etikett, solange kein Zwilling im Bestand steht.
+
+**Abgleichlauf 15 – Verweise schließen (Auftrag des Lehrers, 16.09.2026,
+Punkt 2; nach den Reserve-Stapeln 2017-ea-A, 2018-ga-B und 2018-ea-B).**
+Die 17 Vermerke aus Lauf 14 sind zu Verweisen geworden: 16 Zeilen tragen
+„Dublette von: <iqb-id>." (2017-bb-ea A1.1 a, b, A1.2 a, b, A1.3 a, b;
+2018-be-gk 2.2 a–e, 3.2 b, c, d, e, g), eine Zeile den neuen Verweis
+„Abgewandelt von: <iqb-id>; <Unterschied>." (2018-be-gk 3.2 a, Ereignis B mit
+50 statt 200 Bildschirmen; abi.md § 7, Kern § 5, abi-bau.py v0.6). Genau 17
+Zeilen angefasst, keine mehr (Sicherung im Skript: Abbruch ab der 18.).
+Typvergleich: alle 17 Paare tragen denselben Typ – die Poolzeilen haben beim
+Erfassen der Stapel die Etiketten der Landeshefte bekommen (Kern § 6, gleiche
+Fertigkeit, gleiches Etikett; die zehn abi-eigenen Typen aus Lauf 14 sind
+damit geteilte Typen). Zwei Ziele haben gewechselt: 3.2 e und 3.2 g waren in
+Lauf 14 auf den erhöhten Pool Stochastik WTR 2 b (abgewandelt) und d
+vorgemerkt; beim Erfassen von 2018-ga-B zeigte sich, dass das Heft dort mit
+Stochastik WTR 2 e und g des grundlegenden Pools wortgleich ist (3,0 %
+Netzteil vorgegeben; Prüfung von vierzig Bildschirmen) – die Verweise zeigen
+jetzt dorthin, als Dublette. **Offen bleibt 3.2 f** (bedingte
+Wahrscheinlichkeit P_D(N), 2 BE): wortgleich mit WTR 2 f des grundlegenden
+Pools, aber in Lauf 14 als Landesvariante ohne Vermerk geführt (verglichen
+wurde damals mit dem erhöhten Pool, der an dieser Stelle die Unabhängigkeit
+fragt); ein Verweis wäre die 18. Zeile, deshalb nicht angefasst – Vorschlag:
+im nächsten Abgleichlauf „Dublette von: 2018MgrundlegendBStochastikWTR2-1f."
+setzen (Typ gleich, BE gleich), die Poolquote 2018-be-gk stiege auf 11 von
+36 Zeilen, 36 von 160 BE (23 %). Die AB-Spalte der Poolzeilen steht jetzt in
+bemerkung der zehn Teil-B-Zeilen („AB amtlich: X."); afb_amtlich bleibt bei
+Heften bis 2018 leer (abi-bau.py). Damit wertet die Selbstprüfung erstmals
+Teil-B-Zeilen von 2018 in der Eichung: 16 von 21 gewerteten Zeilen des
+Bestands (76 %; die elf Zeilen von 2023 treffen alle), die fünf Abweichungen
+sind Zeilen aus 2018-be-gk, erfasst vor der engen Fassung – 2.2 a
+(Seillänge, geschätzt II, amtlich I), 2.2 b (Trapez, II gegen I), 3.2 b
+(Modalwert, II gegen I), 3.2 c (Stichprobenvergrößerung, III gegen II), 3.2 d
+(Trefferwahrscheinlichkeit aus der Bedingung an null Treffer, II gegen III).
+Nicht nachgezogen (kein Auftrag; die Schätzungen sind Messwerte der damals
+geltenden Fassung). Selbstprüfung beider Skripte bestanden (abi 171 Zeilen,
+iqb 1206, 990 Typen; offene Posten 0).
+
+**Regel dazu (Punkt 3 des Auftrags):** Die Vorstufe „Poolaufgabe (nicht
+erfasst …)" bleibt als Regel bestehen, mit dem Zusatz, dass sie ein
+Übergangszustand ist – offen, bis der Stapel erfasst ist – und in den
+Prüfungslisten als offener Posten geführt wird (abi.md § 7, iqb.md § 7, Kern
+§ 5, CLAUDE.md § 2 Schritt 3). Beide Bau-Skripte zählen die offenen Posten
+in der Selbstprüfung (abi-bau.py „Offene Posten … Übergangszustand: n
+Zeilen", iqb-bau.py „vorgemerkt … offener Posten"), Stand nach Lauf 15: 0.
 
 **Umstellungslauf 12 – gemeinsame Typenliste für abi und iqb (Entscheidung
 25, Auftrag „Weg A umsetzen", 15.09.2026).** Grundlage abi-iqb-typen.md
@@ -713,6 +759,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Abgleichlauf 15 (Verweise schließen): 17 Vermerke aus Lauf 14 umgestellt – 16 auf „Dublette von:“, 2018-be-gk 3.2 a auf den neuen Verweis „Abgewandelt von:“; 3.2 e und g zeigen auf den wortgleichen grundlegenden Pool statt auf den erhöhten; Typvergleich 17 von 17 gleich; 3.2 f bleibt ohne Verweis (offen, wäre die 18. Zeile). abi-bau.py v0.6 (Vorstufe als Übergangszustand, Verweis „Abgewandelt von:“), abi.md v0.11, Kern v0.5, CLAUDE.md. Selbstprüfung bestanden; Eichung über den Bestand 16 von 21 (zehn Teil-B-Zeilen 2018 erstmals gewertet). |
 | 2026-09-16 | Kennzahl Poolquote je Heft: Spalte „Pool (Zeilen; BE angeboten)“ in der Kennzahlentabelle § 2, Zeilen für 2017-bb-ea, 2018-be-gk und 2018-bb-ea ergänzt (Selbstprüfung abi-bau.py v0.5 gibt sie je Heft aus); Gegenstück „in Landesheften“ je Stapel in iqb-pruefungen.md § 2 (iqb-bau.py v1.2). Selbstprüfung beider Skripte bestanden. |
 | 2026-09-16 | Pool-Abgleich des Bestands bis 2018 (Abgleichlauf 14, abgleich.py v0.14): gegen den erfassten Pool keine weiteren Treffer; gegen die nicht erfassten Pooldateien 2017 (A, B) und 2018 (B) 15 wortgleiche Zeilen (2017-bb-ea Teil 1 ganz = Pool 2017 erhöht A; 2018-be-gk 2.2 a–e = Pool 2018 grundlegend B AG/LA (A2) WTR 2; 3.2 b, c, d, g = Pool 2018 Stochastik WTR 2 ga/ea) und 2 abgewandelte (3.2 a, e) – Vermerk „Poolaufgabe (nicht erfasst[, abgewandelt]): <id>“ in bemerkung (Feldkorrektur, 17 Zeilen), Regel in abi.md § 7 (v0.10), iqb.md § 7 (v1.4), Kern § 5; abi-bau.py v0.5 prüft den Vermerk und gibt die Poolquote je Heft aus. Typen unverändert (913). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Tabelle, Quoten und Muster in § 4. |
 | 2026-09-16 | 2023-bebb-gk 2.2 k nachgeprüft (Scan in voller Auflösung): drei Eigenschaften I k(0) = 20, II k′(0) = 130, III Hochpunkt H(5 \| 220) – Erfassung stimmt, Widerspruch im Heft (H ist Tiefpunkt der eindeutig bestimmten Funktion) bleibt vermerkt. Keine Katalogänderung. |

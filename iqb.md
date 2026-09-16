@@ -1,5 +1,10 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.4 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.4 (Schema-Version 2)
+Version 1.5 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.5 (Schema-Version 2)
+Änderungen gegenüber 1.4 (Auftrag „Reserve öffnen, Verweise schließen, Heft
+2024 erfassen"): § 7 Vormerkung als Übergangszustand (offener Posten), Verweis
+„Abgewandelt von:" in der Kennzahl „in Landesheften"; § 2 Reserve-Stapel
+2017-ea-A, 2018-ga-B, 2018-ea-B wegen Landesheftverweisen erfasst
+(Abbruchkriterium unberührt; iqb-bau.py v1.3, Lauf 15).
 Änderungen gegenüber 1.3 (Auftrag „abi-Bestand gegen den Pool abgleichen"):
 § 7 Vormerkung „Poolaufgabe (nicht erfasst)" aus abi und Kennzahl „in
 Landesheften" je Stapel (iqb-bau.py v1.2).
@@ -451,9 +456,16 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   einer anderen ist und deshalb keine Zeile bekommt (§ 4, § 7 Dubletten).
   Landeshefte, die eine Poolaufgabe aus einem nicht erfassten Stapel
   (Reserve) stellen, merken sie als „Poolaufgabe (nicht erfasst): <iqb-id>"
-  vor (abi.md § 7); iqb-bau.py meldet beim Stapellauf die vorgemerkten
-  Zeilen, danach stellt abgleich.py den Vermerk auf „Dublette von:" um. Die
-  Kennzahl „in Landesheften" je Stapel (v1.2) zählt die Zeilen mit Verweis.
+  vor (abi.md § 7) – ein Übergangszustand, der als offener Posten geführt
+  wird, bis der Stapel erfasst ist (Entscheidung des Lehrers, 16.09.2026);
+  iqb-bau.py meldet beim Stapellauf die vorgemerkten Zeilen und in der
+  Selbstprüfung die offenen Posten mit erfasster Poolzeile, danach stellt
+  abgleich.py den Vermerk auf „Dublette von:" (wortgleich) oder „Abgewandelt
+  von: <iqb-id>; <Unterschied>." (abgewandelte Fassung) um (Lauf 15). Die
+  Kennzahl „in Landesheften" je Stapel (v1.2, v1.3) zählt die Zeilen mit
+  Verweis, abgewandelte getrennt ausgewiesen. Reserve-Stapel, auf die
+  Landeshefte verweisen, dürfen dafür erfasst werden, ohne dass das
+  Abbruchkriterium fällt (2017-ea-A, 2018-ga-B, 2018-ea-B; § 2, § 4).
 - **Standardbezug vor Erwartungshorizont lesen? Nein.** Reihenfolge beim
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
   und Standardbezug. Die Schätzung wird nicht nachträglich an den Standardbezug

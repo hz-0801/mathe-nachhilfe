@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.2 · 16.09.2026 · gilt mit katalog-prompt.md v0.4, abitur-vokabular.md v1.1 und iqb.md v1.4
+Version 1.3 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.1 und iqb.md v1.5
 
 Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" bleibt unverändert.
+
+Änderungen gegenüber 1.2 (Auftrag „Reserve öffnen, Verweise schließen",
+16.09.2026): Die Vormerkung „Poolaufgabe (nicht erfasst …)" ist ein
+Übergangszustand (offener Posten, bis der Stapel erfasst ist); nach der
+Erfassung stellt abgleich.py sie auf „Dublette von:" (wortgleich) oder
+„Abgewandelt von: <id>; <Unterschied>." (abgewandelte Fassung) um. Beide
+Verweise zählen als Landesverwendung; der Bestand des Stapels wird beim Lauf
+gegen die Vormerkungen gemeldet.
 
 Änderungen gegenüber 1.1 (Auftrag „abi-Bestand gegen den Pool abgleichen"):
 Kennzahl Landesverwendung – Zeilen des Stapels, auf die abi-Zeilen mit
@@ -1767,6 +1775,7 @@ AB_HINWEIS = "Anforderungsbereich weicht vom höchsten Kompetenzeintrag ab"
 MARKE_KONTEXT = "Traegerbindung: Kontext"
 # Verweise aus abi-katalog.csv auf Poolzeilen (abi.md § 7; v1.2 gezählt als Landesverwendung)
 MARKE_DUBLETTE = re.compile(r"Dublette von: (" + KENNUNG.pattern + r"(?:-\d*[a-z]?)?)")
+MARKE_ABGEWANDELT = re.compile(r"Abgewandelt von: (" + KENNUNG.pattern + r"(?:-\d*[a-z]?)?)")
 MARKE_POOL_OFFEN = re.compile(r"Poolaufgabe \(nicht erfasst(, abgewandelt)?\): (" + KENNUNG.pattern + r"(?:-\d*[a-z]?)?)")
 
 
@@ -1823,13 +1832,17 @@ def main():
     andere_typen = set()
     for z in andere:
         andere_typen |= typen_von(z)
-    # Landesverwendung (v1.2): abi-Zeilen, die auf eine Poolzeile verweisen – als
-    # „Dublette von: <id>" (erfasst) oder „Poolaufgabe (nicht erfasst): <id>" (vorgemerkt)
-    verweis, vorgemerkt = {}, {}
+    # Landesverwendung (v1.2, v1.3): abi-Zeilen, die auf eine Poolzeile verweisen – als
+    # „Dublette von: <id>" (wortgleich), „Abgewandelt von: <id>" (abgewandelt, v1.3)
+    # oder „Poolaufgabe (nicht erfasst): <id>" (vorgemerkt, Übergangszustand)
+    verweis, abgewandelt, vorgemerkt = {}, {}, {}
     for z in andere:
         m = MARKE_DUBLETTE.search(z["bemerkung"])
         if m:
             verweis.setdefault(m.group(1), []).append(z["id"])
+        m = MARKE_ABGEWANDELT.search(z["bemerkung"])
+        if m:
+            abgewandelt.setdefault(m.group(1), []).append(z["id"])
         m = MARKE_POOL_OFFEN.search(z["bemerkung"])
         if m:
             vorgemerkt.setdefault(m.group(2), []).append(z["id"])
@@ -1881,7 +1894,7 @@ def main():
             je_datei.setdefault((k_, innen_), []).append(z["teilaufgabe"])
         for k, tl in je_datei.items():
             a("" not in tl or len(tl) == 1, f"{k}: ungegliederte Aufgabe neben gegliederten Zeilen")
-        for pid in verweis:
+        for pid in list(verweis) + list(abgewandelt):
             a(pid in ids, f"abi-Verweis auf {pid}, aber die Zeile steht nicht im Katalog")
         if fehler:
             print(f"\nSelbstprüfung: {len(fehler)} Fehler")
@@ -1904,11 +1917,15 @@ def main():
                 f"{ziel} {sum(1 for z in alt if ziel not in GELTUNG.get(z['thema'], set()))}"
                 for ziel in ZIELE) + f" von {len(alt)} Zeilen")
         # Landesverwendung je Stapel (v1.2): Poolzeilen, die ein Landesheft wortgleich stellt
-        je_stapel, vorgemerkt_stapel = {}, {}
+        je_stapel, abgew_stapel, vorgemerkt_stapel = {}, {}, {}
         for pid in verweis:
             k = kennung_aus_id(pid)[0]
             if k in QUELLE:
                 je_stapel[einheit(QUELLE[k])] = je_stapel.get(einheit(QUELLE[k]), 0) + 1
+        for pid in abgewandelt:
+            k = kennung_aus_id(pid)[0]
+            if k in QUELLE:
+                abgew_stapel[einheit(QUELLE[k])] = abgew_stapel.get(einheit(QUELLE[k]), 0) + 1
         offen = []
         for pid in vorgemerkt:
             if pid in ids:  # Übergangszustand: offener Posten, kein Fehler (abi.md § 7)
@@ -1917,7 +1934,9 @@ def main():
             s = einheit(QUELLE[k]) if k in QUELLE else "unbekannt"
             vorgemerkt_stapel[s] = vorgemerkt_stapel.get(s, 0) + 1
         print("In Landesheften (Dublette von): " + (", ".join(f"{s} {n}" for s, n in sorted(je_stapel.items())) or "keine")
-              + f" – {sum(je_stapel.values())} Zeilen; vorgemerkt (Poolaufgabe (nicht erfasst)): "
+              + f" – {sum(je_stapel.values())} Zeilen; abgewandelt (Abgewandelt von): "
+              + (", ".join(f"{s} {n}" for s, n in sorted(abgew_stapel.items())) or "keine")
+              + "; vorgemerkt (Poolaufgabe (nicht erfasst), offener Posten): "
               + (", ".join(f"{s} {n}" for s, n in sorted(vorgemerkt_stapel.items())) or "keine")
               + (f"; offene Posten mit erfasster Poolzeile: {len(offen)}" if offen else ""))
         for o in offen:
@@ -2095,7 +2114,7 @@ def main():
         if ids:
             print(f"Außerhalb der Geltung {ziel}: {', '.join(ids)}")
     # Kennzahlen je Stapel (iqb.md § 7). Zeile für iqb-pruefungen.md § 4.
-    land = [i for i in neue_ids if i in verweis or i in vorgemerkt]
+    land = [i for i in neue_ids if i in verweis or i in abgewandelt or i in vorgemerkt]
     print(f"Kennzahlen: | {stapel} | {n} | {len(verwendet)} | {len(neu & verwendet)} "
           f"({100 * len(neu & verwendet) / len(verwendet):.0f} %) | {treffer} von {gew} "
           f"({100 * treffer / gew if gew else 0:.0f} %)"

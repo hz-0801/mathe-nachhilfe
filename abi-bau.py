@@ -1,9 +1,18 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.5 · 16.09.2026 · gilt mit katalog-prompt.md v0.4, abitur-vokabular.md v1.1 und abi.md v0.10
+Version 0.6 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.1 und abi.md v0.11
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" und unter „AB HIER UNVERÄNDERT" bleibt unverändert.
+
+Änderungen gegenüber 0.5 (Auftrag „Reserve öffnen, Verweise schließen",
+16.09.2026): Die Vormerkung „Poolaufgabe (nicht erfasst …)" ist ein
+Übergangszustand – offener Posten, bis der Stapel erfasst ist; danach stellt
+abgleich.py sie auf „Dublette von:" (wortgleich) oder auf den neuen Verweis
+„Abgewandelt von: <Kennung>; <Unterschied>." (abgewandelte Fassung, kein
+geteilter Typ verlangt) um. Beide Verweise werden geprüft (Kennung, Feldanfang,
+Poolzeile erfasst); die Poolquote zählt „Abgewandelt von" wie bisher die
+abgewandelte Vormerkung.
 
 Änderungen gegenüber 0.4 (Auftrag „Heft 2023 nachprüfen, abi-Bestand gegen
 den Pool abgleichen"): Poolquote je Heft als Kennzahl (Zeilen und BE, die
@@ -349,14 +358,19 @@ MARKE_DUBLETTE = re.compile(r"Dublette von: (" + KENNUNG.pattern + r")")
 # noch nicht erfasst ist; die Kennung ist die voraussichtliche iqb-id. Wird zum
 # „Dublette von:", sobald der Stapel erfasst ist (abgleich.py).
 MARKE_POOL_OFFEN = re.compile(r"Poolaufgabe \(nicht erfasst(, abgewandelt)?\): (" + KENNUNG.pattern + r")")
+# Abgewandelte Poolaufgabe mit erfasster Poolzeile (v0.6, Lauf 15): kein Dublettenverweis
+# (nicht wortgleich), aber ein Verweis auf die Poolzeile; der Unterschied folgt nach „;".
+MARKE_ABGEWANDELT = re.compile(r"Abgewandelt von: (" + KENNUNG.pattern + r"); ")
 OFFENE_POSTEN = []  # Vermerke, deren Poolzeile inzwischen erfasst ist (Ausgabe am Ende, kein Abbruch)
 
 
 def pool_stand(z, andere):
     """'dublette' (Verweis auf erfasste Poolzeile), 'offen' (wortgleich, Pool nicht erfasst),
-    'abgewandelt' oder '' – für die Poolquote je Heft."""
+    'abgewandelt' (Vormerkung oder Verweis auf abgewandelte Poolzeile) oder '' – für die Poolquote je Heft."""
     if MARKE_DUBLETTE.search(z["bemerkung"]):
         return "dublette"
+    if MARKE_ABGEWANDELT.search(z["bemerkung"]):
+        return "abgewandelt"
     m = MARKE_POOL_OFFEN.search(z["bemerkung"])
     if m:
         return "abgewandelt" if m.group(1) else "offen"
@@ -485,6 +499,14 @@ def pruefe_zeile(z, a, andere, heftkennung=True):
         if mo.group(2) in andere:
             OFFENE_POSTEN.append(f"{i}: Poolzeile {mo.group(2)} ist erfasst – Vermerk mit abgleich.py in „Dublette von:“ umstellen")
         a(m is None, f"{i}: „Dublette von:“ und „Poolaufgabe (nicht erfasst)“ zugleich")
+    # Abgewandelte Poolaufgabe mit erfasster Poolzeile (v0.6): Verweis am Anfang, Zeile muss stehen
+    ma = MARKE_ABGEWANDELT.search(b)
+    if "Abgewandelt von" in b:
+        a(ma is not None, f"{i}: „Abgewandelt von:“ ohne gültige Pool-Kennung oder ohne „; Unterschied“ in bemerkung")
+    if ma:
+        a(b.startswith("Abgewandelt von"), f"{i}: Verweis „Abgewandelt von:“ muss am Anfang von bemerkung stehen")
+        a(ma.group(1) in andere, f"{i}: Abgewandelt von {ma.group(1)}, aber die Zeile steht in keinem anderen Katalog")
+        a(m is None and mo is None, f"{i}: „Abgewandelt von:“ neben einem weiteren Poolvermerk")
     for k, v in z.items():
         a("?" not in v or k == "bemerkung" or z["bemerkung"].strip() != "",
           f"{i}: Fragezeichen in {k} ohne Grund in bemerkung")
@@ -603,12 +625,13 @@ def main():
         andere_werte = {schnitt(z) for z in andere_liste}
         print(f"Schnitt: {len(werte)} Werte auf {len(alt)} Zeilen, {len(werte - andere_werte)} davon nicht "
               f"in {ANDERE_KATALOGE}; Dublettenverweise: "
-              f"{sum(1 for z in alt if MARKE_DUBLETTE.search(z['bemerkung']))}")
+              f"{sum(1 for z in alt if MARKE_DUBLETTE.search(z['bemerkung']))}, abgewandelt: "
+              f"{sum(1 for z in alt if MARKE_ABGEWANDELT.search(z['bemerkung']))}")
         # Poolquote je Heft (v0.5): Kennzahl für abi-pruefungen.md § 2
         for h in hefte:
             print(f"Poolquote {h}: {poolquote([z for z in alt if z['papier'] == h], andere)}")
-        offen = sum(1 for z in alt if pool_stand(z, andere) in ("offen", "abgewandelt"))
-        print(f"Offene Posten (Poolaufgabe (nicht erfasst …)): {offen} Zeilen"
+        offen = sum(1 for z in alt if MARKE_POOL_OFFEN.search(z["bemerkung"]))  # Übergangszustand (v0.6)
+        print(f"Offene Posten (Poolaufgabe (nicht erfasst …), Übergangszustand): {offen} Zeilen"
               + (f", davon {len(OFFENE_POSTEN)} mit inzwischen erfasster Poolzeile:" if OFFENE_POSTEN else ""))
         for o in OFFENE_POSTEN:
             print("  -", o)
