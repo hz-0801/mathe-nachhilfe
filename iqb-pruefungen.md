@@ -60,7 +60,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2020-ea-B (WTR) | 8 von 15 | entfällt – Reserve (§ 4) |
 | 2019-ga-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
 | 2019-ea-B (WTR) | 10 von 17 | entfällt – Reserve (§ 4) |
-| 2018-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
+| 2018-ga-B (WTR) | 7 von 12 | **erfasst 2026-09-16, 53 Zeilen – wegen Landesheftverweisen** (2018-be-gk 2.2 und 3.2; Reserve geöffnet, Abbruchkriterium unberührt) · 29 Typen neu, 23 wiederverwendet (12 davon Etiketten des Landeshefts) · Eichung 46 von 53 (Spalte AB) |
 | 2018-ea-B (WTR) | 8 von 17 | entfällt – Reserve (§ 4) |
 | 2017-ga-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
 | 2017-ea-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
@@ -112,6 +112,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2022-ea-B-wtr (Teil B) | 69 | 71 | 54 (76 %) | 62 von 69 (90 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 71 (17 %); Schnitt 53 Werte, 64 von 69 Zeilen bekannt (93 %) | 22, 4, 22, 4 | 0 |
 | 2026-ga-B-mms (Teil B, nach Bereinigung 15.09.2026) | 25 | 27 | 18 (67 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 27 (33 %); Schnitt 20 Werte, 23 von 25 Zeilen bekannt (92 %) | 5, 5, 5, 5 | 0 |
 | 2026-ea-B-mms (Teil B, Delta-Stapel erhöht) | 32 | 32 | 21 (66 %) | 32 von 32 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 10 von 32 (31 %); Schnitt 27 Werte, 31 von 32 Zeilen bekannt (97 %) | 14, 7, 14, 7 | 0 |
+| 2018-ga-B-wtr (Teil B, Reserve) | 53 | 52 | 29 (56 %) | 46 von 53 (87 %), Liste v0.7, Spalte AB | 0 | 0 | 11 von 52 (21 %); Schnitt 34 Werte, 48 von 53 Zeilen bekannt (91 %) | 10, 8, 10, 8 | 9 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2038,6 +2039,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2022-ea-B-wtr | 69 | 53 | 5 | 4 | 5 | 3 | 2 | 3 |
 | 2026-ga-B-mms | 25 | 20 | 2 | 2 | 2 | 1 | 1 | 1 |
 | 2026-ea-B-mms | 32 | 27 | 1 | 1 | 1 | 0 | 0 | 0 |
+| 2018-ga-B-wtr (Reserve) | 53 | 34 | 5 | 3 | 5 | 0 | 0 | 0 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2090,6 +2092,7 @@ fortgeschrieben).**
 | 2023-ea-B-wtr | 64 | 50 | 1,28 | 41 (64 %) | 51 (79 %) | 0 (0 %) | 5 | 0 | 8 | 8,0 | 29 min |
 | 2022-ea-B-wtr | 69 | 53 | 1,30 | 54 (78 %) | 58 (84 %) | 0 (0 %) | 18 | 0 | 8 | 8,6 | 16 min |
 | 2026-ea-B-mms (Delta) | 32 | 27 | 1,19 | 23 (71 %) | 28 (87 %) | 2 (6 %) | 8 | 0 | 5 | 6,4 | 15 min |
+| 2018-ga-B-wtr (Reserve) | 53 | 34 | 1,56 | 40 (75 %) | 51 (96 %) | 0 (0 %) | 7 | 0 | 7 | 7,6 | 45 min (mit Kontextwechsel) |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -2803,10 +2806,59 @@ vorgemerkt gemeldet; die Umstellung der Vermerke folgt im Abgleichlauf 15.
 Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte
 bestanden (1084 Zeilen, 923 Typen, 30 Stapel).
 
+**Stapel 2018-ga-B (WTR) – Reserve geöffnet wegen der Landesheftverweise
+(Entscheidung des Lehrers, 16.09.2026; kein Widerruf des Abbruchs, das
+Abbruchkriterium Teil B grundlegend bleibt ausgereizt).** 7 Dateien, 53
+Zeilen (Analysis 12, AG/LA A1 8, A2 WTR 1 6, A2 WTR 2 5, Stochastik 7 + 7 +
+8), 52 Typen verwendet, 29 neu (56 %), 23 wiederverwendet – darunter die
+zwölf Etiketten, die das Landesheft 2018-be-gk seinen wortgleichen
+Teilaufgaben 2.2 a–e und 3.2 a–d, e, f, g gegeben hatte (AG/LA A2 WTR 2 a–e
+und Stochastik WTR 2 a–g). Eichung 46 von 53 (87 %) nach der Spalte
+Anforderungsbereich; der erste Lauf stand bei 44 von 53 (83 %) und riss die
+Schwelle, die Prüfung der Schätzungen gegen die enge Fassung setzte zwei
+Zeilen um (AG/LA A2 WTR 1 d, Differenz zweier Pyramiden: III → II, kein
+Eintrag der Deutungsliste; Stochastik WTR 3 2 a, Extremsummen: II → I, eine
+einzelne begründete Beobachtung), beide in bemerkung vermerkt; die Schwelle
+selbst blieb. Die sieben Abweichungen sind Einzelurteile ohne Listeneintrag:
+Analysis 1 a (Wendepunkt und Tangente, geschätzt II, amtlich I), A2 WTR 1 e
+(Punktprobe, I gegen II), Stochastik WTR 1 c, WTR 2 e und f (Quotient bzw.
+Vierfeldertafel, I gegen II), WTR 1 e (Modellgrenze begründen, II gegen III),
+WTR 3 1 d (Gegenereignis einer Vereinigung, II gegen III). Schnitt: 34 Werte,
+**kein neuer Wert im Gesamtbestand** (weder gegen iqb noch gegen iqb + abi);
+5 Werte neu im Niveau grundlegend (Symmetrie · angeben, Kurvenuntersuchung ·
+zeichnen, Scharen · angeben und · berechnen, Schnittmengen · begründen), alle
+schon aus dem erhöhten Niveau oder den Landesheften bekannt; die Reihen aus
+Teil A und Teil B sind unberührt (grundlegend 7/3/2/2 bleibt, der
+Reserve-Stapel brächte eine 0). 40 von 53 Zeilen (75 %) liegen auf
+Teil-A-Werten des Niveaus, 51 (96 %) auf Teil-A-Werten überhaupt. Außerhalb
+der Geltung: AG/LA (A1) vollständig (Matrizen, 8 Zeilen) und die beiden
+Scharzeilen A2 WTR 1 e, f (be-gk, bb-gk). Keine Trägerbindung, keine
+unsichere Zeile. Befunde am Pooltext: Analysis 1 c wird im Thema
+Flächeninhalt und Volumen im Raum (Klasse Körper, Kegeloberfläche) geführt,
+obwohl die Aufgabe in der Analysis-Datei steht – kein Integral, die
+leitidee folgt dem Typ; Stochastik WTR 3 1 d trägt einen doppelten
+Überstrich (Gegenereignis der Vereinigung), den die Textextraktion
+verschluckt – am Bild gelesen. Etiketten: Stochastik WTR 1 b nimmt den
+vorhandenen Typ „Anteil eines Entweder-oder-Ereignisses aus einer Tafel
+berechnen“ (Thema des Typs Ereignisse und Mengenoperationen) statt eines
+neuen. In Landesheften: 9 Zeilen (2018-be-gk 2.2 a–e, 3.2 a–d, davon 3.2 a
+abgewandelt), beim Lauf als vorgemerkt gemeldet. Befund dazu: 3.2 e und g
+des Landeshefts sind im Lauf 14 auf den erhöhten Pool vorgemerkt (e als
+abgewandelt), sind aber mit Stochastik WTR 2 e und g dieses Stapels
+wortgleich (3,0 % Netzteil vorgegeben, 3 BE; Prüfung von vierzig
+Bildschirmen, 2 BE) – die Umstellung im Lauf 15 zielt dorthin; 3.2 f ist
+ebenso wortgleich mit WTR 2 f (2 BE), trägt aber keinen Vermerk und wäre
+die 18. Zeile – bleibt unangetastet und offen, weil die Umstellung nur die
+17 vorgemerkten Zeilen anfassen darf (Auftrag 16.09.2026). Die Umstellung
+der Vermerke folgt im Abgleichlauf 15. Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung beider Skripte bestanden (1137 Zeilen, 952
+Typen, 31 Stapel).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Stapel 2018-ga-B (WTR-Zweig) erfasst (Reserve geöffnet wegen Landesheftverweisen, Abbruchkriterium unberührt): 53 Zeilen aus 7 Dateien, Katalog 1137 Zeilen, Typenliste 952 (29 neu). Alle BE-Summen geprüft (40/20/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 46 von 53 (87 %) nach der Spalte Anforderungsbereich (erster Lauf 44, zwei Schätzungen nach der engen Fassung korrigiert). Kein neuer Schnittwert im Gesamtbestand, 5 neu im Niveau. 9 Zeilen in 2018-be-gk vorgemerkt. |
 | 2026-09-16 | Stapel 2017-ea-A erfasst (Reserve geöffnet wegen Landesheftverweisen, Abbruchkriterium unberührt): 23 Zeilen aus 11 Dateien, Katalog 1084 Zeilen, Typenliste 923 (10 neu). Alle Punktsummen geprüft (11 × 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 22 von 23 (96 %). Kein neuer Schnittwert im Gesamtbestand. 6 Zeilen in 2017-bb-ea vorgemerkt. |
 | 2026-09-16 | Kennzahl „in Landesheften“ je Stapel (iqb-bau.py v1.2): Spalte in der Kennzahlentabelle § 2 (2018-ea-A 4, 2023-ga-A 4, 2023-ga-B-wtr 7, sonst 0), in der Kennzahlenzeile jedes Stapellaufs und in der Selbstprüfung (dazu die vorgemerkten Zeilen nicht erfasster Stapel); beim Stapellauf Hinweis auf vorgemerkte Zeilen. Selbstprüfung bestanden. |
 | 2026-09-16 | Pool-Abgleich des abi-Bestands (abgleich.py Lauf 14, Bericht in abi-pruefungen.md § 4): 17 abi-Zeilen stellen Poolaufgaben aus nicht erfassten Stapeln (2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2) und tragen die Vormerkung „Poolaufgabe (nicht erfasst): <id>“. iqb-katalog.csv unverändert; iqb.md § 7 (v1.4): Vormerkung und Umstellung beim Stapellauf. Die Stapel bleiben Reserve, bis der Lehrer entscheidet. |
