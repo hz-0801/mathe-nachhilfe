@@ -31,6 +31,7 @@ in vorgaben.md.
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
+| 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 
 Leitfassung je Jahr und Niveau: erhöht bb-ea, grundlegend be-gk (abi.md § 7).
 Wortgleiche Zwillinge des anderen Landes werden nicht als Zeile erfasst,
@@ -53,6 +54,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 10 von 36; 34 von 160 (21 %), seit Lauf 15 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e dorthin statt zum erhöhten Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“); 3.2 f wortgleich mit WTR 2 f, aber ohne Verweis (offen, siehe § 4 Lauf 15) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
+| 2024-bebb-gk | 47 | 46 | 16 (35 %) | 17 von 20 (85 %) | 0 | 0 | 7 von 46 (15 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 45 von 47 Zeilen im Niveau bekannt (96 %), 1 Wert neu im Gesamtbestand | 20 von 47; 55 von 155 (35 %) |
 
 ## 3 Nicht im Bestand
 
@@ -383,6 +385,94 @@ Nachführen etwa 10 Minuten. Rund 28 Sekunden je Zeile; vergleichbar mit den
 Teil-B-Stapeln des Pools (16 bis 29 Minuten für 45 bis 69 Zeilen). Die
 Sichtung am Vortag (Seiten rendern, BE-Tabelle, Pool-Abgleich, 8 Minuten)
 kommt hinzu.
+
+**2024-bebb-gk erfasst (16.09.2026, Auftrag „Reserve öffnen, Verweise
+schließen, Heft 2024 erfassen", Punkt 4; abi-bau.py v0.6).** Sichtung im
+selben Lauf: hefte/2024-bebb-gk.pdf, 10 Seiten, reiner Bildscan ohne
+Textebene, gerendert mit pypdfium2 (Seiten 1,7 bis 2,5 Tsd. Punkte breit,
+Lesefassung 0,6, Großfassung 1,0). Verlagsseiten 2024-1, -2, -3, -12, -13,
+-19, -20, -27, -32, -33 – die Lücken sind Tipp- und Lösungsseiten, das Heft
+ist vollständig. Scanqualität: alle Seiten lesbar; Seite 3 als Doppelseite
+mit dem Rand der linken Seite fotografiert, Seiten 4 bis 10 mit
+Handschatten und Durchscheinen der Tipps auf der Rückseite, ohne Folgen für
+das Lesen; keine Formel unsicher. 47 Zeilen aus 14 Aufgaben (1.1 bis 1.9 der
+hilfsmittelfreie Teil in Heftreihenfolge – 1.1 bis 1.3 Pflicht, 1.4 bis 1.6
+die Wahlaufgaben 1 (im Heft 1.4.1 bis 1.4.3), 1.7 bis 1.9 die Wahlaufgaben 2
+(1.5.1 bis 1.5.3), titel nennt die Heftnummer; 2.1, 2.2, 3, 4.1, 4.2); alle
+vierzehn Punktsummen stimmen (9 × 5, 35, 35, 20, 10, 10 = 155 BE angeboten).
+Die BE-Aufteilung weicht von 2023 ab (2.1 und 2.2 je 35 statt 45, Aufgabe 3
+20 statt 30, Aufgabe 4 zweimal 10 statt 20 + 10); die Summen des Hefts gelten.
+Selbstprüfung beider Bau-Skripte bestanden (abi 218 Zeilen aus 5 Heften,
+iqb 1206 Zeilen, 1006 Typen, 104 in beiden Katalogen), Lauf aus dem
+HEAD-Stand byteidentisch.
+
+*Pool-Abgleich.* Gegen den erfassten Pool 2024 grundlegend (Teil A und B,
+iqb-katalog.csv) am Wortlaut geprüft: **20 von 47 Zeilen sind wortgleiche
+Poolaufgaben, 55 von 155 angebotenen BE (35 %)** – die höchste Quote der fünf
+Hefte (2017 8 %, 2018 5 % und 19 %, 2023 16 %). Der Pool sitzt an zwei
+Stellen: im hilfsmittelfreien Teil sind sieben der neun Einheiten Pool (1.1
+= Analysis 1.2 a, b; 1.2 = AG/LA (A2) 1.3 a, b; 1.3 = Stochastik 1.3 a, b;
+1.4.1 = Analysis 1.3 a, b; 1.4.2 = AG/LA (A1) 1.2; 1.4.3 = Stochastik 1.1 a, b;
+1.5.3 = Stochastik 2.2 a, b – 35 von 45 BE), nur 1.5.1 (e-Funktion,
+Verschiebung durch den Ursprung) und 1.5.2 (gleichschenkliges Dreieck um M)
+sind Landesaufgaben; und Aufgabe 4 ist vollständig die Pooldatei Stochastik
+WTR 1 (Baumarktkette, 20 BE, sieben Zeilen). Die drei großen Teil-B-Aufgaben
+2.1 (Schrankknauf), 2.2 (ganzrationale Funktion) und 3 (Pyramide) sind
+Landesaufgaben (75 BE). Nach zu bearbeitenden BE: 40 bis 50 von 105 (38 bis
+48 %), je nach Wahl im hilfsmittelfreien Teil (Wahlaufgaben 1 ganz Pool,
+Wahlaufgaben 2 zu einem Drittel). Alle 20 Zeilen tragen „Dublette von:" mit
+dem Typ der Poolzeile, afb_amtlich aus der Poolzeile (Teil A die
+Bereichsliste, Teil B die AB-Spalte mit „AB amtlich: X." wie 2023).
+Kontextgebundene Zeilen: keine (Schrankknauf, Baumarkt und Befragung sind
+Sachkontexte ohne Trägerbindung).
+
+*Typen.* 46 verwendet, 16 neu (35 %), 27 aus dem iqb-Katalog (davon 20 über
+die Dubletten, 7 in Landesaufgaben wiederverwendet: Monotonie am Term,
+Hochpunkt eines Produkts mit e-Funktion, Stammfunktion durch Ableiten,
+Symmetrieart am Term, Trapezgrundfläche und Pyramidenvolumen, rechter Winkel
+über das Skalarprodukt, Koordinatengleichung aus Punkten, Neigungswinkel
+gegen eine Koordinatenebene – die Ebene ADS ist die y-z-Ebene), 3 aus dem
+abi-Bestand (Lage und Art aller Extrempunkte; Dreieck aus Tangente, Normale
+und y-Achse; maximaler vertikaler Abstand über die Differenzfunktion). Die
+neuen Typen nach Thema: Funktionsklassen 5 (Verschiebung durch den Ursprung;
+Nullstelle und y-Achsenschnittpunkt eines e-Produkts; gespiegelte Funktion
+und Durchmesser mit Maßstab; Nullstellen einer biquadratischen Funktion über
+Symmetrie und Substitution; Streckfaktor aus einer Flächenbedingung),
+Kurvenuntersuchung 3 (zweite Ableitung und Wendepunkt; Aussagen über Normale
+an der Wendestelle und Wertebereich von f'; Maße und Masse des umschließenden
+Quaders), Stammfunktion 1 (Krümmungswechsel der Stammfunktionen über f'),
+Tangente/Normale 1 (Öffnungswinkel an der Spitze), Fläche 2
+(Querschnittsfläche als doppeltes Integral mit Maßstab; Lösungsschritte zu
+einem Flächenverhältnis deuten und einzeichnen), Gleichungen lösen 1
+(Lösungsweg für den Gültigkeitsbereich einer Näherung), Punkte und Strecken
+3 (zwei Ecken eines gleichschenkligen Dreiecks um M; Netz einer Pyramide;
+Würfel mit Ecke auf einer Pyramidenkante). Etiketten: 1.5.2 ist eine offene
+Aufgabe mit vielen Lösungen, der Typ nennt das; 2.2 h zitiert „Aufgabe f",
+gemeint ist g (Heftfehler, in bemerkung vermerkt).
+
+*Eichung.* 17 von 20 gewerteten Zeilen (85 %, genau an der Schwelle) – nur
+die 20 Dubletten tragen einen amtlichen Bereich; die drei Abweichungen sind
+dieselben wie in den Poolzeilen (1.4.1 b Verschiebungsaussage III gegen II,
+4.1 a Schnittterm deuten I gegen II, 4.2 a Baumdiagramm aus einer
+Pfadwahrscheinlichkeit II gegen I), weil die Dubletten die Schätzung der
+Poolzeile übernehmen. Die 27 Landeszeilen ohne amtlichen Bereich sind nach
+der engen Fassung geschätzt: 7 mit III (1.5.2 zwei Bedingungen in Ansätze
+übersetzen; 2.1 d Aussagen über Normale und f'-Minimum; 2.1 f Krümmung der
+Stammfunktion über f'; 2.1 i Öffnungswinkel als doppelter Steigungswinkel;
+2.2 e Lösungsschritte geometrisch deuten; 2.2 h Betragsungleichung;
+3 f Würfelecke auf der Kante mit Konvexitätsargument), 5 mit I, 15 mit II.
+
+*Schnitt.* 34 Werte auf 47 Zeilen; 45 von 47 Zeilen (96 %) liegen auf
+bekannten Werten des grundlegenden Niveaus, **ein Wert neu im Gesamtbestand**
+(Punkte und Strecken · Körper · zeichnen – das Netz der Pyramide, 3 c), ein
+weiterer neu im Niveau grundlegend; Gesamtbestand 186 Werte (be-gk 152,
+bb-ea 173). Von den 27 Landeszeilen liegen 20 auf Werten aus Teil A des
+grundlegenden Pools. Außerhalb der Geltung: keine Zeile.
+
+*Aufwand.* Rendern und Lesen der zehn Seiten, Pool-Abgleich über die
+Kennungen des Pools 2024, Rechnung mit sympy, 47 Zeilen, Lauf, HEAD-Rerun
+und Selbstprüfung: etwa 50 Minuten; kein Rückschlag, ein Lauf mit
+ASCII-Bindestrich in einer Aufzählung (1-3-5) wiederholt.
 
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
@@ -759,6 +849,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Heft 2024-bebb-gk erfasst: 47 Zeilen aus 14 Aufgaben (1.1–1.9, 2.1, 2.2, 3, 4.1, 4.2), Katalog 218 Zeilen, Typenliste 1006 (16 neu). Alle Punktsummen geprüft (9 × 5, 35, 35, 20, 10, 10), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 17 von 20 (85 %). Pool 20 von 47 Zeilen, 55 von 155 BE (35 %): sieben der neun hilfsmittelfreien Einheiten und die ganze Aufgabe 4 (Stochastik WTR 1). Ein neuer Schnittwert im Gesamtbestand (Körper · zeichnen). |
 | 2026-09-16 | Abgleichlauf 15 (Verweise schließen): 17 Vermerke aus Lauf 14 umgestellt – 16 auf „Dublette von:“, 2018-be-gk 3.2 a auf den neuen Verweis „Abgewandelt von:“; 3.2 e und g zeigen auf den wortgleichen grundlegenden Pool statt auf den erhöhten; Typvergleich 17 von 17 gleich; 3.2 f bleibt ohne Verweis (offen, wäre die 18. Zeile). abi-bau.py v0.6 (Vorstufe als Übergangszustand, Verweis „Abgewandelt von:“), abi.md v0.11, Kern v0.5, CLAUDE.md. Selbstprüfung bestanden; Eichung über den Bestand 16 von 21 (zehn Teil-B-Zeilen 2018 erstmals gewertet). |
 | 2026-09-16 | Kennzahl Poolquote je Heft: Spalte „Pool (Zeilen; BE angeboten)“ in der Kennzahlentabelle § 2, Zeilen für 2017-bb-ea, 2018-be-gk und 2018-bb-ea ergänzt (Selbstprüfung abi-bau.py v0.5 gibt sie je Heft aus); Gegenstück „in Landesheften“ je Stapel in iqb-pruefungen.md § 2 (iqb-bau.py v1.2). Selbstprüfung beider Skripte bestanden. |
 | 2026-09-16 | Pool-Abgleich des Bestands bis 2018 (Abgleichlauf 14, abgleich.py v0.14): gegen den erfassten Pool keine weiteren Treffer; gegen die nicht erfassten Pooldateien 2017 (A, B) und 2018 (B) 15 wortgleiche Zeilen (2017-bb-ea Teil 1 ganz = Pool 2017 erhöht A; 2018-be-gk 2.2 a–e = Pool 2018 grundlegend B AG/LA (A2) WTR 2; 3.2 b, c, d, g = Pool 2018 Stochastik WTR 2 ga/ea) und 2 abgewandelte (3.2 a, e) – Vermerk „Poolaufgabe (nicht erfasst[, abgewandelt]): <id>“ in bemerkung (Feldkorrektur, 17 Zeilen), Regel in abi.md § 7 (v0.10), iqb.md § 7 (v1.4), Kern § 5; abi-bau.py v0.5 prüft den Vermerk und gibt die Poolquote je Heft aus. Typen unverändert (913). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Tabelle, Quoten und Muster in § 4. |
