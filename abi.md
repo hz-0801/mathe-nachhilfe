@@ -1,5 +1,9 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.9 · 16.09.2026 · Kennung abi · gilt mit Kern v0.4 (Schema-Version 2)
+Version 0.10 · 16.09.2026 · Kennung abi · gilt mit Kern v0.4 (Schema-Version 2)
+Änderungen gegenüber 0.9 (Auftrag „Heft 2023 nachprüfen, abi-Bestand gegen
+den Pool abgleichen"): § 7 Vorstufe des Poolverweises „Poolaufgabe (nicht
+erfasst): <id>" für Poolaufgaben aus nicht erfassten Stapeln, Poolquote je
+Heft als Kennzahl (abi-bau.py v0.5, Lauf 14).
 Änderungen gegenüber 0.8 (Auftrag „Themenfeld bereinigen, dann Stark-Heft 2023
 erfassen"): § 6 Regel Zeilenthema = Typthema (abi-bau.py v0.4 erzwingt sie,
 Lauf 13), Handlungen im Kern § 5; § 7 dublette_von klargestellt (Spalte von
@@ -246,6 +250,17 @@ Themen belegt.
   Landeshefts (Seite, BE, Wortlaut der Aufgabe), afb_amtlich darf aus der
   Poolzeile übernommen werden. Ein Katalogfeld dublette_von gibt es nicht
   (Kern § 5, 37 Felder); die Markierung in bemerkung ist der Verweis.
+  **Vorstufe** (16.09.2026, Pool-Abgleich des Bestands): Steht die
+  Poolaufgabe wortgleich im Heft, ihr Stapel ist im Profil iqb aber noch nicht
+  erfasst (Reserve: Pool 2017, Teil B 2018–2021), beginnt bemerkung mit
+  „Poolaufgabe (nicht erfasst): <voraussichtliche iqb-id>." – bei
+  abgewandelter Fassung „Poolaufgabe (nicht erfasst, abgewandelt): <id>;
+  <Unterschied>." abi-bau.py prüft Kennung und Feldanfang und verlangt, dass
+  die Zeile noch nicht im iqb-Katalog steht; wird der Stapel erfasst, meldet
+  iqb-bau.py die vorgemerkten Zeilen, und ein Abgleichlauf stellt den Vermerk
+  auf „Dublette von:" um (dann auch typ-Abgleich und afb_amtlich). Die
+  Poolquote je Heft (Zeilen und BE wortgleich im Pool, erfasst oder
+  vorgemerkt; abgewandelte getrennt) ist Kennzahl in abi-pruefungen.md § 2.
   dublette_von ist allein eine Spalte von iqb-quellen.csv und sagt, dass eine
   Pooldatei wortgleich mit einer anderen ist (Datei → Datei, keine Zeile) –
   ein anderer Sachverhalt als die Pool-Teilaufgabe im Landesheft, die eine

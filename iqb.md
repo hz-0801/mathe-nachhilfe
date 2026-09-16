@@ -1,5 +1,8 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.3 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.4 (Schema-Version 2)
+Version 1.4 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.4 (Schema-Version 2)
+Änderungen gegenüber 1.3 (Auftrag „abi-Bestand gegen den Pool abgleichen"):
+§ 7 Vormerkung „Poolaufgabe (nicht erfasst)" aus abi und Kennzahl „in
+Landesheften" je Stapel (iqb-bau.py v1.2).
 Änderungen gegenüber 1.2 (Auftrag „Themenfeld bereinigen, dann Stark-Heft 2023
 erfassen"): § 6 Regel Zeilenthema = Typthema (iqb-bau.py v1.1, Lauf 13),
 Handlungen im Kern § 5; § 2 Lesequellen des Skripts; § 7 dublette_von
@@ -446,6 +449,11 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Katalogfeld dublette_von gibt es nicht (Kern § 5); die gleichnamige Spalte
   in iqb-quellen.csv meint etwas anderes – eine Pooldatei, die wortgleich mit
   einer anderen ist und deshalb keine Zeile bekommt (§ 4, § 7 Dubletten).
+  Landeshefte, die eine Poolaufgabe aus einem nicht erfassten Stapel
+  (Reserve) stellen, merken sie als „Poolaufgabe (nicht erfasst): <iqb-id>"
+  vor (abi.md § 7); iqb-bau.py meldet beim Stapellauf die vorgemerkten
+  Zeilen, danach stellt abgleich.py den Vermerk auf „Dublette von:" um. Die
+  Kennzahl „in Landesheften" je Stapel (v1.2) zählt die Zeilen mit Verweis.
 - **Standardbezug vor Erwartungshorizont lesen? Nein.** Reihenfolge beim
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
   und Standardbezug. Die Schätzung wird nicht nachträglich an den Standardbezug

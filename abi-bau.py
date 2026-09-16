@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.4 · 16.09.2026 · gilt mit katalog-prompt.md v0.4, abitur-vokabular.md v1.1 und abi.md v0.9
+Version 0.5 · 16.09.2026 · gilt mit katalog-prompt.md v0.4, abitur-vokabular.md v1.1 und abi.md v0.10
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" und unter „AB HIER UNVERÄNDERT" bleibt unverändert.
+
+Änderungen gegenüber 0.4 (Auftrag „Heft 2023 nachprüfen, abi-Bestand gegen
+den Pool abgleichen"): Poolquote je Heft als Kennzahl (Zeilen und BE, die
+wortgleich im Pool stehen; in der Kennzahlenzeile und in der Selbstprüfung je
+Heft); Vermerk „Poolaufgabe (nicht erfasst): <Kennung>" als Vorstufe des
+Verweises „Dublette von:", geprüft (Kennung, Feldanfang, noch nicht erfasst);
+Pool-Kennungen mit Aufgabennummer vom ASCII-Minus-Test ausgenommen (schon im
+Heftlauf 2023).
 
 Änderungen gegenüber 0.3 (Entscheidung des Lehrers, 16.09.2026: Themenfeld
 bereinigen): leitidee und thema einer Zeile müssen gleich leitidee und thema
@@ -337,6 +345,38 @@ def schreibe(pfad, kopf, zeilen):
 # Feste Markierungen in bemerkung (abi.md § 7; wie iqb.md § 7), bewusst umlautfrei.
 MARKE_KONTEXT = "Traegerbindung: Kontext"
 MARKE_DUBLETTE = re.compile(r"Dublette von: (" + KENNUNG.pattern + r")")
+# Vorstufe des Verweises (v0.5, Lauf 14): Poolaufgabe, deren Stapel im Profil iqb
+# noch nicht erfasst ist; die Kennung ist die voraussichtliche iqb-id. Wird zum
+# „Dublette von:", sobald der Stapel erfasst ist (abgleich.py).
+MARKE_POOL_OFFEN = re.compile(r"Poolaufgabe \(nicht erfasst(, abgewandelt)?\): (" + KENNUNG.pattern + r")")
+
+
+def pool_stand(z, andere):
+    """'dublette' (Verweis auf erfasste Poolzeile), 'offen' (wortgleich, Pool nicht erfasst),
+    'abgewandelt' oder '' – für die Poolquote je Heft."""
+    if MARKE_DUBLETTE.search(z["bemerkung"]):
+        return "dublette"
+    m = MARKE_POOL_OFFEN.search(z["bemerkung"])
+    if m:
+        return "abgewandelt" if m.group(1) else "offen"
+    return ""
+
+
+def poolquote(zeilen, andere):
+    """Zeilen und BE je Heft, die wortgleich im Pool stehen (erfasst oder nicht),
+    dazu die abgewandelten; Text für die Kennzahlenzeile."""
+    st = [(pool_stand(z, andere), int(z["punkte"])) for z in zeilen if z["punkte"].isdigit()]
+    be = sum(p for _, p in st)
+    wort = [(s, p) for s, p in st if s in ("dublette", "offen")]
+    abw = [(s, p) for s, p in st if s == "abgewandelt"]
+    txt = (f"Pool {len(wort)} von {len(zeilen)} Zeilen, {sum(p for _, p in wort)} von {be} BE "
+           f"({100 * sum(p for _, p in wort) / be if be else 0:.0f} %)")
+    offen = sum(1 for s, _ in wort if s == "offen")
+    if offen:
+        txt += f", davon {offen} Zeilen mit nicht erfasster Poolzeile"
+    if abw:
+        txt += f"; abgewandelt {len(abw)} Zeilen, {sum(p for _, p in abw)} BE"
+    return txt
 AB_SPALTE = re.compile(r"AB amtlich: (I{1,3})\.")
 ENG = re.compile(r"Schätzung enge Fassung: (I{1,3})")
 
@@ -434,6 +474,15 @@ def pruefe_zeile(z, a, andere, heftkennung=True):
               f"{i}: Dublette von {m.group(1)}, aber typ weicht ab (geteilter Typ verlangt; typ_neben darf Nebenleistungen des Landeshefts nennen)")
             a(z["punkte"] == ref["punkte"] or "BE" in b,
               f"{i}: Dublette von {m.group(1)} mit anderer Punktzahl – bemerkung muss die BE nennen")
+    # Vorstufe (v0.5): Poolaufgabe, deren Stapel noch nicht erfasst ist
+    mo = MARKE_POOL_OFFEN.search(b)
+    if "Poolaufgabe (nicht erfasst" in b:
+        a(mo is not None, f"{i}: „Poolaufgabe (nicht erfasst …):“ ohne gültige Pool-Kennung in bemerkung")
+    if mo:
+        a(b.startswith("Poolaufgabe (nicht erfasst"), f"{i}: Vermerk „Poolaufgabe (nicht erfasst …)“ muss am Anfang von bemerkung stehen")
+        a(mo.group(2) not in andere,
+          f"{i}: Poolzeile {mo.group(2)} ist erfasst – Vermerk durch „Dublette von:“ ersetzen (abgleich.py)")
+        a(m is None, f"{i}: „Dublette von:“ und „Poolaufgabe (nicht erfasst)“ zugleich")
     for k, v in z.items():
         a("?" not in v or k == "bemerkung" or z["bemerkung"].strip() != "",
           f"{i}: Fragezeichen in {k} ohne Grund in bemerkung")
@@ -553,6 +602,9 @@ def main():
         print(f"Schnitt: {len(werte)} Werte auf {len(alt)} Zeilen, {len(werte - andere_werte)} davon nicht "
               f"in {ANDERE_KATALOGE}; Dublettenverweise: "
               f"{sum(1 for z in alt if MARKE_DUBLETTE.search(z['bemerkung']))}")
+        # Poolquote je Heft (v0.5): Kennzahl für abi-pruefungen.md § 2
+        for h in hefte:
+            print(f"Poolquote {h}: {poolquote([z for z in alt if z['papier'] == h], andere)}")
         print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
               "(Häufigkeit in Klammern):")
         liste = umschrift_liste(alt)
@@ -698,7 +750,6 @@ def main():
     schnitt_alle = {schnitt(z) for z in alt} | {schnitt(z) for z in andere_liste}
     schnitt_neu = {schnitt(z) for z in ZEILEN}
     schnitt_bekannt = sum(1 for z in ZEILEN if schnitt(z) in schnitt_alt)
-    dubl = [z["id"] for z in ZEILEN if MARKE_DUBLETTE.search(z["bemerkung"])]
     geltung_txt = ", ".join(f"{ziel} {len(ids)}" for ziel, ids in ausserhalb.items())
     for ziel, ids in ausserhalb.items():
         if ids:
@@ -710,7 +761,7 @@ def main():
           f"({100 * len(wieder) / len(verwendet):.0f} %) | {geltung_txt} | "
           f"Schnitt {len(schnitt_neu)} Werte, {schnitt_bekannt} von {n} Zeilen im Niveau bekannt "
           f"({100 * schnitt_bekannt / n:.0f} %), {len(schnitt_neu - schnitt_alle)} Werte neu im Gesamtbestand | "
-          f"Pool-Dubletten {len(dubl)} |")
+          f"{poolquote(ZEILEN, andere)} |")
     print("Unsichere Zeilen:", ", ".join(unsicher) if unsicher else "keine")
     print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
           "(Häufigkeit in Klammern):")

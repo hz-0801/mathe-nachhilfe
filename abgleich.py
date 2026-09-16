@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.13 · 16.09.2026 · gilt mit abitur-vokabular.md v1.1, abi-bau.py v0.4 und iqb-bau.py v1.1
+Version 0.14 · 16.09.2026 · gilt mit abitur-vokabular.md v1.1, abi-bau.py v0.5 und iqb-bau.py v1.2
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -55,6 +55,10 @@ Präfix (Term und Ereignis), drei Themenwechsel von Typen, Feldkorrektur
 leitidee/thema in 21 Zeilen plus Vermerke und ein doppeltes typ_neben; Typen
 unverändert (875). Seitdem prüft jeder Lauf, dass keine Zeile vom Thema ihres
 Typs abweicht.
+Lauf 14 (16.09.2026, Pool-Abgleich des abi-Bestands bis 2018): Vermerk
+„Poolaufgabe (nicht erfasst): <Kennung>" in 15 wortgleichen und
+„(nicht erfasst, abgewandelt)" in 2 abgewandelten Zeilen (Feldkorrektur
+bemerkung); Typen unverändert (913).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -841,6 +845,51 @@ def zeile_13(d):
     return war
 
 
+# ======================================================================= Lauf 14
+# Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026):
+# Textvergleich der Landeshefte gegen die Pooldateien 2017 (Teil A und B) und
+# 2018 (Teil B), die im Profil iqb nicht erfasst sind (Reserve). Wortgleiche
+# Teilaufgaben bekommen den Vermerk „Poolaufgabe (nicht erfasst): <Kennung>-
+# <Teilaufgabe>." am Anfang von bemerkung – die Vorstufe des Verweises
+# „Dublette von:" nach Entscheidung 3, den abi-bau.py erst prüfen kann, wenn die
+# Poolzeile im iqb-Katalog steht; die Kennung ist die voraussichtliche iqb-id.
+# Abgewandelte Teilaufgaben tragen „(nicht erfasst, abgewandelt)" und den
+# Unterschied. Keine Typänderung; Bericht in abi-pruefungen.md § 4.
+POOL_14 = {
+    # 2017-bb-ea Teil 1 = Pool 2017 erhöht Teil A: Analysis 1.1, AG/LA (A2) 2, Stochastik 2
+    "2017-bb-ea-A1.1a": "2017MerhoehtAAnalysis11-a", "2017-bb-ea-A1.1b": "2017MerhoehtAAnalysis11-b",
+    "2017-bb-ea-A1.2a": "2017MerhoehtAAGLAA22-a", "2017-bb-ea-A1.2b": "2017MerhoehtAAGLAA22-b",
+    "2017-bb-ea-A1.3a": "2017MerhoehtAStochastik2-a", "2017-bb-ea-A1.3b": "2017MerhoehtAStochastik2-b",
+    # 2018-be-gk 2.2 Kletteranlage = Pool 2018 grundlegend Teil B AG/LA (A2) WTR 2 a–e
+    "2018-be-gk-B2.2a": "2018MgrundlegendBAGLAA2WTR2-1a", "2018-be-gk-B2.2b": "2018MgrundlegendBAGLAA2WTR2-1b",
+    "2018-be-gk-B2.2c": "2018MgrundlegendBAGLAA2WTR2-1c", "2018-be-gk-B2.2d": "2018MgrundlegendBAGLAA2WTR2-1d",
+    "2018-be-gk-B2.2e": "2018MgrundlegendBAGLAA2WTR2-1e",
+    # 2018-be-gk 3.2 Bildschirme = Pool 2018 grundlegend Stochastik WTR 2 b–d, erhöht Stochastik WTR 2 d
+    "2018-be-gk-B3.2b": "2018MgrundlegendBStochastikWTR2-1b", "2018-be-gk-B3.2c": "2018MgrundlegendBStochastikWTR2-1c",
+    "2018-be-gk-B3.2d": "2018MgrundlegendBStochastikWTR2-1d", "2018-be-gk-B3.2g": "2018MerhoehtBStochastikWTR2-1d",
+}
+POOL_14_ABGEWANDELT = {
+    "2018-be-gk-B3.2a": ("2018MgrundlegendBStochastikWTR2-1a",
+                         "Ereignis B im Heft mit 50 statt 200 Bildschirmen (mehr als 10 und weniger als 15 statt mehr als 30 und weniger als 50)"),
+    "2018-be-gk-B3.2e": ("2018MerhoehtBStochastikWTR2-1b",
+                         "das Heft gibt den Netzteil-Anteil 3,0 % vor, der Pool „entweder Display oder Netzteil 11,7 %“; 3 statt 4 BE"),
+}
+
+
+def zeile_14(d):
+    """Vermerk auf die nicht erfasste Poolaufgabe an den Anfang von bemerkung setzen."""
+    if d["bemerkung"].startswith("Poolaufgabe (nicht erfasst"):
+        return False
+    if d["id"] in POOL_14:
+        d["bemerkung"] = f"Poolaufgabe (nicht erfasst): {POOL_14[d['id']]}. " + d["bemerkung"]
+        return True
+    if d["id"] in POOL_14_ABGEWANDELT:
+        k, warum = POOL_14_ABGEWANDELT[d["id"]]
+        d["bemerkung"] = f"Poolaufgabe (nicht erfasst, abgewandelt): {k}; {warum}. " + d["bemerkung"]
+        return True
+    return False
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -855,9 +904,10 @@ LAEUFE = {
     11: ({}, ZUSAMMEN_11, NEUE_DEFINITION_11, {}),
     12: (PRAEFIX_12, ZUSAMMEN_12, NEUE_DEFINITION_12, NEUES_THEMA_12),
     13: (PRAEFIX_13, {}, {}, NEUES_THEMA_13),
+    14: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
-                 13: [("*", zeile_13)]}
+                 13: [("*", zeile_13)], 14: [("*", zeile_14)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]

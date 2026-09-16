@@ -377,6 +377,90 @@ Teil-B-Stapeln des Pools (16 bis 29 Minuten für 45 bis 69 Zeilen). Die
 Sichtung am Vortag (Seiten rendern, BE-Tabelle, Pool-Abgleich, 8 Minuten)
 kommt hinzu.
 
+**Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
+Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
+(iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
+Zeilen über gegeben, gesucht, stichwoerter, verfahren, ergebnis; einzige
+Treffer sind die vier schon bekannten Zeilen 2018-bb-ea A1.1 a, b und A1.2
+a, b (Pool 2018 erhöht Teil A). Kein weiterer Treffer, auch nicht bei
+niedriger Schwelle (sechs Kandidatenpaare gesichtet, alle verschieden). Das
+ist erwartbar: Der erfasste Pool deckt Teil A 2018–2026 und Teil B
+2022–2026, die Landeshefte 2017/2018 konnten nur aus Pool 2017 (Teil A und
+B) und Pool 2018 (Teil A und B) schöpfen – Pool 2017 und Teil B 2018 sind
+Reserve. (2) Deshalb zusätzlich gegen die 49 nicht erfassten Pooldateien
+2017 (Teil A und B, WTR) und 2018 Teil B (WTR), Text mit pypdf aus den
+PDFs, Vergleich je Aufgabe, Treffer von Hand am Wortlaut geprüft:
+
+| Heft | Aufgabe | Poolaufgabe (nicht erfasst) | Befund |
+|---|---|---|---|
+| 2017-bb-ea | Teil 1 Analysis (A1.1 a, b) | 2017 erhöht A Analysis 1.1 a, b | wortgleich (Zahlen, Aufträge, BE 2 + 3) |
+| 2017-bb-ea | Teil 1 Geometrie (A1.2 a, b) | 2017 erhöht A AG/LA (A2) 2 a, b | wortgleich (2 + 3) |
+| 2017-bb-ea | Teil 1 Stochastik (A1.3 a, b) | 2017 erhöht A Stochastik 2 a, b | wortgleich (2 + 3) |
+| 2017-bb-ea | Teil B 2.1–4.2 | – | kein Treffer in 2017 erhöht/grundlegend Teil B |
+| 2018-bb-ea | Teil 1 Stochastik (A1.3) | – | nicht im Pool 2018 (die anderen zwei Aufgaben des Teils 1 sind Pool, Lauf 12) |
+| 2018-bb-ea | Teil B 2.1–4.2 | – | kein Treffer in 2018 erhöht Teil B |
+| 2018-be-gk | 2.2 Kletteranlage (a–e) | 2018 grundlegend B AG/LA (A2) WTR 2 a–e | wortgleich, 20 von 20 BE (die erhöhte Fassung WTR 2 hat dieselben a–d, andere e/f) |
+| 2018-be-gk | 3.2 Bildschirme b, c, d | 2018 grundlegend B Stochastik WTR 2 b, c, d | wortgleich (2 + 3 + 4 BE) |
+| 2018-be-gk | 3.2 a | 2018 grundlegend B Stochastik WTR 2 a | abgewandelt: Ereignis B mit 50 statt 200 Bildschirmen (4 BE) |
+| 2018-be-gk | 3.2 e | 2018 erhöht B Stochastik WTR 2 b | abgewandelt: Netzteil-Anteil 3,0 % vorgegeben statt „entweder–oder 11,7 %“ (3 statt 4 BE) |
+| 2018-be-gk | 3.2 f | (2018 erhöht B Stochastik WTR 2 c) | Landesvariante: bedingte Wahrscheinlichkeit statt Unabhängigkeit, kein Vermerk |
+| 2018-be-gk | 3.2 g | 2018 erhöht B Stochastik WTR 2 d | wortgleich (2 BE) |
+| 2018-be-gk | 1.1, 1.2, 2.1, 3.1 | – | kein Treffer in 2018 grundlegend/erhöht Teil B |
+
+Verweise: Die 15 wortgleichen Zeilen tragen seit Lauf 14 die Vorstufe
+„Poolaufgabe (nicht erfasst): <voraussichtliche iqb-id>." (abi.md § 7), die
+zwei abgewandelten „(nicht erfasst, abgewandelt)" mit dem Unterschied. Der
+Verweis nach Entscheidung 3 („Dublette von:") setzt eine erfasste Poolzeile
+voraus – abi-bau.py prüft ihn gegen iqb-katalog.csv und verlangt denselben
+typ; die betroffenen Stapel 2017-ea-A (11 Dateien), 2018-ga-B-wtr (6) und
+2018-ea-B-wtr (7) sind Reserve. Wird einer davon erfasst, meldet iqb-bau.py
+die vorgemerkten Zeilen, und ein Abgleichlauf stellt den Vermerk um und
+gleicht die Typen ab. Ob die Reserve dafür geöffnet wird, entscheidet der
+Lehrer; ohne Erfassung bleiben die Poolzeilen ohne Erwartungshorizont und
+Standardbezug im abi-Katalog, was für die Eichung nichts ändert (Landeshefte
+bis 2018 haben ohnehin keinen amtlichen Bereich).
+
+*Poolquote je Heft* (abi-bau.py v0.5, Selbstprüfung; wortgleich = erfasst
+oder vorgemerkt, angebotene BE):
+
+| Heft | Zeilen im Pool | BE im Pool (angeboten) | davon hilfsmittelfreier Teil | abgewandelt |
+|---|---|---|---|---|
+| 2017-bb-ea | 6 von 36 | 15 von 185 (8 %) | 15 von 15 (100 %) | – |
+| 2018-bb-ea | 4 von 41 | 10 von 185 (5 %) | 10 von 15 (67 %) | – |
+| 2018-be-gk | 9 von 36 | 31 von 160 (19 %) | kein hilfsmittelfreier Teil | 2 Zeilen, 7 BE (mit ihnen 38 von 160, 24 %) |
+| 2023-bebb-gk | 11 von 58 | 30 von 185 (16 %) | 10 von 35 (29 %) | – |
+
+Muster: Brandenburg erhöht (2017, 2018) nimmt den Pool nur im
+hilfsmittelfreien Teil 1 – 2017 ganz, 2018 zwei der drei Aufgaben – und
+schreibt Teil B selbst (0 von 170 BE). Berlin grundlegend 2018 hat keinen
+hilfsmittelfreien Teil und nimmt stattdessen zwei Teil-B-Aufgaben aus dem
+grundlegenden Pool, eine wortgleich (Kletteranlage), eine aus beiden
+Niveaus zusammengesetzt und leicht verändert (Bildschirme); im Wahlweg
+2.2/3.2 sind das 38 von 80 zu bearbeitenden BE, im Wahlweg 2.1/3.1 null. Das
+gemeinsame Heft 2023 mischt: zwei von sieben Aufgaben des hilfsmittelfreien
+Teils und zwei Drittel einer Teil-B-Aufgabe. Die Quote nach angebotenen BE
+liegt also 2017 bis 2023 zwischen 5 % und 19 %, ohne Trend über die Jahre;
+was schwankt, ist die Stelle, an der der Pool eingesetzt wird (Teil 1 bei
+bb-ea, Teil B bei be-gk, beides 2023). Die 2018 nahe 100 % vom 15.09.2026
+galten nur für den hilfsmittelfreien Teil. Mit vier Heften ist das eine
+Beobachtung, keine Statistik.
+
+*Etiketten der 17 Zeilen nach dem gemeinsamen Schnitt:* keine, die falsch
+läge – Thema, Klasse und Handlung passen zu Aufgabe und Lösungsweg. Sieben
+der 17 tragen Typen, die auch der iqb-Katalog verwendet (Gleichschenkligkeit
+des Achsendreiecks der Tangente, Erwartungswertbedingung, Trapez,
+Neigungswinkel, Punktprobe, kumulierte Binomialwahrscheinlichkeit,
+Vierfeldertafel), zehn abi-eigene Typen (Nullstelle einer
+Exponentialfunktion durch Logarithmieren; Dreiecksfläche aus Spurpunkten;
+Normalenvektor als Ortsvektor; Umlegen zwischen Urnen; Streckenlänge im
+Raum; Lösungsweg für einen Punkt auf einer Geraden; Modalwert;
+Stichprobenvergrößerung; Trefferwahrscheinlichkeit aus der Bedingung an null
+Treffer; Ungeeignetheit des Binomialmodells). Diese zehn sind gegen die
+Poolzeile abzugleichen, sobald ihr Stapel erfasst ist – erst dann gibt es
+ein zweites Etikett für dieselbe Aufgabe, und der Abgleichlauf entscheidet.
+Bis dahin ist nichts zu ändern: Ein abi-eigener Typ ist kein falsches
+Etikett, solange kein Zwilling im Bestand steht.
+
 **Umstellungslauf 12 – gemeinsame Typenliste für abi und iqb (Entscheidung
 25, Auftrag „Weg A umsetzen", 15.09.2026).** Grundlage abi-iqb-typen.md
 (Messung vom selben Tag). Zwei Commits: erst abitur-vokabular.md, abgleich.py
@@ -622,6 +706,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Pool-Abgleich des Bestands bis 2018 (Abgleichlauf 14, abgleich.py v0.14): gegen den erfassten Pool keine weiteren Treffer; gegen die nicht erfassten Pooldateien 2017 (A, B) und 2018 (B) 15 wortgleiche Zeilen (2017-bb-ea Teil 1 ganz = Pool 2017 erhöht A; 2018-be-gk 2.2 a–e = Pool 2018 grundlegend B AG/LA (A2) WTR 2; 3.2 b, c, d, g = Pool 2018 Stochastik WTR 2 ga/ea) und 2 abgewandelte (3.2 a, e) – Vermerk „Poolaufgabe (nicht erfasst[, abgewandelt]): <id>“ in bemerkung (Feldkorrektur, 17 Zeilen), Regel in abi.md § 7 (v0.10), iqb.md § 7 (v1.4), Kern § 5; abi-bau.py v0.5 prüft den Vermerk und gibt die Poolquote je Heft aus. Typen unverändert (913). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Tabelle, Quoten und Muster in § 4. |
 | 2026-09-16 | 2023-bebb-gk 2.2 k nachgeprüft (Scan in voller Auflösung): drei Eigenschaften I k(0) = 20, II k′(0) = 130, III Hochpunkt H(5 \| 220) – Erfassung stimmt, Widerspruch im Heft (H ist Tiefpunkt der eindeutig bestimmten Funktion) bleibt vermerkt. Keine Katalogänderung. |
 | 2026-09-16 | Heft 2023-bebb-gk erfasst (Stark-Scan, abi-bau.py v0.4): 58 Zeilen aus 12 Aufgaben, Katalog 171 Zeilen, Typenliste 913 (38 neu, 19 iqb-Typen übernommen), 11 Pool-Dubletten mit „Dublette von:“ (30 von 185 BE). Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 11 von 11 (nur Poolzeilen), 3 Zeilen mit „?“ (Ablesewerte), 0 ersatzweise, 8 kontextgebunden; Schnitt 42 Werte, 1 neu im Gesamtbestand (184). Skriptanpassung: Pool-Kennungen vom ASCII-Minus-Test ausgenommen. Befunde in § 4. |
 | 2026-09-16 | Abgleichlauf 13 (abgleich.py v0.13, Entscheidung 26 „Themenfeld bereinigen"): Zeilenthema = Typthema. abi-katalog.csv: 11 Zeilen leitidee/thema aus dem Typ (2018-bb-ea A1.2b, B2.1b, B2.1d, B3.2c, B4.1c; 2017-bb-ea B2.1e, B2.2e [auch leitidee], B4.2a, B4.2c; 2018-be-gk B2.1c, B3.1e), 2 Zeilen behalten ihr Thema, weil der Typ wechselt (2018-be-gk B1.2f: „Kleinste Tangentensteigung …" → Ableitung und Änderungsrate; B2.2b: „Ebene Figur: Trapez …" → Punkte und Strecken); doppelte Nennung des typ in typ_neben gestrichen (2017-bb-ea B4.2a, 2018-be-gk B3.2a); Vermerke in bemerkung (B4.2a, B2.2e). iqb: 8 Zeilen plus 3 Folgezeilen, ein Präfix („Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen", Zufallsexperimente). Typen 875 unverändert; Schnitt 183 Werte (vorher 189 nach Zeilenthema), Teil-B-Reihen unverändert. abi-bau.py v0.4, iqb-bau.py v1.1 (Assert, Schnitt über Typthema, Handlungen aus dem Kern), Kern v0.4, abitur-vokabular.md v1.1, abi.md v0.9, iqb.md v1.3, konzept.md Entscheidung 26. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. |

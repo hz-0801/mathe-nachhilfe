@@ -75,7 +75,7 @@ Deutung: niveau_geschaetzt (I reproduzieren; II Zusammenhänge herstellen; III v
 
 Ein unsicherer Wert in irgendeinem Feld trägt ein „?" am Ende und einen Grund in bemerkung.
 
-Markierungen in bemerkung statt eigener Felder: Das Schema hat kein Feld für Dubletten oder Trägerbindung. Wiederholt eine Zeile eine Aufgabe, die in einem anderen Katalog derselben Typenliste schon steht (wortgleich, gleicher typ), beginnt bemerkung mit „Dublette von: <id>." und die Zeile trägt den typ der ersten Fassung; das Bau-Skript des Profils prüft den Verweis. Wo eine Quellenliste eines Profils Dateien als wortgleich führt (iqb-quellen.csv, Spalte dublette_von), ist das eine Eigenschaft der Datei, nicht der Zeile – solche Dateien bekommen gar keine Zeile. Trägerbindung an einen Kontext steht als „Traegerbindung: Kontext" am Anfang von bemerkung (Profile abi und iqb).
+Markierungen in bemerkung statt eigener Felder: Das Schema hat kein Feld für Dubletten oder Trägerbindung. Wiederholt eine Zeile eine Aufgabe, die in einem anderen Katalog derselben Typenliste schon steht (wortgleich, gleicher typ), beginnt bemerkung mit „Dublette von: <id>." und die Zeile trägt den typ der ersten Fassung; das Bau-Skript des Profils prüft den Verweis. Ist die erste Fassung noch nicht erfasst, darf das Profil eine Vorstufe des Verweises vorsehen (abi: „Poolaufgabe (nicht erfasst): <id>."). Wo eine Quellenliste eines Profils Dateien als wortgleich führt (iqb-quellen.csv, Spalte dublette_von), ist das eine Eigenschaft der Datei, nicht der Zeile – solche Dateien bekommen gar keine Zeile. Trägerbindung an einen Kontext steht als „Traegerbindung: Kontext" am Anfang von bemerkung (Profile abi und iqb).
 
 ## 6 Vokabular in drei Ebenen
 
