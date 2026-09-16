@@ -1,5 +1,9 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.2 · 15.09.2026 · Kennung iqb · gilt mit Kern v0.3 (Schema-Version 2)
+Version 1.3 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.4 (Schema-Version 2)
+Änderungen gegenüber 1.2 (Auftrag „Themenfeld bereinigen, dann Stark-Heft 2023
+erfassen"): § 6 Regel Zeilenthema = Typthema (iqb-bau.py v1.1, Lauf 13),
+Handlungen im Kern § 5; § 2 Lesequellen des Skripts; § 7 dublette_von
+klargestellt (Spalte von iqb-quellen.csv, kein Katalogfeld).
 Änderungen gegenüber 1.1 (Entscheidung 25, Auftrag „Weg A umsetzen"): § 5–6
 Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen, Handlungen und
 Rechnerfassung nach abitur-vokabular.md verschoben, hier nur noch Verweis und
@@ -107,9 +111,9 @@ Aufgaben: https://www.iqb.hu-berlin.de/media/exercise_files/Abituraufgaben_Mathe
 Die Kennungen stehen vollständig in iqb-quellen.csv; geholt wird mit curl. Ein
 zweiter Download je Aufgabe ist nicht nötig, die Datei enthält alles.
 
-Gerüst für Erfassung und Prüfung: iqb-bau.py. Es liest Kopfzeile und
-Formvokabular aus katalog-prompt.md § 5, Sachgebiete, Themen, Geltung,
-Klassen und Handlungen aus abitur-vokabular.md, die Stapelzuordnung,
+Gerüst für Erfassung und Prüfung: iqb-bau.py. Es liest Kopfzeile,
+Formvokabular und Handlung je format aus katalog-prompt.md § 5, Sachgebiete,
+Themen, Geltung und Klassen aus abitur-vokabular.md, die Stapelzuordnung,
 Seitenzahlen und Dubletten aus iqb-quellen.csv, und schreibt die beiden
 CSV-Dateien nur, wenn alle Prüfungen bestehen – einschließlich der
 Schwellenwerte aus § 7. Umbenennungen und Zusammenziehungen von Typen laufen
@@ -257,10 +261,15 @@ Analytische Geometrie; die Alternative steht in titel (§ 4).
 
 ## 6 Themenliste, Geltung, Schnitt
 
-Themenliste, Geltungstabelle, Gegenstandsklassen und Handlungen stehen in
-abitur-vokabular.md § 2–5; iqb-bau.py liest sie dort. Bis v1.1 standen sie
-hier; die Rechnerfassung je Zielprüfung ist mit der Geltungstabelle nach
-abitur-vokabular.md § 3 gewandert. Profilspezifisch bleiben:
+Themenliste, Geltungstabelle und Gegenstandsklassen stehen in
+abitur-vokabular.md § 2–4, die Handlung je format im Kern § 5; iqb-bau.py
+liest sie dort. Bis v1.1 standen sie hier; die Rechnerfassung je Zielprüfung
+ist mit der Geltungstabelle nach abitur-vokabular.md § 3 gewandert.
+**Zeilenthema = Typthema** (16.09.2026, abitur-vokabular.md § 4): leitidee
+und thema einer Zeile sind die ihres Typs, iqb-bau.py erzwingt das, der
+Schnitt wird über das Thema des Typs gezählt; die acht iqb-Zeilen, die davon
+abwichen, hat Lauf 13 nachgezogen (iqb-pruefungen.md § 5). Profilspezifisch
+bleiben:
 
 - **Aufgabengruppe A1** ist überwiegend Matrizen (Verflechtung,
   Übergangsprozesse, Matrizenalgebra) und liegt für alle vier Zielprüfungen
@@ -433,7 +442,10 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   zu 30 von 185 BE), bekommt jede solche Teilaufgabe eine eigene abi-Zeile mit
   demselben typ wie die iqb-Zeile und dem Verweis „Dublette von: <iqb-id>" am
   Anfang von bemerkung; abi-bau.py prüft den Verweis gegen iqb-katalog.csv.
-  Die iqb-Zeile bleibt unverändert; der Pool ist die Erstfassung.
+  Die iqb-Zeile bleibt unverändert; der Pool ist die Erstfassung. Ein
+  Katalogfeld dublette_von gibt es nicht (Kern § 5); die gleichnamige Spalte
+  in iqb-quellen.csv meint etwas anderes – eine Pooldatei, die wortgleich mit
+  einer anderen ist und deshalb keine Zeile bekommt (§ 4, § 7 Dubletten).
 - **Standardbezug vor Erwartungshorizont lesen? Nein.** Reihenfolge beim
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
   und Standardbezug. Die Schätzung wird nicht nachträglich an den Standardbezug

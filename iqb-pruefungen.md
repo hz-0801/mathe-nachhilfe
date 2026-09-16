@@ -2754,10 +2754,32 @@ iqb-bau.py liest abitur-vokabular.md und abitur-typen.csv, ein Typ zählt als ve
 wenn er in einem der beiden Kataloge steht; Abgleichläufe laufen über abgleich.py und
 ziehen abi-katalog.csv mit. 56 Typen werden in beiden Katalogen verwendet.
 
+**Themenfeld bereinigen – Lauf 13 (Entscheidung 26, 16.09.2026).** Acht
+iqb-Zeilen trugen ein anderes Thema als ihr Typ (2025-ga-A AGLAA22 1b
+Spiegelung, Stochastik 1 3b Hypergeometrische Verteilung, Stochastik 2 2b
+Zufallsexperimente; 2025-ea-A AGLAA22 1a Scharen; 2026-ga-B Stochastik WTR 1
+1a und 2022-ea-B Stochastik WTR 1 1e Binomialverteilung; 2025-ea-B
+Stochastik WTR 2 2b und WTR 3 2b Bedingte Wahrscheinlichkeit). Regel
+seitdem: Zeilenthema = Typthema, iqb-bau.py v1.1 erzwingt sie, der Schnitt
+wird über das Thema des Typs gezählt. Entscheidungen je Fall, die
+Nachrechnung der Teil-B-Reihen (grundlegend 7/3/2/2, erhöht 9/0/7/4/3,
+unverändert, keine Abbruchentscheidung kippt) und die Kern-Nachführung
+stehen in abi-pruefungen.md § 4. Im iqb-Bestand geändert: 8 Zeilen leitidee/
+thema aus dem Typ, 3 Folgezeilen dreier Typen, die das Thema wechseln
+(2019-ga-A Analysis 1 2b → Ableitung und Änderungsrate; 2026-ga-B AGLAA2 WTR
+2 1a → Punkte und Strecken; 2026-ea-A Stochastik 2 1b → Zufallsexperimente,
+Typ jetzt „Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm
+bestimmen"); drei Vermerke in bemerkung angepasst. Das Thema
+Hypergeometrische Verteilung behält vier Zeilen mit zwei eigenen Typen.
+Bestand: 1061 Zeilen, 875 Typen, 178
+Schnittwerte (146 in be-gk, 165 in bb-ea; vorher 180 nach Zeilenthema).
+Selbstprüfung bestanden, byteidentisch.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Abgleichlauf 13 (abgleich.py v0.13, Entscheidung 26): Zeilenthema = Typthema. iqb-katalog.csv: 8 Zeilen leitidee/thema aus dem Typ, 3 Folgezeilen gewechselter Typen, 1 Präfix (Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen → Term und Ereignis: …, Thema Kombinatorik → Zufallsexperimente und Urnenmodelle), 2 Themenwechsel ohne Umbenennung (Kleinste Tangentensteigung … → Ableitung und Änderungsrate; Ebene Figur: Trapez … → Punkte und Strecken im Koordinatensystem), 3 Vermerke in bemerkung. Typen 875 unverändert. iqb-bau.py v1.1 (Assert Zeilenthema = Typthema, Schnitt über Typthema, Handlungen aus Kern § 5), iqb.md v1.3. Teil-B-Reihen nachgerechnet und unverändert. Selbstprüfung bestanden, byteidentisch. Fälle und Kern-Nachführung in abi-pruefungen.md § 4. |
 | 2026-09-15 | Umstellungslauf 12 (abgleich.py v0.12, Entscheidung 25): iqb-typen.csv geht mit abi-typen.csv in abitur-typen.csv auf (938 → 875 Typen). Am iqb-Bestand geändert: drei Umbenennungen – Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen → Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen; Laplace-Experiment: Laplace-Wahrscheinlichkeit für den ersten Zug angeben → Laplace-Experiment: Laplace-Wahrscheinlichkeit als Anteil der günstigen Fälle angeben; Nullstellen und Werte: Nullstelle oder Schnittstelle mit einer waagerechten Geraden durch Einsetzen nachweisen → Nullstellen und Werte: Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen (5 Typfelder in 5 Zeilen); 20 Definitionen erweitert (abgleich.py NEUE_DEFINITION_12). Selbstprüfung bestanden (1061 Zeilen, 875 Typen, 56 in beiden Katalogen), byteidentisch. Bericht in abi-pruefungen.md § 4. |
 | 2026-09-15 | Weg A vorbereitet (Entscheidung 25): iqb.md v1.2 – § 5–6 nach abitur-vokabular.md (Themenliste, Geltung, Klassen, Handlungen, Rechnerfassung), § 2 abitur-typen.csv und abgleich.py, § 7 Pool-Teilaufgaben in Landesheften, § 9 Zusammenführung entschieden; iqb-bau.py v1.0; abgleich.py v0.12 (vorher iqb-abgleich.py). Katalog unverändert. |
 | 2026-09-15 | Typenlisten abi und iqb verglichen (Messung, nichts geändert): abi-iqb-typen.md – 146 abi-Typen gegen 792 iqb-Typen, Klassen (a) 53, (b) 66, (c) 27; auf der Schnittebene liegen 104 von 113 abi-Zeilen auf iqb-Schnittwerten (52 von 60 Werten bekannt, 8 neu, 4 Klassenentscheidungen offen); Aufwand Weg A (gemeinsame Typenliste, 77 Zeilen per Skript umetikettiert) gegen Weg B (Stark-Hefte ins alte Gerüst); Empfehlung Weg A vor dem ersten Stark-Heft. Entscheidung beim Lehrer. |

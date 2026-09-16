@@ -1,9 +1,16 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.0 · 15.09.2026 · gilt mit katalog-prompt.md v0.3, abitur-vokabular.md v1.0 und iqb.md v1.2
+Version 1.1 · 16.09.2026 · gilt mit katalog-prompt.md v0.4, abitur-vokabular.md v1.1 und iqb.md v1.3
 
 Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" bleibt unverändert.
+
+Änderungen gegenüber 1.0 (Entscheidung des Lehrers, 16.09.2026: Themenfeld
+bereinigen): leitidee und thema einer Zeile müssen gleich leitidee und thema
+ihres Typs in abitur-typen.csv sein (geprüft für ZEILEN und in der
+Selbstprüfung für den Bestand); der Schnitt Thema × Klasse × Handlung wird
+über das Thema des Typs gemessen (Lauf 13 von abgleich.py hat den Bestand
+darauf gebracht).
 
 Änderungen gegenüber 0.9 (Entscheidung 25, 15.09.2026: gemeinsame Typenliste
 für abi und iqb): Sachgebiete, Themen, Geltungstabelle, Gegenstandsklassen und
@@ -270,20 +277,21 @@ def klassen():
 
 
 def handlungen():
-    """Handlung je format-Wert aus abitur-vokabular.md § 5 (Tabelle „format | Handlung")."""
-    profil = abschnitt(lies(VOKABULAR), "Handlungen", VOKABULAR)
-    m = re.search(r"^\| format \| Handlung \|\s*\n\|[-| ]+\|\s*\n((?:\|.*\|\s*\n)+)", profil, re.M)
+    """Handlung je format-Wert aus dem Kern § 5 (Tabelle „format | Handlung"; bis Kern v0.3 in
+    abitur-vokabular.md § 5)."""
+    kern = abschnitt(lies(KERN), "Felder", KERN)
+    m = re.search(r"^\| format \| Handlung \|\s*\n\|[-| ]+\|\s*\n((?:\|.*\|\s*\n)+)", kern, re.M)
     if not m:
-        sys.exit(f"{VOKABULAR}: Tabelle der Handlungen nicht gefunden.")
+        sys.exit(f"{KERN}: Tabelle der Handlungen nicht gefunden.")
     tab = {}
     for zeile in m.group(1).strip().splitlines():
         zellen = [c.strip() for c in zeile.strip().strip("|").split("|")]
         if len(zellen) != 2:
-            sys.exit(f"{VOKABULAR}: Handlungszeile hat {len(zellen)} Zellen: {zeile}")
+            sys.exit(f"{KERN}: Handlungszeile hat {len(zellen)} Zellen: {zeile}")
         tab[zellen[0]] = zellen[1]
     fehlt = sorted(VOK["format"] - set(tab))
     if fehlt:
-        sys.exit(f"{VOKABULAR}: format-Werte ohne Handlung: {fehlt}")
+        sys.exit(f"{KERN}: format-Werte ohne Handlung: {fehlt}")
     return tab
 
 
@@ -301,6 +309,19 @@ def pruefe_typname(typ, thema, a, wo):
           f"{wo}: Typ „{typ}“ braucht ein Präfix aus {KLASSEN[thema]} (Thema {thema})")
     else:
         a(k == "", f"{wo}: Typ „{typ}“ trägt ein Präfix, Thema {thema} führt keine Klassen")
+
+
+# typ → (leitidee, thema) aus abitur-typen.csv und NEUE_TYPEN; füllt main(). Seit v1.1
+# (Lauf 13) trägt jede Zeile leitidee und thema ihres Typs, der Schnitt liest sie hier.
+TYP_THEMA = {}
+
+
+def pruefe_thema(z, a):
+    """Zeilenthema = Typthema (abitur-vokabular.md § 4, Entscheidung 16.09.2026)."""
+    if z["typ"] in TYP_THEMA:
+        a(TYP_THEMA[z["typ"]] == (z["leitidee"], z["thema"]),
+          f"{z['id']}: leitidee/thema ({z['leitidee']}, {z['thema']}) weichen vom Typ ab "
+          f"{TYP_THEMA[z['typ']]}")
 
 
 HEAD, VOK, LEITIDEEN, THEMEN = vokabular()
@@ -565,6 +586,8 @@ def main():
     _, alt_kat = lade(KAT, HEAD)
     _, alt_typ = lade(TYP, TYP_HEAD)
     alt = [dict(zip(HEAD, r)) for r in alt_kat]
+    TYP_THEMA.update({r[0]: (r[1], r[2]) for r in alt_typ})
+    TYP_THEMA.update({t[0]: (t[1], t[2]) for t in NEUE_TYPEN if len(t) == 5})
     # andere Kataloge derselben Typenliste (Entscheidung 25): ids und verwendete Typen
     andere = [dict(zip(HEAD, r)) for p in ANDERE_KATALOGE for r in lade(p, HEAD)[1]]
     andere_ids = {z["id"] for z in andere}
@@ -587,6 +610,7 @@ def main():
             for t in typen_von(z):
                 benutzt.add(t)
                 a(t in typ_namen, f"{z['id']}: Typ nicht in {TYP}: {t}")
+            pruefe_thema(z, a)
         a(not (typ_namen - benutzt), f"Typen unbenutzt: {sorted(typ_namen - benutzt)}")
         ids = {z["id"] for z in alt}
         a(len(ids) == len(alt), "doppelte id im Katalog")
@@ -705,6 +729,7 @@ def main():
         for t in typen_von(z):
             verwendet.add(t)
             a(t in typ_namen, f"{z['id']}: Typ nicht in {TYP}: {t}")
+        pruefe_thema(z, a)
         for dep in [s for s in z["abhaengig_von"].split("|") if s]:
             a(dep in neue_ids or dep in alt_ids, f"{z['id']}: abhaengig_von zeigt ins Leere: {dep}")
     alle_verwendet = set(verwendet) | andere_typen
@@ -795,9 +820,10 @@ def main():
             im_niveau |= typen_von(z)
     wieder = verwendet & im_niveau
     # Schnitt Thema × Gegenstandsklasse × Handlung (abitur-vokabular.md § 4): Werte des Stapels,
-    # davon schon in einem Stapel desselben Niveaus vorhanden
+    # davon schon in einem Stapel desselben Niveaus vorhanden; Thema ist das des Typs (v1.1)
     def schnitt(z):
-        return (z["thema"], klasse_von(z["typ"]), HANDLUNG.get(z["format"].split("|")[0], "?"))
+        return (TYP_THEMA.get(z["typ"], ("", z["thema"]))[1], klasse_von(z["typ"]),
+                HANDLUNG.get(z["format"].split("|")[0], "?"))
     schnitt_alt = {schnitt(z) for z in alt
                    if kennung_aus_id(z["id"])[0] in QUELLE
                    and QUELLE[kennung_aus_id(z["id"])[0]]["niveau"] == niveau}

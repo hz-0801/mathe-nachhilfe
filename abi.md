@@ -1,5 +1,10 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.8 · 15.09.2026 · Kennung abi · gilt mit Kern v0.3 (Schema-Version 2)
+Version 0.9 · 16.09.2026 · Kennung abi · gilt mit Kern v0.4 (Schema-Version 2)
+Änderungen gegenüber 0.8 (Auftrag „Themenfeld bereinigen, dann Stark-Heft 2023
+erfassen"): § 6 Regel Zeilenthema = Typthema (abi-bau.py v0.4 erzwingt sie,
+Lauf 13), Handlungen im Kern § 5; § 7 dublette_von klargestellt (Spalte von
+iqb-quellen.csv, kein Katalogfeld; Zeilenverweis „Dublette von:" in
+bemerkung).
 Änderungen gegenüber 0.7 (Entscheidung 25, Auftrag „Weg A umsetzen"): § 5–6
 Sachgebiete und Themenliste nach abitur-vokabular.md, hier nur Verweis und
 Lücken; Typenschnitt nach Entscheidung 24 auch für abi; § 2 gemeinsame
@@ -197,8 +202,9 @@ abitur-vokabular.md § 1 (gemeinsam mit dem Profil iqb, Entscheidung 25).
 
 ## 6 Themenliste, Geltung, Schnitt
 
-Themenliste, Geltungstabelle (be-gk, be-lk, bb-gk, bb-ea), Gegenstandsklassen
-und Handlungen stehen in abitur-vokabular.md § 2–5; abi-bau.py liest sie dort.
+Themenliste, Geltungstabelle (be-gk, be-lk, bb-gk, bb-ea) und
+Gegenstandsklassen stehen in abitur-vokabular.md § 2–4, die Handlung je
+format im Kern § 5; abi-bau.py liest sie dort.
 Bis v0.7 stand die Themenliste hier (46 Themen); die gemeinsame Liste hat 49
 (dazu Matrizen und Übergangsprozesse, Konfidenzintervalle, Lineare
 Gleichungssysteme auch unter Analytische Geometrie), die Abweichungen der
@@ -206,7 +212,11 @@ beiden Fassungen sind in abitur-vokabular.md § 7 festgehalten. Seit dem
 Umstellungslauf 12 (15.09.2026) gilt für abi der Typenschnitt nach
 Entscheidung 24: Typen in Themen mit Gegenstandsklassen tragen die Klasse als
 Präfix („Ebene Figur: …"), der Schnitt Thema × Gegenstandsklasse × Handlung
-ist die Einheit für den Blattbau, der Typ das Feinetikett.
+ist die Einheit für den Blattbau, der Typ das Feinetikett. **Zeilenthema =
+Typthema** (16.09.2026, abitur-vokabular.md § 4): leitidee und thema einer
+Zeile sind die ihres Typs, abi-bau.py erzwingt das; wer bei einer Zeile ein
+anderes Thema für richtig hält, wechselt den Typ oder meldet den Typ für den
+Abgleichlauf. Der Schnitt wird über das Thema des Typs gezählt.
 
 **Bekannte Lücken** (Feldprobe 2018-bb-ea und die Hefte 2017/2018): relative
 Abweichung in Prozent, elementargeometrische Nebenrechnungen (Sechseck),
@@ -229,8 +239,12 @@ Themen belegt.
   dass die id in iqb-katalog.csv steht und typ übereinstimmt; bei anderer
   Punktzahl nennt bemerkung die BE. Die Zeile trägt die Fakten des
   Landeshefts (Seite, BE, Wortlaut der Aufgabe), afb_amtlich darf aus der
-  Poolzeile übernommen werden. Ein eigenes Feld dublette_von gibt es im Kern
-  nicht; die Markierung ersetzt es.
+  Poolzeile übernommen werden. Ein Katalogfeld dublette_von gibt es nicht
+  (Kern § 5, 37 Felder); die Markierung in bemerkung ist der Verweis.
+  dublette_von ist allein eine Spalte von iqb-quellen.csv und sagt, dass eine
+  Pooldatei wortgleich mit einer anderen ist (Datei → Datei, keine Zeile) –
+  ein anderer Sachverhalt als die Pool-Teilaufgabe im Landesheft, die eine
+  eigene Zeile bekommt.
 - **Trägerbindung** wie im Profil iqb (iqb.md § 7): feste Markierung
   „Traegerbindung: Kontext" am Anfang von bemerkung, kein eigenes Feld.
 - **Qualitätsschranke im Skript** (abi-bau.py v0.3, SCHWELLEN wie iqb-bau.py):

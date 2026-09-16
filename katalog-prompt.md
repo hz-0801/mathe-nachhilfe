@@ -1,7 +1,7 @@
 # KATALOG-PROMPT – KERN
-Version 0.3 · 05.09.2026 · Schema-Version 2
+Version 0.4 · 16.09.2026 · Schema-Version 2 (unverändert seit 0.3; 0.4 zieht nur Text nach: Vokabular auslagerbar, Etikettenänderungen im Abgleichlauf, Handlung je format in § 5)
 
-Dieser Kern gilt zusammen mit genau einem Profil (<kennung>.md im selben Repo). Das Profil nennt die Prüfung, ihre Quellen, ihren Aufbau, die Kürzel und die Themenliste; der Kern regelt die Methode. Widersprechen sich beide, gilt das Profil. Der Lehrer nennt das Profil zu Beginn („Profil msa"); fehlt die Angabe, fragst du danach.
+Dieser Kern gilt zusammen mit genau einem Profil (<kennung>.md im selben Repo). Das Profil nennt die Prüfung, ihre Quellen, ihren Aufbau, die Kürzel und die Themenliste; der Kern regelt die Methode. Widersprechen sich beide, gilt das Profil. Ein Profil darf sein Vokabular (Leitideen, Themenliste, Gegenstandsklassen, Geltung) in eine eigene Datei auslagern und darauf verweisen; mehrere Profile dürfen eine solche Datei und eine Typenliste teilen (abi und iqb: abitur-vokabular.md, abitur-typen.csv). Wo dieser Kern „im Profil" sagt, ist dann die Vokabulardatei gemeint. Der Lehrer nennt das Profil zu Beginn („Profil msa"); fehlt die Angabe, fragst du danach.
 
 ## 0 Ziel
 
@@ -52,6 +52,19 @@ Inhalt: leitidee (genau eine aus dem Profil); thema (genau eines aus der Themenl
 
 Form: format (Ankreuzen; Kurzantwort; Rechnung; Begründung; Zeichnen; Konstruieren; Tabelle; Eintragen); operator (Verben wörtlich, z. B. Berechnen Sie|Begründen Sie); antwort (Zahl; Term; Text; Grafik; Kreuz; Tabelle).
 
+Handlung: Der erste Wert von format bestimmt die Handlung, mit der ein Profil Zeilen für den Blattbau bündelt (Schnitt Thema × Gegenstandsklasse × Handlung, Profile abi und iqb). Die Zuordnung ist fest und liegt hier, weil format Kernvokabular ist; Bau-Skripte lesen die Tabelle.
+
+| format | Handlung |
+|---|---|
+| Rechnung | berechnen |
+| Begründung | begründen |
+| Kurzantwort | angeben |
+| Ankreuzen | angeben |
+| Tabelle | angeben |
+| Zeichnen | zeichnen |
+| Eintragen | zeichnen |
+| Konstruieren | zeichnen |
+
 Material: material (keins; Figur; Körper; Koordinatensystem; Diagramm; Tabelle; Skizze; Foto); skizze (Beschreibung, aus der sich jede Abbildung nachzeichnen lässt – Art, Elemente, Beschriftungen, Werte, Lage; „keine", wenn es keine gibt); kontext (kurz, z. B. Einkauf/Rabatt, Bauwesen, Glücksspiel; „ohne" bei reiner Mathematik); textumfang (kurz bis zwei Zeilen; mittel bis sechs; lang).
 
 Struktur: gegeben (eigene Worte mit allen konkreten Werten); gesucht; verfahren (Lösungsweg in ein bis zwei Sätzen); schritte (Zahl der Rechenschritte); zahlenraum (ganz; dezimal; Bruch; negativ; Prozent; Potenz; Wurzel); einheiten; abhaengig_von.
@@ -62,11 +75,13 @@ Deutung: niveau_geschaetzt (I reproduzieren; II Zusammenhänge herstellen; III v
 
 Ein unsicherer Wert in irgendeinem Feld trägt ein „?" am Ende und einen Grund in bemerkung.
 
+Markierungen in bemerkung statt eigener Felder: Das Schema hat kein Feld für Dubletten oder Trägerbindung. Wiederholt eine Zeile eine Aufgabe, die in einem anderen Katalog derselben Typenliste schon steht (wortgleich, gleicher typ), beginnt bemerkung mit „Dublette von: <id>." und die Zeile trägt den typ der ersten Fassung; das Bau-Skript des Profils prüft den Verweis. Wo eine Quellenliste eines Profils Dateien als wortgleich führt (iqb-quellen.csv, Spalte dublette_von), ist das eine Eigenschaft der Datei, nicht der Zeile – solche Dateien bekommen gar keine Zeile. Trägerbindung an einen Kontext steht als „Traegerbindung: Kontext" am Anfang von bemerkung (Profile abi und iqb).
+
 ## 6 Vokabular in drei Ebenen
 
-Leitidee und Thema sind fest und stehen im Profil; du wählst zu und erfindest nichts. Passt kein Thema, nimmst du das nächstliegende und meldest den Fall im Bericht.
+Leitidee und Thema sind fest und stehen im Profil oder in der Vokabulardatei, auf die das Profil verweist; du wählst zu und erfindest nichts. Passt kein Thema, nimmst du das nächstliegende und meldest den Fall im Bericht. Ob das Thema einer Zeile dem Thema ihres Typs folgen muss oder davon abweichen darf, regelt das Profil (abi und iqb: gleich, abitur-vokabular.md § 4; fhr: Punkt-Schwerpunkt, fhr.md § 6).
 
-Typ ist eine Fertigkeit, die man als Einheit übt, benannt als Gegenstand plus Handlung: Grundwert berechnen; Pythagoras Hypotenuse; Wahrscheinlichkeit zweistufig unabhängig; Scheitelpunkt ablesen. typen.csv hat die Felder typ;leitidee;thema;definition;beispiel_id;status. Verwende ein vorhandenes Etikett, wenn die Fertigkeit dieselbe ist – Kontext, Zahlen und Format ändern den Typ nicht. Trenne, wenn der Lösungsweg ein anderer ist. Lege einen neuen Typ nur an, wenn kein vorhandener die Fertigkeit trifft; benenne ihn nach dem Muster der Liste, ohne Synonyme, mit einem Satz Definition, der Kennung der ersten Fundstelle und status „neu". Änderungen an bestehenden Etiketten schlägst du im Bericht vor und führst sie nicht selbst aus.
+Typ ist eine Fertigkeit, die man als Einheit übt, benannt als Gegenstand plus Handlung: Grundwert berechnen; Pythagoras Hypotenuse; Wahrscheinlichkeit zweistufig unabhängig; Scheitelpunkt ablesen. typen.csv hat die Felder typ;leitidee;thema;definition;beispiel_id;status. Verwende ein vorhandenes Etikett, wenn die Fertigkeit dieselbe ist – Kontext, Zahlen und Format ändern den Typ nicht. Trenne, wenn der Lösungsweg ein anderer ist. Lege einen neuen Typ nur an, wenn kein vorhandener die Fertigkeit trifft; benenne ihn nach dem Muster der Liste, ohne Synonyme, mit einem Satz Definition, der Kennung der ersten Fundstelle und status „neu". Änderungen an bestehenden Etiketten – Umbenennen, Zusammenziehen, Definition oder Thema eines Typs ändern – gehören nicht in den Heftlauf: dort schlägst du sie im Bericht vor. Ausgeführt werden sie im Abgleichlauf (Abschnitt 9), über ein Skript, das die Typenliste und alle Zeilen aller Kataloge dieser Liste zugleich umstellt und die Liste alt → neu ausgibt.
 
 Die Häufigkeit eines Typs ist Auskunft, keine Priorität: Ein einziges Vorkommen ist ein vollwertiger Typ.
 
@@ -84,4 +99,4 @@ Danach nichts weiter. Das nächste Heft kommt auf „weiter".
 
 ## 9 Abgleichlauf
 
-Auf „abgleich", nach dem letzten Heft: Alle Zeilen beider Dateien gegen die dann gültige typen.csv prüfen und Etiketten vereinheitlichen – anhand von gegeben, gesucht, verfahren und stichwoerter, ohne die Hefte zu öffnen. Ausgabe: die geänderten Zeilen als Liste alt → neu, dann die Dateien. Fakten werden dabei nicht verändert.
+Auf „abgleich", nach dem letzten Heft: Alle Zeilen beider Dateien gegen die dann gültige typen.csv prüfen und Etiketten vereinheitlichen – anhand von gegeben, gesucht, verfahren und stichwoerter, ohne die Hefte zu öffnen. Hier, und nur hier, werden Umbenennungen, Zusammenziehungen und Änderungen an Definition oder Thema eines Typs ausgeführt (Abschnitt 6), über ein Skript, das bei geteilter Typenliste alle Kataloge mitzieht. Ausgabe: die geänderten Zeilen als Liste alt → neu, dann die Dateien. Fakten werden dabei nicht verändert.

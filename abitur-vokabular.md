@@ -1,16 +1,17 @@
-# VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Handlungen, Geltung
-Version 1.0 · 15.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+# VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
+Version 1.1 · 16.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
 
 Diese Datei ist die eine Quelle für alles, was abi und iqb an Vokabular
 oberhalb des Typs teilen: Sachgebiet (§ 1), Themenliste (§ 2),
-Geltungstabelle (§ 3), Gegenstandsklassen (§ 4), Handlungen (§ 5) und die
-Regeln der gemeinsamen Typenliste abitur-typen.csv (§ 6). abi-bau.py, iqb-bau.py
-und abgleich.py lesen sie; abi.md und iqb.md verweisen hierher und führen
-nur, was profilspezifisch ist. Der Kern (katalog-prompt.md) bleibt
-unverändert: er sagt, dass Leitidee und Thema „im Profil" stehen – für abi
-und iqb steht beides hier, das Profil verweist darauf. Bis zum 15.09.2026
-standen Themenliste und Klassen in abi.md § 5–6 und iqb.md § 5–6 doppelt;
-die Fassung von iqb.md war die jüngere und ist hier übernommen, die
+Geltungstabelle (§ 3), Gegenstandsklassen mit der Regel Zeilenthema =
+Typthema (§ 4) und die Regeln der gemeinsamen Typenliste abitur-typen.csv
+(§ 6); die Handlung je format steht seit Kern v0.4 im Kern § 5 (§ 5 hier
+verweist nur). abi-bau.py, iqb-bau.py und abgleich.py lesen sie; abi.md und
+iqb.md verweisen hierher und führen nur, was profilspezifisch ist. Der Kern
+(katalog-prompt.md v0.4) sieht die ausgelagerte Vokabulardatei vor: wo er
+„im Profil" sagt, ist für abi und iqb diese Datei gemeint. Bis zum
+15.09.2026 standen Themenliste und Klassen in abi.md § 5–6 und iqb.md § 5–6
+doppelt; die Fassung von iqb.md war die jüngere und ist hier übernommen, die
 Abweichungen stehen in § 7.
 
 ## 1 Sachgebiete
@@ -226,9 +227,22 @@ berechnen"); der Typ nach Kern § 6 bleibt als Feinetikett dahinter erhalten.
 Unterklassen bekommen nur Themen, die mehrere Gegenstände bündeln; Themen,
 die selbst schon der Gegenstand sind, führen keine (Typname ohne
 Doppelpunkt). Die Zuordnung eines Typs richtet sich nach dem Thema in
-abitur-typen.csv, nicht nach dem Thema der einzelnen Zeile. Die Bau-Skripte prüfen,
-dass jeder Typ eines Themas mit Klassen ein gültiges Präfix trägt und jeder
-andere keines.
+abitur-typen.csv. Die Bau-Skripte prüfen, dass jeder Typ eines Themas mit
+Klassen ein gültiges Präfix trägt und jeder andere keines.
+
+**Zeilenthema = Typthema** (Entscheidung des Lehrers, 16.09.2026): leitidee
+und thema einer Zeile sind leitidee und thema ihres Typs (des ersten Typs,
+typ). Tragen Zeile und Typ verschiedene Themen, ist eines von beiden falsch –
+entweder gehört die Zeile zu einem anderen Typ, oder der Typ ist im falschen
+Thema abgelegt; beides wird im Abgleichlauf entschieden, nicht durch ein
+abweichendes Zeilenthema. Beide Bau-Skripte erzwingen die Gleichheit (für
+neue Zeilen und in der Selbstprüfung für den Bestand), abgleich.py prüft sie
+nach jedem Lauf; der Schnitt wird über das Thema des Typs gemessen. Bis zum
+Lauf 13 (16.09.2026) trugen 21 Zeilen ein anderes Thema als ihr Typ, und der
+Schnitt hing davon ab, welche Spalte gezählt wurde (189 gegen 183 Werte);
+die Fälle stehen in abi-pruefungen.md § 4. Anders im Profil fhr, das bei
+mehrleistigen Zeilen das Thema nach dem Punkt-Schwerpunkt wählt (fhr.md § 6);
+für abi und iqb ist der Schwerpunkt die erste Leistung, also der Typ.
 
 | Thema | Gegenstandsklassen |
 |---|---|
@@ -259,19 +273,11 @@ Abgleichlauf, wenn ein Thema einen weiteren Gegenstand bekommt.
 
 ## 5 Handlungen
 
-Die Handlung des Schnitts kommt aus dem ersten Wert des Feldes format (Kern
-§ 5). Die Bau-Skripte lesen diese Tabelle.
-
-| format | Handlung |
-|---|---|
-| Rechnung | berechnen |
-| Begründung | begründen |
-| Kurzantwort | angeben |
-| Ankreuzen | angeben |
-| Tabelle | angeben |
-| Zeichnen | zeichnen |
-| Eintragen | zeichnen |
-| Konstruieren | zeichnen |
+Die Handlung des Schnitts kommt aus dem ersten Wert des Feldes format. Die
+Zuordnung format → Handlung (berechnen, begründen, angeben, zeichnen) steht
+seit dem 16.09.2026 im Kern § 5 (katalog-prompt.md v0.4), weil format
+Kernvokabular ist; die Bau-Skripte lesen die Tabelle dort. Hier steht sie
+nicht mehr, damit es keinen Doppelstand gibt.
 
 ## 6 Gemeinsame Typenliste abitur-typen.csv
 
@@ -305,3 +311,9 @@ den Umstellungslauf 12 (abi-iqb-typen.md, konzept.md Entscheidung 25).
   Geltungstabelle stand in iqb.md, obwohl sie Zielprüfungen des Profils abi
   beschreibt; hier ist sie beiden Profilen zugänglich. Lesart der Klassen um
   die vier Fälle des Umstellungslaufs ergänzt (§ 4).
+- 2026-09-16 (v1.1, Auftrag „Themenfeld bereinigen"): Regel Zeilenthema =
+  Typthema in § 4, Schnitt über das Thema des Typs; Handlungstabelle in den
+  Kern § 5 verschoben (§ 5 verweist); Kopf an Kern v0.4 angepasst
+  (Vokabulardatei ist im Kern vorgesehen). Der Typ „Term und Ereignis:
+  Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen" gehört seit
+  Lauf 13 zur Klasse Term und Ereignis (Ergänzen eines Terms ist Aufstellen).

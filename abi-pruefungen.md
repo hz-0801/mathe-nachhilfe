@@ -392,12 +392,110 @@ aus" ist seit den Abgleichläufen durch CLAUDE.md überschrieben (Skript mit
 Regeln, Liste alt → neu); die Handlungsklassen (format → Handlung) gehören
 inhaltlich neben Kern § 5, stehen aber im Vokabular; der Kern-Standardname
 „typen.csv" ist vom Profil msa belegt, deshalb abitur-typen.csv. Nichts
-davon verändert den Kern.
+davon verändert den Kern. *(Nachtrag 16.09.2026: Kern v0.4 zieht die drei
+Punkte nach, siehe unten.)*
+
+**Themenfeld bereinigen – Abgleichlauf 13 (Auftrag des Lehrers, 16.09.2026,
+Entscheidung 26; abgleich.py v0.13, abi-bau.py v0.4, iqb-bau.py v1.1,
+abitur-vokabular.md v1.1, Kern v0.4).** Anlass: 21 Zeilen (13 abi, 8 iqb)
+trugen ein anderes Thema als ihr Typ; die Skripte zählten den Schnitt mit dem
+Zeilenthema, also 189 statt 183 Werte im Gesamtbestand. Regel seitdem:
+Zeilenthema = Typthema, geprüft in beiden Bau-Skripten (neue Zeilen und
+Bestand) und in abgleich.py nach jedem Lauf; der Schnitt wird über das Thema
+des Typs gemessen.
+
+*Die 21 Fälle mit Entscheidung* (Z = Zeile folgt dem Typ, T = Typ wechselt das
+Thema, Zeilen folgen):
+
+| Zeile | Zeilenthema bisher | Typ (Thema des Typs) | Entscheidung |
+|---|---|---|---|
+| 2018-bb-ea-A1.2b | Orthogonalität | Ebene Figur: Benachbarte Ecke eines Quadrats … (Punkte und Strecken) | Z – Quadratfragen liegen laut Lesart § 4 unter Punkte und Strecken; die iqb-Zeile derselben Aufgabe steht dort |
+| 2018-bb-ea-B2.1b | Funktionsscharen und Ortskurven | Nullstellen und Werte: Schnittpunkt mit der y-Achse und Steigung … (Funktionsklassen) | Z – erste Leistung ist der y-Achsenschnitt, die Schar ist Kontext; Scharparameter steht in typ_neben |
+| 2018-bb-ea-B2.1d | Kurvenuntersuchung | Parameterwerte nach der Anzahl der Extrempunkte … (Funktionsscharen) | Z – Parameterbereiche einer Schar |
+| 2018-bb-ea-B3.2c | Linearkombination und lineare Abhängigkeit | Lage eines Punktes zu einem Vektorterm im Quader beschreiben (Vektoren und Rechenoperationen) | Z – Ortsvektorterm auswerten, keine Frage nach Darstellbarkeit oder Abhängigkeit |
+| 2018-bb-ea-B4.1c | Binomialverteilung | Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben (Zufallsexperimente) | Z – wie zwölf iqb-Zeilen desselben Typs; der Binomialterm ist Gegenstand, nicht Thema |
+| 2017-bb-ea-B2.1e | Rekonstruktion von Funktionsgleichungen | Scharparameter aus einer Nullstelle und einem Flächeninhalt bestimmen (Funktionsscharen) | Z – Zusammenziehung M3 aus Lauf 12; die Zeile hätte dort schon folgen müssen |
+| 2017-bb-ea-B2.2e | Analysis / Gleichungen lösen | Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen (Analytische Geometrie / Geraden) | Z – auch leitidee wechselt: gleiche Fertigkeit wie 2019-ga-A AGLAA22 a (Richtungsvektor normieren, Vielfaches ansetzen); die Teilaufgabe steht in der Analysis-Aufgabe Straßenverlauf, Vermerk in bemerkung. Strittig: die einzige Zeile, bei der das Sachgebiet der Aufgabenstellung vom Typ abweicht |
+| 2017-bb-ea-B4.2a | Zufallsgrößen und Verteilungen | Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen (Baumdiagramm) | Z – bemerkung sagte selbst „thema folgt dem ersten Typ"; dazu stand der Typ noch einmal in typ_neben (gestrichen) |
+| 2017-bb-ea-B4.2c | Bedingte Wahrscheinlichkeit und Bayes | Fehlenden Anteil im Baumdiagramm aus einer Randwahrscheinlichkeit berechnen (Baumdiagramm) | Z – Pfadsumme gleich Randwahrscheinlichkeit ist Pfadregel, keine Bedingung; drei iqb-Zeilen liegen dort |
+| 2018-be-gk-B1.2f | Ableitung und Änderungsrate | Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen (Tangente, Normale, Schnittwinkel) | T → Ableitung und Änderungsrate – die Fertigkeit ist der Extremwert von f′ (Gefälle größer als 22,2 %); die Tangente ist nur die Wortwahl der Poolaufgabe. iqb-Zeile 2019MgrundlegendAAnalysis12-b folgt |
+| 2018-be-gk-B2.1c | Lagebeziehungen | Existenz eines Geradenschnittpunkts über die gemeinsame Ebene begründen (Geraden) | Z – Klassenentscheidung (3) aus Lauf 12, Zeile war nicht nachgezogen |
+| 2018-be-gk-B2.2b | Punkte und Strecken im Koordinatensystem | Ebene Figur: Trapez über parallele Seiten nachweisen und Flächeninhalt berechnen (Flächeninhalt und Volumen im Raum) | T → Punkte und Strecken – die feste Leistung ist der Nachweis über kollineare Seitenvektoren, der Flächeninhalt kommt „wenn verlangt" (die abi-Zeile verlangt ihn nicht); Klasse Ebene Figur gibt es in beiden Themen, kein Umbenennen. iqb-Zeile 2026MgrundlegendBAGLAA2WTR2-1a folgt |
+| 2018-be-gk-B3.1e | Zufallsexperimente und Urnenmodelle | Unbekannte Größe aus einer Erwartungswertbedingung bestimmen (Kenngrößen von Verteilungen) | Z – elf Zeilen desselben Typs liegen unter Kenngrößen |
+| 2025MgrundlegendAAGLAA221-b | Spiegelung | Punkt mit vorgegebenem Abstand zur Ebene auf der Lotgeraden bestimmen (Abstände) | Z – der Spiegel ist Kontext, gerechnet wird der Abstand auf der Lotgeraden wie in 2026-ea-A und 2024-ea-A |
+| 2025MgrundlegendAStochastik13-b | Hypergeometrische Verteilung | Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben (Zufallsexperimente) | Z – Vermerk „Erste Fundstelle des Themas Hypergeometrische Verteilung" ersetzt; das Thema behält vier Zeilen mit zwei eigenen Typen |
+| 2025MgrundlegendAStochastik22-b | Zufallsexperimente und Urnenmodelle | Unbekannte Größe aus einer Erwartungswertbedingung bestimmen (Kenngrößen) | Z – wie 2018-be-gk-B3.1e |
+| 2025MerhoehtAAGLAA221-a | Scharen von Geraden und Ebenen | Punktprobe an einer Geraden durchführen (Geraden) | Z – bemerkung nannte selbst „gleicher Lösungsweg, hier mit Scharparameter"; Vermerk angepasst. Folge: die Zeile gilt jetzt auch für be-gk und bb-gk |
+| 2026MgrundlegendBStochastikWTR1-1a | Binomialverteilung | Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen (Kombinatorik) | T → Zufallsexperimente und Urnenmodelle mit Präfix „Term und Ereignis:" – das Ergänzen eines Terms ist Aufstellen eines Wahrscheinlichkeitsterms (Lesart § 4), ob mit Binomialkoeffizienten oder Anordnungszahl; Kombinatorik als Thema hätte für die beiden Binomialterme nicht gestimmt. Beispielzeile 2026MerhoehtAStochastik21-b folgt |
+| 2022MerhoehtBStochastikWTR1-1e | Binomialverteilung | dito | T, wie oben |
+| 2025MerhoehtBStochastikWTR2-2b | Bedingte Wahrscheinlichkeit und Bayes | Verhältnis zweier Pfadwahrscheinlichkeiten im Baumdiagramm prüfen (Baumdiagramm) | Z – zwei Pfade berechnen und vergleichen, keine Bedingung |
+| 2025MerhoehtBStochastikWTR3-2b | Bedingte Wahrscheinlichkeit und Bayes | dito | Z, wortgleich mit WTR 2 2b |
+
+Bilanz: 18 Zeilen folgen ihrem Typ, drei Typen wechseln das Thema (mit drei
+weiteren iqb-Zeilen, die ihnen folgen), ein Präfix, keine Umbenennung
+sonst, 875 Typen unverändert. Feldkorrektur in 23 Zeilen (21 + zwei
+iqb-Zeilen der gewechselten Typen; 2018-be-gk-B1.2f und B2.2b behalten ihr
+Zeilenthema, weil der Typ zu ihnen kommt) und zusätzlich 2018-be-gk-B3.2a,
+wo der Typ ebenfalls doppelt in typ_neben stand – 24 Zeilen berührt. Fünf
+Vermerke in bemerkung angepasst.
+
+*Schnittwerte.* Gesamtbestand nach Lauf 13: 183 Werte (be-gk 149, bb-ea
+170), iqb allein 178 (146, 165), abi 58, davon 5 nicht im Pool. Vorher 189
+nach Zeilenthema und 183 nach Typthema – die sechs Werte Unterschied waren
+genau sechs Phantomwerte, die nur das Zeilenthema erzeugte (Binomialverteilung
+× Term und Ereignis × angeben; Funktionsscharen × Nullstellen und Werte ×
+angeben; Hypergeometrische Verteilung × Term und Ereignis × angeben;
+Lagebeziehungen × – × begründen; Orthogonalität × Ebene Figur × begründen;
+Zufallsexperimente × – × berechnen); umgekehrt gab es keinen Wert, den nur
+das Typthema kannte. Die Wertemenge nach Lauf 13 ist genau die Menge nach
+Typthema vor dem Lauf – die drei Typwechsel haben keinen Wert erzeugt oder
+gelöscht, weil ihre Zielwerte schon belegt waren. Nach der Bereinigung gibt
+es nur noch eine Zählweise.
+
+*Abbruchentscheidungen Teil B nachgerechnet* (schnitt_teilb2.py im
+Scratchpad, Erfassungsreihenfolge, neu im Bestand innerhalb der Geltung,
+Zielprüfung des Niveaus): grundlegend 7 / 3 / 2 / 2 (2026-, 2025-, 2024-,
+2023-ga-B), erhöht 9 / 0 / 7 / 4 / 3 (2026-, 2025-, 2024-, 2023-, 2022-ea-B)
+– Zeile für Zeile identisch mit der Reihe vom 14./15.09.2026, keine
+Entscheidung kippt; auch die Reihe nach Typthema auf dem alten Stand war
+schon dieselbe – beide Zählweisen liefern für jeden Teil-B-Stapel dieselben
+Zahlen. Zur Kontrolle auch mit den abi-Zeilen als Vorbestand gerechnet (was
+die Reihe nie tat): 5 / 2 / 2 / 2 und 6 / 0 / 6 / 3 / 3 – dieselben Stapel
+über und unter fünf.
+
+*Kern v0.4 (Punkt 3 des Auftrags).* Kopf: ein Profil darf sein Vokabular in
+eine Datei auslagern, mehrere Profile dürfen sie und eine Typenliste teilen,
+„im Profil" meint dann diese Datei. § 5: Tabelle format → Handlung (aus
+abitur-vokabular.md § 5 hierher, das Vokabular verweist nur noch; beide
+Bau-Skripte lesen sie jetzt aus dem Kern); Absatz „Markierungen in
+bemerkung" („Dublette von: <id>." und „Traegerbindung: Kontext", kein
+eigenes Feld). § 6: Leitidee und Thema „im Profil oder in der
+Vokabulardatei"; ob das Zeilenthema dem Typthema folgen muss, regelt das
+Profil (abi/iqb gleich, fhr Punkt-Schwerpunkt); Etikettenänderungen gehören
+nicht in den Heftlauf, sondern werden im Abgleichlauf (§ 9) per Skript
+ausgeführt. § 9 entsprechend. Schema-Version 2 unverändert, keine
+Feldänderung. **msa und fhr unberührt:** fhr-bau.py und
+fhr-typenbibliothek.py lesen katalog-prompt.md nicht (nur Versionsvermerk im
+Kopf), msa hat kein Skript; die Formliste in § 5 steht unverändert im selben
+Klammerausdruck; fhr.md § 6 behält seine Regel, dass thema bei mehrleistigen
+Zeilen dem Punkt-Schwerpunkt folgt – der Kern verweist jetzt ausdrücklich
+darauf; keine msa-/fhr-Datei geändert.
+
+*dublette_von (Punkt 4).* Befund: ein Katalogfeld dublette_von gibt es
+nirgends – nicht im Kern (37 Felder), nicht in einem Katalog. Das Wort
+bezeichnet allein eine Spalte von iqb-quellen.csv (Datei zeigt auf
+wortgleiche Datei, keine Zeile). Der Zeilenverweis einer Pool-Teilaufgabe im
+Landesheft ist die Markierung „Dublette von: <iqb-id>." in bemerkung. So
+stand es schon in abi.md § 7 und hier oben; iqb.md § 7 und CLAUDE.md § 4
+nannten die Spalte ohne die Abgrenzung, der Kern nannte gar nichts. Jetzt
+sagen Kern § 5, abi.md § 7, iqb.md § 7, CLAUDE.md § 2/§ 4 und dieser Eintrag
+dasselbe.
 
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Abgleichlauf 13 (abgleich.py v0.13, Entscheidung 26 „Themenfeld bereinigen"): Zeilenthema = Typthema. abi-katalog.csv: 11 Zeilen leitidee/thema aus dem Typ (2018-bb-ea A1.2b, B2.1b, B2.1d, B3.2c, B4.1c; 2017-bb-ea B2.1e, B2.2e [auch leitidee], B4.2a, B4.2c; 2018-be-gk B2.1c, B3.1e), 2 Zeilen behalten ihr Thema, weil der Typ wechselt (2018-be-gk B1.2f: „Kleinste Tangentensteigung …" → Ableitung und Änderungsrate; B2.2b: „Ebene Figur: Trapez …" → Punkte und Strecken); doppelte Nennung des typ in typ_neben gestrichen (2017-bb-ea B4.2a, 2018-be-gk B3.2a); Vermerke in bemerkung (B4.2a, B2.2e). iqb: 8 Zeilen plus 3 Folgezeilen, ein Präfix („Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen", Zufallsexperimente). Typen 875 unverändert; Schnitt 183 Werte (vorher 189 nach Zeilenthema), Teil-B-Reihen unverändert. abi-bau.py v0.4, iqb-bau.py v1.1 (Assert, Schnitt über Typthema, Handlungen aus dem Kern), Kern v0.4, abitur-vokabular.md v1.1, abi.md v0.9, iqb.md v1.3, konzept.md Entscheidung 26. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. |
 | 2026-09-15 | Umstellungslauf 12 (abgleich.py v0.12, Entscheidung 25): abi-typen.csv und iqb-typen.csv → abitur-typen.csv (938 → 875 Typen); 50 abi-Typen in inhaltsgleiche iqb-Typen aufgegangen, 2 gleichnamig, 11 überlappende Paare zusammengezogen (M1–M11, drei iqb-Umbenennungen), 15 Präfixe, 2 Themenwechsel; abi-katalog.csv 98 Typfelder in 75 Zeilen umetikettiert, iqb-katalog.csv 5 Typfelder in 5 Zeilen; Feldkorrektur „Dublette von:“ in 4 Zeilen (2018-bb-ea Teil 1 = Pool 2018 erhöht). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Bericht mit Klassenentscheidungen und strittigen Paaren in § 4. |
 | 2026-09-15 | Weg A vorbereitet (Entscheidung 25): abitur-vokabular.md v1.0 (Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen, Handlungen, Rechnerfassung – aus iqb.md und abi.md, Abweichungen in § 7); abgleich.py v0.12 (vorher iqb-abgleich.py, zwei Kataloge, Lauf 12); abi-bau.py v0.3 auf dem Stand von iqb-bau.py v1.0 (Präfixregel, Schwellen, Eichung, Vollständigkeit, Dublettenverweis, Trägerbindung, Kennzahlen; Zeilenblock geleert); iqb-bau.py v1.0 (Vokabular aus abitur-vokabular.md, gemeinsame Typenliste, Zeilenblock geleert); abi.md v0.8, iqb.md v1.2, CLAUDE.md, konzept.md Entscheidung 25, README.md. Katalog und Typen unverändert; läuft erst mit dem Umstellungslauf. |
 | 2026-09-15 | Typenlisten abi und iqb verglichen (Messung, nichts geändert): abi-iqb-typen.md – 146 abi-Typen gegen 792 iqb-Typen, Klassen (a) 53, (b) 66, (c) 27; auf der Schnittebene liegen 104 von 113 abi-Zeilen auf iqb-Schnittwerten (52 von 60 Werten bekannt, 8 neu, 4 Klassenentscheidungen offen); Aufwand Weg A (gemeinsame Typenliste, 77 Zeilen per Skript umetikettiert) gegen Weg B (Stark-Hefte ins alte Gerüst); Empfehlung Weg A vor dem ersten Stark-Heft. Entscheidung beim Lehrer. |

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.12 · 15.09.2026 · gilt mit abitur-vokabular.md v1.0, abi-bau.py v0.3 und iqb-bau.py v1.0
+Version 0.13 · 16.09.2026 · gilt mit abitur-vokabular.md v1.1, abi-bau.py v0.4 und iqb-bau.py v1.1
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -50,6 +50,11 @@ gehen in ihr inhaltsgleiches iqb-Gegenstück auf, 2 tragen denselben Namen,
 den Präfix, 2 wechseln das Thema; beide Kataloge werden umetikettiert
 (abi-iqb-typen.md, Bericht in abi-pruefungen.md § 4). Die Quelldateien
 iqb-typen.csv und abi-typen.csv entfallen.
+Lauf 13 (16.09.2026, Themenfeld bereinigen): Zeilenthema = Typthema. Ein
+Präfix (Term und Ereignis), drei Themenwechsel von Typen, Feldkorrektur
+leitidee/thema in 21 Zeilen plus Vermerke und ein doppeltes typ_neben; Typen
+unverändert (875). Seitdem prüft jeder Lauf, dass keine Zeile vom Thema ihres
+Typs abweicht.
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -773,6 +778,69 @@ def zeile_12(d):
     return True
 
 
+# ======================================================================= Lauf 13
+# Themenfeld bereinigen (Entscheidung des Lehrers, 16.09.2026): Zeilenthema und
+# Typthema müssen übereinstimmen, der Schnitt wird über das Thema des Typs
+# gemessen. 21 Zeilen (13 abi, 8 iqb) trugen ein anderes Thema als ihr Typ. Je
+# Fall entschieden (Bericht in abi-pruefungen.md § 4): bei 18 Zeilen folgt die
+# Zeile dem Typ (leitidee und thema aus abitur-typen.csv); drei Typen wechseln
+# das Thema, weil ihre Fertigkeit dort zu Hause ist, und ihre Zeilen folgen –
+# kleinste Tangentensteigung ist ein Extremwert der Ableitung (Ableitung und
+# Änderungsrate), der Trapeznachweis ist die feste Leistung, der Flächeninhalt
+# „wenn verlangt" (Punkte und Strecken, Klasse Ebene Figur bleibt), das Ergänzen
+# eines Wahrscheinlichkeitsterms ist Term und Ereignis (Zufallsexperimente und
+# Urnenmodelle, Präfix). Feldkorrektur: leitidee und thema jeder Zeile aus dem
+# Typ; vier Vermerke in bemerkung, die dem alten Thema folgten, angepasst; in
+# 2017-bb-ea-B4.2a stand der Typ noch einmal in typ_neben (gestrichen).
+PRAEFIX_13 = {"Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen": "Term und Ereignis"}
+NEUES_THEMA_13 = {
+    "Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen":
+        ("Analysis", "Ableitung und Änderungsrate"),
+    "Ebene Figur: Trapez über parallele Seiten nachweisen und Flächeninhalt berechnen":
+        ("Analytische Geometrie", "Punkte und Strecken im Koordinatensystem"),
+    "Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen":
+        ("Stochastik", "Zufallsexperimente und Urnenmodelle"),
+}
+BEMERKUNG_13 = {
+    "2025MgrundlegendAStochastik13-b": (
+        "Erste Fundstelle des Themas Hypergeometrische Verteilung.",
+        "Term hypergeometrisch (Quotient von Binomialkoeffizienten); Thema folgt dem Typ (Lauf 13)."),
+    "2025MerhoehtAAGLAA221-a": (
+        "Thema Scharen von Geraden und Ebenen (nicht für das grundlegende Niveau in BE und BB).",
+        "Geradenschar nur als Kontext; Thema folgt dem Typ (Lauf 13)."),
+    "2026MgrundlegendBStochastikWTR1-1a": (
+        "Typ wiederverwendet (2026-ea-A; Thema hier Binomialverteilung).",
+        "Typ wiederverwendet (2026-ea-A); Binomialterm, Thema folgt dem Typ (Lauf 13)."),
+    "2017-bb-ea-B4.2a": (
+        "Drei Ereignisse in einer Einheit; thema folgt dem ersten Typ.",
+        "Drei Ereignisse in einer Einheit, zwei davon Pfadprodukte (ein Typ); thema folgt dem Typ (Lauf 13)."),
+    "2017-bb-ea-B2.2e": (
+        "Eigene Rechnung.",
+        "Teilaufgabe der Analysis-Aufgabe Straßenverlauf; leitidee und thema folgen dem Typ (Lauf 13). Eigene Rechnung."),
+}
+TYP_THEMA = {}  # typ → (leitidee, thema) nach dem Lauf, füllt main()
+
+
+def zeile_13(d):
+    """leitidee und thema der Zeile aus dem Typ; Vermerke und typ_neben bereinigen."""
+    war = False
+    if d["id"] in BEMERKUNG_13:
+        alt, neu = BEMERKUNG_13[d["id"]]
+        if alt not in d["bemerkung"]:
+            sys.exit(f"{d['id']}: Vermerk nicht gefunden: {alt}")
+        d["bemerkung"] = d["bemerkung"].replace(alt, neu)
+        war = True
+    neben = [t for t in d["typ_neben"].split("|") if t and t != d["typ"]]
+    if "|".join(neben) != d["typ_neben"]:
+        d["typ_neben"] = "|".join(neben)
+        war = True
+    leitidee, thema = TYP_THEMA[d["typ"]]
+    if (d["leitidee"], d["thema"]) != (leitidee, thema):
+        d["leitidee"], d["thema"] = leitidee, thema
+        war = True
+    return war
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -786,8 +854,10 @@ LAEUFE = {
     10: ({}, ZUSAMMEN_10, NEUE_DEFINITION_10, {}),
     11: ({}, ZUSAMMEN_11, NEUE_DEFINITION_11, {}),
     12: (PRAEFIX_12, ZUSAMMEN_12, NEUE_DEFINITION_12, NEUES_THEMA_12),
+    13: (PRAEFIX_13, {}, {}, NEUES_THEMA_13),
 }
-FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)]}
+FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
+                 13: [("*", zeile_13)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -849,6 +919,7 @@ def main():
             r[1], r[2] = NEUES_THEMA[neu]
         gesehen[neu] = r
         neue_typen.append(r)
+    TYP_THEMA.update({r[0]: (r[1], r[2]) for r in neue_typen})
 
     # Kataloge: beide Typfelder, je Katalog
     geaendert, zeilen_geaendert, korrigiert, gestrichen, benutzt, alle_ids = {}, {}, 0, [], set(), set()
@@ -905,6 +976,13 @@ def main():
     fremd = sorted(benutzt - {t[0] for t in neue_typen})
     if fremd:
         sys.exit(f"Typen im Katalog, aber nicht in der Liste: {fremd}")
+    # Seit Lauf 13: leitidee und thema jeder Zeile sind die ihres Typs (die
+    # Bau-Skripte prüfen dasselbe; ein Lauf darf den Zustand nicht verlassen).
+    if LAUF >= 13:
+        abweichend = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
+                      if (r[kopf_k.index("leitidee")], r[kopf_k.index("thema")]) != TYP_THEMA[r[kopf_k.index("typ")]]]
+        if abweichend:
+            sys.exit(f"Zeilenthema ≠ Typthema nach dem Lauf: {abweichend}")
 
     schreibe(TYP, kopf_t, neue_typen)
     for p, kopf_k, kat in kataloge:
