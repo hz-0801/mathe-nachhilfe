@@ -849,6 +849,59 @@ Pool-Abgleich gegen 101 Poolzeilen, Rechnung der 31 Landeszeilen und zwei
 abgewandelten mit sympy, Erzeugen der 33 Dubletten, 33 Zeilen von Hand, 24
 Typen, Lauf, HEAD-Rerun und Selbstprüfung: etwa 70 Minuten, kein Rückschlag.
 
+**Abgleichlauf 17 nach den vier Stark-Heften (16.09.2026, Auftrag „Geltung
+klären, Reste schließen, vier Stark-Hefte erfassen", Punkt 5; abgleich.py
+v0.17).** Alle 84 neuen Typen der vier Hefte (2022-bebb-gk 33, 2025-bebb-gk 4,
+2022-bebb-lk 23, 2023-bebb-lk 24) per Ähnlichkeitssuche gegen die Liste
+gehalten, die Kandidaten an den Definitionen geprüft. Drei Zusammenziehungen
+mit neuem Namen (1090 → 1087 Typen; 5 abi-Zeilen und 1 iqb-Zeile umgestellt):
+„Ganzrationale Funktion dritten Grades aus Wert-, Steigungs- und
+Extrempunktbedingungen rekonstruieren" (2023-bebb-gk 2.2 k) + „… aus
+Nullstellen-, Steigungs- und Parallelitätsbedingungen rekonstruieren"
+(2022-bebb-lk 2.1 i) → „Ganzrationale Funktion dritten Grades aus Wert- und
+Steigungsbedingungen rekonstruieren" (Extrempunkt, Nullstelle, Parallelität
+sind Wert- und Steigungsbedingungen desselben Gleichungssystems);
+„Quadratische Funktion aus knickfreiem Übergang und einer Wertbedingung
+rekonstruieren" (2018-be-gk 1.1 e) + „Ganzrationale Funktion mit zwei
+Parametern aus einem Punkt und knickfreiem Übergang rekonstruieren"
+(2022-bebb-gk 2.2 k) → „Funktionsgleichung aus knickfreiem Übergang und einer
+Wertbedingung rekonstruieren"; „Fehler zweiter Art für einen selbst gewählten
+Anteil berechnen und mit einer Schranke vergleichen" (2024-ea-B) + „Fehler
+zweiter Art für zwei selbst gewählte Anteile berechnen und im Sachzusammenhang
+deuten" (2023-bebb-lk 4 j) → „Fehler zweiter Art für selbst gewählte Anteile
+berechnen und einordnen". Geprüft und getrennt gelassen: „Parabel ohne
+lineares Glied aus dem knickfreien Übergang begründen und Parameter aus einem
+Flächeninhalt berechnen" (Integralbedingung statt Wertbedingung), die
+Lösungsweg-Typen (Lotfußpunkt auf einer Geraden gegen Teilpunkt und
+Geradenschnitt), Raute gegen Drachenviereck, „mindestens einer von zwei
+unabhängigen Erfolgen" (Baumdiagramm) gegen „wenigstens ein Treffer"
+(Bernoulli-Kette). Selbstprüfung beider Bau-Skripte bestanden (abi 448
+Zeilen, iqb 1206, 1087 Typen, 199 in beiden Katalogen).
+
+*Über die vier Hefte.* Typenzuwachs GK gegen LK: 2022-bebb-gk 33 neue von 60
+verwendeten (55 %), 2025-bebb-gk 4 von 43 (9 %), 2022-bebb-lk 23 von 66
+(35 %), 2023-bebb-lk 24 von 68 (35 %). Die Spanne liegt zwischen den
+Grundkursheften, nicht zwischen den Niveaus: sie folgt der Poolquote (39 %,
+80 %, 45 %, 48 % der angebotenen BE) und dem Umfang der Landesaufgaben – 2025
+hat nur die Windrad-Aufgabe, 2022-gk ergänzt jede Poolaufgabe um eigene
+Teilaufgaben, die beiden LK-Hefte tragen je eine ganze Landesaufgabe 2.1
+(Funktionenschar, 13 Zeilen) und Zusätze. Je Landeszeile liegt der Zuwachs
+bei 33 von 49 (2022-gk), 4 von 5 (2025-gk), 23 von 36 (2022-lk), 24 von 33
+(2023-lk) – GK 67 % und 80 %, LK 64 % und 73 %: kein systematischer
+Unterschied im Zuwachs je Landeszeile, nur in der Menge der Landeszeilen (GK
+49 und 5, LK 36 und 33) und in ihren Themen (LK: Scharen). Zeilen der
+LK-Hefte außerhalb der Geltung der Grundkurse (be-gk): 22 von 68 (2022) und 25
+von 66 (2023), zusammen 47 von 134 (35 %); gegen bb-gk 22 und 23 (die
+hypergeometrische Verteilung von 2023 4 k–l gilt dort). Träger sind
+Funktionsscharen und Ortskurven (14 und 15), Scharen von Geraden und Ebenen
+(4 und 6), Hypothesentests (2 und 2), Uneigentliche Integrale (1, 2022) und
+Hypergeometrische Verteilung (2, 2023, nur be-gk). Die Erwartung des Auftrags
+trifft zu: Funktionenscharen und Ebenenscharen stehen im erhöhten Niveau
+innerhalb der Geltung und machen dort den Kern des Landesanteils aus; in den
+Grundkursheften 2022–2025 kommt kein Scharthema vor (0 Zeilen außerhalb der
+Heftgeltung). Neue Schnittwerte im Gesamtbestand: 0, 0, 0, 2 (beide aus
+2023-bebb-lk 2.1); Gesamtbestand 188 Werte.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1257,6 +1310,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Abgleichlauf 17 nach den vier Stark-Heften: drei Zusammenziehungen mit neuem Namen – „Ganzrationale Funktion dritten Grades aus Wert-, Steigungs- und Extrempunktbedingungen rekonstruieren“ + „… aus Nullstellen-, Steigungs- und Parallelitätsbedingungen rekonstruieren“ → „Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren“; „Quadratische Funktion aus knickfreiem Übergang und einer Wertbedingung rekonstruieren“ + „Ganzrationale Funktion mit zwei Parametern aus einem Punkt und knickfreiem Übergang rekonstruieren“ → „Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren“; „Fehler zweiter Art für einen selbst gewählten Anteil berechnen und mit einer Schranke vergleichen“ + „Fehler zweiter Art für zwei selbst gewählte Anteile berechnen und im Sachzusammenhang deuten“ → „Fehler zweiter Art für selbst gewählte Anteile berechnen und einordnen“. Typenliste 1090 → 1087, 5 abi-Zeilen umgestellt. Selbstprüfung beider Bau-Skripte bestanden. |
 | 2026-09-16 | Heft 2023-bebb-lk erfasst (erhöht, Geltung be-lk oder bb-ea): 66 Zeilen aus 12 Aufgaben (1.1–1.8, 2.1 a–m, 2.2 a–n, 3 a–k, 4 a–l), Katalog 448 Zeilen, Typenliste 1090 (24 neu). Alle Punktsummen geprüft (8 × 5, 50, 50, 40, 40), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Pool 33 von 66 Zeilen, 105 von 220 BE (48 %), 2 abgewandelt (3 e, 3 g); Dubletten aus den Poolzeilen erzeugt. Zwei neue Schnittwerte (Gleichungen lösen · zeichnen, Rekonstruktion · begründen); 25 Zeilen außerhalb der Geltung der Grundkurse; 4 k und 4 l (hypergeometrisch) nur über bb-ea in Geltung. Eichung 27 von 33, alle geerbt. Seite 13 unscharf, über Poolzeilen und Soll gesichert. |
 | 2026-09-16 | Heft 2022-bebb-lk erfasst (erstes erhöhtes Niveau seit 2018, Geltung be-lk oder bb-ea): 68 Zeilen aus 12 Aufgaben (1.1–1.8, 2.1 a–m, 2.2 a–o, 3 a–k, 4 a–m), Katalog 382 Zeilen, Typenliste 1066 (23 neu). Alle Punktsummen geprüft (8 × 5, 50, 50, 40, 40), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Pool 32 von 68 Zeilen, 100 von 220 BE (45 %), 1 abgewandelt (4 g); Dubletten aus den Poolzeilen erzeugt. Kein neuer Schnittwert; 22 Zeilen außerhalb der Geltung der Grundkurse. **abi-bau.py v0.8:** Eichschwelle zählt nur eigene Schätzungen – Dubletten mit der Schätzung ihrer Poolzeile sind im Pool geeicht (hier 27 von 32 geerbt, 84 %, fünf Abweichungen der Poolzeilen; Schätzungen geprüft und unverändert, iqb.md § 7); Kennzahl Eichung nennt weiter alle gewerteten Zeilen und weist geerbte aus. |
 | 2026-09-16 | Heft 2025-bebb-gk erfasst: 39 Zeilen aus 13 Aufgaben (1.1–1.9, 2.1, 2.2 a–g, 3, 4), Katalog 314 Zeilen, Typenliste 1043 (4 neu). Alle Punktsummen geprüft (9 × 5, 25, 25, 15, 15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 34 von 34. Pool 34 von 39 Zeilen, 100 von 125 BE (80 %): der ganze hilfsmittelfreie Teil, 2.2, 3 und 4; nur 2.1 (Windrad) Landesaufgabe. Kein neuer Schnittwert. Dubletten-Zeilen aus den Poolzeilen erzeugt (dubletten.py). |

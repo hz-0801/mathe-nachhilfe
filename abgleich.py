@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.16 · 16.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.7 und iqb-bau.py v1.3
+Version 0.17 · 16.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.3
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -71,6 +71,12 @@ Lauf 16 (16.09.2026, Reste schließen): 2018-be-gk 3.2 f → „Dublette von:"
 Stochastik WTR 2 f; fünf Teil-B-Zeilen von 2018-be-gk (2.2 a, b, 3.2 b, c, d)
 in niveau_geschaetzt auf die enge Fassung nachgezogen (Wert der wortgleichen
 Poolzeile); Typen unverändert (1006).
+Lauf 17 (16.09.2026, Abgleich nach den vier Stark-Heften 2022-bebb-gk,
+2025-bebb-gk, 2022-bebb-lk, 2023-bebb-lk): drei Zusammenziehungen mit neuem
+Namen – Steckbriefaufgabe dritten Grades (Bedingungsarten stehen in der
+Zeile), Rekonstruktion aus knickfreiem Übergang (quadratisch oder mit zwei
+Parametern), Fehler zweiter Art für selbst gewählte Anteile (Schranke oder
+Deutung); 1090 → 1087.
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -998,6 +1004,50 @@ def zeile_16(d):
     return war
 
 
+# ======================================================================= Lauf 17
+# Nach den vier Stark-Heften des Auftrags „Geltung klären, Reste schließen,
+# vier Stark-Hefte erfassen" (2022-bebb-gk, 2025-bebb-gk, 2022-bebb-lk,
+# 2023-bebb-lk): Etiketten der Hefte gegen die Liste gehalten (Ähnlichkeits-
+# suche über alle neuen Typen der vier Hefte, dann Definitionen verglichen).
+# Drei Paare tragen dieselbe Fertigkeit unter verschiedenen Bedingungslisten:
+# (1) Steckbriefaufgabe dritten Grades – Extrempunkt, Nullstelle, Parallelität
+# sind Wert- und Steigungsbedingungen desselben LGS (2023-bebb-gk, 2022-bebb-lk);
+# (2) Rekonstruktion aus knickfreiem Übergang und Wertbedingung – quadratisch
+# (2018-be-gk) oder mit zwei Parametern (2022-bebb-gk), derselbe Ansatz;
+# (3) Fehler zweiter Art für selbst gewählte Anteile – Vergleich mit einer
+# Schranke (2024-ea-B) oder Deutung im Sachzusammenhang (2023-bebb-lk), die
+# erste Leistung ist dieselbe. Nicht zusammengezogen: „Parabel ohne lineares
+# Glied … aus einem Flächeninhalt" (2023-bebb-lk, Integralbedingung), die
+# Lösungsweg-Typen (verschiedene Wege), Raute/Drachenviereck.
+ZUSAMMEN_17 = {
+    "Ganzrationale Funktion dritten Grades aus Wert-, Steigungs- und Extrempunktbedingungen rekonstruieren":
+        "Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren",
+    "Ganzrationale Funktion dritten Grades aus Nullstellen-, Steigungs- und Parallelitätsbedingungen rekonstruieren":
+        "Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren",
+    "Quadratische Funktion aus knickfreiem Übergang und einer Wertbedingung rekonstruieren":
+        "Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren",
+    "Ganzrationale Funktion mit zwei Parametern aus einem Punkt und knickfreiem Übergang rekonstruieren":
+        "Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren",
+    "Fehler zweiter Art für einen selbst gewählten Anteil berechnen und mit einer Schranke vergleichen":
+        "Fehler zweiter Art für selbst gewählte Anteile berechnen und einordnen",
+    "Fehler zweiter Art für zwei selbst gewählte Anteile berechnen und im Sachzusammenhang deuten":
+        "Fehler zweiter Art für selbst gewählte Anteile berechnen und einordnen",
+}
+NEUE_DEFINITION_17 = {
+    "Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren":
+        "Aus dem allgemeinen Ansatz dritten Grades die vier Koeffizienten über ein lineares Gleichungssystem aus "
+        "Wert- und Steigungsbedingungen bestimmen; Punkte, Nullstellen, Extrempunkte (Wert und Ableitung null) und "
+        "Parallelität zu einer Geraden (gleiche Steigung) sind solche Bedingungen, welche vorliegen, steht in der Zeile.",
+    "Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren":
+        "Aus der Forderung, dass zwei Graphen an einer Stelle ohne Knick ineinander übergehen (gleicher Funktionswert, "
+        "gleicher Anstieg), und einer weiteren Wertbedingung die Parameter einer Ansatzfunktion (quadratisch oder mit zwei "
+        "Parametern wie a · x⁴ + b · x²) über ein Gleichungssystem bestimmen.",
+    "Fehler zweiter Art für selbst gewählte Anteile berechnen und einordnen":
+        "Für einen oder mehrere selbst gewählte Anteile, bei denen die Nullhypothese falsch ist, die Wahrscheinlichkeit "
+        "des Annahmebereichs berechnen und das Ergebnis einordnen – gegen eine Schranke oder als Fehlentscheidung im "
+        "Sachzusammenhang; was verlangt ist, steht in der Zeile.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1015,6 +1065,7 @@ LAEUFE = {
     14: ({}, {}, {}, {}),
     15: ({}, {}, {}, {}),
     16: ({}, {}, {}, {}),
+    17: ({}, ZUSAMMEN_17, NEUE_DEFINITION_17, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)]}
