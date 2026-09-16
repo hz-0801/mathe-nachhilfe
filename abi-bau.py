@@ -349,6 +349,7 @@ MARKE_DUBLETTE = re.compile(r"Dublette von: (" + KENNUNG.pattern + r")")
 # noch nicht erfasst ist; die Kennung ist die voraussichtliche iqb-id. Wird zum
 # „Dublette von:", sobald der Stapel erfasst ist (abgleich.py).
 MARKE_POOL_OFFEN = re.compile(r"Poolaufgabe \(nicht erfasst(, abgewandelt)?\): (" + KENNUNG.pattern + r")")
+OFFENE_POSTEN = []  # Vermerke, deren Poolzeile inzwischen erfasst ist (Ausgabe am Ende, kein Abbruch)
 
 
 def pool_stand(z, andere):
@@ -480,8 +481,9 @@ def pruefe_zeile(z, a, andere, heftkennung=True):
         a(mo is not None, f"{i}: „Poolaufgabe (nicht erfasst …):“ ohne gültige Pool-Kennung in bemerkung")
     if mo:
         a(b.startswith("Poolaufgabe (nicht erfasst"), f"{i}: Vermerk „Poolaufgabe (nicht erfasst …)“ muss am Anfang von bemerkung stehen")
-        a(mo.group(2) not in andere,
-          f"{i}: Poolzeile {mo.group(2)} ist erfasst – Vermerk durch „Dublette von:“ ersetzen (abgleich.py)")
+        # Übergangszustand (abi.md § 7): erfasste Poolzeile heißt offener Posten, kein Fehler
+        if mo.group(2) in andere:
+            OFFENE_POSTEN.append(f"{i}: Poolzeile {mo.group(2)} ist erfasst – Vermerk mit abgleich.py in „Dublette von:“ umstellen")
         a(m is None, f"{i}: „Dublette von:“ und „Poolaufgabe (nicht erfasst)“ zugleich")
     for k, v in z.items():
         a("?" not in v or k == "bemerkung" or z["bemerkung"].strip() != "",
@@ -605,6 +607,11 @@ def main():
         # Poolquote je Heft (v0.5): Kennzahl für abi-pruefungen.md § 2
         for h in hefte:
             print(f"Poolquote {h}: {poolquote([z for z in alt if z['papier'] == h], andere)}")
+        offen = sum(1 for z in alt if pool_stand(z, andere) in ("offen", "abgewandelt"))
+        print(f"Offene Posten (Poolaufgabe (nicht erfasst …)): {offen} Zeilen"
+              + (f", davon {len(OFFENE_POSTEN)} mit inzwischen erfasster Poolzeile:" if OFFENE_POSTEN else ""))
+        for o in OFFENE_POSTEN:
+            print("  -", o)
         print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
               "(Häufigkeit in Klammern):")
         liste = umschrift_liste(alt)
@@ -660,6 +667,7 @@ def main():
         pruefe_thema(z, a)
         for dep in [s for s in z["abhaengig_von"].split("|") if s]:
             a(dep in neue_ids or dep in alt_ids, f"{z['id']}: abhaengig_von zeigt ins Leere: {dep}")
+    warnung += OFFENE_POSTEN
     alle_verwendet = set(verwendet) | andere_typen
     for z in alt:
         alle_verwendet |= typen_von(z)

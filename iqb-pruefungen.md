@@ -39,7 +39,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2018-ga-A | 12 | **erfasst 2026-09-14, 25 Zeilen** · 17 Typen neu, 8 wiederverwendet · Eichung 23 von 25 (Liste v0.7) |
 | 2018-ea-A | 12 | **erfasst 2026-09-14, 26 Zeilen** · 21 Typen neu, 5 wiederverwendet · Eichung 25 von 26 (Liste v0.7) |
 | 2017-ga-A | 10 | entfällt – Teil A nach dem Abbruchkriterium ausgereizt (§ 4, 14.09.2026); Reserve |
-| 2017-ea-A | 11 | entfällt – Reserve (§ 4) |
+| 2017-ea-A | 11 | **erfasst 2026-09-16, 23 Zeilen – wegen Landesheftverweisen** (2017-bb-ea Teil 1; Reserve geöffnet, Abbruchkriterium unberührt) · 10 Typen neu, 16 wiederverwendet · Eichung 22 von 23 |
 | bsp-ga-A | 16 (12 + 4 Dubletten) | entfällt – Reserve (§ 4) |
 | bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
 | 2026-ga-B (WTR) | 7 von 14 (MMS-Zweig unten) | **Probestapel erfasst 2026-09-14, 45 Zeilen** · 32 Typen neu, 10 wiederverwendet · Eichung 44 von 45 (Liste v0.7) · Messung in § 4 |
@@ -99,6 +99,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2019-ea-A | 20 | 20 | 15 (75 %) | 20 von 20 (100 %), Liste v0.7 | 0 | 0 | 3 von 20 (15 %); Schnitt 15 Werte, 16 von 20 Zeilen bekannt (80 %) | 4, 4, 4, 4 | 0 |
 | 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 | 0 |
 | 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 | 4 |
+| 2017-ea-A | 23 | 26 | 10 (38 %) | 22 von 23 (96 %) | 0 | 0 | 7 von 26 (27 %); Schnitt 18 Werte, 23 von 23 Zeilen bekannt (100 %) | 2, 2, 2, 2 | 6 |
 | 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 | 0 |
 | 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 | 0 |
 | 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 | 0 |
@@ -2778,10 +2779,35 @@ Bestand: 1061 Zeilen, 875 Typen, 178
 Schnittwerte (146 in be-gk, 165 in bb-ea; vorher 180 nach Zeilenthema).
 Selbstprüfung bestanden, byteidentisch.
 
+**Stapel 2017-ea-A – Reserve geöffnet wegen der Landesheftverweise
+(Entscheidung des Lehrers, 16.09.2026; kein Widerruf des Abbruchs, das
+Abbruchkriterium Teil A bleibt ausgereizt).** 11 Dateien, 23 Zeilen, 26
+Typen verwendet, 10 neu (38 %), 16 wiederverwendet – darunter die sechs
+Etiketten, die das Landesheft 2017-bb-ea seinen wortgleichen Teilaufgaben
+gegeben hatte (Nullstelle durch Logarithmieren; Gleichschenkligkeit des
+Achsendreiecks; Dreiecksfläche aus Spurpunkten; Normalenvektor als
+Ortsvektor; Umlegen zwischen Urnen; Erwartungswertbedingung). Eichung 22 von
+23 (96 %); einzige Abweichung Stochastik 2 b (faires Spiel, geschätzt II,
+amtlich III) – der dritte Beleg für „faires Spiel als Erwartungswert gleich
+Einsatz“ mit III gegen zwei mit II, die Streichung aus der Deutungsliste
+steht damit 2 : 2 und bleibt, bis ein weiterer Fall kommt. Schnitt: 18 Werte,
+**kein neuer Wert im Gesamtbestand** (weder gegen iqb noch gegen iqb + abi),
+alle 23 Zeilen auf bekannten Werten des erhöhten Niveaus; die Reihen aus Teil
+A und Teil B sind unberührt (Erfassungsreihenfolge, der Stapel steht am Ende;
+grundlegend 7/3/2/2, erhöht 9/0/7/4/3 nachgerechnet). Außerhalb der Geltung
+nur AG/LA (A1) 1.2 (Matrizen). Befund am Pooltext: Analysis 1.2 nennt n(t) =
+3t² − 60t + 500, die Textextraktion liefert die Vorzeichen vertauscht – am
+gerenderten Blatt geprüft (Lehre: Formeln aus Pooldateien nur am Bild lesen).
+In Landesheften: 6 Zeilen (2017-bb-ea Teil 1 vollständig), beim Lauf als
+vorgemerkt gemeldet; die Umstellung der Vermerke folgt im Abgleichlauf 15.
+Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte
+bestanden (1084 Zeilen, 923 Typen, 30 Stapel).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Stapel 2017-ea-A erfasst (Reserve geöffnet wegen Landesheftverweisen, Abbruchkriterium unberührt): 23 Zeilen aus 11 Dateien, Katalog 1084 Zeilen, Typenliste 923 (10 neu). Alle Punktsummen geprüft (11 × 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 22 von 23 (96 %). Kein neuer Schnittwert im Gesamtbestand. 6 Zeilen in 2017-bb-ea vorgemerkt. |
 | 2026-09-16 | Kennzahl „in Landesheften“ je Stapel (iqb-bau.py v1.2): Spalte in der Kennzahlentabelle § 2 (2018-ea-A 4, 2023-ga-A 4, 2023-ga-B-wtr 7, sonst 0), in der Kennzahlenzeile jedes Stapellaufs und in der Selbstprüfung (dazu die vorgemerkten Zeilen nicht erfasster Stapel); beim Stapellauf Hinweis auf vorgemerkte Zeilen. Selbstprüfung bestanden. |
 | 2026-09-16 | Pool-Abgleich des abi-Bestands (abgleich.py Lauf 14, Bericht in abi-pruefungen.md § 4): 17 abi-Zeilen stellen Poolaufgaben aus nicht erfassten Stapeln (2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2) und tragen die Vormerkung „Poolaufgabe (nicht erfasst): <id>“. iqb-katalog.csv unverändert; iqb.md § 7 (v1.4): Vormerkung und Umstellung beim Stapellauf. Die Stapel bleiben Reserve, bis der Lehrer entscheidet. |
 | 2026-09-16 | Gemeinsame Typenliste durch das abi-Heft 2023-bebb-gk gewachsen: 875 → 913 Typen (38 neu, alle mit beispiel_id im abi-Katalog), 69 Typen in beiden Katalogen (vorher 56; 19 iqb-Typen im Landesheft wiederverwendet, davon 11 als Pool-Dubletten mit Verweis auf 2023-ga-A Analysis 1.2, AG/LA A2 1.2 und 2023-ga-B Stochastik WTR 3). iqb-katalog.csv unverändert, Selbstprüfung bestanden. Bericht in abi-pruefungen.md § 4. |
