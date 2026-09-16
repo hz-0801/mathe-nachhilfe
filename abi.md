@@ -1,5 +1,8 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.12 · 16.09.2026 · Kennung abi · gilt mit Kern v0.5 (Schema-Version 2)
+Version 0.13 · 16.09.2026 · Kennung abi · gilt mit Kern v0.5 (Schema-Version 2)
+Änderungen gegenüber 0.12 (Heft 2022-bebb-lk): § 7 Eichschwelle nur über
+eigene Schätzungen, geerbte Schätzungen der Dubletten sind im Pool geeicht
+(abi-bau.py v0.8).
 Änderungen gegenüber 0.11 (Auftrag „Geltung klären, Reste schließen, vier
 Stark-Hefte erfassen"): § 6 Geltung je Heft, gemeinsame Hefte bebb gegen
 beide Zielprüfungen (abi-bau.py v0.7); § 2 erste erhöhte Hefte im Bestand
@@ -293,7 +296,13 @@ Themen belegt.
   Zeilen mit „?" höchstens 10 % (mindestens 2), Zeilen mit „ersatzweise"
   höchstens 10 % (mindestens 2), Eichung mindestens 85 % der Zeilen mit
   amtlichem Bereich, scharf ab 10 gewerteten Zeilen; die Hefte bis 2018 haben
-  keinen amtlichen Bereich. Ein Heft ist vollständig, wenn jede Aufgabe aus
+  keinen amtlichen Bereich. Seit v0.8 (Heft 2022-bebb-lk) zählt die Eichschwelle
+  nur eigene Schätzungen: eine Dublette, die die Schätzung ihrer Poolzeile
+  trägt, ist im Pool schon geeicht (iqb-pruefungen.md § 4) und würde im Heft
+  nur die zufällige Teilmenge des Pools noch einmal messen; die Kennzahl
+  Eichung je Heft nennt weiter alle gewerteten Zeilen und weist die geerbten
+  aus. Die Schätzung selbst wird nie an den Standardbezug angepasst (iqb.md
+  § 7). Ein Heft ist vollständig, wenn jede Aufgabe aus
   KONFIG["soll"] Zeilen hat und jede Punktsumme stimmt; probe = True prüft,
   ohne zu schreiben.
 

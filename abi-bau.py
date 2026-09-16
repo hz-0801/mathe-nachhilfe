@@ -1,9 +1,20 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.7 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.2 und abi.md v0.12
+Version 0.8 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.2 und abi.md v0.13
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" und unter „AB HIER UNVERÄNDERT" bleibt unverändert.
+
+Änderungen gegenüber 0.7 (Heft 2022-bebb-lk, 16.09.2026): Die Eichschwelle
+zählt nur eigene Schätzungen. Eine Dublette, die die Schätzung ihrer Poolzeile
+trägt, ist dort schon gemessen (Eichung des Stapels in iqb-pruefungen.md); sie
+für die Schwelle des Hefts noch einmal zu zählen, misst nichts Neues, sondern
+nur die zufällige Teilmenge des Pools, die das Heft übernimmt (2022-bebb-lk:
+27 von 32 geerbten Zeilen, 84 %, alle fünf Abweichungen in der Poolzeile
+vermerkt). Die Kennzahl Eichung je Heft nennt weiter alle gewerteten Zeilen
+und weist die geerbten aus; die Schwelle greift bei mindestens zehn eigenen
+gewerteten Zeilen. Die Schätzung selbst bleibt unverändert (keine
+nachträgliche Anpassung an den Standardbezug, iqb.md § 7).
 
 Änderungen gegenüber 0.6 (Auftrag „Geltung klären, Reste schließen, vier
 Stark-Hefte erfassen", 16.09.2026): Geltung je Heft – ein Heft wird gegen die
@@ -75,17 +86,18 @@ import csv, io, os, re, sys
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2025",
-    "papier": "2025-bebb-gk",
-    "datei": "hefte/2025-bebb-gk.pdf",  # Stark-Band, Scan, lokal (abi.md § 2)
-    "seiten": 8,
+    "jahr": "2022",
+    "papier": "2022-bebb-lk",
+    "datei": "hefte/2022-bebb-lk.pdf",  # Stark-Band, Scan, lokal (abi.md § 2)
+    "seiten": 15,
     # Sollpunkte je Aufgabe aus der BE-Spalte; jede Aufgabe des Hefts muss hier
     # stehen (Vollständigkeit). Kein Gesamtsoll: Wahlaufgaben 2.1/2.2. Der
-    # hilfsmittelfreie Teil (Aufgabe 1) zählt als 1.1 bis 1.9 in Heftreihenfolge
-    # (1.1–1.3 Pflicht, 1.4–1.6 = Wahlaufgaben 1, 1.7–1.9 = Wahlaufgaben 2); 2.2
-    # hat zwei Aufgabenteile, fortlaufend a–g (Aufgabenteil 2 a–c = e–g).
-    "soll": {"1.1": 5, "1.2": 5, "1.3": 5, "1.4": 5, "1.5": 5, "1.6": 5, "1.7": 5, "1.8": 5, "1.9": 5,
-             "2.1": 25, "2.2": 25, "3": 15, "4": 15},
+    # hilfsmittelfreie Teil (Aufgabe 1, 40 BE) zählt als 1.1 bis 1.8 in
+    # Heftreihenfolge (Analysis 1–4, Analytische Geometrie 1–2, Stochastik 1–2).
+    # 2.2 hat zwei Aufgabenteile, fortlaufend a–o (Aufgabenteil 2 a–g = i–o);
+    # 4 hat drei Aufgabenteile, fortlaufend a–m (2 a–b = g–h, 3 a–e = i–m).
+    "soll": {"1.1": 5, "1.2": 5, "1.3": 5, "1.4": 5, "1.5": 5, "1.6": 5, "1.7": 5, "1.8": 5,
+             "2.1": 50, "2.2": 50, "3": 40, "4": 40},
     "probe": False,
 }
 
@@ -110,7 +122,8 @@ SCHWELLEN = {
     "fragezeichen_anteil": 0.10, "fragezeichen_mindestens": 2,
     "neue_typen_anteil": None, "neue_typen_ab_bestand": 100,
     "ersatzweise_anteil": 0.10, "ersatzweise_mindestens": 2,
-    # Eichung gegen den amtlichen Bereich, ab dieser Zahl gewerteter Zeilen scharf.
+    # Eichung gegen den amtlichen Bereich, ab dieser Zahl eigener gewerteter Zeilen
+    # scharf; geerbte Schätzungen der Dubletten zählen nicht (v0.8).
     "eichung_mindestens": 0.85, "eichung_ab_zeilen": 10,
 }
 
@@ -347,9 +360,10 @@ def row(**kw):
 #       fehlerquelle="...", bemerkung="Eigene Rechnung.")
 # Pool-Teilaufgabe in einem Landesheft: bemerkung beginnt mit
 #   „Dublette von: 2024MgrundlegendAAnalysis12-a." – typ und typ_neben wie dort.
-# Der Block ist leer; zuletzt erfasst: 2025-bebb-gk (16.09.2026, 39 Zeilen, 4 neue
+# Der Block ist leer; zuletzt erfasst: 2022-bebb-lk (16.09.2026, 68 Zeilen, 23 neue
 # Typen, KONFIG oben; Lauf aus dem HEAD-Stand byteidentisch). Die Hefte 2017-bb-ea,
-# 2018-bb-ea, 2018-be-gk, 2022-bebb-gk, 2023-bebb-gk, 2024-bebb-gk und 2025-bebb-gk stehen im Katalog.
+# 2018-bb-ea, 2018-be-gk, 2022-bebb-gk, 2022-bebb-lk, 2023-bebb-gk, 2024-bebb-gk und
+# 2025-bebb-gk stehen im Katalog.
 
 NEUE_TYPEN = [
     # ("Typname", "Sachgebiet", "Thema", "Definition in einem Satz.", "beispiel_id"),
@@ -558,13 +572,21 @@ def geschaetzt_eng(z):
     return m.group(1) if m else z["niveau_geschaetzt"]
 
 
-def eichung(zeilen, eng=False):
+def geerbt(z, andere):
+    """Dublette, die die Schätzung ihrer Poolzeile trägt (v0.8): dort schon geeicht."""
+    m = MARKE_DUBLETTE.search(z["bemerkung"])
+    return bool(m and m.group(1) in andere
+                and andere[m.group(1)]["niveau_geschaetzt"] == z["niveau_geschaetzt"])
+
+
+def eichung(zeilen, eng=False, andere=None):
     """Trefferquote der Schätzung gegen den amtlichen Bereich. Rückgabe: Treffer,
-    Abweichungen, Zahl der gewerteten Zeilen (nur Zeilen mit amtlichem Bereich)."""
+    Abweichungen, Zahl der gewerteten Zeilen (nur Zeilen mit amtlichem Bereich).
+    Mit andere (Poolzeilen) werden geerbte Schätzungen (Dubletten) übergangen (v0.8)."""
     treffer, abw, gewertet = 0, [], 0
     for z in zeilen:
         amt = amtlich_von(z)
-        if not amt:
+        if not amt or (andere is not None and geerbt(z, andere)):
             continue
         gewertet += 1
         wert = geschaetzt_eng(z) if eng else z["niveau_geschaetzt"]
@@ -747,10 +769,12 @@ def main():
         a(anteil <= SCHWELLEN["neue_typen_anteil"],
           f"Schwelle gerissen: {len(neu & verwendet)} von {len(verwendet)} verwendeten Typen neu "
           f"({100 * anteil:.0f} %), erlaubt {100 * SCHWELLEN['neue_typen_anteil']:.0f} %")
-    treffer_eng, abw_eng, gew = eichung(ZEILEN, eng=True)
+    # Eichschwelle nur über eigene Schätzungen; geerbte Schätzungen der Dubletten
+    # sind im Pool gemessen (v0.8).
+    treffer_eng, abw_eng, gew = eichung(ZEILEN, eng=True, andere=andere)
     if gew >= SCHWELLEN["eichung_ab_zeilen"]:
         a(treffer_eng / gew >= SCHWELLEN["eichung_mindestens"],
-          f"Schwelle gerissen: Eichung {treffer_eng} von {gew} "
+          f"Schwelle gerissen: Eichung {treffer_eng} von {gew} eigenen Zeilen "
           f"({100 * treffer_eng / gew:.0f} %), verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %: "
           f"{'; '.join(abw_eng)}")
     ausserhalb = {ziel: [z["id"] for z in ZEILEN if ziel not in GELTUNG.get(z["thema"], set())]
@@ -793,16 +817,20 @@ def main():
         neben |= {s for s in z["typ_neben"].split("|") if s}
     print(f"Typen: {len(typ_namen)} in der gemeinsamen Liste; im Heft {len(verwendet)} verwendet, "
           f"davon {len(neu & verwendet)} neu, {len(verwendet & andere_typen)} aus {ANDERE_KATALOGE}")
-    treffer, abw, gew = eichung(ZEILEN)
-    if gew:
-        print(f"Eichung: {treffer} von {gew} gewerteten Zeilen treffen den amtlichen Bereich"
-              + (f" ({n - gew} ohne amtlichen Bereich)" if gew != n else "")
+    treffer, abw, gew_alle = eichung(ZEILEN)
+    geerbte = sum(1 for z in ZEILEN if amtlich_von(z) and geerbt(z, andere))
+    if gew_alle:
+        print(f"Eichung: {treffer} von {gew_alle} gewerteten Zeilen treffen den amtlichen Bereich"
+              + (f" ({n - gew_alle} ohne amtlichen Bereich)" if gew_alle != n else "")
+              + (f"; davon {geerbte} Zeilen mit geerbter Schätzung (Dubletten, im Pool geeicht), "
+                 f"{gew_alle - geerbte} eigene" if geerbte else "")
               + (f"; Abweichungen: {'; '.join(abw)}" if abw else ""))
     else:
         print("Eichung: keine Zeile mit amtlichem Bereich.")
     print(f"Schwellen: {len(unsicher)} Zeilen mit „?“ (erlaubt {grenze_frage}), "
           f"{len(ersatz)} ohne passendes Thema (erlaubt {grenze_ersatz}), "
-          f"Eichung {100 * treffer_eng / gew if gew else 0:.0f} % (verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %"
+          f"Eichung eigener Zeilen {100 * treffer_eng / gew if gew else 0:.0f} % "
+          f"(verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %"
           f"{', nicht scharf' if gew < SCHWELLEN['eichung_ab_zeilen'] else ''})")
     # Wiederverwendung im selben Niveau (gk, lk, ea) und Schnitt (abitur-vokabular.md § 4)
     niveau = niveau_von(KONFIG["papier"])
@@ -829,7 +857,8 @@ def main():
             print(f"Außerhalb der Geltung {ziel}: {', '.join(ids)}")
     print(f"Kennzahlen: | {KONFIG['papier']} | {n} | {len(verwendet)} | {len(neu & verwendet)} "
           f"({100 * len(neu & verwendet) / len(verwendet):.0f} %) | "
-          + (f"{treffer} von {gew} ({100 * treffer / gew:.0f} %)" if gew else "–")
+          + (f"{treffer} von {gew_alle} ({100 * treffer / gew_alle:.0f} %)"
+             + (f", davon {geerbte} geerbt" if geerbte else "") if gew_alle else "–")
           + f" | {len(unsicher)} | {len(ersatz)} | {len(wieder)} von {len(verwendet)} "
           f"({100 * len(wieder) / len(verwendet):.0f} %) | {geltung_txt} | "
           f"Schnitt {len(schnitt_neu)} Werte, {schnitt_bekannt} von {n} Zeilen im Niveau bekannt "
