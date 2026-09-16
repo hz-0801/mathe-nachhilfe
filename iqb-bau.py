@@ -1,9 +1,16 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.1 · 16.09.2026 · gilt mit katalog-prompt.md v0.4, abitur-vokabular.md v1.1 und iqb.md v1.3
+Version 1.2 · 16.09.2026 · gilt mit katalog-prompt.md v0.4, abitur-vokabular.md v1.1 und iqb.md v1.4
 
 Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" bleibt unverändert.
+
+Änderungen gegenüber 1.1 (Auftrag „abi-Bestand gegen den Pool abgleichen"):
+Kennzahl Landesverwendung – Zeilen des Stapels, auf die abi-Zeilen mit
+„Dublette von:" verweisen (Kennzahlenzeile, Selbstprüfung je Stapel); Zeilen,
+die abi als „Poolaufgabe (nicht erfasst)" vorgemerkt hat, werden beim
+Stapellauf gemeldet (Vermerk danach per abgleich.py umstellen) und in der
+Selbstprüfung gegen den Bestand geprüft.
 
 Änderungen gegenüber 1.0 (Entscheidung des Lehrers, 16.09.2026: Themenfeld
 bereinigen): leitidee und thema einer Zeile müssen gleich leitidee und thema
@@ -539,6 +546,9 @@ AB_SPALTE = re.compile(r"AB amtlich: (I{1,3})\.")
 AB_HINWEIS = "Anforderungsbereich weicht vom höchsten Kompetenzeintrag ab"
 # Trägerbindung (iqb.md § 7): feste Markierung am Anfang von bemerkung, kein eigenes Feld.
 MARKE_KONTEXT = "Traegerbindung: Kontext"
+# Verweise aus abi-katalog.csv auf Poolzeilen (abi.md § 7; v1.2 gezählt als Landesverwendung)
+MARKE_DUBLETTE = re.compile(r"Dublette von: (" + KENNUNG.pattern + r"(?:-\d*[a-z]?)?)")
+MARKE_POOL_OFFEN = re.compile(r"Poolaufgabe \(nicht erfasst(, abgewandelt)?\): (" + KENNUNG.pattern + r"(?:-\d*[a-z]?)?)")
 
 
 def amtlich_von(z):
@@ -594,6 +604,16 @@ def main():
     andere_typen = set()
     for z in andere:
         andere_typen |= typen_von(z)
+    # Landesverwendung (v1.2): abi-Zeilen, die auf eine Poolzeile verweisen – als
+    # „Dublette von: <id>" (erfasst) oder „Poolaufgabe (nicht erfasst): <id>" (vorgemerkt)
+    verweis, vorgemerkt = {}, {}
+    for z in andere:
+        m = MARKE_DUBLETTE.search(z["bemerkung"])
+        if m:
+            verweis.setdefault(m.group(1), []).append(z["id"])
+        m = MARKE_POOL_OFFEN.search(z["bemerkung"])
+        if m:
+            vorgemerkt.setdefault(m.group(2), []).append(z["id"])
     print(f"Vokabular: {len(HEAD)} Felder, {len(LEITIDEEN)} Sachgebiete, "
           f"{sum(len(v) for v in THEMEN.values())} Themen – gelesen aus {KERN} und {VOKABULAR}; "
           f"{len(QUELLE)} Kennungen aus {QUELLEN}; {len(andere)} Zeilen aus {ANDERE_KATALOGE}")
@@ -662,6 +682,26 @@ def main():
             print("Außerhalb der Geltung: " + ", ".join(
                 f"{ziel} {sum(1 for z in alt if ziel not in GELTUNG.get(z['thema'], set()))}"
                 for ziel in ZIELE) + f" von {len(alt)} Zeilen")
+        # Landesverwendung je Stapel (v1.2): Poolzeilen, die ein Landesheft wortgleich stellt
+        je_stapel, vorgemerkt_stapel = {}, {}
+        for pid in verweis:
+            a(pid in ids, f"abi-Verweis auf {pid}, aber die Zeile steht nicht im Katalog")
+            k = kennung_aus_id(pid)[0]
+            if k in QUELLE:
+                je_stapel[einheit(QUELLE[k])] = je_stapel.get(einheit(QUELLE[k]), 0) + 1
+        for pid in vorgemerkt:
+            a(pid not in ids, f"abi-Zeile {vorgemerkt[pid]} führt {pid} als nicht erfasst, die Zeile steht aber im Katalog")
+            k = kennung_aus_id(pid)[0]
+            s = einheit(QUELLE[k]) if k in QUELLE else "unbekannt"
+            vorgemerkt_stapel[s] = vorgemerkt_stapel.get(s, 0) + 1
+        print("In Landesheften (Dublette von): " + (", ".join(f"{s} {n}" for s, n in sorted(je_stapel.items())) or "keine")
+              + f" – {sum(je_stapel.values())} Zeilen; vorgemerkt in nicht erfassten Stapeln (Poolaufgabe (nicht erfasst)): "
+              + (", ".join(f"{s} {n}" for s, n in sorted(vorgemerkt_stapel.items())) or "keine"))
+        if fehler:
+            print(f"\nSelbstprüfung: {len(fehler)} Fehler")
+            for f_ in fehler:
+                print(" -", f_)
+            sys.exit(1)
         print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
               "(Häufigkeit in Klammern):")
         liste = umschrift_liste(alt)
@@ -835,6 +875,7 @@ def main():
         if ids:
             print(f"Außerhalb der Geltung {ziel}: {', '.join(ids)}")
     # Kennzahlen je Stapel (iqb.md § 7). Zeile für iqb-pruefungen.md § 4.
+    land = [i for i in neue_ids if i in verweis or i in vorgemerkt]
     print(f"Kennzahlen: | {stapel} | {n} | {len(verwendet)} | {len(neu & verwendet)} "
           f"({100 * len(neu & verwendet) / len(verwendet):.0f} %) | {treffer} von {gew} "
           f"({100 * treffer / gew if gew else 0:.0f} %)"
@@ -842,8 +883,14 @@ def main():
           + f" | {len(unsicher)} | {len(ersatz)} | {len(wieder)} von {len(verwendet)} "
           f"({100 * len(wieder) / len(verwendet):.0f} %) | {geltung_txt} | "
           f"Schnitt {len(schnitt_neu)} Werte, {schnitt_bekannt} von {n} Zeilen bekannt "
-          f"({100 * schnitt_bekannt / n:.0f} %) |")
+          f"({100 * schnitt_bekannt / n:.0f} %) | in Landesheften {len(land)} |")
     print("Unsichere Zeilen:", ", ".join(unsicher) if unsicher else "keine")
+    # Landesverwendung (v1.2): abi-Zeilen, die eine Zeile dieses Stapels als „Poolaufgabe
+    # (nicht erfasst)" vorgemerkt haben – nach dem Lauf wird der Vermerk zum Verweis.
+    for i in neue_ids:
+        if i in vorgemerkt:
+            warnung.append(f"{i}: in {', '.join(vorgemerkt[i])} als „Poolaufgabe (nicht erfasst)“ vorgemerkt – "
+                           f"Vermerk mit abgleich.py in „Dublette von:“ umstellen")
     print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
           "(Häufigkeit in Klammern):")
     liste = umschrift_liste(ZEILEN)

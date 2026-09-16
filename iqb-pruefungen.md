@@ -74,40 +74,43 @@ Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
 damit 312 zu erfassende Aufgaben (16 Paare seit dem Scan v0.2 vor 2023-ea-A).
 
 Kennzahlen je Stapel (Zeile „Kennzahlen:" aus iqb-bau.py; Grundlage für die
-Schwellenwerte nach drei Stapeln, iqb.md § 7):
+Schwellenwerte nach drei Stapeln, iqb.md § 7; Spalte „in Landesheften" seit
+16.09.2026: Zeilen des Stapels, die ein Landesheft wortgleich stellt und mit
+„Dublette von:" verweist – vorgemerkte Zeilen nicht erfasster Stapel stehen in
+der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 
-| Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise | Wiederverwendung im selben Niveau | außerhalb der Geltung be-gk, be-lk, bb-gk, bb-ea |
-|---|---|---|---|---|---|---|---|---|
-| 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 | – | 0, 0, 0, 0 |
-| 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %), enge Fassung 36 (97 %) | 0 | 0 | – (erster Stapel erhöht) | 7, 6, 7, 6 |
-| 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) | 2, 2, 1, 1 |
-| 2025-ea-A | 34 | 35 | 31 (89 %) | eng 30 von 34 (88 %) | 0 | 0 | 2 von 35 aus 2026-ea-A (6 %) | 8, 2, 8, 2 |
-| 2024-ga-A | 30 | 31 | 27 (87 %) | eng 26 von 30 (87 %) | 0 | 1 | 2 von 31 aus 2026-ga-A und 2025-ga-A (6 %) | 4, 4, 4, 4 |
-| 2024-ea-A | 32 | 32 | 28 (88 %) | 32 von 32 (100 %), Liste v0.5 | 0 | 0 | 1 von 32 aus 2026-ea-A (3 %) | 13, 3, 13, 3 |
-| 2023-ga-A | 24 | 23 | 19 (83 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 3 von 23 (13 %); Schnitt 18 Werte, 18 von 24 Zeilen bekannt (75 %) | 3, 3, 3, 3 |
-| 2023-ea-A | 32 | 31 | 25 (81 %) | 29 von 32 (91 %), Liste v0.6 | 0 | 0 | 5 von 31 (16 %); Schnitt 26 Werte, 15 von 32 Zeilen bekannt (47 %) | 9, 5, 9, 5 |
-| 2022-ga-A | 24 | 24 | 22 (92 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 2 von 24 (8 %); Schnitt 20 Werte, 14 von 24 Zeilen bekannt (58 %) | 3, 3, 3, 3 |
-| 2022-ea-A | 32 | 32 | 28 (88 %) | 30 von 32 (94 %), Liste v0.6 | 0 | 0 | 3 von 32 (9 %); Schnitt 26 Werte, 24 von 32 Zeilen bekannt (75 %) | 13, 7, 13, 7 |
-| 2021-ga-A | 23 | 23 | 13 (57 %) | 23 von 23 (100 %), Liste v0.7 | 0 | 0 | 7 von 23 (30 %); Schnitt 22 Werte, 14 von 23 Zeilen bekannt (61 %) | 2, 2, 2, 2 |
-| 2021-ea-A | 33 | 33 | 30 (91 %) | 33 von 33 (100 %), Liste v0.7 | 0 | 0 | 3 von 33 (9 %); Schnitt 25 Werte, 27 von 33 Zeilen bekannt (82 %) | 7, 4, 7, 4 |
-| 2020-ga-A | 19 | 19 | 12 (63 %) | 18 von 19 (95 %), Liste v0.7 | 0 | 0 | 5 von 19 (26 %); Schnitt 15 Werte, 14 von 19 Zeilen bekannt (74 %) | 6, 6, 6, 6 |
-| 2020-ea-A | 28 | 27 | 22 (81 %) | 28 von 28 (100 %), Liste v0.7 | 0 | 0 | 5 von 27 (19 %); Schnitt 24 Werte, 22 von 28 Zeilen bekannt (79 %) | 6, 3, 6, 3 |
-| 2019-ga-A | 23 | 23 | 15 (65 %) | 22 von 22 gewerteten Zeilen (100 %), Liste v0.7; eine Zeile ohne Standardbezug | 0 | 0 | 6 von 23 (26 %); Schnitt 20 Werte, 20 von 23 Zeilen bekannt (87 %) | 4, 4, 4, 4 |
-| 2019-ea-A | 20 | 20 | 15 (75 %) | 20 von 20 (100 %), Liste v0.7 | 0 | 0 | 3 von 20 (15 %); Schnitt 15 Werte, 16 von 20 Zeilen bekannt (80 %) | 4, 4, 4, 4 |
-| 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 |
-| 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 |
-| 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 |
-| 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 |
-| 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 |
-| 2025-ea-B-wtr (Teil B) | 47 | 44 | 32 (73 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB | 0 | 2 | 6 von 44 (14 %); Schnitt 30 Werte, 45 von 47 Zeilen bekannt (96 %) | 20, 3, 20, 3 |
-| 2024-ga-B-wtr (Teil B) | 49 | 48 | 31 (65 %) | 46 von 49 (94 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 48 (25 %); Schnitt 41 Werte, 42 von 49 Zeilen bekannt (86 %) | 5, 4, 5, 4 |
-| 2024-ea-B-wtr (Teil B) | 61 | 61 | 44 (72 %) | 59 von 61 (97 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 61 (20 %); Schnitt 44 Werte, 51 von 61 Zeilen bekannt (84 %) | 23, 5, 22, 4 |
-| 2023-ga-B-wtr (Teil B) | 61 | 60 | 40 (67 %) | 57 von 61 (93 %), Liste v0.7, Spalte AB | 0 | 0 | 17 von 60 (28 %); Schnitt 43 Werte, 54 von 61 Zeilen bekannt (89 %) | 7, 4, 6, 3 |
-| 2026-ga-B-mms (Teil B, vor Bereinigung, 17 Zeilen wortgleich aus WTR) | 42 | 43 | 18 (42 %) | 41 von 42 (98 %), Liste v0.7, Spalte AB | 0 | 0 | 22 von 43 (51 %); Schnitt 34 Werte, 40 von 42 Zeilen bekannt (95 %) | 5, 5, 5, 5 |
-| 2023-ea-B-wtr (Teil B) | 64 | 66 | 49 (74 %) | 55 von 64 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 17 von 66 (26 %); Schnitt 50 Werte, 52 von 64 Zeilen bekannt (81 %) | 16, 7, 16, 7 |
-| 2022-ea-B-wtr (Teil B) | 69 | 71 | 54 (76 %) | 62 von 69 (90 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 71 (17 %); Schnitt 53 Werte, 64 von 69 Zeilen bekannt (93 %) | 22, 4, 22, 4 |
-| 2026-ga-B-mms (Teil B, nach Bereinigung 15.09.2026) | 25 | 27 | 18 (67 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 27 (33 %); Schnitt 20 Werte, 23 von 25 Zeilen bekannt (92 %) | 5, 5, 5, 5 |
-| 2026-ea-B-mms (Teil B, Delta-Stapel erhöht) | 32 | 32 | 21 (66 %) | 32 von 32 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 10 von 32 (31 %); Schnitt 27 Werte, 31 von 32 Zeilen bekannt (97 %) | 14, 7, 14, 7 |
+| Stapel | Zeilen | Typen verwendet | davon neu | Eichung | „?" | ersatzweise | Wiederverwendung im selben Niveau | außerhalb der Geltung be-gk, be-lk, bb-gk, bb-ea | in Landesheften (Dublette von) |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-ga-A | 33 | 34 | 34 (100 %) | 30 von 33 (91 %) | 0 | 0 | – | 0, 0, 0, 0 | 0 |
+| 2026-ea-A | 37 | 39 | 32 (82 %) | 34 von 37 (92 %), enge Fassung 36 (97 %) | 0 | 0 | – (erster Stapel erhöht) | 7, 6, 7, 6 | 0 |
+| 2025-ga-A | 31 | 33 | 31 (94 %) | weit 29 von 31 (94 %), eng 30 (97 %) | 0 | 0 | 1 von 33 aus 2026-ga-A (3 %) | 2, 2, 1, 1 | 0 |
+| 2025-ea-A | 34 | 35 | 31 (89 %) | eng 30 von 34 (88 %) | 0 | 0 | 2 von 35 aus 2026-ea-A (6 %) | 8, 2, 8, 2 | 0 |
+| 2024-ga-A | 30 | 31 | 27 (87 %) | eng 26 von 30 (87 %) | 0 | 1 | 2 von 31 aus 2026-ga-A und 2025-ga-A (6 %) | 4, 4, 4, 4 | 0 |
+| 2024-ea-A | 32 | 32 | 28 (88 %) | 32 von 32 (100 %), Liste v0.5 | 0 | 0 | 1 von 32 aus 2026-ea-A (3 %) | 13, 3, 13, 3 | 0 |
+| 2023-ga-A | 24 | 23 | 19 (83 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 3 von 23 (13 %); Schnitt 18 Werte, 18 von 24 Zeilen bekannt (75 %) | 3, 3, 3, 3 | 4 |
+| 2023-ea-A | 32 | 31 | 25 (81 %) | 29 von 32 (91 %), Liste v0.6 | 0 | 0 | 5 von 31 (16 %); Schnitt 26 Werte, 15 von 32 Zeilen bekannt (47 %) | 9, 5, 9, 5 | 0 |
+| 2022-ga-A | 24 | 24 | 22 (92 %) | 23 von 24 (96 %), Liste v0.6 | 0 | 0 | 2 von 24 (8 %); Schnitt 20 Werte, 14 von 24 Zeilen bekannt (58 %) | 3, 3, 3, 3 | 0 |
+| 2022-ea-A | 32 | 32 | 28 (88 %) | 30 von 32 (94 %), Liste v0.6 | 0 | 0 | 3 von 32 (9 %); Schnitt 26 Werte, 24 von 32 Zeilen bekannt (75 %) | 13, 7, 13, 7 | 0 |
+| 2021-ga-A | 23 | 23 | 13 (57 %) | 23 von 23 (100 %), Liste v0.7 | 0 | 0 | 7 von 23 (30 %); Schnitt 22 Werte, 14 von 23 Zeilen bekannt (61 %) | 2, 2, 2, 2 | 0 |
+| 2021-ea-A | 33 | 33 | 30 (91 %) | 33 von 33 (100 %), Liste v0.7 | 0 | 0 | 3 von 33 (9 %); Schnitt 25 Werte, 27 von 33 Zeilen bekannt (82 %) | 7, 4, 7, 4 | 0 |
+| 2020-ga-A | 19 | 19 | 12 (63 %) | 18 von 19 (95 %), Liste v0.7 | 0 | 0 | 5 von 19 (26 %); Schnitt 15 Werte, 14 von 19 Zeilen bekannt (74 %) | 6, 6, 6, 6 | 0 |
+| 2020-ea-A | 28 | 27 | 22 (81 %) | 28 von 28 (100 %), Liste v0.7 | 0 | 0 | 5 von 27 (19 %); Schnitt 24 Werte, 22 von 28 Zeilen bekannt (79 %) | 6, 3, 6, 3 | 0 |
+| 2019-ga-A | 23 | 23 | 15 (65 %) | 22 von 22 gewerteten Zeilen (100 %), Liste v0.7; eine Zeile ohne Standardbezug | 0 | 0 | 6 von 23 (26 %); Schnitt 20 Werte, 20 von 23 Zeilen bekannt (87 %) | 4, 4, 4, 4 | 0 |
+| 2019-ea-A | 20 | 20 | 15 (75 %) | 20 von 20 (100 %), Liste v0.7 | 0 | 0 | 3 von 20 (15 %); Schnitt 15 Werte, 16 von 20 Zeilen bekannt (80 %) | 4, 4, 4, 4 | 0 |
+| 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 | 0 |
+| 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 | 4 |
+| 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 | 0 |
+| 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 | 0 |
+| 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 | 0 |
+| 2025-ea-B-wtr (Teil B) | 47 | 44 | 32 (73 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB | 0 | 2 | 6 von 44 (14 %); Schnitt 30 Werte, 45 von 47 Zeilen bekannt (96 %) | 20, 3, 20, 3 | 0 |
+| 2024-ga-B-wtr (Teil B) | 49 | 48 | 31 (65 %) | 46 von 49 (94 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 48 (25 %); Schnitt 41 Werte, 42 von 49 Zeilen bekannt (86 %) | 5, 4, 5, 4 | 0 |
+| 2024-ea-B-wtr (Teil B) | 61 | 61 | 44 (72 %) | 59 von 61 (97 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 61 (20 %); Schnitt 44 Werte, 51 von 61 Zeilen bekannt (84 %) | 23, 5, 22, 4 | 0 |
+| 2023-ga-B-wtr (Teil B) | 61 | 60 | 40 (67 %) | 57 von 61 (93 %), Liste v0.7, Spalte AB | 0 | 0 | 17 von 60 (28 %); Schnitt 43 Werte, 54 von 61 Zeilen bekannt (89 %) | 7, 4, 6, 3 | 7 |
+| 2026-ga-B-mms (Teil B, vor Bereinigung, 17 Zeilen wortgleich aus WTR) | 42 | 43 | 18 (42 %) | 41 von 42 (98 %), Liste v0.7, Spalte AB | 0 | 0 | 22 von 43 (51 %); Schnitt 34 Werte, 40 von 42 Zeilen bekannt (95 %) | 5, 5, 5, 5 | 0 |
+| 2023-ea-B-wtr (Teil B) | 64 | 66 | 49 (74 %) | 55 von 64 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 17 von 66 (26 %); Schnitt 50 Werte, 52 von 64 Zeilen bekannt (81 %) | 16, 7, 16, 7 | 0 |
+| 2022-ea-B-wtr (Teil B) | 69 | 71 | 54 (76 %) | 62 von 69 (90 %), Liste v0.7, Spalte AB | 0 | 0 | 12 von 71 (17 %); Schnitt 53 Werte, 64 von 69 Zeilen bekannt (93 %) | 22, 4, 22, 4 | 0 |
+| 2026-ga-B-mms (Teil B, nach Bereinigung 15.09.2026) | 25 | 27 | 18 (67 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 27 (33 %); Schnitt 20 Werte, 23 von 25 Zeilen bekannt (92 %) | 5, 5, 5, 5 | 0 |
+| 2026-ea-B-mms (Teil B, Delta-Stapel erhöht) | 32 | 32 | 21 (66 %) | 32 von 32 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 10 von 32 (31 %); Schnitt 27 Werte, 31 von 32 Zeilen bekannt (97 %) | 14, 7, 14, 7 | 0 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2779,6 +2782,7 @@ Selbstprüfung bestanden, byteidentisch.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Kennzahl „in Landesheften“ je Stapel (iqb-bau.py v1.2): Spalte in der Kennzahlentabelle § 2 (2018-ea-A 4, 2023-ga-A 4, 2023-ga-B-wtr 7, sonst 0), in der Kennzahlenzeile jedes Stapellaufs und in der Selbstprüfung (dazu die vorgemerkten Zeilen nicht erfasster Stapel); beim Stapellauf Hinweis auf vorgemerkte Zeilen. Selbstprüfung bestanden. |
 | 2026-09-16 | Pool-Abgleich des abi-Bestands (abgleich.py Lauf 14, Bericht in abi-pruefungen.md § 4): 17 abi-Zeilen stellen Poolaufgaben aus nicht erfassten Stapeln (2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2) und tragen die Vormerkung „Poolaufgabe (nicht erfasst): <id>“. iqb-katalog.csv unverändert; iqb.md § 7 (v1.4): Vormerkung und Umstellung beim Stapellauf. Die Stapel bleiben Reserve, bis der Lehrer entscheidet. |
 | 2026-09-16 | Gemeinsame Typenliste durch das abi-Heft 2023-bebb-gk gewachsen: 875 → 913 Typen (38 neu, alle mit beispiel_id im abi-Katalog), 69 Typen in beiden Katalogen (vorher 56; 19 iqb-Typen im Landesheft wiederverwendet, davon 11 als Pool-Dubletten mit Verweis auf 2023-ga-A Analysis 1.2, AG/LA A2 1.2 und 2023-ga-B Stochastik WTR 3). iqb-katalog.csv unverändert, Selbstprüfung bestanden. Bericht in abi-pruefungen.md § 4. |
 | 2026-09-16 | Abgleichlauf 13 (abgleich.py v0.13, Entscheidung 26): Zeilenthema = Typthema. iqb-katalog.csv: 8 Zeilen leitidee/thema aus dem Typ, 3 Folgezeilen gewechselter Typen, 1 Präfix (Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen → Term und Ereignis: …, Thema Kombinatorik → Zufallsexperimente und Urnenmodelle), 2 Themenwechsel ohne Umbenennung (Kleinste Tangentensteigung … → Ableitung und Änderungsrate; Ebene Figur: Trapez … → Punkte und Strecken im Koordinatensystem), 3 Vermerke in bemerkung. Typen 875 unverändert. iqb-bau.py v1.1 (Assert Zeilenthema = Typthema, Schnitt über Typthema, Handlungen aus Kern § 5), iqb.md v1.3. Teil-B-Reihen nachgerechnet und unverändert. Selbstprüfung bestanden, byteidentisch. Fälle und Kern-Nachführung in abi-pruefungen.md § 4. |

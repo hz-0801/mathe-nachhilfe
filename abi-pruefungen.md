@@ -41,11 +41,18 @@ am BE-Vektor.
 dem Umstellungslauf erfasst, ohne Kennzahlenzeile). Spalten: Zeilen, verwendete
 Typen, davon neu, Eichung (Zeilen mit amtlichem Bereich), „?“, ersatzweise,
 Wiederverwendung im Niveau, außerhalb der Geltung je Zielprüfung, Schnitt,
-Pool-Dubletten.
+Poolquote (Zeilen und angebotene BE, die wortgleich im Pool stehen – erfasst
+als „Dublette von:" oder vorgemerkt als „Poolaufgabe (nicht erfasst)";
+abgewandelte getrennt). Die Poolquote gibt abi-bau.py seit v0.5 je Heft aus
+(Selbstprüfung und Kennzahlenzeile); die Hefte bis 2018 haben sonst keine
+Kennzahlenzeile (vor v0.3 erfasst).
 
-| Heft | Zeilen | Typen | neu | Eichung | ? | ersatzw. | im Niveau bekannt | außerhalb der Geltung | Schnitt | Pool |
+| Heft | Zeilen | Typen | neu | Eichung | ? | ersatzw. | im Niveau bekannt | außerhalb der Geltung | Schnitt | Pool (Zeilen; BE angeboten) |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 |
+| 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), alle vorgemerkt (Pool 2017 nicht erfasst) |
+| 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 9 von 36; 31 von 160 (19 %), alle vorgemerkt (Pool 2018 Teil B nicht erfasst); abgewandelt 2 Zeilen, 7 BE |
+| 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
+| 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
 
 ## 3 Nicht im Bestand
 
@@ -706,6 +713,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Kennzahl Poolquote je Heft: Spalte „Pool (Zeilen; BE angeboten)“ in der Kennzahlentabelle § 2, Zeilen für 2017-bb-ea, 2018-be-gk und 2018-bb-ea ergänzt (Selbstprüfung abi-bau.py v0.5 gibt sie je Heft aus); Gegenstück „in Landesheften“ je Stapel in iqb-pruefungen.md § 2 (iqb-bau.py v1.2). Selbstprüfung beider Skripte bestanden. |
 | 2026-09-16 | Pool-Abgleich des Bestands bis 2018 (Abgleichlauf 14, abgleich.py v0.14): gegen den erfassten Pool keine weiteren Treffer; gegen die nicht erfassten Pooldateien 2017 (A, B) und 2018 (B) 15 wortgleiche Zeilen (2017-bb-ea Teil 1 ganz = Pool 2017 erhöht A; 2018-be-gk 2.2 a–e = Pool 2018 grundlegend B AG/LA (A2) WTR 2; 3.2 b, c, d, g = Pool 2018 Stochastik WTR 2 ga/ea) und 2 abgewandelte (3.2 a, e) – Vermerk „Poolaufgabe (nicht erfasst[, abgewandelt]): <id>“ in bemerkung (Feldkorrektur, 17 Zeilen), Regel in abi.md § 7 (v0.10), iqb.md § 7 (v1.4), Kern § 5; abi-bau.py v0.5 prüft den Vermerk und gibt die Poolquote je Heft aus. Typen unverändert (913). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Tabelle, Quoten und Muster in § 4. |
 | 2026-09-16 | 2023-bebb-gk 2.2 k nachgeprüft (Scan in voller Auflösung): drei Eigenschaften I k(0) = 20, II k′(0) = 130, III Hochpunkt H(5 \| 220) – Erfassung stimmt, Widerspruch im Heft (H ist Tiefpunkt der eindeutig bestimmten Funktion) bleibt vermerkt. Keine Katalogänderung. |
 | 2026-09-16 | Heft 2023-bebb-gk erfasst (Stark-Scan, abi-bau.py v0.4): 58 Zeilen aus 12 Aufgaben, Katalog 171 Zeilen, Typenliste 913 (38 neu, 19 iqb-Typen übernommen), 11 Pool-Dubletten mit „Dublette von:“ (30 von 185 BE). Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 11 von 11 (nur Poolzeilen), 3 Zeilen mit „?“ (Ablesewerte), 0 ersatzweise, 8 kontextgebunden; Schnitt 42 Werte, 1 neu im Gesamtbestand (184). Skriptanpassung: Pool-Kennungen vom ASCII-Minus-Test ausgenommen. Befunde in § 4. |
