@@ -51,7 +51,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | Heft | Zeilen | Typen | neu | Eichung | ? | ersatzw. | im Niveau bekannt | außerhalb der Geltung | Schnitt | Pool (Zeilen; BE angeboten) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
-| 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 10 von 36; 34 von 160 (21 %), seit Lauf 15 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e dorthin statt zum erhöhten Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“); 3.2 f wortgleich mit WTR 2 f, aber ohne Verweis (offen, siehe § 4 Lauf 15) |
+| 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
 | 2024-bebb-gk | 47 | 46 | 16 (35 %) | 17 von 20 (85 %) | 0 | 0 | 7 von 46 (15 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 45 von 47 Zeilen im Niveau bekannt (96 %), 1 Wert neu im Gesamtbestand | 20 von 47; 55 von 155 (35 %) |
@@ -604,6 +604,39 @@ Prüfungslisten als offener Posten geführt wird (abi.md § 7, iqb.md § 7, Kern
 in der Selbstprüfung (abi-bau.py „Offene Posten … Übergangszustand: n
 Zeilen", iqb-bau.py „vorgemerkt … offener Posten"), Stand nach Lauf 15: 0.
 
+**Geltung gemeinsamer Hefte (Auftrag „Geltung klären, Reste schließen, vier
+Stark-Hefte erfassen", Punkt 1, 16.09.2026; Vorschlag des Lehrers umgesetzt,
+keine Entscheidung darüber hinaus).** Ein Heft wird gegen die Zielprüfung(en)
+seines Kürzels gemessen: be-gk, be-lk, bb-ea; bebb-gk gegen be-gk und bb-gk,
+bebb-lk gegen be-lk und bb-ea. Eine bebb-Zeile liegt in der Geltung, wenn ihr
+Thema in mindestens einer der beiden Spalten gilt; der Bericht nennt beide
+Spalten einzeln und daneben weiter alle vier Zielprüfungen (abi-bau.py v0.7,
+ziele_von/in_geltung; abitur-vokabular.md v1.2 § 3, abi.md v0.12 § 6, iqb.md
+v1.6 § 6 – Poolzeilen unverändert gegen alle vier Spalten). Die beiden Spalten
+je Niveau unterscheiden sich derzeit nur bei der hypergeometrischen
+Verteilung (Brandenburg ja, Berlin nein). Nachmessung des Bestands: 2023-bebb-gk
+58 von 58 in Geltung, 2024-bebb-gk 47 von 47, jeweils in beiden Spalten 0
+außerhalb; 2017-bb-ea, 2018-bb-ea, 2018-be-gk ebenfalls vollständig in ihrer
+Geltung – an „alles in Geltung" ändert sich nichts. Die Selbstprüfung gibt
+seitdem je Heft „Geltung ‹Heft› (‹Spalten›): n von m Zeilen" aus.
+
+**Abgleichlauf 16 – Reste schließen (Auftrag, Punkt 2, 16.09.2026).** Sechs
+Zeilen, alle in 2018-be-gk: 3.2 f trägt jetzt „Dublette von:
+2018MgrundlegendBStochastikWTR2-1f. AB amtlich: II." (wortgleich, Typ und BE
+gleich; in Lauf 14 als Landesvariante geführt, weil gegen den erhöhten Pool
+verglichen wurde, in Lauf 15 als 18. Zeile ausgespart) – Poolquote 2018-be-gk
+jetzt 11 von 36 Zeilen, 36 von 160 BE (22 %), abgewandelt 1 Zeile, 4 BE. Die
+fünf Teil-B-Zeilen, deren Schätzung (vor der engen Fassung erfasst) vom
+amtlichen Bereich abwich, sind auf die enge Fassung nachgezogen und
+übernehmen die Schätzung der wortgleichen Poolzeile, alter Wert in
+bemerkung: 2.2 a Seillänge II → I, 2.2 b Trapez II → I, 3.2 b Modalwert
+II → I, 3.2 c Stichprobenvergrößerung III → II, 3.2 d Trefferwahrscheinlichkeit
+aus der Bedingung an null Treffer II → III. Eichung über den abi-Bestand
+danach 39 von 42 gewerteten Zeilen (92 %; die drei Abweichungen sind die
+Dubletten von 2024, die die Schätzung ihrer Poolzeilen tragen). Lauf aus dem
+HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden; Typen
+unverändert (1006). Offene Posten: keine.
+
 **Umstellungslauf 12 – gemeinsame Typenliste für abi und iqb (Entscheidung
 25, Auftrag „Weg A umsetzen", 15.09.2026).** Grundlage abi-iqb-typen.md
 (Messung vom selben Tag). Zwei Commits: erst abitur-vokabular.md, abgleich.py
@@ -849,6 +882,8 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Abgleichlauf 16 (Reste schließen): 2018-be-gk 3.2 f → „Dublette von:“ Stochastik WTR 2 f (Poolquote 11 von 36, 36 von 160 BE); fünf Teil-B-Zeilen 2018 (2.2 a, b, 3.2 b, c, d) in niveau_geschaetzt auf die enge Fassung nachgezogen (Wert der Poolzeile, alter Wert in bemerkung). Eichung über den Bestand 39 von 42. abgleich.py v0.16. |
+| 2026-09-16 | Geltung gemeinsamer Hefte festgelegt (Punkt 1 des Auftrags, Vorschlag des Lehrers): bebb-gk gegen be-gk und bb-gk, bebb-lk gegen be-lk und bb-ea, Zeile gilt bei mindestens einer Spalte; abi-bau.py v0.7 (ziele_von, Kennzahl „außerhalb der Geltung des Hefts“ mit beiden Spalten), abitur-vokabular.md v1.2, abi.md v0.12, iqb.md v1.6. Nachmessung 2023 und 2024: unverändert alles in Geltung. |
 | 2026-09-16 | Heft 2024-bebb-gk erfasst: 47 Zeilen aus 14 Aufgaben (1.1–1.9, 2.1, 2.2, 3, 4.1, 4.2), Katalog 218 Zeilen, Typenliste 1006 (16 neu). Alle Punktsummen geprüft (9 × 5, 35, 35, 20, 10, 10), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 17 von 20 (85 %). Pool 20 von 47 Zeilen, 55 von 155 BE (35 %): sieben der neun hilfsmittelfreien Einheiten und die ganze Aufgabe 4 (Stochastik WTR 1). Ein neuer Schnittwert im Gesamtbestand (Körper · zeichnen). |
 | 2026-09-16 | Abgleichlauf 15 (Verweise schließen): 17 Vermerke aus Lauf 14 umgestellt – 16 auf „Dublette von:“, 2018-be-gk 3.2 a auf den neuen Verweis „Abgewandelt von:“; 3.2 e und g zeigen auf den wortgleichen grundlegenden Pool statt auf den erhöhten; Typvergleich 17 von 17 gleich; 3.2 f bleibt ohne Verweis (offen, wäre die 18. Zeile). abi-bau.py v0.6 (Vorstufe als Übergangszustand, Verweis „Abgewandelt von:“), abi.md v0.11, Kern v0.5, CLAUDE.md. Selbstprüfung bestanden; Eichung über den Bestand 16 von 21 (zehn Teil-B-Zeilen 2018 erstmals gewertet). |
 | 2026-09-16 | Kennzahl Poolquote je Heft: Spalte „Pool (Zeilen; BE angeboten)“ in der Kennzahlentabelle § 2, Zeilen für 2017-bb-ea, 2018-be-gk und 2018-bb-ea ergänzt (Selbstprüfung abi-bau.py v0.5 gibt sie je Heft aus); Gegenstück „in Landesheften“ je Stapel in iqb-pruefungen.md § 2 (iqb-bau.py v1.2). Selbstprüfung beider Skripte bestanden. |
