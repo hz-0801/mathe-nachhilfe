@@ -339,6 +339,16 @@ k(0) = 20, k′(0) = 130 und Hochpunkt H(5 | 220); die vier Bedingungen liefern
 eindeutig k(x) = 2x³ − 28x² + 130x + 20, aber k″(5) = 4 > 0 – H ist bei dieser
 Funktion ein Tiefpunkt. Das Heft meint mit „Hochpunkt" nur die Bedingungen
 k(5) = 220 und k′(5) = 0 (Steckbriefaufgabe); in bemerkung festgehalten.
+*Nachgeprüft 16.09.2026 (Auftrag des Lehrers) am Scan in voller Auflösung
+(Seite 10, Ausschnitt doppelt vergrößert):* Wortlaut „… ganzrationalen
+Funktion k vom Grad 3 beschrieben werden, die folgende drei Eigenschaften
+hat: I: k(0) = 20; II: k′(0) = 130; III: H(5 | 220) ist Hochpunkt des Graphen
+von k. Ermitteln Sie die Funktionsgleichung der Funktion k." Drei
+Eigenschaften, aus III zwei Gleichungen (k(5) = 220, k′(5) = 0), zusammen
+vier – genau die Erfassung. Keine Abweichung, also die erste Lage: der
+Widerspruch (k″(5) = 4 > 0; Hochpunkt bei x = 13/3 ≈ 4,33 mit k ≈ 220,3,
+Tiefpunkt bei 5 mit k = 220) steckt im Heft und bleibt so vermerkt; Zeile
+unverändert.
 (2) 3 b: Lage zweier Ebenen unter Thema Ebenen abgelegt, nicht unter
 Lagebeziehungen (dort nur die Klassen Punkt und Ebene, Gerade und Ebene) – analog
 zur Lesart in abitur-vokabular.md § 4, nach der Lagen zweier Geraden unter
@@ -612,6 +622,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | 2023-bebb-gk 2.2 k nachgeprüft (Scan in voller Auflösung): drei Eigenschaften I k(0) = 20, II k′(0) = 130, III Hochpunkt H(5 \| 220) – Erfassung stimmt, Widerspruch im Heft (H ist Tiefpunkt der eindeutig bestimmten Funktion) bleibt vermerkt. Keine Katalogänderung. |
 | 2026-09-16 | Heft 2023-bebb-gk erfasst (Stark-Scan, abi-bau.py v0.4): 58 Zeilen aus 12 Aufgaben, Katalog 171 Zeilen, Typenliste 913 (38 neu, 19 iqb-Typen übernommen), 11 Pool-Dubletten mit „Dublette von:“ (30 von 185 BE). Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 11 von 11 (nur Poolzeilen), 3 Zeilen mit „?“ (Ablesewerte), 0 ersatzweise, 8 kontextgebunden; Schnitt 42 Werte, 1 neu im Gesamtbestand (184). Skriptanpassung: Pool-Kennungen vom ASCII-Minus-Test ausgenommen. Befunde in § 4. |
 | 2026-09-16 | Abgleichlauf 13 (abgleich.py v0.13, Entscheidung 26 „Themenfeld bereinigen"): Zeilenthema = Typthema. abi-katalog.csv: 11 Zeilen leitidee/thema aus dem Typ (2018-bb-ea A1.2b, B2.1b, B2.1d, B3.2c, B4.1c; 2017-bb-ea B2.1e, B2.2e [auch leitidee], B4.2a, B4.2c; 2018-be-gk B2.1c, B3.1e), 2 Zeilen behalten ihr Thema, weil der Typ wechselt (2018-be-gk B1.2f: „Kleinste Tangentensteigung …" → Ableitung und Änderungsrate; B2.2b: „Ebene Figur: Trapez …" → Punkte und Strecken); doppelte Nennung des typ in typ_neben gestrichen (2017-bb-ea B4.2a, 2018-be-gk B3.2a); Vermerke in bemerkung (B4.2a, B2.2e). iqb: 8 Zeilen plus 3 Folgezeilen, ein Präfix („Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen", Zufallsexperimente). Typen 875 unverändert; Schnitt 183 Werte (vorher 189 nach Zeilenthema), Teil-B-Reihen unverändert. abi-bau.py v0.4, iqb-bau.py v1.1 (Assert, Schnitt über Typthema, Handlungen aus dem Kern), Kern v0.4, abitur-vokabular.md v1.1, abi.md v0.9, iqb.md v1.3, konzept.md Entscheidung 26. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. |
 | 2026-09-15 | Umstellungslauf 12 (abgleich.py v0.12, Entscheidung 25): abi-typen.csv und iqb-typen.csv → abitur-typen.csv (938 → 875 Typen); 50 abi-Typen in inhaltsgleiche iqb-Typen aufgegangen, 2 gleichnamig, 11 überlappende Paare zusammengezogen (M1–M11, drei iqb-Umbenennungen), 15 Präfixe, 2 Themenwechsel; abi-katalog.csv 98 Typfelder in 75 Zeilen umetikettiert, iqb-katalog.csv 5 Typfelder in 5 Zeilen; Feldkorrektur „Dublette von:“ in 4 Zeilen (2018-bb-ea Teil 1 = Pool 2018 erhöht). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Bericht mit Klassenentscheidungen und strittigen Paaren in § 4. |
