@@ -4,7 +4,8 @@ Version 0.9 · 16.09.2026 · Kennung abi · gilt mit Kern v0.4 (Schema-Version 2
 erfassen"): § 6 Regel Zeilenthema = Typthema (abi-bau.py v0.4 erzwingt sie,
 Lauf 13), Handlungen im Kern § 5; § 7 dublette_von klargestellt (Spalte von
 iqb-quellen.csv, kein Katalogfeld; Zeilenverweis „Dublette von:" in
-bemerkung).
+bemerkung); § 2 Stark-Scans ohne Lösungen, Pool-Teilaufgaben mit afb_amtlich
+aus der Poolzeile (erstes Stark-Heft 2023-bebb-gk erfasst, abi-bau.py v0.4).
 Änderungen gegenüber 0.7 (Entscheidung 25, Auftrag „Weg A umsetzen"): § 5–6
 Sachgebiete und Themenliste nach abitur-vokabular.md, hier nur Verweis und
 Lücken; Typenschnitt nach Entscheidung 24 auch für abi; § 2 gemeinsame
@@ -77,14 +78,18 @@ Verlagsbänden (Stark) vor; ihre Scans stehen lokal unter hefte/<papier>.pdf
 über .gitignore vom Repo ausgeschlossen, weil sie urheberrechtlich geschützt
 sind. Bestand und Abgleich je Heft in abi-pruefungen.md.
 
-Amtliche Lösungen: für die Landesaufgaben 2017/2018 keine. Der Erwartungshorizont
-mit verbindlicher Verteilung der Bewertungseinheiten geht nur an die Schulen. Für
-diese Hefte gilt Kern § 3 d in der Fassung „eigene Rechnung"; Unsicherheiten nach
-`bemerkung`. Die Poolaufgaben des IQB (seit Prüfungsjahr 2017, mit
+Amtliche Lösungen: für die Landesaufgaben 2017/2018 keine, für die Stark-Scans
+ab 2019 ebenfalls nicht (nur die Aufgabenseiten sind gescannt, die Lösungen des
+Bands nicht). Der Erwartungshorizont mit verbindlicher Verteilung der
+Bewertungseinheiten geht nur an die Schulen. Für diese Hefte gilt Kern § 3 d in
+der Fassung „eigene Rechnung"; Unsicherheiten nach `bemerkung`; Ablesewerte aus
+Abbildungen tragen „?". Die Poolaufgaben des IQB (seit Prüfungsjahr 2017, mit
 Erwartungshorizont und Standardbezug) werden nicht in diesem Profil erfasst,
-sondern im eigenen Profil iqb (iqb.md, iqb-katalog.csv, iqb-typen.csv); dort gilt
-die Fassung „amtliche Lösung vorhanden" wie im Profil fhr. Zusammengeführt wird
-über die Typen, nicht über die Dateien.
+sondern im eigenen Profil iqb (iqb.md, iqb-katalog.csv, gemeinsame Typenliste
+abitur-typen.csv); dort gilt die Fassung „amtliche Lösung vorhanden" wie im
+Profil fhr. Nimmt ein Landesheft eine Poolaufgabe auf, bekommt sie hier eine
+eigene Zeile mit Verweis (§ 7), afb_amtlich aus der Poolzeile. Zusammengeführt
+wird über die Typen, nicht über die Dateien.
 
 Amtliche Vorgaben: die Prüfungsschwerpunkte des jeweiligen Prüfungsjahrs,
 getrennt nach Land und Niveau. Brandenburg unter

@@ -30,12 +30,22 @@ in vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **gesichtet 2026-09-15, nicht erfasst** – Bestand und Pool-Abgleich in § 4 (30 von 185 BE im Pool 2023); Erfassung nach Entscheidung des Lehrers |
+| 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
 
 Leitfassung je Jahr und Niveau: erhöht bb-ea, grundlegend be-gk (abi.md § 7).
 Wortgleiche Zwillinge des anderen Landes werden nicht als Zeile erfasst,
 sondern hier notiert; eine eigene Zeile nur bei abweichender Teilung, erkennbar
 am BE-Vektor.
+
+**Kennzahlen je Heft** (Ausgabe von abi-bau.py ab v0.3; Hefte bis 2018 vor
+dem Umstellungslauf erfasst, ohne Kennzahlenzeile). Spalten: Zeilen, verwendete
+Typen, davon neu, Eichung (Zeilen mit amtlichem Bereich), „?“, ersatzweise,
+Wiederverwendung im Niveau, außerhalb der Geltung je Zielprüfung, Schnitt,
+Pool-Dubletten.
+
+| Heft | Zeilen | Typen | neu | Eichung | ? | ersatzw. | im Niveau bekannt | außerhalb der Geltung | Schnitt | Pool |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 |
 
 ## 3 Nicht im Bestand
 
@@ -248,7 +258,114 @@ Teil B block B mit aufgabe 2.1, 2.2, 3, 4 (Aufgabenteil 1 und 2 als 4.1 und
 4.2); die im Pool stehenden Teilaufgaben nicht neu erfassen, sondern über
 den Typ auf die iqb-Zeile verweisen – oder als abi-Zeile mit Verweis in
 bemerkung, je nach Entscheidung des Lehrers zur Zusammenführung (iqb.md
-§ 9).
+§ 9). *(Umgesetzt am 16.09.2026 als abi-Zeile mit Verweis, unten.)*
+
+**2023-bebb-gk erfasst (16.09.2026, Auftrag „Themenfeld bereinigen, dann
+Stark-Heft 2023 erfassen", Punkt 5; abi-bau.py v0.4, erstes Heft nach dem
+gemeinsamen Schnitt).** 58 Zeilen aus 12 Aufgaben (1.1 bis 1.7 der
+hilfsmittelfreie Teil in Heftreihenfolge, 2.1, 2.2, 3, 4.1, 4.2); alle zwölf
+Punktsummen stimmen (7 × 5, 45, 45, 30, 20, 10 = 185 BE). Selbstprüfung beider
+Bau-Skripte bestanden (abi 171 Zeilen aus 4 Heften, iqb 1061 Zeilen, 913 Typen,
+69 in beiden Katalogen), Lauf aus dem HEAD-Stand byteidentisch.
+
+*Typen.* 59 verwendet, 38 neu (64 %), 19 aus dem iqb-Katalog übernommen, 2
+aus dem eigenen Bestand (Lage und Art aller lokalen Extrempunkte bestimmen;
+Mindestanzahl von Versuchen einer Bernoulli-Kette). Die neuen Typen nach
+Thema: Kurvenuntersuchung 7 (Extremstellen aus f′ = 0; Aussagen nahe dem
+Tiefpunkt ohne Rechnung; Monotonie aus bekanntem Extrempunkt; Wendepunkte über
+f″; Graphen skizzieren und Tangentenaussage beurteilen; Mittelwert am Graphen
+ablesen; umschließender Quader mit Maßstab), Tangente/Normale 4 (waagerechte
+Tangente an vorgegebener Stelle; Dreiecke aus Wendetangente und Normale;
+Schnittwinkel zweier Graphen; Tangente aufstellen und weiteren gemeinsamen
+Punkt), Funktionsklassen 5 (Achsenschnittpunkte; Raute aus
+Achsenschnittpunkten; gespiegelte Randlinien; y-Achsenschnittpunkt und
+Nullstellenzahl aus Faktoren; Streckfaktor und Verschiebung durch
+Koeffizientenvergleich), Flächeninhalt durch Integration 3, Stammfunktion 1,
+Ableitungsgraph 2, Grenzwerte 1, Gleichungen lösen 1, Rekonstruktion 1,
+Analytische Geometrie 8, Stochastik 5. Fast alles davon sind
+Standardfertigkeiten, die der Pool in Teil A nicht stellt, weil er sie in
+Ketten bündelt (Wendepunkte berechnen, Extremstellen ohne Art, Achsenschnittpunkte
+eines Graphen); das Landesheft fragt sie einzeln und mit eigener Punktzahl.
+Vorschläge für den nächsten Abgleichlauf: „Grenzverhalten eines Produkts aus
+Polynom und e-Funktion angeben" neben „Nullstelle und Grenzverhalten …" (iqb,
+mit Nullstelle) – zusammenziehen, wenn die Nullstelle als Nebenleistung
+gelten darf; „Punkt: Teilpunkte einer Strecke in drei gleiche Abschnitte
+berechnen" allgemein als Teilverhältnis fassen (3 a nutzt ihn für 1 : 3);
+„Transformation: Terme der an den Koordinatenachsen gespiegelten Randlinien
+angeben" gegen „Term und Intervall des an der y-Achse gespiegelten Graphen"
+prüfen.
+
+*Schnitt.* 42 Werte auf 58 Zeilen; 24 Zeilen (41 %) liegen auf Werten, die
+das grundlegende Niveau (Pool ga und Heft 2018-be-gk) schon hat; **ein Wert
+neu im Gesamtbestand**: Flächeninhalt durch Integration × Fläche × zeichnen
+(2.1 m, Randlinien an der Sehne spiegeln und Lösungsweg beschreiben). Gegen
+das grundlegende Niveau allein sind zwei Werte neu (dazu Kurvenuntersuchung ×
+– × zeichnen, das der Pool nur auf erhöhtem Niveau hat). Gesamtbestand nach
+dem Heft: 184 Schnittwerte (be-gk 150, bb-ea 171). Das ist derselbe Befund wie
+in der Messung vom 15.09.2026: das Landesheft liegt fast vollständig auf dem
+Poolschnitt, obwohl 64 % seiner Typen neu sind – der Schnitt trägt, der Typ
+bleibt Feinetikett.
+
+*Eichung.* 11 von 11 gewerteten Zeilen (100 %) – das sind genau die elf
+Pool-Dubletten, deren afb_amtlich und „AB amtlich" aus dem Standardbezug der
+Poolzeile übernommen sind; die Schätzung wurde vor dem Blick auf die Poolzeile
+gesetzt, trifft aber naturgemäß dieselben Bereiche wie bei der Poolerfassung.
+Die 47 Landeszeilen haben keinen amtlichen Bereich (kein Erwartungshorizont
+im Scan). Die Eichung eines Landeshefts misst also nur den Poolanteil.
+
+*Poolquote.* 11 von 58 Teilaufgaben (19 %) und 30 von 185 angebotenen BE
+(16 %; von 140 zu bearbeitenden 21 %) stehen wortgleich im Pool 2023
+grundlegend: Teil A Analysis 1 (1.2 a, b) und AG/LA (A2) 1.2 (a, b), Teil B
+Stochastik WTR 3 (Aufgabenteil 1 a–e, Aufgabenteil 2 a und c). Zum Vergleich
+2018-bb-ea Teil 1: 4 von 4 Analysis-/Geometriezeilen (10 von 15 BE, 67 %) aus
+dem Pool. Die Quote schwankt zwischen den Jahrgängen stark und wird je Heft
+mitgeführt (Spalte „Pool" in der Kennzahlentabelle § 2).
+
+*Unsichere Zeilen* (3, erlaubt 5): 1.2 a (Integral näherungsweise aus der
+Abbildung, ≈ 2,9), 1.7 a (P(3 < X < 6) aus dem Säulendiagramm, ≈ 0,29), 2.2 h
+(Durchschnittstemperatur am Graphen, ≈ 230 °C) – Ablesewerte ohne amtliche
+Lösung. Kontextgebunden (Traegerbindung: Kontext) 8 Zeilen: 2.1 i–m
+(Tischplatte, Maßstab, Karton) und 2.2 h, i, k (Backofen); 14 %, wie in
+den Teil-B-Stapeln des Pools (8 %) eher selten. Nicht lesbare Abbildungen:
+keine; Seite 14 (Aufgabenteil 2) unscharf, der Erwartungswertterm ist gegen
+die Poolzeile geprüft. Themen, die nicht passten: keine („ersatzweise" 0);
+Geltung: alle 58 Zeilen liegen für alle vier Zielprüfungen in der Geltung – die
+Aufgaben 4.1 g/h (6 aus 20, Lotto-Modell) stehen unter Zufallsexperimente und
+Urnenmodelle, nicht unter Hypergeometrische Verteilung, weil Berlin die
+Verteilung als Begriff nicht verlangt (abitur-vokabular.md § 3).
+
+*Befunde am Heft.* (1) 2.2 k verlangt eine Funktion dritten Grades mit
+k(0) = 20, k′(0) = 130 und Hochpunkt H(5 | 220); die vier Bedingungen liefern
+eindeutig k(x) = 2x³ − 28x² + 130x + 20, aber k″(5) = 4 > 0 – H ist bei dieser
+Funktion ein Tiefpunkt. Das Heft meint mit „Hochpunkt" nur die Bedingungen
+k(5) = 220 und k′(5) = 0 (Steckbriefaufgabe); in bemerkung festgehalten.
+(2) 3 b: Lage zweier Ebenen unter Thema Ebenen abgelegt, nicht unter
+Lagebeziehungen (dort nur die Klassen Punkt und Ebene, Gerade und Ebene) – analog
+zur Lesart in abitur-vokabular.md § 4, nach der Lagen zweier Geraden unter
+Geraden liegen; keine neue Klasse nötig. (3) Der Stark-Scan hat keine
+Lösungen, alle 58 Ergebnisse sind eigene Rechnung (sympy), die elf Poolzeilen
+zusätzlich gegen die amtlichen Ergebnisse der iqb-Zeilen geprüft. (4) 1.5 b
+(Punkt D mit gleichen Abständen) hat unendlich viele Lösungen, erfasst ist die
+naheliegende Punktspiegelung am Seitenmittelpunkt (Raute).
+
+*Trägt abi-bau.py v0.4 das Heft?* Ja, mit einer Anpassung: der Test auf
+ASCII-Minus schlug bei Pool-Kennungen mit Aufgabennummer („WTR3-1a") in
+bemerkung an; die Kennungen werden jetzt vor dem Test ausgeblendet (wie beim
+Umlaut-Test). Alles andere trug: zweistufige und einstufige Aufgabennummern
+(2.1, 3, 4.1), Kürzel bebb, Dublettenverweis mit Typ- und Punktvergleich,
+afb_amtlich nur bei Poolzeilen, Eichung ab 10 gewerteten Zeilen scharf,
+Vollständigkeit über KONFIG["soll"] mit zwölf Aufgaben, Kennzahlenzeile. Nicht
+im Skript, aber gebraucht: nichts. Offen bleibt, wie eine Poolquote je Heft
+automatisch ausgegeben wird – die Zahl „Pool-Dubletten" steht in der
+Kennzahlenzeile, die BE-Summe der Dubletten nicht (hier 30 von 185, von Hand).
+
+*Aufwand.* Lesen der 14 Scanseiten mit Typsuche 12 Minuten, Rechnen (sympy)
+und Bau der 58 Zeilen 12 Minuten, Lauf, HEAD-Rerun und Selbstprüfungen 3
+Minuten – 27 Minuten bis zur bestandenen Selbstprüfung (07:58 bis 08:25 Uhr),
+Nachführen etwa 10 Minuten. Rund 28 Sekunden je Zeile; vergleichbar mit den
+Teil-B-Stapeln des Pools (16 bis 29 Minuten für 45 bis 69 Zeilen). Die
+Sichtung am Vortag (Seiten rendern, BE-Tabelle, Pool-Abgleich, 8 Minuten)
+kommt hinzu.
 
 **Umstellungslauf 12 – gemeinsame Typenliste für abi und iqb (Entscheidung
 25, Auftrag „Weg A umsetzen", 15.09.2026).** Grundlage abi-iqb-typen.md
@@ -495,6 +612,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Heft 2023-bebb-gk erfasst (Stark-Scan, abi-bau.py v0.4): 58 Zeilen aus 12 Aufgaben, Katalog 171 Zeilen, Typenliste 913 (38 neu, 19 iqb-Typen übernommen), 11 Pool-Dubletten mit „Dublette von:“ (30 von 185 BE). Alle Punktsummen geprüft, Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 11 von 11 (nur Poolzeilen), 3 Zeilen mit „?“ (Ablesewerte), 0 ersatzweise, 8 kontextgebunden; Schnitt 42 Werte, 1 neu im Gesamtbestand (184). Skriptanpassung: Pool-Kennungen vom ASCII-Minus-Test ausgenommen. Befunde in § 4. |
 | 2026-09-16 | Abgleichlauf 13 (abgleich.py v0.13, Entscheidung 26 „Themenfeld bereinigen"): Zeilenthema = Typthema. abi-katalog.csv: 11 Zeilen leitidee/thema aus dem Typ (2018-bb-ea A1.2b, B2.1b, B2.1d, B3.2c, B4.1c; 2017-bb-ea B2.1e, B2.2e [auch leitidee], B4.2a, B4.2c; 2018-be-gk B2.1c, B3.1e), 2 Zeilen behalten ihr Thema, weil der Typ wechselt (2018-be-gk B1.2f: „Kleinste Tangentensteigung …" → Ableitung und Änderungsrate; B2.2b: „Ebene Figur: Trapez …" → Punkte und Strecken); doppelte Nennung des typ in typ_neben gestrichen (2017-bb-ea B4.2a, 2018-be-gk B3.2a); Vermerke in bemerkung (B4.2a, B2.2e). iqb: 8 Zeilen plus 3 Folgezeilen, ein Präfix („Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen", Zufallsexperimente). Typen 875 unverändert; Schnitt 183 Werte (vorher 189 nach Zeilenthema), Teil-B-Reihen unverändert. abi-bau.py v0.4, iqb-bau.py v1.1 (Assert, Schnitt über Typthema, Handlungen aus dem Kern), Kern v0.4, abitur-vokabular.md v1.1, abi.md v0.9, iqb.md v1.3, konzept.md Entscheidung 26. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. |
 | 2026-09-15 | Umstellungslauf 12 (abgleich.py v0.12, Entscheidung 25): abi-typen.csv und iqb-typen.csv → abitur-typen.csv (938 → 875 Typen); 50 abi-Typen in inhaltsgleiche iqb-Typen aufgegangen, 2 gleichnamig, 11 überlappende Paare zusammengezogen (M1–M11, drei iqb-Umbenennungen), 15 Präfixe, 2 Themenwechsel; abi-katalog.csv 98 Typfelder in 75 Zeilen umetikettiert, iqb-katalog.csv 5 Typfelder in 5 Zeilen; Feldkorrektur „Dublette von:“ in 4 Zeilen (2018-bb-ea Teil 1 = Pool 2018 erhöht). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Bericht mit Klassenentscheidungen und strittigen Paaren in § 4. |
 | 2026-09-15 | Weg A vorbereitet (Entscheidung 25): abitur-vokabular.md v1.0 (Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen, Handlungen, Rechnerfassung – aus iqb.md und abi.md, Abweichungen in § 7); abgleich.py v0.12 (vorher iqb-abgleich.py, zwei Kataloge, Lauf 12); abi-bau.py v0.3 auf dem Stand von iqb-bau.py v1.0 (Präfixregel, Schwellen, Eichung, Vollständigkeit, Dublettenverweis, Trägerbindung, Kennzahlen; Zeilenblock geleert); iqb-bau.py v1.0 (Vokabular aus abitur-vokabular.md, gemeinsame Typenliste, Zeilenblock geleert); abi.md v0.8, iqb.md v1.2, CLAUDE.md, konzept.md Entscheidung 25, README.md. Katalog und Typen unverändert; läuft erst mit dem Umstellungslauf. |

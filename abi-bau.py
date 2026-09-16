@@ -50,14 +50,16 @@ import csv, io, os, re, sys
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2018",
-    "papier": "2018-be-gk",
-    "datei": "18_Ma_GK_Aufgaben.pdf",
-    "seiten": 11,
-    # Sollpunkte je Aufgabe aus der BE-Tabelle am Ende jeder Aufgabe; jede
-    # Aufgabe des Hefts muss hier stehen (Vollständigkeit). Kein Gesamtsoll:
-    # Wahlaufgaben.
-    "soll": {"1.1": 40, "1.2": 40, "2.1": 20, "2.2": 20, "3.1": 20, "3.2": 20},
+    "jahr": "2023",
+    "papier": "2023-bebb-gk",
+    "datei": "hefte/2023-bebb-gk.pdf",  # Stark-Band, Scan, lokal (abi.md § 2)
+    "seiten": 14,
+    # Sollpunkte je Aufgabe aus der BE-Spalte; jede Aufgabe des Hefts muss hier
+    # stehen (Vollständigkeit). Kein Gesamtsoll: Wahlaufgabe 2.1/2.2. Der
+    # hilfsmittelfreie Teil (Aufgabe 1) zählt als 1.1 bis 1.7 in Heftreihenfolge,
+    # Aufgabe 4 als 4.1 und 4.2 (Aufgabenteil 1 und 2).
+    "soll": {"1.1": 5, "1.2": 5, "1.3": 5, "1.4": 5, "1.5": 5, "1.6": 5, "1.7": 5,
+             "2.1": 45, "2.2": 45, "3": 30, "4.1": 20, "4.2": 10},
     # Summe des hilfsmittelfreien Teils (bb-ea bis 2018: 15), sonst weglassen.
     # True: Probelauf – prüfen und berichten, nichts schreiben, Heft darf
     # unvollständig sein.
@@ -302,8 +304,9 @@ def row(**kw):
 #       fehlerquelle="...", bemerkung="Eigene Rechnung.")
 # Pool-Teilaufgabe in einem Landesheft: bemerkung beginnt mit
 #   „Dublette von: 2023MgrundlegendAAnalysis12-a." – typ und typ_neben wie dort.
-# Der Block ist nach dem Umstellungslauf 12 (15.09.2026) leer; die Hefte
-# 2017-bb-ea, 2018-bb-ea und 2018-be-gk stehen im Katalog.
+# Der Block ist leer; zuletzt erfasst: 2023-bebb-gk (16.09.2026, 58 Zeilen, 38 neue
+# Typen, KONFIG oben; Lauf aus dem HEAD-Stand byteidentisch). Die Hefte 2017-bb-ea,
+# 2018-bb-ea, 2018-be-gk und 2023-bebb-gk stehen im Katalog.
 
 NEUE_TYPEN = [
     # ("Typname", "Sachgebiet", "Thema", "Definition in einem Satz.", "beispiel_id"),
@@ -434,7 +437,8 @@ def pruefe_zeile(z, a, andere, heftkennung=True):
     for k, v in z.items():
         a("?" not in v or k == "bemerkung" or z["bemerkung"].strip() != "",
           f"{i}: Fragezeichen in {k} ohne Grund in bemerkung")
-        a(not re.search(r"(?<=[\d\s(])-(?=\d)", v),
+        # Pool-Kennungen (…WTR3-1a) tragen den Bindestrich vor der Aufgabennummer, v0.4
+        a(not re.search(r"(?<=[\d\s(])-(?=\d)", KENNUNG.sub(" ", v)),
           f"{i}: ASCII-Bindestrich als Minus in {k}")
         if k not in OHNE_UMLAUT:
             treffer = [w for w in UMSCHRIFT if w in ohne_feldnamen(v)]
