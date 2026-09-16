@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.3 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.1 und iqb.md v1.5
+Version 1.3 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.2 und iqb.md v1.6
 
 Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" bleibt unverändert.

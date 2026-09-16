@@ -1,5 +1,8 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.5 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.5 (Schema-Version 2)
+Version 1.6 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.5 (Schema-Version 2)
+Änderungen gegenüber 1.5 (Auftrag „Geltung klären"): § 6 Poolzeilen weiter
+gegen alle vier Spalten, die bebb-Regel gilt nur für abi
+(abitur-vokabular.md v1.2).
 Änderungen gegenüber 1.4 (Auftrag „Reserve öffnen, Verweise schließen, Heft
 2024 erfassen"): § 7 Vormerkung als Übergangszustand (offener Posten), Verweis
 „Abgewandelt von:" in der Kennzahl „in Landesheften"; § 2 Reserve-Stapel
@@ -276,8 +279,12 @@ ist mit der Geltungstabelle nach abitur-vokabular.md § 3 gewandert.
 **Zeilenthema = Typthema** (16.09.2026, abitur-vokabular.md § 4): leitidee
 und thema einer Zeile sind die ihres Typs, iqb-bau.py erzwingt das, der
 Schnitt wird über das Thema des Typs gezählt; die acht iqb-Zeilen, die davon
-abwichen, hat Lauf 13 nachgezogen (iqb-pruefungen.md § 5). Profilspezifisch
-bleiben:
+abwichen, hat Lauf 13 nachgezogen (iqb-pruefungen.md § 5). Poolzeilen haben
+kein eigenes Zielheft und werden gegen alle vier Spalten der Geltungstabelle
+gezählt; die Regel für gemeinsame Landeshefte bebb (Zeile gilt, wenn sie in
+einer der beiden Spalten des Niveaus liegt; Entscheidung des Lehrers,
+16.09.2026) betrifft nur das Profil abi (abitur-vokabular.md § 3, abi.md § 6).
+Profilspezifisch bleiben:
 
 - **Aufgabengruppe A1** ist überwiegend Matrizen (Verflechtung,
   Übergangsprozesse, Matrizenalgebra) und liegt für alle vier Zielprüfungen

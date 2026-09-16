@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.6 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.1 und abi.md v0.11
+Version 0.7 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.2 und abi.md v0.12
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" und unter „AB HIER UNVERÄNDERT" bleibt unverändert.
+
+Änderungen gegenüber 0.6 (Auftrag „Geltung klären, Reste schließen, vier
+Stark-Hefte erfassen", 16.09.2026): Geltung je Heft – ein Heft wird gegen die
+Zielprüfung(en) seines papier-Kürzels gemessen (ziele_von: be-gk, be-lk,
+bb-ea; gemeinsame Hefte bebb-gk gegen be-gk und bb-gk, bebb-lk gegen be-lk
+und bb-ea); eine Zeile liegt in der Geltung, wenn ihr Thema in mindestens
+einer dieser Spalten gilt, der Bericht nennt beide Spalten einzeln und
+daneben weiter alle vier Zielprüfungen (abitur-vokabular.md § 3).
 
 Änderungen gegenüber 0.5 (Auftrag „Reserve öffnen, Verweise schließen",
 16.09.2026): Die Vormerkung „Poolaufgabe (nicht erfasst …)" ist ein
@@ -280,6 +288,26 @@ def niveau_von(papier):
     """Niveau aus dem papier-Kürzel: gk, lk oder ea (abi.md § 4)."""
     m = PAPIER.fullmatch(papier)
     return m.group(3) if m else ""
+
+
+def ziele_von(papier):
+    """Zielprüfungen, gegen die ein Heft gemessen wird (abitur-vokabular.md § 3, Entscheidung
+    des Lehrers 16.09.2026): be-gk → be-gk, be-lk → be-lk, bb-ea → bb-ea; gemeinsame Hefte
+    bebb-gk → be-gk und bb-gk, bebb-lk → be-lk und bb-ea. Eine Zeile liegt in der Geltung des
+    Hefts, wenn ihr Thema in mindestens einer dieser Spalten gilt; der Bericht nennt beide."""
+    m = PAPIER.fullmatch(papier)
+    if not m:
+        return []
+    land, niveau = m.group(2), m.group(3)
+    if land == "bebb":
+        return ["be-gk", "bb-gk"] if niveau == "gk" else ["be-lk", "bb-ea"]
+    return [f"{land}-{niveau}"]
+
+
+def in_geltung(z, ziele=None):
+    """True, wenn das Thema der Zeile in mindestens einer Zielprüfung ihres Hefts gilt."""
+    ziele = ziele or ziele_von(z["papier"])
+    return any(ziel in GELTUNG.get(z["thema"], set()) for ziel in ziele)
 
 
 HEAD, VOK, LEITIDEEN, THEMEN = vokabular()
@@ -618,7 +646,15 @@ def main():
             print(f"Eichung: keine Zeile mit amtlichem Bereich ({len(alt)} Zeilen).")
         print("Außerhalb der Geltung: " + ", ".join(
             f"{ziel} {sum(1 for z in alt if ziel not in GELTUNG.get(z['thema'], set()))}"
-            for ziel in ZIELE) + f" von {len(alt)} Zeilen")
+            for ziel in ZIELE) + f" von {len(alt)} Zeilen (jede Zeile gegen jede Zielprüfung)")
+        # Geltung des eigenen Hefts (v0.7): Zielprüfungen aus dem papier-Kürzel, bebb gegen beide
+        for h in hefte:
+            zh = [z for z in alt if z["papier"] == h]
+            ziele = ziele_von(h)
+            aus = [z["id"] for z in zh if not in_geltung(z, ziele)]
+            print(f"Geltung {h} ({' oder '.join(ziele)}): {len(zh) - len(aus)} von {len(zh)} Zeilen in Geltung"
+                  + (f", außerhalb: {', '.join(aus)}" if aus else "")
+                  + "".join(f"; nur {ziel}: {sum(1 for z in zh if ziel not in GELTUNG.get(z['thema'], set()))} außerhalb" for ziel in ziele if len(ziele) > 1))
         werte = {schnitt(z) for z in alt}
         andere_werte = {schnitt(z) for z in andere_liste}
         print(f"Schnitt: {len(werte)} Werte auf {len(alt)} Zeilen, {len(werte - andere_werte)} davon nicht "
@@ -779,7 +815,15 @@ def main():
     schnitt_alle = {schnitt(z) for z in alt} | {schnitt(z) for z in andere_liste}
     schnitt_neu = {schnitt(z) for z in ZEILEN}
     schnitt_bekannt = sum(1 for z in ZEILEN if schnitt(z) in schnitt_alt)
-    geltung_txt = ", ".join(f"{ziel} {len(ids)}" for ziel, ids in ausserhalb.items())
+    # Geltung des Hefts (v0.7): eigene Zielprüfung(en) aus dem papier-Kürzel; bei bebb-Heften
+    # liegt eine Zeile in der Geltung, wenn ihr Thema in einer der beiden Spalten gilt.
+    ziele_heft = ziele_von(KONFIG["papier"])
+    aus_heft = [z["id"] for z in ZEILEN if not in_geltung(z, ziele_heft)]
+    geltung_txt = (f"Heft ({' oder '.join(ziele_heft)}) {len(aus_heft)}"
+                   + ("".join(f", nur {ziel} {len(ausserhalb[ziel])}" for ziel in ziele_heft) if len(ziele_heft) > 1 else "")
+                   + "; alle Zielprüfungen: " + ", ".join(f"{ziel} {len(ids)}" for ziel, ids in ausserhalb.items()))
+    if aus_heft:
+        print(f"Außerhalb der Geltung des Hefts ({' oder '.join(ziele_heft)}): {', '.join(aus_heft)}")
     for ziel, ids in ausserhalb.items():
         if ids:
             print(f"Außerhalb der Geltung {ziel}: {', '.join(ids)}")

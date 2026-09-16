@@ -1,5 +1,8 @@
 # VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
-Version 1.1 · 16.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Version 1.2 · 16.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Änderungen gegenüber 1.1 (Auftrag „Geltung klären", Entscheidung des Lehrers
+16.09.2026): § 3 Geltung gemeinsamer Hefte Berlin/Brandenburg (bebb) – gegen
+beide Spalten, eine Zeile gilt, wenn sie in mindestens einer liegt.
 
 Diese Datei ist die eine Quelle für alles, was abi und iqb an Vokabular
 oberhalb des Typs teilen: Sachgebiet (§ 1), Themenliste (§ 2),
@@ -99,6 +102,17 @@ Zeilen, deren Thema für eine Zielprüfung nicht gilt; gefiltert wird über das
 Thema, ein Zeilenfeld gibt es dafür nicht (Geltung ist eine Eigenschaft des
 Themas, nicht der Zeile). Das Abbruchkriterium der Erfassung (iqb.md § 6)
 zählt neue Schnittwerte innerhalb der Geltung.
+
+**Geltung eines Hefts** (Entscheidung des Lehrers, 16.09.2026): Ein
+Landesheft wird gegen die Zielprüfung seines Kürzels gemessen (be-gk, be-lk,
+bb-ea). Ein gemeinsames Heft Berlin/Brandenburg gilt für zwei Zielprüfungen:
+bebb-gk für be-gk und bb-gk, bebb-lk für be-lk und bb-ea. Eine bebb-Zeile
+liegt in der Geltung, wenn ihr Thema in mindestens einer der beiden Spalten
+gilt; der Bericht nennt daneben beide Spalten einzeln (abi-bau.py v0.7,
+Kennzahl „außerhalb der Geltung" je Heft). Für Poolzeilen (iqb) ändert sich
+nichts: sie werden weiter gegen alle vier Spalten gezählt. Die beiden
+Spalten je Niveau unterscheiden sich derzeit nur bei der hypergeometrischen
+Verteilung (Brandenburg ja, Berlin nein); eine bebb-Zeile dazu gilt.
 
 | Thema | be-gk | be-lk | bb-gk | bb-ea |
 |---|---|---|---|---|

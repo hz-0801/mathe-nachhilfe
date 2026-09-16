@@ -1,5 +1,9 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.11 · 16.09.2026 · Kennung abi · gilt mit Kern v0.5 (Schema-Version 2)
+Version 0.12 · 16.09.2026 · Kennung abi · gilt mit Kern v0.5 (Schema-Version 2)
+Änderungen gegenüber 0.11 (Auftrag „Geltung klären, Reste schließen, vier
+Stark-Hefte erfassen"): § 6 Geltung je Heft, gemeinsame Hefte bebb gegen
+beide Zielprüfungen (abi-bau.py v0.7); § 2 erste erhöhte Hefte im Bestand
+(2022-bebb-lk, 2023-bebb-lk).
 Änderungen gegenüber 0.10 (Auftrag „Reserve öffnen, Verweise schließen, Heft
 2024 erfassen"): § 7 Vorstufe als Übergangszustand (offener Posten, bis der
 Stapel erfasst ist), Verweis „Abgewandelt von: <id>; <Unterschied>." für
@@ -230,6 +234,14 @@ Typthema** (16.09.2026, abitur-vokabular.md § 4): leitidee und thema einer
 Zeile sind die ihres Typs, abi-bau.py erzwingt das; wer bei einer Zeile ein
 anderes Thema für richtig hält, wechselt den Typ oder meldet den Typ für den
 Abgleichlauf. Der Schnitt wird über das Thema des Typs gezählt.
+
+**Geltung je Heft** (Entscheidung des Lehrers, 16.09.2026, abitur-vokabular.md
+§ 3): Ein Heft wird gegen die Zielprüfung(en) seines Kürzels gemessen – be-gk,
+be-lk, bb-ea; die gemeinsamen Hefte bebb-gk gegen be-gk und bb-gk, bebb-lk
+gegen be-lk und bb-ea. Eine Zeile liegt in der Geltung des Hefts, wenn ihr
+Thema in mindestens einer dieser Spalten gilt; abi-bau.py (v0.7) nennt in der
+Kennzahlenzeile die Zahl außerhalb der Heftgeltung, bei bebb dazu beide
+Spalten einzeln, und weiterhin alle vier Zielprüfungen.
 
 **Bekannte Lücken** (Feldprobe 2018-bb-ea und die Hefte 2017/2018): relative
 Abweichung in Prozent, elementargeometrische Nebenrechnungen (Sechseck),
