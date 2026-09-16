@@ -33,6 +33,7 @@ in vorgaben.md.
 | 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 19 Vormerkungen auf den Pool 2022 Teil B) · Sichtung im selben Lauf (§ 4) |
 | 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten, 170 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 32 Zeilen Pool-Dubletten mit Verweis, 1 abgewandelt) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
+| 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten, 170 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 | 2025 | 2025-bebb-gk | BE/BB | grundlegend | WTR | 8 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 39 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 
@@ -59,6 +60,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), davon 16 Zeilen vorgemerkt (Pool 2022 Teil B nicht erfasst); abgewandelt 3 Zeilen, 11 BE |
 | 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %), alle 32 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %); abgewandelt 1 Zeile, 4 BE |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
+| 2023-bebb-lk | 66 | 68 | 24 (35 %) | 27 von 33 (82 %), alle 33 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 4 von 68 (6 %, Niveau lk = 2022-bebb-lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 2, nur bb-ea 0; alle: be-gk 25, be-lk 2, bb-gk 23, bb-ea 0 | 42 Werte, 62 von 66 Zeilen im erhöhten Niveau (Pool) bekannt (94 %), 2 Werte neu im Gesamtbestand | 33 von 66; 105 von 220 (48 %); abgewandelt 2 Zeilen, 9 BE |
 | 2024-bebb-gk | 47 | 46 | 16 (35 %) | 17 von 20 (85 %) | 0 | 0 | 7 von 46 (15 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 45 von 47 Zeilen im Niveau bekannt (96 %), 1 Wert neu im Gesamtbestand | 20 von 47; 55 von 155 (35 %) |
 | 2025-bebb-gk | 39 | 43 | 4 (9 %) | 34 von 34 (100 %) | 0 | 0 | 12 von 43 (28 %) | Heft (be-gk oder bb-gk) 0, beide Spalten 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 38 von 39 Zeilen im Niveau bekannt (97 %), 0 Werte neu im Gesamtbestand | 34 von 39; 100 von 125 (80 %) |
 
@@ -735,6 +737,118 @@ der 32 Dubletten, 36 Zeilen von Hand, 23 Typen, Lauf, Schwellenbefund und
 Skriptänderung v0.8, HEAD-Rerun und Selbstprüfung: etwa 80 Minuten; ein Lauf
 wegen der Eichschwelle wiederholt.
 
+**2023-bebb-lk erfasst (16.09.2026, Auftrag „Geltung klären, Reste
+schließen, vier Stark-Hefte erfassen", Punkt 3 und 4; abi-bau.py v0.8).**
+Zweites Heft des erhöhten Niveaus (Geltung be-lk oder bb-ea). Sichtung im
+selben Lauf: hefte/2023-bebb-lk.pdf, 14 Seiten, Bildscan ohne Textebene,
+gerendert mit pypdfium2; Verlagsseiten 2023-1, -2, -3, -11, -12, -13, -20,
+-21, -22, -31, -32, -39, -40, -41; die Lücken sind Tipp- und Lösungsseiten,
+das Heft ist vollständig, keine Anlage. Scanqualität: Seite 13 (Aufgabe 4,
+Aufgabenteil 2 a–d) unscharf und am rechten Rand beschnitten – Text mit
+Vergrößerung gelesen, BE der Poolteile aus den Poolzeilen, die vier BE der
+Landesteile c und d über das Heftsoll 40 gesichert; Handschatten auf den
+Seiten 2, 6, 8, 10, 11 und 14, sonst alles lesbar. 66 Zeilen aus 12 Aufgaben
+(1.1 bis 1.8 der hilfsmittelfreie Teil in Heftreihenfolge, je 5 BE; 2.1; 2.2
+mit zwei Aufgabenteilen als a–n; 3; 4 mit zwei Aufgabenteilen als a–l); alle
+zwölf Punktsummen stimmen (8 × 5, 50, 50, 40, 40 = 220 BE angeboten, 170
+bei Wahl). Selbstprüfung beider Bau-Skripte bestanden (abi 448 Zeilen aus 9
+Heften, iqb 1206 Zeilen, 1090 Typen, 198 in beiden Katalogen), Lauf aus dem
+HEAD-Stand byteidentisch.
+
+*Pool-Abgleich (gegen den erhöhten Pool 2023, Teil A und B erfasst).* **33
+von 66 Zeilen sind wortgleiche Poolaufgaben, 105 von 220 angebotenen BE
+(48 %)**, dazu zwei abgewandelte (3 e, 3 g; 9 BE). Sitz im Heft: im
+hilfsmittelfreien Teil sechs der acht Einheiten (1.1 = Analysis 1.1, 1.3 =
+Analysis 1.2, 1.5 = AG/LA (A2) 1.3, 1.6 = AG/LA (A2) 2.2, 1.7 = Stochastik
+1.1, 1.8 = Stochastik 2.2 – 30 von 40 BE; Landes nur 1.2 (ln-Funktion) und
+1.4 (f' vorgegeben)); 2.2 (Stau) ist Analysis WTR 1 – Aufgabenteil 1
+vollständig, Aufgabenteil 2 a, c, d –, die Poolteilaufgabe 2 b (gemeinsame
+Punkte der Schar) ist durch vier Landeszusätze i–l ersetzt (waagerechte
+Tangente in A, Tiefpunkt oder Sattelpunkt nach der Parität, Fläche zwischen
+h₁ und h₂, Parameter aus einer Wertdifferenz; 37 von 50 BE aus dem Pool); 3
+(Körper) ist AG/LA (A2) WTR 2 in a–d und f (18 BE), e und g sind
+abgewandelt (e: das Heft nennt die vier Kanten und lässt die Punkte auf g
+suchen, der Pool fragt nach dem Parameterbereich; g: das Heft verlangt die
+Beschreibung des Lösungswegs für 5 BE, der Pool gibt den Rechenweg vor und
+fragt nach Aufgabenstellung und Bedeutung von S für 3 BE), h–k sind
+Landeszusätze mit der Ebenenschar H_d (Kante in der Ebene, Schnittdreieck,
+Abstand 1, kleinstes d₀); 4 (Urlaubsreise) ist Stochastik WTR 2 in
+Aufgabenteil 1 c–f und Aufgabenteil 2 a–b (20 BE), a und b (Binomialtest auf
+Anteile, Termdeutung) sowie Aufgabenteil 2 c–f (Entscheidungsregel, Fehler
+zweiter Art, zweimal hypergeometrisch) sind Landeszusätze – die
+Poolteilaufgabe 2 c (Nutzen eines größeren Umfangs an den Gütekurven) fehlt
+im Heft. 2.1 (Trainingsstrecke, Schar (4a − x) · e^(x/2) mit Skipiste, 50
+BE, 13 Zeilen) ist ganz Landesaufgabe. Nach zu bearbeitenden BE: 55 oder 105
+von 170 (32 % oder 62 %), je nach Wahl 2.1 oder 2.2. Muster wie 2022-bebb-lk:
+Poolaufgaben mit ersetzten oder ergänzten Teilaufgaben, der Landesanteil sitzt
+in der Funktionenschar 2.1 und in den Zusätzen. Das Heft schreibt in Aufgabe
+3 wie der Pool x₁, x₂, x₃, im hilfsmittelfreien Teil x, y, z. Die 33
+Dubletten-Zeilen sind aus den Poolzeilen erzeugt (dubletten.py);
+Wortgleichheit je Teilaufgabe am Heft geprüft. Kontextgebundene Zeilen:
+keine.
+
+*Typen.* 68 verwendet, 24 neu (35 %), 40 im iqb-Katalog vorhanden (33 über
+die Dubletten, dazu wiederverwendet: Grenzverhalten eines Produkts aus
+Polynom und e-Funktion, Stammfunktion durch Ableiten, Fläche zwischen zwei
+Graphen, kumulierte Binomialwahrscheinlichkeit mit dem Rechner,
+Entscheidungsregel eines einseitigen Tests, hypergeometrische
+Wahrscheinlichkeit über Binomialkoeffizienten, als Nebentyp Flächeninhalt
+mit Maßstab), 4 aus dem abi-Bestand (Definitionsbereich einer
+Logarithmusfunktion 2017-bb-ea, vertikaler Abstand als Differenz von
+Funktionswerten 2018-be-gk, Grenzverhalten 2023-bebb-gk, Ortskurve durch
+Elimination 2022-bebb-lk). Die neuen Typen nach Thema: Funktionsscharen und
+Ortskurven 9 (Achsendreieck der Schar, Ableitung mit zusammenhängendem
+Monotoniebereich, einziger Extrempunkt, konstanter Abstand von Extrem- und
+Wendestelle, Schnittwinkel mit der Ortskurve, kleinster Abstand zum Ursprung
+an der Ortskurve, waagerechte Tangente aller Scharkurven, Tiefpunkt oder
+Sattelpunkt nach der Parität, Parameter aus einer Wertdifferenz), Scharen
+von Geraden und Ebenen 5 (Punkte auf g für eine Ebene durch die Achse, Kante
+in der Scharebene, weiterer Eckpunkt des Schnittdreiecks, Abstand zur
+Scharebene, kleinstes d₀), Rekonstruktion 3 (Integrationskonstante aus einer
+Tangente, Unmöglichkeit einer einzigen Parabel, Parabel ohne lineares Glied
+aus einem Flächeninhalt), Kurvenuntersuchung 1, Tangente 1, Gleichungen lösen
+1 (achsenparallele Quadrate), Punkte und Strecken 1 (Lösungsweg einer Drehung
+beschreiben), Ereignisse und Mengenoperationen 1, Hypothesentests 1 (Fehler
+zweiter Art für zwei Anteile mit Deutung), Hypergeometrische Verteilung 1.
+Etikettenfragen: 4 j bekommt einen eigenen Typ neben „Fehler zweiter Art für
+einen selbst gewählten Anteil berechnen und mit einer Schranke vergleichen"
+(2024-ea-B; hier zwei Werte und Deutung) – Kandidat für den Abgleichlauf; 4 k
+läuft unter dem Pooltyp der hypergeometrischen Wahrscheinlichkeit (2024-ea-B,
+dort Nachweis eines Werts); 2.1 f nutzt den Ortskurventyp aus 2022-bebb-lk,
+obwohl die Gleichung vorgegeben ist (gleicher Weg).
+
+*Eichung.* 27 von 33 gewerteten Zeilen (82 %) – alle 33 sind Dubletten mit
+geerbter Schätzung; die sechs Abweichungen (2.2 a, c, g, 3 c, d, 4 e) sind
+die der Poolzeilen 2023-ea-B (dort 55 von 64, das Heft erbt sechs der neun
+Abweichungen; 2023-ea-A ohne Abweichung im Heft). Die Schwelle zählt seit
+v0.8 nur eigene Schätzungen (keine), Kennzahl wie ausgewiesen. Die 33
+Landeszeilen (samt zwei abgewandelten) ohne amtlichen Bereich nach der engen
+Fassung: 6 mit III (Schnittwinkel über den Sonderfall 2.1 g, kleinster
+Abstand an der Ortskurve 2.1 h, Parabel aus dem Flächeninhalt 2.1 m, Punkte
+auf g 3 e, Lösungsweg der Drehung 3 g, kleinstes d₀ 3 k), 17 mit II, 10 mit
+I.
+
+*Schnitt.* 42 Werte auf 66 Zeilen; 62 von 66 Zeilen liegen auf bekannten
+Werten des erhöhten Niveaus, neu im Niveau drei Werte (Ereignisse ·
+angeben, Gleichungen lösen · zeichnen, Rekonstruktion · begründen), **zwei
+davon neu im Gesamtbestand** (Gleichungen lösen · zeichnen aus 2.1 i,
+Rekonstruktion von Funktionsgleichungen · begründen aus 2.1 l; Gesamtbestand
+jetzt 188 Werte, be-gk 154, bb-ea 175). 21 der 33 Landeszeilen liegen auf
+Werten aus Teil A des erhöhten Pools. Geltung: alle 66 Zeilen in der
+Geltung des Hefts (be-lk oder bb-ea); nur gegen be-lk lägen 4 k und 4 l
+außerhalb (Hypergeometrische Verteilung, gilt nur in Brandenburg – erster
+Fall, in dem die Regel „mindestens eine Spalte" bei einem erhöhten Heft
+trägt). **25 Zeilen lägen außerhalb der Geltung der Grundkurse** (be-gk 25,
+bb-gk 23): Funktionsscharen und Ortskurven 15 (1.3 a–b, 2.1 a, c–h, 2.2 h,
+i, j, l, m, n), Scharen von Geraden und Ebenen 6 (1.5 b, 3 e, h–k),
+Hypothesentests 2 (4 i, j), Hypergeometrische Verteilung 2 (4 k, l; für bb-gk
+in Geltung). Neun Schnittwerte des Hefts fehlen im grundlegenden Bestand.
+
+*Aufwand.* Rendern und Lesen der 14 Seiten (Seite 13 mit Vergrößerung),
+Pool-Abgleich gegen 101 Poolzeilen, Rechnung der 31 Landeszeilen und zwei
+abgewandelten mit sympy, Erzeugen der 33 Dubletten, 33 Zeilen von Hand, 24
+Typen, Lauf, HEAD-Rerun und Selbstprüfung: etwa 70 Minuten, kein Rückschlag.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1143,6 +1257,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-16 | Heft 2023-bebb-lk erfasst (erhöht, Geltung be-lk oder bb-ea): 66 Zeilen aus 12 Aufgaben (1.1–1.8, 2.1 a–m, 2.2 a–n, 3 a–k, 4 a–l), Katalog 448 Zeilen, Typenliste 1090 (24 neu). Alle Punktsummen geprüft (8 × 5, 50, 50, 40, 40), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Pool 33 von 66 Zeilen, 105 von 220 BE (48 %), 2 abgewandelt (3 e, 3 g); Dubletten aus den Poolzeilen erzeugt. Zwei neue Schnittwerte (Gleichungen lösen · zeichnen, Rekonstruktion · begründen); 25 Zeilen außerhalb der Geltung der Grundkurse; 4 k und 4 l (hypergeometrisch) nur über bb-ea in Geltung. Eichung 27 von 33, alle geerbt. Seite 13 unscharf, über Poolzeilen und Soll gesichert. |
 | 2026-09-16 | Heft 2022-bebb-lk erfasst (erstes erhöhtes Niveau seit 2018, Geltung be-lk oder bb-ea): 68 Zeilen aus 12 Aufgaben (1.1–1.8, 2.1 a–m, 2.2 a–o, 3 a–k, 4 a–m), Katalog 382 Zeilen, Typenliste 1066 (23 neu). Alle Punktsummen geprüft (8 × 5, 50, 50, 40, 40), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Pool 32 von 68 Zeilen, 100 von 220 BE (45 %), 1 abgewandelt (4 g); Dubletten aus den Poolzeilen erzeugt. Kein neuer Schnittwert; 22 Zeilen außerhalb der Geltung der Grundkurse. **abi-bau.py v0.8:** Eichschwelle zählt nur eigene Schätzungen – Dubletten mit der Schätzung ihrer Poolzeile sind im Pool geeicht (hier 27 von 32 geerbt, 84 %, fünf Abweichungen der Poolzeilen; Schätzungen geprüft und unverändert, iqb.md § 7); Kennzahl Eichung nennt weiter alle gewerteten Zeilen und weist geerbte aus. |
 | 2026-09-16 | Heft 2025-bebb-gk erfasst: 39 Zeilen aus 13 Aufgaben (1.1–1.9, 2.1, 2.2 a–g, 3, 4), Katalog 314 Zeilen, Typenliste 1043 (4 neu). Alle Punktsummen geprüft (9 × 5, 25, 25, 15, 15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 34 von 34. Pool 34 von 39 Zeilen, 100 von 125 BE (80 %): der ganze hilfsmittelfreie Teil, 2.2, 3 und 4; nur 2.1 (Windrad) Landesaufgabe. Kein neuer Schnittwert. Dubletten-Zeilen aus den Poolzeilen erzeugt (dubletten.py). |
 | 2026-09-16 | Heft 2022-bebb-gk erfasst: 57 Zeilen aus 11 Aufgaben (1.1–1.7, 2.1 a–m, 2.2, 3, 4), Katalog 275 Zeilen, Typenliste 1039 (33 neu). Alle Punktsummen geprüft (7 × 5, 45, 45, 30, 30), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 7 von 8. Pool 24 von 57 Zeilen, 72 von 185 BE (39 %): 8 Dubletten auf Teil A 2022, 19 Vormerkungen auf den Pool 2022 Teil B (Reserve; 3 abgewandelt). Kein neuer Schnittwert. BE-Spalte auf den Seiten 4 und 5 beschnitten, über Pool und Soll gesichert. |
