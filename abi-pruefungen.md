@@ -1968,6 +1968,22 @@ einen Sammelbegriff hat („Extrempunkt" mit 29 Verweisen im GK-Band gegen 13
 verschiedene Extrempunkt-Typen in denselben Heften). Kein Vorschlag zur Änderung
 der Typenliste aus diesem Abgleich.
 
+**Markdown-Korpus, Fortsetzung (17.09.2026, Auftrag C, Teil 1; Format nach
+dem ersten Heft 2025-bebb-gk freigegeben).** Je Heft eine Datei
+hefte-md/<kürzel>.md und ein Bildordner hefte-md/<kürzel>/ (Ausschnitte der
+Aufgabenseiten, Graustufen, ≤ 720 px, JPEG q68), außerhalb des Repos
+(.gitignore). Prüfung gegen den Katalog je Heft mit mdcheck.py +
+check_md<kürzel>.py im Scratchpad: Struktur (jede Teilaufgabe des Markdown
+gegen die id im Katalog), BE je Teilaufgabe und Summen, Ergebnisse mit
+sympy aus den LaTeX-Termen des Markdown nachgerechnet und gegen das
+Katalogfeld ergebnis gehalten; Begründungsaufgaben als Stichprobe am
+Markdown gelesen. Abbruchkriterium des Auftrags: mehr als zwei Abweichungen
+in einem Heft.
+
+| Heft | Seiten | Teilaufgaben MD / Katalog | Abw. BE/Struktur | nachgerechnet | Abw. Ergebnis | Abbildungen | Datei | Aufwand | Bemerkung |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-bb-gk | 10 (2026-1 bis -3, -13 f., -22 f., -28, -32 f.; Textebene) | 45 / 45 | 0 | 39 | 0 | 13 (131 KB) | 18.7 KB | 25 min | 1.5.2 und 1.5.3 im Heft ohne Teilaufgabenbuchstaben (im Katalog a). Begründungsaufgaben 1.1 b, 1.5.1 a/b, 2.1 b, 2.2 a, 3 c, 4 c, 4 f am Markdown gegen ergebnis gelesen, stimmig. Stichproben: 1.1 b, 1.5.1 b, 2.1 b, 3 c, 4 f |
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2376,6 +2392,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2026-bb-gk (hefte-md/, außerhalb des Repos): 45 von 45 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 39 Ergebnisse nachgerechnet, 0 Abweichungen; 13 Abbildungen (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 3: Katalog gegen die drei Stark-Stichwortverzeichnisse gemessen (1661 Verweise: 81 % Etikett, 17 % unter anderem Etikett, 2 % ohne Entsprechung – 17 Werkzeuge, 6 Fehlverweise, 10 offen; keine Katalog-Lücke, keine Leerverweise); Körnung Katalog gegen Verzeichnis (§ 4). Keine Zeile geändert. |
 | 2026-09-17 | Auftrag C, Teil 5: Bestandsaufnahme des Repos als repo-bestand.md (53 Dateien je Projekt zugeordnet, Auffälligkeiten; nichts verschoben, umbenannt oder gelöscht). |
 | 2026-09-17 | Auftrag C, Teil 4: hinweise-2027-bebb.md gegen abi.md § 11 geprüft (kein Widerspruch, fünf Ergänzungen gemeldet), hinweise-2021-be-gk.md in abi.md v0.21 § 11 aufgenommen (Struktur bis 2021, Bewertungsschlüssel als Reihe, CAS-Geräteliste), CAS-Befund berichtigt (Prüfungsform bestand weiter, CAS = MMS; abi.md § 3, § 10, abi-quellen.md v0.5 § 5, § 2 hier); Quelldateien in abi-quellen.md § 8 (§ 4). |
