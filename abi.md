@@ -1,5 +1,9 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.17 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Version 0.18 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Änderungen gegenüber 0.17 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 4): § 2 und § 4
+Dateien unter hefte/ heißen wie das Kürzel (2026 umbenannt), Verzeichnis in
+abi-quellen.md § 8.
 Änderungen gegenüber 0.16 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", Teil 3): § 11
 Prüfungsstruktur und Bewertung (Bewertungsschlüssel 2024 und seit 2025,
@@ -105,10 +109,12 @@ die Auswertung über beide Teile hinweg erschweren.
 
 Hefte: abi-quellen.md nennt Verzeichnis, Dateinamen und papier-Kürzel; geholt wird
 mit curl. Veröffentlicht sind nur 2011–2018. Hefte ab 2019 liegen nur in
-Verlagsbänden (Stark) vor; ihre Scans stehen lokal unter hefte/<papier>.pdf
-(reine Bildscans ohne Textebene, jede Seite wird gerendert gelesen) und sind
-über .gitignore vom Repo ausgeschlossen, weil sie urheberrechtlich geschützt
-sind. Bestand und Abgleich je Heft in abi-pruefungen.md.
+Verlagsbänden (Stark) vor; die Dateien stehen lokal unter hefte/<papier>.pdf
+(2022–2025 reine Bildscans ohne Textebene, jede Seite wird gerendert gelesen;
+2019–2021 und 2026 PDFs mit Textebene samt Verlagstipps und -lösungen) und
+sind über .gitignore vom Repo ausgeschlossen, weil sie urheberrechtlich
+geschützt sind; Verzeichnis mit Seiten, Textebene und Erfassungsstand in
+abi-quellen.md § 8. Bestand und Abgleich je Heft in abi-pruefungen.md.
 
 Amtliche Lösungen: für die Landesaufgaben 2017/2018 keine, für die Stark-Scans
 ab 2019 ebenfalls nicht (nur die Aufgabenseiten sind gescannt, die Lösungen des
@@ -207,8 +213,9 @@ CAS-Hefte sind durchgehend eigene Fassungen.
                 und treffen je genau eine Zielprüfung (bb-gk bzw. bb-ea);
                 die Zwei-Spalten-Regel der Geltung (§ 6) gilt für sie nicht
                 (Entscheidung des Lehrers, 17.09.2026).
-            Die Verlagsdateien unter hefte/ tragen für 2026 noch „bebb" im
-            Namen.
+            Die Verlagsdateien unter hefte/ heißen wie das Kürzel
+            (2026-bb-gk.pdf, 2026-bb-ea.pdf; umbenannt 17.09.2026,
+            abi-quellen.md § 8).
             Die Werte stehen in abi-quellen.md § 2 und sind zugleich die
             Dateinamen des Korpus.
     block:  A (hilfsmittelfreier Teil; bis 2018 Aufgabenstellung 1 der

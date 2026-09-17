@@ -30,14 +30,19 @@ in vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
+| 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2019-be-gk.pdf) | – (nicht im Band) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin – Mathematik Grundkurs 2019"; Aufgaben 1 (hilfsmittelfrei), 2.1, 2.2, 3.1, 3.2, 4.1, 4.2 (abi-quellen.md § 8) |
+| 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Datei hefte/2020-be-gk.pdf) | – (nicht im Band) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin – Mathematik Grundkurs 2020"; Aufgaben 1, 2.1, 2.2, 3.1, 3.2, 4.1, 4.2 |
+| 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Datei hefte/2021-be-gk.pdf) | – (nicht im Band) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin – Mathematik Grundkurs 2021"; Aufgaben 1, 2.1, 2.2, 3, 4 (Geometrie und Stochastik ohne Wahl) |
 | 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A drei Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2" nach der gewöhnlichen Wahl) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
 | 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A vier Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 32 Zeilen Pool-Dubletten mit Verweis, 1 abgewandelt) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-gk – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2") | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
 | 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-lk – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
+| 2024 | 2024-bebb-lk | BE/BB | erhöht | WTR | 13 (Scan, nur Aufgabenseiten; Datei hefte/2024-bebb-lk.pdf) | – (nicht im Scan) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2024 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" (abi-quellen.md § 8) |
 | 2025 | 2025-bebb-gk | BE/BB | grundlegend | WTR | 8 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 39 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
-| 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
-| 2026 | 2026-bb-ea | BB | erhöht | WTR | 47 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bebb-lk.pdf) | – (nicht im Band) | 150 angeboten, 100 bei Wahl (Teil-A-Wahl aus 1.5–1.10, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 50 Zeilen** (alle Aufgaben, beide Wahlwege; 39 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
+| 2025 | 2025-bebb-lk | BE/BB | erhöht | WTR | 11 (Scan, nur Aufgabenseiten; Datei hefte/2025-bebb-lk.pdf) | – (nicht im Scan) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2025 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" |
+| 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-gk.pdf, umbenannt 17.09.2026, vorher 2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
+| 2026 | 2026-bb-ea | BB | erhöht | WTR | 47 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-ea.pdf, umbenannt 17.09.2026, vorher 2026-bebb-lk.pdf) | – (nicht im Band) | 150 angeboten, 100 bei Wahl (Teil-A-Wahl aus 1.5–1.10, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 50 Zeilen** (alle Aufgaben, beide Wahlwege; 39 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 
 Leitfassung je Jahr und Niveau: erhöht bb-ea, grundlegend be-gk (abi.md § 7).
 Wortgleiche Zwillinge des anderen Landes werden nicht als Zeile erfasst,
@@ -72,11 +77,13 @@ Kennzahlenzeile (vor v0.3 erfasst).
 
 2011–2016 liegen auf dem Server, werden aber nicht aufgenommen (zeitlicher
 Schnitt bei 2017, alter Rahmenlehrplan 2006). 2019 ff. sind aus
-urheberrechtlichen Gründen nicht veröffentlicht; für Berlin Grundkurs
-2019–2022 gibt es sieben Verlagsbände beim Lehrer, noch nicht hochgeladen.
-Gescannte Verlagshefte (Stark) liegen lokal unter hefte/ und bleiben über
-.gitignore außerhalb des Repos (urheberrechtlich geschützt); erstes Heft
-2023-bebb-gk (§ 2, § 4).
+urheberrechtlichen Gründen nicht veröffentlicht. Verlagsausgaben (Stark)
+liegen lokal unter hefte/ und bleiben über .gitignore außerhalb des Repos
+(urheberrechtlich geschützt): 2019–2021 Berlin Grundkurs als PDF mit
+Textebene, 2022–2025 Berlin/Brandenburg (GK und LK) als Bildscans, 2026
+Brandenburg als PDF mit Textebene – Verzeichnis mit Seiten, Textebene und
+Erfassungsstand in abi-quellen.md § 8 (17.09.2026); nicht erfasst sind
+2019-be-gk, 2020-be-gk, 2021-be-gk, 2024-bebb-lk, 2025-bebb-lk (§ 2).
 
 **Offen: Berlin 2026.** Für das Berliner Abitur 2026 (erstes Jahr der
 getrennten Erstellung über das BLiQ) existiert kein STARK-Heft; der Band zum
@@ -1666,6 +1673,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Heftordner geordnet (Auftrag Teil 4): alle 13 Dateien unter hefte/ mit Jahr, Land, Niveau, Rechnerfassung, Seiten, Textebene, Größe und Erfassungsstand in abi-quellen.md v0.3 § 8; 2026-bebb-gk.pdf → 2026-bb-gk.pdf, 2026-bebb-lk.pdf → 2026-bb-ea.pdf (KONFIG in abi-bau.py nachgezogen); keine Kollision, kein unklarer Fall. Heftliste § 2 um die fünf nicht erfassten Dateien ergänzt (2019–2021 Berlin GK, 2024/2025 LK). abi.md v0.18 § 2, § 4. Keine Katalogdatei geändert. |
 | 2026-09-17 | Prüfungsstruktur und Bewertung (Auftrag Teil 3): abi.md v0.17 § 11 (Bewertungsschlüssel 2024/ab 2025, Aufbau 2027, Hilfsmittel, nicht Gefordertes, Rahmenlehrpläne, Sonderjahrgänge, Strukturbruch, Zuordnung), abitur-vokabular.md v1.3 § 3 Anmerkungen neben der Geltungstabelle (Tabelle unverändert, Vorschlag: keine Änderung). Corona-Sonderjahrgänge 2022/2023 in § 2 vermerkt, Aufgabenstruktur der vier Hefte passt, BE bearbeitet rechnerisch GK 145, LK 170 (§ 4). Keine Katalogdatei geändert. |
 | 2026-09-17 | Prüfungsgeschichte und Kürzelregel (Auftrag Teil 2): abi.md v0.16 – § 10 Prüfungsgeschichte mit Quelle je Zeile, § 4 Kürzel nach Jahrgängen (be 2019–2021, bebb 2022–2025, be/bb ab 2026), § 9 offen: GK-Fassungen 2019–2021. Landes- und Rechnernennungen in allen 13 Dateien unter hefte/ gesucht (§ 4): 2019–2021 nur „Berlin", 2022–2025 „Berlin/Brandenburg", 2026 nur „Brandenburg"; keine Rechner- oder Hilfsmittelangabe außerhalb der Verlagstipps. Offener Punkt § 3: kein STARK-Heft für Berlin 2026. Keine Katalogdatei geändert. |
 | 2026-09-17 | Abgleichlauf 20 (Vorrang des Amtlichen, Entscheidung des Lehrers): niveau_geschaetzt in 11 abi-Zeilen auf den amtlichen Bereich der Poolzeile nachgezogen – 2022-bebb-gk 2.1 a, j, 3 b, e (II → I), 2.1 g, k (III → II), 3 i (II → III); 2017-bb-ea 1.2 b, 1.3 b, 2018-bb-ea 1.1 a, 1.2 b (II → III); dazu 9 iqb-Zeilen von 2022-ga-B. Kern v0.6 (§ 5 Vorrang des Amtlichen), abi.md v0.15 (§ 7), iqb.md v1.8, iqb-bau.py v1.5 (Überschreibung der Eichschwelle zurückgebaut), abgleich.py v0.20. Eichung 2022-bebb-gk 23 von 24. Typen unverändert (1124). |

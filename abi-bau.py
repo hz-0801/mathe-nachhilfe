@@ -88,7 +88,7 @@ import csv, io, os, re, sys
 KONFIG = {
     "jahr": "2026",
     "papier": "2026-bb-ea",
-    "datei": "hefte/2026-bebb-lk.pdf",  # Stark-Band, echtes PDF mit Textebene, lokal (abi.md § 2); Dateiname trägt noch bebb-lk
+    "datei": "hefte/2026-bb-ea.pdf",  # Stark-Band, echtes PDF mit Textebene, lokal (abi.md § 2); umbenannt 17.09.2026, vorher 2026-bebb-lk.pdf
     "seiten": 47,
     # Sollpunkte je Aufgabe aus der BE-Spalte; jede Aufgabe des Hefts muss hier
     # stehen (Vollständigkeit). Kein Gesamtsoll: Wahlaufgaben 2.1/2.2. Der

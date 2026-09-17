@@ -1,6 +1,11 @@
 # QUELLEN ABITUR – Mathematik Berlin/Brandenburg
 
-Version 0.2 · 13.09.2026 · gehört zum Profil abi (in Arbeit)
+Version 0.3 · 17.09.2026 · gehört zum Profil abi (in Arbeit)
+Änderungen gegenüber 0.2 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 4): § 8 lokaler
+Heftordner hefte/ – alle dreizehn Dateien mit Jahr, Land, Niveau,
+Rechnerfassung, Seiten, Textebene und Erfassungsstand; 2026-Dateien nach dem
+Kürzel umbenannt.
 Änderungen gegenüber 0.1: § 2 Brandenburg auf grundlegendem Niveau beantwortet,
 BLiQ/LIBRA ab 2026; § 4 und § 6 IQB-Pool auf das Profil iqb verwiesen.
 
@@ -76,7 +81,10 @@ dort nicht. Der Pool wird seit dem 13.09.2026 im eigenen Profil iqb erfasst
 ## 5 Verlagsbände (Upload durch den Lehrer)
 
 Sieben Bände, 2016–2022, alle Berlin Grundkurs. Quelle nur für 2019–2022;
-2016–2018 amtlich vorhanden. Aufgabeninhalt ist das Original der geschriebenen
+2016–2018 amtlich vorhanden. Aus ihnen liegen 2019, 2020 und 2021 als PDF
+mit Textebene unter hefte/ (§ 8); dazu kommen die Scans 2022–2025
+(Berlin/Brandenburg, GK und LK) und die PDFs 2026 (Brandenburg) aus den
+Bänden zum Abitur 2026/2027. Aufgabeninhalt ist das Original der geschriebenen
 Prüfung. Nicht amtlich sind Lösungen und Tipps; das Deckblatt mit
 Bearbeitungszeit, Hilfsmitteln und Gesamtpunktzahl fehlt. Die mit „(CAS)"
 markierten Aufgaben der Bände 2016 und 2017 sind Verlagsauswahl, keine
@@ -95,3 +103,42 @@ gehören zum Profil iqb (iqb.md § 2).
 Die Domain ist aus der Sandbox erreichbar. Beim Holen über „main" im Repo
 Cache-Buster anhängen; für die Hefte nicht nötig. Seitenzahl mit `pdfinfo`
 gegen die Spalte PDF-S. prüfen.
+
+## 8 Lokaler Heftordner hefte/
+
+Stand 17.09.2026 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 4). Der Ordner liegt
+neben dem Repo, per .gitignore ausgeschlossen (Verlagsausgaben,
+urheberrechtlich geschützt). Dateiname = <jahr>-<land>-<niveau>.pdf, gleich
+dem papier-Kürzel (abi.md § 4); bei abweichender Rechnerfassung käme -cas
+bzw. -mms dazu (bisher keine solche Datei). Land und Niveau aus der Kopfzeile
+der ersten Aufgabenseite (Befund in abi-pruefungen.md § 4, 17.09.2026),
+Seiten und Textebene mit pypdf ermittelt. Umbenannt am 17.09.2026:
+2026-bebb-gk.pdf → 2026-bb-gk.pdf, 2026-bebb-lk.pdf → 2026-bb-ea.pdf
+(Kopfzeile „Brandenburg – Mathematik Leistungskurs", Kürzel für das erhöhte
+Niveau in Brandenburg ist ea, § 2). Kollisionen und unklare Fälle: keine.
+Rechnerfassung: keine Datei nennt CAS oder MMS, alle sind die Fassung ohne
+MMS (WTR). Die Verlagsausgaben enthalten kein Deckblatt des Originals
+(Bearbeitungszeit, Hilfsmittel, Gesamt-BE fehlen).
+
+| Datei | Jahr | Land | Niveau | Rechnerfassung | Seiten | Textebene | Größe | Erfassungsstand |
+|---|---|---|---|---|---|---|---|---|
+| 2019-be-gk.pdf | 2019 | BE | grundlegend | WTR | 46 | ja (Aufgaben, Tipps, Lösungen) | 1,4 MB | nicht erfasst |
+| 2020-be-gk.pdf | 2020 | BE | grundlegend | WTR | 49 | ja (Aufgaben, Tipps, Lösungen) | 1,2 MB | nicht erfasst |
+| 2021-be-gk.pdf | 2021 | BE | grundlegend | WTR | 45 | ja (Aufgaben, Tipps, Lösungen) | 1,0 MB | nicht erfasst |
+| 2022-bebb-gk.pdf | 2022 | BE/BB | grundlegend | WTR | 12 | nein (Bildscan, nur Aufgabenseiten) | 78,0 MB | erfasst 2026-09-16, 57 Zeilen |
+| 2022-bebb-lk.pdf | 2022 | BE/BB | erhöht | WTR | 15 | nein (Bildscan, nur Aufgabenseiten) | 99,4 MB | erfasst 2026-09-16, 68 Zeilen |
+| 2023-bebb-gk.pdf | 2023 | BE/BB | grundlegend | WTR | 14 | nein (Bildscan, nur Aufgabenseiten) | 90,1 MB | erfasst 2026-09-16, 58 Zeilen |
+| 2023-bebb-lk.pdf | 2023 | BE/BB | erhöht | WTR | 14 | nein (Bildscan, nur Aufgabenseiten) | 93,1 MB | erfasst 2026-09-16, 66 Zeilen |
+| 2024-bebb-gk.pdf | 2024 | BE/BB | grundlegend | WTR | 10 | nein (Bildscan, nur Aufgabenseiten) | 80,5 MB | erfasst 2026-09-16, 47 Zeilen |
+| 2024-bebb-lk.pdf | 2024 | BE/BB | erhöht | WTR | 13 | nein (Bildscan, nur Aufgabenseiten) | 85,6 MB | nicht erfasst |
+| 2025-bebb-gk.pdf | 2025 | BE/BB | grundlegend | WTR | 8 | nein (Bildscan, nur Aufgabenseiten) | 68,2 MB | erfasst 2026-09-16, 39 Zeilen |
+| 2025-bebb-lk.pdf | 2025 | BE/BB | erhöht | WTR | 11 | nein (Bildscan, nur Aufgabenseiten) | 69,6 MB | nicht erfasst |
+| 2026-bb-gk.pdf | 2026 | BB | grundlegend | WTR | 36 | ja (Aufgaben, Tipps, Lösungen; A5) | 0,9 MB | erfasst 2026-09-17, 45 Zeilen |
+| 2026-bb-ea.pdf | 2026 | BB | erhöht | WTR | 47 | ja (Aufgaben, Tipps, Lösungen; A5) | 1,1 MB | erfasst 2026-09-17, 50 Zeilen |
+
+Nicht erfasst sind fünf Dateien: 2019-be-gk, 2020-be-gk, 2021-be-gk (Berlin
+Grundkurs, Format mit Teil A und drei Wahlpaaren; 2021 mit je einer
+Geometrie- und Stochastikaufgabe), 2024-bebb-lk und 2025-bebb-lk (erhöhtes
+Niveau, Kopfzeile „… Leistungskurs … Pflichtaufgaben"). Die Heftliste
+abi-pruefungen.md § 2 führt sie mit Status „nicht erfasst".
