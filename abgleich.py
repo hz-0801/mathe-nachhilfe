@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.23 · 17.09.2026 · gilt mit abitur-vokabular.md v1.4, abi-bau.py v0.9 und iqb-bau.py v1.5
+Version 0.23 · 17.09.2026 · gilt mit abitur-vokabular.md v1.5, abi-bau.py v0.10 und iqb-bau.py v1.7 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -34,7 +34,7 @@ Lauf 8 (14.09.2026, nach 2024-ea-B, 2023-ga-B und 2026-ga-B-mms): zwei
 Umbenennungen (Wendepunkt Zu- oder Abnahme; Symmetrieebene eines Körpers),
 vier erweiterte Definitionen, keine Zusammenziehung (671).
 Lauf 9 (15.09.2026, MMS als Delta): Bereinigung – Zeilen von Dateien mit
-dublette_von in iqb-quellen.csv v0.3 gestrichen (17 Zeilen aus 2026-ga-B-mms),
+dateidublette_von in iqb-quellen.csv v0.3 gestrichen (17 Zeilen aus 2026-ga-B-mms),
 STREICHEN als neue Regelart; Typen unverändert (671).
 Lauf 10 (15.09.2026, nach 2023-ea-B und 2022-ea-B): eine Zusammenziehung mit
 neuem Namen (Grenze k gegen eine Schranke), 774 → 773.
@@ -547,11 +547,11 @@ QUELLEN = "iqb-quellen.csv"
 def dubletten_quellen():
     with io.open(QUELLEN, encoding="utf-8", newline="") as fh:
         rows = list(csv.DictReader(fh, delimiter=";"))
-    return {r["kennung"]: r["dublette_von"] for r in rows if r["dublette_von"]}
+    return {r["kennung"]: r["dateidublette_von"] for r in rows if r["dateidublette_von"]}
 
 
 def streiche_9(d, dubl=dubletten_quellen()):
-    """True, wenn die Zeile zu einer Datei mit dublette_von gehört."""
+    """True, wenn die Zeile zu einer Datei mit dateidublette_von gehört."""
     return d["id"].split("-")[0] in dubl
 
 

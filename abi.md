@@ -1,6 +1,6 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
 Version 0.25 · 17.09.2026 · Kennung abi · gilt mit Kern v0.8 (Schema-Version 2)
-Änderungen gegenüber 0.24 (Auftrag E, Punkt 1): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand (16 Hefte), § 3 Formatwechsel statt „Zwei Formate", § 4 afb_amtlich mit Geschichte am Ende, § 6 Lücken und belegte Themen, § 7 Umfang, Typenliste, CAS-Nachtrag als Regel (Berlin offen), § 8 Beispielzeilen aus dem Katalog erzeugt, § 9 beantwortete Punkte als solche; Feldprobe in § 6 eingeführt.
+Änderungen gegenüber 0.24 (Auftrag E, Punkt 1 und 4; Punkt 4: Begriffe – Vormerkung statt Vorstufe/Vermerk, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung, Dateidublette und Spalte dateidublette_von): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand (16 Hefte), § 3 Formatwechsel statt „Zwei Formate", § 4 afb_amtlich mit Geschichte am Ende, § 6 Lücken und belegte Themen, § 7 Umfang, Typenliste, CAS-Nachtrag als Regel (Berlin offen), § 8 Beispielzeilen aus dem Katalog erzeugt, § 9 beantwortete Punkte als solche; Feldprobe in § 6 eingeführt.
 Änderungen gegenüber 0.23 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – der Reserve-Stapel wird im selben Auftrag erfasst,
 der Abgleichlauf stellt die Vormerkung um.
@@ -282,7 +282,7 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             (I|II); der Standardbezug des Pools ist eine Matrix Teilaufgabe ×
             K1–K6, eine Teilaufgabe trägt bis zu sechs Bereiche, die
             Matrixzeile steht wörtlich in bemerkung, nicht im Feld (iqb.md
-            § 4). Geschichte: bis Abgleichlauf 22 (17.09.2026) blieb das Feld
+            § 4). Geschichte: bis Abgleichlauf 22 (abgleich.py, 17.09.2026) blieb das Feld
             in den Heften bis 2018 leer, der Bereich stand nur in bemerkung;
             eine frühere Fassung dieses Profils beschrieb den Standardbezug
             als „eine angekreuzte Spalte je Anforderungsbereich" – das war
@@ -324,7 +324,7 @@ Bis v0.7 stand die Themenliste hier (46 Themen); die gemeinsame Liste hat 49
 (dazu Matrizen und Übergangsprozesse, Konfidenzintervalle, Lineare
 Gleichungssysteme auch unter Analytische Geometrie), die Abweichungen der
 beiden Fassungen sind in abitur-vokabular.md § 7 festgehalten. Seit dem
-Umstellungslauf 12 (15.09.2026) gilt für abi der Typenschnitt nach
+Umstellungslauf 12 (15.09.2026) gilt für abi der Schnitt nach
 Entscheidung 24: Typen in Themen mit Gegenstandsklassen tragen die Klasse als
 Präfix („Ebene Figur: …"), der Schnitt Thema × Gegenstandsklasse × Handlung
 ist die Einheit für den Blattbau, der Typ das Feinetikett. **Zeilenthema =
@@ -365,30 +365,33 @@ einer Stichprobe, Lineare Gleichungssysteme und Matrizen und
   dass die id in iqb-katalog.csv steht und typ übereinstimmt; bei anderer
   Punktzahl nennt bemerkung die BE. Die Zeile trägt die Fakten des
   Landeshefts (Seite, BE, Wortlaut der Aufgabe), afb_amtlich darf aus der
-  Poolzeile übernommen werden. Ein Katalogfeld dublette_von gibt es nicht
+  Poolzeile übernommen werden. Ein Katalogfeld für Dubletten gibt es nicht
   (Kern § 5, 37 Felder); die Markierung in bemerkung ist der Verweis.
-  **Vorstufe** (16.09.2026, Pool-Abgleich des Bestands): Steht die
+  **Vormerkung** (die Vorstufe des Verweises; 16.09.2026, Pool-Abgleich des
+  Bestands): Steht die
   Poolaufgabe wortgleich im Heft, ihr Stapel ist im Profil iqb aber noch nicht
   erfasst (Reserve: Pool 2017, Teil B 2018–2021), beginnt bemerkung mit
   „Poolaufgabe (nicht erfasst): <voraussichtliche iqb-id>." – bei
   abgewandelter Fassung „Poolaufgabe (nicht erfasst, abgewandelt): <id>;
-  <Unterschied>." abi-bau.py prüft Kennung und Feldanfang. **Die Vorstufe ist
+  <Unterschied>." abi-bau.py prüft Kennung und Feldanfang. **Die Vormerkung ist
   ein Übergangszustand** (Entscheidung des Lehrers, 16.09.2026): sie gilt, bis
   der Stapel erfasst ist, und wird in den Prüfungslisten als offener Posten
   geführt; steht die Poolzeile inzwischen im iqb-Katalog, melden beide
   Bau-Skripte das als offenen Posten (Warnung, kein Fehler), und der nächste
-  Abgleichlauf stellt den Vermerk um – wortgleiche Fassungen auf „Dublette
+  Abgleichlauf stellt die Vormerkung um – wortgleiche Fassungen auf „Dublette
   von:" (mit typ-Abgleich; die AB-Spalte der Poolzeile kommt als „AB amtlich:
-  X." nach bemerkung und, seit Lauf 22, in allen Jahrgängen nach afb_amtlich), abgewandelte auf
-  den Verweis **„Abgewandelt von: <iqb-id>; <Unterschied>."** (kein geteilter
-  Typ verlangt, Poolzeile muss stehen; Lauf 15, 16.09.2026). Die Poolquote je
+  X." nach bemerkung und, seit Abgleichlauf 22, in allen Jahrgängen nach
+  afb_amtlich), abgewandelte auf den Verweis **„Abgewandelt von: <iqb-id>;
+  <Unterschied>."** (kein geteilter Typ verlangt, Poolzeile muss stehen;
+  Abgleichlauf 15, 16.09.2026). Die Poolquote je
   Heft (Zeilen und BE wortgleich im Pool, erfasst oder vorgemerkt;
   abgewandelte getrennt) ist Kennzahl in abi-pruefungen.md § 2.
   **Eine Vormerkung überlebt keinen Auftrag** (Regel, gesetzt 17.09.2026, Auftrag D Teil 7; Vorschlag aus Auftrag C Teil 2, abi-pruefungen.md § 4): Wird ein Landesheft erfasst, dessen Poolaufgaben in einem Reserve-Stapel liegen, wird dieser Stapel im selben Auftrag erfasst und die Vormerkung im anschließenden Abgleichlauf auf „Dublette von:" oder „Abgewandelt von:" umgestellt. Das Abbruchkriterium bleibt dabei unberührt (iqb.md § 6, konzept.md Entscheidung 29). Kann der Stapel nicht erfasst werden, ist das im Bericht zu melden und im Änderungslog festzuhalten; die Vormerkung bleibt dann als benannter offener Posten stehen, nicht stillschweigend.
-  dublette_von ist allein eine Spalte von iqb-quellen.csv und sagt, dass eine
-  Pooldatei wortgleich mit einer anderen ist (Datei → Datei, keine Zeile) –
-  ein anderer Sachverhalt als die Pool-Teilaufgabe im Landesheft, die eine
-  eigene Zeile bekommt.
+  dateidublette_von (bis 17.09.2026 dublette_von) ist allein eine Spalte von
+  iqb-quellen.csv und sagt, dass eine Pooldatei eine Dateidublette ist –
+  wortgleich mit einer anderen Pooldatei (Datei → Datei, keine Zeile) – ein
+  anderer Sachverhalt als die Pool-Teilaufgabe im Landesheft, die eine eigene
+  Zeile bekommt.
 - **Trägerbindung** wie im Profil iqb (iqb.md § 7): feste Markierung
   „Traegerbindung: Kontext" am Anfang von bemerkung, kein eigenes Feld.
 - **Qualitätsschranke im Skript** (abi-bau.py v0.3, SCHWELLEN wie iqb-bau.py):
@@ -397,10 +400,10 @@ einer Stichprobe, Lineare Gleichungssysteme und Matrizen und
   des Lehrers, 17.09.2026, Auftrag C Teil 0; abi-bau.py v0.9,
   eichung_mindestens = None): Die Eichung prüft die Erfassungsqualität am
   amtlichen Anforderungsbereich; bei Landesheften fehlt der Maßstab für die
-  meisten Zeilen (472 von 794 Zeilen ohne afb_amtlich, Stand Lauf 22), und wo
+  meisten Zeilen (472 von 794 Zeilen ohne afb_amtlich, Stand Abgleichlauf 22), und wo
   er vorliegt, misst die Quote die Schwierigkeit der Aufgabe, nicht die
   Arbeit: über alle 41 Landesschätzungen mit amtlichem Bereich (Landesheft
-  vor der Poolzeile erfasst, Auftrag A, abi-pruefungen.md § 4 Lauf 20) lagen
+  vor der Poolzeile erfasst, Auftrag A, abi-pruefungen.md § 4 Abgleichlauf 20) lagen
   11 über, 22 gleich, 8 unter dem amtlichen Bereich – 54 % Treffer gegen
   94 % im Pool; Teil A eher zu niedrig (0 über, 4 unter), Teil B eher zu hoch
   (11 über, 4 unter). Die Eichquote wird weiter ausgewiesen, als Kennzahl im
@@ -423,7 +426,7 @@ einer Stichprobe, Lineare Gleichungssysteme und Matrizen und
   angepasst (iqb.md § 7) – außer sie ist eine wortgleiche Dublette: dann gilt
   der amtliche Bereich der Poolzeile (Vorrang des Amtlichen, Kern § 5 v0.6);
   die Landeszeile zieht per abgleich.py nach, sobald die Poolzeile erfasst ist
-  (Lauf 16: fünf Zeilen 2018-be-gk auf den Wert der Poolzeile; Lauf 20: elf
+  (Abgleichlauf 16: fünf Zeilen 2018-be-gk auf den Wert der Poolzeile; Lauf 20: elf
   Zeilen aus 2017-bb-ea, 2018-bb-ea, 2022-bebb-gk auf den amtlichen Bereich;
   Lauf 23: neun Zeilen aus 2019-be-gk, 2021-be-gk, 2025-bebb-lk beim
   Schließen der Vormerkungen), der alte Wert bleibt in bemerkung. Eine

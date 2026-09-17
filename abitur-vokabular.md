@@ -1,7 +1,7 @@
 # VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
 Version 1.5 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
 Änderungen gegenüber 1.4 (Auftrag D „Namensschema, Erweiterbarkeit,
-Begründungen", Teil 2): § 3 Geltungstabelle, Rechnerfassung und
+Begründungen", Teil 2; Auftrag E Punkt 4: § 4 „Klasse" statt „Unterklasse", „Abgleichlauf 13"): § 3 Geltungstabelle, Rechnerfassung und
 Ausschlussliste je Zielprüfung in eigene Dateien abi-<zielprüfung>-geltung.md
 ausgelagert, Inhalt unverändert; hier bleiben Regeln und Anmerkungen. Die
 Bau-Skripte lesen die Dateien der Zielprüfungen, die das Profil nennt
@@ -275,7 +275,7 @@ Gegenstandsklasse × Handlung (Handlung aus dem ersten Wert von format, § 5).
 Die Gegenstandsklasse steht als erstes Wort des Typnamens vor einem
 Doppelpunkt („Verflechtung: Rohstoffbedarf über die Verflechtungsmatrix
 berechnen"); der Typ nach Kern § 6 bleibt als Feinetikett dahinter erhalten.
-Unterklassen bekommen nur Themen, die mehrere Gegenstände bündeln; Themen,
+Klassen bekommen nur Themen, die mehrere Gegenstände bündeln; Themen,
 die selbst schon der Gegenstand sind, führen keine (Typname ohne
 Doppelpunkt). Die Zuordnung eines Typs richtet sich nach dem Thema in
 abitur-typen.csv. Die Bau-Skripte prüfen, dass jeder Typ eines Themas mit
@@ -289,7 +289,7 @@ Thema abgelegt; beides wird im Abgleichlauf entschieden, nicht durch ein
 abweichendes Zeilenthema. Beide Bau-Skripte erzwingen die Gleichheit (für
 neue Zeilen und in der Selbstprüfung für den Bestand), abgleich.py prüft sie
 nach jedem Lauf; der Schnitt wird über das Thema des Typs gemessen. Bis zum
-Lauf 13 (16.09.2026) trugen 21 Zeilen ein anderes Thema als ihr Typ, und der
+Abgleichlauf 13 (16.09.2026) trugen 21 Zeilen ein anderes Thema als ihr Typ, und der
 Schnitt hing davon ab, welche Spalte gezählt wurde (189 gegen 183 Werte);
 die Fälle stehen in abi-pruefungen.md § 4. Anders im Profil fhr, das bei
 mehrleistigen Zeilen das Thema nach dem Punkt-Schwerpunkt wählt (fhr.md § 6);

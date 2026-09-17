@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """iqb-quellen.py – erzeugt iqb-quellen.csv aus der Übersichtsseite des IQB.
-Version 0.4 · 15.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
+Version 0.5 · 17.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
+Änderungen gegenüber 0.4 (Auftrag E, Punkt 4): Spalte dublette_von heißt dateidublette_von; nur der Name.
 Änderungen gegenüber 0.3: DUBLETTEN_HAND auch für rein redaktionelle
 Abweichungen (2026-ea-B Stochastik MMS 1 = WTR 1: ein Artikel), iqb.md § 7.
 
@@ -11,7 +12,7 @@ Ablauf:
      Nummer), papier und stapel nach iqb.md § 4 und § 7 bilden, sortieren.
   3. Teil-A-Dateien in den Cache-Ordner laden (nur fehlende), Seitenzahl lesen
      und den Text des Abschnitts „1 Aufgabe" vergleichen: wortgleiche Dateien
-     sind Dubletten, die spätere zeigt auf die frühere (Spalte dublette_von).
+     sind Dubletten, die spätere zeigt auf die frühere (Spalte dateidublette_von).
   3b. Teil-B-Dateien ebenso laden (v0.3, Entscheidung des Lehrers 15.09.2026:
      MMS/CAS als Delta zum WTR-Zweig). Dublette in Teil B heißt: der Abschnitt
      „1 Aufgabe" ist nach Normierung (ohne Leerraum, ohne Hilfsmittelkennung)
@@ -32,7 +33,7 @@ LISTE = "https://www.iqb.hu-berlin.de/de/schule/aufgaben/sekii/abiturpruefungsau
 DATEIEN = "https://www.iqb.hu-berlin.de/media/exercise_files/Abituraufgaben_Mathematik/"
 ZIEL = "iqb-quellen.csv"
 KOPF = ["kennung", "jahr", "niveau", "teil", "sachgebiet", "gruppe", "hilfsmittel", "nr",
-        "papier", "stapel", "seiten", "dublette_von"]
+        "papier", "stapel", "seiten", "dateidublette_von"]
 MUSTER = re.compile(r"^(?P<jahr>\d{4}|Beispielaufgaben)M(?P<niveau>erhoeht|grundlegend)"
                     r"(?P<teil>A|B)(?P<sach>Analysis|AGLAA1|AGLAA2|Stochastik)(?P<rest>.*)$")
 NIVEAU = {"grundlegend": "ga", "erhoeht": "ea"}
@@ -127,7 +128,7 @@ def scanne_teil_a(rows, cache):
             else:
                 fassungen.append((erste, k))
     for r in rows:
-        r["dublette_von"] = dubl.get(r["kennung"], "")
+        r["dateidublette_von"] = dubl.get(r["kennung"], "")
     print(f"Teil A: {len(texte)} Dateien gescannt, {len(dubl)} Dubletten")
     for erste, k in fassungen:
         print(f"  Achtung: {k} hat dieselbe Aufgabe wie {erste}, aber anderen Erwartungshorizont "
@@ -195,7 +196,7 @@ def scanne_teil_b(rows, cache):
         nahe = [n for n in nahe if n[1] != k]
     for r in rows:
         if r["teil"] == "B":
-            r["dublette_von"] = dubl.get(r["kennung"], "")
+            r["dateidublette_von"] = dubl.get(r["kennung"], "")
     print(f"Teil B: {len(texte)} Dateien gescannt, {len(dubl)} Dubletten "
           f"({sum(1 for k in dubl if rows[reihe[k]]['hilfsmittel'] != 'WTR')} in CAS/MMS, "
           f"{len(DUBLETTEN_HAND)} von Hand bestätigt):")
@@ -239,7 +240,7 @@ def main():
     cache = sys.argv[1] if len(sys.argv) > 1 else "iqb-pdf"
     rows = [zerlege(k) for k in kennungen()]
     for r in rows:
-        r.setdefault("seiten", ""); r.setdefault("dublette_von", "")
+        r.setdefault("seiten", ""); r.setdefault("dateidublette_von", "")
     rows.sort(key=sortkey)
     ziel = collections.Counter((r["jahr"], r["niveau"], r["teil"], r["sachgebiet"], r["gruppe"],
                                 r["hilfsmittel"], r["nr"]) for r in rows)

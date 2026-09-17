@@ -1,6 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
 Version 1.12 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.8 (Schema-Version 2)
-Änderungen gegenüber 1.11 (Auftrag E, Punkt 1 und 3; Punkt 3: unsichtbares Zeichen U+FEFF vor der ersten Beispielzeile in § 8 entfernt): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
+Änderungen gegenüber 1.11 (Auftrag E, Punkt 1, 3 und 4; Punkt 4: Begriffe – Dateidublette und Aufgabendublette statt Dublette für Datei und Aufgabe, Spalte dateidublette_von, Vormerkung statt Vermerk/Vorstufe, WTR-Fassung statt WTR-Zwilling, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung; Punkt 3: unsichtbares Zeichen U+FEFF vor der ersten Beispielzeile in § 8 entfernt): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
 Änderungen gegenüber 1.10 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – ein Reserve-Stapel mit Landesheftverweisen wird
 im selben Auftrag erfasst.
@@ -310,7 +310,7 @@ Die Rechnerfassung je Zielprüfung steht in § 3 derselben Dateien.
 **Zeilenthema = Typthema** (16.09.2026, abitur-vokabular.md § 4): leitidee
 und thema einer Zeile sind die ihres Typs, iqb-bau.py erzwingt das, der
 Schnitt wird über das Thema des Typs gezählt; die acht iqb-Zeilen, die davon
-abwichen, hat Lauf 13 nachgezogen (iqb-pruefungen.md § 5). Die Regel für
+abwichen, hat Abgleichlauf 13 (abgleich.py) nachgezogen (iqb-pruefungen.md § 5). Die Regel für
 gemeinsame Landeshefte bebb (Zeile gilt, wenn sie in
 einer der beiden Spalten des Niveaus liegt; Entscheidung des Lehrers,
 16.09.2026) betrifft nur das Profil abi (abitur-vokabular.md § 3, abi.md § 6).
@@ -379,25 +379,26 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Erfasst wird zuerst der WTR-Zweig. Teil A ist von der vierten Achse
   unberührt. **MMS/CAS als Delta** (Entscheidung des Lehrers, 15.09.2026, nach
   der Delta-Messung 2026-ga-B-mms in iqb-pruefungen.md § 4: 69 % der Zeilen auf
-  Schnittwerten des WTR-Zwillings, 3 von 7 Dateien wortgleich, 2 von 25
+  Schnittwerten der WTR-Fassung, 3 von 7 Dateien wortgleich, 2 von 25
   eigenen Zeilen reine Rechnerbedienung): Die Einheit „Stapel je
   Rechnerfassung" gilt weiter für WTR. Für einen mms- oder cas-Stapel tritt
   an ihre Stelle: vollständig sind die nicht wortgleichen Dateien, das Soll
-  rechnet gegen deren BE; wortgleiche Dateien stehen in iqb-quellen.csv mit
-  dublette_von auf die WTR-Datei und bekommen keine Zeile (Dubletten unten).
-  Der WTR-Zweig ist vor dem MMS-Zweig zu erfassen; iqb-bau.py v0.9 prüft, dass
-  die erste Datei jeder Dublette im Katalog steht. Der Rechner ist Lösungsweg
+  rechnet gegen deren BE; wortgleiche Dateien (Dateidubletten) stehen in
+  iqb-quellen.csv mit dateidublette_von auf die WTR-Datei und bekommen keine
+  Zeile (Dateidubletten unten). Der WTR-Zweig ist vor dem MMS-Zweig zu
+  erfassen; iqb-bau.py v0.9 prüft, dass die erste Datei jeder Dateidublette im
+  Katalog steht. Der Rechner ist Lösungsweg
   unterhalb des Typs, kein eigenes Etikett (Kern § 6).
 - **Trägerbindung in Teil B** (Entscheidung des Lehrers, 14.09.2026): Eine
   Zeile, die ohne den Sachkontext ihrer Trägeraufgabe nicht beschreibbar ist
   (Deutung, Abbildung oder Sachlage, die nur der Aufgabenstamm liefert), trägt
   in bemerkung am Feldanfang die feste Markierung „Traegerbindung: Kontext"
   (bewusst umlautfrei, exakter Wortlaut, iqb-bau.py prüft ihn), gefolgt von
-  Punkt oder einer Klammer mit dem Grund. Kein eigenes Feld; kein Vermerk heißt
-  frei. Beim Blattbau werden markierte Zeilen nur mit der ganzen Trägeraufgabe
+  Punkt oder einer Klammer mit dem Grund. Kein eigenes Feld; keine Markierung
+  heißt frei. Beim Blattbau werden markierte Zeilen nur mit der ganzen Trägeraufgabe
   (Kennung als Rückweg) verwendet. Die Markierung ist unabhängig von
   abhaengig_von: im Probestapel 2026-ga-B fielen von sechs kontextgebundenen
-  Zeilen nur zwei mit den sechs Zeilen mit Vorstufe zusammen, deshalb keine
+  Zeilen nur zwei mit den sechs Zeilen mit belegtem abhaengig_von zusammen, deshalb keine
   Kopplung an abhaengig_von.
 - **Qualitätsschranke im Skript, nicht im Urteil des Lehrers.** Der Lehrer liest
   keine Berichte und entscheidet nicht im Lauf. iqb-bau.py bricht deshalb ab,
@@ -407,7 +408,7 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   · Neue Typen: Schranke deaktiviert (13.09.2026). Nach drei Stapeln lag der
     Anteil neuer Typen bei 100, 82 und 94 % – die geplanten 60 % hätten jeden
     weiteren Stapel abgebrochen, ohne dass etwas faul ist. Gemessen wird der
-    Anteil weiter (Kennzahlen). Der Typenschnitt ist entschieden (Entscheidung
+    Anteil weiter (Kennzahlen). Der Schnitt ist entschieden (Entscheidung
     24, 13.09.2026); eine Schranke für neue Typen wurde danach nicht gesetzt,
     der Anteil bleibt Kennzahl (zuletzt 40–76 % je Stapel, iqb-pruefungen.md
     § 2).
@@ -447,9 +448,12 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Bericht jedes Stapels nennt als **Kennzahlen** die Quote neuer Typen an den
   verwendeten und die Eichtrefferquote (Zeile „Kennzahlen:" von iqb-bau.py, in
   iqb-pruefungen.md § 4 gesammelt).
-- **Dubletten.** Aufgaben, die für beide AG/LA-Alternativen taugen, liegen im
-  Pool zweimal, wortgleich unter A1 und unter A2 (Teil A: 16 Paare, alle AG/LA,
-  Scan vom 13.09.2026). Dublette heißt: Aufgabe, Erwartungshorizont **und**
+- **Dateidubletten** (wortgleiche Pooldateien; zu unterscheiden von der
+  Dublette als Landeszeile mit „Dublette von:", unten, und von der
+  Aufgabendublette innerhalb eines Stapels, unten). Aufgaben, die für beide
+  AG/LA-Alternativen taugen, liegen im Pool zweimal, wortgleich unter A1 und
+  unter A2 (Teil A: 16 Paare, alle AG/LA, Scan vom 13.09.2026). Dateidublette
+  heißt: Aufgabe, Erwartungshorizont **und**
   Standardbezug sind gleich – iqb-quellen.py vergleicht alle drei Abschnitte
   ohne Leerraum (ein Paar unterschied sich nur in „1: 3" gegen „1:3"); bei
   allen 15 Paaren des ersten Scans sind auch die Formelbilder gleich, geprüft über die
@@ -457,19 +461,20 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Erwartungshorizont oder Standardbezug nicht überein, ist das keine Dublette,
   sondern eine eigene Fassung: sie bekommt eine eigene Zeile und teilt nur den
   Typ; das Skript meldet solche Fälle und markiert sie nicht (bisher keiner).
-  Die Spalte dublette_von in iqb-quellen.csv nennt für die zweite Datei die
-  erste (Ordnung nach § 7); Dubletten bekommen keine Zeile und kein Soll,
-  iqb-bau.py verlangt sie nicht und weist sie ab. Der Befund steht in
-  bemerkung der ersten Datei. Ein Stapel zählt deshalb nach Dateien ohne
-  Dubletten (2026-ga-A: 19 Dateien, 18 erfasst). **Teil B** (nach
-  2026-ea-B-wtr): Dubletten liegen dort unterhalb der Dateiebene – eine ganze
-  nummerierte Aufgabe kann in zwei Dateien desselben Stapels wortgleich stehen
-  (2026-ea-B Stochastik WTR 2 und WTR 3, Aufgabe 1 mit fünf Teilaufgaben). Die
-  Regel gilt sinngemäß: die zweite Aufgabe bekommt keine Zeile, das Soll der
+  Die Spalte dateidublette_von in iqb-quellen.csv (bis 17.09.2026
+  dublette_von) nennt für die zweite Datei die erste (Ordnung nach § 7);
+  Dateidubletten bekommen keine Zeile und kein Soll, iqb-bau.py verlangt sie
+  nicht und weist sie ab. Der Befund steht in bemerkung der ersten Datei. Ein
+  Stapel zählt deshalb nach Dateien ohne Dateidubletten (2026-ga-A: 19
+  Dateien, 18 erfasst). **Aufgabendubletten in Teil B** (nach 2026-ea-B-wtr):
+  unterhalb der Dateiebene kann eine ganze nummerierte Aufgabe in zwei Dateien
+  desselben Stapels wortgleich stehen (2026-ea-B Stochastik WTR 2 und WTR 3,
+  Aufgabe 1 mit fünf Teilaufgaben). Die Regel gilt sinngemäß: die zweite
+  Aufgabe bekommt keine Zeile, das Soll der
   Datei sinkt um ihre BE, der Befund steht in bemerkung der gekürzten Datei
   (letzte Zeile) und in iqb-pruefungen.md § 4. Einzelne wortgleiche Teilaufgaben
   über Niveaus hinweg (2026 Stochastik WTR 1 grundlegend und erhöht teilen vier
-  Teilaufgaben) sind keine Dublette: andere Trägeraufgabe, andere Zeile,
+  Teilaufgaben) sind keine Aufgabendublette: andere Trägeraufgabe, andere Zeile,
   geteilter Typ. Dasselbe gilt innerhalb eines Stapels für geteilte
   Teilaufgaben einer Aufgabe, die als Ganzes nicht wortgleich ist (2025-ea-B
   Stochastik WTR 2 und WTR 3, Aufgabe 2: a und b gleich, c und d verschieden):
@@ -482,8 +487,8 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Hilfsmittelwort, ohne die Seitenkopfzeilen, die ab Seite 2 den laufenden
   Abschnitt nennen) und vergleicht ihn innerhalb desselben Stapels und
   Sachgebiets. **Schwelle: Gleichheit.** Gleicher Aufgabentext heißt
-  Dublette, die spätere Datei (Ordnung § 7: WTR vor CAS/MMS) zeigt in
-  dublette_von auf die frühere; Erwartungshorizont und Standardbezug dürfen
+  Dateidublette, die spätere Datei (Ordnung § 7: WTR vor CAS/MMS) zeigt in
+  dateidublette_von auf die frühere; Erwartungshorizont und Standardbezug dürfen
   abweichen (anderer Rechnerweg), das Skript meldet es. Paare mit Ähnlichkeit
   ≥ 0,95 (difflib), aber ohne Gleichheit, meldet das Skript als „nahe" – sie
   sind beim Erfassen des mms-Stapels von Hand anzusehen; ist der Unterschied
@@ -495,10 +500,11 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Zufallsgröße" statt „Eine …", Ähnlichkeit 0,999; iqb-quellen.py v0.4, nach
   dem Delta-Stapel 2026-ea-B-mms); unterscheiden sich Zahlen oder Aufträge im
   Aufgabentext (2024-ea-B Stochastik MMS 1: „mehr als 20" statt „mehr als
-  fünf", Ähnlichkeit 0,999), ist es keine Dublette. Wortgleiche Teilaufgaben
+  fünf", Ähnlichkeit 0,999), ist es keine Dateidublette. Wortgleiche Teilaufgaben
   in einer nicht wortgleichen MMS-Datei teilen den Typ, die Felder werden aus
   der WTR-Zeile übernommen (Vermerk in bemerkung); eine ganze wortgleiche
-  nummerierte Aufgabe bekommt wie innerhalb des WTR-Zweigs keine Zeile, das
+  nummerierte Aufgabe (Aufgabendublette) bekommt wie innerhalb des WTR-Zweigs
+  keine Zeile, das
   Soll sinkt (2026-ea-B Stochastik MMS 3, Aufgabe 1 = WTR 2, Aufgabe 1). Die
   17 im Stapel 2026-ga-B-mms zunächst aus dem WTR-Zweig übernommenen Zeilen
   wurden mit Abgleichlauf 9 gestrichen (iqb-pruefungen.md § 5).
@@ -513,17 +519,17 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   demselben typ wie die iqb-Zeile und dem Verweis „Dublette von: <iqb-id>" am
   Anfang von bemerkung; abi-bau.py prüft den Verweis gegen iqb-katalog.csv.
   Die iqb-Zeile bleibt unverändert; der Pool ist die Erstfassung. Ein
-  Katalogfeld dublette_von gibt es nicht (Kern § 5); die gleichnamige Spalte
-  in iqb-quellen.csv meint etwas anderes – eine Pooldatei, die wortgleich mit
-  einer anderen ist und deshalb keine Zeile bekommt (§ 4, § 7 Dubletten).
+  Katalogfeld für Dubletten gibt es nicht (Kern § 5); die Spalte
+  dateidublette_von in iqb-quellen.csv meint etwas anderes – eine
+  Dateidublette, die keine Zeile bekommt (§ 4, § 7).
   Landeshefte, die eine Poolaufgabe aus einem nicht erfassten Stapel
   (Reserve) stellen, merken sie als „Poolaufgabe (nicht erfasst): <iqb-id>"
   vor (abi.md § 7) – ein Übergangszustand, der als offener Posten geführt
   wird, bis der Stapel erfasst ist (Entscheidung des Lehrers, 16.09.2026);
   iqb-bau.py meldet beim Stapellauf die vorgemerkten Zeilen und in der
   Selbstprüfung die offenen Posten mit erfasster Poolzeile, danach stellt
-  abgleich.py den Vermerk auf „Dublette von:" (wortgleich) oder „Abgewandelt
-  von: <iqb-id>; <Unterschied>." (abgewandelte Fassung) um (Lauf 15). Die
+  abgleich.py die Vormerkung auf „Dublette von:" (wortgleich) oder „Abgewandelt
+  von: <iqb-id>; <Unterschied>." (abgewandelte Fassung) um (Abgleichlauf 15). Die
   Kennzahl „in Landesheften" je Stapel (v1.2, v1.3) zählt die Zeilen mit
   Verweis, abgewandelte getrennt ausgewiesen. Reserve-Stapel, auf die
   Landeshefte verweisen, dürfen dafür erfasst werden, ohne dass das

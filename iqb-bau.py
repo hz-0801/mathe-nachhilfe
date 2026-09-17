@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.6 · 17.09.2026 · gilt mit katalog-prompt.md v0.7, abitur-vokabular.md v1.5, iqb.md v1.10 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+Version 1.7 · 17.09.2026 · gilt mit katalog-prompt.md v0.8, abitur-vokabular.md v1.5, iqb.md v1.12, iqb-quellen.csv mit Spalte dateidublette_von und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 1.6 (Auftrag E, Punkt 4): Die Spalte dublette_von von iqb-quellen.csv heißt dateidublette_von (Dateidublette, iqb.md § 7); nur der Name, keine Logik.
 
 Änderungen gegenüber 1.5 (Auftrag D „Namensschema, Erweiterbarkeit,
 Begründungen", Teil 2, 17.09.2026): Die Geltung kommt nicht mehr aus einer
@@ -69,7 +71,7 @@ beiden Kataloge steht (ANDERE_KATALOGE). Umbenennungen laufen über abgleich.py.
 Delta): Die Erfassungseinheit „Stapel je Rechnerfassung" bleibt für WTR; für
 einen mms-/cas-Stapel gilt: vollständig sind die nicht wortgleichen Dateien,
 das Soll rechnet nur gegen sie. Wortgleiche Dateien stehen in iqb-quellen.csv
-(v0.3, Textvergleich des Abschnitts „1 Aufgabe") mit dublette_von auf die
+(v0.3, Textvergleich des Abschnitts „1 Aufgabe") mit dateidublette_von auf die
 WTR-Datei und bekommen keine Zeile – dieselbe Mechanik wie bei den A1/A2-Paaren
 in Teil A. Neu geprüft: die erste Datei einer Dublette muss im Katalog stehen
 (im Stapellauf und in der Selbstprüfung), damit der WTR-Zweig vor dem
@@ -113,7 +115,7 @@ neue Typen abschaltbar (None); Wiederverwendung im selben Niveau als Kennzahl.
 
 Änderungen gegenüber 0.1: Aufgaben ohne Teilaufgabenbuchstaben (row ohne
 teilaufgabe, id gleich Kennung, genau eine Zeile je Datei); Dubletten nach
-Spalte dublette_von bekommen keine Zeile und fehlen nicht; Seitenzahl je Datei
+Spalte dateidublette_von bekommen keine Zeile und fehlen nicht; Seitenzahl je Datei
 aus iqb-quellen.csv statt aus KONFIG.
 
 Abgeleitet aus abi-bau.py v0.2 (Vokabular aus katalog-prompt.md § 5 und dem
@@ -143,7 +145,7 @@ KONFIG = {
     # Stapel nach Spalte stapel in iqb-quellen.csv: Jahr-Niveau-Teil
     "stapel": "2019-ga-B-wtr",
     # Sollpunkte je Datei aus der BE-Summe am Ende von Abschnitt 1 Aufgabe.
-    # Dubletten (Spalte dublette_von in iqb-quellen.csv) bekommen keine Zeile
+    # Dubletten (Spalte dateidublette_von in iqb-quellen.csv) bekommen keine Zeile
     # und kein Soll.
     "soll": {
         "2019MgrundlegendBAnalysisWTR1": 40, "2019MgrundlegendBAnalysisWTR2": 40, "2019MgrundlegendBAGLAA1WTR": 20, "2019MgrundlegendBAGLAA2WTR1": 20,
@@ -167,7 +169,7 @@ GELTUNG_DATEI = "abi-{ziel}-geltung.md"  # eine Datei je Zielprüfung (namenssch
 ANDERE_KATALOGE = ["abi-katalog.csv"]
 TYP_HEAD = ["typ", "leitidee", "thema", "definition", "beispiel_id", "status"]
 QUELLEN_HEAD = ["kennung", "jahr", "niveau", "teil", "sachgebiet", "gruppe",
-                "hilfsmittel", "nr", "papier", "stapel", "seiten", "dublette_von"]
+                "hilfsmittel", "nr", "papier", "stapel", "seiten", "dateidublette_von"]
 
 # teilaufgabe fehlt: Aufgaben ohne Buchstaben sind eine Zeile mit leerem Feld (iqb.md § 4).
 PFLICHT = ("id jahr papier block aufgabe titel seite punkte hilfsmittel afb_amtlich "
@@ -1646,7 +1648,7 @@ def pruefe_zeile(z, a):
     q = QUELLE.get(kennung)
     a(q is not None, f"{i}: Kennung nicht in {QUELLEN}")
     if q:
-        a(not q["dublette_von"], f"{i}: Dublette von {q['dublette_von']}, bekommt keine Zeile")
+        a(not q["dateidublette_von"], f"{i}: Dublette von {q['dateidublette_von']}, bekommt keine Zeile")
         a(z["jahr"] == q["jahr"], f"{i}: jahr passt nicht zur Kennung ({q['jahr']})")
         a(z["papier"] == q["papier"], f"{i}: papier passt nicht zur Kennung ({q['papier']})")
         a(z["block"] == q["teil"], f"{i}: block passt nicht zum Prüfungsteil ({q['teil']})")
@@ -1848,13 +1850,13 @@ def main():
         stapel = {einheit(QUELLE[k]) for k in kennungen if k in QUELLE}
         for s in sorted(stapel):
             fehlt = [k for k, q in QUELLE.items()
-                     if einheit(q) == s and not q["dublette_von"] and k not in kennungen]
+                     if einheit(q) == s and not q["dateidublette_von"] and k not in kennungen]
             a(not fehlt, f"Stapel {s} im Bestand unvollständig, es fehlen {fehlt}")
             # v0.9: Dubletten eines angefangenen Stapels zeigen auf erfasste Dateien
             for k, q in QUELLE.items():
-                if einheit(q) == s and q["dublette_von"]:
-                    a(q["dublette_von"] in kennungen,
-                      f"Stapel {s}: {k} ist Dublette von {q['dublette_von']}, die nicht im Katalog steht")
+                if einheit(q) == s and q["dateidublette_von"]:
+                    a(q["dateidublette_von"] in kennungen,
+                      f"Stapel {s}: {k} ist Dublette von {q['dateidublette_von']}, die nicht im Katalog steht")
         je_datei = {}
         for z in alt:
             k_, innen_, _ = kennung_aus_id(z["id"])
@@ -1937,7 +1939,7 @@ def main():
     # Stapel: alle Zeilen gehören zum Stapel, jede Datei des Stapels ist da
     stapel = KONFIG["stapel"]
     im_stapel = {k for k, q in QUELLE.items() if einheit(q) == stapel}
-    dubletten = {k for k in im_stapel if QUELLE[k]["dublette_von"]}
+    dubletten = {k for k in im_stapel if QUELLE[k]["dateidublette_von"]}
     a(im_stapel, f"Stapel {stapel} unbekannt in {QUELLEN}")
     dateien = {z["_kennung"] for z in ZEILEN}
     for k in sorted(dateien - im_stapel):
@@ -1959,7 +1961,7 @@ def main():
     # die Aufgabe im Bestand, wenn der WTR-Zweig später erfasst wird.
     alt_kennungen = {kennung_aus_id(z["id"])[0] for z in alt}
     for k in sorted(dubletten):
-        erste = QUELLE[k]["dublette_von"]
+        erste = QUELLE[k]["dateidublette_von"]
         a(erste in alt_kennungen or erste in dateien,
           f"{k}: Dublette von {erste}, aber {erste} ist noch nicht erfasst (erste Datei zuerst)")
     for k in sorted(dateien):
