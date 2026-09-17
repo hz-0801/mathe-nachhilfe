@@ -1,6 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
 Version 1.12 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.8 (Schema-Version 2)
-Änderungen gegenüber 1.11 (Auftrag E, Punkt 1): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
+Änderungen gegenüber 1.11 (Auftrag E, Punkt 1 und 3; Punkt 3: unsichtbares Zeichen U+FEFF vor der ersten Beispielzeile in § 8 entfernt): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
 Änderungen gegenüber 1.10 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – ein Reserve-Stapel mit Landesheftverweisen wird
 im selben Auftrag erfasst.
@@ -675,7 +675,7 @@ Aufgabe (5 BE, teilaufgabe leer, id gleich Kennung) und eine Stochastik-Zeile
 mit Baumdiagramm. Dieser Abschnitt wird aus dem Katalog erzeugt und weicht
 deshalb nicht von ihm ab.
 
-﻿    id = 2026MgrundlegendAAnalysis11-a · jahr = 2026 · papier = 2026-iqb-ga · block = A · aufgabe = 1.1 · titel = Analysis · teilaufgabe = a · seite = 1
+    id = 2026MgrundlegendAAnalysis11-a · jahr = 2026 · papier = 2026-iqb-ga · block = A · aufgabe = 1.1 · titel = Analysis · teilaufgabe = a · seite = 1
     punkte = 2 · stern =  · hilfsmittel = nein · afb_amtlich = I
     leitidee = Analysis · thema = Kurvenuntersuchung · typ = Extrempunkt an vorgegebener Stelle nachweisen · typ_neben =  · stichwoerter = ganzrationale Funktion dritten Grades|notwendige Bedingung|hinreichende Bedingung|zweite Ableitung · voraussetzungen = Potenzregel anwenden|Vorzeichen der zweiten Ableitung deuten
     format = Begründung · operator = Weisen Sie nach · antwort = Text
