@@ -54,7 +54,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2022-ea-B (WTR) | 8 von 16 (MMS-Zweig Reserve; Stochastik MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 69 Zeilen** · 54 Typen neu, 17 wiederverwendet · Eichung 62 von 69 (Spalte AB) |
 | 2026-ea-B (MMS) | 5 von 8 (drei Dubletten der WTR-Dateien: AG/LA A2 MMS 1, Stochastik MMS 1 und 2; Stochastik MMS 3 Aufgabe 1 Dublette von WTR 2) | **erfasst 2026-09-15, 32 Zeilen** · 21 Typen neu, 11 wiederverwendet (6 in wortgleichen Teilaufgaben) · Eichung 32 von 32 (Spalte AB) · Delta-Stapel erhöht, MMS-Delta in § 4 |
 | 2022-ga-B (WTR) | 7 von 13 | **erfasst 2026-09-17, 52 Zeilen – wegen Landesheftverweisen** (19 Vormerkungen aus 2022-bebb-gk; Reserve geöffnet, Abbruchkriterium unberührt) · 28 Typen neu, 26 wiederverwendet · Eichung 50 von 52 (Spalte AB; im Stapellauf 41 von 52 mit Schwelle 75 %, seit Lauf 20 übernommene Schätzungen auf den amtlichen Bereich, § 4) |
-| 2021-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
+| 2021-ga-B (WTR) | 7 von 12 | **erfasst 2026-09-17, 47 Zeilen – wegen Landesheftverweisen** (12 Vormerkungen aus 2021-be-gk; Reserve geöffnet in Auftrag C Teil 2, Abbruchkriterium unberührt) · 19 Typen neu, 28 wiederverwendet · Eichung 45 von 47 (Spalte AB; Schätzung nicht blind, § 4) |
 | 2021-ea-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
 | 2020-ga-B (WTR) | 6 von 13 | **erfasst 2026-09-17, 47 Zeilen – wegen Landesheftverweisen** (7 Vormerkungen aus 2020-be-gk; Reserve geöffnet in Auftrag C Teil 2, Abbruchkriterium unberührt) · 27 Typen neu, 21 wiederverwendet · Eichung 47 von 47 (Spalte AB; Schätzung nicht blind, § 4) |
 | 2020-ea-B (WTR) | 8 von 15 | entfällt – Reserve (§ 4) |
@@ -116,6 +116,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2018-ea-B-wtr (Teil B, Reserve) | 69 | 72 | 38 (53 %) | 59 von 69 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 15 von 72 (21 %); Schnitt 44 Werte, 64 von 69 Zeilen bekannt (93 %) | 19, 6, 19, 6 | 2 |
 | 2022-ga-B-wtr (Teil B, Reserve) | 52 | 54 | 28 (52 %) | 50 von 52 (96 %) seit Lauf 20, Liste v0.7, Spalte AB; im Stapellauf 41 von 52 (79 %): eigene 31 von 33, 19 übernommene 10 | 0 | 0 | 11 von 54 (20 %); Schnitt 39 Werte, 51 von 52 Zeilen bekannt (98 %) | 7, 6, 7, 6 | 19 |
 | 2020-ga-B-wtr (Teil B, Reserve) | 47 | 48 | 27 (56 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht, keine unabhängige Kennzahl (§ 4) | 0 | 0 | 16 von 48 (33 %); Schnitt 32 Werte, 42 von 47 Zeilen bekannt (89 %) | 9, 4, 9, 4 | 7 |
+| 2021-ga-B-wtr (Teil B, Reserve) | 47 | 47 | 19 (40 %) | 45 von 47 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 15 von 47 (32 %); Schnitt 30 Werte, 41 von 47 Zeilen bekannt (87 %) | 8, 6, 8, 6 | 12 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2046,6 +2047,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2018-ea-B-wtr (Reserve) | 69 | 44 | 4 | 3 | 4 | 3 | 2 | 3 |
 | 2022-ga-B-wtr (Reserve) | 52 | 39 | 1 | 1 | 1 | 0 | 0 | 0 |
 | 2020-ga-B-wtr (Reserve) | 47 | 32 | 4 | 3 | 3 | 1 | 0 | 0 |
+| 2021-ga-B-wtr (Reserve) | 47 | 30 | 6 | 6 | 6 | 1 | 1 | 1 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2102,6 +2104,7 @@ fortgeschrieben).**
 | 2018-ea-B-wtr (Reserve) | 69 | 44 | 1,57 | 56 (81 %) | 58 (84 %) | 0 (0 %) | 10 | 0 | 8 | 8,6 | 60 min |
 | 2022-ga-B-wtr (Reserve) | 52 | 39 | 1,33 | 38 (73 %) | 47 (90 %) | 0 (0 %) | 10 | 0 | 7 | 7,4 | 55 min (19 Zeilen aus den Landeszeilen erzeugt) |
 | 2020-ga-B-wtr (Reserve) | 47 | 32 | 1,47 | 31 (66 %) | 39 (83 %) | 0 (0 %) | 13 | 0 | 6 | 7,8 | 70 min |
+| 2021-ga-B-wtr (Reserve) | 47 | 30 | 1,57 | 33 (70 %) | 43 (91 %) | 0 (0 %) | 6 | 0 | 7 | 6,7 | 60 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -3050,10 +3053,51 @@ im Scratchpad. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider
 Skripte bestanden (1305 Zeilen, 1238 Typen, 34 Stapel, Eichung über den
 Bestand 94 %). Aufwand etwa 70 Minuten.
 
+**Stapel 2021-ga-B (WTR) – Reserve geöffnet wegen der Landesheftverweise
+(Auftrag C, Teil 2, 17.09.2026; Abbruchkriterium unberührt).** 7 Dateien (die
+fünf CAS-Dateien bleiben Reserve, AG/LA (A2) CAS 1 ist Dublette von WTR 1),
+47 Zeilen, 47 Typen verwendet, 19 neu (40 %), 28 wiederverwendet – darunter die
+zwölf Etiketten der vorgemerkten Teilaufgaben des Landeshefts 2021-be-gk (3 a,
+c, d, g, h, i → AG/LA (A2) WTR 1 a–f, alle sechs; 4 a, c, d, g, h, i →
+Stochastik WTR 2 a, b, c, e, f, g). Sitz der Landesverweise: AG/LA (A2) WTR 1
+vollständig, Stochastik WTR 2 sechs von sieben (d fehlt im Heft); Analysis,
+AG/LA (A1), AG/LA (A2) WTR 2, Stochastik WTR 1 und 3 kommen im Heft nicht
+vor. Alle sieben Dateien ohne Aufgabennummer (Buchstaben direkt, innen 1);
+Analysis mit Aufgabe 1 (Kurve, Schar h_a) und Aufgabe 2 (Glyzerintank).
+
+*Eichung.* 45 von 47 nach der Spalte Anforderungsbereich (96 %); die zwei
+Abweichungen sind eigene Schätzungen (AG/LA (A2) WTR 2 b Zerlegung eines
+Flächenterms erkennen – II gegen I; d Winkelformel anwenden – I gegen II),
+beide in bemerkung begründet und stehen gelassen. Wie bei 2020-ga-B ist die
+Quote keine unabhängige Kennzahl (Standardbezug beim Schätzen in Sicht). Vier
+Landeszeilen von 2021-be-gk schätzen anders als der Standardbezug (3 a II
+gegen I, 3 i III gegen II, 4 c II gegen I, 4 i II gegen III); die Poolzeilen
+tragen den amtlichen Bereich, die Landeszeilen ziehen im Abgleichlauf nach
+(Vorrang des Amtlichen, wie Lauf 20). Alle amtlichen Ergebnisse mit sympy
+nachgerechnet (check21.py), keine Abweichung; Nebenbefund: die parallele
+Tangente in Analysis 1 b berührt bei x = 4 (weitere Schnittstellen 4 ± √96
+außerhalb von [0; 8]).
+
+*Schnitt.* 30 Werte, 41 von 47 Zeilen auf bekannten Werten; sechs Werte neu
+im Niveau (Abstände · zeichnen, Baumdiagramm · angeben, Ebene Figur · angeben,
+Rekonstruktion · zeichnen, Schnittmengen · zeichnen, Unabhängigkeit ·
+begründen), einer neu im Gesamtbestand iqb + abi (Abstände · zeichnen, AG/LA
+(A2) WTR 2 e: Skizze zur Roboterposition – in der Geltung beider Zielprüfungen):
+Abbruchkriterium 1 von 5. Auf Teil-A-Werten gleiches Niveau 33 (70 %), beide
+Niveaus 43 (91 %). Außerhalb der Geltung: AG/LA (A1) (Übergangsmatrizen, 6
+Zeilen, alle Zielprüfungen) und Analysis 1 d, e (Funktionsscharen, in den
+Grundkursen). Neue Typen nach Thema: Kurvenuntersuchung 2, Funktionsscharen 2,
+Rekonstruktion von Beständen 2, Matrizen 2, Baumdiagramm 3, Binomialverteilung
+2, je 1 Integralwert, Ableitung und Änderungsrate, Punkte und Strecken,
+Flächeninhalt und Volumen, Abstände, Kenngrößen. Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung beider Skripte bestanden (1352 Zeilen, 1257
+Typen, 35 Stapel, Eichung über den Bestand 94 %). Aufwand etwa 60 Minuten.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 2: Stapel 2021-ga-B (WTR) erfasst – Reserve geöffnet wegen der zwölf Vormerkungen aus 2021-be-gk; 47 Zeilen, 19 neue Typen (Typenliste 1238 → 1257), Eichung 45 von 47, Abbruchkriterium 1 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2020-ga-B (WTR) erfasst – Reserve geöffnet wegen der sieben Vormerkungen aus 2020-be-gk; 47 Zeilen, 27 neue Typen (Typenliste 1211 → 1238), Eichung 47 von 47 (Schätzung nicht blind, § 4), Abbruchkriterium 0 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 0 (Entscheidung des Lehrers): Eichschwelle für Poolstapel unverändert 85 %, für Landeshefte ausgesetzt (abi.md § 7); Kern v0.7 § 5 Maßstab der Schätzung; iqb.md v1.9 § 7. Lauf 22 (abgleich.py v0.22) ändert nur abi-katalog.csv (afb_amtlich in 21 Dubletten bis 2018); iqb-katalog.csv und Typen unverändert (1258, 1211). |
 | 2026-09-17 | abitur-vokabular.md v1.4 (Auftrag B, Teil 5): § 3 Ausschlussliste neben der Geltungstabelle und Vorschlag einer strukturellen Geltung; Geltungstabelle und Themenliste unverändert, keine Wirkung auf iqb-bau.py. |
