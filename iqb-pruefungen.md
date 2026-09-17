@@ -56,7 +56,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2022-ga-B (WTR) | 7 von 13 | **erfasst 2026-09-17, 52 Zeilen – wegen Landesheftverweisen** (19 Vormerkungen aus 2022-bebb-gk; Reserve geöffnet, Abbruchkriterium unberührt) · 28 Typen neu, 26 wiederverwendet · Eichung 50 von 52 (Spalte AB; im Stapellauf 41 von 52 mit Schwelle 75 %, seit Lauf 20 übernommene Schätzungen auf den amtlichen Bereich, § 4) |
 | 2021-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
 | 2021-ea-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
-| 2020-ga-B (WTR) | 6 von 13 | entfällt – Reserve (§ 4) |
+| 2020-ga-B (WTR) | 6 von 13 | **erfasst 2026-09-17, 47 Zeilen – wegen Landesheftverweisen** (7 Vormerkungen aus 2020-be-gk; Reserve geöffnet in Auftrag C Teil 2, Abbruchkriterium unberührt) · 27 Typen neu, 21 wiederverwendet · Eichung 47 von 47 (Spalte AB; Schätzung nicht blind, § 4) |
 | 2020-ea-B (WTR) | 8 von 15 | entfällt – Reserve (§ 4) |
 | 2019-ga-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
 | 2019-ea-B (WTR) | 10 von 17 | entfällt – Reserve (§ 4) |
@@ -115,6 +115,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2018-ga-B-wtr (Teil B, Reserve) | 53 | 52 | 29 (56 %) | 46 von 53 (87 %), Liste v0.7, Spalte AB | 0 | 0 | 11 von 52 (21 %); Schnitt 34 Werte, 48 von 53 Zeilen bekannt (91 %) | 10, 8, 10, 8 | 9 |
 | 2018-ea-B-wtr (Teil B, Reserve) | 69 | 72 | 38 (53 %) | 59 von 69 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 15 von 72 (21 %); Schnitt 44 Werte, 64 von 69 Zeilen bekannt (93 %) | 19, 6, 19, 6 | 2 |
 | 2022-ga-B-wtr (Teil B, Reserve) | 52 | 54 | 28 (52 %) | 50 von 52 (96 %) seit Lauf 20, Liste v0.7, Spalte AB; im Stapellauf 41 von 52 (79 %): eigene 31 von 33, 19 übernommene 10 | 0 | 0 | 11 von 54 (20 %); Schnitt 39 Werte, 51 von 52 Zeilen bekannt (98 %) | 7, 6, 7, 6 | 19 |
+| 2020-ga-B-wtr (Teil B, Reserve) | 47 | 48 | 27 (56 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht, keine unabhängige Kennzahl (§ 4) | 0 | 0 | 16 von 48 (33 %); Schnitt 32 Werte, 42 von 47 Zeilen bekannt (89 %) | 9, 4, 9, 4 | 7 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2044,6 +2045,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2018-ga-B-wtr (Reserve) | 53 | 34 | 5 | 3 | 5 | 0 | 0 | 0 |
 | 2018-ea-B-wtr (Reserve) | 69 | 44 | 4 | 3 | 4 | 3 | 2 | 3 |
 | 2022-ga-B-wtr (Reserve) | 52 | 39 | 1 | 1 | 1 | 0 | 0 | 0 |
+| 2020-ga-B-wtr (Reserve) | 47 | 32 | 4 | 3 | 3 | 1 | 0 | 0 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2099,6 +2101,7 @@ fortgeschrieben).**
 | 2018-ga-B-wtr (Reserve) | 53 | 34 | 1,56 | 40 (75 %) | 51 (96 %) | 0 (0 %) | 7 | 0 | 7 | 7,6 | 45 min (mit Kontextwechsel) |
 | 2018-ea-B-wtr (Reserve) | 69 | 44 | 1,57 | 56 (81 %) | 58 (84 %) | 0 (0 %) | 10 | 0 | 8 | 8,6 | 60 min |
 | 2022-ga-B-wtr (Reserve) | 52 | 39 | 1,33 | 38 (73 %) | 47 (90 %) | 0 (0 %) | 10 | 0 | 7 | 7,4 | 55 min (19 Zeilen aus den Landeszeilen erzeugt) |
+| 2020-ga-B-wtr (Reserve) | 47 | 32 | 1,47 | 31 (66 %) | 39 (83 %) | 0 (0 %) | 13 | 0 | 6 | 7,8 | 70 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -3001,10 +3004,57 @@ amtlichen Bereich), in Teil A nicht (0, 6, 4). Lauf aus dem HEAD-Stand
 byteidentisch, Selbstprüfung beider Skripte bestanden (1258 Zeilen, 1124
 Typen, 33 Stapel, Eichung über den Bestand 94 %).
 
+**Stapel 2020-ga-B (WTR) – Reserve geöffnet wegen der Landesheftverweise
+(Auftrag C, Teil 2, 17.09.2026; Abbruchkriterium unberührt).** 6 Dateien (die
+sieben CAS-Dateien bleiben Reserve), 47 Zeilen, 48 Typen verwendet, 27 neu
+(56 %), 21 wiederverwendet – darunter die sieben Etiketten der vorgemerkten
+Teilaufgaben des Landeshefts 2020-be-gk (4.2 a–g → Stochastik WTR 1, Aufgabe
+1 a–d und 2 a–c). Sitz der Landesverweise: nur Stochastik WTR 1 (alle 7
+Zeilen); die übrigen fünf Dateien kommen im Heft nicht vor. Befund zu den
+Vermerken: das Heft ersetzt den Anteil 29 % des Pools durchgehend durch 1/3 –
+damit sind Aufgabe 1 a–d abgewandelt (dort schon so vorgemerkt) und von
+Aufgabe 2 nur c wortgleich (Ergebnis a = 1/3 hängt nicht vom Anteil ab);
+2 a und 2 b, im Heft als wortgleich vorgemerkt, führen mit 1/3 zu anderen
+Zahlen (y ≈ 0,0117 statt 0,01; 85,7 % statt 88,0 %) und werden im
+Abgleichlauf auf „Abgewandelt von:" gestellt. AG/LA (A2) WTR Aufgabe 2 ohne
+Teilaufgabenbuchstaben (id …-2, 4 BE, AB III).
+
+*Eichung.* 47 von 47 nach der Spalte Anforderungsbereich. **Keine
+unabhängige Kennzahl:** Aufgabe, Erwartungshorizont und Standardbezug wurden
+je Datei gemeinsam gelesen (Text und gerendertes Blatt), die Schätzung
+entstand mit der AB-Spalte in Sicht; zwei Zeilen tragen die Abwägung nach der
+engen Fassung in bemerkung (Analysis WTR 2 1 b Grenzwert mit Begründung am
+Term, 1 e Produktregel mit Zusammenfassen – je II). Die Vorgabe „erst
+schätzen, dann Standardbezug lesen" (iqb.md § 7) ist in diesem Lauf nicht
+eingehalten; die Quote sagt daher nichts über die Treffsicherheit der
+Schätzung. Alle amtlichen Ergebnisse mit sympy nachgerechnet (check20.py),
+keine Abweichung; Ablesewert 1 c (Tangente durch (0 | 1/2)) über die
+Berührstelle t ≈ 2,13 bestätigt.
+
+*Schnitt.* 32 Werte, 42 von 47 Zeilen auf bekannten Werten; vier Werte neu
+im Niveau (Fläche · zeichnen, Ebene Figur · zeichnen, Grenzwerte · begründen,
+Verflechtung · begründen), einer neu im Gesamtbestand iqb + abi (Verflechtung
+· begründen, Matrizen – außerhalb der Geltung beider Grundkurs-Zielprüfungen):
+Abbruchkriterium 0 von 5. Auf Teil-A-Werten gleiches Niveau 31 (66 %), beide
+Niveaus 39 (83 %). Außerhalb der Geltung: AG/LA (A1) Aufgabe 1 (Matrizen, 4
+Zeilen, alle vier Zielprüfungen) und die Scharaufgaben Analysis WTR 1 g–i,
+Analysis WTR 2 2 a, b (Funktionsscharen, in den Grundkursen). Neue Typen
+nach Thema: Funktionsscharen 4, Flächeninhalt durch Integration 4, Tangente
+2, Punkte und Strecken 3, Flächeninhalt und Volumen 2, je 1 Gleichungen
+lösen, Ableitungsregeln (nur als typ_neben), Ableitung und Änderungsrate,
+Funktionsklassen, Stammfunktion, Matrizen, Ebenen, Skalarprodukt,
+Orthogonalität, Binomialverteilung, Kenngrößen, Bedingte Wahrscheinlichkeit.
+Werkzeuge: Zeilen als vier Fragmente (zeilen20_1–4.py), Einbau mit
+patch_iqbbau_stapel.py, Typprüfung typcheck.py, Schnitt schnitt_res.py – alle
+im Scratchpad. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider
+Skripte bestanden (1305 Zeilen, 1238 Typen, 34 Stapel, Eichung über den
+Bestand 94 %). Aufwand etwa 70 Minuten.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 2: Stapel 2020-ga-B (WTR) erfasst – Reserve geöffnet wegen der sieben Vormerkungen aus 2020-be-gk; 47 Zeilen, 27 neue Typen (Typenliste 1211 → 1238), Eichung 47 von 47 (Schätzung nicht blind, § 4), Abbruchkriterium 0 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 0 (Entscheidung des Lehrers): Eichschwelle für Poolstapel unverändert 85 %, für Landeshefte ausgesetzt (abi.md § 7); Kern v0.7 § 5 Maßstab der Schätzung; iqb.md v1.9 § 7. Lauf 22 (abgleich.py v0.22) ändert nur abi-katalog.csv (afb_amtlich in 21 Dubletten bis 2018); iqb-katalog.csv und Typen unverändert (1258, 1211). |
 | 2026-09-17 | abitur-vokabular.md v1.4 (Auftrag B, Teil 5): § 3 Ausschlussliste neben der Geltungstabelle und Vorschlag einer strukturellen Geltung; Geltungstabelle und Themenliste unverändert, keine Wirkung auf iqb-bau.py. |
 | 2026-09-17 | Abgleichlauf 21 (abgleich.py v0.21) nach den Landesheften 2019-be-gk, 2020-be-gk, 2021-be-gk, 2024-bebb-lk, 2025-bebb-lk: vier Zusammenziehungen, 1215 → 1211 Typen, 5 Typfelder im iqb-Katalog (2018MgrundlegendBAnalysisWTR-2f, 2018MerhoehtBAnalysisWTR1-2e, 2020MerhoehtAStochastik12-a, 2019MgrundlegendAStochastik12-a, 2020MgrundlegendAAnalysis12). alt → neu: „Maximum einer Gewinnfunktion über die Ableitung berechnen" → „Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen"; „Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben" → „Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben"; „Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen" und „Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen" → „Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen"; „Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren" und „Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen" → „Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren". |
