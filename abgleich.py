@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.21 · 17.09.2026 · gilt mit abitur-vokabular.md v1.3, abi-bau.py v0.8 und iqb-bau.py v1.5
+Version 0.22 · 17.09.2026 · gilt mit abitur-vokabular.md v1.4, abi-bau.py v0.9 und iqb-bau.py v1.5
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -108,6 +108,11 @@ faktorisierten Ableitung (mögliche Extremstellen 2024-bebb-lk), mindestens oder
 höchstens einmal über das Gegenereignis bei zwei oder drei Stufen (spätestens
 dritter Erfolg 2020-be-gk), quadratische Steckbriefaufgabe aus Wert- und
 Steigungsbedingungen (wie Lauf 17 für dritten Grad); 1215 → 1211.
+Lauf 22 (17.09.2026, Auftrag C Teil 0 – Maßstab der Schätzung, Kern § 5
+v0.7): Feldkorrektur afb_amtlich in den 21 Dubletten der Hefte bis 2018
+(2017-bb-ea und 2018-bb-ea Teil A aus dem Bereichswert der Poolzeile,
+2018-be-gk Teil B aus der AB-Spalte), damit „afb_amtlich leer" im ganzen
+Bestand „Schätzung ohne Maßstab" heißt; Typen unverändert (1211).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1282,6 +1287,47 @@ NEUE_DEFINITION_21 = {
         "Tangentengleichung (Wert und Steigung an der Berührstelle) sind solche Bedingungen, welche vorliegen, steht in der Zeile.",
 }
 
+# ======================================================================= Lauf 22
+# Maßstab der Schätzung (Auftrag C, Teil 0, Entscheidung des Lehrers,
+# 17.09.2026; Kern § 5 v0.7): niveau_geschaetzt ist genau dort an einem
+# amtlichen Bereich messbar, wo afb_amtlich gefüllt ist – leer heißt Schätzung
+# ohne Maßstab, ohne eigene Markierung. Damit das im abi-Bestand gilt, bekommen
+# die Dubletten der Hefte bis 2018 afb_amtlich aus ihrer Poolzeile, wie es die
+# Dubletten ab 2019 seit Lauf 15/18 und dubletten.py tragen: Teil A den
+# Bereichswert der Poolzeile (Standardbezug, Liste wie I|II), Teil B die
+# AB-Spalte, die schon als „AB amtlich: X." in bemerkung steht. Betroffen sind
+# genau 21 Zeilen (2017-bb-ea Teil A 6, 2018-bb-ea Teil A 4, 2018-be-gk Teil B
+# 11); die frühere Regel „afb_amtlich bleibt bei Heften bis 2018 leer"
+# (abi-bau.py bis v0.8, Lauf 15) entfällt: abi-bau.py v0.9 verlangt
+# afb_amtlich genau bei „Dublette von:". Sonst bleibt alles unverändert.
+HOECHSTENS_22 = 21
+_PROTOKOLL_22 = []
+
+
+def zeile_22(d):
+    if d["jahr"] > "2018" or d["afb_amtlich"]:
+        return False
+    m = re.match(r"Dublette von: ([A-Za-z0-9-]+)\.", d["bemerkung"])
+    if not m:
+        return False
+    q = poolzeilen_15().get(m.group(1))
+    if q is None:
+        sys.exit(f"{d['id']}: Poolzeile {m.group(1)} nicht im iqb-Katalog – Abbruch")
+    ab = AB_15.search(d["bemerkung"])
+    if d["block"] == "B":
+        if not ab or not AB_15.search(q["bemerkung"]) or ab.group(1) != AB_15.search(q["bemerkung"]).group(1):
+            sys.exit(f"{d['id']}: AB-Spalte fehlt oder weicht von der Poolzeile ab – Abbruch")
+        d["afb_amtlich"] = ab.group(1)
+    else:
+        if ab or not q["afb_amtlich"]:
+            sys.exit(f"{d['id']}: Teil A mit AB-Spalte oder Poolzeile ohne afb_amtlich – Abbruch")
+        d["afb_amtlich"] = q["afb_amtlich"]
+    _PROTOKOLL_22.append((d["id"], m.group(1), d["afb_amtlich"]))
+    if len(_PROTOKOLL_22) > HOECHSTENS_22:
+        sys.exit(f"Lauf 22 fasst mehr als {HOECHSTENS_22} Zeilen an – Abbruch")
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1304,10 +1350,11 @@ LAEUFE = {
     19: ({}, ZUSAMMEN_19, NEUE_DEFINITION_19, {}),
     20: ({}, {}, {}, {}),
     21: ({}, ZUSAMMEN_21, NEUE_DEFINITION_21, {}),
+    22: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
-                 18: [("*", zeile_18)], 20: [("*", zeile_20)]}
+                 18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -1458,6 +1505,12 @@ def main():
         rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
                 if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
         print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+    if LAUF == 22:
+        if len(_PROTOKOLL_22) != HOECHSTENS_22:
+            sys.exit(f"Lauf 22: {len(_PROTOKOLL_22)} statt {HOECHSTENS_22} Zeilen angefasst")
+        print(f"\nafb_amtlich aus der Poolzeile übernommen ({len(_PROTOKOLL_22)} Zeilen, Hefte bis 2018):")
+        for i, pid, wert in _PROTOKOLL_22:
+            print(f"  {i} ← {pid}: {wert}")
     if LAUF == 20:
         fehlt = sorted(set(KORREKTUR_20) - {i for i, _, _ in _PROTOKOLL_20})
         if fehlt:

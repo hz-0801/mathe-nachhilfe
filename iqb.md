@@ -1,5 +1,9 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.8 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.6 (Schema-Version 2)
+Version 1.9 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 1.8 (Auftrag C, Teil 0, Entscheidung des Lehrers): § 7
+Eichschwelle für Poolstapel unverändert 85 %, für Landeshefte (abi)
+ausgesetzt; Maßstab der Schätzung nach Kern § 5 v0.7 (afb_amtlich leer =
+Schätzung ohne Maßstab). iqb-bau.py unverändert (v1.5).
 Änderungen gegenüber 1.7 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", Entscheidung des Lehrers): § 7
 Überschreibung der Eichschwelle je Stapel zurückgebaut, Vorrang des Amtlichen
@@ -395,6 +399,20 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
     die Schätzung korrigiert, nicht die Schwelle, und die Landeszeile zieht
     nach; iqb-bau.py v1.5 prüft übernommene Schätzungen gegen den amtlichen
     Bereich (Lauf 20: neun Zeilen von 2022-ga-B, iqb-pruefungen.md § 4).
+    **Die Schranke gilt nur für Poolstapel** (Entscheidung des Lehrers,
+    17.09.2026, Auftrag C Teil 0): hier liegt der Maßstab für praktisch jede
+    Zeile vor (1 von 1258 Zeilen ohne Standardbezug), die Quote misst die
+    Erfassungsarbeit. Für Landeshefte (abi.md § 7) ist sie ausgesetzt – dort
+    fehlt der Maßstab für die meisten Zeilen, und wo er vorliegt (41
+    Landesschätzungen mit amtlichem Bereich: 11 über, 22 gleich, 8 unter;
+    Teil A eher zu niedrig, Teil B eher zu hoch), liegt die Trefferquote bei
+    54 % gegen 94 % im Pool, sie misst dort die Schwierigkeit der Aufgabe,
+    nicht die Arbeit; die Quote wird dort weiter als Kennzahl ausgewiesen.
+    Zurückgenommen wird die Aussetzung, falls die Erfassungsqualität sichtbar
+    leidet. Maßstab der Schätzung (Kern § 5 v0.7): niveau_geschaetzt ist
+    genau dort messbar, wo afb_amtlich gefüllt ist; die eine Zeile ohne
+    Standardbezug (2019 AG/LA A2 2 a) trägt eine Schätzung ohne Maßstab, die
+    Selbstprüfung zählt solche Zeilen („Zeilen ohne Standardbezug").
   · Zeilen mit „ersatzweise" (kein passendes Thema): höchstens 10 % der Zeilen,
     mindestens 2 erlaubt.
   Reißt eine Schranke, ist der Stapel nicht schlecht, sondern die Etiketten sind

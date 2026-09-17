@@ -51,7 +51,7 @@ am BE-Vektor.
 
 **Kennzahlen je Heft** (Ausgabe von abi-bau.py ab v0.3; Hefte bis 2018 vor
 dem Umstellungslauf erfasst, ohne Kennzahlenzeile). Spalten: Zeilen, verwendete
-Typen, davon neu, Eichung (Zeilen mit amtlichem Bereich), „?“, ersatzweise,
+Typen, davon neu, Eichung (Zeilen mit amtlichem Bereich; seit Auftrag C Teil 0 Kennzahl ohne Schranke), „?“, ersatzweise,
 Wiederverwendung im Niveau, außerhalb der Geltung je Zielprüfung, Schnitt,
 Poolquote (Zeilen und angebotene BE, die wortgleich im Pool stehen – erfasst
 als „Dublette von:" oder vorgemerkt als „Poolaufgabe (nicht erfasst)";
@@ -87,8 +87,8 @@ liegen lokal unter hefte/ und bleiben über .gitignore außerhalb des Repos
 (urheberrechtlich geschützt): 2019–2021 Berlin Grundkurs als PDF mit
 Textebene, 2022–2025 Berlin/Brandenburg (GK und LK) als Bildscans, 2026
 Brandenburg als PDF mit Textebene – Verzeichnis mit Seiten, Textebene und
-Erfassungsstand in abi-quellen.md § 8 (17.09.2026); nicht erfasst sind
-2019-be-gk, 2020-be-gk, 2021-be-gk, 2024-bebb-lk, 2025-bebb-lk (§ 2).
+Erfassungsstand in abi-quellen.md § 8 (17.09.2026); seit Auftrag B, Teil 1
+(17.09.2026) sind alle dreizehn Verlagsdateien erfasst (§ 2).
 
 **Offen: Berlin 2026.** Für das Berliner Abitur 2026 (erstes Jahr der
 getrennten Erstellung über das BLiQ) existiert kein STARK-Heft; der Band zum
@@ -1758,6 +1758,43 @@ Widerspruch beruhte auf der Lesart „ein Wahlblock zu drei Aufgaben"; abi.md
 v0.19 § 11 nachgeführt, am Katalog ändert sich nichts (soll je Aufgabe 5 BE
 war schon richtig).
 
+**Eichschwelle für Landeshefte ausgesetzt, Maßstab der Schätzung, Lauf 22
+(17.09.2026, Auftrag C „Eichschwelle setzen, Markdown-Korpus fertigstellen,
+offene Posten schließen, Katalog gegen Stark prüfen, Repo sichten", Teil 0;
+Entscheidung des Lehrers).** (1) abi-bau.py v0.9 setzt die Eichschwelle aus
+(SCHWELLEN „eichung_mindestens" = None): sie prüft die Erfassungsqualität am
+amtlichen Anforderungsbereich; bei Landesheften fehlt der Maßstab für die
+meisten Zeilen, und wo er vorliegt, lag die Trefferquote der
+Landesschätzungen bei 54 % gegen 94 % im Pool (41 Zeilen: 11 über, 22
+gleich, 8 unter; Teil A eher zu niedrig, Teil B eher zu hoch – Befund zu
+Lauf 20) – sie misst dort die Schwierigkeit der Aufgabe, nicht die Arbeit.
+Für Poolstapel bleibt sie bei 85 % (iqb-bau.py v1.5 unverändert). (2) Die
+Eichquote bleibt Kennzahl: im Heftbericht („Eichung eigener Zeilen … von n
+(Kennzahl; Schranke ausgesetzt)"), in der Kennzahlenzeile § 2 und in der
+Selbstprüfung („Eichung über den Bestand … Kennzahl, keine Schranke" und neu
+„Ohne Maßstab je Heft"). (3) Kennzeichnung der Zeilen ohne amtlichen
+Bereich: aus afb_amtlich ableitbar, keine Markierung – Kern § 5 v0.7
+„Maßstab der Schätzung": afb_amtlich leer heißt niveau_geschaetzt ist eine
+Schätzung ohne Maßstab. Damit das im Bestand stimmt, hat **Lauf 22**
+(abgleich.py v0.22) den 21 Dubletten der Hefte bis 2018 afb_amtlich aus der
+Poolzeile gegeben (2017-bb-ea Teil A 6 und 2018-bb-ea Teil A 4 Zeilen den
+Bereichswert des Standardbezugs, 2018-be-gk Teil B 11 Zeilen die AB-Spalte,
+die dort schon als „AB amtlich: X." in bemerkung stand); die Regel
+„afb_amtlich leer bei Heften bis 2018" (Lauf 15) ist ersetzt durch
+„afb_amtlich genau bei Dublette von:", abi-bau.py v0.9 prüft sie. Typen
+unverändert (1211), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung
+beider Skripte bestanden (abi 794, iqb 1258). Eichung über den abi-Bestand
+jetzt 301 von 322 gewerteten Zeilen (93 %; vorher 312 gewertet, die zehn
+Teil-A-Dubletten 2017/2018 zählen neu mit und treffen alle, weil Lauf 20 sie
+nachgezogen hatte), 472 Zeilen ohne Maßstab; je Heft: 2017-bb-ea 30 von 36,
+2018-bb-ea 37 von 41, 2018-be-gk 25 von 36, 2019-be-gk 41 von 45, 2020-be-gk
+48 von 51, 2021-be-gk 54 von 56, 2022-bebb-gk 33 von 57, 2022-bebb-lk 36 von
+68, 2023-bebb-gk 47 von 58, 2023-bebb-lk 33 von 66, 2024-bebb-gk 27 von 47,
+2024-bebb-lk 19 von 53, 2025-bebb-gk 5 von 39, 2025-bebb-lk 17 von 46,
+2026-bb-ea 11 von 50, 2026-bb-gk 9 von 45. (4) Festgehalten in abi.md v0.20
+§ 4 und § 7, iqb.md v1.9 § 7, Kern v0.7 § 5; die Entscheidung wird
+zurückgenommen, falls die Erfassungsqualität sichtbar leidet.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2166,6 +2203,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 0 (Entscheidung des Lehrers): Eichschwelle für Landeshefte ausgesetzt (abi-bau.py v0.9, Kennzahl bleibt), Maßstab der Schätzung im Kern v0.7 § 5 (afb_amtlich leer = Schätzung ohne Maßstab, keine Markierung); Lauf 22 (abgleich.py v0.22): afb_amtlich aus der Poolzeile in den 21 Dubletten der Hefte bis 2018; abi.md v0.20, iqb.md v1.9 (§ 4). |
 | 2026-09-17 | Auftrag B, Teil 5: abitur-vokabular.md v1.4 § 3 Ausschlussliste (Aufgabenformen, nicht Themen) mit Befund im Bestand und Vorschlag einer strukturellen Geltung nach Jahrgangsklassen (nicht gesetzt); Widerspruch Teil A GK 30 gegen 25 BE an den Prüfungsschwerpunkten 2027 aufgelöst (3 + 1 + 1 Aufgaben = 25 BE), abi.md v0.19 § 11 nachgeführt (§ 4). |
 | 2026-09-17 | Auftrag B, Teile 2, 4 und 6: Markdown-Korpus begonnen (hefte-md/2025-bebb-gk.md mit zehn Abbildungen, außerhalb des Repos, .gitignore; Prüfung gegen den Katalog: 39 von 39 Teilaufgaben, 0 Abweichungen bei BE, Struktur und 27 nachgerechneten Ergebnissen, § 4); Teil 3 nicht ausführbar, Stichwortverzeichnisse fehlen (§ 4); CAS-Delta an 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2 gemessen (58 % wortgleich, 30 % gleicher Typ anderer Weg, 12 % zusätzliche Typen, 0 neue Schnittwerte; Hinweis, kein Beleg; § 4), amtliche Dateien 2016/2017 WTR und CAS unter hefte/; abi-quellen.md v0.4 (§ 5 Verlagsbände mit Beschaffungstabelle, § 8 alle Dateien erfasst, § 9 Korpus). |
 | 2026-09-17 | Abgleichlauf 21 (abgleich.py v0.21) nach den fünf Heften des Auftrags B, Teil 1: vier Zusammenziehungen, 1215 → 1211 Typen, 5 Typfelder im abi-Katalog (2019-be-gk 2.1 a, 2020-be-gk 4.1 b, 2021-be-gk 2.1 k, 2022-bebb-lk 1.7 a, 2024-bebb-lk 2.1 d) und 5 im iqb-Katalog. alt → neu: „Maximum einer Gewinnfunktion über die Ableitung berechnen" → „Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen"; „Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben" → „Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben"; „Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen" und „Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen" → „Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen"; „Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren" und „Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen" → „Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren". abi.md v0.19: § 11 Heftaufbau je Jahrgang 2019–2021 und 2024/2025 aus den Heften (Corona-Aufbau schon 2021, Pflicht plus zwei von sechs Wahlaufgaben im LK seit 2024), Zuordnung für die Simulation nachgeführt, § 9 Befund zu den GK-Heften 2019–2021. |

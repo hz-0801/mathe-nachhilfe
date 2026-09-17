@@ -1,9 +1,25 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.8 · 16.09.2026 · gilt mit katalog-prompt.md v0.5, abitur-vokabular.md v1.2 und abi.md v0.14
+Version 0.9 · 17.09.2026 · gilt mit katalog-prompt.md v0.7, abitur-vokabular.md v1.4 und abi.md v0.20
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" und unter „AB HIER UNVERÄNDERT" bleibt unverändert.
+
+Änderungen gegenüber 0.8 (Auftrag C, Teil 0, Entscheidung des Lehrers,
+17.09.2026): Die Eichschwelle für Landeshefte ist ausgesetzt
+(SCHWELLEN["eichung_mindestens"] = None): sie prüft die Erfassungsqualität am
+amtlichen Anforderungsbereich, der bei Landesheften für die meisten Zeilen
+fehlt; wo er vorliegt, trafen die Landesschätzungen 22 von 41 (54 %) gegen
+94 % im Pool – gemessen wird dort die Schwierigkeit der Aufgabe, nicht die
+Arbeit. Die Eichquote bleibt Kennzahl in Bericht und Selbstprüfung, ohne
+Abbruch; für Poolstapel gilt weiter 85 % (iqb-bau.py). Maßstab der
+Schätzung (Kern § 5 v0.7): niveau_geschaetzt ist genau dort messbar, wo
+afb_amtlich gefüllt ist; leer heißt Schätzung ohne Maßstab, ohne eigene
+Markierung. Dafür trägt jede Dublette afb_amtlich aus ihrer Poolzeile, auch
+in den Heften bis 2018 (Lauf 22 hat die 21 Zeilen nachgezogen); die Regel
+„afb_amtlich leer für Jahrgänge bis 2018" ist ersetzt durch „afb_amtlich
+genau bei Dublette von:" – eine Landeszeile hat nie einen amtlichen Bereich.
+Selbstprüfung und Heftbericht weisen die Zeilen ohne Maßstab aus.
 
 Änderungen gegenüber 0.7 (Heft 2022-bebb-lk, 16.09.2026): Die Eichschwelle
 zählt nur eigene Schätzungen. Eine Dublette, die die Schätzung ihrer Poolzeile
@@ -57,7 +73,7 @@ zieht auf den Stand von iqb-bau.py v1.0 nach:
     zeigen, ein Typ gilt als verwendet, wenn er in einem der Kataloge steht
     (ANDERE_KATALOGE). Präfixregel (abitur-vokabular.md § 4) für Typenliste und
     NEUE_TYPEN.
-  - SCHWELLEN: Qualitätsschranke im Skript („?", ersatzweise, Eichung).
+  - SCHWELLEN: Qualitätsschranke im Skript („?", ersatzweise; Eichung bis v0.8).
   - Eichung, wo ein amtlicher Bereich vorliegt (afb_amtlich, in Teil B
     zusätzlich „AB amtlich: …" in bemerkung wie im Profil iqb); die Hefte bis
     2018 haben keinen und zählen nicht.
@@ -123,9 +139,12 @@ SCHWELLEN = {
     "fragezeichen_anteil": 0.10, "fragezeichen_mindestens": 2,
     "neue_typen_anteil": None, "neue_typen_ab_bestand": 100,
     "ersatzweise_anteil": 0.10, "ersatzweise_mindestens": 2,
-    # Eichung gegen den amtlichen Bereich, ab dieser Zahl eigener gewerteter Zeilen
-    # scharf; geerbte Schätzungen der Dubletten zählen nicht (v0.8).
-    "eichung_mindestens": 0.85, "eichung_ab_zeilen": 10,
+    # Eichung gegen den amtlichen Bereich: als Schranke ausgesetzt (None, v0.9,
+    # Entscheidung des Lehrers 17.09.2026 – Landeshefte haben für die meisten
+    # Zeilen keinen Maßstab); bleibt Kennzahl. Ein Wert wie 0.85 schaltet sie
+    # wieder scharf, ab eichung_ab_zeilen eigenen gewerteten Zeilen; geerbte
+    # Schätzungen der Dubletten zählen nicht (v0.8).
+    "eichung_mindestens": None, "eichung_ab_zeilen": 10,
 }
 
 # Stämme, die eine ASCII-Umschrift von ä, ö, ü oder ß verraten. Positivliste,
@@ -1490,9 +1509,11 @@ def pruefe_zeile(z, a, andere, heftkennung=True):
       f"{i}: hilfsmittel passt nicht zu block {z['block']}")
     a(PAPIER.fullmatch(z["papier"]) is not None, f"{i}: papier folgt nicht dem Muster Jahr-Land-Niveau[-cas|-mms]")
     a(z["papier"].startswith(z["jahr"] + "-"), f"{i}: papier beginnt nicht mit dem Jahr")
-    if z["jahr"] <= "2018":
-        a(z["afb_amtlich"] == "", f"{i}: afb_amtlich ist für {z['jahr']} nicht ausgewiesen")
-    elif z["afb_amtlich"]:
+    # Maßstab der Schätzung (Kern § 5 v0.7): afb_amtlich genau bei Dubletten, aus der
+    # Poolzeile; eine Landeszeile hat keinen amtlichen Bereich (Schätzung ohne Maßstab).
+    a(bool(z["afb_amtlich"]) == ("Dublette von:" in z["bemerkung"]),
+      f"{i}: afb_amtlich {'gefüllt ohne' if z['afb_amtlich'] else 'leer trotz'} Dublettenverweis")
+    if z["afb_amtlich"]:
         a(AFB.fullmatch(z["afb_amtlich"]) is not None, f"{i}: afb_amtlich ungültig: {z['afb_amtlich']}")
         teile = z["afb_amtlich"].split("|")
         a([ORD[t] for t in teile if t in ORD] == sorted({ORD[t] for t in teile if t in ORD}),
@@ -1568,7 +1589,7 @@ def pruefe_zeile(z, a, andere, heftkennung=True):
 
 def amtlich_von(z):
     """Amtlicher Bereich für die Eichung: die Spalte „AB amtlich" aus bemerkung, sonst das
-    Maximum über afb_amtlich; 0, wenn nichts ausgewiesen ist (Hefte bis 2018)."""
+    Maximum über afb_amtlich; 0, wenn nichts ausgewiesen ist (Schätzung ohne Maßstab)."""
     m = AB_SPALTE.search(z["bemerkung"])
     if m:
         return ORD[m.group(1)]
@@ -1671,7 +1692,10 @@ def main():
         treffer, abw, gew = eichung(alt)
         if gew:
             print(f"Eichung über den Bestand: {treffer} von {gew} gewerteten Zeilen ({100 * treffer // gew} %); "
-                  f"{len(alt) - gew} Zeilen ohne amtlichen Bereich.")
+                  f"{len(alt) - gew} Zeilen ohne Maßstab (afb_amtlich leer, Kern § 5). Kennzahl, keine Schranke.")
+            print("Ohne Maßstab je Heft: " + ", ".join(
+                f"{h} {sum(1 for z in alt if z['papier'] == h and not amtlich_von(z))} von {sum(1 for z in alt if z['papier'] == h)}"
+                for h in sorted({z['papier'] for z in alt})))
         else:
             print(f"Eichung: keine Zeile mit amtlichem Bereich ({len(alt)} Zeilen).")
         print("Außerhalb der Geltung: " + ", ".join(
@@ -1780,7 +1804,7 @@ def main():
     # Eichschwelle nur über eigene Schätzungen; geerbte Schätzungen der Dubletten
     # sind im Pool gemessen (v0.8).
     treffer_eng, abw_eng, gew = eichung(ZEILEN, eng=True, andere=andere)
-    if gew >= SCHWELLEN["eichung_ab_zeilen"]:
+    if SCHWELLEN["eichung_mindestens"] is not None and gew >= SCHWELLEN["eichung_ab_zeilen"]:
         a(treffer_eng / gew >= SCHWELLEN["eichung_mindestens"],
           f"Schwelle gerissen: Eichung {treffer_eng} von {gew} eigenen Zeilen "
           f"({100 * treffer_eng / gew:.0f} %), verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %: "
@@ -1829,17 +1853,18 @@ def main():
     geerbte = sum(1 for z in ZEILEN if amtlich_von(z) and geerbt(z, andere))
     if gew_alle:
         print(f"Eichung: {treffer} von {gew_alle} gewerteten Zeilen treffen den amtlichen Bereich"
-              + (f" ({n - gew_alle} ohne amtlichen Bereich)" if gew_alle != n else "")
+              + (f" ({n - gew_alle} ohne Maßstab: afb_amtlich leer)" if gew_alle != n else "")
               + (f"; davon {geerbte} Zeilen mit geerbter Schätzung (Dubletten, im Pool geeicht), "
                  f"{gew_alle - geerbte} eigene" if geerbte else "")
               + (f"; Abweichungen: {'; '.join(abw)}" if abw else ""))
     else:
-        print("Eichung: keine Zeile mit amtlichem Bereich.")
+        print(f"Eichung: keine Zeile mit amtlichem Bereich ({n} Zeilen ohne Maßstab).")
     print(f"Schwellen: {len(unsicher)} Zeilen mit „?“ (erlaubt {grenze_frage}), "
           f"{len(ersatz)} ohne passendes Thema (erlaubt {grenze_ersatz}), "
-          f"Eichung eigener Zeilen {100 * treffer_eng / gew if gew else 0:.0f} % "
-          f"(verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %"
-          f"{', nicht scharf' if gew < SCHWELLEN['eichung_ab_zeilen'] else ''})")
+          f"Eichung eigener Zeilen {100 * treffer_eng / gew if gew else 0:.0f} % von {gew} "
+          + ("(Kennzahl; Schranke ausgesetzt, Entscheidung des Lehrers 17.09.2026)" if SCHWELLEN["eichung_mindestens"] is None else
+             f"(verlangt {100 * SCHWELLEN['eichung_mindestens']:.0f} %"
+             f"{', nicht scharf' if gew < SCHWELLEN['eichung_ab_zeilen'] else ''})"))
     # Wiederverwendung im selben Niveau (gk, lk, ea) und Schnitt (abitur-vokabular.md § 4)
     niveau = niveau_von(KONFIG["papier"])
     im_niveau = set()

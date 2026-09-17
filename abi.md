@@ -1,5 +1,11 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.19 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Version 0.20 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 0.19 (Auftrag C „Eichschwelle setzen, Markdown-Korpus
+fertigstellen, offene Posten schließen, Katalog gegen Stark prüfen, Repo
+sichten", Teil 0, Entscheidung des Lehrers): § 7 Eichschwelle für Landeshefte
+ausgesetzt, Eichquote bleibt Kennzahl; Maßstab der Schätzung nach Kern § 5
+(afb_amtlich leer = Schätzung ohne Maßstab); § 4 afb_amtlich bei Dubletten in
+allen Jahrgängen aus der Poolzeile (abi-bau.py v0.9, Lauf 22).
 Änderungen gegenüber 0.18 (Auftrag B „Fünf Hefte erfassen, Heftkorpus,
 Katalog gegen Stark prüfen, CAS-Delta", Teil 1): § 11 Heftaufbau je Jahrgang
 2019–2021 (Berlin GK) und 2024/2025 (LK) aus den Heften, Corona-Aufbau schon
@@ -239,11 +245,18 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             (abitur-vokabular.md § 4) beginnt der Name mit der Klasse und
             Doppelpunkt („Körper: Pyramidenvolumen aus Grundfläche und Höhe
             berechnen"), sonst ohne Präfix; abi-bau.py prüft das.
-    afb_amtlich: leer für 2017/2018 – diese Hefte weisen keine
+    afb_amtlich: leer bei jeder Landeszeile – die Landeshefte weisen keine
             Anforderungsbereiche aus, und die zugehörigen Erwartungshorizonte
             sind nicht veröffentlicht. Eine Schätzung gehört nicht in dieses
-            Feld; sie steht in niveau_geschaetzt. Gefüllt wird nur bei
-            Poolaufgaben des IQB, die im Profil iqb erfasst werden: deren
+            Feld; sie steht in niveau_geschaetzt, dort ohne Maßstab (Kern
+            § 5 v0.7: afb_amtlich leer heißt Schätzung ohne Maßstab). Gefüllt
+            wird genau bei Dubletten („Dublette von:", § 7), aus der
+            Poolzeile, in allen Jahrgängen (bis 2018 seit Lauf 22, 17.09.2026;
+            vorher blieb das Feld dort leer und der Bereich stand nur in
+            bemerkung) – Teil A der Bereichswert der Poolzeile, Teil B die
+            AB-Spalte, die zusätzlich als „AB amtlich: X." in bemerkung
+            steht; abi-bau.py v0.9 prüft „gefüllt genau bei Dublette". Die
+            Poolaufgaben des IQB werden im Profil iqb erfasst: deren
             Abschnitt „Standardbezug" ist eine Matrix Teilaufgabe × K1–K6, in
             den Zellen stehen I, II oder III (Sondierung 13.09.2026). Eine
             Teilaufgabe trägt also bis zu sechs Bereiche, nicht einen; die
@@ -330,7 +343,7 @@ Themen belegt.
   Bau-Skripte das als offenen Posten (Warnung, kein Fehler), und der nächste
   Abgleichlauf stellt den Vermerk um – wortgleiche Fassungen auf „Dublette
   von:" (mit typ-Abgleich; die AB-Spalte der Poolzeile kommt als „AB amtlich:
-  X." nach bemerkung, afb_amtlich nur bei Heften ab 2019), abgewandelte auf
+  X." nach bemerkung und, seit Lauf 22, in allen Jahrgängen nach afb_amtlich), abgewandelte auf
   den Verweis **„Abgewandelt von: <iqb-id>; <Unterschied>."** (kein geteilter
   Typ verlangt, Poolzeile muss stehen; Lauf 15, 16.09.2026). Die Poolquote je
   Heft (Zeilen und BE wortgleich im Pool, erfasst oder vorgemerkt;
@@ -343,14 +356,33 @@ Themen belegt.
   „Traegerbindung: Kontext" am Anfang von bemerkung, kein eigenes Feld.
 - **Qualitätsschranke im Skript** (abi-bau.py v0.3, SCHWELLEN wie iqb-bau.py):
   Zeilen mit „?" höchstens 10 % (mindestens 2), Zeilen mit „ersatzweise"
-  höchstens 10 % (mindestens 2), Eichung mindestens 85 % der Zeilen mit
-  amtlichem Bereich, scharf ab 10 gewerteten Zeilen; die Hefte bis 2018 haben
-  keinen amtlichen Bereich. Seit v0.8 (Heft 2022-bebb-lk) zählt die Eichschwelle
-  nur eigene Schätzungen: eine Dublette, die die Schätzung ihrer Poolzeile
-  trägt, ist im Pool schon geeicht (iqb-pruefungen.md § 4) und würde im Heft
-  nur die zufällige Teilmenge des Pools noch einmal messen; die Kennzahl
-  Eichung je Heft nennt weiter alle gewerteten Zeilen und weist die geerbten
-  aus. Die eigene Schätzung einer Landeszeile wird nicht an den Standardbezug
+  höchstens 10 % (mindestens 2). **Eichschwelle ausgesetzt** (Entscheidung
+  des Lehrers, 17.09.2026, Auftrag C Teil 0; abi-bau.py v0.9,
+  eichung_mindestens = None): Die Eichung prüft die Erfassungsqualität am
+  amtlichen Anforderungsbereich; bei Landesheften fehlt der Maßstab für die
+  meisten Zeilen (472 von 794 Zeilen ohne afb_amtlich, Stand Lauf 22), und wo
+  er vorliegt, misst die Quote die Schwierigkeit der Aufgabe, nicht die
+  Arbeit: über alle 41 Landesschätzungen mit amtlichem Bereich (Landesheft
+  vor der Poolzeile erfasst, Auftrag A, abi-pruefungen.md § 4 Lauf 20) lagen
+  11 über, 22 gleich, 8 unter dem amtlichen Bereich – 54 % Treffer gegen
+  94 % im Pool; Teil A eher zu niedrig (0 über, 4 unter), Teil B eher zu hoch
+  (11 über, 4 unter). Die Eichquote wird weiter ausgewiesen, als Kennzahl im
+  Heftbericht, in der Kennzahlenzeile (abi-pruefungen.md § 2) und in der
+  Selbstprüfung (über den Bestand und Zeilen ohne Maßstab je Heft), ohne
+  Abbruch; für Poolstapel bleibt die Schranke unverändert bei 85 %
+  (iqb-bau.py). Die Entscheidung wird zurückgenommen, falls die
+  Erfassungsqualität sichtbar leidet (ein Wert wie 0.85 in SCHWELLEN schaltet
+  die Schranke wieder scharf). Bis v0.8 galt: Eichung mindestens 85 % der
+  Zeilen mit amtlichem Bereich, scharf ab 10 gewerteten Zeilen; seit v0.8
+  (Heft 2022-bebb-lk) zählt sie nur eigene Schätzungen: eine Dublette, die
+  die Schätzung ihrer Poolzeile trägt, ist im Pool schon geeicht
+  (iqb-pruefungen.md § 4) und würde im Heft nur die zufällige Teilmenge des
+  Pools noch einmal messen; die Kennzahl Eichung je Heft nennt weiter alle
+  gewerteten Zeilen und weist die geerbten aus. Maßstab der Schätzung (Kern
+  § 5 v0.7): eine Zeile mit leerem afb_amtlich trägt in niveau_geschaetzt
+  eine Schätzung ohne Maßstab, ohne eigene Markierung; afb_amtlich ist in
+  diesem Profil genau bei Dubletten gefüllt (§ 4). Die eigene Schätzung
+  einer Landeszeile wird nicht an den Standardbezug
   angepasst (iqb.md § 7) – außer sie ist eine wortgleiche Dublette: dann gilt
   der amtliche Bereich der Poolzeile (Vorrang des Amtlichen, Kern § 5 v0.6);
   die Landeszeile zieht per abgleich.py nach, sobald die Poolzeile erfasst ist
