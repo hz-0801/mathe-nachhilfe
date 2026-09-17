@@ -1,7 +1,11 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.7 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.5 (Schema-Version 2)
+Version 1.8 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.6 (Schema-Version 2)
+Änderungen gegenüber 1.7 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Entscheidung des Lehrers): § 7
+Überschreibung der Eichschwelle je Stapel zurückgebaut, Vorrang des Amtlichen
+für übernommene Schätzungen (Kern § 5, iqb-bau.py v1.5, Lauf 20).
 Änderungen gegenüber 1.6 (Stapel 2022-ga-B): § 7 Eichschwelle je Stapel in KONFIG
-überschreibbar (iqb-bau.py v1.4).
+überschreibbar (iqb-bau.py v1.4; in 1.8 zurückgebaut).
 Änderungen gegenüber 1.5 (Auftrag „Geltung klären"): § 6 Poolzeilen weiter
 gegen alle vier Spalten, die bebb-Regel gilt nur für abi
 (abitur-vokabular.md v1.2).
@@ -382,12 +386,15 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
     Anteil weiter (Kennzahlen); eine neue Schranke wird erst gesetzt, wenn der
     Typenschnitt für Teil A entschieden ist (iqb-pruefungen.md § 4).
   · Eichung: mindestens 85 % der Zeilen treffen nach der engen Fassung den
-    höchsten amtlichen Bereich (ab 10 Zeilen im Stapel scharf). Seit
-    iqb-bau.py v1.4 (2022-ga-B) darf KONFIG den Wert für einen Stapel
-    überschreiben („eichung_mindestens" mit Pflichtfeld „eichung_grund"); der
-    Bericht nennt Wert und Grund, die globale Schwelle bleibt. Erster Fall:
-    Zeilen, die die Schätzung wortgleicher Landeszeilen übernehmen, damit die
-    Dubletten geerbt bleiben (iqb-pruefungen.md § 4, 17.09.2026).
+    höchsten amtlichen Bereich (ab 10 Zeilen im Stapel scharf). Die Schwelle
+    gilt für jeden Stapel gleich: die Überschreibung je Stapel aus iqb-bau.py
+    v1.4 (2022-ga-B, 19 Zeilen mit der Schätzung der wortgleichen Landeszeilen,
+    Schwelle 75 %) ist mit v1.5 zurückgebaut (Entscheidung des Lehrers,
+    17.09.2026). Stattdessen gilt der Vorrang des Amtlichen (Kern § 5): weicht
+    eine aus einer Landeszeile übernommene Schätzung vom Standardbezug ab, wird
+    die Schätzung korrigiert, nicht die Schwelle, und die Landeszeile zieht
+    nach; iqb-bau.py v1.5 prüft übernommene Schätzungen gegen den amtlichen
+    Bereich (Lauf 20: neun Zeilen von 2022-ga-B, iqb-pruefungen.md § 4).
   · Zeilen mit „ersatzweise" (kein passendes Thema): höchstens 10 % der Zeilen,
     mindestens 2 erlaubt.
   Reißt eine Schranke, ist der Stapel nicht schlecht, sondern die Etiketten sind
@@ -482,8 +489,11 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Abbruchkriterium fällt (2017-ea-A, 2018-ga-B, 2018-ea-B; § 2, § 4).
 - **Standardbezug vor Erwartungshorizont lesen? Nein.** Reihenfolge beim
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
-  und Standardbezug. Die Schätzung wird nicht nachträglich an den Standardbezug
-  angepasst; eine Abweichung ist ein Messwert, kein Fehler.
+  und Standardbezug. Die eigene Schätzung wird nicht nachträglich an den
+  Standardbezug angepasst; eine Abweichung ist ein Messwert, kein Fehler. Anders
+  eine übernommene Schätzung (aus einer wortgleichen Landeszeile): sie ist kein
+  Messwert dieses Stapels und folgt dem amtlichen Bereich (Vorrang des
+  Amtlichen, Kern § 5, v1.8).
 - **Kombinieren mit Deutung heißt III** (Erfassungshinweis aus der Eichung,
   enge Fassung; Entscheidung nach dem Stapel 2025-ga-A, 13.09.2026). Der
   amtliche Standardbezug setzt III, wo eine Teilaufgabe mehrere Regeln oder

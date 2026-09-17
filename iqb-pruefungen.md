@@ -53,7 +53,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2023-ea-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 2 trägt „MMS/WTR", MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 64 Zeilen** · 49 Typen neu, 17 wiederverwendet · Eichung 55 von 64 (Spalte AB) · eine Zeile ersatzweise |
 | 2022-ea-B (WTR) | 8 von 16 (MMS-Zweig Reserve; Stochastik MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 69 Zeilen** · 54 Typen neu, 17 wiederverwendet · Eichung 62 von 69 (Spalte AB) |
 | 2026-ea-B (MMS) | 5 von 8 (drei Dubletten der WTR-Dateien: AG/LA A2 MMS 1, Stochastik MMS 1 und 2; Stochastik MMS 3 Aufgabe 1 Dublette von WTR 2) | **erfasst 2026-09-15, 32 Zeilen** · 21 Typen neu, 11 wiederverwendet (6 in wortgleichen Teilaufgaben) · Eichung 32 von 32 (Spalte AB) · Delta-Stapel erhöht, MMS-Delta in § 4 |
-| 2022-ga-B (WTR) | 7 von 13 | **erfasst 2026-09-17, 52 Zeilen – wegen Landesheftverweisen** (19 Vormerkungen aus 2022-bebb-gk; Reserve geöffnet, Abbruchkriterium unberührt) · 28 Typen neu, 26 wiederverwendet · Eichung 41 von 52 (Spalte AB; Schwelle für diesen Stapel 75 %, § 4) |
+| 2022-ga-B (WTR) | 7 von 13 | **erfasst 2026-09-17, 52 Zeilen – wegen Landesheftverweisen** (19 Vormerkungen aus 2022-bebb-gk; Reserve geöffnet, Abbruchkriterium unberührt) · 28 Typen neu, 26 wiederverwendet · Eichung 50 von 52 (Spalte AB; im Stapellauf 41 von 52 mit Schwelle 75 %, seit Lauf 20 übernommene Schätzungen auf den amtlichen Bereich, § 4) |
 | 2021-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
 | 2021-ea-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
 | 2020-ga-B (WTR) | 6 von 13 | entfällt – Reserve (§ 4) |
@@ -114,7 +114,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2026-ea-B-mms (Teil B, Delta-Stapel erhöht) | 32 | 32 | 21 (66 %) | 32 von 32 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 10 von 32 (31 %); Schnitt 27 Werte, 31 von 32 Zeilen bekannt (97 %) | 14, 7, 14, 7 | 0 |
 | 2018-ga-B-wtr (Teil B, Reserve) | 53 | 52 | 29 (56 %) | 46 von 53 (87 %), Liste v0.7, Spalte AB | 0 | 0 | 11 von 52 (21 %); Schnitt 34 Werte, 48 von 53 Zeilen bekannt (91 %) | 10, 8, 10, 8 | 9 |
 | 2018-ea-B-wtr (Teil B, Reserve) | 69 | 72 | 38 (53 %) | 59 von 69 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 15 von 72 (21 %); Schnitt 44 Werte, 64 von 69 Zeilen bekannt (93 %) | 19, 6, 19, 6 | 2 |
-| 2022-ga-B-wtr (Teil B, Reserve) | 52 | 54 | 28 (52 %) | 41 von 52 (79 %), Liste v0.7, Spalte AB; eigene 31 von 33, 19 übernommene 10 | 0 | 0 | 11 von 54 (20 %); Schnitt 39 Werte, 51 von 52 Zeilen bekannt (98 %) | 7, 6, 7, 6 | 19 |
+| 2022-ga-B-wtr (Teil B, Reserve) | 52 | 54 | 28 (52 %) | 50 von 52 (96 %) seit Lauf 20, Liste v0.7, Spalte AB; im Stapellauf 41 von 52 (79 %): eigene 31 von 33, 19 übernommene 10 | 0 | 0 | 11 von 54 (20 %); Schnitt 39 Werte, 51 von 52 Zeilen bekannt (98 %) | 7, 6, 7, 6 | 19 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2949,7 +2949,10 @@ halbierende Hilfslinie, III gegen II); übernommene Analysis WTR 2 1 a, 2 a
 III gegen II), 2 d (II gegen III), AG/LA (A2) WTR 2 a, c (II gegen I), e
 (III gegen II), f (II gegen III). Die Landeszeilen von 2022-bebb-gk liegen
 damit messbar über dem Standardbezug (10 von 19); das ist ein Befund über
-das Heft, nicht über den Pool.
+das Heft, nicht über den Pool. **Nachtrag Lauf 20 (17.09.2026):** die
+Überschreibung ist zurückgebaut, die neun übernommenen Schätzungen stehen
+auf dem amtlichen Bereich, Eichung 50 von 52 (96 %) – siehe den Block zu
+Lauf 20 unten.
 
 *Schnitt.* 39 Werte, 51 von 52 Zeilen auf bekannten Werten; **ein Wert neu
 im Niveau und im iqb-Bestand** (Körper · zeichnen, AG/LA (A2) WTR 1 d:
@@ -2974,10 +2977,35 @@ alle Formeln am gerenderten Blatt gelesen. Lauf aus dem HEAD-Stand
 byteidentisch, Selbstprüfung beider Skripte bestanden (1258 Zeilen, 1115
 Typen, 33 Stapel). Aufwand etwa 55 Minuten.
 
+**Abgleichlauf 20 – Vorrang des Amtlichen (17.09.2026, Auftrag „Eichung
+korrigieren, Prüfungsgeschichte und Prüfungsstruktur festhalten, Heftordner
+ordnen", Teil 1; abgleich.py v0.20, iqb-bau.py v1.5, iqb.md v1.8, Kern
+v0.6).** Entscheidung des Lehrers: die Überschreibung der Eichschwelle je
+Stapel (v1.4) ist zurückgebaut, die globale Schwelle 85 % gilt für jeden
+Stapel; weicht eine aus einer Landeszeile übernommene Schätzung vom
+Standardbezug ab, wird die Schätzung korrigiert, nicht die Schwelle (Kern
+§ 5), und die Landeszeile zieht nach. Lauf 20 setzt die neun Poolzeilen von
+2022-ga-B, deren übernommene Schätzung neben der Spalte Anforderungsbereich
+lag, auf den amtlichen Bereich: Analysis WTR 2 1 a, 2 a (II → I), 1 d, 2 b
+(III → II), 2 d (II → III); AG/LA (A2) WTR 2 a, c (II → I), e (III → II), f
+(II → III); alter Wert und Grund in bemerkung. Eichung 2022-ga-B jetzt 50 von
+52 (96 %), die zwei Abweichungen sind eigene Schätzungen (AG/LA (A2) WTR 1 a,
+c). iqb-bau.py v1.5 prüft übernommene Schätzungen (bemerkung „aus der
+Landeszeile übernommen") gegen den amtlichen Bereich, im Stapellauf und in der
+Selbstprüfung. Frühere Stapel: in 2017-ea-A, 2018-ga-B und 2018-ea-B tragen
+alle Poolzeilen eine eigene Schätzung, die Lage lag dort nicht vor (0 Zeilen);
+die Landeszeilen, die dort abwichen, hat abi nachgezogen (Lauf 16: fünf, Lauf
+20: vier; abi-pruefungen.md § 4). Der Befund „Landeszeilen schätzen zu hoch"
+gilt nach den Zahlen nur für Teil B (11 über, 16 gleich, 4 unter dem
+amtlichen Bereich), in Teil A nicht (0, 6, 4). Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung beider Skripte bestanden (1258 Zeilen, 1124
+Typen, 33 Stapel, Eichung über den Bestand 94 %).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 20 (Vorrang des Amtlichen, Entscheidung des Lehrers): niveau_geschaetzt in 9 Zeilen von 2022-ga-B auf den amtlichen Bereich gesetzt – Analysis WTR 2 1 a, 2 a (II → I), 1 d, 2 b (III → II), 2 d (II → III); AG/LA (A2) WTR 2 a, c (II → I), e (III → II), f (II → III); dazu 11 abi-Landeszeilen nachgezogen. Eichung 2022-ga-B 50 von 52 (96 %). iqb-bau.py v1.5: Überschreibung der Eichschwelle je Stapel (v1.4) zurückgebaut, Prüfung übernommener Schätzungen gegen den amtlichen Bereich; iqb.md v1.8, Kern v0.6. Typen unverändert (1124). |
 | 2026-09-17 | Abgleichlauf 19 (nach 2022-ga-B und den Landesheften 2026): 5 iqb-Zeilen umgestellt – 2025-ga-B Analysis WTR 2 1 c und 2022-ga-B Analysis WTR 1 1 e → „Integralwert: Näherungswert eines Integrals als Vielecksfläche am Graphen begründen“; 2022-ga-B Stochastik WTR 1 d → „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten“; 2021-ga-A Analysis 1.2 a und 2022-ga-B Analysis WTR 2 1 c → „Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen“. Typenliste 1127 → 1124. |
 | 2026-09-17 | Landesheft 2026-bb-ea erfasst (Profil abi, erhöht): 39 Dubletten auf den Pool 2026 erhöht – Teil A 18 Zeilen (Analysis 1.1, 1.4, 2.1, AG/LA A2 1.1, 2.1, 2.2, Stochastik 1.1, 2.1, 2.3), Teil B 21 Zeilen (Analysis WTR 1, AG/LA A2 WTR 2, Stochastik WTR 1 vollständig). Landesverwendung jetzt 250 Dubletten. Typenliste 1127 (6 neue abi-Typen). |
 | 2026-09-17 | Landesheft 2026-bb-gk erfasst (Profil abi): 36 Dubletten auf den Pool 2026 grundlegend – Teil A 16 Zeilen (alle neun Einheiten), Teil B 20 Zeilen (Analysis WTR 2, AG/LA A2 WTR 2, Stochastik WTR 1 vollständig). Landesverwendung jetzt 211 Dubletten. Typenliste 1121 (6 neue abi-Typen). |

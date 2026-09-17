@@ -1,5 +1,5 @@
 # KATALOG-PROMPT – KERN
-Version 0.5 · 16.09.2026 · Schema-Version 2 (unverändert seit 0.3; 0.4 zieht nur Text nach: Vokabular auslagerbar, Etikettenänderungen im Abgleichlauf, Handlung je format in § 5; 0.5: Vorstufe des Dublettenverweises als Übergangszustand, Verweis auf abgewandelte Fassungen, § 5)
+Version 0.6 · 17.09.2026 · Schema-Version 2 (unverändert seit 0.3; 0.4 zieht nur Text nach: Vokabular auslagerbar, Etikettenänderungen im Abgleichlauf, Handlung je format in § 5; 0.5: Vorstufe des Dublettenverweises als Übergangszustand, Verweis auf abgewandelte Fassungen, § 5; 0.6: Vorrang des Amtlichen für niveau_geschaetzt, § 5)
 
 Dieser Kern gilt zusammen mit genau einem Profil (<kennung>.md im selben Repo). Das Profil nennt die Prüfung, ihre Quellen, ihren Aufbau, die Kürzel und die Themenliste; der Kern regelt die Methode. Widersprechen sich beide, gilt das Profil. Ein Profil darf sein Vokabular (Leitideen, Themenliste, Gegenstandsklassen, Geltung) in eine eigene Datei auslagern und darauf verweisen; mehrere Profile dürfen eine solche Datei und eine Typenliste teilen (abi und iqb: abitur-vokabular.md, abitur-typen.csv). Wo dieser Kern „im Profil" sagt, ist dann die Vokabulardatei gemeint. Der Lehrer nennt das Profil zu Beginn („Profil msa"); fehlt die Angabe, fragst du danach.
 
@@ -72,6 +72,8 @@ Struktur: gegeben (eigene Worte mit allen konkreten Werten); gesucht; verfahren 
 Ergebnis: ergebnis (Endergebnis oder erwartete Antwort; bei Ankreuzen die richtige Option im Wortlaut; bei Zeichnen die kennzeichnenden Punkte; amtliche Ergebnisse mit Zusatz „amtlich"); zwischenergebnis.
 
 Deutung: niveau_geschaetzt (I reproduzieren; II Zusammenhänge herstellen; III verallgemeinern und reflektieren); fehlerquelle (typischer Schülerfehler, ein Halbsatz); bemerkung (Unsicherheiten, Besonderheiten).
+
+Vorrang des Amtlichen für niveau_geschaetzt (0.6, Entscheidung des Lehrers, 17.09.2026; gilt für alle Profile): Die Schätzung entsteht vor dem Lesen amtlicher Angaben und wird nicht nachträglich an einen amtlichen Bereich angepasst – eine Abweichung ist ein Messwert (Eichung im Profil). Das gilt nur für die eigene Schätzung. Übernimmt eine Zeile ihre Schätzung aus einer anderen Zeile (etwa eine Poolzeile aus der früher erfassten, wortgleichen Landeszeile) und liegt für sie ein amtlicher Bereich vor, gilt der amtliche Bereich: die übernommene Schätzung wird beim Erfassen korrigiert, nicht die Schwelle, und die Zeile, von der sie stammt, zieht nach. Ebenso zieht eine wortgleiche Dublette nach, sobald ihre erste Fassung einen amtlichen Bereich trägt. Der Grund und der alte Wert stehen in bemerkung; das Bau-Skript des Profils prüft übernommene Schätzungen gegen den amtlichen Bereich.
 
 Ein unsicherer Wert in irgendeinem Feld trägt ein „?" am Ende und einen Grund in bemerkung.
 

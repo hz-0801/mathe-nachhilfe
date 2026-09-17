@@ -59,7 +59,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
-| 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) im Heftlauf; seit Lauf 18 16 von 24 (67 %; die 16 Teil-B-Dubletten tragen ihre eigene Schätzung, die Poolzeilen haben sie übernommen) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), seit Lauf 18 alle „Dublette von:“ (2022-ga-B erfasst); abgewandelt 3 Zeilen, 11 BE |
+| 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) im Heftlauf; seit Lauf 18 16 von 24 (67 %; die 16 Teil-B-Dubletten trugen ihre eigene Schätzung, die Poolzeilen hatten sie übernommen); seit Lauf 20 23 von 24 (96 %; sieben Landeszeilen auf den amtlichen Bereich nachgezogen, 23 geerbt, eigene 0 von 1) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), seit Lauf 18 alle „Dublette von:“ (2022-ga-B erfasst); abgewandelt 3 Zeilen, 11 BE |
 | 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %), alle 32 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %); abgewandelt 1 Zeile, 4 BE |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
 | 2023-bebb-lk | 66 | 68 | 24 (35 %) | 27 von 33 (82 %), alle 33 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 4 von 68 (6 %, Niveau lk = 2022-bebb-lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 2, nur bb-ea 0; alle: be-gk 25, be-lk 2, bb-gk 23, bb-ea 0 | 42 Werte, 62 von 66 Zeilen im erhöhten Niveau (Pool) bekannt (94 %), 2 Werte neu im Gesamtbestand | 33 von 66; 105 von 220 (48 %); abgewandelt 2 Zeilen, 9 BE |
@@ -1134,6 +1134,52 @@ Für den Blattbau heißt das: Poolaufgaben sind für Brandenburg 2026 zu 77–80
 der angebotenen BE prüfungsnah; die Landesaufgaben kommen weiter aus der
 Analysis.
 
+**Abgleichlauf 20 – Vorrang des Amtlichen (17.09.2026, Auftrag „Eichung
+korrigieren, Prüfungsgeschichte und Prüfungsstruktur festhalten, Heftordner
+ordnen", Teil 1; abgleich.py v0.20, Kern v0.6, abi.md v0.15, iqb-bau.py
+v1.5).** Entscheidung des Lehrers: die Überschreibung der Eichschwelle je
+Stapel (iqb-bau.py v1.4, 2022-ga-B auf 75 %) ist zurückgebaut, die globale
+Schwelle gilt; weicht eine aus einer Landeszeile übernommene Schätzung vom
+Standardbezug ab, wird die Schätzung korrigiert, nicht die Schwelle, und die
+Landeszeile zieht nach (Kern § 5). Lauf 20 setzt niveau_geschaetzt in genau 20
+Zeilen, alter Wert und Grund in bemerkung, Typen unverändert (1124): die neun
+Poolzeilen von 2022-ga-B mit übernommener Schätzung neben der AB-Spalte
+(Analysis WTR 2 1 a, d, 2 a, b, d; AG/LA (A2) WTR 2 a, c, e, f) und elf
+wortgleiche Landeszeilen – 2022-bebb-gk 2.1 a, j, 3 b, e (II → I), 2.1 g, k
+(III → II), 3 i (II → III); 2017-bb-ea 1.2 b, 1.3 b und 2018-bb-ea 1.1 a,
+1.2 b (je II → III). Nicht angefasst: die abgewandelten Fassungen (2022-bebb-gk
+2.1 m, 3 g, 4 j; 2018-be-gk 3.2 a – eigene Fassung, eigene Schätzung, kein
+eigener amtlicher Bereich) und Poolzeilen mit eigener abweichender Schätzung
+(Messwert der Eichung). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung
+beider Bau-Skripte bestanden (abi 543, iqb 1258, 1124 Typen).
+
+*Frühere Stapel (Punkt 3).* Dieselbe Lage – Poolzeile mit übernommener
+Landesschätzung – lag in keinem früheren Stapel vor: in 2017-ea-A, 2018-ga-B
+und 2018-ea-B (Reserve, nach den Landesheften erfasst) tragen alle Poolzeilen
+eine eigene Schätzung (bemerkung „Geschätzt I, amtlich II" u. ä.), 0 Zeilen.
+Unbemerkt geblieben war die andere Seite: vier Landeszeilen aus 2017-bb-ea und
+2018-bb-ea, deren eigene Schätzung nach der Erfassung der Poolzeile vom
+amtlichen Bereich abwich (Teil A, je II gegen III), jetzt nachgezogen; die
+fünf entsprechenden Zeilen von 2018-be-gk hatte Lauf 16 schon nachgezogen.
+
+*Befund „Landeszeilen schätzen zu hoch" (Punkt 4), über alle 41 Landeszeilen
+mit eigener Schätzung und amtlichem Bereich (Landesheft vor der Poolzeile
+erfasst; Werte vor Lauf 16 und 20):* über dem amtlichen Bereich 11, gleich
+22, unter 8. Nach Heft: 2017-bb-ea gleich 4, unter 2; 2018-bb-ea gleich 2,
+unter 2; 2018-be-gk über 5, gleich 6, unter 1; 2022-bebb-gk über 6, gleich
+10, unter 3. Nach Prüfungsteil: Teil A (10 Zeilen) über 0, gleich 6, unter 4;
+Teil B (31 Zeilen) über 11, gleich 16, unter 4. Nur wortgleiche Dubletten
+(37): über 10, gleich 21, unter 6. Der Befund gilt also für Teil B (11 : 4
+nach oben), nicht für den hilfsmittelfreien Teil (0 : 4 nach unten); die
+Trefferquote der Landesschätzungen liegt mit 22 von 41 (54 %) deutlich unter
+der Eichung der Poolstapel (94 % über den Bestand).
+
+*Eichquoten nach der Korrektur.* 2022-ga-B 50 von 52 (96 %; vorher 41, 79 %),
+die beiden Abweichungen sind eigene (AG/LA (A2) WTR 1 a, c); 2017-ea-A 22
+von 23, 2018-ea-A 25 von 26, 2018-ga-B 46 von 53 unverändert – alle über 85 %.
+Heft 2022-bebb-gk 23 von 24 (96 %), 23 geerbt, eigene 0 von 1 (1.7 a, I gegen
+II; nicht scharf); 2017-bb-ea und 2018-bb-ea ohne amtlichen Bereich.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1542,6 +1588,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 20 (Vorrang des Amtlichen, Entscheidung des Lehrers): niveau_geschaetzt in 11 abi-Zeilen auf den amtlichen Bereich der Poolzeile nachgezogen – 2022-bebb-gk 2.1 a, j, 3 b, e (II → I), 2.1 g, k (III → II), 3 i (II → III); 2017-bb-ea 1.2 b, 1.3 b, 2018-bb-ea 1.1 a, 1.2 b (II → III); dazu 9 iqb-Zeilen von 2022-ga-B. Kern v0.6 (§ 5 Vorrang des Amtlichen), abi.md v0.15 (§ 7), iqb.md v1.8, iqb-bau.py v1.5 (Überschreibung der Eichschwelle zurückgebaut), abgleich.py v0.20. Eichung 2022-bebb-gk 23 von 24. Typen unverändert (1124). |
 | 2026-09-17 | Abgleichlauf 19 nach 2022-ga-B, 2026-bb-gk und 2026-bb-ea: drei Zusammenziehungen mit neuem Namen – „Integralwert: Näherungswert eines Integrals als Dreiecksfläche am Graphen begründen“ + „… als Trapezfläche …“ → „… als Vielecksfläche …“; „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Endstück deuten“ + „Term und Ereignis: Produkt aus Potenz und kumulierter Binomialsumme als Ereignis beschreiben“ → „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten“; „Nullstellen und Werte: Unpassende Graphen zu einem Funktionsterm ausschließen“ + „Nullstellen und Werte: Passende Abbildung des Graphen über einen Funktionswert auswählen“ → „Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen“. Typenliste 1127 → 1124, 2 abi-Zeilen umgestellt. Poolquote-Reihe und Deutung in § 4. |
 | 2026-09-17 | Heft 2026-bb-ea erfasst (landeseigen, Zielprüfung bb-ea): 50 Zeilen aus 14 Aufgaben (1.1–1.10, 2.1 a–i, 2.2 a–h, 3, 4 a–h), Katalog 543 Zeilen, Typenliste 1127 (6 neu). Alle Punktsummen geprüft (10 × 5, 30, 30, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 36 von 39, alle geerbt. Pool 39 von 50 Zeilen, 115 von 150 BE (77 %): neun von zehn Einheiten des hilfsmittelfreien Teils, 2.2, 3 und 4; Landes 1.6 und 2.1 (Weltbevölkerung). Kein neuer Schnittwert. Aufgaben 3 und 4 in beiden 2026-Heften je aus dem Pool des eigenen Niveaus, keine Dublette zwischen den Heften nötig. |
 | 2026-09-17 | Heft 2026-bb-gk erfasst (erstes landeseigenes Heft, Zielprüfung bb-gk): 45 Zeilen aus 13 Aufgaben (1.1–1.9, 2.1 a–i, 2.2 a–i, 3, 4), Katalog 493 Zeilen, Typenliste 1121 (6 neu). Alle Punktsummen geprüft (9 × 5, 25, 25, 15, 15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 35 von 36, alle geerbt. Pool 36 von 45 Zeilen, 100 von 125 BE (80 %): der ganze hilfsmittelfreie Teil, 2.2, 3 und 4; nur 2.1 (Modelleisenbahn) Landesaufgabe. Kein neuer Schnittwert. abi.md v0.14 § 4: bebb nur bis 2025. |

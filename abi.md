@@ -1,5 +1,9 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.14 · 17.09.2026 · Kennung abi · gilt mit Kern v0.5 (Schema-Version 2)
+Version 0.15 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Änderungen gegenüber 0.14 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 1): § 7 Vorrang des
+Amtlichen – eine wortgleiche Dublette zieht ihre Schätzung nach, sobald die
+Poolzeile einen amtlichen Bereich trägt (Kern § 5, Lauf 20).
 Änderungen gegenüber 0.13 (Hefte 2026-bb-gk, 2026-bb-ea): § 4 „bebb" nur bis
 2025, ab 2026 landeseigene Kürzel bb-gk und bb-ea mit je einer Zielprüfung.
 Änderungen gegenüber 0.12 (Heft 2022-bebb-lk): § 7 Eichschwelle nur über
@@ -310,8 +314,15 @@ Themen belegt.
   trägt, ist im Pool schon geeicht (iqb-pruefungen.md § 4) und würde im Heft
   nur die zufällige Teilmenge des Pools noch einmal messen; die Kennzahl
   Eichung je Heft nennt weiter alle gewerteten Zeilen und weist die geerbten
-  aus. Die Schätzung selbst wird nie an den Standardbezug angepasst (iqb.md
-  § 7). Ein Heft ist vollständig, wenn jede Aufgabe aus
+  aus. Die eigene Schätzung einer Landeszeile wird nicht an den Standardbezug
+  angepasst (iqb.md § 7) – außer sie ist eine wortgleiche Dublette: dann gilt
+  der amtliche Bereich der Poolzeile (Vorrang des Amtlichen, Kern § 5 v0.6);
+  die Landeszeile zieht per abgleich.py nach, sobald die Poolzeile erfasst ist
+  (Lauf 16: fünf Zeilen 2018-be-gk auf den Wert der Poolzeile; Lauf 20: elf
+  Zeilen aus 2017-bb-ea, 2018-bb-ea, 2022-bebb-gk auf den amtlichen Bereich),
+  der alte Wert bleibt in bemerkung. Eine Poolzeile, die ihre Schätzung aus
+  der Landeszeile übernommen hat, wird beim Stapellauf auf den amtlichen
+  Bereich gesetzt (iqb-bau.py v1.5). Ein Heft ist vollständig, wenn jede Aufgabe aus
   KONFIG["soll"] Zeilen hat und jede Punktsumme stimmt; probe = True prüft,
   ohne zu schreiben.
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.19 · 17.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.4
+Version 0.20 · 17.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.5
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -90,6 +90,16 @@ Näherungswert eines Integrals als Vielecksfläche (Dreieck 2025-ga-B, Trapez
 Abschnitt (Endstück 2022-bebb-lk, Anfangsstück mit kumulierter Summe
 2022-ga-B), passenden Graphen zu einem Term auswählen (ausschließen 2021-ga-A,
 auswählen 2022-ga-B); 1127 → 1124.
+Lauf 20 (17.09.2026, Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 1 – Vorrang des
+Amtlichen, Kern § 5): Feldkorrektur niveau_geschaetzt in 20 Zeilen – die neun
+Poolzeilen von 2022-ga-B, deren aus der Landeszeile übernommene Schätzung
+neben der Spalte Anforderungsbereich lag, auf den amtlichen Bereich; elf
+wortgleiche Landeszeilen, die vor ihrer Poolzeile geschätzt wurden und vom
+amtlichen Bereich abweichen (2022-bebb-gk 7, 2017-bb-ea 2, 2018-bb-ea 2),
+nachgezogen. Grund je Zeile in bemerkung, alter Wert bleibt dort. Abbruch bei
+mehr als 20 Zeilen oder wenn ein Zielwert nicht der amtliche ist. Typen
+unverändert (1124).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1138,6 +1148,77 @@ NEUE_DEFINITION_19 = {
         "Funktionswert oder eine Eigenschaft wie die Nichtkonstanz der Steigung.",
 }
 
+# ======================================================================= Lauf 20
+# Vorrang des Amtlichen (Entscheidung des Lehrers, 17.09.2026; Kern § 5 v0.6):
+# Wird eine Poolzeile mit amtlichem Standardbezug erfasst und weicht die aus
+# einer Landeszeile übernommene Schätzung davon ab, wird die Schätzung
+# korrigiert, nicht die Schwelle; die Landeszeile zieht nach. Betroffen: die
+# neun Poolzeilen von 2022-ga-B (Analysis WTR 2 1 a, d, 2 a, b, d; AG/LA (A2)
+# WTR 2 a, c, e, f), deren Schätzung aus 2022-bebb-gk übernommen war (10 von 19
+# trafen), und die Landeszeilen: in 2022-bebb-gk die sieben wortgleichen
+# Dubletten neben dem amtlichen Bereich (2.1 a, g, j, k; 3 b, e, i); in den
+# früher erfassten Heften 2017-bb-ea (1.2 b, 1.3 b) und 2018-bb-ea (1.2 b, 1.1 a)
+# vier Dubletten, deren eigene Schätzung nach der Erfassung der Poolzeile
+# (2017-ea-A, 2018-ea-A) vom amtlichen Bereich abwich – dort hatten die
+# Poolzeilen eine eigene Schätzung, die Lage von 2022 lag nicht vor. Nicht
+# angefasst: abgewandelte Fassungen (2.1 m, 3 g, 4 j; 2018-be-gk 3.2 a – eigene
+# Fassung, eigene Schätzung) und Poolzeilen mit eigener, abweichender Schätzung
+# (Messwert der Eichung). Zielwert je Zeile ist der amtliche Bereich (AB-Spalte
+# in Teil B, höchster Bereich in Teil A); die Funktion prüft das und bricht ab.
+KORREKTUR_20 = {
+    "2022MgrundlegendBAnalysisWTR2-1a": "I", "2022MgrundlegendBAnalysisWTR2-1d": "II",
+    "2022MgrundlegendBAnalysisWTR2-2a": "I", "2022MgrundlegendBAnalysisWTR2-2b": "II",
+    "2022MgrundlegendBAnalysisWTR2-2d": "III", "2022MgrundlegendBAGLAA2WTR2-1a": "I",
+    "2022MgrundlegendBAGLAA2WTR2-1c": "I", "2022MgrundlegendBAGLAA2WTR2-1e": "II",
+    "2022MgrundlegendBAGLAA2WTR2-1f": "III",
+    "2022-bebb-gk-B2.1a": "I", "2022-bebb-gk-B2.1g": "II", "2022-bebb-gk-B2.1j": "I",
+    "2022-bebb-gk-B2.1k": "II", "2022-bebb-gk-B3b": "I", "2022-bebb-gk-B3e": "I",
+    "2022-bebb-gk-B3i": "III",
+    "2017-bb-ea-A1.2b": "III", "2017-bb-ea-A1.3b": "III",
+    "2018-bb-ea-A1.2b": "III", "2018-bb-ea-A1.1a": "III",
+}
+HOECHSTENS_20 = 20
+ORD_20 = {"I": 1, "II": 2, "III": 3}
+ENG_20 = re.compile(r"Schätzung enge Fassung: (I{1,3})")
+_PROTOKOLL_20 = []
+
+
+def amtlich_20(q):
+    """Amtlicher Bereich einer Poolzeile: Spalte AB (Teil B) oder höchster Bereich (Teil A)."""
+    m = AB_15.search(q["bemerkung"])
+    if m:
+        return m.group(1)
+    werte = [t for t in q["afb_amtlich"].split("|") if t in ORD_20]
+    return max(werte, key=ORD_20.get) if werte else ""
+
+
+def zeile_20(d):
+    if d["id"] not in KORREKTUR_20:
+        return False
+    neu, alt = KORREKTUR_20[d["id"]], d["niveau_geschaetzt"]
+    if alt == neu or ENG_20.search(d["bemerkung"]):
+        sys.exit(f"{d['id']}: Schätzung schon {alt} oder Vermerk enge Fassung vorhanden – Abbruch")
+    pool = poolzeilen_15()
+    if d["id"] in pool:  # Poolzeile mit übernommener Schätzung
+        if "aus der Landeszeile" not in d["bemerkung"] or amtlich_20(d) != neu:
+            sys.exit(f"{d['id']}: keine übernommene Schätzung oder Zielwert {neu} nicht amtlich ({amtlich_20(d)})")
+        d["bemerkung"] += (f" Schätzung nach dem amtlichen Bereich korrigiert (Lauf 20, Vorrang des Amtlichen, "
+                           f"Kern § 5): {neu} statt {alt}; die aus der Landeszeile übernommene Schätzung wich von der "
+                           f"Spalte Anforderungsbereich ab.")
+    else:  # Landeszeile: wortgleiche Dublette, zieht nach
+        m = re.match(r"Dublette von: ([A-Za-z0-9-]+)\.", d["bemerkung"])
+        q = pool.get(m.group(1)) if m else None
+        if q is None or amtlich_20(q) != neu:
+            sys.exit(f"{d['id']}: kein Dublettenverweis oder Zielwert {neu} nicht amtlich ({amtlich_20(q) if q else '-'})")
+        d["bemerkung"] += (f" Schätzung nach dem amtlichen Bereich der Poolzeile nachgezogen (Lauf 20, Vorrang des "
+                           f"Amtlichen, Kern § 5): {neu} statt {alt}.")
+    d["niveau_geschaetzt"] = neu
+    _PROTOKOLL_20.append((d["id"], alt, neu))
+    if len(_PROTOKOLL_20) > HOECHSTENS_20:
+        sys.exit(f"Lauf 20 fasst mehr als {HOECHSTENS_20} Zeilen an – Abbruch")
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1158,10 +1239,11 @@ LAEUFE = {
     17: ({}, ZUSAMMEN_17, NEUE_DEFINITION_17, {}),
     18: ({}, {}, {}, {}),
     19: ({}, ZUSAMMEN_19, NEUE_DEFINITION_19, {}),
+    20: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
-                 18: [("*", zeile_18)]}
+                 18: [("*", zeile_18)], 20: [("*", zeile_20)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -1312,6 +1394,13 @@ def main():
         rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
                 if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
         print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+    if LAUF == 20:
+        fehlt = sorted(set(KORREKTUR_20) - {i for i, _, _ in _PROTOKOLL_20})
+        if fehlt:
+            sys.exit(f"Lauf 20: Zeilen nicht gefunden: {fehlt}")
+        print(f"\nSchätzungen auf den amtlichen Bereich gesetzt ({len(_PROTOKOLL_20)} Zeilen, höchstens {HOECHSTENS_20}):")
+        for i, alt, neu in _PROTOKOLL_20:
+            print(f"  {i}: {alt} → {neu}")
     if LAUF == 16:
         print(f"\nReste geschlossen ({len(_PROTOKOLL_16)} Zeilen):")
         for i, was in _PROTOKOLL_16:
