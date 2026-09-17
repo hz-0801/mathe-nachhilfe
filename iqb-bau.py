@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.7 · 17.09.2026 · gilt mit katalog-prompt.md v0.8, abitur-vokabular.md v1.5, iqb.md v1.12, iqb-quellen.csv mit Spalte dateidublette_von und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+Version 1.8 · 17.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, iqb.md v1.13, abitur-abgleich.py v0.23, iqb-quellen.csv mit Spalte dateidublette_von und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 1.7 (Auftrag F, Punkt 2, 17.09.2026): Das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py); nur Text in Kopf, Kommentaren und Meldungen, keine Prüfung geändert – Selbstprüfung byteidentisch zu 1.7.
 
 Änderungen gegenüber 1.6 (Auftrag E, Punkt 4): Die Spalte dublette_von von iqb-quellen.csv heißt dateidublette_von (Dateidublette, iqb.md § 7); nur der Name, keine Logik.
 
@@ -24,7 +26,7 @@ eine Zeile, deren Schätzung aus einer Landeszeile übernommen ist (bemerkung
 „… aus der Landeszeile übernommen"), muss den amtlichen Bereich treffen – weicht
 sie ab, wird die Schätzung korrigiert, nicht die Schwelle; das Skript bricht
 sonst ab (Stapellauf und Selbstprüfung). Die neun betroffenen Zeilen von
-2022-ga-B hat abgleich.py Lauf 20 gesetzt.
+2022-ga-B hat abitur-abgleich.py Lauf 20 gesetzt.
 
 Änderungen gegenüber 1.3 (Stapel 2022-ga-B, 17.09.2026; in 1.5 zurückgebaut): Die Eichschwelle darf
 je Stapel in KONFIG überschrieben werden („eichung_mindestens" mit Pflichtfeld
@@ -41,7 +43,7 @@ Je Stapel werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 Änderungen gegenüber 1.2 (Auftrag „Reserve öffnen, Verweise schließen",
 16.09.2026): Die Vormerkung „Poolaufgabe (nicht erfasst …)" ist ein
 Übergangszustand (offener Posten, bis der Stapel erfasst ist); nach der
-Erfassung stellt abgleich.py sie auf „Dublette von:" (wortgleich) oder
+Erfassung stellt abitur-abgleich.py sie auf „Dublette von:" (wortgleich) oder
 „Abgewandelt von: <id>; <Unterschied>." (abgewandelte Fassung) um. Beide
 Verweise zählen als Landesverwendung; der Bestand des Stapels wird beim Lauf
 gegen die Vormerkungen gemeldet.
@@ -50,14 +52,14 @@ gegen die Vormerkungen gemeldet.
 Kennzahl Landesverwendung – Zeilen des Stapels, auf die abi-Zeilen mit
 „Dublette von:" verweisen (Kennzahlenzeile, Selbstprüfung je Stapel); Zeilen,
 die abi als „Poolaufgabe (nicht erfasst)" vorgemerkt hat, werden beim
-Stapellauf gemeldet (Vermerk danach per abgleich.py umstellen) und in der
+Stapellauf gemeldet (Vermerk danach per abitur-abgleich.py umstellen) und in der
 Selbstprüfung gegen den Bestand geprüft.
 
 Änderungen gegenüber 1.0 (Entscheidung des Lehrers, 16.09.2026: Themenfeld
 bereinigen): leitidee und thema einer Zeile müssen gleich leitidee und thema
 ihres Typs in abitur-typen.csv sein (geprüft für ZEILEN und in der
 Selbstprüfung für den Bestand); der Schnitt Thema × Klasse × Handlung wird
-über das Thema des Typs gemessen (Lauf 13 von abgleich.py hat den Bestand
+über das Thema des Typs gemessen (Lauf 13 von abitur-abgleich.py hat den Bestand
 darauf gebracht).
 
 Änderungen gegenüber 0.9 (Entscheidung 25, 15.09.2026: gemeinsame Typenliste
@@ -65,7 +67,7 @@ für abi und iqb): Sachgebiete, Themen, Geltungstabelle, Gegenstandsklassen und
 Handlungen kommen aus abitur-vokabular.md statt aus iqb.md; die Typenliste heißt
 abitur-typen.csv und wird mit dem Profil abi geteilt – beispiel_id darf in
 abi-katalog.csv zeigen, und ein Typ gilt als verwendet, wenn er in einem der
-beiden Kataloge steht (ANDERE_KATALOGE). Umbenennungen laufen über abgleich.py.
+beiden Kataloge steht (ANDERE_KATALOGE). Umbenennungen laufen über abitur-abgleich.py.
 
 Änderungen gegenüber 0.8 (Entscheidung des Lehrers, 15.09.2026: MMS/CAS als
 Delta): Die Erfassungseinheit „Stapel je Rechnerfassung" bleibt für WTR; für
@@ -1898,7 +1900,7 @@ def main():
         offen = []
         for pid in vorgemerkt:
             if pid in ids:  # Übergangszustand: offener Posten, kein Fehler (abi.md § 7)
-                offen.append(f"{pid} ist erfasst, in {', '.join(vorgemerkt[pid])} noch vorgemerkt – abgleich.py")
+                offen.append(f"{pid} ist erfasst, in {', '.join(vorgemerkt[pid])} noch vorgemerkt – abitur-abgleich.py")
             k = kennung_aus_id(pid)[0]
             s = einheit(QUELLE[k]) if k in QUELLE else "unbekannt"
             vorgemerkt_stapel[s] = vorgemerkt_stapel.get(s, 0) + 1
@@ -2104,7 +2106,7 @@ def main():
     for i in neue_ids:
         if i in vorgemerkt:
             warnung.append(f"{i}: in {', '.join(vorgemerkt[i])} als „Poolaufgabe (nicht erfasst)“ vorgemerkt – "
-                           f"Vermerk mit abgleich.py in „Dublette von:“ umstellen")
+                           f"Vermerk mit abitur-abgleich.py in „Dublette von:“ umstellen")
     print("\nUmschrift-Sichtprüfung – jedes Wort mit ss, ae, oe oder ue "
           "(Häufigkeit in Klammern):")
     liste = umschrift_liste(ZEILEN)

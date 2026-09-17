@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.10 · 17.09.2026 · gilt mit katalog-prompt.md v0.7, abitur-vokabular.md v1.5, abi.md v0.23 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+Version 0.11 · 17.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, abi.md v0.26, abitur-abgleich.py v0.23 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 0.10 (Auftrag F, Punkt 2, 17.09.2026): Das Abgleichskript
+heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py); nur Text in Kopf,
+Kommentaren und Meldungen, keine Prüfung geändert – Selbstprüfung
+byteidentisch zu 0.10.
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles unter
 „QUELLEN UND PRÜFUNG" und unter „AB HIER UNVERÄNDERT" bleibt unverändert.
@@ -54,7 +59,7 @@ daneben weiter alle vier Zielprüfungen (abitur-vokabular.md § 3).
 Änderungen gegenüber 0.5 (Auftrag „Reserve öffnen, Verweise schließen",
 16.09.2026): Die Vormerkung „Poolaufgabe (nicht erfasst …)" ist ein
 Übergangszustand – offener Posten, bis der Stapel erfasst ist; danach stellt
-abgleich.py sie auf „Dublette von:" (wortgleich) oder auf den neuen Verweis
+abitur-abgleich.py sie auf „Dublette von:" (wortgleich) oder auf den neuen Verweis
 „Abgewandelt von: <Kennung>; <Unterschied>." (abgewandelte Fassung, kein
 geteilter Typ verlangt) um. Beide Verweise werden geprüft (Kennung, Feldanfang,
 Poolzeile erfasst); die Poolquote zählt „Abgewandelt von" wie bisher die
@@ -72,7 +77,7 @@ Heftlauf 2023).
 bereinigen): leitidee und thema einer Zeile müssen gleich leitidee und thema
 ihres Typs in abitur-typen.csv sein (geprüft für ZEILEN und in der
 Selbstprüfung für den Bestand); der Schnitt Thema × Klasse × Handlung wird
-über das Thema des Typs gemessen (Lauf 13 von abgleich.py hat den Bestand
+über das Thema des Typs gemessen (Lauf 13 von abitur-abgleich.py hat den Bestand
 darauf gebracht). Wie iqb-bau.py v1.1.
 
 Änderungen gegenüber 0.2 (Entscheidung 25, 15.09.2026: gemeinsame Typenliste
@@ -99,7 +104,7 @@ zieht auf den Stand von iqb-bau.py v1.0 nach:
     Geltung, Schnitt) für abi-pruefungen.md § 2.
   - papier-Kürzel bebb für die gemeinsamen Hefte 2019–2025; aufgabe darf ein-
     oder zweistufig sein (Aufgabe 3 gegen 2.1).
-Umbenennungen und Zusammenziehungen laufen über abgleich.py (Kern § 9).
+Umbenennungen und Zusammenziehungen laufen über abitur-abgleich.py (Kern § 9).
 
 Ablauf:
   1. abitur-vokabular.md, katalog-prompt.md, abi-katalog.csv, iqb-katalog.csv und
@@ -1454,7 +1459,7 @@ MARKE_KONTEXT = "Traegerbindung: Kontext"
 MARKE_DUBLETTE = re.compile(r"Dublette von: (" + KENNUNG.pattern + r")")
 # Vorstufe des Verweises (v0.5, Lauf 14): Poolaufgabe, deren Stapel im Profil iqb
 # noch nicht erfasst ist; die Kennung ist die voraussichtliche iqb-id. Wird zum
-# „Dublette von:", sobald der Stapel erfasst ist (abgleich.py).
+# „Dublette von:", sobald der Stapel erfasst ist (abitur-abgleich.py).
 MARKE_POOL_OFFEN = re.compile(r"Poolaufgabe \(nicht erfasst(, abgewandelt)?\): (" + KENNUNG.pattern + r")")
 # Abgewandelte Poolaufgabe mit erfasster Poolzeile (v0.6, Lauf 15): kein Dublettenverweis
 # (nicht wortgleich), aber ein Verweis auf die Poolzeile; der Unterschied folgt nach „;".
@@ -1597,7 +1602,7 @@ def pruefe_zeile(z, a, andere, heftkennung=True):
         a(b.startswith("Poolaufgabe (nicht erfasst"), f"{i}: Vermerk „Poolaufgabe (nicht erfasst …)“ muss am Anfang von bemerkung stehen")
         # Übergangszustand (abi.md § 7): erfasste Poolzeile heißt offener Posten, kein Fehler
         if mo.group(2) in andere:
-            OFFENE_POSTEN.append(f"{i}: Poolzeile {mo.group(2)} ist erfasst – Vermerk mit abgleich.py in „Dublette von:“ umstellen")
+            OFFENE_POSTEN.append(f"{i}: Poolzeile {mo.group(2)} ist erfasst – Vermerk mit abitur-abgleich.py in „Dublette von:“ umstellen")
         a(m is None, f"{i}: „Dublette von:“ und „Poolaufgabe (nicht erfasst)“ zugleich")
     # Abgewandelte Poolaufgabe mit erfasster Poolzeile (v0.6): Verweis am Anfang, Zeile muss stehen
     ma = MARKE_ABGEWANDELT.search(b)

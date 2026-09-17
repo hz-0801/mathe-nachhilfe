@@ -1,6 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
 Version 1.13 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
-Änderungen gegenüber 1.12 (Auftrag F, Punkt 1): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge.
+Änderungen gegenüber 1.12 (Auftrag F, Punkt 1 und 2): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge. Punkt 2: das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py; Familienname wie abitur-typen.csv), Verweise in § 2, § 7, § 9 nachgezogen.
 Änderungen gegenüber 1.11 (Auftrag E, Punkt 1, 3 und 4; Punkt 4: Begriffe – Dateidublette und Aufgabendublette statt Dublette für Datei und Aufgabe, Spalte dateidublette_von, Vormerkung statt Vermerk/Vorstufe, WTR-Fassung statt WTR-Zwilling, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung; Punkt 3: unsichtbares Zeichen U+FEFF vor der ersten Beispielzeile in § 8 entfernt): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
 Änderungen gegenüber 1.10 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – ein Reserve-Stapel mit Landesheftverweisen wird
@@ -37,7 +37,7 @@ klargestellt (Spalte von iqb-quellen.csv, kein Katalogfeld).
 Änderungen gegenüber 1.1 (Entscheidung 25, Auftrag „Weg A umsetzen"): § 5–6
 Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen, Handlungen und
 Rechnerfassung nach abitur-vokabular.md verschoben, hier nur noch Verweis und
-Profilspezifisches; § 2 gemeinsame Typenliste abitur-typen.csv und abgleich.py
+Profilspezifisches; § 2 gemeinsame Typenliste abitur-typen.csv und abitur-abgleich.py
 (vorher iqb-typen.csv, iqb-abgleich.py); § 7 Pool-Teilaufgaben in
 Landesheften (Regel des Profils abi, hier festgehalten); § 9 Zusammenführung
 mit abi entschieden.
@@ -152,7 +152,7 @@ Themen, Geltung und Klassen aus abitur-vokabular.md, die Stapelzuordnung,
 Seitenzahlen und Dubletten aus iqb-quellen.csv, und schreibt die beiden
 CSV-Dateien nur, wenn alle Prüfungen bestehen – einschließlich der
 Schwellenwerte aus § 7. Umbenennungen und Zusammenziehungen von Typen laufen
-über abgleich.py, das beide Kataloge mitzieht. iqb-quellen.py erzeugt
+über abitur-abgleich.py, das beide Kataloge mitzieht. iqb-quellen.py erzeugt
 iqb-quellen.csv aus der Übersichtsseite des IQB und dem Scan aller Dateien
 (Teil A seit v0.2, Teil B seit v0.3: Seitenzahl und Dubletten, § 7).
 
@@ -311,7 +311,7 @@ Die Rechnerfassung je Zielprüfung steht in § 3 derselben Dateien.
 **Zeilenthema = Typthema** (16.09.2026, abitur-vokabular.md § 4): leitidee
 und thema einer Zeile sind die ihres Typs, iqb-bau.py erzwingt das, der
 Schnitt wird über das Thema des Typs gezählt; die acht iqb-Zeilen, die davon
-abwichen, hat Abgleichlauf 13 (abgleich.py) nachgezogen (iqb-pruefungen.md § 5). Die Regel für
+abwichen, hat Abgleichlauf 13 (abitur-abgleich.py) nachgezogen (iqb-pruefungen.md § 5). Die Regel für
 gemeinsame Landeshefte bebb (Zeile gilt, wenn sie in
 einer der beiden Spalten des Niveaus liegt; Entscheidung des Lehrers,
 16.09.2026) betrifft nur das Profil abi (abitur-vokabular.md § 3, abi.md § 6).
@@ -511,7 +511,7 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   wurden mit Abgleichlauf 9 gestrichen (iqb-pruefungen.md § 5).
 - **Abgleichlauf nach jedem Stapel** (Kern § 9, „abgleich"): die Etiketten des
   Stapels gegen abitur-typen.csv vereinheitlichen, anhand von gegeben, gesucht,
-  verfahren, stichwoerter; abgleich.py zieht beide Kataloge mit. Ergebnis als
+  verfahren, stichwoerter; abitur-abgleich.py zieht beide Kataloge mit. Ergebnis als
   Liste alt → neu in iqb-pruefungen.md § 5.
 - **Pool-Teilaufgaben in Landesheften** (Entscheidung des Lehrers, 15.09.2026,
   Regel des Profils abi, hier festgehalten): Nimmt ein Landesheft eine
@@ -529,7 +529,7 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   wird, bis der Stapel erfasst ist (Entscheidung des Lehrers, 16.09.2026);
   iqb-bau.py meldet beim Stapellauf die vorgemerkten Zeilen und in der
   Selbstprüfung die offenen Posten mit erfasster Poolzeile, danach stellt
-  abgleich.py die Vormerkung auf „Dublette von:" (wortgleich) oder „Abgewandelt
+  abitur-abgleich.py die Vormerkung auf „Dublette von:" (wortgleich) oder „Abgewandelt
   von: <iqb-id>; <Unterschied>." (abgewandelte Fassung) um (Abgleichlauf 15). Die
   Kennzahl „in Landesheften" je Stapel (v1.2, v1.3) zählt die Zeilen mit
   Verweis, abgewandelte getrennt ausgewiesen. Reserve-Stapel, auf die

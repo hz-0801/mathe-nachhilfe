@@ -1,6 +1,6 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
 Version 0.26 · 17.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
-Änderungen gegenüber 0.25 (Auftrag F, Punkt 1): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge.
+Änderungen gegenüber 0.25 (Auftrag F, Punkt 1 und 2): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge. Punkt 2: das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py; Familienname wie abitur-typen.csv), Verweise in § 2, § 4, § 7 nachgezogen.
 Änderungen gegenüber 0.24 (Auftrag E, Punkt 1 und 4; Punkt 4: Begriffe – Vormerkung statt Vorstufe/Vermerk, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung, Dateidublette und Spalte dateidublette_von): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand (16 Hefte), § 3 Formatwechsel statt „Zwei Formate", § 4 afb_amtlich mit Geschichte am Ende, § 6 Lücken und belegte Themen, § 7 Umfang, Typenliste, CAS-Nachtrag als Regel (Berlin offen), § 8 Beispielzeilen aus dem Katalog erzeugt, § 9 beantwortete Punkte als solche; Feldprobe in § 6 eingeführt.
 Änderungen gegenüber 0.23 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – der Reserve-Stapel wird im selben Auftrag erfasst,
@@ -74,7 +74,7 @@ aus der Poolzeile (erstes Stark-Heft 2023-bebb-gk erfasst, abi-bau.py v0.4).
 Änderungen gegenüber 0.7 (Entscheidung 25, Auftrag „Weg A umsetzen"): § 5–6
 Sachgebiete und Themenliste nach abitur-vokabular.md, hier nur Verweis und
 Lücken; Typenschnitt nach Entscheidung 24 auch für abi; § 2 gemeinsame
-Typenliste abitur-typen.csv und abgleich.py; § 4 typ mit Präfix; § 7
+Typenliste abitur-typen.csv und abitur-abgleich.py; § 4 typ mit Präfix; § 7
 Pool-Teilaufgaben in Landesheften (eigene Zeile, geteilter Typ, „Dublette
 von:"), Trägerbindung, Qualitätsschranke im Skript (abi-bau.py v0.3).
 Änderungen gegenüber 0.6 (Auftrag „Stark-Heft 2023 Berlin/Brandenburg GK –
@@ -130,7 +130,7 @@ Katalogdateien dieses Profils: abi-quellen.md, abi-pruefungen.md,
 abi-katalog.csv; die Typenliste abitur-typen.csv und das Vokabular
 abitur-vokabular.md sind mit dem Profil iqb geteilt (Entscheidung 25,
 15.09.2026; vorher abi-typen.csv). Umbenennungen und Zusammenziehungen von
-Typen laufen über abgleich.py, das beide Kataloge mitzieht. Eine
+Typen laufen über abitur-abgleich.py, das beide Kataloge mitzieht. Eine
 Katalogdatei, kein zweiter Block wie beim Profil msa: Das Feld `block` trägt
 die Unterscheidung zwischen hilfsmittelfreiem Teil und Teil mit Hilfsmitteln
 bereits. Eine zweite Datei würde dieselbe Information ein zweites Mal ablegen und
@@ -283,7 +283,7 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             (I|II); der Standardbezug des Pools ist eine Matrix Teilaufgabe ×
             K1–K6, eine Teilaufgabe trägt bis zu sechs Bereiche, die
             Matrixzeile steht wörtlich in bemerkung, nicht im Feld (iqb.md
-            § 4). Geschichte: bis Abgleichlauf 22 (abgleich.py, 17.09.2026) blieb das Feld
+            § 4). Geschichte: bis Abgleichlauf 22 (abitur-abgleich.py, 17.09.2026) blieb das Feld
             in den Heften bis 2018 leer, der Bereich stand nur in bemerkung;
             eine frühere Fassung dieses Profils beschrieb den Standardbezug
             als „eine angekreuzte Spalte je Anforderungsbereich" – das war
@@ -426,7 +426,7 @@ einer Stichprobe, Lineare Gleichungssysteme und Matrizen und
   einer Landeszeile wird nicht an den Standardbezug
   angepasst (iqb.md § 7) – außer sie ist eine wortgleiche Dublette: dann gilt
   der amtliche Bereich der Poolzeile (Vorrang des Amtlichen, Kern § 5 v0.6);
-  die Landeszeile zieht per abgleich.py nach, sobald die Poolzeile erfasst ist
+  die Landeszeile zieht per abitur-abgleich.py nach, sobald die Poolzeile erfasst ist
   (Abgleichlauf 16: fünf Zeilen 2018-be-gk auf den Wert der Poolzeile; Lauf 20: elf
   Zeilen aus 2017-bb-ea, 2018-bb-ea, 2022-bebb-gk auf den amtlichen Bereich;
   Lauf 23: neun Zeilen aus 2019-be-gk, 2021-be-gk, 2025-bebb-lk beim

@@ -1,5 +1,6 @@
 # VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
-Version 1.5 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Version 1.6 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Änderungen gegenüber 1.5 (Auftrag F, Punkt 2): das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py); nur der Name, an drei Stellen.
 Änderungen gegenüber 1.4 (Auftrag D „Namensschema, Erweiterbarkeit,
 Begründungen", Teil 2; Auftrag E Punkt 4: § 4 „Klasse" statt „Unterklasse", „Abgleichlauf 13"): § 3 Geltungstabelle, Rechnerfassung und
 Ausschlussliste je Zielprüfung in eigene Dateien abi-<zielprüfung>-geltung.md
@@ -24,7 +25,7 @@ Geltungsregeln (§ 3; die Tabellen je Zielprüfung in
 abi-<zielprüfung>-geltung.md), Gegenstandsklassen mit der Regel Zeilenthema =
 Typthema (§ 4) und die Regeln der gemeinsamen Typenliste abitur-typen.csv
 (§ 6); die Handlung je format steht seit Kern v0.4 im Kern § 5 (§ 5 hier
-verweist nur). abi-bau.py, iqb-bau.py und abgleich.py lesen sie; abi.md und
+verweist nur). abi-bau.py, iqb-bau.py und abitur-abgleich.py lesen sie; abi.md und
 iqb.md verweisen hierher und führen nur, was profilspezifisch ist. Der Kern
 (katalog-prompt.md v0.4) sieht die ausgelagerte Vokabulardatei vor: wo er
 „im Profil" sagt, ist für abi und iqb diese Datei gemeint. Bis zum
@@ -287,7 +288,7 @@ typ). Tragen Zeile und Typ verschiedene Themen, ist eines von beiden falsch –
 entweder gehört die Zeile zu einem anderen Typ, oder der Typ ist im falschen
 Thema abgelegt; beides wird im Abgleichlauf entschieden, nicht durch ein
 abweichendes Zeilenthema. Beide Bau-Skripte erzwingen die Gleichheit (für
-neue Zeilen und in der Selbstprüfung für den Bestand), abgleich.py prüft sie
+neue Zeilen und in der Selbstprüfung für den Bestand), abitur-abgleich.py prüft sie
 nach jedem Lauf; der Schnitt wird über das Thema des Typs gemessen. Bis zum
 Abgleichlauf 13 (16.09.2026) trugen 21 Zeilen ein anderes Thema als ihr Typ, und der
 Schnitt hing davon ab, welche Spalte gezählt wurde (189 gegen 183 Werte);
@@ -339,7 +340,7 @@ Bau-Skripte prüfen sie gegen beide und verlangen, dass jeder Typ in
 mindestens einem Katalog verwendet wird. Neue Typen entstehen im Lauf über
 NEUE_TYPEN des jeweiligen Bau-Skripts (Präfixregel § 4); Umbenennungen,
 Zusammenziehungen, Definitions- und Themenänderungen laufen nur über
-abgleich.py, das beide Kataloge mitzieht (Kern § 9, Liste alt → neu in
+abitur-abgleich.py, das beide Kataloge mitzieht (Kern § 9, Liste alt → neu in
 abi-pruefungen.md bzw. iqb-pruefungen.md § 5). Entstanden am 15.09.2026 aus
 iqb-typen.csv (792 Typen, Leitliste) und abi-typen.csv (146 Typen) durch
 den Umstellungslauf 12 (abi-iqb-typen.md, konzept.md Entscheidung 25).
