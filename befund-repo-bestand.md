@@ -1,5 +1,9 @@
 # Bestandsaufnahme des Repos – Zuordnung der Dateien
 
+Vermerk (17.09.2026, Auftrag F, Punkt 3): Datei bis dahin repo-bestand.md; die Dateinamen in der
+Tabelle § 1 sind auf die Umbenennungen des Auftrags F nachgezogen (msa-Präfix, abitur-abgleich.py,
+befund-abi-iqb-typen.md), der Befund selbst beschreibt den Stand vom 17.09.2026 vor dem Auftrag.
+
 Stand 17.09.2026 (Auftrag C „Eichschwelle setzen, Markdown-Korpus
 fertigstellen, offene Posten schließen, Katalog gegen Stark prüfen, Repo
 sichten", Teil 5). Nur Liste und Bewertung; nichts verschoben, umbenannt oder
@@ -58,7 +62,7 @@ beide, **X** nicht mehr in Gebrauch.
 | `abitur-vokabular.md` | K (abi, iqb) | Gemeinsames Vokabular: Sachgebiete, Themen, Geltungstabelle, Ausschlussliste, Gegenstandsklassen | v1.4, 17.09. | 15.09. | 17.09. | 5 |
 | `abitur-typen.csv` | K (abi, iqb) | Gemeinsame Typenliste, 1211 Typen | 17.09. | 15.09. | 17.09. | 22 |
 | `abitur-abgleich.py` (bis 17.09.2026 `abgleich.py`) | K (abi, iqb) | Abgleichläufe 1–23 über Typenliste und beide Kataloge (jeder Lauf einmalig, als Code archiviert; 108 KB) | v0.23, 17.09. | 15.09. | 17.09. | 11 |
-| `abi-iqb-typen.md` | X (K, erledigt) | Vergleich der Typenlisten abi/iqb als Entscheidungsgrundlage für Entscheidung 25 (15.09.) | historisch; die verglichenen Listen existieren nicht mehr | 15.09. | 15.09. | 2 |
+| `befund-abi-iqb-typen.md` (bis 17.09.2026 `abi-iqb-typen.md`) | X (K, erledigt) | Vergleich der Typenlisten abi/iqb als Entscheidungsgrundlage für Entscheidung 25 (15.09.) | historisch; die verglichenen Listen existieren nicht mehr | 15.09. | 15.09. | 2 |
 | `blatt-konzept.md` | B | Konzept der Nachhilfehefte aus dem Katalog (Heft-Phase), Baumaschine Prüfungsprompt | v0.8, 12.09. | 05.09. | 12.09. | 8 |
 | `masterprompt.md` | B | Masterprompt (Blätter ohne Katalog), Masterfassung | v3.34, 08.09. | 07.09. | 08.09. | 7 |
 | `pruefungsprompt.md` | B | Prüfungsprompt (Hefte mit Katalog, heute Profil msa), Masterfassung | v0.14, 08.09. | 07.09. | 08.09. | 7 |
@@ -78,7 +82,7 @@ Zählung: K 32 (msa 6, fhr 5, abi 8, iqb 7, abi+iqb 3, alle Profile 3:
 Kern, CLAUDE.md, .gitignore), B 8 (darunter als Grenzfall
 Bewertung_Masterprompt, das nur der Archivzettel nennt), K+B 9 (README,
 konzept, .gitattributes, zwei fhr-Typenbibliothek-Dateien, quellen.md mit
-drei Quellentexten), X 4 (abi-iqb-typen.md, Testauswertung 07.09.,
+drei Quellentexten), X 4 (befund-abi-iqb-typen.md, Testauswertung 07.09.,
 uebergabe.md, archiv-hinweis.md).
 
 ## 2 Auffälligkeiten
@@ -121,7 +125,7 @@ uebergabe.md, archiv-hinweis.md).
   beide `Testauswertung_*.md`: Verweise nur untereinander und aus
   blatt-konzept.md; README.md behauptet, Testauswertung und Protokoll-Archive
   lägen im Werkstatt-Projekt und nicht hier.
-- `abi-iqb-typen.md`: nur als historischer Verweis (Entscheidung 25) genannt.
+- `befund-abi-iqb-typen.md`: nur als historischer Verweis (Entscheidung 25) genannt.
 - `abi-struktur.json`: aus CLAUDE.md § 1 genannt, von keinem Skript gelesen.
 - Nicht aus CLAUDE.md, aber aus konzept.md/README.md: `blatt-konzept.md`,
   `mathblatt.sty`, `Anleitung_mathblatt.md`, `CHANGELOG.md`, die
@@ -155,7 +159,7 @@ uebergabe.md, archiv-hinweis.md).
 
 **Reste aus verworfenen oder abgeschlossenen Ansätzen.**
 
-- `abi-iqb-typen.md`: Messung vor der Zusammenführung der Typenlisten; die
+- `befund-abi-iqb-typen.md`: Messung vor der Zusammenführung der Typenlisten; die
   gemessenen Dateien (abi-typen.csv, iqb-typen.csv) sind seit Lauf 12
   gelöscht.
 - `uebergabe.md`, `archiv-hinweis.md`: Zettel eines Zip-Übergabeprozesses

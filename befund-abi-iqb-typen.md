@@ -1,6 +1,14 @@
 # Typenlisten abi und iqb – Vergleich als Entscheidungsgrundlage
 Stand 15.09.2026 · Messung ohne Änderung an Katalog, Typenlisten und Skripten · Auftrag des Lehrers
 
+Vermerk (17.09.2026, Auftrag F, Punkt 3; Datei bis dahin abi-iqb-typen.md): Diese Messung
+entstand vor Abgleichlauf 12 (Umstellungslauf, 15.09.2026). Die hier gemessenen und
+genannten Dateien abi-typen.csv und iqb-typen.csv existieren seit diesem Lauf nicht mehr –
+sie sind in abitur-typen.csv aufgegangen; alle Zahlen, Nummern und Zuordnungen beschreiben
+den Stand davor. Ebenfalls seit dem 17.09.2026 umbenannt: abgleich.py heißt
+abitur-abgleich.py, die Typenliste des Profils msa msa-typen.csv (hier noch typen.csv).
+Der Text darunter ist unverändert.
+
 Verglichen: abi-typen.csv (146 Typen, 113 Katalogzeilen aus 2017-bb-ea,
 2018-bb-ea, 2018-be-gk; 50 Typen kommen nur als typ_neben vor) gegen
 iqb-typen.csv (792 Typen, 1061 Zeilen, Stand nach Abgleichlauf 11). Maßstab

@@ -12,7 +12,7 @@ Ein Repo für die Mathe-Nachhilfe: Prüfungskataloge, die Prompts, die LaTeX-Vor
 | `fhr.md`, `fhr-*` | Profil fhr (Fachhochschulreife Brandenburg): Profil, Heftliste, Typenliste, Katalog, Bau-Skript, Typenbibliothek. |
 | `abi.md`, `abi-*` | Profil abi (Zentralabitur Berlin/Brandenburg 2017/2018, Verlagsscans ab 2019): Profil, Quellen, Aufbau, Heftliste, Katalog, Bau-Skript, Vorgaben. Arbeitsanweisung in `CLAUDE.md`. |
 | `iqb.md`, `iqb-*` | Profil iqb (IQB-Aufgabenpool, 624 Aufgaben mit Erwartungshorizont): Profil, Quellen (md und csv), Stapelliste, Katalog, Bau-Skript. Arbeitsanweisung in `CLAUDE.md` § 4. |
-| `abitur-vokabular.md`, `abitur-typen.csv`, `abitur-abgleich.py`, `abi-iqb-typen.md` | Gemeinsam für abi und iqb (Entscheidung 25): Vokabular (Sachgebiete, Themen, Geltung, Gegenstandsklassen; Handlung je format seit Kern v0.4 im Kern), eine Typenliste, Abgleich-Skript über beide Kataloge, Messung und Zuordnung der Typenlisten vor der Zusammenführung. |
+| `abitur-vokabular.md`, `abitur-typen.csv`, `abitur-abgleich.py`, `befund-abi-iqb-typen.md` | Gemeinsam für abi und iqb (Entscheidung 25): Vokabular (Sachgebiete, Themen, Geltung, Gegenstandsklassen; Handlung je format seit Kern v0.4 im Kern), eine Typenliste, Abgleich-Skript über beide Kataloge, Messung und Zuordnung der Typenlisten vor der Zusammenführung. |
 | `konzept.md`, `blatt-konzept.md` | Entscheidungen: Katalog bzw. Hefte. Bei Widerspruch in der Heft-Phase gilt blatt-konzept. |
 | `msa-pruefungen.md`, `msa-vorgaben.md` | Heftliste mit Erfassungsstatus; amtliche Vorgaben mit Jahrescheck. |
 | `CHANGELOG.md` | Änderungshistorie der Prompts und der Vorlage. |

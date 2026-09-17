@@ -1,6 +1,6 @@
 # VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
 Version 1.6 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
-Änderungen gegenüber 1.5 (Auftrag F, Punkt 2): das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py); nur der Name, an drei Stellen.
+Änderungen gegenüber 1.5 (Auftrag F, Punkt 2 und 3): das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py), die Messung abi-iqb-typen.md heißt befund-abi-iqb-typen.md; nur Namen, an vier Stellen.
 Änderungen gegenüber 1.4 (Auftrag D „Namensschema, Erweiterbarkeit,
 Begründungen", Teil 2; Auftrag E Punkt 4: § 4 „Klasse" statt „Unterklasse", „Abgleichlauf 13"): § 3 Geltungstabelle, Rechnerfassung und
 Ausschlussliste je Zielprüfung in eigene Dateien abi-<zielprüfung>-geltung.md
@@ -343,7 +343,7 @@ Zusammenziehungen, Definitions- und Themenänderungen laufen nur über
 abitur-abgleich.py, das beide Kataloge mitzieht (Kern § 9, Liste alt → neu in
 abi-pruefungen.md bzw. iqb-pruefungen.md § 5). Entstanden am 15.09.2026 aus
 iqb-typen.csv (792 Typen, Leitliste) und abi-typen.csv (146 Typen) durch
-den Umstellungslauf 12 (abi-iqb-typen.md, konzept.md Entscheidung 25).
+den Umstellungslauf 12 (befund-abi-iqb-typen.md, konzept.md Entscheidung 25).
 
 ## 7 Änderungen
 
