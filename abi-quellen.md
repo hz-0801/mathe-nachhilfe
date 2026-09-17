@@ -1,6 +1,8 @@
 # QUELLEN ABITUR – Mathematik Berlin/Brandenburg
 
-Version 0.5 · 17.09.2026 · gehört zum Profil abi (in Arbeit)
+Version 0.6 · 17.09.2026 · gehört zum Profil abi (in Arbeit)
+Änderungen gegenüber 0.5 (Auftrag J, Punkt 1): Vorbehalt unter der Versionszeile –
+geprüft sind § 1–3 und § 8, § 5 gibt die Angaben des Lehrers wieder.
 Änderungen gegenüber 0.4 (Auftrag C, Teil 4): § 5 CAS-Fassungen bestanden
 als Prüfungsform weiter, STARK druckt sie ab 2018 nicht mehr ab; § 8 die
 fünf abgeschriebenen Quelldateien (Stichwortverzeichnisse, Hinweise) im
@@ -17,6 +19,12 @@ Rechnerfassung, Seiten, Textebene und Erfassungsstand; 2026-Dateien nach dem
 Kürzel umbenannt.
 Änderungen gegenüber 0.1: § 2 Brandenburg auf grundlegendem Niveau beantwortet,
 BLiQ/LIBRA ab 2026; § 4 und § 6 IQB-Pool auf das Profil iqb verwiesen.
+
+**Vorbehalt:** § 1–3 und § 8 sind gegen die Dateien geprüft (Bildungsserver
+12.09.2026, HTTP 200 und Seitenzahl je erfasstem Heft; hefte/ 17.09.2026). § 5
+gibt die Angaben des Lehrers zu den Verlagsbänden wieder; geprüft sind davon nur
+die Scans unter hefte/, die mit „nicht geprüft" markierten Zellen der
+Beschaffungstabelle bleiben ungeprüft.
 
 Diese Datei ersetzt eine Ablage der Prüfungshefte. Der Container wird zwischen
 Sitzungen zurückgesetzt; die Hefte werden bei Bedarf über die hier genannten
