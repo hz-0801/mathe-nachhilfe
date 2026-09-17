@@ -20,9 +20,9 @@ Regelwerk (lesen, nicht ohne Anlass ändern):
 |---|---|
 | `konzept.md` | Gesamtkonzept: Ziel, Bausteine, Entscheidungen 1–26, Verworfenes. Getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt. |
 | `katalog-prompt.md` | Kern der Erfassungsmethode (v0.6, Schema-Version 2): Zeilenregel, 37 Felder mit Kopfzeile, Formvokabular, Handlung je format (§ 5), Vorrang des Amtlichen für niveau_geschaetzt (§ 5), Markierungen in bemerkung („Dublette von:", Vorstufe „Poolaufgabe (nicht erfasst):" als Übergangszustand, „Abgewandelt von:", „Traegerbindung: Kontext"), Prüfung, Ausgabe je Heft. Prüfungsunabhängig; Etikettenänderungen nur im Abgleichlauf (§ 6, § 9). |
-| `abi.md` | Profil abi (v0.16): Prüfung, Basis-URL, Heftaufbau, Kürzel und id-Muster, Sachgebiete (`leitidee`), Verweis auf das Vokabular, Besonderheiten beim Erfassen, Beispielzeilen, Offenes. **Bei Widerspruch zum Kern gilt das Profil.** |
+| `abi.md` | Profil abi (v0.17): Prüfung, Basis-URL, Heftaufbau, Kürzel und id-Muster, Sachgebiete (`leitidee`), Verweis auf das Vokabular, Besonderheiten beim Erfassen, Beispielzeilen, Offenes. **Bei Widerspruch zum Kern gilt das Profil.** |
 | `abi-quellen.md` | Verzeichnis, Dateinamen, papier-Kürzel und Seitenzahlen der Hefte. |
-| `abitur-vokabular.md` | Gemeinsames Vokabular der Profile abi und iqb (Entscheidung 25): Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen mit der Regel **Zeilenthema = Typthema** (§ 4), Regeln der gemeinsamen Typenliste. Beide Bau-Skripte lesen es; abi.md und iqb.md verweisen darauf. |
+| `abitur-vokabular.md` | Gemeinsames Vokabular der Profile abi und iqb (Entscheidung 25, v1.3): Sachgebiete, Themenliste, Geltungstabelle (mit Anmerkungen zu nicht Gefordertem und Rahmenlehrplänen), Gegenstandsklassen mit der Regel **Zeilenthema = Typthema** (§ 4), Regeln der gemeinsamen Typenliste. Beide Bau-Skripte lesen es; abi.md und iqb.md verweisen darauf. |
 | `abi-aufbau.md`, `abi-struktur.json` | Zeiten, Wahlstruktur, BE-Verteilung; Zwillingsnachweis Berlin/Brandenburg über BE-Vektoren. |
 
 Arbeitsdateien (werden je Heft geschrieben):

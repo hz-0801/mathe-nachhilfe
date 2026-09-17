@@ -1,5 +1,11 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.16 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Version 0.17 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Änderungen gegenüber 0.16 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 3): § 11
+Prüfungsstruktur und Bewertung (Bewertungsschlüssel 2024 und seit 2025,
+Aufbau 2027, Hilfsmittel, nicht Gefordertes, Rahmenlehrpläne,
+Corona-Sonderjahrgänge 2022/2023, Strukturbruch 2018/2019, Zuordnung für die
+Simulation).
 Änderungen gegenüber 0.15 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", Teil 2): § 10
 Prüfungsgeschichte mit Quelle je Zeile; § 4 Kürzelregel nach Jahrgängen (be
@@ -162,6 +168,8 @@ und Sachkontexte wie Masse, Volumen, Dichte und begnügt sich bei Extrempunkten 
 der notwendigen Bedingung. Struktur und Zeit sind identisch, die Inhalte nicht. Hilfsmittel: Nachschlagewerk zur
 Rechtschreibung, Formelsammlung des IQB (nicht in Teil A), Taschenrechner (nicht
 in Teil A), Standard-Zeichenwerkzeuge.
+
+Bewertungsschlüssel, Hilfsmittel, Sonderjahrgänge und Strukturbruch: § 11.
 
 **WTR, CAS und MMS.** Zu jedem Heft gibt es eine vollständige Parallelfassung für
 Rechner mit Computeralgebra. Brandenburg nennt sie ab 2027 „modulares
@@ -570,3 +578,85 @@ und bb ab 2026. Die Kopfzeilen der Hefte stützen sie; eine Aussage über den
 Geltungsbereich (Land, Rechner, Hilfsmittel) enthält keine der Dateien, weil
 die Verlagsausgaben Deckblatt und Hinweisseiten der Originalhefte nicht
 enthalten (abi-quellen.md § 5).
+
+## 11 Prüfungsstruktur und Bewertung
+
+Stand 17.09.2026 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 3). Quelle, wo nichts
+anderes steht: STARK-Bände zum Abitur 2027, Vorspann S. I–III, getrennt für
+GK und LK (Angabe des Lehrers; Verlagsdarstellung der amtlichen Vorgaben,
+kein amtlicher Text). Die amtlichen Prüfungsschwerpunkte 2027 sind in § 3
+und abi-vorgaben.md § 2 ausgewertet; wo beide auseinandergehen, steht es
+hier.
+
+**Bewertungsschlüssel seit 2025.** GK: hilfsmittelfreier Teil 25, Analysis
+25, Analytische Geometrie 15, Stochastik 15 BE (80 BE). LK: 30 / 30 / 20 /
+20 BE (100 BE). Beide Niveaus: die sechs Aufgaben der Aufgabenstellung 1 je
+5 BE. **Bewertungsschlüssel 2024.** GK: 25 / 35 / 20 / 20 BE (100); LK:
+30 / 40 / 25 / 25 BE (120).
+
+**Aufbau 2027.** GK Teil A: Aufgabengruppe 1 sechs Aufgaben, vier zu
+bearbeiten, AFB I und II; Aufgabengruppe 2 drei Aufgaben, eine zu
+bearbeiten, mindestens eine Teilaufgabe AFB III. LK Teil A: Aufgabengruppe 1
+vier Aufgaben, alle verpflichtend, AFB I und II; Aufgabengruppe 2 sechs
+Aufgaben, zwei zu bearbeiten, mindestens eine Teilaufgabe AFB III. Beide
+Teil B: zwei Analysis-Aufgaben zur Wahl, je eine Aufgabe Analytische
+Geometrie und Stochastik, beide verpflichtend. Bearbeitungszeit GK 285
+Minuten, davon höchstens 100 für Teil A; LK 330 Minuten, davon höchstens 110
+für Teil A. (§ 3 gibt aus den Brandenburger Prüfungsschwerpunkten für den GK
+„je drei Aufgaben beider Gruppen zur Auswahl, aus jeder Gruppe eine" wieder –
+eine andere Auswahlregel; welche Fassung gilt, ist am amtlichen Text zu
+prüfen, offen.)
+
+**Hilfsmittel (beide Niveaus).** Ohne MMS: nicht programmierbarer, nicht
+grafikfähiger Taschenrechner ohne numerische Differenziation, Integration und
+automatisiertes Lösen von Gleichungen. Mit MMS: das in der Schule
+eingeführte MMS-Rechengerät, keine weitere Software. Dazu Formelsammlung (nur
+Teil B) und Rechtschreibnachschlagewerk. MMS heißt „Modulares
+Mathematiksystem" (so auch § 3 und abitur-vokabular.md § 3; eine andere
+Auflösung steht nirgends im Repo, geprüft 17.09.2026).
+
+**Nicht gefordert.** Beide Niveaus: Erläutern und Entwickeln von Beweisen,
+Simulationen. GK zusätzlich: Nutzung von Grenzwerten bei der Bestimmung von
+Ableitung oder Integral. LK, nur Land Berlin: komplexe gebrochen-rationale
+Funktionen – eine landesspezifische Einschränkung, festgehalten neben der
+Geltungstabelle (abitur-vokabular.md § 3). Prüfung gegen den Bestand und
+Vorschlag zur Geltungstabelle ebenda.
+
+**Rahmenlehrplan.** Berlin: Ausgabe 2021, Fachteil C Mathematik in der
+Fassung 2014; Brandenburg: Ausgabe 2022. Zwei verschiedene Grundlagen, neben
+der Geltungstabelle vermerkt (abitur-vokabular.md § 3).
+
+**Corona-Sonderjahrgänge 2022 und 2023.** GK: hilfsmittelfreier Teil drei
+verpflichtende Analysis-Aufgaben, die Lehrkraft wählte zusätzlich zwei
+Aufgaben Analytische Geometrie oder zwei Aufgaben Stochastik. LK: vier
+verpflichtende Analysis-Aufgaben, sonst gleich. Beide: im Hilfsmittelteil
+beide Analysis-Aufgaben verpflichtend, die Lehrkraft wählte zusätzlich
+Geometrie oder Stochastik; BE entsprechend angepasst. Die erfassten Hefte
+2022-bebb-gk, 2022-bebb-lk, 2023-bebb-gk, 2023-bebb-lk zeigen genau diese
+Struktur (abi-pruefungen.md § 2, § 4, 17.09.2026); ihre Zeilen sind für die
+Simulation der Prüfung ab 2025 nicht strukturgleich, als Typenquelle
+unberührt.
+
+**Strukturbruch 2018/2019.** Bis 2018 kein hilfsmittelfreier Teil (Berlin;
+Brandenburg erhöht mit Aufgabenstellung 1 zu 15 BE, § 3), Aufgaben 1.1/1.2
+Analysis, 2.1/2.2 Geometrie, 3.1/3.2 Stochastik, je Paar eine zur Wahl. Das
+betrifft die erfassten Hefte 2017-bb-ea, 2018-be-gk und 2018-bb-ea: ihre
+Zeilen stehen thematisch in der Geltung (Geltung ist eine Eigenschaft des
+Themas, abitur-vokabular.md § 3), bilden aber keinen Prüfungsteil der
+Zielprüfung 2027 ab. Ob sie für „Prüfung simulieren" verwendet werden, ist
+nicht entschieden (Meldung, § 9).
+
+**Zuordnung für „Prüfung simulieren" (Meldung, nicht entschieden).** Die
+Struktur ab 2025 (Teil A Pflicht- plus Wahlaufgaben, Teil B Analysis zur
+Wahl, Geometrie und Stochastik Pflicht, Schlüssel 25/25/15/15 bzw.
+30/30/20/20) bilden ab: 2026-bb-ea vollständig (Teil A 1.1–1.4 Pflicht, zwei
+aus 1.5–1.10, Teil B 30/30/20/20); 2025-bebb-gk und 2026-bb-gk in Teil B
+(25/25/15/15), in Teil A mit dem Heftlayout drei Pflichtaufgaben plus ein
+Wahlblock zu drei Aufgaben (30 BE bei Wahl) gegenüber 25 BE im Schlüssel und
+der Gruppenregel 2027 (vier aus sechs, eine aus drei) – die Abweichung ist
+nicht aufgelöst. Nicht abbildend: 2024-bebb-gk (Schlüssel 2024, Teil B
+35/20/20), 2022 und 2023 (Sonderjahrgänge), 2017 und 2018 (Format bis 2018).
+Nicht erfasst: 2019–2021 (Berlin GK, Format mit Teil A und drei Wahlpaaren;
+2021 mit je einer Geometrie- und Stochastikaufgabe), 2024-bebb-lk,
+2025-bebb-lk.

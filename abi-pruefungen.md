@@ -30,10 +30,10 @@ in vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
-| 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten, 170 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 32 Zeilen Pool-Dubletten mit Verweis, 1 abgewandelt) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
-| 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
-| 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten, 170 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
+| 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A drei Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2" nach der gewöhnlichen Wahl) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
+| 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A vier Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 32 Zeilen Pool-Dubletten mit Verweis, 1 abgewandelt) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
+| 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-gk – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2") | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
+| 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-lk – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 | 2025 | 2025-bebb-gk | BE/BB | grundlegend | WTR | 8 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 39 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 | 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
@@ -1227,6 +1227,37 @@ die Berliner Fassung vorliegt. Rechnerfassung: keine Datei nennt CAS, MMS
 oder WTR; alle dreizehn sind die Fassung ohne MMS/CAS (Verlagsbände ohne
 CAS-Aufgaben ab 2019, Rechnerfassung WTR in § 2).
 
+**Prüfungsstruktur: Corona-Sonderjahrgänge 2022/2023, Strukturbruch
+2018/2019, Zuordnung ab 2025 (17.09.2026, Auftrag „Eichung korrigieren,
+Prüfungsgeschichte und Prüfungsstruktur festhalten, Heftordner ordnen",
+Teil 3, Punkt 12–14; abi.md § 11).** Sonderregelung 2022 und 2023 (STARK
+Vorspann): GK drei verpflichtende Analysis-Aufgaben im hilfsmittelfreien
+Teil plus zwei Geometrie- oder zwei Stochastik-Aufgaben nach Wahl der
+Lehrkraft, LK vier Analysis-Aufgaben; Teil B beide Analysis-Aufgaben
+verpflichtend plus Geometrie oder Stochastik. Prüfung am Katalog (Struktur
+je Heft aus abi-katalog.csv): 2022-bebb-gk Teil A 1.1–1.3 Analysis, 1.4–1.5
+Geometrie, 1.6–1.7 Stochastik (je 5 BE), Teil B 2.1 und 2.2 je 45, 3 zu 30,
+4 zu 30 BE; 2023-bebb-gk gleich (Aufgabe 4 in zwei Teilen 4.1 zu 20 und 4.2
+zu 10 BE); 2022-bebb-lk und 2023-bebb-lk Teil A 1.1–1.4 Analysis, 1.5–1.6
+Geometrie, 1.7–1.8 Stochastik, Teil B 2.1 und 2.2 je 50, 3 zu 40, 4 zu 40
+BE – **die erfasste Aufgabenstruktur passt in allen vier Heften zur
+Sonderregelung** (drei bzw. vier Analysis-Aufgaben in Teil A, zwei
+Analysis-Aufgaben und je eine Geometrie- und Stochastikaufgabe in Teil B).
+BE-Summen: die Spalte BE in § 2 nannte bisher „bei Wahl 2.1/2.2" nach der
+gewöhnlichen Wahlstruktur; nach der Sonderregelung ergeben sich rechnerisch
+GK 25 + 45 + 45 + 30 = 145 BE und LK 30 + 50 + 50 + 40 = 170 BE (der
+LK-Wert fällt mit dem alten zusammen, der GK-Wert nicht: 140). Ein Deckblatt
+mit der amtlichen Summe enthalten die Scans nicht; die Werte sind gerechnet
+und in § 2 so gekennzeichnet. Strukturbruch 2018/2019: die Hefte 2017-bb-ea,
+2018-be-gk, 2018-bb-ea haben das Format bis 2018 (drei Wahlpaare, Berlin
+ohne hilfsmittelfreien Teil); ihre Zeilen bleiben thematisch in der
+Geltung, bilden aber keinen Prüfungsteil ab 2019 ab. Zuordnung für
+„Prüfung simulieren" (Meldung): Struktur ab 2025 abbildend 2026-bb-ea
+vollständig, 2025-bebb-gk und 2026-bb-gk in Teil B (25/25/15/15) und mit
+Vorbehalt in Teil A (Heftlayout 3 Pflicht + Wahlblock zu 3 = 30 BE, Schlüssel
+25 BE); nicht abbildend 2024-bebb-gk (Schlüssel 2024), 2022/2023
+(Sonderjahrgänge), 2017/2018 (Format bis 2018). Keine Katalogdatei geändert.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1635,6 +1666,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Prüfungsstruktur und Bewertung (Auftrag Teil 3): abi.md v0.17 § 11 (Bewertungsschlüssel 2024/ab 2025, Aufbau 2027, Hilfsmittel, nicht Gefordertes, Rahmenlehrpläne, Sonderjahrgänge, Strukturbruch, Zuordnung), abitur-vokabular.md v1.3 § 3 Anmerkungen neben der Geltungstabelle (Tabelle unverändert, Vorschlag: keine Änderung). Corona-Sonderjahrgänge 2022/2023 in § 2 vermerkt, Aufgabenstruktur der vier Hefte passt, BE bearbeitet rechnerisch GK 145, LK 170 (§ 4). Keine Katalogdatei geändert. |
 | 2026-09-17 | Prüfungsgeschichte und Kürzelregel (Auftrag Teil 2): abi.md v0.16 – § 10 Prüfungsgeschichte mit Quelle je Zeile, § 4 Kürzel nach Jahrgängen (be 2019–2021, bebb 2022–2025, be/bb ab 2026), § 9 offen: GK-Fassungen 2019–2021. Landes- und Rechnernennungen in allen 13 Dateien unter hefte/ gesucht (§ 4): 2019–2021 nur „Berlin", 2022–2025 „Berlin/Brandenburg", 2026 nur „Brandenburg"; keine Rechner- oder Hilfsmittelangabe außerhalb der Verlagstipps. Offener Punkt § 3: kein STARK-Heft für Berlin 2026. Keine Katalogdatei geändert. |
 | 2026-09-17 | Abgleichlauf 20 (Vorrang des Amtlichen, Entscheidung des Lehrers): niveau_geschaetzt in 11 abi-Zeilen auf den amtlichen Bereich der Poolzeile nachgezogen – 2022-bebb-gk 2.1 a, j, 3 b, e (II → I), 2.1 g, k (III → II), 3 i (II → III); 2017-bb-ea 1.2 b, 1.3 b, 2018-bb-ea 1.1 a, 1.2 b (II → III); dazu 9 iqb-Zeilen von 2022-ga-B. Kern v0.6 (§ 5 Vorrang des Amtlichen), abi.md v0.15 (§ 7), iqb.md v1.8, iqb-bau.py v1.5 (Überschreibung der Eichschwelle zurückgebaut), abgleich.py v0.20. Eichung 2022-bebb-gk 23 von 24. Typen unverändert (1124). |
 | 2026-09-17 | Abgleichlauf 19 nach 2022-ga-B, 2026-bb-gk und 2026-bb-ea: drei Zusammenziehungen mit neuem Namen – „Integralwert: Näherungswert eines Integrals als Dreiecksfläche am Graphen begründen“ + „… als Trapezfläche …“ → „… als Vielecksfläche …“; „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Endstück deuten“ + „Term und Ereignis: Produkt aus Potenz und kumulierter Binomialsumme als Ereignis beschreiben“ → „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten“; „Nullstellen und Werte: Unpassende Graphen zu einem Funktionsterm ausschließen“ + „Nullstellen und Werte: Passende Abbildung des Graphen über einen Funktionswert auswählen“ → „Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen“. Typenliste 1127 → 1124, 2 abi-Zeilen umgestellt. Poolquote-Reihe und Deutung in § 4. |

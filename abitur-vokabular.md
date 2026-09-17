@@ -1,5 +1,9 @@
 # VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
-Version 1.2 · 16.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Version 1.3 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Änderungen gegenüber 1.2 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 3): § 3 Anmerkungen
+neben der Geltungstabelle – nicht geforderte Inhalte, landesspezifische
+Einschränkung (Berlin LK) und die zwei Rahmenlehrpläne; Tabelle unverändert.
 Änderungen gegenüber 1.1 (Auftrag „Geltung klären", Entscheidung des Lehrers
 16.09.2026): § 3 Geltung gemeinsamer Hefte Berlin/Brandenburg (bebb) – gegen
 beide Spalten, eine Zeile gilt, wenn sie in mindestens einer liegt.
@@ -229,6 +233,31 @@ können sich aber „u. U. deutlich" von den Aufgaben ohne MMS unterscheiden und
 sind auf kein Gerät ausgerichtet. Folge für den Katalog: WTR ist der
 Hauptzweig, MMS wird je Niveau als Delta gemessen (iqb.md § 7); eine CAS-Messung
 entfällt, weil es keine eigene Fassung ist.
+
+**Neben der Geltungstabelle: nicht geforderte Inhalte, landesspezifische
+Einschränkung, Rahmenlehrpläne** (17.09.2026; Quelle STARK-Bände zum Abitur
+2027, Vorspann S. I–III, Angabe des Lehrers; abi.md § 11). Nicht gefordert
+auf beiden Niveaus: Erläutern und Entwickeln von Beweisen, Simulationen. GK
+zusätzlich: Nutzung von Grenzwerten bei der Bestimmung von Ableitung oder
+Integral. LK, nur Land Berlin (be-lk): komplexe gebrochen-rationale
+Funktionen. Rahmenlehrplan: Berlin Ausgabe 2021, Fachteil C Mathematik in
+der Fassung 2014; Brandenburg Ausgabe 2022 – die beiden Spalten je Niveau
+beruhen auf verschiedenen Grundlagen. Prüfung gegen die Tabelle und den
+Bestand (Auftrag Teil 3, Punkt 11; Änderungen werden nur vorgeschlagen,
+nicht gesetzt): Keines der vier Papiere macht ein Thema der Tabelle als
+Ganzes ungültig. „Grenzwerte und Verhalten im Unendlichen" bleibt für be-gk
+und bb-gk gültig – das Thema meint das Verhalten von Funktionen, nicht die
+Grenzwertdefinition von Ableitung oder Integral; im Bestand gibt es keine
+Zeile, die eine solche Definition verlangt (Suche in beiden Katalogen nach
+h-Methode, Ober-/Untersumme, Streifenmethode: 0; die Zeilen mit
+Differenzenquotient sind mittlere Änderungsraten). Gebrochen-rationale
+Funktionen haben kein eigenes Thema (sie laufen unter „Funktionsklassen und
+Eigenschaften"); der abi-Bestand enthält keine Zeile dazu, der Pool zwei
+einfache (Asymptote einer Logarithmusfunktion, transformierte
+Potenzfunktion). Vorschlag: Tabelle unverändert lassen; die Einschränkung
+be-lk „komplexe gebrochen-rationale Funktionen nicht gefordert" gilt
+unterhalb des Themas und wird beim Blattbau als Filter auf die Zeile
+angewendet, sobald ein Fall auftritt. Entscheidung beim Lehrer.
 
 ## 4 Gegenstandsklassen je Thema
 
