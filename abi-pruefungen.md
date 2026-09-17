@@ -1619,6 +1619,32 @@ liegen 15 auf Werten aus Teil A des erhöhten Pools.
 geholt und als Text verglichen, sympy für 17 Zeilen, 29 Dubletten erzeugt,
 Lauf, HEAD-Rerun, Selbstprüfung).
 
+**Abgleichlauf 21 nach den fünf Heften (17.09.2026, Auftrag B, Teil 1;
+abgleich.py v0.21).** Ähnlichkeitssuche über die 91 neuen Typen der Hefte
+2019-be-gk, 2020-be-gk, 2021-be-gk, 2024-bebb-lk, 2025-bebb-lk (Wortmenge und
+Zeichenfolge gegen alle Typen desselben Themas, 120 Kandidatenpaare ab
+Schwelle 0,62, Definitionen der engsten Paare verglichen). Vier
+Zusammenziehungen, 1215 → 1211 Typen, je 5 Typfelder in beiden Katalogen:
+(1) das Maximum einer Gewinnfunktion (2018-ga-B, 2018-ea-B) geht in „Maximum
+einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung
+berechnen" (2019-be-gk 2.1 a) auf – das Aufstellen als Differenz ist ein
+Vorschritt, die Maximumsbestimmung dieselbe; (2) „mögliche Extremstellen aus
+der faktorisierten Ableitung" (2024-bebb-lk 2.1 d, Nebentyp) in „Stellen mit
+waagerechter Tangente aus der faktorisierten Ableitung angeben" (2023-bebb-lk
+1.4 a), Thema des Typs bleibt Tangente, Normale, Schnittwinkel; (3) „spätestens
+der dritte Erfolg über Pfade oder Gegenereignis" (2020-be-gk 4.1 b, Nebentyp)
+und „mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis"
+(2020-ea-A, 2019-ga-A, 2022-bebb-lk) zu „… bei mehreren Stufen …"; (4) die
+quadratische Steckbriefaufgabe aus Nullstelle und Scheitel (2021-be-gk 2.1 k)
+und aus Ursprung und Tangentengleichung (2020-ga-A) zu „Quadratische Funktion
+aus Wert- und Steigungsbedingungen rekonstruieren", wie Lauf 17 für den
+dritten Grad. Getrennt gelassen: Parallelität prüfen gegen Nichtidentität
+begründen (beide über Richtungsvektoren, entgegengesetzter Schluss), Fläche
+mit vorgegebener Stammfunktion gegen vorgegebenen Flächenterm, größte
+Änderungsrate eines Bestands gegen maximale Rate einer Ratenfunktion.
+Selbstprüfung beider Bau-Skripte bestanden, Lauf aus dem HEAD-Stand
+byteidentisch. alt → neu: „Maximum einer Gewinnfunktion über die Ableitung berechnen" → „Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen"; „Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben" → „Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben"; „Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen" und „Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen" → „Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen"; „Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren" und „Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen" → „Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren".
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2027,6 +2053,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 21 (abgleich.py v0.21) nach den fünf Heften des Auftrags B, Teil 1: vier Zusammenziehungen, 1215 → 1211 Typen, 5 Typfelder im abi-Katalog (2019-be-gk 2.1 a, 2020-be-gk 4.1 b, 2021-be-gk 2.1 k, 2022-bebb-lk 1.7 a, 2024-bebb-lk 2.1 d) und 5 im iqb-Katalog. alt → neu: „Maximum einer Gewinnfunktion über die Ableitung berechnen" → „Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen"; „Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben" → „Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben"; „Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen" und „Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen" → „Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen"; „Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren" und „Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen" → „Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren". abi.md v0.19: § 11 Heftaufbau je Jahrgang 2019–2021 und 2024/2025 aus den Heften (Corona-Aufbau schon 2021, Pflicht plus zwei von sechs Wahlaufgaben im LK seit 2024), Zuordnung für die Simulation nachgeführt, § 9 Befund zu den GK-Heften 2019–2021. |
 | 2026-09-17 | Heft 2025-bebb-lk erfasst (Berlin/Brandenburg LK, Stark-Band zum Abitur 2027): 46 Zeilen aus 14 Aufgaben (1.1–1.10 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 794 Zeilen, Typenliste 1215 (11 neu). Alle Punktsummen geprüft (10 × 5, 30, 30, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 28 von 29 (geerbt). Pool 33 von 46 Zeilen, 104 von 150 BE (69 %): Teil A vollständig (18 Dubletten), 3 = AG/LA (A2) WTR (5), 4 = Stochastik WTR 2 (6), 2.1 Regenwasser = WTR-Fassung von Analysis MMS 1 (4 wortgleiche und 3 abgewandelte Vormerkungen auf den MMS-Zweig 2025-ea-B, 1 Landeszusatz; offene Posten jetzt 35), 2.2 Blutzucker Landes. Kein neuer Schnittwert. Aufbau und Schlüssel 30/30/20/20 wie 2026-bb-ea. |
 | 2026-09-17 | Heft 2024-bebb-lk erfasst (Berlin/Brandenburg LK, Stark-Band zum Abitur 2027): 53 Zeilen aus 14 Aufgaben (1.1–1.10 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 748 Zeilen, Typenliste 1204 (13 neu). Alle Punktsummen geprüft (10 × 5, 40, 40, 25, 25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 33 von 34 (geerbt). Pool 34 von 53 Zeilen, 110 von 180 BE (61 %): Teil A 13 Dubletten, 2.2 = Analysis WTR 2 (6 Dubletten, 3 abgewandelt: Schar mit einem Parameter), 3 = AG/LA (A2) WTR 1 (8; BE c/f vertauscht), 4 = Stochastik WTR 1 (8). Kein neuer Schnittwert. Aufbau: vier Pflicht- plus zwei von sechs Wahlaufgaben schon 2024, Schlüssel 30 / 40 / 25 / 25. dubletten.py (Scratchpad) lässt abweichende BE nur mit Vermerk „BE im Heft" zu. |
 | 2026-09-17 | Heft 2021-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 56 Zeilen aus 11 Aufgaben (1.1–1.7 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 695 Zeilen, Typenliste 1191 (25 neu). Alle Punktsummen geprüft (7 × 5, 45, 45, 30, 30; Druckfehler „35“ bei 2.2), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 2 von 2 (geerbt). Pool 12 von 56 Zeilen, 37 von 185 BE (20 %): Teil A Analysis 1.2, Teil B 3 = AG/LA (A2) WTR 1 (6 von 9) und 4 = Stochastik WTR 2 (6 von 9) als Vormerkungen (Reserve 2021-ga-B, 12 offene Posten). Kein neuer Schnittwert. Aufbau wie 2022/2023 (Corona-Struktur schon 2021). |

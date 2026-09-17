@@ -1,5 +1,10 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.18 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Version 0.19 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Änderungen gegenüber 0.18 (Auftrag B „Fünf Hefte erfassen, Heftkorpus,
+Katalog gegen Stark prüfen, CAS-Delta", Teil 1): § 11 Heftaufbau je Jahrgang
+2019–2021 (Berlin GK) und 2024/2025 (LK) aus den Heften, Corona-Aufbau schon
+2021, Zuordnung für die Simulation nachgeführt; § 9 Befund zu den Berliner
+GK-Heften 2019–2021.
 Änderungen gegenüber 0.17 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", Teil 4): § 2 und § 4
 Dateien unter hefte/ heißen wie das Kürzel (2026 umbenannt), Verzeichnis in
@@ -520,7 +525,12 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
   ob die Berliner und die Brandenburger Fassung im Grundkurs inhaltlich
   abwichen oder nur im Deckblatt. Die Bände unter hefte/ sind die Berliner
   Fassung; das Rundschreiben 21/20 spricht für 2020 und 2021 von „weitgehend
-  gemeinsamen Aufgabenstellungen" mit eigener Ausgabe je Land.
+  gemeinsamen Aufgabenstellungen" mit eigener Ausgabe je Land. Befund nach
+  der Erfassung (17.09.2026, Auftrag B Teil 1): die drei Berliner Hefte
+  tragen 11–20 % Pool-BE (Teil A erfasst, Teil B als Vormerkungen auf die
+  Reserve-Stapel 2019–2021-ga-B), der Rest sind Landesaufgaben mit 31–49 %
+  neuen Typen; ob Brandenburg dieselben Landesaufgaben stellte, entschiede
+  nur der Brandenburger Band 2022 (abi-quellen.md).
 - Dublette zwischen zwei abi-Heften (17.09.2026, Hefte 2026-bb-gk und
   2026-bb-ea): die Dublettenregel des Katalogs (§ 7) deckt nur den Verweis
   eines Landeshefts auf den Pool ab – „Dublette von:" verlangt eine
@@ -643,7 +653,28 @@ Geometrie oder Stochastik; BE entsprechend angepasst. Die erfassten Hefte
 2022-bebb-gk, 2022-bebb-lk, 2023-bebb-gk, 2023-bebb-lk zeigen genau diese
 Struktur (abi-pruefungen.md § 2, § 4, 17.09.2026); ihre Zeilen sind für die
 Simulation der Prüfung ab 2025 nicht strukturgleich, als Typenquelle
-unberührt.
+unberührt. Das Heft 2021-be-gk zeigt denselben Aufbau bereits ein Jahr
+früher (nächster Absatz).
+
+**Heftaufbau je Jahrgang aus den Heften (17.09.2026, Auftrag B, Teil 1;
+abi-pruefungen.md § 4).** Berlin GK 2019 (2019-be-gk): Teil A vier Einheiten
+zu je 5 BE, alle Pflicht (20); Teil B drei Wahlpaare 2.1/2.2 Analysis je 40,
+3.1/3.2 Geometrie je 20, 4.1/4.2 Stochastik je 20 – 180 BE angeboten, 100
+bearbeitet. Berlin GK 2020 (2020-be-gk): Teil A fünf Einheiten zu je 5 BE,
+alle Pflicht (25); Teil B 2.1/2.2 je 35, 3.1/3.2 je 20, 4.1/4.2 je 20 – 175
+angeboten, 100 bearbeitet. Berlin GK 2021 (2021-be-gk): Corona-Aufbau wie
+2022/2023 – Teil A sieben Einheiten zu je 5 BE (drei Analysis Pflicht, dazu
+zwei Geometrie oder zwei Stochastik: 25 von 35), Teil B 2.1/2.2 Analysis je
+45 beide Pflicht, 3 Geometrie 30 oder 4 Stochastik 30 – 185 angeboten, 145
+bearbeitet (der Band druckt bei 2.2 „35", die Teilaufgaben ergeben 45). LK
+2024 (2024-bebb-lk): Teil A Pflichtaufgaben 1.1–1.4 zu je 5 BE (20) und
+Wahlaufgaben 1.5–1.10 zu je 5, zwei zu bearbeiten (10); Teil B 2.1/2.2 je 40
+zur Wahl, 3 Geometrie 25, 4 Stochastik 25 – 180 angeboten, 120 bearbeitet
+(Schlüssel 2024: 30 / 40 / 25 / 25). LK 2025 (2025-bebb-lk): derselbe
+Aufbau mit 2.1/2.2 je 30, 3 und 4 je 20 – 150 angeboten, 100 bearbeitet
+(Schlüssel seit 2025: 30 / 30 / 20 / 20, wie 2026-bb-ea). Der Aufbau „vier
+Pflicht- plus zwei von sechs Wahlaufgaben" gilt im LK also seit 2024, der
+Schlüssel 30 / 30 / 20 / 20 seit 2025.
 
 **Strukturbruch 2018/2019.** Bis 2018 kein hilfsmittelfreier Teil (Berlin;
 Brandenburg erhöht mit Aufgabenstellung 1 zu 15 BE, § 3), Aufgaben 1.1/1.2
@@ -664,6 +695,8 @@ Wahlblock zu drei Aufgaben (30 BE bei Wahl) gegenüber 25 BE im Schlüssel und
 der Gruppenregel 2027 (vier aus sechs, eine aus drei) – die Abweichung ist
 nicht aufgelöst. Nicht abbildend: 2024-bebb-gk (Schlüssel 2024, Teil B
 35/20/20), 2022 und 2023 (Sonderjahrgänge), 2017 und 2018 (Format bis 2018).
-Nicht erfasst: 2019–2021 (Berlin GK, Format mit Teil A und drei Wahlpaaren;
-2021 mit je einer Geometrie- und Stochastikaufgabe), 2024-bebb-lk,
-2025-bebb-lk.
+Seit 17.09.2026 erfasst: 2025-bebb-lk bildet die Struktur ab 2025
+vollständig ab (Teil A 1.1–1.4 Pflicht, zwei aus 1.5–1.10, Teil B
+30/30/20/20), 2024-bebb-lk ist strukturgleich mit dem Schlüssel 2024
+(30/40/25/25); nicht abbildend 2019-be-gk und 2020-be-gk (Teil A ohne Wahl,
+drei Wahlpaare in Teil B) und 2021-be-gk (Corona-Aufbau).

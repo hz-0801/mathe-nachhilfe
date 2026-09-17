@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.20 · 17.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.5
+Version 0.21 · 17.09.2026 · gilt mit abitur-vokabular.md v1.3, abi-bau.py v0.8 und iqb-bau.py v1.5
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -100,6 +100,14 @@ amtlichen Bereich abweichen (2022-bebb-gk 7, 2017-bb-ea 2, 2018-bb-ea 2),
 nachgezogen. Grund je Zeile in bemerkung, alter Wert bleibt dort. Abbruch bei
 mehr als 20 Zeilen oder wenn ein Zielwert nicht der amtliche ist. Typen
 unverändert (1124).
+Lauf 21 (17.09.2026, Auftrag B Teil 1 – Abgleich nach den fünf Stark-Heften
+2019-be-gk, 2020-be-gk, 2021-be-gk, 2024-bebb-lk, 2025-bebb-lk): vier
+Zusammenziehungen – Maximum einer ganzrationalen Modellfunktion (Gewinnfunktion
+2018-ga-B ist ein Sonderfall), Stellen mit waagerechter Tangente aus der
+faktorisierten Ableitung (mögliche Extremstellen 2024-bebb-lk), mindestens oder
+höchstens einmal über das Gegenereignis bei zwei oder drei Stufen (spätestens
+dritter Erfolg 2020-be-gk), quadratische Steckbriefaufgabe aus Wert- und
+Steigungsbedingungen (wie Lauf 17 für dritten Grad); 1215 → 1211.
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1219,6 +1227,61 @@ def zeile_20(d):
     return True
 
 
+# ======================================================================= Lauf 21
+# Nach den fünf Stark-Heften des Auftrags B, Teil 1 (2019-be-gk, 2020-be-gk,
+# 2021-be-gk, 2024-bebb-lk, 2025-bebb-lk; 17.09.2026): Ähnlichkeitssuche über
+# die 91 neuen Typen der fünf Hefte (Wortmenge und Zeichenfolge, gleiches
+# Thema), Definitionen der Kandidatenpaare verglichen. Vier Paare tragen
+# dieselbe Fertigkeit: (1) Maximum einer ganzrationalen Modellfunktion über
+# die Ableitung – die Gewinnfunktion (2018-ga-B, 2018-ea-B) ist der Sonderfall
+# mit vorherigem Aufstellen als Differenz, die Maximumsbestimmung ist
+# dieselbe (2019-be-gk); (2) Nullstellen einer faktorisiert vorgegebenen
+# Ableitung ablesen – als Stellen mit waagerechter Tangente (2023-bebb-lk)
+# oder als mögliche Extremstellen (2024-bebb-lk, Nebentyp) gefragt, das Thema
+# des Typs bleibt Tangente, Normale, Schnittwinkel; (3) mindestens oder
+# höchstens einmal über das Gegenereignis – bei zwei Stufen (2020-ea-A,
+# 2019-ga-A, 2022-bebb-lk) oder bei drei Stufen mit Abbruch nach dem ersten
+# Treffer („spätestens der dritte Erfolg", 2020-be-gk, Nebentyp); (4)
+# quadratische Steckbriefaufgabe – aus Nullstelle und Scheitel (2021-be-gk)
+# oder aus Punkt und Tangentengleichung (2020-ga-A), beides Wert- und
+# Steigungsbedingungen desselben LGS, wie Lauf 17 für den dritten Grad.
+# Getrennt gelassen: Parallelität prüfen gegen Nichtidentität begründen (beide
+# über die Richtungsvektoren, aber entgegengesetzter Schluss); Fläche mit
+# vorgegebener Stammfunktion (2020-be-gk) gegen vorgegebenen Flächenterm
+# (2025-ea-B); größte Änderungsrate eines Bestands (2019-be-gk) gegen
+# maximale Rate einer Ratenfunktion (2026-ga-B, Lauf 11).
+ZUSAMMEN_21 = {
+    "Maximum einer Gewinnfunktion über die Ableitung berechnen":
+        "Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen",
+    "Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben":
+        "Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben",
+    "Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen":
+        "Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen",
+    "Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen":
+        "Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen",
+    "Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren":
+        "Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren",
+    "Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen":
+        "Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren",
+}
+NEUE_DEFINITION_21 = {
+    "Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen":
+        "Den größten Wert einer ganzrationalen Modellfunktion (maximale Höhe, größter Gewinn – die Gewinnfunktion "
+        "gegebenenfalls zuvor als Differenz von Erlös und Kosten aufgestellt) über die Nullstellen der Ableitung mit "
+        "hinreichender Bedingung oder Auswahl im zulässigen Bereich berechnen und die Stelle im Sachzusammenhang deuten.",
+    "Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben":
+        "Aus einer faktorisiert vorgegebenen Ableitung die Nullstellen ablesen und als Stellen mit waagerechter Tangente "
+        "bzw. als mögliche Extremstellen (notwendige Bedingung, ohne hinreichende Prüfung) angeben.",
+    "Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen":
+        "In einem zwei- oder dreistufigen Experiment (auch mit Abbruch nach dem ersten Treffer) die Wahrscheinlichkeit für "
+        "mindestens einmal oder höchstens einmal über das Gegenereignis (kein Treffer bzw. lauter Treffer) berechnen oder "
+        "nachweisen, ersatzweise über die Summe der Pfade; die Stufen können eine Weiche haben.",
+    "Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren":
+        "Aus dem allgemeinen Ansatz zweiten Grades (oder der Scheitelpunktform) die Koeffizienten über ein Gleichungssystem "
+        "aus Wert- und Steigungsbedingungen bestimmen; Punkte, Nullstellen, Scheitel (Wert und Ableitung null) und eine "
+        "Tangentengleichung (Wert und Steigung an der Berührstelle) sind solche Bedingungen, welche vorliegen, steht in der Zeile.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1240,6 +1303,7 @@ LAEUFE = {
     18: ({}, {}, {}, {}),
     19: ({}, ZUSAMMEN_19, NEUE_DEFINITION_19, {}),
     20: ({}, {}, {}, {}),
+    21: ({}, ZUSAMMEN_21, NEUE_DEFINITION_21, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
