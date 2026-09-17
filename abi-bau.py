@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.11 · 17.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, abi.md v0.26, abitur-abgleich.py v0.23 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+Version 0.12 · 17.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, abi.md v0.26, abitur-abgleich.py v0.24 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 0.11 (Auftrag G, Punkt 2, 17.09.2026): Versionsbindung
+(abitur-abgleich.py v0.24); sonst unverändert.
 
 Änderungen gegenüber 0.10 (Auftrag F, Punkt 2, 17.09.2026): Das Abgleichskript
 heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py); nur Text in Kopf,

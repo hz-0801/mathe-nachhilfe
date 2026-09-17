@@ -1,6 +1,6 @@
 # FHR – Typenbibliothek
 
-Erzeugt am 2026-09-12 von `fhr-typenbibliothek.py v0.1` aus `fhr-katalog.csv` (253 Zeilen, 16 Hefte, Punktsumme 1120) und `fhr-typen.csv` (135 Typen).
+Erzeugt am 2026-09-17 von `fhr-typenbibliothek.py v0.2` aus `fhr-katalog.csv` (253 Zeilen, 16 Hefte, Punktsumme 1120) und `fhr-typen.csv` (135 Typen).
 
 **Diese Datei wird abgeleitet und nie von Hand geändert** (konzept.md § 2). Nach jeder Katalogänderung mit dem Skript neu erzeugen; Korrekturen gehören in den Katalog, nicht hierher.
 

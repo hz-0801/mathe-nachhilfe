@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """fhr-typenbibliothek.py – erzeugt fhr-typenbibliothek.md aus dem Katalog.
-Version 0.1 · 12.09.2026 · Profil fhr · gilt mit katalog-prompt.md v0.3 und fhr.md v1.5
+Version 0.2 · 17.09.2026 · Profil fhr · gilt mit katalog-prompt.md v0.9 (Schema-Version 2, unverändert seit v0.3) und fhr.md v1.8 (Themenliste § 6 unverändert seit v1.5)
+
+Änderungen gegenüber 0.1 (Auftrag G, Punkt 2, 17.09.2026): Versionsbindung; Ausgabe
+bis auf die Kopfzeile (Datum, Skriptversion) byteidentisch zu 0.1.
 
 Die Bibliothek wird abgeleitet, nie von Hand geändert (konzept.md § 2). Nach jeder
 Katalogänderung neu erzeugen:
@@ -40,7 +43,7 @@ import csv, io, os, sys, collections, datetime
 KAT = "fhr-katalog.csv"
 TYP = "fhr-typen.csv"
 AUS = "fhr-typenbibliothek.md"
-SKRIPT = "fhr-typenbibliothek.py v0.1"
+SKRIPT = "fhr-typenbibliothek.py v0.2"
 
 # Reihenfolge der Leitideen und Themen nach fhr.md Abschnitt 6.
 THEMEN = [

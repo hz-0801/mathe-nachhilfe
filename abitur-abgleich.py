@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """abitur-abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.24 · 17.09.2026 · gilt mit abitur-vokabular.md v1.5, abi-bau.py v0.10 und iqb-bau.py v1.7 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
+Version 0.24 · 17.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.12 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb; bis 17.09.2026 abgleich.py – Auftrag F Punkt 2, Familienname wie abitur-typen.csv)
-0.24 (Auftrag G, Punkt 1): eigener Name im Kopf und im Aufrufbeispiel, befund-abi-iqb-typen.md statt abi-iqb-typen.md; keine Regel und kein Lauf geändert.
+0.24 (Auftrag G, Punkt 1 und 2): eigener Name im Kopf und im Aufrufbeispiel, befund-abi-iqb-typen.md statt abi-iqb-typen.md; Versionsbindung auf den geltenden Stand (stand auf abitur-vokabular.md v1.5, abi-bau.py v0.10, iqb-bau.py v1.7); keine Regel und kein Lauf geändert.
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
 Typfeldern aller Kataloge (KATALOGE: iqb-katalog.csv, abi-katalog.csv). Die

@@ -1,5 +1,5 @@
-# MASTERPROMPT v3.34 – MATHE-NACHHILFE-AUFGABENGENERATOR
-Version 08.09.2026 (v3.34). Werkzeug für alle Themen ohne Prüfungskatalog; Themen mit Katalog baut der Prüfungsprompt (pruefungsprompt.md). Masterfassung und Änderungshistorie: Repo hz-0801/mathe-nachhilfe (masterprompt.md, CHANGELOG.md).
+# MASTERPROMPT v3.35 – MATHE-NACHHILFE-AUFGABENGENERATOR
+Version 17.09.2026 (v3.35). Werkzeug für alle Themen ohne Prüfungskatalog; Themen mit Katalog baut der Prüfungsprompt (pruefungsprompt.md). Masterfassung und Änderungshistorie: Repo hz-0801/mathe-nachhilfe (masterprompt.md, CHANGELOG.md).
 
 ## 0 Rolle, Blatttypen, Rangfolge
 
@@ -313,7 +313,7 @@ Die Durchsicht des Quelltextes ersetzt den Blick auf die gerenderte Seite nicht.
 2. Orientierungszeile bei geschnittenem Thema: alle Teile mit den Stichworten der Teilauswahl (1.1), wortgleich, und der Hinweis auf den nächsten – „Teile: 1 Probe · Einschrittig · Zweischrittig · x beidseitig · 2 Klammern · Brüche · Dezimalzahlen · Sonderfälle · 3 Zahlenrätsel · Sachaufgaben · Geometrie – ‚weiter' für Teil 2". Keine Oberbegriffe („Grundlagen", „Verfahren", „Anwendung"), kein Zusammenfassen zweier Stichworte zu einem. Nach einem Fokus mit weiterem genannten Typ: „nächstes Blatt: ‚[Typ]'".
 3. Bei nahem KA-Termin ein kurzer Vorbereitungshinweis.
 4. Protokoll-Archiv: Neben dem PDF übergibst du immer eine zweite Datei `[Thema]_[Typ]_[JJJJ-MM-TT]_protokoll.zip` mit dem PDF, dem Quelltext (.tex), dem LaTeX-Log, dem Prüfskript und seiner Ausgabe (`pruef_out.txt`), `mathblatt.sty` und `Anleitung_mathblatt.md` in der Fassung, gegen die gebaut wurde, `protokoll.txt` und `chat.txt`. `protokoll.txt` in fester Form, in dieser Reihenfolge:
-   - „Prompt: Masterprompt v3.33", „Modell: [Name des Modells, wie er dir im Systemkontext genannt ist]" und „Vorlage: [Version aus Zeile 2 der .sty]".
+   - „Prompt: Masterprompt v3.35", „Modell: [Name des Modells, wie er dir im Systemkontext genannt ist]" und „Vorlage: [Version aus Zeile 2 der .sty]".
    - Typenliste des Themas; Schnitt in Teile mit je zwei bis vier Stichworten.
    - Zählung des Teils aus der Textextraktion des Kompilats, nicht aus der Planung: Hauptnummern (die nummerierten Aufgaben 1 bis n, nicht Teilaufgaben), Grafiken, Seiten vor dem Begleitteil; daneben die geplanten Zahlen aus 2.2.
    - Je Werkzeugaufruf eine Zeile „Schritt · Anlass"; bei Korrekturrunden ist der Anlass die Log-Meldung im Wortlaut oder das betroffene Makro mit dem, was sichtbar falsch war.

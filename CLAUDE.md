@@ -18,7 +18,7 @@ Regelwerk (lesen, nicht ohne Anlass ändern):
 
 | Datei | Rolle |
 |---|---|
-| `konzept.md` | Gesamtkonzept: Ziel, Bausteine, Entscheidungen 1–33, Verworfenes. Getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt. |
+| `konzept.md` | Gesamtkonzept: Ziel, Bausteine, Entscheidungen (§ 4), Verworfenes. Getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt. |
 | `katalog-prompt.md` | Kern der Erfassungsmethode (v0.9, Schema-Version 2): Zeilenregel, 37 Felder mit Kopfzeile, Formvokabular, Handlung je format (§ 5), Vorrang des Amtlichen für niveau_geschaetzt (§ 5), Markierungen in bemerkung („Dublette von:", Vormerkung „Poolaufgabe (nicht erfasst):" als Vorstufe des Verweises und Übergangszustand, „Abgewandelt von:", „Traegerbindung: Kontext"), Prüfung mit Selbstprüfung als Bedingung eines vollständigen Profils (§ 7), Ausgabe je Heft. Prüfungsunabhängig; Etikettenänderungen nur im Abgleichlauf (§ 6, § 9). |
 | `abi.md` | Profil abi (v0.26): Prüfung, Basis-URL, Heftaufbau, Kürzel und id-Muster, Sachgebiete (`leitidee`), Verweis auf das Vokabular, Besonderheiten beim Erfassen, Beispielzeilen, Offenes. **Bei Widerspruch zum Kern gilt das Profil.** |
 | `abi-quellen.md` | Verzeichnis, Dateinamen, papier-Kürzel und Seitenzahlen der Hefte; § 8 lokaler Heftordner hefte/ mit Erfassungsstand. |
@@ -63,7 +63,7 @@ Grundlage: `katalog-prompt.md` § 3–8, konkretisiert durch `abi.md` § 4 und �
 
 ## 4 Profil iqb – was anders ist
 
-Regelwerk: `iqb.md` (Profil, bei Widerspruch zum Kern gilt es), `abitur-vokabular.md` (gemeinsam mit abi), `iqb-quellen.md` und `iqb-quellen.csv` (alle 624 Kennungen mit Zerlegung, papier, Stapel, Seitenzahl und Dublettenverweis; erzeugt von `iqb-quellen.py`, `iqb-bau.py` liest die CSV). Arbeitsdateien: `iqb-bau.py`, `iqb-katalog.csv`, `abitur-typen.csv` (gemeinsam mit abi, bis 15.09.2026 `iqb-typen.csv`), `iqb-pruefungen.md` (Stapelliste, Befunde, Änderungslog). Entscheidungen: `konzept.md` Nr. 23–25.
+Regelwerk: `iqb.md` (Profil, bei Widerspruch zum Kern gilt es), `abitur-vokabular.md` (gemeinsam mit abi), `iqb-quellen.md` und `iqb-quellen.csv` (alle 624 Kennungen mit Zerlegung, papier, Stapel, Seitenzahl und Dublettenverweis; erzeugt von `iqb-quellen.py`, `iqb-bau.py` liest die CSV). Arbeitsdateien: `iqb-bau.py`, `iqb-katalog.csv`, `abitur-typen.csv` (gemeinsam mit abi, bis 15.09.2026 `iqb-typen.csv`), `iqb-pruefungen.md` (Stapelliste, Befunde, Änderungslog). Entscheidungen: `konzept.md` § 4.
 
 - **Ein Stapel je Lauf statt ein Heft.** Eine Poolaufgabe ist kein Heft; die Einheit ist der Stapel = Prüfungsteil eines Pooljahrs auf einem Niveau (Spalte `stapel`, z. B. `2026-ga-A`, 10–20 Dateien, 25–50 Zeilen). Der Lehrer nennt ihn („2026 ga", „weiter" = nächster in `iqb-pruefungen.md` § 2). Reihenfolge: Teil A vollständig, jüngstes Jahr zuerst, grundlegend vor erhöht, Beispielaufgaben zuletzt; Teil B liegt.
 - **Holen und lesen.** Je Datei `curl` nach `iqb-quellen.md` § 4, zwei Seiten in Teil A. Neben `iqb-bau.py` liegen dieselben Dateien wie bei abi (§ 2 Schritt 5), dazu `iqb.md` und `iqb-quellen.csv`. Die Datei enthält Aufgabe, Erwartungshorizont, Standardbezug und Bewertungshinweise. Formeln sind Bilder: jede Seite rendern. Reihenfolge je Aufgabe: Aufgabe lesen und `niveau_geschaetzt` festlegen, erst dann Erwartungshorizont und Standardbezug lesen (`iqb.md` § 7).

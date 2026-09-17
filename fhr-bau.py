@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """fhr-bau.py – Gerüst für die Erfassung eines Hefts im Profil fhr.
-Version 0.3 · 17.09.2026 · gilt mit katalog-prompt.md v0.8 und fhr.md v1.7
+Version 0.4 · 17.09.2026 · gilt mit katalog-prompt.md v0.9 und fhr.md v1.8
+
+Änderungen gegenüber 0.3 (Auftrag G, Punkt 2, 17.09.2026): Versionsbindung auf
+Kern v0.9 und fhr.md v1.8 (stand auf v0.8 und v1.7; Schema und Themenliste
+unverändert); sonst unverändert.
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles darunter
 bleibt unverändert und prüft nach Kern Abschnitt 7.
