@@ -73,32 +73,105 @@ Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
 
 ## 4 Entscheidungen
 
+Je Entscheidung stehen seit dem 17.09.2026 (Auftrag D, Teil 5) zwei Zeilen
+darunter: **Zahl** – die tragende Zahl mit Fundstelle, oder „keine", wenn die
+Entscheidung eine Setzung ist –, und **Kippt bei** – der Befund, bei dem sie
+zu überdenken wäre. Die Entscheidungen 27–31 sind dabei aus den Profilen
+nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
+
 1. Die Einheit ist der Aufgabentyp, nicht die Aufgabe. Ein Typ ist eine Fertigkeit, die man als Einheit übt. Das Original ist Muster und Messlatte.
+    Zahl: Vorkommen je Typ – fhr 3,61 (487 Vorkommen über typ und typ_neben auf 135 Typen, fhr.md § 9), Abitur 1,69 Zeilen je Typ (2237 Zeilen auf 1323 Typen, abgleich.py Lauf 23); im Abitur ist die Einheit für den Blattbau deshalb der Schnittwert (Entscheidung 24), der Typ bleibt Feinetikett.
+    Kippt bei: einer Prüfungsart, in der auch der Schnittwert unter etwa 1,5 Zeilen bleibt – dann trägt keine Einheit eine Kette aus mehreren Originalen, und das Blatt müsste vom Thema ausgehen.
 2. Auf dem Blatt gibt es drei Sorten Aufgaben: hinführende (leichter, eigene Struktur), die Originalfassung (Struktur und Wortlaut des Originals, neue Werte, leicht umformuliert) und weitere Varianten desselben Typs (gleiche Struktur, anderer Kontext). Struktur ändern nie – dann ist es ein anderer Typ. Auffüllende Aufgaben nach didaktischem Bedarf.
+    Zahl: keine – Setzung der Blattform (blatt-konzept.md); bisher kein Blatt aus einer Katalogzeile gebaut (§ 3, Offen).
+    Kippt bei: Testblättern, in denen hinführende Aufgaben ohne Katalogzeile nicht baubar sind oder die Originalfassung den Schüler ohne Hinführung überfordert – dann braucht der Katalog Vorstufenzeilen, die er nach Entscheidung 11 nicht hat.
 3. Decke ist das Original. Über das Prüfungsniveau geht kein Blatt hinaus.
+    Zahl: fhr 29 von 135 Typen ohne Vorkommen ab 2023, darunter beide Fundstellen des Themas Erwartungswert (fhr.md § 9) – deshalb ist die Decke das Original mit den meisten Merkmalen, nicht das jüngste.
+    Kippt bei: einem Formatwechsel, der den Bestand entwertet (P10 ab 2028: hilfsmittelfreier Teil, 50 statt 60 BE, vorgaben.md) – dann kommt die Decke aus Musteraufgaben, nicht aus dem Bestand.
 4. Progression je Typ: hinführen, Anker, halten – nach dem Muster der Progressionsregeln aus dem Masterprompt (jede Hauptnummer beginnt leicht, endet auf Prüfungshöhe).
+    Zahl: keine – übernommen aus dem Masterprompt (Progressionsregeln), ohne Messung.
+    Kippt bei: Testblättern, bei denen die Progression je Typ nicht trägt (zu wenige Originale je Typ: fhr 49 von 135 Typen mit genau einem Vorkommen, fhr.md § 9).
 5. Keine Quellenangabe im Heft, auch nicht im Begleitteil; Herkunft (Jahr, Aufgabe) nur im Protokoll-Archiv (blatt-konzept.md v0.4).
+    Zahl: keine – Setzung.
+    Kippt bei: dem Wunsch des Lehrers, am Blatt den Rückweg ins Original zu haben; dann genügt das Protokoll-Archiv nicht mehr.
 6. Lösungen nach Aufgabensorte: Basis → Ergebnis; Kontext → Ergebnis mit Zwischenergebnissen; Original → knapper Lösungsweg mit Stichwort je Schritt, kein Text. Ergebnisse prüft das Skript, Lösungswege sind ungeprüft und deshalb knapp. Punkte stehen im Katalog (blatt-konzept.md v0.2).
+    Zahl: keine – Setzung nach blatt-konzept.md v0.2; Skriptprüfung der Ergebnisse ist im Katalog Regel (Kern § 3 d), Lösungswege bleiben ungeprüft.
+    Kippt bei: einer Skriptprüfung, die auch Lösungswege prüft – dann dürfen Lösungswege länger werden.
 7. Kein Log je Schüler. Wiederholung steuert der Lehrer; jedes Blatt hat neue Werte, eine ungeplante Wiederholung schadet nicht.
+    Zahl: keine – Setzung.
+    Kippt bei: mehr als einem Schüler je Prüfungsart oder bei Wiederholungen, die dem Lehrer entgehen.
 8. Keine Reserveprüfung. Für den Abschlusstest nimmt der Lehrer die Prüfung, die er am wenigsten verwendet hat.
+    Zahl: Bestand je Prüfungsart – msa 12 Hefte (pruefungen.md), fhr 16, abi 16, iqb 37 Stapel; genug, um eines auszusparen, ohne es festzulegen.
+    Kippt bei: einer Prüfungsart mit weniger als drei Heften.
 9. Häufigkeit ist Auskunft, keine Priorität und kein Filter. Ein einziges Vorkommen ist ein vollwertiger Typ. Der Rahmenlehrplan setzt den Rahmen dessen, was kommen kann; er ist Hintergrund, keine Quelle für Typen.
+    Zahl: fhr 49 von 135 Typen genau einmal, 27 zweimal (fhr.md § 9); Abitur 1,69 Zeilen je Typ – die Mehrheit der Typen hätte bei einer Häufigkeitsschwelle keine Zeile.
+    Kippt bei: Abgleichläufen, die regelmäßig mehr als ein Zehntel der Einmaltypen zusammenziehen – dann wären Einmaltypen Erfassungsartefakte, keine Fertigkeiten (bisher: Lauf 12 938 → 875 als Umstellung, sonst 0–9 je Lauf, abi-pruefungen.md § 5).
 10. Katalog vor Blatt: Alle Hefte werden einmal vollständig erfasst; Blätter entstehen nur aus dem Katalog. Die Hefte selbst holt der Blatt-Prompt nur für Wortlaut oder Bild einer Ankeraufgabe.
+    Zahl: Markdown-Prüfung 529 von 529 Teilaufgaben strukturgleich mit dem Katalog, 451 Ergebnisse nachgerechnet, 2 Abweichungen (abi-pruefungen.md § 4, Teil 1 des Auftrags C) – der Katalog trägt alles Strukturelle, das Heft wird nur für Wortlaut und Bild gebraucht.
+    Kippt bei: einem Blattbau, der regelmäßig über die Ankeraufgabe hinaus ins Heft muss – dann wäre der Katalog unvollständig, nicht das Blatt falsch.
 11. Der Katalog erfasst Fakten, nicht Nutzung: Zeile = kleinste Einheit mit eigener Punktangabe; Fakten getrennt von Deutung; Nachbau-Test als Erfolgskriterium; kein Volltext, sondern Verweis plus Strukturbeschreibung. Spätere Wünsche sind Umsortieren, im Ausnahmefall ein Nachtragslauf für ein Feld, nie ein Neustart.
+    Zahl: dieselben 529 von 529 und 2 von 451 (Entscheidung 10); Nachtragsläufe für ein Feld: Lauf 5 (Trägerbindung), 14/15/18/23 (Poolverweise), 20 (Vorrang des Amtlichen), 22 (afb_amtlich) – nie ein Neustart.
+    Kippt bei: einem Nachbau-Test, der beim ersten Blattbau an mehr als jeder zehnten Zeile scheitert; dann fehlt ein Feld, nicht eine Zeile.
 12. Kern und Profil getrennt. Erstes Profil: msa (P10 Brandenburg, Niveau FOR). Zweites Profil abi (Abitur Brandenburg) folgt nach den MSA-Heften in eigenem Chat; Dateinamen mit Präfix abi-. Weitere Profile erst bei Bedarf; Vokabular und Häufigkeit gelten nie über Profile hinweg.
+    Zahl: ergänzt durch Entscheidung 25 – abi und iqb teilen Vokabular und Typenliste (348 von 1323 Typen in beiden Katalogen, Selbstprüfung 17.09.2026); über Prüfungsarten hinweg bleibt es bei getrennten Listen (befund-typenlisten.md § 4: 16 von 26 gemeinsamen Fertigkeiten gleich geschnitten, 8 verschieden).
+    Kippt bei: einem Themenkatalog (§ 3), der gleiche Themennamen über alle Prüfungsarten braucht – dann Vorschlag 3 in befund-typenlisten.md § 3; die Typen bleiben auch dann getrennt.
 13. Vokabular in drei Ebenen: Leitidee und Thema fest im Profil (aus Rahmenlehrplan, Fachbrief-Inhaltsliste, Lehrwerkgliederung), Typ wächst aus den Heften in typen.csv, Abgleichlauf nach dem letzten Heft. Der Lehrer sieht die fertige Typenliste einmal durch; das ist optional.
+    Zahl: Abitur 3 Sachgebiete, 49 Themen, 1323 Typen, 8 Themen mit Gegenstandsklassen (abitur-vokabular.md); Zeilen mit „ersatzweise" 0 in den letzten Stapeln (iqb-pruefungen.md § 2, Schwelle 10 %).
+    Kippt bei: mehr als 10 % Zeilen mit „ersatzweise" in einem Lauf – dann passt die Themenliste nicht, nicht die Erfassung (SCHWELLEN in den Bau-Skripten).
 14. Zwei Katalogdateien, Basis und Kontext, gleiches Schema; eine Typenliste.
+    Zahl: msa 126 Basis- und 267 Kontextzeilen in zwei Dateien; abi und iqb eine Datei mit Feld block (abi.md § 2: eine zweite Datei legte dieselbe Information zweimal ab).
+    Kippt bei: einem msa-bau.py – dann eine Datei wie abi (namensschema.md § 5); msa blieb auf Kern v0.3 stehen.
 15. Dateiform CSV mit Semikolon; Durchsicht über eine Prüftabelle im Chat, nicht in der Datei.
+    Zahl: 2883 Katalogzeilen in fünf CSV-Dateien ohne Lesefehler; Koordinaten mit Semikolon (fhr.md § 4) sind gequotet unschädlich.
+    Kippt bei: Feldinhalten mit Zeilenumbruch oder einem Leser, der nicht CSV-konform trennt.
 16. Ergebnisse sind eigene Rechnung, per Skript geprüft; Unsicheres trägt „?". Amtliche Lösungen gibt es im Profil msa nur für die Musteraufgaben 2028; für die FHR-Prüfung enthalten die veröffentlichten Lehrerhefte den Erwartungshorizont (2026-09-07).
+    Zahl: Pool und fhr mit amtlichem Erwartungshorizont, jede Abweichung der eigenen Rechnung vermerkt (0 unbestätigte in 37 Stapeln); msa und abi eigene Rechnung – Markdown-Prüfung 2 Abweichungen in 451 nachgerechneten Ergebnissen (0,4 %, beide Rundung oder Wortlaut).
+    Kippt bei: einer Fehlerquote eigener Rechnungen über 1 % oder einer amtlichen Quelle für msa – dann gilt dort Kern § 3 d „amtliche Lösung vorhanden".
 17. Skizzen werden nicht übernommen, sondern aus dem Feld skizze mit der Vorlage neu gezeichnet; das Original-PDF ist Referenz. Foto und technische Zeichnung: Nachbau mit zeichenbarer Figur, Originalausschnitt nur als Notlösung.
+    Zahl: 94 Abbildungen im Markdown-Korpus als Referenz (abi-pruefungen.md § 4); Feld skizze in jeder Zeile mit Material (Kern § 5).
+    Kippt bei: einem Blattbau, der aus dem Feld skizze keine zeichenbare Figur baut – dann muss das Feld genauer werden, nicht das Original hinein.
 18. Bestand: Oberschulhefte 2014–2026 und Musteraufgaben 2028. Gymnasialhefte nicht (seit 2025/26 keine P10 am Gymnasium).
+    Zahl: 12 Hefte, 393 Zeilen, 185 Typen (pruefungen.md, typen.csv); Gymnasium seit 2025/26 ohne P10 (vorgaben.md).
+    Kippt bei: einem Gymnasialschüler mit zentraler Klassenarbeit (90 min, 35 BE) – das wäre eine neue Prüfungsart (§ 8), nicht ein Nachtrag.
 19. Amtliche Vorgaben (Fachbriefe, Rundschreiben) werden gesondert in vorgaben.md geführt, mit einem jährlichen Check als eigenem Schritt. Der Katalog-Prompt liest sie nicht.
+    Zahl: Corona-Ausschlüsse 2021–2023 (vorgaben.md) sind Vorgabe, kein Trend; der Katalog liest sie nicht.
+    Kippt bei: Vorgaben, die den Katalog filtern müssen – dann werden sie Geltung (Teil 2 des Auftrags D zeigt den Weg: eine Datei je Zielprüfung, von den Skripten gelesen).
 20. Die PDF-Pipeline aus dem Masterprompt (mathblatt.sty, xelatex, Skriptprüfung, Ausgabeblock) bleibt für die Blätter.
+    Zahl: keine – Setzung (Blattbau).
+    Kippt bei: einem Wechsel der Vorlage oder der Umgebung, die Code ausführt (§ 6, Tokenverbrauch).
 21. Versteckte Leistungen in einer Einheit bleiben eine Zeile; alle Leistungen werden in gesucht, ergebnis, format, typ und typ_neben erfasst; Punkte werden nicht geschätzt aufgeteilt.
+    Zahl: 2018-bb-ea 22 von 60 Typen nur in typ_neben (abi.md § 7); Punkte nie geteilt, Aufteilung wörtlich in bemerkung.
+    Kippt bei: einem Blattbau, der Nebenleistungen als eigene Ankeraufgaben braucht – ein Typ ohne Haupttyp-Vorkommen hat keine Decke; bisher wird die Ankeraufgabe auf die Teilleistung zugeschnitten (abi.md § 7).
 22. Arbeitsweise Schritt für Schritt: Claude liefert Dateien mit Pfad und Namen, der Lehrer legt sie ab und meldet sich; dann nennt Claude den nächsten Schritt. Aufwendige Aktionen werden vorher angekündigt.
+    Zahl: keine. Seit dem 13.09.2026 (CLAUDE.md) arbeitet Claude im Repo: ein Commit je Heft, Stapel oder Lauf nach bestandener Selbstprüfung, Push beim Lehrer – die Ablage durch den Lehrer entfällt, die Ankündigung aufwendiger Aktionen bleibt.
+    Kippt bei: einer Umgebung ohne Repo-Zugriff – dann wieder Dateien mit Pfad und Namen.
 23. Eigenes Profil iqb für den Aufgabenpool des IQB (2026-09-13), nach dem Muster von fhr: gleicher Kern, eigenes Profil, eigene Katalogdatei, eigene Typenliste. Grund: Der Pool ist länderneutral und passt nicht in das abi-Kürzel Jahr-Land-Niveau. Der Pool liefert Typen und eicht über den Standardbezug die Niveauschätzung; die Landeshefte bleiben das Formatmodell. Zusammengeführt wird über die Typen, nicht über die Dateien. Reihenfolge: Prüfungsteil A vollständig, dann Teil B. Einheit des Laufs ist der Stapel (Prüfungsteil eines Pooljahrs auf einem Niveau); die Qualitätsschranke sitzt im Bau-Skript (Schwellenwerte für „?", neue Typen, fehlende Themen), nicht im Urteil des Lehrers, der keine Berichte liest. afb_amtlich trägt alle im Standardbezug vorkommenden Bereiche; die Eichung vergleicht mit dem höchsten.
+    Zahl: Poolquote der Landeshefte (BE wortgleich im Pool, abi-pruefungen.md § 2) – GK 2018 22 %, 2019 19 %, 2020 8 %, 2021 20 %, 2022 39 %, 2023 16 %, 2024 35 %, 2025 80 %, 2026 80 %; LK 2022 45 %, 2023 48 %, 2024 61 %, 2025 69 %, 2026 77 %; Eichung über den Poolbestand 1357 von 1442 (94 %); Landesverwendung 344 Dubletten, 24 abgewandelte (Lauf 23).
+    Kippt bei: einer Poolquote dauerhaft unter 20 % (die Länder verlassen den Pool) – dann wären die Landeshefte wieder Typenquelle erster Ordnung und der Pool nur Eichmaß.
 24. Schnitt für Teil A des Pools: Thema × Gegenstandsklasse × Handlung (2026-09-13). Grund: Der Typ nach Kern § 6 ist für die Kurzaufgaben des Teils A so fein, dass fast jede Zeile ihr eigenes Etikett trägt (1,1 Zeilen je Typ nach sechs Stapeln, Wiederverwendung im Niveau 3–7 %); das Thema allein wirft Ungleiches zusammen (Matrizen: Verflechtung, Übergangsprozesse, Matrizenalgebra). Die Zwischenstufe trennt diese Fälle (Messung 13.09.2026: 114 Werte auf 197 Zeilen, Wiederverwendung im Niveau 38–47 %) und bündelt, was als Kette taugt. Umsetzung ohne neues Feld: Die Gegenstandsklasse steht als Präfix vor dem Doppelpunkt im Typnamen, die Klassenliste je Thema in iqb.md § 6; Themen, die selbst der Gegenstand sind, führen keine Unterklasse; die Handlung kommt aus format. Der Typ nach Kern § 6 bleibt als Feinetikett hinter dem Präfix; Umbenennungen und Zusammenziehungen laufen über iqb-abgleich.py (Kern § 9). Der Kern bleibt unverändert; für den Blattbau in Teil A zählt der Schnitt, nicht der Feintyp.
+    Zahl: 1,73 Zeilen je Schnittwert gegen 1,08 je Typ (Bestand 197 Zeilen, iqb-pruefungen.md § 4 „Zwischenstufe durchgerechnet"; grober Schnitt Thema × Handlung 2,37); Wiederverwendung im Niveau 38–47 % gegen 3–7 %; heute je Teil-B-Stapel 20–53 Werte, in den ersten beiden Stapeln 68–71 % der Zeilen auf bekannten Werten, seitdem 81–98 % (iqb-pruefungen.md § 2).
+    Kippt bei: einem Bestand, in dem der Schnittwert selbst auf unter 1,3 Zeilen fällt, oder Testblättern, die das Feinetikett als Kette brauchen.
 25. Gemeinsame Typenliste für abi und iqb, abi auf dem Typenschnitt nach Entscheidung 24 (2026-09-15). Grund: Die Messung (abi-iqb-typen.md) zeigte, dass 92 % der abi-Zeilen auf Schnittwerten liegen, die der Pool schon hat, und 36 % der abi-Typen ein inhaltsgleiches iqb-Gegenstück haben; die Landeshefte ab 2019 (Stark-Scans) nehmen Poolaufgaben auf. Umsetzung: abitur-vokabular.md als eine Quelle für Sachgebiete, Themenliste, Geltungstabelle, Gegenstandsklassen und Handlungen (abi.md und iqb.md verweisen darauf und führen nur Profilspezifisches); abitur-typen.csv als gemeinsame Typenliste mit beispiel_id in einem der beiden Kataloge; die Kataloge bleiben getrennt (abi-katalog.csv, iqb-katalog.csv); abgleich.py zieht beide Kataloge mit; abi-bau.py auf dem Stand von iqb-bau.py (Präfixregel, Schwellen, Eichung, Vollständigkeit). Pool-Teilaufgaben in Landesheften bekommen eine eigene abi-Zeile mit geteiltem Typ und dem Verweis „Dublette von: <iqb-id>" in bemerkung – kein bloßer Verweis ohne Zeile, kein neues Feld im Kern. Umstellungslauf 12: 938 → 875 Typen, 75 abi-Zeilen und 5 iqb-Zeilen umetikettiert (abi-pruefungen.md § 4). Der Kern bleibt unverändert; seine Sätze „Leitidee und Thema stehen im Profil" gelten über den Verweis des Profils.
+    Zahl: 92 % der abi-Zeilen auf Pool-Schnittwerten, 36 % der abi-Typen mit iqb-Gegenstück (abi-iqb-typen.md, 15.09.2026); heute 348 von 1323 Typen in beiden Katalogen, 344 Landeszeilen mit „Dublette von:" (Selbstprüfung und Lauf 23, 17.09.2026).
+    Kippt bei: einem Anteil geteilter Typen unter 10 % (Landeshefte ohne Poolanteil) – dann wäre die Liste zwei Listen in einer.
 26. Zeilenthema = Typthema für abi und iqb, Schnitt über das Thema des Typs (2026-09-16). Grund: 21 Zeilen (13 abi, 8 iqb) trugen ein anderes Thema als ihr Typ; der Schnitt des Gesamtbestands hing damit von der gezählten Spalte ab (189 gegen 183 Werte) – sechs Werte Unterschied bei einem Abbruchkriterium, dessen Schwelle bei fünf liegt. Tragen Zeile und Typ verschiedene Themen, ist eines von beiden falsch; der Schnittwert ist dann nicht definiert. Umsetzung: Lauf 13 von abgleich.py löst die 21 Fälle auf (18 Zeilen folgen dem Typ, drei Typen wechseln das Thema, ihre Zeilen folgen), beide Bau-Skripte erzwingen die Gleichheit für neue Zeilen und im Bestand, abgleich.py prüft sie nach jedem Lauf; die Regel steht in abitur-vokabular.md § 4. Die Teil-B-Reihen (grundlegend 7/3/2/2, erhöht 9/0/7/4/3) sind nachgerechnet und unverändert, keine Abbruchentscheidung kippt. Kern v0.4 zieht nur Text nach (Vokabulardatei vorgesehen, Etikettenänderungen im Abgleichlauf, Handlung je format in § 5, Markierungen in bemerkung); msa und fhr bleiben unberührt, fhr behält seine Regel Punkt-Schwerpunkt (fhr.md § 6).
+    Zahl: 21 Zeilen (13 abi, 8 iqb) mit anderem Thema als ihr Typ; Schnitt 189 gegen 183 Werte je nach Spalte – Differenz 6 bei einer Abbruchschwelle von 5 (abi-pruefungen.md § 4, Lauf 13).
+    Kippt bei: Zeilen, die zwei Themen gleichwertig tragen, häufiger als die „ersatzweise"-Schwelle (10 %); bisher 0 seit Lauf 13, weil beide Skripte die Gleichheit erzwingen.
+27. MMS/CAS als Delta zum WTR-Zweig (2026-09-15, iqb.md § 7; für abi: abi.md § 3, CAS und MMS sind dieselbe Sache unter wechselndem Namen). Die Fassung ohne MMS ist der Hauptzweig; ein MMS-Stapel erfasst nur die nicht wortgleichen Dateien und zählt nicht in die Abbruchreihe.
+    Zahl: Delta-Messung 2026-ga-B-mms 1 neuer Schnittwert in der Geltung, 2026-ea-B-mms 0, 2025-ea-B-mms 0 (iqb.md § 6, iqb-pruefungen.md § 4); 69 % der MMS-Zeilen auf Schnittwerten des WTR-Zwillings, 3 von 7 Dateien wortgleich (iqb.md § 7).
+    Kippt bei: einem MMS-Stapel mit fünf oder mehr neuen Schnittwerten in der Geltung – dann wäre MMS ein eigener Zweig, kein Delta.
+28. Abbruchkriterium der Erfassung (2026-09-14, iqb.md § 6): je Stapel die Zahl neuer Schnittwerte innerhalb der Geltung; unter fünf heißt ausgereizt, der Rest ist Reserve. Reserve-Stapel werden nur für Landesheftverweise geöffnet (Entscheidung 29).
+    Zahl: Teil A ausgereizt nach 18 Stapeln; Teil B grundlegend 7 → 3 → 2 → 2, erhöht 9 → 0 → 7 → 4 → 3 (iqb.md § 6); die für Landesheftverweise geöffneten Reserve-Stapel brachten 0, 1, 0, 1 neue Werte (2020-ga-B, 2021-ga-B, 2025-ea-B-mms, 2019-ga-B; iqb-pruefungen.md § 4).
+    Kippt bei: einem Reserve-Stapel mit fünf oder mehr neuen Werten – dann war die Reihe nicht ausgereizt und die Reserve ist zu öffnen; ebenso bei einer neuen Zielprüfung (§ 9), gegen die die Reihe neu zu rechnen ist.
+29. Vormerkung als Übergangszustand und Reserve für Landesheftverweise (2026-09-16, abi.md § 7, iqb.md § 7): Eine Poolaufgabe aus einem nicht erfassten Stapel wird im Landesheft als „Poolaufgabe (nicht erfasst): <id>" vorgemerkt, der Stapel darf dafür erfasst werden, ohne dass das Abbruchkriterium fällt, und ein Abgleichlauf stellt den Vermerk auf „Dublette von:" oder „Abgewandelt von:" um.
+    Zahl: 35 Vormerkungen aus fünf Heften (Auftrag B), alle in Auftrag C aufgelöst – vier Reserve-Stapel, 23 Dubletten, 12 abgewandelte (abi-pruefungen.md § 4, Lauf 23); Landesverwendung insgesamt 344 Dubletten, 24 abgewandelte.
+    Kippt bei: einem Landesheft mit Poolanteil aus einem Stapel, der nicht erfasst werden darf oder kann – dann bliebe die Vormerkung dauerhaft, und der Verweis bräuchte eine dritte Form.
+30. Geltung je Zielprüfung (2026-09-16 Geltung je Heft, gemeinsame Hefte bebb gegen beide Spalten; 2026-09-17 eine Datei je Zielprüfung, Auftrag D Teil 2): Geltung ist eine Eigenschaft des Themas, nicht der Zeile; das Profil nennt seine Zielprüfungen, die Bau-Skripte lesen die Dateien und zählen die Zeilen außerhalb.
+    Zahl: außerhalb der Geltung im Bestand – abi be-gk 101, be-lk 5, bb-gk 96, bb-ea 0 von 794 Zeilen; iqb be-gk 316, be-lk 168, bb-gk 314, bb-ea 166 von 1443 (Selbstprüfung 17.09.2026); die Spalten je Niveau unterscheiden sich nur bei der hypergeometrischen Verteilung.
+    Kippt bei: Prüfungsschwerpunkten, die ein stark belegtes Thema (mehr als ein Zehntel der Zeilen) für ein Land streichen, oder bei einer Simulation, die einen Prüfungsteil braucht, den es in der Zielprüfung nicht mehr gibt – dann reicht die thematische Geltung nicht, und die strukturelle Geltung (abitur-vokabular.md § 3, Vorschlag; nicht entschieden) wird nötig.
+31. Vorrang des Amtlichen und Maßstab der Schätzung (2026-09-17, Kern § 5 v0.6 und v0.7): Die eigene Schätzung wird nicht an den amtlichen Bereich angepasst; eine übernommene Schätzung und eine wortgleiche Dublette folgen ihm. Die Eichung ist in jedem Profil Kennzahl, Schranke (85 %) nur für Poolstapel; bei Landesheften ist sie ausgesetzt.
+    Zahl: Landesschätzungen mit amtlichem Bereich 22 von 41 (54 %) gegen 94 % im Pool (abi-pruefungen.md § 4, Lauf 20; abi.md § 7); heute Pool 1357 von 1442 (94 %), Landeshefte 323 von 344 (93 %, geerbt) bei 450 Zeilen ohne Maßstab.
+    Kippt bei: einer Pool-Eichung unter 85 % über den Bestand (dann ist die Schätzregel des Kerns nachzujustieren) oder einer Landes-Eichung, die bei mindestens 100 eigenen Zeilen mit Maßstab 85 % erreicht (dann kann die Schranke für abi zurück).
 
 ## 5 Verworfen
 
@@ -300,6 +373,10 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag D, Teil 5): § 4 je Entscheidung „Zahl" (tragende Zahl mit
+  Fundstelle) und „Kippt bei"; Entscheidungen 27–31 (MMS als Delta,
+  Abbruchkriterium, Vormerkung und Reserve, Geltung je Zielprüfung, Vorrang
+  des Amtlichen und Maßstab der Schätzung) aus den Profilen nachgetragen.
 - 2026-09-17 (Auftrag D, Teil 4): § 8 Eine neue Prüfung aufnehmen (Fragen,
   Dateien in Reihenfolge, Wiederverwendbares, Profil oder Jahrgang) und § 9
   Andere Zielprüfung bei gleichem Bestand; Änderungen sind jetzt § 10.
