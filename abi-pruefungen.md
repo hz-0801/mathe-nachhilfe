@@ -12,7 +12,7 @@ Veröffentlicht sind nur die Jahrgänge 2011–2018. Für die Landesaufgaben
 2017/2018 gibt es keine amtlichen Lösungen; alle Ergebnisse im Katalog sind
 eigene Rechnung. Für Poolaufgaben des IQB ab Prüfungsjahr 2019 liegt der
 Erwartungshorizont vor. Amtliche Vorgaben und ihre Änderungen stehen gesondert
-in vorgaben.md.
+in abi-vorgaben.md.
 
 ## 2 Hefte im Bestand (Schnitt ab 2017)
 

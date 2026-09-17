@@ -9,7 +9,7 @@ Alle Hefte sind frei zugänglich auf dem Bildungsserver Berlin-Brandenburg. Basi
 
 `https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/Fachoberschule_BB/Pruefungsaufgaben/`
 
-Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bildungsserver.berlin-brandenburg.de/pruefungen-fos-bb`. Nachbarordner derselben Ablage: `Pruefungsschwerpunkte/` (Prüfungsschwerpunkte je Schuljahr und Fach) und `Pruefungstermine/` (Rundschreiben, zuletzt `MBJS_RS_07-26.pdf` vom 25.06.2026). Diese beiden gehören nach `vorgaben.md`, nicht in den Katalog.
+Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bildungsserver.berlin-brandenburg.de/pruefungen-fos-bb`. Nachbarordner derselben Ablage: `Pruefungsschwerpunkte/` (Prüfungsschwerpunkte je Schuljahr und Fach) und `Pruefungstermine/` (Rundschreiben, zuletzt `MBJS_RS_07-26.pdf` vom 25.06.2026). Diese beiden gehören in eine eigene Vorgaben-Datei des Profils (`fhr-vorgaben.md`, noch nicht angelegt; Muster `msa-vorgaben.md`, konzept.md Entscheidung 19), nicht in den Katalog.
 
 ## Hefte im Erfassungsumfang
 

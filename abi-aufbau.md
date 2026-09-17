@@ -170,7 +170,7 @@ Sachgebieten auf, überall punktuell.
 - Dubletten: Erfasst wird je Jahr und Niveau **eine** Leitfassung; auf erhöhtem
   Niveau bb-ea, weil sie den hilfsmittelfreien Teil enthält, auf grundlegendem
   zwangsläufig be-gk. Wortgleiche Zwillinge werden nicht als Zeile erfasst,
-  sondern in pruefungen.md notiert. Eigene Zeile nur bei abweichender Teilung –
+  sondern in abi-pruefungen.md notiert. Eigene Zeile nur bei abweichender Teilung –
   Erkennungsregel: BE-Vektor vergleichen (2018 Brillenträger ist der Fall).
 - CAS als Nachtrag, und nur für Aufgaben mit „CAS:"-Präfix.
 

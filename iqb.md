@@ -1,5 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.12 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.8 (Schema-Version 2)
+Version 1.13 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 1.12 (Auftrag F, Punkt 1): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge.
 Änderungen gegenüber 1.11 (Auftrag E, Punkt 1, 3 und 4; Punkt 4: Begriffe – Dateidublette und Aufgabendublette statt Dublette für Datei und Aufgabe, Spalte dateidublette_von, Vormerkung statt Vermerk/Vorstufe, WTR-Fassung statt WTR-Zwilling, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung; Punkt 3: unsichtbares Zeichen U+FEFF vor der ersten Beispielzeile in § 8 entfernt): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
 Änderungen gegenüber 1.10 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – ein Reserve-Stapel mit Landesheftverweisen wird

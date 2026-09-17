@@ -3,7 +3,7 @@ Stand 13.09.2026 · Profil abi (und iqb, soweit es Poolaufgaben betrifft) · ges
 
 Zweck: festhalten, was die Behörden zur Prüfung vorgeben und wann sich etwas
 geändert hat, damit der Katalog richtig gelesen wird und Formatwechsel nicht
-unbemerkt bleiben. Pendant zu vorgaben.md (Profil msa). Diese Datei ist kein
+unbemerkt bleiben. Pendant zu msa-vorgaben.md (Profil msa). Diese Datei ist kein
 Teil der Erfassung; der Katalog-Prompt liest sie nicht. Angelegt aus dem, was
 abi.md v0.5 und abi-pruefungen.md § 4 bereits festhalten; der erste vollständige
 Vorgabencheck (§ 4) steht noch aus.
@@ -19,7 +19,7 @@ Vorgabencheck (§ 4) steht noch aus.
   bzw. ps_mathematik_JJJJ_gk.pdf (2027 geholt am 13.09.2026, 8 bzw. 7 Seiten;
   Brandenburg 7 bzw. 6 Seiten). Aus den vier Papieren 2027 ist die
   Geltungstabelle in iqb.md § 6 abgeleitet.
-- Fachbriefe Mathematik Brandenburg (Liste in vorgaben.md § 1); für das Abitur
+- Fachbriefe Mathematik Brandenburg (Liste in msa-vorgaben.md § 1); für das Abitur
   einschlägig sind die Nummern mit Abschnitten zur GOST, etwa Nr. 3 (2019:
   hilfsmittelfreier Teil, Anforderungsbereiche im Erwartungshorizont).
 - Berliner Fachbriefe Mathematik Nr. 21 und 22 (Teil A/Teil B ab 2019); der dort
@@ -72,7 +72,7 @@ und Wurzelgleichungen.
 
 ## 5 Änderungen an dieser Datei
 
-- 2026-09-13: angelegt als Abi-Pendant zu vorgaben.md, aus abi.md v0.5 und
+- 2026-09-13: angelegt als Abi-Pendant zu msa-vorgaben.md, aus abi.md v0.5 und
   abi-pruefungen.md § 4 zusammengetragen; kein eigener Vorgabencheck.
 - 2026-09-13: die vier Prüfungsschwerpunkte 2027 gelesen; Geltungstabelle
   Thema × Zielprüfung in iqb.md § 6, Anmerkungen dort (Bayes/Kolmogorow nur

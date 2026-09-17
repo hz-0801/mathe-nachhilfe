@@ -35,7 +35,7 @@ Arbeitsdateien (werden je Heft geschrieben):
 | `abitur-typen.csv` | Gemeinsame Typenliste der Profile abi und iqb, `typ;leitidee;thema;definition;beispiel_id;status`; `beispiel_id` zeigt in einen der beiden Kataloge. Wächst nur über `NEUE_TYPEN` der Bau-Skripte; Umbenennungen und Zusammenziehungen nur über `abgleich.py` (beide Kataloge). |
 | `abi-pruefungen.md` | Heftliste mit Status, Befunde je Heft (§ 4), Änderungslog (§ 5). Nach jedem Heft fortschreiben. |
 
-Nicht maßgeblich für die Erfassung: `vorgaben.md` und `abi-vorgaben.md` (Fachbriefe, Prüfungsschwerpunkte, jährlicher Check, vom Katalog-Prompt nicht gelesen), `pruefungsprompt.md`/`masterprompt.md` (Blattbau, kommt später), die msa-/fhr-Dateien.
+Nicht maßgeblich für die Erfassung: `msa-vorgaben.md` und `abi-vorgaben.md` (Fachbriefe, Prüfungsschwerpunkte, jährlicher Check, vom Katalog-Prompt nicht gelesen), `pruefungsprompt.md`/`masterprompt.md` (Blattbau, kommt später), die msa-/fhr-Dateien.
 
 ## 2 Wie ein Heft erfasst wird
 

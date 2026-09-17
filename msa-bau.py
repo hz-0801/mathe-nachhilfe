@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """msa-bau.py – Gerüst für die Erfassung eines Hefts im Profil msa und Selbstprüfung des Bestands.
-Version 0.1 · 17.09.2026 · gilt mit katalog-prompt.md v0.8 und msa.md v0.4
+Version 0.2 · 17.09.2026 · gilt mit katalog-prompt.md v0.9 und msa.md v0.5
+
+Änderungen gegenüber 0.1 (Auftrag F, Punkt 1, 17.09.2026): Die Dateien des
+Profils tragen das Präfix msa- (KAT, TYP: msa-katalog-basis.csv,
+msa-katalog-kontext.csv, msa-typen.csv; namensschema.md § 4, Variante B).
+Nur die Namen, keine Prüfung geändert; Selbstprüfung byteidentisch zu 0.1.
 
 Angelegt in Auftrag E (Punkt 6, 17.09.2026). Der msa-Bestand (2014–2026, 393
 Zeilen in zwei Katalogdateien, 185 Typen) wurde ohne Skript im Chat erfasst
@@ -9,8 +14,8 @@ nach Kern § 7, damit msa denselben Weg hat wie die anderen Profile: Skript
 prüft, Skript schreibt, keine Handedits in den CSV-Dateien.
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Zwei
-Katalogdateien (msa.md § 4, Entscheidung 14): block „Basis" → katalog-basis.csv,
-block „Kontext" → katalog-kontext.csv. Leitideen und Themenliste liest das
+Katalogdateien (msa.md § 4, Entscheidung 14): block „Basis" → msa-katalog-basis.csv,
+block „Kontext" → msa-katalog-kontext.csv. Leitideen und Themenliste liest das
 Skript aus msa.md § 5 und § 6.
 
 Ist ZEILEN leer, läuft die Selbstprüfung über den Bestand (beide Kataloge
@@ -18,7 +23,7 @@ gegen Kern § 5 und msa.md, jede Typenverwendung, jede beispiel_id, kein Typ
 unbenutzt) und schreibt nichts – außer eine Feldkorrektur in TYPEN_KORREKTUR
 steht noch aus.
 
-TYPEN_KORREKTUR: Feldkorrektur an typen.csv (leitidee, thema, definition eines
+TYPEN_KORREKTUR: Feldkorrektur an msa-typen.csv (leitidee, thema, definition eines
 vorhandenen Typs). Das Profil msa hat kein Abgleichskript; die Korrektur läuft
 deshalb hier, wird einmal angewendet (Liste alt → neu im Bericht) und ist
 danach wirkungslos, weil der Zielzustand schon steht – ein erneuter Lauf
@@ -28,7 +33,7 @@ seiner ersten Fundstelle 2025-OS-K3b, weil der Kern § 6 jedem Typ leitidee und
 thema gibt; der Typ bleibt Nebentyp über alle Leitideen (Definition).
 
 Ablauf:
-  1. katalog-prompt.md, msa.md, typen.csv, katalog-basis.csv, katalog-kontext.csv
+  1. katalog-prompt.md, msa.md, msa-typen.csv, msa-katalog-basis.csv, msa-katalog-kontext.csv
      neben dieses Skript legen (aus dem Repo).
   2. KONFIG, ZEILEN, NEUE_TYPEN füllen – oder leer lassen für die Selbstprüfung.
   3. python msa-bau.py – schreibt die CSV-Dateien, gibt Prüftabelle und Bericht
@@ -82,8 +87,8 @@ TYPEN_KORREKTUR = {
     },
 }
 # ======================================================== AB HIER UNVERÄNDERT
-KAT = {"Basis": "katalog-basis.csv", "Kontext": "katalog-kontext.csv"}
-TYP = "typen.csv"
+KAT = {"Basis": "msa-katalog-basis.csv", "Kontext": "msa-katalog-kontext.csv"}
+TYP = "msa-typen.csv"
 PROFIL = "msa.md"
 KERN = "katalog-prompt.md"
 TYP_HEAD = ["typ", "leitidee", "thema", "definition", "beispiel_id", "status"]

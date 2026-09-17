@@ -14,6 +14,7 @@ Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; Vorlage und Anlei
 - 2026-09-05 v3.27: Budget mit Zähldefinition; Umgruppieren nur nach 4.3; Achtung-Hinweise nach Aufgabenart; Protokoll-Archiv als zweite Datei.
 
 ## pruefungsprompt.md (Prüfungsprompt; bis v0.7 blatt-prompt.md)
+- 2026-09-17 v0.15: Dateinamen des Profils msa mit Präfix (1.1, 1.2, 2.1, 2.2 d): typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv, katalog-kontext.csv → msa-katalog-kontext.csv (Auftrag F, Variante B nach namensschema.md). 6.3 Versionszeile nachgezogen (stand auf v0.13). Bauregeln unverändert. Die Projektanweisung im Aufgaben-Projekt ist eine Kopie und muss vom Lehrer nachgezogen werden – der Abruf in 2.1 findet die alten Namen nach dem Push nicht mehr.
 - 2026-09-08 v0.14: 2.2 Beispielzahlen in keiner Teilaufgabe; 3.2, 5.1 b, 6.3 t0 wie v3.34 (gemeinsame Abschnitte). Bauregeln unverändert.
 - 2026-09-07 v0.13: 2.2 Beispiel in Schreibform, 3.2 Raster-Ausnahme, 4.6 Layout nie durch Textänderung, 5.1 e Schreibform (gemeinsame Abschnitte wie v3.33). Prozent-Heft v0.12 hatte vier Aufgabentexte gekürzt, um gedehnte Zeilen zu vermeiden.
 

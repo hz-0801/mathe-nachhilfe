@@ -28,11 +28,11 @@ beide, **X** nicht mehr in Gebrauch.
 | `CHANGELOG.md` | B | Änderungshistorie der Prompts und der Vorlage (bis v3.34 / v0.14 / 07d) | letzter Eintrag 08.09. | 07.09. | 08.09. | 8 |
 | `katalog-prompt.md` | K | Kern der Erfassungsmethode (alle Profile) | v0.7, 17.09. | 05.09. | 17.09. | 8 |
 | `msa.md` | K (Profil msa) | Profil P10 Brandenburg (FOR/EBR) | v0.3, gilt mit Kern v0.3; seit 07.09. unverändert | 05.09. | 07.09. | 3 |
-| `typen.csv` | K (msa) | Typenliste msa, 185 Typen | 05.09., ruhend | 05.09. | 05.09. | 17 |
-| `katalog-basis.csv` | K (msa) | Katalog msa, Basisaufgaben, 126 Zeilen (Zwei-Dateien-Modell) | 05.09., ruhend | 05.09. | 05.09. | 17 |
-| `katalog-kontext.csv` | K (msa) | Katalog msa, Kontextaufgaben, 267 Zeilen | 05.09., ruhend | 05.09. | 05.09. | 17 |
-| `pruefungen.md` | K (msa) | Heftliste msa mit Erfassungsstatus (2014–2025, 2026 FOR) | 05.09., ruhend | 05.09. | 05.09. | 18 |
-| `vorgaben.md` | K (msa) | Amtliche Vorgaben P10 (Fachbriefe) mit Jahrescheck | 05.09., ruhend | 05.09. | 05.09. | 2 |
+| `msa-typen.csv` (bis 17.09.2026 `typen.csv`) | K (msa) | Typenliste msa, 185 Typen | 05.09., ruhend | 05.09. | 05.09. | 17 |
+| `msa-katalog-basis.csv` (bis 17.09.2026 `katalog-basis.csv`) | K (msa) | Katalog msa, Basisaufgaben, 126 Zeilen (Zwei-Dateien-Modell) | 05.09., ruhend | 05.09. | 05.09. | 17 |
+| `msa-katalog-kontext.csv` (bis 17.09.2026 `katalog-kontext.csv`) | K (msa) | Katalog msa, Kontextaufgaben, 267 Zeilen | 05.09., ruhend | 05.09. | 05.09. | 17 |
+| `msa-pruefungen.md` (bis 17.09.2026 `pruefungen.md`) | K (msa) | Heftliste msa mit Erfassungsstatus (2014–2025, 2026 FOR) | 05.09., ruhend | 05.09. | 05.09. | 18 |
+| `msa-vorgaben.md` (bis 17.09.2026 `vorgaben.md`) | K (msa) | Amtliche Vorgaben P10 (Fachbriefe) mit Jahrescheck | 05.09., ruhend | 05.09. | 05.09. | 2 |
 | `fhr.md` | K (Profil fhr) | Profil Fachhochschulreife Brandenburg | v1.6, 13.09.; gilt mit Kern v0.3 | 12.09. | 13.09. | 10 |
 | `fhr-bau.py` | K (fhr) | Bau-Skript fhr (Gerüst je Heft, enthält die ZEILEN des letzten Hefts) | v0.2, 12.09.; Katalog vollständig, Skript ruhend | 12.09. | 12.09. | 9 |
 | `fhr-katalog.csv` | K (fhr) | Katalog fhr, 253 Zeilen, 16 Hefte 2019–2026 (vollständig erfasst) | 12.09., abgeschlossen | 12.09. | 12.09. | 10 |
@@ -139,7 +139,7 @@ uebergabe.md, archiv-hinweis.md).
   sind seit ihrer Anlage unverändert.
 - Zwei Testauswertungen (07.09., 08.09.) mit gleichem Aufbau; der
   Archivzettel erklärt die vom 08.09. für gültig.
-- Zwei Vorgaben-Dateien (`vorgaben.md` msa, `abi-vorgaben.md` abi/iqb) mit
+- Zwei Vorgaben-Dateien (`msa-vorgaben.md` msa, `abi-vorgaben.md` abi/iqb) mit
   gleichem Zuschnitt, dazu abi.md § 10/§ 11 mit teils denselben Inhalten
   (Prüfungsschwerpunkte 2027 stehen in abi-vorgaben.md § 2, abi.md § 3 und
   abitur-vokabular.md § 3).
@@ -176,7 +176,7 @@ uebergabe.md, archiv-hinweis.md).
   abi-pruefungen 195 KB) machen 4 MB der 6,2 MB aus; die Blattbau-Dateien
   zusammen 0,35 MB.
 - Namensschema: msa ohne Präfix (typen.csv, katalog-*.csv, pruefungen.md,
-  vorgaben.md), fhr/abi/iqb mit Präfix, Gemeinsames unter `abitur-*`,
+  vorgaben.md; seit dem 17.09.2026 mit Präfix msa-, Auftrag F), fhr/abi/iqb mit Präfix, Gemeinsames unter `abitur-*`,
   Quellentexte unter `quelle-*.txt` neben `*-quellen.md`, Werkstattdateien in
   CamelCase mit Datum. Bei einer Trennung nach Projekten wären die
   K+B-Dateien (README, konzept § 3, Typenbibliothek, quellen) die Schnittstelle.

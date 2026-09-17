@@ -22,17 +22,17 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     namensschema.md        Namensschema für Dateiarten und Kennungen (Vorschlag 17.09.2026, Auftrag D; Umbenennungen offen)
     abgleich.py            Abgleichlauf über die gemeinsame Typenliste und beide Kataloge (bis Abgleichlauf 11 iqb-abgleich.py)
     hefte/                 gescannte Verlagshefte (Stark) für abi ab 2019, lokal, per .gitignore nicht im Repo
-    vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck für msa bzw. abi/iqb
+    msa-vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck für msa bzw. abi/iqb
     pruefungsprompt.md     Prüfungsprompt (bis v0.7 blatt-prompt.md): baut alle Prüfungen mit Katalog, heute Profil msa; Masterfassung hier, Projektanweisung ist Kopie (blatt-konzept.md §5)
     masterprompt.md        Masterprompt: baut alles ohne Katalog (Unterricht, Klassenarbeiten, Prüfungen ohne Katalog); Masterfassung hier, Projektanweisung ist Kopie
     CHANGELOG.md           Änderungshistorie der Prompts und der Vorlage
     mathblatt.sty          LaTeX-Vorlage (Version in Zeile 2); Anleitung_mathblatt.md gehört dazu – bis 2026-09-07 im Repo nachhilfe-arbeitsblatt-vorlage
     README.md              Landkarte: was im Repo liegt und wofür
-    pruefungen.md          Heftliste mit Erfassungsstatus
-    vorgaben.md            amtliche Vorgaben aus den Fachbriefen, Jahrescheck; gesonderter Baustein
-    typen.csv              Typvokabular, wächst beim Erfassen
-    katalog-basis.csv      Zeilen der Basisaufgaben
-    katalog-kontext.csv    Zeilen der Kontextaufgaben
+    msa-pruefungen.md      Heftliste mit Erfassungsstatus (seit 17.09.2026, vorher pruefungen.md)
+    msa-vorgaben.md        amtliche Vorgaben aus den Fachbriefen, Jahrescheck; gesonderter Baustein (vorher vorgaben.md)
+    msa-typen.csv          Typvokabular, wächst beim Erfassen (vorher typen.csv)
+    msa-katalog-basis.csv  Zeilen der Basisaufgaben (vorher katalog-basis.csv)
+    msa-katalog-kontext.csv  Zeilen der Kontextaufgaben (vorher katalog-kontext.csv)
     msa-bau.py             Gerüst und Selbstprüfung für msa (seit 17.09.2026; der Bestand wurde davor ohne Skript erfasst)
     <kennung>-typenbibliothek.md  abgeleitet aus dem Katalog, wird erzeugt, nie editiert; je Profil eine Datei
     <kennung>-typenbibliothek.py  erzeugt sie und hält die Zählweise als Code fest
@@ -88,7 +88,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
     Kippt bei: Testblättern, in denen hinführende Aufgaben ohne Katalogzeile nicht baubar sind oder die Originalfassung den Schüler ohne Hinführung überfordert – dann braucht der Katalog Zeilen für hinführende Aufgaben, die er nach Entscheidung 11 nicht hat.
 3. Decke ist das Original. Über das Prüfungsniveau geht kein Blatt hinaus.
     Zahl: fhr 29 von 135 Typen ohne Vorkommen ab 2023, darunter beide Fundstellen des Themas Erwartungswert (fhr.md § 9) – deshalb ist die Decke das Original mit den meisten Merkmalen, nicht das jüngste.
-    Kippt bei: einem Formatwechsel, der den Bestand entwertet (P10 ab 2028: hilfsmittelfreier Teil, 50 statt 60 BE, vorgaben.md) – dann kommt die Decke aus Musteraufgaben, nicht aus dem Bestand.
+    Kippt bei: einem Formatwechsel, der den Bestand entwertet (P10 ab 2028: hilfsmittelfreier Teil, 50 statt 60 BE, msa-vorgaben.md) – dann kommt die Decke aus Musteraufgaben, nicht aus dem Bestand.
 4. Progression je Typ: hinführen, Anker, halten – nach dem Muster der Progressionsregeln aus dem Masterprompt (jede Hauptnummer beginnt leicht, endet auf Prüfungshöhe).
     Zahl: keine – übernommen aus dem Masterprompt (Progressionsregeln), ohne Messung.
     Kippt bei: Testblättern, bei denen die Progression je Typ nicht trägt (zu wenige Originale je Typ: fhr 49 von 135 Typen mit genau einem Vorkommen, fhr.md § 9).
@@ -102,7 +102,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
     Zahl: keine – Setzung.
     Kippt bei: mehr als einem Schüler je Prüfungsart oder bei Wiederholungen, die dem Lehrer entgehen.
 8. Keine Reserveprüfung. Für den Abschlusstest nimmt der Lehrer die Prüfung, die er am wenigsten verwendet hat.
-    Zahl: Bestand je Prüfungsart – msa 12 Hefte (pruefungen.md), fhr 16, abi 16, iqb 37 Stapel; genug, um eines auszusparen, ohne es festzulegen.
+    Zahl: Bestand je Prüfungsart – msa 12 Hefte (msa-pruefungen.md), fhr 16, abi 16, iqb 37 Stapel; genug, um eines auszusparen, ohne es festzulegen.
     Kippt bei: einer Prüfungsart mit weniger als drei Heften.
 9. Häufigkeit ist Auskunft, keine Priorität und kein Filter. Ein einziges Vorkommen ist ein vollwertiger Typ. Der Rahmenlehrplan setzt den Rahmen dessen, was kommen kann; er ist Hintergrund, keine Quelle für Typen.
     Zahl: fhr 49 von 135 Typen genau einmal, 27 zweimal (fhr.md § 9); Abitur 1,69 Zeilen je Typ – die Mehrheit der Typen hätte bei einer Häufigkeitsschwelle keine Zeile.
@@ -116,7 +116,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 12. Kern und Profil getrennt. Erstes Profil: msa (P10 Brandenburg, Niveau FOR). Zweites Profil abi (Abitur Brandenburg) folgt nach den MSA-Heften in eigenem Chat; Dateinamen mit Präfix abi-. Weitere Profile erst bei Bedarf; Vokabular und Häufigkeit gelten nie über Profile hinweg.
     Zahl: ergänzt durch Entscheidung 25 – abi und iqb teilen Vokabular und Typenliste (348 von 1323 Typen in beiden Katalogen, Selbstprüfung 17.09.2026); über Prüfungsarten hinweg bleibt es bei getrennten Listen (befund-typenlisten.md § 4: 16 von 26 gemeinsamen Fertigkeiten gleich geschnitten, 8 verschieden).
     Kippt bei: einem Themenkatalog (§ 3), der gleiche Themennamen über alle Prüfungsarten braucht – dann Vorschlag 3 in befund-typenlisten.md § 3; die Typen bleiben auch dann getrennt.
-13. Vokabular in drei Ebenen: Leitidee und Thema fest im Profil (aus Rahmenlehrplan, Fachbrief-Inhaltsliste, Lehrwerkgliederung), Typ wächst aus den Heften in typen.csv, Abgleichlauf nach dem letzten Heft. Der Lehrer sieht die fertige Typenliste einmal durch; das ist optional.
+13. Vokabular in drei Ebenen: Leitidee und Thema fest im Profil (aus Rahmenlehrplan, Fachbrief-Inhaltsliste, Lehrwerkgliederung), Typ wächst aus den Heften in msa-typen.csv, Abgleichlauf nach dem letzten Heft. Der Lehrer sieht die fertige Typenliste einmal durch; das ist optional.
     Zahl: Abitur 3 Sachgebiete, 49 Themen, 1323 Typen, 8 Themen mit Gegenstandsklassen (abitur-vokabular.md); Zeilen mit „ersatzweise" 0 in den letzten Stapeln (iqb-pruefungen.md § 2, Schwelle 10 %).
     Kippt bei: mehr als 10 % Zeilen mit „ersatzweise" in einem Lauf – dann passt die Themenliste nicht, nicht die Erfassung (SCHWELLEN in den Bau-Skripten).
 14. Zwei Katalogdateien, Basis und Kontext, gleiches Schema; eine Typenliste.
@@ -132,10 +132,10 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
     Zahl: 94 Abbildungen im Markdown-Korpus als Referenz (abi-pruefungen.md § 4); Feld skizze in jeder Zeile mit Material (Kern § 5).
     Kippt bei: einem Blattbau, der aus dem Feld skizze keine zeichenbare Figur baut – dann muss das Feld genauer werden, nicht das Original hinein.
 18. Bestand: Oberschulhefte 2014–2026 und Musteraufgaben 2028. Gymnasialhefte nicht (seit 2025/26 keine P10 am Gymnasium).
-    Zahl: 12 Hefte, 393 Zeilen, 185 Typen (pruefungen.md, typen.csv); Gymnasium seit 2025/26 ohne P10 (vorgaben.md).
+    Zahl: 12 Hefte, 393 Zeilen, 185 Typen (msa-pruefungen.md, msa-typen.csv); Gymnasium seit 2025/26 ohne P10 (msa-vorgaben.md).
     Kippt bei: einem Gymnasialschüler mit zentraler Klassenarbeit (90 min, 35 BE) – das wäre eine neue Prüfungsart (§ 8), nicht ein Nachtrag.
-19. Amtliche Vorgaben (Fachbriefe, Rundschreiben) werden gesondert in vorgaben.md geführt, mit einem jährlichen Check als eigenem Schritt. Der Katalog-Prompt liest sie nicht.
-    Zahl: Corona-Ausschlüsse 2021–2023 (vorgaben.md) sind Vorgabe, kein Trend; der Katalog liest sie nicht.
+19. Amtliche Vorgaben (Fachbriefe, Rundschreiben) werden gesondert in msa-vorgaben.md geführt, mit einem jährlichen Check als eigenem Schritt. Der Katalog-Prompt liest sie nicht.
+    Zahl: Corona-Ausschlüsse 2021–2023 (msa-vorgaben.md) sind Vorgabe, kein Trend; der Katalog liest sie nicht.
     Kippt bei: Vorgaben, die den Katalog filtern müssen – dann werden sie Geltung (Teil 2 des Auftrags D zeigt den Weg: eine Datei je Zielprüfung, von den Skripten gelesen).
 20. Die PDF-Pipeline aus dem Masterprompt (mathblatt.sty, xelatex, Skriptprüfung, Ausgabeblock) bleibt für die Blätter.
     Zahl: keine – Setzung (Blattbau).
@@ -211,7 +211,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 4a. Profil abi in eigenem Chat.
 4b. Profil iqb (2026-09-13): Prüfungsteil A in 22 Stapeln, dann Teil B; Abgleichlauf nach jedem Stapel.
 5. Blatt-Prompt fertigstellen.
-Jährlich: Vorgabencheck (vorgaben.md), neues Heft erfassen, Typenbibliothek neu ableiten.
+Jährlich: Vorgabencheck (msa-vorgaben.md), neues Heft erfassen, Typenbibliothek neu ableiten.
 
 ## 8 Eine neue Prüfung aufnehmen
 
@@ -245,7 +245,7 @@ Kennung oder eine Regel des Profils:
    Eine Geltungsdatei je Zielprüfung ist nur dort nötig, wo dieselbe
    Themenliste je Träger oder Schulform verschieden gilt und ein Skript oder
    der Blattbau danach filtert. Gibt es keine amtlichen Schwerpunkte (msa:
-   „prüfungsrelevant ist der Rahmenlehrplan", vorgaben.md), gibt es keine
+   „prüfungsrelevant ist der Rahmenlehrplan", msa-vorgaben.md), gibt es keine
    Geltung – die ganze Themenliste gilt. Binden die Schwerpunkte Themen nur an
    Prüfungsjahrgänge, nicht an Land oder Schulform (fhr: Markierung (27)/(28)
    in fhr.md § 6, ein Träger, eine Schulform, ein Niveau), bleibt die
@@ -394,6 +394,10 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag F, Punkt 1): Dateien des Profils msa mit Präfix msa- (typen.csv →
+  msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv, katalog-kontext.csv →
+  msa-katalog-kontext.csv, pruefungen.md → msa-pruefungen.md, vorgaben.md →
+  msa-vorgaben.md; git mv, Inhalt unverändert); Verweise in § 2, § 4 und § 7 nachgezogen.
 - 2026-09-17 (Auftrag E, Punkt 7): § 8 Frage 4 – zulässige Ausnahme „Prüfungsart
   ohne Geltung nach Land oder Schulform" (msa, fhr) mit Begründung aus
   Auftrag D Teil 2; Dateiliste Punkt 3 verweist darauf.
@@ -427,7 +431,7 @@ Geltung.
 - 2026-09-05: angelegt.
 - 2026-09-05: Probelauf abgeschlossen. EBR zurückgestellt, Profil abi vorgemerkt (Entscheidung 12 ergänzt). Typen-Check: drei Bruchteil-Typen zusammengelegt, Flächen-/Umfangsterm → „Term zu Figur zuordnen“, „Wahrscheinlichkeit zweistufig“ in unabhängig/ohne Zurücklegen getrennt, Mittelpunktswinkel als Baustein vermerkt; alle Typen auf „gültig“. Kern §1: Dateinamen nach Profil.
 - 2026-09-05: Typen-Check nach Heften 2023–2019: 147 → 141 Typen, alle „gültig“. Zusammengelegt: Winkel im Trapez/Parallelogramm → „Winkel im Viereck berechnen“; Wahrscheinlichkeit zwei-/dreistufig → „… mehrstufig unabhängig“ und „… mehrstufig ohne Zurücklegen“ (Stufenzahl in gegeben/schritte); Flächenformel Dreieck/Rechteck angeben + Term zu Figur zuordnen → „Term zu Figur angeben“ (Leistung in format); Flächeninhalt Dreieck über Höhe → „Flächeninhalt Dreieck berechnen“ (Vorarbeit in typ_neben). Umbenannt: Lineare Kostenfunktion aufstellen → „Lineare Funktion aus Sachverhalt aufstellen“ (gegen „Lineare Gleichung aus Sachverhalt aufstellen“ abgegrenzt); Endwert linearer Zunahme → „… Veränderung“; Bruch in Prozent umwandeln → „Prozent und Anteil umwandeln“; Zehnerpotenz Exponent bestimmen → „Zehnerpotenzschreibweise umwandeln“; Säulendiagramm ergänzen → „Säulen- oder Balkendiagramm ergänzen“. Definitionen erweitert: Gleichung im Sachzusammenhang deuten (Bestandteile benennen), Term zu Sachtext zuordnen (auch Gleichungen), Proportionale Zuordnung Dreisatz (Abgrenzung zu Zeit aus Weg und Geschwindigkeit), Zufallsgerät entwerfen (Thema jetzt Wahrscheinlichkeit einstufig). Lösung durch Einsetzen prüfen: Thema Lineare Gleichungen. Getrennt gelassen: Gleichung/Graph zu Tarif zuordnen, Geradengleichung zu Graph zuordnen, Graph nach Eigenschaft auswählen (vier verschiedene Richtungen); Nullstelle berechnen vs. am Graphen ablesen. Zwei „?“ in gesucht (2026-FOR-K5b, 2024-OS-K3c) umformuliert.
-- 2026-09-05: Typen-Check nach Heften 2018–2014 (Abgleichlauf): 193 → 185 Typen, alle „gültig“, typen.csv nach Leitidee (Lehrplanreihenfolge), Thema, Typ sortiert. Zusammengelegt: Zeit aus Weg und Geschwindigkeit + Dauer aus Menge und Durchsatz → „Dauer aus Menge und Rate berechnen“ (Gegenrichtung „Geschwindigkeit aus Weg und Zeit berechnen“ bleibt: andere Formelrichtung, wie bei Fläche/Seite); Verdopplungszeit am Graphen + Halbwertszeit aus Tabelle → „Verdopplungs- oder Halbwertszeit bestimmen“; Teilstrecke berechnen + Weglänge aus Teilstrecken → „Strecke aus Teilstrecken berechnen“; Körper zu Netz zuordnen + Körper im Schrägbild benennen → „Körper aus Netz oder Schrägbild benennen“; Jahreszinsen berechnen → „Prozentwert berechnen“, Zinssatz berechnen → „Prozentsatz berechnen“ (Zinsvokabular ist Kontext, Thema Zinsrechnung behält Guthabentabelle und Zinseszins). Gelöscht (Leistung steht in format bzw. bemerkung): „Lösungsweg beschreiben“ (2015-OS-K5d jetzt Flächeninhalt Dreieck berechnen, format Begründung – wie Mantellinie 2018-OS-K6d) und „Ergebnis sinnvoll runden“ (Konvention: Vermerk in bemerkung, kein Typ). Umbenannt: Teilwinkel berechnen → „Winkel aus Teilwinkeln berechnen“; Term zu Sachtext zuordnen → „Term zu Sachtext angeben“ (Angeben, Auswählen, Richtig/Falsch in format; 2016-OS-B1b hierher, Abgrenzung zu Lineare Gleichung aus Sachverhalt); Volumenterm zu Körper prüfen → „Term zu Körper angeben“ (parallel zu Term zu Figur angeben); Zahl zu Ungleichung angeben → „Zahl zu Bedingung angeben“ (auch „zwischen“, Abgrenzung zu Mitte zweier Zahlen); Masse aus Volumen berechnen → „Masse aus Volumen und Dichte berechnen“ (Gegenrichtung zu Volumen aus Masse und Dichte, getrennt wie bei Fläche/Seite). Definitionen erweitert: Wachstumstabelle ergänzen (Abnahme, fehlende Zeitangabe, Abgrenzung Guthabentabelle), Zufallsgerät entwerfen (Anzahl berechnen ohne Zeichnung), Graph zu Tarif zuordnen (lineare Tarife), Parabel verschieben (nur Scheitel), Wert aus Diagramm ablesen (Funktionsgraph im Sachzusammenhang), Flächeninhalt Dreieck (Rechenweg beschreiben), Proportionale Zuordnung Dreisatz (Abgrenzung Rate). Thema geändert: Mantelfläche Prisma berechnen → Volumen und Oberfläche (wie Mantelfläche Zylinder/Kegel). Belassen: Restfläche/Restvolumen, Mantellinie Kegel unter Pythagoras, Große Zahl mit Zehnerpotenz multiplizieren, Parabelgleichung zu Graph zuordnen, Zeitpunkt für Schwellenwert (schrittweise, anders als Ablesen). Typ_neben „Flächeninhalt Rechteck berechnen“ an 2018-OS-K6a und 2017-OS-K3b ergänzt. Prozessnotizen in bemerkung von neun Zeilen bereinigt, Fakten unverändert. 37 Katalogzeilen umetikettiert.
+- 2026-09-05: Typen-Check nach Heften 2018–2014 (Abgleichlauf): 193 → 185 Typen, alle „gültig“, msa-typen.csv nach Leitidee (Lehrplanreihenfolge), Thema, Typ sortiert. Zusammengelegt: Zeit aus Weg und Geschwindigkeit + Dauer aus Menge und Durchsatz → „Dauer aus Menge und Rate berechnen“ (Gegenrichtung „Geschwindigkeit aus Weg und Zeit berechnen“ bleibt: andere Formelrichtung, wie bei Fläche/Seite); Verdopplungszeit am Graphen + Halbwertszeit aus Tabelle → „Verdopplungs- oder Halbwertszeit bestimmen“; Teilstrecke berechnen + Weglänge aus Teilstrecken → „Strecke aus Teilstrecken berechnen“; Körper zu Netz zuordnen + Körper im Schrägbild benennen → „Körper aus Netz oder Schrägbild benennen“; Jahreszinsen berechnen → „Prozentwert berechnen“, Zinssatz berechnen → „Prozentsatz berechnen“ (Zinsvokabular ist Kontext, Thema Zinsrechnung behält Guthabentabelle und Zinseszins). Gelöscht (Leistung steht in format bzw. bemerkung): „Lösungsweg beschreiben“ (2015-OS-K5d jetzt Flächeninhalt Dreieck berechnen, format Begründung – wie Mantellinie 2018-OS-K6d) und „Ergebnis sinnvoll runden“ (Konvention: Vermerk in bemerkung, kein Typ). Umbenannt: Teilwinkel berechnen → „Winkel aus Teilwinkeln berechnen“; Term zu Sachtext zuordnen → „Term zu Sachtext angeben“ (Angeben, Auswählen, Richtig/Falsch in format; 2016-OS-B1b hierher, Abgrenzung zu Lineare Gleichung aus Sachverhalt); Volumenterm zu Körper prüfen → „Term zu Körper angeben“ (parallel zu Term zu Figur angeben); Zahl zu Ungleichung angeben → „Zahl zu Bedingung angeben“ (auch „zwischen“, Abgrenzung zu Mitte zweier Zahlen); Masse aus Volumen berechnen → „Masse aus Volumen und Dichte berechnen“ (Gegenrichtung zu Volumen aus Masse und Dichte, getrennt wie bei Fläche/Seite). Definitionen erweitert: Wachstumstabelle ergänzen (Abnahme, fehlende Zeitangabe, Abgrenzung Guthabentabelle), Zufallsgerät entwerfen (Anzahl berechnen ohne Zeichnung), Graph zu Tarif zuordnen (lineare Tarife), Parabel verschieben (nur Scheitel), Wert aus Diagramm ablesen (Funktionsgraph im Sachzusammenhang), Flächeninhalt Dreieck (Rechenweg beschreiben), Proportionale Zuordnung Dreisatz (Abgrenzung Rate). Thema geändert: Mantelfläche Prisma berechnen → Volumen und Oberfläche (wie Mantelfläche Zylinder/Kegel). Belassen: Restfläche/Restvolumen, Mantellinie Kegel unter Pythagoras, Große Zahl mit Zehnerpotenz multiplizieren, Parabelgleichung zu Graph zuordnen, Zeitpunkt für Schwellenwert (schrittweise, anders als Ablesen). Typ_neben „Flächeninhalt Rechteck berechnen“ an 2018-OS-K6a und 2017-OS-K3b ergänzt. Prozessnotizen in bemerkung von neun Zeilen bereinigt, Fakten unverändert. 37 Katalogzeilen umetikettiert.
 - 2026-09-06: Entscheidung 6 (Lösungen) an blatt-konzept.md v0.2 angeglichen.
 - 2026-09-06: Basis-URL steht auch im Blatt-Prompt (§2). blatt-prompt.md v0.1 angelegt.
 - 2026-09-06: Nr. 5 Herkunft → Protokoll; §2 blatt-prompt nur als Projektanweisung.

@@ -1,9 +1,10 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
-Version 1.7 · 17.09.2026 · Kennung fhr · gilt mit Kern v0.8 (Schema-Version 2, unverändert seit Kern v0.3)
+Version 1.8 · 17.09.2026 · Kennung fhr · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Änderungen gegenüber 1.7 (Auftrag F, Punkt 1): § 2 Ablageort der amtlichen Vorgaben – bisher „vorgaben.md" (die Datei des Profils msa, seit dem 17.09.2026 msa-vorgaben.md); jetzt eine eigene, noch nicht angelegte fhr-vorgaben.md nach dem Muster von Entscheidung 19. Kernbindung v0.9 (Kern § 1 nennt die msa-Dateien mit Präfix; für dieses Profil ohne Folge).
 Änderungen gegenüber 1.6 (Auftrag E, Punkt 1 und 2; Kernbindung von v0.3 auf v0.8 gehoben, Durchsicht unter den Änderungen; Punkt 6: fhr-bau.py v0.3 mit Selbstprüfung des Bestands bei leerem ZEILEN): geltende Regeln aus § 9 in die Regelabschnitte – Decke einer Kette und Vorgabenstand nach § 7, Stufenzahl im Typnamen nach § 6, Koordinatenschreibweise der Hefte 2019/2020 nach § 4, Materiallage nach § 1; erledigte Punkte aus § 9 gestrichen (Geschichte in fhr-pruefungen.md), Vorschlag zu msa.md dorthin verschoben; § 2 Upload-Satz gestrichen, § 5 Probelauf benannt.
 Änderungen gegenüber 1.5: § 4 und § 9 Bedeutung der Buchstaben A, B, C aus dem Dateibestand erschlossen; § 9 kein IQB-Pool für die FHR.
 
-Kernbindung (17.09.2026, Auftrag E, Punkt 2): Die Kernänderungen 0.4 bis 0.8
+Kernbindung (17.09.2026, Auftrag E, Punkt 2; 0.9 nach Auftrag F, Punkt 1): Die Kernänderungen 0.4 bis 0.9
 sind für dieses Profil durchgesehen, keine widerspricht ihm. Ausgelagertes
 Vokabular (0.4) ist erlaubt, nicht verlangt – dieses Profil führt seines in
 § 5–6. Die Handlung je format (0.4, § 5) bündelt Zeilen für den Schnitt der
@@ -27,7 +28,7 @@ Katalogdateien dieses Profils: fhr-pruefungen.md, fhr-typen.csv, fhr-katalog.csv
 Hefte: frei zugänglich auf dem Bildungsserver Berlin-Brandenburg unter https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/Fachoberschule_BB/Pruefungsaufgaben/ ; Dateinamen und Zuordnung stehen in fhr-pruefungen.md, geholt wird mit curl. Prüfungsschwerpunkte und Rundschreiben liegen in den Nachbarordnern Pruefungsschwerpunkte/ und Pruefungstermine/.
 Gerüst für Erfassung und Prüfung: fhr-bau.py (Datensätze, Sollpunkte, Asserts, Ausgabe). Je Heft werden nur die Datensätze und die Sollpunkte ausgetauscht.
 Amtliche Lösungen liegen für jedes Heft vor: die Hefte sind „Unterlagen für die Lehrkraft" und enthalten den Erwartungshorizont mit verbindlicher Punkteverteilung. Für dieses Profil gilt Kern § 3 d in der Fassung „amtliche Lösung vorhanden": sie ist maßgeblich, eigene Rechnung ist Kontrolle, ergebnis trägt den Zusatz „amtlich".
-Amtliche Vorgaben: die Prüfungsschwerpunkte des jeweiligen Schuljahres und das Rundschreiben des MBJS zu Terminen und Fristen. Sie gehören nach vorgaben.md und werden jährlich geprüft.
+Amtliche Vorgaben: die Prüfungsschwerpunkte des jeweiligen Schuljahres und das Rundschreiben des MBJS zu Terminen und Fristen. Sie gehören in eine eigene Vorgaben-Datei dieses Profils (fhr-vorgaben.md, noch nicht angelegt; Muster msa-vorgaben.md und abi-vorgaben.md, konzept.md Entscheidung 19 und § 8) und werden jährlich geprüft.
 
 ## 3 Aufbau der Hefte
 

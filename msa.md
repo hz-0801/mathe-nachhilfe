@@ -1,8 +1,9 @@
 # PROFIL MSA – Prüfung am Ende der Jahrgangsstufe 10, Mathematik, Brandenburg
-Version 0.4 · 17.09.2026 · Kennung msa · gilt mit Kern v0.8 (Schema-Version 2, unverändert seit Kern v0.3)
+Version 0.5 · 17.09.2026 · Kennung msa · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Änderungen gegenüber 0.4 (Auftrag F, Punkt 1): Die Dateien dieses Profils tragen das Präfix msa- wie die der anderen Profile – typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv, katalog-kontext.csv → msa-katalog-kontext.csv, pruefungen.md → msa-pruefungen.md, vorgaben.md → msa-vorgaben.md (Variante B nach namensschema.md § 4; Inhalt unverändert, Historie per git mv erhalten). Verweise in der Kernbindung, § 1, § 2, § 4 und § 7 nachgezogen; § 2 nennt die Katalogdateien in einer Zeile; msa-bau.py v0.2 liest die neuen Namen. Kernbindung v0.9 (Kern § 1 nennt die neuen Namen).
 Änderungen gegenüber 0.3 (Auftrag E, Punkt 1 und 2): § 2 Umgebungsangabe „Sandbox" gestrichen; § 6 Probelauf als abgeschlossen benannt; § 4 Koordinatenschreibweise mit „|" festgehalten (Vorschlag aus fhr.md § 9 hierher verschoben); Kernbindung von v0.3 auf v0.8 gehoben (Durchsicht unten). Punkt 6: msa-bau.py v0.1 angelegt (§ 2), Typ „Behauptung prüfen" mit Leitidee und Thema seiner ersten Fundstelle.
 
-Kernbindung (17.09.2026, Auftrag E, Punkt 2): Die Kernänderungen 0.4 bis 0.8
+Kernbindung (17.09.2026, Auftrag E, Punkt 2; 0.9 nach Auftrag F, Punkt 1): Die Kernänderungen 0.4 bis 0.9
 sind für dieses Profil durchgesehen, keine widerspricht ihm. Ausgelagertes
 Vokabular (0.4) ist erlaubt, nicht verlangt – dieses Profil führt seines in
 § 5–6. Die Handlung je format (0.4, § 5) bündelt Zeilen für den Schnitt der
@@ -11,19 +12,20 @@ von:", die Vormerkung und „Abgewandelt von:" (0.5, § 5) setzen eine mit einem
 anderen Katalog geteilte Typenliste voraus, die es hier nicht gibt; die
 Trägerbindung gilt für abi und iqb. Vorrang des Amtlichen und Maßstab der
 Schätzung (0.6, 0.7, § 5) gelten auch hier: ein amtlicher Anforderungsbereich liegt nur bei den Musteraufgaben 2028 vor (§ 4); wird er erfasst, steht er in afb_amtlich, die eigene Schätzung entsteht vorher und wird nicht angepasst, die Eichung ist Kennzahl (bei allen anderen Heften: Schätzung ohne Maßstab, afb_amtlich leer). Die Regel für das
-Zeilenthema überlässt der Kern dem Profil (0.4, § 6): in diesem Profil trägt die Zeile das Thema der Aufgabenstellung, unabhängig vom Thema ihres Typs in typen.csv (Stand der Erfassung 2026-09-05, Kern v0.3); ob msa die Regel Zeilenthema = Typthema von abi und iqb übernimmt, ist offen – Vorschlag: erst mit einem msa-bau.py entscheiden, das die Gleichheit prüfen könnte.
+Zeilenthema überlässt der Kern dem Profil (0.4, § 6): in diesem Profil trägt die Zeile das Thema der Aufgabenstellung, unabhängig vom Thema ihres Typs in msa-typen.csv (Stand der Erfassung 2026-09-05, Kern v0.3); ob msa die Regel Zeilenthema = Typthema von abi und iqb übernimmt, ist offen – Vorschlag: erst mit einem msa-bau.py entscheiden, das die Gleichheit prüfen könnte.
 
 ## 1 Prüfung
 
-Zentrale schriftliche Prüfung für Oberschulen und Gesamtschulen im Land Brandenburg, Fach Mathematik, zwei Niveaus: EBR (erweiterte Berufsbildungsreife) und FOR (Fachoberschulreife, entspricht dem MSA). Sagt der Lehrer MSA, meint er FOR. Bestand: die Hefte 2014–2026 und die Musteraufgaben 2028 laut pruefungen.md. Gymnasialhefte gehören nicht dazu.
+Zentrale schriftliche Prüfung für Oberschulen und Gesamtschulen im Land Brandenburg, Fach Mathematik, zwei Niveaus: EBR (erweiterte Berufsbildungsreife) und FOR (Fachoberschulreife, entspricht dem MSA). Sagt der Lehrer MSA, meint er FOR. Bestand: die Hefte 2014–2026 und die Musteraufgaben 2028 laut msa-pruefungen.md. Gymnasialhefte gehören nicht dazu.
 
 ## 2 Ablage und Quellen
 
 Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/mathe-nachhilfe/main/ (alle Dateien liegen flach im Wurzelverzeichnis; bei anderer Ablage nur diese Zeile ändern).
-Hefte: Adresse und Dateinamen stehen in pruefungen.md; sie werden mit curl vom Bildungsserver (bildungsserver.berlin-brandenburg.de) geholt.
+Katalogdateien dieses Profils: msa-pruefungen.md (Heftliste), msa-typen.csv (Typenliste), msa-katalog-basis.csv und msa-katalog-kontext.csv (Katalog, § 4); bis zum 17.09.2026 ohne Präfix (typen.csv, katalog-basis.csv, katalog-kontext.csv, pruefungen.md, vorgaben.md).
+Hefte: Adresse und Dateinamen stehen in msa-pruefungen.md; sie werden mit curl vom Bildungsserver (bildungsserver.berlin-brandenburg.de) geholt.
 Amtliche Lösungen gibt es nur für die Musteraufgaben 2028 (Fachbrief Mathematik Nr. 10, Erwartungshorizont mit Bewertungseinheiten, Anforderungsbereich, Standardbezug). Für alle Hefte sind die Ergebnisse eigene Rechnung.
-Amtliche Vorgaben und Formatwechsel stehen in vorgaben.md; für die Erfassung reicht dieses Profil.
-Gerüst für Erfassung und Prüfung: msa-bau.py (seit 17.09.2026, Auftrag E Punkt 6; der Bestand 2014–2026 wurde davor ohne Skript erfasst). Es liest Kopfzeile und Formvokabular aus katalog-prompt.md § 5, Leitideen und Themenliste aus § 5 und § 6 dieser Datei, schreibt katalog-basis.csv, katalog-kontext.csv und typen.csv nur, wenn alle Prüfungen bestehen, und prüft bei leerem ZEILEN den Bestand (Selbstprüfung). Feldkorrekturen an typen.csv laufen über TYPEN_KORREKTUR im Skript, nicht von Hand.
+Amtliche Vorgaben und Formatwechsel stehen in msa-vorgaben.md; für die Erfassung reicht dieses Profil.
+Gerüst für Erfassung und Prüfung: msa-bau.py (seit 17.09.2026, Auftrag E Punkt 6; der Bestand 2014–2026 wurde davor ohne Skript erfasst). Es liest Kopfzeile und Formvokabular aus katalog-prompt.md § 5, Leitideen und Themenliste aus § 5 und § 6 dieser Datei, schreibt msa-katalog-basis.csv, msa-katalog-kontext.csv und msa-typen.csv nur, wenn alle Prüfungen bestehen, und prüft bei leerem ZEILEN den Bestand (Selbstprüfung). Feldkorrekturen an msa-typen.csv laufen über TYPEN_KORREKTUR im Skript, nicht von Hand.
 
 ## 3 Aufbau der Hefte
 
@@ -34,7 +36,7 @@ Musteraufgaben 2028 (papier MUSTER-EBR, MUSTER-FOR): neues Format mit hilfsmitte
 ## 4 Kürzel und Werte
 
 papier: OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR
-block: Basis (Aufgabe 1 „Basisaufgaben"; ab 2028 der hilfsmittelfreie Teil) → katalog-basis.csv; Kontext (alle übrigen Aufgaben) → katalog-kontext.csv
+block: Basis (Aufgabe 1 „Basisaufgaben"; ab 2028 der hilfsmittelfreie Teil) → msa-katalog-basis.csv; Kontext (alle übrigen Aufgaben) → msa-katalog-kontext.csv
 id: Jahr-papier-BlockkürzelAufgabeTeilaufgabe mit Blockkürzel B oder K: 2025-OS-B1a, 2025-OS-K3b, 2026-FOR-K4c, 2028-MUSTER-FOR-B1a
 stern: ja/nein in OS-Heften; in allen anderen Heften leer
 hilfsmittel: ja; nein nur im hilfsmittelfreien Teil der Musteraufgaben 2028
@@ -62,7 +64,7 @@ Daten und Zufall: Daten darstellen · Kenngrößen · Diagramme lesen und beurte
 - Versteckte Leistungen: Nach der Rechnung folgt ohne Buchstaben „X behauptet … Entscheiden Sie … Begründen Sie" (2025, Aufgabe 3b). Eine Zeile, beide Leistungen erfasst, Punkte ungeteilt.
 - Ankreuz-Basisaufgaben: ergebnis nennt die richtige Option in ihrem Wortlaut, nicht ihre Position.
 - Zeichenaufgaben im Koordinatensystem: skizze nennt Achsenbereiche und Gitter; ergebnis die kennzeichnenden Punkte.
-- Fehlende Inhalte 2021–2023 sind Vorgabe, kein Trend (vorgaben.md). Beim Erfassen ohne Bedeutung.
+- Fehlende Inhalte 2021–2023 sind Vorgabe, kein Trend (msa-vorgaben.md). Beim Erfassen ohne Bedeutung.
 - Musteraufgaben 2028: ergebnis und afb_amtlich aus dem Erwartungshorizont, ergebnis mit Zusatz „amtlich"; eigene Rechnung als Kontrolle.
 
 ## 8 Beispielzeilen
