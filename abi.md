@@ -1,5 +1,7 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.21 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Version 0.22 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 0.21 (Auftrag C, Teil 2): § 7 Lauf 23 in der Liste der
+nachgezogenen Dubletten; alle Vormerkungen des Bestands sind Verweise.
 Änderungen gegenüber 0.20 (Auftrag C, Teil 4): § 11 Struktur bis 2021 und
 Bewertungsschlüssel als Reihe (Band 2021), Abgleich mit
 hefte/hinweise-2027-bebb.md; § 3, § 10, § 11 CAS-Befund berichtigt – die
@@ -398,9 +400,11 @@ Themen belegt.
   der amtliche Bereich der Poolzeile (Vorrang des Amtlichen, Kern § 5 v0.6);
   die Landeszeile zieht per abgleich.py nach, sobald die Poolzeile erfasst ist
   (Lauf 16: fünf Zeilen 2018-be-gk auf den Wert der Poolzeile; Lauf 20: elf
-  Zeilen aus 2017-bb-ea, 2018-bb-ea, 2022-bebb-gk auf den amtlichen Bereich),
-  der alte Wert bleibt in bemerkung. Eine Poolzeile, die ihre Schätzung aus
-  der Landeszeile übernommen hat, wird beim Stapellauf auf den amtlichen
+  Zeilen aus 2017-bb-ea, 2018-bb-ea, 2022-bebb-gk auf den amtlichen Bereich;
+  Lauf 23: neun Zeilen aus 2019-be-gk, 2021-be-gk, 2025-bebb-lk beim
+  Schließen der Vormerkungen), der alte Wert bleibt in bemerkung. Eine
+  Poolzeile, die ihre Schätzung aus der Landeszeile übernommen hat, wird
+  beim Stapellauf auf den amtlichen
   Bereich gesetzt (iqb-bau.py v1.5). Ein Heft ist vollständig, wenn jede Aufgabe aus
   KONFIG["soll"] Zeilen hat und jede Punktsumme stimmt; probe = True prüft,
   ohne zu schreiben.

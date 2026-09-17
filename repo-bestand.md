@@ -57,7 +57,7 @@ beide, **X** nicht mehr in Gebrauch.
 | `iqb-pruefungen.md` | K (iqb) | Stapelliste, Befunde (252 KB, größte Textdatei), Änderungslog | 17.09. | 13.09. | 17.09. | 77 |
 | `abitur-vokabular.md` | K (abi, iqb) | Gemeinsames Vokabular: Sachgebiete, Themen, Geltungstabelle, Ausschlussliste, Gegenstandsklassen | v1.4, 17.09. | 15.09. | 17.09. | 5 |
 | `abitur-typen.csv` | K (abi, iqb) | Gemeinsame Typenliste, 1211 Typen | 17.09. | 15.09. | 17.09. | 22 |
-| `abgleich.py` | K (abi, iqb) | Abgleichläufe 1–22 über Typenliste und beide Kataloge (jeder Lauf einmalig, als Code archiviert; 102 KB) | v0.22, 17.09. | 15.09. | 17.09. | 11 |
+| `abgleich.py` | K (abi, iqb) | Abgleichläufe 1–23 über Typenliste und beide Kataloge (jeder Lauf einmalig, als Code archiviert; 108 KB) | v0.23, 17.09. | 15.09. | 17.09. | 11 |
 | `abi-iqb-typen.md` | X (K, erledigt) | Vergleich der Typenlisten abi/iqb als Entscheidungsgrundlage für Entscheidung 25 (15.09.) | historisch; die verglichenen Listen existieren nicht mehr | 15.09. | 15.09. | 2 |
 | `blatt-konzept.md` | B | Konzept der Nachhilfehefte aus dem Katalog (Heft-Phase), Baumaschine Prüfungsprompt | v0.8, 12.09. | 05.09. | 12.09. | 8 |
 | `masterprompt.md` | B | Masterprompt (Blätter ohne Katalog), Masterfassung | v3.34, 08.09. | 07.09. | 08.09. | 7 |

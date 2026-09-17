@@ -30,17 +30,17 @@ in vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt, 9 Vormerkungen auf den Reserve-Stapel 2019-ga-B) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
-| 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2020-be-gk.pdf) | – (nicht im Band) | 175 angeboten, 100 bearbeitet (Teil A 25 Pflicht in fünf Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 35, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 51 Zeilen** (alle Aufgaben, alle Wahlwege; 3 Pool-Dubletten Teil A, 7 Vormerkungen auf den Reserve-Stapel 2020-ga-B, davon 4 abgewandelt) · Kopfzeile „Berlin – Mathematik Grundkurs 2020" |
-| 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2021-be-gk.pdf) | – (nicht im Band) | 185 angeboten; Aufbau wie die Sonderjahrgänge 2022/2023 (Teil A sieben Einheiten zu 5 BE, davon 25 bearbeitet; 2.1/2.2 je 45, 3 zu 30 und 4 zu 30 BE ohne Wahl) – rechnerisch 145 bearbeitet (kein Deckblatt im Band) | **erfasst 2026-09-17, 56 Zeilen** (alle Aufgaben; 2 Pool-Dubletten Teil A, 12 Vormerkungen auf den Reserve-Stapel 2021-ga-B, davon 2 abgewandelt) · Kopfzeile „Berlin – Mathematik Grundkurs 2021" · Aufgabe 2.2 im Band mit Summe „35“ gedruckt, die Teilaufgaben ergeben 45 (§ 4) |
+| 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt; 8 Dubletten und 1 abgewandelter Verweis auf den Pool 2019 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
+| 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2020-be-gk.pdf) | – (nicht im Band) | 175 angeboten, 100 bearbeitet (Teil A 25 Pflicht in fünf Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 35, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 51 Zeilen** (alle Aufgaben, alle Wahlwege; 3 Pool-Dubletten Teil A; 1 Dublette und 6 abgewandelte Verweise auf den Pool 2020 Teil B seit Lauf 23 – 4.2 e, f beim Stapellauf als abgewandelt befunden) · Kopfzeile „Berlin – Mathematik Grundkurs 2020" |
+| 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2021-be-gk.pdf) | – (nicht im Band) | 185 angeboten; Aufbau wie die Sonderjahrgänge 2022/2023 (Teil A sieben Einheiten zu 5 BE, davon 25 bearbeitet; 2.1/2.2 je 45, 3 zu 30 und 4 zu 30 BE ohne Wahl) – rechnerisch 145 bearbeitet (kein Deckblatt im Band) | **erfasst 2026-09-17, 56 Zeilen** (alle Aufgaben; 2 Pool-Dubletten Teil A; 10 Dubletten und 2 abgewandelte Verweise auf den Pool 2021 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2021" · Aufgabe 2.2 im Band mit Summe „35“ gedruckt, die Teilaufgaben ergeben 45 (§ 4) |
 | 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A drei Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2" nach der gewöhnlichen Wahl) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
-| 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A vier Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 32 Zeilen Pool-Dubletten mit Verweis, 1 abgewandelt) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
+| 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A vier Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 31 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt – 4 d seit Lauf 23, Befund der Markdown-Prüfung) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-gk – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2") | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
 | 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-lk – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-lk | BE/BB | erhöht | WTR | 13 (Scan, nur Aufgabenseiten; Datei hefte/2024-bebb-lk.pdf) | – (nicht im Scan) | 180 angeboten, 120 bearbeitet (Schlüssel 2024 LK 30 / 40 / 25 / 25: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 40 zur Wahl, 3 zu 25, 4 zu 25) | **erfasst 2026-09-17, 53 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Pool-Dubletten, 3 abgewandelt, 16 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2024 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" (abi-quellen.md § 8) · Aufgabe 3 c/f mit gegenüber dem Pool vertauschten BE (§ 4) |
 | 2025 | 2025-bebb-gk | BE/BB | grundlegend | WTR | 8 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 39 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
-| 2025 | 2025-bebb-lk | BE/BB | erhöht | WTR | 11 (Scan, nur Aufgabenseiten; Datei hefte/2025-bebb-lk.pdf) | – (nicht im Scan) | 150 angeboten, 100 bearbeitet (Schlüssel seit 2025 LK 30 / 30 / 20 / 20: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 30 zur Wahl, 3 zu 20, 4 zu 20) | **erfasst 2026-09-17, 46 Zeilen** (alle Aufgaben, beide Wahlwege; 29 Pool-Dubletten, 7 Vormerkungen auf den MMS-Zweig 2025-ea-B, davon 3 abgewandelt, 10 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2025 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" · 2.1 Regenwasser ist die WTR-Fassung der Poolaufgabe Analysis MMS 1 (§ 4) |
+| 2025 | 2025-bebb-lk | BE/BB | erhöht | WTR | 11 (Scan, nur Aufgabenseiten; Datei hefte/2025-bebb-lk.pdf) | – (nicht im Scan) | 150 angeboten, 100 bearbeitet (Schlüssel seit 2025 LK 30 / 30 / 20 / 20: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 30 zur Wahl, 3 zu 20, 4 zu 20) | **erfasst 2026-09-17, 46 Zeilen** (alle Aufgaben, beide Wahlwege; 29 Pool-Dubletten; 4 Dubletten und 3 abgewandelte Verweise auf den MMS-Zweig 2025-ea-B seit Lauf 23, 10 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2025 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" · 2.1 Regenwasser ist die WTR-Fassung der Poolaufgabe Analysis MMS 1 (§ 4) |
 | 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-gk.pdf, umbenannt 17.09.2026, vorher 2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
 | 2026 | 2026-bb-ea | BB | erhöht | WTR | 47 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-ea.pdf, umbenannt 17.09.2026, vorher 2026-bebb-lk.pdf) | – (nicht im Band) | 150 angeboten, 100 bei Wahl (Teil-A-Wahl aus 1.5–1.10, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 50 Zeilen** (alle Aufgaben, beide Wahlwege; 39 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 
@@ -69,13 +69,13 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
-| 2019-be-gk | 45 | 51 | 25 (49 %) | 4 von 4 (100 %), alle 4 geerbt; eigene 0 (die 41 Landeszeilen tragen keinen amtlichen Bereich) | 0 | 0 | 19 von 51 (37 %) | Heft (be-gk) 1; alle: be-gk 1, be-lk 0, bb-gk 1, bb-ea 0 | 35 Werte, 34 von 45 Zeilen im Niveau bekannt (76 %), 1 Wert neu im Gesamtbestand | 12 von 45; 35 von 180 BE (19 %), davon 8 Zeilen vorgemerkt („Poolaufgabe (nicht erfasst)", 2019-ga-B); abgewandelt 2 Zeilen, 7 BE (1.4 c erfasst, 3.2 b vorgemerkt) |
-| 2020-be-gk | 51 | 54 | 17 (31 %) | 3 von 3 (100 %), alle 3 geerbt; eigene 0 (48 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 20 von 54 (37 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 33 Werte, 43 von 51 Zeilen im Niveau bekannt (84 %), 1 Wert neu im Gesamtbestand | 6 von 51; 20 von 175 BE (11 %), davon 3 Zeilen vorgemerkt (2020-ga-B, Aufgabenteil 2 von 4.2); abgewandelt 4 Zeilen, 10 BE (4.2 Aufgabenteil 1, vorgemerkt) |
-| 2021-be-gk | 56 | 56 | 25 (45 %) | 2 von 2 (100 %), alle 2 geerbt; eigene 0 (54 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 21 von 56 (38 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 51 von 56 Zeilen im Niveau bekannt (91 %), 0 Werte neu im Gesamtbestand | 12 von 56; 37 von 185 BE (20 %), davon 10 Zeilen vorgemerkt (2021-ga-B: 3 a, c, d, g, h, i; 4 c, g, h, i); abgewandelt 2 Zeilen, 7 BE (4 a, d vorgemerkt) |
+| 2019-be-gk | 45 | 51 | 25 (49 %) | 4 von 4 (100 %) im Heftlauf, alle 4 geerbt; seit Lauf 23 12 von 12 (100 %; acht Teil-B-Dubletten dazu, vier davon auf den amtlichen Bereich nachgezogen); eigene 0 (33 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 19 von 51 (37 %) | Heft (be-gk) 1; alle: be-gk 1, be-lk 0, bb-gk 1, bb-ea 0 | 35 Werte, 34 von 45 Zeilen im Niveau bekannt (76 %), 1 Wert neu im Gesamtbestand | 12 von 45; 35 von 180 BE (19 %), seit Lauf 23 alle „Dublette von:“ (2019-ga-B erfasst); abgewandelt 2 Zeilen, 7 BE (1.4 c, 3.2 b) |
+| 2020-be-gk | 51 | 54 | 17 (31 %) | 3 von 3 (100 %) im Heftlauf, alle 3 geerbt; seit Lauf 23 4 von 4 (100 %; 4.2 g dazu); eigene 0 (47 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 20 von 54 (37 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 33 Werte, 43 von 51 Zeilen im Niveau bekannt (84 %), 1 Wert neu im Gesamtbestand | 4 von 51; 14 von 175 BE (8 %), seit Lauf 23 alle „Dublette von:“ (im Heftlauf 6 Zeilen, 20 BE: 4.2 e, f sind nach dem Stapellauf abgewandelt – 1/3 statt 29 %); abgewandelt 6 Zeilen, 16 BE (4.2 a–f) |
+| 2021-be-gk | 56 | 56 | 25 (45 %) | 2 von 2 (100 %) im Heftlauf, alle 2 geerbt; seit Lauf 23 12 von 12 (100 %; zehn Teil-B-Dubletten dazu, vier davon auf den amtlichen Bereich nachgezogen); eigene 0 (44 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 21 von 56 (38 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 51 von 56 Zeilen im Niveau bekannt (91 %), 0 Werte neu im Gesamtbestand | 12 von 56; 37 von 185 BE (20 %), seit Lauf 23 alle „Dublette von:“ (2021-ga-B erfasst; 3 a mit „Gesamtoberfläche“ statt „Oberfläche“ als wortgleich geführt); abgewandelt 2 Zeilen, 7 BE (4 a, d) |
 | 2024-bebb-lk | 53 | 55 | 13 (24 %) | 33 von 34 (97 %), alle 34 geerbt; eigene 0 (19 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 10 von 55 (18 %) | Heft (be-lk oder bb-ea) 0; alle: be-gk 19, be-lk 0, bb-gk 19, bb-ea 0 | 36 Werte, 51 von 53 Zeilen im Niveau bekannt (96 %), 0 Werte neu im Gesamtbestand | 34 von 53; 110 von 180 BE (61 %); abgewandelt 3 Zeilen, 15 BE |
-| 2025-bebb-lk | 46 | 47 | 11 (23 %) | 28 von 29 (97 %), alle 29 geerbt; eigene 0 (17 Landes- und vorgemerkte Zeilen ohne amtlichen Bereich) | 0 | 0 | 4 von 47 (9 %) | Heft (be-lk oder bb-ea) 0; alle: be-gk 11, be-lk 0, bb-gk 11, bb-ea 0 | 33 Werte, 46 von 46 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | 33 von 46; 104 von 150 BE (69 %), davon 4 Zeilen vorgemerkt (2025-ea-B MMS: 2.1 a, d, g, h); abgewandelt 3 Zeilen, 13 BE (2.1 c, e, f vorgemerkt) |
+| 2025-bebb-lk | 46 | 47 | 11 (23 %) | 28 von 29 (97 %) im Heftlauf, alle 29 geerbt; seit Lauf 23 32 von 33 (97 %; vier MMS-Dubletten dazu, 2.1 h auf den amtlichen Bereich nachgezogen); eigene 0 (13 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 4 von 47 (9 %) | Heft (be-lk oder bb-ea) 0; alle: be-gk 11, be-lk 0, bb-gk 11, bb-ea 0 | 33 Werte, 46 von 46 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | 33 von 46; 104 von 150 BE (69 %), seit Lauf 23 alle „Dublette von:“ (2025-ea-B MMS erfasst); abgewandelt 3 Zeilen, 13 BE (2.1 c, e, f) |
 | 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) im Heftlauf; seit Lauf 18 16 von 24 (67 %; die 16 Teil-B-Dubletten trugen ihre eigene Schätzung, die Poolzeilen hatten sie übernommen); seit Lauf 20 23 von 24 (96 %; sieben Landeszeilen auf den amtlichen Bereich nachgezogen, 23 geerbt, eigene 0 von 1) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), seit Lauf 18 alle „Dublette von:“ (2022-ga-B erfasst); abgewandelt 3 Zeilen, 11 BE |
-| 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %), alle 32 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %); abgewandelt 1 Zeile, 4 BE |
+| 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %) im Heftlauf, alle 32 geerbt (Dubletten, im Pool geeicht); seit Lauf 23 26 von 31 (84 %; 4 d abgewandelt, ohne Maßstab); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %) im Heftlauf, seit Lauf 23 31 von 68; 98 von 220 (45 %); abgewandelt 2 Zeilen, 6 BE (4 d seit Lauf 23: „höchstens 50 %“ statt „mehr als 50 %“) |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
 | 2023-bebb-lk | 66 | 68 | 24 (35 %) | 27 von 33 (82 %), alle 33 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 4 von 68 (6 %, Niveau lk = 2022-bebb-lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 2, nur bb-ea 0; alle: be-gk 25, be-lk 2, bb-gk 23, bb-ea 0 | 42 Werte, 62 von 66 Zeilen im erhöhten Niveau (Pool) bekannt (94 %), 2 Werte neu im Gesamtbestand | 33 von 66; 105 von 220 (48 %); abgewandelt 2 Zeilen, 9 BE |
 | 2024-bebb-gk | 47 | 46 | 16 (35 %) | 17 von 20 (85 %) | 0 | 0 | 7 von 46 (15 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 45 von 47 Zeilen im Niveau bekannt (96 %), 1 Wert neu im Gesamtbestand | 20 von 47; 55 von 155 (35 %) |
@@ -2009,6 +2009,74 @@ Hefte (22–40 Minuten je Heft; Textebene schneller als Bildscan). Werkzeuge im
 Scratchpad: mdcheck.py (gemeinsamer Teil), check_md<kürzel>.py je Heft,
 cropsrel.py (Ausschnitte), md_nach.py (Nachführen).
 
+**Abgleichlauf 23 – Verweise schließen nach den vier Reserve-Stapeln
+(Auftrag C, Teil 2, 17.09.2026; abgleich.py v0.23).** Die 35 Vormerkungen
+„Poolaufgabe (nicht erfasst …)" des Bestands (2019-be-gk 9, 2020-be-gk 7,
+2021-be-gk 12, 2025-bebb-lk 7) sind Verweise: 23 wortgleiche auf „Dublette
+von: <id>." mit der AB-Spalte der Poolzeile in afb_amtlich und bemerkung, 12
+abgewandelte auf „Abgewandelt von: <id>; <Unterschied>." (afb_amtlich leer,
+„AB amtlich der Poolzeile: X." in bemerkung). Typvergleich bei allen 23
+wortgleichen Paaren gleich (typ und typ_neben), nichts war unumstellbar.
+Zwei Vormerkungen wichen vom Befund beim Stapellauf ab: 2020-be-gk 4.2 e, f
+waren als wortgleich vorgemerkt, das Heft rechnet aber mit 1/3 statt 29 %
+weiblichen Beschäftigten (y ≈ 0,0117 statt 0,01015; 85,7 % statt 88,0 %) –
+jetzt „Abgewandelt von:" mit diesem Unterschied; 2021-be-gk 3 a
+(„Gesamtoberfläche" statt „Oberfläche", dieselbe Aufgabe, dasselbe Ergebnis)
+bleibt wortgleich. Neun wortgleiche Dubletten haben ihre Schätzung auf den
+amtlichen Bereich der Poolzeile nachgezogen (Vorrang des Amtlichen, Kern § 5,
+wie Lauf 20; alter Wert in bemerkung): 2019-be-gk 3.2 c I → II, 3.2 e I →
+II, 3.2 f II → III, 4.1 e III → II; 2021-be-gk 3 a II → I, 3 i III → II, 4 c
+II → I, 4 i II → III; 2025-bebb-lk 2.1 h II → III. Die drei Landeszeilen
+2019-be-gk 3.2 c, e, f hatten dieselbe Schätzung wie die Poolzeile
+(dort eigene Schätzung, als Messwert stehen gelassen, iqb-pruefungen.md § 4);
+als wortgleiche Dubletten ziehen sie gleichwohl nach, die Poolzeile nicht.
+Abgewandelte Fassungen behalten ihre eigene Schätzung (2019-be-gk 3.2 b II
+gegen amtlich I, 2020-be-gk 4.2 c II gegen I, 2025-bebb-lk 2.1 e II gegen
+III, 2.1 f II gegen I – Schätzungen ohne Maßstab).
+
+*Feldkorrekturen aus der Markdown-Prüfung (Teil 1).* 2023-bebb-gk 2.1 c und
+d: ergebnis rundet f(−1 + √5) = −4,2546 jetzt auf −4,25 statt −4,26 (Vermerk
+in bemerkung). 2022-bebb-lk 4 d: das Heft fragt „höchstens 50 %", der Pool
+„mehr als 50 %" – der Verweis „Dublette von:" wird zu „Abgewandelt von:
+2022MerhoehtBStochastikWTR1-1d; …", afb_amtlich leer, gesucht, ergebnis
+(P(X ≤ 50) ≈ 0,043 statt P(X > 50) ≈ 96 %), zwischenergebnis (0,0428),
+stichwoerter, voraussetzungen, verfahren und fehlerquelle folgen dem Heft;
+Wert mit sympy nachgerechnet. Kennzahlen des Hefts: Poolquote 31 von 68 Zeilen
+(98 von 220 BE), abgewandelt 2 Zeilen; Eichung 26 von 31.
+
+*Ergebnis.* 38 Zeilen angefasst (Höchstzahl 38), Typen unverändert (1323),
+kein Vermerk „Poolaufgabe (nicht erfasst)" mehr im Bestand – offene Posten 0.
+Landesverwendung des Pools jetzt 344 Dubletten und 24 abgewandelte
+Verweise; Eichung über den abi-Bestand 323 von 344 gewerteten Zeilen (93 %),
+450 Zeilen ohne Maßstab (vorher 472). Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung beider Bau-Skripte bestanden.
+
+*Weitere Vormerkungen zu erwarten?* Vormerkungen entstehen nur, wenn ein
+Landesheft eine Teilaufgabe aus einem nicht erfassten Poolstapel enthält.
+Erfasst sind die Teil-A-Stapel 2017 erhöht und 2018–2026 beider Niveaus, die
+Teil-B-Stapel 2018–2026 grundlegend (WTR), 2018 und 2022–2026 erhöht (WTR)
+sowie die MMS-Zweige 2026 beider Niveaus und 2025 erhöht. Reserve bleiben:
+Teil A 2017 grundlegend und die Beispielaufgaben; Teil B 2017 beider Niveaus,
+2019–2021 erhöht, die Beispielaufgaben und die MMS-Zweige 2022–2025 (außer
+2025 erhöht); CAS bis 2021 hat keine eigene Fassung (iqb.md § 7). Unerfasste
+Landeshefte mit Poolanteil: 2017-be-gk (WTR, nicht erfasst – trifft 2017-ga-A
+und 2017-ga-B, beide Reserve), die eigenen Aufgaben von 2017-be-lk und
+2018-be-lk (teilweise über bb-ea abgedeckt; 2017-ea-B Reserve, 2018-ea-B
+erfasst), die Berliner LK-Hefte 2019–2021 (STARK-Bände, nicht vorhanden;
+Pool 2019–2021 erhöht Teil B Reserve) und die Brandenburger Fassungen
+2019–2021 (kein Band bekannt); die CAS-Hefte 2017/2018 sind zurückgestellt
+und träfen CAS-Dateien, für die der Pool keine eigenen Zeilen vorsieht. Die
+Hefte 2022–2026 sind vollständig erfasst und zeigen nur auf erfasste Stapel;
+Poolanteile auf MMS-Zweige 2022–2024 sind in ihnen nicht aufgetreten. Erwartung:
+neue Vormerkungen nur aus 2017-be-gk (Teil A und B 2017 grundlegend) und aus
+den LK-Heften 2019–2021, falls sie beschafft werden; die Hefte ab 2022 bringen
+keine mehr. Vorschlag einer Regel (nicht gesetzt): „Wird ein Landesheft
+erfasst, dessen Poolaufgaben in einem Reserve-Stapel liegen, wird dieser
+Stapel im selben Auftrag erfasst und die Vormerkung im anschließenden
+Abgleichlauf umgestellt – eine Vormerkung überlebt keinen Auftrag." Das hält
+den Übergangszustand kurz, ohne die Reserve als solche aufzugeben; ob das
+Abbruchkriterium der Reserve dabei unberührt bleibt, entscheidet der Lehrer.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2417,6 +2485,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 23 (abgleich.py v0.23, Auftrag C Teil 2): die 35 Vormerkungen aus 2019-be-gk, 2020-be-gk, 2021-be-gk und 2025-bebb-lk zu Verweisen umgestellt – 23 „Dublette von:“ (AB-Spalte in afb_amtlich, neun Schätzungen auf den amtlichen Bereich nachgezogen), 12 „Abgewandelt von:“ (2020-be-gk 4.2 e, f erst beim Stapellauf als abgewandelt befunden). Feldkorrekturen aus Teil 1: 2023-bebb-gk 2.1 c/d Rundung −4,25; 2022-bebb-lk 4 d „höchstens 50 %“ als „Abgewandelt von:“ mit eigenem Ergebnis. 38 Zeilen, Typen unverändert (1323), offene Posten 0; abi.md v0.22 (§ 7). |
 | 2026-09-17 | Auftrag C, Teil 1 abgeschlossen: Markdown-Korpus aller zehn Hefte 2022–2026 (529 Teilaufgaben, 451 nachgerechnet, 2 Katalogabweichungen vorgemerkt; § 4). |
 | 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2022-bebb-lk (hefte-md/, außerhalb des Repos): 68 von 68 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 58 Ergebnisse nachgerechnet, 1 Abweichungen; 10 Abbildungen (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2022-bebb-gk (hefte-md/, außerhalb des Repos): 57 von 57 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 51 Ergebnisse nachgerechnet, 0 Abweichungen; 6 Abbildungen (§ 4). |

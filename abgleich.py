@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.22 · 17.09.2026 · gilt mit abitur-vokabular.md v1.4, abi-bau.py v0.9 und iqb-bau.py v1.5
+Version 0.23 · 17.09.2026 · gilt mit abitur-vokabular.md v1.4, abi-bau.py v0.9 und iqb-bau.py v1.5
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -113,6 +113,17 @@ v0.7): Feldkorrektur afb_amtlich in den 21 Dubletten der Hefte bis 2018
 (2017-bb-ea und 2018-bb-ea Teil A aus dem Bereichswert der Poolzeile,
 2018-be-gk Teil B aus der AB-Spalte), damit „afb_amtlich leer" im ganzen
 Bestand „Schätzung ohne Maßstab" heißt; Typen unverändert (1211).
+Lauf 23 (17.09.2026, Auftrag C Teil 2 – Verweise schließen nach den vier
+Reserve-Stapeln 2020-ga-B, 2021-ga-B, 2025-ea-B MMS und 2019-ga-B): die 35
+Vormerkungen aus 2019-be-gk, 2020-be-gk, 2021-be-gk und 2025-bebb-lk werden
+zu Verweisen – 23 wortgleiche auf „Dublette von: <id>." (AB-Spalte der
+Poolzeile in afb_amtlich und bemerkung; neun davon ziehen ihre Schätzung auf
+den amtlichen Bereich nach, Vorrang des Amtlichen), 12 abgewandelte auf
+„Abgewandelt von: <id>; <Unterschied>." (zwei davon erst beim Stapellauf als
+abgewandelt befunden: 2020-be-gk 4.2 e, f). Dazu drei Feldkorrekturen aus der
+Markdown-Prüfung (Auftrag C Teil 1): Rundung in 2023-bebb-gk 2.1 c, d;
+2022-bebb-lk 4 d vom Dubletten- auf den Abgewandelt-Verweis mit eigenem
+Ergebnis. Typen unverändert (1323).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1327,6 +1338,108 @@ def zeile_22(d):
         sys.exit(f"Lauf 22 fasst mehr als {HOECHSTENS_22} Zeilen an – Abbruch")
     return True
 
+# ======================================================================= Lauf 23
+# Verweise schließen nach den vier Reserve-Stapeln des Auftrags C, Teil 2
+# (2020-ga-B, 2021-ga-B, 2025-ea-B MMS, 2019-ga-B; 17.09.2026): die 35
+# Vormerkungen aus 2019-be-gk (9), 2020-be-gk (7), 2021-be-gk (12) und
+# 2025-bebb-lk (7) werden wie in Lauf 15/18 zu Verweisen – wortgleiche auf
+# „Dublette von: <id>." (typ-Abgleich, AB-Spalte der Poolzeile nach afb_amtlich
+# und bemerkung), abgewandelte auf „Abgewandelt von: <id>; <Unterschied>.".
+# Zwei als wortgleich vorgemerkte Zeilen sind nach dem Befund beim Stapel
+# 2020-ga-B abgewandelt (4.2 e, f: 1/3 statt 29 % weibliche Beschäftigte, andere
+# Zahlenwerte) und bekommen den Unterschied aus ABGEWANDELT_23; 2021-be-gk 3 a
+# („Gesamtoberfläche" statt „Oberfläche", dieselbe Aufgabe) bleibt wortgleich.
+# Wortgleiche Dubletten ziehen ihre Schätzung auf den amtlichen Bereich nach
+# (Kern § 5, Vorrang des Amtlichen; wie Lauf 20), der alte Wert bleibt in
+# bemerkung; abgewandelte Fassungen behalten ihre eigene Schätzung. Dazu drei
+# Feldkorrekturen aus der Markdown-Prüfung (Auftrag C, Teil 1, abi-pruefungen.md
+# § 4): 2023-bebb-gk 2.1 c und d runden f(−1 + √5) = −4,2546 auf −4,25 statt
+# −4,26; 2022-bebb-lk 4 d fragt im Heft „höchstens 50 %" (P(X ≤ 50) ≈ 0,043),
+# nicht „mehr als 50 %" wie der Pool – der Verweis wird zu „Abgewandelt von:",
+# afb_amtlich wird leer, Ergebnis und Nebenfelder folgen dem Heft (Werte mit
+# sympy nachgerechnet). Abbruch bei fehlender Poolzeile oder AB-Spalte, bei
+# abweichendem typ einer wortgleichen Dublette oder bei mehr als 38 Zeilen.
+HOECHSTENS_23 = 38
+ABGEWANDELT_23 = {  # als wortgleich vorgemerkt, beim Stapellauf 2020-ga-B als abgewandelt befunden
+    "2020-be-gk-B4.2e": "das Heft hat 1/3 statt 29 % weibliche Beschäftigte (y ≈ 0,0117 statt 0,01015)",
+    "2020-be-gk-B4.2f": "das Heft hat 1/3 statt 29 % weibliche Beschäftigte (85,7 % statt 88,0 %)",
+}
+RUNDUNG_23 = {"2023-bebb-gk-B2.1c": ("≈ −4,26.", "≈ −4,25."), "2023-bebb-gk-B2.1d": ("> −4,26)", "> −4,25)")}
+FELDER_23_4D = {  # 2022-bebb-lk-B4d: Heftfassung „höchstens 50 %"
+    "afb_amtlich": "",
+    "stichwoerter": "X Anzahl mit Bedenken, n = 100, p = 0,59|P(X ≤ 50) ≈ 4,3 %",
+    "voraussetzungen": "„höchstens 50 %“ von 100 als X ≤ 50|Tabelle (Anlage) oder Rechner",
+    "verfahren": "summierte Binomialverteilung aus der Tabelle oder am Rechner",
+    "gesucht": "Wahrscheinlichkeit, dass höchstens 50 % Datenschutzbedenken haben",
+    "ergebnis": "X: Anzahl der Kunden mit Datenschutzbedenken; P₀,₅₉¹⁰⁰(X ≤ 50) ≈ 0,043 (4,3 %)",
+    "zwischenergebnis": "0,0428",
+    "fehlerquelle": "X < 50 oder Gegenereignis (mehr als 50 %) gerechnet",
+    "bemerkung": ("Abgewandelt von: 2022MerhoehtBStochastikWTR1-1d; das Heft fragt „höchstens 50 %“ (P(X ≤ 50) ≈ 0,043), "
+                  "der Pool „mehr als 50 %“ (P(X > 50) ≈ 96 %) – am Pool-PDF geprüft, Landesfassung oder Verlagsdruckfehler. "
+                  "AB amtlich der Poolzeile: I. Bis Lauf 23 als wortgleiche Dublette mit dem Ergebnis der Poolzeile geführt; "
+                  "Befund der Markdown-Prüfung (Auftrag C Teil 1, 17.09.2026). Pool Teil B Stochastik WTR 1, Aufgabe 1 d; "
+                  "das Heft legt eine Tabelle der summierten Binomialverteilung für n = 100 bei (Anlage), die Poolaufgabe "
+                  "setzt den Rechner voraus. Eigene Rechnung, mit sympy bestätigt (0,0428)."),
+}
+_PROTOKOLL_23 = []
+
+
+def zeile_23(d):
+    i = d["id"]
+    if i in RUNDUNG_23:
+        alt, neu = RUNDUNG_23[i]
+        if d["ergebnis"].count(alt) != 1:
+            sys.exit(f"{i}: Rundung {alt} nicht genau einmal in ergebnis – Abbruch")
+        d["ergebnis"] = d["ergebnis"].replace(alt, neu)
+        d["bemerkung"] += (" Rundung in ergebnis berichtigt (Lauf 23, Markdown-Prüfung Auftrag C Teil 1): "
+                           "f(−1 + √5) = −4,2546 ≈ −4,25, nicht −4,26.")
+        _PROTOKOLL_23.append((i, "–", "Rundung berichtigt", ""))
+    elif i == "2022-bebb-lk-B4d":
+        if not d["bemerkung"].startswith("Dublette von: 2022MerhoehtBStochastikWTR1-1d. AB amtlich: I."):
+            sys.exit(f"{i}: unerwarteter Feldanfang – Abbruch")
+        d.update(FELDER_23_4D)
+        _PROTOKOLL_23.append((i, "2022MerhoehtBStochastikWTR1-1d", "abgewandelt (war Dublette)", ""))
+    else:
+        m = VORSTUFE_15.match(d["bemerkung"])
+        if not m:
+            return False
+        abgew, pid, unterschied = m.group(1), m.group(2), m.group(3)
+        q = poolzeilen_15().get(pid)
+        if q is None:
+            sys.exit(f"{i}: Poolzeile {pid} nicht im iqb-Katalog – Vermerk bleibt")
+        ab = AB_15.search(q["bemerkung"])
+        if not ab:
+            sys.exit(f"{i}: Poolzeile {pid} ohne AB-Spalte – Abbruch")
+        rest = d["bemerkung"][m.end():]
+        vermerk = ""
+        if i in ABGEWANDELT_23:
+            if abgew:
+                sys.exit(f"{i}: schon als abgewandelt vorgemerkt – ABGEWANDELT_23 prüfen")
+            abgew, unterschied = True, ABGEWANDELT_23[i]
+            vermerk = "Im Heftlauf als wortgleich vorgemerkt, Befund beim Stapel 2020-ga-B: abgewandelt. "
+        if abgew:
+            d["bemerkung"] = f"Abgewandelt von: {pid}; {unterschied}. AB amtlich der Poolzeile: {ab.group(1)}. " + vermerk + rest
+            _PROTOKOLL_23.append((i, pid, "abgewandelt", "typ gleich" if d["typ"] == q["typ"] else "typ verschieden"))
+        else:
+            if d["typ"] != q["typ"] or d["typ_neben"] != q["typ_neben"]:
+                sys.exit(f"{i}: typ weicht von {pid} ab – nicht umstellbar:\n  abi: {d['typ']}|{d['typ_neben']}\n  iqb: {q['typ']}|{q['typ_neben']}")
+            niveau = "erhöhten" if "erhoeht" in pid else "grundlegenden"
+            fassung = "MMS-Fassung; " if "MMS" in pid else ""
+            d["bemerkung"] = (f"Dublette von: {pid}. AB amtlich: {ab.group(1)}. Wortgleich mit dem {niveau} Pool {q['jahr']} "
+                              f"({fassung}Lauf 23; im Heftlauf vorgemerkt). " + rest)
+            d["afb_amtlich"] = ab.group(1)
+            nach = ""
+            if d["niveau_geschaetzt"] != ab.group(1):
+                alt = d["niveau_geschaetzt"]
+                d["niveau_geschaetzt"] = ab.group(1)
+                d["bemerkung"] += (f" Schätzung nach dem amtlichen Bereich der Poolzeile nachgezogen (Lauf 23, Vorrang des "
+                                   f"Amtlichen, Kern § 5): {ab.group(1)} statt {alt}.")
+                nach = f"Schätzung {alt} → {ab.group(1)}"
+            _PROTOKOLL_23.append((i, pid, "dublette", nach))
+    if len(_PROTOKOLL_23) > HOECHSTENS_23:
+        sys.exit(f"Lauf 23 fasst mehr als {HOECHSTENS_23} Zeilen an – Abbruch")
+    return True
+
 
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
@@ -1351,10 +1464,12 @@ LAEUFE = {
     20: ({}, {}, {}, {}),
     21: ({}, ZUSAMMEN_21, NEUE_DEFINITION_21, {}),
     22: ({}, {}, {}, {}),
+    23: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
-                 18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)]}
+                 18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)],
+                 23: [("*", zeile_23)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -1502,6 +1617,15 @@ def main():
         print(f"\nVerweise geschlossen ({len(_PROTOKOLL_18)} Zeilen, höchstens {HOECHSTENS_18}):")
         for i, pid, art, gleich in _PROTOKOLL_18:
             print(f"  {i} → {pid} [{art}] typ {'gleich' if gleich else 'VERSCHIEDEN'}")
+        rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
+                if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
+        print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+    if LAUF == 23:
+        if len(_PROTOKOLL_23) != HOECHSTENS_23:
+            sys.exit(f"Lauf 23: {len(_PROTOKOLL_23)} statt {HOECHSTENS_23} Zeilen angefasst")
+        print(f"\nVerweise geschlossen und Felder korrigiert ({len(_PROTOKOLL_23)} Zeilen):")
+        for i, pid, art, zusatz in _PROTOKOLL_23:
+            print(f"  {i} → {pid} [{art}]" + (f" {zusatz}" if zusatz else ""))
         rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
                 if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
         print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")

@@ -3169,9 +3169,9 @@ c Winkelformel, e zwei Routineschritte, f Fallunterscheidung; Stochastik WTR
 2 3 a Term erklären, WTR 3 1 c Quotient aus der Tafel), begründet und stehen
 gelassen. Drei davon (AG/LA (A2) WTR 1 c, e, f) decken sich mit der Schätzung
 der wortgleichen Landeszeile; sie sind eigene Schätzungen, keine übernommenen,
-und bleiben als Messwert – die Landeszeilen 3.2 c, e, f behalten ihre
-Schätzung, bekommen im Abgleichlauf aber den amtlichen Bereich. Wie bei den
-übrigen Reserve-Stapeln keine unabhängige Kennzahl (Standardbezug beim
+und bleiben als Messwert – die Landeszeilen 3.2 c, e, f ziehen als wortgleiche
+Dubletten im Abgleichlauf auf den amtlichen Bereich nach (Kern § 5, Lauf 23).
+Wie bei den übrigen Reserve-Stapeln keine unabhängige Kennzahl (Standardbezug beim
 Schätzen in Sicht). Alle 48 rechnerischen amtlichen Ergebnisse mit sympy
 nachgerechnet (Laktat: Abweichung −2,8 %, mittlere Änderungsrate 1,6, Differenz k − g =
 1/40 · (x − 5)², Schnittstellen 25/13 und 105/13, Produkt der Integrale ≈
@@ -3203,6 +3203,7 @@ Eichung über den Bestand 94 %). Aufwand etwa 90 Minuten.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 23 (Verweise schließen nach 2020-ga-B, 2021-ga-B, 2025-ea-B MMS, 2019-ga-B): 35 Vermerke des abi-Katalogs umgestellt – Landesverwendung 2019-ga-B-wtr 8 Dubletten und 1 abgewandelte, 2020-ga-B-wtr 1 und 6, 2021-ga-B-wtr 10 und 2, 2025-ea-B-mms 4 und 3; 2022-ea-B-wtr 25 Dubletten und 2 abgewandelte (4 d des Landeshefts 2022-bebb-lk fragt „höchstens 50 %“). Keine Vormerkung mehr offen (344 Dubletten, 24 abgewandelte insgesamt). iqb-katalog.csv und Typen unverändert (1443, 1323). |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2019-ga-B (WTR) erfasst – Reserve geöffnet wegen der neun Vormerkungen aus 2019-be-gk 3.2 und 4.1; 66 Zeilen aus 8 Dateien, 47 neue Typen (Typenliste 1276 → 1323), Eichung 59 von 66, Abbruchkriterium 1 von 5. Alle 35 Vormerkungen des abi-Bestands haben jetzt eine erfasste Poolzeile; Umstellung im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2025-ea-B (MMS-Zweig) erfasst – Reserve geöffnet wegen der sieben Vormerkungen aus 2025-bebb-lk 2.1; 25 Zeilen aus 4 Dateien, 19 neue Typen (Typenliste 1257 → 1276), Eichung 24 von 25, Abbruchkriterium 0 von 5. 26 der 35 Vormerkungen des abi-Bestands haben jetzt eine erfasste Poolzeile (2019-ga-B folgt); Umstellung im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2021-ga-B (WTR) erfasst – Reserve geöffnet wegen der zwölf Vormerkungen aus 2021-be-gk; 47 Zeilen, 19 neue Typen (Typenliste 1238 → 1257), Eichung 45 von 47, Abbruchkriterium 1 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
