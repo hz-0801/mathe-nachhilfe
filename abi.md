@@ -1,5 +1,9 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.22 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Version 0.23 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 0.22 (Auftrag D „Namensschema, Erweiterbarkeit,
+Begründungen", Teil 2): § 6 Geltung je Zielprüfung in eigenen Dateien
+abi-<zielprüfung>-geltung.md, das Profil nennt seine Zielprüfungen;
+abi-bau.py v0.10 liest sie dort (abitur-vokabular.md v1.5).
 Änderungen gegenüber 0.21 (Auftrag C, Teil 2): § 7 Lauf 23 in der Liste der
 nachgezogenen Dubletten; alle Vormerkungen des Bestands sind Verweise.
 Änderungen gegenüber 0.20 (Auftrag C, Teil 4): § 11 Struktur bis 2021 und
@@ -297,9 +301,20 @@ abitur-vokabular.md § 1 (gemeinsam mit dem Profil iqb, Entscheidung 25).
 
 ## 6 Themenliste, Geltung, Schnitt
 
-Themenliste, Geltungstabelle (be-gk, be-lk, bb-gk, bb-ea) und
-Gegenstandsklassen stehen in abitur-vokabular.md § 2–4, die Handlung je
-format im Kern § 5; abi-bau.py liest sie dort.
+Themenliste und Gegenstandsklassen stehen in abitur-vokabular.md § 2 und
+§ 4, die Handlung je format im Kern § 5; abi-bau.py liest sie dort. Die
+Geltung steht je Zielprüfung in einer eigenen Datei (seit 17.09.2026,
+Auftrag D Teil 2; vorher Tabelle in abitur-vokabular.md § 3):
+
+Zielprüfungen: be-gk · be-lk · bb-gk · bb-ea (Geltung je Zielprüfung in
+abi-<zielprüfung>-geltung.md; abi-bau.py liest diese Zeile und die Dateien)
+
+Jede Geltungsdatei sagt in § 1, welche Themen der Liste die Zielprüfung
+verlangt (ja/nein, eine Zeile je Thema), in § 2, welche Aufgabenformen sie
+ausschließt, in § 3 die Rechnerfassung; die Anmerkungen zu einzelnen Themen
+bleiben in abitur-vokabular.md § 3. Kennung der Zielprüfung wie bisher
+(Land-Niveau); die Vollform nach namensschema.md § 2 (abi-be-gk) steht im
+Kopf jeder Datei.
 Bis v0.7 stand die Themenliste hier (46 Themen); die gemeinsame Liste hat 49
 (dazu Matrizen und Übergangsprozesse, Konfidenzintervalle, Lineare
 Gleichungssysteme auch unter Analytische Geometrie), die Abweichungen der
@@ -317,7 +332,7 @@ Abgleichlauf. Der Schnitt wird über das Thema des Typs gezählt.
 § 3): Ein Heft wird gegen die Zielprüfung(en) seines Kürzels gemessen – be-gk,
 be-lk, bb-ea; die gemeinsamen Hefte bebb-gk gegen be-gk und bb-gk, bebb-lk
 gegen be-lk und bb-ea. Eine Zeile liegt in der Geltung des Hefts, wenn ihr
-Thema in mindestens einer dieser Spalten gilt; abi-bau.py (v0.7) nennt in der
+Thema in mindestens einer dieser Zielprüfungen gilt; abi-bau.py (v0.7) nennt in der
 Kennzahlenzeile die Zahl außerhalb der Heftgeltung, bei bebb dazu beide
 Spalten einzeln, und weiterhin alle vier Zielprüfungen.
 

@@ -1,5 +1,11 @@
 # VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
-Version 1.4 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Version 1.5 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Änderungen gegenüber 1.4 (Auftrag D „Namensschema, Erweiterbarkeit,
+Begründungen", Teil 2): § 3 Geltungstabelle, Rechnerfassung und
+Ausschlussliste je Zielprüfung in eigene Dateien abi-<zielprüfung>-geltung.md
+ausgelagert, Inhalt unverändert; hier bleiben Regeln und Anmerkungen. Die
+Bau-Skripte lesen die Dateien der Zielprüfungen, die das Profil nennt
+(abi-bau.py v0.10, iqb-bau.py v1.6).
 Änderungen gegenüber 1.3 (Auftrag B „Fünf Hefte erfassen, Heftkorpus,
 Katalog gegen Stark prüfen, CAS-Delta", Teil 5): § 3 Ausschlussliste neben
 der Geltungstabelle (Aufgabenformen, nicht Themen) mit Befund im Bestand;
@@ -14,7 +20,8 @@ beide Spalten, eine Zeile gilt, wenn sie in mindestens einer liegt.
 
 Diese Datei ist die eine Quelle für alles, was abi und iqb an Vokabular
 oberhalb des Typs teilen: Sachgebiet (§ 1), Themenliste (§ 2),
-Geltungstabelle (§ 3), Gegenstandsklassen mit der Regel Zeilenthema =
+Geltungsregeln (§ 3; die Tabellen je Zielprüfung in
+abi-<zielprüfung>-geltung.md), Gegenstandsklassen mit der Regel Zeilenthema =
 Typthema (§ 4) und die Regeln der gemeinsamen Typenliste abitur-typen.csv
 (§ 6); die Handlung je format steht seit Kern v0.4 im Kern § 5 (§ 5 hier
 verweist nur). abi-bau.py, iqb-bau.py und abgleich.py lesen sie; abi.md und
@@ -99,17 +106,26 @@ Anmerkungen zur Liste:
   Kurvenuntersuchung oder Funktionsscharen, der Punkt in Entfernung unter
   Geraden.
 
-## 3 Geltungstabelle
+## 3 Geltung
 
 Ob ein Thema Prüfungsgegenstand ist, hängt von Land und Niveau ab. Quelle
 sind die vier Prüfungsschwerpunkte 2027 (Berlin ps_mathematik_2027_gk/lk,
 Brandenburg PS_Mathematik_GK/LK_2027; gelesen am 13.09.2026, Ablage in
 abi-vorgaben.md § 1). ja = in den Schwerpunkten genannt, nein = nicht
-genannt. Die Bau-Skripte lesen die Tabelle und zählen je Heft oder Stapel die
-Zeilen, deren Thema für eine Zielprüfung nicht gilt; gefiltert wird über das
-Thema, ein Zeilenfeld gibt es dafür nicht (Geltung ist eine Eigenschaft des
-Themas, nicht der Zeile). Das Abbruchkriterium der Erfassung (iqb.md § 6)
-zählt neue Schnittwerte innerhalb der Geltung.
+genannt. **Seit dem 17.09.2026 (Auftrag D, Teil 2) steht die Geltung je
+Zielprüfung in einer eigenen Datei:** abi-be-gk-geltung.md,
+abi-be-lk-geltung.md, abi-bb-gk-geltung.md, abi-bb-ea-geltung.md – § 1 die
+Themen (Tabelle „Thema | gilt", eine Zeile je Thema der Liste in § 2), § 2
+die ausgeschlossenen Aufgabenformen, § 3 die Rechnerfassung; erzeugt aus der
+Tabelle, die bis v1.4 hier stand, Inhalt unverändert (Benennung nach
+namensschema.md § 2). Welche Zielprüfungen ein Profil hat, sagt das Profil
+(abi.md § 6, iqb.md § 6, Zeile „Zielprüfungen:"); die Bau-Skripte lesen
+diese Zeile und die Dateien und zählen je Heft oder Stapel die Zeilen, deren
+Thema für eine Zielprüfung nicht gilt; gefiltert wird über das Thema, ein
+Zeilenfeld gibt es dafür nicht (Geltung ist eine Eigenschaft des Themas,
+nicht der Zeile). Das Abbruchkriterium der Erfassung (iqb.md § 6) zählt neue
+Schnittwerte innerhalb der Geltung. Hier bleiben die Regeln und Anmerkungen,
+die alle Zielprüfungen zugleich betreffen.
 
 **Geltung eines Hefts** (Entscheidung des Lehrers, 16.09.2026): Ein
 Landesheft wird gegen die Zielprüfung seines Kürzels gemessen (be-gk, be-lk,
@@ -122,58 +138,12 @@ nichts: sie werden weiter gegen alle vier Spalten gezählt. Die beiden
 Spalten je Niveau unterscheiden sich derzeit nur bei der hypergeometrischen
 Verteilung (Brandenburg ja, Berlin nein); eine bebb-Zeile dazu gilt.
 
-| Thema | be-gk | be-lk | bb-gk | bb-ea |
-|---|---|---|---|---|
-| Gleichungen lösen | ja | ja | ja | ja |
-| Lineare Gleichungssysteme | ja | ja | ja | ja |
-| Funktionsklassen und Eigenschaften | ja | ja | ja | ja |
-| Umkehrfunktion | ja | ja | ja | ja |
-| Grenzwerte und Verhalten im Unendlichen | ja | ja | ja | ja |
-| Ableitung und Änderungsrate | ja | ja | ja | ja |
-| Ableitungsregeln | ja | ja | ja | ja |
-| Tangente, Normale, Schnittwinkel | ja | ja | ja | ja |
-| Kurvenuntersuchung | ja | ja | ja | ja |
-| Ableitungsgraph und Funktionsgraph | ja | ja | ja | ja |
-| Funktionsscharen und Ortskurven | nein | ja | nein | ja |
-| Rekonstruktion von Funktionsgleichungen | ja | ja | ja | ja |
-| Extremalprobleme | ja | ja | ja | ja |
-| Stammfunktion und Hauptsatz | ja | ja | ja | ja |
-| Integrationsregeln | ja | ja | ja | ja |
-| Flächeninhalt durch Integration | ja | ja | ja | ja |
-| Rekonstruktion von Beständen | ja | ja | ja | ja |
-| Uneigentliche Integrale | nein | ja | nein | ja |
-| Rotationsvolumen | nein | ja | nein | ja |
-| Punkte und Strecken im Koordinatensystem | ja | ja | ja | ja |
-| Vektoren und Rechenoperationen | ja | ja | ja | ja |
-| Linearkombination und lineare Abhängigkeit | ja | ja | ja | ja |
-| Geraden | ja | ja | ja | ja |
-| Ebenen | ja | ja | ja | ja |
-| Lagebeziehungen | ja | ja | ja | ja |
-| Schnittmengen | ja | ja | ja | ja |
-| Skalarprodukt und Winkel | ja | ja | ja | ja |
-| Orthogonalität | ja | ja | ja | ja |
-| Abstände | ja | ja | ja | ja |
-| Flächeninhalt und Volumen im Raum | ja | ja | ja | ja |
-| Scharen von Geraden und Ebenen | nein | ja | nein | ja |
-| Spiegelung | ja | ja | ja | ja |
-| Matrizen und Übergangsprozesse | nein | nein | nein | nein |
-| Ereignisse und Mengenoperationen | ja | ja | ja | ja |
-| Zufallsexperimente und Urnenmodelle | ja | ja | ja | ja |
-| Kombinatorik | ja | ja | ja | ja |
-| Baumdiagramm und Pfadregeln | ja | ja | ja | ja |
-| Vierfeldertafel | ja | ja | ja | ja |
-| Bedingte Wahrscheinlichkeit und Bayes | ja | ja | ja | ja |
-| Unabhängigkeit | ja | ja | ja | ja |
-| Lage- und Streumaße einer Stichprobe | ja | ja | ja | ja |
-| Zufallsgrößen und Verteilungen | ja | ja | ja | ja |
-| Binomialverteilung | ja | ja | ja | ja |
-| Kenngrößen von Verteilungen | ja | ja | ja | ja |
-| Hypergeometrische Verteilung | nein | nein | ja | ja |
-| Normalverteilung und Sigma-Regeln | nein | ja | nein | ja |
-| Hypothesentests | nein | ja | nein | ja |
-| Konfidenzintervalle | nein | nein | nein | nein |
+Stand der Tabellen (48 Themenzeilen; Lineare Gleichungssysteme steht in
+zwei Sachgebieten, hat aber eine Zeile): be-gk 39 ja, be-lk 45, bb-gk 40,
+bb-ea 46.
 
-Anmerkungen zur Tabelle: Konfidenzintervalle nennt keines der vier Papiere
+Anmerkungen zu den Themen (gelten für alle vier Dateien):
+Konfidenzintervalle nennt keines der vier Papiere
 2027 (Suche in den PDFs nach Konfidenz, Vertrauens, Schätz, 14.09.2026); die
 Zeile folgt dem Wortlaut wie bei der hypergeometrischen Verteilung. Abstände
 gelten in Berlin nur über Lotfußpunkte, Abstandsformeln und Hessesche
@@ -218,12 +188,8 @@ Fassung gibt es nicht: „CAS" ist im Pool der Name derselben Fassung bis 2021
 nur „MMS". Die Wahl ist eine des Kurses, nicht der Prüfung; für jede
 Zielprüfung sind deshalb beide Fassungen möglich, WTR als Regelfall.
 
-| Zielprüfung | WTR | MMS | CAS | Fundstelle |
-|---|---|---|---|---|
-| be-gk | zugelassen, Regelfall (Taschenrechner nach Abschnitt 3) | zugelassen für Kurse mit Prüfungsfach „Mathematik mit MMS (CAS)", dann MMS-Aufgaben | keine eigene Fassung, in Berlin „MMS (CAS)" | ps_mathematik_2027_gk.pdf, Abschnitt 3 (S. 6 mit Fußnote 1, S. 7), Abschnitt 2.2 (S. 2) |
-| be-lk | zugelassen, Regelfall | zugelassen für Kurse mit „Mathematik mit MMS (CAS)" | keine eigene Fassung, „MMS (CAS)" | ps_mathematik_2027_lk.pdf, Abschnitt 3 (S. 7 mit Fußnote 1), Abschnitt 2.2 (S. 2) |
-| bb-gk | zugelassen, Regelfall („Mathematik ohne MMS") | zugelassen für Schulen mit Prüfungsfach „Mathematik mit MMS", dann MMS-Aufgaben | nicht genannt (nur MMS) | PS_Mathematik_GK_2027.pdf, Abschnitt 3 (S. 5 mit Fußnote 1, S. 6), Abschnitt 2.2 (S. 2) |
-| bb-ea | zugelassen, Regelfall („Mathematik ohne MMS") | zugelassen für Schulen mit „Mathematik mit MMS" | nicht genannt (nur MMS) | PS_Mathematik_LK_2027.pdf, Abschnitt 3 (S. 6 mit Fußnote 1), Abschnitt 2.2 (S. 2) |
+Die Zeile je Zielprüfung (WTR, MMS, CAS, Fundstelle) steht in § 3 der
+Geltungsdatei.
 
 Anmerkungen: Berlin verlangt vom Taschenrechner in Fußnote 1 ausdrücklich,
 dass „Werte der Binomialverteilungen ermittelt werden können" (GK S. 6, LK
@@ -269,16 +235,14 @@ Themen: sie schränken Zeilen innerhalb gültiger Themen ein und ändern keine
 Spalte der Tabelle. Befund im Bestand (Auftrag A, Teil 3; nachgeprüft
 17.09.2026 mit 794 abi- und 1258 iqb-Zeilen):
 
-| Ausschluss | gilt für | Art | Befund im Bestand |
-|---|---|---|---|
-| Beweise erläutern oder entwickeln | alle vier Zielprüfungen | Aufgabenform (Operator) | keine Zeile verlangt einen Beweis; „Weisen Sie nach"/„Zeigen Sie" sind Nachweise an konkreten Termen und bleiben zulässig |
-| Simulationen | alle vier Zielprüfungen | Aufgabenform | keine Zeile |
-| Grenzwerte bei der Bestimmung von Ableitung oder Integral (h-Methode, Ober-/Untersumme, Streifenmethode) | be-gk, bb-gk | Lösungsweg | 0 Zeilen in beiden Katalogen, die einen solchen Weg verlangen (das Wort „Obersumme" kommt nur als Fehlerquelle in 2025-bebb-lk 2.1 g vor); Differenzenquotienten im Bestand sind mittlere Änderungsraten, „Grenzwerte und Verhalten im Unendlichen" bleibt gültig |
-| Komplexe gebrochen-rationale Funktionen | be-lk | Funktionsklasse unterhalb des Themas „Funktionsklassen und Eigenschaften" | 0 abi-Zeilen; im Pool zwei einfache Fälle (Asymptote einer Logarithmusfunktion, transformierte Potenzfunktion) |
+Die Einträge stehen je Zielprüfung in § 2 der Geltungsdatei (Beweise
+erläutern oder entwickeln und Simulationen in allen vier; Grenzwerte bei der
+Bestimmung von Ableitung oder Integral in be-gk und bb-gk; komplexe
+gebrochen-rationale Funktionen in be-lk).
 
-Nutzung: der Blattbau filtert nach der Tabelle über das Thema und nach
-dieser Liste über die Zeile (operator, verfahren, gegeben); die Liste ist
-kein Feld und kein Skriptfilter.
+Nutzung: der Blattbau filtert nach § 1 der Geltungsdatei über das Thema und
+nach § 2 über die Zeile (operator, verfahren, gegeben); die Liste ist kein
+Feld und kein Skriptfilter.
 
 **Vorschlag: strukturelle Geltung nach Jahrgangsklassen** (17.09.2026,
 Auftrag B Teil 5; Vorschlag, nicht gesetzt – Entscheidung beim Lehrer). Die
@@ -398,6 +362,9 @@ den Umstellungslauf 12 (abi-iqb-typen.md, konzept.md Entscheidung 25).
   Geltungstabelle stand in iqb.md, obwohl sie Zielprüfungen des Profils abi
   beschreibt; hier ist sie beiden Profilen zugänglich. Lesart der Klassen um
   die vier Fälle des Umstellungslaufs ergänzt (§ 4).
+- 2026-09-17 (v1.5, Auftrag D Teil 2): Geltungstabelle, Rechnerfassung und
+  Ausschlussliste je Zielprüfung nach abi-<zielprüfung>-geltung.md; § 3 heißt
+  „Geltung" und behält Regeln und Anmerkungen.
 - 2026-09-16 (v1.1, Auftrag „Themenfeld bereinigen"): Regel Zeilenthema =
   Typthema in § 4, Schnitt über das Thema des Typs; Handlungstabelle in den
   Kern § 5 verschoben (§ 5 verweist); Kopf an Kern v0.4 angepasst

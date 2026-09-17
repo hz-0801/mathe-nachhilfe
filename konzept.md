@@ -17,6 +17,9 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
                            iqb zusätzlich iqb-quellen.csv/.py (Kennungen)
     abitur-vokabular.md    gemeinsames Vokabular von abi und iqb (Sachgebiete, Themen, Geltung, Gegenstandsklassen, Regel Zeilenthema = Typthema), Entscheidungen 25 und 26
     abitur-typen.csv       gemeinsame Typenliste von abi und iqb (seit 15.09.2026, vorher abi-typen.csv und iqb-typen.csv)
+    abi-<zielprüfung>-geltung.md  Geltung je Zielprüfung (be-gk, be-lk, bb-gk, bb-ea; seit 17.09.2026): Themen ja/nein, ausgeschlossene
+                           Aufgabenformen, Rechnerfassung; das Profil nennt seine Zielprüfungen, die Bau-Skripte lesen die Dateien
+    namensschema.md        Namensschema für Dateiarten und Kennungen (Vorschlag 17.09.2026, Auftrag D; Umbenennungen offen)
     abgleich.py            Abgleichlauf über die gemeinsame Typenliste und beide Kataloge (bis Lauf 11 iqb-abgleich.py)
     hefte/                 gescannte Verlagshefte (Stark) für abi ab 2019, lokal, per .gitignore nicht im Repo
     vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck für msa bzw. abi/iqb

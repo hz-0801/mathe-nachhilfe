@@ -1,6 +1,17 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.5 · 17.09.2026 · gilt mit katalog-prompt.md v0.6, abitur-vokabular.md v1.2 und iqb.md v1.8
+Version 1.6 · 17.09.2026 · gilt mit katalog-prompt.md v0.7, abitur-vokabular.md v1.5, iqb.md v1.10 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 1.5 (Auftrag D „Namensschema, Erweiterbarkeit,
+Begründungen", Teil 2, 17.09.2026): Die Geltung kommt nicht mehr aus einer
+Tabelle in abitur-vokabular.md § 3, sondern je Zielprüfung aus einer eigenen
+Datei abi-<zielprüfung>-geltung.md (§ 1, Tabelle „Thema | gilt", ja/nein).
+Welche Zielprüfungen gelten, sagt das Profil (iqb.md § 6, Zeile
+„Zielprüfungen: be-gk · be-lk · bb-gk · bb-ea" – die Zielprüfungen des
+Profils abi, Poolzeilen werden gegen alle gezählt); Datenstruktur (ZIELE,
+GELTUNG), Kennzahlen und Abbruchkriterium unverändert – Selbstprüfung und
+Berichte byteidentisch zu v1.5. Inhalt der Dateien unverändert aus der
+Tabelle erzeugt (namensschema.md § 2).
 
 Änderungen gegenüber 1.4 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", 17.09.2026, Entscheidung des
@@ -149,6 +160,8 @@ TYP = "abitur-typen.csv"
 QUELLEN = "iqb-quellen.csv"
 VOKABULAR = "abitur-vokabular.md"
 KERN = "katalog-prompt.md"
+PROFIL = "iqb.md"                       # nennt die Zielprüfungen (§ 6)
+GELTUNG_DATEI = "abi-{ziel}-geltung.md"  # eine Datei je Zielprüfung (namensschema.md § 2)
 # Kataloge der anderen Profile mit derselben Typenliste (Entscheidung 25): ihre
 # ids gelten für beispiel_id, ihre Typfelder zählen als Verwendung.
 ANDERE_KATALOGE = ["abi-katalog.csv"]
@@ -247,30 +260,48 @@ def vokabular():
     return head, v, leitideen, themen
 
 
-def geltung():
-    """Geltungstabelle aus abitur-vokabular.md § 3: Thema × Zielprüfung, ja/nein.
-    Liefert (Zielprüfungen, {thema: Menge der Zielprüfungen mit ja})."""
-    profil = abschnitt(lies(VOKABULAR), "Geltung", VOKABULAR)
-    m = re.search(r"^\| Thema \|(.+?)\|\s*\n\|[-| ]+\|\s*\n((?:\|.*\|\s*\n)+)", profil, re.M)
+def zielpruefungen():
+    """Zielprüfungen des Profils: Zeile „Zielprüfungen: a · b · c …" in PROFIL (§ 6)."""
+    m = re.search(r"^Zielprüfungen:\s*([^(\n]+)", lies(PROFIL), re.M)
     if not m:
-        sys.exit(f"{VOKABULAR}: Geltungstabelle nicht gefunden.")
-    ziele = [z.strip() for z in m.group(1).split("|") if z.strip()]
-    tab = {}
-    for zeile in m.group(2).strip().splitlines():
-        zellen = [c.strip() for c in zeile.strip().strip("|").split("|")]
-        if len(zellen) != len(ziele) + 1:
-            sys.exit(f"{VOKABULAR}: Geltungszeile hat {len(zellen)} Zellen: {zeile}")
-        thema, werte = zellen[0], zellen[1:]
-        if any(w not in ("ja", "nein") for w in werte):
-            sys.exit(f"{VOKABULAR}: Geltung muss ja oder nein sein: {zeile}")
-        tab[thema] = {z for z, w in zip(ziele, werte) if w == "ja"}
+        sys.exit(f"{PROFIL}: Zeile „Zielprüfungen:“ nicht gefunden.")
+    ziele = [z.strip() for z in m.group(1).split("·") if z.strip()]
+    if not ziele:
+        sys.exit(f"{PROFIL}: keine Zielprüfung genannt.")
+    return ziele
+
+
+def geltung():
+    """Geltung je Zielprüfung aus den Dateien GELTUNG_DATEI (§ 1, Tabelle „Thema | gilt", ja/nein),
+    Zielprüfungen aus dem Profil; bis v1.5 stand die Tabelle in abitur-vokabular.md § 3.
+    Liefert (Zielprüfungen, {thema: Menge der Zielprüfungen mit ja}) wie bisher."""
+    ziele = zielpruefungen()
     alle = {t for liste in THEMEN.values() for t in liste}
-    fehlt = sorted(alle - set(tab))
-    if fehlt:
-        sys.exit(f"{VOKABULAR}: Themen ohne Geltungszeile: {fehlt}")
-    fremd = sorted(set(tab) - alle)
-    if fremd:
-        sys.exit(f"{VOKABULAR}: Geltungszeilen ohne Thema in der Liste: {fremd}")
+    tab = {t: set() for t in alle}
+    for ziel in ziele:
+        pfad = GELTUNG_DATEI.format(ziel=ziel)
+        teil = abschnitt(lies(pfad), "Themen", pfad)
+        m = re.search(r"^\| Thema \| gilt \|\s*\n\|[-| ]+\|\s*\n((?:\|.*\|\s*\n)+)", teil, re.M)
+        if not m:
+            sys.exit(f"{pfad}: Tabelle „Thema | gilt“ nicht gefunden.")
+        gesehen = set()
+        for zeile in m.group(1).strip().splitlines():
+            zellen = [c.strip() for c in zeile.strip().strip("|").split("|")]
+            if len(zellen) != 2:
+                sys.exit(f"{pfad}: Geltungszeile hat {len(zellen)} Zellen: {zeile}")
+            thema, wert = zellen
+            if wert not in ("ja", "nein"):
+                sys.exit(f"{pfad}: Geltung muss ja oder nein sein: {zeile}")
+            if thema in gesehen:
+                sys.exit(f"{pfad}: Thema doppelt: {thema}")
+            if thema not in alle:
+                sys.exit(f"{pfad}: Geltungszeile ohne Thema in der Liste: {thema}")
+            gesehen.add(thema)
+            if wert == "ja":
+                tab[thema].add(ziel)
+        fehlt = sorted(alle - gesehen)
+        if fehlt:
+            sys.exit(f"{pfad}: Themen ohne Geltungszeile: {fehlt}")
     return ziele, tab
 
 

@@ -1,5 +1,9 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.9 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.7 (Schema-Version 2)
+Version 1.10 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 1.9 (Auftrag D „Namensschema, Erweiterbarkeit,
+Begründungen", Teil 2): § 6 Geltung je Zielprüfung in eigenen Dateien
+abi-<zielprüfung>-geltung.md, das Profil nennt die Zielprüfungen, gegen die
+Poolzeilen gezählt werden; iqb-bau.py v1.6 liest sie dort.
 Änderungen gegenüber 1.8 (Auftrag C, Teil 0, Entscheidung des Lehrers): § 7
 Eichschwelle für Poolstapel unverändert 85 %, für Landeshefte (abi)
 ausgesetzt; Maßstab der Schätzung nach Kern § 5 v0.7 (afb_amtlich leer =
@@ -282,16 +286,23 @@ Analytische Geometrie; die Alternative steht in titel (§ 4).
 
 ## 6 Themenliste, Geltung, Schnitt
 
-Themenliste, Geltungstabelle und Gegenstandsklassen stehen in
-abitur-vokabular.md § 2–4, die Handlung je format im Kern § 5; iqb-bau.py
-liest sie dort. Bis v1.1 standen sie hier; die Rechnerfassung je Zielprüfung
-ist mit der Geltungstabelle nach abitur-vokabular.md § 3 gewandert.
+Themenliste und Gegenstandsklassen stehen in abitur-vokabular.md § 2 und
+§ 4, die Handlung je format im Kern § 5; iqb-bau.py liest sie dort. Bis
+v1.1 standen sie hier. Die Geltung steht je Zielprüfung in einer eigenen
+Datei (seit 17.09.2026, Auftrag D Teil 2; vorher Tabelle in
+abitur-vokabular.md § 3, dorthin war sie mit v1.1 gewandert); Poolzeilen
+haben kein eigenes Zielheft und werden gegen alle Zielprüfungen des
+Profils abi gezählt:
+
+Zielprüfungen: be-gk · be-lk · bb-gk · bb-ea (Geltung je Zielprüfung in
+abi-<zielprüfung>-geltung.md; iqb-bau.py liest diese Zeile und die Dateien)
+
+Die Rechnerfassung je Zielprüfung steht in § 3 derselben Dateien.
 **Zeilenthema = Typthema** (16.09.2026, abitur-vokabular.md § 4): leitidee
 und thema einer Zeile sind die ihres Typs, iqb-bau.py erzwingt das, der
 Schnitt wird über das Thema des Typs gezählt; die acht iqb-Zeilen, die davon
-abwichen, hat Lauf 13 nachgezogen (iqb-pruefungen.md § 5). Poolzeilen haben
-kein eigenes Zielheft und werden gegen alle vier Spalten der Geltungstabelle
-gezählt; die Regel für gemeinsame Landeshefte bebb (Zeile gilt, wenn sie in
+abwichen, hat Lauf 13 nachgezogen (iqb-pruefungen.md § 5). Die Regel für
+gemeinsame Landeshefte bebb (Zeile gilt, wenn sie in
 einer der beiden Spalten des Niveaus liegt; Entscheidung des Lehrers,
 16.09.2026) betrifft nur das Profil abi (abitur-vokabular.md § 3, abi.md § 6).
 Profilspezifisch bleiben:
