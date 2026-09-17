@@ -38,7 +38,7 @@ in vorgaben.md.
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-gk – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2") | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
 | 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-lk – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
-| 2024 | 2024-bebb-lk | BE/BB | erhöht | WTR | 13 (Scan, nur Aufgabenseiten; Datei hefte/2024-bebb-lk.pdf) | – (nicht im Scan) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2024 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" (abi-quellen.md § 8) |
+| 2024 | 2024-bebb-lk | BE/BB | erhöht | WTR | 13 (Scan, nur Aufgabenseiten; Datei hefte/2024-bebb-lk.pdf) | – (nicht im Scan) | 180 angeboten, 120 bearbeitet (Schlüssel 2024 LK 30 / 40 / 25 / 25: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 40 zur Wahl, 3 zu 25, 4 zu 25) | **erfasst 2026-09-17, 53 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Pool-Dubletten, 3 abgewandelt, 16 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2024 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" (abi-quellen.md § 8) · Aufgabe 3 c/f mit gegenüber dem Pool vertauschten BE (§ 4) |
 | 2025 | 2025-bebb-gk | BE/BB | grundlegend | WTR | 8 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 39 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 | 2025 | 2025-bebb-lk | BE/BB | erhöht | WTR | 11 (Scan, nur Aufgabenseiten; Datei hefte/2025-bebb-lk.pdf) | – (nicht im Scan) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2025 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" |
 | 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-gk.pdf, umbenannt 17.09.2026, vorher 2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
@@ -67,6 +67,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2019-be-gk | 45 | 51 | 25 (49 %) | 4 von 4 (100 %), alle 4 geerbt; eigene 0 (die 41 Landeszeilen tragen keinen amtlichen Bereich) | 0 | 0 | 19 von 51 (37 %) | Heft (be-gk) 1; alle: be-gk 1, be-lk 0, bb-gk 1, bb-ea 0 | 35 Werte, 34 von 45 Zeilen im Niveau bekannt (76 %), 1 Wert neu im Gesamtbestand | 12 von 45; 35 von 180 BE (19 %), davon 8 Zeilen vorgemerkt („Poolaufgabe (nicht erfasst)", 2019-ga-B); abgewandelt 2 Zeilen, 7 BE (1.4 c erfasst, 3.2 b vorgemerkt) |
 | 2020-be-gk | 51 | 54 | 17 (31 %) | 3 von 3 (100 %), alle 3 geerbt; eigene 0 (48 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 20 von 54 (37 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 33 Werte, 43 von 51 Zeilen im Niveau bekannt (84 %), 1 Wert neu im Gesamtbestand | 6 von 51; 20 von 175 BE (11 %), davon 3 Zeilen vorgemerkt (2020-ga-B, Aufgabenteil 2 von 4.2); abgewandelt 4 Zeilen, 10 BE (4.2 Aufgabenteil 1, vorgemerkt) |
 | 2021-be-gk | 56 | 56 | 25 (45 %) | 2 von 2 (100 %), alle 2 geerbt; eigene 0 (54 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 21 von 56 (38 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 51 von 56 Zeilen im Niveau bekannt (91 %), 0 Werte neu im Gesamtbestand | 12 von 56; 37 von 185 BE (20 %), davon 10 Zeilen vorgemerkt (2021-ga-B: 3 a, c, d, g, h, i; 4 c, g, h, i); abgewandelt 2 Zeilen, 7 BE (4 a, d vorgemerkt) |
+| 2024-bebb-lk | 53 | 55 | 13 (24 %) | 33 von 34 (97 %), alle 34 geerbt; eigene 0 (19 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 10 von 55 (18 %) | Heft (be-lk oder bb-ea) 0; alle: be-gk 19, be-lk 0, bb-gk 19, bb-ea 0 | 36 Werte, 51 von 53 Zeilen im Niveau bekannt (96 %), 0 Werte neu im Gesamtbestand | 34 von 53; 110 von 180 BE (61 %); abgewandelt 3 Zeilen, 15 BE |
 | 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) im Heftlauf; seit Lauf 18 16 von 24 (67 %; die 16 Teil-B-Dubletten trugen ihre eigene Schätzung, die Poolzeilen hatten sie übernommen); seit Lauf 20 23 von 24 (96 %; sieben Landeszeilen auf den amtlichen Bereich nachgezogen, 23 geerbt, eigene 0 von 1) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), seit Lauf 18 alle „Dublette von:“ (2022-ga-B erfasst); abgewandelt 3 Zeilen, 11 BE |
 | 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %), alle 32 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %); abgewandelt 1 Zeile, 4 BE |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
@@ -1470,6 +1471,77 @@ liegen 38 auf Werten aus Teil A des grundlegenden Pools.
 gerenderte Seiten, sympy, 54 Landeszeilen von Hand, 2 Dubletten erzeugt,
 Lauf, HEAD-Rerun, Selbstprüfung).
 
+**2024-bebb-lk erfasst (17.09.2026, Auftrag B, Teil 1; abi-bau.py v0.8, abi.md
+v0.18).** Stark-Band zum Abitur 2027 LK, Jahrgang 2024, Bildscan der 13
+Aufgabenseiten (Verlagsseiten 2024-1, -2, -7, -8, -16, -17, -26, -27, -28,
+-35, -36, -42, -43; die Lücken sind Tipp- und Lösungsseiten, die Tippseite
+2024-28 enthält oben noch 2.2 Aufgabenteil 2 d), gerendert mit pypdfium2
+(Lesefassung 0,65). Scanqualität: alle Seiten lesbar, Handschatten und
+Durchscheinen ohne Folgen; keine Formel unsicher. **Heftaufbau 2024 LK (aus
+dem Heft):** Aufgabe 1 hilfsmittelfreier Teil mit „Pflichtaufgaben" 1.1–1.4
+(Analysis, Analysis, Analytische Geometrie, Stochastik; Summe 20) und
+„Wahlaufgaben" 1.5–1.10 (je zwei Analysis, Geometrie, Stochastik; Summe 30
+angeboten, zwei zu bearbeiten – Schlüssel 2024 LK 30 BE für Teil A); Teil B
+2.1/2.2 Analysis je 40 zur Wahl, 3 Geometrie 25, 4 Stochastik 25 (Schlüssel
+30 / 40 / 25 / 25 = 120). Das ist bereits der Aufbau ab 2025 (vier Pflicht,
+zwei aus sechs Wahl), nur mit dem Schlüssel 2024. 53 Zeilen aus 14 Aufgaben,
+alle Punktsummen stimmen (10 × 5, 40, 40, 25, 25). Selbstprüfung beider
+Bau-Skripte bestanden (abi 748 Zeilen aus 15 Heften, iqb 1258, 1204 Typen),
+Lauf aus dem HEAD-Stand byteidentisch.
+
+*Pool-Abgleich (Text der zehn zugeordneten Pooldateien 2024 erhöht mit pypdf
+gegen das Bild gelesen).* Teil A: 1.1 = Analysis 1.2, 1.2 = Analysis 1.3,
+1.3 = AG/LA (A2) 1.2, 1.5 = Analysis 2.1, 1.6 = Analysis 2.2, 1.7 = AG/LA
+(A2) 2.1, 1.10 = Stochastik 2.2 – alle wortgleich (13 Zeilen); 1.4 (Urne
+3 grün/3 rot), 1.8 (Geradenschar zu einer Ebene), 1.9 (defekte Geräte)
+Landes. Teil B: 2.1 Exponentialfunktionen (40 BE, 11 Teilaufgaben) ganz
+Landes; 2.2 Lesebestätigung = Analysis WTR 2, Aufgabenteil 1 mit **Schar
+f_a(x) = ax³ − 4x statt f_{a;b}(x) = ax³ − bx** – a, b abgewandelt (ein
+Parameter), c, d wortgleich (Bezeichnung f₁, f₄ statt f, h), e abgewandelt
+(h(x) = bx³ − cx mit b, c ∈ IR statt Scharmitglied; Werte 2 und 18 wie im
+Pool), Reihenfolge c/d/e gegenüber Pool d/e/c vertauscht; Aufgabenteil 2 a–d
+wortgleich; 3 Pyramide = AG/LA (A2) WTR 1 a–h wortgleich, **BE bei c und f
+vertauscht (Heft 4/3, Pool 3/4, Summe 25)** – erfasst mit den Heft-BE, im
+Vermerk festgehalten (dubletten.py lässt abweichende BE nur mit Vermerk zu);
+4 Video-Streamingdienst = Stochastik WTR 1 a–h wortgleich (Stamm „Bei den
+über 40-jährigen Abonnenten" statt „Unter denjenigen Abonnenten, die älter
+als 40 Jahre sind"). **Poolquote 34 von 53 Zeilen, 110 von 180 BE (61 %)**,
+dazu 3 abgewandelte Zeilen (15 BE); Sitz: Teil A 35 von 50 BE, Teil B 2.2
+25 + 3 (abgewandelt 15), 3 und 4 vollständig. Kontextgebundene Zeilen: keine.
+
+*Typen.* 55 verwendet, 13 neu (24 %), 41 aus dem iqb-Katalog (davon 34 über
+die Dubletten), 4 wiederverwendet in Landeszeilen (genau ein Treffer bei zwei
+Versuchen, Graph zum Parametervorzeichen zuordnen, Ableitung eines Produkts
+mit e-Funktion nachweisen, Sekantengleichung). Neue Typen: Teil A 4 (drei
+aufeinanderfolgende gleichfarbige Kugeln, Kugelzahl für begrenzte
+Farbreihenfolgen, Geradenschar zu einer Ebene mit Fallunterscheidung, Fehler
+aus der Vereinigung zweier unabhängiger Fehler), 2.1 9 (Grenzverhalten nach
+dem Parametervorzeichen, Anzahl der Nullstellen über die Diskriminante,
+mögliche Extremstellen aus der faktorisierten Ableitung als Nebentyp,
+gleichseitiges Dreieck aus Tangente und Spiegeltangente, Rechenweg zur
+Tangente von einem Punkt an den Graphen erläutern, Parameter für einen
+Schnittwinkel mit der y-Achse, Nullstellenfreiheit aus dem Tiefpunktwert,
+Integral gegen eine Schranke, Fläche am Bild mit Integralwert vergleichen).
+Etikettenfragen: 2.2 b behält den Pooltyp „Tiefpunkt einer Schar mit zwei
+Parametern …" (gleiche Fertigkeit, ein Parameter weniger); 2.1 k unter
+Flächeninhalt durch Integration (Klasse Fläche), nicht Kurvenuntersuchung.
+
+*Eichung.* 33 von 34 gewerteten Zeilen (alle geerbt; die Abweichung 4 c ist
+die des Pools). 19 Landes- und abgewandelte Zeilen ohne amtlichen Bereich,
+eigene Schätzungen nach der engen Fassung: 3 mit III (2.1 f, g, 2.2 e), 10
+mit II, 6 mit I.
+
+*Schnitt.* 36 Werte auf 53 Zeilen, 51 Zeilen auf bekannten Werten des
+Niveaus erhöht; **0 Werte neu im Gesamtbestand**, 2 neu im Niveau erhöht
+(Integralwert · berechnen; Ziehen ohne Zurücklegen · begründen, das auch
+gegen den iqb-Katalog neu ist und nur aus 2021-be-gk bekannt);
+Gesamtbestand 190 Werte (be-gk 156, bb-ea 177). Von den 19 Landeszeilen
+liegen 16 auf Werten aus Teil A des erhöhten Pools.
+
+*Aufwand.* Etwa 45 Minuten (13 Seiten gerendert gelesen, zehn Pooldateien
+geholt und als Text verglichen, sympy für 19 Zeilen, 34 Dubletten erzeugt,
+Lauf, HEAD-Rerun, Selbstprüfung).
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1878,6 +1950,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Heft 2024-bebb-lk erfasst (Berlin/Brandenburg LK, Stark-Band zum Abitur 2027): 53 Zeilen aus 14 Aufgaben (1.1–1.10 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 748 Zeilen, Typenliste 1204 (13 neu). Alle Punktsummen geprüft (10 × 5, 40, 40, 25, 25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 33 von 34 (geerbt). Pool 34 von 53 Zeilen, 110 von 180 BE (61 %): Teil A 13 Dubletten, 2.2 = Analysis WTR 2 (6 Dubletten, 3 abgewandelt: Schar mit einem Parameter), 3 = AG/LA (A2) WTR 1 (8; BE c/f vertauscht), 4 = Stochastik WTR 1 (8). Kein neuer Schnittwert. Aufbau: vier Pflicht- plus zwei von sechs Wahlaufgaben schon 2024, Schlüssel 30 / 40 / 25 / 25. dubletten.py (Scratchpad) lässt abweichende BE nur mit Vermerk „BE im Heft" zu. |
 | 2026-09-17 | Heft 2021-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 56 Zeilen aus 11 Aufgaben (1.1–1.7 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 695 Zeilen, Typenliste 1191 (25 neu). Alle Punktsummen geprüft (7 × 5, 45, 45, 30, 30; Druckfehler „35“ bei 2.2), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 2 von 2 (geerbt). Pool 12 von 56 Zeilen, 37 von 185 BE (20 %): Teil A Analysis 1.2, Teil B 3 = AG/LA (A2) WTR 1 (6 von 9) und 4 = Stochastik WTR 2 (6 von 9) als Vormerkungen (Reserve 2021-ga-B, 12 offene Posten). Kein neuer Schnittwert. Aufbau wie 2022/2023 (Corona-Struktur schon 2021). |
 | 2026-09-17 | Heft 2020-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 51 Zeilen aus 11 Aufgaben (1.1–1.5 hilfsmittelfrei, 2.1/2.2, 3.1/3.2, 4.1/4.2), Katalog 639 Zeilen, Typenliste 1166 (17 neu). Alle Punktsummen geprüft (5 × 5, 35, 35, 20, 20, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 3 von 3 (geerbt). Pool 6 von 51 Zeilen, 20 von 175 BE (11 %): Teil A Analysis 1.2 und Stochastik 1.1, Teil B 4.2 Aufgabenteil 2 = Stochastik WTR 1 Aufgabe 2 (Vormerkung, Reserve 2020-ga-B); Aufgabenteil 1 abgewandelt vorgemerkt (4 Zeilen). 1 neuer Schnittwert (Schnittmengen · angeben). |
 | 2026-09-17 | Heft 2019-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 45 Zeilen aus 10 Aufgaben (1.1–1.4 hilfsmittelfrei, 2.1/2.2, 3.1/3.2, 4.1/4.2), Katalog 588 Zeilen, Typenliste 1149 (25 neu). Alle Punktsummen geprüft (4 × 5, 40, 40, 20, 20, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 4 von 4 (geerbt). Pool 12 von 45 Zeilen, 35 von 180 BE (19 %): Teil A Analysis 1.1 und Stochastik 1.1 (c abgewandelt), Teil B 3.2 = AG/LA (A2) WTR 1 und 4.1 c–e = Stochastik WTR 1 als Vormerkungen (Reserve 2019-ga-B, 9 offene Posten). 1 neuer Schnittwert (Ableitungsregeln · angeben). |
