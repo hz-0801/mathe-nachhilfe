@@ -1,5 +1,5 @@
 # FHR – erfasste Prüfungen
-Profil fhr · Stand 12.09.2026
+Profil fhr · Stand 17.09.2026
 
 Zentrale schriftliche Fachhochschulreifeprüfung Mathematik, Land Brandenburg. Ein Heft ist ein Aufgabenvorschlag für einen Prüfungstermin; pro Jahrgang liegen zwei gleichwertige Vorschläge zum selben Termin vor. Die Hefte sind „Unterlagen für die Lehrkraft" und enthalten Aufgabentext und Erwartungshorizont, ab 2021 meist auch einen Gutachtenbogen; er fehlt in 2023 C, 2021 B und in allen vier Heften der Jahrgänge 2019 und 2020.
 
@@ -9,7 +9,7 @@ Alle Hefte sind frei zugänglich auf dem Bildungsserver Berlin-Brandenburg. Basi
 
 `https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/Fachoberschule_BB/Pruefungsaufgaben/`
 
-Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bildungsserver.berlin-brandenburg.de/pruefungen-fos-bb`. Nachbarordner derselben Ablage: `Pruefungsschwerpunkte/` (Prüfungsschwerpunkte je Schuljahr und Fach) und `Pruefungstermine/` (Rundschreiben, zuletzt `MBJS_RS_07-26.pdf` vom 25.06.2026). Diese beiden gehören in eine eigene Vorgaben-Datei des Profils (`fhr-vorgaben.md`, noch nicht angelegt; Muster `msa-vorgaben.md`, konzept.md Entscheidung 19), nicht in den Katalog.
+Geholt wird mit curl, Dateiname aus der Tabelle. Übersichtsseite: `https://bildungsserver.berlin-brandenburg.de/pruefungen-fos-bb`. Nachbarordner derselben Ablage: `Pruefungsschwerpunkte/` (Prüfungsschwerpunkte je Schuljahr und Fach) und `Pruefungstermine/` (Rundschreiben, zuletzt `MBJS_RS_07-26.pdf` vom 25.06.2026). Diese beiden sind in `fhr-vorgaben.md` verzeichnet (Quellen, Historie, Jahrescheck; seit 17.09.2026), nicht im Katalog.
 
 ## Hefte im Erfassungsumfang
 
@@ -47,6 +47,8 @@ Aus der Erweiterung folgt eine offene Frage für die Heft-Phase: Originale vor 2
 Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibetermin stellt das Ministerium je Jahrgang einen weiteren Aufgabenvorschlag bereit (Prüfungsschwerpunkte § 2.1); auf dem Bildungsserver liegt keiner.
 
 ## Änderungslog
+
+- 17.09.2026 – fhr-vorgaben.md angelegt (Auftrag G, Punkt 3): amtliche Vorgaben und Formatwechsel 2019–2028 aus fhr.md und dieser Liste zusammengetragen; § 1 verweist darauf. Katalog und Typenliste unverändert.
 
 - 17.09.2026 – fhr-bau.py v0.4 und fhr-typenbibliothek.py v0.2 (Auftrag G, Punkt 2): Versionsbindungen auf Kern v0.9 und fhr.md v1.8; fhr-typenbibliothek.md neu erzeugt, bis auf die Kopfzeile unverändert. Katalog und Typenliste unverändert.
 

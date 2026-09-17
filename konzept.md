@@ -22,7 +22,7 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     namensschema.md        Namensschema für Dateiarten und Kennungen (Auftrag D; Variante B umgesetzt am 17.09.2026, Entscheidung 32)
     abitur-abgleich.py     Abgleichlauf über die gemeinsame Typenliste und beide Kataloge (seit 17.09.2026, vorher abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py)
     hefte/                 gescannte Verlagshefte (Stark) für abi ab 2019, lokal, per .gitignore nicht im Repo
-    msa-vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck für msa bzw. abi/iqb
+    msa-vorgaben.md, fhr-vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck je Profil (abi-vorgaben.md für abi und iqb; fhr seit 17.09.2026)
     pruefungsprompt.md     Prüfungsprompt (bis v0.7 blatt-prompt.md): baut alle Prüfungen mit Katalog, heute Profil msa; Masterfassung hier, Projektanweisung ist Kopie (blatt-konzept.md §5)
     masterprompt.md        Masterprompt: baut alles ohne Katalog (Unterricht, Klassenarbeiten, Prüfungen ohne Katalog); Masterfassung hier, Projektanweisung ist Kopie
     CHANGELOG.md           Änderungshistorie der Prompts und der Vorlage
@@ -404,6 +404,8 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag G, Punkt 3): fhr-vorgaben.md angelegt (Entscheidung 19, Muster
+  msa-vorgaben.md); § 2 Bausteine ergänzt.
 - 2026-09-17 (Auftrag F, Punkte 4–7): Entscheidung 32 Dateibenennung (Variante B,
   Kurzkennungen als Aliasse der Vollform, neue Dateien und Profile in Vollform;
   § 2 und § 8 entsprechend); Entscheidung 33 Selbstprüfung als Bedingung eines
