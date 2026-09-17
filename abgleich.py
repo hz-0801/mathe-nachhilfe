@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.18 · 17.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.4
+Version 0.19 · 17.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.4
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -83,6 +83,13 @@ die 19 Vermerke von 2022-bebb-gk werden zu Verweisen – 16 wortgleiche auf
 3 abgewandelte (2.1 m, 3 g, 4 j) auf „Abgewandelt von: <id>; <Unterschied>.".
 Typvergleich je wortgleichem Paar, Abbruch bei Abweichung oder mehr als 19
 Zeilen; Typen unverändert (1115).
+Lauf 19 (17.09.2026, Abgleich nach dem Stapel 2022-ga-B und den Heften
+2026-bb-gk, 2026-bb-ea): drei Zusammenziehungen mit neuem Namen –
+Näherungswert eines Integrals als Vielecksfläche (Dreieck 2025-ga-B, Trapez
+2022-ga-B), Produkt aus Potenz und Binomialterm als Ereignis mit festem
+Abschnitt (Endstück 2022-bebb-lk, Anfangsstück mit kumulierter Summe
+2022-ga-B), passenden Graphen zu einem Term auswählen (ausschließen 2021-ga-A,
+auswählen 2022-ga-B); 1127 → 1124.
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1090,6 +1097,47 @@ def zeile_18(d):
     return True
 
 
+# ======================================================================= Lauf 19
+# Nach dem Reserve-Stapel 2022-ga-B und den Heften 2026-bb-gk und 2026-bb-ea
+# (Auftrag „2026 Brandenburg erfassen, Reserve 2022-ga-B öffnen", 17.09.2026):
+# Ähnlichkeitssuche über die 40 neuen Typen, Definitionen verglichen. Drei
+# Paare tragen dieselbe Fertigkeit unter verschiedener Figur oder Richtung:
+# (1) Näherungswert eines Integrals als Fläche eines eingezeichneten Vielecks –
+# Dreieck (2025-ga-B) oder Trapez aus Tangenten (2022-ga-B); (2) Produkt aus
+# Potenz und Binomialterm als Ereignis mit festem Abschnitt – festes Endstück
+# mit einem Binomialterm (2022-bebb-lk) oder festes Anfangsstück mit kumulierter
+# Summe (2022-ga-B), die Zerlegung der Kette ist dieselbe; (3) passenden Graphen
+# zu einem Term über Funktionswerte auswählen – als Ausschluss (2021-ga-A) oder
+# Auswahl (2022-ga-B) gefragt. Getrennt gelassen: die beiden Stichprobenumfänge
+# (aus dem Erwartungswert gegen Suche am Rechner), Sinusparameter aus
+# Extremstelle und Wert gegen zwei Extrempunkte (anderer Ansatz für b).
+ZUSAMMEN_19 = {
+    "Integralwert: Näherungswert eines Integrals als Dreiecksfläche am Graphen begründen":
+        "Integralwert: Näherungswert eines Integrals als Vielecksfläche am Graphen begründen",
+    "Integralwert: Näherungswert eines Integrals als Trapezfläche am Graphen begründen":
+        "Integralwert: Näherungswert eines Integrals als Vielecksfläche am Graphen begründen",
+    "Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Endstück deuten":
+        "Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten",
+    "Term und Ereignis: Produkt aus Potenz und kumulierter Binomialsumme als Ereignis beschreiben":
+        "Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten",
+    "Nullstellen und Werte: Unpassende Graphen zu einem Funktionsterm ausschließen":
+        "Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen",
+    "Nullstellen und Werte: Passende Abbildung des Graphen über einen Funktionswert auswählen":
+        "Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen",
+}
+NEUE_DEFINITION_19 = {
+    "Integralwert: Näherungswert eines Integrals als Vielecksfläche am Graphen begründen":
+        "Einen vorgegebenen Term als Flächeninhalt eines in die Abbildung eingezeichneten Vielecks (Dreieck, Trapez aus "
+        "Tangenten oder Sehnen) deuten und als Näherung des Integrals begründen; welche Figur, steht in der Zeile.",
+    "Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten":
+        "Einen Term aus einer Potenz q^k und einem Binomialterm oder einer kumulierten Binomialsumme einem Ereignis "
+        "zuordnen, bei dem ein Abschnitt der Bernoulli-Kette festliegt und im übrigen Abschnitt eine feste oder "
+        "beschränkte Trefferzahl auftritt.",
+    "Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen":
+        "Unter vorgelegten Graphen den zum Term passenden auswählen bzw. die unpassenden ausschließen, über einen "
+        "Funktionswert oder eine Eigenschaft wie die Nichtkonstanz der Steigung.",
+}
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1109,6 +1157,7 @@ LAEUFE = {
     16: ({}, {}, {}, {}),
     17: ({}, ZUSAMMEN_17, NEUE_DEFINITION_17, {}),
     18: ({}, {}, {}, {}),
+    19: ({}, ZUSAMMEN_19, NEUE_DEFINITION_19, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],

@@ -2978,6 +2978,7 @@ Typen, 33 Stapel). Aufwand etwa 55 Minuten.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 19 (nach 2022-ga-B und den Landesheften 2026): 5 iqb-Zeilen umgestellt – 2025-ga-B Analysis WTR 2 1 c und 2022-ga-B Analysis WTR 1 1 e → „Integralwert: Näherungswert eines Integrals als Vielecksfläche am Graphen begründen“; 2022-ga-B Stochastik WTR 1 d → „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten“; 2021-ga-A Analysis 1.2 a und 2022-ga-B Analysis WTR 2 1 c → „Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen“. Typenliste 1127 → 1124. |
 | 2026-09-17 | Landesheft 2026-bb-ea erfasst (Profil abi, erhöht): 39 Dubletten auf den Pool 2026 erhöht – Teil A 18 Zeilen (Analysis 1.1, 1.4, 2.1, AG/LA A2 1.1, 2.1, 2.2, Stochastik 1.1, 2.1, 2.3), Teil B 21 Zeilen (Analysis WTR 1, AG/LA A2 WTR 2, Stochastik WTR 1 vollständig). Landesverwendung jetzt 250 Dubletten. Typenliste 1127 (6 neue abi-Typen). |
 | 2026-09-17 | Landesheft 2026-bb-gk erfasst (Profil abi): 36 Dubletten auf den Pool 2026 grundlegend – Teil A 16 Zeilen (alle neun Einheiten), Teil B 20 Zeilen (Analysis WTR 2, AG/LA A2 WTR 2, Stochastik WTR 1 vollständig). Landesverwendung jetzt 211 Dubletten. Typenliste 1121 (6 neue abi-Typen). |
 | 2026-09-17 | Abgleichlauf 18 (Verweise schließen nach 2022-ga-B): 19 Vermerke von 2022-bebb-gk umgestellt – Landesverwendung 2022-ga-B-wtr 16 Dubletten und 3 abgewandelte; keine Vormerkung mehr offen (175 Dubletten, 7 abgewandelte insgesamt). Typen unverändert. |

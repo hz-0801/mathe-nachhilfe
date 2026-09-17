@@ -1092,6 +1092,48 @@ Minuten (die Scan-Hefte gleicher Größe 2022/2023-bebb-lk: 70–80 Minuten bei
 66–68 Zeilen, davon die Hälfte Landeszeilen). Die Ersparnis liegt beim
 Auffinden und Abgleichen; je Landeszeile bleibt der Aufwand gleich.
 
+**Abgleichlauf 19 nach dem Stapel 2022-ga-B und den Heften 2026-bb-gk,
+2026-bb-ea (17.09.2026, Auftrag „2026 Brandenburg erfassen, Reserve 2022-ga-B
+öffnen", Punkt 6; abgleich.py v0.19).** Die 40 neuen Typen des Auftrags
+(2022-ga-B 28, 2026-bb-gk 6, 2026-bb-ea 6) per Ähnlichkeitssuche gegen die
+Liste gehalten, Kandidaten an den Definitionen geprüft. Drei
+Zusammenziehungen mit neuem Namen (1127 → 1124; 5 iqb- und 2 abi-Zeilen
+umgestellt): „Näherungswert eines Integrals als Dreiecksfläche …" (2025-ga-B)
++ „… als Trapezfläche …" (2022-ga-B) → „Integralwert: Näherungswert eines
+Integrals als Vielecksfläche am Graphen begründen"; „Produkt aus Potenz und
+Binomialterm als Ereignis mit festem Endstück deuten" (2022-bebb-lk) + „Produkt
+aus Potenz und kumulierter Binomialsumme als Ereignis beschreiben" (2022-ga-B)
+→ „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit
+festem Abschnitt deuten"; „Unpassende Graphen zu einem Funktionsterm
+ausschließen" (2021-ga-A) + „Passende Abbildung des Graphen über einen
+Funktionswert auswählen" (2022-ga-B) → „Nullstellen und Werte: Passenden
+Graphen zu einem Funktionsterm über Funktionswerte auswählen". Getrennt
+gelassen: die beiden Stichprobenumfänge von 2022-ga-B (aus dem
+Erwartungswert gegen Suche am Rechner), Sinusparameter aus Extremstelle und
+Wert gegen zwei Extrempunkte. Selbstprüfung beider Bau-Skripte bestanden (abi
+543 Zeilen, iqb 1258, 1124 Typen, 261 in beiden Katalogen).
+
+*Poolquote über alle Hefte (angebotene BE, wortgleich im Pool), chronologisch.*
+Grundkurs: 2018-be-gk 22 % (nur Teil B, Pool erst seit 2017) · 2022-bebb-gk
+39 % · 2023-bebb-gk 16 % · 2024-bebb-gk 35 % · 2025-bebb-gk 80 % ·
+**2026-bb-gk 80 %**. Erhöht: 2017-bb-ea 8 % · 2018-bb-ea 5 % · 2022-bebb-lk
+45 % · 2023-bebb-lk 48 % · **2026-bb-ea 77 %**. Ein Trend ist nicht die ganze
+Erklärung: die Reihe steigt seit 2023 in beiden Niveaus (GK 16 → 35 → 80 →
+80, LK 45 → 48 → 77), aber 2022 lag der GK mit 39 % über 2023 und 2024. Die
+Spanne erklärt sich aus der Redaktionsweise, nicht aus dem Jahr: 2022 bis
+2024 nahmen Berlin/Brandenburg Poolaufgaben als Kern und hängten eigene
+Teilaufgaben an oder ersetzten welche (2022-gk: jede Poolaufgabe mit
+Zusätzen; 2023-gk: Landesfassungen mit wenigen Pooldubletten; 2022/2023-lk:
+Pool plus Zusätze plus je eine ganze Landesaufgabe 2.1), seit 2025 werden
+ganze Poolaufgaben unverändert übernommen und nur eine Landesaufgabe (2.1)
+hinzugesetzt – so auch Brandenburg 2026 allein, GK wie LK. Die Trennung der
+Länder hat den Poolanteil nicht gesenkt; der Landesanteil sitzt beide Male
+in der Analysis-Wahlaufgabe 2.1 (GK Modelleisenbahn, LK Weltbevölkerung)
+und im LK zusätzlich in einer Einheit des hilfsmittelfreien Teils (1.6).
+Für den Blattbau heißt das: Poolaufgaben sind für Brandenburg 2026 zu 77–80 %
+der angebotenen BE prüfungsnah; die Landesaufgaben kommen weiter aus der
+Analysis.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1500,6 +1542,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 19 nach 2022-ga-B, 2026-bb-gk und 2026-bb-ea: drei Zusammenziehungen mit neuem Namen – „Integralwert: Näherungswert eines Integrals als Dreiecksfläche am Graphen begründen“ + „… als Trapezfläche …“ → „… als Vielecksfläche …“; „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Endstück deuten“ + „Term und Ereignis: Produkt aus Potenz und kumulierter Binomialsumme als Ereignis beschreiben“ → „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten“; „Nullstellen und Werte: Unpassende Graphen zu einem Funktionsterm ausschließen“ + „Nullstellen und Werte: Passende Abbildung des Graphen über einen Funktionswert auswählen“ → „Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen“. Typenliste 1127 → 1124, 2 abi-Zeilen umgestellt. Poolquote-Reihe und Deutung in § 4. |
 | 2026-09-17 | Heft 2026-bb-ea erfasst (landeseigen, Zielprüfung bb-ea): 50 Zeilen aus 14 Aufgaben (1.1–1.10, 2.1 a–i, 2.2 a–h, 3, 4 a–h), Katalog 543 Zeilen, Typenliste 1127 (6 neu). Alle Punktsummen geprüft (10 × 5, 30, 30, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 36 von 39, alle geerbt. Pool 39 von 50 Zeilen, 115 von 150 BE (77 %): neun von zehn Einheiten des hilfsmittelfreien Teils, 2.2, 3 und 4; Landes 1.6 und 2.1 (Weltbevölkerung). Kein neuer Schnittwert. Aufgaben 3 und 4 in beiden 2026-Heften je aus dem Pool des eigenen Niveaus, keine Dublette zwischen den Heften nötig. |
 | 2026-09-17 | Heft 2026-bb-gk erfasst (erstes landeseigenes Heft, Zielprüfung bb-gk): 45 Zeilen aus 13 Aufgaben (1.1–1.9, 2.1 a–i, 2.2 a–i, 3, 4), Katalog 493 Zeilen, Typenliste 1121 (6 neu). Alle Punktsummen geprüft (9 × 5, 25, 25, 15, 15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 35 von 36, alle geerbt. Pool 36 von 45 Zeilen, 100 von 125 BE (80 %): der ganze hilfsmittelfreie Teil, 2.2, 3 und 4; nur 2.1 (Modelleisenbahn) Landesaufgabe. Kein neuer Schnittwert. abi.md v0.14 § 4: bebb nur bis 2025. |
 | 2026-09-17 | Abgleichlauf 18: die 19 Vormerkungen von 2022-bebb-gk auf den Pool 2022 Teil B zu Verweisen umgestellt – 16 „Dublette von:“ (AB-Spalte in afb_amtlich), 3 „Abgewandelt von:“ (2.1 m, 3 g, 4 j); Typvergleich bestanden, kein Vermerk offen, Typen unverändert (1115). Eichung des Hefts jetzt 16 von 24 (67 %), Bestand 143 von 165 (86 %). |
