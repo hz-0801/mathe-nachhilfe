@@ -31,7 +31,7 @@ Im Repo liegen zwei Arbeiten nebeneinander: die **Erfassung** – vergangene Pr�
 ## Profil abi (Zentralabitur Mathematik, Berlin/Brandenburg)
 
 - `abi.md` – öffnen, bevor ein Landesheft erfasst wird: Kürzel je Jahrgang, Zielprüfungen, Dubletten und Vormerkungen, Prüfungsgeschichte und Struktur (§ 10–11); bei Widerspruch zum Kern gilt es.
-- `abi-quellen.md` – öffnen, wenn ein Heft beschafft oder geholt wird: amtliche Dateien 2017/2018, Verlagsbände ab 2019, Heftordner `hefte/` (lokal), Markdown-Korpus `hefte-md/` (lokal).
+- `abi-quellen.md` – öffnen, wenn ein Heft beschafft oder geholt wird: amtliche Dateien 2017/2018, Verlagsbände ab 2019, Heftordner `hefte/abi/` (lokal), Markdown-Korpus `hefte-md/` (lokal).
 - `abi-pruefungen.md` – öffnen, um zu sehen, welches Heft als Nächstes dran ist, die Kennzahlen je Heft, die Befunde je Heft und Lauf, das Änderungslog.
 - `abi-katalog.csv` – der Katalog (eine Datei, Feld block trennt die Teile); öffnen zum Lesen, nie von Hand ändern.
 - `abi-bau.py` – ausführen, um ein Heft zu erfassen oder den Bestand zu prüfen (leeres ZEILEN = Selbstprüfung); enthält die Zeilen des zuletzt erfassten Hefts.

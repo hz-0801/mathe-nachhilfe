@@ -1,5 +1,5 @@
 # NAMENSSCHEMA – Dateiarten, Kennungen, Erweiterbarkeit
-Version 0.2 · 17.09.2026 · gilt für alle Profile (Auftrag D „Namensschema,
+Version 0.3 · 18.09.2026 · gilt für alle Profile (Auftrag D „Namensschema,
 Erweiterbarkeit, Begründungen", Teil 1; Entscheidung des Lehrers in Auftrag F,
 konzept.md Entscheidung 32). Umgesetzt ist Variante B aus § 4 (17.09.2026):
 typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv,
@@ -13,6 +13,12 @@ neue Profile tragen die Vollform nach § 2. Variante A ist aufgeschoben, nicht
 verworfen. § 1 und § 4 beschreiben den Stand vor der Umsetzung und bleiben
 als Messung stehen. Erste Anwendung von § 2 vor der Entscheidung: die
 Geltungsdateien `abi-<zielprüfung>-geltung.md` (Teil 2).
+Nachtrag 0.3 (Auftrag O, Punkt 3): Die lokalen Ordner sind seit Auftrag N
+(18.09.2026) je Profil unterteilt, und die Ordner tragen die Kurzkennungen
+als Aliasse (hefte/abi/, hefte/msa/, hefte/fhr/, hefte/iqb/; Entscheidung
+32), nicht die Vollform aus § 2; die Zeilen zu Heftdateien und
+Quellenverzeichnis in § 1, § 2 und § 4 sind auf diesen Stand gebracht,
+alles Übrige bleibt Messung vom 17.09.2026.
 
 ## 1 Bestand: Dateiarten und heutiges Benennungsmuster
 
@@ -27,7 +33,7 @@ Klammern; `<kennung>` ist die Profil-Kennung (msa, fhr, abi, iqb).
 | Katalogdatei | `<kennung>-katalog.csv`; msa `katalog-basis.csv`, `katalog-kontext.csv` | fhr-katalog.csv, abi-katalog.csv, iqb-katalog.csv; msa zwei Dateien | msa ohne Präfix und im Zwei-Dateien-Modell (Entscheidung 14); die übrigen eine Datei mit Feld `block` |
 | Typenliste | `<kennung>-typen.csv`; msa `typen.csv`; abi+iqb `abitur-typen.csv` | typen.csv, fhr-typen.csv, abitur-typen.csv | drei Muster: ohne Präfix, Profilpräfix, Familienname „abitur" für die geteilte Liste |
 | Prüfungsliste (Hefte/Stapel, Befunde, Änderungslog) | `<kennung>-pruefungen.md`; msa `pruefungen.md` | pruefungen.md, fhr-pruefungen.md, abi-pruefungen.md, iqb-pruefungen.md | msa ohne Präfix |
-| Quellenverzeichnis | `<kennung>-quellen.md`, dazu erzeugte `<kennung>-quellen.csv` mit Erzeuger `<kennung>-quellen.py` | abi-quellen.md; iqb-quellen.md, .csv, .py | msa: Quelle in pruefungen.md § 1; fhr: in fhr.md § 2 und fhr-pruefungen.md – kein eigenes Verzeichnis |
+| Quellenverzeichnis | `<kennung>-quellen.md`, dazu erzeugte `<kennung>-quellen.csv` mit Erzeuger `<kennung>-quellen.py` | abi-quellen.md; iqb-quellen.md, .csv, .py; seit 18.09.2026 (Auftrag O, Punkt 2) msa-quellen.md, fhr-quellen.md | konsistent; bis 18.09.2026 hatten msa (Quelle in pruefungen.md § 1) und fhr (fhr.md § 2, fhr-pruefungen.md) kein eigenes Verzeichnis |
 | Bau-Skript | `<kennung>-bau.py` | fhr-bau.py, abi-bau.py, iqb-bau.py, msa-bau.py (seit 17.09.2026) | konsistent; fhr, abi und iqb tragen die ZEILEN des letzten Hefts/Stapels |
 | Abgleichskript | `abgleich.py` (bis Lauf 11 `iqb-abgleich.py`) | 1 | ohne Präfix, obwohl es nur die Familie abi/iqb betrifft |
 | Erzeuger abgeleiteter Dateien | `<kennung>-<erzeugnis>.py` → `<kennung>-<erzeugnis>.md` | fhr-typenbibliothek.py/.md; iqb-quellen.py/.csv | Muster konsistent |
@@ -35,7 +41,7 @@ Klammern; `<kennung>` ist die Profil-Kennung (msa, fhr, abi, iqb).
 | Vokabular (Sachgebiete, Themen, Klassen) | `abitur-vokabular.md` (abi+iqb); msa und fhr im Profil § 5–6 | 1 | Familienname „abitur"; für msa und fhr keine eigene Datei |
 | Geltung (Zielprüfung × Thema) | Tabelle in `abitur-vokabular.md` § 3 mit den Spalten be-gk, be-lk, bb-gk, bb-ea | – | keine Datei; fhr: Schwerpunktmarkierung (27)/(28) in fhr.md § 6; msa: keine Geltung |
 | Quelltexte amtlicher Quellen | `quelle-<herausgeber>-<gegenstand>-<jahr>.txt`, Übersicht `quellen.md` | quelle-rlp-teil-c-mathematik-2023.txt, quelle-klett-fahrplan-ls-aa-berlin-2024.txt, quelle-lisum-planungshilfen-7bis10.txt | konsistent; gehören zum Themenkatalog (konzept.md § 3), nicht zu einem Profil |
-| Heftdateien (lokal, nicht im Repo) | `hefte/<papier>.pdf` mit papier = `<jahr>-<land>-<niveau>[-cas]`; dazu `hefte/<papier>.txt`, abgeschriebene Verlagstexte `hefte/hinweise-<band>.md`, `hefte/stichwort-<band>.md` | 15 PDF, 4 TXT, 5 MD (nur abi) | msa und fhr halten keine lokalen Hefte (curl mit dem amtlichen Dateinamen, z. B. 25_P10_Ma_A.pdf, 26_FOS_Ma_LH_C.pdf); iqb-Cache `iqb-pdf/<Kennung>_Aufgabe.pdf` |
+| Heftdateien (lokal, nicht im Repo) | seit Auftrag N (18.09.2026) `hefte/<kennung>/<papier>.pdf` mit der Kurzkennung als Ordnername – abi `<jahr>-<land>-<niveau>[-cas]` (Zusätze -stark, -teil1/-teil2), msa und fhr `<jahr>-<papier>` klein (2025-os.pdf, 2026-c.pdf), iqb `<Kennung>.pdf` als Cache; je Profil `sonstiges/` für Textauszüge, abgeschriebene Verlagstexte `hinweise-<band>.md`, `stichwort-<band>.md`, Vorgaben und Hefte ohne Kürzel; `hefte/dubletten/` für byteidentische Zweitstücke. Bis 17.09.2026 flach `hefte/<papier>.pdf` (nur abi). | abi 48 PDF + 37 in sonstiges/, msa 14 + 19, fhr 16 + 3, iqb 624 + 23; 144 in dubletten/ (befund-quellenbestand-2026-09-18.md) | msa und fhr halten seit Auftrag N lokale Hefte (Verzeichnis msa-quellen.md § 5, fhr-quellen.md § 5); `iqb-pdf/` (Standard in iqb-quellen.py, .gitignore, README, konzept.md § 2) ist nicht angelegt, der Cache liegt unter hefte/iqb/ |
 | Markdown-Korpus (lokal) | `hefte-md/<papier>.md`, Bilder `hefte-md/<papier>/abb-N.jpg` | 10 Hefte | konsistent mit den Heftdateien |
 | Befund- und Bestandsdateien (einmalig) | uneinheitlich: `repo-bestand.md`, `abi-iqb-typen.md`, `abi-aufbau.md`, `abi-struktur.json`, `Testauswertung_…_JJJJ-MM-TT.md`, `Bewertung_Masterprompt_v3-34.md` | 6 | kein Muster; Werkstattdateien in CamelCase mit Unterstrich |
 | Konzept, Landkarte, Anweisung | `konzept.md`, `blatt-konzept.md`, `README.md`, `CLAUDE.md`, `CHANGELOG.md` | 5 | ohne Präfix (repoweit) bzw. Konvention der Werkzeuge (CLAUDE.md, README.md) |
@@ -50,7 +56,7 @@ aus ihnen gebildet werden:
 | Land | be, bb; bebb für gemeinsame Hefte | abi papier, Geltungstabelle, Zielprüfungen |
 | Niveau | gk, lk (Berlin), ea (Brandenburg erhöht), gk (Brandenburg grundlegend in der Geltungstabelle), ga/ea (Pool), EBR/FOR (msa) | papier, Zielprüfungen, Stapel |
 | Zielprüfung | be-gk, be-lk, bb-gk, bb-ea | Geltungstabelle, abi-bau.py ziele_von, Kennzahlen |
-| papier (Heftkürzel) | abi `<jahr>-<land>-<niveau>[-cas]`; iqb `<jahr>-iqb-<niveau>[-mms]`; msa `OS`, `EBR`, `FOR`, `MUSTER-FOR`; fhr `A`, `B`, `C` | Katalogfeld, Dateinamen unter hefte/ und hefte-md/ (abi) |
+| papier (Heftkürzel) | abi `<jahr>-<land>-<niveau>[-cas]`; iqb `<jahr>-iqb-<niveau>[-mms]`; msa `OS`, `EBR`, `FOR`, `MUSTER-FOR`; fhr `A`, `B`, `C` | Katalogfeld, Dateinamen unter hefte/<kennung>/ (alle Profile) und hefte-md/ (abi) |
 | Stapel (iqb) | `<jahr>-<niveau>-<teil>[-<rechner>]`: 2026-ga-A, 2026-ga-B-wtr | iqb-quellen.csv, iqb-bau.py KONFIG |
 | Rechnerfassung | unmarkiert = WTR; -cas, -mms | papier, Stapel, Dateinamen |
 
@@ -101,8 +107,8 @@ es mit abi-bebb und abi-iqb, weil die Prüfungsart dieselbe ist):
 | Erzeuger abgeleiteter Dateien | `<profil>-<erzeugnis>.py` → `<profil>-<erzeugnis>.md` | fhr-bb-typenbibliothek.py/.md | abi-ni-typenbibliothek.py/.md |
 | Vorgaben | `<familie>-vorgaben.md`, wenn die Vorgaben mehrere Profile betreffen, sonst `<profil>-vorgaben.md` | abi-vorgaben.md (Prüfungsschwerpunkte beider Länder, gelesen von abi-bebb und abi-iqb), msa-bb-vorgaben.md | abi-ni-vorgaben.md (eigene Landesvorgaben) oder Abschnitt in abi-vorgaben.md |
 | Quelltexte amtlicher Quellen | `quelle-<herausgeber>-<gegenstand>-<jahr>.<endung>`, Übersicht `quellen.md` | unverändert | quelle-ni-kerncurriculum-2028.txt |
-| Heftdateien (lokal) | `hefte/<profil>/<papier>.pdf` (Textauszug `.txt`, Verlagstexte `hinweise-<band>.md`, `stichwort-<band>.md` im selben Ordner) | hefte/abi-bebb/2025-bebb-gk.pdf, hefte/abi-bebb/hinweise-2027-bebb.md; iqb-Cache hefte/abi-iqb/<Kennung>_Aufgabe.pdf (heute iqb-pdf/) | hefte/abi-ni/2028-ni-ga.pdf |
-| Markdown-Korpus (lokal) | `hefte-md/<profil>/<papier>.md`, Bilder `hefte-md/<profil>/<papier>/abb-N.jpg` | hefte-md/abi-bebb/2025-bebb-gk.md | hefte-md/abi-ni/2028-ni-ga.md |
+| Heftdateien (lokal) | `hefte/<profil>/<papier>.pdf`; Textauszüge, Verlagstexte `hinweise-<band>.md`, `stichwort-<band>.md` und Vorgaben in `sonstiges/` darunter | umgesetzt am 18.09.2026 (Auftrag N) mit der Kurzkennung als Alias des Profils (Entscheidung 32): hefte/abi/2025-bebb-gk.pdf, hefte/abi/sonstiges/hinweise-2027-bebb.md; iqb-Cache hefte/iqb/<Kennung>.pdf | hefte/abi-ni/2028-ni-ga.pdf |
+| Markdown-Korpus (lokal) | `hefte-md/<profil>/<papier>.md`, Bilder `hefte-md/<profil>/<papier>/abb-N.jpg` | nicht unterteilt: hefte-md/2025-bebb-gk.md (nur abi, Stand 18.09.2026) | hefte-md/abi-ni/2028-ni-ga.md |
 | Befunde (einmalig, keine Regel) | `befund-<gegenstand>[-<datum>].md` | befund-repo-bestand.md, befund-abi-iqb-typen.md, befund-abi-aufbau-2017-2018.md (mit abi-struktur.json als befund-abi-struktur-2017-2018.json) | – |
 | Konzept, Landkarte, Anweisung | ohne Präfix, wie heute | konzept.md, namensschema.md, README.md, CLAUDE.md | unverändert; CLAUDE.md § 1 nennt das neue Profil |
 | Blattbau | außerhalb dieses Schemas | – | – (Vorschlag in repo-bestand.md § 2: Präfix blatt- oder eigenes Repo) |
@@ -113,7 +119,8 @@ Das Schema verlangt für **neue** Profile nur, dass papier das Heftmuster oben
 erfüllt und die id mit papier beginnt (abi: `2018-bb-ea-B2.1c`); msa (`OS`,
 `FOR`) und fhr (`A`, `B`, `C`) behalten ihre Muster, das Jahr steht dort in
 der id vorn. Für lokale Heftdateien dieser Profile gilt dann
-`hefte/<profil>/<jahr>-<papier>.pdf` (hefte/msa-bb/2025-os.pdf).
+`hefte/<profil>/<jahr>-<papier>.pdf`; umgesetzt am 18.09.2026 (Auftrag N)
+mit der Kurzkennung als Alias: hefte/msa/2025-os.pdf, hefte/fhr/2026-c.pdf.
 
 ## 3 Prüfung: zwei Träger, dieselbe Prüfungsart
 
@@ -189,6 +196,7 @@ Abgleichlauf geändert werden.
 | abi-iqb-typen.md | befund-abi-iqb-typen.md (oder löschen: Messung vor Lauf 12, Dateien existieren nicht mehr) | 14 | abgleich.py 3 | konzept 1, iqb.md 1, Vokabular 1, README 1 | abi-pruefungen 2, iqb-pruefungen 1, repo-bestand 4 |
 | repo-bestand.md | befund-repo-bestand.md | 1 | – | – | abi-pruefungen 1 |
 | hefte/, hefte-md/ | hefte/abi-bebb/, hefte-md/abi-bebb/ (lokal; iqb-pdf/ → hefte/abi-iqb/) | 77 | abi-bau.py 1 (KONFIG datei) | CLAUDE 2, abi.md 13, konzept 1 | abi-pruefungen 43, abi-quellen 11, .gitignore 3, repo-bestand 4; dazu die Scratchpad-Werkzeuge (mdcheck, cropsrel) |
+| *Stand 18.09.2026* | *ausgeführt als hefte/abi/, hefte/msa/, hefte/fhr/, hefte/iqb/ mit sonstiges/ und hefte/dubletten/ (Auftrag N; Kurzkennungen als Aliasse, Entscheidung 32); hefte-md/ nicht unterteilt; iqb-pdf/ nicht angelegt* | – | *abi-bau.py 1 nachgezogen (Auftrag O, Punkt 3)* | *CLAUDE 1, abi.md 7, README 1 nachgezogen* | *abi-pruefungen 18 nachgezogen, abi-quellen § 8 neu (Auftrag N); eingefrorene Befunde unverändert* |
 
 Summe Variante A: 31 Dateien im Repo (plus zwei lokale Ordner), rund 1 200
 Verweise, davon in Skripten etwa 165 (Konstanten und Docstrings), im

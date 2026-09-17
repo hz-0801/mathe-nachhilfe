@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.12 · 17.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, abi.md v0.26, abitur-abgleich.py v0.24 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+Version 0.13 · 18.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, abi.md v0.27, abitur-abgleich.py v0.24 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 0.12 (Auftrag O, Punkt 3, 18.09.2026): KONFIG datei zeigt
+auf hefte/abi/… – der Heftordner ist seit Auftrag N je Profil unterteilt
+(abi-quellen.md § 8); Versionsbindung abi.md v0.27. Nur Text und ein Pfad,
+keine Prüfung geändert – Selbstprüfung byteidentisch zu 0.12.
 
 Änderungen gegenüber 0.11 (Auftrag G, Punkt 2, 17.09.2026): Versionsbindung
 (abitur-abgleich.py v0.24); sonst unverändert.
@@ -123,7 +128,7 @@ import csv, io, os, re, sys
 KONFIG = {
     "jahr": "2025",
     "papier": "2025-bebb-lk",
-    "datei": "hefte/2025-bebb-lk.pdf",  # Stark-Band (Band zum Abitur 2027 LK, Jahrgang 2025), Bildscan der Aufgabenseiten, lokal (abi.md § 2)
+    "datei": "hefte/abi/2025-bebb-lk.pdf",  # Stark-Band (Band zum Abitur 2027 LK, Jahrgang 2025), Bildscan der Aufgabenseiten, lokal (abi.md § 2)
     "seiten": 11,
     # Sollpunkte je Aufgabe aus der BE-Spalte; jede Aufgabe des Hefts muss hier
     # stehen (Vollständigkeit). Hilfsmittelfreier Teil: Pflichtaufgaben 1.1–1.4

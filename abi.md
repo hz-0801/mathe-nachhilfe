@@ -1,5 +1,6 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.26 · 17.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Version 0.27 · 18.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 0.26 (Auftrag O, Punkt 3): Pfade auf den seit Auftrag N je Profil unterteilten Heftordner nachgezogen – § 1, § 2, § 4 hefte/abi/, § 10 und § 11 die abgeschriebenen Verlagstexte hefte/abi/sonstiges/hinweise-2021-be-gk.md und hinweise-2027-bebb.md (nur Pfade, kein Befundtext geändert; abi-bau.py v0.13).
 Änderungen gegenüber 0.25 (Auftrag F, Punkt 1 und 2): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge. Punkt 2: das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py; Familienname wie abitur-typen.csv), Verweise in § 2, § 4, § 7 nachgezogen. Punkt 5: Kern § 6 setzt Zeilenthema = Typthema als Regel (bisher Verweis auf das Profil) und § 5 die Eichung als Kennzahl nur bei amtlichen Anforderungsbereichen – für dieses Profil ohne Änderung (abitur-vokabular.md § 4, § 7). Punkt 6: Kern § 7 Selbstprüfung als Bedingung eines vollständigen Profils – abi-bau.py hat sie.
 Änderungen gegenüber 0.24 (Auftrag E, Punkt 1 und 4; Punkt 4: Begriffe – Vormerkung statt Vorstufe/Vermerk, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung, Dateidublette und Spalte dateidublette_von): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand (16 Hefte), § 3 Formatwechsel statt „Zwei Formate", § 4 afb_amtlich mit Geschichte am Ende, § 6 Lücken und belegte Themen, § 7 Umfang, Typenliste, CAS-Nachtrag als Regel (Berlin offen), § 8 Beispielzeilen aus dem Katalog erzeugt, § 9 beantwortete Punkte als solche; Feldprobe in § 6 eingeführt.
 Änderungen gegenüber 0.23 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
@@ -119,7 +120,7 @@ Bestand 2017/2018 bildet eine Kooperation ab, die für den Prüfungsjahrgang 202
 nicht mehr besteht. Er bleibt Typenquelle, ist aber kein Beleg dafür, dass beide
 Länder dasselbe schreiben.
 
-Bestand: 16 Hefte 2017–2026, 794 Zeilen (abi-pruefungen.md § 2, Stand 17.09.2026): die amtlichen Hefte 2017/2018 (abi-quellen.md § 2) und die Verlagsbände 2019–2026 unter hefte/ (abi-quellen.md § 8).
+Bestand: 16 Hefte 2017–2026, 794 Zeilen (abi-pruefungen.md § 2, Stand 17.09.2026): die amtlichen Hefte 2017/2018 (abi-quellen.md § 2) und die Verlagsbände 2019–2026 unter hefte/abi/ (abi-quellen.md § 8).
 Sagt der Lehrer Abi, Abitur, GK oder LK, ist dieses Profil gemeint.
 
 ## 2 Ablage und Quellen
@@ -138,7 +139,7 @@ die Auswertung über beide Teile hinweg erschweren.
 
 Hefte: abi-quellen.md nennt Verzeichnis, Dateinamen und papier-Kürzel; geholt wird
 mit curl. Veröffentlicht sind nur 2011–2018. Hefte ab 2019 liegen nur in
-Verlagsbänden (Stark) vor; die Dateien stehen lokal unter hefte/<papier>.pdf
+Verlagsbänden (Stark) vor; die Dateien stehen lokal unter hefte/abi/<papier>.pdf
 (2022–2025 reine Bildscans ohne Textebene, jede Seite wird gerendert gelesen;
 2019–2021 und 2026 PDFs mit Textebene samt Verlagstipps und -lösungen) und
 sind über .gitignore vom Repo ausgeschlossen, weil sie urheberrechtlich
@@ -249,7 +250,7 @@ CAS-Hefte sind durchgehend eigene Fassungen.
                 und treffen je genau eine Zielprüfung (bb-gk bzw. bb-ea);
                 die Zwei-Spalten-Regel der Geltung (§ 6) gilt für sie nicht
                 (Entscheidung des Lehrers, 17.09.2026).
-            Die Verlagsdateien unter hefte/ heißen wie das Kürzel
+            Die Verlagsdateien unter hefte/abi/ heißen wie das Kürzel
             (2026-bb-gk.pdf, 2026-bb-ea.pdf; umbenannt 17.09.2026,
             abi-quellen.md § 8).
             Die Werte stehen in abi-quellen.md § 2 und sind zugleich die
@@ -617,7 +618,7 @@ Heften unter hefte/ stehen in abi-pruefungen.md § 4 (17.09.2026).
 | ab Abitur 2026 | Getrennte Erstellung: Berlin über das BLiQ, Brandenburg über das LIBRA; beide weiterhin aus dem IQB-Pool. Organisatorische, keine inhaltliche Trennung: die Poolquote 2026 (bb-gk 80 %, bb-ea 77 %) liegt auf dem Stand von 2025 (bebb-gk 80 %). | Prüfungsschwerpunkte 2027 (§ 1); Poolquote abi-pruefungen.md § 2, § 4 (Lauf 19) |
 | bis 2017 / ab 2018 | Berliner LK und Brandenburger eA bis 2017 großteils identisch, ab 2018 vollkommen übereinstimmend. **Verlagsangabe (Merkur), keine amtliche Quelle.** Der Bestand zeigt für 2017 drei und für 2018 vier wortgleiche Aufgaben je Heft (abi-aufbau.md § 4), 2018 mit einer abweichenden BE-Teilung (Brillenträger). | Merkur-Verlag (nicht amtlich); eigener Textvergleich abi-aufbau.md § 4 |
 | Verlagsbände | STARK betitelt seine Bände durchgehend „Berlin/Brandenburg", auch 2026 und 2027; die Kopfzeile der einzelnen Prüfung im Band übernimmt STARK vom Original. Die Autorenliste des Bandes zum Abitur 2021 nennt die Prüfungen 2016 bis 2020 ausdrücklich als „Abiturprüfung Berlin". Befund in den Dateien unter hefte/ (17.09.2026): 2019–2021 Kopfzeile „Berlin – Mathematik Grundkurs", 2022–2025 „Berlin/Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs", 2026 „Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs" (abi-pruefungen.md § 4). | STARK-Bände (Angabe des Lehrers); Kopfzeilen der Hefte |
-| durchgehend; bis 2021 „CAS", ab 2022 „MMS" | Rechnerfassung mit Computeralgebra als eigene Prüfungsform in jedem Jahrgang: amtliche CAS-Hefte 2014–2018 auf dem Bildungsserver (abi-quellen.md § 2–3), CAS-Variante 2021 als Prüfungsform mit Geräteliste (TI-92, TI-Voyage, TI-Nspire, Casio ClassPad; PC mit MuPad, Geogebra, Derive oder Emulationen), ab 2022 im Pool und ab 2027 in den Prüfungsschwerpunkten „MMS" mit wortgleicher Hilfsmittelregelung, Berlin „MMS (CAS)". CAS und MMS sind dieselbe Sache unter wechselndem Namen. Berichtigt 17.09.2026 (Auftrag C Teil 4): die Annahme, es habe ab 2018 keine CAS-Fassungen mehr gegeben, trifft nicht zu – STARK druckt sie ab dem Jahrgang 2018 nicht mehr ab (Band 2021 nur 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2). | STARK-Band zum Abitur 2021, Vorspann (hefte/hinweise-2021-be-gk.md, Abschrift); Bände 2027; Prüfungsschwerpunkte 2027 (abitur-vokabular.md § 3); iqb-quellen.md |
+| durchgehend; bis 2021 „CAS", ab 2022 „MMS" | Rechnerfassung mit Computeralgebra als eigene Prüfungsform in jedem Jahrgang: amtliche CAS-Hefte 2014–2018 auf dem Bildungsserver (abi-quellen.md § 2–3), CAS-Variante 2021 als Prüfungsform mit Geräteliste (TI-92, TI-Voyage, TI-Nspire, Casio ClassPad; PC mit MuPad, Geogebra, Derive oder Emulationen), ab 2022 im Pool und ab 2027 in den Prüfungsschwerpunkten „MMS" mit wortgleicher Hilfsmittelregelung, Berlin „MMS (CAS)". CAS und MMS sind dieselbe Sache unter wechselndem Namen. Berichtigt 17.09.2026 (Auftrag C Teil 4): die Annahme, es habe ab 2018 keine CAS-Fassungen mehr gegeben, trifft nicht zu – STARK druckt sie ab dem Jahrgang 2018 nicht mehr ab (Band 2021 nur 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2). | STARK-Band zum Abitur 2021, Vorspann (hefte/abi/sonstiges/hinweise-2021-be-gk.md, Abschrift); Bände 2027; Prüfungsschwerpunkte 2027 (abitur-vokabular.md § 3); iqb-quellen.md |
 | Band zum Abitur 2027 | STARK führt die Jahrgänge 2022 bis 2025 ohne Landeszusatz und den Jahrgang 2026 als „von Brandenburg" (online über MySTARK). Für Berlin 2026 existiert kein STARK-Heft; die Lücke ist über den Verlag nicht zu schließen (offener Punkt in abi-pruefungen.md § 3). | STARK-Band zum Abitur 2027 (Angabe des Lehrers) |
 
 Offen (nicht aufzulösen, § 9): ob die Berliner und die Brandenburger Fassung
@@ -678,7 +679,7 @@ eingeführte MMS-Rechengerät, keine weitere Software. Dazu Formelsammlung (nur
 Teil B) und Rechtschreibnachschlagewerk. MMS heißt „Modulares
 Mathematiksystem" (so auch § 3 und abitur-vokabular.md § 3; eine andere
 Auflösung steht nirgends im Repo, geprüft 17.09.2026). **Bis 2021 dieselbe
-Regelung unter dem Namen CAS** (Band 2021, hefte/hinweise-2021-be-gk.md):
+Regelung unter dem Namen CAS** (Band 2021, hefte/abi/sonstiges/hinweise-2021-be-gk.md):
 ohne CAS nicht programmierbarer, nicht grafikfähiger Taschenrechner ohne
 numerische Differenziation, Integration und automatisiertes Gleichungslösen;
 mit CAS PC oder Gerät – Texas Instruments TI-92, TI-Voyage, TI-Nspire, Casio
@@ -731,7 +732,7 @@ Pflicht- plus zwei von sechs Wahlaufgaben" gilt im LK also seit 2024, der
 Schlüssel 30 / 30 / 20 / 20 seit 2025.
 
 **Struktur bis 2021 und Bewertungsschlüssel als Reihe (17.09.2026, Auftrag
-C Teil 4; Quelle hefte/hinweise-2021-be-gk.md, Abschrift aus dem STARK-Band
+C Teil 4; Quelle hefte/abi/sonstiges/hinweise-2021-be-gk.md, Abschrift aus dem STARK-Band
 zum Abitur 2021 Berlin GK, Vorspann S. II, III, V, einzelne Ziffern
 abschriftbedingt unsicher).** Berlin GK 2019–2021: Aufgabenstellung 1
 hilfsmittelfrei ohne Wahl; Aufgabenstellungen 2, 3 und 4 mit je einer Wahl
@@ -758,7 +759,7 @@ Sonderjahrgänge); für den LK ist der Schlüssel 2019–2021 nicht belegt (kein
 Band, kein Heft; Brandenburger Band 2022, abi-quellen.md § 5).
 
 **Beleg und Abgleich der Verlagsangaben 2027 (17.09.2026, Auftrag C Teil 4).**
-Quelldatei im Wortlaut: hefte/hinweise-2027-bebb.md (Abschrift aus beiden
+Quelldatei im Wortlaut: hefte/abi/sonstiges/hinweise-2027-bebb.md (Abschrift aus beiden
 Bänden 2027, außerhalb des Repos); dieser Abschnitt ist die verarbeitete
 Fassung. Abgleich: kein Widerspruch. Die Quelldatei enthält zusätzlich, hier
 nicht übernommen (Meldung): (a) Grundlagen – neben den Rahmenlehrplänen die

@@ -30,19 +30,19 @@ in abi-vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt; 8 Dubletten und 1 abgewandelter Verweis auf den Pool 2019 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
-| 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2020-be-gk.pdf) | – (nicht im Band) | 175 angeboten, 100 bearbeitet (Teil A 25 Pflicht in fünf Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 35, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 51 Zeilen** (alle Aufgaben, alle Wahlwege; 3 Pool-Dubletten Teil A; 1 Dublette und 6 abgewandelte Verweise auf den Pool 2020 Teil B seit Lauf 23 – 4.2 e, f beim Stapellauf als abgewandelt befunden) · Kopfzeile „Berlin – Mathematik Grundkurs 2020" |
-| 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2021-be-gk.pdf) | – (nicht im Band) | 185 angeboten; Aufbau wie die Sonderjahrgänge 2022/2023 (Teil A sieben Einheiten zu 5 BE, davon 25 bearbeitet; 2.1/2.2 je 45, 3 zu 30 und 4 zu 30 BE ohne Wahl) – rechnerisch 145 bearbeitet (kein Deckblatt im Band) | **erfasst 2026-09-17, 56 Zeilen** (alle Aufgaben; 2 Pool-Dubletten Teil A; 10 Dubletten und 2 abgewandelte Verweise auf den Pool 2021 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2021" · Aufgabe 2.2 im Band mit Summe „35“ gedruckt, die Teilaufgaben ergeben 45 (§ 4) |
+| 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt; 8 Dubletten und 1 abgewandelter Verweis auf den Pool 2019 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
+| 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2020-be-gk.pdf) | – (nicht im Band) | 175 angeboten, 100 bearbeitet (Teil A 25 Pflicht in fünf Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 35, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 51 Zeilen** (alle Aufgaben, alle Wahlwege; 3 Pool-Dubletten Teil A; 1 Dublette und 6 abgewandelte Verweise auf den Pool 2020 Teil B seit Lauf 23 – 4.2 e, f beim Stapellauf als abgewandelt befunden) · Kopfzeile „Berlin – Mathematik Grundkurs 2020" |
+| 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2021-be-gk.pdf) | – (nicht im Band) | 185 angeboten; Aufbau wie die Sonderjahrgänge 2022/2023 (Teil A sieben Einheiten zu 5 BE, davon 25 bearbeitet; 2.1/2.2 je 45, 3 zu 30 und 4 zu 30 BE ohne Wahl) – rechnerisch 145 bearbeitet (kein Deckblatt im Band) | **erfasst 2026-09-17, 56 Zeilen** (alle Aufgaben; 2 Pool-Dubletten Teil A; 10 Dubletten und 2 abgewandelte Verweise auf den Pool 2021 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2021" · Aufgabe 2.2 im Band mit Summe „35“ gedruckt, die Teilaufgaben ergeben 45 (§ 4) |
 | 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A drei Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2" nach der gewöhnlichen Wahl) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
 | 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A vier Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 31 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt – 4 d seit Lauf 23, Befund der Markdown-Prüfung) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-gk – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2") | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
 | 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-lk – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
-| 2024 | 2024-bebb-lk | BE/BB | erhöht | WTR | 13 (Scan, nur Aufgabenseiten; Datei hefte/2024-bebb-lk.pdf) | – (nicht im Scan) | 180 angeboten, 120 bearbeitet (Schlüssel 2024 LK 30 / 40 / 25 / 25: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 40 zur Wahl, 3 zu 25, 4 zu 25) | **erfasst 2026-09-17, 53 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Pool-Dubletten, 3 abgewandelt, 16 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2024 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" (abi-quellen.md § 8) · Aufgabe 3 c/f mit gegenüber dem Pool vertauschten BE (§ 4) |
+| 2024 | 2024-bebb-lk | BE/BB | erhöht | WTR | 13 (Scan, nur Aufgabenseiten; Datei hefte/abi/2024-bebb-lk.pdf) | – (nicht im Scan) | 180 angeboten, 120 bearbeitet (Schlüssel 2024 LK 30 / 40 / 25 / 25: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 40 zur Wahl, 3 zu 25, 4 zu 25) | **erfasst 2026-09-17, 53 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Pool-Dubletten, 3 abgewandelt, 16 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2024 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" (abi-quellen.md § 8) · Aufgabe 3 c/f mit gegenüber dem Pool vertauschten BE (§ 4) |
 | 2025 | 2025-bebb-gk | BE/BB | grundlegend | WTR | 8 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 39 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
-| 2025 | 2025-bebb-lk | BE/BB | erhöht | WTR | 11 (Scan, nur Aufgabenseiten; Datei hefte/2025-bebb-lk.pdf) | – (nicht im Scan) | 150 angeboten, 100 bearbeitet (Schlüssel seit 2025 LK 30 / 30 / 20 / 20: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 30 zur Wahl, 3 zu 20, 4 zu 20) | **erfasst 2026-09-17, 46 Zeilen** (alle Aufgaben, beide Wahlwege; 29 Pool-Dubletten; 4 Dubletten und 3 abgewandelte Verweise auf den MMS-Zweig 2025-ea-B seit Lauf 23, 10 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2025 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" · 2.1 Regenwasser ist die WTR-Fassung der Poolaufgabe Analysis MMS 1 (§ 4) |
-| 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-gk.pdf, umbenannt 17.09.2026, vorher 2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
-| 2026 | 2026-bb-ea | BB | erhöht | WTR | 47 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-ea.pdf, umbenannt 17.09.2026, vorher 2026-bebb-lk.pdf) | – (nicht im Band) | 150 angeboten, 100 bei Wahl (Teil-A-Wahl aus 1.5–1.10, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 50 Zeilen** (alle Aufgaben, beide Wahlwege; 39 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
+| 2025 | 2025-bebb-lk | BE/BB | erhöht | WTR | 11 (Scan, nur Aufgabenseiten; Datei hefte/abi/2025-bebb-lk.pdf) | – (nicht im Scan) | 150 angeboten, 100 bearbeitet (Schlüssel seit 2025 LK 30 / 30 / 20 / 20: Teil A Pflicht 1.1–1.4 zu 20 BE plus zwei von sechs Wahlaufgaben 1.5–1.10 zu je 5; Teil B 2.1/2.2 je 30 zur Wahl, 3 zu 20, 4 zu 20) | **erfasst 2026-09-17, 46 Zeilen** (alle Aufgaben, beide Wahlwege; 29 Pool-Dubletten; 4 Dubletten und 3 abgewandelte Verweise auf den MMS-Zweig 2025-ea-B seit Lauf 23, 10 Landeszeilen) · Kopfzeile „Berlin/Brandenburg – Mathematik Leistungskurs 2025 – Aufgabe 1: hilfsmittelfreier Teil – Pflichtaufgaben" · 2.1 Regenwasser ist die WTR-Fassung der Poolaufgabe Analysis MMS 1 (§ 4) |
+| 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2026-bb-gk.pdf, umbenannt 17.09.2026, vorher 2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
+| 2026 | 2026-bb-ea | BB | erhöht | WTR | 47 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2026-bb-ea.pdf, umbenannt 17.09.2026, vorher 2026-bebb-lk.pdf) | – (nicht im Band) | 150 angeboten, 100 bei Wahl (Teil-A-Wahl aus 1.5–1.10, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 50 Zeilen** (alle Aufgaben, beide Wahlwege; 39 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 
 Leitfassung je Jahr und Niveau: erhöht bb-ea, grundlegend be-gk (abi.md § 7).
 Rechnerfassung CAS/MMS ab 2019: die Prüfungsform bestand in jedem Jahrgang
@@ -88,7 +88,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 2011–2016 liegen auf dem Server, werden aber nicht aufgenommen (zeitlicher
 Schnitt bei 2017, alter Rahmenlehrplan 2006). 2019 ff. sind aus
 urheberrechtlichen Gründen nicht veröffentlicht. Verlagsausgaben (Stark)
-liegen lokal unter hefte/ und bleiben über .gitignore außerhalb des Repos
+liegen lokal unter hefte/abi/ und bleiben über .gitignore außerhalb des Repos
 (urheberrechtlich geschützt): 2019–2021 Berlin Grundkurs als PDF mit
 Textebene, 2022–2025 Berlin/Brandenburg (GK und LK) als Bildscans, 2026
 Brandenburg als PDF mit Textebene – Verzeichnis mit Seiten, Textebene und
@@ -265,7 +265,7 @@ hat eine eigene zentrale Prüfung. PS_Mathematik_GK_2027.pdf liegt unter
 .../abitur_bb/RS_ZA_2027/ und beschreibt Struktur, Hilfsmittel und Arbeitszeit
 vollständig. Nicht veröffentlicht werden nur die Aufgabenhefte.
 
-**2023-bebb-gk (Stark-Band, Scan hefte/2023-bebb-gk.pdf, gesichtet
+**2023-bebb-gk (Stark-Band, Scan hefte/abi/2023-bebb-gk.pdf, gesichtet
 15.09.2026, nicht erfasst).** 14 Seiten, reiner Bildscan; alle
 Aufgabenseiten vorhanden, keine Lösungen (Verlagsseiten 2023-1 bis 4, 13 bis
 15, 23 bis 25, 31 bis 32, 38 bis 39; die Lücken sind die Tipp- und
@@ -453,7 +453,7 @@ kommt hinzu.
 
 **2024-bebb-gk erfasst (16.09.2026, Auftrag „Reserve öffnen, Verweise
 schließen, Heft 2024 erfassen", Punkt 4; abi-bau.py v0.6).** Sichtung im
-selben Lauf: hefte/2024-bebb-gk.pdf, 10 Seiten, reiner Bildscan ohne
+selben Lauf: hefte/abi/2024-bebb-gk.pdf, 10 Seiten, reiner Bildscan ohne
 Textebene, gerendert mit pypdfium2 (Seiten 1,7 bis 2,5 Tsd. Punkte breit,
 Lesefassung 0,6, Großfassung 1,0). Verlagsseiten 2024-1, -2, -3, -12, -13,
 -19, -20, -27, -32, -33 – die Lücken sind Tipp- und Lösungsseiten, das Heft
@@ -541,7 +541,7 @@ ASCII-Bindestrich in einer Aufzählung (1-3-5) wiederholt.
 
 **2022-bebb-gk erfasst (16.09.2026, Auftrag „Geltung klären, Reste
 schließen, vier Stark-Hefte erfassen", Punkt 3; abi-bau.py v0.7).** Sichtung im
-selben Lauf: hefte/2022-bebb-gk.pdf, 12 Seiten, Bildscan ohne Textebene,
+selben Lauf: hefte/abi/2022-bebb-gk.pdf, 12 Seiten, Bildscan ohne Textebene,
 gerendert mit pypdfium2; Verlagsseiten 2022-1, -2, -9, -10, -18, -19, -28,
 -29, -37, -38, -39 (Anlage: summierte Binomialverteilung n = 100) und eine
 zweite Tabellenseite – die Tabelle ist Hilfsmittel, keine Aufgabe; die
@@ -627,7 +627,7 @@ Lauf wegen eines unbekannten zahlenraum-Werts wiederholt.
 
 **2025-bebb-gk erfasst (16.09.2026, Auftrag „Geltung klären, Reste
 schließen, vier Stark-Hefte erfassen", Punkt 3; abi-bau.py v0.7).** Sichtung
-im selben Lauf: hefte/2025-bebb-gk.pdf, 8 Seiten, Bildscan ohne Textebene;
+im selben Lauf: hefte/abi/2025-bebb-gk.pdf, 8 Seiten, Bildscan ohne Textebene;
 Verlagsseiten 2025-1, -2, -3, -15, -21, -22, -27, -32, die Lücken sind Tipp-
 und Lösungsseiten, das Heft ist vollständig. Scanqualität: alle Seiten
 lesbar, Handschatten auf den Seiten 2, 5, 6 und 8, Seite 6 als Doppelseite
@@ -684,7 +684,7 @@ Lauf, HEAD-Rerun und Selbstprüfung: etwa 25 Minuten, kein Rückschlag.
 schließen, vier Stark-Hefte erfassen", Punkt 3 und 4; abi-bau.py v0.8).**
 Erstes Heft des erhöhten Niveaus im abi-Strang seit 2018-bb-ea, erstes
 gemeinsame Heft bebb-lk (Geltung be-lk oder bb-ea). Sichtung im selben Lauf:
-hefte/2022-bebb-lk.pdf, 15 Seiten, Bildscan ohne Textebene, gerendert mit
+hefte/abi/2022-bebb-lk.pdf, 15 Seiten, Bildscan ohne Textebene, gerendert mit
 pypdfium2; Verlagsseiten 2022-1, -2, -3, -12, -13, -22, -23, -24, -33, -34,
 -43, -44, -45 und zwei Anlageseiten (summierte Binomialverteilung n = 100 –
 Hilfsmittel, keine Aufgabe); die Lücken sind Tipp- und Lösungsseiten, das
@@ -797,7 +797,7 @@ wegen der Eichschwelle wiederholt.
 **2023-bebb-lk erfasst (16.09.2026, Auftrag „Geltung klären, Reste
 schließen, vier Stark-Hefte erfassen", Punkt 3 und 4; abi-bau.py v0.8).**
 Zweites Heft des erhöhten Niveaus (Geltung be-lk oder bb-ea). Sichtung im
-selben Lauf: hefte/2023-bebb-lk.pdf, 14 Seiten, Bildscan ohne Textebene,
+selben Lauf: hefte/abi/2023-bebb-lk.pdf, 14 Seiten, Bildscan ohne Textebene,
 gerendert mit pypdfium2; Verlagsseiten 2023-1, -2, -3, -11, -12, -13, -20,
 -21, -22, -31, -32, -39, -40, -41; die Lücken sind Tipp- und Lösungsseiten,
 das Heft ist vollständig, keine Anlage. Scanqualität: Seite 13 (Aufgabe 4,
@@ -983,8 +983,8 @@ beider Bau-Skripte bestanden, offene Posten 0.
 Reserve 2022-ga-B öffnen", Punkt 3–5; abi-bau.py v0.8, abi.md v0.14).**
 Erstes Heft nach der Trennung der Länder: Kopfzeile „Brandenburg –
 Mathematik Grundkurs", papier 2026-bb-gk, eine Zielprüfung (bb-gk), die
-Zwei-Spalten-Regel greift nicht; die Verlagsdatei heißt noch
-hefte/2026-bebb-gk.pdf. Sichtung im selben Lauf: 36 Seiten A5, echtes PDF
+Zwei-Spalten-Regel greift nicht; die Verlagsdatei hieß beim Lauf noch
+2026-bebb-gk.pdf (heute hefte/abi/2026-bb-gk.pdf). Sichtung im selben Lauf: 36 Seiten A5, echtes PDF
 mit Textebene – pypdf liefert den Text jeder Seite, die Seitenübersicht kam
 aus dem Text (Aufgabenseiten 1–3, 13–14, 22–23, 28, 32–33; der Rest Tipps
 und Verlagslösungen der Autoren des Bands, kein amtlicher
@@ -1065,7 +1065,8 @@ Bild maßgeblich.
 **2026-bb-ea erfasst (17.09.2026, Auftrag „2026 Brandenburg erfassen,
 Reserve 2022-ga-B öffnen", Punkt 3–5; abi-bau.py v0.8, abi.md v0.14).**
 Kopfzeile „Brandenburg – Mathematik Leistungskurs", papier 2026-bb-ea, eine
-Zielprüfung (bb-ea); Verlagsdatei hefte/2026-bebb-lk.pdf. Sichtung im
+Zielprüfung (bb-ea); Verlagsdatei beim Lauf 2026-bebb-lk.pdf (heute
+hefte/abi/2026-bb-ea.pdf). Sichtung im
 selben Lauf: 47 Seiten A5 mit Textebene, Aufgabenseiten 1–2, 8–9, 17–18,
 26–27, 36, 41–42 aus dem Text ermittelt und gerendert gelesen; der Rest
 Tipps und Verlagslösungen (kein Erwartungshorizont: ergebnis ohne
@@ -1728,7 +1729,7 @@ hefte/stichwort-2027-lk.pdf).
 Der Stark-Band zum Abitur 2021 führt CAS-Fassungen nur für 2016 Aufgabe 1.1
 und 2017 Aufgabe 1.2 (Analysis). Beide Paare vom Bildungsserver geholt
 (16_Ma_GK_Aufgaben.pdf 9 S., 16_Ma_GK_CAS_Aufgaben.pdf 8 S.,
-17_Ma_GK_Aufgaben.pdf 8 S., 17_Ma_GK_CAS_Aufgaben.pdf 8 S.; unter hefte/ als
+17_Ma_GK_Aufgaben.pdf 8 S., 17_Ma_GK_CAS_Aufgaben.pdf 8 S.; unter hefte/abi/ als
 2016-be-gk[-cas].pdf, 2017-be-gk[-cas].pdf), Text mit pypdf, je
 Teilaufgabe verglichen; keine Zeile erfasst. Klassen wie beim Pool-Delta.
 *2016 Aufgabe 1.1 Medikament* (WTR 6 | 5 | 6 | 8 | 5 | 10 = 40 BE, CAS
@@ -1876,7 +1877,7 @@ unbekannt). Für die heutige Form misst der Pool das MMS-Delta (iqb,
 Delta-Stapel 2026). Nicht beschafft, nur gemeldet.
 
 **Katalog gegen die Stark-Stichwortverzeichnisse (17.09.2026, Auftrag C,
-Teil 3; Quelldateien hefte/stichwort-2027-bebb-gk.md, -lk.md verlustfrei aus
+Teil 3; Quelldateien hefte/abi/sonstiges/stichwort-2027-bebb-gk.md, -lk.md verlustfrei aus
 Text-PDFs, stichwort-2021-be-gk.md abgeschrieben; Skript stark_check.py im
 Scratchpad, nur Messung, keine Zeile geändert).** *Verfahren.* Jeder
 Seitenverweis <jahr>-<seite> wurde über die Verlagsseiten dem Block einer
@@ -2518,6 +2519,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-18 | Auftrag O, Punkt 3: Pfade auf den seit Auftrag N je Profil unterteilten Heftordner nachgezogen – 15 Stellen in § 2 (7) und § 4 (8) hefte/<datei>.pdf → hefte/abi/<datei>.pdf, dazu § 3 (Ablageort), § 4 die Quelldateien stichwort-2027-bebb-*.md → hefte/abi/sonstiges/ und die amtlichen Dateien 2016/2017 (unter hefte/abi/). Nur Pfade geändert, kein Befundtext; Ausnahme die zwei Sichtungen 2026 (Verlagsdatei damals 2026-bebb-gk.pdf bzw. -lk.pdf, am 17.09.2026 umbenannt): dort steht der damalige Name mit dem heutigen Pfad in Klammern, weil ein reiner Pfadtausch auf eine nie vorhandene Datei gezeigt hätte. Nicht geändert: Nennungen des Ordners hefte/ als Ganzes und der Vorschlag hefte/stichwort-2027-*.pdf (Auftrag B Teil 3, nie angelegt). abi-bau.py v0.13 (KONFIG datei), abi.md v0.27, namensschema.md v0.3. Keine Katalogzeile geändert. |
 | 2026-09-18 | Auftrag O, Punkt 1: Berliner Verlagsfassung 2022 (STARK-Band Berlin GK, Textebene) gegen 2022-bebb-gk geprüft – 57 von 57 Teilaufgaben, BE 185 = 185, Wortlaut gleich, Verlagsseiten bis auf eine Verschiebung bei Aufgabe 4 gleich (§ 4); 2018-bb-ea Aufgabe 1.3 gegen alle neun Dateien 2016 geprüft, dort nicht enthalten, Kopfzeile „2016" ist ein Vorlagenrest (§ 4, Nachtrag). Keine Katalogzeile geändert. |
 | 2026-09-17 | Auftrag G, Punkt 1 und 2: abitur-abgleich.py v0.24 (eigener Name im Kopf und Aufrufbeispiel, befund-abi-iqb-typen.md; Versionsbindung auf abitur-vokabular.md v1.6, abi-bau.py v0.12, iqb-bau.py v1.9), abi-bau.py v0.12 und iqb-bau.py v1.9 (nur Kopfzeile: abitur-abgleich.py v0.24). Kataloge und Typenliste unverändert, Selbstprüfung beider Skripte bestanden, Lauf 23 byteidentisch wiederholt. |
 | 2026-09-17 | Auftrag F, Punkt 2: das Abgleichskript heißt abitur-abgleich.py (git mv von abgleich.py, Inhalt byteidentisch, v0.23; Familienname wie abitur-typen.csv, namensschema.md § 4 Variante B). Verweise in dieser Liste, iqb-pruefungen.md, CLAUDE.md, Kern § 5, abi.md v0.26, iqb.md v1.13, abitur-vokabular.md v1.6, abi-bau.py v0.11, iqb-bau.py v1.8, konzept.md, README nachgezogen; Kataloge unverändert, Selbstprüfung beider Skripte bestanden. Punkt 1 (msa-Dateien mit Präfix): § 1 nennt abi-vorgaben.md statt vorgaben.md. Punkt 3: abi-iqb-typen.md → befund-abi-iqb-typen.md (Kopfvermerk: Messung vor Lauf 12), repo-bestand.md → befund-repo-bestand.md; Verweise in § 4 und § 5 nachgezogen. |
