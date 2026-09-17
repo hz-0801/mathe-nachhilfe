@@ -1,6 +1,11 @@
 # QUELLEN ABITUR – Mathematik Berlin/Brandenburg
 
-Version 0.6 · 17.09.2026 · gehört zum Profil abi (in Arbeit)
+Version 0.7 · 17.09.2026 · gehört zum Profil abi (in Arbeit)
+Änderungen gegenüber 0.6 (Auftrag N): § 8 – hefte/ je Profil unterteilt (hefte/abi/,
+sonstiges/, dubletten/), alle 44 amtlichen Dateien 2011–2018 vom Bildungsserver
+geholt (32 mit Kürzel, 12 gemeinsame Hefte 2011–2013 unter Servernamen in
+sonstiges/), drei Verlagsfassungen -stark und die Vorgaben-PDFs aus dem
+Download-Ordner des Lehrers aufgenommen; Bestand in befund-quellenbestand-2026-09-18.md.
 Änderungen gegenüber 0.5 (Auftrag J, Punkt 1): Vorbehalt unter der Versionszeile –
 geprüft sind § 1–3 und § 8, § 5 gibt die Angaben des Lehrers wieder.
 Änderungen gegenüber 0.4 (Auftrag C, Teil 4): § 5 CAS-Fassungen bestanden
@@ -152,20 +157,32 @@ gegen die Spalte PDF-S. prüfen.
 
 ## 8 Lokaler Heftordner hefte/
 
-Stand 17.09.2026 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
-Prüfungsstruktur festhalten, Heftordner ordnen", Teil 4). Der Ordner liegt
-neben dem Repo, per .gitignore ausgeschlossen (Verlagsausgaben,
-urheberrechtlich geschützt). Dateiname = <jahr>-<land>-<niveau>.pdf, gleich
-dem papier-Kürzel (abi.md § 4); bei abweichender Rechnerfassung käme -cas
-bzw. -mms dazu (bisher keine solche Datei). Land und Niveau aus der Kopfzeile
-der ersten Aufgabenseite (Befund in abi-pruefungen.md § 4, 17.09.2026),
-Seiten und Textebene mit pypdf ermittelt. Umbenannt am 17.09.2026:
-2026-bebb-gk.pdf → 2026-bb-gk.pdf, 2026-bebb-lk.pdf → 2026-bb-ea.pdf
-(Kopfzeile „Brandenburg – Mathematik Leistungskurs", Kürzel für das erhöhte
-Niveau in Brandenburg ist ea, § 2). Kollisionen und unklare Fälle: keine.
-Rechnerfassung: keine Datei nennt CAS oder MMS, alle sind die Fassung ohne
-MMS (WTR). Die Verlagsausgaben enthalten kein Deckblatt des Originals
+Stand 18.09.2026 (Auftrag N „Originale sichern und ordnen"; davor Auftrag
+„Eichung korrigieren, Prüfungsgeschichte und Prüfungsstruktur festhalten,
+Heftordner ordnen", Teil 4). Der Ordner liegt neben dem Repo, per .gitignore
+ausgeschlossen (Verlagsausgaben, urheberrechtlich geschützt), und ist seit
+Auftrag N je Profil unterteilt: hefte/abi/ (dieses Profil), hefte/msa/,
+hefte/fhr/, hefte/iqb/, je mit sonstiges/ für alles, was kein Aufgabenheft
+ist, dazu hefte/dubletten/ für byteidentische Zweitstücke (Liste
+dubletten.md dort). Bestand und Abgleich: befund-quellenbestand-2026-09-18.md.
+
+Dateiname in hefte/abi/ = papier-Kürzel <jahr>-<land>-<niveau>[-cas].pdf
+(abi.md § 4). Zwei Zusätze, die das Kürzel nicht kennt: -stark für die
+Verlagsfassung eines Hefts, dessen amtliche Fassung unter dem Kürzel liegt,
+und -teil1/-teil2 für die zweiteiligen Brandenburger Dateien 2016. Land und
+Niveau aus der Kopfzeile der ersten Aufgabenseite („Leistungskurs" = Berlin
+lk, „Kurs auf erhöhtem Anforderungsniveau" = Brandenburg ea, „Grundkurs" =
+Berlin gk; Befund in abi-pruefungen.md § 4, 17.09.2026), Seiten und Textebene
+mit pypdf ermittelt. Die gemeinsamen Hefte 2011–2013 (Kopfzeile nennt beide
+Länder, kein Länderkürzel im Dateinamen) behalten ihren Servernamen in
+sonstiges/, weil ihr Kürzel offen ist (bebb wie 2022–2025 oder nach der
+Kopfzeile bbbe; Entscheidung des Lehrers). Rechnerfassung: -cas nach dem
+Dateinamen des Servers; die Verlagsdateien sind alle die Fassung ohne MMS
+(WTR). Die Verlagsausgaben enthalten kein Deckblatt des Originals
 (Bearbeitungszeit, Hilfsmittel, Gesamt-BE fehlen).
+
+**Verlagsdateien (STARK)** – alle dreizehn erfasst (Auftrag B, Teil 1);
+Status und Kennzahlen in abi-pruefungen.md § 2:
 
 | Datei | Jahr | Land | Niveau | Rechnerfassung | Seiten | Textebene | Größe | Erfassungsstand |
 |---|---|---|---|---|---|---|---|---|
@@ -183,34 +200,85 @@ MMS (WTR). Die Verlagsausgaben enthalten kein Deckblatt des Originals
 | 2026-bb-gk.pdf | 2026 | BB | grundlegend | WTR | 36 | ja (Aufgaben, Tipps, Lösungen; A5) | 0,9 MB | erfasst 2026-09-17, 45 Zeilen |
 | 2026-bb-ea.pdf | 2026 | BB | erhöht | WTR | 47 | ja (Aufgaben, Tipps, Lösungen; A5) | 1,1 MB | erfasst 2026-09-17, 50 Zeilen |
 
-Seit dem 17.09.2026 (Auftrag B, Teil 1) sind alle dreizehn Verlagsdateien
-erfasst; die Heftliste abi-pruefungen.md § 2 führt Status und Kennzahlen.
+**Amtliche Dateien 2014–2018** – alle 32 Dateien der Jahresseite § 1 (§ 2
+und § 3), geholt am 18.09.2026 (Auftrag N); erfasst sind die drei
+Leitfassungen 2017/2018, die vier Berliner Grundkurshefte 2016/2017 dienten
+dem CAS-Delta (Auftrag B, Teil 4):
 
-**Amtliche Dateien im Ordner (Auftrag B, Teil 4, CAS-Delta).** Für den
-Vergleich WTR gegen CAS liegen zusätzlich die Berliner Grundkurshefte 2016
-und 2017 in beiden Rechnerfassungen unter hefte/, geholt vom Bildungsserver
-(§ 1, § 3); sie sind keine Verlagsausgaben, bleiben aber der Einheitlichkeit
-halber im selben Ordner. Erfasst wird daraus nichts (2017-be-gk ist nicht
-Leitfassung, 2016 liegt vor dem Schnitt).
+| Datei | Serverdatei | Seiten | Textebene | Größe | Erfassungsstand |
+|---|---|---|---|---|---|
+| 2014-bb-ea.pdf | BB_14_Ma_L_Aufgaben.pdf | 9 | ja | 1,3 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2014-bb-ea-cas.pdf | BB_14_Ma_L_CAS_Aufgaben.pdf | 8 | ja | 1,1 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2014-be-gk.pdf | 14_Ma_GK_Aufgaben.pdf | 10 | ja | 5,1 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2014-be-gk-cas.pdf | 14_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 3,7 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2014-be-lk.pdf | BE_14_Ma_LK_Aufgaben.pdf | 9 | ja | 1,0 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2014-be-lk-cas.pdf | BE_14_CMa_LK_Aufgaben.pdf | 8 | ja | 0,9 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2015-bb-ea.pdf | BB_15_Ma_Aufgaben.pdf | 9 | ja | 1,2 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2015-bb-ea-cas.pdf | BB_15_Ma_CAS_Aufgaben.pdf | 9 | ja | 1,1 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2015-be-gk.pdf | BE_15_Ma_GK_Aufgaben.pdf | 12 | ja | 1,0 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2015-be-gk-cas.pdf | BE_15_Ma_GK_Aufgaben_CAS.pdf | 11 | ja | 0,9 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2015-be-lk.pdf | BE_15_Ma_LK_Aufgaben.pdf | 11 | ja | 1,7 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2015-be-lk-cas.pdf | BE_15_Ma_LK_Aufgaben_CAS.pdf | 8 | ja | 1,3 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-bb-ea-cas-teil1.pdf | BB_16_Ma_CAS_Aufgaben_1.pdf | 3 | ja | 0,8 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-bb-ea-cas-teil2.pdf | BB_16_Ma_CAS_Aufgaben_2.pdf | 5 | ja | 0,9 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-bb-ea-teil1.pdf | BB_16_Ma_Aufgaben_1.pdf | 3 | ja | 0,8 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-bb-ea-teil2.pdf | BB_16_Ma_Aufgaben_2.pdf | 6 | ja | 1,0 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-be-gk.pdf | 16_Ma_GK_Aufgaben.pdf | 9 | ja | 1,1 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-be-gk-cas.pdf | 16_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 1,1 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-be-lk.pdf | 16_Ma_LK_Aufgaben.pdf | 8 | ja | 1,2 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2016-be-lk-cas.pdf | 16_Ma_LK_CAS_Aufgaben.pdf | 7 | ja | 1,0 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2017-bb-ea.pdf | BB_17_Ma_Aufgaben.pdf | 10 | ja | 1,0 MB | erfasst 2026-09-12, 36 Zeilen |
+| 2017-bb-ea-cas.pdf | BB_17_Ma_CAS_Aufgaben.pdf | 10 | ja | 1,1 MB | nicht erfasst |
+| 2017-be-gk.pdf | 17_Ma_GK_Aufgaben.pdf | 8 | ja | 1,4 MB | nicht erfasst |
+| 2017-be-gk-cas.pdf | 17_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 1,5 MB | nicht erfasst |
+| 2017-be-lk.pdf | 17_Ma_LK_Aufgaben_neu.pdf | 10 | ja | 1,1 MB | nicht erfasst |
+| 2017-be-lk-cas.pdf | 17_Ma_LK_CAS_Aufgaben_neu.pdf | 9 | ja | 1,3 MB | nicht erfasst |
+| 2018-bb-ea.pdf | BB_18_Ma_Aufgaben.pdf | 13 | ja | 2,0 MB | erfasst 2026-09-12, 41 Zeilen |
+| 2018-bb-ea-cas.pdf | BB_18_Ma_CAS_Aufgaben.pdf | 12 | ja | 1,9 MB | nicht erfasst |
+| 2018-be-gk.pdf | 18_Ma_GK_Aufgaben.pdf | 11 | ja | 3,1 MB | erfasst 2026-09-12, 36 Zeilen |
+| 2018-be-gk-cas.pdf | 18_Ma_GK_CAS_Aufgaben.pdf | 10 | ja | 2,2 MB | nicht erfasst |
+| 2018-be-lk.pdf | 18_Ma_LK_Aufgaben.pdf | 11 | ja | 1,9 MB | nicht erfasst |
+| 2018-be-lk-cas.pdf | 18_Ma_LK_CAS_Aufgaben.pdf | 9 | ja | 1,7 MB | nicht erfasst |
 
-| Datei | Serverdatei | Seiten | Zweck |
+**Verlagsfassungen zu amtlichen Heften** (STARK-Band zum Abitur 2021,
+Berlin Grundkurs; aus dem Download-Ordner des Lehrers, Auftrag N):
+
+| Datei | Quelle | Seiten | Textebene | Größe | Zweck |
+|---|---|---|---|---|---|
+| 2016-be-gk-stark.pdf | 11710-nn-xx-2016-00-pruefungsaufgaben.pdf (Verlag) | 40 | ja | 1,0 MB | zweite Fassung des amtlichen Hefts 2016-be-gk, mit Tipps und Lösungen; nicht erfasst |
+| 2017-be-gk-stark.pdf | 11710-nn-xx-2017-00-pruefungsaufgaben.pdf (Verlag) | 39 | ja | 1,4 MB | zweite Fassung des amtlichen Hefts 2017-be-gk, mit Tipps und Lösungen; nicht erfasst |
+| 2018-be-gk-stark.pdf | 11710-nn-xx-2018-00-pruefungsaufgaben.pdf (Verlag) | 38 | ja | 1,1 MB | zweite Fassung des amtlichen Hefts 2018-be-gk, mit Tipps und Lösungen; nicht erfasst |
+
+**sonstiges/** – kein Aufgabenheft mit Kürzel oder keiner Kennung
+zuzuordnen:
+
+| Datei | Seiten | Textebene | Größe |
 |---|---|---|---|
-| 2016-be-gk.pdf, 2016-be-gk-cas.pdf | 16_Ma_GK_Aufgaben.pdf, 16_Ma_GK_CAS_Aufgaben.pdf (§ 3 nennt sie ohne „_Aufgaben") | siehe abi-pruefungen.md § 4 | CAS-Delta Aufgabe 1.1 |
-| 2017-be-gk.pdf, 2017-be-gk-cas.pdf | 17_Ma_GK_Aufgaben.pdf, 17_Ma_GK_CAS_Aufgaben.pdf | 8, 8 | CAS-Delta Aufgabe 1.2 |
+| sonstiges/11_Ma_Aufgaben_GK.pdf | 10 | ja | 1,0 MB |
+| sonstiges/11_Ma_Aufgaben_GK_CAS.pdf | 9 | ja | 0,8 MB |
+| sonstiges/11_Ma_Aufgaben_LK.pdf | 12 | ja | 1,1 MB |
+| sonstiges/11_Ma_Aufgaben_LK_CAS.pdf | 9 | ja | 0,8 MB |
+| sonstiges/12_Ma_Aufgaben_G_.pdf | 8 | ja | 0,4 MB |
+| sonstiges/12_Ma_Aufgaben_G_CAS_.pdf | 8 | ja | 0,3 MB |
+| sonstiges/12_Ma_Aufgaben_L_.pdf | 11 | ja | 0,5 MB |
+| sonstiges/12_Ma_Aufgaben_L_CAS.pdf | 8 | ja | 0,5 MB |
+| sonstiges/13_Ma_GK_Aufgaben.pdf | 8 | ja | 0,7 MB |
+| sonstiges/13_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 1,0 MB |
+| sonstiges/13_Ma_LK_Aufgaben.pdf | 10 | ja | 0,8 MB |
+| sonstiges/13_Ma_LK_CAS_Aufgaben.pdf | 7 | ja | 0,7 MB |
+| sonstiges/11710-nn-xx-2022-00-pruefungsaufgaben.pdf | 47 | ja | 0,9 MB |
+| sonstiges/2016-be-gk.txt, 2016-be-gk-cas.txt, 2017-be-gk.txt, 2017-be-gk-cas.txt | – | – | Textauszüge der vier Berliner Grundkurshefte (CAS-Delta) |
+| sonstiges/hinweise-2021-be-gk.md, hinweise-2027-bebb.md | – | – | Vorspann der Bände, abgeschrieben (abi.md § 11) |
+| sonstiges/stichwort-2021-be-gk.md, stichwort-2027-bebb-gk.md, stichwort-2027-bebb-lk.md | – | – | Stichwortverzeichnisse der Bände (Katalog gegen Stark, abi-pruefungen.md § 4) |
+| sonstiges/PS_Mathematik_GK_2027.pdf, PS_Mathematik_LK_2027.pdf, ps_mathematik_2027_gk.pdf, ps_mathematik_2027_lk.pdf (je mit .txt) | 6–8 | ja | Prüfungsschwerpunkte 2027 Brandenburg (PS_…) und Berlin (ps_…), abi-vorgaben.md § 1 |
+| sonstiges/PSP_Mathematik_GK_BB_2026_aktualisiert.pdf, PSP_Mathematik_LK_BB_2026_aktualisiert.pdf, PS_Mathematik_GK_2028_formal_aktualisiert.pdf, PS_Mathematik_LK_2028_formal_aktualisiert.pdf | 6–7 | ja | Prüfungsschwerpunkte Brandenburg 2026 und 2028 (Download-Ordner des Lehrers) |
+| sonstiges/Teil_C_RLP_GOST_2022_Mathematik.pdf, 2012_10_18-Bildungsstandards-Mathe-Abi.pdf, oHiMi-2013_04_22.pdf | 32, 73, 44 | ja | Rahmenlehrplan GOST Teil C, Bildungsstandards AHR (KMK 2012), hilfsmittelfreie Aufgaben LISUM 2013 (Download-Ordner des Lehrers) |
 
-**Abgeschriebene Quelldateien im Ordner (Auftrag C, 17.09.2026).** Fünf
-Markdown-Dateien aus den STARK-Bänden, vom Lehrer angelegt; die beiden
-Stichwortverzeichnisse 2027 verlustfrei aus Text-PDFs, die drei übrigen aus
-Scans abgeschrieben (einzelne Ziffern können fehlerhaft sein). Verlagstext,
-bleiben wie die Hefte außerhalb des Repos.
-
-| Datei | Inhalt | Verwendung |
-|---|---|---|
-| stichwort-2027-bebb-gk.md | Stichwortverzeichnis Band 2027 GK (Jahrgänge 2022–2026), Seitenverweise <jahr>-<seite> | Katalog gegen Stark (abi-pruefungen.md § 4, Auftrag C Teil 3) |
-| stichwort-2027-bebb-lk.md | Stichwortverzeichnis Band 2027 LK (2022–2026) | ebenso |
-| stichwort-2021-be-gk.md | Stichwortverzeichnis Band 2021 Berlin GK (2016–2019) | ebenso |
-| hinweise-2027-bebb.md | Vorspann der Bände 2027: Struktur, Bewertung, Hilfsmittel, beide Niveaus | abi.md § 11 (Beleg im Wortlaut) |
-| hinweise-2021-be-gk.md | Vorspann des Bands 2021: Struktur, Bewertung, Hilfsmittel bis 2021 | abi.md § 11 (Reihe der Bewertungsschlüssel, CAS) |
+Die Datei 11710-nn-xx-2022-00-pruefungsaufgaben.pdf ist die Verlagsfassung
+„Berlin – Mathematik Grundkurs 2022" (STARK-Band Berlin, mit Textebene, Tipps
+und Lösungen) und damit eine zweite Fassung zum Bildscan 2022-bebb-gk.pdf aus
+dem Band 2027 Berlin/Brandenburg; ob sie aufgabengleich ist, ist nicht
+geprüft, deshalb ohne Kürzel.
 
 ## 9 Markdown-Korpus hefte-md/
 
