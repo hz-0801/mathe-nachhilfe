@@ -53,7 +53,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2023-ea-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 2 trägt „MMS/WTR", MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 64 Zeilen** · 49 Typen neu, 17 wiederverwendet · Eichung 55 von 64 (Spalte AB) · eine Zeile ersatzweise |
 | 2022-ea-B (WTR) | 8 von 16 (MMS-Zweig Reserve; Stochastik MMS 1 und 2 Dubletten) | **erfasst 2026-09-15, 69 Zeilen** · 54 Typen neu, 17 wiederverwendet · Eichung 62 von 69 (Spalte AB) |
 | 2026-ea-B (MMS) | 5 von 8 (drei Dubletten der WTR-Dateien: AG/LA A2 MMS 1, Stochastik MMS 1 und 2; Stochastik MMS 3 Aufgabe 1 Dublette von WTR 2) | **erfasst 2026-09-15, 32 Zeilen** · 21 Typen neu, 11 wiederverwendet (6 in wortgleichen Teilaufgaben) · Eichung 32 von 32 (Spalte AB) · Delta-Stapel erhöht, MMS-Delta in § 4 |
-| 2022-ga-B (WTR) | 7 von 13 | entfällt – Reserve (Teil B abgeschlossen, § 4, 15.09.2026: grundlegend nach 2023-ga-B ausgereizt) |
+| 2022-ga-B (WTR) | 7 von 13 | **erfasst 2026-09-17, 52 Zeilen – wegen Landesheftverweisen** (19 Vormerkungen aus 2022-bebb-gk; Reserve geöffnet, Abbruchkriterium unberührt) · 28 Typen neu, 26 wiederverwendet · Eichung 41 von 52 (Spalte AB; Schwelle für diesen Stapel 75 %, § 4) |
 | 2021-ga-B (WTR) | 7 von 12 | entfällt – Reserve (§ 4) |
 | 2021-ea-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
 | 2020-ga-B (WTR) | 6 von 13 | entfällt – Reserve (§ 4) |
@@ -114,6 +114,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2026-ea-B-mms (Teil B, Delta-Stapel erhöht) | 32 | 32 | 21 (66 %) | 32 von 32 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 10 von 32 (31 %); Schnitt 27 Werte, 31 von 32 Zeilen bekannt (97 %) | 14, 7, 14, 7 | 0 |
 | 2018-ga-B-wtr (Teil B, Reserve) | 53 | 52 | 29 (56 %) | 46 von 53 (87 %), Liste v0.7, Spalte AB | 0 | 0 | 11 von 52 (21 %); Schnitt 34 Werte, 48 von 53 Zeilen bekannt (91 %) | 10, 8, 10, 8 | 9 |
 | 2018-ea-B-wtr (Teil B, Reserve) | 69 | 72 | 38 (53 %) | 59 von 69 (86 %), Liste v0.7, Spalte AB | 0 | 1 | 15 von 72 (21 %); Schnitt 44 Werte, 64 von 69 Zeilen bekannt (93 %) | 19, 6, 19, 6 | 2 |
+| 2022-ga-B-wtr (Teil B, Reserve) | 52 | 54 | 28 (52 %) | 41 von 52 (79 %), Liste v0.7, Spalte AB; eigene 31 von 33, 19 übernommene 10 | 0 | 0 | 11 von 54 (20 %); Schnitt 39 Werte, 51 von 52 Zeilen bekannt (98 %) | 7, 6, 7, 6 | 19 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2042,6 +2043,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2026-ea-B-mms | 32 | 27 | 1 | 1 | 1 | 0 | 0 | 0 |
 | 2018-ga-B-wtr (Reserve) | 53 | 34 | 5 | 3 | 5 | 0 | 0 | 0 |
 | 2018-ea-B-wtr (Reserve) | 69 | 44 | 4 | 3 | 4 | 3 | 2 | 3 |
+| 2022-ga-B-wtr (Reserve) | 52 | 39 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2096,6 +2098,7 @@ fortgeschrieben).**
 | 2026-ea-B-mms (Delta) | 32 | 27 | 1,19 | 23 (71 %) | 28 (87 %) | 2 (6 %) | 8 | 0 | 5 | 6,4 | 15 min |
 | 2018-ga-B-wtr (Reserve) | 53 | 34 | 1,56 | 40 (75 %) | 51 (96 %) | 0 (0 %) | 7 | 0 | 7 | 7,6 | 45 min (mit Kontextwechsel) |
 | 2018-ea-B-wtr (Reserve) | 69 | 44 | 1,57 | 56 (81 %) | 58 (84 %) | 0 (0 %) | 10 | 0 | 8 | 8,6 | 60 min |
+| 2022-ga-B-wtr (Reserve) | 52 | 39 | 1,33 | 38 (73 %) | 47 (90 %) | 0 (0 %) | 10 | 0 | 7 | 7,4 | 55 min (19 Zeilen aus den Landeszeilen erzeugt) |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -2912,10 +2915,70 @@ behält danach keinen Landesheftverweis. Lauf aus dem HEAD-Stand
 byteidentisch, Selbstprüfung beider Skripte bestanden (1206 Zeilen, 990
 Typen, 32 Stapel).
 
+**Stapel 2022-ga-B (WTR) – Reserve geöffnet wegen der Landesheftverweise
+(Entscheidung des Lehrers, 17.09.2026, Auftrag „2026 Brandenburg erfassen,
+Reserve 2022-ga-B öffnen"; Abbruchkriterium unberührt).** 7 Dateien (die
+sechs MMS-Dateien bleiben Reserve), 52 Zeilen, 54 Typen verwendet, 28 neu
+(52 %), 26 wiederverwendet – darunter die 19 Etiketten der wortgleichen und
+abgewandelten Teilaufgaben des Landeshefts 2022-bebb-gk (2.1 a, b, g, j–m; 3
+b, d, e, f, g, i; 4 b, c, e, h, i, j): diese 19 Poolzeilen sind aus den
+Landeszeilen erzeugt (gen_pool22.py – Typ, Schätzung und Felder von dort,
+Standardbezug, AB-Spalte und amtliches Ergebnis aus der Pooldatei; die drei
+abgewandelten mit Poolfassung und eigener Schätzung), die übrigen 33 von
+Hand. Sitz der Landesverweise: Analysis WTR 2 (7 von 10 Zeilen – 1 c, e, f
+fehlen im Heft), AG/LA (A2) WTR 2 (alle 6), Stochastik WTR 1 (6 von 7 – d
+fehlt); Analysis WTR 1, AG/LA (A1) WTR, AG/LA (A2) WTR 1 und Stochastik WTR 2
+kommen im Heft nicht vor. Die Umstellung der 19 Vermerke folgt im
+Abgleichlauf 18.
+
+*Eichung.* 41 von 52 (79 %) nach der Spalte Anforderungsbereich – **unter
+der Schwelle 85 %; für diesen Stapel auf 75 % gesetzt (iqb-bau.py v1.4,
+KONFIG „eichung_mindestens" mit Begründung).** Grund: 19 Zeilen tragen die
+Schätzung der Landeszeilen, die im Heftlauf ohne Standardbezug entstand und
+hier unverändert bleibt, damit die Dubletten nach Lauf 18 geerbt bleiben
+(abi-bau.py v0.8); von diesen 19 treffen 10, von den 33 eigenen 31 (94 %).
+Erster Lauf 35 von 52: sechs eigene Schätzungen gegen die enge Fassung
+nachgeprüft und korrigiert (Analysis WTR 1 1 b, c, Analysis WTR 2 1 c,
+AG/LA (A1) a: begründete Beobachtung bzw. einzelne Rechnung – I statt II;
+AG/LA (A1) c: eine Deutung, nicht zwei – II statt III; AG/LA (A1) e:
+Abschätzung mit mitgeführten Parametern ist keine hergeleitete Beziehung – II
+statt III; je in bemerkung); die elf verbleibenden Abweichungen: eigene
+AG/LA (A2) WTR 1 a (zwei Nachweise, II gegen I), c (Diagonale als
+halbierende Hilfslinie, III gegen II); übernommene Analysis WTR 2 1 a, 2 a
+(Verkettung II gegen I), 1 d, 2 b (Sonderfall Thales bzw. Weg hin und zurück,
+III gegen II), 2 d (II gegen III), AG/LA (A2) WTR 2 a, c (II gegen I), e
+(III gegen II), f (II gegen III). Die Landeszeilen von 2022-bebb-gk liegen
+damit messbar über dem Standardbezug (10 von 19); das ist ein Befund über
+das Heft, nicht über den Pool.
+
+*Schnitt.* 39 Werte, 51 von 52 Zeilen auf bekannten Werten; **ein Wert neu
+im Niveau und im iqb-Bestand** (Körper · zeichnen, AG/LA (A2) WTR 1 d:
+Masten und Seil darstellen), gegen iqb + abi nichts Neues (der Wert steht
+seit 2017-bb-ea im abi-Bestand); Gesamtbestand 188 unverändert. Die Reihen
+aus Teil A und Teil B sind unberührt (Reserve-Stapel am Ende der
+Erfassungsreihenfolge; Eintrag in beiden Tabellen oben). Auf Teil-A-Werten
+gleiches Niveau 38 (73 %), beide Niveaus 47 (90 %). Außerhalb der Geltung:
+AG/LA (A1) (Matrizen, 6 Zeilen) und Analysis WTR 1 2 c (Funktionsscharen, in
+den Grundkursen). Kontextgebundene Zeilen: keine. Neue Typen nach Thema:
+Funktionsklassen 6 (darunter drei Transformationen und Nullstellen-Werte
+mit Maßstab), Matrizen 5 (Übergangsdiagramm auswählen, diagonalfreie Matrix
+deuten, Einträge von M², Aussagen nach zwei Übergängen, Abgang über
+Diagonalmatrix), Punkte und Strecken 2, Geraden 2, Ebenen 1, Binomialverteilung
+3, je 1 Ableitungsregeln, Tangente, Integralwert (Trapez – Kandidat für eine
+Zusammenziehung mit der Dreiecksfläche aus 2025-ga-B), Rekonstruktion,
+Flächeninhalt und Volumen, Funktionsscharen, Term und Ereignis, Baumdiagramm,
+Kenngrößen. Befund am Pooltext: die Textextraktion (pypdf) taugt für die
+Standardbezug-Tabellen nur in den Zeilen, nicht in den Spalten (K-Zuordnung
+und AB-Spalte nur am Bild), Matrizen und Wurzeln verlieren die Struktur –
+alle Formeln am gerenderten Blatt gelesen. Lauf aus dem HEAD-Stand
+byteidentisch, Selbstprüfung beider Skripte bestanden (1258 Zeilen, 1115
+Typen, 33 Stapel). Aufwand etwa 55 Minuten.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Stapel 2022-ga-B (WTR-Zweig) erfasst (Reserve geöffnet wegen der 19 Landesheftverweise aus 2022-bebb-gk, Abbruchkriterium unberührt): 52 Zeilen aus 7 Dateien, Katalog 1258 Zeilen, Typenliste 1115 (28 neu). Alle BE-Summen geprüft (35/35/20/20/20/20/20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 41 von 52 (79 %) nach der Spalte Anforderungsbereich; 19 Zeilen mit übernommener Schätzung der Landeszeilen (10 Treffer), eigene 31 von 33 – **Eichschwelle für diesen Stapel auf 75 % gesetzt (iqb-bau.py v1.4: KONFIG „eichung_mindestens“ mit „eichung_grund“, globale Schwelle bleibt 85 %)**; sechs eigene Schätzungen nach der engen Fassung korrigiert. Ein neuer Schnittwert im Niveau (Körper · zeichnen), keiner gegen iqb + abi. 19 Zeilen in 2022-bebb-gk vorgemerkt, Umstellung in Lauf 18. |
 | 2026-09-16 | Abgleichlauf 17 (nach den Landesheften 2022-bebb-gk, 2025-bebb-gk, 2022-bebb-lk, 2023-bebb-lk): eine iqb-Zeile umgestellt – 2024-ea-B Stochastik WTR 1 2 c „Fehler zweiter Art für einen selbst gewählten Anteil berechnen und mit einer Schranke vergleichen“ → „Fehler zweiter Art für selbst gewählte Anteile berechnen und einordnen“ (zusammengezogen mit 2023-bebb-lk 4 j). Typenliste 1090 → 1087. |
 | 2026-09-16 | Landesheft 2023-bebb-lk erfasst (Profil abi, erhöht): 33 Dubletten auf den Pool 2023 erhöht – Teil A 12 Zeilen (Analysis 1.1, 1.2, AG/LA A2 1.3, 2.2, Stochastik 1.1, 2.2), Teil B 21 Zeilen (Analysis WTR 1 ohne 2 b, AG/LA A2 WTR 2 a–d und f, Stochastik WTR 2 Aufgabe 1 vollständig und 2 a–b), 2 abgewandelte (AG/LA A2 WTR 2 e und g). Landesverwendung jetzt 159 Dubletten, 4 abgewandelte, 19 Vormerkungen. Typenliste 1090 (24 neue abi-Typen). Das Heft erbt sechs der neun Abweichungen von 2023-ea-B. |
 | 2026-09-16 | Landesheft 2022-bebb-lk erfasst (Profil abi, erhöht): 32 Dubletten auf den Pool 2022 erhöht – Teil A 6 Zeilen (Analysis 1.1, 1.2, AG/LA A2 1.1), Teil B 26 Zeilen (Analysis WTR 2 vollständig, AG/LA A2 WTR 1 a–g, Stochastik WTR 1 Aufgabe 1 a–f und 2 b), 1 abgewandelte (Stochastik WTR 1 2 a: Heft verlangt nur „Umfang größer als 100“). Landesverwendung jetzt 126 Dubletten, 2 abgewandelte, 19 Vormerkungen. Typenliste 1066 (23 neue abi-Typen). Eichung der Poolzeilen unverändert; das Heft erbt eine der zwei Abweichungen von 2022-ea-A und vier der sieben von 2022-ea-B (abi-bau.py v0.8 zählt geerbte Schätzungen nicht für die Heftschwelle). |

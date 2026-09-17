@@ -1,5 +1,7 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.6 · 16.09.2026 · Kennung iqb · gilt mit Kern v0.5 (Schema-Version 2)
+Version 1.7 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.5 (Schema-Version 2)
+Änderungen gegenüber 1.6 (Stapel 2022-ga-B): § 7 Eichschwelle je Stapel in KONFIG
+überschreibbar (iqb-bau.py v1.4).
 Änderungen gegenüber 1.5 (Auftrag „Geltung klären"): § 6 Poolzeilen weiter
 gegen alle vier Spalten, die bebb-Regel gilt nur für abi
 (abitur-vokabular.md v1.2).
@@ -380,7 +382,12 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
     Anteil weiter (Kennzahlen); eine neue Schranke wird erst gesetzt, wenn der
     Typenschnitt für Teil A entschieden ist (iqb-pruefungen.md § 4).
   · Eichung: mindestens 85 % der Zeilen treffen nach der engen Fassung den
-    höchsten amtlichen Bereich (ab 10 Zeilen im Stapel scharf).
+    höchsten amtlichen Bereich (ab 10 Zeilen im Stapel scharf). Seit
+    iqb-bau.py v1.4 (2022-ga-B) darf KONFIG den Wert für einen Stapel
+    überschreiben („eichung_mindestens" mit Pflichtfeld „eichung_grund"); der
+    Bericht nennt Wert und Grund, die globale Schwelle bleibt. Erster Fall:
+    Zeilen, die die Schätzung wortgleicher Landeszeilen übernehmen, damit die
+    Dubletten geerbt bleiben (iqb-pruefungen.md § 4, 17.09.2026).
   · Zeilen mit „ersatzweise" (kein passendes Thema): höchstens 10 % der Zeilen,
     mindestens 2 erlaubt.
   Reißt eine Schranke, ist der Stapel nicht schlecht, sondern die Etiketten sind
