@@ -1730,6 +1730,34 @@ CAS-Hefte weichen auch in den übrigen Aufgaben ab (2016: 1.2 a–c, e, 2.1 c,
 3.1 e, 3.2 b; 2017: 1.1 e, f, 2.2 c, 3.1 e, g, 3.2 d), die Stark-Auswahl ist
 also keine Differenzmenge (abi-quellen.md § 5).
 
+**Ausschlussliste, strukturelle Geltung und Widerspruch Teil A (17.09.2026,
+Auftrag B, Teil 5).** abitur-vokabular.md v1.4 § 3: Ausschlussliste neben
+der Geltungstabelle (Beweise, Simulationen, Grenzwerte bei Ableitung und
+Integral im GK, komplexe gebrochen-rationale Funktionen im Berliner LK) als
+Aufgabenformen und Lösungswege, nicht als Themen, mit dem Befund aus Auftrag
+A und der Nachprüfung über 794 abi- und 1258 iqb-Zeilen (0 Zeilen mit
+h-Methode, Ober-/Untersumme oder Streifenmethode als verlangtem Weg – das
+Wort „Obersumme" steht nur als Fehlerquelle in 2025-bebb-lk 2.1 g; 0
+abi-Zeilen gebrochen-rational, im Pool zwei einfache). Vorschlag einer
+strukturellen Geltung nach fünf Jahrgangsklassen (vor 2019, 2019–2021,
+2022/2023, 2024, ab 2025), ableitbar aus papier und block, mit Vorschlag
+zur Reihenfolge im Blattbau – nicht gesetzt, Entscheidung beim Lehrer.
+**Widerspruch Teil A GK (30 gegen 25 BE) aufgelöst** an den vier
+Prüfungsschwerpunkten 2027 (Text mit pypdf gelesen, Brandenburg
+PS_Mathematik_GK/LK_2027.pdf, Berlin ps_mathematik_2027_gk/lk.pdf): GK „aus
+der Aufgabengruppe 1 drei Aufgaben zur Bearbeitung vorgegeben; außerdem
+weitere drei Aufgaben der Aufgabengruppe 1 und drei Aufgaben der
+Aufgabengruppe 2 zur Auswahl; zu jeder der beiden Aufgabengruppen muss von
+den drei Aufgaben eine beliebige bearbeitet werden" – 3 + 1 + 1 Aufgaben zu
+5 BE = 25; die STARK-Zählung „Gruppe 1 sechs Aufgaben, vier zu bearbeiten"
+rechnet die Pflichtaufgaben mit. Im Heftlayout 2025/2026 GK sind
+„Wahlaufgaben 1" die weiteren drei Aufgaben der Gruppe 1 und „Wahlaufgaben
+2" die Gruppe 2, aus jedem Block eine; die Summe 25 steht im Heft. LK: vier
+Aufgaben der Gruppe 1 vorgegeben, zwei aus sechs der Gruppe 2 – 30 BE. Der
+Widerspruch beruhte auf der Lesart „ein Wahlblock zu drei Aufgaben"; abi.md
+v0.19 § 11 nachgeführt, am Katalog ändert sich nichts (soll je Aufgabe 5 BE
+war schon richtig).
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2138,6 +2166,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag B, Teil 5: abitur-vokabular.md v1.4 § 3 Ausschlussliste (Aufgabenformen, nicht Themen) mit Befund im Bestand und Vorschlag einer strukturellen Geltung nach Jahrgangsklassen (nicht gesetzt); Widerspruch Teil A GK 30 gegen 25 BE an den Prüfungsschwerpunkten 2027 aufgelöst (3 + 1 + 1 Aufgaben = 25 BE), abi.md v0.19 § 11 nachgeführt (§ 4). |
 | 2026-09-17 | Auftrag B, Teile 2, 4 und 6: Markdown-Korpus begonnen (hefte-md/2025-bebb-gk.md mit zehn Abbildungen, außerhalb des Repos, .gitignore; Prüfung gegen den Katalog: 39 von 39 Teilaufgaben, 0 Abweichungen bei BE, Struktur und 27 nachgerechneten Ergebnissen, § 4); Teil 3 nicht ausführbar, Stichwortverzeichnisse fehlen (§ 4); CAS-Delta an 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2 gemessen (58 % wortgleich, 30 % gleicher Typ anderer Weg, 12 % zusätzliche Typen, 0 neue Schnittwerte; Hinweis, kein Beleg; § 4), amtliche Dateien 2016/2017 WTR und CAS unter hefte/; abi-quellen.md v0.4 (§ 5 Verlagsbände mit Beschaffungstabelle, § 8 alle Dateien erfasst, § 9 Korpus). |
 | 2026-09-17 | Abgleichlauf 21 (abgleich.py v0.21) nach den fünf Heften des Auftrags B, Teil 1: vier Zusammenziehungen, 1215 → 1211 Typen, 5 Typfelder im abi-Katalog (2019-be-gk 2.1 a, 2020-be-gk 4.1 b, 2021-be-gk 2.1 k, 2022-bebb-lk 1.7 a, 2024-bebb-lk 2.1 d) und 5 im iqb-Katalog. alt → neu: „Maximum einer Gewinnfunktion über die Ableitung berechnen" → „Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen"; „Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben" → „Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben"; „Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen" und „Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen" → „Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen"; „Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren" und „Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen" → „Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren". abi.md v0.19: § 11 Heftaufbau je Jahrgang 2019–2021 und 2024/2025 aus den Heften (Corona-Aufbau schon 2021, Pflicht plus zwei von sechs Wahlaufgaben im LK seit 2024), Zuordnung für die Simulation nachgeführt, § 9 Befund zu den GK-Heften 2019–2021. |
 | 2026-09-17 | Heft 2025-bebb-lk erfasst (Berlin/Brandenburg LK, Stark-Band zum Abitur 2027): 46 Zeilen aus 14 Aufgaben (1.1–1.10 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 794 Zeilen, Typenliste 1215 (11 neu). Alle Punktsummen geprüft (10 × 5, 30, 30, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 28 von 29 (geerbt). Pool 33 von 46 Zeilen, 104 von 150 BE (69 %): Teil A vollständig (18 Dubletten), 3 = AG/LA (A2) WTR (5), 4 = Stochastik WTR 2 (6), 2.1 Regenwasser = WTR-Fassung von Analysis MMS 1 (4 wortgleiche und 3 abgewandelte Vormerkungen auf den MMS-Zweig 2025-ea-B, 1 Landeszusatz; offene Posten jetzt 35), 2.2 Blutzucker Landes. Kein neuer Schnittwert. Aufbau und Schlüssel 30/30/20/20 wie 2026-bb-ea. |

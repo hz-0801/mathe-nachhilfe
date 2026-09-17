@@ -1,5 +1,9 @@
 # VOKABULAR – Sachgebiete, Themen, Gegenstandsklassen, Geltung
-Version 1.3 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Version 1.4 · 17.09.2026 · gilt für die Profile abi und iqb (konzept.md, Entscheidung 25)
+Änderungen gegenüber 1.3 (Auftrag B „Fünf Hefte erfassen, Heftkorpus,
+Katalog gegen Stark prüfen, CAS-Delta", Teil 5): § 3 Ausschlussliste neben
+der Geltungstabelle (Aufgabenformen, nicht Themen) mit Befund im Bestand;
+Vorschlag einer strukturellen Geltung nach Jahrgangsklassen (nicht gesetzt).
 Änderungen gegenüber 1.2 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", Teil 3): § 3 Anmerkungen
 neben der Geltungstabelle – nicht geforderte Inhalte, landesspezifische
@@ -258,6 +262,46 @@ Potenzfunktion). Vorschlag: Tabelle unverändert lassen; die Einschränkung
 be-lk „komplexe gebrochen-rationale Funktionen nicht gefordert" gilt
 unterhalb des Themas und wird beim Blattbau als Filter auf die Zeile
 angewendet, sobald ein Fall auftritt. Entscheidung beim Lehrer.
+
+**Ausschlussliste neben der Geltungstabelle** (17.09.2026, Auftrag B Teil 5;
+Quelle wie oben). Die Einträge sind Aufgabenformen oder Lösungswege, keine
+Themen: sie schränken Zeilen innerhalb gültiger Themen ein und ändern keine
+Spalte der Tabelle. Befund im Bestand (Auftrag A, Teil 3; nachgeprüft
+17.09.2026 mit 794 abi- und 1258 iqb-Zeilen):
+
+| Ausschluss | gilt für | Art | Befund im Bestand |
+|---|---|---|---|
+| Beweise erläutern oder entwickeln | alle vier Zielprüfungen | Aufgabenform (Operator) | keine Zeile verlangt einen Beweis; „Weisen Sie nach"/„Zeigen Sie" sind Nachweise an konkreten Termen und bleiben zulässig |
+| Simulationen | alle vier Zielprüfungen | Aufgabenform | keine Zeile |
+| Grenzwerte bei der Bestimmung von Ableitung oder Integral (h-Methode, Ober-/Untersumme, Streifenmethode) | be-gk, bb-gk | Lösungsweg | 0 Zeilen in beiden Katalogen, die einen solchen Weg verlangen (das Wort „Obersumme" kommt nur als Fehlerquelle in 2025-bebb-lk 2.1 g vor); Differenzenquotienten im Bestand sind mittlere Änderungsraten, „Grenzwerte und Verhalten im Unendlichen" bleibt gültig |
+| Komplexe gebrochen-rationale Funktionen | be-lk | Funktionsklasse unterhalb des Themas „Funktionsklassen und Eigenschaften" | 0 abi-Zeilen; im Pool zwei einfache Fälle (Asymptote einer Logarithmusfunktion, transformierte Potenzfunktion) |
+
+Nutzung: der Blattbau filtert nach der Tabelle über das Thema und nach
+dieser Liste über die Zeile (operator, verfahren, gegeben); die Liste ist
+kein Feld und kein Skriptfilter.
+
+**Vorschlag: strukturelle Geltung nach Jahrgangsklassen** (17.09.2026,
+Auftrag B Teil 5; Vorschlag, nicht gesetzt – Entscheidung beim Lehrer). Die
+Geltungstabelle sagt, ob ein Thema geprüft wird; sie sagt nicht, ob eine
+Zeile aus einem Heft stammt, dessen Prüfungsteil es in der Zielprüfung noch
+gibt. Für „Prüfung simulieren" (abi.md § 11) braucht der Blattbau eine
+zweite, strukturelle Geltung. Sie ist aus den vorhandenen Feldern ableitbar
+und braucht kein neues Feld: `papier` liefert den Jahrgang, `block` den
+Prüfungsteil (A hilfsmittelfrei, B mit Hilfsmitteln). Vorgeschlagene Klassen:
+
+| Klasse | Jahrgänge (papier) | Teil A | Teil B | Verwendung im Blattbau |
+|---|---|---|---|---|
+| vor 2019 | 2017-bb-ea, 2018-be-gk, 2018-bb-ea | Berlin keiner; Brandenburg erhöht 15 BE ohne Wahl | drei Wahlpaare | Typenquelle; für die Simulation nur Teil-B-Zeilen als Ersatz gleicher Sachgebiete |
+| 2019–2021 | 2019-be-gk, 2020-be-gk, 2021-be-gk | ohne Wahl (2019: 4, 2020: 5 Einheiten), 2021 Corona-Aufbau | 2019/2020 drei Wahlpaare, 2021 Corona | Typenquelle; Teil-A-Zeilen simulationstauglich (Einheiten zu 5 BE), Teil B als Ersatz |
+| 2022/2023 (Corona) | 2022-bebb-gk, 2022-bebb-lk, 2023-bebb-gk, 2023-bebb-lk | Einheiten zu 5 BE mit Fachwahl | Analysis beide Pflicht, Geometrie oder Stochastik | Teil-A-Zeilen simulationstauglich, Teil B als Ersatz |
+| 2024 (alter Schlüssel) | 2024-bebb-gk, 2024-bebb-lk | Pflicht + Wahl wie ab 2025 (LK: 4 + 2 von 6) | 35/20/20 bzw. 40/25/25 | Teil A voll, Teil B mit abweichender BE-Summe je Aufgabe |
+| ab 2025 | 2025-bebb-gk, 2025-bebb-lk, 2026-bb-gk, 2026-bb-ea | Schlüssel 25 bzw. 30 | 25/15/15 bzw. 30/20/20 | vollständig strukturgleich mit 2027 |
+
+Ableitung: Klasse = f(jahr, papier); die BE-Vektoren je Aufgabe stehen in
+abi-struktur.json und in abi-pruefungen.md § 2. Der Blattbau nimmt für eine
+Simulation zuerst Zeilen der Klasse „ab 2025", dann „2024", dann die
+Teil-A-Zeilen der Klassen 2019–2023, und füllt den Rest mit Zeilen gleicher
+Sachgebiete aus allen Klassen; die Geltungstabelle bleibt der erste Filter.
 
 ## 4 Gegenstandsklassen je Thema
 

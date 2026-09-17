@@ -4,7 +4,8 @@ Version 0.19 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 
 Katalog gegen Stark prüfen, CAS-Delta", Teil 1): § 11 Heftaufbau je Jahrgang
 2019–2021 (Berlin GK) und 2024/2025 (LK) aus den Heften, Corona-Aufbau schon
 2021, Zuordnung für die Simulation nachgeführt; § 9 Befund zu den Berliner
-GK-Heften 2019–2021.
+GK-Heften 2019–2021. Teil 5: § 11 Widerspruch Teil A GK (30 gegen 25 BE) an
+den Prüfungsschwerpunkten 2027 aufgelöst – 3 Pflicht + 1 aus 3 + 1 aus 3.
 Änderungen gegenüber 0.17 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", Teil 4): § 2 und § 4
 Dateien unter hefte/ heißen wie das Kürzel (2026 umbenannt), Verzeichnis in
@@ -620,10 +621,21 @@ Aufgaben, zwei zu bearbeiten, mindestens eine Teilaufgabe AFB III. Beide
 Teil B: zwei Analysis-Aufgaben zur Wahl, je eine Aufgabe Analytische
 Geometrie und Stochastik, beide verpflichtend. Bearbeitungszeit GK 285
 Minuten, davon höchstens 100 für Teil A; LK 330 Minuten, davon höchstens 110
-für Teil A. (§ 3 gibt aus den Brandenburger Prüfungsschwerpunkten für den GK
-„je drei Aufgaben beider Gruppen zur Auswahl, aus jeder Gruppe eine" wieder –
-eine andere Auswahlregel; welche Fassung gilt, ist am amtlichen Text zu
-prüfen, offen.)
+für Teil A. **Aufgelöst (17.09.2026, Auftrag B Teil 5, an den vier
+Prüfungsschwerpunkten 2027 geprüft):** beide Fassungen beschreiben dieselbe
+Regel. GK, alle vier Papiere gleichlautend: „aus der Aufgabengruppe 1 drei
+Aufgaben zur Bearbeitung vorgegeben; außerdem weitere drei Aufgaben der
+Aufgabengruppe 1 und drei Aufgaben der Aufgabengruppe 2 zur Auswahl; zu jeder
+der beiden Aufgabengruppen muss von den drei Aufgaben eine beliebige
+bearbeitet werden" – also 3 + 1 + 1 = 5 Aufgaben zu je 5 BE = 25 BE; die
+STARK-Zählung „Gruppe 1 sechs Aufgaben, vier zu bearbeiten" rechnet die drei
+Pflichtaufgaben mit. LK: „vier Aufgaben zur Bearbeitung vorgegeben, sechs
+Aufgaben der Aufgabengruppe 2 zur Auswahl, von diesen sechs zwei" – 30 BE.
+Im Heftlayout der GK-Hefte 2025/2026 sind die „Wahlaufgaben 1" die drei
+weiteren Aufgaben der Gruppe 1 und die „Wahlaufgaben 2" die drei Aufgaben
+der Gruppe 2; aus jedem Block ist eine zu wählen (Summe im Heft 25, nicht
+30). Der in § 11 „Zuordnung" gemeldete Widerspruch (30 gegen 25 BE) beruhte
+auf der Lesart „ein Wahlblock zu drei Aufgaben"; er ist entfallen.
 
 **Hilfsmittel (beide Niveaus).** Ohne MMS: nicht programmierbarer, nicht
 grafikfähiger Taschenrechner ohne numerische Differenziation, Integration und
@@ -689,11 +701,11 @@ nicht entschieden (Meldung, § 9).
 Struktur ab 2025 (Teil A Pflicht- plus Wahlaufgaben, Teil B Analysis zur
 Wahl, Geometrie und Stochastik Pflicht, Schlüssel 25/25/15/15 bzw.
 30/30/20/20) bilden ab: 2026-bb-ea vollständig (Teil A 1.1–1.4 Pflicht, zwei
-aus 1.5–1.10, Teil B 30/30/20/20); 2025-bebb-gk und 2026-bb-gk in Teil B
-(25/25/15/15), in Teil A mit dem Heftlayout drei Pflichtaufgaben plus ein
-Wahlblock zu drei Aufgaben (30 BE bei Wahl) gegenüber 25 BE im Schlüssel und
-der Gruppenregel 2027 (vier aus sechs, eine aus drei) – die Abweichung ist
-nicht aufgelöst. Nicht abbildend: 2024-bebb-gk (Schlüssel 2024, Teil B
+aus 1.5–1.10, Teil B 30/30/20/20); 2025-bebb-gk und 2026-bb-gk vollständig
+(Teil B 25/25/15/15; Teil A drei Pflichtaufgaben, eine aus den drei
+„Wahlaufgaben 1" der Gruppe 1 und eine aus den drei „Wahlaufgaben 2" der
+Gruppe 2, 25 BE – Widerspruch am 17.09.2026 aufgelöst, siehe „Aufbau 2027").
+Nicht abbildend: 2024-bebb-gk (Schlüssel 2024, Teil B
 35/20/20), 2022 und 2023 (Sonderjahrgänge), 2017 und 2018 (Format bis 2018).
 Seit 17.09.2026 erfasst: 2025-bebb-lk bildet die Struktur ab 2025
 vollständig ab (Teil A 1.1–1.4 Pflicht, zwei aus 1.5–1.10, Teil B
