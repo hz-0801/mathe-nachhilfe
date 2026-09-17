@@ -1,5 +1,10 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.15 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Version 0.16 · 17.09.2026 · Kennung abi · gilt mit Kern v0.6 (Schema-Version 2)
+Änderungen gegenüber 0.15 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 2): § 10
+Prüfungsgeschichte mit Quelle je Zeile; § 4 Kürzelregel nach Jahrgängen (be
+2019–2021, bebb 2022–2025, be und bb ab 2026) mit dem Befund aus den
+Kopfzeilen der Hefte; § 9 offen: GK-Fassungen 2019–2021 beider Länder.
 Änderungen gegenüber 0.14 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
 Prüfungsstruktur festhalten, Heftordner ordnen", Teil 1): § 7 Vorrang des
 Amtlichen – eine wortgleiche Dublette zieht ihre Schätzung nach, sobald die
@@ -171,21 +176,31 @@ CAS-Hefte sind durchgehend eigene Fassungen.
     papier: Jahr-Land-Niveau[-cas], klein und ohne Umlaute
             2017-be-gk · 2017-be-gk-cas · 2017-be-lk · 2017-be-lk-cas
             2017-bb-ea · 2017-bb-ea-cas · entsprechend 2018
-            Land „bebb" für die gemeinsamen Hefte Berlin/Brandenburg der
-            Jahre 2019 bis 2025 (Verlagsbände, Kopf „Berlin/Brandenburg –
-            Mathematik Grundkurs"): 2023-bebb-gk, mit Rechnerfassung
-            2023-bebb-gk-cas bzw. -mms wie der Band sie nennt. Entscheidung
-            15.09.2026 (Vorschlag des Lehrers): das Muster Jahr-Land-Niveau
-            trägt die gemeinsame Prüfung nicht, „bebb" nennt beide Länder in
-            der Reihenfolge der amtlichen Kopfzeile; be und bb bleiben für
-            die landeseigenen Hefte bis 2018 und ab 2026. „bebb" gilt nur
-            bis 2025: ab 2026 entstehen die Prüfungen getrennt (Kopfzeile
-            „Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs"),
-            die Brandenburger Hefte heißen 2026-bb-gk und 2026-bb-ea und
-            treffen je genau eine Zielprüfung (bb-gk bzw. bb-ea); die
-            Zwei-Spalten-Regel der Geltung (§ 6) gilt für sie nicht
-            (Entscheidung des Lehrers, 17.09.2026). Die Verlagsdateien
-            unter hefte/ tragen für 2026 noch „bebb" im Namen.
+            Land nach Jahrgang (Entscheidung des Lehrers, 17.09.2026, § 10):
+              · be und bb bis 2018 – landeseigene amtliche Hefte (2017-be-gk,
+                2017-bb-ea, …);
+              · be für 2019 bis 2021 – die Verlagsbände dieser Jahre sind
+                die Berliner Grundkurshefte, Kopfzeile „Berlin – Mathematik
+                Grundkurs", keine Nennung Brandenburgs im Text (Befund
+                17.09.2026, abi-pruefungen.md § 4); je Land eigene Ausgabe
+                nach dem Rundschreiben 21/20 (§ 10): 2019-be-gk, 2020-be-gk,
+                2021-be-gk;
+              · „bebb" für die gemeinsamen Hefte Berlin/Brandenburg 2022 bis
+                2025 (Verlagsbände, Kopfzeile „Berlin/Brandenburg –
+                Mathematik Grundkurs" bzw. „Leistungskurs" in allen acht
+                Scans): 2023-bebb-gk, mit Rechnerfassung 2023-bebb-gk-cas
+                bzw. -mms wie der Band sie nennt. Entscheidung 15.09.2026
+                (Vorschlag des Lehrers): das Muster Jahr-Land-Niveau trägt
+                die gemeinsame Prüfung nicht, „bebb" nennt beide Länder in
+                der Reihenfolge der amtlichen Kopfzeile;
+              · be und bb ab 2026 – getrennte Erstellung (Kopfzeile
+                „Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs"),
+                die Brandenburger Hefte heißen 2026-bb-gk und 2026-bb-ea
+                und treffen je genau eine Zielprüfung (bb-gk bzw. bb-ea);
+                die Zwei-Spalten-Regel der Geltung (§ 6) gilt für sie nicht
+                (Entscheidung des Lehrers, 17.09.2026).
+            Die Verlagsdateien unter hefte/ tragen für 2026 noch „bebb" im
+            Namen.
             Die Werte stehen in abi-quellen.md § 2 und sind zugleich die
             Dateinamen des Korpus.
     block:  A (hilfsmittelfreier Teil; bis 2018 Aufgabenstellung 1 der
@@ -486,6 +501,11 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
 
 ## 9 Offen
 
+- Grundkurs 2019 bis 2021 (17.09.2026, § 10; offen führen, nicht auflösen):
+  ob die Berliner und die Brandenburger Fassung im Grundkurs inhaltlich
+  abwichen oder nur im Deckblatt. Die Bände unter hefte/ sind die Berliner
+  Fassung; das Rundschreiben 21/20 spricht für 2020 und 2021 von „weitgehend
+  gemeinsamen Aufgabenstellungen" mit eigener Ausgabe je Land.
 - Dublette zwischen zwei abi-Heften (17.09.2026, Hefte 2026-bb-gk und
   2026-bb-ea): die Dublettenregel des Katalogs (§ 7) deckt nur den Verweis
   eines Landeshefts auf den Pool ab – „Dublette von:" verlangt eine
@@ -520,3 +540,33 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
   hilfsmittelfreien Teil bereits 2017, Berlin nach den Fachbriefen ab 2019.
 - Trägt das CAS-Delta über alle Sachgebiete? Geprüft ist nur Analysis (2016,
   Aufgabe 1.1).
+
+## 10 Prüfungsgeschichte
+
+Stand 17.09.2026 (Auftrag „Eichung korrigieren, Prüfungsgeschichte und
+Prüfungsstruktur festhalten, Heftordner ordnen", Teil 2). Je Zeile die Quelle;
+amtlich ist nur, was als amtlich gekennzeichnet ist. Die Fundstellen in den
+Heften unter hefte/ stehen in abi-pruefungen.md § 4 (17.09.2026).
+
+| Zeitraum | Befund | Quelle |
+|---|---|---|
+| ab Schuljahr 2009/10 | Gemeinsame Abiturprüfungen Berlin und Brandenburg (Deutsch, Englisch, Französisch, Mathematik), koordiniert vom LISUM. | Bildungsserver Berlin-Brandenburg; Wikipedia (nicht amtlich) |
+| ab Prüfungsjahr 2017 | IQB-Aufgabenpools für Deutsch, Englisch, Französisch und Mathematik; die Landeshefte entnehmen daraus (Poolquote je Heft in abi-pruefungen.md § 2). | Bildungsserver Berlin-Brandenburg |
+| ab 2019 | Hilfsmittelfreier Prüfungsteil auch in Berlin; die Prüfung ist seither zweiteilig (Teil A ohne, Teil B mit Hilfsmitteln). Brandenburg hatte den hilfsmittelfreien Teil auf erhöhtem Niveau schon 2017 (§ 3, abi-aufbau.md § 1). | Fachbrief Mathematik Nr. 22, August 2018 (Berlin) |
+| 2020 und 2021 | Prüfung „auf der Grundlage weitgehend gemeinsamer Aufgabenstellungen", je Land eigene Ausgabe. | Rundschreiben 21/20 (Brandenburg), bravors.brandenburg.de – amtlich |
+| bis einschließlich 2025 | Gemeinsame Entwicklung der Aufgaben, koordiniert vom LISUM; das LISUM wurde Ende 2024 aufgelöst. | Bildungsserver Berlin-Brandenburg; abi-vorgaben.md § 2 |
+| ab Abitur 2026 | Getrennte Erstellung: Berlin über das BLiQ, Brandenburg über das LIBRA; beide weiterhin aus dem IQB-Pool. Organisatorische, keine inhaltliche Trennung: die Poolquote 2026 (bb-gk 80 %, bb-ea 77 %) liegt auf dem Stand von 2025 (bebb-gk 80 %). | Prüfungsschwerpunkte 2027 (§ 1); Poolquote abi-pruefungen.md § 2, § 4 (Lauf 19) |
+| bis 2017 / ab 2018 | Berliner LK und Brandenburger eA bis 2017 großteils identisch, ab 2018 vollkommen übereinstimmend. **Verlagsangabe (Merkur), keine amtliche Quelle.** Der Bestand zeigt für 2017 drei und für 2018 vier wortgleiche Aufgaben je Heft (abi-aufbau.md § 4), 2018 mit einer abweichenden BE-Teilung (Brillenträger). | Merkur-Verlag (nicht amtlich); eigener Textvergleich abi-aufbau.md § 4 |
+| Verlagsbände | STARK betitelt seine Bände durchgehend „Berlin/Brandenburg", auch 2026 und 2027; die Kopfzeile der einzelnen Prüfung im Band übernimmt STARK vom Original. Die Autorenliste des Bandes zum Abitur 2021 nennt die Prüfungen 2016 bis 2020 ausdrücklich als „Abiturprüfung Berlin". Befund in den Dateien unter hefte/ (17.09.2026): 2019–2021 Kopfzeile „Berlin – Mathematik Grundkurs", 2022–2025 „Berlin/Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs", 2026 „Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs" (abi-pruefungen.md § 4). | STARK-Bände (Angabe des Lehrers); Kopfzeilen der Hefte |
+| Band zum Abitur 2027 | STARK führt die Jahrgänge 2022 bis 2025 ohne Landeszusatz und den Jahrgang 2026 als „von Brandenburg" (online über MySTARK). Für Berlin 2026 existiert kein STARK-Heft; die Lücke ist über den Verlag nicht zu schließen (offener Punkt in abi-pruefungen.md § 3). | STARK-Band zum Abitur 2027 (Angabe des Lehrers) |
+
+Offen (nicht aufzulösen, § 9): ob die Berliner und die Brandenburger Fassung
+2019 bis 2021 im Grundkurs inhaltlich abwichen oder nur im Deckblatt. Die
+Hefte 2019–2021 unter hefte/ sind die Berliner Fassung (Kopfzeile), eine
+Brandenburger Fassung liegt nicht vor.
+
+Kürzelregel nach Jahrgängen (§ 4): be für 2019–2021, bebb für 2022–2025, be
+und bb ab 2026. Die Kopfzeilen der Hefte stützen sie; eine Aussage über den
+Geltungsbereich (Land, Rechner, Hilfsmittel) enthält keine der Dateien, weil
+die Verlagsausgaben Deckblatt und Hinweisseiten der Originalhefte nicht
+enthalten (abi-quellen.md § 5).

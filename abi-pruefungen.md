@@ -1,5 +1,5 @@
 # Zentralabitur Mathematik Berlin/Brandenburg – Hefte und Erfassungsstatus
-Stand 15.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
+Stand 17.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
 
 ## 1 Quelle
 
@@ -77,6 +77,12 @@ urheberrechtlichen Gründen nicht veröffentlicht; für Berlin Grundkurs
 Gescannte Verlagshefte (Stark) liegen lokal unter hefte/ und bleiben über
 .gitignore außerhalb des Repos (urheberrechtlich geschützt); erstes Heft
 2023-bebb-gk (§ 2, § 4).
+
+**Offen: Berlin 2026.** Für das Berliner Abitur 2026 (erstes Jahr der
+getrennten Erstellung über das BLiQ) existiert kein STARK-Heft; der Band zum
+Abitur 2027 führt 2022–2025 ohne Landeszusatz und 2026 nur „von Brandenburg"
+(abi.md § 10). Die Lücke ist über den Verlag nicht zu schließen; eine andere
+Quelle ist nicht bekannt (17.09.2026).
 
 ## 4 Befunde zu einzelnen Heften
 
@@ -1180,6 +1186,47 @@ von 23, 2018-ea-A 25 von 26, 2018-ga-B 46 von 53 unverändert – alle über 85 
 Heft 2022-bebb-gk 23 von 24 (96 %), 23 geerbt, eigene 0 von 1 (1.7 a, I gegen
 II; nicht scharf); 2017-bb-ea und 2018-bb-ea ohne amtlichen Bereich.
 
+**Landes- und Rechnernennungen in den Heften unter hefte/ (17.09.2026,
+Auftrag „Eichung korrigieren, Prüfungsgeschichte und Prüfungsstruktur
+festhalten, Heftordner ordnen", Teil 2, Punkt 7–8).** Gesucht in jedem der
+dreizehn Dateien nach „Berlin", „Brandenburg", „CAS", „MMS", „WTR",
+„Taschenrechner" und „Hilfsmittel": bei den fünf PDFs mit Textebene
+(2019–2021, 2026) über den extrahierten Text aller Seiten mit Kontext, bei
+den acht Bildscans (2022–2025) über die erste Seite jedes Hefts – die Scans
+enthalten nur Aufgabenseiten, keine Vorspann-, Hinweis- oder
+Impressumsseiten (Befund der Sichtungen in § 4), gelesen wurde die Kopfzeile
+der ersten Aufgabenseite. Keine Datei enthält ein Deckblatt des
+Originalhefts; Bearbeitungszeit, Hilfsmittelliste und Prüfungsablauf fehlen
+in allen Verlagsausgaben (abi-quellen.md § 5).
+
+| Datei | Textebene | Kopfzeile (STARK, vom Original übernommen) | Weitere Nennungen | Aussage zum Geltungsbereich |
+|---|---|---|---|---|
+| 2019-be-gk.pdf (46 S.) | ja | „Berlin – Mathematik Grundkurs 2019" auf jeder Aufgabenseite (7 Treffer) | Brandenburg 0, CAS/MMS/WTR/Taschenrechner/Hilfsmittel 0 | keine; nur Berlin genannt |
+| 2020-be-gk.pdf (49 S.) | ja | „Berlin – Mathematik Grundkurs 2020" (7 Treffer) | wie 2019, alle 0 | keine; nur Berlin |
+| 2021-be-gk.pdf (45 S.) | ja | „Berlin – Mathematik Grundkurs 2021" (5 Treffer; Aufgaben 1, 2.1, 2.2, 3, 4 – Geometrie und Stochastik ohne Wahl) | alle 0 | keine; nur Berlin |
+| 2022-bebb-gk.pdf (12 S.) | nein | „Berlin/Brandenburg – Mathematik Grundkurs 2022" | Bildscan, keine Suche im Text möglich | keine |
+| 2022-bebb-lk.pdf (15 S.) | nein | „Berlin/Brandenburg – Mathematik Leistungskurs 2022" | – | keine |
+| 2023-bebb-gk.pdf (14 S.) | nein | „Berlin/Brandenburg – Mathematik Grundkurs 2023" | – | keine |
+| 2023-bebb-lk.pdf (14 S.) | nein | „Berlin/Brandenburg – Mathematik Leistungskurs 2023" | – | keine |
+| 2024-bebb-gk.pdf (10 S.) | nein | „Berlin/Brandenburg – Mathematik Grundkurs 2024" | – | keine |
+| 2024-bebb-lk.pdf (13 S.) | nein | „Berlin/Brandenburg – Mathematik Leistungskurs 2024 – Pflichtaufgaben" | – | keine |
+| 2025-bebb-gk.pdf (8 S.) | nein | „Berlin/Brandenburg – Mathematik Grundkurs 2025" | – | keine |
+| 2025-bebb-lk.pdf (11 S.) | nein | „Berlin/Brandenburg – Mathematik Leistungskurs 2025 – Pflichtaufgaben" | – | keine |
+| 2026-bebb-gk.pdf (36 S.) | ja | „Brandenburg – Mathematik Grundkurs 2026" (5 Treffer) | Berlin 0; „Taschenrechner" 3 Treffer, alle in den Verlagstipps zu Aufgabe 4 (kumulierte Binomialverteilung); CAS/MMS/WTR/Hilfsmittel 0 | keine; nur Brandenburg |
+| 2026-bebb-lk.pdf (47 S.) | ja | „Brandenburg – Mathematik Leistungskurs 2026" (6 Treffer) | Berlin 0; „Taschenrechner" 5 Treffer in den Verlagstipps und -lösungen zu Aufgabe 4 (Binomial- und Normalverteilung), „Formelsammlung" nur in Tipps; CAS/MMS/WTR/Hilfsmittel 0 | keine; nur Brandenburg |
+
+*Was das für die Kürzelregel heißt (Punkt 8–9).* Für 2019 bis 2021 findet
+sich keine Nennung Brandenburgs – ausschließlich Berlin, das stützt die
+getrennte Fassung und das Kürzel be; für 2022 bis 2025 nennt jede Kopfzeile
+beide Länder (bebb); 2026 nennt nur Brandenburg (bb). Der Fall ist damit
+entschieden im Sinne der Regel be 2019–2021, bebb 2022–2025, be/bb ab 2026
+(abi.md § 4 v0.16); nichts in den Heften stellt sie in Frage. Unentschieden
+bleibt allein, ob die Berliner GK-Fassung 2019–2021 inhaltlich von der
+Brandenburger abwich (abi.md § 9) – dazu sagen die Hefte nichts, weil nur
+die Berliner Fassung vorliegt. Rechnerfassung: keine Datei nennt CAS, MMS
+oder WTR; alle dreizehn sind die Fassung ohne MMS/CAS (Verlagsbände ohne
+CAS-Aufgaben ab 2019, Rechnerfassung WTR in § 2).
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1588,6 +1635,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Prüfungsgeschichte und Kürzelregel (Auftrag Teil 2): abi.md v0.16 – § 10 Prüfungsgeschichte mit Quelle je Zeile, § 4 Kürzel nach Jahrgängen (be 2019–2021, bebb 2022–2025, be/bb ab 2026), § 9 offen: GK-Fassungen 2019–2021. Landes- und Rechnernennungen in allen 13 Dateien unter hefte/ gesucht (§ 4): 2019–2021 nur „Berlin", 2022–2025 „Berlin/Brandenburg", 2026 nur „Brandenburg"; keine Rechner- oder Hilfsmittelangabe außerhalb der Verlagstipps. Offener Punkt § 3: kein STARK-Heft für Berlin 2026. Keine Katalogdatei geändert. |
 | 2026-09-17 | Abgleichlauf 20 (Vorrang des Amtlichen, Entscheidung des Lehrers): niveau_geschaetzt in 11 abi-Zeilen auf den amtlichen Bereich der Poolzeile nachgezogen – 2022-bebb-gk 2.1 a, j, 3 b, e (II → I), 2.1 g, k (III → II), 3 i (II → III); 2017-bb-ea 1.2 b, 1.3 b, 2018-bb-ea 1.1 a, 1.2 b (II → III); dazu 9 iqb-Zeilen von 2022-ga-B. Kern v0.6 (§ 5 Vorrang des Amtlichen), abi.md v0.15 (§ 7), iqb.md v1.8, iqb-bau.py v1.5 (Überschreibung der Eichschwelle zurückgebaut), abgleich.py v0.20. Eichung 2022-bebb-gk 23 von 24. Typen unverändert (1124). |
 | 2026-09-17 | Abgleichlauf 19 nach 2022-ga-B, 2026-bb-gk und 2026-bb-ea: drei Zusammenziehungen mit neuem Namen – „Integralwert: Näherungswert eines Integrals als Dreiecksfläche am Graphen begründen“ + „… als Trapezfläche …“ → „… als Vielecksfläche …“; „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Endstück deuten“ + „Term und Ereignis: Produkt aus Potenz und kumulierter Binomialsumme als Ereignis beschreiben“ → „Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten“; „Nullstellen und Werte: Unpassende Graphen zu einem Funktionsterm ausschließen“ + „Nullstellen und Werte: Passende Abbildung des Graphen über einen Funktionswert auswählen“ → „Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen“. Typenliste 1127 → 1124, 2 abi-Zeilen umgestellt. Poolquote-Reihe und Deutung in § 4. |
 | 2026-09-17 | Heft 2026-bb-ea erfasst (landeseigen, Zielprüfung bb-ea): 50 Zeilen aus 14 Aufgaben (1.1–1.10, 2.1 a–i, 2.2 a–h, 3, 4 a–h), Katalog 543 Zeilen, Typenliste 1127 (6 neu). Alle Punktsummen geprüft (10 × 5, 30, 30, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 36 von 39, alle geerbt. Pool 39 von 50 Zeilen, 115 von 150 BE (77 %): neun von zehn Einheiten des hilfsmittelfreien Teils, 2.2, 3 und 4; Landes 1.6 und 2.1 (Weltbevölkerung). Kein neuer Schnittwert. Aufgaben 3 und 4 in beiden 2026-Heften je aus dem Pool des eigenen Niveaus, keine Dublette zwischen den Heften nötig. |
