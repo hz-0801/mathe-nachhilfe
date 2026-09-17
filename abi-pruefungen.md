@@ -32,7 +32,7 @@ in vorgaben.md.
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt, 9 Vormerkungen auf den Reserve-Stapel 2019-ga-B) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
 | 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2020-be-gk.pdf) | – (nicht im Band) | 175 angeboten, 100 bearbeitet (Teil A 25 Pflicht in fünf Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 35, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 51 Zeilen** (alle Aufgaben, alle Wahlwege; 3 Pool-Dubletten Teil A, 7 Vormerkungen auf den Reserve-Stapel 2020-ga-B, davon 4 abgewandelt) · Kopfzeile „Berlin – Mathematik Grundkurs 2020" |
-| 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Datei hefte/2021-be-gk.pdf) | – (nicht im Band) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin – Mathematik Grundkurs 2021"; Aufgaben 1, 2.1, 2.2, 3, 4 (Geometrie und Stochastik ohne Wahl) |
+| 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2021-be-gk.pdf) | – (nicht im Band) | 185 angeboten; Aufbau wie die Sonderjahrgänge 2022/2023 (Teil A sieben Einheiten zu 5 BE, davon 25 bearbeitet; 2.1/2.2 je 45, 3 zu 30 und 4 zu 30 BE ohne Wahl) – rechnerisch 145 bearbeitet (kein Deckblatt im Band) | **erfasst 2026-09-17, 56 Zeilen** (alle Aufgaben; 2 Pool-Dubletten Teil A, 12 Vormerkungen auf den Reserve-Stapel 2021-ga-B, davon 2 abgewandelt) · Kopfzeile „Berlin – Mathematik Grundkurs 2021" · Aufgabe 2.2 im Band mit Summe „35“ gedruckt, die Teilaufgaben ergeben 45 (§ 4) |
 | 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A drei Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2" nach der gewöhnlichen Wahl) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
 | 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A vier Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 170 bearbeitet (kein Deckblatt im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 32 Zeilen Pool-Dubletten mit Verweis, 1 abgewandelt) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): wie 2022-bebb-gk – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2") | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
@@ -66,6 +66,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
 | 2019-be-gk | 45 | 51 | 25 (49 %) | 4 von 4 (100 %), alle 4 geerbt; eigene 0 (die 41 Landeszeilen tragen keinen amtlichen Bereich) | 0 | 0 | 19 von 51 (37 %) | Heft (be-gk) 1; alle: be-gk 1, be-lk 0, bb-gk 1, bb-ea 0 | 35 Werte, 34 von 45 Zeilen im Niveau bekannt (76 %), 1 Wert neu im Gesamtbestand | 12 von 45; 35 von 180 BE (19 %), davon 8 Zeilen vorgemerkt („Poolaufgabe (nicht erfasst)", 2019-ga-B); abgewandelt 2 Zeilen, 7 BE (1.4 c erfasst, 3.2 b vorgemerkt) |
 | 2020-be-gk | 51 | 54 | 17 (31 %) | 3 von 3 (100 %), alle 3 geerbt; eigene 0 (48 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 20 von 54 (37 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 33 Werte, 43 von 51 Zeilen im Niveau bekannt (84 %), 1 Wert neu im Gesamtbestand | 6 von 51; 20 von 175 BE (11 %), davon 3 Zeilen vorgemerkt (2020-ga-B, Aufgabenteil 2 von 4.2); abgewandelt 4 Zeilen, 10 BE (4.2 Aufgabenteil 1, vorgemerkt) |
+| 2021-be-gk | 56 | 56 | 25 (45 %) | 2 von 2 (100 %), alle 2 geerbt; eigene 0 (54 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 21 von 56 (38 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 51 von 56 Zeilen im Niveau bekannt (91 %), 0 Werte neu im Gesamtbestand | 12 von 56; 37 von 185 BE (20 %), davon 10 Zeilen vorgemerkt (2021-ga-B: 3 a, c, d, g, h, i; 4 c, g, h, i); abgewandelt 2 Zeilen, 7 BE (4 a, d vorgemerkt) |
 | 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) im Heftlauf; seit Lauf 18 16 von 24 (67 %; die 16 Teil-B-Dubletten trugen ihre eigene Schätzung, die Poolzeilen hatten sie übernommen); seit Lauf 20 23 von 24 (96 %; sieben Landeszeilen auf den amtlichen Bereich nachgezogen, 23 geerbt, eigene 0 von 1) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), seit Lauf 18 alle „Dublette von:“ (2022-ga-B erfasst); abgewandelt 3 Zeilen, 11 BE |
 | 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %), alle 32 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %); abgewandelt 1 Zeile, 4 BE |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
@@ -1405,6 +1406,70 @@ grundlegenden Pools.
 gerenderte Seiten, sympy, 48 Landeszeilen von Hand, 3 Dubletten erzeugt,
 Lauf, HEAD-Rerun, Selbstprüfung).
 
+**2021-be-gk erfasst (17.09.2026, Auftrag B, Teil 1; abi-bau.py v0.8, abi.md
+v0.18).** Stark-Band zum Abitur 2021 (Berlin, Jahrgang 2021 online über
+MyStark), PDF mit Textebene, 45 Seiten A5; Aufgabenseiten 1–3, 13–14, 22–23,
+32–33, 40–41 aus dem Text ermittelt, Abbildungen (Graphen I–III und Graph mit
+A–D in Teil A, Rechteck zu Analysis 3, Turbinenschaufel, Flugzeugflügel mit
+Abbildung 1 und 2, Holzkörper) gerendert gelesen; Tipps und Verlagslösungen
+nicht erfasst. **Heftaufbau 2021 (aus dem Heft):** Aufgabe 1 hilfsmittelfreier
+Teil mit sieben Einheiten zu je 5 BE (Analysis 1–3, Geometrie 1–2, Stochastik
+1–2; angeboten 35, Summe im Heft 25 – also drei Analysis-Einheiten Pflicht
+plus zwei Geometrie oder zwei Stochastik wie in der Sonderregelung 2022);
+Teil B 2.1/2.2 Analysis je 45 BE, 3 Geometrie 30 BE und 4 Stochastik 30 BE
+ohne Wahl – **derselbe Aufbau wie 2022-bebb-gk und 2023-bebb-gk (185 BE
+angeboten)**, der Corona-Aufbau beginnt also schon 2021, ein Jahr vor den in
+Auftrag A gekennzeichneten Sonderjahrgängen. Der Band druckt bei 2.2 die
+Summe „35"; die zwölf Teilaufgaben ergeben 45 (wie 2.1), erfasst mit Soll 45
+(Druckfehler des Verlags). 56 Zeilen aus 11 Aufgaben, alle Punktsummen stimmen
+(7 × 5, 45, 45, 30, 30). Selbstprüfung beider Bau-Skripte bestanden (abi 695
+Zeilen aus 14 Heften, iqb 1258, 1191 Typen), Lauf aus dem HEAD-Stand
+byteidentisch.
+
+*Pool-Abgleich (Textvergleich gegen die 20 WTR-Dateien des Pools 2021
+grundlegend).* Teil A: Analysis 1 = Pool Analysis 1.2 (a, b wortgleich,
+Dubletten); die anderen sechs Einheiten Landes. Teil B: 3 Holzkörper = Pool
+AG/LA (A2) WTR 1 in sechs von neun Teilaufgaben (a, c, d, g, h, i wortgleich –
+a mit „Gesamtoberfläche" statt „Oberfläche"; b windschiefe Gerade, e Ebenen
+durch das Quadrat, f Trapez sind Landeszusätze); 4 Smartphone-Spiel = Pool
+Stochastik WTR 2 in sechs von neun (c, g, h, i wortgleich; a um das Ereignis
+B erweitert, d mit zweimal „genau" – abgewandelt; b, e, f Landes); 2.1
+Turbinenschaufel und 2.2 Flugzeugflügel Landes. Der Stapel 2021-ga-B ist
+Reserve: zwölf Vormerkungen (zehn wortgleich, zwei abgewandelt; offene
+Posten, jetzt 28 insgesamt). **Poolquote 12 von 56 Zeilen, 37 von 185 BE
+(20 %)**, dazu 2 abgewandelte Zeilen (7 BE); Sitz: Teil A 5 von 35 BE, Teil B
+Aufgabe 3 (20 von 30) und 4 (12 von 30). Kontextgebundene Zeilen: keine.
+
+*Typen.* 56 verwendet, 25 neu (45 %), 20 aus dem iqb-Katalog, 11 aus dem
+abi-Bestand (u. a. Binomial-Formel/Tabelle, Mindestanzahl, Vergleichsereignis
+zweier Würfel, Erwartungswert, Lage und Art der Extrempunkte, maximaler
+vertikaler Abstand, Grenzverhalten Polynom · e-Funktion, Schnittwinkel über
+die Anstiege). Neue Typen sitzen in Teil A (7: Vorzeichen von f' am
+Graphen, Integrale vergleichen, Ausschluss einer Maximalstelle,
+Normalenform → Koordinatenform, Ebene senkrecht zu zwei Ebenen, Gerade in
+einer Ebene parallel zur Koordinatenebene, gleiche Chance der
+Ziehungspositionen), 2.1 (6), 2.2 (5), 3 (4: Halbierung des Quadrats,
+Trapez aus Flächenverhältnis, Rechenweg kürzeste Linie, Volumenverhältnis
+ohne Werte), 4 (3). Etikettenfragen: 2.1 a, j und 2.2 c auf den Pooltyp
+„Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen" gelegt;
+2.2 h (Kathete kürzer als Hypotenuse) unter Abstände (Analytische Geometrie),
+weil elementargeometrisch.
+
+*Eichung.* 2 von 2 gewerteten Zeilen (geerbt); 54 Landeszeilen ohne
+amtlichen Bereich. Eigene Schätzungen nach der engen Fassung: 9 mit III (1.5
+b, 1.7 b, 2.1 h, 2.2 e, k, l, 3 g, i, 4 – keine), 31 mit II, 14 mit I.
+
+*Schnitt.* 34 Werte auf 56 Zeilen, 51 Zeilen auf bekannten Werten des
+Niveaus grundlegend; **0 Werte neu im Gesamtbestand**, 5 neu im Niveau
+(Ableitungsgraph · angeben, Gerade und Ebene · berechnen, Geraden und
+Ebenen · angeben, Schnittmengen · zeichnen, Unabhängigkeit · begründen);
+Gesamtbestand 190 Werte (be-gk 156, bb-ea 177). Von den 54 Landeszeilen
+liegen 38 auf Werten aus Teil A des grundlegenden Pools.
+
+*Aufwand.* Etwa 60 Minuten (Textvergleich gegen 20 Pooldateien, sechs
+gerenderte Seiten, sympy, 54 Landeszeilen von Hand, 2 Dubletten erzeugt,
+Lauf, HEAD-Rerun, Selbstprüfung).
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1813,6 +1878,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Heft 2021-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 56 Zeilen aus 11 Aufgaben (1.1–1.7 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 695 Zeilen, Typenliste 1191 (25 neu). Alle Punktsummen geprüft (7 × 5, 45, 45, 30, 30; Druckfehler „35“ bei 2.2), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 2 von 2 (geerbt). Pool 12 von 56 Zeilen, 37 von 185 BE (20 %): Teil A Analysis 1.2, Teil B 3 = AG/LA (A2) WTR 1 (6 von 9) und 4 = Stochastik WTR 2 (6 von 9) als Vormerkungen (Reserve 2021-ga-B, 12 offene Posten). Kein neuer Schnittwert. Aufbau wie 2022/2023 (Corona-Struktur schon 2021). |
 | 2026-09-17 | Heft 2020-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 51 Zeilen aus 11 Aufgaben (1.1–1.5 hilfsmittelfrei, 2.1/2.2, 3.1/3.2, 4.1/4.2), Katalog 639 Zeilen, Typenliste 1166 (17 neu). Alle Punktsummen geprüft (5 × 5, 35, 35, 20, 20, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 3 von 3 (geerbt). Pool 6 von 51 Zeilen, 20 von 175 BE (11 %): Teil A Analysis 1.2 und Stochastik 1.1, Teil B 4.2 Aufgabenteil 2 = Stochastik WTR 1 Aufgabe 2 (Vormerkung, Reserve 2020-ga-B); Aufgabenteil 1 abgewandelt vorgemerkt (4 Zeilen). 1 neuer Schnittwert (Schnittmengen · angeben). |
 | 2026-09-17 | Heft 2019-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 45 Zeilen aus 10 Aufgaben (1.1–1.4 hilfsmittelfrei, 2.1/2.2, 3.1/3.2, 4.1/4.2), Katalog 588 Zeilen, Typenliste 1149 (25 neu). Alle Punktsummen geprüft (4 × 5, 40, 40, 20, 20, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 4 von 4 (geerbt). Pool 12 von 45 Zeilen, 35 von 180 BE (19 %): Teil A Analysis 1.1 und Stochastik 1.1 (c abgewandelt), Teil B 3.2 = AG/LA (A2) WTR 1 und 4.1 c–e = Stochastik WTR 1 als Vormerkungen (Reserve 2019-ga-B, 9 offene Posten). 1 neuer Schnittwert (Ableitungsregeln · angeben). |
 | 2026-09-17 | Heftordner geordnet (Auftrag Teil 4): alle 13 Dateien unter hefte/ mit Jahr, Land, Niveau, Rechnerfassung, Seiten, Textebene, Größe und Erfassungsstand in abi-quellen.md v0.3 § 8; 2026-bebb-gk.pdf → 2026-bb-gk.pdf, 2026-bebb-lk.pdf → 2026-bb-ea.pdf (KONFIG in abi-bau.py nachgezogen); keine Kollision, kein unklarer Fall. Heftliste § 2 um die fünf nicht erfassten Dateien ergänzt (2019–2021 Berlin GK, 2024/2025 LK). abi.md v0.18 § 2, § 4. Keine Katalogdatei geändert. |
