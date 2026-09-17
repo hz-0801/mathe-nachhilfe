@@ -246,16 +246,125 @@ steht, steht nur hier; die Profile wiederholen es nicht.
   anbieterneutral, die Bindung liegt im Prompt und in der Umgebung, die Code
   ausführt. Gehört ins Blattbau-Projekt; Entscheidung 14 wartet darauf.
 
-## 7 Ablauf
+## 7 Jahresroutine – ein neuer Jahrgang im bestehenden Profil
 
-1. Entwurf: abgeschlossen (Kern, Profil, Dateien, Vorgaben). Ablage flach im Repo pruefungskatalog.
-2. Probelauf: abgeschlossen (2025, 2026 FOR, 2024; 89 Zeilen). EBR-Hefte zurückgestellt: kein EBR-Schüler, Aufgaben weitgehend Dubletten der FOR-Hefte.
-3. Typenliste nach drei Heften festgezogen (Typen-Check 05.09.2026, 83 Typen gültig); Blatt-Prompt v0.1; zwei, drei Testblätter aus dem Katalog. Fehlt ein Feld, wird es jetzt ergänzt.
-4. Restliche MSA-Hefte 2023 bis 2014 erfasst; Abgleichlauf nach dem letzten Heft abgeschlossen (Typen-Check 05.09.2026, 185 Typen gültig). Offen: Muster 2028 FOR erfassen; Typenbibliothek ableiten.
-4a. Profil abi in eigenem Chat.
-4b. Profil iqb (2026-09-13): Prüfungsteil A in 22 Stapeln, dann Teil B; Abgleichlauf nach jedem Stapel.
-5. Blatt-Prompt fertigstellen.
-Jährlich: Vorgabencheck (msa-vorgaben.md), neues Heft erfassen, Typenbibliothek neu ableiten.
+Stand 17.09.2026, abgeleitet aus dem, was in den vier Prüfungslisten je Heft
+und Stapel tatsächlich geschehen ist (abi-pruefungen.md § 5, iqb-pruefungen.md
+§ 5, msa-pruefungen.md § 3, fhr-pruefungen.md Änderungslog) und aus den
+Jahreschecks in `<profil>-vorgaben.md` § 4. Regeln stehen in CLAUDE.md, im
+Kern und im Profil; hier steht nur die Reihenfolge.
+
+**Reihenfolge und warum.** Zuerst der Vorgabencheck, dann die Erfassung:
+Geänderte Prüfungsschwerpunkte ändern die Geltung (abi/iqb: die
+Geltungsdateien, fhr: die Markierung der Themenliste), und gegen die Geltung
+zählt das Abbruchkriterium (iqb.md § 6) – ein Stapel, der vor dem Check
+erfasst wird, wird gegen die alte Geltung gemessen. Ein Formatwechsel ändert
+außerdem KONFIG, Kürzel und Felder, bevor eine Zeile geschrieben wird.
+
+**Je Profil, in dieser Reihenfolge:**
+
+1. **Vorgabencheck** nach `<profil>-vorgaben.md` § 4 – msa: Fachbrief und
+   Rundschreiben (msa-vorgaben.md); fhr: Prüfungsschwerpunkte des neuen
+   Schuljahrs und Rundschreiben (fhr-vorgaben.md; beim ersten Check zuerst
+   Schritt 0 dort, der den Vorbehalt im Kopf auflöst); abi und iqb:
+   Prüfungsschwerpunkte beider Länder und beider Niveaus, Rundschreiben
+   (abi-vorgaben.md). Ergebnis: eine Zeile in § 2 der Vorgaben-Datei mit den
+   Änderungen gegen das Vorjahr; Themenliste nur über den Bericht ändern.
+2. **Quelle beschaffen und eintragen** – msa und fhr: Heft vom Bildungsserver
+   mit curl (Adresse in msa-pruefungen.md § 1 bzw. fhr-pruefungen.md,
+   Quelle), Dateiname, Seiten und Status „nicht erfasst" in die Heftliste;
+   abi: Landeshefte ab 2019 sind nicht veröffentlicht – Verlagsband des
+   Jahrgangs (abi-quellen.md § 5, Beschaffungstabelle), Scan unter hefte/,
+   Zeile in abi-quellen.md § 8 (Jahr, Land, Niveau, Rechnerfassung, Seiten,
+   Textebene), papier-Kürzel nach abi.md § 4, Zeile in abi-pruefungen.md § 2;
+   iqb: `python iqb-quellen.py` erneuert iqb-quellen.csv aus der
+   IQB-Übersicht und dem Scan der neuen Dateien (Kennungen dürfen nur
+   hinzukommen), die neuen Stapel in iqb-pruefungen.md § 2 eintragen.
+3. **KONFIG des Bau-Skripts** – msa, fhr, abi: jahr, papier, datei, seiten,
+   soll je Aufgabe aus den BE-Tabellen des Hefts (abi: soll_teil1 nur bei
+   bb-ea); iqb: stapel und soll je Kennung aus der BE-Summe. Zuerst eine
+   Feldprobe (probe: True bei abi und iqb), die nichts schreibt.
+4. **Lauf** – ein Heft oder ein Stapel je Lauf, vollständig: Text
+   extrahieren, jede Aufgabenseite rendern, ZEILEN und NEUE_TYPEN füllen,
+   jedes Ergebnis per Skript nachrechnen, dann `python <profil>-bau.py`; bei
+   einem Fehler wird nichts geschrieben. abi: vor dem Bau die Aufgaben gegen
+   den Pool halten („Dublette von:" mit dem Typ der Poolzeile; Vormerkung
+   nur, wenn der Stapel noch fehlt – dann den Stapel im selben Auftrag
+   erfassen, Entscheidung 29).
+5. **Abgleichlauf** – abi und iqb nach jedem Heft und Stapel über
+   abitur-abgleich.py (Lauf N, Kern § 9), Liste alt → neu in § 5 der
+   Prüfungsliste; msa und fhr nach dem letzten Heft des Jahrgangs als
+   Typen-Check über den Bestand (msa 05.09.2026, fhr 12.09.2026), über ein
+   Skript, das Typenliste und Katalog zugleich umstellt – für beide liegt
+   keines im Repo; Feldkorrekturen an msa-typen.csv laufen über
+   TYPEN_KORREKTUR in msa-bau.py.
+6. **Selbstprüfung und Rerun** – alle betroffenen Bau-Skripte mit leerem
+   ZEILEN (nach einem Abgleichlauf beide Skripte der Familie abi); dann den
+   Lauf aus dem HEAD-Stand in einer frischen Kopie wiederholen, byteidentisch
+   (Heftlauf, Stapellauf, Abgleichlauf – Entscheidung 34).
+7. **Commit** – einer je Heft, Stapel oder Abgleichlauf, erst nach 6; Push
+   beim Lehrer.
+8. **Prüfungsliste fortschreiben** – Status „erfasst JJJJ-MM-TT, n Zeilen",
+   Kennzahlen in § 2 (abi: Poolquote, Geltung, Zeilen ohne Maßstab; iqb:
+   Eichung, neue Schnittwerte in der Geltung, Landesverwendung), Befunde in
+   § 4, Logzeile in § 5; im Profil Themenlücken und Versionszeile, bei abi/iqb
+   Änderungen an Themen oder Klassen nur in abitur-vokabular.md.
+9. **Typenbibliothek neu ableiten**, wo es eine gibt: fhr
+   `python fhr-typenbibliothek.py` nach jeder Katalogänderung; msa, abi und
+   iqb haben keine (§ 2).
+
+**Nur abi und iqb.**
+
+- **Geltungsdateien gegen die neuen Prüfungsschwerpunkte:** je Zielprüfung
+  `abi-<zielprüfung>-geltung.md` § 1 Thema ja/nein, § 2 ausgeschlossene
+  Aufgabenformen, § 3 Rechnerfassung nachziehen. Nennen die Schwerpunkte ein
+  Thema, das die Liste nicht hat, kommt es in abitur-vokabular.md § 2 und in
+  jede Geltungsdatei (die Bau-Skripte verlangen Vollständigkeit, § 9 Punkt 2).
+  Eine neue Zielprüfung ist § 9, kein Jahrgang.
+- **Abbruchreihe gegen die Zielprüfung nachrechnen:** das Kriterium (iqb.md
+  § 6, unter fünf neue Schnittwerte in der Geltung je Stapel) zählt gegen die
+  Geltung; hat der Check sie geändert, ist die Reihe je Niveau neu zu
+  rechnen, bevor Reserve-Stapel geschlossen bleiben (§ 9 Punkt 3,
+  Entscheidung 28).
+- **Neuer Pooljahrgang:** nach iqb-quellen.py je Niveau die Stapel Teil A
+  (grundlegend vor erhöht) und Teil B WTR erfassen; MMS-Stapel sind Delta und
+  werden je Niveau an einem Stapel gemessen (Entscheidung 27). Erst die
+  Poolstapel des Jahrgangs, dann die Landeshefte: Die fünf Hefte des
+  Auftrags B kamen vor ihren Stapeln und hinterließen 35 Vormerkungen, die
+  Auftrag C mit vier Reserve-Stapeln und Abgleichlauf 23 schließen musste
+  (Entscheidung 29).
+
+**Sonderfälle je Profil.**
+
+- fhr: der erste Jahrescheck prüft zuerst die Herkunft der Angaben in
+  fhr-vorgaben.md (Schritt 0 dort) und streicht dann den Vorbehalt.
+- msa: die Musteraufgaben 2028 FOR sind nicht erfasst (msa-pruefungen.md § 2);
+  sie tragen Erwartungshorizont und Anforderungsbereiche, dann gilt afb_amtlich
+  und die Eichung wird Kennzahl (msa.md § 4, Kern § 5). EBR-Hefte bleiben
+  zurückgestellt, solange kein EBR-Schüler da ist.
+- abi: Berlin 2026 ist ohne Band und ohne Veröffentlichung nicht beschaffbar
+  (abi-quellen.md § 5); CAS-Fassungen sind Nachtrag nach WTR.
+
+**Abgrenzung.** Ein *Jahrgang* ist alles, was mit einer neuen Zeile in der
+Heftliste und einem neuen soll in KONFIG erfasst werden kann – auch bei
+verändertem Aufbau, gewechseltem Landeskürzel oder neuer Rechnerfassung (§ 8,
+„Woran man merkt"). Eine *neue Prüfung* nach § 8 liegt vor, wenn Träger,
+Prüfungsart, Schulform oder die Quellenlage mit ihrer Ergebnisregel wechseln;
+eine *andere Zielprüfung bei gleichem Bestand* ist § 9. Ein *Formatwechsel*
+innerhalb des Profils wird an den Kippt-bei-Zeilen in § 4 geprüft: P10 ab
+2028 (hilfsmittelfreier Teil, 50 statt 60 BE, msa-vorgaben.md) kippt
+Entscheidung 3 – die Decke kommt dann aus den Musteraufgaben, nicht aus dem
+Bestand – und verlangt KONFIG, Kürzel MUSTER-FOR und hilfsmittel „nein" im
+hilfsmittelfreien Teil (msa.md § 3–4); das Abitur 2027 (Teil A mit Gruppe 1
+und 2, abi-vorgaben.md § 2) ändert Struktur und Geltung, nicht die Felder.
+
+*Verlauf bis 17.09.2026, eingefroren:* Entwurf von Kern, Profil msa und
+Dateien (05.09.2026); Probelauf mit den Heften 2025, 2026 FOR und 2024 (89
+Zeilen), EBR zurückgestellt; Typenliste nach drei Heften festgezogen, die
+übrigen MSA-Hefte 2023 bis 2014 erfasst und nach dem letzten Heft
+abgeglichen (185 Typen); Profil fhr (12.09.), abi (12.09.) und iqb (13.09.,
+Teil A in 22 Stapeln, dann Teil B); Prüfungsprompt seit dem 06.09.2026,
+Blattbau als eigenes Projekt.
 
 ## 8 Eine neue Prüfung aufnehmen
 
@@ -442,6 +551,12 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag J, Punkt 3): § 7 von „Ablauf" (Projektchronik) zur Jahresroutine
+  je Profil – Reihenfolge Vorgabencheck vor Erfassung, neun Schritte je Heft und
+  Stapel, Besonderheiten abi/iqb (Geltungsdateien, Abbruchreihe, Pooljahrgang),
+  Sonderfälle, Abgrenzung Jahrgang / neue Prüfung / Formatwechsel; die Chronik zu
+  einem eingefrorenen Absatz verdichtet, weil msa.md § 6 und msa-pruefungen.md § 3 auf
+  § 7 verweisen.
 - 2026-09-17 (Auftrag J, Punkt 2): befund-repo-stand-2026-09-17.md →
   befund-stichtag-2026-09-17.md (git mv, Inhalt unverändert), damit der Stichtagsbefund
   beim schnellen Lesen von befund-repo-bestand.md zu unterscheiden ist; Verweise in
