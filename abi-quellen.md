@@ -1,6 +1,13 @@
 # QUELLEN ABITUR – Mathematik Berlin/Brandenburg
 
-Version 0.7 · 17.09.2026 · gehört zum Profil abi (in Arbeit)
+Version 0.8 · 18.09.2026 · gehört zum Profil abi (in Arbeit)
+Änderungen gegenüber 0.7 (Auftrag O, Punkt 4 und Punkt 1): § 8 – die zwölf
+gemeinsamen Hefte 2011–2013 tragen das Kürzel bebb (Entscheidung des Lehrers,
+18.09.2026) und liegen als 2011-bebb-gk.pdf … 2013-bebb-lk-cas.pdf unter
+hefte/abi/ statt unter Servernamen in sonstiges/ (Tabelle der amtlichen
+Dateien jetzt 2011–2018, 44 Dateien); die Berliner Verlagsfassung 2022 ist
+gegen 2022-bebb-gk geprüft und gleich (abi-pruefungen.md § 4). Keine
+Katalogzeile betroffen.
 Änderungen gegenüber 0.6 (Auftrag N): § 8 – hefte/ je Profil unterteilt (hefte/abi/,
 sonstiges/, dubletten/), alle 44 amtlichen Dateien 2011–2018 vom Bildungsserver
 geholt (32 mit Kürzel, 12 gemeinsame Hefte 2011–2013 unter Servernamen in
@@ -174,9 +181,10 @@ Niveau aus der Kopfzeile der ersten Aufgabenseite („Leistungskurs" = Berlin
 lk, „Kurs auf erhöhtem Anforderungsniveau" = Brandenburg ea, „Grundkurs" =
 Berlin gk; Befund in abi-pruefungen.md § 4, 17.09.2026), Seiten und Textebene
 mit pypdf ermittelt. Die gemeinsamen Hefte 2011–2013 (Kopfzeile nennt beide
-Länder, kein Länderkürzel im Dateinamen) behalten ihren Servernamen in
-sonstiges/, weil ihr Kürzel offen ist (bebb wie 2022–2025 oder nach der
-Kopfzeile bbbe; Entscheidung des Lehrers). Rechnerfassung: -cas nach dem
+Länder, kein Länderkürzel im Dateinamen) tragen das Kürzel bebb wie die
+gemeinsamen Hefte 2022–2025 (Entscheidung des Lehrers, 18.09.2026, Auftrag O
+Punkt 4; bis dahin unter Servernamen in sonstiges/); Niveau nach dem
+Servernamen (GK/G = gk, LK/L = lk). Rechnerfassung: -cas nach dem
 Dateinamen des Servers; die Verlagsdateien sind alle die Fassung ohne MMS
 (WTR). Die Verlagsausgaben enthalten kein Deckblatt des Originals
 (Bearbeitungszeit, Hilfsmittel, Gesamt-BE fehlen).
@@ -200,13 +208,25 @@ Status und Kennzahlen in abi-pruefungen.md § 2:
 | 2026-bb-gk.pdf | 2026 | BB | grundlegend | WTR | 36 | ja (Aufgaben, Tipps, Lösungen; A5) | 0,9 MB | erfasst 2026-09-17, 45 Zeilen |
 | 2026-bb-ea.pdf | 2026 | BB | erhöht | WTR | 47 | ja (Aufgaben, Tipps, Lösungen; A5) | 1,1 MB | erfasst 2026-09-17, 50 Zeilen |
 
-**Amtliche Dateien 2014–2018** – alle 32 Dateien der Jahresseite § 1 (§ 2
+**Amtliche Dateien 2011–2018** – alle 44 Dateien der Jahresseite § 1 (§ 2
 und § 3), geholt am 18.09.2026 (Auftrag N); erfasst sind die drei
 Leitfassungen 2017/2018, die vier Berliner Grundkurshefte 2016/2017 dienten
 dem CAS-Delta (Auftrag B, Teil 4):
 
 | Datei | Serverdatei | Seiten | Textebene | Größe | Erfassungsstand |
 |---|---|---|---|---|---|
+| 2011-bebb-gk.pdf | 11_Ma_Aufgaben_GK.pdf | 10 | ja | 1,0 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2011-bebb-gk-cas.pdf | 11_Ma_Aufgaben_GK_CAS.pdf | 9 | ja | 0,8 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2011-bebb-lk.pdf | 11_Ma_Aufgaben_LK.pdf | 12 | ja | 1,1 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2011-bebb-lk-cas.pdf | 11_Ma_Aufgaben_LK_CAS.pdf | 9 | ja | 0,8 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2012-bebb-gk.pdf | 12_Ma_Aufgaben_G_.pdf | 8 | ja | 0,4 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2012-bebb-gk-cas.pdf | 12_Ma_Aufgaben_G_CAS_.pdf | 8 | ja | 0,3 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2012-bebb-lk.pdf | 12_Ma_Aufgaben_L_.pdf | 11 | ja | 0,5 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2012-bebb-lk-cas.pdf | 12_Ma_Aufgaben_L_CAS.pdf | 8 | ja | 0,5 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2013-bebb-gk.pdf | 13_Ma_GK_Aufgaben.pdf | 8 | ja | 0,7 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2013-bebb-gk-cas.pdf | 13_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 1,0 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2013-bebb-lk.pdf | 13_Ma_LK_Aufgaben.pdf | 10 | ja | 0,8 MB | nicht erfasst (vor dem Schnitt 2017) |
+| 2013-bebb-lk-cas.pdf | 13_Ma_LK_CAS_Aufgaben.pdf | 7 | ja | 0,7 MB | nicht erfasst (vor dem Schnitt 2017) |
 | 2014-bb-ea.pdf | BB_14_Ma_L_Aufgaben.pdf | 9 | ja | 1,3 MB | nicht erfasst (vor dem Schnitt 2017) |
 | 2014-bb-ea-cas.pdf | BB_14_Ma_L_CAS_Aufgaben.pdf | 8 | ja | 1,1 MB | nicht erfasst (vor dem Schnitt 2017) |
 | 2014-be-gk.pdf | 14_Ma_GK_Aufgaben.pdf | 10 | ja | 5,1 MB | nicht erfasst (vor dem Schnitt 2017) |
@@ -254,18 +274,6 @@ zuzuordnen:
 
 | Datei | Seiten | Textebene | Größe |
 |---|---|---|---|
-| sonstiges/11_Ma_Aufgaben_GK.pdf | 10 | ja | 1,0 MB |
-| sonstiges/11_Ma_Aufgaben_GK_CAS.pdf | 9 | ja | 0,8 MB |
-| sonstiges/11_Ma_Aufgaben_LK.pdf | 12 | ja | 1,1 MB |
-| sonstiges/11_Ma_Aufgaben_LK_CAS.pdf | 9 | ja | 0,8 MB |
-| sonstiges/12_Ma_Aufgaben_G_.pdf | 8 | ja | 0,4 MB |
-| sonstiges/12_Ma_Aufgaben_G_CAS_.pdf | 8 | ja | 0,3 MB |
-| sonstiges/12_Ma_Aufgaben_L_.pdf | 11 | ja | 0,5 MB |
-| sonstiges/12_Ma_Aufgaben_L_CAS.pdf | 8 | ja | 0,5 MB |
-| sonstiges/13_Ma_GK_Aufgaben.pdf | 8 | ja | 0,7 MB |
-| sonstiges/13_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 1,0 MB |
-| sonstiges/13_Ma_LK_Aufgaben.pdf | 10 | ja | 0,8 MB |
-| sonstiges/13_Ma_LK_CAS_Aufgaben.pdf | 7 | ja | 0,7 MB |
 | sonstiges/11710-nn-xx-2022-00-pruefungsaufgaben.pdf | 47 | ja | 0,9 MB |
 | sonstiges/2016-be-gk.txt, 2016-be-gk-cas.txt, 2017-be-gk.txt, 2017-be-gk-cas.txt | – | – | Textauszüge der vier Berliner Grundkurshefte (CAS-Delta) |
 | sonstiges/hinweise-2021-be-gk.md, hinweise-2027-bebb.md | – | – | Vorspann der Bände, abgeschrieben (abi.md § 11) |
@@ -277,8 +285,12 @@ zuzuordnen:
 Die Datei 11710-nn-xx-2022-00-pruefungsaufgaben.pdf ist die Verlagsfassung
 „Berlin – Mathematik Grundkurs 2022" (STARK-Band Berlin, mit Textebene, Tipps
 und Lösungen) und damit eine zweite Fassung zum Bildscan 2022-bebb-gk.pdf aus
-dem Band 2027 Berlin/Brandenburg; ob sie aufgabengleich ist, ist nicht
-geprüft, deshalb ohne Kürzel.
+dem Band 2027 Berlin/Brandenburg. Am 18.09.2026 am Text geprüft (Auftrag O,
+Punkt 1; abi-pruefungen.md § 4): 57 von 57 Teilaufgaben, 185 BE, Wortlaut
+gleich. Sie behält den Verlagsnamen: der Zusatz -stark gilt für die
+Verlagsfassung zu einem amtlichen Heft, und 2022-bebb-gk.pdf ist selbst eine
+Verlagsfassung; ein eigener Zusatz für eine zweite Verlagsfassung ist nicht
+festgelegt (Entscheidung des Lehrers, falls gewünscht).
 
 ## 9 Markdown-Korpus hefte-md/
 
