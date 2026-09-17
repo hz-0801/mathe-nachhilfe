@@ -9,40 +9,25 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
 
 ## 2 Bausteine
 
-    konzept.md             diese Datei
-    katalog-prompt.md      Kern: Methode der Erfassung, prüfungsunabhängig
-    msa.md                 Profil msa: alles, was an der P10 hängt (Quellen, Aufbau, Kürzel, Themenliste, Beispielzeilen)
-    fhr.md, abi.md, iqb.md Profile fhr (Fachhochschulreife BB), abi (Zentralabitur BE/BB), iqb (Aufgabenpool des IQB);
-                           Dateien je Profil mit Präfix: <kennung>-quellen.md, -pruefungen.md, -typen.csv, -katalog.csv, -bau.py;
-                           iqb zusätzlich iqb-quellen.csv/.py (Kennungen)
-    abitur-vokabular.md    gemeinsames Vokabular von abi und iqb (Sachgebiete, Themen, Geltung, Gegenstandsklassen, Regel Zeilenthema = Typthema), Entscheidungen 25 und 26
-    abitur-typen.csv       gemeinsame Typenliste von abi und iqb (seit 15.09.2026, vorher abi-typen.csv und iqb-typen.csv)
-    abi-<zielprüfung>-geltung.md  Geltung je Zielprüfung (be-gk, be-lk, bb-gk, bb-ea; seit 17.09.2026): Themen ja/nein, ausgeschlossene
-                           Aufgabenformen, Rechnerfassung; das Profil nennt seine Zielprüfungen, die Bau-Skripte lesen die Dateien
-    namensschema.md        Namensschema für Dateiarten und Kennungen (Auftrag D; Variante B umgesetzt am 17.09.2026, Entscheidung 32)
-    abitur-abgleich.py     Abgleichlauf über die gemeinsame Typenliste und beide Kataloge (seit 17.09.2026, vorher abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py)
-    hefte/                 gescannte Verlagshefte (Stark) für abi ab 2019, lokal, per .gitignore nicht im Repo
-    msa-vorgaben.md, fhr-vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck je Profil (abi-vorgaben.md für abi und iqb; fhr seit 17.09.2026)
-    pruefungsprompt.md     Prüfungsprompt (bis v0.7 blatt-prompt.md): baut alle Prüfungen mit Katalog, heute Profil msa; Masterfassung hier, Projektanweisung ist Kopie (blatt-konzept.md §5)
-    masterprompt.md        Masterprompt: baut alles ohne Katalog (Unterricht, Klassenarbeiten, Prüfungen ohne Katalog); Masterfassung hier, Projektanweisung ist Kopie
-    CHANGELOG.md           Änderungshistorie der Prompts und der Vorlage
-    mathblatt.sty          LaTeX-Vorlage (Version in Zeile 2); Anleitung_mathblatt.md gehört dazu – bis 2026-09-07 im Repo nachhilfe-arbeitsblatt-vorlage
-    README.md              Landkarte: was im Repo liegt und wofür
-    befund-stichtag-2026-09-17.md  Stichtagsbefund: eingefrorener Stand des Repos am 17.09.2026 (Dateien und Rollen, Kern, Profile, Bestandszahlen), ab dem nächsten Commit veraltet; kein Einstieg – der ist CLAUDE.md mit dieser Datei
-    msa-pruefungen.md      Heftliste mit Erfassungsstatus (seit 17.09.2026, vorher pruefungen.md)
-    msa-vorgaben.md        amtliche Vorgaben aus den Fachbriefen, Jahrescheck; gesonderter Baustein (vorher vorgaben.md)
-    msa-typen.csv          Typvokabular, wächst beim Erfassen (vorher typen.csv)
-    msa-katalog-basis.csv  Zeilen der Basisaufgaben (vorher katalog-basis.csv)
-    msa-katalog-kontext.csv  Zeilen der Kontextaufgaben (vorher katalog-kontext.csv)
-    msa-bau.py             Gerüst und Selbstprüfung für msa (seit 17.09.2026; der Bestand wurde davor ohne Skript erfasst)
-    <kennung>-typenbibliothek.md  abgeleitet aus dem Katalog, wird erzeugt, nie editiert; je Profil eine Datei
-    <kennung>-typenbibliothek.py  erzeugt sie und hält die Zählweise als Code fest
-                           für fhr vorhanden (12.09.2026), für msa noch nicht
-    pdf/                   Archiv der Hefte (noch nicht angelegt)
+Hier steht, warum es einen Baustein gibt. Wann man welche Datei öffnet, sagt README.md; Umbenennungen und Daten stehen in § 10 und in namensschema.md.
+
+    Kern (katalog-prompt.md)           eine Erfassungsmethode für alle Prüfungen, damit jede Zeile jeder Prüfung gleich gebaut ist und der Blattbau eine einzige Quelle hat (§ 1)
+    Profil (<kennung>.md)              je Prüfung das, was an ihr hängt – Quellen, Aufbau, Kürzel, Themenliste; bei Widerspruch gilt es vor dem Kern (Entscheidung 12)
+    Katalog, Typenliste, Prüfungsliste je Profil   Fakten je Teilaufgabe, Typvokabular, Erfassungsstand – je Profil getrennt, weil Vokabular und Häufigkeit nie über Profile hinweg gelten (Entscheidungen 11–15)
+    Bau-Skript (<profil>-bau.py)       prüft und schreibt; kein Katalog wird von Hand geschrieben, kein Profil ist ohne Selbstprüfung vollständig (Entscheidung 33)
+    abitur-vokabular.md, abitur-typen.csv, abitur-abgleich.py   das Geteilte der Familie abi, weil abi und iqb dieselben Fertigkeiten prüfen (Entscheidungen 25, 26)
+    abi-<zielprüfung>-geltung.md       Geltung je Zielprüfung, weil sie am Träger und Niveau hängt, nicht an der Zeile (Entscheidung 30)
+    <profil>-vorgaben.md               amtliche Vorgaben mit Jahrescheck, vom Katalog getrennt, weil der ihn nicht liest (Entscheidung 19; abi-vorgaben.md für abi und iqb)
+    <profil>-quellen.md                Verzeichnis der Hefte statt einer Ablage der Hefte; iqb erzeugt seine Liste (iqb-quellen.csv, .py), weil 624 Kennungen nicht von Hand zu pflegen sind
+    <kennung>-typenbibliothek.md, .py  aus dem Katalog abgeleitet, nie editiert; der Erzeuger hält die Zählweise als Code fest (fhr; msa noch nicht)
+    namensschema.md                    eine Benennung, die einen zweiten Träger derselben Prüfungsart verträgt (Entscheidung 32)
+    hefte/, hefte-md/, iqb-pdf/        lokal, nicht im Repo: Verlagsmaterial und Cache (.gitignore); pdf/ als Archiv der Hefte ist nicht angelegt (§ 6)
+    pruefungsprompt.md, masterprompt.md, mathblatt.sty, blatt-konzept.md, CHANGELOG.md   der Blattbau, ein eigenes Projekt im selben Repo (blatt-konzept.md § 5); Masterfassungen hier, die Projektanweisungen sind Kopien
+    README.md, CLAUDE.md               Landkarte und Arbeitsanweisung; begründet wird nur hier
 
 Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Die Ordnung darin regeln die Präfixe nach namensschema.md (Entscheidung 32).
 
-Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentlich, damit curl ohne Anmeldung liest). Die Basis-URL steht in msa.md, im Prüfungsprompt (2.1, 4.6) und im Masterprompt (4.6) – vier Stellen, die bei anderer Ablage geändert werden. Claude liest per curl, der Lehrer lädt geänderte Dateien hoch. Geschrieben wird nur beim Aufbau und einmal im Jahr.
+Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentlich, damit curl ohne Anmeldung liest). Die Basis-URL steht an sieben Stellen – in den vier Profilen (§ 2), im Prüfungsprompt (2.1, 4.6) und im Masterprompt (4.6) –, die bei anderer Ablage geändert werden. Claude liest per curl und schreibt seit dem 13.09.2026 im Repo, der Lehrer pusht (Entscheidung 22). Geschrieben wird nur beim Aufbau und einmal im Jahr (§ 7).
 
 ## 3 Themenkatalog
 
@@ -551,6 +536,12 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag M, Punkt 2): § 2 auf Baustein und Grund gekürzt (13 Bausteinzeilen
+  statt 30); Zweckangaben stehen im README, Umbenennungen und Daten hier in § 10 und in
+  namensschema.md; befund-stichtag-2026-09-17.md aus der Liste (Befund, kein Baustein).
+  Berichtigt: die Basis-URL steht an sieben Stellen, nicht an vier (die vier Profile,
+  Prüfungsprompt 2.1 und 4.6, Masterprompt 4.6); Ablage-Absatz auf Entscheidung 22 (Claude
+  schreibt im Repo, der Lehrer pusht).
 - 2026-09-17 (Auftrag J, Punkt 3): § 7 von „Ablauf" (Projektchronik) zur Jahresroutine
   je Profil – Reihenfolge Vorgabencheck vor Erfassung, neun Schritte je Heft und
   Stapel, Besonderheiten abi/iqb (Geltungsdateien, Abbruchreihe, Pooljahrgang),
