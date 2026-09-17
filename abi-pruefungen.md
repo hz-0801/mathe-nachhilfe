@@ -1845,6 +1845,129 @@ bis 2018, STARK druckt ab 2018 keine CAS-Fassung, Band 2022 Brandenburg
 unbekannt). Für die heutige Form misst der Pool das MMS-Delta (iqb,
 Delta-Stapel 2026). Nicht beschafft, nur gemeldet.
 
+**Katalog gegen die Stark-Stichwortverzeichnisse (17.09.2026, Auftrag C,
+Teil 3; Quelldateien hefte/stichwort-2027-bebb-gk.md, -lk.md verlustfrei aus
+Text-PDFs, stichwort-2021-be-gk.md abgeschrieben; Skript stark_check.py im
+Scratchpad, nur Messung, keine Zeile geändert).** *Verfahren.* Jeder
+Seitenverweis <jahr>-<seite> wurde über die Verlagsseiten dem Block einer
+Aufgabe zugeordnet (Aufgabenseiten, Tipps und Lösungen einer Aufgabe stehen
+im Band hintereinander): bei den Text-PDFs 2019–2021 und 2026 aus den
+Seitenköpfen, bei den Bildscans 2022–2025 aus den gedruckten Seitenzahlen
+der Aufgabenseiten (Blockanfänge z. B. 2022 GK 1 / 9 / 18 / 28 / 37, 2025 LK
+1 / 8 / 16 / 24 / 32 / 37); für 2018 aus dem Band 2021 liegt keine
+Verlagsfassung vor, dort gilt der Lernbereich als Block (Analysis 1.x,
+Geometrie 2.x, Stochastik 3.x). Im Block wurde je Stichwort ein Suchmuster
+(Stamm und Synonyme) gegen die Zeilen gehalten: (a) Treffer in thema, typ
+oder typ_neben = abgedeckt unter dem Etikett; (b) Treffer nur in
+stichwoerter, voraussetzungen, gegeben, gesucht, verfahren, ergebnis oder
+den übrigen Textfeldern = abgedeckt unter anderem Etikett; (c) kein Treffer.
+Die (c)-Fälle wurden einzeln gegen die Zeilen des Blocks gesichtet und
+unterteilt in b* (Leistung im Katalog vorhanden, der Begriff steht nicht im
+Wortlaut – zählt zu b), W (Lösungswerkzeug unterhalb der Typenebene: der
+Katalog beschreibt die Leistung, nennt das Werkzeug aber nicht oder
+beschreibt einen anderen Weg), F (Fehlverweis: die Seite liegt im Block
+eines anderen Lernbereichs, Verlagsfehler) und ? (kein Bezug in den Zeilen
+des Blocks erkennbar). „f." und „ff." zählen die Folgeseite(n) nur innerhalb
+desselben Blocks. Leerverweise (Seite außerhalb des Jahrgangs): keine, auch
+nicht in den abgeschriebenen Dateien; die Übertragungsfehler-Regel des
+Auftrags musste nicht angewendet werden. Die 88 Verweise des Bands 2021 auf
+2016 und 2017 (Berlin GK) treffen Hefte, die nicht im Bestand sind (2016 vor
+dem Schnitt, 2017-be-gk nicht Leitfassung), und sind nicht gewertet.
+
+*Band 2027 GK (Hefte 2022-bebb-gk … 2026-bb-gk; 96 Stichworteinträge:
+Analysis 47, Geometrie 28, Stochastik 21; 684 gewertete Verweise):*
+
+| Lernbereich | a Etikett | b Textsuche | b* Sicht | c Werkzeug | c Fehlverweis | c offen |
+|---|---|---|---|---|---|---|
+| Analysis | 290 | 47 | 7 | 4 | 0 | 2 |
+| Analytische Geometrie | 165 | 38 | 11 | 3 | 1 | 0 |
+| Stochastik | 100 | 10 | 2 | 2 | 2 | 0 |
+| gesamt | 555 (81 %) | 95 (14 %) | 20 (3 %) | 9 | 3 | 2 |
+
+(c)-Fälle einzeln: Produktregel 2024-9 (W: Ableitung in 1.4 a/1.7 a ohne
+Nennung der Regel); Pythagoras 2026-15 und Trigonometrische Beziehungen
+2026-15, 18 (W: 2.1 e löst der Katalog über Ähnlichkeit, STARK über
+Pythagoras und Winkelfunktionen); Betrag eines Vektors 2026-29 (W: Höhe des
+Trapezes in 3 a); Vektorprodukt 2025-12, 30 (W: Normalenvektor in 1.8/3 b
+über zwei Skalarprodukte, STARK zusätzlich über das Kreuzprodukt);
+Vierfeldertafel 2022-8, 2024-11 (W: STARK-Tipp als Alternative zum
+Baumdiagramm in 1.6/1.7 bzw. 1.9); Parameter – Einfluss 2026-13 f. (?: die
+Aufgabe 2.1 hat keinen Parameter); Fehlverweise: Abstand 2023-38 (Seite ist
+Aufgabe 4.1 Stochastik), Baumdiagramm 2024-19 (Seite ist 2.2 Analysis),
+Summenzeichen 2026-20 (Seite ist 2.1 Analysis). Als b* gesichtet: Intervall
+2026-5, Parameter – Bestimmung 2026-22 ff. (2.2 e „Wert von a"),
+Stammfunktion 2025-20, Abstand 2024-28, Dreieck 2025-29, Koordinatenform
+2026-28 ff., Normalenform 2022-33 und 2025-31, Mittelpunkt 2026-8,
+Parallelität 2023-10 und 2026-4/7, bedingte Wahrscheinlichkeit 2024-5/11.
+
+*Band 2027 LK (Hefte 2022-bebb-lk … 2026-bb-ea; 105 Einträge: Analysis 44,
+Geometrie 39, Stochastik 22; 748 Verweise):*
+
+| Lernbereich | a Etikett | b Textsuche | b* Sicht | c Werkzeug | c Fehlverweis | c offen |
+|---|---|---|---|---|---|---|
+| Analysis | 291 | 50 | 6 | 0 | 0 | 5 |
+| Analytische Geometrie | 166 | 54 | 4 | 6 | 2 | 3 |
+| Stochastik | 139 | 21 | 0 | 0 | 1 | 0 |
+| gesamt | 596 (80 %) | 125 (17 %) | 10 (1 %) | 6 | 3 | 8 |
+
+(c)-Fälle einzeln: Lineares Gleichungssystem 2025-33, Kollinearität 2023-33
+und 2024-39, Parallelität 2024-40, Vektorprodukt 2023-33 und 2024-39 (alle
+W: Werkzeuge in den Lösungen zu Aufgabe 3, der Katalog nennt Skalarprodukt,
+Normalenvektor, Spurgeraden); abschnittsweise definierte Funktion 2024-13,
+20 (?: Lösungen der Wahlaufgaben bzw. 2.1 ohne solche Funktion; 2024-27, 33
+in 2.2 als b*), Spiegelung 2026-26, 32 f. (?: 2.2 hat Verschiebungen und
+Periode, keine Spiegelung), Spiegelung an einer Ebene 2025-32 ff. (?: Aufgabe
+3 mit Ebenenschar und Schnittdreieck, keine Spiegelung); Fehlverweise:
+Koordinatenform 2026-29 f. (Seite ist 2.2 Analysis), Binomialverteilung
+2024-40 (Seite ist Aufgabe 3 Geometrie). Als b* gesichtet: Krümmung 2022-16,
+Steigung 2025-19, Tangente 2025-25, Zeichnen 2024-16, Koordinatenform
+2024-8/13 und 2025-32, Normalenform 2024-40.
+
+*Band 2021 Berlin GK, Jahrgänge 2018 und 2019 (88 Einträge: Analysis 37,
+Geometrie 28, Stochastik 23; 229 Verweise, dazu 88 auf 2016/2017 nicht
+gewertet):*
+
+| Lernbereich | a Etikett | b Textsuche | b* Sicht | c Werkzeug | c Fehlverweis | c offen |
+|---|---|---|---|---|---|---|
+| Analysis | 84 | 13 | 0 | 0 | 0 | 0 |
+| Analytische Geometrie | 77 | 9 | 2 | 2 | 0 | 0 |
+| Stochastik | 35 | 7 | 0 | 0 | 0 | 0 |
+| gesamt | 196 (86 %) | 29 (13 %) | 2 | 2 | 0 | 0 |
+
+(c)-Fälle: Gleichungssystem 2019-26, 29 (W: Durchstoß- und Begegnungspunkt
+in 3.1 b/d über ein LGS); Kollinearität 2019-3, 6 als b* (1.3 a echt
+parallele Gerade). Vorbehalt: 2018 nur über den Lernbereich zugeordnet, die
+Quote ist dort gröber.
+
+*Einschätzung (Punkt 12).* Über alle drei Bände: 1347 von 1661 gewerteten
+Verweisen (81 %) treffen ein Etikett, 281 (17 %) den Inhalt unter anderem
+Etikett, 33 (2 %) keine Entsprechung – davon 17 Lösungswerkzeuge
+(Produktregel, Pythagoras, Winkelfunktionen, Betrag, Vektorprodukt, LGS,
+Kollinearität, Parallelität als Rechenschritt, Vierfeldertafel als
+Alternative), 6 Fehlverweise des Verlags und 10 offene Fälle, bei denen der
+Verweis nicht nachvollziehbar ist (Parameter in 2026 GK 2.1, Spiegelung in
+2026 LK 2.2 und 2025 LK 3, abschnittsweise definierte Funktion in 2024 LK
+1.x/2.1). **Echte Katalog-Lücken sind darunter nicht**: kein (c)-Fall
+bezeichnet eine Teilaufgabe oder Leistung, die im Katalog fehlt; die
+Werkzeugfälle liegen unterhalb der Typenebene (Kern § 6: Typ = Gegenstand
+plus Handlung; das Werkzeug steht, wenn überhaupt, in voraussetzungen oder
+verfahren, und dort nennt der Katalog bei denselben Aufgaben teils einen
+anderen Weg als STARK). *Körnung.* Für dieselben Hefte stehen 96
+Stark-Stichworten im GK 228 Katalogtypen (246 Zeilen, 31 Themen, 84
+Schnittwerte) gegenüber, im LK 105 Stichworten 255 Typen (283 Zeilen, 39
+Themen, 98 Schnittwerte), im Band 2021 (2018/2019) 88 Stichworten 91 Typen
+(81 Zeilen, 28 Themen, 43 Schnittwerte). Der Katalog schneidet auf der
+Typenebene zwei- bis dreimal feiner (eine Leistung je Teilaufgabe, mit
+Handlung und Weg); auf der Ebene der Schnittwerte (Thema × Klasse ×
+Handlung) etwa gleich fein wie das Verzeichnis; auf der Themenebene gröber
+(31–39 Themen gegen ~100 Stichworte). Gröber ist der Katalog dort, wo STARK
+Werkzeuge und Grundbegriffe verschlagwortet (Intervall, Funktionswert,
+Betrag, Skalarprodukt, Pythagoras, Summenzeichen, Wertetabelle) – das ist die
+Ebene, die der Katalog bewusst nicht als Typ führt; feiner dort, wo STARK
+einen Sammelbegriff hat („Extrempunkt" mit 29 Verweisen im GK-Band gegen 13
+verschiedene Extrempunkt-Typen in denselben Heften). Kein Vorschlag zur Änderung
+der Typenliste aus diesem Abgleich.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2253,6 +2376,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 3: Katalog gegen die drei Stark-Stichwortverzeichnisse gemessen (1661 Verweise: 81 % Etikett, 17 % unter anderem Etikett, 2 % ohne Entsprechung – 17 Werkzeuge, 6 Fehlverweise, 10 offen; keine Katalog-Lücke, keine Leerverweise); Körnung Katalog gegen Verzeichnis (§ 4). Keine Zeile geändert. |
 | 2026-09-17 | Auftrag C, Teil 5: Bestandsaufnahme des Repos als repo-bestand.md (53 Dateien je Projekt zugeordnet, Auffälligkeiten; nichts verschoben, umbenannt oder gelöscht). |
 | 2026-09-17 | Auftrag C, Teil 4: hinweise-2027-bebb.md gegen abi.md § 11 geprüft (kein Widerspruch, fünf Ergänzungen gemeldet), hinweise-2021-be-gk.md in abi.md v0.21 § 11 aufgenommen (Struktur bis 2021, Bewertungsschlüssel als Reihe, CAS-Geräteliste), CAS-Befund berichtigt (Prüfungsform bestand weiter, CAS = MMS; abi.md § 3, § 10, abi-quellen.md v0.5 § 5, § 2 hier); Quelldateien in abi-quellen.md § 8 (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 0 (Entscheidung des Lehrers): Eichschwelle für Landeshefte ausgesetzt (abi-bau.py v0.9, Kennzahl bleibt), Maßstab der Schätzung im Kern v0.7 § 5 (afb_amtlich leer = Schätzung ohne Maßstab, keine Markierung); Lauf 22 (abgleich.py v0.22): afb_amtlich aus der Poolzeile in den 21 Dubletten der Hefte bis 2018; abi.md v0.20, iqb.md v1.9 (§ 4). |
