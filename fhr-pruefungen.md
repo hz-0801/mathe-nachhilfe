@@ -1,5 +1,5 @@
 # FHR – erfasste Prüfungen
-Profil fhr · Stand 17.09.2026
+Profil fhr · Stand 18.09.2026
 
 Zentrale schriftliche Fachhochschulreifeprüfung Mathematik, Land Brandenburg. Ein Heft ist ein Aufgabenvorschlag für einen Prüfungstermin; pro Jahrgang liegen zwei gleichwertige Vorschläge zum selben Termin vor. Die Hefte sind „Unterlagen für die Lehrkraft" und enthalten Aufgabentext und Erwartungshorizont, ab 2021 meist auch einen Gutachtenbogen; er fehlt in 2023 C, 2021 B und in allen vier Heften der Jahrgänge 2019 und 2020.
 
@@ -47,6 +47,8 @@ Aus der Erweiterung folgt eine offene Frage für die Heft-Phase: Originale vor 2
 Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibetermin stellt das Ministerium je Jahrgang einen weiteren Aufgabenvorschlag bereit (Prüfungsschwerpunkte § 2.1); auf dem Bildungsserver liegt keiner.
 
 ## Änderungslog
+
+- 18.09.2026 – fhr-quellen.md angelegt (Auftrag O, Punkt 2): Quelle, Übersichtsseite, Serverdateien je papier-Kürzel, lokaler Heftordner hefte/fhr/ mit Erfassungsstand; Dateien ohne Katalogeintrag (Prüfungsschwerpunkte, Rundschreiben) ausdrücklich geführt; Zahlen aus befund-quellenbestand-2026-09-18.md. fhr.md v1.10 § 2 und README verweisen darauf. Katalog und Typenliste unverändert.
 
 - 17.09.2026 – fhr-vorgaben.md angelegt (Auftrag G, Punkt 3): amtliche Vorgaben und Formatwechsel 2019–2028 aus fhr.md und dieser Liste zusammengetragen; § 1 verweist darauf. Katalog und Typenliste unverändert.
 

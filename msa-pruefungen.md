@@ -1,5 +1,5 @@
 # P10 Mathematik Brandenburg – Hefte und Erfassungsstatus
-Stand 17.09.2026 (Hefte 2014–2025, 2026 FOR erfasst) · Profil msa · gepflegt vom Katalog-Prompt (Datei bis 17.09.2026 pruefungen.md)
+Stand 18.09.2026 (Hefte 2014–2025, 2026 FOR erfasst) · Profil msa · gepflegt vom Katalog-Prompt (Datei bis 17.09.2026 pruefungen.md)
 
 ## 1 Quelle
 
@@ -34,6 +34,7 @@ Papier: OS = integriertes Heft EBR + FOR (Sternchen kennzeichnen FOR-Pflichtaufg
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-18 (Auftrag O, Punkt 2): msa-quellen.md angelegt (Quelle, Jahresseite, Serverdateien je papier-Kürzel, lokaler Heftordner hefte/msa/ mit Erfassungsstand; Dateien ohne Katalogeintrag 2026-ebr und 19 Gymnasialhefte ausdrücklich geführt; Zahlen aus befund-quellenbestand-2026-09-18.md); msa.md v0.7 § 2 und README verweisen darauf. Kataloge unverändert.
 - 2026-09-17 (Auftrag M, Punkt 1): drei Verweise „Details konzept.md §7" auf § 10 umgestellt – die Änderungsliste von konzept.md ist seit den Umnummerierungen vom 12.09. und 17.09.2026 § 10.
 - 2026-09-17 (Auftrag F, Punkt 1; Verweise in dieser Datei nachgezogen in Auftrag G, Punkt 1): Die Dateien des Profils tragen das Präfix msa- – diese Datei heißt msa-pruefungen.md (vorher pruefungen.md), dazu msa-typen.csv, msa-katalog-basis.csv, msa-katalog-kontext.csv, msa-vorgaben.md (git mv, Inhalt unverändert; namensschema.md § 4 Variante B, konzept.md Entscheidung 32). Kataloge unverändert.
 - 2026-09-17 (Auftrag E, Punkt 6): msa-bau.py v0.1 angelegt (Gerüst mit Selbstprüfung des Bestands, msa.md § 2); Selbstprüfung bestanden: 393 Zeilen (126 Basis, 267 Kontext) aus 13 Heften, 185 Typen, alle verwendet. Feldkorrektur in msa-typen.csv per Skript: „Behauptung prüfen" bekommt Leitidee Daten und Zufall und Thema Wahrscheinlichkeit mehrstufig (erste Fundstelle 2025-OS-K3b), Definition um die Zuordnung ergänzt; bis dahin der einzige Typ ohne Leitidee und Thema. Kataloge unverändert.

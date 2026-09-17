@@ -11,6 +11,7 @@ Im Repo liegen zwei Arbeiten nebeneinander: die **Erfassung** – vergangene Pr�
 
 - `msa.md` – öffnen, bevor ein P10-Heft erfasst wird: Kürzel, Leitideen, Themenliste, Besonderheiten; bei Widerspruch zum Kern gilt es.
 - `msa-pruefungen.md` – öffnen, um zu sehen, welches Heft als Nächstes dran ist, wo die Hefte liegen und was je Heft geschah.
+- `msa-quellen.md` – öffnen, wenn ein Heft geholt wird oder eine Datei zuzuordnen ist: Jahresseite, Serverdateien je papier-Kürzel, Heftordner `hefte/msa/` (lokal) mit Erfassungsstand, Dateien ohne Katalogeintrag.
 - `msa-typen.csv` – öffnen, wenn ein Typ gesucht, verglichen oder neu angelegt wird; wächst nur über das Bau-Skript.
 - `msa-katalog-basis.csv`, `msa-katalog-kontext.csv` – der Katalog in zwei Dateien (Basisaufgaben, Kontextaufgaben); öffnen zum Lesen, nie von Hand ändern.
 - `msa-bau.py` – ausführen, um ein Heft zu erfassen oder den Bestand zu prüfen (leeres ZEILEN = Selbstprüfung); Feldkorrekturen an der Typenliste laufen hier.
@@ -20,6 +21,7 @@ Im Repo liegen zwei Arbeiten nebeneinander: die **Erfassung** – vergangene Pr�
 
 - `fhr.md` – öffnen, bevor ein FHR-Heft erfasst wird: Kürzel, Themenliste mit Schwerpunktmarkierung, Regel Punkt-Schwerpunkt, Besonderheiten.
 - `fhr-pruefungen.md` – öffnen für Heftliste, Quelle, Umfang und Änderungslog; alle sechzehn Hefte 2019–2026 sind erfasst.
+- `fhr-quellen.md` – öffnen, wenn ein Heft geholt wird oder eine Datei zuzuordnen ist: Übersichtsseite, Serverdateien je papier-Kürzel, Heftordner `hefte/fhr/` (lokal) mit Erfassungsstand, Dateien ohne Katalogeintrag.
 - `fhr-typen.csv` – öffnen, wenn ein Typ gesucht oder neu angelegt wird.
 - `fhr-katalog.csv` – der Katalog; öffnen zum Lesen, nie von Hand ändern.
 - `fhr-bau.py` – ausführen, um ein Heft zu erfassen oder den Bestand zu prüfen (leeres ZEILEN = Selbstprüfung).
