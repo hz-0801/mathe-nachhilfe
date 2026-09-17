@@ -239,9 +239,20 @@ Kennung oder eine Regel des Profils:
 4. **Zielprüfung(en).** Für welche Prüfung(en) soll der Katalog Material
    liefern? Je Zielprüfung eine Geltungsdatei aus den amtlichen
    Schwerpunkten (Themen ja/nein, ausgeschlossene Aufgabenformen,
-   Rechnerfassung; abitur-vokabular.md § 3, Teil 2 des Auftrags D). Gibt es
-   keine Schwerpunkte (P10: „prüfungsrelevant ist der Rahmenlehrplan",
-   vorgaben.md), gibt es keine Geltung – dann gilt die ganze Themenliste.
+   Rechnerfassung; abitur-vokabular.md § 3, Teil 2 des Auftrags D).
+   **Zulässige Ausnahme – Prüfungsart ohne Geltung nach Land oder Schulform**
+   (Auftrag D Teil 2 Punkt 6, festgehalten 17.09.2026, Auftrag E Punkt 7):
+   Eine Geltungsdatei je Zielprüfung ist nur dort nötig, wo dieselbe
+   Themenliste je Träger oder Schulform verschieden gilt und ein Skript oder
+   der Blattbau danach filtert. Gibt es keine amtlichen Schwerpunkte (msa:
+   „prüfungsrelevant ist der Rahmenlehrplan", vorgaben.md), gibt es keine
+   Geltung – die ganze Themenliste gilt. Binden die Schwerpunkte Themen nur an
+   Prüfungsjahrgänge, nicht an Land oder Schulform (fhr: Markierung (27)/(28)
+   in fhr.md § 6, ein Träger, eine Schulform, ein Niveau), bleibt die
+   Markierung in der Themenliste; eine Geltungsdatei wäre eine
+   Ein-Spalten-Tabelle, die kein Skript liest. Beide Profile bleiben deshalb
+   ohne Geltungsdatei, bis ein zweiter Träger oder eine zweite Schulform
+   hinzukommt oder ein Skript die Geltung braucht – dann gilt die Regel.
 5. **Quellenlage.** Liegen die Hefte amtlich vor (Bildungsserver), nur im
    Verlag (STARK, lokal unter hefte/, nicht im Repo) oder gar nicht?
    Gibt es einen amtlichen Erwartungshorizont (fhr, iqb: Kern § 3 d
@@ -273,8 +284,9 @@ den heutigen Kurzkennungen):
 2. `<profil>-quellen.md` – Verzeichnis, Dateinamen, papier-Kürzel,
    Seitenzahlen, lokaler Heftordner; bei großen Quellen dazu
    `<profil>-quellen.csv` mit Erzeuger `<profil>-quellen.py`.
-3. `<zielprüfung>-geltung.md` je Zielprüfung (Frage 4); jedes Thema der
-   Liste braucht eine Zeile, die Bau-Skripte prüfen das.
+3. `<zielprüfung>-geltung.md` je Zielprüfung (Frage 4; entfällt in der dort
+   genannten Ausnahme); jedes Thema der Liste braucht eine Zeile, die
+   Bau-Skripte prüfen das.
 4. `<profil>-vorgaben.md` – amtliche Vorgaben mit Jahrescheck (Entscheidung
    19); bei gleicher Prüfungsart in die Familiendatei (abi-vorgaben.md).
 5. `<profil>-bau.py` – aus dem jüngsten Bau-Skript: alles unter „QUELLEN
@@ -382,6 +394,9 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag E, Punkt 7): § 8 Frage 4 – zulässige Ausnahme „Prüfungsart
+  ohne Geltung nach Land oder Schulform" (msa, fhr) mit Begründung aus
+  Auftrag D Teil 2; Dateiliste Punkt 3 verweist darauf.
 - 2026-09-17 (Auftrag E, Punkt 4): Begriffe – Klasse statt Unterklasse, Feinetikett statt Feintyp, Schnitt statt Typenschnitt (Entscheidungen 24, 25), Schätzung des Anforderungsbereichs statt Niveauschätzung (23), WTR-Fassung statt WTR-Zwilling (27).
 - 2026-09-17 (Auftrag D, Teil 7): Entscheidung 29 um die Regel „eine Vormerkung
   überlebt keinen Auftrag" ergänzt (abi.md v0.24, iqb.md v1.11, CLAUDE.md); § 6
