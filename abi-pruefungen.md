@@ -36,6 +36,7 @@ in vorgaben.md.
 | 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten, 170 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
 | 2024 | 2024-bebb-gk | BE/BB | grundlegend | WTR | 10 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 155 angeboten, 105 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 47 Zeilen** (alle Aufgaben, beide Wahlwege; 20 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 | 2025 | 2025-bebb-gk | BE/BB | grundlegend | WTR | 8 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-16, 39 Zeilen** (alle Aufgaben, beide Wahlwege; 34 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
+| 2026 | 2026-bb-gk | BB | grundlegend | WTR | 36 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bebb-gk.pdf) | – (nicht im Band) | 125 angeboten, 85 bei Wahl (Teil-A-Wahl 1.4/1.5, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, beide Wahlwege; 36 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) · erstes landeseigenes Heft nach der Trennung |
 
 Leitfassung je Jahr und Niveau: erhöht bb-ea, grundlegend be-gk (abi.md § 7).
 Wortgleiche Zwillinge des anderen Landes werden nicht als Zeile erfasst,
@@ -63,6 +64,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2023-bebb-lk | 66 | 68 | 24 (35 %) | 27 von 33 (82 %), alle 33 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 4 von 68 (6 %, Niveau lk = 2022-bebb-lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 2, nur bb-ea 0; alle: be-gk 25, be-lk 2, bb-gk 23, bb-ea 0 | 42 Werte, 62 von 66 Zeilen im erhöhten Niveau (Pool) bekannt (94 %), 2 Werte neu im Gesamtbestand | 33 von 66; 105 von 220 (48 %); abgewandelt 2 Zeilen, 9 BE |
 | 2024-bebb-gk | 47 | 46 | 16 (35 %) | 17 von 20 (85 %) | 0 | 0 | 7 von 46 (15 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 45 von 47 Zeilen im Niveau bekannt (96 %), 1 Wert neu im Gesamtbestand | 20 von 47; 55 von 155 (35 %) |
 | 2025-bebb-gk | 39 | 43 | 4 (9 %) | 34 von 34 (100 %) | 0 | 0 | 12 von 43 (28 %) | Heft (be-gk oder bb-gk) 0, beide Spalten 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 34 Werte, 38 von 39 Zeilen im Niveau bekannt (97 %), 0 Werte neu im Gesamtbestand | 34 von 39; 100 von 125 (80 %) |
+| 2026-bb-gk | 45 | 46 | 6 (13 %) | 35 von 36 (97 %), alle 36 geerbt; eigene 0 | 0 | 0 | 7 von 46 (15 %) | Heft (bb-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 36 Werte, 45 von 45 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | 36 von 45; 100 von 125 (80 %) |
 
 ## 3 Nicht im Bestand
 
@@ -922,6 +924,89 @@ Standardbezug – 6 der 7 Teil-B-Abweichungen nach oben (2.1 a, j, 3 b, e:
 II statt I; 2.1 g, 3 i: III statt II), eine nach unten (2.1 k). Selbstprüfung
 beider Bau-Skripte bestanden, offene Posten 0.
 
+**2026-bb-gk erfasst (17.09.2026, Auftrag „2026 Brandenburg erfassen,
+Reserve 2022-ga-B öffnen", Punkt 3–5; abi-bau.py v0.8, abi.md v0.14).**
+Erstes Heft nach der Trennung der Länder: Kopfzeile „Brandenburg –
+Mathematik Grundkurs", papier 2026-bb-gk, eine Zielprüfung (bb-gk), die
+Zwei-Spalten-Regel greift nicht; die Verlagsdatei heißt noch
+hefte/2026-bebb-gk.pdf. Sichtung im selben Lauf: 36 Seiten A5, echtes PDF
+mit Textebene – pypdf liefert den Text jeder Seite, die Seitenübersicht kam
+aus dem Text (Aufgabenseiten 1–3, 13–14, 22–23, 28, 32–33; der Rest Tipps
+und Verlagslösungen der Autoren des Bands, kein amtlicher
+Erwartungshorizont: ergebnis ohne „amtlich", afb_amtlich der Landeszeilen
+leer, Tipps nicht erfasst). Aufgabenseiten dennoch gerendert und gelesen,
+weil Formeln, Vektoren und Abbildungen im Text zerfallen. 45 Zeilen aus 13
+Aufgaben (1.1 bis 1.9 der hilfsmittelfreie Teil wie 2024/2025, 2.1 und 2.2
+mit zwei Aufgabenteilen als a–i, 3, 4); alle dreizehn Punktsummen stimmen
+(9 × 5, 25, 25, 15, 15 = 125 BE angeboten, 85 bei Wahl – Aufteilung wie
+2025). Selbstprüfung beider Bau-Skripte bestanden (abi 493 Zeilen aus 10
+Heften, iqb 1258, 1121 Typen, 239 in beiden Katalogen), Lauf aus dem
+HEAD-Stand byteidentisch.
+
+*Pool-Abgleich (gegen den erfassten Pool 2026 grundlegend, Teil A und B).*
+**36 von 45 Zeilen sind wortgleiche Poolaufgaben, 100 von 125 angebotenen
+BE (80 %)** – exakt die Quote und der Sitz von 2025: der ganze
+hilfsmittelfreie Teil (1.1 = Analysis 1.3, 1.2 = AG/LA (A2) 1.1, 1.3 =
+Stochastik 1.2, 1.4.1 = Analysis 1.2, 1.4.2 = AG/LA (A1) 1.2, 1.4.3 =
+Stochastik 1.1, 1.5.1 = Analysis 2.2, 1.5.2 = AG/LA (A2) 2.1, 1.5.3 =
+Stochastik 2.2 – 45 BE), 2.2 = Analysis WTR 2 vollständig (25 BE, neun
+Zeilen), 3 = AG/LA (A2) WTR 2 vollständig (15 BE), 4 = Stochastik WTR 1
+vollständig (15 BE). Einzige Landesaufgabe ist 2.1 (Modelleisenbahn, 25 BE,
+neun Zeilen). Nach zu bearbeitenden BE: 60 oder 85 von 85 (71 % oder
+100 %), je nach Wahl 2.1 oder 2.2. **Die getrennte Prüfung 2026 schöpft
+also weiter aus dem Pool, im selben Maß wie die letzte gemeinsame.** Die
+36 Dubletten-Zeilen sind aus den Poolzeilen erzeugt (dubletten.py);
+Wortgleichheit je Teilaufgabe am Heft geprüft (Zahlen, Aufträge, BE) –
+die Textebene machte den Abgleich zum Textvergleich, alle 36 Treffer
+ohne Abweichung. Der Dublettenscan aus iqb-quellen.py war nicht nötig:
+jede Aufgabe ließ sich am Stamm den Poolzeilen zuordnen. Kontextgebundene
+Zeilen: keine.
+
+*Verhältnis zum Leistungskursheft 2026-bb-ea.* Aufgabe 4 (Treuepunkte) und
+Aufgabe 3 (Pyramide) stehen in beiden Heften – beide Male aus dem Pool,
+jedes Heft aus der Datei seines Niveaus: Stochastik WTR 1 grundlegend und
+erhöht sind Fassungen derselben Aufgabe (Aufgabenteil 1 b, c und 2 b, c
+wortgleich, 1 a und 2 a verschieden, der erhöhte Teil 3 zusätzlich), AG/LA
+(A2) WTR 2 grundlegend und erhöht sind strukturgleich mit anderen
+Koordinaten. Die Dublettenregel des Katalogs zwischen zwei abi-Heften
+wurde deshalb nicht gebraucht: jeder Verweis geht auf die Poolzeile des
+eigenen Niveaus, die Gleichheit der Hefte ist Poolgleichheit und steht als
+Vermerk in bemerkung. Wo die Regel klemmen würde, wenn zwei abi-Hefte
+einander ohne Pool wiederholen, steht im Bericht (abi.md § 9).
+
+*Typen.* 46 verwendet, 6 neu (13 %), 38 aus dem iqb-Katalog (36 über die
+Dubletten, dazu Wendepunkte über die zweite Ableitung und Passung eines
+Profils), 2 aus dem abi-Bestand (Grenzverhalten ganzrational 2022-bebb-gk,
+Wendepunkte 2023-bebb-gk). Die neuen Typen: Extremstelle aller
+Stammfunktionen über den Vorzeichenwechsel (Stammfunktion und Hauptsatz),
+Gerade als Tangente in einem Punkt nachweisen (Tangente), Verschiebung
+einer Geraden aus dem Abstand paralleler Geraden (Transformation),
+eingeschlossene Fläche aus Integral, Symmetrie und Halbkreisen (Fläche),
+Lage eines Punktes aus Bedingungen an Wert und Ableitung
+(Kurvenuntersuchung), Umlaufzeit aus Streckenlänge und Geschwindigkeit
+(Ableitung und Änderungsrate). Etikettenfrage: 2.1 f (Schienenverlauf
+passt auf die Platte) läuft unter „Passung eines Profils in einen Karton …
+prüfen" (2026-ga-B-mms) – dieselbe Fertigkeit mit Halbkreisen statt
+Nullstellen.
+
+*Eichung.* 35 von 36 gewerteten Zeilen (97 %), alle geerbt; die
+Abweichung 1.9 (Stochastik 2.2, II gegen III) ist die der Poolzeile. Die
+neun Landeszeilen nach der engen Fassung: 1 mit III (2.1 e, Verschiebung
+aus dem Abstand), 6 mit II, 2 mit I.
+
+*Schnitt.* 36 Werte auf 45 Zeilen; alle 45 Zeilen auf bekannten Werten des
+grundlegenden Niveaus, **kein neuer Wert im Gesamtbestand** (188 Werte,
+be-gk 154, bb-ea 175); 7 der 9 Landeszeilen auf Werten aus Teil A des
+grundlegenden Pools. Geltung: alle 45 Zeilen in bb-gk.
+
+*Aufwand.* Textextraktion, Seitenübersicht, Rendern und Lesen von zehn
+Aufgabenseiten, Pool-Abgleich, Rechnung der Landesaufgabe mit sympy,
+Erzeugen der 36 Dubletten, neun Zeilen von Hand, Lauf, HEAD-Rerun und
+Selbstprüfung: etwa 30 Minuten (2025 mit Scan: 25 Minuten bei 39 Zeilen).
+Die Textebene senkt den Aufwand messbar beim Auffinden der Aufgabenseiten
+und beim Wortvergleich, nicht beim Lesen der Formeln – dort bleibt das
+Bild maßgeblich.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1330,6 +1415,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Heft 2026-bb-gk erfasst (erstes landeseigenes Heft, Zielprüfung bb-gk): 45 Zeilen aus 13 Aufgaben (1.1–1.9, 2.1 a–i, 2.2 a–i, 3, 4), Katalog 493 Zeilen, Typenliste 1121 (6 neu). Alle Punktsummen geprüft (9 × 5, 25, 25, 15, 15), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 35 von 36, alle geerbt. Pool 36 von 45 Zeilen, 100 von 125 BE (80 %): der ganze hilfsmittelfreie Teil, 2.2, 3 und 4; nur 2.1 (Modelleisenbahn) Landesaufgabe. Kein neuer Schnittwert. abi.md v0.14 § 4: bebb nur bis 2025. |
 | 2026-09-17 | Abgleichlauf 18: die 19 Vormerkungen von 2022-bebb-gk auf den Pool 2022 Teil B zu Verweisen umgestellt – 16 „Dublette von:“ (AB-Spalte in afb_amtlich), 3 „Abgewandelt von:“ (2.1 m, 3 g, 4 j); Typvergleich bestanden, kein Vermerk offen, Typen unverändert (1115). Eichung des Hefts jetzt 16 von 24 (67 %), Bestand 143 von 165 (86 %). |
 | 2026-09-17 | Pool 2022-ga-B (WTR) erfasst (Profil iqb, Reserve geöffnet wegen der 19 Vormerkungen aus 2022-bebb-gk): die 19 Poolzeilen tragen Typ und Schätzung der Landeszeilen; Umstellung der Vermerke auf „Dublette von:“ bzw. „Abgewandelt von:“ in Lauf 18. Befund: 10 der 19 übernommenen Schätzungen treffen den Standardbezug – die Landeszeilen von 2022-bebb-gk liegen tendenziell einen Bereich über dem Pool. |
 | 2026-09-16 | Abgleichlauf 17 nach den vier Stark-Heften: drei Zusammenziehungen mit neuem Namen – „Ganzrationale Funktion dritten Grades aus Wert-, Steigungs- und Extrempunktbedingungen rekonstruieren“ + „… aus Nullstellen-, Steigungs- und Parallelitätsbedingungen rekonstruieren“ → „Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren“; „Quadratische Funktion aus knickfreiem Übergang und einer Wertbedingung rekonstruieren“ + „Ganzrationale Funktion mit zwei Parametern aus einem Punkt und knickfreiem Übergang rekonstruieren“ → „Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren“; „Fehler zweiter Art für einen selbst gewählten Anteil berechnen und mit einer Schranke vergleichen“ + „Fehler zweiter Art für zwei selbst gewählte Anteile berechnen und im Sachzusammenhang deuten“ → „Fehler zweiter Art für selbst gewählte Anteile berechnen und einordnen“. Typenliste 1090 → 1087, 5 abi-Zeilen umgestellt. Selbstprüfung beider Bau-Skripte bestanden. |

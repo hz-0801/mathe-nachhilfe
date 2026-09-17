@@ -1,5 +1,7 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.13 · 16.09.2026 · Kennung abi · gilt mit Kern v0.5 (Schema-Version 2)
+Version 0.14 · 17.09.2026 · Kennung abi · gilt mit Kern v0.5 (Schema-Version 2)
+Änderungen gegenüber 0.13 (Hefte 2026-bb-gk, 2026-bb-ea): § 4 „bebb" nur bis
+2025, ab 2026 landeseigene Kürzel bb-gk und bb-ea mit je einer Zielprüfung.
 Änderungen gegenüber 0.12 (Heft 2022-bebb-lk): § 7 Eichschwelle nur über
 eigene Schätzungen, geerbte Schätzungen der Dubletten sind im Pool geeicht
 (abi-bau.py v0.8).
@@ -172,7 +174,14 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             15.09.2026 (Vorschlag des Lehrers): das Muster Jahr-Land-Niveau
             trägt die gemeinsame Prüfung nicht, „bebb" nennt beide Länder in
             der Reihenfolge der amtlichen Kopfzeile; be und bb bleiben für
-            die landeseigenen Hefte bis 2018 und ab 2026.
+            die landeseigenen Hefte bis 2018 und ab 2026. „bebb" gilt nur
+            bis 2025: ab 2026 entstehen die Prüfungen getrennt (Kopfzeile
+            „Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs"),
+            die Brandenburger Hefte heißen 2026-bb-gk und 2026-bb-ea und
+            treffen je genau eine Zielprüfung (bb-gk bzw. bb-ea); die
+            Zwei-Spalten-Regel der Geltung (§ 6) gilt für sie nicht
+            (Entscheidung des Lehrers, 17.09.2026). Die Verlagsdateien
+            unter hefte/ tragen für 2026 noch „bebb" im Namen.
             Die Werte stehen in abi-quellen.md § 2 und sind zugleich die
             Dateinamen des Korpus.
     block:  A (hilfsmittelfreier Teil; bis 2018 Aufgabenstellung 1 der
