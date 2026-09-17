@@ -194,19 +194,56 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 
 ## 6 Offen
 
-- Ablageort bestätigen (Basis-URL im Profil).
-- Prüfungsjahr des Schülers: Annahme 2027 (aktuelles Format). Bei 2028 rücken hilfsmittelfreier Teil und Musteraufgaben nach vorn.
-- Blatt-Prompt: noch nicht begonnen; Entwurf nach dem Probelauf, damit er gegen echte Katalogzeilen geschrieben wird.
-- PDF-Archiv anlegen.
-- Profil abi: Schülerart am Oberstufenzentrum klären (berufliches Gymnasium oder Fachoberschule), Quellen und Erwartungshorizonte prüfen.
-- Tokenverbrauch und Plattformunabhängigkeit. Der größte Einzelposten im
-  laufenden Betrieb ist nicht der Katalog, sondern der Masterprompt (rund
-  25.000 Zeichen, je Blatt vollständig gelesen) und das Ansehen gerenderter
-  Seiten. Ein Umbau, der Nachschlagbares aus dem Prompt in Dateien auslagert,
-  würde Token sparen und den Prompt weniger modellgebunden machen. Gehört ins
-  Blattbau-Projekt. Die Formate des Katalogs sind bereits anbieterneutral; die
-  Bindung liegt im Prompt und in der Umgebung, die Code ausführt. Festgehalten
-  am 17.09.2026.
+Stand 17.09.2026. Je Punkt: was offen ist und worauf es wartet. Was hier
+steht, steht nur hier; die Profile wiederholen es nicht.
+
+- **Variante A des Namensschemas** (Vollform durchgängig, namensschema.md § 4;
+  Entscheidung 32): aufgeschoben – wartet auf einen zweiten Träger zu einer
+  bestehenden Prüfungsart oder eine zweite Schulform; erst dann wird der
+  Alias mehrdeutig.
+- **Entscheidung 14, msa-Katalogdateien** (Basis und Kontext getrennt):
+  Zusammenlegung zu einer Datei wie abi – wartet auf den Umbau von Prüfungs-
+  und Masterprompt; erst danach steht fest, ob der Prompt je Blatttyp eine
+  Katalogdatei holt oder immer beide.
+- **Vorschlag 1 aus befund-typenlisten.md § 3, Statuswerte** (ein Vokabular
+  für das Feld status, „gültig" entfällt): nur mit einer Leseregel im Kern,
+  die sagt, wer den Wert setzt und liest – sonst wäre das Feld zu streichen;
+  nicht entschieden.
+- **Vorschlag 2, Verb am Ende** (25 verblose Typnamen, msa 5 und fhr 20): Kern
+  § 6 ist berichtigt (alle Beispiele tragen eine Handlung, Auftrag E); die
+  Umbenennung der 25 Typen samt 129 Katalogzeilen ist nicht entschieden.
+- **Vorschlag 3, Themennamen** (gleiche Sache, gleicher Themenname über die
+  Profile): wartet auf den prüfungsartübergreifenden Themenkatalog (§ 3), der
+  nicht beschlossen ist – ohne ihn gibt es keinen Nutzen, der die 151
+  betroffenen Katalogzeilen rechtfertigt.
+- **Vorschlag 5, Sortierung der Typenlisten**: abgelehnt – ein Sortierlauf
+  kostet die byteidentischen Reruns älterer Läufe und liefert unlesbare
+  Diffs; hier nur zur Sicherheit als abgelehnt vermerkt.
+- **Abbruchkriterium abi** (Gegenstück zum Stapelkriterium in iqb.md § 6 für
+  Landeshefte): unverändert offen, seit Auftrag D nicht entschieden.
+- **Strukturelle Geltung** (abitur-vokabular.md § 3, Vorschlag nach
+  Jahrgangsklassen; Entscheidung 30 nennt sie als Kippbedingung): unverändert
+  offen, nicht entschieden.
+- **Nachbau-Test je Blatt nie ausprobiert**: bisher kein Blatt aus einer
+  Katalogzeile gebaut (Entscheidungen 2, 10, 11; Prüfungsprompt v0.15 liegt
+  vor) – gehört ins Blattbau-Projekt.
+- **Prüfungsjahr des Schülers**: Annahme 2027 (aktuelles Format). Bei 2028
+  rücken hilfsmittelfreier Teil und Musteraufgaben nach vorn (msa-vorgaben.md).
+- **PDF-Archiv** (pdf/, § 2): nicht angelegt; die Hefte werden je Lauf vom
+  Bildungsserver geholt, abi ab 2019 aus hefte/ (lokal).
+- **Profil abi: Schülerart am Oberstufenzentrum** klären (berufliches
+  Gymnasium oder Fachoberschule); unverändert offen.
+- **Ablageort**: Repo hz-0801/mathe-nachhilfe mit Basis-URL in den vier
+  Profilen (§ 2); vom Lehrer nicht ausdrücklich bestätigt, seit dem 07.09.2026
+  in Gebrauch.
+- **Tokenverbrauch und Plattformunabhängigkeit** (festgehalten 17.09.2026):
+  Der größte Einzelposten im laufenden Betrieb ist nicht der Katalog, sondern
+  der Masterprompt (rund 25.000 Zeichen, je Blatt vollständig gelesen) und
+  das Ansehen gerenderter Seiten. Ein Umbau, der Nachschlagbares aus dem
+  Prompt in Dateien auslagert, würde Token sparen und den Prompt weniger
+  modellgebunden machen; die Formate des Katalogs sind bereits
+  anbieterneutral, die Bindung liegt im Prompt und in der Umgebung, die Code
+  ausführt. Gehört ins Blattbau-Projekt; Entscheidung 14 wartet darauf.
 
 ## 7 Ablauf
 
@@ -404,6 +441,11 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag H, Punkt 2): § 6 Offen neu gefasst – je Punkt eine Zeile mit
+  dem Grund des Wartens (Variante A, Entscheidung 14, Vorschläge 1/2/3/5 aus
+  befund-typenlisten.md, Abbruchkriterium abi, strukturelle Geltung, Nachbau-Test);
+  erledigte Punkte gestrichen (Blatt-Prompt begonnen: pruefungsprompt.md; Quellen
+  und Erwartungshorizonte abi/iqb geprüft: abi-quellen.md, iqb-quellen.md).
 - 2026-09-17 (Auftrag G, Punkt 4): Entscheidung 26 fortgeschrieben – msa behält die
   eigene Regel Zeilenthema „Thema der Aufgabenstellung" (entschieden; 42 von 393
   Zeilen weichen vom Typthema ab; kippt bei profilübergreifender Auswertung).
