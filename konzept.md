@@ -28,7 +28,7 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     CHANGELOG.md           Änderungshistorie der Prompts und der Vorlage
     mathblatt.sty          LaTeX-Vorlage (Version in Zeile 2); Anleitung_mathblatt.md gehört dazu – bis 2026-09-07 im Repo nachhilfe-arbeitsblatt-vorlage
     README.md              Landkarte: was im Repo liegt und wofür
-    befund-repo-stand-2026-09-17.md  Stand des Repos am 17.09.2026 (Dateien und Rollen, Kern, Profile, Bestandszahlen) als Einstieg für einen neuen Chat; einmalig, wird nicht fortgeschrieben
+    befund-repo-stand-2026-09-17.md  Stichtagsbefund: eingefrorener Stand des Repos am 17.09.2026 (Dateien und Rollen, Kern, Profile, Bestandszahlen), ab dem nächsten Commit veraltet; kein Einstieg – der ist CLAUDE.md mit dieser Datei
     msa-pruefungen.md      Heftliste mit Erfassungsstatus (seit 17.09.2026, vorher pruefungen.md)
     msa-vorgaben.md        amtliche Vorgaben aus den Fachbriefen, Jahrescheck; gesonderter Baustein (vorher vorgaben.md)
     msa-typen.csv          Typvokabular, wächst beim Erfassen (vorher typen.csv)
@@ -442,6 +442,9 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag I, Punkt 3): befund-repo-stand-2026-09-17.md als eingefrorener
+  Stichtagsbefund gekennzeichnet (§ 0 dort, README, § 2 hier); Einstieg bleiben CLAUDE.md
+  und konzept.md.
 - 2026-09-17 (Auftrag I, Punkt 2): Vorschlag 5 (Sortierung der Typenlisten) aus § 6
   nach § 4 als Entscheidung 34 – abgelehnt, mit Grund (byteidentische Reruns) und
   Kippbedingung.

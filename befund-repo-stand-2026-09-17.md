@@ -1,14 +1,11 @@
-# Stand des Repos am 17.09.2026 – Grundlage für einen neuen Chat
-Befund, einmalig (namensschema.md § 2: befund-<gegenstand>-<datum>); beschreibt den Stand nach Abschluss der Aufträge D bis G. Wird nicht fortgeschrieben – bei größeren Änderungen neu erzeugen. Kein Verlauf: was hier steht, ist der geltende Zustand; Geschichte steht in den Änderungslogs der Dateien.
+# Stand des Repos am 17.09.2026 – Stichtagsbefund
+Befund, einmalig und eingefroren (namensschema.md § 2: befund-<gegenstand>-<datum>): so sah das Repo am 17.09.2026 nach Abschluss der Aufträge D bis G aus. Ab dem nächsten Commit veraltet; wird nicht fortgeschrieben. Kein Verlauf: Geschichte steht in den Änderungslogs der Dateien.
 
-## 0 Zuerst lesen
+## 0 Geltung dieses Befunds
 
-1. `CLAUDE.md` – Arbeitsanweisung für Claude Code (Werkzeuge auf dem Rechner, Regelwerk, Ablauf je Heft, Arbeitsregeln; § 4 Profil iqb).
-2. `katalog-prompt.md` – der Kern der Erfassungsmethode (§ 2 unten).
-3. Das Profil der Aufgabe: `msa.md`, `fhr.md`, `abi.md` oder `iqb.md` (§ 3 unten); bei Widerspruch zum Kern gilt das Profil.
-4. `konzept.md` § 4 (Entscheidungen 1–33, je mit tragender Zahl und Kippbedingung) und § 6 (was offen ist und worauf es wartet – nur dort).
+Diese Datei ist kein Einstieg und keine Anweisung. Einstieg für jede Arbeit im Repo sind `CLAUDE.md` (Arbeitsanweisung, Werkzeuge, Arbeitsregeln) und `konzept.md` (Entscheidungen § 4, Offenes § 6); was der Kern und die Profile regeln, steht in `katalog-prompt.md` und in `msa.md`, `fhr.md`, `abi.md`, `iqb.md` selbst und gilt in der jeweils geltenden Fassung, nicht in der hier festgehaltenen. Was diese Datei leistet: den Zustand eines Tages nachweisbar festhalten – welche Dateien es gab und welche Rolle sie hatten (§ 1), was Kern und Profile an diesem Tag regelten (§ 2–3), die Bestandszahlen der Selbstprüfung (§ 4). Wer wissen will, was heute gilt, liest die Dateien; wer wissen will, was am 17.09.2026 galt, liest hier.
 
-Werkzeuge auf dem Rechner des Lehrers (Windows, nichts im PATH): git aus GitHub Desktop, Python aus LibreOffice, sympy und pypdf per `pip install --target` in den Scratchpad (`PYTHONPATH`). Die Prüfwerkzeuge der Arbeitsregeln – Selbstprüfung aller Bau-Skripte in einer Arbeitskopie mit geleertem `ZEILEN`, byteidentischer Rerun eines Laufs aus dem HEAD-Stand, BOM/CRLF-Prüfung – liegen **nicht im Repo**; sie werden je Sitzung neu geschrieben (Muster: befund-repo-bestand.md § 3).
+Befund zu den Werkzeugen: Die Prüfwerkzeuge der Arbeitsregeln – Selbstprüfung aller Bau-Skripte in einer Arbeitskopie mit geleertem `ZEILEN`, byteidentischer Rerun eines Laufs aus dem HEAD-Stand, BOM/CRLF-Prüfung – lagen am 17.09.2026 nicht im Repo, sondern im Scratchpad der Sitzung (befund-repo-bestand.md § 3).
 
 ## 1 Dateien und Rollen
 
@@ -121,4 +118,4 @@ Kurzkennungen msa = msa-bb, fhr = fhr-bb, abi = abi-bebb, iqb = abi-iqb bleiben 
 
 ## 7 Offenes
 
-Steht in konzept.md § 6 – je Punkt eine Zeile mit dem Grund des Wartens – und nur dort.
+Stand am 17.09.2026 in konzept.md § 6 – je Punkt eine Zeile mit dem Grund des Wartens – und nur dort; hier nicht wiederholt, damit der Befund nicht mit dem geltenden Stand verwechselt wird.
