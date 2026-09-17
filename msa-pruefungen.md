@@ -34,22 +34,23 @@ Papier: OS = integriertes Heft EBR + FOR (Sternchen kennzeichnen FOR-Pflichtaufg
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-17 (Auftrag M, Punkt 1): drei Verweise „Details konzept.md §7" auf § 10 umgestellt – die Änderungsliste von konzept.md ist seit den Umnummerierungen vom 12.09. und 17.09.2026 § 10.
 - 2026-09-17 (Auftrag F, Punkt 1; Verweise in dieser Datei nachgezogen in Auftrag G, Punkt 1): Die Dateien des Profils tragen das Präfix msa- – diese Datei heißt msa-pruefungen.md (vorher pruefungen.md), dazu msa-typen.csv, msa-katalog-basis.csv, msa-katalog-kontext.csv, msa-vorgaben.md (git mv, Inhalt unverändert; namensschema.md § 4 Variante B, konzept.md Entscheidung 32). Kataloge unverändert.
 - 2026-09-17 (Auftrag E, Punkt 6): msa-bau.py v0.1 angelegt (Gerüst mit Selbstprüfung des Bestands, msa.md § 2); Selbstprüfung bestanden: 393 Zeilen (126 Basis, 267 Kontext) aus 13 Heften, 185 Typen, alle verwendet. Feldkorrektur in msa-typen.csv per Skript: „Behauptung prüfen" bekommt Leitidee Daten und Zufall und Thema Wahrscheinlichkeit mehrstufig (erste Fundstelle 2025-OS-K3b), Definition um die Zuordnung ergänzt; bis dahin der einzige Typ ohne Leitidee und Thema. Kataloge unverändert.
 - 2026-09-05: angelegt; Heftliste 2014–2026. Vorgaben-Historie und Jahrescheck nach msa-vorgaben.md ausgelagert.
 - 2026-09-05: Heft 2025 erfasst (27 Zeilen, 37 Typen neu angelegt).
 - 2026-09-05: Heft 2026 FOR erfasst (33 Zeilen, 28 Typen neu). EBR-Hefte (2026, Muster 2028) zurückgestellt: derzeit kein EBR-Schüler; MSA = FOR.
 - 2026-09-05: Heft 2024 erfasst (29 Zeilen, 20 Typen neu).
-- 2026-09-05: Typen-Check nach drei Heften: 85 → 83 Typen, alle „gültig“; vier Etiketten zusammengelegt, eines geteilt (Details konzept.md §7).
+- 2026-09-05: Typen-Check nach drei Heften: 85 → 83 Typen, alle „gültig“; vier Etiketten zusammengelegt, eines geteilt (Details konzept.md § 10).
 - 2026-09-05: Heft 2023 erfasst (27 Zeilen, 19 Typen neu, 15 wiederverwendet).
 - 2026-09-05: Heft 2022 erfasst (30 Zeilen, 12 Typen neu, 24 wiederverwendet).
 - 2026-09-05: Heft 2021 erfasst (28 Zeilen, 7 Typen neu, 21 wiederverwendet).
 - 2026-09-05: Heft 2020 erfasst (32 Zeilen, 14 Typen neu, 18 wiederverwendet).
 - 2026-09-05: Heft 2019 erfasst (29 Zeilen, 12 Typen neu (zwei davon nur als typ_neben), 19 wiederverwendet).
-- 2026-09-05: Typen-Check nach Heften 2023–2019: 147 → 141 Typen, alle „gültig“; sechs Zusammenlegungen, fünf Umbenennungen, sechs Definitionen erweitert (Details konzept.md §7).
+- 2026-09-05: Typen-Check nach Heften 2023–2019: 147 → 141 Typen, alle „gültig“; sechs Zusammenlegungen, fünf Umbenennungen, sechs Definitionen erweitert (Details konzept.md § 10).
 - 2026-09-05: Heft 2018 erfasst (32 Zeilen, 14 Typen neu, 19 wiederverwendet).
 - 2026-09-05: Heft 2017 erfasst (31 Zeilen, 10 Typen neu, 21 wiederverwendet).
 - 2026-09-05: Heft 2016 erfasst (34 Zeilen, 8 Typen neu, 24 wiederverwendet).
 - 2026-09-05: Heft 2015 erfasst (31 Zeilen, 13 Typen neu (einer nur als typ_neben), 19 wiederverwendet).
 - 2026-09-05: Heft 2014 erfasst (30 Zeilen, 7 Typen neu, 20 wiederverwendet).
-- 2026-09-05: Typen-Check nach Heften 2018–2014 (Abgleichlauf nach dem letzten OS-Heft): 193 → 185 Typen, alle „gültig“; sechs Zusammenlegungen, zwei Typen aufgelöst, fünf Umbenennungen, sieben Definitionen erweitert, msa-typen.csv sortiert (Details konzept.md §7).
+- 2026-09-05: Typen-Check nach Heften 2018–2014 (Abgleichlauf nach dem letzten OS-Heft): 193 → 185 Typen, alle „gültig“; sechs Zusammenlegungen, zwei Typen aufgelöst, fünf Umbenennungen, sieben Definitionen erweitert, msa-typen.csv sortiert (Details konzept.md § 10).
