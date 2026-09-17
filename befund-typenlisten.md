@@ -25,7 +25,7 @@ fhr-typen.csv (fhr, 135 Typen, 253 Zeilen), abitur-typen.csv (abi und iqb,
 | status | gültig (185) | geprüft (125), neu (10) | neu (1323) |
 | Sortierung | nach Leitidee (Lehrplanreihenfolge), Thema, Typ (Typen-Check 05.09.2026) | Erfassungsreihenfolge (52 Leitideenblöcke) | Erfassungsreihenfolge (174 Blöcke) |
 | Leere Felder | 1 Typ ohne leitidee und thema („Behauptung prüfen", leitideenübergreifend, nur typ_neben) | keine | keine |
-| Pflege | Typen-Check von Hand (konzept.md § 8), kein Skript | fhr-bau.py (NEUE_TYPEN), Abgleichlauf von Hand (fhr.md § 9) | Bau-Skripte (NEUE_TYPEN) und abgleich.py; Präfixregel und Zeilenthema = Typthema skriptgeprüft |
+| Pflege | Typen-Check von Hand (konzept.md § 10), kein Skript | fhr-bau.py (NEUE_TYPEN), Abgleichlauf von Hand (fhr.md § 9) | Bau-Skripte (NEUE_TYPEN) und abgleich.py; Präfixregel und Zeilenthema = Typthema skriptgeprüft |
 | Regel Zeilenthema | Thema der Zeile frei (Kern v0.3) | Punkt-Schwerpunkt bei mehrleistigen Zeilen (fhr.md § 6) | Zeilenthema = Typthema, erzwungen (abitur-vokabular.md § 4) |
 
 ## 2 Abweichungen

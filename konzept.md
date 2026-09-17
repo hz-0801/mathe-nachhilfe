@@ -1,5 +1,5 @@
 # KONZEPT – Arbeitsblätter aus alten Prüfungen
-Stand 12.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
+Stand 17.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
 
 ## 1 Ziel
 
@@ -131,8 +131,178 @@ Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
 5. Blatt-Prompt fertigstellen.
 Jährlich: Vorgabencheck (vorgaben.md), neues Heft erfassen, Typenbibliothek neu ableiten.
 
-## 8 Änderungen
+## 8 Eine neue Prüfung aufnehmen
 
+Reihenfolge für ein neues Profil (Beispiel in namensschema.md § 2:
+Niedersachsen, Abitur, grundlegendes Niveau – Profil abi-ni). Stand
+17.09.2026 (Auftrag D, Teil 4); die Erfahrung dahinter sind die vier Profile
+msa, fhr, abi, iqb und ihre Prüfungslisten.
+
+**Zuerst zu klären, in dieser Reihenfolge** – jede Antwort bestimmt eine
+Kennung oder eine Regel des Profils:
+
+1. **Träger (Land oder Institution).** Wer stellt die Prüfung, wer
+   veröffentlicht Hefte, Lösungen und Vorgaben? Amtliches Länderkürzel als
+   Träger-Baustein (namensschema.md § 2); ein länderübergreifender Pool ist
+   ein Träger ohne Land (iqb). Ein gemeinsames Werk zweier Länder ist ein
+   Profil mit beiden Kürzeln (bebb), auch wenn die Länder verschieden daraus
+   zusammenstellen.
+2. **Schulform.** Hängt der Inhalt von der Schulform ab (P10: Oberschule
+   gegen Gymnasium; Fachoberschule)? Nur dann kommt die Schulform in die
+   Kennung; sonst weggelassen (Entscheidung 18: msa nur Oberschule).
+3. **Niveau.** Kennt die Prüfung Niveaus, und wie trägt das Heft sie – im
+   selben Heft mit Kennzeichnung (msa bis 2025: Sternchen, Feld stern), in
+   getrennten Heften (abi: gk/lk, Feld papier) oder gar nicht (fhr)? Das
+   Niveau-Kürzel ist das des Trägers, nicht vereinheitlicht.
+4. **Zielprüfung(en).** Für welche Prüfung(en) soll der Katalog Material
+   liefern? Je Zielprüfung eine Geltungsdatei aus den amtlichen
+   Schwerpunkten (Themen ja/nein, ausgeschlossene Aufgabenformen,
+   Rechnerfassung; abitur-vokabular.md § 3, Teil 2 des Auftrags D). Gibt es
+   keine Schwerpunkte (P10: „prüfungsrelevant ist der Rahmenlehrplan",
+   vorgaben.md), gibt es keine Geltung – dann gilt die ganze Themenliste.
+5. **Quellenlage.** Liegen die Hefte amtlich vor (Bildungsserver), nur im
+   Verlag (STARK, lokal unter hefte/, nicht im Repo) oder gar nicht?
+   Gibt es einen amtlichen Erwartungshorizont (fhr, iqb: Kern § 3 d
+   „amtliche Lösung vorhanden", ergebnis mit „(amtlich)", afb_amtlich
+   möglich) oder nicht (msa, abi: eigene Rechnung, Schätzung ohne Maßstab)?
+   Das entscheidet die Ergebnisregel, die Eichung (Kern § 5: Kennzahl oder
+   Schranke) und ob eine Quellenliste erzeugt werden muss (iqb-quellen.py).
+6. **Rechnerfassung.** Gibt es Parallelfassungen (WTR/CAS/MMS)? Dann ist die
+   Fassung ohne MMS der Hauptzweig und jede andere ein Delta, das je Niveau
+   an einem Stapel gemessen wird (Entscheidung 27); Kürzel als Suffix
+   (-cas, -mms).
+7. **Aufbau der Hefte.** Teile (Feld block), Aufgabenstamm, Punktangaben
+   je Buchstabe (Zeilenregel Kern § 4), Wahlaufgaben, Punktschlüssel je
+   Jahrgang (abi.md § 11). Daraus folgen KONFIG des Bau-Skripts (soll je
+   Aufgabe) und das id-Muster.
+8. **Leitideen und Themenliste.** Aus Lehrplan, Schwerpunkten und
+   Lehrwerksgliederung (Entscheidung 13). Gleiche Prüfungsart wie ein
+   vorhandenes Profil → dessen Vokabular und Typenliste teilen (§ 9); andere
+   Prüfungsart → eigene Listen, die vorhandenen als Muster (befund-typenlisten.md).
+
+**Welche Dateien entstehen, in dieser Reihenfolge** (Namen nach
+namensschema.md § 2; bis zur Entscheidung über die Umbenennungen dort mit
+den heutigen Kurzkennungen):
+
+1. `<profil>.md` – das Profil: Prüfung, Ablage und Quellen, Aufbau, Kürzel
+   und Werte, Leitideen, Themenliste, Zeile „Zielprüfungen:", Besonderheiten
+   beim Erfassen, Beispielzeilen (nach dem ersten Heft aus dem Katalog),
+   Offenes. Vorlage: iqb.md (mit Erwartungshorizont) oder abi.md (ohne).
+2. `<profil>-quellen.md` – Verzeichnis, Dateinamen, papier-Kürzel,
+   Seitenzahlen, lokaler Heftordner; bei großen Quellen dazu
+   `<profil>-quellen.csv` mit Erzeuger `<profil>-quellen.py`.
+3. `<zielprüfung>-geltung.md` je Zielprüfung (Frage 4); jedes Thema der
+   Liste braucht eine Zeile, die Bau-Skripte prüfen das.
+4. `<profil>-vorgaben.md` – amtliche Vorgaben mit Jahrescheck (Entscheidung
+   19); bei gleicher Prüfungsart in die Familiendatei (abi-vorgaben.md).
+5. `<profil>-bau.py` – aus dem jüngsten Bau-Skript: alles unter „QUELLEN
+   UND PRÜFUNG" übernehmen, Konstanten (KAT, TYP, VOKABULAR, PROFIL,
+   GELTUNG_DATEI, ANDERE_KATALOGE) setzen, profilspezifische Prüfungen
+   (id-Muster, Kürzel, Pflichtfelder) anpassen. Zuerst eine Feldprobe: ein
+   Heft mit probe = True, nichts geschrieben (abi.md § 7, iqb.md § 7).
+6. `<profil>-katalog.csv`, `<familie>-typen.csv` (neu oder geteilt) und
+   `<profil>-pruefungen.md` (Heftliste, Kennzahlen, Befunde, Änderungslog)
+   entstehen mit dem ersten Heft; Selbstprüfung und byteidentischer Rerun
+   aus dem HEAD-Stand vor dem Commit (CLAUDE.md § 3).
+7. Abgleichlauf über `<familie>-abgleich.py` nach dem letzten Heft bzw.
+   nach jedem Stapel (Kern § 9); bei geteilter Liste zieht er alle Kataloge
+   der Familie mit.
+8. Nachführen: CLAUDE.md § 1 (Regelwerk und Arbeitsdateien), konzept.md
+   § 2 (Baustein) und § 4 (Entscheidung mit Grund), README.md.
+
+**Was aus dem Bestand wiederverwendbar ist:**
+
+- Der Kern (katalog-prompt.md) vollständig: Zeilenregel, 37 Felder,
+  Formvokabular, Markierungen, Prüfung, Abgleichlauf. Er ist
+  prüfungsunabhängig; ein Profil darf ihm widersprechen, ändert ihn aber
+  nicht.
+- Die Typenliste weitgehend, wenn die Prüfungsart dieselbe ist: ein neues
+  Abiturprofil teilt abitur-typen.csv und abitur-vokabular.md (Entscheidung
+  25; die Bildungsstandards sind dieselben, Länderunterschiede liegen in der
+  Geltung, nicht in den Typen). Bei anderer Prüfungsart eigene Liste, aber
+  die vorhandenen als Muster für Namen und Definitionen: 16 von 26
+  Fertigkeiten, die in zwei der drei heutigen Listen vorkommen, sind gleich
+  geschnitten (befund-typenlisten.md § 4).
+- Die Bau-Skripte im Kern (Laden, Schreiben, Zeilenprüfung, Typenprüfung,
+  Selbstprüfung, Kennzahlen), die Regeln der Selbstprüfung und des Reruns,
+  die Struktur der Prüfungslisten (§ 2 Liste, § 4 Befunde, § 5 Log).
+- Der Themenkatalog (§ 3), weil er prüfungsartübergreifend ist.
+- Die Werkzeuge außerhalb des Repos (repo-bestand.md § 3) als Muster; sie
+  werden je Sitzung neu geschrieben.
+- **Gar nicht: die Geltung.** Sie hängt am Träger und am Niveau; auch bei
+  gleicher Prüfungsart und gleicher Themenliste sind die ja/nein-Werte neu
+  aus den Schwerpunkten des Trägers zu lesen. Ebenso wenig: Vorgaben
+  (landeseigen), Quellenverzeichnis, Prüfungsstruktur und Bewertungsschlüssel
+  (abi.md § 11), Kürzel und id-Muster.
+
+**Woran man merkt, dass ein neues Profil nötig ist** statt eines neuen
+Jahrgangs im vorhandenen:
+
+- Anderer Träger bei gleicher Prüfungsart (Niedersachsen neben
+  Berlin/Brandenburg): eigene Zielprüfungen, eigene Quellen, eigenes
+  Kürzel im papier – Profil.
+- Andere Prüfungsart oder andere Schulform mit anderem Inhalt (P10 Gymnasium
+  neben Oberschule): eigene Themenliste – Profil.
+- Andere Quellenlage mit anderer Ergebnisregel (amtlicher
+  Erwartungshorizont vorhanden oder nicht): andere Regeln für ergebnis,
+  afb_amtlich, Eichung – Profil. Das war der Grund für das Profil iqb neben
+  abi (Entscheidung 23): länderneutral, mit Erwartungshorizont, eigenes
+  Kennungsmuster.
+- Dagegen bleibt es ein Jahrgang im vorhandenen Profil, wenn nur der Aufbau
+  wechselt (Corona-Aufbau 2021–2023, Bewertungsschlüssel 2024/2025,
+  Strukturbruch 2018/2019: alles in abi über papier, KONFIG und abi.md
+  § 11), wenn das Land-Kürzel im selben Aufgabenwerk wechselt (bebb →
+  bb/be 2026) oder wenn eine Rechnerfassung hinzukommt (Suffix, Delta).
+- Probe: Braucht die neue Sache eine eigene Geltungsdatei, ein eigenes
+  id-Muster oder eine andere Ergebnisregel? Dann Profil. Braucht sie nur
+  neue Zeilen in der Heftliste und ein neues soll in KONFIG? Dann
+  Jahrgang.
+
+## 9 Andere Zielprüfung bei gleichem Bestand
+
+Fall: der Schüler zieht in ein anderes Bundesland oder wechselt den
+Schultyp, die Prüfungsart bleibt (Abitur). Der Bestand – Kataloge,
+Typenliste, Vokabular – ist eine Sammlung von Fakten über Hefte und
+Poolaufgaben und ändert sich dadurch nicht. Was sich ändert, ist die
+Geltung.
+
+1. **Typenkatalog bleibt.** abi-katalog.csv, iqb-katalog.csv,
+   abitur-typen.csv, abitur-vokabular.md § 1, § 2, § 4 unverändert; kein
+   Abgleichlauf nötig.
+2. **Geltungsdateien neu anlegen:** je neuer Zielprüfung eine
+   `<zielprüfung>-geltung.md` (etwa abi-ni-ga-geltung.md) aus den
+   Schwerpunkten des neuen Trägers – § 1 Themen ja/nein für jedes Thema der
+   Liste, § 2 ausgeschlossene Aufgabenformen, § 3 Rechnerfassung. Nennen die
+   Schwerpunkte ein Thema, das die Liste nicht hat, kommt es nach
+   abitur-vokabular.md § 2 und bekommt in jeder Geltungsdatei aller
+   Zielprüfungen eine Zeile (die Bau-Skripte verlangen Vollständigkeit);
+   die alten Dateien tragen dort „nein".
+3. **Profile verweisen auf die neuen Dateien:** die Zeile „Zielprüfungen:"
+   in abi.md § 6 und iqb.md § 6 nennt die neuen Zielprüfungen – zusätzlich
+   oder statt der alten. Die Bau-Skripte lesen die Zeile; die Kennzahl
+   „außerhalb der Geltung" und das Abbruchkriterium (neue Schnittwerte
+   innerhalb der Geltung, iqb.md § 6) rechnen dann gegen die neue Geltung.
+   Reserve-Stapel, die für die alte Geltung ausgereizt waren, können für
+   die neue wieder Neues liefern – die Reihe ist gegen die neue Zielprüfung
+   nachzurechnen, bevor die Reserve geschlossen bleibt.
+4. **Der Blattbau filtert nach der neuen Geltung** (Thema nach § 1,
+   Zeile nach § 2); die Eichung ist unberührt, sie hängt am Pool.
+5. **Was neu erfasst werden muss:** die Landeshefte des neuen Trägers, wenn
+   sie als Formatmodell und Typenquelle gebraucht werden – das ist ein neues
+   Profil nach § 8 (abi-ni), das die Typenliste teilt; der Pool (iqb) gilt
+   für jedes Land. Die alten Landeshefte (abi) bleiben Typenquelle, sind
+   aber kein Formatmodell der neuen Prüfung mehr.
+6. **Was nicht mitzieht:** Prüfungsstruktur und Bewertungsschlüssel (abi.md
+   § 11), Vorgaben (abi-vorgaben.md), Quellenverzeichnis – alles
+   trägergebunden; die alten Geltungsdateien bleiben liegen, solange die
+   alte Zielprüfung noch gebraucht wird, sonst werden sie aus der Zeile
+   „Zielprüfungen:" gestrichen und können gelöscht werden.
+
+## 10 Änderungen
+
+- 2026-09-17 (Auftrag D, Teil 4): § 8 Eine neue Prüfung aufnehmen (Fragen,
+  Dateien in Reihenfolge, Wiederverwendbares, Profil oder Jahrgang) und § 9
+  Andere Zielprüfung bei gleichem Bestand; Änderungen sind jetzt § 10.
 - 2026-09-15: Entscheidung 25 – gemeinsame Typenliste abitur-typen.csv und
   gemeinsames Vokabular abitur-vokabular.md für abi und iqb, abgleich.py über
   beide Kataloge, Umstellungslauf 12 (938 → 875 Typen). §2 Bausteine ergänzt.
