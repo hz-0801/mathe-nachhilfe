@@ -1,5 +1,6 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.24 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Version 0.25 · 17.09.2026 · Kennung abi · gilt mit Kern v0.8 (Schema-Version 2)
+Änderungen gegenüber 0.24 (Auftrag E, Punkt 1): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand (16 Hefte), § 3 Formatwechsel statt „Zwei Formate", § 4 afb_amtlich mit Geschichte am Ende, § 6 Lücken und belegte Themen, § 7 Umfang, Typenliste, CAS-Nachtrag als Regel (Berlin offen), § 8 Beispielzeilen aus dem Katalog erzeugt, § 9 beantwortete Punkte als solche; Feldprobe in § 6 eingeführt.
 Änderungen gegenüber 0.23 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – der Reserve-Stapel wird im selben Auftrag erfasst,
 der Abgleichlauf stellt die Vormerkung um.
@@ -117,7 +118,7 @@ Bestand 2017/2018 bildet eine Kooperation ab, die für den Prüfungsjahrgang 202
 nicht mehr besteht. Er bleibt Typenquelle, ist aber kein Beleg dafür, dass beide
 Länder dasselbe schreiben.
 
-Bestand: Die Hefte laut abi-quellen.md § 2, zunächst 2017 und 2018.
+Bestand: 16 Hefte 2017–2026, 794 Zeilen (abi-pruefungen.md § 2, Stand 17.09.2026): die amtlichen Hefte 2017/2018 (abi-quellen.md § 2) und die Verlagsbände 2019–2026 unter hefte/ (abi-quellen.md § 8).
 Sagt der Lehrer Abi, Abitur, GK oder LK, ist dieses Profil gemeint.
 
 ## 2 Ablage und Quellen
@@ -164,9 +165,11 @@ Sie gehören nach abi-vorgaben.md und werden jährlich geprüft.
 
 ## 3 Aufbau der Hefte
 
-**Zwei Formate.** Die erfassten Hefte 2017/2018 und die heutige Prüfung sind
-verschieden gebaut. Der Katalog nimmt 2017/2018 als Typenquelle; die Blattstruktur
-richtet sich nach dem heutigen Format.
+**Formatwechsel 2018/2019.** Die Hefte bis 2018 und die Prüfung ab 2019 sind
+verschieden gebaut (Strukturbruch, § 11); dazu kommen die Sonderaufbauten
+2021–2023 und die Schlüsselwechsel 2024/2025 (§ 11). Alle erfassten Hefte sind
+Typenquelle; die Blattstruktur richtet sich nach dem heutigen Format (§ 11,
+Zuordnung für „Prüfung simulieren").
 
 **Format bis 2018 (papier be-gk, be-lk, bb-ea).** Drei Aufgabenstellungen, je eine
 von zwei Aufgaben zur Wahl: 1 Analysis, 2 Analytische Geometrie, 3 Stochastik.
@@ -269,22 +272,21 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             Anforderungsbereiche aus, und die zugehörigen Erwartungshorizonte
             sind nicht veröffentlicht. Eine Schätzung gehört nicht in dieses
             Feld; sie steht in niveau_geschaetzt, dort ohne Maßstab (Kern
-            § 5 v0.7: afb_amtlich leer heißt Schätzung ohne Maßstab). Gefüllt
+            § 5: afb_amtlich leer heißt Schätzung ohne Maßstab). Gefüllt
             wird genau bei Dubletten („Dublette von:", § 7), aus der
-            Poolzeile, in allen Jahrgängen (bis 2018 seit Lauf 22, 17.09.2026;
-            vorher blieb das Feld dort leer und der Bereich stand nur in
-            bemerkung) – Teil A der Bereichswert der Poolzeile, Teil B die
-            AB-Spalte, die zusätzlich als „AB amtlich: X." in bemerkung
-            steht; abi-bau.py v0.9 prüft „gefüllt genau bei Dublette". Die
-            Poolaufgaben des IQB werden im Profil iqb erfasst: deren
-            Abschnitt „Standardbezug" ist eine Matrix Teilaufgabe × K1–K6, in
-            den Zellen stehen I, II oder III (Sondierung 13.09.2026). Eine
-            Teilaufgabe trägt also bis zu sechs Bereiche, nicht einen; die
-            frühere Beschreibung „eine angekreuzte Spalte je
-            Anforderungsbereich" war falsch. Schreibweise: alle vorkommenden
+            Poolzeile, in allen Jahrgängen – Teil A der Bereichswert der
+            Poolzeile, Teil B die AB-Spalte, die zusätzlich als „AB amtlich:
+            X." in bemerkung steht; abi-bau.py prüft „gefüllt genau bei
+            Dublette". Schreibweise wie im Profil iqb: alle vorkommenden
             Werte I, II, III, aufsteigend, ohne Wiederholung, mit „|" getrennt
-            (I|II). Die Matrix mit der Zuordnung zu K1–K6 kommt wörtlich nach
-            bemerkung, nicht ins Feld. Einzelheiten in iqb.md § 4.
+            (I|II); der Standardbezug des Pools ist eine Matrix Teilaufgabe ×
+            K1–K6, eine Teilaufgabe trägt bis zu sechs Bereiche, die
+            Matrixzeile steht wörtlich in bemerkung, nicht im Feld (iqb.md
+            § 4). Geschichte: bis Abgleichlauf 22 (17.09.2026) blieb das Feld
+            in den Heften bis 2018 leer, der Bereich stand nur in bemerkung;
+            eine frühere Fassung dieses Profils beschrieb den Standardbezug
+            als „eine angekreuzte Spalte je Anforderungsbereich" – das war
+            falsch.
     seite:  Seite im PDF. Die Brandenburger Dateien sind Zusammenschnitte mit
             eigener Seitenzählung je Teil; die gedruckte Angabe weicht ab.
             Liegt die zugehörige Abbildung in einer Anlage auf einer anderen
@@ -339,14 +341,17 @@ Thema in mindestens einer dieser Zielprüfungen gilt; abi-bau.py (v0.7) nennt in
 Kennzahlenzeile die Zahl außerhalb der Heftgeltung, bei bebb dazu beide
 Spalten einzeln, und weiterhin alle vier Zielprüfungen.
 
-**Bekannte Lücken** (Feldprobe 2018-bb-ea und die Hefte 2017/2018): relative
-Abweichung in Prozent, elementargeometrische Nebenrechnungen (Sechseck),
-Maßstab, Geschwindigkeit umrechnen, Zeichnen ins vorgegebene
+**Bekannte Lücken** (aus den Heften 2017/2018, beginnend mit der Feldprobe –
+den ersten Zeilen an 2018-bb-ea vor der vollständigen Erfassung, 12.09.2026):
+relative Abweichung in Prozent, elementargeometrische Nebenrechnungen
+(Sechseck), Maßstab, Geschwindigkeit umrechnen, Zeichnen ins vorgegebene
 Koordinatensystem, Punkt in vorgegebener Entfernung auf einer Geraden – im
 Pool haben diese Fertigkeiten ein Thema gefunden (abitur-vokabular.md § 2,
 letzte Anmerkung); die betroffenen Zeilen behalten ihr Thema, „ersatzweise"
-in bemerkung bleibt als Vermerk. Stand nach 2018-be-gk: 33 der 46 damaligen
-Themen belegt.
+in bemerkung bleibt als Vermerk. Stand 17.09.2026: 44 der 48 Themen sind im
+abi-Bestand belegt; unbelegt sind Konfidenzintervalle, Lage- und Streumaße
+einer Stichprobe, Lineare Gleichungssysteme und Matrizen und
+Übergangsprozesse (alle vier im Pool belegt).
 
 ## 7 Besonderheiten beim Erfassen
 
@@ -446,10 +451,17 @@ Themen belegt.
   Kopplung wie in bb-ea gibt es nicht. Die Typenliste trägt über die
   Niveaugrenze, aber ungleichmäßig: 16 der 50 Typen von 2018-be-gk waren
   bekannt, in der Stochastik 7 von 14, in der Analysis nur 4 von 20.
-- **CAS als Nachtrag**, und nur für Aufgaben mit „CAS:"-Präfix. Der Eingriff ist
-  punktuell und sitzt in `gegeben`, `gesucht`, `punkte` und teils `verfahren`;
-  typisch wird ein im WTR-Heft vorgegebener Kontrollwert in der CAS-Fassung selbst
-  bestimmt.
+- **CAS-Hefte 2017/2018** (abi-quellen.md § 2) sind zurückgestellt: Nachtrag
+  nach den WTR-Heften, wenn der Lehrer ihn beauftragt (abi-pruefungen.md § 2).
+  Regel für den Nachtrag: papier mit Zusatz -cas (§ 4); eine eigene Zeile
+  bekommt nur eine Teilaufgabe, die von der WTR-Fassung abweicht – in den
+  Brandenburger CAS-Heften kenntlich am Präfix „CAS:" im Aufgabentitel (§ 3);
+  unveränderte Aufgaben stehen schon aus dem WTR-Heft im Katalog und bekommen
+  keine zweite Zeile. Der Eingriff ist punktuell und sitzt in `gegeben`,
+  `gesucht`, `punkte` und teils `verfahren`; typisch wird ein im WTR-Heft
+  vorgegebener Kontrollwert in der CAS-Fassung selbst bestimmt (CAS-Delta,
+  abi-pruefungen.md § 4). Für die Berliner CAS-Hefte, die durchgehend eigene
+  Fassungen ohne Präfix sind, ist die Abgrenzung nicht entschieden (§ 9).
 - **Wahl ist keine Eigenschaft der Teilaufgabe.** Dass 2.1 und 2.2 zur Wahl stehen
   und dass 3.x und 4.x in bb-ea gekoppelt sind, steht in diesem Profil und in
   abi-pruefungen.md, nicht im Katalog.
@@ -458,9 +470,10 @@ Themen belegt.
   in 2.1 ist `abhaengig_von` in 6 von 11 Zeilen belegt, in 2.2 in keiner von 8, im
   ganzen Heft in 8 von 41. Kontrollangaben in eckigen Klammern („Zur Kontrolle: …") gehören nach
   `gegeben` der folgenden Teilaufgabe.
-- **Umfang.** Eine Analysisaufgabe hat bis zu zehn Teilaufgaben und 50 BE. Ob
-  `verfahren` und `schritte` diesen Umfang tragen, ist in der Feldprobe zu prüfen,
-  bevor ein ganzes Heft erfasst wird.
+- **Umfang.** Eine Analysisaufgabe hat bis zu zehn Teilaufgaben und 50 BE.
+  `verfahren` (ein bis zwei Sätze je Zeile) trägt das; `schritte` wird gefüllt,
+  aber nicht ausgewertet (unten). Geprüft in der Feldprobe an 2018-bb-ea und
+  in 16 Heften bestätigt.
 - **Mehrere Leistungen je Einheit sind der Normalfall.** Kern § 4 hält sie in
   einer Zeile: typ trägt die erste Leistung, typ_neben die weiteren. In der
   Feldprobe entfielen zehn von 21 Typen allein auf typ_neben. Das Feld thema ist
@@ -469,8 +482,8 @@ Themen belegt.
   typ_neben sichtbar. In 2018-bb-ea entfielen 22 von 60 Typen allein auf `typ_neben`,
   fast alle in den Analysis-Kontextaufgaben; Geometrie und Stochastik haben meist
   eine Leistung je Teilaufgabe. Folge für die Heft-Phase: ein Typ, der nur als
-  Nebenleistung vorkommt, hat keine Ankeraufgabe, die als Decke taugt. Entschieden:
-  `typen.csv` markiert das nicht. Ob ein Typ je als Haupttyp auftritt, ist aus dem
+  Nebenleistung vorkommt, hat keine Ankeraufgabe, die als Decke taugt. Entschieden
+  (Feldprobe, 12.09.2026): die Typenliste markiert das nicht. Ob ein Typ je als Haupttyp auftritt, ist aus dem
   Katalog jederzeit berechenbar; ein eigenes Feld wäre dieselbe Information ein
   zweites Mal, veraltet mit dem ersten Heft, das den Typ als Haupttyp verwendet, und
   müsste über msa und fhr mitgepflegt werden. Stattdessen wird beim Bau die
@@ -493,98 +506,41 @@ Themen belegt.
 
 ## 8 Beispielzeilen
 
-Drei Zeilen aus der Feldprobe an 2018-bb-ea, zur Lesbarkeit als Feld = Wert; in
-abi-katalog.csv stehen dieselben Werte als eine Zeile in der Reihenfolge der
-Kopfzeile. Gewählt sind eine Zeile aus dem hilfsmittelfreien Teil und zwei aus
-der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
+Drei Zeilen aus dem Heft 2018-bb-ea (die ersten Zeilen der Feldprobe vom
+12.09.2026), im Stand des Katalogs vom 17.09.2026, zur Lesbarkeit als Feld =
+Wert; in abi-katalog.csv stehen dieselben Werte als eine Zeile in der
+Reihenfolge der Kopfzeile. Gewählt sind eine Zeile aus dem hilfsmittelfreien
+Teil – eine Pool-Teilaufgabe mit Verweis „Dublette von:" und afb_amtlich aus
+der Poolzeile – und zwei aus der Analysisaufgabe, darunter die mit der zu
+erstellenden Skizze. Dieser Abschnitt wird aus dem Katalog erzeugt und weicht
+deshalb nicht von ihm ab.
 
-    id = 2018-bb-ea-A1.2b · jahr = 2018 · papier = 2018-bb-ea · block = A · aufgabe = 1.2 ·
-      titel = Analytische Geometrie · teilaufgabe = b · seite = 2
-    punkte = 3 · stern =  · hilfsmittel = nein · afb_amtlich =
-    leitidee = Analytische Geometrie · thema = Orthogonalität · typ = Eckpunkt eines Quadrates
-      nachweisen · typ_neben = Durchstoßpunkt einer Geraden durch eine Ebene bestimmen|
-      Streckenlänge im Raum berechnen · stichwoerter =
-      Quadrat|Diagonalenschnittpunkt|Halbdiagonalen|Skalarprodukt · voraussetzungen =
-      Vektorlänge berechnen|Skalarprodukt bilden|Eigenschaften der Quadratdiagonalen kennen
+    id = 2018-bb-ea-A1.2b · jahr = 2018 · papier = 2018-bb-ea · block = A · aufgabe = 1.2 · titel = Analytische Geometrie · teilaufgabe = b · seite = 2
+    punkte = 3 · stern =  · hilfsmittel = nein · afb_amtlich = II|III
+    leitidee = Analytische Geometrie · thema = Punkte und Strecken im Koordinatensystem · typ = Ebene Figur: Benachbarte Ecke eines Quadrats über den Diagonalenschnittpunkt als Spurpunkt nachweisen · typ_neben = Schnittpunkt von Gerade und Ebene berechnen|Streckenlänge im Raum berechnen · stichwoerter = Quadrat|Diagonalenschnittpunkt|Halbdiagonalen|Skalarprodukt · voraussetzungen = Vektorlänge berechnen|Skalarprodukt bilden|Eigenschaften der Quadratdiagonalen kennen
     format = Begründung · operator = Zeigen Sie · antwort = Text
     material = keins · skizze = keine · kontext = ohne · textumfang = kurz
-    gegeben = Quadrat mit Eckpunkt P(0 | 1 | 5) in der y-z-Ebene; die Gerade g mit x = (5 | 4 |
-      1) + t · (1 | 0 | 0) verläuft orthogonal zur Trägerebene. Der Schnittpunkt der beiden
-      Diagonalen des Quadrates liegt auf g. Der Punkt Q(0 | 8 | 4) liegt in der y-z-Ebene. ·
-      gesucht = Nachweis, dass Q einer der beiden zu P benachbarten Eckpunkte des Quadrates ist
-      · verfahren = Diagonalenschnittpunkt M als Schnittpunkt von g mit der y-z-Ebene bestimmen
-      (x-Koordinate 0 setzen). Dann die Halbdiagonalen MP und MQ vergleichen: gleiche Länge
-      zeigt, dass Q Eckpunkt ist, Skalarprodukt 0 zeigt, dass Q nicht der zu P
-      gegenüberliegende, sondern ein benachbarter Eckpunkt ist. · schritte = 4 · zahlenraum =
-      ganz · einheiten =  · abhaengig_von = 2018-bb-ea-A1.2a
-    ergebnis = M(0 | 4 | 1). Mit MP = (0 | −3 | 4) und MQ = (0 | 4 | 3) ist |MP| = |MQ| = 5 und
-      MP · MQ = −12 + 12 = 0. Im Quadrat sind die vier Halbdiagonalen gleich lang und die
-      Diagonalen orthogonal, also ist Q ein zu P benachbarter Eckpunkt. · zwischenergebnis = M(0
-      | 4 | 1)|MP = (0 | −3 | 4)|MQ = (0 | 4 | 3)|Seitenlänge |PQ| = 5·√2
-    niveau_geschaetzt = II · fehlerquelle = gleiche Länge der Halbdiagonalen allein als Nachweis
-      nehmen und den gegenüberliegenden Eckpunkt nicht ausschließen · bemerkung = BE aus der
-      gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Geometrie, b) 3 BE). Eigene Rechnung.
+    gegeben = Quadrat mit Eckpunkt P(0 | 1 | 5) in der y-z-Ebene; die Gerade g mit x = (5 | 4 | 1) + t · (1 | 0 | 0) verläuft orthogonal zur Trägerebene. Der Schnittpunkt der beiden Diagonalen des Quadrates liegt auf g. Der Punkt Q(0 | 8 | 4) liegt in der y-z-Ebene. · gesucht = Nachweis, dass Q einer der beiden zu P benachbarten Eckpunkte des Quadrates ist · verfahren = Diagonalenschnittpunkt M als Schnittpunkt von g mit der y-z-Ebene bestimmen (x-Koordinate 0 setzen). Dann die Halbdiagonalen MP und MQ vergleichen: gleiche Länge zeigt, dass Q Eckpunkt ist, Skalarprodukt 0 zeigt, dass Q nicht der zu P gegenüberliegende, sondern ein benachbarter Eckpunkt ist. · schritte = 4 · zahlenraum = ganz · einheiten =  · abhaengig_von = 2018-bb-ea-A1.2a
+    ergebnis = M(0 | 4 | 1). Mit MP = (0 | −3 | 4) und MQ = (0 | 4 | 3) ist |MP| = |MQ| = 5 und MP · MQ = −12 + 12 = 0. Im Quadrat sind die vier Halbdiagonalen gleich lang und die Diagonalen orthogonal, also ist Q ein zu P benachbarter Eckpunkt. · zwischenergebnis = M(0 | 4 | 1)|MP = (0 | −3 | 4)|MQ = (0 | 4 | 3)|Seitenlänge |PQ| = 5·√2
+    niveau_geschaetzt = III · fehlerquelle = gleiche Länge der Halbdiagonalen allein als Nachweis nehmen und den gegenüberliegenden Eckpunkt nicht ausschließen · bemerkung = Dublette von: 2018MerhoehtAAGLAA22-b. BE aus der gesammelten Tabelle am Ende von Teil 1 (Teilgebiet Geometrie, b) 3 BE). Eigene Rechnung. Schätzung nach dem amtlichen Bereich der Poolzeile nachgezogen (Lauf 20, Vorrang des Amtlichen, Kern § 5): III statt II.
 
-    id = 2018-bb-ea-B2.1a · jahr = 2018 · papier = 2018-bb-ea · block = B · aufgabe = 2.1 ·
-      titel = Vase · teilaufgabe = a · seite = 5
-    punkte = 8 · stern =  · hilfsmittel = ja · afb_amtlich =
-    leitidee = Analysis · thema = Funktionsscharen und Ortskurven · typ = Nullstellen einer
-      Funktionenschar mit Fallunterscheidung ermitteln · typ_neben = Grenzverhalten einer
-      Exponentialfunktion untersuchen · stichwoerter =
-      Funktionenschar|Nullstellen|Fallunterscheidung|Grenzwert · voraussetzungen = Satz vom
-      Nullprodukt|quadratische Gleichung lösen|Vorzeichen der Exponentialfunktion kennen
-    format = Rechnung|Begründung · operator = Ermitteln Sie|Untersuchen Sie · antwort =
-      Term|Text
+    id = 2018-bb-ea-B2.1a · jahr = 2018 · papier = 2018-bb-ea · block = B · aufgabe = 2.1 · titel = Vase · teilaufgabe = a · seite = 5
+    punkte = 8 · stern =  · hilfsmittel = ja · afb_amtlich = 
+    leitidee = Analysis · thema = Funktionsscharen und Ortskurven · typ = Nullstellen einer Funktionenschar mit Fallunterscheidung ermitteln · typ_neben = Nullstelle und Grenzverhalten eines Produkts aus Polynom und e-Funktion angeben · stichwoerter = Funktionenschar|Nullstellen|Fallunterscheidung|Grenzwert · voraussetzungen = Satz vom Nullprodukt|quadratische Gleichung lösen|Vorzeichen der Exponentialfunktion kennen
+    format = Rechnung|Begründung · operator = Ermitteln Sie|Untersuchen Sie · antwort = Term|Text
     material = keins · skizze = keine · kontext = ohne · textumfang = kurz
-    gegeben = Funktionenschar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR; die Graphen der
-      Schar sind G_a. · gesucht = Anzahl der Nullstellen von f_a in Abhängigkeit von a;
-      Verhalten der Funktionswerte für x → ∞ und für x → −∞ · verfahren = Der Faktor e^(0,5 − x)
-      ist stets positiv, also nur x² + a = 0 lösen: x² = −a mit Fallunterscheidung a < 0, a = 0,
-      a > 0. Für x → ∞ dominiert der fallende Exponentialfaktor, für x → −∞ wachsen beide
-      Faktoren unbeschränkt. · schritte = 5 · zahlenraum = ganz|Wurzel|Potenz · einheiten =  ·
-      abhaengig_von =
-    ergebnis = a < 0: zwei Nullstellen x = ±√(−a); a = 0: eine Nullstelle x = 0; a > 0: keine
-      Nullstelle. Für x → ∞ gilt f_a(x) → 0, für x → −∞ gilt f_a(x) → +∞. · zwischenergebnis =
-    niveau_geschaetzt = II · fehlerquelle = den Exponentialfaktor als möglichen Nullfaktor
-      behandeln oder die Fallunterscheidung auf a < 0 und a > 0 verkürzen · bemerkung = Zwei
-      Themen in einer Einheit: Nullstellen der Schar und Grenzverhalten. Das Feld thema ist
-      einwertig, das zweite Thema (Grenzwerte und Verhalten im Unendlichen) erscheint nur über
-      typ_neben. Eigene Rechnung.
+    gegeben = Funktionenschar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR; die Graphen der Schar sind G_a. · gesucht = Anzahl der Nullstellen von f_a in Abhängigkeit von a; Verhalten der Funktionswerte für x → ∞ und für x → −∞ · verfahren = Der Faktor e^(0,5 − x) ist stets positiv, also nur x² + a = 0 lösen: x² = −a mit Fallunterscheidung a < 0, a = 0, a > 0. Für x → ∞ dominiert der fallende Exponentialfaktor, für x → −∞ wachsen beide Faktoren unbeschränkt. · schritte = 5 · zahlenraum = ganz|Wurzel|Potenz · einheiten =  · abhaengig_von = 
+    ergebnis = a < 0: zwei Nullstellen x = ±√(−a); a = 0: eine Nullstelle x = 0; a > 0: keine Nullstelle. Für x → ∞ gilt f_a(x) → 0, für x → −∞ gilt f_a(x) → +∞. · zwischenergebnis = 
+    niveau_geschaetzt = II · fehlerquelle = den Exponentialfaktor als möglichen Nullfaktor behandeln oder die Fallunterscheidung auf a < 0 und a > 0 verkürzen · bemerkung = Zwei Themen in einer Einheit: Nullstellen der Schar und Grenzverhalten. Das Feld thema ist einwertig, das zweite Thema (Grenzwerte und Verhalten im Unendlichen) erscheint nur über typ_neben. Eigene Rechnung.
 
-    id = 2018-bb-ea-B2.1i · jahr = 2018 · papier = 2018-bb-ea · block = B · aufgabe = 2.1 ·
-      titel = Vase · teilaufgabe = i · seite = 6
-    punkte = 7 · stern =  · hilfsmittel = ja · afb_amtlich =
-    leitidee = Analysis · thema = Rotationsvolumen · typ = Umbeschriebenes Prisma zu einem
-      Rotationskörper bestimmen · typ_neben = Flächeninhalt eines regelmäßigen Sechsecks aus dem
-      Inkreisradius berechnen|Sachzusammenhang durch Skizze und Gleichung darstellen ·
-      stichwoerter = regelmäßiges Sechseck|Inkreisradius|Prisma|Mindestvolumen · voraussetzungen
-      = regelmäßiges Sechseck in Dreiecke zerlegen|Inkreisradius und Seitenlänge
-      umrechnen|Einheiten dm³ in cm³ umrechnen
-    format = Zeichnen|Rechnung · operator = Stellen Sie dar|Ermitteln Sie · antwort =
-      Grafik|Zahl
-    material = keins · skizze = Im Heft ist keine Abbildung vorgegeben; die Skizze ist Teil der
-      Lösung. Gefordert ist eine Draufsicht auf das regelmäßige Sechseck der Grundfläche mit
-      eingezeichnetem Inkreis vom Radius r (maximaler Vasenradius), dem Inkreisradius als
-      Abstand vom Mittelpunkt zur Seitenmitte und der Seitenlänge s. · kontext = Verpackung /
-      Vase · textumfang = mittel
-    gegeben = Die Vase hat die Länge 3 dm und einen maximalen Radius von ca. 1,07 dm. Sie soll
-      stehend in einem Karton verpackt werden, der die Form eines regelmäßigen sechsseitigen
-      Prismas besitzt. · gesucht = Zusammenhang zwischen dem maximalen Radius der Vase und der
-      Grundfläche des Kartons als Skizze und Gleichung; Mindestvolumen des Kartons in cm³ ·
-      verfahren = Der maximale Radius ist der Inkreisradius r des regelmäßigen Sechsecks. Aus s
-      = 2r / √3 folgt für die Grundfläche A = 6 · (s · r / 2) = 2√3 · r². Die Prismenhöhe ist
-      die Vasenlänge 3 dm, also V = 2√3 · r² · 3; Ergebnis in cm³ umrechnen. · schritte = 5 ·
-      zahlenraum = dezimal|Wurzel · einheiten = dm|cm³ · abhaengig_von = 2018-bb-ea-B2.1g
-    ergebnis = A = 2√3 · r² ≈ 3,98 dm² und V = 6√3 · r² ≈ 11,9 dm³, also muss der Karton
-      mindestens etwa 11 900 cm³ Volumen haben. · zwischenergebnis = s = 2r / √3 ≈ 1,237 dm|A ≈
-      3,98 dm²|V ≈ 11,94 dm³
-    niveau_geschaetzt = III · fehlerquelle = den Umkreisradius statt des Inkreisradius mit dem
-      Vasenradius gleichsetzen, oder dm³ nicht in cm³ umrechnen · bemerkung = Mit r = 0,65 · √e
-      ≈ 1,0717 dm ergibt sich V ≈ 11 935 cm³, mit dem gerundeten r = 1,07 dm ≈ 11 898 cm³;
-      beides rundet auf 11 900 cm³. Das Feld skizze beschreibt hier eine vom Prüfling zu
-      erstellende Skizze, nicht vorhandenes Aufgabenmaterial. Die Teilaufgabe ist
-      elementargeometrisch; die Themenliste Analysis führt dafür kein passendes Thema,
-      ersatzweise Rotationsvolumen. Eigene Rechnung.
+    id = 2018-bb-ea-B2.1i · jahr = 2018 · papier = 2018-bb-ea · block = B · aufgabe = 2.1 · titel = Vase · teilaufgabe = i · seite = 6
+    punkte = 7 · stern =  · hilfsmittel = ja · afb_amtlich = 
+    leitidee = Analysis · thema = Rotationsvolumen · typ = Umbeschriebenes Prisma zu einem Rotationskörper bestimmen · typ_neben = Flächeninhalt eines regelmäßigen Sechsecks aus dem Inkreisradius berechnen|Sachzusammenhang durch Skizze und Gleichung darstellen · stichwoerter = regelmäßiges Sechseck|Inkreisradius|Prisma|Mindestvolumen · voraussetzungen = regelmäßiges Sechseck in Dreiecke zerlegen|Inkreisradius und Seitenlänge umrechnen|Einheiten dm³ in cm³ umrechnen
+    format = Zeichnen|Rechnung · operator = Stellen Sie dar|Ermitteln Sie · antwort = Grafik|Zahl
+    material = keins · skizze = Im Heft ist keine Abbildung vorgegeben; die Skizze ist Teil der Lösung. Gefordert ist eine Draufsicht auf das regelmäßige Sechseck der Grundfläche mit eingezeichnetem Inkreis vom Radius r (maximaler Vasenradius), dem Inkreisradius als Abstand vom Mittelpunkt zur Seitenmitte und der Seitenlänge s. · kontext = Verpackung / Vase · textumfang = mittel
+    gegeben = Die Vase hat die Länge 3 dm und einen maximalen Radius von ca. 1,07 dm. Sie soll stehend in einem Karton verpackt werden, der die Form eines regelmäßigen sechsseitigen Prismas besitzt. · gesucht = Zusammenhang zwischen dem maximalen Radius der Vase und der Grundfläche des Kartons als Skizze und Gleichung; Mindestvolumen des Kartons in cm³ · verfahren = Der maximale Radius ist der Inkreisradius r des regelmäßigen Sechsecks. Aus s = 2r / √3 folgt für die Grundfläche A = 6 · (s · r / 2) = 2√3 · r². Die Prismenhöhe ist die Vasenlänge 3 dm, also V = 2√3 · r² · 3; Ergebnis in cm³ umrechnen. · schritte = 5 · zahlenraum = dezimal|Wurzel · einheiten = dm|cm³ · abhaengig_von = 2018-bb-ea-B2.1g
+    ergebnis = A = 2√3 · r² ≈ 3,98 dm² und V = 6√3 · r² ≈ 11,9 dm³, also muss der Karton mindestens etwa 11 900 cm³ Volumen haben. · zwischenergebnis = s = 2r / √3 ≈ 1,237 dm|A ≈ 3,98 dm²|V ≈ 11,94 dm³
+    niveau_geschaetzt = III · fehlerquelle = den Umkreisradius statt des Inkreisradius mit dem Vasenradius gleichsetzen, oder dm³ nicht in cm³ umrechnen · bemerkung = Mit r = 0,65 · √e ≈ 1,0717 dm ergibt sich V ≈ 11 935 cm³, mit dem gerundeten r = 1,07 dm ≈ 11 898 cm³; beides rundet auf 11 900 cm³. Das Feld skizze beschreibt hier eine vom Prüfling zu erstellende Skizze, nicht vorhandenes Aufgabenmaterial. Die Teilaufgabe ist elementargeometrisch; die Themenliste Analysis führt dafür kein passendes Thema, ersatzweise Rotationsvolumen. Eigene Rechnung.
 
 ## 9 Offen
 
@@ -615,8 +571,12 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
   bleibt als Erfassungsordnung bestehen, ist aber keine Aussage über den
   Schüler. Folge: die nur in den Berliner LK-Heften stehenden Aufgaben sind eine
   Lücke, keine Dublette (nächster Punkt).
-- Werden die Themenlücken aus § 6 durch neue Themen geschlossen oder durch eine
-  Lockerung der Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt?
+- Beantwortet (15.09.2026, abitur-vokabular.md § 2): Die Themenlücken aus § 6
+  sind durch die Poolpraxis aufgelöst, ohne neues Thema und ohne Lockerung der
+  Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt.
+- CAS-Hefte Berlin 2017/2018 (§ 7): sie sind durchgehend eigene Fassungen ohne
+  „CAS:"-Präfix; welche Teilaufgaben beim Nachtrag eine eigene Zeile bekommen
+  (Textvergleich mit dem WTR-Heft?), ist nicht entschieden.
 - Beantwortet: Brandenburg hat eine eigene zentrale Prüfung auf grundlegendem
   Niveau. Die Prüfungsschwerpunkte PS_Mathematik_GK_2027.pdf liegen auf dem
   Bildungsserver; nur die Aufgabenhefte werden nicht veröffentlicht. Damit ist
@@ -628,8 +588,9 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
   Typenquelle; erfasst würden nur die dort eigenen Aufgaben.
 - Auf welcher Vereinbarung beruht das gemeinsame Aufgabenwerk, und welche Länder
   gehören dazu?
-- Ab wann genau gilt in Berlin Teil A/Teil B? Belegt ist: Brandenburg hatte den
-  hilfsmittelfreien Teil bereits 2017, Berlin nach den Fachbriefen ab 2019.
+- Beantwortet (17.09.2026, § 10 und § 11): Berlin hat den hilfsmittelfreien
+  Teil A seit 2019 (Fachbrief 22; Heft 2019-be-gk mit Aufgabenstellung 1
+  hilfsmittelfrei), Brandenburg bereits 2017.
 - Trägt das CAS-Delta über alle Sachgebiete? Geprüft sind nur zwei
   Analysis-Paare (2016 Aufgabe 1.1, 2017 Aufgabe 1.2; abi-pruefungen.md § 4,
   Auftrag B Teil 4, Nachtrag Auftrag C Teil 4). CAS-Fassungen der Landeshefte

@@ -1,5 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.11 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.7 (Schema-Version 2)
+Version 1.12 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.8 (Schema-Version 2)
+Änderungen gegenüber 1.11 (Auftrag E, Punkt 1): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
 Änderungen gegenüber 1.10 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
 überlebt keinen Auftrag" – ein Reserve-Stapel mit Landesheftverweisen wird
 im selben Auftrag erfasst.
@@ -108,9 +109,10 @@ Rolle im Katalog: Der Pool ist Typenquelle und Eichmaß. Er liefert 624 gelöste
 Aufgaben mit amtlichem Erwartungshorizont, wo die Landeshefte des Profils abi
 keine Lösungen haben, und er eicht über den Standardbezug die Schätzung in
 `niveau_geschaetzt`. Die Landeshefte bleiben das Formatmodell der Prüfung; der
-Pool sagt nichts darüber, wie eine Prüfung zusammengestellt wird. Zusammengeführt
-werden abi und iqb später über die Typen, nicht über die Dateien (konzept.md,
-Entscheidung 23).
+Pool sagt nichts darüber, wie eine Prüfung zusammengestellt wird. abi und iqb
+sind seit dem 15.09.2026 über die Typen zusammengeführt – gemeinsame Typenliste
+abitur-typen.csv und gemeinsames Vokabular abitur-vokabular.md –, nicht über
+die Dateien (konzept.md, Entscheidungen 23 und 25).
 
 Sagt der Lehrer IQB, Pool oder Poolaufgabe, ist dieses Profil gemeint. Abi, GK, LK
 meinen weiterhin das Profil abi.
@@ -121,9 +123,13 @@ Abbruchkriterium ausgereizt am 14.09.2026, Pool 2017 und Beispielaufgaben
 Reserve), dann Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung; der
 WTR-Zweig beider Niveaus ist mit neun Stapeln 2026 bis 2022 ausgereizt,
 15.09.2026, MMS/CAS sind Delta nach § 7 und werden je Niveau an einem Stapel
-gemessen; alles Übrige Reserve). Stand nach dem Delta-Stapel 2026-ea-B-mms:
-1061 Zeilen, 792 Typen (nach Abgleichlauf 11), 180 Schnittwerte in 29 Stapeln (iqb-pruefungen.md § 2
-und § 4).
+gemessen; alles Übrige Reserve, davon acht Stapel wegen Landesheftverweisen
+geöffnet: 2017-ea-A, 2018-ga-B, 2018-ea-B, 2022-ga-B, 2020-ga-B, 2021-ga-B,
+2025-ea-B-mms, 2019-ga-B; § 7). Stand 17.09.2026
+nach Abgleichlauf 23: 1443 Zeilen in 37 Stapeln (19 Teil A, 15 Teil B WTR, 3
+Teil B MMS), 1323 Typen in der gemeinsamen Liste (708 nur im Pool, 348 in
+beiden Katalogen), 186 Schnittwerte im Poolbestand (iqb-pruefungen.md § 2 und
+§ 4).
 
 ## 2 Ablage und Quellen
 
@@ -205,8 +211,8 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
             Aufgabe, 5 BE) sind nach Kern § 4 eine Zeile; teilaufgabe bleibt
             leer und die id ist die Kennung allein: 2026MgrundlegendAAGLAA12.
             In Teil B zusätzlich die Aufgabennummer innerhalb der Datei:
-            2026MgrundlegendBAnalysisWTR1-2a (vorläufig, wird vor Teil B
-            bestätigt). Die Kennung ist der Rückweg ins Original: Kennung plus
+            2026MgrundlegendBAnalysisWTR1-2a (seit dem Probestapel 2026-ga-B,
+            14.09.2026). Die Kennung ist der Rückweg ins Original: Kennung plus
             „_Aufgabe.pdf" ist die Datei. Die id ist umlautfrei („erhoeht" ist
             Schreibweise des IQB, keine Umschrift).
     jahr:   Pooljahr aus der Kennung; „bsp" für die Beispielaufgaben ohne Jahr.
@@ -214,12 +220,12 @@ deshalb ohne CAS-Delta; das ist einer der Gründe, mit Teil A zu beginnen.
     papier: Jahr-iqb-Niveau · 2026-iqb-ga · 2026-iqb-ea · bsp-iqb-ga
             Niveau: ga grundlegend, ea erhöht (wie bb-ea im Profil abi).
             Teil B in der Rechnerfassung CAS/MMS: Zusatz -mms (2026-iqb-ga-mms),
-            vorläufig, analog zu -cas im Profil abi.
+            analog zu -cas im Profil abi.
     block:  A | B, der Prüfungsteil.
     aufgabe: Teil A: Aufgabengruppe, bei mehreren Aufgaben der Gruppe
             Gruppe.Nummer wie in der Kennung – 1.1, 1.2, 2. Nicht umnummerieren.
-            Teil B (vorläufig): Dateinummer.Aufgabennummer, ohne Dateinummer nur
-            die Aufgabennummer.
+            Teil B: Dateinummer.Aufgabennummer, ohne Dateinummer nur die
+            Aufgabennummer (Datei mit einer unnummerierten Aufgabe: 1).
     titel:  das Sachgebiet nach der Kennung, in der Schreibweise der
             Kurzbeschreibung: Analysis · AG/LA (A1) · AG/LA (A2) · Stochastik.
             Die Aufgaben haben keine Überschrift; über titel bleibt die
@@ -401,8 +407,10 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   · Neue Typen: Schranke deaktiviert (13.09.2026). Nach drei Stapeln lag der
     Anteil neuer Typen bei 100, 82 und 94 % – die geplanten 60 % hätten jeden
     weiteren Stapel abgebrochen, ohne dass etwas faul ist. Gemessen wird der
-    Anteil weiter (Kennzahlen); eine neue Schranke wird erst gesetzt, wenn der
-    Typenschnitt für Teil A entschieden ist (iqb-pruefungen.md § 4).
+    Anteil weiter (Kennzahlen). Der Typenschnitt ist entschieden (Entscheidung
+    24, 13.09.2026); eine Schranke für neue Typen wurde danach nicht gesetzt,
+    der Anteil bleibt Kennzahl (zuletzt 40–76 % je Stapel, iqb-pruefungen.md
+    § 2).
   · Eichung: mindestens 85 % der Zeilen treffen nach der engen Fassung den
     höchsten amtlichen Bereich (ab 10 Zeilen im Stapel scharf). Die Schwelle
     gilt für jeden Stapel gleich: die Überschreibung je Stapel aus iqb-bau.py
@@ -433,11 +441,12 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   zu prüfen: Typen gegen den Bestand abgleichen, Themen erneut zuordnen,
   Unsicheres nachrechnen – und dann erneut laufen lassen. Erst wenn das nicht
   hilft, wird der Schwellenwert im Skript geändert und die Änderung in
-  iqb-pruefungen.md § 5 begründet. Die Werte sind vorerst Schätzung. Der Bericht
-  jedes Stapels nennt als **Kennzahlen** die Quote neuer Typen an den
+  iqb-pruefungen.md § 5 begründet. Die Werte stehen seit dem 13.09.2026 fest
+  und wurden seither zweimal geändert (Schranke neue Typen deaktiviert, Eichung
+  85 % nach der engen Fassung; Änderungen in iqb-pruefungen.md § 5). Der
+  Bericht jedes Stapels nennt als **Kennzahlen** die Quote neuer Typen an den
   verwendeten und die Eichtrefferquote (Zeile „Kennzahlen:" von iqb-bau.py, in
-  iqb-pruefungen.md § 4 gesammelt); nach drei Stapeln werden Schwellenwerte
-  vorgeschlagen, die aus den gemessenen Quoten folgen.
+  iqb-pruefungen.md § 4 gesammelt).
 - **Dubletten.** Aufgaben, die für beide AG/LA-Alternativen taugen, liegen im
   Pool zweimal, wortgleich unter A1 und unter A2 (Teil A: 16 Paare, alle AG/LA,
   Scan vom 13.09.2026). Dublette heißt: Aufgabe, Erwartungshorizont **und**
@@ -583,8 +592,10 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Erwartungswert berechnen und mit dem Einsatz vergleichen. I bleibt die
   einzelne Beobachtung oder Rechnung, auch wenn sie begründet wird (Graph der
   Funktion vom Ableitungsgraphen unterscheiden: geschätzt II, amtlich I).
-  Messung, die zur engen Fassung geführt hat (Treffer der Schätzung gegen den
-  höchsten amtlichen Bereich): 2026-ga-A 30 von 33 in beiden Fassungen;
+- **Messgeschichte der Deutungsliste** (Befund, keine Regel – die Regel steht
+  im Punkt davor; Treffer der Schätzung gegen den höchsten amtlichen Bereich
+  je Stapel und Listenfassung). Messung, die zur engen Fassung geführt hat:
+  2026-ga-A 30 von 33 in beiden Fassungen;
   2026-ea-A weit 34, eng 36 von 37 (Analysis 1.1 b und Stochastik 1.1 b sind
   Routineverkettungen mit amtlich II); 2025-ga-A weit 29, eng 30 von 31 (die
   weite Fassung überschätzt AGLAA11 und AGLAA212-b, die enge unterschätzt nur
@@ -705,28 +716,18 @@ Grund steht dann in bemerkung. In diesem Stapel kommt es nicht vor.
 
 ## 9 Offene Punkte
 
-- Teil B: Kürzel (papier-Zusatz -mms, aufgabe Dateinummer.Aufgabennummer, id mit
-  Aufgabennummer) im Probestapel 2026-ga-B (WTR-Zweig, 14.09.2026) benutzt und
-  bewährt; Zusätze aus dem Probestapel: Erfassungseinheit ist der Stapel je
-  Rechnerfassung (iqb-bau.py v0.6, KONFIG „2026-ga-B-wtr"), eine Datei mit nur
-  einer, unnummerierten Aufgabe führt die Aufgabennummer 1 (id …WTR-1a, aufgabe
-  1), der Standardbezug hat in Teil B eine eigene Spalte Anforderungsbereich
-  (in bemerkung als „AB amtlich: …"; im Probestapel in allen 45 Zeilen gleich
-  dem höchsten Kompetenzeintrag). MMS-Fassung: entschieden am 15.09.2026 – als
-  Delta zum WTR-Zweig (§ 7). Teil B ist zeilenweise erfasst und abgeschlossen
-  (15.09.2026, § 6); die Trägerbindung liegt bei rund 8 % der Zeilen
-  (iqb-pruefungen.md § 4), die Markierung in bemerkung trägt sie.
 - Beispielaufgaben: Veröffentlichungsjahr nicht ermittelt; jahr = „bsp".
-- Schwellenwerte in § 7 sind Vorschläge des ersten Laufs; nach drei Stapeln
-  prüfen.
-- Eichung: Die Trefferquote niveau_geschaetzt gegen den höchsten amtlichen
-  Bereich wird je Stapel in iqb-pruefungen.md notiert. Erst ab mehreren
-  Stapeln entscheiden, ob die Schätzregel in Kern § 5 (I reproduzieren, II
-  Zusammenhänge herstellen, III verallgemeinern und reflektieren) für das
-  Abitur nachjustiert werden muss – die Änderung wäre dann eine am Kern.
-- Zusammenführung mit abi über die Typen: entschieden (Entscheidung 25,
-  15.09.2026) – eine Typenliste abitur-typen.csv, ein Vokabular
-  abitur-vokabular.md, ein Abgleichlauf abgleich.py über beide Kataloge;
-  Umstellungslauf 12 in abi-pruefungen.md § 4 und abi-iqb-typen.md.
 - Aufgabengruppe (1 oder 2) steht nur in aufgabe; ob sie als Merkmal für den
   Blattbau reicht, zeigt die Heft-Phase.
+- Beantwortet (17.09.2026): Die Trefferquote niveau_geschaetzt gegen den
+  höchsten amtlichen Bereich liegt über 37 Stapel bei 94 % (1357 von 1442
+  gewerteten Zeilen); die Schätzregel des Kerns § 5 (I reproduzieren, II
+  Zusammenhänge herstellen, III verallgemeinern und reflektieren) wird für das
+  Abitur nicht nachjustiert – die enge Fassung (§ 7) präzisiert sie, der Kern
+  bleibt unverändert.
+
+Erledigt (Beleg): Kürzel für Teil B (papier-Zusatz -mms, aufgabe
+Dateinummer.Aufgabennummer, id mit Aufgabennummer) seit dem Probestapel
+2026-ga-B (14.09.2026) geltend, § 4; MMS-Fassung als Delta (15.09.2026), § 7;
+Teil B abgeschlossen (15.09.2026), § 6; Schwellenwerte gesetzt (§ 7);
+Zusammenführung mit abi über die Typen (Entscheidung 25, 15.09.2026), § 1.

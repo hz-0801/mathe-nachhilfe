@@ -1,5 +1,6 @@
 # PROFIL MSA – Prüfung am Ende der Jahrgangsstufe 10, Mathematik, Brandenburg
-Version 0.3 · 05.09.2026 · Kennung msa · gilt mit Kern v0.3
+Version 0.4 · 17.09.2026 · Kennung msa · gilt mit Kern v0.3
+Änderungen gegenüber 0.3 (Auftrag E, Punkt 1): § 2 Umgebungsangabe „Sandbox" gestrichen; § 6 Probelauf als abgeschlossen benannt; § 4 Koordinatenschreibweise mit „|" festgehalten (Vorschlag aus fhr.md § 9 hierher verschoben).
 
 ## 1 Prüfung
 
@@ -8,7 +9,7 @@ Zentrale schriftliche Prüfung für Oberschulen und Gesamtschulen im Land Brande
 ## 2 Ablage und Quellen
 
 Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/mathe-nachhilfe/main/ (alle Dateien liegen flach im Wurzelverzeichnis; bei anderer Ablage nur diese Zeile ändern).
-Hefte: Adresse und Dateinamen stehen in pruefungen.md; die Domain bildungsserver.berlin-brandenburg.de ist aus der Sandbox erreichbar, Hefte werden mit curl geholt.
+Hefte: Adresse und Dateinamen stehen in pruefungen.md; sie werden mit curl vom Bildungsserver (bildungsserver.berlin-brandenburg.de) geholt.
 Amtliche Lösungen gibt es nur für die Musteraufgaben 2028 (Fachbrief Mathematik Nr. 10, Erwartungshorizont mit Bewertungseinheiten, Anforderungsbereich, Standardbezug). Für alle Hefte sind die Ergebnisse eigene Rechnung.
 Amtliche Vorgaben und Formatwechsel stehen in vorgaben.md; für die Erfassung reicht dieses Profil.
 
@@ -27,6 +28,7 @@ stern: ja/nein in OS-Heften; in allen anderen Heften leer
 hilfsmittel: ja; nein nur im hilfsmittelfreien Teil der Musteraufgaben 2028
 afb_amtlich: nur bei Musteraufgaben 2028 aus dem Erwartungshorizont; sonst leer
 seite: Seite im PDF des Hefts; bei Musteraufgaben Seite im Fachbrief 10
+Koordinaten: in diesem Profil wie im Heft mit „|" (A(−2|6)). Das Zeichen trennt sonst Mehrfachwerte in einem Feld (Kern § 5); fhr und iqb schreiben deshalb P(x; y). Eine Umstellung der msa-Zeilen ist offen (Vorschlag aus fhr.md, 13.09.2026); bis dahin darf ein Skript Koordinatenfelder dieses Profils nicht an „|" trennen.
 
 ## 5 Leitideen (Rahmenlehrplan 1–10 Berlin-Brandenburg)
 
@@ -34,7 +36,7 @@ Zahlen und Operationen · Größen und Messen · Raum und Form · Gleichungen un
 
 ## 6 Themenliste
 
-Feste Ebene zwischen Leitidee und Typ. Stand v0.2, im Probelauf zu prüfen; Ergänzungen nur über den Bericht.
+Feste Ebene zwischen Leitidee und Typ. Stand seit dem Probelauf (die ersten drei Hefte 2025, 2026 FOR und 2024, 05.09.2026, konzept.md § 7) unverändert und mit allen zwölf Heften bestätigt; Ergänzungen nur über den Bericht.
 
 Zahlen und Operationen: Rationale Zahlen rechnen · Brüche und Dezimalzahlen · Prozentrechnung · Zinsrechnung · Zehnerpotenzen und Näherungswerte · Potenzen und Wurzeln · Terme umformen · Runden und Überschlag
 Größen und Messen: Einheiten umrechnen · Flächeninhalt und Umfang · Volumen und Oberfläche · Satz des Pythagoras · Trigonometrie im rechtwinkligen Dreieck · Sinussatz · Maßstab
