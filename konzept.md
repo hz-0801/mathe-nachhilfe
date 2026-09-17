@@ -180,6 +180,9 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 33. Selbstprüfung als Bedingung eines vollständigen Profils (2026-09-17, Auftrag F; Kern § 7, CLAUDE.md § 3): Ein Profil gilt als unvollständig, solange sein Bau-Skript keine Selbstprüfung bei leerer Zeilenliste kennt – den Lauf, der den ganzen Bestand nach Kern § 5 und § 7 prüft und nichts schreibt. Befund dahinter: msa hatte bis zum 17.09.2026 kein Bau-Skript (Erfassung im Chat unter Kern v0.3), fhr-bau.py bis v0.2 keine Selbstprüfung; 646 Katalogzeilen (msa 393, fhr 253) waren nie maschinell gegen Kern und Profil geprüft. Nachgerüstet in Auftrag E, Punkt 6 (msa-bau.py v0.1, fhr-bau.py v0.3); beide Bestände bestanden auf Anhieb – die Regel sichert nicht einen gefundenen Fehler, sondern dass ein Bestand überhaupt prüfbar ist.
     Zahl: 646 von 2883 Katalogzeilen (22 %) bis zum 17.09.2026 ohne maschinelle Prüfung, danach 0 Fehler (Auftrag E, Punkt 6); heute vier Bau-Skripte mit Selbstprüfung über 2883 Zeilen.
     Kippt bei: keinem Befund – Setzung; zu überdenken nur, wenn ein Bestand ohne Skript entsteht (Erfassung im Chat wie msa bis 2026-09-05) und das Nachrüsten mehr kostet als ein Neubau.
+34. Keine Sortierung der Typenlisten (2026-09-17; Vorschlag 5 aus befund-typenlisten.md § 3, abgelehnt): fhr-typen.csv und abitur-typen.csv bleiben in Anlagereihenfolge – neue Typen werden angehängt, Abgleichläufe schreiben die Reihenfolge unverändert zurück; nur msa-typen.csv ist nach Leitidee, Thema, Typ sortiert (Typen-Check 05.09.2026, vor den Skripten). Grund: Ein Sortierlauf kostet die byteidentischen Reruns aus dem HEAD-Stand, derzeit das stärkste Prüfmittel – nach einer Sortierung ist kein früherer Heft-, Stapel- oder Abgleichlauf mehr gegen den heutigen Stand byteidentisch wiederholbar, und der Sortierlauf selbst hätte einen unlesbaren Diff. Der Nutzen (Diff-Lesbarkeit, gleiche Themen beieinander) wiegt das nicht auf.
+    Zahl: 1458 Typenzeilen (fhr 135, abitur 1323), die nur ihre Reihenfolge änderten; 23 Abgleichläufe und alle Heft- und Stapelläufe, deren Rerun die Reihenfolge voraussetzt (befund-typenlisten.md § 3).
+    Kippt bei: einem Prüfmittel, das die byteidentischen Reruns ersetzt (etwa ein Vergleich auf Zeilenmengen statt Bytes), oder wenn der Lehrer die Reihenfolge zum Lesen braucht – dann ein eigener Sortierlauf mit neuem Rerun-Anker.
 
 ## 5 Verworfen
 
@@ -217,9 +220,6 @@ steht, steht nur hier; die Profile wiederholen es nicht.
   Profile): wartet auf den prüfungsartübergreifenden Themenkatalog (§ 3), der
   nicht beschlossen ist – ohne ihn gibt es keinen Nutzen, der die 151
   betroffenen Katalogzeilen rechtfertigt.
-- **Vorschlag 5, Sortierung der Typenlisten**: abgelehnt – ein Sortierlauf
-  kostet die byteidentischen Reruns älterer Läufe und liefert unlesbare
-  Diffs; hier nur zur Sicherheit als abgelehnt vermerkt.
 - **Abbruchkriterium abi** (Gegenstück zum Stapelkriterium in iqb.md § 6 für
   Landeshefte): unverändert offen, seit Auftrag D nicht entschieden.
 - **Strukturelle Geltung** (abitur-vokabular.md § 3, Vorschlag nach
@@ -442,6 +442,9 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag I, Punkt 2): Vorschlag 5 (Sortierung der Typenlisten) aus § 6
+  nach § 4 als Entscheidung 34 – abgelehnt, mit Grund (byteidentische Reruns) und
+  Kippbedingung.
 - 2026-09-17 (Auftrag H, Punkt 4): befund-repo-stand-2026-09-17.md angelegt (Stand des Repos
   als Grundlage für einen neuen Chat); § 2 Bausteine und README ergänzt.
 - 2026-09-17 (Auftrag H, Punkt 2): § 6 Offen neu gefasst – je Punkt eine Zeile mit
