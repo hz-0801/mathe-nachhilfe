@@ -1645,6 +1645,91 @@ mit vorgegebener Stammfunktion gegen vorgegebenen Flächenterm, größte
 Selbstprüfung beider Bau-Skripte bestanden, Lauf aus dem HEAD-Stand
 byteidentisch. alt → neu: „Maximum einer Gewinnfunktion über die Ableitung berechnen" → „Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen"; „Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben" → „Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben"; „Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen" und „Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen" → „Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen"; „Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren" und „Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen" → „Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren".
 
+**Markdown-Korpus, erstes Heft 2025-bebb-gk (17.09.2026, Auftrag B, Teil
+2).** Datei hefte-md/2025-bebb-gk.md (14,2 KB) mit dem Wortlaut aller 39
+Teilaufgaben des Hefts (Seiten 2025-1, -2, -3, -15, -21, -22, -27, -32),
+Formeln als LaTeX (inline `$…$`, abgesetzt `$$…$$`; Vektoren als
+`\begin{pmatrix}`, Punkte als `(a \mid b \mid c)`, Dezimalkomma `{,}`,
+Binomialkoeffizienten `\binom`), BE je Teilaufgabe als `*(n BE)*`, Aufbau
+und Summen je Aufgabe im Kopf. **Ablage der Abbildungen:** zehn Ausschnitte
+aus dem 0,65-Rendering der Scans, Graustufen, höchstens 720 px breit, JPEG
+Qualität 68, im Unterordner hefte-md/2025-bebb-gk/ als abb-<aufgabe>.jpg
+(abb-1-1 bis abb-4), im Text je mit Bildverweis und einer Bildbeschreibung
+in eckigen Klammern; zusammen 234 KB, die Datei selbst ist ohne Bilder
+lesbar. hefte-md/ steht in .gitignore: der Korpus enthält den Wortlaut der
+Prüfungsaufgaben und die Abbildungen des Verlagsbands, er bleibt wie hefte/
+außerhalb des Repos (abi-quellen.md § 9). **Prüfung gegen den Katalog**
+(Skript check_md25gk.py im Scratchpad; liest die Markdown-Datei, ordnet die
+Teilaufgaben den ids zu, übersetzt die LaTeX-Terme nach sympy): Struktur 39
+von 39 Teilaufgaben, Zuordnung 1.4.x → 1.4–1.6, 1.5.x → 1.7–1.9, Aufgabenteil
+2 von 2.2 → e–g; BE je Teilaufgabe 39 von 39 gleich, Summen 5 × 9, 25, 25,
+15, 15; Ergebnisse: 27 rechnerische Teilaufgaben mit sympy aus den
+Markdown-Termen nachgerechnet, alle stimmen mit dem Katalogfeld ergebnis
+überein (Tangente 3x − 11, Berührstelle −2, 30/64, Fläche 2, P'(4 | 11 | 5),
+Lösungen ±1, Spiegelpunkt (9 | 3 | 0), 0,17, Nullstellen ±5√3/2, Extrempunkte
+(∓2,5 | ±2,5), Winkel 71,6° und 45°, 125π/4 − 50, Hochpunkt (1 | e),
+2e − 6/e³ mit 5,8 % Abweichung, Kanten 2√2 und 6√2, Volumen 24, 65,9°, 0,0918,
+k = 104, x ≈ 0,050). **Abweichungen: 0.** Stichproben der
+Begründungsaufgaben (am Markdown gelesen, Katalog-ergebnis daneben): 1.3 a
+(Term (3/8)² = zweimal die 6 – gleich), 1.5.3 a (zwei gleich hohe Maxima bei
+10 und 11 ⇒ Erwartungswert 10,5 ⇒ n ungerade – gleich), 2.2 c (Dreieck mit
+Katheten 4 und e als Näherung – gleich), 3 d (Ansatz = Skalarprodukt der
+Vektoren B'A und B'C gleich null für den rechten Winkel – gleich), 4 c
+(Erwartungswert 91,8, Maximum nicht bei 90 – gleich). **Aufwand:** etwa 35
+Minuten für acht Seiten (Lesen, Abschrift, Ausschnitte, Prüfskript), also
+gut 4 Minuten je Seite; bei Textebene (2019–2021, 2026) weniger. Die übrigen
+Hefte 2022–2026 folgen nach Rückmeldung.
+
+**Katalog gegen die Stark-Stichwortverzeichnisse (Auftrag B, Teil 3):
+nicht ausgeführt.** Die Stichwortverzeichnisse der Bände 2027 GK und LK
+liegen weder im Repo noch unter hefte/ (dort nur die Aufgabenseiten); ohne
+den Text ist keine Zuordnung möglich. Benötigt: die Verzeichnisseiten beider
+Bände als Scan oder Foto (Vorschlag: hefte/stichwort-2027-gk.pdf,
+hefte/stichwort-2027-lk.pdf).
+
+**CAS-Delta an zwei amtlichen Paaren (17.09.2026, Auftrag B, Teil 4).**
+Der Stark-Band zum Abitur 2021 führt CAS-Fassungen nur für 2016 Aufgabe 1.1
+und 2017 Aufgabe 1.2 (Analysis). Beide Paare vom Bildungsserver geholt
+(16_Ma_GK_Aufgaben.pdf 9 S., 16_Ma_GK_CAS_Aufgaben.pdf 8 S.,
+17_Ma_GK_Aufgaben.pdf 8 S., 17_Ma_GK_CAS_Aufgaben.pdf 8 S.; unter hefte/ als
+2016-be-gk[-cas].pdf, 2017-be-gk[-cas].pdf), Text mit pypdf, je
+Teilaufgabe verglichen; keine Zeile erfasst. Klassen wie beim Pool-Delta.
+*2016 Aufgabe 1.1 Medikament* (WTR 6 | 5 | 6 | 8 | 5 | 10 = 40 BE, CAS
+7 | 5 | 5 | 6 | 8 | 9 = 40): wortgleich b, c, f (21 WTR-BE); gleicher Typ,
+anderer Weg a (WTR: Wirksamkeitsintervall am Graphen angeben bei 3,7 μg; CAS:
+Länge des Intervalls bei 4 μg berechnen, also f(t) = 4 kubisch lösen) und d
+(Steckbrief k(t) = at³ + bt² + 5t aus zwei Bedingungen gegen at³ + bt² + ct
+aus drei Bedingungen, 3 × 3 statt 2 × 2); anderer Typ zusätzlich in e
+(Schnittstellen der beiden kubischen Konzentrationsfunktionen f = k für
+t > 0, Gleichungen lösen · berechnen; der Änderungsraten-Vergleich danach
+wortgleich). *2017 Aufgabe 1.2 Dachformen* (WTR 11 | 3 | 5 | 5 | 9 | 7 = 40 BE
+in sechs Teilaufgaben, CAS 5 | 9 | 5 | 3 | 7 | 4 | 7 = 40 in sieben): wortgleich
+Achsenschnittpunkte (a), Zeichnen (WTR b = CAS a), c (maximale Steigung), e
+(Tangente und eingesparte Fläche), quadratische Funktion p mit vier
+Bedingungen (WTR f = CAS g); gleicher Typ, anderer Weg: Extrempunkte (WTR
+mit Kontrollterm f', CAS „Ableitung bilden und Ableitungsregeln angeben") und
+Trennwandfläche (WTR mit Nachweis der Stammfunktion F, CAS ohne – der Typ
+„Stammfunktion durch Ableiten nachweisen" entfällt); anderer Typ zusätzlich:
+Wendepunkte von (2x² − x + 1)e^(−x) berechnen (CAS b, Kurvenuntersuchung ·
+berechnen) und Punkt mit Gefälle 45° (CAS f, 4 BE, f'(x) = −1 transzendent,
+Tangente, Normale, Schnittwinkel · berechnen). **Messung:** von 80 WTR-BE sind
+rund 46 wortgleich (58 %), rund 24 gleicher Typ mit anderem Weg (30 %), rund
+10 CAS-BE tragen zusätzliche Typen (12 %); umgekehrt entfallen in der
+CAS-Fassung zwei WTR-Leistungen (Stammfunktion nachweisen, Kontrollterm
+ersetzt). **Neue Schnittwerte: 0** – alle drei Schnittwerte der CAS-Zusätze
+(Gleichungen lösen, Kurvenuntersuchung, Tangente/Normale/Schnittwinkel, je
+· berechnen) stehen im Gesamtbestand und im grundlegenden Bestand. Muster:
+CAS verschiebt von Ablesen zu Rechnen, erweitert Gleichungssysteme und
+Gleichungen ins Transzendente und streicht mechanische Nachweise; die
+Fertigkeiten bleiben im Typenvorrat. **Einschätzung, ausdrücklich als
+Hinweis, nicht als Beleg:** nur zwei Paare, beide aus der Zeit vor dem
+hilfsmittelfreien Teil (Berlin GK 2016/2017, ganze Prüfung mit Rechner) und
+beide Analysis; auf die heutige Prüfung (Teil A ohne Rechner, MMS-Fassung
+des Pools) ist das nicht übertragbar. Nebenbefund: die amtlichen
+CAS-Hefte weichen auch in den übrigen Aufgaben ab (2016: 1.2 a–c, e, 2.1 c,
+3.1 e, 3.2 b; 2017: 1.1 e, f, 2.2 c, 3.1 e, g, 3.2 d), die Stark-Auswahl ist
+also keine Differenzmenge (abi-quellen.md § 5).
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2053,6 +2138,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag B, Teile 2, 4 und 6: Markdown-Korpus begonnen (hefte-md/2025-bebb-gk.md mit zehn Abbildungen, außerhalb des Repos, .gitignore; Prüfung gegen den Katalog: 39 von 39 Teilaufgaben, 0 Abweichungen bei BE, Struktur und 27 nachgerechneten Ergebnissen, § 4); Teil 3 nicht ausführbar, Stichwortverzeichnisse fehlen (§ 4); CAS-Delta an 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2 gemessen (58 % wortgleich, 30 % gleicher Typ anderer Weg, 12 % zusätzliche Typen, 0 neue Schnittwerte; Hinweis, kein Beleg; § 4), amtliche Dateien 2016/2017 WTR und CAS unter hefte/; abi-quellen.md v0.4 (§ 5 Verlagsbände mit Beschaffungstabelle, § 8 alle Dateien erfasst, § 9 Korpus). |
 | 2026-09-17 | Abgleichlauf 21 (abgleich.py v0.21) nach den fünf Heften des Auftrags B, Teil 1: vier Zusammenziehungen, 1215 → 1211 Typen, 5 Typfelder im abi-Katalog (2019-be-gk 2.1 a, 2020-be-gk 4.1 b, 2021-be-gk 2.1 k, 2022-bebb-lk 1.7 a, 2024-bebb-lk 2.1 d) und 5 im iqb-Katalog. alt → neu: „Maximum einer Gewinnfunktion über die Ableitung berechnen" → „Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen"; „Mögliche Extremstellen aus der faktorisierten Ableitung ohne Rechnung angeben" → „Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben"; „Wahrscheinlichkeit für mindestens oder höchstens einmal bei zwei Stufen über das Gegenereignis berechnen" und „Wahrscheinlichkeit für spätestens den dritten Erfolg über die Pfade oder das Gegenereignis berechnen" → „Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen"; „Quadratische Funktion aus Nullstelle und Scheitelpunkt rekonstruieren" und „Quadratische Funktion aus Ursprung und Tangentengleichung bestimmen" → „Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren". abi.md v0.19: § 11 Heftaufbau je Jahrgang 2019–2021 und 2024/2025 aus den Heften (Corona-Aufbau schon 2021, Pflicht plus zwei von sechs Wahlaufgaben im LK seit 2024), Zuordnung für die Simulation nachgeführt, § 9 Befund zu den GK-Heften 2019–2021. |
 | 2026-09-17 | Heft 2025-bebb-lk erfasst (Berlin/Brandenburg LK, Stark-Band zum Abitur 2027): 46 Zeilen aus 14 Aufgaben (1.1–1.10 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 794 Zeilen, Typenliste 1215 (11 neu). Alle Punktsummen geprüft (10 × 5, 30, 30, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 28 von 29 (geerbt). Pool 33 von 46 Zeilen, 104 von 150 BE (69 %): Teil A vollständig (18 Dubletten), 3 = AG/LA (A2) WTR (5), 4 = Stochastik WTR 2 (6), 2.1 Regenwasser = WTR-Fassung von Analysis MMS 1 (4 wortgleiche und 3 abgewandelte Vormerkungen auf den MMS-Zweig 2025-ea-B, 1 Landeszusatz; offene Posten jetzt 35), 2.2 Blutzucker Landes. Kein neuer Schnittwert. Aufbau und Schlüssel 30/30/20/20 wie 2026-bb-ea. |
 | 2026-09-17 | Heft 2024-bebb-lk erfasst (Berlin/Brandenburg LK, Stark-Band zum Abitur 2027): 53 Zeilen aus 14 Aufgaben (1.1–1.10 hilfsmittelfrei, 2.1, 2.2, 3, 4), Katalog 748 Zeilen, Typenliste 1204 (13 neu). Alle Punktsummen geprüft (10 × 5, 40, 40, 25, 25), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 33 von 34 (geerbt). Pool 34 von 53 Zeilen, 110 von 180 BE (61 %): Teil A 13 Dubletten, 2.2 = Analysis WTR 2 (6 Dubletten, 3 abgewandelt: Schar mit einem Parameter), 3 = AG/LA (A2) WTR 1 (8; BE c/f vertauscht), 4 = Stochastik WTR 1 (8). Kein neuer Schnittwert. Aufbau: vier Pflicht- plus zwei von sechs Wahlaufgaben schon 2024, Schlüssel 30 / 40 / 25 / 25. dubletten.py (Scratchpad) lässt abweichende BE nur mit Vermerk „BE im Heft" zu. |
