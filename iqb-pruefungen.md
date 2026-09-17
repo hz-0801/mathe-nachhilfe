@@ -59,7 +59,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2021-ea-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
 | 2020-ga-B (WTR) | 6 von 13 | **erfasst 2026-09-17, 47 Zeilen – wegen Landesheftverweisen** (7 Vormerkungen aus 2020-be-gk; Reserve geöffnet in Auftrag C Teil 2, Abbruchkriterium unberührt) · 27 Typen neu, 21 wiederverwendet · Eichung 47 von 47 (Spalte AB; Schätzung nicht blind, § 4) |
 | 2020-ea-B (WTR) | 8 von 15 | entfällt – Reserve (§ 4) |
-| 2019-ga-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
+| 2019-ga-B (WTR) | 8 von 14 | **erfasst 2026-09-17, 66 Zeilen – wegen Landesheftverweisen** (9 Vormerkungen aus 2019-be-gk 3.2 und 4.1; Reserve geöffnet in Auftrag C Teil 2, Abbruchkriterium unberührt) · 47 Typen neu, 20 wiederverwendet · Eichung 59 von 66 (Spalte AB; Schätzung nicht blind, § 4) |
 | 2019-ea-B (WTR) | 10 von 17 | entfällt – Reserve (§ 4) |
 | 2018-ga-B (WTR) | 7 von 12 | **erfasst 2026-09-16, 53 Zeilen – wegen Landesheftverweisen** (2018-be-gk 2.2 und 3.2; Reserve geöffnet, Abbruchkriterium unberührt) · 29 Typen neu, 23 wiederverwendet (12 davon Etiketten des Landeshefts) · Eichung 46 von 53 (Spalte AB) |
 | 2018-ea-B (WTR) | 8 von 17 | **erfasst 2026-09-16, 69 Zeilen – wegen Landesheftverweisen** (2018-be-gk 3.2 e, g; Reserve geöffnet, Abbruchkriterium unberührt) · 38 Typen neu, 34 wiederverwendet · Eichung 59 von 69 (Spalte AB) · eine Zeile ersatzweise |
@@ -119,6 +119,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2020-ga-B-wtr (Teil B, Reserve) | 47 | 48 | 27 (56 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht, keine unabhängige Kennzahl (§ 4) | 0 | 0 | 16 von 48 (33 %); Schnitt 32 Werte, 42 von 47 Zeilen bekannt (89 %) | 9, 4, 9, 4 | 7 |
 | 2021-ga-B-wtr (Teil B, Reserve) | 47 | 47 | 19 (40 %) | 45 von 47 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 15 von 47 (32 %); Schnitt 30 Werte, 41 von 47 Zeilen bekannt (87 %) | 8, 6, 8, 6 | 12 |
 | 2025-ea-B-mms (Teil B, Reserve, Delta-Stapel erhöht) | 25 | 25 | 19 (76 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 2 von 25 (8 %); Schnitt 21 Werte, 24 von 25 Zeilen bekannt (96 %) | 9, 3, 9, 3 | 7 |
+| 2019-ga-B-wtr (Teil B, Reserve) | 66 | 67 | 47 (70 %) | 59 von 66 (89 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 5 von 67 (7 %); Schnitt 48 Werte, 59 von 66 Zeilen bekannt (89 %) | 10, 6, 10, 6 | 9 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2051,6 +2052,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2020-ga-B-wtr (Reserve) | 47 | 32 | 4 | 3 | 3 | 1 | 0 | 0 |
 | 2021-ga-B-wtr (Reserve) | 47 | 30 | 6 | 6 | 6 | 1 | 1 | 1 |
 | 2025-ea-B-mms (Reserve) | 25 | 21 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 2019-ga-B-wtr (Reserve) | 66 | 48 | 7 | 6 | 7 | 1 | 1 | 1 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2109,6 +2111,7 @@ fortgeschrieben).**
 | 2020-ga-B-wtr (Reserve) | 47 | 32 | 1,47 | 31 (66 %) | 39 (83 %) | 0 (0 %) | 13 | 0 | 6 | 7,8 | 70 min |
 | 2021-ga-B-wtr (Reserve) | 47 | 30 | 1,57 | 33 (70 %) | 43 (91 %) | 0 (0 %) | 6 | 0 | 7 | 6,7 | 60 min |
 | 2025-ea-B-mms (Reserve) | 25 | 21 | 1,19 | 21 (84 %) | 21 (84 %) | 0 (0 %) | 2 | 0 | 4 | 6,2 | 45 min |
+| 2019-ga-B-wtr (Reserve) | 66 | 48 | 1,38 | 43 (65 %) | 57 (86 %) | 0 (0 %) | 10 | 0 | 8 | 8,2 | 90 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -3140,10 +3143,67 @@ aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden
 (1377 Zeilen, 1276 Typen, 36 Stapel, Eichung über den Bestand 94 %). Aufwand
 etwa 45 Minuten.
 
+**Stapel 2019-ga-B (WTR) – Reserve geöffnet wegen der Landesheftverweise
+(Auftrag C, Teil 2, 17.09.2026; Abbruchkriterium unberührt).** 8 Dateien
+(Analysis WTR 1 Laktat, Analysis WTR 2 Parabelschar und CO₂-Konzentration,
+AG/LA (A1) Tretboot-Übergangsprozess, AG/LA (A2) WTR 1 Würfel, AG/LA (A2) WTR
+2 Haus, Stochastik WTR 1–3), 66 Zeilen, 67 Typen verwendet, 47 neu (70 %),
+20 wiederverwendet – darunter die Etiketten der neun vorgemerkten Teilaufgaben
+des Landeshefts 2019-be-gk (3.2 a–f → AG/LA (A2) WTR 1 a–f, 4.1 c–e →
+Stochastik WTR 1 c–e). Befund zu den Vermerken: 3.2 a, c, d, e, f und 4.1 c,
+d, e wortgleich; 3.2 b abgewandelt (Heft „Begründen Sie" und „zwei Seiten gleich
+lang", Pool „Zeigen Sie" und „zwei gegenüberliegende Seiten gleich lang" –
+wie vorgemerkt). Zwei Landeszeilen
+schätzen anders als der Standardbezug (3.2 b II gegen I, 4.1 e III gegen II):
+die Poolzeilen tragen den amtlichen Bereich mit Begründung, die Landeszeilen
+ziehen im Abgleichlauf nach (Vorrang des Amtlichen, Kern § 5). Ein
+Etikett aus der Analysis-Datei sitzt im Sachgebiet Analytische Geometrie
+(Analysis WTR 2 1 j: Mittelpunkt des Kreises durch drei Punkte der Ebene
+über Mittelsenkrechte und Abstandsgleichung – der Standardbezug nennt L3, die
+Leitidee der Zeile folgt dem Typ).
+
+*Eichung.* 59 von 66 nach der Spalte Anforderungsbereich (89 %); sieben
+Abweichungen, alle eigene Schätzungen um einen Bereich unter dem amtlichen
+(Analysis WTR 1 2 b Punkt einsetzen, 3 a Parameter ablesen; AG/LA (A2) WTR 1
+c Winkelformel, e zwei Routineschritte, f Fallunterscheidung; Stochastik WTR
+2 3 a Term erklären, WTR 3 1 c Quotient aus der Tafel), begründet und stehen
+gelassen. Drei davon (AG/LA (A2) WTR 1 c, e, f) decken sich mit der Schätzung
+der wortgleichen Landeszeile; sie sind eigene Schätzungen, keine übernommenen,
+und bleiben als Messwert – die Landeszeilen 3.2 c, e, f behalten ihre
+Schätzung, bekommen im Abgleichlauf aber den amtlichen Bereich. Wie bei den
+übrigen Reserve-Stapeln keine unabhängige Kennzahl (Standardbezug beim
+Schätzen in Sicht). Alle 48 rechnerischen amtlichen Ergebnisse mit sympy
+nachgerechnet (Laktat: Abweichung −2,8 %, mittlere Änderungsrate 1,6, Differenz k − g =
+1/40 · (x − 5)², Schnittstellen 25/13 und 105/13, Produkt der Integrale ≈
+1,37; Parabelschar: Hochpunkt (4 | 16k), T''(8/3) < 0, Kreisradius 5;
+CO₂: x ≈ 1,716 h ≈ 103 min; Übergangsprozess: s = 40, w = 60, 0 ≤ p ≤ 8/15;
+Würfel: 76,2°, Abstand 24,37; Stochastik: 0,8677, 0,8757/0,9004, 0,900/0,800,
+0,8292, 0,4542/0,0429, ≈ 15,7 %, 0,8960/0,9636), keine Abweichung. Kein
+Fragezeichen, kein ersatzweise.
+
+*Schnitt.* 48 Werte, 59 von 66 Zeilen auf bekannten Werten; sieben Werte neu
+im Niveau (Extremalprobleme · angeben, begründen, berechnen, zeichnen – die
+Trapezaufgabe der Parabelschar; Funktionsscharen · begründen; Stammfunktion ·
+angeben; Funktionsklassen · Nullstellen und Werte · zeichnen), einer davon neu
+im Gesamtbestand (Funktionsklassen · Nullstellen und Werte · zeichnen, der
+sättigende CO₂-Verlauf in Analysis WTR 2 2 c): Abbruchkriterium 1 von 5.
+Auf Teil-A-Werten 43 (65 %), über beide Niveaus 57 (86 %). Außerhalb der
+Geltung: AG/LA (A1) (6 Zeilen, alle Zielprüfungen) und die Parabelschar
+(Analysis WTR 2 1 a–d; in den Grundkursen). Neue Typen nach Thema:
+Funktionsklassen 8, Matrizen 5, Zufallsexperimente 4, je 3 Flächeninhalt
+durch Integration, Extremalprobleme, Kenngrößen von Verteilungen, je 2
+Ableitung, Tangente, Gleichungen lösen, Funktionsscharen, Punkte und
+Strecken, Vektoren, Binomialverteilung, je 1 Stammfunktion, Flächeninhalt
+und Volumen, Spiegelung, Lagebeziehungen, Baumdiagramm, Vierfeldertafel,
+Bedingte Wahrscheinlichkeit. Lauf aus dem HEAD-Stand byteidentisch,
+Selbstprüfung beider Skripte bestanden (1443 Zeilen, 1323 Typen, 37 Stapel,
+Eichung über den Bestand 94 %). Aufwand etwa 90 Minuten.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 2: Stapel 2019-ga-B (WTR) erfasst – Reserve geöffnet wegen der neun Vormerkungen aus 2019-be-gk 3.2 und 4.1; 66 Zeilen aus 8 Dateien, 47 neue Typen (Typenliste 1276 → 1323), Eichung 59 von 66, Abbruchkriterium 1 von 5. Alle 35 Vormerkungen des abi-Bestands haben jetzt eine erfasste Poolzeile; Umstellung im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2025-ea-B (MMS-Zweig) erfasst – Reserve geöffnet wegen der sieben Vormerkungen aus 2025-bebb-lk 2.1; 25 Zeilen aus 4 Dateien, 19 neue Typen (Typenliste 1257 → 1276), Eichung 24 von 25, Abbruchkriterium 0 von 5. 26 der 35 Vormerkungen des abi-Bestands haben jetzt eine erfasste Poolzeile (2019-ga-B folgt); Umstellung im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2021-ga-B (WTR) erfasst – Reserve geöffnet wegen der zwölf Vormerkungen aus 2021-be-gk; 47 Zeilen, 19 neue Typen (Typenliste 1238 → 1257), Eichung 45 von 47, Abbruchkriterium 1 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2020-ga-B (WTR) erfasst – Reserve geöffnet wegen der sieben Vormerkungen aus 2020-be-gk; 47 Zeilen, 27 neue Typen (Typenliste 1211 → 1238), Eichung 47 von 47 (Schätzung nicht blind, § 4), Abbruchkriterium 0 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
