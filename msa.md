@@ -1,6 +1,6 @@
 # PROFIL MSA – Prüfung am Ende der Jahrgangsstufe 10, Mathematik, Brandenburg
 Version 0.4 · 17.09.2026 · Kennung msa · gilt mit Kern v0.8 (Schema-Version 2, unverändert seit Kern v0.3)
-Änderungen gegenüber 0.3 (Auftrag E, Punkt 1 und 2): § 2 Umgebungsangabe „Sandbox" gestrichen; § 6 Probelauf als abgeschlossen benannt; § 4 Koordinatenschreibweise mit „|" festgehalten (Vorschlag aus fhr.md § 9 hierher verschoben); Kernbindung von v0.3 auf v0.8 gehoben (Durchsicht unten).
+Änderungen gegenüber 0.3 (Auftrag E, Punkt 1 und 2): § 2 Umgebungsangabe „Sandbox" gestrichen; § 6 Probelauf als abgeschlossen benannt; § 4 Koordinatenschreibweise mit „|" festgehalten (Vorschlag aus fhr.md § 9 hierher verschoben); Kernbindung von v0.3 auf v0.8 gehoben (Durchsicht unten). Punkt 6: msa-bau.py v0.1 angelegt (§ 2), Typ „Behauptung prüfen" mit Leitidee und Thema seiner ersten Fundstelle.
 
 Kernbindung (17.09.2026, Auftrag E, Punkt 2): Die Kernänderungen 0.4 bis 0.8
 sind für dieses Profil durchgesehen, keine widerspricht ihm. Ausgelagertes
@@ -23,6 +23,7 @@ Basis-URL der Katalogdateien: https://raw.githubusercontent.com/hz-0801/mathe-na
 Hefte: Adresse und Dateinamen stehen in pruefungen.md; sie werden mit curl vom Bildungsserver (bildungsserver.berlin-brandenburg.de) geholt.
 Amtliche Lösungen gibt es nur für die Musteraufgaben 2028 (Fachbrief Mathematik Nr. 10, Erwartungshorizont mit Bewertungseinheiten, Anforderungsbereich, Standardbezug). Für alle Hefte sind die Ergebnisse eigene Rechnung.
 Amtliche Vorgaben und Formatwechsel stehen in vorgaben.md; für die Erfassung reicht dieses Profil.
+Gerüst für Erfassung und Prüfung: msa-bau.py (seit 17.09.2026, Auftrag E Punkt 6; der Bestand 2014–2026 wurde davor ohne Skript erfasst). Es liest Kopfzeile und Formvokabular aus katalog-prompt.md § 5, Leitideen und Themenliste aus § 5 und § 6 dieser Datei, schreibt katalog-basis.csv, katalog-kontext.csv und typen.csv nur, wenn alle Prüfungen bestehen, und prüft bei leerem ZEILEN den Bestand (Selbstprüfung). Feldkorrekturen an typen.csv laufen über TYPEN_KORREKTUR im Skript, nicht von Hand.
 
 ## 3 Aufbau der Hefte
 

@@ -33,6 +33,7 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     typen.csv              Typvokabular, wächst beim Erfassen
     katalog-basis.csv      Zeilen der Basisaufgaben
     katalog-kontext.csv    Zeilen der Kontextaufgaben
+    msa-bau.py             Gerüst und Selbstprüfung für msa (seit 17.09.2026; der Bestand wurde davor ohne Skript erfasst)
     <kennung>-typenbibliothek.md  abgeleitet aus dem Katalog, wird erzeugt, nie editiert; je Profil eine Datei
     <kennung>-typenbibliothek.py  erzeugt sie und hält die Zählweise als Code fest
                            für fhr vorhanden (12.09.2026), für msa noch nicht

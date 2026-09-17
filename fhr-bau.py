@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 """fhr-bau.py – Gerüst für die Erfassung eines Hefts im Profil fhr.
-Version 0.2 · 12.09.2026 · gilt mit katalog-prompt.md v0.3 und fhr.md v0.10
+Version 0.3 · 17.09.2026 · gilt mit katalog-prompt.md v0.8 und fhr.md v1.7
 
 Je Heft werden nur KONFIG, ZEILEN und NEUE_TYPEN ausgetauscht. Alles darunter
 bleibt unverändert und prüft nach Kern Abschnitt 7.
+
+Änderungen gegenüber 0.2 (Auftrag E, Punkt 6, 17.09.2026): Ist ZEILEN leer,
+läuft die Selbstprüfung über den Bestand (jede Zeile von fhr-katalog.csv nach
+den Feldprüfungen unten, jede Typenverwendung, jede beispiel_id, kein Typ
+unbenutzt, status geprüft/neu) und schreibt nichts – wie bei msa-bau.py,
+abi-bau.py und iqb-bau.py. Der Heftlauf ist unverändert.
 
 Ablauf:
   1. Vorhandene fhr-katalog.csv und fhr-typen.csv neben dieses Skript legen
@@ -382,9 +388,69 @@ def schreibe(pfad, kopf, zeilen):
         for z in zeilen:
             w.writerow(z)
 
+def pruefe_zeile(z, a, typ_namen, alle_ids):
+    """Feldprüfungen einer Katalogzeile (Kern § 5, § 7); für neue Zeilen und den Bestand."""
+    for k in PFLICHT:
+        a(z[k].strip() != "", f"{z['id']}: Pflichtfeld leer: {k}")
+    a(re.fullmatch(r"\d{4}-[ABC]-\d[a-h]", z["id"]), f"{z['id']}: Kennung folgt nicht dem Muster Jahr-papier-AufgabeTeilaufgabe")
+    a(z["leitidee"] in THEMEN, f"{z['id']}: Leitidee unbekannt")
+    a(z["thema"] in THEMEN.get(z["leitidee"], []), f"{z['id']}: Thema passt nicht zur Leitidee")
+    a(z["niveau_geschaetzt"] in ("I", "II", "III"), f"{z['id']}: Niveau ungültig")
+    a(z["textumfang"] in ("kurz", "mittel", "lang"), f"{z['id']}: textumfang ungültig")
+    for wert, menge, name in ((z["format"], FORMATE, "format"), (z["antwort"], ANTWORTEN, "antwort"),
+                              (z["material"], MATERIAL, "material"), (z["zahlenraum"], ZAHLENRAUM, "zahlenraum")):
+        for teil in [s for s in wert.split("|") if s]:
+            a(teil in menge, f"{z['id']}: {name} hat unbekannten Wert: {teil}")
+    for feld in ("typ", "typ_neben"):
+        for t in [s for s in z[feld].split("|") if s]:
+            a(t in typ_namen, f"{z['id']}: Typ nicht in {TYP}: {t}")
+    for dep in [s for s in z["abhaengig_von"].split("|") if s]:
+        a(dep in alle_ids, f"{z['id']}: abhaengig_von zeigt ins Leere: {dep}")
+    for k, v in z.items():
+        a("?" not in v or k == "bemerkung" or z["bemerkung"].strip() != "",
+          f"{z['id']}: Fragezeichen in {k} ohne Grund in bemerkung")
+        a(not re.search(r"(?<=[\d\s(])-(?=\d)", v),
+          f"{z['id']}: ASCII-Bindestrich als Minus in {k}")
+        a(k in ("stichwoerter",) or not [w for w in UMSCHRIFT if w in v.lower()],
+          f"{z['id']}: ASCII-Umschrift in {k}: {v[:40]}")
+
+
+def selbstpruefung():
+    """Bestand prüfen, nichts schreiben (ZEILEN leer)."""
+    fehler = []
+    def a(cond, msg):
+        if not cond:
+            fehler.append(msg)
+    _, alt_kat = lade(KAT, HEAD)
+    _, alt_typ = lade(TYP, TYP_HEAD)
+    alle = [dict(zip(HEAD, r)) for r in alt_kat]
+    ids = [z["id"] for z in alle]
+    a(len(set(ids)) == len(ids), "doppelte id im Bestand")
+    typ_namen = {r[0] for r in alt_typ}
+    for z in alle:
+        pruefe_zeile(z, a, typ_namen, set(ids))
+    verwendet = {t for z in alle for f in ("typ", "typ_neben") for t in z[f].split("|") if t}
+    for r in alt_typ:
+        t = dict(zip(TYP_HEAD, r))
+        a(t["leitidee"] in THEMEN and t["thema"] in THEMEN.get(t["leitidee"], []),
+          f"Typ {t['typ']}: Leitidee oder Thema unbekannt")
+        a(t["beispiel_id"] in ids, f"Typ {t['typ']}: beispiel_id nicht im Katalog")
+        a(t["typ"] in verwendet, f"Typ {t['typ']}: in keiner Zeile verwendet")
+        a(t["status"] in ("geprüft", "neu"), f"Typ {t['typ']}: status ungültig: {t['status']}")
+    if fehler:
+        print(f"Selbstprüfung: {len(fehler)} Fehler:")
+        for f_ in fehler:
+            print(" -", f_)
+        sys.exit(1)
+    hefte = sorted({(z["jahr"], z["papier"]) for z in alle})
+    print(f"Selbstprüfung bestanden: {len(alle)} Katalogzeilen aus {len(hefte)} Heften, {len(alt_typ)} Typen, "
+          f"alle verwendet, jede beispiel_id im Katalog. ZEILEN ist leer, nichts geschrieben.")
+
+
 def main():
     if not ZEILEN:
-        sys.exit("ZEILEN ist leer – erst die Datensätze des Hefts eintragen.")
+        selbstpruefung()
+        return
     fehler = []
     def a(cond, msg):
         if not cond:

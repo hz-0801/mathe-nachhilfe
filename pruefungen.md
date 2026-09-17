@@ -34,6 +34,7 @@ Papier: OS = integriertes Heft EBR + FOR (Sternchen kennzeichnen FOR-Pflichtaufg
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-17 (Auftrag E, Punkt 6): msa-bau.py v0.1 angelegt (Gerüst mit Selbstprüfung des Bestands, msa.md § 2); Selbstprüfung bestanden: 393 Zeilen (126 Basis, 267 Kontext) aus 13 Heften, 185 Typen, alle verwendet. Feldkorrektur in typen.csv per Skript: „Behauptung prüfen" bekommt Leitidee Daten und Zufall und Thema Wahrscheinlichkeit mehrstufig (erste Fundstelle 2025-OS-K3b), Definition um die Zuordnung ergänzt; bis dahin der einzige Typ ohne Leitidee und Thema. Kataloge unverändert.
 - 2026-09-05: angelegt; Heftliste 2014–2026. Vorgaben-Historie und Jahrescheck nach vorgaben.md ausgelagert.
 - 2026-09-05: Heft 2025 erfasst (27 Zeilen, 37 Typen neu angelegt).
 - 2026-09-05: Heft 2026 FOR erfasst (33 Zeilen, 28 Typen neu). EBR-Hefte (2026, Muster 2028) zurückgestellt: derzeit kein EBR-Schüler; MSA = FOR.

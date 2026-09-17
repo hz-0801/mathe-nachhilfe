@@ -48,6 +48,8 @@ Ebenfalls nicht im Bestand: die Nachschreibe-Vorschläge. Für den Nachschreibet
 
 ## Änderungslog
 
+- 17.09.2026 – fhr-bau.py v0.3 (Auftrag E, Punkt 6): Selbstprüfung des Bestands bei leerem ZEILEN, wie bei den anderen Profilen; bestanden mit 253 Zeilen aus 16 Heften, 135 Typen, alle verwendet. Katalog und Typenliste unverändert.
+
 - 12.09.2026 – Hefte 2019 A und 2019 C erfasst, 16 und 14 Zeilen, zusammen 4 Typen neu. Punktsummen
   beide 30/20/20, Gesamtsumme je 70. **Damit ist der Bestand vollständig: sechzehn Hefte, 253 Zeilen,
   135 Typen, Gesamtsumme 1120 = 16 · 70.** Auch diese beiden Hefte haben keinen Gutachtenbogen.

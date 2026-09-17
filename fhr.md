@@ -1,6 +1,6 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
 Version 1.7 · 17.09.2026 · Kennung fhr · gilt mit Kern v0.8 (Schema-Version 2, unverändert seit Kern v0.3)
-Änderungen gegenüber 1.6 (Auftrag E, Punkt 1 und 2; Kernbindung von v0.3 auf v0.8 gehoben, Durchsicht unter den Änderungen): geltende Regeln aus § 9 in die Regelabschnitte – Decke einer Kette und Vorgabenstand nach § 7, Stufenzahl im Typnamen nach § 6, Koordinatenschreibweise der Hefte 2019/2020 nach § 4, Materiallage nach § 1; erledigte Punkte aus § 9 gestrichen (Geschichte in fhr-pruefungen.md), Vorschlag zu msa.md dorthin verschoben; § 2 Upload-Satz gestrichen, § 5 Probelauf benannt.
+Änderungen gegenüber 1.6 (Auftrag E, Punkt 1 und 2; Kernbindung von v0.3 auf v0.8 gehoben, Durchsicht unter den Änderungen; Punkt 6: fhr-bau.py v0.3 mit Selbstprüfung des Bestands bei leerem ZEILEN): geltende Regeln aus § 9 in die Regelabschnitte – Decke einer Kette und Vorgabenstand nach § 7, Stufenzahl im Typnamen nach § 6, Koordinatenschreibweise der Hefte 2019/2020 nach § 4, Materiallage nach § 1; erledigte Punkte aus § 9 gestrichen (Geschichte in fhr-pruefungen.md), Vorschlag zu msa.md dorthin verschoben; § 2 Upload-Satz gestrichen, § 5 Probelauf benannt.
 Änderungen gegenüber 1.5: § 4 und § 9 Bedeutung der Buchstaben A, B, C aus dem Dateibestand erschlossen; § 9 kein IQB-Pool für die FHR.
 
 Kernbindung (17.09.2026, Auftrag E, Punkt 2): Die Kernänderungen 0.4 bis 0.8

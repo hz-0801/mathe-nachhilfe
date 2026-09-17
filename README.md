@@ -8,7 +8,7 @@ Ein Repo für die Mathe-Nachhilfe: Prüfungskataloge, die Prompts, die LaTeX-Vor
 | `pruefungsprompt.md` | Prüfungsprompt – baut Prüfungen mit Katalog, heute Profil msa. Projektanweisung im Aufgaben-Projekt ist eine Kopie. |
 | `mathblatt.sty`, `Anleitung_mathblatt.md` | LaTeX-Vorlage und ihre Anleitung; die Prompts holen beide beim Bau. Version in Zeile 2. |
 | `katalog-prompt.md`, `msa.md` | Erfassung: Kern (Methode) und Profil msa (P10 Brandenburg, FOR). |
-| `typen.csv`, `katalog-basis.csv`, `katalog-kontext.csv` | Katalog msa: Typenliste, Basis- und Kontextaufgaben. |
+| `typen.csv`, `katalog-basis.csv`, `katalog-kontext.csv`, `msa-bau.py` | Katalog msa: Typenliste, Basis- und Kontextaufgaben, Bau-Skript mit Selbstprüfung. |
 | `fhr.md`, `fhr-*` | Profil fhr (Fachhochschulreife Brandenburg): Profil, Heftliste, Typenliste, Katalog, Bau-Skript, Typenbibliothek. |
 | `abi.md`, `abi-*` | Profil abi (Zentralabitur Berlin/Brandenburg 2017/2018, Verlagsscans ab 2019): Profil, Quellen, Aufbau, Heftliste, Katalog, Bau-Skript, Vorgaben. Arbeitsanweisung in `CLAUDE.md`. |
 | `iqb.md`, `iqb-*` | Profil iqb (IQB-Aufgabenpool, 624 Aufgaben mit Erwartungshorizont): Profil, Quellen (md und csv), Stapelliste, Katalog, Bau-Skript. Arbeitsanweisung in `CLAUDE.md` § 4. |

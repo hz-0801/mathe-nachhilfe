@@ -19,7 +19,7 @@ Klammern; `<kennung>` ist die Profil-Kennung (msa, fhr, abi, iqb).
 | Typenliste | `<kennung>-typen.csv`; msa `typen.csv`; abi+iqb `abitur-typen.csv` | typen.csv, fhr-typen.csv, abitur-typen.csv | drei Muster: ohne Präfix, Profilpräfix, Familienname „abitur" für die geteilte Liste |
 | Prüfungsliste (Hefte/Stapel, Befunde, Änderungslog) | `<kennung>-pruefungen.md`; msa `pruefungen.md` | pruefungen.md, fhr-pruefungen.md, abi-pruefungen.md, iqb-pruefungen.md | msa ohne Präfix |
 | Quellenverzeichnis | `<kennung>-quellen.md`, dazu erzeugte `<kennung>-quellen.csv` mit Erzeuger `<kennung>-quellen.py` | abi-quellen.md; iqb-quellen.md, .csv, .py | msa: Quelle in pruefungen.md § 1; fhr: in fhr.md § 2 und fhr-pruefungen.md – kein eigenes Verzeichnis |
-| Bau-Skript | `<kennung>-bau.py` | fhr-bau.py, abi-bau.py, iqb-bau.py | msa hat keines (Erfassung vor dem Skriptmodell); jedes Skript trägt die ZEILEN des letzten Hefts/Stapels |
+| Bau-Skript | `<kennung>-bau.py` | fhr-bau.py, abi-bau.py, iqb-bau.py, msa-bau.py (seit 17.09.2026) | konsistent; fhr, abi und iqb tragen die ZEILEN des letzten Hefts/Stapels |
 | Abgleichskript | `abgleich.py` (bis Lauf 11 `iqb-abgleich.py`) | 1 | ohne Präfix, obwohl es nur die Familie abi/iqb betrifft |
 | Erzeuger abgeleiteter Dateien | `<kennung>-<erzeugnis>.py` → `<kennung>-<erzeugnis>.md` | fhr-typenbibliothek.py/.md; iqb-quellen.py/.csv | Muster konsistent |
 | Vorgabendatei (amtliche Vorgaben, Jahrescheck) | `<kennung>-vorgaben.md`; msa `vorgaben.md` | vorgaben.md (msa), abi-vorgaben.md (abi und iqb) | msa ohne Präfix; abi-vorgaben.md gilt für zwei Profile unter dem Präfix eines davon |
