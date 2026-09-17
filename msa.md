@@ -1,6 +1,6 @@
 # PROFIL MSA – Prüfung am Ende der Jahrgangsstufe 10, Mathematik, Brandenburg
 Version 0.5 · 17.09.2026 · Kennung msa · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
-Änderungen gegenüber 0.4 (Auftrag F, Punkt 1): Die Dateien dieses Profils tragen das Präfix msa- wie die der anderen Profile – typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv, katalog-kontext.csv → msa-katalog-kontext.csv, pruefungen.md → msa-pruefungen.md, vorgaben.md → msa-vorgaben.md (Variante B nach namensschema.md § 4; Inhalt unverändert, Historie per git mv erhalten). Verweise in der Kernbindung, § 1, § 2, § 4 und § 7 nachgezogen; § 2 nennt die Katalogdateien in einer Zeile; msa-bau.py v0.2 liest die neuen Namen. Kernbindung v0.9 (Kern § 1 nennt die neuen Namen).
+Änderungen gegenüber 0.4 (Auftrag F, Punkt 1 und 5): Die Dateien dieses Profils tragen das Präfix msa- wie die der anderen Profile – typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv, katalog-kontext.csv → msa-katalog-kontext.csv, pruefungen.md → msa-pruefungen.md, vorgaben.md → msa-vorgaben.md (Variante B nach namensschema.md § 4; Inhalt unverändert, Historie per git mv erhalten). Verweise in der Kernbindung, § 1, § 2, § 4 und § 7 nachgezogen; § 2 nennt die Katalogdateien in einer Zeile; msa-bau.py v0.2 liest die neuen Namen. Kernbindung v0.9 (Kern § 1 nennt die neuen Namen). Punkt 5: Kern § 6 setzt Zeilenthema = Typthema mit Vorbehalt für das Profil – § 6 nennt die eigene Regel dieses Profils (Thema der Aufgabenstellung; 42 von 393 Zeilen weichen ab); Kern § 5 macht die Eichung zur Kennzahl nur bei amtlichen Anforderungsbereichen – hier entfällt sie, bis Zeilen mit afb_amtlich erfasst sind (Kernbindung).
 Änderungen gegenüber 0.3 (Auftrag E, Punkt 1 und 2): § 2 Umgebungsangabe „Sandbox" gestrichen; § 6 Probelauf als abgeschlossen benannt; § 4 Koordinatenschreibweise mit „|" festgehalten (Vorschlag aus fhr.md § 9 hierher verschoben); Kernbindung von v0.3 auf v0.8 gehoben (Durchsicht unten). Punkt 6: msa-bau.py v0.1 angelegt (§ 2), Typ „Behauptung prüfen" mit Leitidee und Thema seiner ersten Fundstelle.
 
 Kernbindung (17.09.2026, Auftrag E, Punkt 2; 0.9 nach Auftrag F, Punkt 1): Die Kernänderungen 0.4 bis 0.9
@@ -11,8 +11,7 @@ Profile abi und iqb und bindet dieses Profil nicht. Die Markierungen „Dublette
 von:", die Vormerkung und „Abgewandelt von:" (0.5, § 5) setzen eine mit einem
 anderen Katalog geteilte Typenliste voraus, die es hier nicht gibt; die
 Trägerbindung gilt für abi und iqb. Vorrang des Amtlichen und Maßstab der
-Schätzung (0.6, 0.7, § 5) gelten auch hier: ein amtlicher Anforderungsbereich liegt nur bei den Musteraufgaben 2028 vor (§ 4); wird er erfasst, steht er in afb_amtlich, die eigene Schätzung entsteht vorher und wird nicht angepasst, die Eichung ist Kennzahl (bei allen anderen Heften: Schätzung ohne Maßstab, afb_amtlich leer). Die Regel für das
-Zeilenthema überlässt der Kern dem Profil (0.4, § 6): in diesem Profil trägt die Zeile das Thema der Aufgabenstellung, unabhängig vom Thema ihres Typs in msa-typen.csv (Stand der Erfassung 2026-09-05, Kern v0.3); ob msa die Regel Zeilenthema = Typthema von abi und iqb übernimmt, ist offen – Vorschlag: erst mit einem msa-bau.py entscheiden, das die Gleichheit prüfen könnte.
+Schätzung (0.6, 0.7, § 5) gelten auch hier: ein amtlicher Anforderungsbereich liegt nur bei den Musteraufgaben 2028 vor (§ 4); wird er erfasst, steht er in afb_amtlich, die eigene Schätzung entsteht vorher und wird nicht angepasst, die Eichung ist dann Kennzahl (Kern § 5, 0.9: Kennzahl in Profilen mit amtlichen Anforderungsbereichen); solange keine Zeile afb_amtlich trägt, entfällt sie – heute bei allen Heften Schätzung ohne Maßstab. Zeilenthema (0.9, § 6): der Kern setzt Zeilenthema = Typthema als Regel mit dem Vorbehalt, dass ein Profil eine eigene festlegt; dieses Profil legt seine eigene fest (§ 6: Thema der Aufgabenstellung, so seit der Erfassung 2026-09-05 unter Kern v0.3; 42 von 393 Zeilen weichen vom Thema ihres Typs ab, Stand 17.09.2026). Ob msa die Kernregel übernimmt, ist offen; msa-bau.py könnte die Gleichheit prüfen.
 
 ## 1 Prüfung
 
@@ -50,7 +49,7 @@ Zahlen und Operationen · Größen und Messen · Raum und Form · Gleichungen un
 
 ## 6 Themenliste
 
-Feste Ebene zwischen Leitidee und Typ. Stand seit dem Probelauf (die ersten drei Hefte 2025, 2026 FOR und 2024, 05.09.2026, konzept.md § 7) unverändert und mit allen zwölf Heften bestätigt; Ergänzungen nur über den Bericht.
+Feste Ebene zwischen Leitidee und Typ. Stand seit dem Probelauf (die ersten drei Hefte 2025, 2026 FOR und 2024, 05.09.2026, konzept.md § 7) unverändert und mit allen zwölf Heften bestätigt; Ergänzungen nur über den Bericht. Zeilenthema: in diesem Profil trägt die Zeile das Thema der Aufgabenstellung, auch wenn ihr Typ in msa-typen.csv unter einem anderen Thema steht – eigene Regel nach Kern § 6 (Stand 17.09.2026: 42 von 393 Zeilen weichen vom Thema ihres Typs ab).
 
 Zahlen und Operationen: Rationale Zahlen rechnen · Brüche und Dezimalzahlen · Prozentrechnung · Zinsrechnung · Zehnerpotenzen und Näherungswerte · Potenzen und Wurzeln · Terme umformen · Runden und Überschlag
 Größen und Messen: Einheiten umrechnen · Flächeninhalt und Umfang · Volumen und Oberfläche · Satz des Pythagoras · Trigonometrie im rechtwinkligen Dreieck · Sinussatz · Maßstab

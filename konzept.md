@@ -19,7 +19,7 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     abitur-typen.csv       gemeinsame Typenliste von abi und iqb (seit 15.09.2026, vorher abi-typen.csv und iqb-typen.csv)
     abi-<zielprüfung>-geltung.md  Geltung je Zielprüfung (be-gk, be-lk, bb-gk, bb-ea; seit 17.09.2026): Themen ja/nein, ausgeschlossene
                            Aufgabenformen, Rechnerfassung; das Profil nennt seine Zielprüfungen, die Bau-Skripte lesen die Dateien
-    namensschema.md        Namensschema für Dateiarten und Kennungen (Vorschlag 17.09.2026, Auftrag D; Umbenennungen offen)
+    namensschema.md        Namensschema für Dateiarten und Kennungen (Auftrag D; Variante B umgesetzt am 17.09.2026, Entscheidung 32)
     abitur-abgleich.py     Abgleichlauf über die gemeinsame Typenliste und beide Kataloge (seit 17.09.2026, vorher abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py)
     hefte/                 gescannte Verlagshefte (Stark) für abi ab 2019, lokal, per .gitignore nicht im Repo
     msa-vorgaben.md, abi-vorgaben.md  amtliche Vorgaben mit Jahrescheck für msa bzw. abi/iqb
@@ -39,7 +39,7 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
                            für fhr vorhanden (12.09.2026), für msa noch nicht
     pdf/                   Archiv der Hefte (noch nicht angelegt)
 
-Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Kommt ein zweites Profil, wird die Ordnung dann entschieden (eigenes Repo oder Präfixe).
+Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Die Ordnung darin regeln die Präfixe nach namensschema.md (Entscheidung 32).
 
 Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentlich, damit curl ohne Anmeldung liest). Die Basis-URL steht in msa.md, im Prüfungsprompt (2.1, 4.6) und im Masterprompt (4.6) – vier Stellen, die bei anderer Ablage geändert werden. Claude liest per curl, der Lehrer lädt geänderte Dateien hoch. Geschrieben wird nur beim Aufbau und einmal im Jahr.
 
@@ -173,6 +173,12 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 31. Vorrang des Amtlichen und Maßstab der Schätzung (2026-09-17, Kern § 5 v0.6 und v0.7): Die eigene Schätzung wird nicht an den amtlichen Bereich angepasst; eine übernommene Schätzung und eine wortgleiche Dublette folgen ihm. Die Eichung ist in jedem Profil Kennzahl, Schranke (85 %) nur für Poolstapel; bei Landesheften ist sie ausgesetzt.
     Zahl: Landesschätzungen mit amtlichem Bereich 22 von 41 (54 %) gegen 94 % im Pool (abi-pruefungen.md § 4, Lauf 20; abi.md § 7); heute Pool 1357 von 1442 (94 %), Landeshefte 323 von 344 (93 %, geerbt) bei 450 Zeilen ohne Maßstab.
     Kippt bei: einer Pool-Eichung unter 85 % über den Bestand (dann ist die Schätzregel des Kerns nachzujustieren) oder einer Landes-Eichung, die bei mindestens 100 eigenen Zeilen mit Maßstab 85 % erreicht (dann kann die Schranke für abi zurück).
+32. Dateibenennung (2026-09-17, Auftrag F; namensschema.md § 2–4): Variante B. Die Kurzkennungen msa, fhr, abi, iqb bleiben als Aliasse der Vollform – msa = msa-bb, fhr = fhr-bb, abi = abi-bebb, iqb = abi-iqb –, und der Familienname abitur- steht für die Familie abi (abitur-typen.csv, abitur-vokabular.md, abitur-abgleich.py). Jedes Profil trägt sein Präfix (msa seit dem 17.09.2026: msa-typen.csv, msa-katalog-basis.csv, msa-katalog-kontext.csv, msa-pruefungen.md, msa-vorgaben.md; git mv, Inhalt unverändert), Befunde tragen befund- (befund-abi-iqb-typen.md, befund-repo-bestand.md). Neue Dateien und neue Profile tragen die Vollform nach namensschema.md § 2 (abi-ni.md, abi-ni-ga-geltung.md); die bestehenden Aliasse werden dafür nicht nachträglich umbenannt. Variante A (Vollform durchgängig) ist aufgeschoben, nicht verworfen.
+    Zahl: Variante B rund 145 Verweise (nachgezogen am 17.09.2026: 149 in 21 Dateien, keine Katalogzeile), Variante A rund 1 200 (namensschema.md § 4; 18 davon in Katalogzeilen, nur per Abgleichlauf änderbar).
+    Kippt bei: einem zweiten Träger zu einer bestehenden Prüfungsart (abi-ni neben abi-bebb) oder einer zweiten Schulform (msa-bb-gym neben msa-bb-os) – dann ist der Alias mehrdeutig (namensschema.md § 3 (4)) und Variante A neu zu prüfen, mit dem dann größeren Bestand.
+33. Selbstprüfung als Bedingung eines vollständigen Profils (2026-09-17, Auftrag F; Kern § 7, CLAUDE.md § 3): Ein Profil gilt als unvollständig, solange sein Bau-Skript keine Selbstprüfung bei leerer Zeilenliste kennt – den Lauf, der den ganzen Bestand nach Kern § 5 und § 7 prüft und nichts schreibt. Befund dahinter: msa hatte bis zum 17.09.2026 kein Bau-Skript (Erfassung im Chat unter Kern v0.3), fhr-bau.py bis v0.2 keine Selbstprüfung; 646 Katalogzeilen (msa 393, fhr 253) waren nie maschinell gegen Kern und Profil geprüft. Nachgerüstet in Auftrag E, Punkt 6 (msa-bau.py v0.1, fhr-bau.py v0.3); beide Bestände bestanden auf Anhieb – die Regel sichert nicht einen gefundenen Fehler, sondern dass ein Bestand überhaupt prüfbar ist.
+    Zahl: 646 von 2883 Katalogzeilen (22 %) bis zum 17.09.2026 ohne maschinelle Prüfung, danach 0 Fehler (Auftrag E, Punkt 6); heute vier Bau-Skripte mit Selbstprüfung über 2883 Zeilen.
+    Kippt bei: keinem Befund – Setzung; zu überdenken nur, wenn ein Bestand ohne Skript entsteht (Erfassung im Chat wie msa bis 2026-09-05) und das Nachrüsten mehr kostet als ein Neubau.
 
 ## 5 Verworfen
 
@@ -274,8 +280,10 @@ Kennung oder eine Regel des Profils:
    Prüfungsart → eigene Listen, die vorhandenen als Muster (befund-typenlisten.md).
 
 **Welche Dateien entstehen, in dieser Reihenfolge** (Namen nach
-namensschema.md § 2; bis zur Entscheidung über die Umbenennungen dort mit
-den heutigen Kurzkennungen):
+namensschema.md § 2 in der Vollform, Entscheidung 32; die vier bestehenden
+Profile behalten ihre Kurzkennungen als Aliasse – msa = msa-bb, fhr = fhr-bb,
+abi = abi-bebb, iqb = abi-iqb –, die Familie abi ihren Namen abitur- in
+abitur-typen.csv, abitur-vokabular.md und abitur-abgleich.py):
 
 1. `<profil>.md` – das Profil: Prüfung, Ablage und Quellen, Aufbau, Kürzel
    und Werte, Leitideen, Themenliste, Zeile „Zielprüfungen:", Besonderheiten
@@ -292,8 +300,10 @@ den heutigen Kurzkennungen):
 5. `<profil>-bau.py` – aus dem jüngsten Bau-Skript: alles unter „QUELLEN
    UND PRÜFUNG" übernehmen, Konstanten (KAT, TYP, VOKABULAR, PROFIL,
    GELTUNG_DATEI, ANDERE_KATALOGE) setzen, profilspezifische Prüfungen
-   (id-Muster, Kürzel, Pflichtfelder) anpassen. Zuerst eine Feldprobe: ein
-   Heft mit probe = True, nichts geschrieben (abi.md § 7, iqb.md § 7).
+   (id-Muster, Kürzel, Pflichtfelder) anpassen; die Selbstprüfung bei leerem
+   ZEILEN gehört von Anfang an dazu – ohne sie ist das Profil unvollständig
+   (Entscheidung 33, Kern § 7). Zuerst eine Feldprobe: ein Heft mit probe =
+   True, nichts geschrieben (abi.md § 7, iqb.md § 7).
 6. `<profil>-katalog.csv`, `<familie>-typen.csv` (neu oder geteilt) und
    `<profil>-pruefungen.md` (Heftliste, Kennzahlen, Befunde, Änderungslog)
    entstehen mit dem ersten Heft; Selbstprüfung und byteidentischer Rerun
@@ -394,6 +404,14 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag F, Punkte 4–7): Entscheidung 32 Dateibenennung (Variante B,
+  Kurzkennungen als Aliasse der Vollform, neue Dateien und Profile in Vollform;
+  § 2 und § 8 entsprechend); Entscheidung 33 Selbstprüfung als Bedingung eines
+  vollständigen Profils mit dem Befund 646 nie maschinell geprüfte Zeilen (Kern v0.9
+  § 7, CLAUDE.md § 3). Kern v0.9 § 6 Zeilenthema = Typthema mit Vorbehalt für das
+  Profil, § 5 Eichung nur bei amtlichen Anforderungsbereichen (Vorschläge aus
+  Auftrag E, Punkt 2; msa.md v0.5 und fhr.md v1.8 nennen ihre Regel). .gitignore
+  geprüft: keine umbenannten Pfade, unverändert.
 - 2026-09-17 (Auftrag F, Punkt 3): abi-iqb-typen.md → befund-abi-iqb-typen.md (Kopfvermerk:
   Messung vor Abgleichlauf 12, die gemessenen Dateien existieren nicht mehr) und
   repo-bestand.md → befund-repo-bestand.md (namensschema.md § 2, Muster befund-<gegenstand>);

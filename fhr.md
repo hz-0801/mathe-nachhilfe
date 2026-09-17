@@ -1,6 +1,6 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
 Version 1.8 · 17.09.2026 · Kennung fhr · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
-Änderungen gegenüber 1.7 (Auftrag F, Punkt 1): § 2 Ablageort der amtlichen Vorgaben – bisher „vorgaben.md" (die Datei des Profils msa, seit dem 17.09.2026 msa-vorgaben.md); jetzt eine eigene, noch nicht angelegte fhr-vorgaben.md nach dem Muster von Entscheidung 19. Kernbindung v0.9 (Kern § 1 nennt die msa-Dateien mit Präfix; für dieses Profil ohne Folge).
+Änderungen gegenüber 1.7 (Auftrag F, Punkt 1 und 5): § 2 Ablageort der amtlichen Vorgaben – bisher „vorgaben.md" (die Datei des Profils msa, seit dem 17.09.2026 msa-vorgaben.md); jetzt eine eigene, noch nicht angelegte fhr-vorgaben.md nach dem Muster von Entscheidung 19. Kernbindung v0.9 (Kern § 1 nennt die msa-Dateien mit Präfix; für dieses Profil ohne Folge). Punkt 5: Kern § 6 setzt Zeilenthema = Typthema mit Vorbehalt für das Profil – § 6 nennt die eigene Regel dieses Profils (Punkt-Schwerpunkt); Kern § 5 lässt die Eichung entfallen, wo es keine amtlichen Anforderungsbereiche gibt – der Vorschlag aus Auftrag E ist umgesetzt (Kernbindung).
 Änderungen gegenüber 1.6 (Auftrag E, Punkt 1 und 2; Kernbindung von v0.3 auf v0.8 gehoben, Durchsicht unter den Änderungen; Punkt 6: fhr-bau.py v0.3 mit Selbstprüfung des Bestands bei leerem ZEILEN): geltende Regeln aus § 9 in die Regelabschnitte – Decke einer Kette und Vorgabenstand nach § 7, Stufenzahl im Typnamen nach § 6, Koordinatenschreibweise der Hefte 2019/2020 nach § 4, Materiallage nach § 1; erledigte Punkte aus § 9 gestrichen (Geschichte in fhr-pruefungen.md), Vorschlag zu msa.md dorthin verschoben; § 2 Upload-Satz gestrichen, § 5 Probelauf benannt.
 Änderungen gegenüber 1.5: § 4 und § 9 Bedeutung der Buchstaben A, B, C aus dem Dateibestand erschlossen; § 9 kein IQB-Pool für die FHR.
 
@@ -12,8 +12,7 @@ Profile abi und iqb und bindet dieses Profil nicht. Die Markierungen „Dublette
 von:", die Vormerkung und „Abgewandelt von:" (0.5, § 5) setzen eine mit einem
 anderen Katalog geteilte Typenliste voraus, die es hier nicht gibt; die
 Trägerbindung gilt für abi und iqb. Vorrang des Amtlichen und Maßstab der
-Schätzung (0.6, 0.7, § 5) gelten auch hier: die Hefte tragen einen amtlichen Erwartungshorizont, aber keinen Anforderungsbereich (§ 4, afb_amtlich leer), also ist jede Schätzung in niveau_geschaetzt eine ohne Maßstab; die Eichung entfällt (0 gewertete Zeilen) und fhr-bau.py gibt sie deshalb nicht aus – Vorschlag: den Kern § 5 um den Halbsatz „bei Profilen ohne amtlichen Bereich entfällt sie" ergänzen, nicht entschieden. Die Regel für das
-Zeilenthema überlässt der Kern dem Profil (0.4, § 6): hier gilt der Punkt-Schwerpunkt bei mehrleistigen Zeilen (§ 7), der Kern nennt das in § 6 ausdrücklich.
+Schätzung (0.6, 0.7, § 5) gelten auch hier: die Hefte tragen einen amtlichen Erwartungshorizont, aber keinen Anforderungsbereich (§ 4, afb_amtlich leer), also ist jede Schätzung in niveau_geschaetzt eine ohne Maßstab; die Eichung entfällt nach Kern § 5 (0.9: wo es keine amtlichen Bereiche gibt, entfällt sie – der Vorschlag aus Auftrag E ist damit umgesetzt), fhr-bau.py gibt sie nicht aus. Zeilenthema (0.9, § 6): der Kern setzt Zeilenthema = Typthema als Regel mit dem Vorbehalt, dass ein Profil eine eigene festlegt; hier gilt die eigene Regel Punkt-Schwerpunkt bei mehrleistigen Zeilen (§ 6, § 7).
 
 ## 1 Prüfung
 
@@ -69,7 +68,7 @@ Die ersten drei sind die Gliederung der Prüfungsschwerpunkte und gleichzeitig d
 
 ## 6 Themenliste
 
-Feste Ebene zwischen Leitidee und Typ. Die Klammer nennt den Schwerpunktstand: **27** nur Prüfungsschwerpunkte 2026/27 (Prüfung 2027), **28** nur 2027/28 (Prüfung 2028), ohne Angabe in beiden. Der Stand ist kein Katalogfeld, sondern wird über das Thema gefiltert – das Schema bleibt unverändert.
+Feste Ebene zwischen Leitidee und Typ. Die Klammer nennt den Schwerpunktstand: **27** nur Prüfungsschwerpunkte 2026/27 (Prüfung 2027), **28** nur 2027/28 (Prüfung 2028), ohne Angabe in beiden. Der Stand ist kein Katalogfeld, sondern wird über das Thema gefiltert – das Schema bleibt unverändert. Zeilenthema: in diesem Profil gilt statt der Kernregel Zeilenthema = Typthema (Kern § 6) die eigene Regel Punkt-Schwerpunkt – bei mehrleistigen Zeilen trägt die Zeile das Thema der Leistung mit den meisten Punkten, auch wenn der Typ in fhr-typen.csv unter einem anderen Thema steht (§ 7).
 
 Differentialrechnung: Ableitungen bilden · Nullstellen ganzrationaler Funktionen · Extrem- und Sattelpunkte · Monotonie und Krümmung · Wendepunkte · Symmetrie nachweisen · Verhalten im Unendlichen · Graph zeichnen und zuordnen · Anstieg und Tangente · Normale (28) · Schnittpunkte von Funktionsgraphen · Funktionsgleichung bestimmen · Extremwertaufgaben (27)
 

@@ -1,9 +1,18 @@
 # NAMENSSCHEMA – Dateiarten, Kennungen, Erweiterbarkeit
-Version 0.1 · 17.09.2026 · Vorschlag (Auftrag D „Namensschema, Erweiterbarkeit,
-Begründungen", Teil 1); gilt für alle Profile. Über die Umbenennungen in § 4
-entscheidet der Lehrer; bis dahin gelten die heutigen Namen (§ 1), und neue
-Dateien folgen § 2 und § 3, wo das ohne Umbenennung möglich ist (erste
-Anwendung: die Geltungsdateien `abi-<zielprüfung>-geltung.md`, Teil 2).
+Version 0.2 · 17.09.2026 · gilt für alle Profile (Auftrag D „Namensschema,
+Erweiterbarkeit, Begründungen", Teil 1; Entscheidung des Lehrers in Auftrag F,
+konzept.md Entscheidung 32). Umgesetzt ist Variante B aus § 4 (17.09.2026):
+typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv,
+katalog-kontext.csv → msa-katalog-kontext.csv, pruefungen.md →
+msa-pruefungen.md, vorgaben.md → msa-vorgaben.md, abgleich.py →
+abitur-abgleich.py, abi-iqb-typen.md → befund-abi-iqb-typen.md,
+repo-bestand.md → befund-repo-bestand.md (git mv, Inhalt unverändert, 149
+Verweise nachgezogen). Die Kurzkennungen msa, fhr, abi, iqb bleiben Aliasse
+der Vollform (msa-bb, fhr-bb, abi-bebb, abi-iqb; § 3 (4)); neue Dateien und
+neue Profile tragen die Vollform nach § 2. Variante A ist aufgeschoben, nicht
+verworfen. § 1 und § 4 beschreiben den Stand vor der Umsetzung und bleiben
+als Messung stehen. Erste Anwendung von § 2 vor der Entscheidung: die
+Geltungsdateien `abi-<zielprüfung>-geltung.md` (Teil 2).
 
 ## 1 Bestand: Dateiarten und heutiges Benennungsmuster
 
@@ -139,7 +148,7 @@ eindeutig. Wer die Aliasse behält, muss beim ersten zweiten Träger derselben
 Prüfungsart das ältere Profil umbenennen – dann mit größerem Bestand als
 heute.
 
-## 4 Umbenennungen, die das Schema kostet (Liste; nicht ausgeführt)
+## 4 Umbenennungen, die das Schema kostet (Liste; Stand vor der Umsetzung – Variante B ausgeführt am 17.09.2026, Variante A nicht)
 
 Zahlen: Verweise auf den Dateinamen als eigenes Wort in allen Repo-Dateien
 außer den drei Quelltexten (Skript vom 17.09.2026), aufgeteilt nach Skripten
