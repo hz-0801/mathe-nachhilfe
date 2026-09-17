@@ -475,6 +475,17 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
 
 ## 9 Offen
 
+- Dublette zwischen zwei abi-Heften (17.09.2026, Hefte 2026-bb-gk und
+  2026-bb-ea): die Dublettenregel des Katalogs (§ 7) deckt nur den Verweis
+  eines Landeshefts auf den Pool ab – „Dublette von:" verlangt eine
+  Pool-Kennung, die Zielzeile wird nur im iqb-Katalog gesucht, die Poolquote
+  zählt jeden Verweis als Pool, die geerbte Eichung kennt nur Poolzeilen.
+  Wiederholen zwei abi-Hefte einander ohne Pool (etwa GK und LK desselben
+  Landes mit derselben Aufgabe), bräuchte es eine eigene Markierung mit
+  eigener Zählung. 2026 war das nicht nötig: Aufgabe 3 und 4 stehen in beiden
+  Heften, aber je aus der Pooldatei des eigenen Niveaus (grundlegend/erhöht),
+  die Gleichheit der Hefte ist Poolgleichheit. Offen bleibt die Regel für den
+  Fall ohne Pool (Entscheidung des Lehrers).
 - Beantwortet (13.09.2026): Land und Niveau des Schülers sind nicht auf eines
   festgelegt – der Schüler kann beides schreiben. Die frühere Annahme
   „Brandenburg, erhöhtes Niveau" ist gestrichen; die Leitfassungsregel in § 7

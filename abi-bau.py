@@ -87,16 +87,16 @@ import csv, io, os, re, sys
 # ===================================================================== KONFIG
 KONFIG = {
     "jahr": "2026",
-    "papier": "2026-bb-gk",
-    "datei": "hefte/2026-bebb-gk.pdf",  # Stark-Band, echtes PDF mit Textebene, lokal (abi.md § 2); Dateiname trägt noch bebb
-    "seiten": 36,
+    "papier": "2026-bb-ea",
+    "datei": "hefte/2026-bebb-lk.pdf",  # Stark-Band, echtes PDF mit Textebene, lokal (abi.md § 2); Dateiname trägt noch bebb-lk
+    "seiten": 47,
     # Sollpunkte je Aufgabe aus der BE-Spalte; jede Aufgabe des Hefts muss hier
     # stehen (Vollständigkeit). Kein Gesamtsoll: Wahlaufgaben 2.1/2.2. Der
-    # hilfsmittelfreie Teil (Aufgabe 1) zählt als 1.1 bis 1.9 in Heftreihenfolge
-    # (1.1–1.3 Pflicht, 1.4–1.6 = Wahlaufgaben 1, 1.7–1.9 = Wahlaufgaben 2); 2.1
-    # und 2.2 haben zwei Aufgabenteile, fortlaufend a–i.
-    "soll": {"1.1": 5, "1.2": 5, "1.3": 5, "1.4": 5, "1.5": 5, "1.6": 5, "1.7": 5, "1.8": 5, "1.9": 5,
-             "2.1": 25, "2.2": 25, "3": 15, "4": 15},
+    # hilfsmittelfreie Teil (Aufgabe 1) zählt als 1.1 bis 1.10 in Heftreihenfolge
+    # (1.1–1.4 Pflicht, 1.5–1.10 Wahlaufgaben); 2.1 und 2.2 haben zwei
+    # Aufgabenteile, fortlaufend a–i bzw. a–h; 4 hat drei Aufgabenteile, a–h.
+    "soll": {"1.1": 5, "1.2": 5, "1.3": 5, "1.4": 5, "1.5": 5, "1.6": 5, "1.7": 5, "1.8": 5, "1.9": 5, "1.10": 5,
+             "2.1": 30, "2.2": 30, "3": 20, "4": 20},
     "probe": False,
 }
 
@@ -359,10 +359,10 @@ def row(**kw):
 #       fehlerquelle="...", bemerkung="Eigene Rechnung.")
 # Pool-Teilaufgabe in einem Landesheft: bemerkung beginnt mit
 #   „Dublette von: 2024MgrundlegendAAnalysis12-a." – typ und typ_neben wie dort.
-# Der Block ist leer; zuletzt erfasst: 2026-bb-gk (17.09.2026, 45 Zeilen, 6 neue
+# Der Block ist leer; zuletzt erfasst: 2026-bb-ea (17.09.2026, 50 Zeilen, 6 neue
 # Typen, KONFIG oben; Lauf aus dem HEAD-Stand byteidentisch). Die Hefte 2017-bb-ea,
 # 2018-bb-ea, 2018-be-gk, 2022-bebb-gk, 2022-bebb-lk, 2023-bebb-gk, 2023-bebb-lk,
-# 2024-bebb-gk, 2025-bebb-gk und 2026-bb-gk stehen im Katalog.
+# 2024-bebb-gk, 2025-bebb-gk, 2026-bb-gk und 2026-bb-ea stehen im Katalog.
 
 NEUE_TYPEN = [
     # ("Typname", "Sachgebiet", "Thema", "Definition in einem Satz.", "beispiel_id"),
