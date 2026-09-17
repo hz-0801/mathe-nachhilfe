@@ -47,6 +47,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2026-ea-B (WTR) | 9 von 17 (MMS-Zweig unten; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 60 Zeilen** · 46 Typen neu, 13 wiederverwendet · Eichung 59 von 60 (Spalte AB) |
 | 2025-ga-B (WTR) | 8 von 14 (MMS-Zweig Reserve) | **erfasst 2026-09-14, 42 Zeilen** · 30 Typen neu, 11 wiederverwendet · Eichung 42 von 42 (Spalte AB) |
 | 2025-ea-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 3 Aufgabe 1 Dublette) | **erfasst 2026-09-14, 47 Zeilen** · 32 Typen neu, 12 wiederverwendet · Eichung 47 von 47 (Spalte AB) |
+| 2025-ea-B (MMS) | 4 von 7 (Stochastik MMS 1–3 Dubletten der WTR-Dateien) | **erfasst 2026-09-17, 25 Zeilen – wegen Landesheftverweisen** (7 Vormerkungen aus 2025-bebb-lk 2.1 auf Analysis MMS 1; Reserve geöffnet in Auftrag C Teil 2, Abbruchkriterium unberührt) · 19 Typen neu, 6 wiederverwendet · Eichung 24 von 25 (Spalte AB; Schätzung nicht blind, § 4) · Delta-Stapel erhöht |
 | 2024-ga-B (WTR) | 7 von 13 (MMS-Zweig Reserve) | **erfasst 2026-09-14, 49 Zeilen** · 31 Typen neu, 17 wiederverwendet · Eichung 46 von 49 (Spalte AB) |
 | 2024-ea-B (WTR) | 7 von 13 (MMS-Zweig Reserve) | **erfasst 2026-09-14, 61 Zeilen** · 44 Typen neu, 17 wiederverwendet · Eichung 59 von 61 (Spalte AB) |
 | 2023-ga-B (WTR) | 8 von 15 (MMS-Zweig Reserve; Stochastik WTR 2 trägt „MMS/WTR") | **erfasst 2026-09-14, 61 Zeilen** · 40 Typen neu, 20 wiederverwendet · Eichung 57 von 61 (Spalte AB) |
@@ -117,6 +118,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2022-ga-B-wtr (Teil B, Reserve) | 52 | 54 | 28 (52 %) | 50 von 52 (96 %) seit Lauf 20, Liste v0.7, Spalte AB; im Stapellauf 41 von 52 (79 %): eigene 31 von 33, 19 übernommene 10 | 0 | 0 | 11 von 54 (20 %); Schnitt 39 Werte, 51 von 52 Zeilen bekannt (98 %) | 7, 6, 7, 6 | 19 |
 | 2020-ga-B-wtr (Teil B, Reserve) | 47 | 48 | 27 (56 %) | 47 von 47 (100 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht, keine unabhängige Kennzahl (§ 4) | 0 | 0 | 16 von 48 (33 %); Schnitt 32 Werte, 42 von 47 Zeilen bekannt (89 %) | 9, 4, 9, 4 | 7 |
 | 2021-ga-B-wtr (Teil B, Reserve) | 47 | 47 | 19 (40 %) | 45 von 47 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 15 von 47 (32 %); Schnitt 30 Werte, 41 von 47 Zeilen bekannt (87 %) | 8, 6, 8, 6 | 12 |
+| 2025-ea-B-mms (Teil B, Reserve, Delta-Stapel erhöht) | 25 | 25 | 19 (76 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 2 von 25 (8 %); Schnitt 21 Werte, 24 von 25 Zeilen bekannt (96 %) | 9, 3, 9, 3 | 7 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2048,6 +2050,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2022-ga-B-wtr (Reserve) | 52 | 39 | 1 | 1 | 1 | 0 | 0 | 0 |
 | 2020-ga-B-wtr (Reserve) | 47 | 32 | 4 | 3 | 3 | 1 | 0 | 0 |
 | 2021-ga-B-wtr (Reserve) | 47 | 30 | 6 | 6 | 6 | 1 | 1 | 1 |
+| 2025-ea-B-mms (Reserve) | 25 | 21 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2105,6 +2108,7 @@ fortgeschrieben).**
 | 2022-ga-B-wtr (Reserve) | 52 | 39 | 1,33 | 38 (73 %) | 47 (90 %) | 0 (0 %) | 10 | 0 | 7 | 7,4 | 55 min (19 Zeilen aus den Landeszeilen erzeugt) |
 | 2020-ga-B-wtr (Reserve) | 47 | 32 | 1,47 | 31 (66 %) | 39 (83 %) | 0 (0 %) | 13 | 0 | 6 | 7,8 | 70 min |
 | 2021-ga-B-wtr (Reserve) | 47 | 30 | 1,57 | 33 (70 %) | 43 (91 %) | 0 (0 %) | 6 | 0 | 7 | 6,7 | 60 min |
+| 2025-ea-B-mms (Reserve) | 25 | 21 | 1,19 | 21 (84 %) | 21 (84 %) | 0 (0 %) | 2 | 0 | 4 | 6,2 | 45 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -3093,10 +3097,54 @@ Flächeninhalt und Volumen, Abstände, Kenngrößen. Lauf aus dem HEAD-Stand
 byteidentisch, Selbstprüfung beider Skripte bestanden (1352 Zeilen, 1257
 Typen, 35 Stapel, Eichung über den Bestand 94 %). Aufwand etwa 60 Minuten.
 
+**Stapel 2025-ea-B (MMS-Zweig) – Reserve geöffnet wegen der Landesheftverweise
+(Auftrag C, Teil 2, 17.09.2026; Abbruchkriterium unberührt).** 4 nicht wortgleiche
+Dateien (Analysis MMS 1 und 2, AG/LA (A1) MMS, AG/LA (A2) MMS; Stochastik MMS
+1–3 sind Dubletten der WTR-Dateien und bekommen keine Zeile), 25 Zeilen, 25
+Typen verwendet, 19 neu (76 %), 6 wiederverwendet – darunter die vier Etiketten
+der wortgleichen Teilaufgaben des Landeshefts 2025-bebb-lk (2.1 a, d, g, h →
+Analysis MMS 1 1 a, 1 c, 2 c, 2 d) und das Etikett der abgewandelten 2.1 c
+(→ 1 b, gleiche Fertigkeit). Sitz der Landesverweise: nur Analysis MMS 1
+(sieben von acht Zeilen, 2 b fehlt im Heft); das Landesheft ist die
+WTR-Fassung des Landes zur MMS-Poolaufgabe (Ableitungen und Schritte
+vorgegeben, wo der Pool den Rechner voraussetzt). Befund zu den Vermerken:
+1 a, 1 c, 2 c, 2 d wortgleich; 1 b, 1 d, 2 a abgewandelt (wie vorgemerkt).
+Zwei MMS-Dateien (AG/LA A1 und A2) waren nicht unter pool25/ und wurden nach
+iqb-quellen.md § 4 geholt (284 und 212 KB).
+
+*Eichung.* 24 von 25 nach der Spalte Anforderungsbereich (96 %); die
+Abweichung ist eine eigene Schätzung (AG/LA (A2) MMS b: Ortsvektor und
+Richtungsvektor aus Scharpunkten – I gegen II), begründet und stehen
+gelassen. Wie bei 2020-ga-B und 2021-ga-B keine unabhängige Kennzahl
+(Standardbezug beim Schätzen in Sicht). Eine Landeszeile schätzt anders als
+der Standardbezug (2.1 h II gegen III); die Poolzeile trägt III mit
+Begründung, die Landeszeile zieht im Abgleichlauf nach. Alle amtlichen
+Ergebnisse mit sympy nachgerechnet (Abstand k√(k⁴ + 4)/2, Fläche 29/10 · k⁴,
+Zuflussmaximum 187,2, b ≈ 0,3395, Mulde 0,0545 m³, Berührstelle a = 4, e₁ =
+40, k = 15/2 und 81/10), keine Abweichung. MMS-Anteil je Zeile in bemerkung
+(„MMS-Anteil: …“): Rechner in 8 der 25 Zeilen, Ansatz stets eigen.
+
+*Schnitt.* 21 Werte, 24 von 25 Zeilen auf bekannten Werten; ein Wert neu im
+Niveau (Verflechtung · begründen, seit 2020-ga-B im Gesamtbestand), keiner
+neu im Gesamtbestand: Abbruchkriterium 0 von 5. Auf Teil-A-Werten 21 (84 %).
+Außerhalb der Geltung: AG/LA (A1) (5 Zeilen, alle Zielprüfungen) und die
+Scharaufgaben (Analysis MMS 1 1 a–d, MMS 2 1 a–b; in den Grundkursen). Neue
+Typen nach Thema: Funktionsscharen 2, Flächeninhalt durch Integration 2,
+Tangente 2, Matrizen 2, Flächeninhalt und Volumen 2, Scharen von Geraden und
+Ebenen 2, je 1 Ableitung und Änderungsrate, Kurvenuntersuchung,
+Stammfunktion, Funktionsklassen, Vektoren, Spiegelung, Orthogonalität (AG/LA
+(A2) e: Kandidat für eine Zusammenziehung mit dem flächenkleinsten
+Schnittdreieck aus 2025-ea-B WTR e und der Gleichung aus 2020-ga-B AG/LA
+(A2) 2 – dreimal dieselbe Idee „Extremum über das Lot auf die Gerade“). Lauf
+aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden
+(1377 Zeilen, 1276 Typen, 36 Stapel, Eichung über den Bestand 94 %). Aufwand
+etwa 45 Minuten.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 2: Stapel 2025-ea-B (MMS-Zweig) erfasst – Reserve geöffnet wegen der sieben Vormerkungen aus 2025-bebb-lk 2.1; 25 Zeilen aus 4 Dateien, 19 neue Typen (Typenliste 1257 → 1276), Eichung 24 von 25, Abbruchkriterium 0 von 5. 26 der 35 Vormerkungen des abi-Bestands haben jetzt eine erfasste Poolzeile (2019-ga-B folgt); Umstellung im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2021-ga-B (WTR) erfasst – Reserve geöffnet wegen der zwölf Vormerkungen aus 2021-be-gk; 47 Zeilen, 19 neue Typen (Typenliste 1238 → 1257), Eichung 45 von 47, Abbruchkriterium 1 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 2: Stapel 2020-ga-B (WTR) erfasst – Reserve geöffnet wegen der sieben Vormerkungen aus 2020-be-gk; 47 Zeilen, 27 neue Typen (Typenliste 1211 → 1238), Eichung 47 von 47 (Schätzung nicht blind, § 4), Abbruchkriterium 0 von 5. Umstellung der Vermerke folgt im Abgleichlauf. |
 | 2026-09-17 | Auftrag C, Teil 0 (Entscheidung des Lehrers): Eichschwelle für Poolstapel unverändert 85 %, für Landeshefte ausgesetzt (abi.md § 7); Kern v0.7 § 5 Maßstab der Schätzung; iqb.md v1.9 § 7. Lauf 22 (abgleich.py v0.22) ändert nur abi-katalog.csv (afb_amtlich in 21 Dubletten bis 2018); iqb-katalog.csv und Typen unverändert (1258, 1211). |
