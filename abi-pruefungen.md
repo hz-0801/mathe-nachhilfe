@@ -2253,6 +2253,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 5: Bestandsaufnahme des Repos als repo-bestand.md (53 Dateien je Projekt zugeordnet, Auffälligkeiten; nichts verschoben, umbenannt oder gelöscht). |
 | 2026-09-17 | Auftrag C, Teil 4: hinweise-2027-bebb.md gegen abi.md § 11 geprüft (kein Widerspruch, fünf Ergänzungen gemeldet), hinweise-2021-be-gk.md in abi.md v0.21 § 11 aufgenommen (Struktur bis 2021, Bewertungsschlüssel als Reihe, CAS-Geräteliste), CAS-Befund berichtigt (Prüfungsform bestand weiter, CAS = MMS; abi.md § 3, § 10, abi-quellen.md v0.5 § 5, § 2 hier); Quelldateien in abi-quellen.md § 8 (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 0 (Entscheidung des Lehrers): Eichschwelle für Landeshefte ausgesetzt (abi-bau.py v0.9, Kennzahl bleibt), Maßstab der Schätzung im Kern v0.7 § 5 (afb_amtlich leer = Schätzung ohne Maßstab, keine Markierung); Lauf 22 (abgleich.py v0.22): afb_amtlich aus der Poolzeile in den 21 Dubletten der Hefte bis 2018; abi.md v0.20, iqb.md v1.9 (§ 4). |
 | 2026-09-17 | Auftrag B, Teil 5: abitur-vokabular.md v1.4 § 3 Ausschlussliste (Aufgabenformen, nicht Themen) mit Befund im Bestand und Vorschlag einer strukturellen Geltung nach Jahrgangsklassen (nicht gesetzt); Widerspruch Teil A GK 30 gegen 25 BE an den Prüfungsschwerpunkten 2027 aufgelöst (3 + 1 + 1 Aufgaben = 25 BE), abi.md v0.19 § 11 nachgeführt (§ 4). |
