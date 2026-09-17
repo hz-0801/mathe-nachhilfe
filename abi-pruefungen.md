@@ -1983,6 +1983,7 @@ in einem Heft.
 | Heft | Seiten | Teilaufgaben MD / Katalog | Abw. BE/Struktur | nachgerechnet | Abw. Ergebnis | Abbildungen | Datei | Aufwand | Bemerkung |
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-bb-gk | 10 (2026-1 bis -3, -13 f., -22 f., -28, -32 f.; Textebene) | 45 / 45 | 0 | 39 | 0 | 13 (131 KB) | 18.7 KB | 25 min | 1.5.2 und 1.5.3 im Heft ohne Teilaufgabenbuchstaben (im Katalog a). Begründungsaufgaben 1.1 b, 1.5.1 a/b, 2.1 b, 2.2 a, 3 c, 4 c, 4 f am Markdown gegen ergebnis gelesen, stimmig. Stichproben: 1.1 b, 1.5.1 b, 2.1 b, 3 c, 4 f |
+| 2026-bb-ea | 11 (2026-1 f., -8 f., -17 f., -26 f., -36, -41 f.; Textebene) | 50 / 50 | 0 | 40 | 0 | 9 (102 KB) | 19.7 KB | 22 min | Wahlaufgaben 1.5–1.10 je a/b; 2.1 Aufgabenteil 2 a–c = g–i, 2.2 Teil 2 a–c = f–h, 4 Teil 2 = c–e, Teil 3 = f–h. Begründungsaufgaben 1.5 a, 1.6 b, 1.7 a, 1.8 b, 2.1 e, 2.2 d, 3 d, 4 g gelesen, stimmig. Stichproben: 1.6 b, 1.8 b, 2.2 d, 3 d, 4 g |
 
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
@@ -2392,6 +2393,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2026-bb-ea (hefte-md/, außerhalb des Repos): 50 von 50 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 40 Ergebnisse nachgerechnet, 0 Abweichungen; 9 Abbildungen (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2026-bb-gk (hefte-md/, außerhalb des Repos): 45 von 45 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 39 Ergebnisse nachgerechnet, 0 Abweichungen; 13 Abbildungen (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 3: Katalog gegen die drei Stark-Stichwortverzeichnisse gemessen (1661 Verweise: 81 % Etikett, 17 % unter anderem Etikett, 2 % ohne Entsprechung – 17 Werkzeuge, 6 Fehlverweise, 10 offen; keine Katalog-Lücke, keine Leerverweise); Körnung Katalog gegen Verzeichnis (§ 4). Keine Zeile geändert. |
 | 2026-09-17 | Auftrag C, Teil 5: Bestandsaufnahme des Repos als repo-bestand.md (53 Dateien je Projekt zugeordnet, Auffälligkeiten; nichts verschoben, umbenannt oder gelöscht). |
