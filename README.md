@@ -16,6 +16,6 @@ Ein Repo für die Mathe-Nachhilfe: Prüfungskataloge, die Prompts, die LaTeX-Vor
 | `konzept.md`, `blatt-konzept.md` | Entscheidungen: Katalog bzw. Hefte. Bei Widerspruch in der Heft-Phase gilt blatt-konzept. |
 | `msa-pruefungen.md`, `msa-vorgaben.md` | Heftliste mit Erfassungsstatus; amtliche Vorgaben mit Jahrescheck. |
 | `CHANGELOG.md` | Änderungshistorie der Prompts und der Vorlage. |
-| `befund-*.md` | Datierte, eingefrorene Befunde (Repo-Bestand, Typenlisten, Lesbarkeit, Typenvergleich abi/iqb, Stichtagsbefund `befund-repo-stand-2026-09-17.md`); sie beschreiben den Stand ihres Datums und veralten mit dem nächsten Commit. Einstieg sind `CLAUDE.md` und `konzept.md`. |
+| `befund-*.md` | Datierte, eingefrorene Befunde (Repo-Bestand, Typenlisten, Lesbarkeit, Typenvergleich abi/iqb, Stichtagsbefund `befund-stichtag-2026-09-17.md`); sie beschreiben den Stand ihres Datums und veralten mit dem nächsten Commit. Einstieg sind `CLAUDE.md` und `konzept.md`. |
 
 Aufteilung der Prompts nach Quelle: Katalog vorhanden → Prüfungsprompt, sonst Masterprompt (blatt-konzept §5). Gemeinsame Abschnitte 3–6 werden in beiden gepflegt. Testauswertung und Protokoll-Archive liegen im Werkstatt-Projekt, nicht hier.
