@@ -30,7 +30,7 @@ in vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 19 Vormerkungen auf den Pool 2022 Teil B) · Sichtung im selben Lauf (§ 4) |
+| 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
 | 2022 | 2022-bebb-lk | BE/BB | erhöht | WTR | 15 (Scan, nur Aufgabenseiten; 14–15 Anlage Binomialtabelle) | – (nicht im Scan) | 220 angeboten, 170 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 68 Zeilen** (alle Aufgaben, beide Wahlwege; 32 Zeilen Pool-Dubletten mit Verweis, 1 abgewandelt) · Sichtung im selben Lauf (§ 4) · erstes erhöhtes Niveau seit 2018 |
 | 2023 | 2023-bebb-gk | BE/BB | grundlegend | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 185 angeboten, 140 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 58 Zeilen** (alle Aufgaben, beide Wahlwege; 11 Zeilen Pool-Dubletten mit Verweis) · gesichtet 2026-09-15 (§ 4) |
 | 2023 | 2023-bebb-lk | BE/BB | erhöht | WTR | 14 (Scan, nur Aufgabenseiten) | – (nicht im Scan) | 220 angeboten, 170 bei Wahl 2.1/2.2 (Teil-A-Wahl nicht im Scan) | **erfasst 2026-09-16, 66 Zeilen** (alle Aufgaben, beide Wahlwege; 33 Zeilen Pool-Dubletten mit Verweis, 2 abgewandelt) · Sichtung im selben Lauf (§ 4) |
@@ -57,7 +57,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
-| 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), davon 16 Zeilen vorgemerkt (Pool 2022 Teil B nicht erfasst); abgewandelt 3 Zeilen, 11 BE |
+| 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) im Heftlauf; seit Lauf 18 16 von 24 (67 %; die 16 Teil-B-Dubletten tragen ihre eigene Schätzung, die Poolzeilen haben sie übernommen) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), seit Lauf 18 alle „Dublette von:“ (2022-ga-B erfasst); abgewandelt 3 Zeilen, 11 BE |
 | 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %), alle 32 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %); abgewandelt 1 Zeile, 4 BE |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
 | 2023-bebb-lk | 66 | 68 | 24 (35 %) | 27 von 33 (82 %), alle 33 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 4 von 68 (6 %, Niveau lk = 2022-bebb-lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 2, nur bb-ea 0; alle: be-gk 25, be-lk 2, bb-gk 23, bb-ea 0 | 42 Werte, 62 von 66 Zeilen im erhöhten Niveau (Pool) bekannt (94 %), 2 Werte neu im Gesamtbestand | 33 von 66; 105 von 220 (48 %); abgewandelt 2 Zeilen, 9 BE |
@@ -902,6 +902,26 @@ Grundkursheften 2022–2025 kommt kein Scharthema vor (0 Zeilen außerhalb der
 Heftgeltung). Neue Schnittwerte im Gesamtbestand: 0, 0, 0, 2 (beide aus
 2023-bebb-lk 2.1); Gesamtbestand 188 Werte.
 
+**Abgleichlauf 18 – Verweise von 2022-bebb-gk geschlossen (17.09.2026,
+Auftrag „2026 Brandenburg erfassen, Reserve 2022-ga-B öffnen", Punkt 2;
+abgleich.py v0.18).** Nach der Erfassung des Reserve-Stapels 2022-ga-B
+(iqb-pruefungen.md § 4) wurden alle 19 Vormerkungen des Hefts umgestellt: 16
+wortgleiche auf „Dublette von: <id>." (2.1 a, b, g, j, k, l; 3 b, d, e, f,
+i; 4 b, c, e, h, i) mit der AB-Spalte der Poolzeile in afb_amtlich und
+bemerkung, 3 abgewandelte auf „Abgewandelt von: <id>; <Unterschied>." (2.1 m
+„mindestens" statt „größer als", 3 g und 4 j Rechnung zugelassen statt
+Begründung ohne Rechnung). Typvergleich je Paar bestanden (die Poolzeilen
+wurden aus den Landeszeilen erzeugt, Typ und Schätzung identisch); kein
+Vermerk bleibt offen, Typen unverändert (1115). Folge für die Eichung des
+Hefts: 16 von 24 gewerteten Zeilen (67 %) – die acht Abweichungen sind 1.7 a
+(Teil A, wie im Heftlauf) und 2.1 a, g, j, k, 3 b, e, i; sie sind keine
+geerbten Schätzungen (die Landeszeilen haben zuerst geschätzt), also eigene
+und zählen in der Bestandseichung (jetzt 143 von 165, 86 %). Befund: die
+Landeszeilen von 2022-bebb-gk liegen tendenziell einen Bereich über dem
+Standardbezug – 6 der 7 Teil-B-Abweichungen nach oben (2.1 a, j, 3 b, e:
+II statt I; 2.1 g, 3 i: III statt II), eine nach unten (2.1 k). Selbstprüfung
+beider Bau-Skripte bestanden, offene Posten 0.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1310,6 +1330,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Abgleichlauf 18: die 19 Vormerkungen von 2022-bebb-gk auf den Pool 2022 Teil B zu Verweisen umgestellt – 16 „Dublette von:“ (AB-Spalte in afb_amtlich), 3 „Abgewandelt von:“ (2.1 m, 3 g, 4 j); Typvergleich bestanden, kein Vermerk offen, Typen unverändert (1115). Eichung des Hefts jetzt 16 von 24 (67 %), Bestand 143 von 165 (86 %). |
 | 2026-09-17 | Pool 2022-ga-B (WTR) erfasst (Profil iqb, Reserve geöffnet wegen der 19 Vormerkungen aus 2022-bebb-gk): die 19 Poolzeilen tragen Typ und Schätzung der Landeszeilen; Umstellung der Vermerke auf „Dublette von:“ bzw. „Abgewandelt von:“ in Lauf 18. Befund: 10 der 19 übernommenen Schätzungen treffen den Standardbezug – die Landeszeilen von 2022-bebb-gk liegen tendenziell einen Bereich über dem Pool. |
 | 2026-09-16 | Abgleichlauf 17 nach den vier Stark-Heften: drei Zusammenziehungen mit neuem Namen – „Ganzrationale Funktion dritten Grades aus Wert-, Steigungs- und Extrempunktbedingungen rekonstruieren“ + „… aus Nullstellen-, Steigungs- und Parallelitätsbedingungen rekonstruieren“ → „Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren“; „Quadratische Funktion aus knickfreiem Übergang und einer Wertbedingung rekonstruieren“ + „Ganzrationale Funktion mit zwei Parametern aus einem Punkt und knickfreiem Übergang rekonstruieren“ → „Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren“; „Fehler zweiter Art für einen selbst gewählten Anteil berechnen und mit einer Schranke vergleichen“ + „Fehler zweiter Art für zwei selbst gewählte Anteile berechnen und im Sachzusammenhang deuten“ → „Fehler zweiter Art für selbst gewählte Anteile berechnen und einordnen“. Typenliste 1090 → 1087, 5 abi-Zeilen umgestellt. Selbstprüfung beider Bau-Skripte bestanden. |
 | 2026-09-16 | Heft 2023-bebb-lk erfasst (erhöht, Geltung be-lk oder bb-ea): 66 Zeilen aus 12 Aufgaben (1.1–1.8, 2.1 a–m, 2.2 a–n, 3 a–k, 4 a–l), Katalog 448 Zeilen, Typenliste 1090 (24 neu). Alle Punktsummen geprüft (8 × 5, 50, 50, 40, 40), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Pool 33 von 66 Zeilen, 105 von 220 BE (48 %), 2 abgewandelt (3 e, 3 g); Dubletten aus den Poolzeilen erzeugt. Zwei neue Schnittwerte (Gleichungen lösen · zeichnen, Rekonstruktion · begründen); 25 Zeilen außerhalb der Geltung der Grundkurse; 4 k und 4 l (hypergeometrisch) nur über bb-ea in Geltung. Eichung 27 von 33, alle geerbt. Seite 13 unscharf, über Poolzeilen und Soll gesichert. |

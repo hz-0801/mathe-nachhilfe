@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.17 · 16.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.3
+Version 0.18 · 17.09.2026 · gilt mit abitur-vokabular.md v1.2, abi-bau.py v0.8 und iqb-bau.py v1.4
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -77,6 +77,12 @@ Namen – Steckbriefaufgabe dritten Grades (Bedingungsarten stehen in der
 Zeile), Rekonstruktion aus knickfreiem Übergang (quadratisch oder mit zwei
 Parametern), Fehler zweiter Art für selbst gewählte Anteile (Schranke oder
 Deutung); 1090 → 1087.
+Lauf 18 (17.09.2026, Verweise schließen nach dem Reserve-Stapel 2022-ga-B):
+die 19 Vermerke von 2022-bebb-gk werden zu Verweisen – 16 wortgleiche auf
+„Dublette von: <id>." (AB-Spalte der Poolzeile in afb_amtlich und bemerkung),
+3 abgewandelte (2.1 m, 3 g, 4 j) auf „Abgewandelt von: <id>; <Unterschied>.".
+Typvergleich je wortgleichem Paar, Abbruch bei Abweichung oder mehr als 19
+Zeilen; Typen unverändert (1115).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1048,6 +1054,42 @@ NEUE_DEFINITION_17 = {
         "Sachzusammenhang; was verlangt ist, steht in der Zeile.",
 }
 
+# ======================================================================= Lauf 18
+# Nach dem Reserve-Stapel 2022-ga-B (Auftrag „2026 Brandenburg erfassen, Reserve
+# 2022-ga-B öffnen", 17.09.2026): die 19 Vormerkungen von 2022-bebb-gk (Heftlauf
+# 16.09.2026) werden wie in Lauf 15 zu Verweisen. Die Poolzeilen tragen Typ und
+# Schätzung der Landeszeilen (aus ihnen erzeugt), der Typvergleich ist die Probe.
+# Teil-B-Zeilen ab 2019 bekommen afb_amtlich aus der AB-Spalte der Poolzeile
+# (wie dubletten.py bei den Heften 2023–2025). Genau 19 Zeilen.
+HOECHSTENS_18 = 19
+_PROTOKOLL_18 = []
+
+
+def zeile_18(d):
+    m = VORSTUFE_15.match(d["bemerkung"])
+    if not m:
+        return False
+    abgew, pid, unterschied = m.group(1), m.group(2), m.group(3)
+    q = poolzeilen_15().get(pid)
+    if q is None:
+        sys.exit(f"{d['id']}: Poolzeile {pid} nicht im iqb-Katalog – Vermerk bleibt")
+    rest = d["bemerkung"][m.end():]
+    ab = AB_15.search(q["bemerkung"])
+    if abgew:
+        d["bemerkung"] = f"Abgewandelt von: {pid}; {unterschied}. " + (f"AB amtlich der Poolzeile: {ab.group(1)}. " if ab else "") + rest
+        _PROTOKOLL_18.append((d["id"], pid, "abgewandelt", d["typ"] == q["typ"]))
+    else:
+        if d["typ"] != q["typ"] or d["typ_neben"] != q["typ_neben"]:
+            sys.exit(f"{d['id']}: typ weicht von {pid} ab – nicht umstellbar:\n  abi: {d['typ']}|{d['typ_neben']}\n  iqb: {q['typ']}|{q['typ_neben']}")
+        d["bemerkung"] = f"Dublette von: {pid}. " + (f"AB amtlich: {ab.group(1)}. " if ab else "") + "Wortgleich mit dem grundlegenden Pool 2022 (Lauf 18; im Heftlauf vorgemerkt). " + rest
+        if not d["afb_amtlich"]:
+            d["afb_amtlich"] = ab.group(1) if ab else q["afb_amtlich"]
+        _PROTOKOLL_18.append((d["id"], pid, "dublette", True))
+    if len(_PROTOKOLL_18) > HOECHSTENS_18:
+        sys.exit(f"Lauf 18 fasst mehr als {HOECHSTENS_18} Zeilen an – Abbruch")
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1066,9 +1108,11 @@ LAEUFE = {
     15: ({}, {}, {}, {}),
     16: ({}, {}, {}, {}),
     17: ({}, ZUSAMMEN_17, NEUE_DEFINITION_17, {}),
+    18: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
-                 13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)]}
+                 13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
+                 18: [("*", zeile_18)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -1212,6 +1256,13 @@ def main():
           + (f" Gestrichen: {len(gestrichen)} Zeilen." if gestrichen else ""))
     for r in gestrichen:
         print("  gestrichen:", r[0])
+    if LAUF == 18:
+        print(f"\nVerweise geschlossen ({len(_PROTOKOLL_18)} Zeilen, höchstens {HOECHSTENS_18}):")
+        for i, pid, art, gleich in _PROTOKOLL_18:
+            print(f"  {i} → {pid} [{art}] typ {'gleich' if gleich else 'VERSCHIEDEN'}")
+        rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
+                if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
+        print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
     if LAUF == 16:
         print(f"\nReste geschlossen ({len(_PROTOKOLL_16)} Zeilen):")
         for i, was in _PROTOKOLL_16:
