@@ -28,6 +28,7 @@ Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs au
     CHANGELOG.md           Änderungshistorie der Prompts und der Vorlage
     mathblatt.sty          LaTeX-Vorlage (Version in Zeile 2); Anleitung_mathblatt.md gehört dazu – bis 2026-09-07 im Repo nachhilfe-arbeitsblatt-vorlage
     README.md              Landkarte: was im Repo liegt und wofür
+    befund-repo-stand-2026-09-17.md  Stand des Repos am 17.09.2026 (Dateien und Rollen, Kern, Profile, Bestandszahlen) als Einstieg für einen neuen Chat; einmalig, wird nicht fortgeschrieben
     msa-pruefungen.md      Heftliste mit Erfassungsstatus (seit 17.09.2026, vorher pruefungen.md)
     msa-vorgaben.md        amtliche Vorgaben aus den Fachbriefen, Jahrescheck; gesonderter Baustein (vorher vorgaben.md)
     msa-typen.csv          Typvokabular, wächst beim Erfassen (vorher typen.csv)
@@ -441,6 +442,8 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag H, Punkt 4): befund-repo-stand-2026-09-17.md angelegt (Stand des Repos
+  als Grundlage für einen neuen Chat); § 2 Bausteine und README ergänzt.
 - 2026-09-17 (Auftrag H, Punkt 2): § 6 Offen neu gefasst – je Punkt eine Zeile mit
   dem Grund des Wartens (Variante A, Entscheidung 14, Vorschläge 1/2/3/5 aus
   befund-typenlisten.md, Abbruchkriterium abi, strukturelle Geltung, Nachbau-Test);
