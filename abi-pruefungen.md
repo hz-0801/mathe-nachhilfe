@@ -45,6 +45,11 @@ in vorgaben.md.
 | 2026 | 2026-bb-ea | BB | erhöht | WTR | 47 (PDF mit Textebene, A5, Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2026-bb-ea.pdf, umbenannt 17.09.2026, vorher 2026-bebb-lk.pdf) | – (nicht im Band) | 150 angeboten, 100 bei Wahl (Teil-A-Wahl aus 1.5–1.10, Teil-B-Wahl 2.1/2.2) | **erfasst 2026-09-17, 50 Zeilen** (alle Aufgaben, beide Wahlwege; 39 Zeilen Pool-Dubletten mit Verweis) · Sichtung im selben Lauf (§ 4) |
 
 Leitfassung je Jahr und Niveau: erhöht bb-ea, grundlegend be-gk (abi.md § 7).
+Rechnerfassung CAS/MMS ab 2019: die Prüfungsform bestand in jedem Jahrgang
+weiter (CAS bis 2021, MMS seit 2022; abi.md § 10), die Liste führt dafür
+keine Zeilen, weil keine Datei vorliegt – der Bildungsserver veröffentlicht
+bis 2018, STARK druckt ab dem Jahrgang 2018 keine CAS-Fassung mehr ab
+(berichtigt 17.09.2026, Auftrag C Teil 4, § 4).
 Wortgleiche Zwillinge des anderen Landes werden nicht als Zeile erfasst,
 sondern hier notiert; eine eigene Zeile nur bei abweichender Teilung, erkennbar
 am BE-Vektor.
@@ -1236,8 +1241,10 @@ entschieden im Sinne der Regel be 2019–2021, bebb 2022–2025, be/bb ab 2026
 bleibt allein, ob die Berliner GK-Fassung 2019–2021 inhaltlich von der
 Brandenburger abwich (abi.md § 9) – dazu sagen die Hefte nichts, weil nur
 die Berliner Fassung vorliegt. Rechnerfassung: keine Datei nennt CAS, MMS
-oder WTR; alle dreizehn sind die Fassung ohne MMS/CAS (Verlagsbände ohne
-CAS-Aufgaben ab 2019, Rechnerfassung WTR in § 2).
+oder WTR; alle dreizehn sind die Fassung ohne MMS/CAS (die Verlagsbände
+drucken ab dem Jahrgang 2018 keine CAS-Fassung mehr ab – die Prüfungsform
+bestand weiter, berichtigt 17.09.2026, Auftrag C Teil 4; Rechnerfassung WTR
+in § 2).
 
 **Prüfungsstruktur: Corona-Sonderjahrgänge 2022/2023, Strukturbruch
 2018/2019, Zuordnung ab 2025 (17.09.2026, Auftrag „Eichung korrigieren,
@@ -1795,6 +1802,49 @@ nachgezogen hatte), 472 Zeilen ohne Maßstab; je Heft: 2017-bb-ea 30 von 36,
 § 4 und § 7, iqb.md v1.9 § 7, Kern v0.7 § 5; die Entscheidung wird
 zurückgenommen, falls die Erfassungsqualität sichtbar leidet.
 
+**Quelldateien eingearbeitet, CAS-Befund berichtigt (17.09.2026, Auftrag C,
+Teil 4).** *(13) hinweise-2027-bebb.md gegen abi.md § 11:* kein Widerspruch;
+alle Angaben aus Auftrag A (Bewertungsschlüssel 2024 und seit 2025, Aufbau
+2027 samt der aufgelösten GK-Zählung, Bearbeitungszeiten, Hilfsmittel, nicht
+Gefordertes, Rahmenlehrpläne, Sonderregelung 2022/2023) stimmen mit der
+Abschrift überein. Die Quelldatei enthält fünf Punkte, die abi.md nicht
+hat (nicht angeglichen, in abi.md § 11 als Meldung vermerkt):
+KMK-Bildungsstandards vom 18.10.2012 und Kerncurriculum als Grundlage;
+Beschreibung von Teil A (kein übergeordneter Zusammenhang) und Teil B (alle
+drei AFB je Aufgabe, Beginn mit AFB I); Lese- und Auswahlzeit in der
+Gesamtzeit und Markierung der Wahl auf dem Deckblatt; Verlagsaussage „nur
+wenige Änderungen, alle Aufgaben ab 2022 zur Vorbereitung auf 2027
+geeignet"; Verweise auf die Prüfungsvorgaben und MySTARK. *(14)
+hinweise-2021-be-gk.md:* Struktur bis 2021 (Aufgabenstellung 1
+hilfsmittelfrei ohne Wahl, 2/3/4 je Wahl aus zwei; 255 Minuten, davon 60 auf
+Teil 1, bis 2019 45; 30 Minuten Lesezeit) und die Bewertungsschlüssel als
+Reihe (bis 2018 drei Aufgabenstellungen 40–50/25–30/25–30 %; 2019
+20/40/20/20; ab 2020 25/35/20/20; 2024 GK 25/35/20/20, LK 30/40/25/25; ab
+2025 GK 25/25/15/15, LK 30/30/20/20; 2021–2023 Corona-Aufbau dazwischen) in
+abi.md § 11 aufgenommen; die Hefte bestätigen 2019 (20/40/20/20) und 2020
+(25/35/20/20), 2021 zeigt den Corona-Aufbau. Nicht belegt bleibt der
+LK-Schlüssel 2019–2021. *(15) CAS-Befund:* Der Band 2021 belegt die
+CAS-Variante 2021 als Prüfungsform mit Geräteliste (TI-92, TI-Voyage,
+TI-Nspire, Casio ClassPad; PC mit MuPad, Geogebra, Derive oder Emulationen);
+die Hilfsmittelregelung ist wortgleich die von 2027 unter dem Namen MMS. Die
+Annahme, es habe ab 2018 keine CAS-Fassungen mehr gegeben, stand im Repo
+nirgends wörtlich, aber stillschweigend: in der Heftliste § 2 (CAS-Zeilen
+nur 2017/2018), in § 4 („Verlagsbände ohne CAS-Aufgaben ab 2019" – richtig:
+ab dem Jahrgang 2018 nicht mehr abgedruckt) und in abi-quellen.md § 5.
+Berichtigt in abi.md § 3, § 10 (neue Zeile der Prüfungsgeschichte: CAS und
+MMS sind dieselbe Sache unter wechselndem Namen, durchgehend seit 2011), § 11
+(Hilfsmittel bis 2021), abi-quellen.md § 5 und hier. *(16) Folgen für das
+CAS-Delta (Auftrag B Teil 4):* Die Einschätzung ändert sich nicht – zwei
+Analysis-Paare aus der Zeit ohne hilfsmittelfreien Teil, 58 % wortgleich,
+30 % gleicher Typ mit anderem Weg, 12 % zusätzliche Typen, 0 neue
+Schnittwerte, Hinweis und kein Beleg. Was sich ändert, ist die Reichweite
+der Frage: da die CAS-Form 2019–2021 weiterlief, gäbe es für diese
+Jahrgänge ein messbares Delta mit hilfsmittelfreiem Teil; die Hefte dazu
+sind über keine bekannte Quelle zu beschaffen (Bildungsserver veröffentlicht
+bis 2018, STARK druckt ab 2018 keine CAS-Fassung, Band 2022 Brandenburg
+unbekannt). Für die heutige Form misst der Pool das MMS-Delta (iqb,
+Delta-Stapel 2026). Nicht beschafft, nur gemeldet.
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -2203,6 +2253,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 4: hinweise-2027-bebb.md gegen abi.md § 11 geprüft (kein Widerspruch, fünf Ergänzungen gemeldet), hinweise-2021-be-gk.md in abi.md v0.21 § 11 aufgenommen (Struktur bis 2021, Bewertungsschlüssel als Reihe, CAS-Geräteliste), CAS-Befund berichtigt (Prüfungsform bestand weiter, CAS = MMS; abi.md § 3, § 10, abi-quellen.md v0.5 § 5, § 2 hier); Quelldateien in abi-quellen.md § 8 (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 0 (Entscheidung des Lehrers): Eichschwelle für Landeshefte ausgesetzt (abi-bau.py v0.9, Kennzahl bleibt), Maßstab der Schätzung im Kern v0.7 § 5 (afb_amtlich leer = Schätzung ohne Maßstab, keine Markierung); Lauf 22 (abgleich.py v0.22): afb_amtlich aus der Poolzeile in den 21 Dubletten der Hefte bis 2018; abi.md v0.20, iqb.md v1.9 (§ 4). |
 | 2026-09-17 | Auftrag B, Teil 5: abitur-vokabular.md v1.4 § 3 Ausschlussliste (Aufgabenformen, nicht Themen) mit Befund im Bestand und Vorschlag einer strukturellen Geltung nach Jahrgangsklassen (nicht gesetzt); Widerspruch Teil A GK 30 gegen 25 BE an den Prüfungsschwerpunkten 2027 aufgelöst (3 + 1 + 1 Aufgaben = 25 BE), abi.md v0.19 § 11 nachgeführt (§ 4). |
 | 2026-09-17 | Auftrag B, Teile 2, 4 und 6: Markdown-Korpus begonnen (hefte-md/2025-bebb-gk.md mit zehn Abbildungen, außerhalb des Repos, .gitignore; Prüfung gegen den Katalog: 39 von 39 Teilaufgaben, 0 Abweichungen bei BE, Struktur und 27 nachgerechneten Ergebnissen, § 4); Teil 3 nicht ausführbar, Stichwortverzeichnisse fehlen (§ 4); CAS-Delta an 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2 gemessen (58 % wortgleich, 30 % gleicher Typ anderer Weg, 12 % zusätzliche Typen, 0 neue Schnittwerte; Hinweis, kein Beleg; § 4), amtliche Dateien 2016/2017 WTR und CAS unter hefte/; abi-quellen.md v0.4 (§ 5 Verlagsbände mit Beschaffungstabelle, § 8 alle Dateien erfasst, § 9 Korpus). |

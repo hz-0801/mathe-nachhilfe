@@ -1,5 +1,11 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.20 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Version 0.21 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 0.20 (Auftrag C, Teil 4): § 11 Struktur bis 2021 und
+Bewertungsschlüssel als Reihe (Band 2021), Abgleich mit
+hefte/hinweise-2027-bebb.md; § 3, § 10, § 11 CAS-Befund berichtigt – die
+CAS-Fassung bestand als Prüfungsform weiter (Band 2021 mit Geräteliste),
+CAS und MMS sind dieselbe Sache unter wechselndem Namen; § 9 CAS-Delta
+2016/2017.
 Änderungen gegenüber 0.19 (Auftrag C „Eichschwelle setzen, Markdown-Korpus
 fertigstellen, offene Posten schließen, Katalog gegen Stark prüfen, Repo
 sichten", Teil 0, Entscheidung des Lehrers): § 7 Eichschwelle für Landeshefte
@@ -190,7 +196,12 @@ in Teil A), Standard-Zeichenwerkzeuge.
 Bewertungsschlüssel, Hilfsmittel, Sonderjahrgänge und Strukturbruch: § 11.
 
 **WTR, CAS und MMS.** Zu jedem Heft gibt es eine vollständige Parallelfassung für
-Rechner mit Computeralgebra. Brandenburg nennt sie ab 2027 „modulares
+Rechner mit Computeralgebra – durchgehend, auch 2019 bis 2021 (Berichtigung
+17.09.2026, Auftrag C Teil 4: der STARK-Band zum Abitur 2021 belegt die
+CAS-Variante als Prüfungsform mit Geräteliste, § 11 Hilfsmittel; STARK
+druckt die CAS-Fassungen ab dem Jahrgang 2018 nicht mehr ab, die Prüfungsform
+lief weiter). Bis 2021 heißt sie CAS, seit 2022 MMS – dieselbe Sache unter
+wechselndem Namen (§ 10). Brandenburg nennt sie ab 2027 „modulares
 Mathematiksystem" (MMS); Berlin schreibt „MMS (CAS)". Die Fassungen tragen
 dieselben Kontexte; der Eingriff sitzt in einzelnen Teilaufgaben. In den
 Brandenburger CAS-Heften trägt jede geänderte Aufgabe das Präfix „CAS:" im Titel;
@@ -596,8 +607,10 @@ der Analysisaufgabe, darunter die mit der zu erstellenden Skizze.
   gehören dazu?
 - Ab wann genau gilt in Berlin Teil A/Teil B? Belegt ist: Brandenburg hatte den
   hilfsmittelfreien Teil bereits 2017, Berlin nach den Fachbriefen ab 2019.
-- Trägt das CAS-Delta über alle Sachgebiete? Geprüft ist nur Analysis (2016,
-  Aufgabe 1.1).
+- Trägt das CAS-Delta über alle Sachgebiete? Geprüft sind nur zwei
+  Analysis-Paare (2016 Aufgabe 1.1, 2017 Aufgabe 1.2; abi-pruefungen.md § 4,
+  Auftrag B Teil 4, Nachtrag Auftrag C Teil 4). CAS-Fassungen der Landeshefte
+  2019–2021 sind über die bekannten Quellen nicht zu beschaffen.
 
 ## 10 Prüfungsgeschichte
 
@@ -616,6 +629,7 @@ Heften unter hefte/ stehen in abi-pruefungen.md § 4 (17.09.2026).
 | ab Abitur 2026 | Getrennte Erstellung: Berlin über das BLiQ, Brandenburg über das LIBRA; beide weiterhin aus dem IQB-Pool. Organisatorische, keine inhaltliche Trennung: die Poolquote 2026 (bb-gk 80 %, bb-ea 77 %) liegt auf dem Stand von 2025 (bebb-gk 80 %). | Prüfungsschwerpunkte 2027 (§ 1); Poolquote abi-pruefungen.md § 2, § 4 (Lauf 19) |
 | bis 2017 / ab 2018 | Berliner LK und Brandenburger eA bis 2017 großteils identisch, ab 2018 vollkommen übereinstimmend. **Verlagsangabe (Merkur), keine amtliche Quelle.** Der Bestand zeigt für 2017 drei und für 2018 vier wortgleiche Aufgaben je Heft (abi-aufbau.md § 4), 2018 mit einer abweichenden BE-Teilung (Brillenträger). | Merkur-Verlag (nicht amtlich); eigener Textvergleich abi-aufbau.md § 4 |
 | Verlagsbände | STARK betitelt seine Bände durchgehend „Berlin/Brandenburg", auch 2026 und 2027; die Kopfzeile der einzelnen Prüfung im Band übernimmt STARK vom Original. Die Autorenliste des Bandes zum Abitur 2021 nennt die Prüfungen 2016 bis 2020 ausdrücklich als „Abiturprüfung Berlin". Befund in den Dateien unter hefte/ (17.09.2026): 2019–2021 Kopfzeile „Berlin – Mathematik Grundkurs", 2022–2025 „Berlin/Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs", 2026 „Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs" (abi-pruefungen.md § 4). | STARK-Bände (Angabe des Lehrers); Kopfzeilen der Hefte |
+| durchgehend; bis 2021 „CAS", ab 2022 „MMS" | Rechnerfassung mit Computeralgebra als eigene Prüfungsform in jedem Jahrgang: amtliche CAS-Hefte 2014–2018 auf dem Bildungsserver (abi-quellen.md § 2–3), CAS-Variante 2021 als Prüfungsform mit Geräteliste (TI-92, TI-Voyage, TI-Nspire, Casio ClassPad; PC mit MuPad, Geogebra, Derive oder Emulationen), ab 2022 im Pool und ab 2027 in den Prüfungsschwerpunkten „MMS" mit wortgleicher Hilfsmittelregelung, Berlin „MMS (CAS)". CAS und MMS sind dieselbe Sache unter wechselndem Namen. Berichtigt 17.09.2026 (Auftrag C Teil 4): die Annahme, es habe ab 2018 keine CAS-Fassungen mehr gegeben, trifft nicht zu – STARK druckt sie ab dem Jahrgang 2018 nicht mehr ab (Band 2021 nur 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2). | STARK-Band zum Abitur 2021, Vorspann (hefte/hinweise-2021-be-gk.md, Abschrift); Bände 2027; Prüfungsschwerpunkte 2027 (abitur-vokabular.md § 3); iqb-quellen.md |
 | Band zum Abitur 2027 | STARK führt die Jahrgänge 2022 bis 2025 ohne Landeszusatz und den Jahrgang 2026 als „von Brandenburg" (online über MySTARK). Für Berlin 2026 existiert kein STARK-Heft; die Lücke ist über den Verlag nicht zu schließen (offener Punkt in abi-pruefungen.md § 3). | STARK-Band zum Abitur 2027 (Angabe des Lehrers) |
 
 Offen (nicht aufzulösen, § 9): ob die Berliner und die Brandenburger Fassung
@@ -675,7 +689,15 @@ automatisiertes Lösen von Gleichungen. Mit MMS: das in der Schule
 eingeführte MMS-Rechengerät, keine weitere Software. Dazu Formelsammlung (nur
 Teil B) und Rechtschreibnachschlagewerk. MMS heißt „Modulares
 Mathematiksystem" (so auch § 3 und abitur-vokabular.md § 3; eine andere
-Auflösung steht nirgends im Repo, geprüft 17.09.2026).
+Auflösung steht nirgends im Repo, geprüft 17.09.2026). **Bis 2021 dieselbe
+Regelung unter dem Namen CAS** (Band 2021, hefte/hinweise-2021-be-gk.md):
+ohne CAS nicht programmierbarer, nicht grafikfähiger Taschenrechner ohne
+numerische Differenziation, Integration und automatisiertes Gleichungslösen;
+mit CAS PC oder Gerät – Texas Instruments TI-92, TI-Voyage, TI-Nspire, Casio
+ClassPad, PC-gestützt mit MuPad, Geogebra, Derive oder Emulationen der
+Geräte, keine weitere Software; Formelsammlung in den Aufgabenstellungen 2,
+3 und 4, Rechtschreibnachschlagewerk. Der Wortlaut der Rechnerregelung ist
+der von 2027, nur der Name wechselt von CAS zu MMS (§ 10).
 
 **Nicht gefordert.** Beide Niveaus: Erläutern und Entwickeln von Beweisen,
 Simulationen. GK zusätzlich: Nutzung von Grenzwerten bei der Bestimmung von
@@ -719,6 +741,49 @@ Aufbau mit 2.1/2.2 je 30, 3 und 4 je 20 – 150 angeboten, 100 bearbeitet
 (Schlüssel seit 2025: 30 / 30 / 20 / 20, wie 2026-bb-ea). Der Aufbau „vier
 Pflicht- plus zwei von sechs Wahlaufgaben" gilt im LK also seit 2024, der
 Schlüssel 30 / 30 / 20 / 20 seit 2025.
+
+**Struktur bis 2021 und Bewertungsschlüssel als Reihe (17.09.2026, Auftrag
+C Teil 4; Quelle hefte/hinweise-2021-be-gk.md, Abschrift aus dem STARK-Band
+zum Abitur 2021 Berlin GK, Vorspann S. II, III, V, einzelne Ziffern
+abschriftbedingt unsicher).** Berlin GK 2019–2021: Aufgabenstellung 1
+hilfsmittelfrei ohne Wahl; Aufgabenstellungen 2, 3 und 4 mit je einer Wahl
+zwischen zwei gleichwertigen Aufgaben (2.1/2.2 Analysis, 3.1/3.2 Analytische
+Geometrie, 4.1/4.2 Stochastik). Bearbeitungszeit 255 Minuten, davon 60 auf
+Aufgabenstellung 1 (bis 2019: 45), dazu 30 Minuten Lesezeit, in denen die
+Wahl je Themengebiet getroffen werden kann. (Die Hefte zeigen für 2021 den
+Corona-Aufbau, oben; der Band beschreibt die Regelstruktur.)
+
+| Jahrgänge | Niveau | Aufgabenstellung 1 | 2 (Analysis) | 3 (Geometrie) | 4 (Stochastik) | Quelle |
+|---|---|---|---|---|---|---|
+| bis 2018 | GK/LK | – (kein hilfsmittelfreier Teil; drei Aufgabenstellungen 1–3) | 40–50 % | 25–30 % | 25–30 % | Band 2021; Hefte: GK 40/20/20 = 80, LK 50/25/25 = 100 (§ 3) |
+| 2019 | GK | 20 | 40 | 20 | 20 | Band 2021; Heft 2019-be-gk |
+| ab 2020 | GK | 25 | 35 | 20 | 20 | Band 2021; Heft 2020-be-gk |
+| 2021–2023 | GK | 25 (von 35 angeboten) | 45 + 45, beide Pflicht | 30 (3 oder 4, Wahl der Lehrkraft) | – | Corona-Aufbau, Hefte 2021-be-gk, 2022/2023-bebb-gk |
+| 2022–2023 | LK | 30 | 50 + 50, beide Pflicht | 40 (3 oder 4, Wahl der Lehrkraft) | – | Corona-Aufbau, Hefte 2022/2023-bebb-lk |
+| 2024 | GK | 25 | 35 | 20 | 20 | Band 2027 |
+| 2024 | LK | 30 | 40 | 25 | 25 | Band 2027; Heft 2024-bebb-lk |
+| ab 2025 | GK | 25 | 25 | 15 | 15 | Band 2027; Hefte 2025-bebb-gk, 2026-bb-gk |
+| ab 2025 | LK | 30 | 30 | 20 | 20 | Band 2027; Hefte 2025-bebb-lk, 2026-bb-ea |
+
+Die Reihe 2019 → 2020 → 2024 → 2025 ist für den GK lückenlos (2021–2023 als
+Sonderjahrgänge); für den LK ist der Schlüssel 2019–2021 nicht belegt (kein
+Band, kein Heft; Brandenburger Band 2022, abi-quellen.md § 5).
+
+**Beleg und Abgleich der Verlagsangaben 2027 (17.09.2026, Auftrag C Teil 4).**
+Quelldatei im Wortlaut: hefte/hinweise-2027-bebb.md (Abschrift aus beiden
+Bänden 2027, außerhalb des Repos); dieser Abschnitt ist die verarbeitete
+Fassung. Abgleich: kein Widerspruch. Die Quelldatei enthält zusätzlich, hier
+nicht übernommen (Meldung): (a) Grundlagen – neben den Rahmenlehrplänen die
+Bildungsstandards der KMK für die Allgemeine Hochschulreife (Beschluss vom
+18.10.2012), die Prüfungsaufgaben „basieren auf dem Kerncurriculum"; (b)
+Teil A: die Aufgaben stehen „in keinem übergeordneten Zusammenhang", Teil B:
+jede Aufgabe enthält Anteile aller drei Anforderungsbereiche und beginnt
+üblicherweise mit AFB-I-Grundaufgaben; (c) die Gesamtarbeitszeit enthält eine
+individuelle Lese- und Auswahlzeit, gewählte Aufgaben sind auf dem Deckblatt
+zu markieren; (d) Verlagsaussage, es habe „inhaltlich nur wenige Änderungen"
+gegeben und alle Aufgaben ab 2022 eigneten sich zur Vorbereitung auf 2027;
+(e) Verweise auf die Prüfungsvorgaben (berlin.de, Bildungsserver) und den
+Änderungsdienst MySTARK.
 
 **Strukturbruch 2018/2019.** Bis 2018 kein hilfsmittelfreier Teil (Berlin;
 Brandenburg erhöht mit Aufgabenstellung 1 zu 15 BE, § 3), Aufgaben 1.1/1.2
