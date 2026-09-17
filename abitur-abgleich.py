@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-"""abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.23 · 17.09.2026 · gilt mit abitur-vokabular.md v1.5, abi-bau.py v0.10 und iqb-bau.py v1.7 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
-(bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb)
+"""abitur-abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
+Version 0.24 · 17.09.2026 · gilt mit abitur-vokabular.md v1.5, abi-bau.py v0.10 und iqb-bau.py v1.7 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
+(bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb; bis 17.09.2026 abgleich.py – Auftrag F Punkt 2, Familienname wie abitur-typen.csv)
+0.24 (Auftrag G, Punkt 1): eigener Name im Kopf und im Aufrufbeispiel, befund-abi-iqb-typen.md statt abi-iqb-typen.md; keine Regel und kein Lauf geändert.
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
 Typfeldern aller Kataloge (KATALOGE: iqb-katalog.csv, abi-katalog.csv). Die
@@ -9,7 +10,7 @@ Regeln je Lauf stehen in LAEUFE: PRAEFIX (alt → Gegenstandsklasse), ZUSAMMEN
 (alt → neu; mehrere alte Namen auf denselben neuen Namen heißt zusammenziehen,
 die erste Zeile der Typenliste bleibt mit ihrer beispiel_id), NEUE_DEFINITION
 und NEUES_THEMA (nur für zusammengezogene oder umgewidmete Typen). Aufruf
-`python abgleich.py [N]` führt Lauf N aus (ohne Angabe den jüngsten); jeder
+`python abitur-abgleich.py [N]` führt Lauf N aus (ohne Angabe den jüngsten); jeder
 Lauf setzt den Stand nach dem vorigen voraus und wird genau einmal gefahren.
 Schreibt die Dateien im Format der Bau-Skripte und gibt die Liste alt → neu
 für abi-pruefungen.md bzw. iqb-pruefungen.md § 5 aus. Danach beide Bau-Skripte
@@ -48,7 +49,7 @@ gehen in ihr inhaltsgleiches iqb-Gegenstück auf, 2 tragen denselben Namen,
 11 überlappende Paare werden mit erweiterter Definition zusammengezogen
 (drei iqb-Typen dabei umbenannt), 15 abi-Typen in Klassen-Themen bekommen
 den Präfix, 2 wechseln das Thema; beide Kataloge werden umetikettiert
-(abi-iqb-typen.md, Bericht in abi-pruefungen.md § 4). Die Quelldateien
+(befund-abi-iqb-typen.md, Bericht in abi-pruefungen.md § 4). Die Quelldateien
 iqb-typen.csv und abi-typen.csv entfallen.
 Lauf 13 (16.09.2026, Themenfeld bereinigen): Zeilenthema = Typthema. Ein
 Präfix (Term und Ereignis), drei Themenwechsel von Typen, Feldkorrektur
@@ -601,11 +602,11 @@ NEUE_DEFINITION_11 = {
 
 # ======================================================================= Lauf 12
 # Umstellungslauf (Entscheidung 25, 15.09.2026): gemeinsame Typenliste für abi
-# und iqb. Zuordnung je abi-Typ und Begründung in abi-iqb-typen.md § 6; die
+# und iqb. Zuordnung je abi-Typ und Begründung in befund-abi-iqb-typen.md § 6; die
 # (b)-Zusammenziehungen M1–M11 und die vier Klassenentscheidungen im Bericht
 # (abi-pruefungen.md § 4, 15.09.2026).
 ZUSAMMEN_12 = {
-    # (a) inhaltsgleich: abi-Name → iqb-Name (abi-iqb-typen.md § 6)
+    # (a) inhaltsgleich: abi-Name → iqb-Name (befund-abi-iqb-typen.md § 6)
     "Unterschreiten einer Steigungsschranke über das Minimum der Ableitung nachweisen":
         "Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen",
     "Ableitung mit Produkt- und Kettenregel bilden":

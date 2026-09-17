@@ -1,5 +1,5 @@
 # P10 Mathematik Brandenburg – Amtliche Vorgaben und ihre Änderungen
-Stand 05.09.2026 · Profil msa · gesonderter Baustein, unabhängig vom Katalog
+Stand 17.09.2026 · Profil msa · gesonderter Baustein, unabhängig vom Katalog (Datei bis 17.09.2026 vorgaben.md; Inhalt Stand 05.09.2026)
 
 Zweck: festhalten, was die Behörde zur Prüfung vorgibt und wann sich etwas geändert hat, damit der Katalog richtig gelesen wird und Formatwechsel nicht unbemerkt bleiben. Diese Datei ist kein Teil der Erfassung; der Katalog-Prompt liest sie nicht.
 
@@ -47,10 +47,11 @@ Stichwortfassung; Wortlaut in FB 10, S. 17–18.
 1. Neuesten Fachbrief laden (Liste s. 1), Abschnitt zur P10 lesen; ebenso das Rundschreiben des Schuljahrs, soweit erreichbar.
 2. Alles zu Umfang, Zeit, BE, Teilen, Hilfsmitteln, Formelblatt, Inhalten, Niveaus und Terminen als Zeile in Abschnitt 2 eintragen, Änderungen gegen das Vorjahr benennen.
 3. Abschnitt 3 abgleichen, „neu"-Punkte übernehmen.
-4. Danach das neue Heft in pruefungen.md eintragen und erfassen.
+4. Danach das neue Heft in msa-pruefungen.md eintragen und erfassen.
 5. Wenn sich Aufbau oder Hilfsmittel ändern: prüfen, ob das Profil (Felder, Kürzel) mitziehen muss – ab 2028 sicher: hilfsmittelfreier Teil, 50 BE, getrennte Aufgabenzahl.
 
 
 ## 5 Änderungen an dieser Datei
 
-- 2026-09-05: angelegt aus den Fachbriefen 1–10; aus pruefungen.md ausgelagert.
+- 2026-09-17 (Auftrag F, Punkt 1; Verweise nachgezogen in Auftrag G, Punkt 1): Datei heißt msa-vorgaben.md (vorher vorgaben.md), die Heftliste msa-pruefungen.md (§ 4); Inhalt sonst unverändert.
+- 2026-09-05: angelegt aus den Fachbriefen 1–10; aus msa-pruefungen.md ausgelagert.
