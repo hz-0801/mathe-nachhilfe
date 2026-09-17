@@ -2076,6 +2076,9 @@ Stapel im selben Auftrag erfasst und die Vormerkung im anschließenden
 Abgleichlauf umgestellt – eine Vormerkung überlebt keinen Auftrag." Das hält
 den Übergangszustand kurz, ohne die Reserve als solche aufzugeben; ob das
 Abbruchkriterium der Reserve dabei unberührt bleibt, entscheidet der Lehrer.
+**Gesetzt am 17.09.2026 (Auftrag D, Teil 7):** die Regel steht in abi.md § 7,
+iqb.md § 7 und CLAUDE.md § 2, das Abbruchkriterium bleibt unberührt
+(konzept.md Entscheidung 29).
 
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
@@ -2485,6 +2488,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag D, Teil 7: Regel „Eine Vormerkung überlebt keinen Auftrag" gesetzt (abi.md v0.24 § 7, iqb.md v1.11 § 7, CLAUDE.md § 2, konzept.md Entscheidung 29): Reserve-Stapel mit Landesheftverweisen im selben Auftrag erfassen, Vormerkung im anschließenden Abgleichlauf umstellen, Abbruchkriterium unberührt; Nichterfassbares wird gemeldet. Teil 1–6 des Auftrags: namensschema.md (Vorschlag), Geltungsdateien (Teil 2), befund-typenlisten.md, konzept.md § 8–§ 10, befund-lesbarkeit.md. |
 | 2026-09-17 | Auftrag D, Teil 2: Geltung je Zielprüfung in eigene Dateien abi-be-gk-geltung.md, abi-be-lk-geltung.md, abi-bb-gk-geltung.md, abi-bb-ea-geltung.md (§ 1 Themen ja/nein, § 2 ausgeschlossene Aufgabenformen, § 3 Rechnerfassung), per Skript aus abitur-vokabular.md v1.4 § 3 erzeugt, Inhalt unverändert; abitur-vokabular.md v1.5 behält Regeln und Anmerkungen. abi-bau.py v0.10 und iqb-bau.py v1.6 lesen die Zeile „Zielprüfungen:" des Profils (abi.md v0.23 § 6, iqb.md v1.10 § 6) und die Dateien. Selbstprüfung beider Skripte bestanden, Ausgabe byteidentisch zu vorher; Stapel 2019-ga-B-wtr aus dem Vorzustand mit dem umgebauten Skript neu gebaut, beide CSV byteidentisch mit HEAD. msa und fhr nicht umgebaut: msa hat keine Geltung, fhr bindet Themen über (27)/(28) an Prüfungsjahrgänge, nicht an Land oder Schulform, in keiner Spaltenstruktur und von keinem Skript gelesen. |
 | 2026-09-17 | Abgleichlauf 23 (abgleich.py v0.23, Auftrag C Teil 2): die 35 Vormerkungen aus 2019-be-gk, 2020-be-gk, 2021-be-gk und 2025-bebb-lk zu Verweisen umgestellt – 23 „Dublette von:“ (AB-Spalte in afb_amtlich, neun Schätzungen auf den amtlichen Bereich nachgezogen), 12 „Abgewandelt von:“ (2020-be-gk 4.2 e, f erst beim Stapellauf als abgewandelt befunden). Feldkorrekturen aus Teil 1: 2023-bebb-gk 2.1 c/d Rundung −4,25; 2022-bebb-lk 4 d „höchstens 50 %“ als „Abgewandelt von:“ mit eigenem Ergebnis. 38 Zeilen, Typen unverändert (1323), offene Posten 0; abi.md v0.22 (§ 7). |
 | 2026-09-17 | Auftrag C, Teil 1 abgeschlossen: Markdown-Korpus aller zehn Hefte 2022–2026 (529 Teilaufgaben, 451 nachgerechnet, 2 Katalogabweichungen vorgemerkt; § 4). |

@@ -1,5 +1,8 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.23 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Version 0.24 · 17.09.2026 · Kennung abi · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 0.23 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
+überlebt keinen Auftrag" – der Reserve-Stapel wird im selben Auftrag erfasst,
+der Abgleichlauf stellt die Vormerkung um.
 Änderungen gegenüber 0.22 (Auftrag D „Namensschema, Erweiterbarkeit,
 Begründungen", Teil 2): § 6 Geltung je Zielprüfung in eigenen Dateien
 abi-<zielprüfung>-geltung.md, das Profil nennt seine Zielprüfungen;
@@ -376,6 +379,7 @@ Themen belegt.
   Typ verlangt, Poolzeile muss stehen; Lauf 15, 16.09.2026). Die Poolquote je
   Heft (Zeilen und BE wortgleich im Pool, erfasst oder vorgemerkt;
   abgewandelte getrennt) ist Kennzahl in abi-pruefungen.md § 2.
+  **Eine Vormerkung überlebt keinen Auftrag** (Regel, gesetzt 17.09.2026, Auftrag D Teil 7; Vorschlag aus Auftrag C Teil 2, abi-pruefungen.md § 4): Wird ein Landesheft erfasst, dessen Poolaufgaben in einem Reserve-Stapel liegen, wird dieser Stapel im selben Auftrag erfasst und die Vormerkung im anschließenden Abgleichlauf auf „Dublette von:" oder „Abgewandelt von:" umgestellt. Das Abbruchkriterium bleibt dabei unberührt (iqb.md § 6, konzept.md Entscheidung 29). Kann der Stapel nicht erfasst werden, ist das im Bericht zu melden und im Änderungslog festzuhalten; die Vormerkung bleibt dann als benannter offener Posten stehen, nicht stillschweigend.
   dublette_von ist allein eine Spalte von iqb-quellen.csv und sagt, dass eine
   Pooldatei wortgleich mit einer anderen ist (Datei → Datei, keine Zeile) –
   ein anderer Sachverhalt als die Pool-Teilaufgabe im Landesheft, die eine

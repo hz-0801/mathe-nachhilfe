@@ -163,7 +163,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 28. Abbruchkriterium der Erfassung (2026-09-14, iqb.md § 6): je Stapel die Zahl neuer Schnittwerte innerhalb der Geltung; unter fünf heißt ausgereizt, der Rest ist Reserve. Reserve-Stapel werden nur für Landesheftverweise geöffnet (Entscheidung 29).
     Zahl: Teil A ausgereizt nach 18 Stapeln; Teil B grundlegend 7 → 3 → 2 → 2, erhöht 9 → 0 → 7 → 4 → 3 (iqb.md § 6); die für Landesheftverweise geöffneten Reserve-Stapel brachten 0, 1, 0, 1 neue Werte (2020-ga-B, 2021-ga-B, 2025-ea-B-mms, 2019-ga-B; iqb-pruefungen.md § 4).
     Kippt bei: einem Reserve-Stapel mit fünf oder mehr neuen Werten – dann war die Reihe nicht ausgereizt und die Reserve ist zu öffnen; ebenso bei einer neuen Zielprüfung (§ 9), gegen die die Reihe neu zu rechnen ist.
-29. Vormerkung als Übergangszustand und Reserve für Landesheftverweise (2026-09-16, abi.md § 7, iqb.md § 7): Eine Poolaufgabe aus einem nicht erfassten Stapel wird im Landesheft als „Poolaufgabe (nicht erfasst): <id>" vorgemerkt, der Stapel darf dafür erfasst werden, ohne dass das Abbruchkriterium fällt, und ein Abgleichlauf stellt den Vermerk auf „Dublette von:" oder „Abgewandelt von:" um.
+29. Vormerkung als Übergangszustand und Reserve für Landesheftverweise (2026-09-16, abi.md § 7, iqb.md § 7): Eine Poolaufgabe aus einem nicht erfassten Stapel wird im Landesheft als „Poolaufgabe (nicht erfasst): <id>" vorgemerkt, der Stapel darf dafür erfasst werden, ohne dass das Abbruchkriterium fällt, und ein Abgleichlauf stellt den Vermerk auf „Dublette von:" oder „Abgewandelt von:" um. Seit dem 17.09.2026 (Auftrag D, Teil 7) als Regel: eine Vormerkung überlebt keinen Auftrag – der Reserve-Stapel wird im selben Auftrag erfasst, der anschließende Abgleichlauf stellt um (abi.md § 7, iqb.md § 7, CLAUDE.md § 2).
     Zahl: 35 Vormerkungen aus fünf Heften (Auftrag B), alle in Auftrag C aufgelöst – vier Reserve-Stapel, 23 Dubletten, 12 abgewandelte (abi-pruefungen.md § 4, Lauf 23); Landesverwendung insgesamt 344 Dubletten, 24 abgewandelte.
     Kippt bei: einem Landesheft mit Poolanteil aus einem Stapel, der nicht erfasst werden darf oder kann – dann bliebe die Vormerkung dauerhaft, und der Verweis bräuchte eine dritte Form.
 30. Geltung je Zielprüfung (2026-09-16 Geltung je Heft, gemeinsame Hefte bebb gegen beide Spalten; 2026-09-17 eine Datei je Zielprüfung, Auftrag D Teil 2): Geltung ist eine Eigenschaft des Themas, nicht der Zeile; das Profil nennt seine Zielprüfungen, die Bau-Skripte lesen die Dateien und zählen die Zeilen außerhalb.
@@ -192,6 +192,14 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 - Blatt-Prompt: noch nicht begonnen; Entwurf nach dem Probelauf, damit er gegen echte Katalogzeilen geschrieben wird.
 - PDF-Archiv anlegen.
 - Profil abi: Schülerart am Oberstufenzentrum klären (berufliches Gymnasium oder Fachoberschule), Quellen und Erwartungshorizonte prüfen.
+- Tokenverbrauch und Plattformunabhängigkeit. Der größte Einzelposten im
+  laufenden Betrieb ist nicht der Katalog, sondern der Masterprompt (rund
+  25.000 Zeichen, je Blatt vollständig gelesen) und das Ansehen gerenderter
+  Seiten. Ein Umbau, der Nachschlagbares aus dem Prompt in Dateien auslagert,
+  würde Token sparen und den Prompt weniger modellgebunden machen. Gehört ins
+  Blattbau-Projekt. Die Formate des Katalogs sind bereits anbieterneutral; die
+  Bindung liegt im Prompt und in der Umgebung, die Code ausführt. Festgehalten
+  am 17.09.2026.
 
 ## 7 Ablauf
 
@@ -373,6 +381,10 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-17 (Auftrag D, Teil 7): Entscheidung 29 um die Regel „eine Vormerkung
+  überlebt keinen Auftrag" ergänzt (abi.md v0.24, iqb.md v1.11, CLAUDE.md); § 6
+  offener Punkt Tokenverbrauch und Plattformunabhängigkeit aufgenommen, ohne
+  Bearbeitung.
 - 2026-09-17 (Auftrag D, Teil 5): § 4 je Entscheidung „Zahl" (tragende Zahl mit
   Fundstelle) und „Kippt bei"; Entscheidungen 27–31 (MMS als Delta,
   Abbruchkriterium, Vormerkung und Reserve, Geltung je Zielprüfung, Vorrang

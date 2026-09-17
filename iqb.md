@@ -1,5 +1,8 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.10 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.7 (Schema-Version 2)
+Version 1.11 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.7 (Schema-Version 2)
+Änderungen gegenüber 1.10 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
+überlebt keinen Auftrag" – ein Reserve-Stapel mit Landesheftverweisen wird
+im selben Auftrag erfasst.
 Änderungen gegenüber 1.9 (Auftrag D „Namensschema, Erweiterbarkeit,
 Begründungen", Teil 2): § 6 Geltung je Zielprüfung in eigenen Dateien
 abi-<zielprüfung>-geltung.md, das Profil nennt die Zielprüfungen, gegen die
@@ -516,6 +519,7 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   Verweis, abgewandelte getrennt ausgewiesen. Reserve-Stapel, auf die
   Landeshefte verweisen, dürfen dafür erfasst werden, ohne dass das
   Abbruchkriterium fällt (2017-ea-A, 2018-ga-B, 2018-ea-B; § 2, § 4).
+  **Eine Vormerkung überlebt keinen Auftrag** (Regel, gesetzt 17.09.2026, Auftrag D Teil 7; Vorschlag aus Auftrag C Teil 2, abi-pruefungen.md § 4): Wird ein Landesheft erfasst, dessen Poolaufgaben in einem Reserve-Stapel liegen, wird dieser Stapel im selben Auftrag erfasst und die Vormerkung im anschließenden Abgleichlauf auf „Dublette von:" oder „Abgewandelt von:" umgestellt. Das Abbruchkriterium bleibt dabei unberührt (iqb.md § 6, konzept.md Entscheidung 29). Kann der Stapel nicht erfasst werden, ist das im Bericht zu melden und im Änderungslog festzuhalten; die Vormerkung bleibt dann als benannter offener Posten stehen, nicht stillschweigend.
 - **Standardbezug vor Erwartungshorizont lesen? Nein.** Reihenfolge beim
   Erfassen: Aufgabe lesen, niveau_geschaetzt festlegen, dann Erwartungshorizont
   und Standardbezug. Die eigene Schätzung wird nicht nachträglich an den
