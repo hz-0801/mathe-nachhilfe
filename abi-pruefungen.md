@@ -1,5 +1,5 @@
 # Zentralabitur Mathematik Berlin/Brandenburg – Hefte und Erfassungsstatus
-Stand 17.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
+Stand 18.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
 
 ## 1 Quelle
 
@@ -108,7 +108,37 @@ im hilfsmittelfreien Teil) nennt das Jahr **2016**. Die Aufgabe ist offenbar
 unverändert aus dem Heft 2016 übernommen und die Kopfzeile nicht bereinigt
 worden. Beim Typenabgleich ist das keine Dublette innerhalb von 2018; ob die
 Aufgabe im Heft 2016 wortgleich steht, ist ungeprüft, weil 2016 nicht im
-Bestand ist.
+Bestand ist. *(Nachtrag 18.09.2026, Auftrag O Punkt 1: geprüft gegen alle neun
+Dateien des Jahrgangs 2016 unter hefte/abi/ – 2016-bb-ea Teil 1 und Teil 2,
+beide CAS-Fassungen, 2016-be-gk, 2016-be-gk-cas, 2016-be-lk, 2016-be-lk-cas und
+die Verlagsfassung 2016-be-gk-stark. Die Glücksrad-Aufgabe des Landwirts steht
+in keiner davon; der hilfsmittelfreie Teil 2016 Brandenburg trägt in der
+Stochastik ein Baumdiagramm zum Würfeln und die Vorbereitung einer Abiturfeier.
+Die Kopfzeile „2016" ist also ein nicht bereinigter Vorlagenkopf, keine
+Übernahme; dieselbe Kopfzeile trägt die CAS-Fassung 2018-bb-ea-cas. Keine
+Katalogzeile geändert.)*
+
+**2022-bebb-gk, Berliner Verlagsfassung (18.09.2026, Auftrag O Punkt 1).** Der
+STARK-Band „Berlin – Mathematik Grundkurs" (Jahrgänge 2016–2022, Textebene;
+hefte/abi/sonstiges/11710-nn-xx-2022-00-pruefungsaufgaben.pdf, 47 Seiten) führt
+den Jahrgang 2022 unter der Kopfzeile „Berlin", der Katalog unter dem Kürzel
+2022-bebb-gk aus dem Band 2027 Berlin/Brandenburg (Bildscan). Vergleich am Text
+gegen den Markdown-Korpus hefte-md/2022-bebb-gk.md, der 57 von 57 Teilaufgaben
+strukturgleich mit dem Katalog ist (Auftrag C Teil 1): dieselben fünf
+Aufgaben (1 hilfsmittelfrei mit sieben Einheiten, 2.1, 2.2, 3, 4), dieselben 57
+Teilaufgaben mit denselben Buchstaben und Aufgabenteilen, dieselben BE je
+Teilaufgabe (185 = 185), derselbe Wortlaut – 48 Teilaufgaben mit einer
+Textähnlichkeit von mindestens 0,86 nach Bereinigung der Formeln, die übrigen 9
+(Formelzeilen, die die Textebene zerlegt) am Text von Hand als gleich befunden;
+dieselbe Anlage (summierte Binomialverteilung für n = 100, zwei Seiten). Die
+Verlagsseiten stimmen für die Aufgaben 1, 2.1, 2.2 und 3 überein (2022-1/-2,
+-9/-10, -18/-19, -28/-29); Aufgabe 4 steht im Berliner Band um eine Seite später
+(2022-38/-39, Anlage -40/-41 statt -37/-38, Anlage -39/-40) – ein Unterschied
+der Bände, nicht des Hefts. Die Berliner Fassung 2022 ist geprüft und gleich:
+Leitfassungsregel und Kürzel bleiben, keine Katalogzeile betroffen. Die
+Datei ist damit eine zweite Fassung von 2022-bebb-gk mit Textebene, Tipps und
+Lösungen (Umbenennung nach dem Muster -stark nicht ausgeführt, abi-quellen.md
+§ 8).
 
 **2018-bb-ea.** Teil 1 trägt in der Kopfzeile „Land Brandenburg“, Teil 2
 „Länder Berlin und Brandenburg“. Damit ist am Heft selbst belegt, was abi.md
@@ -2488,6 +2518,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-18 | Auftrag O, Punkt 1: Berliner Verlagsfassung 2022 (STARK-Band Berlin GK, Textebene) gegen 2022-bebb-gk geprüft – 57 von 57 Teilaufgaben, BE 185 = 185, Wortlaut gleich, Verlagsseiten bis auf eine Verschiebung bei Aufgabe 4 gleich (§ 4); 2018-bb-ea Aufgabe 1.3 gegen alle neun Dateien 2016 geprüft, dort nicht enthalten, Kopfzeile „2016" ist ein Vorlagenrest (§ 4, Nachtrag). Keine Katalogzeile geändert. |
 | 2026-09-17 | Auftrag G, Punkt 1 und 2: abitur-abgleich.py v0.24 (eigener Name im Kopf und Aufrufbeispiel, befund-abi-iqb-typen.md; Versionsbindung auf abitur-vokabular.md v1.6, abi-bau.py v0.12, iqb-bau.py v1.9), abi-bau.py v0.12 und iqb-bau.py v1.9 (nur Kopfzeile: abitur-abgleich.py v0.24). Kataloge und Typenliste unverändert, Selbstprüfung beider Skripte bestanden, Lauf 23 byteidentisch wiederholt. |
 | 2026-09-17 | Auftrag F, Punkt 2: das Abgleichskript heißt abitur-abgleich.py (git mv von abgleich.py, Inhalt byteidentisch, v0.23; Familienname wie abitur-typen.csv, namensschema.md § 4 Variante B). Verweise in dieser Liste, iqb-pruefungen.md, CLAUDE.md, Kern § 5, abi.md v0.26, iqb.md v1.13, abitur-vokabular.md v1.6, abi-bau.py v0.11, iqb-bau.py v1.8, konzept.md, README nachgezogen; Kataloge unverändert, Selbstprüfung beider Skripte bestanden. Punkt 1 (msa-Dateien mit Präfix): § 1 nennt abi-vorgaben.md statt vorgaben.md. Punkt 3: abi-iqb-typen.md → befund-abi-iqb-typen.md (Kopfvermerk: Messung vor Lauf 12), repo-bestand.md → befund-repo-bestand.md; Verweise in § 4 und § 5 nachgezogen. |
 | 2026-09-17 | Auftrag D, Teil 7: Regel „Eine Vormerkung überlebt keinen Auftrag" gesetzt (abi.md v0.24 § 7, iqb.md v1.11 § 7, CLAUDE.md § 2, konzept.md Entscheidung 29): Reserve-Stapel mit Landesheftverweisen im selben Auftrag erfassen, Vormerkung im anschließenden Abgleichlauf umstellen, Abbruchkriterium unberührt; Nichterfassbares wird gemeldet. Teil 1–6 des Auftrags: namensschema.md (Vorschlag), Geltungsdateien (Teil 2), befund-typenlisten.md, konzept.md § 8–§ 10, befund-lesbarkeit.md. |
