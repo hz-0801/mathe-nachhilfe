@@ -1,6 +1,17 @@
 # PROFIL MSA – Prüfung am Ende der Jahrgangsstufe 10, Mathematik, Brandenburg
-Version 0.4 · 17.09.2026 · Kennung msa · gilt mit Kern v0.3
-Änderungen gegenüber 0.3 (Auftrag E, Punkt 1): § 2 Umgebungsangabe „Sandbox" gestrichen; § 6 Probelauf als abgeschlossen benannt; § 4 Koordinatenschreibweise mit „|" festgehalten (Vorschlag aus fhr.md § 9 hierher verschoben).
+Version 0.4 · 17.09.2026 · Kennung msa · gilt mit Kern v0.8 (Schema-Version 2, unverändert seit Kern v0.3)
+Änderungen gegenüber 0.3 (Auftrag E, Punkt 1 und 2): § 2 Umgebungsangabe „Sandbox" gestrichen; § 6 Probelauf als abgeschlossen benannt; § 4 Koordinatenschreibweise mit „|" festgehalten (Vorschlag aus fhr.md § 9 hierher verschoben); Kernbindung von v0.3 auf v0.8 gehoben (Durchsicht unten).
+
+Kernbindung (17.09.2026, Auftrag E, Punkt 2): Die Kernänderungen 0.4 bis 0.8
+sind für dieses Profil durchgesehen, keine widerspricht ihm. Ausgelagertes
+Vokabular (0.4) ist erlaubt, nicht verlangt – dieses Profil führt seines in
+§ 5–6. Die Handlung je format (0.4, § 5) bündelt Zeilen für den Schnitt der
+Profile abi und iqb und bindet dieses Profil nicht. Die Markierungen „Dublette
+von:", die Vormerkung und „Abgewandelt von:" (0.5, § 5) setzen eine mit einem
+anderen Katalog geteilte Typenliste voraus, die es hier nicht gibt; die
+Trägerbindung gilt für abi und iqb. Vorrang des Amtlichen und Maßstab der
+Schätzung (0.6, 0.7, § 5) gelten auch hier: ein amtlicher Anforderungsbereich liegt nur bei den Musteraufgaben 2028 vor (§ 4); wird er erfasst, steht er in afb_amtlich, die eigene Schätzung entsteht vorher und wird nicht angepasst, die Eichung ist Kennzahl (bei allen anderen Heften: Schätzung ohne Maßstab, afb_amtlich leer). Die Regel für das
+Zeilenthema überlässt der Kern dem Profil (0.4, § 6): in diesem Profil trägt die Zeile das Thema der Aufgabenstellung, unabhängig vom Thema ihres Typs in typen.csv (Stand der Erfassung 2026-09-05, Kern v0.3); ob msa die Regel Zeilenthema = Typthema von abi und iqb übernimmt, ist offen – Vorschlag: erst mit einem msa-bau.py entscheiden, das die Gleichheit prüfen könnte.
 
 ## 1 Prüfung
 
