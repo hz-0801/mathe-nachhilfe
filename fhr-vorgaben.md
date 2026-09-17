@@ -1,14 +1,20 @@
 # Fachhochschulreife Mathematik Brandenburg – Amtliche Vorgaben und ihre Änderungen
 Stand 17.09.2026 · Profil fhr · gesonderter Baustein, unabhängig vom Katalog
 
+**Vorbehalt (17.09.2026):** Die Angaben in dieser Datei sind aus fhr.md und
+fhr-pruefungen.md zusammengetragen; die Papiere selbst – Prüfungsschwerpunkte,
+Rundschreiben, Rahmenlehrplan – wurden am 17.09.2026 nicht gelesen. Alle Angaben
+gelten als ungeprüft, bis der erste Jahrescheck (§ 4) sie gegen die Quellen
+gehalten hat; dann wird dieser Vorbehalt gestrichen und in § 5 vermerkt.
+
 Zweck: festhalten, was die Behörde zur Prüfung vorgibt und wann sich etwas
 geändert hat, damit der Katalog richtig gelesen wird und Formatwechsel nicht
 unbemerkt bleiben. Pendant zu msa-vorgaben.md (Profil msa) und abi-vorgaben.md
 (abi, iqb); konzept.md Entscheidung 19. Diese Datei ist kein Teil der
 Erfassung; der Katalog-Prompt und fhr-bau.py lesen sie nicht. Angelegt am
 17.09.2026 (Auftrag G, Punkt 3) aus dem, was fhr.md § 1–7 und
-fhr-pruefungen.md bereits festhalten; die Papiere selbst wurden dafür nicht
-neu gelesen, der erste eigene Vorgabencheck (§ 4) steht aus.
+fhr-pruefungen.md bereits festhalten (Vorbehalt oben); der erste eigene
+Vorgabencheck (§ 4) steht aus.
 
 ## 1 Quellen
 
@@ -71,6 +77,11 @@ Schulform und ein Niveau vorliegen (konzept.md § 8, Frage 4).
 
 ## 4 Jährlicher Vorgabencheck (eigener Schritt, einmal im Jahr, wenn die Prüfungsschwerpunkte des nächsten Schuljahrs erscheinen)
 
+0. Nur beim ersten Check (Vorbehalt im Kopf): zuerst die Herkunft der hier
+   stehenden Angaben prüfen – jede Zeile von § 1 bis § 3 gegen die Quellen
+   halten (Prüfungsschwerpunkte 2026/27 und 2027/28, Rundschreiben, Hefte),
+   Abweichungen berichtigen und in § 5 vermerken; erst dann den Vorbehalt
+   streichen.
 1. Prüfungsschwerpunkte des neuen Schuljahrs aus `Pruefungsschwerpunkte/`
    laden, dazu das Rundschreiben aus `Pruefungstermine/` (§ 1).
 2. Alles zu Aufbau, Zeit, BE, Aufgabenzahl, Hilfsmitteln, Inhalten und
@@ -85,6 +96,8 @@ Schulform und ein Niveau vorliegen (konzept.md § 8, Frage 4).
 
 ## 5 Änderungen an dieser Datei
 
+- 2026-09-17 (Auftrag H, Punkt 1): Vorbehalt im Kopf – Angaben ungeprüft, bis der
+  erste Jahrescheck sie gegen die Quellen hält; § 4 Schritt 0 dafür.
 - 2026-09-17: angelegt (Auftrag G, Punkt 3) als fhr-Pendant zu msa-vorgaben.md
   und abi-vorgaben.md, aus fhr.md v1.8 § 1–7 und fhr-pruefungen.md
   zusammengetragen; kein eigener Vorgabencheck, die Papiere nicht neu gelesen.
