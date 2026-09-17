@@ -6,6 +6,7 @@ Im Repo liegen zwei Arbeiten nebeneinander: die **Erfassung** – vergangene Pr�
 
 - `CLAUDE.md` – öffnen, wenn im Repo erfasst wird: Werkzeuge auf dem Rechner, Ablauf je Heft und Stapel, Arbeitsregeln (Selbstprüfung, Rerun, Commit).
 - `konzept.md` – öffnen, wenn man wissen will, warum etwas so ist: Entscheidungen mit Zahl und Kippbedingung (§ 4), was offen ist und worauf es wartet (§ 6), die Jahresroutine (§ 7), wie eine neue Prüfung aufgenommen wird (§ 8).
+- `faellig.md` – öffnen am Anfang eines Auftrags und wenn ein Fachbrief, ein Jahrgang oder ein Band erscheint: Handlungen mit Termin oder Auslöser und bei wem sie liegen (jährlich, einmalig, beim Lehrer, erledigt). Angelegt am 18.09.2026, weil Termine und Auslöser bis dahin über Prüfungslisten, Vorgaben-Dateien und Berichte verstreut waren.
 
 ## Profil msa (P10 Mathematik, Brandenburg, Oberschule/Gesamtschule, Niveau FOR)
 

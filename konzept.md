@@ -1,5 +1,5 @@
 # KONZEPT – Arbeitsblätter aus alten Prüfungen
-Stand 17.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
+Stand 18.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
 
 ## 1 Ziel
 
@@ -23,6 +23,7 @@ Hier steht, warum es einen Baustein gibt. Wann man welche Datei öffnet, sagt RE
     namensschema.md                    eine Benennung, die einen zweiten Träger derselben Prüfungsart verträgt (Entscheidung 32)
     hefte/, hefte-md/, iqb-pdf/        lokal, nicht im Repo: Verlagsmaterial und Cache (.gitignore); pdf/ als Archiv der Hefte ist nicht angelegt (§ 6)
     pruefungsprompt.md, masterprompt.md, mathblatt.sty, blatt-konzept.md, CHANGELOG.md   der Blattbau, ein eigenes Projekt im selben Repo (blatt-konzept.md § 5); Masterfassungen hier, die Projektanweisungen sind Kopien
+    faellig.md                         Handlungen mit Termin oder Auslöser und dem, bei dem sie liegen – getrennt von § 6, weil eine Entscheidung einen Grund des Wartens hat und eine Handlung einen Auslöser; kein Posten in beiden (Pflegeregel CLAUDE.md § 3)
     README.md, CLAUDE.md               Landkarte und Arbeitsanweisung; begründet wird nur hier
 
 Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Die Ordnung darin regeln die Präfixe nach namensschema.md (Entscheidung 32).
@@ -536,6 +537,9 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-18 (Auftrag O, Punkt 5 und 6): faellig.md angelegt – Handlungen mit Termin oder
+  Auslöser und Zuständigkeit, abgegrenzt gegen § 6 (Entscheidungen mit Grund des Wartens);
+  Baustein mit Grund in § 2, Pflegeregel in CLAUDE.md § 3, Einstieg im README.
 - 2026-09-17 (Auftrag M, Punkt 2): § 2 auf Baustein und Grund gekürzt (13 Bausteinzeilen
   statt 30); Zweckangaben stehen im README, Umbenennungen und Daten hier in § 10 und in
   namensschema.md; befund-stichtag-2026-09-17.md aus der Liste (Befund, kein Baustein).
