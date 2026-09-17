@@ -1986,6 +1986,7 @@ in einem Heft.
 | 2026-bb-ea | 11 (2026-1 f., -8 f., -17 f., -26 f., -36, -41 f.; Textebene) | 50 / 50 | 0 | 40 | 0 | 9 (102 KB) | 19.7 KB | 22 min | Wahlaufgaben 1.5–1.10 je a/b; 2.1 Aufgabenteil 2 a–c = g–i, 2.2 Teil 2 a–c = f–h, 4 Teil 2 = c–e, Teil 3 = f–h. Begründungsaufgaben 1.5 a, 1.6 b, 1.7 a, 1.8 b, 2.1 e, 2.2 d, 3 d, 4 g gelesen, stimmig. Stichproben: 1.6 b, 1.8 b, 2.2 d, 3 d, 4 g |
 | 2025-bebb-lk | 11 (2025-1 f., -8 f., -16 f., -24 f., -32, -37 f.; Bildscan) | 46 / 46 | 0 | 40 | 0 | 9 (206 KB) | 18.7 KB | 30 min | 1.5 und 1.10 im Heft ohne Teilaufgabenbuchstaben (im Katalog a). Die Prüfung fing einen Übertragungsfehler der Abschrift ab (1.10: P(A ∩ nicht B), nicht P(A ∩ B); berichtigt, keine Katalogabweichung). Begründungsaufgaben 1.1 b, 1.5, 1.8 b, 2.1 d/e, 2.2 f, 3 b, 4 b gelesen, stimmig. Stichproben: 1.1 b, 1.5, 2.1 e, 2.2 f, 3 b |
 | 2024-bebb-gk | 10 (2024-1 bis -3, -12 f., -19 f., -27, -32 f.; Bildscan) | 47 / 47 | 0 | 42 | 0 | 9 (125 KB) | 17.3 KB | 30 min | 1.4.2 und 1.5.2 im Heft ohne Teilaufgabenbuchstaben (im Katalog a); Aufgabe 4 mit Aufgabenteil 1 = 4.1 und Aufgabenteil 2 = 4.2. Begründungsaufgaben 1.1 a, 1.2 a, 1.4.1 b, 2.1 d/f, 2.2 b/h, 3 f, 4.1 a gelesen, stimmig. Stichproben: 1.4.1 b, 2.1 f, 2.2 h, 3 f, 4.1 a |
+| 2024-bebb-lk | 13 (2024-1 f., -7 f., -16 f., -26 bis -28, -35 f., -42 f.; Bildscan) | 53 / 53 | 0 | 45 | 0 | 9 (218 KB) | 21.7 KB | 35 min | 1.6, 1.8, 1.10 im Heft ohne Teilaufgabenbuchstaben (im Katalog a); 2.2 Aufgabenteil 2 a–d = f–i, 4 Teil 2 = d–f, Teil 3 = g–h. Begründungsaufgaben 1.2 a/b, 1.4 b, 2.1 g/i/k, 2.2 a/c, 3 b/d, 4 a/b gelesen, stimmig. Stichproben: 1.2 b, 1.4 b, 2.1 k, 3 d, 4 b |
 
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
@@ -2395,6 +2396,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2024-bebb-lk (hefte-md/, außerhalb des Repos): 53 von 53 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 45 Ergebnisse nachgerechnet, 0 Abweichungen; 9 Abbildungen (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2024-bebb-gk (hefte-md/, außerhalb des Repos): 47 von 47 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 42 Ergebnisse nachgerechnet, 0 Abweichungen; 9 Abbildungen (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2025-bebb-lk (hefte-md/, außerhalb des Repos): 46 von 46 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 40 Ergebnisse nachgerechnet, 0 Abweichungen; 9 Abbildungen (§ 4). |
 | 2026-09-17 | Auftrag C, Teil 1: Markdown-Korpus 2026-bb-ea (hefte-md/, außerhalb des Repos): 50 von 50 Teilaufgaben, 0 Abweichungen bei BE/Struktur, 40 Ergebnisse nachgerechnet, 0 Abweichungen; 9 Abbildungen (§ 4). |
