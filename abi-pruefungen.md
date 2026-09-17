@@ -30,7 +30,7 @@ in vorgaben.md.
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2019-be-gk.pdf) | – (nicht im Band) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin – Mathematik Grundkurs 2019"; Aufgaben 1 (hilfsmittelfrei), 2.1, 2.2, 3.1, 3.2, 4.1, 4.2 (abi-quellen.md § 8) |
+| 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt, 9 Vormerkungen auf den Reserve-Stapel 2019-ga-B) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
 | 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Datei hefte/2020-be-gk.pdf) | – (nicht im Band) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin – Mathematik Grundkurs 2020"; Aufgaben 1, 2.1, 2.2, 3.1, 3.2, 4.1, 4.2 |
 | 2021 | 2021-be-gk | BE | grundlegend | WTR | 45 (Verlagsband, PDF mit Textebene; Datei hefte/2021-be-gk.pdf) | – (nicht im Band) | nicht ermittelt | nicht erfasst · Kopfzeile „Berlin – Mathematik Grundkurs 2021"; Aufgaben 1, 2.1, 2.2, 3, 4 (Geometrie und Stochastik ohne Wahl) |
 | 2022 | 2022-bebb-gk | BE/BB | grundlegend | WTR | 12 (Scan, nur Aufgabenseiten; 11–12 Anlage Binomialtabelle) | – (nicht im Scan) | 185 angeboten; **Corona-Sonderjahrgang** (§ 4, abi.md § 11): Teil A drei Analysis-Pflichtaufgaben plus zwei Geometrie- oder Stochastikaufgaben, Teil B beide Analysis-Aufgaben plus Geometrie oder Stochastik – rechnerisch 145 bearbeitet (kein Deckblatt im Scan; vorher „140 bei Wahl 2.1/2.2" nach der gewöhnlichen Wahl) | **erfasst 2026-09-16, 57 Zeilen** (alle Aufgaben, beide Wahlwege; 8 Dubletten auf Teil A, 16 Dubletten und 3 abgewandelte Verweise auf den Pool 2022 Teil B seit Lauf 18) · Sichtung im selben Lauf (§ 4) |
@@ -64,6 +64,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
+| 2019-be-gk | 45 | 51 | 25 (49 %) | 4 von 4 (100 %), alle 4 geerbt; eigene 0 (die 41 Landeszeilen tragen keinen amtlichen Bereich) | 0 | 0 | 19 von 51 (37 %) | Heft (be-gk) 1; alle: be-gk 1, be-lk 0, bb-gk 1, bb-ea 0 | 35 Werte, 34 von 45 Zeilen im Niveau bekannt (76 %), 1 Wert neu im Gesamtbestand | 12 von 45; 35 von 180 BE (19 %), davon 8 Zeilen vorgemerkt („Poolaufgabe (nicht erfasst)", 2019-ga-B); abgewandelt 2 Zeilen, 7 BE (1.4 c erfasst, 3.2 b vorgemerkt) |
 | 2022-bebb-gk | 57 | 60 | 33 (55 %) | 7 von 8 (88 %, nicht scharf) im Heftlauf; seit Lauf 18 16 von 24 (67 %; die 16 Teil-B-Dubletten trugen ihre eigene Schätzung, die Poolzeilen hatten sie übernommen); seit Lauf 20 23 von 24 (96 %; sieben Landeszeilen auf den amtlichen Bereich nachgezogen, 23 geerbt, eigene 0 von 1) | 0 | 0 | 11 von 60 (18 %) | Heft (be-gk oder bb-gk) 0, nur be-gk 1, nur bb-gk 0; alle: be-gk 1, be-lk 1, bb-gk 0, bb-ea 0 | 36 Werte, 48 von 57 Zeilen im Niveau bekannt (84 %), 0 Werte neu im Gesamtbestand | 24 von 57; 72 von 185 (39 %), seit Lauf 18 alle „Dublette von:“ (2022-ga-B erfasst); abgewandelt 3 Zeilen, 11 BE |
 | 2022-bebb-lk | 68 | 66 | 23 (35 %) | 27 von 32 (84 %), alle 32 geerbt (Dubletten, im Pool geeicht); eigene 0 | 0 | 0 | 0 von 66 (0 %, erstes Heft im Niveau lk) | Heft (be-lk oder bb-ea) 0, nur be-lk 0, nur bb-ea 0; alle: be-gk 22, be-lk 0, bb-gk 22, bb-ea 0 | 42 Werte, 67 von 68 Zeilen im erhöhten Niveau (Pool) bekannt (99 %), 0 Werte neu im Gesamtbestand | 32 von 68; 100 von 220 (45 %); abgewandelt 1 Zeile, 4 BE |
 | 2023-bebb-gk | 58 | 59 | 38 (64 %) | 11 von 11 (100 %) | 3 | 0 | 7 von 59 (12 %) | be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 42 Werte, 24 von 58 Zeilen im Niveau bekannt (41 %), 1 Wert neu im Gesamtbestand | 11 von 58; 30 von 185 (16 %) |
@@ -1265,6 +1266,77 @@ Vorbehalt in Teil A (Heftlayout 3 Pflicht + Wahlblock zu 3 = 30 BE, Schlüssel
 25 BE); nicht abbildend 2024-bebb-gk (Schlüssel 2024), 2022/2023
 (Sonderjahrgänge), 2017/2018 (Format bis 2018). Keine Katalogdatei geändert.
 
+**2019-be-gk erfasst (17.09.2026, Auftrag B „Fünf Hefte erfassen, Heftkorpus
+als Markdown anlegen, Katalog gegen Stark prüfen, CAS-Delta messen", Teil 1;
+abi-bau.py v0.8, abi.md v0.18).** Stark-Band zum Abitur 2021 (Berlin), PDF mit
+Textebene, 46 Seiten A5; Aufgabenseiten 1–2, 8–9, 17–19, 25, 31, 37–38, 42 aus
+dem Text ermittelt, Abbildungen (Anlagen zu 2.1 und 2.2, Würfel 3.2, Term 4.2 e)
+gerendert gelesen; Tipps und Verlagslösungen nicht erfasst (kein
+Erwartungshorizont: ergebnis ohne „amtlich", afb_amtlich der Landeszeilen leer).
+**Heftaufbau 2019 (aus dem Heft):** Aufgabe 1 hilfsmittelfreier Teil mit vier
+Pflichteinheiten Analysis 1, Analysis 2, Geometrie, Stochastik zu je 5 BE
+(20 BE); Teil B mit Wahl in allen drei Sachgebieten – 2.1/2.2 Analysis je
+40 BE, 3.1/3.2 Analytische Geometrie je 20, 4.1/4.2 Stochastik je 20;
+bearbeitet 100 BE, angeboten 180. Kein Deckblatt im Band (Zeit, Hilfsmittel
+unbekannt). 45 Zeilen aus 10 Aufgaben, alle zehn Punktsummen stimmen (4 × 5,
+40, 40, 20, 20, 20, 20). Selbstprüfung beider Bau-Skripte bestanden (abi 588
+Zeilen aus 12 Heften, iqb 1258, 1149 Typen, 266 in beiden Katalogen), Lauf aus
+dem HEAD-Stand byteidentisch.
+
+*Pool-Abgleich (Textvergleich gegen alle 19 WTR-Dateien des Pools 2019
+grundlegend).* Teil A: Analysis 2 = Pool Analysis 1.1 (a, b wortgleich,
+Dubletten), Stochastik = Pool Stochastik 1.1 (a, b wortgleich; c abgewandelt –
+das Heft verlangt einen Term, der Pool die Wahrscheinlichkeit, „Abgewandelt
+von:" mit dem Typ der Poolzeile); Analysis 1 und Geometrie Landes. Teil B:
+3.2 Würfel = Pool AG/LA (A2) WTR 1 (a, c–f wortgleich, b mit anderem Operator
+„Begründen" statt „Zeigen" und ohne „gegenüberliegende" – abgewandelt), 4.1
+Führerschein: Aufgabenstamm und c–e wortgleich mit Pool Stochastik WTR 1, a
+und b eigene Fragen (100 statt 200 Erwachsene, andere Ereignisse) – Landes;
+2.1 Kiri-Bäume, 2.2 Hormonpflaster, 3.1 Tunnel, 4.2 Würfelspiel Landes. Der
+Stapel 2019-ga-B ist Reserve (nicht erfasst): die neun Teil-B-Treffer tragen
+die Vormerkung „Poolaufgabe (nicht erfasst[, abgewandelt]): <id>" (offene
+Posten, Übergangszustand; Selbstprüfung iqb meldet 2019-ga-B-wtr 9). **Poolquote
+12 von 45 Zeilen, 35 von 180 BE (19 %)**; Sitz: Teil A 5 von 20 BE (zwei
+Einheiten), Teil B nur 3.2 (20) und 4.1 c–e (12). Nach bearbeiteten BE je nach
+Wahl 5 bis 37 von 100. Kontextgebundene Zeilen: keine.
+
+*Typen.* 51 verwendet, 25 neu (49 %), 18 aus dem iqb-Katalog (4 Dubletten, 1
+abgewandelt, dazu Bestandstypen wie Hochpunkt eines Produkts aus Polynom und
+e-Funktion, Zeitpunkt stärkster Abnahme, Tangentengleichung, Kumulierte
+Binomialsumme, Pfadwahrscheinlichkeit), 8 aus dem abi-Bestand (u. a.
+Rekonstruktion dritten Grades, Grenzverhalten Produkt Polynom · e-Funktion,
+Mittelwert einer Funktion, Mindestanzahl Bernoulli-Kette, Graphen einzeichnen,
+Streckenlänge im Raum, Ziehen ohne Zurücklegen höchstens k). Neue Typen sitzen
+in Analysis 1 und Geometrie des Teils A (4), in den Landesaufgaben 2.1 (5
+mit den Nebentypen), 2.2 (3), 3.1 (4), 3.2 (4: Trapeznachweis, Innenwinkel,
+Trapezfläche, Teilverhältnis), 4.1 (4), 4.2 (1). Kandidat für den
+Abgleichlauf: „Größte Änderungsrate über das Maximum der Ableitung" (2.1 b)
+gegen „Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen"
+(2018-be-gk 1.2 f). Etikettenfragen: 2.2 g (Parameter k einer Schar im
+Grundkurs) unter Gleichungen lösen, weil die Fertigkeit das Lösen der
+Ungleichung ist und Funktionsscharen für be-gk nicht gelten; 2.2 h
+(Graphenvergleich h gegen h_k) dennoch unter Funktionsscharen – die einzige
+Zeile außerhalb der Geltung be-gk.
+
+*Eichung.* 4 von 4 gewerteten Zeilen (die Teil-A-Dubletten, geerbt); 41
+Landeszeilen ohne amtlichen Bereich, Schwelle nicht scharf. Eigene
+Schätzungen nach der engen Fassung: 3 mit III (2.1 g, 3.1 d, 4.1 e), 22 mit
+II, 16 mit I.
+
+*Schnitt.* 35 Werte auf 45 Zeilen, 34 Zeilen auf bekannten Werten des
+Niveaus grundlegend; **1 Wert neu im Gesamtbestand** (Ableitungsregeln ·
+angeben, 1.1 a), 3 neu im Niveau (dazu Funktionsscharen · begründen, Ziehen
+ohne Zurücklegen · angeben); Gesamtbestand 189 Werte (be-gk 155, bb-ea 176).
+Von den 41 Landeszeilen liegen 29 auf Werten aus Teil A des grundlegenden
+Pools.
+
+*Aufwand.* Textextraktion und Seitenübersicht, Textvergleich gegen 19
+Pooldateien (curl, pypdf), Rendern von sieben Seiten, Rechnung mit sympy, 41
+Landeszeilen von Hand, vier Dubletten erzeugt, Lauf, HEAD-Rerun,
+Selbstprüfung: etwa 50 Minuten – wie die Scan-Hefte 2022/2023 mit 57 bis 68
+Zeilen, aber bei 45 Zeilen; die Textebene spart das Lesen, nicht das
+Schreiben der Landeszeilen (hier 91 % des Hefts).
+
 **Pool-Abgleich des abi-Bestands bis 2018 (Auftrag des Lehrers, 16.09.2026,
 Punkt 2; Abgleichlauf 14).** Zwei Stufen. (1) Gegen den erfassten Pool
 (iqb-katalog.csv, 1061 Zeilen): Wortmengen- und Zahlenvergleich aller 113
@@ -1673,6 +1745,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-17 | Heft 2019-be-gk erfasst (Berlin GK, Stark-Band zum Abitur 2021): 45 Zeilen aus 10 Aufgaben (1.1–1.4 hilfsmittelfrei, 2.1/2.2, 3.1/3.2, 4.1/4.2), Katalog 588 Zeilen, Typenliste 1149 (25 neu). Alle Punktsummen geprüft (4 × 5, 40, 40, 20, 20, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung bestanden. Eichung 4 von 4 (geerbt). Pool 12 von 45 Zeilen, 35 von 180 BE (19 %): Teil A Analysis 1.1 und Stochastik 1.1 (c abgewandelt), Teil B 3.2 = AG/LA (A2) WTR 1 und 4.1 c–e = Stochastik WTR 1 als Vormerkungen (Reserve 2019-ga-B, 9 offene Posten). 1 neuer Schnittwert (Ableitungsregeln · angeben). |
 | 2026-09-17 | Heftordner geordnet (Auftrag Teil 4): alle 13 Dateien unter hefte/ mit Jahr, Land, Niveau, Rechnerfassung, Seiten, Textebene, Größe und Erfassungsstand in abi-quellen.md v0.3 § 8; 2026-bebb-gk.pdf → 2026-bb-gk.pdf, 2026-bebb-lk.pdf → 2026-bb-ea.pdf (KONFIG in abi-bau.py nachgezogen); keine Kollision, kein unklarer Fall. Heftliste § 2 um die fünf nicht erfassten Dateien ergänzt (2019–2021 Berlin GK, 2024/2025 LK). abi.md v0.18 § 2, § 4. Keine Katalogdatei geändert. |
 | 2026-09-17 | Prüfungsstruktur und Bewertung (Auftrag Teil 3): abi.md v0.17 § 11 (Bewertungsschlüssel 2024/ab 2025, Aufbau 2027, Hilfsmittel, nicht Gefordertes, Rahmenlehrpläne, Sonderjahrgänge, Strukturbruch, Zuordnung), abitur-vokabular.md v1.3 § 3 Anmerkungen neben der Geltungstabelle (Tabelle unverändert, Vorschlag: keine Änderung). Corona-Sonderjahrgänge 2022/2023 in § 2 vermerkt, Aufgabenstruktur der vier Hefte passt, BE bearbeitet rechnerisch GK 145, LK 170 (§ 4). Keine Katalogdatei geändert. |
 | 2026-09-17 | Prüfungsgeschichte und Kürzelregel (Auftrag Teil 2): abi.md v0.16 – § 10 Prüfungsgeschichte mit Quelle je Zeile, § 4 Kürzel nach Jahrgängen (be 2019–2021, bebb 2022–2025, be/bb ab 2026), § 9 offen: GK-Fassungen 2019–2021. Landes- und Rechnernennungen in allen 13 Dateien unter hefte/ gesucht (§ 4): 2019–2021 nur „Berlin", 2022–2025 „Berlin/Brandenburg", 2026 nur „Brandenburg"; keine Rechner- oder Hilfsmittelangabe außerhalb der Verlagstipps. Offener Punkt § 3: kein STARK-Heft für Berlin 2026. Keine Katalogdatei geändert. |
