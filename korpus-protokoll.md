@@ -875,6 +875,20 @@ Fachhochschulreifeprüfung …", Tabelle BE-Soll/BE-Ist ohne Aufgabentext). Dies
 Seite wird wie der Erwartungshorizont ausgelassen (kein Wortlaut, keine
 Abbildung mit eigenem Inhalt).
 
+**abi 2011–2018: Wahlformat vor 2014.** Die amtlichen Hefte bis 2013 (bebb) und
+teils bis zum Formatwechsel bieten je Aufgabenstellung zwei gleichwertige
+Aufgaben zur Wahl (1.1/1.2, 2.1/2.2, 3.1/3.2), beide vollständig im Heft
+abgedruckt. Nächstliegende Entscheidung: beide Wahlmöglichkeiten werden
+vollständig transkribiert (das Heft enthält beide), gegliedert in
+`## Aufgabenstellung N: Thema – Wahl zwischen …` mit je zwei
+`### Aufgabe N.1/N.2`-Unterabschnitten, abweichend vom flachen
+`## Aufgabe N`-Schema der übrigen Profile. Referenztabellen (summierte
+Binomialverteilung, Normalverteilung u. ä. als Anlage) werden nicht als
+Zahlenkolonne transkribiert, sondern wie eine Abbildung mit beschreibendem
+Alt-Text referenziert (Ganzseitenrender) – eine Übertragung von oft 500–1000
+Werten von Hand wäre fehleranfällig und für die Durchsuchbarkeit ohne Wert,
+die Tabelle bleibt über das Bild einsehbar.
+
 | Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
 |---|---|---|---|---|---|
 | msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
@@ -920,3 +934,4 @@ Abbildung mit eigenem Inhalt).
 | fhr/2025-c.pdf | 3 | 15 | 1 | bestanden (70 BE) | – |
 | fhr/2026-b.pdf | 3 | 17 | 1 | bestanden (70 BE) | – |
 | fhr/2026-c.pdf | 3 | 16 | 1 | bestanden (70 BE, 27+23+20) | – |
+| abi/2011-bebb-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 29 | 3 | bestanden (je Wahl 100 BE: 40+30+30) | – |
