@@ -298,6 +298,17 @@ außerdem KONFIG, Kürzel und Felder, bevor eine Zeile geschrieben wird.
 9. **Typenbibliothek neu ableiten**, wo es eine gibt: fhr
    `python fhr-typenbibliothek.py` nach jeder Katalogänderung; msa, abi und
    iqb haben keine (§ 2).
+10. **Band neu bauen**, wo es einen gibt (fhr seit 18.09.2026): zuerst die
+    Strukturliste neu erzeugen (`python <profil>-band-struktur.py` schreibt
+    `<profil>-band.csv` – Abschnitte aus Katalog und Seitentext, Jahrgangs- und
+    Heftzeilen bleiben), dann den Band bauen (`python band-bau.py <profil>` nach
+    baende/, lokal; dazu die Einzelhefte mit Bandseitenzahlen). Die Zuordnung zu
+    Themen und Typen geschieht in der Erfassung (Schritt 4), nicht beim Bandbau:
+    das Register entsteht aus der Katalogdatei; ein Heft, das nicht erfasst ist,
+    steht im Band, aber nicht im Register. Reihenfolge deshalb immer: erst
+    erfassen, dann bauen. Die Seitenreserve im Vorspann hält die Bandseiten der
+    Hefte beim Anhängen eines Jahrgangs stabil; reicht sie nicht, bricht
+    band-bau.py ab.
 
 **Nur abi und iqb.**
 
@@ -537,6 +548,11 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-18 (Nachbesserungen am Musterband fhr): § 7 Schritt 10 Band neu bauen –
+  Strukturliste (`<profil>-band-struktur.py`), Band (`band-bau.py <profil>`), Regel „erst
+  erfassen, dann bauen" (Register aus der Katalogdatei; nicht erfasste Hefte stehen im Band,
+  nicht im Register). band-bau.py v0.2, fhr-band-struktur.py v0.1, fhr-band.csv und
+  baende/ (.gitignore) sind seit diesem Commit im Repo.
 - 2026-09-18 (Auftrag O, Punkt 5 und 6): faellig.md angelegt – Handlungen mit Termin oder
   Auslöser und Zuständigkeit, abgegrenzt gegen § 6 (Entscheidungen mit Grund des Wartens);
   Baustein mit Grund in § 2, Pflegeregel in CLAUDE.md § 3, Einstieg im README.

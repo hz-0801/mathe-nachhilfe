@@ -5,3 +5,7 @@ __pycache__/
 hefte/
 # Markdown-Korpus der Hefte (Wortlaut und Abbildungen aus Verlagsbänden): ebenfalls nur lokal
 hefte-md/
+# Sammelbände aus den Originalseiten (band-bau.py) und die Einzelhefte mit Bandseitenzahlen
+# (baende/<profil>-einzeln/): enthalten die Hefte, bleiben lokal
+baende/
+baende/fhr-einzeln/
