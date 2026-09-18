@@ -904,6 +904,18 @@ Entscheidung: jede der 44 Dateien wird als eigene, vollständige Datei erfasst
 (kein Delta-Vermerk gegen die WTR-Fassung), auch wenn einzelne Teilaufgaben
 wortgleich sind – das entspricht der Zählung „44 Dateien" des Bestands.
 
+**abi: 2016 bb-ea Teil1/Teil2 als eine Datei.** Ab dem Jahrgang 2016 führt
+abi-quellen.md die Brandenburg-Hefte (WTR und CAS) als zwei getrennte
+Server-Dateien/Kürzel `<jahr>-bb-ea-teil1` (hilfsmittelfrei) und
+`<jahr>-bb-ea-teil2` (mit Hilfsmitteln, Wahlaufgaben) statt als eine Datei wie
+2014/2015. Beide Teile bilden zusammen die eine Prüfung, die der Prüfling
+ablegt (Teil 1 wird nach 70 Minuten abgegeben, danach folgt Teil 2 mit den
+Wahlaufgaben). Für den reichen Korpus werden sie deshalb wie 2014/2015 als
+eine zusammenhängende Datei erfasst (eine Punkteprobe über 100 BE), mit
+Verweis auf beide Quellkürzel im Dateikopf; die Bilderordner tragen die
+Vorsilben `teil1-`/`teil2-` zur Unterscheidung. Gilt ebenso für die
+CAS-Fassung `2016-bb-ea-cas` (teil1/teil2).
+
 | Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
 |---|---|---|---|---|---|
 | msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
@@ -977,3 +989,4 @@ wortgleich sind – das entspricht der Zählung „44 Dateien" des Bestands.
 | abi/2016-be-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 3 wortgleich mit 2016-be-gk) | 31 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2016-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 5 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2016-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, alle sechs CAS-angepasst) | 32 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
+| abi/2016-bb-ea.pdf (teil1+teil2) | Teil 1 fest (3×2 Teilaufgaben) + 4 Wahlaufgaben (2.1/2.2, 3.1/3.2, davon 2 wortgleich mit 2016-be-lk) | 25 | 5 | bestanden (je Wahl 100 BE: 30+40+30) | – |
