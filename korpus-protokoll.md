@@ -913,3 +913,4 @@ Abbildung mit eigenem Inhalt).
 | fhr/2022-b.pdf | 3 | 16 | 2 | bestanden (70 BE) | – |
 | fhr/2022-c.pdf | 3 | 15 | 1 | bestanden (70 BE) | – |
 | fhr/2023-a.pdf | 3 | 17 | 0 | bestanden (70 BE) | – |
+| fhr/2023-c.pdf | 3 | 14 | 1 | bestanden (70 BE) | – |
