@@ -890,3 +890,4 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | msa/sonstiges/24_P10_Ma_Gym_A2.pdf | 4 | 13 | 2 | bestanden (40 P, Teil 2; zusammen mit Teil 1: 50 P) | – |
 | msa/sonstiges/25_P10_Ma_Gym_A1.pdf | 2 | 4 | 1 | bestanden (10 P, Teil 1 hilfsmittelfrei) | – |
 | msa/sonstiges/25_P10_Ma_Gym_A2.pdf | 4 | 14 | 4 | bestanden (40 P, Teil 2; zusammen mit Teil 1: 50 P) | – |
+| fhr/2019-a.pdf | 3 | 16 | 1 | bestanden (70 BE) | – |
