@@ -926,6 +926,20 @@ die Punktesumme ist also kein über die Jahre konstantes Merkmal des Profils
 be-gk, sondern wechselt jahrgangsweise; jedes Heft wird gegen seine eigene
 gedruckte BE-Tabelle geprüft, nicht gegen einen angenommenen Fixwert.
 
+**abi: 2017 bb-ea mit vier Aufgabenstellungen und gekoppelter Wahl.** Ab
+diesem Jahrgang hat bb-ea vier statt drei Aufgabenstellungen: 1 (hilfsmittel-
+frei, fest, 15 BE), 2 (Analysis, Wahl 2.1/2.2, 50 BE), 3 (Geometrie, Wahl
+3.1/3.2) und 4 (Stochastik, Wahl 4.1/4.2) – mit der ausdrücklichen Vorgabe im
+Heft, dass die Wahl von 3.1 die Wahl von 4.1 erzwingt und die Wahl von 3.2 die
+Wahl von 4.2 (nicht vier unabhängige Wahlmöglichkeiten). Die BE-Summe von
+Aufgabenstellung 3+4 ist bei beiden Pfaden gleich (Pfad 3.1+4.1: 25+10=35;
+Pfad 3.2+4.2: 10+25=35), sodass die Gesamtsumme unabhängig vom Pfad 100 BE
+bleibt (15+50+35). Im reichen Format werden 3.1/3.2 und 4.1/4.2 als eigene
+Abschnitte mit explizitem Koppelungshinweis geführt (kein eigenes
+Aufgabenstellung-3+4-Kombiabschnitt), damit beide Pfade wie gewohnt vollständig
+lesbar bleiben. 2017-bb-ea liegt zudem wieder als eine einzige Server-Datei vor
+(kein Teil1/Teil2-Split wie 2016).
+
 | Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
 |---|---|---|---|---|---|
 | msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
@@ -1005,3 +1019,4 @@ gedruckte BE-Tabelle geprüft, nicht gegen einen angenommenen Fixwert.
 | abi/2017-be-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 1 wortgleich mit 2017-be-gk) | 34 | 5 | bestanden (je Wahl 80 BE: 40+20+20) | – |
 | abi/2017-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 34 | 5 | bestanden (je Wahl 100 BE: 50+25+25) | – |
 | abi/2017-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 2 größtenteils wortgleich mit 2017-be-lk) | 36 | 4 | bestanden (je Wahl 100 BE: 50+25+25) | – |
+| abi/2017-bb-ea.pdf | Teil 1 fest (3×2) + 6 Wahlaufgaben in 3 gekoppelten Aufgabenstellungen (2.1/2.2, 3.1+4.1/3.2+4.2, davon 3 wortgleich mit 2017-be-lk) | 36 | 5 | bestanden (je Wahl 100 BE: 15+50+35) | – |
