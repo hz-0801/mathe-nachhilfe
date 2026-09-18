@@ -889,6 +889,13 @@ Alt-Text referenziert (Ganzseitenrender) – eine Übertragung von oft 500–100
 Werten von Hand wäre fehleranfällig und für die Durchsuchbarkeit ohne Wert,
 die Tabelle bleibt über das Bild einsehbar.
 
+**abi: bb-ea ab 2015 mit hilfsmittelfreiem Teil.** Ab dem Jahrgang 2015 hat bb-ea
+zusätzlich eine feste (nicht wahlweise) Aufgabenstellung 1 „hilfsmittelfreier
+Teil" (30 BE, drei Themenblöcke Analysis/Geometrie/Stochastik, je drei
+Teilaufgaben), die 2014-bb-ea noch nicht hatte (korpus-protokoll.md § 8,
+Eintrag zu 2014-bb-ea). Struktur folgt derselben Gliederungslogik wie die
+Wahlaufgaben (eigene Überschriften je Themenblock statt „## Aufgabe N").
+
 **abi: CAS-Hefte als eigenständige Dateien.** Die CAS-Fassungen 2011–2018 sind
 nach abi.md § 3, § 7 keine bloße Randänderung der WTR-Fassung, sondern (bei den
 gemeinsamen bebb-Heften bis 2013 durchgehend, bei Berlin auch danach)
@@ -964,3 +971,4 @@ wortgleich sind – das entspricht der Zählung „44 Dateien" des Bestands.
 | abi/2015-be-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 3 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2015-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 29 | 8 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2015-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 32 | 6 | bestanden (je Wahl 100 BE: 40+30+30) | – |
+| abi/2015-bb-ea.pdf | Teil 1 fest + 4 Wahlaufgaben (2.1/2.2, 3.1/3.2) | 30 | 5 | bestanden (je Wahl 100 BE: 30+40+30) | – |
