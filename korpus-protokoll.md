@@ -895,3 +895,4 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | fhr/2020-a.pdf | 3 | 15 | 2 | bestanden (70 BE) | – |
 | fhr/2020-c.pdf | 3 | 15 | 1 | bestanden (70 BE) | – |
 | fhr/2021-a.pdf | 3 | 16 | 1 | bestanden (70 BE) | – |
+| fhr/2021-b.pdf | 3 | 15 | 1 | bestanden (70 BE) | – |
