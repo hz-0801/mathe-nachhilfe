@@ -5,6 +5,9 @@ __pycache__/
 hefte/
 # Markdown-Korpus der Hefte (Wortlaut und Abbildungen aus Verlagsbänden): ebenfalls nur lokal
 hefte-md/
+# Maschineller Korpus (Text + Ganzseitenrender, korpus-bau.py) und OCR-Ausgabedateien: nur lokal
+korpus/
+hefte/abi/*-ocr.pdf
 # Sammelbände aus den Originalseiten (band-bau.py) und die Einzelhefte mit Bandseitenzahlen
 # (baende/<profil>-einzeln/): enthalten die Hefte, bleiben lokal
 baende/
