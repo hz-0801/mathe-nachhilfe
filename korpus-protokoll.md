@@ -861,6 +861,20 @@ Bilddateien hier `.png` (aus den schon vorhandenen Ganzseitenrendern von
 den ersten sechs msa-Heften – Inhalt gleich, nur der Dateiname; keine neue
 Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 
+**fhr-Bestand: 16 statt 19.** Der Auftrag nennt „19 Hefte" für fhr; fhr.md und
+fhr-quellen.md § 2 weisen den tatsächlichen Bestand mit sechzehn Heften
+2019–2026 aus (je Jahrgang zwei Vorschläge, dritter Vorschlag/Nachschreibetermin
+nicht auf dem Server). Nächstliegende Entscheidung: die real vorhandenen 16
+Hefte werden erfasst, die Abweichung hier vermerkt (wie beim iqb-Bestand
+624/625 in § 6).
+
+**Gutachtenbogen ab 2022.** Die Hefte 2019–2021 enthalten keinen
+Gutachtenbogen (fhr.md § 3); ab 2022 liegt im PDF eine zusätzliche, leere
+Bewertungsformular-Seite je Heft (Feldbezeichnung „Gutachten zur schriftlichen
+Fachhochschulreifeprüfung …", Tabelle BE-Soll/BE-Ist ohne Aufgabentext). Diese
+Seite wird wie der Erwartungshorizont ausgelassen (kein Wortlaut, keine
+Abbildung mit eigenem Inhalt).
+
 | Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
 |---|---|---|---|---|---|
 | msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
@@ -896,3 +910,4 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | fhr/2020-c.pdf | 3 | 15 | 1 | bestanden (70 BE) | – |
 | fhr/2021-a.pdf | 3 | 16 | 1 | bestanden (70 BE) | – |
 | fhr/2021-b.pdf | 3 | 15 | 1 | bestanden (70 BE) | – |
+| fhr/2022-b.pdf | 3 | 16 | 2 | bestanden (70 BE) | – |
