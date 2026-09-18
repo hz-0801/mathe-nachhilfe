@@ -889,6 +889,14 @@ Alt-Text referenziert (Ganzseitenrender) – eine Übertragung von oft 500–100
 Werten von Hand wäre fehleranfällig und für die Durchsuchbarkeit ohne Wert,
 die Tabelle bleibt über das Bild einsehbar.
 
+**abi: CAS-Hefte als eigenständige Dateien.** Die CAS-Fassungen 2011–2018 sind
+nach abi.md § 3, § 7 keine bloße Randänderung der WTR-Fassung, sondern (bei den
+gemeinsamen bebb-Heften bis 2013 durchgehend, bei Berlin auch danach)
+eigenständig umgestaltete Aufgaben mit eigenen Kontrollwerten. Nächstliegende
+Entscheidung: jede der 44 Dateien wird als eigene, vollständige Datei erfasst
+(kein Delta-Vermerk gegen die WTR-Fassung), auch wenn einzelne Teilaufgaben
+wortgleich sind – das entspricht der Zählung „44 Dateien" des Bestands.
+
 | Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
 |---|---|---|---|---|---|
 | msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
@@ -936,3 +944,4 @@ die Tabelle bleibt über das Bild einsehbar.
 | fhr/2026-c.pdf | 3 | 16 | 1 | bestanden (70 BE, 27+23+20) | – |
 | abi/2011-bebb-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 29 | 3 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2011-bebb-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 5 | bestanden (je Wahl 100 BE: 40+30+30) | – |
+| abi/2011-bebb-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 31 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
