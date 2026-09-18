@@ -864,3 +864,4 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
 |---|---|---|---|---|---|
 | msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
+| msa/2021-os.pdf | 7 | 24 | 6 | bestanden (60 P) | – |
