@@ -122,6 +122,50 @@ nicht fortgeführt und nicht in `korpus/` dupliziert.
 
 | Datei | Ergebnis | Seiten | Zeichen | Abbildungen | Dauer/Grund |
 |---|---|---|---|---|---|
+| abi/2011-bebb-gk-cas.pdf | erfasst | 9 | 16772 | 9 | 1.4 s |
+| abi/2011-bebb-gk.pdf | erfasst | 10 | 16904 | 10 | 1.0 s |
+| abi/2011-bebb-lk-cas.pdf | erfasst | 9 | 17907 | 9 | 0.9 s |
+| abi/2011-bebb-lk.pdf | erfasst | 12 | 24043 | 12 | 1.2 s |
+| abi/2012-bebb-gk-cas.pdf | erfasst | 8 | 14088 | 8 | 0.7 s |
+| abi/2012-bebb-gk.pdf | erfasst | 8 | 12519 | 8 | 0.7 s |
+| abi/2012-bebb-lk-cas.pdf | erfasst | 8 | 16665 | 8 | 0.9 s |
+| abi/2012-bebb-lk.pdf | erfasst | 11 | 23477 | 11 | 1.2 s |
+| abi/2013-bebb-gk-cas.pdf | erfasst | 8 | 15051 | 8 | 1.7 s |
+| abi/2013-bebb-gk.pdf | erfasst | 8 | 13018 | 8 | 1.7 s |
+| abi/2013-bebb-lk-cas.pdf | erfasst | 7 | 16563 | 7 | 1.7 s |
+| abi/2013-bebb-lk.pdf | erfasst | 10 | 21256 | 10 | 2.1 s |
+| abi/2014-bb-ea-cas.pdf | erfasst | 8 | 16710 | 8 | 1.7 s |
+| abi/2014-bb-ea.pdf | erfasst | 9 | 18909 | 9 | 1.9 s |
+| abi/2014-be-gk-cas.pdf | erfasst | 8 | 13935 | 8 | 0.9 s |
+| abi/2014-be-gk.pdf | erfasst | 10 | 19359 | 10 | 1.2 s |
+| abi/2014-be-lk-cas.pdf | erfasst | 8 | 16589 | 8 | 1.7 s |
+| abi/2014-be-lk.pdf | erfasst | 9 | 18908 | 9 | 1.9 s |
+| abi/2015-bb-ea-cas.pdf | erfasst | 9 | 16447 | 9 | 2.4 s |
+| abi/2015-bb-ea.pdf | erfasst | 9 | 17421 | 9 | 2.7 s |
+| abi/2015-be-gk-cas.pdf | erfasst | 11 | 14846 | 11 | 1.0 s |
+| abi/2015-be-gk.pdf | erfasst | 12 | 19890 | 12 | 1.3 s |
+| abi/2015-be-lk-cas.pdf | erfasst | 8 | 16404 | 8 | 2.5 s |
+| abi/2015-be-lk.pdf | erfasst | 11 | 20247 | 11 | 2.7 s |
+| abi/2016-bb-ea-cas-teil1.pdf | erfasst | 3 | 4913 | 3 | 1.4 s |
+| abi/2016-bb-ea-cas-teil2.pdf | erfasst | 5 | 10408 | 5 | 1.8 s |
+| abi/2016-bb-ea-teil1.pdf | erfasst | 3 | 5025 | 3 | 1.3 s |
+| abi/2016-bb-ea-teil2.pdf | erfasst | 6 | 12484 | 6 | 2.0 s |
+| abi/2016-be-gk-cas.pdf | erfasst | 8 | 16361 | 8 | 1.2 s |
+| abi/2016-be-gk.pdf | erfasst | 9 | 18764 | 9 | 1.5 s |
+| abi/2016-be-lk-cas.pdf | erfasst | 7 | 15571 | 7 | 2.4 s |
+| abi/2016-be-lk.pdf | erfasst | 8 | 17109 | 8 | 2.6 s |
+| abi/2017-bb-ea-cas.pdf | erfasst | 10 | 20869 | 10 | 3.4 s |
+| abi/2017-bb-ea.pdf | erfasst | 10 | 20359 | 10 | 3.2 s |
+| abi/2017-be-gk-cas.pdf | erfasst | 8 | 15581 | 8 | 1.1 s |
+| abi/2017-be-gk.pdf | erfasst | 8 | 17911 | 8 | 1.4 s |
+| abi/2017-be-lk-cas.pdf | erfasst | 9 | 19199 | 9 | 2.4 s |
+| abi/2017-be-lk.pdf | erfasst | 10 | 21327 | 10 | 2.6 s |
+| abi/2018-bb-ea-cas.pdf | erfasst | 12 | 19730 | 12 | 4.2 s |
+| abi/2018-bb-ea.pdf | erfasst | 13 | 22261 | 13 | 4.2 s |
+| abi/2018-be-gk-cas.pdf | erfasst | 10 | 17145 | 10 | 1.5 s |
+| abi/2018-be-gk.pdf | erfasst | 11 | 18888 | 11 | 2.1 s |
+| abi/2018-be-lk-cas.pdf | erfasst | 9 | 17906 | 9 | 2.7 s |
+| abi/2018-be-lk.pdf | erfasst | 11 | 23087 | 11 | 3.2 s |
 
 ## 4 korpus/ Etappe 3 – OCR der acht Bildscans + Korpus (8 Dateien)
 

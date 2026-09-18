@@ -68,6 +68,8 @@ ABI_BILDSCANS = {
 
 
 def abi_amtlich_filter(rel):
+    if rel.startswith("sonstiges/"):
+        return False  # keine Aufgabenhefte (Bildungsstandards, Rahmenlehrplan, Prüfungsschwerpunkte)
     if rel in ABI_VERLAG_AB_2019:
         return False
     if rel.endswith("-stark.pdf"):
@@ -320,7 +322,9 @@ if __name__ == "__main__":
         return default
 
     if not rest or rest[0] == "--status":
-        status(profil)
+        etappe = opt("--etappe", None, int)
+        nur = ETAPPEN_FILTER.get(etappe, {}).get(profil) if etappe else None
+        status(profil, nur)
     elif rest[0] == "--bauen":
         bauen(profil, etappe=opt("--etappe", None, int), limit=opt("--limit", None, int))
     elif rest[0] == "--ocr":
