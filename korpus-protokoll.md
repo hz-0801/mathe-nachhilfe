@@ -916,6 +916,16 @@ Verweis auf beide Quellkürzel im Dateikopf; die Bilderordner tragen die
 Vorsilben `teil1-`/`teil2-` zur Unterscheidung. Gilt ebenso für die
 CAS-Fassung `2016-bb-ea-cas` (teil1/teil2).
 
+**abi: be-gk-Punktesumme wechselt erneut (2017: 80 BE).** 2014–2016 hatten
+alle be-gk-Hefte durchgängig 40+30+30=100 BE (bereits als Abweichung von der
+in abi.md § 3 dokumentierten Verteilung 40+20+20=80 BE vermerkt, siehe
+2014-be-gk). Das Heft 2017-be-gk kehrt zu genau dieser in abi.md dokumentierten
+Verteilung 40+20+20=80 BE zurück (alle vier BE-Tabellen der Wahlaufgaben
+2.1/2.2/3.1/3.2 summieren zu 20, nicht 30). Beobachtung, keine Korrektur –
+die Punktesumme ist also kein über die Jahre konstantes Merkmal des Profils
+be-gk, sondern wechselt jahrgangsweise; jedes Heft wird gegen seine eigene
+gedruckte BE-Tabelle geprüft, nicht gegen einen angenommenen Fixwert.
+
 | Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
 |---|---|---|---|---|---|
 | msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
@@ -991,3 +1001,4 @@ CAS-Fassung `2016-bb-ea-cas` (teil1/teil2).
 | abi/2016-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, alle sechs CAS-angepasst) | 32 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2016-bb-ea.pdf (teil1+teil2) | Teil 1 fest (3×2 Teilaufgaben) + 4 Wahlaufgaben (2.1/2.2, 3.1/3.2, davon 2 wortgleich mit 2016-be-lk) | 25 | 5 | bestanden (je Wahl 100 BE: 30+40+30) | – |
 | abi/2016-bb-ea-cas.pdf (teil1+teil2) | Teil 1 fest (3×2 Teilaufgaben, wortgleich) + 4 Wahlaufgaben CAS (2.1/2.2, 3.1/3.2, davon 3 wortgleich mit 2016-be-lk-cas) | 28 | 4 | bestanden (je Wahl 100 BE: 30+40+30) | – |
+| abi/2017-be-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 33 | 5 | bestanden (je Wahl 80 BE: 40+20+20) | – |
