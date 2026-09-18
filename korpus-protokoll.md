@@ -1003,3 +1003,4 @@ gedruckte BE-Tabelle geprüft, nicht gegen einen angenommenen Fixwert.
 | abi/2016-bb-ea-cas.pdf (teil1+teil2) | Teil 1 fest (3×2 Teilaufgaben, wortgleich) + 4 Wahlaufgaben CAS (2.1/2.2, 3.1/3.2, davon 3 wortgleich mit 2016-be-lk-cas) | 28 | 4 | bestanden (je Wahl 100 BE: 30+40+30) | – |
 | abi/2017-be-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 33 | 5 | bestanden (je Wahl 80 BE: 40+20+20) | – |
 | abi/2017-be-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 1 wortgleich mit 2017-be-gk) | 34 | 5 | bestanden (je Wahl 80 BE: 40+20+20) | – |
+| abi/2017-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 34 | 5 | bestanden (je Wahl 100 BE: 50+25+25) | – |
