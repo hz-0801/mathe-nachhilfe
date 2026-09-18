@@ -990,3 +990,4 @@ CAS-Fassung `2016-bb-ea-cas` (teil1/teil2).
 | abi/2016-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 5 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2016-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, alle sechs CAS-angepasst) | 32 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2016-bb-ea.pdf (teil1+teil2) | Teil 1 fest (3×2 Teilaufgaben) + 4 Wahlaufgaben (2.1/2.2, 3.1/3.2, davon 2 wortgleich mit 2016-be-lk) | 25 | 5 | bestanden (je Wahl 100 BE: 30+40+30) | – |
+| abi/2016-bb-ea-cas.pdf (teil1+teil2) | Teil 1 fest (3×2 Teilaufgaben, wortgleich) + 4 Wahlaufgaben CAS (2.1/2.2, 3.1/3.2, davon 3 wortgleich mit 2016-be-lk-cas) | 28 | 4 | bestanden (je Wahl 100 BE: 30+40+30) | – |
