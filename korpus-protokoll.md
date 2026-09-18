@@ -1026,3 +1026,13 @@ lesbar bleiben. 2017-bb-ea liegt zudem wieder als eine einzige Server-Datei vor
 | abi/2018-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 41 | 6 | bestanden (je Wahl 100 BE: 50+25+25) | – |
 | abi/2018-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 1 wortgleich mit 2018-be-lk) | 43 | 4 | bestanden (je Wahl 100 BE: 50+25+25) | – |
 | abi/2018-bb-ea.pdf | Teil 1 fest (3×2) + 6 Wahlaufgaben in 3 gekoppelten Aufgabenstellungen (davon 3 wortgleich mit 2018-be-lk) | 41 | 5 | bestanden (je Wahl 100 BE: 15+50+35) | – |
+| abi/2018-bb-ea-cas.pdf | Teil 1 fest (3×2, wortgleich) + 6 Wahlaufgaben in 3 gekoppelten Aufgabenstellungen (davon 4 wortgleich mit 2018-bb-ea bzw. 2018-be-lk-cas) | 43 | 4 | bestanden (je Wahl 100 BE: 15+50+35) | – |
+
+**Etappe abgeschlossen (18.09.2026).** msa (33/33, vor dieser Sitzung),
+fhr (16/16, realer Bestand statt der im Auftrag genannten 19, s. o.) und
+abi amtlich 2011–2018 sind vollständig im reichen Format erfasst. Die
+44 vom Auftrag gezählten Rohdateien liegen in 42 hefte-md-Dateien vor: die
+Differenz von 2 erklärt sich durch die Entscheidung „abi: 2016 bb-ea
+Teil1/Teil2 als eine Datei" (2016-bb-ea und 2016-bb-ea-cas fassen je zwei
+Server-Dateien in einer Datei zusammen). iqb war laut Auftrag ausdrücklich
+ausgenommen und bleibt unangetastet.
