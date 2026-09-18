@@ -1024,3 +1024,4 @@ lesbar bleiben. 2017-bb-ea liegt zudem wieder als eine einzige Server-Datei vor
 | abi/2018-be-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 36 | 7 | bestanden (je Wahl 80 BE: 40+20+20) | – |
 | abi/2018-be-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 2 wortgleich mit 2018-be-gk) | 37 | 4 | bestanden (je Wahl 80 BE: 40+20+20) | – |
 | abi/2018-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 41 | 6 | bestanden (je Wahl 100 BE: 50+25+25) | – |
+| abi/2018-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 1 wortgleich mit 2018-be-lk) | 43 | 4 | bestanden (je Wahl 100 BE: 50+25+25) | – |
