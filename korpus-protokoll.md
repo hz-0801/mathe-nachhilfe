@@ -871,3 +871,4 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | msa/2025-os.pdf | 7 | 26 | 7 | bestanden (60 P) | – |
 | msa/2026-ebr.pdf | 7 | 20 | 8 | bestanden (40 P) | – |
 | msa/2026-for.pdf | 7 | 27 | 10 | bestanden (60 P) | – |
+| msa/sonstiges/14_P10_Gym_Ma_A_Set1.pdf | 5 | 20 | 4 | bestanden (50 P, Gymnasium ohne Katalog) | – |
