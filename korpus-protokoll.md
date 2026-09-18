@@ -1004,3 +1004,4 @@ gedruckte BE-Tabelle geprüft, nicht gegen einen angenommenen Fixwert.
 | abi/2017-be-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 33 | 5 | bestanden (je Wahl 80 BE: 40+20+20) | – |
 | abi/2017-be-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 1 wortgleich mit 2017-be-gk) | 34 | 5 | bestanden (je Wahl 80 BE: 40+20+20) | – |
 | abi/2017-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 34 | 5 | bestanden (je Wahl 100 BE: 50+25+25) | – |
+| abi/2017-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 2 größtenteils wortgleich mit 2017-be-lk) | 36 | 4 | bestanden (je Wahl 100 BE: 50+25+25) | – |
