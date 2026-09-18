@@ -1,12 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-band-bau.py v0.3 · 18.09.2026 · Sammelband je Prüfungsart aus den Originalseiten
+band-bau.py v0.4 · 18.09.2026 · Sammelband je Prüfungsart aus den Originalseiten
 
 Baut aus den Heftdateien unter hefte/<profil>/ und der Strukturliste <profil>-band.csv
 einen durchsuchbaren PDF-Band mit Titelblatt, Inhaltsverzeichnis, Register aus dem
 Katalog, durchlaufender Seitenzahl und Lesezeichen; dazu je Heft ein Einzelheft mit
 den Kolumnentiteln und Bandseitenzahlen des Bands. Ausgabe nach baende/ (per
 .gitignore lokal). Aufruf: python band-bau.py fhr. Anleitung: band-anleitung.md.
+
+Änderungen gegenüber 0.3 (Auftrag Korpus und OCR, Etappe 0, 18.09.2026): Die Meldung
+zur Reserve nennt dieselbe Größe wie die Abbruchgrenze – freie Reserveseiten
+(vorspann_seiten − 1 − Inhalt − Register; Abbruch, sobald sie negativ wird). Die
+lineare Umrechnung in Jahrgänge entfällt: sie meldete „etwa 5 weitere Jahrgänge",
+die Messung mit duplizierten Jahrgängen ergibt acht (band-anleitung.md § 5).
+Sonst unverändert.
 
 Änderungen gegenüber 0.2 (Nachtrag zum Musterband, 18.09.2026): fhr vorspann_seiten
 13 statt 20 (Entscheidung des Lehrers: Vorrat acht weitere Jahrgänge statt sechzehn,
@@ -89,7 +96,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 
 HIER = Path(__file__).resolve().parent
-VERSION = "band-bau.py v0.3"
+VERSION = "band-bau.py v0.4"
 
 KONFIG = {
     "fhr": dict(
@@ -840,15 +847,15 @@ def main():
         raise SystemExit("Rücklesen: Seitenzahl weicht ab")
     einzeln = einzelhefte_bauen(plan, k, aufdruck_ohne_pdf, lage, titel_band)
 
-    n_jahrgaenge = len(plan.jahrgaenge)
-    je_jahrgang = (inhalt_seiten + register_seiten) / n_jahrgaenge if n_jahrgaenge else 0
     print(f"Geschrieben: {ziel.relative_to(HIER)} · {gesamt} Seiten ({ziel.stat().st_size / 1e6:.1f} MB) · "
           f"Inhalt {inhalt_seiten} Seiten ab S. 2, Register {register_seiten} Seiten ab S. {plan.register_ab}, "
           f"Reserve {reserve} Seiten, {len(titel_links) + len(inhalt_links) + len(register_links)} Links im Vorspann, "
           f"{len(marken)} Marken auf Heftseiten")
-    print(f"Reserve: Inhalt und Register brauchen {inhalt_seiten + register_seiten} Seiten für {n_jahrgaenge} Jahrgänge "
-          f"({je_jahrgang:.2f} je Jahrgang); {reserve} Reserveseiten tragen nach linearer Rechnung etwa "
-          f"{int(reserve / je_jahrgang) if je_jahrgang else 0} weitere Jahrgänge (Messung: band-anleitung.md § 5)")
+    # Dieselbe Größe wie die Abbruchgrenze oben (reserve < 0): freie Reserveseiten, keine
+    # Umrechnung in Jahrgänge – die steht als Messung in band-anleitung.md § 5.
+    print(f"Reserve: Inhalt und Register brauchen {inhalt_seiten + register_seiten} der {plan.vorspann - 1} Vorspannseiten "
+          f"hinter dem Titelblatt ({len(plan.jahrgaenge)} Jahrgänge); {reserve} Reserveseiten frei – der Bau bricht ab, "
+          f"sobald keine mehr frei ist (Umrechnung in Jahrgänge: Messung in band-anleitung.md § 5)")
     print(f"Einzelhefte: {len(einzeln)} Dateien nach {k['einzeln']}/ (Seitenlabels = Bandseiten)")
     print("Seitenkarte (Heft: Bandseiten, Offset):")
     for h in plan.hefte.values():

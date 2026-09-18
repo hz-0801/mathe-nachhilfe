@@ -1,7 +1,11 @@
 # BAND-ANLEITUNG – Sammelbände aus den Originalseiten
 
-Version 0.1 · 18.09.2026 · gilt für band-bau.py v0.3 und fhr-band-struktur.py v0.1 ·
+Version 0.2 · 18.09.2026 · gilt für band-bau.py v0.4 und fhr-band-struktur.py v0.1 ·
 anderes Projekt als die Erfassung (liest Katalog und Hefte, ändert nichts)
+
+Änderung gegenüber 0.1 (Auftrag Korpus und OCR, Etappe 0, 18.09.2026): § 5 – band-bau.py
+meldet die Reserve in freien Seiten, derselben Größe wie die Abbruchgrenze; die lineare
+Jahrgangsschätzung ist gestrichen.
 
 Diese Datei sagt, wie ein Band entsteht, wie ein neues Heft hineinkommt, was die
 Strukturliste bedeutet und was die Seitenreserve leistet. Warum es den Band gibt,
@@ -160,8 +164,11 @@ Jahrgänge wachsend): 8 Jahrgänge brauchen 1 + 3 + 4 = 8 Seiten, 16 Jahrgänge 
 13, 24 Jahrgänge 17. Mit 13 Vorspannseiten sind heute 5 Reserveseiten frei; der Vorrat
 trägt acht weitere Jahrgänge (Entscheidung des Lehrers, 18.09.2026: acht statt sechzehn,
 fünf Leerseiten statt zwölf). band-bau.py meldet bei jedem Bau, wie viele Seiten Inhalt
-und Register brauchen und wie viele Jahrgänge die Reserve nach linearer Rechnung noch
-trägt (die lineare Zahl ist wegen der Seitenrundung vorsichtiger als die Messung).
+und Register brauchen und wie viele Reserveseiten frei sind – dieselbe Größe, an der es
+abbricht (Abbruch, sobald keine Seite mehr frei ist). Wie viele Jahrgänge die freien
+Seiten tragen, sagt nur die Messung oben; eine lineare Umrechnung im Skript gab es bis
+v0.3 und ist gestrichen, weil sie mit „etwa 5 weitere Jahrgänge" der gemessenen acht
+widersprach (Seitenrundung und sublineares Wachstum des Registers).
 
 Reicht die Reserve nicht mehr, bricht band-bau.py ab: „Inhalt (n) und Register (m)
 brauchen … Seiten, Vorspann hat 13 – KONFIG vorspann_seiten erhöhen (verschiebt alle

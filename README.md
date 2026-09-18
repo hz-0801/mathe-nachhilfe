@@ -81,3 +81,5 @@ Baut je Prüfungsart einen PDF-Band aus den Originalseiten der Hefte mit Inhalt,
 ---
 
 Regel: Die Landkarte – welche Datei wofür da ist – steht in dieser Datei und nur hier. `konzept.md` § 2 behält die Begründung der Bausteine, `befund-`Dateien bleiben eingefroren.
+
+**Landkarte pflegen.** Wer eine Datei anlegt, umbenennt oder aus dem Repo nimmt, trägt das im selben Commit in die Landkarte ein: README im Block des Profils oder Projekts mit einem Satz zum Anlass des Öffnens; CLAUDE.md § 1, wenn die Erfassung die Datei liest oder schreibt; konzept.md § 2 mit Grund, wenn sie ein neuer Baustein ist; namensschema.md, wenn ein neues Muster oder ein neuer Familienname entsteht. Ein Commit, der eine Datei hinzufügt, ohne die Landkarte zu ändern, ist unvollständig – wie ein Heft ohne Zeile in der Prüfungsliste.

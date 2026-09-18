@@ -541,6 +541,13 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-18 (Auftrag Korpus und OCR, Etappe 0): Landkarte-Pflegeregel gesetzt – als Zusatz
+  zur README-Regel und als Punkt in CLAUDE.md § 3, in der Fassung aus dem Bericht zum
+  Nachtrag Musterband (Punkt 5): wer eine Datei anlegt, umbenennt oder aus dem Repo nimmt,
+  trägt das im selben Commit in README, CLAUDE.md § 1, § 2 hier und namensschema.md ein,
+  soweit betroffen. band-bau.py v0.4 und band-anleitung.md v0.2: Reservemeldung in
+  freien Reserveseiten, derselben Größe wie die Abbruchgrenze; die lineare
+  Jahrgangsschätzung („etwa 5", gemessen acht) entfällt.
 - 2026-09-18 (Nachtrag zum Musterband): § 7 Schritt 10 auf eine Verweiszeile gekürzt, die
   Regel (Zuordnung in der Erfassung, Register aus der Katalogdatei, erst erfassen, dann bauen)
   steht in voller Länge in band-anleitung.md § 6; § 2 Baustein Sammelband mit Grund. README
