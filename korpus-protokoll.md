@@ -847,3 +847,20 @@ Aufgaben, gedacht für Volltextsuche über den ganzen Heftbestand. Beide
 Formate schließen sich nicht aus; wo beide existieren (die zehn abi-Hefte,
 die sechs msa-Hefte aus § 1), ist `hefte-md/` die genauere Quelle für den
 Wortlaut, `korpus/` die einzige mit durchgängiger Abdeckung.
+
+## 8 Lauf: hefte-md im reichen Format (msa, fhr, abi amtlich)
+
+Angelegt 18.09.2026 (dritter Auftrag zum Korpus). Jetzt doch Modell-Lesen für
+den ganzen Bestand – anders als § 0/§ 7 sagen: msa (27 offene Hefte), fhr (19),
+abi amtlich 2011–2018 (44) im Muster von hefte-md/ (Gliederung, LaTeX,
+Markdown-Tabellen, Abbildungen mit Beschreibung), nicht die maschinelle
+Extraktion aus `korpus/`. `korpus/` bleibt als Rohtext-Vorlage liegen und wird
+gegen jede Seite geprüft, nie ungeprüft übernommen. Ablage `hefte-md/<profil>/`;
+Bilddateien hier `.png` (aus den schon vorhandenen Ganzseitenrendern von
+`korpus/<profil>/bilder/` kopiert, nicht neu gerendert) statt `.jpg` wie bei
+den ersten sechs msa-Heften – Inhalt gleich, nur der Dateiname; keine neue
+Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
+
+| Heft | Aufgaben | Teilaufgaben | Abbildungen | Punkteprobe | Dauer |
+|---|---|---|---|---|---|
+| msa/2020-os.pdf | 7 | 27 | 11 | bestanden (60 P) | – |
