@@ -976,3 +976,4 @@ wortgleich sind – das entspricht der Zählung „44 Dateien" des Bestands.
 | abi/2016-be-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 5 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2016-be-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, davon 3 wortgleich mit 2016-be-gk) | 31 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2016-be-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 5 | bestanden (je Wahl 100 BE: 40+30+30) | – |
+| abi/2016-be-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben, alle sechs CAS-angepasst) | 32 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
