@@ -935,3 +935,4 @@ die Tabelle bleibt über das Bild einsehbar.
 | fhr/2026-b.pdf | 3 | 17 | 1 | bestanden (70 BE) | – |
 | fhr/2026-c.pdf | 3 | 16 | 1 | bestanden (70 BE, 27+23+20) | – |
 | abi/2011-bebb-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 29 | 3 | bestanden (je Wahl 100 BE: 40+30+30) | – |
+| abi/2011-bebb-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 5 | bestanden (je Wahl 100 BE: 40+30+30) | – |
