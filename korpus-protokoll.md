@@ -869,3 +869,4 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | msa/2023-os.pdf | 7 | 25 | 8 | bestanden (60 P) | – |
 | msa/2024-os.pdf | 7 | 26 | 7 | bestanden (60 P) | – |
 | msa/2025-os.pdf | 7 | 26 | 7 | bestanden (60 P) | – |
+| msa/2026-ebr.pdf | 7 | 20 | 8 | bestanden (40 P) | – |
