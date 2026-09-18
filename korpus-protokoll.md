@@ -882,3 +882,5 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | msa/sonstiges/20_P10_Ma_Gym_A_2.pdf | 4 | 12 | 5 | bestanden (40 P, Teil 2; zusammen mit Teil 1: 50 P) | – |
 | msa/sonstiges/21_P10_Ma_Gym_A1.pdf | 2 | 4 | 0 | bestanden (10 P, Teil 1 hilfsmittelfrei) | – |
 | msa/sonstiges/21_P10_Ma_Gym_A2.pdf | 4 | 12 | 3 | bestanden (40 P, Teil 2; zusammen mit Teil 1: 50 P) | – |
+| msa/sonstiges/22_P10_Ma_Gym_Aufgaben_1_und_2.pdf | 2 | 4 | 0 | bestanden (10 P, Teil 1 hilfsmittelfrei) | – |
+| msa/sonstiges/22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | 4 | 12 | 4 | bestanden (40 P, Teil 2; zusammen mit Teil 1: 50 P) | – |
