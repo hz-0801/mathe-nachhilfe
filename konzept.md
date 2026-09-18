@@ -21,9 +21,10 @@ Hier steht, warum es einen Baustein gibt. Wann man welche Datei öffnet, sagt RE
     <profil>-quellen.md                Verzeichnis der Hefte statt einer Ablage der Hefte; iqb erzeugt seine Liste (iqb-quellen.csv, .py), weil 624 Kennungen nicht von Hand zu pflegen sind
     <kennung>-typenbibliothek.md, .py  aus dem Katalog abgeleitet, nie editiert; der Erzeuger hält die Zählweise als Code fest (fhr; msa noch nicht)
     namensschema.md                    eine Benennung, die einen zweiten Träger derselben Prüfungsart verträgt (Entscheidung 32)
-    hefte/, hefte-md/, iqb-pdf/        lokal, nicht im Repo: Verlagsmaterial und Cache (.gitignore); pdf/ als Archiv der Hefte ist nicht angelegt (§ 6)
+    hefte/, hefte-md/, baende/, iqb-pdf/   lokal, nicht im Repo: Verlagsmaterial, Sammelbände und Cache (.gitignore); pdf/ als Archiv der Hefte ist nicht angelegt (§ 6)
     pruefungsprompt.md, masterprompt.md, mathblatt.sty, blatt-konzept.md, CHANGELOG.md   der Blattbau, ein eigenes Projekt im selben Repo (blatt-konzept.md § 5); Masterfassungen hier, die Projektanweisungen sind Kopien
     faellig.md                         Handlungen mit Termin oder Auslöser und dem, bei dem sie liegen – getrennt von § 6, weil eine Entscheidung einen Grund des Wartens hat und eine Handlung einen Auslöser; kein Posten in beiden (Pflegeregel CLAUDE.md § 3)
+    band-bau.py, <profil>-band-struktur.py, <profil>-band.csv, band-anleitung.md   Sammelband je Prüfungsart aus den Originalseiten mit Register aus dem Katalog, weil eine Katalogzeile ihre Fundstelle (Heft, Seite) nur nennt und der Band sie an einer festen, druckbaren Bandseite aufschlagbar macht; liest Katalog und Hefte, ändert nichts – anderes Projekt wie der Blattbau, Familienname band- (namensschema.md); Ausgabe baende/ lokal
     README.md, CLAUDE.md               Landkarte und Arbeitsanweisung; begründet wird nur hier
 
 Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Die Ordnung darin regeln die Präfixe nach namensschema.md (Entscheidung 32).
@@ -298,17 +299,9 @@ außerdem KONFIG, Kürzel und Felder, bevor eine Zeile geschrieben wird.
 9. **Typenbibliothek neu ableiten**, wo es eine gibt: fhr
    `python fhr-typenbibliothek.py` nach jeder Katalogänderung; msa, abi und
    iqb haben keine (§ 2).
-10. **Band neu bauen**, wo es einen gibt (fhr seit 18.09.2026): zuerst die
-    Strukturliste neu erzeugen (`python <profil>-band-struktur.py` schreibt
-    `<profil>-band.csv` – Abschnitte aus Katalog und Seitentext, Jahrgangs- und
-    Heftzeilen bleiben), dann den Band bauen (`python band-bau.py <profil>` nach
-    baende/, lokal; dazu die Einzelhefte mit Bandseitenzahlen). Die Zuordnung zu
-    Themen und Typen geschieht in der Erfassung (Schritt 4), nicht beim Bandbau:
-    das Register entsteht aus der Katalogdatei; ein Heft, das nicht erfasst ist,
-    steht im Band, aber nicht im Register. Reihenfolge deshalb immer: erst
-    erfassen, dann bauen. Die Seitenreserve im Vorspann hält die Bandseiten der
-    Hefte beim Anhängen eines Jahrgangs stabil; reicht sie nicht, bricht
-    band-bau.py ab.
+10. **Band neu bauen**, wo es einen gibt (fhr seit 18.09.2026): Strukturliste
+    erzeugen, dann `band-bau.py <profil>` – erst erfassen, dann bauen
+    (band-anleitung.md, Regel in § 6 dort).
 
 **Nur abi und iqb.**
 
@@ -548,6 +541,11 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-18 (Nachtrag zum Musterband): § 7 Schritt 10 auf eine Verweiszeile gekürzt, die
+  Regel (Zuordnung in der Erfassung, Register aus der Katalogdatei, erst erfassen, dann bauen)
+  steht in voller Länge in band-anleitung.md § 6; § 2 Baustein Sammelband mit Grund. README
+  Block „Sammelbände – anderes Projekt", CLAUDE.md § 1, namensschema.md v0.4 (Familienname
+  band-); band-bau.py v0.3 (Vorspann 13 Seiten, Vorrat acht Jahrgänge).
 - 2026-09-18 (Nachbesserungen am Musterband fhr): § 7 Schritt 10 Band neu bauen –
   Strukturliste (`<profil>-band-struktur.py`), Band (`band-bau.py <profil>`), Regel „erst
   erfassen, dann bauen" (Register aus der Katalogdatei; nicht erfasste Hefte stehen im Band,

@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-fhr-band-struktur.py v0.1 · 18.09.2026 · Profil fhr
-Erzeugt die Strukturliste fhr-band.csv für band-bau.py.
+fhr-band-struktur.py v0.2 · 18.09.2026 · Profil fhr
+Erzeugt die Strukturliste fhr-band.csv für band-bau.py. Anleitung: band-anleitung.md.
+
+Änderungen gegenüber 0.1 (Nachtrag zum Musterband): ein Heft der Heftliste ohne
+Katalogzeilen führt zu einem klaren Abbruch („erst erfassen, dann bauen") statt zu
+einem KeyError; Ausgabe unverändert (fhr-band.csv byteidentisch).
 
 Quellen (nur gelesen): fhr-pruefungen.md (Heftliste: Jahr, Buchstabe, Prüfungsdatum,
 BE-Verteilung), fhr-katalog.csv (Aufgabenstart und Titel je Aufgabe, Feld seite =
@@ -150,6 +154,10 @@ def main():
     fehlt = sorted(set(aufg) - set(hefte))
     if fehlt:
         raise SystemExit(f"Im Katalog, aber nicht in fhr-pruefungen.md: {fehlt}")
+    nicht_erfasst = sorted(set(hefte) - set(aufg))
+    if nicht_erfasst:
+        raise SystemExit(f"In fhr-pruefungen.md, aber ohne Katalogzeilen: {nicht_erfasst} – "
+                         "erst erfassen, dann bauen (band-anleitung.md § 6)")
     meldungen = []
 
     alt = vorhandene_liste()

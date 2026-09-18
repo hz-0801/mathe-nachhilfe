@@ -1,6 +1,6 @@
 # mathe-nachhilfe
 
-Im Repo liegen zwei Arbeiten nebeneinander: die **Erfassung** – vergangene Prüfungen werden Zeile für Zeile in Prüfungskataloge geschrieben, je Prüfung ein Profil – und der **Blattbau** – Prompts und LaTeX-Vorlage, die daraus (oder ohne Katalog) Arbeitsblätter bauen. Wer nur eine davon macht, braucht die andere Hälfte nicht. Alle Dateien liegen flach in der Wurzel; die Ordnung kommt aus den Namen: Präfix je Profil (`msa-`, `fhr-`, `abi-`, `iqb-`), `abitur-` für das, was abi und iqb teilen, `befund-` für Eingefrorenes (Regeln in `namensschema.md`). Die Ordner `hefte/`, `hefte-md/` und `iqb-pdf/` liegen daneben, nicht im Repo (`.gitignore`): Verlagsmaterial und Cache.
+Im Repo liegen zwei Arbeiten nebeneinander: die **Erfassung** – vergangene Prüfungen werden Zeile für Zeile in Prüfungskataloge geschrieben, je Prüfung ein Profil – und der **Blattbau** – Prompts und LaTeX-Vorlage, die daraus (oder ohne Katalog) Arbeitsblätter bauen. Wer nur eine davon macht, braucht die andere Hälfte nicht. Alle Dateien liegen flach in der Wurzel; die Ordnung kommt aus den Namen: Präfix je Profil (`msa-`, `fhr-`, `abi-`, `iqb-`), `abitur-` für das, was abi und iqb teilen, `befund-` für Eingefrorenes (Regeln in `namensschema.md`). Die Ordner `hefte/`, `hefte-md/`, `baende/` und `iqb-pdf/` liegen daneben, nicht im Repo (`.gitignore`): Verlagsmaterial, Sammelbände und Cache.
 
 ## Wo fange ich an
 
@@ -62,6 +62,15 @@ Im Repo liegen zwei Arbeiten nebeneinander: die **Erfassung** – vergangene Pr�
 ## Blattbau – anderes Projekt
 
 Baut Arbeitsblätter, liest den Katalog nur als Quelle und ändert ihn nie: `masterprompt.md` (ohne Katalog), `pruefungsprompt.md` (mit Katalog, heute Profil msa), `mathblatt.sty` und `Anleitung_mathblatt.md` (Vorlage), `blatt-konzept.md`, `CHANGELOG.md`. Die Projektanweisungen in den Claude-Projekten sind Kopien der beiden Prompts.
+
+## Sammelbände – anderes Projekt
+
+Baut je Prüfungsart einen PDF-Band aus den Originalseiten der Hefte mit Inhalt, Register aus dem Katalog und Bandseitenzahlen; liest Katalog und Hefte nur als Quelle und ändert sie nie. Bisher fhr; Ausgabe unter `baende/` (lokal, nicht im Repo). Familienname `band-` (namensschema.md).
+
+- `band-anleitung.md` – öffnen, bevor ein Band gebaut oder ein Heft angehängt wird: Laufumgebung, Schritte, Spalten der Strukturliste, Seitenreserve, Regel „erst erfassen, dann bauen".
+- `band-bau.py` – ausführen (`python band-bau.py fhr`), um den Band und die Einzelhefte neu zu bauen; öffnen, wenn Vorspann, Aufdruck oder Titeltexte eines Profils zu ändern sind (KONFIG).
+- `fhr-band-struktur.py` – ausführen vor jedem Bau, damit die Strukturliste zum Katalog und zu den Heften passt; öffnen, wenn ein Profil einen eigenen Erzeuger braucht (Muster).
+- `fhr-band.csv` – die Strukturliste (Jahrgänge, Hefte, Abschnitte mit Heftseiten); öffnen, um Reihenfolge, Titel oder Hinweiszeile eines Hefts zu ändern – Abschnittszeilen nie von Hand.
 
 ## Eingefroren oder nicht mehr in Arbeit
 

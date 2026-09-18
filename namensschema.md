@@ -1,5 +1,5 @@
 # NAMENSSCHEMA – Dateiarten, Kennungen, Erweiterbarkeit
-Version 0.3 · 18.09.2026 · gilt für alle Profile (Auftrag D „Namensschema,
+Version 0.4 · 18.09.2026 · gilt für alle Profile (Auftrag D „Namensschema,
 Erweiterbarkeit, Begründungen", Teil 1; Entscheidung des Lehrers in Auftrag F,
 konzept.md Entscheidung 32). Umgesetzt ist Variante B aus § 4 (17.09.2026):
 typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv,
@@ -19,6 +19,10 @@ als Aliasse (hefte/abi/, hefte/msa/, hefte/fhr/, hefte/iqb/; Entscheidung
 32), nicht die Vollform aus § 2; die Zeilen zu Heftdateien und
 Quellenverzeichnis in § 1, § 2 und § 4 sind auf diesen Stand gebracht,
 alles Übrige bleibt Messung vom 17.09.2026.
+Nachtrag 0.4 (Nachtrag zum Musterband, 18.09.2026): `band-` als Familienname
+der Sammlung (Sammelbände) in § 1 und § 2, wie `abitur-` für das Geteilte der
+Familie abi; profilbezogene Dateien der Sammlung tragen das Profilpräfix vor
+`-band` (fhr-band-struktur.py, fhr-band.csv).
 
 ## 1 Bestand: Dateiarten und heutiges Benennungsmuster
 
@@ -43,6 +47,7 @@ Klammern; `<kennung>` ist die Profil-Kennung (msa, fhr, abi, iqb).
 | Quelltexte amtlicher Quellen | `quelle-<herausgeber>-<gegenstand>-<jahr>.txt`, Übersicht `quellen.md` | quelle-rlp-teil-c-mathematik-2023.txt, quelle-klett-fahrplan-ls-aa-berlin-2024.txt, quelle-lisum-planungshilfen-7bis10.txt | konsistent; gehören zum Themenkatalog (konzept.md § 3), nicht zu einem Profil |
 | Heftdateien (lokal, nicht im Repo) | seit Auftrag N (18.09.2026) `hefte/<kennung>/<papier>.pdf` mit der Kurzkennung als Ordnername – abi `<jahr>-<land>-<niveau>[-cas]` (Zusätze -stark, -teil1/-teil2), msa und fhr `<jahr>-<papier>` klein (2025-os.pdf, 2026-c.pdf), iqb `<Kennung>.pdf` als Cache; je Profil `sonstiges/` für Textauszüge, abgeschriebene Verlagstexte `hinweise-<band>.md`, `stichwort-<band>.md`, Vorgaben und Hefte ohne Kürzel; `hefte/dubletten/` für byteidentische Zweitstücke. Bis 17.09.2026 flach `hefte/<papier>.pdf` (nur abi). | abi 48 PDF + 37 in sonstiges/, msa 14 + 19, fhr 16 + 3, iqb 624 + 23; 144 in dubletten/ (befund-quellenbestand-2026-09-18.md) | msa und fhr halten seit Auftrag N lokale Hefte (Verzeichnis msa-quellen.md § 5, fhr-quellen.md § 5); `iqb-pdf/` (Standard in iqb-quellen.py, .gitignore, README, konzept.md § 2) ist nicht angelegt, der Cache liegt unter hefte/iqb/ |
 | Markdown-Korpus (lokal) | `hefte-md/<papier>.md`, Bilder `hefte-md/<papier>/abb-N.jpg` | 10 Hefte | konsistent mit den Heftdateien |
+| Sammelband (seit 18.09.2026) | profilübergreifend `band-<dateiart>` (band-bau.py, band-anleitung.md); je Profil `<kennung>-band-struktur.py` → `<kennung>-band.csv`; Ausgabe lokal `baende/<kennung>-band.pdf`, `baende/<kennung>-einzeln/<jahr>-<papier>.pdf` | band-bau.py, band-anleitung.md, fhr-band-struktur.py, fhr-band.csv | Familienname „band" für die Sammlung wie „abitur" für die Familie abi: erkennbar als Einheit, falls die Sammlung ein eigenes Repo bekommt; die Profildateien tragen das Profilpräfix vor `-band` |
 | Befund- und Bestandsdateien (einmalig) | uneinheitlich: `repo-bestand.md`, `abi-iqb-typen.md`, `abi-aufbau.md`, `abi-struktur.json`, `Testauswertung_…_JJJJ-MM-TT.md`, `Bewertung_Masterprompt_v3-34.md` | 6 | kein Muster; Werkstattdateien in CamelCase mit Unterstrich |
 | Konzept, Landkarte, Anweisung | `konzept.md`, `blatt-konzept.md`, `README.md`, `CLAUDE.md`, `CHANGELOG.md` | 5 | ohne Präfix (repoweit) bzw. Konvention der Werkzeuge (CLAUDE.md, README.md) |
 | Blattbau (Prompts, Vorlage) | `masterprompt.md`, `pruefungsprompt.md`, `mathblatt.sty`, `Anleitung_mathblatt.md`, `uebergabe.md`, `archiv-hinweis.md` | 6 | anderes Projekt (repo-bestand.md § 1: B); hier nicht geregelt |
@@ -67,7 +72,7 @@ verbunden; Dateinamen aus Kennung, Dateiart und Endung: `<kennung>-<dateiart>.<e
 
 | Baustein | Werte | Regel |
 |---|---|---|
-| Prüfungsart | msa, fhr, abi; künftig z. B. zk (zentrale Klassenarbeit), bbr | die gebräuchliche Kurzbezeichnung der Prüfung, zwei bis vier Buchstaben; sie ist der Familienname alles Geteilten (Typenliste, Vokabular, Abgleich) |
+| Prüfungsart | msa, fhr, abi; künftig z. B. zk (zentrale Klassenarbeit), bbr | die gebräuchliche Kurzbezeichnung der Prüfung, zwei bis vier Buchstaben; sie ist der Familienname alles Geteilten (Typenliste, Vokabular, Abgleich). Daneben ein Familienname für ein Projekt, das alle Prüfungsarten liest: `band` für die Sammlung der Sammelbände (band-bau.py, band-anleitung.md; § 2 Regel je Dateiart) |
 | Träger | Länderkürzel be, bb, ni, nw, by, bw, he, hh, hb, mv, rp, sl, sn, st, sh, th; länderübergreifend iqb, kmk; gemeinsame Hefte durch Aneinanderreihung in der Reihenfolge der amtlichen Kopfzeile (bebb) | wer die Prüfung stellt; der Pool ist ein Träger ohne Land |
 | Schulform | os (Oberschule/Gesamtschule), gym, fos, bg | nur, wenn dieselbe Prüfungsart desselben Trägers je Schulform verschieden ist; sonst weggelassen |
 | Niveau | wie der Träger es nennt: gk, lk, ga, ea, ebr, for | nur, wenn die Prüfungsart Niveaus kennt; das Kürzel des Trägers, nicht vereinheitlicht (Berlin „Grundkurs" = gk, Brandenburg „grundlegendes Anforderungsniveau" = ga; die Geltungstabelle schreibt heute bb-gk, § 5) |
@@ -109,6 +114,7 @@ es mit abi-bebb und abi-iqb, weil die Prüfungsart dieselbe ist):
 | Quelltexte amtlicher Quellen | `quelle-<herausgeber>-<gegenstand>-<jahr>.<endung>`, Übersicht `quellen.md` | unverändert | quelle-ni-kerncurriculum-2028.txt |
 | Heftdateien (lokal) | `hefte/<profil>/<papier>.pdf`; Textauszüge, Verlagstexte `hinweise-<band>.md`, `stichwort-<band>.md` und Vorgaben in `sonstiges/` darunter | umgesetzt am 18.09.2026 (Auftrag N) mit der Kurzkennung als Alias des Profils (Entscheidung 32): hefte/abi/2025-bebb-gk.pdf, hefte/abi/sonstiges/hinweise-2027-bebb.md; iqb-Cache hefte/iqb/<Kennung>.pdf | hefte/abi-ni/2028-ni-ga.pdf |
 | Markdown-Korpus (lokal) | `hefte-md/<profil>/<papier>.md`, Bilder `hefte-md/<profil>/<papier>/abb-N.jpg` | nicht unterteilt: hefte-md/2025-bebb-gk.md (nur abi, Stand 18.09.2026) | hefte-md/abi-ni/2028-ni-ga.md |
+| Sammelband | profilübergreifend `band-<dateiart>`; je Profil `<profil>-band-struktur.py`, `<profil>-band.csv`; Ausgabe `baende/<profil>-band.pdf`, `baende/<profil>-einzeln/` (lokal) | band-bau.py, band-anleitung.md; fhr-band-struktur.py, fhr-band.csv (Kurzkennung als Alias) | abi-ni-band-struktur.py, abi-ni-band.csv, baende/abi-ni-band.pdf |
 | Befunde (einmalig, keine Regel) | `befund-<gegenstand>[-<datum>].md` | befund-repo-bestand.md, befund-abi-iqb-typen.md, befund-abi-aufbau-2017-2018.md (mit abi-struktur.json als befund-abi-struktur-2017-2018.json) | – |
 | Konzept, Landkarte, Anweisung | ohne Präfix, wie heute | konzept.md, namensschema.md, README.md, CLAUDE.md | unverändert; CLAUDE.md § 1 nennt das neue Profil |
 | Blattbau | außerhalb dieses Schemas | – | – (Vorschlag in repo-bestand.md § 2: Präfix blatt- oder eigenes Repo) |

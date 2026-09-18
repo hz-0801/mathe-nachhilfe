@@ -1,19 +1,22 @@
 # -*- coding: utf-8 -*-
 """
-band-bau.py v0.2 · 18.09.2026 · Sammelband je Prüfungsart aus den Originalseiten
+band-bau.py v0.3 · 18.09.2026 · Sammelband je Prüfungsart aus den Originalseiten
 
 Baut aus den Heftdateien unter hefte/<profil>/ und der Strukturliste <profil>-band.csv
 einen durchsuchbaren PDF-Band mit Titelblatt, Inhaltsverzeichnis, Register aus dem
 Katalog, durchlaufender Seitenzahl und Lesezeichen; dazu je Heft ein Einzelheft mit
 den Kolumnentiteln und Bandseitenzahlen des Bands. Ausgabe nach baende/ (per
-.gitignore lokal). Aufruf: python band-bau.py fhr
+.gitignore lokal). Aufruf: python band-bau.py fhr. Anleitung: band-anleitung.md.
+
+Änderungen gegenüber 0.2 (Nachtrag zum Musterband, 18.09.2026): fhr vorspann_seiten
+13 statt 20 (Entscheidung des Lehrers: Vorrat acht weitere Jahrgänge statt sechzehn,
+fünf Reserveseiten statt zwölf); Hefte damit ab Bandseite 14. Sonst unverändert.
 
 Änderungen gegenüber 0.1 (Nachbesserungen am Musterband, 18.09.2026):
 - Register steht im Vorspann direkt hinter dem Inhaltsverzeichnis; die Reserveseiten
-  folgen dahinter. Vorspann 20 Seiten (fhr: Titel 1, Inhalt 3, Register 4, Reserve 12).
-  Messung mit duplizierten Jahrgängen (18.09.2026, Typenliste um 30 % je acht Jahrgänge
-  wachsend): 16 Jahrgänge brauchen 13 Seiten, 24 Jahrgänge 17 – die Reserve trägt also
-  16 weitere Jahrgänge; main() meldet die lineare Schätzung je Bau.
+  folgen dahinter. Messung mit duplizierten Jahrgängen (18.09.2026, Typenliste um 30 %
+  je acht Jahrgänge wachsend): 8 Jahrgänge brauchen 1 + 3 + 4 = 8 Seiten, 16 Jahrgänge
+  13, 24 Jahrgänge 17; main() meldet die lineare Schätzung je Bau.
 - Sprungmarken sichtbar: Seitenzahlen in Inhalt, Register und Seitenkarte in gedecktem
   Blau (BLAU), Linkrahmen bleiben aus; übriger Text unverändert.
 - Auf jeder Heftseite neben dem Kolumnentitel die klickbare Marke „▲ Inhalt" zurück zum
@@ -86,7 +89,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 
 HIER = Path(__file__).resolve().parent
-VERSION = "band-bau.py v0.2"
+VERSION = "band-bau.py v0.3"
 
 KONFIG = {
     "fhr": dict(
@@ -98,7 +101,7 @@ KONFIG = {
         typen="fhr-typen.csv",
         ausgabe="baende/fhr-band.pdf",
         einzeln="baende/fhr-einzeln",
-        vorspann_seiten=20,
+        vorspann_seiten=13,  # Titel 1 + Inhalt 3 + Register 4 + Reserve 5 (band-anleitung.md § 5)
         leitideen=["Differentialrechnung", "Integralrechnung", "Stochastik", "Grundlagen"],
         hinweise=[
             "Zentrale schriftliche Prüfung zum Erwerb der Fachhochschulreife, Fach Mathematik. "
@@ -844,8 +847,8 @@ def main():
           f"Reserve {reserve} Seiten, {len(titel_links) + len(inhalt_links) + len(register_links)} Links im Vorspann, "
           f"{len(marken)} Marken auf Heftseiten")
     print(f"Reserve: Inhalt und Register brauchen {inhalt_seiten + register_seiten} Seiten für {n_jahrgaenge} Jahrgänge "
-          f"({je_jahrgang:.2f} je Jahrgang); {reserve} Reserveseiten tragen linear etwa "
-          f"{int(reserve / je_jahrgang) if je_jahrgang else 0} weitere Jahrgänge")
+          f"({je_jahrgang:.2f} je Jahrgang); {reserve} Reserveseiten tragen nach linearer Rechnung etwa "
+          f"{int(reserve / je_jahrgang) if je_jahrgang else 0} weitere Jahrgänge (Messung: band-anleitung.md § 5)")
     print(f"Einzelhefte: {len(einzeln)} Dateien nach {k['einzeln']}/ (Seitenlabels = Bandseiten)")
     print("Seitenkarte (Heft: Bandseiten, Offset):")
     for h in plan.hefte.values():

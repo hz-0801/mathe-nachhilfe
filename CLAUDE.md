@@ -37,6 +37,14 @@ Arbeitsdateien (werden je Heft geschrieben):
 
 Nicht maßgeblich für die Erfassung: `msa-vorgaben.md` und `abi-vorgaben.md` (Fachbriefe, Prüfungsschwerpunkte, jährlicher Check, vom Katalog-Prompt nicht gelesen), `pruefungsprompt.md`/`masterprompt.md` (Blattbau, kommt später), die msa-/fhr-Dateien.
 
+Sammelbände (anderes Projekt, Familienname `band-`; liest Katalog und Hefte, ändert nichts; bisher nur fhr, Ausgabe `baende/` lokal):
+
+| Datei | Rolle |
+|---|---|
+| `band-anleitung.md` | Öffnen, bevor ein Band gebaut oder ein Heft angehängt wird: Laufumgebung (pypdf, reportlab, pypdfium2 im PYTHONPATH), Schritte, Strukturliste, Seitenreserve, Regel „erst erfassen, dann bauen" (§ 6 dort). |
+| `band-bau.py` | Ausführen nach dem letzten Heft eines Jahrgangs (`python band-bau.py <profil>`, konzept.md § 7 Schritt 10); baut Band und Einzelhefte, liest `<profil>-band.csv`, Katalog und Typenliste. |
+| `<profil>-band-struktur.py`, `<profil>-band.csv` | Erzeuger und Strukturliste je Profil (fhr); vor jedem Bau ausführen, Abschnittszeilen nie von Hand. |
+
 ## 2 Wie ein Heft erfasst wird
 
 Grundlage: `katalog-prompt.md` § 3–8, konkretisiert durch `abi.md` § 4 und § 7 und den Ablauf im Kopf von `abi-bau.py`.
