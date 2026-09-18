@@ -72,6 +72,15 @@ Baut je Prüfungsart einen PDF-Band aus den Originalseiten der Hefte mit Inhalt,
 - `fhr-band-struktur.py` – ausführen vor jedem Bau, damit die Strukturliste zum Katalog und zu den Heften passt; öffnen, wenn ein Profil einen eigenen Erzeuger braucht (Muster).
 - `fhr-band.csv` – die Strukturliste (Jahrgänge, Hefte, Abschnitte mit Heftseiten); öffnen, um Reihenfolge, Titel oder Hinweiszeile eines Hefts zu ändern – Abschnittszeilen nie von Hand.
 
+## Korpus – anderes Projekt
+
+Macht die Prüfungshefte durchsuchbar; liest die Heftordner nur als Quelle und
+ändert sie nie. Rein maschinell (Text und Ganzseitenrender, kein Modell-
+Lesen), für alle vier Profile. Familienname `korpus-` (namensschema.md).
+
+- `korpus-bau.py` – ausführen (`python korpus-bau.py <profil> --bauen`), um den Korpus für ein Profil zu bauen oder fortzusetzen; `--status` zeigt offene Dateien, `--ocr` OCR-t die acht Bildscan-Verlagshefte.
+- `korpus-protokoll.md` – öffnen, um zu sehen, welche Datei erfasst oder fehlgeschlagen ist, mit Entscheidungen ohne Rückfrage (§ 0) und dem Unterschied zu hefte-md/ (§ 7).
+
 ## Eingefroren oder nicht mehr in Arbeit
 
 - `befund-*.md` – datierte Befunde (`befund-repo-bestand.md`, `befund-typenlisten.md`, `befund-lesbarkeit.md`, `befund-abi-iqb-typen.md`, Stichtagsbefund `befund-stichtag-2026-09-17.md`); sie beschreiben den Stand ihres Datums und werden nicht fortgeschrieben.

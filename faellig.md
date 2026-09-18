@@ -65,6 +65,8 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | 2017-be-lk und 2018-be-lk: die eigenen Aufgaben (drei bzw. zwei, nicht wortgleich mit bb-ea) erfassen | Anweisung des Lehrers; ob überhaupt, hängt am Abbruchkriterium abi (Entscheidung offen, konzept.md § 6) | Lehrer (Anweisung), Claude (Lauf) | abi-pruefungen.md § 2 („teilweise abgedeckt") |
 | Standard-Cache von iqb-quellen.py von iqb-pdf/ auf hefte/iqb/ umstellen und README, konzept.md § 2, .gitignore nachziehen (der Ordner iqb-pdf/ ist nicht angelegt, der Cache liegt seit Auftrag N unter hefte/iqb/) | nächster Lauf von iqb-quellen.py (neuer Pooljahrgang, § 1) oder Anweisung des Lehrers; bis dahin Aufruf mit Argument `hefte/iqb` | Claude | namensschema.md § 1 (Zeile Heftdateien), befund-quellenbestand-2026-09-18.md § 6 |
 
+| `hefte/iqb/sonstiges/2025MerhoehtBAnalysisMMS3.pdf` prüfen und, falls gewollt, löschen: keine PDF (153 Byte, beginnt mit `<html`, vermutlich eine Fehlerseite eines früheren curl-Versuchs); die Kennung steht nicht in iqb-quellen.csv (624 Zeilen, nur MMS1/MMS2 für 2025-ea-B) – kein Nachweis, dass eine MMS3-Datei überhaupt existiert, also keine verlässliche URL zum Neuholen. Blockiert Etappe 4 des Korpus-Auftrags nicht (624 von 624 echten Kennungen erfasst) | Auslöser unbekannt (kein Termin; Datei liegt seit unbekanntem früheren Lauf) | Lehrer (entscheiden, ob löschen) | korpus-protokoll.md § 5 |
+
 ## 3 Liegt beim Lehrer
 
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
@@ -74,6 +76,7 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Backup von hefte/ und hefte-md/ anlegen: 929,8 MB unter hefte/ ohne dubletten/ (dazu 32,6 MB dubletten/), hefte-md/ 1,9 MB – einzige Sammlung, nicht im Repo, nicht vom Push erfasst | sofort; danach nach jeder Erweiterung (§ 1) | Lehrer | befund-quellenbestand-2026-09-18.md § 2, § 7; befund-heftkorpus-2026-09-17.md § 2 (Größe hefte-md/); .gitignore |
 | hefte/dubletten/ löschen (byteidentische Zweitstücke, Liste dubletten.md dort) und die 83 Zweitstücke im Download-Ordner des Lehrers – beides nur, wenn gewollt | nach dem Backup | Lehrer | befund-quellenbestand-2026-09-18.md § 7, hefte/dubletten/dubletten.md |
 | Push: die lokalen Commits seit origin/main (Auftrag O, sechs Commits nach Abschluss) | nach jedem Auftrag | Lehrer | konzept.md § 2 (Entscheidung 22: der Lehrer pusht), § 7 Punkt 7 |
+| Tesseract (mit Sprachpaket deu) und Ghostscript installieren, oder der Sitzung Administratorrechte geben – ohne beides bleibt Etappe 3 des Korpus-Auftrags (OCR der acht Bildscan-Verlagshefte 2022–2025) blockiert; winget-Installation ohne Administratorrechte bricht ab (UAC), kein 7-Zip zum Entpacken ohne Ausführung vorhanden | sofort (seit 18.09.2026 fällig) | Lehrer | korpus-protokoll.md § 4 |
 
 ## 4 Erledigt
 

@@ -45,6 +45,13 @@ Sammelbände (anderes Projekt, Familienname `band-`; liest Katalog und Hefte, ä
 | `band-bau.py` | Ausführen nach dem letzten Heft eines Jahrgangs (`python band-bau.py <profil>`, konzept.md § 7 Schritt 10); baut Band und Einzelhefte, liest `<profil>-band.csv`, Katalog und Typenliste. |
 | `<profil>-band-struktur.py`, `<profil>-band.csv` | Erzeuger und Strukturliste je Profil (fhr); vor jedem Bau ausführen, Abschnittszeilen nie von Hand. |
 
+Korpus (anderes Projekt, Familienname `korpus-`; liest die Heftordner, ändert nichts; rein maschinell ohne Modell-Lesen, alle vier Profile, Ausgabe `korpus/` lokal):
+
+| Datei | Rolle |
+|---|---|
+| `korpus-bau.py` | Ausführen (`python korpus-bau.py <profil> --bauen`), um den durchsuchbaren Korpus (Text je Seite plus Ganzseitenrender) für ein Profil zu bauen oder fortzusetzen; `--status` zeigt offene Dateien. |
+| `korpus-protokoll.md` | Je Datei eine Zeile (erfasst oder fehlgeschlagen mit Grund), Entscheidungen ohne Rückfrage, Unterschied zu `hefte-md/`. |
+
 ## 2 Wie ein Heft erfasst wird
 
 Grundlage: `katalog-prompt.md` § 3–8, konkretisiert durch `abi.md` § 4 und § 7 und den Ablauf im Kopf von `abi-bau.py`.

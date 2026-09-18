@@ -21,10 +21,11 @@ Hier steht, warum es einen Baustein gibt. Wann man welche Datei öffnet, sagt RE
     <profil>-quellen.md                Verzeichnis der Hefte statt einer Ablage der Hefte; iqb erzeugt seine Liste (iqb-quellen.csv, .py), weil 624 Kennungen nicht von Hand zu pflegen sind
     <kennung>-typenbibliothek.md, .py  aus dem Katalog abgeleitet, nie editiert; der Erzeuger hält die Zählweise als Code fest (fhr; msa noch nicht)
     namensschema.md                    eine Benennung, die einen zweiten Träger derselben Prüfungsart verträgt (Entscheidung 32)
-    hefte/, hefte-md/, baende/, iqb-pdf/   lokal, nicht im Repo: Verlagsmaterial, Sammelbände und Cache (.gitignore); pdf/ als Archiv der Hefte ist nicht angelegt (§ 6)
+    hefte/, hefte-md/, korpus/, baende/, iqb-pdf/   lokal, nicht im Repo: Verlagsmaterial, Korpus, Sammelbände und Cache (.gitignore); pdf/ als Archiv der Hefte ist nicht angelegt (§ 6)
     pruefungsprompt.md, masterprompt.md, mathblatt.sty, blatt-konzept.md, CHANGELOG.md   der Blattbau, ein eigenes Projekt im selben Repo (blatt-konzept.md § 5); Masterfassungen hier, die Projektanweisungen sind Kopien
     faellig.md                         Handlungen mit Termin oder Auslöser und dem, bei dem sie liegen – getrennt von § 6, weil eine Entscheidung einen Grund des Wartens hat und eine Handlung einen Auslöser; kein Posten in beiden (Pflegeregel CLAUDE.md § 3)
     band-bau.py, <profil>-band-struktur.py, <profil>-band.csv, band-anleitung.md   Sammelband je Prüfungsart aus den Originalseiten mit Register aus dem Katalog, weil eine Katalogzeile ihre Fundstelle (Heft, Seite) nur nennt und der Band sie an einer festen, druckbaren Bandseite aufschlagbar macht; liest Katalog und Hefte, ändert nichts – anderes Projekt wie der Blattbau, Familienname band- (namensschema.md); Ausgabe baende/ lokal
+    korpus-bau.py, korpus-protokoll.md   macht die Hefte aller vier Profile durchsuchbar, weil der Katalog keinen Volltext hält (§ 3 dieser Datei, Kern § 3) und die Erfassung selbst nur ein Bruchteil der Hefte je Profil abdeckt; rein maschinell (Text und Ganzseitenrender, kein Modell-Lesen), damit der ganze Bestand in vertretbarer Zeit läuft – anderes Projekt, Familienname korpus- (namensschema.md); liest die Heftordner, ändert nichts; Ausgabe korpus/ lokal
     README.md, CLAUDE.md               Landkarte und Arbeitsanweisung; begründet wird nur hier
 
 Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Die Ordnung darin regeln die Präfixe nach namensschema.md (Entscheidung 32).

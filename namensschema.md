@@ -1,5 +1,5 @@
 # NAMENSSCHEMA – Dateiarten, Kennungen, Erweiterbarkeit
-Version 0.4 · 18.09.2026 · gilt für alle Profile (Auftrag D „Namensschema,
+Version 0.5 · 18.09.2026 · gilt für alle Profile (Auftrag D „Namensschema,
 Erweiterbarkeit, Begründungen", Teil 1; Entscheidung des Lehrers in Auftrag F,
 konzept.md Entscheidung 32). Umgesetzt ist Variante B aus § 4 (17.09.2026):
 typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv,
@@ -23,6 +23,13 @@ Nachtrag 0.4 (Nachtrag zum Musterband, 18.09.2026): `band-` als Familienname
 der Sammlung (Sammelbände) in § 1 und § 2, wie `abitur-` für das Geteilte der
 Familie abi; profilbezogene Dateien der Sammlung tragen das Profilpräfix vor
 `-band` (fhr-band-struktur.py, fhr-band.csv).
+Nachtrag 0.5 (Auftrag Korpus und OCR, 18.09.2026): `korpus-` als Familienname
+des rein maschinellen Korpus in § 1 – ein Erzeuger (`korpus-bau.py`) und ein
+Protokoll (`korpus-protokoll.md`) für alle Profile statt je Profil, weil das
+Skript nichts Profilspezifisches enthält (anders als `<profil>-bau.py`); die
+Ausgabe `korpus/<profil>/…` trägt das Profil im Pfad statt im Dateinamen. Die
+bestehende Zeile „Markdown-Korpus" (hefte-md/, Modell-gelesen) bleibt
+daneben stehen – anderer Zweck, siehe korpus-protokoll.md § 7.
 
 ## 1 Bestand: Dateiarten und heutiges Benennungsmuster
 
@@ -113,7 +120,8 @@ es mit abi-bebb und abi-iqb, weil die Prüfungsart dieselbe ist):
 | Vorgaben | `<familie>-vorgaben.md`, wenn die Vorgaben mehrere Profile betreffen, sonst `<profil>-vorgaben.md` | abi-vorgaben.md (Prüfungsschwerpunkte beider Länder, gelesen von abi-bebb und abi-iqb), msa-bb-vorgaben.md | abi-ni-vorgaben.md (eigene Landesvorgaben) oder Abschnitt in abi-vorgaben.md |
 | Quelltexte amtlicher Quellen | `quelle-<herausgeber>-<gegenstand>-<jahr>.<endung>`, Übersicht `quellen.md` | unverändert | quelle-ni-kerncurriculum-2028.txt |
 | Heftdateien (lokal) | `hefte/<profil>/<papier>.pdf`; Textauszüge, Verlagstexte `hinweise-<band>.md`, `stichwort-<band>.md` und Vorgaben in `sonstiges/` darunter | umgesetzt am 18.09.2026 (Auftrag N) mit der Kurzkennung als Alias des Profils (Entscheidung 32): hefte/abi/2025-bebb-gk.pdf, hefte/abi/sonstiges/hinweise-2027-bebb.md; iqb-Cache hefte/iqb/<Kennung>.pdf | hefte/abi-ni/2028-ni-ga.pdf |
-| Markdown-Korpus (lokal) | `hefte-md/<profil>/<papier>.md`, Bilder `hefte-md/<profil>/<papier>/abb-N.jpg` | nicht unterteilt: hefte-md/2025-bebb-gk.md (nur abi, Stand 18.09.2026) | hefte-md/abi-ni/2028-ni-ga.md |
+| Markdown-Korpus, Modell-gelesen (lokal) | `hefte-md/<profil>/<papier>.md`, Bilder `hefte-md/<profil>/<papier>/abb-N.jpg` | nicht unterteilt: hefte-md/2025-bebb-gk.md (nur abi); hefte-md/msa/2019-os.md (Stand 18.09.2026, eingestellt, korpus-protokoll.md § 1) | hefte-md/abi-ni/2028-ni-ga.md |
+| Maschineller Korpus (lokal), Familienname `korpus-` | Erzeuger `korpus-bau.py` (repoweit, ein Skript für alle Profile), Protokoll `korpus-protokoll.md`; Ausgabe `korpus/<profil>/<papier>.md`, Bilder `korpus/<profil>/bilder/<papier>/seite-N.png` | angelegt 18.09.2026 (Auftrag Korpus und OCR): korpus-bau.py, korpus-protokoll.md, korpus/msa/2019-os.md, korpus/abi/2011-bebb-gk.md, korpus/iqb/… | korpus/abi-ni/2028-ni-ga.md |
 | Sammelband | profilübergreifend `band-<dateiart>`; je Profil `<profil>-band-struktur.py`, `<profil>-band.csv`; Ausgabe `baende/<profil>-band.pdf`, `baende/<profil>-einzeln/` (lokal) | band-bau.py, band-anleitung.md; fhr-band-struktur.py, fhr-band.csv (Kurzkennung als Alias) | abi-ni-band-struktur.py, abi-ni-band.csv, baende/abi-ni-band.pdf |
 | Befunde (einmalig, keine Regel) | `befund-<gegenstand>[-<datum>].md` | befund-repo-bestand.md, befund-abi-iqb-typen.md, befund-abi-aufbau-2017-2018.md (mit abi-struktur.json als befund-abi-struktur-2017-2018.json) | – |
 | Konzept, Landkarte, Anweisung | ohne Präfix, wie heute | konzept.md, namensschema.md, README.md, CLAUDE.md | unverändert; CLAUDE.md § 1 nennt das neue Profil |
