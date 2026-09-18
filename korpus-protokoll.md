@@ -951,3 +951,4 @@ wortgleich sind – das entspricht der Zählung „44 Dateien" des Bestands.
 | abi/2012-bebb-gk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 30 | 2 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2012-bebb-lk-cas.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 33 | 2 | bestanden (je Wahl 100 BE: 40+30+30) | – |
 | abi/2013-bebb-gk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 28 | 4 | bestanden (je Wahl 100 BE: 40+30+30) | – |
+| abi/2013-bebb-lk.pdf | 6 (3 Aufgabenstellungen à 2 Wahlaufgaben) | 28 | 6 | bestanden (je Wahl 100 BE: 40+30+30) | – |
