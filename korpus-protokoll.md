@@ -876,3 +876,5 @@ Entscheidung, nur vermerkt. Ein Commit je Heft (nicht je Etappe).
 | msa/sonstiges/16_P10_Gym_Ma_A.pdf | 5 | 22 | 7 | bestanden (50 P, Gymnasium ohne Katalog) | – |
 | msa/sonstiges/17_P10_Ma_Gym_A.pdf | 5 | 20 | 5 | bestanden (50 P, Gymnasium ohne Katalog) | – |
 | msa/sonstiges/18_P10_Ma_Gym_A.pdf | 5 | 20 | 6 | bestanden (50 P, Gymnasium ohne Katalog) | – |
+| msa/sonstiges/19_P10_Ma_Gym_A_1.pdf | 1 | 10 | 2 | bestanden (10 P, Teil 1 hilfsmittelfrei) | – |
+| msa/sonstiges/19_P10_Ma_Gym_A_2.pdf | 4 | 9 | 4 | bestanden (40 P, Teil 2; zusammen mit Teil 1: 50 P) | – |
