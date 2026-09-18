@@ -542,6 +542,21 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-18 (Auftrag Korpus und OCR, Etappen 1–4 und Abschluss): korpus-bau.py
+  angelegt – rein maschineller Korpus (pypdf-Text je Seite, Ganzseitenrender
+  ohne Modell-Lesen) unter `korpus/<profil>/`, Baustein mit Grund in § 2.
+  Etappe 1 (msa+fhr, 52 Dateien) und Etappe 2 (abi amtlich 2011–2018, 44
+  Dateien) vollständig; Etappe 4 (iqb, 624 von 624 echten Kennungen)
+  vollständig, eine Altlast-Datei außerhalb iqb-quellen.csv protokolliert.
+  Etappe 3 (OCR der acht Bildscan-Verlagshefte) blockiert: kein
+  Tesseract/Ghostscript ohne Administratorrechte installierbar (faellig.md
+  § 3). Der Auftrag korrigierte sich selbst nach dem ersten Anlauf: sechs
+  msa-Hefte waren im Modell-gelesenen Format hefte-md/ erfasst worden (Zweck
+  Katalogprüfung), bevor klargestellt wurde, dass Durchsuchbarkeit
+  maschinelle Extraktion ohne Modell-Lesen verlangt – die sechs Dateien
+  bleiben unter hefte-md/ liegen (korpus-protokoll.md § 0, § 1). namensschema.md
+  v0.5 (Familienname korpus-), README und CLAUDE.md § 1 (Sammelbände-Block)
+  nachgezogen.
 - 2026-09-18 (Auftrag Korpus und OCR, Etappe 0): Landkarte-Pflegeregel gesetzt – als Zusatz
   zur README-Regel und als Punkt in CLAUDE.md § 3, in der Fassung aus dem Bericht zum
   Nachtrag Musterband (Punkt 5): wer eine Datei anlegt, umbenennt oder aus dem Repo nimmt,

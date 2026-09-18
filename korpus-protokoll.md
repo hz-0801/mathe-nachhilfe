@@ -823,8 +823,19 @@ offen, bis das geklärt ist; Etappe 4 läuft unabhängig weiter.
 
 ## 6 Zusammenfassung je Etappe
 
-Wird am Ende jeder Etappe nachgetragen: verarbeitet, übersprungen,
-fehlgeschlagen, Gesamtdauer.
+| Etappe | Soll | Verarbeitet | Fehlgeschlagen | Übersprungen | Seiten | Zeichen | Bilder | Gesamtdauer |
+|---|---|---|---|---|---|---|---|---|
+| 1 msa+fhr | 52 | 52 | 0 | 0 | 473 | 641 318 | 473 | 102 s |
+| 2 abi amtlich | 44 | 44 | 0 | 0 | 390 | 752 826 | 390 | 83 s |
+| 3 OCR + Korpus | 8 | 0 | 0 (blockiert) | 8 | – | – | – | – |
+| 4 iqb | 625 (624 echte + 1 Altlast) | 624 | 1 | 0 | 1825 | 2 413 929 | 1825 | 234 s |
+| **gesamt** | | **720** | **1** | **8** | **2688** | **3 808 073** | **2688** | **≈ 7 min** |
+
+Etappe 3 blieb blockiert (kein Tesseract/Ghostscript ohne Administratorrechte
+auf diesem Rechner, § 4); die acht Bildscans bleiben ohne Textebene und ohne
+Korpus, bis das geklärt ist (faellig.md § 3). Die eine fehlgeschlagene Datei
+in Etappe 4 ist keine der 624 echten iqb-Kennungen (§ 5); Etappe 4 ist damit
+inhaltlich vollständig.
 
 ## 7 Unterschied korpus/ und hefte-md/
 
