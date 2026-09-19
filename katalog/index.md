@@ -58,6 +58,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | binomialverteilung.md | Binomialverteilung (Bernoulli-Kette, Bernoulli-Formel, kumulierte Wahrscheinlichkeiten, Umkehraufgaben, Verteilung im Diagramm) | Stochastik (fhr: kein Stoff nach RLP FOS 2019) | abi 57/30 · iqb 98/52 | Entwurf |
 | ebenen.md | Ebenen (Parameterform, Normalenvektor und Koordinatengleichung, Ebenen im Koordinatensystem, parallele Ebenen) | Analytische Geometrie (fhr: kein Stoff nach RLP FOS 2019) | abi 20/10 · iqb 28/16 | Entwurf |
 | ableitung-und-aenderungsrate.md | Ableitung und Änderungsrate (mittlere Änderungsrate und Sekante, Ableitung an einer Stelle, von der Sekante zur Tangente, die Rate als Funktion) | Analysis (fhr: Stoff nach RLP FOS 2019 „Ableitungsbegriff“, aber keine Zeile im fhr-Katalog) | abi 23/20 · iqb 31/26 | Entwurf |
+| ableitungsregeln.md | Ableitungsregeln (Potenz-, Faktor- und Summenregel; Kettenregel; Produktregel) | Analysis (fhr: Differentialrechnung – nur Konstanten-, Faktor-, Summen- und Potenzregel, keine Produkt- und Kettenregel nach RLP FOS 2019) | fhr 8/2 · abi 7/4 · iqb 9/8 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
