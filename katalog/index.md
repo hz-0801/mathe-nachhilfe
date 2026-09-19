@@ -65,6 +65,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | gleichungen-loesen.md | Gleichungen lösen (ganzrationale Gleichungen und Schnittpunkte, Gleichungen mit e-Funktion und Logarithmus, Gleichungen aufstellen und grafisch oder numerisch lösen, Ungleichungen) | Analysis (fhr: Differentialrechnung „Schnittpunkte von Funktionsgraphen“ – nur ganzrationale Gleichungen nach RLP FOS 2019) | fhr 9/2 · abi 15/12 · iqb 19/19 | Entwurf |
 | umkehrfunktion.md | Umkehrfunktion (Umkehrbarkeit, Bereiche und Term; Spiegelung an der Winkelhalbierenden) – Kurzform | Analysis (fhr: kein Stoff nach RLP FOS 2019) | abi 1/1 · iqb 5/5 | Entwurf |
 | ableitungsgraph-und-funktionsgraph.md | Ableitungsgraph und Funktionsgraph – **Verweiseintrag** auf kurvenuntersuchung.md Einheit 4 (Eintragsart nach E36-Zusatz vom 19.09.2026) | Analysis (fhr: keine Zeile; RLP FOS nur „grafische Darstellung“, „graphisches Differenzieren“) | abi 11/10 · iqb 10/7 | Entwurf |
+| tangente-normale-schnittwinkel.md | Tangente, Normale, Schnittwinkel (Tangentengleichung im Punkt, Berührung als Doppelbedingung, Normale, Steigungs- und Schnittwinkel, Dreiecke aus Tangente und Achsen) | Analysis (fhr: Differentialrechnung „Anstieg und Tangente“, „Normale“ – Winkel kein Stoff nach RLP FOS 2019) | fhr 15/11 · abi 51/44 · iqb 61/48 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)

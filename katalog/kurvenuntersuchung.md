@@ -69,7 +69,7 @@ Einheit 3 (Krümmung und Wendepunkte):
       f'(0) = −3 → Wendetangente t(x) = −3x.
     Sattelpunkt: ein Wendepunkt mit waagerechter Tangente – f'(x₀) = 0, f''(x₀) = 0, f'''(x₀) ≠ 0.
       f(x) = x⁴ − 4x³: f''(x) = 12x² − 24x = 12x · (x − 2) = 0 ⇔ x = 0 oder x = 2; f'''(0) = −24 ≠ 0 und f'''(2) = 24 ≠ 0; f'(0) = 0 → Sattelpunkt S(0 | 0), zweiter Wendepunkt W(2 | −16).
-    Auswendig (Teil A): „Krümmung“, „Wendepunkt“ und „Sattelpunkt“ – [GOST-OHiMi 2.2] „Krümmungsverhalten“, „Extrempunkte und Wendepunkte (notwendiges und hinreichendes Kriterium)“; die „Wendetangente“ ist die Tangente im Wendepunkt und gehört als Tangentengleichung zu tangente-normale-schnittwinkel.md (dort zu markieren).
+    Auswendig (Teil A): „Krümmung“, „Wendepunkt“ und „Sattelpunkt“ – [GOST-OHiMi 2.2] „Krümmungsverhalten“, „Extrempunkte und Wendepunkte (notwendiges und hinreichendes Kriterium)“; die „Wendetangente“ ist die Tangente im Wendepunkt und gehört als Tangentengleichung zu tangente-normale-schnittwinkel.md (dort in der Auswendig-Zeile von Kasten 1 markiert).
     Formelsammlung: Analysis – Ableitung [FS-IQB 1.2]; Krümmung und Wendepunktkriterium stehen nicht in der Formelsammlung – [FS] offen
 Quelle: eigene Formulierung nach [GOST Q1 L4] „Zusammenhang zwischen Krümmungsverhalten und zweiter Ableitung“, „Wendepunkte, Sattelpunkte“, „zweite Ableitung als Steigungsfunktion der ersten Ableitung“ und [FOS] „Krümmung und 2. Ableitung“, „Wendepunkte und Sattelpunkte“; Zahlenbeispiele eigen (Ermessen); [LS-AA EP IV 4, QP I 5–6].
 
