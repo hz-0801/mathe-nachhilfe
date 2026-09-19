@@ -94,6 +94,62 @@ for n in sorted(kaesten):
     if n not in sprossen:
         print(f"   WARNUNG: keine Sprossen-Zeile für Einheit {n}")
 
+# --- Sek II (Auftrag Sek-II-Werkzeuge): greift, wenn der Eintrag eine Prüfungsform-Liste
+# fhr/abi/iqb statt P10-Typen hat (konzept.md § 4 Entscheidung 36).
+if "### Prüfungsform (fhr / abi / iqb)" in text:
+    basename = os.path.splitext(os.path.basename(a.eintrag))[0]
+    themen_csv = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "themen.csv")
+
+    # (a) Zählzeile "N1 + N2 + ... = T Haupttypen, M1 + M2 + ... = S Zeilen" gegen die
+    # tatsächlich gelisteten Typen und ihre Zeilenzahl in Klammern (ggf. mit Anmerkung "(1; ...)"),
+    # je Einheit und in der Summe.
+    typen_sec = section("Typen je Lerneinheit")
+    zm = re.search(r"^Zählung:\s*([\d\s+]+?)=\s*(\d+)\s*Haupttypen,\s*([\d\s+]+?)=\s*(\d+)\s*Zeilen", typen_sec, re.M)
+    if not zm:
+        print("Sek-II Typen je Lerneinheit: Zählzeile fehlt oder unerwartetes Format"); ok = False
+    else:
+        soll_typen = [int(x) for x in re.findall(r"\d+", zm.group(1))]
+        soll_zeilen = [int(x) for x in re.findall(r"\d+", zm.group(3))]
+        ist_typen, ist_zeilen = [], []
+        for n_str, body in re.findall(r"^Einheit (\d+):(.*?)(?=^Einheit \d+:|^Zählung:|\Z)", typen_sec, re.S | re.M):
+            nums = re.findall(r"\((\d+)(?:;[^)]*)?\)", body.split(" Dazu:")[0])
+            ist_typen.append(len(nums)); ist_zeilen.append(sum(int(x) for x in nums))
+        print(f"Sek-II Typen je Lerneinheit: Zählzeile {' + '.join(map(str, soll_typen))} = {int(zm.group(2))} Haupttypen, "
+              f"{' + '.join(map(str, soll_zeilen))} = {int(zm.group(4))} Zeilen")
+        if ist_typen != soll_typen or sum(ist_typen) != int(zm.group(2)):
+            print(f"   ABWEICHUNG Haupttypen je Einheit: gezählt {ist_typen} = {sum(ist_typen)}"); ok = False
+        if ist_zeilen != soll_zeilen or sum(ist_zeilen) != int(zm.group(4)):
+            print(f"   ABWEICHUNG Zeilen je Einheit: gezählt {ist_zeilen} = {sum(ist_zeilen)}"); ok = False
+
+    # (b)+(c) Profillisten fhr/abi/iqb: jede Typnennung trägt genau eine Einheitsnummer E1–E5 in
+    # der Klammerform „(n, Ek)“ bzw. „(Ek)“ bei je-1-Typen (Entscheidung 36); die Summe der n
+    # (bzw. 1 ohne n) je Profil gegen die Zeilenwerte des Themas in themen.csv (kanonisch = Dateiname).
+    pf_sec = section("Prüfungsform (fhr / abi / iqb)")
+    zeilen_je_profil = {}
+    with open(themen_csv, encoding="utf-8") as f:
+        for r in csv.DictReader(f, delimiter=";"):
+            if r["kanonisch"].strip() != basename or not r["profil"].strip():
+                continue
+            zeilen_je_profil[r["profil"]] = zeilen_je_profil.get(r["profil"], 0) + int(r["zeilen"])
+    for profil in ("fhr", "abi", "iqb"):
+        pm = re.search(r"^" + profil + r" \(.*?\)\s*\[.*?\]:\s*(.*?)\.\s*Muster:", pf_sec, re.M)
+        if not pm:
+            continue
+        summe = 0
+        for seg in pm.group(1).split(" · "):
+            bm = re.search(r"\((?:(\d+),\s*)?E[1-5]\)\s*$", seg.strip())
+            if not bm:
+                print(f"Sek-II Prüfungsform {profil}: Typnennung ohne gültige Klammerform „(n, Ek)“/„(Ek)“: …{seg.strip()[-60:]}")
+                ok = False; continue
+            summe += int(bm.group(1)) if bm.group(1) else 1
+        erwartet = zeilen_je_profil.get(profil)
+        if erwartet is None:
+            print(f"Sek-II Prüfungsform {profil}: kein Eintrag in themen.csv für kanonisch={basename}"); ok = False
+        elif summe != erwartet:
+            print(f"Sek-II Prüfungsform {profil}: Zeilensumme der Profilliste {summe} ≠ themen.csv {erwartet}"); ok = False
+        else:
+            print(f"Sek-II Prüfungsform {profil}: Zeilensumme {summe} = themen.csv {erwartet}")
+
 # --- P10-Typen
 if a.thema:
     with open(a.typen, encoding="utf-8") as f:

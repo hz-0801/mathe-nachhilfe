@@ -4,18 +4,32 @@
 2. Trägt jeder Eintrag eine Zeile „Zuordnung:“ am Zeilenanfang (seit 10d)? Ohne sie läuft die
    P10-Typenprüfung von _pruef_katalog.py --thema nicht; drei Einträge hatten sie über einen Monat nicht.
 3. Trägt jede Sprossenkette „(Einheit n)“ (seit 10d) und endet sie mit „Prüfungshöhe“?
-4. Existiert jede genannte Original-id in katalog-basis.csv oder katalog-kontext.csv?
-5. Kennzahl 5 (seit 10h): die Gegenrichtung – wie viele Originale der beiden CSV-Dateien stehen in
-   keinem Eintrag? Das ist bewusst eine Kennzahl und kein Befund: sie sinkt mit jedem Gegenlese-Block
+4. Existiert jede genannte Original-id in katalog-basis.csv oder katalog-kontext.csv (msa) bzw. in
+   fhr-katalog.csv, abi-katalog.csv oder iqb-katalog.csv (Sek II, seit Auftrag Sek-II-Werkzeuge)?
+5. Kennzahl 5 (seit 10h): die Gegenrichtung – wie viele Originale der Kataloge stehen in keinem
+   Eintrag? Das ist bewusst eine Kennzahl und kein Befund: sie sinkt mit jedem Gegenlese-Block
    und soll den einen gewollt sichtbaren Befund nicht zudecken. Bis 10g fiel diese Lücke nur von Hand
-   auf (2021-OS-K6b am 10g, 2023-OS-K5c und 2024-OS-B1c am 10h).
+   auf (2021-OS-K6b am 10g, 2023-OS-K5c und 2024-OS-B1c am 10h). Zählt seit Auftrag Sek-II-Werkzeuge
+   auch fhr-, abi- und iqb-Originale.
 Aufruf im Ordner katalog/: python3 _pruef_struktur.py – die CSVs werden eine Ebene darüber erwartet.
-Aufgabenstämme ohne Teilaufgabenbuchstaben (2017-OS-K7) werden nicht geprüft.
+Aufgabenstämme ohne Teilaufgabenbuchstaben (2017-OS-K7; bei iqb eine Kennung, deren Aufgabe
+Teilaufgaben hat) werden nicht geprüft.
 """
 import re,sys,csv,glob,os
 ids=set()
 for f in ('../msa/msa-katalog-basis.csv','../msa/msa-katalog-kontext.csv'):  # Umbau 2026-09-19: Kataloge liegen in msa/
     for r in csv.DictReader(open(f,encoding='utf-8'),delimiter=';'): ids.add(r['id'])
+for f in ('../fhr/fhr-katalog.csv','../abitur/abi-katalog.csv','../abitur/iqb-katalog.csv'):  # Sek II (seit Auftrag Sek-II-Werkzeuge)
+    for r in csv.DictReader(open(f,encoding='utf-8'),delimiter=';'): ids.add(r['id'])
+# Sek-II-id-Muster (Auftrag Sek-II-Werkzeuge), empirisch aus den drei CSVs oben abgeglichen (0 Abweichungen):
+# fhr Jahr-Papier-AufgabeTeilaufgabe (fhr.md § 4), abi Jahr-Land-Niveau-BlockAufgabe[.Unteraufgabe]Teilaufgabe
+# (abi.md § 4), iqb Kennung[-Teilaufgabe] mit Kennung = Jahr|Beispielaufgaben, M, Niveau, Teil, Sachgebiet,
+# in Teil A Aufgabengruppe[Nummer], in Teil B Hilfsmittel[Dateinummer]-Aufgabennummer (iqb.md § 4).
+ID_SEK2=(r"\d{4}-[ABC]-\d+[a-z]"
+    r"|\d{4}-(?:be|bb|bebb)-(?:gk|ea|lk)-[AB]\d+(?:\.\d+)?[a-z]"
+    r"|(?:\d{4}|Beispielaufgaben)M(?:grundlegend|erhoeht)A(?:AGLAA[12]?|Analysis|Stochastik)\d{1,3}(?:-[a-z])?"
+    r"|(?:\d{4}|Beispielaufgaben)M(?:grundlegend|erhoeht)B(?:AGLAA[12]?|Analysis|Stochastik)(?:WTR|CAS|MMS)\d{0,2}-\d{1,2}[a-z]?")
+ID_MUSTER=re.compile(r"\b(?:20\d\d-(?:OS|FOR)-[BK]\d+[a-z]|"+ID_SEK2+r")\b")
 ABS=["### Verortung","### Lerneinheiten","### Typen je Lerneinheit","### Voraussetzungen (Blatt 0)","### Merkkasten","### Typische Fehler","### Für schwache Schüler","### Prüfungsform","### Offene Punkte des Eintrags","## Prüfliste"]
 bad=0
 for p in sorted(glob.glob('*.md')):
@@ -24,8 +38,13 @@ for p in sorted(glob.glob('*.md')):
     miss=[a for a in ABS if a not in t]
     if miss: print(p,'FEHLENDE ABSCHNITTE:',miss); bad+=1
     zeile=re.search(r"^Zuordnung: ?(\S.*)$",t,re.M)
+    ist_sek2='### Prüfungsform (fhr / abi / iqb)' in t
     if not zeile:
-        print(p,'FEHLENDE ZEILE: Zuordnung:'); bad+=1
+        # Sek-II (konzept.md § 4 Entscheidung 36): kein eigener Zuordnungs-Absatz mehr - die
+        # Einheitenzuordnung steht in der Klammer hinter jeder Typnennung der Profillisten
+        # und wird dort von _pruef_katalog.py (Sek-II-Modus) geprüft.
+        if not ist_sek2:
+            print(p,'FEHLENDE ZEILE: Zuordnung:'); bad+=1
     else:
         # seit 10g: die Rahmenbedingung verlangt, dass Einheiten ohne Typ ausdrücklich als
         # „kein Typ“ geführt werden. Bis 10f prüfte das Skript nur, DASS die Zeile da ist –
@@ -50,8 +69,12 @@ for p in sorted(glob.glob('*.md')):
         # Kastenzahlen ihrer Einheit werden nie gegen sie gehalten und die Prüfungshöhe nie geprüft.
         if not hat_einheit and 'Prüfungshöhe' in line:
             print(p,'SPROSSE OHNE EINHEITENANGABE:',line[:70]); bad+=1
-    for m in set(re.findall(r"\b20\d\d-(?:OS|FOR)-[BK]\d+[a-z]\b",t)):
-        if m not in ids: print(p,'UNBEKANNTE ID:',m); bad+=1
+    for m in set(ID_MUSTER.findall(t)):
+        # iqb: eine Kennung ohne Teilaufgabenbuchstaben ist entweder selbst ein vollständiges id
+        # (Aufgabe ohne Gliederung) oder ein Stammverweis auf eine Aufgabe mit Teilaufgaben - wie
+        # bei msa (Docstring oben) wird der reine Stammverweis nicht geprüft.
+        if m not in ids and not any(i.startswith(m+'-') for i in ids):
+            print(p,'UNBEKANNTE ID:',m); bad+=1
 print('Strukturprüfung:', 'ok' if bad==0 else f'{bad} Befunde')
 
 # --- Kennzahlen (seit 10a, gehören in jede Übergabe) ---
@@ -125,10 +148,29 @@ try:
                     inhalt[d] = open(d, encoding='utf-8').read() if os.path.exists(d) else ''
             if not any(r['id'] in inhalt[d] for d in zuord[th]):
                 falsch.append((r['id'], th, '/'.join(zuord[th])))
+
+    # Sek II (seit Auftrag Sek-II-Werkzeuge): CSV-Thema -> Datei steht bereits in themen.csv
+    # (Spalten kanonisch/profil/thema), eine eigene Zuordnung wie oben für msa ist unnötig.
+    zuord2 = {}
+    for r in csv.DictReader(open('../themen.csv', encoding='utf-8'), delimiter=';'):
+        if r['profil'] not in ('fhr', 'abi', 'iqb'): continue
+        zuord2.setdefault((r['profil'], r['thema'].strip()), []).append(r['kanonisch'].strip() + '.md')
+    for profil, pfad in (('fhr', '../fhr/fhr-katalog.csv'), ('abi', '../abitur/abi-katalog.csv'), ('iqb', '../abitur/iqb-katalog.csv')):
+        for r in csv.DictReader(open(pfad, encoding='utf-8'), delimiter=';'):
+            th = r['thema'].strip()
+            key = (profil, th)
+            if key not in zuord2:
+                unbekannt.append((r['id'], th)); continue
+            for d in zuord2[key]:
+                if d not in inhalt:
+                    inhalt[d] = open(d, encoding='utf-8').read() if os.path.exists(d) else ''
+            if not any(r['id'] in inhalt[d] for d in zuord2[key]):
+                falsch.append((r['id'], th, '/'.join(zuord2[key])))
+
     print(f'Kennzahl 6 – Originale nicht in der Datei ihres CSV-Themas: {len(falsch)} von {len(ids)}'
           f' (davon {len([f for f in falsch if f[0] in ohne])} in gar keinem Eintrag, siehe Kennzahl 5)')
     if unbekannt:
-        print(f'   CSV-Thema ohne Zuordnung in index.md: {sorted(set(t for _, t in unbekannt))}')
+        print(f'   CSV-Thema ohne Zuordnung in index.md/themen.csv: {sorted(set(t for _, t in unbekannt))}')
     if '-v' in sys.argv:
         for i, th, d in falsch: print('   ', i, '–', th, '→', d)
 except (FileNotFoundError, IndexError):
