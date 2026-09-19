@@ -59,6 +59,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | ebenen.md | Ebenen (Parameterform, Normalenvektor und Koordinatengleichung, Ebenen im Koordinatensystem, parallele Ebenen) | Analytische Geometrie (fhr: kein Stoff nach RLP FOS 2019) | abi 20/10 · iqb 28/16 | Entwurf |
 | ableitung-und-aenderungsrate.md | Ableitung und Änderungsrate (mittlere Änderungsrate und Sekante, Ableitung an einer Stelle, von der Sekante zur Tangente, die Rate als Funktion) | Analysis (fhr: Stoff nach RLP FOS 2019 „Ableitungsbegriff“, aber keine Zeile im fhr-Katalog) | abi 23/20 · iqb 31/26 | Entwurf |
 | ableitungsregeln.md | Ableitungsregeln (Potenz-, Faktor- und Summenregel; Kettenregel; Produktregel) | Analysis (fhr: Differentialrechnung – nur Konstanten-, Faktor-, Summen- und Potenzregel, keine Produkt- und Kettenregel nach RLP FOS 2019) | fhr 8/2 · abi 7/4 · iqb 9/8 | Entwurf |
+| grenzwerte-und-verhalten-im-unendlichen.md | Grenzwerte und Verhalten im Unendlichen (ganzrationale Funktionen mit Symmetrie als fhr-Auftakt, Produkte aus Polynom und e-Funktion, waagerechte Asymptoten) | Analysis (fhr: Differentialrechnung – nur ganzrationale Funktionen nach RLP FOS 2019) | fhr 4/2 · abi 12/4 · iqb 6/4 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
