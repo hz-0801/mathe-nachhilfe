@@ -1,52 +1,34 @@
-                             Ministerium für Bildung,
-                             Jugend und Sport
-                             Land Brandenburg
+Ministerium für Bildung,
+Jugend und Sport
+Land Brandenburg
 
 
 
 
+Rahmenlehrplan
+für den Unterricht in der
+Fachoberschule im
+Land Brandenburg
 
 
 
 
-
-                              Rahmenlehrplan
-
-                              für den Unt erricht in der
-                              Fachoberschule im
-                              Land Brandenburg
+Mathematik
 
 
 
 
-
-
-
-
-
-
-
-                              Mathematik
-
-
-
-
-
-
-
-
-                                                                                  1
-
-IMPRESSUM
+                            1
+IMPRESSUM
 
 Erarbeitung
 
-Dieser R ahm enlehrplan wurde vom  Landesinstitut für Schule und Medien Berlin-                    Brandenburg (LISUM)
+Dieser Rahmenlehrplan wurde vom Landesinstitut für Schule und Medien Berlin-Brandenburg (LISUM)
 erarbeitet.
 
-Herau sgeber
+Herausgeber
 
-Ministerium  für Bildung, Jugend und Sport des Landes Brandenburg
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg
 
 Gültigkeit des Rahmenlehrplans
 
@@ -55,1721 +37,1248 @@ Gültig ab 1. August 2019
 
 
 
+                           Ministerium für Bildung, Jugend und Sport des Landes Brandenburg 2019
+                           https://creativecommons.org/licenses/by-nd/4.0/deed.de
+Inhaltsverzeichnis
 
+Vorbemerkungen ................................................................................................ 5
 
+1      Bildung und Erziehung in der Fachoberschule ........................................... 7
+1.1    Grundsätze ..........................................................................................................7
+1.2    Leistungsfeststellung und Leistungsbewertung ..................................................10
 
+2      Beitrag des Faches Mathematik zum Kompetenzerwerb ......................... 11
+2.1    Fachprofil ...........................................................................................................11
+2.2    Fachbezogene Kompetenzen .............................................................................13
 
+3      Eingangsvoraussetzungen und Abschlussprofil ....................................... 15
+3.1    Eingangsvoraussetzungen .................................................................................15
+3.1.1 Prozessbezogene Eingangsvoraussetzungen (Kompetenzen) ...........................15
+3.1.2 Inhaltsbezogene Eingangsvoraussetzungen (Leitideen) .....................................17
+3.2    Abschlussprofil ...................................................................................................18
+3.2.1 Allgemeine mathematische Kompetenzen ..........................................................19
+3.2.2 Inhaltsbezogene Kompetenzen (Leitideen) ........................................................23
 
+4      Themen und Inhalte ................................................................................. 26
+                                               Rahmenlehrplan Fachoberschule Mathematik
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                  Ministerium  für Bildung, Jugend und Sport des Landes Brandenburg 2019
-                                  https://creativecomm ons.org/licenses/b y-nd/4.0/deed.de
-
-
-
-
-
-
-
-
-Inhalts verzeichnis
-
-
-Vorbemerkungen ................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     5
-
-1                                                                     Bildung und Erziehung in der Fachoberschule ...........................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     7
-1.1                                       Grundsätze                       ..........................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     7
-1.2                                      Leistungsf eststellung und Leistungsbewertung                      ..................................................                                                                                                                                                                                                                                                                                                                                        10
-
-2                                                                     Beitrag des Faches Mathematik zum Kompetenzerwerb  .........................                                                                                                                                                                                                                                                                                                            11
-2.1                                       Fachprof il ...........................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             11
-2.2                                      Fachbezogene Kompetenzen  .............................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      13
-
-3                                                                     Eingangsvoraussetzungen und Abschlussprofil .......................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     15
-3.1                                       Eingangsvoraussetzungen                                                                                                           .................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  15
-3.1.1      Prozessbezogene Eingangsvoraussetzungen (Kompetenzen) ...........................                                                                                                                                                                                                                                                                                                      15
-3.1.2      Inhaltsbezogene Eingangsvoraussetzungen (Leitideen) .....................................                                                                                                                                                                                                                                                                                                                                                                                                                      17
-3.2                                       Abschlussprof il ...................................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             18
-3.2.1      Allgemeine mathematische Kompetenzen                                   ..........................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     19
-3.2.2      Inhaltsbezogene Kompetenzen (Leitideen) ........................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                              23
-
-4                                                                        Themen und Inhalte .................................................................................                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 26
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                     Rahm enlehr                                        plan Fachober schule Mathem atik
-
-Vorbemerkunge n
-
+Vorbemerkungen
 Die Fachoberschule vermittelt fachliche Kenntnisse und Fähigkeiten und erweitert die
-allgemeine Bildung. Im Unterricht der Fachoberschule vertief en und erweitern die Schül                      e-
-rinnen und Schüler die in der Sekundarstuf e I erworbenen Kompetenzen und erlangen die
-Studierfähigkeit. Sie entwickeln berufliche und studienqualifizierende Kompetenzen,                                                     die
-zum Ziel haben, exemplarische Handlungssituationen                                                    des Arbeitsprozesses sicher zu
+allgemeine Bildung. Im Unterricht der Fachoberschule vertiefen und erweitern die Schüle-
+rinnen und Schüler die in der Sekundarstufe I erworbenen Kompetenzen und erlangen die
+Studierfähigkeit. Sie entwickeln berufliche und studienqualifizierende Kompetenzen, die
+zum Ziel haben, exemplarische Handlungssituationen des Arbeitsprozesses sicher zu
 beherrschen.
 Die Schülerinnen und Schüler erhalten die Möglichkeit, ihre bisher erworbenen Kenntnis-
-se weiterzuentwickeln, zu stärken und zu f estigen. Sie erwerben und vertief en f achbezo-
+se weiterzuentwickeln, zu stärken und zu festigen. Sie erwerben und vertiefen fachbezo-
 gen und fachübergreifend Grundlagen für wissenschaftspropädeutisches Arbeiten und
 bewältigen zunehmend komplexe Aufgabenstellungen. Dabei wenden sie fachliche und
 methodische Kenntnisse und Fertigkeiten mit wachsender Sicherheit selbstständig an.
-Notwendig ist darüber hinaus die Hinf ührung zur   Bearbeitung umf angreicher Aufgaben im
-Hinblick auf die Anf orderungen der Fachhochschulreif eprüf ung.
-Der Rahmenlehrplan gilt f ür alle Fachrichtungen und Organisationsf ormen der Fachober-
+Notwendig ist darüber hinaus die Hinführung zur Bearbeitung umfangreicher Aufgaben im
+Hinblick auf die Anforderungen der Fachhochschulreifeprüfung.
+Der Rahmenlehrplan gilt für alle Fachrichtungen und Organisationsformen der Fachober-
 schule, doppelqualifizierenden Bildungsgänge und Zusatzkurse zum Erwerb der Fach-
-hochschulreif e.
+hochschulreife.
 
 
 
 
+                                                                                     Seite |5
+Rahmenlehrplan Fachoberschule Mathematik
 
 
 
 
+Seite |6
+                                                    Rahmenlehrplan Fachoberschule Mathematik
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                         Seite | 5
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Seite | 6
-
-                                                               Rahm enlehrplan Fachober schule Mathem atik
-
-1                                                                                       Bildung und Erziehung i n der  Fachoberschule
-
-1.1                                                    Grundsätze
+1     Bildung und Erziehung in der Fachoberschule
+1.1    Grundsätze
 Die Fachhochschulreife ist im Deutschen Qualifikationsrahmen für lebenslanges
-Lernen (DQR) der Niveaustuf e 4 zugeordnet, in der Kompetenzen beschrieben wer-
-den, die zur selbstständigen Planung und Bearbeitung fachlicher Aufgabenstellu                       n-
-gen in einem umf assenden, sich verändernden Lernbereich oder beruf lichen Tätig-
-keitsf eld benötigt werden. Sie bescheinigt eine vertiefte allgemeine Bildung in Ver-
-bindung mit berufsbezogenen f achtheoretischen Kenntnissen sowie f achpraktischen
-Fertigk eiten.                          Vor diesem Hintergrund wird im vorliegenden Rahmenlehrplan auf  das
+Lernen (DQR) der Niveaustufe 4 zugeordnet, in der Kompetenzen beschrieben wer-
+den, die zur selbstständigen Planung und Bearbeitung fachlicher Aufgabenstellun-
+gen in einem umfassenden, sich verändernden Lernbereich oder beruflichen Tätig-
+keitsfeld benötigt werden. Sie bescheinigt eine vertiefte allgemeine Bildung in Ver-
+bindung mit berufsbezogenen fachtheoretischen Kenntnissen sowie fachpraktischen
+Fertigkeiten. Vor diesem Hintergrund wird im vorliegenden Rahmenlehrplan auf das
 Kompetenzmodell der Allgemeinen Hochschulreife zurückgegriffen. Tiefe und Um-
 fang der zu erreichenden Kompetenzen auf dem Niveau der Fachhochschulreife
-werden durch das Abschlussprof il f estg eleg t.
-In der Fachoberschule erweitern und vertief en die Schülerinnen und Schüler ihre bis
+werden durch das Abschlussprofil festgelegt.
+In der Fachoberschule erweitern und vertiefen die Schülerinnen und Schüler ihre bis
 dahin erworbenen Kompetenzen mit dem Ziel, sich auf die Anforderungen eines
 Hochschulstudiums und auf eine berufliche Ausbildung vorzubereiten. Sie handeln
 zunehmend selbstständig und übernehmen Verantwortung in gesellschaftlichen
 Gestaltungsprozessen. Die Grundlagen für das Zusammenleben und Zusammenar-
-beiten in einer demokratischen Gesellschaf t und für das f riedliche Zusammenleben
+beiten in einer demokratischen Gesellschaft und für das friedliche Zusammenleben
 der Völker sind ihnen vertraut. Die Schülerinnen und Schüler erweitern ihre interkul-
 turelle Kompetenz und bringen sich im Dialog und in der Kooperation mit Menschen
 unterschiedlicher kultureller Prägung aktiv und gestaltend ein. Eigene und gesell-
 schaftliche Perspektiven werden von ihnen zunehmend sachgerecht eingeschätzt.
 Die Schülerinnen und Schüler übernehmen Verantwortung für sich und ihre Mitmen-
-schen, f ür die Gleichberechtigung der Menschen ungeachtet des Geschlechts, der
+schen, für die Gleichberechtigung der Menschen ungeachtet des Geschlechts, der
 Abstammung, der Sprache, der Herkunft, einer Behinderung, der religiösen und
-politischen Anschauungen, der sexuellen Identität und der wirtschaftlichen und g e-
+politischen Anschauungen, der sexuellen Identität und der wirtschaftlichen und ge-
 sellschaftlichen Stellung. Im Dialog zwischen den Generationen nehmen sie eine
 aktive Rolle ein. Sie setzen sich mit wissenschaftlichen, technischen, rechtlichen,
 politischen, sozialen und ökonomischen Entwicklungen auseinander, nutzen die
 Möglichkeiten rechtlicher Entwicklungen und schätzen Handlungsspielräume, Per-
 spektiven und Folgen zunehmend sachgerecht ein. Sie gestalten Meinungsbil-
 dungsprozesse und Entscheidungen mit und eröffnen sich somit vielfältige Hand-
-lung smög lichk eiten.
-Schülerinnen und Schüler, die eine abgeschlossene Berufsausbildung haben, ver-                            Prinzip der
-fügen über vielfältige konkrete berufliche Erfahrungen. Diese beruflichen Erfahrun-                       Berufli chkeit
+lungsmöglichkeiten.
+Schülerinnen und Schüler, die eine abgeschlossene Berufsausbildung haben, ver- Prinzip der
+fügen über vielfältige konkrete berufliche Erfahrungen. Diese beruflichen Erfahrun- Beruflichkeit
 gen, Kenntnisse, Fertigkeiten und Fähigkeiten sind in ihrer Art und in ihrem Ausmaß
 je nach Berufsfeld unterschiedlich ausgeprägt. Die Schülerinnen und Schüler sind
-durch ihre Berufsf ähigk eit, ihre berufliche Flexibilit ät und durch ihre Bereitschaf t zum
-W eiterlernen in ihrem Beruf sfeld geprägt. Diese konkreten beruf lichen Erfahrungen
+durch ihre Berufsfähigkeit, ihre berufliche Flexibilität und durch ihre Bereitschaft zum
+Weiterlernen in ihrem Berufsfeld geprägt. Diese konkreten beruflichen Erfahrungen
 sind bei der Gestaltung der Unterrichtsprozesse in der Fachoberschule zu nutzen.
-Sie sind Ausgangspunkt f ür die Gestaltung der Lehr-   und Lernprozesse der jeweili-
-gen Unterrichtsfächer und die Voraussetzung f ür die W eiterentwicklung und Vertie-
+Sie sind Ausgangspunkt für die Gestaltung der Lehr- und Lernprozesse der jeweili-
+gen Unterrichtsfächer und die Voraussetzung für die Weiterentwicklung und Vertie-
 fung der Kompetenzen.
 Das Prinzip der Beruflichkeit gilt eingeschränkt auch für die Fachoberschule, die
 sich direkt an den Erwerb des mittleren Schulabschlusses anschließt. Die Schüle-
 rinnen und Schüler absolvieren im Rahmen ihres Fachoberschulbesuches ein Prak-
 tikum in einem Unternehmen des jeweiligen Berufsfeldes und erwerben dort erste
-prak tische Erfahrungen mit der Arbeitswelt.
+praktische Erfahrungen mit der Arbeitswelt.
 
 
 
 
-
-
-                                                                                                     Seite | 7
-
-         Rahm enlehrplan Fachober schule Mathem atik
+                                                                                  Seite |7
+       Rahmenlehrplan Fachoberschule Mathematik
 
 
 
-  Kompetenz-        Der beschleunigte W andel einer von Globalisierung geprägten W elt erfordert ein
-         erwerb     dynamisches Modell des Kompetenzerwerbs, das auf  lebenslanges Lernen und die
-                    Bewältigung vielf ältiger Herausf orderungen im Alltags- und Berufsleben ausgerichtet
-                    ist. Hierzu durchdringen die Schülerinnen und Schüler zentrale Zusammenhänge
-                    grundlegender W issensbereiche, erkennen die Funktion und Bedeutung vie lseitig er
-                    Erf ahrungen und lernen, vorhandene sowie neu erworbene Fähigkeiten und Fertig-
-                    keiten miteinander zu verknüpfen. Die Lernenden entwickeln ihre Fähigkeiten im
-                    Umgang mit Sprache und W issen weiter und setzen sie zunehmend situationsan-
-                    g em es s en,  zielorientiert und adressatengerecht ein.
-          Profil-   Mit entsprechender Eigeninitiative und gezielter Förderung können auch Schülerin-
-  orientierung      nen und Schüler die Fachoberschule erfolgreich absolvieren, die die Eingangsvo-
-                    raussetzungen zu Beginn der Fachoberschule noch nicht im vollen Umf ang erreicht
-                    haben.
-                    Mit dem Abschlussprofil wird verdeutlicht, über welche fachlichen und überfachli-
-                    chen Kompetenzen die Schülerinnen und Schüler f ür den erf olgreichen Erwerb der
-                    Fachhochschulreife verfügen müssen. Das Abschlussprofil bietet damit Schülerin-
-                    nen und Schülern Orientierung f ür erfolgreiches   Handeln und bildet einen wesentli-
-                    chen Bezugspunkt f ür die Unterrichtsgestaltung, für das Entwickeln von Konzepten,
-                    zur individuellen Förderung sowie f ür ergebnisorientierte Lernberatung.
-Themenfelder        Für die Kompetenzentwicklung sind zentrale Themenfelder und berufliche Inhalte
-   und Inhalte      von Relevanz, die sich auf die Kernbereiche der jeweiligen Fächer konzentrieren
-                    und sowohl fachspezifische als auch überfachliche Zielsetzungen                                  deutlich werden
-                    lassen. So erhalten die Schülerinnen und Schüler Gelegenheit zum exemplarischen
-                    Lernen und zum Erwerb einer vertief ten und erweiterten allgemeinen sowie wissen-
-                    schaftspropädeutischen Bildung. Dabei wird stets der Bezug zur beruflichen und
-                    gesellschaftlichen Erf ahrungswelt der Lernenden und zu den Herausf orderungen an
-                    die heutige sowie an die zuk ünf tige Gesellschaf t hergestellt.
-                    Die Schülerinnen und Schüler entfalten anschlussfähiges und vernetztes Denken
-                    und Handeln als Grundlage für lebenslanges Lernen, wenn sie die in einem Lern-
-                    prozess erworbenen Kompetenzen auf  neue Lernbereiche übertragen und f ür eig e-
-                    ne Ziele und Anforderungen in Schule, Studium, Beruf und Alltag nutzbar machen
-                    k önnen.
-                    Diesen Erf ordernissen trägt der Rahmenlehrplan durch die Auswahl der Themenf el-
-                    der und Gegenstände Rechnung, bei der die Systematik des Faches und vor allem
-                    der Beitrag zum Kompetenzer werb berücksichtigt werden.
-Schulint ernes      Der Rahmenlehrplan ist die verbindliche Basis f ür die Gestaltung des schulinternen
-   Curricul um      Curriculums, in dem der Bildungs-  und Erziehungsauf trag von Schule standortspezi-
-                    f isch konkretisiert wird. Dazu  werden f achbezogene, f achübergreif ende und f ächer-
-                    verbindende Entwicklungsschwerpunkte sowie profilbildende Maßnahmen festg e-
-                    leg t.
-                    Die   Kooperation innerhalb der einzelnen Fachbereiche ist dabei von ebenso großer
-                    Bedeutung wie f achübergreif ende Absprachen und Vereinbarungen. Beim Erstellen
-                    des schulinternen Curriculums werden regionale und schulspezif ische Besonderhei-
-                    ten sowie die Neigungen und Interessenlagen der Schülerinnen und Schüler einbe-
-                    zogen. Dabei arbeiten alle an der Schule Beteiligten zusammen und nutzen auch
-                    die Anregungen und Kooperationsangebote externer Partner.
-                    Zusammen mit dem Rahmenlehrplan nutzt die Schule das schulinterne Curriculum
-                    als ein prozessorientiertes Steuerungsinstrument im Rahmen von Qualitätsentwick-
-                    lung und Qualitätssicherung. Im schulinternen Fachcurriculum werden überprüfbare
-                    Ziele f ormuliert, die die Grundlage f ür eine eff ektive Evaluation des Lernens und des
-                    Unterrichts in der Fachoberschule unter Berücksichtigung der unterschiedlichen
-                    Organisationsf ormen des Bildungsgangs sind.
+  Kompetenz- Der beschleunigte Wandel einer von Globalisierung geprägten Welt erfordert ein
+     erwerb dynamisches Modell des Kompetenzerwerbs, das auf lebenslanges Lernen und die
+                Bewältigung vielfältiger Herausforderungen im Alltags- und Berufsleben ausgerichtet
+                ist. Hierzu durchdringen die Schülerinnen und Schüler zentrale Zusammenhänge
+                grundlegender Wissensbereiche, erkennen die Funktion und Bedeutung vielseitiger
+                Erfahrungen und lernen, vorhandene sowie neu erworbene Fähigkeiten und Fertig-
+                keiten miteinander zu verknüpfen. Die Lernenden entwickeln ihre Fähigkeiten im
+                Umgang mit Sprache und Wissen weiter und setzen sie zunehmend situationsan-
+                gemessen, zielorientiert und adressatengerecht ein.
+        Profil- Mit entsprechender Eigeninitiative und gezielter Förderung können auch Schülerin-
+ orientierung nen und Schüler die Fachoberschule erfolgreich absolvieren, die die Eingangsvo-
+                raussetzungen zu Beginn der Fachoberschule noch nicht im vollen Umfang erreicht
+                haben.
+                Mit dem Abschlussprofil wird verdeutlicht, über welche fachlichen und überfachli-
+                chen Kompetenzen die Schülerinnen und Schüler für den erfolgreichen Erwerb der
+                Fachhochschulreife verfügen müssen. Das Abschlussprofil bietet damit Schülerin-
+                nen und Schülern Orientierung für erfolgreiches Handeln und bildet einen wesentli-
+                chen Bezugspunkt für die Unterrichtsgestaltung, für das Entwickeln von Konzepten,
+                zur individuellen Förderung sowie für ergebnisorientierte Lernberatung.
+Themenfelder Für die Kompetenzentwicklung sind zentrale Themenfelder und berufliche Inhalte
+  und Inhalte von Relevanz, die sich auf die Kernbereiche der jeweiligen Fächer konzentrieren
+                und sowohl fachspezifische als auch überfachliche Zielsetzungen deutlich werden
+                lassen. So erhalten die Schülerinnen und Schüler Gelegenheit zum exemplarischen
+                Lernen und zum Erwerb einer vertieften und erweiterten allgemeinen sowie wissen-
+                schaftspropädeutischen Bildung. Dabei wird stets der Bezug zur beruflichen und
+                gesellschaftlichen Erfahrungswelt der Lernenden und zu den Herausforderungen an
+                die heutige sowie an die zukünftige Gesellschaft hergestellt.
+                Die Schülerinnen und Schüler entfalten anschlussfähiges und vernetztes Denken
+                und Handeln als Grundlage für lebenslanges Lernen, wenn sie die in einem Lern-
+                prozess erworbenen Kompetenzen auf neue Lernbereiche übertragen und für eige-
+                ne Ziele und Anforderungen in Schule, Studium, Beruf und Alltag nutzbar machen
+                können.
+                Diesen Erfordernissen trägt der Rahmenlehrplan durch die Auswahl der Themenfel-
+                der und Gegenstände Rechnung, bei der die Systematik des Faches und vor allem
+                der Beitrag zum Kompetenzerwerb berücksichtigt werden.
+Schulinternes Der Rahmenlehrplan ist die verbindliche Basis für die Gestaltung des schulinternen
+  Curriculum Curriculums, in dem der Bildungs- und Erziehungsauftrag von Schule standortspezi-
+                fisch konkretisiert wird. Dazu werden fachbezogene, fachübergreifende und fächer-
+                verbindende Entwicklungsschwerpunkte sowie profilbildende Maßnahmen festge-
+                legt.
+                Die Kooperation innerhalb der einzelnen Fachbereiche ist dabei von ebenso großer
+                Bedeutung wie fachübergreifende Absprachen und Vereinbarungen. Beim Erstellen
+                des schulinternen Curriculums werden regionale und schulspezifische Besonderhei-
+                ten sowie die Neigungen und Interessenlagen der Schülerinnen und Schüler einbe-
+                zogen. Dabei arbeiten alle an der Schule Beteiligten zusammen und nutzen auch
+                die Anregungen und Kooperationsangebote externer Partner.
+                Zusammen mit dem Rahmenlehrplan nutzt die Schule das schulinterne Curriculum
+                als ein prozessorientiertes Steuerungsinstrument im Rahmen von Qualitätsentwick-
+                lung und Qualitätssicherung. Im schulinternen Fachcurriculum werden überprüfbare
+                Ziele formuliert, die die Grundlage für eine effektive Evaluation des Lernens und des
+                Unterrichts in der Fachoberschule unter Berücksichtigung der unterschiedlichen
+                Organisationsformen des Bildungsgangs sind.
 
 
 
-         Seite | 8
+       Seite |8
+                                                    Rahmenlehrplan Fachoberschule Mathematik
 
-                                                                 Rahm enlehrplan Fachober schule Mathem atik
 
 
-Mitverantwortung und Mitgestaltung von Unterricht geschieht vor allem dadurch,                              Mitverant wor-
-dass die Schülerinnen und Schüler Verantwortung für den Lernprozess und den                                 tung und Mit-
-Lernerfolg übernehmen und sowohl den Unterricht als auch                       das eigene Lernen aktiv      gest altung von
-selbst gestalten.                                                                                           Unt erricht
-
-Die Einhaltung der Grundsätze inklusiven Lernens ermöglicht allen Schülerinnen                              Gemeins ames
-und Schülern eine Teilhabe am Lernprozess –    unter Berücksichtigung ihres indivi-                         Ler nen
-duellen Unterstützungsbedarfs         –     ungeachtet eventueller individueller Beeinträchti-
-g ung en.
-Beim Lernen konstruiert jede und jeder Einzelne ein für sich selbst bedeutsames                             Ler nen als in-
-Abbild der W irklichkeit auf der Grundlage ihres oder seines individuellen W issens                         dividueller
-und Könnens sowie ihrer oder seiner Erf ahrungen und Einstellungen.                                                         Prozess
+Mitverantwortung und Mitgestaltung von Unterricht geschieht vor allem dadurch, Mitverantwor-
+dass die Schülerinnen und Schüler Verantwortung für den Lernprozess und den tung und Mit-
+Lernerfolg übernehmen und sowohl den Unterricht als auch das eigene Lernen aktiv gestaltung von
+selbst gestalten.                                                                Unterricht
+Die Einhaltung der Grundsätze inklusiven Lernens ermöglicht allen Schülerinnen Gemeinsames
+und Schülern eine Teilhabe am Lernprozess – unter Berücksichtigung ihres indivi- Lernen
+duellen Unterstützungsbedarfs – ungeachtet eventueller individueller Beeinträchti-
+gungen.
+Beim Lernen konstruiert jede und jeder Einzelne ein für sich selbst bedeutsames Lernen als in-
+Abbild der Wirklichkeit auf der Grundlage ihres oder seines individuellen Wissens dividueller
+und Könnens sowie ihrer oder seiner Erfahrungen und Einstellungen.                Prozess
 Dieser Tatsache wird durch eine Lernkultur Rechnung getragen, in der sich die
 Schülerinnen und Schüler ihrer eigenen Lernwege bewusst werden, diese weiter-
 entwickeln sowie unterschiedliche Lösungen reflektieren und selbstständig Ent-
 scheidungen treffen. So wird lebenslanges Lernen angebahnt und die Grundlage für
 motiviertes, durch Neugier und Interesse geprägtes Handeln ermöglicht. Fehler und
-Umwege werden dabei als bedeutsame Bestandteile von Erf ahrungs-   und Lernpro-
+Umwege werden dabei als bedeutsame Bestandteile von Erfahrungs- und Lernpro-
 zessen angesehen.
-Neben der Auseinandersetzung mit dem Neuen sind Phasen des Anwendens, des                                   Phas en des
-Übens, des Systematisierens sowie des Vertiefens und Festigens f ür erf olgreiches                          Anwendens
-Lernen von großer Bedeutung. Solche Lernphasen ermöglichen auch                    die gemein-
-same Suche nach Anwendungen für neu erworbenes W issen und verlangen eine
+Neben der Auseinandersetzung mit dem Neuen sind Phasen des Anwendens, des Phasen des
+Übens, des Systematisierens sowie des Vertiefens und Festigens für erfolgreiches Anwendens
+Lernen von großer Bedeutung. Solche Lernphasen ermöglichen auch die gemein-
+same Suche nach Anwendungen für neu erworbenes Wissen und verlangen eine
 variantenreiche Gestaltung im Hinblick auf Übungssituationen, in denen vielfältige
 Methoden und Medien zum Einsatz gelangen.
-Lernumgebungen werden so gestaltet, dass sie das selbst gesteuerte Lernen von                               Ler n-
-Schülerinnen und Schülern f ördern. Sie unterstützen durch den Einsatz von Medien                           umgebungen
-sowie zeitgemäßer Kommunikations-     und Informationstechnik sowohl die Differen-
-zierung individueller Lernprozesse als auch das kooperative Lernen. Dies trifft s                                             o-
+Lernumgebungen werden so gestaltet, dass sie das selbst gesteuerte Lernen von Lern-
+Schülerinnen und Schülern fördern. Sie unterstützen durch den Einsatz von Medien umgebungen
+sowie zeitgemäßer Kommunikations- und Informationstechnik sowohl die Differen-
+zierung individueller Lernprozesse als auch das kooperative Lernen. Dies trifft so-
 wohl auf die Nutzung von multimedialen und netzbasierten Lernarrangements als
 auch auf den produktiven Umgang mit Medien zu. Moderne Lernumgebungen er-
-möglichen es den Lernenden, eigene Lern-                          und Arbeitsziele zu f ormulieren und zu
-ver wirklichen sowie eigene Arbeitsergebnisse auszuwerten und zu nutzen.
-Die Integration geschlechtsspezifischer Perspektiven in den Unterricht fördert die                          Gleichberech-
-W ahrnehmung und Stärkung der Schülerinnen und Schüler hinsi              chtlich   ihrer Unter-            tigung der
-schiedlichkeit und Individualität. Sie unterstützt die Verwirklichung von gleichberec h-                    Ges chlechter
-tigten Lebensperspektiven. Die Schülerinnen und Schüler werden                                                                            darin                               bestärkt,
-unabhängig von tradierten Rollenf estlegungen, Entscheidungen über ihre ber uf lic he
+möglichen es den Lernenden, eigene Lern- und Arbeitsziele zu formulieren und zu
+verwirklichen sowie eigene Arbeitsergebnisse auszuwerten und zu nutzen.
+Die Integration geschlechtsspezifischer Perspektiven in den Unterricht fördert die Gleichberech-
+Wahrnehmung und Stärkung der Schülerinnen und Schüler hinsichtlich ihrer Unter- tigung der
+schiedlichkeit und Individualität. Sie unterstützt die Verwirklichung von gleichberech- Geschlechter
+tigten Lebensperspektiven. Die Schülerinnen und Schüler werden darin bestärkt,
+unabhängig von tradierten Rollenfestlegungen, Entscheidungen über ihre berufliche
 und persönliche Lebensplanung zu treffen.
-Durch fachübergreifendes Lernen werden Inhalte und Themenfelder in größerem                                 Fachüber-
-Kontext erfasst, außerfachliche Bezüge hergestellt und gesellschaftlich relevant e                          greifendes und
-Aufgaben verdeutlicht. Die Vorbereitung und Durchf ührung von f ächerverbindenden                           fächerver bin-
-Unterrichtsvorhaben und Projekten fördern die Zusammenarbeit der Lehrkräfte und                             dendes Lernen
-ermöglichen allen Beteiligten eine multiperspektivische W ahrnehmung.
+Durch fachübergreifendes Lernen werden Inhalte und Themenfelder in größerem Fachüber-
+Kontext erfasst, außerfachliche Bezüge hergestellt und gesellschaftlich relevante greifendes und
+Aufgaben verdeutlicht. Die Vorbereitung und Durchführung von fächerverbindenden fächerverbin-
+Unterrichtsvorhaben und Projekten fördern die Zusammenarbeit der Lehrkräfte und dendes Lernen
+ermöglichen allen Beteiligten eine multiperspektivische Wahrnehmung.
 Dabei ist die Beruflichkeit nicht das Ziel des Unterrichtsprozesses, sondern der
-Ausgangspunkt und das didaktische Grundprinzip f ür die Gestaltung der Lehr -     und
+Ausgangspunkt und das didaktische Grundprinzip für die Gestaltung der Lehr- und
 Lernprozesse in der Fachoberschule. Der Rahmenlehrplan berücksichtigt bei der
 Auswahl, Differenzierung und Anordnung der anzustrebenden Kompetenzen diese
-vielf ältigen beruf lichen Erf ahrungen, um so das im Prinzip der Beruf lichkeit enthalt e-
-ne didaktische Potenzial inhaltlich und methodisch voll nutzen zu k önnen.
+vielfältigen beruflichen Erfahrungen, um so das im Prinzip der Beruflichkeit enthalte-
+ne didaktische Potenzial inhaltlich und methodisch voll nutzen zu können.
 
 
 
 
-                                                                                                       Seite | 9
-
-         Rahm enlehrplan Fachober schule Mathem atik
-
+                                                                                   Seite |9
+      Rahmenlehrplan Fachoberschule Mathematik
 
 
-Projektar beit      Im Rahmen von Projekten, an deren Planung und Organisation sich die Schülerin-
-                    nen und Schüler aktiv beteiligen, werden über Fächergrenzen hinaus Lernprozesse
-                    vollzogen und Lernprodukte erstellt. Dabei nutzen Lernende überf achliche Fähigkei-
-                    ten und Fertigkeiten auch zum Dokumentieren und Präsentieren. Auf diese W eise
-                    bereiten sie sich auf das Studium und ihre spätere Berufstätigkeit vor.
-Einbeziehung        Außerhalb der Schule gesammelte Erfahrungen, Kenntnisse und erworbene Fähig-
-         außer-     keiten der Schülerinnen und Schüler sowie das Prinzip der Beruf lichkeit werden in
-  schulischer  die Unterrichtsarbeit einbezogen. Zur Vermittlung solcher Erfahrungen werden
- Erfahrungen        ebenso die Angebote außerschulischer Lernorte, kultureller oder wissenschaf tlicher
-                    Einrichtungen sowie staatlicher und privater Institutionen genutzt. Die Teilnahme an
-                    Projekten und W ettbewerben, an Auslandsauf                 enthalten und internationalen Begeg-
-                    nungen hat ebenfalls eine wichtige Funktion, sie erweitert den Erfahrungshorizont
-                    der Schülerinnen und Schüler und trägt zur Stärkung ihrer interkulturellen Hand-
-                    lungsf ähigkeit bei.
 
-                    1.2                                                    Leistungsfeststellung und Leistungsbew ertung
-                    W ichtig für die persönliche Entwicklung der Schülerinnen und Schüler ist eine indiv i-
-                    duelle Beratung, die ihre Stärken aufgreift und Lernergebnisse nutzt, um Lernfort-
-                    schritte auf der Grundlage nachvollziehbarer Anf orderungs- und Bewertungskriterien
-                    zu beschreiben und zu fördern.
-                    So lernen die Schülerinnen und Schüler, ihre eigenen Stärken und Schwächen so-
-                    wie die Qualität ihrer Leistungen realistisch einzuschätzen und Rückmeldungen und
-                    Beratung als Chance f ür die persönliche W eiterentwicklung zu verstehen. Sie lernen
-                    außerdem, anderen Menschen faire und sachliche Rückmeldungen zu geben, die
-                    für eine produktive Zusammenarbeit und ein erfolgreiches Handeln unerlässlich
-                    sind.
-    Aufgaben-       Die Anforderungen in Aufgabenstellungen orientieren sich im Verlauf des Unter-
-   stellungen       richts der Fachoberschule zunehmend an der Vertiefung von Kompetenzen und
-                    dem im Rahmenlehrplan beschriebenen Abschlussprofil sowie an den Aufgaben-
-                    formen und der Dauer der Fachhochschulreif eprüf ung. Die Aufgabenstellungen sind
-                    so offen, dass sie den Schülerinnen und Schülern selbstständige Lösungen, Gestal-
-                    tungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und
-                    W ertungen abverlangen.   Die von den Schülerinnen und Schülern gef orderten Leis-
-                    tungen orientieren sich an lebens-      und arbeitsweltbezogenen Textformaten und
-                    Aufgabenstellungen, die einen Beitrag zur Vorbereitung auf das Studium und die
-                    spätere beruf liche Tätigkeit lief ern.
-  Schri ftliche     Neben den Klassenarbeiten                                                   fördern umfangreichere schriftliche Arbeiten                                    in beson-
-   Leistungen       derer W eise bewusstes methodisches Vorgehen und motivieren zu eigenständigem
-                    Lernen und Forschen.
-    Mündli che      Auch den mündlichen Leistungen kommt eine große Bedeutung zu. In Gruppen und
-   Leistungen       einzeln erhalten die Schülerinnen und Schüler Gelegenheit, ihre Fähigkeit zu ref lek-
-                    tiertem und sachlichem Diskurs und Vortrag und zum mediengestützten Präsentie-
-                    ren von Ergebnissen unter Beweis zu stellen.
+Projektarbeit Im Rahmen von Projekten, an deren Planung und Organisation sich die Schülerin-
+                nen und Schüler aktiv beteiligen, werden über Fächergrenzen hinaus Lernprozesse
+                vollzogen und Lernprodukte erstellt. Dabei nutzen Lernende überfachliche Fähigkei-
+                ten und Fertigkeiten auch zum Dokumentieren und Präsentieren. Auf diese Weise
+                bereiten sie sich auf das Studium und ihre spätere Berufstätigkeit vor.
+Einbeziehung    Außerhalb der Schule gesammelte Erfahrungen, Kenntnisse und erworbene Fähig-
+       außer-   keiten der Schülerinnen und Schüler sowie das Prinzip der Beruflichkeit werden in
+  schulischer   die Unterrichtsarbeit einbezogen. Zur Vermittlung solcher Erfahrungen werden
+ Erfahrungen    ebenso die Angebote außerschulischer Lernorte, kultureller oder wissenschaftlicher
+                Einrichtungen sowie staatlicher und privater Institutionen genutzt. Die Teilnahme an
+                Projekten und Wettbewerben, an Auslandsaufenthalten und internationalen Begeg-
+                nungen hat ebenfalls eine wichtige Funktion, sie erweitert den Erfahrungshorizont
+                der Schülerinnen und Schüler und trägt zur Stärkung ihrer interkulturellen Hand-
+                lungsfähigkeit bei.
 
+                1.2    Leistungsfeststellung und Leistungsbewertung
+                Wichtig für die persönliche Entwicklung der Schülerinnen und Schüler ist eine indivi-
+                duelle Beratung, die ihre Stärken aufgreift und Lernergebnisse nutzt, um Lernfort-
+                schritte auf der Grundlage nachvollziehbarer Anforderungs- und Bewertungskriterien
+                zu beschreiben und zu fördern.
+                So lernen die Schülerinnen und Schüler, ihre eigenen Stärken und Schwächen so-
+                wie die Qualität ihrer Leistungen realistisch einzuschätzen und Rückmeldungen und
+                Beratung als Chance für die persönliche Weiterentwicklung zu verstehen. Sie lernen
+                außerdem, anderen Menschen faire und sachliche Rückmeldungen zu geben, die
+                für eine produktive Zusammenarbeit und ein erfolgreiches Handeln unerlässlich
+                sind.
+  Aufgaben- Die Anforderungen in Aufgabenstellungen orientieren sich im Verlauf des Unter-
+  stellungen richts der Fachoberschule zunehmend an der Vertiefung von Kompetenzen und
+                dem im Rahmenlehrplan beschriebenen Abschlussprofil sowie an den Aufgaben-
+                formen und der Dauer der Fachhochschulreifeprüfung. Die Aufgabenstellungen sind
+                so offen, dass sie den Schülerinnen und Schülern selbstständige Lösungen, Gestal-
+                tungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und
+                Wertungen abverlangen. Die von den Schülerinnen und Schülern geforderten Leis-
+                tungen orientieren sich an lebens- und arbeitsweltbezogenen Textformaten und
+                Aufgabenstellungen, die einen Beitrag zur Vorbereitung auf das Studium und die
+                spätere berufliche Tätigkeit liefern.
+ Schriftliche Neben den Klassenarbeiten fördern umfangreichere schriftliche Arbeiten in beson-
+ Leistungen derer Weise bewusstes methodisches Vorgehen und motivieren zu eigenständigem
+                Lernen und Forschen.
+   Mündliche Auch den mündlichen Leistungen kommt eine große Bedeutung zu. In Gruppen und
+  Leistungen einzeln erhalten die Schülerinnen und Schüler Gelegenheit, ihre Fähigkeit zu reflek-
+                tiertem und sachlichem Diskurs und Vortrag und zum mediengestützten Präsentie-
+                ren von Ergebnissen unter Beweis zu stellen.
 
 
 
 
+      S e i t e | 10
+                                                    Rahmenlehrplan Fachoberschule Mathematik
 
 
 
-
-
-
-
-
-         Seite | 10
-
-                                                                 Rahm enlehrplan Fachober schule Mathem atik
-
-
-2                                                                                    Beitrag des Faches Mathe matik  zumK ompete nzerw  erb
-
-2.1                         Fachprofil
-Der Erwerb mathematischer Bildung in der Fachoberschule vollzieht sich mit zwei Per                       spek ti-
+2       Beitrag des Faches Mathematik zum Kompetenzerwerb
+2.1 Fachprofil
+Der Erwerb mathematischer Bildung in der Fachoberschule vollzieht sich mit zwei Perspekti-
 ven:
-    –                              Die Schülerinnen und Schüler erwerben mathematische Kompetenzen, mit denen sie
-         Probleme im Alltag und in ihrem zukünftigen Beruf  bewältigen können. Sie erkennen
-         die Rolle, die mathematisches Denk en in der W elt spielt. Dabei vertief en sie die in der
-         Sek undarstufe I erworbene mathematische Bildung.
-    –                           Die Schülerinnen und Schüler erwerben mathematische Kompetenzen, die sie zu ei-
-         nem Hochschulstudium in einem mehr oder weniger mathematikintensiven Fach be-
-         fähigen. Sie erleben und erarbeiten dabei propädeutisch Strukturen und Prozesse
-         wissenschaf tlichen Denkens und Arbeitens im Fach Mathematik, auch unter Nutzung
-         digitaler W  erk zeuge.
+    –   Die Schülerinnen und Schüler erwerben mathematische Kompetenzen, mit denen sie
+        Probleme im Alltag und in ihrem zukünftigen Beruf bewältigen können. Sie erkennen
+        die Rolle, die mathematisches Denken in der Welt spielt. Dabei vertiefen sie die in der
+        Sekundarstufe I erworbene mathematische Bildung.
+    –   Die Schülerinnen und Schüler erwerben mathematische Kompetenzen, die sie zu ei-
+        nem Hochschulstudium in einem mehr oder weniger mathematikintensiven Fach be-
+        fähigen. Sie erleben und erarbeiten dabei propädeutisch Strukturen und Prozesse
+        wissenschaftlichen Denkens und Arbeitens im Fach Mathematik, auch unter Nutzung
+        digitaler Werkzeuge.
 Mathematische Bildung muss sich daran messen lassen, inwieweit die bzw. der Einzelne in
-der Lage und bereit ist, diese Bildung f ür ein wirksames und verantwortliches Handeln einzu-
-setzen. Zur mathematischen Bildung gehört somit auch die Fähigkeit, mathematische Frag e-
-stellungen im Alltag zu erkennen, mathematisches W issen funktional, flexibel und mit Ein-
-sicht zur Bearbeitung vielf ältiger innermathematischer und kontextbezogener Probleme ei                      n-
+der Lage und bereit ist, diese Bildung für ein wirksames und verantwortliches Handeln einzu-
+setzen. Zur mathematischen Bildung gehört somit auch die Fähigkeit, mathematische Frage-
+stellungen im Alltag zu erkennen, mathematisches Wissen funktional, flexibel und mit Ein-
+sicht zur Bearbeitung vielfältiger innermathematischer und kontextbezogener Probleme ein-
 zusetzen und begründete mathematische Urteile abzugeben.
 In diesem Sinne zeigt sich mathematische Bildung an einer Reihe von Kompetenzen, die
-sich auf  Prozesse mathematischen Denk ens und Arbeitens beziehen. Dies sind im Einzelnen
-die Kompetenz, die W irklichkeit mit mathematischen Mitteln zu beschreiben (Modellieren),
-mathematisch f assbare Probleme zu strukturieren und erf olgreich zu bearbeiten (Problemlö-
-sen), schlüssige Begründungen zu suchen und sorgfältig      zu prüfen (Argumentieren), ma-
+sich auf Prozesse mathematischen Denkens und Arbeitens beziehen. Dies sind im Einzelnen
+die Kompetenz, die Wirklichkeit mit mathematischen Mitteln zu beschreiben (Modellieren),
+mathematisch fassbare Probleme zu strukturieren und erfolgreich zu bearbeiten (Problemlö-
+sen), schlüssige Begründungen zu suchen und sorgfältig zu prüfen (Argumentieren), ma-
 thematische Informationen und Argumente aufzunehmen und verständlich weiterzugeben
 (Kommunizieren) und gemeinsam an mathematischen Problemen zu arbeiten. Bei all diesen
 Tätigkeiten ist es unabdingbar, sich mathematischer (symbolischer und grafischer) Darstel-
-lungsweisen zu bedienen und Begriff e, mathematische Verf ahren und W erkzeuge zu beher r-
+lungsweisen zu bedienen und Begriffe, mathematische Verfahren und Werkzeuge zu beherr-
 schen.
-Die genannten Kompetenzen bilden sich durch die                      aktive Auseinandersetzung mit konkreten
+Die genannten Kompetenzen bilden sich durch die aktive Auseinandersetzung mit konkreten
 Inhalten und Fragestellungen aus. Diese sollen die zentralen Ideen des Faches Mathematik
 widerspiegeln, sich aber auch an der Fachrichtung des Bildungsganges orientieren. Solche
 zentralen Ideen haben sich in der Kulturgeschichte des Menschen in der über Jahrtausende
-währenden Auseinander setzung mit Mathematik her                              ausgebildet: Die Mathematik beschäftigt
-sich von Anf ang an mit der Idee der Zahl und der Idee des räumlichen Strukturierens. Beide
-Ideen f ließen zusammen in der Leitidee des Messens. Die Idee des Algorithmus gewinnt im
+währenden Auseinandersetzung mit Mathematik herausgebildet: Die Mathematik beschäftigt
+sich von Anfang an mit der Idee der Zahl und der Idee des räumlichen Strukturierens. Beide
+Ideen fließen zusammen in der Leitidee des Messens. Die Idee des Algorithmus gewinnt im
 Rahmen von Anwendungen in der Naturwissenschaft und Technik zunehmend an Bedeu-
-t ung .
-Ebenf alls herausgebildet haben sich in den letzten Jahrhunderten die Leitidee, den Zuf all mit
+tung.
+Ebenfalls herausgebildet haben sich in den letzten Jahrhunderten die Leitidee, den Zufall mit
 Mitteln der Mathematik zu erfassen und empirisch gewonnene Daten mit mathematischen
 Verfahren zu untersuchen, sowie die Leitidee, funktionale Zusammenhänge in allen Berei-
-chen der Mathematik  mit einer gemeinsamen Sprache zu beschreiben.
+chen der Mathematik mit einer gemeinsamen Sprache zu beschreiben.
 Diese Leitideen sind Kristallisationspunkte der Auseinandersetzung mit mathematischen
 Fragen und durchziehen und vernetzen alle Inhaltsbereiche. Sie dienen als strukturierende
-Elemente f ür die Beschreibung der vielf ältigen, auf  konkrete mathematische Inhalte bezog e-
-nen Kompetenzen, die die Schülerinnen und Schüler im Mathematikunterricht er werben sol-
+Elemente für die Beschreibung der vielfältigen, auf konkrete mathematische Inhalte bezoge-
+nen Kompetenzen, die die Schülerinnen und Schüler im Mathematikunterricht erwerben sol-
 len.
 
 
 
 
+                                                                                  S e i t e | 11
+Rahmenlehrplan Fachoberschule Mathematik
 
-
-                                                                                                     Seite | 11
-
-Rahm enlehrplan Fachober schule Mathem atik
 
 
 Mathematische Bildung zeigt sich erst im Zusammenspiel von Kompetenzen, die sich auf
-mathematische Prozesse beziehen, und solchen, die auf  mathematische Inhalte ausgerichtet
+mathematische Prozesse beziehen, und solchen, die auf mathematische Inhalte ausgerichtet
 sind. Diese Kompetenzen sind miteinander verzahnt:
-Allgemeine mathematische Kompetenzen werden bei der   Beschäf tigung mit konkreten Lern-
-inhalten, also unter Nutzung inhaltsbezogener Kompetenzen, erworben und weiterentwick elt.
-Inhaltsbezogene Kompetenzen wiederum werden durch problemlösende Auseinander -
-setzung mit inner-  und außermathematischen Problemen und                                                                   durch schlüssiges Argumentie-
+Allgemeine mathematische Kompetenzen werden bei der Beschäftigung mit konkreten Lern-
+inhalten, also unter Nutzung inhaltsbezogener Kompetenzen, erworben und weiterentwickelt.
+Inhaltsbezogene Kompetenzen wiederum werden durch problemlösende Auseinander-
+setzung mit inner- und außermathematischen Problemen und durch schlüssiges Argumentie-
 ren, also unter Nutzung allgemeiner mathematischer Kompetenzen, erworben. Der Mathe-
-matikunterricht fördert den Erwerb der beschriebenen Kompetenzen, indem er drei sich j                       e-
-weils ergänzende Grunderf ahrungen (nach H. W inter) von Mathematik  ermöglicht:
-    –                               Erscheinungen der W elt um uns, die uns alle angehen oder angehen sollten, aus Na-
-         tur, Gesellschaft und Kultur in einer spezifischen Art wahrzunehmen und zu verst e-
-         hen
-    –                            mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
-         Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete W elt ei-
-         gener Art kennenzulernen und zu begreifen
-    –                    in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten zu erwerben, die
-         über die Mathematik hinausgehen (heuristische Fähigk eiten)
-Im Sinne dieser drei Grunderf ahrungen sollen die Schülerinnen und Schüler Mathematik als
+matikunterricht fördert den Erwerb der beschriebenen Kompetenzen, indem er drei sich je-
+weils ergänzende Grunderfahrungen (nach H. Winter) von Mathematik ermöglicht:
+    –   Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus Na-
+        tur, Gesellschaft und Kultur in einer spezifischen Art wahrzunehmen und zu verste-
+        hen
+    –   mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+        Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt ei-
+        gener Art kennenzulernen und zu begreifen
+    –   in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten zu erwerben, die
+        über die Mathematik hinausgehen (heuristische Fähigkeiten)
+Im Sinne dieser drei Grunderfahrungen sollen die Schülerinnen und Schüler Mathematik als
 lebendiges, kulturelles und geistiges Produkt erleben, aber ebenso als aktiven Prozess der
 Auseinandersetzung mit gehaltvollen Problemen.
-Die Integration digitaler W erkzeuge in den Mathematikunterricht ist nicht nur durch die von
+Die Integration digitaler Werkzeuge in den Mathematikunterricht ist nicht nur durch die von
 digitalen Medien geprägte Lebenswelt der Schülerinnen und Schüler und hinsichtlich des
-Ausbaus der in der Sek undarstufe I erworbenen Kompetenzen im Bereich der Medienbildung
-geboten, sondern kann insbesondere auch in Hinblick auf  die Entwicklung der allgemeinen
+Ausbaus der in der Sekundarstufe I erworbenen Kompetenzen im Bereich der Medienbildung
+geboten, sondern kann insbesondere auch in Hinblick auf die Entwicklung der allgemeinen
 mathematischen Kompetenzen unterstützend wirken.
-Unter digitalen W erkzeugen werden computergestützte mathematische Hilf smittel (z. B. T a-
-bellenkalkulationsprogramme, Dynamische-Geometrie-           Software, Computeralgebrasysteme,
-Software zur Darstellung von Funktionsgraphen), unabhängig von der verwendeten Har d-
+Unter digitalen Werkzeugen werden computergestützte mathematische Hilfsmittel (z. B. Ta-
+bellenkalkulationsprogramme, Dynamische-Geometrie-Software, Computeralgebrasysteme,
+Software zur Darstellung von Funktionsgraphen), unabhängig von der verwendeten Hard-
 ware (z. B. Desktop-Computer, Tablets, Handhelds, Smartphones), verstanden.
 
 
 
 
+S e i t e | 12
+                                                  Rahmenlehrplan Fachoberschule Mathematik
+
+
+
+2.2 Fachbezogene Kompetenzen
+Die unter 2.1 beschriebenen Kompetenzen sind nachfolgend tabellarisch zusammengefasst:
+
+ Allgemeine mathematische Kompetenzen                             Leitideen
+
+     Mathematisch argumentieren [K1]                      Algorithmus und Zahl [L1]
+
+     Probleme mathematisch lösen [K2]                     Messen [L2]
+
+     Mathematisch modellieren [K3]                        Raum und Form [L3]
+
+     Mathematische Darstellungen verwenden [K4]           Funktionaler Zusammenhang [L4]
+
+    Mit symbolischen, formalen und technischen
+                                                          Daten und Zufall [L5]
+    Elementen der Mathematik umgehen [K5]
+
+    Mathematisch kommunizieren [K6]
+
+
+
+                               Anforderungsbereiche
+                                     Dieser Anforderungsbereich umfasst die Wiedergabe
+     Anforderungsbereich I:          und direkte Anwendung von grundlegenden Begriffen,
+                                     Sätzen und Verfahren in einem abgegrenzten Gebiet
+         Reproduzieren
+                                     und einem wiederholenden Zusammenhang.
+
+                                     Dieser Anforderungsbereich umfasst das Bearbeiten
+                                     bekannter Sachverhalte, indem Kenntnisse, Fähigkei-
+     Anforderungsbereich II:
+                                     ten und Fertigkeiten verknüpft werden, die in der Aus-
+   Zusammenhänge Herstellen          einandersetzung mit Mathematik auf verschiedenen
+                                     Gebieten erworben wurden.
+                                     Dieser Anforderungsbereich umfasst das Bearbeiten
+    Anforderungsbereich III:         komplexer Gegebenheiten u. a. mit dem Ziel, zu eige-
+                                     nen Problemformulierungen, Lösungen, Begründun-
+Verallgemeinern und Reflektieren     gen, Folgerungen, Interpretationen oder Wertungen zu
+                                     gelangen.
 
 
 
 
+                                                                              S e i t e | 13
+Rahmenlehrplan Fachoberschule Mathematik
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Seite | 12
-
-                                                                                                                                               Rahm enlehrplan Fachober schule Mathem atik
-
-
-2.2                         Fachbezogene Kompetenzen
-Die unter 2.1 beschriebenen Kompetenzen sind nachf olgend tabellarisch zusammengef asst:
-
-    Allgemeine mathematische Kompetenzen                                                                                                                                                    Leitideen
-
-
-                   Mathematisch argumentieren [K1]                                                                                                                                                                                                                                                                                                                                       Algorithmus und Zahl  [L1]
-
-
-                  Probleme mathematisch lösen [K2]                                                                                                                                                                                                                                                                                                       Messen [L2]
-
-
-                   Mathematisch modellieren [K3]                                                                                                                                                                                                                                                                                                                                                                                         Raum und Form [L3]
-
-
-                   Mathematische Darstellungen verwenden [K4]                                                                                                                  Funktionaler Zusammenhang [L4]
-
-                                               Mit symbolischen, formalen und                                                                                                                          technischen Daten und Zufall [L5]
-             Elementen der Mathematik umgehen [K5]
-
-                  Mathematisch k ommunizieren [K6]
-
-
-                                                                                             Anforderungsbereiche
-
-                                                                                                           Dieser Anf orderungsbereich umfasst die W iedergabe
-                Anforderungsbereich I:                                                                     und direk te Anwendung von                                             grundlegenden Begriffen,
-                            Reproduzieren                                                                  Sätzen und Verfahren in einem abgegrenzten Gebiet
-                                                                                                           und einem wiederholenden Zusammenhang.
-
-                                                                                                           Dieser Anf orderungsbereich umfasst das Bearbeiten
-               Anforderungsbereich II:                                                                     bek annter Sachverhalte, indem Kenntnisse, Fähigk ei-
-                                                                                                           ten und Fertigkeiten verknüpf t werden, die in der Aus-
-         Zusammenhänge Herstellen                                                                          einandersetzung                                                                  mit Mathematik auf verschiedenen
-                                                                                                           Gebieten erworben wurden.
-                                                                                                           Dieser Anf orderungsbereich umfasst das Bearbeiten
-              Anforderungsbereich III:                                                                     k omplexer Gegebenheiten u. a. mit dem Ziel, zu eige-
- Verallgemeinern und Reflektieren                                                                          nen Problemformulierungen, Lösungen, Begründun-
-                                                                                                           gen, Folgerungen, Interpretationen oder W ertungen zu
-                                                                                                           gelangen.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                                                                              Seite | 13
-
-Rahm enlehrplan Fachober schule Mathem atik
 
 
 Den Zusammenhang der allgemeinen mathematischen Kompetenzen, der Leitideen und der
-Anf orderungsbereiche                                              verdeutlicht f olgende Abbildung:
+Anforderungsbereiche verdeutlicht folgende Abbildung:
 
 
 
 
+    Abbildung: Kompetenzmodell, © Kultusministerkonferenz, Hrsg., 2012.
+                                                                                             1
+               Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife, S. 11
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   Abbildung: Kompetenzmodell, © Kultusministerkonferenz, Hrsg., 2012.
-                   Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife, S. 11 1
-Der Erwerb der allgemeinen mathematischen Kompetenzen erfolgt nur durch      eine aktive
-Auseinandersetzung mit den Fachinhalten durch die Lernenden.    Durch unterschiedlich hohe
+Der Erwerb der allgemeinen mathematischen Kompetenzen erfolgt nur durch eine aktive
+Auseinandersetzung mit den Fachinhalten durch die Lernenden. Durch unterschiedlich hohe
 Anforderungen an die Lernenden werden die kognitiven Ansprüche von kompetenz-
-bezogenen mathematischen Aktivitäten variiert. Hier bieten sich Möglichkeiten für die Dif -
+bezogenen mathematischen Aktivitäten variiert. Hier bieten sich Möglichkeiten für die Dif-
 ferenzierung und Individualisierung des Mathematikunterrichts der Fachoberschule.
 Allgemeine mathematische Kompetenzen und Leitideen sind untrennbar miteinander
-verknüpft, d.    h. die allgemeinen mathematischen Kompetenzen manif estieren sich in j edem
+verknüpft, d. h. die allgemeinen mathematischen Kompetenzen manifestieren sich in jedem
 einzelnen mathematischen Inhalt (in Abbildung angedeutet).
 Man wird erst dann vom hinreichenden Erwerb einer allgemeinen mathematischen
-Kompetenz sprechen, wenn diese an ganz                              unterschiedlichen Leitideen in allen drei
-Anf orderungsbereichen erf olgreich  eingesetzt werden k ann.
-Im Unterricht    ist f ür den Erwerb der Kompetenzen auf  eine Vernetzung der Inhalte der Ma-
-thematik untereinander        und                                             mit anderen Fächern zu achten. Aufgaben mit Anwendungen
-aus der Lebenswelt und innermathematische Aufgaben                                                                                                                                            haben die gleiche W ichtigkeit und
-W ertigk eit.
-Der    jeweilig e   Fachrichtungsbezug der einzelnen Fachoberschulen                                                  soll durch eine geeignete
-Auswahl der Unterrichtsinhalte und durch entsprechende Anwendungsaufgaben Berücksic h-
-tigung f inden.
+Kompetenz sprechen, wenn diese an ganz unterschiedlichen Leitideen in allen drei
+Anforderungsbereichen erfolgreich eingesetzt werden kann.
+Im Unterricht ist für den Erwerb der Kompetenzen auf eine Vernetzung der Inhalte der Ma-
+thematik untereinander und mit anderen Fächern zu achten. Aufgaben mit Anwendungen
+aus der Lebenswelt und innermathematische Aufgaben haben die gleiche Wichtigkeit und
+Wertigkeit.
+Der jeweilige Fachrichtungsbezug der einzelnen Fachoberschulen soll durch eine geeignete
+Auswahl der Unterrichtsinhalte und durch entsprechende Anwendungsaufgaben Berücksich-
+tigung finden.
+1
+    Kultusministerkonferenz, Hrsg., 2012. Bildungsstandards im Fach Mathematik für die Allgemeine Hochschul-
+     reife. Bonn (Beschluss der Kultusministerkonferenz vom 18.10.2012)
+S e i t e | 14
+                                                   Rahmenlehrplan Fachoberschule Mathematik
 
-1      Kultusministerkonferenz, Hrsg., 2012. Bildungsstandards im Fach                                                  Mathematik für die Allgemeine Hochschul-
-    reife. Bonn (Beschluss der Kultusministerkonferenz vom 18.10.2012)
-Seite | 14
-
-                                                                                          Rahm enlehrplan Fachober schule Mathem atik
 
 
-3                                                                                                                Einga ngs voraussetzunge n und  Abschlussprofi l
-
-3.1                                                    Eingangsvoraussetzungen
+3      Eingangsvoraussetzungen und Abschlussprofil
+3.1    Eingangsvoraussetzungen
 Für einen erfolgreichen Kompetenzerwerb in der Fachoberschule sollten die Schülerinnen
-und Schüler bereits zu Beginn bestimmte fachliche Anf orderungen bewältigen können. Diese
-sind in den Eingangsvoraussetzungen dargestellt. Den Schülerinnen und Schülern ermögl                      i-
-chen sie, sich ihres Leistungsstandes zu vergewissern. Die Lehrkräfte nutzen sie für diff e-
+und Schüler bereits zu Beginn bestimmte fachliche Anforderungen bewältigen können. Diese
+sind in den Eingangsvoraussetzungen dargestellt. Den Schülerinnen und Schülern ermögli-
+chen sie, sich ihres Leistungsstandes zu vergewissern. Die Lehrkräfte nutzen sie für diffe-
 renzierende Lernarrangements sowie zur individuellen Lernberatung.
-In den Bildungsstandards f ür den mittleren Bildungsabschluss im Fach Mathematik ist fes                      t-
-gelegt, welche Kompetenzen von den Schülerinnen und Schülern am Ende der Jahrgang s-
-stuf e 10 erwartet werden. Im Land Brandenburg orientieren sich die erwarteten Kompeten-
-zen beim Eintritt in die Fachoberschule am aktuellen Rahmenlehrplan der Jahrgangsst                       u-
-fen                                             1-10 im Fach Mathematik und sind durch die folgenden Tabellen präzisiert.
+In den Bildungsstandards für den mittleren Bildungsabschluss im Fach Mathematik ist fest-
+gelegt, welche Kompetenzen von den Schülerinnen und Schülern am Ende der Jahrgangs-
+stufe 10 erwartet werden. Im Land Brandenburg orientieren sich die erwarteten Kompeten-
+zen beim Eintritt in die Fachoberschule am aktuellen Rahmenlehrplan der Jahrgangsstu-
+fen 1-10 im Fach Mathematik und sind durch die folgenden Tabellen präzisiert.
 
-3.1.1                       Prozessbezogene Eingangsvoraussetzungen (Kompetenzen)
+3.1.1 Prozessbezogene Eingangsvoraussetzungen (Kompetenzen)
 
-            Mathematisch argumentieren [K1]
- Die Schülerinnen und Schüler
-–                   erk unden mathematische Situationen und stellen Vermutungen auf
-–                   begründen die Plausibilität von Vermutungen oder widerlegen diese durch Angabe von
-     Beispielen oder Gegenbeispielen
-–                   entwick eln ein- oder mehrschrittige                       schlüssige Argumentationen zur Begründung
-     mathematischer Aussagen
-–                   hinterfragen Argumentationen und Begründungen k ritisch, finden und k orrigieren Fehler
-
-
-            Probleme mathematisch lösen [K2]
-
- Die Schülerinnen und Schüler
-–                   untersuchen Muster und Beziehungen bei Zahlen und Figuren und f inden mögliche
-     mathematische Problemstellungen
-–                   geben inner- und außermathematische Problemstellungen in eigenen W orten wieder,
-     strukturieren sie und entnehmen ihnen die relevanten Größen
-–                   vereinf achen Probleme, bilden und untersuchen Beispiele
-–                   f inden und nutzen geeignete Darstellungen und Hilf sgrößen (z.                                  B. Hilf slinien, Struk turie-
-     rung des Lösungsweges, Variablen)
-–                   ver wenden heuristische Strategien (wie z. B. Zeichnen einer inf ormativen Figur, Zurück-
-     führen auf Bek anntes)
-–                   ref lektieren Lösungswege und überprüfen die Plausibilität von Ergebnissen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                            Seite | 15
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-             Mathematisch modellieren [            K3]
+      Mathematisch argumentieren [K1]
 
 Die Schülerinnen und Schüler
-–                   strukturieren und reduzieren den Komplexitätsgrad von Realsituationen, sodass diese
-     mathematisch zugänglich werden, und r                                                                                                  ef lektieren die Vereinf achungen
-–                   beschreiben reale Situationen mit mathematischen Modellen (Terme, Funktionen,
-     Fig ur en,  Diag r am m e, Graphen, Zufallsversuche u.             a. )
-–                   interpretieren und prüfen Ergebnisse einer Modellierung
-–                   überprüfen Modelle auf ihre Gültigkeit oder Grenzen und verwerf en oder verbessern sie
-     gegebenenfalls
-–                   geben zu einem mathematischen Modell passende                                                                                                               Realsituationen                                                                                         an
+– erkunden mathematische Situationen und stellen Vermutungen auf
+– begründen die Plausibilität von Vermutungen oder widerlegen diese durch Angabe von
+  Beispielen oder Gegenbeispielen
+– entwickeln ein- oder mehrschrittige schlüssige Argumentationen zur Begründung
+  mathematischer Aussagen
+– hinterfragen Argumentationen und Begründungen kritisch, finden und korrigieren Fehler
 
 
-             Mathematische Darstellungen verw enden [            K4]
+       Probleme mathematisch lösen [K2]
+Die Schülerinnen und Schüler
+– untersuchen Muster und Beziehungen bei Zahlen und Figuren und finden mögliche
+  mathematische Problemstellungen
+– geben inner- und außermathematische Problemstellungen in eigenen Worten wieder,
+  strukturieren sie und entnehmen ihnen die relevanten Größen
+– vereinfachen Probleme, bilden und untersuchen Beispiele
+– finden und nutzen geeignete Darstellungen und Hilfsgrößen (z. B. Hilfslinien, Strukturie-
+  rung des Lösungsweges, Variablen)
+– verwenden heuristische Strategien (wie z. B. Zeichnen einer informativen Figur, Zurück-
+  führen auf Bekanntes)
+– reflektieren Lösungswege und überprüfen die Plausibilität von Ergebnissen
+
+
+
+
+                                                                                S e i t e | 15
+Rahmenlehrplan Fachoberschule Mathematik
+
+
+
+
+       Mathematisch modellieren [K3]
+Die Schülerinnen und Schüler
+– strukturieren und reduzieren den Komplexitätsgrad von Realsituationen, sodass diese
+  mathematisch zugänglich werden, und reflektieren die Vereinfachungen
+– beschreiben reale Situationen mit mathematischen Modellen (Terme, Funktionen,
+  Figuren, Diagramme, Graphen, Zufallsversuche u. a.)
+– interpretieren und prüfen Ergebnisse einer Modellierung
+– überprüfen Modelle auf ihre Gültigkeit oder Grenzen und verwerfen oder verbessern sie
+  gegebenenfalls
+– geben zu einem mathematischen Modell passende Realsituationen an
+
+
+       Mathematische Darstellungen verwenden [K4]
+Die Schülerinnen und Schüler
+– interpretieren verschiedene mathematische Darstellungen (verbale, numerische,
+  grafische und symbolische)
+– wählen je nach Situation und Zweck geeignete Darstellungsformen aus oder übersetzen
+  zwischen ihnen
+– erkennen Beziehungen und reflektieren Unterschiede zwischen ihnen
+
+
+
+       Mit symbolischen, formalen und technischen Elementen der Mathematik
+       umgehen [K5]
 
 Die Schülerinnen und Schüler
-–                   interpretieren verschiedene mathematische Darstellungen (verbale, numerische,
-     graf ische und symbolische)
-–                   wählen je nach Situation und Zweck  geeignete Darstellungsf ormen aus oder übersetzen
-     zwischen ihnen
-–                   erk ennen Beziehungen und ref lektieren Unterschiede zwischen ihnen
+– verwenden Variablen, Terme und Gleichungen zum Strukturieren von Informationen,
+  zum Modellieren und zum Problemlösen und zum Übersetzen zwischen symbolischer
+  und natürlicher Sprache
+– führen algorithmische Verfahren aus, reflektieren deren Anwendung und
+  überprüfen die Ergebnisse
+– setzen mathematische Hilfsmittel und Werkzeuge (wie Formelsammlungen und
+  Taschenrechner) beim Problemlösen ein
 
 
-             Mit symbolischen, formalen und technischen Elementen der Mathematik
-             umgehen [K5]
-
+       Mathematisch kommunizieren [K6]
 Die Schülerinnen und Schüler
-–                   ver wenden Variablen, Terme  und                                                                  Gleichungen zum Strukturieren von Informationen,
-     zum Modellieren und zum Problemlösen und zum             Übersetzen zwischen sym bo                                                                              lischer
-     und natürlicher Sprache
-–                   führen algorithmische Verf ahren aus, ref lektieren deren Anwendung  und
-     überprüfen die Ergebnisse
-–                   setzen mathematische Hilf smittel und W erkzeuge (wie Formelsammlungen und
-     Taschenrechner)                       beim Problemlösen ein
+– erfassen und reflektieren mathematische Informationen in mathematikhaltigen Darstel-
+  lungen und in nicht aufbereiteten, authentischen Texten (z. B. aus Zeitungen)
+– stellen Zusammenhänge adressatengerecht mit eigenen Worten dar und präzisieren sie
+  mit geeigneten Fachbegriffen
+– erläutern eigene Problembearbeitungen und Einsichten sowie mathematische Prozesse
+– dokumentieren Überlegungen, Lösungswege bzw. Ergebnisse, stellen diese
+  verständlich dar und präsentieren sie auch unter Nutzung geeigneter Medien
+– organisieren die gemeinsame Arbeit an mathematischen Problemen
 
 
-             Mathematisch kommunizieren [K6]
 
+
+S e i t e | 16
+                                                      Rahmenlehrplan Fachoberschule Mathematik
+
+
+
+3.1.2 Inhaltsbezogene Eingangsvoraussetzungen (Leitideen)
+
+      Algorithmus und Zahl [L1]
 Die Schülerinnen und Schüler
-–                   erf assen und ref lektieren mathematische Informationen in mathematik haltigen Darstel-
-     lungen und in nicht auf bereiteten, authentischen Texten (z.                        B. aus Zeitungen)
-–                   stellen Zusammenhänge adressateng erecht mit eigenen W orten dar und präzisieren sie
-     mit geeigneten Fachbegriffen
-–                   erläutern eigene Problembearbeitungen und Einsichten sowie mathematische Prozesse
-–                   dok umentieren Überlegungen, Lösungswege bzw. Ergebnisse, stellen diese
-     verständlich dar und präsentieren sie auch unter Nutzung geeigneter Medien
-–                   organisieren die gemeinsame Arbeit an mathematischen Problemen
+– stellen Zahlen der Situation angemessen als Brüche, Dezimalzahlen, Prozentzahlen und
+   in Zehnerpotenzschreibweise dar, runden Dezimalzahlen sachgerecht und verwenden
+  Darstellungen irrationaler Anteile (z. B. 5π , 3 ⋅ 7 )
+– verwenden natürliche, ganze, gebrochene und reelle Zahlen zur Darstellung
+  mathematischer Situationen und wenden diese zur Lösung von Problemen an
+– führen Rechnungen und Überschlagsrechnungen im Kopf durch und nutzen
+  Rechengesetze zum vorteilhaften Rechnen
+– erläutern und reflektieren die Verwendung von negativen Zahlen und die Eigenschaften
+  von irrationalen Zahlen an Beispielen
+– lösen Potenzgleichungen unter Nutzung der entsprechenden Gesetze
+– lösen lineare (2,2)-Gleichungssysteme
 
 
-
-
-
-Seite | 16
-
-                                                                                              Rahm enlehrplan Fachober schule Mathem atik
-
-
-3.1.2                       Inhaltsbezogene Eingangsvoraussetzungen (Leitideen)
-
-            Al gorithmus und                                                                                            Zahl [L1]
-
+      Messen [L2]
 Die Schülerinnen und Schüler
-–                   stellen Zahlen der Situation angemessen als Brüche, Dezimalzahlen, Prozentzahlen und
-     in Zehnerpotenzschreibweise dar, runden Dezimalzahlen sachgerecht und verwenden
-     Darstellungen irrationaler Anteile (z. B.                               5                         , 3                                             7π                                ⋅)
-–                   ver wenden natürliche, ganze, gebrochene und reelle Zahlen zur Darstellung
-     mathematischer Situationen und wenden diese zur Lösung von Problemen an
-–                   führen Rechnungen und Überschlagsrechnungen im Kopf durch und nutzen
-     Rechengesetze zum vorteilhaf ten Rechnen
-–                   erläutern und ref lektieren die Verwendung von negativen Zahlen und die Eigenschaften
-     von irrationalen Zahlen an Beispielen
-–                   lösen Potenzgleichungen unter Nutzung der entsprechenden Gesetze
-–                   lösen lineare (2,2)-Gleichungssysteme
+– messen Strecken und Winkel
+– berechnen Flächeninhalt und Umfang von zusammengesetzten Figuren, Volumen und
+   Oberflächeninhalt von Prismen, Pyramiden, Kegeln und Kugeln sowie von zusammen-
+   gesetzten Körpern
+– beschreiben qualitativ das Änderungsverhalten eines Funktionsgraphen durch eine
+   Skizze des Graphen
+– bestimmen Steigungen von linearen Funktionsgraphen zeichnerisch
 
 
-            Messen [L2]
-
+      Raum und Form [L3]
 Die Schülerinnen und Schüler
-–                   messen Streck en und W ink el
-–                   berechnen Flächeninhalt und Umf ang von zusammengesetzten Figuren, Volumen und
-     Oberf lächeninhalt                                             von Prismen, Pyramiden, Kegeln und Kugeln sowie von zusammen-
-     gesetzten Körpern
-–                   beschreiben qualitativ das Änderungsverhalten eines Funk tionsgraphen durch eine
-     Sk izze des Graphen
-–                   bestimmen Steigungen von linearen Funktionsgraphen zeichnerisch
+– beschreiben geometrische Objekte unter Verwendung von Ober- und Unterbegriffen und
+   den definierenden Eigenschaften
+– berechnen Größen und begründen Eigenschaften von Figuren mithilfe von Symmetrie,
+   einfachen Winkelsätzen, Kongruenz, Ähnlichkeit, trigonometrischen Beziehungen, dem
+   Satz des Thales und dem Satz des Pythagoras
 
 
-            Raum und Form [L3]
 
+
+                                                                                 S e i t e | 17
+Rahmenlehrplan Fachoberschule Mathematik
+
+
+
+
+       Funktionaler Zusammenhang [L4]
 Die Schülerinnen und Schüler
-–                   beschreiben geometrische Objekte unter Verwendung von Ober - und Unterbegriffen und
-     den def inierenden Eigenschaf ten
-–                   berechnen Größen und begründen Eigenschaften von Figuren mithilf e von Sym metrie,
-     einf achen W ink elsätzen, Kongruenz, Ähnlichk eit, trigonometrischen Beziehungen, dem
-     Satz des Thales und dem Satz des Pythagoras
+– wechseln zwischen unterschiedlichen Darstellungen quadratischer Funktionen, u. a. als
+   Produkt von Linearfaktoren
+– beschreiben qualitativ das Änderungsverhalten eines Funktionsgraphen (ohne Zuhilfe-
+   nahme der grafischen Darstellung)
+– identifizieren proportionale, umgekehrt proportionale, lineare und quadratische
+   Zusammenhänge in tabellarischer, grafischer und symbolischer Darstellung, wechseln
+   zwischen den Darstellungsformen und verwenden sie zur Lösung von Anwendungsauf-
+   gaben
+– verwenden Prozentdarstellungen, Potenzen und Wurzeln zur Lösung inner- und außer-
+   mathematischer Probleme
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                   Seite | 17
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-             Funktionaler Zusammenhang [L4]
-
+       Daten und Zufall [L5]
 Die Schülerinnen und Schüler
-–                   wechseln zwischen unterschiedlichen Darstellungen quadratischer Funk tionen, u.  a.  als
-     Produkt von Linearf aktoren
-–                   beschreiben qualitativ das Änderungsverhalten eines Funk tionsgraphen (ohne Zuhilf e-
-     nahme der                                            graf ischen Darstellung)
-–                   identif izieren proportionale, umgekehrt proportionale, lineare und quadratische
-     Zusammenhänge in tabellarischer, graf ischer und symbolischer Darstellung, wechseln
-     zwischen den Darstellungsformen und verwenden sie zur Lösung von Anwendungsauf-
-     gaben
-–                   ver wenden Prozentdarstellungen, Potenzen und W urzeln zur Lösung inner - und außer-
-     mathematischer Probleme
+– planen statistische Erhebungen, nutzen Methoden der Erfassung und Darstellung von
+   Daten (Säulen- und Kreisdiagramme) und bewerten Darstellungen kritisch
+– bestimmen relative Häufigkeiten und den arithmetischen Mittelwert
+– bestimmen Wahrscheinlichkeiten mithilfe von Laplace-Regel, Baumdiagrammen sowie
+   Pfadregeln und wenden diese an
+– nutzen Häufigkeiten zum Schätzen von Wahrscheinlichkeiten und Wahrscheinlichkeiten
+   zur Vorhersage von Häufigkeiten
+– nutzen kombinatorische Überlegungen zur Berechnung von Wahrscheinlichkeiten
 
 
-             Daten und Zufall [L5]
-
-Die Schülerinnen und Schüler
-–                   planen statistische Erhebungen, nutzen Methoden der Erf assung und Darstellung von
-     Daten (Säulen-                                             und Kreisdiagramme) und bewerten Darstellungen kritisch
-–                   bestimmen relative Häuf igk eiten und den arithmetischen Mittelwert
-–                     bestimmen W  ahrscheinlichk eiten  mithilf e von Laplace-                      Regel, Baumdiagrammen sowie
-     Pf adregeln und wenden diese an
-–                   nutzen Häuf igkeiten zum Schätzen von W ahrscheinlichkeiten und W ahrscheinlichkeiten
-     zur Vorhersage von Häufigk eiten
-–                   nutzen                                            k ombinatorische Überlegungen zur Berechnung  von W  ahrscheinli                      chk eiten
-
-3.2                                                  Abschlussprofil
-Für das Fach Mathematik werden auch                                 im Abschlussprof il die sechs allgemeinen                                                            mathema-
-tischen      Kompetenzen unterschieden, die das Spektrum mathematischen Arbeitens in der
-Fachoberschule                    in hinreichender Breite erf assen. Es ist charakteristisch, dass mehrere die-
+3.2     Abschlussprofil
+Für das Fach Mathematik werden auch im Abschlussprofil die sechs allgemeinen mathema-
+tischen Kompetenzen unterschieden, die das Spektrum mathematischen Arbeitens in der
+Fachoberschule in hinreichender Breite erfassen. Es ist charakteristisch, dass mehrere die-
 ser Kompetenzen im Verbund benötigt werden. Eine scharfe Abgrenzung der einzelnen
 Kompetenzen ist nicht möglich.
-Im Folgenden werden die sechs allgemeinen mathematischen Kompetenzen                           unter Beach-
-tung der unterschiedlich hohen Anf orderungen an die Lernenden                                                                                                                näher beschrieben                                                                                           (3.2.1).
-Diese Kompetenzen sind immer untrennbar mit den                                                                  mathematischen Inhalten verbunden,  die
-anschließend in den Leitideen k onk retisiert werden (3.2.2).
+Im Folgenden werden die sechs allgemeinen mathematischen Kompetenzen unter Beach-
+tung der unterschiedlich hohen Anforderungen an die Lernenden näher beschrieben (3.2.1).
+Diese Kompetenzen sind immer untrennbar mit den mathematischen Inhalten verbunden, die
+anschließend in den Leitideen konkretisiert werden (3.2.2).
 
 
 
 
+S e i t e | 18
+                                                   Rahmenlehrplan Fachoberschule Mathematik
 
 
 
+3.2.1 Allgemeine mathematische Kompetenzen
 
+       Mathematisch argumentieren [K1]
 
-
-
-
-
-
-
-
-
-
-Seite | 18
-
-                                                                                        Rahm enlehrplan Fachober schule Mathem atik
-
-
-3.2.1                       Allgemeine mathematische                         Kompetenzen
-
-
-           Mathematisch argumentieren [K1]
- Zu dieser Kompetenz gehören sowohl das Entwickeln eigenständiger, situationsangemes-
+Zu dieser Kompetenz gehören sowohl das Entwickeln eigenständiger, situationsangemes-
 sener mathematischer Argumentationen und Vermutungen als auch das Verstehen und
-Bewerten gegebener mathematischer Aussagen. Das Spek trum reicht dabei von einf achen
-Plausibilitätsargumenten bis hin zu                       inhaltlich-anschaulichen                                             Begründungen. Typische For-
-mulierungen, die auf die Kompetenz des Argumentierens hinweisen, sind beispiels weise
-„Begründen Sie!                                                         “, „W iderlegen Sie!“, „Gibt es?“ oder „Gilt das immer?“.
+Bewerten gegebener mathematischer Aussagen. Das Spektrum reicht dabei von einfachen
+Plausibilitätsargumenten bis hin zu inhaltlich-anschaulichen Begründungen. Typische For-
+mulierungen, die auf die Kompetenz des Argumentierens hinweisen, sind beispielsweise
+„Begründen Sie!“, „Widerlegen Sie!“, „Gibt es?“ oder „Gilt das immer?“.
 
 Die Anforderungen zu dieser Kompetenz lassen sich unter Berücksichtigung des steigen-
-den Schwierigk eitsgrade                                           s wie f olgt beschreiben:
-Die Schülerinnen und Schüler k önnen
-–                   Routineargumentationen (bek annte Sätze, Verfahren, Herleitungen                                                                                usw.) wiedergeben
-    und anwenden
-–                   Argumentationen auf der Basis von Alltagswissen f ühren
-–                   einf ache rechnerische Begründungen geben oder einf ache log ische Schlussf olgerungen
-    ziehen
-–                   überschaubare mehrschrittige Argumentationen und logische Schlüsse nachvollzi                                                       ehen,
-    erläutern oder entwick eln
-–                   anspruchsvolle Argumentationen nutzen oder entwick eln
-–                   verschiedene Argumente nach Kriterien wie Reichweite und Schlüssigk eit bewerten
+den Schwierigkeitsgrades wie folgt beschreiben:
+Die Schülerinnen und Schüler können
+– Routineargumentationen (bekannte Sätze, Verfahren, Herleitungen usw.) wiedergeben
+  und anwenden
+– Argumentationen auf der Basis von Alltagswissen führen
+– einfache rechnerische Begründungen geben oder einfache logische Schlussfolgerungen
+  ziehen
+– überschaubare mehrschrittige Argumentationen und logische Schlüsse nachvollziehen,
+  erläutern oder entwickeln
+– anspruchsvolle Argumentationen nutzen oder entwickeln
+– verschiedene Argumente nach Kriterien wie Reichweite und Schlüssigkeit bewerten
 
 
-           Probleme mathematisch lösen [K2]
- Diese Kompetenz beinhaltet, ausgehend vom Erk ennen und Formulieren mathematischer
+       Probleme mathematisch lösen [K2]
+Diese Kompetenz beinhaltet, ausgehend vom Erkennen und Formulieren mathematischer
 Probleme, das Auswählen geeigneter Lösungsstrategien sowie das Finden und das Aus-
-führen geeigneter Lösungswege. Das Spek trum reicht von der Anwendung bek annter bis
-zum Finden neuer Strategien. Heuristische Prinzipien, wie z.                       B. „Sk izze anf ertigen“, „sys-
+führen geeigneter Lösungswege. Das Spektrum reicht von der Anwendung bekannter bis
+zum Finden neuer Strategien. Heuristische Prinzipien, wie z. B. „Skizze anfertigen“, „sys-
 tematisch probieren“, „zerlegen und ergänzen“, „Symmetrien verwenden“, „Extremalprin-
-zip“, „Invarianten f inden“ sowie „vor wärts und rückwärts arbeiten“, werden gezielt ausge-
+zip“, „Invarianten finden“ sowie „vorwärts und rückwärts arbeiten“, werden gezielt ausge-
 wählt und angewendet.
+
 Die Anforderungen zu dieser Kompetenz lassen sich unter Berücksichtigung des steigen-
-den Schwierigk eitsgrade                                           s wie f olgt beschreiben:
-Die Schülerinnen und Schüler k önnen
-–                   einf ache mathematische Aufgaben                                                                   durch Identif ikation und Auswahl einer naheliegen-
-    den Strategie lösen                                , z. B. durch Analogiebetrachtung
-–                   einen Lösungsweg zu einer Problemstellung f inden, z. B. durch ein mehrschrittiges, stra-
-    tegiegestütztes Vorgehen
-–                   eine Strategie zur Lösung eines k omplexeren Problems entwick eln und anwenden, z.  B.
-    zur Verallgemeinerung einer Schlussfolgerung oder zur Beurteilung verschiedener Lö-
-    sungswege
+den Schwierigkeitsgrades wie folgt beschreiben:
+Die Schülerinnen und Schüler können
+– einfache mathematische Aufgaben durch Identifikation und Auswahl einer naheliegen-
+   den Strategie lösen, z. B. durch Analogiebetrachtung
+– einen Lösungsweg zu einer Problemstellung finden, z. B. durch ein mehrschrittiges, stra-
+   tegiegestütztes Vorgehen
+– eine Strategie zur Lösung eines komplexeren Problems entwickeln und anwenden, z. B.
+   zur Verallgemeinerung einer Schlussfolgerung oder zur Beurteilung verschiedener Lö-
+   sungswege
 
 
 
 
+                                                                                S e i t e | 19
+Rahmenlehrplan Fachoberschule Mathematik
 
 
 
 
+       Mathematisch modellieren [K3]
+Hier geht es um den Wechsel zwischen Realsituationen und mathematischen Begriffen, Resul-
+taten oder Methoden. Hierzu gehört sowohl das Konstruieren passender mathematischer Mo-
+delle als auch das Verstehen oder Bewerten vorgegebener Modelle. Typische Teilschritte des
+Modellierens sind das Strukturieren und Vereinfachen gegebener Realsituationen, das Über-
+setzen realer Gegebenheiten in mathematische Modelle, das Interpretieren mathematischer
+Ergebnisse in Bezug auf Realsituationen und das Überprüfen von Ergebnissen im Hinblick auf
+Stimmigkeit und Angemessenheit bezogen auf die Realsituation. Das Spektrum reicht von
+Standardmodellen (z. B. bei linearen Zusammenhängen) bis zu komplexeren Modellierungen.
 
-
-                                                                                                                                         Seite | 19
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-           Mathematisch modellieren [            K3]
-
-Hier geht es um den W  echsel zwischen Reals ituat ionen und mathemat ischen Begriff en, Resul-
-taten oder Methoden. Hierzu gehört sowohl das Konstruieren pass ender mathematischer Mo-
-delle als auch das Ver stehen oder Bewerten vorgegebener Modelle. Typisc he Teils chritte des
-Modellierens sind das Str uk turieren und Ver einf achen gegebener Realsit uationen, das Über-
-setzen realer Gegebenheiten in mathematisc he Modelle, das Interpret ieren m athematis cher
-Ergebnis se in Bezug auf  Reals ituat ionen und das Überpr üf en von Ergebnis sen im Hinblick  auf
-Stimmigk eit und Angemessenheit bezogen auf  die Reals ituat ion. Das Spek trum reicht von
-Standardmodellen ( z. B. b ei         linearen Zus ammenhängen) bis zu k omplexeren Modellierungen.
 Die Anforderungen zu dieser Kompetenz lassen sich unter Berücksichtigung des steigen-
-den Schwierigk eitsgrade                                           s wie f olgt beschreiben:
-Die Schülerinnen und Schüler k önnen
-–                   vertraute und direk t erk ennbare Modelle anwenden
-–                   eine Realsituation direkt in ein mathematisches Modell überf ühren
-–                   ein mathematisches Resultat auf eine gegebene Realsituation übertragen
-–                   mehrschrittige Modellierungen mit wenigen und klar f ormulierten Einschränkungen
-    vornehmen
-–                   Ergebnisse einer solchen Modellierung interpretieren
-–                   ein mathematisches Modell an veränderte Umstände anpassen
-–                   eine k omplexe Realsituation modellieren, wobei Variablen und Bedingungen f estgelegt
-    werden müssen
-–                   mathematische Modelle im Kontext einer Realsituation überprüf en, vergleichen und be-
-    werten
+den Schwierigkeitsgrades wie folgt beschreiben:
+Die Schülerinnen und Schüler können
+– vertraute und direkt erkennbare Modelle anwenden
+– eine Realsituation direkt in ein mathematisches Modell überführen
+– ein mathematisches Resultat auf eine gegebene Realsituation übertragen
+– mehrschrittige Modellierungen mit wenigen und klar formulierten Einschränkungen
+   vornehmen
+– Ergebnisse einer solchen Modellierung interpretieren
+– ein mathematisches Modell an veränderte Umstände anpassen
+– eine komplexe Realsituation modellieren, wobei Variablen und Bedingungen festgelegt
+   werden müssen
+– mathematische Modelle im Kontext einer Realsituation überprüfen, vergleichen und be-
+   werten
 
 
-           Mathematische Darstellungen verw enden [            K4]
-
-Diese Kompetenz umf asst das Auswählen geeigneter Darstellungsformen, das Erzeugen
+       Mathematische Darstellungen verwenden [K4]
+Diese Kompetenz umfasst das Auswählen geeigneter Darstellungsformen, das Erzeugen
 mathematischer Darstellungen und das Umgehen mit gegebenen Darstellungen. Hierzu
 zählen Diagramme, Graphen und Tabellen ebenso wie Formeln. Das Spektrum reicht von
-Standarddarstellungen                                                                   – wie W  ertetabellen  – bis hin zu eigenen Darstellungen, die dem
-Strukturieren und Dok umentieren individueller Überlegungen dienen und die Argumentation
+Standarddarstellungen – wie Wertetabellen – bis hin zu eigenen Darstellungen, die dem
+Strukturieren und Dokumentieren individueller Überlegungen dienen und die Argumentation
 und das Problemlösen unterstützen.
+
 Die Anforderungen zu dieser Kompetenz lassen sich unter Berücksichtigung des steigen-
-den Schwierigk eitsgrade                                           s wie f olgt beschreiben:
-Die Schülerinnen und Schüler k önnen
-–                   Standarddarstellungen von mathematischen Objekten und Situationen anfertigen und
-    nutzen
-–                   gegebene Darstellungen verständig interpretieren oder verändern
-–                   zwischen verschiedenen Darstellungen wechseln
-–                   mit unvertrauten Darstellungen und Darstellungsformen sachgerecht und verständig
-    umgehen
-–                   eigene Darstellungen problemadäquat entwick eln
-–                   verschiedene Darstellungen und Darstellungsf ormen zweckgerichtet beurteilen
+den Schwierigkeitsgrades wie folgt beschreiben:
+Die Schülerinnen und Schüler können
+– Standarddarstellungen von mathematischen Objekten und Situationen anfertigen und
+   nutzen
+– gegebene Darstellungen verständig interpretieren oder verändern
+– zwischen verschiedenen Darstellungen wechseln
+– mit unvertrauten Darstellungen und Darstellungsformen sachgerecht und verständig
+   umgehen
+– eigene Darstellungen problemadäquat entwickeln
+– verschiedene Darstellungen und Darstellungsformen zweckgerichtet beurteilen
 
 
 
 
-
-
-Seite | 20
-
-                                                                                                 Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-             Mit symbolischen, formalen und technischen Elementen der Mathematik
-             umgehen [K5]
-Diese Kompetenz beinhaltet in erster Linie das Ausf ühren von Operationen mit mathema-
-tischen Objekten wie Zahlen, Größen, Variablen, Termen, Gleichungen und                                                                                                                          Funk tionen und
-geometrischen Objek ten. Das Spek trum reicht hier von einf achen und übers chaubaren Rou-
-tineverf ahren bis hin zu komplexen Verf ahren einschließlich deren ref lek tierender Bewertung.
-Diese Kompetenz beinhaltet auch Fak tenwissen und grundlegendes  Regelwissen f ür ein
-zielgerichtetes und eff izientes Bearbeiten von mathematischen Aufgabenstellungen, auch mit
-eingef ührten Hilf smitteln und digitalen Mathematik werk zeugen.
-Die Anforderungen zu dieser Kompetenz lassen sich unter Berücksichtigung des s t e ig e n-
-den                                                                   Schwierigk eitsgrade                                           s wie f olgt beschreiben:
-Die Schülerinnen und Schüler k önnen
-–                   elementare Lösungsverfahren verwenden
-–                   Formeln und Symbole direk t anwenden
-–                   mathematische Hilf smittel und digitale Mathematik werk zeuge direkt nutzen
-–                   formale mathematisc he Verf ahren anwenden
-–                   mit mathematischen Objekten im Kontext umgehen
-–                   mathematische Hilf smittel und digitale Mathematik werk zeuge je nach Situation und
-     Zweck  gezielt auswählen und effizient einsetzen
-–                   k omplexe Verf ahren durchf ühren
-–                   verschiedene Lösungs- und Kontrollverf ahren bewerten
-–                   die Möglichk eiten und Grenzen mathematischer Verf ahren, Hilf smittel und digitaler
-     Mathematik werk zeuge ref lektieren
+S e i t e | 20
+                                                    Rahmenlehrplan Fachoberschule Mathematik
 
 
 
 
+       Mit symbolischen, formalen und technischen Elementen der Mathematik
+       umgehen [K5]
+Diese Kompetenz beinhaltet in erster Linie das Ausführen von Operationen mit mathema-
+tischen Objekten wie Zahlen, Größen, Variablen, Termen, Gleichungen und Funktionen und
+geometrischen Objekten. Das Spektrum reicht hier von einfachen und überschaubaren Rou-
+tineverfahren bis hin zu komplexen Verfahren einschließlich deren reflektierender Bewertung.
+Diese Kompetenz beinhaltet auch Faktenwissen und grundlegendes Regelwissen für ein
+zielgerichtetes und effizientes Bearbeiten von mathematischen Aufgabenstellungen, auch mit
+eingeführten Hilfsmitteln und digitalen Mathematikwerkzeugen.
+
+Die Anforderungen zu dieser Kompetenz lassen sich unter Berücksichtigung des steigen-
+den Schwierigkeitsgrades wie folgt beschreiben:
+Die Schülerinnen und Schüler können
+– elementare Lösungsverfahren verwenden
+– Formeln und Symbole direkt anwenden
+– mathematische Hilfsmittel und digitale Mathematikwerkzeuge direkt nutzen
+– formale mathematische Verfahren anwenden
+– mit mathematischen Objekten im Kontext umgehen
+– mathematische Hilfsmittel und digitale Mathematikwerkzeuge je nach Situation und
+   Zweck gezielt auswählen und effizient einsetzen
+– komplexe Verfahren durchführen
+– verschiedene Lösungs- und Kontrollverfahren bewerten
+– die Möglichkeiten und Grenzen mathematischer Verfahren, Hilfsmittel und digitaler
+   Mathematikwerkzeuge reflektieren
 
 
 
 
+                                                                                 S e i t e | 21
+Rahmenlehrplan Fachoberschule Mathematik
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                        Seite | 21
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-           Mathematisch kommunizieren [K6]
-
-Zu dieser Kompetenz gehören sowohl das Entnehmen von Informationen aus schrif tlichen
+       Mathematisch kommunizieren [K6]
+Zu dieser Kompetenz gehören sowohl das Entnehmen von Informationen aus schriftlichen
 Texten, mündlichen Äußerungen oder sonstigen Quellen als auch das Darlegen von Über-
 legungen und Resultaten unter Verwendung einer angemessenen Fachsprache. Das
-Spektrum reicht von der direkten Inf ormationsentnahme aus Texten des Alltagsgebrauchs
-bzw. vom Auf schreiben einf acher Lösungswege bis hin zum sinnentnehmenden Lesen
+Spektrum reicht von der direkten Informationsentnahme aus Texten des Alltagsgebrauchs
+bzw. vom Aufschreiben einfacher Lösungswege bis hin zum sinnentnehmenden Lesen
 fachsprachlicher Texte bzw. zur strukturierten Darlegung oder Präsentation eigener Über-
-legungen. Sprachliche Anf orderungen spielen bei dieser Kompetenz eine besondere Rolle.
+legungen. Sprachliche Anforderungen spielen bei dieser Kompetenz eine besondere Rolle.
 
 Die Anforderungen zu dieser Kompetenz lassen sich unter Berücksichtigung des steigen-
-den Schwierigk eitsgrade                                           s wie f olgt beschreiben:
-Die Schülerinnen und Schüler k önnen
-–                   einf ache mathematische Sachverhalte darlegen
-–                   die Anf orderungen von Operatoren in Aufgabenstellungen erfassen und zielgerichtet
-    umsetzen
-–                   Inf ormationen aus kurzen Texten mit mathematischem Gehalt identif izieren und aus-
-    wählen, wobei die Ordnung der Informationen im Text die Schritte der mathematischen
-    Bearbeitung nahelegt
-–                   mehrschrittige Lösungswege, Überlegungen und Ergebnisse verständlich darlegen
-–                   Äußerungen (auch fehlerhaf te) anderer Personen zu mathematischen Aussagen inter-
-    pretieren
-–                   mathematische Informationen aus Texten identif izieren und auswählen, wobei die
-    Ordnung der Informationen nicht unmittelbar den Schritten der mathematischen
-    Bearbeitung entsprechen muss
-–                   eine k omplexe mathematische Lösung oder Argumentation widerspruchsfrei und voll-
-    ständig darlegen oder präsentieren
-–                   Texte mit mathematischem Inhalt sinnentnehmend  lesen,  z.                                             B. in einem Lehrbuch
-–                   mündliche und schriftliche Äußerungen mit mathematischem Gehalt von anderen
-    Personen miteinander vergleichen, sie bewerten und ggf. k orrigieren
+den Schwierigkeitsgrades wie folgt beschreiben:
+Die Schülerinnen und Schüler können
+– einfache mathematische Sachverhalte darlegen
+– die Anforderungen von Operatoren in Aufgabenstellungen erfassen und zielgerichtet
+   umsetzen
+– Informationen aus kurzen Texten mit mathematischem Gehalt identifizieren und aus-
+   wählen, wobei die Ordnung der Informationen im Text die Schritte der mathematischen
+   Bearbeitung nahelegt
+– mehrschrittige Lösungswege, Überlegungen und Ergebnisse verständlich darlegen
+– Äußerungen (auch fehlerhafte) anderer Personen zu mathematischen Aussagen inter-
+   pretieren
+– mathematische Informationen aus Texten identifizieren und auswählen, wobei die
+   Ordnung der Informationen nicht unmittelbar den Schritten der mathematischen
+   Bearbeitung entsprechen muss
+– eine komplexe mathematische Lösung oder Argumentation widerspruchsfrei und voll-
+   ständig darlegen oder präsentieren
+– Texte mit mathematischem Inhalt sinnentnehmend lesen, z. B. in einem Lehrbuch
+– mündliche und schriftliche Äußerungen mit mathematischem Gehalt von anderen
+   Personen miteinander vergleichen, sie bewerten und ggf. korrigieren
 
 
 
 
+S e i t e | 22
+                                                  Rahmenlehrplan Fachoberschule Mathematik
 
 
 
+3.2.2 Inhaltsbezogene Kompetenzen (Leitideen)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Seite | 22
-
-                                                                                            Rahm enlehrplan Fachober schule Mathem atik
-
-
-3.2.2                       Inhaltsbezogene Kompetenzen (Leitideen)
-
-            Al gorithmus und                                                                                            Zahl [L1]
-
-Diese Leitidee verallgemeinert zum einen den Zahlbegriff der Sek undarstuf e I zu Tupeln
-einschließlich  zugehöriger Operationen.  Sie erweitert zum anderen die Vorstellungen von
-den reellen Zahlen durch Approximationen mittels  analytischer Methoden. W eiter umfasst
+      Algorithmus und Zahl [L1]
+Diese Leitidee verallgemeinert zum einen den Zahlbegriff der Sekundarstufe I zu Tupeln
+einschließlich zugehöriger Operationen. Sie erweitert zum anderen die Vorstellungen von
+den reellen Zahlen durch Approximationen mittels analytischer Methoden. Weiter umfasst
 die Leitidee die Kenntnis, das Verstehen und das Anwenden mathematischer Verfahren,
 die prinzipiell automatisierbar und damit einer Rechnernutzung zugänglich sind.
-Die darauf bezogenen mathematischen Sachgebiete der Fachoberschule                                  sind vorwiegend
-die Anf äng e der  Analysis            und  die W  ahlthemen                                              Analytische Geometrie                       und Zahlenfolgen.
-Die Schülerinnen und Schüler k önnen
-–                   die Grundidee des Grenzwertbegriffs verstehen
-–                   geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen auswählen,
-     erläutern und anwenden
-–                   einf ache Sachverhalte mit Listen und Tabellen                                             beschreiben
+Die darauf bezogenen mathematischen Sachgebiete der Fachoberschule sind vorwiegend
+die Anfänge der Analysis und die Wahlthemen Analytische Geometrie und Zahlenfolgen.
 
-     W ahlthemen:
-–                   einf ache Sachverhalte mit Vek toren beschreiben
-–                   die Grenzwertdef inition auf  Zahlenf olgen anwenden
+Die Schülerinnen und Schüler können
+– die Grundidee des Grenzwertbegriffs verstehen
+– geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen auswählen,
+  erläutern und anwenden
+– einfache Sachverhalte mit Listen und Tabellen beschreiben
+
+  Wahlthemen:
+– einfache Sachverhalte mit Vektoren beschreiben
+– die Grenzwertdefinition auf Zahlenfolgen anwenden
 
 
-            Messen [L2]
-
-Diese Leitidee erweitert das Bestimmen und Deuten von Größen aus der Sek undarstufe I
-um analytische, numerische und analytisch-                     geometrische Methoden. Dies betrifft
-sowohl f unktionale Größen wie Änderungsraten und (re-                      )konstruierte Bestände als auch
-Größen im Koordinatensystem wie W ink el, Längen, Flächeninhalte und Volumina. Zur Er-
-mittlung krummlinig begrenzter Flächen wird der Integralbegriff eingeführt. W eiter umfasst
+      Messen [L2]
+Diese Leitidee erweitert das Bestimmen und Deuten von Größen aus der Sekundarstufe I
+um analytische, numerische und analytisch-geometrische Methoden. Dies betrifft
+sowohl funktionale Größen wie Änderungsraten und (re-)konstruierte Bestände als auch
+Größen im Koordinatensystem wie Winkel, Längen, Flächeninhalte und Volumina. Zur Er-
+mittlung krummlinig begrenzter Flächen wird der Integralbegriff eingeführt. Weiter umfasst
 die Leitidee stochastische Kenngrößen, die als Ergebnisse von Messprozessen im weiteren
-Sinne aufgef asst werden.
-Die darauf bezogenen mathematischen Sachgebiete der Fachoberschule                                  sind die Analysis                                 ,
-die Stochastik und das W ahlthema Analytische Geometrie.
-Die Schülerinnen und Schüler k önnen
-–                   Sek anten-                                             und Tangentensteigung an  Funk tionsgraphen                                                                                                               bestimmen
-–                   Inhalte von Flächen, die durch Funktionsgraphen ganzrationaler Funk tionen begrenzt
-     sind, mithilfe bestimmter Integrale ermitteln
-–                   das Volumen von Körpern bestimmen, die durch Rotation um die Abszissenachse ent-
-     stehen
-–                   Lage- und Streumaße einer Stichprobe bestimmen und deuten
-–                   den Erwartungswert bei Zuf allsexperimenten bestimmen und deuten
+Sinne aufgefasst werden.
+Die darauf bezogenen mathematischen Sachgebiete der Fachoberschule sind die Analysis,
+die Stochastik und das Wahlthema Analytische Geometrie.
+Die Schülerinnen und Schüler können
+– Sekanten- und Tangentensteigung an Funktionsgraphen bestimmen
+– Inhalte von Flächen, die durch Funktionsgraphen ganzrationaler Funktionen begrenzt
+  sind, mithilfe bestimmter Integrale ermitteln
+– das Volumen von Körpern bestimmen, die durch Rotation um die Abszissenachse ent-
+  stehen
+– Lage- und Streumaße einer Stichprobe bestimmen und deuten
+– den Erwartungswert bei Zufallsexperimenten bestimmen und deuten
 
-     W ahlthemen:
-–                   Streckenlängen und W inkelgrößen im Raum auch mithilf e des Sk alarprodukts
-     bestimmen
-–                   Abstände zwischen Punkten bestimmen
-
-
-
-
-
-                                                                                                                                                Seite | 23
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-             Raum und Form [L3]
-
-Diese Leitidee zielt                                                                               auf  die W eiterentwicklung des räumlichen Vorstellungsvermögens aus
-der Sekundarstufe                       I. Sie beinhaltet die Arbeit mit ebenen Figuren und erweitert das Spekt-
-rum um den Umgang mit Objekten im Raum. Es geht hier sowohl um Eigenschaf ten und
-Beziehungen dieser Objekte als auch um Darstellungen mit geeigneten Hilf smitteln, bei-
-spiels weise mit Geometriesof tware.
-Die zugehör igen mathem atischen Sachgebiete der Fachoberschule                               sind aus gewählte Anwen-
-dungs bereiche der Analys is und                        das W  ahlthema                       Analyt ische Geometrie.
-Die Schülerinnen und Schüler k önnen
-–                   geometrische Sachverhalte in der Ebene koordinatisieren (geometrische Interpretation
-     von Gleichungssystemen und ihren Lösungen) und im Koordinatensystem darstellen
-–                   Größen von ebenen Figuren und Körpern mit vorgegebenen Eigenschaften (z.             B.  Flä-
-     cheninhalt, Oberf lächeninhalt,  Volumen) berechnen
-
-
-     W ahlthemen:
-–                   geometrische Sachverhalte im Raum koordinatisieren und im Koordinatensystem dar-
-     stellen
-–                   elementare Operationen mit geometrischen Vek toren ausführen und Vektoren auf Kolli-
-     nearität untersuchen
-–                   Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen O b-
-     jek ten anwenden
-–                   das Sk alarprodukt geometrisch deuten
-–                   Geraden analytisch beschreiben und die Lagebeziehung von Punkten und Geraden
-     b z w.  Geraden und Geraden untersuchen
+  Wahlthemen:
+– Streckenlängen und Winkelgrößen im Raum auch mithilfe des Skalarprodukts
+  bestimmen
+– Abstände zwischen Punkten bestimmen
 
 
 
 
+                                                                               S e i t e | 23
+Rahmenlehrplan Fachoberschule Mathematik
 
 
 
 
+       Raum und Form [L3]
+Diese Leitidee zielt auf die Weiterentwicklung des räumlichen Vorstellungsvermögens aus
+der Sekundarstufe I. Sie beinhaltet die Arbeit mit ebenen Figuren und erweitert das Spekt-
+rum um den Umgang mit Objekten im Raum. Es geht hier sowohl um Eigenschaften und
+Beziehungen dieser Objekte als auch um Darstellungen mit geeigneten Hilfsmitteln, bei-
+spielsweise mit Geometriesoftware.
+Die zugehörigen mathematischen Sachgebiete der Fachoberschule sind ausgewählte Anwen-
+dungsbereiche der Analysis und das Wahlthema Analytische Geometrie.
+Die Schülerinnen und Schüler können
+– geometrische Sachverhalte in der Ebene koordinatisieren (geometrische Interpretation
+  von Gleichungssystemen und ihren Lösungen) und im Koordinatensystem darstellen
+– Größen von ebenen Figuren und Körpern mit vorgegebenen Eigenschaften (z. B. Flä-
+  cheninhalt, Oberflächeninhalt, Volumen) berechnen
+
+
+   Wahlthemen:
+– geometrische Sachverhalte im Raum koordinatisieren und im Koordinatensystem dar-
+  stellen
+– elementare Operationen mit geometrischen Vektoren ausführen und Vektoren auf Kolli-
+  nearität untersuchen
+– Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Ob-
+  jekten anwenden
+– das Skalarprodukt geometrisch deuten
+– Geraden analytisch beschreiben und die Lagebeziehung von Punkten und Geraden
+  bzw. Geraden und Geraden untersuchen
 
 
 
 
+S e i t e | 24
+                                                   Rahmenlehrplan Fachoberschule Mathematik
 
 
 
 
+       Funktionaler Zusammenhang [L4]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Seite | 24
-
-                                                                                          Rahm enlehrplan Fachober schule Mathem atik
-
-             Funktionaler Zusammenhang [L4]
- Diese Leitidee ist darauf gerichtet, die f unktionalen Vorstellungen aus der Sekundarstuf e I
-mit Begriffen und Verf ahren der elementaren Analysis zu vertief en und den Funktionsbegriff
+Diese Leitidee ist darauf gerichtet, die funktionalen Vorstellungen aus der Sekundarstufe I
+mit Begriffen und Verfahren der elementaren Analysis zu vertiefen und den Funktionsbegriff
 auf ganzrationale Funktionen und stochastische Kontexte zu erweitern. Es geht hier um
 funktionale Beziehungen zwischen Zahlen bzw. Größen sowie deren Darstellungen und
-Eigenschaften, auch unter Nutzung analytischer             Methoden und geeigneter Software.
-Die darauf bezogenen mathematischen Sachgebiete der Fachoberschule sind in erste                                                                              r
-Linie die Analysis, die Stochastik      und  die W ahlthemen                                                     Zahlenfolgen                                                                           und Anwendungen
+Eigenschaften, auch unter Nutzung analytischer Methoden und geeigneter Software.
+Die darauf bezogenen mathematischen Sachgebiete der Fachoberschule sind in erster
+Linie die Analysis, die Stochastik und die Wahlthemen Zahlenfolgen und Anwendungen
 ökonomischer Funktionen.
-Die Schülerinnen und Schüler k önnen
-–                   ganzrationale Funktionen zur Beschreibung und Untersuchung quantif izierbarer Zu-
-     sammenhänge nutzen (z. B. in Fragestellungen zu Sachsitutationen, die auf  Rekonstruk-
-     tion von Funk tionsgleichungen, Extremalprobleme etc. führen)
-–                   die Ableitung mithilf e linearer Funktionen deuten
-–                   Ableitungsf unktionen ganzrationaler Funk tionen unter Verwendung der Konstanten-,
-     Potenz-, Faktor- und Sum m enr eg el bestimmen und interpretieren
-–                   die Ableitung zur Bestimmung von Monotoniever halten, Extrempunkten, Krümmung                                                                   s-
-     verhalten und W endepunkten von Funktionen nutzen (notwendige/hinreichende                                                                                                                                      Bedin-
-     gung und inhaltliche Begründungen für                        die Exist enz)
-–                   Integrale ganzrationaler Funktionen mittels Stammf unktionen bestimmen
-–                   den Erwartungswert einer Zufallsvariablen ermitteln
+Die Schülerinnen und Schüler können
+– ganzrationale Funktionen zur Beschreibung und Untersuchung quantifizierbarer Zu-
+  sammenhänge nutzen (z. B. in Fragestellungen zu Sachsitutationen, die auf Rekonstruk-
+  tion von Funktionsgleichungen, Extremalprobleme etc. führen)
+– die Ableitung mithilfe linearer Funktionen deuten
+– Ableitungsfunktionen ganzrationaler Funktionen unter Verwendung der Konstanten-,
+  Potenz-, Faktor- und Summenregel bestimmen und interpretieren
+– die Ableitung zur Bestimmung von Monotonieverhalten, Extrempunkten, Krümmungs-
+  verhalten und Wendepunkten von Funktionen nutzen (notwendige/hinreichende Bedin-
+  gung und inhaltliche Begründungen für die Existenz)
+– Integrale ganzrationaler Funktionen mittels Stammfunktionen bestimmen
+– den Erwartungswert einer Zufallsvariablen ermitteln
 
 
-     W ahlthemen:
-–                   den Funktionsbegriff auf Zahlenf olgen übertragen
-–                   die abstrakten Funktionseigenschaften auf den konkreten Kontext der ö           konomischen
-     Funktionen anwenden
+  Wahlthemen:
+– den Funktionsbegriff auf Zahlenfolgen übertragen
+– die abstrakten Funktionseigenschaften auf den konkreten Kontext der ökonomischen
+  Funktionen anwenden
 
 
-            Daten und Zufall [L5]
-
-Diese Leitidee vernetzt Begriff e und Methoden zur Auf bereitung und Interpretation von
-statistischen Daten mit solchen zur Beschreibung und Modellierung von zuf allsabhängigen
-Situationen. In Ausweitung und Vertief ung stochastischer Vorstellungen der Sek undarst u-
-fe I umf asst diese Leitidee insbesondere den Umgang mit mehrstuf igen Zuf allsexperimen-
-ten und die Anwendung kombinatorischer Zählstrategien, auch mithilf e von Simulationen
+      Daten und Zufall [L5]
+Diese Leitidee vernetzt Begriffe und Methoden zur Aufbereitung und Interpretation von
+statistischen Daten mit solchen zur Beschreibung und Modellierung von zufallsabhängigen
+Situationen. In Ausweitung und Vertiefung stochastischer Vorstellungen der Sekundarstu-
+fe I umfasst diese Leitidee insbesondere den Umgang mit mehrstufigen Zufallsexperimen-
+ten und die Anwendung kombinatorischer Zählstrategien, auch mithilfe von Simulationen
 und unter Verwendung einschlägiger Software.
-Das darauf bezogene mathematische Sachgebiet der Fachoberschule                                   ist die Stochastik.
-Die Schülerinnen und Schüler k önnen
-–                   exemplarisch statistische Erhebungen planen und mit geeigneten Hilf smitteln auswerten
-–                   W ahrscheinlichkeiten von (mehrstuf igen) Zufallsversuchen berechnen
-–                   k ombinatorische Abzählverf ahren anwenden
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                            Seite | 25
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-4                                                                                    The men und Inhalte
+Das darauf bezogene mathematische Sachgebiet der Fachoberschule ist die Stochastik.
+Die Schülerinnen und Schüler können
+– exemplarisch statistische Erhebungen planen und mit geeigneten Hilfsmitteln auswerten
+– Wahrscheinlichkeiten von (mehrstufigen) Zufallsversuchen berechnen
+– kombinatorische Abzählverfahren anwenden
+
+
+
+
+                                                                               S e i t e | 25
+Rahmenlehrplan Fachoberschule Mathematik
+
+
+
+4     Themen und Inhalte
+Die Themenfelder gliedern sich in je vier Pflicht- und Wahlthemenfelder. Dabei muss neben
+den Pflichtthemenfeldern (1 bis 4) auch eines der Wahlthemenfelder (5 bis 8) behan-
+delt werden.
+
+    1. Elementare Funktionsuntersuchungen (Pflichtthema)
+
+Thema                      Inhaltliche Präzisierung                              Leitideen
+                            -   Definitions- und Wertebereich
+Funktionsbegriff            -   Funktionsdarstellungen (Wertetabelle, Funkti-    L4
+                                onsgleichung, Graph im Koordinatensystem)
+                            -   Funktionsgleichung
+                            -   Anstieg
+                            -   Achsenschnittpunkte
+Lineare Funktionen          -   Lagebeziehung zwischen zwei Geraden (Paral- L1, L4
+                                lelität, Orthogonalität, Schnittpunkt)
+                            -   Herleiten der Funktionsgleichung
+                                (z. B. aus zwei Punkten)
+                            -   Funktionsgleichung in allgemeiner Form
+                            -   Symmetrieeigenschaften
+                            -   Lage von Parabeln im Koordinatensystem
+                            -   Nullstellen und Achsenschnittpunkte (Lösen
+                                quadratischer Gleichungen)
+Quadratische Funktionen     -   Lagebeziehung zwischen Geraden und Para-         L1, L4
+                                beln
+                            -   Schnittpunkte zwischen zwei Parabeln
+                            -   Rekonstruktion von Parabelgleichungen aus
+                                Koordinaten von Punkten mithilfe von linearen
+                                Gleichungssystemen
+                            -   Symmetrie bezüglich y-Achse und Koordina-
+                                tenursprung
+                            -   Verhalten im Unendlichen
+                            -   Nullstellen und Achsenschnittpunkte
+                            -   Lösungsverfahren ganzrationaler Gleichungen
+Ganzrationale Funktionen        (z. B. Ausklammern, Substitution, n-te-Wurzel-   L1, L4
+bis 5. Grades                   Verfahren, Polynomdivision/Hornerschema,
+                                Zerlegung in Linearfaktoren)
+                            -   Wertetabelle, Darstellung der Funktionsgra-
+                                phen
+                            -   Lagebeziehung von Funktionsgraphen,
+                                Schnittpunkte von Graphen
+                            -   Maße, Umfang und Flächeninhalt ebener Figu-
+                                ren (Dreieck, Viereck, Kreis, auch zusammen-
+                                gesetzt) in Zusammenhang mit Funktionen und
+                                ihren Graphen (z. B. Dreieck, das aus den Ko-
+Anwendungen                     ordinatenachsen und einer Geraden gebildet    L2, L3, L4
+                                wird)
+                            -   Querschnittsfläche und Volumen einfacher
+                                Körper (Quader, Prisma und Zylinder), Volu-
+                                men von Kegel und Pyramide
+                            -   prozentuale Zusammenhänge
+
+
+
+S e i t e | 26
+                                                 Rahmenlehrplan Fachoberschule Mathematik
+
+
+
+
+   2. Differentialrechnung (Pflichtthema)
+
+Thema                     Inhaltliche Präzisierung                               Leitideen
+                           -   lokale und mittlere Änderung, graphisches Dif-
+                               ferenzieren
+                           -   Tangentenanstieg
+Ableitungsbegriff          -   Ableitungsfunktion                                L1, L2, L4
+                           -   Ableitungsregeln: Konstanten-, Faktor-, Sum-
+                               men- und Potenzregel (auch mit negativen
+                               Exponenten)
+                           -   höhere Ableitungen
+                           -   Monotonie und 1. Ableitung
+                           -   lokale Extrempunkte
+                           -   Krümmung und 2. Ableitung
+Funktionsuntersuchungen    -   Wendepunkte und Sattelpunkte                      L2, L4
+                           -   grafische Darstellung
+                           -   Bestimmung einer Tangentengleichung und
+                               einer Normalengleichung
+                           -   Rekonstruktion aus gegebenen Punkten
+Bestimmung von             -   Rekonstruktion unter Ausnutzung weiterer Ei-
+ganzrationalen                 genschaften, z. B. Symmetrie, Anstieg,            L1, L4
+Funktionsgleichungen           Extrem-, Wende- und Sattelstellen
+bis 5. Grades              -   Lösen von linearen Gleichungssystemen mit
+                               bis zu vier Variablen/Gleichungen
+                           -   Ermitteln der Zielfunktion und Untersuchung
+                               auf lokale Extrema
+                           -   Umfang und Flächeninhalt ebener Figuren in
+Extremwertaufgaben             Zusammenhang mit Funktionsgraphen                 L2, L3, L4
+                           -   Umfang und Flächeninhalt ebener Figuren in
+                               Anwendungsaufgaben
+                           -   Oberflächeninhalt und Volumen von Körpern
+
+Anwendungen                Modellierung von Verläufen und Formen durch           L2, L4
+                           ganzrationale Funktionen im Sachzusammenhang
+
+
+
+
+                                                                                S e i t e | 27
+Rahmenlehrplan Fachoberschule Mathematik
+
+
+
+
+    3. Integralrechnung (Pflichtthema)
 
-Die Themenfelder gliedern sich in je vier Pf licht-  und W ahlthemenfelder.  Dabei muss neben
-den    Pflichtthemenfeldern (1 bis 4) auch eines der Wahlthemenfelder (5 bis 8) behan-
-delt w erden.
+Thema                     Inhaltliche Präzisierung                             Leitideen
 
-       1.                     Elementare Funktionsuntersuchungen (Pflichtthema)
+Flächeninhaltsfunktion      geradlinig und krummlinig begrenzte Flächen        L1, L4
+                            (algebraische Bestimmung/Flächenapproximation)
+                            -   Stammfunktionen von ganzrationalen Funktio-
+                                nen
+                            -   Integrationsregeln (Potenz-, Faktor-, Konstan-
+Unbestimmtes und                ten- und Summenregel)
+bestimmtes Integral         -   bestimmtes Integral (Definition und Eigenschaf- L4
+                                ten)
+                            -   Unterscheidung von bestimmtem Integral und
+                                Flächeninhalt
+                            -   Orientierung von Flächen
+                            -   Fläche zwischen dem Graphen einer Funktion
+Berechnung von                  und der x-Achse
+                            -   Fläche zwischen zwei Funktionsgraphen          L2
+Flächeninhalten
+                            -   Berechnung weiterer Flächeninhalte unter Be-
+                                achtung von Integrationsintervallen
+                            -   Grund-, Querschnitts- und Deckflächen von
+                                Körpern
+Anwendungen                 -   Ermittlung von Körpervolumen V in der Form     L2
+                                V = A∙l unter Ausnutzung von Flächenberech-
+                                nungen und vorgegebener Länge l
+                            -   Berechnung des Volumens eines Rotations-
+                                körpers, der bei der Rotation eines ganzratio-
+Rotationsvolumen                nalen Funktionsgraphen um die x-Achse ent-      L2
+                                steht (nur lineare und quadratische Funktionen)
+                            -   Anwendung in Sachkontexten, z. B. Werk-
+                                stücke
 
-Thema                                                    Inhaltliche Präzisierung                                                                                       Leitideen
-Funktionsbegriff                                            -                                         Def initions- und W  ertebereich                                  L4
-                                                            -                                         Funktionsdarstellungen (W ertetabelle, Funkti-
-                                                                   onsgleichung, Graph im Koordinatensystem)
-                                                            -                                         Funktionsgleichung
-                                                            -                                         Anstieg
-Lineare Funk tionen                                         -                                         Achsenschnittpunkte                                               L1, L4
-                                                            -                                        Lagebeziehung zwischen zwei Geraden (Paral-
-                                                                   lelität, Orthogonalität, Schnittpunk t)
-                                                            -                                        Herleiten der Funk tionsgleichung
-                                                                   ( z.  B. aus zwei Punk ten)
-                                                            -                                        Funktionsgleichung in allgemeiner Form
-                                                            -                                         Symmetrieeigenschaften
-                                                            -                                        Lage von Parabeln im Koordinatensystem
-                                                            -                                        Nullstellen und Achsenschnittpunkte (Lösen
-Quadratische Funktionen                                            quadratischer Gleichungen)                                                                           L1, L4
-                                                            -                                        Lagebeziehung zwischen Geraden und Par            a-
-                                                                   beln
-                                                            -                                        Schnittpunk te zwischen zwei Parabeln
-                                                            -                                        Rek onstruktion von Parabelgleichungen aus
-                                                                   Koordinaten von Punk ten mithilf e von linearen
-                                                                   Gleichungssystemen
-                                                            -                                        Symmetrie bezüglich y-Achse und Koordina-
-                                                                   tenursprung
-                                                            -                                        Verhalten im Unendlichen
-                                                            -                                        Nullstellen und Achsenschnittpunkte
-Ganzrationale Funk tionen                                   -                                          Lösungsverfahren ganzrationaler Gleichungen
-bis 5. Grades                                                      (z. B. Ausk lammern, Substitution, n-te-W  ur zel-                                                   L1, L4
-                                                                   Verf ahren, Polynomdivision/Hornerschema,
-                                                                   Zerlegung in Linearfak toren)
-                                                            -                                        W ertetabelle, Darstellung der Funk tionsgra-
-                                                                    phen
-                                                            -                                        Lagebeziehung von Funktionsgraphen,
-                                                                    Schnittpunk te von Graphen
-                                                            -                                        Maße, Umf ang und Flächeninhalt ebener Fig u-
-                                                                   ren (Dreieck , Viereck, Kreis, auch zusammen-
-                                                                   gesetzt) in Zusammenhang mit Funktionen und
-                                                                   ihren Graphen (z.  B. Dreieck, das aus den K           o-
-Anwendungen                                                        ordinatenachsen und einer Geraden gebildet                                                           L2, L3, L4
-                                                                   wird)
-                                                            -                                        Querschnittsfläche und Volumen einf acher
-                                                                   Körper (Quader, Prisma und Zylinder), Volu-
-                                                                   men von Kegel und Pyramide
-                                                            -                                        prozentuale Zusammenhänge
 
 
 
-Seite | 26
+S e i t e | 28
+                                                 Rahmenlehrplan Fachoberschule Mathematik
 
-                                                                                                                            Rahm enlehrplan Fachober schule Mathem atik
 
 
 
-        2.                     Differentialrechnung (Pflichtthema)
+   4. Stochastik (Pflichtthema)
 
-Thema                                                              Inhaltliche Präzisierung                                                                                                          Leitideen
-                                                                      -                                        lok ale und mittlere Änderung, graphisches Dif-
-                                                                               ferenzieren
-                                                                      -                                         Tangentenanstieg
-Ableitungsbegriff                                                     -                                         Ableitungsf unktion                                                                  L1, L2, L4
-                                                                      -                                        Ableitungsregeln: Konstanten-                                           , Faktor-, Sum-
-                                                                               men-                                             und Potenzregel (auch mit negativen
-                                                                               Exponenten)
-                                                                      -                                         höhere Ableitungen
-                                                                      -                                        Monotonie und 1. Ableitung
-                                                                      -                                        lok ale Extrempunk te
-Funktionsuntersuchungen                                               -                                        Krümmung und 2. Ableitung                                                             L2, L4
-                                                                      -                                        W endepunk te und Sattelpunkte
-                                                                      -                                        graf ische Darstellung
-                                                                      -                                        Bestimmung einer Tangentengleichung und
-                                                                               einer Normalengleichung
-Bestimmung von                                                        -                                        Rek onstruktion aus gegebenen Punk ten
-ganzrationalen                                                        -                                        Rek onstruktion unter Ausnutzung weiterer Ei-
-Funktionsgleichungen                                                           genschaften, z. B. Symmetrie, Anstieg,                                                                                L1, L4
-bis 5. Grades                                                                  Ext r em -, W  ende-                                                                   und Sattelstellen
-                                                                      -                                        Lösen von linearen Gleichungssystemen mit
-                                                                               bis zu vier Variablen/Gleichungen
-                                                                      -                                        Ermitteln der Zielf unk tion und Untersuchung
-                                                                               auf  lok ale Ext r em a
-Extremwertaufgaben                                                    -                                        Umf ang und Flächeninhalt ebener Figuren in                                           L2, L3, L4
-                                                                               Zusammenhang mit Funktionsgraphen
-                                                                      -                                        Umf ang und Flächeninhalt ebener Figuren in
-                                                                               Anwendungsaufgaben
-                                                                      -                                        Oberf lächeninhalt und Volumen von Körpern
-Anwendungen                                                           Modellierung von Verläufen und Formen durch
-                                                                      ganzrationale Funktionen im Sachzusammenhang                                                      L2, L4
+Thema                     Inhaltliche Präzisierung                                Leitideen
+                           -   Erfassen, Aufbereiten und Auswerten von sta-
+                               tistischen Daten (Merkmale, Merkmalsausprä-
+                               gungen, Klasseneinteilungen, absolute und re-
+                               lative Häufigkeiten)
+Beschreibende Statistik    -   grafische Darstellung von Häufigkeitsverteilun-    L5
+                               gen (z. B. Säulen-, Kreisdiagramm, Histo-
+                               gramm)
+                           -   statistische Kenngrößen (Modus, Median,
+                               arithmetisches Mittel, Spannweite, Varianz,
+                               Standardabweichung)
+                           -   elementare Begriffe (Zufallsexperiment, Ergeb-
+                               nisraum, Ergebnis, Ereignis)
+                           -   Wahrscheinlichkeitsbegriff (empirisches Gesetz
+                               der großen Zahlen, Laplace-Experiment,
+                               Rechnen mit Wahrscheinlichkeiten)
+                           -   mehrstufige Zufallsexperimente (Baumdia-
+Wahrscheinlichkeits-           gramme, Pfadregeln)                            L2, L4, L5
+rechnung                   -   bedingte Wahrscheinlichkeiten (Unabhängig-
+                               keit von Ereignissen, Vierfeldertafel/Doppel-
+                               baum)
+                           -   Erwartungswert von Zufallsvariablen bestim-
+                               men (z. B. den Einsatz für ein „faires“ Spiel)
+                           -   Simulationen von Zufallsexperimenten mit ge-
+                               eigneten Hilfsmitteln
+                           -   Berechnung von Fakultät und Binomialkoeffi-
+Kombinatorische                zient                                              L5
+Abzählverfahren            -   Permutationen, Kombinationen, Variationen
+                               (jeweils mit und ohne Wiederholung)
 
 
+   5. Analytische Geometrie (Wahlthema)
 
+Thema                     Inhaltliche Präzisierung                                Leitideen
+                           -   Vektorbegriff (Orts- und Nullvektor, Betrag,
+                               Richtung, Richtungssinn)
+Vektoren                   -   Vektoroperationen (Addition, Subtraktion, reelle L1, L2, L3
+                               Vervielfachung und Skalarprodukt)
+                           -   lineare Abhängigkeit, Kollinearität
+                           -   Winkelberechnung und Orthogonalität
+                           -   Abstand von Punkten
+Punkt und Gerade           -   vektorielle Geradengleichung im Raum
+                           -   Lagebeziehung von Punkt und Gerade bzw.            L1, L3
+im Raum
+                               Gerade und Gerade im Raum
+                           -   grafische Darstellung
 
+Anwendung                  -   Untersuchung von Dreiecken und Vierecken           L1, L2, L3
+                           -   Lösen praktischer Problemstellungen
 
 
 
 
+                                                                                 S e i t e | 29
+Rahmenlehrplan Fachoberschule Mathematik
 
 
 
 
+    6. Zahlenfolgen (Wahlthema)
 
+Thema                       Inhaltliche Präzisierung                            Leitideen
+                             -   Folgen als spezielle Funktionen
+                             -   verschiedene Darstellungsformen von Zahlen-
+Folgen                           folgen                                         L4
+                             -   explizite und rekursive Bildungsvorschriften
+                             -   arithmetische und geometrische Zahlenfolgen
+                             -   Monotonie und Beschränktheit einer Folge
+Eigenschaften von            -   Grenzwert einer Zahlenfolge
+                             -   Grenzwertsätze für Zahlenfolgen                L1, L4
+Zahlenfolgen
+                             -   Nachweis des Grenzwerts mittels Grenzwert-
+                                 definition (ε-Umgebung)
 
+Anwendung                    -   Zinseszinsrechnung mit jährlicher Verzinsung   L4
+                             -   Rentenrechnung mit jährlicher Verzinsung
 
 
+    7. Anwendungen ökonomischer Funktionen (Wahlthema)
 
+Thema                       Inhaltliche Präzisierung                            Leitideen
+                             -   Kostenfunktion, Preisabsatzfunktion, Erlösfunk-
+Funktionen und Graphen           tion, Gewinnfunktion, Grenzfunktion             L4
+                             -   Zusammenhang der einzelnen Funktionen und
+                                 ihrer grafischen Darstellungen
 
+Erlös- und                   -   rechnerische Bestimmung mit Methoden der
+                                 Kurvendiskussion                               L4
+Gewinnmaximum
+                             -   Ablesen in der grafischen Darstellung
 
+Gewinnschwelle und           -   rechnerische Bestimmung                        L4
+Gewinngrenze                 -   Ablesen in der grafischen Darstellung
 
 
 
+    8. Freies Projekt (Wahlthema)
 
+Thema                       Inhaltliche Präzisierung                            Leitideen
+                             Für das Projekt eignen sich im besonderen Maße
+                             auch fächerübergreifende Themen.
+                             Besonderen Wert sollte auf das selbstständige Ar-
+Nach Möglichkeit sollte      beiten der Schülerinnen und Schüler bzw. Schü-
+das Projektthema aus der     lergruppen gelegt werden.
+Interessenlage der Schü-     Zu einer erfolgreichen Projektdurchführung gehört
+lerinnen und Schüler her-    auch die Dokumentation der Projektarbeit und eine offen
+aus von ihnen selbst be-     Präsentation der Arbeitsergebnisse.
+stimmt werden.               Methoden wie das Erforschen, Entdecken, Simulie-
+                             ren sowie Experimentieren können hier in den Ma-
+                             thematikunterricht Einzug halten. Außerdem kön-
+                             nen außerschulische Lernorte mit einbezogen
+                             werden.
 
-                                                                                                                                                                                                 Seite | 27
 
-Rahm enlehrplan Fachober schule Mathem atik
 
 
-
-       3.                     Integralrechnung (Pflichtthema)
-
-Thema                                                       Inhaltliche Präzisierung                                                                                             Leitideen
-Flächeninhaltsf unktion                                        geradlinig und krummlinig begrenzte Flächen
-                                                               (algebraische Bestimmung/Flächenapproximation)                              L1, L4
-                                                               -                                        Stammf unktionen von ganzrationalen Funktio-
-                                                                       nen
-                                                               -                                        Integrationsregeln (Potenz-,  Fak t or -, Konstan-
-Unbestimmtes und                                                       ten-                                             und Summenregel)                                         L4
-bestimmtes Integral                                            -                                        bestimmtes Integral (Def inition und Eigenschaf-
-                                                                       ten)
-                                                               -                                        Unterscheidung von bestimmtem Integral und
-                                                                       Flächeninhalt
-                                                               -                                        Orientierung von Flächen
-                                                               -                                        Fläche zwischen dem Graphen einer Funktion
-Berechnung von                                                         und der x-Achse                                                                                           L2
-Flächeninhalten                                                -                                        Fläche zwischen zwei Funktionsgraphen
-                                                               -                                        Berechnung weiterer Flächeninhalte unter Be-
-                                                                       achtung von Integrationsintervallen
-                                                               -                                         Grund-, Querschnitts- und Deckf lächen von
-Anwendungen                                                            Körpern                                                                                                   L2
-                                                               -                                        Ermittlung von Körpervolumen V in der Form
-                                                                       V = A∙l unter Ausnutzung von Flächenberech-
-                                                                       nungen und vorgegebener Länge l
-                                                               -                                        Berechnung des Volumens eines Rotations-
-                                                                       k örpers, der bei der Rotation eines ganzratio-
-Rotationsvolumen                                                       nalen Funktionsgraphen um die x-Achse ent-                                                                L2
-                                                                       steht (nur lineare und quadratische Funktionen)
-                                                               -                                        Anwendung in Sachkontexten, z. B. W erk-
-                                                                       st ück e
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Seite | 28
-
-                                                                                                               Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-       4.                     Stochastik (Pflichtthema)
-
-Thema                                                       Inhaltliche Präzisierung                                                                                             Leitideen
-                                                               -                                        Erf assen, Aufbereiten und Auswerten von sta-
-                                                                       tistischen Daten (Merkmale, Merkmalsausprä-
-                                                                       g ung en,  Klasseneinteilungen, absolute und re-
-                                                                       lative Häuf igkeiten)
-Beschreibende Statistik                                        -                                        graf ische Darstellung von Häuf igk eitsverteilun-                       L5
-                                                                       gen (z. B. Säulen-                                           , Kreisdiag ramm, Histo-
-                                                                       g ramm)
-                                                               -                                        statistische Kenngrößen (Modus, Median,
-                                                                       arithmetisches Mittel, Spannweite, Varianz,
-                                                                       Standardabweichung)
-                                                               -                                        elementare Begriffe (Zufallsexperiment, Ergeb-
-                                                                       nisraum, Ergebnis, Ereignis)
-                                                               -       W ahrscheinlichk eitsbegriff (empirisches Gesetz
-                                                                       der großen Zahlen, Laplace-                      Experiment,
-                                                                       Rechnen  mit W  ahrscheinlichk eiten)
-W ahrscheinlichk eits-                                         -                                        mehrstuf ige Zuf allsexperimente (Baumdia-
-rechnung                                                               gramme, Pf adregeln)                                                                                      L2, L4, L5
-                                                               -                                            bedingte W  ahrscheinlichk eiten  (Unabhängig-
-                                                                       k eit von Ereignissen, Vierf eldertaf el/Doppel-
-                                                                       baum)
-                                                               -                                        Erwartungswert von Zuf allsvariablen bestim-
-                                                                       men (z. B. den Einsatz für ein „f aires“ Spiel)
-                                                               -                                          Simulationen von Zuf allsexperimenten mit g e-
-                                                                       eig neten Hilfsmitteln
-Kombinatorische                                                -                                        Berechnung von Fak ultät und Binomialk oeff i-
-Abzählverf ahren                                                       zient                                                                                                     L5
-                                                               -                                        Permutationen, Kombinationen, Variationen
-                                                                       (jeweils mit und ohne W iederholung)
-
-
-       5.                     Anal ytische Geometrie (Wahlthema)
-
-Thema                                                       Inhaltliche Pr äz i si er ung                                                                                        Leitideen
-                                                               -                                        Vektorbegriff (Orts- und Nullvek tor, Betrag,
-                                                                       Richtung, Richtungssinn)
-Vektoren                                                       -       Vektoroperationen (Addition, Subtrak tion, reelle                                                         L1, L2, L3
-                                                                       Vervielf achung und Skalarprodukt)
-                                                               -                                        lineare Abhängigkeit, Kollinearität
-                                                               -                                        W ink elberechnung und Orthogonalität
-                                                               -                                        Abstand von Punk ten
-Punkt und Gerade                                               -                                        vektorielle Geradengleichung im Raum                                     L1, L3
-im Raum                                                        -                                        Lagebeziehung von Punkt und Gerade bzw.
-                                                                       Gerade und Gerade im Raum
-                                                               -                                        graf ische Darstellung
-Anwendung                                                      -                                        Untersuchung von Dreiecken und Vierecken
-                                                               -                                        Lösen praktischer Problemstellungen                                                                                                                                                                                                  L1, L2, L3
-
-
-
-
-
-                                                                                                                                                                             Seite | 29
-
-Rahm enlehrplan Fachober schule Mathem atik
-
-
-
-        6.                     Zahlenfolgen (Wahlthema)
-
-Thema                                                            Inhaltliche Präzisierung                                                                                                      Leitideen
-                                                                    -                                        Folgen als spezielle Funktionen
-Folgen                                                              -                                        verschiedene Darstellungsformen von Zahlen-                                       L4
-                                                                             folgen
-                                                                    -                                        explizite und rekursive Bildungsvorschriften
-                                                                    -                                        arithmetische und geometrische Zahlenf olgen
-                                                                    -                                        Monotonie und Beschränktheit einer Folge
-Eigenschaften von                                                   -                                        Grenzwert einer Zahlenfolge                                                       L1, L4
-Zahlenf olgen                                                       -                                          Grenzwertsätze f ür Zahlenf olgen
-                                                                    -                                          Nachweis des Grenzwerts mittels Grenzwert-
-                                                                             def inition (ε-Umgebung)
-Anwendung                                                           -                                        Zinseszinsrechnung mit jährlicher Verzinsung
-                                                                    -                                        Rentenrechnung mit jährlicher Verzinsung                                                                                                                                                                                 L4
-
-
-        7.                     Anw endungen ökonomischer Funktionen (Wahlthema)
-
-Thema                                                            Inhaltliche Präzisierung                                                                                                      Leitideen
-                                                                    -                                        Kostenf unktion, Preisabsatzf unktion, Erlösf un           k-
-Funktionen und Graphen                                                       tion, Gewinnf unktion, Grenzf unk tion                                                                            L4
-                                                                    -                                        Zusammenhang der einzelnen Funktionen und
-                                                                             ihrer graf ischen Darstellungen
-Erlös- und                                                          -                                        rechnerische Bestimmung mit Methoden der                                          L4
-Gewinnmaximum                                                                Kurvendisk ussion
-                                                                    -                                        Ablesen in der graf ischen Darstellung
-
-Gewinnschwelle und                                                  -                                        rechnerische Bestimmung
-Gewinngrenze                                                        -                                        Ablesen in der graf ischen Darstellung                                                                                                                                                                                    L4
-
-
-        8.                     Freies Projekt (Wahlthema)
-
-Thema                                                            Inhaltliche Präzisierung                                                                                                      Leitideen
-                                                                    Für das Projek t eignen sich im besonderen Maße
-                                                                    auch f ächerübergreif ende Themen.
-                                                                    Besonderen W ert sollte auf  das selbstständige Ar-
-Nach Möglichk eit sollte                                            beiten der Schülerinnen und Schüler b zw.  Sc h ü-
-das Projek tthema aus der                                           lergruppen gelegt werden.
-Interessenlage der Schü-                                            Zu einer erf olgreichen Projek tdurchführung gehört                                                                        of f en
-lerinnen und                                                                                                                                                                    Schüler her-auch die Dok umentation der Projektarbeit und eine
-aus von ihnen selbst be-                                            Präsentation der Arbeitsergebnisse.
-stimmt werden.                                                      Methoden wie das                                  Erf orschen, Entdecken, Simulie-
-                                                                    ren sowie Experimentieren k önnen hier in den Ma-
-                                                                    thematikunterricht Einzug halten. Außerdem kön-
-                                                                    nen außerschulische Lernorte mit einbezogen
-                                                                    werden.
-
-
-
-
-
-Seite | 30
-
-
-
-
+S e i t e | 30
+

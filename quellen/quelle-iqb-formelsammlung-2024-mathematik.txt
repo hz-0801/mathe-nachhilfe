@@ -1,478 +1,437 @@
 Gemeinsame Abituraufgabenpools der Länder
+
 Aufgaben für die Fächer Mathematik, Chemie
 und Physik
-
-Mathematisch-                                                                   naturw issenschaftliche Formelsammlung
-
+Mathematisch-naturwissenschaftliche Formelsammlung
 
 
 
-Als Hilf smittel für die Bearbeitung der Aufgaben des                                               Pools f ür die Fächer Mathematik, Chemie
-und Physik   ist  –  neben dem jeweiligen digitalen Hilf smittel –  eine mat hem at is c h -naturwissen-
-schaf tliche Formelsammlung                                                                    vorgesehen,  die  nur die im vorliegenden Dokument  enthaltenen
-Inhalte                       hat .  1
+
+Als Hilfsmittel für die Bearbeitung der Aufgaben des Pools für die Fächer Mathematik, Chemie
+und Physik ist – neben dem jeweiligen digitalen Hilfsmittel – eine mathematisch-naturwissen-
+schaftliche Formelsammlung vorgesehen, die nur die im vorliegenden Dokument enthaltenen
+Inhalte hat. 1
 Das Dokument stellt keine Formelsammlung im klassischen Sinn dar; insbesondere werden
 im Allgemeinen Voraussetzungen für die Gültigkeit von Formeln nicht genannt und im Ab-
-schnitt zum Fach Mathematik Bezeichnungen nicht erk lärt.
+schnitt zum Fach Mathematik Bezeichnungen nicht erklärt.
 
 
 
 
+1
+    Die Möglichkeit der Verwendung anderer Formeldokumente im Unterricht wird durch diese Formelsammlung nicht
+    berührt.
 
 
+                                                                                            Stand: 14.02.2024
+                                                                       Inhaltsverzeichnis
 
 
 
 
+Inhaltsverzeichnis
 
+Inhaltsverzeichnis __________________________________________________________ 2
+1    Mathematik ___________________________________________________________ 3
+    1.1   Grundlagen________________________________________________________ 3
+    1.2   Analysis __________________________________________________________ 5
+    1.3   Analytische Geometrie/Lineare Algebra __________________________________ 6
+    1.4   Stochastik _________________________________________________________ 7
+2    Chemie ______________________________________________________________ 9
+    2.1   Allgemeine Formeln _________________________________________________ 9
+    2.2   Gleichgewichtsreaktionen ___________________________________________ 10
+    2.3   Protonenübergänge ________________________________________________ 10
+    2.4   Elektronenübergänge _______________________________________________ 12
+    2.5   Energetische und kinetische Aspekte chemischer Reaktionen _______________ 13
+    2.6   Qualitative Analyse – Chromatografie __________________________________ 14
+    2.7   Quantitative und instrumentelle Analyse ________________________________ 14
+3    Physik ______________________________________________________________ 15
+    3.1   Mechanik ________________________________________________________ 15
+    3.2   Elektrizitätslehre und Magnetismus ____________________________________ 24
+    3.3   Optik ____________________________________________________________ 34
+    3.4   Quantenphysik und Materie __________________________________________ 36
+    3.5   Wärmelehre ______________________________________________________ 38
+    3.6   Spezielle Relativitätstheorie __________________________________________ 40
+    3.7   Kernphysik _______________________________________________________ 41
+    3.8   Astrophysik _______________________________________________________ 43
+4    Anhang _____________________________________________________________ 47
+    4.1   Größen, Einheiten und ihre Beziehungen untereinander ____________________ 47
+    4.2   Astronomische Entfernungsangaben ___________________________________ 50
+    4.3   Vorsätze bei Einheiten ______________________________________________ 50
+    4.4   Tabellierte Werte __________________________________________________ 50
 
 
 
 
+                                                                                            2
+                                                                                                           1 Mathematik
 
 
 
 
+1         Mathematik
 
 
+1.1       Grundlagen
 
 
+Ähnlichkeit zweier Dreiecke
+Die folgenden Aussagen zu zwei Dreiecken sind äquivalent:
+♦ Die Dreiecke sind ähnlich.
+♦ Die Größen der Winkel des einen Dreiecks stimmen mit den Größen der Winkel des anderen
+  Dreiecks überein.
+♦ Die Verhältnisse der Seitenlängen des einen Dreiecks stimmen mit den Verhältnissen der
+  Seitenlängen des anderen Dreiecks überein.
 
 
+Binomische Formeln
+                            2                                              2
+a2 + 2ab + b2 = ( a + b )                   a2 − 2ab + b2 = ( a − b )                       a2 − b2 = ( a + b ) ⋅ ( a − b )
 
 
+Maße von Figuren
 
+     Dreieck           Parallelogramm 2                  Trapez                    Drachenviereck                 Kreis
+    A = 21 ⋅ g ⋅ h           A= g ⋅ h              A =21 ⋅ ( a + c ) ⋅ h              A = 21 ⋅ e ⋅ f            A= π ⋅ r 2
 
+                                                                                                               U 2π ⋅ r
+                                                                                                               =
 
 
 
-1    Die Möglichkeit der Verwendung                                   anderer Formeldokumente im  Unterricht wi rd  durch diese Formelsammlung                                                     nicht
-   berührt.
 
+Maße von Körpern
 
-                                                                                                                                                                        Stand: 14.02.2024
+     Prisma           Pyramide                   Zylinder                            Kegel                      Kugel
+V AG ⋅ h
+=                    V =31 ⋅ A G ⋅ h           V AG ⋅ h
+                                               =                                  V =31 ⋅ A G ⋅ h          V
+                                                                                                           =      4 π ⋅ r3
+                                                                                                                  3
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Inhaltsverzeichnis
+                                             für gerade Zylinder:                für gerade Kegel:          A=
+                                                                                                             O 4π ⋅ r 2
+                                         A O = 2 ⋅ A G + 2π ⋅ r ⋅ h            A O= A G + π ⋅ r ⋅ m
+                                                                           (m: Abstand der Spitze vom
+                                                                             Rand der Grundfläche)
 
 
-                                                          Inhaltsverzeichnis
 
 
-                                                          Inhaltsverzeichnis  __________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  2
-                                                          1                                              Mathematik    ___________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        3
-                                                                                       1.1                                        Grundlagen ________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      3
-                                                                                       1.2                                        Analys is       __________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  5
-                                                                                       1.3                                       Analytische Geometrie/Lineare Algebra __________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  6
-                                                                                       1.4                                        Stochastik _________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            7
-                                                          2                                              Chemie      ______________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          9
-                                                                                       2.1                                       Allgemeine Formeln                       _________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            9
-                                                                                       2.2                                        Gleichgewichtsreaktionen                                                                                                   ___________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        10
-                                                                                       2.3                                        Protonenübergänge  ________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      10
-                                                                                       2.4                                        Elek tronenübergänge _______________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                12
-                                                                                       2.5                                       Energetische und k inetische Aspek te chemischer Reaktionen     _______________                                                                                                                                                                                                                                                                                                                                               13
-                                                                                       2.6                                       Qualitative Analyse –                                  Chr om at og r af ie                          __________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  14
-                                                                                       2.7                                       Quantitative und instrumentelle Analyse        ________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      14
-                                                          3                                              Physik     ______________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          15
-                                                                                       3.1                                        Mechanik       ________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      15
-                                                                                       3.2                                        Elek trizitätslehre und Magnetismus  ____________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              24
-                                                                                       3.3                                        Optik ____________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              34
-                                                                                       3.4                                       Quantenphysik und Materie                      __________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  36
-                                                                                       3.5                                        W ärmelehre     ______________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          38
-                                                                                       3.6                                       Spezielle Relativitätstheorie                    __________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  40
-                                                                                       3.7                                        Kernphysik  _______________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                41
-                                                                                       3.8                                        Astrophysik _______________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                43
-                                                          4                                              Anhang                                                                                                                    _____________________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    47
-                                                                                       4.1                                       Größen, Einheiten und ihre Beziehungen untereinander ____________________                                                                                                                                                                                                                                                                                                                                                                                                                                                             47
-                                                                                       4.2                                       Astronomische Entf ernungsangaben ___________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        50
-                                                                                       4.3                                       Vorsätze bei Einheiten ______________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          50
-                                                                                       4.4                                          Tabellierte W  erte       __________________________________________________                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  50
+2
+    Ein Parallelogramm mit vier gleich langen Seiten wird als Raute bezeichnet.
 
 
+                                                                                                                              3
+                                                                                                                  1 Mathematik
 
 
 
 
+Potenzen und Logarithmen
 
+                                                                       (a ) = a                                       (n a )
+                         r                                                   s                       m                     m
+ar ⋅ br = ( a ⋅ b )                     ar ⋅ as =
+                                                ar + s                   r            r ⋅s
+                                                                                                  an
+                                                                                                  =
+                                                                                                          n
+                                                                                                           am
+                                                                                                           =
 
+             r
+ar  a                                 ar                                       1
+  =                                         = ar −s                  a −r =
+br  b                                 a   s
+                                                                                 ar
 
+                                                        b
+loga ( b ⋅ c=
+            ) loga b + loga c                      log
+                                                     =a   loga b − loga c                           loga br = r ⋅ loga b
+                                                        c
 
 
+Quadratische Gleichung
 
+                  ( ) − q und x =− + ( ) − q sind die Lösungen der Gleichung x + px + q =0 .
+                             2                              2
+         p           p                        p         p                                                     2
+x1 =− 2 −            2              2         2         2
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2
 
-                                                                                                                                                                                                                                                                             1  Mathematik
 
+Rechtwinkliges Dreieck
+                 u
+♦ sin φ =
+                 w
+                 v
+     cos φ =
+                 w
+                 sin φ u
+     tan φ
+     =           =
+                 cos φ v
 
-                  1                                                             Mathematik
 
 
+♦ Satz des Pythagoras
+     Wenn ein Dreieck rechtwinklig ist, dann gilt für die Längen u und v der beiden Katheten und
+     die Länge w der Hypotenuse u2 + v 2 =  w2 .
+     Wenn für die Längen u, v und w der Seiten eines Dreiecks u2 + v 2 =
+                                                                       w 2 gilt, dann hat dieses
+     Dreieck einen rechten Winkel, der der Seite mit der Länge w gegenüber liegt.
+♦ Satz des Thales
+     Wenn ein Dreieck beim Eckpunkt W einen rechten Winkel hat, dann liegt W auf dem Kreis,
+     der den Mittelpunkt der gegenüberliegenden Seite als Mittelpunkt hat und durch die beiden
+     anderen Eckpunkte verläuft.
+     Wenn der Eckpunkt W eines Dreiecks auf dem Kreis liegt, der den Mittelpunkt der gegen-
+     überliegenden Seite als Mittelpunkt hat und durch die beiden anderen Eckpunkte verläuft,
+     dann hat dieses Dreieck bei W einen rechten Winkel.
 
-                  1.1                                     Grundlagen
 
+Symbole in Verbindung mit Mengen
 
-                  Ähnlichkeit zw eier Dreiecke
-                  Die f olgenden Aussagen zu zwei Dreieck en sind äquivalent:
-                  ♦ Die Dreiecke sind ähnlich.
-                  ♦ Die Größen der W  ink el des einen Dreieck s stimmen mit den Größen der W ink el des anderen
-                         Dreieck s überein.
-                  ♦ Die Verhältnisse der Seitenlängen des einen Dreiecks stimmen mit den Verhältnissen der
-                         Seitenlängen des anderen Dreiecks überein.
+IN = {0,1,2,3,...}                                       {x IR | x > 0}
+                                                    IR + =∈                                  [a;b] = {x ∈ IR | a ≤ x ≤ b }
+ZZ =   {..., − 3, − 2, − 1,0,1,2,3,...}                  {x IR | x ≥ 0}
+                                                    IR0+ =∈                                  ]a;b[ = {x ∈ IR | a < x < b }
+A ∩=
+   B         {x | x ∈ A ∧ x ∈ B}                        A ∪=
+                                                           B    {x | x ∈ A ∨ x ∈ B}          A \=
+                                                                                                B    {x | x ∈ A ∧ x ∉ B}
 
+                                                                                                                                 4
+                                                                                                1 Mathematik
 
-                  Binomische Formeln
-                   a                      222+   +=+abb                                       ab(                                            )2 a                                                            2a b                                       b                                                                              a                                      b22−   +=−(            )2 a                     b                                        a b               ab22− =+⋅−(            )   (            )
 
 
 
-                  Maße von                                                  Figuren
-                         Dreieck                                        Parallelogramm2                                                                      Trapez                                                 Drachenviereck                                                            Kreis
-                     A                                                                     gh= ⋅⋅1  A                      gh=       ⋅                   A                                                                 ach=⋅+⋅1(                )   A                                                                 ef= ⋅⋅1            A         πr=       ⋅2
-                                  2                                                                                                                          2                                                                           2
-                                                                                                                                                                                                                                                                               U2=        ⋅πr
+      Trigonometrie
 
+      sin ( −φ ) =− sin φ                             sin ( φ − 90° ) =− cos φ       ( sin φ )2 + ( cos φ )2 =
+                                                                                                             1
 
+      cos ( −φ ) =
+                 cos φ                                cos ( φ − 90° ) =sin φ
 
 
+      Winkelmaße
+      Beträgt die Größe eines Winkels im Gradmaß 360°, so beträgt sie im Bogenmaß 2π .
 
 
-                  Maße von Körper                                                            n
+      1.2   Analysis
 
-                          Prisma                                      Pyramide                                                            Zylinder                                                                        Kegel                                                         Kugel
-                      VA      h=        ⋅ V                                        Ah=⋅⋅1       G                                       VA      h=        ⋅                                                     V                                        Ah=⋅⋅1       G           V   πr=         ⋅4           3
-                                       G                                       3                                                                         G                                                                   3                                                                3
-                                                                          für gerade Zylinder:                                                                                                                                                 für gerade Kegel:                                                          A4O=        ⋅πr2
-                                                                                                                      A                                               2A                                            2OG=  ⋅        +       ⋅⋅πr hAAπr mOG=     +  ⋅⋅
-                                                                                                                                                                                                    (m: Abstand der Spitze vom
-                                                                                                                                                                                                         Rand der Grundfläche)
 
+      Ableitung
+                      f ( x ) − f ( x0 )     f ( x0 + h ) − f ( x0 )
+=f ′ ( x0 )     =lim                     lim
+               x → x0      x − x0        h→0           h
 
 
+      Ableitungen ausgewählter Funktionen
 
+             Term der Funktion         Term der Ableitungsfunktion
 
+                       xr                                r ⋅ xr −1
 
+                     sin x                               cos x
 
+                     cos x                               − sin x
 
+                       ex                                   ex
+                                                             1
+                      ln x                                   x
 
-                  2    Ein Parallelogramm mit vier gleich langen Seiten wird als Raute bezeichnet.
+                 − x + x ⋅ ln x                            ln x
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    3
+      Ableitungsregeln
 
-                                                                                                                                                                                                                                                                                                                                    1  Mathematik
+             Term der Funktion         Term der Ableitungsfunktion
 
+                   k ⋅ u(x)                            k ⋅ u′ ( x )
 
+                 u(x) + v (x)                      u′ ( x ) + v ′ ( x )
 
-                     Potenzen und Logarithmen
+                 u(x) ⋅ v (x)             u′ ( x ) ⋅ v ( x ) + u ( x ) ⋅ v ′ ( x )
 
-                           rr                                                                                                     r                               s                                              rs+         r                                                                                               rss⋅mn                               m                                                                 n
-                      a                b                                                 ab⋅=⋅(                                   )r aa                      a⋅=                                                     (                     )aa=                                                       aa                     an                                                                                                                                                                                                                                                             m=         =(                             )
+                   u ( v ( x ))                  u′ ( v ( x ) ) ⋅ v ′ ( x )
 
-                       aar              r                                                                                    a                                                             ar                                              rs−−             =r1
-                            r     =                                                                                              s      =                                                                          a                                                                             ar
-                       b                b                                                                                   a
 
-                      log                                       b                      c                                                         log                        b                                      log                         c(                                   )⋅=     + log                                                                                            log                        b                                     log                         cb log                        b                                                        r                        log                        br=      ⋅
-                                 a                                                                            aa                                                    a         aac =         −                                                                                                                    aa
 
 
-                     Quadratische Gleichung
+                                                                                                               5
+                                                                                                        1 Mathematik
 
-                                              pp2                                                                                          pp2                                                                                                                                                                                2
-                       xq1                                                                         22=−−                            −(              )und xq2                                                                             22=−+                            −(              ) sind die Lösungen der Gleichung x                                                            px                                        q                                       0+          +=.
 
 
 
-                     Rechtw inkliges Dreieck
-                     ♦         sin    φ                                              w=u
+Ableitung von Integralfunktionen
+               x
+Für I ( x ) = ∫ f ( t ) dt gilt I′ ( x ) = f ( x ) .
+               a
 
 
-                               cos    φ                                             w=v
 
-
-                               tan    φ                                            cos    φv=         =sin    φu
-
-
-
-
-                     ♦ Satz des Pythagoras
-                              W enn ein Dreieck  rechtwink lig ist, dann gilt für die Längen u und v der beiden Katheten und
-                              die Länge w der Hypotenuse                                                                                     uv     w22            2+=                      .
-                              W enn f ür die Läng en u, v und w der Seiten eines Dreiecks uv     w22            2+=                                                                                                                                                                                   g ilt, dann hat dieses
-                              Dreieck einen rechten W inkel, der der Seite mit der Länge w gegenüber liegt.
-                     ♦ Satz des Thales
-                              W enn ein Dreieck beim Eckpunkt W  einen rechten W inkel hat, dann liegt W  auf dem Kreis,
-                              der den Mittelpunk t der gegenüberliegenden Seite als Mittelpunkt hat und durch die beiden
-                              anderen Eck punkte verläuf t.
-                              W enn der Eckpunkt W  eines Dreiecks auf dem Kreis liegt, der den Mittelpunkt der gegen-
-                              überliegenden Seite als Mittelpunkt hat und durch die beiden anderen Eckpunkte verläuft,
-                              dann hat dieses Dreieck bei W  einen rechten                                            W  ink el.
-
-
-                     Symbole in Verbindung mit Mengen
-                      IN                                                         0,  1={                                                                             },     2,     3,   .  .  . IR                                                                              x                                        I   R          |           x                                            0+  =∈>{                                                                                                        } [         ]a   ;       b                                                                            x                                           IR            |            a                                               x                                              b=  ∈        ≤≤{                           }
-                       ZZ                                                      ...,                                 3,                                  2,                               1=   −−−{                                                  },   0,1,   2,   3, ... IR                                                                                 x                                           I     R            |              x                                              0+ =∈≥{                   } ]        [a   ;       b                                                                            x                                           IR            |            a                                               x                                              b=  ∈        <<{                        }
-                                                                                                                                                                     0
-
-                       A                                      B                                                  x| x                                  A                                    x                               B∩ =      ∈ ∧∈{                                 } A                                      B                                                  x| x                                  A                                    x                               B∪=      ∈ ∨∈{                     } A   \B                                                  x| x                                  A                                    x                               B=      ∈ ∧∉{                    }
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    4
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                               1  Mathematik
-
-
-
-                              Trigonometrie
-                               sin                                          φ                                                                                    sin    φ(                           )−=−                  sin                   φ                                      90                                                                                                   cos    φ(                                            )−          °=− (                             )                    (                                 )sin    φ                                                                                          cos    φ                                                                          122+=
-
-                               cos(                           )−=φ                                                        cos    φ                                                                                         cos(                                                                 )φ                                      90                                                                        sin    φ−              °=
-
-
-                              Winkelmaße
-                              Beträgt die Größe eines W inkels im Gradmaß 360°, so beträgt sie im Bogenmaß                                                                                                                                                                                                                                                                                                                                                         2π               .
-
-
-                              1.2                                     Analys is
-
-
-                              Ableitung
-                                f                                  x                                                                                               lim                                                                                                                                                                                                                                                                                            lim′   ==(                        )                                                                              (              )                               (                        )fx                                 fx                                                                                                                               fx                                   h                            fx−                                                                                                                                +−0                 00(                                                      )                             (                        )
-                                                   0                                                              x         x                                                                                                                                                                                                                                                      h0→→xx                                                                                                                                                                                                                                                                                        h−
-                                                                                               0                                             0
-
-
-                              Ableitungen ausgew ählter Funktionen
-
-                                                              Term der Funktion                                                                                                      Term    der Ableitung sf unktion
-
-                                                                                                         xr                                                                                                                         rx⋅               r1−
-
-                                                                                                  sin      x                                                                                                                          cos      x
-
-                                                                                                cos      x                                                                                                                          −sin      x
-
-                                                                                                       ex                                                                                                                                    ex
-
-                                                                                                     ln      x                                                                                                                                  1
-                                                                                                                                                                                                                                                x
-
-                                                                                  −+   ⋅x                                          x                       ln      x                                                                      ln      x
-
-
-                              Ableitungsregeln
-
-                                                              Term der Funktion                                                                                                      Term    der Ableitung sf unktion
-
-                                                                                           k  ux⋅              (              )                                                                                                ku       x⋅        ′(              )
-
-                                                                                ux                                   v  x(              )                                 (              )+                        ux                          v  x′′(              )                                      (              )+
-
-                                                                                  ux                   v  x(              )                         (              )⋅                u′′(              )                         (              )                                (              )                              (              )xv⋅ +⋅x              uxvx
-
-                                                                                         uv   x(                                           )(              )                                                 u      vx                                v         x′′(                                           )         (              )(              )⋅
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    5
-
-                                                                                                                                                                                                                                                                                                                                                                                                                    1  Mathematik
-
-
-
-                           Ableitung von Integralfunktionen
-
-                                                                            x
-                           Für I                   x                                                                                 f                        t                     dt(              )                                           (         )=     ∫ g ilt I   x                                 fx′                                  =(              )                               (              ).
-                                                                           a
-
-
-                           Bestimmtes Integral
-
-                                                                                                                                                                                                               b                                                                                                                                                                                                                                                                                            b
-                           Ist F eine Stammfunktion von f , so g ilt                                                                                                                                                 f    xd(              )                                                                    (              )                                                      (             )                                 (             )x                                     Fx                                                                          Fb                              Fa=               =         −.
-                                                                                                                                                                                                               ∫                                                 a
-                                                                                                                                                                                                               a
-
-
-                           Grenzw erte
-                           Ist px(              )                 ein Polynom, so g ilt                                                                                 lim                                                                                                                                                    0px(              ).
-                                                                                                                                                                    x→+∞                                                   =ex
-                           Ist px(              )                 ein nicht konstantes Polynom, so gilt                                                                                                                                                lim                                                                                                                                                    0ln      x.
-                                                                                                                                                                                                                                                   x→+∞                                                   =px(              )
-                           Ist px(              )                 ein Polynom ohne konstanten Summanden, so gilt                                                                                                                                                                                                     lim                          p                      x                                      ln      x                                                         0(                                                                                  )(              ).
-                                                                                                                                                                                                                                                                                                                   x0→                                                              ⋅=
-
-
-                           Rotationskörper
-
-                                                             b                                                                                                              2
-                             V                                            π                                                               f                         x                                                         dx=       ⋅∫(                                       )(              )
+Bestimmtes Integral
+                                                             b
+                                                                                  b
+Ist F eine Stammfunktion von f, so gilt ∫ f ( x=
+                                               ) dx F ( x=
+                                                           )a F (b ) − F ( a ) .
                                                              a
 
 
-                           Schneiden und Berühren                                                          zw eier Funktionsgraphen
-                           Die Graphen zweier Funktionen f und g schneiden sich in einem Punk t genau dann, wenn sie
-                           diesen Punkt gemeinsam haben.
-                           Die Graphen zweier Funktionen f  und g berühren sich in einem Punkt genau                                               dann, wenn sie
-                           diesen Punkt gemeinsam und dort die gleiche Steigung haben.
 
+Grenzwerte
+                                                       p (x)
+Ist p ( x ) ein Polynom, so gilt lim                             =0.
+                                            x →+∞       ex
+                                                                              ln x
+Ist p ( x ) ein nicht konstantes Polynom, so gilt lim                                =0.
+                                                                       x →+∞ p ( x )
 
-                           Zueinander senkrechte Geraden
-                           Zwei Geraden mit den Steigungen m1  und                                                                                                                                                                    m2  sind                      genau dann senkrecht zueinander, wenn
-                            mm                                                112⋅=− g ilt.
+Ist p ( x ) ein Polynom ohne konstanten Summanden, so gilt lim ( p ( x ) ⋅ ln x ) =
+                                                                                  0.
+                                                                                       x →0
 
 
-                           1.3                                    Analytische Geometrie/Lineare Algebra
 
+Rotationskörper
+           b
+                      2
+V= π ⋅ ∫ ( f ( x ) ) dx
+           a
 
-                           Skalarprodukt
-                                                                                                                                                                                                                                                                                                                                                         2
-                            a            b                        a=++1b                                     ab                                           ab1                                       22                                          33 a                             b                                               a                                   b                             cos    φ= ⋅⋅ aa                 a=
 
 
+Schneiden und Berühren zweier Funktionsgraphen
+Die Graphen zweier Funktionen f und g schneiden sich in einem Punkt genau dann, wenn sie
+diesen Punkt gemeinsam haben.
+Die Graphen zweier Funktionen f und g berühren sich in einem Punkt genau dann, wenn sie
+diesen Punkt gemeinsam und dort die gleiche Steigung haben.
 
 
+Zueinander senkrechte Geraden
+Zwei Geraden mit den Steigungen m1 und m2 sind genau dann senkrecht zueinander, wenn
+m1 ⋅ m2 =
+        −1 gilt.
 
 
+1.3     Analytische Geometrie/Lineare Algebra
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    6
+Skalarprodukt
+                                                                                          2
+a  b =a1b1 + a2b2 + a3b3                              a  b = a ⋅ b ⋅ cos φ                  aa = a
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                1  Mathematik
 
 
 
-                           Ebenen
-                           ♦ Parameterform:                                                                                                                             
-                                                                                                                          xaλu               μv= +⋅+⋅
-                           ♦ Koordinatenf orm:  n1x                                   nx                                         nx                                         k                       01                                    22                                        33+++=
-                           ♦ Normalenf orm:  n       xa                 0                                                                    −=
-                                                                                                                                    (                                            )
+                                                                                                                       6
+                                                                                                        1 Mathematik
 
 
-                           1.4                                     Stochastik
 
 
-                           Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit
-                             PB                                                    PA(               )                                     (                                                     )=PA                        B∩
-                                   A                                                    (                 )
+Ebenen
+                                  
+♦ Parameterform: x = a + λ ⋅ u + μ ⋅ v
+♦ Koordinatenform: n1x1 + n2 x 2 + n3 x3 + k =
+                                             0
+                   
+♦ Normalenform: n  x − a =   0(          )
+1.4    Stochastik
 
-                           Die f olgenden Aussagen zu Ereignissen A und B sind äquivalent:
-                           ♦ A und B sind stochastisch unabhängig.
-                           ♦ P                  A                                   PAB(                 )                                   (                 )=
-                           ♦ P                      B                                    PBA(               )                                    (               )=
 
+Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit
+             P ( A ∩ B)
+PA (B ) =
+               P(A)
 
-                           Binomialkoeffizient
-                             n                                                                                                                                  n!=
-                                                    ⋅−k                                                                k!                        n                                 k               !(                                          )
-                             
+Die folgenden Aussagen zu Ereignissen A und B sind äquivalent:
+♦ A und B sind stochastisch unabhängig.
+♦ PB ( A ) = P ( A )
+♦ PA (B ) = P (B )
 
 
-                           Zufallsgrößen
-                           ♦ Für eine Zufallsgröße X mit den W erten                                                                                                                                                                      x1,               x2           , …,                     xn           g ilt:
-                                                                                                                                                                               n
-                                       ♦         Erwartungswert:  EX                                                                                   x          PX                    x(                 )                                                                                        (                                                      )= ⋅=∑ii
-                                                                                                                                                                            i1=
-                                                                                                                                                   n                                                                                                                                                                                                                2
-                                       ♦        Varianz:                                          Var  X                                                                                                   x                          EX                                                  PX                    x(                 )                                                                                                       (                 )=  −    ⋅=∑(                                                                                   )                                     (                                                      )ii
-                                                                                                                                                 i1=
-                                       ♦        Standardabweichung:                                                                                                       Var                        X(                 )
+Binomialkoeffizient
+n         n!
+ =
+ k  k!⋅ ( n − k ) !
 
-                           ♦ Für eine binomialverteilte Zuf allsgröße X g ilt:
 
-                                       ♦           P           X        k                                                                                                           p                        1pnk(                                                )                                                                                              (                                       )nk=  =     ⋅  ⋅−−
-                                                         p                                                                                                                                                                                                  nk
-                                                                                                             
+Zufallsgrößen
+♦ Für eine Zufallsgröße X mit den Werten x1 , x 2 , …, xn gilt:
+                                               n
+  ♦ Erwartungswert:               E ( X ) = ∑ xi ⋅ P ( X = xi )
+                                               i=1
+                                     n
+                                                           2
+  ♦ Varianz:        Var ( X ) =     ∑ ( xi − E ( X ) ) ⋅ P ( X = xi )
+                                    i=1
 
-                                       ♦         Erwartungswert:  μ                 np=       ⋅
+  ♦ Standardabweichung:                       Var ( X )
 
-                                       ♦        Standardabweichung:                                                                                               σ                                               np              1           p=    ⋅⋅ −(                                       )
+♦ Für eine binomialverteilte Zufallsgröße X gilt:
+                        n
+  ♦ Pp
+        n
+            ( X = k ) =   ⋅ pk ⋅ (1 − p )n−k
+                        k 
+  ♦ Erwartungswert:               μ= n ⋅ p
 
-                                                                                                                                                                                                                                                                                                                                                                                          1         x             μ−2
-                           ♦ Dichtef unk tion einer normalverteilten Zuf allsgröße:                                                                                                                                                                                                              φx                                                                                                                                                                                                 e(              )=          ⋅1−⋅2                                  σ(                      )
-                                                                                                                                                                                                                                                                                                                                   σ                                                   2π⋅
+  ♦ Standardabweichung:                   σ=         n ⋅ p ⋅ (1 − p )
 
+                                                                                           ( )
+                                                                                                    2
+                                                                          1           − 21 ⋅ xσ−μ
+                                                     φ (x)
+♦ Dichtefunktion einer normalverteilten Zufallsgröße:=                           ⋅e
+                                                                        σ ⋅ 2π
 
 
 
 
+                                                                                                                       7
+                                                                                            1 Mathematik
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    7
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                    1  Mathematik
 
+Sigma-Regeln
+Ist X eine normalverteilte Zufallsgröße, so gilt:
+♦ P (μ − σ ≤ X ≤ μ + σ ) ≈ 68,3 %
+♦ P (μ − 1,64σ ≤ X ≤ μ + 1,64σ ) ≈ 90,0 %
+♦ P (μ − 1,96σ ≤ X ≤ μ + 1,96σ ) ≈ 95,0 %
+♦ P (μ − 2σ ≤ X ≤ μ + 2σ ) ≈ 95, 4 %
+♦ P (μ − 2,58σ ≤ X ≤ μ + 2,58σ ) ≈ 99,0 %
+♦ P (μ − 3σ ≤ X ≤ μ + 3σ ) ≈ 99,7 %
 
 
-                            Sigma-Regeln
-                            Ist X eine normalverteilte Zuf allsgröße, so g ilt:
-                            ♦ P                  μ                                       σ                                              X                                         μ                                       σ                                                            6  8,     3      %(                                                                                                                                               )−  ≤     ≤+           ≈
-                            ♦ P(                                                                                                                                                                                                   )μ                                  1−                                      ≤     ≤+                                              ≈,   64σ                                           X                                       μ                                   1,   64σ                                                         90,  0    %
-                            ♦ P(                                                                                                                                                                                                  )μ                                  1−                                      ≤     ≤+                                              ≈,  96σ                                           X                                      μ                                   1,  96σ                                                         95,  0    %
-                            ♦ P(                                                                                                                                                 )μ                                      2σ                                            X                                        μ                                       2σ                                                          9 5,     4     %−             ≤     ≤+                      ≈
-                            ♦ P(                                                                                                                                                                                                          )μ                                     2,  58σ                                           X                                      μ                                      2,  58σ                                                         99,  0    %−                                          ≤     ≤+                                                  ≈
-                            ♦ P(                                                                                                                                                 )μ                                     3σ                                            X                                       μ                                      3σ                                                         9 9,   7    %−             ≤     ≤+                      ≈
+Prognoseintervall und Konfidenzintervall
+Für eine binomialverteilte Zufallsgröße gilt näherungsweise:
+                             p ⋅ (1 − p )          p ⋅ (1 − p ) 
+♦ Prognoseintervall: p − c ⋅              ;p + c ⋅              
+                                 n                     n       
 
+                                  p ⋅ (1 − p )
+♦ Die Gleichung h − p =c ⋅                       liefert die beiden Grenzen eines Konfidenzintervalls für
+                                       n
+  den Wert von p.
 
-                            Prognoseintervall und Konfidenzintervall
-                            Für eine binomialverteilte Zuf allsgröße gilt näherungsweise:
 
-                                                                                                                                       p   1p                                                                                                                                      p   1p⋅−                                                                                           ⋅−(                                       )(                                       )
-                            ♦ Prognoseintervall:  p                                    c                                                                                                                                                                                                           ;p                                    c−⋅                                                                                                   +⋅nn
-                                                                                                                                       
-                                                                                                                                       
-                            ♦ Die Gleichung                                                                      hp           c                                                                                n−=⋅p   1p⋅−(                                       ) lief ert die beiden Grenzen eines Konf idenzintervalls f ür
+Signifikanztest
+Wird die Nullhypothese irrtümlich abgelehnt, so bezeichnet man dies als Fehler erster Art. Das
+Signifikanzniveau ist der Wert, den die Wahrscheinlichkeit für den Fehler erster Art nicht über-
+schreiten soll.
+Wird die Nullhypothese irrtümlich nicht abgelehnt, so bezeichnet man dies als Fehler zweiter
+Art.
 
-                                       den W ert von p.
 
 
-                            Signifikanztest
-                            W ird die Nullhypothese irrtümlich abg elehnt, so bezeichnet man dies als Fehler erster Art. Das
-                            Signif ik anzniveau ist der W ert, den die W  ahrscheinlichk eit für den Fehler erster Art nicht über-
-                            schreiten soll.
-                            W ird die Nullhypothese irrtümlich nicht abgelehnt, so bezeichnet man dies als Fehler zweiter
-                            Art.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    8
-
+                                                                                                            8

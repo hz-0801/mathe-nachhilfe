@@ -1,4 +1,5 @@
 Gemeinsame Abituraufgabenpools der Länder
+
 Aufgaben für das Fach Mathematik
 Inhaltliche Vereinbarungen zur Gestaltung der Aufgaben
 
@@ -6,155 +7,152 @@ Inhaltliche Vereinbarungen zur Gestaltung der Aufgaben
 
 
 Die Aufgaben der Pools werden auf der Grundlage der Bildungsstandards entwickelt; diese
-beschreiben Kompetenzen, d. h. Kenntnisse, Fertigk eiten, Fähigk eiten und Vorstellungen, die
-die Schülerinnen und Schüler bis zur Abiturprüfung erwerben sollen.  Für die Bearbeitung der
-Aufgaben    des Pools für das Fach Mathematik                             (Pr üf ung st eile A und B)      werden      auch    die im
-Folgenden beschriebenen                         Kompetenzen                                               vorausgesetzt.   Um Missverständnisse auszuschlie-
-ßen,                                                                  werden zu einzelnen Inhalten                                           auch Kompetenzen genannt, die nicht vorausgesetzt wer-
+beschreiben Kompetenzen, d. h. Kenntnisse, Fertigkeiten, Fähigkeiten und Vorstellungen, die
+die Schülerinnen und Schüler bis zur Abiturprüfung erwerben sollen. Für die Bearbeitung der
+Aufgaben des Pools für das Fach Mathematik (Prüfungsteile A und B) werden auch die im
+Folgenden beschriebenen Kompetenzen vorausgesetzt. Um Missverständnisse auszuschlie-
+ßen, werden zu einzelnen Inhalten auch Kompetenzen genannt, die nicht vorausgesetzt wer-
 den.
 
 
-1                                                                                         Allgemeines
 
+1        Allgemeines
 
-Es w ird vorausgesetzt, dass die Prüflinge …
-♦ den Zusammenhang  zwischen Geschwindig k eit und zurückg eleg ter Strecke k ennen und zur
-    Bearbeitung von Aufgaben nutzen können.
-♦ mit der Summenschreibweise unter Verwendung des Symbols                                                                   Σ   umgehen k önnen.
-♦ auf  erhöhtem Anforderungsniveau biquadratische Gleichungen lösen k önnen.                        1
-
-
-2                                                                                         Analysis
-
-
-Es w ird vorausgesetzt, dass die Prüflinge …
-♦ zu f olgenden Funktionstypen vertief te Kenntnisse, Fertigk eiten,            Fähigk eiten und Vorstellun-
-    g en besitzen:
-
-    ♦        natürliche Exponentialf unktionen
-
-    ♦        ganzrationale Funktionen
-
-    ♦        Sinus- und Kosinusfunktionen
+Es wird vorausgesetzt, dass die Prüflinge …
+♦ den Zusammenhang zwischen Geschwindigkeit und zurückgelegter Strecke kennen und zur
+  Bearbeitung von Aufgaben nutzen können.
+♦ mit der Summenschreibweise unter Verwendung des Symbols Σ umgehen können.
+♦ auf erhöhtem Anforderungsniveau biquadratische Gleichungen lösen können. 1
 
 
 
+2        Analysis
 
+Es wird vorausgesetzt, dass die Prüflinge …
+♦ zu folgenden Funktionstypen vertiefte Kenntnisse, Fertigkeiten, Fähigkeiten und Vorstellun-
+  gen besitzen:
+     ♦ natürliche Exponentialfunktionen
 
-1    Dies gilt nicht für Prüflinge auf grundlegendem Anforderungsniveau.
+     ♦ ganzrationale Funktionen
 
-
-                                                                                                                                                    Stand: 17.01.2022
-
-                                                                                                                                                                                                                                                   2  Anal ysis
-
-
-
-               ♦ zu f olgenden Funktionstypen über grundlegende Kenntnisse, Fertigkeiten, Fähigkeiten und
-                      Vorstellungen verf üg en:
-
-                      ♦        einf ache allgemeine Exponentialf unktionen
-
-                      ♦         einf ache gebrochen-                                                                  rationale                       Funktionen
-
-                      ♦        einf ache natürliche Logarithmusfunktionen  2
-
-                      ♦        einf ache W urzelf unktionen
-                      Unter einfachen Funktionen werden hier Funktionen verstanden, deren jeweilig er Graph aus
-                      dem Graphen zu                                  xa             x   mit a                                            I     R                                       \                              1;           e∈+{                         }, x      1, x                                                           ln      x b z w.  xx durch Verschie-
-                                                                                                                                                           x
-                      ben in x-  und y-Richtung, Strecken in x-  und y-Richtung sowie Spiegeln an x-  und y-Ac hse
-                      hervorgehen k ann.
-                      Als grundlegend werden Kompetenzen angesehen, die sich auf spezif ische Eig ensc haf t en
-                      des jeweiligen Funktionstyps (z. B. Definitionsbereich, W ertebereich, Nullstellen, Verlauf
-                      des Graphen) oder auf damit zusammenhängende einf ache Anwendungen beziehen.
-               ♦ das Krümmungsverhalten eines Funktionsgraphen untersuchen und die Koordinatehöriger W  endepunk te  ermitteln  k önnen.                                                                                                             n zuge-
-
-               ♦ zu einer gegebenen Funktion die Gleichung der zugehörigen Umkehrfunktion aufstellen
-                      k önnen, sofern dies die Kompetenzen zulassen, die bis zur Abiturprüf ung zu erwerben sind.
-               ♦ den Zusammenhang zwischen dem                                                                                                                         Graphen einer Funk tion und dem Graphen der zugehö-
-                      rigen Umk ehrf unktion k ennen.
-               ♦ wissen, dass die Def initionsmenge einer Funktion die W ertemenge der zugehörigen Um-k ehrf unktion ist und umgek ehrt.
-
-               ♦ mit der Schreibweise                                              lim                f                         x(               ) umgehen k önnen.
-                                                                                  x                             ...→
-
-               Es w ird ni cht  vorausgesetzt, dass die Prüflinge …
-               ♦ allgemeine Exponentialfunktionen rechnerisch                                                                                                   differenzieren oder integrieren können.
-               ♦ wissen, dass der Graph einer                                             Polynomf unk tion                                                      dritten Grades symmetrisch bezüg lich seines
-                      W endepunk ts ist.
-               ♦ Kenntnisse zu Ortsk urven und zur Bestimmung zugehöriger Gleichungen haben.
-               ♦ die Verf ahren der partiellen Integration und der Integration durch Substitution k ennen.
-               ♦ Mittelwerte durch Integration berechnen k önnen.
-               ♦ Kenntnisse zu                       uneig entlich                                           en Integralen haben.
-               ♦ Regressionsverf ahren durchf ühren k önnen  – auch nicht mithilf e entsprechender Funktionen
-                      eines modularen Mathematik systems (MMS)  3.
+     ♦ Sinus- und Kosinusfunktionen
 
 
 
 
+1
+    Dies gilt nicht für Prüflinge auf grundlegendem Anforderungsniveau.
+
+
+                                                                             Stand: 17.01.2022
+                                                                                     2 Analysis
 
 
 
 
+♦ zu folgenden Funktionstypen über grundlegende Kenntnisse, Fertigkeiten, Fähigkeiten und
+  Vorstellungen verfügen:
+     ♦ einfache allgemeine Exponentialfunktionen
 
-               2    Dieser Funktionstyp ist nur für das erhöhte Anforderungsniveau relevant.
-               3    vgl. „Hinweise zur Verwendung von Hilfsmitteln“
+     ♦ einfache gebrochen-rationale Funktionen
 
+     ♦ einfache natürliche Logarithmusfunktionen 2
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2
+     ♦ einfache Wurzelfunktionen
 
-                                                                                                                                                                          3  Anal ytische                                                       Geometrie/Lineare Algebra
+     Unter einfachen Funktionen werden hier Funktionen verstanden, deren jeweiliger Graph aus
+     dem Graphen zu x  a x mit a ∈ IR + \ {1;e} , x  1x , x  ln x bzw. x  x durch Verschie-
+     ben in x- und y-Richtung, Strecken in x- und y-Richtung sowie Spiegeln an x- und y-Achse
+     hervorgehen kann.
+     Als grundlegend werden Kompetenzen angesehen, die sich auf spezifische Eigenschaften
+     des jeweiligen Funktionstyps (z. B. Definitionsbereich, Wertebereich, Nullstellen, Verlauf
+     des Graphen) oder auf damit zusammenhängende einfache Anwendungen beziehen.
+♦ das Krümmungsverhalten eines Funktionsgraphen untersuchen und die Koordinaten zuge-
+  höriger Wendepunkte ermitteln können.
+♦ zu einer gegebenen Funktion die Gleichung der zugehörigen Umkehrfunktion aufstellen
+  können, sofern dies die Kompetenzen zulassen, die bis zur Abiturprüfung zu erwerben sind.
+♦ den Zusammenhang zwischen dem Graphen einer Funktion und dem Graphen der zugehö-
+  rigen Umkehrfunktion kennen.
+♦ wissen, dass die Definitionsmenge einer Funktion die Wertemenge der zugehörigen Um-
+  kehrfunktion ist und umgekehrt.
+♦ mit der Schreibweise lim f ( x ) umgehen können.
+                               x →...
 
-
-               3                                                                                        Analytische Geometrie/Lineare Algebra
-
-
-
-               3.1                                    Alternative A1
-
-
-               Es w ird ni cht  vorausgesetzt, dass die Prüflinge …
-               ♦ Kenntnisse zur Beschreibung geometrischer Abbildungen durch Matrizen haben.
-
-
-               3.2                                    Alternative A2
-
-
-               Es w ird vorausgesetzt, dass die Prüflinge …
-               ♦ die spezifischen Eigenschaften einfacher geometrischer Körper (z.                  B. Prisma, Pyramide,
-                      Zylinder, Kegel, Kugel) kennen und zur Bearbeitung von Aufgaben nutzen können.
-               ♦ auch auf grundlegendem Anf orderungsniveau die Koordinaten des Schnittpunkts einer Ge-
-                      rade mit einer Koordinatenebene sowie die Koordinaten des Schnittpunkts einer Ebene mit
-                      einer Koordinatenachse bestimmen k önnen.                        4
-               ♦ auch auf grundlegendem Anf orderungsniveau die Größe des W inkels zwischen zwei Ebe-
-                      nen sowie die Größe des W  ink els zwischen einer Ebene und einer Gerade bestimmen k ön-
-                      nen.
-               ♦ Spiegelungen an Ebenen auf erhöhtem Anforderungsniveau uneingeschränkt                                                                           und auf
-                      grundlegendem Anforderungsniveau f ür  Punk te durchf ühren k önnen.
-
-               Es w ird ni cht  vorausgesetzt, dass die Prüflinge …
-               ♦ das Vek torprodukt zweier Vektoren kennen.
-
-
-               4                                                                                         Stochastik
-
-
-               Es w ird vorausgesetzt, dass die Prüflinge …
-               ♦ mit der Symbolschreibweise von Ereignissen (z. B.                                                                                                     A          und       B     ) und deren Verknüpfungen
-                      ( z.  B.         A   \B,            AB∩               und          AB∪              ) umgehen können.
-               ♦ W ahrscheinlichkeiten bei zufälligem Ziehen ohne Zurücklegen aus einer Menge, die aus
-                      T eilmeng en mit jeweils nicht unterscheidbaren Elementen besteht, mithilf e von Binomialk o-
-                      eff izienten bestimmen k önnen.
-               ♦ die Varianz und die Standardabweichung disk r et er  Zufallsgrößen bestimmen k önnen.
-               ♦ auf  erhöhtem Anf orderungsniveau dem                                                                                    T er m   der Dichtefunktion                                      zu einer normalverteilten
-                      Zuf allsgröße                              den        zugehörigen     Erwartungswert und die  zugehörige        Standardabweichung
-                      entnehmen und mithilf e des Terms W ahrscheinlichk eiten bestimmen k önnen.
+Es wird nicht vorausgesetzt, dass die Prüflinge …
+♦ allgemeine Exponentialfunktionen rechnerisch differenzieren oder integrieren können.
+♦ wissen, dass der Graph einer Polynomfunktion dritten Grades symmetrisch bezüglich seines
+  Wendepunkts ist.
+♦ Kenntnisse zu Ortskurven und zur Bestimmung zugehöriger Gleichungen haben.
+♦ die Verfahren der partiellen Integration und der Integration durch Substitution kennen.
+♦ Mittelwerte durch Integration berechnen können.
+♦ Kenntnisse zu uneigentlichen Integralen haben.
+♦ Regressionsverfahren durchführen können – auch nicht mithilfe entsprechender Funktionen
+  eines modularen Mathematiksystems (MMS) 3.
 
 
 
-               4    Nicht gefordert wird auf grundlegendem Anforderungsniveau die Bestimmung der Koordinaten des Schnittpunkts
-                   einer beliebigen Gerade mit einer beliebigen Ebene.
+
+2
+    Dieser Funktionstyp ist nur für das erhöhte Anforderungsniveau relevant.
+3
+    vgl. „Hinweise zur Verwendung von Hilfsmitteln“
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    3
+                                                                                                  2
+                                                                   3 Analytische Geometrie/Lineare Algebra
+
+
+
+
+3        Analytische Geometrie/Lineare Algebra
+
+
+3.1      Alternative A1
+
+
+Es wird nicht vorausgesetzt, dass die Prüflinge …
+♦ Kenntnisse zur Beschreibung geometrischer Abbildungen durch Matrizen haben.
+
+
+3.2      Alternative A2
+
+
+Es wird vorausgesetzt, dass die Prüflinge …
+♦ die spezifischen Eigenschaften einfacher geometrischer Körper (z. B. Prisma, Pyramide,
+  Zylinder, Kegel, Kugel) kennen und zur Bearbeitung von Aufgaben nutzen können.
+♦ auch auf grundlegendem Anforderungsniveau die Koordinaten des Schnittpunkts einer Ge-
+  rade mit einer Koordinatenebene sowie die Koordinaten des Schnittpunkts einer Ebene mit
+  einer Koordinatenachse bestimmen können. 4
+♦ auch auf grundlegendem Anforderungsniveau die Größe des Winkels zwischen zwei Ebe-
+  nen sowie die Größe des Winkels zwischen einer Ebene und einer Gerade bestimmen kön-
+  nen.
+♦ Spiegelungen an Ebenen auf erhöhtem Anforderungsniveau uneingeschränkt und auf
+  grundlegendem Anforderungsniveau für Punkte durchführen können.
+
+Es wird nicht vorausgesetzt, dass die Prüflinge …
+♦ das Vektorprodukt zweier Vektoren kennen.
+
+
+
+4        Stochastik
+
+Es wird vorausgesetzt, dass die Prüflinge …
+♦ mit der Symbolschreibweise von Ereignissen (z. B. A und B ) und deren Verknüpfungen
+  (z. B. A \ B , A ∩ B und A ∪ B ) umgehen können.
+♦ Wahrscheinlichkeiten bei zufälligem Ziehen ohne Zurücklegen aus einer Menge, die aus
+  Teilmengen mit jeweils nicht unterscheidbaren Elementen besteht, mithilfe von Binomialko-
+  effizienten bestimmen können.
+♦ die Varianz und die Standardabweichung diskreter Zufallsgrößen bestimmen können.
+♦ auf erhöhtem Anforderungsniveau dem Term der Dichtefunktion zu einer normalverteilten
+  Zufallsgröße den zugehörigen Erwartungswert und die zugehörige Standardabweichung
+  entnehmen und mithilfe des Terms Wahrscheinlichkeiten bestimmen können.
+
+
+
+4
+    Nicht gefordert wird auf grundlegendem Anforderungsniveau die Bestimmung der Koordinaten des Schnittpunkts
+    einer beliebigen Gerade mit einer beliebigen Ebene.
+
+
+                                                                                                                 3
+

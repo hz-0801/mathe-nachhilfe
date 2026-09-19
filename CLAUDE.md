@@ -11,6 +11,8 @@ Desktop (`%LOCALAPPDATA%\GitHubDesktop\app-*\resources\app\git\cmd\git.exe`),
 Python aus LibreOffice (`C:\Program Files\LibreOffice\program\python.exe`),
 sympy und pypdf per `pip install --target` in den Scratchpad, dann `PYTHONPATH`
 setzen. Kein pdftotext: Text mit pypdf, Seiten mit dem Read-Tool ansehen.
+Quellentexte für `quellen/` mit pdftotext -layout (poppler) erzeugen; pypdf
+zerlegt Wörter und ist dafür nicht geeignet.
 
 ## 1 Wo was liegt
 

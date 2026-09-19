@@ -1,45 +1,17 @@
-                         Anlage zum
+Anlage zum
 
-                         Rahmenlehrplan
-                         für die gymnasiale Oberstufe
+Rahmenlehrplan
+für die gymnasiale Oberstufe
 
-                         Teil C
+Teil C
 
-                         Mathematik
-
-
+Mathematik
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                          1
-
-Impressum
+                               1
+Impressum
 
 Erarbeitung
 
@@ -76,678 +48,242 @@ gymnasialen Oberstufe gültig.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Ministerium für Bildung, Jugend und Sport des Landes Brandenburg 2022
-https://creativecommons.org/licenses/by         -nd/4.0/deed.de
+https://creativecommons.org/licenses/by-nd/4.0/deed.de
+Inhaltsverzeichnis
 
+1     Vorbemerkungen............................................................................5
 
+2     Sachgebietsbezogene mathematische Inhalte ...............................7
+2.1   Algebra................................................................................................... 7
+2.2   Analysis.................................................................................................. 8
+2.3   Analytische Geometrie ......................................................................... 10
+2.4   Stochastik ............................................................................................ 11
+Anlage zum Teil C Mathematik
 
 
 
-Inhaltsverzeichnis
 
+Seite |4
+                                                             Anlage zum Teil C Mathematik
 
-1        Vorbemerkungen ............................................................................5
 
-2        Sachgebietsbezogene mathematische Inhalte ...............................7
-2.1      Algebra ................................................................................................... 7
-2.2      Analysis .................................................................................................. 8
-2.3      Analytische Geometrie ......................................................................... 10
-2.4      Stochastik ............................................................................................ 11
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Anlage zum Teil C Mathematik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-S e i t e   | 4
-
-                                                                              Anlage zum Teil C Mathematik
-
-1      Vorbemerkungen
-
-In  dieser  Anlage  zum  Rahmenlehrplan  für  den  Unterricht  in  der  gymnasialen  Oberstufe
+1    Vorbemerkungen
+In dieser Anlage zum Rahmenlehrplan für den Unterricht in der gymnasialen Oberstufe
 Mathematik werden sachgebietsbezogen verbindliche Inhalte für das Grund- und Leistungs-
 kursfach ausgewiesen, die Schülerinnen und Schüler ohne Verwendung von digitalen Werk-
-zeugen,  Formelsammlungen  bzw.  Tafelwerken  kennen  und  anwenden  können  müssen.
-Diese  verbindlichen  Inhalte  sind  in  Beziehung  zu  den  Inhalten  der  Kurshalbjahre  in  der
-Qualifikationsphase  der  gymnasialen  Oberstufe  zu  setzen.             Außerdem      wird  vorausgesetzt,
-dass   die   Schülerinnen   und   Schüler   grundlegende   mathematische   Inhalte,   die   in   der
+zeugen, Formelsammlungen bzw. Tafelwerken kennen und anwenden können müssen.
+Diese verbindlichen Inhalte sind in Beziehung zu den Inhalten der Kurshalbjahre in der
+Qualifikationsphase der gymnasialen Oberstufe zu setzen. Außerdem wird vorausgesetzt,
+dass die Schülerinnen und Schüler grundlegende mathematische Inhalte, die in der
 Sekundarstufe I vermittelt wurden, ohne die Verwendung dieser Hilfsmittel kennen und an-
 wenden können.
 
 
 
 
+                                                                             Seite |5
+Anlage zum Teil C Mathematik
 
 
 
 
+Seite |6
+                                                             Anlage zum Teil C Mathematik
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                   S e i t e  | 5
-
-Anlage zum Teil C Mathematik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-S e i t e   | 6
-
-                                                                          Anlage zum Teil C Mathematik
-
-
-2     Sachgebietsbezogene mathematische Inhalte
-
-2.1   Algebra
-
+2    Sachgebietsbezogene mathematische Inhalte
+2.1 Algebra
 –   Logarithmen
-         –   Zusammenhänge:
-             ln(𝑏) =  𝑥 ⇔   𝑒𝑥 =  𝑏 mit 𝑏 >  0
-             ln(1) =  0; ln(𝑒) =  1
-             𝑒ln⁡(𝑏)=  𝑏 mit 𝑏 >  0
+       – Zusammenhänge:
+          ln(𝑏) = 𝑥 ⇔ 𝑒 𝑥 = 𝑏 mit 𝑏 > 0
+          ln(1) = 0; ln(𝑒) = 1
+          𝑒 ln⁡(𝑏) = 𝑏 mit 𝑏 > 0
 
 –   Gleichungen
-         –   Lösen von Gleichungen
-                 -   quadratische Gleichungen
-                          -   Substitution bei biquadratischen Gleichungen
-                 -   Gleichungen durch Faktorisieren lösen (bspw. Gleichungen vom
-                     Grad 3 mit Polynomdivision und der Lösungsformel für quadratische Glei-
-                     chungen)
-                 -   einfache Bruchgleichungen
-                 -   einfache Exponentialgleichungen
-                 -   einfache Wurzelgleichungen
-                 -   einfache Betragsgleichungen
+       – Lösen von Gleichungen
+              - quadratische Gleichungen
+                    - Substitution bei biquadratischen Gleichungen
+              - Gleichungen durch Faktorisieren lösen (bspw. Gleichungen vom
+                Grad 3 mit Polynomdivision und der Lösungsformel für quadratische Glei-
+                chungen)
+              - einfache Bruchgleichungen
+              - einfache Exponentialgleichungen
+              - einfache Wurzelgleichungen
+              - einfache Betragsgleichungen
 
 –   Lineare Gleichungssysteme
-         –   Lösbarkeit und Lösungsmenge von linearen Gleichungssystemen
-         –   graphisches Lösen von Gleichungssystemen mit zwei Gleichungen und zwei
-             Variablen
+        – Lösbarkeit und Lösungsmenge von linearen Gleichungssystemen
+        – graphisches Lösen von Gleichungssystemen mit zwei Gleichungen und zwei
+           Variablen
 
 
 
 
+                                                                             Seite |7
+Anlage zum Teil C Mathematik
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                              S e i t e | 7
-
-Anlage zum Teil C Mathematik
-
-2.2   Analysis
-Die  folgenden  Angaben  beziehen  sich  auf  die  im  Rahmenlehrplan  für                 das  Grund-    und
+2.2 Analysis
+Die folgenden Angaben beziehen sich auf die im Rahmenlehrplan für das Grund- und
 Leistungskursfach jeweils ausgewiesenen Funktionsklassen.
 
-–    Funktionen
-         –   Eigenschaften:
-                  -   Definitionsbereich, Wertebereich
-                  -   Symmetrie
-                  -   Monotonie
-                  -   Verhalten im Unendlichen
-                  -   Krümmungsverhalten
-                  -   Schnittpunkte mit den Koordinatenachsen
-                  -   Extrempunkte und Wendepunkte (notwendiges und hinreichendes
-                      Kriterium)
-                  -   Schnittpunkte von Funktionsgraphen
-         –   qualitative Beschreibung des Verlaufs des Funktionsgraphen
-         –   Zusammenhang zwischen Funktionsgraph und Funktionsgleichung nach
-                  -   Spiegelung an der Abszissen- und Ordinatenachse und am Ursprung
-                  -   Verschiebung entlang der Ordinatenachse
-                  -   Streckung parallel zur Ordinatenachse
-                  -   Verkettung
-                  -   additiver und multiplikativer Verknüpfung
-         –   Zusammenhang zwischen Funktion und Umkehrfunktion
-         –   Rekonstruktion von Funktionsgleichungen aus graphischen Darstellungen bzw.
-             Funktionseigenschaften
-         –   Zuordnung von Funktionsgleichungen zu Funktionsgraphen und umgekehrt
+–   Funktionen
+       – Eigenschaften:
+              - Definitionsbereich, Wertebereich
+              - Symmetrie
+              - Monotonie
+              - Verhalten im Unendlichen
+              - Krümmungsverhalten
+              - Schnittpunkte mit den Koordinatenachsen
+              - Extrempunkte und Wendepunkte (notwendiges und hinreichendes
+                  Kriterium)
+              - Schnittpunkte von Funktionsgraphen
+       – qualitative Beschreibung des Verlaufs des Funktionsgraphen
+       – Zusammenhang zwischen Funktionsgraph und Funktionsgleichung nach
+              - Spiegelung an der Abszissen- und Ordinatenachse und am Ursprung
+              - Verschiebung entlang der Ordinatenachse
+              - Streckung parallel zur Ordinatenachse
+              - Verkettung
+              - additiver und multiplikativer Verknüpfung
+       – Zusammenhang zwischen Funktion und Umkehrfunktion
+       – Rekonstruktion von Funktionsgleichungen aus graphischen Darstellungen bzw.
+           Funktionseigenschaften
+       – Zuordnung von Funktionsgleichungen zu Funktionsgraphen und umgekehrt
 
-–    Differentialrechnung
-         –   mittlere Änderungsrate und Sekantensteigung
-         –   Ableitung an einer Stelle, momentane Änderungsrate, Tangentensteigung
-         –   Gleichungen von Sekanten, Tangenten und Normalen
-         –   Bestimmung des qualitativen Verlaufs des Funktionsgraphen der Ableitungs-
-             funktion aus dem Funktionsgraphen der Funktion (und umgekehrt)
-         –   Ableitungsfunktionen der zu behandelnden Funktionsklassen
-         –   Ableitungsregeln:
-                  -   Konstantenregel
-                  -   Faktorregel
-                  -   Potenzregel
-                  -   Summenregel
-                  -   Produktregel
-                  -   Kettenregel
-
-
+–   Differentialrechnung
+        – mittlere Änderungsrate und Sekantensteigung
+        – Ableitung an einer Stelle, momentane Änderungsrate, Tangentensteigung
+        – Gleichungen von Sekanten, Tangenten und Normalen
+        – Bestimmung des qualitativen Verlaufs des Funktionsgraphen der Ableitungs-
+            funktion aus dem Funktionsgraphen der Funktion (und umgekehrt)
+        – Ableitungsfunktionen der zu behandelnden Funktionsklassen
+        – Ableitungsregeln:
+                - Konstantenregel
+                - Faktorregel
+                - Potenzregel
+                - Summenregel
+                - Produktregel
+                - Kettenregel
 
 
 
 
+Seite |8
+                                                                Anlage zum Teil C Mathematik
 
 
 
-
-
-
-
-
-
-
-S e i t e | 8
-
-                                                                                 Anlage zum Teil C Mathematik
-
-
-–    Integralrechnung
-         –    bestimmtes Integral
-                   -   Eigenschaften: Additivität, Monotonie, Linearität
-                   -   Ermittlung von Flächeninhalten
-         –    Stammfunktionen elementarer Funktionen
-         –    Integrationsregeln:
-                   -   Faktorregel
-                   -   Potenzregel
-                   -   Konstantenregel
-                   -   Summenregel
-                   -   Integration durch     Substitution (lineare innere Funktion)
+–   Integralrechnung
+        – bestimmtes Integral
+               - Eigenschaften: Additivität, Monotonie, Linearität
+               - Ermittlung von Flächeninhalten
+        – Stammfunktionen elementarer Funktionen
+        – Integrationsregeln:
+               - Faktorregel
+               - Potenzregel
+               - Konstantenregel
+               - Summenregel
+               - Integration durch Substitution (lineare innere Funktion)
 
 Zusätzlich im Leistungskursfach:
-         –    Volumenformel für Rotationskörper bei Rotation um die Abszissenachse
+       –   Volumenformel für Rotationskörper bei Rotation um die Abszissenachse
 
 
 
 
+                                                                                Seite |9
+Anlage zum Teil C Mathematik
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                      S e i t e   | 9
-
-Anlage zum Teil C Mathematik
-
-2.3   Analytische Geometrie
-
+2.3 Analytische Geometrie
 –   Darstellung und Beschreibung von Punkten, Geraden, Flächen und Körpern im drei-di-
     mensionalen Koordinatensystem
 
 –   Vektoren
-         –   Koordinatendarstellung von Vektoren
-         –   Addition und Subtraktion von Vektoren (graphisch und rechnerisch)
-         –   Multiplikation von Vektoren mit einer reellen Zahl (graphisch und rechnerisch)
-         –   Darstellung von Vektoren als Linearkombinationen anderer Vektoren
-         –   Untersuchung von Vektoren auf lineare Abhängigkeit bzw. Unabhängigkeit
-         –   Skalarprodukt in Koordinatenform und koordinatenfreier Form
-         –   Orthogonalität von Vektoren
-         –   Betrag eines Vektors
+       – Koordinatendarstellung von Vektoren
+       – Addition und Subtraktion von Vektoren (graphisch und rechnerisch)
+       – Multiplikation von Vektoren mit einer reellen Zahl (graphisch und rechnerisch)
+       – Darstellung von Vektoren als Linearkombinationen anderer Vektoren
+       – Untersuchung von Vektoren auf lineare Abhängigkeit bzw. Unabhängigkeit
+       – Skalarprodukt in Koordinatenform und koordinatenfreier Form
+       – Orthogonalität von Vektoren
+       – Betrag eines Vektors
 
 –   Geraden
-         –   Parameterform
-         –   Koordinatenform
+       – Parameterform
+       – Koordinatenform
 
 –   Ebenen
-         –   Parameterform
-         –   Koordinaten- und Normalenform, Hessesche Normalenform
+       – Parameterform
+       – Koordinaten- und Normalenform, Hessesche Normalenform
 
 –   Abstände
-         –   Punkt - Punkt
-         –   Punkt - Ebene
+       – Punkt - Punkt
+       – Punkt - Ebene
 
 –   Ansätze zur Winkelberechnung
 
 –   Lagebeziehungen zwischen Punkten, Geraden und Ebenen
 
 –   Flächenberechnung
-         –   Dreieck
-         –   Rechteck
+        – Dreieck
+        – Rechteck
 
 –   Volumenberechnung
-         –   Pyramide
-         –   Prisma
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       – Pyramide
+       – Prisma
 
 
 
 
 S e i t e | 10
+                                                                      Anlage zum Teil C Mathematik
 
-                                                                               Anlage zum Teil C Mathematik
+2.4 Stochastik
+–   Kombinatorik
+       – Permutationen ohne Wiederholung: 𝑛!
+             - Definition 𝑛!
+             - Berechnung der Fakultät für 𝑛 ≤ 6
+       – Variationen mit Wiederholung: 𝑛𝑘
+                                             𝑛
+       – Kombinationen ohne Wiederholung: ( )
+                                             𝑘
+             - Eigenschaften:
+                  𝑛     𝑛        𝑛      𝑛          𝑛      𝑛
+                 ( ) = ( ) = 1; ( ) = (    ) = 𝑛; ( ) = (    )
+                  0     𝑛        1     𝑛−1         𝑘     𝑛−𝑘
 
-2.4    Stochastik
-
-–    Kombinatorik
-         –    Permutationen ohne Wiederholung: 𝑛!
-                  -    Definition 𝑛!
-                  -    Berechnung der Fakultät für 𝑛        ≤  6
-         –    Variationen mit Wiederholung: 𝑛𝑘
-         –    Kombinationen ohne Wiederholung: (𝑛)
-                  -    Eigenschaften:                       𝑘
-                       (𝑛)  =  (𝑛)  =  1; (𝑛)  =  (  𝑛   )  = 𝑛; (𝑛)   = (   𝑛   )
-                        0       𝑛          1       𝑛 −  1          𝑘       𝑛 −  𝑘
-
-–    Wahrscheinlichkeitsrechnung
-         –    Laplace-Wahrscheinlichkeit: 𝑃(𝐴)         =  Anzahl⁡der⁡für⁡𝐴⁡günstigen⁡Ergebnisse
-                                                            𝐴nzahl⁡der⁡möglichen⁡Ergebnisse
-         –    Baumdiagramm, Pfadregeln
-         –    Vierfeldertafel
-         –    Additionssatz: 𝑃(𝐴     ∪ 𝐵)  =  𝑃(𝐴)   + 𝑃(𝐵)   − 𝑃(𝐴   ∩ 𝐵)
-         –    bedingte Wahrscheinlichkeit:  𝑃        (𝐴)  =  𝑃(𝐴∩𝐵)
-                                                    𝐵         𝑃(𝐵)
-         –    Multiplikationssatz: 𝑃(𝐴     ∩ 𝐵)  =  𝑃(𝐴)   ∙𝑃𝐴(𝐵)   = 𝑃(𝐵)   ∙𝑃𝐵(𝐴)
-         –    stochastische Unabhängigkeit
-         –    Erwartungswert von Zufallsgrößen 𝑛
-         –    Binomialverteilung: 𝑃(𝑋      =  𝑘)  = (𝑘)  ∙ 𝑝𝑘 ∙ (1 −  𝑝)𝑛−𝑘
-         –    Darstellung von     Zufallsgrößen in Histogrammen
-         –    Ansätze zur Berechnung von Wahrscheinlichkeiten für binomialverteilte und
-              hypergeometrisch verteilte Zufallsgrößen
+–   Wahrscheinlichkeitsrechnung
+      – Laplace-Wahrscheinlichkeit: 𝑃(𝐴) = Anzahl⁡der⁡für⁡𝐴⁡günstigen⁡Ergebnisse
+                                             𝐴nzahl⁡der⁡möglichen⁡Ergebnisse
+      – Baumdiagramm, Pfadregeln
+      – Vierfeldertafel
+      – Additionssatz: 𝑃(𝐴 ∪ 𝐵) = 𝑃(𝐴) + 𝑃(𝐵) − 𝑃(𝐴 ∩ 𝐵)
+                                              𝑃(𝐴∩𝐵)
+      – bedingte Wahrscheinlichkeit: 𝑃𝐵 (𝐴) = 𝑃(𝐵)
+        –   Multiplikationssatz: 𝑃(𝐴 ∩ 𝐵) = 𝑃(𝐴) ∙ 𝑃𝐴 (𝐵) = 𝑃(𝐵) ∙ 𝑃𝐵 (𝐴)
+        –   stochastische Unabhängigkeit
+        –   Erwartungswert von Zufallsgrößen
+                                             𝑛
+        –   Binomialverteilung: 𝑃(𝑋 = 𝑘) = ( ) ∙ 𝑝𝑘 ∙ (1 − 𝑝)𝑛−𝑘
+                                             𝑘
+        –   Darstellung von Zufallsgrößen in Histogrammen
+        –   Ansätze zur Berechnung von Wahrscheinlichkeiten für binomialverteilte und
+            hypergeometrisch verteilte Zufallsgrößen
 
 Zusätzlich im Leistungskursfach:
-         –    inhaltliche Betrachtungen zu Hypothesentests
-         –    Interpretationen von Darstellun      gen normalverteilter Zufallsgrößen
+        –   inhaltliche Betrachtungen zu Hypothesentests
+        –   Interpretationen von Darstellungen normalverteilter Zufallsgrößen
 
 
 
 
+                                                                                     S e i t e | 11
+Anlage zum Teil C Mathematik
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                  S e i t e  | 11
-
-Anlage zum Teil C Mathematik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-S e i t e   | 12
+S e i t e | 12
+

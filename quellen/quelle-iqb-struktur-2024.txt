@@ -1,164 +1,144 @@
 Gemeinsame Abituraufgabenpools der Länder
+
 Aufgaben für das Fach Mathematik
 Beschreibung der Struktur
 
 
 
 
-Die Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife eröffnen                       unter-
-schiedliche Möglichkeiten zur Gestal         tung einer Prüfungsaufgabe.        1 Als mögliche Umsetzung
+Die Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife eröffnen unter-
+schiedliche Möglichkeiten zur Gestaltung einer Prüfungsaufgabe.1 Als mögliche Umsetzung
 der Bildungsstandards liegt den Aufgaben (jeweils mit Erwartungshorizont und Bewertungs-
-hinweisen) des Abituraufgabenpools die im Folgenden beschriebene Struktur z                       ugrunde, die
+hinweisen) des Abituraufgabenpools die im Folgenden beschriebene Struktur zugrunde, die
 bei der ländergemeinsamen Entwicklung der Aufgaben als Arbeitsgrundlage dient.
 
 
-1      Aufgaben, Ablauf der Prüfung und Arbeitszeit
 
+1       Aufgaben, Ablauf der Prüfung und Arbeitszeit
 
 Die Struktur der Aufgaben des Abituraufgabenpools für das Fach Mathematik gliedert die Prü-
 fungsaufgabe in zwei Teile. Im Prüfungsteil A ist eine Verwendung von Hilfsmitteln nicht vor-
 gesehen, im Prüfungsteil B dürfen Hilfsmittel verwendet werden2. Beide Prüfungsteile enthal-
 ten Aufgaben zu jedem der Sachgebiete Analysis, Analytische Geometrie/Lineare Algebra und
-Stochastik.   Der Prüfungsteil A besteht aus mehreren             nicht zusammenhängenden Aufgaben
+Stochastik. Der Prüfungsteil A besteht aus mehreren nicht zusammenhängenden Aufgaben
 jeweils geringen Umfangs. Für den Prüfungsteil B sind umfangreichere Aufgaben vorgesehen,
-die jeweils in zusammenhängende Teilaufgaben gegliedert sind                 ; dazu können auch Teilaufga-
+die jeweils in zusammenhängende Teilaufgaben gegliedert sind; dazu können auch Teilaufga-
 ben gehören, bei deren Bearbeitung Hilfsmittel keine Rolle spielen oder keinen nennenswerten
 Vorteil bieten.
 Zum Prüfungsteil A werden zwei Aufgabengruppen bereitgestellt, die sich dadurch unterschei-
-den, dass die Aufgaben der Aufgabengruppe               1 den Anforderungsbereichen          I und II zuzuord-
-nen sind, während die Aufgaben der Aufgabengruppe                  2 zumindest in einer Teilaufgabe den
+den, dass die Aufgaben der Aufgabengruppe 1 den Anforderungsbereichen I und II zuzuord-
+nen sind, während die Aufgaben der Aufgabengruppe 2 zumindest in einer Teilaufgabe den
 Anforderungsbereich III erreichen.
-Zu Prüfungsbeginn stehen den Prüflingen sowohl die Aufgaben zum Prüfungsteil                        A als auch
+Zu Prüfungsbeginn stehen den Prüflingen sowohl die Aufgaben zum Prüfungsteil A als auch
 die zum Prüfungsteil B zur Bearbeitung zur Verfügung. Jeder Prüfling entscheidet selbst über
 den Zeitpunkt, zu dem er die Bearbeitung zum Prüfungsteil A abgibt und die Hilfsmittel erhält.
-Dieser Zeitpunkt muss auf erhöhtem Anforderungsniveau innerhalb der er                      sten  110 Minuten
+Dieser Zeitpunkt muss auf erhöhtem Anforderungsniveau innerhalb der ersten 110 Minuten
 und auf grundlegendem Anforderungsniveau innerhalb der ersten 100 Minuten nach Prüfungs-
 beginn liegen.3
 
 
 
 
-
-1 Beispielsweise sind Aufgaben, die ohne Verwendung von Hilfsmitteln zu bearbeiten sind, als Teil einer Prüfungs-
-  aufgabe möglich, aber nicht vorgegeben.
-2 vgl. „Hinweise zur Verwendung von Hilfsmitteln“
-3 Diese Regelung zum Ablauf der Prüfung wird von allen Ländern ab dem Prüfungsjahr 2025 umgesetzt.
-
-
-                                                                                               Stand: 19.06.2024
-
-       1.1    Erhöhtes Anforderungsniveau
-
-       Die insgesamt zu erreichenden 100 Bewertungseinheiten verteilen sich folgendermaßen auf
-       die beiden Prüfungsteile und die drei Sachgebiete:
-
-                                Sachgebiet                Prüfungsteil A               Prüfungsteil B
-                                                         (ohne Hilfsmittel)          (mit Hilfsmitteln)
-                                  Analysis                                                   30
-                                 Stochastik                      30                          20
-                          Analytische Geometrie/                                             20
-                              Lineare Algebra
-
-       Zum Prüfungsteil A werden den Prüflingen aus der Aufgabengruppe 1 zum Sachgebiet Ana-
-       lysis zwei Aufgaben sowie zu jedem der Sachgebiete Analytische Geometrie/Lineare Algebra
-       und Stochastik eine Aufgabe zur Bearbeitung vorgelegt. Außerdem werden ihnen zu jedem
-       der drei Sachgebiete zwei Aufgaben der Aufgabengruppe 2 zur Auswahl gestellt; von diesen
-       sechs Aufgaben müssen zwei beliebige bearbeitet werden.
-       Die Arbeitszeit einschließlich Auswahlzeit beträgt 300 Minuten.4
+1
+    Beispielsweise sind Aufgaben, die ohne Verwendung von Hilfsmitteln zu bearbeiten sind, als Teil einer Prüfungs-
+    aufgabe möglich, aber nicht vorgegeben.
+2
+    vgl. „Hinweise zur Verwendung von Hilfsmitteln“
+3
+    Diese Regelung zum Ablauf der Prüfung wird von allen Ländern ab dem Prüfungsjahr 2025 umgesetzt.
 
 
-       1.2    Grundlegendes Anforderungsniveau
+                                                                                                Stand: 19.06.2024
+1.1     Erhöhtes Anforderungsniveau
 
-       Die insgesamt zu erreichenden 80 Bewertungseinheiten verteilen sich folgendermaßen auf die
-       beiden Prüfungsteile und die drei Sachgebiete:
+Die insgesamt zu erreichenden 100 Bewertungseinheiten verteilen sich folgendermaßen auf
+die beiden Prüfungsteile und die drei Sachgebiete:
 
-                                Sachgebiet                Prüfungsteil A               Prüfungsteil B
-                                                         (ohne Hilfsmittel)          (mit Hilfsmitteln)
-                                  Analysis                                                   25
-                                 Stochastik                      25                          15
-                          Analytische Geometrie/                                             15
-                              Lineare Algebra
-
-       Zum Prüfungsteil A wird den Prüflingen aus der Aufgabengruppe 1 zu jedem der Sachgebiete
-       Analysis, Analytische Geometrie/Lineare Algebra und Stochastik eine Aufgabe zur Bearbei-
-       tung vorgelegt. Außerdem werden ihnen zu jedem der drei Sachgebiete eine Aufgabe der Auf-
-       gabengruppe 1 und eine Aufgabe der Aufgabengruppe 2 zur Auswahl gestellt; zu jeder der
-       beiden Aufgabengruppen muss von den drei Aufgaben eine beliebige bearbeitet werden.
-       Die Arbeitszeit einschließlich Auswahlzeit beträgt 255 Minuten.5
+                        Sachgebiet               Prüfungsteil A            Prüfungsteil B
+                                               (ohne Hilfsmittel)         (mit Hilfsmitteln)
+                          Analysis                                               30
+                         Stochastik                                              20
+                                                       30
+                  Analytische Geometrie/
+                                                                                 20
+                     Lineare Algebra
 
 
+Zum Prüfungsteil A werden den Prüflingen aus der Aufgabengruppe 1 zum Sachgebiet Ana-
+lysis zwei Aufgaben sowie zu jedem der Sachgebiete Analytische Geometrie/Lineare Algebra
+und Stochastik eine Aufgabe zur Bearbeitung vorgelegt. Außerdem werden ihnen zu jedem
+der drei Sachgebiete zwei Aufgaben der Aufgabengruppe 2 zur Auswahl gestellt; von diesen
+sechs Aufgaben müssen zwei beliebige bearbeitet werden.
+Die Arbeitszeit einschließlich Auswahlzeit beträgt 300 Minuten.4
 
 
+1.2     Grundlegendes Anforderungsniveau
+
+Die insgesamt zu erreichenden 80 Bewertungseinheiten verteilen sich folgendermaßen auf die
+beiden Prüfungsteile und die drei Sachgebiete:
+
+                        Sachgebiet               Prüfungsteil A            Prüfungsteil B
+                                               (ohne Hilfsmittel)         (mit Hilfsmitteln)
+                          Analysis                                               25
+                         Stochastik                                              15
+                                                       25
+                  Analytische Geometrie/
+                                                                                 15
+                     Lineare Algebra
 
 
-
-
-
-
-
-       4  Werden in einem Land den Prüflingen zum Prüfungsteil B Aufgaben zur Auswahl gestellt, erhalten die Prüflinge
-          eine zusätzliche Auswahlzeit von 30 Minuten.
-       5  Werden in einem Land den Prüflingen zum Prüfungsteil B Aufgaben zur Auswahl gestellt, erhalten die Prüflinge
-          eine zusätzliche Auswahlzeit von 30 Minuten.
-
-
-                                                                                                                                2
-
-       2       Bewertungshinweise
-
-
-       Für die Bewertung ist für das erhöhte und das grundlegende Anforderungsniveau folgendes
-       Bewertungsraster vorgesehen.6 Das Bewertungsraster gibt an, wie die von einem Prüfling in
-       den Prüfungsteilen A und B insgesamt erreichten Bewertungseinheiten in Notenpunkte umge-
-       setzt werden.
-
-                                Notenpunkte         mindestens zu erreichender Anteil an den
-                                                insgesamt zu erreichenden Bewertungseinheiten
-                                      15                                 95 %
-                                      14                                 90 %
-                                      13                                 85 %
-                                      12                                 80 %
-                                      11                                 75 %
-                                      10                                 70 %
-                                      9                                  65 %
-                                      8                                  60 %
-                                      7                                  55 %
-                                      6                                  50 %
-                                      5                                  45 %
-                                      4                                  40 %
-                                      3                                  33 %
-                                      2                                  27 %
-                                      1                                  20 %
-                                      0                                   0%
+Zum Prüfungsteil A wird den Prüflingen aus der Aufgabengruppe 1 zu jedem der Sachgebiete
+Analysis, Analytische Geometrie/Lineare Algebra und Stochastik eine Aufgabe zur Bearbei-
+tung vorgelegt. Außerdem werden ihnen zu jedem der drei Sachgebiete eine Aufgabe der Auf-
+gabengruppe 1 und eine Aufgabe der Aufgabengruppe 2 zur Auswahl gestellt; zu jeder der
+beiden Aufgabengruppen muss von den drei Aufgaben eine beliebige bearbeitet werden.
+Die Arbeitszeit einschließlich Auswahlzeit beträgt 255 Minuten.5
 
 
 
 
+4
+    Werden in einem Land den Prüflingen zum Prüfungsteil B Aufgaben zur Auswahl gestellt, erhalten die Prüflinge
+    eine zusätzliche Auswahlzeit von 30 Minuten.
+5
+    Werden in einem Land den Prüflingen zum Prüfungsteil B Aufgaben zur Auswahl gestellt, erhalten die Prüflinge
+    eine zusätzliche Auswahlzeit von 30 Minuten.
+
+
+                                                                                                                   2
+2       Bewertungshinweise
+
+Für die Bewertung ist für das erhöhte und das grundlegende Anforderungsniveau folgendes
+Bewertungsraster vorgesehen.6 Das Bewertungsraster gibt an, wie die von einem Prüfling in
+den Prüfungsteilen A und B insgesamt erreichten Bewertungseinheiten in Notenpunkte umge-
+setzt werden.
+
+                       Notenpunkte       mindestens zu erreichender Anteil an den
+                                      insgesamt zu erreichenden Bewertungseinheiten
+                            15                               95 %
+                            14                               90 %
+                            13                               85 %
+                            12                               80 %
+                            11                               75 %
+                            10                               70 %
+                             9                               65 %
+                             8                               60 %
+                             7                               55 %
+                             6                               50 %
+                             5                               45 %
+                             4                               40 %
+                             3                               33 %
+                             2                               27 %
+                             1                               20 %
+                             0                               0%
 
 
 
 
+6
+    vgl. „Vereinbarung zur Gestaltung der gymnasialen Oberstufe und der Abiturprüfung“ in der jeweils geltenden
+    Fassung, Anlage 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       6  vgl. „Vereinbarung zur Gestaltung der gymnasialen Oberstufe und der Abiturprüfung“ in der jeweils geltenden
-          Fassung, Anlage 1
-
-
-                                                                                                                                   3
+                                                                                                                  3
+

@@ -158,6 +158,7 @@ Ein „?" hinter einem Wert bedeutet: plausibel, aber nicht am Bild geprüft; de
 ## 9 Offene Punkte
 
 - Bedeutung der Buchstaben A, B, C: geklärt als Schlussfolgerung aus dem Dateibestand (§ 4), nicht belegt. Ein IQB-Pool für die Fachhochschulreife existiert nicht: die Pools entstehen auf Grundlage der Bildungsstandards für die Allgemeine Hochschulreife [IQB-Pool], die FHR-Prüfung beruht auf FOSFHRV und FOS-Rahmenlehrplan (§ 4). Belegt 19.09.2026. Der verfügbare Bestand ist mit den sechzehn Heften ausgeschöpft (Umfang und Erweiterungen: fhr-pruefungen.md).
+[IQB-Pool]: IQB, Abituraufgabenpools, https://www.iqb.hu-berlin.de/de/schule/sekundarstufe-ii/abituraufgabenpools/
 - Nachschreibe-Vorschläge fehlen für alle Jahrgänge.
 - Drei Themen stellen in keiner Zeile das thema, sondern kommen nur als Nebentyp vor (Stammfunktion bilden, Bestimmtes Integral berechnen, Gleichungen lösen; § 6): aus dem Katalog lässt sich zu ihnen kein eigenes Heft bauen.
 - Zwei Vorschläge für den nächsten Abgleichlauf, nicht ausgeführt: die Definition von Produkt zweier Funktionsterme ausmultiplizieren auf mehrere Faktoren erweitern (2020-A-1a hat drei Linearfaktoren), und Dreieck in das Koordinatensystem einzeichnen mit Rechteck in das Koordinatensystem einzeichnen zu einem Typ Figur in das Koordinatensystem einzeichnen zusammenziehen.
