@@ -19,7 +19,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `CLAUDE.md` – wenn im Repo erfasst wird: Ablauf je Heft, Arbeitsregeln, Commit-Regel.
 - `katalog-prompt.md` – der Kern: Zeilenregel, die 37 Felder, Vokabular, Prüfung, Abgleichlauf. Gilt für alle Profile.
 - `konzept.md` – warum etwas so ist: Bausteine (§ 2), Themenkatalog (§ 3), Entscheidungen mit Kippbedingung (§ 4), Offenes (§ 6), Jahresroutine (§ 7), neue Prüfung aufnehmen (§ 8), Änderungen (§ 10).
-- `blatt-konzept.md` – die Heft-Phase: Sprossen, Decke, Merkmalsfrage (§ 7). Bei Widerspruch zum Prüfungsprompt gilt es. Liegt hier, weil beide Repos es brauchen.
+- `blatt-konzept.md` – die Heft-Phase: Sprossen, Decke, Merkmalsfrage (§ 7). Bei Widerspruch zum Prüfungsblatt-Prompt gilt es. Liegt hier, weil beide Repos es brauchen.
 - `faellig.md` – am Anfang eines Auftrags: Handlungen mit Termin oder Auslöser und bei wem sie liegen.
 
 ## msa/ – P10 Mathematik, Brandenburg, Oberschule/Gesamtschule, Niveau FOR
@@ -116,7 +116,7 @@ der Verlagsbände, `korpus/` maschineller Korpus, `baende/` Sammelbände, `iqb-p
 
 ## Repo blattbau – anderes Projekt
 
-`masterprompt.md`, `pruefungsprompt.md`, `mathblatt.sty`, `Anleitung_mathblatt.md`,
+`unterrichtsblatt.md`, `pruefungsblatt.md`, `mathblatt.sty`, `Anleitung_mathblatt.md`,
 `CHANGELOG.md` und die Testauswertungen liegen seit dem Umbau im eigenen Repo. Der
-Prüfungsprompt lädt die Kataloge per Abruf aus diesem Repo; nach dem Umbau müssen die
+Prüfungsblatt-Prompt lädt die Kataloge per Abruf aus diesem Repo; nach dem Umbau müssen die
 Pfade dort auf die Profilordner zeigen (`msa/msa-typen.csv` statt `msa-typen.csv`).

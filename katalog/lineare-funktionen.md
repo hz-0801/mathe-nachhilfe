@@ -65,7 +65,7 @@ Einheit 5 (Anwendung):
 - y-Achsenabschnitt mit Nullstelle verwechselt. [FD]
 - Punkt (x | y) vertauscht eingetragen. [MSK S4]
 - Bei m als Bruch (½) „1 nach rechts, ½ nach oben" nicht gezeichnet, sondern 2 nach rechts, 1 nach oben vergessen oder umgekehrt. [FD]
-- Steigung aus zwei Punkten mit vertauschter Reihenfolge oben/unten: (3 − 7) : (3 − 1). [Masterprompt-Muster 9; FD]
+- Steigung aus zwei Punkten mit vertauschter Reihenfolge oben/unten: (3 − 7) : (3 − 1). [Unterrichtsblatt-Prompt-Muster 9; FD]
 - Sonderfall m = 0 oder f(x) = x nicht als linear erkannt; senkrechte Gerade als Funktion angenommen. [RLP F Parametereinfluss]
 - Bei Tarifen Cent und Euro gemischt. [P10 Typ „Gleichung zu Tarif zuordnen" nennt Einheitenwechsel ausdrücklich]
 - Anfangswert und Änderung vertauscht (K(x) = 3,5x + 2). [P10 „Lineare Funktion aus Sachverhalt aufstellen"]

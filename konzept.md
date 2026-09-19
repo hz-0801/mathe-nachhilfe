@@ -22,7 +22,7 @@ Hier steht, warum es einen Baustein gibt. Wann man welche Datei öffnet, sagt RE
     <kennung>-typenbibliothek.md, .py  aus dem Katalog abgeleitet, nie editiert; der Erzeuger hält die Zählweise als Code fest (fhr; msa noch nicht)
     namensschema.md                    eine Benennung, die einen zweiten Träger derselben Prüfungsart verträgt (Entscheidung 32)
     hefte/, hefte-md/, korpus/, baende/, iqb-pdf/   lokal, nicht im Repo: Verlagsmaterial, Korpus, Sammelbände und Cache (.gitignore); pdf/ als Archiv der Hefte ist nicht angelegt (§ 6)
-    pruefungsprompt.md, masterprompt.md, mathblatt.sty, blatt-konzept.md, CHANGELOG.md   der Blattbau, ein eigenes Projekt im selben Repo (blatt-konzept.md § 5); Masterfassungen hier, die Projektanweisungen sind Kopien
+    pruefungsblatt.md, unterrichtsblatt.md, mathblatt.sty, blatt-konzept.md, CHANGELOG.md   der Blattbau, ein eigenes Projekt im selben Repo (blatt-konzept.md § 5); Masterfassungen hier, die Projektanweisungen sind Kopien
     faellig.md                         Handlungen mit Termin oder Auslöser und dem, bei dem sie liegen – getrennt von § 6, weil eine Entscheidung einen Grund des Wartens hat und eine Handlung einen Auslöser; kein Posten in beiden (Pflegeregel CLAUDE.md § 3)
     band-bau.py, <profil>-band-struktur.py, <profil>-band.csv, band-anleitung.md   Sammelband je Prüfungsart aus den Originalseiten mit Register aus dem Katalog, weil eine Katalogzeile ihre Fundstelle (Heft, Seite) nur nennt und der Band sie an einer festen, druckbaren Bandseite aufschlagbar macht; liest Katalog und Hefte, ändert nichts – anderes Projekt wie der Blattbau, Familienname band- (namensschema.md); Ausgabe baende/ lokal
     korpus-bau.py, korpus-protokoll.md   macht die Hefte aller vier Profile durchsuchbar, weil der Katalog keinen Volltext hält (§ 3 dieser Datei, Kern § 3) und die Erfassung selbst nur ein Bruchteil der Hefte je Profil abdeckt; rein maschinell (Text und Ganzseitenrender, kein Modell-Lesen), damit der ganze Bestand in vertretbarer Zeit läuft – anderes Projekt, Familienname korpus- (namensschema.md); liest die Heftordner, ändert nichts; Ausgabe korpus/ lokal
@@ -30,7 +30,7 @@ Hier steht, warum es einen Baustein gibt. Wann man welche Datei öffnet, sagt RE
 
 Seit dem 19.09.2026 liegen die Dateien in Ordnern: je Profil einer (msa/, fhr/, abitur/ für abi und iqb zusammen), dazu katalog/ (Themenkatalog), quellen/, werkzeuge/ und archiv/; übergreifende Regeln in der Wurzel. Die Dateinamen mit Präfix sind geblieben, damit Querverweise stimmen (Entscheidung 32 gilt für die Namen weiter; die flache Ablage ist aufgehoben, weil sie bei 73 Dateien den Überblick kostete). Die Landkarte ist README.md, sonst nichts. Blattbau (Prompts, Vorlage) liegt im eigenen Repo blattbau.
 
-Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentlich, damit curl ohne Anmeldung liest). Die Basis-URL steht an sieben Stellen – in den vier Profilen (§ 2), im Prüfungsprompt (2.1, 4.6) und im Masterprompt (4.6) –, die bei anderer Ablage geändert werden. Claude liest per curl und schreibt seit dem 13.09.2026 im Repo, der Lehrer pusht (Entscheidung 22). Geschrieben wird nur beim Aufbau und einmal im Jahr (§ 7).
+Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentlich, damit curl ohne Anmeldung liest). Die Basis-URL steht an sieben Stellen – in den vier Profilen (§ 2), im Prüfungsblatt-Prompt (2.1, 4.6) und im Unterrichtsblatt-Prompt (4.6) –, die bei anderer Ablage geändert werden. Claude liest per curl und schreibt seit dem 13.09.2026 im Repo, der Lehrer pusht (Entscheidung 22). Geschrieben wird nur beim Aufbau und einmal im Jahr (§ 7).
 
 ## 3 Themenkatalog
 
@@ -42,10 +42,10 @@ einer Stelle prüfbar und korrigierbar.
 
 Beide Prompts lesen dieselbe Datei und nehmen daraus, was ihnen fehlt:
 
-- Der Masterprompt bekommt die didaktische Struktur, die er sonst in jedem Lauf neu
+- Der Unterrichtsblatt-Prompt bekommt die didaktische Struktur, die er sonst in jedem Lauf neu
   erfindet – Stoffauswahl, Reihenfolge, Niveau. Er erfindet dann nur noch Zahlen und
   Kontexte.
-- Der Prüfungsprompt bekommt die Gliederung in Lerneinheiten, die der Prüfungskatalog
+- Der Prüfungsblatt-Prompt bekommt die Gliederung in Lerneinheiten, die der Prüfungskatalog
   nicht hat: Er kennt Typen und Originale, aber keine Lernreihenfolge.
 
 Arbeitsteilung mit dem Prüfungskatalog: Der Themenkatalog sagt, **was** gelernt wird,
@@ -57,7 +57,7 @@ Thema sind dieselben, ob der Schüler P10, FHR oder Abitur schreibt – verschie
 die oberste Sprosse. Ein Thema bekommt deshalb einen Eintrag, nicht einen je Profil.
 
 Offen: Die vorhandenen Sek-I-Einträge führen Sprossen. Gemeint ist die Lernreihenfolge,
-nicht die Teilaufgabenfolge eines Hefts – die baut der Prüfungsprompt aus den Originalen
+nicht die Teilaufgabenfolge eines Hefts – die baut der Prüfungsblatt-Prompt aus den Originalen
 (blatt-konzept.md §3). Ob die Trennung in der Praxis hält, entscheidet der erste
 Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
 
@@ -78,8 +78,8 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 3. Decke ist das Original. Über das Prüfungsniveau geht kein Blatt hinaus.
     Zahl: fhr 29 von 135 Typen ohne Vorkommen ab 2023, darunter beide Fundstellen des Themas Erwartungswert (fhr.md § 9) – deshalb ist die Decke das Original mit den meisten Merkmalen, nicht das jüngste.
     Kippt bei: einem Formatwechsel, der den Bestand entwertet (P10 ab 2028: hilfsmittelfreier Teil, 50 statt 60 BE, msa-vorgaben.md) – dann kommt die Decke aus Musteraufgaben, nicht aus dem Bestand.
-4. Progression je Typ: hinführen, Anker, halten – nach dem Muster der Progressionsregeln aus dem Masterprompt (jede Hauptnummer beginnt leicht, endet auf Prüfungshöhe).
-    Zahl: keine – übernommen aus dem Masterprompt (Progressionsregeln), ohne Messung.
+4. Progression je Typ: hinführen, Anker, halten – nach dem Muster der Progressionsregeln aus dem Unterrichtsblatt-Prompt (jede Hauptnummer beginnt leicht, endet auf Prüfungshöhe).
+    Zahl: keine – übernommen aus dem Unterrichtsblatt-Prompt (Progressionsregeln), ohne Messung.
     Kippt bei: Testblättern, bei denen die Progression je Typ nicht trägt (zu wenige Originale je Typ: fhr 37 von 135 Typen mit genau einem Vorkommen, 49 nie Haupttyp; fhr-typenbibliothek.md).
 5. Keine Quellenangabe im Heft, auch nicht im Begleitteil; Herkunft (Jahr, Aufgabe) nur im Protokoll-Archiv (blatt-konzept.md v0.4).
     Zahl: keine – Setzung.
@@ -108,9 +108,9 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 13. Vokabular in drei Ebenen: Leitidee und Thema fest im Profil (aus Rahmenlehrplan, Fachbrief-Inhaltsliste, Lehrwerkgliederung), Typ wächst aus den Heften in msa-typen.csv, Abgleichlauf nach dem letzten Heft. Der Lehrer sieht die fertige Typenliste einmal durch; das ist optional.
     Zahl: Abitur 3 Sachgebiete, 49 Themen, 1323 Typen, 8 Themen mit Gegenstandsklassen (abitur-vokabular.md); Zeilen mit „ersatzweise" 0 in den letzten Stapeln (iqb-pruefungen.md § 2, Schwelle 10 %).
     Kippt bei: mehr als 10 % Zeilen mit „ersatzweise" in einem Lauf – dann passt die Themenliste nicht, nicht die Erfassung (SCHWELLEN in den Bau-Skripten).
-14. Zwei Katalogdateien, Basis und Kontext, gleiches Schema; eine Typenliste. Grund, neu gefasst am 17.09.2026 (Auftrag G): Die früheren Kippbedingungen – ein msa-bau.py, msa über Kern v0.3 hinaus – sind eingetreten (msa-bau.py v0.1 seit Auftrag E, Kern v0.9), die Umstellung auf eine Datei wie abi wartet trotzdem: Sie hängt am Umbau von Prüfungs- und Masterprompt (§ 6, Tokenverbrauch). Erst danach steht fest, ob der Prompt je Blatttyp eine Katalogdatei holt (dann tragen zwei Dateien) oder immer beide (dann ist die Trennung nur Aufwand). Solange bleibt es bei zwei Dateien; die Entscheidung bleibt offen, die Zusammenlegung ist nicht ausgeführt.
+14. Zwei Katalogdateien, Basis und Kontext, gleiches Schema; eine Typenliste. Grund, neu gefasst am 17.09.2026 (Auftrag G): Die früheren Kippbedingungen – ein msa-bau.py, msa über Kern v0.3 hinaus – sind eingetreten (msa-bau.py v0.1 seit Auftrag E, Kern v0.9), die Umstellung auf eine Datei wie abi wartet trotzdem: Sie hängt am Umbau von Prüfungsblatt- und Unterrichtsblatt-Prompt (§ 6, Tokenverbrauch). Erst danach steht fest, ob der Prompt je Blatttyp eine Katalogdatei holt (dann tragen zwei Dateien) oder immer beide (dann ist die Trennung nur Aufwand). Solange bleibt es bei zwei Dateien; die Entscheidung bleibt offen, die Zusammenlegung ist nicht ausgeführt.
     Zahl: msa 126 Basis- und 267 Kontextzeilen in zwei Dateien; abi und iqb eine Datei mit Feld block (abi.md § 2: eine zweite Datei legte dieselbe Information zweimal ab).
-    Kippt bei: dem Umbau von Prüfungs- und Masterprompt – holt der Prompt danach immer beide Dateien, wird eine Datei wie abi daraus (namensschema.md § 5); holt er je Blatttyp eine, bleiben zwei. Bis dahin keine Änderung.
+    Kippt bei: dem Umbau von Prüfungsblatt- und Unterrichtsblatt-Prompt – holt der Prompt danach immer beide Dateien, wird eine Datei wie abi daraus (namensschema.md § 5); holt er je Blatttyp eine, bleiben zwei. Bis dahin keine Änderung.
 15. Dateiform CSV mit Semikolon; Durchsicht über eine Prüftabelle im Chat, nicht in der Datei.
     Zahl: 2883 Katalogzeilen in fünf CSV-Dateien ohne Lesefehler; Koordinaten mit Semikolon (fhr.md § 4) sind gequotet unschädlich.
     Kippt bei: Feldinhalten mit Zeilenumbruch oder einem Leser, der nicht CSV-konform trennt.
@@ -126,7 +126,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 19. Amtliche Vorgaben (Fachbriefe, Rundschreiben) werden gesondert in msa-vorgaben.md geführt, mit einem jährlichen Check als eigenem Schritt. Der Katalog-Prompt liest sie nicht.
     Zahl: Corona-Ausschlüsse 2021–2023 (msa-vorgaben.md) sind Vorgabe, kein Trend; der Katalog liest sie nicht.
     Kippt bei: Vorgaben, die den Katalog filtern müssen – dann werden sie Geltung (Teil 2 des Auftrags D zeigt den Weg: eine Datei je Zielprüfung, von den Skripten gelesen).
-20. Die PDF-Pipeline aus dem Masterprompt (mathblatt.sty, xelatex, Skriptprüfung, Ausgabeblock) bleibt für die Blätter.
+20. Die PDF-Pipeline aus dem Unterrichtsblatt-Prompt (mathblatt.sty, xelatex, Skriptprüfung, Ausgabeblock) bleibt für die Blätter.
     Zahl: keine – Setzung (Blattbau).
     Kippt bei: einem Wechsel der Vorlage oder der Umgebung, die Code ausführt (§ 6, Tokenverbrauch).
 21. Versteckte Leistungen in einer Einheit bleiben eine Zeile; alle Leistungen werden in gesucht, ergebnis, format, typ und typ_neben erfasst; Punkte werden nicht geschätzt aufgeteilt.
@@ -195,7 +195,7 @@ steht, steht nur hier; die Profile wiederholen es nicht.
   Alias mehrdeutig.
 - **Entscheidung 14, msa-Katalogdateien** (Basis und Kontext getrennt):
   Zusammenlegung zu einer Datei wie abi – wartet auf den Umbau von Prüfungs-
-  und Masterprompt; erst danach steht fest, ob der Prompt je Blatttyp eine
+  und Unterrichtsblatt-Prompt; erst danach steht fest, ob der Prompt je Blatttyp eine
   Katalogdatei holt oder immer beide.
 - **Vorschlag 1 aus befund-typenlisten.md § 3, Statuswerte** (ein Vokabular
   für das Feld status, „gültig" entfällt): nur mit einer Leseregel im Kern,
@@ -214,7 +214,7 @@ steht, steht nur hier; die Profile wiederholen es nicht.
   Jahrgangsklassen; Entscheidung 30 nennt sie als Kippbedingung): unverändert
   offen, nicht entschieden.
 - **Nachbau-Test je Blatt nie ausprobiert**: bisher kein Blatt aus einer
-  Katalogzeile gebaut (Entscheidungen 2, 10, 11; Prüfungsprompt v0.15 liegt
+  Katalogzeile gebaut (Entscheidungen 2, 10, 11; Prüfungsblatt-Prompt v0.15 liegt
   vor) – gehört ins Blattbau-Projekt.
 - **Prüfungsjahr des Schülers**: Annahme 2027 (aktuelles Format). Bei 2028
   rücken hilfsmittelfreier Teil und Musteraufgaben nach vorn (msa-vorgaben.md).
@@ -227,7 +227,7 @@ steht, steht nur hier; die Profile wiederholen es nicht.
   in Gebrauch.
 - **Tokenverbrauch und Plattformunabhängigkeit** (festgehalten 17.09.2026):
   Der größte Einzelposten im laufenden Betrieb ist nicht der Katalog, sondern
-  der Masterprompt (rund 25.000 Zeichen, je Blatt vollständig gelesen) und
+  der Unterrichtsblatt-Prompt (rund 25.000 Zeichen, je Blatt vollständig gelesen) und
   das Ansehen gerenderter Seiten. Ein Umbau, der Nachschlagbares aus dem
   Prompt in Dateien auslagert, würde Token sparen und den Prompt weniger
   modellgebunden machen; die Formate des Katalogs sind bereits
@@ -354,7 +354,7 @@ Dateien (05.09.2026); Probelauf mit den Heften 2025, 2026 FOR und 2024 (89
 Zeilen), EBR zurückgestellt; Typenliste nach drei Heften festgezogen, die
 übrigen MSA-Hefte 2023 bis 2014 erfasst und nach dem letzten Heft
 abgeglichen (185 Typen); Profil fhr (12.09.), abi (12.09.) und iqb (13.09.,
-Teil A in 22 Stapeln, dann Teil B); Prüfungsprompt seit dem 06.09.2026,
+Teil A in 22 Stapeln, dann Teil B); Prüfungsblatt-Prompt seit dem 06.09.2026,
 Blattbau als eigenes Projekt.
 
 ## 8 Eine neue Prüfung aufnehmen
@@ -583,7 +583,7 @@ Geltung.
   statt 30); Zweckangaben stehen im README, Umbenennungen und Daten hier in § 10 und in
   namensschema.md; befund-stichtag-2026-09-17.md aus der Liste (Befund, kein Baustein).
   Berichtigt: die Basis-URL steht an sieben Stellen, nicht an vier (die vier Profile,
-  Prüfungsprompt 2.1 und 4.6, Masterprompt 4.6); Ablage-Absatz auf Entscheidung 22 (Claude
+  Prüfungsblatt-Prompt 2.1 und 4.6, Unterrichtsblatt-Prompt 4.6); Ablage-Absatz auf Entscheidung 22 (Claude
   schreibt im Repo, der Lehrer pusht).
 - 2026-09-17 (Auftrag J, Punkt 3): § 7 von „Ablauf" (Projektchronik) zur Jahresroutine
   je Profil – Reihenfolge Vorgabencheck vor Erfassung, neun Schritte je Heft und
@@ -606,13 +606,13 @@ Geltung.
 - 2026-09-17 (Auftrag H, Punkt 2): § 6 Offen neu gefasst – je Punkt eine Zeile mit
   dem Grund des Wartens (Variante A, Entscheidung 14, Vorschläge 1/2/3/5 aus
   befund-typenlisten.md, Abbruchkriterium abi, strukturelle Geltung, Nachbau-Test);
-  erledigte Punkte gestrichen (Blatt-Prompt begonnen: pruefungsprompt.md; Quellen
+  erledigte Punkte gestrichen (Blatt-Prompt begonnen: pruefungsblatt.md; Quellen
   und Erwartungshorizonte abi/iqb geprüft: abi-quellen.md, iqb-quellen.md).
 - 2026-09-17 (Auftrag G, Punkt 4): Entscheidung 26 fortgeschrieben – msa behält die
   eigene Regel Zeilenthema „Thema der Aufgabenstellung" (entschieden; 42 von 393
   Zeilen weichen vom Typthema ab; kippt bei profilübergreifender Auswertung).
   Entscheidung 14 mit neuem Grund: Kippbedingungen eingetreten, die Zusammenlegung
-  der msa-Katalogdateien wartet auf den Umbau von Prüfungs- und Masterprompt; bis
+  der msa-Katalogdateien wartet auf den Umbau von Prüfungsblatt- und Unterrichtsblatt-Prompt; bis
   dahin zwei Dateien (offen).
 - 2026-09-17 (Auftrag G, Punkt 3): fhr-vorgaben.md angelegt (Entscheidung 19, Muster
   msa-vorgaben.md); § 2 Bausteine ergänzt.
@@ -671,4 +671,4 @@ Geltung.
 - 2026-09-06: Entscheidung 6 (Lösungen) an blatt-konzept.md v0.2 angeglichen.
 - 2026-09-06: Basis-URL steht auch im Blatt-Prompt (§2). blatt-prompt.md v0.1 angelegt.
 - 2026-09-06: Nr. 5 Herkunft → Protokoll; §2 blatt-prompt nur als Projektanweisung.
-- 2026-09-07: §2 Prüfungsprompt (`pruefungsprompt.md`, vorher blatt-prompt) und Masterprompt mit Masterfassung im Repo, CHANGELOG.md; Aufteilung nach Quelle (blatt-konzept.md §5). Entscheidung 16 ergänzt: FHR-Lehrerhefte enthalten den Erwartungshorizont. Repo umbenannt in mathe-nachhilfe; Vorlage und Anleitung aus dem Vorlagen-Repo hierher, ein Repo für alles; Basis-URL an vier Stellen umgestellt.
+- 2026-09-07: §2 Prüfungsblatt-Prompt (`pruefungsblatt.md`, vorher blatt-prompt) und Unterrichtsblatt-Prompt mit Masterfassung im Repo, CHANGELOG.md; Aufteilung nach Quelle (blatt-konzept.md §5). Entscheidung 16 ergänzt: FHR-Lehrerhefte enthalten den Erwartungshorizont. Repo umbenannt in mathe-nachhilfe; Vorlage und Anleitung aus dem Vorlagen-Repo hierher, ein Repo für alles; Basis-URL an vier Stellen umgestellt.

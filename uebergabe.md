@@ -4,12 +4,12 @@ Zuerst dieses Zip hochladen.
 
 ## 1 Ziel
 
-Ein geprüfter Themenkatalog, aus dem Masterprompt und Prüfungsprompt Arbeitsblätter bauen, statt je Thema selbst zu planen. Sek I liegt vor; Sek II folgt über die Prüfungskataloge fhr, abi und iqb. Der Lehrer hat gerade Zeit und ein Max-Abo und will das Zeitintensive jetzt erledigen; ob der Katalog trägt, wird der Testlauf zeigen, den er bewusst verschiebt.
+Ein geprüfter Themenkatalog, aus dem Unterrichtsblatt-Prompt und Prüfungsblatt-Prompt Arbeitsblätter bauen, statt je Thema selbst zu planen. Sek I liegt vor; Sek II folgt über die Prüfungskataloge fhr, abi und iqb. Der Lehrer hat gerade Zeit und ein Max-Abo und will das Zeitintensive jetzt erledigen; ob der Katalog trägt, wird der Testlauf zeigen, den er bewusst verschiebt.
 
 ## 2 Arbeitsgrundlage
 
 - GitHub `hz-0801/mathe-nachhilfe`, Commit 24d4412 (19.09.2026). Seit dem Umbau in Ordnern: `msa/`, `fhr/`, `abitur/` (abi und iqb zusammen), `katalog/` (Themenkatalog Sek I, 29 Einträge, Stand 11j), `quellen/` (RLP, LISUM-Planungshilfen, Klett-Fahrplan als Text), `werkzeuge/`, `archiv/`. Wurzel: `README.md` (einzige Landkarte), `CLAUDE.md` (Erfassungsregeln), `katalog-prompt.md`, `konzept.md` (§ 3 Themenkatalog neu), `blatt-konzept.md`, `faellig.md`. Ein Chat mit Shell klont es; ein Chat ohne Shell holt Dateien per Raw-URL `https://raw.githubusercontent.com/hz-0801/mathe-nachhilfe/main/<ordner>/<datei>` – die Adresse muss dafür als Text in der Nachricht stehen.
-- GitHub `hz-0801/blattbau`, Commit 007981b: `masterprompt.md` v3.35, `pruefungsprompt.md` v0.15, `mathblatt.sty` 07d, `Anleitung_mathblatt.md`, `CHANGELOG.md`, Testauswertungen. Abruf-URLs in beiden Prompts zeigen bereits auf die neuen Orte.
+- GitHub `hz-0801/blattbau`, Commit 007981b: `unterrichtsblatt.md` v3.35, `pruefungsblatt.md` v0.15, `mathblatt.sty` 07d, `Anleitung_mathblatt.md`, `CHANGELOG.md`, Testauswertungen. Abruf-URLs in beiden Prompts zeigen bereits auf die neuen Orte.
 - Das Lieferzip enthält nur diese Übergabe. Der Themenkatalog liegt im Repo, nicht mehr im Zip.
 - Prüfungskataloge (Zeilen / Themen): msa 393 / 25, fhr 253 / 28, abi 794 / 43, iqb 1443 / 47. Alle vier Bau-Skripte bestehen die Selbstprüfung.
 - Claude Code läuft auf dem Rechner des Lehrers im lokalen Clone; GitHub Desktop für Push. Aufträge an Claude Code als md-Datei ins Repo legen, Modell Opus.
@@ -37,7 +37,7 @@ Befund am Rand: Die Bau-Skripte `fhr-bau.py`, `abi-bau.py`, `iqb-bau.py` tragen 
 ## 5 Offene Punkte und verworfene Ansätze
 
 Offen, Lehrer:
-1. Kastenform: Abschnittsverweis streichen? Zahlenbeispiele im Kasten oder als Musterbeispiel in Aufgabe 1? Nachschlagewerk (Masterprompt 3.1) oder Merkhilfe (Katalog)? Fällt der Verweis, sind `_formelsammlung.md` und der [FS]-Punkt in 29 Einträgen zu streichen – als Rücknahme kennzeichnen.
+1. Kastenform: Abschnittsverweis streichen? Zahlenbeispiele im Kasten oder als Musterbeispiel in Aufgabe 1? Nachschlagewerk (Unterrichtsblatt-Prompt 3.1) oder Merkhilfe (Katalog)? Fällt der Verweis, sind `_formelsammlung.md` und der [FS]-Punkt in 29 Einträgen zu streichen – als Rücknahme kennzeichnen.
 2. Mechanik-Punkte Sek I: A4 breit oder eng; zehn fehlende Prüflisten nachtragen oder Prüfliste streichen; Prüflistenzeilen 10 und 11.
 3. IQB-Regel für Brandenburg und FHR belegen (vor dem Sek-II-Schritt).
 

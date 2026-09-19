@@ -3,14 +3,14 @@ Stand 2026-09-09f
 
 ## Zweck und Gebrauch
 
-Der Katalog ersetzt die Planung des Modells je Thema durch einen festen, geprüften Eintrag. Der Masterprompt liest je Thema: die Lerneinheiten (das, was der Lehrer bei mehreren Einheiten auswählt), je Lerneinheit die Typen in Lehrbuchreihenfolge, die Voraussetzungen mit Erkennungsschritten (Blatt 0), den Merkkasten (wortgleich aufs Hauptblatt), die typischen Fehler (für Fehler-finden-Aufgaben und Hilfe-Hinweise) und die Prüfungsform (welche Typen die P10 verlangt). Ein Thema ohne Eintrag baut das Modell wie bisher aus eigener Planung, ohne Kasten, mit der Zeile „kein Katalogeintrag" im Ausgabeblock.
+Der Katalog ersetzt die Planung des Modells je Thema durch einen festen, geprüften Eintrag. Der Unterrichtsblatt-Prompt liest je Thema: die Lerneinheiten (das, was der Lehrer bei mehreren Einheiten auswählt), je Lerneinheit die Typen in Lehrbuchreihenfolge, die Voraussetzungen mit Erkennungsschritten (Blatt 0), den Merkkasten (wortgleich aufs Hauptblatt), die typischen Fehler (für Fehler-finden-Aufgaben und Hilfe-Hinweise) und die Prüfungsform (welche Typen die P10 verlangt). Ein Thema ohne Eintrag baut das Modell wie bisher aus eigener Planung, ohne Kasten, mit der Zeile „kein Katalogeintrag" im Ausgabeblock.
 
 Aufbau je Thema, feste Reihenfolge:
 - Verortung – Klassenstufe, RLP-Niveaustufe, Leitidee, Lehrwerkskapitel.
 - Lerneinheiten – nummeriert; jede ist ein eigenes Hauptblatt mit eigenem Blatt 0. Bei einer Einheit kein Dialog.
 - Typen je Lerneinheit – in Lehrbuchreihenfolge; Erkennungsschritte sind hier keine Typen, sie stehen unter Voraussetzungen.
 - Voraussetzungen (Blatt 0) – Fertigkeiten aus früheren Themen, höchstens eine Lehrplanstufe zurück, und die Erkennungsschritte des Themas. Je Zeile: was, wofür.
-- Merkkasten – Regel in Schülersprache (ein Satz), ein bis drei Zahlenbeispiele, wo möglich die Formel in der Notation der Formelsammlung, Verweis auf den Abschnitt. Wird wortgleich gesetzt; Zahlen des Kastens sind Kastenzahlen (2.2 Masterprompt).
+- Merkkasten – Regel in Schülersprache (ein Satz), ein bis drei Zahlenbeispiele, wo möglich die Formel in der Notation der Formelsammlung, Verweis auf den Abschnitt. Wird wortgleich gesetzt; Zahlen des Kastens sind Kastenzahlen (2.2 Unterrichtsblatt-Prompt).
 - Typische Fehler – mit Quellenkürzel; Grundlage für Fehler-finden und Achtung-Hinweise.
 - Für schwache Schüler – je Lerneinheit: Mindeststoff (Typen der RLP-Niveaustufen D/E; alles andere ist Vorrat), Sprossen je Verfahrenstyp in der Reihenfolge der Förderhefte (das ist die Kette des Hauptblatts – das Modell liest sie, statt sie zu planen), und eine Grundvorstellungs-Aufgabe für Blatt 0.
 - Prüfungsform – P10-Typen aus typen.csv (Prüfungskatalog), die dieses Thema verlangt; so sieht die Zielmarke aus.
