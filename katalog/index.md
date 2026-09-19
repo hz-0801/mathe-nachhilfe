@@ -43,8 +43,10 @@ Einträge, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsf
 § 4 Entscheidung 36), `binomialverteilung.md`, Formprobe der Form für die Stochastik (abi und
 iqb, kein fhr), `ebenen.md`, Formprobe für die Analytische Geometrie (abi und iqb, kein fhr;
 vier Lerneinheiten – die Zahl ist frei, `_pruef_katalog.py` lässt E1–E9 zu), und die Einträge
-des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Entscheidung 36 samt Straffung und Kastenform),
-siehe Tabelle. Statt P10-Typen
+des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Bündel 2 „Ableitung Anwendung“; Entscheidung 36
+samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
+eigene Verortung und Prüfungsform, didaktische Abschnitte als Verweiszeilen auf den tragenden
+Eintrag), siehe Tabelle. Statt P10-Typen
 trägt der Abschnitt „Prüfungsform (fhr / abi / iqb)“ je Profil eine Typenliste mit Zeilenzahl und
 Einheitsnummer in der Klammer hinter jeder Typnennung („(n, Ek)“ bzw. „(Ek)“ bei je-1-Typen);
 `_pruef_katalog.py` prüft diese Klammern und ihre Summe gegen `themen.csv` (Spalte `kanonisch` =
@@ -62,6 +64,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | grenzwerte-und-verhalten-im-unendlichen.md | Grenzwerte und Verhalten im Unendlichen (ganzrationale Funktionen mit Symmetrie als fhr-Auftakt, Produkte aus Polynom und e-Funktion, waagerechte Asymptoten) | Analysis (fhr: Differentialrechnung – nur ganzrationale Funktionen nach RLP FOS 2019) | fhr 4/2 · abi 12/4 · iqb 6/4 | Entwurf |
 | gleichungen-loesen.md | Gleichungen lösen (ganzrationale Gleichungen und Schnittpunkte, Gleichungen mit e-Funktion und Logarithmus, Gleichungen aufstellen und grafisch oder numerisch lösen, Ungleichungen) | Analysis (fhr: Differentialrechnung „Schnittpunkte von Funktionsgraphen“ – nur ganzrationale Gleichungen nach RLP FOS 2019) | fhr 9/2 · abi 15/12 · iqb 19/19 | Entwurf |
 | umkehrfunktion.md | Umkehrfunktion (Umkehrbarkeit, Bereiche und Term; Spiegelung an der Winkelhalbierenden) – Kurzform | Analysis (fhr: kein Stoff nach RLP FOS 2019) | abi 1/1 · iqb 5/5 | Entwurf |
+| ableitungsgraph-und-funktionsgraph.md | Ableitungsgraph und Funktionsgraph – **Verweiseintrag** auf kurvenuntersuchung.md Einheit 4 (Eintragsart nach E36-Zusatz vom 19.09.2026) | Analysis (fhr: keine Zeile; RLP FOS nur „grafische Darstellung“, „graphisches Differenzieren“) | abi 11/10 · iqb 10/7 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
