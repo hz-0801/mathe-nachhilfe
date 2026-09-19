@@ -1,5 +1,5 @@
 # Zentralabitur Mathematik Berlin/Brandenburg – Hefte und Erfassungsstatus
-Stand 18.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
+Stand 19.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
 
 ## 1 Quelle
 
@@ -86,7 +86,10 @@ Kennzahlenzeile (vor v0.3 erfasst).
 ## 3 Nicht im Bestand
 
 2011–2016 liegen auf dem Server, werden aber nicht aufgenommen (zeitlicher
-Schnitt bei 2017, alter Rahmenlehrplan 2006). 2019 ff. sind aus
+Schnitt bei 2017, alter Rahmenlehrplan 2006); seit dem Korpus-Lauf im reichen
+Format (19.09.2026) liegen sie als Typenquelle unter hefte-md/abi/ vor
+(korpus-protokoll.md § 8), ohne dass sich Bestand oder eine Katalogzeile
+ändert – Strukturbefunde daraus stehen in abi.md § 3, § 9, § 10, § 11. 2019 ff. sind aus
 urheberrechtlichen Gründen nicht veröffentlicht. Verlagsausgaben (Stark)
 liegen lokal unter hefte/abi/ und bleiben über .gitignore außerhalb des Repos
 (urheberrechtlich geschützt): 2019–2021 Berlin Grundkurs als PDF mit
@@ -2519,6 +2522,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-19 | Auftrag „Strukturbefunde des Korpus-Laufs gegen die Profildateien": Kopplung 3⇒4 und BE 40+20+20 für be-gk 2017/2018 waren bereits in abi.md § 3, abi-struktur.json und abi-aufbau.md § 2 geführt (nichts geändert); die Jahresangabe „Brandenburg hilfsmittelfrei schon 2017" in abi.md § 9, § 10 war zu spät angesetzt und auf 2015 berichtigt (2015/2016 mit 30 BE ohne Kopplung, dokumentiert am Korpus-Lauf hefte-md/abi/2015-bb-ea.md, 2016-bb-ea.md); abi.md § 3, § 11 um Fundstellen zu 2011–2016 (be-gk/be-lk/bebb durchgängig 40+30+30=100 BE) ergänzt, die die Prozentspanne „bis 2018" in § 11 erstmals mit Primärquellen statt nur der Verlagsangabe belegen; abi-aufbau.md § 7 offener Punkt zur Bewegung 2011–2018 teilweise beantwortet; § 3 hier um den Verweis auf hefte-md/abi/ ergänzt. 2011–2016 bleiben nicht im Bestand (oben); keine Katalogzeile, keine Bestandszahl geändert. |
 | 2026-09-18 | Auftrag O, Punkt 4: Kürzel der gemeinsamen Hefte 2011–2013 ist bebb (Entscheidung des Lehrers, 18.09.2026); die zwölf Dateien von hefte/abi/sonstiges/ (Servernamen) nach hefte/abi/2011-bebb-gk.pdf … 2013-bebb-lk-cas.pdf umbenannt (SHA-256 vor und nach dem Verschieben gleich, nichts gelöscht); abi-quellen.md v0.8 § 8 nachgezogen (amtliche Dateien 2011–2018, 44). Keine Katalogzeile betroffen. |
 | 2026-09-18 | Auftrag O, Punkt 3: Pfade auf den seit Auftrag N je Profil unterteilten Heftordner nachgezogen – 15 Stellen in § 2 (7) und § 4 (8) hefte/<datei>.pdf → hefte/abi/<datei>.pdf, dazu § 3 (Ablageort), § 4 die Quelldateien stichwort-2027-bebb-*.md → hefte/abi/sonstiges/ und die amtlichen Dateien 2016/2017 (unter hefte/abi/). Nur Pfade geändert, kein Befundtext; Ausnahme die zwei Sichtungen 2026 (Verlagsdatei damals 2026-bebb-gk.pdf bzw. -lk.pdf, am 17.09.2026 umbenannt): dort steht der damalige Name mit dem heutigen Pfad in Klammern, weil ein reiner Pfadtausch auf eine nie vorhandene Datei gezeigt hätte. Nicht geändert: Nennungen des Ordners hefte/ als Ganzes und der Vorschlag hefte/stichwort-2027-*.pdf (Auftrag B Teil 3, nie angelegt). abi-bau.py v0.13 (KONFIG datei), abi.md v0.27, namensschema.md v0.3. Keine Katalogzeile geändert. |
 | 2026-09-18 | Auftrag O, Punkt 1: Berliner Verlagsfassung 2022 (STARK-Band Berlin GK, Textebene) gegen 2022-bebb-gk geprüft – 57 von 57 Teilaufgaben, BE 185 = 185, Wortlaut gleich, Verlagsseiten bis auf eine Verschiebung bei Aufgabe 4 gleich (§ 4); 2018-bb-ea Aufgabe 1.3 gegen alle neun Dateien 2016 geprüft, dort nicht enthalten, Kopfzeile „2016" ist ein Vorlagenrest (§ 4, Nachtrag). Keine Katalogzeile geändert. |

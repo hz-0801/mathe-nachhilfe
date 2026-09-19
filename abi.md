@@ -1,5 +1,15 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.27 · 18.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Version 0.28 · 19.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 0.27 (Auftrag „Strukturbefunde des Korpus-Laufs gegen die
+Profildateien"): § 3 Fußnote zur Jahresgeltung von „Format bis 2018" – die
+Werte sind an 2017/2018 belegt, 2011–2016 (Typenquelle, nicht im
+Katalog-Bestand, abi-pruefungen.md § 3) zeigen andere Verteilungen laut dem
+Korpus-Lauf im reichen Format (hefte-md/abi/, korpus-protokoll.md § 8); § 9,
+§ 10 Jahresangabe für Brandenburgs hilfsmittelfreien Teil von „schon 2017" auf
+2015 berichtigt (2015/2016 mit 30 BE ohne Kopplung, ab 2017 mit 15 BE und
+Kopplung 3⇒4); § 11 Anmerkung zur Prozentspanne „bis 2018" und zum Satz
+„Brandenburg erhöht mit Aufgabenstellung 1 zu 15 BE" (gilt erst ab 2017, nicht
+durchgehend „bis 2018"). Keine Katalogzeile, keine Bestandszahl geändert.
 Änderungen gegenüber 0.26 (Auftrag O, Punkt 3): Pfade auf den seit Auftrag N je Profil unterteilten Heftordner nachgezogen – § 1, § 2, § 4 hefte/abi/, § 10 und § 11 die abgeschriebenen Verlagstexte hefte/abi/sonstiges/hinweise-2021-be-gk.md und hinweise-2027-bebb.md (nur Pfade, kein Befundtext geändert; abi-bau.py v0.13).
 Änderungen gegenüber 0.25 (Auftrag F, Punkt 1 und 2): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge. Punkt 2: das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py; Familienname wie abitur-typen.csv), Verweise in § 2, § 4, § 7 nachgezogen. Punkt 5: Kern § 6 setzt Zeilenthema = Typthema als Regel (bisher Verweis auf das Profil) und § 5 die Eichung als Kennzahl nur bei amtlichen Anforderungsbereichen – für dieses Profil ohne Änderung (abitur-vokabular.md § 4, § 7). Punkt 6: Kern § 7 Selbstprüfung als Bedingung eines vollständigen Profils – abi-bau.py hat sie.
 Änderungen gegenüber 0.24 (Auftrag E, Punkt 1 und 4; Punkt 4: Begriffe – Vormerkung statt Vorstufe/Vermerk, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung, Dateidublette und Spalte dateidublette_von): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand (16 Hefte), § 3 Formatwechsel statt „Zwei Formate", § 4 afb_amtlich mit Geschichte am Ende, § 6 Lücken und belegte Themen, § 7 Umfang, Typenliste, CAS-Nachtrag als Regel (Berlin offen), § 8 Beispielzeilen aus dem Katalog erzeugt, § 9 beantwortete Punkte als solche; Feldprobe in § 6 eingeführt.
@@ -184,6 +194,22 @@ wer 3.1 nimmt, muss 4.1 nehmen. 270 Minuten, 15 + 50 + 35 = 100 BE. Berlin hat i
 diesen Jahren keinen hilfsmittelfreien Teil. Hilfsmittel: Nachschlagewerk zur
 Rechtschreibung, an der Schule eingeführte Formelsammlung, nicht programmierbarer
 und nicht grafikfähiger Taschenrechner.
+
+**Jahresgeltung dieser Werte.** Die genannten BE-Verteilungen und die Kopplung
+3⇒4 sind an den amtlichen Heften 2017/2018 belegt (Bestand § 1); frühere
+Jahrgänge sind nicht im Katalog-Bestand, aber seit dem Korpus-Lauf im reichen
+Format als Typenquelle transkribiert (hefte-md/abi/, korpus-protokoll.md § 8)
+und zeigen ein anderes Bild: 2011–2016 hatten be-gk, be-lk und die gemeinsamen
+bebb-Hefte durchgängig 100 BE in der Verteilung 40 + 30 + 30 (nicht 40 + 20 +
+20 bzw. 50 + 25 + 25 wie ab 2017); bb-ea hatte 2011–2014 gar keinen
+hilfsmittelfreien Teil (dieselbe Drei-Aufgabenstellungen-Struktur wie be-lk,
+ebenfalls 40 + 30 + 30), gewann ihn 2015 mit 30 BE und drei Themenblöcken zu
+je drei Teilaufgaben, aber noch ohne die Kopplung 3⇒4 (drei statt vier
+Aufgabenstellungen: 1 fest, 2 Analysis-Wahl, 3 Geometrie/Stochastik-Wahl
+kombiniert, 30 + 40 + 30 = 100 BE); die hier beschriebene Form mit 15 BE und
+vier gekoppelten Aufgabenstellungen ist erst ab 2017 belegt. Beobachtung aus
+dem Korpus-Lauf, keine Katalogzeile betroffen (2011–2016 sind nicht im
+Bestand, abi-pruefungen.md § 3).
 
 **Format ab Prüfungsjahr 2019 (Berlin) bzw. bereits vorher (Brandenburg).** Jeder
 Aufgabenvorschlag besteht aus Prüfungsteil A (hilfsmittelfrei) und Prüfungsteil B
@@ -593,9 +619,12 @@ deshalb nicht von ihm ab.
   Typenquelle; erfasst würden nur die dort eigenen Aufgaben.
 - Auf welcher Vereinbarung beruht das gemeinsame Aufgabenwerk, und welche Länder
   gehören dazu?
-- Beantwortet (17.09.2026, § 10 und § 11): Berlin hat den hilfsmittelfreien
-  Teil A seit 2019 (Fachbrief 22; Heft 2019-be-gk mit Aufgabenstellung 1
-  hilfsmittelfrei), Brandenburg bereits 2017.
+- Beantwortet (17.09.2026, § 10 und § 11; Jahresangabe für Brandenburg
+  berichtigt 19.09.2026 nach dem Korpus-Lauf im reichen Format, § 3): Berlin
+  hat den hilfsmittelfreien Teil A seit 2019 (Fachbrief 22; Heft 2019-be-gk
+  mit Aufgabenstellung 1 hilfsmittelfrei), Brandenburg bereits 2015 (30 BE,
+  ohne die Kopplung 3⇒4; die Fassung mit 15 BE und Kopplung ist erst ab 2017
+  belegt, § 3).
 - Trägt das CAS-Delta über alle Sachgebiete? Geprüft sind nur zwei
   Analysis-Paare (2016 Aufgabe 1.1, 2017 Aufgabe 1.2; abi-pruefungen.md § 4,
   Auftrag B Teil 4, Nachtrag Auftrag C Teil 4). CAS-Fassungen der Landeshefte
@@ -612,7 +641,7 @@ Heften unter hefte/ stehen in abi-pruefungen.md § 4 (17.09.2026).
 |---|---|---|
 | ab Schuljahr 2009/10 | Gemeinsame Abiturprüfungen Berlin und Brandenburg (Deutsch, Englisch, Französisch, Mathematik), koordiniert vom LISUM. | Bildungsserver Berlin-Brandenburg; Wikipedia (nicht amtlich) |
 | ab Prüfungsjahr 2017 | IQB-Aufgabenpools für Deutsch, Englisch, Französisch und Mathematik; die Landeshefte entnehmen daraus (Poolquote je Heft in abi-pruefungen.md § 2). | Bildungsserver Berlin-Brandenburg |
-| ab 2019 | Hilfsmittelfreier Prüfungsteil auch in Berlin; die Prüfung ist seither zweiteilig (Teil A ohne, Teil B mit Hilfsmitteln). Brandenburg hatte den hilfsmittelfreien Teil auf erhöhtem Niveau schon 2017 (§ 3, abi-aufbau.md § 1). | Fachbrief Mathematik Nr. 22, August 2018 (Berlin) |
+| ab 2019 | Hilfsmittelfreier Prüfungsteil auch in Berlin; die Prüfung ist seither zweiteilig (Teil A ohne, Teil B mit Hilfsmitteln). Brandenburg hatte den hilfsmittelfreien Teil auf erhöhtem Niveau schon 2015, zunächst mit 30 BE ohne Kopplung; die heute beschriebene Fassung mit 15 BE und der Kopplung 3⇒4 ist erst ab 2017 belegt (§ 3, abi-aufbau.md § 1; Jahresangabe berichtigt 19.09.2026 nach dem Korpus-Lauf im reichen Format, korpus-protokoll.md § 8). | Fachbrief Mathematik Nr. 22, August 2018 (Berlin); hefte-md/abi/2015-bb-ea.md, 2016-bb-ea.md |
 | 2020 und 2021 | Prüfung „auf der Grundlage weitgehend gemeinsamer Aufgabenstellungen", je Land eigene Ausgabe. | Rundschreiben 21/20 (Brandenburg), bravors.brandenburg.de – amtlich |
 | bis einschließlich 2025 | Gemeinsame Entwicklung der Aufgaben, koordiniert vom LISUM; das LISUM wurde Ende 2024 aufgelöst. | Bildungsserver Berlin-Brandenburg; abi-vorgaben.md § 2 |
 | ab Abitur 2026 | Getrennte Erstellung: Berlin über das BLiQ, Brandenburg über das LIBRA; beide weiterhin aus dem IQB-Pool. Organisatorische, keine inhaltliche Trennung: die Poolquote 2026 (bb-gk 80 %, bb-ea 77 %) liegt auf dem Stand von 2025 (bebb-gk 80 %). | Prüfungsschwerpunkte 2027 (§ 1); Poolquote abi-pruefungen.md § 2, § 4 (Lauf 19) |
@@ -754,6 +783,16 @@ Corona-Aufbau, oben; der Band beschreibt die Regelstruktur.)
 | ab 2025 | GK | 25 | 25 | 15 | 15 | Band 2027; Hefte 2025-bebb-gk, 2026-bb-gk |
 | ab 2025 | LK | 30 | 30 | 20 | 20 | Band 2027; Hefte 2025-bebb-lk, 2026-bb-ea |
 
+**Herkunft der Spanne „bis 2018" bestätigt (19.09.2026, Korpus-Lauf im
+reichen Format).** Die Prozentspanne 40–50 % / 25–30 % / 25–30 % der Zeile
+„bis 2018" stammt aus der Verlagsdarstellung (Band 2021) und war bislang nur
+an den beiden Heftpaaren 2017/2018 geprüft (50/25/25 %, obere bzw. untere
+Grenze). Die Korpus-Erfassung von 2011–2016 (Typenquelle, nicht im Bestand,
+§ 3) belegt jetzt auch die andere Grenze: be-gk, be-lk und die bebb-Hefte
+hatten in diesen Jahren durchgängig 40 % / 30 % / 30 % (100 BE, Verteilung
+40+30+30). Die Spanne der Verlagsangabe deckt damit beide Verteilungen ab,
+ohne dass zuvor eine Primärquelle für die untere bzw. obere Grenze vorlag.
+
 Die Reihe 2019 → 2020 → 2024 → 2025 ist für den GK lückenlos (2021–2023 als
 Sonderjahrgänge); für den LK ist der Schlüssel 2019–2021 nicht belegt (kein
 Band, kein Heft; Brandenburger Band 2022, abi-quellen.md § 5).
@@ -775,7 +814,8 @@ gegeben und alle Aufgaben ab 2022 eigneten sich zur Vorbereitung auf 2027;
 Änderungsdienst MySTARK.
 
 **Strukturbruch 2018/2019.** Bis 2018 kein hilfsmittelfreier Teil (Berlin;
-Brandenburg erhöht mit Aufgabenstellung 1 zu 15 BE, § 3), Aufgaben 1.1/1.2
+Brandenburg erhöht ab 2017 mit Aufgabenstellung 1 zu 15 BE, § 3; 2015/2016
+bereits mit 30 BE ohne Kopplung, davor gar keiner, § 3), Aufgaben 1.1/1.2
 Analysis, 2.1/2.2 Geometrie, 3.1/3.2 Stochastik, je Paar eine zur Wahl. Das
 betrifft die erfassten Hefte 2017-bb-ea, 2018-be-gk und 2018-bb-ea: ihre
 Zeilen stehen thematisch in der Geltung (Geltung ist eine Eigenschaft des

@@ -1,6 +1,11 @@
 # AUFBAU DER ABITURPRÜFUNGEN 2017/2018 – Befundaufnahme
 
-Version 0.1 · 12.09.2026 · Vorarbeit zu abi.md
+Version 0.2 · 19.09.2026 · Vorarbeit zu abi.md
+Änderungen gegenüber 0.1 (Auftrag „Strukturbefunde des Korpus-Laufs gegen die
+Profildateien"): § 7 offener Punkt zur Bewegung 2011–2018 teilweise
+beantwortet mit Fundstellen aus dem Korpus-Lauf im reichen Format
+(hefte-md/abi/, korpus-protokoll.md § 8); Erhebungsgrundlage (§ Kopf, zwölf
+Dateien 2017/2018) bleibt unverändert, keine Katalogzeile betroffen.
 
 Erhoben am 12.09.2026 aus den zwölf Dateien nach abi-quellen.md § 2:
 Deckblätter gelesen, Aufgabentitel und BE-Tabellen maschinell extrahiert,
@@ -182,8 +187,17 @@ Sachgebieten auf, überall punktuell.
   Länder gehören dazu? Wenn der Verbund über Berlin und Brandenburg
   hinausgeht, decken Hefte weiterer Länder denselben Typenbestand ab.
 - 2011–2013 gemeinsame Hefte ohne Länderkennzeichnung, 2014–2016 getrennte
-  Dateien, 2017/2018 weitgehend derselbe Aufgabensatz – die Bewegung ist nur
-  aus Dateinamen und Deckblättern erschlossen, nicht belegt.
+  Dateien, 2017/2018 weitgehend derselbe Aufgabensatz – die Bewegung war nur
+  aus Dateinamen und Deckblättern erschlossen, nicht belegt. **Teilweise
+  beantwortet (19.09.2026):** Der Korpus-Lauf im reichen Format hat 2011–2016
+  inzwischen am Text erfasst (hefte-md/abi/, korpus-protokoll.md § 8, nicht im
+  Katalog-Bestand, abi-pruefungen.md § 3) und belegt die BE-Struktur direkt:
+  be-gk/be-lk/bebb durchgehend 100 BE (40+30+30), bb-ea ohne
+  hilfsmittelfreien Teil bis 2014, mit 30-BE-Teil ohne Kopplung 2015/2016,
+  mit 15-BE-Teil und Kopplung 3⇒4 erst ab 2017 (abi.md § 3). Offen bleibt, ob
+  der Aufgabenwortlaut selbst (nicht nur die Struktur) 2011–2016 ebenso
+  länderübergreifend geteilt wurde wie 2017/2018 (§ 4) – dazu liegt kein
+  Textvergleich vor.
 - Welche Jahrgänge ab 2023 liegen dem Lehrer vor?
 - Gesamtpunktzahl und Bewertungsschlüssel stehen nicht auf den Deckblättern;
   die bearbeiteten BE sind gerechnet, nicht abgelesen.
