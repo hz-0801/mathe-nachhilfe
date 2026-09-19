@@ -145,7 +145,15 @@ if "### Prüfungsform (fhr / abi / iqb)" in text:
         if not pm:
             continue
         summe = 0
-        for seg in pm.group(1).split(" · "):
+        # Typnamen können selbst " · " enthalten ("Beziehung f'(a) · f''(a) = −1 ..."):
+        # ein Teilstück ohne schließende Klammerform gehört zum nächsten Teilstück.
+        segs = []
+        for teil in pm.group(1).split(" · "):
+            if segs and not re.search(r"\((?:\d+,\s*)?E[1-9]\)\s*$", segs[-1].strip()):
+                segs[-1] += " · " + teil
+            else:
+                segs.append(teil)
+        for seg in segs:
             bm = re.search(r"\((?:(\d+),\s*)?E[1-9]\)\s*$", seg.strip())
             if not bm:
                 print(f"Sek-II Prüfungsform {profil}: Typnennung ohne gültige Klammerform „(n, Ek)“/„(Ek)“: …{seg.strip()[-60:]}")
