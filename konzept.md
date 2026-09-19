@@ -61,6 +61,11 @@ nicht die Teilaufgabenfolge eines Hefts – die baut der Prüfungsblatt-Prompt a
 (blatt-konzept.md §3). Ob die Trennung in der Praxis hält, entscheidet der erste
 Testlauf: Bisher ist kein Blatt aus einem Katalogeintrag gebaut worden.
 
+Die Themenkonkordanz `themen.csv` verbindet die Themennamen der vier Prüfungskataloge
+mit den Einträgen des Themenkatalogs. Regel: Ein Sek-I-Thema ist kanonisch, wenn Sek II
+denselben Stoff fortführt (Daten, Wahrscheinlichkeit, LGS); ein Sek-II-Thema bleibt
+eigen, wenn es ein neues Konzept einführt.
+
 ## 4 Entscheidungen
 
 Je Entscheidung stehen seit dem 17.09.2026 (Auftrag D, Teil 5) zwei Zeilen
