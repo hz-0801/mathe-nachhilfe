@@ -39,18 +39,22 @@ P10-Thema „Funktionen allgemein“ (7 Typen) hat keine eigene Datei: „Wertet
 
 ## Sekundarstufe II
 
-2 Einträge, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsform (konzept.md
-§ 4 Entscheidung 36), und `binomialverteilung.md`, Formprobe der Form für die Stochastik (abi und
-iqb, kein fhr). Statt P10-Typen trägt der Abschnitt „Prüfungsform (fhr / abi / iqb)“ je
-Profil eine Typenliste mit Zeilenzahl und Einheitsnummer in der Klammer hinter jeder Typnennung
-(„(n, Ek)“ bzw. „(Ek)“ bei je-1-Typen); `_pruef_katalog.py` prüft diese Klammern und ihre Summe
-gegen `themen.csv` (Spalte `kanonisch` = Dateiname ohne `.md`). Die Spalte „Profile“ unten nennt
-je Profil Zeilen/Typen aus `themen.csv`.
+3 Einträge, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsform (konzept.md
+§ 4 Entscheidung 36), `binomialverteilung.md`, Formprobe der Form für die Stochastik (abi und
+iqb, kein fhr), und `ebenen.md`, Formprobe für die Analytische Geometrie (abi und iqb, kein fhr;
+vier Lerneinheiten – die Zahl ist frei, `_pruef_katalog.py` lässt E1–E9 zu). Statt P10-Typen
+trägt der Abschnitt „Prüfungsform (fhr / abi / iqb)“ je Profil eine Typenliste mit Zeilenzahl und
+Einheitsnummer in der Klammer hinter jeder Typnennung („(n, Ek)“ bzw. „(Ek)“ bei je-1-Typen);
+`_pruef_katalog.py` prüft diese Klammern und ihre Summe gegen `themen.csv` (Spalte `kanonisch` =
+Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):“
+(Kastenform, Entscheidung 36). Die Spalte „Profile“ unten nennt je Profil Zeilen/Typen aus
+`themen.csv`.
 
 | Datei | Thema | Leitidee | Profile (Zeilen/Typen) | Status |
 |---|---|---|---|---|
 | kurvenuntersuchung.md | Kurvenuntersuchung | Analysis (fhr: Differentialrechnung) | fhr 39/9 · abi 58/39 · iqb 53/37 | Entwurf |
 | binomialverteilung.md | Binomialverteilung (Bernoulli-Kette, Bernoulli-Formel, kumulierte Wahrscheinlichkeiten, Umkehraufgaben, Verteilung im Diagramm) | Stochastik (fhr: kein Stoff nach RLP FOS 2019) | abi 57/30 · iqb 98/52 | Entwurf |
+| ebenen.md | Ebenen (Parameterform, Normalenvektor und Koordinatengleichung, Ebenen im Koordinatensystem, parallele Ebenen) | Analytische Geometrie (fhr: kein Stoff nach RLP FOS 2019) | abi 20/10 · iqb 28/16 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
