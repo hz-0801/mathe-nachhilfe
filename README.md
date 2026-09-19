@@ -102,6 +102,14 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-rlp-teil-c-mathematik-2023.txt` – Rahmenlehrplan 1–10, Teil C Mathematik, gültig ab 2025/26.
 - `quelle-lisum-planungshilfen-7bis10.txt` – LISUM-Planungshilfen 7–10, Gesamtdatei 2024, CC BY-SA 4.0.
 - `quelle-klett-fahrplan-ls-aa-berlin-2024.txt` – Lambacher Schweizer, Fahrplan Berlin 2024.
+- `quelle-rlp-gost-bb-2022-mathematik.txt` – Rahmenlehrplan GOST Brandenburg, Teil C Mathematik, gültig ab 2022/23.
+- `quelle-rlp-gost-be-2022-mathematik.txt` – Rahmenlehrplan GOST Berlin, Teil C Mathematik, gültig ab 2014.
+- `quelle-rlp-gost-2022-mathematik-anlage-ohimi.txt` – Anlage zum RLP GOST: Inhalte ohne Hilfsmittel, Grundlage für Prüfungsteil A.
+- `quelle-rlp-fos-bb-2019-mathematik.txt` – Rahmenlehrplan Fachoberschule Mathematik, Brandenburg, gültig ab 2019.
+- `quelle-iqb-formelsammlung-2024-mathematik.txt` – IQB-Formelsammlung, nur Teil 1 Mathematik, Stand 2024, © IQB.
+- `quelle-iqb-operatoren-2019.txt` – IQB, Grundstock von Operatoren, Stand 2019, © IQB.
+- `quelle-iqb-vereinbarungen-2022.txt` – IQB, Inhaltliche Vereinbarungen zur Gestaltung der Aufgaben, Stand 2022, © IQB.
+- `quelle-iqb-struktur-2024.txt` – IQB, Beschreibung der Struktur der Aufgaben, Stand 2024, © IQB.
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
 und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.

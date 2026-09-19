@@ -1,0 +1,2020 @@
+                          Rahmenlehrplan
+                          für die gymnasiale Oberstufe
+
+                          Teil C
+
+                          Mathematik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                            1
+
+Impressum
+
+Erarbeitung
+
+Dieser Rahmenlehrplan wurde vom Landesinstitut für Schule und Medien Berlin-Brandenburg
+(LISUM) erarbeitet. Er enthält vollumfänglich die Kapitel 2 – 4 des Rahmenlehrplans für den
+Unterricht in der gymnasialen Oberstufe im Land Brandenburg, der am 01.08.2018 gültig
+wurde. Das Kapitel 1 dieses Rahmenlehrplans wird in der vorliegenden Fassung durch die
+Teile A (Bildung und Erziehung in der gymnasialen Oberstufe) und B (Fachübergreifende Kom-
+petenzentwicklung) des Rahmenlehrplans für die gymnasiale Oberstufe 2021 Teil A und Teil B
+ersetzt.
+
+
+Herausgeber
+
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg
+
+Gültigkeit
+
+Gültig ab Schuljahr 2022/23 hinsichtlich der Regelungen zur Einführungsphase in der
+gymnasialen Oberstufe. Der Rahmenlehrplan gilt für Schülerinnen und Schüler, die im
+Schuljahr 2022/23 in die Einführungsphase an Gesamtschulen/beruflichen Gymnasien/
+Einrichtungen des Zweiten Bildungsweges eintreten.
+
+Gültig ab Schuljahr 2023/24 hinsichtlich der Regelungen zur Qualifikationsphase in der
+gymnasialen Oberstufe. Der Rahmenlehrplan gilt für Schülerinnen und Schüler, die im
+Schuljahr 2023/24 in die Qualifikationsphase an Gymnasien/Gesamtschulen/beruflichen
+Gymnasien/Einrichtungen des Zweiten Bildungsweges (Land Brandenburg) eintreten.
+
+Die Teile A und B des Rahmenlehrplans für die gymnasiale Oberstufe sind ab dem Schuljahr
+2022/2023 hinsichtlich der Regelungen zur Einführungsphase in der gymnasialen Oberstufe
+und ab dem Schuljahr 2023/2024 hinsichtlich der Regelungen zur Qualifikationsphase in der
+gymnasialen Oberstufe gültig.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg 2022
+https://creativecommons.org/licenses/by-nd/4.0/deed.de
+
+
+
+
+
+Inhaltsverzeichnis
+
+
+1       Einführungsphase ..........................................................................5
+
+2       Beitrag des Faches Mathematik zum Kompetenzerwerb ...............7
+2.1     Fachprofil ............................................................................................... 7
+2.2     Fachbezogene Kompetenzen ................................................................. 9
+
+3       Eingangsvoraussetzungen und abschlussorientierte Standards .. 13
+3.1     Eingangsvoraussetzungen ................................................................... 13
+3.1.1   Eingangsvoraussetzungen bezüglich der allgemeinen mathematischen
+        Kompetenzen ....................................................................................... 13
+3.1.2   Eingangsvoraussetzungen bezüglich inhaltsbezogener Kompetenzen
+        (Leitideen) ............................................................................................ 15
+3.2     Abschlussorientierte Standards ............................................................ 17
+3.2.1   Standards zu den allgemeinen mathematischen Kompetenzen ........... 17
+3.2.2 Standards zu den inhaltsbezogenen Kompetenzen (Leitideen)                                   ............ 21
+1. Kurshalbjahr: Analysis; Lineare Algebra .................................................... 23
+2. Kurshalbjahr: Analysis; Stochastik ............................................................. 26
+3. Kurshalbjahr: Analytische Geometrie ......................................................... 29
+4. Kurshalbjahr: Analysis; Stochastik; komplexe Aufgabenstellungen aus allen
+                       drei Sachgebieten ................................................................ 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C Mathematik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S e i t e   | 4
+
+                                                                                                 C Mathematik
+
+1      Einführungsphase
+
+Zielsetzung
+Im  Unterricht  der  Einführungsphase  vertiefen  und  erweitern  die           Schülerinnen  und
+Schüler die in der Sekundarstufe I erworbenen Kompetenzen und bereiten sich auf
+die Arbeit in der Qualifikationsphase vor. Spätestens am Ende der Einführungs-phase
+erreichen sie die für ein erfolgreiches Lernen in der Qualifikationsphase notwendigen
+Voraussetzungen.
+Die für die Qualifikationsphase beschriebenen Grundsätze für Unterricht und Erzie-
+hung  sowie  die  Ausführungen  zum  Beitrag  des  Faches  zum  Kompetenzerwerb
+gelten für die Einführungsphase entsprechend. Die Schülerinnen und Schüler erhal-
+ten die Möglichkeit, Stärken weiterzuentwickeln und Defizite auszugleichen. Sie ver-
+tiefen  bzw.  erwerben  fachbezogen  und  fachübergreifend  Grundlagen  für  wissen-
+schaftspropädeutisches  Arbeiten  und  bewältigen  zunehmend  komplexe  Aufgaben-
+stellungen selbstständig.      Hierzu gehören auch die angemessene Verwendung der
+Sprache und die Nutzung von funktionalen Lesestrategien. Dabei wenden sie fachli-
+che und methodische Kenntnisse und Fertigkeiten mit wachsender Sicherheit selbst-
+ständig an.
+Zur Vorbereitung auf die Arbeit in der jeweiligen Kursform erhalten die Schülerinnen
+und Schüler individuelle Lernspielräume und werden von ihren Lehrkräften unterstützt
+und beraten. Notwendig ist darüber hinaus das Hinführen zur schriftlichen Bearbei-
+tung  umfangreicherer  Aufgaben  im  Hinblick  auf  die  Klausuren  in  der  gymnasialen
+Oberstufe.
+In der Einführungsphase kommen Schülerinnen und Schüler mit unterschiedlichen
+Kenntnissen und Fähigkeiten zusammen.              Aufgabe des Unterrichts der Einführungs-
+phase ist es, dass die Schülerinnen und Schüler die im Rahmenlehrplan 1–10 aus-
+gewiesenen fachbezogenen Kompetenzen auf der Niveaustufe H erwerben, um den
+Übergang zur gymnasialen Oberstufe erfolgreich bewältigen zu können. Je nach In-
+teressen und Fähigkeiten der Schülerinnen und Schüler werden fachspezifische Ver-
+fahren, Techniken und Strategien im Hinblick auf die Anforderungen des Kurses ver-
+tieft, indem z. B. binnendifferenziert gearbeitet und dabei die Herausbildung größerer
+Lernerautonomie gefördert wird.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                  S e i t e  | 5
+
+C Mathematik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S e i t e   | 6
+
+                                                                                                C Mathematik
+
+
+2     Beitrag des Faches Mathematik zum Kompetenzerwerb
+
+2.1   Fachprofil
+
+Mathematische  Bildung       muss  sich  daran  messen  lassen,  inwieweit  die  Schülerinnen  und
+Schüler in der Lage und bereit sind, diese Bildung für ein wirksames und verantwortliches
+Handeln einzusetzen. Zur mathematischen Bildung gehört somit auch die Fähigkeit, mathe-
+matische Fragestellungen im Alltag zu erkennen, mathematisches Wissen funktional, flexibel
+und mit Einsicht zur Bearbeitung vielfältiger innermathematischer und kontextbezogener Prob-
+leme einzusetzen und begründete mathematische Urteile abzugeben.
+In diesem Sinne zeigt sich mathematische Bildung an einer Reihe von Kompetenzen, die sich
+auf Prozesse mathematischen Denkens und Arbeitens beziehen. Dies sind im Einzelnen die
+Kompetenz, die Wirklichkeit mit mathematischen Mitteln zu beschreiben (Modellieren), mathe-
+matisch fassbare Probleme zu strukturieren und erfolgreich zu bearbeiten (Problem-lösen),
+schlüssige    Begründungen    zu    suchen    und    sorgfältig    zu    prüfen    (Argumentieren),
+mathematische Informationen und Argumente aufzunehmen und verständlich weiterzugeben
+(Kommunizieren) und gemeinsam an mathematischen Problemen zu arbeiten. Bei all diesen
+Tätigkeiten ist es unabdingbar, sich mathematischer (symbolischer und graphischer) Darstel-
+lungsweisen zu bedienen und Begriffe, mathematische Verfahren und Werkzeuge zu beherr-
+schen.
+Die genannten Kompetenzen bilden sich bei der aktiven Auseinandersetzung mit konkreten
+Inhalten und im Rahmen von konkreten Fragestellungen heraus. Diese sollen die zentralen
+Ideen  des  Faches  Mathematik  widerspiegeln.  Solche  zentralen  Ideen  haben  sich  in  der
+Kulturgeschichte des Menschen in der über Jahrtausende währenden Auseinandersetzung mit
+Mathematik herausgebildet: Die Mathematik beschäftigt sich von Anfang an mit der Idee der
+Zahl und der Idee des räumlichen Strukturierens. Beide Ideen fließen zusammen in                     der Leit-
+idee des Messens. Die Idee des Algorithmus gewinnt im Rahmen von Anwendungen in der
+Naturwissenschaft und Technik zunehmend an Bedeutung.
+Ebenfalls herausgebildet haben sich in den letzten Jahrhunderten die Leitidee, den Zufall mit
+Mitteln der Mathematik zu erfassen und empirisch gewonnene Daten mit mathematischen Ver-
+fahren zu untersuchen sowie die Leitidee, funktionale Zusammenhänge in allen Bereichen der
+Mathematik mit einer gemeinsamen Sprache zu beschreiben.
+Diese Leitideen sind Kristallisation     spunkte der Auseinandersetzung mit mathematischen Fra-
+gen und durchziehen und vernetzen alle Inhaltsbereiche. Sie dienen als strukturierende Ele-
+mente für die Beschreibung der vielfältigen, auf konkrete mathematische Inhalte bezogenen
+Kompetenzen, die die Schülerinnen und Schüler im allgemeinbildenden Mathematikunterricht
+erwerben sollen.
+Mathematische Bildung zeigt sich erst im Zusammenspiel von Kompetenzen, die sich auf ma-
+thematische  Prozesse  beziehen,  und  solchen,  die  auf  mathematische  Inhalte  ausgerichtet
+sind. Diese Kompetenzen sind miteinander verzahnt:
+Allgemeine mathematische Kompetenzen              werden bei der Beschäftigung mit konkreten Lerni-
+nhalten, also unter Nutzung inhaltsbezogener Kompetenzen, erworben und weiterentwickelt.
+Inhaltsbezogene  Kompetenzen           wiederum  werden  durch  problemlösende  Auseinander              -set-
+zung mit inner- und außermathematischen Problemen und durch schlüssiges Argumentieren,
+also    unter    Nutzung    allgemeiner    mathematischer    Kompetenzen,    erworben.    Der
+Mathematikunterricht fördert den Erwerb der          beschriebenen Kompetenzen, indem er drei sich
+jeweils ergänzende Grunderfahrungen (nach H. Winter) von Mathematik ermöglicht:
+–  Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus Natur,
+   Gesellschaft und Kultur, in einer spezifische       n Art wahrzunehmen und zu verstehen,
+
+
+
+                                                                                                 S e i t e  | 7
+
+C Mathematik
+
+–  mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+   Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt eigener
+   Art kennenzulernen und zu begreifen,
+–  in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die Mathema-
+   tik hinaus gehen, zu erwerben (heuristische Fähigkeiten).
+
+Im Sinne dieser drei Grunderfahrungen sollen die Schülerinnen und Schüler Mathematik als
+lebendiges, kulturelles und geistiges Produkt erleben, aber ebenso als aktiven Prozess der
+Auseinandersetzung mit gehaltvollen Problemen.
+
+Der   Erwerb   mathematischer   Bildung   in   der   Qualifikationsphase   vollzieht   sich             in  drei
+Perspektiven:
+–  Die Schülerinnen und Schüler erwerben mathematische Kompetenzen, mit denen sie Prob-
+   leme im Alltag und in ihrem zukünftigen Beruf bewältigen können und erkennen die Rolle,
+   die   mathematisches   Denken   in   der   Welt   spielt.   Sie   vertiefen   dabei   die   in   der
+   Sekundarstufe I erworbene mathematische Bildung.
+–  Die Schülerinnen und Schüler erwerben mathematische Kompetenzen, die sie zu einem
+   Hochschulstudium  in  einem  mehr  oder  weniger  mathematikintensiven  Fach  befähigen,
+   erleben und erarbeiten dabei propädeutisch Strukturen und Prozesse wissenschaftlichen
+   Denkens und Arbeitens im Fach Mathematik.
+–  Die Schülerinnen und Schüler erwerben, aufbauend auf den in der Sekundarstufe I erreich-
+   ten Kompetenzniveaus, weitere Kompetenzen, die sie befähigen, digitale Werkzeuge zur
+   Bearbeitung mathematischer Problemstellungen sachgerecht zu nutzen.
+
+Unter digitalen Werkzeugen werden im Folgenden computergestützte mathematische Hilfs-
+mittel (z. B. Tabellenkalkulationsprogramme,           Dynamische     -Geometrie   -Software, Computer       -al-
+gebrasysteme, Software zur Darstellung von              Funktionsgraphen)      , unabhängig von der   ver-
+wendeten Hardware (z. B. Desktop-Computer, Tablets, Handhelds, Smartphones),       ver-
+standen.
+
+Das Potenzial dieser Werkzeuge entfaltet sich im Mathematikunterricht
+–   bei der experimentellen Bearbeitung von Problemstellungen und beim Entdecken mathe-
+    matischer Zusammenhänge, insbesondere durch interaktive Erkundungen beim Modellie-
+    ren und Problemlösen und durch das Visualisieren und Präsentieren von Arbeitsergebnis-
+    sen,
+–   durch Verständnisförderung für mathematische Zusammenhänge, nicht zuletzt mittels viel-
+    fältiger verknüpfter Darstellungsmöglichkeiten,
+–   mit der Reduktion schematischer Abläufe und der Verarbeitung größerer Datenmengen,
+–   durch die Unterstützung individueller Präferenzen und Zugänge beim Bearbeiten von Auf-
+    gaben, einschließlich der reflektierten Nutzung von Kontrollmöglichkeiten.
+
+Die Integration    digitaler Werkzeuge in den Mathematikunterricht ist              nicht nur durch die von
+digitalen Medien geprägte Lebenswelt der Schülerinnen und Schüler und hinsichtlich des Aus-
+baus der in der Sekundarstufe I erworbenen Kompetenzen im Bereich der Medienbildung                          ge-
+boten, sondern insbesondere auch in Hinblick auf die Entwicklung der allgemeinen mathema-
+tischen Kompetenzen        unverzichtbar.     Demzufolge sind damit verbundene grundlegende Ar-
+beitsweisen im Mathematikunterricht zu vermitteln und einzufordern. Dabei ist der Einsatz di-
+gitaler Werkzeuge im Mathematikunterricht            stets in das Gesamtkonzept der Schule zum Ein-
+satz digitaler  Medien zu integrieren      und der daraus resultierende Beitrag         des Fachs Mathema-
+tik zur digitalen Bildung    festzuschreiben    .
+Allerdings ist zu berücksichtigen, dass der Einsatz digitaler Werkzeuge nur einen zusätzlichen
+Zugang zum Erwerb mathematischer Kom               petenzen darstellt.    Deshalb ist   neben einem      konse-
+quenten  Einsatz  digitaler  Werkzeuge         im  Mathematikunterricht       auch   der  Kompetenzerwerb
+ohne diese Hilfsmittel erforderlich.
+
+
+
+S e i t e  | 8
+
+                                                                                            C Mathematik
+
+2.2   Fachbezogene Kompetenzen
+Das Kompetenzmodell im Fach Mathematik hat folgende Struktur:
+
+
+Allgemeine mathematische Kompetenzen                     Leitideen
+
+
+                                                            J
+                                                            u
+                                                            g
+                                                            e
+                                                            n
+                                                            d
+                                                            u
+                                                            n
+                                                            d
+                                                            S
+                                                            p
+                                                            o
+                                                            r
+                                                            t
+       Mathematisch argumentieren [K1]                      L    Algorithmus und Zahl  [L1]
+                                                            a
+                                                            n
+                                                            d
+                                                            B
+                                                            r
+                                                            a
+                                                            n
+                                                            d
+                                                            e
+                                                            n
+                                                            b
+                                                            u
+                                                            r
+                                                            g
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                             S e i t e  | 9
+
+C Mathematik
+
+   R
+   a
+   h
+   m
+   e
+   n
+   l
+   e
+   h
+   r
+   p
+   l
+   a
+   n
+
+   f
+   ü
+   r
+   d
+   e
+   n
+   U
+   n
+   t
+   e
+   r
+   r
+   i
+   c
+   h
+S e i t et  | 10
+   i
+   n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                        C Mathematik
+
+
+     Mathematisch modellieren [K3]                                       Raum und Form [L3]
+
+
+     Mathematische Darstellungen verwenden [K4]                          Funktionaler Zusammenhang [L4]
+
+     Mit symbolischen, formalen und technischen                          Daten und Zufall [L5]
+     Elementen der Mathematik umgehen [K5]
+
+     Mathematisch kommunizieren [K6]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abbildung: Kompetenzmodell der Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                        S e i t e   | 11
+
+C Mathematik
+
+Der  Erwerb  der  allgemeinen  mathematischen  Kompetenzen  erfolgt  nur  durch  eine  akti                    ve
+Auseinandersetzung  mit  den  Fachinhalten  durch  die  Lernenden.                  Die  drei   Anforderungs-
+bereiche beschreiben dabei unterschiedliche kognitive Ansprüche von kompetenzbezogenen
+mathematischen  Aktivitäten.        Allgemeine     mathematische  Kompetenzen  und  Leitideen  sind
+untrennbar  miteinander  verknüpft,          d.  h. die  allgemeinen  mathematischen  Kompetenzen
+manifestieren sich in jedem       einzelnen mathematischen Inhalt          (in der Abbildung angedeutet).
+Die graphische Darstellung  basiert auf den Bildungsstandards zum Erwerb der allgemeinen
+Hochschulreife und schließt an die Bildungsstandards für den Mittleren Schulabschluss an.
+Man  wird  erst  dann  vom  hinreichenden  Erwerb            einer  allgemeinen  mathematischen            Kom-
+petenz   sprechen,  wenn       diese  an   unterschiedlichen  Leitideen        in  allen  drei  Anforderungs-
+bereichen erfolgreich eingesetzt werden kann.
+Im  Unterricht  ist  für  den  Erwerb  der  Kompetenzen  auf  eine  Vernetzung  der  Inhalte  der
+Mathematik untereinander und mit anderen Fächern zu achten. Aufgaben mit innermathema-
+tischen Anwendungen und Anwendungen aus der Lebenswelt der Schülerinnen und Schüler
+haben die gleiche Wichtigkeit und Wertigkeit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S e i t e  | 12
+
+                                                                                              C Mathematik
+
+3     Eingangsvoraussetzungen und abschlussorientierte
+      Standards
+
+3.1   Eingangsvoraussetzungen
+In den Bildungsstandards für den Mittleren Schulabschluss im Fach Mathematik ist festgelegt,
+welche Kompetenzen von den Schülerinnen und Schülern am Ende der Jahrgangs-stufe 10
+erwartet werden. Darüber hinaus sollen die Schülerinnen und Schüler, die in die Qualifikati-
+onsphase eintreten, über weitere Kompetenzen verfügen.
+Grundlage  für einen erfolgreichen Kompetenzerwerb in der Qualifikationsphase ist die Erfül-
+lung der im  Rahmenlehrplan 1–10, Teil C Mathematik, formulierten Standards auf der     Ni-
+veaustufe H.
+Um den Schülerinnen und Schülern zu ermöglichen, sich ihres Leistungsstandes zu                            ver-
+gewissern und Lehrkräften Anhaltspunkte zur individuellen Lernberatung sowie für differenzie-
+rende Lernarrangements für einen erfolgreichen Kompetenzerwerb in der Qualifikationsphase
+zu geben, sind nachfolgend grundlegende Eingangsvoraussetzungen                   für die          Qualifikati-
+onsphase formuliert.
+
+3.1.1   Eingangsvoraussetzungen bezüglich der allgemeinen mathematischen
+        Kompetenzen
+
+         Mathematisch argumentieren [K1]
+ Die Schülerinnen und Schüler
+–   erkunden mathematische Situationen und stellen Vermutungen auf,
+–   begründen die Plausibilität von Vermutungen oder widerlegen diese durch Angabe von Bei-
+    spielen oder Gegenbeispielen,
+–   entwickeln ein- oder mehrschrittige, schlüssige Argumentationen zur Begründung
+    mathematischer Aussagen,
+–   hinterfragen Argumentationen und Begründungen kritisch, finden und korrigieren Fehler.
+
+
+         Probleme mathematisch lösen [K2]
+
+ Die Schülerinnen und Schüler
+–   untersuchen Muster und Beziehungen bei Zahlen und Figuren und finden mögliche
+    mathematische Problemstellungen,
+–   geben inner- und außermathematische Problemstellungen in eigenen Worten                     wieder,
+    strukturieren sie und entnehmen ihnen die relevanten Größen,
+–   vereinfachen Probleme, bilden und untersuchen Beispiele,
+–   finden und nutzen geeignete Darstellungen und Hilfsgrößen (             z. B. Hilfslinien,
+    Strukturierung des Lösungsweges         , Variablen),
+–   verwenden heuristische Strategien (wie         z. B. Vorwärts- und Rückwärtsarbeiten,
+    Zeichnen einer informativen Figur, Zurückführen           auf Bekanntes),
+–   reflektieren Lösungswege und überprüfen die Plausibilität von Ergebnissen.
+
+
+
+
+
+
+
+
+
+                                                                                               S e i t e | 13
+
+C Mathematik
+
+
+         Mathematisch modellieren [K3]
+
+Die Schülerinnen und Schüler
+–   strukturieren und reduzieren den Komplexitätsgrad von Realsituationen, sodass diese ma-
+    thematisch zugänglich werden, und reflektieren die Vereinfachungen,
+–   beschreiben reale Situationen mit mathematischen Modellen (Terme, Funktionen,
+    Figuren, Diagramme, Graphen, Zufallsversuche u. a.),
+–   interpretieren und prüfen Ergebnisse einer Modellierung,
+–   überprüfen Modelle auf ihre Gültigkeit oder Grenzen und verwerfen o               der verbessern
+    sie gegebenenfalls,
+–   geben zu einem mathematischen Modell verschiedene Realsituationen, die es beschreibt, an.
+
+
+         Mathematische Darstellungen verwenden                      [K4]
+
+Die Schülerinnen und Schüler
+–   interpretieren verschiedene mathematische Darstellungen (verbale, numerische,
+    graphische und symbolische),
+–   wählen je nach Situation und Zweck geeignete Darstellungsformen aus oder übersetzen
+    zwischen ihnen,
+–   erkennen Beziehungen und reflektieren Unterschiede zwischen ihnen.
+
+
+         Mit symbolischen, formalen und technischen Elementen der Mathematik
+         umgehen [K5]
+
+Die Schülerinnen und Schüler
+–   verwenden Variablen, Terme, Gleichungen zum Strukturieren von Information, zum
+    Modellieren und zum Problemlösen und Übersetzen zwischen symbolischer und
+    natürlicher Sprache,
+–   führen algorithmische Verfahren aus, reflektieren deren Anwendung und überprüfen
+    die Ergebnisse,
+–   setzen mathematische Hilfsmittel und digitale Werkzeuge in geeigneten Zusammenhängen
+    ein.
+
+
+         Mathematisch kommunizieren [K6]
+
+Die Schülerinnen und Schüler
+–   erfassen und reflektieren mathematische Informationen in mathematikhaltigen Darstellun-
+    gen und in nicht aufbereiteten, authentischen Texten (z. B. aus Zeitungen),
+–   stellen Zusammenhänge adressatengerecht mit eigenen Worten dar und präzisieren sie
+    mit geeigneten Fachbegriffen,
+–   erläutern eigene Problembearbeitungen und Einsichten sowie mathematische Prozesse,
+–   dokumentieren Überlegungen, Lösungswege bzw. Ergebnisse, stellen diese verständlich
+    dar und präsentieren sie auch unter Nutzung geeigneter Medien,
+–   organisieren die gemeinsame Arbeit an mathematischen Problemen.
+
+
+
+
+
+S e i t e | 14
+
+                                                                                               C Mathematik
+
+3.1.2   Eingangsvoraussetzungen bezüglich inhaltsbezogener Kompetenzen
+        (Leitideen)
+
+         Algorithmus und Zahl [L1]
+
+Die Schülerinnen und Schüler
+–   stellen Zahlen der Situation angemessen als Brüche, Dezimalzahlen, Prozentzahlen
+    und in Zehnerpotenzschreibweise dar, runden Dezimalzahlen sachgerecht und
+    verwenden Darstellungen irrationaler Anteile (z. B.                     ),
+–   verwenden natürliche, ganze, gebrochene und reelle Zahlen zur Darstellung
+    mathematischer Situationen und wenden diese zur Lösung von Problemen an,
+–   führen Rechnungen und Überschlagsrechnungen im Kopf durch und nutzen
+    Rechengesetze zum vorteilhaften Rechnen,
+–   erläutern und reflektieren die Verwendung von negativen Zahlen und die Eigenschaften
+    von irrationalen Zahlen an Beispielen,
+–   beschreiben und reflektieren ein Verfahren zur Einschachtelung einer irrationalen Zahl                ,
+–   lösen Potenz- und Wurzelgleichungen unter Nutzung der entsprechenden Gesetze,
+–   lösen lineare (2,2)- und (3,3)-Gleichungssysteme.
+
+
+         Messen [L2]
+Die Schülerinnen und Schüler
+–   messen Strecken und Winkel,
+–   berechnen Flächeninhalt und Umfang von zusammengesetzten Figuren, Volumen
+    und Oberfläche von Prismen, Pyramiden, Kegeln und Kugeln sowie von zusammen-ge-
+    setzten Körpern,
+–   bestimmen Flächeninhalt und Umfang von krummlinig begrenzten Figuren näherungsweise
+    durch Vergleich mit geometrischen Grundfiguren,
+–   bestimmen und deuten mittlere Änderungsraten in Tabellen und Graphen sowie
+    lokale Änderungsraten zeichnerisch,
+–   beschreiben und interpretieren qualitativ das Änderungsverhalten eines Funktionsgraphen
+    durch eine Skizze des Graphen der zugehörigen lokalen Änderungsraten und begründen
+    den Verlauf,
+–   bestimmen Steigungen von beliebigen Funktionsgraphen zeichnerisch.
+
+
+         Raum und Form [L3]
+
+Die Schülerinnen und Schüler
+–   klassifizieren geometrische Objekte unter Verwendung von Ober- und Unterbegriffen und
+    den definierenden Eigenschaften,
+–   berechnen Größen und begründen Eigenschaften von Figuren mithilfe von Sym                     metrie, ein-
+    fachen Winkelsätzen, Kongruenz, Ähnlichkeit, trigonometrischen Beziehungen,
+    dem Satz des Thales und dem Satz des Pythagoras,
+–   nutzen das Prinzip von Cavalieri (Scherung), um Flächen- und Volumenformeln zu
+    begründen.
+
+
+
+
+
+
+                                                                                               S e i t e | 15
+
+C Mathematik
+
+
+         Funktionaler Zusammenhang [L4]
+
+Die Schülerinnen und Schüler
+–   wechseln zwischen unterschiedlichen Darstellungen quadratischer Funktionen,
+    u. a. als Produkt von Linearfaktoren,
+–   charakterisieren und interpretieren die Ve        rläufe der Funktionen     𝑓(𝑥)  =  sin(𝑥),
+    𝑓(𝑥)  =  cos(𝑥), 𝑓(𝑥)   =  𝑎𝑥, 𝑓(𝑥)  =  𝑙𝑜𝑔𝑎(𝑥) und beschreiben Anwendungssituationen für
+    diese Funktionen,
+–   beschreiben qualitativ das Änderungsverhalten eines Funktionsgraphen durch eine Skizze
+    des Graphen der Änderungsfunktion und begründen den Verlauf,
+–   verwenden Winkelmaße in Grad- und Bogenmaß und interpretieren diese auch über
+    den Vollwinkel hinaus,
+–   geben zeichnerisch und rechnerisch Umkehrfunktionen zu linearen, quadratischen,
+    Potenz- und Exponentialfunktionen an und beschreiben damit reale Situationen,
+–   identifizieren proportionale, umgekehrt proportionale, lineare und quadratische
+    Zusammenhänge in tabellarischer, graphischer und symbolischer Darstellung, wechseln
+    zwischen den Darstellungsformen und verwenden sie zur Lösung von Anwendungs-proble-
+    men,
+–   verwenden Prozentdarstellungen, Potenzen, Wurzeln und Logarithmen zur Lösung
+    inner- und außermathematischer Probleme,
+–   bestimmen charakteristische  Punkte (z. B. Achsenschnittpunkte, Hochpunkte, Tiefpunkte,
+    Wendepunkte) aus Funktionsgraphen ganzrationaler Funktionen und deuten sie in Sachzu-
+    sammenhängen.
+
+
+         Daten und Zufall        [L5]
+Die Schülerinnen und Schüler
+
+–   planen statistische Erhebungen, nutzen Methoden der Erfassung und Darstellung von Da-
+    ten (Säulen- und Kreisdiagramme) und bewerten Darstellungen kritisch,
+–   bestimmen relative Häufigkeiten, Mittelwerte (arithmetisches Mittel, Median, Modalwert) so-
+    wie Streumaße (z. B. Spannweite) und interpretieren diese,
+–   wenden das empirische Gesetz der großen Zahlen an,
+–   nutzen Häufigkeiten zum Schätzen von Wahrscheinlichkeiten und Wahrscheinlichkeiten zur
+    Vorhersage von Häufigkeiten,
+–   bestimmen Wahrscheinlichkeiten mithilfe           der Laplace-Regel, Baumdiagrammen sowie
+    Pfadregeln und wenden diese an,
+–   nutzen Binomialkoeffizienten und Fakultäten zur Berechnung von Wahrscheinlichkeiten in
+    Anwendungskontexten.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S e i t e | 16
+
+                                                                                               C Mathematik
+
+3.2    Abschlussorientierte Standards
+
+3.2.1   Standards zu den allgemeinen mathematischen Kompetenzen
+Für das Fach Mathematik werden in den Bildungsstandards für die Allgemeine Hochschulreife
+sechs allgemeine mathematische Kompetenzen unterschieden, die das Spektrum mathema-
+tischen Arbeitens in der gymnasialen Oberstufe in hinreichender Breite erfassen. Es ist cha-
+rakteristisch, dass mehrere dieser Kompetenzen im Verbund benötigt werden. Eine scharfe
+Abgrenzung der einzelnen Kompetenzen ist nicht möglich.
+Im   Folgenden   werden   die   sechs   allgemeinen   mathematischen   Kompetenzen   näher
+beschrieben,  insbesondere  auch  durch  ihre  jeweiligen  Ausprägungen  in  den  drei  Anforde-
+rungsbereichen.  Diese  Kompetenzen  sind  immer  untrennbar  mit  den                 –  in  den  Leitideen
+konkretisierten – mathematischen Inhalten verbunden.
+
+Die folgenden Standards sind aus den Bildungsstandards im Fach Mathematik für die Allge-
+meine Hochschulreife übernommen.
+
+
+         Mathematisch argumentieren [K1]
+Zu dieser Kompetenz gehören sowohl das             Entwickeln eigenständiger, situationsangemesse-
+ner mathematischer Argumentationen und Vermutungen als auch das Verstehen und Bewer-
+ten gegebener mathematischer Aussagen. Das Spektrum reicht dabei von einfachen Plausibi-
+litätsargumenten über inhaltlich-anschauliche Begründungen bis zu formalen Beweisen. Typi-
+sche Formulierungen, die auf die Kompetenz des Argumentierens hinweisen, sind beispiels-
+weise „Begründen Sie!“, „Widerlegen Sie!“, „Gibt es?“ oder „Gilt das immer?“.
+Die drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:
+Anforderungsbereich I: Die Schülerinnen und Schüler können
+–   Routineargumentationen (bekannte Sätze, Verfahren, Herleitungen usw.) wiedergeben und
+    anwenden,
+–   einfache rechnerische Begründungen geben oder einfache logische Schlussfolgerungen
+    ziehen,
+–   Argumentationen auf der Basis von Alltagswissen führen.
+Anforderungsbereich II: Die Schülerinnen und Schüler können überschaubare mehr-schrit-
+tige Argumentationen und logische Schlüsse nachvollziehen, erläutern oder entwickeln.
+Anforderungsbereich III: Die Schülerinnen und Schüler können
+–   Beweise erläutern oder entwickeln, anspruchsvolle Argumentationen nutzen
+    oder entwickeln,
+–   verschiedene Argumente nach Kriterien wie Reichweite und Schlüssigkeit bewerten.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                               S e i t e  | 17
+
+C Mathematik
+
+
+         Probleme mathematisch lösen [K2]
+
+Diese Kompetenz beinhaltet, ausgehend vom Erkennen und Formulieren mathematischer
+Probleme, das Auswählen geeigneter Lösungsstrategien sowie das Finden und das Ausfüh-
+ren geeigneter Lösungswege. Das Spektrum reicht von der Anwendung bekannter bis zur
+Konstruktion komplexer und neuartiger Strategien.            Heurismen, wie z. B. Skizzen anfertigen,
+systematisch probieren, zerlegen und ergänzen, Symmetrien verwenden, Extremalprinzip, In-
+varianten finden sowie vorwärts und rückwärts arbeiten, werden gezielt ausgewählt und  an-
+gewendet.
+Die drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:
+Anforderungsbereich I: Die Schülerinnen und Schüler können einen Lösungsweg einer ein-
+fachen mathematischen Aufgabe durch Identifikation und Auswahl einer naheliegenden Stra-
+tegie, z. B. durch Analogiebetrachtung, finden.
+Anforderungsbereich II        : Die Schülerinnen und Schüler können           einen Lösungsweg zu einer
+Problemstellung,     z. B. durch ein mehrschrittiges, strategiegestütztes Vorgehen, finden.
+Anforderungsbereich III: Die Schülerinnen und Schüler können eine Strategie zur Lösung
+eines komplexeren Problems, z. B. zur Verallgemeinerung einer Schlussfolgerung, durch An-
+wenden mehrerer Heurismen oder zur Beurteilung verschiedener Lösungswege, entwickeln
+und anwenden.
+
+         Mathematisch modellieren [K3]
+
+Hier geht es um den Wechsel zwischen Realsituationen und mathematischen Begriffen, Re-
+sultaten oder Methoden. Neben geeigneten Grundvorstellungen gehört hierzu sowohl das
+Konstruieren passender mathematischer Modelle als auch das Verstehen oder Bewerten vor-
+gegebener Modelle. Typische Teilschritte des Modellierens sind das Strukturieren und Verein-
+fachen gegebener Realsituationen, das Übersetzen realer Gegebenheiten in mathematische
+Modelle, das Interpretieren mathematischer Ergebnisse in Bezug auf Realsituationen und das
+Überprüfen von Ergebnissen im Hinblick auf Stimmigkeit und Angemessenheit bezogen auf
+die Realsituation. Das Spektrum reicht von Standardmodellen (z. B. bei linearen Zusammen-
+hängen) bis zu komplexen Modellierungen.
+Die drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:
+Anforderungsbereich I: Die Schülerinnen und Schüler können
+–   vertraute und direkt erkennbare Modelle anwenden,
+–   eine Realsituation direkt in ein mathematisches Modell überführen,
+–   ein mathematisches Resultat auf eine gegebene Realsituation übertragen.
+Anforderungsbereich II: Die Schülerinnen und Schüler können
+–   mehrschrittige Modellierungen mit weni         gen und klar formulierten Einschränkungen
+    vornehmen,
+–   Ergebnisse einer solchen Modellierung interpretieren,
+–   ein mathematisches Modell an veränderte Umstände anpassen                   .
+Anforderungsbereich III: Die Schülerinnen und Schüler können
+–   eine komplexe Realsituation modellieren, wobei Variablen und Bedingungen festgelegt
+    werden müssen,
+–   mathematische Modelle im Kontext einer Realsituat             ion überprüfen, vergleichen und      be-
+    werten.
+
+
+
+
+
+
+
+
+
+
+
+S e i t e | 18
+
+                                                                                               C Mathematik
+
+
+         Mathematische Darstellungen verwenden [K4]
+
+Diese Kompetenz umfasst das Auswählen geeigneter Darstellungsformen, das Erzeugen ma-
+thematischer Darstellungen und das Umgehen mit gegebenen Darstellungen. Hierzu zählen
+Diagramme, Graphen und Tabellen ebenso wie Formeln. Das Spektrum reicht von Standard-
+darstellungen – wie Wertetabellen – bis zu eigenen Darstellungen, die dem Strukturieren und
+Dokumentieren individueller Überlegungen dienen und die Argumentation und das Problemlö-
+sen unterstützen.
+Die drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:
+Anforderungsbereich I: Die Schülerinnen und Schüler können Standarddarstellungen von
+mathematischen Objekten und Situationen anfertigen und nutzen.
+Anforderungsbereich II: Die Schülerinnen und Schüler können
+–   gegebene Darstellungen verständig interpretieren oder verändern,
+–   zwischen verschiedenen Darstellungen wechseln.
+Anforderungsbereich III: Die Schülerinnen und Schüler können
+–   mit unvertrauten Darstellungen und Darstellungsformen sachgerecht und verständig umge-
+    hen,
+–   eigene Darstellungen problemadäquat entwickeln,
+–   verschiedene Darstellungen und Darstellungsformen zweckgerichtet beurteilen.
+
+
+         Mit symbolischen, formalen und technischen Elementen der Mathematik
+         umgehen [K5]
+Diese Kompetenz beinhaltet in erster Linie das Ausführen von Operationen mit mathematischen
+Objekten wie Zahlen, Größen, Variablen, Termen, Gleichungen und Funktionen sowie V                     ektoren
+und geometrischen Objekten. Das Spektrum reicht hier von einfachen und überschaubaren
+Routineverfahren bis hin zu komplexen Verfahren einschließlich deren reflektierender Bewer-
+tung. Diese Kompetenz beinhaltet auch Faktenwissen und grundlegendes Reg                    elwissen für ein
+zielgerichtetes und effizientes Bearbeiten von mathematischen Aufgabenstellungen, auch mit
+eingeführten Hilfsmitteln und digitalen Werkzeugen.
+Die drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt                 beschreiben:
+Anforderungsbereich I: Die Schülerinnen und Schüler können
+–   elementare Lösungsverfahren verwenden,
+–   Formeln und Symbole direkt anwenden,
+–   mathematische Hilfsmittel und digitale Werkzeuge direkt nutzen.
+Anforderungsbereich II: Die Schülerinnen und Schüler können
+–   formale mathematische Verfahren anwenden,
+–   mit mathematischen Objekten im Kontext umgehen,
+–   mathematische Hilfsmittel und digitale Werkzeuge je nach Situation und Zweck gezielt aus-
+    wählen und effizient einsetzen.
+Anforderungsbereich III: Die Schülerinnen und Schüler können
+–   komplexe Verfahren durchführen,
+–   verschiedene Lösungs- und Kontrollverfahren bewerten,
+–   die Möglichkeiten und Grenzen mathematischer Verfahren, Hilfsmittel und digitaler
+    Werkzeuge reflektieren.
+
+
+
+
+                                                                                               S e i t e  | 19
+
+C Mathematik
+
+
+         Mathematisch kommunizieren [K6]
+
+Zu dieser Kompetenz gehören sowohl das Entnehmen von Informationen aus schriftlichen
+Texten, mündlichen Äußerungen oder sonstigen Quellen als auch das Darlegen von Überle-
+gungen und Resultaten unter Verwendung einer angemessenen Fachsprache. Das Spektrum
+reicht von der direkten Informationsentnahme aus Texten des Alltagsgebrauchs bzw. vom
+Aufschreiben einfacher Lösungswege bis hin zum sinnentnehmenden Erfassen fachsprachli-
+cher Texte bzw. zur strukturierten Darlegung oder Präsentation eigener Überlegungen.
+Sprachliche Anforderungen spielen bei dieser Kompetenz eine besondere Rolle.
+Die drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:
+Anforderungsbereich I: Die Schülerinnen und Schüler können
+–   einfache mathematische Sachverhalte darlegen,
+–   Informationen aus kurzen Texten mit mathematischem Gehalt identifizieren und aus                   -wäh-
+    len, wobei die Ordnung der Informationen im Text die Schritte der mathematischen Bear-
+    beitung nahelegt.
+Anforderungsbereich II: Die Schülerinnen und Schüler können
+–   mehrschrittige Lösungswege, Überlegungen und Ergebnisse verständlich darlegen,
+–   Äußerungen (auch fehlerhafte) anderer Personen zu mathematischen Aussagen
+    interpretieren,
+–   mathematische Informationen aus Texten identifizieren und auswählen, wobei die
+    Ordnung der Informationen nicht unmittelbar den Schritten der mathematischen
+    Bearbeitung entsprechen muss.
+Anforderungsbereich III: Die Schülerinnen und Schüler können
+–   eine komplexe mathematische Lösung oder Argumentation widerspruchsfrei und
+    vollständig darlegen oder präsentieren,
+–   mathematische Fachtexte sinnentnehmend erfassen,
+–   mündliche und schriftliche Äußerungen mit mathematischem Gehalt von anderen
+    Personen miteinander vergleichen, sie bewerten und ggf. korrigieren.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S e i t e | 20
+
+                                                                                                  C Mathematik
+
+3.2.2 Standards zu den inhaltsbezogenen Kompetenzen (Leitideen)
+In den Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife                      werden die
+folgenden Leitideen beschrieben.
+
+         Algorithmus und Zahl [L1]
+
+Diese Leitidee verallgemeinert zum einen den Zahlbegriff der Sekundarstufe I zu Tupeln ein-
+schließlich zugehöriger Operationen. Die Leitidee erweitert zum anderen die Vorstellungen von
+den reellen Zahlen durch Approximationen mittels infinitesimaler Methoden. Außerdem umfasst
+die  Leitidee  die  Kenntnis,  das  Verstehen  und  das  Anwenden  mathematischer  Verfahren,  die
+prinzipiell automatisierbar und damit einer Rechnernutzung zugänglich sind. Die darauf          be-
+zogenen  mathematischen  Sachgebiete in               der  gymnasialen  Oberstufe         sind  die  Anfänge     der
+Analysis und die Lineare Algebra.
+
+         Messen [L2]
+
+Diese Leitidee erweitert das Bestimmen und Deuten von Größen aus der Sekundarstufe I um
+infinitesimale, numerische und analytisch-geometrische Methoden. Dies betrifft sowohl funktio-
+nale Größen wie Änderungsraten und (re-)konstruierte Bestände als auch Größen im           Ko-
+ordinatensystem wie Winkel, Längen, Flächeninhalte und Volumina. Weiter umfasst die Leitidee
+stochastische Kenngrößen, die als Ergebnisse von Messprozessen im weiteren Sinne aufgefasst
+werden. Die darauf bezogenen mathematischen Sachgebiete in der gymnasialen Oberstufe sind
+die Analysis, die Analytische Geometrie und die Stochastik.
+
+         Raum und Form [L3]
+
+Diese Leitidee ist auf die Weiterentwicklung des bei den Schülerinnen und Schülern in der  Se-
+kundarstufe I entwickelten räumlichen Vorstellungsvermögens gerichtet. Sie beinhaltet den Um-
+gang mit Objekten im Raum. Es geht hier sowohl um Eigenschaften und Beziehungen                               dieser
+Objekte  als  auch  um  Darstellungen  mit  geeigneten  Hilfsmitteln  einschließlich  Geometriesoft-
+ware. Das zugehörige mathematische Sachgebiet in der gymnasialen Oberstufe ist die Analyti-
+sche Geometrie.
+
+         Funktionaler Zusammenhang [L4]
+
+Diese Leitidee ist darauf gerichtet, die in der Sekundarstufe I bei den Schülerinnen und Schülern
+entwickelten funktionalen Vorstellungen mit Begriffen und Verfahren der elementaren  Analysis
+zu vertiefen und den Funktionsbegriff durch vielfältige Beispiele zu erweitern, auch in stochasti-
+schen Kontexten. Es geht hier um funktionale Beziehungen zwischen Zahlen bzw. Größen sowie
+deren Darstellungen und Eigenschaften, auch unter Nutzung infinitesimaler Methoden und ge-
+eigneter  Software.  Die  darauf  bezogenen  mathematischen  Sachgebiete                    in  der  gymnasialen
+Oberstufe     sind in erster Linie die   Analysis   und die Stochastik    .
+
+         Daten und Zufall [L5]
+
+Diese Leitidee vernetzt Begriffe und Methoden zur Aufbereitung und Interpretation von statisti-
+schen Daten mit solchen zur Beschreibung und Modellierung von                  zufallsabhängigen Situationen.
+In Ausweitung und Vertiefung stochastischer Vorstellungen                 der Schülerinnen und Schüler          aus
+der Sekundarstufe       I umfasst diese Leitidee insbesondere den Umgang mit mehrstufigen Zufall-
+sexperimenten, die Untersuchung und Nutzung                von Verteilungen sowie einen Einblick in Metho-
+den der beurteilenden Statistik, auch mithilfe von Simulationen und unter Verwendung einschlä-
+giger Software.     Das darauf bezogene mathematische Sachgebiet                 in der gymnasialen Oberstufe
+ist die Stochastik   .
+
+
+
+
+                                                                                                  S e i t e  | 21
+
+C Mathematik
+
+Die Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife beschreiben
+den Zusammenhang zwischen allgemeinen mathematischen Kompetenzen, Leitideen und An-
+forderungsbereichen folgendermaßen:
+„Die Bewältigung mathematischer Problemsituationen erfordert das permanente Zusammen-
+spiel von prozess- und inhaltsbezogenen Kompetenzen. Insofern sind die folgenden                      – in der
+Sekundarstufe II verbindlichen – Inhalte immer im Kontext allgemeiner mathematischer Kom-
+petenzen und deren Anforderungsbereichen zu sehen. Unter                   ‚Inhalten‘ werden dabei insbe-
+sondere auch adäquate Grundvorstellungen verstanden, die ein Verständnis dieser Inhalte
+erst konstituieren. Die inhaltsbezogenen Kompetenzen werden jeweils übergreif                    enden Leit-
+ideen zugeordnet, die nicht auf bestimmte klassische mathematische Themenbereiche (Ana-
+lysis, Lineare Algebra     und   Analytische Geometrie, Stochastik) begrenzt sind. Die Leitideen
+tragen damit zur Vernetzung dieser traditionellen klassischen Sachgebiete bei.“
+Der Unterricht in der gymnasialen Oberstufe im Land Brandenburg im Fach Mathematik erfolgt
+auf grundlegendem und erhöhtem Anforderungsniveau (Grund- und Leistungskursfach).
+Jedes Kurshalbjahr ist auf den Kompetenzerwerb der Schülerinnen und Schüler und auf das
+Erreichen der abschlussorientierten Standards auszurichten. Für die inhaltliche Planung                    der
+vier Kurshalbjahre sind die nachfolgend dargestellten inhaltsbezogenen Kompetenzen maß-
+gebend. In der folgenden Übersicht wird für die vier Kurshalbjahre zuerst ein inhaltlicher Kern-
+bereich beschrieben, der die im Grundkurs- und Leistungskursfach zu behandelnden Inhalte
+charakterisiert. Anschließend werden weitere Inhalte, die ausschließlich im Leistungskursfach
+zu behandeln sind, aufgeführt.
+Die Zuordnung der inhaltsbezogenen Kompetenzen zu den Kurshalbjahren erfasst die schwer-
+punktmäßige Behandlung des jeweils ausgewiesenen Standards. Aufgrund unterschiedlicher
+Zeitdauer der Kurshalbjahre sind Verschiebungen zwischen den Kurshalbjahren zulässig. Das
+4. Kurshalbjahr (Q4) dient insbesondere der Vertiefung und Verknüpfung der bis dahin erwor-
+benen Kompetenzen. Als Vorbereitung auf die Abiturprüfung sind in allen Kurshalbjahren Sys-
+tematisierungen und komplexe Wiederholungen möglich.
+Problemstellungen, für deren Bearbeitung eine Verwendung von mathematischen Hilfsmitteln,
+abgesehen von den üblichen Zeichenmaterialien (z. B. Geodreieck), nicht vorgesehen ist, leis-
+ten  einen  bedeutenden  Beitrag  zur durchgängigen  Entwicklung  grundlegender  mathemati-
+scher Kompetenzen der Schülerinnen und Schüler. Vor diesem Hintergrund werden in einer
+gesondert  veröffentlichten        Anlage     zu  diesem  Rahmenlehrplan  sachgebietsbezogen  ver-
+bindliche Inhalte für das Grund- und Leistungskursfach festgelegt, bei denen von den Schüle-
+rinnen und Schülern erwartet wird, dass sie diese ohne Verwendung von digitale                   n Werkzeu-
+gen, Formelsammlungen bzw. Tafelwerken kennen und anwenden können. Diese festgeleg-
+ten verbindlichen Inhalte sind in Beziehung zu den Inhalten der Kurshalbjahre in der Qualifika-
+tionsphase zu setzen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S e i t e | 22
+
+                                                                                                 C Mathematik
+
+Inhaltsbezogene Kompetenzen
+
+  Q1     1. Kurshalbjahr: Analysis; Lineare Algebra
+
+      Inhaltsbezogene Kompetenzen                                                   Inhalte
+Grund- und Leistungskursfach
+Die Schülerinnen und Schüler können                          Die Inhalte zum mathematischen Sachgebiet
+                                                             der Analysis beziehen sich im Grund- und
+                                                             Leistungskursfach, sofern nicht Weiteres
+                                                             vermerkt, auf die folgenden Funktions-klas-
+                                                             sen:
+                                                                      o  Potenzfunktionen mit ganz-zahli-
+                                                                         gem Exponenten,
+                                                                      o  ganzrationale Funktionen,
+                                                                      o  natürliche Exponentialfunktionen.
+–   Grenzwerte  auf der Grundlage eines                L1    –   Grenzwertverhalten von Funktionsgra-
+    propädeutischen Grenzwertbegriffs                            phen ( 𝑥  →  ±∞;   𝑥 →  𝑥0)
+    insbesondere bei der Bestimmung von                      –   Schreibweise „lim“ ohne formale
+    Ableitungen nutzen,                                          Definition
+                                                             –   Ableitung einer Funktion mittels Differenti-
+                                                                 alquotienten
+–   geeignete Verfahren zur Lösung von                 L1    –   lineare, allgemeine quadratische und  bi-
+    Gleichungen und Gleichungssystemen                           quadratische Gleichungen sowie
+    auswählen und ein algorithmisches Lö-                        Gleichungen höheren Grades (unter  Ver-
+    sungsverfahren für lineare Gleichungs-                       wendung der Polynomdivision und  der Li-
+    systeme erläutern und  anwenden                              nearfaktorzerlegung)
+    (Fortführung in Q3),                                     –   natürliche Exponentialgleichungen (lösen
+                                                                 unter Anwendung des natürlichen Loga-
+                                                                 rithmus und der Logarithmengesetze für
+                                                                 den natürlichen Logarithmus       )
+                                                             –   Gauß-Verfahren zur Lösung linearer
+                                                                 Gleichungssysteme
+                                                             –   Lösbarkeit eines linearen Gleichungs        -sys-
+                                                                 tems (eine Lösung, keine Lösung,          unend-
+                                                                 lich viele Lösungen)
+                                                             –   lineare Gleichungssysteme in
+                                                                 Anwendungssituationen
+–   Sekanten- und Tangentensteigungen                  L2    –   Differenzenquotient
+    an Funktionsgraphen bestimmen,                           –   Differentialquotient
+                                                             –   Gleichung der Tangente in einem Punkt
+                                                                 des Funktionsgraphen unter Verwendung
+                                                                 des Differentialquotienten
+                                                             –   Schnittwinkel zwischen Funktionsgraphen
+–   Änderungsraten berechnen und                       L2    –   mittlere und lokale Änderungsrate
+    deuten,                                                  –   mittlere Steigung einer Kurve in einem In-
+                                                                 tervall
+                                                             –   Änderungsrate im Sachzusammenhang
+                                                             –   Zusammenhang zwischen mittlerer bzw.
+                                                                 lokaler Änderungsrate und Differenzen-
+                                                                 quotient bzw. Differentialquotient
+
+
+
+
+                                                                                                 S e i t e  | 23
+
+C Mathematik
+
+–   Funktionen zur Beschreibung und  Un-               L4    –   Rekonstruktion von Funktionsgleichungen
+    tersuchung quantifizierbarer Zusam-                      –   Extremalprobleme, auch im Kontext au-
+    menhänge nutzen,                                             ßermathematischer Problemstellungen
+                                                             –   Funktionseigenschaften, auch in Anwen-
+                                                                 dungszusammenhängen:
+                                                                      o   Definitions- und Wertebereich
+                                                                      o   Nullstellen
+                                                                      o   Schnittpunkte mit den
+                                                                          Koordinatenachsen
+                                                                      o   Punktsymmetrie bzgl. des
+                                                                          Koordinatenursprungs        und
+                                                                          Axialsymmetrie bzgl. der
+                                                                          Ordinatenachse
+                                                                      o   Monotonie
+                                                                      o   Randextrema
+                                                                      o   Verhalten im Unendliche       n
+                                                             –   Tangenten- und Normalengleichungen
+                                                             –   Sinus- und Kosinusfunktionen:
+                                                                      o    Einfluss der Parameter auf den
+                                                                           Verlauf der Funktionsgraphen
+                                                                      o    Beschreibung periodischer Vor-
+                                                                           gänge
+–   in einfachen Fällen Verknüpfungen                  L4    –   additive und multiplikative Verknüpfungen
+    und Verkettungen von Funktionen zur                          zweier Funktionen
+    Beschreibung quantifizierbarer Zusam-                    –   Verkettungen von ganzrationalen Funktio-
+    menhänge nutzen,                                             nen und natürlichen Exponentialfunktio-
+                                                                 nen
+–   die Ableitung insbesondere als lokale              L4    –   Ableitung einer Funktion an einer Stelle
+    Änderungsrate deuten,                                    –   lokale Änderungsrate und Anstieg der
+                                                                 Tangente
+                                                             –   lokale Änderungsrate auch in Sachzu-
+                                                                 sammenhängen
+–   Änderungsraten funktional beschrei-                L4    –   Ableitungsfunktion auch in Sachzusam-
+    ben und interpretieren,                                      menhängen
+                                                             –   einfache Ableitungen mittels Differential-
+                                                                 quotienten
+–   Funktionen ableiten, auch unter Ver-               L4    –   auch folgende Funktionsklassen:
+    wendung der Konstanten-, Potenz-,                                 o   Wurzelfunktionen
+    Faktor-, Summen-, Produkt- und Ket-                               o   natürliche Logarithmusfunktionen
+    tenregel,                                                         o   Sinus- und Kosinusfunktionen
+                                                             –   Kettenregel mit linearer bzw. quadrati-
+                                                                 scher innerer Funktion
+                                                             –   natürliche Exponentialfunktion als Funk-
+                                                                 tion charakterisieren, die sich selbst als
+                                                                 Ableitung hat
+–   die Ableitung zur Bestimmung von Mo-               L4    –   Monotonie, lokale und globale Extrema,
+    notonie, Extrem- und Wendepunkten                            Wendepunkte, Sattelpunkte
+    von Funktionen nutzen,                                   –   notwendige und hinreichende Bedingung
+                                                                 und inhaltliche Begründung für die Exis-
+                                                                 tenz von Extrema und Wendepunkten
+                                                             –   Zusammenhang zwischen Monotonie und
+                                                                 erster Ableitung und Zusammenhang zwi-
+                                                                 schen Krümmungsverhalten und zweiter
+                                                                 Ableitung
+
+S e i t e  | 24
+
+                                                                                                 C Mathematik
+
+–   den Ableitungsgraphen aus dem Funk-                L4    –   Zusammenhang zwischen:
+    tionsgraphen entwickeln.                                          o   Monotonie und erster Ableitung
+                                                                      o   Extremwerten der Ausgangs-funk-
+                                                                          tion und Nullstellen der
+                                                                          Ableitungsfunktion
+                                                                      o   Wendestellen der Ausgangs-funk-
+                                                                          tion und zweiter Ableitung
+                                                             –   zweite Ableitung als Steigungsfunktion
+                                                                 der ersten Ableitung
+                                                             –   positive bzw. negative Funktionswerte
+                                                                 der zweiten Ableitung als Indikator für die
+                                                                 Krümmungsrichtung des Graphen der
+                                                                 Ausgangsfunktion
+
+Zusätzlich im Leistungskursfach
+Die Schülerinnen und Schüler können                          Die Inhalte zum mathematischen Sachgebiet
+darüber hinaus                                               der Analysis beziehen sich im Leistungskurs-
+                                                             fach zusätzlich auf die folgenden Funktions-
+                                                             klassen:
+                                                                      o   Wurzelfunktionen,
+                                                                      o   natürliche Logarithmusfunktionen,
+                                                                      o   Sinus- und Kosinusfunktionen.
+–   Funktionen weiterer Funktionsklassen               L4    –   Funktionsscharen mit einem Parameter
+    zur Beschreibung und Untersuchung                        –   Ortskurven von Extrem- und
+    quantifizierbarer Zusammenhänge                              Wendepunkten
+    nutzen,                                                  –   goniometrische Gleichungen
+–   Funktionen unter Verwendung der Ket-               L4    –   alle aufgeführten Funktionsklassen
+    tenregel ableiten,
+–   die Ableitung zur Bestimmung von Mo-               L4    –   alle aufgeführten Funktionsklassen
+    notonie, Extrem- und Wendepunkten
+    von Funktionen nutzen,
+–   in einfachen Fällen Verknüpfungen                  L4    –   Verknüpfungen und Verkettungen zweier
+    und Verkettungen von Scharen von                             Funktionen aus zwei Funktionsklassen
+    Funktionen zur Beschreibung quantifi-                        auch als Scharen mit einem Parameter
+    zierbarer Zusammenhänge nutzen,
+–   die Ableitung mithilfe der Approxima-              L4    –   graphisches Bestimmen von Funktions-
+    tion durch lineare Funktionen deuten.                        graphen der Ableitungsfunktion mithilfe
+                                                                 des Anstiegs von Tangenten (graphisches
+                                                                 Ableiten)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                 S e i t e  | 25
+
+C Mathematik
+
+
+  Q2     2. Kurshalbjahr: Analysis; Stochastik
+
+      Inhaltsbezogene Kompetenzen                                                  Inhalte
+Grund- und Leistungskursfach
+Die Schülerinnen und Schüler können                         Die Inhalte zum mathematischen Sachgebiet
+                                                            der Analysis beziehen sich im Grund- und
+                                                            Leistungskursfach, sofern nicht Weiteres
+                                                            vermerkt, auf die folgenden Funktions-klas-
+                                                            sen:
+                                                                     o   Potenzfunktionen mit ganz-zahli-
+                                                                         gem Exponenten (𝑛       ≠  −1),
+                                                                     o   ganzrationale Funktionen,
+                                                                     o   natürliche Exponentialfunktionen.
+–   Grenzwerte  auf der Grundlage eines               L1    –   näherungsweises Bestimmen von Flä-
+    propädeutischen Grenzwertbegriffs                           cheninhalten unter Funktionsgraphen mit-
+    insbesondere bei der Bestimmung des                         tels Ober- und Untersummen
+    Integrals nutzen,                                       –   bestimmtes Integral als gemeinsamen
+                                                                Grenzwert von Ober- und Untersumme
+–   Bestände aus Änderungsraten und An-               L2    –   Rekonstruktion eines Bestandes aus  ei-
+    fangsbestand berechnen,                                     nem Anfangsbestand und einem Zusam-
+                                                                menhang zur Bestandsänderung
+–   Inhalte von Flächen, die durch Funk-ti-           L2    –   bestimmtes Integral
+    onsgraphen begrenzt sind, bestimmen,                    –   Flächeninhalt von Flächen, welche von
+                                                                Funktionsgraphen, den Koordinatenach-
+                                                                sen oder achsenparallelen Geraden
+                                                                begrenzt werden, auch in Anwendungszu-
+                                                                sammenhängen
+–   Lage- und Streumaße einer Stichprobe              L2    –   Maximum, Minimum, oberes und unteres
+    bestimmen und deuten,                                       Quartil, arithmetisches Mittel, Median,
+                                                                Modalwert, Erwartungswert, Spannweite,
+                                                                mittlere lineare Abweichung, Varianz,
+                                                                Standardabweichung
+–   Erwartungswert und Standardabwei-                 L2    –   binomialverteilte Zufallsgrößen
+    chung diskreter Zufallsgrößen bestim-                   –   Eigenschaften auf der Grundlage graphi-
+    men und deuten,                                             scher Darstellungen
+–   das bestimmte Integral deuten,                     L4   –   (Re-)konstruktion eines Bestandes aus
+    insbesondere als (re-)konstruierten Be-                     Änderungsraten in Anwendungs-situatio-
+    stand,                                                      nen
+–   geometrisch anschaulich den Haupt-                L4    –   Hauptsatz der Differential- und
+    satz als Beziehung zwischen Ableiten                        Integralrechnung
+    und Integrieren begründen,                              –   Zusammenhang zwischen den Funk-ti-
+                                                                onsgraphen der Funktion, der Ableitungs-
+                                                                funktion und der Stammfunktion
+                                                            –   Integrieren als Umkehrung des Differen-
+                                                                zierens
+
+
+
+
+
+
+
+
+S e i t e | 26
+
+                                                                                                  C Mathematik
+
+–   Integrale von Funktionen mittels                   L4     –  auch folgende Funktionsklassen:
+    Stammfunktionen bilden,                                            o  Wurzelfunktionen
+                                                                       o  Sinus- und Kosinusfunktionen
+                                                              –  Regeln des Vertauschens und der Addi-tivi-
+                                                                 tät von Integrationsgrenzen
+                                                              –  Integrationsregeln:
+                                                                       o  Potenzregel
+                                                                       o  Faktorregel
+                                                                       o  Summenregel
+                                                                       o  Konstantenregel
+                                                              –  Integration durch Substitution (bei linearer
+                                                                 innerer Funktion)
+–   exemplarisch statistische Erhebungen               L5     –  Grundlagen der Datenerhebung und Daten-
+    planen und auswerten,                                        aufbereitung aus der Sekundarstufe I
+                                                              –  Durchführung eigener Erhebungen
+                                                              –  kritische Betrachtung von veröffentlichten
+                                                                 Erhebungen in Zeitungen oder anderen
+                                                                 Publikationen
+–   Zufallsgrößen und Wahrscheinlich-                  L4     –  Zufallsgrößen als Zuordnung von Ergebnis-
+    keitsverteilungen zur Beschreibung                           sen von Zufallsexperimenten
+    stochastischer Situationen nutzen,                        –  Wahrscheinlichkeitsverteilung einer Zufalls-
+                                                                 größe in Tabellen und Diagrammen
+–   die Binomialverteilung und ihre Kenn-              L4     –  Zufallsgröße
+    größen nutzen und die Binomialvertei-              L5     –  Bernoulli-Experiment
+    lung zur Beschreibung stochastischer                      –  Bernoulli-Kette
+    Situationen nutzen,                                       –  diskrete Verteilung
+                                                              –  Binomialverteilung
+                                                              –  Punkt- und Intervallwahrscheinlichkeiten für
+                                                                 die Anzahl an Erfolgen
+                                                              –  Binomialverteilung im Histogramm, auch
+                                                                 kumulative Darstellungen
+                                                              –  Kenngrößen von Wahrscheinlichkeits-ver-
+                                                                 teilungen
+                                                                       o  Erwartungswert
+                                                                       o  Varianz
+                                                                       o  Standardabweichung
+–   Anwendungssituationen mithilfe von                 L5     –  kombinatorische Abzählverfahren
+    Urnenmodellen untersuchen,                                –  Zufallsexperimente mit nur zwei möglichen
+                                                                 Ausgängen im Urnenmodell:
+                                                                       o  Ziehen ohne Zurücklegen (hyper-
+                                                                          geometrische Verteilung)
+                                                                       o  Ziehen mit Zurücklegen (Binomial-
+                                                                          verteilung)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                  S e i t e  | 27
+
+C Mathematik
+
+–   Sachverhalte mithilfe von Baumdia-                 L5    –   Grundbegriffe der Mengenlehre:
+    grammen oder Vierfeldertafeln unter-                              o   leere Menge
+    suchen und damit Problemstellungen                                o   Teilmenge
+    im Kontext bedingter Wahrscheinlich-                              o   Vereinigungs- und Durchschnitts-
+    keiten lösen,                                                         menge
+                                                             –   Axiomensystem von Kolmogorow
+                                                             –   Venn-Diagramm
+                                                             –   Baumdiagramm und Pfadregeln
+                                                             –   Vierfeldertafel
+                                                             –   bedingte Wahrscheinlichkeit
+                                                             –   Satz von der totalen Wahrscheinlichkeit
+                                                             –   Satz von Bayes
+–   Teilvorgänge mehrstufiger Zufalls-ex-              L5    –   zwei- und dreistufige Zufallsexperimente
+    perimente auf stochastische Unabhän-                     –   stochastische Abhängigkeit und Unab-
+    gigkeit anhand einfacher Beispiele un-                       hängigkeit von Ereignissen
+    tersuchen,
+–   Simulationen zur Untersuchung                      L5    –   Beziehung zwischen relativer Häufigkeit
+    stochastischer Situationen verwenden.                        und Wahrscheinlichkeit
+                                                             –   Verwendung von Zufallsgeneratoren bei
+                                                                 der Simulationen zu innermathematischen
+                                                                 und realitätsnahen Fragestellungen
+Zusätzlich im Leistungskursfach
+Die Schülerinnen und Schüler können                          Die Inhalte zum mathematischen Sachgebiet
+darüber hinaus                                               der Analysis beziehen sich im Leistungskurs-
+                                                             fach zusätzlich auf die folgenden Funktions-
+                                                             klassen:
+                                                                      o   Wurzelfunktionen,
+                                                                      o   natürliche Logarithmusfunktionen,
+                                                                      o   Sinus- und Kosinusfunktionen.
+–   Inhalte von Flächen, die durch Funk-ti-            L2    –   Flächeninhalt von Flächen, welche von
+    onsgraphen begrenzt sind,              be-                   Funktionsgraphen von natürlichen Loga-
+    stimmen,                                                     rithmusfunktionen, von Wurzelfunktionen,
+                                                                 von Sinus- und Kosinusfunktionen, den
+                                                                 Koordinatenachsen oder achsenparalle-
+                                                                 len Geraden begrenzt werden, auch in
+                                                                 Anwendungskontexten
+                                                             –   Inhalte unbegrenzter Flächen mittels unei-
+                                                                 gentlicher Integrale:
+                                                                      o   Integral über einen unbeschränk-
+                                                                          ten Intervall
+                                                                      o   Integral einer unbeschränkten
+                                                                          Funktion
+–   die natürliche Logarithmusfunktion als             L4    –   Eigenschaften der Graphen der natürli-
+    Stammfunktion von x       →  1 und als Um-                   chen Logarithmusfunktion und der natürli-
+                                 x                               chen Exponentialfunktion
+    kehrfunktion der e-Funktion nutzen.                      –   natürliche Exponentialfunktion als Um-
+                                                                 kehrfunktion der natürlichen Logarithmus-
+                                                                 funktion
+
+
+
+
+
+
+
+S e i t e | 28
+
+                                                                                               C Mathematik
+
+
+ Q3     3. Kurshalbjahr: Analytische Geometrie
+
+     Inhaltsbezogene Kompetenzen                                                  Inhalte
+Grund- und Leistungskursfach
+Die Schülerinnen und Schüler können
+
+–  geeignete Verfahren zur Lösung von                L1     –  lineare Gleichungssysteme mit bis zu drei
+   Gleichungssystemen auswählen und                            Variablen
+   ein algorithmisches Lösungsverfahren                     –  Gleichungssysteme in Anwendungssitua-
+   für lineare Gleichungssysteme erläu-                        tionen (Bestimmung von Schnittmengen)
+   tern und anwenden,
+–  einfache Sachverhalte mit Tupeln                  L1     –  Tupel in Form von Punkten und Vektoren
+   beschreiben,                                                angeben
+                                                            –  Nutzung in einem Tabellenkalkulations-
+                                                               programm
+–  Streckenlängen und Winkelgrößen im                L2     –  Betrag eines Vektors bzw. Länge einer
+   Raum auch mithilfe des Skalarprodukts                       Strecke
+   bestimmen,                                               –  Mittelpunkt einer Strecke
+                                                            –  Winkel zwischen Geraden, Geraden und
+                                                               Ebenen, Ebenen und Ebenen
+                                                            –  Orthogonalität von Geraden, Ebenen, Ge-
+                                                               raden und Ebenen
+–  Abstände zwischen Punkten, Geraden                L2     –  Abstände zwischen:
+   und Ebenen bestimmen,                                             o  Punkt – Punkt
+                                                                     o  Punkt – Ebene
+                                                                     o  Gerade – Ebene
+                                                                     o  Ebene – Ebene
+–  geometrische Sachverhalte in Ebene                L3     –  Darstellung von Punktmengen, Geraden,
+   und Raum koordinatisieren und im  Ko-                       Ebenen, ebenen Figuren und Körpern in
+   ordinatensystem darstellen,                                 zwei- bzw. dreidimensionalen kartesi-
+                                                               schen Koordinatensystemen auch mithilfe
+                                                               von Vektoren
+                                                            –  Teilverhältnisse von Strecken
+–  elementare Operationen mit geometri-              L3     –  Vektorbegriff (Verschiebung, Pfeilklasse)
+   schen Vektoren ausführen und Vekto-                      –  Einheitsvektor
+   ren auf Kollinearität untersuchen,                       –  Nullvektor
+                                                            –  Gegenvektor
+                                                            –  Ortsvektor
+                                                            –  Koordinatendarstellung von Vektoren
+                                                            –  Vektoraddition
+                                                            –  Multiplikation eines Vektors mit einer  re-
+                                                               ellen Zahl
+                                                            –  Darstellung von Vektoren als Linear-kom-
+                                                               binationen anderer Vektoren
+                                                            –  lineare Abhängigkeit und lineare
+                                                               Unabhängigkeit von Vektoren
+                                                            –  Kommutativ- und Assoziativgesetz bei
+                                                               der Vektoraddition
+                                                            –  Distributivgesetz bei der Multiplikation ei-
+                                                               nes Vektors mit einer reellen Zahl
+
+
+
+                                                                                               S e i t e  | 29
+
+C Mathematik
+
+–   Vektoren beim Arbeiten mit geradlinig            L3    –   Beschreibung geometrischer Objekte mit-
+    bzw. ebenflächig begrenzten geometri-                      tels Vektoren
+    schen Objekten anwenden,                               –   Flächeninhalte von geometrischen Ob-
+                                                               jekte, die durch Koordinaten und mit Vek-
+                                                               toren beschrieben sind
+–   das Skalarprodukt geometrisch deuten,            L3    –   Skalarprodukt in Koordinatenform und in
+                                                               koordinatenfreier Form
+                                                           –   Winkel zwischen zwei Vektoren
+                                                           –   Orthogonalität von Vektoren
+                                                           –   Veranschaulichung der Definition des
+                                                               Skalarprodukts durch orthogonale Projek-
+                                                               tion des zweiten Vektors auf die durch
+                                                               den ersten Vektor bestimmte Richtung
+–   Geraden und Ebenen analytisch be-                L3    –   Richtungsvektor
+    schreiben und Lagebeziehungen von                      –   Normalenvektor
+    Geraden und Ebenen untersuchen.                        –   Spannvektoren
+                                                           –   analytische Beschreibung von Geraden
+                                                               und Ebenen:
+                                                                    o   Parameterform
+                                                                    o   Koordinatenform
+                                                                    o   Normalenform
+                                                                    o   Hessesche Normalenform
+                                                           –   Zusammenhang zwischen Parameter-,
+                                                               Normalen- und Koordinatengleichung von
+                                                               Geraden in der Ebene und von Ebenen
+                                                               im Raum
+                                                           –   Lagebeziehungen zwischen:
+                                                                    o   Punkt und Gerade
+                                                                    o   Geraden
+                                                                    o   Gerade und Ebene
+                                                                    o   Punkt und Ebene
+                                                                    o   Ebenen
+                                                           –   Schnittmenge:
+                                                                    o    zweier Geraden
+                                                                    o    einer Geraden und einer Ebene
+                                                           –   Winkel zwischen Geraden, zwischen Ebe-
+                                                               nen und zwischen Gerade und Ebene
+Zusätzlich im Leistungskursfach
+Die Schülerinnen und Schüler können
+darüber hinaus
+–   Abstände zwischen Punkten und                    L2    –   Abstände zwischen:
+    Geraden bestimmen,                                              o   Punkt – Gerade
+                                                                    o   parallelen Geraden
+                                                                    o   windschiefen Geraden
+–   die Lagebeziehungen von Geraden                  L3    –   analytische Beschreibung von Punkten,
+    und Ebenen untersuchen.                                    Geraden und Ebenen auch unter Verwen-
+                                                               dung von Parametern in den Koordinaten
+                                                               (Scharen)
+                                                           –   Schnittmenge zweier Ebenen
+
+
+
+
+
+S e i t e | 30
+
+                                                                                                 C Mathematik
+
+
+  Q4     4. Kurshalbjahr: Analysis; Stochastik; komplexe Aufgabenstellungen aus allen
+                               drei Sachgebieten
+      Inhaltsbezogene Kompetenzen                                                   Inhalte
+
+Grund- und Leistungskursfach
+Die Schülerinnen und Schüler können
+
+–   in einfachen Fällen aufgrund von Stich-            L5    –  Unterscheidung zwischen Zufallsstich-
+    proben auf die Gesamtheit schließen.                        probe und Grundgesamtheit
+                                                             –  Schätzung von Wahrscheinlichkeiten aus
+                                                                relativen Häufigkeiten mit den k-σ-Regeln
+                                                                (1/√𝑛  – Gesetz)
+
+Zusätzlich im Leistungskursfach
+Die Schülerinnen und Schüler können
+darüber hinaus
+–   das Volumen von Körpern bestimmen,                 L2    –  Volumen bei Rotation von Flächen um die
+    die durch Rotation um die Abszissen-                        Abszissenachse; diese Flächen können
+    achse entstehen,                                            begrenzt sein durch Funktionsgraphen,
+                                                                Koordinatenachsen, Parallelen zu den
+                                                                Koordinatenachsen
+                                                             –  zusammengesetzte Rotationskörper
+                                                             –  Bestimmung von Scharparametern bzw.
+                                                                Integrationsgrenzen bei gegebenem
+                                                                Volumen oder Flächeninhalt
+–   Hypothesentests bei Binomial-vertei-               L5    –  Hypothesentests (Alternativtests und ein-
+    lungen interpretieren und die  Unsi-                        und zweiseitige Signifikanztests) für bino-
+    cherheit und Genauigkeit der       Er-                      mial- und normalverteilte Zufallsgrößen
+    gebnisse begründen,                                      –  Unsicherheit der Ergebnisse von Hypo-
+                                                                thesentests
+                                                             –  Signifikanzniveau, Ablehnungsbereich
+                                                                und Entscheidungsregel
+                                                             –  Fehler 1. und 2. Art
+–   exemplarisch diskrete und stetige                  L5    –  diskrete und stetige Zufallsgrößen am
+    Zufallsgrößen unterscheiden und die                         Beispiel von Binomial- und Normal-vertei-
+    „Glockenform“ als Grundvorstellung                          lung
+    von normalverteilten Zufallsgrößen nut-                  –  Einfluss von Erwartungswert und Stan-
+    zen,                                                        dardabweichung auf die Normalverteilung
+                                                                und die graphische Darstellung ihrer Dich-
+                                                                tefunktion
+                                                             –  Erwartungswert und Standardabweichung
+                                                                für normalverteilte Zufallsgrößen
+–   stochastische Situationen untersuchen,             L5    –  Normalverteilung als Grenzfall der Bino-
+    die zu annähernd normalverteilten Zu-                       mialverteilung
+    fallsgrößen führen.                                      –  Berechnung von Wahrscheinlichkeiten mit
+                                                                der Formel von Moivre-Laplace
+
+
+
+
+
+
+
+                                                                                                 S e i t e  | 31
+
+C Mathematik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S e i t e   | 32

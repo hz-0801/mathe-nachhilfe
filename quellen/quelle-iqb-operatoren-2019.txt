@@ -1,0 +1,52 @@
+Gemeinsame                       Abituraufgabenpools                                                                                                                                                                                                         der Länder
+Aufgaben für das Fach Mathematik
+
+Grundstock von Operatoren
+
+
+Im Folgenden werden Operatoren erläutert, die                                     in Aufgaben für das Fach                         Mathematik   häufig
+vorkommen.                                                    Die     genannten Operatoren werden in den Aufgaben der Aufgabensammlung
+und    des Abituraufgabenpools der jeweiligen Erläuterung entsprechend verwendet.                                                                                                         Sie     kön-
+nen durch Zusätze (z.        B. „rechnerisch“ oder „grafisch“) konkretisiert werden. Zugelassene
+Hilfsmittel dürfen zur Bearbeitung verwendet werden, sofern dem kein entsprechender Zu-
+satz entgegensteht.
+Die Verwendung eines Operators, der im Folgenden nicht genannt wird, ist möglich, wenn
+aufgrund der standardsprachlichen Bedeutung dieses Operators in Verbindung mit der Auf-
+gabenstellung davon auszugehen ist, dass die jeweilige Aufgabe im Sinne der Aufgabenstel-
+lung bearbeitet werden kann.
+
+
+
+Operator                  Erläuterung
+
+angeben,                  Für die Angabe bz w. Nennung ist keine Begründung not wendig.
+nennen
+entscheiden               Für die Entscheidung ist keine Begründung not wendig.
+beurteilen                Das zu fällende Urteil ist zu begründen.
+beschreiben               Bei einer Beschreibung kommt einer sprachlich angemessenen Formulierung und ggf. einer
+                          korrekten Verwendung der Fachsprache besondere Bedeutung zu.                                                                  Eine Begründung für die
+                          Beschreibung ist nicht not wendig.
+erläutern                 Die Erläuterung liefert Informationen, mithilfe derer sich z. B. das Zustandekommen einer
+                          grafischen Darstellung oder ein mathematisches Vorgehen nachvollziehen lassen.
+deuten,                   Die Deutung bzw. Interpretation stellt einen Zusammenhang her z. B. zwischen einer grafi-
+interpretieren            schen Darstellung, einem Term oder dem Ergebnis einer Rechnung und einem vorgegebe-
+                          nen Sachzusammenhang.
+begründen,                Aussagen oder Sachverhalte sind durch logisches Schließen zu bestätigen. Die Art des
+nachweisen,               Vorgehens kann –  sofern nicht durch einen Zusatz anders angegeben – frei gewählt werden
+zeigen                    (z. B. Anwenden rechnerischer oder grafischer Verfahren). Das Vorgehen ist darzustellen.
+berechnen                 Die Berechnung ist ausgehend von einem Ansatz darzustellen.
+bestimmen,                Die Art des Vorgehens kann – sofern nicht durch einen Zusatz anders angegeben – frei
+ermitteln                 gewählt werden (z. B. Anwenden rechnerischer oder grafischer Verfahren). Das Vorgehen ist
+                          darzustellen.
+untersuchen               Die Art des Vorgehens kann – sofern nicht durch einen Zusatz anders angegeben – frei
+                          gewählt werden (z. B. Anwenden rechnerischer oder grafischer Verfahren). Das Vorgehen ist
+                          darzustellen.
+grafisch darstellen,      Die grafische Darstellung bzw. Zeichnung ist möglichst genau anzufertigen.
+zeichnen
+skizzieren                Die Skizze ist so anzufertigen, dass sie das im betrachteten Zusammenhang Wesentliche
+                          grafisch beschreibt.
+
+
+
+
+                                                                                                                         Stand: 28.02.2019
