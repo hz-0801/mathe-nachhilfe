@@ -85,6 +85,14 @@ Themenkatalog nur in Lieferzips der Prompt-Werkstatt, nicht im Repo.
 
 Offen: Kastenform (Abschnittsverweis, Zahlenbeispiele, Nachschlagewerk oder Merkhilfe), Mechanik-Punkte (A4 breit/eng, Prüflisten, Prüflistenzeilen 10 und 11). Kein Blatt ist bisher aus einem Eintrag gebaut worden.
 
+## rohdaten/ – Rohdateien je Thema
+
+Lesestoff für Katalogeinträge: je kanonischem Thema aus `themen.csv` eine Datei
+`<kanonisch>.md` mit Typenprofil, Zeilenliste und Sammlung der Fehlerquellen und
+Stichwörter aller zugehörigen Katalogzeilen. Abgeleitet aus `themen.csv` und den fünf
+Katalogen, nie von Hand ändern; neu bauen mit `python werkzeuge/rohdatei-bau.py [thema ...]`.
+Bisher nur der Probelauf: `brueche-dezimalzahlen.md`, `wahrscheinlichkeit.md`.
+
 ## quellen/ – Quellentexte
 
 Textfassungen der Quellen, die alle Katalogeinträge brauchen, damit sie nicht in jedem
@@ -105,6 +113,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `korpus-bau.py`, `korpus-protokoll.md` – Markdown-Korpus und OCR der Prüfungshefte.
 - `themen-inventar.py`, `themen-inventar.md` – Themennamen aller vier Prüfungskataloge gezählt; Vorstufe der Themenkonkordanz.
 - `themen-pruef.py` – prüft `themen.csv` gegen Kataloge, `katalog/` und Vokabular; nach jeder Katalogänderung ausführen, Rückgabewert 0 nur bei bestandener Prüfung.
+- `rohdatei-bau.py` – schreibt je kanonischem Thema `rohdaten/<kanonisch>.md` aus `themen.csv` und den Katalogen; ohne Argument alle Themen mit Katalogzeilen.
 
 ## archiv/ – eingefroren
 
