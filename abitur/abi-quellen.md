@@ -53,6 +53,13 @@ https://bildungsserver.berlin-brandenburg.de/abituraufgaben-2011
 Verzeichnis der Dateien:
 https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/abitur_bb/Zabi_Mathematik/
 
+Die zwölf gemeinsamen Hefte 2011–2013 liegen nicht dort, sondern je Jahr unter
+https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/gemeinsames_Abitur_Be_BB/Abituraufgaben/Abituraufgaben_<Jahr>/
+Die Regel „Verzeichnis aus § 1 + Serverdatei" gilt für diese zwölf Dateien mit dem
+zweiten Verzeichnis. (Nachgetragen 19.09.2026, Fund des Projektarchivs
+Abitur-Prüfungssammlung; der Pfad stammt aus dem Chat vom 07.09.2026 und ist nicht
+erneut geprüft – bei Bedarf eine Datei probeweise holen.)
+
 Veröffentlicht sind nur die Jahrgänge 2011–2018, aus urheberrechtlichen Gründen
 nichts danach. Lösungen und Erwartungshorizonte sind nicht enthalten.
 
