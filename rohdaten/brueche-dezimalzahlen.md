@@ -4,7 +4,7 @@ Stufe: I
 
 - msa: Brüche und Dezimalzahlen (17 Zeilen)
 
-Stand: 2026-09-19, Commit f9a821f
+Stand: 2026-09-19, Commit 16e5c1f
 
 ## A Typenprofil
 
@@ -46,69 +46,3 @@ msa/msa-typen.csv (gültig): Eine beliebige Zahl angeben, die eine Bedingung erf
 2015-OS-B1c | 1 | ja | Ankreuzen · Kreuzen Sie an | drei Aussagen: 1,5 < 3/2; 8/5 > 3/2; √2 > 3/2 → die wahre Aussage | 3/2 = 1,5 (gleich, nicht kleiner); 8/5 = 1,6 > 1,5; √2 ≈ 1,41 < 1,5
 2018-OS-B1d | 1 | ja | Eintragen · Setzen Sie ein | 5 % und 0,5 → Vergleichszeichen | 5 % = 0,05 < 0,5
 2023-OS-B1f | 1 | ja | Kurzantwort · Geben Sie an | 4,4; 0,44; 0,4²; 44 % → kleinster Wert | alle als Dezimalzahl: 4,4; 0,44; 0,16; 0,44
-
-## C Sammlung
-
-## Fehlerquellen
-
-- 0,4² als 0,8 oder 1,6 rechnen (1)
-- 1,2 : 3 · 4 = 1,6 kg (Bruch umgedreht) (1)
-- 1/3 oder 3/4 nach Zählern und Nennern schätzen (1)
-- 20 % als 2 Kästchen oder als eine Spalte (5) markieren (1)
-- 3 von 4 Spalten färben (3/4) (1)
-- 400 l (Füllmenge statt Rest) angeben (1)
-- 5 % als 0,5 lesen und „=“ setzen (1)
-- 6 Kästchen schraffieren (Zähler als Anzahl); 4 Spalten (Hälfte plus eine) (1)
-- 9/6 (grau zu weiß) oder 3/5 = 35 % (1)
-- Kästchen falsch zählen oder 25 % als 25 Kästchen lesen (1)
-- Kästchen falsch zählen, weil die graue Fläche halbe Kästchen enthält (1)
-- Sektoren zählen (3 von 7) ohne auf die Größe zu achten (1)
-- ein Viertel einer Seite statt der Fläche markieren (1)
-- grauen Streifen des Rechtecks nach Augenmaß als Drittel schätzen (1)
-- −0,65 oder −0,45 (falsche Richtung); Vorzeichen weglassen (1)
-- −1/2 vor −0,512 (Beträge vergleichen) oder √2 vor 1,4 (1)
-- √2 als 2 lesen und √2 > 3/2 ankreuzen (1)
-
-## Stichwörter
-
-- Anteil (5)
-- Bruch (5)
-- Dezimalzahl (5)
-- Prozent (5)
-- Kästchen (4)
-- Bruchteil (3)
-- Quadrat (2)
-- Rechteck (2)
-- Wurzel (2)
-- markieren (2)
-- negative Zahlen (2)
-- ordnen (2)
-- 20 % (1)
-- 25 % (1)
-- Ankreuzen (1)
-- Brüche (1)
-- Dezimalzahlen (1)
-- Drittel (1)
-- Figur (1)
-- Fläche zerlegen (1)
-- Größe (1)
-- Hälfte (1)
-- Kreis (1)
-- Kreissektor (1)
-- Kästchen zählen (1)
-- Liter (1)
-- Masse (1)
-- Mitte (1)
-- Potenz (1)
-- Raute (1)
-- Rest (1)
-- Sektoren (1)
-- Ungleichung (1)
-- Vergleichszeichen (1)
-- Viertel (1)
-- Zahlenstrahl (1)
-- dazwischen (1)
-- drei Viertel (1)
-- offene Antwort (1)
-- schraffieren (1)
-- zwei Drittel (1)

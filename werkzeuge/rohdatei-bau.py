@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-rohdatei-bau.py v0.1 · 19.09.2026 · Rohdatei je kanonischem Thema
+rohdatei-bau.py v0.2 · 19.09.2026 · Rohdatei je kanonischem Thema
+
+Änderungen gegenüber 0.1 (Auftrag Rohdateien für alle Themen, 19.09.2026):
+Teil C (Sammlung der Fehlerquellen und Stichwörter) gestrichen – im Probelauf
+kam fast jeder Wert genau einmal vor, die Zählung trug nichts. Teil A und B,
+Zeilenform und Sortierung unverändert.
 
 Eine Rohdatei ist der Lesestoff, aus dem ein Chat den Themenkatalog-Eintrag
 schreibt: alles, was zu einem kanonischen Thema aus themen.csv in den fünf
@@ -20,10 +25,8 @@ rohdaten/<kanonisch>.md, abgeleitet und nie von Hand geändert:
              Profil; Form id | punkte | hilfsmittel | format · operator |
              gegeben → gesucht | verfahren. Senkrechte Striche im Inhalt
              werden zu ¦, Zeilenumbrüche zu Leerzeichen; nichts wird gekürzt.
-  Teil C   – Sammlung: Fehlerquellen und Stichwörter, Einzelwerte der
-             Listenfelder (Trennzeichen „|", katalog-prompt.md § 5),
-             getrimmt, exakt entdoppelt, absteigend nach Häufigkeit.
 
+Listenfelder (typ_neben) trennen mehrere Werte mit „|" (katalog-prompt.md § 5).
 Zuordnung Katalogzeile → Thema über (profil, leitidee, thema) aus themen.csv;
 jede Zeile landet so in höchstens einer Rohdatei. Vor dem Schreiben wird je
 Profilthema geprüft, dass die Zeilenzahl der Spalte zeilen in themen.csv
@@ -45,7 +48,7 @@ import subprocess
 import sys
 
 HIER = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Repo-Wurzel; Skript liegt in werkzeuge/
-VERSION = "rohdatei-bau.py v0.1"
+VERSION = "rohdatei-bau.py v0.2"
 KONKORDANZ = "themen.csv"
 AUSGABE = "rohdaten"
 PROFILE = ["msa", "fhr", "abi", "iqb"]  # Reihenfolge in Teil B
@@ -219,27 +222,11 @@ def baue(kanonisch, konk_zeilen, kat_zeilen, typen, stand):
                       glatt(z["gegeben"]) + " → " + glatt(z["gesucht"]),
                       glatt(z["verfahren"])]))
     w("")
-
-    # ---- Teil C
-    w("## C Sammlung")
-    w("")
-    kenn = {}
-    for titel, feld in (("Fehlerquellen", "fehlerquelle"), ("Stichwörter", "stichwoerter")):
-        zaehler = collections.Counter(t for z in kat_zeilen for t in einzelwerte(z[feld]))
-        w(f"## {titel}")
-        w("")
-        geordnet = sorted(zaehler.items(), key=lambda kv: (-kv[1], kv[0]))
-        for wert, n in geordnet:
-            w(f"- {glatt(wert)} ({n})")
-        w("")
-        kenn[titel] = geordnet
     text = "\n".join(out)
     return text, {
         "zeilen_b": len(sortiert),
         "typen_a": len(reihen),
         "ohne_definition": ohne_def,
-        "fehlerquellen": kenn["Fehlerquellen"],
-        "stichwoerter": kenn["Stichwörter"],
     }
 
 
@@ -275,10 +262,7 @@ def main():
             fh.write(text)
         groesse = os.path.getsize(pfad)
         print(f"{AUSGABE}/{k}.md: Teil B {kenn['zeilen_b']} Zeilen; Teil A {kenn['typen_a']} Typen, "
-              f"{kenn['ohne_definition']} ohne Definition; Teil C {len(kenn['fehlerquellen'])} Fehlerquellen, "
-              f"{len(kenn['stichwoerter'])} Stichwörter; {text.count(chr(10)) + 1} Zeilen, {groesse / 1024:.1f} KB")
-        for wert, n in kenn["fehlerquellen"][:3]:
-            print(f"    Fehlerquelle: {wert} ({n})")
+              f"{kenn['ohne_definition']} ohne Definition; {text.count(chr(10)) + 1} Zeilen, {groesse / 1024:.1f} KB")
     print(f"{len(ergebnisse)} Rohdateien geschrieben; kanonische Themen mit Katalogzeilen: {len(mit)}, "
           f"ohne: {len(ohne)} ({', '.join(ohne) or 'keine'})")
     return 0

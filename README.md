@@ -88,10 +88,11 @@ Offen: Kastenform (Abschnittsverweis, Zahlenbeispiele, Nachschlagewerk oder Merk
 ## rohdaten/ – Rohdateien je Thema
 
 Lesestoff für Katalogeinträge: je kanonischem Thema aus `themen.csv` eine Datei
-`<kanonisch>.md` mit Typenprofil, Zeilenliste und Sammlung der Fehlerquellen und
-Stichwörter aller zugehörigen Katalogzeilen. Abgeleitet aus `themen.csv` und den fünf
+`<kanonisch>.md` mit Teil A Typenprofil (jeder Haupttyp mit Zeilenzahl, Profilen, Jahren
+und Definition aus der Typenliste, dazu die Nebentypen) und Teil B Zeilenliste (eine Zeile
+je Katalogzeile, nach Profil, Typ, Jahr, id). Abgeleitet aus `themen.csv` und den fünf
 Katalogen, nie von Hand ändern; neu bauen mit `python werkzeuge/rohdatei-bau.py [thema ...]`.
-Bisher nur der Probelauf: `brueche-dezimalzahlen.md`, `wahrscheinlichkeit.md`.
+66 Dateien – alle kanonischen Themen mit Katalogzeilen; die 7 ohne Zeilen haben keine Datei.
 
 ## quellen/ – Quellentexte
 
