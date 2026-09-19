@@ -80,7 +80,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
     Kippt bei: einem Formatwechsel, der den Bestand entwertet (P10 ab 2028: hilfsmittelfreier Teil, 50 statt 60 BE, msa-vorgaben.md) – dann kommt die Decke aus Musteraufgaben, nicht aus dem Bestand.
 4. Progression je Typ: hinführen, Anker, halten – nach dem Muster der Progressionsregeln aus dem Masterprompt (jede Hauptnummer beginnt leicht, endet auf Prüfungshöhe).
     Zahl: keine – übernommen aus dem Masterprompt (Progressionsregeln), ohne Messung.
-    Kippt bei: Testblättern, bei denen die Progression je Typ nicht trägt (zu wenige Originale je Typ: fhr 49 von 135 Typen mit genau einem Vorkommen, fhr.md § 9).
+    Kippt bei: Testblättern, bei denen die Progression je Typ nicht trägt (zu wenige Originale je Typ: fhr 37 von 135 Typen mit genau einem Vorkommen, 49 nie Haupttyp; fhr-typenbibliothek.md).
 5. Keine Quellenangabe im Heft, auch nicht im Begleitteil; Herkunft (Jahr, Aufgabe) nur im Protokoll-Archiv (blatt-konzept.md v0.4).
     Zahl: keine – Setzung.
     Kippt bei: dem Wunsch des Lehrers, am Blatt den Rückweg ins Original zu haben; dann genügt das Protokoll-Archiv nicht mehr.
@@ -94,7 +94,7 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
     Zahl: Bestand je Prüfungsart – msa 12 Hefte (msa-pruefungen.md), fhr 16, abi 16, iqb 37 Stapel; genug, um eines auszusparen, ohne es festzulegen.
     Kippt bei: einer Prüfungsart mit weniger als drei Heften.
 9. Häufigkeit ist Auskunft, keine Priorität und kein Filter. Ein einziges Vorkommen ist ein vollwertiger Typ. Der Rahmenlehrplan setzt den Rahmen dessen, was kommen kann; er ist Hintergrund, keine Quelle für Typen.
-    Zahl: fhr 49 von 135 Typen genau einmal, 27 zweimal (fhr.md § 9); Abitur 1,69 Zeilen je Typ – die Mehrheit der Typen hätte bei einer Häufigkeitsschwelle keine Zeile.
+    Zahl: fhr 37 von 135 Typen genau einmal, 49 mehrfach, 49 nie Haupttyp (fhr-typenbibliothek.md; korrigiert 19.09.2026, vorher stand hier 49 einmal); Abitur 1,69 Zeilen je Typ – die Mehrheit der Typen hätte bei einer Häufigkeitsschwelle keine Zeile.
     Kippt bei: Abgleichläufen, die regelmäßig mehr als ein Zehntel der Einmaltypen zusammenziehen – dann wären Einmaltypen Erfassungsartefakte, keine Fertigkeiten (bisher: Lauf 12 938 → 875 als Umstellung, sonst 0–9 je Lauf, abi-pruefungen.md § 5).
 10. Katalog vor Blatt: Alle Hefte werden einmal vollständig erfasst; Blätter entstehen nur aus dem Katalog. Die Hefte selbst holt der Blatt-Prompt nur für Wortlaut oder Bild einer Ankeraufgabe.
     Zahl: Markdown-Prüfung 529 von 529 Teilaufgaben strukturgleich mit dem Katalog, 451 Ergebnisse nachgerechnet, 2 Abweichungen (abi-pruefungen.md § 4, Teil 1 des Auftrags C) – der Katalog trägt alles Strukturelle, das Heft wird nur für Wortlaut und Bild gebraucht.
@@ -542,6 +542,7 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-19: Entscheidung 4 und 9 – fhr-Zahl korrigiert (37 statt 49 Typen mit genau einem Vorkommen; Zählung aus fhr-katalog.csv, Fund des Projektarchivs Katalog). Verweis fhr.md § 9 durch fhr-typenbibliothek.md ersetzt, weil § 9 die Zahl nicht mehr führt.
 - 2026-09-19: Umbau auf Ordner (README.md, § 2 Absatz Ablage). Blattbau in eigenes Repo ausgelagert; Befunde, namensschema.md und Werkstattzettel nach archiv/; Themenkatalog (29 Einträge, 11j) erstmals ins Repo unter katalog/; Bau-Skripte laufen im Profilordner, katalog-prompt.md über ../. CLAUDE.md § 1 durch Verweis auf README ersetzt, Landkarte-Regel auf README beschränkt.
 - 2026-09-18 (Auftrag Korpus und OCR, Etappen 1–4 und Abschluss): korpus-bau.py
   angelegt – rein maschineller Korpus (pypdf-Text je Seite, Ganzseitenrender
