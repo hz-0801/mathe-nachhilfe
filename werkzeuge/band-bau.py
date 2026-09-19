@@ -95,7 +95,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 
-HIER = Path(__file__).resolve().parent
+HIER = Path(__file__).resolve().parent.parent  # Umbau 2026-09-19: Repo-Wurzel; Skript liegt in werkzeuge/
 VERSION = "band-bau.py v0.4"
 
 KONFIG = {
@@ -103,9 +103,9 @@ KONFIG = {
         titel="Fachhochschulreife Mathematik · Land Brandenburg",
         untertitel="Prüfungshefte {von}–{bis} · Sammelband",
         praefix="FHR",
-        struktur="fhr-band.csv",
-        kataloge=["fhr-katalog.csv"],
-        typen="fhr-typen.csv",
+        struktur="werkzeuge/fhr-band.csv",
+        kataloge=["fhr/fhr-katalog.csv"],
+        typen="fhr/fhr-typen.csv",
         ausgabe="baende/fhr-band.pdf",
         einzeln="baende/fhr-einzeln",
         vorspann_seiten=13,  # Titel 1 + Inhalt 3 + Register 4 + Reserve 5 (band-anleitung.md § 5)

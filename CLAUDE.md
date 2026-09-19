@@ -1,4 +1,4 @@
-# CLAUDE.md – Abitur-Katalogarbeit (Profile abi und iqb)
+# CLAUDE.md – Erfassung im Repo (ausgeführt am Beispiel abi/iqb)
 
 Repo hz-0801/mathe-nachhilfe, alle Dateien flach in der Wurzel. Dieses Dokument
 gilt für die Erfassung der Abiturhefte (Profil abi) und des IQB-Aufgabenpools
@@ -12,47 +12,16 @@ Python aus LibreOffice (`C:\Program Files\LibreOffice\program\python.exe`),
 sympy und pypdf per `pip install --target` in den Scratchpad, dann `PYTHONPATH`
 setzen. Kein pdftotext: Text mit pypdf, Seiten mit dem Read-Tool ansehen.
 
-## 1 Maßgebliche Dateien
+## 1 Wo was liegt
 
-Regelwerk (lesen, nicht ohne Anlass ändern):
+Steht in `README.md` – der einzigen Landkarte des Repos. Kurz: Wurzel = übergreifende
+Regeln (`katalog-prompt.md`, `konzept.md`, `blatt-konzept.md`, `faellig.md`); je Profil ein
+Ordner (`msa/`, `fhr/`, `abitur/` für abi und iqb zusammen); `quellen/` Quellentexte;
+`katalog/` Themenkatalog; `werkzeuge/` Bände und Korpus; `archiv/` eingefrorene Befunde.
+Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`);
+`katalog-prompt.md` lesen sie über `../`.
 
-| Datei | Rolle |
-|---|---|
-| `konzept.md` | Gesamtkonzept: Ziel, Bausteine, Entscheidungen (§ 4), Verworfenes. Getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt. |
-| `katalog-prompt.md` | Kern der Erfassungsmethode (v0.9, Schema-Version 2): Zeilenregel, 37 Felder mit Kopfzeile, Formvokabular, Handlung je format (§ 5), Vorrang des Amtlichen für niveau_geschaetzt (§ 5), Markierungen in bemerkung („Dublette von:", Vormerkung „Poolaufgabe (nicht erfasst):" als Vorstufe des Verweises und Übergangszustand, „Abgewandelt von:", „Traegerbindung: Kontext"), Prüfung mit Selbstprüfung als Bedingung eines vollständigen Profils (§ 7), Ausgabe je Heft. Prüfungsunabhängig; Etikettenänderungen nur im Abgleichlauf (§ 6, § 9). |
-| `abi.md` | Profil abi (v0.26): Prüfung, Basis-URL, Heftaufbau, Kürzel und id-Muster, Sachgebiete (`leitidee`), Verweis auf das Vokabular, Besonderheiten beim Erfassen, Beispielzeilen, Offenes. **Bei Widerspruch zum Kern gilt das Profil.** |
-| `abi-quellen.md` | Verzeichnis, Dateinamen, papier-Kürzel und Seitenzahlen der Hefte; § 8 lokaler Heftordner hefte/ mit Erfassungsstand. |
-| `abitur-vokabular.md` | Gemeinsames Vokabular der Profile abi und iqb (Entscheidung 25, v1.6): Sachgebiete, Themenliste, Geltungsregeln (§ 3, mit Anmerkungen zu nicht Gefordertem und Rahmenlehrplänen), Gegenstandsklassen mit der Regel **Zeilenthema = Typthema** (§ 4), Regeln der gemeinsamen Typenliste. Beide Bau-Skripte lesen es; abi.md und iqb.md verweisen darauf. |
-| `abi-<zielprüfung>-geltung.md` | Geltung je Zielprüfung (be-gk, be-lk, bb-gk, bb-ea; seit 17.09.2026, Auftrag D Teil 2): § 1 Themen ja/nein, § 2 ausgeschlossene Aufgabenformen, § 3 Rechnerfassung. Welche Dateien gelten, sagt die Zeile „Zielprüfungen:" in abi.md § 6 bzw. iqb.md § 6; beide Bau-Skripte lesen sie. Benennung nach `namensschema.md` (Auftrag D Teil 1; Variante B umgesetzt in Auftrag F, konzept.md Entscheidung 32: Kurzkennungen als Aliasse, neue Dateien in Vollform). |
-| `abi-aufbau.md`, `abi-struktur.json` | Zeiten, Wahlstruktur, BE-Verteilung; Zwillingsnachweis Berlin/Brandenburg über BE-Vektoren. |
-
-Arbeitsdateien (werden je Heft geschrieben):
-
-| Datei | Rolle |
-|---|---|
-| `abi-bau.py` | Gerüst für ein Heft: `KONFIG`, `ZEILEN` (ein `row(...)` je Teilaufgabe), `NEUE_TYPEN`. Liest Kopfzeile, Formvokabular und Handlung je format aus `katalog-prompt.md` § 5, Sachgebiete, Themen und Klassen aus `abitur-vokabular.md`, die Zielprüfungen aus `abi.md` § 6 und die Geltung aus `abi-<zielprüfung>-geltung.md`; prüft wie `iqb-bau.py` (Präfixregel, Zeilenthema = Typthema, Schwellen, Eichung, Vollständigkeit, Dublettenverweis) und schreibt beide CSV-Dateien nur, wenn alle Prüfungen bestehen. Der Teil unter „QUELLEN UND PRÜFUNG, NICHT ÄNDERN" bleibt unverändert. |
-| `abi-katalog.csv` | Der Katalog, eine Datei für Teil A und B (das Feld `block` trennt). Semikolon, alles gequotet, UTF-8, LF. Nie von Hand editieren – nur über das Skript. |
-| `abitur-typen.csv` | Gemeinsame Typenliste der Profile abi und iqb, `typ;leitidee;thema;definition;beispiel_id;status`; `beispiel_id` zeigt in einen der beiden Kataloge. Wächst nur über `NEUE_TYPEN` der Bau-Skripte; Umbenennungen und Zusammenziehungen nur über `abitur-abgleich.py` (beide Kataloge). |
-| `abi-pruefungen.md` | Heftliste mit Status, Befunde je Heft (§ 4), Änderungslog (§ 5). Nach jedem Heft fortschreiben. |
-
-Nicht maßgeblich für die Erfassung: `msa-vorgaben.md` und `abi-vorgaben.md` (Fachbriefe, Prüfungsschwerpunkte, jährlicher Check, vom Katalog-Prompt nicht gelesen), `pruefungsprompt.md`/`masterprompt.md` (Blattbau, kommt später), die msa-/fhr-Dateien.
-
-Sammelbände (anderes Projekt, Familienname `band-`; liest Katalog und Hefte, ändert nichts; bisher nur fhr, Ausgabe `baende/` lokal):
-
-| Datei | Rolle |
-|---|---|
-| `band-anleitung.md` | Öffnen, bevor ein Band gebaut oder ein Heft angehängt wird: Laufumgebung (pypdf, reportlab, pypdfium2 im PYTHONPATH), Schritte, Strukturliste, Seitenreserve, Regel „erst erfassen, dann bauen" (§ 6 dort). |
-| `band-bau.py` | Ausführen nach dem letzten Heft eines Jahrgangs (`python band-bau.py <profil>`, konzept.md § 7 Schritt 10); baut Band und Einzelhefte, liest `<profil>-band.csv`, Katalog und Typenliste. |
-| `<profil>-band-struktur.py`, `<profil>-band.csv` | Erzeuger und Strukturliste je Profil (fhr); vor jedem Bau ausführen, Abschnittszeilen nie von Hand. |
-
-Korpus (anderes Projekt, Familienname `korpus-`; liest die Heftordner, ändert nichts; rein maschinell ohne Modell-Lesen, alle vier Profile, Ausgabe `korpus/` lokal):
-
-| Datei | Rolle |
-|---|---|
-| `korpus-bau.py` | Ausführen (`python korpus-bau.py <profil> --bauen`), um den durchsuchbaren Korpus (Text je Seite plus Ganzseitenrender) für ein Profil zu bauen oder fortzusetzen; `--status` zeigt offene Dateien. |
-| `korpus-protokoll.md` | Je Datei eine Zeile (erfasst oder fehlgeschlagen mit Grund), Entscheidungen ohne Rückfrage, Unterschied zu `hefte-md/`. |
-
-## 2 Wie ein Heft erfasst wird
+## 2 Wie ein Heft erfasst wird (abi; msa und fhr sinngemäß, Abweichungen in `msa/msa.md` und `fhr/fhr.md`)
 
 Grundlage: `katalog-prompt.md` § 3–8, konkretisiert durch `abi.md` § 4 und § 7 und den Ablauf im Kopf von `abi-bau.py`.
 
@@ -73,7 +42,7 @@ Grundlage: `katalog-prompt.md` § 3–8, konkretisiert durch `abi.md` § 4 und �
 - **Kein Profil ohne Selbstprüfung** (Kern § 7, konzept.md Entscheidung 33): Ein Profil gilt als unvollständig, solange sein Bau-Skript keine Selbstprüfung bei leerem `ZEILEN` kennt; seit dem 17.09.2026 haben alle vier Bau-Skripte sie.
 - **Commit erst nach bestandener Selbstprüfung.** Committet wird, wenn (a) der Heftlauf „Alle Prüfungen bestanden." gemeldet hat, (b) die Selbstprüfung über den Gesamtbestand fehlerfrei ist und (c) `abi-pruefungen.md` nachgeführt ist. Ein Commit je Heft.
 - **Fällige Posten pflegen** (`faellig.md`, seit 18.09.2026): Wer einen Posten aus `faellig.md` erledigt, streicht ihn im selben Commit und trägt ihn mit Datum nach § 4 dort ein; wer einen neuen Posten bemerkt – eine Handlung mit Termin oder Auslöser –, trägt ihn ein, statt ihn im Bericht zu lassen. Der Eintrag gehört zum Nachführen (§ 2 Schritt 7), damit der Bericht (Schritt 8) der letzte Schritt bleibt. Nicht dorthin gehören offene Entscheidungen (`konzept.md` § 6) und Vorschläge zur Typenliste (Abgleichlauf, Änderungslog der Prüfungsliste).
-- **Landkarte pflegen.** Wer eine Datei anlegt, umbenennt oder aus dem Repo nimmt, trägt das im selben Commit in die Landkarte ein: README im Block des Profils oder Projekts mit einem Satz zum Anlass des Öffnens; CLAUDE.md § 1, wenn die Erfassung die Datei liest oder schreibt; konzept.md § 2 mit Grund, wenn sie ein neuer Baustein ist; namensschema.md, wenn ein neues Muster oder ein neuer Familienname entsteht. Ein Commit, der eine Datei hinzufügt, ohne die Landkarte zu ändern, ist unvollständig – wie ein Heft ohne Zeile in der Prüfungsliste.
+- **Landkarte pflegen.** Wer eine Datei anlegt, umbenennt oder aus dem Repo nimmt, trägt das im selben Commit in `README.md` ein (Block des Profils oder Ordners, ein Satz zum Anlass des Öffnens) und, wenn es ein neuer Baustein ist, mit Grund in `konzept.md` § 2. Sonst nirgends – `namensschema.md` und die Befunde sind eingefroren (`archiv/`).
 - Fakten von Deutung trennen: Deutung nur in `niveau_geschaetzt`, `fehlerquelle`, `bemerkung`. Kein Volltext im Katalog; Wortlaut und Bild holt später nur der Blatt-Prompt.
 - Häufigkeit eines Typs ist Auskunft, keine Priorität; ein einziges Vorkommen ist ein vollwertiger Typ.
 - Sprache und Zeichen: Deutsch, echte Umlaute und ß in allen Textfeldern (nur `id`, `papier`, `abhaengig_von` sind umlautfrei), Unicode-Minus „−" statt Bindestrich vor Zahlen, Dezimalkomma wie im Heft.

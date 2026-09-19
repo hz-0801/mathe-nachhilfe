@@ -165,7 +165,7 @@ KAT = "iqb-katalog.csv"
 TYP = "abitur-typen.csv"
 QUELLEN = "iqb-quellen.csv"
 VOKABULAR = "abitur-vokabular.md"
-KERN = "katalog-prompt.md"
+KERN = "../katalog-prompt.md"  # Umbau 2026-09-19: liegt in der Repo-Wurzel
 PROFIL = "iqb.md"                       # nennt die Zielprüfungen (§ 6)
 GELTUNG_DATEI = "abi-{ziel}-geltung.md"  # eine Datei je Zielprüfung (namensschema.md § 2)
 # Kataloge der anderen Profile mit derselben Typenliste (Entscheidung 25): ihre

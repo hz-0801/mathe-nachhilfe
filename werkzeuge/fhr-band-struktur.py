@@ -39,11 +39,11 @@ from pathlib import Path
 logging.disable(logging.CRITICAL)  # pypdf-Warnungen zu Schriften unterdrücken
 from pypdf import PdfReader
 
-HIER = Path(__file__).resolve().parent
-PRUEFUNGEN = HIER / "fhr-pruefungen.md"
-KATALOG = HIER / "fhr-katalog.csv"
+HIER = Path(__file__).resolve().parent.parent  # Umbau 2026-09-19: Repo-Wurzel; Skript liegt in werkzeuge/
+PRUEFUNGEN = HIER / "fhr" / "fhr-pruefungen.md"
+KATALOG = HIER / "fhr" / "fhr-katalog.csv"
 HEFTE = HIER / "hefte" / "fhr"
-ZIEL = HIER / "fhr-band.csv"
+ZIEL = HIER / "werkzeuge" / "fhr-band.csv"
 
 KOPF = ["ebene", "kennung", "titel", "datei", "von", "bis", "hinweis"]
 HINWEIS = ("Prüfung {datum} · 180 Minuten · 70 BE ({punkte}) · Formelsammlung, "

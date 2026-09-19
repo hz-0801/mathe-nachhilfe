@@ -1,5 +1,5 @@
 # KONZEPT – Arbeitsblätter aus alten Prüfungen
-Stand 18.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
+Stand 19.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
 
 ## 1 Ziel
 
@@ -28,7 +28,7 @@ Hier steht, warum es einen Baustein gibt. Wann man welche Datei öffnet, sagt RE
     korpus-bau.py, korpus-protokoll.md   macht die Hefte aller vier Profile durchsuchbar, weil der Katalog keinen Volltext hält (§ 3 dieser Datei, Kern § 3) und die Erfassung selbst nur ein Bruchteil der Hefte je Profil abdeckt; rein maschinell (Text und Ganzseitenrender, kein Modell-Lesen), damit der ganze Bestand in vertretbarer Zeit läuft – anderes Projekt, Familienname korpus- (namensschema.md); liest die Heftordner, ändert nichts; Ausgabe korpus/ lokal
     README.md, CLAUDE.md               Landkarte und Arbeitsanweisung; begründet wird nur hier
 
-Alle Dateien liegen flach im Wurzelverzeichnis des Repos; das hält das Hochladen über die GitHub-Oberfläche einfach. Die Ordnung darin regeln die Präfixe nach namensschema.md (Entscheidung 32).
+Seit dem 19.09.2026 liegen die Dateien in Ordnern: je Profil einer (msa/, fhr/, abitur/ für abi und iqb zusammen), dazu katalog/ (Themenkatalog), quellen/, werkzeuge/ und archiv/; übergreifende Regeln in der Wurzel. Die Dateinamen mit Präfix sind geblieben, damit Querverweise stimmen (Entscheidung 32 gilt für die Namen weiter; die flache Ablage ist aufgehoben, weil sie bei 73 Dateien den Überblick kostete). Die Landkarte ist README.md, sonst nichts. Blattbau (Prompts, Vorlage) liegt im eigenen Repo blattbau.
 
 Ablage: Repo hz-0801/mathe-nachhilfe (bis 2026-09-07 pruefungskatalog; öffentlich, damit curl ohne Anmeldung liest). Die Basis-URL steht an sieben Stellen – in den vier Profilen (§ 2), im Prüfungsprompt (2.1, 4.6) und im Masterprompt (4.6) –, die bei anderer Ablage geändert werden. Claude liest per curl und schreibt seit dem 13.09.2026 im Repo, der Lehrer pusht (Entscheidung 22). Geschrieben wird nur beim Aufbau und einmal im Jahr (§ 7).
 
@@ -542,6 +542,7 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-19: Umbau auf Ordner (README.md, § 2 Absatz Ablage). Blattbau in eigenes Repo ausgelagert; Befunde, namensschema.md und Werkstattzettel nach archiv/; Themenkatalog (29 Einträge, 11j) erstmals ins Repo unter katalog/; Bau-Skripte laufen im Profilordner, katalog-prompt.md über ../. CLAUDE.md § 1 durch Verweis auf README ersetzt, Landkarte-Regel auf README beschränkt.
 - 2026-09-18 (Auftrag Korpus und OCR, Etappen 1–4 und Abschluss): korpus-bau.py
   angelegt – rein maschineller Korpus (pypdf-Text je Seite, Ganzseitenrender
   ohne Modell-Lesen) unter `korpus/<profil>/`, Baustein mit Grund in § 2.

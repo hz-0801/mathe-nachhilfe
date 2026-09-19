@@ -42,7 +42,7 @@ import re
 import subprocess
 import sys
 
-HIER = os.path.dirname(os.path.abspath(__file__))
+HIER = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Umbau 2026-09-19: Repo-Wurzel; Skript liegt in werkzeuge/
 VERSION = "korpus-bau.py v0.2"
 
 PROFILE_QUELLEN = {
@@ -202,7 +202,7 @@ def append_protokoll_zeile(section_heading, zeile):
     """Fuegt `zeile` (eine fertige Markdown-Tabellenzeile, beginnend mit '|')
     als letzte Zeile der Tabelle unter der Ueberschrift `section_heading`
     (z. B. '## 2 korpus/ Etappe 1 ...') in korpus-protokoll.md ein."""
-    pfad = os.path.join(HIER, "korpus-protokoll.md")
+    pfad = os.path.join(HIER, "werkzeuge", "korpus-protokoll.md")
     with io.open(pfad, encoding="utf-8") as fh:
         zeilen = fh.readlines()
     start = None
