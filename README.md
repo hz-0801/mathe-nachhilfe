@@ -71,14 +71,16 @@ Gemeinsam:
 - `abitur-typen.csv` – gemeinsame Typenliste; Umbenennen und Zusammenziehen nur über das Abgleich-Skript.
 - `abitur-abgleich.py` – nach jedem Heft und Stapel (`python abitur-abgleich.py N`); jeder Lauf bleibt als Code stehen.
 
-## katalog/ – Themenkatalog, Sekundarstufe I
+## katalog/ – Themenkatalog
 
-29 Einträge, Stand 2026-09-11j, gegengelesen bis auf den Punkt [FS]. Zweck und
-Arbeitsteilung mit den Prüfungskatalogen: `konzept.md` § 3. Bis zum Umbau lag der
-Themenkatalog nur in Lieferzips der Prompt-Werkstatt, nicht im Repo.
+30 Einträge, Stand 2026-09-19: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
+bis auf den Punkt [FS]) und der erste Sek-II-Eintrag `kurvenuntersuchung.md` (Pilot
+der Sek-II-Eintragsform nach `konzept.md` § 4 Entscheidung 36, Entwurf, nicht
+gegengelesen). Zweck und Arbeitsteilung mit den Prüfungskatalogen: `konzept.md` § 3.
+Bis zum Umbau lag der Themenkatalog nur in Lieferzips der Prompt-Werkstatt, nicht im Repo.
 
-- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke.
-- `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln.
+- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei.
+- `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln (seit 19.09.2026 auch [GOST], [FOS], [BASICS], [COSH]).
 - `_quellenprotokoll.md` – was aus welcher Quelle gelesen wurde.
 - `_formelsammlung.md` – Prüfliste [FS]; steht zur Streichung (Abschnittsverweis nicht haltbar, Adresse der Formelsammlung nicht feststellbar).
 - `_pruef_katalog.py`, `_pruef_struktur.py` – Prüfskripte; `_suche_quelle.py` – Suche in den zweispaltigen Quellentexten.
