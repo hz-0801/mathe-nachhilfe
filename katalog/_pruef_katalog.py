@@ -100,12 +100,20 @@ if "### Prüfungsform (fhr / abi / iqb)" in text:
     basename = os.path.splitext(os.path.basename(a.eintrag))[0]
     themen_csv = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "themen.csv")
 
+    # Eintragsart Verweiseintrag (konzept.md § 4 Entscheidung 36, Zusatz 2026-09-19): die
+    # didaktischen Abschnitte bestehen je aus einer Verweiszeile auf den tragenden Eintrag,
+    # es gibt keine Zählzeile und keine Kästen; Profillisten und Klammersummen (b)+(c)
+    # werden weiter geprüft. Erkannt an der Kopfzeile vor dem ersten Abschnitt.
+    ist_verweis = "Eintragsart: Verweiseintrag" in text.split("### ", 1)[0]
+
     # (a) Zählzeile "N1 + N2 + ... = T Haupttypen, M1 + M2 + ... = S Zeilen" gegen die
     # tatsächlich gelisteten Typen und ihre Zeilenzahl in Klammern (ggf. mit Anmerkung "(1; ...)"),
     # je Einheit und in der Summe.
     typen_sec = section("Typen je Lerneinheit")
     zm = re.search(r"^Zählung:\s*([\d\s+]+?)=\s*(\d+)\s*Haupttypen,\s*([\d\s+]+?)=\s*(\d+)\s*Zeilen", typen_sec, re.M)
-    if not zm:
+    if ist_verweis:
+        print("Sek-II Eintragsart: Verweiseintrag – Zählzeile entfällt (Verweiszeile), Profillisten werden geprüft")
+    elif not zm:
         print("Sek-II Typen je Lerneinheit: Zählzeile fehlt oder unerwartetes Format"); ok = False
     else:
         soll_typen = [int(x) for x in re.findall(r"\d+", zm.group(1))]
