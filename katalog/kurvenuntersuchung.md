@@ -45,6 +45,7 @@ Einheit 1 (Monotonie und erste Ableitung):
       f(x) = x³ + 3x: f'(x) = 3x² + 3 > 0 für alle x, also streng monoton steigend.
       f(x) = e^(0,5x): f'(x) = 0,5 · e^(0,5x) > 0.
     Schreibweise: „f ist auf [a; b] monoton steigend“ – die Intervallgrenzen sind die Nullstellen von f', die Intervalle werden abgeschlossen angegeben.
+    Auswendig (Teil A): „Monotonie“ und „Nachweis am Term“ – die Anlage ohne Hilfsmittel [GOST-OHiMi 2.2] führt „Monotonie“ unter den Funktionseigenschaften, der Nachweis am Term ist ihre Anwendung ohne Rechner; die „Schreibweise“ ist Konvention, keine Anlagenforderung.
     Formelsammlung: Analysis – Ableitung, Ableitungsregeln [FS-IQB 1.2]; ein Monotoniekriterium steht nicht in der Formelsammlung – [FS] offen
 Quelle: eigene Formulierung nach [GOST Q1 L4] „Zusammenhang zwischen Monotonie und erster Ableitung“ und [FOS] „Monotonie und 1. Ableitung“; Zahlenbeispiele eigen (Ermessen); [LS-AA EP IV 1, QP I 5].
 
@@ -56,6 +57,7 @@ Einheit 2 (Extrempunkte):
     Immer den Funktionswert dazu: Ein Punkt hat zwei Koordinaten – die Stelle aus f' = 0, den Wert aus f.
     Größter Wert auf einem Intervall: lokale Hochpunkte und die beiden Randwerte vergleichen (Randextrema).
       f(x) = x³ − 3x auf [−2; 3]: H(−1 | 2), Randwert f(3) = 18 → größter Wert 18 am rechten Rand, kein Hochpunkt.
+    Auswendig (Teil A): „Notwendig“ und „Hinreichend“ mit dem Sattelpunkt-Fall – [GOST-OHiMi 2.2] „Extrempunkte und Wendepunkte (notwendiges und hinreichendes Kriterium)“; „Immer den Funktionswert dazu“ ist Arbeitsregel, „Größter Wert auf einem Intervall“ (Randextrema) steht im Plan, nicht in der Anlage.
     Formelsammlung: Analysis – Ableitung [FS-IQB 1.2]; notwendige und hinreichende Bedingung stehen nicht in der Formelsammlung, die Anlage ohne Hilfsmittel [GOST-OHiMi 2.2] verlangt sie auswendig – [FS] offen
 Quelle: eigene Formulierung nach [GOST Q1 L4] „lokale und globale Extrema, Sattelpunkte“, „notwendige und hinreichende Bedingung“, „Randextrema“ und [FOS] „lokale Extrempunkte“, „Sattelpunkte“; Zahlenbeispiele eigen (Ermessen; f(x) = x³ − 3x ist die Funktion von iqb 2026MgrundlegendAAnalysis11, dort mit Hochpunkt bei −1 vorgegeben – hier als Kastenzahl gesperrt); [LS-AA EP IV 2–3, QP I 6].
 
@@ -67,6 +69,7 @@ Einheit 3 (Krümmung und Wendepunkte):
       f'(0) = −3 → Wendetangente t(x) = −3x.
     Sattelpunkt: ein Wendepunkt mit waagerechter Tangente – f'(x₀) = 0, f''(x₀) = 0, f'''(x₀) ≠ 0.
       f(x) = x⁴ − 4x³: f''(x) = 12x² − 24x = 12x · (x − 2) = 0 ⇔ x = 0 oder x = 2; f'''(0) = −24 ≠ 0 und f'''(2) = 24 ≠ 0; f'(0) = 0 → Sattelpunkt S(0 | 0), zweiter Wendepunkt W(2 | −16).
+    Auswendig (Teil A): „Krümmung“, „Wendepunkt“ und „Sattelpunkt“ – [GOST-OHiMi 2.2] „Krümmungsverhalten“, „Extrempunkte und Wendepunkte (notwendiges und hinreichendes Kriterium)“; die „Wendetangente“ ist die Tangente im Wendepunkt und gehört als Tangentengleichung zu tangente-normale-schnittwinkel.md (dort zu markieren).
     Formelsammlung: Analysis – Ableitung [FS-IQB 1.2]; Krümmung und Wendepunktkriterium stehen nicht in der Formelsammlung – [FS] offen
 Quelle: eigene Formulierung nach [GOST Q1 L4] „Zusammenhang zwischen Krümmungsverhalten und zweiter Ableitung“, „Wendepunkte, Sattelpunkte“, „zweite Ableitung als Steigungsfunktion der ersten Ableitung“ und [FOS] „Krümmung und 2. Ableitung“, „Wendepunkte und Sattelpunkte“; Zahlenbeispiele eigen (Ermessen); [LS-AA EP IV 4, QP I 5–6].
 
@@ -80,6 +83,7 @@ Einheit 4 (Graph und Ableitungsgraph):
       f(x) = x²: f'(x) = 2x ist eine Gerade durch den Ursprung; der Tiefpunkt von f bei 0 ist die Nullstelle von f'.
       f(x) = x³ − 3x: f'(x) = 3x² − 3 ist eine Parabel mit den Nullstellen −1 und 1 (Extremstellen von f) und dem Tiefpunkt bei 0 (Wendestelle von f).
     Skizze aus Eigenschaften: erst die gegebenen Punkte eintragen (Nullstellen, Hoch-, Tief-, Wendepunkte), dann mit dem Grenzverhalten verbinden; an einer Wendestelle keinen Extrempunkt zeichnen – dort ist der Graph am steilsten.
+    Auswendig (Teil A): „Übersetzungstabelle“ und „Skizze aus Eigenschaften“ – [GOST-OHiMi 2.2] „Bestimmung des qualitativen Verlaufs des Funktionsgraphen der Ableitungsfunktion aus dem Funktionsgraphen der Funktion (und umgekehrt)“, „qualitative Beschreibung des Verlaufs des Funktionsgraphen“; „Grad“ folgt aus der Potenzregel (Ableitungsregeln, ableitungsregeln.md).
     Formelsammlung: Analysis – Ableitung [FS-IQB 1.2]; die Übersetzungstabelle steht nicht in der Formelsammlung – [FS] offen
 Quelle: eigene Formulierung nach [GOST Q1 L4] „den Ableitungsgraphen aus dem Funktionsgraphen entwickeln“ mit den drei Zusammenhängen und [GOST-OHiMi 2.2] „Bestimmung des qualitativen Verlaufs des Funktionsgraphen der Ableitungsfunktion aus dem Funktionsgraphen der Funktion (und umgekehrt)“; [FOS] „grafische Darstellung“, „graphisches Differenzieren“; Zahlenbeispiele eigen (Ermessen); [LS-AA EP II 3, EP IV 5, QP IV 6].
 
@@ -88,6 +92,7 @@ Einheit 5 (Kurvenuntersuchung im Sachzusammenhang):
     Einheiten: f' hat die Einheit von f je Einheit von x (Meter je Sekunde, Stück je Tag).
       B(t) = −t³ + 12t² (Bestand in Stück, t in Tagen, 0 ≤ t ≤ 8): B'(t) = −3t² + 24t; B''(t) = −6t + 24 = 0 ⇔ t = 4 → nach 4 Tagen wächst der Bestand am stärksten, mit B'(4) = 48 Stück je Tag; der größte Bestand liegt am Rand bei t = 8 mit B(8) = 256 Stück.
     Antwortsatz: Zahl mit Einheit und Bedeutung – „Nach 4 Tagen ist die Zunahme mit 48 Stück je Tag am größten.“ Ohne Sachbezug ist die Antwort unvollständig.
+    Auswendig (Teil A): keine – die zitierten Anlagenpunkte [GOST-OHiMi 2.2] betreffen Eigenschaften und Graphen, nicht den Sachzusammenhang; „Übersetzen“, „Einheiten“ und „Antwortsatz“ sind Arbeitsregeln für Teil B, gestützt auf die Kriterien von Einheit zwei und drei.
     Formelsammlung: Analysis – Ableitung [FS-IQB 1.2]; [FS] offen
 Quelle: eigene Formulierung nach [GOST Q1 L4] „lokale Änderungsrate auch in Sachzusammenhängen“, „Ableitungsfunktion auch in Sachzusammenhängen“, „Randextrema“ und [FOS] „Modellierung von Verläufen und Formen durch ganzrationale Funktionen im Sachzusammenhang“; Übersetzungsliste aus den Sachfragen der Rohdatei (Tauchroboter, Hormonspiegel, Laktat, Zuflussrate); Zahlenbeispiel eigen (Ermessen); [LS-AA EP IV 6].
 

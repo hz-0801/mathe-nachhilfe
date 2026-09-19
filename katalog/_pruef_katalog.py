@@ -121,8 +121,9 @@ if "### Prüfungsform (fhr / abi / iqb)" in text:
         if ist_zeilen != soll_zeilen or sum(ist_zeilen) != int(zm.group(4)):
             print(f"   ABWEICHUNG Zeilen je Einheit: gezählt {ist_zeilen} = {sum(ist_zeilen)}"); ok = False
 
-    # (b)+(c) Profillisten fhr/abi/iqb: jede Typnennung trägt genau eine Einheitsnummer E1–E5 in
-    # der Klammerform „(n, Ek)“ bzw. „(Ek)“ bei je-1-Typen (Entscheidung 36); die Summe der n
+    # (b)+(c) Profillisten fhr/abi/iqb: jede Typnennung trägt genau eine Einheitsnummer E1–E9 in
+    # der Klammerform „(n, Ek)“ bzw. „(Ek)“ bei je-1-Typen (Entscheidung 36; die Zahl der Einheiten
+    # ist frei, bis 2026-09-19 ließ das Muster nur E1–E5 zu); die Summe der n
     # (bzw. 1 ohne n) je Profil gegen die Zeilenwerte des Themas in themen.csv (kanonisch = Dateiname).
     pf_sec = section("Prüfungsform (fhr / abi / iqb)")
     zeilen_je_profil = {}
@@ -137,7 +138,7 @@ if "### Prüfungsform (fhr / abi / iqb)" in text:
             continue
         summe = 0
         for seg in pm.group(1).split(" · "):
-            bm = re.search(r"\((?:(\d+),\s*)?E[1-5]\)\s*$", seg.strip())
+            bm = re.search(r"\((?:(\d+),\s*)?E[1-9]\)\s*$", seg.strip())
             if not bm:
                 print(f"Sek-II Prüfungsform {profil}: Typnennung ohne gültige Klammerform „(n, Ek)“/„(Ek)“: …{seg.strip()[-60:]}")
                 ok = False; continue

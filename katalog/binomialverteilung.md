@@ -49,6 +49,7 @@ Einheit 1 (Bernoulli-Experiment und Bernoulli-Kette):
     Prüfliste: zwei Ausgänge? feste Anzahl n? p immer gleich (mit Zurücklegen oder Gesamtheit sehr groß)? Versuche unabhängig? Erst wenn alles „ja“ ist, gilt das Binomialmodell.
     Kleine Ketten am Baum: genau ein Treffer bei zwei Versuchen hat zwei Pfade, TN und NT, also P = 2 · p · (1 − p).
       p = 0,3: P(genau ein Treffer) = 2 · 0,3 · 0,7 = 0,42.
+    Auswendig (Teil A): „Bernoulli-Experiment“, „Bernoulli-Kette“ mit der „Prüfliste“ und „Kleine Ketten am Baum“ – [GOST-OHiMi 2.4] „Ansätze zur Berechnung von Wahrscheinlichkeiten für binomialverteilte … Zufallsgrößen“, „Baumdiagramm, Pfadregeln“; die Schreibweise X ~ B(n; p) ist Konvention.
     Formelsammlung: Stochastik [FS-IQB 1.4] führt Binomialkoeffizient, Bernoulli-Formel, μ und σ; eine Definition von Bernoulli-Experiment und Bernoulli-Kette steht nicht darin – [FS] Abgleich am PDF offen
 Quelle: eigene Formulierung nach [GOST Q2 L4/L5] „Bernoulli-Experiment“, „Bernoulli-Kette“, „Ziehen mit Zurücklegen (Binomialverteilung)“ und [GOST-OHiMi 2.4] „Baumdiagramm, Pfadregeln“; Zahlenbeispiele eigen (Ermessen); [LS-AA EP V 1].
 
@@ -60,6 +61,7 @@ Einheit 2 (Bernoulli-Formel):
     Term angeben heißt: den Term hinschreiben, nicht ausrechnen – Prüfungsteil A.
       n = 8, p = 1/4, k = 3: P(X = 3) = (8 über 3) · (1/4)³ · (3/4)⁵.
     Rechner: die Funktion für die Einzelwahrscheinlichkeit (binompdf) mit n, p und k.
+    Auswendig (Teil A): die Bernoulli-Formel (erste Zeile), „Sonderfälle ohne Binomialkoeffizient“ und „Term angeben“ – [GOST-OHiMi 2.4] „Binomialverteilung: P(X = k) = …“ und „Kombinationen ohne Wiederholung“ mit den Eigenschaften des Binomialkoeffizienten; „Rechner“ nicht (Hilfsmittel, Teil B).
     Formelsammlung: Stochastik – Binomialverteilung [FS-IQB 1.4] „Für eine binomialverteilte Zufallsgröße X gilt: P(X = k) = (n über k) · p^k · (1 − p)^(n−k)“ und Binomialkoeffizient (n über k) = n! / (k! · (n − k)!); die Anlage ohne Hilfsmittel [GOST-OHiMi 2.4] verlangt die Formel auswendig – [FS] Wortlaut am PDF geprüft: nein, nur Textfassung
 Quelle: eigene Formulierung nach [GOST-OHiMi 2.4] Bernoulli-Formel und Eigenschaften des Binomialkoeffizienten, [GOST Q2 L4/L5] „Punkt- und Intervallwahrscheinlichkeiten für die Anzahl an Erfolgen“; Zahlenbeispiele eigen (Ermessen; keine Zahl aus einer Rohdateizeile übernommen); [LS-AA EP V 2–3, QP VIII 5].
 
@@ -69,6 +71,7 @@ Einheit 3 (Kumulierte Wahrscheinlichkeiten):
     Der Rechner liefert P(X ≤ k) (binomcdf); die Tabelle der summierten Binomialverteilung ebenso – bei p über 0,5 Treffer und Niete tauschen und die Tabelle für 1 − p lesen.
     Anteile werden erst zu Anzahlen: „mehr als 40 % von 20“ heißt X > 8, also X ≥ 9 – die Grenze ist eine ganze Zahl.
     Summenzeichen lesen: Σ von k = 0 bis 8 über (20 über k) · 0,3^k · 0,7^(20 − k) ist P(X ≤ 8); „1 − Σ …“ ist das Gegenereignis. Die untere und die obere Grenze der Summe sagen, welches Ereignis gemeint ist; p sagt, was als Treffer zählt.
+    Auswendig (Teil A): „Übersetzen“ als Ansatz (Gegenereignis, Differenz, Anteile zu Anzahlen) – [GOST-OHiMi 2.4] „Ansätze zur Berechnung von Wahrscheinlichkeiten für binomialverteilte … Zufallsgrößen“; kumulierte Werte („Der Rechner liefert …“, Tabelle) nennt die Anlage nicht – Teil B; „Summenzeichen lesen“ ist vorausgesetzte Schreibweise ([IQB-VER 1]), keine Anlagenforderung.
     Formelsammlung: keine Formel für kumulierte Wahrscheinlichkeiten in [FS-IQB 1.4] (nur die Einzelformel); die Werte kommen vom Rechner oder aus der Tabelle – [FS] offen
 Quelle: eigene Formulierung nach [GOST Q2 L4/L5] „Punkt- und Intervallwahrscheinlichkeiten für die Anzahl an Erfolgen“, „Binomialverteilung im Histogramm, auch kumulative Darstellungen“ und [IQB-VER 1] Summenschreibweise; Übersetzungsliste aus den Fehlerquellen der Rohdatei (Grenzen, Anteile, Treffer und Niete); Zahlenbeispiele eigen (Ermessen); [LS-AA EP V 5, QP VIII 7].
 
@@ -80,6 +83,7 @@ Einheit 4 (Umkehraufgaben):
     Grenze k, Umgebung um μ, Umfang n oder p durch Probieren: am Rechner die Werte der Reihe nach prüfen und beide Nachbarn hinschreiben – den letzten, der die Schranke verfehlt, und den ersten, der sie erreicht.
       n = 50, p = 0,2, kleinstes k mit P(X ≤ k) ≥ 0,9: P(X ≤ 13) ≈ 0,889 < 0,9 und P(X ≤ 14) ≈ 0,939 ≥ 0,9, also k = 14.
     Abhängigkeit von n: (1 − p)^n wird mit jedem weiteren Versuch um den Faktor 1 − p kleiner, 1 − (1 − p)^n also größer – eine Aussage darüber wird allgemein begründet, nicht nur an Zahlen.
+    Auswendig (Teil A): die Ansätze „Mindestanzahl …“ (Gegenereignis als Potenz), „Trefferwahrscheinlichkeit …“ (Wurzel) und „Abhängigkeit von n“ – [GOST-OHiMi 2.4] „Ansätze zur Berechnung von Wahrscheinlichkeiten für binomialverteilte … Zufallsgrößen“, das Auflösen über [GOST-OHiMi 2.1] „Logarithmen“, „einfache Exponentialgleichungen“; „Grenze k, Umgebung um μ, Umfang n oder p durch Probieren“ nicht – Rechnerarbeit, Teil B.
     Formelsammlung: Potenzen und Logarithmen [FS-IQB 1.1] (log_a(b^r) = r · log_a b) für das Logarithmieren; für den Ansatz selbst keine Formel – [FS] offen
 Quelle: eigene Formulierung nach [GOST-OHiMi 2.1] „Logarithmen“, „einfache Exponentialgleichungen“ und [GOST Q2 L4/L5] „Binomialverteilung zur Beschreibung stochastischer Situationen nutzen“; Wege aus der Rohdatei (Landeshefte: Logarithmus; Pool: Probieren mit Nachbarwerten); Zahlenbeispiele eigen (Ermessen); [LS-AA EP V 7, QP VIII 7].
 
@@ -90,6 +94,7 @@ Einheit 5 (Verteilung im Diagramm):
     Gegenzufallsgröße: Y = n − X zählt die Nieten und ist B(n; 1 − p)-verteilt; P(X = k) = P(Y = n − k) – das Diagramm von Y ist das von X gespiegelt.
       X ~ B(10; 0,3), Y = 10 − X ~ B(10; 0,7): P(X = 3) = P(Y = 7) ≈ 0,267.
     Kumulierte Darstellung: die Säulen zeigen P(X ≤ k), steigen an und enden bei 1; die Differenz zweier benachbarter Säulen ist eine Einzelwahrscheinlichkeit.
+    Auswendig (Teil A): „Säulendiagramm“, „Höchste Säule“ und „Gegenzufallsgröße“ – [GOST-OHiMi 2.4] „Darstellung von Zufallsgrößen in Histogrammen“, „Erwartungswert von Zufallsgrößen“; die „Kumulierte Darstellung“ nennt die Anlage nicht ausdrücklich, nur der Plan [GOST Q2 L4/L5] „auch kumulative Darstellungen“ – der Pool prüft sie dennoch in Teil A.
     Formelsammlung: Stochastik [FS-IQB 1.4] μ = n · p; Regeln zu Lage des Maximums, Symmetrie und Gegenzufallsgröße stehen nicht in der Formelsammlung – [FS] offen
 Quelle: eigene Formulierung nach [GOST Q2 L4/L5] „Binomialverteilung im Histogramm, auch kumulative Darstellungen“, [GOST Q2 L2] „Eigenschaften auf der Grundlage graphischer Darstellungen“ und [GOST-OHiMi 2.4] „Darstellung von Zufallsgrößen in Histogrammen“; Merkmale aus den Rohdateitypen (Lage des Maximums, Summe 1, Wertebereich, Symmetrie, Gegenzufallsgröße); Zahlenbeispiele eigen (Ermessen); [LS-AA EP V 4, QP VIII 6].
 
