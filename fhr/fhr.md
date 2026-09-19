@@ -1,5 +1,6 @@
 # PROFIL FHR – Fachhochschulreifeprüfung, Mathematik, Brandenburg
-Version 1.10 · 18.09.2026 · Kennung fhr · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Version 1.11 · 19.09.2026 · Kennung fhr · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Änderungen gegenüber 1.10 (Auftrag iqb-beleg, 19.09.2026): § 9 Satz zum fehlenden IQB-Pool belegt (Bildungsstandards Allgemeine Hochschulreife [IQB-Pool], FHR-Prüfung nach FOSFHRV und FOS-Rahmenlehrplan); fhr-vorgaben.md § 1 verweist darauf. Aussage zu den Buchstaben A, B, C unverändert.
 Änderungen gegenüber 1.9 (Auftrag O, Punkt 2): § 2 verweist auf die angelegte fhr-quellen.md (Quelle, Übersichtsseite, Verzeichnis der Hefte mit papier-Kürzel, lokaler Heftordner hefte/fhr/ mit Erfassungsstand; Zahlen aus befund-quellenbestand-2026-09-18.md).
 Änderungen gegenüber 1.8 (Auftrag G, Punkt 3): § 2 verweist auf die angelegte fhr-vorgaben.md (Quellen, Vorgaben-Historie 2019–2028, Jahrescheck; zusammengetragen aus § 1–7 und fhr-pruefungen.md, kein eigener Vorgabencheck).
 Änderungen gegenüber 1.7 (Auftrag F, Punkt 1 und 5): § 2 Ablageort der amtlichen Vorgaben – bisher „vorgaben.md" (die Datei des Profils msa, seit dem 17.09.2026 msa-vorgaben.md); jetzt eine eigene, noch nicht angelegte fhr-vorgaben.md nach dem Muster von Entscheidung 19. Kernbindung v0.9 (Kern § 1 nennt die msa-Dateien mit Präfix; für dieses Profil ohne Folge). Punkt 5: Kern § 6 setzt Zeilenthema = Typthema mit Vorbehalt für das Profil – § 6 nennt die eigene Regel dieses Profils (Punkt-Schwerpunkt); Kern § 5 lässt die Eichung entfallen, wo es keine amtlichen Anforderungsbereiche gibt – der Vorschlag aus Auftrag E ist umgesetzt (Kernbindung).
@@ -156,7 +157,7 @@ Ein „?" hinter einem Wert bedeutet: plausibel, aber nicht am Bild geprüft; de
 
 ## 9 Offene Punkte
 
-- Bedeutung der Buchstaben A, B, C: geklärt als Schlussfolgerung aus dem Dateibestand (§ 4), nicht belegt. Ein IQB-Pool für die Fachhochschulreife existiert nicht; die Pools gelten nur für die Allgemeine Hochschulreife. Der verfügbare Bestand ist mit den sechzehn Heften ausgeschöpft (Umfang und Erweiterungen: fhr-pruefungen.md).
+- Bedeutung der Buchstaben A, B, C: geklärt als Schlussfolgerung aus dem Dateibestand (§ 4), nicht belegt. Ein IQB-Pool für die Fachhochschulreife existiert nicht: die Pools entstehen auf Grundlage der Bildungsstandards für die Allgemeine Hochschulreife [IQB-Pool], die FHR-Prüfung beruht auf FOSFHRV und FOS-Rahmenlehrplan (§ 4). Belegt 19.09.2026. Der verfügbare Bestand ist mit den sechzehn Heften ausgeschöpft (Umfang und Erweiterungen: fhr-pruefungen.md).
 - Nachschreibe-Vorschläge fehlen für alle Jahrgänge.
 - Drei Themen stellen in keiner Zeile das thema, sondern kommen nur als Nebentyp vor (Stammfunktion bilden, Bestimmtes Integral berechnen, Gleichungen lösen; § 6): aus dem Katalog lässt sich zu ihnen kein eigenes Heft bauen.
 - Zwei Vorschläge für den nächsten Abgleichlauf, nicht ausgeführt: die Definition von Produkt zweier Funktionsterme ausmultiplizieren auf mehrere Faktoren erweitern (2020-A-1a hat drei Linearfaktoren), und Dreieck in das Koordinatensystem einzeichnen mit Rechteck in das Koordinatensystem einzeichnen zu einem Typ Figur in das Koordinatensystem einzeichnen zusammenziehen.

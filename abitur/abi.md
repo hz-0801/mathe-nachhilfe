@@ -1,5 +1,10 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.28 · 19.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Version 0.29 · 19.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 0.28 (Auftrag iqb-beleg, 19.09.2026): § 10 Zeile „ab Abitur
+2026" mit amtlichem Beleg der IQB-Poolregel ergänzt ([BS-IQB], [IQB-Pool],
+Entnahme durch Brandenburg [FB-BB-7]; für 2026 kein amtlicher Wortlaut, Beleg
+ist die Poolquote), dazu ein Quellenabsatz unter der Tabelle; abi-vorgaben.md
+§ 1 verweist auf die Zeile.
 Änderungen gegenüber 0.27 (Auftrag „Strukturbefunde des Korpus-Laufs gegen die
 Profildateien"): § 3 Fußnote zur Jahresgeltung von „Format bis 2018" – die
 Werte sind an 2017/2018 belegt, 2011–2016 (Typenquelle, nicht im
@@ -644,11 +649,17 @@ Heften unter hefte/ stehen in abi-pruefungen.md § 4 (17.09.2026).
 | ab 2019 | Hilfsmittelfreier Prüfungsteil auch in Berlin; die Prüfung ist seither zweiteilig (Teil A ohne, Teil B mit Hilfsmitteln). Brandenburg hatte den hilfsmittelfreien Teil auf erhöhtem Niveau schon 2015, zunächst mit 30 BE ohne Kopplung; die heute beschriebene Fassung mit 15 BE und der Kopplung 3⇒4 ist erst ab 2017 belegt (§ 3, abi-aufbau.md § 1; Jahresangabe berichtigt 19.09.2026 nach dem Korpus-Lauf im reichen Format, korpus-protokoll.md § 8). | Fachbrief Mathematik Nr. 22, August 2018 (Berlin); hefte-md/abi/2015-bb-ea.md, 2016-bb-ea.md |
 | 2020 und 2021 | Prüfung „auf der Grundlage weitgehend gemeinsamer Aufgabenstellungen", je Land eigene Ausgabe. | Rundschreiben 21/20 (Brandenburg), bravors.brandenburg.de – amtlich |
 | bis einschließlich 2025 | Gemeinsame Entwicklung der Aufgaben, koordiniert vom LISUM; das LISUM wurde Ende 2024 aufgelöst. | Bildungsserver Berlin-Brandenburg; abi-vorgaben.md § 2 |
-| ab Abitur 2026 | Getrennte Erstellung: Berlin über das BLiQ, Brandenburg über das LIBRA; beide weiterhin aus dem IQB-Pool. Organisatorische, keine inhaltliche Trennung: die Poolquote 2026 (bb-gk 80 %, bb-ea 77 %) liegt auf dem Stand von 2025 (bebb-gk 80 %). | Prüfungsschwerpunkte 2027 (§ 1); Poolquote abi-pruefungen.md § 2, § 4 (Lauf 19) |
+| ab Abitur 2026 | Getrennte Erstellung: Berlin über das BLiQ, Brandenburg über das LIBRA; beide weiterhin aus dem IQB-Pool. Organisatorische, keine inhaltliche Trennung: die Poolquote 2026 (bb-gk 80 %, bb-ea 77 %) liegt auf dem Stand von 2025 (bebb-gk 80 %). | Prüfungsschwerpunkte 2027 (§ 1); Poolquote abi-pruefungen.md § 2, § 4 (Lauf 19); Pool amtlich: [BS-IQB], [IQB-Pool]; Entnahme durch Brandenburg: [FB-BB-7]; für 2026 kein amtlicher Wortlaut, [PS-GK-2026] nennt nur die IQB-Formelsammlung – Beleg ist die Poolquote (Lauf 19). Recherche 19.09.2026. |
 | bis 2017 / ab 2018 | Berliner LK und Brandenburger eA bis 2017 großteils identisch, ab 2018 vollkommen übereinstimmend. **Verlagsangabe (Merkur), keine amtliche Quelle.** Der Bestand zeigt für 2017 drei und für 2018 vier wortgleiche Aufgaben je Heft (abi-aufbau.md § 4), 2018 mit einer abweichenden BE-Teilung (Brillenträger). | Merkur-Verlag (nicht amtlich); eigener Textvergleich abi-aufbau.md § 4 |
 | Verlagsbände | STARK betitelt seine Bände durchgehend „Berlin/Brandenburg", auch 2026 und 2027; die Kopfzeile der einzelnen Prüfung im Band übernimmt STARK vom Original. Die Autorenliste des Bandes zum Abitur 2021 nennt die Prüfungen 2016 bis 2020 ausdrücklich als „Abiturprüfung Berlin". Befund in den Dateien unter hefte/ (17.09.2026): 2019–2021 Kopfzeile „Berlin – Mathematik Grundkurs", 2022–2025 „Berlin/Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs", 2026 „Brandenburg – Mathematik Grundkurs" bzw. „Leistungskurs" (abi-pruefungen.md § 4). | STARK-Bände (Angabe des Lehrers); Kopfzeilen der Hefte |
 | durchgehend; bis 2021 „CAS", ab 2022 „MMS" | Rechnerfassung mit Computeralgebra als eigene Prüfungsform in jedem Jahrgang: amtliche CAS-Hefte 2014–2018 auf dem Bildungsserver (abi-quellen.md § 2–3), CAS-Variante 2021 als Prüfungsform mit Geräteliste (TI-92, TI-Voyage, TI-Nspire, Casio ClassPad; PC mit MuPad, Geogebra, Derive oder Emulationen), ab 2022 im Pool und ab 2027 in den Prüfungsschwerpunkten „MMS" mit wortgleicher Hilfsmittelregelung, Berlin „MMS (CAS)". CAS und MMS sind dieselbe Sache unter wechselndem Namen. Berichtigt 17.09.2026 (Auftrag C Teil 4): die Annahme, es habe ab 2018 keine CAS-Fassungen mehr gegeben, trifft nicht zu – STARK druckt sie ab dem Jahrgang 2018 nicht mehr ab (Band 2021 nur 2016 Aufgabe 1.1 und 2017 Aufgabe 1.2). | STARK-Band zum Abitur 2021, Vorspann (hefte/abi/sonstiges/hinweise-2021-be-gk.md, Abschrift); Bände 2027; Prüfungsschwerpunkte 2027 (abitur-vokabular.md § 3); iqb-quellen.md |
 | Band zum Abitur 2027 | STARK führt die Jahrgänge 2022 bis 2025 ohne Landeszusatz und den Jahrgang 2026 als „von Brandenburg" (online über MySTARK). Für Berlin 2026 existiert kein STARK-Heft; die Lücke ist über den Verlag nicht zu schließen (offener Punkt in abi-pruefungen.md § 3). | STARK-Band zum Abitur 2027 (Angabe des Lehrers) |
+
+Quellen zur IQB-Regel (19.09.2026):
+- [BS-IQB] Bildungsserver Berlin-Brandenburg, „Zentralabitur (Brandenburg)", Abschnitt IQB, redaktionell LIBRA: https://bildungsserver.berlin-brandenburg.de/unterricht/pruefungen/abitur-brandenburg
+- [IQB-Pool] IQB, „Abituraufgabenpools": https://www.iqb.hu-berlin.de/de/schule/sekundarstufe-ii/abituraufgabenpools/
+- [FB-BB-7] MBJS, Fachbrief Mathematik Brandenburg Nr. 7, August 2023: https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/fachbriefe_brandenburg/Mathematik/Fachbrief_Mathematik_BB_07.pdf
+- [PS-GK-2026] MBJS, Prüfungsschwerpunkte Mathematik Grundkurs 2026, Abschnitt 3 Hilfsmittel.
 
 Offen (nicht aufzulösen, § 9): ob die Berliner und die Brandenburger Fassung
 2019 bis 2021 im Grundkurs inhaltlich abwichen oder nur im Deckblatt. Die

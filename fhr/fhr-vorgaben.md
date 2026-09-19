@@ -35,7 +35,7 @@ Vorgabencheck (§ 4) steht aus.
 - Hefte: Übersichtsseite https://bildungsserver.berlin-brandenburg.de/pruefungen-fos-bb;
   Verzeichnis und Dateinamen in fhr-pruefungen.md.
 - Kein IQB-Pool: die Aufgabenpools des IQB gelten nur für die Allgemeine
-  Hochschulreife (fhr.md § 9).
+  Hochschulreife (fhr.md § 9). (Beleg: fhr.md § 9, IQB-Pool-Seite, 19.09.2026)
 
 ## 2 Vorgaben-Historie
 

@@ -26,7 +26,8 @@ Vorgabencheck (§ 4) steht noch aus.
   genannte Wert 255 Minuten für das grundlegende Niveau gilt nicht mehr.
 - IQB, Abituraufgabenpools Mathematik: Aufgaben mit Erwartungshorizont,
   Standardbezug und Bewertungshinweisen, veröffentlicht nach der Prüfung. Quelle
-  des Profils iqb; Einzelheiten in iqb-quellen.md.
+  des Profils iqb; Einzelheiten in iqb-quellen.md. Amtliche Grundlage und Beleg
+  der Entnahme: abi.md § 10, Zeile ab Abitur 2026.
 
 ## 2 Vorgaben-Historie
 
