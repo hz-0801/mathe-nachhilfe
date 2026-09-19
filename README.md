@@ -102,6 +102,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 
 - `band-anleitung.md`, `band-bau.py`, `fhr-band-struktur.py`, `fhr-band.csv` – Sammelbände aus den Originalseiten.
 - `korpus-bau.py`, `korpus-protokoll.md` – Markdown-Korpus und OCR der Prüfungshefte.
+- `themen-inventar.py`, `themen-inventar.md` – Themennamen aller vier Prüfungskataloge gezählt; Vorstufe der Themenkonkordanz.
 
 ## archiv/ – eingefroren
 
