@@ -39,8 +39,9 @@ P10-Thema „Funktionen allgemein“ (7 Typen) hat keine eigene Datei: „Wertet
 
 ## Sekundarstufe II
 
-1 Eintrag, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsform (konzept.md
-§ 4 Entscheidung 36). Statt P10-Typen trägt der Abschnitt „Prüfungsform (fhr / abi / iqb)“ je
+2 Einträge, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsform (konzept.md
+§ 4 Entscheidung 36), und `binomialverteilung.md`, Formprobe der Form für die Stochastik (abi und
+iqb, kein fhr). Statt P10-Typen trägt der Abschnitt „Prüfungsform (fhr / abi / iqb)“ je
 Profil eine Typenliste mit Zeilenzahl und Einheitsnummer in der Klammer hinter jeder Typnennung
 („(n, Ek)“ bzw. „(Ek)“ bei je-1-Typen); `_pruef_katalog.py` prüft diese Klammern und ihre Summe
 gegen `themen.csv` (Spalte `kanonisch` = Dateiname ohne `.md`). Die Spalte „Profile“ unten nennt
@@ -49,6 +50,7 @@ je Profil Zeilen/Typen aus `themen.csv`.
 | Datei | Thema | Leitidee | Profile (Zeilen/Typen) | Status |
 |---|---|---|---|---|
 | kurvenuntersuchung.md | Kurvenuntersuchung | Analysis (fhr: Differentialrechnung) | fhr 39/9 · abi 58/39 · iqb 53/37 | Entwurf |
+| binomialverteilung.md | Binomialverteilung (Bernoulli-Kette, Bernoulli-Formel, kumulierte Wahrscheinlichkeiten, Umkehraufgaben, Verteilung im Diagramm) | Stochastik (fhr: kein Stoff nach RLP FOS 2019) | abi 57/30 · iqb 98/52 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
