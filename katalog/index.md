@@ -44,7 +44,8 @@ Einträge, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsf
 iqb, kein fhr), `ebenen.md`, Formprobe für die Analytische Geometrie (abi und iqb, kein fhr;
 vier Lerneinheiten – die Zahl ist frei, `_pruef_katalog.py` lässt E1–E9 zu), und die Einträge
 des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Bündel 2 „Ableitung Anwendung“, Bündel 3
-funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Stand 2026-09-20;
+funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“,
+Stand 2026-09-20;
 Entscheidung 36
 samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
 eigene Verortung und Prüfungsform, didaktische Abschnitte als Verweiszeilen auf den tragenden
@@ -70,6 +71,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | tangente-normale-schnittwinkel.md | Tangente, Normale, Schnittwinkel (Tangentengleichung im Punkt, Berührung als Doppelbedingung, Normale, Steigungs- und Schnittwinkel, Dreiecke aus Tangente und Achsen) | Analysis (fhr: Differentialrechnung „Anstieg und Tangente“, „Normale“ – Winkel kein Stoff nach RLP FOS 2019) | fhr 15/11 · abi 51/44 · iqb 61/48 | Entwurf |
 | extremalprobleme.md | Extremalprobleme (Figur und Term, Zielfunktion aus Haupt- und Nebenbedingung, Maximum bestimmen) | Analysis (fhr: Differentialrechnung „Extremwertaufgaben“) | fhr 9/5 · abi 7/4 · iqb 7/6 | Entwurf |
 | funktionsklassen-und-eigenschaften.md | Funktionsklassen und Eigenschaften (Funktionswert und Punkt, Nullstellenverfahren, Definitions- und Wertebereich, Symmetrie, Transformationen, Graph zeichnen und zuordnen) | Analysis (fhr: Differentialrechnung „Graph zeichnen und zuordnen“, „Nullstellen ganzrationaler Funktionen“, „Symmetrie nachweisen“ – Transformationen kein Stoff nach RLP FOS 2019) | fhr 48/18 · abi 53/33 · iqb 99/73 | Entwurf |
+| funktionsscharen-und-ortskurven.md | Funktionsscharen und Ortskurven (Scharbegriff und Parameterwert, Eigenschaften aller Graphen am Term, Extrem- und Wendepunkte mit Parameter, Parameter aus Bedingungen, Ortskurve und Kurvenvergleich) | Analysis (fhr: kein Stoff nach RLP FOS 2019; nach GOST-Plan Leistungskursstoff, der Pool prüft grundlegend in Teil B) | abi 56/46 · iqb 86/76 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
