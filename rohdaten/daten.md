@@ -9,7 +9,7 @@ Stufe: I
 - fhr: Daten darstellen und aufbereiten (8 Zeilen)
 - iqb: Lage- und Streumaße einer Stichprobe (4 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-20, Commit 1887018
 
 ## A Typenprofil
 

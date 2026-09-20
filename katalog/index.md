@@ -209,21 +209,27 @@ Rahmenlehrplan → Stoffverteilungsplan Lehrwerk → LISUM-Planungshilfen (seit 
 ## CSV-Themen und führende Dateien
 (Maschinenlesbar, seit 10i von `_pruef_struktur.py` für Kennzahl 6 gelesen: ein Thema je Zeile, Dateien nach dem Gleichheitszeichen, mehrere durch Komma getrennt. Grundlage ist die Gliederungsregel „das Original wird bei seinem CSV-Thema geführt“. Geht ein Thema über zwei Dateien, genügt eine von beiden – deshalb tragen „Flächeninhalt und Umfang“ und „Volumen und Oberfläche“ je zwei Zeileneinträge. „Funktionen allgemein“ hat keine eigene Datei; seine fünf Originale liegen bei den Dateien ihrer Kontexte, siehe den Absatz oben. Wird eine Datei umbenannt oder ein Thema neu verteilt, ist diese Liste nachzuziehen.)
 
+Baumdiagramm und Pfadregeln = zufallsexperimente-und-pfadregeln.md
 Brüche und Dezimalzahlen = brueche-dezimalzahlen.md
 Daten darstellen = daten.md
 Diagramme lesen und beurteilen = daten.md
 Ebene Figuren und Winkel = winkel-dreiecke.md
 Einheiten umrechnen = einheiten.md
+Ereignisse und Mengenoperationen = zufallsexperimente-und-pfadregeln.md
 Exponentialfunktionen und Wachstum = potenz-exponentialfunktionen.md
 Flächeninhalt und Umfang = flaechen.md, kreis.md
 Funktionen allgemein = zuordnungen.md, lineare-funktionen.md, quadratische-funktionen.md, potenz-exponentialfunktionen.md
 Kenngrößen = daten.md
+Kombinatorik = kombinatorik.md
+Kombinatorische Abzählverfahren = kombinatorik.md
 Koordinaten und Zeichnen = symmetrie-abbildungen.md
 Körper, Netze, Schrägbilder = koerper.md
+Laplace-Wahrscheinlichkeit = zufallsexperimente-und-pfadregeln.md
 Lineare Funktionen = lineare-funktionen.md
 Lineare Gleichungen = lineare-gleichungen.md
 Lineare Gleichungssysteme = lineare-gleichungssysteme.md
 Maßstab = strahlensaetze.md
+Mehrstufige Zufallsexperimente = zufallsexperimente-und-pfadregeln.md
 Potenzen und Wurzeln = potenzen-wurzeln.md
 Prozentrechnung = prozentrechnung.md
 Quadratische Funktionen = quadratische-funktionen.md
@@ -239,5 +245,6 @@ Wahrscheinlichkeit einstufig = wahrscheinlichkeit.md
 Wahrscheinlichkeit mehrstufig = wahrscheinlichkeit.md
 Zehnerpotenzen und Näherungswerte = potenzen-wurzeln.md
 Zinsrechnung = zinsrechnung.md
+Zufallsexperimente und Urnenmodelle = zufallsexperimente-und-pfadregeln.md
 Zuordnungen proportional und antiproportional = zuordnungen.md
 Zählen und Kombinatorik = wahrscheinlichkeit.md

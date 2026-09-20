@@ -5,7 +5,7 @@ Stufe: I
 - msa: Einheiten umrechnen (14 Zeilen)
 - fhr: Größen und Einheiten (9 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-20, Commit 1887018
 
 ## A Typenprofil
 

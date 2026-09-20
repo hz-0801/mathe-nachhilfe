@@ -1,13 +1,12 @@
 # Rohdatei kombinatorik
 
-Stufe: I+II
+Stufe: II
 
-- msa: Zählen und Kombinatorik (6 Zeilen)
 - fhr: Kombinatorische Abzählverfahren (15 Zeilen)
 - abi: Kombinatorik (4 Zeilen)
 - iqb: Kombinatorik (13 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-20, Commit 1887018
 
 ## A Typenprofil
 
@@ -20,23 +19,14 @@ abitur/abitur-typen.csv (neu): Die Anzahl der Möglichkeiten berechnen, untersch
 **Anteil der Kennwörter aus einer Teilmenge der Zeichen mit Wiederholung berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Anzahl der Zeichenfolgen fester Länge mit Wiederholung als Potenz bilden und den Anteil einer Teilmenge der Zeichen berechnen.
 
-**Anzahl der Anordnungen bestimmen** · 2 Zeilen · msa 2 · Jahre 2016–2017
-msa/msa-typen.csv (gültig): Anzahl der Reihenfolgen (Permutationen) einer kleinen Menge verschiedener Elemente durch Auflisten oder Zählprinzip bestimmen.
-
 **Anzahl der Kennwörter mit fester Buchstabenfolge und zwei Zusatzzeichen berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Anzahl der Zeichenfolgen bestimmen, die eine feste Teilfolge in Reihenfolge enthalten und mit verschiedenen weiteren Zeichen aufgefüllt sind (Lagen mal Zeichenwahl).
 
 **Auswahlen mit Abstandsbedingung aufzählen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Alle Auswahlen von Plätzen in einer Reihe aufzählen, die eine Abstandsbedingung erfüllen.
 
-**Ergebnismenge aufzählen** · 2 Zeilen · msa 2 · Jahre 2017–2025
-msa/msa-typen.csv (gültig): Alle möglichen Ergebnisse eines mehrstufigen Zufallsversuchs auflisten.
-
 **Permutation ohne Wiederholung berechnen** · 2 Zeilen · fhr 2 · Jahre 2020–2023
 fhr/fhr-typen.csv (geprüft): Die Zahl der Anordnungen unterscheidbarer Elemente als Fakultät ihrer Anzahl bestimmen.
-
-**Anzahl der Dreiecke aus Punkten bestimmen** · 1 Zeile · msa 1 · Jahre 2015
-msa/msa-typen.csv (gültig): Anzahl der Dreiecke mit Ecken aus einer kleinen Punktmenge einer Figur bestimmen; Punkte auf einer Geraden ergeben kein Dreieck.
 
 **Anzahl der Kombinationen aus zwei getrennten Auswahlgruppen ermitteln** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Die Anzahl der Möglichkeiten ermitteln, wenn aus zwei Symbolgruppen unabhängig ausgewählt wird (Binomialkoeffizient mal Fallsumme).
@@ -59,9 +49,6 @@ abitur/abitur-typen.csv (neu): Die Faktoren eines Anzahlterms (Binomialkoeffizie
 **Fehlende Anzahl aus der Gesamtzahl der Möglichkeiten bestimmen** · 1 Zeile · fhr 1 · Jahre 2021
 fhr/fhr-typen.csv (geprüft): Aus der bekannten Gesamtzahl der Möglichkeiten und den bekannten Faktoren die fehlende Anzahl durch Division bestimmen; Umkehrung des Zählprinzips.
 
-**Größte Zahl aus Ziffern bilden** · 1 Zeile · msa 1 · Jahre 2016
-msa/msa-typen.csv (gültig): Aus gegebenen Ziffern durch Anordnen die größte (oder kleinste) Zahl bilden.
-
 **Kleinstes n, für das die Wahrscheinlichkeit lauter verschiedener Ergebnisse unter eine Schranke fällt, ermitteln** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass n zufällige Auswahlen aus n Möglichkeiten alle verschieden sind, als n!/nⁿ ansetzen und das kleinste n ermitteln, für das sie eine Schranke unterschreitet.
 
@@ -77,18 +64,10 @@ abitur/abitur-typen.csv (neu): Einen Term für die Wahrscheinlichkeit angeben, d
 **Term für die Wahrscheinlichkeit aufstellen, dass jede Zahl mindestens einmal fällt** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Einen Term für die Wahrscheinlichkeit aufstellen, dass bei n + 1 Würfen eines n-seitigen Zufallsgeräts jede Zahl vorkommt: genau eine Wiederholung, Anordnungen mal Pfadwahrscheinlichkeit.
 
-**Nebentypen:** Permutation ohne Wiederholung berechnen (5) · Wahrscheinlichkeit einstufig (2) · Anzahl über das Zählprinzip berechnen (1) · Kombination ohne Wiederholung berechnen (1) · Variation ohne Wiederholung berechnen (1) · Wahrscheinlichkeit mehrstufig ohne Zurücklegen (1)
+**Nebentypen:** Permutation ohne Wiederholung berechnen (5) · Anzahl über das Zählprinzip berechnen (1) · Kombination ohne Wiederholung berechnen (1) · Variation ohne Wiederholung berechnen (1)
 
 ## B Zeilenliste
 
-## msa
-
-2016-OS-K5b | 2 | ja | Kurzantwort¦Kurzantwort · Geben Sie an¦Geben Sie an | Ziffern 2, 3, 6 nacheinander gezogen → alle dreistelligen Gewinnzahlen¦P(Gewinnzahl gerade) | 236, 263, 326, 362, 623, 632; gerade = Endziffer 2 oder 6: 4 von 6
-2017-OS-K6b | 4 | ja | Kurzantwort¦Kurzantwort¦Rechnung · Geben Sie an¦Geben Sie an¦Ermitteln Sie | Ziffern 5, 7, 9, jede genau einmal; eine Nummer richtig; Versuche ohne Wiederholung → Anzahl der möglichen Nummern¦P(richtig beim ersten Versuch)¦P(richtig spätestens beim zweiten Versuch) | 3 · 2 · 1 = 6 (579, 597, 759, 795, 957, 975); 1/6; 1/6 + 5/6 · 1/5 = 2/6
-2015-OS-K5a | 1 | ja | Ankreuzen · Kreuzen Sie an | fünf Punkte A, B, C, D, E; E liegt auf AC und auf BD; Auswahl 6, 8, 10, 12 → Anzahl verschiedener Dreiecke mit drei dieser Punkte als Ecken | 10 Dreierauswahlen aus 5 Punkten, davon 2 auf einer Geraden (A, E, C und B, E, D) → 8
-2017-OS-B1f | 1 | ja | Kurzantwort · Geben Sie an | zwei gleiche Münzen gleichzeitig; Ergebnisse Z oder W → Anzahl der möglichen Ergebnisse | ZZ, ZW, WZ, WW
-2025-OS-K3a | 1 | ja | Kurzantwort · Notieren Sie | zwei Scheiben mit je vier gleich großen Sektoren, links 1, 2, 1, 3, rechts 2, 3, 2, 1; beide werden gleichzeitig gedreht, gelesen wird erst die linke, dann die rechte Ziffer (Beispiel 12) → alle möglichen zweistelligen Zahlen | jede linke Ziffer 1, 2, 3 mit jeder rechten Ziffer 1, 2, 3 kombinieren
-2016-OS-K5a | 1 | ja | Kurzantwort · Geben Sie an | Ziffern 2, 3, 6, jede einmal → größte dreistellige Zahl | Ziffern absteigend ordnen
 ## fhr
 
 2021-B-3a | 5 | ja | Rechnung · Berechnen Sie | auf einer Speisekarte werden 6 Vorspeisen und 15 Hauptgänge angeboten → Anzahl der Möglichkeiten für ein zweigängiges Menü¦Anzahl der Möglichkeiten, zwei verschiedene Hauptgänge auszuwählen¦Anzahl der Möglichkeiten, alle Vorspeisen und anschließend alle Hauptgänge auf der Karte anzuordnen | für das Menü die beiden Anzahlen multiplizieren, für die zwei Hauptgänge den Binomialkoeffizienten 15 über 2 bilden und für die Anordnung die Fakultäten von 6 und 15 multiplizieren

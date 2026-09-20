@@ -5,7 +5,7 @@ Stufe: I
 - msa: Lineare Gleichungssysteme (6 Zeilen)
 - iqb: Lineare Gleichungssysteme (14 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-20, Commit 1887018
 
 ## A Typenprofil
 

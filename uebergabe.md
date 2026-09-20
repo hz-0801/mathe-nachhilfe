@@ -13,8 +13,9 @@ Katalogeintrag.
 - GitHub hz-0801/mathe-nachhilfe, Commit e6f1df8 (19./20.09.2026).
   Maßgeblich: konzept.md § 4 (Entscheidungen 1–36 samt Zusätzen),
   README.md als Landkarte, faellig.md § 2 für die offenen Handlungen.
-- katalog/ – alle Sek-I- und Sek-II-Themen der themen.csv haben einen
-  Eintrag; Status durchgehend Entwurf, gegengelesen: nein.
+- katalog/ – 71 Einträge; alle Themen mit Stufe II haben einen Eintrag,
+  die Sek-II-Zeilen an Sek-I-Themen noch nicht (Entscheidung 37). Status
+  durchgehend Entwurf, gegengelesen: nein.
 - Prüfskripte katalog/_pruef_struktur.py und katalog/_pruef_katalog.py
   (Sek-II-Modus, Einheiten E1–E9, Eintragsart Verweiseintrag).
 - hz-0801/blattbau (0e1ec2d, unverändert): unterrichtsblatt.md,
