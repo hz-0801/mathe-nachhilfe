@@ -73,8 +73,8 @@ Gemeinsam:
 
 ## katalog/ – Themenkatalog
 
-71 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
-bis auf den Punkt [FS]) und zweiundvierzig Sek-II-Einträge in der Eintragsform nach `konzept.md`
+72 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
+bis auf den Punkt [FS]) und dreiundvierzig Sek-II-Einträge in der Eintragsform nach `konzept.md`
 § 4 Entscheidung 36 (alle Entwurf, nicht gegengelesen): die drei Formproben
 `kurvenuntersuchung.md` (Pilot, Analysis, fhr/abi/iqb), `binomialverteilung.md`
 (Stochastik, abi/iqb) und `ebenen.md` (Analytische Geometrie, abi/iqb), die fünf
@@ -177,14 +177,23 @@ einen Abschnitt „Signifikanztest“ mit beiden Fehlerarten) und
 Planinhalt, kein Lehrwerkskapitel, keine Landeszeile, Geltung viermal
 „nein“ – die Formelsammlung führt die Grenzgleichung trotzdem wörtlich; die
 Relevanz künftiger Jahrgänge klärt die gebündelte Geltungsrecherche nach
-der Serie; die ersten MMS-Zeilen des Stochastik-Serienbaus). Zweck und
-Arbeitsteilung mit den
+der Serie; die ersten MMS-Zeilen des Stochastik-Serienbaus). Nach der Serie der
+erste Eintrag nach Entscheidung 37 (Sek-II-Zeilen an Sek-I-Themen):
+`zufallsexperimente-und-pfadregeln.md` (237 Katalogzeilen aus fhr, abi und iqb – das
+größte Einzelthema des Katalogs und Trägerthema von neun Stochastik-Einträgen; acht
+Lerneinheiten entlang der Baumtypen der Fachdidaktik-Quelle [FD-BAUM] – Ereignisse als
+Mengen, Laplace, unabhängige Stufen, ohne Zurücklegen, Mammutbäume, Situationsbäume,
+Term und Ereignis, Rückwärts; der Sek-I-Eintrag `wahrscheinlichkeit.md` bleibt
+unverändert und wird als Blatt 0 verwiesen; die Kombinatorik ist als Voraussetzung
+genannt, `kombinatorik.md` folgt; Befund: neun Einträge verweisen als Blatt 0 auf den
+Sek-I-Eintrag, vier davon müssten auf den neuen zeigen – nur geprüft, nicht geändert).
+Zweck und Arbeitsteilung mit den
 Prüfungskatalogen: `konzept.md` § 3. Bis zum Umbau lag der Themenkatalog nur in Lieferzips
 der Prompt-Werkstatt, nicht im Repo.
 
-- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven, flaecheninhalt-durch-integration, punkte-und-strecken-im-koordinatensystem und matrizen-und-uebergangsprozesse fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen, stammfunktion-und-hauptsatz, geraden, lagebeziehungen, skalarprodukt-und-winkel, orthogonalitaet, abstaende, scharen-von-geraden-und-ebenen, flaecheninhalt-und-volumen-im-raum und kenngroessen-von-verteilungen vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen, rekonstruktion-von-bestaenden, vektoren-und-rechenoperationen, schnittmengen, spiegelung, bedingte-wahrscheinlichkeit-und-bayes, unabhaengigkeit, normalverteilung-und-sigma-regeln, hypothesentests und konfidenzintervalle drei, umkehrfunktion, integrationsregeln, rotationsvolumen, uneigentliche-integrale, linearkombination-und-lineare-abhaengigkeit, vierfeldertafel, zufallsgroessen-und-verteilungen und hypergeometrische-verteilung zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen.
+- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (zufallsexperimente-und-pfadregeln acht, funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven, flaecheninhalt-durch-integration, punkte-und-strecken-im-koordinatensystem und matrizen-und-uebergangsprozesse fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen, stammfunktion-und-hauptsatz, geraden, lagebeziehungen, skalarprodukt-und-winkel, orthogonalitaet, abstaende, scharen-von-geraden-und-ebenen, flaecheninhalt-und-volumen-im-raum und kenngroessen-von-verteilungen vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen, rekonstruktion-von-bestaenden, vektoren-und-rechenoperationen, schnittmengen, spiegelung, bedingte-wahrscheinlichkeit-und-bayes, unabhaengigkeit, normalverteilung-und-sigma-regeln, hypothesentests und konfidenzintervalle drei, umkehrfunktion, integrationsregeln, rotationsvolumen, uneigentliche-integrale, linearkombination-und-lineare-abhaengigkeit, vierfeldertafel, zufallsgroessen-und-verteilungen und hypergeometrische-verteilung zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen.
 - `index.md` – Tabelle je Sek-I-Thema (Leitidee, Stufe, Klasse, P10, Status) mit Gegenlese-Verlauf und CSV-Themen-Zuordnung für Kennzahl 6 (`_pruef_struktur.py`); seit dem Sek-II-Piloten auch eine Sek-II-Tabelle (Profile, Zeilen/Typen aus `themen.csv`).
-- `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln (seit 19.09.2026 auch [GOST], [FOS], [BASICS], [COSH], [FS-IQB], [IQB-VER], [IQB-STR]).
+- `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln (seit 19.09.2026 auch [GOST], [FOS], [BASICS], [COSH], [FS-IQB], [IQB-VER], [IQB-STR]; seit 20.09.2026 die Fachdidaktik-Quelle [FD-BAUM], Bartz 2008, Baumtypen als Gliederungsraster).
 - `_quellenprotokoll.md` – was aus welcher Quelle gelesen wurde.
 - `_formelsammlung.md` – Prüfliste [FS]; steht zur Streichung (Abschnittsverweis nicht haltbar, Adresse der Formelsammlung nicht feststellbar).
 - `_pruef_katalog.py`, `_pruef_struktur.py` – Prüfskripte (Sek-II-Modus: Zählzeile und Profillisten gegen `themen.csv`, Einheitsnummern E1–E9); `_suche_quelle.py` – Suche in den zweispaltigen Quellentexten.

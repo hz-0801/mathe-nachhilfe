@@ -52,7 +52,11 @@ Wahrscheinlichkeit/Verteilungen“ (Vierfeldertafel bis hypergeometrische Vertei
 zwei davon Kurzformen) und Bündel 11 „Kenngrößen/Beurteilende Statistik“
 (Kenngrößen von Verteilungen bis Konfidenzintervalle – damit ist die
 Sek-II-Serie der Entscheidung 36 abgeschlossen: alle Sek-II-Themen der
-themen.csv haben einen Eintrag),
+themen.csv haben einen Eintrag), dazu seit dem 20.09.2026 der erste Eintrag nach
+Entscheidung 37 (Sek-II-Zeilen an Sek-I-Themen): `zufallsexperimente-und-pfadregeln.md`,
+der Sek-II-Eintrag zur Wahrscheinlichkeit mit 237 Katalogzeilen aus fhr, abi und iqb –
+das größte Einzelthema und Trägerthema der Stochastik, acht Lerneinheiten; der Sek-I-Eintrag
+`wahrscheinlichkeit.md` bleibt unverändert (kombinatorik.md folgt),
 Stand 2026-09-20;
 Entscheidung 36
 samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
@@ -109,6 +113,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | normalverteilung-und-sigma-regeln.md | Normalverteilung und Sigma-Regeln (Modell und Glockenkurve; Wahrscheinlichkeiten mit Rechner, Sigma-Regeln und halben Schritten; Umkehraufgaben und Parameter-Argumente – LK-Zusatz beider Länder, Geltung nur be-lk und bb-ea, der Pool prüft ausschließlich erhöht und erst seit 2022) | Stochastik (fhr: kein Stoff nach RLP FOS 2019) | abi 3/3 · iqb 17/15 | Entwurf |
 | hypothesentests.md | Hypothesentests (Entscheidungsregel des einseitigen Signifikanztests samt Minimalitätsnachweis; Wahl der Nullhypothese aus der Schadenslage; Fehlerarten und Gütekurven – LK-Zusatz beider Länder, Geltung nur be-lk und bb-ea, alle Zeilen Teil B; zweiseitige Tests und normalverteilte Testgrößen sind Planinhalt ohne Katalogzeile) | Stochastik (fhr: kein Stoff nach RLP FOS 2019) | abi 10/6 · iqb 12/8 | Entwurf |
 | konfidenzintervalle.md | Konfidenzintervalle (Überdeckungsdeutung samt binomialverteilter Überdeckungszahl; Rechnen mit der Grenzgleichung der Formelsammlung; Längen-, Lage- und n-Schwellen-Argumente – reines Poolthema: kein Planinhalt, kein Lehrwerkskapitel, keine Landeszeile, Geltung viermal „nein“, Relevanz künftiger Jahrgänge in der gebündelten Geltungsrecherche; erste MMS-Zeilen des Stochastik-Serienbaus) | Stochastik (fhr: kein Stoff; abi: keine Zeile) | iqb 12/9 | Entwurf |
+| zufallsexperimente-und-pfadregeln.md | Zufallsexperimente und Pfadregeln (Ereignisse als Mengen mit Additionssatz; Laplace in der Oberstufe; Pfadregeln bei unabhängigen Stufen; Ziehen ohne Zurücklegen und Umlegen; Mammutbäume – ein Pfad mal Anzahl der Reihenfolgen; Situationsbäume mit totaler Wahrscheinlichkeit; Term und Ereignis; Rückwärts: Anteile, Kugelzahlen, Sektorwinkel – der Sek-II-Eintrag nach Entscheidung 37, Trägerthema von neun Stochastik-Einträgen; Sek-I-Stoff bleibt in wahrscheinlichkeit.md; Klassen Term und Ereignis, Laplace-Experiment, Ziehen ohne Zurücklegen; Gliederung nach [FD-BAUM]) | Stochastik (fhr: Pflichtthema 4 „mehrstufige Zufallsexperimente“, der Baum-Block jedes Hefts – drei fhr-Themen; abi: drei abitur-Themen) | fhr 28/11 · abi 80/53 · iqb 129/72 | Entwurf |
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
 und nicht Teil dieser Tabelle; sie bleiben unverändert, bis sie gegen `themen.csv` geprüft sind.
