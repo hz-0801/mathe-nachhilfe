@@ -39,7 +39,7 @@ Einheit 1 (Entscheidungsregel):
       Beispiel Optiker: Nullhypothese p ≤ 0,3, n = 100, Niveau 5 % – gesucht ist die kleinste Trefferzahl k, ab der P(X ≥ k) höchstens 0,05 beträgt; wer die Grenze eine Stufe zu früh zieht, nimmt gut 5,3 % Irrtumsrisiko in Kauf.
     Formulieren: die Regel als Anweisung aussprechen („wird … erreicht oder überschritten, wird die Nullhypothese abgelehnt, sonst nicht“).
     Auswendig (Teil A): Begriffe und Logik (Nullhypothese, Signifikanzniveau, Ablehnungsbereich, Entscheidungsregel) – begründetes Ermessen: [GOST-OHiMi 2.4 LK] kündigt „inhaltliche Betrachtungen zu Hypothesentests“ hilfsmittelfrei an, der Katalog hat bisher keine Teil-A-Zeile; alle Rechnungen sind Teil-B-Stoff mit WTR.
-    Formelsammlung: [FS-IQB] führt weder Testschema noch Entscheidungsregel – das Schema muss sitzen, nur die kumulierten Wahrscheinlichkeiten kommen aus dem Rechner – [FS] Wortlaut am PDF geprüft: nein, nur Textfassung
+    Formelsammlung: [FS-IQB] führt im Abschnitt „Signifikanztest“ nur die Begriffe (Fehlerarten, Signifikanzniveau; Textfassung 427–432), kein Testschema und keine Entscheidungsregel – das Schema muss sitzen, die kumulierten Wahrscheinlichkeiten kommen aus dem Rechner – [FS] Wortlaut am PDF geprüft: nein, nur Textfassung
 Quelle: eigene Formulierung nach [GOST Q4 LK] „Signifikanzniveau, Ablehnungsbereich und Entscheidungsregel“; Zahlenbeispiel aus abi 2018-bb-ea-B4.2d; [LS-AA QP IX 1].
 
 Einheit 2 (Wahl der Nullhypothese):
@@ -47,7 +47,7 @@ Einheit 2 (Wahl der Nullhypothese):
     Deshalb: der Entscheider knüpft die teure oder riskante Konsequenz an die Ablehnung der Nullhypothese – dann ist das Risiko, sie irrtümlich auszulösen, durch das Niveau begrenzt (der teure Wechsel nur bei nachgewiesener Verbesserung, die Abschaltung nur bei nachgewiesenem Erfolgseinbruch).
     Benennen: die Überlegung im Sachzusammenhang aussprechen – welcher Irrtum wem schadet und welcher durch das Niveau klein gehalten wird.
     Auswendig (Teil A): der ganze Kasten – die Argumentationsfigur ist der Kern der „inhaltlichen Betrachtungen“ der Anlage [GOST-OHiMi 2.4 LK] und wörtlich das, was [BE Kap. 4] verlangt („kein sicheres Urteil“, Fehlerarten „benennen und im Kontext deuten“).
-    Formelsammlung: keine – Argumentationsfiguren stehen nicht in der Formelsammlung – [FS] offen
+    Formelsammlung: [FS-IQB „Signifikanztest“] definiert Fehler erster und zweiter Art und das Signifikanzniveau (Textfassung 427–432) – die Wahlfigur selbst steht nicht darin – [FS] Wortlaut am PDF geprüft: nein, nur Textfassung
 Quelle: eigene Formulierung nach [BE Kap. 4] (Zeilen 1404–1407) und der Rohdatei (fünf Zeilen des Wahltyps); ohne Zahlenbeispiel (die Figur ist zahlenfrei; Ermessen); [LS-AA QP IX 3].
 
 Einheit 3 (Fehlerarten und Güte):
@@ -56,7 +56,7 @@ Einheit 3 (Fehlerarten und Güte):
     Erst wählen, dann rechnen: p dort wählen, wo die Nullhypothese falsch ist – auf der anderen Seite gibt es keinen Fehler zweiter Art, sondern den ersten.
     Gütekurve: der Graph zeigt die Ablehnwahrscheinlichkeit in Abhängigkeit von p – der Fehler zweiter Art ist eins minus abgelesener Wert, der Fehler erster Art wird an der Grenze der Nullhypothese abgelesen; größerer Stichprobenumfang macht die Kurve steiler und den Fehler zweiter Art kleiner.
     Auswendig (Teil A): die beiden Fehlerarten benennen und im Kontext deuten – [BE Kap. 4] verlangt es wörtlich; die Rechnungen sind Teil-B-Stoff.
-    Formelsammlung: keine – weder Fehlerarten noch Gütekurven stehen in der Formelsammlung – [FS] Wortlaut am PDF geprüft: nein, nur Textfassung
+    Formelsammlung: [FS-IQB „Signifikanztest“] definiert beide Fehlerarten und das Signifikanzniveau (Textfassung 427–432) – in Teil B nachschlagbar; Gütekurven und Rechenwege stehen nicht darin – [FS] Wortlaut am PDF geprüft: nein, nur Textfassung
 Quelle: eigene Formulierung nach [GOST Q4 LK] „Fehler 1. und 2. Art“, „Unsicherheit der Ergebnisse“ und [BE Kap. 4]; ohne Zahlenbeispiel (die Regeln sind zahlenfrei formuliert; Ermessen); [LS-AA QP IX 2].
 
 ### Typische Fehler
@@ -86,7 +86,7 @@ Zielmarke: Einheit 1 – abi: die Entscheidungsregel mit Niveaubegründung (2018
 - Befund Teil A: [GOST-OHiMi 2.4 LK] kündigt „inhaltliche Betrachtungen zu Hypothesentests“ für den hilfsmittelfreien Teil an – alle 22 Katalogzeilen liegen in Teil B; die Begriffslogik (Einheit 2, Kasten 3) bleibt trotzdem Auswendigstoff, weil die Anlage sie hilfsmittelfrei ansetzt.
 - Befund Abwandlung: 2022-bebb-lk-B4g ist die erste abgewandelte Poolzeile des Bündels („Abgewandelt von: 2022MerhoehtBStochastikWTR1-2a“; das Heft verlangt nur die Schranke, der Pool den Umfang).
 - Nebentypen der Rohdatei: keine.
-- [FS] Die IQB-Formelsammlung führt zum Testen nichts – weder Schema noch Entscheidungsregel noch Fehlerarten; Rechenstütze ist allein der WTR. Wortlaut nur in der Textfassung gesehen – Abgleich am PDF offen, wie bei den bisherigen Einträgen.
+- [FS] Die IQB-Formelsammlung führt einen Abschnitt „Signifikanztest“ mit den Definitionen von Fehler erster und zweiter Art und des Signifikanzniveaus (Textfassung Zeilen 427–432; im Erstentwurf des Eintrags übersehen, berichtigt 2026-09-20); nicht enthalten: Testschema, Entscheidungsregel, Gütekurven – Rechenstütze bleibt der WTR. Wortlaut nur in der Textfassung gesehen – Abgleich am PDF offen, wie bei den bisherigen Einträgen.
 - [FD] nicht verwendet: das Quellenregister führt keine Stochastikdidaktik; die Fehlmuster sind allein aus den 22 Katalogzeilen belegt.
 - [MO] Grundvorstellungs-Aufgabe: Übertragung des Gedankens „Vorstellung vor Verfahren“ auf „kein sicheres Urteil, nur kontrollierter Irrtum“; Moser Opitz betrifft Zahl- und Operationsvorstellungen. Amtliche Stütze ist [BE Kap. 4].
 - [BASICS], [COSH]: nur als Strukturvorbild (BASICS) bzw. nachrangige Mindeststoff-Referenz (COSH) genannt, beide aus dem Gedächtnis, keine Inhalte übernommen; die DZLM-Förderbausteine aus Entscheidung 36 nicht verwendet (Lizenzprüfung steht aus, faellig.md § 2).
