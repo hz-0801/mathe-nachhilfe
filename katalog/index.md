@@ -86,6 +86,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | geraden.md | Geraden (Geradengleichung aufstellen und lesen; Punktprobe und Punkte auf der Geraden; Lage als Anhang; Sachgeraden) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg – RLP FOS 2019 Wahlthema 5, keine Zeile im fhr-Katalog) | abi 15/12 · iqb 21/14 | Entwurf |
 | lagebeziehungen.md | Lagebeziehungen (Punktprobe und Seitenlage; Parameter aus der Lagebedingung; Gerade und Ebene; Lagebefunde im Sachzusammenhang) | Analytische Geometrie (fhr: kein Stoff – RLP FOS 2019 endet bei Punkt–Gerade) | abi 13/7 · iqb 25/15 | Entwurf |
 | schnittmengen.md | Schnittmengen (Schnittpunkt von Gerade und Ebene; Schnittpunkt zweier Geraden; Spuren, Schnittgeraden und Schnittfiguren) | Analytische Geometrie (fhr: kein Stoff nach RLP FOS 2019) | abi 14/12 · iqb 17/11 | Entwurf |
+| skalarprodukt-und-winkel.md | Skalarprodukt und Winkel (das Skalarprodukt als Objekt; Winkel zwischen Vektoren, Kanten und Geraden; Neigungswinkel von Ebenen; Winkel von Geraden gegen Ebenen und Bogenmaße) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg nach RLP FOS 2019) | abi 14/5 · iqb 28/17 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
