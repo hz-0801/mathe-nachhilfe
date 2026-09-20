@@ -83,6 +83,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | punkte-und-strecken-im-koordinatensystem.md | Punkte und Strecken im Koordinatensystem (Punkte darstellen und Lage lesen; Streckenlängen, Mittelpunkt und Teilpunkte; Dreiecke nachweisen; Vierecke nachweisen; Körper und Drehungen) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg – RLP FOS 2019 Wahlthema 5, keine Zeile im fhr-Katalog) | abi 24/22 · iqb 59/50 | Entwurf |
 | vektoren-und-rechenoperationen.md | Vektoren und Rechenoperationen (Vektorbegriff, Betrag und Kollinearität; Vektorterme am Körper; Skalarprodukt im Sachzusammenhang) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg – RLP FOS 2019 Wahlthema 5, keine Zeile im fhr-Katalog) | abi 1/1 · iqb 19/16 | Entwurf |
 | linearkombination-und-lineare-abhaengigkeit.md | Linearkombination und lineare Abhängigkeit (Kollinearität und lineare Abhängigkeit; Linearkombination mit Nebenbedingung) – Kurzform | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg; iqb: keine Zeile – nur eingebettet geprüft) | abi 1/1 | Entwurf |
+| geraden.md | Geraden (Geradengleichung aufstellen und lesen; Punktprobe und Punkte auf der Geraden; Lage als Anhang; Sachgeraden) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg – RLP FOS 2019 Wahlthema 5, keine Zeile im fhr-Katalog) | abi 15/12 · iqb 21/14 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
