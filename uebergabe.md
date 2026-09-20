@@ -1,115 +1,133 @@
-# Übergabe 2026-09-19d
+# Übergabe 2026-09-20a
 
 ## 1 Ziel
 
-Sek-II-Themenkatalog in Serie: 39 verbleibende Einträge nach
-konzept.md § 4 Entscheidung 36 bauen. Vorlauf abgeschlossen
-(Werkzeuge Sek-II-fähig, drei Formproben bestanden, Kastenform
-entschieden). Testlauf mit einem gebauten Blatt bleibt
-verschoben (19b).
+Sek-II-Serie ist abgeschlossen (42 Sek-II-Einträge, 71 gesamt,
+alle Sek-II-Themen der themen.csv gedeckt). Jetzt: Gegenlese,
+Protokoll-Auswertung blattbau, danach Promptumbau und
+Geltungsrecherche. Testlauf mit einem gebauten Blatt bleibt
+verschoben (19b), sinnvoll nach der Gegenlese.
 
 ## 2 Arbeitsgrundlage
 
-- GitHub hz-0801/mathe-nachhilfe, Commit 955bca2 (gepusht,
-  19.09.2026). Maßgeblich: konzept.md § 4, Entscheidungen 35
-  und 36 samt Zusätzen (Straffung, Kurzform (Ek), Kastenform
-  mit Auswendig-Zeile, Klarstellung Geometrie); Muster:
-  katalog/kurvenuntersuchung.md, katalog/binomialverteilung.md,
-  katalog/ebenen.md (alle Status Entwurf, gegengelesen: nein);
-  rohdaten/<kanonisch>.md je Thema; themen.csv.
-- Prüfskripte katalog/_pruef_struktur.py und
-  katalog/_pruef_katalog.py (Sek-II-fähig, Einheiten E1–E9);
-  Kennzahl 5 ist der Serienzähler: 2157 von 2883, sinkt mit
-  jedem Eintrag um dessen Zeilenzahl.
-- hz-0801/blattbau unverändert (0e1ec2d). hz-0801/anweisungen:
-  kandidaten.md Commit 7472eb6 (Delegationsform ergänzt).
-- Claude Code im Code-Tab, Ordner mathe-nachhilfe. Aufträge als
-  Textblock nach kandidaten.md „Delegationsform" (samt
-  /clear-Regel und Modell in der Holger-Zeile). Katalogeinträge:
-  Opus; reine Mechanik: Sonnet.
+- GitHub hz-0801/mathe-nachhilfe, Commit e6f1df8 (gepusht,
+  20.09.2026). Maßgeblich: konzept.md § 4, Entscheidungen 1–36
+  samt Zusätzen (neu: Eintragsart Verweiseintrag, c13cc58);
+  katalog/ mit 71 Einträgen; themen.csv; faellig.md.
+- Prüfskripte Sek-II-fähig samt Serien-Erweiterungen
+  (Verweiseintrag 164c741, Malpunkt-Parser c4d1fc8). Kennzahl 5
+  = 345 (nur noch Sek-I-Restposten, Serie deckt alles).
+- hz-0801/blattbau unverändert (0e1ec2d): Prompts, Vorlage,
+  zwei Testauswertungs-Raster. hz-0801/anweisungen: kandidaten.md
+  7472eb6.
+- Claude Code im Code-Tab. Aufträge als Textblock nach
+  kandidaten.md „Delegationsform". Bewährt in elf Bündeln und
+  in die Aufträge übernommen: Kontext-Stopp-Regel (laufenden
+  Eintrag beenden, nach Komprimierung nichts Neues beginnen),
+  Kennzahl-5-Sollwertkette als Stoppsignal, Vorabprüfung der
+  ids, Prüfungen und Commit je Eintrag, Mehrbündel-Aufträge mit
+  bewusstem Überpacken. Neu: nie ids ungebauter Themen im Text
+  nennen (bloße Erwähnung zählt als verbaut; Befund 511/512).
+- Modell: Fable hat die Serie getragen (Bündel 2–11) und ist
+  erste Wahl für Katalog-/Prosaarbeit; Wochenlimit war am
+  20.09. zu 99 % verbraucht (Reset Mo 18:00), Nutzungsguthaben
+  0 €. Mechanik: Sonnet. Lehrer prüft die Ausgabenlimit-
+  Einstellung (20,43 € von 1 € angezeigt, Neuladen aus).
 
 ## 3 Arbeitsstand
 
-Seit 19c, alles gepusht: Straffungsregel und Kurzform (Ek)
-abgelegt, Pilot gestrafft (a4d4a8b, f47a051). Werkzeuge
-Sek-II-fähig mit bestandenem Fehlertest, index.md und README
-nachgezogen, gost-Verweise geprüft (0ff8f98). Formproben
-binomialverteilung (796b4b6) und ebenen (df23cc1) bestanden –
-E36 trägt in Analysis, Stochastik und Geometrie. Kastenform
-entschieden und abgelegt, Auswendig-Zeilen in allen drei
-Einträgen, Prüfskript E1–E9, faellig.md-Posten blattbau,
-.gitattributes (660335c). Seitenzahlen der ersten zwei Einträge
-korrigiert, E36-Klarstellung Geometrie abgelegt (955bca2).
+Seit 19d: Bündelplan erstellt und abgearbeitet – elf Bündel in
+sechs Serienaufträgen (B1 Opus, B2–11 Fable), 39 Themen, alle
+Sollwerte exakt, alle Prüfungen grün. Nebenarbeiten in den
+Läufen: Seitenzahlkorrekturen [GOST] (66961ca, 8d66679),
+Befundkorrekturen [FS-IQB 1.1] Figurenmaße (d2b39ee) und [FS]
+Signifikanztest (99af310), Wendetangenten-Vermerk aufgelöst,
+faellig-Posten Zuruf-Deutung (8ceac4e) und Erwartungshorizonte
+(6cfa150), Geltungsrecherche als faellig-Posten. Vorentscheidung
+Verweiseintrag abgelegt und gebaut
+(ableitungsgraph-und-funktionsgraph).
+
+Vorfall Bündel 8–11-Lauf: Komprimierung während Bündel 10,
+Bündel 11 wurde danach regelwidrig neu begonnen; der Lauf hat
+sich sichtbar neu geerdet (Rohdateien neu gelesen), alle
+Prüfungen grün – Konsequenz: Gegenlese-Vorrang für die vier
+Bündel-11-Einträge.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
 - Entscheidungen 1–36 samt Zusätzen: konzept.md § 4; nicht neu
-  aufrollen. Die Formbefunde der Proben stehen in den Einträgen
-  selbst (Offene Punkte).
-- Vorentscheidung ableitungsgraph-und-funktionsgraph (Chat
-  19.09., noch nicht abgelegt): Verweiseintrag – Kopf,
-  Verortung (kompetenzgleich mit kurvenuntersuchung Einheit 4)
-  und Prüfungsform der eigenen 21 Zeilen; Lerneinheiten,
-  Kästen, Blatt 0, Fehler, Sprossen verweisen auf
-  kurvenuntersuchung.md Einheit 4. Mit dem Serienauftrag des
-  Themas als Eintragsart „Verweiseintrag" in E36 ablegen.
-- blattbau-Konzepte (Diskussionsergebnisse 19.09., Umsetzung
-  beim Promptumbau; faellig.md trägt den Kurzposten, dieser
-  Absatz die Vollform): Blatt 0 = Hinführung zum Stundenthema
-  (Erinnerung, Test, Heranführung), Standardbestandteil, ein
-  vollständiges Blatt ohne Bestellparameter; Bauprinzip
-  Überspringbarkeit (unabhängige Aufgaben, beschriftete
-  Fertigkeitsgruppen, Wichtigstes je Gruppe zuerst); Kurzkästen
-  der Herkunftsthemen und Kurzergebnisse gesammelt am
-  Blattende; Scheiternsregel: Herkunftsthema wird Stundenthema.
-  Kurztest = fester Schlussabschnitt jedes Blatts (10 Minuten,
-  3 Aufgaben, je ein Einheiten-/Fertigkeitsetikett,
-  Ankreuzfußzeile sicher/mit Hilfe/nicht); Befund geht per Foto
-  in den Chat und speist die nächste Stunde. Stundenanker =
-  Kompositionsregel des Unterrichtsblatt-Prompts (Kästen der
-  gewählten Einheiten in Kurzform an den Blattanfang), kein
-  Katalogobjekt. Betriebsmodell: eigenes Projekt „Unterricht",
-  ein Chat je Schüler, Pseudonyme von Anfang an,
-  Schüler-Umzugsregel mit Kurzübergabe.
+  aufrollen. Formbefunde stehen in den Einträgen.
+- Matrizen und Konfidenzintervalle sind gebaut, obwohl Geltung
+  offen: Katalog dient auch Unterrichtsblättern; Geltungsfragen
+  füllen nur Vermerke, sie entscheiden nicht über Einträge.
+- blattbau-Konzepte (19.09., Umsetzung beim Promptumbau;
+  Vollform): Blatt 0 = Hinführung zum Stundenthema,
+  Standardbestandteil ohne Bestellparameter; Bauprinzip
+  Überspringbarkeit; Kurzkästen und Kurzergebnisse am
+  Blattende; Scheiternsregel (Herkunftsthema wird Stundenthema);
+  Kurztest als fester Schlussabschnitt (10 Minuten, 3 Aufgaben,
+  Etiketten, Ankreuzfußzeile), Befund per Foto in den Chat;
+  Stundenanker = Kompositionsregel des Prompts, kein
+  Katalogobjekt. Betriebsmodell: Projekt „Unterricht", ein Chat
+  je Schüler, Pseudonyme ab der ersten Nachricht. Präzisierung
+  (20.09.): Schülerakte als kompakte Datei im Projektwissen
+  (Stand, Lücken, Kurztest-Befunde, nächstes Thema); Chat liest
+  sie am Start aufs Pseudonym hin und gibt am Stundenende die
+  aktualisierte Akte als Codeblock aus, Lehrer kopiert sie
+  zurück; Chat-Suche als Sicherheitsnetz; keine Schülerdaten in
+  Repos.
 
 ## 5 Offene Punkte und verworfene Ansätze
 
-Lehrer: fachliche Gegenlese der drei Sek-II-Einträge (Kästen,
-Sprossen, Auswendig-Zeilen); Mechanik-Punkte Sek I.
+Lehrer: (a) Gegenlese aller 42 Sek-II-Einträge, Vorrang
+Bündel 11 (kenngroessen, normalverteilung, hypothesentests,
+konfidenzintervalle), danach Bündelberichte-Punkte: schwächste
+Auswendig-Zeile gleichungen-loesen Kasten 4, Planzeilen-
+Einheiten ohne amtliche Deckung, BE-Angabe binomialverteilung
+(L4 S. 27, L2 S. 25); (b) dabei entscheiden: Kastenbeispiele
+einheitlich (B1–3 eigene Zahlen, ab B4 wörtlich aus
+Prüfungszeilen – beides als Ermessen markiert); (c)
+stehengebliebene Offene-Punkte-Zeile im Piloten
+(kurvenuntersuchung, Verweis-Entscheidung) abräumen; (d)
+Ausgabenlimit-Einstellung prüfen; (e) Ort, Format und Anzahl
+der Protokoll-Archive nennen (für den Auswertungs-Block).
 
-Werkstatt: katalog/_quellen.md Z. 39 trägt BB-Seitenangaben um
-eins zu niedrig (Fußzeilen-Regel; erster Serienauftrag,
-Schritt 1). BE-Angabe in binomialverteilung.md deckt nur L5
-(L4 liegt auf S. 27, L2 auf S. 25 – Gegenlese).
-Wendetangenten-Auswendigmarkierung beim Bau von
-tangente-normale-schnittwinkel.md setzen (Vermerk in
-kurvenuntersuchung Kasten 3). Zwei nicht eindeutige
-gost-Verweise im Quellenprotokoll (Sammelthemen von vor der
-Konkordanz, kein Blocker). [FS]-Abgleich am PDF der
-Formelsammlung; COSH-Beschaffung, [BASICS] am Text prüfen;
-MaCo-Lizenz (faellig.md). Fortgeführt aus 19b: sieben fein
-geschnittene Sek-I-Themen ohne eigene Rohdatei;
-funktionen-allgemein und kombinatorik ohne Katalogdatei; zwei
-Themen nur in typ_neben. Kosmetisch: Kastenzahlen-Lauf sortiert
-wertgleiche Zahlen (0,05/0,050) nichtdeterministisch.
+Werkstatt, nach Gegenlese/parallel: Protokoll-Auswertung
+blattbau (eigener Block, Ordner blattbau, nach dem
+Testauswertungs-Raster im Repo, aggregierter Befundbericht als
+Datei; speist den Promptumbau). Promptumbau-Vormerkungen:
+Kriterienabgleich der Blattregeln gegen Büchter/Leuders
+(Mathematikaufgaben selbst entwickeln, Cornelsen 2023) mit
+Kandidat „operative Variation als Blattelement"; Zuruf-Deutung
+über Konkordanz (faellig). Einheitenschnitt-Verbesserungen:
+Ausreißer-Flag im Prüfskript (Mini-Einheiten ohne Vermerk),
+Gliederungsregel Sek II als E36-Zusatz, Validierung über
+Testlauf und Kurztest-Befunde. Gebündelte Geltungsrecherche
+(faellig-Posten; Matrizen ab 2030, Konfidenzintervalle,
+Sinus-Ableitung GK, Scharen/Rotationsvolumen-Niveau,
+hypergeometrisch BB/BE, Transformationen „Anlage ja, Plan
+nein", Normalverteilung; amtliche Quellen, Stand angeben).
+Fortgeführt: Erwartungshorizonte-Beschaffung (faellig);
+Sek-I-Restposten (345 Zeilen: sieben Themen ohne Rohdatei,
+funktionen-allgemein, kombinatorik, zwei nur typ_neben);
+[FS]-Abgleich am PDF, COSH-Beschaffung, [BASICS], MaCo-Lizenz;
+Kastenzahlen-Lauf nichtdeterministisch (kosmetisch).
 
-Verworfen (neu): Formerweiterung „typischer Fehler → verletzte
-Voraussetzung" (entfiel mit der Fundament-/Hinführungslesart
-von Blatt 0); Zurufparameter „reduziert"/„Spickzeile"
-(Anpassung durch Weglassen am Tisch statt Konfiguration);
-Stundenanker als Katalogobjekt (dupliziert Kästen fremder
-Themen).
+Verworfen (neu): Register-/Inhaltsverzeichnisanalyse von
+Lehrbüchern als eigener Lauf (für den Prüfungszweck den
+Hauptquellen unterlegen; Lehrwerk bleibt nachrangige Stütze);
+paralleler Zweitblock während Abwesenheit (kein Nutzervorteil,
+Ein-Block-Prinzip); Modell-Doppelläufe zum Gliederungsvergleich
+(teuer, Abweichung ≠ Fehler); Schülerakten im GitHub-Repo
+(Schülerdaten). Fortgeführt verworfen (19d): Formerweiterung
+„typischer Fehler → verletzte Voraussetzung"; Zurufparameter
+„reduziert"/„Spickzeile"; Stundenanker als Katalogobjekt.
 
 ## 6 Nächster Arbeitsschritt
 
-Serie der 39 Restthemen in Umfangsbündeln: ~150–200 Rohzeilen
-je Auftrag, fachlich benachbarte Themen zusammen (ergibt etwa
-12–14 Aufträge), Reihenfolge Analysis-Differenzialrechnung →
-Integral → Analytische Geometrie → Stochastik; Zielmodell Opus.
-Der erste Serienauftrag beginnt mit der Seitenzahlkorrektur in
-katalog/_quellen.md (Schritt 1), dann die ersten Einträge. Vor
-matrizen-und-uebergangsprozesse (Geltungsfrage Abitur 2030) und
-ableitungsgraph-und-funktionsgraph (Vorentscheidung B ablegen)
-je eine kurze Chat-Klärung. Der neue Chat erstellt zuerst den
-konkreten Bündelplan aus themen.csv und legt ihn dem Lehrer
-vor; dann Serienstart.
+Der neue Chat erfragt Ort, Format und Anzahl der
+Protokoll-Archive und schreibt dann den Block für die
+Protokoll-Auswertung (Ordner blattbau, Modell Opus oder Sonnet
+– Fable-Limit beachten). Parallel läuft die Gegenlese des
+Lehrers; ihre Befunde werden im neuen Chat gesammelt und als
+Nachbesserungs-Block gebündelt.
