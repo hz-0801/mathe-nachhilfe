@@ -44,8 +44,8 @@ Einträge, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsf
 iqb, kein fhr), `ebenen.md`, Formprobe für die Analytische Geometrie (abi und iqb, kein fhr;
 vier Lerneinheiten – die Zahl ist frei, `_pruef_katalog.py` lässt E1–E9 zu), und die Einträge
 des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Bündel 2 „Ableitung Anwendung“, Bündel 3
-funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“
-und Bündel 5 „Integral“,
+funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“,
+Bündel 5 „Integral“ und Bündel 6 „Vektoren/Geraden“,
 Stand 2026-09-20;
 Entscheidung 36
 samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
@@ -80,6 +80,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | rekonstruktion-von-bestaenden.md | Rekonstruktion von Beständen (Bestand aus Rate berechnen und aufstellen, Rate und Bestand als Paar begründen, Flächen am Ratengraphen deuten) | Analysis (fhr: kein Stoff – die FOS-Leitideenprosa nennt Bestände, Pflichtthema 3 und fhr-Katalog nicht) | abi 8/7 · iqb 19/16 | Entwurf |
 | rotationsvolumen.md | Rotationsvolumen (Volumenformel mit Maßstab und Hohlkörpern, Deutungs- und Prüfform: Querschnittsdeutung, Abschätzungen, fremde Lösungswege) | Analysis (fhr: Integralrechnung „Rotationsvolumen um die x-Achse“ als Pflichtform; nach GOST-Plan und Anlage Leistungskursstoff) | fhr 4/1 · abi 4/3 · iqb 5/5 | Entwurf |
 | uneigentliche-integrale.md | Uneigentliche Integrale (Grenzwertbegriff, Näherungsdeutung mit vernachlässigbarer Restfläche) – Kurzform | Analysis (fhr: kein Stoff nach RLP FOS 2019; nach GOST-Plan Leistungskursstoff) | abi 1/1 · iqb 1/1 | Entwurf |
+| punkte-und-strecken-im-koordinatensystem.md | Punkte und Strecken im Koordinatensystem (Punkte darstellen und Lage lesen; Streckenlängen, Mittelpunkt und Teilpunkte; Dreiecke nachweisen; Vierecke nachweisen; Körper und Drehungen) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg – RLP FOS 2019 Wahlthema 5, keine Zeile im fhr-Katalog) | abi 24/22 · iqb 59/50 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
