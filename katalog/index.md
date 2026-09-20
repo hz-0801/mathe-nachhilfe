@@ -45,7 +45,8 @@ iqb, kein fhr), `ebenen.md`, Formprobe für die Analytische Geometrie (abi und i
 vier Lerneinheiten – die Zahl ist frei, `_pruef_katalog.py` lässt E1–E9 zu), und die Einträge
 des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Bündel 2 „Ableitung Anwendung“, Bündel 3
 funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“,
-Bündel 5 „Integral“ und Bündel 6 „Vektoren/Geraden“,
+Bündel 5 „Integral“, Bündel 6 „Vektoren/Geraden“, Bündel 7 „Lage/Winkel“
+und Bündel 8 „Abstände/Raum“ (im Bau),
 Stand 2026-09-20;
 Entscheidung 36
 samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
@@ -88,6 +89,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | schnittmengen.md | Schnittmengen (Schnittpunkt von Gerade und Ebene; Schnittpunkt zweier Geraden; Spuren, Schnittgeraden und Schnittfiguren) | Analytische Geometrie (fhr: kein Stoff nach RLP FOS 2019) | abi 14/12 · iqb 17/11 | Entwurf |
 | skalarprodukt-und-winkel.md | Skalarprodukt und Winkel (das Skalarprodukt als Objekt; Winkel zwischen Vektoren, Kanten und Geraden; Neigungswinkel von Ebenen; Winkel von Geraden gegen Ebenen und Bogenmaße) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg nach RLP FOS 2019) | abi 14/5 · iqb 28/17 | Entwurf |
 | orthogonalitaet.md | Orthogonalität (rechte Winkel an Dreiecken nachweisen; rechte Winkel rückwärts; senkrecht zu Geraden und Ebenen; Lot und Extremum) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg nach RLP FOS 2019) | abi 14/11 · iqb 29/19 | Entwurf |
+| abstaende.md | Abstände (Abstand zweier Punkte mit Rückrichtungen; Punkt–Ebene über die Hessesche Normalform; Lotfußpunkt und Abstand zu Geraden; Abstand als Argument – Plan führt Punkt–Gerade erst im LK-Zusatz, der Pool prüft den Lotfußpunkt auch grundlegend) | Analytische Geometrie (fhr: Wahlstoff „Abstand von Punkten“ ohne Prüfungsbeleg nach RLP FOS 2019) | abi 27/20 · iqb 31/25 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
