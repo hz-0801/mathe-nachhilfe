@@ -73,8 +73,8 @@ Gemeinsam:
 
 ## katalog/ – Themenkatalog
 
-57 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
-bis auf den Punkt [FS]) und achtundzwanzig Sek-II-Einträge in der Eintragsform nach `konzept.md`
+61 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
+bis auf den Punkt [FS]) und zweiunddreißig Sek-II-Einträge in der Eintragsform nach `konzept.md`
 § 4 Entscheidung 36 (alle Entwurf, nicht gegengelesen): die drei Formproben
 `kurvenuntersuchung.md` (Pilot, Analysis, fhr/abi/iqb), `binomialverteilung.md`
 (Stochastik, abi/iqb) und `ebenen.md` (Analytische Geometrie, abi/iqb), die fünf
@@ -114,12 +114,32 @@ Winkelmaß; der Neigungswinkel gegen die Koordinatenebene ist mit 17 Zeilen das
 häufigste Einzelverfahren des Sachgebiets, abi stellt das Thema nur in Teil B) und
 `orthogonalitaet.md` (Nachweis und Konstruktion senkrechter Objekte; größter
 Teil-A-Posten des Sachgebiets mit der höchsten Dublettenquote des Bündels –
-elf der vierzehn abi-Zeilen wortgleich aus dem Pool). Zweck und
+elf der vierzehn abi-Zeilen wortgleich aus dem Pool), sowie die vier Einträge
+des Bündels 8 „Abstände/Raum“ (212 Katalogzeilen – die Analytische Geometrie
+damit vollständig): `abstaende.md` (58 Zeilen; der Plan führt den Abstand
+Punkt–Gerade erst im LK-Zusatz, der Pool prüft den Lotfußpunkt auch
+grundlegend – als Niveaustufungs-Befund im Eintrag; Abstände paralleler und
+windschiefer Geraden sind Planinhalt ohne eine einzige Katalogzeile),
+`spiegelung.md` (der GOST nennt die Raumspiegelung in keiner Inhaltszeile –
+amtliche Stütze ist allein [IQB-VER 3.2] mit der Stufung „erhöht
+uneingeschränkt, grundlegend für Punkte“), `scharen-von-geraden-und-ebenen.md`
+(LK-Zusatz beider Länder, Geltung nur be-lk und bb-ea; das Lehrwerk führt kein
+Scharen-Kapitel – die Sprossen stützen sich allein auf die Rohdatei) und
+`flaecheninhalt-und-volumen-im-raum.md` (78 Zeilen, Klassen Ebene Figur und
+Körper; Vektorgeometrie plus Elementarformeln – die Namensvettern
+`flaecheninhalt-durch-integration.md` und `rotationsvolumen.md` tragen das
+Integral; der Q3-Plan nennt kein Volumen, die Anlage ohne Hilfsmittel führt
+Pyramide und Prisma trotzdem als Teil-A-Stoff). Vor Bündel 8 wurde der Befund
+aus `punkte-und-strecken-im-koordinatensystem.md` erledigt:
+`flaecheninhalt-durch-integration.md` behauptete, die Flächenformeln ebener
+Figuren stünden nicht in der Formelsammlung – [FS-IQB 1.1] führt „Maße von
+Figuren“ und „Maße von Körpern“, beide Einträge sind berichtigt
+(Befundkorrektur 2026-09-20). Zweck und
 Arbeitsteilung mit den
 Prüfungskatalogen: `konzept.md` § 3. Bis zum Umbau lag der Themenkatalog nur in Lieferzips
 der Prompt-Werkstatt, nicht im Repo.
 
-- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven, flaecheninhalt-durch-integration und punkte-und-strecken-im-koordinatensystem fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen, stammfunktion-und-hauptsatz, geraden, lagebeziehungen, skalarprodukt-und-winkel und orthogonalitaet vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen, rekonstruktion-von-bestaenden, vektoren-und-rechenoperationen und schnittmengen drei, umkehrfunktion, integrationsregeln, rotationsvolumen, uneigentliche-integrale und linearkombination-und-lineare-abhaengigkeit zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen.
+- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven, flaecheninhalt-durch-integration und punkte-und-strecken-im-koordinatensystem fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen, stammfunktion-und-hauptsatz, geraden, lagebeziehungen, skalarprodukt-und-winkel, orthogonalitaet, abstaende, scharen-von-geraden-und-ebenen und flaecheninhalt-und-volumen-im-raum vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen, rekonstruktion-von-bestaenden, vektoren-und-rechenoperationen, schnittmengen und spiegelung drei, umkehrfunktion, integrationsregeln, rotationsvolumen, uneigentliche-integrale und linearkombination-und-lineare-abhaengigkeit zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen.
 - `index.md` – Tabelle je Sek-I-Thema (Leitidee, Stufe, Klasse, P10, Status) mit Gegenlese-Verlauf und CSV-Themen-Zuordnung für Kennzahl 6 (`_pruef_struktur.py`); seit dem Sek-II-Piloten auch eine Sek-II-Tabelle (Profile, Zeilen/Typen aus `themen.csv`).
 - `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln (seit 19.09.2026 auch [GOST], [FOS], [BASICS], [COSH], [FS-IQB], [IQB-VER], [IQB-STR]).
 - `_quellenprotokoll.md` – was aus welcher Quelle gelesen wurde.

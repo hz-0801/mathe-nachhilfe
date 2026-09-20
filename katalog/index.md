@@ -46,7 +46,7 @@ vier Lerneinheiten – die Zahl ist frei, `_pruef_katalog.py` lässt E1–E9 zu)
 des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Bündel 2 „Ableitung Anwendung“, Bündel 3
 funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“,
 Bündel 5 „Integral“, Bündel 6 „Vektoren/Geraden“, Bündel 7 „Lage/Winkel“
-und Bündel 8 „Abstände/Raum“ (im Bau),
+und Bündel 8 „Abstände/Raum“ (damit ist die Analytische Geometrie vollständig),
 Stand 2026-09-20;
 Entscheidung 36
 samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
