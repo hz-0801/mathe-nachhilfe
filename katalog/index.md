@@ -47,9 +47,12 @@ des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Bündel 2 „Ableitung Anw
 funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“,
 Bündel 5 „Integral“, Bündel 6 „Vektoren/Geraden“, Bündel 7 „Lage/Winkel“
 Bündel 8 „Abstände/Raum“, Bündel 9 „Matrizen“ (damit ist das Sachgebiet
-Analytische Geometrie/Lineare Algebra vollständig) und Bündel 10 „Bedingte
+Analytische Geometrie/Lineare Algebra vollständig), Bündel 10 „Bedingte
 Wahrscheinlichkeit/Verteilungen“ (Vierfeldertafel bis hypergeometrische Verteilung,
-zwei davon Kurzformen),
+zwei davon Kurzformen) und Bündel 11 „Kenngrößen/Beurteilende Statistik“
+(Kenngrößen von Verteilungen bis Konfidenzintervalle – damit ist die
+Sek-II-Serie der Entscheidung 36 abgeschlossen: alle Sek-II-Themen der
+themen.csv haben einen Eintrag),
 Stand 2026-09-20;
 Entscheidung 36
 samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
