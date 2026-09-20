@@ -73,8 +73,8 @@ Gemeinsam:
 
 ## katalog/ – Themenkatalog
 
-49 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
-bis auf den Punkt [FS]) und zwanzig Sek-II-Einträge in der Eintragsform nach `konzept.md`
+53 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
+bis auf den Punkt [FS]) und vierundzwanzig Sek-II-Einträge in der Eintragsform nach `konzept.md`
 § 4 Entscheidung 36 (alle Entwurf, nicht gegengelesen): die drei Formproben
 `kurvenuntersuchung.md` (Pilot, Analysis, fhr/abi/iqb), `binomialverteilung.md`
 (Stochastik, abi/iqb) und `ebenen.md` (Analytische Geometrie, abi/iqb), die fünf
@@ -96,12 +96,21 @@ die sechs Einträge des Bündels 5 „Integral“ (220 Katalogzeilen – die Int
 damit vollständig): `stammfunktion-und-hauptsatz.md`, `integrationsregeln.md` (Kurzform),
 `flaecheninhalt-durch-integration.md` (124 Zeilen, das größte Integralthema, fhr/abi/iqb),
 `rekonstruktion-von-bestaenden.md`, `rotationsvolumen.md` (fhr-Pflichtform eines
-GOST-LK-Themas) und `uneigentliche-integrale.md` (Kurzform). Zweck und
+GOST-LK-Themas) und `uneigentliche-integrale.md` (Kurzform), sowie die vier Einträge
+des Bündels 6 „Vektoren/Geraden“ (140 Katalogzeilen, Auftakt der Analytischen
+Geometrie neben der Formprobe `ebenen.md`):
+`punkte-und-strecken-im-koordinatensystem.md` (83 Zeilen, das größte Thema des
+Bündels, mit den Gegenstandsklassen Punkt/Ebene Figur/Körper),
+`vektoren-und-rechenoperationen.md` (das Werkzeugthema des Sachgebiets, abi nur
+eine Zeile), `linearkombination-und-lineare-abhaengigkeit.md` (Kurzform; erster
+Eintrag mit einem Profil ganz ohne Katalogzeile – iqb prüft die Begriffe nur
+eingebettet) und `geraden.md` (die Lagebeziehungs- und Schnittthemen folgen in
+Bündel 7). Zweck und
 Arbeitsteilung mit den
 Prüfungskatalogen: `konzept.md` § 3. Bis zum Umbau lag der Themenkatalog nur in Lieferzips
 der Prompt-Werkstatt, nicht im Repo.
 
-- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven und flaecheninhalt-durch-integration fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen und stammfunktion-und-hauptsatz vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen und rekonstruktion-von-bestaenden drei, umkehrfunktion, integrationsregeln, rotationsvolumen und uneigentliche-integrale zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen.
+- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven, flaecheninhalt-durch-integration und punkte-und-strecken-im-koordinatensystem fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen, stammfunktion-und-hauptsatz und geraden vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen, rekonstruktion-von-bestaenden und vektoren-und-rechenoperationen drei, umkehrfunktion, integrationsregeln, rotationsvolumen, uneigentliche-integrale und linearkombination-und-lineare-abhaengigkeit zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen.
 - `index.md` – Tabelle je Sek-I-Thema (Leitidee, Stufe, Klasse, P10, Status) mit Gegenlese-Verlauf und CSV-Themen-Zuordnung für Kennzahl 6 (`_pruef_struktur.py`); seit dem Sek-II-Piloten auch eine Sek-II-Tabelle (Profile, Zeilen/Typen aus `themen.csv`).
 - `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln (seit 19.09.2026 auch [GOST], [FOS], [BASICS], [COSH], [FS-IQB], [IQB-VER], [IQB-STR]).
 - `_quellenprotokoll.md` – was aus welcher Quelle gelesen wurde.
