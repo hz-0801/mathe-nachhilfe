@@ -81,6 +81,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | rotationsvolumen.md | Rotationsvolumen (Volumenformel mit Maßstab und Hohlkörpern, Deutungs- und Prüfform: Querschnittsdeutung, Abschätzungen, fremde Lösungswege) | Analysis (fhr: Integralrechnung „Rotationsvolumen um die x-Achse“ als Pflichtform; nach GOST-Plan und Anlage Leistungskursstoff) | fhr 4/1 · abi 4/3 · iqb 5/5 | Entwurf |
 | uneigentliche-integrale.md | Uneigentliche Integrale (Grenzwertbegriff, Näherungsdeutung mit vernachlässigbarer Restfläche) – Kurzform | Analysis (fhr: kein Stoff nach RLP FOS 2019; nach GOST-Plan Leistungskursstoff) | abi 1/1 · iqb 1/1 | Entwurf |
 | punkte-und-strecken-im-koordinatensystem.md | Punkte und Strecken im Koordinatensystem (Punkte darstellen und Lage lesen; Streckenlängen, Mittelpunkt und Teilpunkte; Dreiecke nachweisen; Vierecke nachweisen; Körper und Drehungen) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg – RLP FOS 2019 Wahlthema 5, keine Zeile im fhr-Katalog) | abi 24/22 · iqb 59/50 | Entwurf |
+| vektoren-und-rechenoperationen.md | Vektoren und Rechenoperationen (Vektorbegriff, Betrag und Kollinearität; Vektorterme am Körper; Skalarprodukt im Sachzusammenhang) | Analytische Geometrie (fhr: Wahlstoff ohne Prüfungsbeleg – RLP FOS 2019 Wahlthema 5, keine Zeile im fhr-Katalog) | abi 1/1 · iqb 19/16 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
