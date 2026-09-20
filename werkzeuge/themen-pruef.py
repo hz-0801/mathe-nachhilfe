@@ -1,6 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-themen-pruef.py v0.1 · 19.09.2026 · Prüfung der Themenkonkordanz themen.csv
+themen-pruef.py v0.2 · 20.09.2026 · Prüfung der Themenkonkordanz themen.csv
+
+Änderungen gegenüber 0.1 (Auftrag E37 abschließen, 20.09.2026): Prüfung 4
+kennt die Namensregel der Entscheidung 37 (konzept.md § 4) – ein kanonischer
+Sek-II-Name, der weder Vokabular- noch abi/iqb-Thema ist, besteht, wenn er
+eine eigene Katalogdatei hat (erster Fall zufallsexperimente-und-pfadregeln,
+Commit 3d33427; seit b996221 mit Datei). Die Ausnahme „kombinatorik" in
+Prüfung 3 ist gestrichen: das Thema trägt seit 3d33427 Stufe II und seit
+diesem Auftrag eine Katalogdatei.
 
 Prüft themen.csv (Repo-Wurzel) gegen die fünf Katalogdateien, den Themenkatalog
 katalog/ und die Themenliste in abitur/abitur-vokabular.md § 2. Liest nur,
@@ -13,11 +21,14 @@ katalog/ und die Themenliste in abitur/abitur-vokabular.md § 2. Liest nur,
      Katalog überein (typen = verschiedene Werte in typ).
   3. Jede Datei katalog/*.md ohne führenden Unterstrich und ohne index.md
      kommt als kanonisch vor, und jeder kanonisch mit Stufe I hat eine
-     Katalogdatei – außer funktionen-allgemein und kombinatorik.
+     Katalogdatei – außer funktionen-allgemein.
   4. Jeder kanonisch mit Stufe II ist ein Thema aus abitur-vokabular.md
      (Umschrift: Kleinschreibung, ä→ae ö→oe ü→ue ß→ss, alles andere als
-     Buchstabe oder Ziffer wird zum Bindestrich) oder hat eine abi/iqb-Zeile,
-     deren Thema in dieser Umschrift der kanonische Schlüssel ist.
+     Buchstabe oder Ziffer wird zum Bindestrich), hat eine abi/iqb-Zeile,
+     deren Thema in dieser Umschrift der kanonische Schlüssel ist, oder hat
+     eine eigene Katalogdatei (Entscheidung 37: eigener Sek-II-Eintrag unter
+     eigenem kanonischem Thema; ohne Datei bleibt ein solcher Name eine
+     Abweichung, bis der Eintrag gebaut ist).
 
 Stufe I+II zählt für 3 und 4. Ausgabe je Prüfung „bestanden" oder die
 Abweichungen; Rückgabewert 0 nur, wenn alle vier bestehen.
@@ -33,7 +44,7 @@ import re
 import sys
 
 HIER = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Repo-Wurzel; Skript liegt in werkzeuge/
-VERSION = "themen-pruef.py v0.1"
+VERSION = "themen-pruef.py v0.2"
 KONKORDANZ = "themen.csv"
 KATALOGE = collections.OrderedDict([
     ("msa", ["msa/msa-katalog-basis.csv", "msa/msa-katalog-kontext.csv"]),
@@ -43,7 +54,7 @@ KATALOGE = collections.OrderedDict([
 ])
 KATALOG_ORDNER = "katalog"
 VOKABULAR = "abitur/abitur-vokabular.md"
-OHNE_KATALOGDATEI = {"funktionen-allgemein", "kombinatorik"}
+OHNE_KATALOGDATEI = {"funktionen-allgemein"}  # v0.2: kombinatorik hat seit 20.09.2026 eine Datei (Stufe II)
 KOPF = ["kanonisch", "stufe", "profil", "leitidee", "thema", "zeilen", "typen", "bemerkung"]
 UMLAUTE = {"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"}
 
@@ -141,6 +152,7 @@ def main():
             befunde["3 Sek I"].append(f"kanonisch mit Stufe I ohne Katalogdatei: {name}")
 
     # ---- 4 Sek II: kanonisch mit Stufe II <-> Themenliste des Vokabulars
+    # (oder eigene Katalogdatei nach Entscheidung 37, v0.2)
     vokabular = {umschrift(t) for t in vokabular_themen()}
     for name, zs in kanonisch.items():
         stufen = {s.strip() for z in zs for s in z["stufe"].split("+")}
@@ -150,7 +162,9 @@ def main():
             continue
         if any(z["profil"] in ("abi", "iqb") and umschrift(z["thema"]) == name for z in zs):
             continue
-        befunde["4 Sek II"].append(f"kanonisch mit Stufe II weder Vokabularthema noch abi/iqb-Thema: {name}")
+        if name in dateien:
+            continue  # Entscheidung 37: eigener Sek-II-Eintrag unter eigenem kanonischem Namen
+        befunde["4 Sek II"].append(f"kanonisch mit Stufe II weder Vokabularthema noch abi/iqb-Thema noch Katalogdatei: {name}")
 
     # ---- Ausgabe
     print(f"{VERSION}: {len(zeilen)} Zeilen in {KONKORDANZ}, {len(kanonisch)} kanonische Themen, "

@@ -73,8 +73,9 @@ Gemeinsam:
 
 ## katalog/ – Themenkatalog
 
-72 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
-bis auf den Punkt [FS]) und dreiundvierzig Sek-II-Einträge in der Eintragsform nach `konzept.md`
+73 Einträge, Stand 2026-09-20: 29 Sek-I-Einträge (Stand 2026-09-11j, gegengelesen
+bis auf den Punkt [FS]; drei davon seit dem 20.09.2026 mit einem Sek-II-Teil nach
+Entscheidung 37, siehe unten) und vierundvierzig Sek-II-Einträge in der Eintragsform nach `konzept.md`
 § 4 Entscheidung 36 (alle Entwurf, nicht gegengelesen): die drei Formproben
 `kurvenuntersuchung.md` (Pilot, Analysis, fhr/abi/iqb), `binomialverteilung.md`
 (Stochastik, abi/iqb) und `ebenen.md` (Analytische Geometrie, abi/iqb), die fünf
@@ -184,14 +185,33 @@ größte Einzelthema des Katalogs und Trägerthema von neun Stochastik-Einträge
 Lerneinheiten entlang der Baumtypen der Fachdidaktik-Quelle [FD-BAUM] – Ereignisse als
 Mengen, Laplace, unabhängige Stufen, ohne Zurücklegen, Mammutbäume, Situationsbäume,
 Term und Ereignis, Rückwärts; der Sek-I-Eintrag `wahrscheinlichkeit.md` bleibt
-unverändert und wird als Blatt 0 verwiesen; die Kombinatorik ist als Voraussetzung
-genannt, `kombinatorik.md` folgt; Befund: neun Einträge verweisen als Blatt 0 auf den
+unverändert und wird als Blatt 0 verwiesen; Befund: neun Einträge verweisen als Blatt 0 auf den
 Sek-I-Eintrag, vier davon müssten auf den neuen zeigen – nur geprüft, nicht geändert).
+Am selben Tag der zweite und letzte Neubau nach Entscheidung 37: `kombinatorik.md`
+(32 Katalogzeilen aus fhr, abi und iqb; drei Lerneinheiten – Zählprinzip und
+Anordnungen, Auswahlen und Binomialkoeffizient, Zählen mit Bedingungen und
+Wahrscheinlichkeitsterme; Vollform, die Kurzform trägt 32 Zeilen in 18 Typen nicht;
+Voraussetzung von `zufallsexperimente-und-pfadregeln.md` und `binomialverteilung.md`,
+deren Verweise seitdem auf seine Einheiten 1 und 2 zeigen; der Sek-I-Anteil des Zählens
+bleibt in `wahrscheinlichkeit.md` Einheit 1; Befund: alle vier abi-Zeilen sind
+Pooldubletten, das fhr-Thema ist Prüfungsschwerpunkt nur 2026/27 und trotzdem seit 2019
+jährlich geprüft), dazu die drei nach Entscheidung 37 erweiterten Sek-I-Einträge –
+`daten.md` (Einheit 6 neu: Kenngrößen aus Häufigkeitstabellen und Klassen, 30
+Sek-II-Zeilen, fast alle fhr), `lineare-gleichungssysteme.md` (Einheit 5 neu: drei
+Variablen, Lösbarkeit mit Parameter, Lösungsscharen; 14 Poolzeilen, alle Teil A) und
+`einheiten.md` (keine neue Einheit: der Maßstab des Koordinatensystems in den Einheiten
+1, 3 und 4; 9 fhr-Zeilen) – je mit einem Abschnitt „Prüfungsform (fhr / abi / iqb)“,
+Auswendig-Zeilen in den betroffenen Kästen, Stufe „Sek I + II“ und unveränderter
+P10-Prüfungsform (einzige Ausnahme: die Zuordnungszeile nennt die neue Einheit als
+„kein P10-Typ“, weil `_pruef_struktur.py` das verlangt). Damit ist Entscheidung 37
+abgeschlossen: Kennzahl 5 steht auf 23 von 2883 (von 345 vor der Entscheidung); die 23
+liegen in fertigen Einträgen (18 in kurvenuntersuchung, fünf Einzelzeilen in terme,
+prozentrechnung, extrem-und-sattelpunkte und wendepunkte) und werden getrennt geklärt.
 Zweck und Arbeitsteilung mit den
 Prüfungskatalogen: `konzept.md` § 3. Bis zum Umbau lag der Themenkatalog nur in Lieferzips
 der Prompt-Werkstatt, nicht im Repo.
 
-- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (zufallsexperimente-und-pfadregeln acht, funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven, flaecheninhalt-durch-integration, punkte-und-strecken-im-koordinatensystem und matrizen-und-uebergangsprozesse fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen, stammfunktion-und-hauptsatz, geraden, lagebeziehungen, skalarprodukt-und-winkel, orthogonalitaet, abstaende, scharen-von-geraden-und-ebenen, flaecheninhalt-und-volumen-im-raum und kenngroessen-von-verteilungen vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen, rekonstruktion-von-bestaenden, vektoren-und-rechenoperationen, schnittmengen, spiegelung, bedingte-wahrscheinlichkeit-und-bayes, unabhaengigkeit, normalverteilung-und-sigma-regeln, hypothesentests und konfidenzintervalle drei, umkehrfunktion, integrationsregeln, rotationsvolumen, uneigentliche-integrale, linearkombination-und-lineare-abhaengigkeit, vierfeldertafel, zufallsgroessen-und-verteilungen und hypergeometrische-verteilung zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen.
+- je Thema eine Datei (`bruchrechnung.md`, `prozentrechnung.md` …): Lerneinheiten, Voraussetzungen, Grundvorstellung, Sprossen, Merkkasten, Fehlerquellen, Zielmarke; Sek-II-Einträge mit Prüfungsform je Profil (fhr / abi / iqb) aus der Rohdatei `rohdaten/<kanonisch>.md`, Zahl der Lerneinheiten frei (zufallsexperimente-und-pfadregeln acht, funktionsklassen-und-eigenschaften sechs, kurvenuntersuchung, binomialverteilung, tangente-normale-schnittwinkel, funktionsscharen-und-ortskurven, flaecheninhalt-durch-integration, punkte-und-strecken-im-koordinatensystem und matrizen-und-uebergangsprozesse fünf, ebenen, ableitung-und-aenderungsrate, gleichungen-loesen, stammfunktion-und-hauptsatz, geraden, lagebeziehungen, skalarprodukt-und-winkel, orthogonalitaet, abstaende, scharen-von-geraden-und-ebenen, flaecheninhalt-und-volumen-im-raum und kenngroessen-von-verteilungen vier, ableitungsregeln, grenzwerte-und-verhalten-im-unendlichen, extremalprobleme, rekonstruktion-von-funktionsgleichungen, rekonstruktion-von-bestaenden, vektoren-und-rechenoperationen, schnittmengen, spiegelung, bedingte-wahrscheinlichkeit-und-bayes, unabhaengigkeit, normalverteilung-und-sigma-regeln, hypothesentests, konfidenzintervalle und kombinatorik drei, umkehrfunktion, integrationsregeln, rotationsvolumen, uneigentliche-integrale, linearkombination-und-lineare-abhaengigkeit, vierfeldertafel, zufallsgroessen-und-verteilungen und hypergeometrische-verteilung zwei; der Verweiseintrag ableitungsgraph-und-funktionsgraph ohne eigene Einheiten; die erweiterten Sek-I-Einträge nach Entscheidung 37: daten sechs, lineare-gleichungssysteme fünf, einheiten vier Einheiten). Jeder Merkkasten eines Sek-II-Eintrags trägt seit dem 19.09.2026 eine Zeile „Auswendig (Teil A):" (Entscheidung 36, Kastenform), die nennt, welche Kastenteile laut Anlage ohne Hilfsmittel ohne Rechner und Formelsammlung sitzen müssen; in den erweiterten Sek-I-Einträgen tragen sie die Kästen, die Sek-II-Zeilen betreffen.
 - `index.md` – Tabelle je Sek-I-Thema (Leitidee, Stufe, Klasse, P10, Status) mit Gegenlese-Verlauf und CSV-Themen-Zuordnung für Kennzahl 6 (`_pruef_struktur.py`); seit dem Sek-II-Piloten auch eine Sek-II-Tabelle (Profile, Zeilen/Typen aus `themen.csv`).
 - `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln (seit 19.09.2026 auch [GOST], [FOS], [BASICS], [COSH], [FS-IQB], [IQB-VER], [IQB-STR]; seit 20.09.2026 die Fachdidaktik-Quelle [FD-BAUM], Bartz 2008, Baumtypen als Gliederungsraster).
 - `_quellenprotokoll.md` – was aus welcher Quelle gelesen wurde.
@@ -236,7 +256,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `band-anleitung.md`, `band-bau.py`, `fhr-band-struktur.py`, `fhr-band.csv` – Sammelbände aus den Originalseiten.
 - `korpus-bau.py`, `korpus-protokoll.md` – Markdown-Korpus und OCR der Prüfungshefte.
 - `themen-inventar.py`, `themen-inventar.md` – Themennamen aller vier Prüfungskataloge gezählt; Vorstufe der Themenkonkordanz.
-- `themen-pruef.py` – prüft `themen.csv` gegen Kataloge, `katalog/` und Vokabular; nach jeder Katalogänderung ausführen, Rückgabewert 0 nur bei bestandener Prüfung.
+- `themen-pruef.py` – prüft `themen.csv` gegen Kataloge, `katalog/` und Vokabular; nach jeder Katalogänderung ausführen, Rückgabewert 0 nur bei bestandener Prüfung (v0.2 seit 20.09.2026: Prüfung 4 lässt einen kanonischen Sek-II-Namen mit eigener Katalogdatei zu – Namensregel der Entscheidung 37).
 - `rohdatei-bau.py` – schreibt je kanonischem Thema `rohdaten/<kanonisch>.md` aus `themen.csv` und den Katalogen; ohne Argument alle Themen mit Katalogzeilen.
 
 ## archiv/ – eingefroren
