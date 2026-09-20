@@ -44,7 +44,8 @@ Einträge, Stand 2026-09-19: `kurvenuntersuchung.md`, Pilot der Sek-II-Eintragsf
 iqb, kein fhr), `ebenen.md`, Formprobe für die Analytische Geometrie (abi und iqb, kein fhr;
 vier Lerneinheiten – die Zahl ist frei, `_pruef_katalog.py` lässt E1–E9 zu), und die Einträge
 des Serienbaus (Bündel 1 „Ableitung Grundlagen“, Bündel 2 „Ableitung Anwendung“, Bündel 3
-funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“,
+funktionsklassen-und-eigenschaften als einzelnes Thema mit 200 Zeilen, Bündel 4 „Scharen“
+und Bündel 5 „Integral“,
 Stand 2026-09-20;
 Entscheidung 36
 samt Straffung, Kastenform und – seit Bündel 2 – der Eintragsart Verweiseintrag: eigener Kopf,
@@ -73,6 +74,7 @@ Dateiname ohne `.md`). Jeder Merkkasten trägt seit dem 19.09.2026 eine Zeile �
 | funktionsklassen-und-eigenschaften.md | Funktionsklassen und Eigenschaften (Funktionswert und Punkt, Nullstellenverfahren, Definitions- und Wertebereich, Symmetrie, Transformationen, Graph zeichnen und zuordnen) | Analysis (fhr: Differentialrechnung „Graph zeichnen und zuordnen“, „Nullstellen ganzrationaler Funktionen“, „Symmetrie nachweisen“ – Transformationen kein Stoff nach RLP FOS 2019) | fhr 48/18 · abi 53/33 · iqb 99/73 | Entwurf |
 | funktionsscharen-und-ortskurven.md | Funktionsscharen und Ortskurven (Scharbegriff und Parameterwert, Eigenschaften aller Graphen am Term, Extrem- und Wendepunkte mit Parameter, Parameter aus Bedingungen, Ortskurve und Kurvenvergleich) | Analysis (fhr: kein Stoff nach RLP FOS 2019; nach GOST-Plan Leistungskursstoff, der Pool prüft grundlegend in Teil B) | abi 56/46 · iqb 86/76 | Entwurf |
 | rekonstruktion-von-funktionsgleichungen.md | Rekonstruktion von Funktionsgleichungen (Steckbriefaufgaben: Ansatz und Punktbedingungen, Bedingungen mit Ableitung, Sonderansätze und Modellkritik) | Analysis (fhr: Differentialrechnung „Funktionsgleichung bestimmen“; FOS Pflichtthema 1 „Rekonstruktion von Parabelgleichungen“ und Pflichtthema 2 „Bestimmung von ganzrationalen Funktionsgleichungen bis 5. Grades“) | fhr 10/5 · abi 15/11 · iqb 10/10 | Entwurf |
+| stammfunktion-und-hauptsatz.md | Stammfunktion und Hauptsatz (Stammfunktion nachweisen und bilden, Hauptsatz und bestimmtes Integral, Graphenblick F' = f, Integralfunktion) | Analysis (fhr: Stoff nach RLP FOS 2019 Pflichtthema 3, aber keine eigene Zeile im fhr-Katalog – Stammfunktionen nur als Rechenschritt der Flächenaufgaben) | abi 21/15 · iqb 31/21 | Entwurf |
 
 Die Gliederungsentwürfe unter „Gymnasiale Oberstufe“ und „Fachoberschule“ unten sind älter als
 Entscheidung 36 (Dateinamen `gost-*.md`/`fos-*.md`, nicht die kanonischen Namen aus `themen.csv`)
