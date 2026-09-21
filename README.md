@@ -217,7 +217,8 @@ der Prompt-Werkstatt, nicht im Repo.
 - `_quellen.md` – Zweck, Aufbau, Notation je Thema, Quellenregister mit Kürzeln (seit 19.09.2026 auch [GOST], [FOS], [BASICS], [COSH], [FS-IQB], [IQB-VER], [IQB-STR]; seit 20.09.2026 die Fachdidaktik-Quelle [FD-BAUM], Bartz 2008, Baumtypen als Gliederungsraster).
 - `_quellenprotokoll.md` – was aus welcher Quelle gelesen wurde.
 - `_formelsammlung.md` – Prüfliste [FS]; steht zur Streichung (Abschnittsverweis nicht haltbar, Adresse der Formelsammlung nicht feststellbar).
-- `_pruef_katalog.py`, `_pruef_struktur.py` – Prüfskripte (Sek-II-Modus: Zählzeile und Profillisten gegen `themen.csv`, Einheitsnummern E1–E9); `_suche_quelle.py` – Suche in den zweispaltigen Quellentexten.
+- `_tragfaehigkeit.md` – Tragfähigkeit der Themen (seit 21.09.2026): wie oft ein Thema in den Blatt-0-Abschnitten der anderen Einträge vorausgesetzt wird (Tabelle A, mit eigenen Katalogzeilen und Nachfragern), wie viele Themen ein Eintrag voraussetzt (Tabelle B), Messlücken; abgeleitet von `werkzeuge/tragfaehigkeit.py`, nie von Hand ändern. Öffnen, wenn die Reihenfolge der Blätter geplant wird – als Rangliste, nicht als Absolutwert.
+- `_pruef_katalog.py`, `_pruef_struktur.py` – Prüfskripte (Sek-II-Modus: Zählzeile und Profillisten gegen `themen.csv`, Einheitsnummern E1–E9; `_pruef_struktur.py` gibt die Kennzahlen 1–7 aus, Kennzahl 7 „Einträge ohne Verweis in Blatt 0“ seit 21.09.2026 mit der Zählregel aus `werkzeuge/tragfaehigkeit.py`); `_suche_quelle.py` – Suche in den zweispaltigen Quellentexten.
 
 Kastenform entschieden (19.09.2026, Entscheidung 36 „Kastenform"): Arbeitskästen je Lerneinheit mit Auswendig-Zeile; der themenweite Stundenanker ist Kompositionsregel des Unterrichtsblatt-Prompts (Posten in `faellig.md` § 2). Offen: [FS]-Abschnittsverweis am PDF, Mechanik-Punkte (A4 breit/eng, Prüflisten, Prüflistenzeilen 10 und 11). Kein Blatt ist bisher aus einem Eintrag gebaut worden.
 
@@ -259,6 +260,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `themen-inventar.py`, `themen-inventar.md` – Themennamen aller vier Prüfungskataloge gezählt; Vorstufe der Themenkonkordanz.
 - `themen-pruef.py` – prüft `themen.csv` gegen Kataloge, `katalog/` und Vokabular; nach jeder Katalogänderung ausführen, Rückgabewert 0 nur bei bestandener Prüfung (v0.2 seit 20.09.2026: Prüfung 4 lässt einen kanonischen Sek-II-Namen mit eigener Katalogdatei zu – Namensregel der Entscheidung 37).
 - `rohdatei-bau.py` – schreibt je kanonischem Thema `rohdaten/<kanonisch>.md` aus `themen.csv` und den Katalogen; ohne Argument alle Themen mit Katalogzeilen.
+- `tragfaehigkeit.py` – zählt je Eintrag von `katalog/` die Verweise `<name>.md` im Abschnitt „Voraussetzungen (Blatt 0)“ und schreibt `katalog/_tragfaehigkeit.md` (Nachfrage je Thema, Einstiegshürde je Eintrag, Messlücken); nach jeder Änderung an einem Blatt-0-Abschnitt ausführen; `katalog/_pruef_struktur.py` importiert die Zählregel für Kennzahl 7.
 
 ## archiv/ – eingefroren
 

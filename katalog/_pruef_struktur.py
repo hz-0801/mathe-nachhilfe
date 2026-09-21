@@ -11,6 +11,11 @@
    und soll den einen gewollt sichtbaren Befund nicht zudecken. Bis 10g fiel diese Lücke nur von Hand
    auf (2021-OS-K6b am 10g, 2023-OS-K5c und 2024-OS-B1c am 10h). Zählt seit Auftrag Sek-II-Werkzeuge
    auch fhr-, abi- und iqb-Originale.
+6. Kennzahl 7 (seit Auftrag Tragfähigkeit, 21.09.2026): Einträge, deren Abschnitt „Voraussetzungen
+   (Blatt 0)“ keinen Verweis der Form <name>.md auf einen anderen Eintrag trägt (oder den Abschnitt
+   nicht hat). Das ist bewusst nicht die Rangliste der Tragfähigkeit – die steht in _tragfaehigkeit.md
+   (werkzeuge/tragfaehigkeit.py) –, sondern das Loch in ihrer Messung: was diese Einträge voraussetzen,
+   zählt dort nicht. Die Zählregel wird von dort importiert, damit beide Zahlen dieselbe sind.
 Aufruf im Ordner katalog/: python3 _pruef_struktur.py – die CSVs werden eine Ebene darüber erwartet.
 Aufgabenstämme ohne Teilaufgabenbuchstaben (2017-OS-K7; bei iqb eine Kennung, deren Aufgabe
 Teilaufgaben hat) werden nicht geprüft.
@@ -175,3 +180,20 @@ try:
         for i, th, d in falsch: print('   ', i, '–', th, '→', d)
 except (FileNotFoundError, IndexError):
     print('Kennzahl 6 – Abschnitt „CSV-Themen und führende Dateien“ in index.md fehlt')
+
+# --- Kennzahl 7 (seit Auftrag Tragfähigkeit, 21.09.2026): Einträge ohne Verweis in Blatt 0.
+# werkzeuge/tragfaehigkeit.py zählt je Eintrag die Verweise <name>.md im Abschnitt „Voraussetzungen
+# (Blatt 0)“ und schreibt daraus die Rangliste _tragfaehigkeit.md. Ein Eintrag ohne solchen Verweis
+# (Sek-I-Form „[Thema Lineare Gleichungen, Einheit 2]“ oder gar keine Nennung) stellt dort keine
+# Nachfrage – die Rangliste bildet insoweit die eigene Schreibsorgfalt ab, nicht den Unterricht. Die
+# Kennzahl misst dieses Loch; sie wird mit derselben Zählregel erhoben (Import), nicht nachgebaut.
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'werkzeuge'))
+try:
+    import tragfaehigkeit
+    mess = tragfaehigkeit.messe('.')
+    ohne7 = sorted(mess['ohne_verweis'] + mess['ohne_abschnitt'])
+    print(f'Kennzahl 7 – Einträge ohne Verweis in Blatt 0: {len(ohne7)} von {len(mess["eintraege"])}')
+    if '-v' in sys.argv:
+        for p in ohne7: print('   ', p + '.md')
+except ImportError:
+    print('Kennzahl 7 – werkzeuge/tragfaehigkeit.py fehlt')
