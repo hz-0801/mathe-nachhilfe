@@ -21,6 +21,12 @@
    einem Verweis, die größer sind als die Zahl der Lerneinheiten der Zieldatei. Die vollständige Prüfung
    (fünf Teile, auch Namensgleichheit, Gegenrichtung und Formlücke) steht in _verweise.md
    (werkzeuge/verweis-pruef.py); hier nur, was auf null gehört. Die Zählregel wird importiert.
+8. Kennzahl 9 (seit Auftrag Belege der Blatt-0-Fertigkeiten, 21.09.2026): Fertigkeitszeilen unter
+   „Voraussetzungen (Blatt 0)“ (Zeilen „- “ vor der Zwischenzeile „Erkennungsschritte…“) ohne Verweis
+   <name>.md auf einen anderen Eintrag. Kennzahl 7 zählt Einträge, diese Kennzahl Zeilen: eine Zeile ohne
+   Ziel ist entweder eine Nennung in Wortform oder eine Fertigkeit, zu der es kein Katalogthema gibt – was
+   ihre Quellenklammer hergibt, steht in _blatt0-belege.md (werkzeuge/blatt0-belege.py). Die Zählregel
+   wird importiert.
 Aufruf im Ordner katalog/: python3 _pruef_struktur.py – die CSVs werden eine Ebene darüber erwartet.
 Aufgabenstämme ohne Teilaufgabenbuchstaben (2017-OS-K7; bei iqb eine Kennung, deren Aufgabe
 Teilaufgaben hat) werden nicht geprüft.
@@ -225,3 +231,25 @@ try:
         for z in zu_gross: print('   ', z['verweis'], z['angabe'], '←', z['quelle'] + '.md', f'({z["abschnitt"]}, Zeile {z["zeile"]}), {z["vorhanden"]} vorhanden')
 except (ImportError, FileNotFoundError, AttributeError):
     print('Kennzahl 8 – werkzeuge/verweis-pruef.py fehlt')
+
+# --- Kennzahl 9 (seit Auftrag Belege der Blatt-0-Fertigkeiten, 21.09.2026): Fertigkeitszeilen ohne Ziel.
+# werkzeuge/blatt0-belege.py zählt je Eintrag die Fertigkeitszeilen des Blatt-0-Abschnitts (vor der Zwischenzeile
+# „Erkennungsschritte…“) und davon die ohne Verweis <name>.md auf einen anderen Eintrag; für diese löst es die
+# Quellenklammer gegen die Register auf und schreibt _blatt0-belege.md. Die Kennzahl zählt nur die Zeilen ohne Ziel
+# (Nennung in Wortform oder Fertigkeit ohne Katalogthema); sie wird mit derselben Zählregel erhoben (Import über
+# den Dateipfad, weil der Skriptname einen Bindestrich trägt), nicht nachgebaut.
+try:
+    import importlib.util
+    _spec9 = importlib.util.spec_from_file_location(
+        'blatt0_belege', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'werkzeuge', 'blatt0-belege.py'))
+    blatt0_belege = importlib.util.module_from_spec(_spec9)
+    _spec9.loader.exec_module(blatt0_belege)
+    z9 = blatt0_belege.zaehle('.')
+    gezaehlt = [v for v in z9.values() if v is not None]
+    ohne9 = sorted((n, v[2]) for n, v in z9.items() if v is not None and v[2])
+    print(f'Kennzahl 9 – Fertigkeitszeilen ohne Ziel in Blatt 0: {sum(v[2] for v in gezaehlt)} von '
+          f'{sum(v[0] for v in gezaehlt)} in {len(ohne9)} Einträgen')
+    if '-v' in sys.argv:
+        for n, k in ohne9: print('   ', n + '.md', k)
+except (ImportError, FileNotFoundError, AttributeError):
+    print('Kennzahl 9 – werkzeuge/blatt0-belege.py fehlt')
