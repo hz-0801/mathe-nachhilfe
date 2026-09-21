@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-blatt0-belege.py v0.1 · 21.09.2026 · Belege der Blatt-0-Fertigkeiten ohne Ziel
+blatt0-belege.py v0.2 · 21.09.2026 · Belege der Blatt-0-Fertigkeiten ohne Ziel
+
+v0.2 (21.09.2026, Auftrag Blatt-0-Zuordnungen): die Gegenprobe steht auf 147/131/16 – der
+Auftrag hat 19 der 35 Zeilen ohne Ziel in den 22 Sek-I-Einträgen ein Ziel gegeben (Commit
+nach f6e5fc5); die Zahl der Fertigkeitszeilen (147) ist unverändert, nur die Aufteilung.
+Sonst unverändert. v0.1 (21.09.2026): erste Fassung mit Gegenprobe 147/112/35.
 
 Nach dem Auftrag „Blatt 0: Dateiverweise nachgetragen“ (Commit cfa4723) tragen 112
 Fertigkeitszeilen der Sek-I-Einträge unter „### Voraussetzungen (Blatt 0)“ einen
@@ -76,8 +81,9 @@ Register und Auflösung (soweit ein Register es hergibt; alles andere bleibt off
                      Treffers; der eigene Eintrag zählt nicht. Keine Ähnlichkeitssuche.
 
 Gegenprobe (Auftrag): in den 22 Sek-I-Einträgen des Auftrags Blatt-0-Dateiverweise
-147 Fertigkeitszeilen, 112 mit Ziel, 35 ohne. Weicht eine Zahl ab, ist die
-Abschnitts- oder Zeilenerkennung falsch – das Skript bricht dann ab und schreibt
+147 Fertigkeitszeilen, 131 mit Ziel, 16 ohne (v0.1: 112/35, vor dem Auftrag Blatt-0-
+Zuordnungen). Weicht eine Zahl ab, ist die Abschnitts- oder Zeilenerkennung falsch
+oder ein Blatt-0-Abschnitt hat sich geändert – das Skript bricht dann ab und schreibt
 nichts. Für die übrigen 51 Einträge wird gezählt und berichtet, nicht geprüft.
 
 Schreibt katalog/_blatt0-belege.md (Kopf mit Stand, Commit, Skript, Messweise;
@@ -102,7 +108,7 @@ import sys
 
 HIER = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Repo-Wurzel; Skript liegt in werkzeuge/
 WERKZEUGE = os.path.join(HIER, "werkzeuge")
-VERSION = "blatt0-belege.py v0.1"
+VERSION = "blatt0-belege.py v0.2"
 KATALOG_ORDNER = "katalog"
 KONKORDANZ = "themen.csv"
 MSA_TYPEN = "msa/msa-typen.csv"
@@ -130,7 +136,8 @@ TP = lade_modul("themen-pruef.py", "themen_pruef")  # lies_csv()
 # Die 22 Sek-I-Einträge des Auftrags „Blatt 0: Dateiverweise nachgetragen“ (21.09.2026): die 21 Dateien aus
 # archiv/ersetzungen-blatt0-2026-09-21.txt und terme.md – dieselbe Menge wie _verweise.md § 5 (Formlücke) auf
 # Commit c05e6f0, die einzigen Einträge, deren Blatt 0 damals keinen Dateiverweis trug. Der Auftrag Belege
-# nennt sie „die 22 Sek-I-Einträge“ und gibt für sie die Gegenprobe 147/112/35. Sieben weitere Einträge tragen
+# nennt sie „die 22 Sek-I-Einträge“ und gab für sie die Gegenprobe 147/112/35; seit dem Auftrag Blatt-0-Zuordnungen
+# (21.09.2026, 19 Zeilen mit neuem Ziel) gilt 147/131/16. Sieben weitere Einträge tragen
 # in der Statuszeile Stufe Sek I oder Sek I + II (potenzen-wurzeln, reelle-zahlen, trigonometrische-funktionen,
 # zinsrechnung; daten, einheiten, lineare-gleichungssysteme); sie stehen am Anfang von Teil 2.
 SEK1_AUFTRAG = ["binomische-formeln", "bruchrechnung", "brueche-dezimalzahlen", "flaechen", "koerper", "kreis",
@@ -138,7 +145,7 @@ SEK1_AUFTRAG = ["binomische-formeln", "bruchrechnung", "brueche-dezimalzahlen", 
                 "pyramide-kegel-kugel", "pythagoras", "quadratische-funktionen", "quadratische-gleichungen",
                 "rationale-zahlen", "strahlensaetze", "symmetrie-abbildungen", "terme", "trigonometrie",
                 "wahrscheinlichkeit", "winkel-dreiecke", "zuordnungen"]
-GEGENPROBE = (147, 112, 35)  # Fertigkeitszeilen, mit Ziel, ohne Ziel in den 22 Einträgen (Auftrag)
+GEGENPROBE = (147, 131, 16)  # Fertigkeitszeilen, mit Ziel, ohne Ziel in den 22 Einträgen (v0.1: 147, 112, 35)
 
 ERKENNUNG = re.compile(r"^Erkennungsschritte")            # die Zwischenzeile, ab der die Fertigkeiten enden
 FERTIGKEIT = "- "                                           # Zeilenanfang einer Fertigkeitszeile

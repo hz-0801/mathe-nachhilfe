@@ -1,15 +1,15 @@
 # Belege der Blatt-0-Fertigkeiten ohne Ziel
-Stand 2026-09-21, Katalog auf Commit 9722afb.
-Erzeugt von `werkzeuge/blatt0-belege.py` (v0.1) aus den Blatt-0-Abschnitten der Einträge, `msa/msa-typen.csv`, `msa/msa-katalog-basis.csv`, `msa/msa-katalog-kontext.csv`, `themen.csv`, `quellen/quelle-klett-fahrplan-ls-aa-berlin-2024.txt`, `quellen/quelle-rlp-teil-c-mathematik-2023.txt` und der Registerzeile [MSK] in `katalog/_quellen.md`; abgeleitet, nie von Hand ändern. Vorschlagsliste für die Fertigkeitszeilen, die keinen Dateiverweis tragen: was ihre Quellenklammer hergibt, wenn man sie gegen die Register im Repo hält. Kein Eintrag wird geändert, nichts wird entschieden; eine Zeile, deren Klammer kein Register auflöst, bleibt ohne Vorschlag – das ist ein Ergebnis, kein Mangel.
+Stand 2026-09-21, Katalog auf Commit f6e5fc5.
+Erzeugt von `werkzeuge/blatt0-belege.py` (v0.2) aus den Blatt-0-Abschnitten der Einträge, `msa/msa-typen.csv`, `msa/msa-katalog-basis.csv`, `msa/msa-katalog-kontext.csv`, `themen.csv`, `quellen/quelle-klett-fahrplan-ls-aa-berlin-2024.txt`, `quellen/quelle-rlp-teil-c-mathematik-2023.txt` und der Registerzeile [MSK] in `katalog/_quellen.md`; abgeleitet, nie von Hand ändern. Vorschlagsliste für die Fertigkeitszeilen, die keinen Dateiverweis tragen: was ihre Quellenklammer hergibt, wenn man sie gegen die Register im Repo hält. Kein Eintrag wird geändert, nichts wird entschieden; eine Zeile, deren Klammer kein Register auflöst, bleibt ohne Vorschlag – das ist ein Ergebnis, kein Mangel.
 
 Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie in `werkzeuge/tragfaehigkeit.py` (v0.1), importiert: Blatt-0-Abschnitt = „### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, Verweis = `<name>.md`. Fertigkeitszeile = Zeile des Abschnitts, die mit „- “ beginnt und vor der Zwischenzeile „Erkennungsschritte…“ steht (die Erkennungsschritte gehören dem Thema selbst). Ziel = Verweis ohne Pfad auf einen anderen vorhandenen Katalogeintrag, irgendwo in der Zeile; Selbstverweise zählen nicht. Klammer = die letzte eckige Klammer der Zeile (vermerkt, wenn sie nicht am Zeilenende steht). Bestandteile = Klammer an „;“ und „,“ zerlegt, nicht in „…“ und nicht in runden Klammern; ein Teil, der mit einer P10-Aufgabenkennung beginnt, setzt den vorigen fort, ein bloßer MSK-Code einen MSK-Teil. Sechs Sorten je Bestandteil: P10-Typ (enthält „P10“ und einen Typnamen in „…“ oder eine Aufgabenkennung), LS-AA-Kapitel („LS-AA Kl. 8 II 1“), RLP mit Zitat, RLP ohne Zitat (auch mit Zusatz ohne Anführungszeichen), MSK-Code, sonstiges oder keine Klammer. Zeilennummern zählen ab 1 in der Datei.
 
 Auflösung, soweit ein Register es hergibt: P10-Typ – Typname gegen die Spalte `typ` von `msa/msa-typen.csv`, Kennung gegen `beispiel_id`; je Treffer das Thema und über `themen.csv` (profil msa) das kanonische Thema; Kennungen zusätzlich gegen die `id`-Spalte der beiden msa-Kataloge (Thema, Typ, Nebentypen der Katalogzeile), weil die Typenliste je Typ nur eine beispiel_id führt. LS-AA-Kapitel – Fahrplan Teil 1 (Gliederung je Klasse, zweispaltig): Kapiteltitel und Titel der Lerneinheit; Teil 2 (RLP-Inhalte mit „Zu finden in Studyly“): die RLP-Blöcke (Niveaustufe, Jahrgang, Themenbereich, Bereich), unter denen das Kapitel mit dieser Lerneinheit genannt ist. RLP mit Zitat – das Zitat wird in den Spalten des RLP-Texts gesucht (mehrspaltig gesetzt; ein Block sind die Zeilen zwischen zwei Leerzeilen, darin wird jede Zelle an die Zelle der Zeile davor gehängt, mit der sie sich am weitesten überlappt – je Zelle höchstens eine Fortsetzung –, Silbentrennung wird zusammengezogen, „…“ im Zitat erlaubt eine Lücke); Fundstelle mit Zeilen des Treffers, Block, Niveaustufenbuchstabe(n) am Block (der Buchstabe steht einmal je Stufe am linken Rand, in der Mitte seiner Zeilen) und Seitenkopf – zuerst genau, sonst ohne Groß-/Kleinschreibung. Steht das Zitat nicht im Text, wird noch der längste Wortanfang gesucht (mindestens 3 Wörter und mindestens die Hälfte; nicht bei Zitaten mit Lücke) und als Teiltreffer genannt, ohne als Auflösung zu zählen. RLP ohne Zitat, MSK-Code und sonstiges werden nach Auftrag nicht aufgelöst („nicht aufzulösen“; „nicht aufgelöst“ heißt dagegen: das Register gab nichts her); beim MSK-Code steht der Bausteintitel aus `katalog/_quellen.md` dabei, soweit er dort genannt ist. Zusätzlich je Zeile: welche kanonischen Namen aus `themen.csv` der Wortlaut der Zeile ohne ihre Quellenklammer wörtlich nennt (der Name selbst mit Bindestrich als Leerzeichen und ohne Rücksicht auf Groß-/Kleinschreibung, ein `thema`-Wert seiner Zeilen oder die H1-Überschrift seiner Katalogdatei, jeweils als ganzes Wort, mit dem Umfeld des Treffers; der eigene Eintrag zählt nicht) – keine Ähnlichkeitssuche, kein Raten; ob das Wort in der Zeile das Thema meint, steht nicht hier.
 
 ## Zahlen
-Teil 1, die 22 Sek-I-Einträge des Auftrags Blatt-0-Dateiverweise (21 Dateien aus `archiv/ersetzungen-blatt0-2026-09-21.txt` und `terme.md`; dieselbe Menge wie `_verweise.md` § 5 auf Commit c05e6f0): 147 Fertigkeitszeilen, 112 mit Ziel, 35 ohne. Gegenprobe des Auftrags 147/112/35: bestanden.
+Teil 1, die 22 Sek-I-Einträge des Auftrags Blatt-0-Dateiverweise (21 Dateien aus `archiv/ersetzungen-blatt0-2026-09-21.txt` und `terme.md`; dieselbe Menge wie `_verweise.md` § 5 auf Commit c05e6f0): 147 Fertigkeitszeilen, 131 mit Ziel, 16 ohne. Gegenprobe des Auftrags 147/131/16: bestanden.
 Teil 2, die übrigen 51 Einträge: 316 Fertigkeitszeilen, 308 mit Ziel, 8 ohne – berichtet, nicht geprüft. Darunter sieben Einträge mit Stufe Sek I oder Sek I + II in der Statuszeile (potenzen-wurzeln, reelle-zahlen, trigonometrische-funktionen, zinsrechnung, daten, einheiten, lineare-gleichungssysteme); sie stehen in Teil 2 vorn.
-Bestandteile der Klammern in Teil 1 nach Sorte (Bestandteile · davon aufgelöst): P10-Typ 2 · 2; LS-AA-Kapitel 5 · 5; RLP mit Zitat 5 · 4; RLP ohne Zitat 23 · 0; MSK-Code 13 · 0; sonstiges oder keine Klammer 3 · 0. MSK-Codes mit Bausteintitel aus _quellen.md: 4.
+Bestandteile der Klammern in Teil 1 nach Sorte (Bestandteile · davon aufgelöst): P10-Typ 2 · 2; LS-AA-Kapitel 4 · 4; RLP mit Zitat 4 · 3; RLP ohne Zitat 10 · 0; MSK-Code 1 · 0; sonstiges oder keine Klammer 2 · 0. MSK-Codes mit Bausteintitel aus _quellen.md: 0.
 Bestandteile der Klammern in Teil 2 nach Sorte (Bestandteile · davon aufgelöst): P10-Typ 4 · 4; LS-AA-Kapitel 0 · 0; RLP mit Zitat 2 · 1; RLP ohne Zitat 1 · 0; MSK-Code 0 · 0; sonstiges oder keine Klammer 6 · 0. MSK-Codes mit Bausteintitel aus _quellen.md: 0.
 Einträge ohne Blatt-0-Abschnitt: keine. Einträge ohne Zwischenzeile „Erkennungsschritte…“ (der ganze Abschnitt gilt als Fertigkeitenteil): ableitungsgraph-und-funktionsgraph.
 
@@ -19,27 +19,13 @@ Reihenfolge wie in der Ersetzungsdatei (alphabetisch). Je Eintrag die Fertigkeit
 ### binomische-formeln – Stufe Sek I; 7 Fertigkeitszeilen, 7 mit Ziel, 0 ohne
 Alle Fertigkeitszeilen tragen ein Ziel.
 
-### bruchrechnung – Stufe Sek I; 6 Fertigkeitszeilen, 2 mit Ziel, 4 ohne
-- Zeile 28:
-  > - Kürzen und Erweitern; gleichwertige Brüche (zwei Drittel gleich vier Sechstel) – Einheit 1 und 3. [RLP D, MSK B2B]
-  - Klammer: `RLP D, MSK B2B` – 2 Bestandteile:
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-    - `MSK B2B` – MSK-Code, nicht aufzulösen:
-      - B2B: Bausteintitel in _quellen.md nicht genannt
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
+### bruchrechnung – Stufe Sek I; 6 Fertigkeitszeilen, 4 mit Ziel, 2 ohne
 - Zeile 29:
   > - Vielfache und Teiler (kgV von vier und sechs, ggT von zwölf und achtzehn) – Einheit 1 (Hauptnenner) und Einheit 3 (Kürzen). [RLP D, LS-AA Kl. 5 III 5]
   - Klammer: `RLP D, LS-AA Kl. 5 III 5` – 2 Bestandteile:
     - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
     - `LS-AA Kl. 5 III 5` – LS-AA-Kapitel, aufgelöst:
       - „LS-AA Kl. 5 III 5“ → Klasse 5, Kapitel III „Rechnen“, Lerneinheit 5 „Teilbarkeit“; Fahrplan-Zuordnung (Teil 2): RLP D, Jg. 5/6, Themenbereich „Zahlen und Operationen“ – Zahlvorstellungen
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 30:
-  > - Stellenwerte der Dezimalzahlen (Zehntel, Hundertstel; 0,7 = 0,70) – Einheit 2 und 4. [MSK D1A, RLP D]
-  - Klammer: `MSK D1A, RLP D` – 2 Bestandteile:
-    - `MSK D1A` – MSK-Code, nicht aufzulösen:
-      - D1A: Bausteintitel in _quellen.md nicht genannt
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
   - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
 - Zeile 31:
   > - Schriftliches Rechnen mit natürlichen Zahlen, Einmaleins – Einheit 2 und 4. [RLP D]
@@ -91,85 +77,21 @@ Alle Fertigkeitszeilen tragen ein Ziel.
 ### kreis – Stufe Sek I; 6 Fertigkeitszeilen, 6 mit Ziel, 0 ohne
 Alle Fertigkeitszeilen tragen ein Ziel.
 
-### lineare-funktionen – Stufe Sek I; 6 Fertigkeitszeilen, 1 mit Ziel, 5 ohne
-- Zeile 24:
-  > - Koordinaten lesen und eintragen, 4 Quadranten, (x|y)-Reihenfolge. [RLP E, MSK S4]
-  - Klammer: `RLP E, MSK S4` – 2 Bestandteile:
-    - `RLP E` – RLP ohne Zitat, nicht aufzulösen.
-    - `MSK S4` – MSK-Code, nicht aufzulösen:
-      - S4: Bausteintitel in _quellen.md „Diagramme“
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 25:
-  > - Proportionale Zuordnung erkennen und hochrechnen (Dreisatz). [MSK S5, RLP D/E] – für Einheit 1 und 5.
-  - Klammer: `MSK S5, RLP D/E` (nicht am Zeilenende) – 2 Bestandteile:
-    - `MSK S5` – MSK-Code, nicht aufzulösen:
-      - S5: Bausteintitel in _quellen.md nicht genannt
-    - `RLP D/E` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 26:
-  > - Negative Zahlen multiplizieren und dividieren – Steigung, Funktionswerte. [MSK N]
-  - Klammer: `MSK N` – 1 Bestandteil:
-    - `MSK N` – MSK-Code, nicht aufzulösen:
-      - N: Bausteintitel in _quellen.md nicht genannt
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 27:
-  > - Brüche als Steigung (½, −¾), Bruch mal ganze Zahl. [MSK B] – ab Einheit 2.
-  - Klammer: `MSK B` (nicht am Zeilenende) – 1 Bestandteil:
-    - `MSK B` – MSK-Code, nicht aufzulösen:
-      - B: Bausteintitel in _quellen.md nicht genannt
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 29:
-  > - Terme zusammenfassen. – für Einheit 4 (Gleichsetzen).
-  - Klammer: keine – Sorte sonstiges oder keine Klammer.
-  - themen.csv wörtlich im Wortlaut: **terme** (Name „Terme“ in „- Terme zusammenfassen. – für Einheit…“).
+### lineare-funktionen – Stufe Sek I; 6 Fertigkeitszeilen, 6 mit Ziel, 0 ohne
+Alle Fertigkeitszeilen tragen ein Ziel.
 
-### lineare-gleichungen – Stufe Sek I; 5 Fertigkeitszeilen, 2 mit Ziel, 3 ohne
-- Zeile 22:
-  > - Negative Zahlen addieren, subtrahieren, dividieren (12 : (−3)) – Lösungen und Umformungen. [MSK N, RLP D]
-  - Klammer: `MSK N, RLP D` – 2 Bestandteile:
-    - `MSK N` – MSK-Code, nicht aufzulösen:
-      - N: Bausteintitel in _quellen.md nicht genannt
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
+### lineare-gleichungen – Stufe Sek I; 5 Fertigkeitszeilen, 4 mit Ziel, 1 ohne
 - Zeile 24:
   > - Punkt vor Strich (3 · 4 − 5) – Probe und Einsetzen. [RLP D]
   - Klammer: `RLP D` – 1 Bestandteil:
     - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
   - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 26:
-  > - Brüche: Hauptnenner, Bruch mal Zahl – nur Einheit 3. [MSK B]
-  - Klammer: `MSK B` – 1 Bestandteil:
-    - `MSK B` – MSK-Code, nicht aufzulösen:
-      - B: Bausteintitel in _quellen.md nicht genannt
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
 
 ### potenz-exponentialfunktionen – Stufe Sek I; 8 Fertigkeitszeilen, 8 mit Ziel, 0 ohne
 Alle Fertigkeitszeilen tragen ein Ziel.
 
-### prozentrechnung – Stufe Sek I; 6 Fertigkeitszeilen, 2 mit Ziel, 4 ohne
-- Zeile 28:
-  > - Bruch ↔ Dezimalzahl (ein Viertel, drei Fünftel) – Einheit 1, Einheit 3 (Operator). [RLP D/E]
-  - Klammer: `RLP D/E` – 1 Bestandteil:
-    - `RLP D/E` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 29:
-  > - Bruchteil einer Größe (zwei Drittel von 60 €) – Einheit 3. [RLP D „Operator“]
-  - Klammer: `RLP D „Operator“` – 1 Bestandteil:
-    - `RLP D „Operator“` – RLP mit Zitat, aufgelöst:
-      - „Operator“ (Klammer nennt D): Zeile 1890 (Block 1871–1894), Niveaustufe am Block: D (Zeile 1885); Seitenkopf: Themenbereich „Zahlen und Operationen“ – Niveaustufen D, E | Zeile 1916 (Block 1897–1916), Niveaustufe am Block: E (Zeile 1907); Seitenkopf: Themenbereich „Zahlen und Operationen“ – Niveaustufen D, E | Zeile 2660 (Block 2656–2672), Niveaustufe am Block: C (Zeile 2664); Seitenkopf: Themenbereich „Gleichungen und Funktionen“ – Niveaustufen A, B, C
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 30:
-  > - Durch hundert teilen, mit Dezimalzahlen multiplizieren (Kommaverschiebung) – Einheit 2 bis 4. [RLP D, LS-AA Kl. 6 V 4]
-  - Klammer: `RLP D, LS-AA Kl. 6 V 4` – 2 Bestandteile:
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-    - `LS-AA Kl. 6 V 4` – LS-AA-Kapitel, aufgelöst:
-      - „LS-AA Kl. 6 V 4“ → Klasse 6, Kapitel V „Zahlen multiplizieren und dividieren“, Lerneinheit 4 „Kommaverschiebung“; Fahrplan-Zuordnung (Teil 2): RLP D, Jg. 5/6, Themenbereich „Zahlen und Operationen“ – Operationsvorstellungen und Rechenstrategien
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 32:
-  > - Runden auf eine Dezimalstelle – Einheit 2 und 5. [RLP D]
-  - Klammer: `RLP D` – 1 Bestandteil:
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
+### prozentrechnung – Stufe Sek I; 6 Fertigkeitszeilen, 6 mit Ziel, 0 ohne
+Alle Fertigkeitszeilen tragen ein Ziel.
 
 ### pyramide-kegel-kugel – Stufe Sek I; 9 Fertigkeitszeilen, 9 mit Ziel, 0 ohne
 Alle Fertigkeitszeilen tragen ein Ziel.
@@ -183,19 +105,12 @@ Alle Fertigkeitszeilen tragen ein Ziel.
 ### quadratische-gleichungen – Stufe Sek I; 8 Fertigkeitszeilen, 8 mit Ziel, 0 ohne
 Alle Fertigkeitszeilen tragen ein Ziel.
 
-### rationale-zahlen – Stufe Sek I; 5 Fertigkeitszeilen, 2 mit Ziel, 3 ohne
+### rationale-zahlen – Stufe Sek I; 5 Fertigkeitszeilen, 3 mit Ziel, 2 ohne
 - Zeile 25:
   > - Natürliche Zahlen addieren, subtrahieren, multiplizieren, dividieren im Kopf (Einmaleins) – alle Einheiten. [RLP D]
   - Klammer: `RLP D` – 1 Bestandteil:
     - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
   - themen.csv wörtlich im Wortlaut: **einheiten** (Name „Einheiten“ in „…n im Kopf (Einmaleins) – alle Einheiten.“).
-- Zeile 26:
-  > - Zahlenstrahl: Zahlen eintragen und ablesen, auch Dezimalzahlen und Brüche – Einheit 1. [RLP D, MSK D2A]
-  - Klammer: `RLP D, MSK D2A` – 2 Bestandteile:
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-    - `MSK D2A` – MSK-Code, nicht aufzulösen:
-      - D2A: Bausteintitel in _quellen.md „Nachbarzahlen und Zählen in Schritten“
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
 - Zeile 28:
   > - Punkt vor Strich und Klammern mit natürlichen Zahlen – Einheit 3 und 4. [RLP D]
   - Klammer: `RLP D` – 1 Bestandteil:
@@ -208,26 +123,7 @@ Alle Fertigkeitszeilen tragen ein Ziel.
 ### symmetrie-abbildungen – Stufe Sek I; 7 Fertigkeitszeilen, 7 mit Ziel, 0 ohne
 Alle Fertigkeitszeilen tragen ein Ziel.
 
-### terme – Stufe Sek I; 4 Fertigkeitszeilen, 0 mit Ziel, 4 ohne
-- Zeile 24:
-  > - Addieren und Subtrahieren negativer Zahlen (3 − 7, −2 − 5) – für Vorzahlen und Vorzeichen in jeder Einheit. [MSK N, RLP D]
-  - Klammer: `MSK N, RLP D` – 2 Bestandteile:
-    - `MSK N` – MSK-Code, nicht aufzulösen:
-      - N: Bausteintitel in _quellen.md nicht genannt
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 25:
-  > - Multiplizieren mit Vorzeichen ((−2) · (−3), 3 · (−4)) – für Malnehmen und Minusklammer. [RLP D/E]
-  - Klammer: `RLP D/E` – 1 Bestandteil:
-    - `RLP D/E` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 26:
-  > - Dezimalzahlen und einfache Brüche als Vorzahlen (2,5x, ½x) – nur, wenn die Einheit sie braucht. [MSK D, DB]
-  - Klammer: `MSK D, DB` – 1 Bestandteil:
-    - `MSK D, DB` – MSK-Code, nicht aufzulösen:
-      - D: Bausteintitel in _quellen.md nicht genannt
-      - DB: Bausteintitel in _quellen.md „Zusammenhang von Dezimalzahlen und Brüchen“
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
+### terme – Stufe Sek I; 4 Fertigkeitszeilen, 3 mit Ziel, 1 ohne
 - Zeile 27:
   > - Punkt vor Strich mit Zahlen (Zahl minus Produkt) – ab Einheit 2 (Produkt mit Vorzahl plus gleichartiges Glied) und Einheit 3. [RLP D]
   - Klammer: `RLP D` – 1 Bestandteil:
@@ -272,21 +168,9 @@ Alle Fertigkeitszeilen tragen ein Ziel.
       - „LS-AA Kl. 5 II 5“ → Klasse 5, Kapitel II „Symmetrie“, Lerneinheit 5 „Eigenschaften von Vielecken“; Fahrplan-Zuordnung (Teil 2): RLP D, Jg. 5/6, Themenbereich „Raum und Form“ – Geometrische Objekte
   - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
 
-### zuordnungen – Stufe Sek I; 5 Fertigkeitszeilen, 2 mit Ziel, 3 ohne
-- Zeile 25:
-  > - Multiplizieren und Dividieren mit Dezimalzahlen (Preis geteilt durch Stückzahl, Preis mal Stückzahl) – Einheit 2 bis 4. [MSK S5A Diagnose, RLP D]
-  - Klammer: `MSK S5A Diagnose, RLP D` – 2 Bestandteile:
-    - `MSK S5A Diagnose` – MSK-Code, nicht aufzulösen:
-      - S5A: Bausteintitel in _quellen.md „Proportionale Zusammenhänge“
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
+### zuordnungen – Stufe Sek I; 5 Fertigkeitszeilen, 4 mit Ziel, 1 ohne
 - Zeile 26:
   > - Vielfache und Teiler erkennen (zwölf ist das Dreifache von vier) – Einheit 2 und 3. [RLP D]
-  - Klammer: `RLP D` – 1 Bestandteil:
-    - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
-  - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.
-- Zeile 28:
-  > - Bruchteil einer Größe (die Hälfte, ein Viertel von 12 €) – Einheit 2. [RLP D]
   - Klammer: `RLP D` – 1 Bestandteil:
     - `RLP D` – RLP ohne Zitat, nicht aufzulösen.
   - themen.csv: kein kanonischer Name, kein thema-Wert und keine H1 wörtlich im Wortlaut.

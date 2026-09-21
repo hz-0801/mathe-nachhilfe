@@ -23,7 +23,7 @@ Einheit 4: Rechenvorteile (Tauschen, geschickt zusammenfassen) · Plus- und Minu
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
 - Natürliche Zahlen addieren, subtrahieren, multiplizieren, dividieren im Kopf (Einmaleins) – alle Einheiten. [RLP D]
-- Zahlenstrahl: Zahlen eintragen und ablesen, auch Dezimalzahlen und Brüche – Einheit 1. [RLP D, MSK D2A]
+- Zahlenstrahl: Zahlen eintragen und ablesen, auch Dezimalzahlen und Brüche – Einheit 1. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 5. [RLP D, MSK D2A]
 - Dezimalzahlen und Brüche addieren, subtrahieren, multiplizieren (Kommazahlen addieren, Bruch mal ganze Zahl) – Einheit 2 und 3. Thema Bruchrechnung (bruchrechnung.md). [RLP D]
 - Punkt vor Strich und Klammern mit natürlichen Zahlen – Einheit 3 und 4. [RLP D]
 - Wert eines Terms mit Platzhalter berechnen (Vorzahl mal x plus Zahl, für einen gegebenen Einsetzwert) – Einheit 3 und 4. Thema Terme (terme.md). [RLP D]

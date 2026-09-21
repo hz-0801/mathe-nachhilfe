@@ -1,0 +1,100 @@
+DATEI bruchrechnung.md
+ZEILE 28
+ALT - Kürzen und Erweitern; gleichwertige Brüche (zwei Drittel gleich vier Sechstel) – Einheit 1 und 3. [RLP D, MSK B2B]
+NEU - Kürzen und Erweitern; gleichwertige Brüche (zwei Drittel gleich vier Sechstel) – Einheit 1 und 3. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 2. [RLP D, MSK B2B]
+----
+DATEI bruchrechnung.md
+ZEILE 30
+ALT - Stellenwerte der Dezimalzahlen (Zehntel, Hundertstel; 0,7 = 0,70) – Einheit 2 und 4. [MSK D1A, RLP D]
+NEU - Stellenwerte der Dezimalzahlen (Zehntel, Hundertstel; 0,7 = 0,70) – Einheit 2 und 4. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 4. [MSK D1A, RLP D]
+----
+DATEI lineare-funktionen.md
+ZEILE 24
+ALT - Koordinaten lesen und eintragen, 4 Quadranten, (x|y)-Reihenfolge. [RLP E, MSK S4]
+NEU - Koordinaten lesen und eintragen, 4 Quadranten, (x|y)-Reihenfolge. Thema Symmetrie, Abbildungen und Koordinatensystem (symmetrie-abbildungen.md), Einheit 1. [RLP E, MSK S4]
+----
+DATEI lineare-funktionen.md
+ZEILE 25
+ALT - Proportionale Zuordnung erkennen und hochrechnen (Dreisatz). [MSK S5, RLP D/E] – für Einheit 1 und 5.
+NEU - Proportionale Zuordnung erkennen und hochrechnen (Dreisatz). [MSK S5, RLP D/E] – für Einheit 1 und 5. Thema Zuordnungen (zuordnungen.md), Einheit 2.
+----
+DATEI lineare-funktionen.md
+ZEILE 26
+ALT - Negative Zahlen multiplizieren und dividieren – Steigung, Funktionswerte. [MSK N]
+NEU - Negative Zahlen multiplizieren und dividieren – Steigung, Funktionswerte. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 3. [MSK N]
+----
+DATEI lineare-funktionen.md
+ZEILE 27
+ALT - Brüche als Steigung (½, −¾), Bruch mal ganze Zahl. [MSK B] – ab Einheit 2.
+NEU - Brüche als Steigung (½, −¾), Bruch mal ganze Zahl. [MSK B] – ab Einheit 2. Thema Bruchrechnung (bruchrechnung.md), Einheit 3.
+----
+DATEI lineare-funktionen.md
+ZEILE 29
+ALT - Terme zusammenfassen. – für Einheit 4 (Gleichsetzen).
+NEU - Terme zusammenfassen. – für Einheit 4 (Gleichsetzen). Thema Terme (terme.md), Einheit 2.
+----
+DATEI lineare-gleichungen.md
+ZEILE 22
+ALT - Negative Zahlen addieren, subtrahieren, dividieren (12 : (−3)) – Lösungen und Umformungen. [MSK N, RLP D]
+NEU - Negative Zahlen addieren, subtrahieren, dividieren (12 : (−3)) – Lösungen und Umformungen. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 2 und 3. [MSK N, RLP D]
+----
+DATEI lineare-gleichungen.md
+ZEILE 26
+ALT - Brüche: Hauptnenner, Bruch mal Zahl – nur Einheit 3. [MSK B]
+NEU - Brüche: Hauptnenner, Bruch mal Zahl – nur Einheit 3. Thema Bruchrechnung (bruchrechnung.md), Einheit 1 und 3. [MSK B]
+----
+DATEI prozentrechnung.md
+ZEILE 28
+ALT - Bruch ↔ Dezimalzahl (ein Viertel, drei Fünftel) – Einheit 1, Einheit 3 (Operator). [RLP D/E]
+NEU - Bruch ↔ Dezimalzahl (ein Viertel, drei Fünftel) – Einheit 1, Einheit 3 (Operator). Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 4. [RLP D/E]
+----
+DATEI prozentrechnung.md
+ZEILE 29
+ALT - Bruchteil einer Größe (zwei Drittel von 60 €) – Einheit 3. [RLP D „Operator“]
+NEU - Bruchteil einer Größe (zwei Drittel von 60 €) – Einheit 3. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 1. [RLP D „Operator“]
+----
+DATEI prozentrechnung.md
+ZEILE 30
+ALT - Durch hundert teilen, mit Dezimalzahlen multiplizieren (Kommaverschiebung) – Einheit 2 bis 4. [RLP D, LS-AA Kl. 6 V 4]
+NEU - Durch hundert teilen, mit Dezimalzahlen multiplizieren (Kommaverschiebung) – Einheit 2 bis 4. Thema Bruchrechnung (bruchrechnung.md), Einheit 4. [RLP D, LS-AA Kl. 6 V 4]
+----
+DATEI prozentrechnung.md
+ZEILE 32
+ALT - Runden auf eine Dezimalstelle – Einheit 2 und 5. [RLP D]
+NEU - Runden auf eine Dezimalstelle – Einheit 2 und 5. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 5. [RLP D]
+----
+DATEI rationale-zahlen.md
+ZEILE 26
+ALT - Zahlenstrahl: Zahlen eintragen und ablesen, auch Dezimalzahlen und Brüche – Einheit 1. [RLP D, MSK D2A]
+NEU - Zahlenstrahl: Zahlen eintragen und ablesen, auch Dezimalzahlen und Brüche – Einheit 1. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 5. [RLP D, MSK D2A]
+----
+DATEI terme.md
+ZEILE 24
+ALT - Addieren und Subtrahieren negativer Zahlen (3 − 7, −2 − 5) – für Vorzahlen und Vorzeichen in jeder Einheit. [MSK N, RLP D]
+NEU - Addieren und Subtrahieren negativer Zahlen (3 − 7, −2 − 5) – für Vorzahlen und Vorzeichen in jeder Einheit. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 2. [MSK N, RLP D]
+----
+DATEI terme.md
+ZEILE 25
+ALT - Multiplizieren mit Vorzeichen ((−2) · (−3), 3 · (−4)) – für Malnehmen und Minusklammer. [RLP D/E]
+NEU - Multiplizieren mit Vorzeichen ((−2) · (−3), 3 · (−4)) – für Malnehmen und Minusklammer. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 3. [RLP D/E]
+----
+DATEI terme.md
+ZEILE 26
+ALT - Dezimalzahlen und einfache Brüche als Vorzahlen (2,5x, ½x) – nur, wenn die Einheit sie braucht. [MSK D, DB]
+NEU - Dezimalzahlen und einfache Brüche als Vorzahlen (2,5x, ½x) – nur, wenn die Einheit sie braucht. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md). [MSK D, DB]
+----
+DATEI zuordnungen.md
+ZEILE 25
+ALT - Multiplizieren und Dividieren mit Dezimalzahlen (Preis geteilt durch Stückzahl, Preis mal Stückzahl) – Einheit 2 bis 4. [MSK S5A Diagnose, RLP D]
+NEU - Multiplizieren und Dividieren mit Dezimalzahlen (Preis geteilt durch Stückzahl, Preis mal Stückzahl) – Einheit 2 bis 4. Thema Bruchrechnung (bruchrechnung.md), Einheit 4. [MSK S5A Diagnose, RLP D]
+----
+DATEI zuordnungen.md
+ZEILE 28
+ALT - Bruchteil einer Größe (die Hälfte, ein Viertel von 12 €) – Einheit 2. [RLP D]
+NEU - Bruchteil einer Größe (die Hälfte, ein Viertel von 12 €) – Einheit 2. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 1. [RLP D]
+----
+DATEI zinsrechnung.md
+ZEILE 27
+ALT Thema Potenzen und Wurzeln, Einheit 1 und Blatt 0 dort.
+NEU Thema Potenzen und Wurzeln (potenzen-wurzeln.md), Einheit 1 und Blatt 0 dort.
+----

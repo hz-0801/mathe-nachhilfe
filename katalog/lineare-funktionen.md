@@ -21,12 +21,12 @@ Einheit 5: Lineare Funktion aus Sachverhalt aufstellen · Gleichung zu Tarif zuo
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Koordinaten lesen und eintragen, 4 Quadranten, (x|y)-Reihenfolge. [RLP E, MSK S4]
-- Proportionale Zuordnung erkennen und hochrechnen (Dreisatz). [MSK S5, RLP D/E] – für Einheit 1 und 5.
-- Negative Zahlen multiplizieren und dividieren – Steigung, Funktionswerte. [MSK N]
-- Brüche als Steigung (½, −¾), Bruch mal ganze Zahl. [MSK B] – ab Einheit 2.
+- Koordinaten lesen und eintragen, 4 Quadranten, (x|y)-Reihenfolge. Thema Symmetrie, Abbildungen und Koordinatensystem (symmetrie-abbildungen.md), Einheit 1. [RLP E, MSK S4]
+- Proportionale Zuordnung erkennen und hochrechnen (Dreisatz). [MSK S5, RLP D/E] – für Einheit 1 und 5. Thema Zuordnungen (zuordnungen.md), Einheit 2.
+- Negative Zahlen multiplizieren und dividieren – Steigung, Funktionswerte. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 3. [MSK N]
+- Brüche als Steigung (½, −¾), Bruch mal ganze Zahl. [MSK B] – ab Einheit 2. Thema Bruchrechnung (bruchrechnung.md), Einheit 3.
 - Lineare Gleichung zweischrittig lösen (null gleich einem zweischrittigen Term). [Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 2] – für Einheit 3 (Nullstelle, Argument) und 4 (Schnittpunkt).
-- Terme zusammenfassen. – für Einheit 4 (Gleichsetzen).
+- Terme zusammenfassen. – für Einheit 4 (Gleichsetzen). Thema Terme (terme.md), Einheit 2.
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0):
 - m und n in der Gleichung markieren: „Unterstreiche m, kreise n ein" (f(x) = 2x − 3, f(x) = x, f(x) = −x + 4, f(x) = 5). Vor Einheit 2.
 - Steigungsrichtung ohne Zeichnen: „Steigt oder fällt die Gerade?" Vor Einheit 2.

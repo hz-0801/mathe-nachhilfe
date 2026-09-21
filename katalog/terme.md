@@ -21,9 +21,9 @@ Einheit 4: gemeinsamen Zahlfaktor ausklammern · Variable ausklammern · Zahl un
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Addieren und Subtrahieren negativer Zahlen (3 − 7, −2 − 5) – für Vorzahlen und Vorzeichen in jeder Einheit. [MSK N, RLP D]
-- Multiplizieren mit Vorzeichen ((−2) · (−3), 3 · (−4)) – für Malnehmen und Minusklammer. [RLP D/E]
-- Dezimalzahlen und einfache Brüche als Vorzahlen (2,5x, ½x) – nur, wenn die Einheit sie braucht. [MSK D, DB]
+- Addieren und Subtrahieren negativer Zahlen (3 − 7, −2 − 5) – für Vorzahlen und Vorzeichen in jeder Einheit. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 2. [MSK N, RLP D]
+- Multiplizieren mit Vorzeichen ((−2) · (−3), 3 · (−4)) – für Malnehmen und Minusklammer. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 3. [RLP D/E]
+- Dezimalzahlen und einfache Brüche als Vorzahlen (2,5x, ½x) – nur, wenn die Einheit sie braucht. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md). [MSK D, DB]
 - Punkt vor Strich mit Zahlen (Zahl minus Produkt) – ab Einheit 2 (Produkt mit Vorzahl plus gleichartiges Glied) und Einheit 3. [RLP D]
 Erkennungsschritte des Themas (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - Gleichartige Glieder erkennen: „Unterstreiche, was zusammengehört" (3x, 5, 2x; x², 3x, 2x²). Vor Einheit 2.
