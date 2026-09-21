@@ -24,12 +24,12 @@ Einheit 5: Punkt vor Strich mit Brüchen · mit Dezimalzahlen · Klammern · Kom
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Bruch als Anteil lesen, am Streifen einzeichnen (drei Achtel markieren) – Einheit 1 und 3. Thema Brüche und Dezimalzahlen. [RLP D, MSK B1A]
+- Bruch als Anteil lesen, am Streifen einzeichnen (drei Achtel markieren) – Einheit 1 und 3. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md). [RLP D, MSK B1A]
 - Kürzen und Erweitern; gleichwertige Brüche (zwei Drittel gleich vier Sechstel) – Einheit 1 und 3. [RLP D, MSK B2B]
 - Vielfache und Teiler (kgV von vier und sechs, ggT von zwölf und achtzehn) – Einheit 1 (Hauptnenner) und Einheit 3 (Kürzen). [RLP D, LS-AA Kl. 5 III 5]
 - Stellenwerte der Dezimalzahlen (Zehntel, Hundertstel; 0,7 = 0,70) – Einheit 2 und 4. [MSK D1A, RLP D]
 - Schriftliches Rechnen mit natürlichen Zahlen, Einmaleins – Einheit 2 und 4. [RLP D]
-- Bruch ↔ Dezimalzahl bei einfachen Brüchen (ein Halb, drei Viertel) – Einheit 5 (gemischte Terme). Thema Brüche und Dezimalzahlen. [RLP D]
+- Bruch ↔ Dezimalzahl bei einfachen Brüchen (ein Halb, drei Viertel) – Einheit 5 (gemischte Terme). Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md). [RLP D]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Gleicher Nenner – ja oder nein?“ – ankreuzen, ob man sofort rechnen darf. Vor Einheit 1. [MSK B4A 1.5]
 - „Womit erweitere ich?“ – nur den Faktor angeben (ein Drittel → Sechstel: mal zwei). Vor Einheit 1. [MSK B4A 2.1]

@@ -20,12 +20,12 @@ Einheit 3: Anteil aus dem Mittelpunktswinkel als Bruch (90° → 1/4) und als Pr
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Mit Dezimalzahlen multiplizieren und dividieren, Taschenrechner mit π, Ergebnis runden (Näherungswert mal Kommazahl) – alle Einheiten. Thema Bruchrechnung, Einheit 4. [RLP D/E „sinnvolle Genauigkeit“]
-- Quadrieren und Wurzelziehen (4,5²; √20,25) – Einheit 2 (r aus A). Thema Potenzen und Wurzeln. [RLP F; P10 2022-OS-K2d]
-- Formel nach einer Größe umstellen (u = π · d → d = u : π) – Einheit 1 und 2. Thema Lineare Gleichungen, Einheit 4. [RLP E „Umstellen von Formeln“]
-- Winkel messen und zeichnen, Vollwinkel – Einheit 3. Thema Winkel. [RLP D]
-- Anteil als Bruch und Prozentsatz bilden (Mittelpunktswinkel zum Vollwinkel als Prozent) – Einheit 3. Thema Brüche und Dezimalzahlen, Prozentrechnung Einheit 2. [P10 2025-OS-B1e]
-- Fläche und Umfang unterscheiden; Einheiten cm, cm², m, m² – alle Einheiten. Thema Flächen, Einheit 1. [RLP D]
+- Mit Dezimalzahlen multiplizieren und dividieren, Taschenrechner mit π, Ergebnis runden (Näherungswert mal Kommazahl) – alle Einheiten. Thema Bruchrechnung (bruchrechnung.md), Einheit 4. [RLP D/E „sinnvolle Genauigkeit“]
+- Quadrieren und Wurzelziehen (4,5²; √20,25) – Einheit 2 (r aus A). Thema Potenzen und Wurzeln (potenzen-wurzeln.md). [RLP F; P10 2022-OS-K2d]
+- Formel nach einer Größe umstellen (u = π · d → d = u : π) – Einheit 1 und 2. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 4. [RLP E „Umstellen von Formeln“]
+- Winkel messen und zeichnen, Vollwinkel – Einheit 3. Thema Winkel (winkel-dreiecke.md). [RLP D]
+- Anteil als Bruch und Prozentsatz bilden (Mittelpunktswinkel zum Vollwinkel als Prozent) – Einheit 3. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Prozentrechnung (prozentrechnung.md) Einheit 2. [P10 2025-OS-B1e]
+- Fläche und Umfang unterscheiden; Einheiten cm, cm², m, m² – alle Einheiten. Thema Flächen (flaechen.md), Einheit 1. [RLP D]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Radius oder Durchmesser?“ – in der Skizze die gegebene Strecke benennen und die andere angeben (d = 6,4 → r = 3,2), nicht weiterrechnen. Vor Einheit 1 und 2. [P10 2016-OS-K3b, 2018-OS-K6a]
 - „Rand oder Fläche?“ – zu jeder Frage ankreuzen: Umfang (Reifen, Borte, Zaun, Abrollen) oder Fläche (Rasen, Pizza, Deckel, Blech). Vor Einheit 1 und 2. [RLP D „Unterscheiden zwischen Fläche und Umfang“; P10 2024-OS-K4a]

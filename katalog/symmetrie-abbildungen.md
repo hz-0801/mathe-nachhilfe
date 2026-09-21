@@ -20,13 +20,13 @@ Einheit 3: Punkt an einem Punkt spiegeln (Symmetriezentrum, gleicher Abstand auf
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Kästchen im Raster abzählen und Strecken auf dem Karo abtragen – alle Einheiten. Thema Winkel und Dreiecke, Einheit 1; Flächen, Einheit 1. [RLP C „Zeichnen von Spiegelbildern auf Rasterpapier“]
-- Senkrechte und parallele Geraden mit dem Geodreieck zeichnen und erkennen, Abstand eines Punktes von einer Geraden messen – Einheit 1 bis 3. Thema Winkel und Dreiecke, Einheit 1. [RLP D „Zeichnen von Senkrechten und Parallelen mithilfe des Geodreiecks“; LS-AA Kl. 5 II 1]
-- Negative Zahlen an der Zahlengeraden ablesen und eintragen – Einheit 1 (vier Quadranten). Thema Rationale Zahlen, Einheit 1. [RLP E „vier Quadranten“; LS-AA Kl. 6 IV 1]
-- Vierecksarten und Dreiecksarten an ihren Eigenschaften erkennen und benennen (Quadrat, Rechteck, Raute, Parallelogramm, Drachenviereck, gleichschenkliges Trapez; gleichseitiges und gleichschenkliges Dreieck) – Einheit 2 und 3. Thema Winkel und Dreiecke, Einheit 3. [RLP C „Haus der Vierecke“, D „Systematisieren von Dreiecken“; P10 2022-OS-B1i, 2021-OS-B1j, 2018-OS-B1h Voraussetzungen]
-- Diagonalen eines Vierecks einzeichnen und benennen – Einheit 2. Thema Winkel und Dreiecke, Einheit 3; Flächen, Einheit 4. [P10 2021-OS-B1j Verfahren „zwei Mittelsenkrechten und zwei Diagonalen“; 2025-OS-K2a]
-- Winkel messen und zeichnen, rechten Winkel erkennen und markieren – Einheit 2 und 3. Thema Winkel und Dreiecke, Einheit 1. [RLP D; LISUM-PH „Länge, Winkel, Drehung, Verschiebung“]
-- Strecken messen und gleich lange Strecken abtragen – Einheit 2 und 3. Thema Winkel und Dreiecke, Einheit 1. [RLP C „Erzeugen von Spiegelbildern“]
+- Kästchen im Raster abzählen und Strecken auf dem Karo abtragen – alle Einheiten. Thema Winkel und Dreiecke (winkel-dreiecke.md), Einheit 1; Flächen (flaechen.md), Einheit 1. [RLP C „Zeichnen von Spiegelbildern auf Rasterpapier“]
+- Senkrechte und parallele Geraden mit dem Geodreieck zeichnen und erkennen, Abstand eines Punktes von einer Geraden messen – Einheit 1 bis 3. Thema Winkel und Dreiecke (winkel-dreiecke.md), Einheit 1. [RLP D „Zeichnen von Senkrechten und Parallelen mithilfe des Geodreiecks“; LS-AA Kl. 5 II 1]
+- Negative Zahlen an der Zahlengeraden ablesen und eintragen – Einheit 1 (vier Quadranten). Thema Rationale Zahlen (rationale-zahlen.md), Einheit 1. [RLP E „vier Quadranten“; LS-AA Kl. 6 IV 1]
+- Vierecksarten und Dreiecksarten an ihren Eigenschaften erkennen und benennen (Quadrat, Rechteck, Raute, Parallelogramm, Drachenviereck, gleichschenkliges Trapez; gleichseitiges und gleichschenkliges Dreieck) – Einheit 2 und 3. Thema Winkel und Dreiecke (winkel-dreiecke.md), Einheit 3. [RLP C „Haus der Vierecke“, D „Systematisieren von Dreiecken“; P10 2022-OS-B1i, 2021-OS-B1j, 2018-OS-B1h Voraussetzungen]
+- Diagonalen eines Vierecks einzeichnen und benennen – Einheit 2. Thema Winkel und Dreiecke (winkel-dreiecke.md), Einheit 3; Flächen (flaechen.md), Einheit 4. [P10 2021-OS-B1j Verfahren „zwei Mittelsenkrechten und zwei Diagonalen“; 2025-OS-K2a]
+- Winkel messen und zeichnen, rechten Winkel erkennen und markieren – Einheit 2 und 3. Thema Winkel und Dreiecke (winkel-dreiecke.md), Einheit 1. [RLP D; LISUM-PH „Länge, Winkel, Drehung, Verschiebung“]
+- Strecken messen und gleich lange Strecken abtragen – Einheit 2 und 3. Thema Winkel und Dreiecke (winkel-dreiecke.md), Einheit 1. [RLP C „Erzeugen von Spiegelbildern“]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Erst rechts, dann hoch“ – zu gegebenen Punktpaaren nur den Weg mit zwei Pfeilen einzeichnen, ohne den Punkt zu setzen. Vor Einheit 1. [RLP D „Zeichnen von ebenen Figuren im Koordinatensystem“; P10 2020-OS-B1b Fehlerquelle „erste und zweite Koordinate verwechselt“]
 - „Welche Koordinate ist null?“ – zu Punkten in einer Liste ankreuzen, ob die erste, die zweite oder keine Koordinate null ist; nicht zeichnen. Vor Einheit 1. [P10 2020-OS-B1b Verfahren „auf der Rechtsachse ist die zweite Koordinate null“]

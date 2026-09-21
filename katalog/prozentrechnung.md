@@ -24,11 +24,11 @@ Einheit 5: „um“ und „auf“ unterscheiden · neuer Wert über Prozentwert 
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Bruch als Anteil lesen und kürzen (drei von zwölf, gekürzt ein Viertel), auf den Nenner hundert erweitern – Einheit 1 und 2. Thema Brüche. [MSK B1B/B2C, RLP D]
+- Bruch als Anteil lesen und kürzen (drei von zwölf, gekürzt ein Viertel), auf den Nenner hundert erweitern – Einheit 1 und 2. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md); Bruchrechnung (bruchrechnung.md). [MSK B1B/B2C, RLP D]
 - Bruch ↔ Dezimalzahl (ein Viertel, drei Fünftel) – Einheit 1, Einheit 3 (Operator). [RLP D/E]
 - Bruchteil einer Größe (zwei Drittel von 60 €) – Einheit 3. [RLP D „Operator“]
 - Durch hundert teilen, mit Dezimalzahlen multiplizieren (Kommaverschiebung) – Einheit 2 bis 4. [RLP D, LS-AA Kl. 6 V 4]
-- Hoch- und Runterrechnen in einer Tabelle (Dreisatz, proportionale Zuordnung) – Einheit 2 bis 4. Thema Zuordnungen. [MSK S5A, LS-AA Kl. 6 VI 3]
+- Hoch- und Runterrechnen in einer Tabelle (Dreisatz, proportionale Zuordnung) – Einheit 2 bis 4. Thema Zuordnungen (zuordnungen.md). [MSK S5A, LS-AA Kl. 6 VI 3]
 - Runden auf eine Dezimalstelle – Einheit 2 und 5. [RLP D]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Was ist das Ganze?“ – Grundwert (das Ganze) im Text unterstreichen. Vor Einheit 2 bis 5. [MSK P A 3.6, P C 6.1]

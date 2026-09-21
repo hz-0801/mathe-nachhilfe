@@ -24,9 +24,9 @@ Einheit 4: Zuordnungstyp aus Tabelle (Quotient oder Produkt prüfen) · aus Text
 Fertigkeiten:
 - Multiplizieren und Dividieren mit Dezimalzahlen (Preis geteilt durch Stückzahl, Preis mal Stückzahl) – Einheit 2 bis 4. [MSK S5A Diagnose, RLP D]
 - Vielfache und Teiler erkennen (zwölf ist das Dreifache von vier) – Einheit 2 und 3. [RLP D]
-- Punkte im Koordinatensystem eintragen und ablesen (erster Quadrant) – Einheit 1 und 2. Thema Symmetrie, Abbildungen und Koordinatensystem, Einheit 1 (seit 09e gefüllt). [RLP D]
+- Punkte im Koordinatensystem eintragen und ablesen (erster Quadrant) – Einheit 1 und 2. Thema Symmetrie, Abbildungen und Koordinatensystem (symmetrie-abbildungen.md), Einheit 1 (seit 09e gefüllt). [RLP D]
 - Bruchteil einer Größe (die Hälfte, ein Viertel von 12 €) – Einheit 2. [RLP D]
-- Einheiten umrechnen (Cent ↔ Euro, Minuten ↔ Stunden, m ↔ km) – Einheit 4. Thema Einheiten. [P10 Fehlerquellen]
+- Einheiten umrechnen (Cent ↔ Euro, Minuten ↔ Stunden, m ↔ km) – Einheit 4. Thema Einheiten (einheiten.md). [P10 Fehlerquellen]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Was ist hier eine Portion?“ – die Bezugseinheit benennen (ein Kilogramm, ein Stück, eine Minute). Vor Einheit 2. [MSK S5A 1.4]
 - Minitabelle anlegen: nur die Zeilen aufschreiben, die man braucht (gegeben, Zwischenschritt, gesucht). Vor Einheit 2. [MSK S5A 1.3–1.7]

@@ -22,15 +22,15 @@ Einheit 3: Radius und Durchmesser am Bild benennen · V = 4/3 · π · r³ mit r
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Flächeninhalt von Quadrat, Rechteck, Dreieck (Seitenflächen) und Kreis (Grundkreis) – Einheit 1 und 2. Thema Flächen, Kreis Einheit 2. [RLP D/E; P10 2024-OS-K4a]
-- Volumen von Prisma und Zylinder als Grundfläche mal Höhe (der Bezugskörper für das Drittel) und Mantel des Zylinders – Einheit 1 und 2. Thema Körper, Einheit 3 und 4. [RLP E; LS-AA Kl. 8 VII; P10 2026-FOR-K2a]
-- Satz des Pythagoras: Hypotenuse und Kathete berechnen, Wurzel ziehen – Einheit 1 und 2 (Stützdreieck). Thema Pythagoras. [RLP E/F; LS-AA Kl. 9 V 2 „in Figuren und Körpern“; LISUM-PH „Nutzen des Satzes des Pythagoras für Berechnungen an Pyramiden“; P10 2018-OS-K6d, 2026-FOR-K2c]
-- Radius aus Durchmesser – Einheit 2 und 3. Thema Kreis, Einheit 1. [P10 2016-OS-K3b, 2016-OS-K3c, 2018-OS-K6d]
-- Quadrieren und hoch drei, Wurzel und Kubikwurzel mit dem Taschenrechner, Rechnen mit π, Runden auf eine sinnvolle Stelle – alle Einheiten. Thema Potenzen und Wurzeln. [RLP F]
-- Ein Drittel und vier Drittel einer Zahl: durch drei teilen, mal vier durch drei – alle Einheiten. Thema Brüche und Dezimalzahlen, Einheit 1; Bruchrechnung, Einheit 3. [RLP D]
-- Formel aus der Formelsammlung entnehmen und nach einer Größe umstellen (Volumenformel mit Bruchfaktor nach der Höhe) – alle Einheiten. Thema Lineare Gleichungen, Einheit 4. [RLP E „Umstellen von Formeln“; P10 2026-FOR-K2a, 2016-OS-K3c „Formel aus der Formelsammlung entnehmen“]
-- Volumeneinheiten cm³ → dm³ = l mit 1000, m³; Masse aus Volumen und Dichte – Einheit 2 und 3. Thema Einheiten. [RLP D; P10 2016-OS-K3d]
-- Termumformung mit Variablen: (3r)² = 9 · r², gemeinsamen Faktor herausziehen – Einheit 2 (Niveau III). Thema Terme; Potenzen und Wurzeln. [P10 2026-FOR-K2d]
+- Flächeninhalt von Quadrat, Rechteck, Dreieck (Seitenflächen) und Kreis (Grundkreis) – Einheit 1 und 2. Thema Flächen (flaechen.md), Kreis (kreis.md) Einheit 2. [RLP D/E; P10 2024-OS-K4a]
+- Volumen von Prisma und Zylinder als Grundfläche mal Höhe (der Bezugskörper für das Drittel) und Mantel des Zylinders – Einheit 1 und 2. Thema Körper (koerper.md), Einheit 3 und 4. [RLP E; LS-AA Kl. 8 VII; P10 2026-FOR-K2a]
+- Satz des Pythagoras: Hypotenuse und Kathete berechnen, Wurzel ziehen – Einheit 1 und 2 (Stützdreieck). Thema Pythagoras (pythagoras.md). [RLP E/F; LS-AA Kl. 9 V 2 „in Figuren und Körpern“; LISUM-PH „Nutzen des Satzes des Pythagoras für Berechnungen an Pyramiden“; P10 2018-OS-K6d, 2026-FOR-K2c]
+- Radius aus Durchmesser – Einheit 2 und 3. Thema Kreis (kreis.md), Einheit 1. [P10 2016-OS-K3b, 2016-OS-K3c, 2018-OS-K6d]
+- Quadrieren und hoch drei, Wurzel und Kubikwurzel mit dem Taschenrechner, Rechnen mit π, Runden auf eine sinnvolle Stelle – alle Einheiten. Thema Potenzen und Wurzeln (potenzen-wurzeln.md). [RLP F]
+- Ein Drittel und vier Drittel einer Zahl: durch drei teilen, mal vier durch drei – alle Einheiten. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 1; Bruchrechnung (bruchrechnung.md), Einheit 3. [RLP D]
+- Formel aus der Formelsammlung entnehmen und nach einer Größe umstellen (Volumenformel mit Bruchfaktor nach der Höhe) – alle Einheiten. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 4. [RLP E „Umstellen von Formeln“; P10 2026-FOR-K2a, 2016-OS-K3c „Formel aus der Formelsammlung entnehmen“]
+- Volumeneinheiten cm³ → dm³ = l mit 1000, m³; Masse aus Volumen und Dichte – Einheit 2 und 3. Thema Einheiten (einheiten.md). [RLP D; P10 2016-OS-K3d]
+- Termumformung mit Variablen: (3r)² = 9 · r², gemeinsamen Faktor herausziehen – Einheit 2 (Niveau III). Thema Terme (terme.md); Potenzen und Wurzeln (potenzen-wurzeln.md). [P10 2026-FOR-K2d]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Säule, Spitze oder Kugel?“ – zu jedem Körper (Schrägbild oder Foto) ankreuzen: Säule (Prisma, Zylinder: Grundfläche mal Höhe), Spitze (Pyramide, Kegel: ein Drittel davon) oder Kugel (nur der Radius zählt); dann die Grundfläche markieren. Vor allen Einheiten. [RLP D „Erkennen, Benennen und Beschreiben gerader geometrischer Körper“; LISUM-PH Wiederholungsblock „Benennen der verschiedenen Körper“; LS-AA Kl. 10 I]
 - „Welche Strecke ist das?“ – im Schrägbild die markierte Strecke benennen: Pyramide Höhe h, Seitenhöhe h_s oder Seitenkante; Kegel Höhe h, Mantellinie s oder Radius r; dazu ankreuzen, welche senkrecht auf der Grundfläche steht. Nichts rechnen. Vor Einheit 1 und 2. [LISUM-PH Wiederholungsblock „Unterscheiden von Höhen in ebenen Figuren und in Körpern“; P10 2015-OS-K6b, 2026-FOR-K2b, 2026-FOR-K2c Fehlerquellen]

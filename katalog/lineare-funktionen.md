@@ -25,7 +25,7 @@ Fertigkeiten:
 - Proportionale Zuordnung erkennen und hochrechnen (Dreisatz). [MSK S5, RLP D/E] – für Einheit 1 und 5.
 - Negative Zahlen multiplizieren und dividieren – Steigung, Funktionswerte. [MSK N]
 - Brüche als Steigung (½, −¾), Bruch mal ganze Zahl. [MSK B] – ab Einheit 2.
-- Lineare Gleichung zweischrittig lösen (null gleich einem zweischrittigen Term). [Thema Lineare Gleichungen, Einheit 2] – für Einheit 3 (Nullstelle, Argument) und 4 (Schnittpunkt).
+- Lineare Gleichung zweischrittig lösen (null gleich einem zweischrittigen Term). [Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 2] – für Einheit 3 (Nullstelle, Argument) und 4 (Schnittpunkt).
 - Terme zusammenfassen. – für Einheit 4 (Gleichsetzen).
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0):
 - m und n in der Gleichung markieren: „Unterstreiche m, kreise n ein" (f(x) = 2x − 3, f(x) = x, f(x) = −x + 4, f(x) = 5). Vor Einheit 2.

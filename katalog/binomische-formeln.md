@@ -20,13 +20,13 @@ Einheit 3: Quadrat erkennen (welche Terme sind Quadrate) · dritte Formel rückw
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Gleichartige Glieder mit einer Variablen zusammenfassen, Vorzahl eins beachten, Potenz getrennt halten – alle Einheiten. Thema Terme, Einheit 2. [RLP E; LS-AA Kl. 8 II 1 Wiederholung]
-- Zahl mal Klammer und Minusklammer (Distributivgesetz, alle Vorzeichen drehen): 7·(x + 6) = 7x + 42; −(x − 6) = −x + 6 – Einheit 1 und 2. Thema Terme, Einheit 3. [RLP F; LS-AA Kl. 7 IV 3]
-- Ausklammern eines gemeinsamen Zahlfaktors oder einer Variablen: 6x + 12 = 6·(x + 2); x² + 7x = x·(x + 7) – Einheit 3. Thema Terme, Einheit 4. [RLP F; LS-AA Kl. 7 IV 3]
-- Multiplizieren mit Vorzeichen und Punkt vor Strich: (−6) · (−7) = 42; 11 − 6 · 7 = −31 – alle Einheiten. Thema Rationale Zahlen. [RLP D/E]
-- Quadratzahlen bis 15² erkennen und Quadratwurzeln daraus (√49 = 7); Quadrat einer Variablen (x · x = x²) und einer Vorzahl mit Variable ((7x)² = 49x²) – Einheit 2 und 3. Thema Potenzen und Wurzeln; Terme, Einheit 2. [RLP F; P10 2020-OS-K3c Fehlerquelle Quadrat einer Zahlensumme; 2026-FOR-B1e Vorzahl mit quadriert]
-- Termwert berechnen, auch mit negativer Zahl, als Probe einer Umformung: für x = −6 ist x² − 7 = 29 – alle Einheiten. Thema Terme, Einheit 1. [P10 Typ „Termwert berechnen“]
-- Scheitelpunktform lesen: (x − 7)² + 11 hat den Scheitel S(7 | 11) – Einheit 2 (Anwendung Normalform). Thema Quadratische Funktionen, Einheit 2. [RLP G]
+- Gleichartige Glieder mit einer Variablen zusammenfassen, Vorzahl eins beachten, Potenz getrennt halten – alle Einheiten. Thema Terme (terme.md), Einheit 2. [RLP E; LS-AA Kl. 8 II 1 Wiederholung]
+- Zahl mal Klammer und Minusklammer (Distributivgesetz, alle Vorzeichen drehen): 7·(x + 6) = 7x + 42; −(x − 6) = −x + 6 – Einheit 1 und 2. Thema Terme (terme.md), Einheit 3. [RLP F; LS-AA Kl. 7 IV 3]
+- Ausklammern eines gemeinsamen Zahlfaktors oder einer Variablen: 6x + 12 = 6·(x + 2); x² + 7x = x·(x + 7) – Einheit 3. Thema Terme (terme.md), Einheit 4. [RLP F; LS-AA Kl. 7 IV 3]
+- Multiplizieren mit Vorzeichen und Punkt vor Strich: (−6) · (−7) = 42; 11 − 6 · 7 = −31 – alle Einheiten. Thema Rationale Zahlen (rationale-zahlen.md). [RLP D/E]
+- Quadratzahlen bis 15² erkennen und Quadratwurzeln daraus (√49 = 7); Quadrat einer Variablen (x · x = x²) und einer Vorzahl mit Variable ((7x)² = 49x²) – Einheit 2 und 3. Thema Potenzen und Wurzeln (potenzen-wurzeln.md); Terme (terme.md), Einheit 2. [RLP F; P10 2020-OS-K3c Fehlerquelle Quadrat einer Zahlensumme; 2026-FOR-B1e Vorzahl mit quadriert]
+- Termwert berechnen, auch mit negativer Zahl, als Probe einer Umformung: für x = −6 ist x² − 7 = 29 – alle Einheiten. Thema Terme (terme.md), Einheit 1. [P10 Typ „Termwert berechnen“]
+- Scheitelpunktform lesen: (x − 7)² + 11 hat den Scheitel S(7 | 11) – Einheit 2 (Anwendung Normalform). Thema Quadratische Funktionen (quadratische-funktionen.md), Einheit 2. [RLP G]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Was mal was?“ – bei Klammer mal Klammer Pfeile zeichnen: jedes Glied der ersten Klammer zu jedem Glied der zweiten (vier Pfeile); nichts ausrechnen. Vor Einheit 1. [LS-AA Kl. 8 II 3; FD]
 - „Gleiche Klammer zweimal?“ – ankreuzen, ob ein Term das Quadrat einer Klammer ist ((x + 7)² ja, (x + 7)·(x − 11) nein), und das Quadrat als Klammer mal Klammer hinschreiben; nichts ausmultiplizieren. Vor Einheit 2. [FD; P10 2017-OS-K5d, 2022-OS-K3c Fehlerquelle „Mittelglied fehlt“]

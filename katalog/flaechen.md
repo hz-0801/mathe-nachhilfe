@@ -24,13 +24,13 @@ Einheit 5: Teilflächen erkennen und benennen (Rechteck, Dreieck, Halbkreis) · 
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Längeneinheiten umrechnen (mm, cm, m), gemischte Angaben angleichen – Einheit 1 und 5. Thema Einheiten. [RLP D, MSK S1A]
-- Flächeneinheiten (cm², m²) und Umrechnungszahl 100 – alle Einheiten. Thema Einheiten. [RLP D, MSK S1B]
-- Multiplizieren und Dividieren mit Dezimalzahlen (Kommazahl mal Kommazahl, zweistellig geteilt durch einstellig) – alle Einheiten. Thema Bruchrechnung. [P10 Fehlerquellen]
-- Formel nach einer Größe umstellen (A = a · b → b = A : a) – Einheit 1, 3 und 4. Thema Lineare Gleichungen, Einheit 4. [RLP E „Umstellen von Formeln“]
-- Rechten Winkel erkennen und einzeichnen (Geodreieck) – Einheit 2 bis 4. Thema Winkel. [RLP D]
-- Wurzel ziehen bei Quadratzahlen (√49) – Einheit 1 (Quadratseite). Thema Potenzen und Wurzeln. [P10 Typ „Quadratseite aus Fläche“]
-- Kreisfläche (π · r²) – nur Einheit 5 mit Kreisteilen. Thema Kreis. [P10]
+- Längeneinheiten umrechnen (mm, cm, m), gemischte Angaben angleichen – Einheit 1 und 5. Thema Einheiten (einheiten.md). [RLP D, MSK S1A]
+- Flächeneinheiten (cm², m²) und Umrechnungszahl 100 – alle Einheiten. Thema Einheiten (einheiten.md). [RLP D, MSK S1B]
+- Multiplizieren und Dividieren mit Dezimalzahlen (Kommazahl mal Kommazahl, zweistellig geteilt durch einstellig) – alle Einheiten. Thema Bruchrechnung (bruchrechnung.md). [P10 Fehlerquellen]
+- Formel nach einer Größe umstellen (A = a · b → b = A : a) – Einheit 1, 3 und 4. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 4. [RLP E „Umstellen von Formeln“]
+- Rechten Winkel erkennen und einzeichnen (Geodreieck) – Einheit 2 bis 4. Thema Winkel (winkel-dreiecke.md). [RLP D]
+- Wurzel ziehen bei Quadratzahlen (√49) – Einheit 1 (Quadratseite). Thema Potenzen und Wurzeln (potenzen-wurzeln.md). [P10 Typ „Quadratseite aus Fläche“]
+- Kreisfläche (π · r²) – nur Einheit 5 mit Kreisteilen. Thema Kreis (kreis.md). [P10]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Fläche oder Umfang?“ – zu jeder Frage ankreuzen: Rand (Zaun, Rahmen) oder Innen (Rasen, Farbe). Vor Einheit 1. [RLP D „Unterscheiden zwischen Fläche und Umfang“; P10 Fehlerquellen]
 - „Wo ist die Höhe?“ – in der Figur die Höhe zur markierten Grundseite einzeichnen (rechter Winkel). Vor Einheit 2, 3 und 4. [P10 2022-OS-B1e, 2023-OS-K2c]

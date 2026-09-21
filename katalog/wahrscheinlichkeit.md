@@ -22,10 +22,10 @@ Einheit 4: Baum für zweimal Ziehen ohne Zurücklegen (Nenner minus 1) · P zwei
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Brüche kürzen; Bruch ↔ Dezimalzahl ↔ Prozent (Achtelbruch als Dezimalzahl und Prozentsatz) – Einheit 2 bis 4. Thema Brüche und Dezimalzahlen, Einheit 2 und 4. [P10 2014-OS-K6a, 2017-OS-K6a]
-- Brüche multiplizieren (auch drei Faktoren) und gleichnamige Brüche addieren – Einheit 3 und 4. Thema Bruchrechnung, Einheit 3 und 1. [RLP D; P10 2019-OS-K6b]
-- Anteil einer Menge nehmen (30 % von 10 Feldern; zwei Drittel von 9 Kugeln) – Einheit 2 (Zufallsgerät entwerfen). Thema Brüche und Dezimalzahlen, Einheit 1; Prozentrechnung, Einheit 3. [P10 2018-OS-B1j, 2019-OS-B1g]
-- Relative Häufigkeit berechnen (Anzahl geteilt durch Gesamtzahl) – Einheit 2 (Gesetz der großen Zahlen). Thema Daten, Einheit 1. [RLP D/E]
+- Brüche kürzen; Bruch ↔ Dezimalzahl ↔ Prozent (Achtelbruch als Dezimalzahl und Prozentsatz) – Einheit 2 bis 4. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 2 und 4. [P10 2014-OS-K6a, 2017-OS-K6a]
+- Brüche multiplizieren (auch drei Faktoren) und gleichnamige Brüche addieren – Einheit 3 und 4. Thema Bruchrechnung (bruchrechnung.md), Einheit 3 und 1. [RLP D; P10 2019-OS-K6b]
+- Anteil einer Menge nehmen (30 % von 10 Feldern; zwei Drittel von 9 Kugeln) – Einheit 2 (Zufallsgerät entwerfen). Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 1; Prozentrechnung (prozentrechnung.md), Einheit 3. [P10 2018-OS-B1j, 2019-OS-B1g]
+- Relative Häufigkeit berechnen (Anzahl geteilt durch Gesamtzahl) – Einheit 2 (Gesetz der großen Zahlen). Thema Daten (daten.md), Einheit 1. [RLP D/E]
 - Anzahl der Zahlen in einem Bereich (101 bis 900 sind 800 Lose; Endziffer 6 in 106 bis 896 sind 80) – Einheit 2. [P10 2016-OS-K5c, 2016-OS-K5d]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Wie viele Stufen?“ – zum Text ankreuzen: einmal, zweimal, dreimal ziehen oder drehen; nichts rechnen. Vor Einheit 2 bis 4. [RLP E/G]

@@ -20,9 +20,9 @@ Einheit 4: Zahlenrätsel · Alter, Geld, Verteilung · Geometrie (Umfang, Winkel
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
 - Negative Zahlen addieren, subtrahieren, dividieren (12 : (−3)) – Lösungen und Umformungen. [MSK N, RLP D]
-- Terme zusammenfassen (gleichartige Glieder mit x, Zahl und x gemischt) – ab Einheit 2 (vor dem Umformen), Einheit 3 zwingend. Thema Terme, Einheit 2. [RLP E]
+- Terme zusammenfassen (gleichartige Glieder mit x, Zahl und x gemischt) – ab Einheit 2 (vor dem Umformen), Einheit 3 zwingend. Thema Terme (terme.md), Einheit 2. [RLP E]
 - Punkt vor Strich (3 · 4 − 5) – Probe und Einsetzen. [RLP D]
-- Klammern auflösen – nur Einheit 3. Thema Terme, Einheit 3. [RLP F]
+- Klammern auflösen – nur Einheit 3. Thema Terme (terme.md), Einheit 3. [RLP F]
 - Brüche: Hauptnenner, Bruch mal Zahl – nur Einheit 3. [MSK B]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0):
 - Umkehroperation benennen: „Welche Rechnung macht eine Addition rückgängig?" (plus ↔ minus, mal ↔ geteilt). Vor Einheit 1 und 2.

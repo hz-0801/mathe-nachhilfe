@@ -27,10 +27,10 @@ Fertigkeiten:
 - Teilen und Vervielfachen im Kopf (vierundzwanzig geteilt durch sechs, drei mal neun), Einmaleins – Einheit 1 bis 3 (Anteil nehmen, Erweitern, Kürzen). [RLP D, LS-AA Kl. 5 III]
 - Teiler und Vielfache einer Zahl angeben (Teiler von zwölf; Vielfache von vier) – Einheit 2 und 3 (Kürzen, Hauptnenner). [RLP D „Angeben gemeinsamer Teiler und Vielfache zweier natürlicher Zahlen“, LS-AA Kl. 5 III 5]
 - Stellenwerte natürlicher Zahlen und Zahlenstrahl mit natürlichen Zahlen (Skala ablesen) – Einheit 3 und 4. [RLP C/D, MSK N2]
-- Größen mit Komma lesen und umrechnen (1,2 kg = 1200 g; 2,50 €) – Einheit 1 (Bruchteil einer Größe) und Einheit 5 (Runden von Größen). Thema Einheiten. [RLP D „Erklären von Größenangaben mit Dezimalzahlen mithilfe der erweiterten Stellenwerttafeln“]
+- Größen mit Komma lesen und umrechnen (1,2 kg = 1200 g; 2,50 €) – Einheit 1 (Bruchteil einer Größe) und Einheit 5 (Runden von Größen). Thema Einheiten (einheiten.md). [RLP D „Erklären von Größenangaben mit Dezimalzahlen mithilfe der erweiterten Stellenwerttafeln“]
 - Schriftlich oder mit Taschenrechner dividieren (drei geteilt durch acht) – Einheit 4 (Division). [RLP D „schriftliche Rechenverfahren … Division“]
-- Prozent als Hundertstel (45 % = 0,45) – Einheit 5. Thema Prozentrechnung, Einheit 1. [RLP E]
-- Kreissektor als Anteil vom Vollkreis (120° von 360°) – Einheit 1, nur in der P10-Form mit Sektoren. Thema Kreis, Einheit 3. [P10 2026-FOR-B1b]
+- Prozent als Hundertstel (45 % = 0,45) – Einheit 5. Thema Prozentrechnung (prozentrechnung.md), Einheit 1. [RLP E]
+- Kreissektor als Anteil vom Vollkreis (120° von 360°) – Einheit 1, nur in der P10-Form mit Sektoren. Thema Kreis (kreis.md), Einheit 3. [P10 2026-FOR-B1b]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Sind alle Teile gleich groß?“ – bei Figuren ankreuzen, ob man die Teile einfach zählen darf; wenn nein, gleich große Teile einzeichnen. Vor Einheit 1. [MSK B1A 2.6; P10 2019-OS-B1c]
 - „Was ist das Ganze?“ – im Bild oder Text das Ganze markieren (alle 15 Kästchen, die volle Tonne), bevor der Anteil bestimmt wird. Vor Einheit 1. [MSK B1A 1.2; P10 2014-OS-B1i]

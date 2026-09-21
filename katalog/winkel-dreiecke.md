@@ -25,10 +25,10 @@ Einheit 5: Mittelsenkrechte einer Strecke mit dem Zirkel · Umkreis (Schnittpunk
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
 - Mit Lineal und Geodreieck zeichnen: Strecken messen, Senkrechte und Parallele zeichnen, rechten Winkel erkennen – Einheit 1, 4, 5. [RLP C/D „Zeichnen … mithilfe von Zeichengeräten“]
-- Addieren und Subtrahieren im Bereich bis zum Vollwinkel, auch mit Dezimalzahlen (Vielfaches minus zwei Dezimalgrade) – alle Einheiten. Thema Brüche und Dezimalzahlen, Einheit 5. [P10 2017-OS-K4a Fehlerquelle]
-- Längeneinheiten m und km umrechnen (1,5 km = 1500 m) – Einheit 1 (Teilstrecken). Thema Einheiten. [P10 2014-OS-K2b]
+- Addieren und Subtrahieren im Bereich bis zum Vollwinkel, auch mit Dezimalzahlen (Vielfaches minus zwei Dezimalgrade) – alle Einheiten. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 5. [P10 2017-OS-K4a Fehlerquelle]
+- Längeneinheiten m und km umrechnen (1,5 km = 1500 m) – Einheit 1 (Teilstrecken). Thema Einheiten (einheiten.md). [P10 2014-OS-K2b]
 - Vierecksarten kennen: Rechteck, Quadrat, Parallelogramm, Raute, Trapez, Drachen; parallele und gleich lange Seiten in der Figur erkennen – Einheit 2 und 3. [RLP C „Beschreiben der Beziehungen zwischen Vierecken“; LS-AA Kl. 5 II 5]
-- Kreis mit dem Zirkel zeichnen, Radius und Durchmesser unterscheiden – Einheit 4 und 5. Thema Kreis, Einheit 1. [RLP D „Zeichnen ebener Figuren … Zirkel“]
+- Kreis mit dem Zirkel zeichnen, Radius und Durchmesser unterscheiden – Einheit 4 und 5. Thema Kreis (kreis.md), Einheit 1. [RLP D „Zeichnen ebener Figuren … Zirkel“]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Welche Winkelart?“ – zu Winkeln ohne Gradzahl ankreuzen: spitz, recht, stumpf, gestreckt, überstumpf; nicht messen. Vor Einheit 1. [RLP D „Systematisieren von Winkeln“]
 - „Welche Skala?“ – am Geodreieck ankreuzen, ob die innere oder die äußere Zahlenreihe gilt (spitzer Winkel: die kleine Zahl); nicht ablesen. Vor Einheit 1. [RLP D „Erklären und Nutzen verschiedener Skalen“]

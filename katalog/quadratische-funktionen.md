@@ -22,14 +22,14 @@ Einheit 4: Nullstellen aus der Scheitelpunktform durch Wurzelziehen · Zahl der 
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Quadrieren auch negativer Zahlen und Dezimalzahlen, Quadrat vor Punkt vor Strich: (−7)² = 49, nicht −49; 0,5² = 0,25 – alle Einheiten. Thema Rationale Zahlen, Potenzen und Wurzeln. [RLP E/F; P10 Fehlerquellen 2014-OS-K7a, 2018-OS-K5a, 2024-OS-K3c]
-- Koordinaten lesen und eintragen, vier Quadranten, (x | y)-Reihenfolge, Kästchenraster mit 0,5-Einteilung – Einheit 1 und 2. Thema Lineare Funktionen (Blatt 0). [RLP E; P10 2021-OS-B1d Fehlerquelle „Koordinaten vertauschen“]
-- Lineare Funktion f(x) = m·x + n: Gerade zeichnen, Funktionswert, Punktprobe, Nullstelle – Einheit 1 und 4. Thema Lineare Funktionen, Einheit 2 und 3. [RLP F; LS-AA Kl. 9 I 1 Wiederholung]
-- Binomische Formel ausmultiplizieren und zusammenfassen, auch mit Minus in der Klammer – Einheit 3 und 4. Thema Binomische Formeln. [RLP G „auch unter Nutzung der binomischen Formeln“; LS-AA Kl. 8 II 4]
-- Quadratwurzel ziehen, auch mit dem Taschenrechner, Näherungswert runden; aus einer negativen Zahl gibt es keine Wurzel – Einheit 4. Thema Potenzen und Wurzeln. [RLP F/G; LS-AA Kl. 8 IV 1]
-- Quadratische Gleichung durch Wurzelziehen lösen und Normalform mit der p-q-Formel lösen, beide Lösungen angeben – Einheit 4. Thema Quadratische Gleichungen. [RLP G „Lösen von Gleichungen (auch quadratische …)“; LS-AA Kl. 9 II 3 und II 5]
-- Lineare Gleichung lösen, Terme mit x auf eine Seite bringen, Schreibform mit Strich – Einheit 4. Thema Lineare Gleichungen, Einheit 2. [RLP E]
-- Schnittpunkt zweier Geraden durch Gleichsetzen – Einheit 4. Thema Lineare Funktionen, Einheit 4; Lineare Gleichungssysteme, Einheit 2. [RLP G S. 61 Schnittpunkte von Funktionsgraphen]
+- Quadrieren auch negativer Zahlen und Dezimalzahlen, Quadrat vor Punkt vor Strich: (−7)² = 49, nicht −49; 0,5² = 0,25 – alle Einheiten. Thema Rationale Zahlen (rationale-zahlen.md), Potenzen und Wurzeln (potenzen-wurzeln.md). [RLP E/F; P10 Fehlerquellen 2014-OS-K7a, 2018-OS-K5a, 2024-OS-K3c]
+- Koordinaten lesen und eintragen, vier Quadranten, (x | y)-Reihenfolge, Kästchenraster mit 0,5-Einteilung – Einheit 1 und 2. Thema Lineare Funktionen (lineare-funktionen.md, Blatt 0). [RLP E; P10 2021-OS-B1d Fehlerquelle „Koordinaten vertauschen“]
+- Lineare Funktion f(x) = m·x + n: Gerade zeichnen, Funktionswert, Punktprobe, Nullstelle – Einheit 1 und 4. Thema Lineare Funktionen (lineare-funktionen.md), Einheit 2 und 3. [RLP F; LS-AA Kl. 9 I 1 Wiederholung]
+- Binomische Formel ausmultiplizieren und zusammenfassen, auch mit Minus in der Klammer – Einheit 3 und 4. Thema Binomische Formeln (binomische-formeln.md). [RLP G „auch unter Nutzung der binomischen Formeln“; LS-AA Kl. 8 II 4]
+- Quadratwurzel ziehen, auch mit dem Taschenrechner, Näherungswert runden; aus einer negativen Zahl gibt es keine Wurzel – Einheit 4. Thema Potenzen und Wurzeln (potenzen-wurzeln.md). [RLP F/G; LS-AA Kl. 8 IV 1]
+- Quadratische Gleichung durch Wurzelziehen lösen und Normalform mit der p-q-Formel lösen, beide Lösungen angeben – Einheit 4. Thema Quadratische Gleichungen (quadratische-gleichungen.md). [RLP G „Lösen von Gleichungen (auch quadratische …)“; LS-AA Kl. 9 II 3 und II 5]
+- Lineare Gleichung lösen, Terme mit x auf eine Seite bringen, Schreibform mit Strich – Einheit 4. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 2. [RLP E]
+- Schnittpunkt zweier Geraden durch Gleichsetzen – Einheit 4. Thema Lineare Funktionen (lineare-funktionen.md), Einheit 4; Lineare Gleichungssysteme (lineare-gleichungssysteme.md), Einheit 2. [RLP G S. 61 Schnittpunkte von Funktionsgraphen]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Gerade oder Parabel?“ – zu Gleichungen mit und ohne x² und zu gezeichneten Graphen ankreuzen: linear oder quadratisch; nichts rechnen. Vor Einheit 1. [LS-AA Kl. 9 I 1; P10 2025-OS-B1f]
 - „Minus und Quadrat“ – zu Termen der Form (−a)² und −a² mit eingesetzten Zahlen ankreuzen, ob das Ergebnis positiv oder negativ ist; nichts ausrechnen. Vor Einheit 1 und 3. [P10 Fehlerquellen 2014-OS-K7a, 2018-OS-K5a, 2024-OS-K3c]
