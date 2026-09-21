@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-verweis-pruef.py v0.1 · 21.09.2026 · Verweis- und Namensprüfung des Themenkatalogs
+verweis-pruef.py v0.2 · 21.09.2026 · Verweis- und Namensprüfung des Themenkatalogs
+
+v0.2 (21.09.2026, Auftrag Werkzeugpflege): Prüfung 2 kennt die Klammerform der Blatt-0-Abschnitte
+seit Commit cfa4723 („Thema Terme (terme.md), Einheit 2“, „Kreis (kreis.md) Einheit 2“) – zwischen
+<name>.md und „Einheit“ dürfen jetzt auch der Rest des Klammerinhalts und die schließende Klammer
+stehen (DIREKT); sonst unverändert. v0.1 (21.09.2026): erste Fassung.
 
 Der Themenkatalog (katalog/, 73 Einträge) war bis zu diesem Werkzeug nie maschinell
 auf innere Stimmigkeit geprüft: ob die Verweise <name>.md ein Ziel haben, ob die
@@ -11,25 +16,29 @@ Voraussetzungen noch in Wortform nennen (Auftrag Verweis- und Namensprüfung,
 21.09.2026 – vor dem Umbau der beiden Blatt-Prompte). Das Werkzeug ändert keinen
 Katalogeintrag und keine Zeile in themen.csv; es berichtet.
 
-Lesarten aus werkzeuge/tragfaehigkeit.py (v0.1), importiert, nicht nachgebaut, damit
+Lesarten aus werkzeuge/tragfaehigkeit.py (v0.2), importiert, nicht nachgebaut, damit
 beide Werkzeuge gleich zählen: die Liste der Einträge (katalog/*.md ohne _* und
 index.md), der Abschnitt „### Voraussetzungen (Blatt 0)“ bis zur nächsten
 Überschrift (blatt0), die Verweisform <name>.md (VERWEIS; ein Pfad davor wird
-mitgenommen), die Nennung in Wortform „Thema X“ (WORTFORM, Heuristik) und der
-Fundort einer Datei außerhalb von katalog/ (fundort). Die Themenliste aus
-abitur/abitur-vokabular.md § 2 liest vokabular_themen() von themen-pruef.py.
+mitgenommen), die Nennung in Wortform „Thema X“ (WORTFORM, Heuristik; „Thema X
+(x.md)“ ist ein Verweis, keine Nennung in Wortform) und der Fundort einer Datei
+außerhalb von katalog/ (fundort). Die Themenliste aus abitur/abitur-vokabular.md § 2
+liest vokabular_themen() von themen-pruef.py.
 
 Fünf Prüfungen (Einzelheiten in der Messweise jedes Abschnitts von _verweise.md):
   1 Dateiverweise    – jeder Verweis <name>.md in jedem Abschnitt jedes Eintrags;
                        Gruppe a: Ziel in katalog/, b: anderswo im Repo, c: keine Datei.
                        b und c vollständig mit Quelldatei und Abschnitt.
   2 Einheitennummern – Einheitenangabe direkt hinter einem Verweis („x.md Einheit 4“,
-                       „x.md, Einheit 6 und 8“, „x.md (Einheiten 2 bis 4)“) gegen die
-                       Zahl der Zeilen „<n>. “ im Abschnitt „### Lerneinheiten“ der
-                       Zieldatei; Nummer größer als vorhanden wird gemeldet. Angaben,
-                       die sich keinem Verweis eindeutig zuordnen lassen (Verweisreihung
-                       davor, kurzer Zwischentext, Angabe vor dem Verweis), werden
-                       getrennt gelistet, nicht geraten.
+                       „x.md, Einheit 6 und 8“, „x.md (Einheiten 2 bis 4)“; in der
+                       Klammerform auch hinter der schließenden Klammer: „Thema Terme
+                       (terme.md), Einheit 2“, „Kreis (kreis.md) Einheit 2“, „(x.md,
+                       Blatt 0), Einheit 2“) gegen die Zahl der Zeilen „<n>. “ im
+                       Abschnitt „### Lerneinheiten“ der Zieldatei; Nummer größer als
+                       vorhanden wird gemeldet. Angaben, die sich keinem Verweis
+                       eindeutig zuordnen lassen (Verweisreihung davor, kurzer
+                       Zwischentext, Angabe vor dem Verweis), werden getrennt gelistet,
+                       nicht geraten.
   3 Namensgleichheit – Datei <-> kanonisch in themen.csv (Stufe II braucht eine Datei);
                        H1 gegen die thema-Werte der eigenen Zeilen (melden, nicht
                        bewerten); abi/iqb-Themen gegen Vokabular § 2 und die vier
@@ -63,7 +72,7 @@ import sys
 
 HIER = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Repo-Wurzel; Skript liegt in werkzeuge/
 WERKZEUGE = os.path.join(HIER, "werkzeuge")
-VERSION = "verweis-pruef.py v0.1"
+VERSION = "verweis-pruef.py v0.2"
 KATALOG_ORDNER = "katalog"
 KONKORDANZ = "themen.csv"
 VOKABULAR = "abitur/abitur-vokabular.md"
@@ -100,7 +109,11 @@ KURZNAME = {  # Abschnittsüberschrift -> Kurzname in den Listen
 # Fortsetzungswörter wie in _pruef_struktur.py und _pruef_katalog.py (bis, –, -, und, Komma, /).
 ZAHL = r"\d{1,2}(?!\d)"
 EINHEIT = re.compile(r"Einheit(?:en)?\s+" + ZAHL + r"(?:\s*(?:bis|–|-|und|,|/)\s*(?:Einheit(?:en)?\s+)?" + ZAHL + r")*")
-DIREKT = re.compile(r"\s*|,\s*|\s*\(\s*")                     # zwischen <name>.md und „Einheit“: direkt dahinter
+# Klammerform der Blatt-0-Abschnitte seit Commit cfa4723: „Thema Terme (terme.md), Einheit 2“, „Kreis (kreis.md)
+# Einheit 2“, „(lineare-funktionen.md, Blatt 0), Einheit 2“ – seit v0.2 dürfen vor dem Trenner der Rest des
+# Klammerinhalts (ohne weitere Klammer) und die schließende Klammer stehen.
+KLAMMERREST = r"(?:[^()]*\))?"
+DIREKT = re.compile(KLAMMERREST + r"(?:\s*|,\s*|\s*\(\s*)")  # zwischen <name>.md und „Einheit“: direkt dahinter
 # (kein Gedankenstrich: „x.md – Einheit 4 führt hier …“ leitet einen neuen Satzteil über eine eigene Einheit ein)
 REIHUNG = re.compile(r"\s*(?:,|und|oder|bzw\.|sowie)\s*")     # zwischen zwei Verweisen: „a.md und b.md Einheit 2“
 DAVOR = re.compile(r"\s+(?:in|von|aus|der|des|bei|im)\s+(?:der\s+|des\s+)?")  # „Einheit 4 in <name>.md“
@@ -574,10 +587,11 @@ def baue(m, stand):
       "eigenen Liste statt in einer Entscheidung.")
     w("")
     w(f"Gemessen: {n} Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie in "
-      "`werkzeuge/tragfaehigkeit.py` (v0.1), importiert, nicht nachgebaut: Verweis = Zeichenkette der Form "
+      "`werkzeuge/tragfaehigkeit.py` (v0.2), importiert, nicht nachgebaut: Verweis = Zeichenkette der Form "
       "`<name>.md` (auch in Klammern oder Backticks; ein Pfad davor wird mitgenommen), Blatt-0-Abschnitt = "
       "„### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, Nennung in Wortform = „Thema “ vor einem "
-      "Großbuchstaben (Heuristik), Fundort einer Datei außerhalb von `katalog/` = Suche im Repo nach dem Dateinamen. "
+      "Großbuchstaben (Heuristik; folgt dem Titel unmittelbar „ (<name>.md“, ist es ein Verweis und keine Nennung "
+      "in Wortform), Fundort einer Datei außerhalb von `katalog/` = Suche im Repo nach dem Dateinamen. "
       "Abschnitt einer Fundstelle = die nächste Überschrift davor (#, ##, ###); in den Listen abgekürzt: Kopf "
       "(Titel und Statuszeilen), Verortung, Lerneinheiten, Typen (Typen je Lerneinheit), Blatt 0, Merkkasten, "
       "Fehler (Typische Fehler), Schwache (Für schwache Schüler), Prüfungsform, Offene Punkte, Prüfliste. "
@@ -618,9 +632,12 @@ def baue(m, stand):
     w("Eine Einheitenangabe ist „Einheit n“ oder „Einheiten n“ mit einer oder zwei Ziffern, fortgesetzt mit „und“, "
       "„bis“, „–“, Komma oder Schrägstrich („Einheit 6 und 8“, „Einheiten 2 bis 4“, „Einheit 2, 3 und 5“). Sie "
       "steht hinter einem Verweis, wenn zwischen `<name>.md` und „Einheit“ nur Leerraum, ein Komma oder eine "
-      "öffnende Klammer steht („x.md Einheit 4“, „x.md, Einheit 4“, „x.md (Einheit 4)“); dann wird die größte "
-      "genannte Nummer gegen die Zahl der Lerneinheiten der Zieldatei gehalten. Nicht eindeutig zuordenbar und "
-      "deshalb nur gelistet: (1) der Verweis "
+      "öffnende Klammer steht („x.md Einheit 4“, „x.md, Einheit 4“, „x.md (Einheit 4)“) – oder, in der "
+      "Klammerform der Blatt-0-Abschnitte seit Commit cfa4723, davor noch der Rest des Klammerinhalts und die "
+      "schließende Klammer („Thema Terme (terme.md), Einheit 2“, „Kreis (kreis.md) Einheit 2“, „(x.md, Blatt 0), "
+      "Einheit 2“; „Lineare Funktionen (lineare-funktionen.md, Blatt 0)“ ohne Angabe dahinter bekommt keine); "
+      "dann wird die größte genannte Nummer gegen die Zahl der Lerneinheiten der Zieldatei gehalten. Nicht "
+      "eindeutig zuordenbar und deshalb nur gelistet: (1) der Verweis "
       "davor steht in einer Reihung („a.md und b.md Einheit 2“, „a.md, b.md Einheit 2“) – welcher gemeint ist, "
       f"steht nicht da; (2) zwischen Verweis und Angabe stehen bis zu {KURZ_WOERTER} Wörter ohne Satz- oder "
       "Klammerende („x.md, dessen Einheit 5“, „x.md (Sek I, Einheit 3)“) – hier kann auch eine eigene Einheit "
@@ -694,8 +711,9 @@ def baue(m, stand):
     w("Einträge, deren Blatt-0-Abschnitt keinen Verweis auf einen anderen Katalogeintrag enthält – dieselbe "
       "Menge wie „Einträge ohne Verweis“ in den Messlücken von `_tragfaehigkeit.md` (Lesart des Vorbilds: Verweise "
       "auf Nicht-Katalogdateien und Selbstverweise zählen nicht). Je Eintrag die Zahl der Nennungen in Wortform "
-      "(Heuristik „Thema “ vor einem Großbuchstaben) und jede Zeile des Abschnitts, die eine trägt, als wörtliches "
-      "Zitat mit Zeilennummer; steht eine Zeile für mehrere Nennungen, ist ihre Zahl vermerkt.")
+      "(Heuristik „Thema “ vor einem Großbuchstaben; „Thema Terme (terme.md)“ ist ein Verweis und zählt nicht) "
+      "und jede Zeile des Abschnitts, die eine trägt, als wörtliches Zitat mit Zeilennummer; steht eine Zeile für "
+      "mehrere Nennungen, ist ihre Zahl vermerkt.")
     w("")
     gleich = p5["woertlich"] == [name for name, _, _ in p5["liste"]]
     w(f"{len(p5['liste'])} von {n} Einträgen. Wörtliche Lesart (überhaupt kein `<name>.md` im Abschnitt): "
@@ -716,14 +734,20 @@ def baue(m, stand):
     w("Die Prüfungen sehen Zeichenketten, keine Bedeutung. Prüfung 1 findet nur die Form `<name>.md`; ein Thema, das "
       "in Wortform genannt ist („Thema Lineare Gleichungen“), hat weder Ziel noch Fundort und fehlt in allen "
       "Gruppen – Prüfung 5 zeigt, wie viele Einträge so schreiben. Prüfung 2 ordnet nur zu, was unmittelbar hinter "
-      "einem Verweis steht; die Nennungen in Wortform tragen ihre Einheitsnummern ungeprüft, und eine Angabe, die "
-      "einen Satz weiter steht, gilt als eigene Einheit, auch wenn die Zieldatei gemeint war. Die Zahl der "
+      "einem Verweis oder hinter der Klammer steht, die ihn einschließt; die Nennungen in Wortform tragen ihre "
+      "Einheitsnummern ungeprüft, und eine Angabe, die einen Satz weiter steht, gilt als eigene Einheit, auch wenn "
+      "die Zieldatei gemeint war. Umgekehrt kann eine Angabe hinter der schließenden Klammer die eigene Einheit "
+      "des Eintrags meinen („(x.md), Einheit 5 ist Vorrat“) und wird trotzdem dem Verweis zugeordnet; und in der "
+      "Klammerform „Thema A (a.md), B (b.md) Einheit 2“ gilt die Angabe dem letzten Verweis, obwohl die Reihung "
+      "dieselbe Unklarheit trägt wie „a.md, b.md Einheit 2“ – nur die Reihung ohne Klammern wird als unklar "
+      "gelistet. Die Zahl der "
       "Lerneinheiten ist die Zahl der nummerierten Zeilen, nicht die höchste Nummer; der Verweiseintrag hat null. "
       "Prüfung 3 vergleicht Namen wortgleich – eine abweichende H1 kann Absicht sein (Sammelthema, mehrere "
       "Prüfungsthemen), eine gleiche H1 sagt nichts über den Inhalt. Prüfung 4 zählt eine Erwähnung in jedem "
       "Abschnitt gleich, auch eine in der Prüfliste oder in einem offenen Punkt; ob die Gegenrichtung fachlich "
       "nötig ist, entscheidet sie nicht. Prüfung 5 zählt mit der Heuristik des Vorbilds; sie übersieht Nennungen "
-      "ohne das Wort „Thema“ und zählt das Wort auch, wo es kein Verweis ist. Alle fünf messen die Schreibform der "
+      "ohne das Wort „Thema“, zählt das Wort auch, wo es keine Voraussetzung nennt, und sieht den Dateiverweis "
+      "einer Nennung nur, wenn er dem Titel unmittelbar in der Klammer folgt. Alle fünf messen die Schreibform der "
       "Einträge, nicht den Unterricht.")
     w("")
     return "\n".join(out)

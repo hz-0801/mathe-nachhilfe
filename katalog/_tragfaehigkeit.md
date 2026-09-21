@@ -1,6 +1,6 @@
 # Tragfähigkeit der Themen – Nachfrage in Blatt 0
-Stand 2026-09-21, Katalog auf Commit c05e6f0.
-Erzeugt von `werkzeuge/tragfaehigkeit.py` (v0.1) aus den Blatt-0-Abschnitten der Einträge; abgeleitet, nie von Hand ändern. Der Katalog misst sonst nur Prüfungslast (Zeilen je Thema); hier steht die zweite Achse: wie oft ein Thema von anderen Einträgen gebraucht wird.
+Stand 2026-09-21, Katalog auf Commit 8d18b93.
+Erzeugt von `werkzeuge/tragfaehigkeit.py` (v0.2) aus den Blatt-0-Abschnitten der Einträge; abgeleitet, nie von Hand ändern. Der Katalog misst sonst nur Prüfungslast (Zeilen je Thema); hier steht die zweite Achse: wie oft ein Thema von anderen Einträgen gebraucht wird.
 
 Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`); je Eintrag der Abschnitt „### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, darin die Verweise der Form `<name>.md`, mit oder ohne Einheitsangabe. Ein Eintrag zählt je genanntem Thema einmal, gleich wie oft er es nennt; Selbstverweise zählen nicht; keine Gewichtung nach Einheit oder Profil. Zeilen = eigene Katalogzeilen, Summe der Spalte `zeilen` in `themen.csv` (Prüfungslast).
 
@@ -164,10 +164,10 @@ Absteigend nach der Zahl der eigenen Voraussetzungen, bei Gleichstand alphabetis
 ## Messlücken
 Was die Messung nicht sieht – berichtet, nicht gestopft (kein Eintrag wird vom Werkzeug geändert).
 
-Einträge ohne Verweis der Form `<name>.md` im Blatt-0-Abschnitt: 1 von 73. In Klammern die Nennungen in Wortform („Thema …“ vor einem Großbuchstaben, Heuristik) – die Nachfrage, die diese Einträge stellen, fehlt in Tabelle A ganz.
+Einträge ohne Verweis der Form `<name>.md` im Blatt-0-Abschnitt: 1 von 73. In Klammern die Nennungen in Wortform („Thema …“ vor einem Großbuchstaben, Heuristik; folgt dem Titel unmittelbar „ (<name>.md“ wie in „Thema Terme (terme.md), Einheit 2“, ist es ein Verweis und keine Nennung in Wortform) – die Nachfrage, die diese Einträge stellen, fehlt in Tabelle A ganz.
 - terme (0 Nennungen in Wortform)
 
-Einträge mit Dateiverweisen, die daneben Themen in Wortform nennen (29; auch diese Nennungen zählen nicht): binomische-formeln (7), bruchrechnung (2), brueche-dezimalzahlen (3), daten (5), einheiten (9), flaechen (7), koerper (5), kreis (6), kurvenuntersuchung (1), lineare-funktionen (1), lineare-gleichungen (2), lineare-gleichungssysteme (7), potenz-exponentialfunktionen (8), potenzen-wurzeln (5), prozentrechnung (2), pyramide-kegel-kugel (9), pythagoras (9), quadratische-funktionen (8), quadratische-gleichungen (8), rationale-zahlen (2), reelle-zahlen (6), strahlensaetze (9), symmetrie-abbildungen (7), trigonometrie (8), trigonometrische-funktionen (10), wahrscheinlichkeit (4), winkel-dreiecke (3), zinsrechnung (8), zuordnungen (2).
+Einträge mit Dateiverweisen, die daneben Themen in Wortform nennen (8; auch diese Nennungen zählen nicht): daten (5), einheiten (9), kurvenuntersuchung (1), lineare-gleichungssysteme (7), potenzen-wurzeln (5), reelle-zahlen (6), trigonometrische-funktionen (10), zinsrechnung (8).
 
 Einträge ohne Abschnitt „### Voraussetzungen (Blatt 0)“: 0.
 
@@ -175,4 +175,4 @@ Verweise auf Dateien, die kein Katalogeintrag sind: 1.
 - abitur-vokabular.md ← binomialverteilung (liegt in abitur/)
 
 ## Schwäche der Messung
-Die Zahlen messen, was in unseren Blatt-0-Abschnitten steht – also unsere eigene Sorgfalt beim Schreiben, nicht den Unterricht. Wo ein Eintrag seine Voraussetzungen sauber als Dateiverweise aufgelistet hat, steigen die Zahlen seiner Nachbarn; wo er sie in Wortform nennt oder weglässt, fehlen sie hier. Als Rangliste taugt die Messung, als Absolutwert nicht. Die Messlücken oben zeigen, wo sie blind ist.
+Die Zahlen messen, was in unseren Blatt-0-Abschnitten steht – also unsere eigene Sorgfalt beim Schreiben, nicht den Unterricht. Wo ein Eintrag seine Voraussetzungen sauber als Dateiverweise aufgelistet hat, steigen die Zahlen seiner Nachbarn; wo er sie in Wortform nennt oder weglässt, fehlen sie hier. Die Wortform-Heuristik sieht nur das Wort „Thema“ vor einem Großbuchstaben: Nennungen ohne dieses Wort übersieht sie, und den Dateiverweis einer Nennung erkennt sie nur in der Klammer unmittelbar hinter dem Titel („Thema Terme (terme.md)“). Als Rangliste taugt die Messung, als Absolutwert nicht. Die Messlücken oben zeigen, wo sie blind ist.

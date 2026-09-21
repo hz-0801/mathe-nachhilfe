@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-tragfaehigkeit.py v0.1 · 21.09.2026 · Tragfähigkeit der Themen aus den Blatt-0-Abschnitten
+tragfaehigkeit.py v0.2 · 21.09.2026 · Tragfähigkeit der Themen aus den Blatt-0-Abschnitten
+
+v0.2 (21.09.2026, Auftrag Werkzeugpflege): die Wortform-Heuristik kennt die Klammerform
+der Blatt-0-Abschnitte seit Commit cfa4723 – folgt dem Titel unmittelbar „ (<name>.md“
+(„Thema Terme (terme.md), Einheit 2“), ist es ein Verweis und keine Nennung in Wortform
+(WORTFORM); sonst unverändert. v0.1 (21.09.2026): erste Fassung.
 
 Der Katalog misst bisher nur Prüfungslast (Zeilen je Thema, themen.csv). Eine
 zweite, davon unabhängige Achse ist die Tragfähigkeit: wie oft ein Thema von
@@ -20,9 +25,11 @@ verworfen. Keine Gewichtung (nicht nach Einheit, nicht nach Profil).
 Was die Messung nicht sieht: Sie misst, was in unseren Blatt-0-Abschnitten
 steht, also die eigene Schreibsorgfalt, nicht den Unterricht. Nennt ein Eintrag
 seine Voraussetzungen in Wortform („[Thema Lineare Gleichungen, Einheit 2]“,
-die Form der Sek-I-Einträge der ersten Bauphase), zählt hier nichts. Deshalb
-weist die Ausgabe die Messlücken aus, und _pruef_struktur.py führt ihre Größe
-als Kennzahl 7 (Einträge ohne Verweis in Blatt 0; importiert messe() von hier).
+die Form der Sek-I-Einträge der ersten Bauphase), zählt hier nichts; die
+Klammerform „Thema Terme (terme.md), Einheit 2“ (seit Commit cfa4723) ist ein
+Verweis und zählt. Deshalb weist die Ausgabe die Messlücken aus, und
+_pruef_struktur.py führt ihre Größe als Kennzahl 7 (Einträge ohne Verweis in
+Blatt 0; importiert messe() von hier).
 
 Schreibt katalog/_tragfaehigkeit.md:
   Kopf        – Stand-Zeile (Datum, kurzer Hash des HEAD-Commits), Zählregel.
@@ -53,7 +60,7 @@ import subprocess
 import sys
 
 HIER = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Repo-Wurzel; Skript liegt in werkzeuge/
-VERSION = "tragfaehigkeit.py v0.1"
+VERSION = "tragfaehigkeit.py v0.2"
 KATALOG_ORDNER = "katalog"
 KONKORDANZ = "themen.csv"
 AUSGABE = "_tragfaehigkeit.md"  # in katalog/
@@ -63,7 +70,13 @@ ABSCHNITT = re.compile(r"^### Voraussetzungen \(Blatt 0\)[^\n]*\n(.*?)(?=^### |^
 VERWEIS = re.compile(r"(?<![\w.-])((?:[\w.-]+/)*)([A-Za-z0-9_][\w-]*)\.md\b")
 # Heuristik für Nennungen in Wortform: das Wort „Thema“ vor einem großgeschriebenen Themennamen
 # („[Thema Lineare Gleichungen, Einheit 2]“); Dateiverweise sind kleingeschrieben und treffen nicht.
-WORTFORM = re.compile(r"(?<![\w-])Thema [A-ZÄÖÜ]")
+# Seit v0.2: folgt dem Titel – dem Text bis zur ersten runden oder eckigen Klammer, zum ersten Punkt,
+# Semikolon oder Doppelpunkt; Kommas gehören zum Titel („Pyramide, Kegel, Kugel“) – unmittelbar
+# „ (<name>.md“, ist es die Klammerform „Thema Terme (terme.md), Einheit 2“ (seit Commit cfa4723):
+# ein Verweis, den VERWEIS zählt, keine Nennung in Wortform. „Thema Lineare Funktionen (Sek I,
+# Einheit 3)“ bleibt Wortform, weil in der Klammer kein <name>.md folgt.
+TITEL = r"[^()\[\].;:]*"
+WORTFORM = re.compile(r"(?<![\w-])Thema (?!" + TITEL + r" \((?:[\w.-]+/)*[A-Za-z0-9_][\w-]*\.md\b)[A-ZÄÖÜ]")
 
 
 def eintraege(katalog):
@@ -232,8 +245,9 @@ def baue(m, stand):
     w("")
     ov = m["ohne_verweis"]
     w(f"Einträge ohne Verweis der Form `<name>.md` im Blatt-0-Abschnitt: {len(ov)} von {n}. "
-      "In Klammern die Nennungen in Wortform („Thema …“ vor einem Großbuchstaben, Heuristik) – "
-      "die Nachfrage, die diese Einträge stellen, fehlt in Tabelle A ganz.")
+      "In Klammern die Nennungen in Wortform („Thema …“ vor einem Großbuchstaben, Heuristik; folgt dem Titel "
+      "unmittelbar „ (<name>.md“ wie in „Thema Terme (terme.md), Einheit 2“, ist es ein Verweis und keine "
+      "Nennung in Wortform) – die Nachfrage, die diese Einträge stellen, fehlt in Tabelle A ganz.")
     for name in ov:
         k = m["wortform"].get(name, 0)
         w(f"- {name} ({k} {'Nennung' if k == 1 else 'Nennungen'} in Wortform)")
@@ -265,6 +279,9 @@ def baue(m, stand):
     w("Die Zahlen messen, was in unseren Blatt-0-Abschnitten steht – also unsere eigene Sorgfalt beim Schreiben, "
       "nicht den Unterricht. Wo ein Eintrag seine Voraussetzungen sauber als Dateiverweise aufgelistet hat, "
       "steigen die Zahlen seiner Nachbarn; wo er sie in Wortform nennt oder weglässt, fehlen sie hier. "
+      "Die Wortform-Heuristik sieht nur das Wort „Thema“ vor einem Großbuchstaben: Nennungen ohne dieses Wort "
+      "übersieht sie, und den Dateiverweis einer Nennung erkennt sie nur in der Klammer unmittelbar hinter dem "
+      "Titel („Thema Terme (terme.md)“). "
       "Als Rangliste taugt die Messung, als Absolutwert nicht. Die Messlücken oben zeigen, wo sie blind ist.")
     w("")
     return "\n".join(out)
