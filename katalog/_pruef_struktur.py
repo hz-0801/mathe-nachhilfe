@@ -16,6 +16,11 @@
    nicht hat). Das ist bewusst nicht die Rangliste der Tragfähigkeit – die steht in _tragfaehigkeit.md
    (werkzeuge/tragfaehigkeit.py) –, sondern das Loch in ihrer Messung: was diese Einträge voraussetzen,
    zählt dort nicht. Die Zählregel wird von dort importiert, damit beide Zahlen dieselbe sind.
+7. Kennzahl 8 (seit Auftrag Verweis- und Namensprüfung, 21.09.2026): die zwei harten Befunde der
+   Verweisprüfung – Verweise <name>.md auf Dateien, die es im Repo nicht gibt, und Einheitsnummern hinter
+   einem Verweis, die größer sind als die Zahl der Lerneinheiten der Zieldatei. Die vollständige Prüfung
+   (fünf Teile, auch Namensgleichheit, Gegenrichtung und Formlücke) steht in _verweise.md
+   (werkzeuge/verweis-pruef.py); hier nur, was auf null gehört. Die Zählregel wird importiert.
 Aufruf im Ordner katalog/: python3 _pruef_struktur.py – die CSVs werden eine Ebene darüber erwartet.
 Aufgabenstämme ohne Teilaufgabenbuchstaben (2017-OS-K7; bei iqb eine Kennung, deren Aufgabe
 Teilaufgaben hat) werden nicht geprüft.
@@ -197,3 +202,26 @@ try:
         for p in ohne7: print('   ', p + '.md')
 except ImportError:
     print('Kennzahl 7 – werkzeuge/tragfaehigkeit.py fehlt')
+
+# --- Kennzahl 8 (seit Auftrag Verweis- und Namensprüfung, 21.09.2026): harte Verweisbefunde.
+# werkzeuge/verweis-pruef.py prüft jeden Verweis <name>.md in jedem Abschnitt jedes Eintrags (hat das Ziel
+# eine Datei?) und jede Einheitenangabe direkt hinter einem Verweis (hat die Zieldatei so viele Lerneinheiten?)
+# und schreibt daraus _verweise.md (dort auch Namensgleichheit, Gegenrichtung, Formlücke). Die Kennzahl zählt
+# nur die zwei Befunde, die kein Ermessen sind und auf null gehören; sie wird mit derselben Zählregel erhoben
+# (Import über den Dateipfad, weil der Skriptname einen Bindestrich trägt), nicht nachgebaut.
+try:
+    import importlib.util
+    _spec = importlib.util.spec_from_file_location(
+        'verweis_pruef', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'werkzeuge', 'verweis-pruef.py'))
+    verweis_pruef = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(verweis_pruef)
+    mv = verweis_pruef.messe()
+    fehlend = [f for f in mv['p1']['funde'] if f['gruppe'] == 'c']
+    zu_gross = [z for z in mv['p2']['zugeordnet'] if z['zu_gross']]
+    print(f'Kennzahl 8 – Verweisbefunde: {len(fehlend)} Verweise auf Dateien, die es nicht gibt '
+          f'({len(set(f["verweis"] for f in fehlend))} Namen), {len(zu_gross)} Einheitsnummern größer als vorhanden')
+    if '-v' in sys.argv:
+        for f in fehlend: print('   ', f['verweis'], '←', f['quelle'] + '.md', f'({f["abschnitt"]}, Zeile {f["zeile"]})')
+        for z in zu_gross: print('   ', z['verweis'], z['angabe'], '←', z['quelle'] + '.md', f'({z["abschnitt"]}, Zeile {z["zeile"]}), {z["vorhanden"]} vorhanden')
+except (ImportError, FileNotFoundError, AttributeError):
+    print('Kennzahl 8 – werkzeuge/verweis-pruef.py fehlt')
