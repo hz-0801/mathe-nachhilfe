@@ -1,148 +1,123 @@
-# Übergabe 2026-09-21b
+# Übergabe 2026-09-22
 
 ## 1 Ziel
 
-Der Prüfungsblatt-Prompt soll über msa hinaus auf fhr und abi
-erweitert werden; zugleich sollen die Katalogdaten auch den
-Unterrichtsblatt-Prompt speisen, statt nur Prüfungsblätter zu
-tragen. Dafür wurden zuerst die Prüfungskataloge, dann der
-Themenkatalog fertiggestellt. Jetzt folgt der Umbau der beiden
-Prompte im Repo blattbau.
+Steht in ziel.md (22.09.2026): beide Blattsorten, Leiter als
+Bauprinzip, gemeinsame Regeln, Offenes. Diese Übergabe wiederholt
+es nicht.
 
 ## 2 Arbeitsgrundlage
 
-- GitHub hz-0801/mathe-nachhilfe, Commit a1a7d07 (21.09.2026).
-- befund-inkonsistenzen-2026-09-21.md – die sieben Befunde, die
-  vor dem Umbau zu besprechen sind. Zentraler Text dieses Chats.
-- blatt-konzept.md v0.8 (12.09.2026) – trägt den Satz „Für die
-  Heft-Phase gilt bei Widerspruch diese Datei", ist aber in Teilen
-  überholt (Befund § 2, 3, 5, 6, 7, 8).
-- konzept.md § 4 – Entscheidungen 1–37, maßgeblich für den Katalog.
-- katalog/ – 73 Einträge, Status Entwurf, gegengelesen: nein.
-- katalog/_tragfaehigkeit.md (Kennzahl 7), katalog/_verweise.md
-  (Kennzahl 8), katalog/_blatt0-belege.md (Kennzahl 9) – abgeleitet,
-  nie von Hand ändern.
-- befund-geltung-2026-09-21.md – Geltung der beiden Vorratsthemen,
-  Lage der Vorgaben, P10-Strukturänderung ab 2026.
-- themen.csv; faellig.md § 2 und § 3.
-- hz-0801/blattbau, Commit 0e1ec2d: unterrichtsblatt.md v3.35,
-  pruefungsblatt.md v0.15, mathblatt.sty, Anleitung, zwei
-  Testauswertungen. Gegenstand des Umbaus, bisher unangetastet.
-- hz-0801/anweisungen: global.md und projekt-verbessereBlaetter.md,
-  beide Stand 2026-09-21; kandidaten.md mit der Delegationsform.
+- hz-0801/mathe-nachhilfe, Commit 7bdc93d (22.09.2026, gepusht):
+  ziel.md neu; konzept.md § 1 verweist darauf; README-Zeile.
+- ziel.md – maßgeblich für jede Blattbau-Entscheidung.
+- befund-inkonsistenzen-2026-09-21.md (2d0ca53) – neun Befunde;
+  Stand je Befund in § 3.
+- blatt-konzept.md v0.8 – widerspricht ziel.md in § 2 (Heftsorte
+  Vorbereitung), § 5 (Trennung nach Quelle), § 6 (kein Kasten war
+  richtig; ein PDF, keine Quelle im Heft, Voraussetzungen als
+  Hinweis sind überholt). Nachzuziehen als v0.9, nach dem Testlauf.
+- konzept.md § 3 (beide Prompte lesen den Themenkatalog) und § 4
+  (Entscheidungen 1–37).
+- hz-0801/blattbau, Commit 0e1ec2d – Prompte v3.35 / v0.15,
+  unangetastet; Tag v3.35-vor-katalogumbau.
+- hz-0801/anweisungen, Commit df2c09f (22.09.2026, gepusht):
+  projekt-verbessereBlaetter.md Stand 2026-09-22 (Chatstart liest
+  ziel.md zuerst, Modellzeile erste Zeile, /clear-Regel).
+  global.md Stand 2026-09-21. Beide Einstellungen am 22.09.2026
+  nachgezogen.
+- Werkstattposten (24 Zeilen ohne Ziel, faellig.md § 2, zwei
+  Werkzeuge mit fest eingebauten Zahlen): unverändert, siehe
+  archiv/uebergabe-2026-09-21b.md § 5.
 
 ## 3 Arbeitsstand
 
-Fünf Läufe an einem Tag, alle gepusht: cfa4723 (112 Dateiverweise
-in 21 Einträgen), 9722afb (Werkzeugpflege, beide Messwerkzeuge auf
-v0.2), f6e5fc5 (50 Dateiverweise in acht weiteren Einträgen),
-795ca0a (20 Zuordnungen, Geltungsbefund abgelegt, blatt0-belege.py
-v0.2), a1a7d07 (Geltungsvermerke geschlossen).
+Abgeschlossen: ziel.md geschrieben und abgelegt – ein Tag Sparring
+zu Ziel, Erfolgskriterium, Leiter, Blatt 0, Bereitstellung,
+„schwach", Kennzeichnung, Klassenarbeit, Prüfungsheft.
 
-Damit ist die Mechanik am Katalog erledigt. Kennzahl 9 fiel von 93
-auf 24 von 463 Fertigkeitszeilen, Kennzahl 7 von 22 auf 0 von 73.
-Alle Blatt-0-Voraussetzungen, die auf ein Katalogthema zeigen,
-nennen es jetzt als Dateiverweis – ein Prompt kann Blatt 0
-maschinell auflösen.
+Befunde aus befund-inkonsistenzen, Stand:
+- § 1, § 2 erledigt: konzept.md § 3 (19.09.) sagt schon, dass
+  beide Prompte den Themenkatalog lesen; blatt-konzept § 5 ist die
+  ältere Datei. Trennlinie bleibt „woher Typen und Decke kommen".
+- § 3, § 4: blatt-konzept nachziehen (v0.9), Diskussionsstand
+  vom 19.09. dort einordnen.
+- § 5 (Kurztest gegen „kein eigener Test"): nicht besprochen.
+- § 6 entschieden: kein Kasten auf dem Blatt (ziel.md § 2).
+- § 7 entschieden: Heftsorte Vorbereitung geht in Blatt 0 auf;
+  Voraussetzungen kommen aus dem Katalog, nicht abgeleitet.
+- § 8 erledigt durch die Leiter: Kette und Überspringen sind kein
+  Gegensatz – die Kette wird gebaut, übersprungen wird auf dem
+  Blatt.
+- § 9: unverändert (24 Zeilen, Bodenfrage).
 
-Nicht begonnen: der Umbau der blattbau-Prompte. Kein Blatt ist
-bisher aus einem Katalogeintrag gebaut worden.
+Nicht begonnen: kein Blatt aus einem Katalogeintrag gebaut; kein
+Prompt geändert.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-- Entscheidungen 1–37: konzept.md § 4; nicht neu aufrollen.
-- Die vier blattbau-Konzepte vom 19.09. (Blatt 0 als
-  Standardbestandteil, Überspringbarkeit, Kurztest, Stundenanker
-  samt Zuruf-Deutung) sind **nicht** entschieden, sondern
-  Diskussionsstand. Die Übergabe 2026-09-20 führte sie
-  fälschlich unter „Verbindliche Entscheidungen".
-- Die Prompte funktionieren in ihrem bisherigen Zuschnitt. Der
-  Umbau erweitert sie, er repariert sie nicht.
-- Zuordnungen werden additiv geschrieben: der lesbare Titel bleibt,
-  der Dateiname kommt in Klammern dazu („Thema Terme (terme.md),
-  Einheit 2."). Die Angleichung an die knappere Sek-II-Form gehört
-  in die Zielform-Diskussion.
-- Eine Fertigkeit ohne Ziel wird nicht gebogen, bis eine passt.
-  „Punkt vor Strich mit natürlichen Zahlen" auf bruchrechnung E5 zu
-  legen wäre mehr Papier, aber nicht mehr Hilfe.
-- Claude Code im Code-Tab, Aufträge als Textblock nach der
-  Delegationsform, /clear als eigene Eingabe voraus. Die
-  Modellangabe im Block ist Dokumentation, keine Umschaltung: das
-  Modell setzt die Sitzung. Sie steht deshalb in der ersten Zeile
-  des Blocks, nicht am Ende.
+- Alles in ziel.md § 1–4. Entscheidungen 1–37 in konzept.md § 4
+  bleiben; Entscheidung 9 (Häufigkeit ist im Katalog kein Filter)
+  bleibt – dass Häufigkeit die Reihe ordnet, ist Blattbau-Regel
+  und gehört nach blatt-konzept § 3.
+- Revidiert gegenüber blatt-konzept § 6 (06.09.), Grund je Zeile:
+  Jahreszahl am verfremdeten Original auf dem Schülerblatt statt
+  „keine Quelle im Heft" (Nachschlagen ist egal, der Schüler hat
+  ohnehin KI); Blatt 0 als eigenes PDF zuerst, dann drei Dateien,
+  statt „ein PDF" (live sechs Minuten früher; kippt unter zwei
+  Minuten Bauzeit).
+- Vorgehen ab jetzt: erst ein Exemplar bauen, dann die Regel dazu
+  schreiben – gilt in diesem Projekt; als projektübergreifende
+  Regel abgelehnt.
+- Claude Code arbeitet im Ordner der Sitzung; ein Block für einen
+  anderen Ordner wird erkannt und abgelehnt. Anweisung „wechsle
+  per change_directory nach <Ordner>" im Feld Sonstiges
+  funktioniert; sauberer ist die richtige Sitzung.
+- Modell setzt die Sitzung; Opus statt Sonnet in einem
+  Mechanik-Auftrag ist folgenlos, nur Kontingent.
 
 ## 5 Offene Punkte und verworfene Ansätze
 
-**Vor dem Umbau zu besprechen** – die sieben Befunde und die vier
-Konzepte. Tragend ist Befund § 1: Der Themenkatalog hat bis heute
-keinen Abnehmer, und blatt-konzept.md § 5 schließt aus, dass der
-Unterrichtsblatt-Prompt einen Katalog liest.
+Offen: ziel.md § 5 (mündliche Prüfung, Verschmelzung, Beispiel,
+„oft", Ertrag-Skript, Kategorien, Boden, VERA-8, „schwach",
+Kursart ohne Zuruf, Sonnet als Baumodell). Dazu: Befund § 5
+Kurztest; Gegenlese der Katalogeinträge als Claude-Code-Auftrag
+gegen die Quellen statt durch den Lehrer (Befund je Eintrag:
+Behauptung, Beleg, Abweichung); Skript „Einheit → Typen" aus den
+Quellenklammern (Kennzahl 5 nennt die 23 Lücken).
 
-**Dazu die Frage, die an diesem Tag entstand:** Blatt 0 soll nicht
-nur Voraussetzungen prüfen, sondern Stoff in Erinnerung rufen, den
-der Schüler seit Jahren nicht hatte, und zwar an den Stellen, die
-nach langer Pause Probleme machen. Das Material dafür liegt
-bereits im Katalog – jeder Eintrag hat Merkkästen je Lerneinheit
-und einen Abschnitt „Typische Fehler". Zu klären ist dreierlei: ob
-der Prompt sie über die Blatt-0-Verweise holt (Anker-
-Kompositionsregel, Posten in faellig.md § 2); dass die Körnung
-nicht passt (Kasten gehört zur Lerneinheit, Verweis zur
-Fertigkeit); und dass „Typische Fehler" Prüfungsfehler sammelt,
-nicht Vergessensfehler.
-
-**24 Fertigkeitszeilen ohne Ziel** (Kennzahl 9), in drei Sorten:
-20 zeigen unter den Katalog (Einmaleins und schriftliches Rechnen,
-Teilbarkeit, Stellenwerte und Zahlenstrahl, Punkt vor Strich,
-Zeichnen mit dem Geodreieck, Vierecksarten); 3 sind
-Rechnerbedienung in Sek-II-Einträgen, ausdrücklich als
-Werkzeugwissen gekennzeichnet; 1 ist der Grenzfall daten 37
-(„Längen abtragen"). Fünf der 20 tragen bereits die selbst
-erfundene Marke „Kein eigenes Thema", die die Messung nicht kennt.
-Zu entscheiden: ob der Katalog einen Boden bekommt, in welcher
-Form (eine schlanke Eintragsart wäre der Präzedenzfall
-Verweiseintrag aus E36), und ob Werkzeugwissen eine eigene Marke
-braucht. Quellen dafür wären RLP Teil C Niveaustufen C/D und die
-MSK-Bausteine; für den Schnitt der Bodenthemen bräuchte es zwei
-bis drei weitere Lehrwerks-Gliederungen für Klasse 5/6 zum
-Übereinanderlegen – im Repo liegt nur der Klett-Fahrplan.
-
-**Werkstatt, Posten in faellig.md § 2:** fhr-typen.csv führt das
-Thema „Gleichungen lösen", themen.csv hat keine fhr-Zeile dazu
-(wird dringend bei der fhr-Erweiterung); 27 Namensabweichungen
-H1 gegen thema; 237 Verweise aus Katalogeinträgen in
-Werkstattdateien; 270 Paare ohne Gegenrichtung (hängt daran, ob
-Blatt 0 auch vorwärts aufgelöst wird); sechs RLP-Zitate nicht
-wörtlich; MSK-Bausteinliste lückenhaft (Online-Check über das
-Brandenburger Schulportal verfügbar); P10-Struktur ab 2026;
-zwei neue Inhalte auf Niveaustufe G (Sinussatz, Lösbarkeit
-quadratischer Gleichungen); index.md Zeile 232 veraltet – die
-fehlende Zahl ist 316/308/8.
-
-**Zwei Werkzeuge tragen fest eingebaute Zahlen**, die bei jeder
-gewollten Änderung reißen: die Gegenprobe in blatt0-belege.py und
-die Prosazeile index.md 232. Dieselbe Schwäche; die saubere Lösung
-ist, auf die abgeleiteten Dateien zu verweisen statt Zahlen zu
-wiederholen.
-
-**Verworfen:** Quellenklammern maschinell gegen Register auflösen,
-um fehlende Themenzuordnungen zu finden – die Klammern sagen, wo
-eine Fertigkeit gebraucht wird, nicht wo sie gelehrt wird; 55 von
-145 Bestandteilen ließen sich auflösen, keine einzige Auflösung
-nannte ein Katalogthema. Ebenso: Formerweiterung „typischer Fehler
-→ verletzte Voraussetzung"; Zurufparameter „reduziert"/
-„Spickzeile"; Stundenanker als Katalogobjekt; gemeinsamer Kern 3–6
-der Prompte als geholte Datei.
-
-**Lehrer:** fachliche Gegenlese der Sek-II-Einträge; Posten in
-faellig.md § 3; global.md und projekt-verbessereBlaetter.md aus
-dem Repo in die Einstellungen kopieren (Stand 2026-09-21 gegen
-19c bzw. 19).
+Verworfen am 22.09., mit Grund:
+- Sterne für Schwierigkeit oder Kern: die Reihenfolge trägt beides
+  (leicht → schwer innerhalb des Typs, Typen nach Ertrag); Sterne
+  hätten Abschnitt 3–6 der Prompte aufgemacht.
+- Marke „Kern"/„oft": nur „selten"; „oft" steht vorn. Nicht
+  endgültig, siehe offen.
+- Marke „hintenan": Reihenfolge und Weglassen bei „schwach"
+  leisten das; gedruckte Erlaubnis zum Auslassen bleibt verboten.
+- Kategorieheft als Heftsorte: die Reihe ist eine Folge von
+  Themenheften in Ertragsfolge.
+- Rahmenlehrplan-Niveaustufe als Decke: keine Aufgabenhöhe, der
+  Prompt müsste schätzen; „auf Zuruf über Prüfungsniveau" reicht.
+- „Zum Bestehen reicht" als Zielsprosse: unbelegt; ersetzt durch
+  Ertrag (Häufigkeit, BE, block, schritte).
+- Zweites Erfolgskriterium „Lehrer sieht die Stufe": vom Lehrer
+  gestrichen, er hilft an den Stolperstellen selbst.
+- Ziel als konzept.md § 1: eigene Datei, weil § 1 im Katalog-
+  Konzept unterging und beim nächsten Umbau wieder umgeschrieben
+  würde.
 
 ## 6 Nächster Arbeitsschritt
 
-Die sieben Befunde aus befund-inkonsistenzen-2026-09-21.md
-durchgehen, beginnend mit § 1 und § 2: Wird die Architekturregel
-„Trennung nach Quelle" aufgehoben oder neu gezogen, und liest der
-Unterrichtsblatt-Prompt künftig themen.csv und katalog/*.md? An
-dieser Antwort hängen die vier Konzepte vom 19.09. und die
-Erinnerungsfrage. Erst danach wird an den Prompten gebaut.
+Testlauf vor jeder weiteren Regel: ein Lernblatt aus einem
+Katalogeintrag mit dem unveränderten Unterrichtsblatt-Prompt v3.35
+im Projekt erzeugeUnterrichtsblatt() – der Eintrag als eingefügter
+Text, dazu die Eingabe „Thema, mit Blatt 0 aus den Voraussetzungen
+des Eintrags". Thema so wählen, dass die strittigen Stellen drin
+sind: Sek-I-Thema mit Prüfungszeilen und Blatt-0-Dateiverweisen,
+Vorschlag katalog/prozentrechnung.md. Dieser Chat bereitet die
+Eingabe vor (Prompt, Eintrag, Einträge der Voraussetzungen),
+der Lehrer baut im Blatt-Projekt, das PDF und protokoll.txt
+kommen hierher. Auswertung gegen ziel.md: trägt der Eintrag,
+welche Felder liest ein Blatt, Beispiel, „oft", drei Dateien,
+Bauzeit. Danach blatt-konzept.md v0.9 aus dem Befund, parallel
+Ertrag-Skript und Kategorien (Mechanik, Claude Code).
