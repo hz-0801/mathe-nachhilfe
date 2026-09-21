@@ -186,7 +186,8 @@ Lerneinheiten entlang der Baumtypen der Fachdidaktik-Quelle [FD-BAUM] – Ereign
 Mengen, Laplace, unabhängige Stufen, ohne Zurücklegen, Mammutbäume, Situationsbäume,
 Term und Ereignis, Rückwärts; der Sek-I-Eintrag `wahrscheinlichkeit.md` bleibt
 unverändert und wird als Blatt 0 verwiesen; Befund: neun Einträge verweisen als Blatt 0 auf den
-Sek-I-Eintrag, vier davon müssten auf den neuen zeigen – nur geprüft, nicht geändert).
+Sek-I-Eintrag, vier davon müssten auf den neuen zeigen – nur geprüft, nicht geändert; am 21.09.2026
+gerichtet, samt den sechs Verortungssätzen der Stochastik-Abnehmer).
 Am selben Tag der zweite und letzte Neubau nach Entscheidung 37: `kombinatorik.md`
 (32 Katalogzeilen aus fhr, abi und iqb; drei Lerneinheiten – Zählprinzip und
 Anordnungen, Auswahlen und Binomialkoeffizient, Zählen mit Bedingungen und
