@@ -1,0 +1,30 @@
+DATEI matrizen-und-uebergangsprozesse.md
+ZEILE 2
+ALT Die Prüfungsrelevanz ab Abitur 2030 ist ungeklärt (gebündelte Geltungsrecherche nach der Serie, siehe Offene Punkte); für den Unterrichtszweck gilt der Eintrag unabhängig davon.
+NEU Die Prüfungsrelevanz ist geklärt: nicht prüfungsrelevant in Berlin und Brandenburg, für 2030 inhaltlich nichts angekündigt (befund-geltung-2026-09-21.md § 1, Stand 21.09.2026); für den Unterrichtszweck gilt der Eintrag unabhängig davon.
+----
+DATEI matrizen-und-uebergangsprozesse.md
+ZEILE 117
+ALT Die Prüfungsrelevanz ab Abitur 2030 ist ungeklärt und wird in einer gebündelten Geltungsrecherche nach der Serie geprüft (siehe Offene Punkte); für den Unterrichtszweck (Oberstufenklausuren anderer Kurse, Wiederholung, Studienvorbereitung) gilt der Eintrag unabhängig davon.
+NEU Die Prüfungsrelevanz ist geklärt (befund-geltung-2026-09-21.md § 1, Stand 21.09.2026): Die Prüfungsschwerpunkte 2027 führen unter Geometrie die Parametergleichung einer Geraden, neu ergänzt um den Zusammenhang zwischen Geraden und Punktmengen – Matrizen kommen nicht vor; seit 2025 entfällt zudem die Wahl zwischen Analytischer Geometrie und Stochastik im Prüfungsteil 2, so dass kein Platz für A1 bleibt; die Angleichung ab 2030 betrifft die Funktionalitäten der digitalen Hilfsmittel, nicht die Themen. Für den Unterrichtszweck (Oberstufenklausuren anderer Kurse, Wiederholung, Studienvorbereitung) gilt der Eintrag unabhängig davon.
+----
+DATEI matrizen-und-uebergangsprozesse.md
+ZEILE 124
+ALT - Geltungsfrage (Auftrag Bündel 9, nicht geklärt, nur vermerkt): Die Prüfungsrelevanz des Themas für die Zielprüfungen ab Abitur 2030 ist ungeklärt – heute führen alle vier Geltungsdateien „nein“ (die Länder entnehmen die Alternative A2), ob künftige Vorgaben (neue Bildungsstandards, geänderte Prüfungsschwerpunkte, eine andere Alternativenwahl) das ändern, klärt eine gebündelte Geltungsrecherche nach der Serie.
+NEU - Geltungsfrage (Auftrag Bündel 9, am 21.09.2026 geklärt): Das Thema ist in beiden Ländern nicht prüfungsrelevant – alle vier Geltungsdateien führen „nein“, die Länder entnehmen die Alternative A2, und für 2030 ist inhaltlich nichts angekündigt; Grundlage der Prüfungsschwerpunkte 2027 sind weiterhin die Bildungsstandards der KMK vom 18.10.2012 und der GOST-Rahmenlehrplan Brandenburg vom 01.08.2022, eine Revision ist nicht angekündigt (befund-geltung-2026-09-21.md § 1). Offen bleibt nur, was über das Prüfungsjahr 2027 hinausreicht: weiter reicht keine veröffentlichte Vorgabe.
+----
+DATEI konfidenzintervalle.md
+ZEILE 2
+ALT die Prüfungsrelevanz künftiger Jahrgänge ist ungeklärt und wird nach der Serie gebündelt recherchiert, für den Unterrichtszweck gilt der Eintrag unabhängig davon
+NEU die Prüfungsrelevanz ist geklärt: nicht prüfungsrelevant in Berlin und Brandenburg, nichts neu aufgenommen (befund-geltung-2026-09-21.md § 2, Stand 21.09.2026), für den Unterrichtszweck gilt der Eintrag unabhängig davon
+----
+DATEI konfidenzintervalle.md
+ZEILE 79
+ALT die Relevanz künftiger Jahrgänge klärt die gebündelte Geltungsrecherche nach der Serie.
+NEU die Relevanz künftiger Jahrgänge ist geklärt: In den Prüfungsschwerpunkten 2027 ist „Schätzen von Wahrscheinlichkeiten aus relativen Häufigkeiten (k−σ−Regeln, 1/√n−Gesetz)“ gestrichen, in Leistungs- wie Grundkurs – der unmittelbare Nachbar der Konfidenzintervalle fällt weg, aufgenommen wird nichts (befund-geltung-2026-09-21.md § 2).
+----
+DATEI konfidenzintervalle.md
+ZEILE 85
+ALT Die Prüfungsrelevanz künftiger Jahrgänge (ab Abitur 2030) bleibt ungeklärt und gehört in die gebündelte Geltungsrecherche nach der Serie, zusammen mit matrizen-und-uebergangsprozesse.md.
+NEU Die Prüfungsrelevanz künftiger Jahrgänge ist am 21.09.2026 geklärt worden (befund-geltung-2026-09-21.md § 2): nicht prüfungsrelevant, Umfeld schrumpft eher, für 2030 inhaltlich nichts angekündigt. Einschränkung der Erhebung: gelesen wurde die Änderungstabelle des Fachbriefs, nicht die vollständige Stochastik-Liste der Prüfungsschwerpunkte 2027 – gesichert ist, dass nichts hinzukam.
+----

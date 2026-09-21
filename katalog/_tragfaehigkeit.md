@@ -1,5 +1,5 @@
 # Tragfähigkeit der Themen – Nachfrage in Blatt 0
-Stand 2026-09-21, Katalog auf Commit f6e5fc5.
+Stand 2026-09-21, Katalog auf Commit 795ca0a.
 Erzeugt von `werkzeuge/tragfaehigkeit.py` (v0.2) aus den Blatt-0-Abschnitten der Einträge; abgeleitet, nie von Hand ändern. Der Katalog misst sonst nur Prüfungslast (Zeilen je Thema); hier steht die zweite Achse: wie oft ein Thema von anderen Einträgen gebraucht wird.
 
 Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`); je Eintrag der Abschnitt „### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, darin die Verweise der Form `<name>.md`, mit oder ohne Einheitsangabe. Ein Eintrag zählt je genanntem Thema einmal, gleich wie oft er es nennt; Selbstverweise zählen nicht; keine Gewichtung nach Einheit oder Profil. Zeilen = eigene Katalogzeilen, Summe der Spalte `zeilen` in `themen.csv` (Prüfungslast).
