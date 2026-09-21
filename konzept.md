@@ -1,11 +1,12 @@
 # KONZEPT – Arbeitsblätter aus alten Prüfungen
-Stand 19.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
+Stand 22.09.2026 · maßgebliche Grundlage; getroffene Entscheidungen werden ohne neuen Anlass nicht wieder aufgerollt
 
 ## 1 Ziel
 
-Ein Nachhilfeschüler wird über Wochen gezielt auf die schriftliche Prüfung P10 Mathematik (Brandenburg, FOR-Niveau = MSA) vorbereitet. Grundlage sind die alten Prüfungen: Sie zeigen, welche Aufgabentypen vorkommen, in welcher Sprache und auf welcher Höhe. Aus ihnen entstehen immer wieder neue, druckfertige Arbeitsblätter zu einzelnen Typen oder Themen. Am Ende kann der Schüler eine vollständige Originalprüfung lösen.
-
-Erfolgskriterium eines Blatts: Der Schüler löst danach Aufgaben dieses Typs auf Prüfungshöhe selbständig, und der Lehrer sieht am Blatt, an welcher Stufe er hängt.
+Das Ziel des Blattbaus steht in ziel.md: beide Blattsorten,
+die Leiter als Bauprinzip, gemeinsame Regeln, Offenes. Die
+frühere Fassung dieses Abschnitts (P10, 19.09.2026) ist durch
+sie ersetzt.
 
 ## 2 Bausteine
 
@@ -556,6 +557,11 @@ Geltung.
 
 ## 10 Änderungen
 
+- 2026-09-22: § 1 Ziel nach ziel.md ausgelagert und neu
+  geschrieben (Chat verbessereBlätter 22.09.2026): beide
+  Blattsorten, Leiter, gemeinsame Regeln, Kennzeichnung.
+  blatt-konzept.md widerspricht ziel.md in § 2, § 5, § 6 und
+  ist nachzuziehen (Befund § 3 in befund-inkonsistenzen).
 - 2026-09-19: Entscheidung 4 und 9 – fhr-Zahl korrigiert (37 statt 49 Typen mit genau einem Vorkommen; Zählung aus fhr-katalog.csv, Fund des Projektarchivs Katalog). Verweis fhr.md § 9 durch fhr-typenbibliothek.md ersetzt, weil § 9 die Zahl nicht mehr führt.
 - 2026-09-19: Umbau auf Ordner (README.md, § 2 Absatz Ablage). Blattbau in eigenes Repo ausgelagert; Befunde, namensschema.md und Werkstattzettel nach archiv/; Themenkatalog (29 Einträge, 11j) erstmals ins Repo unter katalog/; Bau-Skripte laufen im Profilordner, katalog-prompt.md über ../. CLAUDE.md § 1 durch Verweis auf README ersetzt, Landkarte-Regel auf README beschränkt.
 - 2026-09-18 (Auftrag Korpus und OCR, Etappen 1–4 und Abschluss): korpus-bau.py
