@@ -20,12 +20,12 @@ Einheit 3: Wurzel aus Produkt: beide Wege rechnen und vergleichen (√4 · √9 
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Potenz als Malkette mit Basis und Exponent, Potenz ausrechnen (auch negative Basis), a hoch null gleich eins und negative Hochzahl als Bruch – Einheit 2 und 3. Thema Potenzen und Wurzeln, Einheit 1. [RLP F „fortgesetzte Multiplikation“, RLP G negative Exponenten; P10 2022-OS-B1j]
-- Quadratwurzel als Umkehrung des Quadrierens, Quadratzahlen bis zwanzig hoch zwei, Wurzel mit dem Taschenrechner und Näherungswert, Wurzel zwischen zwei Nachbar-Quadratzahlen abschätzen, keine Wurzel aus negativer Zahl – Einheit 1 und 3. Thema Potenzen und Wurzeln, Einheit 3. [RLP F/G; P10 2015-OS-B1c, 2015-OS-B1j]
-- Bruch in Dezimalzahl umwandeln (Division), abbrechende und periodische Dezimalzahlen erkennen und mit Periodenstrich schreiben, Dezimalzahl in Bruch – Einheit 1. Thema Brüche und Dezimalzahlen, Einheit 4. [RLP E „auch periodische Dezimalzahlen“; LS-AA Kl. 6 II 3]
-- Zahlengerade mit negativen Zahlen, Brüche und Dezimalzahlen eintragen, Zahlen vergleichen und ordnen – Einheit 1. Thema Rationale Zahlen, Einheit 1; Brüche und Dezimalzahlen, Einheit 5. [RLP E]
-- Terme zusammenfassen: gleichartige Glieder, Vorzahl und Variable, Faktoren vertauschen – Einheit 2 und 3. Thema Terme, Einheit 2. [RLP E; LS-AA Kl. 7 IV 2]
-- Brüche als Exponenten lesen und mit Brüchen rechnen: ein halb plus ein halb, ein Drittel, Kehrwert – Einheit 3. Thema Bruchrechnung, Einheit 1 und 3. [RLP D/E]
+- Potenz als Malkette mit Basis und Exponent, Potenz ausrechnen (auch negative Basis), a hoch null gleich eins und negative Hochzahl als Bruch – Einheit 2 und 3. Thema Potenzen und Wurzeln (potenzen-wurzeln.md), Einheit 1. [RLP F „fortgesetzte Multiplikation“, RLP G negative Exponenten; P10 2022-OS-B1j]
+- Quadratwurzel als Umkehrung des Quadrierens, Quadratzahlen bis zwanzig hoch zwei, Wurzel mit dem Taschenrechner und Näherungswert, Wurzel zwischen zwei Nachbar-Quadratzahlen abschätzen, keine Wurzel aus negativer Zahl – Einheit 1 und 3. Thema Potenzen und Wurzeln (potenzen-wurzeln.md), Einheit 3. [RLP F/G; P10 2015-OS-B1c, 2015-OS-B1j]
+- Bruch in Dezimalzahl umwandeln (Division), abbrechende und periodische Dezimalzahlen erkennen und mit Periodenstrich schreiben, Dezimalzahl in Bruch – Einheit 1. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 4. [RLP E „auch periodische Dezimalzahlen“; LS-AA Kl. 6 II 3]
+- Zahlengerade mit negativen Zahlen, Brüche und Dezimalzahlen eintragen, Zahlen vergleichen und ordnen – Einheit 1. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 1; Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 5. [RLP E]
+- Terme zusammenfassen: gleichartige Glieder, Vorzahl und Variable, Faktoren vertauschen – Einheit 2 und 3. Thema Terme (terme.md), Einheit 2. [RLP E; LS-AA Kl. 7 IV 2]
+- Brüche als Exponenten lesen und mit Brüchen rechnen: ein halb plus ein halb, ein Drittel, Kehrwert – Einheit 3. Thema Bruchrechnung (bruchrechnung.md), Einheit 1 und 3. [RLP D/E]
 - Taschenrechner: Tasten x², ^, √ mit Klammer für den Term darunter, Bruch im Exponenten in Klammern, Anzeige mit vielen Stellen als Näherung lesen, ≈ – Einheit 1 und 3. Kein eigenes Thema. [potenzen-wurzeln.md Blatt 0 Taschenrechnerzeile; P10 Hilfsmittel immer ja]
 Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
 - „Geht die Wurzel auf?“ – zu Wurzeln ankreuzen, ob der Radikand eine Quadratzahl ist (Wurzel rational) oder nicht (irrational); nichts rechnen. Vor Einheit 1. [RLP G „Quadratwurzeln natürlicher Zahlen als Beispiele für irrationale Zahlen“; LISUM-PH „Irrationalität der Wurzel aus zwei beschreiben“]

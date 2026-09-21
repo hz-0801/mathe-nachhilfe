@@ -30,12 +30,12 @@ Zählung: 3 + 0 + 0 + 3 + 0 + 5 = 11 Haupttypen, 9 + 0 + 0 + 9 + 0 + 12 = 30 Zei
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Zahlen ordnen, auch Dezimalzahlen (9,5 < 9,6 < 9,7), und Skalen ablesen – Einheit 2 und 4. Thema Brüche und Dezimalzahlen, Einheit 4 und 5. [RLP D; P10 2024-OS-B1h, 2019-OS-B1i]
-- Addieren und Dividieren mit Dezimalzahlen (Taschenrechner) und Runden – Einheit 4. Thema Bruchrechnung, Einheit 4; Brüche und Dezimalzahlen, Einheit 5. [P10 2021-OS-B1f, 2015-OS-K7a]
-- Prozentsatz berechnen (Teil geteilt durch Ganzes), Prozent ↔ Dezimalzahl, Rest zu hundert Prozent – Einheit 1, 3 und 5. Thema Prozentrechnung, Einheit 1 und 2. [RLP E; P10 2025-OS-K6b, 2021-OS-K5b]
-- Winkel mit dem Geodreieck zeichnen; Winkel als Anteil vom Vollkreis (90° ist ein Viertel) – Einheit 3. Thema Winkel und Dreiecke, Einheit 1; Kreis, Einheit 3. [RLP D/E]
+- Zahlen ordnen, auch Dezimalzahlen (9,5 < 9,6 < 9,7), und Skalen ablesen – Einheit 2 und 4. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 4 und 5. [RLP D; P10 2024-OS-B1h, 2019-OS-B1i]
+- Addieren und Dividieren mit Dezimalzahlen (Taschenrechner) und Runden – Einheit 4. Thema Bruchrechnung (bruchrechnung.md), Einheit 4; Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 5. [P10 2021-OS-B1f, 2015-OS-K7a]
+- Prozentsatz berechnen (Teil geteilt durch Ganzes), Prozent ↔ Dezimalzahl, Rest zu hundert Prozent – Einheit 1, 3 und 5. Thema Prozentrechnung (prozentrechnung.md), Einheit 1 und 2. [RLP E; P10 2025-OS-K6b, 2021-OS-K5b]
+- Winkel mit dem Geodreieck zeichnen; Winkel als Anteil vom Vollkreis (90° ist ein Viertel) – Einheit 3. Thema Winkel und Dreiecke (winkel-dreiecke.md), Einheit 1; Kreis (kreis.md), Einheit 3. [RLP D/E]
 - Längen in Zentimetern und Millimetern abtragen – Einheit 3 (Streifen). [P10 2018-OS-K3c]
-- Bruchteil und Vielfaches einer Zahl („ein Drittel mehr“, „doppelt so viel“) – Einheit 5. Thema Brüche und Dezimalzahlen, Einheit 1. [P10 2020-OS-K2d]
+- Bruchteil und Vielfaches einer Zahl („ein Drittel mehr“, „doppelt so viel“) – Einheit 5. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 1. [P10 2020-OS-K2d]
 - Sek II: Produktsummen mit dem Rechner (Wert mal Häufigkeit, aufsummieren), Quadrieren und Wurzelziehen, Ergebnisse sinnvoll runden – Einheit 6 (gewichtetes Mittel, Standardabweichung); dazu die Rechnerfunktion für Mittelwert und Standardabweichung einer Liste mit beiden Nennern (gerätabhängig). Sek-I-Themen bruchrechnung.md Einheit 4, potenzen-wurzeln.md Einheit 3. [GOST Eingangsvoraussetzung L5 „bestimmen relative Häufigkeiten, Mittelwerte … sowie Streumaße“; FOS Eingangsvoraussetzung L5 „bestimmen relative Häufigkeiten und den arithmetischen Mittelwert“; Rohdatei: fhr 2020-C-3a, 2023-A-3b]
 - Sek II: eine lineare Gleichung mit einer Unbekannten aus einem Sachverhalt aufstellen und lösen (gewichtete Summe gleich Zielmittelwert mal Gesamtzahl) – Einheit 6 (gewichtetes Mittel rückwärts). Sek-I-Thema lineare-gleichungen.md Einheit 2 und 4. [FOS Eingangsvoraussetzung L4; Rohdatei: fhr 2021-A-3b, 2020-C-3e]
 - Sek II: Zeitangaben in Minuten und Sekunden addieren und teilen, ohne sie als Dezimalzahl zu lesen – Einheit 4 (fehlender Wert aus dem Mittel). Sek-I-Thema einheiten.md Einheit 2. [Rohdatei: iqb 2026MgrundlegendBStochastikWTR2-1e Fehlerquelle]

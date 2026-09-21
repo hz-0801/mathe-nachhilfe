@@ -28,13 +28,13 @@ Zählung: 2 + 0 + 1 + 1 + 8 = 12 Haupttypen, 2 + 0 + 1 + 1 + 10 = 14 Zeilen – 
 
 ### Voraussetzungen (Blatt 0)
 Fertigkeiten:
-- Lineare Gleichung mit Klammern, Dezimalzahlen und x auf beiden Seiten lösen, Schreibform mit Strich – Einheit 2 bis 4. Thema Lineare Gleichungen, Einheit 2 und 3. [RLP E/F; LS-AA Kl. 7 IV 5]
-- Lösung durch Einsetzen prüfen, Ergebnis mit (wA)/(fA) – alle Einheiten. Thema Lineare Gleichungen, Einheit 1. [RLP E „Prüfen einer Lösung“]
-- Gleichung nach einer Variablen umstellen (Formel umstellen: ax + by = c nach y) – Einheit 1 und 2. Thema Lineare Gleichungen, Einheit 4. [RLP E „Umstellen von Formeln“]
-- Gerade aus der Gleichung zeichnen (n und Steigungsdreieck), Punkt ablesen, Lage zweier Geraden (parallel bei gleicher Steigung) – Einheit 1. Thema Lineare Funktionen, Einheit 2 und 4. [RLP F]
-- Klammer ausmultiplizieren (Zahl mal Klammer, Minus vor der Klammer), Terme mit zwei Variablen zusammenfassen – Einheit 2 und 3. Thema Terme. [RLP E/F Distributivgesetz; LS-AA Kl. 8 II]
-- Rechnen mit Dezimalzahlen (Geld) und negativen Zahlen, Division mit dem Taschenrechner – Einheit 2 bis 4. Thema Bruchrechnung Einheit 4, Rationale Zahlen. [RLP D/E]
-- Gleichung mit einer Variablen aus einem Sachverhalt aufstellen (Preis · Anzahl, „zusammen“) – Einheit 4. Thema Lineare Gleichungen, Einheit 4. [P10 „Lineare Gleichung aus Sachverhalt aufstellen“]
+- Lineare Gleichung mit Klammern, Dezimalzahlen und x auf beiden Seiten lösen, Schreibform mit Strich – Einheit 2 bis 4. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 2 und 3. [RLP E/F; LS-AA Kl. 7 IV 5]
+- Lösung durch Einsetzen prüfen, Ergebnis mit (wA)/(fA) – alle Einheiten. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 1. [RLP E „Prüfen einer Lösung“]
+- Gleichung nach einer Variablen umstellen (Formel umstellen: ax + by = c nach y) – Einheit 1 und 2. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 4. [RLP E „Umstellen von Formeln“]
+- Gerade aus der Gleichung zeichnen (n und Steigungsdreieck), Punkt ablesen, Lage zweier Geraden (parallel bei gleicher Steigung) – Einheit 1. Thema Lineare Funktionen (lineare-funktionen.md), Einheit 2 und 4. [RLP F]
+- Klammer ausmultiplizieren (Zahl mal Klammer, Minus vor der Klammer), Terme mit zwei Variablen zusammenfassen – Einheit 2 und 3. Thema Terme (terme.md). [RLP E/F Distributivgesetz; LS-AA Kl. 8 II]
+- Rechnen mit Dezimalzahlen (Geld) und negativen Zahlen, Division mit dem Taschenrechner – Einheit 2 bis 4. Thema Bruchrechnung (bruchrechnung.md) Einheit 4, Rationale Zahlen (rationale-zahlen.md). [RLP D/E]
+- Gleichung mit einer Variablen aus einem Sachverhalt aufstellen (Preis · Anzahl, „zusammen“) – Einheit 4. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 4. [P10 „Lineare Gleichung aus Sachverhalt aufstellen“]
 - Sek II: Terme mit drei Variablen zusammenfassen, Gleichungen vervielfachen und addieren, nach einer Variablen umstellen – Einheit 5; das Einsetzen und die Addition mit zwei Variablen (Einheit 2 und 3 dieses Eintrags) sind die Werkzeuge des dritten Schritts. Sek-I-Themen terme.md, lineare-gleichungen.md Einheit 2 und 4. [GOST Eingangsvoraussetzung L1 „lösen lineare (2,2)- und (3,3)-Gleichungssysteme“; GOST-OHiMi 2.1]
 - Sek II: lineare Ungleichungen in einer Variablen lösen und Lösungen sieben (Vorzeichenbedingung, Ganzzahligkeit, größter Wert) – Einheit 5 (Lösungsschar mit Zusatzbedingungen). Sek-I-Thema lineare-gleichungen.md Einheit 3; Sek-II-Nachbarthema gleichungen-loesen.md (Ungleichungen). [Rohdatei: iqb 2024MerhoehtAAGLAA122-b, 2026MgrundlegendAAGLAA12]
 - Sek II: Tripel als Punkte und Vektoren lesen und die Lösungsmenge als Menge schreiben – Einheit 5. Sek-II-Nachbarthemen punkte-und-strecken-im-koordinatensystem.md (Tupel), schnittmengen.md und lagebeziehungen.md (dort die Anwendung: Schnittpunkt von Gerade und Ebene als Gleichungssystem). [GOST Q3 L1 „Tupel in Form von Punkten und Vektoren angeben“, „Gleichungssysteme in Anwendungssituationen (Bestimmung von Schnittmengen)“]
