@@ -1,0 +1,114 @@
+Prompt: Unterrichtsblatt-Prompt v4.1
+Modell: Claude Opus 5
+Vorlage: 2026-09-07d
+Katalog: katalog/daten.md, Status: gegengelesen bis auf [FS] (2026-09-08f; LISUM am 10d/10e; fünfter Gegenlese-Block 2026-09-10j; Sek-II-Teil ergänzt 2026-09-20, Entscheidung 37, nicht gegengelesen)
+
+Einheiten und Hauptnummern
+  Blatt 0 · Das kannst du schon
+    1 Prozente – rechnen und umrechnen
+    2 Zahlen ordnen und Skalen ablesen
+    3 Winkel und Anteile am Vollkreis
+    4 Zentimeter und Millimeter
+    5 Mit Dezimalzahlen rechnen und runden
+    6 Bruchteil und Vielfaches einer Zahl
+    7 Fehler finden – Anteile in Prozent
+  Einheit 1 · Häufigkeiten
+    8 Häufigkeiten – Was ist das Ganze? (Vorstufe)
+    9 Häufigkeiten – auszählen
+    10 Häufigkeiten – rechnen (Prüfungshöhe P10 2015)
+    11 Häufigkeiten – Fehler finden
+    12 Häufigkeiten – Begründen
+    13 Häufigkeiten – Anwendung
+  Einheit 2 · Säulen-, Balken- und Liniendiagramme
+    14 Diagramm – Was ist ein Kästchen wert? (Vorstufe)
+    15 Diagramm – Wo fängt die Achse an? (Vorstufe, gilt auch für Einheit 5)
+    16 Säulendiagramm – ablesen
+    17 Balken- und Liniendiagramm – ablesen
+    18 Diagramm – zeichnen
+    19 Diagramm – Achseneinteilung (Prüfungshöhe P10 2023)
+    20 Diagramm – Fehler finden
+    21 Diagramm – Begründen
+  Einheit 3 · Streifen- und Kreisdiagramm
+    22 Anteile – Prozent oder Grad? (Vorstufe)
+    23 Anteile – am Streifen
+    24 Anteile – Winkel berechnen
+    25 Anteile – Kreisdiagramm zeichnen
+    26 Anteile – Sektoren zuordnen (Prüfungshöhe P10 2024)
+    27 Anteile – Fehler finden
+    28 Anteile – Begründen
+  Einheit 4 · Kenngrößen
+    29 Kenngrößen – welche Kenngröße? (Vorstufe)
+    30 Kenngrößen – ordnen (Vorstufe)
+    31 Kenngrößen – Spannweite, Modalwert, Median
+    32 Kenngrößen – Mittelwert (Prüfungshöhe P10 2025)
+    33 Kenngrößen – Aussagen prüfen
+    34 Kenngrößen – Fehler finden
+    35 Kenngrößen – Begründen
+  Einheit 5 · Diagramme beurteilen und Boxplot
+    36 Beurteilen – Aussagen prüfen
+    37 Beurteilen – Achse und Verzerrung (Prüfungshöhe P10 2019)
+    38 Beurteilen – Boxplot lesen
+    39 Beurteilen – Fehler finden
+    40 Beurteilen – Begründen
+
+Zählung je Datei (Textextraktion des Kompilats)
+  Blatt 0: Hauptnummern 7 · Teilaufgaben 39 · Grafiken 1 · Seiten 2
+  Einheit 1: Hauptnummern 6 · Teilaufgaben 26 · Grafiken 1 · Seiten 3
+  Gesamt: Hauptnummern 40 · Teilaufgaben 208 · Grafiken 18 · Seiten 21
+  Lösungen: Hauptnummern 0 · Teilaufgaben 0 · Grafiken 0 · Seiten 3
+  Einheit 2 (nur Quelltext, kein eigenes PDF): Hauptnummern 8 · Teilaufgaben 44 · Grafiken 7
+  Einheit 3 (nur Quelltext, kein eigenes PDF): Hauptnummern 7 · Teilaufgaben 33 · Grafiken 4
+  Einheit 4 (nur Quelltext, kein eigenes PDF): Hauptnummern 7 · Teilaufgaben 38 · Grafiken 1
+  Einheit 5 (nur Quelltext, kein eigenes PDF): Hauptnummern 5 · Teilaufgaben 28 · Grafiken 4
+
+Verzeichnis des Gesamts (wortgleich)
+  Blatt 0 · Das kannst du schon (Nr. 1–7) · Seiten 2–3
+  Einheit 1 · Häufigkeiten (Nr. 8–13) · Seiten 4–6
+  Einheit 2 · Säulen-, Balken- und Liniendiagramme (Nr. 14–21) · Seiten 7–12
+  Einheit 3 · Streifen- und Kreisdiagramm (Nr. 22–28) · Seiten 13–15
+  Einheit 4 · Kenngrößen (Nr. 29–35) · Seiten 16–18
+  Einheit 5 · Diagramme beurteilen und Boxplot (Nr. 36–40) · Seiten 19–21
+
+Schritte (je Werkzeugaufruf: Schritt · Anlass)
+  Zeitstempel t0 · Beginn des Baus
+  Register holen · Themenzuordnung der Eingabe „daten“
+  Eintrag, mathblatt.sty und Anleitung holen · Bau nach 1.2 und 4.5
+  Eintrag lesen (vier Ansichten) · Lerneinheiten, Blatt 0, Kästen, Sprossen, Prüfungsform
+  Blatt 0 schreiben und kompilieren · Bereitstellung 2.7 Schritt 1
+  Blatt 0 korrigieren · leere Zellen in teilezwei, Zählerrücksetzungen in teile
+  Blatt 0 rechnen und rendern · Mindestprüfung 5.1 a und c
+  Einheit 1 schreiben und kompilieren · Bereitstellung 2.7 Schritt 2
+  Einheit 1 korrigieren · Buchstabenzähler nach der Strichlisten-Tabelle sprang auf a)
+  Einheit 1 korrigieren · x-Beschriftungen des Säulendiagramms liefen ineinander (Fußball/Schwimmen/Radfahren)
+  eigene.sty schreiben · Vorlage kennt keine Säulen ohne Wertebeschriftung, keinen Balken, keine Linie, keinen Streifen, keinen leeren Kreis mit Startradius
+  Einheit 2 schreiben und kompilieren · Bau
+  eigene.sty korrigieren · leere Werte zeichneten eine flache Säule (\ifblank statt \ifx\w\empty)
+  Einheit 3 schreiben, kompilieren, rendern · Bau und 5.1 c
+  Grafiken linksbündig setzen · Einzug am linken Satzspiegel (4.3)
+  Einheit 4 schreiben, kompilieren, rendern · Bau und 5.1 c
+  eigene.sty erweitern · ymin für die abgeschnittene Achse der Einheit 5
+  Einheit 5 schreiben, kompilieren, rendern · Bau und 5.1 c
+  Boxplot verbreitern · karo 0.5 zu eng zum Ablesen
+  Gesamt kompilieren (erster Lauf) · Seitenbereiche aus der Textextraktion
+  Gesamt kompilieren (zweiter Lauf) · Verzeichnis mit den ermittelten Seitenzahlen
+  Lösungen kompilieren · Bereitstellung 2.7 Schritt 5
+  Archiv packen · 6.3
+
+Vorlage: fehlende Bausteine · eigene.sty · Warnungen aus dem Log
+  fehlende Bausteine: Säulendiagramm ohne Wertebeschriftung (Ablesen), Balkendiagramm waagerecht,
+    Liniendiagramm, Streifendiagramm (Rahmen 10 cm), leerer Kreis mit Mittelpunkt und Startradius,
+    Einheitenkopf, Säulenachse mit ymin ungleich null
+  eigene.sty: \saeulenab, \balkenab, \liniendia, \streifenleer, \streifenvoll, \kreisleer,
+    \einheitenkopf, \strichliste
+  Warnungen aus dem Log: keine
+
+Korrekturrunden: 7 von 24 Schritten
+Zeiten (Sekunden seit t0)
+  blatt0: 284 s
+  e1: 475 s
+  e2: 653 s
+  e3: 757 s
+  e4: 977 s
+  e5: 1079 s
+  gesamt: 1127 s
+  loesungen: 1127 s

@@ -1,0 +1,41 @@
+Eingabe des Lehrers:
+daten
+
+Deutungszeile und Plan:
+→ Lernblatt · Kl. 7 (Katalog) · 5 Einheiten · Blatt 0 aus 6 Fertigkeiten · Einheit 6 (Sek II) weggelassen (Stoffstand Sek I)
+
+Einheit 1 · Häufigkeiten
+Einheit 2 · Säulen-, Balken- und Liniendiagramme
+Einheit 3 · Streifen- und Kreisdiagramm
+Einheit 4 · Kenngrößen
+Einheit 5 · Diagramme beurteilen und Boxplot
+
+Rückfragen: keine.
+Zwischenmeldung nach Einheit 3 (Werkzeuggrenze der ersten Antwort), Fortsetzung auf „Weiter“.
+
+Übergebene Dateien:
+Daten_Blatt0.pdf
+Daten_E1.pdf
+Daten_Gesamt.pdf
+Daten_Loesungen.pdf
+Daten_2026-09-22_protokoll.zip
+
+Ausgabeblock:
+- Eigene Bausteine in eigene.sty: \saeulenab (Säulen ohne Wertebeschriftung, mit feinen Hilfslinien,
+  Optionen ohnezahlen und ymin), \balkenab, \liniendia, \streifenleer/\streifenvoll, \kreisleer,
+  \einheitenkopf, \strichliste – die Vorlage kennt für Säulen nur \saeulen mit nodes near coords,
+  damit ist keine Ableseaufgabe baubar; Balken, Linie, Streifen und leerer Kreis fehlen ganz.
+- Einheit 6 des Eintrags (Kenngrößen aus Häufigkeitstabellen und Klassen, Sek II) weggelassen:
+  Stoffstand Sek I. Ebenso die Sek-II-Zeilen der Einheiten 1 und 4 und die beiden Sek-II-Vorstufen.
+- Vorrat nach Eintrag ausgelassen: Boxplot zeichnen, zwei Boxplots vergleichen; Boxplot lesen ist
+  gebaut (Nr. 38).
+- Zwei Zwischensprossen ergänzt: Nr. 16 „in Tausend“ als eigene Grafik (die Kette nennt die
+  Achsenbeschriftung, die Vorlage kann sie nicht in derselben Grafik zeigen); Nr. 32 h) Mittel aus
+  Summe und Anzahl vor dem fehlenden Wert.
+- Katalogzeile: gebraucht wurden Verortung, Lerneinheiten, Typen je Lerneinheit, Voraussetzungen
+  (Blatt 0) mit Erkennungsschritten, Für schwache Schüler (Sprossen je Verfahrenstyp), Typische
+  Fehler, Prüfungsform (P10) mit Zielmarke. Nicht gebraucht: Merkkasten (kein „mit kasten“),
+  Prüfungsform (fhr/abi/iqb), Sek-II-Teile, Status, Offene Punkte, Prüfliste. Gefehlt hat nichts:
+  jede der fünf Einheiten hat ein Original mit Jahr. Befund für den Katalog: der offene Punkt
+  „Vorlage: Kreisdiagramm, Streifen, Säulen zum Ergänzen, Balken waagerecht – prüfen, ob
+  mathblatt.sty Bausteine hat“ ist beantwortet: sie fehlen alle, siehe eigene.sty.

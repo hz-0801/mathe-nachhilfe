@@ -1,0 +1,20 @@
+36b	False	False	OK
+36d	False	False	OK
+36e	True	True	OK
+36f	False	False	OK
+36g	False	False	OK
+36h	1050.0	1050	OK
+36i	12.5	12.5	OK
+37a	400	400	OK
+37b	9.8	9.8	OK
+37c-hoehen	[10, 20, 30, 50]	[10, 20, 30, 50]	OK
+38a	3	3	OK
+38b	19	19	OK
+38c	11	11	OK
+38d	7	7	OK
+38e	15	15	OK
+38f	16	16	OK
+38g	50	50	OK
+38h	25	25	OK
+39b	9.1	9.1	OK
+Abweichungen: 0

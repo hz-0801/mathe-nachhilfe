@@ -23,6 +23,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `blatt-konzept.md` – die Heft-Phase: Sprossen, Decke, Merkmalsfrage (§ 7). Bei Widerspruch zum Prüfungsblatt-Prompt gilt es. Liegt hier, weil beide Repos es brauchen.
 - `faellig.md` – am Anfang eines Auftrags: Handlungen mit Termin oder Auslöser und bei wem sie liegen.
 - `befund-testlauf-2026-09-22.md` – Befund des ersten Katalog-Testlaufs (Lernblatt Prozentrechnung) mit den Beschlüssen, die den Prompt v4.0 tragen.
+- `befund-lauf3-2026-09-22.md` – Befund des dritten Testlaufs (Lernblatt Daten, v4.1): Bereitstellung, Stufenschnitt, Werkzeuggrenze, Bausteinliste für Vorlage Stufe 4.
 - `themen.csv` – Themenkonkordanz: kanonisches Thema je Katalogthema, alle vier Profile; nach jeder Katalogänderung `python werkzeuge/themen-pruef.py`.
 - `eingang/erledigt/` – verarbeitete Protokoll-Archive der Blatt-Chats (lokal, nicht versioniert).
 - `blaetter/` – abgelegte Blätter je Thema und Datum, PDFs und Quelltexte; `blaetter/index.md` ist das Register, abgeleitet.

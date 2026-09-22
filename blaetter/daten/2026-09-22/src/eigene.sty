@@ -1,0 +1,136 @@
+\ProvidesPackage{eigene}[2026/09/22 Ergaenzungen zu mathblatt: Ablese-Saeulen, Balken, Linien, Streifen, leerer Kreis]
+
+% ---------------------------------------------------------------------------
+% Saeulendiagramm zum Ablesen: Saeulen OHNE Wertebeschriftung, mit feinen
+% Hilfslinien zwischen den bezifferten Linien.
+%   \saeulenab[ymax=100,ystep=20,yfein=5,ylabel=Anzahl]{Mo/45,Di/70}
+%   Leere Werte -> nur Achse und Gitter (Schueler zeichnet).
+% ---------------------------------------------------------------------------
+\pgfkeys{/sab/.is family, /sab,
+  ymax/.estore in=\sabymax, ystep/.estore in=\sabystep, yfein/.estore in=\sabyfein,
+  ylabel/.estore in=\sabylabel, hoehe/.estore in=\sabhoehe, breite/.estore in=\sabbreite,
+  ohnezahlen/.is if=mbsabohne, ymin/.estore in=\sabymin,
+  default/.style={ymin=0,ymax=10,ystep=2,yfein=1,ylabel=Anzahl,hoehe=5,breite=1.5}}
+\newif\ifmbsabohne
+\NewDocumentCommand{\saeulenab}{O{} m}{%
+  \mbsabohnefalse\pgfkeys{/sab,default,#1}%
+  \pgfmathsetmacro{\sabsk}{\sabhoehe/(\sabymax-\sabymin)}%
+  \pgfmathsetmacro{\sabya}{\sabymin+\sabyfein}%
+  \pgfmathsetmacro{\sabyb}{\sabymin+\sabystep}%
+  \def\sabn{0}%
+  \foreach \k/\w [count=\i] in {#2}{\xdef\sabn{\i}}%
+  \pgfmathsetmacro{\sabr}{\sabn+0.7}%
+  \pgfmathsetmacro{\sabo}{\sabymax+0.9*\sabystep}%
+  \begin{tikzpicture}[x=\sabbreite cm,y=\sabsk cm,baseline=(current bounding box.north),line width=0.6pt]
+    \foreach \y in {\sabymin,\sabya,...,\sabymax}{\draw[mbgitter,line width=0.3pt] (0,\y) -- (\sabr,\y);}
+    \foreach \y in {\sabymin,\sabyb,...,\sabymax}{%
+      \draw[black!45,line width=0.3pt] (0,\y) -- (\sabr,\y);
+      \ifmbsabohne\else\node[left,font=\small,inner sep=3pt] at (0,\y) {\pgfmathprintnumber{\y}};\fi}
+    \foreach \k/\w [count=\i] in {#2}{%
+      \ifx\w\empty\else\filldraw[fill=mbkasten,draw=black,line width=0.7pt]
+        (\i-0.3,\sabymin) rectangle (\i+0.3,\w);\fi%
+      \node[below,font=\small,inner sep=4pt] at (\i,\sabymin) {\k};}
+    \draw[-{Stealth[length=2mm]}] (0,\sabymin) -- (0,\sabo) node[above right,font=\small,inner sep=2pt] {\sabylabel};
+    \draw[-{Stealth[length=2mm]}] (0,\sabymin) -- (\sabr,\sabymin);
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% Balkendiagramm (waagerecht), ohne Wertebeschriftung.
+%   \balkenab[xmax=50,xstep=10,xfein=2,xlabel=Anzahl]{Rot/32,Blau/18}
+% ---------------------------------------------------------------------------
+\pgfkeys{/bab/.is family, /bab,
+  xmax/.estore in=\babxmax, xstep/.estore in=\babxstep, xfein/.estore in=\babxfein,
+  xlabel/.estore in=\babxlabel, breite/.estore in=\babbreite, hoehe/.estore in=\babhoehe,
+  default/.style={xmax=10,xstep=2,xfein=1,xlabel=Anzahl,breite=8,hoehe=1.1}}
+\NewDocumentCommand{\balkenab}{O{} m}{%
+  \pgfkeys{/bab,default,#1}%
+  \pgfmathsetmacro{\babsk}{\babbreite/\babxmax}%
+  \def\babn{0}%
+  \foreach \k/\w [count=\i] in {#2}{\xdef\babn{\i}}%
+  \pgfmathsetmacro{\babo}{\babn+0.7}%
+  \pgfmathsetmacro{\babr}{\babxmax+0.9*\babxstep}%
+  \begin{tikzpicture}[x=\babsk cm,y=\babhoehe cm,baseline=(current bounding box.north),line width=0.6pt]
+    \foreach \x in {0,\babxfein,...,\babxmax}{\draw[mbgitter,line width=0.3pt] (\x,0) -- (\x,\babo);}
+    \foreach \x in {0,\babxstep,...,\babxmax}{%
+      \draw[black!45,line width=0.3pt] (\x,0) -- (\x,\babo);
+      \node[below,font=\small,inner sep=3pt] at (\x,0) {\pgfmathprintnumber{\x}};}
+    \foreach \k/\w [count=\i] in {#2}{%
+      \ifx\w\empty\else\filldraw[fill=mbkasten,draw=black,line width=0.7pt]
+        (0,\i-0.3) rectangle (\w,\i+0.3);\fi%
+      \node[left,font=\small,inner sep=4pt] at (0,\i) {\k};}
+    \draw[-{Stealth[length=2mm]}] (0,0) -- (\babr,0) node[below right,font=\small,inner sep=2pt] {\babxlabel};
+    \draw[-{Stealth[length=2mm]}] (0,0) -- (0,\babo);
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% Liniendiagramm ueber Kategorien, ohne Wertebeschriftung.
+%   \liniendia[ymax=,ystep=,yfein=,ylabel=]{2019/12,2020/15,...}
+% ---------------------------------------------------------------------------
+\NewDocumentCommand{\liniendia}{O{} m}{%
+  \mbsabohnefalse\pgfkeys{/sab,default,#1}%
+  \pgfmathsetmacro{\sabsk}{\sabhoehe/\sabymax}%
+  \def\sabn{0}%
+  \foreach \k/\w [count=\i] in {#2}{\xdef\sabn{\i}}%
+  \pgfmathsetmacro{\sabr}{\sabn+0.7}%
+  \pgfmathsetmacro{\sabo}{\sabymax+0.9*\sabystep}%
+  \begin{tikzpicture}[x=\sabbreite cm,y=\sabsk cm,baseline=(current bounding box.north),line width=0.6pt]
+    \foreach \y in {0,\sabyfein,...,\sabymax}{\draw[mbgitter,line width=0.3pt] (0,\y) -- (\sabr,\y);}
+    \foreach \y in {0,\sabystep,...,\sabymax}{%
+      \draw[black!45,line width=0.3pt] (0,\y) -- (\sabr,\y);
+      \node[left,font=\small,inner sep=3pt] at (0,\y) {\pgfmathprintnumber{\y}};}
+    \foreach \k/\w [count=\i] in {#2}{%
+      \draw[mbgitter,line width=0.3pt] (\i,0) -- (\i,\sabymax);
+      \node[below,font=\small,inner sep=4pt] at (\i,0) {\k};}
+    \xdef\mblinpath{}%
+    \foreach \k/\w [count=\i] in {#2}{%
+      \ifnum\i=1\xdef\mblinpath{(\i,\w)}\else\xdef\mblinpath{\mblinpath -- (\i,\w)}\fi}%
+    \draw[line width=0.9pt] \mblinpath;
+    \foreach \k/\w [count=\i] in {#2}{\fill (\i,\w) circle (1.8pt);}
+    \draw[-{Stealth[length=2mm]}] (0,0) -- (0,\sabo) node[above right,font=\small,inner sep=2pt] {\sabylabel};
+    \draw[-{Stealth[length=2mm]}] (0,0) -- (\sabr,0);
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% Streifendiagramm: Rahmen 10 cm x 1,2 cm mit Zentimetermarken.
+%   \streifenleer                     leer (Schueler traegt ein)
+%   \streifenvoll{Rad/40,Bus/25}      gefuellt, Label im Abschnitt
+% ---------------------------------------------------------------------------
+\newcommand{\mbstreifenrahmen}{%
+  \draw[line width=0.7pt] (0,0) rectangle (10,1.2);
+  \foreach \x in {1,...,9}{\draw[line width=0.4pt] (\x,0) -- (\x,0.18) (\x,1.2) -- (\x,1.02);}}
+\newcommand{\streifenleer}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north)]
+    \mbstreifenrahmen
+    \node[below,font=\small] at (0,0) {$0\,\%$};
+    \node[below,font=\small] at (5,0) {$50\,\%$};
+    \node[below,font=\small] at (10,0) {$100\,\%$};
+  \end{tikzpicture}}
+\NewDocumentCommand{\streifenvoll}{m}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north)]
+    \xdef\mbsta{0}%
+    \foreach \l/\w [count=\i] in {#1}{%
+      \edef\mbstb{\fpeval{round(\mbsta+\w/10,3)}}%
+      \pgfmathsetmacro{\mbstg}{100-14*mod(\i-1,4)-4}%
+      \fill[black!\fpeval{round(100-\mbstg)}] (\mbsta,0) rectangle (\mbstb,1.2);
+      \draw[line width=0.5pt] (\mbstb,0) -- (\mbstb,1.2);
+      \ifblank{\l}{}{\node[font=\small] at ({(\mbsta+\mbstb)/2},0.6) {\l};}%
+      \xdef\mbsta{\mbstb}}%
+    \mbstreifenrahmen
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% Leerer Kreis mit Mittelpunkt M und Startradius nach oben (Sektoren zeichnen).
+%   \kreisleer[2.2]
+% ---------------------------------------------------------------------------
+\NewDocumentCommand{\kreisleer}{O{2}}{%
+  \begin{tikzpicture}[baseline=(current bounding box.north),line width=0.6pt]
+    \draw (0,0) circle (#1);
+    \draw[line width=0.7pt] (0,0) -- (90:#1);
+    \fill (0,0) circle (1.4pt) node[below left,font=\small] {$M$};
+  \end{tikzpicture}}
+
+% ---------------------------------------------------------------------------
+% Einheitenkopf (Zwischenueberschrift ueber der ersten Hauptnummer einer Einheit)
+% ---------------------------------------------------------------------------
+\newcommand{\einheitenkopf}[1]{\par\noindent{\large\bfseries #1}\par\medskip}
+\newcommand{\strichliste}[1]{\texttt{#1}}
