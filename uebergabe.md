@@ -1,4 +1,4 @@
-# Übergabe 2026-09-22b – Werkstatt verbessereBlaetter
+# Übergabe 2026-09-22c – Werkstatt verbessereBlaetter
 
 ## 1 Ziel
 
@@ -10,129 +10,128 @@ bearbeiten kann.
 ## 2 Arbeitsgrundlage
 
 - ziel.md – das Ziel; gilt vor jeder anderen Datei.
-- katalog/ (73 Einträge) mit README.md als Landkarte; Stand
-  Commit 78363ff. Prüfläufe: werkzeuge/themen-pruef.py,
-  verweis-pruef.py, tragfaehigkeit.py, blatt0-belege.py, neu
-  ertrag.py (msa/msa-ertrag.md) und einsortieren.py (blaetter/).
+- befund-lauf3-2026-09-22.md (Wurzel) – Befunde und Beschlüsse
+  des dritten Laufs; Bauplan für Vorlage Stufe 4 in § 2.4.
+- befund-testlauf-2026-09-22.md (Wurzel) – Befunde der Läufe 1
+  und 2 mit den Beschlüssen zu v4.0.
+- blaetter/ – zwei abgelegte Blätter (prozentrechnung und daten,
+  je 2026-09-22) mit PDFs, Quelltexten und je einer eigene.sty;
+  Register blaetter/index.md.
+- katalog/ (73 Einträge), README.md als Landkarte; Stand
+  Commit 1e811b5.
 - blattbau/unterrichtsblatt.md v4.1 (Commit bd0fee8) – läuft als
-  Projektanweisung in erzeugeUnterrichtsblatt(); CHANGELOG.md
-  und Testauswertung_2026-09-22.md dort.
-- blattbau/pruefungsblatt.md v0.15 – unverändert, noch nicht auf
+  Projektanweisung in erzeugeUnterrichtsblatt() (am 22.09. dort
+  eingesetzt; vorher lag versehentlich die Werkstatt-Anweisung).
+- blattbau/mathblatt.sty Stand 2026-09-07d, Anleitung_mathblatt.md.
+- blattbau/pruefungsblatt.md v0.15 – unverändert, nicht auf
   ziel.md umgebaut.
-- befund-testlauf-2026-09-22.md (Wurzel) – Befunde und
-  Beschlüsse der beiden Testläufe.
-- blaetter/prozentrechnung/2026-09-22/ – erstes abgelegtes Blatt
-  (Lauf 2, v4.0), mit Quelltexten und eigene.sty (Streifen,
-  Dreisatz-Schema, Einheitenkopf).
 
 ## 3 Arbeitsstand
 
-Abgeschlossen: Katalogumbau des Unterrichtsblatt-Prompts. Lauf 1
-(v3.34, Eintrag als Zuruf-Quelle) und Lauf 2 (v4.0, Eingabe
-„prozentrechnung") sind ausgewertet; v4.0 baute alle fünf
-Einheiten aus dem Eintrag, fachlich fehlerfrei, die Kette folgte
-den Sprossen des Eintrags, Vorstufen und Verfremdung mit Jahr
-saßen. v4.1 zieht Bereitstellung, Lösungsdatei, Vorstufenregel,
-Titelregel und Protokoll nach. Katalog: 71 tote „→ Dialog"-Zeilen
-entfernt, Erkennungsschritt-Kopfzeile auf den neuen Beschluss
-umgestellt. Ertrag je Typ (msa) liegt vor. Blattablage steht:
-einsortieren.py holt *protokoll*.zip aus Downloads,
-OneDrive/Downloads und OneDrive/blatt-eingang.
+Abgeschlossen: Lauf 3 (Eingabe „daten", v4.1, Opus) gebaut,
+ausgewertet und abgelegt. Das Blatt trägt gegen ziel.md § 1–3;
+Befunde und Beschlüsse in befund-lauf3-2026-09-22.md. Erste
+Bauzeitmessung: Blatt 0 nach 284 s, Gesamt nach 1127 s, 24
+Werkzeugschritte, 7 Korrekturen, Werkzeuggrenze der Oberfläche
+einmal erreicht.
 
-Seit der letzten Übergabe geändert: alles oben; dazu Python 3.12
-auf dem Rechner (voller Pfad, nicht im PATH der Claude-Code-
-Shell), git nur über die git.exe von GitHub Desktop.
+Seit der letzten Übergabe geändert: Beschlüsse zu Bereitstellung
+und Reihenfolge (§ 4); Vorlage Stufe 4 rückt vor die
+Prompt-Kürzung.
 
 Läuft nicht: nichts.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-Beschlüsse 22.09.2026 (Details in befund-testlauf-2026-09-22.md):
-- Ein Lernblatt, alle Einheiten des Eintrags, kein Budget, kein
-  Schnitt; Bau in Reihe, Blatt 0 und Einheit 1 früh als PDF,
-  am Ende Gesamt (klickbares Verzeichnis, Seitenbereiche je
-  Einheit) und Lösungen als eigene Datei mit Lösungstiefe nach
-  ziel.md § 4. Grund: Lehrer baut am Stundenanfang, druckt nach
-  Seitenbereichen, entscheidet am Drucker über Lösungen.
-- Blatt 0 nur Fertigkeiten, Reihenfolge nach erster Verwendung
-  („– Einheit n"); Erkennungsschritte als Vorstufe der Einheit,
-  einmal bei der ersten Einheit ihres Bereichs.
-- Jede Hauptnummer „Kurzname – Formwort"; keine Typnamen des
-  Katalogs auf dem Blatt; gemischte Aufgaben „Gemischt".
-- Verfremdung mit Jahr; keine Zahl aus Kasten, Beispiel oder
-  Original in einer Teilaufgabe.
-- Kein Kasten (nur „mit kasten"), keine Sterne, keine Hilfe-
-  Seite, kein „Lernblatt kurz", kein Testformat.
-- Dreisatz als gerahmtes Schema; Blatt-0-Zahlen im Kopf
-  rechenbar; Doppelpunkt als Geteiltzeichen bleibt.
-- Blätter werden abgelegt (blaetter/, PDFs und Quelltexte);
-  ein Thema wird einmal gebaut. Aktualisieren aus Quelltext erst,
-  wenn der Prompt zwischen zwei Versionen nur in Abschnitt 3–6
-  ändert.
-- Der Erkennungsschritt-Bereich („vor Einheit 2 bis 5") bleibt
-  im Katalog; die Zuordnung ist Prompt-Regel.
-- Titelprüfung auf Schülersprache (271 Einheitstitel) nicht
-  nötig, solange kein Lauf sie erzwingt.
+Beschlüsse 22.09.2026 (Lauf 3, Details befund-lauf3 § 2–3):
+- Blatt 0 beendet die erste Antwort des Blatt-Chats (Karte plus
+  Zeile „Weiter baut Einheit 1 bis 5, Gesamt und Lösungen"); der
+  Rest läuft nach „Weiter" ohne Rückfrage und liefert Lernblatt
+  ohne Blatt 0, Gesamt mit Blatt 0, Lösungen, Archiv. Einheit 1
+  als eigenes frühes PDF entfällt. Ersetzt den Beschluss „Bau in
+  Reihe, Blatt 0 und Einheit 1 früh als PDF".
+- Ziel für den Rest nach Blatt 0: ein Durchgang unter der
+  Werkzeuggrenze. Mittel: Vorlage Stufe 4 (keine eigene.sty mehr)
+  und 2.7 schlank – Aufrufe derselben Einheit bündeln, ein
+  Prüfskript für alle Einheiten; Prüfung je Einheit direkt nach
+  dem Schreiben bleibt, keine Prüfung entfällt. Bedingung des
+  Lehrers: Druckqualität und Inhalt unverändert.
+- Vorlage Stufe 4 vor der Prompt-Kürzung.
+- LaTeX bleibt das Format (Typst, HTML geprüft und verworfen: die
+  Bauzeit ist Schreibzeit des Modells, nicht Kompilat).
+- Fehlerlisten aus abgelegten Blättern sind Werkzeug der
+  Werkstatt, nicht Eingabe des Blatt-Prompts: Was zweimal
+  auftritt, wandert in Vorlage oder Prompt.
+
+Beschlüsse vom 22.09. (Läufe 1 und 2) gelten weiter, siehe
+befund-testlauf-2026-09-22.md und archiv/uebergabe-2026-09-22b.md
+§ 4.
 
 Rahmen:
-- Modellwahl im Werkstattchat: Opus als Regelfall; Fable nur für
-  Laufauswertung gegen ziel.md, Prompt-Umbau in Abschnitt 0–2
-  und Katalogentscheidungen. Sonnet hier nicht. Claude Code:
-  Sonnet für Mechanik, Opus für die Vorlage. Blatt-Chats Opus.
-- Aufträge kommen als .txt-Datei in Blockform (Kopieren, nicht
-  gerenderte md-Vorschau); Material steht direkt am Handgriff.
-- Ein Sprachmodell trägt nie Dateiinhalte (Drive-Upload teuer);
-  Dateien wandern per Download und Shell.
-- Bauzeit je Einheit bisher nie gemessen; v4.1 misst in
-  zeiten.txt.
-- Tabelle C in msa-ertrag.md: Median 3 Punkte je Typ in 13
-  Jahren, 111 von 175 Typen in höchstens zwei Jahrgängen –
-  „selten" braucht zwei Bedingungen (Punkte und Jahre); Schwelle
-  offen, gehört zum Prüfungsheft.
+- Oberfläche: Dateikarten einer Antwort erscheinen erst, wenn die
+  Antwort endet (Annahme, hohe Sicherheit). Je Antwort etwa 20
+  Werkzeugaufrufe, dann „Weiter"-Knopf; nicht einstellbar.
+- Claude-Code-Shell: py -3 gibt es nicht, nur der volle Pfad
+  %LocalAppData%\Programs\Python\Python312\python.exe; git über
+  die git.exe von GitHub Desktop.
+- Der Blatt-Prompt holt mathblatt.sty und Anleitung bei jedem Lauf
+  aus dem Repo: Stufe 4 wirkt mit dem Push sofort auf jedes neue
+  Blatt – Test vor dem Commit ist Pflicht.
+- Modellwahl: Opus Regelfall; Fable für den Prompt-Umbau 2.7/1.5
+  und Katalogentscheidungen; Claude Code Opus für die Vorlage,
+  Sonnet für Mechanik.
 
 ## 5 Offene Punkte und verworfene Ansätze
 
 Offen, in dieser Reihenfolge:
-1. Lauf 3 mit v4.1 an einem Thema, das dem Prompt wehtut:
-   daten.md (sechs Einheiten, unsortierte Fertigkeiten) oder ein
-   Sek-II-Eintrag mit Profilen. Danach Archiv aus Downloads
-   einsortieren; Auswertung gegen ziel.md, Bauzeiten je Einheit.
-2. Vorlage Stufe 4 in blattbau (Opus): Streifen, gerahmter
-   Dreisatz, Einheitenkopf, Verzeichnis mit hyperref aus
-   eigene.sty; Anleitung nachziehen. Braucht TeX auf dem Rechner
-   (MiKTeX) – vorher klären.
-3. Prompt kürzen um etwa ein Drittel (1.5 FOS-Block in die
-   Prüfungsform der Sek-II-Einträge, 4.4 in die Anleitung, zwei
-   Muster) – erst, wenn v4.1 an einem zweiten Thema steht.
-4. Sonnet-Vergleichslauf (gleiche Eingabe, Blatt gegen Lauf 2).
-5. Prüfungsblatt-Prompt auf ziel.md umbauen (Prüfungsheft,
+1. TeX auf dem Rechner klären (MiKTeX oder anderes): Claude Code
+   muss die Vorlage vor dem Commit kompilieren und rendern können.
+   Ohne TeX: Probekompilat über einen Blatt-Chat.
+2. Vorlage Stufe 4 in blattbau (Claude Code, Opus): Bausteine aus
+   beiden eigene.sty (blaetter/*/2026-09-22/src/), Layoutfehler
+   und Verzeichnis mit hyperref nach befund-lauf3 § 2.4;
+   Anleitung_mathblatt.md nachziehen; Test mit einem abgelegten
+   Quelltext.
+3. Prompt-Umbau zu v4.2 (Fable): 2.7 Bereitstellung nach § 4 und
+   schlank; 1.5 Regel für Einträge „Sek I + II" (ohne
+   Klassenangabe Sek-I-Stoff, Deutungszeile nennt den Schnitt;
+   Sek-II-Teil nur mit „fos", „gymnasium" oder Klasse ab 11);
+   4.5 an Stufe 4; Kleines aus befund-lauf3 § 2.6; Beispiel je
+   Typ entscheiden (§ 2.5). Danach Projektanweisung in
+   erzeugeUnterrichtsblatt() ersetzen und Lauf 4.
+4. Befunde-Skript: einsortieren.py schreibt zusätzlich
+   blaetter/befunde.md (Tabelle je Lauf aus protokoll.txt:
+   Version, Vorlage, Zeiten, Schritte, Korrekturen mit Anlass,
+   fehlende Bausteine, Warnungen; Zählung über alle Läufe). Ab
+   dem fünften Lauf; Sonnet.
+5. Sonnet-Vergleichslauf (gleiche Eingabe wie Lauf 2 oder 3).
+6. Prompt kürzen um etwa ein Drittel – erst nach v4.2 und Lauf 4.
+7. Prüfungsblatt-Prompt auf ziel.md umbauen (Prüfungsheft,
    Lösungsdatei getrennt, Lösungstiefe § 4, Schwelle „selten").
-6. Gegenlese der Sek-II-Einträge, Kategorien je Prüfungsart,
-   Boden unter Klasse 8 – unverändert aus der letzten Übergabe.
-7. Katalog: katalog/_vorlage.md nennt noch „eigene Aufgabe auf
-   Blatt 0" (Zeile 20); befund-geltung- und befund-
-   inkonsistenzen-2026-09-21.md stehen nicht in README.md.
-8. Leerer Kasten zum Selbstausfüllen: einmal auf Zuruf bauen,
-   dann entscheiden.
-9. Band aller Themen: erst, wenn zwei Läufe ohne Prompt-Umbau
-   durchgehen; die Ablage ist die Vorstufe.
+8. Katalog: Gegenlese der Sek-II-Einträge, Kategorien je
+   Prüfungsart, Boden unter Klasse 8; katalog/_vorlage.md Zeile 20
+   („eigene Aufgabe auf Blatt 0"); befund-geltung- und
+   befund-inkonsistenzen-2026-09-21.md fehlen in README.md.
+9. Leerer Kasten zum Selbstausfüllen; Band aller Themen – wie in
+   der letzten Übergabe.
 
 Verworfen:
-- Einzel-PDFs je Einheit als Standard – nicht gebraucht, Lehrer
-  druckt aus dem Gesamt; nur Einheit 1 früh, weitere auf Zuruf.
-- Blatt 0 mit Erkennungsschritten – führte Themenbegriffe ein,
-  bevor das Blatt sie lehrt.
-- Beschlüsse als Zuruf gegen den alten Prompt testen – misst
-  nichts, weil der Prompt das Gegenteil sagt.
-- Katalogfeld „Blattname je Typ" – der Katalog kennt die
-  Hauptnummern nicht; der Schnitt ist Prompt-Sache.
-- Ablage per Drive-Konnektor – Modell trägt Bytes, teuer.
+- Typst oder HTML statt LaTeX – spart Sekunden, kostet die
+  Vorlage (97 KB geprüfte Bausteine).
+- Einheit 1 als eigenes frühes PDF – wird ohnehin erst mit dem
+  Gesamt sichtbar.
+- Browser-Erweiterungen, die „Weiter" drücken – nur im Browser,
+  Drittanbieter.
+- Prüfung über alle Einheiten erst am Ende bündeln – Fehler in
+  Einheit 1 zeigt sich sonst erst nach Einheit 5.
+- Fehlerliste als Eingabe des Blatt-Prompts – Umgehen je Lauf
+  kostet die Schritte, die gespart werden sollen.
+- Verworfenes der Übergabe 2026-09-22b gilt weiter.
 
 ## 6 Nächster Arbeitsschritt
 
-Lauf 3 vorbereiten: Thema wählen (Vorschlag daten.md), Eingabe
-ist nur das Thema; nach dem Lauf Archiv einsortieren (Claude
-Code, mathe-nachhilfe: py -3 werkzeuge/einsortieren.py, Commit,
-Push) und die PDFs samt protokoll.txt hier auswerten – zuerst die
-Zeiten je Einheit, dann Blatt 0, Vorstufen, Titel, Verzeichnis
-und Lösungsdatei gegen ziel.md.
+TeX klären: Auftrag an Claude Code (blattbau, Sonnet), der
+prüft, ob pdflatex oder latexmk in der Shell erreichbar sind und
+ob mathblatt.sty mit einem abgelegten Quelltext (etwa
+blaetter/daten/2026-09-22/src/) kompiliert; Bericht hierher.
+Danach den Stufe-4-Auftrag schreiben (Opus).
