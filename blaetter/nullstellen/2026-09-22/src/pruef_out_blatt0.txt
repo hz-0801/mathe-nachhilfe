@@ -1,0 +1,67 @@
+1a       Skript: 36                           Blatt: 36                           OK
+1b       Skript: 81                           Blatt: 81                           OK
+1c       Skript: 0.16                         Blatt: 0.16                         OK
+1d       Skript: 49                           Blatt: 49                           OK
+1e       Skript: -49                          Blatt: -49                          OK
+1f       Skript: 48                           Blatt: 48                           OK
+2-Fehler Skript: 81                           Blatt: 81                           OK
+2a-1     Skript: 144                          Blatt: 144                          OK
+2a-2     Skript: -144                         Blatt: -144                         OK
+3a       Skript: 6                            Blatt: 6                            OK
+3b       Skript: 9                            Blatt: 9                            OK
+3c       Skript: 13                           Blatt: 13                           OK
+3d       Skript: 2.65                         Blatt: 2.65                         OK
+3e       Skript: 5.48                         Blatt: 5.48                         OK
+3f       Skript: keine                        Blatt: keine                        OK
+3g       Skript: 0                            Blatt: 0                            OK
+4a       Skript: 8                            Blatt: 8                            OK
+4b       Skript: 16                           Blatt: 16                           OK
+4c       Skript: 7                            Blatt: 7                            OK
+4d       Skript: -12                          Blatt: -12                          OK
+4e       Skript: -7                           Blatt: -7                           OK
+4f       Skript: -9                           Blatt: -9                           OK
+5a       Skript: True                         Blatt: True                         OK
+5b       Skript: False                        Blatt: False                        OK
+5c       Skript: False                        Blatt: False                        OK
+5d       Skript: True                         Blatt: True                         OK
+5e       Skript: False                        Blatt: False                        OK
+5f       Skript: True                         Blatt: True                         OK
+6a       Skript: (3, 2, 'oben')               Blatt: (3, 2, 'oben')               OK
+6b       Skript: (6, 1, 'oben')               Blatt: (6, 1, 'oben')               OK
+6c       Skript: (2, -7, 'oben')              Blatt: (2, -7, 'oben')              OK
+6d       Skript: (-5, 3, 'oben')              Blatt: (-5, 3, 'oben')              OK
+6e       Skript: (4, 6, 'unten')              Blatt: (4, 6, 'unten')              OK
+6f       Skript: (0, -12, 'oben')             Blatt: (0, -12, 'oben')             OK
+7a       Skript: 35                           Blatt: 35                           OK
+7b       Skript: -42                          Blatt: -42                          OK
+7c       Skript: -20                          Blatt: -20                          OK
+7d       Skript: 24                           Blatt: 24                           OK
+7e       Skript: -35                          Blatt: -35                          OK
+7f       Skript: 0                            Blatt: 0                            OK
+8a       Skript: x**2 + 6*x                   Blatt: x**2 + 6*x                   OK
+8b       Skript: x**2 - 9*x                   Blatt: x**2 - 9*x                   OK
+8c       Skript: x**2 + 10*x + 25             Blatt: x**2 + 10*x + 25             OK
+8d       Skript: x**2 - 14*x + 49             Blatt: x**2 - 14*x + 49             OK
+8e       Skript: x**2 - 5*x - 24              Blatt: x**2 - 5*x - 24              OK
+8f       Skript: x*(x + 11)                   Blatt: x*(x + 11)                   OK
+8g       Skript: x*(x - 6)                    Blatt: x*(x - 6)                    OK
+9a       Skript: x**2 + 13*x                  Blatt: x**2 + 13*x                  OK
+9b       Skript: x**2 + 3*x - 8               Blatt: x**2 + 3*x - 8               OK
+9c       Skript: x**2 + 5*x + 5               Blatt: x**2 + 5*x + 5               OK
+9d       Skript: -x**2 + 11*x                 Blatt: -x**2 + 11*x                 OK
+9e       Skript: x**2 - 4*x - 4               Blatt: x**2 - 4*x - 4               OK
+9f       Skript: x**2 - 7*x - 6               Blatt: x**2 - 7*x - 6               OK
+10a      Skript: (3, 5)                       Blatt: (3, 5)                       OK
+10b      Skript: (2, -4)                      Blatt: (2, -4)                      OK
+10c      Skript: (-6, 0)                      Blatt: (-6, 0)                      OK
+10d      Skript: (-4, 3)                      Blatt: (-4, 3)                      OK
+10e      Skript: (3, -2)                      Blatt: (3, -2)                      OK
+10f      Skript: (-2, -4)                     Blatt: (-2, -4)                     OK
+11a      Skript: 7                            Blatt: 7                            OK
+11b      Skript: 3                            Blatt: 3                            OK
+11c      Skript: -10                          Blatt: -10                          OK
+11d      Skript: 5                            Blatt: 5                            OK
+11e      Skript: 4                            Blatt: 4                            OK
+11f      Skript: 3                            Blatt: 3                            OK
+11g      Skript: (3, -5)                      Blatt: (3, -5)                      OK
+Abweichungen: 0

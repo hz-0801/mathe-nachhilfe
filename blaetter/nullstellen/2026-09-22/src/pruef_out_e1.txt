@@ -1,0 +1,47 @@
+1a         Skript: linear                             Blatt: linear                             OK
+1b         Skript: quadratisch                        Blatt: quadratisch                        OK
+1c         Skript: quadratisch                        Blatt: quadratisch                        OK
+1d         Skript: linear                             Blatt: linear                             OK
+1e         Skript: quadratisch                        Blatt: quadratisch                        OK
+2a         Skript: zwei                               Blatt: zwei                               OK
+2b         Skript: keine                              Blatt: keine                              OK
+2c         Skript: eine                               Blatt: eine                               OK
+2d         Skript: zwei                               Blatt: zwei                               OK
+2e         Skript: keine                              Blatt: keine                              OK
+3-Bsp      Skript: [7, -7]                            Blatt: [7, -7]                            OK
+3a         Skript: [3, -3]                            Blatt: [3, -3]                            OK
+3b         Skript: [8, -8]                            Blatt: [8, -8]                            OK
+3c         Skript: [11, -11]                          Blatt: [11, -11]                          OK
+3d         Skript: [15, -15]                          Blatt: [15, -15]                          OK
+3e         Skript: [sqrt(11), -sqrt(11)]              Blatt: [sqrt(11), -sqrt(11)]              OK
+3e-nah     Skript: 3.32                               Blatt: 3.32                               OK
+3f         Skript: []                                 Blatt: []                                 OK
+3g         Skript: [10, -10]                          Blatt: [10, -10]                          OK
+3h         Skript: [4, -4]                            Blatt: [4, -4]                            OK
+3i         Skript: [5, -5]                            Blatt: [5, -5]                            OK
+3j         Skript: [11, -1]                           Blatt: [11, -1]                           OK
+3k         Skript: [6, -12]                           Blatt: [6, -12]                           OK
+3l         Skript: [7]                                Blatt: [7]                                OK
+4a         Skript: True                               Blatt: True                               OK
+4b         Skript: True                               Blatt: True                               OK
+4c         Skript: False                              Blatt: False                              OK
+5a         Skript: [2, -2]                            Blatt: [2, -2]                            OK
+5b         Skript: [0]                                Blatt: [0]                                OK
+5c         Skript: []                                 Blatt: []                                 OK
+5-Bereich  Skript: alle Schnittpunkte in der Flaeche  Blatt: alle Schnittpunkte in der Flaeche  OK
+6-falsch   Skript: [11, 1]                            Blatt: [11, 1]                            OK
+6-richtig  Skript: [-1, -11]                          Blatt: [-1, -11]                          OK
+6a         Skript: [5, -13]                           Blatt: [5, -13]                           OK
+7a         Skript: keine                              Blatt: keine                              OK
+7b         Skript: eine                               Blatt: eine                               OK
+7c         Skript: zwei                               Blatt: zwei                               OK
+8a         Skript: 8                                  Blatt: 8                                  OK
+8b         Skript: 14.14                              Blatt: 14.14                              OK
+8b-pass    Skript: True                               Blatt: True                               OK
+8c         Skript: 2.52                               Blatt: 2.52                               OK
+9a         Skript: [5]                                Blatt: [5]                                OK
+9a-wahr    Skript: True                               Blatt: True                               OK
+9b         Skript: [-5, -13]                          Blatt: [-5, -13]                          OK
+9b-wahr    Skript: False                              Blatt: False                              OK
+9c         Skript: []                                 Blatt: []                                 OK
+Abweichungen: 0

@@ -1,0 +1,72 @@
+17a        Skript: nur x^2                                  Blatt: nur x^2                                  OK
+17b        Skript: Normalform                               Blatt: Normalform                               OK
+17c        Skript: Produkt=0                                Blatt: Produkt=0                                OK
+17d        Skript: Klammer im Quadrat                       Blatt: Klammer im Quadrat                       OK
+17e        Skript: Normalform                               Blatt: Normalform                               OK
+18a        Skript: (10, 3)                                  Blatt: (10, 3)                                  OK
+18b        Skript: (-4, 9)                                  Blatt: (-4, 9)                                  OK
+18c        Skript: (7, -5)                                  Blatt: (7, -5)                                  OK
+18d        Skript: (-9, -2)                                 Blatt: (-9, -2)                                 OK
+18e        Skript: (-1, 6)                                  Blatt: (-1, 6)                                  OK
+18f        Skript: (-8, 15)                                 Blatt: (-8, 15)                                 OK
+19a        Skript: nein                                     Blatt: nein                                     OK
+19b        Skript: ja, durch 3                              Blatt: ja, durch 3                              OK
+19c        Skript: nein                                     Blatt: nein                                     OK
+19d        Skript: ja, durch -1                             Blatt: ja, durch -1                             OK
+19e        Skript: ja, durch 5                              Blatt: ja, durch 5                              OK
+20-Bsp     Skript: [-8, 2]                                  Blatt: [-8, 2]                                  OK
+20a        Skript: [-5, -3]                                 Blatt: [-5, -3]                                 OK
+20b        Skript: [-7, -3]                                 Blatt: [-7, -3]                                 OK
+20c        Skript: [-5, -1]                                 Blatt: [-5, -1]                                 OK
+20d        Skript: [-8, -4]                                 Blatt: [-8, -4]                                 OK
+20e        Skript: [-7, 3]                                  Blatt: [-7, 3]                                  OK
+20f        Skript: [4, 6]                                   Blatt: [4, 6]                                   OK
+20g        Skript: [-5, 7]                                  Blatt: [-5, 7]                                  OK
+20h        Skript: [-3, -2]                                 Blatt: [-3, -2]                                 OK
+21a-D      Skript: 0                                        Blatt: 0                                        OK
+21a        Skript: [7]                                      Blatt: [7]                                      OK
+21b-D      Skript: -5                                       Blatt: -5                                       OK
+21b        Skript: []                                       Blatt: []                                       OK
+21c-D      Skript: 5                                        Blatt: 5                                        OK
+21c        Skript: [4 - sqrt(5), sqrt(5) + 4]               Blatt: [4 - sqrt(5), sqrt(5) + 4]               OK
+21c-nah    Skript: [1.76, 6.24]                             Blatt: [1.76, 6.24]                             OK
+22a-norm   Skript: x**2 + 5*x - 24                          Blatt: x**2 + 5*x - 24                          OK
+22a        Skript: [-8, 3]                                  Blatt: [-8, 3]                                  OK
+22b-norm   Skript: x**2 - 7*x - 18                          Blatt: x**2 - 7*x - 18                          OK
+22b        Skript: [-2, 9]                                  Blatt: [-2, 9]                                  OK
+22c-norm   Skript: x**2 + 2*x - 12                          Blatt: x**2 + 2*x - 12                          OK
+22c        Skript: [-sqrt(13) - 1, -1 + sqrt(13)]           Blatt: [-sqrt(13) - 1, -1 + sqrt(13)]           OK
+22c-nah    Skript: [-4.61, 2.61]                            Blatt: [-4.61, 2.61]                            OK
+23a-norm   Skript: x**2 + 7*x + 6                           Blatt: x**2 + 7*x + 6                           OK
+23a        Skript: [-6, -1]                                 Blatt: [-6, -1]                                 OK
+23b-norm   Skript: x**2 - 6*x + 8                           Blatt: x**2 - 6*x + 8                           OK
+23b        Skript: [2, 4]                                   Blatt: [2, 4]                                   OK
+23c-norm   Skript: x**2 - 2*x - 8                           Blatt: x**2 - 2*x - 8                           OK
+23c        Skript: [-2, 4]                                  Blatt: [-2, 4]                                  OK
+23-Bsp     Skript: [-2, 5]                                  Blatt: [-2, 5]                                  OK
+24a        Skript: [4, 5]                                   Blatt: [4, 5]                                   OK
+24a-probe  Skript: 0                                        Blatt: 0                                        OK
+24b        Skript: [-5, 2]                                  Blatt: [-5, 2]                                  OK
+24b-probe  Skript: 0                                        Blatt: 0                                        OK
+25a-norm   Skript: x**2 + 7*x + 12                          Blatt: x**2 + 7*x + 12                          OK
+25a        Skript: [-4, -3]                                 Blatt: [-4, -3]                                 OK
+25b-norm   Skript: x**2 + 4*x - 12                          Blatt: x**2 + 4*x - 12                          OK
+25b        Skript: [-6, 2]                                  Blatt: [-6, 2]                                  OK
+25c        Skript: [5 - sqrt(2), sqrt(2) + 5]               Blatt: [5 - sqrt(2), sqrt(2) + 5]               OK
+25c-nah    Skript: [3.59, 6.41]                             Blatt: [3.59, 6.41]                             OK
+26-falsch  Skript: [-6, -2]                                 Blatt: [-6, -2]                                 OK
+26-richtig Skript: [2, 6]                                   Blatt: [2, 6]                                   OK
+26a        Skript: [3, 9]                                   Blatt: [3, 9]                                   OK
+27b-D      Skript: -2                                       Blatt: -2                                       OK
+27b        Skript: []                                       Blatt: []                                       OK
+28a        Skript: Wurzelziehen                             Blatt: Wurzelziehen                             OK
+28b        Skript: Nullprodukt                              Blatt: Nullprodukt                              OK
+28c        Skript: Lösungsformel                            Blatt: Lösungsformel                            OK
+28d        Skript: Wurzelziehen                             Blatt: Wurzelziehen                             OK
+28e        Skript: Nullprodukt                              Blatt: Nullprodukt                              OK
+28b-kontrolle Skript: [0, 15]                                  Blatt: [0, 15]                                  OK
+28d-kontrolle Skript: [-3, 11]                                 Blatt: [-3, 11]                                 OK
+28e-kontrolle Skript: [-2, 11]                                 Blatt: [-2, 11]                                 OK
+28a-kontrolle Skript: [-12, 12]                                Blatt: [-12, 12]                                OK
+28c-kontrolle Skript: [-7, -2]                                 Blatt: [-7, -2]                                 OK
+Abweichungen: 0

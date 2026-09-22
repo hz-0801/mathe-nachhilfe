@@ -1,0 +1,198 @@
+Prompt: Unterrichtsblatt-Prompt v4.1
+Modell: Claude Opus 5
+Vorlage: 2026-09-07d
+Katalog: quadratische-gleichungen.md (Status: gegengelesen bis auf [FS], 2026-09-11h) und
+         quadratische-funktionen.md (Status: gegengelesen bis auf [FS], 2026-09-11g)
+Index:   katalog/index.md, Stand 2026-09-11i
+
+EINHEITEN UND HAUPTNUMMERN
+
+Blatt 0 · Das kannst du schon (Nr. 1-11)
+  1  Quadratzahlen - im Kopf
+  2  Quadratzahlen - Fehler finden
+  3  Quadratwurzeln - ziehen
+  4  Gleichungen - mit dem Strich loesen
+  5  Loesungen - durch Einsetzen pruefen
+  6  Scheitelpunktform - lesen
+  7  Klammern - zuerst rechnen
+  8  Klammern - ausmultiplizieren und ausklammern
+  9  Terme - ordnen und zusammenfassen
+ 10  Punkte - aufschreiben und ablesen
+ 11  Geraden - Wert berechnen und gleichsetzen
+
+Einheit 1 von 5 · Wurzelziehen und Loesbarkeit (Nr. 1-9)
+  1  Wurzelziehen - Quadratisch oder linear? (Vorstufe)
+  2  Wurzelziehen - Zwei, eine oder keine? (Vorstufe)
+  3  Wurzelziehen - rechnen
+  4  Wurzelziehen - Probe
+  5  Wurzelziehen - ablesen
+  6  Wurzelziehen - Fehler finden
+  7  Wurzelziehen - Begruenden
+  8  Wurzelziehen - aus dem Sachtext (P10 2020, P10 2022)
+  9  Wurzelziehen - Aussagen pruefen (P10 2021)
+
+Einheit 2 von 5 · Satz vom Nullprodukt (Nr. 10-16)
+ 10  Nullprodukt - Steht rechts eine Null? (Vorstufe)
+ 11  Nullprodukt - rechnen (P10 2020)
+ 12  Nullprodukt - umformen
+ 13  Nullprodukt - Probe
+ 14  Nullprodukt - Fehler finden
+ 15  Nullprodukt - Begruenden
+ 16  Nullprodukt - Loesung ankreuzen (P10 2025)
+
+Einheit 3 von 5 · Normalform und p-q-Formel (Nr. 17-28)
+ 17  p-q-Formel - Welche Form? (Vorstufe)
+ 18  p-q-Formel - Was sind p und q? (Vorstufe)
+ 19  p-q-Formel - Vorzahl von x^2? (Vorstufe)
+ 20  p-q-Formel - rechnen
+ 21  p-q-Formel - wie viele Loesungen?
+ 22  p-q-Formel - ordnen
+ 23  p-q-Formel - normieren
+ 24  p-q-Formel - Probe
+ 25  p-q-Formel - aus der Pruefung (P10 2020, 2023, 2025)
+ 26  p-q-Formel - Fehler finden
+ 27  p-q-Formel - Begruenden
+ 28  p-q-Formel - Loesungsweg waehlen
+
+Einheit 4 von 5 · Nullstellen und Schnittpunkte der Parabel (Nr. 29-37)
+ 29  Nullstellen - Was wird gleichgesetzt? (Vorstufe)
+ 30  Nullstellen - aus der Scheitelpunktform
+ 31  Nullstellen - aus der Normalform (P10 2025)
+ 32  Nullstellen - am Graphen ablesen (P10 2023)
+ 33  Parabel - x-Wert zum y-Wert (P10 2023)
+ 34  Schnittpunkte - rechnen (P10 2022)
+ 35  Schnittpunkte - Punktprobe (P10 2014)
+ 36  Schnittpunkte - Fehler finden
+ 37  Nullstellen - Begruenden
+
+Einheit 5 von 5 · Sachaufgaben (Nr. 38-42)
+ 38  Sachaufgaben - Welche Loesung passt? (Vorstufe)
+ 39  Sachaufgaben - Zahlenraetsel
+ 40  Sachaufgaben - Rechteck
+ 41  Sachaufgaben - Fehler finden
+ 42  Sachaufgaben - Begruenden
+
+ZAEHLUNG AUS DER TEXTEXTRAKTION DER KOMPILATE
+
+Blatt 0:   Hauptnummern 11, Teilaufgaben 64, Grafiken 1, Seiten 3
+Einheit 1: Hauptnummern  9, Teilaufgaben 36, Grafiken 1, Seiten 4
+Einheit 2: Hauptnummern  7, Teilaufgaben 28, Grafiken 0, Seiten 2
+Einheit 3: Hauptnummern 12, Teilaufgaben 42, Grafiken 0, Seiten 5
+Einheit 4: Hauptnummern  9, Teilaufgaben 41, Grafiken 1, Seiten 5
+Einheit 5: Hauptnummern  5, Teilaufgaben 18, Grafiken 1, Seiten 2
+Gesamt:    Seiten 22        Loesungen: Seiten 3
+
+Verzeichnis des Gesamts, wortgleich aus dem Kompilat:
+Inhalt
+Blatt 0 · Das kannst du schon · Seiten 2-4
+Einheit 1 · Wurzelziehen und Loesbarkeit (Nr. 1-9) · Seiten 5-8
+Einheit 2 · Satz vom Nullprodukt (Nr. 10-16) · Seiten 9-10
+Einheit 3 · Normalform und p-q-Formel (Nr. 17-28) · Seiten 11-15
+Einheit 4 · Nullstellen und Schnittpunkte der Parabel (Nr. 29-37) · Seiten 16-20
+Einheit 5 · Sachaufgaben (Nr. 38-42) · Seiten 21-22
+
+WERKZEUGAUFRUFE
+
+ 1 anweisungen-Repo lesen · Chatstart im Projekt, Stand global.md gegen Einstellung
+ 2 Dateiliste anweisungen · Versuch fehlgeschlagen (api.github.com nicht erreichbar)
+ 3 zeiten.txt t0 · erster Werkzeugaufruf des Baus, allein
+ 4 katalog/index.md und ziel.md · Register und Zieldatei
+ 5 mathblatt.sty, Anleitung, quadratische-funktionen.md · Vorlage und Eintrag
+ 6 quadratische-gleichungen.md · zweiter Eintrag (Test-Richtung, 2.6)
+ 7 kat_qg.md lesen · Verortung, Lerneinheiten, Prueflisten
+ 8 kat_qg.md Zeilen 17-92 · Typen, Blatt 0, Merkkaesten, Fehler
+ 9 kat_qg.md Zeilen 93-130 · schwache Schueler, Sprossenketten
+10 kat_qg.md Zeilen 105-118 · Pruefungsform, Zielmarken
+11 kat_qf.md Zeilen 1-45 · Verortung, Lerneinheiten
+12 kat_qf.md Zeilen 14-33 · Einheit 4, Voraussetzungen
+13 kat_qf.md Merkkasten/Fehler · Einheit 4
+14 kat_qf.md schwache Schueler · Sprossenkette Einheit 4
+15 kat_qf.md Zielmarken · Marken Einheit 4
+16 Anleitung lesen · Makronamen und Argumente
+17 Anleitung Teil 2 · Grafikmakros
+18 Anleitung Teil 3 · Tabellen, Begleitteil
+19 Makroliste aus der .sty · Pruefung, welche Bausteine es gibt
+20 Makro-Existenzpruefung · einheitenkopf und verzeichnis fehlen -> eigene.sty
+21 aufgabe/blattkopf/Zaehler · Signaturen
+22 Signaturen gz/erg/kreuz/janein/gl · Aufrufform
+23 punktfeld/leerfeld/geometry · Feldbreiten, Satzspiegel
+24 eigene.sty schreiben · fehlende Bausteine
+25 blatt0_a.tex schreiben · Aufgabenteil Blatt 0
+26 blatt0.tex Rahmen
+27 Blatt 0 kompilieren · Log ohne Befund, 3 Seiten
+28 pruef_blatt0.py · Ergebnisse unabhaengig nachrechnen
+29 Blatt 0 nachrechnen und Grafikseite finden · 0 Abweichungen
+30 Seite 3 rendern · Ablesegrafik pruefen (5.1 c)
+31 Seite 3 ansehen · Gitter, Punkte auf Gitterlinien, Bezifferung lesbar
+32 blatt0_l.tex · Loesungen Blatt 0
+33 Blatt 0 bereitstellen, Stempel blatt0
+34 e1_a.tex schreiben
+35 pruef_e1.py schreiben
+36 Einheit 1 nachrechnen und kompilieren · 0 Abweichungen, 4 Seiten
+37 Seiten 3 und 4 rendern · Ablesegrafik und Seitenfuellung (5.2 a)
+38 Seite 3 ansehen · Parabel mit drei Waagerechten, Ableswerte auf Gitterlinien
+39 Seite 4 ansehen · Seite 4 unter einem Drittel, Seite davor voll -> kein Umbau (4.2)
+40 Antwortfeld in Nr. 9 c) ergaenzt · Bestimmungsaufgabe ohne Antwortformat
+41 e1_l.tex · Loesungen Einheit 1
+42 Einheit 1 neu kompilieren und bereitstellen, Stempel e1
+43 e2_a.tex schreiben
+44 pruef_e2.py, Einheit 2 rechnen und kompilieren · 0 Abweichungen, 2 Seiten
+45 e2_l.tex, Seite 2 rendern
+46 Seite 2 ansehen · Ankreuzlisten und Gleichungsraster in Ordnung
+47 e3_a.tex schreiben
+48 Arbeitsstand pruefen · Wiederaufnahme nach Abbruch
+49 pruef_e3.py, Einheit 3 rechnen und kompilieren · 0 Abweichungen, 5 Seiten
+50 e3_l.tex
+51 e4_a.tex schreiben
+52 pruef_e4.py · 0 Abweichungen
+53 Einheit 4 kompilieren · 5 Seiten, Log ohne Befund
+54 Seite 4 rendern
+55 Seite 4 ansehen · Achsenzahl 3 von zwei Graphen ueberdeckt -> Gerade geaendert
+56 Gerade auf f(x)=3x-7 geaendert, neu gerechnet und gerendert
+57 Grafik ansehen · Label f auf der Parabel, Label p auf dem Schnittpunkt
+58 Grafik vergroessert · Labelkollision bestaetigt
+59 Grafikquelltext pruefen
+60 Labels entfernt, Graphen im Aufgabentext benannt · Kollision aufgeloest
+61 Grafik ansehen · vier Ablesepunkte frei und auf Gitterlinien
+62 e4_l.tex
+63 e5_a.tex schreiben
+64 Rechteck-Makro der Vorlage suchen · \rechteck vorhanden, kein eigener Baustein noetig
+65 pruef_e5.py, Einheit 5 rechnen und kompilieren · 0 Abweichungen, 2 Seiten
+66 e5_l.tex, Seite 2 rendern
+67 Seite 2 ansehen · Restflaeche, Seite davor voll -> kein Umbau (4.2)
+68 Seite 1 rendern
+69 Seite 1 ansehen · Rechteckskizze mit x und x+5 in Ordnung
+70 gesamt.tex, erstes Kompilat · Seitenbereiche aus der Textextraktion
+71 Seitenzahlen eingesetzt, zweiter Lauf · Verzeichnis trifft das Kompilat
+72 loesungen.tex kompilieren, Gesamt und Loesungen bereitstellen, Stempel
+73 Loesungen Seite 1 rendern
+74 Loesungen Seite 1 ansehen · Zuordnungszeile und Loesungstiefe in Ordnung
+75 Zaehlung aus den Kompilaten fuer das Protokoll
+76 protokoll.txt, chat.txt, Archiv
+
+VORLAGE
+
+fehlende Bausteine: Einheitenkopf, Verzeichnis (Inhaltszeile mit Sprungmarke),
+  Punktfeld mit frei waehlbarem Namen, Abschnittskopf der Loesungsdatei
+eigene.sty: \einheitenkopf, \blattunter, \pfeld, \inhaltskopf, \inhaltszeile,
+  \loeskopf, dazu \usepackage[hidelinks]{hyperref} als letztes Paket
+Warnungen aus dem Log: keine (kein Package mathblatt Warning, kein Overfull box,
+  kein Fehler in blatt0, e1, e2, e3, e4, e5, gesamt, loesungen)
+
+KORREKTURRUNDEN UND ZEITEN
+
+Korrekturrunden: 3 von 76 Schritten
+  - Einheit 1 Nr. 9 c) ohne Antwortformat (Schritt 40)
+  - Einheit 4 Nr. 32: Achsenzahl 3 von zwei Graphen ueberdeckt (Schritte 55-56)
+  - Einheit 4 Nr. 32: Graphenlabels auf Ablesepunkten (Schritte 57-61)
+
+Blatt 0: 389 s
+E 1: 597 s
+E 2: nicht gemessen (Stempel fehlt, im Lauf nicht gesetzt)
+E 3: nicht gemessen (Stempel fehlt, im Lauf nicht gesetzt)
+E 4: nicht gemessen (Stempel fehlt, im Lauf nicht gesetzt)
+E 5: nicht gemessen (Stempel fehlt, im Lauf nicht gesetzt)
+Gesamt: 2030 s
+Loesungen: 2030 s
+Hinweis: zwischen dem Stempel e1 und gesamt liegt ein Abbruch mit Wiederaufnahme;
+die Spanne enthaelt die Pause zwischen zwei Nachrichten und ist keine Bauzeit.

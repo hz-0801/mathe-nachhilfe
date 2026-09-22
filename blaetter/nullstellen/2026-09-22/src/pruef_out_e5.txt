@@ -1,0 +1,27 @@
+38a        Skript: nur die positive                         Blatt: nur die positive                         OK
+38b        Skript: beide                                    Blatt: beide                                    OK
+38c        Skript: nur die positive                         Blatt: nur die positive                         OK
+38d        Skript: nur die positive                         Blatt: nur die positive                         OK
+38e        Skript: beide                                    Blatt: beide                                    OK
+39-Bsp     Skript: [-6, 6]                                  Blatt: [-6, 6]                                  OK
+39a        Skript: [-4, 4]                                  Blatt: [-4, 4]                                  OK
+39b        Skript: [-14, 14]                                Blatt: [-14, 14]                                OK
+39c        Skript: [-20, 20]                                Blatt: [-20, 20]                                OK
+39d        Skript: [-3/2, 3/2]                              Blatt: [-3/2, 3/2]                              OK
+39e        Skript: [-3, 8]                                  Blatt: [-3, 8]                                  OK
+39f        Skript: [-8, 7]                                  Blatt: [-8, 7]                                  OK
+39g        Skript: [-9, 5]                                  Blatt: [-9, 5]                                  OK
+40a        Skript: [-6, 6]                                  Blatt: [-6, 6]                                  OK
+40a-Antw   Skript: (6, 12)                                  Blatt: (6, 12)                                  OK
+40b        Skript: [-12, 7]                                 Blatt: [-12, 7]                                 OK
+40b-Antw   Skript: (7, 12)                                  Blatt: (7, 12)                                  OK
+40c        Skript: [5, 12]                                  Blatt: [5, 12]                                  OK
+40c-Umfang Skript: 34                                       Blatt: 34                                       OK
+40c-Flaeche Skript: 60                                       Blatt: 60                                       OK
+41-x       Skript: [-12, 5]                                 Blatt: [-12, 5]                                 OK
+41-Antw    Skript: (5, 12)                                  Blatt: (5, 12)                                  OK
+41a        Skript: [-8, 6]                                  Blatt: [-8, 6]                                  OK
+41a-Antw   Skript: (6, 8)                                   Blatt: (6, 8)                                   OK
+42b-D      Skript: -11                                      Blatt: -11                                      OK
+42b        Skript: []                                       Blatt: []                                       OK
+Abweichungen: 0

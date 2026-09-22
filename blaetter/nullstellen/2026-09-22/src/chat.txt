@@ -1,0 +1,53 @@
+EINGABE DES LEHRERS (zweimal wortgleich, der zweite Aufruf setzte den Bau fort)
+
+nullstellen 10.klasse, test vorbereitung
+
+DEUTUNGSZEILE UND PLAN
+
+→ Lernblatt · Nullstellen · Kl. 10 angenommen · Test-Richtung (2.6) ·
+Katalog: quadratische-gleichungen.md + quadratische-funktionen.md (Einheit 4) ·
+5 Einheiten · Blatt 0 aus 10 Fertigkeiten
+
+Einheit 1 · Wurzelziehen und Loesbarkeit
+Einheit 2 · Satz vom Nullprodukt
+Einheit 3 · Normalform und p-q-Formel
+Einheit 4 · Nullstellen und Schnittpunkte der Parabel
+Einheit 5 · Sachaufgaben
+
+RUECKFRAGEN
+
+keine (Klasse 10, also keine Oberstufen-Rueckfrage nach 1.5; Thema eindeutig)
+
+UEBERGEBENE DATEIEN
+
+Nullstellen_Blatt0.pdf
+Nullstellen_E1.pdf
+Nullstellen_Gesamt.pdf
+Nullstellen_Loesungen.pdf
+Nullstellen_2026-09-22_protokoll.zip
+
+AUSGABEBLOCK
+
+siehe Ausgabeblock der Antwort; wortgleich:
+
+- Zwischensprossen ergaenzt: in Einheit 1 der Sachzusammenhang-Einstieg vor der
+  Naeherungswert-Sprosse; in Einheit 3 die Trennung von "ordnen" und "normieren" in
+  zwei Hauptnummern, weil die Kette des Eintrags beides in einer Sprossenfolge fuehrt,
+  der Grundfall aber verschiedene Schrittzahlen hat.
+- Hoehe nach Lehrwerk-Konvention: Einheit 5 (Sachaufgaben) hat kein P10-Original; die
+  Decke ist die Rechteckaufgabe nach RLP G und LS-AA Kl. 9 II 6, ohne Jahresangabe.
+- eigene Bausteine: eigene.sty (Einheitenkopf, Verzeichniszeile mit Sprungmarke,
+  Punktfeld mit Namen, Loesungskopf).
+- Kastenzahlen: die vier Merkkaesten von quadratische-gleichungen.md und der Kasten zu
+  Einheit 4 von quadratische-funktionen.md sperren zusammen 0, 1, 2, 3, 4, 5, 6, 7, 8,
+  9, 10, 16, 20, 36 und 60. 3.6 ist deshalb als Verbot der Zahlenkombinationen gelesen
+  worden: keine Teilaufgabe wiederholt ein Kasten-, Beispiel- oder Originalbeispiel;
+  einzelne Ziffern sind zugelassen. Der Katalog fuehrt genau das als offene Umbaufrage
+  (Prueffraster T4).
+- Katalogzeile: gebraucht wurden aus beiden Eintraegen Lerneinheiten, Typen je
+  Lerneinheit, Voraussetzungen (Blatt 0) samt Erkennungsschritten, Typische Fehler,
+  Fuer schwache Schueler (Sprossen je Verfahrenstyp), Pruefungsform und Zielmarke.
+  Nicht gebraucht: Merkkaesten (kein "mit kasten"), Grundvorstellung (keine Option
+  schwach), Vorrat-Listen ausser den G-belegten Sprossen, Status, Offene Punkte,
+  Prueffliste. Gefehlt hat: eine Zielmarke fuer Einheit 5 (kein Original) und eine
+  Basismarke fuer Einheit 3 und Einheit 4 - beide Eintraege verzeichnen das selbst.

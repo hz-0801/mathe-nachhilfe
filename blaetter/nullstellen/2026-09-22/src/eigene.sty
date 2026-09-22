@@ -1,0 +1,28 @@
+\ProvidesPackage{eigene}[2026/09/22 Zusatzbausteine zum Lernblatt Nullstellen]
+
+% Einheitenkopf als eigene Zeile über der ersten Hauptnummer einer Einheit.
+% In mathblatt.sty (2026-09-07d) nicht vorhanden.
+\newcommand{\einheitenkopf}[1]{%
+  \par\addvspace{6pt}\nopagebreak
+  \noindent\textbf{#1}\par\addvspace{2pt}\nopagebreak}
+
+% Untertitel unter der Kopfzeile (Blatt 0).
+\newcommand{\blattunter}[1]{%
+  \par\noindent\textbf{#1}\par\addvspace{4pt}\nopagebreak}
+
+% Punktfeld mit frei wählbarem Namen: \pfeld{N_1} -> N_1(___|___)
+% mathblatt.sty hat nur \punktfeld mit festem S.
+\newcommand{\pfeld}[1]{%
+  \ensuremath{#1(\underline{\hspace{0.8cm}}\,|\,\underline{\hspace{0.8cm}})}}
+
+% Verzeichnis (Gesamt, Seite 1). mathblatt.sty führt kein Verzeichnismakro.
+\newcommand{\inhaltskopf}{%
+  \par\noindent\textbf{Inhalt}\par\addvspace{6pt}}
+\newcommand{\inhaltszeile}[3]{%
+  \par\noindent\hyperlink{#1}{#2 \,\textperiodcentered\, Seiten #3}\par\addvspace{3pt}}
+
+% Abschnittskopf in der Lösungsdatei.
+\newcommand{\loeskopf}[1]{%
+  \par\addvspace{8pt}\noindent\textbf{#1}\par\addvspace{2pt}}
+
+\RequirePackage[hidelinks]{hyperref}

@@ -1,0 +1,33 @@
+10a        Skript: ja                               Blatt: ja                               OK
+10b        Skript: nein                             Blatt: nein                             OK
+10c        Skript: ja                               Blatt: ja                               OK
+10d        Skript: nein                             Blatt: nein                             OK
+10e        Skript: ja                               Blatt: ja                               OK
+11-Bsp     Skript: [-8, 3]                          Blatt: [-8, 3]                          OK
+11a        Skript: [2, 9]                           Blatt: [2, 9]                           OK
+11b        Skript: [4, 11]                          Blatt: [4, 11]                          OK
+11c        Skript: [1, 6]                           Blatt: [1, 6]                           OK
+11d        Skript: [5, 12]                          Blatt: [5, 12]                          OK
+11e        Skript: [-7, 3]                          Blatt: [-7, 3]                          OK
+11f        Skript: [-4, 0]                          Blatt: [-4, 0]                          OK
+11g        Skript: [6]                              Blatt: [6]                              OK
+11h        Skript: [-9, 0]                          Blatt: [-9, 0]                          OK
+11i        Skript: [0, 13]                          Blatt: [0, 13]                          OK
+11j        Skript: [-5, 0]                          Blatt: [-5, 0]                          OK
+11k        Skript: [0, 4]                           Blatt: [0, 4]                           OK
+12a        Skript: x**2 + 6*x - 27                  Blatt: x**2 + 6*x - 27                  OK
+12b        Skript: x**2 + 3*x - 28                  Blatt: x**2 + 3*x - 28                  OK
+12c        Skript: x**2 - 9*x + 14                  Blatt: x**2 - 9*x + 14                  OK
+13a        Skript: True                             Blatt: True                             OK
+13b        Skript: True                             Blatt: True                             OK
+13c        Skript: False                            Blatt: False                            OK
+14-falsch  Skript: [11]                             Blatt: [11]                             OK
+14-richtig Skript: [0, 11]                          Blatt: [0, 11]                          OK
+14a        Skript: [0, 6]                           Blatt: [0, 6]                           OK
+15c-1      Skript: [-3, 3]                          Blatt: [-3, 3]                          OK
+15c-2      Skript: [-3]                             Blatt: [-3]                             OK
+16a        Skript: [0, 6]                           Blatt: [0, 6]                           OK
+16a-Opt    Skript: [0, 6]                           Blatt: [0, 6]                           OK
+16b        Skript: [-4, -3]                         Blatt: [-4, -3]                         OK
+16b-Opt    Skript: [-3]                             Blatt: [-3]                             OK
+Abweichungen: 0
