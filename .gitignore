@@ -12,3 +12,6 @@ hefte/abi/*-ocr.pdf
 # (baende/<profil>-einzeln/): enthalten die Hefte, bleiben lokal
 baende/
 baende/fhr-einzeln/
+# Verarbeitete Protokoll-Archive der Blattablage (werkzeuge/einsortieren.py): Rohdaten bleiben
+# lokal, der aufbereitete Inhalt liegt in blaetter/
+eingang/

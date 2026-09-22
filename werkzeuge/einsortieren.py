@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-einsortieren.py v0.1 · 22.09.2026 · Blattablage aus eingang/ nach blaetter/
+einsortieren.py v0.2 · 22.09.2026 · Blattablage aus den Quellordnern nach blaetter/
 
-Verarbeitet jedes eingang/*_protokoll.zip: liest protokoll.txt aus dem Archiv
-(Prompt, Modell, Vorlage, Katalog), leitet Thema und Datum ab und legt das
-Blatt unter blaetter/<thema>/<datum>/ ab (pdf/ mit allen .pdf, src/ mit den
-Quelltexten). Existiert der Zielordner schon, wird das Archiv nicht verarbeitet
-und gemeldet. Verarbeitete Archive wandern nach eingang/erledigt/, keines wird
-gelöscht. Danach wird blaetter/index.md aus allen Ordnern unter blaetter/ neu
-geschrieben (aus src/protokoll.txt jedes Blatts, nicht aus einem Zwischenspeicher).
+Verarbeitet jedes *protokoll*.zip (Muster ohne Anker am Namensende, weil
+Browser einer erneuten Ladung " (1)" anhängen) in QUELLORDNER: liest
+protokoll.txt aus dem Archiv (Prompt, Modell, Vorlage, Katalog), leitet Thema
+und Datum ab und legt das Blatt unter blaetter/<thema>/<datum>/ ab (pdf/ mit
+allen .pdf, src/ mit den Quelltexten). Existiert der Zielordner schon, wird
+das Archiv nicht verarbeitet und gemeldet. Verarbeitete Archive wandern nach
+eingang/erledigt/, keines wird gelöscht. Danach wird blaetter/index.md aus
+allen Ordnern unter blaetter/ neu geschrieben (aus src/protokoll.txt jedes
+Blatts, nicht aus einem Zwischenspeicher).
 
 Thema: Dateiname aus der Katalog-Zeile ohne Pfad und ohne .md; fehlt die Zeile
 oder steht dort "nicht erreichbar", der Archivname vor dem ersten Unterstrich,
@@ -28,6 +30,12 @@ WURZEL = Path(__file__).resolve().parent.parent
 EINGANG = WURZEL / "eingang"
 ERLEDIGT = EINGANG / "erledigt"
 BLAETTER = WURZEL / "blaetter"
+
+QUELLORDNER = [
+    Path.home() / "Downloads",
+    Path.home() / "OneDrive" / "Downloads",
+    Path.home() / "OneDrive" / "blatt-eingang",
+]
 
 FELD_PREFIXE = {
     "Prompt:": "prompt",
@@ -181,8 +189,14 @@ def main() -> None:
     EINGANG.mkdir(exist_ok=True)
     ERLEDIGT.mkdir(exist_ok=True)
     BLAETTER.mkdir(exist_ok=True)
+    if not QUELLORDNER[-1].exists():
+        QUELLORDNER[-1].mkdir(parents=True)
 
-    archive = sorted(EINGANG.glob("*_protokoll.zip"))
+    archive = []
+    for ordner in QUELLORDNER:
+        if ordner.exists():
+            archive.extend(sorted(ordner.glob("*protokoll*.zip")))
+
     if not archive:
         print("kein Archiv im Eingang")
     for zip_pfad in archive:

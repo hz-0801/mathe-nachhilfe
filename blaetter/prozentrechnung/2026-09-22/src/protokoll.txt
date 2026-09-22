@@ -1,0 +1,93 @@
+Prompt: Unterrichtsblatt-Prompt v4.0
+Modell: Claude Opus 5
+Vorlage: Version 2026-09-07d (neu: gleichungsraster mit \gl/\sgl, \beispiel und \rechnung senkrecht; feld/feldl/leerfeld mit optionaler Einheit im Kasten, Umbruch davor erlaubt mit Strafe statt verboten)
+Katalog: katalog/prozentrechnung.md, Status: gegengelesen bis auf [FS] (2026-09-08d; vierter Gegenlese-Block 2026-09-10i)
+Eingabe: "prozentrechnung" - Deutung: Lernblatt - Kl. 7 (Katalog) - 5 Einheiten - Blatt 0 aus 6 Fertigkeiten
+
+EINHEITEN UND HAUPTNUMMERN
+Blatt 0 - Das kannst du schon
+  1 Brueche kuerzen und auf Hundertstel erweitern
+  2 Brueche und Dezimalzahlen
+  3 Auf eine Stelle nach dem Komma runden
+  4 Durch 100 teilen und mit Dezimalzahlen malnehmen
+  5 In der Tabelle hoch- und runterrechnen (Dreisatz-Schema)
+  6 Bruchteil einer Groesse berechnen
+  7 Fehler finden
+Einheit 1 - Prozente als Anteile
+  1 am Streifen | 2 umrechnen (Pruefungshoehe P10 2020) | 3 ordnen
+  4 Anteile zu 100 % ergaenzen (P10 2021) | 5 Fehler finden | 6 Begruenden
+  7 Anteilsaussage pruefen und korrigieren (P10 2023)
+Einheit 2 - Prozentsatz berechnen
+  8 Vorstufe: Was ist das Ganze? | 9 am Streifen | 10 rechnen | 11 Umkehrung
+  12 aus dem Sachtext (Pruefungshoehe P10 2018) | 13 Fehler finden | 14 Begruenden | 15 Anwendung
+Einheit 3 - Prozentwert berechnen
+  16 Vorstufe: Streifen einteilen | 17 am Streifen | 18 rechnen
+  19 aus dem Sachtext (Pruefungshoehe P10 2021) | 20 Fehler finden | 21 Begruenden | 22 Anwendung
+Einheit 4 - Grundwert berechnen
+  23 Vorstufe: Was ist gegeben, was gesucht? | 24 am Streifen | 25 rechnen
+  26 aus dem Sachtext (Pruefungshoehe P10 2025) | 27 Fehler finden | 28 Begruenden | 29 Gemischt
+Einheit 5 - Prozentuale Veraenderung
+  30 Vorstufe: um oder auf? | 31 Vorstufe: Welcher Wert ist der alte? | 32 neuen Wert berechnen (P10 2024)
+  33 in Prozent berechnen (P10 2026) | 34 alten Wert zurueckrechnen | 35 Prozentpunkte
+  36 Steigung in Prozent (P10 2025) | 37 Fehler finden | 38 Begruenden
+
+ZAEHLUNG JE DATEI (aus der Textextraktion des Kompilats)
+Blatt0: Hauptnummern 7, Teilaufgaben 31, Grafiken 5, Seiten vor dem Begleitteil 3
+E1: Hauptnummern 7, Teilaufgaben 31, Grafiken 2, Seiten vor dem Begleitteil 2
+E2: Hauptnummern 8, Teilaufgaben 29, Grafiken 1, Seiten vor dem Begleitteil 2
+E3: Hauptnummern 7, Teilaufgaben 31, Grafiken 2, Seiten vor dem Begleitteil 2
+E4: Hauptnummern 7, Teilaufgaben 25, Grafiken 1, Seiten vor dem Begleitteil 2
+E5: Hauptnummern 9, Teilaufgaben 33, Grafiken 0, Seiten vor dem Begleitteil 2
+Lern: Hauptnummern 38, Teilaufgaben 149, Grafiken 6, Seiten vor dem Begleitteil 11
+Gesamt: Hauptnummern 38, Teilaufgaben 180, Grafiken 11, Seiten vor dem Begleitteil 14
+
+WERKZEUGAUFRUFE (Schritt - Anlass)
+ 1 date +%s.%N - Startzeitstempel des Baus
+ 2 curl katalog/index.md und ziel.md - Register und Zielvorgabe
+ 3 curl mathblatt.sty und Anleitung - Vorlage holen, Makroliste ausgeben
+ 4 curl katalog/prozentrechnung.md - Katalogeintrag
+ 5 grep mathblatt.sty - Zaehlername (aufgabe) und Signaturen von blattkopf/weit/erg/begleitteil
+ 6 create eigene.sty - Prozentstreifen und Dreisatz-Schema fehlen in Stufe 3
+ 7 create blatt0_a.tex - Blatt 0, Aufgabenteil
+ 8 create blatt0_l.tex - Blatt 0, Ergebnisse und Zuordnung
+ 9 xelatex blatt0 - erstes Kompilat, Log ohne Warnung, 4 Seiten
+10 pruef_blatt0.py und Textextraktion - 0 Abweichungen, Seitenfuellung geprueft
+11 KORREKTUR blatt0_l - begleitteil setzt die Ueberschrift "Ergebnisse" selbst; die eigene Zeile doppelte sie
+12 view b0p-2.png - Dreisatz-Schema sichtpruefen
+13 KORREKTUR eigene.sty - Kopfrahmen des Dreisatz: hrulefill blieb auf Zellenbreite stehen, entfernt
+14 create e1_a.tex - Einheit 1, Aufgabenteil
+15 e1_l.tex, xelatex, Textextraktion - 3 Seiten, keine mathblatt Warning
+16 pruef_e1.py, Render Seite 1 - 0 Abweichungen
+17 view e1p-1.png - Prozentstreifen sichtpruefen
+18 KORREKTUR e1_a - Ordnen-Aufgaben hatten zwei Antwortfelder fuer drei Angaben
+19 patch eigene.sty - streifenwertreihe fuer Streifen mit Wertangaben
+20 create e2_a.tex, e2_l.tex, xelatex - Einheit 2
+21 pruef_e2.py, Render Seite 1 - 0 Abweichungen
+22 view e2p-1.png - Wertstreifen sichtpruefen
+23 KORREKTUR e2_a - beispiel: & vor dem Doppelpunkt erzeugte " :" mit Relationsabstand; Umkehrung ohne Feldpaare
+24 create e3_a.tex, e3_l.tex, pruef_e3.py, xelatex, Render - Einheit 3, 0 Abweichungen
+25 view e3p-1.png - Zeichenstreifen und Wertstreifen sichtpruefen
+26 KORREKTUR e3_a - dieselbe Beispielzeile wie Schritt 23
+27 create e4_a.tex, e4_l.tex, pruef_e4.py, xelatex, Render - Einheit 4, 0 Abweichungen
+28 view e4p-1.png - Streifen sichtpruefen
+29 create e5_a.tex, e5_l.tex, pruef_e5.py, xelatex - Einheit 5, 0 Abweichungen
+30 Textextraktion e5 - Schreibform der Beispiele und der rechnung geprueft
+31 KORREKTUR e5 - widehat-Gleichheitszeichen kam in der Textextraktion als "b" heraus, durch "sind" ersetzt
+32 Labels setzen, lernblatt.tex und gesamt.tex, je zwei xelatex-Laeufe - Verzeichnis aus dem Kompilat
+33 KORREKTUR gesamt.tex - Verzeichniszeile fuer Blatt 0 nannte "Nr. 1-7" doppeldeutig neben Einheit 1
+34 Nummern- und Seitenpruefung - 1 bis 38 durchlaufend, kleinste Aufgabenseite ueber einem Drittel
+35 date, Kopie der PDFs - Uebergabe von Lernblatt und Gesamt
+36 Bestandspruefung, t0.txt im Wurzelverzeichnis gefunden - Protokoll-Archiv
+
+Vorlage: fehlende Bausteine - Prozentstreifen, Dreisatz-Schema (beide in der Anleitung unter "Noch nicht in Stufe 3"), Einheitenkopf
+eigener TikZ - eigene.sty: streifen, streifenfrage, streifenreihe, streifenwertreihe, dreisatz-Umgebung, einheitskopf
+Warnungen aus dem Log - keine (keine Package mathblatt Warning, keine Overfull-Box ueber 10 pt)
+
+Korrekturrunden: 7 von 36 Schritten
+Blatt 0: 464 s
+E 1: 605 s
+E 2: 741 s
+E 3: 835 s
+E 4: 910 s
+E 5: 1018 s
+Gesamt: 1180 s

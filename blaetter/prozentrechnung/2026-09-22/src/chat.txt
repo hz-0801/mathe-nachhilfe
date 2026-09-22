@@ -1,0 +1,47 @@
+EINGABE DES LEHRERS
+prozentrechnung
+
+DEUTUNGSZEILE
+→ Lernblatt · Kl. 7 (Katalog) · 5 Einheiten · Blatt 0 aus 6 Fertigkeiten
+
+RUECKFRAGEN
+keine
+
+AUSGABEBLOCK
+Abweichung vom Erwartbaren
+- Eigene Bausteine gebaut, weil die Vorlage (Stufe 3) sie nicht hat: Prozentstreifen
+  (\streifen, \streifenreihe, \streifenwertreihe), Dreisatz-Schema (dreisatz-Umgebung),
+  Einheitenkopf - alle in eigene.sty. Beide stehen in der Anleitung unter
+  "Noch nicht in Stufe 3".
+- Keine weggelassenen Typen, keine Zwischensprossen, keine Hoehe nach Lehrwerk-Konvention:
+  alle zehn P10-Typen und alle Typen der fuenf Lerneinheiten tragen eine Sprosse oder eine
+  Hauptnummer. "Steigung in Prozent berechnen" hat kein Hauptoriginal; die Rechnung stammt
+  wie im Eintrag vermerkt aus 2025-OS-K4b (Nr. 36 b/c).
+
+Katalogzeile (Befund fuer den Katalog)
+- Gebraucht: Verortung, Lerneinheiten, Typen je Lerneinheit, Voraussetzungen (Blatt 0),
+  Sprossenketten aus "Fuer schwache Schueler", Typische Fehler, Pruefungsform und Zielmarke.
+  Nicht gebraucht: Merkkasten (kein "mit kasten"), Status, Offene Punkte, Pruefliste.
+- Gefehlt hat dreierlei. Erstens sind die Erkennungsschritte mehrfach vergeben
+  ("vor Einheit 2 bis 5", "vor Einheit 2 und 3"); woertlich genommen ergaebe das dieselbe
+  Vorstufe in vier Einheiten. Gesetzt wurde je Einheit genau einer: "Was ist das Ganze?" -> E2,
+  "Streifen einteilen" -> E3, "gegeben/gesucht" -> E4, "um oder auf?" und "Welcher Wert ist
+  der alte?" -> E5. Zweitens steht in den Lerneinheiten noch die Zeile
+  "Eingabe 'prozentrechnung' ohne Zusatz -> Dialog"; sie stammt aus der Prompt-Fassung vor
+  v4.0, die diese Rueckfrage nicht mehr kennt, und ist zu streichen. Drittens haben zwei Typen
+  keinen Platz in der Sprossenkette: "Prozentangaben ordnen" (Einheit 1) und "Umkehrung: zu
+  einem Prozentsatz ein Zahlenpaar angeben" (Einheit 2); beide stehen jetzt als eigene
+  Hauptnummern (Nr. 3 und Nr. 11).
+
+Protokoll-Archiv: Prozentrechnung_2026-09-22_protokoll.zip
+
+UEBERGEBENE DATEIEN
+Prozentrechnung_Blatt0.pdf
+Prozentrechnung_E1.pdf
+Prozentrechnung_E2.pdf
+Prozentrechnung_E3.pdf
+Prozentrechnung_E4.pdf
+Prozentrechnung_E5.pdf
+Prozentrechnung_Lern.pdf
+Prozentrechnung_Gesamt.pdf
+Prozentrechnung_2026-09-22_protokoll.zip

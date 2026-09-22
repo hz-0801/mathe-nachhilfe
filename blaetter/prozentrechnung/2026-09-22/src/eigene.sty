@@ -1,0 +1,118 @@
+% eigene.sty – Bausteine, die mathblatt.sty (Stufe 3) noch nicht hat:
+% Prozentstreifen und Dreisatz-Schema (Anleitung, Abschnitt "Noch nicht in Stufe 3"),
+% dazu der Einheitenkopf des Lernblatts.
+\ProvidesPackage{eigene}[2026/09/22 Zusatzbausteine Prozentrechnung]
+
+% ---------- Einheitenkopf ----------
+\newcommand{\einheitskopf}[1]{%
+  \par\medskip\noindent{\large\bfseries #1}%
+  \par\vspace{1mm}\noindent\rule{\textwidth}{0.6pt}\par\smallskip}
+
+% ---------- Prozentstreifen ----------
+% \streifen[<Teilstriche>]{<Fuellung in %>}{<Label links unten>}{<Label rechts unten>}
+\newcommand{\streifen}[4][10]{%
+  \par\smallskip\noindent
+  \begin{tikzpicture}[baseline=0pt]
+    \pgfmathsetmacro{\sbw}{10}
+    \pgfmathsetmacro{\sbh}{0.8}
+    \pgfmathsetmacro{\sfill}{#2/100*\sbw}
+    \ifdim\sfill pt>0pt\fill[black!20] (0,0) rectangle (\sfill,\sbh);\fi
+    \pgfmathtruncatemacro{\nteile}{#1}
+    \ifnum\nteile>1
+      \pgfmathtruncatemacro{\nm}{\nteile-1}
+      \foreach \i in {1,...,\nm}{%
+        \pgfmathsetmacro{\xx}{\i/\nteile*\sbw}
+        \draw[black!50] (\xx,0) -- (\xx,\sbh);}
+    \fi
+    \draw[line width=0.8pt] (0,0) rectangle (\sbw,\sbh);
+    \node[below,font=\small] at (0,-0.05) {#3};
+    \node[below,font=\small] at (\sbw,-0.05) {#4};
+  \end{tikzpicture}
+  \par\smallskip}
+
+% \streifenfrage[<Teilstriche>]{<Fuellung>}{<links>}{<rechts>} – wie oben, mit ? ueber der Fuellgrenze
+\newcommand{\streifenfrage}[4][10]{%
+  \par\smallskip\noindent
+  \begin{tikzpicture}[baseline=0pt]
+    \pgfmathsetmacro{\sbw}{10}
+    \pgfmathsetmacro{\sbh}{0.8}
+    \pgfmathsetmacro{\sfill}{#2/100*\sbw}
+    \ifdim\sfill pt>0pt\fill[black!20] (0,0) rectangle (\sfill,\sbh);\fi
+    \pgfmathtruncatemacro{\nteile}{#1}
+    \ifnum\nteile>1
+      \pgfmathtruncatemacro{\nm}{\nteile-1}
+      \foreach \i in {1,...,\nm}{%
+        \pgfmathsetmacro{\xx}{\i/\nteile*\sbw}
+        \draw[black!50] (\xx,0) -- (\xx,\sbh);}
+    \fi
+    \draw[line width=0.8pt] (0,0) rectangle (\sbw,\sbh);
+    \draw[line width=1pt] (\sfill,-0.1) -- (\sfill,\sbh+0.1);
+    \node[above,font=\small] at (\sfill,\sbh+0.1) {?};
+    \node[below,font=\small] at (0,-0.05) {#3};
+    \node[below,font=\small] at (\sbw,-0.05) {#4};
+  \end{tikzpicture}
+  \par\smallskip}
+
+% \streifenreihe[<Teilstriche>]{<Buchstabe/Fuellung, ...>} – mehrere Streifen in einer Grafik
+\newcommand{\streifenreihe}[2][10]{%
+  \par\smallskip\noindent
+  \begin{tikzpicture}[baseline=0pt]
+    \pgfmathsetmacro{\sbw}{9.5}
+    \pgfmathsetmacro{\sbh}{0.62}
+    \pgfmathtruncatemacro{\nteile}{#1}
+    \foreach \lab/\ff [count=\r from 0] in {#2}{%
+      \pgfmathsetmacro{\yy}{-\r*(\sbh+0.42)}
+      \pgfmathsetmacro{\sfill}{\ff/100*\sbw}
+      \ifdim\sfill pt>0pt\fill[black!20] (0,\yy) rectangle (\sfill,\yy+\sbh);\fi
+      \ifnum\nteile>1
+        \pgfmathtruncatemacro{\nm}{\nteile-1}
+        \foreach \i in {1,...,\nm}{%
+          \pgfmathsetmacro{\xx}{\i/\nteile*\sbw}
+          \draw[black!50] (\xx,\yy) -- (\xx,\yy+\sbh);}
+      \fi
+      \draw[line width=0.8pt] (0,\yy) rectangle (\sbw,\yy+\sbh);
+      \node[left,font=\small] at (-0.15,\yy+0.5*\sbh) {\lab)};
+      \node[right,font=\scriptsize] at (\sbw+0.15,\yy+0.5*\sbh) {100\,\%};
+    }
+  \end{tikzpicture}
+  \par\smallskip}
+
+% ---------- Dreisatz-Schema ----------
+\newcommand{\dsleer}{\rule[-0.5ex]{1.5cm}{0.4pt}}
+\newenvironment{dreisatz}[2]{%
+  \par\smallskip\noindent
+  \renewcommand{\arraystretch}{1.05}%
+  \begin{tabular}{@{}r@{\,}c@{\hspace{7mm}}c@{\,}l@{}}
+  \multicolumn{1}{c}{} & \textbf{#1} & \textbf{#2} & \multicolumn{1}{c}{}\\[0.4ex]
+}{%
+  \end{tabular}\par\smallskip}
+\newcommand{\dsz}[2]{ & #1 & #2 & \\}
+\newcommand{\dsp}[2]{ {\footnotesize$#1$}$\big\downarrow$ & & & $\big\downarrow${\footnotesize$#2$} \\}
+
+% \streifenwertreihe[<Teilstriche>]{<Buchstabe/Fuellung/Teilwert/Ganzwert, ...>}
+\newcommand{\streifenwertreihe}[2][10]{%
+  \par\smallskip\noindent
+  \begin{tikzpicture}[baseline=0pt]
+    \pgfmathsetmacro{\sbw}{9}
+    \pgfmathsetmacro{\sbh}{0.62}
+    \pgfmathtruncatemacro{\nteile}{#1}
+    \foreach \lab/\ff/\tw/\gw [count=\r from 0] in {#2}{%
+      \pgfmathsetmacro{\yy}{-\r*(\sbh+0.72)}
+      \pgfmathsetmacro{\sfill}{\ff/100*\sbw}
+      \ifdim\sfill pt>0pt\fill[black!20] (0,\yy) rectangle (\sfill,\yy+\sbh);\fi
+      \ifnum\nteile>1
+        \pgfmathtruncatemacro{\nm}{\nteile-1}
+        \foreach \i in {1,...,\nm}{%
+          \pgfmathsetmacro{\xx}{\i/\nteile*\sbw}
+          \draw[black!50] (\xx,\yy) -- (\xx,\yy+\sbh);}
+      \fi
+      \draw[line width=0.8pt] (0,\yy) rectangle (\sbw,\yy+\sbh);
+      \draw[line width=1pt] (\sfill,\yy-0.08) -- (\sfill,\yy+\sbh);
+      \node[left,font=\small] at (-0.15,\yy+0.5*\sbh) {\lab)};
+      \node[below,font=\scriptsize] at (0,\yy-0.05) {0};
+      \node[below,font=\scriptsize] at (\sfill,\yy-0.05) {\tw};
+      \node[below,font=\scriptsize] at (\sbw,\yy-0.05) {\gw};
+    }
+  \end{tikzpicture}
+  \par\smallskip}
+\endinput
