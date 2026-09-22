@@ -27,7 +27,7 @@ Fertigkeiten:
 - Brüche als Steigung (½, −¾), Bruch mal ganze Zahl. [MSK B] – ab Einheit 2. Thema Bruchrechnung (bruchrechnung.md), Einheit 3.
 - Lineare Gleichung zweischrittig lösen (null gleich einem zweischrittigen Term). [Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 2] – für Einheit 3 (Nullstelle, Argument) und 4 (Schnittpunkt).
 - Terme zusammenfassen. – für Einheit 4 (Gleichsetzen). Thema Terme (terme.md), Einheit 2.
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - m und n in der Gleichung markieren: „Unterstreiche m, kreise n ein" (f(x) = 2x − 3, f(x) = x, f(x) = −x + 4, f(x) = 5). Vor Einheit 2.
 - Steigungsrichtung ohne Zeichnen: „Steigt oder fällt die Gerade?" Vor Einheit 2.
 - Steigungsdreieck lesen: „einen Schritt nach rechts, wie viel nach oben oder unten?" an gezeichneten Dreiecken. Vor Einheit 2.

@@ -11,7 +11,6 @@ Kreis zeichnen, Mittelpunkt, Radius, Durchmesser: Stufe D (Grundschule Kl. 5/6 i
 1. Kreisumfang – Mittelpunkt, Radius, Durchmesser, Kreislinie; Kreis mit dem Zirkel zeichnen; π als Verhältnis von Umfang zu Durchmesser (messen, ≈ 3,14); u = π · d = 2 · π · r; Durchmesser oder Radius aus dem Umfang; Halbkreisbogen. (Kl. 7/8) ← Eingabe „kreisumfang“, „umfang kreis“
 2. Kreisfläche – A = π · r²; Radius aus dem Durchmesser; Fläche mit Dezimalzahlen und Runden; Radius aus der Fläche (Wurzel); Halbkreis und Viertelkreis; Tabelle r, d, u, A. (Kl. 7/8) ← Eingabe „kreisfläche“, „fläche kreis“
 3. Kreisteile – Kreisausschnitt: Anteil am Kreis aus dem Mittelpunktswinkel (α : 360°) als Bruch und Prozent, Winkel aus Anteil, Bogenlänge, Ausschnittsfläche, Umfang des Ausschnitts; Kreisring. (Kl. 8) ← Eingabe „kreisteile“, „kreissektor“, „kreisausschnitt“
-Eingabe „kreis“ ohne Zusatz → Dialog mit drei Buttons.
 
 ### Typen je Lerneinheit
 Einheit 1: Radius, Durchmesser, Mittelpunkt in einer Figur benennen und einzeichnen · Kreis mit gegebenem Radius oder Durchmesser zeichnen · d = 2 · r und r = d : 2 · Umfang messen und u : d bilden (Entdeckung von π) · u aus r · u aus d · d oder r aus u (Umstellen) · Umfang mit Dezimalzahlen, auf eine Stelle runden · Halbkreisbogen (mit und ohne Durchmesser) · Sachaufgabe (Rad: Weg bei mehreren Umdrehungen; Baumstamm; Reifen) · Fehler finden (Durchmesser als Radius; π · r² für den Umfang) · Begründen (warum u : d bei jedem Kreis gleich ist).
@@ -26,7 +25,7 @@ Fertigkeiten:
 - Winkel messen und zeichnen, Vollwinkel – Einheit 3. Thema Winkel (winkel-dreiecke.md). [RLP D]
 - Anteil als Bruch und Prozentsatz bilden (Mittelpunktswinkel zum Vollwinkel als Prozent) – Einheit 3. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Prozentrechnung (prozentrechnung.md) Einheit 2. [P10 2025-OS-B1e]
 - Fläche und Umfang unterscheiden; Einheiten cm, cm², m, m² – alle Einheiten. Thema Flächen (flaechen.md), Einheit 1. [RLP D]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Radius oder Durchmesser?“ – in der Skizze die gegebene Strecke benennen und die andere angeben (d = 6,4 → r = 3,2), nicht weiterrechnen. Vor Einheit 1 und 2. [P10 2016-OS-K3b, 2018-OS-K6a]
 - „Rand oder Fläche?“ – zu jeder Frage ankreuzen: Umfang (Reifen, Borte, Zaun, Abrollen) oder Fläche (Rasen, Pizza, Deckel, Blech). Vor Einheit 1 und 2. [RLP D „Unterscheiden zwischen Fläche und Umfang“; P10 2024-OS-K4a]
 - „Welche Formel?“ – aus der Formelsammlung u = π · d oder A = π · r² ankreuzen, nicht rechnen. Vor Einheit 2. [RLP E „auch mithilfe von Formelsammlungen“]

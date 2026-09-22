@@ -10,7 +10,7 @@ Die Zufallsgröße als Zuordnung und ihre Verteilung ohne spezielles Modell: die
 ### Lerneinheiten
 1. Verteilung aufstellen: die Werte der Zufallsgröße aus den Regeln gewinnen (alle Ergebnisfolgen durchrechnen), die Tabelle durch Abzählen füllen (günstige Paare je Wert), fehlende Wahrscheinlichkeiten über die Summe eins – auch mit Parameter und über unmögliche Werte. (Q2, GK-Kern „Zufallsgrößen als Zuordnung“, „Verteilung in Tabellen“) ← Eingabe „wahrscheinlichkeitsverteilung“, „zufallsgröße tabelle“, „summe eins“
 2. Verteilung lesen: die Symmetrie einer Verteilung nutzen (Restwahrscheinlichkeit gleich verteilen, kumulierte Werte daraus), beschriebene Zufallsgrößen den Säulendiagrammen zuordnen (Symmetrie, Verhältnisse einzelner Säulen). (Q2, GK-Kern „Verteilung in … Diagrammen“; OHiMi 2.4 Histogramme) ← Eingabe „verteilung zuordnen“, „symmetrische verteilung“, „säulendiagramm zufallsgröße“
-Eingabe „zufallsgrößen und verteilungen“ ohne Zusatz → nummerierte Textauswahl mit zwei Einheiten. Warum Kurzform: sechs Zeilen, sechs Typen, alle in Teil A – die Substanz trägt zwei Einheiten (aufstellen und lesen); die große Diagrammarbeit liegt beim Binomialmodell (binomialverteilung.md Einheit 5). Niveaustufung: fhr = über den Erwartungswert (Zeilen bei kenngroessen-von-verteilungen.md); GK = beide Einheiten; LK = dieselben – die Zuordnungsaufgabe und die Symmetrieaufgabe liegen erhöht; die Grenze kommt aus dem Niveau der Zeilen, nicht aus dem Plan.
+Warum Kurzform: sechs Zeilen, sechs Typen, alle in Teil A – die Substanz trägt zwei Einheiten (aufstellen und lesen); die große Diagrammarbeit liegt beim Binomialmodell (binomialverteilung.md Einheit 5). Niveaustufung: fhr = über den Erwartungswert (Zeilen bei kenngroessen-von-verteilungen.md); GK = beide Einheiten; LK = dieselben – die Zuordnungsaufgabe und die Symmetrieaufgabe liegen erhöht; die Grenze kommt aus dem Niveau der Zeilen, nicht aus dem Plan.
 
 ### Typen je Lerneinheit
 Haupttypen der Rohdatei (Zeilenzahl in Klammern), je Einheit erst Berechnungs-, dann Nachweis-, dann Deutungstypen; die Rohdatei führt keine Nebentypen.
@@ -23,7 +23,7 @@ Fertigkeiten (je Zeile: was, wofür):
 - Ergebnismengen zweistufiger Experimente aufzählen und günstige Fälle abzählen (Paare, Reihenfolge beachten) – das Aufstellen in Einheit 1. Sek-I-Thema wahrscheinlichkeit.md. [GOST Eingangsvoraussetzung L5 „Laplace-Regel“; GOST Q2 L4]
 - Brüche addieren und zur Summe eins ergänzen – die Restbestimmung in Einheit 1. Sek-I-Thema bruchrechnung.md. [GOST-OHiMi 2.1]
 - Säulendiagramme lesen (Höhen, Symmetrie, Verhältnisse) – das Zuordnen in Einheit 2. Sek-I-Thema daten.md. [GOST-OHiMi 2.4 „Darstellung von Zufallsgrößen in Histogrammen“]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Welche Werte kann die Größe annehmen?“ – zu Spielregeln die möglichen Werte auflisten, ohne Wahrscheinlichkeiten zu rechnen. Vor Einheit 1. [GOST Q2 L4 „Zufallsgrößen als Zuordnung“; iqb 2018MgrundlegendAStochastik12-a]
 - „Was muss eins ergeben?“ – zu Tabellen und Diagrammen ankreuzen, welche Werte sich zu eins summieren müssen und welcher fehlt; nichts rechnen. Vor Einheit 1 und 2. [Rohdatei: Summe-eins-Typen; iqb 2021MerhoehtAStochastik13-a]
 

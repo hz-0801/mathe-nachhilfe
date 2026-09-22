@@ -13,7 +13,6 @@ Rechteck, Quadrat, Umfang von Vielecken, aus Rechtecken zusammengesetzte Fläche
 3. Dreieck – halbe Grundseite mal Höhe, Höhe zur passenden Grundseite, rechtwinklig (Katheten), stumpfwinklig (Höhe außen), Grundseite oder Höhe aus der Fläche, Umfang, Term zu Figur. (Kl. 7) ← Eingabe „dreieck fläche“, „dreieck“
 4. Trapez, Drachenviereck, Raute – Trapez aus parallelen Seiten und Höhe, Drachen und Raute aus den Diagonalen, Höhe aus der Fläche, Umfang. (Kl. 7/8) ← Eingabe „trapez“, „drachenviereck“, „raute“
 5. Zusammengesetzte Figuren – in Teilflächen zerlegen und benennen, ergänzen, Restfläche, Fläche und Umfang zusammengesetzter Figuren (auch mit Kreisteilen), Sachaufgaben, Verschnitt in Prozent. (Kl. 7/8) ← Eingabe „zusammengesetzte figuren“, „restfläche“
-Eingabe „flächen“ ohne Zusatz → Dialog; bei fünf Einheiten nummeriert als Text.
 
 ### Typen je Lerneinheit
 Einheit 1: Rechteck A und u aus a und b · Quadrat A und u aus a · Umfang eines Vielecks aus allen Seiten · Seite aus A und anderer Seite (A : b) · Seite aus u und anderer Seite · Quadratseite als Wurzel aus A · aus Rechtecken zusammengesetzte Fläche (Summe) · Term zu Figur (Fläche oder Umfang mit Variablen) · Einheit wechseln vor dem Rechnen (cm und m gemischt) · Fehler finden (Fläche und Umfang vertauscht) · Begründen (warum a · b).
@@ -31,7 +30,7 @@ Fertigkeiten:
 - Rechten Winkel erkennen und einzeichnen (Geodreieck) – Einheit 2 bis 4. Thema Winkel (winkel-dreiecke.md). [RLP D]
 - Wurzel ziehen bei Quadratzahlen (√49) – Einheit 1 (Quadratseite). Thema Potenzen und Wurzeln (potenzen-wurzeln.md). [P10 Typ „Quadratseite aus Fläche“]
 - Kreisfläche (π · r²) – nur Einheit 5 mit Kreisteilen. Thema Kreis (kreis.md). [P10]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Fläche oder Umfang?“ – zu jeder Frage ankreuzen: Rand (Zaun, Rahmen) oder Innen (Rasen, Farbe). Vor Einheit 1. [RLP D „Unterscheiden zwischen Fläche und Umfang“; P10 Fehlerquellen]
 - „Wo ist die Höhe?“ – in der Figur die Höhe zur markierten Grundseite einzeichnen (rechter Winkel). Vor Einheit 2, 3 und 4. [P10 2022-OS-B1e, 2023-OS-K2c]
 - „Welche Formel?“ – Figur benennen und die Formel aus der Formelsammlung ankreuzen, nicht rechnen. Vor Einheit 4. [RLP E „auch mithilfe von Formelsammlungen“]

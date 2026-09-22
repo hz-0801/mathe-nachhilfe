@@ -13,7 +13,6 @@ Klasse 6/7, Stufe D (in Berlin/Brandenburg Grundschule Kl. 5/6; für die Obersch
 3. Brüche multiplizieren und dividieren – Bruch mal Zahl, Bruch geteilt durch Zahl, Bruch mal Bruch („von“), Kürzen vor dem Rechnen, Division als Multiplikation mit dem Kehrbruch. (Kl. 6/7) ← Eingabe „brüche multiplizieren“, „brüche dividieren“
 4. Dezimalzahlen multiplizieren und dividieren – Kommaverschiebung bei 10, 100, 1000; Dezimalzahl mal natürliche Zahl, mal Dezimalzahl (Kommastellen zählen), geteilt durch natürliche Zahl, geteilt durch Dezimalzahl (Komma verschieben). (Kl. 6/7) ← Eingabe „dezimalzahlen multiplizieren“, „kommaverschiebung“
 5. Rechengesetze und Punkt vor Strich – Terme mit Brüchen und Dezimalzahlen, Klammern, Vorteile beim Rechnen, Überschlag. (Kl. 6/7) ← Eingabe „punkt vor strich“, „rechengesetze brüche“
-Eingabe „bruchrechnung“ ohne Zusatz → Dialog; bei fünf Einheiten nummeriert als Text.
 
 ### Typen je Lerneinheit
 Einheit 1: gleichnamig addieren und subtrahieren · Ergebnis kürzen · über ein Ganzes hinaus (unechter Bruch, gemischte Zahl) · gleichnamig machen mit einem Nenner als Vielfachem des anderen · beide erweitern (Hauptnenner) · ganze Zahl plus Bruch · gemischte Zahlen addieren und subtrahieren · Sachaufgabe (Zeit, Liter, Pizza) · Fehler finden (Zähler und Nenner addiert) · Begründen (warum erst gleichnamig).
@@ -30,7 +29,7 @@ Fertigkeiten:
 - Stellenwerte der Dezimalzahlen (Zehntel, Hundertstel; 0,7 = 0,70) – Einheit 2 und 4. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 4. [MSK D1A, RLP D]
 - Schriftliches Rechnen mit natürlichen Zahlen, Einmaleins – Einheit 2 und 4. [RLP D]
 - Bruch ↔ Dezimalzahl bei einfachen Brüchen (ein Halb, drei Viertel) – Einheit 5 (gemischte Terme). Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md). [RLP D]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Gleicher Nenner – ja oder nein?“ – ankreuzen, ob man sofort rechnen darf. Vor Einheit 1. [MSK B4A 1.5]
 - „Womit erweitere ich?“ – nur den Faktor angeben (ein Drittel → Sechstel: mal zwei). Vor Einheit 1. [MSK B4A 2.1]
 - „Von heißt mal“ – im Text das „von“ unterstreichen und die Malaufgabe aufschreiben, nicht rechnen. Vor Einheit 3. [RLP D „Operator“; FD]

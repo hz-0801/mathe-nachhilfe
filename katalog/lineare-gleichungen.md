@@ -24,7 +24,7 @@ Fertigkeiten:
 - Punkt vor Strich (3 · 4 − 5) – Probe und Einsetzen. [RLP D]
 - Klammern auflösen – nur Einheit 3. Thema Terme (terme.md), Einheit 3. [RLP F]
 - Brüche: Hauptnenner, Bruch mal Zahl – nur Einheit 3. Thema Bruchrechnung (bruchrechnung.md), Einheit 1 und 3. [MSK B]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - Umkehroperation benennen: „Welche Rechnung macht eine Addition rückgängig?" (plus ↔ minus, mal ↔ geteilt). Vor Einheit 1 und 2.
 - „Was steht bei x?" – Vorzahl und Zeichen bei x lesen (negative Vorzahl, x durch eine Zahl geteilt). Vor Einheit 2.
 - Nur die Umformung anschreiben: „Schreibe hinter den Strich, was x allein stellt" (einschrittige Gleichung mit leerem Strich). Vor Einheit 2.

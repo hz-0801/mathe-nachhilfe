@@ -13,7 +13,6 @@ Klasse 5/6, Stufe D (in Berlin/Brandenburg Grundschule; für die Oberschule 7–
 3. Brüche vergleichen – gleicher Nenner, gleicher Zähler, Vergleich mit 1/2 und 1, gleichnamig machen, Brüche am Zahlenstrahl eintragen und ablesen, ordnen, Zahl zwischen zwei Brüchen finden. (Kl. 5–7) ← Eingabe „brüche vergleichen“, „brüche ordnen“, „zahlenstrahl brüche“
 4. Dezimalzahlen – Stellenwerttafel mit Zehnteln, Hundertsteln, Tausendsteln; Zehnerbruch ↔ Dezimalzahl; Dezimalzahlen am Zahlenstrahl, Nachbarzahlen und Zählen in Schritten; Bruch → Dezimalzahl durch Erweitern oder Division (auch periodisch), Dezimalzahl → Bruch mit Kürzen. (Kl. 6/7) ← Eingabe „dezimalzahlen“, „bruch in dezimalzahl“, „umwandeln“
 5. Vergleichen, Ordnen, Runden – Dezimalzahlen stellenweise vergleichen und ordnen, runden, Mitte zweier Zahlen, Zahl dazwischen, Bruch gegen Dezimalzahl gegen Prozent; gemischte Darstellungen (auch Potenz, Wurzel, negative Zahlen) in eine Form bringen und ordnen, Aussagen prüfen. (Kl. 6–10, Prüfungsvorbereitung) ← Eingabe „dezimalzahlen vergleichen“, „runden“, „zahlen ordnen“, „darstellungen vergleichen“
-Eingabe „brüche“ oder „brüche und dezimalzahlen“ ohne Zusatz → Dialog; bei fünf Einheiten nummeriert als Text.
 
 ### Typen je Lerneinheit
 Einheit 1: Anteil an einer gleich geteilten Figur ablesen · Anteil einzeichnen (Kästchen, Streifen, Kreis) · Anteil bei ungleichen Teilen (erst gleich groß machen: halbe Kästchen, Sektoren verschiedener Größe) · unter mehreren Figuren die mit dem gegebenen Anteil auswählen (Ankreuzen) · Anteil an einer Menge (Kinder, Plättchen) angeben · Bruchteil einer Menge oder Größe berechnen (Ganzes : Nenner · Zähler; auch mit Komma und Einheit) · Rest zum Ganzen (Tonne zu 2/3 voll – wie viel fehlt) · Ganzes aus Bruchteil (Vorrat: ein Viertel sind 6 – wie viel ist alles) · Fehler finden (Zähler als Anzahl gelesen; Teil zu Rest statt Teil zu Ganzem) · Begründen (warum das Stück kleiner wird, wenn mehr Kinder teilen).
@@ -31,7 +30,7 @@ Fertigkeiten:
 - Schriftlich oder mit Taschenrechner dividieren (drei geteilt durch acht) – Einheit 4 (Division). [RLP D „schriftliche Rechenverfahren … Division“]
 - Prozent als Hundertstel (45 % = 0,45) – Einheit 5. Thema Prozentrechnung (prozentrechnung.md), Einheit 1. [RLP E]
 - Kreissektor als Anteil vom Vollkreis (120° von 360°) – Einheit 1, nur in der P10-Form mit Sektoren. Thema Kreis (kreis.md), Einheit 3. [P10 2026-FOR-B1b]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Sind alle Teile gleich groß?“ – bei Figuren ankreuzen, ob man die Teile einfach zählen darf; wenn nein, gleich große Teile einzeichnen. Vor Einheit 1. [MSK B1A 2.6; P10 2019-OS-B1c]
 - „Was ist das Ganze?“ – im Bild oder Text das Ganze markieren (alle 15 Kästchen, die volle Tonne), bevor der Anteil bestimmt wird. Vor Einheit 1. [MSK B1A 1.2; P10 2014-OS-B1i]
 - „Erweitert oder gekürzt – mit welcher Zahl?“ – zu Bruchpaaren nur den Faktor angeben (drei Fünftel → neun Fünfzehntel: mal drei), nicht rechnen. Vor Einheit 2. [MSK B3A 2.1]

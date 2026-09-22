@@ -13,7 +13,6 @@ Klasse 6/7 (Grundlage: Prozent als Darstellungsform, Stufe D – in Berlin/Brand
 3. Prozentwert berechnen – p % von G als Operator (10 %-Schritte, 1 %-Weg, Dezimalzahl mal Grundwert); Rabatt und Mehrwertsteuer in Euro. (Kl. 7) ← Eingabe „prozentwert“
 4. Grundwert berechnen – aus Prozentwert und Prozentsatz auf das Ganze schließen; gemischte Aufgaben: erst zuordnen, dann rechnen. (Kl. 7) ← Eingabe „grundwert“
 5. Prozentuale Veränderung – Wert nach Erhöhung oder Senkung (Wachstumsfaktor), Veränderung in Prozent aus zwei Werten, alter Wert aus neuem, Prozentpunkte, Brutto/Netto, Steigung in Prozent. (Kl. 7/8) ← Eingabe „prozentuale veränderung“, „überall prozente“
-Eingabe „prozentrechnung“ ohne Zusatz → Dialog; bei fünf Einheiten nummeriert als Text (mehr als vier Buttons).
 
 ### Typen je Lerneinheit
 Einheit 1: Bruch → Prozent (Nenner 100; Nenner, der in 100 aufgeht) · Dezimalzahl ↔ Prozent · Anteil am Streifen oder an einer Figur ablesen und einzeichnen · Anteilsformulierung ↔ Prozent („jeder fünfte“, „ein Viertel“, „4 von 100“) · Prozentangaben ordnen · fehlenden Anteil zu 100 % ergänzen · Anteilsaussage prüfen und korrigieren (Tabellenwerte) · Fehler finden (Nenner als Prozent gelesen) · Begründen (warum 1/5 = 20 %).
@@ -30,7 +29,7 @@ Fertigkeiten:
 - Durch hundert teilen, mit Dezimalzahlen multiplizieren (Kommaverschiebung) – Einheit 2 bis 4. Thema Bruchrechnung (bruchrechnung.md), Einheit 4. [RLP D, LS-AA Kl. 6 V 4]
 - Hoch- und Runterrechnen in einer Tabelle (Dreisatz, proportionale Zuordnung) – Einheit 2 bis 4. Thema Zuordnungen (zuordnungen.md). [MSK S5A, LS-AA Kl. 6 VI 3]
 - Runden auf eine Dezimalstelle – Einheit 2 und 5. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 5. [RLP D]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Was ist das Ganze?“ – Grundwert (das Ganze) im Text unterstreichen. Vor Einheit 2 bis 5. [MSK P A 3.6, P C 6.1]
 - Streifen einteilen: „Teile den Streifen in 10 %-Schritte“ (auch 25 %-Schritte). Vor Einheit 2 und 3. [MSK P A 2]
 - „Was ist gegeben, was gesucht?“ – Prozentwert, Prozentsatz oder Grundwert ankreuzen, ohne zu rechnen. Vor Einheit 4 (gemischt). [MSK P C 6]

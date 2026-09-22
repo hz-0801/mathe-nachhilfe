@@ -8,7 +8,7 @@ Das Lesen des Zusammenhangs zwischen dem Graphen einer Funktion und den Graphen 
 [LS-AA] Keine eigene Lerneinheit: die Zusammenhänge stehen in Einführungsphase Kapitel II 3 „Die Ableitungsfunktion“ und Kapitel IV 5 „Vom Funktionsterm zum Funktionsgraphen“ sowie Qualifikationsphase Kapitel IV 6 „Graph und Funktionsterm“ – dieselben Kapitel, die kurvenuntersuchung.md der Einheit 4 zuordnet (Zuordnung dort: „Einheit 4 = EP IV 5, EP II 3 und QP IV 6“).
 
 ### Lerneinheiten
-Verweis: kurvenuntersuchung.md, Einheit 4 „Graph und Ableitungsgraph“ – die Lerneinheit des tragenden Eintrags deckt dieses Thema vollständig; eine eigene Gliederung entfällt (Eintragsart Verweiseintrag, konzept.md § 4 Entscheidung 36). Eingabe „ableitungsgraph“ ohne Zusatz → kurvenuntersuchung.md Einheit 4.
+Verweis: kurvenuntersuchung.md, Einheit 4 „Graph und Ableitungsgraph“ – die Lerneinheit des tragenden Eintrags deckt dieses Thema vollständig; eine eigene Gliederung entfällt (Eintragsart Verweiseintrag, konzept.md § 4 Entscheidung 36).
 
 ### Typen je Lerneinheit
 Verweis: kurvenuntersuchung.md, Einheit 4 – die 15 Haupttypen der eigenen Rohdatei liegen alle in dieser einen Einheit; ihre Zuordnung steht in den Klammern der Profillisten unter „Prüfungsform“ ((n, E4); E4 zählt die Einheiten des tragenden Eintrags), eine Zählzeile je Einheit entfällt.

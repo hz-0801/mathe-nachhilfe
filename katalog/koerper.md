@@ -13,7 +13,6 @@ Würfel und Quader (Netze, Schrägbilder auf Rasterpapier, Volumen, Oberfläche,
 3. Prisma – Grundfläche erkennen (Dreieck, Trapez, Vieleck; liegend oder stehend), Volumen Grundfläche mal Höhe, Mantel aus Rechtecken, Oberfläche, Netz eines Prismas vervollständigen, Höhe aus dem Volumen. (Kl. 8) ← Eingabe „prisma“
 4. Zylinder – Volumen π · r² · h, Mantel als Rechteck (Umfang mal Höhe), Oberfläche mit und ohne Deckel, Netz (Rechteck und zwei Kreise), Liter, Höhe oder Radius aus dem Volumen, Herstellerangabe prüfen, Volumen bei doppeltem Radius. (Kl. 8) ← Eingabe „zylinder“
 5. Zusammengesetzte Körper und Anwendungen – Körper zerlegen (Quader und Prisma, Quader und Halbzylinder), Term zum Volumen aufstellen oder prüfen, Restvolumen (Verpackung minus Inhalt), Verpackungsmaße aus Körpermaßen, Packungsanzahl, Masse aus Volumen und Dichte, Füllstand in Prozent. (Kl. 8/9) ← Eingabe „zusammengesetzte körper“, „verpackung“
-Eingabe „körper“ ohne Zusatz → Dialog; bei fünf Einheiten nummeriert als Text.
 
 ### Typen je Lerneinheit
 Einheit 1: Körper in der Umwelt, aus Schrägbild oder Netz benennen (Prisma, Pyramide, Quader – Ankreuzen) · Grund- und Deckfläche, Seitenflächen benennen (auch beim liegenden Prisma) · Ecken, Kanten, Flächen zählen (Quader, Dreiecksprisma, quadratische Pyramide) · Würfelnetz: gültig oder nicht · Gegenfläche im Würfelnetz markieren · Netz von Quader oder Würfel mit Maßen zeichnen · Schrägbild lesen: verdeckte Kanten, Maße entnehmen · Schrägbild eines Quaders auf Rasterpapier zeichnen (Tiefe halb, schräg) · Schrägbild beschriften, Körperhöhe einzeichnen · Körper in ein Schrägbild einzeichnen (Kegel im Quader) · Fehler finden (Dreiecksprisma als Pyramide; angrenzende statt gegenüberliegende Fläche) · Begründen (warum ein Netz nicht zum Würfel faltet).
@@ -30,7 +29,7 @@ Fertigkeiten:
 - Formel nach einer Größe umstellen (V = G · h → h = V : G) – Einheit 2 bis 4. Thema Lineare Gleichungen (lineare-gleichungen.md), Einheit 4. [RLP E „Umstellen von Formeln“]
 - Prozentwert berechnen (zehn Prozent von einem Volumen mit Komma) – Einheit 5. Thema Prozentrechnung (prozentrechnung.md), Einheit 3. [P10 2019-OS-K4c]
 - Räumliches Vorstellen: Würfelnetze falten, Ansichten von Würfelbauten – Einheit 1. [RLP C/D; MO]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Welcher Körper?“ – zum Foto oder Schrägbild den Körper ankreuzen und die Grundfläche markieren (auch beim liegenden Prisma). Vor Einheit 1 und 3. [P10 2017-OS-B1c; RLP D]
 - „Volumen oder Oberfläche?“ – zu jeder Frage ankreuzen: Inhalt (Liter, füllen, passt hinein) oder Hülle (Farbe, Blech, Folie, Ziegel). Vor Einheit 2 bis 4. [RLP D „Unterscheiden zwischen Oberflächeninhalt und Volumen“; P10 2026-FOR-B1f, 2018-OS-K6b]
 - „Was ist die Höhe?“ – im Schrägbild die Körperhöhe einzeichnen und von der Höhe der Grundfläche unterscheiden (Dreiecksprisma, Pyramide). Vor Einheit 3. [P10 2019-OS-K4c, 2015-OS-K6b]

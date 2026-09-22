@@ -12,7 +12,6 @@ Klasse 6/7: proportionale Zuordnungen und Dreisatz auf Stufe D (in Berlin/Brande
 2. Proportionale Zuordnungen und Dreisatz – „pro Portion“: verdoppeln, hochrechnen, runterrechnen, auf eine Portion runterrechnen, fester Faktor; Preisvergleich; Graph als Ursprungsgerade. (Kl. 6/7) ← Eingabe „dreisatz“, „proportional“
 3. Antiproportionale Zuordnungen – „je mehr, desto weniger“: Produkt bleibt gleich, Dreisatz umgekehrt, Graph als fallende Kurve. (Kl. 7) ← Eingabe „antiproportional“
 4. Zuordnungstypen erkennen und anwenden – proportional, antiproportional oder keins von beiden (Tabelle, Text, Graph); Sachaufgaben mit Rate: Kosten, Geschwindigkeit, Dauer, mit Einheitenwechsel (P10-Form). (Kl. 7) ← Eingabe „zuordnungstypen“, „geschwindigkeit“
-Eingabe „zuordnungen“ ohne Zusatz → Dialog mit vier Buttons.
 
 ### Typen je Lerneinheit
 Einheit 1: Wertetabelle aus Text anlegen · Punkte ins Koordinatensystem eintragen · Werte aus Graph ablesen · Achseneinteilung für gegebene Werte wählen · Zuordnung in Worten beschreiben („je mehr …, desto …“) · Graph zu Situation qualitativ zuordnen (Füllgraph, Weg-Zeit) · Formel aus Tabelle (y = 4 · x) · Fehler finden (Achsen vertauscht, Punkt falsch gesetzt) · Begründen.
@@ -27,7 +26,7 @@ Fertigkeiten:
 - Punkte im Koordinatensystem eintragen und ablesen (erster Quadrant) – Einheit 1 und 2. Thema Symmetrie, Abbildungen und Koordinatensystem (symmetrie-abbildungen.md), Einheit 1 (seit 09e gefüllt). [RLP D]
 - Bruchteil einer Größe (die Hälfte, ein Viertel von 12 €) – Einheit 2. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md), Einheit 1. [RLP D]
 - Einheiten umrechnen (Cent ↔ Euro, Minuten ↔ Stunden, m ↔ km) – Einheit 4. Thema Einheiten (einheiten.md). [P10 Fehlerquellen]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Was ist hier eine Portion?“ – die Bezugseinheit benennen (ein Kilogramm, ein Stück, eine Minute). Vor Einheit 2. [MSK S5A 1.4]
 - Minitabelle anlegen: nur die Zeilen aufschreiben, die man braucht (gegeben, Zwischenschritt, gesucht). Vor Einheit 2. [MSK S5A 1.3–1.7]
 - Pfeile beidseitig: „Links steht : 5 – was steht rechts?“ Vor Einheit 2 und 3. [MSK S5A 1.2]

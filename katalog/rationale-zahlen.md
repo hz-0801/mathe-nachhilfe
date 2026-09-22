@@ -12,7 +12,6 @@ Klasse 7, Stufe E (Gymnasium Kl. 7, Oberschule 7–8); die Zahlengerade mit nega
 2. Addieren und Subtrahieren – Zustand und Änderung an der Zahlengeraden, Subtraktion als Unterschied, Rechenzeichen und Vorzeichen zusammenfassen, Klammern. (Kl. 7) ← Eingabe „negative zahlen addieren“, „negative zahlen subtrahieren“
 3. Multiplizieren und Dividieren – Vorzeichenregeln, mehrere Faktoren, Potenzen mit negativer Basis, Punkt vor Strich, Termwerte. (Kl. 7) ← Eingabe „vorzeichenregel“, „negative zahlen multiplizieren“
 4. Terme und Sachaufgaben – Rechenvorteile, Minusklammer, Termwert für gegebene Werte, Kontostand, Temperaturunterschied, Ausgangswert aus Differenz. (Kl. 7) ← Eingabe „terme negative zahlen“, „rechenvorteile“
-Eingabe „rationale zahlen“ ohne Zusatz → Dialog mit vier Buttons.
 
 ### Typen je Lerneinheit
 Einheit 1: Situation ↔ Zahl (3 °C unter null, 20 € Schulden) · Zahlen an der Zahlengeraden eintragen und ablesen (ganze, Dezimalzahlen, Brüche) · Gegenzahl und Betrag angeben · zwei Zahlen vergleichen (< >) · Zahlen ordnen (gemischt: Bruch, Dezimalzahl, negativ) · Zahl zu Bedingung angeben („größer als −150“, „zwischen zwei Zahlen“) · Mitte zweier Zahlen · runden · Punkte in vier Quadranten (Verfahren und Kette in symmetrie-abbildungen.md Einheit 1; hier nur als Anwendung der negativen Zahlen) · Fehler finden (Betrag statt Wert verglichen) · Begründen (warum −5 < −3).
@@ -27,7 +26,7 @@ Fertigkeiten:
 - Dezimalzahlen und Brüche addieren, subtrahieren, multiplizieren (Kommazahlen addieren, Bruch mal ganze Zahl) – Einheit 2 und 3. Thema Bruchrechnung (bruchrechnung.md). [RLP D]
 - Punkt vor Strich und Klammern mit natürlichen Zahlen – Einheit 3 und 4. [RLP D]
 - Wert eines Terms mit Platzhalter berechnen (Vorzahl mal x plus Zahl, für einen gegebenen Einsetzwert) – Einheit 3 und 4. Thema Terme (terme.md). [RLP D]
-Erkennungsschritte (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - „Vorzeichen oder Rechenzeichen?“ – jedes Minus in der Aufgabe markieren: V oder R. Vor Einheit 2. [RLP E; LS-AA Kl. 7 I 3]
 - Pfeil an der Zahlengeraden: „Zeichne den Pfeil von −1 um 7 nach rechts“ – nicht rechnen. Vor Einheit 2. [RLP E „Änderung eines Zustandes“]
 - Zeichen zusammenfassen: „Schreibe nur die Aufgabe ohne Klammern auf“ (8 − (−3) → 8 + 3). Vor Einheit 2. [Serlo 62045]

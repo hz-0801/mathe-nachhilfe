@@ -11,7 +11,7 @@ Klasse 7 (Terme mit einer Variablen, Zusammenfassen, Klammern, Ausklammern), Gym
 3. Klammern auflösen – Plusklammer, Minusklammer, Zahl mal Klammer (Distributivgesetz). (Kl. 7/8)
 4. Ausklammern – gemeinsamer Zahlfaktor, gemeinsame Variable, Probe durch Ausmultiplizieren. (Kl. 7/8; Terme mit mehreren Variablen und Klammer mal Klammer → binomische-formeln.md Einheit 1)
 
-Eingabe „terme" ohne Zusatz → Dialog mit den vier Einheiten. Eingabe mit Einheit-Stichwort (zusammenfassen, klammern, ausklammern) → direkt.
+Eingabe mit Einheit-Stichwort (zusammenfassen, klammern, ausklammern) → direkt.
 
 ### Typen je Lerneinheit
 Einheit 1: Termwert berechnen (auch negative Einsetzung) · Term zu Sachtext angeben (Doppeltes, vermindert um) · Term zu Figur angeben (Umfang, Fläche aus Rechtecken) · Situation zu Term angeben.
@@ -25,7 +25,7 @@ Fertigkeiten:
 - Multiplizieren mit Vorzeichen ((−2) · (−3), 3 · (−4)) – für Malnehmen und Minusklammer. Thema Rationale Zahlen (rationale-zahlen.md), Einheit 3. [RLP D/E]
 - Dezimalzahlen und einfache Brüche als Vorzahlen (2,5x, ½x) – nur, wenn die Einheit sie braucht. Thema Brüche und Dezimalzahlen (brueche-dezimalzahlen.md). [MSK D, DB]
 - Punkt vor Strich mit Zahlen (Zahl minus Produkt) – ab Einheit 2 (Produkt mit Vorzahl plus gleichartiges Glied) und Einheit 3. [RLP D]
-Erkennungsschritte des Themas (Vorstufe, eigene Aufgabe auf Blatt 0, eine Anweisung je Aufgabe):
+Erkennungsschritte des Themas (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
 - Gleichartige Glieder erkennen: „Unterstreiche, was zusammengehört" (3x, 5, 2x; x², 3x, 2x²). Vor Einheit 2.
 - Vorzahl lesen: „Welche Vorzahl hat x? −t? 0,5y?" (x = 1x, −t = −1t). Vor Einheit 2.
 - Vorzeichen als Teil des Gliedes: „Schreibe die Glieder mit ihrem Vorzeichen auf" (4x − 3y + 2 → 4x, −3y, +2). Vor Einheit 2 und 3.
@@ -97,4 +97,3 @@ Zuordnung: Einheit 1 – Term zu Sachtext angeben (typen.csv-Thema „Terme umfo
 - [ ] Kein Verlagstext übernommen; Serlo/ZUM mit Quellenzeile.
 - [ ] Notation Berlin-Brandenburg (f(x) = m·x + n, Strich, wA/fA).
 - [ ] [FD]/[FS]/[MO]-Angaben in „Offene Punkte" gelistet.
-
