@@ -22,6 +22,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `konzept.md` – warum etwas so ist: Bausteine (§ 2), Themenkatalog (§ 3), Entscheidungen mit Kippbedingung (§ 4), Offenes (§ 6), Jahresroutine (§ 7), neue Prüfung aufnehmen (§ 8), Änderungen (§ 10).
 - `blatt-konzept.md` – die Heft-Phase: Sprossen, Decke, Merkmalsfrage (§ 7). Bei Widerspruch zum Prüfungsblatt-Prompt gilt es. Liegt hier, weil beide Repos es brauchen.
 - `faellig.md` – am Anfang eines Auftrags: Handlungen mit Termin oder Auslöser und bei wem sie liegen.
+- `befund-testlauf-2026-09-22.md` – Befund des ersten Katalog-Testlaufs (Lernblatt Prozentrechnung) mit den Beschlüssen, die den Prompt v4.0 tragen.
 - `themen.csv` – Themenkonkordanz: kanonisches Thema je Katalogthema, alle vier Profile; nach jeder Katalogänderung `python werkzeuge/themen-pruef.py`.
 
 ## msa/ – P10 Mathematik, Brandenburg, Oberschule/Gesamtschule, Niveau FOR
@@ -33,6 +34,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `msa-katalog-basis.csv`, `msa-katalog-kontext.csv` – der Katalog (Basisaufgaben, Kontextaufgaben); nie von Hand ändern.
 - `msa-bau.py` – Heft erfassen oder Bestand prüfen (leeres ZEILEN = Selbstprüfung).
 - `msa-vorgaben.md` – jährlicher Vorgabencheck, Formatwechsel 2028.
+- `msa-ertrag.md`, `msa-ertrag.csv` – Ertrag je Typ, Sortiergröße, Verteilung für die Schwelle „selten“; abgeleitet von `werkzeuge/ertrag.py`, nie von Hand ändern.
 
 ## fhr/ – Fachhochschulreife Mathematik, Brandenburg
 
@@ -266,6 +268,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `tragfaehigkeit.py` – zählt je Eintrag von `katalog/` die Verweise `<name>.md` im Abschnitt „Voraussetzungen (Blatt 0)“ und schreibt `katalog/_tragfaehigkeit.md` (Nachfrage je Thema, Einstiegshürde je Eintrag, Messlücken); nach jeder Änderung an einem Blatt-0-Abschnitt ausführen; `katalog/_pruef_struktur.py` importiert die Zählregel für Kennzahl 7.
 - `verweis-pruef.py` – prüft die Einträge von `katalog/` auf Dateiverweise, Einheitsnummern, Namensgleichheit (mit `themen.csv`, `abitur/abitur-vokabular.md`, den vier `abitur/abi-*-geltung.md`, `msa/msa-typen.csv` und `fhr/fhr-typen.csv`), Gegenrichtung und Formlücke und schreibt `katalog/_verweise.md`; Lesarten für Blatt 0, Verweisform und Wortform aus `tragfaehigkeit.py` importiert, die Themenliste aus `themen-pruef.py`; nach jeder Katalogänderung ausführen; `katalog/_pruef_struktur.py` importiert die Zählregel für Kennzahl 8.
 - `blatt0-belege.py` – sammelt je Eintrag von `katalog/` die Fertigkeitszeilen des Abschnitts „Voraussetzungen (Blatt 0)“ (vor der Zwischenzeile „Erkennungsschritte…“) ohne Verweis `<name>.md` auf einen anderen Eintrag, zerlegt ihre Quellenklammer in Bestandteile (sechs Sorten) und löst sie gegen `msa/msa-typen.csv`, die msa-Kataloge, `themen.csv`, den LS-AA-Fahrplan und den RLP-Text in `quellen/` sowie die Registerzeile [MSK] in `katalog/_quellen.md` auf; schreibt `katalog/_blatt0-belege.md`; Lesarten für Blatt 0 und Verweisform aus `tragfaehigkeit.py` importiert; Gegenprobe im Skript (22 Einträge des Auftrags: 147/131/16 seit v0.2, sonst wird nichts geschrieben – ändert ein Auftrag die Aufteilung, wird sie nachgezogen); nach jeder Änderung an einem Blatt-0-Abschnitt ausführen; `katalog/_pruef_struktur.py` importiert die Zählregel für Kennzahl 9.
+- `ertrag.py` – zählt je Typ aus `msa/msa-typen.csv` Haupt- und Nebenzeilen, Jahrgänge, Punkte, block und niveau_geschaetzt sowie das Mittel von schritte aus den msa-Katalogen und schreibt `msa/msa-ertrag.csv` und `msa/msa-ertrag.md` (Ertrag als Sortiergröße, Verteilung als Hilfe für die Schwelle „selten“); Gegenprobe im Skript; nach jeder Änderung an den msa-Katalogen oder an `msa-typen.csv` ausführen.
 
 ## archiv/ – eingefroren
 
