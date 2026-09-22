@@ -24,6 +24,9 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `faellig.md` – am Anfang eines Auftrags: Handlungen mit Termin oder Auslöser und bei wem sie liegen.
 - `befund-testlauf-2026-09-22.md` – Befund des ersten Katalog-Testlaufs (Lernblatt Prozentrechnung) mit den Beschlüssen, die den Prompt v4.0 tragen.
 - `themen.csv` – Themenkonkordanz: kanonisches Thema je Katalogthema, alle vier Profile; nach jeder Katalogänderung `python werkzeuge/themen-pruef.py`.
+- `eingang/` – Eingang für Protokoll-Archive der Blatt-Chats; verarbeitete Archive wandern nach `eingang/erledigt/`.
+- `blaetter/` – abgelegte Blätter je Thema und Datum, PDFs und Quelltexte; `blaetter/index.md` ist das Register, abgeleitet.
+- `werkzeuge/einsortieren.py` – verarbeitet `eingang/`, schreibt `blaetter/` und den Index; nach jedem neuen Archiv ausführen.
 
 ## msa/ – P10 Mathematik, Brandenburg, Oberschule/Gesamtschule, Niveau FOR
 
