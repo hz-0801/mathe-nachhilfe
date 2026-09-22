@@ -69,7 +69,7 @@ def lies_protokoll_felder(text: str) -> dict:
     for zeile in text.splitlines():
         zeile = zeile.strip()
         for prefix, schluessel in FELD_PREFIXE.items():
-            if zeile.startswith(prefix):
+            if zeile.startswith(prefix) and not felder[schluessel]:
                 felder[schluessel] = zeile[len(prefix):].strip()
     return felder
 
