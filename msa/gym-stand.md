@@ -14,7 +14,7 @@ Skript: erledigt (msa-bau.py v0.3, msa.md v0.8, konzept.md Entscheidung 18; Selb
 | 2016 | 16_P10_Gym_Ma_A.pdf | erfasst 2026-09-23, 25 Zeilen |
 | 2017 | 17_P10_Ma_Gym_A.pdf | erfasst 2026-09-23, 25 Zeilen |
 | 2018 | 18_P10_Ma_Gym_A.pdf | erfasst 2026-09-23, 26 Zeilen |
-| 2019 | 19_P10_Ma_Gym_A_1.pdf, 19_P10_Ma_Gym_A_2.pdf | – |
+| 2019 | 19_P10_Ma_Gym_A_1.pdf, 19_P10_Ma_Gym_A_2.pdf | erfasst 2026-09-23, 22 Zeilen |
 | 2020 | 20_P10_Ma_Gym_A_1.pdf, 20_P10_Ma_Gym_A_2.pdf | – |
 | 2021 | 21_P10_Ma_Gym_A1.pdf, 21_P10_Ma_Gym_A2.pdf | – |
 | 2022 | 22_P10_Ma_Gym_Aufgaben_1_und_2.pdf, 22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | – |
@@ -28,3 +28,4 @@ Befunde:
 - 2016: Aufbau ein Heft, 5 Aufgaben (10/12/9/10/9 P), 50 BE, 135 min; 11 neue Typen. Deckfläche im Würfelnetz (B1j) durch Falt-Simulation (Abrollen) bestimmt, nicht durch Augenschein. Begründung „genau ein Schnittpunkt" (K2d, Parabel/Exponentialfunktion) numerisch statt mit Schulmitteln streng geführt – Grenzfall der Erfassbarkeit, im Bericht vermerkt. Keine unsicheren Zeilen.
 - 2017: Aufbau ein Heft, 5 Aufgaben (10/11/10/9/10 P), 50 BE, 135 min; 7 neue Typen. Spielplatz-Skizze (K3b–d, Drachenviereck) erst nach genauer Vektoranalyse der Bemaßungspfeile richtig gedeutet: 8,5 m/7,5 m sind Teilstrecken der Spitze T zur Spitze R, nicht die vollen Diagonalen; volle Diagonalen ergeben sich aus dem Grundstück (30 m/15 m) – Kontrollrechnung (Rasenanteil genau 50 %) bestätigt die Lesart. Keine unsicheren Zeilen.
 - 2018: Aufbau ein Heft, 5 Aufgaben (10/11/10/8/11 P), 50 BE, 135 min; 9 neue Typen (einer verworfen: „Masse aus Volumen und Dichte berechnen" stand als id32 schon im Bestand, vom Skript korrekt abgewiesen). Drachen-Skizze (K4a, β=95,9° stumpf) als voller geteilter Kantenwinkel gedeutet, nicht als Winkel im rechtwinkligen Teildreieck – Kontrollrechnung (senkrechte Leiste ≈100,5 cm ≈ 1 m) bestätigt die Lesart. Keine unsicheren Zeilen.
+- 2019: erstes zweiteiliges Heft (Teil 1 hilfsmittelfrei 25 min, Teil 2 mit Hilfsmitteln), 3+9 Seiten, eigene Seitenzählung je Teil bestätigt; 5 Aufgaben (10/10/12/10/8 P), 50 BE, 135 min gesamt; 10 neue Typen. B1a: 65° als überflüssige Angabe erkannt, β=35° über Scheitelwinkel (Typ „Winkel über Scheitel- oder Nebenwinkel bestimmen"). B1c (Kreissektoren) unsicher: „?" gesetzt, da nur überschlägig aus Pixelkoordinaten vermessen (kein Vektorzugriff auf die Rastergrafik). Sonst keine unsicheren Zeilen.
