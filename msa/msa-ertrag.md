@@ -1,9 +1,9 @@
 # Ertrag je Typ – Profil msa
-Stand 2026-09-22, Katalog auf Commit 3a56a7b.
+Stand 2026-09-23, Katalog auf Commit b699744.
 
 Gezählt werden die Zeilen aus msa-katalog-basis.csv und msa-katalog-kontext.csv. Hauptzeilen sind Zeilen, deren Feld typ dem Typ entspricht; Nebenzeilen sind Zeilen, in deren Pipe-getrenntem Feld typ_neben der Typ vorkommt, unabhängig vom Haupttyp der Zeile. Jede Zeile hat genau einen Haupttyp, aber keine, eine oder mehrere Nebentypen; punkte_haupt, basis/kontext und niveau_I/II/III zählen nur Hauptzeilen.
 
-Gesamt: 393 Zeilen, 780 Punkte, 175 Typen mit Hauptzeile, 10 Typen nur als Nebentyp, 0 Typen ohne Vorkommen.
+Gesamt: 393 Zeilen, 780 Punkte, 175 Typen mit Hauptzeile, 10 Typen nur als Nebentyp, 108 Typen ohne Vorkommen.
 
 Erzeugt von `werkzeuge/ertrag.py` (v0.1) aus den msa-Katalogen und msa-typen.csv; abgeleitet, nie von Hand ändern.
 
@@ -197,11 +197,119 @@ Absteigend nach ertrag (punkte_haupt, bei Gleichstand jahre_gesamt, dann zeilen_
 | 183 | Verpackungsmaße aus Körpermaßen bestimmen | 0 | 0,0 % | 0 | 1 | 0 | 1 | 2024 | 2024 | 0 | 0 | 0 | 0 | 0 | – | 0 | Körper, Netze, Schrägbilder | Raum und Form | gültig |
 | 184 | Veränderung des Mittelwerts begründen | 0 | 0,0 % | 0 | 1 | 0 | 1 | 2025 | 2025 | 0 | 0 | 0 | 0 | 0 | – | 0 | Kenngrößen | Daten und Zufall | gültig |
 | 185 | Volumen Kegel berechnen | 0 | 0,0 % | 0 | 1 | 0 | 1 | 2024 | 2024 | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | gültig |
+| 186 | Anstieg einer linearen Funktion aus Punkt und y-Achsenabschnitt berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 187 | Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Wahrscheinlichkeit mehrstufig | Daten und Zufall | neu |
+| 188 | Anteil einer unterteilten Kreisfläche bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Brüche und Dezimalzahlen | Zahlen und Operationen | neu |
+| 189 | Antiproportionale Zuordnung Dreisatz | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Zuordnungen proportional und antiproportional | Gleichungen und Funktionen | neu |
+| 190 | Anzahl Kombinationen nach dem Zählprinzip bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Zählen und Kombinatorik | Daten und Zufall | neu |
+| 191 | Anzahl Objekte aus Masse und Tragfähigkeit berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 192 | Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Zählen und Kombinatorik | Daten und Zufall | neu |
+| 193 | Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Wahrscheinlichkeit mehrstufig | Daten und Zufall | neu |
+| 194 | Aussage zu einer Winkelfunktion im rechtwinkligen Dreieck prüfen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrie im rechtwinkligen Dreieck | Größen und Messen | neu |
+| 195 | Aussage über eine mehrfach gebrochene Streckenteilung prüfen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Rationale Zahlen rechnen | Zahlen und Operationen | neu |
+| 196 | Aussage über einen Logarithmusterm als Abstand zur y-Achse prüfen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 197 | Binomische Formel anwenden | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Terme umformen | Zahlen und Operationen | neu |
+| 198 | Datenreihen anhand von Kenngrößen vergleichen und begründen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Kenngrößen | Daten und Zufall | neu |
+| 199 | Dreieck aus Koordinaten als gleichschenklig-rechtwinklig nachweisen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 200 | Durchmesser einer Halbkugel aus der Oberfläche berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 201 | Eigenschaften trigonometrischer Funktionen vergleichen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrische Funktionen | Gleichungen und Funktionen | neu |
+| 202 | Eignung einer Funktionsgleichung für einen Sachverhalt beurteilen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 203 | Ereignis zu Wahrscheinlichkeitsterm beschreiben | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Wahrscheinlichkeit mehrstufig | Daten und Zufall | neu |
+| 204 | Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Wahrscheinlichkeit einstufig | Daten und Zufall | neu |
+| 205 | Exponentialfunktion vertikal verschieben und Schnittpunkt mit der y-Achse angeben | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 206 | Farbmenge aus Fläche und Ergiebigkeit berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Einheiten umrechnen | Größen und Messen | neu |
+| 207 | Fehlende Schnittpunkte zweier Funktionen über Wertebereiche begründen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 208 | Fehlenden Wert aus Spannweite bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Kenngrößen | Daten und Zufall | neu |
+| 209 | Fläche zweier Mantelflächen eines Prismas mit trapezförmiger Grundfläche berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 210 | Flächenberechnung eines Vielecks anhand einer vorgegebenen Gleichung erläutern | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 211 | Flächeninhalt eines Drachenvierecks aus Diagonalen berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Flächeninhalt und Umfang | Größen und Messen | neu |
+| 212 | Flächeninhalt eines Dreiecks aus Koordinaten berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 213 | Flächeninhalt eines Dreiecks aus drei Seiten berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 214 | Flächeninhalt eines Vierecks aus den Achsenschnittpunkten zweier Funktionsgraphen berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 215 | Flächeninhalt eines aus vier kongruenten rechtwinkligen Dreiecken zusammengesetzten Vierecks berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Flächeninhalt und Umfang | Größen und Messen | neu |
+| 216 | Flächeninhalt eines gleichseitigen Dreiecks aus Umfang berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Flächeninhalt und Umfang | Größen und Messen | neu |
+| 217 | Formel für die Tiefe eines Kegels aus Durchmesser und Öffnungswinkel herleiten | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrie im rechtwinkligen Dreieck | Größen und Messen | neu |
+| 218 | Funktionswerte einer Parabel im Sachkontext berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 219 | Gerade an der x-Achse spiegeln | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 220 | Gerade an der y-Achse spiegeln | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 221 | Geradengleichung aus Steigung und Punkt bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 222 | Geradengleichung einer Parallelen durch einen Punkt bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 223 | Gesamtmenge aus Pro-Kopf-Angabe, Anteil und Einwohnerzahl berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Prozentrechnung | Zahlen und Operationen | neu |
+| 224 | Gleich große oder doppelt so große Winkel in einer aus kongruenten Dreiecken zusammengesetzten Figur kennzeichnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 225 | Gleichung einer Senkrechten aufstellen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 226 | Gleichverteilung der Trefferwahrscheinlichkeit begründen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Wahrscheinlichkeit mehrstufig | Daten und Zufall | neu |
+| 227 | Graph einer Exponentialfunktion an der y-Achse spiegeln | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 228 | Graph einer trigonometrischen Funktion durch Streckung und Verschiebung beschreiben | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrische Funktionen | Gleichungen und Funktionen | neu |
+| 229 | Graph eines exponentiellen Vorgangs zeichnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 230 | Grundfläche eines Prismas im Körpernetz kennzeichnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Körper, Netze, Schrägbilder | Raum und Form | neu |
+| 231 | Grundstücksbreiten aus einem in Teilflächen zerlegten Trapez bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ähnlichkeit und Strahlensätze | Raum und Form | neu |
+| 232 | Höhe eines Drachenvierecks aus geteiltem Winkel und Diagonalen berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrie im rechtwinkligen Dreieck | Größen und Messen | neu |
+| 233 | Innendurchmesser eines Kreisrings aus Flächeninhalt und Außendurchmesser berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Flächeninhalt und Umfang | Größen und Messen | neu |
+| 234 | Kantenlänge einer quadratischen Grundfläche aus Volumen berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 235 | Kantensumme eines Quaders mit Seitenlängen in Abhängigkeit von der Höhe berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 236 | Kegelhöhe aus Mantellinie und Radius berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Satz des Pythagoras | Größen und Messen | neu |
+| 237 | Kreisumfang berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Flächeninhalt und Umfang | Größen und Messen | neu |
+| 238 | Kugeldurchmesser aus Anzahl nebeneinanderliegender Kugeln bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 239 | Kugeloberfläche berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 240 | Körper im Schrägbild darstellen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Körper, Netze, Schrägbilder | Raum und Form | neu |
+| 241 | Lage zweier Geraden bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 242 | Lineare Funktion aus Steigung und Schnittbedingung bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Lineare Funktionen | Gleichungen und Funktionen | neu |
+| 243 | Länge auf der Mantellinie eines Kegels bei Teilfüllung über Ähnlichkeit bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ähnlichkeit und Strahlensätze | Raum und Form | neu |
+| 244 | Mantelfläche einer Pyramide berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 245 | Masse eines zusammengesetzten Körpers berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 246 | Materialbedarf aus Längen berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Einheiten umrechnen | Größen und Messen | neu |
+| 247 | Maximale Anzahl rechteckiger Objekte auf einer Fläche bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Flächeninhalt und Umfang | Größen und Messen | neu |
+| 248 | Maximale ganzzahlige Menge aus Grenzwert berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Runden und Überschlag | Zahlen und Operationen | neu |
+| 249 | Maße eines Körpers aus einem bemaßten Netz im Maßstab ablesen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Körper, Netze, Schrägbilder | Raum und Form | neu |
+| 250 | Mehrere Kenngrößen zweier Datenreihen vergleichend bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Kenngrößen | Daten und Zufall | neu |
+| 251 | Modalwert bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Kenngrößen | Daten und Zufall | neu |
+| 252 | Neigungswinkel einer Geraden berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrie im rechtwinkligen Dreieck | Größen und Messen | neu |
+| 253 | Parabelgleichung aus Scheitel und Punkt bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 254 | Parabelgleichung aus Spannweite und Höhe eines Bogens bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 255 | Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 256 | Parabeltransformation gegenüber der Normalparabel beschreiben | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 257 | Parameter einer Exponentialfunktion aus Graph bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 258 | Parameter einer Exponentialfunktion aus einer Wertetabelle bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 259 | Parameter einer Parabel aus Graph bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 260 | Parameter einer Wurzelfunktion aus einem Punkt bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Funktionen allgemein | Gleichungen und Funktionen | neu |
+| 261 | Prozentanteil einer Rasterfläche markieren | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Prozentrechnung | Zahlen und Operationen | neu |
+| 262 | Prozentuale Abweichung einer Modellfläche von der tatsächlichen Fläche berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Prozentrechnung | Zahlen und Operationen | neu |
+| 263 | Prozentuale Abweichung eines Werts von einem Vergleichswert berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Prozentrechnung | Zahlen und Operationen | neu |
+| 264 | Prozentualen Zuwachs aus Anfangs- und Endwert berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Prozentrechnung | Zahlen und Operationen | neu |
+| 265 | Sachaufgabe zu einer Gleichungskette formulieren | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 266 | Scheitelpunkt einer Parabel rechnerisch nachweisen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 267 | Schnittpunktanzahl von Graphen begründen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 268 | Schnittpunktgleichung zweier Parabeln herleiten | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
+| 269 | Seite im allgemeinen Dreieck über Kosinussatz berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Sinussatz | Größen und Messen | neu |
+| 270 | Seite im rechtwinkligen Dreieck aus Winkel und Kathete berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrie im rechtwinkligen Dreieck | Größen und Messen | neu |
+| 271 | Sinussatz Winkel berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Sinussatz | Größen und Messen | neu |
+| 272 | Streckenlänge über ein konstruiertes Parallelogramm im Vieleck begründen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Kongruenz und Konstruktion | Raum und Form | neu |
+| 273 | Symmetrie einer geraden Funktion zur Bestimmung eines Funktionswertes ohne Rechnung nutzen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Funktionen allgemein | Gleichungen und Funktionen | neu |
+| 274 | Term durch Zusammenfassen gleichartiger Glieder vereinfachen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Terme umformen | Zahlen und Operationen | neu |
+| 275 | Term mit Klammern und Potenzen vereinfachen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Terme umformen | Zahlen und Operationen | neu |
+| 276 | Transportanzahl aus Volumen und Masse berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 277 | Trapezfläche im Koordinatensystem aus Funktionsgraph und Geraden berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 278 | Trapezhöhe über den aus einem angrenzenden Dreieck übertragenen Winkel berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ähnlichkeit und Strahlensätze | Raum und Form | neu |
+| 279 | Trigonometrische Funktionsgleichung zu Graph zuordnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrische Funktionen | Gleichungen und Funktionen | neu |
+| 280 | Umfang eines Drachenvierecks aus Diagonalenabschnitten berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 281 | Umfang eines Dreiecks aus Koordinaten berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 282 | Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Funktionen allgemein | Gleichungen und Funktionen | neu |
+| 283 | Vieleck aus Seiten und Winkeln im Maßstab konstruieren | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Kongruenz und Konstruktion | Raum und Form | neu |
+| 284 | Volumen eines aus Kegel und Halbkugel zusammengesetzten Körpers mit Nebenbedingung berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Volumen und Oberfläche | Größen und Messen | neu |
+| 285 | Wahrscheinlichkeit für die Position des ersten Treffers berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Wahrscheinlichkeit mehrstufig | Daten und Zufall | neu |
+| 286 | Wertebereich einer Funktion angeben | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 287 | Wertetabelle auf Exponentialfunktion prüfen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 288 | Winkel als Differenz zweier Teilwinkel in einem zusammengesetzten rechtwinkligen Dreieck nachweisen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Ebene Figuren und Winkel | Raum und Form | neu |
+| 289 | Winkel eines Drachenvierecks aus Diagonalenabschnitten berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Trigonometrie im rechtwinkligen Dreieck | Größen und Messen | neu |
+| 290 | Winkel im allgemeinen Dreieck über Kosinussatz berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Sinussatz | Größen und Messen | neu |
+| 291 | Winkel im allgemeinen Dreieck über Sinussatz berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Sinussatz | Größen und Messen | neu |
+| 292 | Zeit aus Exponentialgleichung berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Exponentialfunktionen und Wachstum | Gleichungen und Funktionen | neu |
+| 293 | x-Werte einer quadratischen Funktion zu gegebenem Funktionswert berechnen | 0 | 0,0 % | 0 | 0 | 0 | 0 | – | – | 0 | 0 | 0 | 0 | 0 | – | 0 | Quadratische Funktionen | Gleichungen und Funktionen | neu |
 
 ## B Typen je Thema
 Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema in Ertragsfolge.
 
-### Quadratische Funktionen – 59 Punkte, 14 Typen
+### Quadratische Funktionen – 59 Punkte, 26 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -219,8 +327,20 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 12 | Gerade ohne gemeinsamen Punkt mit Parabel angeben | 2 | 1 | 1 |
 | 13 | Parabel aus Gleichung skizzieren | 2 | 1 | 1 |
 | 14 | Parabel an der x-Achse spiegeln | 0 | 0 | 2 |
+| 15 | Eignung einer Funktionsgleichung für einen Sachverhalt beurteilen | 0 | 0 | 0 |
+| 16 | Fehlende Schnittpunkte zweier Funktionen über Wertebereiche begründen | 0 | 0 | 0 |
+| 17 | Funktionswerte einer Parabel im Sachkontext berechnen | 0 | 0 | 0 |
+| 18 | Parabelgleichung aus Scheitel und Punkt bestimmen | 0 | 0 | 0 |
+| 19 | Parabelgleichung aus Spannweite und Höhe eines Bogens bestimmen | 0 | 0 | 0 |
+| 20 | Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen | 0 | 0 | 0 |
+| 21 | Parabeltransformation gegenüber der Normalparabel beschreiben | 0 | 0 | 0 |
+| 22 | Parameter einer Parabel aus Graph bestimmen | 0 | 0 | 0 |
+| 23 | Scheitelpunkt einer Parabel rechnerisch nachweisen | 0 | 0 | 0 |
+| 24 | Schnittpunktanzahl von Graphen begründen | 0 | 0 | 0 |
+| 25 | Schnittpunktgleichung zweier Parabeln herleiten | 0 | 0 | 0 |
+| 26 | x-Werte einer quadratischen Funktion zu gegebenem Funktionswert berechnen | 0 | 0 | 0 |
 
-### Flächeninhalt und Umfang – 55 Punkte, 18 Typen
+### Flächeninhalt und Umfang – 55 Punkte, 24 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -242,8 +362,14 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 16 | Rechteckseite aus Umfang berechnen | 1 | 1 | 1 |
 | 17 | Umfang Rechteck berechnen | 1 | 1 | 1 |
 | 18 | Flächeninhalt Rechteck berechnen | 0 | 0 | 2 |
+| 19 | Flächeninhalt eines Drachenvierecks aus Diagonalen berechnen | 0 | 0 | 0 |
+| 20 | Flächeninhalt eines aus vier kongruenten rechtwinkligen Dreiecken zusammengesetzten Vierecks berechnen | 0 | 0 | 0 |
+| 21 | Flächeninhalt eines gleichseitigen Dreiecks aus Umfang berechnen | 0 | 0 | 0 |
+| 22 | Innendurchmesser eines Kreisrings aus Flächeninhalt und Außendurchmesser berechnen | 0 | 0 | 0 |
+| 23 | Kreisumfang berechnen | 0 | 0 | 0 |
+| 24 | Maximale Anzahl rechteckiger Objekte auf einer Fläche bestimmen | 0 | 0 | 0 |
 
-### Lineare Funktionen – 54 Punkte, 14 Typen
+### Lineare Funktionen – 54 Punkte, 22 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -261,8 +387,16 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 12 | Graph einer linearen Funktion erkennen | 1 | 1 | 1 |
 | 13 | y-Achsenabschnitt ablesen | 1 | 1 | 1 |
 | 14 | Schnittpunkt am Graphen ablesen | 0 | 0 | 1 |
+| 15 | Anstieg einer linearen Funktion aus Punkt und y-Achsenabschnitt berechnen | 0 | 0 | 0 |
+| 16 | Gerade an der x-Achse spiegeln | 0 | 0 | 0 |
+| 17 | Gerade an der y-Achse spiegeln | 0 | 0 | 0 |
+| 18 | Geradengleichung aus Steigung und Punkt bestimmen | 0 | 0 | 0 |
+| 19 | Geradengleichung einer Parallelen durch einen Punkt bestimmen | 0 | 0 | 0 |
+| 20 | Gleichung einer Senkrechten aufstellen | 0 | 0 | 0 |
+| 21 | Lage zweier Geraden bestimmen | 0 | 0 | 0 |
+| 22 | Lineare Funktion aus Steigung und Schnittbedingung bestimmen | 0 | 0 | 0 |
 
-### Funktionen allgemein – 43 Punkte, 7 Typen
+### Funktionen allgemein – 43 Punkte, 10 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -273,8 +407,11 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 5 | Wertetabelle als Punkte darstellen | 5 | 2 | 4 |
 | 6 | Graph zu Tarif zuordnen | 4 | 2 | 2 |
 | 7 | Wertetabelle einer Funktion zuordnen | 1 | 1 | 1 |
+| 8 | Parameter einer Wurzelfunktion aus einem Punkt bestimmen | 0 | 0 | 0 |
+| 9 | Symmetrie einer geraden Funktion zur Bestimmung eines Funktionswertes ohne Rechnung nutzen | 0 | 0 | 0 |
+| 10 | Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen | 0 | 0 | 0 |
 
-### Kenngrößen – 43 Punkte, 8 Typen
+### Kenngrößen – 43 Punkte, 12 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -286,8 +423,12 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 6 | Fehlenden Wert aus Mittelwert bestimmen | 1 | 1 | 1 |
 | 7 | Relative Häufigkeit angeben | 1 | 1 | 1 |
 | 8 | Veränderung des Mittelwerts begründen | 0 | 0 | 1 |
+| 9 | Datenreihen anhand von Kenngrößen vergleichen und begründen | 0 | 0 | 0 |
+| 10 | Fehlenden Wert aus Spannweite bestimmen | 0 | 0 | 0 |
+| 11 | Mehrere Kenngrößen zweier Datenreihen vergleichend bestimmen | 0 | 0 | 0 |
+| 12 | Modalwert bestimmen | 0 | 0 | 0 |
 
-### Prozentrechnung – 43 Punkte, 10 Typen
+### Prozentrechnung – 43 Punkte, 15 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -301,8 +442,13 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 8 | Grundwert berechnen | 2 | 2 | 2 |
 | 9 | Fehlenden Prozentanteil ergänzen | 2 | 1 | 1 |
 | 10 | Steigung in Prozent berechnen | 0 | 0 | 1 |
+| 11 | Gesamtmenge aus Pro-Kopf-Angabe, Anteil und Einwohnerzahl berechnen | 0 | 0 | 0 |
+| 12 | Prozentanteil einer Rasterfläche markieren | 0 | 0 | 0 |
+| 13 | Prozentuale Abweichung einer Modellfläche von der tatsächlichen Fläche berechnen | 0 | 0 | 0 |
+| 14 | Prozentuale Abweichung eines Werts von einem Vergleichswert berechnen | 0 | 0 | 0 |
+| 15 | Prozentualen Zuwachs aus Anfangs- und Endwert berechnen | 0 | 0 | 0 |
 
-### Wahrscheinlichkeit mehrstufig – 42 Punkte, 5 Typen
+### Wahrscheinlichkeit mehrstufig – 42 Punkte, 10 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -311,8 +457,13 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 3 | Wahrscheinlichkeit mehrstufig ohne Zurücklegen | 9 | 3 | 5 |
 | 4 | Wahrscheinlichkeit über Gegenereignis berechnen | 2 | 1 | 1 |
 | 5 | Behauptung prüfen | 0 | 0 | 12 |
+| 6 | Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen | 0 | 0 | 0 |
+| 7 | Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen | 0 | 0 | 0 |
+| 8 | Ereignis zu Wahrscheinlichkeitsterm beschreiben | 0 | 0 | 0 |
+| 9 | Gleichverteilung der Trefferwahrscheinlichkeit begründen | 0 | 0 | 0 |
+| 10 | Wahrscheinlichkeit für die Position des ersten Treffers berechnen | 0 | 0 | 0 |
 
-### Trigonometrie im rechtwinkligen Dreieck – 40 Punkte, 4 Typen
+### Trigonometrie im rechtwinkligen Dreieck – 40 Punkte, 10 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -320,8 +471,14 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 2 | Winkel im rechtwinkligen Dreieck berechnen | 11 | 5 | 6 |
 | 3 | Winkelfunktion Seitenverhältnis angeben | 5 | 5 | 5 |
 | 4 | Trigonometrische Gleichung nach Seite umstellen | 1 | 1 | 1 |
+| 5 | Aussage zu einer Winkelfunktion im rechtwinkligen Dreieck prüfen | 0 | 0 | 0 |
+| 6 | Formel für die Tiefe eines Kegels aus Durchmesser und Öffnungswinkel herleiten | 0 | 0 | 0 |
+| 7 | Höhe eines Drachenvierecks aus geteiltem Winkel und Diagonalen berechnen | 0 | 0 | 0 |
+| 8 | Neigungswinkel einer Geraden berechnen | 0 | 0 | 0 |
+| 9 | Seite im rechtwinkligen Dreieck aus Winkel und Kathete berechnen | 0 | 0 | 0 |
+| 10 | Winkel eines Drachenvierecks aus Diagonalenabschnitten berechnen | 0 | 0 | 0 |
 
-### Volumen und Oberfläche – 38 Punkte, 14 Typen
+### Volumen und Oberfläche – 38 Punkte, 25 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -339,8 +496,19 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 12 | Volumenänderung bei doppeltem Radius begründen | 2 | 1 | 1 |
 | 13 | Volumen Würfel berechnen | 1 | 1 | 1 |
 | 14 | Volumen Kegel berechnen | 0 | 0 | 1 |
+| 15 | Anzahl Objekte aus Masse und Tragfähigkeit berechnen | 0 | 0 | 0 |
+| 16 | Durchmesser einer Halbkugel aus der Oberfläche berechnen | 0 | 0 | 0 |
+| 17 | Fläche zweier Mantelflächen eines Prismas mit trapezförmiger Grundfläche berechnen | 0 | 0 | 0 |
+| 18 | Kantenlänge einer quadratischen Grundfläche aus Volumen berechnen | 0 | 0 | 0 |
+| 19 | Kantensumme eines Quaders mit Seitenlängen in Abhängigkeit von der Höhe berechnen | 0 | 0 | 0 |
+| 20 | Kugeldurchmesser aus Anzahl nebeneinanderliegender Kugeln bestimmen | 0 | 0 | 0 |
+| 21 | Kugeloberfläche berechnen | 0 | 0 | 0 |
+| 22 | Mantelfläche einer Pyramide berechnen | 0 | 0 | 0 |
+| 23 | Masse eines zusammengesetzten Körpers berechnen | 0 | 0 | 0 |
+| 24 | Transportanzahl aus Volumen und Masse berechnen | 0 | 0 | 0 |
+| 25 | Volumen eines aus Kegel und Halbkugel zusammengesetzten Körpers mit Nebenbedingung berechnen | 0 | 0 | 0 |
 
-### Exponentialfunktionen und Wachstum – 37 Punkte, 7 Typen
+### Exponentialfunktionen und Wachstum – 37 Punkte, 17 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -351,8 +519,18 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 5 | Verdopplungs- oder Halbwertszeit bestimmen | 4 | 2 | 2 |
 | 6 | Wachstumsart begründen | 4 | 2 | 2 |
 | 7 | Zeitpunkt für Schwellenwert bei Wachstum bestimmen | 2 | 1 | 1 |
+| 8 | Aussage über einen Logarithmusterm als Abstand zur y-Achse prüfen | 0 | 0 | 0 |
+| 9 | Exponentialfunktion vertikal verschieben und Schnittpunkt mit der y-Achse angeben | 0 | 0 | 0 |
+| 10 | Graph einer Exponentialfunktion an der y-Achse spiegeln | 0 | 0 | 0 |
+| 11 | Graph eines exponentiellen Vorgangs zeichnen | 0 | 0 | 0 |
+| 12 | Parameter einer Exponentialfunktion aus Graph bestimmen | 0 | 0 | 0 |
+| 13 | Parameter einer Exponentialfunktion aus einer Wertetabelle bestimmen | 0 | 0 | 0 |
+| 14 | Sachaufgabe zu einer Gleichungskette formulieren | 0 | 0 | 0 |
+| 15 | Wertebereich einer Funktion angeben | 0 | 0 | 0 |
+| 16 | Wertetabelle auf Exponentialfunktion prüfen | 0 | 0 | 0 |
+| 17 | Zeit aus Exponentialgleichung berechnen | 0 | 0 | 0 |
 
-### Satz des Pythagoras – 33 Punkte, 6 Typen
+### Satz des Pythagoras – 33 Punkte, 7 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -362,12 +540,17 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 4 | Streckenlänge aus Koordinaten berechnen | 4 | 1 | 1 |
 | 5 | Mantellinie Kegel bestimmen | 2 | 1 | 1 |
 | 6 | Satz des Pythagoras formulieren | 1 | 1 | 1 |
+| 7 | Kegelhöhe aus Mantellinie und Radius berechnen | 0 | 0 | 0 |
 
-### Sinussatz – 29 Punkte, 1 Typen
+### Sinussatz – 29 Punkte, 5 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
 | 1 | Sinussatz Seite berechnen | 29 | 9 | 9 |
+| 2 | Seite im allgemeinen Dreieck über Kosinussatz berechnen | 0 | 0 | 0 |
+| 3 | Sinussatz Winkel berechnen | 0 | 0 | 0 |
+| 4 | Winkel im allgemeinen Dreieck über Kosinussatz berechnen | 0 | 0 | 0 |
+| 5 | Winkel im allgemeinen Dreieck über Sinussatz berechnen | 0 | 0 | 0 |
 
 ### Diagramme lesen und beurteilen – 27 Punkte, 6 Typen
 
@@ -380,7 +563,7 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 5 | Wert aus Diagramm ablesen | 3 | 2 | 2 |
 | 6 | Werte im Diagramm nach Bedingung auswählen | 2 | 2 | 2 |
 
-### Körper, Netze, Schrägbilder – 26 Punkte, 10 Typen
+### Körper, Netze, Schrägbilder – 26 Punkte, 13 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -394,8 +577,11 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 8 | Gegenfläche im Würfelnetz bestimmen | 1 | 1 | 1 |
 | 9 | Kantenzahl eines Körpers angeben | 1 | 1 | 1 |
 | 10 | Verpackungsmaße aus Körpermaßen bestimmen | 0 | 0 | 1 |
+| 11 | Grundfläche eines Prismas im Körpernetz kennzeichnen | 0 | 0 | 0 |
+| 12 | Körper im Schrägbild darstellen | 0 | 0 | 0 |
+| 13 | Maße eines Körpers aus einem bemaßten Netz im Maßstab ablesen | 0 | 0 | 0 |
 
-### Ebene Figuren und Winkel – 25 Punkte, 10 Typen
+### Ebene Figuren und Winkel – 25 Punkte, 20 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -409,6 +595,16 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 8 | Rechten Winkel begründen | 2 | 1 | 1 |
 | 9 | Winkel aus Teilwinkeln berechnen | 1 | 1 | 3 |
 | 10 | Dreiecksungleichung anwenden | 1 | 1 | 1 |
+| 11 | Dreieck aus Koordinaten als gleichschenklig-rechtwinklig nachweisen | 0 | 0 | 0 |
+| 12 | Flächenberechnung eines Vielecks anhand einer vorgegebenen Gleichung erläutern | 0 | 0 | 0 |
+| 13 | Flächeninhalt eines Dreiecks aus Koordinaten berechnen | 0 | 0 | 0 |
+| 14 | Flächeninhalt eines Dreiecks aus drei Seiten berechnen | 0 | 0 | 0 |
+| 15 | Flächeninhalt eines Vierecks aus den Achsenschnittpunkten zweier Funktionsgraphen berechnen | 0 | 0 | 0 |
+| 16 | Gleich große oder doppelt so große Winkel in einer aus kongruenten Dreiecken zusammengesetzten Figur kennzeichnen | 0 | 0 | 0 |
+| 17 | Trapezfläche im Koordinatensystem aus Funktionsgraph und Geraden berechnen | 0 | 0 | 0 |
+| 18 | Umfang eines Drachenvierecks aus Diagonalenabschnitten berechnen | 0 | 0 | 0 |
+| 19 | Umfang eines Dreiecks aus Koordinaten berechnen | 0 | 0 | 0 |
+| 20 | Winkel als Differenz zweier Teilwinkel in einem zusammengesetzten rechtwinkligen Dreieck nachweisen | 0 | 0 | 0 |
 
 ### Lineare Gleichungssysteme – 25 Punkte, 3 Typen
 
@@ -418,14 +614,15 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 2 | Lineares Gleichungssystem aufstellen | 10 | 3 | 3 |
 | 3 | Lineares Gleichungssystem lösen | 3 | 1 | 4 |
 
-### Wahrscheinlichkeit einstufig – 24 Punkte, 2 Typen
+### Wahrscheinlichkeit einstufig – 24 Punkte, 3 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
 | 1 | Wahrscheinlichkeit einstufig | 18 | 12 | 9 |
 | 2 | Zufallsgerät zu Wahrscheinlichkeit entwerfen | 6 | 4 | 4 |
+| 3 | Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen | 0 | 0 | 0 |
 
-### Brüche und Dezimalzahlen – 20 Punkte, 4 Typen
+### Brüche und Dezimalzahlen – 20 Punkte, 5 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -433,8 +630,9 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 2 | Zahlen in verschiedenen Darstellungen vergleichen | 7 | 7 | 7 |
 | 3 | Bruchteil einer Größe berechnen | 2 | 2 | 2 |
 | 4 | Mitte zweier Zahlen bestimmen | 1 | 1 | 1 |
+| 5 | Anteil einer unterteilten Kreisfläche bestimmen | 0 | 0 | 0 |
 
-### Zuordnungen proportional und antiproportional – 20 Punkte, 4 Typen
+### Zuordnungen proportional und antiproportional – 20 Punkte, 5 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -442,8 +640,9 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 2 | Kosten aus Menge und Preis berechnen | 4 | 3 | 3 |
 | 3 | Proportionale Zuordnung Dreisatz | 3 | 3 | 3 |
 | 4 | Geschwindigkeit aus Weg und Zeit berechnen | 2 | 1 | 1 |
+| 5 | Antiproportionale Zuordnung Dreisatz | 0 | 0 | 0 |
 
-### Einheiten umrechnen – 17 Punkte, 9 Typen
+### Einheiten umrechnen – 17 Punkte, 11 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -456,8 +655,10 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 7 | Längeneinheit mit Faktor umrechnen | 1 | 1 | 1 |
 | 8 | Portionen aus Gesamtmenge berechnen | 1 | 1 | 1 |
 | 9 | Masse aus Volumen und Dichte berechnen | 0 | 0 | 1 |
+| 10 | Farbmenge aus Fläche und Ergiebigkeit berechnen | 0 | 0 | 0 |
+| 11 | Materialbedarf aus Längen berechnen | 0 | 0 | 0 |
 
-### Zählen und Kombinatorik – 13 Punkte, 4 Typen
+### Zählen und Kombinatorik – 13 Punkte, 6 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -465,6 +666,8 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 2 | Ergebnismenge aufzählen | 5 | 3 | 4 |
 | 3 | Anzahl der Dreiecke aus Punkten bestimmen | 1 | 1 | 1 |
 | 4 | Größte Zahl aus Ziffern bilden | 1 | 1 | 1 |
+| 5 | Anzahl Kombinationen nach dem Zählprinzip bestimmen | 0 | 0 | 0 |
+| 6 | Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen | 0 | 0 | 0 |
 
 ### Lineare Gleichungen – 11 Punkte, 3 Typen
 
@@ -481,7 +684,7 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 1 | Draufsicht maßstabsgerecht zeichnen | 5 | 1 | 1 |
 | 2 | Länge im Maßstab umrechnen | 4 | 2 | 2 |
 
-### Rationale Zahlen rechnen – 9 Punkte, 5 Typen
+### Rationale Zahlen rechnen – 9 Punkte, 6 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
@@ -490,6 +693,7 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 3 | Günstigste Preiskombination bestimmen | 2 | 1 | 1 |
 | 4 | Ausgangswert aus Differenz berechnen | 1 | 1 | 1 |
 | 5 | Vorzeichenregel anwenden | 1 | 1 | 1 |
+| 6 | Aussage über eine mehrfach gebrochene Streckenteilung prüfen | 0 | 0 | 0 |
 
 ### Daten darstellen – 7 Punkte, 4 Typen
 
@@ -507,11 +711,14 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 | 1 | Symmetrieachsen bestimmen | 6 | 3 | 3 |
 | 2 | Figur nach Spiegelung benennen | 1 | 1 | 1 |
 
-### Terme umformen – 7 Punkte, 1 Typen
+### Terme umformen – 7 Punkte, 4 Typen
 
 | Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
 |---|---|---|---|---|
 | 1 | Term zu Sachtext angeben | 7 | 5 | 5 |
+| 2 | Binomische Formel anwenden | 0 | 0 | 0 |
+| 3 | Term durch Zusammenfassen gleichartiger Glieder vereinfachen | 0 | 0 | 0 |
+| 4 | Term mit Klammern und Potenzen vereinfachen | 0 | 0 | 0 |
 
 ### Zehnerpotenzen und Näherungswerte – 6 Punkte, 2 Typen
 
@@ -546,6 +753,35 @@ Themen nach Punktsumme (punkte_haupt ihrer Typen) absteigend; die Typen je Thema
 |---|---|---|---|---|
 | 1 | Lage eines Punktes zu den Achsen erkennen | 1 | 1 | 1 |
 
+### Kongruenz und Konstruktion – 0 Punkte, 2 Typen
+
+| Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
+|---|---|---|---|---|
+| 1 | Streckenlänge über ein konstruiertes Parallelogramm im Vieleck begründen | 0 | 0 | 0 |
+| 2 | Vieleck aus Seiten und Winkeln im Maßstab konstruieren | 0 | 0 | 0 |
+
+### Runden und Überschlag – 0 Punkte, 1 Typen
+
+| Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
+|---|---|---|---|---|
+| 1 | Maximale ganzzahlige Menge aus Grenzwert berechnen | 0 | 0 | 0 |
+
+### Trigonometrische Funktionen – 0 Punkte, 3 Typen
+
+| Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
+|---|---|---|---|---|
+| 1 | Eigenschaften trigonometrischer Funktionen vergleichen | 0 | 0 | 0 |
+| 2 | Graph einer trigonometrischen Funktion durch Streckung und Verschiebung beschreiben | 0 | 0 | 0 |
+| 3 | Trigonometrische Funktionsgleichung zu Graph zuordnen | 0 | 0 | 0 |
+
+### Ähnlichkeit und Strahlensätze – 0 Punkte, 3 Typen
+
+| Rang im Thema | Typ | punkte_haupt | zeilen_haupt | jahre_gesamt |
+|---|---|---|---|---|
+| 1 | Grundstücksbreiten aus einem in Teilflächen zerlegten Trapez bestimmen | 0 | 0 | 0 |
+| 2 | Länge auf der Mantellinie eines Kegels bei Teilfüllung über Ähnlichkeit bestimmen | 0 | 0 | 0 |
+| 3 | Trapezhöhe über den aus einem angrenzenden Dreieck übertragenen Winkel berechnen | 0 | 0 | 0 |
+
 ## C Verteilung (Hilfe für die Schwelle „selten“)
 Nur Typen mit Hauptzeile (175). Perzentil im Rang-Sinn: sortierte Werte aufsteigend, Index floor(p/100 · n) – der Wert, unter dem rund p % der Typen liegen.
 
@@ -570,5 +806,112 @@ Typen mit Hauptzeile und jahre_gesamt ≤ 2: 111 von 175.
 - Veränderung des Mittelwerts begründen – Kenngrößen
 - Volumen Kegel berechnen – Volumen und Oberfläche
 
-### Ohne Vorkommen (0)
-- keine
+### Ohne Vorkommen (108)
+- Anstieg einer linearen Funktion aus Punkt und y-Achsenabschnitt berechnen – Lineare Funktionen
+- Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen – Wahrscheinlichkeit mehrstufig
+- Anteil einer unterteilten Kreisfläche bestimmen – Brüche und Dezimalzahlen
+- Antiproportionale Zuordnung Dreisatz – Zuordnungen proportional und antiproportional
+- Anzahl Kombinationen nach dem Zählprinzip bestimmen – Zählen und Kombinatorik
+- Anzahl Objekte aus Masse und Tragfähigkeit berechnen – Volumen und Oberfläche
+- Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen – Zählen und Kombinatorik
+- Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen – Wahrscheinlichkeit mehrstufig
+- Aussage zu einer Winkelfunktion im rechtwinkligen Dreieck prüfen – Trigonometrie im rechtwinkligen Dreieck
+- Aussage über eine mehrfach gebrochene Streckenteilung prüfen – Rationale Zahlen rechnen
+- Aussage über einen Logarithmusterm als Abstand zur y-Achse prüfen – Exponentialfunktionen und Wachstum
+- Binomische Formel anwenden – Terme umformen
+- Datenreihen anhand von Kenngrößen vergleichen und begründen – Kenngrößen
+- Dreieck aus Koordinaten als gleichschenklig-rechtwinklig nachweisen – Ebene Figuren und Winkel
+- Durchmesser einer Halbkugel aus der Oberfläche berechnen – Volumen und Oberfläche
+- Eigenschaften trigonometrischer Funktionen vergleichen – Trigonometrische Funktionen
+- Eignung einer Funktionsgleichung für einen Sachverhalt beurteilen – Quadratische Funktionen
+- Ereignis zu Wahrscheinlichkeitsterm beschreiben – Wahrscheinlichkeit mehrstufig
+- Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen – Wahrscheinlichkeit einstufig
+- Exponentialfunktion vertikal verschieben und Schnittpunkt mit der y-Achse angeben – Exponentialfunktionen und Wachstum
+- Farbmenge aus Fläche und Ergiebigkeit berechnen – Einheiten umrechnen
+- Fehlende Schnittpunkte zweier Funktionen über Wertebereiche begründen – Quadratische Funktionen
+- Fehlenden Wert aus Spannweite bestimmen – Kenngrößen
+- Fläche zweier Mantelflächen eines Prismas mit trapezförmiger Grundfläche berechnen – Volumen und Oberfläche
+- Flächenberechnung eines Vielecks anhand einer vorgegebenen Gleichung erläutern – Ebene Figuren und Winkel
+- Flächeninhalt eines Drachenvierecks aus Diagonalen berechnen – Flächeninhalt und Umfang
+- Flächeninhalt eines Dreiecks aus Koordinaten berechnen – Ebene Figuren und Winkel
+- Flächeninhalt eines Dreiecks aus drei Seiten berechnen – Ebene Figuren und Winkel
+- Flächeninhalt eines Vierecks aus den Achsenschnittpunkten zweier Funktionsgraphen berechnen – Ebene Figuren und Winkel
+- Flächeninhalt eines aus vier kongruenten rechtwinkligen Dreiecken zusammengesetzten Vierecks berechnen – Flächeninhalt und Umfang
+- Flächeninhalt eines gleichseitigen Dreiecks aus Umfang berechnen – Flächeninhalt und Umfang
+- Formel für die Tiefe eines Kegels aus Durchmesser und Öffnungswinkel herleiten – Trigonometrie im rechtwinkligen Dreieck
+- Funktionswerte einer Parabel im Sachkontext berechnen – Quadratische Funktionen
+- Gerade an der x-Achse spiegeln – Lineare Funktionen
+- Gerade an der y-Achse spiegeln – Lineare Funktionen
+- Geradengleichung aus Steigung und Punkt bestimmen – Lineare Funktionen
+- Geradengleichung einer Parallelen durch einen Punkt bestimmen – Lineare Funktionen
+- Gesamtmenge aus Pro-Kopf-Angabe, Anteil und Einwohnerzahl berechnen – Prozentrechnung
+- Gleich große oder doppelt so große Winkel in einer aus kongruenten Dreiecken zusammengesetzten Figur kennzeichnen – Ebene Figuren und Winkel
+- Gleichung einer Senkrechten aufstellen – Lineare Funktionen
+- Gleichverteilung der Trefferwahrscheinlichkeit begründen – Wahrscheinlichkeit mehrstufig
+- Graph einer Exponentialfunktion an der y-Achse spiegeln – Exponentialfunktionen und Wachstum
+- Graph einer trigonometrischen Funktion durch Streckung und Verschiebung beschreiben – Trigonometrische Funktionen
+- Graph eines exponentiellen Vorgangs zeichnen – Exponentialfunktionen und Wachstum
+- Grundfläche eines Prismas im Körpernetz kennzeichnen – Körper, Netze, Schrägbilder
+- Grundstücksbreiten aus einem in Teilflächen zerlegten Trapez bestimmen – Ähnlichkeit und Strahlensätze
+- Höhe eines Drachenvierecks aus geteiltem Winkel und Diagonalen berechnen – Trigonometrie im rechtwinkligen Dreieck
+- Innendurchmesser eines Kreisrings aus Flächeninhalt und Außendurchmesser berechnen – Flächeninhalt und Umfang
+- Kantenlänge einer quadratischen Grundfläche aus Volumen berechnen – Volumen und Oberfläche
+- Kantensumme eines Quaders mit Seitenlängen in Abhängigkeit von der Höhe berechnen – Volumen und Oberfläche
+- Kegelhöhe aus Mantellinie und Radius berechnen – Satz des Pythagoras
+- Kreisumfang berechnen – Flächeninhalt und Umfang
+- Kugeldurchmesser aus Anzahl nebeneinanderliegender Kugeln bestimmen – Volumen und Oberfläche
+- Kugeloberfläche berechnen – Volumen und Oberfläche
+- Körper im Schrägbild darstellen – Körper, Netze, Schrägbilder
+- Lage zweier Geraden bestimmen – Lineare Funktionen
+- Lineare Funktion aus Steigung und Schnittbedingung bestimmen – Lineare Funktionen
+- Länge auf der Mantellinie eines Kegels bei Teilfüllung über Ähnlichkeit bestimmen – Ähnlichkeit und Strahlensätze
+- Mantelfläche einer Pyramide berechnen – Volumen und Oberfläche
+- Masse eines zusammengesetzten Körpers berechnen – Volumen und Oberfläche
+- Materialbedarf aus Längen berechnen – Einheiten umrechnen
+- Maximale Anzahl rechteckiger Objekte auf einer Fläche bestimmen – Flächeninhalt und Umfang
+- Maximale ganzzahlige Menge aus Grenzwert berechnen – Runden und Überschlag
+- Maße eines Körpers aus einem bemaßten Netz im Maßstab ablesen – Körper, Netze, Schrägbilder
+- Mehrere Kenngrößen zweier Datenreihen vergleichend bestimmen – Kenngrößen
+- Modalwert bestimmen – Kenngrößen
+- Neigungswinkel einer Geraden berechnen – Trigonometrie im rechtwinkligen Dreieck
+- Parabelgleichung aus Scheitel und Punkt bestimmen – Quadratische Funktionen
+- Parabelgleichung aus Spannweite und Höhe eines Bogens bestimmen – Quadratische Funktionen
+- Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen – Quadratische Funktionen
+- Parabeltransformation gegenüber der Normalparabel beschreiben – Quadratische Funktionen
+- Parameter einer Exponentialfunktion aus Graph bestimmen – Exponentialfunktionen und Wachstum
+- Parameter einer Exponentialfunktion aus einer Wertetabelle bestimmen – Exponentialfunktionen und Wachstum
+- Parameter einer Parabel aus Graph bestimmen – Quadratische Funktionen
+- Parameter einer Wurzelfunktion aus einem Punkt bestimmen – Funktionen allgemein
+- Prozentanteil einer Rasterfläche markieren – Prozentrechnung
+- Prozentuale Abweichung einer Modellfläche von der tatsächlichen Fläche berechnen – Prozentrechnung
+- Prozentuale Abweichung eines Werts von einem Vergleichswert berechnen – Prozentrechnung
+- Prozentualen Zuwachs aus Anfangs- und Endwert berechnen – Prozentrechnung
+- Sachaufgabe zu einer Gleichungskette formulieren – Exponentialfunktionen und Wachstum
+- Scheitelpunkt einer Parabel rechnerisch nachweisen – Quadratische Funktionen
+- Schnittpunktanzahl von Graphen begründen – Quadratische Funktionen
+- Schnittpunktgleichung zweier Parabeln herleiten – Quadratische Funktionen
+- Seite im allgemeinen Dreieck über Kosinussatz berechnen – Sinussatz
+- Seite im rechtwinkligen Dreieck aus Winkel und Kathete berechnen – Trigonometrie im rechtwinkligen Dreieck
+- Sinussatz Winkel berechnen – Sinussatz
+- Streckenlänge über ein konstruiertes Parallelogramm im Vieleck begründen – Kongruenz und Konstruktion
+- Symmetrie einer geraden Funktion zur Bestimmung eines Funktionswertes ohne Rechnung nutzen – Funktionen allgemein
+- Term durch Zusammenfassen gleichartiger Glieder vereinfachen – Terme umformen
+- Term mit Klammern und Potenzen vereinfachen – Terme umformen
+- Transportanzahl aus Volumen und Masse berechnen – Volumen und Oberfläche
+- Trapezfläche im Koordinatensystem aus Funktionsgraph und Geraden berechnen – Ebene Figuren und Winkel
+- Trapezhöhe über den aus einem angrenzenden Dreieck übertragenen Winkel berechnen – Ähnlichkeit und Strahlensätze
+- Trigonometrische Funktionsgleichung zu Graph zuordnen – Trigonometrische Funktionen
+- Umfang eines Drachenvierecks aus Diagonalenabschnitten berechnen – Ebene Figuren und Winkel
+- Umfang eines Dreiecks aus Koordinaten berechnen – Ebene Figuren und Winkel
+- Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen – Funktionen allgemein
+- Vieleck aus Seiten und Winkeln im Maßstab konstruieren – Kongruenz und Konstruktion
+- Volumen eines aus Kegel und Halbkugel zusammengesetzten Körpers mit Nebenbedingung berechnen – Volumen und Oberfläche
+- Wahrscheinlichkeit für die Position des ersten Treffers berechnen – Wahrscheinlichkeit mehrstufig
+- Wertebereich einer Funktion angeben – Exponentialfunktionen und Wachstum
+- Wertetabelle auf Exponentialfunktion prüfen – Exponentialfunktionen und Wachstum
+- Winkel als Differenz zweier Teilwinkel in einem zusammengesetzten rechtwinkligen Dreieck nachweisen – Ebene Figuren und Winkel
+- Winkel eines Drachenvierecks aus Diagonalenabschnitten berechnen – Trigonometrie im rechtwinkligen Dreieck
+- Winkel im allgemeinen Dreieck über Kosinussatz berechnen – Sinussatz
+- Winkel im allgemeinen Dreieck über Sinussatz berechnen – Sinussatz
+- Zeit aus Exponentialgleichung berechnen – Exponentialfunktionen und Wachstum
+- x-Werte einer quadratischen Funktion zu gegebenem Funktionswert berechnen – Quadratische Funktionen

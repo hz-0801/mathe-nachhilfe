@@ -1,0 +1,346 @@
+# Vergleich GYM gegen OS/EBR/FOR – Profil msa
+Stand 2026-09-23, HEAD b699744.
+
+Vergleicht die Verwendung von Typ und Thema (jeweils als Haupttyp, Feld typ) zwischen dem Papier GYM (msa-katalog-gym.csv) und den Papieren OS/EBR/FOR/MUSTER-EBR/MUSTER-FOR (msa-katalog-basis.csv, msa-katalog-kontext.csv). Die Typenliste msa-typen.csv ist beiden Gruppen gemeinsam (msa.md § 4); Nebentypen (typ_neben) zählen hier nicht mit.
+
+Typen: 103 nur GYM, 98 nur OS/EBR/FOR, 77 in beiden.
+Themen: 4 nur GYM, 1 nur OS/EBR/FOR, 31 in beiden.
+
+Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-typen.csv; abgeleitet, nie von Hand ändern.
+
+## Typen
+
+**nur GYM** (103):
+
+- Anstieg einer linearen Funktion aus Punkt und y-Achsenabschnitt berechnen
+- Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen
+- Anteil einer unterteilten Kreisfläche bestimmen
+- Antiproportionale Zuordnung Dreisatz
+- Anzahl Kombinationen nach dem Zählprinzip bestimmen
+- Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen
+- Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen
+- Aussage über eine mehrfach gebrochene Streckenteilung prüfen
+- Aussage über einen Logarithmusterm als Abstand zur y-Achse prüfen
+- Binomische Formel anwenden
+- Datenreihen anhand von Kenngrößen vergleichen und begründen
+- Dreieck aus Koordinaten als gleichschenklig-rechtwinklig nachweisen
+- Durchmesser einer Halbkugel aus der Oberfläche berechnen
+- Eigenschaften trigonometrischer Funktionen vergleichen
+- Eignung einer Funktionsgleichung für einen Sachverhalt beurteilen
+- Ereignis zu Wahrscheinlichkeitsterm beschreiben
+- Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen
+- Exponentialfunktion vertikal verschieben und Schnittpunkt mit der y-Achse angeben
+- Farbmenge aus Fläche und Ergiebigkeit berechnen
+- Fehlende Schnittpunkte zweier Funktionen über Wertebereiche begründen
+- Fehlenden Wert aus Spannweite bestimmen
+- Fläche zweier Mantelflächen eines Prismas mit trapezförmiger Grundfläche berechnen
+- Flächenberechnung eines Vielecks anhand einer vorgegebenen Gleichung erläutern
+- Flächeninhalt Rechteck berechnen
+- Flächeninhalt eines Drachenvierecks aus Diagonalen berechnen
+- Flächeninhalt eines Dreiecks aus Koordinaten berechnen
+- Flächeninhalt eines Dreiecks aus drei Seiten berechnen
+- Flächeninhalt eines aus vier kongruenten rechtwinkligen Dreiecken zusammengesetzten Vierecks berechnen
+- Flächeninhalt eines gleichseitigen Dreiecks aus Umfang berechnen
+- Formel für die Tiefe eines Kegels aus Durchmesser und Öffnungswinkel herleiten
+- Funktionswerte einer Parabel im Sachkontext berechnen
+- Gerade an der x-Achse spiegeln
+- Geradengleichung aus Steigung und Punkt bestimmen
+- Geradengleichung einer Parallelen durch einen Punkt bestimmen
+- Gesamtmenge aus Pro-Kopf-Angabe, Anteil und Einwohnerzahl berechnen
+- Gleich große oder doppelt so große Winkel in einer aus kongruenten Dreiecken zusammengesetzten Figur kennzeichnen
+- Gleichung einer Senkrechten aufstellen
+- Graph einer Exponentialfunktion an der y-Achse spiegeln
+- Graph einer trigonometrischen Funktion durch Streckung und Verschiebung beschreiben
+- Graph eines exponentiellen Vorgangs zeichnen
+- Grundfläche eines Prismas im Körpernetz kennzeichnen
+- Grundstücksbreiten aus einem in Teilflächen zerlegten Trapez bestimmen
+- Höhe eines Drachenvierecks aus geteiltem Winkel und Diagonalen berechnen
+- Innendurchmesser eines Kreisrings aus Flächeninhalt und Außendurchmesser berechnen
+- Kantenlänge einer quadratischen Grundfläche aus Volumen berechnen
+- Kantensumme eines Quaders mit Seitenlängen in Abhängigkeit von der Höhe berechnen
+- Kegelhöhe aus Mantellinie und Radius berechnen
+- Kreisumfang berechnen
+- Kugeldurchmesser aus Anzahl nebeneinanderliegender Kugeln bestimmen
+- Kugeloberfläche berechnen
+- Körper im Schrägbild darstellen
+- Lage zweier Geraden bestimmen
+- Lineare Funktion aus Steigung und Schnittbedingung bestimmen
+- Länge auf der Mantellinie eines Kegels bei Teilfüllung über Ähnlichkeit bestimmen
+- Mantelfläche einer Pyramide berechnen
+- Masse eines zusammengesetzten Körpers berechnen
+- Materialbedarf aus Längen berechnen
+- Maximale Anzahl rechteckiger Objekte auf einer Fläche bestimmen
+- Maximale ganzzahlige Menge aus Grenzwert berechnen
+- Maße eines Körpers aus einem bemaßten Netz im Maßstab ablesen
+- Mehrere Kenngrößen zweier Datenreihen vergleichend bestimmen
+- Neigungswinkel einer Geraden berechnen
+- Parabel an der x-Achse spiegeln
+- Parabelgleichung aus Scheitel und Punkt bestimmen
+- Parabelgleichung aus Spannweite und Höhe eines Bogens bestimmen
+- Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen
+- Parabeltransformation gegenüber der Normalparabel beschreiben
+- Parameter einer Exponentialfunktion aus Graph bestimmen
+- Parameter einer Exponentialfunktion aus einer Wertetabelle bestimmen
+- Parameter einer Parabel aus Graph bestimmen
+- Parameter einer Wurzelfunktion aus einem Punkt bestimmen
+- Prozentanteil einer Rasterfläche markieren
+- Prozentuale Abweichung einer Modellfläche von der tatsächlichen Fläche berechnen
+- Prozentuale Abweichung eines Werts von einem Vergleichswert berechnen
+- Prozentualen Zuwachs aus Anfangs- und Endwert berechnen
+- Sachaufgabe zu einer Gleichungskette formulieren
+- Scheitelpunkt einer Parabel rechnerisch nachweisen
+- Schnittpunktanzahl von Graphen begründen
+- Schnittpunktgleichung zweier Parabeln herleiten
+- Seite im allgemeinen Dreieck über Kosinussatz berechnen
+- Seite im rechtwinkligen Dreieck aus Winkel und Kathete berechnen
+- Sinussatz Winkel berechnen
+- Streckenlänge über ein konstruiertes Parallelogramm im Vieleck begründen
+- Term durch Zusammenfassen gleichartiger Glieder vereinfachen
+- Term mit Klammern und Potenzen vereinfachen
+- Transportanzahl aus Volumen und Masse berechnen
+- Trapezhöhe über den aus einem angrenzenden Dreieck übertragenen Winkel berechnen
+- Trigonometrische Funktionsgleichung zu Graph zuordnen
+- Umfang eines Drachenvierecks aus Diagonalenabschnitten berechnen
+- Umfang eines Dreiecks aus Koordinaten berechnen
+- Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen
+- Vieleck aus Seiten und Winkeln im Maßstab konstruieren
+- Volumen Kegel berechnen
+- Volumen eines aus Kegel und Halbkugel zusammengesetzten Körpers mit Nebenbedingung berechnen
+- Wahrscheinlichkeit für die Position des ersten Treffers berechnen
+- Wertebereich einer Funktion angeben
+- Wertetabelle auf Exponentialfunktion prüfen
+- Winkel als Differenz zweier Teilwinkel in einem zusammengesetzten rechtwinkligen Dreieck nachweisen
+- Winkel eines Drachenvierecks aus Diagonalenabschnitten berechnen
+- Winkel im allgemeinen Dreieck über Kosinussatz berechnen
+- Winkel im allgemeinen Dreieck über Sinussatz berechnen
+- Zeit aus Exponentialgleichung berechnen
+- x-Werte einer quadratischen Funktion zu gegebenem Funktionswert berechnen
+
+**nur OS/EBR/FOR** (98):
+
+- Achsenskalierung aus Säule bestimmen
+- Anteilsaussage prüfen und korrigieren
+- Anzahl der Dreiecke aus Punkten bestimmen
+- Argument zu Funktionswert berechnen
+- Ausgangswert aus Differenz berechnen
+- Baumdiagramm ergänzen
+- Draufsicht maßstabsgerecht zeichnen
+- Dreiecksungleichung anwenden
+- Endwert linearer Veränderung berechnen
+- Exponent einer Potenz bestimmen
+- Exponentialfunktion aufstellen
+- Fehlenden Prozentanteil ergänzen
+- Figur in Teilflächen zerlegen
+- Flächeninhalt Drachenviereck berechnen
+- Flächeninhalt zusammengesetzter Figur berechnen
+- Gerade aus Gleichung zeichnen
+- Gerade durch zwei Punkte zeichnen
+- Gerade ohne gemeinsamen Punkt mit Parabel angeben
+- Geradengleichung zu Graph zuordnen
+- Geschwindigkeit aus Weg und Zeit berechnen
+- Gleichschenkliges Dreieck erkennen
+- Gleichung im Sachzusammenhang deuten
+- Gleichung zu Tarif zuordnen
+- Graph einer linearen Funktion erkennen
+- Graph nach Eigenschaft auswählen
+- Graph zu Wachstumsprozess zuordnen
+- Große Zahl mit Zehnerpotenz multiplizieren
+- Grundseite aus Dreiecksfläche berechnen
+- Grundwert berechnen
+- Größte Zahl aus Ziffern bilden
+- Guthabentabelle mit Zinsen ergänzen
+- Günstigste Preiskombination bestimmen
+- Kantenzahl eines Körpers angeben
+- Kenngrößen einer Liste prüfen
+- Kosten aus Menge und Preis berechnen
+- Kreissektor Anteil berechnen
+- Körper in Schrägbild skizzieren
+- Körperskizze beschriften
+- Lage eines Punktes zu den Achsen erkennen
+- Lage zweier Parabeln begründen
+- Lineare Funktion aus Sachverhalt aufstellen
+- Lineares Gleichungssystem aufstellen
+- Längeneinheit mit Faktor umrechnen
+- Mantelfläche Kegel berechnen
+- Mantelfläche Prisma berechnen
+- Mantelfläche Zylinder als Netz skizzieren
+- Mantelfläche Zylinder berechnen
+- Mantellinie Kegel bestimmen
+- Materialbedarf aus Fläche berechnen
+- Minimum und Maximum ablesen
+- Mitte zweier Zahlen bestimmen
+- Netz eines Prismas vervollständigen
+- Netz eines Zylinders erkennen
+- Nullstelle am Graphen ablesen
+- Packungsanzahl in Quader bestimmen
+- Parabel an der y-Achse spiegeln
+- Parabel aus Gleichung skizzieren
+- Parabel zu Eigenschaften angeben
+- Prozent und Anteil umwandeln
+- Prozentsatz berechnen
+- Prozentuale Veränderung berechnen
+- Pythagoras Kathete
+- Radius eines Zylinders aus Volumen berechnen
+- Rechteckseite aus Fläche berechnen
+- Rechten Winkel begründen
+- Relative Häufigkeit angeben
+- Restvolumen berechnen
+- Satz des Pythagoras formulieren
+- Scheitelpunkt ablesen
+- Scheitelpunktform in Normalform umformen
+- Schnittpunkte Gerade und Parabel berechnen
+- Sektor im Kreisdiagramm zuordnen
+- Sinussatz Seite berechnen
+- Steigung in Prozent deuten
+- Symmetrieachsen bestimmen
+- Säulen- oder Balkendiagramm ergänzen
+- Trapezhöhe aus Fläche berechnen
+- Trigonometrische Gleichung nach Seite umstellen
+- Uhrzeit aus Startzeit und Dauer berechnen
+- Umfang Rechteck berechnen
+- Verdopplungs- oder Halbwertszeit bestimmen
+- Verschnitt in Prozent berechnen
+- Verzerrung eines Diagramms erklären
+- Volumen Kegel und Zylinder vergleichen
+- Volumen Kugel berechnen
+- Volumen Würfel berechnen
+- Volumenänderung bei doppeltem Radius begründen
+- Wachstumsart begründen
+- Wachstumstabelle ergänzen
+- Wahrscheinlichkeit über Gegenereignis berechnen
+- Wert nach prozentualer Erhöhung berechnen
+- Werte im Diagramm nach Bedingung auswählen
+- Wertetabelle einer Funktion zuordnen
+- Winkel aus Teilwinkeln berechnen
+- Winkel im Viereck berechnen
+- Winkelsumme im Dreieck anwenden
+- Zeitpunkt für Schwellenwert bei Wachstum bestimmen
+- y-Achsenabschnitt ablesen
+
+**in beiden** (77):
+
+- Achseneinteilung wählen
+- Anzahl der Anordnungen bestimmen
+- Arithmetisches Mittel berechnen
+- Aussage zu Diagramm prüfen
+- Bruchteil einer Fläche bestimmen
+- Bruchteil einer Größe berechnen
+- Dauer aus Menge und Rate berechnen
+- Eigenschaft einer Figur zuordnen
+- Eigenschaften eines Graphen beurteilen
+- Ergebnismenge aufzählen
+- Fehlenden Wert aus Mittelwert bestimmen
+- Fehler in Rechnung erklären und korrigieren
+- Figur nach Spiegelung benennen
+- Flächeninhalt Dreieck berechnen
+- Flächeninhalt Trapez berechnen
+- Funktionswert berechnen
+- Gegenfläche im Würfelnetz bestimmen
+- Geradengleichung aus zwei Punkten
+- Graph zu Tarif zuordnen
+- Größen vergleichen
+- Höhe eines Zylinders aus Volumen berechnen
+- Kreisdiagramm zeichnen
+- Kreisfläche berechnen
+- Körper aus Netz oder Schrägbild benennen
+- Lineare Gleichung aus Sachverhalt aufstellen
+- Lineare Gleichung lösen
+- Lineares Gleichungssystem lösen
+- Länge im Maßstab umrechnen
+- Lösbarkeit quadratischer Gleichung beurteilen
+- Lösung durch Einsetzen prüfen
+- Median bestimmen
+- Nullstelle lineare Funktion berechnen
+- Nullstellen quadratische Funktion berechnen
+- Parabel verschieben
+- Parabelgleichung zu Graph zuordnen
+- Portionen aus Gesamtmenge berechnen
+- Proportionale Zuordnung Dreisatz
+- Prozentwert berechnen
+- Punktprobe durchführen
+- Pythagoras Gleichung zuordnen
+- Pythagoras Hypotenuse
+- Quadratseite aus Fläche berechnen
+- Rechteckseite aus Umfang berechnen
+- Restfläche berechnen
+- Scheitelpunktform aufstellen
+- Seite im rechtwinkligen Dreieck berechnen
+- Spannweite berechnen
+- Strecke aus Teilstrecken berechnen
+- Streckenlänge aus Koordinaten berechnen
+- Streifendiagramm zeichnen
+- Tarife vergleichen
+- Term zu Figur angeben
+- Term zu Körper angeben
+- Term zu Sachtext angeben
+- Termwert berechnen
+- Umfang Trapez berechnen
+- Volumen Prisma berechnen
+- Volumen Zylinder berechnen
+- Volumen aus Masse und Dichte berechnen
+- Vorzeichenregel anwenden
+- Wachstumsfaktor aus Tabelle bestimmen
+- Wahrscheinlichkeit einstufig
+- Wahrscheinlichkeit mehrstufig ohne Zurücklegen
+- Wahrscheinlichkeit mehrstufig unabhängig
+- Wert aus Diagramm ablesen
+- Wertetabelle als Punkte darstellen
+- Winkel an geschnittenen Parallelen bestimmen
+- Winkel im rechtwinkligen Dreieck berechnen
+- Winkel über Scheitel- oder Nebenwinkel bestimmen
+- Winkelfunktion Seitenverhältnis angeben
+- Wurzel eines Quadrats berechnen
+- Zahl zu Bedingung angeben
+- Zahlen in verschiedenen Darstellungen vergleichen
+- Zehnerpotenzschreibweise umwandeln
+- Zeiteinheiten umrechnen
+- Zinseszins Endkapital berechnen
+- Zufallsgerät zu Wahrscheinlichkeit entwerfen
+
+## Themen
+
+**nur GYM** (4):
+
+- Kongruenz und Konstruktion
+- Runden und Überschlag
+- Trigonometrische Funktionen
+- Ähnlichkeit und Strahlensätze
+
+**nur OS/EBR/FOR** (1):
+
+- Koordinaten und Zeichnen
+
+**in beiden** (31):
+
+- Brüche und Dezimalzahlen
+- Daten darstellen
+- Diagramme lesen und beurteilen
+- Ebene Figuren und Winkel
+- Einheiten umrechnen
+- Exponentialfunktionen und Wachstum
+- Flächeninhalt und Umfang
+- Funktionen allgemein
+- Kenngrößen
+- Körper, Netze, Schrägbilder
+- Lineare Funktionen
+- Lineare Gleichungen
+- Lineare Gleichungssysteme
+- Maßstab
+- Potenzen und Wurzeln
+- Prozentrechnung
+- Quadratische Funktionen
+- Quadratische Gleichungen
+- Rationale Zahlen rechnen
+- Satz des Pythagoras
+- Sinussatz
+- Symmetrie und Abbildungen
+- Terme umformen
+- Trigonometrie im rechtwinkligen Dreieck
+- Volumen und Oberfläche
+- Wahrscheinlichkeit einstufig
+- Wahrscheinlichkeit mehrstufig
+- Zehnerpotenzen und Näherungswerte
+- Zinsrechnung
+- Zuordnungen proportional und antiproportional
+- Zählen und Kombinatorik
+

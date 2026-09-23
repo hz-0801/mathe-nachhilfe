@@ -29,16 +29,19 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `blaetter/` – abgelegte Blätter je Thema und Datum, PDFs und Quelltexte; `blaetter/index.md` ist das Register, abgeleitet.
 - `werkzeuge/einsortieren.py` – durchsucht die Quellordner (Downloads, OneDrive/Downloads, OneDrive/blatt-eingang) nach `*protokoll*.zip`, schreibt `blaetter/` und den Index; nach jedem neuen Archiv ausführen.
 
-## msa/ – P10 Mathematik, Brandenburg, Oberschule/Gesamtschule, Niveau FOR
+## msa/ – P10 Mathematik, Brandenburg, Oberschule/Gesamtschule (Niveau FOR) und Gymnasium
 
 - `msa.md` – vor dem Erfassen: Kürzel, Leitideen, Themenliste, Besonderheiten; bei Widerspruch zum Kern gilt es.
 - `msa-pruefungen.md` – welches Heft als Nächstes dran ist, wo die Hefte liegen, was je Heft geschah.
 - `msa-quellen.md` – Jahresseite, Serverdateien je papier-Kürzel, Heftordner `hefte/msa/` (lokal), Dateien ohne Katalogeintrag.
-- `msa-typen.csv` – Typen suchen, vergleichen, anlegen; wächst nur über das Bau-Skript.
-- `msa-katalog-basis.csv`, `msa-katalog-kontext.csv` – der Katalog (Basisaufgaben, Kontextaufgaben); nie von Hand ändern.
-- `msa-bau.py` – Heft erfassen oder Bestand prüfen (leeres ZEILEN = Selbstprüfung).
+- `msa-typen.csv` – Typen suchen, vergleichen, anlegen; wächst nur über das Bau-Skript; gilt für OS/EBR/FOR und GYM gemeinsam.
+- `msa-katalog-basis.csv`, `msa-katalog-kontext.csv` – der Katalog für OS/EBR/FOR (Basisaufgaben, Kontextaufgaben); nie von Hand ändern.
+- `msa-katalog-gym.csv` – der Katalog für Papier GYM (Gymnasium, beide Blöcke in einer Datei, Feld block trennt sie); nie von Hand ändern.
+- `msa-bau.py` – Heft erfassen oder Bestand prüfen (leeres ZEILEN = Selbstprüfung); deckt OS/EBR/FOR und GYM ab.
 - `msa-vorgaben.md` – jährlicher Vorgabencheck, Formatwechsel 2028.
 - `msa-ertrag.md`, `msa-ertrag.csv` – Ertrag je Typ, Sortiergröße, Verteilung für die Schwelle „selten“; abgeleitet von `werkzeuge/ertrag.py`, nie von Hand ändern.
+- `gym-stand.md` – Stand der GYM-Erfassung je Jahrgang (2014–2025), Befunde je Heft.
+- `gym-vergleich.md` – Vergleich der Typen- und Themenverwendung GYM gegen OS/EBR/FOR; abgeleitet von `werkzeuge/gym-vergleich.py`, nie von Hand ändern.
 
 ## fhr/ – Fachhochschulreife Mathematik, Brandenburg
 
@@ -274,7 +277,8 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `tragfaehigkeit.py` – zählt je Eintrag von `katalog/` die Verweise `<name>.md` im Abschnitt „Voraussetzungen (Blatt 0)“ und schreibt `katalog/_tragfaehigkeit.md` (Nachfrage je Thema, Einstiegshürde je Eintrag, Messlücken); nach jeder Änderung an einem Blatt-0-Abschnitt ausführen; `katalog/_pruef_struktur.py` importiert die Zählregel für Kennzahl 7.
 - `verweis-pruef.py` – prüft die Einträge von `katalog/` auf Dateiverweise, Einheitsnummern, Namensgleichheit (mit `themen.csv`, `abitur/abitur-vokabular.md`, den vier `abitur/abi-*-geltung.md`, `msa/msa-typen.csv` und `fhr/fhr-typen.csv`), Gegenrichtung und Formlücke und schreibt `katalog/_verweise.md`; Lesarten für Blatt 0, Verweisform und Wortform aus `tragfaehigkeit.py` importiert, die Themenliste aus `themen-pruef.py`; nach jeder Katalogänderung ausführen; `katalog/_pruef_struktur.py` importiert die Zählregel für Kennzahl 8.
 - `blatt0-belege.py` – sammelt je Eintrag von `katalog/` die Fertigkeitszeilen des Abschnitts „Voraussetzungen (Blatt 0)“ (vor der Zwischenzeile „Erkennungsschritte…“) ohne Verweis `<name>.md` auf einen anderen Eintrag, zerlegt ihre Quellenklammer in Bestandteile (sechs Sorten) und löst sie gegen `msa/msa-typen.csv`, die msa-Kataloge, `themen.csv`, den LS-AA-Fahrplan und den RLP-Text in `quellen/` sowie die Registerzeile [MSK] in `katalog/_quellen.md` auf; schreibt `katalog/_blatt0-belege.md`; Lesarten für Blatt 0 und Verweisform aus `tragfaehigkeit.py` importiert; Gegenprobe im Skript (22 Einträge des Auftrags: 147/131/16 seit v0.2, sonst wird nichts geschrieben – ändert ein Auftrag die Aufteilung, wird sie nachgezogen); nach jeder Änderung an einem Blatt-0-Abschnitt ausführen; `katalog/_pruef_struktur.py` importiert die Zählregel für Kennzahl 9.
-- `ertrag.py` – zählt je Typ aus `msa/msa-typen.csv` Haupt- und Nebenzeilen, Jahrgänge, Punkte, block und niveau_geschaetzt sowie das Mittel von schritte aus den msa-Katalogen und schreibt `msa/msa-ertrag.csv` und `msa/msa-ertrag.md` (Ertrag als Sortiergröße, Verteilung als Hilfe für die Schwelle „selten“); Gegenprobe im Skript; nach jeder Änderung an den msa-Katalogen oder an `msa-typen.csv` ausführen.
+- `ertrag.py` – zählt je Typ aus `msa/msa-typen.csv` Haupt- und Nebenzeilen, Jahrgänge, Punkte, block und niveau_geschaetzt sowie das Mittel von schritte aus den msa-Katalogen und schreibt `msa/msa-ertrag.csv` und `msa/msa-ertrag.md` (Ertrag als Sortiergröße, Verteilung als Hilfe für die Schwelle „selten“); Gegenprobe im Skript; nach jeder Änderung an den msa-Katalogen oder an `msa-typen.csv` ausführen; liest nur `msa-katalog-basis.csv`/`msa-katalog-kontext.csv`, nicht `msa-katalog-gym.csv`.
+- `gym-vergleich.py` – vergleicht Typen- und Themenverwendung (Haupttyp) zwischen `msa-katalog-gym.csv` und den Papieren OS/EBR/FOR und schreibt `msa/gym-vergleich.md` (je drei Zahlen/Listen: nur GYM, nur OS/EBR/FOR, in beiden); nach jeder Änderung an `msa-katalog-gym.csv` oder den OS/EBR/FOR-Katalogen ausführen.
 
 ## archiv/ – eingefroren
 
