@@ -37,7 +37,7 @@ Hefte Gymnasium (papier GYM), seit 23.09.2026 Bestand (konzept.md Entscheidung 1
 |---|---|---|---|---|---|---|
 | 2014 | 14_P10_Gym_Ma_A_Set1.pdf | GYM | 7 | 135 | 50 | erfasst 2026-09-23, 21 Zeilen (9 Basis, 12 Kontext) |
 | 2015 | 15_P10_Ma_Gym_A.pdf | GYM | 7 | 135 | 50 | erfasst 2026-09-23, 24 Zeilen (10 Basis, 14 Kontext) |
-| 2016 | 16_P10_Gym_Ma_A.pdf | GYM | 11 | 135 | 50 | – |
+| 2016 | 16_P10_Gym_Ma_A.pdf | GYM | 11 | 135 | 50 | erfasst 2026-09-23, 25 Zeilen (10 Basis, 15 Kontext) |
 | 2017 | 17_P10_Ma_Gym_A.pdf | GYM | 11 | 135 | 50 | – |
 | 2018 | 18_P10_Ma_Gym_A.pdf | GYM | 11 | 135 | 50 | – |
 | 2019 | 19_P10_Ma_Gym_A_1.pdf, 19_P10_Ma_Gym_A_2.pdf | GYM | 3+9 | 135 | 50 | – |
@@ -53,6 +53,7 @@ Katalogdatei msa-katalog-gym.csv (beide Blöcke, Feld block trennt sie); Quelle 
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-23 (Auftrag Gymnasialhefte): Heft 2016 GYM erfasst (25 Zeilen: 10 Basis, 15 Kontext; 11 Typen neu). Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2015 GYM erfasst (24 Zeilen: 10 Basis, 14 Kontext; 8 Typen neu, davon erste unter Thema „Trigonometrische Funktionen"). Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Tabelle „Hefte Gymnasium" (§ 2) angelegt, papier GYM, Entscheidung 18 erweitert; Heft 2014 GYM erfasst (21 Zeilen: 9 Basis, 12 Kontext; 14 Typen neu). Kataloge OS/EBR/FOR unverändert.
 - 2026-09-18 (Auftrag O, Punkt 2): msa-quellen.md angelegt (Quelle, Jahresseite, Serverdateien je papier-Kürzel, lokaler Heftordner hefte/msa/ mit Erfassungsstand; Dateien ohne Katalogeintrag 2026-ebr und 19 Gymnasialhefte ausdrücklich geführt; Zahlen aus befund-quellenbestand-2026-09-18.md); msa.md v0.7 § 2 und README verweisen darauf. Kataloge unverändert.

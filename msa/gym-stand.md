@@ -11,7 +11,7 @@ Skript: erledigt (msa-bau.py v0.3, msa.md v0.8, konzept.md Entscheidung 18; Selb
 |---|---|---|
 | 2014 | 14_P10_Gym_Ma_A_Set1.pdf | erfasst 2026-09-23, 21 Zeilen |
 | 2015 | 15_P10_Ma_Gym_A.pdf | erfasst 2026-09-23, 24 Zeilen |
-| 2016 | 16_P10_Gym_Ma_A.pdf | – |
+| 2016 | 16_P10_Gym_Ma_A.pdf | erfasst 2026-09-23, 25 Zeilen |
 | 2017 | 17_P10_Ma_Gym_A.pdf | – |
 | 2018 | 18_P10_Ma_Gym_A.pdf | – |
 | 2019 | 19_P10_Ma_Gym_A_1.pdf, 19_P10_Ma_Gym_A_2.pdf | – |
@@ -25,3 +25,4 @@ Skript: erledigt (msa-bau.py v0.3, msa.md v0.8, konzept.md Entscheidung 18; Selb
 Befunde:
 - 2014: Aufbau ein Heft, 5 Aufgaben (Basisaufgaben 10 P, vier Kontextaufgaben 10/8/10/12 P), 50 BE, 135 min; 14 neue Typen. Unsicher: B1e (Spannweiten-Ergänzung, Richtung Maximum/Minimum nicht eindeutig). Thema „Sinussatz" ersatzweise für den Kosinussatz verwendet (K5b) – Themenlücke, siehe Bericht.
 - 2015: Aufbau ein Heft, 5 Aufgaben (10/11/10/10/9 P), 50 BE, 135 min; 8 neue Typen (u. a. erste Zeilen unter Thema „Trigonometrische Funktionen"). Kugelzahl in B1a (drei Töpfe, 50-%-Wahrscheinlichkeit) durch Auszählen der Vektorgrafik bestimmt (6 Kugeln je Topf, nicht 5 wie beim ersten visuellen Blick – Fundstelle im Bericht). Kosinussatz erneut ersatzweise unter „Sinussatz" (K5a). Keine unsicheren Zeilen.
+- 2016: Aufbau ein Heft, 5 Aufgaben (10/12/9/10/9 P), 50 BE, 135 min; 11 neue Typen. Deckfläche im Würfelnetz (B1j) durch Falt-Simulation (Abrollen) bestimmt, nicht durch Augenschein. Begründung „genau ein Schnittpunkt" (K2d, Parabel/Exponentialfunktion) numerisch statt mit Schulmitteln streng geführt – Grenzfall der Erfassbarkeit, im Bericht vermerkt. Keine unsicheren Zeilen.
