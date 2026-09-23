@@ -42,6 +42,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `msa-ertrag.md`, `msa-ertrag.csv` – Ertrag je Typ, Sortiergröße, Verteilung für die Schwelle „selten“; abgeleitet von `werkzeuge/ertrag.py`, nie von Hand ändern.
 - `gym-stand.md` – Stand der GYM-Erfassung je Jahrgang (2014–2025), Befunde je Heft.
 - `gym-vergleich.md` – Vergleich der Typen- und Themenverwendung GYM gegen OS/EBR/FOR; abgeleitet von `werkzeuge/gym-vergleich.py`, nie von Hand ändern.
+- `gym-bericht-2026-09.md` – Abschlussbericht des Auftrags Gymnasialhefte (23.09.2026): Punktprüfung, neue Typen und Befunde je Heft, Vergleichszahlen, selbst getroffene Entscheidungen.
 
 ## fhr/ – Fachhochschulreife Mathematik, Brandenburg
 
