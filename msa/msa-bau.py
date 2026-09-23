@@ -58,12 +58,12 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2021",
+    "jahr": "2022",
     "papier": "GYM",     # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM (msa.md § 4)
     "datei": "",         # zweiteiliges Heft ab 2019, siehe "dateien"
-    "dateien": ["21_P10_Ma_Gym_A1.pdf", "21_P10_Ma_Gym_A2.pdf"],
+    "dateien": ["22_P10_Ma_Gym_Aufgaben_1_und_2.pdf", "22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf"],
     "seiten": {"Basis": 3, "Kontext": 9},  # eigene Fußzeile je Teildatei (msa.md § 3)
-    "soll": {"1": 5, "2": 5, "3": 11, "4": 10, "5": 10, "6": 9},
+    "soll": {"1": 5, "2": 5, "3": 11, "4": 12, "5": 9, "6": 8},
     "soll_gesamt": 50,
 }
 
@@ -88,284 +88,301 @@ def row(**kw):
 
 # Neue Typen: (typ, leitidee, thema, definition, beispiel_id)
 NEUE_TYPEN = [
-    ("Aussage über eine mehrfach gebrochene Streckenteilung prüfen", "Zahlen und Operationen",
-     "Rationale Zahlen rechnen",
-     "Eine Aussage über das schrittweise Zurücklegen von Bruchteilen einer Gesamtstrecke (z. B. zuerst "
-     "ein Drittel, dann ein Viertel des Rests) durch Nachrechnen als wahr oder falsch prüfen.",
-     "2021-GYM-B1b"),
-    ("Trapezfläche im Koordinatensystem aus Funktionsgraph und Geraden berechnen", "Raum und Form",
-     "Ebene Figuren und Winkel",
-     "Flächeninhalt eines von beiden Koordinatenachsen, einer Geraden und einer Parallelen zur y-Achse "
-     "begrenzten Trapezes berechnen, dessen parallele Seiten die y-Achsenabschnitte zweier Punkte sind.",
-     "2021-GYM-K3c"),
-    ("Vieleck aus Seiten und Winkeln im Maßstab konstruieren", "Raum und Form", "Kongruenz und Konstruktion",
-     "Ein Vieleck aus einer Folge gegebener Seitenlängen und eingeschlossener Winkel im vorgegebenen "
-     "Maßstab konstruieren.",
-     "2021-GYM-K4a"),
-    ("Flächenberechnung eines Vielecks anhand einer vorgegebenen Gleichung erläutern", "Raum und Form",
-     "Ebene Figuren und Winkel",
-     "Eine vorgegebene Gleichung zur Flächenberechnung eines zusammengesetzten Vielecks als Summe eines "
-     "Rechtecks und eines über den Satz des Pythagoras bestimmten Dreiecks erläutern.",
-     "2021-GYM-K4d"),
-    ("Formel für die Tiefe eines Kegels aus Durchmesser und Öffnungswinkel herleiten", "Größen und Messen",
-     "Trigonometrie im rechtwinkligen Dreieck",
-     "Eine Formel für die Tiefe eines kegelförmigen Gefäßes aus dem oberen Durchmesser und dem "
-     "Öffnungswinkel über ein rechtwinkliges Teildreieck (halber Durchmesser, halber Öffnungswinkel) "
-     "herleiten und begründen.",
-     "2021-GYM-K5a"),
-    ("Länge auf der Mantellinie eines Kegels bei Teilfüllung über Ähnlichkeit bestimmen", "Raum und Form",
-     "Ähnlichkeit und Strahlensätze",
-     "Bei teilweiser Füllung eines kegelförmigen Gefäßes die Lage einer Füllstandsmarkierung entlang der "
-     "Mantellinie aus der Füllhöhe über die Ähnlichkeit von großem und kleinem Kegel bestimmen.",
-     "2021-GYM-K5b"),
+    ("Kantensumme eines Quaders mit Seitenlängen in Abhängigkeit von der Höhe berechnen",
+     "Größen und Messen", "Volumen und Oberfläche",
+     "Gesamtlänge aller Kanten eines Quaders berechnen, dessen beide Grundkanten als Differenz bzw. "
+     "Summe eines gegebenen Wertes mit der Höhe beschrieben sind.",
+     "2022-GYM-B1a"),
+    ("Term mit Klammern und Potenzen vereinfachen", "Zahlen und Operationen", "Terme umformen",
+     "Einen Term mit mehreren Klammern, darunter eine binomische Formel, ausmultiplizieren und so weit "
+     "wie möglich zusammenfassen.",
+     "2022-GYM-B2b"),
+    ("Parabeltransformation gegenüber der Normalparabel beschreiben", "Gleichungen und Funktionen",
+     "Quadratische Funktionen",
+     "Anhand des Graphen beschreiben, durch welche Verschiebung (und ggf. Streckung) eine Parabel aus der "
+     "Normalparabel y = x² entstanden ist.",
+     "2022-GYM-K3a"),
+    ("Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen", "Gleichungen und "
+     "Funktionen", "Quadratische Funktionen",
+     "Gleichung einer Parabel in Produktform p(x) = a·(x−x1)·(x−x2) aus dem Graphen und zwei vermuteten "
+     "Nullstellen aufstellen und die Nullstellen durch Einsetzen bestätigen.",
+     "2022-GYM-K3b"),
+    ("Durchmesser einer Halbkugel aus der Oberfläche berechnen", "Größen und Messen",
+     "Volumen und Oberfläche",
+     "Durchmesser oder Radius einer Halbkugel durch Umstellen der Oberflächenformel O = 2·π·r² aus der "
+     "gegebenen Oberfläche berechnen.",
+     "2022-GYM-K4a"),
+    ("Kegelhöhe aus Mantellinie und Radius berechnen", "Größen und Messen", "Satz des Pythagoras",
+     "Höhe eines Kegels aus der Mantellinie und dem Radius über den Satz des Pythagoras berechnen "
+     "(Umkehrung zu „Mantellinie Kegel bestimmen“).",
+     "2022-GYM-K4b"),
+    ("Farbmenge aus Fläche und Ergiebigkeit berechnen", "Größen und Messen", "Einheiten umrechnen",
+     "Benötigte Menge eines Anstrichmittels aus einer zu streichenden Fläche und der Ergiebigkeit einer "
+     "gegebenen Menge je Fläche berechnen, für mehrere gleiche Stücke, und daraus die Anzahl benötigter "
+     "Gebinde (aufgerundet) bestimmen.",
+     "2022-GYM-K4c"),
+    ("Volumen eines aus Kegel und Halbkugel zusammengesetzten Körpers mit Nebenbedingung berechnen",
+     "Größen und Messen", "Volumen und Oberfläche",
+     "Volumen eines aus Kegel und Halbkugel gleicher Grundfläche zusammengesetzten Körpers berechnen, "
+     "dessen Maße durch eine zusätzliche Bedingung (Durchmesser gleich Gesamthöhe) aneinander gekoppelt "
+     "sind, durch Aufstellen und Lösen einer Gleichung in einer Variablen.",
+     "2022-GYM-K4d"),
+    ("Streckenlänge über ein konstruiertes Parallelogramm im Vieleck begründen", "Raum und Form",
+     "Kongruenz und Konstruktion",
+     "Länge einer Strecke in einem Vieleck begründen, indem sie als Gegenseite in einem aus einer "
+     "gegebenen Parallelität und einem Streckenmittelpunkt gebildeten Parallelogramm erkannt und daher "
+     "gleich der bekannten gegenüberliegenden Seite gesetzt wird.",
+     "2022-GYM-K5b"),
+    ("Prozentuale Abweichung einer Modellfläche von der tatsächlichen Fläche berechnen",
+     "Zahlen und Operationen", "Prozentrechnung",
+     "Fläche eines aus Teilflächen zusammengesetzten Modells mit der tatsächlichen Fläche vergleichen und "
+     "die Abweichung in Prozent der tatsächlichen Fläche angeben.",
+     "2022-GYM-K5c"),
 ]
 
-row(id="2021-GYM-B1a", block="Basis", aufgabe="1", titel="", teilaufgabe="a", seite="2",
-    punkte="2", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Lineare Gleichungen",
-    typ="Lineare Gleichung lösen",
-    stichwoerter="Klammer|Gleichung|lösen", format="Rechnung", operator="Lösen Sie", antwort="Zahl",
+row(id="2022-GYM-B1a", block="Basis", aufgabe="1", titel="", teilaufgabe="a", seite="2",
+    punkte="3", hilfsmittel="nein", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Kantensumme eines Quaders mit Seitenlängen in Abhängigkeit von der Höhe berechnen",
+    stichwoerter="Quader|Kantensumme|Höhe", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
     material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Gleichung 2x + 4·(−5 − 3x) = −(x + 2)",
-    gesucht="Lösung x",
-    verfahren="Klammern auflösen: 2x − 20 − 12x = −x − 2; zusammenfassen: −10x − 20 = −x − 2; nach x "
-              "auflösen", schritte="3", zahlenraum="negativ", ergebnis="x = −2", niveau_geschaetzt="II",
-    fehlerquelle="beim Ausmultiplizieren von 4·(−5 − 3x) ein Vorzeichen vergessen")
+    gegeben="Quader mit Höhe h; eine Grundkante ist 2 m kürzer, die andere 1 m länger als h; hier h = 5 m",
+    gesucht="Gesamtlänge aller Kanten des Quaders",
+    verfahren="Grundkanten: 5−2=3 m und 5+1=6 m; Kantensumme = 4·(3+6+5)", schritte="2",
+    zahlenraum="ganz", einheiten="m", ergebnis="56 m", niveau_geschaetzt="II",
+    fehlerquelle="nur eine der drei verschiedenen Kantenlängen statt aller drei vierfach zählen")
 
-row(id="2021-GYM-B1b", block="Basis", aufgabe="1", titel="", teilaufgabe="b", seite="2",
-    punkte="3", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Rationale Zahlen rechnen",
-    typ="Aussage über eine mehrfach gebrochene Streckenteilung prüfen",
-    stichwoerter="Radtour|Bruchteil vom Rest|Aussage prüfen", format="Begründung", operator="Überprüfen Sie",
-    antwort="Text", material="keins", skizze="keine", kontext="Freizeit/Sport", textumfang="mittel",
-    gegeben="Radtour von 60 km Länge; Aussage: nach einem Drittel der Strecke Pause, danach nur noch ein "
-            "Viertel vom Rest fahren, dann sei bereits die Hälfte der Gesamtstrecke geschafft",
-    gesucht="Wahrheitsgehalt der Aussage",
-    verfahren="ein Drittel von 60 km = 20 km; Rest = 40 km; ein Viertel vom Rest = 10 km; insgesamt "
-              "20 km + 10 km = 30 km; die Hälfte von 60 km ist ebenfalls 30 km", schritte="3",
-    zahlenraum="Bruch", einheiten="km", ergebnis="Aussage ist richtig: 20 km + 10 km = 30 km = die Hälfte "
-             "von 60 km", niveau_geschaetzt="II",
-    fehlerquelle="„ein Viertel vom Rest“ fälschlich als ein Viertel der Gesamtstrecke (15 km) rechnen")
-
-row(id="2021-GYM-B2a", block="Basis", aufgabe="2", titel="", teilaufgabe="a", seite="3",
-    punkte="2", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
-    typ="Geradengleichung aus Steigung und Punkt bestimmen",
-    stichwoerter="Anstieg|Punkt|Geradengleichung", format="Rechnung", operator="Bestimmen Sie",
+row(id="2022-GYM-B1b", block="Basis", aufgabe="1", titel="", teilaufgabe="b", seite="2",
+    punkte="2", hilfsmittel="nein", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Term zu Körper angeben",
+    stichwoerter="Quader|Volumen|Term in Abhängigkeit von h", format="Kurzantwort", operator="Geben Sie an",
     antwort="Term", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Gerade g mit Anstieg m = −2 durch den Punkt P(3|−4)",
-    gesucht="Gleichung der Geraden g",
-    verfahren="−4 = −2·3 + n auflösen: n = 2", schritte="1", zahlenraum="negativ",
-    ergebnis="g(x) = −2x + 2", niveau_geschaetzt="II",
-    fehlerquelle="das Vorzeichen von P beim Einsetzen vertauschen")
+    abhaengig_von="2022-GYM-B1a",
+    gegeben="Quader mit Höhe h, Grundkanten (h−2) und (h+1)",
+    gesucht="Gleichung zur Berechnung des Volumens in Abhängigkeit von h",
+    verfahren="Volumen = Länge mal Breite mal Höhe", schritte="1",
+    ergebnis="V(h) = (h − 2) · (h + 1) · h", niveau_geschaetzt="II",
+    fehlerquelle="die Reihenfolge der Faktoren mit einer der beiden Kantenbeschreibungen vertauschen "
+                 "(z. B. h+2 statt h−2)")
 
-row(id="2021-GYM-B2b", block="Basis", aufgabe="2", titel="", teilaufgabe="b", seite="3",
-    punkte="3", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
-    typ="Lage zweier Geraden bestimmen",
-    stichwoerter="Schnittpunkt|Anstieg vergleichen|Aussage beurteilen", format="Begründung",
-    operator="Beurteilen Sie", antwort="Text", material="keins", skizze="keine", kontext="ohne",
-    textumfang="kurz", abhaengig_von="2021-GYM-B2a",
-    gegeben="Gerade g(x) = −2x + 2 (aus Teilaufgabe a); Gerade h mit h(x) = 5x − 12; Aussage: h schneidet "
-            "g in genau einem Punkt",
-    gesucht="Wahrheitsgehalt der Aussage",
-    verfahren="g und h haben unterschiedliche Anstiege (−2 ≠ 5), also sind sie weder parallel noch "
-              "identisch und schneiden sich in genau einem Punkt; Kontrolle durch Gleichsetzen: "
-              "−2x + 2 = 5x − 12 liefert x = 2, y = −2", schritte="2", zahlenraum="negativ",
-    ergebnis="Aussage ist richtig, Schnittpunkt (2|−2)", niveau_geschaetzt="II",
-    fehlerquelle="ohne Vergleich der Anstiege direkt und unbegründet zustimmen oder widersprechen")
+row(id="2022-GYM-B2a", block="Basis", aufgabe="2", titel="", teilaufgabe="a", seite="3",
+    punkte="2", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Rationale Zahlen rechnen",
+    typ="Termwert berechnen",
+    stichwoerter="Termwert|Klammer|negative Zahlen", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Term (a − 3)² − 2·(a + 4,5) − a mit a = −2",
+    gesucht="Termwert",
+    verfahren="a = −2 einsetzen: (−5)² − 2·2,5 − (−2)", schritte="1", zahlenraum="negativ",
+    ergebnis="22", niveau_geschaetzt="II",
+    fehlerquelle="das Vorzeichen von a beim Einsetzen in (a−3)² oder bei −a vertauschen")
 
-row(id="2021-GYM-K3a", block="Kontext", aufgabe="3", titel="Funktionen", teilaufgabe="a", seite="2",
-    punkte="2", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
-    typ="Wertetabelle als Punkte darstellen",
-    stichwoerter="Exponentialfunktion|Wertetabelle|Graph zeichnen", format="Zeichnen",
-    operator="Zeichnen Sie", antwort="Grafik", material="Tabelle|Koordinatensystem",
-    skizze="Koordinatensystem 0 bis 7 (y) und −2 bis 2,5 (x), Wertetabelle mit f(−2)=1/18, f(−1)=1/6, "
-           "f(0)=0,5, f(1)=1,5, f(2)=4,5", kontext="ohne", textumfang="kurz",
-    gegeben="Funktion f der Form f(x) = 0,5 · a^x mit Wertetabelle für x = −2 bis 2",
-    gesucht="Graph von f mindestens im Intervall −1 ≤ x ≤ 2",
-    verfahren="Wertepaare aus der Tabelle als Punkte eintragen und durch eine Exponentialkurve verbinden",
+row(id="2022-GYM-B2b", block="Basis", aufgabe="2", titel="", teilaufgabe="b", seite="3",
+    punkte="3", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Terme umformen",
+    typ="Term mit Klammern und Potenzen vereinfachen",
+    stichwoerter="binomische Formel|Klammern auflösen|zusammenfassen", format="Rechnung",
+    operator="Lösen Sie die Klammern auf und fassen Sie zusammen", antwort="Term", material="keins",
+    skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Term (a − 3)² − 2·(a + 4,5) − a",
+    gesucht="vereinfachter Term",
+    verfahren="binomische Formel: (a−3)² = a² − 6a + 9; Klammer auflösen: −2·(a+4,5) = −2a − 9; "
+              "zusammenfassen: a² − 6a + 9 − 2a − 9 − a", schritte="2",
+    ergebnis="a² − 9a", niveau_geschaetzt="III",
+    fehlerquelle="beim Anwenden der binomischen Formel das mittlere Glied −6a vergessen")
+
+row(id="2022-GYM-K3a", block="Kontext", aufgabe="3", titel="Quadratische Funktionen", teilaufgabe="a",
+    seite="2", punkte="2", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Parabeltransformation gegenüber der Normalparabel beschreiben",
+    stichwoerter="Normalparabel|Verschiebung|Scheitelpunkt", format="Begründung", operator="Beschreiben Sie",
+    antwort="Text", material="Koordinatensystem",
+    skizze="Parabel p mit Scheitelpunkt bei etwa (2,5|−1), Nullstellen bei 1,5 und 3,5, gleich weit "
+           "geöffnet wie die Normalparabel", kontext="ohne", textumfang="kurz",
+    gegeben="Graph der Parabel p mit Scheitelpunkt bei (2,5|−1)",
+    gesucht="Beschreibung der Entstehung von p aus der Normalparabel",
+    verfahren="Vergleich der Öffnung (gleich weit wie die Normalparabel) und der Lage des Scheitelpunkts",
     schritte="1",
-    ergebnis="steigende Exponentialkurve durch (−1|1/6), (0|0,5), (1|1,5), (2|4,5)",
-    niveau_geschaetzt="I", fehlerquelle="Punkte linear statt exponentiell gekrümmt verbinden")
-
-row(id="2021-GYM-K3b", block="Kontext", aufgabe="3", titel="Funktionen", teilaufgabe="b", seite="2",
-    punkte="4", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
-    typ="Wachstumsfaktor aus Tabelle bestimmen", typ_neben="Punktprobe durchführen",
-    stichwoerter="Wachstumsfaktor|Quotient|Punktprobe", format="Rechnung|Rechnung",
-    operator="Zeigen Sie rechnerisch|Prüfen Sie rechnerisch", antwort="Text|Text", material="Tabelle",
-    skizze="keine", kontext="ohne", textumfang="kurz", abhaengig_von="2021-GYM-K3a",
-    gegeben="f(x) = 0,5 · a^x mit f(0) = 0,5 und f(1) = 1,5; Punkt Q(3,5|40,5)",
-    gesucht="Nachweis a = 3 anhand zweier Wertepaare; ob Q auf dem Graphen von f liegt",
-    verfahren="f(1) : f(0) = 1,5 : 0,5 = 3 = a; Punktprobe: f(3,5) = 0,5 · 3^3,5 ≈ 23,38 ≠ 40,5",
-    schritte="2", zahlenraum="dezimal",
-    ergebnis="a = 3 bestätigt; Q gehört nicht zum Graphen (f(3,5) ≈ 23,38 ≠ 40,5)",
-    niveau_geschaetzt="III",
-    fehlerquelle="bei der Punktprobe den x-Wert 3,5 als 3 oder 4 runden statt mit dem gebrochenen "
-                 "Exponenten zu rechnen")
-
-row(id="2021-GYM-K3c", block="Kontext", aufgabe="3", titel="Funktionen", teilaufgabe="c", seite="3",
-    punkte="5", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
-    typ="Geradengleichung aus zwei Punkten",
-    typ_neben="Trapezfläche im Koordinatensystem aus Funktionsgraph und Geraden berechnen",
-    stichwoerter="Geradengleichung|Trapez|Flächeninhalt", format="Rechnung|Ankreuzen|Rechnung",
-    operator="Ermitteln Sie|Kennzeichnen Sie|Berechnen Sie", antwort="Term|Kreuz|Zahl",
-    material="Koordinatensystem", skizze="Koordinatensystem mit den Punkten A(0|0,5) und B(2|4,5) sowie "
-             "der Geraden x=2; die begrenzte Fläche liegt zwischen den Achsen, der Geraden g und x=2",
-    kontext="ohne", textumfang="mittel",
-    gegeben="Gerade g schneidet den Graphen von f in A(0|0,5) und B(2|4,5)",
-    gesucht="Funktionsgleichung von g; Flächeninhalt der von beiden Achsen, g und der Geraden x=2 "
-            "begrenzten Fläche",
-    verfahren="Anstieg m = (4,5−0,5):(2−0) = 2, y-Achsenabschnitt aus A: n = 0,5, also g(x) = 2x + 0,5; "
-              "die Fläche ist ein Trapez mit den parallelen Seiten 0,5 (bei x=0) und 4,5 (bei x=2) und der "
-              "Breite 2: A = 0,5 · (0,5 + 4,5) · 2", schritte="2", zahlenraum="dezimal", einheiten="FE",
-    ergebnis="g(x) = 2x + 0,5; Flächeninhalt = 5 FE", niveau_geschaetzt="III",
-    fehlerquelle="die Fläche als Dreieck statt als Trapez auffassen und nur mit einer der beiden "
-                 "parallelen Seiten rechnen")
-
-row(id="2021-GYM-K4a", block="Kontext", aufgabe="4", titel="Jugendclub", teilaufgabe="a", seite="4",
-    punkte="3", leitidee="Raum und Form", thema="Kongruenz und Konstruktion",
-    typ="Vieleck aus Seiten und Winkeln im Maßstab konstruieren",
-    stichwoerter="Fünfeck|Grundstück|Maßstab|Konstruktion", format="Konstruieren", operator="Konstruieren Sie",
-    antwort="Grafik", material="Figur",
-    skizze="Fünfeck ABCDE: A und B unten mit rechten Winkeln (Punktmarkierung), AB = 30 m, BC = 30 m "
-           "(senkrecht), Innenwinkel bei C = 155°, CD = 35 m, Innenwinkel bei D = 63°, DE = 25 m, Seite EA "
-           "schließt das Fünfeck; nicht maßstabsgerecht",
-    kontext="Bauwesen", textumfang="mittel",
-    gegeben="Fünfeck ABCDE mit AB = 30 m, rechten Winkeln bei A und B, BC = 30 m, Innenwinkel bei C = "
-            "155°, CD = 35 m, Innenwinkel bei D = 63°, DE = 25 m",
-    gesucht="Konstruktion des Grundstücks im Maßstab 1:500",
-    verfahren="AB als Strecke von 6 cm (30 m im Maßstab 1:500) zeichnen, an A und B rechte Winkel "
-              "antragen, BC = 6 cm senkrecht abtragen, bei C den Winkel 155° antragen und CD = 7 cm "
-              "abtragen, bei D den Winkel 63° antragen und DE = 5 cm abtragen, E mit A verbinden",
-    schritte="5", zahlenraum="dezimal", einheiten="m|cm",
-    ergebnis="maßstabsgerechte Konstruktion des Fünfecks (Seiten im Maßstab 1:500: 6 cm, 6 cm, 7 cm, 5 cm)",
+    ergebnis="p entsteht aus der Normalparabel durch Verschiebung um 2,5 nach rechts und 1 nach unten",
     niveau_geschaetzt="II",
-    fehlerquelle="einen der beiden rechten Winkel bei A oder B auslassen oder die Winkel bei C und D "
-                 "seitenverkehrt antragen")
+    fehlerquelle="zusätzlich eine Streckung oder Stauchung behaupten, obwohl die Parabel gleich weit "
+                 "geöffnet ist wie die Normalparabel")
 
-row(id="2021-GYM-K4b", block="Kontext", aufgabe="4", titel="Jugendclub", teilaufgabe="b", seite="5",
-    punkte="3", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
-    typ="Flächeninhalt Dreieck berechnen",
-    stichwoerter="Liegewiese|Rasensamen|Dreiecksfläche", format="Begründung", operator="Prüfen Sie",
-    antwort="Text", material="keins", skizze="keine", kontext="Bauwesen", textumfang="mittel",
-    abhaengig_von="2021-GYM-K4a",
-    gegeben="Dreieck CDE mit CD = 35 m, DE = 25 m, Innenwinkel bei D = 63°; acht Tüten Samen, eine Tüte "
-            "reicht für 50 m²",
-    gesucht="ob acht Tüten für die Fläche CDE ausreichen",
-    verfahren="A(CDE) = 0,5 · CD · DE · sin(63°); Vergleich mit 8 · 50 m² = 400 m²", schritte="2",
-    zahlenraum="dezimal", einheiten="m²",
-    ergebnis="A(CDE) ≈ 389,8 m² ≤ 400 m², die acht Tüten reichen aus", niveau_geschaetzt="III",
-    fehlerquelle="den Winkel bei D nicht in die Flächenformel für ein allgemeines Dreieck einbeziehen und "
-                 "stattdessen CD · DE rechnen")
+row(id="2022-GYM-K3b", block="Kontext", aufgabe="3", titel="Quadratische Funktionen", teilaufgabe="b",
+    seite="2", punkte="4", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen",
+    stichwoerter="Produktform|Nullstellen|Nachweis", format="Rechnung|Rechnung",
+    operator="Geben Sie an|Zeigen Sie", antwort="Term|Text", material="Koordinatensystem",
+    skizze="wie 2022-GYM-K3a", kontext="ohne", textumfang="kurz", abhaengig_von="2022-GYM-K3a",
+    gegeben="Graph der Parabel p mit Nullstellen bei x = 1,5 und x = 3,5, Öffnungsfaktor 1 (wie "
+            "Normalparabel)",
+    gesucht="Gleichung von p; Nachweis, dass 1,5 und 3,5 Nullstellen von p sind",
+    verfahren="Produktform p(x) = 1·(x−1,5)·(x−3,5) ausmultiplizieren; Nachweis durch Einsetzen von "
+              "x=1,5 und x=3,5 in p(x) = 0 oder in die Produktform", schritte="2", zahlenraum="dezimal",
+    ergebnis="p(x) = x² − 5x + 5,25; p(1,5) = 0 und p(3,5) = 0 bestätigt", niveau_geschaetzt="II",
+    fehlerquelle="den Öffnungsfaktor nicht aus dem Vergleich mit der Normalparabel übernehmen, sondern "
+                 "willkürlich setzen")
 
-row(id="2021-GYM-K4c", block="Kontext", aufgabe="4", titel="Jugendclub", teilaufgabe="c", seite="6",
-    punkte="2", leitidee="Größen und Messen", thema="Sinussatz",
-    typ="Seite im allgemeinen Dreieck über Kosinussatz berechnen",
-    stichwoerter="Kosinussatz|Diagonale|Kontrollergebnis", format="Rechnung", operator="Zeigen Sie rechnerisch",
-    antwort="Text", material="keins", skizze="keine", kontext="Bauwesen", textumfang="kurz",
-    abhaengig_von="2021-GYM-K4a",
-    gegeben="Dreieck CDE mit CD = 35 m, DE = 25 m, Innenwinkel bei D = 63°",
-    gesucht="Nachweis EC ≈ 32,5 m",
-    verfahren="Kosinussatz: EC² = CD² + DE² − 2·CD·DE·cos(63°)", schritte="1", zahlenraum="dezimal",
-    einheiten="m", ergebnis="EC ≈ 32,49 m ≈ 32,5 m", niveau_geschaetzt="II",
-    fehlerquelle="den Kosinussatz mit einem falschen Winkel (z. B. 155° statt 63°) ansetzen")
+row(id="2022-GYM-K3c", block="Kontext", aufgabe="3", titel="Quadratische Funktionen", teilaufgabe="c",
+    seite="3", punkte="5", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Parabelgleichung aus Scheitel und Punkt bestimmen",
+    stichwoerter="Scheitelpunkt auf y-Achse|Schnittpunkt|Parameter a und c", format="Rechnung|Zeichnen",
+    operator="Ermitteln Sie|Zeichnen Sie", antwort="Zahl|Grafik", material="Koordinatensystem",
+    skizze="Koordinatensystem −2 bis 2 für die Parabel h", kontext="ohne", textumfang="kurz",
+    abhaengig_von="2022-GYM-K3b",
+    gegeben="Parabel h(x) = a·x² + c mit Scheitelpunkt Sy(0|−4,5) und Schnittpunkt mit p bei Sx(1,5|0)",
+    gesucht="Werte für a und c; Graph von h mindestens im Intervall −2 ≤ x ≤ 2",
+    verfahren="Scheitelpunkt auf der y-Achse liefert c = −4,5 direkt; Einsetzen von Sx: a·1,5² − 4,5 = 0 "
+              "nach a auflösen", schritte="2", zahlenraum="dezimal",
+    ergebnis="a = 2, c = −4,5, also h(x) = 2x² − 4,5", niveau_geschaetzt="III",
+    fehlerquelle="c mit dem y-Wert von Sx statt mit dem Scheitelpunkt Sy bestimmen")
 
-row(id="2021-GYM-K4d", block="Kontext", aufgabe="4", titel="Jugendclub", teilaufgabe="d", seite="6",
-    punkte="2", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
-    typ="Flächenberechnung eines Vielecks anhand einer vorgegebenen Gleichung erläutern",
-    stichwoerter="Vielecksfläche|Rechteck plus Dreieck|Satz des Pythagoras", format="Begründung",
-    operator="Erläutern Sie", antwort="Text", material="keins", skizze="keine", kontext="Bauwesen",
-    textumfang="mittel", abhaengig_von="2021-GYM-K4c",
-    gegeben="Gleichung A(ABCE) = 30 · 30 + 0,5 · 30 · √(32,5² − 30²) zur Berechnung der Fläche ABCE",
-    gesucht="Erläuterung des dargestellten Vorgehens",
-    verfahren="Die Fläche ABCE wird zerlegt in das Quadrat ABC X (X senkrecht über A auf Höhe von C, "
-              "Seitenlänge 30 m, da AB = BC = 30 m und die Winkel bei A und B rechte Winkel sind) und das "
-              "Dreieck XCE darüber; dessen Höhe wird über den Satz des Pythagoras aus der Diagonale EC "
-              "(≈32,5 m) und der Grundseite XC = 30 m als Kathete berechnet: √(32,5² − 30²) = 12,5 m",
-    schritte="2", zahlenraum="dezimal", einheiten="m|m²",
-    ergebnis="Zerlegung in Quadrat 30 m × 30 m plus Dreieck mit Grundseite 30 m und über Pythagoras aus "
-             "EC und der Kathete 30 m berechneter Höhe 12,5 m", niveau_geschaetzt="III",
-    fehlerquelle="√(32,5² − 30²) als einfache Differenz 32,5 − 30 statt über den Satz des Pythagoras "
-                 "deuten")
+row(id="2022-GYM-K4a", block="Kontext", aufgabe="4", titel="Boje", teilaufgabe="a", seite="4",
+    punkte="2", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Durchmesser einer Halbkugel aus der Oberfläche berechnen",
+    stichwoerter="Halbkugel|Oberfläche|Durchmesser", format="Rechnung", operator="Zeigen Sie rechnerisch",
+    antwort="Text", material="Figur",
+    skizze="Querschnitt einer Boje: Halbkugel oben mit Durchmesser d, darunter ein Kegel mit "
+           "Mantellinie s=1,9 m, Gesamthöhe h; nicht maßstabsgerecht", kontext="Technik", textumfang="kurz",
+    gegeben="Oberfläche des halbkugelförmigen Teils der Boje 2,26 m²",
+    gesucht="Nachweis, dass der Durchmesser der Boje etwa 1,2 m beträgt",
+    verfahren="O = 2·π·r² nach r umstellen: r = √(O:(2π))", schritte="1", zahlenraum="dezimal",
+    einheiten="m", ergebnis="r ≈ 0,60 m, d ≈ 1,2 m", niveau_geschaetzt="II",
+    fehlerquelle="die Oberflächenformel einer ganzen Kugel (4πr²) statt der Halbkugel (2πr²) verwenden")
 
-row(id="2021-GYM-K5a", block="Kontext", aufgabe="5", titel="Messbecher", teilaufgabe="a", seite="7",
-    punkte="5", leitidee="Größen und Messen", thema="Trigonometrie im rechtwinkligen Dreieck",
-    typ="Formel für die Tiefe eines Kegels aus Durchmesser und Öffnungswinkel herleiten",
-    typ_neben="Volumen Kegel berechnen",
-    stichwoerter="Kegel|Öffnungswinkel|Tiefe|Fassungsvermögen", format="Begründung|Rechnung",
-    operator="Begründen Sie|Berechnen Sie", antwort="Text|Zahl", material="Figur",
-    skizze="kegelförmiger Messbecher, Spitze unten, oberer Durchmesser d = 10 cm, Öffnungswinkel α = "
-           "36,8° an der Spitze", kontext="Haushalt", textumfang="mittel",
-    gegeben="kegelförmiger Messbecher mit oberem Durchmesser d = 10 cm und Öffnungswinkel α = 36,8°",
-    gesucht="Begründung für t = (d/2) : tan(α/2); maximales Fassungsvermögen",
-    verfahren="das rechtwinklige Teildreieck aus der halben Kegelachse (Tiefe t), dem halben Durchmesser "
-              "(d/2) und dem halben Öffnungswinkel (α/2) liefert tan(α/2) = (d/2):t, also t = (d/2):tan(α/2); "
-              "Volumen V = 1/3 · π · (d/2)² · t", schritte="2", zahlenraum="dezimal", einheiten="cm|cm³",
-    ergebnis="t ≈ 15,03 cm; V ≈ 393,5 cm³ ≈ 0,39 L", niveau_geschaetzt="III",
-    fehlerquelle="mit dem vollen Öffnungswinkel α statt mit α/2 im rechtwinkligen Teildreieck rechnen")
+row(id="2022-GYM-K4b", block="Kontext", aufgabe="4", titel="Boje", teilaufgabe="b", seite="4",
+    punkte="3", leitidee="Größen und Messen", thema="Satz des Pythagoras",
+    typ="Kegelhöhe aus Mantellinie und Radius berechnen",
+    stichwoerter="Kegelhöhe|Mantellinie|Gesamthöhe", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="Figur", skizze="wie 2022-GYM-K4a", kontext="Technik", textumfang="kurz",
+    abhaengig_von="2022-GYM-K4a",
+    gegeben="Radius r ≈ 0,6 m (aus Teilaufgabe a); Mantellinie des Kegels s = 1,9 m",
+    gesucht="Gesamthöhe der Boje",
+    verfahren="Kegelhöhe über Pythagoras: h_Kegel = √(s² − r²); Gesamthöhe = Halbkugelradius + Kegelhöhe",
+    schritte="2", zahlenraum="dezimal", einheiten="m",
+    ergebnis="h_Kegel ≈ 1,80 m; Gesamthöhe ≈ 0,60 m + 1,80 m ≈ 2,40 m", niveau_geschaetzt="III",
+    fehlerquelle="die Mantellinie s selbst als Kegelhöhe verwenden, ohne den Satz des Pythagoras "
+                 "anzuwenden")
 
-row(id="2021-GYM-K5b", block="Kontext", aufgabe="5", titel="Messbecher", teilaufgabe="b", seite="8",
-    punkte="5", leitidee="Raum und Form", thema="Ähnlichkeit und Strahlensätze",
-    typ="Länge auf der Mantellinie eines Kegels bei Teilfüllung über Ähnlichkeit bestimmen",
-    typ_neben="Mantellinie Kegel bestimmen",
-    stichwoerter="Mantellinie|Ähnlichkeit|Füllhöhe|Markierung", format="Rechnung|Rechnung",
-    operator="Berechnen Sie|Berechnen Sie", antwort="Zahl|Zahl", material="keins",
-    skizze="keine", kontext="Haushalt", textumfang="mittel", abhaengig_von="2021-GYM-K5a",
-    gegeben="Messbecher wie in Teilaufgabe a (d = 10 cm, t ≈ 15,03 cm); 300-ml-Markierung bei Füllhöhe "
-            "13,7 cm [Kontrollergebnis Mantellinie s ≈ 15,8 cm]",
-    gesucht="Länge der Mantellinie s des ganzen Kegels; Entfernung der 300-ml-Markierung entlang der "
-            "Mantellinie vom oberen Rand",
-    verfahren="s = √((d/2)² + t²) ≈ 15,84 cm; der kleine, bis zur Füllhöhe 13,7 cm reichende Kegel ist "
-              "ähnlich zum ganzen Kegel mit dem Streckfaktor 13,7:t; seine Mantellinie (Abstand der "
-              "Markierung von der Spitze) ist s · 13,7/t; der gesuchte Abstand vom oberen Rand ist "
-              "s − s · 13,7/t", schritte="3", zahlenraum="dezimal", einheiten="cm",
-    ergebnis="s ≈ 15,84 cm; Entfernung der 300-ml-Markierung vom oberen Rand ≈ 1,40 cm",
+row(id="2022-GYM-K4c", block="Kontext", aufgabe="4", titel="Boje", teilaufgabe="c", seite="5",
+    punkte="4", leitidee="Größen und Messen", thema="Einheiten umrechnen",
+    typ="Farbmenge aus Fläche und Ergiebigkeit berechnen", typ_neben="Mantelfläche Kegel berechnen",
+    stichwoerter="Rostschutzfarbe|Ergiebigkeit|Kanister", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="keins", skizze="keine", kontext="Technik", textumfang="mittel",
+    abhaengig_von="2022-GYM-K4b",
+    gegeben="250 ml Farbe reichen für 1,3 m²; Mantelfläche des Kegels aus r ≈ 0,6 m und s = 1,9 m; "
+            "50 Bojen; Kanister zu je 5 Liter",
+    gesucht="Anzahl benötigter Kanister für 50 Bojen",
+    verfahren="Mantelfläche M = π·r·s ≈ 3,58 m²; Farbmenge je Boje = M : 1,3 · 250 ml ≈ 688,7 ml; für 50 "
+              "Bojen ≈ 34,4 L; Kanisterzahl = 34,4 : 5, aufgerundet", schritte="4", zahlenraum="dezimal",
+    einheiten="m²|ml|L", ergebnis="≈ 34,44 L insgesamt, davon 7 Kanister zu 5 Litern (aufgerundet)",
     niveau_geschaetzt="III",
-    fehlerquelle="die Füllhöhe direkt von der Mantellinie s abziehen, statt den ähnlichen kleinen Kegel "
-                 "über den Streckfaktor zu berücksichtigen")
+    fehlerquelle="die berechnete Literzahl runden statt aufzurunden, obwohl ein angebrochener Kanister "
+                 "trotzdem vollständig gebraucht wird")
 
-row(id="2021-GYM-K6a", block="Kontext", aufgabe="6", titel="Kugelstoßen", teilaufgabe="a", seite="8",
-    punkte="3", leitidee="Gleichungen und Funktionen", thema="Funktionen allgemein",
-    typ="Punktprobe durchführen", typ_neben="Gleichung im Sachzusammenhang deuten",
-    stichwoerter="Flugbahn|Punktprobe|absolutes Glied|Abwurfhöhe", format="Rechnung|Kurzantwort",
-    operator="Zeigen Sie rechnerisch|Geben Sie an", antwort="Text|Text", material="Tabelle",
-    skizze="keine", kontext="Freizeit/Sport", textumfang="mittel",
-    gegeben="Flugbahn h(x) = −0,4x² + 2,4x + 1,5; Punkt P(2|4,7) aus der Tabelle",
-    gesucht="Nachweis, dass P auf der Flugbahn liegt; Bedeutung des Gliedes c = 1,5",
-    verfahren="h(2) = −0,4·4 + 2,4·2 + 1,5 = −1,6 + 4,8 + 1,5 einsetzen und mit 4,7 vergleichen; c ist der "
-              "Funktionswert bei x = 0, also die Höhe beim Abstoß", schritte="2", zahlenraum="dezimal",
-    einheiten="m", ergebnis="h(2) = 4,7, Punkt bestätigt; c = 1,5 ist die Abwurfhöhe der Kugel über dem "
-             "Boden", niveau_geschaetzt="II",
-    fehlerquelle="c = 1,5 als Wurfweite oder als maximale Höhe statt als Abwurfhöhe deuten")
+row(id="2022-GYM-K4d", block="Kontext", aufgabe="4", titel="Boje", teilaufgabe="d", seite="5",
+    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Volumen eines aus Kegel und Halbkugel zusammengesetzten Körpers mit Nebenbedingung berechnen",
+    typ_neben="Volumen Kugel berechnen",
+    stichwoerter="Museumsboje|Nebenbedingung|Gesamthöhe gleich Durchmesser", format="Rechnung",
+    operator="Berechnen Sie", antwort="Zahl", material="keins", skizze="keine", kontext="Technik",
+    textumfang="mittel",
+    gegeben="alte Boje aus Halbkugel und Kegel gleicher Grundfläche; Durchmesser der Grundfläche = "
+            "Gesamthöhe der Boje; Volumen 10,6 m³",
+    gesucht="Gesamthöhe der alten Boje",
+    verfahren="Radius r, Gesamthöhe 2r, also Kegelhöhe = 2r − r = r; V = 2/3·π·r³ + 1/3·π·r²·r = π·r³; "
+              "π·r³ = 10,6 nach r auflösen; Gesamthöhe = 2r", schritte="3", zahlenraum="dezimal",
+    einheiten="m", ergebnis="r = 1,5 m, Gesamthöhe = 3 m", niveau_geschaetzt="III",
+    fehlerquelle="die Kegelhöhe gleich der Gesamthöhe 2r statt gleich r (Gesamthöhe minus Halbkugelradius) "
+                 "setzen")
 
-row(id="2021-GYM-K6b", block="Kontext", aufgabe="6", titel="Kugelstoßen", teilaufgabe="b", seite="9",
-    punkte="3", leitidee="Gleichungen und Funktionen", thema="Funktionen allgemein",
-    typ="Achseneinteilung wählen", typ_neben="Scheitelpunkt ablesen",
-    stichwoerter="Achsenskalierung|Scheitelpunkt|maximale Höhe", format="Eintragen|Kurzantwort",
-    operator="Skalieren Sie|Geben Sie an", antwort="Grafik|Zahl", material="Diagramm",
-    skizze="Koordinatensystem ohne Skala mit eingezeichneter Flugbahn (Parabelbogen)", kontext="Freizeit/Sport",
-    textumfang="kurz", abhaengig_von="2021-GYM-K6a",
-    gegeben="Diagramm mit der Flugbahn h(x) = −0,4x² + 2,4x + 1,5 ohne Achsenskala",
-    gesucht="passende Achseneinteilung; maximale Höhe der Kugel",
-    verfahren="Scheitelpunkt über x_s = −b/(2a) = −2,4/(−0,8) = 3, h(3) = −0,4·9 + 2,4·3 + 1,5 = 5,1; "
-              "Achsen so einteilen, dass x von 0 bis über die Nullstelle (≈6,6) und y bis über 5,1 "
-              "sichtbar sind", schritte="2", zahlenraum="dezimal", einheiten="m",
-    ergebnis="maximale Höhe 5,1 m bei x = 3 m", niveau_geschaetzt="III",
-    fehlerquelle="die Achsen zu klein wählen, sodass der Scheitelpunkt oder die Nullstelle nicht mehr "
-                 "sichtbar sind")
+row(id="2022-GYM-K5a", block="Kontext", aufgabe="5", titel="Algerien", teilaufgabe="a", seite="6",
+    punkte="2", leitidee="Größen und Messen", thema="Satz des Pythagoras",
+    typ="Pythagoras Hypotenuse",
+    stichwoerter="Sechseck|Landesmodell|Diagonale", format="Rechnung", operator="Zeigen Sie",
+    antwort="Text", material="Figur",
+    skizze="unregelmäßiges Sechseck ABCDEF als Näherung für Algerien, mit rechtem Winkel β bei B; "
+           "Diagonale AC verbindet den südlichsten Punkt A mit dem nördlichsten Punkt C",
+    kontext="Sonstiges", textumfang="kurz",
+    gegeben="Dreieck ABC mit AB = 695 km, BC = 1980 km, rechter Winkel β = 90° bei B",
+    gesucht="Nachweis, dass die Entfernung AC etwa 2100 km beträgt",
+    verfahren="Satz des Pythagoras: AC = √(695² + 1980²)", schritte="1", zahlenraum="ganz",
+    einheiten="km", ergebnis="AC ≈ 2098,4 km ≈ 2100 km", niveau_geschaetzt="II",
+    fehlerquelle="AB und BC addieren statt den Satz des Pythagoras anzuwenden")
 
-row(id="2021-GYM-K6c", block="Kontext", aufgabe="6", titel="Kugelstoßen", teilaufgabe="c", seite="9",
-    punkte="3", leitidee="Größen und Messen", thema="Einheiten umrechnen",
-    typ="Fehler in Rechnung erklären und korrigieren",
-    stichwoerter="pq-Formel|Vorzeichenfehler|Stoßweite", format="Begründung|Rechnung",
-    operator="Beschreiben Sie|Berechnen Sie", antwort="Text|Zahl", material="keins",
-    skizze="keine", kontext="Freizeit/Sport", textumfang="mittel", abhaengig_von="2021-GYM-K6a",
-    gegeben="Franz' Rechnung: 0 = x² − 6x − 3,75; x1/2 = 3 ± √(9 − 3,75); x1 = 5,29; x2 = 0,71",
-    gesucht="Fehler in Franz' Rechnung; korrekte Stoßweite",
-    verfahren="in der pq-Formel muss unter der Wurzel (p/2)² − q stehen, mit q = −3,75 also 9 − (−3,75) = "
-              "12,75; Franz hat stattdessen 9 − 3,75 gerechnet (Vorzeichenfehler bei q); korrekt: x1/2 = "
-              "3 ± √12,75", schritte="2", zahlenraum="dezimal", einheiten="m",
-    ergebnis="Fehler: falsches Vorzeichen von q unter der Wurzel; korrekt x1 ≈ 6,57 (Stoßweite), x2 ≈ "
-             "−0,57 (nicht physikalisch)", niveau_geschaetzt="III",
-    fehlerquelle="den negativen Wert x2 als Stoßweite verwenden, obwohl nur der positive Wert physikalisch "
-                 "sinnvoll ist")
+row(id="2022-GYM-K5b", block="Kontext", aufgabe="5", titel="Algerien", teilaufgabe="b", seite="7",
+    punkte="3", leitidee="Raum und Form", thema="Kongruenz und Konstruktion",
+    typ="Streckenlänge über ein konstruiertes Parallelogramm im Vieleck begründen",
+    stichwoerter="Mittelpunkt|Parallelogramm|Landesgrenze", format="Begründung", operator="Begründen Sie",
+    antwort="Text", material="Figur", skizze="Sechseck mit Punkt G als Mittelpunkt von AC, EG ∥ FA",
+    kontext="Sonstiges", textumfang="kurz", abhaengig_von="2022-GYM-K5a",
+    gegeben="G ist Mittelpunkt der Strecke AC (AC ≈ 2100 km aus Teilaufgabe a); EG ∥ FA",
+    gesucht="Begründung, dass die Strecke EF etwa 1050 km lang ist",
+    verfahren="AG = AC : 2 ≈ 1050 km; da FA ∥ EG das Viereck AFEG zu einem Parallelogramm ergänzt, ist "
+              "die Gegenseite EF gleich lang wie AG", schritte="1", zahlenraum="dezimal", einheiten="km",
+    ergebnis="EF = AG ≈ 1050 km", niveau_geschaetzt="III",
+    fehlerquelle="EF mit der halben Strecke BC oder mit AB gleichsetzen statt mit AG")
+
+row(id="2022-GYM-K5c", block="Kontext", aufgabe="5", titel="Algerien", teilaufgabe="c", seite="7",
+    punkte="4", leitidee="Zahlen und Operationen", thema="Prozentrechnung",
+    typ="Prozentuale Abweichung einer Modellfläche von der tatsächlichen Fläche berechnen",
+    typ_neben="Flächeninhalt Dreieck berechnen",
+    stichwoerter="Modellfläche|Abweichung in Prozent|Sechseck", format="Rechnung", operator="Zeigen Sie",
+    antwort="Text", material="keins", skizze="keine", kontext="Sonstiges", textumfang="mittel",
+    abhaengig_von="2022-GYM-K5a",
+    gegeben="Fläche des Fünfecks ACDEF = 1 739 232 km²; Dreieck ABC mit AB = 695 km, BC = 1980 km, "
+            "rechter Winkel bei B; tatsächliche Fläche Algeriens 2 382 000 km²",
+    gesucht="Nachweis, dass die Sechseckfläche ABCDEF um weniger als 5 % von der tatsächlichen Fläche "
+            "abweicht",
+    verfahren="Fläche Dreieck ABC = 0,5 · 695 · 1980 ≈ 688 050 km²; Sechseckfläche = 1 739 232 + 688 050 "
+              "≈ 2 427 282 km²; Abweichung = (2 427 282 − 2 382 000) : 2 382 000", schritte="3",
+    zahlenraum="ganz", einheiten="km²",
+    ergebnis="Sechseckfläche ≈ 2 427 282 km², Abweichung ≈ 1,9 % < 5 %, Behauptung bestätigt",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Abweichung auf die berechnete Modellfläche statt auf die tatsächliche Fläche "
+                 "beziehen")
+
+row(id="2022-GYM-K6a", block="Kontext", aufgabe="6", titel="Pinguine", teilaufgabe="a", seite="8",
+    punkte="3", leitidee="Daten und Zufall", thema="Daten darstellen",
+    typ="Kreisdiagramm zeichnen",
+    stichwoerter="Futterzusammensetzung|Kreisdiagramm|Restmenge", format="Zeichnen", operator="Stellen Sie dar",
+    antwort="Grafik", material="keins", skizze="keine", kontext="Freizeit/Sonstiges", textumfang="mittel",
+    gegeben="6 kg Futter täglich: 3,4 kg Fische, 600 g Krebstiere, Rest kleine Meereslebewesen",
+    gesucht="Kreisdiagramm der Futterzusammensetzung",
+    verfahren="Restmenge = 6 kg − 3,4 kg − 0,6 kg = 2 kg; Mittelpunktswinkel je Anteil: Fische "
+              "3,4:6·360° ≈ 204°, Krebstiere 0,6:6·360° = 36°, Meereslebewesen 2:6·360° = 120°",
+    schritte="2", zahlenraum="dezimal", einheiten="kg|Grad",
+    ergebnis="Meereslebewesen 2 kg; Sektoren 204°/36°/120° für Fische/Krebstiere/Meereslebewesen",
+    niveau_geschaetzt="II",
+    fehlerquelle="die Restmenge (kleine Meereslebewesen) vor der Winkelberechnung vergessen zu bestimmen")
+
+row(id="2022-GYM-K6b", block="Kontext", aufgabe="6", titel="Pinguine", teilaufgabe="b", seite="8",
+    punkte="3", leitidee="Daten und Zufall", thema="Kenngrößen",
+    typ="Spannweite berechnen", typ_neben="Median bestimmen",
+    stichwoerter="Körpergröße|Spannweite|Median", format="Kurzantwort|Kurzantwort",
+    operator="Geben Sie an|Ermitteln Sie", antwort="Zahl|Zahl", material="Tabelle",
+    skizze="keine", kontext="Freizeit/Sonstiges", textumfang="kurz",
+    gegeben="Körpergrößen von 10 Pinguinen: 129, 95, 98, 105, 99, 105, 105, 89, 101, 98 (in cm)",
+    gesucht="Spannweite und Median der Körpergrößen",
+    verfahren="sortieren: 89, 95, 98, 98, 99, 101, 105, 105, 105, 129; Spannweite = 129 − 89; Median = "
+              "Mittel der 5. und 6. Zahl (99 und 101)", schritte="2", zahlenraum="ganz",
+    einheiten="cm", ergebnis="Spannweite 40 cm; Median 100 cm", niveau_geschaetzt="II",
+    fehlerquelle="beim Median die unsortierte Liste verwenden oder bei gerader Anzahl nur einen der "
+                 "beiden mittleren Werte nehmen")
+
+row(id="2022-GYM-K6c", block="Kontext", aufgabe="6", titel="Pinguine", teilaufgabe="c", seite="9",
+    punkte="2", leitidee="Daten und Zufall", thema="Diagramme lesen und beurteilen",
+    typ="Aussage zu Diagramm prüfen",
+    stichwoerter="Säulendiagramm|gestauchte Achse|Prozentangabe", format="Begründung",
+    operator="Entscheiden Sie|Begründen Sie", antwort="Text", material="Diagramm",
+    skizze="Säulendiagramm mit y-Achse von 40000 bis 130000 (nicht bei 0 beginnend), Säule 1981 = "
+           "120000, Säule 2021 = 60000", kontext="Freizeit/Sonstiges", textumfang="mittel",
+    gegeben="Säulendiagramm: 1981 = 120 000 Pinguinpaare, 2021 = 60 000 Pinguinpaare; Behauptung: Abnahme "
+            "um 75 %",
+    gesucht="Wahrheitsgehalt der Behauptung",
+    verfahren="tatsächliche Abnahme = (120000 − 60000) : 120000 = 50 %; die y-Achse beginnt nicht bei 0 "
+              "(bei 40000), wodurch die Säulen in der Abbildung optisch einen viel stärkeren Rückgang "
+              "zeigen als tatsächlich vorliegt", schritte="1", zahlenraum="Prozent",
+    ergebnis="Behauptung ist falsch, die tatsächliche Abnahme beträgt 50 %, nicht 75 %",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Säulenhöhen im Diagramm direkt ablesen und ins Verhältnis setzen, ohne die "
+                 "gestauchte (nicht bei 0 beginnende) y-Achse zu berücksichtigen")
 # Feldkorrektur an vorhandenen Typen: typ -> {feld: neuer Wert}; siehe Kopf.
 TYPEN_KORREKTUR = {
     "Behauptung prüfen": {

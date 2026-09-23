@@ -123,8 +123,8 @@ wie hefte/msa/, da mehrere Dateien je Jahrgang):
 | sonstiges/20_P10_Ma_Gym_A_2.pdf | 2020 | 9 | ja | 1,2 MB | erfasst |
 | sonstiges/21_P10_Ma_Gym_A1.pdf | 2021 | 3 | ja | 0,7 MB | erfasst |
 | sonstiges/21_P10_Ma_Gym_A2.pdf | 2021 | 9 | ja | 1,1 MB | erfasst |
-| sonstiges/22_P10_Ma_Gym_Aufgaben_1_und_2.pdf | 2022 | 3 | ja | 0,8 MB | nicht erfasst |
-| sonstiges/22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | 2022 | 9 | ja | 1,2 MB | nicht erfasst |
+| sonstiges/22_P10_Ma_Gym_Aufgaben_1_und_2.pdf | 2022 | 3 | ja | 0,8 MB | erfasst |
+| sonstiges/22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | 2022 | 9 | ja | 1,2 MB | erfasst |
 | sonstiges/23_P10_Ma_Gym_A1.pdf | 2023 | 3 | ja | 1,0 MB | nicht erfasst |
 | sonstiges/23_P10_Ma_Gym_A2.pdf | 2023 | 9 | ja | 1,4 MB | nicht erfasst |
 | sonstiges/24_P10_Ma_Gym_A1.pdf | 2024 | 3 | ja | 0,8 MB | nicht erfasst |
