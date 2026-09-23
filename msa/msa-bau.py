@@ -58,12 +58,12 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2023",
+    "jahr": "2024",
     "papier": "GYM",     # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM (msa.md § 4)
     "datei": "",         # zweiteiliges Heft ab 2019, siehe "dateien"
-    "dateien": ["23_P10_Ma_Gym_A1.pdf", "23_P10_Ma_Gym_A2.pdf"],
+    "dateien": ["24_P10_Ma_Gym_A1.pdf", "24_P10_Ma_Gym_A2.pdf"],
     "seiten": {"Basis": 3, "Kontext": 9},  # eigene Fußzeile je Teildatei (msa.md § 3)
-    "soll": {"1": 5, "2": 5, "3": 11, "4": 10, "5": 10, "6": 9},
+    "soll": {"1": 5, "2": 5, "3": 13, "4": 12, "5": 6, "6": 9},
     "soll_gesamt": 50,
 }
 
@@ -88,303 +88,284 @@ def row(**kw):
 
 # Neue Typen: (typ, leitidee, thema, definition, beispiel_id)
 NEUE_TYPEN = [
-    ("Symmetrie einer geraden Funktion zur Bestimmung eines Funktionswertes ohne Rechnung nutzen",
-     "Gleichungen und Funktionen", "Funktionen allgemein",
-     "Ohne erneute Rechnung den Funktionswert an der Stelle −x angeben, wenn der Funktionswert an der "
-     "Stelle x bekannt und die Funktion achsensymmetrisch zur y-Achse ist.",
-     "2023-GYM-K3a"),
-    ("Flächeninhalt eines Vierecks aus den Achsenschnittpunkten zweier Funktionsgraphen berechnen",
-     "Raum und Form", "Ebene Figuren und Winkel",
-     "Flächeninhalt eines Vierecks berechnen, dessen Eckpunkte die Schnittpunkte zweier "
-     "Funktionsgraphen mit den Koordinatenachsen sind, z. B. über die Diagonalenlänge bei einer Raute.",
-     "2023-GYM-K3c"),
-    ("Innendurchmesser eines Kreisrings aus Flächeninhalt und Außendurchmesser berechnen",
-     "Größen und Messen", "Flächeninhalt und Umfang",
-     "Innendurchmesser eines Kreisrings durch Umstellen der Formel für die Ringfläche "
-     "(A = π·(R² − r²)) aus dem Flächeninhalt und dem Außendurchmesser berechnen.",
-     "2023-GYM-K4b"),
-    ("Gesamtmenge aus Pro-Kopf-Angabe, Anteil und Einwohnerzahl berechnen", "Zahlen und Operationen",
+    ("Geradengleichung einer Parallelen durch einen Punkt bestimmen", "Gleichungen und Funktionen",
+     "Lineare Funktionen",
+     "Gleichung einer Geraden bestimmen, die parallel zu einer gegebenen (auch erst aus zwei Punkten zu "
+     "ermittelnden) Geraden ist und durch einen gegebenen Punkt verläuft.",
+     "2024-GYM-B1b"),
+    ("Aussage zu einer Winkelfunktion im rechtwinkligen Dreieck prüfen", "Größen und Messen",
+     "Trigonometrie im rechtwinkligen Dreieck",
+     "Eine behauptete Gleichung für sin, cos oder tan eines Winkels im rechtwinkligen Dreieck anhand der "
+     "gegebenen Seitenlängen als wahr oder falsch prüfen (typische Verwechslung von Ankathete und "
+     "Gegenkathete).",
+     "2024-GYM-B2a"),
+    ("Dreieck aus Koordinaten als gleichschenklig-rechtwinklig nachweisen", "Raum und Form",
+     "Ebene Figuren und Winkel",
+     "Für ein durch Koordinaten gegebenes Dreieck nachweisen, dass es gleichschenklig und rechtwinklig "
+     "ist, durch Berechnung zweier gleich langer Seiten und Nachweis der Rechtwinkligkeit über das "
+     "Skalarprodukt oder über den Mittelpunkt der Hypotenuse (Satz des Thales).",
+     "2024-GYM-K3c"),
+    ("Sachaufgabe zu einer Gleichungskette formulieren", "Gleichungen und Funktionen",
+     "Exponentialfunktionen und Wachstum",
+     "Zu einer vorgegebenen Kette von Gleichungen, die gemeinsam eine Sachaufgabe zu einer "
+     "Exponentialfunktion lösen, die einzelnen Schritte erläutern und eine passende Aufgabenstellung "
+     "formulieren.",
+     "2024-GYM-K4c"),
+    ("Parameter einer Exponentialfunktion aus einer Wertetabelle bestimmen", "Gleichungen und Funktionen",
+     "Exponentialfunktionen und Wachstum",
+     "Parameter a (Anfangswert) und b (Wachstumsfaktor) einer Exponentialfunktion g(x) = a·bˣ aus zwei "
+     "Wertepaaren einer Tabelle bestimmen und das Wachstumsverhalten im Vergleich zu einer anderen "
+     "Exponentialfunktion beschreiben.",
+     "2024-GYM-K4d"),
+    ("Prozentuale Abweichung eines Werts von einem Vergleichswert berechnen", "Zahlen und Operationen",
      "Prozentrechnung",
-     "Gesamtmenge einer Größe aus einer Pro-Kopf-Angabe, einem Anteil davon (Bruch oder Prozent) und der "
-     "Einwohnerzahl berechnen und in eine größere Einheit umrechnen.",
-     "2023-GYM-K4c"),
-    ("Prozentualen Zuwachs aus Anfangs- und Endwert berechnen", "Zahlen und Operationen",
-     "Prozentrechnung",
-     "Prozentuale Veränderung zwischen einem Anfangs- und einem Endwert berechnen "
-     "(Differenz bezogen auf den Anfangswert).",
-     "2023-GYM-K5b"),
-    ("Grundstücksbreiten aus einem in Teilflächen zerlegten Trapez bestimmen", "Raum und Form",
-     "Ähnlichkeit und Strahlensätze",
-     "Breiten der einzelnen Grundstücke an der Basis eines Trapezes bestimmen, das durch zwei zur "
-     "Grundseite parallele Schnitte in ein rechteckiges Mittelstück (Fläche gegeben) und zwei "
-     "kongruente, symmetrisch anschließende Trapeze zerlegt ist, unter Nutzung der über die "
-     "Strahlensätze linear verlaufenden Gesamtbreite.",
-     "2023-GYM-K6c"),
-    ("Trapezhöhe über den aus einem angrenzenden Dreieck übertragenen Winkel berechnen", "Raum und Form",
-     "Ähnlichkeit und Strahlensätze",
-     "Höhe eines Trapezes berechnen, dessen Schenkel geradlinig in die Schenkel eines angrenzenden "
-     "gleichschenkligen Dreiecks übergehen: den Basiswinkel des Dreiecks aus dessen Spitzenwinkel "
-     "bestimmen, über die parallelen Grundlinien auf den entsprechenden Trapezwinkel übertragen und "
-     "damit die Höhe aus der bekannten Schenkellänge berechnen.",
-     "2023-GYM-K6d"),
+     "Prozentuale Abweichung eines gegebenen Werts von einem aus einer Datenreihe (z. B. Diagramm) "
+     "ermittelten Vergleichswert (Summe oder Mittelwert) berechnen.",
+     "2024-GYM-K5a"),
+    ("Mehrere Kenngrößen zweier Datenreihen vergleichend bestimmen", "Daten und Zufall", "Kenngrößen",
+     "Für zwei parallele Datenreihen (z. B. ein Jahr im Vergleich zu langjährigen Mittelwerten) mehrere "
+     "Kenngrößen (Spannweite, Mittelwert, Median) jeweils bestimmen und gegenüberstellen.",
+     "2024-GYM-K5b"),
+    ("Winkel als Differenz zweier Teilwinkel in einem zusammengesetzten rechtwinkligen Dreieck "
+     "nachweisen", "Raum und Form", "Ebene Figuren und Winkel",
+     "In einer aus zwei rechtwinkligen Teildreiecken zusammengesetzten Figur einen Winkel als Differenz "
+     "zweier über den jeweiligen Komplementwinkel bzw. eine gegebene Winkelangabe bestimmter Teilwinkel "
+     "nachweisen und daraus eine Höhe berechnen.",
+     "2024-GYM-K6a"),
 ]
 
-row(id="2023-GYM-B1a", block="Basis", aufgabe="1", titel="", teilaufgabe="a", seite="2",
-    punkte="2", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
-    typ="Nullstelle lineare Funktion berechnen",
-    stichwoerter="Nullstelle|lineare Funktion", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="f(x) = −0,5x + 2",
-    gesucht="Nullstelle von f",
-    verfahren="−0,5x + 2 = 0 nach x auflösen", schritte="1", zahlenraum="dezimal",
-    ergebnis="x = 4", niveau_geschaetzt="I", fehlerquelle="das Vorzeichen von −0,5x beim Auflösen falsch "
-                 "umstellen")
-
-row(id="2023-GYM-B1b", block="Basis", aufgabe="1", titel="", teilaufgabe="b", seite="2",
-    punkte="3", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
-    typ="Lage zweier Geraden bestimmen",
-    stichwoerter="Schnittpunkt|Gleichsetzen", format="Rechnung", operator="Ermitteln Sie", antwort="Term",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz", abhaengig_von="2023-GYM-B1a",
-    gegeben="f(x) = −0,5x + 2 und g(x) = 0,5x",
-    gesucht="Koordinaten des Schnittpunktes S von f und g",
-    verfahren="−0,5x + 2 = 0,5x nach x auflösen, dann y berechnen", schritte="2", zahlenraum="dezimal",
-    ergebnis="S(2|1)", niveau_geschaetzt="II",
-    fehlerquelle="nach dem Bestimmen von x vergessen, den y-Wert durch Einsetzen zu berechnen")
-
-row(id="2023-GYM-B2a", block="Basis", aufgabe="2", titel="", teilaufgabe="a", seite="3",
-    punkte="3", hilfsmittel="nein", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
-    typ="Term zu Figur angeben",
-    stichwoerter="Fünfeck|Rechteck minus Dreieck|Flächeninhalt", format="Rechnung", operator="Berechnen Sie",
-    antwort="Zahl", material="Figur",
-    skizze="Fünfeck ABCDE: rechte Winkel bei A und B, AB=a (unten), BC=b (rechts, senkrecht), CD=c (oben, "
-           "waagerecht), DE=d (links, senkrecht, von D nach unten zu E), EA schließt das Fünfeck "
-           "diagonal; nicht maßstabsgerecht", kontext="ohne", textumfang="mittel",
-    gegeben="a = 6 cm, b = 2·a, c = a:3, d = a",
-    gesucht="Flächeninhalt des Fünfecks ABCDE",
-    verfahren="Rechteck mit den Seiten a und b als Grundfigur, davon das Dreieck mit den Katheten (a−c) "
-              "und (b−d) am linken Rand abziehen: A = a·b − 0,5·(a−c)·(b−d)", schritte="3",
-    zahlenraum="dezimal", einheiten="cm|cm²",
-    ergebnis="a=6 cm, b=12 cm, c=2 cm, d=6 cm; Fläche = 36 cm²", niveau_geschaetzt="III",
-    fehlerquelle="das Fünfeck als einfaches Rechteck a·b ohne Abzug des Dreiecks berechnen")
-
-row(id="2023-GYM-B2b", block="Basis", aufgabe="2", titel="", teilaufgabe="b", seite="3",
-    punkte="2", hilfsmittel="nein", leitidee="Größen und Messen", thema="Satz des Pythagoras",
-    typ="Streckenlänge aus Koordinaten berechnen",
-    stichwoerter="Fünfeck|Term|Pythagoras", format="Kurzantwort", operator="Geben Sie an", antwort="Term",
-    material="Figur", skizze="wie 2023-GYM-B2a", kontext="ohne", textumfang="kurz",
-    abhaengig_von="2023-GYM-B2a",
-    gegeben="Fünfeck ABCDE mit den Bezeichnungen a, b, c, d wie in der Abbildung",
-    gesucht="Term für die Länge der Seite AE mithilfe von a, b, c und d",
-    verfahren="AE ist die Hypotenuse eines rechtwinkligen Dreiecks mit den Katheten (a−c) und (b−d)",
-    schritte="1",
-    ergebnis="AE = √((a−c)² + (b−d)²)", niveau_geschaetzt="III",
-    fehlerquelle="die Katheten des Hilfsdreiecks mit a und b statt mit den Differenzen (a−c) und (b−d) "
-                 "ansetzen")
-
-row(id="2023-GYM-K3a", block="Kontext", aufgabe="3", titel="Quadratische Funktionen", teilaufgabe="a",
-    seite="2", punkte="3", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
-    typ="Punktprobe durchführen",
-    typ_neben="Symmetrie einer geraden Funktion zur Bestimmung eines Funktionswertes ohne Rechnung nutzen",
-    stichwoerter="Punktprobe|Achsensymmetrie|ohne Rechnung", format="Rechnung|Begründung",
-    operator="Weisen Sie nach|Geben Sie an", antwort="Text|Zahl", material="Koordinatensystem",
-    skizze="nach oben geöffnete Parabel f(x)=x²−4 mit Scheitelpunkt (0|−4), Nullstellen bei −2 und 2",
-    kontext="ohne", textumfang="kurz",
-    gegeben="f(x) = x² − 4; Punkt A(1/3 | −35/9); Punkt B(−1/3 | yB) ebenfalls auf dem Graphen von f",
-    gesucht="Nachweis, dass A auf dem Graphen liegt; fehlende Koordinate yB ohne Rechnung",
-    verfahren="f(1/3) = (1/3)² − 4 = −35/9 einsetzen und mit dem gegebenen Wert vergleichen; f ist "
-              "achsensymmetrisch zur y-Achse (nur gerade Potenzen von x), also f(−1/3) = f(1/3)",
-    schritte="2", zahlenraum="Bruch",
-    ergebnis="f(1/3) = −35/9 bestätigt; yB = −35/9", niveau_geschaetzt="III",
-    fehlerquelle="yB dennoch durch erneutes Einsetzen statt durch das Symmetrieargument bestimmen")
-
-row(id="2023-GYM-K3b", block="Kontext", aufgabe="3", titel="Quadratische Funktionen", teilaufgabe="b",
-    seite="3", punkte="2", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
-    typ="Nullstellen quadratische Funktion berechnen",
-    stichwoerter="Nullstellen|Nachweis", format="Rechnung", operator="Zeigen Sie rechnerisch",
-    antwort="Text", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    abhaengig_von="2023-GYM-K3a",
-    gegeben="f(x) = x² − 4",
-    gesucht="Nachweis, dass −2 und 2 Nullstellen von f sind",
-    verfahren="f(−2) und f(2) einsetzen und beide Male 0 als Ergebnis zeigen", schritte="1",
-    zahlenraum="ganz", ergebnis="f(−2) = 0 und f(2) = 0", niveau_geschaetzt="I",
-    fehlerquelle="nur eine der beiden Nullstellen nachrechnen")
-
-row(id="2023-GYM-K3c", block="Kontext", aufgabe="3", titel="Quadratische Funktionen", teilaufgabe="c",
-    seite="3", punkte="6", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
-    typ="Parabel an der x-Achse spiegeln",
-    typ_neben="Flächeninhalt eines Vierecks aus den Achsenschnittpunkten zweier Funktionsgraphen "
-              "berechnen",
-    stichwoerter="Spiegelung an x-Achse|Raute|Diagonalen", format="Zeichnen|Kurzantwort|Zeichnen|Rechnung",
-    operator="Zeichnen Sie|Geben Sie an|Zeichnen Sie|Berechnen Sie", antwort="Grafik|Term|Grafik|Zahl",
-    material="Koordinatensystem",
-    skizze="Parabel f(x)=x²−4 und ihr Spiegelbild g an der x-Achse; die vier Schnittpunkte der beiden "
-           "Graphen mit den Achsen bilden ein Viereck (Raute)", kontext="ohne", textumfang="mittel",
-    abhaengig_von="2023-GYM-K3b",
-    gegeben="f(x) = x² − 4; g entsteht durch Spiegelung von f an der x-Achse; Schnittpunkte von f und g "
-            "mit den Koordinatenachsen: (−2|0), (2|0), (0|−4), (0|4)",
-    gesucht="Graph und Gleichung von g; Flächeninhalt des von den vier Achsenschnittpunkten gebildeten "
-            "Vierecks",
-    verfahren="g(x) = −f(x) = −x² + 4; das Viereck ist eine Raute mit den Diagonalen entlang der Achsen "
-              "(Länge 4 und 8), Fläche = 0,5 · Diagonale1 · Diagonale2", schritte="2", zahlenraum="ganz",
-    einheiten="FE",
-    ergebnis="g(x) = −x² + 4; Flächeninhalt = 16 FE", niveau_geschaetzt="III",
-    fehlerquelle="das Viereck als Rechteck mit den Seiten 4 und 8 statt als Raute mit halbem "
-                 "Diagonalenprodukt berechnen")
-
-row(id="2023-GYM-K4a", block="Kontext", aufgabe="4", titel="Abfallbehälter", teilaufgabe="a", seite="4",
-    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
-    typ="Volumen Zylinder berechnen",
-    stichwoerter="Zylinder|Fassungsvermögen|Einheitenumrechnung", format="Rechnung", operator="Berechnen Sie",
-    antwort="Zahl", material="Figur",
-    skizze="Abfallbehälter als gerader Kreiszylinder, Höhe 80 cm, Innendurchmesser 57 cm; nicht "
-           "maßstabsgerecht", kontext="Umwelt", textumfang="kurz",
-    gegeben="Höhe 80 cm, Innendurchmesser 57 cm",
-    gesucht="maximales Fassungsvermögen in dm³",
-    verfahren="V = π · (57:2)² · 80 in cm³, anschließend durch 1000 in dm³ umrechnen", schritte="2",
-    zahlenraum="dezimal", einheiten="cm|dm³", ergebnis="V ≈ 204,1 dm³", niveau_geschaetzt="II",
-    fehlerquelle="den Durchmesser statt des Radius in die Formel einsetzen, oder die Umrechnung von cm³ "
-                 "in dm³ vergessen")
-
-row(id="2023-GYM-K4b", block="Kontext", aufgabe="4", titel="Abfallbehälter", teilaufgabe="b", seite="4",
-    punkte="4", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
-    typ="Innendurchmesser eines Kreisrings aus Flächeninhalt und Außendurchmesser berechnen",
-    stichwoerter="Kreisring|Abdeckplatte|Mülleinwurf", format="Rechnung", operator="Ermitteln Sie",
-    antwort="Zahl", material="Figur",
-    skizze="kreisringförmige Abdeckplatte mit Außendurchmesser 60 cm und einer kreisrunden Öffnung "
-           "(Mülleinwurf) in der Mitte; nicht maßstabsgerecht", kontext="Umwelt", textumfang="kurz",
-    gegeben="Außendurchmesser 60 cm, Flächeninhalt des Kreisrings ≈ 2120,6 cm²",
-    gesucht="Durchmesser des Mülleinwurfs (Innendurchmesser des Kreisrings)",
-    verfahren="A = π·(R² − r²) nach r umstellen: r = √(R² − A:π), mit R = 30 cm", schritte="1",
-    zahlenraum="dezimal", einheiten="cm", ergebnis="r ≈ 15 cm, Durchmesser ≈ 30 cm",
-    niveau_geschaetzt="III",
-    fehlerquelle="den gegebenen Außendurchmesser 60 cm direkt als Radius R in die Formel einsetzen")
-
-row(id="2023-GYM-K4c", block="Kontext", aufgabe="4", titel="Abfallbehälter", teilaufgabe="c", seite="5",
-    punkte="3", leitidee="Zahlen und Operationen", thema="Prozentrechnung",
-    typ="Gesamtmenge aus Pro-Kopf-Angabe, Anteil und Einwohnerzahl berechnen",
-    stichwoerter="Restmülltonne|Mülltrennung|Einwohnerzahl", format="Rechnung", operator="Berechnen Sie",
-    antwort="Zahl", material="keins", skizze="keine", kontext="Umwelt", textumfang="mittel",
-    gegeben="128 kg Haushaltsmüll je Einwohner in der Restmülltonne (2021); zwei Drittel davon fälschlich "
-            "einsortiert; Einwohnerzahl Brandenburgs ≈ 2,5 Millionen",
-    gesucht="insgesamt fälschlich in der Restmülltonne entsorgter Haushaltsmüll in Tonnen",
-    verfahren="128 kg · 2 500 000 · 2/3, anschließend von kg in Tonnen umrechnen", schritte="2",
-    zahlenraum="ganz", einheiten="kg|t", ergebnis="≈ 213 333 t", niveau_geschaetzt="II",
-    fehlerquelle="die Umrechnung von Kilogramm in Tonnen (Faktor 1000) vergessen")
-
-row(id="2023-GYM-K5a", block="Kontext", aufgabe="5", titel="Fahrrad", teilaufgabe="a", seite="6",
-    punkte="3", leitidee="Daten und Zufall", thema="Daten darstellen",
-    typ="Streifendiagramm zeichnen",
-    stichwoerter="Fahrradarten|Streifendiagramm|Anteile", format="Zeichnen", operator="Zeichnen Sie",
-    antwort="Grafik", material="keins", skizze="keine", kontext="Freizeit/Sport", textumfang="mittel",
-    gegeben="72 Fahrräder insgesamt; ein Viertel Rennräder; 45 Jugendliche kommen mit dem Mountainbike, "
-            "der Rest mit dem Tourenrad; Streifen 10 cm lang, 1 cm breit",
-    gesucht="Streifendiagramm der drei Fahrradarten",
-    verfahren="Rennräder = 72:4 = 18, Mountainbikes = 45, Tourenräder = 72 − 18 − 45 = 9; Streifenlängen "
-              "proportional zu den Anteilen: 18:72·10 cm, 45:72·10 cm, 9:72·10 cm", schritte="2",
-    zahlenraum="dezimal", einheiten="cm",
-    ergebnis="Rennräder 2,5 cm, Mountainbikes 6,25 cm, Tourenräder 1,25 cm", niveau_geschaetzt="II",
-    fehlerquelle="die Anzahl der Tourenräder nicht als Rest, sondern als weiteres Viertel ansetzen")
-
-row(id="2023-GYM-K5b", block="Kontext", aufgabe="5", titel="Fahrrad", teilaufgabe="b", seite="6",
-    punkte="2", leitidee="Zahlen und Operationen", thema="Prozentrechnung",
-    typ="Prozentualen Zuwachs aus Anfangs- und Endwert berechnen",
-    stichwoerter="Fahrradbestand|prozentualer Anstieg", format="Rechnung", operator="Berechnen Sie",
-    antwort="Zahl", material="keins", skizze="keine", kontext="Freizeit/Sport", textumfang="kurz",
-    gegeben="2011 etwa 70 Millionen Fahrräder in Deutschland, 2021 etwa 81 Millionen",
-    gesucht="prozentualer Anstieg in den zehn Jahren",
-    verfahren="(81 − 70) : 70 · 100 %", schritte="1", zahlenraum="dezimal", einheiten="Prozent",
-    ergebnis="≈ 15,7 %", niveau_geschaetzt="II",
-    fehlerquelle="die Differenz auf den Endwert 81 statt auf den Anfangswert 70 beziehen")
-
-row(id="2023-GYM-K5c", block="Kontext", aufgabe="5", titel="Fahrrad", teilaufgabe="c", seite="6",
-    punkte="3", leitidee="Daten und Zufall", thema="Kenngrößen",
-    typ="Arithmetisches Mittel berechnen", typ_neben="Modalwert bestimmen",
-    stichwoerter="Modalwert|Mittelwert|Umfrage", format="Kurzantwort|Rechnung",
-    operator="Geben Sie an|Berechnen Sie", antwort="Zahl|Zahl", material="Tabelle",
-    skizze="keine", kontext="Freizeit/Sport", textumfang="mittel",
-    gegeben="Anzahl Fahrradtage von 20 Jugendlichen: 4,12,14,0,20,20,4,3,12,5,14,3,14,1,0,14,5,5,20,10",
-    gesucht="Modalwert; durchschnittliche Anzahl Fahrradtage",
-    verfahren="häufigster Wert der Liste bestimmen; Summe aller Werte durch 20 teilen", schritte="2",
-    zahlenraum="ganz", einheiten="Tage",
-    ergebnis="Modalwert 14 (viermal); Durchschnitt 9 Tage", niveau_geschaetzt="II",
-    fehlerquelle="beim Mittelwert durch die Anzahl verschiedener Werte statt durch die Anzahl der "
-                 "Jugendlichen (20) teilen")
-
-row(id="2023-GYM-K5d", block="Kontext", aufgabe="5", titel="Fahrrad", teilaufgabe="d", seite="7",
-    punkte="2", leitidee="Daten und Zufall", thema="Kenngrößen",
-    typ="Fehlenden Wert aus Mittelwert bestimmen",
-    stichwoerter="verspätete Jugendliche|neuer Mittelwert|Ergänzung", format="Rechnung",
-    operator="Bestimmen Sie", antwort="Zahl", material="Tabelle", skizze="keine", kontext="Freizeit/Sport",
-    textumfang="mittel", abhaengig_von="2023-GYM-K5c",
-    gegeben="ursprüngliche Liste von 20 Werten (Summe 180, aus Teilaufgabe c); vier weitere Werte "
-            "verspäteter Jugendlicher ergänzt; neuer Durchschnitt über 24 Werte beträgt 10 Tage",
-    gesucht="eine mögliche Ergänzung der vier fehlenden Werte",
-    verfahren="neue Gesamtsumme = 10 · 24 = 240; Summe der vier neuen Werte = 240 − 180 = 60, also im "
-              "Mittel 15 Tage je ergänztem Wert", schritte="2", zahlenraum="ganz", einheiten="Tage",
-    ergebnis="z. B. vier Werte mit Summe 60, etwa 15, 15, 15, 15", niveau_geschaetzt="III",
-    fehlerquelle="die neue Gesamtsumme aus 10 · 20 statt aus 10 · 24 berechnen")
-
-row(id="2023-GYM-K6a", block="Kontext", aufgabe="6", titel="Wohngebiet", teilaufgabe="a", seite="8",
-    punkte="2", leitidee="Größen und Messen", thema="Satz des Pythagoras",
-    typ="Pythagoras Hypotenuse",
-    stichwoerter="gleichschenkliges Dreieck|Wohngebietsgrenze|Höhe", format="Rechnung",
-    operator="Zeigen Sie", antwort="Text", material="Figur",
-    skizze="gleichschenkliges Dreieck (Wohngebiet), Basis Lessingstraße 80 m, Höhe (Breite) 100 m, "
-           "Schenkel Goethestraße und Schillerstraße; nicht maßstabsgerecht", kontext="Bauwesen",
+row(id="2024-GYM-B1a", block="Basis", aufgabe="1", titel="", teilaufgabe="a", seite="2",
+    punkte="2", hilfsmittel="nein", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Flächeninhalt eines Dreiecks aus Koordinaten berechnen",
+    stichwoerter="Koordinatenursprung|rechtwinkliges Dreieck|Flächeninhalt", format="Rechnung",
+    operator="Berechnen Sie", antwort="Zahl", material="keins", skizze="keine", kontext="ohne",
     textumfang="kurz",
-    gegeben="gleichschenkliges Dreieck mit Basis 80 m (Lessingstraße) und Höhe 100 m",
-    gesucht="Nachweis, dass die Schillerstraße (Schenkel) etwa 107,7 m lang ist",
-    verfahren="Satz des Pythagoras im halben Dreieck: Schenkel = √((80:2)² + 100²)", schritte="1",
-    zahlenraum="ganz", einheiten="m", ergebnis="≈ 107,70 m", niveau_geschaetzt="II",
-    fehlerquelle="die volle Basis 80 m statt der halben Basis 40 m als Kathete verwenden")
+    gegeben="Dreieck mit den Eckpunkten O(0|0), A(0|−3) und B(6|0)",
+    gesucht="Flächeninhalt des Dreiecks",
+    verfahren="OA liegt auf der y-Achse (Länge 3), OB auf der x-Achse (Länge 6), rechter Winkel bei O: "
+              "A = 0,5 · 3 · 6", schritte="1", zahlenraum="ganz", einheiten="FE",
+    ergebnis="9 FE", niveau_geschaetzt="I",
+    fehlerquelle="das Vorzeichen der y-Koordinate von A in die Längenberechnung übernehmen")
 
-row(id="2023-GYM-K6b", block="Kontext", aufgabe="6", titel="Wohngebiet", teilaufgabe="b", seite="8",
-    punkte="1", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
-    typ="Strecke aus Teilstrecken berechnen",
-    stichwoerter="Zaun|Umfang|Dreieck", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Bauwesen", textumfang="kurz", abhaengig_von="2023-GYM-K6a",
-    gegeben="gleichschenkliges Dreieck mit Basis 80 m und Schenkellänge ≈ 107,7 m (aus Teilaufgabe a)",
-    gesucht="Länge des Zauns entlang der gesamten Wohngebietsgrenze",
-    verfahren="Umfang = Basis + 2 · Schenkellänge", schritte="1", zahlenraum="dezimal", einheiten="m",
-    ergebnis="≈ 295,4 m", niveau_geschaetzt="I",
-    fehlerquelle="nur einen Schenkel statt beider Schenkel zur Basis addieren")
+row(id="2024-GYM-B1b", block="Basis", aufgabe="1", titel="", teilaufgabe="b", seite="2",
+    punkte="3", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
+    typ="Geradengleichung einer Parallelen durch einen Punkt bestimmen",
+    typ_neben="Geradengleichung aus zwei Punkten",
+    stichwoerter="parallel|Anstieg übernehmen|Punkt", format="Rechnung", operator="Ermitteln Sie",
+    antwort="Term", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    abhaengig_von="2024-GYM-B1a",
+    gegeben="Gerade g durch A(0|−3) und B(6|0); Gerade h parallel zu g durch S(0|2)",
+    gesucht="Gleichung der Geraden h",
+    verfahren="Anstieg von g: (0−(−3)):(6−0) = 0,5; h hat denselben Anstieg und den y-Achsenabschnitt "
+              "von S", schritte="2", zahlenraum="dezimal",
+    ergebnis="h(x) = 0,5x + 2", niveau_geschaetzt="II",
+    fehlerquelle="einen neuen, falschen Anstieg statt des Anstiegs von g für h verwenden")
 
-row(id="2023-GYM-K6c", block="Kontext", aufgabe="6", titel="Wohngebiet", teilaufgabe="c", seite="9",
-    punkte="3", leitidee="Raum und Form", thema="Ähnlichkeit und Strahlensätze",
-    typ="Grundstücksbreiten aus einem in Teilflächen zerlegten Trapez bestimmen",
-    stichwoerter="Trapez|rechteckiges Grundstück|Strahlensatz", format="Rechnung", operator="Ermitteln Sie",
-    antwort="Zahl", material="Figur",
-    skizze="Bereich I (Trapez, Basis 80 m an der Lessingstraße, Höhe 30 m) in drei Grundstücke A "
-           "(Trapez), B (Rechteck), C (Trapez, kongruent zu A) geteilt; nicht maßstabsgerecht",
-    kontext="Bauwesen", textumfang="mittel", abhaengig_von="2023-GYM-K6a",
-    gegeben="Bereich I ist 30 m breit (Höhe); Gesamtdreieck Basis 80 m, Höhe 100 m; Grundstück B "
-            "rechteckig mit 600 m² Flächeninhalt; A und C sind gleich große Trapeze",
-    gesucht="Länge der Grundstücksgrenzen von A, B und C zur Lessingstraße",
-    verfahren="obere Breite des Bereichs I (Grenze zu Bereich II) über den Strahlensatz: 80 · (1 − 30:100) "
-              "= 56 m; Breite von B (rechteckig, konstant) = 600 m² : 30 m = 20 m; verbleibende Breite "
-              "80 − 20 = 60 m verteilt sich gleich auf A und C: je 30 m", schritte="3",
-    zahlenraum="ganz", einheiten="m|m²",
-    ergebnis="Grenze von A zur Lessingstraße 30 m, von B 20 m, von C 30 m", niveau_geschaetzt="III",
-    fehlerquelle="die Breite von B aus der oberen (56 m) statt aus der unteren Gesamtbreite (80 m) "
-                 "ermitteln")
+row(id="2024-GYM-B2a", block="Basis", aufgabe="2", titel="", teilaufgabe="a", seite="3",
+    punkte="5", hilfsmittel="nein", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
+    typ="Umfang Trapez berechnen",
+    typ_neben="Aussage zu einer Winkelfunktion im rechtwinkligen Dreieck prüfen",
+    stichwoerter="Trapez|Umfang|Kosinus|Verwechslung Ankathete Gegenkathete", format="Rechnung|Begründung",
+    operator="Berechnen Sie|Überprüfen Sie", antwort="Zahl|Text", material="Figur",
+    skizze="Trapez ABCD, AB ∥ CD, rechte Winkel bei A und D, AD = 8 cm, DC = 4 cm, CB = 10 cm "
+           "(Mantellinie/Schenkel), Winkel β bei B", kontext="ohne", textumfang="mittel",
+    gegeben="Trapez ABCD mit AB ∥ CD, AD = 8 cm (rechter Winkel zu AB und DC), DC = 4 cm, CB = 10 cm",
+    gesucht="Umfang des Trapezes; ob cos(β) = 8:10 gilt",
+    verfahren="Hilfsdreieck: Höhe vom Punkt C auf AB (Fußpunkt F) mit CF = AD = 8 cm; FB = "
+              "√(CB² − CF²) = √(10² − 8²) = 6 cm; AB = AF + FB = DC + FB = 4 + 6 = 10 cm; Umfang = AB + "
+              "BC + CD + DA; cos(β) = Ankathete:Hypotenuse = FB:CB = 6:10, nicht 8:10 (das wäre sin(β))",
+    schritte="3", zahlenraum="ganz", einheiten="cm",
+    ergebnis="Umfang = 32 cm; die Behauptung cos(β) = 8:10 ist falsch, richtig ist cos(β) = 6:10 (8:10 "
+             "ist sin(β))", niveau_geschaetzt="III",
+    fehlerquelle="Ankathete und Gegenkathete von β vertauschen und die Behauptung fälschlich bestätigen")
 
-row(id="2023-GYM-K6d", block="Kontext", aufgabe="6", titel="Wohngebiet", teilaufgabe="d", seite="9",
-    punkte="3", leitidee="Raum und Form", thema="Ähnlichkeit und Strahlensätze",
-    typ="Trapezhöhe über den aus einem angrenzenden Dreieck übertragenen Winkel berechnen",
-    stichwoerter="Bereich II|Bereich III|Basiswinkel|Breite x", format="Rechnung", operator="Berechnen Sie",
-    antwort="Zahl", material="Figur",
-    skizze="Bereich III als gleichschenkliges Dreieck mit Spitzenwinkel α an der Spitze und Basis a; "
-           "Bereich II als gleichschenkliges Trapez darunter mit Grundlinien a (oben) und Schenkeln b, c "
-           "(a=b=c=32 m), Basiswinkel β an den unteren Ecken; nicht maßstabsgerecht",
-    kontext="Bauwesen", textumfang="mittel", abhaengig_von="2023-GYM-K6c",
-    gegeben="Bereich II: a = b = c = 32 m; Bereich III: Spitzenwinkel α = 43,6°",
-    gesucht="Breite x des Bereichs II",
-    verfahren="Basiswinkel des gleichschenkligen Dreiecks III: (180° − 43,6°) : 2 = 68,2°; da "
-              "Goethestraße und Schillerstraße gerade Linien sind, ist dies auch der Basiswinkel β des "
-              "Trapezes II; Breite x = b · sin(β)", schritte="3", zahlenraum="dezimal", einheiten="m",
-    ergebnis="β = 68,2°, Breite x ≈ 29,71 m", niveau_geschaetzt="III",
-    fehlerquelle="den Spitzenwinkel α unverändert als Basiswinkel β des Trapezes verwenden, statt ihn "
-                 "über die Winkelsumme im gleichschenkligen Dreieck III umzurechnen")
+row(id="2024-GYM-K3a", block="Kontext", aufgabe="3", titel="Quadratische Funktion", teilaufgabe="a",
+    seite="2", punkte="3", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Nullstellen quadratische Funktion berechnen",
+    stichwoerter="Nullstellen|pq-Formel", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="f(x) = x² + 4x + 3",
+    gesucht="Nullstellen von f",
+    verfahren="pq-Formel oder Faktorisieren: f(x) = (x+1)(x+3)", schritte="1", zahlenraum="ganz",
+    ergebnis="x1 = −1, x2 = −3", niveau_geschaetzt="I",
+    fehlerquelle="Vorzeichenfehler bei der pq-Formel")
+
+row(id="2024-GYM-K3b", block="Kontext", aufgabe="3", titel="Quadratische Funktion", teilaufgabe="b",
+    seite="2", punkte="3", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Funktionswert berechnen", typ_neben="Wertetabelle als Punkte darstellen",
+    stichwoerter="y-Achsenabschnitt|Graph zeichnen", format="Kurzantwort|Zeichnen",
+    operator="Geben Sie an|Zeichnen Sie", antwort="Term|Grafik", material="Koordinatensystem",
+    skizze="nach oben geöffnete Parabel f(x)=x²+4x+3 mit Nullstellen −3 und −1", kontext="ohne",
+    textumfang="kurz", abhaengig_von="2024-GYM-K3a",
+    gegeben="f(x) = x² + 4x + 3",
+    gesucht="Schnittpunkt des Graphen mit der y-Achse; Graph von f mindestens im Intervall [−4;0]",
+    verfahren="f(0) berechnen; Wertetabelle im Intervall aufstellen und Punkte verbinden", schritte="1",
+    zahlenraum="ganz",
+    ergebnis="Schnittpunkt (0|3)", niveau_geschaetzt="I",
+    fehlerquelle="das Vorzeichen des konstanten Glieds beim Ablesen des y-Achsenabschnitts vertauschen")
+
+row(id="2024-GYM-K3c", block="Kontext", aufgabe="3", titel="Quadratische Funktion", teilaufgabe="c",
+    seite="3", punkte="3", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Dreieck aus Koordinaten als gleichschenklig-rechtwinklig nachweisen",
+    stichwoerter="gleichschenklig|rechtwinklig|Mittelpunkt|Skalarprodukt", format="Begründung",
+    operator="Begründen Sie", antwort="Text", material="Koordinatensystem",
+    skizze="Punkte A(−3|0), B(−1|0), C(−2|−1) auf dem Graphen von f, M Mittelpunkt von AB",
+    kontext="ohne", textumfang="mittel", abhaengig_von="2024-GYM-K3a",
+    gegeben="A(−3|0), B(−1|0), C(−2|−1) auf dem Graphen von f; M Mittelpunkt von AB",
+    gesucht="Nachweis, dass Dreieck ABC gleichschenklig und rechtwinklig ist",
+    verfahren="AC = BC = √2 (gleich lange Schenkel); Skalarprodukt der Vektoren CA und CB ist 0, also "
+              "rechter Winkel bei C; alternativ: M(−2|0), CM = 1 = AB:2, nach dem Satz des Thales liegt "
+              "C auf dem Kreis über AB, also rechter Winkel bei C", schritte="2", zahlenraum="Wurzel",
+    ergebnis="AC = BC = √2, rechter Winkel bei C (Skalarprodukt 0 bzw. CM = AB:2), also gleichschenklig-"
+             "rechtwinklig", niveau_geschaetzt="III",
+    fehlerquelle="die Rechtwinkligkeit ohne Nachweis (z. B. nur aus der Zeichnung) behaupten")
+
+row(id="2024-GYM-K3d", block="Kontext", aufgabe="3", titel="Quadratische Funktion", teilaufgabe="d",
+    seite="3", punkte="4", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen",
+    stichwoerter="Produktform|Nullstellen vorgegeben|Koeffizientenvergleich", format="Rechnung",
+    operator="Ermitteln Sie", antwort="Zahl", material="keins", skizze="keine", kontext="ohne",
+    textumfang="kurz",
+    gegeben="g(x) = x² + px + q mit p,q ∈ ℝ; Nullstellen x1 = −2 und x2 = 1",
+    gesucht="Werte für p und q",
+    verfahren="Produktform g(x) = (x+2)(x−1) ausmultiplizieren und mit x²+px+q vergleichen", schritte="2",
+    zahlenraum="ganz",
+    ergebnis="p = 1, q = −2", niveau_geschaetzt="II",
+    fehlerquelle="beim Ausmultiplizieren von (x+2)(x−1) ein Vorzeichen vertauschen")
+
+row(id="2024-GYM-K4a", block="Kontext", aufgabe="4", titel="Fruchtfliegen", teilaufgabe="a", seite="4",
+    punkte="1", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
+    typ="Funktionswert berechnen",
+    stichwoerter="Anfangswert|Exponentialfunktion", format="Kurzantwort", operator="Geben Sie an",
+    antwort="Zahl", material="keins", skizze="keine", kontext="Biologie", textumfang="kurz",
+    gegeben="f(x) = 200 · 2,5^x für x ≥ 0, x in Tagen",
+    gesucht="Anzahl der Fruchtfliegen zu Beginn des Versuchs",
+    verfahren="f(0) berechnen", schritte="1", zahlenraum="ganz",
+    ergebnis="200 Fruchtfliegen", niveau_geschaetzt="I",
+    fehlerquelle="den Vorfaktor 200 mit dem Wachstumsfaktor 2,5 verwechseln")
+
+row(id="2024-GYM-K4b", block="Kontext", aufgabe="4", titel="Fruchtfliegen", teilaufgabe="b", seite="4",
+    punkte="2", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
+    typ="Funktionswert berechnen",
+    stichwoerter="Fruchtfliegen|Funktionswert", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="keins", skizze="keine", kontext="Biologie", textumfang="kurz",
+    abhaengig_von="2024-GYM-K4a",
+    gegeben="f(x) = 200 · 2,5^x",
+    gesucht="Anzahl der Fruchtfliegen nach 6 Tagen",
+    verfahren="f(6) berechnen", schritte="1", zahlenraum="dezimal",
+    ergebnis="f(6) = 48 828,125, also rund 48 828 Fruchtfliegen", niveau_geschaetzt="I",
+    fehlerquelle="6 mit dem Vorfaktor statt als Exponenten verwenden")
+
+row(id="2024-GYM-K4c", block="Kontext", aufgabe="4", titel="Fruchtfliegen", teilaufgabe="c", seite="4",
+    punkte="4", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
+    typ="Sachaufgabe zu einer Gleichungskette formulieren",
+    stichwoerter="Logarithmus|Rückwärtsaufgabe|Aufgabenstellung formulieren", format="Begründung",
+    operator="Erläutern Sie", antwort="Text", material="keins", skizze="keine", kontext="Biologie",
+    textumfang="mittel", abhaengig_von="2024-GYM-K4a",
+    gegeben="Gleichungskette: (1) 500 000 = 200 · 2,5^x; (2) x = log_2,5(2500); (3) x ≈ 9",
+    gesucht="Erläuterung der drei Gleichungen; passende Aufgabenstellung",
+    verfahren="Gleichung (1) setzt f(x) mit dem Zielwert 500 000 gleich; Division durch 200 und "
+              "Logarithmieren zur Basis 2,5 liefert (2); (3) ist der gerundete Zahlenwert",
+    schritte="1",
+    ergebnis="Aufgabenstellung z. B.: „Bestimmen Sie, nach wie vielen Tagen sich die Population auf "
+             "500 000 Fruchtfliegen vermehrt hat.“ – Antwort: nach etwa 9 Tagen", niveau_geschaetzt="III",
+    fehlerquelle="die Bedeutung des Logarithmus in Gleichung (2) nicht erklären, sondern nur das "
+                 "Ergebnis (3) wiederholen")
+
+row(id="2024-GYM-K4d", block="Kontext", aufgabe="4", titel="Fruchtfliegen", teilaufgabe="d", seite="5",
+    punkte="5", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
+    typ="Parameter einer Exponentialfunktion aus einer Wertetabelle bestimmen",
+    stichwoerter="Wachstumsfaktor|Wertetabelle|Wachstumsvergleich", format="Rechnung|Begründung",
+    operator="Bestimmen Sie|Beschreiben Sie", antwort="Term|Text", material="Tabelle",
+    skizze="keine", kontext="Biologie", textumfang="mittel", abhaengig_von="2024-GYM-K4a",
+    gegeben="g(x) = a · b^x; Tabelle: g(0) = 550, g(6) = 25 875",
+    gesucht="Gleichung von g; Beschreibung des Effekts der geänderten Bedingungen",
+    verfahren="a = g(0) = 550; b^6 = 25875:550 = 47,045..., also b = ⁶√47,045...; Vergleich von b mit "
+              "dem Wachstumsfaktor 2,5 aus Teilaufgabe a", schritte="2", zahlenraum="dezimal",
+    ergebnis="g(x) = 550 · 1,9^x; die geänderten Bedingungen führten zu einem langsameren Wachstum "
+             "(Faktor 1,9 statt 2,5), aber weiterhin zu einem größeren Anfangswert (550 statt 200)",
+    niveau_geschaetzt="III",
+    fehlerquelle="beim Wurzelziehen die sechste Wurzel mit einer Division durch 6 verwechseln")
+
+row(id="2024-GYM-K5a", block="Kontext", aufgabe="5", titel="Wasser - eine wertvolle Ressource",
+    teilaufgabe="a", seite="6", punkte="3", leitidee="Zahlen und Operationen", thema="Prozentrechnung",
+    typ="Prozentuale Abweichung eines Werts von einem Vergleichswert berechnen",
+    stichwoerter="Niederschlag|langjährige Mittelwerte|Abweichung", format="Rechnung",
+    operator="Ermitteln Sie", antwort="Zahl", material="Diagramm",
+    skizze="Säulendiagramm der langjährigen monatlichen Mittelwerte des Niederschlags (Januar bis "
+           "Dezember): 61, 49, 57, 58, 71, 85, 78, 77, 61, 56, 66, 70 Liter je Quadratmeter",
+    kontext="Umwelt", textumfang="kurz",
+    gegeben="Summe der langjährigen Monatsmittelwerte (aus dem Diagramm): 789 L/m²; Niederschlag 2022: "
+            "675 L/m²",
+    gesucht="prozentuale Abweichung des Jahres 2022 von der Summe der langjährigen Mittelwerte",
+    verfahren="(675 − 789) : 789 · 100 %", schritte="2", zahlenraum="dezimal", einheiten="L/m²|Prozent",
+    ergebnis="≈ −14,4 % (also rund 14,4 % weniger Niederschlag als im langjährigen Mittel)",
+    niveau_geschaetzt="III",
+    fehlerquelle="die Monatswerte im Diagramm falsch ablesen oder addieren, oder die Abweichung auf 675 "
+                 "statt auf 789 beziehen")
+
+row(id="2024-GYM-K5b", block="Kontext", aufgabe="5", titel="Wasser - eine wertvolle Ressource",
+    teilaufgabe="b", seite="7", punkte="3", leitidee="Daten und Zufall", thema="Kenngrößen",
+    typ="Mehrere Kenngrößen zweier Datenreihen vergleichend bestimmen",
+    stichwoerter="Spannweite|Mittelwert|Median|Klimavergleich", format="Rechnung",
+    operator="Bestimmen Sie", antwort="Zahl", material="Tabelle|Diagramm",
+    skizze="wie 2024-GYM-K5a; zusätzlich Tabelle der Monatswerte 2022: 60, 80, 20, 55, 50, 60, 35, 50, "
+           "100, 50, 50, 65", kontext="Umwelt", textumfang="mittel", abhaengig_von="2024-GYM-K5a",
+    gegeben="Monatswerte 2022 (Summe 675 L/m²) und langjährige Monatsmittelwerte (Summe 789 L/m², aus "
+            "Teilaufgabe a)",
+    gesucht="drei Kennwerte von 2022 im Vergleich zu den langjährigen Mittelwerten",
+    verfahren="Spannweite, arithmetisches Mittel und Median beider Reihen berechnen und gegenüberstellen",
+    schritte="3", zahlenraum="dezimal", einheiten="L/m²",
+    ergebnis="Spannweite 2022 = 80 (langjährig 36); Mittelwert 2022 = 56,25 (langjährig 65,75); Median "
+             "2022 = 52,5 (langjährig 63,5) – 2022 zeigt größere Schwankungen bei insgesamt weniger "
+             "Niederschlag", niveau_geschaetzt="III",
+    fehlerquelle="beim Median die unsortierte Liste verwenden")
+
+row(id="2024-GYM-K6a", block="Kontext", aufgabe="6", titel="Marder", teilaufgabe="a", seite="8",
+    punkte="5", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Winkel als Differenz zweier Teilwinkel in einem zusammengesetzten rechtwinkligen Dreieck "
+        "nachweisen",
+    typ_neben="Winkel im rechtwinkligen Dreieck berechnen",
+    stichwoerter="Wildkamera|zusammengesetztes Dreieck|Höhe", format="Rechnung|Rechnung",
+    operator="Zeigen Sie|Berechnen Sie", antwort="Text|Zahl", material="Figur",
+    skizze="Wildkamera in Höhe h am Baum bei D über C (rechter Winkel bei C); A und B liegen auf der "
+           "Standlinie, AB = 8 m (Aufnahmebereich); Winkel bei A zwischen AB und AD = 6,3°; Winkel bei D "
+           "zwischen DC und DB = 60°; nicht maßstabsgerecht",
+    kontext="Natur/Umwelt", textumfang="mittel",
+    gegeben="rechtwinkliges Dreieck ACD (rechter Winkel bei C) mit Winkel bei A = 6,3°; Winkel BDC = 60° "
+            "im Teildreieck BCD (rechter Winkel bei C); AB = 8 m",
+    gesucht="Nachweis, dass Winkel ADB = 23,7° beträgt; Höhe h der Wildkamera",
+    verfahren="Winkel ADC = 90° − 6,3° = 83,7° (Winkelsumme im Dreieck ACD); Winkel ADB = Winkel ADC − "
+              "Winkel BDC = 83,7° − 60°; für die Höhe: AC = h:tan(6,3°) und BC = h·tan(60°), mit AC = AB "
+              "+ BC ergibt sich h aus 8 = h:tan(6,3°) − h·tan(60°)", schritte="3", zahlenraum="dezimal",
+    einheiten="Grad|m", ergebnis="Winkel ADB = 23,7° bestätigt; h ≈ 1,09 m", niveau_geschaetzt="III",
+    fehlerquelle="AC mit AB gleichsetzen und BC bei der Streckenaddition vergessen")
+
+row(id="2024-GYM-K6b", block="Kontext", aufgabe="6", titel="Marder", teilaufgabe="b", seite="9",
+    punkte="2", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit mehrstufig",
+    typ="Wahrscheinlichkeit mehrstufig unabhängig",
+    stichwoerter="Marder|Gegenwahrscheinlichkeit|unabhängige Nächte", format="Rechnung",
+    operator="Berechnen Sie", antwort="Zahl", material="keins", skizze="keine", kontext="Natur/Umwelt",
+    textumfang="kurz",
+    gegeben="an 20 % der Nächte wird mindestens ein Marder fotografiert; drei aufeinanderfolgende, "
+            "unabhängige Nächte",
+    gesucht="Wahrscheinlichkeit, dass an keiner der drei Nächte ein Marder fotografiert wird",
+    verfahren="P(kein Marder an einer Nacht) = 1 − 0,2 = 0,8; für drei unabhängige Nächte: 0,8³",
+    schritte="1", zahlenraum="Prozent",
+    ergebnis="0,8³ = 0,512 = 51,2 %", niveau_geschaetzt="II",
+    fehlerquelle="0,2³ statt 0,8³ berechnen")
+
+row(id="2024-GYM-K6c", block="Kontext", aufgabe="6", titel="Marder", teilaufgabe="c", seite="9",
+    punkte="2", leitidee="Daten und Zufall", thema="Zählen und Kombinatorik",
+    typ="Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen",
+    stichwoerter="Wochentage|Ankreuzen|Kombination", format="Rechnung", operator="Ermitteln Sie",
+    antwort="Zahl", material="Tabelle", skizze="keine", kontext="Natur/Umwelt", textumfang="kurz",
+    gegeben="7 Wochentage, davon werden 4 verschiedene angekreuzt (Reihenfolge ohne Bedeutung)",
+    gesucht="Anzahl der Möglichkeiten, 4 von 7 Wochentagen anzukreuzen",
+    verfahren="Kombination ohne Wiederholung: C(7,4)", schritte="1", zahlenraum="ganz",
+    ergebnis="35 Möglichkeiten", niveau_geschaetzt="II",
+    fehlerquelle="die Reihenfolge der angekreuzten Tage mitzählen und mit der Variationenformel statt "
+                 "der Kombinationsformel rechnen")
 # Feldkorrektur an vorhandenen Typen: typ -> {feld: neuer Wert}; siehe Kopf.
 TYPEN_KORREKTUR = {
     "Behauptung prüfen": {
