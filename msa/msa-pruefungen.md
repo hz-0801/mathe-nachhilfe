@@ -46,13 +46,14 @@ Hefte Gymnasium (papier GYM), seit 23.09.2026 Bestand (konzept.md Entscheidung 1
 | 2022 | 22_P10_Ma_Gym_Aufgaben_1_und_2.pdf, 22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | GYM | 3+9 | 165 | 50 | erfasst 2026-09-23, 17 Zeilen (4 Basis, 13 Kontext) |
 | 2023 | 23_P10_Ma_Gym_A1.pdf, 23_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 165 | 50 | erfasst 2026-09-23, 18 Zeilen (4 Basis, 14 Kontext) |
 | 2024 | 24_P10_Ma_Gym_A1.pdf, 24_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | erfasst 2026-09-23, 16 Zeilen (3 Basis, 13 Kontext) |
-| 2025 | 25_P10_Ma_Gym_A1.pdf, 25_P10_Ma_Gym_A2.pdf | GYM | 3+8 | 135 | 50 | – |
+| 2025 | 25_P10_Ma_Gym_A1.pdf, 25_P10_Ma_Gym_A2.pdf | GYM | 3+8 | 135 | 50 | erfasst 2026-09-23, 20 Zeilen (4 Basis, 16 Kontext) |
 
 Katalogdatei msa-katalog-gym.csv (beide Blöcke, Feld block trennt sie); Quelle wie OS/EBR/FOR (§ 1), lokal unter hefte/msa/sonstiges/ (msa-quellen.md § 5). Stand der laufenden Erfassung: msa/gym-stand.md.
 
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-23 (Auftrag Gymnasialhefte): Heft 2025 GYM erfasst (20 Zeilen: 4 Basis, 16 Kontext; 10 Typen neu). Letztes Heft des Auftrags – alle zwölf Jahrgänge 2014–2025 sind nun erfasst. Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2024 GYM erfasst (16 Zeilen: 3 Basis, 13 Kontext; 8 Typen neu). Gesamtbearbeitungszeit wieder 135 Minuten (nicht 165 wie 2021–2023). Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2023 GYM erfasst (18 Zeilen: 4 Basis, 14 Kontext; 7 Typen neu, einer davon – „Parabel an der x-Achse spiegeln" – bereits im Bestand vorhanden und wiederverwendet statt neu angelegt). Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2022 GYM erfasst (17 Zeilen: 4 Basis, 13 Kontext; 10 Typen neu). Gesamtbearbeitungszeit 165 Minuten wie 2021. Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
