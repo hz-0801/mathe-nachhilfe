@@ -58,12 +58,12 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2014",
+    "jahr": "2015",
     "papier": "GYM",     # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM (msa.md § 4)
-    "datei": "14_P10_Gym_Ma_A_Set1.pdf",  # einteiliges Heft (2014–2018 ein Heft, msa.md § 3)
+    "datei": "15_P10_Ma_Gym_A.pdf",  # einteiliges Heft (2014–2018 ein Heft, msa.md § 3)
     "dateien": [],
     "seiten": 7,
-    "soll": {"1": 10, "2": 10, "3": 8, "4": 10, "5": 12},
+    "soll": {"1": 10, "2": 11, "3": 10, "4": 10, "5": 9},
     "soll_gesamt": 50,
 }
 
@@ -88,344 +88,371 @@ def row(**kw):
 
 # Neue Typen: (typ, leitidee, thema, definition, beispiel_id)
 NEUE_TYPEN = [
-    ("Kreisumfang berechnen", "Größen und Messen", "Flächeninhalt und Umfang",
-     "Umfang eines Kreises aus dem Durchmesser oder Radius berechnen (U = π·d bzw. U = 2π·r).",
-     "2014-GYM-B1a"),
-    ("Antiproportionale Zuordnung Dreisatz", "Gleichungen und Funktionen", "Zuordnungen proportional und antiproportional",
-     "Bei einer antiproportionalen Zuordnung (z. B. Vorrat für mehr oder weniger Personen oder Tiere) aus "
-     "einem Wertepaar über das konstante Produkt den fehlenden vierten Wert bestimmen.",
-     "2014-GYM-B1c"),
-    ("Fehlenden Wert aus Spannweite bestimmen", "Daten und Zufall", "Kenngrößen",
-     "Aus der vorgegebenen Spannweite und den übrigen Werten einer Liste den fehlenden Wert (neues Maximum "
-     "oder Minimum) bestimmen.",
-     "2014-GYM-B1e"),
-    ("Prozentanteil einer Rasterfläche markieren", "Zahlen und Operationen", "Prozentrechnung",
-     "In einem Rechteckraster aus gleich großen Kästchen die zu einem vorgegebenen Prozentsatz gehörende "
-     "Anzahl an Kästchen markieren.",
-     "2014-GYM-B1g"),
-    ("Lage zweier Geraden bestimmen", "Gleichungen und Funktionen", "Lineare Funktionen",
-     "Aus den Gleichungen zweier linearer Funktionen (Steigung, y-Achsenabschnitt) entscheiden, ob sich die "
-     "Geraden schneiden, parallel oder identisch sind.",
-     "2014-GYM-B1i"),
-    ("Gerade an der x-Achse spiegeln", "Gleichungen und Funktionen", "Lineare Funktionen",
-     "Spiegelbild einer linearen Funktion an der x-Achse zeichnen und die Gleichung des Spiegelbilds angeben "
-     "(Vorzeichenwechsel des gesamten Funktionsterms).",
-     "2014-GYM-K2b"),
-    ("Gerade an der y-Achse spiegeln", "Gleichungen und Funktionen", "Lineare Funktionen",
-     "Erläutern oder angeben, wie sich die Gleichung einer linearen Funktion bei Spiegelung an der y-Achse "
-     "ändert (Vorzeichenwechsel der Steigung, y-Achsenabschnitt bleibt gleich).",
-     "2014-GYM-K2b"),
-    ("Parabelgleichung aus Scheitel und Punkt bestimmen", "Gleichungen und Funktionen", "Quadratische Funktionen",
-     "Koeffizienten a, b, c einer Parabel p(x) = ax² + bx + c aus dem Scheitelpunkt und einem weiteren Punkt "
-     "des Graphen bestimmen und den Graphen zeichnen.",
-     "2014-GYM-K2c"),
-    ("Datenreihen anhand von Kenngrößen vergleichen und begründen", "Daten und Zufall", "Kenngrößen",
-     "Zwei Datenreihen mit gleichem oder unterschiedlichem Mittelwert anhand einer weiteren Kenngröße (z. B. "
-     "der Spannweite) vergleichen und eine Entscheidung begründen.",
-     "2014-GYM-K3b"),
-    ("Maximale ganzzahlige Menge aus Grenzwert berechnen", "Zahlen und Operationen", "Runden und Überschlag",
-     "Aus einer Höchstmenge (z. B. Dosisgrenze) und der Menge je Einheit (Kapsel, Packung) die größte ganze "
-     "Anzahl an Einheiten bestimmen, die die Grenze nicht überschreitet (Abrunden).",
-     "2014-GYM-K4a"),
-    ("Graph eines exponentiellen Vorgangs zeichnen", "Gleichungen und Funktionen", "Exponentialfunktionen und Wachstum",
-     "Punkte eines exponentiellen Wachstums- oder Zerfallsprozesses aus einer Wertetabelle oder "
-     "Rekursionsvorschrift in ein vorgegebenes Koordinatensystem eintragen.",
-     "2014-GYM-K4b"),
-    ("Zeit aus Exponentialgleichung berechnen", "Gleichungen und Funktionen", "Exponentialfunktionen und Wachstum",
-     "Aus einer Exponentialgleichung a · b^t = c den Exponenten t durch Logarithmieren berechnen.",
-     "2014-GYM-K4c"),
-    ("Winkel im allgemeinen Dreieck über Kosinussatz berechnen", "Größen und Messen", "Sinussatz",
-     "Im allgemeinen Dreieck einen Winkel aus den drei gegebenen Seiten mit dem Kosinussatz berechnen.",
-     "2014-GYM-K5b"),
-    ("Transportanzahl aus Volumen und Masse berechnen", "Größen und Messen", "Volumen und Oberfläche",
-     "Aus einem Gesamtvolumen, der Dichte und einer maximalen Ladekapazität die Anzahl der nötigen "
-     "Transportfahrten (aufgerundet) berechnen.",
-     "2014-GYM-K5c"),
+    ("Graph einer trigonometrischen Funktion durch Streckung und Verschiebung beschreiben",
+     "Gleichungen und Funktionen", "Trigonometrische Funktionen",
+     "Beschreiben, wie der Graph einer trigonometrischen Funktion durch Streckung in y-Richtung und "
+     "Verschiebung aus einer gegebenen trigonometrischen Funktion hervorgeht, und eine passende Gleichung "
+     "notieren.",
+     "2015-GYM-K2a"),
+    ("Eigenschaften trigonometrischer Funktionen vergleichen", "Gleichungen und Funktionen", "Trigonometrische Funktionen",
+     "Zwei trigonometrische Funktionen anhand einer unterscheidenden Eigenschaft (z. B. Amplitude, "
+     "Wertebereich, Achsenschnittpunkt) vergleichen.",
+     "2015-GYM-K2b"),
+    ("Umfang eines Dreiecks aus Koordinaten berechnen", "Raum und Form", "Ebene Figuren und Winkel",
+     "Umfang eines im Koordinatensystem gegebenen Dreiecks berechnen, indem die drei Seitenlängen aus den "
+     "Eckpunktkoordinaten (ggf. über den Satz des Pythagoras) bestimmt und addiert werden.",
+     "2015-GYM-K2c"),
+    ("Gleichung einer Senkrechten aufstellen", "Gleichungen und Funktionen", "Lineare Funktionen",
+     "Gleichung einer Geraden aufstellen, die durch einen gegebenen Punkt verläuft und senkrecht zu einer "
+     "gegebenen Strecke oder Geraden ist (Steigung als negativer Kehrwert).",
+     "2015-GYM-K2d"),
+    ("Kugeloberfläche berechnen", "Größen und Messen", "Volumen und Oberfläche",
+     "Oberfläche einer Kugel aus Radius oder Durchmesser mit O = 4 · π · r² berechnen.",
+     "2015-GYM-K4c"),
+    ("Seite im allgemeinen Dreieck über Kosinussatz berechnen", "Größen und Messen", "Sinussatz",
+     "Im allgemeinen Dreieck eine Seite aus den zwei anliegenden Seiten und dem eingeschlossenen Winkel mit "
+     "dem Kosinussatz berechnen.",
+     "2015-GYM-K5a"),
+    ("Sinussatz Winkel berechnen", "Größen und Messen", "Sinussatz",
+     "Im allgemeinen Dreieck einen Winkel mit dem Sinussatz aus zwei Seiten und dem einer der Seiten "
+     "gegenüberliegenden Winkel berechnen.",
+     "2015-GYM-K5b"),
+    ("Maximale Anzahl rechteckiger Objekte auf einer Fläche bestimmen", "Größen und Messen", "Flächeninhalt und Umfang",
+     "Auf einer rechteckigen Fläche die größtmögliche Anzahl gleich großer rechteckiger Objekte (Längs- oder "
+     "Querformat) durch Anordnen bestimmen.",
+     "2015-GYM-K5c"),
 ]
 
-row(id="2014-GYM-B1a", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="a", seite="2",
-    punkte="1", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang", typ="Kreisumfang berechnen",
-    stichwoerter="Kreis|Umfang|Durchmesser", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="kreisförmige Uhr mit Durchmesser 15 cm", gesucht="Umfang der Uhr",
-    verfahren="U = π · d = π · 15", schritte="1", zahlenraum="ganz|dezimal", einheiten="cm",
-    ergebnis="47,12 cm", niveau_geschaetzt="I",
-    fehlerquelle="Radius statt Durchmesser einsetzen (U = π·r statt π·d)")
+row(id="2015-GYM-B1a", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="a", seite="2",
+    punkte="1", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit einstufig",
+    typ="Zufallsgerät zu Wahrscheinlichkeit entwerfen",
+    stichwoerter="Topf|Laplace|50 Prozent", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
+    material="Foto",
+    skizze="drei Töpfe mit je 6 Kugeln: Topf 1 vier weiße/zwei dunkle, Topf 2 zwei weiße/vier dunkle, "
+           "Topf 3 drei weiße/drei dunkle",
+    kontext="Glücksspiel", textumfang="kurz",
+    gegeben="drei Töpfe mit je 6 Kugeln in unterschiedlicher Verteilung weiß/dunkel (Topf 1: 4w/2d, Topf 2: "
+            "2w/4d, Topf 3: 3w/3d)",
+    gesucht="Topf mit P(weiß) = 50 %",
+    verfahren="Anteil weißer Kugeln je Topf bilden und mit 50 % vergleichen: 4/6, 2/6, 3/6",
+    schritte="1", zahlenraum="Bruch|Prozent", ergebnis="Topf 3 (3 von 6 Kugeln weiß)", niveau_geschaetzt="II",
+    fehlerquelle="Topf mit den meisten weißen Kugeln wählen statt den mit dem Anteil 50 %",
+    bemerkung="Kugelzahl je Topf (6) durch Auszählen der Abbildung bestimmt, nicht im Text genannt.")
 
-row(id="2014-GYM-B1b", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="b", seite="2",
+row(id="2015-GYM-B1b", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="b", seite="2",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Rationale Zahlen rechnen", typ="Zahl zu Bedingung angeben",
+    stichwoerter="rationale Zahl|Bedingung|negativ", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Bedingung: Zahl größer als −150", gesucht="eine passende Zahl",
+    verfahren="eine beliebige Zahl > −150 wählen, z. B. −140", schritte="1", zahlenraum="negativ",
+    ergebnis="−140 (Beispiel; jede Zahl > −150 ist richtig)", niveau_geschaetzt="I",
+    fehlerquelle="Betrag statt Vorzeichen vergleichen (z. B. −200 als „größer“ werten)")
+
+row(id="2015-GYM-B1c", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="c", seite="2",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Brüche und Dezimalzahlen",
+    typ="Zahlen in verschiedenen Darstellungen vergleichen",
+    stichwoerter="Bruch|Dezimalzahl|Wurzel|Vergleich", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="drei Aussagen: 1,5 < 3/2; 8/5 > 3/2; √2 > 3/2",
+    gesucht="wahre Aussage",
+    verfahren="alle Werte als Dezimalzahl: 1,5 = 3/2 (also < falsch); 8/5 = 1,6 > 1,5 (wahr); √2 ≈ 1,414 < 1,5 "
+              "(falsch)",
+    schritte="3", zahlenraum="dezimal|Bruch|Wurzel", ergebnis="8/5 > 3/2", niveau_geschaetzt="II",
+    fehlerquelle="1,5 < 3/2 als wahr werten, weil beide Seiten gleich aussehen (Gleichheit übersehen)")
+
+row(id="2015-GYM-B1d", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="d", seite="2",
+    punkte="1", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Winkel an geschnittenen Parallelen bestimmen",
+    stichwoerter="Parallelen|Transversale|Ergänzungswinkel", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
+    material="Figur",
+    skizze="zwei parallele Geraden h (oben) und g (unten), geschnitten von der senkrechten Geraden k; bei h "
+           "der Winkel 53° zwischen k (abwärts) und h, bei g der Winkel α zwischen k (aufwärts) und g, beide "
+           "auf derselben Seite von k",
+    kontext="ohne", textumfang="kurz",
+    gegeben="g ∥ h, Transversale k, Winkel 53° an h zwischen k und h auf der linken Seite",
+    gesucht="Winkel α an g auf derselben Seite von k",
+    verfahren="α und 53° sind Ergänzungswinkel zwischen den Parallelen auf derselben Seite der Transversale: "
+              "α = 180° − 53°",
+    schritte="1", zahlenraum="ganz", einheiten="Grad", ergebnis="α = 127°", niveau_geschaetzt="II",
+    fehlerquelle="α = 53° setzen (Wechselwinkel statt Ergänzungswinkel)")
+
+row(id="2015-GYM-B1e", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="e", seite="2",
     punkte="1", leitidee="Zahlen und Operationen", thema="Zinsrechnung", typ="Prozentwert berechnen",
-    stichwoerter="Zinsen|Zinssatz|Kapital|ein Jahr", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
+    stichwoerter="Zinsen|Konto|ein Jahr", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
     material="keins", skizze="keine", kontext="Bank/Sparen", textumfang="kurz",
-    gegeben="Kapital 2 000 €, Zinssatz 2 % pro Jahr, Laufzeit 1 Jahr", gesucht="Zinsen nach einem Jahr",
-    verfahren="2 000 € · 0,02", schritte="1", zahlenraum="ganz|Prozent", einheiten="€",
-    ergebnis="40 €", niveau_geschaetzt="I",
-    fehlerquelle="Prozentsatz als Wachstumsfaktor statt als Zins berechnen")
+    gegeben="Kontostand 400 €, Zinssatz 2 % im Jahr", gesucht="Zinsen nach einem Jahr",
+    verfahren="400 € · 0,02", schritte="1", zahlenraum="ganz|Prozent", einheiten="€", ergebnis="8 €",
+    niveau_geschaetzt="I", fehlerquelle="2 € statt 2 % vom Kontostand abziehen")
 
-row(id="2014-GYM-B1c", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="c", seite="2",
-    punkte="1", leitidee="Gleichungen und Funktionen", thema="Zuordnungen proportional und antiproportional",
-    typ="Antiproportionale Zuordnung Dreisatz",
-    stichwoerter="Futtervorrat|antiproportional|Dreisatz", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Landwirtschaft", textumfang="kurz",
-    gegeben="Futtervorrat für 4 Pferde reicht 8 Tage", gesucht="Reichdauer für 8 Pferde",
-    verfahren="4 · 8 = 32 (Pferdetage); 32 : 8", schritte="2", zahlenraum="ganz", einheiten="Tage",
-    ergebnis="4 Tage", niveau_geschaetzt="II",
-    fehlerquelle="proportional statt antiproportional rechnen (16 Tage statt 4)")
+row(id="2015-GYM-B1f", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="f", seite="2",
+    punkte="1", leitidee="Daten und Zufall", thema="Kenngrößen", typ="Median bestimmen",
+    stichwoerter="Median|Zentralwert|Messdaten", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
+    material="Tabelle", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Messdaten 5°C; 7°C; 3°C; 8°C; 1°C; 8°C; 5°C", gesucht="Zentralwert (Median)",
+    verfahren="sortieren: 1; 3; 5; 5; 7; 8; 8 (7 Werte), mittlerer Wert (4. von 7)",
+    schritte="2", zahlenraum="ganz", einheiten="°C", ergebnis="5 °C", niveau_geschaetzt="I",
+    fehlerquelle="ohne Sortieren den mittleren Listenwert nehmen")
 
-row(id="2014-GYM-B1d", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="d", seite="2",
-    punkte="1", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
-    typ="Parabelgleichung zu Graph zuordnen",
-    stichwoerter="Parabel|Scheitel|Normalparabel", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
+row(id="2015-GYM-B1g", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="g", seite="3",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Rationale Zahlen rechnen", typ="Vorzeichenregel anwenden",
+    stichwoerter="Vorzeichen|Multiplikation|rationale Zahlen", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Multiplikation zweier rationaler Zahlen mit unterschiedlichen Vorzeichen; drei Antwortmöglichkeiten "
+            "(immer positiv, immer negativ, nicht entscheidbar)",
+    gesucht="wahre Aussage über das Vorzeichen des Ergebnisses",
+    verfahren="Vorzeichenregel: Plus mal Minus ergibt immer Minus", schritte="1",
+    ergebnis="immer negativ", niveau_geschaetzt="I",
+    fehlerquelle="„nicht entscheidbar“ ankreuzen, weil die Beträge unbekannt sind")
+
+row(id="2015-GYM-B1h", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="h", seite="3",
+    punkte="1", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen", typ="Parabel verschieben",
+    stichwoerter="Normalparabel|Verschiebung|Scheitelpunkt", format="Kurzantwort", operator="Geben Sie an", antwort="Term",
     material="Koordinatensystem",
-    skizze="Koordinatensystem x von −2 bis 2, y von −4 bis 1, Gitter 1; Normalparabel mit Scheitel (0|−4) und "
-           "Nullstellen (−2|0) und (2|0)",
+    skizze="Koordinatensystem x von −2 bis 2, y von −1 bis 4, Gitter 1; Normalparabel mit Scheitel (0|0)",
     kontext="ohne", textumfang="kurz",
-    gegeben="Parabel y = x² + c im Koordinatensystem (Scheitel bei y = −4, Nullstellen bei x = ±2); Auswahl "
-            "c = 2, c = −2, c = −4",
-    gesucht="richtiger Wert für c",
-    verfahren="Scheitel der Normalparabel y = x² + c liegt bei (0|c); abgelesen c = −4",
-    schritte="1", zahlenraum="negativ", ergebnis="c = −4", niveau_geschaetzt="I",
-    fehlerquelle="Vorzeichen von c vertauschen (c = 4 statt −4 ablesen)")
+    gegeben="abgebildete Normalparabel, Verschiebung um zwei Einheiten nach rechts",
+    gesucht="Koordinaten des Scheitelpunkts der verschobenen Parabel",
+    verfahren="Scheitel (0|0) um 2 nach rechts: x-Koordinate +2, y-Koordinate unverändert", schritte="1",
+    zahlenraum="ganz", ergebnis="S (2|0)", niveau_geschaetzt="I",
+    fehlerquelle="Verschiebung nach rechts als Verschiebung nach oben deuten (S (0|2))")
 
-row(id="2014-GYM-B1e", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="e", seite="2",
-    punkte="1", leitidee="Daten und Zufall", thema="Kenngrößen", typ="Fehlenden Wert aus Spannweite bestimmen",
-    stichwoerter="Spannweite|Zahlenliste|Maximum", format="Kurzantwort", operator="Ergänzen Sie", antwort="Zahl",
+row(id="2015-GYM-B1i", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="i", seite="3",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Potenzen und Wurzeln", typ="Wurzel eines Quadrats berechnen",
+    stichwoerter="Wurzel|Quadrat|negative Zahl", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
     material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Zahlenliste 13; 18; 21; 21; 24; ___, Spannweite soll 25 sein", gesucht="fehlende Zahl",
-    verfahren="Spannweite = Maximum − Minimum; bei Minimum 13 muss das neue Maximum 13+25=38 sein",
-    schritte="1", zahlenraum="ganz", ergebnis="38?", niveau_geschaetzt="II",
-    fehlerquelle="25 direkt als fehlende Zahl angeben statt zur Spannweite zu ergänzen",
-    bemerkung="Ergebnis unsicher: Die aufsteigende Reihe legt eine sechste, größte Zahl nahe, daher 38 als "
-              "neues Maximum; rechnerisch wäre auch −1 als neues Minimum möglich, im Heft nicht ausgeschlossen.")
+    gegeben="Term √((−4)²); drei Antwortmöglichkeiten (−4, +4, nicht definiert)",
+    gesucht="richtige Aussage", verfahren="(−4)² = 16, √16 = 4 (Wurzel ist nie negativ)", schritte="2",
+    zahlenraum="negativ", ergebnis="√((−4)²) = +4", niveau_geschaetzt="I",
+    fehlerquelle="Quadrieren und Wurzelziehen als sich gegenseitig aufhebend ansehen und −4 ankreuzen")
 
-row(id="2014-GYM-B1f", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="f", seite="2",
-    punkte="1", leitidee="Raum und Form", thema="Ebene Figuren und Winkel", typ="Eigenschaft einer Figur zuordnen",
-    stichwoerter="Trapez|Eigenschaft|parallele Seiten", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="drei Aussagen über Trapeze: rechter Winkel; ein Paar paralleler Seiten; gleich lange Diagonalen",
-    gesucht="einzig richtige Aussage",
-    verfahren="Definitionseigenschaft des Trapezes ist das Paar paralleler Seiten",
-    schritte="1", ergebnis="ein Paar paralleler Seiten", niveau_geschaetzt="I",
-    fehlerquelle="Eigenschaft des Rechtecks oder der Raute mit der des allgemeinen Trapezes verwechseln")
+row(id="2015-GYM-B1j", block="Basis", aufgabe="1", titel="Basisaufgabe", teilaufgabe="j", seite="3",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Brüche und Dezimalzahlen", typ="Bruchteil einer Größe berechnen",
+    stichwoerter="Bruchteil|Fassungsvermögen|Restmenge", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Haushalt", textumfang="kurz",
+    gegeben="Wassertonne 600 Liter Fassungsvermögen, noch zu 2/3 gefüllt", gesucht="nachzufüllende Menge in Litern",
+    verfahren="gefüllt: 600 · 2/3 = 400 l; fehlend: 600 − 400", schritte="2", zahlenraum="ganz|Bruch",
+    einheiten="l", ergebnis="200 l", zwischenergebnis="gefüllt: 400 l", niveau_geschaetzt="II",
+    fehlerquelle="2/3 von 600 als gesuchte Menge angeben, ohne die Differenz zu 600 zu bilden")
 
-row(id="2014-GYM-B1g", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="g", seite="3",
-    punkte="1", leitidee="Zahlen und Operationen", thema="Prozentrechnung",
-    typ="Prozentanteil einer Rasterfläche markieren",
-    stichwoerter="Prozent|Raster|Kästchen markieren", format="Eintragen", operator="Markieren Sie", antwort="Grafik",
-    material="Diagramm", skizze="quadratisches Raster aus 5 mal 5 gleich großen Kästchen (25 Kästchen), unmarkiert",
-    kontext="ohne", textumfang="kurz",
-    gegeben="Raster aus 25 gleich großen Kästchen", gesucht="Markierung von 8 % der Fläche",
-    verfahren="8 % von 25 Kästchen = 2 Kästchen; zwei beliebige Kästchen markieren",
-    schritte="1", zahlenraum="ganz|Prozent", ergebnis="2 von 25 Kästchen markiert", niveau_geschaetzt="II",
-    fehlerquelle="8 Kästchen markieren (Prozentzahl direkt als Kästchenzahl gelesen)")
-
-row(id="2014-GYM-B1h", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="h", seite="3",
-    punkte="2", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang", typ="Quadratseite aus Fläche berechnen",
-    stichwoerter="Rechteck|Quadrat|Flächeninhalt", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Rechteck mit a = 4 cm, b = 16 cm", gesucht="Seite s eines flächengleichen Quadrats",
-    verfahren="A = 4 · 16 = 64; s = √64", schritte="2", zahlenraum="ganz", einheiten="cm",
-    ergebnis="8 cm", zwischenergebnis="A = 64 cm²", niveau_geschaetzt="II",
-    fehlerquelle="Umfang statt Flächeninhalt gleichsetzen")
-
-row(id="2014-GYM-B1i", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="i", seite="3",
-    punkte="1", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen", typ="Lage zweier Geraden bestimmen",
-    stichwoerter="Geraden|parallel|Steigung", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="g(x) = 3x + 7, f(x) = 3x − 7", gesucht="Lagebeziehung der Geraden",
-    verfahren="gleiche Steigung (3), unterschiedlicher y-Achsenabschnitt (7 ≠ −7) → parallel, nicht identisch",
-    schritte="1", ergebnis="Die Geraden sind parallel.", niveau_geschaetzt="II",
-    fehlerquelle="gleiche Steigung sofort als „identisch“ werten, ohne den y-Achsenabschnitt zu vergleichen")
-
-row(id="2014-GYM-K2a", block="Kontext", aufgabe="2", titel="Quadratische und lineare Funktionen", teilaufgabe="a",
-    seite="4", punkte="1", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
-    typ="Eigenschaften eines Graphen beurteilen",
-    stichwoerter="Gerade|Monotonie|fallend", format="Kurzantwort", operator="Geben Sie an", antwort="Text",
-    material="Koordinatensystem",
-    skizze="Koordinatensystem x von −2 bis 6, y von −4 bis 4, Gitter 0,5 (Beschriftung ganzzahlig); Gerade g "
-           "durch (0|3) und (1,5|0), Steigung −2, gezeichnet etwa von (−0,7|4,5) bis (3,8|−4,7)",
-    kontext="ohne", textumfang="kurz",
-    gegeben="Gerade g im Koordinatensystem (Gleichung noch nicht angegeben; g(x) = −2x + 3)",
-    gesucht="Monotonieverhalten von g", verfahren="Steigung von g ist negativ (Graph fällt von links nach rechts)",
-    schritte="1", ergebnis="streng monoton fallend", niveau_geschaetzt="I",
-    fehlerquelle="aus der Lage im Koordinatensystem statt aus der Steigung auf die Monotonie schließen")
-
-row(id="2014-GYM-K2b", block="Kontext", aufgabe="2", titel="Quadratische und lineare Funktionen", teilaufgabe="b",
-    seite="4", punkte="4", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
-    typ="Gerade an der x-Achse spiegeln", typ_neben="Gerade an der y-Achse spiegeln",
-    stichwoerter="Spiegelung|x-Achse|y-Achse|Geradengleichung", format="Zeichnen|Kurzantwort|Begründung",
-    operator="Zeichnen Sie|Geben Sie an|Erläutern Sie", antwort="Grafik|Term|Text",
-    material="Koordinatensystem",
-    skizze="Spiegelbild g' von g an der x-Achse einzeichnen: Gerade durch (0|−3) und (1,5|0), Steigung 2",
+row(id="2015-GYM-K2a", block="Kontext", aufgabe="2", titel="Funktionen", teilaufgabe="a", seite="4",
+    punkte="4", leitidee="Gleichungen und Funktionen", thema="Trigonometrische Funktionen",
+    typ="Graph einer trigonometrischen Funktion durch Streckung und Verschiebung beschreiben",
+    stichwoerter="Sinusfunktion|Streckung|Verschiebung", format="Begründung|Kurzantwort",
+    operator="Beschreiben Sie|Notieren Sie", antwort="Text|Term", material="Koordinatensystem",
+    skizze="Koordinatensystem x von −2 bis 6, y von −2 bis 6; durchgezogener Graph f mit Amplitude 2, "
+           "Periode 4, Nullstelle bei O; gestrichelter Graph g mit Amplitude 4, Periode 4, "
+           "y-Achsenabschnitt P(0|2); Punkt R(5|2) auf f",
     kontext="ohne", textumfang="mittel",
-    gegeben="Gerade g: g(x) = −2x + 3 (aus a) bestimmt); g soll an der x-Achse, danach an der y-Achse "
-            "gespiegelt werden",
-    gesucht="Spiegelbild g' und seine Gleichung; Vorgehen zur Gleichung von g'' ohne Zeichnung",
-    verfahren="Spiegelung an der x-Achse: Vorzeichen des gesamten Funktionsterms wechselt, g'(x) = −g(x) = "
-              "2x − 3; Spiegelung an der y-Achse: x wird durch −x ersetzt, g''(x) = g(−x) = 2x + 3",
-    schritte="2", zahlenraum="negativ", abhaengig_von="2014-GYM-K2a",
-    ergebnis="g'(x) = 2x − 3|x in der Gleichung von g durch −x ersetzen; dadurch wechselt nur das Vorzeichen "
-             "der Steigung, g''(x) = 2x + 3",
-    niveau_geschaetzt="II",
-    fehlerquelle="bei der Spiegelung an der y-Achse zusätzlich das Vorzeichen von n ändern")
+    gegeben="f(x) = 2 · sin(0,5π · x), x ∈ ℝ; Graph von g im selben Koordinatensystem (Maximum 6, Minimum −2, "
+            "y-Achsenabschnitt 2)",
+    gesucht="Beschreibung der Abbildung f → g; eine mögliche Gleichung von g",
+    verfahren="Amplitude verdoppelt sich (2 → 4) und der Graph wird um 2 Einheiten nach oben verschoben: "
+              "g(x) = 2 · f(x) + 2",
+    schritte="2", ergebnis="Streckung in y-Richtung mit Faktor 2, danach Verschiebung um 2 nach oben|"
+                          "g(x) = 4 · sin(0,5π · x) + 2", niveau_geschaetzt="II",
+    fehlerquelle="nur die Verschiebung nennen und die Streckung der Amplitude übersehen")
 
-row(id="2014-GYM-K2c", block="Kontext", aufgabe="2", titel="Quadratische und lineare Funktionen", teilaufgabe="c",
-    seite="4", punkte="5", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
-    typ="Parabelgleichung aus Scheitel und Punkt bestimmen", typ_neben="Parabel aus Gleichung skizzieren",
-    stichwoerter="Parabel|Scheitelpunkt|Koeffizienten", format="Kurzantwort|Zeichnen", operator="Ermitteln Sie|Zeichnen Sie",
-    antwort="Term|Grafik", material="Koordinatensystem",
-    skizze="Parabel p mit Scheitel (1,5|0) und y-Achsenabschnitt (0|3) in dasselbe Koordinatensystem wie g "
-           "einzeichnen",
+row(id="2015-GYM-K2b", block="Kontext", aufgabe="2", titel="Funktionen", teilaufgabe="b", seite="4",
+    punkte="2", leitidee="Gleichungen und Funktionen", thema="Trigonometrische Funktionen",
+    typ="Eigenschaften trigonometrischer Funktionen vergleichen",
+    stichwoerter="Amplitude|Wertebereich|Vergleich", format="Kurzantwort", operator="Nennen Sie", antwort="Text",
+    material="Koordinatensystem", skizze="dasselbe Koordinatensystem wie in a)", kontext="ohne", textumfang="kurz",
+    gegeben="Graphen von f und g aus a)", gesucht="eine unterscheidende Eigenschaft, für beide Funktionen angegeben",
+    verfahren="Amplitude vergleichen: f hat Amplitude 2, g hat Amplitude 4 (bzw. Wertebereich f: [−2;2], "
+              "g: [−2;6])",
+    schritte="1", abhaengig_von="2015-GYM-K2a",
+    ergebnis="f: Amplitude 2 (Wertebereich [−2;2])|g: Amplitude 4 (Wertebereich [−2;6])",
+    niveau_geschaetzt="II", fehlerquelle="Periode als Unterscheidungsmerkmal nennen, obwohl sie bei f und g "
+                                         "gleich ist")
+
+row(id="2015-GYM-K2c", block="Kontext", aufgabe="2", titel="Funktionen", teilaufgabe="c", seite="4",
+    punkte="2", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Umfang eines Dreiecks aus Koordinaten berechnen",
+    stichwoerter="Dreieck|Umfang|Koordinaten", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="Koordinatensystem", skizze="dasselbe Koordinatensystem wie in a), Dreieck O(0|0), P(0|2), R(5|2)",
     kontext="ohne", textumfang="mittel",
-    gegeben="Scheitelpunkt von p liegt auf dem Schnittpunkt von g mit der x-Achse (1,5|0); Graph von p "
-            "schneidet die y-Achse im gleichen Punkt wie g (0|3); p(x) = ax² + bx + c mit a, b, c, x ∈ ℝ, a ≠ 0",
-    gesucht="Koeffizienten a, b, c; Graph von p",
-    verfahren="Scheitelpunktform p(x) = a(x−1,5)²; aus p(0)=3 folgt a·2,25=3, a=4/3; ausmultipliziert "
-              "p(x) = 4/3 x² − 4x + 3",
-    schritte="3", zahlenraum="Bruch|negativ", abhaengig_von="2014-GYM-K2a",
-    ergebnis="a = 4/3, b = −4, c = 3", zwischenergebnis="Scheitel S(1,5|0)", niveau_geschaetzt="III",
-    fehlerquelle="Scheitelpunktform mit a = 1 ansetzen und den zweiten Punkt nicht zur Bestimmung von a nutzen")
+    gegeben="Schnittpunkt P der Funktion g mit der y-Achse, Koordinatenursprung O, Punkt R(5|2); 1 cm = 1 LE",
+    gesucht="Umfang des Dreiecks ORP",
+    verfahren="OP = 2 (senkrecht); PR = 5 (waagerecht); RO = √(5²+2²) = √29 über Pythagoras; Summe der drei "
+              "Seiten",
+    schritte="3", zahlenraum="Wurzel|dezimal", einheiten="LE", abhaengig_von="2015-GYM-K2a",
+    ergebnis="Umfang ≈ 12,39 LE", zwischenergebnis="OP = 2 LE; PR = 5 LE; RO = √29 LE ≈ 5,39 LE",
+    niveau_geschaetzt="II", fehlerquelle="RO als waagerechte oder senkrechte Strecke ohne Pythagoras schätzen")
 
-row(id="2014-GYM-K3a", block="Kontext", aufgabe="3", titel="Sportfest", teilaufgabe="a", seite="5",
+row(id="2015-GYM-K2d", block="Kontext", aufgabe="2", titel="Funktionen", teilaufgabe="d", seite="4",
+    punkte="3", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
+    typ="Gleichung einer Senkrechten aufstellen",
+    stichwoerter="senkrecht|Steigung|Kehrwert", format="Zeichnen|Kurzantwort", operator="Zeichnen Sie|Geben Sie an",
+    antwort="Grafik|Term", material="Koordinatensystem",
+    skizze="Gerade h durch P(0|2) mit Steigung −2,5 in dasselbe Koordinatensystem wie g einzeichnen",
+    kontext="ohne", textumfang="mittel",
+    gegeben="Gerade h verläuft durch P(0|2) und senkrecht zur Dreiecksseite OR (Steigung von OR: 2/5)",
+    gesucht="Gerade h im Koordinatensystem; Gleichung von h",
+    verfahren="Steigung senkrecht: negativer Kehrwert von 2/5 ist −5/2; h durch P(0|2): y = −2,5x + 2",
+    schritte="2", zahlenraum="Bruch|negativ", abhaengig_von="2015-GYM-K2c",
+    ergebnis="h(x) = −2,5x + 2", niveau_geschaetzt="III",
+    fehlerquelle="Steigung von OR unverändert übernehmen statt den negativen Kehrwert zu bilden")
+
+row(id="2015-GYM-K3a", block="Kontext", aufgabe="3", titel="Klassenfahrt", teilaufgabe="a", seite="5",
+    punkte="4", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen", typ="Graph zu Tarif zuordnen",
+    typ_neben="Tarife vergleichen",
+    stichwoerter="Tarifvergleich|Buchungsgebühr|Graph", format="Kurzantwort|Begründung|Rechnung",
+    operator="Ordnen Sie zu|Entscheiden und begründen Sie|Prüfen Sie", antwort="Text|Text|Zahl",
+    material="Diagramm",
+    skizze="Koordinatensystem Fahrtkosten in € (0 bis 800) über Fahrtstrecke in km (0 bis 500); zwei Geraden "
+           "I und II, II mit höherem y-Achsenabschnitt (200) und flacherer Steigung, I durch den Ursprung mit "
+           "steilerer Steigung, Schnittpunkt bei 400 km/800 €",
+    kontext="Reise/Vertrag", textumfang="lang",
+    gegeben="Eurobus: 200 € Buchungsgebühr + 1,50 €/km; Travelbus: 2,00 €/km ohne Grundgebühr; "
+            "Hin- und Rückfahrt 2 · 175 km = 350 km",
+    gesucht="Graph von Eurobus; günstigeres Angebot für 350 km; ob das gewählte Angebot bei zusätzlichen "
+            "100 km (450 km) weiterhin günstiger ist",
+    verfahren="Eurobus (höherer Achsenabschnitt 200, flachere Steigung 1,5) = Graph II; bei 350 km: Eurobus "
+              "200+1,5·350=725 €, Travelbus 2·350=700 € → Travelbus günstiger; Schnittpunkt 200+1,5x=2x → "
+              "x=400 km; bei 450 km: Eurobus 875 €, Travelbus 900 € → Eurobus jetzt günstiger",
+    schritte="4", zahlenraum="dezimal", einheiten="€|km",
+    ergebnis="Eurobus = Graph II|Travelbus ist bei 350 km günstiger (700 € gegen 725 €)|nein, ab 400 km wird "
+             "Eurobus günstiger, bei 450 km ist Eurobus (875 €) günstiger als Travelbus (900 €)",
+    zwischenergebnis="Schnittpunkt bei 400 km / 800 €", niveau_geschaetzt="III",
+    fehlerquelle="das für 350 km günstigere Angebot ohne erneute Rechnung auch für 450 km annehmen")
+
+row(id="2015-GYM-K3b", block="Kontext", aufgabe="3", titel="Klassenfahrt", teilaufgabe="b", seite="5",
+    punkte="3", leitidee="Gleichungen und Funktionen", thema="Lineare Gleichungssysteme",
+    typ="Lineares Gleichungssystem lösen", typ_neben="Lineares Gleichungssystem aufstellen",
+    stichwoerter="Zimmeranzahl|Gleichungssystem|Betten", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
+    material="keins", skizze="keine", kontext="Reise/Vertrag", textumfang="kurz",
+    gegeben="16 Zimmer, 66 Betten, Dreibett- und Fünfbettzimmer",
+    gesucht="Anzahl der Zimmer je Art",
+    verfahren="x+y=16, 3x+5y=66 (x Dreibett-, y Fünfbettzimmer); x=16−y einsetzen: 3(16−y)+5y=66, 2y=18, y=9, "
+              "x=7",
+    schritte="3", zahlenraum="ganz", einheiten="Zimmer",
+    ergebnis="7 Dreibettzimmer, 9 Fünfbettzimmer", niveau_geschaetzt="II",
+    fehlerquelle="66 Betten gleichmäßig auf 16 Zimmer verteilen, ohne die zwei Zimmerarten zu unterscheiden")
+
+row(id="2015-GYM-K3c", block="Kontext", aufgabe="3", titel="Klassenfahrt", teilaufgabe="c", seite="5",
+    punkte="3", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit mehrstufig",
+    typ="Wahrscheinlichkeit mehrstufig ohne Zurücklegen",
+    stichwoerter="Zimmerlosung|ohne Zurücklegen|Dreibettzimmer", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="keins", skizze="keine", kontext="Reise/Vertrag", textumfang="mittel",
+    gegeben="6 Mädchen, zwei Dreibettzimmer, Belegung ausgelost; Lisa zieht zuerst, Petra als zweite",
+    gesucht="Wahrscheinlichkeit, dass beide im gleichen Zimmer landen",
+    verfahren="nach Lisas Zug bleiben 5 Plätze, davon 2 im selben Zimmer wie Lisa; P = 2/5", schritte="2",
+    zahlenraum="Bruch", ergebnis="P = 2/5 = 0,4", niveau_geschaetzt="III",
+    fehlerquelle="mit 1/2 (zwei Zimmer zur Auswahl) statt mit den verbleibenden Plätzen rechnen")
+
+row(id="2015-GYM-K4a", block="Kontext", aufgabe="4", titel="Fingerpuppe", teilaufgabe="a", seite="6",
+    punkte="2", leitidee="Größen und Messen", thema="Trigonometrie im rechtwinkligen Dreieck",
+    typ="Seite im rechtwinkligen Dreieck berechnen",
+    stichwoerter="Kegel|Öffnungswinkel|Tangens", format="Begründung", operator="Zeigen Sie durch Rechnung",
+    antwort="Zahl", material="Figur", skizze="Kegel (Hut) mit Grundkreisradius 1,73 cm, Öffnungswinkel α=60° an "
+                                             "der Spitze, Höhe gesucht", kontext="Basteln", textumfang="mittel",
+    gegeben="Hut ist ein Kreiskegel mit Grundkreisradius ≈ 1,73 cm, Öffnungswinkel α = 60°",
+    gesucht="Nachweis, dass die Höhe des Huts ≈ 3 cm beträgt",
+    verfahren="halber Öffnungswinkel 30° im rechtwinkligen Dreieck aus Höhe und Radius: tan(30°) = r/h, "
+              "h = r : tan(30°) = 1,73 : tan(30°)",
+    schritte="2", zahlenraum="dezimal", einheiten="cm|Grad", ergebnis="h ≈ 3,00 cm", niveau_geschaetzt="II",
+    fehlerquelle="mit dem vollen Öffnungswinkel 60° statt dem halben Winkel 30° rechnen")
+
+row(id="2015-GYM-K4b", block="Kontext", aufgabe="4", titel="Fingerpuppe", teilaufgabe="b", seite="6",
+    punkte="5", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Strecke aus Teilstrecken berechnen", typ_neben="Mantelfläche Kegel berechnen|Mantelfläche Zylinder berechnen",
+    stichwoerter="Gesamthöhe|Mantelfläche|Zeichenkarton", format="Rechnung|Begründung",
+    operator="Berechnen Sie|Entscheiden und begründen Sie", antwort="Zahl|Text", material="Figur",
+    skizze="Fingerpuppe von unten nach oben: Zylinder (Rumpf) 6 cm, Kugel (Kopf) Durchmesser 4 cm zu einem "
+           "Viertel im Hut verborgen, Kegel (Hut) Höhe 3 cm",
+    kontext="Basteln", textumfang="lang",
+    gegeben="Rumpf (Zylinder) Höhe 6 cm, gleicher Radius wie der Hut (1,73 cm); Kugel Durchmesser 4 cm, ein "
+            "Viertel des Durchmessers verschwindet im Hut; Zeichenkarton 11 cm x 15 cm",
+    gesucht="Gesamthöhe der Fingerpuppe; ob der Karton für Hut und Rumpf ausreicht",
+    verfahren="Gesamthöhe = Rumpf (6) + sichtbarer Kugelanteil (4 − 1 = 3) + Huthöhe (3) = 12 cm; "
+              "Mantelfläche Hut = π·r·s mit s=√(1,73²+3²)≈3,46 cm, ≈18,80 cm²; Mantelfläche Rumpf = 2π·r·6 "
+              "≈65,22 cm²; Summe ≈84,02 cm² gegen 165 cm² Karton",
+    schritte="4", zahlenraum="dezimal", einheiten="cm|cm²",
+    ergebnis="Gesamthöhe 12 cm|ja, der Karton reicht (84,02 cm² Bedarf gegen 165 cm² Fläche)",
+    zwischenergebnis="Mantelfläche Hut ≈ 18,80 cm², Mantelfläche Rumpf ≈ 65,22 cm²", niveau_geschaetzt="III",
+    fehlerquelle="beim Zuschnitt keine Nesting-Verluste bedenken oder Grund-/Deckfläche fälschlich mitrechnen "
+                 "(Hut unten, Rumpf oben und unten offen)")
+
+row(id="2015-GYM-K4c", block="Kontext", aufgabe="4", titel="Fingerpuppe", teilaufgabe="c", seite="6",
+    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche", typ="Kugeloberfläche berechnen",
+    typ_neben="Anzahl der Anordnungen bestimmen",
+    stichwoerter="Kugeloberfläche|Farbe|Kombinationen", format="Begründung|Rechnung",
+    operator="Zeigen Sie|Ermitteln Sie", antwort="Zahl|Zahl", material="Foto", skizze="keine",
+    kontext="Basteln", textumfang="mittel",
+    gegeben="Kugel (Kopf) Durchmesser 4 cm; gelbe Farbe reicht für ca. 60 cm²; drei Teile (Hut, Kopf, Rumpf) "
+            "je eine andere Farbe, Kopf ist gelb, für Hut und Rumpf stehen rot, grün, blau zur Verfügung",
+    gesucht="Nachweis, dass die gelbe Farbe für den Kopf reicht; Anzahl möglicher Farbkombinationen",
+    verfahren="Kugeloberfläche O = 4·π·r² = 4·π·2² ≈ 50,27 cm² < 60 cm²; für Hut und Rumpf 2 von 3 Farben in "
+              "Reihenfolge verteilen: 3 · 2 = 6",
+    schritte="3", zahlenraum="dezimal|ganz", einheiten="cm²", abhaengig_von="2015-GYM-K4b",
+    ergebnis="Kugeloberfläche ≈ 50,27 cm², reicht|6 Farbkombinationen", niveau_geschaetzt="III",
+    fehlerquelle="Kugelvolumen statt Kugeloberfläche berechnen, oder die Kopf-Farbe bei den Kombinationen "
+                 "mitzählen")
+
+row(id="2015-GYM-K5a", block="Kontext", aufgabe="5", titel="Solardach", teilaufgabe="a", seite="7",
+    punkte="2", leitidee="Größen und Messen", thema="Sinussatz",
+    typ="Seite im allgemeinen Dreieck über Kosinussatz berechnen",
+    stichwoerter="Kosinussatz|Dachkante|Neigungswinkel", format="Begründung", operator="Zeigen Sie rechnerisch",
+    antwort="Zahl", material="Foto|Figur",
+    skizze="Hausskizze mit Satteldach; am First zwei Kanten der Länge 6 m und 10 m mit eingeschlossenem "
+           "Winkel α=70°, Dachkante s als Gegenseite von α, Winkel β an der Traufe zwischen s und der 10 m "
+           "Kante; Ridge-Länge 12 m",
+    kontext="Bauwesen", textumfang="mittel",
+    gegeben="zwei Dachkanten 6 m und 10 m mit eingeschlossenem Neigungswinkel α = 70°",
+    gesucht="Nachweis, dass die Dachkante s ≈ 9,7 m lang ist",
+    verfahren="Kosinussatz: s² = 6² + 10² − 2·6·10·cos(70°)", schritte="1", zahlenraum="dezimal",
+    einheiten="m|Grad", ergebnis="s ≈ 9,74 m", niveau_geschaetzt="III",
+    fehlerquelle="Satz des Pythagoras statt Kosinussatz ansetzen, obwohl kein rechter Winkel vorliegt",
+    bemerkung="Thema „Sinussatz“ ersatzweise gewählt wie 2014-GYM-K5b: die Themenliste (msa.md § 6) führt "
+              "keine eigene Kosinussatz-Zeile. Deutung der nicht maßstäblichen Skizze: die Zahlenprobe "
+              "(6²+10²−2·6·10·cos70°≈94,96, √94,96≈9,74) bestätigt, dass 6 m und 10 m die α einschließenden "
+              "Seiten sind und die dritte Seite s ist; „10 m“ ist zugleich die mit der großen Dachfläche "
+              "geteilte Kante (Grundlage von c).")
+
+row(id="2015-GYM-K5b", block="Kontext", aufgabe="5", titel="Solardach", teilaufgabe="b", seite="7",
+    punkte="2", leitidee="Größen und Messen", thema="Sinussatz", typ="Sinussatz Winkel berechnen",
+    stichwoerter="Sinussatz|Neigungswinkel|Modul", format="Rechnung", operator="Prüfen Sie", antwort="Zahl",
+    material="Figur", skizze="dasselbe Dreieck wie in a)", kontext="Bauwesen", textumfang="kurz",
+    gegeben="Dreieck mit Seiten 6 m, 10 m, s≈9,74 m und Winkel α=70° gegenüber s; optimaler Neigungswinkel β "
+            "der Module zwischen 30° und 40°",
+    gesucht="Winkel β und ob er im Bereich 30°–40° liegt",
+    verfahren="Sinussatz: sin(β)/6 = sin(70°)/9,74; β = arcsin(6·sin(70°)/9,74)", schritte="2",
+    zahlenraum="dezimal", einheiten="m|Grad", abhaengig_von="2015-GYM-K5a",
+    ergebnis="β ≈ 35,4°, liegt im Bereich 30°–40° → Bedingung erfüllt", niveau_geschaetzt="III",
+    fehlerquelle="6 und 10 in der Sinussatz-Gleichung vertauschen (falscher Gegenwinkel)")
+
+row(id="2015-GYM-K5c", block="Kontext", aufgabe="5", titel="Solardach", teilaufgabe="c", seite="7",
+    punkte="3", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
+    typ="Maximale Anzahl rechteckiger Objekte auf einer Fläche bestimmen",
+    stichwoerter="Solarmodule|Längsformat|Querformat", format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
+    material="Foto", skizze="größere (dunkle) Dachfläche 12 m x 10 m", kontext="Bauwesen", textumfang="mittel",
+    gegeben="größere Dachfläche 12 m x 10 m (a) ergänzt); Solarmodule 1 640 mm x 990 mm, nur einheitlich im "
+            "Längs- oder Querformat verlegbar",
+    gesucht="maximale Anzahl der Solarmodule",
+    verfahren="Längsformat: ⌊12:1,64⌋·⌊10:0,99⌋ = 7·10 = 70; Querformat: ⌊12:0,99⌋·⌊10:1,64⌋ = 12·6 = 72; "
+              "Maximum der beiden Anordnungen",
+    schritte="3", zahlenraum="ganz|dezimal", einheiten="m|mm", abhaengig_von="2015-GYM-K5a",
+    ergebnis="72 Module (Querformat)", zwischenergebnis="Längsformat: 70 Module", niveau_geschaetzt="III",
+    fehlerquelle="Gesamtfläche durch Modulfläche teilen (120 m² : 1,62 m² ≈ 74) statt die beiden Anordnungen "
+                 "seitenweise mit Abrunden zu prüfen")
+
+row(id="2015-GYM-K5d", block="Kontext", aufgabe="5", titel="Solardach", teilaufgabe="d", seite="7",
     punkte="2", leitidee="Daten und Zufall", thema="Kenngrößen", typ="Arithmetisches Mittel berechnen",
-    stichwoerter="Mittelwert|Weitsprung|Vergleich", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Tabelle", skizze="keine", kontext="Sport", textumfang="mittel",
-    gegeben="Weitsprungergebnisse Peter: 4,58 m; 3,97 m; 5,30 m; 7,05 m; 5,55 m. Franz: 5,10 m; 5,55 m; "
-            "5,05 m; 4,30 m; 6,45 m",
-    gesucht="Mittelwert je Sportler", verfahren="Summe der fünf Werte durch 5",
-    schritte="2", zahlenraum="dezimal", einheiten="m", ergebnis="Peter 5,29 m|Franz 5,29 m",
-    niveau_geschaetzt="I", fehlerquelle="durch die Anzahl unterschiedlicher Werte statt durch 5 teilen")
-
-row(id="2014-GYM-K3b", block="Kontext", aufgabe="3", titel="Sportfest", teilaufgabe="b", seite="5",
-    punkte="2", leitidee="Daten und Zufall", thema="Kenngrößen",
-    typ="Datenreihen anhand von Kenngrößen vergleichen und begründen",
-    stichwoerter="Spannweite|Vergleich|Begründung", format="Begründung", operator="Begründen Sie", antwort="Text",
-    material="keins", skizze="keine", kontext="Sport", textumfang="kurz",
-    gegeben="beide Sportler haben denselben Mittelwert (5,29 m); der Sportlehrer delegiert Franz zur "
-            "Kreismeisterschaft",
-    gesucht="Begründung der Entscheidung anhand eines Vergleichs der Ergebnisse",
-    verfahren="Spannweite vergleichen: Peter 7,05−3,97=3,08 m, Franz 6,45−4,30=2,15 m; Franz springt "
-              "gleichmäßiger",
-    schritte="1", zahlenraum="dezimal", einheiten="m", abhaengig_von="2014-GYM-K3a",
-    ergebnis="Franz hat trotz gleichen Mittelwerts die kleinere Spannweite (2,15 m gegen 3,08 m) und damit "
-             "die konstantere Leistung", niveau_geschaetzt="III",
-    fehlerquelle="nur den gleichen Mittelwert vergleichen und keine weitere Kenngröße heranziehen")
-
-row(id="2014-GYM-K3c", block="Kontext", aufgabe="3", titel="Sportfest", teilaufgabe="c", seite="5",
-    punkte="4", leitidee="Daten und Zufall", thema="Zählen und Kombinatorik", typ="Anzahl der Anordnungen bestimmen",
-    typ_neben="Wahrscheinlichkeit einstufig",
-    stichwoerter="Anordnung|Startreihenfolge|Wahrscheinlichkeit", format="Rechnung|Rechnung",
-    operator="Ermitteln Sie|Berechnen Sie", antwort="Zahl|Zahl", material="keins", skizze="keine",
-    kontext="Sport", textumfang="mittel",
-    gegeben="5 Schüler im Finale, Startnummern werden aus einer Urne mit 5 Losen gezogen; Franz ist im Finale",
-    gesucht="Anzahl der möglichen Reihenfolgen; Wahrscheinlichkeit, dass Franz als Erster oder Zweiter startet",
-    verfahren="Anordnungen: 5! = 120; Wahrscheinlichkeit über Symmetrie: jeder Platz für Franz gleich "
-              "wahrscheinlich (1/5), Platz 1 oder 2 also 2/5",
-    schritte="2", zahlenraum="ganz|Bruch", ergebnis="120 Möglichkeiten|P = 2/5 = 0,4", niveau_geschaetzt="II",
-    fehlerquelle="Reihenfolge mit Auswahl verwechseln (5 statt 5! Möglichkeiten) oder Franz auf einen festen "
-                 "Platz setzen")
-
-row(id="2014-GYM-K4a", block="Kontext", aufgabe="4", titel="Im Krankenhaus", teilaufgabe="a", seite="6",
-    punkte="3", leitidee="Zahlen und Operationen", thema="Runden und Überschlag",
-    typ="Maximale ganzzahlige Menge aus Grenzwert berechnen",
-    stichwoerter="Dosis|Körpermasse|Abrunden", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Medizin", textumfang="mittel",
-    gegeben="Einzeldosis 15 mg je kg Körpermasse, Körpermasse 85 kg, eine Kapsel enthält 500 mg",
-    gesucht="Anzahl ganzer Kapseln ohne Gesundheitsgefährdung",
-    verfahren="Grenzmenge 85 · 15 = 1 275 mg; 1 275 : 500 = 2,55, abgerundet 2 Kapseln",
-    schritte="2", zahlenraum="ganz|dezimal", einheiten="mg|kg", ergebnis="2 Kapseln", niveau_geschaetzt="II",
-    fehlerquelle="auf 3 Kapseln aufrunden statt aus Sicherheitsgründen abzurunden")
-
-row(id="2014-GYM-K4b", block="Kontext", aufgabe="4", titel="Im Krankenhaus", teilaufgabe="b", seite="6",
-    punkte="4", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
-    typ="Graph eines exponentiellen Vorgangs zeichnen", typ_neben="Funktionswert berechnen|Wachstumsart begründen",
-    stichwoerter="exponentieller Zerfall|Halbierung|Diagramm", format="Zeichnen|Rechnung|Begründung",
-    operator="Zeichnen Sie|Ermitteln Sie|Begründen Sie", antwort="Grafik|Zahl|Text", material="Diagramm",
-    skizze="Diagramm Masse in mg (0 bis 600, Gitter 100) über Zeit in Stunden (0 bis 6); einzutragen die "
-           "Punkte (1|500), (2|250), (3|125), (4|62,5), (5|31,25)",
-    kontext="Medizin", textumfang="lang",
-    gegeben="1 Kapsel mit 500 mg, vollständige Aufnahme nach 1 Stunde, danach Halbierung der Masse je Stunde",
-    gesucht="Verlauf des Abbaus für vier Stunden ab t=1h; Masse drei Stunden nach der Einnahme; Begründung "
-            "für exponentiellen Zerfall",
-    verfahren="je Stunde Halbierung: 500, 250, 125, 62,5, 31,25 mg; bei t=3h (zwei Halbierungen nach t=1h) "
-              "500 · 0,5² = 125 mg; konstanter Verhältnisfaktor 0,5 je Stunde statt konstanter Differenz "
-              "kennzeichnet den exponentiellen Zerfall",
-    schritte="3", zahlenraum="dezimal", einheiten="mg|h", abhaengig_von="2014-GYM-K4a",
-    ergebnis="Punkte (1|500) bis (5|31,25)|125 mg|gleichbleibender Faktor 0,5 je Stunde statt konstanter "
-             "Differenz", niveau_geschaetzt="II",
-    fehlerquelle="„drei Stunden nach der Einnahme“ mit „drei Stunden nach Abbaubeginn“ verwechseln (dann "
-                 "62,5 mg statt 125 mg)",
-    bemerkung="Zeitpunkt „drei Stunden nach der Einnahme“ ab t=0 (Einnahme) gezählt, nicht ab t=1 "
-              "(Abbaubeginn); daher t=3 in f(t).")
-
-row(id="2014-GYM-K4c", block="Kontext", aufgabe="4", titel="Im Krankenhaus", teilaufgabe="c", seite="6",
-    punkte="3", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
-    typ="Zeit aus Exponentialgleichung berechnen",
-    stichwoerter="Exponentialgleichung|Logarithmus|Abbauzeit", format="Rechnung", operator="Berechnen Sie",
-    antwort="Zahl", material="keins", skizze="keine", kontext="Medizin", textumfang="mittel",
-    gegeben="f(t) = 1 000 · 0,5^t mit t ≥ 1, f(t) Masse des Wirkstoffes in mg, t Zeit in Stunden ab Einnahme",
-    gesucht="Zeit t, zu der die Masse auf 5 mg gesunken ist",
-    verfahren="1 000 · 0,5^t = 5; 0,5^t = 0,005; t = log(0,005) : log(0,5)",
-    schritte="3", zahlenraum="dezimal", einheiten="mg|h", abhaengig_von="2014-GYM-K4b",
-    ergebnis="t ≈ 7,64 h", niveau_geschaetzt="III",
-    fehlerquelle="Gleichung durch schrittweises Halbieren statt durch Logarithmieren lösen und dabei nur "
-                 "ganze Stunden probieren")
-
-row(id="2014-GYM-K5a", block="Kontext", aufgabe="5", titel="Abraumhalde", teilaufgabe="a", seite="7",
-    punkte="4", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang", typ="Kreisfläche berechnen",
-    typ_neben="Flächeninhalt zusammengesetzter Figur berechnen",
-    stichwoerter="Halbkegel|Pyramide|Bodenfläche", format="Rechnung", operator="Ermitteln Sie", antwort="Zahl",
-    material="Foto|Figur",
-    skizze="räumliche Skizze: Kegelspitze S über Halbkreisgrundfläche mit Mittelpunkt M, Radius DM=154 m; "
-           "D und A als Endpunkte des Durchmessers; Pyramide mit Grundpunkten A, B (und Bogenpunkt C) und "
-           "Spitze S; Winkel α bei D, Winkel β bei S zwischen SD und SB; Strecken BS=214 m, AS=DS=193 m, "
-           "BD=334 m",
-    kontext="Bergbau/Umwelt", textumfang="lang",
-    gegeben="Halde aus halbem Kreiskegel (Radius r=DM=154 m) und schiefer Pyramide zusammengesetzt; von der "
-            "Pyramide allein abgedeckte Fläche ca. 27 720 m²",
-    gesucht="von der gesamten Halde abgedeckte Fläche",
-    verfahren="Grundfläche Halbkegel = 0,5 · π · r² = 0,5 · π · 154²; Gesamtfläche = Pyramidenfläche + "
-              "Halbkreisfläche",
-    schritte="2", zahlenraum="dezimal", einheiten="m²", ergebnis="ca. 64 973 m²",
-    zwischenergebnis="Halbkreisfläche ≈ 37 253 m²", niveau_geschaetzt="II",
-    fehlerquelle="vollen statt halben Kreis für die Kegelgrundfläche ansetzen (dann ca. 102 226 m²)",
-    bemerkung="Deutung der Skizze: A und D als Endpunkte des Kegeldurchmessers (AS=DS=193 m bestätigt die "
-              "Symmetrie), B zusätzlicher Pyramidenpunkt, C Bogenpunkt ohne eigene Maßangabe; α und C werden "
-              "für die Teilaufgaben a–c nicht gebraucht.")
-
-row(id="2014-GYM-K5b", block="Kontext", aufgabe="5", titel="Abraumhalde", teilaufgabe="b", seite="7",
-    punkte="3", leitidee="Größen und Messen", thema="Sinussatz",
-    typ="Winkel im allgemeinen Dreieck über Kosinussatz berechnen",
-    stichwoerter="Kosinussatz|Winkel|Dreieck", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Figur", skizze="Dreieck DSB aus der Skizze von a) mit den drei gegebenen Seiten", kontext="Bergbau/Umwelt",
-    textumfang="kurz", gegeben="Dreieck DSB mit BS=214 m, DS=193 m, BD=334 m",
-    gesucht="Winkel β = ∠DSB an der Spitze",
-    verfahren="Kosinussatz BD² = BS² + DS² − 2·BS·DS·cos(β); cos(β) = (214²+193²−334²) : (2·214·193)",
-    schritte="2", zahlenraum="dezimal|negativ", einheiten="m|Grad", abhaengig_von="2014-GYM-K5a",
-    ergebnis="β ≈ 110,19°", niveau_geschaetzt="III",
-    fehlerquelle="Sinussatz statt Kosinussatz ansetzen, obwohl kein Winkel gegeben ist",
-    bemerkung="Thema „Sinussatz“ ersatzweise gewählt: die Themenliste (msa.md § 6) führt keine eigene "
-              "Kosinussatz-Zeile; nächstliegendes Thema ist die allgemeine Dreiecksberechnung ohne rechten "
-              "Winkel.")
-
-row(id="2014-GYM-K5c", block="Kontext", aufgabe="5", titel="Abraumhalde", teilaufgabe="c", seite="7",
-    punkte="5", leitidee="Größen und Messen", thema="Volumen und Oberfläche", typ="Volumen Kegel berechnen",
-    typ_neben="Transportanzahl aus Volumen und Masse berechnen",
-    stichwoerter="Kegelvolumen|Erdmasse|LKW-Ladungen", format="Rechnung|Rechnung",
-    operator="Ermitteln Sie|Berechnen Sie", antwort="Zahl|Zahl", material="Figur",
-    skizze="dieselbe räumliche Skizze wie in a)", kontext="Bergbau/Umwelt", textumfang="lang",
-    gegeben="Pyramidenvolumen ca. 1 070 000 m³, 1 m³ Erdreich hat Masse 1,8 t, Ladekapazität je Transporter "
-            "höchstens 25 t; Kegelradius r=154 m, Kegelkante (Mantellinie) DS=193 m",
-    gesucht="Volumen des halben Kegels; Anzahl der LKW-Ladungen für das gesamte Erdreich",
-    verfahren="Kegelhöhe h = √(193²−154²) ≈ 116,33 m (Pythagoras); V(halber Kegel) = 0,5 · (1/3) · π · r² · h; "
-              "Gesamtvolumen = Pyramidenvolumen + Kegelvolumen; Masse = Gesamtvolumen · 1,8; Ladungen = "
-              "Masse : 25, aufgerundet",
-    schritte="5", zahlenraum="dezimal", einheiten="m|m³|t", abhaengig_von="2014-GYM-K5a",
-    ergebnis="V(halber Kegel) ≈ 1 444 565 m³|181 049 Ladungen",
-    zwischenergebnis="h ≈ 116,33 m; Gesamtvolumen ≈ 2 514 565 m³; Gesamtmasse ≈ 4 526 217 t",
-    niveau_geschaetzt="III", fehlerquelle="Ladungen abrunden statt aufrunden (letzte, nicht volle Ladung "
-                                          "vergessen)",
-    bemerkung="Kegelhöhe h nicht gegeben, aus Radius r=154 m und der Mantellinie DS=193 m über den Satz des "
-              "Pythagoras hergeleitet (S senkrecht über M angenommen).")
+    typ_neben="Prozentuale Veränderung berechnen",
+    stichwoerter="Sonnenscheindauer|Mittelwert|Prozent", format="Rechnung|Rechnung",
+    operator="Bestimmen Sie|Berechnen Sie", antwort="Zahl|Zahl", material="Diagramm",
+    skizze="gestapeltes Balkendiagramm je Monat: tatsächliche Sonnenscheindauer (grau, mit Zahl beschriftet: "
+           "65, 64, 70, 204, 278, 235, 100, 212, 146, 85, 97, 62) unter astronomisch möglicher (weiß); Juli "
+           "Gesamthöhe 500 h",
+    kontext="Umwelt/Klima", textumfang="lang",
+    gegeben="monatliche tatsächliche Sonnenscheindauer 2000 in Berlin (12 Werte, siehe Skizze); astronomisch "
+            "mögliche Sonnenscheindauer im Juli 500 h laut Diagramm",
+    gesucht="mittlere tatsächliche Sonnenscheindauer 2000; prozentuale Abweichung im Juli",
+    verfahren="Summe der 12 Monatswerte durch 12; Juli: (500−100):500",
+    schritte="2", zahlenraum="dezimal|Prozent", einheiten="h",
+    ergebnis="Mittelwert ≈ 134,83 h|80 % unter der astronomisch möglichen Dauer", niveau_geschaetzt="II",
+    fehlerquelle="die astronomisch mögliche Dauer im Juli aus der Gesamthöhe falsch ablesen oder die "
+                 "Differenz auf die tatsächliche statt die astronomische Dauer beziehen")
 
 # Feldkorrektur an vorhandenen Typen: typ -> {feld: neuer Wert}; siehe Kopf.
 TYPEN_KORREKTUR = {
