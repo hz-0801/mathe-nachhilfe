@@ -44,7 +44,7 @@ Hefte Gymnasium (papier GYM), seit 23.09.2026 Bestand (konzept.md Entscheidung 1
 | 2020 | 20_P10_Ma_Gym_A_1.pdf, 20_P10_Ma_Gym_A_2.pdf | GYM | 3+9 | 135 | 50 | erfasst 2026-09-23, 18 Zeilen (4 Basis, 14 Kontext) |
 | 2021 | 21_P10_Ma_Gym_A1.pdf, 21_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 165 | 50 | erfasst 2026-09-23, 16 Zeilen (4 Basis, 12 Kontext) |
 | 2022 | 22_P10_Ma_Gym_Aufgaben_1_und_2.pdf, 22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | GYM | 3+9 | 165 | 50 | erfasst 2026-09-23, 17 Zeilen (4 Basis, 13 Kontext) |
-| 2023 | 23_P10_Ma_Gym_A1.pdf, 23_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2023 | 23_P10_Ma_Gym_A1.pdf, 23_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 165 | 50 | erfasst 2026-09-23, 18 Zeilen (4 Basis, 14 Kontext) |
 | 2024 | 24_P10_Ma_Gym_A1.pdf, 24_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | – |
 | 2025 | 25_P10_Ma_Gym_A1.pdf, 25_P10_Ma_Gym_A2.pdf | GYM | 3+8 | 135 | 50 | – |
 
@@ -53,6 +53,7 @@ Katalogdatei msa-katalog-gym.csv (beide Blöcke, Feld block trennt sie); Quelle 
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-23 (Auftrag Gymnasialhefte): Heft 2023 GYM erfasst (18 Zeilen: 4 Basis, 14 Kontext; 7 Typen neu, einer davon – „Parabel an der x-Achse spiegeln" – bereits im Bestand vorhanden und wiederverwendet statt neu angelegt). Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2022 GYM erfasst (17 Zeilen: 4 Basis, 13 Kontext; 10 Typen neu). Gesamtbearbeitungszeit 165 Minuten wie 2021. Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2021 GYM erfasst (16 Zeilen: 4 Basis, 12 Kontext; 6 Typen neu). Gesamtbearbeitungszeit dieses Hefts 165 statt 135 Minuten (hilfsmittelfreier Teil auf 35 Minuten begrenzt), in der Tabelle (§ 2) vermerkt. Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2020 GYM erfasst (18 Zeilen: 4 Basis, 14 Kontext; 8 Typen neu, davon erste unter Thema „Funktionen allgemein" für eine Wurzelfunktion und ihre Umkehrfunktion). Eine unsichere Zeile (K5b, „?", Netzmaße ohne Zahlenangabe nur über Maßstabsbalken ausgemessen). Kataloge OS/EBR/FOR unverändert.
