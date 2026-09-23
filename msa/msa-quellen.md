@@ -28,8 +28,9 @@ Vorgabendokumente liegen nicht auf der Seite; die amtlichen Vorgaben
 
 ## 2 Bestand
 
-Bestand des Profils sind die Oberschulhefte 2014–2026 und die Musteraufgaben
-2028 (msa.md § 1, konzept.md Entscheidung 18). Status je Heft in
+Bestand des Profils sind die Oberschulhefte 2014–2026, die Musteraufgaben
+2028 und seit 23.09.2026 die Gymnasialhefte 2014–2025 unter papier GYM
+(msa.md § 1, konzept.md Entscheidung 18). Status je Heft in
 msa-pruefungen.md § 2.
 
 | papier | Jahr | Serverdatei | PDF-S. | Katalog |
@@ -54,14 +55,16 @@ Vollständige URL = Verzeichnis aus § 1 + Serverdatei. Die Musteraufgaben 2028
 liegen nicht auf der Jahresseite, sondern im Fachbrief 10; sie sind lokal nicht
 gesichert (befund-quellenbestand-2026-09-18.md § 4).
 
-## 3 Vorhanden, aber nicht im Bestand
+## 3 Gymnasialhefte (papier GYM)
 
 Auf der Jahresseite liegen außerdem 19 Gymnasialhefte 2014–2025 (ab 2019 in zwei
-Dateien je Jahrgang). Sie gehören nach konzept.md Entscheidung 18 nicht zum
-Bestand (seit 2025/26 keine P10 am Gymnasium; ein Gymnasialschüler mit
-zentraler Klassenarbeit wäre eine neue Prüfungsart, konzept.md § 8) und haben
-keinen papier-Wert im Profil. Sie sind in Auftrag N nur gesichert worden (§ 5,
-sonstiges/) und nicht erfasst.
+Dateien je Jahrgang). Sie waren nach konzept.md Entscheidung 18 zunächst nicht
+Bestand (seit 2025/26 keine P10 am Gymnasium) und wurden in Auftrag N nur
+gesichert (§ 5, sonstiges/). Seit 23.09.2026 (zentrale Klassenarbeit als
+eingetretene Kippbedingung, Entscheidung 18 neu gefasst) sind sie Bestand unter
+dem eigenen papier-Wert GYM, eigene Katalogdatei msa-katalog-gym.csv
+(msa.md § 1, § 4); Erfassungsstand je Datei in § 5, laufender Stand in
+msa/gym-stand.md.
 
 ## 4 Lösungen
 
@@ -103,31 +106,31 @@ Dateiname in hefte/msa/ = <jahr>-<papier>.pdf in Kleinbuchstaben (2025-os.pdf,
 Abgleich (Befund § 4): Katalog 13 Hefte, alle mit Datei; eine Datei ohne
 Katalogeintrag (2026-ebr.pdf).
 
-**sonstiges/** – die 19 Gymnasialhefte 2014–2025, alle ohne Katalogeintrag;
-nach Entscheidung 18 nicht Bestand, nur gesichert (§ 3). Kein papier-Wert,
-deshalb Servername als Dateiname:
+**sonstiges/** – die 19 Gymnasialhefte 2014–2025 (papier GYM seit 23.09.2026,
+§ 3), Status je Datei; Servername als Dateiname (kein eigenes Umbenennungsschema
+wie hefte/msa/, da mehrere Dateien je Jahrgang):
 
-| Datei | Jahrgang | Seiten | Textebene | Größe |
-|---|---|---|---|---|
-| sonstiges/14_P10_Gym_Ma_A_Set1.pdf | 2014 | 7 | ja | 0,5 MB |
-| sonstiges/15_P10_Ma_Gym_A.pdf | 2015 | 7 | ja | 1,0 MB |
-| sonstiges/16_P10_Gym_Ma_A.pdf | 2016 | 11 | ja | 1,3 MB |
-| sonstiges/17_P10_Ma_Gym_A.pdf | 2017 | 11 | ja | 1,4 MB |
-| sonstiges/18_P10_Ma_Gym_A.pdf | 2018 | 11 | ja | 2,4 MB |
-| sonstiges/19_P10_Ma_Gym_A_1.pdf | 2019 | 3 | ja | 0,8 MB |
-| sonstiges/19_P10_Ma_Gym_A_2.pdf | 2019 | 9 | ja | 1,1 MB |
-| sonstiges/20_P10_Ma_Gym_A_1.pdf | 2020 | 3 | ja | 0,8 MB |
-| sonstiges/20_P10_Ma_Gym_A_2.pdf | 2020 | 9 | ja | 1,2 MB |
-| sonstiges/21_P10_Ma_Gym_A1.pdf | 2021 | 3 | ja | 0,7 MB |
-| sonstiges/21_P10_Ma_Gym_A2.pdf | 2021 | 9 | ja | 1,1 MB |
-| sonstiges/22_P10_Ma_Gym_Aufgaben_1_und_2.pdf | 2022 | 3 | ja | 0,8 MB |
-| sonstiges/22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | 2022 | 9 | ja | 1,2 MB |
-| sonstiges/23_P10_Ma_Gym_A1.pdf | 2023 | 3 | ja | 1,0 MB |
-| sonstiges/23_P10_Ma_Gym_A2.pdf | 2023 | 9 | ja | 1,4 MB |
-| sonstiges/24_P10_Ma_Gym_A1.pdf | 2024 | 3 | ja | 0,8 MB |
-| sonstiges/24_P10_Ma_Gym_A2.pdf | 2024 | 9 | ja | 1,4 MB |
-| sonstiges/25_P10_Ma_Gym_A1.pdf | 2025 | 3 | ja | 0,9 MB |
-| sonstiges/25_P10_Ma_Gym_A2.pdf | 2025 | 8 | ja | 1,2 MB |
+| Datei | Jahrgang | Seiten | Textebene | Größe | Katalog |
+|---|---|---|---|---|---|
+| sonstiges/14_P10_Gym_Ma_A_Set1.pdf | 2014 | 7 | ja | 0,5 MB | erfasst |
+| sonstiges/15_P10_Ma_Gym_A.pdf | 2015 | 7 | ja | 1,0 MB | nicht erfasst |
+| sonstiges/16_P10_Gym_Ma_A.pdf | 2016 | 11 | ja | 1,3 MB | nicht erfasst |
+| sonstiges/17_P10_Ma_Gym_A.pdf | 2017 | 11 | ja | 1,4 MB | nicht erfasst |
+| sonstiges/18_P10_Ma_Gym_A.pdf | 2018 | 11 | ja | 2,4 MB | nicht erfasst |
+| sonstiges/19_P10_Ma_Gym_A_1.pdf | 2019 | 3 | ja | 0,8 MB | nicht erfasst |
+| sonstiges/19_P10_Ma_Gym_A_2.pdf | 2019 | 9 | ja | 1,1 MB | nicht erfasst |
+| sonstiges/20_P10_Ma_Gym_A_1.pdf | 2020 | 3 | ja | 0,8 MB | nicht erfasst |
+| sonstiges/20_P10_Ma_Gym_A_2.pdf | 2020 | 9 | ja | 1,2 MB | nicht erfasst |
+| sonstiges/21_P10_Ma_Gym_A1.pdf | 2021 | 3 | ja | 0,7 MB | nicht erfasst |
+| sonstiges/21_P10_Ma_Gym_A2.pdf | 2021 | 9 | ja | 1,1 MB | nicht erfasst |
+| sonstiges/22_P10_Ma_Gym_Aufgaben_1_und_2.pdf | 2022 | 3 | ja | 0,8 MB | nicht erfasst |
+| sonstiges/22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | 2022 | 9 | ja | 1,2 MB | nicht erfasst |
+| sonstiges/23_P10_Ma_Gym_A1.pdf | 2023 | 3 | ja | 1,0 MB | nicht erfasst |
+| sonstiges/23_P10_Ma_Gym_A2.pdf | 2023 | 9 | ja | 1,4 MB | nicht erfasst |
+| sonstiges/24_P10_Ma_Gym_A1.pdf | 2024 | 3 | ja | 0,8 MB | nicht erfasst |
+| sonstiges/24_P10_Ma_Gym_A2.pdf | 2024 | 9 | ja | 1,4 MB | nicht erfasst |
+| sonstiges/25_P10_Ma_Gym_A1.pdf | 2025 | 3 | ja | 0,9 MB | nicht erfasst |
+| sonstiges/25_P10_Ma_Gym_A2.pdf | 2025 | 8 | ja | 1,2 MB | nicht erfasst |
 
 ## 6 Holen und Prüfen
 

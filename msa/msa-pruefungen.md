@@ -29,11 +29,31 @@ Amtliche Vorgaben und ihre Änderungen stehen gesondert in msa-vorgaben.md.
 | 2028 | Fachbrief 10, S. 20–31 | MUSTER-EBR / MUSTER-FOR | – | – | – | FOR: nicht erfasst · EBR: zurückgestellt (kein EBR-Schüler) · mit Erwartungshorizont, AFB, Standardbezug |
 
 Papier: OS = integriertes Heft EBR + FOR (Sternchen kennzeichnen FOR-Pflichtaufgaben), EBR / FOR = getrennte Hefte ab 2026, MUSTER = Musteraufgaben für das Format ab 2028.
-„?" bei Seiten: beim Erfassen eintragen. Gymnasialhefte (2014–2025) sind nicht Teil des Bestands (seit 2025/26 keine P10 am Gymnasium, s. msa-vorgaben.md).
+„?" bei Seiten: beim Erfassen eintragen.
+
+Hefte Gymnasium (papier GYM), seit 23.09.2026 Bestand (konzept.md Entscheidung 18, msa.md § 1):
+
+| Jahr | Dateien | Papier | Seiten | Zeit | BE | Status |
+|---|---|---|---|---|---|---|
+| 2014 | 14_P10_Gym_Ma_A_Set1.pdf | GYM | 7 | 135 | 50 | erfasst 2026-09-23, 21 Zeilen (9 Basis, 12 Kontext) |
+| 2015 | 15_P10_Ma_Gym_A.pdf | GYM | 7 | 135 | 50 | – |
+| 2016 | 16_P10_Gym_Ma_A.pdf | GYM | 11 | 135 | 50 | – |
+| 2017 | 17_P10_Ma_Gym_A.pdf | GYM | 11 | 135 | 50 | – |
+| 2018 | 18_P10_Ma_Gym_A.pdf | GYM | 11 | 135 | 50 | – |
+| 2019 | 19_P10_Ma_Gym_A_1.pdf, 19_P10_Ma_Gym_A_2.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2020 | 20_P10_Ma_Gym_A_1.pdf, 20_P10_Ma_Gym_A_2.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2021 | 21_P10_Ma_Gym_A1.pdf, 21_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2022 | 22_P10_Ma_Gym_Aufgaben_1_und_2.pdf, 22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2023 | 23_P10_Ma_Gym_A1.pdf, 23_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2024 | 24_P10_Ma_Gym_A1.pdf, 24_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2025 | 25_P10_Ma_Gym_A1.pdf, 25_P10_Ma_Gym_A2.pdf | GYM | 3+8 | 135 | 50 | – |
+
+Katalogdatei msa-katalog-gym.csv (beide Blöcke, Feld block trennt sie); Quelle wie OS/EBR/FOR (§ 1), lokal unter hefte/msa/sonstiges/ (msa-quellen.md § 5). Stand der laufenden Erfassung: msa/gym-stand.md.
 
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-23 (Auftrag Gymnasialhefte): Tabelle „Hefte Gymnasium" (§ 2) angelegt, papier GYM, Entscheidung 18 erweitert; Heft 2014 GYM erfasst (21 Zeilen: 9 Basis, 12 Kontext; 14 Typen neu). Kataloge OS/EBR/FOR unverändert.
 - 2026-09-18 (Auftrag O, Punkt 2): msa-quellen.md angelegt (Quelle, Jahresseite, Serverdateien je papier-Kürzel, lokaler Heftordner hefte/msa/ mit Erfassungsstand; Dateien ohne Katalogeintrag 2026-ebr und 19 Gymnasialhefte ausdrücklich geführt; Zahlen aus befund-quellenbestand-2026-09-18.md); msa.md v0.7 § 2 und README verweisen darauf. Kataloge unverändert.
 - 2026-09-17 (Auftrag M, Punkt 1): drei Verweise „Details konzept.md §7" auf § 10 umgestellt – die Änderungsliste von konzept.md ist seit den Umnummerierungen vom 12.09. und 17.09.2026 § 10.
 - 2026-09-17 (Auftrag F, Punkt 1; Verweise in dieser Datei nachgezogen in Auftrag G, Punkt 1): Die Dateien des Profils tragen das Präfix msa- – diese Datei heißt msa-pruefungen.md (vorher pruefungen.md), dazu msa-typen.csv, msa-katalog-basis.csv, msa-katalog-kontext.csv, msa-vorgaben.md (git mv, Inhalt unverändert; namensschema.md § 4 Variante B, konzept.md Entscheidung 32). Kataloge unverändert.
