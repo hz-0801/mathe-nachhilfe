@@ -113,14 +113,14 @@ wie hefte/msa/, da mehrere Dateien je Jahrgang):
 | Datei | Jahrgang | Seiten | Textebene | Größe | Katalog |
 |---|---|---|---|---|---|
 | sonstiges/14_P10_Gym_Ma_A_Set1.pdf | 2014 | 7 | ja | 0,5 MB | erfasst |
-| sonstiges/15_P10_Ma_Gym_A.pdf | 2015 | 7 | ja | 1,0 MB | nicht erfasst |
-| sonstiges/16_P10_Gym_Ma_A.pdf | 2016 | 11 | ja | 1,3 MB | nicht erfasst |
-| sonstiges/17_P10_Ma_Gym_A.pdf | 2017 | 11 | ja | 1,4 MB | nicht erfasst |
-| sonstiges/18_P10_Ma_Gym_A.pdf | 2018 | 11 | ja | 2,4 MB | nicht erfasst |
-| sonstiges/19_P10_Ma_Gym_A_1.pdf | 2019 | 3 | ja | 0,8 MB | nicht erfasst |
-| sonstiges/19_P10_Ma_Gym_A_2.pdf | 2019 | 9 | ja | 1,1 MB | nicht erfasst |
-| sonstiges/20_P10_Ma_Gym_A_1.pdf | 2020 | 3 | ja | 0,8 MB | nicht erfasst |
-| sonstiges/20_P10_Ma_Gym_A_2.pdf | 2020 | 9 | ja | 1,2 MB | nicht erfasst |
+| sonstiges/15_P10_Ma_Gym_A.pdf | 2015 | 7 | ja | 1,0 MB | erfasst |
+| sonstiges/16_P10_Gym_Ma_A.pdf | 2016 | 11 | ja | 1,3 MB | erfasst |
+| sonstiges/17_P10_Ma_Gym_A.pdf | 2017 | 11 | ja | 1,4 MB | erfasst |
+| sonstiges/18_P10_Ma_Gym_A.pdf | 2018 | 11 | ja | 2,4 MB | erfasst |
+| sonstiges/19_P10_Ma_Gym_A_1.pdf | 2019 | 3 | ja | 0,8 MB | erfasst |
+| sonstiges/19_P10_Ma_Gym_A_2.pdf | 2019 | 9 | ja | 1,1 MB | erfasst |
+| sonstiges/20_P10_Ma_Gym_A_1.pdf | 2020 | 3 | ja | 0,8 MB | erfasst |
+| sonstiges/20_P10_Ma_Gym_A_2.pdf | 2020 | 9 | ja | 1,2 MB | erfasst |
 | sonstiges/21_P10_Ma_Gym_A1.pdf | 2021 | 3 | ja | 0,7 MB | nicht erfasst |
 | sonstiges/21_P10_Ma_Gym_A2.pdf | 2021 | 9 | ja | 1,1 MB | nicht erfasst |
 | sonstiges/22_P10_Ma_Gym_Aufgaben_1_und_2.pdf | 2022 | 3 | ja | 0,8 MB | nicht erfasst |

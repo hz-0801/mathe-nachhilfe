@@ -57,13 +57,14 @@ import csv, io, os, re, sys
 sys.stdout.reconfigure(encoding="utf-8")
 
 # ===================================================================== KONFIG
+# ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2019",
+    "jahr": "2020",
     "papier": "GYM",     # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM (msa.md § 4)
     "datei": "",         # zweiteiliges Heft ab 2019, siehe "dateien"
-    "dateien": ["19_P10_Ma_Gym_A_1.pdf", "19_P10_Ma_Gym_A_2.pdf"],
+    "dateien": ["20_P10_Ma_Gym_A_1.pdf", "20_P10_Ma_Gym_A_2.pdf"],
     "seiten": {"Basis": 3, "Kontext": 9},  # eigene Fußzeile je Teildatei (msa.md § 3)
-    "soll": {"1": 10, "2": 10, "3": 12, "4": 10, "5": 8},
+    "soll": {"1": 5, "2": 5, "3": 10, "4": 11, "5": 10, "6": 9},
     "soll_gesamt": 50,
 }
 
@@ -88,353 +89,365 @@ def row(**kw):
 
 # Neue Typen: (typ, leitidee, thema, definition, beispiel_id)
 NEUE_TYPEN = [
-    ("Anteil einer unterteilten Kreisfläche bestimmen", "Zahlen und Operationen", "Brüche und Dezimalzahlen",
-     "Den Anteil markierter Sektoren an einer in ungleiche Teile geteilten Kreisfläche bestimmen und als "
-     "Bruch angeben (nicht die Anzahl der sichtbaren Sektoren zählen, sondern die tatsächlichen Winkel "
-     "vergleichen).",
-     "2019-GYM-B1c"),
-    ("Binomische Formel anwenden", "Zahlen und Operationen", "Terme umformen",
-     "Einen Term der Form (a±b)² oder (a+b)(a−b) mithilfe einer binomischen Formel ausmultiplizieren oder "
-     "das Ergebnis unter mehreren Optionen auswählen.",
-     "2019-GYM-B1f"),
-    ("Trigonometrische Funktionsgleichung zu Graph zuordnen", "Gleichungen und Funktionen", "Trigonometrische Funktionen",
-     "Zu einem abgebildeten Graphen einer trigonometrischen Funktion aus mehreren Gleichungen "
-     "(unterschiedliche Amplitude, Streckung oder Verschiebung) die passende auswählen.",
-     "2019-GYM-B1i"),
-    ("Scheitelpunkt einer Parabel rechnerisch nachweisen", "Gleichungen und Funktionen", "Quadratische Funktionen",
-     "Durch Einsetzen der Koordinaten in die Funktionsgleichung (oder über die Scheitelformel) nachweisen, "
-     "dass ein gegebener Punkt der Scheitelpunkt einer Parabel ist.",
-     "2019-GYM-K2a"),
-    ("Schnittpunktgleichung zweier Parabeln herleiten", "Gleichungen und Funktionen", "Quadratische Funktionen",
-     "Durch Gleichsetzen zweier Parabelgleichungen eine vorgegebene quadratische Gleichung herleiten und "
-     "eine geeignete Lösungsmethode (z. B. pq-Formel) für die Schnittpunktberechnung erläutern.",
-     "2019-GYM-K2b"),
-    ("Flächeninhalt eines Dreiecks aus drei Seiten berechnen", "Raum und Form", "Ebene Figuren und Winkel",
-     "Flächeninhalt eines Dreiecks aus den drei Seitenlängen mit der Heronschen Flächenformel berechnen.",
-     "2019-GYM-K3a"),
-    ("Körper im Schrägbild darstellen", "Raum und Form", "Körper, Netze, Schrägbilder",
-     "Einen zusammengesetzten Körper (z. B. Turm aus Quader und Pyramide) in einem selbst gewählten Maßstab "
-     "als Schrägbild darstellen.",
-     "2019-GYM-K4a"),
-    ("Mantelfläche einer Pyramide berechnen", "Größen und Messen", "Volumen und Oberfläche",
-     "Mantelfläche einer quadratischen Pyramide aus der Grundkante und der über den Satz des Pythagoras "
-     "ermittelten Seitenhöhe (Neigungshöhe der Dreiecksflächen) berechnen.",
-     "2019-GYM-K4b"),
-    ("Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen", "Daten und Zufall", "Zählen und Kombinatorik",
-     "Anzahl der Möglichkeiten bestimmen, aus einer Gruppe eine bestimmte Anzahl von Elementen auszuwählen, "
-     "wenn die Reihenfolge der Auswahl keine Rolle spielt (Kombination ohne Wiederholung).",
-     "2019-GYM-K5b"),
-    ("Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen", "Daten und Zufall", "Wahrscheinlichkeit mehrstufig",
-     "Im mehrstufigen Baumdiagramm die Anzahl der Pfade zählen, die ein vorgegebenes Ereignis (z. B. "
-     "mindestens k von n Erfolgen) erfüllen.",
-     "2019-GYM-K5c"),
+    ("x-Werte einer quadratischen Funktion zu gegebenem Funktionswert berechnen", "Gleichungen und Funktionen",
+     "Quadratische Funktionen",
+     "Zu einem gegebenen Funktionswert einer quadratischen Funktion der Form f(x)=x²+c die beiden "
+     "zugehörigen x-Werte durch Auflösen nach x (Wurzelziehen) berechnen; abzugrenzen von „Nullstellen "
+     "quadratische Funktion berechnen“, bei der der Funktionswert 0 ist.",
+     "2020-GYM-B2a"),
+    ("Fehlende Schnittpunkte zweier Funktionen über Wertebereiche begründen", "Gleichungen und Funktionen",
+     "Quadratische Funktionen",
+     "Begründen, dass zwei Funktionsgraphen keine gemeinsamen Punkte besitzen, indem die Wertebereiche "
+     "beider Funktionen bestimmt und als disjunkt (ohne Überschneidung) nachgewiesen werden.",
+     "2020-GYM-B2b"),
+    ("Parameter einer Wurzelfunktion aus einem Punkt bestimmen", "Gleichungen und Funktionen",
+     "Funktionen allgemein",
+     "Den Wurzelexponenten n einer Funktion der Form g(x)=ⁿ√x aus einem gegebenen Punkt des Graphen durch "
+     "Einsetzen und Lösen bestimmen und die Funktionsgleichung angeben.",
+     "2020-GYM-K3a"),
+    ("Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen", "Gleichungen und Funktionen",
+     "Funktionen allgemein",
+     "Den Graphen der Umkehrfunktion einer Wurzelfunktion durch Spiegelung an der Geraden y=x skizzieren "
+     "(die Umkehrfunktion von ⁿ√x ist xⁿ) und den Wertebereich der Umkehrfunktion für ein gegebenes "
+     "Intervall angeben.",
+     "2020-GYM-K3b"),
+    ("Anstieg einer linearen Funktion aus Punkt und y-Achsenabschnitt berechnen", "Gleichungen und Funktionen",
+     "Lineare Funktionen",
+     "Anstieg einer linearen Funktion mit gegebenem y-Achsenabschnitt aus einem bekannten Punkt des "
+     "Graphen durch Einsetzen und Auflösen berechnen.",
+     "2020-GYM-K3c"),
+    ("Grundfläche eines Prismas im Körpernetz kennzeichnen", "Raum und Form", "Körper, Netze, Schrägbilder",
+     "In einem Körpernetz eines Prismas eine Fläche markieren, die als Grundfläche des Prismas dienen kann "
+     "(eine der beiden deckungsgleichen Vielecksflächen, nicht eine der rechteckigen Seitenflächen).",
+     "2020-GYM-K5a"),
+    ("Maße eines Körpers aus einem bemaßten Netz im Maßstab ablesen", "Raum und Form",
+     "Körper, Netze, Schrägbilder",
+     "Reale Maße eines Körpers aus einem im Maßstab gezeichneten, nur mit einem Maßstabsbalken (ohne "
+     "Zahlenangaben) versehenen Körpernetz durch Ausmessen der Zeichnung und Umrechnen über den Maßstab "
+     "bestimmen.",
+     "2020-GYM-K5b"),
+    ("Kugeldurchmesser aus Anzahl nebeneinanderliegender Kugeln bestimmen", "Größen und Messen",
+     "Volumen und Oberfläche",
+     "Durchmesser einer Kugel aus der Anzahl gleich großer, nebeneinander auf einer Fläche angeordneter "
+     "Kugeln und der Kantenlänge der Fläche bestimmen (Fläche geteilt durch Kugeln je Reihe).",
+     "2020-GYM-K5d"),
 ]
 
-row(id="2019-GYM-B1a", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="a", seite="2",
-    punkte="1", hilfsmittel="nein", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
-    typ="Winkel über Scheitel- oder Nebenwinkel bestimmen",
-    stichwoerter="Scheitelwinkel|verlängerte Seite|überflüssige Angabe", format="Kurzantwort", operator="Geben Sie an",
+row(id="2020-GYM-B1a", block="Basis", aufgabe="1", titel="", teilaufgabe="a", seite="2",
+    punkte="2", hilfsmittel="nein", leitidee="Größen und Messen", thema="Satz des Pythagoras",
+    typ="Pythagoras Hypotenuse",
+    stichwoerter="rechtwinkliges Dreieck|Hypotenuse|Katheten", format="Rechnung", operator="Ermitteln Sie",
     antwort="Zahl", material="Figur",
-    skizze="Dreieck mit Winkel 65° an einer Spitze; die Grundseite und die gegenüberliegende Seite werden "
-           "über die dritte Spitze hinaus gestrichelt verlängert; β liegt zwischen Grundseite und der "
-           "verlängerten Seite (innen), 35° liegt als Scheitelwinkel zu β zwischen den beiden Verlängerungen",
+    skizze="Dreieck ABC mit rechtem Winkel bei C, eingebettet in eine Figur mit zwei parallelen Geraden g "
+           "und h durch B bzw. A/C und einer weiteren Geraden durch B und A",
     kontext="ohne", textumfang="kurz",
-    gegeben="Dreieck mit einem Winkel von 65° an einer Spitze; an einer anderen Spitze sind beide Seiten "
-            "über die Spitze hinaus verlängert, der von den Verlängerungen eingeschlossene Winkel beträgt 35°",
-    gesucht="Winkel β (Innenwinkel an dieser Spitze)",
-    verfahren="β und 35° sind Scheitelwinkel an der verlängerten Spitze, also gleich groß; die 65°-Angabe "
-              "wird dafür nicht benötigt",
-    schritte="1", zahlenraum="ganz", einheiten="Grad", ergebnis="β = 35°", niveau_geschaetzt="II",
-    fehlerquelle="mit dem Winkelsummensatz und der überflüssigen 65°-Angabe rechnen, statt den Scheitelwinkel "
-                 "direkt zu erkennen")
+    gegeben="rechtwinkliges Dreieck ABC mit rechtem Winkel bei C; |BC| = 6 cm, |AC| = 8 cm",
+    gesucht="Länge der Hypotenuse AB",
+    verfahren="Satz des Pythagoras: |AB| = √(6² + 8²)", schritte="1", zahlenraum="ganz", einheiten="cm",
+    ergebnis="|AB| = 10 cm", niveau_geschaetzt="I",
+    fehlerquelle="6 cm oder 8 cm fälschlich als Hypotenuse statt als Kathete verwenden")
 
-row(id="2019-GYM-B1b", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="b", seite="2",
-    punkte="1", hilfsmittel="nein", leitidee="Größen und Messen", thema="Einheiten umrechnen", typ="Größen vergleichen",
-    stichwoerter="Meter|Zentimeter|Vergleich", format="Eintragen", operator="Setzen Sie ein", antwort="Kreuz",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="0,06 m und 60 cm", gesucht="richtiges Vergleichszeichen", verfahren="0,06 m = 6 cm; 6 cm < 60 cm",
-    schritte="1", zahlenraum="dezimal", einheiten="m|cm", ergebnis="0,06 m < 60 cm", niveau_geschaetzt="I",
-    fehlerquelle="0,06 mit 60 direkt vergleichen, ohne beide Werte in dieselbe Einheit zu bringen")
-
-row(id="2019-GYM-B1c", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="c", seite="2",
-    punkte="1", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Brüche und Dezimalzahlen",
-    typ="Anteil einer unterteilten Kreisfläche bestimmen",
-    stichwoerter="Kreis|Sektoren|Anteil", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
-    material="Figur", skizze="Kreis mit sechs Radien in ungleichen Abständen, zwei nicht benachbarte Sektoren "
-                             "markiert (ein größerer oben, ein kleinerer unten rechts)", kontext="ohne",
-    textumfang="kurz", gegeben="Kreis mit zwei markierten Sektoren unterschiedlicher Größe; Auswahl 3/7, "
-                               "3/5, 1/4, 5/7",
-    gesucht="Anteil der markierten Fläche an der Gesamtfläche",
-    verfahren="Winkel der markierten Sektoren schätzen und zur Vollwinkelsumme 360° ins Verhältnis setzen "
-              "(nicht die Anzahl der sechs sichtbaren Sektoren als gleich groß annehmen)",
-    schritte="1", zahlenraum="Bruch", ergebnis="1/4?", niveau_geschaetzt="II",
-    fehlerquelle="die zwei markierten von sechs sichtbaren, aber ungleich großen Sektoren als 2/6=1/3 zählen",
-    bemerkung="Ergebnis unsicher: Die Sektoren sind in der Vektorgrafik ungleich groß; aus den "
-              "Randpunkt-Koordinaten grob vermessen ergeben sich Sektorwinkel von ca. 57° und 29° (Summe "
-              "ca. 86°) – deutlich näher an 90° (1/4) als an den übrigen Antwortoptionen, aber nur "
-              "überschlägig (aus Pixelkoordinaten der Randpunkte, keine exakten Vektordaten) bestimmt.")
-
-row(id="2019-GYM-B1d", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="d", seite="2",
-    punkte="1", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Rationale Zahlen rechnen", typ="Termwert berechnen",
-    stichwoerter="Termwert|Bruchterm|negative Zahlen", format="Kurzantwort", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Term (a−b):(2a+b) mit a=4, b=−3", gesucht="Wert des Terms",
-    verfahren="(4−(−3)) : (2·4+(−3)) = 7 : 5", schritte="1", zahlenraum="negativ|Bruch", ergebnis="7/5 = 1,4",
-    niveau_geschaetzt="II", fehlerquelle="Vorzeichenfehler bei b=−3 im Zähler oder Nenner")
-
-row(id="2019-GYM-B1e", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="e", seite="2",
-    punkte="1", hilfsmittel="nein", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang", typ="Term zu Figur angeben",
-    stichwoerter="Rechteck|zusammengesetzt|Flächenterm", format="Kurzantwort", operator="Geben Sie an", antwort="Term",
-    material="Figur", skizze="Rechteck aus zwei nebeneinanderliegenden Teilrechtecken der Breiten a und b, "
-                             "gemeinsame Höhe c", kontext="ohne", textumfang="kurz",
-    gegeben="zusammengesetztes Rechteck mit Breiten a und b nebeneinander, Höhe c",
-    gesucht="Gleichung für den Flächeninhalt der gesamten Fläche", verfahren="Höhe mal Summe der Breiten",
-    schritte="1", ergebnis="A = c · (a + b)", niveau_geschaetzt="I",
-    fehlerquelle="nur eines der beiden Teilrechtecke (a·c oder b·c) angeben")
-
-row(id="2019-GYM-B1f", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="f", seite="2",
-    punkte="1", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Terme umformen", typ="Binomische Formel anwenden",
-    stichwoerter="binomische Formel|Klammer auflösen", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Term (2a−b)²; Auswahl 2a²+4ab−b², 4a²−4ab+b², 2a²−2ab+b², 4a−2ab+b²",
-    gesucht="Term nach Auflösen der Klammer", verfahren="zweite binomische Formel: (2a−b)² = (2a)²−2·2a·b+b²",
-    schritte="1", ergebnis="4a² − 4ab + b²", niveau_geschaetzt="II",
-    fehlerquelle="das mittlere Glied nicht verdoppeln (2a²−2ab+b² wählen)")
-
-row(id="2019-GYM-B1g", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="g", seite="3",
-    punkte="1", hilfsmittel="nein", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit einstufig",
-    typ="Zufallsgerät zu Wahrscheinlichkeit entwerfen",
-    stichwoerter="Baumdiagramm|Gefäß|Kugeln ergänzen", format="Eintragen", operator="Ergänzen Sie", antwort="Grafik",
-    material="Figur", skizze="Baumdiagramm mit einer Stufe: Ast „weiß“ mit 2/3, Ast „schwarz“ mit 1/3; "
-                             "darunter ein zylindrisches Gefäß mit vier vorgezeichneten unausgefüllten "
-                             "(weißen) Kreisen, zu ergänzen um schwarze Kugeln",
-    kontext="Glücksspiel", textumfang="mittel",
-    gegeben="einstufiges Baumdiagramm mit P(weiß)=2/3, P(schwarz)=1/3; vier weiße Kugeln bereits im Gefäß "
-            "eingezeichnet",
-    gesucht="Ergänzung des Gefäßes um die passende Anzahl schwarzer Kugeln",
-    verfahren="4 weiße Kugeln sollen 2/3 des Inhalts sein: Gesamtzahl = 4 : (2/3) = 6, also 2 schwarze Kugeln "
-              "ergänzen (4 : 2 = 2/3 : 1/3)",
-    schritte="2", zahlenraum="Bruch", ergebnis="2 schwarze Kugeln ergänzt (insgesamt 4 weiße und 2 schwarze)",
-    niveau_geschaetzt="III",
-    fehlerquelle="eine beliebige Anzahl schwarzer Kugeln ergänzen, ohne das Verhältnis 2:1 zu den vier "
-                 "vorgegebenen weißen Kugeln zu prüfen")
-
-row(id="2019-GYM-B1h", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="h", seite="3",
-    punkte="1", hilfsmittel="nein", leitidee="Größen und Messen", thema="Trigonometrie im rechtwinkligen Dreieck",
-    typ="Winkelfunktion Seitenverhältnis angeben",
-    stichwoerter="rechtwinkliges Dreieck|trigonometrische Beziehung", format="Kurzantwort", operator="Geben Sie an",
-    antwort="Term", material="Figur",
-    skizze="Dreieck mit rechtem Winkel oben (markiert mit Punkt) zwischen den Seiten s und r, Winkel α unten "
-           "links zwischen s und t, Seite t unten (Hypotenuse)",
-    kontext="ohne", textumfang="kurz",
-    gegeben="rechtwinkliges Dreieck mit Katheten s, r und Hypotenuse t, rechter Winkel gegenüber t, Winkel α "
-            "zwischen s und t",
-    gesucht="eine trigonometrische Beziehung für α", verfahren="Gegenkathete r, Ankathete s, Hypotenuse t: "
-                                                              "tan α = r/s (auch sin α = r/t oder cos α = s/t "
-                                                              "richtig)",
-    schritte="1", ergebnis="tan α = r/s", niveau_geschaetzt="II",
-    fehlerquelle="Gegenkathete und Ankathete vertauschen")
-
-row(id="2019-GYM-B1i", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="i", seite="3",
-    punkte="1", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Trigonometrische Funktionen",
-    typ="Trigonometrische Funktionsgleichung zu Graph zuordnen",
-    stichwoerter="Sinusfunktion|Amplitude|Verschiebung", format="Ankreuzen", operator="Kreuzen Sie an", antwort="Kreuz",
-    material="Koordinatensystem",
-    skizze="periodischer Graph zwischen −2π und 2π, Wertebereich −3 bis 1, zwei volle Perioden im "
-           "dargestellten Bereich (Periode 2π)",
-    kontext="ohne", textumfang="kurz",
-    gegeben="Graph einer trigonometrischen Funktion; Auswahl f(x)=1·sin(x)−1, f(x)=2·sin(x)−1, "
-            "f(x)=−3·sin(2x)−1, f(x)=2·sin(2x−1)",
-    gesucht="passende Funktionsgleichung",
-    verfahren="Wertebereich [−3;1] → Amplitude 2, Verschiebung −1; zwei volle Perioden auf [−2π;2π] → "
-              "Periode 2π, also Faktor 1 vor x",
-    schritte="2", ergebnis="f(x) = 2 sin(x) − 1", niveau_geschaetzt="III",
-    fehlerquelle="aus der Kurvenform vorschnell auf eine doppelte Frequenz (sin(2x)) schließen")
-
-row(id="2019-GYM-B1j", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="j", seite="3",
-    punkte="1", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Zehnerpotenzen und Näherungswerte",
-    typ="Zehnerpotenzschreibweise umwandeln",
-    stichwoerter="Zehnerpotenz|negativer Exponent", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
-    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="2,1 · 10⁻⁴", gesucht="Zahl ohne Zehnerpotenz", verfahren="Komma um 4 Stellen nach links",
-    schritte="1", zahlenraum="dezimal", ergebnis="0,00021", niveau_geschaetzt="I",
-    fehlerquelle="Komma um 4 Stellen nach rechts statt nach links verschieben (negativer Exponent)")
-
-row(id="2019-GYM-K2a", block="Kontext", aufgabe="2", titel="Quadratische Funktionen", teilaufgabe="a", seite="2",
-    punkte="4", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
-    typ="Scheitelpunkt einer Parabel rechnerisch nachweisen", typ_neben="Parabel aus Gleichung skizzieren",
-    stichwoerter="Scheitelpunkt|Nachweis|Parabel zeichnen", format="Begründung|Zeichnen", operator="Zeigen Sie|"
-                                                                                                    "Zeichnen Sie",
-    antwort="Zahl|Grafik", material="Koordinatensystem",
-    skizze="Koordinatensystem x von −1 bis 8, y von −5 bis 7; Parabel f mindestens im Intervall 1≤x≤6 "
-           "einzeichnen, Scheitel bei (3,5|5)",
+row(id="2020-GYM-B1b", block="Basis", aufgabe="1", titel="", teilaufgabe="b", seite="2",
+    punkte="3", hilfsmittel="nein", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Winkel an geschnittenen Parallelen bestimmen",
+    stichwoerter="Parallele|Stufenwinkel|Wechselwinkel|Dreieckswinkelsumme", format="Rechnung",
+    operator="Geben Sie an", antwort="Zahl", material="Figur",
+    skizze="zwei Parallelen g (durch B) und h (durch A, C); Gerade durch B und einen Punkt P auf g "
+           "oberhalb von B mit 120° am Schnittpunkt mit g; Gerade AB schneidet g bei B mit 65° zwischen "
+           "dem Strahl BP und BA; rechtwinkliges Dreieck ABC mit rechtem Winkel bei C; bei A liegen die "
+           "Winkel α (links), φ (oben rechts) und β (unten rechts, an C angrenzend)",
     kontext="ohne", textumfang="mittel",
-    gegeben="f(x) = −x² + 7x − 7,25, x ∈ ℝ; Punkt S(3,5|5)",
-    gesucht="Nachweis, dass S Scheitelpunkt von f ist; Graph von f im Intervall 1≤x≤6",
-    verfahren="f(3,5) = −12,25+24,5−7,25 = 5 = y-Koordinate von S; alternativ Scheitel-x über −b:(2a) = "
-              "3,5 nachweisen",
-    schritte="1", zahlenraum="dezimal", ergebnis="f(3,5) = 5, also ist S(3,5|5) der Scheitelpunkt",
-    niveau_geschaetzt="II", fehlerquelle="nur den x-Wert über −b:(2a) prüfen und den y-Wert nicht durch "
-                                         "Einsetzen bestätigen")
-
-row(id="2019-GYM-K2b", block="Kontext", aufgabe="2", titel="Quadratische Funktionen", teilaufgabe="b", seite="3",
-    punkte="4", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
-    typ="Schnittpunktgleichung zweier Parabeln herleiten",
-    stichwoerter="Gleichsetzen|Schnittpunkte|pq-Formel", format="Begründung|Begründung", operator="Zeigen Sie|"
-                                                                                                    "Erläutern Sie",
-    antwort="Text|Text", material="keins", skizze="keine", kontext="ohne", textumfang="mittel",
-    gegeben="f(x) = −x² + 7x − 7,25; h(x) = x² − 3x − 2,75", gesucht="Nachweis, dass Gleichsetzen 0 = x²−5x+2,25 "
-                                                                    "ergibt; geeignete Vorgehensweise für die "
-                                                                    "Schnittpunktberechnung",
-    verfahren="h(x)−f(x) = 2x²−10x+4,5, geteilt durch 2 ergibt x²−5x+2,25 = 0; Lösung z. B. über die "
-              "pq-Formel mit p=−5, q=2,25",
-    schritte="2", zahlenraum="dezimal", abhaengig_von="2019-GYM-K2a",
-    ergebnis="0 = x²−5x+2,25 bestätigt|pq-Formel anwenden: x = 2,5 ± √(2,5²−2,25) = 2,5 ± 2",
-    zwischenergebnis="Schnittstellen x=0,5 und x=4,5", niveau_geschaetzt="III",
-    fehlerquelle="f(x) und h(x) beim Gleichsetzen vertauschen und dadurch das falsche Vorzeichen der "
-                 "Gleichung erhalten")
-
-row(id="2019-GYM-K2c", block="Kontext", aufgabe="2", titel="Quadratische Funktionen", teilaufgabe="c", seite="3",
-    punkte="2", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
-    typ="Flächeninhalt eines Dreiecks aus Koordinaten berechnen",
-    stichwoerter="Dreiecksfläche|Koordinaten|Ursprung", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Koordinatensystem", skizze="Dreieck aus O(0|0), P(6,5|−4) und Q(0,5|f(0,5))", kontext="ohne",
-    textumfang="kurz", gegeben="P(6,5|−4), Koordinatenursprung O, Q(0,5|f(0,5)) mit f aus a)",
-    gesucht="Flächeninhalt des Dreiecks OPQ",
-    verfahren="f(0,5) = −0,25+3,5−7,25 = −4, also Q(0,5|−4); PQ ist waagerecht mit Länge 6,5−0,5=6, Höhe von "
-              "O zu dieser Geraden ist 4; A = 0,5·6·4",
-    schritte="3", zahlenraum="dezimal", einheiten="LE²", abhaengig_von="2019-GYM-K2a", ergebnis="A = 12 LE²",
-    zwischenergebnis="Q(0,5|−4)", niveau_geschaetzt="III",
-    fehlerquelle="nicht erkennen, dass P und Q dieselbe y-Koordinate haben, und die Grundseite/Höhe falsch "
-                 "wählen")
-
-row(id="2019-GYM-K3a", block="Kontext", aufgabe="3", titel="Sonnensegel", teilaufgabe="a", seite="4",
-    punkte="5", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
-    typ="Flächeninhalt eines Dreiecks aus drei Seiten berechnen", typ_neben="Kosten aus Menge und Preis berechnen",
-    stichwoerter="Sonnensegel|Heron|Dreiecksfläche", format="Rechnung|Rechnung", operator="Berechnen Sie|"
-                                                                                            "Geben Sie an",
-    antwort="Zahl|Zahl", material="Figur", skizze="dreieckiges Sonnensegel mit Seiten 5 m, 4,5 m, 3,5 m "
-                                                   "zwischen drei Pfeilern", kontext="Garten/Bauen",
-    textumfang="mittel",
-    gegeben="dreieckiges Sonnensegel mit Seiten 5 m, 4,5 m, 3,5 m; Preis 19,90 €/m²",
-    gesucht="Fläche des Sonnensegels; Preis für das neue Sonnensegel",
-    verfahren="Heron: s=(5+4,5+3,5):2=6,5; A=√(6,5·1,5·2·3); Preis = A · 19,90 €", schritte="3",
-    zahlenraum="Wurzel|dezimal", einheiten="m|m²|€", ergebnis="A ≈ 7,65 m²|Preis ≈ 152,21 €",
+    gegeben="g ∥ h; Winkel 120° zwischen g und der Geraden BP (P auf g oberhalb B); Winkel 65° zwischen "
+            "dem Strahl BP und der Strecke BA; rechter Winkel bei C zwischen CA und CB",
+    gesucht="Winkel α, β und φ bei A",
+    verfahren="Hilfspunkt P auf g, an dem die Gerade PA g unter 120° schneidet: im Dreieck PAB ist der "
+              "Winkel bei P gleich 180° − 120° = 60° (Nebenwinkel zu 120° auf g), der Winkel bei B ist "
+              "65° (gegeben); Winkelsumme im Dreieck PAB liefert den Winkel bei A zwischen AP und AB: "
+              "α = 180° − 60° − 65° = 55°; da g ∥ h, ist φ als Stufenwinkel zum 65°-Winkel bei B (an der "
+              "Geraden AB als Schneidender) gleich φ = 65°; α + β + φ = 180° (Winkel an der Geraden h bei "
+              "A auf einer Seite von PA), also β = 180° − 55° − 65° = 60°",
+    schritte="4", zahlenraum="ganz", einheiten="Grad", ergebnis="α = 55°, β = 60°, φ = 65°",
     niveau_geschaetzt="III",
-    fehlerquelle="die Fläche über Grundseite mal Höhe schätzen, ohne die Höhe zu kennen, statt die "
-                 "Heronsche Formel zu nutzen")
+    fehlerquelle="120° unmittelbar als Stufen- oder Wechselwinkel zu einem der gesuchten Winkel bei A "
+                 "übernehmen, ohne den Nebenwinkel bei P zu bilden",
+    bemerkung="Die Skizze ist ausdrücklich nicht maßstabsgerecht (im Heft vermerkt) und weicht in den "
+              "gezeichneten Winkelgrößen deutlich von den berechneten Werten ab; die Zuordnung der drei "
+              "Geraden (g durch B, h durch A/C, Gerade PA durch den 120°-Punkt und A) wurde über die "
+              "Vektordaten der PDF-Seite (Liniensegmente, Beschriftungspositionen) bestimmt, die Winkel "
+              "selbst über Nebenwinkel-, Stufenwinkel- und Dreieckswinkelsumme errechnet und durch die "
+              "Winkelsumme 180° im Hilfsdreieck PAB gegengeprüft (55° + 65° + 60° = 180°, stimmt).")
 
-row(id="2019-GYM-K3b", block="Kontext", aufgabe="3", titel="Sonnensegel", teilaufgabe="b", seite="5",
-    punkte="4", leitidee="Größen und Messen", thema="Satz des Pythagoras", typ="Pythagoras Hypotenuse",
-    typ_neben="Größen vergleichen",
-    stichwoerter="Spannseil|Pythagoras|Zuschlag", format="Begründung", operator="Prüfen Sie rechnerisch",
-    antwort="Text", material="Figur", skizze="Pfeiler mit Spannseil vom Punkt 2,50 m Höhe zu einem 1,50 m "
-                                             "vom Pfeiler entfernten Bodenpunkt", kontext="Garten/Bauen",
-    textumfang="mittel",
-    gegeben="Seilbefestigung 2,50 m Höhe am Pfeiler, 1,50 m Abstand am Boden, je 25 cm Zuschlag an beiden "
-            "Enden; vorhandenes Seil 3,20 m",
-    gesucht="Prüfung, ob das vorhandene Seil ausreicht",
-    verfahren="benötigte Seillänge = √(2,50²+1,50²) + 2·0,25 = √8,5 + 0,5", schritte="2", zahlenraum="Wurzel|dezimal",
-    einheiten="m", ergebnis="benötigt ≈ 3,42 m > vorhandene 3,20 m, das Seil reicht nicht",
-    zwischenergebnis="Pythagoras-Strecke ≈ 2,92 m", niveau_geschaetzt="III",
-    fehlerquelle="den Zuschlag von 25 cm je Ende vergessen oder nur einmal statt zweimal addieren")
+row(id="2020-GYM-B2a", block="Basis", aufgabe="2", titel="", teilaufgabe="a", seite="3",
+    punkte="2", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="x-Werte einer quadratischen Funktion zu gegebenem Funktionswert berechnen",
+    stichwoerter="quadratische Funktion|Funktionswert|symmetrische Lösungen", format="Kurzantwort",
+    operator="Geben Sie an", antwort="Zahl", material="keins",
+    skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="quadratische Funktion f mit f(x) = x² − 2; Punkte P1(x1|23) und P2(x2|23) auf dem Graphen",
+    gesucht="Werte für x1 und x2",
+    verfahren="x² − 2 = 23 ⟹ x² = 25 ⟹ x = ±5", schritte="1", zahlenraum="ganz",
+    ergebnis="x1 = 5, x2 = −5 (oder umgekehrt)", niveau_geschaetzt="II",
+    fehlerquelle="nur die positive Lösung x=5 angeben und die zweite (symmetrische) Lösung x=−5 übersehen")
 
-row(id="2019-GYM-K3c", block="Kontext", aufgabe="3", titel="Sonnensegel", teilaufgabe="c", seite="5",
-    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche", typ="Höhe eines Zylinders aus Volumen berechnen",
-    stichwoerter="Planschbecken|Wasserstand|Zylinder", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Garten/Freizeit", textumfang="mittel",
-    gegeben="zylinderförmiges Planschbecken, Innendurchmesser 1,20 m; eingefüllt 10 Eimer à 5 l und 5 Kannen "
-            "à 2 l",
-    gesucht="Wasserstand im Becken",
-    verfahren="Wassermenge = 10·5+5·2 = 60 l = 60 000 cm³; h = V : (π·r²) mit r=60 cm", schritte="3",
-    zahlenraum="dezimal", einheiten="l|cm³|cm", ergebnis="h ≈ 5,31 cm", zwischenergebnis="V = 60 000 cm³",
-    niveau_geschaetzt="II", fehlerquelle="mit dem Durchmesser (120 cm) statt dem Radius (60 cm) rechnen")
+row(id="2020-GYM-B2b", block="Basis", aufgabe="2", titel="", teilaufgabe="b", seite="3",
+    punkte="3", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Fehlende Schnittpunkte zweier Funktionen über Wertebereiche begründen",
+    stichwoerter="Wertebereich|Parabel|Begründung|keine Schnittpunkte", format="Begründung",
+    operator="Begründen Sie", antwort="Text", material="keins",
+    skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="f(x) = x² − 2 und h(x) = −x² − 3",
+    gesucht="Begründung, dass f und h keine gemeinsamen Schnittpunkte besitzen",
+    verfahren="f hat den Scheitelpunkt (Minimum) bei (0|−2), also f(x) ≥ −2 für alle x; h hat den "
+              "Scheitelpunkt (Maximum) bei (0|−3), also h(x) ≤ −3 für alle x; da −2 > −3, gilt f(x) ≥ −2 "
+              "> −3 ≥ h(x) für alle x, die Graphen können sich also nie treffen",
+    schritte="2", zahlenraum="ganz",
+    ergebnis="kein gemeinsamer Punkt, da Wertebereich von f (≥ −2) und Wertebereich von h (≤ −3) disjunkt "
+             "sind", niveau_geschaetzt="III",
+    fehlerquelle="x² − 2 = −x² − 3 gleichsetzen und aus der negativen Diskriminante (2x² = −1) nur „keine "
+                 "Lösung“ ohne inhaltliche Begründung über die Wertebereiche folgern")
 
-row(id="2019-GYM-K4a", block="Kontext", aufgabe="4", titel="Turm", teilaufgabe="a", seite="6",
-    punkte="4", leitidee="Raum und Form", thema="Körper, Netze, Schrägbilder", typ="Körper im Schrägbild darstellen",
-    stichwoerter="Turm|Schrägbild|Maßstab", format="Zeichnen|Kurzantwort", operator="Stellen Sie dar|Geben Sie an",
-    antwort="Grafik|Text", material="Figur",
-    skizze="Turm als Schrägbild: Quader mit quadratischer Grundfläche (Kante 4 m, Höhe 10 m) und "
-           "aufgesetzter quadratischer Pyramide (Dach) darstellen, Fenster unberücksichtigt",
-    kontext="Bauwesen", textumfang="mittel",
-    gegeben="13 m hoher Turm: Quader mit quadratischer Grundfläche 4 m, Höhe des Quaders 10 m, "
-            "pyramidenförmiges Dach (Resthöhe 3 m)",
-    gesucht="Schrägbild des Turms mit angegebenem Maßstab",
-    verfahren="Quader und aufgesetzte Pyramide in einem einheitlichen, selbst gewählten Maßstab (z. B. "
-              "1:100) zeichnen", schritte="1", zahlenraum="ganz", einheiten="m",
-    ergebnis="Schrägbild aus Quader (4 m x 4 m x 10 m) und Pyramide (Höhe 3 m), Maßstab z. B. 1:100",
-    niveau_geschaetzt="II", fehlerquelle="Quader und Pyramide in unterschiedlichen Maßstäben zeichnen")
+row(id="2020-GYM-K3a", block="Kontext", aufgabe="3", titel="Funktionen", teilaufgabe="a", seite="2",
+    punkte="3", leitidee="Gleichungen und Funktionen", thema="Funktionen allgemein",
+    typ="Parameter einer Wurzelfunktion aus einem Punkt bestimmen",
+    stichwoerter="Wurzelfunktion|Wurzelexponent|Graph", format="Rechnung", operator="Ermitteln Sie",
+    antwort="Term", material="Figur",
+    skizze="Graph einer Wurzelfunktion durch den Ursprung, streng monoton steigend und konkav, "
+           "Punkt P(8|2) markiert, Koordinatensystem 0 bis 10",
+    kontext="ohne", textumfang="kurz",
+    gegeben="Funktion g der Form g(x) = ⁿ√x; Punkt P(8|2) liegt auf dem Graphen von g",
+    gesucht="Wert für n und Funktionsgleichung von g",
+    verfahren="8^(1/n) = 2 ⟹ 2^n = 8 ⟹ n = 3", schritte="1", zahlenraum="ganz",
+    ergebnis="n = 3, g(x) = ³√x", niveau_geschaetzt="II",
+    fehlerquelle="n mit dem Funktionswert 2 verwechseln oder g(x) = 8/x (indirekte Proportionalität) "
+                 "statt der Wurzelfunktion ansetzen")
 
-row(id="2019-GYM-K4b", block="Kontext", aufgabe="4", titel="Turm", teilaufgabe="b", seite="7",
-    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche", typ="Mantelfläche einer Pyramide berechnen",
-    stichwoerter="Pyramide|Dachfläche|Seitenhöhe", format="Rechnung", operator="Berechnen Sie", antwort="Zahl",
-    material="Figur", skizze="dieselbe Turmskizze wie in a)", kontext="Bauwesen", textumfang="kurz",
-    gegeben="quadratische Pyramide (Dach) mit Grundkante 4 m und Höhe 3 m", gesucht="Größe der Dachfläche "
-                                                                                  "(Mantelfläche)",
-    verfahren="Seitenhöhe (Neigungshöhe) h_s = √(3²+2²) = √13; Mantelfläche = 4 · 0,5 · 4 · h_s",
-    schritte="3", zahlenraum="Wurzel|dezimal", einheiten="m|m²", abhaengig_von="2019-GYM-K4a",
-    ergebnis="≈ 28,84 m²", zwischenergebnis="Seitenhöhe ≈ 3,61 m", niveau_geschaetzt="III",
-    fehlerquelle="die Pyramidenhöhe (3 m) statt der Seitenhöhe (√13 m) für die Dreiecksflächen verwenden")
+row(id="2020-GYM-K3b", block="Kontext", aufgabe="3", titel="Funktionen", teilaufgabe="b", seite="3",
+    punkte="4", leitidee="Gleichungen und Funktionen", thema="Funktionen allgemein",
+    typ="Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen",
+    stichwoerter="Spiegelung|Umkehrfunktion|Wertebereich|Winkelhalbierende", format="Zeichnen|Kurzantwort",
+    operator="Skizzieren Sie|Geben Sie an", antwort="Grafik|Zahl", material="Koordinatensystem",
+    skizze="Graph von g (³√x) im 1. Quadranten wird an der Geraden y=x gespiegelt; gesucht ist der "
+           "gespiegelte Graph im Intervall [0;2] im selben Koordinatensystem (0 bis 10)",
+    kontext="ohne", textumfang="kurz",
+    gegeben="g(x) = ³√x; Spiegelung des Graphen von g im 1. Quadranten an der Geraden y = x ergibt g′",
+    gesucht="Graph von g′ im Intervall [0;2] und Wertebereich von g′ in diesem Intervall",
+    verfahren="Spiegelung an y=x vertauscht x- und y-Werte, die Umkehrfunktion der Wurzelfunktion ³√x ist "
+              "die Potenzfunktion x³, also g′(x) = x³; g′ ist auf [0;2] streng monoton steigend mit "
+              "g′(0)=0 und g′(2)=8",
+    schritte="2", zahlenraum="ganz", abhaengig_von="2020-GYM-K3a",
+    ergebnis="g′(x) = x³; Wertebereich von g′ auf [0;2] ist [0;8]", niveau_geschaetzt="III",
+    fehlerquelle="den Graphen an der y-Achse statt an der Geraden y=x spiegeln, oder den Wertebereich mit "
+                 "dem Definitionsbereich [0;2] verwechseln")
 
-row(id="2019-GYM-K4c", block="Kontext", aufgabe="4", titel="Turm", teilaufgabe="c", seite="7",
-    punkte="3", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang", typ="Restfläche berechnen",
-    typ_neben="Größen vergleichen",
-    stichwoerter="Anstrichfläche|Fenster|Farbe reicht", format="Begründung", operator="Prüfen Sie", antwort="Text",
-    material="Figur", skizze="dieselbe Turmskizze wie in a), oberer Wandbereich von 6 m bis 10 m Höhe mit "
-                             "vier kreisförmigen Fenstern", kontext="Bauwesen", textumfang="mittel",
-    gegeben="Turm mit quadratischer Grundfläche (Kante 4 m); der Bereich von 6 m bis 10 m Höhe soll "
-            "gestrichen werden, vier kreisförmige Fenster mit Durchmesser 1,50 m; vorhandene Farbe für 60 m²",
-    gesucht="Prüfung, ob die Farbe für die zu streichende Fläche reicht",
-    verfahren="Wandfläche = Umfang(4·4 m) · Höhe(4 m) = 64 m²; Fensterfläche = 4·π·0,75² ≈ 7,07 m²; "
-              "zu streichende Fläche = 64 − 7,07",
-    schritte="3", zahlenraum="dezimal", einheiten="m|m²", ergebnis="zu streichende Fläche ≈ 56,93 m² < "
-                                                                   "60 m² vorhandene Farbe, die Farbe reicht",
-    zwischenergebnis="Wandfläche 64 m², Fensterfläche ≈ 7,07 m²", niveau_geschaetzt="III",
-    fehlerquelle="die Fensterflächen nicht von der Wandfläche abziehen")
+row(id="2020-GYM-K3c", block="Kontext", aufgabe="3", titel="Funktionen", teilaufgabe="c", seite="3",
+    punkte="3", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
+    typ="Anstieg einer linearen Funktion aus Punkt und y-Achsenabschnitt berechnen",
+    typ_neben="Nullstelle lineare Funktion berechnen",
+    stichwoerter="lineare Funktion|Anstieg|Nullstelle|y-Achsenabschnitt", format="Rechnung|Kurzantwort",
+    operator="Berechnen Sie|Geben Sie an", antwort="Zahl|Zahl", material="keins",
+    skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="lineare Funktion h mit h(x) = mx − 2; der Punkt P(8|2) liegt auf dem Graphen von h",
+    gesucht="Anstieg m von h und Nullstelle von h",
+    verfahren="2 = m·8 − 2 ⟹ 8m = 4 ⟹ m = 0,5; Nullstelle: 0,5x − 2 = 0 ⟹ x = 4", schritte="2",
+    zahlenraum="dezimal", abhaengig_von="2020-GYM-K3a",
+    ergebnis="m = 0,5; Nullstelle x = 4", niveau_geschaetzt="II",
+    fehlerquelle="das Vorzeichen des y-Achsenabschnitts −2 beim Einsetzen vertauschen")
 
-row(id="2019-GYM-K5a", block="Kontext", aufgabe="5", titel="Tag der Verkehrserziehung", teilaufgabe="a", seite="8",
-    punkte="3", leitidee="Daten und Zufall", thema="Daten darstellen", typ="Kreisdiagramm zeichnen",
-    stichwoerter="Verkehrsmittel|Kreisdiagramm|Umfrage", format="Zeichnen", operator="Fertigen Sie an", antwort="Grafik",
-    material="Tabelle", skizze="leerer Kreis zum Eintragen der drei Sektoren Bus, Fahrrad, zu Fuß",
-    kontext="Schule/Verkehr", textumfang="mittel",
-    gegeben="Klasse 10a: 15 Bus, 5 Fahrrad, 7 zu Fuß (27 Schüler insgesamt)",
-    gesucht="Kreisdiagramm der Verkehrsmittelwahl",
-    verfahren="Mittelpunktswinkel je Kategorie: Bus 15:27·360°, Fahrrad 5:27·360°, zu Fuß 7:27·360°",
-    schritte="3", zahlenraum="dezimal|Prozent", einheiten="Grad",
-    ergebnis="Bus ≈ 200°, Fahrrad ≈ 66,7°, zu Fuß ≈ 93,3°", niveau_geschaetzt="II",
-    fehlerquelle="die Winkel auf 100 Schüler statt auf die tatsächliche Gesamtzahl 27 beziehen")
+row(id="2020-GYM-K4a", block="Kontext", aufgabe="4", titel="Seilbahn", teilaufgabe="a", seite="4",
+    punkte="1", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Strecke aus Teilstrecken berechnen",
+    stichwoerter="Höhenunterschied|Seilbahn|Differenz", format="Kurzantwort", operator="Geben Sie an",
+    antwort="Zahl", material="Tabelle",
+    skizze="Dreieck aus Talstation T, Zwischenstation Z, Bergstation B mit Winkel α bei Z; Tabelle mit "
+           "Höhenangaben, horizontaler Entfernung und maximaler Steigung",
+    kontext="Freizeit/Technik", textumfang="kurz",
+    gegeben="Talstation 670 m über dem Meeresspiegel; Bergstation 1250 m über dem Meeresspiegel",
+    gesucht="Höhenunterschied, der durch die Seilbahn überwunden wird",
+    verfahren="1250 m − 670 m", schritte="1", zahlenraum="ganz", einheiten="m",
+    ergebnis="580 m", niveau_geschaetzt="I", fehlerquelle="keine (einfache Differenz)")
 
-row(id="2019-GYM-K5b", block="Kontext", aufgabe="5", titel="Tag der Verkehrserziehung", teilaufgabe="b", seite="9",
-    punkte="1", leitidee="Daten und Zufall", thema="Zählen und Kombinatorik",
+row(id="2020-GYM-K4b", block="Kontext", aufgabe="4", titel="Seilbahn", teilaufgabe="b", seite="4",
+    punkte="2", leitidee="Größen und Messen", thema="Trigonometrie im rechtwinkligen Dreieck",
+    typ="Neigungswinkel einer Geraden berechnen", typ_neben="Steigung in Prozent deuten",
+    stichwoerter="Steigungswinkel|Steigung in Prozent|Tangens", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="Tabelle",
+    skizze="keine (Hinweistext: 1 % Steigung = 1 m Höhenunterschied auf 100 m horizontale Entfernung)",
+    kontext="Freizeit/Technik", textumfang="mittel",
+    gegeben="maximale Steigung der Seilbahn 150 %",
+    gesucht="zur maximalen Steigung gehörender Steigungswinkel",
+    verfahren="150 % Steigung bedeutet ein Verhältnis Höhe zu horizontaler Strecke von 1,5; "
+              "Steigungswinkel = arctan(1,5)", schritte="2", zahlenraum="dezimal", einheiten="Grad",
+    ergebnis="≈ 56,3°", niveau_geschaetzt="II",
+    fehlerquelle="150 % direkt als Winkel verwenden oder durch 180° statt über den Tangens umrechnen")
+
+row(id="2020-GYM-K4c", block="Kontext", aufgabe="4", titel="Seilbahn", teilaufgabe="c", seite="4",
+    punkte="3", leitidee="Größen und Messen", thema="Sinussatz",
+    typ="Winkel im allgemeinen Dreieck über Kosinussatz berechnen",
+    stichwoerter="Kosinussatz|Dreieck TZB|eingeschlossener Winkel", format="Rechnung",
+    operator="Berechnen Sie", antwort="Zahl", material="Tabelle|Figur",
+    skizze="Dreieck TZB mit den Seiten TZ, ZB, TB und dem gesuchten Winkel α bei Z",
+    kontext="Freizeit/Technik", textumfang="mittel",
+    gegeben="Dreieck TZB mit TB = 775 m (direkte Verbindung Tal-/Bergstation), Gesamtlänge der Seilbahn "
+            "TZ + ZB = 945 m, TZ = 510 m (also ZB = 945 m − 510 m = 435 m)",
+    gesucht="Winkel α zwischen den Teilabschnitten TZ und ZB (Winkel bei Z im Dreieck TZB)",
+    verfahren="Kosinussatz: TB² = TZ² + ZB² − 2·TZ·ZB·cos(α), aufgelöst nach α", schritte="2",
+    zahlenraum="dezimal", einheiten="Grad", abhaengig_von="2020-GYM-K4a",
+    ergebnis="α ≈ 109,9°", niveau_geschaetzt="III",
+    fehlerquelle="TB fälschlich als dritte Seilbahnstrecke statt als direkte Verbindung verwenden, oder "
+                 "ZB nicht aus 945 m − 510 m ermitteln")
+
+row(id="2020-GYM-K4d", block="Kontext", aufgabe="4", titel="Seilbahn", teilaufgabe="d", seite="4",
+    punkte="5", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Transportanzahl aus Volumen und Masse berechnen", typ_neben="Volumen Zylinder berechnen",
+    stichwoerter="Holzstamm|Nutzlast|Zylindervolumen|Dichte", format="Begründung",
+    operator="Zeigen Sie rechnerisch", antwort="Text", material="keins",
+    skizze="keine", kontext="Freizeit/Technik", textumfang="mittel",
+    gegeben="maximale Nutzlast 250 kg; jeder Holzstamm ist ein Zylinder mit Länge 2 m und Durchmesser "
+            "20 cm (Radius 0,1 m); 1 m³ Holz wiegt 1,3 t",
+    gesucht="Nachweis, dass gleichzeitig maximal drei Stämme transportiert werden können",
+    verfahren="Volumen je Stamm V = π·0,1²·2 ≈ 0,0628 m³; Masse je Stamm ≈ 0,0628·1300 kg ≈ 81,7 kg; drei "
+              "Stämme ≈ 245,0 kg ≤ 250 kg (zulässig), vier Stämme ≈ 326,7 kg > 250 kg (nicht zulässig)",
+    schritte="3", zahlenraum="dezimal", einheiten="m|kg", abhaengig_von="2020-GYM-K4a",
+    ergebnis="ein Stamm ≈ 81,7 kg; drei Stämme ≈ 245,0 kg ≤ 250 kg; vier Stämme ≈ 326,7 kg > 250 kg, also "
+             "maximal drei Stämme", niveau_geschaetzt="III",
+    fehlerquelle="die Dichte 1,3 t/m³ als 1,3 kg/m³ verwenden oder den Durchmesser statt des Radius in die "
+                 "Volumenformel einsetzen")
+
+row(id="2020-GYM-K5a", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="a", seite="5",
+    punkte="1", leitidee="Raum und Form", thema="Körper, Netze, Schrägbilder",
+    typ="Grundfläche eines Prismas im Körpernetz kennzeichnen",
+    stichwoerter="Körpernetz|Prisma|Grundfläche|fünfeckig", format="Ankreuzen", operator="Kennzeichnen Sie",
+    antwort="Kreuz", material="Figur",
+    skizze="Körpernetz eines fünfseitigen Prismas: mittleres Band aus fünf aneinandergereihten Rechtecken "
+           "(Mantelflächen), oben und unten je eine fünfeckige (hausförmige) Fläche als Grund- bzw. "
+           "Deckfläche, Maßstabsbalken 1 cm am Rand",
+    kontext="Freizeit/Konsum", textumfang="kurz",
+    gegeben="Körpernetz eines Prismas (Verpackung für Schokokugeln) im Maßstab 1:3",
+    gesucht="eine Fläche im Netz, die Grundfläche des Prismas sein kann",
+    verfahren="Grundfläche und Deckfläche eines Prismas sind die beiden deckungsgleichen Vielecksflächen, "
+              "hier die beiden fünfeckigen (hausförmigen) Flächen an den Enden des Netzes, nicht die "
+              "rechteckigen Mantelflächen", schritte="1",
+    ergebnis="eine der beiden fünfeckigen Flächen am oberen oder unteren Rand des Netzes",
+    niveau_geschaetzt="I",
+    fehlerquelle="eine der rechteckigen Mantelflächen als Grundfläche markieren")
+
+row(id="2020-GYM-K5b", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="b", seite="5",
+    punkte="3", leitidee="Raum und Form", thema="Körper, Netze, Schrägbilder",
+    typ="Maße eines Körpers aus einem bemaßten Netz im Maßstab ablesen",
+    typ_neben="Volumen Prisma berechnen",
+    stichwoerter="Körpernetz|Maßstab|Fünfeck|Prismenvolumen", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="Figur",
+    skizze="wie 2020-GYM-K5a; keine Zahlenmaße im Netz, nur ein Maßstabsbalken „1 cm“",
+    kontext="Freizeit/Konsum", textumfang="kurz", abhaengig_von="2020-GYM-K5a",
+    gegeben="Körpernetz im Maßstab 1:3, bemaßt nur durch einen 1-cm-Maßstabsbalken; aus dem Netz "
+            "ausgemessen (auf der Zeichnung): Breite der fünfeckigen Grundfläche 3 cm, Höhe des "
+            "rechteckigen Teils der Grundfläche 2 cm, Höhe des dreieckigen (Dach-)Teils 2 cm, Länge des "
+            "Prismas (Breite der Mantelrechtecke in Längsrichtung) 3 cm",
+    gesucht="Volumen der Verpackung",
+    verfahren="reale Maße = gezeichnete Maße · 3 (Maßstab 1:3): Grundflächenbreite 9 cm, Rechteckhöhe "
+              "6 cm, Dreieckshöhe 6 cm, Prismenlänge 9 cm; Grundfläche (Fünfeck) = Rechteck + Dreieck = "
+              "9 cm · 6 cm + 0,5 · 9 cm · 6 cm = 54 cm² + 27 cm² = 81 cm²; Volumen = Grundfläche · Länge "
+              "= 81 cm² · 9 cm",
+    schritte="3", zahlenraum="dezimal", einheiten="cm|cm²|cm³",
+    ergebnis="V = 729 cm³ ≈ 0,73 L?", niveau_geschaetzt="III",
+    fehlerquelle="den Maßstab 1:3 auf die bereits umgerechneten Flächen- oder Volumenwerte statt auf die "
+                 "Längen anwenden",
+    bemerkung="Ergebnis unsicher: Das Heft gibt für das Netz keine Zahlenmaße an, nur einen gezeichneten "
+              "1-cm-Maßstabsbalken. Die Längen wurden aus der PDF-Vektorgrafik ausgemessen (Pixel- und "
+              "Vektorkoordinaten von Linien und Maßstabsbalken, Maßstabsbalken ≈ 24,1 pt = 1 cm auf der "
+              "Zeichnung) und auf glatte Zentimeterwerte (3/2/2/3 cm) gerundet; diese runden Werte bilden "
+              "für die Dachschräge ein sauberes Steigungsdreieck im Verhältnis 1,5 zu 2 zu 2,5 "
+              "(gestrecktes Dreieck im Verhältnis 3 zu 4 zu 5), was für die Richtigkeit der Rundung "
+              "spricht, aber nicht mit letzter Sicherheit auf dem amtlichen Originalmaß beruht.")
+
+row(id="2020-GYM-K5c", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="c", seite="6",
+    punkte="3", leitidee="Raum und Form", thema="Körper, Netze, Schrägbilder",
+    typ="Körper im Schrägbild darstellen",
+    stichwoerter="Schrägbild|Prisma|Verpackung", format="Zeichnen", operator="Zeichnen Sie",
+    antwort="Grafik", material="keins",
+    skizze="Schrägbild des fünfseitigen Prismas (Grundfläche Fünfeck, fünf rechteckige Seitenflächen)",
+    kontext="Freizeit/Konsum", textumfang="kurz", abhaengig_von="2020-GYM-K5a",
+    gegeben="Prisma mit fünfeckiger Grundfläche (Maße aus Teilaufgabe b)",
+    gesucht="Schrägbild des Körpers",
+    verfahren="Grundfläche als Fünfeck perspektivisch verzerrt zeichnen, Kanten parallel und verkürzt in "
+              "die Tiefe führen, Deckfläche kongruent versetzt einzeichnen", schritte="1",
+    ergebnis="Schrägbild eines fünfseitigen Prismas", niveau_geschaetzt="II",
+    fehlerquelle="Kanten nicht parallel oder ohne einheitliche Verkürzung in die Tiefe zeichnen")
+
+row(id="2020-GYM-K5d", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="d", seite="6",
+    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Kugeldurchmesser aus Anzahl nebeneinanderliegender Kugeln bestimmen",
+    typ_neben="Volumen Kugel berechnen",
+    stichwoerter="Schokokugel|Kugelpackung|Kugelvolumen", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="Figur", abhaengig_von="2020-GYM-K5b",
+    skizze="16 gleich große Kreise (Schokokugeln von oben) liegen nebeneinander auf dem rechteckigen Boden "
+           "der Verpackung (9 cm × 9 cm), angeordnet in einem 4×4-Raster",
+    kontext="Freizeit/Konsum", textumfang="mittel",
+    gegeben="16 gleich große Schokokugeln liegen nebeneinander auf dem quadratischen Boden der Verpackung "
+            "(Seitenlänge 9 cm, aus Teilaufgabe b); Anordnung 4 Kugeln je Reihe in beiden Richtungen "
+            "(4 × 4 = 16 Kugeln)",
+    gesucht="maximal mögliches Volumen einer Schokokugel",
+    verfahren="Durchmesser d = 9 cm : 4 = 2,25 cm, Radius r = 1,125 cm; V = 4/3 · π · r³", schritte="2",
+    zahlenraum="dezimal", einheiten="cm|cm³",
+    ergebnis="d = 2,25 cm; V ≈ 5,96 cm³", niveau_geschaetzt="III",
+    fehlerquelle="16 Kugeln als eine Reihe (statt 4×4-Raster) auffassen und den Durchmesser durch 16 statt "
+                 "durch 4 teilen")
+
+row(id="2020-GYM-K6a", block="Kontext", aufgabe="6", titel="Handballtraining", teilaufgabe="a", seite="7",
+    punkte="2", leitidee="Daten und Zufall", thema="Zählen und Kombinatorik",
     typ="Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen",
-    stichwoerter="Auswahl|Kombination|Fahrradkontrolle", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
-    material="keins", skizze="keine", kontext="Schule/Verkehr", textumfang="kurz",
-    gegeben="5 Fahrradfahrer der Klasse 10a, 3 werden zufällig für eine Kontrolle ausgewählt",
-    gesucht="Anzahl der Auswahlmöglichkeiten", verfahren="Kombination ohne Wiederholung: C(5,3) = 5!:(3!·2!)",
-    schritte="1", zahlenraum="ganz", ergebnis="10", niveau_geschaetzt="II",
-    fehlerquelle="die Reihenfolge der Auswahl mitzählen und mit der Anordnungszahl (5·4·3=60) statt der "
-                 "Kombination rechnen")
+    stichwoerter="Handschlag|Kombination|Trainer", format="Rechnung", operator="Ermitteln Sie",
+    antwort="Zahl", material="keins",
+    skizze="keine", kontext="Freizeit/Sport", textumfang="kurz",
+    gegeben="20 Sportler begrüßen sich untereinander mit Handschlag; zusätzlich begrüßt der Trainer jeden "
+            "der 20 Sportler mit Handschlag",
+    gesucht="Gesamtzahl der Handschläge",
+    verfahren="Handschläge der Sportler untereinander: Anzahl der 2er-Kombinationen aus 20, C(20,2) = 190; "
+              "dazu die 20 Handschläge des Trainers", schritte="2", zahlenraum="ganz",
+    ergebnis="190 + 20 = 210 Handschläge", niveau_geschaetzt="II",
+    fehlerquelle="die Handschläge des Trainers vergessen oder C(20,2) mit 20² verwechseln (Reihenfolge "
+                 "der Begrüßung zählt nicht doppelt)")
 
-row(id="2019-GYM-K5c", block="Kontext", aufgabe="5", titel="Tag der Verkehrserziehung", teilaufgabe="c", seite="9",
-    punkte="4", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit mehrstufig",
-    typ="Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen",
-    typ_neben="Wahrscheinlichkeit mehrstufig unabhängig|Ereignis zu Wahrscheinlichkeitsterm beschreiben",
-    stichwoerter="Baumdiagramm|Fahrradkontrolle|mindestens zwei", format="Kurzantwort|Rechnung|Begründung",
-    operator="Geben Sie an|Berechnen Sie|Beschreiben Sie", antwort="Zahl|Zahl|Text", material="Figur",
-    skizze="dreistufiges Baumdiagramm Licht(L)/Reifen(R)/Bremsen(B), je Stufe bestanden(+)/nicht "
-           "bestanden(−): P(L+)=0,87, P(R+|L+)=0,85, P(R+|L−)=0,85, P(B+)=0,9 an jedem Endast",
-    kontext="Schule/Verkehr", textumfang="lang",
-    gegeben="Baumdiagramm mit drei Stufen (Licht, Reifen, Bremsen), P(L+)=0,87, P(R+)=0,85, P(B+)=0,9 an "
-            "jeder Verzweigung",
-    gesucht="Anzahl der Pfade für „mindestens zwei Kontrollen bestanden“; Wahrscheinlichkeit, dass alle drei "
-            "Kontrollen bestanden wurden; Beschreibung des Ereignisses zu "
-            "P(A)=0,13·0,85·0,9+0,87·0,15·0,9+0,87·0,85·0,1",
-    verfahren="von 8 Pfaden erfüllen 4 „mindestens zwei von drei +“ (+++ sowie die drei Pfade mit genau "
-              "einem −); P(+++) = 0,87·0,85·0,9; die drei Summanden von P(A) sind jeweils genau ein − an "
-              "einer der drei Stufen, die anderen beiden +",
-    schritte="3", zahlenraum="dezimal", ergebnis="4 Pfade|P(+++) = 0,66555|A: „Genau zwei der drei "
-             "Kontrollen wurden bestanden“", niveau_geschaetzt="III",
-    fehlerquelle="bei der Pfadzählung auch „genau ein + \" oder „kein +\" Pfade mitzählen")
+row(id="2020-GYM-K6b", block="Kontext", aufgabe="6", titel="Handballtraining", teilaufgabe="b", seite="7",
+    punkte="2", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit mehrstufig",
+    typ="Wahrscheinlichkeit mehrstufig ohne Zurücklegen",
+    stichwoerter="Trainingsshirts|ohne Zurücklegen|fünfstufig", format="Rechnung",
+    operator="Bestimmen Sie", antwort="Zahl", material="keins",
+    skizze="keine", kontext="Freizeit/Sport", textumfang="mittel",
+    gegeben="24 Trainingsshirts (je 6 rote, gelbe, blaue, grüne) in einer Kiste; ein Kapitän greift ohne "
+            "hinzusehen gleichzeitig 5 Shirts",
+    gesucht="Wahrscheinlichkeit, dass alle 5 gegriffenen Shirts rot sind",
+    verfahren="Ziehen ohne Zurücklegen, fünfstufig: P = 6/24 · 5/23 · 4/22 · 3/21 · 2/20", schritte="1",
+    zahlenraum="Bruch",
+    ergebnis="P = 1/7084 ≈ 0,00014", niveau_geschaetzt="III",
+    fehlerquelle="mit Zurücklegen rechnen (P = (6/24)^5) statt die Anzahl roter und verbliebener Shirts "
+                 "je Stufe zu verringern",
+    bemerkung="Die Aufgabe zieht fünf Shirts in einem Griff (fünfstufig ohne Zurücklegen); der "
+              "Typ „Wahrscheinlichkeit mehrstufig ohne Zurücklegen“ ist bisher nur für zwei- oder "
+              "dreistufige Versuche belegt, das zugrunde liegende Prinzip (je Stufe verkleinerte "
+              "Grundmenge) ist aber identisch, daher hier wiederverwendet statt eines neuen Typs.")
+
+row(id="2020-GYM-K6c", block="Kontext", aufgabe="6", titel="Handballtraining", teilaufgabe="c", seite="8",
+    punkte="5", leitidee="Daten und Zufall", thema="Kenngrößen",
+    typ="Spannweite berechnen", typ_neben="Modalwert bestimmen|Kreisdiagramm zeichnen",
+    stichwoerter="Spannweite|Modalwert|Kreisdiagramm|Trefferzahlen",
+    format="Kurzantwort|Kurzantwort|Zeichnen",
+    operator="Geben Sie an|Geben Sie an|Stellen Sie dar", antwort="Zahl|Zahl|Grafik",
+    material="Tabelle",
+    skizze="Kreisdiagramm mit den Anteilen der Spieler nach Trefferzahl (1 bis 5 Treffer)",
+    kontext="Freizeit/Sport", textumfang="mittel",
+    gegeben="Trefferzahlen von 10 Spielern beim 7-Meter-Werfen (je 5 Würfe): 3; 5; 4; 3; 3; 5; 1; 2; 4; 3",
+    gesucht="Spannweite, Modalwert mit Interpretation, Kreisdiagramm der Trefferzahlen",
+    verfahren="Spannweite = Maximum − Minimum = 5 − 1; Modalwert = häufigster Wert der Liste; "
+              "Kreisdiagramm: je Trefferzahl Anzahl der Spieler zu 360° ins Verhältnis setzen (1 Treffer: "
+              "1 Spieler → 36°, 2 Treffer: 1 Spieler → 36°, 3 Treffer: 4 Spieler → 144°, 4 Treffer: "
+              "2 Spieler → 72°, 5 Treffer: 2 Spieler → 72°)",
+    schritte="3", zahlenraum="ganz",
+    ergebnis="Spannweite = 4; Modalwert = 3 Treffer (4 von 10 Spielern trafen dreimal, am häufigsten); "
+             "Kreisdiagramm mit Sektoren 36°/36°/144°/72°/72° für 1/2/3/4/5 Treffer",
+    niveau_geschaetzt="II",
+    fehlerquelle="beim Kreisdiagramm die Trefferzahlen selbst statt der Häufigkeiten je Trefferzahl "
+                 "verwenden")
 # Feldkorrektur an vorhandenen Typen: typ -> {feld: neuer Wert}; siehe Kopf.
 TYPEN_KORREKTUR = {
     "Behauptung prüfen": {

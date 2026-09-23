@@ -41,7 +41,7 @@ Hefte Gymnasium (papier GYM), seit 23.09.2026 Bestand (konzept.md Entscheidung 1
 | 2017 | 17_P10_Ma_Gym_A.pdf | GYM | 11 | 135 | 50 | erfasst 2026-09-23, 25 Zeilen (10 Basis, 15 Kontext) |
 | 2018 | 18_P10_Ma_Gym_A.pdf | GYM | 11 | 135 | 50 | erfasst 2026-09-23, 26 Zeilen (10 Basis, 16 Kontext) |
 | 2019 | 19_P10_Ma_Gym_A_1.pdf, 19_P10_Ma_Gym_A_2.pdf | GYM | 3+9 | 135 | 50 | erfasst 2026-09-23, 22 Zeilen (10 Basis, 12 Kontext) |
-| 2020 | 20_P10_Ma_Gym_A_1.pdf, 20_P10_Ma_Gym_A_2.pdf | GYM | 3+9 | 135 | 50 | – |
+| 2020 | 20_P10_Ma_Gym_A_1.pdf, 20_P10_Ma_Gym_A_2.pdf | GYM | 3+9 | 135 | 50 | erfasst 2026-09-23, 18 Zeilen (4 Basis, 14 Kontext) |
 | 2021 | 21_P10_Ma_Gym_A1.pdf, 21_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | – |
 | 2022 | 22_P10_Ma_Gym_Aufgaben_1_und_2.pdf, 22_P10_Ma_Gym_Aufgaben_3_bis_6.pdf | GYM | 3+9 | 135 | 50 | – |
 | 2023 | 23_P10_Ma_Gym_A1.pdf, 23_P10_Ma_Gym_A2.pdf | GYM | 3+9 | 135 | 50 | – |
@@ -53,6 +53,7 @@ Katalogdatei msa-katalog-gym.csv (beide Blöcke, Feld block trennt sie); Quelle 
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-23 (Auftrag Gymnasialhefte): Heft 2020 GYM erfasst (18 Zeilen: 4 Basis, 14 Kontext; 8 Typen neu, davon erste unter Thema „Funktionen allgemein" für eine Wurzelfunktion und ihre Umkehrfunktion). Eine unsichere Zeile (K5b, „?", Netzmaße ohne Zahlenangabe nur über Maßstabsbalken ausgemessen). Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2019 GYM erfasst (22 Zeilen: 10 Basis, 12 Kontext; 10 Typen neu). Erstes zweiteiliges Heft (KONFIG "dateien"/"seiten" als dict erstmals produktiv genutzt). Eine unsichere Zeile (B1c, „?"). Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2018 GYM erfasst (26 Zeilen: 10 Basis, 16 Kontext; 9 Typen neu). Kataloge OS/EBR/FOR unverändert. Damit ist die einteilige Heftreihe 2014–2018 vollständig erfasst; ab 2019 zwei Dateien je Jahrgang (msa.md § 3).
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2017 GYM erfasst (25 Zeilen: 10 Basis, 15 Kontext; 7 Typen neu). Kataloge OS/EBR/FOR unverändert.
