@@ -1,6 +1,20 @@
 # -*- coding: utf-8 -*-
 """msa-bau.py – Gerüst für die Erfassung eines Hefts im Profil msa und Selbstprüfung des Bestands.
-Version 0.2 · 17.09.2026 · gilt mit katalog-prompt.md v0.9 und msa.md v0.5
+Version 0.3 · 23.09.2026 · gilt mit katalog-prompt.md v0.9 und msa.md v0.7
+
+Änderungen gegenüber 0.2 (Auftrag Gymnasialhefte, 23.09.2026): papier-Muster um
+GYM erweitert (msa.md § 4); KONFIG führt daneben „dateien" (Liste, weil ab 2019
+zwei PDF je Heft), der Altwert „datei" bleibt gültig – beide Felder sind rein
+informativ und werden vom Skript nicht ausgewertet. Zeilen mit papier GYM
+werden unabhängig von block nach msa-katalog-gym.csv geschrieben (beide
+Blöcke in einer Datei, Feld block trennt sie wie gehabt); OS/EBR/FOR/MUSTER
+unverändert nach msa-katalog-basis.csv/msa-katalog-kontext.csv. Die
+Selbstprüfung liest jetzt alle drei Katalogdateien. KONFIG["seiten"] darf für
+zweiteilige Hefte ein dict {block: seiten} sein (Seite zählt je PDF-Datei neu,
+die beiden Gymnasialteile haben getrennte Fußzeilen "Seite N von M"); ein
+einzelner int bleibt wie bisher gültig. Selbstprüfung für OS/EBR/FOR/MUSTER
+byteidentisch zu 0.2 (393 Zeilen, 185 Typen, gleiche Hashes, vor dem ersten
+GYM-Heft geprüft).
 
 Änderungen gegenüber 0.1 (Auftrag F, Punkt 1, 17.09.2026): Die Dateien des
 Profils tragen das Präfix msa- (KAT, TYP: msa-katalog-basis.csv,
@@ -45,9 +59,10 @@ sys.stdout.reconfigure(encoding="utf-8")
 # ===================================================================== KONFIG
 KONFIG = {
     "jahr": "",
-    "papier": "",       # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR (msa.md § 4)
-    "datei": "",
-    "seiten": 0,
+    "papier": "",       # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM (msa.md § 4)
+    "datei": "",        # einteiliges Heft (OS/EBR/FOR/MUSTER, GYM 2014–2018)
+    "dateien": [],      # zweiteiliges Heft (GYM ab 2019: [hilfsmittelfrei, mit Hilfsmitteln])
+    "seiten": 0,        # int, oder {"Basis": n, "Kontext": m} bei zweiteiligen Heften (eigene Fußzeile je Datei)
     # Sollpunkte je Aufgabe (Aufgabe 1 Basisaufgaben 10, Kontextaufgaben 6–11; msa.md § 3)
     "soll": {},
     "soll_gesamt": 0,
@@ -88,12 +103,13 @@ TYPEN_KORREKTUR = {
 }
 # ======================================================== AB HIER UNVERÄNDERT
 KAT = {"Basis": "msa-katalog-basis.csv", "Kontext": "msa-katalog-kontext.csv"}
+GYM_DATEI = "msa-katalog-gym.csv"  # papier GYM: beide Blöcke in einer Datei, Feld block trennt sie
 TYP = "msa-typen.csv"
 PROFIL = "msa.md"
 KERN = "../katalog-prompt.md"  # Umbau 2026-09-19: liegt in der Repo-Wurzel
 TYP_HEAD = ["typ", "leitidee", "thema", "definition", "beispiel_id", "status"]
 STATUS = {"gültig", "neu"}
-PAPIER = re.compile(r"\d{4}-(OS|EBR|FOR|MUSTER-EBR|MUSTER-FOR)-[BK]\d+[a-z]?")
+PAPIER = re.compile(r"\d{4}-(OS|EBR|FOR|MUSTER-EBR|MUSTER-FOR|GYM)-[BK]\d+[a-z]?")
 # Stämme, die eine ASCII-Umschrift von ä, ö, ü oder ß verraten (wie fhr-bau.py).
 UMSCHRIFT = ("flaeche", "laenge", "naechst", "haeufig", "zufaell", "waehl", "aender", "aeusser",
  "gefaess", "verhaeltnis", "erklaer", "zaehl", "traeg", "gaeng", "maessig", "hoehe", "groesse",
@@ -199,7 +215,8 @@ def pruefe_zeile(z, a, typ_namen, alle_ids, konfig=None):
           f"{i}: ASCII-Umschrift in {k}: {v[:40]}")
     if konfig:
         a(z["jahr"] == konfig["jahr"] and z["papier"] == konfig["papier"], f"{i}: Heftkennung falsch")
-        a(int(z["seite"]) <= konfig["seiten"], f"{i}: Seite größer als der Heftumfang")
+        grenze = konfig["seiten"][z["block"]] if isinstance(konfig["seiten"], dict) else konfig["seiten"]
+        a(int(z["seite"]) <= grenze, f"{i}: Seite größer als der Heftumfang")
 
 
 def main():
@@ -209,6 +226,7 @@ def main():
             fehler.append(msg)
 
     alt = {b: lade(p, HEAD)[1] for b, p in KAT.items()}
+    alt_gym = lade(GYM_DATEI, HEAD)[1]
     _, alt_typ = lade(TYP, TYP_HEAD)
     typ_namen = {r[0] for r in alt_typ} | {t[0] for t in NEUE_TYPEN}
 
@@ -225,14 +243,20 @@ def main():
 
     if not ZEILEN:
         # ------------------------------------------------ Selbstprüfung des Bestands
-        alle = [dict(zip(HEAD, r)) for b in KAT for r in alt[b]]
+        alle = [dict(zip(HEAD, r)) for b in KAT for r in alt[b]] + [dict(zip(HEAD, r)) for r in alt_gym]
         alle_ids = [z["id"] for z in alle]
         a(len(set(alle_ids)) == len(alle_ids), "doppelte id im Bestand")
         for b in KAT:
             for r in alt[b]:
                 z = dict(zip(HEAD, r))
+                a(z["papier"] != "GYM", f"{z['id']}: GYM-Zeile steht in {KAT[b]}, gehört nach {GYM_DATEI}")
                 a(z["block"] == b, f"{z['id']}: steht in {KAT[b]}, trägt aber block {z['block']}")
                 pruefe_zeile(z, a, typ_namen, set(alle_ids))
+        for r in alt_gym:
+            z = dict(zip(HEAD, r))
+            a(z["papier"] == "GYM", f"{z['id']}: Nicht-GYM-Zeile steht in {GYM_DATEI}")
+            a(z["block"] in KAT, f"{z['id']}: block muss Basis oder Kontext sein")
+            pruefe_zeile(z, a, typ_namen, set(alle_ids))
         verwendet = {t for z in alle for f in ("typ", "typ_neben") for t in z[f].split("|") if t}
         for r in alt_typ:
             t = dict(zip(TYP_HEAD, r))
@@ -252,15 +276,16 @@ def main():
             print(f"Feldkorrektur an {TYP} ({len(korrigiert)} Felder):")
             for typ, feld, vorher, nachher in korrigiert:
                 print(f"  {typ} · {feld}: {vorher!r} → {nachher!r}")
-        n_b, n_k = len(alt["Basis"]), len(alt["Kontext"])
+        n_b, n_k, n_g = len(alt["Basis"]), len(alt["Kontext"]), len(alt_gym)
         hefte = sorted({(z["jahr"], z["papier"]) for z in alle})
-        print(f"Selbstprüfung bestanden: {n_b + n_k} Katalogzeilen ({n_b} Basis, {n_k} Kontext) aus "
-              f"{len(hefte)} Heften, {len(alt_typ)} Typen, alle verwendet, jede beispiel_id im Katalog. "
-              f"ZEILEN ist leer, {'nur die Feldkorrektur geschrieben' if korrigiert else 'nichts geschrieben'}.")
+        print(f"Selbstprüfung bestanden: {n_b + n_k} Katalogzeilen ({n_b} Basis, {n_k} Kontext) plus "
+              f"{n_g} GYM-Zeilen aus {len(hefte)} Heften, {len(alt_typ)} Typen, alle verwendet, jede "
+              f"beispiel_id im Katalog. ZEILEN ist leer, "
+              f"{'nur die Feldkorrektur geschrieben' if korrigiert else 'nichts geschrieben'}.")
         return
 
     # ------------------------------------------------------- Heftlauf
-    alt_ids = {r[0] for b in KAT for r in alt[b]}
+    alt_ids = {r[0] for b in KAT for r in alt[b]} | {r[0] for r in alt_gym}
     neue_ids = [z["id"] for z in ZEILEN]
     a(len(set(neue_ids)) == len(neue_ids), "doppelte id in ZEILEN")
     for i in neue_ids:
@@ -288,15 +313,22 @@ def main():
         sys.exit(1)
 
     for b, p in KAT.items():
-        neu = [[z[k] for k in HEAD] for z in ZEILEN if z["block"] == b]
+        neu = [[z[k] for k in HEAD] for z in ZEILEN if z["block"] == b and z["papier"] != "GYM"]
         if neu:
             schreibe(p, HEAD, alt[b] + neu)
+    neu_gym = [[z[k] for k in HEAD] for z in ZEILEN if z["papier"] == "GYM"]
+    if neu_gym:
+        schreibe(GYM_DATEI, HEAD, alt_gym + neu_gym)
     schreibe(TYP, TYP_HEAD, alt_typ + [[t[0], t[1], t[2], t[3], t[4], "neu"] for t in NEUE_TYPEN])
 
     # Rückweg: geschriebene Dateien mit echtem Leser einlesen und vergleichen
-    for b, p in KAT.items():
+    DATEIEN_GESCHRIEBEN = [(p, [z for z in ZEILEN if z["block"] == b and z["papier"] != "GYM"], alt[b])
+                            for b, p in KAT.items()] + [(GYM_DATEI, [z for z in ZEILEN if z["papier"] == "GYM"], alt_gym)]
+    for p, zeilen_p, alt_p in DATEIEN_GESCHRIEBEN:
+        if not zeilen_p:
+            continue
         _, zurueck = lade(p, HEAD)
-        for gel, z in zip(zurueck[len(alt[b]):], [z for z in ZEILEN if z["block"] == b]):
+        for gel, z in zip(zurueck[len(alt_p):], zeilen_p):
             if len(gel) != 37 or any(v != z[k] for k, v in zip(HEAD, gel)):
                 sys.exit(f"{z['id']}: Rückweg verändert die Zeile")
         roh = io.open(p, encoding="utf-8", newline="").read()

@@ -1,5 +1,6 @@
 # PROFIL MSA – Prüfung am Ende der Jahrgangsstufe 10, Mathematik, Brandenburg
-Version 0.7 · 18.09.2026 · Kennung msa · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Version 0.8 · 23.09.2026 · Kennung msa · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Änderungen gegenüber 0.7 (Auftrag Gymnasialhefte, Entscheidung 18 neu gefasst): § 1 Absatz Gymnasium (Bestand um GYM 2014–2025 erweitert, Grund die zentrale Klassenarbeit ab 2025/26); § 3 Aufbau der Gymnasialhefte (am Heft geprüft: 2014 und 2019); § 4 papier GYM, id-Beispiele, block-Ausnahme (eigene Katalogdatei msa-katalog-gym.csv), hilfsmittel- und seite-Ausnahmen. msa-bau.py v0.3 liest das mit.
 Änderungen gegenüber 0.6 (Auftrag O, Punkt 2): § 2 verweist auf die angelegte msa-quellen.md (Quelle, Jahresseite, Verzeichnis der Hefte mit papier-Kürzel, lokaler Heftordner hefte/msa/ mit Erfassungsstand; Zahlen aus befund-quellenbestand-2026-09-18.md).
 Änderungen gegenüber 0.5 (Auftrag G, Punkt 4): § 6 Zeilenthema – die eigene Regel „Thema der Aufgabenstellung" ist entschieden, nicht mehr offen (konzept.md Entscheidung 26); Kernbindung entsprechend.
 Änderungen gegenüber 0.4 (Auftrag F, Punkt 1 und 5): Die Dateien dieses Profils tragen das Präfix msa- wie die der anderen Profile – typen.csv → msa-typen.csv, katalog-basis.csv → msa-katalog-basis.csv, katalog-kontext.csv → msa-katalog-kontext.csv, pruefungen.md → msa-pruefungen.md, vorgaben.md → msa-vorgaben.md (Variante B nach namensschema.md § 4; Inhalt unverändert, Historie per git mv erhalten). Verweise in der Kernbindung, § 1, § 2, § 4 und § 7 nachgezogen; § 2 nennt die Katalogdateien in einer Zeile; msa-bau.py v0.2 liest die neuen Namen. Kernbindung v0.9 (Kern § 1 nennt die neuen Namen). Punkt 5: Kern § 6 setzt Zeilenthema = Typthema mit Vorbehalt für das Profil – § 6 nennt die eigene Regel dieses Profils (Thema der Aufgabenstellung; 42 von 393 Zeilen weichen ab); Kern § 5 macht die Eichung zur Kennzahl nur bei amtlichen Anforderungsbereichen – hier entfällt sie, bis Zeilen mit afb_amtlich erfasst sind (Kernbindung).
@@ -17,7 +18,9 @@ Schätzung (0.6, 0.7, § 5) gelten auch hier: ein amtlicher Anforderungsbereich 
 
 ## 1 Prüfung
 
-Zentrale schriftliche Prüfung für Oberschulen und Gesamtschulen im Land Brandenburg, Fach Mathematik, zwei Niveaus: EBR (erweiterte Berufsbildungsreife) und FOR (Fachoberschulreife, entspricht dem MSA). Sagt der Lehrer MSA, meint er FOR. Bestand: die Hefte 2014–2026 und die Musteraufgaben 2028 laut msa-pruefungen.md. Gymnasialhefte gehören nicht dazu.
+Zentrale schriftliche Prüfung für Oberschulen und Gesamtschulen im Land Brandenburg, Fach Mathematik, zwei Niveaus: EBR (erweiterte Berufsbildungsreife) und FOR (Fachoberschulreife, entspricht dem MSA). Sagt der Lehrer MSA, meint er FOR. Bestand: die Hefte 2014–2026 und die Musteraufgaben 2028 laut msa-pruefungen.md.
+
+Gymnasium: Bis 2025 schrieb auch das Gymnasium eine P10 in Mathematik, mit eigenen Gymnasialheften (gleicher Termin, andere Aufgaben als OS/EBR/FOR). Seit 2025/26 entfällt die P10 am Gymnasium; an ihre Stelle tritt eine zentrale Klassenarbeit in Klasse 10 (90 Minuten, 35 BE, davon 10 BE hilfsmittelfrei; msa-vorgaben.md § 2, Fachbrief 10). Die 19 Gymnasialhefte 2014–2025 sind seit dem 23.09.2026 Bestand unter dem eigenen papier-Kürzel GYM (§ 4), mit eigener Katalogdatei msa-katalog-gym.csv, aber derselben Themen- und Typenliste wie OS/EBR/FOR (konzept.md Entscheidung 18). Die zentrale Klassenarbeit selbst ist kein GYM-Heft und noch nicht erfasst: neues Format, eigenes Kürzel erst bei Bedarf (Entscheidung 18, Kippbedingung).
 
 ## 2 Ablage und Quellen
 
@@ -34,15 +37,17 @@ Integriertes Heft 2014–2025 (papier OS): 135 Minuten (2021–2023: 165); 60 Be
 Getrennte Hefte ab 2026 (papier EBR, FOR): gleicher Aufbau, keine Sternchen; EBR 40 BE, FOR 60 BE, je 135 Minuten.
 Musteraufgaben 2028 (papier MUSTER-EBR, MUSTER-FOR): neues Format mit hilfsmittelfreiem Teil (10 BE) und Aufgaben mit Hilfsmitteln, je 50 BE; mit Erwartungshorizont.
 
+Gymnasialhefte (papier GYM), am Heft geprüft (2014 und 2019 gelesen, nicht angenommen): 135 Minuten, 50 Bewertungseinheiten, fünf Aufgaben – Aufgabe 1 „Basisaufgaben" mit 10 Punkten (neun bis zehn Buchstaben à 1 P, vereinzelt 2 P; Ankreuzen und Kurzantwort, häufig mit kleiner Abbildung, kein Sternchen-System), danach vier Kontextaufgaben mit Titel à 8–12 Punkte, jede mit Aufgabenstamm und Buchstaben, Punkte als „(n P)"; kein EBR/FOR-Unterschied, keine Wahlaufgaben, keine Anforderungsbereiche im Heft. 2014–2018 ein Heft (Taschenrechner, Formelsammlung, Kurvenschablonen, Zeichengeräte und Duden durchgehend erlaubt). Ab 2019 zwei Dateien: Teil 1 „hilfsmittelfreier Teil" (nur Aufgabe 1, 25 der 135 Minuten, ohne jedes Hilfsmittel, eigene Seitenzählung 1–3) und Teil 2 „Aufgaben 2 bis 5" (mit Taschenrechner, Formelsammlung, Kurvenschablonen, Zeichengeräten, Wörterbuch; eigene Seitenzählung 1–9, unabhängig von Teil 1). Keine amtlichen Lösungen, wie bei OS/EBR/FOR.
+
 ## 4 Kürzel und Werte
 
-papier: OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR
-block: Basis (Aufgabe 1 „Basisaufgaben"; ab 2028 der hilfsmittelfreie Teil) → msa-katalog-basis.csv; Kontext (alle übrigen Aufgaben) → msa-katalog-kontext.csv
-id: Jahr-papier-BlockkürzelAufgabeTeilaufgabe mit Blockkürzel B oder K: 2025-OS-B1a, 2025-OS-K3b, 2026-FOR-K4c, 2028-MUSTER-FOR-B1a
-stern: ja/nein in OS-Heften; in allen anderen Heften leer
-hilfsmittel: ja; nein nur im hilfsmittelfreien Teil der Musteraufgaben 2028
-afb_amtlich: nur bei Musteraufgaben 2028 aus dem Erwartungshorizont; sonst leer
-seite: Seite im PDF des Hefts; bei Musteraufgaben Seite im Fachbrief 10
+papier: OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM
+block: Basis (Aufgabe 1 „Basisaufgaben"; ab 2028 bzw. bei GYM ab 2019 der hilfsmittelfreie Teil) → msa-katalog-basis.csv; Kontext (alle übrigen Aufgaben) → msa-katalog-kontext.csv. Ausnahme papier GYM: beide Blöcke in einer Datei, msa-katalog-gym.csv (Feld block trennt sie), damit die übrigen Kataloge und alles, was sie liest, unverändert bleiben.
+id: Jahr-papier-BlockkürzelAufgabeTeilaufgabe mit Blockkürzel B oder K: 2025-OS-B1a, 2025-OS-K3b, 2026-FOR-K4c, 2028-MUSTER-FOR-B1a, 2019-GYM-B1a, 2019-GYM-K2a
+stern: ja/nein in OS-Heften; in allen anderen Heften leer (auch GYM: kein Sternchen-System)
+hilfsmittel: ja; nein im hilfsmittelfreien Teil der Musteraufgaben 2028 und im hilfsmittelfreien Teil (Block Basis) der Gymnasialhefte ab 2019 (2014–2018 durchgehend ja, § 3)
+afb_amtlich: nur bei Musteraufgaben 2028 aus dem Erwartungshorizont; sonst leer (auch GYM: keine amtlichen Lösungen)
+seite: Seite im PDF des Hefts; bei Musteraufgaben Seite im Fachbrief 10; bei GYM ab 2019 die Seite in der jeweiligen Teildatei (eigene Fußzeile „Seite N von M" je Teil, § 3)
 Koordinaten: in diesem Profil wie im Heft mit „|" (A(−2|6)). Das Zeichen trennt sonst Mehrfachwerte in einem Feld (Kern § 5); fhr und iqb schreiben deshalb P(x; y). Eine Umstellung der msa-Zeilen ist offen (Vorschlag aus fhr.md, 13.09.2026); bis dahin darf ein Skript Koordinatenfelder dieses Profils nicht an „|" trennen.
 
 ## 5 Leitideen (Rahmenlehrplan 1–10 Berlin-Brandenburg)

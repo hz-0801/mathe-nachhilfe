@@ -126,9 +126,9 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 17. Skizzen werden nicht übernommen, sondern aus dem Feld skizze mit der Vorlage neu gezeichnet; das Original-PDF ist Referenz. Foto und technische Zeichnung: Nachbau mit zeichenbarer Figur, Originalausschnitt nur als Notlösung.
     Zahl: 94 Abbildungen im Markdown-Korpus als Referenz (abi-pruefungen.md § 4); Feld skizze in jeder Zeile mit Material (Kern § 5).
     Kippt bei: einem Blattbau, der aus dem Feld skizze keine zeichenbare Figur baut – dann muss das Feld genauer werden, nicht das Original hinein.
-18. Bestand: Oberschulhefte 2014–2026 und Musteraufgaben 2028. Gymnasialhefte nicht (seit 2025/26 keine P10 am Gymnasium).
-    Zahl: 12 Hefte, 393 Zeilen, 185 Typen (msa-pruefungen.md, msa-typen.csv); Gymnasium seit 2025/26 ohne P10 (msa-vorgaben.md).
-    Kippt bei: einem Gymnasialschüler mit zentraler Klassenarbeit (90 min, 35 BE) – das wäre eine neue Prüfungsart (§ 8), nicht ein Nachtrag.
+18. Bestand: Oberschulhefte 2014–2026 und Musteraufgaben 2028. Seit 23.09.2026 zusätzlich die Gymnasialhefte 2014–2025 unter papier GYM, eigene Katalogdatei msa-katalog-gym.csv, gemeinsame Themen- und Typenliste mit OS/EBR/FOR (msa.md § 1, § 4). Grund: Das Gymnasium schreibt seit 2025/26 keine P10 mehr, sondern eine zentrale Klassenarbeit in Klasse 10 (90 min, 35 BE, 10 BE hilfsmittelfrei) – die 2026-09-23 eingetretene Kippbedingung der Vorfassung dieser Entscheidung; der Lehrer hat die Erfassung am selben Tag angewiesen.
+    Zahl: 12 Hefte OS/EBR/FOR, 393 Zeilen, 185 Typen (msa-pruefungen.md, msa-typen.csv); dazu 12 Gymnasialjahrgänge (19 Dateien) unter GYM, Zeilen- und Typenzahl nach dem Lauf in msa-pruefungen.md § 2.
+    Kippt bei: einer Veröffentlichung der zentralen Klassenarbeit mit einem vom Muster (§ 3) abweichenden Format – dann eigene papier-Kennung statt GYM prüfen, nicht als Nachtrag unter GYM einsortieren.
 19. Amtliche Vorgaben (Fachbriefe, Rundschreiben) werden gesondert in msa-vorgaben.md geführt, mit einem jährlichen Check als eigenem Schritt. Der Katalog-Prompt liest sie nicht.
     Zahl: Corona-Ausschlüsse 2021–2023 (msa-vorgaben.md) sind Vorgabe, kein Trend; der Katalog liest sie nicht.
     Kippt bei: Vorgaben, die den Katalog filtern müssen – dann werden sie Geltung (Teil 2 des Auftrags D zeigt den Weg: eine Datei je Zielprüfung, von den Skripten gelesen).
