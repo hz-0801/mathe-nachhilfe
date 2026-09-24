@@ -1,0 +1,36 @@
+Lizenz: CC BY-SA 4.0 (Creative Commons Namensnennung – Weitergabe unter
+gleichen Bedingungen 4.0 International), auf dem Titelblatt des Skripts
+ausgewiesen ("Lizenz: CC-BY-SA 4.0"). Autorin: Nadine Große, Universität
+Freiburg. Skript "Vorkurs Mathematik für Mathematiker", Wintersemester 24/25,
+Version vom 25. August 2024.
+Quelle: https://home.mathematik.uni-freiburg.de/ngrosse/teaching/Vorlesungen/Vorkurs/Vorkurs_WS24_Skript.pdf
+Stand der Prüfung: 2026-09-24 (Auftrag foerderformen, Teil 5). Diese Datei
+enthält nur die Gliederung (Kapitel, Abschnitte, Seitenzahlen laut
+Inhaltsverzeichnis) – kein Aufgabentext, kein Beweistext, kein wörtliches
+Zitat, kein Bild.
+
+## Inhaltsverzeichnis (laut Skript, S. 2)
+
+1  Worum geht es hier?                              S. 2
+2  Aussagenlogik                                     S. 3
+   2.1  Logische Grundoperationen                    S. 4
+   2.2  Quantoren                                     S. 8
+3  Teilbarkeit                                       S. 10
+   3.1  Teilbarkeitsregeln                            S. 11
+   3.2  Primzahlen                                    S. 13
+4  Zwei-Personen-Spiele                              S. 14
+   4.1  Tic-Tac-Toe                                   S. 15
+   4.2  Nim-Spiele                                    S. 17
+5  Lösen, Aufschreiben und Fehler machen…             S. 19
+
+## Bemerkung zur Auswahl
+
+Der Vorkurs richtet sich ausdrücklich an Studierende der Mathematik
+(Fachstudium), nicht an WiMINT-Studierende allgemein; Ziel ist laut Vorwort
+nicht die Wiederholung von Schulstoff, sondern ein erster Einblick in
+mathematisches Argumentieren (Aussagenlogik, Beweistechniken anhand von
+Teilbarkeit, Spieltheorie als Anwendung). Eingesehen wurden die Seiten 1–12
+(Titelblatt, Inhaltsverzeichnis, Kapitel 1–2 vollständig, Kapitel 3 bis
+einschließlich Satz 3.5); Kapitel 4 und 5 wurden im Rahmen der
+Seitenobergrenze dieses Auftragsteils (höchstens 12 angesehene Seiten je
+Datei) nicht mehr eingesehen.

@@ -309,7 +309,89 @@ eigenständiger Datei auffindbar, s. Zeile strobl-f.de und Bemerkung oben)
 
 ## Teil 5 – Brückenkurse Sek II
 
-(wird ausgefüllt)
+| Quelle | Titel | Klasse/Stufe | Adresse | Datei lokal | Lizenz | Seiten angesehen | Thema (Titel des Abschnitts) | Formen | Aufg./Seite | Zeilen vor 1. Aufg. | Teilaufg./Beispiel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| OMB+ | Online Mathematik Brückenkurs OMB+ (Hauptteil, 11 Kapitel nach Empfehlung der COSH-Gruppe) | Studienanfänger Ingenieur-/Wirtschafts-/Naturwissenschaft/Informatik | https://ombplus.de | nein | – | 0 | – | – | – | – | – |
+| FH Kiel | Skript für den Mathematik-Vorkurs (Jonas Reinhardt, Fachbereich Wirtschaft) | Studienanfänger (Wirtschaft) | https://www.haw-kiel.de/fileadmin/data/online-studium/skript_mathe-vorkurs.pdf | ja | urheberrechtlich geschützt (FH Kiel), keine freie Lizenz erkennbar | 12 (S. 1–12 von ca. 29) | 1.2 Verknüpfungen von Mengen / 2.3 Rechnen mit Klammern / 2.4 Binomische Formeln / 2.5 Bruchrechnung / 2.6 Potenz- und Wurzelrechnung | B, M, F | 0,5 | rund 50 | 3 |
+| THU Ulm (Technische Hochschule Ulm) | Vorkurs Mathematik (Thorsten Titzmann) | Studienanfänger technischer/wirtschaftlicher Studiengänge | https://www.thu.de/fileadmin/user_upload/PDF/vorkurs-mathematik.pdf | ja | urheberrechtlich geschützt (THU Ulm), keine Lizenzangabe in den angesehenen Seiten | 12 (S. 1–6, 8–9, 50–51, 68–69 von ca. 96) | 1.1 Rechnen (Theorieteil) / 5.1 Rechentraining (Aufgabenteil) / 8.1 Rechentraining (Lösungsteil) | M, B, F, Lö | 8 | rund 5 (im gesonderten Aufgabenteil) | 4 |
+| KIT (Karlsruher Institut für Technologie, Abt. für Didaktik) | Vorkurs Mathematik – Skriptum (Wolf Wechinger) | Studienanfänger Mathematik/Technomathematik/Wirtschaftsmathematik | https://didaktik.math.kit.edu/downloads/Lehre/Vorkurs%20Mathematik%202025/Vorkurs_Skriptum.pdf | ja | urheberrechtlich geschützt (KIT), keine Lizenzangabe in den angesehenen Seiten | 12 (S. 1–6, 13–18 von 111) | Einleitung/Grundbegriffe / 1.2 Logische Verknüpfungen | M, B | 0 | – | 4 |
+| Universität Freiburg | Vorkurs Mathematik für Mathematiker (Nadine Große) | Studienanfänger Mathematik (Fachstudium) | https://home.mathematik.uni-freiburg.de/ngrosse/teaching/Vorlesungen/Vorkurs/Vorkurs_WS24_Skript.pdf | ja | CC BY-SA 4.0 | 12 (S. 1–12 von ca. 19) | 2 Aussagenlogik (2.1 Logische Grundoperationen, 2.2 Quantoren) / 3 Teilbarkeit (3.1 Teilbarkeitsregeln) | M, B | 0 | – | – |
+| FH Flensburg | Vorkurs Mathematik – Skript zur Vorbereitung auf das Studium (Valentina Kluge, Franka Seeger) | Studienanfänger (alle Fachbereiche) | https://elearning.hs-flensburg.de/download/normal/0/4e1a30eae17fb0e2e6cd16eac4157548/Skript_Mathevorkurs-5.pdf | ja | urheberrechtlich geschützt (FH Flensburg), keine Lizenzangabe in den angesehenen Seiten | 12 (S. 1–9 von ca. 56) | 1 Rechengesetze (1.3 Brüche, 1.4 Binomische Formeln) / 2 Elementare Gleichungen / 3 Anordnung und Betrag | M, B | 0 | – | 3 |
+
+Formen-Zuordnung und eigene Entscheidungen: OMB+ ist entgegen der Erwartung kein
+PDF-Skript, sondern eine rein interaktive Webanwendung (Inhalte mit Videos,
+Verständnis-Checks, „Übungen"/„Training"/„Quiz" als Online-Formulare); der
+offene Bereich ohne Anmeldung zeigt nur Einleitung, Kurs-How-to und
+Call-Center-Infos, der eigentliche Fachinhalt liegt hinter dem Login, das laut
+Auftrag nicht benutzt werden darf. Damit liefert OMB+ kein Skript im Sinne
+dieses Auftragsteils; die Zeile bleibt als Beleg der Prüfung stehen. Die
+übrigen vier Vorkurs-Skripte zerfallen sichtbar in zwei Typen: Skripte für
+Mathematik-Fachstudierende (Freiburg, KIT) sind reiner Fließtext im
+Definition-Satz-Beweis-Stil ohne eigenständige Schüler-/Studierendenaufgaben
+in den angesehenen Seiten (nur M für Definitionen/Sätze/Regeln und B für
+vollständig vorgerechnete Beispiele bzw. Beweise); Skripte für
+Fachhochschul-Erstsemester aller Fächer (FH Kiel, THU Ulm, FH Flensburg) sind
+näher am Schulheft-Muster Regel(M)–Beispiel(B)–Übung(F), FH Kiel und THU Ulm
+zusätzlich mit eigenständigem Aufgabenblock (F). THU Ulm ist von den fünf
+Skripten das einzige mit einem vollständig durchgerechneten, eigenen
+Lösungsteil (Lö), der jede Aufgabe einzeln aufgreift – strukturell am
+nächsten an einem Schulheft mit Lösungsanhang. Bei FH Kiel zeigt nur das
+allererste „Beispiel" (Mengenlehre) ein tatsächlich berechnetes Ergebnis auf
+der Seite; alle späteren „Beispiele" (Klammern, Bruchrechnung, Potenzen) sind
+auf der Seite selbst unverdeckte Aufgabenlisten ohne Lösung (vermutlich für
+die Live-Vorführung durch die Lehrperson gedacht) und wurden deshalb nicht als
+B, sondern zusammen mit den bereits so benannten „Aufgabe"-Blöcken als F
+gezählt – eigene Entscheidung, weil die Formen-Kürzel nach dem tatsächlichen
+Druckbild vergeben werden, nicht nach der vermuteten didaktischen Absicht.
+FH Kiel verlinkt zu fast jedem Unterabschnitt ein YouTube-Erklärvideo (Kanal
+Daniel Jung) per QR-Code unter der Überschrift „Hilfe zur Selbsthilfe"; das
+ist funktional einer Lesehilfe ähnlich, aber ein externer Video- statt
+Textbaustein und passt in keines der zehn festen Kürzel – daher nur hier in
+Prosa vermerkt, nicht als W gezählt. Bei KIT, Freiburg und Flensburg wurde
+das Seitenbudget von 12 Seiten je Datei vollständig innerhalb des
+Theorieteils verbraucht; alle drei Vorworte/Inhaltsverzeichnisse kündigen an
+anderer Stelle Übungsaufgaben an (KIT: „Übungsaufgaben mit Lösungen
+angeboten"; Freiburg: Verweis „vgl. Übung"), die aber außerhalb der
+angesehenen Seiten liegen – das Fehlen von F/L/R/Z/S/Lö/W/D bei diesen drei
+Dateien ist daher ein Budget-Artefakt und keine abschließende Aussage über
+das ganze Skript. Kein R, L, Z, S, W oder D wurde in keinem der fünf
+gesicherten Skripte beobachtet; anders als die Schulmaterialien aus Teil 1–4
+verzichten alle fünf Hochschul-Skripte auf Kästchen-Rechenraster,
+Lücken-im-Muster-Aufgaben, Diagramme/Zahlenstrahlen als Verständnishilfe,
+Selbsttest-Kontrollkästchen, Wortschatzhilfen und vorgeschaltete
+Diagnoseaufgaben – ein deutlicher Formenbruch zur Sekundarstufe I. Die drei
+Kennzahlen sind wie in Teil 1–4 grobe, gerundete Mittelwerte über die
+tatsächlich angesehenen Seiten, „Zeilen vor der ersten Aufgabe" bei THU Ulm
+bezieht sich auf den eigenständigen Aufgabenteil (Kapitel 5), da Theorie- und
+Aufgabenteil dort im Gegensatz zu allen anderen Quellen dieses Auftrags in
+getrennte Buchteile (I. Theorie, II. Aufgaben, III. Lösungen) aufgespalten
+sind, statt Beispiel und Übung auf derselben Seite zu koppeln.
+FH Kiel und THU Ulm wurden bewusst als Fachhochschul-Skripte für
+WiMINT-Erstsemester ausgewählt, weil sie das eigentliche Zielpublikum des im
+Auftrag genannten cosh-Mindestanforderungskatalogs am ehesten treffen;
+Freiburg und KIT wurden als Kontrastfolie für Mathematik-Fachstudierende
+mitgenommen, um die Bandbreite zwischen Schulnähe und reinem
+Vorlesungsskript zu zeigen. Eigener Befund ohne Korrektur in diesem
+Auftragsteil: Der im Auftrag genannte Mindestanforderungskatalog cosh war
+entgegen der Angabe „liegt schon in quellen/" dort nicht auffindbar (weder
+unter erkennbarem Dateinamen noch per Volltextsuche nach „cosh" oder
+„Mindestanforderungskatalog"); da der Auftrag ausdrücklich verbietet, ihn neu
+zu laden, und seine Beschaffung nicht zu den Aufgaben von Teil 5 gehört,
+wurde er nicht nachgeladen, die Lücke aber hier vermerkt.
+
+Dateien gesichert: 5
+Grenze erreicht: ja (Dateigrenze 5 von 5 zulässigen Skripten erreicht; je
+gesicherter Datei 12 von 12 zulässigen Seiten angesehen – bei allen fünf
+Dateien ausgeschöpft; Seitenaufrufe rund 9 von 15 für OMB+-Prüfung und
+Fundrecherche genutzt, nicht erreicht)
+Suchbegriffe ohne Treffer: Google-Suche „Vorkurs Mathematik Skript pdf"
+(durch automatisierte Bot-Sperre blockiert, keine Ergebnisse einsehbar,
+Ersatzsuche über Bing versucht); Bing-Suche derselben Anfrage (nur
+Werbetreffer zu einem KI-Chat-Anbieter ohne fachlichen Bezug, kein
+brauchbarer Treffer) – beide Ausfälle durch eine Ersatzsuche über DuckDuckGo
+aufgefangen, die für „Vorkurs Mathematik Skript pdf Universität" und
+„Vorkurs Mathematik Skript pdf Fachhochschule cosh" sofort brauchbare
+Treffer lieferte.
 
 ## Teil 6 – Händlervorschauen
 
