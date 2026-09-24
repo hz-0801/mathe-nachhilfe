@@ -214,7 +214,98 @@ Titel lieferte – eine bewusste, im Bericht offengelegte Abweichung.
 
 ## Teil 4 – Grundwissen-Blätter Bayern
 
-(wird ausgefüllt)
+| Quelle | Titel | Klasse/Stufe | Adresse | Datei lokal | Lizenz | Seiten angesehen | Thema (Titel des Abschnitts) | Formen | Aufg./Seite | Zeilen vor 1. Aufg. | Teilaufg./Beispiel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dietrich-Bonhoeffer-Gymnasium Oberasbach | „Das solltest du unbedingt können!“ – Grundwissen und Aufgaben Mathematik 5. Klasse (G9) | 5. Klasse | https://gym-oberasbach.de/fileadmin/benutzer/bar/M5_Grundwissen_und_Aufgaben_G9.pdf | ja | urheberrechtlich geschützt (Schule), keine freie Lizenz erkennbar | 8 | A Ganze Zahlen – E Geometrie (Jahresüberblick 5. Klasse) | B, M, Z, F, Lö | 3 | 0 | 1 |
+| Dietrich-Bonhoeffer-Gymnasium Oberasbach | dito, 6. Klasse | 6. Klasse | https://gym-oberasbach.de/fileadmin/benutzer/bar/M6_Grundwissen_und_Aufgaben_G9.pdf | ja | urheberrechtlich geschützt (Schule), keine freie Lizenz erkennbar | 5 (von 7; Seiten 5–6 nicht gesichtet) | A Rationale Zahlen – D Flächeninhalt (Jahresüberblick 6. Klasse) | B, M, Z, F, Lö | 8 | 0 | 1 |
+| Dietrich-Bonhoeffer-Gymnasium Oberasbach | dito, 7. Klasse | 7. Klasse | https://gym-oberasbach.de/fileadmin/benutzer/bar/M7_Grundwissen_und_Aufgaben_G9.pdf | ja | urheberrechtlich geschützt (Schule), keine freie Lizenz erkennbar | 6 | A Terme/Äquivalenz – G Dreiecke und Vierecke (Jahresüberblick 7. Klasse, Algebra und Geometrie) | B, M, Z, F, Lö | 4 | 0 | 1 |
+| Dietrich-Bonhoeffer-Gymnasium Oberasbach | dito, 8. Klasse | 8. Klasse | https://gym-oberasbach.de/fileadmin/benutzer/bar/M8_Grundwissen_und_Aufgaben_G9.pdf | ja | urheberrechtlich geschützt (Schule), keine freie Lizenz erkennbar | 6 | A Funktionen – Wahrscheinlichkeit (Jahresüberblick 8. Klasse) | B, M, Z, F, Lö | 5 | 0 | 1 |
+| Dietrich-Bonhoeffer-Gymnasium Oberasbach | dito, 9. Klasse (G9) | 9. Klasse | https://gym-oberasbach.de/fileadmin/benutzer/bar/M9_Grundwissen_und_Aufgaben_G9.pdf | ja | urheberrechtlich geschützt (Schule), keine freie Lizenz erkennbar | 4 (von 10; Stichprobe S. 1, 2, 5, 10) | A Reelle Zahlen/Wurzeln – D Wahrscheinlichkeit verknüpfter Ereignisse (Ausschnitt 9. Klasse) | B, M, Z, F, Lö | 2 | 0 | 1 |
+| Dietrich-Bonhoeffer-Gymnasium Oberasbach | dito, 10. Klasse (G9) | 10. Klasse | https://gym-oberasbach.de/fileadmin/benutzer/bar/M10_Grundwissen_und_Aufgaben_G9.pdf | ja | urheberrechtlich geschützt (Schule), keine freie Lizenz erkennbar | 3 (von 6; Stichprobe S. 1, 2, 6) | A Exponentialfunktion/Logarithmus – C Sinus-/Kosinusfunktion (Ausschnitt 10. Klasse) | B, M, Z, F, Lö | 3 | 0 | 1 |
+| Dietrich-Bonhoeffer-Gymnasium Oberasbach | Grundwissen Funktionenlehre – Grundlagen für den schulinternen Leistungstest Anfang der 11. Klasse | Kl. 11 (Beginn; Wdh. Kl. 8–10) | https://gym-oberasbach.de/fileadmin/benutzer/bar/Grundwissen_Funktionenlehre_fuer_GWT_11.pdf | ja | urheberrechtlich geschützt (Schule), keine freie Lizenz erkennbar | 4 | Wiederholung Funktionenlehre Kl. 8–10 (linear, quadratisch, Exponential-/Sinus-/ganzrational) für Test Anfang Kl. 11 | B, M, Z, F | 5 | 2 | 1 |
+| ISB (Staatsinstitut für Schulqualität und Bildungsforschung) / gehostet von Gymnasium Dingolfing | Grundwissen und Kompetenzorientierung am Gymnasium – Jahrgangsstufen 9 und 10 (Auszug Mathematik) | Kl. 9/10 | https://gymdgf.de/wp-content/uploads/2020/09/ISB-Grundwissen-9-10.pdf | ja | amtliches Material (Bayer. Staatsministerium für Unterricht und Kultus / ISB); im vorliegenden Auszug keine Impressum-/Lizenzseite enthalten – als geschützt behandelt, nicht abschließend geprüft | 8 | 9 Mathematik: Grundwissen + Aufgabenbeispiele K1–K6 zu Zufallsexperimenten / 10 Mathematik: Grundwissen (Beginn) | M, Z, F | 2 | 35 | 1 |
+| Dürer-Gymnasium | Grundwissen Mathematik, Jahrgangsstufe 5 | 5. Klasse | https://www.duerer-gymnasium.de/images/Mathematik/Grundwissen/Jahrgangsstufe_05.pdf | nein | nicht geprüft (nicht geöffnet) | 0 | – | – | – | – | – |
+| Siebold-Gymnasium Würzburg | Grundwissen Mathematik Klasse 6 (mit Lösung) | 6. Klasse | https://www.siebold-gymnasium.de/wordpress/wp-content/uploads/2008/08/grundwissen-klasse-6-mit-losung.pdf | nein | nicht geprüft (nicht geöffnet) | 0 | – | – | – | – | – |
+| Apian-Gymnasium Ingolstadt | Mathe Grundwissen, Jahrgangsstufe 7 | 7. Klasse | https://www.apian.de/gymnasium/faecher/mathematik/grundwissen/Mathe_Grundwissen-Jgst-7.pdf | nein | nicht geprüft (nicht geöffnet) | 0 | – | – | – | – | – |
+| Siebold-Gymnasium Würzburg | Grundwissen Mathematik Klasse 8 (mit Aufgaben) | 8. Klasse | https://www.siebold-gymnasium.de/wordpress/wp-content/uploads/2008/08/grundwissen-klasse-8-mit-aufgaben.pdf | nein | nicht geprüft (nicht geöffnet) | 0 | – | – | – | – | – |
+| Siebold-Gymnasium Würzburg | Grundwissen Mathematik Klasse 9 (mit Aufgaben) | 9. Klasse | https://www.siebold-gymnasium.de/wordpress/wp-content/uploads/2008/08/grundwissen-klasse-9-mit-aufgaben.pdf | nein | nicht geprüft (nicht geöffnet) | 0 | – | – | – | – | – |
+| Christoph-Probst-Gymnasium Gilching | Grundwissen Mathematik 10. Klasse (G9) | 10. Klasse | https://christoph-probst-gymnasium.de/wp-content/uploads/2023/07/GrundwissenM10-G9-CPG.pdf | nein | nicht geprüft (nicht geöffnet) | 0 | – | – | – | – | – |
+| Gymnasium Donauwörth | Grundwissen Q11 | Kl. 11 | https://gymnasium-donauwoerth.de/images/Fachschaftsforum/Mathematik/Grundwissen_Q11.pdf | nein | nicht geprüft (nicht geöffnet) | 0 | – | – | – | – | – |
+| strobl-f.de (privat, keine Schule) | TOP 10 Mathematik 12 – Gesamtes Grundwissen | Kl. 12 | https://www.strobl-f.de/grund12g.pdf | nein | privat (Lehrer-Website), nicht geprüft; zählt nicht als Schulquelle | 0 | – | – | – | – | – |
+| ISB / gehostet von Gymnasium Dingolfing | Grundwissen und Kompetenzorientierung am Gymnasium – Jahrgangsstufen 7 und 8 (Auszug Mathematik) | Kl. 7/8 | https://gymdgf.de/wp-content/uploads/2020/09/ISB-Grundwissen-7-8.pdf | nein (Dateigrenze 8/8 erreicht) | amtliches Material, analog 9/10 nicht geprüft | 0 | – | – | – | – | – |
+
+Formen-Zuordnung und Kennzahlen, eigene Entscheidungen: Alle sieben Dateien der Reihe
+„Integriertes Grundwissen" des Dietrich-Bonhoeffer-Gymnasiums Oberasbach (M5–M10 und die
+Funktionenlehre-Wiederholung für Kl. 11) teilen dasselbe Layout: linke Spalte „Standardaufgaben"
+(durchnummerierte, offene Aufgaben ohne vorgegebene Lösung → F), mittlere Spalte
+„Grundwissen" (Regel-/Definitionskästen → M), rechte Spalte „Beispiel(e)" (vorgerechnete
+Musterrechnungen, oft mit Pfeilen → B); Diagramme, Wertetabellen, Zahlengeraden,
+Koordinatensysteme und Baumdiagramme in allen drei Spalten zählen als Z. Sechs der sieben
+Dateien (M5–M10) enden mit einer eigenen „Ergebnisse"-Seite bzw. -Fußleiste zu allen
+Standardaufgaben → Lö; nur bei M8 steht sie als schmale Fußzeile am Ende von Seite 5 statt auf
+einer eigenen Seite. Kein R (kein Kästchen-Rechenraster), kein L (keine Lücken-im-Muster-
+Aufgabe wie bei den DZLM-Bausteinen aus Teil 1), kein S, kein W und kein D in den gesichteten
+Seiten – die Reihe ist reine Wiederholung/Übung ohne vorgeschaltete Diagnose oder
+Kontrollkästchen-Selbstkontrolle. Die achte Datei, das Kapitel „Mathematik" (Jgst. 9 und 10) aus
+der ISB-Broschüre „Grundwissen und Kompetenzorientierung am Gymnasium", ist strukturell
+anders und bekam deshalb eine eigene Zuordnung: M für den blau unterlegten
+Grundwissenskasten je Jahrgangsstufe, Z für die Baumdiagramme, F für die sechs
+„Aufgabenbeispiele" K1–K6 (jede mit eigener Handlungsaufforderung wie „Begründe…",
+„Bestimme…"), aber kein B, weil zu keinem der sechs Beispiele eine vorgerechnete Lösung gezeigt
+wird – stattdessen folgt ein kursiver „Kommentar", der erklärt, welche der sechs mathematischen
+Kompetenzen (K1–K6) die Aufgabe adressiert (didaktischer Text für Lehrkräfte, kein
+Schülerlösungsweg); deshalb auch kein Lö. Die „Zeilen vor der ersten Aufgabe" liegen bei der
+ISB-Datei bei geschätzt 35 (Kapitelüberschrift, Grundwissenskasten mit acht Aufzählpunkten, zwei
+Fließtextabsätze, Unterüberschrift „Aufgabenbeispiele" und ein Einleitungsabsatz), gegenüber 0
+bei allen sieben Schulblättern, die ohne Fließtext direkt mit Aufgabe 1 in der Tabelle beginnen –
+ein klarer struktureller Unterschied zwischen Schul-Übungsblatt und ministerieller Handreichung.
+„Teilaufgaben je Beispiel" wurde für alle acht Dateien einheitlich auf 1 geschätzt: In der rechten
+Beispiel-Spalte der Oberasbach-Reihe wie in den ISB-Aufgabenbeispielen steht so gut wie immer
+eine einzelne, in sich geschlossene Musterrechnung bzw. Aufgabenstellung ohne
+Buchstaben-Unterteilung a)/b)/c) – anders als bei manchen Stark- oder Persen-Titeln aus Teil 2/3.
+
+Wegen der harten Grenze von acht gesicherten Dateien für ganz Teil 4 (acht Jahrgangsstufen plus
+ISB wären neun gewesen) wurde eine bewusste Auswahl getroffen: Die sechs Jahrgangsstufen 5
+bis 10 wurden komplett aus einer einzigen, durchgehend „mit Aufgaben" arbeitenden Schule
+(Gymnasium Oberasbach) gesichert, weil diese Reihe – anders als die meisten zuerst gefundenen
+Einzelblätter anderer Schulen (Dorfen, Dingolfing, Christoph-Probst, Apian, Siebold u. a., laut
+Titel/Anschau meist eher Merksatzsammlungen mit wenigen Aufgaben) – tatsächlich Aufgaben,
+Beispiele UND Lösungen in einem einheitlichen Format über sechs Jahrgangsstufen bietet und
+damit die Formenzeile über die ganze Sekundarstufe I hinweg vergleichbar macht; das entspricht
+der Vorgabe „ein bis zwei Schulen je Jahrgangsstufe" mit der Grenzentscheidung für eine Schule
+über sechs Stufen statt sechs verschiedener Schulen mit je einer Stufe. Für die Oberstufe wurde
+statt eigener Jgst.-11- und Jgst.-12-Dateien nur eine Datei gewählt (die Oberasbacher
+Wiederholungsdatei „Funktionenlehre für den GWT11"): Eine eigenständige Jgst.-12-Schulseite
+war trotz zweier Suchanfragen („Jahrgangsstufe 12 Gymnasium pdf" und „Q12 Kollegstufe
+Oberstufe pdf") nicht auffindbar – nur die private, nicht schulgebundene Sammlung strobl-f.de
+(s. Tabellenzeile, „nicht gefunden: keine Schule mit eigenständiger Jgst-12-Datei nach zwei
+Suchanfragen, nur private Lehrer-Website ohne Schulbezug") –, und bayerisches
+Oberstufen-Grundwissen wird überwiegend kumulativ über die Jahrgangsstufen hinweg
+gesammelt, nicht strikt pro Einzeljahr, sodass eine Wiederholungsdatei zu Schulhalbjahresbeginn
+Kl. 11 die Spanne sachlich gut abschließt. Von den beiden bei Gymnasium Dingolfing verfügbaren
+ISB-Kapiteln (7/8 und 9/10) wurde nur 9/10 gesichert, weil Jgst. 7/8 durch die eigenen
+Oberasbach-Dateien M7/M8 bereits mit Schulmaterial abgedeckt ist, während 9/10 zusätzlich das
+amtliche Kompetenz-Beispielformat abbildet, das sich strukturell am stärksten von den
+Schulblättern unterscheidet und damit den größten Erkenntnisgewinn für die Formenliste bringt.
+Fünf der acht gesicherten Dateien (M5, M7, M8, M11-Funktionenlehre, ISB) wurden vollständig
+gelesen (4 bis 8 Seiten je Datei, alle unter der Zwölf-Seiten-Grenze je Datei); M6 (5 von 7 Seiten),
+M9 (4 von 10 Seiten) und M10 (3 von 6 Seiten) wurden stichprobenartig gelesen (erste ein bis zwei
+Seiten plus letzte Seite zur Lösungskontrolle) – ihre Kennzahlen sind Mittelwerte nur über die
+tatsächlich gesichteten Aufgabenseiten, nicht über die gesamte Datei, analog zum Vorgehen in
+Teil 1–3. Die neun zusätzlich aufgeführten, nicht gesicherten Fundzeilen (eine bis zwei weitere
+Schulen je Jahrgangsstufe sowie das zweite ISB-Kapitel) belegen, dass Bayerns Gymnasien
+Grundwissen-Blätter durchgehend online anbieten; sie wurden aus den Suchtrefferlisten
+übernommen, ohne eigenen Seitenaufruf und ohne Öffnung der Datei (Lizenz und Inhalt daher
+„nicht geprüft"), um die Seitenaufruf- und Dateigrenze für die tatsächlich gesicherten acht
+Dateien zu schonen.
+
+Dateien gesichert: 8
+Grenze erreicht: ja (Dateigrenze 8 von 8 erreicht; Seitenaufrufe 2 von 15 für die Website-Fundrecherche
+genutzt – die übrigen Fundzeilen stammen direkt aus den Suchtrefferlisten ohne eigenen
+Seitenaufruf; je Datei höchstens 8 von 12 zulässigen Seiten angesehen, nicht erreicht)
+Suchbegriffe ohne Treffer: keine (alle acht Suchanfragen – Jahrgangsstufe 5 bis 12 sowie „ISB
+Bayern Grundwissen Mathematik" – lieferten Treffer; für Jahrgangsstufe 12 aber keine Schule mit
+eigenständiger Datei auffindbar, s. Zeile strobl-f.de und Bemerkung oben)
 
 ## Teil 5 – Brückenkurse Sek II
 
