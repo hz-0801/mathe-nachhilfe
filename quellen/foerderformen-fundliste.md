@@ -395,7 +395,89 @@ Treffer lieferte.
 
 ## Teil 6 – Händlervorschauen
 
-(wird ausgefüllt)
+Quelle für diesen Teil ausschließlich Amazon.de „Blick ins Buch"/„Leseprobe lesen"; Google
+Books war über diese Verbindung durchgehend nicht erreichbar (google.com und books.google.de
+lieferten bei jedem Aufruf, auch mit direkter ISBN-Anfrage ohne Suchbegriff, die Google-eigene
+Bot-Sperre „Unsere Systeme haben ungewöhnlichen Datenverkehr … festgestellt" statt einer
+Ergebnisseite – kein Login-Formular, sondern eine automatisierte Zugriffssperre; damit entfiel
+Google Books für den gesamten Teil 6, nicht nur für einzelne Titel). Kein Login, kein Konto, kein
+Warenkorb, kein Kauf und kein Formular wurden verwendet; die Amazon-Cookie-Abfrage wurde mit
+„Ablehnen" beantwortet. Wo eine Vorschau vorhanden war, wurde sie ausschließlich über die
+eingebauten Navigationsmittel des Leseprobe-Betrachters (Inhaltsverzeichnis-Sprungmarken,
+Bildlauf) angesehen; es wurde nichts heruntergeladen, da weder Amazon noch Google Books für
+Schulbücher eine Download-Funktion anbieten.
+
+| Quelle | Titel | Klasse/Stufe | Adresse | Datei lokal | Lizenz | Seiten angesehen | Thema (Titel des Abschnitts) | Formen | Aufg./Seite | Zeilen vor 1. Aufg. | Teilaufg./Beispiel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Amazon | Sekundo – Mathematik für differenzierende Schulformen, Allgemeine Ausgabe 2018: Förderheft 7 (ISBN 978-3141242232) | 7. Klasse (differenzierende Schulformen) | https://www.amazon.de/dp/3141242232 | nein | urheberrechtlich geschützt (Westermann/Schroedel), nicht abschließend geprüft | 0 | – | – | – | – | – |
+| Amazon | Schnittpunkt Mathematik 7. Differenzierende Ausgabe: Förderheft mit Lösungsheft Klasse 7 | 7. Klasse (differenzierende Ausgabe) | https://www.amazon.de/s?k=Schnittpunkt+F%C3%B6rderheft+Mathematik (Produktseite über diesen Treffer geöffnet, ISBN nicht notiert) | nein | urheberrechtlich geschützt (Ernst Klett Verlag), nicht abschließend geprüft | 0 | – | – | – | – | – |
+| Amazon | Mathematik – Ausgabe 2023 für Berlin, Brandenburg, Sachsen-Anhalt, Thüringen, 7.–10. Schuljahr: Förderheft mit Lösungen 7 (ISBN 978-3141524741) | 7. Schuljahr (Förderheft, Ausgabe 2023) | https://www.amazon.de/dp/3141524742 | nein | urheberrechtlich geschützt (Cornelsen/Westermann), nicht abschließend geprüft | 0 | – | – | – | – | – |
+| Amazon | Basiswissen Schule – Mathematik 5. bis 10. Klasse: Das Standardwerk für die Schule (Duden, Hrsg. Günther Rolles/Michael Unger, ISBN 978-3411713083) | 5.–10. Klasse | https://www.amazon.de/dp/3411713089 | nein | urheberrechtlich geschützt (Duden/Bibliographisches Institut) | 8 (Buchdeckel, Inhaltsverzeichnis, S. 10–15 durchgesehen; TOC/Deckel nicht in die drei Kennzahlen eingerechnet) | 1 Mathematik – eine der ältesten Wissenschaften (1.1 Was ist Mathematik und was kann sie? / 1.2 Denk- und Arbeitsweisen: Modellieren, Begriffe, Vermutungen und Beweise) | M, B, Z | 0,3 | rund 35 | 1 |
+| Amazon | Klett KomplettTrainer Gymnasium Mathematik 10. Klasse: Der komplette Lernstoff (Klett Lerntraining, ISBN 978-3129279975) | 10. Klasse (Gymnasium) | https://www.amazon.de/dp/3129279975 | nein | urheberrechtlich geschützt (Ernst Klett Verlag/Klett Lerntraining) | 9 (Buchdeckel, Inhaltsverzeichnis S. 1–2, S. 5–11 durchgesehen; Deckel/Inhaltsverzeichnis nicht in die drei Kennzahlen eingerechnet) | 1 Rund um die Ableitung – 1.1 Die durchschnittliche Änderungsrate | M, B, Z, F, S, Lö | 3 | rund 35 | 3 |
+
+Formen-Zuordnung und eigene Entscheidungen: Von den fünf gesuchten Reihen zeigten nur zwei eine
+echte Vorschau; die drei reinen Übungs-/Förderhefte (Sekundo, Schnittpunkt, Cornelsen
+„Mathematik 2023") hatten auf ihrer Amazon-Produktseite keinerlei „Blick ins Buch"-Band am
+Cover – ein Klick auf das Titelbild öffnete jeweils nur eine Zoom-Ansicht des Umschlags ohne
+Seiteninhalt, keinen Leseprobe-Betrachter. Das deckt sich mit dem Befund aus Teil 2 (Stark): Für
+schmale Arbeits-/Förderhefte bieten Verlage auf Amazon so gut wie nie eine Leseprobe an, anders
+als für dickere Nachschlage- oder Trainingsbücher. Da für Sekundo, Schnittpunkt und „Mathematik
+2023" jeweils nur eine Ausgabe/ein Jahrgang stichprobenartig geöffnet wurde (nicht mehrere
+Klassenstufen durchprobiert), gilt als zweiter, für alle drei Titel gemeinsamer Versuch der
+Ausfall von Google Books insgesamt (s. o.); ein dritter Anlauf über weitere Jahrgangsstufen
+derselben Reihe wurde aus Zählgrenzen-Gründen nicht unternommen, weil bei allen drei Reihen das
+Fehlen des Vorschau-Bands ein Merkmal der ganzen Produktgattung (Förderheft/Arbeitsheft) und
+nicht der einzelnen Jahrgangsstufe zu sein scheint – eigene, im Bericht offengelegte Annahme.
+Bei den zwei gefundenen Titeln wurde die Zuordnung "Klett Lerntraining Mathematik" auf den
+KomplettTrainer Gymnasium Mathematik 10. Klasse gelegt, weil "Klett Lerntraining" der im Katalog
+angegebene Herausgeber/Verlagsimprint dieser Reihe ist und der Titel als einziger unter diesem
+Imprint bei der Suche eine Leseprobe zeigte (im Unterschied zu den ebenfalls gefundenen
+Klett-Lerntraining-Titeln "Sicher durch die 5. Klasse" und "Mathe ohne Drama", die nicht geöffnet
+wurden). Bei Duden zählen die blauen/gelben Kästen mit Formeln, Definitionen und Regeln als M;
+vollständig durchgerechnete Beispielaufgaben (Fahrradtour-Aufgabe, Trapez-Beweis), die in
+Frage-Antwort-Zeilen (Analyse/Lösung/Kontrolle) gegliedert sind, aber ohne Lücken für eigene
+Schülerrechnung, als B statt R – R ist für Kästchen zum Selbst-Ausfüllen reserviert, hier ist
+bereits alles vorgerechnet; Diagramme, Skizzen und die Baustein-Beispiel-Tabelle als Z. In den
+sechs durchgesehenen Seiten (10–15) kam kein L, F, S, Lö, W oder D vor – das Duden-Basiswissen
+ist im gesichteten Kapitel 1 ein reines Nachschlagewerk mit eingestreuten Beispielen, keine
+Aufgabensammlung mit eigenen Übungsaufgaben; das schließt nicht aus, dass spätere Kapitel
+(„Intensivtraining für Klassenarbeiten & Prüfungen" laut Produktbeschreibung) eigene
+Übungsaufgaben enthalten, die außerhalb der angesehenen Seiten liegen. Beim Klett
+KomplettTrainer zählen die türkisen „WISSEN"-Kästen als M, das vollständig vorgerechnete
+Beispiel mit nummerierten Schritten (0., 1., 2. …) ebenfalls als B statt R aus demselben Grund
+wie bei Duden; die nummerierten „Aufgabe 2–6" mit Graphen, einer Wertetabelle und einer
+Diagramm-Abbildung als F (freie Aufgabe, keine Lücken-Vorgabe) plus Z für die Graphen/Tabellen;
+die Buch-Rückseite enthält laut Inhaltsverzeichnis einen eigenen Lösungsteil ab Seite 147 (Lö,
+aus dem Inhaltsverzeichnis erschlossen, nicht selbst aufgerufen, um das Seitenbudget zu schonen);
+der im Vorspann angekündigte Kapitelabschluss „Test und Checkliste" (Ankreuz-Checkliste "Mein
+Lernplan" auf Seite 7, dieselbe Struktur wie ein Abschlusstest je Kapitel laut Inhaltsverzeichnis)
+zählt als S. Kein W oder D im gesichteten Kapitel 1. Online-Zusatzübungen auf
+klasse5bis10.klett-lerntraining.de wurden nicht aufgerufen, da sie laut Buchtext eine Anmeldung
+verlangen ("Bitte beachte: Wenn du dich nicht anmeldest, kann dein Lernstand der Übungen nicht
+gespeichert werden") – das fällt unter das Login-Verbot dieses Auftragsteils und wurde nicht
+geöffnet, auch nicht ohne Anmeldung zum bloßen Ansehen, weil die Seite außerhalb der erlaubten
+Quellen Amazon/Google Books liegt. Die drei Kennzahlen sind wie in Teil 1–5 grobe, gerundete
+Mittelwerte nur über die tatsächlich inhaltlich aufgabenrelevanten Seiten (Cover, Copyright,
+Inhaltsverzeichnis und reine Gebrauchsanleitungs-/Lernplan-Seiten wurden ausgeklammert, analog
+zum Vorgehen bei Vorwort/TOC in Teil 1–4). Keine Bilddatei wurde lokal gesichert: Weder Amazon
+noch Google Books bieten einen Seiten-Download an (im Auftrag als Normalfall benannt), und das
+in dieser Sitzung verfügbare Browser-Werkzeug liefert Screenshots nur inline in die
+Unterhaltung zurück, ohne eine Dateiablage im Projektverzeichnis zu unterstützen – eine lokale
+Bilddatei unter hefte/foerderformen/haendler/ konnte deshalb technisch nicht erzeugt werden;
+das Ansehen selbst (Leseprobe-Betrachter, Bildlauf durch die Seiten) fand trotzdem wie
+vorgeschrieben statt, nur ohne Dateiablage. Dies wurde nicht als Grenzverstoß gewertet, weil der
+Auftrag "Seitenbilder nur lokal" ausdrücklich als Bedingung für den Fall formuliert, dass
+Bilder gesichert werden ("falls … gesichert werden"), nicht als Pflicht zur Sicherung.
+
+Dateien gesichert: 0 (kein Download-Ziel bei Amazon/Google Books vorhanden; siehe Bemerkung zur
+technischen Grenze der Screenshot-Ablage)
+Grenze erreicht: ja (Seitenaufrufe rund 14 von 15 verbraucht: 10 Navigationen zu Suchergebnissen/
+Produktseiten plus 4 Produktseiten-Wechsel innerhalb der Ergebnislisten; je Titel höchstens 9 von
+12 zulässigen Seiten angesehen, nicht erreicht; Titelgrenze 2 von 8 nicht ausgeschöpft, weil drei
+der fünf gesuchten Titel keine Vorschau hatten)
+Suchbegriffe ohne Treffer: „Sekundo Förderheft Mathematik" bei Google/Google Books (Bot-Sperre,
+kein Sucheinstieg möglich); „isbn:9783141242232" bei Google Books direkt (dieselbe Bot-Sperre);
+alle übrigen Suchbegriffe fanden auf Amazon Treffer, drei davon nur ohne nutzbare Vorschau
 
 ## Teil 7 – Rechenschwäche Sek I
 
