@@ -20,18 +20,22 @@ Vorgabencheck (§ 4) steht aus.
 
 - Rechtsgrundlage: Fachoberschul- und Fachhochschulreifeverordnung (FOSFHRV);
   die Aufgaben werden nach § 31 Absatz 1 zentral festgelegt (fhr.md § 1).
+  Bestätigt: MBJS_RS_07-26.pdf, S. 1, Ziff. 1.1.2 (Prüfung 2026-09-24).
 - Rahmenlehrplan Mathematik für die Fachoberschule, in Kraft seit dem
   01.08.2019; konkretisiert durch die jährlichen Prüfungsschwerpunkte
-  (fhr.md § 1).
+  (fhr.md § 1). Bestätigt: Pruefungsschwerpunkte_Mathematik_2026-2027.pdf,
+  S. 1 (Prüfung 2026-09-24).
 - Prüfungsschwerpunkte je Schuljahr und Fach: Ordner `Pruefungsschwerpunkte/`
   neben den Heften auf dem Bildungsserver Berlin-Brandenburg
   (https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/Fachoberschule_BB/).
   Dort liegen nur die Fassungen 2026/27 (Prüfung 2027) und 2027/28 (Prüfung
   2028); für die erfassten Jahrgänge 2019–2026 fehlen sie (fhr-pruefungen.md,
-  Umfang).
+  Umfang). Bestätigt: beide Dateien geholt (je 2 Seiten), keine weiteren
+  Jahrgänge im Verzeichnis (Prüfung 2026-09-24).
 - Rundschreiben des MBJS zu Terminen und Fristen: Ordner `Pruefungstermine/`,
   zuletzt `MBJS_RS_07-26.pdf` vom 25.06.2026 (nennt die Ersatzaufgabe nach
-  § 31 Absatz 1 FOSFHRV; fhr.md § 4).
+  § 31 Absatz 1 FOSFHRV; fhr.md § 4). Bestätigt: MBJS_RS_07-26.pdf, S. 1
+  (Datum) und Ziff. 1.1.2 (Ersatzaufgabe) (Prüfung 2026-09-24).
 - Hefte: Übersichtsseite https://bildungsserver.berlin-brandenburg.de/pruefungen-fos-bb;
   Verzeichnis und Dateinamen in fhr-pruefungen.md.
 - Kein IQB-Pool: die Aufgabenpools des IQB gelten nur für die Allgemeine
@@ -48,17 +52,20 @@ enthalten den Erwartungshorizont mit verbindlicher Punkteverteilung, ab 2021
 meist einen Gutachtenbogen. Je Prüfungstermin zwei gleichwertige
 Aufgabenvorschläge zur Wahl der Lehrkraft (Buchstaben A, B, C) und ein weiterer
 Vorschlag für den Nachschreibetermin, der nicht veröffentlicht wird
-(Prüfungsschwerpunkte § 2.1; fhr.md § 4).
+(Prüfungsschwerpunkte § 2.1; fhr.md § 4). Bestätigt: Prüfungsschwerpunkte
+2026/27 S. 2 Ziff. 2.1 und 5 (drei/vier Aufgaben, zwei Vorschläge, 180 Min.);
+2019-A/2021-B/2022-B (Aufgaben-Überschriften); `fhr-katalog.csv` (70 BE je
+Heft) (Prüfung 2026-09-24, Details fhr-vorgaben-pruefung-2026-09.md).
 
 | Prüfungsjahr | Quelle | Vorgabe / Änderung |
 |---|---|---|
-| 2019 | Hefte 2019 A/C, fhr.md § 4 und § 7 | Prüfung 10.05.2019, vor dem Rahmenlehrplan vom 01.08.2019. Die Hefte nennen keine Hilfsmittel (hilfsmittel „ja" aus den Vorgaben); Koordinaten im Heft als P(–1|–5) mit ASCII-Bindestrich als Minus. |
-| 2020 | Hefte 2020 A/C | Prüfung 03.06.2020, erster Jahrgang unter dem heutigen Rahmenlehrplan, vor den Kürzungen. Hilfsmittel im Heft nicht genannt; Punkte 28 + 21 + 21 (A) und 29 + 21 + 20 (C). |
-| 2021 | Hefte 2021 A/B, fhr.md § 3 und § 7 | Coronabedingt gekürzte Vorgaben. Ab 2021 stehen die Hilfsmittel im Heft: Formelsammlung, Nachschlagewerk Rechtschreibung, Taschenrechner ohne Programmierbarkeit, Grafik, numerisches Differenzieren oder Integrieren und ohne automatisches Gleichungslösen; nichtganzzahlige Ergebnisse auf zwei Dezimalstellen gerundet. Ab 2021 meist Gutachtenbogen (fehlt 2021 B und 2023 C). Punkte 2021 B 32 + 18 + 20. |
-| 2022 | Hefte 2022 B/C | Coronabedingt gekürzte Vorgaben; Prüfung 06.05.2022. Aufbau sonst unverändert. |
-| 2023–2026 | Hefte | Aufbau unverändert (drei Aufgaben, 70 BE, 180 min); Prüfungen 05.05.2023, 08.05.2024, 28.05.2025, 05.06.2026; 2026 C mit 27 + 23 + 20. Prüfungsschwerpunkte dieser Jahrgänge liegen nicht auf dem Server. |
-| 2027 | Prüfungsschwerpunkte 2026/27 (gelesen bei Anlage des Profils, 12./13.09.2026) | Zwei gleichwertige Aufgabensätze zum Prüfungstermin plus Nachschreibevorschlag (§ 2.1); Hilfsmittel ohne CAS; Kompetenzen ausdrücklich nicht auf Themengebiete beschränkt (fhr.md § 5). Inhalte nur 2027 (Markierung 27 in fhr.md § 6): Extremwertaufgaben, Rotationsvolumen um die x-Achse, Kombinatorische Abzählverfahren; Funktionsgleichung bestimmen bis zum zweiten Grad. |
-| 2028 | Prüfungsschwerpunkte 2027/28 | Neu gegenüber 2027 (Markierung 28): Normale, Körpervolumen aus Grundfläche und Länge, Unabhängigkeit von Ereignissen; Funktionsgleichung bestimmen bis zum vierten Grad (dritter und vierter nur über Symmetrie). Die Inhalte mit Markierung 27 entfallen. |
+| 2019 | Hefte 2019 A/C, fhr.md § 4 und § 7 | Prüfung 10.05.2019, vor dem Rahmenlehrplan vom 01.08.2019. Die Hefte nennen keine Hilfsmittel (hilfsmittel „ja" aus den Vorgaben); Koordinaten im Heft als P(–1|–5) mit ASCII-Bindestrich als Minus. Bestätigt: 2019-A.pdf S. 1 (Datum), 2019-A/2019-C (kein Hilfsmittel-Abschnitt); Koordinatenschreibweise abweichend – siehe fhr-vorgaben-pruefung-2026-09.md. |
+| 2020 | Hefte 2020 A/C | Prüfung 03.06.2020, erster Jahrgang unter dem heutigen Rahmenlehrplan, vor den Kürzungen. Hilfsmittel im Heft nicht genannt; Punkte 28 + 21 + 21 (A) und 29 + 21 + 20 (C). Bestätigt: fhr-pruefungen.md (Datum); 2020-A.pdf (kein Hilfsmittel-Abschnitt); `fhr-katalog.csv` (Punkte). |
+| 2021 | Hefte 2021 A/B, fhr.md § 3 und § 7 | Coronabedingt gekürzte Vorgaben. Ab 2021 stehen die Hilfsmittel im Heft: Formelsammlung, Nachschlagewerk Rechtschreibung, Taschenrechner ohne Programmierbarkeit, Grafik, numerisches Differenzieren oder Integrieren und ohne automatisches Gleichungslösen; nichtganzzahlige Ergebnisse auf zwei Dezimalstellen gerundet. Ab 2021 meist Gutachtenbogen (fehlt 2021 B und 2023 C). Punkte 2021 B 32 + 18 + 20. Bestätigt: Gutachtenbogen-Befund deckungsgleich mit fhr-pruefungen.md Kopf; `fhr-katalog.csv` (Punkte 32+18+20). Corona-Kürzung und Hilfsmittel-Wortlaut „im Heft" nicht belegbar – siehe fhr-vorgaben-pruefung-2026-09.md. |
+| 2022 | Hefte 2022 B/C | Coronabedingt gekürzte Vorgaben; Prüfung 06.05.2022. Aufbau sonst unverändert. Bestätigt: fhr-pruefungen.md (Datum); 2022-B.pdf (Aufbau: drei Aufgaben, 70 BE). Corona-Kürzung nicht belegbar – siehe fhr-vorgaben-pruefung-2026-09.md. |
+| 2023–2026 | Hefte | Aufbau unverändert (drei Aufgaben, 70 BE, 180 min); Prüfungen 05.05.2023, 08.05.2024, 28.05.2025, 05.06.2026; 2026 C mit 27 + 23 + 20. Prüfungsschwerpunkte dieser Jahrgänge liegen nicht auf dem Server. Bestätigt: fhr-pruefungen.md (Daten); `fhr-katalog.csv` (Punkte, insb. 2026-C); 2023-C.pdf (Aufbau); Verzeichnis `Pruefungsschwerpunkte/` (nur 2026/27 und 2027/28 vorhanden). |
+| 2027 | Prüfungsschwerpunkte 2026/27 (gelesen bei Anlage des Profils, 12./13.09.2026) | Zwei gleichwertige Aufgabensätze zum Prüfungstermin plus Nachschreibevorschlag (§ 2.1); Hilfsmittel ohne CAS; Kompetenzen ausdrücklich nicht auf Themengebiete beschränkt (fhr.md § 5). Inhalte nur 2027 (Markierung 27 in fhr.md § 6): Extremwertaufgaben, Rotationsvolumen um die x-Achse, Kombinatorische Abzählverfahren; Funktionsgleichung bestimmen bis zum zweiten Grad. Bestätigt: Pruefungsschwerpunkte_Mathematik_2026-2027.pdf, S. 1–2, vollständig wortgleich (Prüfung 2026-09-24). |
+| 2028 | Prüfungsschwerpunkte 2027/28 | Neu gegenüber 2027 (Markierung 28): Normale, Körpervolumen aus Grundfläche und Länge, Unabhängigkeit von Ereignissen; Funktionsgleichung bestimmen bis zum vierten Grad (dritter und vierter nur über Symmetrie). Die Inhalte mit Markierung 27 entfallen. Bestätigt: Pruefungsschwerpunkte_Mathematik_2027-2028.pdf, S. 1, vollständig wortgleich, Markierung-27-Inhalte dort nicht mehr enthalten (Prüfung 2026-09-24). |
 
 Folgen für die Deutung des Katalogs: Der Vorgabenstand eines Jahrgangs ist
 kein Katalogfeld. Gefiltert wird über die Schwerpunktmarkierung der Themenliste
@@ -70,10 +77,14 @@ Schulform und ein Niveau vorliegen (konzept.md § 8, Frage 4).
 
 - Geometrie, Trigonometrie und Gleichungslehre kommen nur als Werkzeug vor
   (fhr.md § 1); die Themenliste führt sie unter der Leitidee Grundlagen, einer
-  Zutat des Profils (fhr.md § 5).
+  Zutat des Profils (fhr.md § 5). Bestätigt: Prüfungsschwerpunkte 2026/27 und
+  2027/28 kennen nur die Abschnitte Differentialrechnung, Integralrechnung,
+  Stochastik (Prüfung 2026-09-24).
 - Einstufige Laplace-Versuche stehen nicht in den Schwerpunkten, die Hefte
   verlangen sie aber (2023-C-3b); Thema Laplace-Wahrscheinlichkeit ohne
-  Schwerpunktmarkierung (fhr.md § 6).
+  Schwerpunktmarkierung (fhr.md § 6). Bestätigt: Prüfungsschwerpunkte
+  2026/27 nennen nur „Mehrstufige Zufallsexperimente"; 2023-C.pdf Aufgabe 3b
+  ist ein einstufiges Laplace-Experiment (Prüfung 2026-09-24).
 
 ## 4 Jährlicher Vorgabencheck (eigener Schritt, einmal im Jahr, wenn die Prüfungsschwerpunkte des nächsten Schuljahrs erscheinen)
 
@@ -96,6 +107,16 @@ Schulform und ein Niveau vorliegen (konzept.md § 8, Frage 4).
 
 ## 5 Änderungen an dieser Datei
 
+- 2026-09-24 (Auftrag Nacht, Teil 3; § 4 Schritt 0 des ersten Jahreschecks):
+  jede Angabe in § 1 bis § 3 gegen die Papiere gehalten (Prüfungsschwerpunkte
+  2026/27 und 2027/28, Rundschreiben MBJS_RS_07-26, Stichprobe von sechs der
+  sechzehn Lehrerhefte, Punktsummen und Termine aller sechzehn Hefte über
+  fhr-katalog.csv/fhr-pruefungen.md). Ergebnis: 16 Angaben bestätigt (Fundstelle
+  nachgetragen), 1 abweichend (Koordinatenschreibweise 2019/2020: echtes
+  Minuszeichen U+2212 statt ASCII-Bindestrich), 3 nicht belegbar
+  (Corona-Kürzung 2021/2022; Hilfsmittel-Wortlaut „ab 2021 im Heft" steht in
+  keinem geprüften Lehrerheft). Vorbehalt im Kopf bleibt bestehen, da nicht
+  alle Angaben bestätigt sind. Bericht: fhr-vorgaben-pruefung-2026-09.md.
 - 2026-09-17 (Auftrag H, Punkt 1): Vorbehalt im Kopf – Angaben ungeprüft, bis der
   erste Jahrescheck sie gegen die Quellen hält; § 4 Schritt 0 dafür.
 - 2026-09-17: angelegt (Auftrag G, Punkt 3) als fhr-Pendant zu msa-vorgaben.md

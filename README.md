@@ -58,6 +58,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `fhr-katalog.csv` – der Katalog; nie von Hand ändern.
 - `fhr-bau.py` – Heft erfassen oder Bestand prüfen.
 - `fhr-vorgaben.md` – jährlicher Vorgabencheck.
+- `fhr-vorgaben-pruefung-2026-09.md` – Prüfung des Vorbehalts (Schritt 0, Auftrag Nacht Teil 3, 24.09.2026): jede Angabe aus § 1–3 gegen die Papiere gehalten, Ergebnis je Angabe.
 - `fhr-typenbibliothek.py`, `fhr-typenbibliothek.md` – Skript nach jeder Katalogänderung ausführen; die Bibliothek öffnen, wenn ein Blatt zu einem fhr-Typ geplant wird.
 
 ## abitur/ – Zentralabitur Berlin/Brandenburg (abi) und IQB-Aufgabenpool (iqb)
