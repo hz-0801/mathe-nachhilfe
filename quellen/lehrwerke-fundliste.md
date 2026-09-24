@@ -22,3 +22,49 @@ Nichts bewertet, nichts erfasst – nur der Fund.
 Nebenfund: Cornelsen führt außerdem eine allgemeine „Synopse Mathematik
 Berlin/Brandenburg 6" (unklar, zu welcher Reihe), ebenfalls hinter dem
 Warenkorb-Weg – nicht weiter verfolgt, da außerhalb der genannten Werke.
+
+## Inhaltsverzeichnisse (Auftrag Inhaltsverzeichnisse, 24.09.2026)
+
+Gesucht: Inhaltsverzeichnisse (Kapitelnummer, Titel, Seite) der Landesausgaben
+BE/BB über die Deutsche Nationalbibliothek (SRU, `werkzeuge/dnb-sru.py`),
+Katalogsatz `d-nb.info/<IDN>`, TOC-PDF `d-nb.info/<IDN>/04`. Ersetzt Leseproben
+und Warenkorb. Je Werk höchstens 15 Minuten gesucht. Textfassungen unter
+`quellen/`, Übersicht in `quellen/quellen.md`.
+
+| Verlag | Werk | Ausgabe | Klasse | ISBN | IDN | Fund | Vollständigkeit |
+|---|---|---|---|---|---|---|---|
+| Cornelsen | Fundamente der Mathematik | B ab 2024 (BE/BB) | 7 | 9783060428090 | 1315139596 | DNB | ja |
+| Cornelsen | Fundamente der Mathematik | B ab 2024 (BE/BB) | 8 | 9783060428137 | 1322564353 | DNB | ja |
+| Cornelsen | Fundamente der Mathematik | B ab 2024 (BE/BB) | 9 | 9783060428175 | 1338042475 | DNB | ja |
+| Cornelsen | Fundamente der Mathematik | B ab 2024 (BE/BB) | 10 | 9783060428212 | 1373177926 | DNB | ja |
+| Cornelsen | Fundamente der Mathematik | B ab 2017 (Vorgänger) | 9 | 9783060098538 | 1095896164 | DNB | ja |
+| Cornelsen | Fundamente der Mathematik | B ab 2017 (Vorgänger) | 7, 8, 10 | – | – | nicht gefunden (mehrere jährliche ISBN-Varianten je Klasse ohne Bundesland-Angabe in der DNB, Kandidaten im Dateikopf notiert) | – |
+| Westermann | Mathematik | Ausgabe 2023 (BE/BB/ST/TH) | 7 | 9783141524581 | 1278474927 | DNB (Schulbuch-ISBN über westermann.de-Suche) | ja |
+| Westermann | Mathematik | Ausgabe 2023 (BE/BB/ST/TH) | 8 | 9783141524598 | 1312199539 | DNB | ja |
+| Westermann | Mathematik | Ausgabe 2023 (BE/BB/ST/TH) | 9 | 9783141524604 | 1349855197 | DNB | ja |
+| Westermann | Mathematik | Ausgabe 2023 (BE/BB/ST/TH) | 10 | 9783141524611 | 138282338X | DNB | ja |
+| Westermann | Mathematik heute | BE/BB (Ausgabe 2014, Drucke 2016–2019) | 7 | 9783507812604 | 1081151951 | DNB | ja (Schriftcodierung im Original fehlerhaft) |
+| Westermann | Mathematik heute | BE/BB (Ausgabe 2014, Drucke 2016–2019) | 8 | 9783507812673 | 1121235808 | DNB | ja |
+| Westermann | Mathematik heute | BE/BB (Ausgabe 2014, Drucke 2016–2019) | 9 | 9783507812741 | 1149946571 | DNB | ja |
+| Westermann | Mathematik heute | BE/BB (Ausgabe 2014, Drucke 2016–2019) | 10 | 9783507812819 | 1174808292 | DNB | ja |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2016 (BE/BB) | 7 | 9783507883062 | 1072840758 | DNB | ja (Schriftcodierung im Original fehlerhaft) |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2016 (BE/BB) | 8 | 9783507883147 | 1117152731 | DNB | ja |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2016 (BE/BB) | 9 | 9783507883222 | 1121236219 | DNB | ja |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2016 (BE/BB) | 10 | 9783507883307 | 1149948078 | DNB | ja |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2025 (BE/BB) | 5 | 9783141373707 | 1349851140 | DNB (Schulbuch-ISBN über westermann.de-Suche) | ja |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2025 (BE/BB) | 6 | 9783141373820 | 1349851248 | DNB | ja |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2025 (BE/BB) | 7 | 9783141373943 | 1374882372 | DNB | ja |
+| Westermann | Elemente der Mathematik SI | Ausgabe 2025 (BE/BB) | 8–10 | – | – | noch nicht erschienen (Westermann-Produktsuche 24.09.2026: nur Kl. 5–7 gelistet) | – |
+| Westermann | Sekundo | Ausgabe 2017 (BE/BB) | 7 | 9783141242522 | 1129468402 | DNB (Schulbuch-ISBN über westermann.de-Suche; Gegenprobe zu [SEKUNDO-BB]) | ja |
+| Westermann | Sekundo | Ausgabe 2017 (BE/BB) | 8 | 9783141242614 | 1149945419 | DNB | ja (ein Kapiteltitel unklar) |
+| Westermann | Sekundo | Ausgabe 2017 (BE/BB) | 9 | 9783141242706 | 1174809175 | DNB | ja |
+| Westermann | Sekundo | Ausgabe 2017 (BE/BB) | 10 | 9783141242799 | 1202410952 | DNB | ja (ein Kapiteltitel unklar) |
+| Klett | Schnittpunkt Mathematik | Differenzierende Ausgabe ab 2017 (BE/BB) | 7 | 9783127445718 | 1170800246 | DNB (Schulbuch-ISBN über klett.de-Suche, Filter Berlin) | ja |
+| Klett | Schnittpunkt Mathematik | Differenzierende Ausgabe ab 2017 (BE/BB) | 8 | 9783127445817 | 1192031407 | DNB | ja |
+| Klett | Schnittpunkt Mathematik | Differenzierende Ausgabe ab 2017 (BE/BB) | 9 | 9783127445916 | 1220925136 | DNB | ja |
+| Klett | Schnittpunkt Mathematik | Differenzierende Ausgabe ab 2017 (BE/BB) | 10 | 9783127445015 | 1245388363 | DNB | ja |
+| Klett | Lambacher Schweizer | Allgemeine Ausgabe ab 2006 (Gegenprobe, keine BE/BB-Ausgabe) | 7–10 | 9783127348712 / 9783127348811 / 9783127348910 / 9783127348019 | 98096752X / 983806292 / 990585158 / 992483190 | nicht gefunden (DNB ohne TOC-PDF; Klett-Produktseite nur Probeseiten-Bilder, kein Inhaltsverzeichnis) | – |
+
+Cornelsen-Werte für die Ausgabe B ab 2017 (Kl. 7, 8, 10) sind Kandidaten,
+keine Funde: `quelle-cornelsen-fundamente-bb-ausgabeb2017-inhalt.txt` nennt
+sie mit Begründung.

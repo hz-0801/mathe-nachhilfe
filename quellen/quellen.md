@@ -175,6 +175,86 @@ Quelle je Klasse (Downloadadresse leitet auf eine DOC-Datei um):
 - Kl. 9: https://www.westermann.de/backend/anlage/herunterladen/4623965
 - Kl. 10: https://www.westermann.de/backend/anlage/herunterladen/4623966
 
+## Inhaltsverzeichnisse Landesausgaben BE/BB (abgelegt 24.09.2026)
+
+Auftrag Inhaltsverzeichnisse (24.09.2026): Inhaltsverzeichnisse der in
+`lehrwerke-fundliste.md` (Teil 2) genannten Lehrwerke über die Deutsche
+Nationalbibliothek (SRU-Schnittstelle, `werkzeuge/dnb-sru.py`), als Ersatz für
+die dort gescheiterten Leseproben-/Warenkorb-Wege. Fundliste mit allen
+geprüften Werken: `quellen/lehrwerke-fundliste.md` (Tabelle
+„Inhaltsverzeichnisse"). Zweck: Kapitelfolge je Werk und Klasse als Text für
+die Verortung je Sprosse im Themenkatalog.
+
+## quelle-cornelsen-fundamente-bb-ausgabeb2024-inhalt.txt
+
+Cornelsen, „Fundamente der Mathematik", Ausgabe B ab 2024 (Berlin,
+Brandenburg), Inhaltsverzeichnisse Klasse 7–10, vollständig (beide Ebenen).
+© Cornelsen – Gliederung als Beleg, keine Aufgaben.
+
+Quelle je Klasse: `https://d-nb.info/<IDN>/04`, IDN siehe Dateikopf.
+
+## quelle-cornelsen-fundamente-bb-ausgabeb2017-inhalt.txt
+
+Dieselbe Reihe, Vorgängerausgabe B ab 2017. Nur Klasse 9 sicher zugeordnet
+(ISBN/IDN eindeutig als Berlin/Brandenburg-Vorgänger bestätigt); Klasse 7, 8,
+10 mitgesucht, aber nicht gesichert – der Verlag legt zu dieser Ausgabe
+jährlich mehrere ISBN-Varianten je Klassenstufe auf, ohne dass die
+DNB-Titelaufnahme das Bundesland nennt. Kandidaten-IDN im Dateikopf notiert.
+
+## quelle-westermann-mathematik2023-bebbstth-inhalt.txt  [MA23-BEBBSTTH]
+
+Westermann, „Mathematik – Ausgabe 2023 für Berlin, Brandenburg,
+Sachsen-Anhalt, Thüringen, 7.–10. Schuljahr" (Oberschule), Inhaltsverzeichnisse
+Klasse 7–10. Schulbuch-ISBNs über die Westermann-Produktsuche ermittelt.
+© Westermann. Achtung: Original zweispaltig gesetzt, pdftotext -layout mischt
+Zeilen stellenweise spaltenübergreifend.
+
+## quelle-westermann-mathematikheute-bebb-inhalt.txt  [MH-BEBB]
+
+Westermann, „Mathematik heute" (Ausgabe für Berlin und Brandenburg ohne
+Bildungsgang-Differenzierung, Drucke 2016–2019 der 2014 begonnenen Ausgabe),
+Inhaltsverzeichnisse Klasse 7–10. Eigene Zuordnung: Von den zahlreichen
+DNB-Titelvarianten (Haupt-/Realschulbildungsgang, mehrere Druckjahre) sind
+die vier gewählten Bände die einzigen ohne Bildungsgang-Zusatz und bilden
+eine fortlaufende ISBN-Folge mit je einem Jahr Abstand. © Westermann.
+Achtung: TOC-PDF zu Klasse 7 hat eine fehlerhafte Schriftcodierung im
+Original (einzelne Ziffern/Zeichen verstümmelt).
+
+## quelle-westermann-elemente-der-mathematik-bb-2016u2025-inhalt.txt  [EDM-BB-TOC]
+
+Westermann, „Elemente der Mathematik SI", Inhaltsverzeichnisse zu beiden
+Landesausgaben Berlin/Brandenburg: Ausgabe 2016 (Klasse 7–10, vollständig)
+und die neue Ausgabe 2025 (Klasse 5–7, mehr ist Stand 24.09.2026 nicht
+erschienen). Ergänzt die vorhandenen Stoffverteilungspläne [EDM-BB] um die
+eigentliche Kapitelstruktur der Bücher. © Westermann. Achtung: TOC-PDFs der
+Ausgabe 2016 haben dieselbe Schriftcodierungsstörung wie bei „Mathematik
+heute" Klasse 7; bei der Ausgabe 2025 vertauscht derselbe Fehler vereinzelt
+eine Kapitelziffer mit einem ähnlich aussehenden Buchstaben.
+
+## quelle-westermann-sekundo-bb-2017-inhalt.txt  [SEKUNDO-BB-TOC]
+
+Westermann, „Sekundo", Inhaltsverzeichnisse Klasse 7–10 als Gegenprobe zu den
+vorhandenen Stoffverteilungsplänen [SEKUNDO-BB]. © Westermann. Achtung:
+zweispaltiges Layout, zwei Kapitelnummern (Kl. 8 Kapitel 8, Kl. 10 Kapitel 2)
+blieben trotz Rohtext ohne eindeutigen Titel.
+
+## quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt  [SCHNITTPUNKT-BB]
+
+Klett, „Schnittpunkt Mathematik", Differenzierende Ausgabe ab 2017 (Berlin,
+Brandenburg u. a.), Inhaltsverzeichnisse Klasse 7–10 – sauberster Rohtext
+aller Lehrwerke dieses Auftrags (kein zweispaltiges Layout, keine
+Schriftcodierungsfehler). Schulbuch-ISBNs über die klett.de-Suche
+(Bundeslandfilter Berlin) ermittelt. © Klett.
+
+## Nicht gefunden: Lambacher Schweizer (Allgemeine Ausgabe, Gegenprobe)
+
+Keine eigene Berlin/Brandenburg-Ausgabe (bestätigt, wie in der bisherigen
+Fundliste vermerkt); die Allgemeine Ausgabe ab 2006 (Klasse 7–10, ISBN siehe
+`lehrwerke-fundliste.md`) hat in der DNB keine TOC-PDFs, und die
+Klett-Produktseiten zeigen nur einzelne Probeseiten-Bilder statt eines
+Inhaltsverzeichnisses. Der vorhandene Fahrplan [LS-AA] bleibt die einzige
+Kapitelübersicht dieser Reihe im Repo.
+
 ## Noch nicht abgelegt
 
 - [MzDuF] LISUM, „Material zur Diagnose und Förderung im Mathematikunterricht“,

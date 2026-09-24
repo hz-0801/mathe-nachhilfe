@@ -1,0 +1,676 @@
+Westermann, "Mathematik - Ausgabe 2023 fuer Berlin, Brandenburg, Sachsen-Anhalt,
+Thueringen, 7.-10. Schuljahr" (Oberschule). Inhaltsverzeichnisse Klasse 7-10
+aus den DNB-Saetzen (TOC-PDF-Anhang /04), Schulbuch-ISBNs ueber die
+Westermann-Reihenseite (Produktsuche) ermittelt, dann in der DNB bestaetigt
+und mit pdftotext -layout extrahiert am 24.09.2026.
+
+Kl. 7:  ISBN 9783141524581, IDN 1278474927, https://d-nb.info/1278474927/04
+Kl. 8:  ISBN 9783141524598, IDN 1312199539, https://d-nb.info/1312199539/04
+Kl. 9:  ISBN 9783141524604, IDN 1349855197, https://d-nb.info/1349855197/04
+Kl. 10: ISBN 9783141524611, IDN 138282338X, https://d-nb.info/138282338X/04
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+Achtung: Das Original ist zweispaltig gesetzt (linke/rechte Spalte je Doppel-
+seite); pdftotext -layout liest die Zeilen nicht immer spaltenrein, Kapitel-
+ueberschriften stehen daher stellenweise neben statt ueber ihren Unterpunkten.
+Kapitelfolge (erste Ebene, geprueft durch Lesen der Datei):
+
+Klasse 7: 1 Zuordnungen (S. 6), 2 Prozentrechnung (44), 3 Wahrscheinlich-
+keitsrechnung (78), 4 Rationale Zahlen (94), 5 Ebene Figuren (128),
+6 Dreiecke konstruieren (150), 7 Kreis und Kreisteile (168), 8 Projekt Berlin (188)
+
+Klasse 8: 1 Terme und Gleichungen (6), 2 Zinsrechnung (42), 3 Daten erheben
+und auswerten (60), 4 Wahrscheinlichkeitsrechnung (88), 5 Der Satz des
+Pythagoras (108), 6 Prismen und Zylinder (130), 7 Lineare Funktionen (160),
+8 Pyramiden, Kegel, Kugeln (186), Projekt Sachprobleme (206)
+
+Klasse 9: 1 Vergroessern und Verkleinern (6), 2 Lineare Gleichungssysteme (34),
+3 Reelle Zahlen (56), 4 Quadratische Funktionen und Gleichungen (76),
+5 Statistische Erhebungen (106), 6 Pyramiden, Kegel, Kugeln (128),
+Sachaufgaben aus der Berufsausbildung (150)
+
+Klasse 10: 1 Potenzen und Potenzfunktionen (6), 2 Exponentialfunktionen (32),
+3 Trigonometrie (52), 4 Trigonometrische Funktionen (78),
+5 Wahrscheinlichkeitsrechnung (98), 6 Wachstum (120), Aufgabenpraktikum (138)
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext (Detailkapitel mit
+Seitenzahlen).
+
+== Klasse 7 ==
+
+                                                                      INHALT
+
+
+                                                     "   55   Prozentsätze von mehr als 100 %
+1                                                    "   56   Sachaufgaben
+                                                     "   58   Prozentuale Abnahme
+Zuordnungen
+                                                     "   59   Prozentuale Zunahme
+                                                     "   60   Prozentuale Veränderungen
+                                                     "   61   Mehrfache prozentuale Veränderungen
+                                                     7   62 Wissen kompakt
+»    6   Zuordnungen in der Biologie                 >   63 Üben
+»    9   Füllkurven                                  »   65 Üben: Sachaufgaben
+"   11   Direkt proportionale Zuordnungen            »   67 Üben: Sonderangebote
+"   13   Graphen direkt proportionaler               »   68 Üben: Brutto und netto
+         Zuordnungen                                 »   69 Üben: Prozentangaben in Diagrammen
+"   14   Der Dreisatz bei direkt proportionalen      »    71 Vertiefen: Tabellenkalkulation: Diagramme
+         Zuordnungen                                         erstellen
+"   15   Proportionalitätsfaktor k                   »   73 Vertiefen: Promille
+"   17   Die Verhältnisgleichung bei direkt          »   74 Vertiefen: Prozentangaben in Zeitungs­
+         proportionalen Zuordnungen                          artikeln
+*   18   Maßstab                                     »   76 Ausgangstest
+"   19   Indirekt proportionale Zuordnungen
+"   21   Der Dreisatz bei indirekt proportionalen
+         Zuordnungen
+"   22   Proportionalitätskonstante c
+"   23   Graphen indirekt proportionaler
+                                                     Wahrscheinlich­
+         Zuordnungen                                 keitsrechnung
+"   24   Direkt und indirekt proportionale
+         Zuordnungen
+"   26   Stimmen hier die Proportionen?
+"   27   Proportionalität in Grenzen                 »   78   Zufallsexperimente und ihre Ergebnisse
+*   28   Wissen kompakt                              "   81   Zufallsexperimente auswerten
+»   30   Üben                                        "   85   Wahrscheinlichkeiten bestimmen
+»   34   Üben: Temperaturveränderungen               "   87   Wahrscheinlichkeiten schätzen
+»   36   Vertiefen: Veränderungen bei Weg und Zeit   •   88   Wissen kompakt
+»   38   Ausgangstest                                >   89   Üben
+"   40   Den Taschenrechner kennenlernen             »   91   Vertiefen: Wahrscheinlichkeiten im Alltag
+                                                     »   92   Ausgangstest
+
+2
+Prozentrechnung
+
+
+
+
+»   44   Bestandteile in Lebensrnitteln
+*   48   Prozent
+"   50   Grundbegriffe der Prozentrechnung
+-   52   Prozentwert berechnen
+"   53   Grundwert berechnen
+"   54   Prozentsatz berechnen
+                     INHALT
+
+
+                                                    * 140 Wissen kompakt
+4                                                   » 141 Üben
+Rationale Zahlen                                    » 143     Üben: Sachaufgaben
+                                                    » 146     Vertiefen: Unregelmäßige Flächen
+                                                    > 148     Ausgangstest
+
+
+> 94 Temperaturvergleiche                           6
+    97   Rationale Zahlen darstellen, vergleichen
+         und ordnen
+                                                    Dreiecke
+• 100    Erweiterung des Koordinatensystems         konstruieren
+* 101    Schulden und Guthaben
+• 102    Rationale Zahlen addieren
+• 104    Rationale Zahlen subtrahieren              > 150
+• 105    Addition und Subtraktion mit               • 153
+                                                              Kongruente Dreiecke
+                                                              Kongruenzsatz SSS
+         Rechenstreifen                             • 154     Kongruenzsatz SWS
+  106    Spiel mit Guthaben und Schulden            * 155
+• 108    Addieren und Subtrahieren in               • 156
+                                                              Kongruenzsatz WSW
+                                                              Kongruenzsatz SsW
+         vereinfachter Schreibweise                 • 157
+•        Rationale Zahlen multiplizieren
+                                                              Arbeiten mit dem Computer: Dreiecks­
+
+• 110    Rationale Zahlen dividieren                * 158
+                                                              konstruktionen
+
+• 112    Potenzen                                   * 159
+                                                              Dreiecke mit dem Thaleskreis konstruieren
+
+• 114
+  115    Quadratwurzeln                             • 160
+                                                              Konstruktion mithilfe besonderer Linien
+                                                              Wissen kompakt
+  116    Dritte Wurzeln                             »
+• 117    Näherungswerte für Quadratwurzeln und
+                                                        161
+                                                    > 162
+                                                              Üben: Konstruktion von Dreiecken
+                                                              Üben: Sachaufgaben
+         dritte Wurzeln                             > 164     Vertiefen: Konstruktion von Vierecken
+• 118    Wissen kompakt                             » 166     Ausgangstest
+» 119    Üben
+» 123    Üben: Rechengesetze                        —
+> 124    Vertiefen: Temperaturskalen                7
+> 126    Ausgangstest                               Kreis und Kreis-
+                                                    teile
+5
+Ebene Figuren
+                                                    » 168     Fahrradcomputer
+                                                    • 170     Umfang eines Kreises
+                                                    * 172     Flächeninhalt eines Kreises
+                                                    * 174     Kreisring
+>* 128 Grundstückskauf                              * 175     Kreissektor, Kreisbogen
+   131 Flächeninhalt und Umfang von Rechteck        • 176     Die Kreiszahl ir
+       und Quadrat                                  • 177     Arbeiten mit dem Computer:
+ • 132 Flächeninhalt und Umfang eines                         Die Kreiszahl T
+                                                    % 178
+• 134 Parallelogramms                                         Wissen kompakt
+
+• 136 Flächeninhalt  und Umfang eines Dreiecks
+       Flächeninhalt und Umfang eines Trapezes
+                                                    > 179
+                                                    » 180
+                                                              Üben
+
+ * 138 Flächeninhalt und Umfang von Drachen­        > 182
+                                                              Üben: Sachaufgaben
+                                                              Üben: Rund um das Fahrrad
+         viereck und Raute                          > 183     Üben: Rund um die Erde
+» 184 Vertiefen: Kreis und Gerade                 226   Probleme erkunden und erfassen;
+» 185 Vertiefen: Winkelsätze am Kreis                   Schätzen, Messen, Überschlagen
+» 186 Ausgangstest                                227   Systematisches Probieren;
+                                                        Rückwärtsrechnen
+
+8                                                 228   Lösungen zu den Eingangstests
+                                                  230   Lösungen zu den Ausgangstests
+Projekt Berlin
+                                                  234   Lösungen zu den Üben-Seiten
+
+                                                  245   Formeln und Gesetze
+                                                  246   Register
+»   188   Sachaufgaben zu Berlin                  248   Bildquellennachweis
+"   190   Kosten der Berlinfahrt
+"   192   Mit S- und U-Bahn unterwegs
+"   194   Berlin-Marathon 2019
+
+    196   Eingangstests zu den Kapiteln
+
+
+    Wiederholung
+
+    Inhaltsbezogene Kompetenzen
+    201   Natürliche Zahlen
+    202 Addieren und Subtrahieren
+    203 Multiplizieren und Dividieren
+    204 Brüche
+    206 Brüche addieren und subtrahieren
+    207 Brüche multiplizieren und dividieren
+    208 Brüche und Dezimalbrüche
+    209 Dezimalbrüche
+    212 Masse und Zeit
+    213 Längen
+    214 Umfang und Flächeninhalt von Rechteck
+          und Quadrat
+    216 Quader und Würfel
+    217 Ebene Figuren
+    218 Figuren im Koordinatensystem
+    219 Winkel
+    220 Winkel messen und zeichnen
+    221   Dreiecke
+
+    Prozessbezogene Kompetenzen
+    222 Partnerarbeit; Einem Text Informationen
+         entnehmen
+    223 Gruppenarbeit
+    224 Ein Lernplakat erstellen
+    225 Ich-Du-Wir-Aufgaben
+
+
+== Klasse 8 ==
+
+                                                    >   54    Üben
+1                                                   »   57    Vertiefen: Umstellen der Zinsformel
+                                                    »   58    Ausgangstest
+Terme und
+Gleichungen
+                                                    3
+                                                    Daten erheben
+»    6   Pizzadienst
+•    9   Terme
+                                                    und auswerten
+»   12   Terme mit Variablen ordnen und zusam­
+         menfassen
+*   14   Terme mit Klammern                         »   60   Eine statistische Erhebung planen
+»   16   Multiplikation von Summen                  #   62   Säulen- und Balkendiagramm
+»   18   1. binomische Formel                       »   63   Streifendiagramm
+»   19   2. binomische Formel                       »   64   Kreisdiagramm
+»   20   3. binomische Formel                       »   65   Histogramm
+»   21   Waagen im Gleichgewicht                    »   66   Arithmetisches Mittel,Modalwert
+»   23   Gleichungen mit x auf einer Seite          »   67   Median
+»   25   Gleichungen mit x auf beiden Seiten        »   68    Maximum, Minimum, Spannweite
+»   26   Gleichungen mit Klammern                   »   69   Boxplots
+»   28   Gleichungen mit x im Nenner                »    71  StatistischeDarstellungen beurteilen
+»   30   Geometrische Formeln                       »   74   Arbeiten mit dem Computer: Tabellenkal­
+»   31   Wissen kompakt                                      kulation
+»   33   Üben                                       »   77 Wissen kompakt
+»   36   Üben: Sachaufgaben                         »   79 Üben
+»   38   Üben: Gleichungen in der Geometrie         »   81   Üben: Statistische Darstellungen beur-
+»   39   Vertiefen: Verallgemeinerungen der bino­          • teilen
+         mischen Formeln                            »   83 Vertiefen: Mittlere lineare Abweichung
+»   40   Ausgangstest                               »   84 Vertiefen: Eine Umfrage planen
+                                                    »   85 Vertiefen: Eine Umfrage durchführen und
+                                                             auswerten
+2                                                   »   86 Ausgangstest
+Zinsrechnung
+                                                    4
+                                                    Wahrscheinlich-
+»   42   Girokonto                                  keitsrechnung
+»   44   Geld sparen und leihen
+*   45   Grundaufgaben der Zinsrechnung
+•   47   Tageszinsen                                »   88    Wir untersuchen Glücksräder
+•   48   Mit dem Zinsfaktor rechnen                 »   92    Wahrscheinlichkeit von Ergebnissen
+»   49   Zinseszinsen                                         bestimmen
+•   50   Arbeiten mit dem Computer: Zinsrechnung    »   94    Wahrscheinlichkeit von Ergebnissen
+»   52   Arbeiten mit dem Computer: Einen Kredit              schätzen
+         zurückzahlen                               #   95    Ereignisse
+»   53   Wissen kompakt                             »   97    Wahrscheinlichkeit von Ereignissen
+   99   Wahrscheinlichkeit von Ereignissen und         139   Volumen von Prismen untersuchen
+        Gegenereignissen                               140   Volumen eines Prismas
+  100   Simulation am Computer                     »   142   Eigenschaften und Darstellungen
+» 101   Wissen kompakt                                       eines Zylinders
+» 102   Oben                                           143   Netz eines Zylinders
+» 104   Üben: Wahrscheinlichkeiten im Alltag       > 144     Oberflächeninhalt eines Zylinders
+D 105   Vertiefen: Roulette                        # 146     Volumen eines Zylinders
+» 106   Ausgangstest                               > 148     Wissen kompakt
+                                                   » 149     Üben
+                                                   » 152     Üben: Zusammengesetzte Körper
+5                                                  » 153     Üben: Masse von Prismen und Zylindern
+Der Satz des                                       » 154     Üben: Oberflächeninhalt und Volumen
+                                                             schätzen
+Pythagoras                                         D 156     Vertiefen: Platonische Körper
+                                                   > 158     Ausgangstest
+
+» 108   Knotenseile
+* 112   Der Satz des Pythagoras                    7
+» 113   Berechnung der Hypotenuse in einem         Lineare
+        rechtwinkligen Dreieck
+» 114   Berechnung einer Kathete in einem recht­
+                                                   Funktionen
+        winkligen Dreieck
+• 115   Die Umkehrung des Satzes des Pythagoras
+* 116   Sachaufgaben                               » 160     Kosten für die elektrische Energie
+* 118   Arbeiten mit dem Computer: Der Satz des    » 164     Funktionen als eindeutige Zuordnungen
+        Pythagoras                                 » 165     Funktionen im Koordinatensystem
+» 119   Wissen kompakt                             • 166     Funktionsgleichung
+» 120   Üben                                       » 167     Arbeiten mit dem Taschenrechner:
+» 122   Üben: Sachaufgaben                                   Wertetabellen
+» 123   Vertiefen: Satzgruppe des Pythagoras       » 168     Lineare Funktionen mit der Funktions-
+» 126   Vertiefen: Pythagoreische Zahlentripel               gleichungy = mx
+» 128   Ausgangstest                               » 169     Steigung und Steigungsdreiecke
+                                                   » 171     Lineare Funktionen mit der Funktions-
+                                                             gleichungy = mx + n
+6                                                  » 174     Sachaufgaben
+                                                   » 177     Arbeiten mit dem Computer: Lineare
+Prismen und
+                                                             Funktionen
+Zylinder                                           » 179     Wissen kompakt
+                                                   > 180     Üben
+                                                   » 181     Üben: Preise für Trink- und Schmutz­
+» 130   Körper in der Architektur                            wasser
+» 132   Körper beschreiben                         » 182     Vertiefen: x-Koordinate berechnen
+• 133   Eigenschaften eines Prismas                » 183     Vertiefen: Schnittpunkt zweier Geraden
+» 134   Prismen darstellen - Schrägbilder          » 184     Ausgangstest
+» 135   Prismen darstellen - Zweitafelbilder
+* 136   Netz eines Prismas
+• 137   Oberflächeninhalt eines Prismas
+                                                  Wiederholung
+8
+Pyramiden, Kegel,                                  Inhaltsbezogene Kompetenzen
+                                                   221 Addieren und Subtrahieren
+Kugeln
+                                                   222 Multiplizieren und Dividieren
+                                                   223 Verbindung der Grundrechenarten
+                                                  224 Brüche und Dezimalbrüche
+» 186     Pyramiden, Kegel und Kugeln in der      225 Brüche und Dezimalbrüche addieren und
+          Umwelt                                         subtrahieren
+» 188     Teste dein Raumvorstellungsvermögen     226 Brüche und Dezimalbrüche multiplizieren
+» 189     Darstellungen von Pyramide und Kegel           und dividieren
+P 190     Körper herstellen                       227 Ganze und rationale Zahlen
+A 191     Volumen einer Pyramide                  228 Rechnen mit rationalen Zahlen
+» 193     Oberflächeninhalt einer Pyramide        229 Quadratwurzeln und dritte Wurzeln
+» 194     Volumen eines Kegels                    230 Direkt proportionale Zuordnungen
+» 195     Oberflächeninhalt eines Kegels          231    Indirekt proportionale Zuordnungen
+A 196     Volumen einer Kugel                     232 Prozent
+» 197     Oberflächeninhalt einer Kugel           233 Grundaufgaben der Prozentrechnung
+» 198     Wissen kompakt                          234 Prozentuale Zu- und Abnahme
+» 199     Üben                                    235 Prozentuale Veränderungen
+» 201     Üben: Sachaufgaben                      236 Geometrische Grundbegriffe
+» 203     Vertiefen: Schätzen, Messen und Über­   237 Längen
+          schlagen                                238 Ebene Figuren
+» 204     Ausgangstest                            239 Quader und Würfel
+                                                  240 Daten erheben und auswerten
+                                                  241   Daten und Zufall
+                                                  242 Terme
+Projekt                                           243 Der Taschenrechner
+
+Sachprobleme                                      Prozessbezogene Kompetenzen
+                                                  244 Partnerarbeit; Einem Text Informationen
+                                                       entnehmen
+» 206     Urlaub auf Rügen                        245 Gruppenarbeit
+» 208     Zeitspannen schätzen                    246 Ich-Du-Wir-Aufgaben
+X 209     Anzahlen schätzen
+• 210     Schätzen mithilfe von Körpermaßen       247   Lösungen zu den Eingangstests
+» 211     Rückwärtsarbeiten                       249   Lösungen zu den Ausgangstests
+» 213     Systematisches Probieren                255   Lösungen zu den Üben-Seiten
+» 215     Ein Problem - mehrere Lösungen
+                                                  270   Formeln und Gesetze
+    216   Eingangstests zu den Kapiteln           271   Register
+                                                  273   Bildquellennachweis
+
+
+== Klasse 9 ==
+
+                                                                                                          3
+
+                                                                      INHALT
+
+
+                                                         48   Üben
+1                                                        50   Üben: Zahlenrätsel
+                                                         51   Üben: Geometrieaufgaben
+Vergrößern und
+                                                         52   Üben: Sachaufgaben
+Verkleinern                                              53   Vertiefen: Lineare Gleichungssysteme
+                                                              mit drei Variablen
+                                                         54   Ausgangstest 1
+     6   Vergrößern und Verkleinern                      55   Ausgangstest 2
+     8   Maßstäbliches Verkleinern
+     9   Maßstäbliches Vergrößern
+    10   Maßstäbliches Vergrößern und Verkleinern
+    12   Landkarten
+    13   Grundrisse                                  3
+    14   Ähnlichkeit                                 Reelle Zahlen
+    17   Ähnlichkeitssätze für Dreiecke
+    18   Zentrische Streckung
+    19   Zentrische Streckung ebener Figuren
+    20   Flächeninhalt von Original- und Bildfigur
+    21   Arbeiten mit dem Computer:                      56   Ebene Figuren und flächengleiche
+         Zentrische Streckung                                 Quadrate
+    22   Strahlensätze                                   59   Quadratwurzeln
+    24   Wissen kompakt                                  60   Kubikwurzeln
+    26   Üben                                            61   Irrationale Zahlen
+    29   Üben: Sachaufgaben                              63   Rationale und irrationale Zahlen
+    30   Vertiefen: Zentralperspektive                   64   Von den natürlichen zu den reellen Zahlen
+    32   Ausgangstest 1                                  65   Rechnen mit Quadratwurzeln
+    33   Ausgangstest 2                                  67   Wissen kompakt
+                                                         68   Üben
+                                                         69   Üben: Rechnen mit Näherungswerten
+                                                         70   Üben: Aufgaben aus der Geometrie
+                                                         71   Vertiefen: Heron-Verfahren
+2                                                        73   Vertiefen: Wurzelgleichungen
+                                                         74   Ausgangstest 1
+Lineare
+                                                         75   Ausgangstest 2
+Gleichungssysteme
+
+
+    34   Kostenvergleich bei elektrischer Energie
+    36   Lineare Gleichungen - lineare Funktionen
+    39   Grafische Lösung linearer
+         Gleichungssysteme
+    41   Gleichsetzungsverfahren
+    43   Einsetzungsverfahren
+    44   Additionsverfahren
+    45   Lineare Gleichungssysteme mit dem
+         Computer lösen
+    46   Wissen kompakt
+4
+
+                           INHALT
+
+
+                                                               112   Streumaße
+    4                                                          113   Boxplot
+                                                               114   Arbeiten mit dem Computer:
+    Quadratische
+                                                                     Tabellenkalkulation
+    Funktionen und                                             117   Täuschen mit Statistik
+    Gleichungen                                                119   Statistische Darstellungen beurteilen
+                                                               120   Wissen kompakt
+        76    Brücken und Graphen                              122   Üben
+        78    Normalparabel f(x) = x2                          124   Üben: Statistische Darstellungen
+        80    Verschobene Normalparabel f (x) = x2 + e               beurteilen
+        82    Verschobene Normalparabel f (x) = (x + d)2       125   Vertiefen: Mittlere quadratische
+        83    Verschobene Normalparabel                              Abweichung und Standardabweichung
+              f (x) = (x + d)2 + e                             126   Ausgangstest 1
+        85    Funktionsgleichung f (x) = x2 + px + q           127   Ausgangstest 2
+        87    Quadratische Gleichungen der Form
+              x2 + px + q = 0
+        89    Arbeiten mit dem Computer: Verschobene
+              Normalparabeln zeichnen
+        90    Funktionsgleichung f(x) = ax2                6
+        91    Funktionsgleichung f (x) = ax2 + bx + c
+                                                           Pyramiden,
+        93    Arbeiten mit dem Computer: Parabeln
+              zeichnen                                     Kegel, Kugeln
+         94   Wissen kompakt
+         96   Üben: Quadratische Funktionen
+         98   Üben: Quadratische Gleichungen                   128   Pyramiden, Kegel und Kugeln in der
+         99   Üben: Bremswege                                        Umwelt
+        100   Üben: Brücken                                    130   Teste dein Raumvorstellungsvermögen
+        102   Üben: Flugbahnen                                 131   Darstellungen von Pyramide und Kegel
+        103   Vertiefen: Quadratische Gleichungen              132   Körper herstellen
+              grafisch lösen                                   133   Volumen einer Pyramide
+        104   Ausgangstest 1                                   135   Oberflächeninhalt einer Pyramide
+        105   Ausgangstest 2                                   136   Volumen eines Kegels
+                                                               137   Oberflächeninhalt eines Kegels
+                                                               138   Volumen einer Kugel
+                                                               139   Oberflächeninhalt einer Kugel
+                                                               140   Zusammengesetzte Körper
+    5                                                          141   Wissen kompakt
+                                                               142   Üben
+    Statistische
+                                                               144   Üben: Sachaufgaben
+    Erhebungen                                                 146   Vertiefen: Schätzen, Messen und
+                                                                     Überschlagen
+                                                               148   Ausgangstest 1
+        106   Einzelne Schritte bei einer statistischen        149   Ausgangstest 2
+              Erhebung
+        108   Eine Umfrage planen
+        109   Eine Umfrage durchführen und auswerten
+        110   Mittelwerte
+                                                                                              5
+
+                                                                INHALT
+
+
+                                                   187   Prozentuale Veränderungen
+                                                   188   Zinsrechnung
+                                                   189   Terme
+Sachaufgaben                                       190   Gleichungen
+aus der Berufs­                                    191   Ebene Figuren
+ausbildung                                         193   Satz des Pythagoras
+                                                   194   Prismen
+  150   Betriebsbesichtigung                       195   Zylinder
+  152   Direkt und indirekt proportionale          196   Pyramide
+        Zuordnungen                                197   Kegel und Kugel
+  154   Prozentrechnung                            198   Lineare Funktionen
+  156   Zinsrechnung                               199   Daten erheben und auswerten
+  158   Statistik                                  201   Wahrscheinlichkeitsrechnung
+  160   In der Druckerei                           202   Taschenrechner
+  161   In der Fleischerei
+  162   Beim Bäcker                                Prozessbezogene Kompetenzen
+  163   Im Friseursalon                            203 Partnerarbeit;
+  164   In der Lackiererei                               Einem Text Informationen entnehmen
+  165   Auf der Baustelle                          204 Gruppenarbeit
+  167   Arbeiten mit dem Computer:                 205 Arbeitsteilige Gruppenarbeit
+        Tabellenkalkulation                        206 Ich-Du-Wir-Aufgaben
+                                                   207 Ein Lernplakat erstellen;
+                                                         Einen Vortrag halten
+  168   Vorbereitung auf den Einstellungstest      208 Probleme erkunden und erfassen;
+  169   Einstellungstest 1 (ohne Taschenrechner)         Schätzen, Messen und Überschlagen
+  170   Einstellungstest 2 (mit Taschenrechner)    209 Rückwärtsarbeiten;
+  171   Lösungen und Kompetenzen                         Systematisches Probieren
+
+
+  172   Eingangstests zu den Kapiteln              210   Lösungen zu den Eingangstests
+                                                   212   Lösungen zu den Ausgangstests
+                                                   219   Lösungen zu den Üben-Seiten
+
+                                                   234   Formeln und Gesetze
+Wiederholung                                       235   Stichwortverzeichnis
+                                                   238   Bildquellennachweis
+  Inhaltsbezogene Kompetenzen
+   176 Brüche und Dezimalbrüche
+   178 Brüche und Dezimalbrüche addieren und
+        subtrahieren
+   179 Brüche und Dezimalbrüche multiplizieren,
+        dividieren und potenzieren
+   180 Rationale Zahlen
+   181 Rechnen mit rationalen Zahlen
+   182 Größen
+   183 Direkt proportionale Zuordnungen
+   184 Indirekt proportionale Zuordnungen
+   185 Prozentrechnung
+   186 Prozentuale Zu- und Abnahme
+
+
+== Klasse 10 ==
+
+                                                 47   Üben: Zinseszinsrechnung
+1                                                49   Vertiefen: Funktionsgleichung
+Potenzen und                                          f(x) = a-bx + c
+                                                 50   Ausgangstest 1
+Potenzfunktionen                                 51   Ausgangstest 2
+
+
+
+     6   Das Sonnensystem
+     9   Zehnerpotenzen                      3
+    11   Kleine und große Einheiten
+    12   Sachaufgaben
+                                             Trigonometrie
+    14   Potenzgesetze
+    16   Potenzen mit negativen Exponenten
+    17   Potenzen der Form a1/n
+    18   Potenzfunktionen                        52   Messungen in der Umwelt
+    19   Potenzfunktionen untersuchen            54   Sinus eines Winkels
+    20   Arbeiten mit dem Computer:              56   Kosinus eines Winkels
+         Potenzfunktionen                        58   Tangens eines Winkels
+    21   Wissen kompakt                          60   Arbeiten mit dem Computer:
+    23   Üben: Zehnerpotenzen                         Sinus, Kosinus, Tangens
+    24   Üben: Der Makrokosmos                   61   Berechnungen in rechtwinkligen
+    25   Üben: Der Mikrokosmos                        Dreiecken
+    26   Üben: Potenzen                          63   Sinus für stumpfe Winkel
+    27   Üben: Potenzfunktionen                  64   Sinussatz
+    28   Vertiefen: Potenzgleichungen            66   Kosinus für stumpfe Winkel
+    29   Vertiefen: Wurzelfunktion               67   Kosinussatz
+    30   Ausgangstest 1                          68   Wissen kompakt
+    31   Ausgangstest 2                          69   Üben
+                                                 72   Üben: Sachaufgaben
+                                                 73   Üben: Steigung und Gefälle
+                                                 74   Üben: Messungen im Gelände
+2                                                75   Vertiefen: Sinus, Kosinus und Tangens für
+Exponential­                                          besondere Winkelgrößen
+                                                 76   Ausgangstest 1
+funktionen                                       77   Ausgangstest 2
+
+
+
+    32   Bevölkerungswachstum
+    35   Radioaktiver Zerfall
+    36   Funktionsgleichung f(x) = bx
+    38   Funktionsgleichung f(x) = abx
+    39   Arbeiten mit dem Computer:
+         Exponentialfunktionen
+    40   Exponentielle Zunahme
+    42   Exponentielle Abnahme
+    44   Wissen kompakt
+    45   Üben
+                                                         115   Üben
+4                                                        117   Vertiefen: Faire Spiele
+Trigonometrische                                         118   Ausgangstest 1
+                                                         119   Ausgangstest 2
+Funktionen
+
+
+     78   Schwingungen und Wellen                    6
+     80   Sinus am Einheitskreis
+                                                     Wachstum
+     82   Arbeiten mit dem Computer:
+          Sinus am Einheitskreis
+     83   Kosinus am Einheitskreis
+     84   Die Sinusfunktion mit Winkeln im
+          Bogenmaß                                       120   Wachstumsprozesse
+     88   Die Kosinusfunktion mit Winkeln im             122   Lineares Wachstum
+          Bogenmaß                                       124   Quadratisches Wachstum
+     89   Arbeiten mit dem Computer:                     126   Exponentielles Wachstum
+          Sinusfunktionen                                128   Wachstumsprozesse unterscheiden
+     90   Wissen kompakt                                 131   Wissen kompakt
+     91   Üben                                           132   Üben
+     93   Vertiefen: Schwingungen                        133   Üben: Sachaufgaben
+     96   Ausgangstest 1                                 134   Vertiefen: Wachstum vergleichen
+     97   Ausgangstest 2                                 135   Vertiefen: Wachstumsfunktionen
+                                                               vergleichen
+                                                         136   Ausgangstest 1
+                                                         137   Ausgangstest 2
+5
+Wahrscheinlich­
+keitsrechnung
+                                                     Aufgabenprakti­
+     98   Geldspielautomaten                         kum
+    101   Mehrstufige Zufallsexperimente
+    102   Produktregel (1. Pfadregel)
+    103   Summenregel (2. Pfadregel)                     138   Hinweise
+    104   Ziehen mit Zurücklegen                         140   Aufgaben zum mathematischen
+    105   Ziehen ohne Zurücklegen                              Grundwissen
+    106   Ziehen bei großer Grundgesamtheit              144   Verpackungen
+    107   Vereinfachte Baumdiagramme                     146   Im Neubaugebiet
+    108   Kombinatorisches Zählen                        150   EinkaufundVerkauf
+    109   Ziehen mit Zurücklegen bei mehrstufigen        151   Brücken
+          Zufallsexperimenten                            152   Flugbahnen
+    111   Ziehen ohne Zurücklegen bei mehrstufigen
+          Zufallsexperimenten
+    113   Wissen kompakt
+  153   Eingangstests zu den Kapiteln              189   Lösungen zu den Eingangstests
+                                                   190   Lösungen zu den Ausgangstests
+Wiederholung                                       195   Lösungen zu den Üben-Seiten
+                                                   202   Lösungen zum Aufgabenpraktikum
+ Inhaltsbezogene Kompetenzen
+ 157 Brüche und Dezimalbrüche                      205   Formeln und Gesetze
+ 158 Brüche und Dezimalbrüche addieren und         206   Stichwortverzeichnis
+       subtrahieren                                209   Bildquellennachweis
+ 159    Brüche und Dezimalbrüche multiplizieren,
+        dividieren und potenzieren
+ 160    Rationale Zahlen
+ 161    Reelle Zahlen
+ 162    Größen
+ 163    Direkt proportionale Zuordnungen
+ 164    Indirekt proportionale Zuordnungen
+ 165    Prozentrechnung
+ 166    Prozentuale Veränderungen
+ 167    Zinsrechnung
+ 168    Terme und Gleichungen
+ 169    Lineare Funktionen
+ 170    Grafische Lösung linearer
+        Gleichungssysteme
+ 171    Rechnerische Lösung linearer
+        Gleichungssysteme
+ 173    Quadratische Funktionen
+ 175    Quadratische Gleichungen
+ 176    Ähnlichkeit
+ 177    Satz des Pythagoras
+ 178    Ebene Figuren
+ 179    Prismen
+ 180    Zylinder
+ 181    Pyramide
+ 182    Kegel und Kugel
+ 183    Mit dem Zufall rechnen
+
+ Prozessbezogene Kompetenzen
+ 184 Partnerarbeit;
+       Einem Text Informationen entnehmen
+ 185 Gruppenarbeit
+ 186 Ein Lernplakat erstellen;
+       Einen Vortrag halten
+ 187 Diese Fragen können dir beim Lösen von
+      Sachproblemen helfen;
+      Eine Aufgabe - drei Lösungswege
+ 188 Rückwärtsarbeiten;
+      Systematisches Probieren;
+      Zurückführen auf Bekanntes;
+      Schätzen und Überschlagen
+
+

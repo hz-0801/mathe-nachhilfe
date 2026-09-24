@@ -1,0 +1,342 @@
+Westermann, "Mathematik heute" (Ausgabe fuer Berlin und Brandenburg, ohne
+Bildungsgang-Differenzierung; Erstausgabe der Reihe 2014, hier die Drucke
+2016-2019). Inhaltsverzeichnisse Klasse 7-10 aus den DNB-Saetzen (TOC-PDF-
+Anhang /04), mit pdftotext -layout extrahiert am 24.09.2026.
+
+Kl. 7:  ISBN 9783507812604, IDN 1081151951, https://d-nb.info/1081151951/04 (2016)
+Kl. 8:  ISBN 9783507812673, IDN 1121235808, https://d-nb.info/1121235808/04 (2017)
+Kl. 9:  ISBN 9783507812741, IDN 1149946571, https://d-nb.info/1149946571/04 (2018)
+Kl. 10: ISBN 9783507812819, IDN 1174808292, https://d-nb.info/1174808292/04 (2019)
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+Eigene Entscheidung: Die DNB fuehrt zu "Mathematik heute" sehr viele Titel-
+varianten je Jahrgang (Haupt-/Realschulbildungsgang, mehrere Druckjahre).
+Berlin und Brandenburg kennen diese Differenzierung nicht (ISS/Gesamtschule);
+die vier oben genannten Baende tragen als einzige der jeweiligen Jahrgangs-
+gruppe KEINEN Bildungsgang-Zusatz und bilden eine fortlaufende ISBN-Folge
+(812604 -> 812673 -> 812741 -> 812819) mit je einem Jahr Abstand (2016-2019) -
+das entspricht dem jahrgangsweisen Rollout der 2014 begonnenen Ausgabe und
+wird hier als die BE/BB-Ausgabe angesetzt.
+
+Achtung: Die TOC-PDF zu Klasse 7 hat eine fehlerhafte Schriftcodierung im
+Original (private Unicode-Codepunkte fuer Ziffern/Sonderzeichen); einzelne
+Seitenzahlen und Zeichen sind dadurch unlesbar bzw. verstuemmelt (z. B. "ใ4"
+statt einer Seitenzahl). Betrifft nur Klasse 7; Kapitelnummern und -titel
+bleiben erkennbar. Klasse 8-10 sind sauber.
+
+Kapitelfolge (erste Ebene, geprueft durch Lesen der Dateien):
+
+Klasse 7: 1 Rationale Zahlen, 2 Zuordnungen (70), 3 Prozentrechnung (100),
+4 Dreiecke (134), 5 Terme - Loesen von Gleichungen (174), 6 Vierecke (200),
+7 Erheben, Auswerten und Darstellen von Daten (238)
+
+Klasse 8: 1 Prozent- und Zinsrechnung (10), [Terme und Gleichungen] (36),
+Prismen (70), Wurzeln (94), Kreis und Zylinder (106), 6 Zufall und
+Wahrscheinlichkeit (148), 7 Aehnlichkeit (172), 8 Satz des Pythagoras (200),
+9 Funktionen - Lineare Funktionen (218). Die Kapitelnummern 2-5 sind im
+zweispaltigen Original nicht klar den Ueberschriften zugeordnet (siehe
+Rohtext); Reihenfolge und Seiten sind zuverlaessig.
+
+Klasse 9: 1 Funktionen - Lineare Funktionen (10), [Terme - Gleichungen -
+Potenzen] (44), [Lineare Gleichungssysteme] (80), [Pyramiden, Basiswissen
+Satz des Pythagoras] (108), 5 Darstellen und Auswerten von Daten (126),
+6 Mathematik in Beruf und Alltag (154), 7 Quadratische Funktionen und
+Gleichungen (170)
+
+Klasse 10: 1 Quadratische Funktionen und Gleichungen (6), 2 Kegel und Kugel
+(60), 3 Dreiecke und Vierecke (88), 4 Wachstumsprozesse (124), 5 Zufaellige
+Ereignisse und ihre Wahrscheinlichkeiten (150), 6 Sinusfunktionen (176),
+7 Aufgabenpraktikum (196)
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 7 ==
+
+INHALTSVERZEICHNIS
+
+    Zum methodischen Aufbau der Lerneinheiten -           4      Im Blickpunkt Arbeiten mit Dynamischer
+                                                                 Geometrie-Software____________________ 52            ‫ו‬
+    Im Blickpunkt: Mathematische                          6       Mittelsenkrechte, Winkelhalbierende und
+                                                                  Seitenhalbierende________________________ 156
+    Basiswissen: Brüche und Dezimalzahlen _ _ _       0         ‫ ו‬Höhen eines Dreiecks_____________________ 163
+ใ   Rationale Zahlen                                  ใ4          Flächeninhalt und Umfang eines Dreiecks ^ 一 165
+    Einführung rationaler Zahlen                        16        Punkte sammeln                               169
+    Betrag und Gegenzahl einer rationalen Zahl —        20       Vermischte und komplexe Übungen _ _ _ _ _ _ _ 170
+    Vergleichen und Ordnen rationaler Zahlen _          22       Was du gelernt hast                           า 72
+    Koordinatensystem und rationale Zahlen              24        Bist du fit?                                            173
+    Addieren und Subtrahieren rationaler Zahlen __ 27
+    Punktesammeln________________________               33    5 Terme - Lösen von Gleichungen 一 174
+    Vermischte Übungen zum Addieren und                         Aufstellen und Berechnen von Termen ^ ^ ^ 一 176
+    Subtrahieren___________________________             34      Lösen von Gleichungen___________________ 181
+    Was du gelernt hast _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 36      Losen von Sachaufgaben mithilfe einfacher
+    Bist du fit?________________________________ 37             Gleichungen____________________________ 189
+    Im Blickpunkt: Spiee mit ra O                       38      Punkte sammeln________________________ 192
+    Multiplizieren rationaler Zahlen                    40      Vermischte und komplexe Übungen _ _ _ _ _ _ 193
+    Produkte aus gleichen Faktoren - Potenzen —         45      Was du gelernt hast                         96        ‫ו‬
+    Dividieren rationaler Zahlen                        46      Bist du fit? ____________________________ 97          ‫ו‬
+    Vermischte Übungen zu allen                                 Im Blickpunkt: Wir sind die Experten _______ 198
+    vGr Grundrechenarten___________________             50
+    Berechnen von Termen - Vorrangregeln _____ 52             6 Vierecke_________________________ 200
+    Rechengesetze für rationale Zahlen —                        Vierecke-Grundlagen___________________        202
+    Vorteilhaftes Rechnen____________________           56      Punktsymmetrie und Achsensymmetrie _____      204
+    Verschiedene Zahlenbereiche - Unterschiede                  Innenwinkelsatz für Vierecke                  206
+    und Gemeinsamkeiten___________________              60      Parallelogramm - Eigenschaften und
+    Punktesammeln____________________                   61      Berechnungen          _____________________   208
+    Vermischte und komplexe Übungen                     62      Trapez- Eigenschaften und Berechnungen        217
+    Was du gelernt h a s t_____________________         64      Drachenviereck—________________________       223
+    Bist du fit? _____________________________          65      Flächeninhalt von Vielecken                   225
+    Im Blickpunkt: Umgang mit dem                               Im Blickpunkt: Den Überblick behalten -
+    Taschenrechner_________________________             66      Mit einer Mindmap______________________       228
+                                                                Punkte sammeln                                230
+2 Zuordnungen____________________ 70                            Vermischte und komplexe Übungen _ _ _ _ _ _   231
+    Zuordnungen ¡n Tabellen und Graphen _ _ _ _ _   72          Was du gelernt hast :_____________________    234
+    Direkt proportionale Zuordnungen -                          Bist du fit? _______________________          235
+    Quotientengleichheit_____________________ 75                Projekt: Geometrie im Gelände - Unser
+    Indirekt proportionale Zuordnungen - Dreisatz 83            Traumschuihof       _______________________   236
+    Punktesammeln________________________           93
+    Vermischte und komplexe Übungen                 94        7 Erheben, Auswerten und Darstellen
+    Was du gelernt hast                             96          von D aten_______________________ 238
+    Bist du fit? ________________________________ 97            Statistische Erhebungen__________________ 240
+    Im Blickpunkt: Schätzen mit direkt und indirekt             Im Blickpunkt: Diagramme mit dem Computer 246
+    proportionalen Zuordnungen                      98          Durchführen einer statistischen Erhebung _  248
+                                                                Stichproben____________________________ 249
+3 ‫ ؟‬r o z e n tr e c h n u n g ^ ^ ^ ^ ^ ^ ^ ^ ^ _ 1 0 0        Mittelwerte und ihre Anwendungen            251
+    Prozentschreibweise für Anteile                   ไ 02      Punktesammeln________________________ 257
+    Die Grundaufgaben der Prozentrechnung _____       105       Vermischte und komplexe Übungen ________ 258
+    Aufteilen des Grundwertes - Diagramme _ _         18 ‫ך‬      Was du gelernt h a s t_____________________ 260
+    Prozentuale Veränderung_________________          121       Bist du f i t ? ____________________________261
+    Im Blickpunkt: Mathematik aus der Zeitung —       25 ‫ו‬
+    Punkte sammeln_____________________ :             126       Bist du topfit?                               262
+    Vermischte und komplexe Übungen                   127
+    Was du gelernt hast                               130       Anhang_________________________ 270
+    Bist du fit?   __________________________         131       Lösungen zu Bist du f¡t?__________________ 270
+    Basiswissen: Winkel und Geraden _ _ _ _ _ _ _ _   132       Lösungen zu Bist du topfit?                274
+                                                                Einheiten______________________________ 277
+4 Dreiecke^________________________ 134                         Mathematische SymbOe___________________ 278
+    Dreiecke - Grundlagen___________________          136       Stichwortverzeichnis_____________________ 279
+    Dreieckskonstruktionen —Kongruenzsätze _          142       Bildquellennachweis_____________________ 280
+
+
+== Klasse 8 ==
+
+INHALTSVERZEICHNIS
+
+  Zum methodischen Aufbau der Lerneinheiten         4   6 Zufall und Wahrscheinlichkeit_____148
+                                                          Zufallsexperimente und Wahrscheinlichkeit__     150
+  Basiswissen: Prozentrechnung____________          6
+                                                          Wahrscheinlichkeit und relative Häufigkeit___   155
+1 Prozent- und Zinsrechnung_______                 10     Summenregel__________________________           159
+  Prozentuale Veränderung_________________         12     Kombinieren___________________________          162
+  Promillerechnung_______________________          21     Zweistufige Laplace-Experimente -
+  Zinsrechnung__________________________           23     Baumdiagramme________________________           165
+  Punkte sammeln________________________           29     Punkte sammeln________________________          167
+  Vermischte und komplexe Übungen________          30     Vermischte und komplexe Übungen________         168
+  Was du gelernt hast_____________________         32     Was du gelernt hast_____________________        170
+  Bist du fit? _____________________________       33     Bist du fit?_____________________________       171
+  Projekt: Prozente                                34
+                                                        7 Ähnlichkeit                                     172
+  Basiswissen: Terme                               36     Maßstäbliches Vergrößern und Verkleinern__      174
+                                                          Ähnliche Vielecke - Eigenschaften               176
+  Terme und Gleichungen                            38     Flächeninhalt bei zueinander ähnlichen
+  Termumformungen                                  40     Vielecken                                       182
+  Terme mit Klammern                               45     Im Blickpunkt: Volumen bei ähnlichen
+  Lösen von Gleichungen                            51     Quadern                                         185
+  Lösen von Sachaufgaben mithilfe von
+  Gleichungen                                      58     Hauptähnlichkeitssatz für Dreiecke              186
+  Umstellen von Formeln                                   Anwenden der Ähnlichkeit in ebenen und
+                                                   60
+                                                          räumlichen Figuren                              188
+  Punkte sammeln                                   62
+                                                          Im Blickpunkt: Vergrößern und Verkleinern -
+  Vermischte und komplexe Übungen                  63
+  Was du gelernt hast                                     Mit Maus und Monitor                            192
+                                                   66
+  Bist du fit?                                     67     Punkte sammeln                                  194
+  Im Blickpunkt: Berechnen von Termen                     Vermischte und komplexe Übungen                 195
+  mit dem Computer                                 68     Was du gelernt hast                             198
+                                                          Bist du fit?                                    199
+  Prismen                                          70   8 Satz des Pythagoras_____________ 200
+  Prismen - Netz                                   72
+                                                          Satz des Pythagoras_____________________        202
+  Schrägbilder von Prismen                         76
+                                                          Umkehrung des Satzes des Pythagoras_____        206
+  Oberflächeninhalt eines Prismas                  78
+                                                          Anwendungen des Satzes des Pythagoras___        208
+  Volumen eines Prismas                            80
+                                                          Punkte sammeln________________________          213
+  Zusammengesetzte Körper                          84
+                                                          Vermischte und komplexe Übungen________         214
+  Punkte sammeln                                   86
+                                                   87     Was du gelernt hast_____________________        216
+  Vermischte und komplexe Übungen
+                                                          Bist du fit? _____________________________      217
+  Was du gelernt hast                              90
+  Bist du fit?                                     91   9 Funktionen - Lineare Funktionen___218
+  Projekt: So viel Mathe steckt in Verpackungen    92     Zuordnungen - Grundlagen_______________         220
+                                                          Funktionen als eindeutige Zuordnungen_____      222
+  Wurzeln                                         94      Lineare Funktionen______________________        229
+  Quadrieren                                       96     Zeichnen der Graphen linearer Funktionen___     233
+  Quadratwurzelziehen                              98     Nullstellen linearer Funktionen____________     239
+  Kubikwurzeln                                    102     Gleichung einer Geraden durch zwei
+  Vermischte und komplexe Übungen                 104     vorgegebene Punkte_____________________         241
+  Was du gelernt hast                             105     Im Blickpunkt: Graphen linearer Funktionen
+  Bist du fit?                                    105     mit »GS_______________________________          243
+                                                          Punkte sammeln_______                           244
+  Kreis und Zylinder                              106     Vermischte und komplexe Übungen________         245
+  Kreis - Kreisornamente                        108
+                                                          Was du gelernt hast_____________________        248
+  Kreis und Gerade - Kreistangente              111
+                                                113       Bist du fit?_____________________________       249
+  Satz des Thaies
+  Umfang und Flächeninhalt eines Kreises        115       Projekt: Funktionen - Messen und Darstellen. 250
+  Kreisring                                     122
+  Punkte sammeln                                124       Bist du topfit?___________________ 252
+  Vermischte und komplexe Übungen               125
+  Eigenschaften und Darstellungen eines                   Anhang________________________ 262
+  Zvlinders                                     128       Lösungen zu Bist du fit? ___________________ 262
+  Oberflächeninhalt und Volumen eines Zylinders 131       Lösungen zu Bist du topfit?________________ 265
+  Berechnungen an zusammengesetzten Körpern 137           Einheiten_______________________________ 269
+  Punkte sammeln                                139       Mathematische Symbole__________________ 270
+  Vermischte und komplexe Übungen               140       Stichwortverzeichnis_____________________ 271
+  Was du gelernt hast                           144       Bildquellennachweis_____________________ 272
+  Bist du fit?                                  145
+  Im Blickpunkt: Blechdosen - Zylinder mit
+  vorgegebenem Volumen                          146
+
+
+== Klasse 9 ==
+
+                                                                                                  Inhalt           3
+
+
+INHALTSVERZEICHNIS
+
+  Zum methodischen Aufbau der Lerneinheiten _       4     Basiswissen: Daten_____________________            126
+  Im Blickpunkt: Mathematik in unterschiedlichen        5 Darstellen und Auswerten von
+  Ausbildungsberufen_____________________           6     Daten_________________________ 130
+                                                          Irreführende Darstellungen in der Statistik___     132
+1 Funktionen - Lineare Funktionen__                10     Durchführen einer Statistischen Erhebung___        139
+  Zuordnungen - Grundlagen_______________          12     Auswerten und Darstellen von Daten mit
+  Funktionen als eindeutige Zuordnungen _____      14     Tabellenkalkulation_____________________           141
+  Lineare Funktionen______________________         21     Zusammenfassen von Daten zu Klassen_____           143
+  Zeichnen der Graphen linearer Funktionen___      25     Boxplots______________________________             146
+  Nullstellen linearer Funktionen____________      31     Punkte sammeln________________________             150
+  Gleichung einer Geraden durch zwei                      Vermischte und komplexe Übungen________            151
+  vorgegebene Punkte_____________________          33     Was du gelernt hast_____________________           152
+                                                          Bist du fit?_____________________________          153
+  Im Blickpunkt: Graphen linearer Funktionen
+  mitDGS_______________________________            35   6 Mathematik in Beruf und Alltag___ 154
+                                                          Berechnen von Lebenshaltungskosten______           156
+  Punkte sammeln________________________           36     Löhne - Lohnabzüge - Lohnerhöhungen____            162
+  Vermischte und komplexe Übungen__:______         37     Ernährung und Hauswirtschaft____________           164
+  Was du gelernt hast_____________________         40     Vergleichen von Angeboten_______________           165
+  Bist du fit?_____________________________        41     Baugewerbe___________________________              168
+  Projekt: Funktionen - Messen und Darstellen      42     Interessantes aus verschiedenen Bereichen_         169
+
+                                                        7 Quadratische Funktionen und
+  Terme - Gleichungen - Potenzen__                 44
+  Terme und Gleichungen - Grundlagen               46     Gleichungen____________________ 170
+  Multiplikation von Summen und Differenzen_       50     Die quadratische Funktion y = x2
+  Reelle Zahlen                                    56     -N orm alparabel________________________           172
+  Potenzen                                         61     Quadratische Funktionen - Eigenschaften___         175
+  Potenzgesetze                                    68     Quadratische Funktionen mit y = a (x + d)2 + e _   185
+  Punkte sammeln                                   74     Vermischte und komplexe Übungen________            192
+  Vermischte und komplexe Übungen                  75     Was du gelernt hast_____________________           194
+  Was du gelernt hast                              78     Bist du fit?_____________________________          195
+  Bist du fit?                                     79     Im Blickpunkt: Länger als man denkt:
+                                                          Der Anhalteweg________________________             196
+  Lineare Gleichungssysteme                        80
+  Lineare Gleichungen mit zwei Variablen           82     Quadratische Gleichungen________________ 199
+  Lineare Gleichungssysteme -                             Im Blickpunkt: Grafisches Lösen einer
+  Zeichnerisches Lösen                             85     quadratischen Gleichung_________________ 203
+  Lineare Gleichungssysteme -                             Quadratische Gleichungen -
+  Rechnerisches Lösen                            88       Rechnerisches Lösen____________________            204
+  Lösen von Sachaufgaben                         98       Anwenden von quadratischen Gleichungen__           212
+  Punkte sammeln                                100       Anwenden quadratischer Funktionen_______           214
+  Vermischte und komplexe Übungen               101       Punkte sammeln_______ ________________             216
+  Was du gelernt hast                           104       Vermischte und komplexe Übungen________            217
+  Bist du fit?                                  105       Was du gelernt hast_____________________           220
+  Im Blickpunkt: Lösen linearer Gleichungs­               Bist du fit?_____________________________          221
+  systeme mit Tabellenkalkulation               106
+                                                          Bist du topfit?___________________222
+  Basiswissen: Satz des Pythagoras              108
+                                                          Anhang________________________236
+  Pyramiden                                     110       Lösungen zu Bist du fit? __________________        236
+  Eigenschaften und Darstellung von                       Lösungen zu Bist du topfit?_______________         240
+  Pyramiden                                     112       Einheiten______________________________            244
+  Oberfläche von Pyramiden                      114       Mathematische Symbole_________________             245
+  Volumen von Pyramiden                         117       Stichwortverzeichnis____________________           246
+  Berechnungen an zusammengesetzten                       Bildquellennachweis_____________________           247
+  Körpern                                       119
+  Punkte sammeln                                121
+  Vermischte und komplexe Übungen               122
+  Was du gelernt hast                           124
+  Bist du fit?                                  125
+
+
+== Klasse 10 ==
+
+INHALTSVERZEICHNIS
+
+    Zum methodischen Aufbau der Lerneinheiten           4   4 Wachstumsprozesse                                124
+                                                              Lineare und exponentielle Zunahme                 126
+1    Quadratische Funktionen und
+                                                              Lineare und exponentielle Abnahme                 131
+     Gleichungen                                        6     Vermischte und komplexe Übungen                   135
+    Die quadratische Funktion y = x2 -                        Exponentialfunktionen und ihre Eigenschaften      136
+    Normalparabel                                       8
+    Quadratische Funktionen - Eigenschaften            11     Im Blickpunkt; Vergleich von exponentiellen,
+    Quadratische Funktionen mit y = a(x + d)2 + e_     21     linearen und quadratischen Funktionen             142
+    Vermischte und komplexe Übungen                    28     Punkte sammeln                                    143
+    Was du gelernt hast                                30     Vermischte und komplexe Übungen                   144
+    Bist du fit?                                       31     Was du gelernt hast                               146
+    Im Blickpunkt: Länger als man denkt:                      Bist du fit?                                      147
+    Der An halteweg          ___________     .         3^     Im Blickpunkt:
+    Quadratische Gleichungen                           35     Entwicklung der Weltbevölkerung              -   14D
+
+    Im Blickpunkt: Grafisches Lösen einer                   5 Zufällige Ereignisse und ihre
+    quadratischen Gleichung                      ...
+                                                              Wahrscheinlichkeiten                    •        150
+    Quadratische Gleichungen - Rechnerisches                  Zufallsexperimente und Wahrscheinlichkeiten -
+    Lösen                                              40     Grundlagen_____________________________ 152
+    Anwenden von quadratischen Gleichungen             48     Im Blickpunkt: Computersimulationen               155'
+    Anwenden quadratischer Funktionen                  50
+    Punkte sammeln                                     52     Wahrscheinlichkeit eines Gegenereignisses         156
+    Vermischte und komplexe Übungen                    53     Wahrscheinlichkeit bei mehrstufigen
+    Was du gelernt hast                                56     Zufallsexperimenten - Pfadregeln                  158
+    Bist du fit?                                       57     Berechnen von Wahrscheinlichkeiten bei
+                                                              mehrstufigen Laplace-Experimenten     ,           165
+    Basiswissen: Prisma, Zylinder und Pyramide         58     Punkte sammeln                                    170
+2 Kegel und Kugel                                      60     Vermischte und komplexe Übungen                   171
+    Kegel                                              62     Was du gelernt hast                               174
+    Kugel                                              69     Bist du fit?                                      175
+    Berechnungen an zusammengesetzten
+                                                            6 Sinusfunktionen                                  176
+    Körpern                                            75
+                                                              Sinus eines Winkels am Einheitskreis              178
+    Punkte sammeln                                     78     Sinusfunktion - Eigenschaften                     181
+    Vermischte und komplexe Übungen                    79
+                                                              Funktionen mit der Gleichung y = a • sin x        187
+    Was du gelernt hast                                82     Was du gelernt hast                               194
+    Bist du fit?                                       83     Bist du fit?                                      195
+    Im Blickpunkt: Modellbau                           M
+                                                            7 Aufgabenpraktikum                                196
+3 Dreiecke und Vierecke                                88     Übungen aus verschiedenen Bereichen              198
+     Sinus, Kosinus und Tangens im rechtwinkligen             Vermischte und komplexe Übungen                  218
+     Dreieck                                        90        Beispiel einer Prüfungsarbeit                    226
+     Anwendungen von Sinus, Kosinus und                       Anhang                                           232
+     Tangens                                     _ 96         Lösungen zu Bist du fit?                         232
+     Berechnung allgemeiner Dreiecke -                        Lösungen zum Aufgabenpraktikum                   235
+     Sinus- und Kosinussatz                        100        Einheiten                                        249
+     Berechnen des Flächeninhalts eines Dreiecks              Mathematische Symbole                            250
+     mit trigonometrischen Mitteln ____________ 110           Stichwortverzeichnis                             251
+     Berechnen von Vierecken und Vielecken         112        Bildquellennachweis                              252
+     Punkte sammeln                                115
+     Vermischte und komplexe Übungen               116
+     Was du gelernt hast                           120
+     Bist du fit?                                  121
+     Im Blickpunkt: Wie hoch ist eigentlich
+    l$yer Schulgebäude?                          - 12g
+
+

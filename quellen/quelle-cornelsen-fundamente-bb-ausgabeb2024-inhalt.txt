@@ -1,0 +1,526 @@
+Cornelsen, "Fundamente der Mathematik", Ausgabe B ab 2024 (Berlin,
+Brandenburg; Gymnasium, Gesamtschule, ISS, Oberschule). Inhaltsverzeichnisse
+Klasse 7-10 aus den DNB-Saetzen (TOC-PDF-Anhang /04), ueber die SRU-
+Schnittstelle (werkzeuge/dnb-sru.py) bestaetigt und mit pdftotext -layout
+extrahiert am 24.09.2026.
+
+Kl. 7:  ISBN 9783060428090, IDN 1315139596, https://d-nb.info/1315139596/04
+Kl. 8:  ISBN 9783060428137, IDN 1322564353, https://d-nb.info/1322564353/04
+Kl. 9:  ISBN 9783060428175, IDN 1338042475, https://d-nb.info/1338042475/04
+Kl. 10: ISBN 9783060428212, IDN 1373177926, https://d-nb.info/1373177926/04
+
+(C) Cornelsen - Gliederung als Beleg, keine Aufgaben.
+== Klasse 7 ==
+
+0        Vorbereitung zur Lernausgangslage                                                                                      5
+         Deine Grundlagen aus der Grundschulzeit .................................................... 6
+
+
+1     I Zuordnungen und Proportionalität                                                                                      11
+         Dein Fundament ...............................                                                                       12
+1.1     Zuordnungen.*............................................................                                             14
+1.2     Grafische Darstellung...................................................................................... 18
+1.3     Proportionale Zuordnungen............................................................................22
+1.4     Dreisatz für proportionale Zuordnungen........................................................ 26
+1.5     Antiproportionale Zuordnungen .................................................................... 30
+1.6     Dreisatz für antiproportionaleZuordnungen ................................................. 34
+1.7     Vermischte Aufgaben ...................................................................................... 37
+         Prüfedein neues Fundament                        ...................................................................... 40
+         Zusammenfassung....................................................................                                  42
+
+
+2     / Prozent- und Zinsrechnung                                                                                             43
+         Dein Fundament .............................................................................................44
+2.1     Prozentschreibweise........................................................................................ 46
+2.2     Grundbegriffeder Prozentrechnung .............................................................. 50
+2.3     Prozentwert berechnen....................................................................                              52
+2.4     Prozentsatz berechnen..................................................................................... 54
+2.5     Grundwert berechnen ..................................................................................... 56
+         Streifzug: Promille......... ................................................................................ 58
+2.6     Prozentuale Veränderung................................................................................ 60
+2.7     Zinsen................................................................................................................ 65
+         Streifzug: Sparpläne und Tilgungspläne mit Tabellenkalkulationen ....                                                 68
+2.8     Vermischte Aufgaben ...................................................................................... 70
+         Prüfe dein neues Fundament ........................................................................ 72
+         Zusammenfassung.....................................................                                                  74
+
+
+3     I Rationale Zahlen                                                                                                      75
+         Dein Fundament ............................................................................................ 76
+3.1     Ganze Zahlen und Zahlengerade.................................................................... 78
+3.2     Erweiterung des Koordinatensystems.............................................................80
+3.3     Ganze Zahlen vergleichen und ordnen......................                                                              82
+3.4     Zustandsänderungen ...................................................................................... 84
+3.5     Rationale Zahlen.............................................................................................. 87
+3.6     Rationale Zahlen addieren und subtrahieren................................................ 89
+3.7     Rationale Zahlen multiplizieren und dividieren ............................................ 95
+         Streifzug: Rechenspiele....................................                                                       99
+3.8     Rechnen mit allen Grundrechenarten.................................................                              100
+         Streifzug: Den Taschenrechner kennenlernen ........................................... 102
+3.9     Ausmultiplizieren und Ausklammern......................................................... 104
+3.10    Vermischte Aufgaben .............................................................                                107
+         Prüfe dein neues Fundament ...................................................................... 108
+         Zusammenfassung....................................................................................... 110
+
+
+4      / Geometrische Konstruktionen                                                                                    111
+         Dein Fundament .......................................................................................... 112
+4.1     Kreis.............................................................................................................. 114
+4.2     Senkrecht und parallel.................................................................................. 117
+4.3     Dreiecke ..........................................................                                              120
+4.4     Winkelsumme im Dreieck ............................................................................ 124
+4.5     Dynamische Geometrie-Software................................................................ 128
+4.6     Kongruenzsätze............................................................................................. 131
+4.7     Probleme lösen mit Dreieckskonstruktionen .............................................. 137
+4.8     Mittelsenkrechte und Winkelhalbierende .................................................. 140
+4.9     Umkreis und Inkreis beim Dreieck................................................................ 143
+4.10    Höhe und Seitenhalbierende im Dreieck..................................................... 147
+4.11    Vermischte Aufgaben..................................................................................... 151
+         Prüfe dein neues Fundament ......................................................................154
+         Zusammenfassung....................................................................................... 156
+
+
+5      / Terme und Gleichungen                                                                                         157
+         Dein Fundament .......................................................................................... 158
+5.1     Variablen und Terme.....................................................................................160
+5.2     Terme vereinfachen ...................................................................................... 164
+5.3     Gleichungen.................................................................................................. 167
+         Streifzug: Sprache in der Mathematik........................................................ 170
+5.4     Äquivalenzumformungen ............................................................................172
+5.5     Sonderfälle beim Lösen von Gleichungen................................................... 176
+5.6     Mit Gleichungen modellieren ..................................................................... 178
+         Streifzug: Gleichungen mit einem CASlösen.............................................. 182
+5.7     Verhältnisgleichungen und Bruchgleichungen.......................................... 184
+5.8     Ungleichungen..............................................................................................187
+5.9     Vermischte Aufgaben ................................................................................... 189
+         Prüfe dein neues Fundament ......................................................................192
+         Zusammenfassung.............................................                                                   194
+        Dein Fundament                ..... .......... ........................................ ................................196
+6.1    Flächeninhalt eines Dreiecks ........................................................................ 198
+6.2    Winkelsumme im Viereck ............................................................................. 202
+6.3    Flächeninhalt eines Parallelogramms........................                                                          204
+6.4    Flächeninhalt von Trapez und Drachenviereck............................................. 208
+        Streifzug: Flächeninhalt beliebiger Figuren ..........................................                              212
+6.5    Vermischte Aufgaben .................................................................................... 215
+        Prüfe dein neues Fundament ...................................................................... 216
+        Zusammenfassung....................................................................................... 218
+
+
+7     / Daten
+        Dein Fundament                   .........                                                                          220
+7.1    Absolute und relative Häufigkeit.................................................................. 222
+7.2    Diagramme                   ...................                                                                      226
+7.3    Klasseneinteilung und Histogramme.................................                                                   230
+7.4    Kennwerte...................................................................................................... 234
+7.5    Ta bellen kalkulation....................................................................................... 238
+7.6     Boxplots .................................................................................................. .       242
+7.7    Statistische Erhebungen............................................................................... 246
+7.8    Vermischte Aufgaben .................................................................................... 249
+        Prüfe dein neues Fundament ...................................................................... 252
+        Zusammenfassung .. ........                                                                                         254
+
+
+8     / Ähnlichkeit
+        Dein Fundament ...........................................................................................256
+8.1    Kongruente Figuren....................................................................................... 258
+8.2    Kongruenzabbildungen................ . .................                                                             261
+8.3    Ähnliche Figuren . .............                                                                                     265
+8.4    Umfang und Flächeninhalt ähnlicher Figuren............................................ 268
+        Streifzug: CAS-Einsatz bei Ähnlichkeit..................                                                            270
+8.5    Vermischte Aufgaben............. . .....................................................................271
+        Prüfe dein neues Fundament ............................                                                             272
+        Zusammenfassung....................                                                                                 274
+
+
+9     / Methoden
+        Methodenkarten .......................................................................................... 276
+
+
+10    / Anhang
+        Losungen ...................................................................................................... 280
+
+
+== Klasse 8 ==
+
+1       Ähnlichkeit                                                                                                    5
+
+        Dein Fundament .................................................................                               6
+1.1    Kongruente Figuren.......................................................................................8
+1.2     Kongruenzabbildungen.......... :................................................................. 11
+1.3    Ähnliche Figuren ....................................................................................... 15
+1.4    Umfang und Flächeninhalt ähnlicher Figuren............................................ 18
+        Streifzug: Strahlensätze ..................................                                                   20
+        Streifzug: CAS-Einsatz bei Ähnlichkeit ...................................................... 24
+1.5    Vermischte Aufgaben . ................................................................................ 25
+        Prüfe dein neues Fundament ..........................                                                  ..26
+        Zusammenfassung....... . ........................................................................... 28
+
+
+2     I Terme
+
+        Dein Fundament .................                                                                              30
+2.1    Terme mit mehreren Variablen aufstellen .................................................. 32
+2.2    Terme zusammenfassen ............................................................................. 35
+2.3    Terme vereinfachen             ..................................................................................38
+2.4    Vorrangregeln bei Termen .........................                                                             41
+2.5    Ausmultiplizieren einer Klammer...............................................................43
+2.6    Ausklammern ............................................................................................. 46
+2.7    Ausmultiplizieren von zwei Klammern .......................................                                    48
+2.8    Die binomischen Formeln............................................................................ 51
+        Streifzug: Direktes Beweisen ............................................                                     56
+        Streifzug: CAS-Einsatz bei Termen ............................................................. 58
+2.9    Vermischte Aufgaben................................................................................... 60
+        Prüfe dein neues Fundament.................                                                                   62
+        Zusammenfassung.....................................................................................64
+
+
+3     /Zufall und Wahrscheinlichkeit
+
+        Dein Fundament ........................................................................................66
+3.1     Zufallsexperimente und Wahrscheinlichkeit ............................................. 68
+3.2     Eigenschaften der Wahrscheinlichkeit ....................................................... 72
+3.3     Laplace-Experimente................................................................................... 76
+        Streifzug: Simulation von Zufallsexperimenten........................................ 81
+3.4     Baumdiagramme.........................................................................................84
+3.5     Wahrscheinlichkeiten und Baumdiagramme............................................. 86
+3.6     Vermischte Aufgaben ................................................................................. 92
+         Prüfe dein neues Fundament .................................................................... 94
+        Zusammenfassung.....................................................................................96
+4     I Lineare Funktionen                                                                                       97
+
+        Dein Fundament ....................................................................................... 98
+4.1    Funktionen .......... . .................................................................................. 100
+4.2    Proportionale Funktionen .............................................................                   103
+4.3    Steigung................................................................................................... 108
+4.4    Lineare Funktionen . ..................................................................................112
+4.5    Geraden durch zwei Punkte .............................................................                  118
+4.6    Nullstellen..............................                                                                121
+4.7    Mit linearen Funktionen modellieren....................................................... 124
+        Streifzug: CAS-Einsatz bei Funktionen..................................................... 127
+4.8    Vermischte Aufgaben ...........................................................                          132
+        Prüfe dein neues Fundament .................................................................. 134
+        Zusammenfassung.................................................................................. 136
+
+
+5     / Lineare Gleichungssysteme                                                                              137
+
+        Dein Fundament ..................................................................................... 138
+5.1     Lineare Gleichungen mit zwei Variablen.................................................. 140
+5.2     Lineare Gleichungssysteme...................................................................... 144
+5.3     Gleichsetzungs- und Einsetzungsverfahren.............................................. 148
+5.4     Additionsverfahren................................................................................... 152
+5.5     Sonderfälle beim rechnerischen Lösen..................................................... 155
+5.6     Mit Gleichungssystemen modellieren ..................................................... 157
+        Streifzug: Lineare Gleichungssysteme mit drei Gleichungen
+        und der Gauß-Algorithmus ............................................                                   160
+        Streifzug: CAS-Einsatz bei linearen Gleichungssystemen ....................... 162
+5.7     Vermischte Aufgaben ............................................................................... 164
+        Prüfe dein neues Fundament .................................................................. 166
+        Zusammenfassung...............................................                                          168
+
+
+6     / Potenzen und Wurzeln                                                                                   169
+
+        Dein Fundament ..................................................................................... 170
+6.1     Potenzieren..............................................................................................172
+6.2     Wissenschaftliche Schreibweise mit Zehnerpotenzen.............................. 175
+6.3     Quadratwurzeln und Kubikwurzeln......................................................... 178
+6.4     Quadratische Gleichungen der Form x2 = a .............................................. 181
+6.5     Vermischte Aufgaben .....................................................                               183
+         Prüfe dein neues Fundament .................................................................. 184
+        Zusammenfassung.................................................................................. 186
+7       Kreise                                                                                               187
+        Dein Fundament ............................                                                           188
+7.1    Linien am Kreis.............. . ..........................................................................190
+7.2    Satzdes Thales......................................................................................... 193
+7.3    Umfang eines Kreises ............................................................................... 197
+7.4    Flächeninhalt eines Kreises....................................................................... 201
+7.5    Kreissektor und Kreisbogen....................................................................... 205
+7.6    Vermischte Aufgaben ............................................................................... 209
+        Prüfe dein neues Fundament .......                                                                    212
+        Zusammenfassung...................................................................................214
+
+
+8     / Satzgruppe des Pythagoras                                                                            215
+
+        Dein Fundament ............................................................                           216
+8.1     Satz des Pythagoras...............................                                                    218
+        Streifzug: Beweise rund um den Satz des Pythagoras............................. 224
+8.2     Probleme lösen mit dem Satz des Pythagoras.......................................... 226
+8.3     Umkehrung des Satzes des Pythagoras .................................................... 229
+        Streifzug: Höhensatz und Kathetensatz..................................                                231
+        Streifzug: CAS-Einsatz bei rechtwinkligen Dreiecken............................... 234
+8.4     Vermischte Aufgaben ......................................................                             236
+         Prüfe dein neues Fundament .................................................................. 238
+        Zusammenfassung...... . ..................                                                             240
+
+
+9     / Körper                                                                                                241
+
+         Dein Fundament .......................                                                                242
+9.1      Prisma-Netz und Oberflächeninhalt.............................. •................                     244
+9.2     Volumen eines Prismas........ .................................................................... 248
+9.3     Zylinder-Netz und Oberflächeninhalt........................                                            253
+9.4     Volumen eines Zylinders ................                                                               256
+9.5     Pyramide-Netz und Oberflächeninhalt................................................... 260
+9.6     Volumen einer Pyramide.......................                                                          264
+9.7     Schrägbilder............................                                                               268
+         Streifzug:Zwei-und Dreitafelprojektionen                       ....................                   272
+9.8     Vermischte Aufgaben . ...................                                                              274
+         Prüfe dein neues Fundament .............                                                              276
+         Zusammenfassung ........ ..........................................                                   278
+
+
+== Klasse 9 ==
+
+Inhaltsverzeichnis
+
+
+1      / Körper (Wiederholung aus Klasse 8)
+
+         Dein Fundament                                         6
+1.1      Prisma - Netz und Oberflächeninhalt                    8
+1.2      Volumen eines Prismas                                 12
+1.3      Zylinder-Netz und Oberflächeninhalt                   17
+1.4      Volumen eines Zylinders                               20
+1.5      Pyramide-Netz und Oberflächeninhalt                   24
+1.6      Volumen einer Pyramide                                28
+1.7      Schrägbilder                                          32
+         Streifzug: Zwei- und Dreitafelprojektionen            36
+1.8      Vermischte Aufgaben                                   38
+         Prüfe dein neues Fundament                            40
+         Zusammenfassung                                       42
+
+
+2      / Potenzen und Wurzeln                                  43
+         Dein Fundament                                        44
+2.1      Rationale und irrationale Zahlen                      46
+         Streifzug: Widerspruchsbeweise                        48
+2.2      Intervallschachtelung                                 50
+         Streifzug: Heron-Verfahren                            52
+2.3      Rechnen mit Quadratwurzeln                            54
+2.4      Potenzen mit ganzzahligen Exponenten                  58
+2.5      Potenzgesetze                                         60
+2.6      n-te Wurzeln und Potenzen mit rationalen Exponenten   64
+2.7      Rechnen mit Potenzen und Wurzeln                      68
+2.8     Wurzelgleichungen                                      71
+2.9     Näherungswerte                                         73
+         Streifzug: CAS-Einsatz beiPotenzen                    76
+2.10    Vermischte Aufgaben                                    79
+         Prüfe dein neues Fundament                            82
+         Zusammenfassung                                       84
+
+
+       I Quadratische Funktionen und Gleichungen               85
+         Dein Fundament                                        86
+3.1     Normalparabel                                          88
+3.2     Strecken der Normalparabel                             91
+3.3     Verschieben der Normalparabel in y-Richtung            94
+3.4     Verschieben der Normalparabel in x-Richtung            97
+3.5     Scheitelpunktform                                      99
+                                                               Inhaltsverzeichnis
+
+
+
+
+3.6      Allgemeine Form und Normalform                             104
+3.7      Faktorisierte Form                                         108
+3.8      Quadratische Funktionen anwenden                           110
+3.9      Quadratische Gleichungen lösen                             114
+3.10     Lösungsformeln für quadratische Gleichungen                118
+3.11     Schnittpunkte von Graphen                                  123
+         Streifzug: Optimierungsprobleme                            126
+         Streifzug: CAS-Einsatz bei quadratischen Funktionen
+         und Gleichungen                                            128
+3.12     Vermischte Aufgaben                                        131
+         Prüfe dein neues Fundament                                 136
+         Zusammenfassung                                            138
+
+
+4      ,I Kegel und Kugeln                                         139
+         Dein Fundament                                             140
+4.1      Netz und Oberflächeninhalt eines Kegels                    142
+4.2      Volumen eines Kegels                                       145
+4.3      Volumen einer Kugel                                        148
+4.4      Oberflächeninhalt einer Kugel                              151
+4.5      Zusammengesetzte Körper                                    154
+4.6      Vermischte Aufgaben                                        158
+         Prüfe dein neues Fundament                                 160
+         Zusammenfassung                                            162
+
+
+       I Trigonometrie                                             163
+         Dein Fundament                                             164
+5.1      Sinus und Kosinus                                          166
+5.2      Tangens                                                    171
+         Streifzug: Der Tangens als Steigungsmaß                    176
+5.3      Sinus, Kosinus und Tangens anwenden                        178
+5.4      Sinussatz                                                  181
+         Streifzug: Sinus und Kosinus für beliebige Winkel          184
+5.5      Kosinussatz                                                186
+5.6      Flächeninhaltsformeln                                      190
+         Streifzug: CAS-Einsatz in der Trigonometrie                192
+5.7      Vermischte Aufgaben                                        194
+         Prüfe dein neues Fundament                                 196
+         Zusammenfassung                                            198
+Inhaltsverzeichnis
+
+
+        Potenzfunktionen                              199
+        Dein Fundament                                200
+6.1    Eigenschaften von Funktionen                   202
+6.2    Potenzfunktionen mit natürlichen Exponenten    204
+6.3    Potenzfunktionen mit ganzzahligen Exponenten   208
+6.4    Parametereinfluss                              212
+6.5    Potenzfunktionen mit rationalen Exponenten     217
+6.6    Potenzgleichungen                              220
+6.7    Umkehrfunktion                                 222
+        Streifzug: CAS-Einsatz bei Potenzfunktionen   225
+6.8    Vermischte Aufgaben                            229
+        Prüfe dein neues Fundament                    232
+        Zusammenfassung                               234
+
+
+        Methoden                                      235
+        Methoden karten                               236
+
+
+
+
+8     I Anhang                                        239
+        Lösungen                                      240
+        Stichwortverzeichnis                          253
+        Bildnachweis                                  255
+        Impressum                                     256
+
+
+== Klasse 10 ==
+
+    Inhaltsverzeichnis
+
+
+    1     Potenzfunktionen (Wiederholung aus Klasse 9)    5
+           Dein Fundament                                  6
+    1.1   Eigenschaften von Funktionen                     8
+    1.2   Potenzfunktionen mit natürlichen Exponenten    10
+    1.3   Potenzfunktionen mit ganzzahligen Exponenten   14
+    1.4   Parametereinfluss                              18
+    1.5   Potenzfunktionen mit rationalen Exponenten     23
+    1.6   Potenzgleichungen                              26
+    1.7   Umkehrfunktion                                 28
+           Streifzug: CAS-Einsatz bei Potenzfunktionen    31
+    1.8   Vermischte Aufgaben                             35
+           Prüfe dein neues Fundament                     38
+           Zusammenfassung                               40
+
+
+    2     Exponentialfunktionen                          41
+           Dein Fundament                                42
+    2.1   Exponentielles Wachstum                        44
+    2.2   Exponentialfunktion                            49
+    2.3   Exponentialgleichungen und Logarithmus          54
+    2.4   Wachstumsmodelle                                59
+           Streifzug: Corona-Pandemie                     64
+    2.5   Vermischte Aufgaben                             66
+           Prüfe dein neues Fundament                     68
+           Zusammenfassung                                70
+
+
+    3     Trigonometrische Funktionen                    71
+           Dein Fundament                                 72
+    3.1   Sinusfunktion und Kosinusfunktion               74
+    3.2   Winkel im Bogenmaß                              80
+           Streifzug: Einschachtelung von 7T              85
+    3.3   Verschieben der Sinuskurve                      87
+    3.4   Strecken und Stauchen der Sinuskurve            89
+    3.5   Allgemeine Sinusfunktion                        92
+           Streifzug: Funktionsgraphentransformieren      95
+    3.6   Periodische Vorgänge modellieren               100
+    3.7   Vermischte Aufgaben                            103
+           Prüfe dein neues Fundament                    106
+           Zusammenfassung                               108
+
+
+
+
+2
+                                                          Inhaltsverzeichnis
+
+
+
+
+4     Statistische Auswertungen                                109
+      Dein Fundament                                           110
+4.1   Häufigkeitsverteilungen                                  112
+4.2   Lagemaße und Streumaße                                   115
+4.3   Fehler und Manipulationen in der Statistik               119
+4.4   Simulationen zur Ermittlung von Daten                    123
+4.5   Vermischte Aufgaben                                      125
+      Prüfe dein neues Fundament                               126
+      Zusammenfassung                                          128
+
+
+5     Wahrscheinlichkeit und Kombinatorik                      129
+      Dein Fundament                                            130
+5.1   Wiederholung: Mehrstufige Zufallsexperimente              132
+5.2   Sinnvoller Umgang mit Baumdiagrammen                      137
+5.3   Urnenmodell-Ziehen mit und ohne Zurücklegen               142
+5.4   Urnenmodell-Ziehen ohne Beachtung der Reihenfolge         146
+      Streifzug: Lottomodell                                    150
+5.5   Simulationen                                              152
+5.6   Vierfeldertafeln                                          156
+5.7   Bedingte Wahrscheinlichkeit                               161
+5.8   Vermischte Aufgaben                                       168
+      Prüfe dein neues Fundament                                170
+      Zusammenfassung                                           173
+
+
+6     Ganzrationale Funktionen                                 175
+      Dein Fundament                                            176
+6.1   Ganzrationale Funktionen                                  178
+6.2   Nullstellen                                               181
+6.3   Polynomdivision                                           186
+6.4   Globalverhalten, Extrem-und Wendepunkte                   189
+6.5   Symmetrie                                                 196
+      Streifzug: Regression                                     200
+6.6   Vermischte Aufgaben                                       204
+      Prüfe dein neues Fundament                                206
+      Zusammenfassung                                           208
+
+
+
+
+                                                                               3
+    Inhaltsverzeichnis
+
+
+    7      Einführung des Ableitungsbegriffs    209
+           Dein Fundament                       210
+    7.1    Mittlere Änderungsrate               212
+    7.2    Lokale Änderungsrate und Ableitung   218
+    7.3    Ableitungsfunktion                   224
+    7.4    Vermischte Aufgaben                  230
+           Prüfe dein neues Fundament           232
+           Zusammenfassung                      234
+
+
+
+
+    8      Methoden                             235
+           Methodenkarten                       236
+
+
+
+
+    9      Anhang                               239
+           Lösungen                             240
+           Stichwortverzeichnis                 260
+           Bildnachweis                         263
+           Impressum                            264
+
+
+
+
+4
+
+

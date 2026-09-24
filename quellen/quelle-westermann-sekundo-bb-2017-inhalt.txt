@@ -1,0 +1,606 @@
+Westermann, "Sekundo - Mathematik fuer differenzierende Schulformen, Ausgabe
+2017 fuer Berlin und Brandenburg". Inhaltsverzeichnisse Klasse 7-10 als
+Gegenprobe zu den bereits vorhandenen Stoffverteilungsplaenen
+(quelle-westermann-sekundo-bb-2017.txt, [SEKUNDO-BB]). Schulbuch-ISBNs ueber
+die Westermann-Produktsuche ermittelt, in der DNB bestaetigt, TOC-PDFs mit
+pdftotext -layout extrahiert am 24.09.2026.
+
+Kl. 7:  ISBN 9783141242522, IDN 1129468402, https://d-nb.info/1129468402/04
+Kl. 8:  ISBN 9783141242614, IDN 1149945419, https://d-nb.info/1149945419/04
+Kl. 9:  ISBN 9783141242706, IDN 1174809175, https://d-nb.info/1174809175/04
+Kl. 10: ISBN 9783141242799, IDN 1202410952, https://d-nb.info/1202410952/04
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+Achtung: zweispaltiges Layout; pdftotext -layout mischt einzelne
+Kapitelnummern in die falsche Spalte (z. B. Kapitel 4 bei Klasse 7 mitten in
+einer Zeile der linken Spalte). Kapitelfolge unten wurde durch gezieltes
+Durchsuchen der Rohtexte rekonstruiert; zwei Kapiteltitel blieben trotzdem
+unklar (Klasse 8 Kapitel 8, Klasse 10 Kapitel 2 - im Rohtext vorhanden, aber
+keiner Zeile eindeutig zuzuordnen).
+
+Kapitelfolge (erste Ebene):
+
+Klasse 7: 1 Brueche und Dezimalzahlen (6), 2 Zuordnungen (25), 3 Zeichnen und
+Konstruieren (55), 4 Prozentrechnung (81), 5 Rationale Zahlen (103),
+6 Flaecheninhalt und Volumen (127), 7 Daten und Zufall (151), 8 Terme und
+Gleichungen (169)
+
+Klasse 8: 1 Zahlen und Zuordnungen (6), 2 Zeichnen und Konstruieren (17),
+3 Terme und Gleichungen (1) (45), 4 Flaechenberechnung (65), 5 Prozent- und
+Zinsrechnung (87), 6 Lineare Funktionen (109), 7 Koerper zeichnen und
+berechnen (135), 8 [Titel im Rohtext nicht eindeutig, vermutlich
+"Gleichungen und Formeln"] (176), 9 Terme und Gleichungen (2) (175)
+
+Klasse 9: 1 Wiederholungen (6), 2 Potenzen und Wurzeln (21), 3 Funktionen
+(39), 4 Satz des Pythagoras (53), 5 Lineare Gleichungssysteme (69),
+6 Prozent und Zinsrechnung (85), 7 Aehnlichkeit (101), 8 Flaechen- und
+Koerperberechnungen (121), 9 Daten und Zufall (149)
+
+Klasse 10: 1 Basiswissen (6), 2 [Titel im Rohtext nicht eindeutig], 3 Koerper
+(57), 4 Potenzen und Wurzeln (81), 5 Trigonometrie (101), 6 Zinseszins-
+rechnungen, Wachstum, Exponentialfunktionen (127), 7 Daten und Zufall (149)
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 7 ==
+
+Inhaltsverzeichnis
+
+1 Brüche und Dezimalzahlen......................                       6   Winkelhalbierende.......................................                  59
+                                                                           Höhen im Dreieck.........................................                 60
+Bruchteile von Größen ................................                 8
+                                                                           LVL: Konstruieren m it dynamischer
+Addition und Subtraktion von B rü ch e n __                            9
+                                                                           Geometriesoftware..........................................                 61
+Addition und Subtraktion von
+                                                                           Kongruente Figuren.....................................                   62
+Dezimalzahlen..............................................           10
+                                                                           Winkelpaare..................................................             63
+Vervielfachen und Teilen von B rüchen.......                          11
+                                                                           LVL: Konstruieren und Messen m it dem
+Multiplikation von Brüchen.........................                   12
+                                                                           C om puter.....................................................           64
+Division durch einen Bruch .........................                  13
+                                                                           LVL: Summe der Dreieckswinkel..................                           65
+Vermischte Aufgaben...................................                14
+                                                                           Winkelsummensatz im Dreieck....................                           66
+Multiplikation und Division einer
+                                                                           Bleib fit .........................................................       67
+Dezimalzahl m it 10,100,1000 ....................                     16
+                                                                           WAV: Wissen - Anwenden - Vernetzen.........                               68
+Multiplikation m it einer Dezimalzahl .........                       17
+                                                                           Dreieckstypen..............................                               70
+Division durch eine Dezimalzahl ................                      18
+                                                                           LVL: Übertragen von Dreiecken.......................                        71
+Taschenrechner ..........................................             19
+                                                                           Kongruenzsatz (WSW)..................................                     72
+Quadratzahlen und Kubikzahlen................                         20
+                                                                           Kongruenzsatz (SWS) ..................................                    73
+Vermischte Aufgaben ..................................                21
+                                                                           Kongruenzsatz (SSS)...................................                    74
+TÜV................................................................   23
+                                                                           Kongruenzsatz (SsW)...................................                    75
+Diagnosetest................................................          24
+                                                                           Vermischte Aufgaben...................................                    76
+                                                                           Schrägbilder ................................................             78
+2 Zuordnungen............................................             25
+                                                                           TÜV................................................................       79
+LVL: Formel 1 auf dem Hockenheimring . . .                            26   Diagnosetest.................................................             80
+Tabellen und grafische Darstellungen.........                         28
+Maßstab .......................................................       30   4 Prozentrechnung......................................                  81
+LVL: Entfernungen in Deutschland ............                         31
+                                                                           Prozentsätze.................................................             82
+Vergrößern und Verkleinern .......................                    32
+                                                                           Prozentsätze und B rüche............................                      83
+LVL: Denkmäler und ihre P roportionen__                               33
+                                                                           Vermischte Aufgaben ..................................                    84
+Proportionale Zuordnungen.......................                      34
+                                                                           Grundwert und P rozentw ert.......................                        85
+Grafische Darstellungen bei proportionalen
+                                                                           Berechnung des Prozentwertes W ..............                             86
+Zuordnungen................................................           35
+                                                                           LVL: 7-Meter-Schützen für das
+Antiproportionale Zuordnungen ................                        36
+                                                                           Handballturnier gesucht ...................                               87
+LVL: D reisatz................................................        37
+                                                                           Berechnung des Prozentsatzes p % ............                             88
+Dreisatz bei proportionalen und
+                                                                           Berechnung des Grundwertes G ..................                           89
+antiproportionalen Zuordnungen..............                          38
+                                                                           Vermischte Aufgaben ..................................                    90
+LVL: Ausflug in den S a fa rip a rk....................               40
+                                                                           Bleib fit ............................................................      91
+Bleib fit .........................................................   42
+                                                                           Preisnachlass - Preiserhöhung....................                         92
+Stundenlohn und Stückpreis .....................                      43
+                                                                           LVL: Tabellenkalkulation............................                      93
+LVL: Weg, Zeit, Geschwindigkeit ................                      44
+                                                                           Brutto - N e tto ..............................................           94
+LVL: Masse, Volumen, Dichte .....................                     45
+                                                                           Streifen-, Säulen- und Balkendiagramm . . .                               95
+LVL: Achtung - aufgepasst...........................                  46
+                                                                           Kreisdiagramm............................................                 96
+Proportionalität und Quotientengleichheit                             48
+                                                                           Vermischte Aufgaben...................................                    97
+Antiproportionalität und Produktgleichheit                            49
+                                                                           LVL: Immer nur S chule................................                    98
+Vermischte Aufgaben ..................................                50
+                                                                           LVL: Alles M ü ll................................................         100
+TÜV................................................................   53
+                                                                           TÜV..................................................................     101
+Diagnosetest..................................................        54
+                                                                           Diagnosetest....................................................          102
+
+3 Zeichnen und Konstruieren......................                     55
+                                                                           5 Rationale Z a h le n ......................................            103
+Figuren im Koordinatensystem ..................                       56
+                                                                           LVL: Temperaturen in Europa....................... 104
+LVL: Geometrie m it dem Computer............                          57
+                                                                           LVL: Zahlen unter Null in unserer U m w elt.. 105
+Mittelsenkrechte..........................................            58
+Zahlbereiche und Koordinatensystem.......                               106   LVL: Rund ums Glücksrad............................                   162
+Ordnen von rationalen Zahlen.....................                       107   Wahrscheinlichkeit.......................................             164
+Addieren und Subtrahieren.........................                      108   LVL: Schere - Stein - Papier .......................                  166
+Vervielfachen und Teilen............ ................                   109   TÜV...............................................................    167
+Betrag - Zahl und Gegenzahl.......................                      110   Diagnosetest................................................          168
+Bleib f it ..........................................................   111
+WAV: Wissen - Anwenden - Vernetzen.......                               112   8    Terme und Gleichungen.......................                     169
+LVL: Addition m it Hilfe von M odellen.........                         114
+                                                                              LVL: Spiel m it x ............................................        170
+A ddition........................................................       115
+                                                                              LVL: Rechenwege aufschreiben..................                        172
+Subtraktion..................................................           116
+                                                                              Terme m it Variablen ...................................              173
+Vermischte Aufgaben .................................                   117
+                                                                              Lösen von Gleichungen................................                 175
+     Klammerregeln für Addition und
+                                                                              Lösen von Gleichungen m it Tabellen­
+Subtraktion ....... .........................................           118
+                                                                              kalkulation ...................................................       176
+Multiplikation ..............................................           120
+                                                                              Lösen von Gleichungen m it
+D ivision........................................................       121
+                                                                              Umkehroperatoren.......................................               177
+     Rechengesetze für rationale Zahlen . . .                           122
+                                                                              LVL: Terme vereinfachen......................                         178
+Vermischte Aufgaben...................................                  124
+                                                                              Ordnen und Zusammenfassen....................                         179
+TÜV...............................................................      125
+                                                                              Vermischte Aufgaben...................................                180
+Diagnosetest.................................................           126
+                                                                              Bleib fit .........................................................   182
+                                                                              LVL: Gleichungen m it der Variablen auf
+6 Flächeninhalt und Volumen....................                         127
+                                                                              beiden Seiten ..............................................          183
+Flächeninhalt und Umfang von Rechteck                                         Lösen von Gleichungen durch Umformen ..                               184
+und Quadrat ...............................................             128   Vermischte Aufgaben............................                       185
+LVL: Berlin und Brandenburg.....................                        130   LVL: Lösen von Sachaufgaben durch
+LVL: Herleitung der Flächeninhaltsformel                                      Gleichungen.................................................          187
+für Dreiecke............ .....................................          131   O LVL: Ungleichungen ............................                     188
+Flächeninhalt des Dreiecks..........................                    132   © Lösen von Ungleichungen....................                         189
+Zusammengesetzte Flächen .......................                        135   TÜV...............................................................    190
+LVL: Ein Hausbau wird geplant...................                        136   Diagnosetest.................................................         191
+Vermischte Aufgaben .................................                   138
+Bleib fit ..........................................................    139   Diagnosearbeit...........................................             192
+Würfel- und Quadernetze............................                     140
+                                                                              Lösungen der Seiten W -A-V.........................                   195
+LVL: Ein Schluck aus dem Müggelsee.........                             142
+                                                                              Lösungen der TÜV-Seiten............................                   196
+Volumen des Quaders.................................                    144
+                                                                              Lösungen der Diagnosetests.......................                     199
+Oberflächeninhalt des Q uaders.................                         145
+                                                                              Lösungen der Diagnosearbeit.....................                      202
+O Quadrat- und Kubikwurzel...................                           146
+                                                                              Bildquellenverzeichnis..................................              204
+Vermischte Aufgaben ..... ...........................                   147
+                                                                              Rechenregeln, Formeln und Maßeinheiten .                              205
+Zusammengesetzte K ö rp e r........................                     148
+                                                                              Stichwortverzeichnis...................................               208
+TÜV...............................................................      149
+Diagnosetest.................................................           150
+
+7 Daten und Zufall .....................................                151
+
+LVL: Mit dem Zug unterwegs.......................                       152
+Statistische Kenngrößen..............................                   154
+LVL: Statistische Kenngrößen mit Tabellen­
+kalkulation ...................................................         156
+LVL: Taschengeld........................................                157
+LVL: Umfragen.............................................              158
+Bleib f i t ........................................................    159
+WAV: Wissen - An wenden - Vernetzen.......                              160
+
+
+== Klasse 8 ==
+
+Inhaltsverzeichnis
+
+1 Zahlen und Zuordnungen ........................                          6   LVL: Im Kino...................................................          49
+                                                                               LVL: Pension Tannenblick............................                     50
+Proportionale Zuordnungen.........................                         8
+                                                                               Verhältnisgleichungen..................................                  51
+Antiproportionale Zuordnungen..................                            9
+                                                                               Bleib f i t ..........................................................   53
+Bleib f i t ...........................................................   10
+                                                                               WAV: Wissen - Anwenden - Vernetzen.........                              54
+D ic h te ............................................................    11
+                                                                               LVL: Figurenrätsel.........................................              56
+Geschwindigkeit............................................               12
+                                                                               LVL: Formeln als spezielle Gleichungen.......                            57
+Vermischte A ufgaben....................................                  13
+                                                                               Terme und Gleichungen m it K lam m ern__                                 58
+TÜV..................................................................     15
+                                                                               Ausmultiplizieren und Ausklammern...........                             59
+Diagnosetest..................................................            16
+                                                                               Vermischte Aufgaben...................................                   60
+                                                                                   LVL: Zahlenrätsel...................................                 61
+2 Zeichnen und Konstruieren......................                         17
+                                                                               CD Lösen von linearen Ungleichungen
+Achsensymmetrie und Achsenspiegelung...                                   18   durch U m form en...........................................             62
+    Punktsymmetrie und Punktspiegelung..                                  19   TÜV.................................................................     63
+P arke tte .........................................................      20   Diagnosetest..................................................           64
+LVL: Winkelsumme in Vielecken....................                         21
+W inkelberechnungen...................................                    22   4 Flächenberechnung.................................                     65
+Dreieckskonstruktionen und Kongruenz__                                    23
+                                                                               Flächeninhalt und Umfang des Rechtecks ..                                66
+Bleib f i t ..........................................................    25
+                                                                               Flächeninhalt und Umfang des Dreiecks__                                  67
+LVL: Entfernungen und
+                                                                               Vermischte Aufgaben...................................                   68
+Abstände im Dreieck.....................................                  26
+                                                                               Flächeninhalt des Parallelogramms............                            70
+    LVL: Besondere Schnittpunkte beim
+                                                                               LVL: Flächengröße von Deutschland...........                             72
+D reieck..........................................................        27
+                                                                               Flächeninhalt des Trapezes .........................                     73
+    Umkreis und Inkreis................................                   28
+                                                                               Flächeninhalt des Drachens und der Raute..                               74
+    LVL: Schwerelinien und Höhenschnitt­
+                                                                               Zusammengesetzte Figuren.........................                        75
+punkt im D reieck...........................................              29
+                                                                               Vermischte Aufgaben...................................                   76
+LVL: Haus der Vierecke..................................                  30
+                                                                               Bleib f i t ..........................................................   77
+LVL: Übertragen von Vierecken....................                         31
+                                                                               LVL: Messen und Entdecken am K re is .........                           78
+Konstruieren von Rechteck, Quadrat
+                                                                               Umfang des Kreises.......................................                80
+und Raute .....................................................           32
+                                                                               Flächeninhalt des Kreises............................                    82
+Konstruieren von Drachen und
+                                                                               Vermischte Aufgaben...................................                   84
+Parallelogramm............................................                33
+                                                                               TÜV..................................................................    85
+Konstruieren von gleichschenkligen
+                                                                               Diagnosetest..................................................           86
+und nicht gleichschenkligen Trapezen.........                             34
+Viereckskonstruktionen................................                    35
+                                                                               5 Prozent- und Zinsrechnung......................                        87
+LVL: Vierecke konstruieren m it
+Dynamischer Geometriesoftware (DGS)__                                     36   Grundbegriffe der Prozentrechnung ........... 88
+Vermischte A ufgaben...................................                   37   Prozentsätze über 100 % ..............................                 89
+LVL: Sehwinkel..............................................              38   Berechnung des Prozentwertes W ..............                          90
+LVL: Entdeckungen zum Satz des Thaies__                                   39   Berechnung des Grundwertes G .................. 91
+Satz des Thaies und seine Umkehrung.........                              40   Berechnung des Prozentsatzes p % ............. 92
+□ Tangenten am K re is ................................                   41   Vermehrter und verminderter G rundwert...                              93
+Vermischte A ufgaben...................................                   42   Brutto - N e tto ................................................ 95
+TÜV..................................................................     43   Grafische Darstellung...................................               96
+Diagnosetest..................................................            44   LVL: Grafische Darstellung mit
+                                                                               Tabellenkalkulation.......................................             98
+3 Terme und Gleichungen ( 1 ) ......................                      45   Bleib f i t .......................................................... 99
+                                                                               WAV: Wissen - Anwenden - Vernetzen......... 100
+Aufstellen und Berechnen von Termen.........                              46
+                                                                               Kapital, Zinssatz und Zinsen......................... 102
+Lösen von linearen Gleichungen durch
+                                                                               Berechnung von Kapital und Zinssatz......... 103
+U m form en.....................................................          48
+Monatszinsen und Tageszinsen..... .............                          104   8 Daten und Zufall                                                       157
+Kredite vergleichen.......................................               106
+                                                                               Stichproben................................................... 158
+T Ü V ................................................................   107
+                                                                               Mittelwert, Median, Modus undSpannweite 159
+Diagnosetest..................................................           108
+                                                                               LVL: Klasseneinteilung.................................. 161
+                                                                               Diagram m e................................................... 162
+6 Lineare Funktionen...................................                  109
+                                                                               LVL: Problematische grafischeDarstellungen 163
+LVL: Eine Reise durch die U S A .....................                    110   Vermischte Aufgaben................................... 164
+LVL: Zuordnungen zu Wasser.......................                        112       Quartile und B oxplots............................ 165
+LVL:... und zu Land .....................................                113       LVL: Boxplot m it dem C o m p u te r........... 166
+Grafische Darstellungen bei Füllvorgängen..                              114   Bleib f i t .......................................................... 167
+Geschwindigkeiten.......................................                 115   Berechnen von Wahrscheinlichkeiten
+Funktionen als spezielle Zuordnungen.........                            116   bei Laplace-Experimenten............................ 168
+Funktionen.....................................................          118   Die Laplace-Reget bei zweistufigen
+LVL: Funktionen zeichnen und untersuchen                                 119   Zufallsversuchen.......................................... 170
+Lineare Funktionen.......................................                120   LVL: Wahrscheinlichkeiten bei Nicht-Laplace-
+Sonderfälle linearer Funktionen...................                       122   Experimenten abschätzen............................ 171
+Bleib f i t ..........................................................   123   LVL: Das Gesetz der großen Zahlen.............. 172
+Steigung einer Geraden................................                   124   T Ü V ................................................................ 173
+Die Bedeutung von m und c bei Graphen                                          Diagnosetest................................................. 174
+zur Funktion y = mx + c .................................                125
+Bestimmung von Funktionsgleichungen                                            9 Terme und Gleichungen (2) ...................... 175
+linearer Funktionen.......................................               126
+0 Bestimmen der Funktionsgleichung zu
+                                                                               0 Gleichungen und Formeln....................... 176
+                                                                               O LVL: Produkt von Summen.....................                           177
+einer Geraden durch zwei P unkte................                         128
+                                                                               O Produktterm - Summenterm..................                             178
+Schnittpunkt zweier Geraden.......................                       129
+Bestimmen des Schnittpunktes
+                                                                               0   Anwendungen.........................................                 180
+                                                                               Bleib f i t ..........................................................   181
+zweier Geraden..............................................             130
+Vermischte A ufgaben...................................                  131
+                                                                               0   LVL: Herleitung der Binomischen
+                                                                               Formeln.......................................... ................       182
+T Ü V ...............................................................    133
+                                                                               O Binomische Formeln................................                     184
+Diagnosetest.................................................            134
+                                                                               0   Vermischte Aufgaben...................                               186
+
+7 Körper zeichnen und berechnen.............. 135
+                                                                               0   LVL: Das Pascal’sche Dreieck..................                       188
+                                                                               T Ü V ................................................................   189
+LVL: Im Schwimmbad .................................                     136   Diagnosetest..................................................           190
+Quader und W ü rfe l.......................................              138
+Prisma............................................................       139   Diagnosearbeit.............................................              191
+Schrägbilder des Prismas..............................                   140
+                                                                               Lösungen der Seiten W AV............................                     194
+Oberfläche des Prismas................................                   141
+                                                                               Lösungen der TÜV-Seiten..............................                    195
+Volumen des Prism as...................................                  142
+                                                                               Lösungen der Diagnosetests.........................                      198
+Vermischte A ufgaben...................................                  143
+                                                                               Lösungen der Diagnosearbeit.......................                       202
+Bleib f i t ..........................................................   145
+                                                                               Bildquellenverzeichnis..................................                 204
+WAV: Wissen - Anwenden - Vernetzen .......                               146
+                                                                               Formeln und Maßeinheiten...........................                      205
+Zylinder: Schrägbild und Netz.......................                     148
+                                                                               Stichwortverzeichnis ...................................                 208
+Oberfläche des Zylinders..............................                   149
+Volumen des Zylinders.................................                   150
+Berechnungen am Zylinder .........................                       151
+Zusammengesetzte und ausgehöhlte
+Körper............................................................       153
+T Ü V ...............................................................    155
+Diagnosetest.................................................            156
+
+
+== Klasse 9 ==
+
+Inhaltsverzeichnis
+
+1 Wiederholungen.....................................                     6     4 Satz des Pythagoras............................                     53
+
+Reise durch Deutschland: Grundrechenarten                                 6     LVL: Beweise zum Satz des Pythagoras ....                              54
+Reise durch Europa: Bruchrechnung...........                              8     Satz des Pythagoras.................................                55
+Reise durch Australien: Größen....................                       10     Berechnen der Hypotenuse.........................                      56
+Reise durch Afrika: Terme und Gleichungen.                               12     Berechnen einer Kathete............................                    57
+Reise durch Südamerika:                                                         Vermischte Aufgaben...................................                 58
+Terme und Verhältnisgleichungen..............                            14     Umkehrung des Satzes des Pythagoras ....                               59
+Zuordnungen................................................              16     Bleib fit .........................................................    60
+Flächenberechnungen................................                      18     Pythagoras in ebenen Figuren.................                       61
+Körperberechnungen ..................................                    19     LVL: Pythagoras in Meyers Garten..............                         62
+Daten und Zufall..............................................             20   LVL: Pythagoras im Gelände...................                       63
+                                                                                Pythagoras im Raum...................................                  64
+2 Potenzen und Wurzeln.................................                   21    Vermischte Aufgaben...................................                 65
+                                                                                0 Kathetensatz und Höhensatz.................                          66
+Potenzen..........................................................         22
+                                                                                TÜV................................................................    67
+Zehnerpotenzen..............................................               23
+                                                                                Diagnosetest............................................            68
+Zehnerpotenzen mit negativen Exponenten                                  24
+Standardschreibweise für sehr große
+                                                                                5 Lineare Gleichungssysteme....................                            69
+und sehr kleine positive Zahlen.....................                       25
+Vermischte Aufgaben .....................................                  26   Lineare Gleichungen mit zwei Variablen.......                              70
+Bleib fit ............................................................     27   LVL: Zwei Gleichungen mit zwei Variablen...                                72
+WAV: Wissen - Anwenden - Vernetzen.......                                28     Lineare Gleichungssysteme.........................                         73
+Quadratwurzeln ..............................................              30   Gleichsetzungsverfahren und
+    Rechnen mit Quadratwurzeln................                           32     Einsetzungsverfahren...................................                    74
+Kubikwurzeln...................................................            33   Additionsverfahren.......................................                  76
+Vermischte Aufgaben......................................                  34   Vermischte Aufgaben...................................                     77
+    LVL: Rationale und irrationale Zahlen ..                             35     Bleib fit..........................................................        78
+    Reelle Zahlen und Intervallschachtelung                              36     Anwendungen..............................................                  79
+TÜV...................................................................     37       LVL: Mischaufgaben..............................                       82
+Diagnosetest................................................             38     TÜV................................................................        83
+                                                                                Diagnosetest..................................................             84
+3 Funktionen..................................................            39
+                                                                                6 Prozent und Zinsrechnung......................                           85
+LVL: Die Dietrich-Bonhoefer-Schule hat
+Geburtstag......................................................         40     Prozentrechnung.........................................                   86
+LVL: Funktionen als eindeutige                                                  Prozentfaktor................................................              88
+     Zuordnungen..........................................               42     Rabatt - Skonto............................................                89
+Funktionen......................................................         43     Vermischte Aufgaben...................................                     90
+LVL: Funktionen mit Computerprogrammen                                          Bleib fit ........................................................         91
+     darstellen ...............................................          44     Zinsrechnung................................................               92
+Bleib fit ............................................................   45     LVL: Zinseszins..............................................              94
+Lineare Funktionen..........................................             46     LVL: Ratensparen.........................................                  95
+Die Bedeutung von m und b bei Funktionen                                        LVL: Tilgung von Krediten durch
+mit der Funktionsgleichung y = mx + b.......                           47            Ratenzahlung.......................................                96
+    Änderungsraten.....................................                48       Vermischte Aufgaben...................................                  98
+Schnittpunkte zweier Geraden.......................                      49     TÜV...............................................................      99
+Vermischte Aufgaben......................................                50     Diagnosetest................................................           100
+TÜV...................................................................   51
+Diagnosetest...................................................          52
+7 Ähnlichkeit...............................................         101   9 Daten und Zufall ...................................                149
+
+Maßstab.........................................................     102   Mittelwert, Median und Spannweite...........                          150
+LVL: Fotos vergrößern..................................              104   Boxplots.......................................................       151
+Längenverhältnisse von Strecken................                      105   Vorsicht bei Diagrammen............................                   152
+Ähnliche Figuren..........................................           106   LVL: Zeitreihen: Prognosen.........................                   153
+Ähnliche Dreiecke.........................................           107   LVL: Altersverteilung in Deutschland...........                       154
+Streckenteilung............................................          108   LVL: Präsentationen.....................................              156
+Bleib fit ........................................................   109   WAV: Wissen - Anwenden - Vernetzen.......                             158
+WAV: Wissen - Anwenden - Vernetzen.......                            110   Bleib fit..........................................................   160
+Strahlensätze................................................        112   Wahrscheinlichkeit.......................................             161
+Anwendungen..............................................            114   Zweistufige Zufallsversuche.........................                  162
+    Zentrische Streckung............................                 116   Rechnen mit dem Gegenereignis................                         164
+Vermischte Aufgaben ..................................               118   LVL: Zufallsregen..........................................           165
+TÜV...............................................................   119       LVL: Simulieren mit Zufallsziffern.........                       166
+Diagnosetest......................................                   200   Vermischte Aufgaben...................................                167
+                                                                           TÜV...............................................................    168
+8 Flächen- und Körperberechnungen........ 121                              Diagnosetest................................................          169
+
+Umfang und Flächeninhalt .........................                   122
+                                                                           Diagnosearbeit............................................ 170
+Kreisring.......................................................     124
+   Kreisausschnitt.......................................            125
+                                                                           BBR-Tests...................................................... 174
+LVL: Im Stadion............................................          126
+LVL: Unsere Erde..........................................           128   Vergleichende Arbeit 2015...........................                  174
+Q LVL: Grenzprozesse zur Bestimmung                                        Vergleichende Arbeit 2016...........................                  178
+          von 7i..............................................       129
+Vermischte Aufgaben...................................               130   Lösungen.....................................................         182
+Bleib fit ........................................................   131
+Oberfläche und Volumen von Körpern.......                            132   Lösungen zu den Vergleichenden Arbeiten .                             182
+LVL: Erbsensuppe aus der Dose..................                      134   Lösungen zu Kapitel 1 ..................................              186
+LVL: Pyramiden zeichnen und bauen.........                           135   Lösungen der WAV-Seiten ...........................                   189
+LVL: Kegel zeichnen und bauen..................                      136   Lösungen der TÜV-Seiten............................                   192
+LVL: Volumenformel.....................................              137   Lösungen der Diagnosetests.......................                     195
+Volumen von Pyramide und Kegel..............                         138   Lösungen der Diagnosearbeit.....................                      198
+LVL: Rechtwinklige Dreiecke in Kegel und
+     Pyramide........................................                139   Formeln........................................................       200
+Oberfläche der Pyramide............................                  140
+                                                                           Maßeinheiten..............................................            205
+Oberfläche des Kegels.................................               141
+LVL: Die Cheops-Pyramide in Ägypten.......                           142
+                                                                           Stichwortverzeichnis...................................               206
+Vermischte Aufgaben...................................               143
+                                                                           Bildquellenverzeichnis..................................              207
+LVL: Zusammengesetzte und ausgehöhlte
+                                                                           Textquellenverzeichnis.................................               207
+     Körper...................................................       145
+Zusammengesetzte und ausgehöhlte Körper                              146
+TÜV...............................................................   147
+Diagnosetest................................................         148
+
+
+== Klasse 10 ==
+
+Inhaltsverzeichnis
+
+1    Basiswissen...........................................          6   M LVL: Parabeln im Sport..........................                     53
+
+Eingangstest.................................................        7
+                                                                         M LVL: Satz von Vieta..................................                54
+                                                                         TÜV...............................................................     55
+Rechnen mit Brüchen und Dezimalzahlen..                             10
+                                                                         Diagnosetest................................................           56
+Rechnen mit positiven und
+negativen Zahlen, Sachaufgaben................                      11
+                                                                         3 Körper........................................................      57
+Terme............................................................   12
+Gleichungen.................................................        13   Volumen von Prisma und Zylinder..............                          58
+Propotionale und antipropotionale                                        Oberfläche von Prisma und Zylinder...........                          59
+Zuordnungen................................................         14   LVL: Pyramiden zeichnen und bauen.........                             60
+Lineare Funktionen.....................................             15   LVL: Kegel zeichnen und bauen..................                        61
+Lineare Gleichungssysteme.........................                  16   Pythagorasanwendungen bei Kegel
+Prozentrechnung.........................................            17   und Pyramiden............................................              62
+Zinsrechnung................................................        18   LVL: Hinführung zu den Oberflächenformeln
+Winkel und Symmetrie................................                19        für Pyramide und Kegel.......................                     63
+Dreiecke und Vierecke..................................             20   Oberfläche von Pyramide und Kegel...........                           64
+Maßstab und Ähnlichkeit............................                 21   LVL: Die Glaspyramide vor dem
+Satz des Pythagoras.....................................            22        Louvre in Paris.....................................              66
+Maßeinheiten................................................        23   Bleib fit..........................................................    67
+Flächenberechnung.....................................              24   WAV: Wissen - An wenden - Vernetzen.......                             68
+Schrägbilder und Netze................................              25       LVL: Cavalieri........................................             70
+Körperberechnung.......................................             26   LVL: Hinführung zu den Volumenformeln
+Rechnen mit Formeln..................................               27        für Pyramide und Kegel.......................                    71
+Statistik........................................................   28   Volumen von Pyramide und Kegel..............                          72
+Grafiken und Diagramme............................                  29   Volumen der Kugel.......................................              74
+Wahrscheinlichkeit.......................................           30   Oberfläche der Kugel...................................               75
+Ausgangstest...............................................         31   Volumen und Oberfläche der Kugel............                          76
+                                                                         Vermischte Aufgaben...................................                77
+2    Quadratische Funktionen und Gleichungen 33                          TÜV...............................................................    79
+                                                                         Diagnosetest...............................................           80
+Normalparabel..............................................         34
+LVL: Funktionen mit Gleichungen
+                                                                         4 Potenzen und Wurzeln..............................                  81
+     der Form y = ax2...........................         35
+Gestreckte und gestauchte Parabel............                       36   Potenzen..................... \..............................         82
+LVL: Brückenbögen.....................................              37   Potenzen mit negativen Exponenten...........                          83
+LVL: Funktionen mit Gleichungen                                          Standardschreibweise.................................                 84
+     der Form y = ax2 + c......................          38              ■ LVL: Moleküle und Atome.....................                        85
+Verschobene Parabeln ................................               39   Vermischte Aufgaben...................................                86
+LVL: Funktionen mit Gleichungen                                          M LVL: Multiplikation und Division
+     der Form y=(x + d)2 + e.................            40                           von Potenzen.................................            88
+Scheitelpunktsform.....................................             41   W Potenzgesetze........................................               89
+M Von der Form y = x2 + bx+c zur                                         Bleib fit........................................................     90
+    Scheitelpunktsform................................              42   n-te Wurzel...................................................        91
+    Allgemeine Scheitelpunktsform............                       43   M   Potenzenfunktionen..............................                  92
+Bleib fit........................................................   44   ® Wurzelfunktionen...................................                 93
+Quadratische Gleichungen..........................                  45   M LVL: Irrationale Zahlen..........................                    94
+Sonderfälle quadratischer Gleichungen....                           46   M Potenzen mit gebrochenen Exponenten                                  95
+• Rechnerische Lösung mit                                                Potenzgleichungen......................................                96
+   quadratischer Ergänzung.................            47                Vermischte Aufgaben...................................                 97
+Lösungsformel für quadratische Gleichungen 48                            TÜV...............................................................     99
+81 Anwendungen........................................    50             Diagnosetest...............................................           100
+Vermischte Aufgaben...................................              52
+5 Trigonometrie...........................................           101   7    Daten und Zufall ..................................         149
+
+LVL: Winkel im Einheitskreis,                                              LVL: Grafische Darstellungen....................... 150
+     Winkelfunktion Sinus (sin)...................                   102   LVL: Mittelwert, Median, Spannweite
+LVL: Kosinus (cos) und Tangens (tan).........                        103        und Boxplots................................ 152
+Die Winkelfunktionen...................................              104   LVL: Statistische Erhebungen planen
+Winkelfunktionen im rechtwinkligen Dreieck                           105        und durchführen......................... 154
+Trigonometrische Berechnungen an                                           WAV: Wissen - Anwenden - Vernetzen....... 156
+rechtwinkligen Dreiecken............................                 106   Bleib fit.......................................................... 158
+Trigonometrie bei Flächen und Körpern....                            109   Mehrstufige Zufallsversuche und Pfadregel. 159
+Vermischte Aufgaben...................................               110   O   LVL: Kombinieren und Variieren........... 161
+LVL: Steigung in Prozent..............................               112   M   Kombination und Variation................... 162
+® Steigungswinkel einer Geraden............                          113   LVL: Lotto "6 aus 49"................................... 164
+WAV: Wissen - Anwenden - Vernetzen.......                            114   TÜV............................................................... 166
+Bleib fit........................................................    116   Diagnosetest............................................... 167
+Überprüfung von Konstruktionsergebnissen
+durch Rechnung..........................................             117   MSA-Prüfungen............................................ 168
+M   Berechnungen in beliebigen Dreiecken .                           118
+                                                                           Schriftliche Prüfungsarbeit 2017................                  168
+Sinussatz......................................................      119
+                                                                           Schriftliche Prüfungsarbeit 2018................                  174
+    Kosinussatz............................................          121
+Vermischte Aufgaben .................................                122
+                                                                           Lösungen.....................................................    180
+M   Bogenmaß.............................................            123
+M   Periodische Vorgänge............................                 124
+                                                                       Lösungen zur schriftlichen
+TÜV...............................................................     Prüfungsarbeit 2017.....................................
+                                                                     125                                                                    180
+Diagnosetest...............................................            Lösungen zur schriftlichen
+                                                                     126
+                                                                       Prüfungsarbeit 2018.....................................             184
+6 Zinseszinsrechnungen, Wachstum                                       Lösungen zu Kapitel 1 Basiswissen..............                      188
+            Exponentialfunktionen............................      127 Lösungen zu den WAV-Seiten .....................                     195
+                                                                       Lösungen zu den TÜV-Seiten.......................                    198
+Zinsrechnung............................................... 128
+                                                                       Lösungen zu den Diagnosetests..................                      200
+Regelmäßige Ein- und Auszahlungen mit
+Tabellenkalkulation..................................... 129
+                                                                       Formelübersicht..........................................            202
+Zinseszinsrechnung..................................... 130
+W   Berechnung des Zinsfaktors q und
+                                                                       Maßeinheiten..............................................           206
+    des Zinssatzes p%...........................                   132
+LVL: Altersvorsorge...................................... 133
+                                                                       Stichwortverzeichnis...................................              207
+Bleib fit........................................................ 134
+                                                                       Bildquellenverzeichnis..................................             208
+LVL: Wachstum und Veränderung.............. 135
+                                                                       Textquellenverzeichnis.................................              208
+Exponentielles Wachstum und
+exponentieller Zerfall................................... 136
+M   Lineares, quadratisches und
+    exponentielles Wachstum...............                         139
+W   LVL: Exponentialfunktion..................... 141
+M   Exponentialfunktion.............................. 142
+LVL: Exponent gesucht............................... 143
+M   Logarithmus.......................................... 144
+M   Berechnung des Exponenten bei
+    exponentiellem Wachstum oder Zerfall. 145
+LVL: Weltbevölkerung................................. 146
+TÜV............................................................... 147
+Diagnosetest..................... .......................... 148
+
+

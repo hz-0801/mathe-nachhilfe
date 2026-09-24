@@ -1,0 +1,966 @@
+Westermann, "Elemente der Mathematik SI", Landesausgaben fuer Berlin und
+Brandenburg. Zwei Ausgaben: "Ausgabe 2016 fuer Berlin/Brandenburg" (Klasse
+7-10, vollstaendig erschienen) und die neue "Ausgabe 2025 fuer Berlin und
+Brandenburg" (bislang nur Klasse 5-7 erschienen, Stand 24.09.2026). Schulbuch-
+ISBNs der Ausgabe 2025 ueber die Westermann-Produktsuche ermittelt, alle
+IDN/TOC-Links ueber die DNB-SRU-Schnittstelle bestaetigt, TOC-PDFs mit
+pdftotext -layout extrahiert am 24.09.2026.
+
+Ausgabe 2016 fuer Berlin/Brandenburg:
+Kl. 7:  ISBN 9783507883062, IDN 1072840758, https://d-nb.info/1072840758/04
+Kl. 8:  ISBN 9783507883147, IDN 1117152731, https://d-nb.info/1117152731/04
+Kl. 9:  ISBN 9783507883222, IDN 1121236219, https://d-nb.info/1121236219/04
+Kl. 10: ISBN 9783507883307, IDN 1149948078, https://d-nb.info/1149948078/04
+
+Ausgabe 2025 fuer Berlin und Brandenburg (soweit erschienen):
+Kl. 5: ISBN 9783141373707, IDN 1349851140, https://d-nb.info/1349851140/04
+Kl. 6: ISBN 9783141373820, IDN 1349851248, https://d-nb.info/1349851248/04
+Kl. 7: ISBN 9783141373943, IDN 1374882372, https://d-nb.info/1374882372/04
+Kl. 8-10 der Ausgabe 2025 noch nicht erschienen (Westermann-Produktsuche
+24.09.2026: nur Kl. 5-7 gelistet).
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+Achtung: Die TOC-PDFs der Ausgabe 2016 haben eine fehlerhafte Schriftcodierung
+(private Unicode-Codepunkte); Ziffern und einzelne Buchstaben sind teils
+verstuemmelt (z. B. Kapitelziffern als Sonderzeichen). Kapitelnummern und
+-titel bleiben inhaltlich erkennbar; die Zaehlung wurde durch Lesen der Datei
+geprueft. Bei der Ausgabe 2025 vertauscht die gleiche Art Fehler vereinzelt
+eine Kapitelziffer mit einem aehnlich aussehenden Buchstaben (z. B. Kapitel 6
+als "O", Kapitel 7 als "/"); auch dort bleibt der Text lesbar.
+
+Kapitelfolge (erste Ebene, geprueft durch Lesen bzw. Durchsuchen der Dateien):
+
+Ausgabe 2016, Klasse 7: 1 Direkt und indirekt proportionale Zuordnungen (17),
+2 Prozentrechnung (45), 3 Statistische Daten (79), 4 Rationale Zahlen (113),
+5 Gleichungen mit einer Variablen (167), 6 Kongruenz - Dreiecke (201),
+7 Berechnungen an Vielecken und Prismen (253)
+
+Ausgabe 2016, Klasse 8: 1 Terme mit mehreren Variablen (13), 2 Lineare
+Funktionen (71), 3 Zufall und Wahrscheinlichkeit (117), 4 Wurzeln - Satz des
+Pythagoras (139), 5 Berechnungen an Kreisen und Zylindern (167), 6 Lineare
+Gleichungssysteme (195), 7 Aehnlichkeit (233)
+
+Ausgabe 2016, Klasse 9: 1 Quadratwurzeln und reelle Zahlen (9), 2 Quadratische
+Zusammenhaenge (45), 3 Statistische Auswertung von Daten (111),
+4 Trigonometrie (133), 5 Potenzen und Potenzfunktionen (165)
+
+Ausgabe 2016, Klasse 10: 1 Modellieren periodischer Vorgaenge (9), 2 Pyramide,
+Kegel, Kugel (51), 3 Wachstumsprozesse - Exponentialfunktionen (85),
+4 Mehrstufige Zufallsexperimente (133), 5 Ganzrationale Funktionen -
+Aenderungsverhalten
+
+Ausgabe 2025, Klasse 5: 1 Daten und Zahlen (S. 10), 2 Groessen (32),
+3 Rechnen mit natuerlichen Zahlen (50), 4 Teilbarkeit (86), 5 Geometrie in
+der Ebene - Winkel (100), 6 Abbildungen (126), 7 [Titel durch Schriftfehler
+unklar] (144), 8 Flaecheninhalt (168), 9 Brueche (186), ggf. weitere Kapitel
+
+Ausgabe 2025, Klasse 6: 1 Brueche (10), 2 Rechnen mit Bruechen, 3 Dezimal-
+zahlen, 4 Koerper, 5 Rauminhalt von Koerpern, 6 Statistische Daten,
+7 Zuordnungen, 8 Terme und Gleichungen
+
+Ausgabe 2025, Klasse 7: 1 Rationale Zahlen, 2 Zuordnungen und
+Proportionalitaet (17), 3 Prozent- und Zinsrechnung (31), 4 Terme (43),
+5 Gleichungen (54), 6 [durch Schriftfehler nicht im Suchraster erfasst],
+7 Flaecheninhalt von Figuren (82), 8 Prismen und Zylinder (96), 9 Statistik
+(111)
+
+Es folgt je Ausgabe und Klasse der vollstaendige pdftotext-Rohtext.
+
+== Ausgabe 2016, Klasse 7 ==
+
+     Uber dieses Buch...................................................................................................    6
+
+
+     Bleib « t im Umgang mit gebrochenen Zahlen.................................................                            9
+     Bleib fitim Umgang mit Zuordnungen.............................................................                       15
+
+1. D i r e k t u n d i n d i r e k t p r o p o r t i o n a le Z u o r d n u n g e n                                        17
+     Lernfe.d Abhängigkeiten darstellen und nutzen............................................ 8 ‫ו‬
+     ‫ו‬. ‫ו‬ Direkt proportionale Zuordnungen (Wiederholung) ····■·.·····.·..··..·‫ ״‬ไ 9
+     ไ .2    Zueinander indirekt proportionale Größen - indirekt proportionale
+             Zuordnungen...............................................................................................    25
+     1•3     Zum Se.bstlernen Dreisatz bei indirekt proportionalen
+             Zuordnungen...............................................................................................    29
+     4. ‫ו‬    Quotientengleichheit bei direkt proportionalen Zuordnungen -
+             Proportionalitätsfaktor...............................................................................        31
+                Erstellen einer Zuordnungstabelle mit einer Tabellenkalkulation..                                          35
+     5. ‫ו‬    Produktgleichheit bei indirekt proportionalen Zuordnungen —
+             Gesamtgröße...............................................................................................    36
+               Modellieren mit direkt proportionalen und indirekt proportiona-
+                   len Zuordnungen...................................................................................      39
+     6• ‫ו‬    Vermischte Übungen..................................................................................          41
+     1.7     Aufgaben zur Vertiefung.............................................................................          42
+     Das Wichtigste auf einen Blick/ Bist du fit?                                                                          43
+
+2·   P ro z e n tre c h n u n g                                                                                            45
+     Lemfeid Rechnen mit Prozenten........................................................................                 46
+     2.1 Grundaufgaben der Prozentrechnung.....................................................                            47
+         2.Ί.1 Berechnen des Prozentsatzes Anteil                                                                          47
+         2.1.2 Rprpshnpn Ηρς Prn7pntwprtpq - พ ก ท า Γ1ΆΠ79η 7 и т Tpil                                                    50
+             2.1.3      BerechnendesGrundwertes-VomTeilzumGanzen··········.··                                              53
+     2.2     Vermischte Übungen zu den Grundaufgaben.........................................                              56
+                  Promille - nicht nur im Straßenverkehr.............................................                      58
+     2.3     Prozentuale Änderungen...........................................................................             59
+             2.3.1 Prozentuale Erhöhung-Prozentsätze über 100% ................■                                           59
+             2.3.2 Prozentuale Abnahme....................................................................                 62
+                 Tabellenkalkulation —Relative und absolute Adressierung..........                                         65
+                 Prozent oder Prozentpunkte - was ist hier gemeint?..................                                      67
+     2.4     Vermochte Übungen zur Proz^^^                                                                                 68
+     2.5     Zum Selbstlernen Zinsen für ‫ ן‬J a h r........................................................                 70
+     2.6     Zinsen für beliebige Zeitspannen.............................................................                 72
+             2.6.1      Zinsen für Bruchteile                                                                              72
+             2.6.2      Zinsen für mehrere Jahre...............................................................            74
+     2.7 Aufgaben zurVertiefung..............................................................................              76
+     Das Wichtigste auf einen Blick/ Bist du fit?                                                                          77
+
+3·   S ta tis tis c h e D a t e n                                                                                          79
+     Lernfeld Euro-Münzen von nah und fern...........................................................                      80
+     3.1  Absolute und relative Häufigkeiten und deren Darstellung..............                                           81
+                  Diagramme mit dem Computer...........................................................                    δδ
+4                                                                                                     Inhaltsvezeichnis
+
+
+
+
+        3.2     Bildliche D a rs te llu n g ■ Daten und ihre W irk u n g e n ....................                              90
+        3.3     Klasseneinteilung bei Stichproben...........................................................                   94
+        3.4     Arithmetisches M itte l-M d a lw e rt-S p a n n w e ite .. .                                                     97
+        3.5     Median...................................................................................................... 02‫ו‬
+                     Durchführen einer statistischen Erhebung........................................ ใ 06
+        3.6     Streuung bei Häufigkeitsverteilungen - Boxplots .......................... ใ 07
+                Statistische Daten im Kontext der Berufswahl . · · · ·· . · · ·· · · . · · . ·· ■· · ·· . · 10 ‫ו‬
+        Das Wichtigste auf einen Blick/ Bist du fit? .................................................... ‫ ו‬ใ ไ
+
+    4· R a t io n a le Z a h l e n                                                                                           113
+        Lernfeld Zahlen unter N u ll................................................................................. 114
+        4.1 Rationale Zahlen-Anordnung                                                                                115
+        4.2 Vergleichen und Ordnen............................................................................ 120
+        4.3     Zum Selbstlernen Koordinatensystem.................................................... 123
+        4.4     Beschreiben von Zustandsänderungen................................................... 125
+        4.5     Addieren rationaler Zahlen........................................................................ 128
+                4.5.1     Einführung der Addition-A d d it‫؛‬onsregel ..·············.··.····— 128
+                4.5.2     RechengesetzefUrdieAddition rationaler Zahlen··.···.···. ·..·.· 133
+                    Ebbe und Flut.........................................................................................   136
+        4.6     Subtrahieren rationaler Zahlen................................................................               138
+                4.6.1 Enführung der Subtraktion-Subtraktionsregel...................                                         138
+                4.6.2 Auflösen von Z          a h            l k l a m                        m          e r n               ‫ ו‬4‫ר‬
+        4.7     Multiplizieren rationaler Zahlen................................................................ 143
+                4.7.1 Einführung der Multiplikation - Multiplikationsregel............. 143
+                4.7.2 Rechengesetze der Multiplikation................................................ 148
+        4.8     Dividieren rationaler Zahlen..................................................................... 150
+                 Mindmaps............................................................................................... 154
+        4.9 Vermischte Übungen zu den Grundrechenarten.................................... 155
+        4.10 Terme-Distributivgesetz........................................................................... 158
+             4.10.1 Regeln fürdas Berechnen von Termen........................................ 158
+               4.10.2 Distributivgesetz............................................................................. 160
+       АЛЛ Vergleich der Zahlbereiche H Cf, Q und z .............................................. 163
+       4.12 Aufgaben zur Vertiefung.............................................................................. 164
+        Das Wichtigste auf einen B lic k /Bist du fit? .................................................... 165
+
+    5. G le ic h u n g e n m i t e in e r V a r ia b le n                                                                    167
+       Lernfeld Zahlen gesucht..................................................................................... 168
+       5.1 Variable und Gleichung............................................................................... 169
+       5.2 Lösen von Gleichungen durch Umformen............................................... 173
+            5.2.1 Lösen von Gleichungen des 丁外^ a ٠x + b = c
+                          - Umformungsregeln..................................................................... 173
+               5.2.2      Zum Selbstlernen Lösen einfacher Gleichungen
+                          des Typs a ٠x = b ٠x + c.................................................................... 178
+               5.2.3      Lösen von Gleichungen mit Zusammenfassen von
+                     Vielfachen einer Variablen............................................................. 180
+       5.3     Sonderfälle bei der Lösung^        ........................................................... 184
+                 Lösen von Gleichungen mit einem Computer-Algebra-System····· 186
+       5.4     Modellieren - Anwenden von Gleichungen............................................. 187
+     5.5     Verhältnisgleichungen................................................................................ 190
+     5.6     Umstellen von Formeln............................................................................. 192
+     5.7  Aufgaben zur Vertiefung............................................................................. 194
+     Das Wichtigste auf einen Blick/Bist du fit? .................................................... 95 ‫ו‬
+
+     Bleib fit im Umgang mit Winkeln in Figuren..................................................... 97 ‫ו‬
+
+6.    K o n g r u e n z - D r e ie c k e                                                                              201
+     Lernfeld Passgenaue Figuren............................................................................. 202
+     6.1 Kongruente Figuren.................................................................................... 203
+             Optische Täuschungen: Schau genau hin —miss nach ................ 206
+              Dynamisches Geometriesystem........................................................... 207
+     6.2     Dreieckskonstruktionen —Kongruenzsätze............................................... 209
+     6.3     Beweisen mithilfe der Kongruenzsätze.................................................... 219
+               Präsentieren auf Plakaten und Folien................................................ 223
+     6.4     Zum Selbstlernen Kreis und Geraden..................................................... 225
+     6.5     Besondere Punkte und Linien eines Dreiecks......................................... 227
+             6.5.1 Mittelsenkrechte - Umkreis eines Dreiecks.......................... 227
+             6.5.2 Winkelhalbierende-Inkreis eines D r e i e c k s . . . . . . . . 232
+             6.5.3 Seitenhalbierende-S c h w ^                                                   237
+             6.5.4     Höhen eines Dreiecks........................................................................238
+                  Eine Eigenschaft der besonderen Unien ỉm Dreieck . · · · · ·· · · ·· · . ·. . . . · 241
+                Konstruieren mit Zirkel und Lineal..................................................... 242
+     6.6     Satz des Thales............................................................................................ 244
+                  Thales von Milet..................................................................................... 247
+     Das Wichtigste auf einen Blick/ Bist du fit?....................................................... 248
+
+     Bleib fit im Umgang mit Flächen- und Rauminhalten.................................... 251
+
+7· B e r e c h n u n g e n a n V ie le c k e n u n a P r is m e n                                            …        253
+     Lernfeld Wie groß St···?....................................................................................... 254
+     7.1     Flächeninhalt eines Dreiecks.................................................................... 256
+     7.2     Flächeninhalt eines Parallelogramms....................................................... 260
+     7.3     Flächeninhalt von Trapez und Drachenviereck.........................................264
+     7.4     Zum Selbstlernen Flächeninhalt beliebiger Vielecke· · · ·· ·. · · ·· · . ·. · . ·· · · · 267
+                Flächeninhalt und Umfang krummlinig begrenzter Figuren......... 270
+     7.5     Netz und Oberflächeninhalt eines Prismas............................................. 271
+     7.6     Schrägbild eines Prismas........................................................................... 275
+     7.7     Volumen eines Prismas............................................................................... 279
+                Mit Schätzungen sachgerecht                                                                        284
+     7.8     Aufgaben zur Vertiefung.............................................................................. 285
+     Das Wichtigste auf einen Blick/ Bist du fit?..................................................... 286
+
+Anhang
+     Lösungen zu Bist du fit? ....................................................................................... 288
+     Einheiten und ihre Umrechnungen.................................................................... 293
+     Verzeichnis mathematischem                                                                                       294
+     Stichwortverzeichnis............................................................................................ 295
+     Bildquellenverzeichnis........................................................................................ 296
+
+
+== Ausgabe 2016, Klasse 8 ==
+
+    Über dieses Buch.............................................................................................   6
+
+    Bleib fit im Umgang mit den rationalen Zahlen.......................... .................                        9
+    Bleib fit im Umgang mit Gleichungen............................................................                 11
+
+1. T e rm e m i t m e h r e r e n V a r ia b le n                                                                   13
+    Lernfeld Klammern gewähren Vorrang.........................................................                     14
+    1.1 Aufstellen eines Terms mit Variablen...................................................                     15
+    1.2 Aufbau eines Terms..............................................................................            22
+         S Tabellenkalkulation und Terme.......................................................                     24
+    1.3 Addieren und Subtrahieren von Termen.............................................                           26
+         S Umgang mit Termen bei einem
+             Computer-Algebra-System (GAS)...................................................                       34
+    1.4 Multiplizieren und Dividieren von Termen...........................................                         35
+    1.5 Auflösen einer Klammer........................................................................              40
+    ) .6  Minuszeichen vor einer Klammer - Subtrahiereneiner Klammer........                                        47
+    1.7 Ausklammern.........................................................................................        49
+    1.8 Auflösen von zwei Klammern in einem Produkt..................................                               52
+    1.9 Zum Selbstlernen Binomische Formeln.............................................                            55
+    1.10 Faktorisieren einer Summe...................................................................               58
+    1.11 Formeln-Gleichungen mit Parametern..............................................                           60
+         1.11.1 Umformen von Formeln.............................................................                   60
+         1.11.2 Lösen von Gleichungen mit Parametern...................................                             62
+         ® Trapez - Formeln erforschen.......................................... ...............                    63
+    1.12 Gleichungen vom Typ T v T2 = 0 ............................................................                64
+    1.13 Verhältnisgleichungen...........................................................................           66
+    1.14 Aufgaben zur Vertiefung........................................................................            68
+    Das Wichtigste auf einen Blick/Bist du fit? ..................................................                  69
+
+2. L in e a r e F u n k t io n e n ..............................................................................   71
+    Lernfeld Eindeutig gerade.............................................................................. 72
+    2.1 Funktionen als eindeutige Zuordnungen............................................. 73
+         S Graphen mit Computer oder GTR zeichnen.................................... 81
+    2.2 Lineare Funktionen mit der Funktionsgleichungy = m x...................... 83
+         2.2.1 Graph linearer Funktionen mit der Funktionsgleichung y = m-x. 83
+         2.2.2 Steigung - Steigungsdreieck - Änderungsrate............................. 89
+    2.3 Lineare Funktionen mit der Funktionsgleichungy = mx + n ................. 96
+    2.4 Zum Selbstlernen Nullstellen linearer Funktionen -
+         Lösen linearer Gleichungen................................................                         103
+    2.5 Geraden durch Punkte-Aufstellen linearer Funktionsgleichungen.... 106
+         2.5.1 Geraden durch zwei Punkte......................................................... 106
+         2.5.2 Näherungsgeraden....................................................................... 108
+    2.6 Vermischte Übungen.............................................................................. 111
+         S Energie sparen................................................................................. 113
+    2.7 Aufgaben zur Vertiefung......................................................................... 114
+    Das Wichtigste auf einen Blick/ Bist du fit?.................................................. 115
+3. Z u f a l l u n d W a h r s c h e in lic h k e it ..........................................................117
+    Lernfeld Alles Z ufall!....................................................................................... 118
+    3.1 Wahrscheinlichkeiten............................................................................. 119
+    3.2 Ereignisse und ihre Wahrscheinlichkeiten............................................ 126
+    3.3 Laplace-Experimente............................................................................. 128
+    3.4 Zurückführen eines Zufallsexperiments auf einLaplace-Experiment.. 132
+    3.5 Bestimmen von Wahrscheinlichkeiten durch Simulation.................... 134
+         $ Regenwahrscheinlichkeit................................................................. 137
+    Das Wichtigste auf einen Blick/Bist du fit? .................................................. 138
+
+4. W u r z e ln - S a tz d e s P y t h a g o r a s .........................................................139
+    Lernfeld Seitenlangen gesucht...................................................................... 140
+    4.1 Quadrat- und Kubikwurzeln................................................................... 141
+    4.2 Satz des Pythagoras............................................................................... 144
+    4.3 Berechnen von Streckenlängen............................................................ 149
+         ® Modellieren mit geometrischen Figuren......................................... 158
+    4.4 Umkehrung des Satzes des Pythagoras................................................ 160
+    4.5 Aufgaben zur Vertiefung......................................................................... 162
+    Das Wichtigste auf einen Blick/ Bist du fit?.................................................. 163
+
+    Bleib fit im Umgang mit Flächeninhalt und Volumen................................... 165
+
+5. B e r e c h n u n g e n a n K r e is e n u n d Z y l i n d e r n ................................. 167
+    Lernfeld Mit Körpern und Figuren experimentieren..................................... 168
+    5.1 Umfang eines Kreises............................................................................. 169
+    5.2 Flächeninhalt eines Kreises................................................................... 172
+    5.3 Kreisausschnitt und Kreisbogen............................................................ 177
+         $ Die Zahl Ti in der Geschichte der Menschheit................................... 180
+    5.4 Zylinder - Netz und Oberflächeninhalt.................................................. 181
+    5.5 Zum Selbstlernen Schrägbild des Zylinders......................................... 183
+    5.6 Volumen des Zylinders.......................................................................... 184
+         ® Modellieren mit Körpern.................................................................. 188
+    5.7 Zum Selbstlernen Berechnungen an zusammengesetzten Körpern ... 190
+    Das Wichtigste auf einen Blick/ Bist du fit?.................................................... 193
+
+6. L in e a r e G le ic h u n g s s y s te m e ................................................................195
+    Lernfeld Geraden mit System......................................................................... 196
+    6.1 Lineare Gleichungen der Form ax + by = c............................................. 197
+    6.2 Systeme linearer Gleichungen - Grafisches Lösungsverfahren........... 203
+    6.3 Gleichsetzungsverfahren......................................................................... 208
+    6.4 Zum Selbstlernen Einsetzungsverfahren............................................... 210
+    6.5 Additionsverfahren.................................................................................. 211
+    6.6 Sonderfälle beim rechnerischen Lösen...................................................214
+    6.7 Vermischte Übungen................................................................................216
+         $ Lösen linearer Gleichungssysteme mithilfe des GTR.......................217
+    6.8 Modellieren mithilfe linearer Gleichungssysteme................................. 219
+         ® Verschiedene Verfahren zum Lösen von Gleichungssystemen:
+         Tabelle, Graph oder Gleichung?.............................................................. 225
+    6.9 Systeme von mehr als zwei linearen Gleichungen mit mehr als zwei
+         Variablen.................................................................................................. 227
+    6.10 Aufgaben zur Vertiefung.......................................................................... 230
+    Das Wichtigste auf einen Blick/ Bist du fit?....................................................231
+
+7. Ähnlichkeit.................................................................................233
+   Lernfeld Gleiche Form - andere Größe.............................................................. 234
+   7.1 Ähnliche Vielecke.................................................................................... 235
+   7.2 Zum Selbstlernen Flächeninhalt bei zueinander ähnlichen Vielecken .. 241
+        $ Volumen bei zueinander ähnlichen Quadern....................................... 243
+        ® Arbeit im Team organisieren.................................................................244
+   7.3 Ähnlichkeitsabbildungen - Zentrische Streckung.....................................246
+   7.4 Ähnlichkeit bei beliebigen Figuren............................................................250
+   7.5 Ähnlichkeitssatz für Dreiecke.................................................................... 252
+   7.6 Beweisen mithilfe des Ähnlichkeitssatzes.................................................254
+   7.7 Berechnen von Streckenlängen................................................................ 256
+        $ Mess-und Zeichengeräte selbst gebaut................................................261
+   7.8 Aufgaben zur Vertiefung......................................................................... 262
+   Das Wichtigste auf einen Blick/ Bist du fit?..................................................... 263
+
+Anhang
+   Lösungen zu Bist du fit? .................................................................                   265
+   Verzeichnis mathematischer Symbole.............................................................270
+   Stichwortverzeichnis........................................................................................ 271
+   Bildquellenverzeichnis.................................................................................... 272
+
+
+== Ausgabe 2016, Klasse 9 ==
+
+    Über dieses Buch...........................................................................................................       6
+
+
+1. Q u a d r a t w u r z e l n u n d r e e l l e Z a h l e n ......................................................                   9
+     Lernfeld Entdeckungen an Zahlen............................................................................                     10
+     1.1     Quadratwurzeln..................................................................................................        11
+             1.1.1      Näherungswerte für Quadratwurzeln................................................                            11
+             1.1.2      Irrationale Zahlen..................................................................................         12
+     1.2     Reelle Zahlen.......................................................................................................    16
+     1.3    Intervallhalbierungsverfahren...........................................................................                 18
+             $    Schnelle Berechnung von Wurzeln mit dem Heron-Verfahren..............                                              20
+     1.4    Rechenregeln für Quadratwurzeln und ihre Anwendung.............................                                          22
+     1.5     Anwenden der Wurzelgesetze auf Terme mit Variablen..............................                                        26
+     1.6     Zum Selbstlernen Umformen von Wurzeltermen........................................                                      31
+     1.7    Vergleich der Zahlbereiche N, Q +, Q und (R......................................................                        33
+             $    Wie viele rationale und irrationale Zahlen gibt es?.................................                               35
+     1.8     Wurzelgleichungen.............................................................................................          37
+     1.9     Aufgaben zur Vertiefung...................................................................................              39
+             ® Rechnen mit Näherungswerten.................................................................                          40
+     Das Wichtigste auf einen Blick/Bist du fit? ...........................................................                         41
+
+
+     Bleib fit im Umgang mit linearen Funktionen.........................................................                            43
+
+
+2. Q u a d r a t i s c h e Z u s a m m e n h ä n g e ...............................................................                 45
+     Lernfeld Krumm und doch symmetrisch..................................................................                           46
+     2.1     Quadratische Funktionen - Definition............................................................                        47
+     2.2     Normalparabel - Gleichungen der Form x2 = r ...............................................                             50
+     2.3     Verschieben der Normalparabel......................................................................                     53
+             2.3.1      Verschieben der Normalparabel parallel zur y-Achse......................                                     53
+             2.3.2      Verschieben der Normalparabel parallel zur x-Achse -
+                        Gleichungen der Form (x + d)2 = r ........................................................                   56
+             2.3.3      Verschieben der Normalparabel in beliebiger Richtung -
+                        Scheitelpunktform - Quadratische Gleichungen der Form
+                        x2 + px + q = 0 ..........................................................................................   59
+     2.4     Strecken und Spiegeln der Normalparabel....................................................                             64
+     2.5     Strecken und Verschieben der Normalparabel - Gleichungen der
+             Form ax2 + bx + c = 0 ............................................................................................      71
+             $    Bremsen und Anhalten von Fahrzeugen...................................................                             78
+     2.6     Strategien zum Lösen quadratischer Gleichungen......................................                                    80
+     2.7     Linearfaktorzerlegung quadratischer Terme.................................................                              83
+     2.8     Schnittpunkte von Parabeln und Geraden.....................................................                             87
+             $    Goldener Schnitt..........................................................................................         90
+     2.9     Zum Selbstlernen Modellieren - Anwenden von quadratischen
+             Gleichungen........................................................................................................     92
+     2.10 Optimierungsprobleme mit quadratischen Funktionen-
+               Lösungsstrategien...............................................................................................         95
+     2.11      Methode der Substitution - Biquadratische Gleichungen..........................                                          99
+               © Näherungslösungen und exakte Lösungen............................................... 106
+     2.12 Quadratwurzelfunktion - Umkehrfunktion.................................................... 101
+      Das Wichtigste auf einen Blick/Bist du fit?............................................................. 108
+
+
+      Bleib fit im Umgang mit statistischen Kennwerten................................................ 111
+
+
+3 . S t a t is t is c h e A u s w e r t u n g v o n D a t e n                                                                         m
+      Lernfeld Aufgepasst beim Darstellen und Auswerten von Daten......................... 114
+     3.1       Streuung - Standardabweichung..................................................................... 115
+     3.2       Analyse von grafischen Darstellungen............................................................ 121
+               $    Statistische Daten visualisieren und Trendlinien einfügen................... 126
+     3.3       Irreführende Anwendung des arithmetischen Mittels.................................. 127
+     3.4       Aufgaben zur Vertiefung.................................................................................... 130
+      Das Wichtigste auf einen Blick/ Bist du fit?........................................................... 131
+
+
+4 . T r i g o n o m e t r i e .......................................................................................................... 133
+      Lernfeld Alles über Dreiecke...................................................................................... 134
+     4.1       Sinus, Kosinus und Tangens............................................................................. 135
+     4.2       Bestimmen von Werten für Sinus, Kosinus und Tangens - Zusammen­
+               hänge .................................................................................................................. 139
+     4.3       Berechnungen in rechtwinkligen Dreiecken................................................... 142
+     4.4       Zum Selbstlernen Berechnungen in gleichschenkligen Dreiecken........... 147
+     4.5       Berechnungen in beliebigen Dreiecken.......................................................... 149
+               4.5.1      Sinussatz................................................................................................. 149
+               4.5.2       Kosinussatz............................................................................................. 154
+     4.6       Vermischte Übungen........................................................................................... 159
+               $    Wie hoch ist eigentlich... euer Schulgebäude?......................................... 160
+     4.7       Aufgaben zur Vertiefung.................................................................................... 162
+     Das Wichtigste auf einen Blick/Bist du fit?.............................................................. 1635
+
+
+5. P o te n z e n u n d P o t e n z f u n k tio n e n                                                                                 165
+     Lernfeld Mit „...hoch...“ hoch hinaus......................................................................... 166
+     5.1       Potenzen mit ganzzahligen Exponenten........................................................ 167
+               5.1.1       Definition und Anwendung der Potenzen mit natürlichen
+                           Exponenten............................................................................................. 167
+               5.1.2       Erweiterung des Potenzbegriffs auf negative ganzzahlige
+                           Exponenten............................................................................................. 172
+     5.2       Potenzen mit rationalen Exponenten.............................................................. 177
+               5.2.1       Potenzen mit Stammbrüchen als Exponenten - n-te Wurzeln....... 177
+               5.2.2       Potenzen mit rationalen Exponenten................................................ 181
+               $    Kleine Anteile - große W irkung.................................................................. 185
+  5.3     Potenzgesetze und ihre Anwendung............................................................... 187
+          5.3.1      Multiplizieren und Potenzieren von Potenzen.................................. 187
+          5.3.2      Zum Selbstlernen Dividieren von Potenzen..................................... 195
+          5.3.3      Vermischte Übungen zu den Potenzgesetzen - Wurzelgesetze..... 197
+          $    Stimmung einer Tonleiter........................................................................... 199
+  5.4     Potenzfunktionen.............................................................................................. 200
+          5.4.1      Potenzfunktionen mit natürlichen Exponenten............................... 200
+          5.4.2      Potenzfunktionen mit negativen ganzzahligen Exponenten......... 204
+          5.4.3      Potenzfunktionen mit gebrochenrationalenExponenten............... 208
+  5.5     Wurzelfunktionen - Umkehrfunktionen.......................................................... 210
+          $    Straßenabnutzung - Vierte-Potenz-Regel................................................ 211
+  5.6     Zum Selbstlernen Verschieben und Strecken der Graphen der
+          Potenzfunktionen.............................................................................................. 212
+  5.7     Lösungsmenge von Potenzgleichungen.......................................................... 217
+  Das Wichtigste auf einen Blick/Bist du fit?.............................................................. 220
+
+
+Anhang
+  Lösungen zu Bist du fit?................................................................................................ 222
+  Stichwortverzeichnis.................................................................................................... 231
+  Bildquellenverzeichnis................................................................................................. 232
+
+
+== Ausgabe 2016, Klasse 10 ==
+
+     Über dieses Buch.........................................................................................................                6
+
+
+1.   M o d e l l i e r e n p e r io d is c h e r V o r g ä n g e ....................................................                         9
+     Lernfeld Hin und her - rauf und runter...................................................................                               10
+     1.1      Periodische Vorgänge......................................................................................                     11
+     1.2     Sinus und Kosinus am Einheitskreis...............................................................                               15
+     1.3     Sinus- und Kosinusfunktion mit [Rais Definitionsbereich...........................                                              19
+              1.3.1      Bogenmaß eines Winkels.....................................................................                         19
+              1.3.2       Definiton der Sinus- und Kosinusfunktion........................................                                   21
+              1.3.3       Eigenschaften der Sinus- und Kosinusfunktion..............................                                         23
+     1.4     Strecken des Graphen der Sinusfunktion.......................................................                                   26
+     1.5     Zum Selbstlernen Verschieben des Graphen der Sinusfunktion...............                                                       32
+     1.6     Allgemeine Sinusfunktion................................................................................                        35
+     1.7      Modellieren mit allgemeinen Sinusfunktionen.............................................                                       40
+             ® Parametervariation - Abbilden von Funktionsgraphen........................                                                    44
+     1.8     Aufgaben zur Vertiefung..................................................................................                       46
+             $     Spiralen.........................................................................................................         47
+     Das Wichtigste auf einen Blick/Bist du fit? ..........................................................                                  49
+
+
+2. P y r a m i d e , K e g e l, K u g e l                                                                                                    51
+     Lernfeld Wie groß ist...?.............................................................................................                  52
+     2.1      Oberflächeninhalt von Pyramide und Kegel................................................                                       53
+             2.1.1       Pyramide - Netz und Oberflächeninhalt...........................................                                    53
+             2.1.2       Kegel - Netz und Oberflächeninhalt..................................................                                57
+     2.2     Volumen von Pyramide und Kegel..................................................................                                60
+             2.2.1       Satz des Cavalieri.................................................................................                 60
+             2.2.2       Volumen der Pyramide.........................................................................                       62
+             2.2.3       Volumen des Kegels......... ...................................................................                     67
+     2.3      Kugel       ................................................................................................................   71
+             2.3.1       Volumen der Kugel....................................................                                               71
+             2.3.2       Oberflächeninhalt der Kugel..............................................................                           74
+             ® Arbeiten mit der Formelsammlung..........................................................                                     77
+     2.4     Vermischte Übungen.........................................................................................                     79
+             $     Dreitafelprojektion...................................................................................                    81
+     Das Wichtigste auf einen Blick/Bist du fit?.............................................................                                83
+
+
+3. W a c h s t u m s p r o z e s s e - E x p o n e n t i a l f u n k t i o n e n ............................                                85
+     Lernfeld Schnell hinunter, hoch hinaus.............                                                                                     86
+     3.1      Beschreibung exponentieller Prozesse..........................................................                                 88
+              3.1.1      Lineares und exponentielles Wachstum...........................................                                     88
+              3.1.2      Prozentuale Wachstumsrate...............................................................                            92
+              3.1.3      Exponentielle Abnahme - Zerfall.......................................................                              94
+             $     Mittelwerte bei Zunahme- und Abnahmeprozesse................................                                              97
+     3.2      Exponentialfunktionen und ihre Eigenschaften...........................................                                        99
+              3.2.1      Die Exponentialfunktionen mit y = bx mit b>0; b * 1 ...................                                             99
+              3.2.2      Potenzen mit irrationalen Exponenten............................................ 104
+    3.3     Zum Selbstlernen Verschieben und Strecken der Graphen der
+            Exponentialfunktionen.....................................................................................          106
+    3.4     Bestimmen von Exponentialfunktionen in Anwendungen.......................... 111
+    3.5     Wachstum modellieren - Regression............................................................. 114
+    3.6     Logarithmen - Exponentialgleichungen........................................................ 117
+            3.6.1      Logarithmen.............................................................................                 117
+           3.6.2       Lösen von Exponentialgleichungen...................................................                      120
+           3.6.3       Logarithmengesetze............................................................................. 123
+    3.7     Logarithmusfunktionen................................................................................               125
+    3.8    Aufgaben zur Vertiefung................................................................................... 128
+    Das Wichtigste auf einen Blick/Bist du fit?............................................................. 129
+
+
+    Bleib fit im Umgang mit Wahrscheinlichkeiten...................................................... 131
+
+
+4. M e h r s t u f ig e Z u f a lls e x p e r im e n te                                                                         133
+    Lernfeld Ein Zufall nach dem anderen............................................. ...................... 134
+    4.1     Mehrstufige Zufallsexperimente - Baumdiagramme................................... 135
+    4.2     Pfad regeln........................................................................................................... 139
+           $     Klassische Probleme aus der Geschichte der Wahrscheinlichkeits­
+            rechnung............................................................................................................ 147
+    4.3     Ziehen mit und ohne Zurücklegen.................................................................. 149
+    4.4     Ziehen mit einem Griff....................................................................................... 156
+            4.4.1      Anzahl der Möglichkeiten beim Ziehen mit einem Griff.................. 156
+            4.4.2      Wahrscheinlichkeiten beim Ziehen mit einem Griff........................ 160
+            ® Ein Pascal'sches Dreieck für die Eisdiele.................................................. 163
+    4.5     Simulation von Zufallsexperimenten............................................................. 165
+    4.6     Aufgaben zur Vertiefung........................                                                                     168
+    Das Wichtigste auf einen Blick/ Bist du fit?............................................................ 169
+
+
+5 . G a n z r a t i o n a l e F u n k t i o n e n - Ä n d e r u n g s v e r h a l t e n ..................... m
+    Lernfeld Maximal steil - Maximal groß.........................                                                              172
+    5.1     Ganzrationale Funktionen........................................................                                    173
+    5.2     Globalverlauf ganzrationaler Funktionen...................................................... 176
+    5.3     Zum Selbstlernen Symmetrie von Graphen ganzrationaler Funktionen . 1 7 9
+    5.4     Nullstellen ganzrationaler Funktionen.......................................................... 182
+            5.4.1      Bestimmen von Nullstellen................................................................. 182
+            5.4.2      Anzahl der Nullstellen einer ganzrationalen Funktion.................... 185
+    5.5     Zum Selbstlernen Polynomdivision.............................................................. 192
+    5.6     Änderungsraten und Steigungen.......................................................                                197
+    5.7     Ableitung - Tangentensteigung und Änderungsrate................................... 201
+            5.7.1      Steigung eines Funktionsgraphen in einem Punkt - Ableitung..... 201
+            5.7.2      Lokale Änderungsrate - Ableitung..................................................... 205
+    5.8     Graph der Ableitungsfunktion......................................................................... 209
+            ® Mit Mindmaps Übersicht gewinnen.......................................................... 217
+            ® Funktionsklassen gegenüberstellen......................................................... 218
+    Das Wichtigste auf einen Blick/Bist du fit? .......................................................... 220
+Anhang
+  Lösungen zu Bist du fit?............................................................................................... 223
+  Stichwortverzeichnis...............................................................................                  231
+  Bildquellenverzeichnis................................................................................................ 232
+
+
+== Ausgabe 2025, Klasse 5 ==
+
+1 Daten und Zahlen
+1.1  Meine Klasse und ich                     10
+1.2  Natürliche Zahlen auf dem Zahlenstrahl   14
+1.3  Das Zehnersystem                         16
+1.4  Große Zahlen                             18
+1.5  Runden                                   20
+1.6  Diagramme mit großen Zahlen              22
+     Das Zweiersystem                         25
+     Römische Zahlzeichen                     26
+Mein Merkzettel                               27
+Wiederholen für die Klassenarbeit             28
+
+
+
+2 Größen
+2.1  Längen messen                            32
+2.2 Längeneinheiten umrechnen                 34
+2.3 Maßstäbe                                  37
+2.4 Massen                                    40
+2.5 Zeiten und Zeitspannen                    42
+Mein Merkzettel                               44
+Wiederholen für die Klassenarbeit             46
+
+
+
+3 Rechnen mit natürlichen Zahlen
+3.1  Addieren und Subtrahieren                50
+3.2  Schriftliches Addieren                   53
+3.3  Schriftliches Subtrahieren               55
+3.4  Multiplizieren und Dividieren            57
+3.5  Schriftliches Multiplizieren             60
+3.6  Schriftliches Dividieren                 62
+3.7  Potenzen                                 65
+3.8  Vorrangregeln                            67
+3.9  Rechengesetze                            71
+3.10 Textaufgaben                             75
+     Umgang mit Texten - Strategien           78
+Mein Merkzettel                               80
+Wiederholen für die Klassenarbeit             82
+
+
+
+4 Teilbarkeit
+4.1  Teiler und Vielfache                     86
+4.2  Teilbarkeitsregeln                       88
+4.3  Primzahlen                               91
+     Der größte gemeinsame Teiler             94
+     Das kleinste gemeinsame Vielfache        95
+Mein Merkzettel                               96
+Wiederholen für die Klassenarbeit             97
+5 Geometrie in der Ebene - Winkel
+5.1 Senkrechte und parallele Geraden             100
+5.2 Abstände                                     103
+5.3 Koordinatensystem                            106
+5.4 Kreise                                       108
+5.5 Winkel                                       110
+5.6 Winkel messen                                113
+5.7 Winkel zeichnen                              115
+5.8 Winkel an Geradenkreuzungen                  117
+Mein Merkzettel                                  120
+Wiederholen für die Klassenarbeit                122
+
+
+
+
+O Abbildungen
+6.1 Verschiebungen                               126
+6.2 Achsenspiegelung                             128
+     Mathematik beim Billard und beim Minigolf   131
+6.3 Punktspiegelung                              132
+6.4 Drehungen                                    134
+6.5 Eigenschaften von Abbildungen                136
+6.6 Kongruente Figuren                           138
+Mein Merkzettel                                  140
+Wiederholen für die Klassenarbeit                141
+
+
+
+
+/ Flächeninhalt
+7.1  Achsensymmetrische Figuren                  144
+7.2  Punktsymmetrische Figuren                   146
+7.3  Besondere Vierecke                          148
+      Haus der Vierecke                          152
+7.4 Winkel in Dreiecken                          153
+      Außenwinkel am Dreieck                     156
+7.5 Symmetrische Dreiecke                        157
+      Zeichnen mit einem Dynamischen
+      Geometrie-System (DGS)                     160
+Mein Merkzettel                                  162
+Wiederholen für die Klassenarbeit                164
+8 Flächeninhalt
+8.1  Flächeninhalt und Umfang messen                     168
+8.2  Flächeneinheiten                                    170
+8.3  Rechtecke                                           174
+8.4  Zerlegen und Ergänzen                               177
+8.5  Flächenberechnung im Alltag                         179
+     Schätzmethoden                                      180
+Mein Merkzettel                                          181
+Wiederholen für die Klassenarbeit                        182
+
+
+
+
+9 Brüche
+9.1  Anteile mit Brüchen angeben                         186
+9.2  Erweitern und Kürzen                                191
+9.3  Brüche vergleichen                                  194
+9.4  Gemischte Schreibweise                              197
+9.5  Brüche auf dem Zahlenstrahl                         198
+9.6  Brüche und natürliche Zahlen - multiplizieren und
+     dividieren                                          200
+9.7  Brüche und Prozente                                 202
+     Brüche in der Musik                                 204
+Mein Merkzettel                                          205
+Wiederholen für die Klassenarbeit                        207
+
+
+
+
+      Vorbereiten und Wiederholen
+3-Minuten-Runden                                         212
+Vorbereiten                                              216
+Mathematische Symbole und Sprechweisen                   219
+
+Lösungen                                                 221
+
+Stichwortverzeichnis                                     252
+
+Bildquellenverzeichnis                                   254
+
+
+== Ausgabe 2025, Klasse 6 ==
+
+Inhaltsverzeichnis                                                3
+
+
+
+
+                     1 Brüche
+                     1.1  Anteile mit Brüchen angeben       10
+                     1.2  Erweitern und Kürzen              15
+                     1.3  Brüche vergleichen                18
+                     1.4  Gemischte Schreibweise            21
+                     1.5  Brüche auf dem Zahlenstrahl       22
+                     1.6  Brüche und natürliche Zahlen -
+                           multiplizieren und dividieren     24
+                     1.7 Brüche und Prozente                26
+                          Brüche in der Musik               28
+                     Mein Merkzettel                        29
+                     Wiederholen für die Klassenarbeit      31
+
+
+
+
+                     2 Rechnen mit Brüchen
+                     2.1  Grundvorstellungen von Brüchen    36
+                     2.2 Brüche addieren und subtrahieren   40
+                     2.3 Brüche multiplizieren              44
+                     2.4 Brüche dividieren                  47
+                     2.5 Vermischtes zur Bruchrechnung      50
+                     2.6 Rechenausdrücke                    52
+                     Mein Merkzettel                        56
+                     Wiederholen für die Klassenarbeit      58
+
+
+
+
+                     3 Dezimalzahlen
+                     3.1  Dezimalschreibweise               64
+                     3.2 Addieren und Subtrahieren          67
+                     3.3 Dezimalzahlen multiplizieren       69
+                     3.4 Dezimalzahlen dividieren           72
+                     3.5 Dezimalzahlen im Alltag            75
+                     3.6 Brüche und Dezimalzahlen            77
+                     Mein Merkzettel                        80
+                     Wiederholen für die Klassenarbeit      82
+4                                              Inhaltsverzeichnis
+
+
+
+
+    4 Körper
+    4.1   Geometrische Körper                                 86
+    4.2   Zusammengesetzte Körper                             89
+          Würfelhäuser                                        91
+    4.3  Netze                                                92
+    4.4  Schrägbilder                                         95
+         Verrückte Schrägbilder                               98
+    Mein Merkzettel                                           99
+    Wiederholen für die Klassenarbeit                        100
+
+
+
+
+    5 Rauminhalt von Körpern
+    5.1  Rauminhalte messen                                  104
+         Raumvorstellung                                     106
+         Somawürfel                                          107
+    5.2 Volumeneinheiten                                     108
+    5.3 Volumen von Flüssigkeiten                            111
+    5.4 Volumen eines Quaders                                113
+    5.5 Zusammengesetzte Körper                              116
+    5.6 Oberflächeninhalt eines Quaders                      117
+    Mein Merkzettel                                          119
+    Wiederholen für die Klassenarbeit                        120
+
+
+
+
+    6 Statistische Daten
+    6.1  Absolute und relative Häufigkeiten                   124
+    6.2  Daten darstellen                                     126
+    6.3  Kenngrößen von Daten                                 130
+         Daten darstellen mit Tabellenkalkulation             131
+    6.4 Daten erheben und auswerten                           132
+    6.5 Anzahlen bestimmen - Zählprinzip                      134
+    6.6 Zufallsexperimente                                    136
+    Mein Merkzettel                                          138
+    Wiederholen für die Klassenarbeit                        139
+Inhaltsverzeichnis                                                   5
+
+
+
+
+                     7 Zuordnungen
+                     7.1   Zuordnungstabellen                  142
+                            Füllgraphen                        145
+                     7.2 „Je mehr- desto...“-Zuordnungen       146
+                     7.3 Direkt proportionale Zuordnungen      148
+                     7.4 Dreisatz - direkte Proportionalität   150
+                     Mein Merkzettel                           153
+                     Wiederholen für die Klassenarbeit         154
+
+
+
+
+                     8 Terme und Gleichungen
+                     8.1  Zahlenfolgen und Terme               158
+                          Tabellenkalkulation und Terme        162
+                     8.2  Gleichungen                          164
+                     Mein Merkzettel                           167
+                     Wiederholen für die Klassenarbeit         167
+
+
+
+
+                           Vorbereiten und Wiederholen
+                     3-Minuten-Runden                          170
+                     Wissensspeicher                           174
+                     Mathematische Symbole und Sprechweisen    190
+
+                     Lösungen                                  193
+
+                     Stichwortverzeichnis                      221
+
+                     Bildquellenverzeichnis                    223
+
+
+== Ausgabe 2025, Klasse 7 ==
+
+1 Rationale Zahlen
+1.1   Vom Zahlenstrahl zur Zahlengeraden             10
+1.2  Betrag einer Zahl                               14
+1.3  Koordinatensystem                               15
+1.4  Zustände und Änderungen                         17
+     Wettlauf auf der Zahlengeraden                  19
+     Schuldenspiel                                   19
+1.5 Addieren rationaler Zahlen                       20
+1.6 Subtrahieren rationaler Zahlen                   22
+1.7 Addieren und Subtrahieren üben                   23
+1.8 Multiplizieren und Dividieren                    25
+1.9 Rechenregeln anwenden                            27
+Mein Merkzettel                                      31
+Wiederholen für die Klassenarbeit                    32
+
+
+2 Zuordnungen und Proportionalität
+2.1  Tabellen und Graphen                            36
+     Füllgraphen                                     39
+2.2 Direkt proportionale Zuordnungen                 40
+2.3 Dreisatz - direkt proportional                   42
+2.4 Quotientengleichheit - Proportionalitätsfaktor   44
+2.5 Indirekt proportionale Zuordnungen               46
+2.6 Dreisatz - indirekt proportional                 48
+2.7 Produktgleichheit - Gesamtgröße                  50
+2.8 Zuordnungen anwenden                             52
+Mein Merkzettel                                      54
+Wiederholen für die Klassenarbeit                    55
+
+
+3 Prozent- und Zinsrechnung
+3.1  Anteile                                         60
+3.2 Prozentsatz                                      62
+3.3 Prozentwert                                      64
+3.4 Grundwert                                        66
+3.5 Vermischte Aufgaben                              68
+3.6 Prozentuale Zunahme und Abnahme                  70
+3.7 Zinsen berechnen                                 74
+3.8 Zinseszins                                       76
+3.9 Zinseszins mit Tabellenkalkulation               78
+Mein Merkzettel                                      80
+Wiederholen für die Klassenarbeit                    82
+4 Terme
+4.1  Terme mit einer Variablen                  86
+     Digitale Werkzeuge - Tabellenkalkulation   89
+4.2 Zusammenfassen von Termen                   90
+4.3 Terme mit mehreren Variablen                92
+4.4 Umformen von Termen                         93
+Mein Merkzettel                                 96
+Wiederholen für die Klassenarbeit               97
+
+
+
+5 Gleichungen
+5.1 Gleichungen                                 100
+5.2 Gleichungen systematisch lösen              102
+5.3 Sachaufgaben                                105
+5.4 Lösungsmengen                               108
+5.5 Formeln umstellen                           109
+5.6 Verhältnisgleichungen                       111
+Mein Merkzettel                                 113
+Wiederholen für die Klassenarbeit               114
+
+
+
+Q Kreise, Dreiecke und Winkel
+6.1 Kongruente Figuren                          118
+6.2 Kongruenzsätze                              120
+6.3 Konstruieren von Dreiecken                  126
+6.4 Kreise und Geraden                          128
+6.5 Mittelsenkrechte                            130
+6.6 Umkreis eines Dreiecks                      132
+6.7 Winkelhalbierende                           134
+6.8 Inkreis eines Dreiecks                      136
+6.9 Peripherie-und Zentriwinkel                 138
+6.10 Satz des Thales                            140
+      Thales von Milet                          143
+6.11 Seitenhalbierende und Höhe                 144
+      Besondere Punkte im Dreieck               146
+Mein Merkzettel                                 147
+Wiederholen für die Klassenarbeit               149
+7 Flächeninhalt von Figuren
+7.1  Parallelogramm                        154
+7.2  Dreieck                               157
+7.3  Trapez                                160
+7.4  Vieleck                               162
+7.5  Umfang eines Kreises                  164
+7.6  Flächeninhalt eines Kreises           166
+      Kreiszahl k                          168
+7.7 Kreisteile                             169
+Mein Merkzettel                            171
+Wiederholen für die Klassenarbeit          172
+
+
+
+8 Prismen und Zylinder
+8.1  Prismen und Zylinder                  176
+8.2  Prisma: Netz und Oberflächeninhalt    179
+     3D-Geometrie mit DGS                  182
+8.3 Schrägbild eines Prismas               183
+8.4 Volumen eines Prismas                  185
+8.5 Zylinder: Netz und Oberflächeninhalt   187
+8.6 Schrägbild eines Zylinders             189
+8.7 Volumen eines Zylinders                190
+     Modellieren mit Körpern               192
+8.8 Zweitafelbilder                        194
+Mein Merkzettel                            196
+Wiederholen für die Klassenarbeit          197
+
+
+9 Statistik
+9.1  Daten darstellen                      200
+     Diagramme mit Tabellenkalkulation     202
+9.2 Wirkung von Diagrammen                 204
+9.3 Mittelwerte                            206
+     Kenngrößen mit Tabellenkalkulation    209
+9.4 Klasseneinteilung von Stichproben      210
+9.5 Boxplots lesen und erstellen           212
+Mein Merkzettel                            214
+Wiederholen für die Klassenarbeit          215
+
+
+      Vorbereiten und Wiederholen
+3-Minuten-Runden                           218
+Wissensspeicher                            222
+Mathematische Symbole und Sprechweisen     241
+
+Lösungen                                   244
+Stichwortverzeichnis                       284
+
+

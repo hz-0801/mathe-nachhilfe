@@ -1,0 +1,602 @@
+Klett, "Schnittpunkt Mathematik", Differenzierende Ausgabe ab 2017 (Berlin,
+Brandenburg u. a.). Inhaltsverzeichnisse Klasse 7-10 aus den DNB-Saetzen
+(TOC-PDF-Anhang /04), Schulbuch-ISBNs ueber die klett.de-Suche ermittelt
+(Filter: Bundesland Berlin, Schulbuch), in der DNB bestaetigt und mit
+pdftotext -layout extrahiert am 24.09.2026.
+
+Kl. 7:  ISBN 9783127445718, IDN 1170800246, https://d-nb.info/1170800246/04
+Kl. 8:  ISBN 9783127445817, IDN 1192031407, https://d-nb.info/1192031407/04
+Kl. 9:  ISBN 9783127445916, IDN 1220925136, https://d-nb.info/1220925136/04
+Kl. 10: ISBN 9783127445015, IDN 1245388363, https://d-nb.info/1245388363/04
+
+(C) Klett - Gliederung als Beleg, keine Aufgaben.
+
+Sehr sauberer Rohtext (kein zweispaltiges Layout, keine Schriftcodierungs-
+fehler). Kapitelfolge (erste Ebene):
+
+Klasse 7: 1 Rationale Zahlen (10), 2 Dreiecke (47), 3 Rechnen mit Termen (81),
+4 Gleichungen. Ungleichungen (103), 5 Vierecke (125), 6 Proportional.
+Antiproportional (147), 7 Prozente (177), 8 Wahrscheinlichkeit (203)
+
+Klasse 8: 1 Terme und Gleichungen (8), 2 Geometrische Abbildungen (40),
+3 Lineare Funktionen (58), 4 Umfang und Flaecheninhalt (92), 5 Prozente und
+Zinsen (126), 6 Prismen. Zylinder (152), 7 Daten (184)
+
+Klasse 9: 1 Lineare Gleichungssysteme (8), 2 Potenzen. Wurzeln. Reelle
+Zahlen (32), 3 Aehnlichkeit (60), 4 Satzgruppe des Pythagoras (82),
+5 Koerper (108), 6 Daten (138), 7 Quadratische Funktionen (154), dazu die
+Sonderteile "Themen" und "Bewerbungstraining"
+
+Klasse 10: 1 Quadratische Funktionen und Gleichungen (8), 2 Trigonometrie
+(42), 3 Potenzen (66), 4 Exponentialrechnung (82), 5 Zufall (110),
+6 Funktionen (132), dazu der Sonderteil "Abschluss. Training"
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 7 ==
+
+Inhaltsverzeichnis
+1 Rationale Zahlen
+    Standpunkt                                 7
+    Auftakt                                    8
+
+1 Rationale Zahlen                             10
+  EXTRA: Das Koordinatensystem                 13
+2 Rationale Zahlen vergleichen und ordnen      14
+3 Zunahme und Abnahme                          17
+  EXTRA: Auf Zahlen gehen                      19
+4 Addieren                                     20
+5 Subtrahieren                                 23
+6 Rechenvorteile                               26
+  EXTRA: Multiplizieren von Brüchen            29
+  EXTRA: Dividieren von Brüchen                30
+7 Multiplizieren                               31
+8 Dividieren                                   33
+9 Verbindung der Rechenarten                   35
+  EXTRA: Celsius und Fahrenheit                38
+
+    Zusammenfassung                            39
+    Basistraining                              40
+    Anwenden. Nachdenken                       42
+    EXTRA: Girokonto                           45
+    Rückspiegel                                46
+
+
+2 Dreiecke
+    Standpunkt                                 47
+    Auftakt                                    48
+
+1 Winkel im Schnittpunkt von Geraden           50
+2 Winkelsumme im Dreieck                       52
+3 Dreiecksformen                               54
+4 Dreiecke konstruieren                        57
+5 Der Satz des Thaies                          61
+  EXTRA: Die Umkehrung des Satzes des Thaies   63
+6 Höhen                                        64
+7 Mittelsenkrechte. Umkreis                    66
+8 Winkelhalbierende. Inkreis                   68
+  EXTRA: Seitenhalbierende                     71
+
+    Zusammenfassung                            72
+    Basistraining                              73
+    Anwenden. Nachdenken                       75
+    EXTRA: Zeichnen mit DGS                    78
+    Rückspiegel                                80
+3 Rechnen mit Termen
+    Standpunkt                             81
+    Auftakt                                82
+
+1 Terme und Variablen                     84
+2 Terme addieren und subtrahieren         87
+3 Terme multiplizieren und dividieren     90
+4 Terme mit Plus- und Minusklammern       93
+5 Terme ausmultiplizieren                 95
+
+    Zusammenfassung                        97
+    Basistraining                          98
+    Anwenden. Nachdenken                  100
+    Rückspiegel                           102
+
+
+4 Gleichungen. Ungleichungen
+    Standpunkt                            103
+    Auftakt                               104
+
+1   Gleichungen durch Probieren lösen     106
+2   Gleichungen durch Umformen lösen      109
+3   Gleichungen mit Klammern              113
+4   M it Gleichungen Fragen beantworten   116
+5   Ungleichungen                         118
+
+    Zusammenfassung                       120
+    Basistraining                         121
+    Anwenden. Nachdenken                  122
+    Rückspiegel                           124
+
+
+5 Vierecke
+    Standpunkt                            125
+    Auftakt                               126
+
+1   Vierecksformen                        128
+2   Haus der Vierecke                     131
+3   Winkelsumme im Viereck                133
+4   Vierecke zeichnen                     135
+
+    Zusammenfassung                       138
+    Basistraining                         139
+    Anwenden. Nachdenken                  141
+    EXTRA: Regelmäßige Vielecke           144
+    Rückspiegel                           146
+6 Proportional. Antiproportional
+  Standpunkt                                    147
+  Auftakt                                       148
+
+1 Zuordnungen                                   150
+2 Zuordnungen beschreiben und darstellen        153
+3 Proportionale Zuordnungen                     155
+4 Zweisatz bei proportionalen Zuordnungen       159
+5 Dreisatz bei proportionalen Zuordnungen       161
+  EXTRA: Schätzen mithilfe von Proportionen     164
+6 Antiproportionale Zuordnungen                 165
+7 Dreisatz bei antiproportionalen Zuordnungen   168
+
+  Zusammenfassung                               170
+  Basistraining                                 171
+  Anwenden. Nachdenken                          173
+  Rückspiegel                                   176
+
+
+7 Prozente
+  Standpunkt                                    177
+  Auftakt                                       178
+
+1 Prozente                                      180
+2 Absoluter und relativer Vergleich             182
+  EXTRA: Prozentband                            184
+3 Prozentsatz                                   185
+4 Prozentwert                                   187
+5 Grundwert                                     189
+6 Prozentdiagramme                              191
+  EXTRA: Diagramme mit Tabellenkalkulation
+  erstellen                                     194
+
+  Zusammenfassung                               195
+  Basistraining                                 196
+  Anwenden. Nachdenken                          198
+  EXTRA: Rabatt, Skonto und Mehrwertsteuer      201
+  Rückspiegel                                   202
+8 Wahrscheinlichkeit
+    Standpunkt                              203
+    Auftakt                                 204
+
+1   Zufallsexperimente                      206
+2   Wahrscheinlichkeiten                    209
+3   Ereignisse                              211
+4   Schätzen von Wahrscheinlichkeiten       213
+    EXTRA: Zufallsexperimente amComputer    215
+    EXTRA: Zweistufige Zufallsexperimente   216
+
+    Zusammenfassung                         218
+    Basistraining                           219
+    Anwenden. Nachdenken                    220
+    Rückspiegel                             222
+
+
+
+Grundwissen                                 223
+
+Lösungen der Kapitel                        244
+
+Lösungen des Grundwissens                   268
+
+Stichwortverzeichnis                        276
+
+Symbole und Maßeinheiten                    277
+
+
+== Klasse 8 ==
+
+Inhaltsverzeichnis
+1 Terme und Gleichungen
+  Standpunkt                                      5
+  Auftakt                                         6
+1 Ausmultiplizieren. Ausklammern                  8
+2 Summen multiplizieren                          11
+3 Binomische Formeln                             13
+  EXTRA: Binomische Formeln geometrisch beweisen 15
+4 Faktorisieren mit binomischen Formeln          16
+5 Gleichungen                                    18
+6 Gleichungen mit Klammern                       20
+  EXTRA: Rechentricks                            23
+  EXTRA: Ungleichungen                           24
+  EXTRA: Verhältnisgleichungen                   26
+7 Formeln                                        27
+  Zusammenfassung                                30
+  Basistraining                                  31
+  Anwenden. Nachdenken                           33
+  Rückspiegel                                    36
+
+
+2 Geometrische Abbildungen
+  Standpunkt                                      37
+  Auftakt                                         38
+1 Achsenspiegelung                                40
+2 Verschiebung                                    42
+3 Drehung. Punktspiegelung                        44
+4 Kongruenzabbildungen                            46
+  EXTRA: Verkettung von Achsenspiegelungen        48
+  Zusammenfassung                                 49
+  Basistraining                                   50
+  Anwenden. Nachdenken                            52
+  Rückspiegel                                     54
+
+
+3 Lineare Funktionen
+  Standpunkt                                      55
+  Auftakt                                         56
+1 Funktionen                                      58
+  EXTRA: Graphen erzählen Geschichten             61
+  EXTRA: Nicht alle Zuordnungen sind Funktionen   62
+2 Funktionsgleichungen                            63
+3 Steigung. Proportionale Funktionen              66
+4 Lineare Funktionen                              70
+5 Parallele und senkrechte Geraden                74
+6 Geradengleichung berechnen                      76
+7 Modellieren                                     78
+  EXTRA: Erneuerbare Energien                     81
+  Zusammenfassung                                 82
+  Basistraining                                   83
+  Anwenden. Nachdenken                            85
+  Rückspiegel                                     88
+4 Umfang und Flächeninhalt
+  Standpunkt                               89
+  Auftakt                                  90
+1 Rechteck und Quadrat                     92
+2 Dreieck                                  94
+  EXTRA: Satz des Pythagoras               97
+3 Parallelogramm                           99
+  EXTRA: Drachen und Raute                102
+4 Trapez                                  103
+  EXTRA: Formeln durch Falten             106
+5 Kreis. Umfang                           107
+6 Kreis. Flächeninhalt                    109
+7 Zusammengesetzte Figuren. Vielecke      111
+  Zusammenfassung                         115
+  Basistraining                           116
+  Anwenden. Nachdenken                    118
+  Rückspiegel                             122
+
+
+5 Prozente und Zinsen
+  Standpunkt                              123
+  Auftakt                                 124
+1 Prozentrechnen                          126
+2 Vermehrter und verminderter Grundwert   129
+3 Zinsrechnen                             132
+4 Monatszinsen. Tageszinsen               135
+5 Zinseszinsen                            138
+  EXTRA: Zinsrechnen am Computer          141
+  Zusammenfassung                         143
+  Basistraining                           144
+  Anwenden. Nachdenken                    146
+  Rückspiegel                             148
+6 Prismen. Zylinder
+  Standpunkt                                 149
+  Auftakt                                    150
+1 Prisma                                     152
+2 Prisma. Netz                               154
+3 Prisma. Oberflächeninhalt                  156
+4 Prisma. Schrägbild                         158
+5 Prisma. Volumen                            161
+6 Zylinder. Schrägbild                       164
+7 Zylinder. Netz und Oberflächeninhalt       166
+8 Zylinder. Volumen                          168
+9 Zusammengesetzte Körper                    170
+  EXTRA: Weitere Körper                      173
+  Zusammenfassung                            174
+  Basistraining                              175
+  Anwenden. Nachdenken                       177
+  Rückspiegel                                180
+
+
+7 Daten
+    Standpunkt                               181
+    Auftakt                                  182
+1   Daten erfassen                           184
+2   Daten auswerten                          186
+    EXTRA: Schaubilder beschreiben           188
+3   Diagramme auswerten                      189
+4   Quartile                                 192
+    EXTRA: Tabellenkalkulation - Kennwerte   195
+5   Boxplots                                 196
+    Zusammenfassung                          199
+    Basistraining                            200
+    Anwenden. Nachdenken                     201
+    Rückspiegel                              204
+
+
+
+
+Grundwissen                                  205
+Lösungen der Kapitel                         227
+Lösungen des Grundwissens                    254
+Symbole und Maßeinheiten                     265
+Stichwortverzeichnis                         266
+
+
+== Klasse 9 ==
+
+Inhaltsverzeichnis
+1 Lineare Gleichungssysteme
+    Standpunkt                                     5
+    Auftakt                                        6
+1   Lineare Gleichungen mit zwei Variablen         8
+2   Lineare Gleichungssysteme                     10
+3   Gleichsetzungsverfahren                       13
+4   Einsetzungsverfahren                          16
+5   Additionsverfahren                            18
+6   Lösungsvielfalt                               20
+    EXTRA: Tabellenkalkulation                    22
+    Zusammenfassung                               23
+    Basistraining                                 24
+    Anwenden. Nachdenken                          26
+    Rückspiegel                                   28
+
+
+
+2 Potenzen. Wurzeln. Reelle Zahlen
+    Standpunkt                                    29
+    Auftakt                                       30
+1   Potenzen                                      32
+2   Zehnerpotenzen mit positivenExponenten        34
+3   Zehnerpotenzen mit negativen Exponenten       36
+4   Quadratwurzeln                                38
+5   Reelle Zahlen                                 40
+6   Näherungswerte irrationaler Zahlen            42
+    EXTRA: Quadratwurzeln ziehen wieHeron         45
+7   Quadratwurzeln multiplizieren unddividieren   46
+8   Rechnen mit Quadratwurzeln                    48
+9   Kubikwurzeln                                  50
+    Zusammenfassung                               52
+    Basistraining                                 53
+    Anwenden. Nachdenken                          54
+    Rückspiegel                                   56
+
+
+
+3 Ähnlichkeit
+    Standpunkt                                    57
+    Auftakt                                       58
+1   Vergrößern. Verkleinern                       60
+2   Zentrische Streckung                          62
+3   Ähnliche Figuren                              65
+4   Strahlensätze                                 68
+5   Bruchgleichungen                              71
+    Zusammenfassung                               73
+    Basistraining                                 74
+    Anwenden. Nachdenken                          76
+    Rückspiegel                                   78
+4 Satzgruppe des Pythagoras
+    Standpunkt                                       79
+    Auftakt                                          80
+1   Satz des Pythagoras                              82
+2   Länge von Hypothenuseund Kathete berechnen      85
+3   Der Satz des Pythagorasin Figuren und Körpern   88
+4   Höhensatz                                        92
+5   Kathetensatz                                     94
+6   Beweisen in der Geometrie                        96
+    Zusammenfassung                                  99
+    Basistraining                                   100
+    Anwenden. Nachdenken                            101
+    Rückspiegel                                     104
+
+
+
+5 Körper
+    Standpunkt                                      105
+    Auftakt                                         106
+1   Prisma. Zylinder                                108
+2   Pyramide. Netz und Oberflächeninhalt            110
+3   Pyramide. Schrägbild und Volumen                113
+4   Kreisausschnitt                                 115
+5   Kegel. Netz und Oberflächeninhalt               117
+6   Kegel. Schrägbild und Volumen                   119
+    EXTRA: Satz von Cavalieri                       121
+7   Kugel. Volumen                                  122
+8   Kugel. Oberflächeninhalt                        124
+9   Zusammengesetzte Körper                         126
+    EXTRA: Ansichten                                128
+    Zusammenfassung                                 129
+    Basistraining                                   130
+    Anwenden. Nachdenken                            131
+    Rückspiegel                                     134
+
+
+6 Daten
+  Standpunkt                                        135
+  Auftakt                                           136
+1 Vierfeldertafeln                                  138
+2 Daten beurteilen                                  141
+3 Daten darstellen                                  144
+  Zusammenfassung                                   146
+  Basistraining                                     147
+  Anwenden Nachdenken                               148
+  Rückspiegel                                       150
+7 Quadratische Funktionen
+    Standpunkt                                   151
+    Auftakt                                      152
+1   Die Normalparabel y = x2                     154
+2   Die quadratische Funktion y = x2 + c         156
+3   Die quadratische Funktion y = ax2 + c        158
+4   Die Scheitelform y = (x - d)2 + e            161
+5   Die Normalform y = x2 + bx + c               164
+    Zusammenfassung                              166
+    Basistraining                                167
+    Anwenden. Nachdenken                         168
+    Rückspiegel                                  170
+
+
+
+    Themen
+    Auftakt                                      171
+    Auskommen mit dem Einkommen                  172
+    Ernährung. Gesundheit                        173
+    Umwelt. Energie                              174
+    Nachhaltigkeit                               175
+    Verpackungen                                 176
+
+
+
+    Bewerbungstraining
+    Auftakt                                      177
+    Zahlenfolgen und andere logische Folgen      178
+    Umwandeln von Maßeinheiten. Grundrechenarten 179
+    Prozentrechnen. Zinsrechnen. Dreisatz        180
+    Räumliches Vorstellungsvermögen              181
+    Körper und Flächen                           182
+    Test                                         183
+
+
+
+
+Grundwissen                                      184
+
+Lösungen der Kapitel                            206
+Lösungen des Bewerbungstrainings                230
+Lösungen des Grundwissens                       233
+Stichwortverzeichnis                            242
+Symbole/Maßeinheiten                            243
+Quellenverzeichnis                              244
+Impressum                                       246
+
+
+== Klasse 10 ==
+
+    Inhaltsverzeichnis
+    1 Quadratische Funktionen und Gleichungen
+4       Standpunkt                                      5
+        Auftakt                                         6
+    1   Die quadratische Funktion y = x2 + c            8
+    2   Die quadratische Funktion y = ax2 + c          10
+    3   Die Scheitelform y = a (x - d)2 + e            12
+    4   Die quadratische Funktion y = ax2 + bx + c     15
+    5   Quadratische Gleichungen                       17
+    6   Lösungsformel                                  20
+    7   Nullstellen                                    23
+        EXTRA: Satz von Vieta                          25
+    8   Schnittpunkte                                  26
+    9   Modellieren                                    29
+        Zusammenfassung                                32
+        Basistraining                                  33
+        Anwenden. Nachdenken                           35
+        Rückspiegel                                    38
+
+
+
+    2 Trigonometrie
+l     Standpunkt                                       39
+      Auftakt                                          40
+    1 Sinus. Kosinus. Tangens                          42
+    2 Berechnungen am rechtwinkligen Dreieck           44
+    3 Berechnungen am allgemeinen Dreieck              47
+    4 Sinussatz und Kosinussatz                        49
+    5 Trigonometrie in der Ebene und im Raum           52
+      EXTRA: Bogenmaß                                  55
+      Zusammenfassung                                  56
+      Basistraining                                    57
+      Anwenden. Nachdenken                             59
+      Rückspiegel                                      62
+
+
+
+    3 Potenzen
+l     Standpunkt                                       63
+      Auftakt                                          64
+    1 Potenzen mit ganzen Zahlen als Exponenten        66
+    2 Potenzen mit gleicher Basis                      68
+    3 Potenzen mit gleichem Exponenten                 70
+    4 Potenzen mit gebrochenen Zahlen als Exponenten   72
+      Zusammenfassung                                  74
+      Basistraining                                    75
+      Anwenden. Nachdenken                             76
+      Rückspiegel                                      78
+4 Exponentialrechnung
+  Standpunkt                                     79
+  Auftakt                                        80
+1 Zinsen                                         82
+2 Zinseszinsen                                   84
+  EXTRA: Tabeilenkalkulation - Zinsrechnungen
+  am Computer                                    87
+3 Exponentielles Wachstum. Exponentielle Abnahme 88
+4 Verdopplungszeit. Halbwertszeit                91
+5 Wachstumsprozesse unterscheiden                93
+6 Exponentialgleichung. Logarithmus              96
+  EXTRA: Logarithmus. Taschenrechner             98
+  Zusammenfassung                                99
+  Basistraining                                 100
+  Anwenden. Nachdenken                          102
+  EXTRA: Alternative Anlageformen               104
+  Rückspiegel                                   106
+
+
+
+5 Zufall
+  Standpunkt                                      107
+  Auftakt                                         108
+1 Zufallsexperimente                              110
+2 Einstufige Zufallsexperimente                   112
+3 Zweistufige Zufallsexperimente mit Zurücklegen 114
+4 Zweistufige Zufallsexperimente ohne Zurücklegen 117
+5 Vierfeldertafeln                                119
+  EXTRA: Erwartungswert                           122
+  EXTRA: Simulationen                             123
+  Zusammenfassung                                 124
+  Basistraining                                   125
+  Anwenden. Nachdenken                            126
+  Rückspiegel                                     128
+6 Funktionen
+    Standpunkt                                      129
+    Auftakt                                         130
+1   Lineare und quadratische Funktionen             132
+2   Potenzfunktionen mit natürlichen Exponenten     134
+3   Potenzfunktionen mit ganzzahligen Exponenten    137
+    EXTRA: Wurzelfunktion                           139
+4   Exponentialfunktionen                           140
+    EXTRA: Logarithmusfunktion                      142
+5   Die Sinusfunktion f (a) = a • sin(b • a + <p)   143
+6   Kreisbewegungen                                 146
+    Zusammenfassung                                 149
+    Basistraining                                   150
+    Anwenden. Nachdenken                            152
+    Rückspiegel                                     155
+
+
+
+Abschluss. Training
+    Standpunkt                                      156
+    Basis | Zahlen. Zahlbereiche. Größen            158
+    Basis | Messen. Raum. Form                      159
+    Basis | Terme. Gleichungen. Funktionen          160
+    Basis | Daten. Zufall. Wahrscheinlichkeit       161
+    Anwenden | Zahlen. Zahlbereiche. Größen         162
+    Anwenden | Messen. Raum. Form                   163
+    Anwenden | Terme. Gleichungen. Funktionen       164
+    Anwenden | Daten. Zufall. Wahrscheinlichkeit    165
+    Rückspiegel | Basis                             166
+    Rückspiegel | Anwenden                          167
+    Rückspiegel | Nachdenken                        168
+
+
+
+
+    Grundwissen                                     169
+    Lösungen der Kapitel                            196
+    Lösungen des Abschlusstrainings                 218
+    Lösungen des Grundwissens                       227
+    Stichwortverzeichnis                            238
+    Symbole/Maßeinheiten                            239
+    Bildquellenverzeichnis                          240
+    Impressum                                       241
+
+

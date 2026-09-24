@@ -270,7 +270,15 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-iqb-struktur-2024.txt` – IQB, Beschreibung der Struktur der Aufgaben, Stand 2024, © IQB.
 - `quelle-westermann-elemente-der-mathematik-bb-2016.txt` – Stoffverteilungspläne Elemente der Mathematik SI, Ausgabe 2016 für Berlin/Brandenburg, Klasse 5–9.
 - `quelle-westermann-sekundo-bb-2017.txt` – Stoffverteilungspläne Sekundo, Ausgabe 2017 für Berlin und Brandenburg, Klasse 7–10.
-- `lehrwerke-fundliste.md` – Fundliste der Stoffverteilungspläne/Synopsen für Landesausgaben BE/BB (Auftrag Nacht, Teil 2, 24.09.2026): je Lehrwerk gefunden/nicht gefunden/nicht frei verfügbar.
+- `lehrwerke-fundliste.md` – Fundliste der Stoffverteilungspläne/Synopsen (Teil 2) und der Inhaltsverzeichnisse (Teil 3) für Landesausgaben BE/BB: je Lehrwerk gefunden/nicht gefunden/nicht frei verfügbar.
+- `quelle-cornelsen-fundamente-bb-ausgabeb2024-inhalt.txt` – Inhaltsverzeichnisse Fundamente der Mathematik, Ausgabe B ab 2024, Klasse 7–10, aus der DNB.
+- `quelle-cornelsen-fundamente-bb-ausgabeb2017-inhalt.txt` – dieselbe Reihe, Vorgängerausgabe B ab 2017, nur Klasse 9 gesichert.
+- `quelle-westermann-mathematik2023-bebbstth-inhalt.txt` – Inhaltsverzeichnisse Mathematik, Ausgabe 2023 für BE/BB/Sachsen-Anhalt/Thüringen, Klasse 7–10, aus der DNB.
+- `quelle-westermann-mathematikheute-bebb-inhalt.txt` – Inhaltsverzeichnisse Mathematik heute (Ausgabe für Berlin/Brandenburg), Klasse 7–10, aus der DNB.
+- `quelle-westermann-elemente-der-mathematik-bb-2016u2025-inhalt.txt` – Inhaltsverzeichnisse Elemente der Mathematik SI, Ausgabe 2016 (Kl. 7–10) und Ausgabe 2025 (Kl. 5–7, soweit erschienen), aus der DNB.
+- `quelle-westermann-sekundo-bb-2017-inhalt.txt` – Inhaltsverzeichnisse Sekundo, Klasse 7–10, aus der DNB (Gegenprobe zu den Stoffverteilungsplänen).
+- `quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt` – Inhaltsverzeichnisse Schnittpunkt Mathematik, Differenzierende Ausgabe ab 2017, Klasse 7–10, aus der DNB.
+- `lehrwerke-inhalt-bericht-2026-09.md` – Bericht des Auftrags Inhaltsverzeichnisse (24.09.2026).
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
 und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.
@@ -290,6 +298,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `ertrag.py` – zählt je Typ aus `msa/msa-typen.csv` Haupt- und Nebenzeilen, Jahrgänge, Punkte, block und niveau_geschaetzt sowie das Mittel von schritte aus den msa-Katalogen und schreibt `msa/msa-ertrag.csv` und `msa/msa-ertrag.md` (Ertrag als Sortiergröße, Verteilung als Hilfe für die Schwelle „selten“); Gegenprobe im Skript; nach jeder Änderung an den msa-Katalogen oder an `msa-typen.csv` ausführen; liest nur `msa-katalog-basis.csv`/`msa-katalog-kontext.csv`, nicht `msa-katalog-gym.csv`.
 - `gym-vergleich.py` – vergleicht Typenverwendung (getrennt Haupt und Haupt+Neben) und Themenverwendung (Haupttyp) zwischen `msa-katalog-gym.csv` und den Papieren OS/EBR/FOR und schreibt `msa/gym-vergleich.md` (je drei Zahlen/Listen: nur GYM, nur OS/EBR/FOR, in beiden); nach jeder Änderung an `msa-katalog-gym.csv` oder den OS/EBR/FOR-Katalogen ausführen. Option `--gruppen` (seit 24.09.2026) vergleicht stattdessen Gruppe A (papier EBR) gegen Gruppe B (papier FOR und OS) innerhalb von `msa-katalog-basis.csv`/`msa-katalog-kontext.csv` und schreibt `msa/ebr-vergleich.md`.
 - `typen-abgleich.py` – Abgleichlauf nach Kern § 9: benennt Typen um oder zieht sie zu einem vorhandenen Typ zusammen, in `msa-typen.csv` und allen Katalogen eines Profils zugleich (Eingabe eine Liste alt;neu;thema_neu;art, z. B. `msa/gym-abgleich.csv`); Optionen `--thema ALT NEU` (Themenumbenennung, zieht `themen.csv` mit) und `--status-neu-gueltig`; idempotent, prüft vor dem Schreiben.
+- `dnb-sru.py` – Suche in der Deutschen Nationalbibliothek über die SRU-Schnittstelle (CQL-Abfrage als Argument), listet Treffer mit IDN, Jahr, ISBN, Titel und ob ein Inhaltsverzeichnis-PDF verlinkt ist (`https://d-nb.info/<IDN>/04`); Grundlage der Lehrwerk-Inhaltsverzeichnisse in `quellen/`.
 
 ## archiv/ – eingefroren
 
