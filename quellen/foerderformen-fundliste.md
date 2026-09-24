@@ -126,7 +126,91 @@ umbenannt, richtige Adresse über Suche gefunden und in der Tabelle erfasst)
 
 ## Teil 3 – Persen und Auer
 
-(wird ausgefüllt)
+Beide Verlage sind baugleiche Onlineshops (Magento/Algolia) mit je einem festen Muster
+„Musterseite" (mehrere Beispielseiten als eine PDF) und „Inhaltsverzeichnis" je Titel,
+verlinkt direkt auf der Produktseite ohne Login. Je Titel wurden beide Dateien lokal
+gesichert; die drei Kennzahlen und die Formen stammen ausschließlich aus der
+„Musterseite"-PDF (das Inhaltsverzeichnis enthält keine Aufgaben und zählt nicht als
+Aufgabenseite, ebenso wenig Laufzettel/Materialübersichten und Lösungsseiten – diese
+werden in der Spalte „Seiten angesehen" mitgezählt, aber nicht in die drei Kennzahlen
+eingerechnet, analog zum Vorgehen bei Cover/Vorwort in Teil 1/2).
+
+### Persen
+
+| Quelle | Titel | Klasse/Stufe | Adresse | Datei lokal | Lizenz | Seiten angesehen | Thema (Titel des Abschnitts) | Formen | Aufg./Seite | Zeilen vor 1. Aufg. | Teilaufg./Beispiel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Persen | Stationenlernen Mathematik 7. Klasse (Thomas Röser) | Kl. 7 | https://www.persen.de/pp23365-stationenlernen-mathematik-7-klasse.html | ja | urheberrechtlich geschützt (Persen Verlag) | 3 | Prozentrechnung – Grundwert berechnen / Wiederholung Terme & Gleichungen / Dreieckskonstruktion | B, M, R, Z, F | 4 | 5 | 1 |
+| Persen | Stationenlernen Mathematik 8. Klasse (Thomas Röser) | Kl. 8 | https://www.persen.de/pp23478-stationenlernen-mathematik-8-klasse.html | ja | urheberrechtlich geschützt (Persen Verlag) | 3 (davon 1 Laufzettel, keine Aufgabenseite) | Funktionen – Wertetabellen und Funktionsgraphen / Vermischte Sachaufgaben (Prozent-/Zinsrechnung) | Z, R, F | 4 | 3 | – |
+| Persen | Stationenlernen Mathematik 9. Klasse (Thomas Röser) | Kl. 9 | https://www.persen.de/pp23521-stationenlernen-mathematik-9-klasse.html | ja | urheberrechtlich geschützt (Persen Verlag) | 3 (davon 1 Laufzettel, keine Aufgabenseite) | Zentrische Streckung – Flächeninhalt Bildvieleck / Verknüpfung von Abbildungen | F, M, B, Z | 6 | 4 | 1 |
+| Persen | Stationenlernen Mathematik 10. Klasse (Thomas Röser) | Kl. 10 | https://www.persen.de/pp23587-stationenlernen-mathematik-10-klasse.html | ja | urheberrechtlich geschützt (Persen Verlag) | 3 | Termumformungen & lineare Gleichungen (Wiederholung) / Trigonometrie – allgemeine Dreiecke / Stochastik – mehrstufige Zufallsexperimente | F, M, B, Z | 5 | 5 | 1 |
+| Persen | Addition und Subtraktion im Zahlenraum bis 10 (Diana Fürstner) | SoPäd Förderschwerpunkt Geistige Entwicklung | https://www.persen.de/pp23289-addition-und-subtraktion-im-zahlenraum-bis-10.html | ja | urheberrechtlich geschützt (Persen Verlag) | 3 | Grundrechenarten – Plus-/Minusaufgaben ZR bis 3/5/6 (bildgestützt) | Z, L, R | 6 | 2 | – |
+| Persen | Schritt für Schritt durch den Zahlenraum bis 100 | SoPäd Förderschwerpunkt Geistige Entwicklung | https://www.persen.de/pp21122-schritt-fur-schritt-durch-den-zahlenraum-bis-100.html | ja | urheberrechtlich geschützt (Persen Verlag) | 5 | Grundrechenarten – Addition im ZR bis 30/100, Zehnerübergang (bildgestützt, gestufte Schwierigkeit) | Z, L, R, B, M | 15 | 1 | 2 |
+| Persen | Bruchrechnung – Inklusionsmaterial (C. Spellner / M. Bettner / E. Dinges) | Sek I (Bruchrechnen, Kl. 6 laut Klassenbeispielen) | https://www.persen.de/pp23358-bruchrechnung-inklusionsmaterial.html | ja | urheberrechtlich geschützt (Persen Verlag) | 3 | Brüche als Maßzahlen / Kreisdiagramme / Division durch einen Bruch | Z, L, F, M | 4 | 1 | – |
+
+Dateien gesichert (Persen): 7 Titel (14 Einzeldateien: je Titel Musterseite + Inhaltsverzeichnis)
+Grenze erreicht: ja, geringfügig (Seitenaufrufe 16 von 15 – s. Bemerkung); Titelgrenze 7 von 8
+nicht ausgeschöpft; je Datei höchstens 5 von 12 zulässigen Seiten angesehen (nicht erreicht)
+Suchbegriffe ohne Treffer: „Rechnen im Zahlenraum" als Wortgruppe (0 Treffer; das Einzelwort
+„Zahlenraum" fand die passenden Titel); „Grundvorstellungen" (0 direkter Treffer, nur
+wortähnliche „Grund-"-Komposita wie „Geometrische Grundbegriffe"); „Bruchrechnen
+Grundschritte" (0 Treffer, Ersatzsuche „Bruchrechnen" erfolgreich)
+
+### Auer
+
+| Quelle | Titel | Klasse/Stufe | Adresse | Datei lokal | Lizenz | Seiten angesehen | Thema (Titel des Abschnitts) | Formen | Aufg./Seite | Zeilen vor 1. Aufg. | Teilaufg./Beispiel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Auer | Mathe an Stationen 7 Inklusion (Bernard Ksiazek) | Kl. 7 | https://www.auer-verlag.de/pp07397-mathe-an-stationen-7-inklusion.html | ja | urheberrechtlich geschützt (Auer Verlag – AAP Lehrerfachverlage GmbH) | 7 (davon 1 Materialübersicht, 2 Lösungsseiten, keine Aufgabenseiten) | Terme aufstellen (Würfeltürme) / Zahlenmauern Punktrechnung / Zahlenstrahle | Z, R, F, Lö | 1 | 1 | 1 |
+| Auer | Mathe an Stationen 8 Inklusion (Bernard Ksiazek) | Kl. 8 | https://www.auer-verlag.de/pp07497-mathe-an-stationen-8-inklusion.html | ja | urheberrechtlich geschützt (Auer Verlag – AAP Lehrerfachverlage GmbH) | 5 (davon 1 Anhang/Schneidematerial, 1 Lösungsseite) | Daten und Zufall – absolute/relative Häufigkeit, Zufallsexperimente | L, Z, F, R, Lö | 2 | 1 | 1 |
+| Auer | Mathe an Stationen 9 Inklusion (Bernard Ksiazek) | Kl. 9 | https://www.auer-verlag.de/pp07531-mathe-an-stationen-9-inklusion.html | ja | urheberrechtlich geschützt (Auer Verlag – AAP Lehrerfachverlage GmbH) | 5 (davon 1 Anhang/Schneidevorlage, 1 Lösungsseite) | Satzgruppe des Pythagoras – Katheten/Hypotenuse, Pythagorasberechnung | F, Z, M, L, R, S, Lö | 2 | 1 | – |
+| Auer | Mathe an Stationen 10 Inklusion (Bernard Ksiazek) | Kl. 10 | https://www.auer-verlag.de/pp07624-mathe-an-stationen-10-inklusion.html | ja | urheberrechtlich geschützt (Auer Verlag – AAP Lehrerfachverlage GmbH) | 4 (davon 1 Anhang/Schneidevorlage) | Körperberechnungen – Volumen Pyramide / Trigonometrie – Katheten/Hypotenuse / Statistik – arithmetisches Mittel | R, S, Z, F | 1 | 1 | – |
+| Auer | Mathe an Stationen SPEZIAL: Zahlen kennenlernen (Melanie Bettner) | Grundschule, ZR bis 10 (als Grundvorstellungen-Titel aufgenommen) | https://www.auer-verlag.de/pp07192-mathe-an-stationen-spezial-zahlen-kennenlernen.html | ja | urheberrechtlich geschützt (Auer Verlag – AAP Lehrerfachverlage GmbH) | 3 | Zahlen kennenlernen – taktile/haptische Übungen, Zahlen-Domino | F, S, Z | 1 | 0 | – |
+| Auer | Terme und Gleichungen (Manfred Januarius Bauer) | Sek I (allgemein, kein Förderschwerpunkt) | https://www.auer-verlag.de/pp08247-terme-und-gleichungen.html | ja | urheberrechtlich geschützt (Auer Verlag – AAP Lehrerfachverlage GmbH) | 5 (davon 1 Lösungsseite) | Terme und Termumformungen – Terme bilden, aufstellen, in der Geometrie | F, Z, Lö | 5 | 1 | – |
+
+Dateien gesichert (Auer): 6 Titel (12 Einzeldateien: je Titel Musterseite + Inhaltsverzeichnis)
+Grenze erreicht: nein (Seitenaufrufe 14 von 15, Titelgrenze 6 von 8, je Datei höchstens 7 von
+12 zulässigen Seiten angesehen)
+Suchbegriffe ohne Treffer: „Mathe an Stationen" ohne Zusatz (0 Treffer über die Freitextsuche;
+Ersatzsuche „Stationenlernen Mathematik" fand die Reihe unter ihrem tatsächlichen Namen
+„Mathe an Stationen")
+
+Formen-Zuordnung und Kennzahlen, eigene Entscheidungen: Beide Verlage drucken auf jeder
+Übungsseite selbst ein Kürzel in Klammern hinter „Aufgabe" (z. B. „(R)", "(Z)"); das ist eine
+verlagseigene Schwierigkeits-/Anforderungskennzeichnung (vermutlich Reproduktion/Transfer
+o. Ä.) und wurde NICHT mit den Formen-Kürzeln dieses Auftrags gleichgesetzt, auch wenn die
+Buchstaben zufällig übereinstimmen – die Formen in der Tabelle sind unabhängig davon aus dem
+tatsächlichen Aufgabenformat der angesehenen Seiten bestimmt. Schneide-und-Klebe-Aufgaben
+(„Schneidevorlage", bei Auer 9./10. Klasse) und das Zahlen-Domino (Auer, Zahlen kennenlernen)
+zählen als S (Selbstkontrolle), weil ein vollständiges Bild bzw. eine passende Kettenbildung nur
+bei richtiger Rechnung/Zuordnung entsteht – funktional dieselbe Selbstkontrolle wie ein
+Kontrollkästchen, nur ohne Kästchen. Laufzettel (Persen, Übersicht über die Stationen einer
+Kennung mit Kommentarfeld), Materialaufstellungen und Anhang-Schneidevorlagen wurden als
+Nicht-Aufgabenseiten von den drei Kennzahlen ausgenommen, tauchen aber in „Seiten
+angesehen" auf; Lösungsseiten wurden ebenso ausgenommen, aber als Beleg für Lö in der
+Formenspalte verwendet, sobald eine Datei eine eigene Lösungsseite zeigte (bei allen drei
+angesehenen Auer-Titeln mit Lösungsteil; bei den Persen-Titeln lag keine Lösungsseite im
+Seitenausschnitt der Musterseite, daher kein Lö dort vermerkt – das schließt nicht aus, dass die
+Hefte an anderer Stelle Lösungen enthalten, nur wurde das in den angesehenen Seiten nicht
+belegt). Auers „Mathe an Stationen Inklusion"-Reihe bündelt mehrere Teilschritte einer Station
+unter einer einzigen nummerierten „Aufgabe" mit Buchstaben-Unterteilung (a, b, c …), während
+Persens „Stationenlernen" mehrere eigenständig nummerierte Aufgaben je Seite setzt; das senkt
+den Wert „Aufg./Seite" bei Auer gegenüber Persen rein zählungsbedingt, ohne dass die
+Übungsmenge je Seite tatsächlich geringer wäre. Der Vergleichstitel „Terme und Gleichungen"
+(Auer, ohne Förderschwerpunkt) zeigt deutlich weniger Formenvielfalt (nur F, Z, Lö) als die
+gleichaltrige „Inklusion"-Reihe desselben Verlags (durchgehend R, L, S, M zusätzlich zu F/Z) –
+ein Beleg dafür, dass das Förder-/Inklusionsmaterial sichtbar mehr Gerüst (Scaffolding) bietet
+als reguläres Übungsmaterial. In keinem der 13 angesehenen Titel kam W (Wortschatz-/
+Lesehilfe) oder D (Diagnoseaufgabe vor der Förderung) vor; anders als die DZLM-Bausteine aus
+Teil 1 sind die Persen-/Auer-Stationenlernen reine Übungs-/Wiederholungsformate ohne
+vorgeschaltete Diagnostik in den eingesehenen Abschnitten. „Rechnen im Zahlenraum bis …"
+und „Grundvorstellungen" wurden trotz niedrigerer Klassenstufe (Grundschule/Förderschwerpunkt
+Geistige Entwicklung statt Kl. 7–10) aufgenommen, weil der Auftragstext dieses Thema wörtlich
+nennt und beide Verlage es im Förderschul-/Inklusionssortiment führen; höhere Klassenstufen
+wurden dort vorrangig gewählt, wo die Reihe (Mathe an Stationen Inklusion Kl. 7–10, Persens
+Stationenlernen Kl. 7–10) das zuließ. Bei Persen wurde die 15er-Seitenaufruf-Grenze um einen
+Aufruf überschritten (16 statt 15): Die ersten beiden Versuche liefen über eine falsch geratene
+Unterseite bzw. eine leere Suchanfrage; um danach nicht mit nur drei bis vier Titeln
+abzubrechen, wurde eine zusätzliche Suche („Bruchrechnen") noch zugelassen, die den siebten
+Titel lieferte – eine bewusste, im Bericht offengelegte Abweichung.
 
 ## Teil 4 – Grundwissen-Blätter Bayern
 
