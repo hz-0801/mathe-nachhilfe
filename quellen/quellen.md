@@ -255,6 +255,71 @@ Klett-Produktseiten zeigen nur einzelne Probeseiten-Bilder statt eines
 Inhaltsverzeichnisses. Der vorhandene Fahrplan [LS-AA] bleibt die einzige
 Kapitelübersicht dieser Reihe im Repo.
 
+## Lehrwerke Sek II und Förderhefte (abgelegt 24.09.2026)
+
+Auftrag Lehrwerke Sek II und Förderhefte (24.09.2026): Teil A sichert
+Inhaltsverzeichnisse gymnasialer Oberstufenbände mit Berlin/Brandenburg-
+Bezug (Ergänzung zu den Sek-I-Landesausgaben oben); Teil B und C sichern
+Förderhefte und ihre Probeseiten als Vorbild für die Option „schwach“
+des Unterrichtsblatts. Fundlisten: `quellen/lehrwerke-fundliste.md`
+(dritte Tabelle „Sek II“) und `quellen/foerderhefte-fundliste.md`.
+Bericht: `quellen/lehrwerke-sek2-foerder-bericht-2026-09.md`.
+
+## quelle-cornelsen-fundamente-sek2-ausgabeb-inhalt.txt
+
+Cornelsen, „Fundamente der Mathematik“, Ausgabe B (Berlin, Brandenburg,
+Mecklenburg-Vorpommern), Einführungsphase der gymnasialen Oberstufe, aus
+der DNB. Eine Qualifikationsphase dieser Ausgabe war zum Stichtag nicht
+auffindbar.
+
+## quelle-westermann-elemente-der-mathematik-sek2-nrw-inhalt.txt
+
+Westermann, „Elemente der Mathematik SII“ – keine Landesausgabe für
+Berlin/Brandenburg gefunden; Gegenprobe mit der aktuellen Ausgabe für
+Nordrhein-Westfalen (Einführungsphase, Qualifikationsphase GK/LK).
+
+## quelle-westermann-mathematikneuewege-sek2-berlin2011-inhalt.txt
+
+Westermann, „Mathematik Neue Wege SII“, Ausgabe 2011 für Berlin,
+Rheinland-Pfalz, Saarland und Schleswig-Holstein (Analysis, Lineare
+Algebra/Analytische Geometrie, Stochastik) – die einzige der fünf
+Start-Reihen aus Teil A mit einer Berlin-Ausgabe der Oberstufe.
+
+## Förderhefte, bundesweit Klasse 5–10 (Teil B/C des Auftrags vom 24.09.2026)
+
+Drei Sorten: Förder-/Basishefte zu Regelreihen im Repo, eigenständige
+Basis-/Grundwissenreihen, Hefte für den Förderschwerpunkt Lernen. Vorbild
+für die Option „schwach“ des Unterrichtsblatts und für Themen unter
+Klasse 8.
+
+## quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt
+
+Westermann, „Sekundo“, Förderhefte zur Ausgabe 2017 für Berlin und
+Brandenburg, Klasse 5, 7, 9 (stichprobenartig).
+
+## quelle-klett-schnittpunkt-foerder-diff2017-inhalt.txt
+
+Klett, „Schnittpunkt Mathematik“, Förderhefte zur Differenzierenden
+Ausgabe ab 2017 (u. a. Berlin, Brandenburg), Klasse 7 und 9.
+
+## quelle-westermann-mathematik2023-foerder-bebbstth-inhalt.txt
+
+Westermann, „Mathematik“, Förderhefte zur Ausgabe 2023 für Berlin,
+Brandenburg, Sachsen-Anhalt, Thüringen, Klasse 7–9 (Klasse 10 noch
+nicht erschienen).
+
+## quelle-kohlverlag-grundwissenmathematik-foerder-freiarbeit-inhalt.txt
+
+Kohl Verlag, „Grundwissen Mathematik [Klasse]. Freiarbeit“, eigenständige
+Übungsheftreihe ohne Schulbuchbindung, vollständig (Klasse 5–7, mehr ist
+nicht erschienen).
+
+## quelle-cornelsen-klick-foerder-ab2024-inhalt.txt
+
+Cornelsen, „Klick! – Mathematik“, Ausgabe ab 2024, für den
+Förderschwerpunkt Lernen (bundesweit), Klasse 5–7 (Klasse 8–10 noch
+nicht erschienen).
+
 ## Noch nicht abgelegt
 
 - [MzDuF] LISUM, „Material zur Diagnose und Förderung im Mathematikunterricht“,

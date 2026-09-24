@@ -279,6 +279,18 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-westermann-sekundo-bb-2017-inhalt.txt` – Inhaltsverzeichnisse Sekundo, Klasse 7–10, aus der DNB (Gegenprobe zu den Stoffverteilungsplänen).
 - `quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt` – Inhaltsverzeichnisse Schnittpunkt Mathematik, Differenzierende Ausgabe ab 2017, Klasse 7–10, aus der DNB.
 - `lehrwerke-inhalt-bericht-2026-09.md` – Bericht des Auftrags Inhaltsverzeichnisse (24.09.2026).
+- `quelle-cornelsen-fundamente-sek2-ausgabeb-inhalt.txt` – Inhaltsverzeichnis der Einführungsphase, Fundamente der Mathematik Ausgabe B (Berlin/Brandenburg/Mecklenburg-Vorpommern); Qualifikationsphase noch nicht gefunden.
+- `quelle-westermann-elemente-der-mathematik-sek2-nrw-inhalt.txt` – Elemente der Mathematik SII, keine BE/BB-Ausgabe gefunden, Gegenprobe Ausgabe Nordrhein-Westfalen.
+- `quelle-westermann-mathematikneuewege-sek2-berlin2011-inhalt.txt` – Mathematik Neue Wege SII, Ausgabe 2011 für Berlin (mit Rheinland-Pfalz, Saarland, Schleswig-Holstein).
+- `foerderhefte-fundliste.md` – Fundliste der Förderhefte (Auftrag Lehrwerke Sek II und Förderhefte, 24.09.2026), drei Sorten (Regelreihen, eigenständige Grundwissenreihen, Förderschwerpunkt Lernen).
+- `quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt` – Sekundo-Förderhefte zur Ausgabe 2017 für Berlin und Brandenburg, Klasse 5, 7, 9.
+- `quelle-klett-schnittpunkt-foerder-diff2017-inhalt.txt` – Schnittpunkt-Mathematik-Förderhefte zur Differenzierenden Ausgabe ab 2017, Klasse 7 und 9.
+- `quelle-westermann-mathematik2023-foerder-bebbstth-inhalt.txt` – Förderhefte zur Ausgabe 2023 für Berlin/Brandenburg/Sachsen-Anhalt/Thüringen, Klasse 7–9.
+- `quelle-kohlverlag-grundwissenmathematik-foerder-freiarbeit-inhalt.txt` – eigenständige Übungsheftreihe „Grundwissen Mathematik Freiarbeit“ (Kohl Verlag), Klasse 5–7, ohne Schulbuchbindung.
+- `quelle-cornelsen-klick-foerder-ab2024-inhalt.txt` – Klick! – Mathematik, Ausgabe ab 2024, für den Förderschwerpunkt Lernen, Klasse 5–7.
+- `foerderhefte-formen.md` – Formenliste der Probeseiten der Förderhefte (Teil C desselben Auftrags); keine Reihe bot eine downloadbare Probe.
+- `lehrwerke-stand-2026-09-24.md` – Standdatei des Auftrags Lehrwerke Sek II und Förderhefte, nach Abschluss als Beleg liegen geblieben.
+- `lehrwerke-sek2-foerder-bericht-2026-09.md` – Bericht des Auftrags Lehrwerke Sek II und Förderhefte (24.09.2026).
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
 und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.
