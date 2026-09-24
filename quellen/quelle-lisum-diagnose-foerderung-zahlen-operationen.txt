@@ -1,0 +1,112 @@
+Lizenz: Creative Commons BY-SA 4.0 International (Namensnennung – Weitergabe
+unter gleichen Bedingungen), auf dem Konzeptbild und in der Fusszeile jeder
+Seite des Dokuments ausgewiesen ("LISUM, CC-BY-SA 4.0"). Einzelne Fotos/
+Illustrationen (z. B. Taschenrechner-Anzeige, Kinderfiguren) sind laut
+Bildunterschrift separat mit CC BY-NC 4.0 gekennzeichnet ("cc by nc 4.0",
+teils "erstellt mit dem Worksheet Crafter") – diese Bilder selbst sind daher
+nicht kommerziell weiterverwendbar, die Gliederung/Struktur dieser Datei
+betrifft das aber nicht. Herausgeber: LISUM (Landesinstitut für Schule und
+Medien Berlin-Brandenburg) im Auftrag der Senatsverwaltung für Bildung,
+Jugend und Familie (Berlin) und des Ministeriums für Bildung, Jugend und
+Sport Brandenburg.
+Quelle: https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/materialien-zur-diagnose-und-foerderung-im-mathematikunterricht-leitidee-zahlen-und-operationen
+Gesamtdatei (710 Seiten, navigierbares Inhaltsverzeichnis):
+https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/rlp-online/Teil_C/Mathematik/Materialien/Ma_MzDuF_L1__Zahlen_und_Operationen_Gesamt_2023-05.pdf
+(Stand der Datei: 2023-05). Stand der Prüfung: 2026-09-24 (Auftrag
+foerderformen, Teil 7). Diese Datei enthält nur die Gliederung (Kapitel,
+Förderaufgaben-Titel, grobe Seitenbereiche) – kein Aufgabentext, kein Bild,
+kein wörtliches Zitat von Aufgaben.
+
+Material zu den Leitideen "Gleichungen und Funktionen" und "Zahlen und
+Operationen" aus dem Rahmenlehrplan 1–10 (Berlin/Brandenburg); diese Datei
+betrifft nur den Teil "Zahlen und Operationen". Aufbau laut Vorwort: (1)
+Didaktischer Text, (2) Diagnoseaufgaben, (3) Förderkartei, passend
+aufeinander bezogen über ein gemeinsames Konzeptbild und Farbcode.
+
+## Vorspann (S. 1–6)
+
+Titelblatt; Inhaltsverzeichnis; Vorwort (Zweck: pädagogische Diagnose und
+zielgerichtete Förderung, Jahrgangsstufen 1–10); Hinweise zur Arbeit mit dem
+Material; Didaktischer Kommentar von Prof. Andreas Schulz; Konzeptbild
+"Idee der Zahlbereiche / Idee der Zahl / Idee der Operation" (Grafik mit
+Zuordnung der Diagnoseaufgaben-Nummern).
+
+## Diagnoseaufgaben (Abschnitt nach dem Konzeptbild)
+
+Diagnoseaufgaben für die Grundschule (Niveaustufen A–D, mit Hinweis auf das
+softwaregestützte Instrument ILeA plus); Diagnoseaufgaben für die
+Sekundarstufe 1, Zahlvorstellungen, Niveaustufen E bis G; Diagnoseaufgaben
+für die Sekundarstufe 1, Operationsvorstellungen, Niveaustufen E bis G;
+Zuordnung der Diagnoseaufgaben zum inhaltlichen Konzeptbild.
+
+## Förderaufgaben Grundschule, Zahlen und Operationen (Niveaustufen A–D)
+
+Niveaustufe A: Verbales Zählen – Zahlwortreihe (ZW); Kleine Anzahlen
+bestimmen, zählende Anzahlbestimmung (KA); Anzahlen vergleichen (VG); Kleine
+Anzahlen über Strukturnutzung bestimmen (ST); Handlungen zur Addition und
+Subtraktion erkennen und zur Lösung nutzen (GV).
+
+Niveaustufe B: Kardinale Zahlvorstellungen aufbauen (KA); Tragfähiges
+Stellenwertverständnis aufbauen (SW); Ordinale Zahlvorstellungen aufbauen
+(OR); Relevante Arbeitsmittel unter Berücksichtigung der gegebenen
+Strukturmerkmale und Konventionen nutzen (ST); Grundvorstellungen zu
+Rechenoperationen aufbauen (GV); Zahlzerlegungen sowie Addition und
+Subtraktion im Zahlenraum bis 10 automatisieren (ZZ); Überwinden fehlerhafter
+zählender Vorgehensweisen (ZF); Mit Zahlen statt mit Ziffern rechnen können
+(ZR); Tragfähige Strategien zur Addition und Subtraktion nutzen (PM);
+Multiplikations- und Divisionsaufgaben richtig lösen (MD).
+
+Niveaustufe C: Prinzip des Bündelns und Entbündelns als Grundlage des
+Stellenwertsystems verstehen (SB); Das Stellenwertsystem verstehen und
+nutzen zum Lesen und Schreiben von Zahlen (SN); Zahlen in Beziehung zu
+anderen Zahlen setzen (ZB); Relevante Arbeitsmittel nutzen (ST);
+Grundvorstellungen zu Rechenoperationen aufbauen und nutzen (GV); Aufgaben
+des kleinen 1x1 und 1:1 schnell und sicher abrufen (KE); Tragfähige
+Strategien und Rechenregeln zur Addition/Subtraktion (PM) und zur
+Multiplikation/Division (MD) nutzen.
+
+Niveaustufe D: Grundvorstellung zum Bruch als Anteil aufbauen (AN);
+Tragfähiges Stellenwertverständnis ausbauen (SN) – enthält u. a. die
+Förderaufgaben "Erfassen der Bedeutung der Nachkommastellen in
+Sachzusammenhängen" (Nr. 13) und "Finden von Fehlern in der
+Stellenwerttafel" (Nr. 14); Ordinale Zahlvorstellung ausbauen (OR); Zahlen
+in Beziehung zu anderen Zahlen setzen (ZB); Grundvorstellungen zu
+Rechenoperationen aufbauen (GV); Tragfähige Strategien zur Addition/
+Subtraktion (PM) und zur Multiplikation/Division (MD) nutzen.
+
+## Förderaufgaben Sekundarstufe I, Idee der Zahl
+
+Darstellen von Zahlen; Flexibles Zählen; Nutzen des dezimalen
+Stellenwertsystems (Übersicht mit 10 Förderaufgaben: Umwandeln von Prozent-
+in Dezimalzahlen und umgekehrt, Umwandeln der wissenschaftlichen Schreibweise
+in Dezimalzahlen (a/b), Schreiben von Zahlen mit verschiedenen
+Zehnerpotenzen [Komma verschieben / Regel erkennen], Erkennen der
+Größenordnung einer Zahl in wissenschaftlicher Schreibweise, Umwandeln von
+Dezimalzahlen in die wissenschaftliche Schreibweise, Runden periodischer
+Dezimalzahlen (a/b)); Erkennen von Zahlbeziehungen.
+
+## Förderaufgaben Sekundarstufe I, Idee der Operation
+
+Didaktische Hinweise; Vorstellungen zu Rechenoperationen – Addition,
+Subtraktion, Multiplikation, Division, Potenzieren, Radizieren; Verstehen
+und Nutzen von Rechenstrategien; Beschreiben und Verwenden von Beziehungen
+zwischen Rechenoperationen; Anwenden von Eigenschaften, Rechenregeln und
+Gesetzen.
+
+## Schluss
+
+Impressum (S. 710).
+
+## Bemerkung zur Auswahl
+
+Die Datei ist die "Gesamtdatei" der Leitidee 1 (Zahlen und Operationen,
+zusammen mit dem eigentlich separaten Teil "Gleichungen und Funktionen" im
+selben PDF gebündelt) und umfasst 710 Seiten; wegen der Zählgrenze von
+höchstens 12 angesehenen Seiten je Datei wurden nur das Vorspann/TOC (S. 1–6),
+zwei Förderaufgaben-Seiten der Niveaustufe D Grundschule (S. 500, "Tragfähiges
+Stellenwertverständnis ausbauen") und drei Seiten der Förderaufgaben
+Sekundarstufe I "Nutzen des dezimalen Stellenwertsystems" (S. 639–641)
+tatsächlich eingesehen; die übrige Gliederung stammt aus dem
+Inhaltsverzeichnis und den Kapitelüberschriften am oberen Seitenrand (per
+Volltextsuche in der PDF lokalisiert), nicht aus eigener Durchsicht jeder
+Seite.

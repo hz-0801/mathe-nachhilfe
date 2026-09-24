@@ -1,0 +1,58 @@
+Lizenz: Creative Commons BY-SA 4.0 International (Namensnennung – Weitergabe
+unter gleichen Bedingungen), ausdrücklich auf Seite 3 ausgewiesen ("Quelle
+und Nutzungsrechte": ".. kann, soweit nicht anderweitig gekennzeichnet, unter
+der Creative Commons Lizenz BY-SA: Namensnennung – Weitergabe unter gleichen
+Bedingungen 4.0 International weiterverwendet werden"). Herausgeber: DZLM
+(Deutsches Zentrum für Lehrerbildung Mathematik), Projekt "Mathe aufholen
+nach Corona" / Fortbildungsmodul DiFSek (Diagnose und Förderung von
+Verstehensgrundlagen, Sekundarstufe), Autorinnen Kim-Alexandra Rösike und
+Alexandra Tondorf.
+Quelle: https://maco.dzlm.de/?q=stellenwertverstaendnis
+Datei: https://maco.dzlm.de/sites/maco/files/material-multi/dzlm_difsek_stellenwert_steckbrief_220511.pdf
+Stand der Prüfung: 2026-09-24 (Auftrag foerderformen, Teil 7). Diese Datei
+enthält nur die Gliederung des Steckbriefs (Überschriften, Ablaufplan) – kein
+Aufgabentext, kein Bild, kein wörtliches Zitat von Aufgaben.
+
+Der "Steckbrief" ist kein Schülermaterial, sondern eine Planungsunterlage für
+Fortbildnerinnen und Fortbildner (Fließtext ohne eigene Schüleraufgaben);
+alle drei Seiten sind eingesehen (die Datei hat nur 3 Seiten).
+
+## Seite 1: Grundidee, Zielgruppe, Hintergrund, Struktur, Material
+
+Grundidee des Bausteins (Stellenwertsystem in Klasse 4–6 wiederholen,
+Diagnose- und Förderaufgaben aus dem Material "Mathe sicher können").
+Zielgruppe und Ziele (Mathematik-Lehrkräfte und Förderkräfte der
+Jahrgangsstufen 4–6, sechs Lernziele der Fortbildung selbst). Hintergrund
+(Stellenwertverständnis als Anforderung an Kleingruppenförderung, typische
+Wissenslücken auch nach der Grundschulzeit). Struktur und Kernaktivitäten
+(Theoriehintergrund, Diagnose/Analyse von Förderaufgaben, Diagnoseaktivitäten
+mit MSK-Material). Verfügbares Material (Präsentation mit Aktivitäten und
+Videos; Arbeitsblätter DZLM_DiFSek_Stellenwert_AM_Paola.docx und
+..._AM_Selina.docx [nicht Teil dieser Datei]; Verweis auf die Handreichung
+"Mathe sicher können" Baustein N1A, https://mathe-sicher-koennen.dzlm.de).
+
+## Seite 2: Beispielhafte Zeitstruktur für einen 3-Stunden-Block
+
+Sechs Phasen (Einstieg; Verstehensgrundlagen identifizieren; Verstehens-
+grundlagen diagnostizieren; Verstehensgrundlagen fördern; Blick ins Material;
+Zusammenfassung und Abschluss) mit je Zeitangabe, Aktivitätstitel und
+verwendetem Medium (Folien, Videos, Murmelphasen); dazu "Auftrag zur
+Erprobung" (Standortbestimmungen N1A/N1B mit einer Klasse durchführen) und
+"Anschlusssitzung" (Reflexionsaufträge zu Diagnose und Fördererfahrungen).
+
+## Seite 3: Quelle und Nutzungsrechte, Literaturbezug
+
+Lizenzhinweis (s. o.); Hinweis, dass Bild-/Videomaterial eigenen,
+engeren Nutzungsrechten unterliegt (nur im Rahmen von Aus-/Fortbildung,
+keine freie Verbreitung); Literaturliste (Hußmann u. a. 2014; Prediger u. a.
+2013) und Verweis auf das zugrundeliegende Diagnose- und Fördermaterial
+"Mathe sicher können, Natürliche Zahlen" (Cornelsen 2014).
+
+## Bemerkung
+
+Dieser Baustein ist thematisch eng mit dem in Teil 1 des Auftrags bereits
+gesicherten Material "Mathe sicher können" (mathe-sicher-koennen.dzlm.de)
+verwandt (nutzt dessen Baustein N1 als Förder-/Diagnosematerial), stammt
+aber von einer anderen DZLM-Teilseite (maco.dzlm.de, Projekt "Mathe aufholen
+nach Corona") und richtet sich an Fortbildnerinnen, nicht an Lehrkräfte für
+den direkten Unterrichtseinsatz.

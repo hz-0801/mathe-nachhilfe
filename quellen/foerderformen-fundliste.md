@@ -481,4 +481,69 @@ alle übrigen Suchbegriffe fanden auf Amazon Treffer, drei davon nur ohne nutzba
 
 ## Teil 7 – Rechenschwäche Sek I
 
-(wird ausgefüllt)
+| Quelle | Titel | Klasse/Stufe | Adresse | Datei lokal | Lizenz | Seiten angesehen | Thema (Titel des Abschnitts) | Formen | Aufg./Seite | Zeilen vor 1. Aufg. | Teilaufg./Beispiel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| LISUM / Bildungsserver Berlin-Brandenburg | Materialien zur Diagnose und Förderung im Mathematikunterricht – Leitidee Zahlen und Operationen (Gesamtdatei, 710 S.) | Jgst. 1–10 (Diagnose-/Förderaufgaben Sek I: Niveaustufen E–G bzw. „Idee der Zahl"/„Idee der Operation") | https://bildungsserver.berlin-brandenburg.de/rlp-online/c-faecher/mathematik/materialien-zur-diagnose-und-foerderung-im-mathematikunterricht-leitidee-zahlen-und-operationen | ja | CC BY-SA 4.0 (LISUM; einzelne Fotos/Illustrationen separat CC BY-NC 4.0) | 12 (von 710) | Idee der Zahl – Nutzen des dezimalen Stellenwertsystems (Sek I) / Tragfähiges Stellenwertverständnis ausbauen (Grundschule Niveaustufe D) | B, F, L, R, Z | 1 | 3 | 3 |
+| Universität Bayreuth (Lehrstuhl für Mathematik und ihre Didaktik) | Rechenschwäche in der Sekundarstufe – Diagnostik und Förderung von Schülerinnen und Schülern (Mathematikdidaktik im Kontext, Heft 5, 2. Aufl. 2022, Volker Ulm) | Sek I (Wegweiser für Lehrkräfte) | https://www.dmi.uni-bayreuth.de/de/projekte/rechenschwaeche/download/Rechenschwaeche_Sekundarstufe.pdf | ja | urheberrechtlich geschützt (Universität Bayreuth), keine freie Lizenz erkennbar | 2 (von 58) | Wegweiser durch fachdidaktische Literatur zu Rechenschwäche in der Sekundarstufe | – | – | – | – |
+| DZLM (maco.dzlm.de, Projekt „Mathe aufholen nach Corona") | Steckbrief zum Baustein Stellenwertverständnis (Sekundarstufe), Fortbildungsmodul „Diagnose und Förderung von Verstehensgrundlagen" (DiFSek) | Jgst. 4–6 (Fortbildung für Lehr-/Förderkräfte) | https://maco.dzlm.de/?q=stellenwertverstaendnis | ja | CC BY-SA 4.0 | 3 (von 3, vollständig) | Stellenwertverständnis – Fortbildungsplanung (nutzt Diagnose-/Fördermaterial aus „Mathe sicher können") | – | – | – | – |
+| Landesinstitut für Schulentwicklung Baden-Württemberg (LS) | Modul B – Besondere Schwierigkeiten in Mathematik: Förderung gestalten (Handreichungsreihe „Kinder und Jugendliche mit besonderem Förderbedarf und Behinderungen", Stuttgart 2012) | alle Schularten, Sonderpädagogik (Fallbeispiele auch Sek I) | https://www.schule-bw.de/faecher-und-schularten/schularten/sonderpaedagogische-bildung/beratung-vernetzung/handreichungsreihe-foerderung-gestalten/fg_b-web-1.pdf | ja | urheberrechtlich geschützt (LS Baden-Württemberg; Vervielfältigung nur für Schulen/Hochschulen des Landes BW erlaubt) | 4 (von 140) | Diagnose von Fehlermustern bei schriftlichen Rechenverfahren / Zahlenblick und Punktbilder als Grundvorstellungshilfe (Fallbeispiel) | D, Z | – | – | – |
+| ZTR (Zentrum zur Therapie der Rechenschwäche) | Beobachtungskriterien für mathematisches Lernen – Symptomfragebogen für Schüler ab Klasse 5 | ab Kl. 5 | https://www.ztr-rechenschwaeche.de/wp-content/uploads/2021/10/Katalog-Beobachtungskriterien-ab-Klasse-5.pdf | ja | urheberrechtlich geschützt (ZTR); Downloadseite erlaubt ausdrücklich nur nicht-gewerbliche Nutzung, keine Freigabe zur Weitergabe | 4 (von 4, vollständig) | Symptomfragebogen Rechenschwäche (19 Beobachtungskriterien mit Ankreuzskala) | D, S | 5 | 4 | 1 |
+| IMST (Innovationen machen Schulen top, Österreich) | Dyskalkulie in der Sekundarstufe 1 (Langfassung, C. Fink) | Sek I | https://www.imst.ac.at/imst-wiki/images/7/76/623_Langfassung_Fink.pdf | nein | nicht geprüft (Datei nicht erreichbar) | 0 | – | – | – | – | – |
+
+Formen-Zuordnung und eigene Entscheidungen: Bei der LISUM-Stellenwerttafel (Spalten
+E/Z/H/z/h/t mit teils vorgerechneter erster Zeile, teils leeren Zeilen zum Ausfüllen) wurde wie
+bei der DZLM-Stellenwerttafel in Teil 1 sowohl R (Kästchen-Raster mit einer Zahl je Zeile) als
+auch Z (die Tafel als Bild/Tabellen-Hilfe zur Veranschaulichung des Stellenwertprinzips)
+vergeben, dazu B für die vorgerechnete erste Zeile bzw. das vorgegebene Beispiel und L für die
+nach demselben Muster auszufüllenden Folgezeilen bzw. Lückensätze; die Sachaufgaben auf
+S. 500 ("Wie viel Geld soll Ramin Max geben? Begründe.") zählen als F. Kein M (Merk-/
+Regelkasten): Die einleitenden Sätze der LISUM-Förderaufgaben ("Ein Prozent ist ein
+Hundertstel.") sind zwar Regelaussagen, stehen aber anders als bei den Stark- oder
+Bayern-Grundwissen-Blättern (Teil 2/4) nicht in einem abgesetzten Kasten und wurden daher
+konsequent zur Textur der Aufgabe selbst gezählt, nicht zu M. Zwei Dokumente (Uni Bayreuth,
+DZLM-Steckbrief) enthalten überhaupt kein Schülermaterial, sondern reinen Fließtext für
+Lehrkräfte bzw. Fortbildnerinnen (Literaturführer bzw. Fortbildungsplanung) – analog zum
+Didaktischen Kommentar in Teil 1 wurde hier "Formen: –" und "–" bei allen drei Kennzahlen
+eingetragen, statt Formen zu erzwingen, die im Dokument nicht vorkommen. Die
+Fehlermuster-Tabelle im Schule-BW-Modul B (S. 45, "Mögliche Fehler bei der schriftlichen
+Multiplikation") ist eine Diagnosehilfe für Lehrkräfte (typischer Fehler, Beispielrechnung,
+mögliche Hilfe) und wurde als D gewertet, obwohl sie kein Aufgabenblatt für Schüler ist,
+weil sie genau die im Auftrag gesuchte Funktion "Diagnose vor der Förderung" erfüllt; aus
+demselben Grund keine Kennzahlen (Aufg./Seite etc.) für dieses primär diskursive
+Handreichungs-Dokument (Fallbeispiele, Theorietext, Diagnosetabellen statt Arbeitsblättern).
+Der ZTR-Symptomfragebogen wurde als D (Diagnose vor der Förderung) und zusätzlich als S
+gewertet, weil jedes der 19 Beobachtungskriterien mit einer vierstufigen Ankreuzskala
+(nie/selten/häufig/immer) bewertet wird – eine Kontrollkästchen-Struktur wie bei einem
+Selbsttest, auch wenn Eltern/Lehrkräfte statt Schüler ankreuzen. Bei der ZTR-Datei wurde
+"Zeilen vor 1. Aufgabe" als Mittelwert über alle vier Seiten berechnet (nur auf Seite 1 steht
+ausführlicher Vorspann mit ca. 15 Zeilen, die Folgeseiten beginnen unmittelbar mit dem
+nächsten Kriterium), daher der niedrige Mittelwert von 4 trotz des langen Vorworts auf Seite 1.
+Lizenz-Einstufung Schule-BW: Das Impressum erlaubt Vervielfältigung ausdrücklich nur "für
+unterrichtliche Zwecke in den Schulen und Hochschulen des Landes Baden-Württemberg" – das
+ist enger als eine allgemeine Freigabe "zur Nutzung im Unterricht" und wurde daher nicht als
+freie Lizenz im Sinne des Auftrags gewertet (keine quellen/-Textdatei). Lizenz-Einstufung ZTR:
+Die Downloadseite untersagt nur die "gewerbliche Nutzung", ohne eine Weitergabe/
+Veröffentlichung ausdrücklich zu erlauben; auch das wurde konservativ nicht als
+hinreichende freie Lizenz gewertet. Geprüft und verworfen wurde außerdem
+arbeitsblaetter.org (Rubrik "Symptomtraining Dyskalkulie", 6793 Seiten laut Startseite,
+Nutzung "frei für den schulischen … Bereich" laut Impressum, aber Weiterveröffentlichung
+ausdrücklich untersagt): Die dortigen Arbeitsblätter (Zahlenraum 4 bis 20/100, Einmaleins-
+Einstieg) sind durchgehend auf Grundschulniveau und passten inhaltlich nicht zu „Klasse 7"
+bzw. Sekundarstufe I, weshalb kein Dokument dieser Quelle aufgenommen wurde.
+
+Dateien gesichert: 5
+Grenze erreicht: teilweise (die 12-Seiten-Grenze je Datei wurde bei der LISUM-Gesamtdatei
+exakt erreicht [12 von 12]; die Dokumentgrenze mit 5 von höchstens 6 Dokumenten und die
+Dateigrenze mit 5 von 8 wurden nicht ausgeschöpft; Seitenaufrufe rund 9 von 15 genutzt,
+nicht erreicht)
+Suchbegriffe ohne Treffer: keine der drei vorgegebenen Suchanfragen blieb ergebnislos;
+„Dyskalkulie Klasse 7 Material pdf" führte zwar zu Treffern (u. a. arbeitsblaetter.org), diese
+lagen aber inhaltlich auf Grundschulniveau und wurden daher nicht als Dokument
+übernommen (s. Bemerkung); die Ersatzsuche nach den NRW-Unterstützungsmaterialien zur
+Diagnose und Förderung Sekundarstufe I führte ins Leere, weil sowohl die alte Adresse
+schulentwicklung.nrw.de als auch die neue Adresse qua-lis.nrw.de beim Aufruf nur die
+jeweilige Portal-Startseite statt der Zielseite zeigten (Umzug/Weiterleitung ohne
+funktionierendes Ziel, zwei Versuche); das sechste, ursprünglich vorgesehene Dokument
+(IMST, „Dyskalkulie in der Sekundarstufe 1") ist "nicht gefunden: Server imst.ac.at nach zwei
+Versuchen (Invoke-WebRequest und curl.exe) nicht erreichbar, Zeitüberschreitung/
+Verbindungsabbruch ohne HTTP-Antwort".
