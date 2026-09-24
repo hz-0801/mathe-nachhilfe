@@ -1,0 +1,782 @@
+C.C. Buchner, "mathe.delta - Berlin/Brandenburg", Ausgabe ab 2016,
+"Mathematik fuer das Gymnasium" (DNB-Reihensatz 1099987873, Ausgabe
+"Berlin/Brandenburg"), Klasse 7-10. Schulbuch-ISBNs von der Buchner-
+Reihenseite (ccbuchner.de/reihe/mathe-delta-berlin-brandenburg-335; keine
+Baende fuer Klasse 5/6 gelistet), in der DNB bestaetigt, TOC-PDFs mit
+pdftotext -layout extrahiert am 25.09.2026.
+
+Kl. 7:  ISBN 9783661611075, IDN 1063198585, Jahr 2016, https://d-nb.info/1063198585/04
+Kl. 8:  ISBN 9783661611082, IDN 1063198593, Jahr 2016, https://d-nb.info/1063198593/04
+Kl. 9:  ISBN 9783661611099, IDN 1105403610, Jahr 2017, https://d-nb.info/1105403610/04
+Kl. 10: ISBN 9783661611105, IDN 1150429666, Jahr 2018, https://d-nb.info/1150429666/04
+
+(C) C.C. Buchner - Gliederung als Beleg, keine Aufgaben.
+
+Achtung: Die TOC-PDFs sind Scans mit Texterkennung; einzelne Zeilen sind
+verstuemmelt (v. a. Kl. 7, z. B. "3.7 Sachaufgaben Osen", "2.3 I n d e k t
+p r o p o r t i o n a l"). Kl. 8 ist in der DNB unvollstaendig (2 Seiten,
+endet mit Kapitel 4 auf S. 134); Kapitel 5 und 6 stehen nur im frei
+verlinkten Stoffverteilungsplan des Verlags ("mathe.delta - Berlin/
+Brandenburg 8: Stoffverteilungsplan", PDF, ccbuchner.de, Produktseite 3700,
+abgerufen 25.09.2026), dessen Rohtext unten als eigener Abschnitt folgt
+(Stoffverteilungsplan ohne Seitenzahlen des Schulbuchs).
+
+Seitenmarken aller Baende: Das kann ich schon, Entdecken, Aufgaben zur
+Differenzierung, Vermischte Aufgaben, Themenseite, Werkzeug, Das kann ich!,
+Auf einen Blick; vorn "Fit fuer Klasse n".
+
+Kapitelfolge (erste Ebene):
+
+Klasse 7: 1 Rationale Zahlen (14), 2 Zuordnungen und Zinsrechnung (54),
+3 Terme und Gleichungen (96), 4 Figuren (128), 5 Rund um Prisma und
+Zylinder (168), 6 Daten (194)
+
+Klasse 8: 1 Zufall und Wahrscheinlichkeit (14), 2 Terme und Gleichungen
+(44), 3 Lineare Funktionen (78), 4 Massstaebliches Vergroessern und
+Verkleinern (108), 5 Satz des Pythagoras und seine Anwendungen (nur
+Stoffverteilungsplan), 6 Lineare Gleichungssysteme (nur
+Stoffverteilungsplan)
+
+Klasse 9: 1 Reelle Zahlen (14), 2 Quadratische Funktionen (50),
+3 Quadratische Gleichungen (88), 4 Koerperbetrachtungen (124),
+5 Trigonometrie (154), 6 Potenzfunktionen und Potenzgleichungen (184)
+
+Klasse 10: 1 Trigonometrische Funktionen (14), 2 Wahrscheinlichkeits-
+rechnung (46), 3 Koerperbetrachtungen (86), 4 Exponentialfunktionen und
+-gleichungen (116), 5 Pruefung am Ende der Jahrgangsstufe 10 (154),
+6 Einfuehrung in die Differentialrechnung (172)
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 7 ==
+
+                        Mathematische Zeichen und Abkürzungen . . . . . . . .                                6
+                        F itfu rK la sse 7 ..............................................................    7
+
+
+
+
+1   Rationale Zahlen
+
+                        Das kann ich schon.......................................................           14
+                        Entdecken......................................................................     16
+                        1.1    GanzeZahlen........................................................          18
+                        1•2 Zu- und Abnahm en...............................................                20
+                        ไ .3 Rationale Zahlen....................................................           22
+                        1.4 Rationale Zahlen ordnen und runden . . . . . . . . .                            26
+                        ใ .5 Rationale Z a h n a d d e r e ■                                     ... ·      28
+                        1.6 Rationale Zahlen multiplizieren. . . . . . . . . . . . .                        32
+                        1.7 Rationale Zahlen dividieren . . . . . . . . . . . . . . .                       34
+                        1.8 Rechengesetze.......................................................            36
+                        1.9 Verbindung der Grundrechenarten . . . . . . . . . .                             38
+                        1.10 Potenzen mjt rationaler Basis . . . . . . . . . . . . .                        40
+                       Aufgaben zur Differenziern^ . . . . . . . . . . . . . . . .                          42
+                       Vermischte Aufgaben....................................................              44
+                       Werkzeug:
+                       Daten und ihre Darstellung mit dem Computer . . . . .                                46
+                       Themenseite: Luftige Hohen........................................                   48
+                       Das kann ich! ..............................................................         50
+                       Auf einen B lick..............................................................       52
+
+
+
+
+2   Zuordnungen und Zinsrechnung
+
+                       Das kann ich s c h o n . . . . . . . . . . . . . . . . . . . . . . . .               54
+                       Entdecken.......................................................         56
+                       2.1 Eindeutige Zuordnungen .....................................                     58
+                       2.2 Direkt proportionale Zuordnungen . . . . . . . . . .                             60
+                       2.3 I n d e k t p r o p o r t i o n a l · · · · · . · · ·                            64
+                       2.4 B rü c h e ,P ro z e n te d                               ·········              66
+                       2.5 Prozente d a rste lle n ................................             70
+                       2.6 Grundbegriffe der Prozentrechnung . . . . . . . . . .                            74
+                       2.7 Grundaufgaben der Prozentrechnung. . . . . . . . .                               76
+                       2.8 V _ e h rte ru n d v e ^ ^ ^ ^                                   ·····.          80
+                       2.9 Zinsrechnung..........................................               82
+                       Aufgaben zur D ifferenzierung.......................                     84
+                       Vermischte Aufgaben.....................................                 86
+                       Themenseite: Rund ums G e ld .......................                90
+                       Das kann ‫؛‬chỉ ..............................................................         92
+                       Auf einen B lick................................................         94
+3   Terme und Gleichungen
+
+                      Das kann ich schon.......................................................          96
+                      Entdecken......................................................................    98
+                      3.1 Term esinden.........................................................         100
+                      3.2 Termevereinfachen...............................................              102
+                      3.3 Terme multiplizieren und dividieren . . . . . . . . . .                       104
+                      3.4 Terme mit Klammern auflösen . . . . . . . . . . . . .                         106
+                      3.5 Gleichungen lösen..................................................           108
+                      3.6 Gleichungen u m fo rm e n ........................................            110
+                      3.7 Sachaufgaben Osen …                    …        …     …                   .   ” 6
+                      Aufgaben zur Differenzierung .....................................                118
+                      Vermischte Aufgaben....................................................           120
+                      Themenseite: Fliegerei ...............................................            122
+                      Das kann Ich ‫؟‬........................................................ 124
+                      Auf einen B lic k ....................................................            126
+
+
+
+
+4   Figuren
+
+                      Das kann ich schon.......................................................         128
+                      Entdecken......................................................................   130
+                      4.1 Zusammenhänge ¡m Dreieck entdecken . . . . . . .                              132
+                      4.2 Dreiecke konstruieren............................................             134
+                      4.3 Besondere Punkte und Unien ‫؛‬mDre                               ······         138
+                      4.4 Umfang und Flächeninhaltvon Vielecken . . . . . .                             140
+                      4.5 SatzdesThales.......................................................          144
+                      4.6 Kreis und Geraden..................................................           148
+                      4.7 Kreistangenten . . ；...............................................           150
+                      4.8 Umfang des Kreises................................................            152
+                      4.9 F lä c h e n in h a jtd e s K r e is e s ........... . . . . . .              154
+                      Aufgaben zur Differenzierung ......................................               156
+                      Vermischte Aufgaben.....................................................          158
+                      Werkzeug: Geometrie am C om pu te r^                                              ใ 60
+                      Themenseite·· Bestimmung von Pi . . . . . . . . . . . . .                         162
+                      Das kann ‫؛‬chi ...............................................................     164
+                      Auf einen B lick...............................................................   166
+5   Rund um P S m a und Zylinder
+
+                        Das kann ich schon.......................................................        168
+                       Entdecken.....................................................................    170
+                       5.1 Kö٢pe٢darstellen_Schrägbiider . . . . . . . . . . . .                         172
+                       5.2 Körper darstellen-Z w e ita fe lh                      .···.·····             176
+                       5.3 Körper d arstellen-Netze . . . . . . . . . . . . . . . .                      178
+                       5.4 Oberflächeninhalt von Prisma und Z y lin d e r . . . . ·                      180
+                       5.5 Volumen von Prisma und Zylinder . . . . . . . . . . .                         182
+                       Aufgaben zur Differenzierung .....................................                184
+                       Vermischte Aufgaben. . . . . . . . . . . . . . . . . . . . . .                    186
+                       Themenseite: Faltfiguren.............................................             188
+                       Daskannichi ..............................................................        190
+                       Auf einen B lick..............................................................    192
+
+
+
+
+6   Daten
+
+                       Das kann ich schon.......................................................         194
+                       Entdecken......................................................................   196
+                       6.1 Daten erheben.......................................................          198
+                       6.2 Daten a u s w e r te n . · · · · ........................................     200
+                       6.3 Kennwerte von Daten.............................................              202
+                       6.4 Stichproben............................................................       206
+                       6.5 Boxplot. . . . . . . . . . . . . . . . . . . . . . . . . . . .                208
+                       Aufgaben zur Differenzierung .....................................                212
+                       Vermischte Aufgaben....................................................           214
+                       Themenseite: Mit Statistik l ü g e n ? . · · . · · . · · · · · · ·                216
+                       Das kann ich! ..............................................................      218
+                       Auf einen B lick..............................................................    220
+
+
+
+
+                       Lösungen zu„Das kann ich schon ..." und
+                       „Das kann ic h !"...........................................................      221
+                       Stichwortverzeichnis....................................................          238
+                       Bildnachweis.................................................................     240
+
+
+== Klasse 8 ==
+
+                        Mathematische Zeichen und Abkürzungen                                                                  6
+                        Fit für Klasse 8 .................................................                                     7
+
+
+
+
+1   Zufall und Wahrscheinlichkeit
+
+                        Das kann ich sc h o n ...............................................................                 14
+                        Entdecken: Wahrscheinlichkeiten spielerisch
+                        b e s tim m e n ..............................................................................        16
+                        1.1 Zufallsexperimente durchführen und beschreiben                                                    18
+                        1.2 Mehrstufige Z ufallsexperim ente................................                                  20
+                        1.3 Begriff der Wahrscheinlichkeit                              ...................................   22
+                        1.4 Laplace-Wahrscheinlichkeit........................................                                26
+                        1.5 Erste P fa d re g e l...............................................................              28
+                        1.6 Zweite P fad regel.............................................................                   30
+                        Aufgaben zur Differenzierung                           ...........................................    32
+                        Vermischte Aufgaben.............................................................                      34
+                        Themenseite: Glück im S p ie l..............................................                          38
+                        Das kann ich!              ........................................................................   40
+                        Auf einen B lic k .............. .. ......................................................            42
+
+
+
+
+2   Terme und Gleichungen
+
+                        Das kann ich sch o n ...............................................................                  44
+                        Entdecken: R ätselkön ige....................................................                         46
+                        2.1 Terme aufstellen und vereinfachen.............................                                    48
+                        2.2 Terme um form en.............................................................                     50
+                        2.3 Binomische Formeln.......................................................                         54
+                        2.4 Gleichungen lösen..........................................................                       58
+                        2.5 Besondere G le ic h u n g e n ..............................................                      62
+                        Aufgaben zur Differenzierung                           ...........................................    68
+                        Vermischte A ufgaben.............................................................                     70
+                        Themenseite: Mit allen Sinnen...........................................                              72
+                        Das kann ich!             ........................................................................    74
+                        Auf einen B lic k ........................................................................            76
+3   Lineare Funktionen
+
+                         Das kann ich s c h o n ................................................................               78
+                         Entdecken: Campingurlaub                            ..............................................    80
+                         3.1 Lineare Z uordnungen....................................................                          82
+                         3.2 Zuordnungen und F u n k tio n e n ...................................                             84
+                         3.3 Lineare Funktionen grafisch b e s tim m e n ..................                                    86
+                         3.4 Lineare Funktionen rechnerisch b estim m en ............                                          90
+                         3.5 Lineare Funktionen im A l l t a g ......................................                         94
+                         Aufgaben zur Differenzierung                          ............................................    96
+                         Vermischte A ufgaben.............................................................                     98
+                         Werkzeug: Mathematisch m odellieren.............................                                     102
+                         Das kann ich!             ........................................................................   104
+                         Auf einen B lic k .........................................................                          106
+
+
+
+
+4   Maßstäbliches Vergrößern und Verkleinern
+
+                         Das kann ich sc h o n ................................................................               108
+                         Entdecken: Unser S onnensystem ......................................                                110
+                         4.1 Verhältnisse......................................................................               112
+                         4.2 Maßstäbliches Vergrößern und V e rk le in e rn ............                                      114
+                         4.3 Ä h n lic h k e it......................................................................         118
+                         4.4 Besondere Verhältnisse ähnlicher F ig u re n ...............                                     120
+                         Aufgaben zur D iffe re n zie ru n g ............................................                     124
+                         Vermischte A ufgaben.............................................................                    126
+                         Themenseite: Alles ähnlich beim F a lte n ..........................                                 130
+                         Das kann ich!             ........................................................................   132
+                         Auf einen B lic k ........................................................................           134
+
+
+== Klasse 8, Stoffverteilungsplan (Ergaenzung Kapitel 5-6) ==
+
+                                                                         1
+
+
+            Fachcurriculum Mathematik Klasse 8: mathe.delta 8 für Berlin und Brandenburg
+mathe.delta 8 (ISBN 978-3-661-61108-2)                 Lösungsband 8 (ISBN 978-3-661-61128-0)                        click & teach 8 (BN 611281)
+
+
+
+
+Vorbemerkungen:
+
+Im Fachcurriculum Mathematik wird aufgezeigt, wie das Schulbuchwerk mathe.delta 8 kompetenzorientierten Mathematikunterricht konkret umsetzt. Dabei
+werden als Kompetenzen vor allem die inhaltsbezogenen Kompetenzen entsprechend des neuen Rahmenlehrplans 2017 aufgeführt und es wird verdeutlicht,
+wo und wie sie in mathe.delta 8 eine Rolle spielen. Da mathematische Kompetenzen im Wesentlichen durch Aufgaben erworben werden, und da eine Aufgabe
+auch zur Förderung mehrerer Kompetenzen beitragen kann, finden Sie in mathe.delta eine Fülle von Aufgaben, die nicht selten nahezu alle Kompetenzen
+ansprechen; daher wird an dieser Stelle auf eine Angabe der bedienten prozessbezogenen Kompetenzen verzichtet. Detaillierte Angaben dazu sind im
+Lösungsband 8 sowie in click & teach 8 zu finden.
+
+Darüber hinaus finden sich im Fachcurriculum Mathematik Hinweise darauf, wie die fachübergreifende Kompetenzentwicklung umgesetzt wird; dies geschieht
+insbesondere auf den Themen- und Werkzeug-Doppelseiten und wird im Fachcurriculum in Klarheit herausgearbeitet.
+                                                                     2
+
+Kapitel 1: Zufall und Wahrscheinlichkeit (Stundenzahl: 14 h)
+
+                                               Fachübergreifende
+                                                                                             Inhaltsbezogene Kompetenzen
+             mathe.delta 8                        Kompetenzen
+                                                                                                 des Rahmenlehrplans
+                                              des Rahmenlehrplans
+1.1 Zufallsexperimente durchführen                                  Leitidee Daten und Zufall
+und beschreiben                                                     * systematisches Durcharbeiten und Begründen der Vollständigkeit einer Lösung zu
+-> Eigenschaften von                                                kombinatorischen Fragestellungen (auch mithilfe von Baumdiagrammen) (E)
+Zufallsexperimenten                                                 * Angeben der Ergebnismenge (E)
+-> Ergebnismenge, Ereignisse                                        * Zusammenfassen von Ergebnissen bei Zufallsexperimenten zu Ereignissen (E)
+                                                                    * Untersuchen der relativen Häufigkeiten von Ereignissen in Zufallsexperimenten
+1.2 Mehrstufige Zufallsexperimente                                  (auch zweistufige) (E)
+-> Baumdiagramm                                                     * Nutzen des Gesetzes der großen Zahlen zur Erklärung des
+-> Zwei- und mehrstufige                                            Wahrscheinlichkeitsbegriffs (E)
+Zufallsexperimente                                                  * Begründen der Annahme der Gleichwahrscheinlichkeit von Ergebnissen, z. B.
+                                                                    aufgrund von Symmetrien (Regel von Laplace) (E)
+1.3 Begriff der Wahrscheinlichkeit        Medienbildung             * Berechnen von Wahrscheinlichkeiten von Ereignissen mit der Summenregel (E)
+-> Wiederholung: absolute und relative                              * Vorhersage von relativen Häufigkeiten auf der Grundlage von berechneten
+Häufigkeit                                                          Wahrscheinlichkeiten (E)
+-> Wahrscheinlichkeitsbegriff                                       * Vergleichen von theoretisch ermittelten Wahrscheinlichkeiten mit empirischen
+-> Gesetz der großen Zahlen                                         Beobachtungen (E)
+
+1.4 Laplace-Wahrscheinlichkeit
+-> Laplace-Experimente und –
+Wahrscheinlichkeit
+
+1.5 Erste Pfadregel
+-> Erste Pfadregel nutzen
+
+1.6 Zweite Pfadregel
+-> Zweite Pfadregel nutzen
+                                                                       3
+
+
+Themenseite - Glück im Spiel            Sprachbildung, übergreifende
+-> Verschiedene Arten von Glücksspielen Themen
+analysieren und beurteilen
+                                                                   4
+
+Kapitel 2: Terme und Gleichungen (Stundenzahl: 16 h)
+
+                                             Fachübergreifende
+                                                                                           Inhaltsbezogene Kompetenzen
+            mathe.delta 8                       Kompetenzen
+                                                                                               des Rahmenlehrplans
+                                            des Rahmenlehrplans
+2.1 Terme aufstellen und vereinfachen                             Leitidee Gleichungen und Funktionen
+-> Wiederholung und Vertiefung:                                   * Darstellen von außer- und innermathematischen Sachverhalten (auch im
+Termumformungen (Kommutativgesetz,                                Zahlenbereich der rationalen Zahlen) durch Terme, lineare Gleichungen und
+Assoziativgesetz)                                                 Verhältnisgleichungen (E)
+                                                                  * Variablen (auch als Parameter) verwenden und deren Bedeutung erklären (z. B. in
+2.2 Terme umformen                                                Formeln) (E)
+-> Wiederholung und Vertiefung:                                   * Angeben von passenden Situationen und grafischen Darstellungen zu vorgegeben
+Termumformungen (Distributivgesetz,                               Termen und Gleichungen (auch im Zahlenbereich der rationalen Zahlen) (E)
+Faktorisieren)                                                    * Nutzen von Kommutativ- und Assoziativgesetz zum äquivalenten Umformen von
+-> Multiplikation von zwei Summen                                 Termen (auch im Zahlbereich der rationalen Zahlen) (E)
+                                                                  * Nutzen von Rechengesetzen zum äquivalenten Umformen von Termen (auch
+2.3 Binomische Formeln                                            Distributivgesetz zum Ausmultiplizieren von Summen) (F)
+-> Binomische Formeln in beide                                    * Begründen von Gleichungsumformungen (E)
+Richtungen anwenden                                               * Lösen linearer Gleichungen durch systematisches Probieren, grafisch und durch
+-> Quadratische Ergänzung                                         Äquivalenzumformungen (E)
+                                                                  * Lösen von Verhältnisgleichungen (auch Umstellen von Formeln) (E)
+2.4 Gleichungen lösen                                             * Prüfen einer Lösung (auch durch Einsetzen in die Ausgangsgleichung) (E)
+-> Wiederholung und Vertiefung: Lösen                             * Lösen von linearen Gleichungen (auch mit Klammern) und Verhältnisgleichungen
+linearer Gleichungen                                              (F)
+(Äquivalenzumformung, Lösungsmenge)                               * Untersuchen der Lösbarkeit und der Lösungsvielfalt von Gleichungen (z. B.
+-> Ungleichungen (fakultativ)                                     grafisch) (F)
+                                                                  * Umformen von Termen (unter Nutzung der binomischen Formeln) (G)
+2.5 Besondere Gleichungen                                         * Übersetzungen zwischen verschiedenen Darstellungen (symbolisch, grafisch,
+-> Verhältnisgleichungen                                          sprachlich, auch in Kontexten) von Termen, Gleichungen (G)
+-> Umgang mit Formeln                                             * Lösen von Gleichungen
+-> Sachaufgaben (Gleichungen zur                                  − auch Umformen quadratischer Terme in vollständige Quadrate mithilfe
+Modellierung)                                                     quadratischer Ergänzung (H)
+                                                                      5
+
+
+Themenseite – Mit allen Sinnen        Sprachbildung, übergreifende   Leitidee Größen und Messen
+-> Verwenden und Umstellen von        Themen, Medienbildung          * kritisches Bewerten von Rechenergebnissen in Bezug auf die Sachsituation (E)
+Formeln                                                              * Angeben von Rechenergebnissen in sinnvoller Genauigkeit (E)
+-> Erstellen von Versuchsreihen und                                  * Verwenden von Größenangaben in Rechnungen (auch Geschwindigkeiten,
+Wertetabellen                                                        Dichten) (E)
+                                                                      6
+
+Kapitel 3: Lineare Funktionen (Stundenzahl: 26 h)
+
+                                               Fachübergreifende
+                                                                                              Inhaltsbezogene Kompetenzen
+             mathe.delta 8                        Kompetenzen
+                                                                                                  des Rahmenlehrplans
+                                              des Rahmenlehrplans
+3.1 Lineare Zuordnungen                                             Leitidee Gleichungen und Funktionen
+-> Wiederholung: direkte                                            * Beschreiben und Interpretieren von linearen Zusammenhängen und ihrer
+Proportionalität                                                    Darstellungen in Alltagssituationen (F)
+-> Graphen linearer Zuordnungen                                     * Bestimmen und Beschreiben von Merkmalen linearer Funktionen der Form y = ax
+zeichnen                                                            + b (Steigung, Änderungsrate, Nullstelle, y-Achsenabschnitt, Einfluss der Parameter
+-> Rechenvorschriften linearer                                      auf den Verlauf des Graphen) (F)
+Zuordnungen angeben                                                 * Darstellen von Zuordnungen und linearen Funktionen im Koordinatensystem (F)
+                                                                    * Übersetzen zwischen sprachlicher, tabellarischer und grafischer Form sowie
+3.2 Zuordnungen und Funktionen                                      Funktionsgleichung von linearen Funktionen (F)
+-> Argument, Funktionswert                                          * Ermitteln und Nutzen von ausgewählten Punkten linearer Funktionen (F)
+-> Definitions- und Wertemenge                                      * Ermitteln der Funktionsgleichung einer linearen Funktion aus zwei gegebenen
+-> Darstellungsformen (Text,                                        Punkten (G)
+Pfeildiagramm, Wertetabelle, geordnete                              *Gegenüberstellen der entsprechenden Eigenschaften der bekannten
+Paare Gleichung, Graph)                                             Funktionstypen (lineare Funktionen) und Systematisierung der Funktionstypen (G)
+-> Entscheiden, ob Funktionen vorliegen                             * Beschreiben und Interpretieren funktionaler Zusammenhänge und ihrer
+                                                                    Darstellungen in Alltagssituationen (G)
+3.3 Lineare Funktionen grafisch           Medienbildung
+bestimmen
+-> Steigung, Absolutglied,
+Steigungsdreieck
+-> Einfluss der Parameter auf den
+Verlauf des Graphen
+
+3.4 Lineare Funktionen rechnerisch        Medienbildung
+bestimmen
+-> Nullstelle, Achsenschnittpunkte
+-> Funktionsgleichung aus zwei Punkten
+                                                                     7
+
+
+erstellen
+-> Punktprobe
+
+3.5 Lineare Funktionen im Alltag      Medienbildung, übergreifende
+-> einfache Sachaufgaben, komplexe    Themen
+Anwendungsaufgaben
+
+Werkzeug – Mathematisch modellieren
+-> Kennenlernen eines typischen       Sprachbildung, übergreifende
+Modellierungskreislaufs               Themen, Medienbildung
+-> Modellierungskreisläufe bei
+praktischen Anwendungen erstellen
+                                                                           8
+
+Kapitel 4: Maßstäbliches Vergrößern und Verkleinern (Stundenzahl: 12 h)
+
+                                              Fachübergreifende
+                                                                                                   Inhaltsbezogene Kompetenzen
+             mathe.delta 8                       Kompetenzen
+                                                                                                       des Rahmenlehrplans
+                                             des Rahmenlehrplans
+4.1 Verhältnisse                                                          Leitidee Größen und Messen
+-> Verhältnisschreibweise                                                 * Nutzen von Beziehungen zwischen maßstäblich veränderten ebenen
+-> Maßstab                                                                geometrischen Objekten, um Maße zu ermitteln (z. B. Rechnen mit Maßstäben) (E)
+
+4.2 Maßstäbliches Vergrößern und
+Verkleinern                                                               Leitidee Raum und Form
+-> Zeichnen von maßstäblich                                               * Erkennen und Benennen kongruenter und ähnlicher ebener geometrischer
+vergrößerten und verkleinerten Figuren                                    Objekte anhand ihrer Eigenschaften (E)
+-> zentrische Streckung (Definition und                                   * Beschreiben der Eigenschaften (auch Längenverhältnisse) von Kongruenz- und
+Ausführung) (fakultativ)                                                  Ähnlichkeitsabbildungen (E)
+                                                                          * Zeichnen von kongruenten sowie maßstäblich vergrößerten und verkleinerten
+4.3 Ähnlichkeit                           Medienbildung                   ebenen Figuren zu vorgegebenen ebenen Figuren (E)
+-> Ähnlichkeit, Ähnlichkeitsfaktor
+-> Beschreiben der Eigenschaften von
+Ähnlichkeitsabbildungen
+
+4.4 Besondere Verhältnisse ähnlicher
+Figuren
+-> Strahlensätze (fakultativ)
+
+Themenseite – Alles ähnlich beim          Sprachbildung
+Falten
+-> Figuren und Muster durch geschicktes
+Falten herstellen und die Muster
+hinsichtlich Ähnlichkeit und Streckung
+untersuchen
+                                                                           9
+
+Kapitel 5: Satz des Pythagoras und seine Anwendungen (Stundenzahl: 32 h)
+
+                                            Fachübergreifende
+                                                                                               Inhaltsbezogene Kompetenzen
+            mathe.delta 8                      Kompetenzen
+                                                                                                   des Rahmenlehrplans
+                                           des Rahmenlehrplans
+5.1 Quadratwurzeln                      Medienbildung                  Leitidee Größen und Messen
+-> Quadratwurzel als Umkehrung der                                     * Verwenden des Satzes von Pythagoras zur Berechnung von Streckenlängen in
+Potenzschreibweise                                                     rechtwinkligen Dreiecken (auch an Körpern) (E)
+                                                                       * Verwenden der Umkehrung des Satzes des Pythagoras zur Identifizierung von
+5.2 Satz des Pythagoras                 Medienbildung                  rechtwinkligen Dreiecken (E)
+-> Bezeichnungen, einfache                                             * Berechnen von Volumen und Oberflächeninhalt von Körpern (auch von geraden
+Anwendungen                                                            quadratischen Pyramiden) (F)
+-> Konstruktionen mit pythagoräischen                                  * Berechnen des Volumens zusammengesetzter Körper unter Verwendung des
+Sätzen                                                                 Zerlegungs- und Ergänzungsprinzips (F)
+-> Beweise des Satzes                                                  * kritisches Bewerten von Rechenergebnissen sowie Angabe von
+-> Abstand zweier Punkte                                               Rechenergebnissen mit sinnvoller Genauigkeit im Zusammenhang mit
+-> Umkehrung                                                           berufsorientierten Kontexten (F)
+
+5.3 Pythagoras und Körper                                              Leitidee Raum und Form
+-> Berechnungen im rechtwinkligen                                      * Beschreiben von Lage- und Größenbeziehungen geometrischer Objekte (auch
+Dreieck, Anwendungen                                                   unter Nutzung der Sätze von Thales und Pythagoras) (E)
+-> Streckenlängen in Körpern                                           * Beschreiben von Eigenschaften (auch Größenangaben) geometrischer Flächen
+(Diagonalen, Höhen)                                                    und Körper und deren Zusammensetzungen (auch gerade quadratische Pyramiden)
+                                                                       (F)
+5.4 Netze von Pyramide und Kegel                                       *Beschreiben und Nutzen von Lage- und Größenbeziehungen innerhalb von ebenen
+-> Zeichnen der Körpernetze von                                        und räumlichen geometrischen Objekten und deren Zusammensetzungen (auch
+Pyramide und Kegel                                                     gerade quadratische Pyramiden) zum Berechnen von Längen, Flächeninhalten und
+-> Berechnung von Grund- und                                           Volumina (F)
+Mantelfläche                                                           * Herstellen von Modellen geometrischer Körper (auch von geraden quadratischen
+-> Berechnungen mit Satz des                                           Pyramiden) (F)
+Pythagoras                                                             * Zeichnen von Netzen und Schrägbildern geometrischer Körper (auch von geraden
+                                                                       quadratischen Pyramiden) (F)
+                                                         10
+
+
+5.5 Oberflächeninhalt von Pyramide                      * Vertiefen und Anwenden der Kenntnisse über Abbildungen zum Lösen von
+und Kegel                                               entsprechenden Aufgaben, z. B. im berufsvorbereitenden Kontext (F)
+-> Berechnung von Oberflächeninhalten                   * Anwenden der Fertigkeiten beim Zeichnen von Abbildungen zum Lösen von
+-> Berechnungen mit Satz des                            entsprechenden Aufgaben, z. B. im berufsvorbereitenden Kontext (F)
+Pythagoras                                              * Beschreiben von Eigenschaften geometrischer Flächen und Körper und deren
+                                                        Zusammensetzungen (auch gerader Kreiskegel und Pyramiden) (G)
+5.6 Schrägbild von Pyramide und Kegel                   * Beschreiben und Nutzen von Lage- und Größenbeziehungen geometrischer
+-> Zeichnen von Schrägbildern von                       Objekte (auch unter Verwendung der bisher bekannten geometrischen Sätze) für
+Pyramide und Kegel                                      Berechnungen und Argumentationen (G)
+                                                        * Skizzieren von Schrägbildern (auch von geraden Kreiskegeln und Pyramiden) (G)
+5.7 Volumen von Pyramide und Kegel      Medienbildung   * Konstruieren geometrischer Figuren (auch unter Nutzung des Satze und des
+-> Volumenberechnungen von Pyramide                     Satzes des Pythagoras)
+und Kegel                                               * Begründen der Eigenschaften von geometrischen Objekten mithilfe von dem Satz
+-> Berechnungen mit Satz des                            des Pythagoras (H)
+Pythagoras
+                                                        Leitidee Zahlen und Operationen
+Themenseite – Rund um Pythagoras        Sprachbildung   * Erklären des Zusammenhangs zwischen Potenzieren und Radizieren (G)
+-> Entdecken der Flächensätze des
+Euklid                                                  Leitidee Größen und Messen
+-> Überprüfen des Satz des Pythagoras                   * Berechnen des Volumens von Körpern (auch von geraden Pyramiden, geraden
+anhand einer selbst gefalteten Figur                    Kreiskegeln) (G)
+                                                        * Berechnen des Oberflächeninhalts von Körpern (auch gerade Pyramiden, gerade
+                                                        Kegel) (G)
+                                                                     11
+
+Kapitel 6: Lineare Gleichungssysteme (Stundenzahl: 12 h)
+
+                                               Fachübergreifende
+                                                                                             Inhaltsbezogene Kompetenzen
+             mathe.delta 8                        Kompetenzen
+                                                                                                 des Rahmenlehrplans
+                                              des Rahmenlehrplans
+6.1 Lineare Gleichungen mit zwei                                    Leitidee Gleichungen und Funktionen
+Variablen                                                           * Darstellen von außer- und innermathematischen Sachverhalten durch Terme,
+-> Lösungen linearer Gleichungen mit                                Gleichungen und lineare Gleichungssysteme mit zwei Variablen (F)
+zwei Variablen (Wertetabelle, grafisch)                             * Variablen verwenden (auch verschiedene Variablen in linearen
+                                                                    Gleichungssystemen) (F)
+6.2 Lineare Gleichungssysteme                                       * Angeben von passenden Situationen und grafischen Darstellungen zu vorgegeben
+zeichnerisch lösen                                                  Termen, Gleichungen und linearen Gleichungssystemen mit zwei Variablen (F)
+-> Grafisches Lösen linearer                                        * Lösen linearer Gleichungssysteme mit zwei Variablen (grafisch und durch
+Gleichungssysteme                                                   systematisches Probieren) (F)
+-> Lösbarkeit linearer                                              * Untersuchen der Lösbarkeit und der Lösungsvielfalt von linearen
+Gleichungssysteme                                                   Gleichungssystemen mit zwei Variablen (z. B. grafisch) (F)
+                                                                    * Übersetzungen zwischen verschiedenen Darstellungen (symbolisch, grafisch,
+6.3 Lineare Gleichungssysteme                                       sprachlich, auch in Kontexten) linearen Gleichungssystemen mit zwei Variablen (G)
+rechnerisch lösen                                                   * Lösen von linearen Gleichungssystemen mit zwei Variablen (auch rechnerisch) (G)
+-> Lösungsverfahren: Gleichsetzen (aus                              * Nutzen von Lösungsprinzipien für lineare Gleichungssysteme zur Berechnung von
+Schnittpunkten linearer Funktionen                                  Schnittpunkten von Funktionsgraphen (G)
+ableiten), Einsetzen, Additionsverfahren                            * Lösen von Gleichungssystemen
+-> Lösen linearer Gleichungssysteme mit                             − auch lineare Gleichungssysteme mit drei Variablen
+drei Variablen                                                      − auch Nutzen des Additionsverfahrens (z. B. bei Rekonstruktion von quadratischen
+                                                                    Funktionen) (H)
+6.4 Lineare Gleichungssysteme im           übergreifende Themen
+Alltag
+-> Anwendungsaufgaben: Zahlenrätsel,
+Altersrätsel, Mischungsaufgaben,
+geometrische Aufgaben, Tarifvergleiche
+                                                                  12
+
+
+Themenseite – Wirtschaftsabläufe   Sprachbildung, übergreifende
+-> Lineare Gleichungssysteme im    Themen
+Anwendungskontext Wirtschaft
+
+
+== Klasse 9 ==
+
+                       Mathematische Zeichen und Abkürzungen..................                             6
+                       Fit für Klasse 9 ...............................................................    7
+
+
+
+
+1   Reelle Zahlen
+
+                       Das kann ich schon........................................................         14
+                       Entdecken: Hilfe bei den Hausaufgaben.......................                       16
+                       1.1 Potenzen mit negativen Exponenten....................                          18
+                       1.2 Zehnerpotenzen.....................................................            20
+                       1.3 Potenzgesetze........................................................          22
+                       1.4 Wurzeln ..................................................................     26
+                       1.5 Die Menge der reellen Zahlen.................................                  30
+                       1.6 Rechnen mit reellen Z a h le n ...................................             34
+                      Aufgaben zur Differenzierung ......................................                 38
+                      Vermischte Aufgaben.....................................................            40
+                      Themenseite: Näherungsverfahren..............................                       44
+                       Das kann ich! ...............................................................      46
+                      Auf einen B lick...............................................................     48
+
+
+
+
+2   Quadratische Funktionen
+
+                       Das kann ich schon.......................................................          50
+                       Entdecken: Auf Straßen und Plätzen............................                     52
+                      2.1 Die Normalparabel..................................................             54
+                      2.2 Parallelverschiebung von Parabeln
+                             der Form f(x) = (x + d)2 und f(x) = x2 + e . . . .                           56
+                      2.3 Gestauchte und gestreckte Parabeln
+                             der Form f(x) = ax2 ................................................         60
+                      2.4 Scheitelpunkt- und Normalform einer Parabel . . .                               64
+                      2.5 Eigenschaften quadratischer Funktionen...............                           68
+                      2.6 Aufstellen von Parabelgleichungen.......................                        72
+                      2.7 Quadratische Funktionen im A llta g .......................                     74
+                      Aufgaben zur Differenzierung ......................................                 76
+                      Vermischte Aufgaben.....................................................            78
+                      Werkzeug: Mindmap.....................................................              82
+                      Das kann ich! ...............................................................       84
+                      Auf einen B lick...............................................................     86
+3   Quadratische Gleichungen
+
+                      Das kann ich schon........................................................           88
+                      Entdecken: Rund um Haus und Garten .......................                           90
+                      3.1 Quadratische Gleichungen der Form x2 + q = 0 . .                                 92
+                      3.2 Quadratische Gleichungen
+                            der Form x2 + px + q = 0 ....................................                 96
+                      3.3 Lösungsformel für quadratische Gleichungen . . . .                              100
+                      3.4 W urzelgleichungen................................................              106
+                      3.5 Systeme quadratischer Gleichungen ....................                          108
+                      Aufgaben zur Differenzierung ......................................                 110
+                      Vermischte Aufgaben.....................................................            112
+                      Themenseite: Parabeln in Sport und Freizeit...............                          118
+                      Das kann ich! ...............................................................       120
+                      Auf einen B lic k ...............................................................   122
+
+
+
+
+4   Körperbetrachtungen
+
+                      Das kann ich schon........................................................          124
+                      Entdecken: Geometrische Objekte in der Architektur. .                               126
+                      4.1 Kreis und Kreisteile ................................................           128
+                      4.2 Volumen einer K u g e l..............................................           134
+                      4.3 Oberflächeninhalt einer K u g e l..............................                 136
+                      4.4 Zusammengesetzte K ö rp e r....................................                 138
+                      Aufgaben zur Differenzierung ......................................                 142
+                      Vermischte Aufgaben.....................................................            144
+                      Themenseite: Viva Las Vegas.........................................                148
+                      Das kann ich! ...............................................................       150
+                      Auf einen B lic k ...............................................................   152
+5   Trigonometrie
+
+                      Das kann ich schon........................................................          154
+                      Entdecken: Vermessung................................................               156
+                      5.1 Sinus, Kosinus und Tangens im
+                            rechtwinkligen Dreieck...........................................             158
+                      5.2 Sinus, Kosinus und Tangens im A llta g ....................                     162
+                      5.3 Der Sinussatz für beliebige Dreiecke.......................                     164
+                      5.4 Der Kosinussatz für beliebige D reiecke..................                       166
+                      5.5 Sinussatz und Kosinussatz in Anwendungen
+                          und A llta g ...............................................................    168
+                      5.6 Der Flächeninhalt von beliebigen Dreiecken..........                            170
+                      Aufgaben zur Differenzierung ......................................                 172
+                      Vermischte Aufgaben.....................................................            174
+                      Themenseite: Additionstheorem e..............................                       178
+                      Das kann ich! ...............................................................       180
+                      Auf einen B lic k ...............................................................   182
+
+
+
+
+6   Potenzfunktionen und Potenzgleichungen
+
+                      Das kann ich schon........................................................          184
+                      Entdecken: Historische Entdeckungen.........................                        186
+                      6.1 Potenzfunktionen mit natürlichem Exponenten . .                                 188
+                      6.2 Potenzfunktionen mit ganzzahligem
+                            und rationalem Exponenten .................................                   192
+                      6.3 Umkehrfunktionen von Potenzfunktionen.............                              196
+                      6.4 Potenzgleichungen................................................               200
+                      Aufgaben zur Differenzierung ......................................                 204
+                      Vermischte Aufgaben.....................................................            206
+                      Themenseite: Mathematik und M u s ik .........................                      210
+                      Das kann ich! ...............................................................       212
+                      Auf einen B lic k ...............................................................   214
+
+
+
+                      Lösungen zu „Das kann ich schon ..." und
+                      „Das kann ic h !"...............................................................    215
+                      Stichwortverzeichnis.....................................................           238
+                      Bildnachweis.................................................................       240
+
+
+== Klasse 10 ==
+
+                       Mathematische Zeichen und Abkürzungen                                                   6
+                       Fit für Klasse 10 ...........................................                           7
+
+
+
+
+1   Trigonometrische Funktionen
+
+                       Das kann ich schon...................................                                  14
+                       Entdecken: Sinus und Kosinus kennenlernen                              .............   16
+                       1.1 Das Bogenmaß . ........................................................            18
+                       1.2 Sinus und Kosinus am Einheitskreis........................                         20
+                       1.3 Die Sinusfunktion......................................................            24
+                       1.4 Einfluss der Parameter auf die Sinusfunktion . . . .                               26
+                       1.5 Die Kosinusfunktion...................................................             30
+                       1.6 Periodische Vorgänge im Alltag................................                     32
+                       Aufgaben zur Differenzierung ........................................                  34
+                       Vermischte Aufgaben........................................................            36
+                       Themenseite: Rund um Tangens & Co.............................                         40
+                       Das kann ich!......................................................................    42
+                       Auf einen Blick...................................................................     44
+
+
+
+
+2   Wahrscheinlichkeitsrechnung
+
+                       Das kann ich schon...........................................................          46
+                       Entdecken: Wahrscheinlich überall!................................                     48
+                       2.1 Daten beschreiben und darstellen...........................                        50
+                       2.2 Wahrscheinlichkeiten b estim m en...........................                       54
+                       2.3 Vierfeldertafeln...........................................................        58
+                       2.4 Verknüpfung von Ereignissen...................................                     60
+                       2.5 Mehrstufige Zufallsexperimente..............................                       64
+                       2.6 Kombinatorik.............................................................          70
+                       Aufgaben zur Differenzierung ........................................                  74
+                       Vermischte Aufgaben........................................................            76
+                       Themenseite: Aus der Medizin........................................                   80
+                       Das kann ich!......................................................................    82
+                       Auf einen B lick...................................................................    84
+3   Körperbetrachtungen
+
+                       Das kann ich schon...........................................................               86
+                       Entdecken: Geometrische Objekte in der Architektur .                                         88
+                       3.1 Oberflächeninhalt und Volumen
+                             geometrischer Körper.................................................                 90
+                       3.2 Schiefe K ö rp e r...........................................................            92
+                       3.3 Stümpfe geometrischer Körper................................                            96
+                       3.4 Zusammengesetzte und ausgehöhlte Körper . . . .                                         100
+                       Aufgaben zur Differenzierung ........................................                       104
+                       Vermischte Aufgaben.........................................................                106
+                       Themenseite: Rotationskörper........................................                        110
+                       Das kann ich!......................................................................         112
+                       Auf einen B lick...................................................................         114
+
+
+
+
+4   Exponentialfunktionen und -gleichungen
+
+                       Das kann ich schon...........................................................               116
+                       Entdecken: Von Killer-Kresse und logischen Zahlen . . .                                     118
+                       4.1 Wachstumsprozesse...................................................                    120
+                       4.2 Exponentialfunktion                 .................................................   122
+                       4.3 Einfluss der Parameter auf die Exponentialfunktion                                      126
+                       4.4 Logarithmus ..............................................................              130
+                       4.5 Umkehrfunktion der Exponentialfunktion..............                                    134
+                       4.6 Exponentialgleichungen...........................................                       138
+                       Aufgaben zur Differenzierung ........................................                       142
+                       Vermischte Aufgaben.........................................................                144
+                       Themenseite: Spiralen......................................................                 148
+                       Das kann ich!......................................................................         150
+                       Auf einen B lick...................................................................         152
+5   Prüfung am Ende der Jahrgangsstufe 10
+
+                        5.1 Aufgaben zum Üben ................................................                      154
+                        5.2 Prüfungsaufgaben......................................................                  164
+
+
+
+
+6   Einführung in die Differentialrechnung
+
+                        Das kann ich schon...........................................................               172
+                        Entdecken: Steigungen                 ...................................................   174
+                        6.1 Ganzrationale Funktionen........................................                        176
+                        6.2 Der Verlauf ganzrationaler Funktionen...................                                178
+                        6.3 Nullstellen ganzrationaler Funktionen ...................                               182
+                        6.4 Sekantensteigung - Differenzenquotient..............                                    186
+                        6.5 Tangentensteigung - Differentialquotient..............                                  190
+                        6.6 Das Änderungsverhalten einer Funktion................                                   194
+                        6.7 Zusammenhänge zwischen Graph und
+                              Ableitungsfunktion...................................................                 196
+                        Aufgaben zur Differenzierung ........................................                       198
+                        Vermischte Aufgaben........................................................                 200
+                        Themenseite: Ableitungs- und Stammfunktionen                                       . . .    204
+                        Das kann ich!......................................................................         206
+                        Auf einen Blick...................................................................          208
+
+
+                        Lösungen zu „Das kann ich schon ..."
+                        und „Das kann ich!"...........................................................              209
+                        Stichwortverzeichnis........................................................                226
+                        Bildnachweis......................................................................          228
+

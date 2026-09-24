@@ -305,6 +305,11 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-lisum-diagnose-foerderung-zahlen-operationen.txt` – LISUM-Diagnose-/Fördermaterial Leitidee Zahlen und Operationen, CC BY-SA 4.0; löst die Fundlücke [MzDuF] in `quellen.md`.
 - `foerderformen-stand-2026-09-24.md` – Standdatei des Auftrags Förderformen, nach Abschluss als Beleg liegen geblieben.
 - `foerderformen-bericht-2026-09.md` – Bericht des Auftrags Förderformen (24.09.2026).
+- `quelle-westermann-mathematik2022-bebbstth-kl5-6-inhalt.txt` – Inhaltsverzeichnisse Mathematik, Ausgabe 2022 für BE/BB/Sachsen-Anhalt/Thüringen, Klasse 5–6 (Vorstufe zur Ausgabe 2023), aus der DNB; öffnen für die Klassenlage eines Stoffs vor Klasse 7 an der Oberschulreihe.
+- `quelle-klett-schnittpunkt-mathematik-diff2017-kl5-6-inhalt.txt` – Inhaltsverzeichnisse Schnittpunkt Mathematik, Differenzierende Ausgabe ab 2017, Klasse 5–6, aus der DNB.
+- `quelle-westermann-mathematikheute-bebb-kl5-6-inhalt.txt` – Inhaltsverzeichnisse Mathematik heute, Ausgabe 2014 für Grundschulen in Berlin und Brandenburg, Klasse 5–6 (Klasse 5 über den Lösungsband), aus der DNB.
+- `quelle-cornelsen-fundamente-bb-ausgabeb2024-kl5-6-inhalt.txt` – Inhaltsverzeichnisse Fundamente der Mathematik, Ausgabe B ab 2024, Klasse 5–6 (grundständiges Gymnasium), aus der DNB.
+- `quelle-buchner-mathedelta-bb-2016-inhalt.txt` – Inhaltsverzeichnisse mathe.delta Berlin/Brandenburg (Gymnasium), Klasse 7–10, aus der DNB; Klasse 8 ab Kapitel 5 aus dem Stoffverteilungsplan des Verlags.
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
 und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.

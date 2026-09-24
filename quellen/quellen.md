@@ -399,6 +399,58 @@ Leitidee Zahlen und Operationen“, Stand 2023-05, 710 Seiten. Lizenz CC BY-SA
 gekennzeichnet – betrifft nur die Bilder, nicht die Textstruktur. Löst die
 Fundlücke [MzDuF] unten für diese Leitidee.
 
+## Inhaltsverzeichnisse Klasse 5/6 und weitere Reihen (abgelegt 25.09.2026)
+
+Auftrag Nacht 2026-09-25, Teil 1: Inhaltsverzeichnisse, damit die
+Klassenbelege je Lerneinheit (`katalog/_klassen-belege.md`) auf allen
+Regelreihen für Berlin/Brandenburg stehen und bis Klasse 5 reichen. Wie
+oben über die DNB (`werkzeuge/dnb-sru.py`, TOC-PDF `https://d-nb.info/<IDN>/04`),
+Landeszuordnung über das DNB-Feld 926 und den Ausgabevermerk des
+Reihensatzes. Fundliste: `quellen/lehrwerke-fundliste.md`, Abschnitt
+„Ergänzung 25.09.2026". Lambacher Schweizer hat keine Landesausgabe BE/BB
+(der Fahrplan [LS-AA] bleibt das LS-Verzeichnis); Sekundo BE/BB und
+mathe.delta BE/BB haben keine Bände 5/6; Mathe live, Fokus Mathematik,
+Maßstab und Mathematik Neue Wege SI haben keine Sek-I-Ausgabe für
+Berlin/Brandenburg.
+
+## quelle-westermann-mathematik2022-bebbstth-kl5-6-inhalt.txt  [MA22-BEBBSTTH]
+
+Westermann, „Mathematik – Ausgabe 2022 für Berlin, Brandenburg,
+Sachsen-Anhalt, Thüringen, 5. und 6. Schuljahr", Vorstufe zu [MA23-BEBBSTTH]
+(gleicher Herausgeber, gleiche Seitenmarken). Inhaltsverzeichnisse Klasse 5
+und 6. © Westermann. Achtung: zweispaltig gesetzt, Symbolzeichen am
+Zeilenanfang verstümmelt, einzelne Kapitelziffern fehlen im Rohtext.
+
+## quelle-klett-schnittpunkt-mathematik-diff2017-kl5-6-inhalt.txt  [SCHNITTPUNKT-BB-56]
+
+Klett, „Schnittpunkt Mathematik", Differenzierende Ausgabe ab 2017,
+Inhaltsverzeichnisse Klasse 5 und 6 (klett.de weist beide Bände u. a. für
+Berlin und Brandenburg aus). Gleicher DNB-Reihensatz wie [SCHNITTPUNKT-BB].
+Sauberer Rohtext. © Klett.
+
+## quelle-westermann-mathematikheute-bebb-kl5-6-inhalt.txt  [MH-BEBB-56]
+
+Westermann (Schroedel), „Mathematik heute – Ausgabe 2014 für Grundschulen in
+Berlin und Brandenburg", Klasse 5 und 6, Vorstufe zu [MH-BEBB]. Klasse 5:
+Das Schulbuch hat in der DNB kein Inhaltsverzeichnis; gesichert ist das des
+Lösungsbands (gleiche Gliederung, Seitenzahlen des Lösungsbands, nicht des
+Schulbuchs). © Westermann.
+
+## quelle-cornelsen-fundamente-bb-ausgabeb2024-kl5-6-inhalt.txt  [FDM-B24-56]
+
+Cornelsen, „Fundamente der Mathematik", Ausgabe B ab 2024 (Berlin,
+Brandenburg), Klasse 5 (2025) und 6 (2026) für grundständige Gymnasien;
+gleicher DNB-Reihensatz wie die Bände 7–10. Sauberer Rohtext. © Cornelsen.
+
+## quelle-buchner-mathedelta-bb-2016-inhalt.txt  [MDELTA-BB]
+
+C.C. Buchner, „mathe.delta – Berlin/Brandenburg", Ausgabe ab 2016,
+Mathematik für das Gymnasium, Inhaltsverzeichnisse Klasse 7–10 (Bände 5/6
+nicht erschienen). © C.C. Buchner. Achtung: Scans mit Texterkennung,
+einzelne Zeilen verstümmelt; Klasse 8 in der DNB nur bis Kapitel 4, Kapitel
+5–6 aus dem frei verlinkten Stoffverteilungsplan des Verlags ergänzt
+(eigener Abschnitt in der Datei).
+
 ## Noch nicht abgelegt
 
 - [MzDuF] LISUM, „Materialien zur Diagnose und Förderung im

@@ -69,6 +69,42 @@ Cornelsen-Werte für die Ausgabe B ab 2017 (Kl. 7, 8, 10) sind Kandidaten,
 keine Funde: `quelle-cornelsen-fundamente-bb-ausgabeb2017-inhalt.txt` nennt
 sie mit Begründung.
 
+### Ergänzung 25.09.2026: Lambacher Schweizer, Klasse 5/6, weitere Reihen
+
+Auftrag `auftrag-nacht-2026-09-25.md`, Teil 1. Landeszuordnung über das
+DNB-Feld 926 (Bundesland laut Verlag, „1DFG-DE-BE" Berlin, „1DFG-DE-BG"
+Brandenburg) und den Ausgabevermerk (Feld 250) des Reihensatzes; Grenzen:
+LS höchstens 12 Suchabfragen, Klasse 5/6 höchstens 8 je Reihe, weitere
+Reihen höchstens 4 je Reihe (Satz- und PDF-Abrufe nicht mitgezählt).
+
+| Verlag | Werk | Ausgabe | Klasse | ISBN | IDN | Fund | Vollständigkeit |
+|---|---|---|---|---|---|---|---|
+| Klett | Lambacher Schweizer | keine Landesausgabe BE/BB | 5–10 | – | – | nicht gefunden (8 Abfragen: Titel mit Berlin/Brandenburg/„Allgemeine Ausgabe" 0 Treffer; alle Sek-I-Schülerbände 2022–2026 tragen andere Länder: NI, TH/HH, RP, SN, BW, HE, BY, NRW-G9). Der Fahrplan [LS-AA] gehört zur digitalen „Studyly Allgemeine Ausgabe für Berlin" ohne Druckband in der DNB; nächste Druckausgabe nach Kapitelfolge ist NRW G9 ab 2019 (Kl. 7: I Rechnen mit rationalen Zahlen … wie Berlin, aber VI* Daten und Wahrscheinlichkeit statt VI Flächen/VII Daten) – nicht gesichert. Der Fahrplan bleibt das LS-Verzeichnis. | – |
+| Westermann | Sekundo | Ausgabe 2017 BE/BB | 5, 6 | – | – | nicht erschienen: Reihe nur 7.–10. Schuljahr (westermann.de/reihe/SEKUNDO17BEBB; DNB-Reihensatz 1138382329 „Berlin/Brandenburg, differenzierende Ausgabe" ohne Band 5/6). Bände 5/6 gibt es nur in der Differenzierenden Ausgabe (Reihensatz 1152973347) und NRW – nicht gesichert. | – |
+| Westermann | Mathematik | Ausgabe 2022 für BE/BB/ST/TH, 5. und 6. Schuljahr (Vorstufe zur Ausgabe 2023) | 5 | 9783141563009 | 1248887220 | DNB (Schulbuch-ISBN über westermann.de-Suche; 926: Berlin, Brandenburg) | ja (zweispaltig, Symbolzeichen verstümmelt) |
+| Westermann | Mathematik | Ausgabe 2022 für BE/BB/ST/TH, 5. und 6. Schuljahr | 6 | 9783141563016 | 1248885252 | DNB | ja (Kapitelziffern 5, 7, 11 fehlen im Rohtext) |
+| Klett | Schnittpunkt Mathematik | Differenzierende Ausgabe ab 2017 (klett.de: u. a. Berlin, Brandenburg) | 5 | 9783127445510 | 1130264599 | DNB (ISBN aus Bandfolge 7–10; Reihensatz 1130264378 wie Kl. 7) | ja |
+| Klett | Schnittpunkt Mathematik | Differenzierende Ausgabe ab 2017 | 6 | 9783127445619 | 115106453X | DNB | ja |
+| Westermann | Mathematik heute | Ausgabe 2014 für Grundschulen in Berlin und Brandenburg (Reihensatz 1051069351) | 5 | 9783507811409 (Schulbuch) / 9783507811416 (Lösungen) | 1046587625 / 1054570523 | DNB: Schulbuch ohne TOC-PDF, Ersatz Lösungsband (gleiche Gliederung, Seiten des Lösungsbands) | ja, mit Vorbehalt Seitenzahlen |
+| Westermann | Mathematik heute | Ausgabe 2014 für Grundschulen in Berlin und Brandenburg | 6 | 9783507811478 | 1065090692 | DNB | ja (Kapitelzeile 5 fehlt im Rohtext) |
+| Cornelsen | Fundamente der Mathematik | B ab 2024 (BE/BB) | 5 | 9783060428250 | 1353342603 | DNB (Titelsuche; Reihensatz 1333894473 wie Kl. 7; 926: Berlin, Brandenburg) | ja |
+| Cornelsen | Fundamente der Mathematik | B ab 2024 (BE/BB) | 6 | 9783060428298 | 1374313785 | DNB (Jahr 2026) | ja |
+| C.C. Buchner | mathe.delta | Berlin/Brandenburg, Ausgabe ab 2016 (Gymnasium; Reihensatz 1099987873) | 7 | 9783661611075 | 1063198585 | DNB (ISBN von ccbuchner.de) | ja (Scan, einzelne Zeilen verstümmelt) |
+| C.C. Buchner | mathe.delta | Berlin/Brandenburg, Ausgabe ab 2016 | 8 | 9783661611082 | 1063198593 | DNB + Verlag | nein: DNB-Scan endet mit Kapitel 4 (S. 134); Kapitel 5–6 aus dem frei verlinkten Stoffverteilungsplan des Verlags ergänzt |
+| C.C. Buchner | mathe.delta | Berlin/Brandenburg, Ausgabe ab 2016 | 9 | 9783661611099 | 1105403610 | DNB | ja |
+| C.C. Buchner | mathe.delta | Berlin/Brandenburg, Ausgabe ab 2016 | 10 | 9783661611105 | 1150429666 | DNB | ja |
+| C.C. Buchner | mathe.delta | Berlin/Brandenburg | 5, 6 | – | – | nicht erschienen (Reihenseite ccbuchner.de nur 7–10) | – |
+| Klett | Mathe live | keine Landesausgabe BE/BB | – | – | – | nicht gefunden (2 Abfragen: Bände 7 der Ausgaben S und W 2016, ältere ohne Land; 9 Sätze ab 2020 ohne Berlin/Brandenburg im Feld 926) | – |
+| Cornelsen | Fokus Mathematik | keine Landesausgabe BE/BB | – | – | – | nicht gefunden (2 Abfragen: Ausgaben Bayern, Rheinland-Pfalz, Nordrhein-Westfalen, N, Hessen; 11 Sätze ab 2020 nur Bayern) | – |
+| Westermann | Maßstab | keine Landesausgabe BE/BB | – | – | – | nicht gefunden (1 Abfrage: Ausgaben Hessen, Rheinland-Pfalz, Nordrhein-Westfalen, Niedersachsen; letzter Schülerband 2011) | – |
+| Westermann | Mathematik Neue Wege SI | keine Landesausgabe BE/BB | – | – | – | nicht gefunden (1 Abfrage: Ausgaben NI, HB/HH, RP/SL, NRW/SH, HE, SL, RP; BE nur SII, siehe unten) | – |
+
+Gegenprobe: Elemente der Mathematik Ausgabe 2025 Klasse 5 – die ISBN-Abfrage
+`num=9783141373707` liefert IDN 1349851140, dieselbe wie in
+`quelle-westermann-elemente-der-mathematik-bb-2016u2025-inhalt.txt`. Die DNB
+führt den Band unter 2024; eine Titelabfrage mit `jhr=2025` trifft statt
+seiner die Ausgabe Nordrhein-Westfalen/Schleswig-Holstein (IDN 1365830985).
+
 ## Bestätigungen und Sek II (Auftrag Lehrwerke Sek II und Förderhefte, 24.09.2026)
 
 | Verlag | Werk | Ausgabe | Klasse | ISBN | IDN | Fund | Vollständigkeit |

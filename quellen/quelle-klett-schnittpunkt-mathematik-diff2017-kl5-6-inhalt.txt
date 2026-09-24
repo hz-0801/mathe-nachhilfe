@@ -1,0 +1,338 @@
+Klett, "Schnittpunkt Mathematik", Differenzierende Ausgabe ab 2017 (Berlin,
+Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen,
+Sachsen-Anhalt, Schleswig-Holstein, Thueringen - so die klett.de-Produkt-
+seiten zu Band 5 und 6, abgerufen 25.09.2026). Inhaltsverzeichnisse Klasse
+5-6 aus den DNB-Saetzen (TOC-PDF-Anhang /04); gleiche Reihe (DNB-Reihensatz
+1130264378) und gleiche Autoren wie die Baende 7-10 in quelle-klett-
+schnittpunkt-mathematik-diff2017-inhalt.txt. ISBN aus der Bandfolge der
+Baende 7-10 abgeleitet, in der DNB bestaetigt; mit pdftotext -layout
+extrahiert am 25.09.2026.
+
+Kl. 5: ISBN 9783127445510, IDN 1130264599, Jahr 2017, https://d-nb.info/1130264599/04
+Kl. 6: ISBN 9783127445619, IDN 115106453X, Jahr 2018, https://d-nb.info/115106453X/04
+
+(C) Klett - Gliederung als Beleg, keine Aufgaben.
+
+Sauberer Rohtext (einspaltig, keine Schriftcodierungsfehler). Kapitelfolge
+(erste Ebene):
+
+Klasse 5: 1 Daten (10), 2 Natuerliche Zahlen (32), 3 Addieren und
+Subtrahieren (54), 4 Multiplizieren und Dividieren (80), 5 Geometrie.
+Vierecke (114), 6 Sachrechnen (148), 7 Kreis und Winkel (180),
+8 Flaecheninhalt berechnen (206), 9 Brueche (226), dazu Grundwissen
+
+Klasse 6: 1 Teilbarkeit und Brueche (10), 2 Rechnen mit Bruechen (44),
+3 Koerper (68), 4 Dezimalbrueche (94), 5 Rechnen mit Dezimalbruechen (118),
+6 Terme und Gleichungen (146), 7 Berechnungen am Quader (164),
+8 Zuordnungen (184), 9 Daten darstellen und auswerten (208), 10 Ganze
+Zahlen (226), dazu Grundwissen
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 5 ==
+
+Inhaltsverzeichnis
+1 Daten
+  Standpunkt                       7
+  Auftakt                          8
+1 Daten in Listen erfassen         10
+2 Diagramme lesen                  12
+3 Daten in Diagrammen darstellen   14
+  EXTRA: Daten vergleichen         17
+4 Eine Datenerhebung durchführen   19
+5 Abzählen mit Baumdiagrammen      21
+  Zusammenfassung                  23
+  Basistraining                    24
+  Anwenden. Nachdenken             25
+  Rückspiegel                      28
+
+2 Natürliche Zahlen
+  Standpunkt                       29
+  Auftakt                          30
+1 Natürliche Zahlen                32
+2 Große Zahlen im Zehnersystem     35
+3 Runden von Zahlen                38
+4 Schätzen                         40
+  EXTRA: Zahlen im Zweiersystem    42
+  EXTRA: Römische Zahlzeichen      44
+  Zusammenfassung                  45
+  Basistraining                    46
+  Anwenden. Nachdenken             48
+  Rückspiegel                      50
+
+3 Addieren und Subtrahieren
+  Standpunkt                       51
+  Auftakt                          52
+1 Kopfrechnen                      54
+2 Addieren                         56
+3 Subtrahieren                     60
+4 Klammern                         64
+5 Rechengesetze                    67
+  Zusammenfassung                  69
+  Basistraining                    70
+  Anwenden. Nachdenken             72
+  Rückspiegel                      76
+4 Multiplizieren und Dividieren
+  Standpunkt                              77
+  Auftakt                                 78
+1 Kopfrechnen                              80
+2 Multiplizieren                           82
+3 Rechengesetze. Rechenvorteile            85
+4 Potenzieren                              88
+5 Dividieren                               91
+6 Punkt vor Strich. Klammern zuerst        95
+7 Ausklammern. Ausmultiplizieren          100
+  Zusammenfassung                         103
+  Basistraining                           104
+  Anwenden. Nachdenken                    106
+  EXTRA: Zahlenmuster                     109
+  Rückspiegel                             110
+
+5 Geometrie. Vierecke
+  Standpunkt                              111
+  Auftakt                                 112
+1 Strecke, Gerade und Halbgerade          114
+2 Zueinander senkrecht                    116
+3 Zueinander parallel                     118
+4 Das Koordinatensystem                   120
+5 Entfernung und Abstand                  123
+6 Achsensymmetrie und Punktsymmetrie      125
+  EXTRA: Bandornamente                    128
+  EXTRA: Verschiebung                     129
+7 Rechteck und Quadrat                    130
+8 Parallelogramm und Raute                132
+9 Noch mehr Vierecke                      135
+  Zusammenfassung                         137
+  Basistraining                           138
+  Anwenden. Nachdenken                    140
+  Rückspiegel                             144
+
+6 Sach rechnen
+  Standpunkt                              145
+  Auftakt                                 146
+1 Schätzen                                148
+2 Geld                                    150
+3 Zeit                                    153
+4 Gewicht                                 157
+5 Länge                                   160
+6 Maßstab                                 163
+7 Sachaufgaben                            166
+  EXTRA: Mathematik in Beruf und Alltag   169
+  Zusammenfassung                         170
+  Basistraining                           171
+  Anwenden. Nachdenken                    173
+  Rückspiegel                             176
+7 Kreis und Winkel
+  Standpunkt                                  177
+  Auftakt                                     178
+1 Kreis                                       180
+2 Winkel                                      183
+3 Einteilung der Winkel. Winkelarten          185
+4 Winkel messen und zeichnen                  188
+5 Drehsymmetrie                               192
+  EXTRA: Winkel an Geradenkreuzungen          194
+  EXTRA: Dreiecksformen                       195
+  EXTRA: Winkelsumme in Dreieck und Viereck   196
+  Zusammenfassung                             197
+  Basistraining                               198
+  Anwenden. Nachdenken                        199
+  EXTRA: Das Gradnetz der Erde                201
+  Rückspiegel                                 202
+
+8 Flächeninhalt berechnen
+  Standpunkt                                  203
+  Auftakt                                     204
+1 Flächeninhalt                               206
+2 Flächenmaße                                 208
+3 Flächeninhalt und Umfang des Rechtecks      211
+4 Zusammengesetzte Figuren                    214
+  Zusammenfassung                             217
+  Basistraining                               218
+  Anwenden. Nachdenken                        219
+  Rückspiegel                                 222
+
+9 Brüche
+  Standpunkt                                  223
+  Auftakt                                     224
+1 Bruchteile erkennen und darstellen          226
+2 Bruchteile von Größen                       230
+3 Dezimalbrüche                               232
+  Zusammenfassung                             235
+  Basistraining                               236
+  Anwenden. Nachdenken                        237
+  Rückspiegel                                 240
+
+
+
+
+Grundwissen                                   241
+Lösungen der Kapitel                          261
+Lösungen des Grundwissens                     284
+Stichwortverzeichnis                          291
+
+
+== Klasse 6 ==
+
+Inhaltsverzeichnis
+1 Teilbarkeit und Brüche
+  Standpunkt                      7
+  Auftakt                         8
+1 Teiler und Vielfache            10
+2 Endziffernregeln                13
+3 Quersummenregeln                15
+4 Primzahlen                      17
+5 Brüche                          19
+6 Brüche am Zahlenstrahl          23
+7 Erweitern und Kürzen            26
+8 Brüche vergleichen und ordnen   29
+9 Brüche und Größen               32
+
+  Zusammenfassung                 35
+  Basistraining                   36
+  Anwenden. Nachdenken            38
+  Rückspiegel                     40
+
+
+2 Rechnen mit Brüchen
+  Standpunkt                      41
+  Auftakt                         42
+
+1 Addieren und Subtrahieren
+  gleichnamiger Brüche            44
+2 Addieren und Subtrahieren
+  ungleichnamiger Brüche          46
+3 Multiplizieren von Brüchen      50
+4 Dividieren von Brüchen          53
+5 Punkt vor Strich. Klammern      56
+
+  Zusammenfassung                 58
+  Basistraining                   59
+  Anwenden. Nachdenken            61
+  Rückspiegel                     64
+3 Körper
+    Standpunkt                                      65
+    Auftakt                                         66
+1 Quader und Würfel                                 68
+2 Netze von Quadern und Würfeln                     71
+3 Schrägbilder                                      74
+4 Prisma                                            77
+5 Pyramide                                          80
+6 Zylinder. Kegel. Kugel                            83
+
+    Zusammenfassung                                 85
+    Basistraining                                   86
+    Anwenden. Nachdenken                            88
+    Rückspiegel                                     90
+
+
+4 Dezimalbrüche
+    Standpunkt                                      91
+    Auftakt                                         92
+
+1 Dezimalschreibweise                               94
+2 Dezimalbrüche vergleichen und ordnen              97
+3 Dezimalbrüche runden                             100
+4 Umwandeln von Brüchen in Dezimalbrüche           102
+  EXTRA: Periodische Dezimalbrüche                 105
+5 Dezimalbrüche, Brüche und Prozentangaben         106
+
+    Zusammenfassung                                109
+    Basistraining                                  110
+    Anwenden. Nachdenken                           112
+    Rückspiegel                                    114
+
+
+5 Rechnen mit Dezimalbrüchen
+    Standpunkt                                     115
+    Auftakt                                        116
+
+1 Addieren und Subtrahieren                        118
+2 Multiplizieren und Dividieren mit Stufenzahlen   122
+3 Multiplizieren                                   124
+  EXTRA: Ausländische Maße umrechnen               127
+4 Dividieren                                       128
+5 Verbindung der Rechenarten                       132
+
+    Zusammenfassung                                135
+    Basistraining                                  136
+    Anwenden. Nachdenken                           138
+    EXTRA: Preisvorteile beim Einkäufen            141
+    Rückspiegel                                    142
+6 Terme und Gleichungen
+  Standpunkt                               143
+  Auftakt                                  144
+1 Terme mit Variablen                      146
+2 Terme aufstellen und berechnen           148
+  EXTRA: Zahlenfolgen                      151
+3 Gleichungen                              152
+  EXTRA: Formeln                           154
+  Zusammenfassung                          156
+  Basistraining                            157
+  Anwenden. Nachdenken                     158
+  Rückspiegel                              160
+
+
+7 Berechnungen am Quader
+  Standpunkt                               161
+  Auftakt                                  162
+1 Oberflächeninhalt des Quaders            164
+2 Rauminhalte vergleichen                  166
+3 Volumeneinheiten                         168
+4 Volumen des Quaders                      170
+  EXTRA: Quader in der Architektur         172
+5 Zusammengesetzte Körper                  173
+  Zusammenfassung                          175
+  Basistraining                            176
+  Anwenden. Nachdenken                     178
+  Rückspiegel                              180
+
+
+8 Zuordnungen
+  Standpunkt                               181
+  Auftakt                                  182
+1 Zuordnungen und Schaubilder              184
+2 Proportionale Zuordnungen                187
+3 Schaubilder proportionaler Zuordnungen   190
+4 Zweisatz                                 193
+5 Dreisatz                                 195
+  EXTRA: Antiproportionale Zuordnungen     198
+  Zusammenfassung                          199
+  Basistraining                            200
+  Anwenden. Nachdenken                     202
+  Rückspiegel                              204
+9 Daten darstellen und auswerten
+  Standpunkt                            205
+  Auftakt                               206
+1 Diagramme und Häufigkeitstabellen     208
+  EXTRA: Kreisdiagramme zeichnen        210
+2 Arithmetisches Mittel                 211
+  EXTRA: Median                         213
+3 Absolute und relative Häufigkeit      214
+  EXTRA: Wahrscheinlichkeit             216
+  Zusammenfassung                       218
+  Basistraining                         219
+  Anwenden. Nachdenken                  220
+  Rückspiegel                           222
+
+
+10 Ganze Zahlen
+  Standpunkt                            223
+  Auftakt                               224
+1 Ganze Zahlen                          226
+2 Ganze Zahlen vergleichen und ordnen   228
+3 Zunahme und Abnahme                   230
+4 Das Koordinatensystem                 232
+  EXTRA: Rationale Zahlen               234
+  Zusammenfassung                       237
+  Basistraining                         238
+  Anwenden. Nachdenken                  239
+  Rückspiegel                           242
+
+
+Grundwissen                             243
+Lösungen der Kapitel                    264
+Lösungen des Grundwissens               281
+Stichwortverzeichnis                    288
+
+Symbole und Maßeinheiten                290
+

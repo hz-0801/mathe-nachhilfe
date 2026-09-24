@@ -1,0 +1,176 @@
+Westermann (Schroedel), "Mathematik heute - Ausgabe 2014 fuer Grundschulen
+in Berlin und Brandenburg", Klasse 5-6 (DNB-Reihensatz 1051069351, Ausgabe
+"Berlin/Brandenburg"). Vorstufe zu "Mathematik heute - Ausgabe 2016 fuer die
+Sekundarstufe I in Berlin und Brandenburg" (quelle-westermann-mathematik-
+heute-bebb-inhalt.txt), gleicher Herausgeber (Rudolf vom Hofe u. a.), gleiche
+Seitenmarken (Punkte sammeln, Vermischte und komplexe Uebungen, Was du
+gelernt hast, Bist du fit?, Im Blickpunkt). Schulbuch-ISBNs ueber die
+Westermann-Produktsuche ermittelt, in der DNB bestaetigt; mit pdftotext
+-layout extrahiert am 25.09.2026.
+
+Kl. 5: Schulbuch ISBN 9783507811409, IDN 1046587625, Jahr 2014 - in der DNB
+       ohne Inhaltsverzeichnis. Ersatz: Loesungen 5, ISBN 9783507811416,
+       IDN 1054570523, Jahr 2014, https://d-nb.info/1054570523/04 (gleicher
+       DNB-Reihensatz). Der Loesungsband folgt der Kapitel- und Lerneinheiten-
+       gliederung des Schulbuchs; die Seitenzahlen sind die des
+       Loesungsbands, NICHT die des Schulbuchs.
+Kl. 6: Schulbuch ISBN 9783507811478, IDN 1065090692, Jahr 2015, https://d-nb.info/1065090692/04
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+Original zweispaltig gesetzt; pdftotext -layout stellt je zwei Spalten
+nebeneinander. Kl. 6: die Kapitelzeile zu Kapitel 5 fehlt im Rohtext
+(nur das Zeichen "i" vor "Zuordnungen in der Umwelt"); Titel aus den
+Unterzeilen erschlossen ("Zuordnungen").
+
+Kapitelfolge (erste Ebene):
+
+Klasse 5 (Seiten des Loesungsbands): 1 Zahlen und Groessen (5), 2 Rechnen
+mit natuerlichen Zahlen und Groessen (25), 3 Geometrische Figuren in Ebene
+und Raum (54), 4 Anteile - Brueche - Dezimalbrueche (77), 5 Messen und
+Berechnen von Flaechen und Koerpern (103)
+
+Klasse 6: 1 Rechnen mit Bruechen (8), 2 Erzeugen symmetrischer und
+deckungsgleicher Figuren (64), 3 Rechnen mit Dezimalzahlen (84),
+4 Zusammengesetzte Flaechen und Koerper (118), 5 [Zuordnungen] (136),
+6 Geometrie in der Ebene (172), 7 Daten und Zufall (196)
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 5 (Loesungsband) ==
+
+    Inhaltsverzeichnis
+
+    1 Zahlen und Größen                        5      Rechtecke - Parallelogramme -
+        Zahlen über eine Million -                    Trapeze                            69
+        Stellentafel                          5       Quader und Würfel                  70
+        Anordnung der natürlichen Zahlen .   10       Punkte sammeln                     73
+        Runden von Zahlen                    12       Vermischte und komplexe Übungen    73
+        Zahlenfolgen                         16
+        Messen einer Länge -                        4 Anteile - Brüche -
+        Längeneinheiten                       17      Dezimalbrüche                      77
+        Maßstab                               18      Teile von Ganzen - Brüche           77
+        Messen einer Masse -                          Brüche als Maßzahlen in
+        Masseeinheiten                        19      Größenangaben                       83
+        Zeitpunkt, Zeitdauer - Zeitmessung    21      Bestimmen eines Teils einer
+        Punkte sammeln                        22      beliebigen Größe                    84
+        Vermischte und komplexe Übungen       22      Derselbe Anteil - Verschiedene
+        Im Blickpunkt: Schätzen will                  Brüche                              85
+        gelernt sein                          24      Darstellen von Brüchen auf dem
+                                                      Zahlenstrahl                        87
+    2 Rechnen mit natürlichen                         Vergleichen und Ordnen von
+      Zahlen und Größen                       25      Brüchen                             88
+        Addieren und Subtrahieren              25     Addieren und Subtrahieren von
+        Multiplizieren und Dividieren          29     Brüchen                             90
+        Punkte sammeln                         34     Punkte sammeln                      91
+        Vermischte und komplexe Übungen 34            Vermischte und komplexe Übungen 92
+        Im Blickpunkt: Wie man große Zahlen           Dezimale Schreibweise für Brüche . 92
+        veranschaulichen kann                  35     Darstellen von Dezimalbrüchen am
+        Teiler und Vielfache - Primzahlen .. 35       Zahlenstrahl                        96
+        Potenzieren                            43     Vergleichen und Ordnen von
+        Vorrangregeln - Klammern               44     Dezimalbrüchen - Runden             97
+        Vorteilhaftes Rechnen -                       Addieren und Subtrahieren von
+        Rechengesetze                          46     Dezimalbrüchen                      99
+        Gleichungen und Ungleichungen .. 47           Punktesammeln                      101
+        Punkte sammeln                         48     Vermischte und komplexe Übungen 101
+        Vermischte und komplexe Übungen 49
+        Im Blickpunkt: Ein Blick ins Weltall . 51   5 Messen und Berechnen von
+        Im Blickpunkt: Wir sind die Experten 52       Flächen und Körpern      103
+                                                      Flächenvergleich - Messen von
+     3 Geometrische Figuren in                        Flächen                           103
+       Ebene und Raum                         54      Umwandeln in andere Flächen­
+        Körper - Ecken, Kanten, Flächen ..    54      einheiten - Kommaschreibweise ... 106
+        Vielecke - Koordinatensystem          56      Rechnen mit Flächeninhalten       108
+        Geraden - Beziehungen zwischen                Berechnungen am Rechteck -
+        Geraden                               59      Umfang und Flächeninhalt          109
+        Vermischte und komplexe Übungen       64      Punkte sammeln                    111
+        Winkel - Messen und Zeichnen ...      66      Vermischte und komplexe Übungen 111
+
+
+
+
+http://d-nb.info/1054570523
+  Volumenvergleich - Messen von
+  Volumina                          112
+  Umwandeln in andere Volumen­
+  einheiten - Kommaschreibweise ... 113
+  Rechnen mit Volumina              116
+  Berechnungen am Quader -
+  Volumen und Oberfläche            117
+• Punktesammeln                     119
+  Vermischte und komplexe Übungen 119
+
+
+== Klasse 6 ==
+
+                                                                                                                       Inhalt               3
+
+
+   INHALTSVERZEICHNIS
+
+
+           Zum methodischen Aufbau der Lerneinheiten            4             Was du gelernt hast                                132
+                                                                              Bist du fit?                                       133
+           Im Blickpunkt: Aus Texten und Tabellen Informatio­                 Im Blickpunkt: Verpackungen                        134
+           nen entnehmen                                        6
+                                                                      i       Zuordnungen in der Umwelt                          136
+   1       Rechnen mit Brüchen                                  8             Zuordnungstabellen                                     138
+           Brüche                                               10            Grafische Darstellungen von Zuordnungen                143
+           Brüche als Quotienten natürlicher Zahlen             14            Punktesammeln                                          150
+           Anteile von beliebigen Größen - Drei Grund­                        Vermischte und komplexe Übungen                        151
+           aufgaben                                             15            Was du gelernt hast                                    152
+           Angabe von Anteilen in Prozent                       22            Bist du fit?                                           153
+           Verhältnisse und Anteile                             24            Direkt proportionale Zuordnungen - Dreisatz            154
+           Addieren und Subtrahieren von Brüchen                26            Punkte sammeln                                         164
+           Punkte sammeln                                       32            Vermischte und komplexe Übungen                        165
+           Vermischte und komplexe Übungen                      33            Was du gelernt hast                                     166
+           Was du gelernt hast                                  34             Bist du tit?                                           167
+            Bist du fit?                                        35
+            Projekt: Spiele mit Brüchen                         36             Im Blickpunkt: Arbeiten mit Dynamischer
+            Vervielfachen und Teilen von Brüchen                 38            Geometrie-Software                                     168
+            Multiplizieren von Brüchen                           45
+            Dividieren von Brüchen                               49   6        Geometrie in der Ebene                                172
+            Vorteilhaftes Rechnen mit Brüchen -                                Winkel an sich schneidenden Geraden - Sätze
+            Rechengesetze                                       56             über Winkelbeziehungen                                 174
+            Punkte sammeln                                      58             Innenwinkelsatz für Dreiecke - Einteilung der
+            Vermischte und komplexe Übungen                     59             Dreiecke nach Winkeln                                  178
+            Was du gelernt hast                                 62             Gleichschenklige und gleichseitige Dreiecke -
+            Bist du fit?                                        63             Einteilung der Dreiecke nach Seiten                    182
+                                                                               Dreiecksungleichung - Seiten-Winkel-Beziehung
+       2    Erzeugen symmetrischer und deckungs­                               im Dreieck                                             186
+            gleicher Figuren                                    64             Kongruente Figuren                                     188
+            Achsensymmetrie - Spiegeln einer Figur               66            Punktesammeln                                          191
+            Bandornamente - Verschieben einer Figur              70            Vermischte und komplexe Übungen                        192
+            Drehsymmetrie - Drehen einer Figur                   73            Was du gelernt hast                                    194
+            Punkte sammeln                                       77            Bist du fit?                                           195
+            Vermischte und komplexe Übungen                      78
+            Was du gelernt hast                                  80       7     Daten und Zufall                                     196
+            Bist du fit?                                         81             Absolute und relative Häufigkeiten von Daten -
+            Im Blickpunkt: Parkettierung                         82             Grafische Darstellungen                               198
+                                                                                Durchführen einer Umfrage                             207
+       3     Rechnen mit Dezimalzahlen                          84              Im Blickpunkt: Auswerten und Präsentieren mit
+           Umformen von Brüchen in Dezimalzahlen durch                          dem Computer                                          208
+           Erweitern und Kürzen                                  86             Arithmetisches Mittel                                 210
+           Addieren und Subtrahieren von Dezimalzahlen —         89             Zufallsexperimente                                    214
+           Vervielfachen und Teilen von Dezimalzahlen            91             Punktesammeln                                         217
+           Multiplizieren und Dividieren von Dezimalzahlen —     98             Vermischte und komplexe Übungen                       218
+       j~^ Periodische Dezimalzahlen                            104             Was du gelernt hast                                   220
+           Verbindung der vier Grundrechenarten                 107             Bist du fit?                                          221
+           Gleichungen mit gebrochenen Zahlen                   109
+           Vergleich der Zahlenbereiche N und Q.                110             Im Blickpunkt: Wir sind die Experten                  222
+           Punktesammeln                                        112
+           Vermischte und komplexe Übungen                      113
+           Was du gelernt hast                                  116             Bist du topfit?                                      224
+           Bist du fit?                                         117
+                                                                                Anhang                                               232
+       4     Zusammengesetzte Flächen und Körper 118                            Lösungen zu Bist du fit?                         -    232
+             Berechnungen an Flächen                            120             Lösungen zu Bist du topfit?                           236
+             Berechnungen an Körpern                            125             Einheiten/Mathematische Symbole                       239
+             Punktesammeln                                      129             Stichwortverzeichnis                                  240
+             Vermischte und komplexe Übungen                    130             Bildquellennachweis                                   241
+
+
+
+
+http://d-nb.info/1065090692
+

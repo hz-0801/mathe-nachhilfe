@@ -1,0 +1,373 @@
+Westermann, "Mathematik - Ausgabe 2022 fuer Berlin, Brandenburg, Sachsen-
+Anhalt, Thueringen, 5. und 6. Schuljahr" (Reihe MATHEGSBBBE22). Vorstufe zur
+Reihe "Mathematik - Ausgabe 2023 fuer Berlin, Brandenburg, Sachsen-Anhalt,
+Thueringen, 7.-10. Schuljahr" (quelle-westermann-mathematik2023-bebbstth-
+inhalt.txt); gleicher Herausgeber (Uwe Scheele), gleiche Seitenmarken
+(Wissen kompakt, Ueben, Vertiefen, Ausgangstest). Schulbuch-ISBNs ueber die
+Westermann-Produktsuche ermittelt, in der DNB bestaetigt (Feld 926 nennt
+Berlin, Brandenburg, Sachsen-Anhalt, Thueringen; Schulart u. a. "Fuer die
+Grundschule"), TOC-PDFs mit pdftotext -layout extrahiert am 25.09.2026.
+
+Kl. 5: ISBN 9783141563009, IDN 1248887220, Jahr 2022, https://d-nb.info/1248887220/04
+Kl. 6: ISBN 9783141563016, IDN 1248885252, Jahr 2022, https://d-nb.info/1248885252/04
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+Achtung: Original zweispaltig gesetzt; pdftotext -layout stellt je zwei
+Kapitel nebeneinander. Die Zeichen am Zeilenanfang (w, >, *, B, M, 1, T)
+sind verstuemmelte Symbolzeichen des Originals (Seitenart), keine Textteile.
+Einzelne Kapitelziffern fehlen im Rohtext (Kl. 6: 5, 7, 11); Kapitelfolge
+durch Lesen der Dateien geprueft.
+
+Kapitelfolge (erste Ebene):
+
+Klasse 5: 1 Natuerliche Zahlen (6), 2 Addieren und Subtrahieren (26),
+3 Multiplizieren und Dividieren (50), 4 Daten (76), 5 Figuren im
+Koordinatensystem (92), 6 Koerper und Flaechen (114), 7 Kreis und Winkel
+(134), 8 Brueche (152), 9 Dezimalbrueche (176), 10 Laenge und
+Flaecheninhalt (192), 11 Zeit (212), dazu Eingangstests und Wiederholung
+
+Klasse 6: 1 Teilbarkeit (6), 2 Gebrochene Zahlen (22), 3 Mit Bruechen
+rechnen (40), 4 Mit Dezimalbruechen rechnen (66), 5 Abbildungen (94),
+6 Daten (116), 7 Zuordnungen (142), 8 Dreiecke (162), 9 Oberflaecheninhalt
+und Volumen (186), 10 Terme und Gleichungen (206), 11 Dreiecke konstruieren
+(218), dazu Eingangstests und Wiederholung
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 5 ==
+
+                                                                     INHALT
+
+
+
+1                                                  3
+Natürliche                                         Multiplizieren
+Zahlen                                             und Dividieren
+
+
+>    6   Zur Geschichte der Erde                   > 50 Im Supermarkt
+>    8   Große Zahlen beschreiben die Welt              52   Anzahlen bestimmen
+w
+    10   Große Zahlen lesen und schreiben               53   Multiplikation und Division
+w   12   Zählen und Schätzen                                 Produkt und Quotient
+                                                        55
+w   14   Zahlen anordnen                           Mk        Verbindung der Grundrechenarten
+                                                        56
+w        Zahlen runden                             W
+    15                                                  57   Rechengesetze
+>   17   Wissen kompakt
+                                                   W
+                                                        59   Schriftliches Multiplizieren
+>        Üben
+                                                   W
+    18                                                  60   Schriftliches Dividieren
+>   20   Vertiefen: Zahlenfolgen                   w    62   Sachaufgaben
+>   22   Vertiefen: Zweiersystem                   w    64   Der afrikanische Elefant
+>   24   Vertiefen: Römische Zahlzeichen           w    66   Potenzieren
+>   25   Ausgangstest                              >    67   Wissen kompakt
+                                                   >    68   Üben
+                                                   >    70   Üben: Schriftliches Multiplizieren
+                                                   >    71   Üben: Schriftliches Dividieren
+2                                                  >    72   Üben: Tiere in Afrika
+                                                   >    73   Vertiefen: Einkäufen im Supermarkt
+Addieren und                                       >    74   Vertiefen: Kombinationsmöglichkeiten
+Subtrahieren                                       >    75   Ausgangstest
+
+
+
+
+>   26   Zauberquadrate
+                                                   4
+w   30   Addition und Subtraktion                  Daten
+w   32   Summe und Differenz
+w   33   Rechnen mit Klammern
+w   34   Rechengesetze
+*   35   Schriftliches Addieren
+*   36   Schriftliches Subtrahieren
+W   37   Sachaufgaben                              >    76   Wir über uns
+>   40   Wissen kompakt                            *    79   Daten sammeln, ordnen und darstellen
+>   41   Üben                                      w    82   Diagramme lesen
+>   44   Üben: In der Zoohandlung                       85   Wissen kompakt
+>   47   Vertiefen: Addieren und Subtrahieren im   >    86   Üben
+         Zweiersystem                                   88   Vertiefen: Jugendliche online
+>   48   Vertiefen: Eine Urlaubsreise planen       >    91   Ausgangstest
+>   49   Ausgangstest
+5                                                     7
+Figuren im                                            Kreis und Winkel
+Koordinatensystem
+
+
+     92   Das Gradnetz der Erde                       B 134     Diskuswurf
+     94   Orientieren auf dem Stadtplan               w 136
+                                                                Kreise
+     95   Koordinatensystem                           w 138
+                                                                Winkel
+     97   Gerade Linien - Strecke, Strahl, Gerade     w 139
+                                                                Winkelgrößen
+     99   Senkrechte Geraden - rechte Winkel
+                                                      w
+                                                        141     Winkel messen und zeichnen
+    101   Abstand                                     w 143
+                                                                Winkelgrößen mit der Winkelscheibe
+    102   Parallele Geraden                                     darstellen
+    104   Arbeiten mit dem Computer: Figuren im       w 144
+                                                                Winkel bezeichnen
+          Koordinatensystem                               145   Arbeiten mit dem Computer:
+    106   Wissen kompakt                                        Winkel messen und zeichnen
+    108   Üben                                        > 146     Wissen kompakt
+    110   Vertiefen: Graphen im Koordinatensystem     B 147     Üben
+    113   Ausgangstest                                B 150     Vertiefen: Winkel an Geradenkreuzungen
+                                                      B 151     Ausgangstest
+
+
+6
+Körper und                                            8
+Flächen                                               Brüche
+
+
+B 114   Geometrische Körper in der Architektur
+1 116 Geometrische Körper in der Umwelt               B 152     Brüche im täglichen Leben
+w 117 Eigenschaften von Körpern                       w 155     Bruchteile
+w   120 Schrägbilder                                  * 158     Brüche durch Falten darstellen
+*   122 Netze                                         w 159     Brüche mit dem Geobrett darstellen
+w   124 Rechteck undQuadrat                           w 160     Verfeinern und Vergröbern
+w   125 Parallelogramm und Raute (Rhombus)            w 162     Erweitern und Kürzen
+w 126 Trapez                                          w 163     Brüche vergleichen
+w 127 Drachenviereck                                  w 164     Gemischte Zahlen
+T 128 Wissen kompakt                                  w 165     Brüche am Zahlenstrahl
+> 129 Üben                                                166   Gleichnamige Brüche addieren und
+B 132     Vertiefen: Verpackungen selbst herstellen             subtrahieren
+1 133     Ausgangstest                                M 168     Bruchteile von Größen
+                                                      M 169     Das Ganze bestimmen
+                                                          170   Wissen kompakt
+                                                      B 171     Üben
+                                                      B 173     Vertiefen: Anteile bestimmen und vergleichen
+                                                      B 175     Ausgangstest
+9                                                   11
+Dezimalbrüche                                       Zeit
+
+
+
+>u 176 Olympische Spiele                                 212   Zeit richtig einteilen
+     179   Dezimalbrüche lesen und schreiben        > 214      Pünktlich zur Schule
+w    180   Brüche und Dezimalbrüche                 w 216      Zeiteinheiten
+w                                                   w
+     181   Dezimalbrüche vergleichen                  217      Zeitspannen
+w
+     182   Dezimalbrüche runden                       218      Ferienfreizeit
+w    183   Dezimalbrüche mit Zehnerzahlen           > 220      Wissen kompakt
+           multiplizieren und dividieren            > 221      Üben
+w 184      Dezimalbrüche addieren und subtra­       > 222      Vertiefen: Zeitzonen
+           hieren                                   > 223      Ausgangstest
+w
+     186   Sachaufgaben
+> 187      Wissen kompakt
+> 188      Üben
+> 190      Vertiefen: Brüche, Dezimalbrüche und
+           Prozente                                      224   Eingangstests zu den Kapiteln
+> 191      Ausgangstest
+                                                         Wiederholung
+
+10                                                       Inhaltsbezogene Kompetenzen
+                                                         230 Zahlenstrahl und Stellenwerttafel
+Länge und                                                232 Schriftliches Addieren
+Flächeninhalt                                            233 Schriftliches Subtrahieren
+                                                         234 Schriftliches Multiplizieren
+                                                         235 Schriftliches Dividieren
+                                                         236 Geld
+  192      Messen mit Hand und Fuß                       237 Längen
+  194      Längenmaße früher und heute                   238 Massen
+w 195      Längeneinheiten                               239 Zeitpunkte - Zeitspannen
+M 196      Rechnen mit Längen
+* 198      Maßstab                                       Prozessbezogene Kompetenzen
+w 199      Umfang                                        240 Einem Text Informationen entnehmen
+w 200      Umfang von Rechteck und Quadrat               240 Sachaufgaben lösen
+w 201      Flächeninhalte vergleichen
+w 202      Flächeneinheiten                              241   Lösungen zu den Eingangstests
+* 204      Flächeninhalt von Rechteck und Quadrat        244   Lösungen zu den Ausgangstests
+  206      Wissen kompakt                                250   Lösungen zu den Üben-Seiten
+> 207      Üben
+1 209      Vertiefen: Umfang und Flächeninhalt           267   Formeln und Gesetze
+  210      Vertiefen: Flächeninhalt schätzen             269   Register
+1 211      Ausgangstest                                  270   Bildquellennachweis
+
+
+== Klasse 6 ==
+
+                                                                                                         3
+
+                                                                     INHALT
+
+
+
+1                                                   3
+Teilbarkeit                                         Mit Brüchen
+                                                    rechnen
+
+
+     6   Ballspiele im Sportunterricht                  40   Wir mixen und verteilen Getränke
+     8   Teiler und Vielfache                           43   Gleichnamige Brüche addieren und
+     9   Teilermengen und Vielfachenmengen                   subtrahieren
+    10   Größter gemeinsamer Teiler und kleinstes       44   Ungleichnamige Brüche addieren und
+         gemeinsames Vielfaches                              subtrahieren
+    11   Teilbarkeitsregeln                             46   Sachaufgaben zur Addition und
+    13   Teilerund Primzahlen                                Subtraktion
+    14   Primfaktorzerlegung                            47   Brüche mit natürlichen Zahlen
+    15   Bestimmen von ggT und kgV durch                     multiplizieren
+         Primfaktorzerlegung                            48   Brüche multiplizieren
+    16   Wissen kompakt                                 50   Bruchteile berechnen
+    17   Üben                                           51   Brüche durch natürliche Zahlen dividieren
+    19   Vertiefen: Primzahlen entdecken                52   Durch Brüche dividieren
+    21   Ausgangstest                                   54   Sachaufgaben zur Multiplikation und
+                                                             Division
+                                                        55   Wissen kompakt
+2                                                       57   Üben: Addition und Subtraktion
+Gebrochene                                              59   Üben: Multiplikation und Division
+                                                        60   Üben: Verbindung der Grundrechenarten
+Zahlen
+                                                        61   Üben: Sachaufgaben
+                                                        62   Üben: Das Testament des Ali Baba
+                                                        63   Vertiefen: Bruchrechnen in Ägypten
+    22   Klemmbausteine                                 65   Ausgangstest
+    24   Brüche darstellen
+    25   Brüche durch Falten darstellen
+    26   Erweitern und Kürzen
+                                                    4
+    27   Kürzen mithilfe von Teilbarkeitsregeln     Mit Dezimal­
+    28   Brüche und Dezimalbrüche
+                                                    brüchen rechnen
+    29   Gebrochene Zahlen vergleichen
+    30   Gebrochene Zahlen am Zahlenstrahl
+         darstellen
+    32   Prozentzahlen                                  66   Gartengestaltung
+    33   Wissen kompakt                                 68   Dezimalbrüche addieren und subtrahieren
+    34   Üben                                           69   Dezimalbrüche multiplizieren
+    35   Üben: Sachaufgaben                             71   Dezimalbrüche dividieren
+    36   Üben: Anteile und Verhältnisse                 73   Periodische Dezimalbrüche
+    37   Vertiefen: Negative Zahlen                     75   Sachaufgaben
+    39   Ausgangstest                                   77   Rechnen mit Näherungswerten
+                                                        79   Rechengesetze für gebrochene Zahlen
+                                                        81   Eigenschaften der gebrochenen Zahlen
+                                                        82   Wissen kompakt
+4
+
+                         INHALT
+
+
+       83   Üben: Addieren und Subtrahieren                129   Tabellenkalkulation: Daten auswerten
+       83   Üben: Multiplizieren und Dividieren            131   Wissen kompakt
+       85   Üben: Verbindung der Grundrechenarten          132   Üben
+       86   Üben: Einkäufen im Supermarkt                  135   Üben: Eine Umfrage planen
+       88   Vertiefen: Strategien zum Problemlosen         136   Üben: Eine Umfrage auswerten
+       93   Ausgangstest                                   137   Vertiefen: Zufallsexperimente
+                                                           139   Vertiefen: Zählstrategien
+                                                           141   Ausgangstest
+
+    Abbildungen
+
+                                                       Zuordnungen
+
+       94   Muster in der Alhambra
+       96   Symmetrische Figuren und Muster erzeugen
+       98   Kongruente Figuren                             142   Zuordnungen und ihre Darstellungen
+      100   Verschiebung                                   145   Direkt proportionale Zuordnungen
+      102   Achsenspiegelung                               146   Der Dreisatz bei direkt proportionalen
+      105   Achsensymmetrische Figuren                           Zuordnungen
+      106   Spiegelachse konstruieren                      148   Maßstab
+      107   Drehung                                        150   Graphen direkt proportionaler
+      109   Dreh- und punktsymmetrische Figuren                  Zuordnungen
+      110   Arbeiten mit dem Computer: Abbildungen         151   Proportionalitätsfaktor k
+      111   Wissen kompakt                                 153   Wissen kompakt
+      112   Üben                                           154   Üben
+      114   Vertiefen: Koordinatensystem                   156   Üben: Weg-Zeit-Diagramm
+      115   Ausgangstest                                   158   Vertiefen: Indirekt proportionale
+                                                                 Zuordnungen
+                                                           161   Ausgangstest
+    6
+    Daten                                              8
+                                                       Dreiecke
+
+      116   Freizeitverhalten von Jugendlichen
+      119   Säulen-und Balkendiagramm
+      120   Liniendiagramm                                 162   Wir untersuchen Dreiecke
+      121   Streifendiagramm                               165   Seiten und Winkel eines Dreiecks
+      122   Kreisdiagramm                                  167   Symmetrische Dreiecke
+      123   Histogramm                                     168   Innenwinkel im Dreieck
+      124   Statistische Darstellungen beurteilen          169   Winkel am Dreieck
+      125   Kenngrößen: arithmetisches Mittel,             171   Höhen eines Dreiecks
+            häufigster Wert                                173   Umkreis eines Dreiecks
+      126   Kenngrößen: Median (Zentralwert)               175   Inkreis eines Dreiecks
+      128   Kenngrößen: Maximum, Minimum,                  177   Schwerpunkt eines Dreiecks
+            Spannweite
+                                                                                                      5
+
+                                                                  INHALT
+
+
+  178   Arbeiten mit dem Computer: Umkreis und
+        Inkreis
+  179   Wissen kompakt                            Dreiecke
+  181   Üben
+  183   Vertiefen: Umfang und Flächeninhalt
+                                                  konstruieren
+        ebener Figuren
+  185   Ausgangstest
+                                                    218   Kongruente Dreiecke
+9                                                   221   Kongruenzsatz SSS
+                                                    222   Kongruenzsatz SWS
+Oberflächeninhalt                                   223   Kongruenzsatz WSW
+und Volumen                                         224   Kongruenzsatz SsW
+                                                    225   Wissen kompakt
+                                                    226   Üben
+                                                    227   Üben: Sachaufgaben
+  186   Aquarien                                    228   Vertiefen: Konstruktion mithilfe
+  188   Das neue Aquarium                                 besonderer Linien
+  189   Henrys Zimmer                               229   Ausgangstest
+  190   Oberflächeninhalt von Quader und Würfel
+  192   Rauminhalte vergleichen                     230   Eingangstests zu den Kapiteln
+  194   Volumeneinheiten
+  197   Volumen von Quader und Würfel
+  198   Wissen kompakt
+                                                    Wiederholung
+  199   Üben
+                                                    Inhaltsbezogene Kompetenzen
+  202   Üben: Pias Aquarium
+                                                    236 Natürliche Zahlen
+  203   Üben: Volumen und Oberflächeninhalt
+                                                    237 Addieren und Subtrahieren
+        schätzen
+                                                    238 Schriftliches Addieren und Subtrahieren
+  204   Vertiefen: Niederschläge
+                                                    239 Multiplizieren und Dividieren
+  205   Ausgangstest
+                                                    240 Schriftliches Multiplizieren und Dividieren
+                                                    241 Brüche
+10                                                  242 Dezimalbrüche
+                                                    243 Längen
+Terme und                                           244 Flächen
+Gleichungen                                         245 Geometrische Grundbegriffe
+                                                    247 Winkel messen und zeichnen
+
+                                                    Prozessbezogene Kompetenzen
+  206   Auf dem Flohmarkt
+                                                    248 Partnerarbeit; Einem Text Informationen
+  208   Zahlenterme
+                                                         entnehmen
+  210   Terme mit Variablen
+                                                    249 Gruppenarbeit
+  211   Gleichungen lösen
+                                                    250 Mit einem Lernplakat präsentieren
+  212   Zahlenrätsel
+                                                    251 Lösungen zu den Eingangstests
+  213   Terme und Gleichungen in der Geometrie
+                                                    253 Lösungen zu den Ausgangstests
+  214   Wissen kompakt
+                                                    258 Lösungen zu den Üben-Seiten
+  215   Üben
+  216   Vertiefen: Ungleichungen lösen
+                                                    273   Formeln und Gesetze
+  217   Ausgangstest
+                                                    274   Register
+                                                    276   Bildquellennachweis
+

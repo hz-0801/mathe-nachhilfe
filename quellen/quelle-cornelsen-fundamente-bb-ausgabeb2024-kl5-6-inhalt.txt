@@ -1,0 +1,274 @@
+Cornelsen, "Fundamente der Mathematik", Ausgabe B ab 2024 (Berlin,
+Brandenburg), Klasse 5-6 - fuer grundstaendige Gymnasien. Gleicher DNB-
+Reihensatz (1333894473) und Herausgeber (Dr. Andreas Pallack) wie die
+Baende 7-10 in quelle-cornelsen-fundamente-bb-ausgabeb2024-inhalt.txt; Feld
+926 nennt Berlin und Brandenburg. ISBN aus dem Nummernkreis der Baende 7-10
+abgeleitet bzw. ueber die DNB-Titelsuche gefunden, in der DNB bestaetigt;
+mit pdftotext -layout extrahiert am 25.09.2026.
+
+Kl. 5: ISBN 9783060428250, IDN 1353342603, Jahr 2025, https://d-nb.info/1353342603/04
+Kl. 6: ISBN 9783060428298, IDN 1374313785, Jahr 2026, https://d-nb.info/1374313785/04
+
+(C) Cornelsen - Gliederung als Beleg, keine Aufgaben.
+
+Sauberer Rohtext (einspaltig). Band 6 beginnt mit einer Wiederholung des
+letzten Kapitels von Band 5 ("Brueche und Dezimalzahlen (Wiederholung aus
+Klasse 5)"). Kapitelfolge (erste Ebene):
+
+Klasse 5: 1 Natuerliche Zahlen und Groessen (5), 2 Rechnen mit natuerlichen
+Zahlen (47), 3 Grundbegriffe der Geometrie (95), 4 Flaecheninhalt und
+Umfang (139), 5 Volumen und Oberflaecheninhalt (169), 6 Brueche und
+Dezimalzahlen (193), 7 Komplexe Aufgaben, 8 Methoden, 9 Anhang
+
+Klasse 6: 1 Brueche und Dezimalzahlen (Wiederholung aus Klasse 5) (5),
+2 Brueche und Dezimalzahlen addieren und subtrahieren (49), 3 Winkel (71),
+4 Brueche und Dezimalzahlen multiplizieren und dividieren (101), 5 Winkel-
+und Symmetriebetrachtungen (139), 6 Daten (167), 7 Komplexe Aufgaben,
+8 Methoden, 9 Anhang
+
+Es folgt je Klasse der vollstaendige pdftotext-Rohtext.
+
+== Klasse 5 ==
+
+Inhaltsverzeichnis
+
+
+1      Natürliche Zahlen und Größen                         5
+       Dein Fundament                                       6
+1.1    Daten auswerten und darstellen                       8
+1.2    Befragungen durchführen                             12
+1.3    Natürliche Zahlen - große Zahlen                    16
+1.4    Römische Zahlen                                     20
+       Streifzug: Zahlen im Zweiersystem                   22
+1.5    Zahlenstrahl                                        24
+1.6    Runden                                              26
+1.7    Größen angeben und schätzen                         28
+1.8    Größen umrechnen                                    30
+1.9    Größen in Kommaschreibweise                         34
+1.10   Maßstab                                             36
+1.11   Vermischte Aufgaben                                 40
+       Prüfe dein neues Fundament                          44
+       Zusammenfassung                                     46
+
+
+2      Rechnen mit natürlichen Zahlen                      47
+       Dein Fundament                                      48
+2.1    Addieren und Subtrahieren                           50
+2.2    Multiplizieren und Dividieren                       53
+2.3    Überschlagsrechnung                                 56
+2.4    Schriftliches Addieren und Subtrahieren             58
+2.5    Schriftliches Multiplizieren                        61
+2.6    Schriftliches Dividieren                            63
+2.7    Rechnen mit allen Grundrechenarten                  65
+       Streifzug: Variablen und Terme                      69
+2.8    Rechengesetze der Addition und Multiplikation       71
+2.9    Distributivgesetz                                   74
+       Streifzug: Strategien zum Lösen von Sachproblemen   76
+2.10   Potenzieren                                         78
+2.11   Teiler, Vielfache und Teilbarkeitsregeln            81
+2.12   Primzahlen                                          85
+       Mathematisch arbeiten: Begründen und Widerlegen     87
+2.13   Vermischte Aufgaben                                 89
+       Prüfe dein neues Fundament                          92
+       Zusammenfassung                                     94
+3     Grundbegriffe der Geometrie                           95
+
+      Dein Fundament                                        96
+3.1   Senkrecht und parallel zueinander                     98
+3.2   Koordinaten                                          102
+3.3   Achsensymmetrie                                      106
+3.4   Punktsymmetrie                                       110
+      Streifzug: Parallelverschiebung                      114
+3.5   Vierecke                                             116
+3.6   Körper                                               120
+3.7   Körpernetze                                          124
+3.8   Schrägbild eines Quaders                             128
+      Mit Medien arbeiten: Dynamische Geometrie-Software   132
+3.9   Vermischte Aufgaben                                  134
+      Prüfe dein neues Fundament                           136
+      Zusammenfassung                                      138
+
+
+4     Flächeninhalt und Umfang                             139
+      Dein Fundament                                       140
+4.1   Flächen vergleichen                                  142
+4.2   Flächeninhalt eines Rechtecks                        147
+4.3   Flächeneinheiten                                     150
+4.4   Flächeninhalt von zusammengesetzten Figuren          156
+4.5   Umfang                                               158
+      Streifzug: Modellieren                               161
+4.6   Vermischte Aufgaben                                  163
+      Prüfe dein neues Fundament                           166
+      Zusammenfassung                                      168
+
+
+5     Volumen und Oberflächeninhalt                        169
+      Dein Fundament                                       170
+5.1   Körper vergleichen                                   172
+5.2   Volumen eines Quaders                                175
+5.3   Volumeneinheiten                                     178
+5.4   Volumen zusammengesetzter Körper                     182
+5.5   Oberflächeninhalt eines Quaders                      185
+5.6   Vermischte Aufgaben                                  188
+      Prüfe dein neues Fundament                           190
+      Zusammenfassung                                      192
+6      Brüche und Dezimalzahlen                    193
+       Dein Fundament                              194
+6.1    Brüche als Anteile von einem Ganzen         196
+6.2    Brüche erweitern und kürzen                 200
+6.3    Brüche vergleichen                          203
+6.4    Brüche als Quotienten                       206
+6.5    Größenanteilebestimmen                      210
+6.6    Brüche und Verhältnisse                     214
+       Streifzug: Mischungsverhältnisse            216
+6.7    Brüche am Zahlenstrahl                      217
+6.8    Dezimalzahlen                               219
+6.9    Dezimalzahlen vergleichen                   223
+6.10   Abbrechende und periodische Dezimalzahlen   226
+6.11   Prozentschreibweise                         229
+6.12   Vermischte Aufgaben                         232
+       Prüfe dein neues Fundament                  234
+       Zusammenfassung                             236
+
+
+
+7      Komplexe Aufgaben                           237
+       Aufgaben                                    238
+
+
+
+
+8      Methoden                                    243
+       Methodenkarten                              244
+
+
+
+
+9      Anhang                                      249
+       Lösungen                                    250
+       Stichwortverzeichnis                        261
+       Bildquellenverzeichnis                      265
+       Impressum                                   266
+
+
+== Klasse 6 ==
+
+    Inhaltsverzeichnis
+
+
+    1      Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)               5
+           Dein Fundament                                                     6
+    1.1    Brüche als Anteile von einem Ganzen                                8
+    1.2    Brüche erweitern und kürzen                                       12
+    1.3    Brüche vergleichen                                                15
+    1.4    Brüche als Quotienten                                             18
+    1.5    Größenanteilebestimmen                                            22
+    1.6    Brüche und Verhältnisse                                           26
+           Streifzug: Mischungsverhältnisse                                  28
+    1.7    Brüche am Zahlenstrahl                                            29
+    1.8    Dezimalzahlen                                                     31
+    1.9    Dezimalzahlen vergleichen                                         35
+    1.10   Abbrechende und periodische Dezimalzahlen                         38
+    1.11   Prozentschreibweise                                               41
+    1.12   Vermischte Aufgaben                                               44
+           Prüfe dein neues Fundament                                        46
+           Zusammenfassung                                                   48
+
+
+    2      Brüche und Dezimalzahlen addieren und subtrahieren                49
+           Dein Fundament                                                    50
+    2.1    Gleichnamige Brüche addieren und subtrahieren                     52
+    2.2    Ungleichnamige Brüche addieren und subtrahieren                   55
+           Streifzug: Größter gemeinsamer Teiler und kleinstes gemeinsames
+           Vielfaches                                                        58
+    2.3    Dezimalzahlen runden                                              60
+    2.4    Dezimalzahlen addieren und subtrahieren                           62
+           Mathematisch arbeiten: Begründen und Widerlegen                   65
+    2.5    Vermischte Aufgaben                                               67
+           Prüfe dein neues Fundament                                        68
+           Zusammenfassung                                                   70
+
+
+
+
+2
+3      Winkel                                                                                                   71
+        Dein Fundament                                                                                           72
+3.1    Kreis                                                                                                     74
+3.2    Winkelangeben                                                                                             77
+3.3    Winkel messen                                                                                             80
+3.4    Winkel zeichnen                                                                                           85
+        Mit Medien arbeiten: Dynamische Geometrie-Software                                                       88
+3.5    Nebenwinkel und Scheitelwinkel............................................................                90
+3.6    Stufenwinkel und Wechselwinkel...........................................................                 92
+3.7    Vermischte Aufgaben .............................................................................         95
+        Prüfe dein neues Fundament                                                                               98
+        Zusammenfassung                                                                                         100
+
+
+4      Brüche und Dezimalzahlen multiplizieren und dividieren                                                  101
+        Dein Fundament                                                                                          102
+4.1    Brüche mit natürlichen Zahlen multiplizieren                                                             104
+4.2    Brüche multiplizieren                                                                                    106
+4.3    Brüche durch natürliche Zahlen dividieren                                                                110
+4.4    Brüche dividieren                                                                                        112
+4.5    Kommaverschiebung bei Dezimalzahlen                                                                      116
+4.6    Dezimalzahlen multiplizieren                                                                             119
+4.7    Dezimalzahlen dividieren                                                                                 122
+4.8    Rechnen mit allen Grundrechenarten                                                                       126
+4.9    Ausmultiplizieren und Ausklammern                                                                        129
+        Mathematisch arbeiten: Lösungswege darstellen                                                           131
+4.10   Vermischte Aufgaben                                                                                      133
+        Prüfe dein neues Fundament                                                                              136
+        Zusammenfassung                                                                                         138
+
+
+5      Winkel- und Symmetriebetrachtungen                                                                      139
+        Dein Fundament                                                                                          140
+5.1    Drehsymmetrie                                                                                            142
+5.2    Symmetrie im Raum                                                                                        145
+5.3    Winkelsumme im Dreieck                                                                                   148
+5.4    Winkelsumme im Viereck                                                                                   150
+5.5    Mittelsenkrechte und Winkelhalbierende                     ..........................................    152
+5.6    Symmetrische Dreiecke                                                                                    155
+5.7    Symmetrische Vierecke                                                                                    159
+5.8    Vermischte Aufgaben                                                                                      162
+        Prüfe dein neues Fundament                                                                              164
+        Zusammenfassung..............................................................................           166
+                                                                                                                      3
+    6     Daten                                       167
+           Dein Fundament                             168
+    6.1   Absolute und relative Häufigkeit            170
+    6.2   Kreisdiagramme                              174
+    6.3   Klasseneinteilung                           178
+    6.4   Kennwerte................................   180
+    6.5   Tabellenkalkulation                         184
+          Streifzug: Wirkung vonDiagrammen            188
+    6.6   Vermischte Aufgaben                         190
+          Prüfe dein neues Fundament                  192
+          Zusammenfassung                             194
+
+
+    7     Komplexe Aufgaben                           195
+          Aufgaben                                    196
+
+
+
+
+    8     Methoden                                    201
+          Methodenkarten                              202
+
+
+
+
+    9     Anhang                                      207
+          Lösungen                                    208
+          Stichwortverzeichnis                        220
+          Bildquellenverzeichnis                      223
+          Impressum                                   224
+
+
+
+
+4
+
