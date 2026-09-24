@@ -83,7 +83,12 @@ sie mit Begründung.
 | Klett | Lambacher Schweizer | keine Landesausgabe; auch kein gedrucktes Allgemeine-Ausgabe-Schulbuch für BE/BB (nur die bundeslandübergreifende Digitalplattform Studyly) | Einführungsphase/Qualifikationsphase | – | – | nicht gefunden | – |
 | Cornelsen | Fundamente der Mathematik | Ausgabe B (Berlin, Brandenburg, Mecklenburg-Vorpommern) | Einführungsphase | 9783060098514 | 1266335498 | DNB | ja |
 | Cornelsen | Fundamente der Mathematik | Ausgabe B (BE/BB/MV) | Qualifikationsphase GK/LK | – | – | nicht gefunden (in der DNB noch nicht katalogisiert/erschienen; alle 2019–2025 gefundenen Qualifikationsphase-Bände tragen andere Bundesländer, u. a. NRW) | – |
-| Cornelsen | Bigalke/Köhler Mathematik | Berlin/Brandenburg | – | – | – | nicht gefunden (kein Titeltreffer in der DNB unter dem Autorennamen; Verlagssuche in dieser Sitzung nicht zuverlässig durchsuchbar) | – |
+| Cornelsen | Bigalke/Köhler Mathematik | Brandenburg - Ausgabe 2019 (keine Berlin-Ausgabe gefunden) | Qualifikationsphase Grundkurs Jg. 11 | 9783060406661 | 1164092987 | DNB (Personenfeld: per="Bigalke") | ja |
+| Cornelsen | Bigalke/Köhler Mathematik | dito | Qualifikationsphase Leistungskurs Jg. 11 | 9783060406685 | 1164092006 | DNB | ja |
+| Cornelsen | Bigalke/Köhler Mathematik | dito | Qualifikationsphase Grundkurs Jg. 12 | 9783060406678 | 1186081260 | DNB | ja |
+| Cornelsen | Bigalke/Köhler Mathematik | dito | Qualifikationsphase Leistungskurs Jg. 12 | 9783060406692 | 1188350994 | DNB | ja |
+| Cornelsen | Bigalke/Köhler Mathematik | dito | Aufgaben zur Abiturvorbereitung | 9783060004423 | 1200947215 | DNB | ja |
+| Cornelsen | Bigalke/Köhler Mathematik | Berlin | – | – | – | nicht gefunden (per="Bigalke" and tit="Berlin" bzw. per="Köhler" and tit="Mathematik" and tit="Berlin": je nur ein Treffer, Ausgabe 2004/2006, außerhalb des Betrachtungszeitraums); für Berlin offenbar keine eigene Landesausgabe unter diesem Autorennamen | – |
 | Westermann | Elemente der Mathematik SII | keine Landesausgabe BE/BB gefunden; Gegenprobe Ausgabe Nordrhein-Westfalen ab 2024 | Einführungsphase | 9783141094510 | 1312202416 | DNB (Gegenprobe) | ja |
 | Westermann | Elemente der Mathematik SII | Gegenprobe NRW ab 2024/2025 | Qualifikationsphase Grundkurs | 9783141094619 | 134985025X | DNB (Gegenprobe) | ja |
 | Westermann | Elemente der Mathematik SII | Gegenprobe NRW ab 2024/2025 | Qualifikationsphase Leistungskurs | 9783141094718 | 1349851108 | DNB (Gegenprobe) | ja |

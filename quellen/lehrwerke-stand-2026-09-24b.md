@@ -13,5 +13,5 @@ ersten offenen Punkt weiter. Bleibt danach als Beleg liegen.
 | Teil 1d Schnittpunkt Förderheft | erledigt | 0 | klett.de ohne Vorschau |
 | Teil 2 Bigalke/Köhler | erledigt | 5 Bände (Brandenburg) | Berlin weiterhin ohne Treffer; keine Einführungsphase gefunden |
 | Teil 3 Lücken Sorte 1 und 3 | erledigt | 11 Bände | Sekundo Kl.10 existiert nicht; Klick! Vorgänger Kl.8/9 ohne TOC |
-| Register und Bericht | offen | – | |
+| Register und Bericht | erledigt | – | quellen.md, lehrwerke-fundliste.md, README.md, Bericht |
 | Auftrag nach archiv/ | offen | – | |

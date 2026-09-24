@@ -288,9 +288,14 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-westermann-mathematik2023-foerder-bebbstth-inhalt.txt` – Förderhefte zur Ausgabe 2023 für Berlin/Brandenburg/Sachsen-Anhalt/Thüringen, Klasse 7–9.
 - `quelle-kohlverlag-grundwissenmathematik-foerder-freiarbeit-inhalt.txt` – eigenständige Übungsheftreihe „Grundwissen Mathematik Freiarbeit“ (Kohl Verlag), Klasse 5–7, ohne Schulbuchbindung.
 - `quelle-cornelsen-klick-foerder-ab2024-inhalt.txt` – Klick! – Mathematik, Ausgabe ab 2024, für den Förderschwerpunkt Lernen, Klasse 5–7.
-- `foerderhefte-formen.md` – Formenliste der Probeseiten der Förderhefte (Teil C desselben Auftrags); keine Reihe bot eine downloadbare Probe.
+- `foerderhefte-formen.md` – Formenliste der Förderhefte: Teil C (24.09.2026) fand keine downloadbare Probe, nur Betrachter; der Nachauftrag (24.09.2026) hat die Betrachter angesehen und die Formenliste gefüllt (Cornelsen Klick! Kl. 5–7, Kohl Verlag Kl. 5 und 8).
 - `lehrwerke-stand-2026-09-24.md` – Standdatei des Auftrags Lehrwerke Sek II und Förderhefte, nach Abschluss als Beleg liegen geblieben.
 - `lehrwerke-sek2-foerder-bericht-2026-09.md` – Bericht des Auftrags Lehrwerke Sek II und Förderhefte (24.09.2026).
+- `quelle-cornelsen-bigalkekoehler-sek2-bebb-inhalt.txt` – Inhaltsverzeichnisse Bigalke/Köhler Mathematik, Ausgabe Brandenburg 2019 (Qualifikationsphase GK/LK, Abiturvorbereitung); keine Berlin-Ausgabe gefunden.
+- `quelle-westermann-mathematikheute-diagnoseundfoerdern-inhalt.txt` – Förderheft „Diagnose und Fördern“ zur Regelreihe Mathematik heute, Klasse 7–10.
+- `quelle-cornelsen-klick-foerder-vorgaenger-inhalt.txt` – Klick! – Mathematik, Vorgängerausgabe 2008–2018, nur Klasse 10 mit Inhaltsverzeichnis auffindbar.
+- `lehrwerke-stand-2026-09-24b.md` – Standdatei des Nachauftrags Lehrwerke (Formenliste, Bigalke/Köhler, Sorte 1 und 3, 24.09.2026).
+- `lehrwerke-nach-bericht-2026-09.md` – Bericht des Nachauftrags Lehrwerke (24.09.2026).
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
 und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.

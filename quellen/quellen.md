@@ -320,6 +320,45 @@ Cornelsen, „Klick! – Mathematik“, Ausgabe ab 2024, für den
 Förderschwerpunkt Lernen (bundesweit), Klasse 5–7 (Klasse 8–10 noch
 nicht erschienen).
 
+## Nachauftrag Lehrwerke (abgelegt 24.09.2026)
+
+Nachauftrag zum Auftrag Lehrwerke Sek II und Förderhefte (24.09.2026):
+Formenliste aus den Betrachtern (Teil 1), Bigalke/Köhler über das
+Personenfeld (Teil 2), Lücken der Sorte 1 und 3 (Teil 3). Standdatei:
+`quellen/lehrwerke-stand-2026-09-24b.md`. Bericht:
+`quellen/lehrwerke-nach-bericht-2026-09.md`.
+
+## quelle-cornelsen-bigalkekoehler-sek2-bebb-inhalt.txt
+
+Cornelsen, „Bigalke/Köhler: Mathematik – Brandenburg – Ausgabe 2019“,
+gymnasiale Oberstufe, Qualifikationsphase GK/LK (Jg. 11 und 12) und
+„Aufgaben zur Abiturvorbereitung“ – gefunden über das DNB-Personenfeld
+(per="Bigalke"), nicht über den Titel. Keine Berlin-Ausgabe und keine
+Einführungsphase gefunden.
+
+## quelle-westermann-mathematikheute-diagnoseundfoerdern-inhalt.txt
+
+Westermann, „Mathematik heute [Klasse]. Diagnose und Fördern“,
+Förderheft zur Regelreihe „Mathematik heute“ [MH-BEBB], Klasse 7–10
+(jüngster katalogisierter Band je Klasse).
+
+## quelle-cornelsen-klick-foerder-vorgaenger-inhalt.txt
+
+Cornelsen, „Klick! – Mathematik“, Vorgängerausgabe (2008–2018) der im
+Repo erfassten Ausgabe ab 2024, nur Klasse 10 mit TOC-Link gefunden
+(deutlich berufsorientierter Inhalt, passend zum Förderschwerpunkt
+Lernen).
+
+Erweiterungen bestehender Dateien: `quelle-kohlverlag-
+grundwissenmathematik-foerder-freiarbeit-inhalt.txt` (Klasse 8–10
+ergänzt, Reihe damit Klasse 5–10 vollständig – „Freiarbeit“ im
+DNB-Titel nur bei den älteren Auflagen 2013/2014, dieselbe Reihe wie
+auf kohlverlag.de unter „Grundwissen Mathematik / Klasse n“),
+`quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt` (Klasse 6 und
+8 ergänzt; Klasse 10 existiert nicht), `quelle-klett-schnittpunkt-
+foerder-diff2017-inhalt.txt` (Klasse 5, 6, 8, 10 ergänzt, Reihe damit
+Klasse 5–10 vollständig).
+
 ## Noch nicht abgelegt
 
 - [MzDuF] LISUM, „Material zur Diagnose und Förderung im Mathematikunterricht“,
