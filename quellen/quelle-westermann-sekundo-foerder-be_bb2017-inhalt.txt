@@ -3,10 +3,22 @@ Foerderhefte zur Ausgabe 2017 fuer Berlin und Brandenburg (Sorte 1:
 Foerderheft zu einer im Repo bereits erfassten Regelreihe, vgl.
 quelle-westermann-sekundo-bb-2017-inhalt.txt). Klasse 5, 7 und 9
 stichprobenartig gesichert (Auftrag Lehrwerke Sek II und Foerderhefte,
-24.09.2026); Klasse 6, 8, 10 aus Zeitgruenden nicht gesichert, siehe
-foerderhefte-fundliste.md fuer weitere gefundene ISBN-Kandidaten.
-Mit pdftotext -layout extrahiert; Schulform laut Verlag: differenzierende
-Schulformen (Gesamtschule, ISS, Oberschule).
+24.09.2026); Klasse 6, 8 nachgetragen (Nachauftrag Lehrwerke,
+24.09.2026, Teil 3 Punkt 1). Mit pdftotext -layout extrahiert;
+Schulform laut Verlag: differenzierende Schulformen (Gesamtschule,
+ISS, Oberschule).
+
+Klasse 10: kein Foerderheft gefunden - weder in der DNB (Suche
+tit="Sekundo" and tit="Foerderheft") noch auf westermann.de fuehrt die
+"Ausgabe 2017 fuer Berlin und Brandenburg" ein Foerderheft 10 (wohl
+aber Schulbuch, Arbeitsheft, Loesungen und Interaktive Uebungen 10) -
+die Foerderheft-Reihe endet fuer diese Ausgabe bei Klasse 9.
+Klasse 6 hat keine eigene BE/BB-Ausgabe: westermann.de fuehrt unter
+dem Bundesland-Filter Berlin fuer Klasse 5 und 6 statt einer
+Landesausgabe die "Allgemeine Ausgabe 2018" (Klasse 6 ISBN
+9783141242140 = der hier gesicherte Band; ebenso Klasse 5, dort schon
+mit dieser ISBN in Zeile "Kl. 5" oben erfasst - nachtraeglich als
+Allgemeine Ausgabe erkannt, keine BE/BB-Ausgabe).
 
 Nachtrag (Teil C, 24.09.2026): Kl. 7 (9783141242553) ist auf
 westermann.de bibliografisch als "Sekundo - Ausgabe 2017 fuer Berlin
@@ -17,7 +29,9 @@ Websuche); die DNB selbst nennt bei keinem der drei Baende ein
 Bundesland im Titel.
 
 Kl. 5: ISBN 9783141241945, IDN 1149949260, https://d-nb.info/1149949260/04, 2018.
+Kl. 6: ISBN 9783141242140, IDN 1156476496, https://d-nb.info/1156476496/04, 2018.
 Kl. 7: ISBN 9783141242553, IDN 1129469905, https://d-nb.info/1129469905/04, 2017.
+Kl. 8: ISBN 9783141242645, IDN 1149945796, https://d-nb.info/1149945796/04, 2018.
 Kl. 9: ISBN 9783141242737, IDN 117481070X, https://d-nb.info/117481070X/04, 2019.
 
 (C) Westermann - Gliederung als Beleg, keine Aufgaben.
@@ -289,5 +303,185 @@ Vorsicht bei Diagrammen                                               75
 Wahrscheinlichkeit                                                    76
 Zweistufige Zufallsversuche                                           77
 Vermischte Übungen zu Kapitel 9                                       78
+
+Alles paletti - Vermischte Aufgaben zum gesamten Schuljahr            79
+
+== Klasse 6 ==
+
+1 Zahlen, Größen und Teilbarkeit                                       1
+Teiler und Vielfache                                                   2
+Teilbarkeitsregeln                                                     3
+Teiler und gemeinsame Teiler                                           4
+Zweisatz                                                                5
+Proportionale Zuordnungen                                              6
+Proportionale Zuordnungen                                              7
+Große Zahlen                                                           8
+Rechnen mit großen Zahlen                                              9
+Vermischte Übungen zu Kapitel 1                                       10
+
+2 Brüche und Dezimalzahlen                                            11
+Rechnen mit Stammbrüchen                                              12
+Bruchteile vom Ganzen                                                 13
+Berechnen von Bruchteilen                                             14
+Brüche größer als ein Ganzes                                          15
+Addieren und Subtrahieren bei gleichem Nenner                         16
+Gemischte Zahlen beim Addieren und Subtrahieren                       17
+Gemischte Zahlen beim Addieren und Subtrahieren                       18
+Dezimalzahlen                                                         19
+Dezimalzahlen vergleichen und ordnen                                  20
+Addieren und Subtrahieren von Dezimalzahlen                           21
+Vermischte Übungen zu Kapitel 2                                       22
+
+3 Kreise, Winkel und Symmetrien                                       23
+Winkel und Winkelarten                                                24
+Winkel messen                                                         25
+Winkel zeichnen                                                       26
+Achsensymmetrie                                                       27
+Achsenspiegelung                                                      28
+Spiegelungen                                                          29
+Vermischte Übungen zu Kapitel 3                                       30
+
+4 Vervielfachen und Teilen von Brüchen und Dezimalzahlen              31
+Teilen von Brüchen                                                    32
+Dezimalzahlen - Multiplikation mit einer natürlichen Zahl             33
+Dezimalzahlen - Multiplikation mit einer natürlichen Zahl             34
+Dezimalzahlen - Division durch eine natürliche Zahl                  35
+Dezimalzahlen - Division durch eine natürliche Zahl                  36
+Vom Bruch zur Dezimalzahl                                             37
+Vermischte Übungen zu Kapitel 4                                       38
+
+5 Flächen- und Rauminhalt                                             39
+Umfang und Flächeninhalt des Rechtecks                                40
+Zusammengesetzte Flächen                                              41
+Zusammengesetzte Flächen                                              42
+Schrägbilder                                                          43
+Quadernetze                                                           44
+Volumen des Quaders                                                   45
+Volumen des Quaders berechnen                                         46
+Liter                                                                 47
+Vermischte Übungen zu Kapitel 5                                       48
+
+6 Addition und Subtraktion von Brüchen                                49
+Erweitern und Kürzen                                                  50
+Größenvergleich von Brüchen                                           51
+Brüche und Dezimalzahlen                                              52
+Brüche und Dezimalzahlen bei Größen                                   53
+Brüche und Dezimalzahlen am Zahlenstrahl                              54
+Addition von Brüchen mit verschiedenen Nennern                        55
+Subtraktion von Brüchen mit verschiedenen Nennern                     56
+Addition und Subtraktion von Brüchen                                  57
+Vermischte Übungen zu Kapitel 6                                       58
+
+7 Multiplikation und Division von Dezimalzahlen                       59
+Multiplikation einer Dezimalzahl mit 10,100,1000                     60
+Division einer Dezimalzahl durch 10,100,1000                         61
+Multiplikation von Dezimalzahlen                                      62
+Division von Dezimalzahlen durch eine natürliche Zahl                63
+Vermischte Übungen zu Kapitel 7                                       64
+
+8 Daten und Zufall                                                    65
+Mittelwert und Spannweite                                             66
+Mittelwert und Spannweite bei Klimadaten                              67
+Daten erfassen und auswerten                                          68
+Daten erfassen und auswerten                                          69
+Wahrscheinlichkeit                                                    70
+Wahrscheinlichkeit                                                    71
+Vermischte Übungen zu Kapitel 8                                       72
+
+9 Multiplikation und Division von Brüchen                             73
+Division durch eine natürliche Zahl                                  74
+Sachaufgaben zur Multiplikation und Division von Brüchen             75
+Vermischte Übungen zu Kapitel 9                                       76
+
+Alles paletti - Vermischte Übungen zum gesamten Schuljahr             77
+Bleib fit! - Wiederholungen zu den Grundrechenarten                  83
+
+== Klasse 8 ==
+
+1 Zahlen und Zuordnungen                                               1
+Rechnen mit positiven und negativen Zahlen                            2
+Proportionale Zuordnungen                                             3
+Dreisatz bei proportionalen Zuordnungen                               4
+Dreisatz bei proportionalen Zuordnungen                               5
+Antiproportionale Zuordnungen                                         6
+Dreisatz bei antiproportionalen Zuordnungen                           7
+Masse, Volumen, Dichte                                                8
+Weg, Zeit, Geschwindigkeit                                            9
+Proportionale und antiproportionale Zuordnungen                      10
+Proportionale und antiproportionale Zuordnungen                      11
+Vermischte Übungen zu Kapitel 1                                      12
+
+2 Zeichnen und Konstruieren                                          13
+Winkel                                                                14
+Winkelsumme im Dreieck                                                15
+Winkelsumme im Viereck                                                16
+Dreieckskonstruktionen                                                17
+Anwendungen                                                           18
+Anwendungen                                                           19
+Vierecke                                                              20
+Konstruktion von Vierecken                                            21
+Vermischte Übungen zu Kapitel 2                                       22
+
+3 Terme und Gleichungen                                               23
+Lösen von Gleichungen durch Umformen                                 24
+Zusammenfassen                                                        25
+Gleichungen mit der Variablen auf beiden Seiten                      26
+Zahlenrätsel                                                          27
+Lösen von Gleichungen                                                 28
+Gleichungen in der Geometrie                                          29
+Vermischte Übungen zu Kapitel 3                                       30
+
+4 Flächenberechnung                                                   31
+Flächeninhalt und Umfang des Dreiecks                                32
+Flächeninhalt und Umfang des Dreiecks                                33
+Flächeninhalt des Parallelogramms                                     34
+Flächeninhalt und Umfang des Parallelogramms                         35
+Zusammengesetzte Figuren                                              36
+Zusammengesetzte Figuren                                              37
+Kreise zeichnen - Radius und Durchmesser                              38
+Umfang des Kreises                                                    39
+Flächeninhalt des Kreises                                             40
+Übungen zu Umfang und Flächeninhalt des Kreises                       41
+Vermischte Übungen zu Kapitel 4                                       42
+
+5 Prozent- und Zinsrechnung                                           43
+Prozentwert berechnen                                                 44
+Grundwert berechnen                                                   45
+Prozentsatz berechnen                                                 46
+Aufgaben zur Prozentrechnung                                          47
+Vermehrter Grundwert                                                  48
+Verminderter Grundwert                                                49
+Brutto - Netto                                                        50
+Grafische Darstellung                                                 51
+Grafische Darstellung mit Tabellenkalkulation                        52
+Zinsrechnung                                                          53
+Vermischte Übungen zu Kapitel 5                                       54
+
+6 Lineare Funktionen                                                  55
+Proportionale und antiproportionale Zuordnungen                      56
+Proportionale und antiproportionale Zuordnungen                      57
+Lineare Funktionen                                                    58
+Grafische Darstellung linearer Funktionen                             59
+Vermischte Übungen zu Kapitel 6                                       60
+
+7 Körper zeichnen und berechnen                                      61
+Oberfläche des Quaders                                                62
+Volumen des Quaders                                                   63
+Oberfläche des Prismas                                                64
+Volumen des Prismas                                                   65
+Oberfläche und Volumen des Prismas                                    66
+Oberfläche des Zylinders                                              67
+Volumen des Zylinders                                                 68
+Oberfläche und Volumen des Zylinders                                  69
+Vermischte Übungen zu Kapitel 7                                       70
+
+8 Daten und Zufall                                                    71
+Mittelwert, Median und Spannweite                                     72
+Daten mit Tabellenkalkulation auswerten                               73
+Diagramme                                                             74
+Diagramme                                                             75
+Problematische grafische Darstellungen                                76
+Zufall und Wahrscheinlichkeit                                         77
+Vermischte Übungen zu Kapitel 8                                       78
 
 Alles paletti - Vermischte Aufgaben zum gesamten Schuljahr            79

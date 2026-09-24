@@ -1,0 +1,70 @@
+Westermann, "Mathematik heute [Klasse]. Diagnose und Fördern", Förderheft
+zur im Repo erfassten Regelreihe "Mathematik heute" ([MH-BEBB],
+quelle-westermann-mathematikheute-bebb-inhalt.txt). Sorte 1 (Förder-/
+Basisheft zu einer Regelreihe). Nachauftrag Lehrwerke, 24.09.2026,
+Teil 3 Punkt 3: über die DNB-Suche tit="Mathematik heute" and
+tit="Diagnose und Fördern" gefunden (63 Treffer, viele Bundesland- und
+Bildungsgang-Varianten - Bayern, Realschulbildungsgang,
+Mittelschule/Oberschule -, hier je Klasse 7-10 der jüngste Band ohne
+erkennbare Bundesland-/Bildungsgang-Einschränkung im Titel, da laut
+Auftrag "das Bundesland ist hier unwichtig, die Breite zählt"). Kein
+eigener Kapitelaufbau: die Hefte gliedern nach den Themenblöcken des
+Schülerbands mit dessen Seitenspanne in Klammern - diese Seitenzahl
+gehört zum Schülerband, nicht zum Förderheft selbst; die Förderheft-
+eigene Seitenzahl steht rechts. Mit pdftotext -layout extrahiert.
+
+Kl. 7: ISBN 9783141503357, IDN 1214251455, https://d-nb.info/1214251455/04, 2020.
+Kl. 8: ISBN 9783141504347, IDN 1218493801, https://d-nb.info/1218493801/04, 2020.
+Kl. 9: ISBN 9783141504446, IDN 1241285985, https://d-nb.info/1241285985/04, 2021.
+Kl. 10: ISBN 9783141500981, IDN 1233015583, https://d-nb.info/1233015583/04, 2021.
+
+Kl. 5 und 6 nicht gesichert (Zählgrenze Teil 3 erreicht, siehe
+foerderhefte-fundliste.md); für Klasse 8 führt die DNB einen zweiten
+Band desselben Jahres (2020) mit anderer Kapitelfolge und anderer
+Schülerband-Seitenzählung (ISBN 9783141503449, IDN 1213259282) - ein
+Hinweis auf eine parallele Ausgabe/Variante des Schülerbands; nicht
+gesichert, nur der oben genannte Band gewählt.
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+== Klasse 7 ==
+
+Zum Arbeiten mit dem Diagnose- und Fördermaterial   2
+Rationale Zahlen (Schülerband Seite 10 bis 65)   4
+Proportionalität - Dreisatz (Schülerband Seite 68 bis 103)   10
+Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)   16
+Dreiecke (Schülerband Seite 146 bis 165)   25
+Lösen von Gleichungen (Schülerband Seite 166 bis 193)   31
+Flächeninhalt und Umfang von Vielecken (Schülerband Seite 196 bis 219)   38
+Daten (Schülerband Seite 220 bis 247)   44
+
+== Klasse 8 ==
+
+Zum Arbeiten mit dem Diagnose- und Fördermaterial   2
+Terme und Gleichungen mit Klammern (Schülerband Seite 6 bis 45)   4
+Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)   11
+Ebene Geometrie (Schülerband Seite 72 bis 113)   17
+Prismen (Schülerband Seite 114 bis 135)   24
+Funktionen - Lineare Funktionen (Schülerband Seite 136 bis 167)   30
+Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)   37
+Potenzen (Schülerband Seite 198 bis 211)   43
+
+== Klasse 9 ==
+
+Zum Arbeiten mit dem Diagnose- und Fördermaterial   2
+Lineare Gleichungssysteme (Schülerband Seite 10 bis 39)   4
+Ähnlichkeit (Schülerband Seite 40 bis 77)   11
+Wurzeln - Reelle Zahlen (Schülerband Seite 78 bis 105)   17
+Satz des Pythagoras (Schülerband Seite 106 bis 123)   23
+Kreis und Zylinder (Schülerband Seite 124 bis 161)   29
+Mehrstufige Zufallsexperimente (Schülerband Seite 162 bis 183)   36
+Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)   42
+
+== Klasse 10 ==
+
+Zum Arbeiten mit dem Diagnose- und Fördermaterial   2
+Zentrische Streckung - Ähnlichkeit (Schülerband Seite 6 bis 35)   4
+Berechnungen an Dreiecken (Schülerband Seite 38 bis 71)   11
+Quadratische Gleichungen (Schülerband Seite 74 bis 95)   17
+Quadratische Funktionen (Schülerband Seite 98 bis 127)   24
+Sinusfunktionen (Schülerband Seite 128 bis 143)   31

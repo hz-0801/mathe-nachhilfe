@@ -1,0 +1,157 @@
+Cornelsen, "Klick! - Mathematik", Vorgängerausgabe (2008-2018), Vorläufer
+der im Repo bereits erfassten Ausgabe ab 2024 (quelle-cornelsen-klick-
+foerder-ab2024-inhalt.txt). Nachauftrag Lehrwerke, 24.09.2026, Teil 3
+Punkt 4: über die DNB-Suche tit="Klick" and tit="Mathematik" and
+jhr>2007 and jhr<2019 gefunden (68 Treffer für Klasse 1-10, Haupt-,
+Arbeits- und Kopiervorlagenbände sowie eine spätere "Klick! inklusiv"-
+Teilserie 2017/2018 mit themenweisen Doppelklassenheften 5/6, 7/8,
+9/10). Von den gesuchten Klassen 8, 9 und 10 hat nur die Klasse-10-
+Hauptbandaufnahme einen TOC-Link; die Klasse-8- und Klasse-9-
+Hauptbände (IDN 1018817689 bzw. 1030506914) sind ohne TOC-PDF
+katalogisiert - "nicht gefunden" für beide, siehe
+foerderhefte-fundliste.md. Klasse 10 richtet sich deutlich an einen
+Schulabschluss mit Berufsorientierung ("Beruf aktuell:", Bewerbungs-
+und Einstellungstestthemen) - passend zum Förderschwerpunkt Lernen
+der Nachfolgeausgabe. Mit pdftotext -layout extrahiert.
+
+Kl. 10: ISBN 9783060805655, IDN 1044927682, https://d-nb.info/1044927682/04, 2014.
+
+(C) Cornelsen - Gliederung als Beleg, keine Aufgaben.
+
+== Klasse 10 ==
+
+Einführung
+Auf dem Weg zum Schulabschluss                                          6
+Rechenregeln und Rechengesetze                                         8
+Eignungstests und Einstellungstests                                   10
+
+Umgang mit Sachaufgaben
+Wiederholung: Nach Lösungsplan arbeiten                                14
+Beruf aktuell: Fachlageristin/Fachlagerist                             18
+
+Brüche und Dezimalzahlen
+Wiederholung: Brüche                                                   20
+Rechnen mit Brüchen                                                    22
+Rechnen mit Dezimalzahlen                                              24
+Das kannst du schon - Aufgaben für Profis                              26
+Beruf aktuell: Beiköchin/Beikoch                                       28
+
+Zuordnungen
+Wiederholung                                                           30
+Der Dreisatz im Beruf und im Alltag                                    32
+Aufgaben rund um Mofa und Roller                                       34
+Beruf aktuell: Gebäudereinigerin/Gebäudereiniger                      36
+Bist du fit?                                                           38
+
+Potenzen und Wurzeln
+Wiederholung: Quadratzahl - Quadratwurzel                              40
+Kubikzahl - Kubikwurzel                                                41
+Potenzen                                                               42
+
+Rechnen mit Größen
+Wiederholung: Größen                                                  44
+Mit Größen rechnen                                                    46
+Das kannst du schon - Aufgaben für Profis                              47
+Beruf aktuell: Sozialhelferin/Sozialhelfer                             48
+Beruf aktuell: Metallwerkerin/Metallwerker                             50
+
+Flächen
+Mathe mit Methode: Formeln richtig verwenden                          52
+Wiederholung: Umfang und Flächeninhalt                                 54
+Zusammengesetzte Flächen                                               56
+Beruf aktuell: Maler/-in und Lackierer/-in                             58
+Wiederholung: Der Satz des Pythagoras                                  60
+Das kannst du schon - Aufgaben für Profis                              61
+
+Rund um die eigene Wohnung
+Grundrisse verstehen und zeichnen                                      62
+Wohn- und Renovierungskosten berechnen                                 64
+Einrichtungskosten berechnen                                           66
+Beruf aktuell: Fliesen-, Platten- und Mosaikleger/-in                  68
+Bist du fit?                                                           70
+
+Prozentrechnung
+Wiederholung                                                           72
+Prozentrechnung: Was ist gesucht?                                      74
+Mehrwertsteuer                                                         75
+Vermehrter und verminderter Grundwert                                  76
+Rabatt und Skonto: Wie viel kann ich sparen?                           78
+Das kannst du schon - Aufgaben für Profis                              79
+
+Rund ums eigene Einkommen
+Löhne in verschiedenen Ausbildungsgängen und Berufen                   80
+Bruttolohn und Nettolohn                                               82
+Staatliche Zuschüsse und Hilfen                                        83
+Einen Haushaltsplan mit dem Computer erstellen                         84
+Mathe mit Methode: Präsentation mit Tabellenkalkulation                86
+
+Terme und Gleichungen
+Wiederholung: Terme aufstellen und vereinfachen                        88
+Terme mit Klammern                                                     89
+Gleichungen umformen und lösen                                         90
+Sachaufgaben                                                           92
+
+Funktionen
+Wiederholung: Funktionen als spezielle Zuordnungen                     94
+Lineare Funktionen                                                     96
+Die Funktionsgleichung y = m · x                                       98
+Die Funktionsgleichung y = m · x + b                                   99
+Dynamische Geometrie-Software (DGS)                                   100
+Bist du fit?                                                          102
+
+Daten und Statistiken
+Wiederholung: Darstellung von Daten                                   104
+Wahlen                                                                105
+Diagramme mit dem Computer erstellen                                  106
+Arbeitsmarktdaten                                                     108
+Vorsicht, Manipulationen                                              110
+Mathe mit Methode: Diagramme für Präsentationen nutzen                112
+Umwelt                                                                114
+Das kannst du schon - Aufgaben für Profis                             115
+
+Rationale Zahlen
+Addition und Subtraktion rationaler Zahlen                            116
+Multiplikation rationaler Zahlen                                      118
+Division rationaler Zahlen                                            119
+Vorsicht, Schuldenfalle                                               120
+Das kannst du schon - Aufgaben für Profis                             121
+
+Geometrische Körper
+Wiederholung: Prismen und Zylinder                                    122
+Oberfläche und Volumen von Pyramiden                                  124
+Oberfläche und Volumen von Kegeln und Kugeln                          126
+Körper zeichnen                                                       128
+Zusammengesetzte Körper                                               130
+Das kannst du schon - Aufgaben für Profis                             131
+Körperansichten                                                       132
+Technisches Zeichnen                                                  133
+Bist du fit?                                                          134
+
+Zinsrechnung
+Wiederholung                                                          136
+Zinsrechnung: Was ist gesucht?                                        138
+Jahres-, Monats- und Tageszins                                        140
+Zinseszins                                                            142
+Sofortkauf und Ratenkauf: Was kostet mich das?                        144
+Das kannst du schon - Aufgaben für Profis                             145
+
+Rund ums Konto
+Mein eigenes Konto                                                    146
+Verschiedene Kredite und Geldanlagen                                  148
+
+Zufall und Wahrscheinlichkeit
+Wahrscheinlichkeiten berechnen                                        152
+Wahrscheinlichkeiten ermitteln                                        154
+
+Rund um die eigene Ernährung
+Ernährungspyramide und Ernährungskreis                                156
+Energiezufuhr und BMI                                                 158
+Mathe mit Methode: Ein Präsentationsprogramm nutzen                   160
+
+Tarif- und Preisvergleiche
+Rund um den Roller                                                    162
+Rund ums Auto                                                         163
+Altersvorsorge                                                        164
+Kaufkraft und Kaufkraftverlust                                        165
+Bist du fit?                                                          166
+Mathe mit Methode: Zusammenfassung                                    168

@@ -2,9 +2,9 @@ Klett, "Schnittpunkt Mathematik", Foerderhefte zur Differenzierenden
 Ausgabe ab 2017 (Sorte 1: Foerderheft zu einer im Repo bereits erfassten
 Regelreihe, vgl. quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt).
 Klasse 7 und 9 stichprobenartig gesichert (Auftrag Lehrwerke Sek II und
-Foerderhefte, 24.09.2026); Klasse 5, 6, 8, 10 aus Zeitgruenden nicht
-gesichert, siehe foerderhefte-fundliste.md fuer weitere ISBN-Kandidaten.
-Mit pdftotext -layout extrahiert.
+Foerderhefte, 24.09.2026); Klasse 5, 6, 8, 10 nachgetragen (Nachauftrag
+Lehrwerke, 24.09.2026, Teil 3 Punkt 2) - damit die Reihe vollstaendig
+Klasse 5-10. Mit pdftotext -layout extrahiert.
 
 Nachtrag (Teil C, 24.09.2026): Kl. 7 (9783127445787) ist auf klett.de
 ausdruecklich der "Differenzierenden Ausgabe BE, BB, HB, HH, HE, MV,
@@ -12,8 +12,21 @@ NI, SH, ST, TH ab 2017" zugeordnet - damit fuer diesen Band bestaetigt.
 Kl. 9 (9783127445985) wurde nicht einzeln nachbestaetigt, liegt aber im
 selben ISBN-Block wie der bestaetigte Kl.-9-Schuelerband (9783127445916).
 
+Nachtrag (Nachauftrag, Teil 3 Punkt 2): Kl. 5, 6, 8, 10 ueber dieselbe
+klett.de-Suche mit Bundeslandfilter Berlin bestaetigt (Treffer jeweils
+"Differenzierende Ausgabe, Berlin und 12 weitere" bzw. "und 11
+weitere" bei Kl. 10) - alle sechs Baende (Kl. 5-10) liegen im ISBN-
+Praefixblock 9783127445xxx, zur Unterscheidung von der Nordrhein-
+Westfalen-Ausgabe ab 2022 (Block 9783127444xxx) und der Baden-
+Wuerttemberg-Ausgabe ab 2015 (Block 9783127443xxx) derselben Reihe,
+die dieselbe DNB-Suche ebenfalls findet.
+
+Kl. 5: ISBN 9783127445589, IDN 1153912031, https://d-nb.info/1153912031/04, 2018.
+Kl. 6: ISBN 9783127445688, IDN 1153912945, https://d-nb.info/1153912945/04, 2018.
 Kl. 7: ISBN 9783127445787, IDN 1153913186, https://d-nb.info/1153913186/04, 2018.
+Kl. 8: ISBN 9783127445886, IDN 1170988296, https://d-nb.info/1170988296/04, 2019.
 Kl. 9: ISBN 9783127445985, IDN 1172441715, https://d-nb.info/1172441715/04, 2020.
+Kl. 10: ISBN 9783127445084, IDN 120834644X, https://d-nb.info/120834644X/04, 2020.
 
 (C) Klett - Gliederung als Beleg, keine Aufgaben.
 
@@ -150,3 +163,285 @@ Die quadratische Funktion y = ax² + c                                 47
 Die Scheitelform y = (x - d)² + e                                     48
 Die Normalform y = x² + bx + c (1)                                    49
 Die Normalform y = x² + bx + c (2)                                    50
+
+== Klasse 5 ==
+
+Hinweise für Schülerinnen und Schüler                                  2
+
+1 Daten
+Daten in Listen erfassen                                               3
+Diagramme lesen                                                        4
+Daten in Diagrammen darstellen                                         5
+Eine Datenerhebung durchführen                                         6
+Abzählen mit Baumdiagrammen                                            7
+
+2 Natürliche Zahlen
+Natürliche Zahlen                                                      8
+Große Zahlen im Zehnersystem                                           9
+Runden von Zahlen                                                     10
+Schätzen                                                              11
+
+3 Addieren und Subtrahieren
+Kopfrechnen                                                           12
+Addieren                                                              13
+Subtrahieren                                                          14
+Klammern                                                              15
+Rechengesetze                                                         16
+
+4 Multiplizieren und Dividieren
+Kopfrechnen                                                           17
+Multiplizieren                                                        18
+Rechengesetze                                                         19
+Potenzieren                                                           20
+Dividieren                                                            21
+Punkt vor Strich. Klammern zuerst                                     22
+Ausklammern. Ausmultiplizieren                                        23
+
+5 Geometrie. Vierecke
+Strecke und Gerade                                                    24
+Zueinander senkrecht                                                  25
+Zueinander parallel                                                   26
+Das Koordinatensystem                                                 27
+Entfernung und Abstand                                                28
+Symmetrische Figuren                                                  29
+Rechteck und Quadrat                                                  30
+Parallelogramm und Raute                                              31
+Noch mehr Vierecke                                                    32
+
+6 Sachrechnen
+Schätzen                                                              33
+Geld                                                                  34
+Zeit                                                                  35
+Gewicht                                                               36
+Länge                                                                 37
+Maßstab                                                               38
+Sachaufgaben                                                          39
+
+7 Kreis und Winkel
+Kreis                                                                 40
+Winkel                                                                41
+Einteilung der Winkel. Winkelarten                                    42
+Winkel messen und zeichnen                                            43
+Drehsymmetrie                                                         44
+
+8 Flächeninhalt berechnen
+Flächeninhalt                                                         45
+Flächenmaße                                                           46
+Flächeninhalt und Umfang des Rechtecks                                47
+Zusammengesetzte Figuren                                              48
+
+9 Brüche
+Bruchteile erkennen und darstellen                                    49
+Bruchteile von Größen                                                 50
+Dezimalbrüche                                                         51
+
+== Klasse 6 ==
+
+Hinweise für Schülerinnen und Schüler                                  2
+
+1 Teilbarkeit und Brüche
+Teiler und Vielfache                                                  3
+Endziffernregeln                                                      4
+Quersummenregeln                                                      5
+Primzahlen                                                            6
+Brüche                                                                7
+Brüche am Zahlenstrahl                                                8
+Erweitern und Kürzen                                                  9
+Brüche vergleichen und ordnen                                        10
+Brüche und Größen                                                    11
+
+2 Rechnen mit Brüchen
+Addieren und Subtrahieren gleichnamiger Brüche                       12
+Addieren und Subtrahieren ungleichnamiger Brüche                     13
+Multiplizieren von Brüchen                                           14
+Dividieren von Brüchen                                               15
+Punkt vor Strich. Klammern                                           16
+
+3 Körper
+Quader und Würfel                                                    17
+Netze von Quadern und Würfeln                                        18
+Schrägbilder                                                         19
+Prisma                                                                20
+Pyramide                                                              21
+Zylinder. Kegel. Kugel                                               22
+
+4 Dezimalbrüche
+Dezimalschreibweise                                                  23
+Dezimalbrüche vergleichen und ordnen                                 24
+Dezimalbrüche runden                                                 25
+Umwandeln von Brüchen in Dezimalbrüche                               26
+Dezimalbrüche, Brüche und Prozentangaben                             27
+
+5 Rechnen mit Dezimalbrüchen
+Addieren und Subtrahieren                                            28
+Multiplizieren und Dividieren mit Stufenzahlen                       29
+Multiplizieren                                                       30
+Dividieren                                                           31
+Verbindung der Rechenarten                                           32
+
+6 Terme und Gleichungen
+Terme mit Variablen                                                  33
+Terme aufstellen und berechnen                                      34
+Gleichungen                                                           35
+
+7 Berechnungen am Quader
+Oberflächeninhalt des Quaders                                        36
+Rauminhalte vergleichen                                              37
+Volumeneinheiten                                                     38
+Volumen des Quaders                                                  39
+Zusammengesetzte Körper                                              40
+
+8 Zuordnungen
+Zuordnungen und Schaubilder                                          41
+Proportionale Zuordnungen                                            42
+Schaubilder proportionaler Zuordnungen                               43
+Zweisatz                                                             44
+Dreisatz                                                             45
+
+9 Daten darstellen und auswerten
+Diagramme und Häufigkeitstabellen                                    46
+Arithmetisches Mittel                                                47
+Absolute und relative Häufigkeit                                     48
+
+10 Ganze Zahlen
+Ganze Zahlen                                                         49
+Ganze Zahlen vergleichen und ordnen                                  50
+Zunahme und Abnahme                                                  51
+Das Koordinatensystem                                                52
+
+== Klasse 8 ==
+
+Hinweise für Schülerinnen und Schüler                                  2
+
+1 Terme und Gleichungen
+Ausmultiplizieren. Ausklammern                                        3
+Summen multiplizieren                                                  4
+Binomische Formeln                                                    5
+Faktorisieren mit binomischen Formeln                                 6
+Gleichungen                                                            7
+Gleichungen mit Klammern (1)                                           8
+Gleichungen mit Klammern (2)                                           9
+Gleichungen mit Klammern (3)                                          10
+Gleichungen mit Klammern (4)                                          11
+Formeln (1)                                                           12
+Formeln (2)                                                           13
+
+2 Geometrische Abbildungen
+Achsenspiegelung                                                     14
+Verschiebung                                                         15
+Drehung. Punktspiegelung (1)                                         16
+Drehung. Punktspiegelung (2)                                         17
+Kongruenzabbildungen                                                 18
+
+3 Lineare Funktionen
+Funktionen                                                           19
+Funktionsgleichungen                                                 20
+Steigung. Proportionale Funktionen                                   21
+Lineare Funktionen                                                   22
+Parallele und senkrechte Geraden                                     23
+Geradengleichung berechnen                                           24
+Modellieren (1)                                                      25
+Modellieren (2)                                                      26
+Modellieren (3)                                                      27
+
+4 Umfang und Flächeninhalt
+Rechteck und Quadrat                                                 28
+Dreieck                                                              29
+Parallelogramm                                                      30
+Trapez                                                                31
+Kreis. Umfang                                                        32
+Kreis. Flächeninhalt                                                 33
+Zusammengesetzte Figuren. Vielecke                                   34
+
+5 Prozente und Zinsen
+Prozentrechnen                                                       35
+Vermehrter und verminderter Grundwert                                36
+Zinsrechnen                                                          37
+Monatszinsen. Tageszinsen (1)                                        38
+Monatszinsen. Tageszinsen (2)                                        39
+Zinseszinsen (1)                                                     40
+Zinseszinsen (2)                                                     41
+
+6 Prismen. Zylinder
+Prisma                                                               42
+Prisma. Netz                                                         43
+Prisma. Oberflächeninhalt                                            44
+Prisma. Schrägbild                                                   45
+Prisma. Volumen                                                      46
+Zylinder. Schrägbild                                                 47
+Zylinder. Netz und Oberflächeninhalt (1)                             48
+Zylinder. Netz und Oberflächeninhalt (2)                             49
+Zylinder. Volumen                                                    50
+Zusammengesetzte Körper (1)                                          51
+Zusammengesetzte Körper (2)                                          52
+
+7 Daten
+Daten erfassen                                                       53
+Daten auswerten                                                      54
+Diagramme auswerten (1)                                              55
+Quartile                                                             56
+Boxplots                                                             57
+
+== Klasse 10 ==
+
+Hinweise für Schülerinnen und Schüler                                  2
+
+1 Quadratische Funktionen und Gleichungen
+Die quadratische Funktion y = x² + c                                   3
+Die quadratische Funktion y = ax² + c                                  4
+Die Scheitelform y = a(x-d)² + e                                       5
+Die quadratische Funktion y = ax² + bx + c (1)                         6
+Die quadratische Funktion y = ax² + bx + c (2)                         7
+Quadratische Gleichungen (1)                                           8
+Quadratische Gleichungen (2)                                           9
+Lösungsformel                                                         10
+Nullstellen (1)                                                       11
+Nullstellen (2)                                                       12
+Schnittpunkte (1)                                                     13
+Schnittpunkte (2)                                                     14
+Schnittpunkte (3)                                                     15
+Modellieren (1)                                                       16
+Modellieren (2)                                                       17
+Modellieren (3)                                                       18
+Modellieren (4)                                                       19
+
+2 Trigonometrie
+Sinus. Kosinus. Tangens                                               20
+Berechnungen am rechtwinkligen Dreieck                                21
+Berechnungen am allgemeinen Dreieck (1)                               22
+Berechnungen am allgemeinen Dreieck (2)                               23
+Sinussatz und Kosinussatz (1)                                         24
+Sinussatz und Kosinussatz (2)                                         25
+Trigonometrie in der Ebene und im Raum (1)                            26
+Trigonometrie in der Ebene und im Raum (2)                            27
+Trigonometrie in der Ebene und im Raum (3)                            28
+
+3 Potenzen
+Potenzen mit ganzen Zahlen als Exponenten                             29
+Potenzen mit gleicher Basis                                           30
+Potenzen mit gleichem Exponenten                                      31
+Potenzen mit gebrochenen Zahlen als Exponenten                        32
+
+4 Exponentialrechnung
+Zinsen                                                                33
+Zinseszinsen                                                         34
+Exponentielles Wachstum. Exponentielle Abnahme                       35
+Verdopplungszeit. Halbwertszeit                                      36
+Wachstumsprozesse unterscheiden                                      37
+Exponentialgleichung. Logarithmus                                    38
+
+5 Zufall
+Zufallsexperimente                                                   39
+Einstufige Zufallsexperimente                                        40
+Zweistufige Zufallsexperimente mit Zurücklegen                       41
+Zweistufige Zufallsexperimente ohne Zurücklegen                      42
+Vierfeldertafeln (1)                                                 43
+Vierfeldertafeln (2)                                                 44
+
+6 Funktionen
+Lineare und quadratische Funktionen                                  45
+Potenzfunktionen mit natürlichen Exponenten                          46
+Potenzfunktionen mit ganzzahligen Exponenten                         47
+Exponentialfunktionen                                                48
+Die Sinusfunktion f(a) = a · sin(b · a + φ)                          49
+Kreisbewegungen                                                      50
