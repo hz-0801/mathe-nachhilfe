@@ -1,20 +1,31 @@
-Kohl Verlag, "Grundwissen Mathematik [Klasse]. Freiarbeit"
-(Kopiervorlagen/Copymasters). Sorte 2 (eigenstaendige Basis- und
-Grundwissenreihe ohne Bindung an ein Schulbuch): ueber DNB-Suche
-tit="Grundwissen Mathematik" and tit="Freiarbeit" gefunden (Auftrag
-Lehrwerke Sek II und Foerderhefte, 24.09.2026). Reihe vollstaendig:
-nur Klasse 5, 6 und 7 erschienen (keine Baende fuer Klasse 8-10 in der
-DNB gefunden). Schulform laut DNB-Schlagworten: Nachhilfe/Haeusliches
-Ueben/Grundkompetenzen, schulformunabhaengig. Mit pdftotext -layout
-extrahiert.
+Kohl Verlag, "Grundwissen Mathematik [Klasse]" (bis Kl. 7 im
+DNB-Titel mit Zusatz "Freiarbeit", ab Kl. 8 ohne; dieselbe
+fortlaufende Reihe, siehe Nachtrag unten). Kopiervorlagen/
+Copymasters. Sorte 2 (eigenstaendige Basis- und Grundwissenreihe
+ohne Bindung an ein Schulbuch): ueber DNB-Suche tit="Grundwissen
+Mathematik" and tit="Freiarbeit" gefunden (Auftrag Lehrwerke Sek II
+und Foerderhefte, 24.09.2026). Reihe vollstaendig Klasse 5-10
+(Nachauftrag 24.09.2026, Teil 1b: kohlverlag.de fuehrt auf der
+Produktseite auch Klasse 8-10 unter dem Reihennamen "Grundwissen
+Mathematik / Klasse n" ohne "Freiarbeit" im Titel; EAN von Kl. 5-7
+stimmt mit den hier bereits erfassten Baenden ueberein - keine
+zweite Reihe, siehe Bericht). Schulform laut DNB-Schlagworten:
+Nachhilfe/Haeusliches Ueben/Grundkompetenzen, schulformunabhaengig.
+Mit pdftotext -layout extrahiert.
 
 Kl. 5: ISBN 9783956865107, IDN 1037742206, https://d-nb.info/1037742206/04, 2013.
 Kl. 6: ISBN 9783955138455, IDN 1037742214, https://d-nb.info/1037742214/04, 2013.
 Kl. 7: ISBN 9783956865473, IDN 1046168479, https://d-nb.info/1046168479/04, 2014.
+Kl. 8: ISBN 9783956868061, IDN 1074837746, https://d-nb.info/1074837746/04, 2015.
+Kl. 9: ISBN 9783966242363, IDN 1216120935, https://d-nb.info/1216120935/04, 2022.
+Kl. 10: ISBN 9783966242370, IDN 121612079X, https://d-nb.info/121612079X/04, 2023.
 
 (C) Kohl Verlag - Gliederung als Beleg, keine Aufgaben. Achtung: Die
 Hefte listen einzelne Arbeitsblaetter (kein Kapitel-/Kastenaufbau wie
-bei Schulbuechern); die Seitenzahl steht jeweils vor dem Titel.
+bei Schulbuechern); die Seitenzahl steht jeweils vor dem Titel. Kl. 9
+und Kl. 10 fassen einzelne Arbeitsblaetter zusaetzlich zu Abschnitten
+mit eigener Seitenspanne zusammen (Abschnittszeile "Seiten  Titel",
+Arbeitsblaetter darunter eingerueckt).
 
 == Klasse 5 ==
 
@@ -207,3 +218,229 @@ bei Schulbuechern); die Seitenzahl steht jeweils vor dem Titel.
 83   Wahrscheinlichkeit II
 84   Wahrscheinlichkeit III
 85   Lösungen
+
+== Klasse 8 ==
+
+4    Vorbemerkungen
+5    Wiederholung: Aufgaben zum Auffrischen
+6    Wiederholung: Gemischte Aufgaben
+7    Wiederholung: Einfache Gleichungen
+8    Wiederholung: Aufstellen von Termen
+9    Rechnen mit Promille
+10   Prozentuale Zunahme
+11   Prozentuale Abnahme
+12   Textaufgaben: Prozentuale Zu- und Abnahme
+13   Zinsrechnung
+14   Zinsen für t Tage: Grundlegendes
+15   Berechnung der Zinsen
+16   Berechnung des Zinssatzes
+17   Berechnung des Kapitals
+18   Berechnung der Zinstage
+19   Zinsrechnung gemischt
+20   Zur Auflockerung: Zinsrechnung
+21   Zinseszinsen: Grundlegendes
+22   Flächeninhalt Rechteck und Quadrat
+23   Flächeninhalt Drachen und Raute
+24   Höhenkonstruktion: Parallelogramm, Dreieck 1
+25   Höhenkonstruktion: Parallelogramm, Dreieck 2
+26   Flächeninhalt Parallelogramm
+27   Flächeninhalt Dreieck
+28   Flächeninhalt Trapez
+29   Flächenberechnung gemischt
+30   Zur Auflockerung: Flächenberechnung 1
+31   Zur Auflockerung: Flächenberechnung 2
+32   Formelsammlung zur Berechnung von Flächen
+33   Flächeninhalt regelmäßiger Vielecke
+34   Flächeninhalt beliebiger Vielecke
+35   Allgemeinwissen Geometrie
+36   Deckungsgleiche (kongruente) Figuren
+37   Der Satz des Thales
+38   Winkelwissen
+39   Satz des Thales: Konstruktion von Tangenten an einen Kreis
+40   Konstruktion von Vielecken
+41   Eigenschaften von Prismen
+42   Schrägbilder von Prismen 1
+43   Schrägbilder von Prismen 2
+44   Zylinder und Pyramiden im Schrägbild
+45   Dreitafelbilder 1
+46   Dreitafelbilder 2
+47   Volumen und Oberfläche: Würfel und Quader
+48   Oberfläche des Prismas 1
+49   Oberfläche des Prismas 2
+50   Volumen des Prismas 1
+51   Volumen zusammengesetzter Körper
+52   Volumen des Prismas 2
+53   Massenberechnungen
+54   Klasseneinteilung und relative Häufigkeit
+55   Statistik: Der praktische Mittelwert
+56   Statistik: Zentralwert und Quartile
+57   Statistik: Stängel-Blatt-Diagramme 1
+58   Statistik: Stängel-Blatt-Diagramme 2
+59   Statistik: Kastenschaubilder (Boxplots)
+60   Terme
+61   Terme mit Klammern
+62   Zur Auflockerung: Termberechnungen
+63   Zur Auflockerung: Termumformungen
+64   Multiplikation von Summen
+65   Die binomischen Formeln 1
+66   Die binomischen Formeln 2
+67   Die binomischen Formeln 3
+68   Ausklammern (Faktorisieren)
+69   Zur Auflockerung: Faktorisieren 1
+70   Zur Auflockerung: Faktorisieren 2
+71   Bruchterme
+72   Gleichungen mit Klammern
+73   Zur Auflockerung: Gleichungen mit Klammern
+74   Gleichungen mit Binomen
+75   Zur Auflockerung: Gleichungen mit Binomen
+76   Bruchgleichungen
+77   Ungleichungen
+78   Zur Auflockerung: Ungleichungen
+79   Gleichungen aufstellen
+80   Textaufgaben
+81   Lösungen
+
+== Klasse 9 ==
+
+5    Wiederholung: Lineare Funktionen 1
+6    Wiederholung: Lineare Funktionen 2
+7    Wiederholung: Lineare Funktionen 3
+8    Wiederholung: Termumformungen und Gleichungen
+9    Lineare Gleichungssysteme (LGS): Grafische Lösung
+10   LGS: Gleichsetzungs- und Einsetzungsverfahren
+11   Additions- und Subtraktionsverfahren
+12   Lineare Gleichungssysteme: Vermischte Übungen
+13   Gleichungssysteme mit 3 Gleichungen und 2 Variablen
+13   Gleichungssysteme mit 3 Gleichungen und 3 Variablen
+14   Gauß-Algorithmus
+15   Anwendungsaufgaben
+16   Verhältnisgleichungen
+17   Maßstab
+18   Ähnlichkeit
+19   Flächeninhalt von ähnlichen Dreiecken
+20   Umformen von Formeln und vermischte Übungen
+21   Anwendungsaufgaben aus dem Alltag
+22   Zentrische Streckung
+23   Zentrische Streckung mit k < 0
+24   1. Strahlensatz
+25   2. Strahlensatz
+26   Strahlensätze: Vermischte Übungen
+27   Strahlensätze: Weiterführung und Anwendung
+28   Quadratzahlen
+29   Quadratzahlen und Quadratwurzeln
+30   Quadratwurzeln aus beliebigen Zahlen
+31   Reelle Zahlen
+32   Quadratwurzeln: Vermischte Übungen
+33   Wurzelgesetze
+34   Rechnen mit Quadratwurzeln
+35   Teilweises Wurzelziehen
+36   Wurzeln mit Variablen
+37   Anwendungsaufgaben
+38   Höhere Wurzeln
+39   Satz des Pythagoras - Beweis
+40   Satz des Pythagoras
+41   Satz des Pythagoras am gleichschenkligen Dreieck
+42   Satz des Pythagoras an Körpern
+43   Vermischte Übungen zum Satz des Pythagoras
+44   Katheten- und Höhensatz im rechtwinkligen Dreieck
+45   Trigonometrie am rechtwinkligen Dreieck
+46   Satzgruppe des Pythagoras und Trigonometrie
+47   Anwendungen am rechtwinkligen Dreieck
+48   Berechnungen am Kreis
+49   Berechnung von zusammengesetzten Flächen
+50   Anwendungsaufgaben am Kreis
+51   Kreisausschnitt und Kreisbogen
+52   Der Zylinder: Schrägbild und Netz
+53   Oberflächeninhalt und Volumen eines Zylinders
+54   Anwendungsaufgaben zum Zylinder
+55   Zusammengesetzte Körper
+56   Wahrscheinlichkeitsbegriff - Grundlagen
+57   Mehrstufige Zufallsexperimente, Baumdiagramm
+58   Kombinatorik, Zählstrategien
+59   Die Normalparabel
+60   Quadratische Gleichungen
+61   Lösen einfacher quadratischer Gleichungen
+62   Quadratische Ergänzung
+63   Die p-q-Formel
+64   Vermischte Übungen
+65-96   Lösungen
+97-104  Kopiervorlagen für Lösungsfolien
+
+== Klasse 10 ==
+
+Abschnitte mit Seitenspanne, Arbeitsblätter darunter eingerückt.
+
+5-17    Quadratfunktionen
+  5    Die Normalparabel
+  6    Streckung und Stauchung der Normalparabel
+  7    Verschiebung der Parabel nach oben oder unten
+  8    Verschiebung der Parabel nach rechts oder links
+  9    Die Scheitelpunktform
+  10   Zeichnen des Graphen aus der Scheitelpunktform
+  10   Aufstellen der Funktionsgleichung in Scheitelpunktform
+  11   Anwendungen der Scheitelpunktform
+  12   Umwandeln Scheitelpunktform / allgemeine Form
+  13   Wiederholung: Quadratische Gleichungen
+  14   Nullstellen mit quadratischer Ergänzung
+  15   p-q-Formel
+  16   Nullstellenberechnung bei Quadratfunktionen
+  17   Anwendungsaufgaben zur Quadratfunktion
+
+18-34   Trigonometrie
+  18   Wiederholung Satz des Pythagoras
+  19   Wiederholung Satzgruppe des Pythagoras
+  20   Wiederholung Trigonometrie am rechtwinkligen Dreieck
+  21   Vermischte Aufgaben zur Trigonometrie
+  22   Sinus und Kosinus am Einheitskreis
+  23   Sinus und Kosinus für beliebige Winkel
+  24   Wiederholung Kongruenzsätze; Herleitung des Sinussatzes
+  25   Sinussatz
+  26   Kosinussatz
+  27   Infoblatt: Sinus- und Kosinussatz im stumpfwinkligen Dreieck; Trigonometrische Formeln
+  28   Sinussatz im stumpfwinkligen Dreieck
+  29   Aufgaben zum Sinus- und Kosinussatz
+  30   Die Sinusfunktion im Gradmaß
+  31   Die gestreckte Sinusfunktion: y = a · sin(a)
+  32   Die verschobene Sinusfunktion: y = sin(a) + e
+  33   Anwendungsaufgaben
+  34   Bogenmaß
+
+35-43   Geometrie/Körper
+  35   Wiederholung: Quader, Prisma und Zylinder
+  36   Die Pyramide
+  37   Oberflächeninhalt und Volumen einer Pyramide
+  38   Der Kegel
+  39   Die Kugel
+  40   Vermischte Aufgaben
+  41   Anwendungsaufgaben
+  42   Zusammengesetzte Körper
+  43   Kegelstumpf
+
+44-52   Potenzen
+  44   Potenzen mit ganzen Exponenten
+  45   Potenzen mit gebrochenen Exponenten
+  46   Potenzgesetze für Potenzen mit gleicher Basis
+  47   Potenzgesetze für Potenzen mit gleichem Exponenten
+  48   Potenzfunktionen mit positiven Exponenten
+  49   Potenzfunktionen mit negativen Exponenten
+  50   Anwendungsaufgaben
+  51   Wiederholung Prozentrechnung
+  52   Wachstums- und Zerfallsprozesse
+
+53-57   Exponentialfunktionen
+  53   Eigenschaften der Exponentialfunktion
+  54   Der Graph der Exponentialfunktion f(x) = b^x
+  55   Der Graph der Exponentialfunktion f(x) = a · b^x
+  56   Exponentielles Wachstum und Zerfall - Anwendungen
+  57   Lösen von Exponentialgleichungen/Logarithmus; Logarithmengesetze
+
+58-63   Statistik
+  58   Darstellungen von Daten in Diagrammen
+  59   Statistik
+  60   Boxplot
+  61   Streuungsmaße
+  62   Klassierte Daten
+  63   Vierfeldertafeln
+
+64-101  Lösungen
+102-108 Kopiervorlagen für Lösungsfolien

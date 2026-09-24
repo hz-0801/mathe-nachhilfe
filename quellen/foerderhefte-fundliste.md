@@ -47,12 +47,19 @@ erreicht: ja. Suchbegriffe ohne Treffer: „Elemente der Mathematik"
 
 | Verlag | Reihe | Ausgabe | Klasse | ISBN | IDN | Fund | Vollständigkeit |
 |---|---|---|---|---|---|---|---|
-| Kohl Verlag | Grundwissen Mathematik – Freiarbeit | – | 5 | 9783956865107 | 1037742206 | DNB | ja |
-| Kohl Verlag | Grundwissen Mathematik – Freiarbeit | – | 6 | 9783955138455 | 1037742214 | DNB | ja |
-| Kohl Verlag | Grundwissen Mathematik – Freiarbeit | – | 7 | 9783956865473 | 1046168479 | DNB | ja |
+| Kohl Verlag | Grundwissen Mathematik (bis Kl. 7 DNB-Titel mit Zusatz „Freiarbeit") | – | 5 | 9783956865107 | 1037742206 | DNB | ja |
+| Kohl Verlag | Grundwissen Mathematik | – | 6 | 9783955138455 | 1037742214 | DNB | ja |
+| Kohl Verlag | Grundwissen Mathematik | – | 7 | 9783956865473 | 1046168479 | DNB | ja |
+| Kohl Verlag | Grundwissen Mathematik | – | 8 | 9783956868061 | 1074837746 | DNB | ja |
+| Kohl Verlag | Grundwissen Mathematik | – | 9 | 9783966242363 | 1216120935 | DNB | ja |
+| Kohl Verlag | Grundwissen Mathematik | – | 10 | 9783966242370 | 121612079X | DNB | ja |
 
-Reihe vollständig (kein Band für Kl. 8–10 in der DNB gefunden – die
-Reihe endet bei Klasse 7).
+Reihe vollständig Klasse 5–10 (Nachauftrag 24.09.2026, Teil 1b: die
+1993 unter „Freiarbeit" mit nur Kl. 5–7 gefundene Reihe und die auf
+kohlverlag.de bis Klasse 10 laufende Reihe „Grundwissen Mathematik"
+sind dieselbe Reihe – EAN Kl. 5–7 identisch, der Verlag hat den
+Titelzusatz „Freiarbeit" nur bei den älteren Auflagen 2013/2014
+geführt, ab Kl. 8 (2015) fehlt er in der DNB-Titelaufnahme).
 
 Weitere Suchbegriffe aus dem Auftrag ohne zusätzliche Reihe:
 - `tit="Grundwissen" and tit="Mathematik" and jhr>2009` (120 Treffer):
