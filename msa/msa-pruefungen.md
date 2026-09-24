@@ -53,6 +53,7 @@ Katalogdatei msa-katalog-gym.csv (beide Blöcke, Feld block trennt sie); Quelle 
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-24 (Auftrag Abgleichlauf GYM): Gegenlese des Lehrers nach der GYM-Erfassung (Kern § 9) über werkzeuge/typen-abgleich.py umgesetzt – 61 der 108 neuen GYM-Typen vereinheitlicht (29 zusammengezogen, 32 umbenannt), Typenzahl 293 → 264; Thema „Sinussatz" → „Sinus- und Kosinussatz" (fünf GYM-Zeilen prüfen den Kosinussatz). Zeilenzahlen und Punktsummen aller drei Kataloge unverändert (126/267/248 Zeilen, 130/650/600 Punkte). Log in msa/gym-abgleich-log.md.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2025 GYM erfasst (20 Zeilen: 4 Basis, 16 Kontext; 10 Typen neu). Letztes Heft des Auftrags – alle zwölf Jahrgänge 2014–2025 sind nun erfasst. Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2024 GYM erfasst (16 Zeilen: 3 Basis, 13 Kontext; 8 Typen neu). Gesamtbearbeitungszeit wieder 135 Minuten (nicht 165 wie 2021–2023). Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2023 GYM erfasst (18 Zeilen: 4 Basis, 14 Kontext; 7 Typen neu, einer davon – „Parabel an der x-Achse spiegeln" – bereits im Bestand vorhanden und wiederverwendet statt neu angelegt). Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.

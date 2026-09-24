@@ -1,127 +1,100 @@
 # Vergleich GYM gegen OS/EBR/FOR – Profil msa
-Stand 2026-09-23, HEAD b699744.
+Stand 2026-09-24, HEAD 26839a9.
 
-Vergleicht die Verwendung von Typ und Thema (jeweils als Haupttyp, Feld typ) zwischen dem Papier GYM (msa-katalog-gym.csv) und den Papieren OS/EBR/FOR/MUSTER-EBR/MUSTER-FOR (msa-katalog-basis.csv, msa-katalog-kontext.csv). Die Typenliste msa-typen.csv ist beiden Gruppen gemeinsam (msa.md § 4); Nebentypen (typ_neben) zählen hier nicht mit.
+Vergleicht die Verwendung von Typ und Thema zwischen dem Papier GYM (msa-katalog-gym.csv) und den Papieren OS/EBR/FOR/MUSTER-EBR/MUSTER-FOR (msa-katalog-basis.csv, msa-katalog-kontext.csv). Die Typenliste msa-typen.csv ist beiden Gruppen gemeinsam (msa.md § 4). Bei Typen wird zwischen „Haupt“ (Feld typ) und „Haupt+Neben“ (Feld typ oder ein Glied des Pipe-getrennten Feldes typ_neben) unterschieden; „nur GYM“ heißt bei Haupt+Neben: in OS/EBR/FOR weder Haupt- noch Nebentyp. Themen werden nur über den Haupttyp der Zeile gezählt.
 
-Typen: 103 nur GYM, 98 nur OS/EBR/FOR, 77 in beiden.
+Typen (Haupt): 76 nur GYM, 91 nur OS/EBR/FOR, 84 in beiden.
+Typen (Haupt+Neben): 79 nur GYM, 83 nur OS/EBR/FOR, 102 in beiden.
 Themen: 4 nur GYM, 1 nur OS/EBR/FOR, 31 in beiden.
 
-Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-typen.csv; abgeleitet, nie von Hand ändern.
+Erzeugt von `werkzeuge/gym-vergleich.py` (v0.2) aus den msa-Katalogen und msa-typen.csv; abgeleitet, nie von Hand ändern.
 
-## Typen
+## Typen (Haupt)
 
-**nur GYM** (103):
+**nur GYM** (76):
 
-- Anstieg einer linearen Funktion aus Punkt und y-Achsenabschnitt berechnen
 - Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen
-- Anteil einer unterteilten Kreisfläche bestimmen
 - Antiproportionale Zuordnung Dreisatz
 - Anzahl Kombinationen nach dem Zählprinzip bestimmen
 - Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen
 - Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen
-- Aussage über eine mehrfach gebrochene Streckenteilung prüfen
-- Aussage über einen Logarithmusterm als Abstand zur y-Achse prüfen
+- Anzahl gemeinsamer Punkte zweier Graphen begründen
+- Anzahl gleicher Rechtecke auf Fläche bestimmen
+- Aussage zu Logarithmusterm prüfen
+- Aussage über Bruchteile einer Größe prüfen
 - Binomische Formel anwenden
-- Datenreihen anhand von Kenngrößen vergleichen und begründen
-- Dreieck aus Koordinaten als gleichschenklig-rechtwinklig nachweisen
-- Durchmesser einer Halbkugel aus der Oberfläche berechnen
+- Datenreihen anhand von Kenngrößen vergleichen
+- Diagonale eines Drachenvierecks über Winkelfunktion berechnen
+- Dreiecksart aus Koordinaten nachweisen
 - Eigenschaften trigonometrischer Funktionen vergleichen
 - Eignung einer Funktionsgleichung für einen Sachverhalt beurteilen
 - Ereignis zu Wahrscheinlichkeitsterm beschreiben
 - Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen
-- Exponentialfunktion vertikal verschieben und Schnittpunkt mit der y-Achse angeben
-- Farbmenge aus Fläche und Ergiebigkeit berechnen
-- Fehlende Schnittpunkte zweier Funktionen über Wertebereiche begründen
+- Exponentialfunktion verschieben
 - Fehlenden Wert aus Spannweite bestimmen
-- Fläche zweier Mantelflächen eines Prismas mit trapezförmiger Grundfläche berechnen
-- Flächenberechnung eines Vielecks anhand einer vorgegebenen Gleichung erläutern
 - Flächeninhalt Rechteck berechnen
-- Flächeninhalt eines Drachenvierecks aus Diagonalen berechnen
 - Flächeninhalt eines Dreiecks aus Koordinaten berechnen
 - Flächeninhalt eines Dreiecks aus drei Seiten berechnen
-- Flächeninhalt eines aus vier kongruenten rechtwinkligen Dreiecken zusammengesetzten Vierecks berechnen
 - Flächeninhalt eines gleichseitigen Dreiecks aus Umfang berechnen
-- Formel für die Tiefe eines Kegels aus Durchmesser und Öffnungswinkel herleiten
-- Funktionswerte einer Parabel im Sachkontext berechnen
+- Formel über Winkelfunktion herleiten
+- Ganzzahlige Anzahl aus Grenzwert bestimmen
 - Gerade an der x-Achse spiegeln
-- Geradengleichung aus Steigung und Punkt bestimmen
+- Geradengleichung aus Punkt und einem Parameter bestimmen
 - Geradengleichung einer Parallelen durch einen Punkt bestimmen
-- Gesamtmenge aus Pro-Kopf-Angabe, Anteil und Einwohnerzahl berechnen
-- Gleich große oder doppelt so große Winkel in einer aus kongruenten Dreiecken zusammengesetzten Figur kennzeichnen
+- Gesamtmenge aus Pro-Kopf-Angabe berechnen
 - Gleichung einer Senkrechten aufstellen
+- Gleichung zu Figur erläutern
+- Gleichungskette im Sachzusammenhang erläutern
 - Graph einer Exponentialfunktion an der y-Achse spiegeln
-- Graph einer trigonometrischen Funktion durch Streckung und Verschiebung beschreiben
 - Graph eines exponentiellen Vorgangs zeichnen
-- Grundfläche eines Prismas im Körpernetz kennzeichnen
-- Grundstücksbreiten aus einem in Teilflächen zerlegten Trapez bestimmen
-- Höhe eines Drachenvierecks aus geteiltem Winkel und Diagonalen berechnen
-- Innendurchmesser eines Kreisrings aus Flächeninhalt und Außendurchmesser berechnen
-- Kantenlänge einer quadratischen Grundfläche aus Volumen berechnen
-- Kantensumme eines Quaders mit Seitenlängen in Abhängigkeit von der Höhe berechnen
+- Grundfläche im Netz kennzeichnen
+- Grundkante aus Volumen berechnen
 - Kegelhöhe aus Mantellinie und Radius berechnen
+- Kosinussatz Seite berechnen
+- Kosinussatz Winkel berechnen
+- Kreisringmaß aus Fläche berechnen
 - Kreisumfang berechnen
-- Kugeldurchmesser aus Anzahl nebeneinanderliegender Kugeln bestimmen
+- Kugeldurchmesser aus Anordnung bestimmen
+- Kugelmaß aus Oberfläche berechnen
 - Kugeloberfläche berechnen
 - Körper im Schrägbild darstellen
 - Lage zweier Geraden bestimmen
-- Lineare Funktion aus Steigung und Schnittbedingung bestimmen
-- Länge auf der Mantellinie eines Kegels bei Teilfüllung über Ähnlichkeit bestimmen
 - Mantelfläche einer Pyramide berechnen
-- Masse eines zusammengesetzten Körpers berechnen
 - Materialbedarf aus Längen berechnen
-- Maximale Anzahl rechteckiger Objekte auf einer Fläche bestimmen
-- Maximale ganzzahlige Menge aus Grenzwert berechnen
-- Maße eines Körpers aus einem bemaßten Netz im Maßstab ablesen
-- Mehrere Kenngrößen zweier Datenreihen vergleichend bestimmen
+- Maße aus Netz im Maßstab ablesen
 - Neigungswinkel einer Geraden berechnen
 - Parabel an der x-Achse spiegeln
+- Parabelgleichung aus Nullstellen aufstellen
 - Parabelgleichung aus Scheitel und Punkt bestimmen
-- Parabelgleichung aus Spannweite und Höhe eines Bogens bestimmen
-- Parabelgleichung aus zwei Nullstellen aufstellen und Nullstellen bestätigen
 - Parabeltransformation gegenüber der Normalparabel beschreiben
-- Parameter einer Exponentialfunktion aus Graph bestimmen
-- Parameter einer Exponentialfunktion aus einer Wertetabelle bestimmen
+- Parameter einer Exponentialfunktion bestimmen
 - Parameter einer Parabel aus Graph bestimmen
 - Parameter einer Wurzelfunktion aus einem Punkt bestimmen
 - Prozentanteil einer Rasterfläche markieren
-- Prozentuale Abweichung einer Modellfläche von der tatsächlichen Fläche berechnen
-- Prozentuale Abweichung eines Werts von einem Vergleichswert berechnen
-- Prozentualen Zuwachs aus Anfangs- und Endwert berechnen
-- Sachaufgabe zu einer Gleichungskette formulieren
 - Scheitelpunkt einer Parabel rechnerisch nachweisen
-- Schnittpunktanzahl von Graphen begründen
-- Schnittpunktgleichung zweier Parabeln herleiten
-- Seite im allgemeinen Dreieck über Kosinussatz berechnen
-- Seite im rechtwinkligen Dreieck aus Winkel und Kathete berechnen
+- Schnittpunkte zweier Parabeln berechnen
 - Sinussatz Winkel berechnen
-- Streckenlänge über ein konstruiertes Parallelogramm im Vieleck begründen
+- Streckenlänge im Vieleck begründen
+- Streckenlänge über Ähnlichkeit berechnen
 - Term durch Zusammenfassen gleichartiger Glieder vereinfachen
 - Term mit Klammern und Potenzen vereinfachen
-- Transportanzahl aus Volumen und Masse berechnen
-- Trapezhöhe über den aus einem angrenzenden Dreieck übertragenen Winkel berechnen
+- Transformation einer trigonometrischen Funktion beschreiben
 - Trigonometrische Funktionsgleichung zu Graph zuordnen
 - Umfang eines Drachenvierecks aus Diagonalenabschnitten berechnen
 - Umfang eines Dreiecks aus Koordinaten berechnen
 - Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen
 - Vieleck aus Seiten und Winkeln im Maßstab konstruieren
 - Volumen Kegel berechnen
-- Volumen eines aus Kegel und Halbkugel zusammengesetzten Körpers mit Nebenbedingung berechnen
-- Wahrscheinlichkeit für die Position des ersten Treffers berechnen
+- Volumen zusammengesetzter Körper berechnen
 - Wertebereich einer Funktion angeben
-- Wertetabelle auf Exponentialfunktion prüfen
-- Winkel als Differenz zweier Teilwinkel in einem zusammengesetzten rechtwinkligen Dreieck nachweisen
-- Winkel eines Drachenvierecks aus Diagonalenabschnitten berechnen
-- Winkel im allgemeinen Dreieck über Kosinussatz berechnen
-- Winkel im allgemeinen Dreieck über Sinussatz berechnen
+- Winkel in zusammengesetzter Figur kennzeichnen
 - Zeit aus Exponentialgleichung berechnen
-- x-Werte einer quadratischen Funktion zu gegebenem Funktionswert berechnen
 
-**nur OS/EBR/FOR** (98):
+**nur OS/EBR/FOR** (91):
 
 - Achsenskalierung aus Säule bestimmen
 - Anteilsaussage prüfen und korrigieren
 - Anzahl der Dreiecke aus Punkten bestimmen
-- Argument zu Funktionswert berechnen
 - Ausgangswert aus Differenz berechnen
 - Baumdiagramm ergänzen
 - Draufsicht maßstabsgerecht zeichnen
@@ -131,8 +104,6 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Exponentialfunktion aufstellen
 - Fehlenden Prozentanteil ergänzen
 - Figur in Teilflächen zerlegen
-- Flächeninhalt Drachenviereck berechnen
-- Flächeninhalt zusammengesetzter Figur berechnen
 - Gerade aus Gleichung zeichnen
 - Gerade durch zwei Punkte zeichnen
 - Gerade ohne gemeinsamen Punkt mit Parabel angeben
@@ -162,11 +133,9 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Lineares Gleichungssystem aufstellen
 - Längeneinheit mit Faktor umrechnen
 - Mantelfläche Kegel berechnen
-- Mantelfläche Prisma berechnen
 - Mantelfläche Zylinder als Netz skizzieren
 - Mantelfläche Zylinder berechnen
 - Mantellinie Kegel bestimmen
-- Materialbedarf aus Fläche berechnen
 - Minimum und Maximum ablesen
 - Mitte zweier Zahlen bestimmen
 - Netz eines Prismas vervollständigen
@@ -178,7 +147,6 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Parabel zu Eigenschaften angeben
 - Prozent und Anteil umwandeln
 - Prozentsatz berechnen
-- Prozentuale Veränderung berechnen
 - Pythagoras Kathete
 - Radius eines Zylinders aus Volumen berechnen
 - Rechteckseite aus Fläche berechnen
@@ -211,16 +179,16 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Wert nach prozentualer Erhöhung berechnen
 - Werte im Diagramm nach Bedingung auswählen
 - Wertetabelle einer Funktion zuordnen
-- Winkel aus Teilwinkeln berechnen
 - Winkel im Viereck berechnen
 - Winkelsumme im Dreieck anwenden
 - Zeitpunkt für Schwellenwert bei Wachstum bestimmen
 - y-Achsenabschnitt ablesen
 
-**in beiden** (77):
+**in beiden** (84):
 
 - Achseneinteilung wählen
 - Anzahl der Anordnungen bestimmen
+- Argument zu Funktionswert berechnen
 - Arithmetisches Mittel berechnen
 - Aussage zu Diagramm prüfen
 - Bruchteil einer Fläche bestimmen
@@ -232,8 +200,10 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Fehlenden Wert aus Mittelwert bestimmen
 - Fehler in Rechnung erklären und korrigieren
 - Figur nach Spiegelung benennen
+- Flächeninhalt Drachenviereck berechnen
 - Flächeninhalt Dreieck berechnen
 - Flächeninhalt Trapez berechnen
+- Flächeninhalt zusammengesetzter Figur berechnen
 - Funktionswert berechnen
 - Gegenfläche im Würfelnetz bestimmen
 - Geradengleichung aus zwei Punkten
@@ -249,6 +219,8 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Länge im Maßstab umrechnen
 - Lösbarkeit quadratischer Gleichung beurteilen
 - Lösung durch Einsetzen prüfen
+- Mantelfläche Prisma berechnen
+- Materialbedarf aus Fläche berechnen
 - Median bestimmen
 - Nullstelle lineare Funktion berechnen
 - Nullstellen quadratische Funktion berechnen
@@ -256,6 +228,7 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Parabelgleichung zu Graph zuordnen
 - Portionen aus Gesamtmenge berechnen
 - Proportionale Zuordnung Dreisatz
+- Prozentuale Veränderung berechnen
 - Prozentwert berechnen
 - Punktprobe durchführen
 - Pythagoras Gleichung zuordnen
@@ -286,6 +259,282 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Wert aus Diagramm ablesen
 - Wertetabelle als Punkte darstellen
 - Winkel an geschnittenen Parallelen bestimmen
+- Winkel aus Teilwinkeln berechnen
+- Winkel im rechtwinkligen Dreieck berechnen
+- Winkel über Scheitel- oder Nebenwinkel bestimmen
+- Winkelfunktion Seitenverhältnis angeben
+- Wurzel eines Quadrats berechnen
+- Zahl zu Bedingung angeben
+- Zahlen in verschiedenen Darstellungen vergleichen
+- Zehnerpotenzschreibweise umwandeln
+- Zeiteinheiten umrechnen
+- Zinseszins Endkapital berechnen
+- Zufallsgerät zu Wahrscheinlichkeit entwerfen
+
+## Typen (Haupt+Neben)
+
+**nur GYM** (79):
+
+- Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen
+- Antiproportionale Zuordnung Dreisatz
+- Anzahl Kombinationen nach dem Zählprinzip bestimmen
+- Anzahl der Auswahlmöglichkeiten (Kombination) bestimmen
+- Anzahl der Pfade zu einem Ereignis im Baumdiagramm zählen
+- Anzahl gemeinsamer Punkte zweier Graphen begründen
+- Anzahl gleicher Rechtecke auf Fläche bestimmen
+- Aussage zu Logarithmusterm prüfen
+- Aussage zu einer Winkelfunktion im rechtwinkligen Dreieck prüfen
+- Aussage über Bruchteile einer Größe prüfen
+- Binomische Formel anwenden
+- Datenreihen anhand von Kenngrößen vergleichen
+- Diagonale eines Drachenvierecks über Winkelfunktion berechnen
+- Dreiecksart aus Koordinaten nachweisen
+- Eigenschaften trigonometrischer Funktionen vergleichen
+- Eignung einer Funktionsgleichung für einen Sachverhalt beurteilen
+- Ereignis zu Wahrscheinlichkeitsterm beschreiben
+- Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen
+- Exponentialfunktion verschieben
+- Fehlenden Wert aus Spannweite bestimmen
+- Flächeninhalt einer von Graphen begrenzten Figur berechnen
+- Flächeninhalt eines Dreiecks aus Koordinaten berechnen
+- Flächeninhalt eines Dreiecks aus drei Seiten berechnen
+- Flächeninhalt eines gleichseitigen Dreiecks aus Umfang berechnen
+- Formel über Winkelfunktion herleiten
+- Funktionswert über Symmetrie bestimmen
+- Ganzzahlige Anzahl aus Grenzwert bestimmen
+- Gerade an der x-Achse spiegeln
+- Gerade an der y-Achse spiegeln
+- Geradengleichung aus Punkt und einem Parameter bestimmen
+- Geradengleichung einer Parallelen durch einen Punkt bestimmen
+- Gesamtmenge aus Pro-Kopf-Angabe berechnen
+- Gleichung einer Senkrechten aufstellen
+- Gleichung zu Figur erläutern
+- Gleichungskette im Sachzusammenhang erläutern
+- Gleichverteilung der Trefferwahrscheinlichkeit begründen
+- Graph einer Exponentialfunktion an der y-Achse spiegeln
+- Graph eines exponentiellen Vorgangs zeichnen
+- Grundfläche im Netz kennzeichnen
+- Grundkante aus Volumen berechnen
+- Kegelhöhe aus Mantellinie und Radius berechnen
+- Kosinussatz Seite berechnen
+- Kosinussatz Winkel berechnen
+- Kreisringmaß aus Fläche berechnen
+- Kreisumfang berechnen
+- Kugeldurchmesser aus Anordnung bestimmen
+- Kugelmaß aus Oberfläche berechnen
+- Kugeloberfläche berechnen
+- Körper im Schrägbild darstellen
+- Lage zweier Geraden bestimmen
+- Mantelfläche einer Pyramide berechnen
+- Materialbedarf aus Längen berechnen
+- Maße aus Netz im Maßstab ablesen
+- Modalwert bestimmen
+- Neigungswinkel einer Geraden berechnen
+- Parabelgleichung aus Nullstellen aufstellen
+- Parabelgleichung aus Scheitel und Punkt bestimmen
+- Parabeltransformation gegenüber der Normalparabel beschreiben
+- Parameter einer Exponentialfunktion bestimmen
+- Parameter einer Parabel aus Graph bestimmen
+- Parameter einer Wurzelfunktion aus einem Punkt bestimmen
+- Prozentanteil einer Rasterfläche markieren
+- Scheitelpunkt einer Parabel rechnerisch nachweisen
+- Schnittpunkte zweier Parabeln berechnen
+- Sinussatz Winkel berechnen
+- Streckenlänge im Vieleck begründen
+- Streckenlänge über Ähnlichkeit berechnen
+- Term durch Zusammenfassen gleichartiger Glieder vereinfachen
+- Term mit Klammern und Potenzen vereinfachen
+- Transformation einer trigonometrischen Funktion beschreiben
+- Trigonometrische Funktionsgleichung zu Graph zuordnen
+- Umfang eines Drachenvierecks aus Diagonalenabschnitten berechnen
+- Umfang eines Dreiecks aus Koordinaten berechnen
+- Umkehrfunktion einer Wurzelfunktion durch Spiegelung an y=x bestimmen
+- Vieleck aus Seiten und Winkeln im Maßstab konstruieren
+- Volumen zusammengesetzter Körper berechnen
+- Wertebereich einer Funktion angeben
+- Winkel in zusammengesetzter Figur kennzeichnen
+- Zeit aus Exponentialgleichung berechnen
+
+**nur OS/EBR/FOR** (83):
+
+- Achsenskalierung aus Säule bestimmen
+- Anteilsaussage prüfen und korrigieren
+- Anzahl der Dreiecke aus Punkten bestimmen
+- Ausgangswert aus Differenz berechnen
+- Baumdiagramm ergänzen
+- Behauptung prüfen
+- Draufsicht maßstabsgerecht zeichnen
+- Dreiecksungleichung anwenden
+- Endwert linearer Veränderung berechnen
+- Exponent einer Potenz bestimmen
+- Exponentialfunktion aufstellen
+- Fehlenden Prozentanteil ergänzen
+- Figur in Teilflächen zerlegen
+- Gerade durch zwei Punkte zeichnen
+- Gerade ohne gemeinsamen Punkt mit Parabel angeben
+- Geradengleichung zu Graph zuordnen
+- Geschwindigkeit aus Weg und Zeit berechnen
+- Gleichschenkliges Dreieck erkennen
+- Gleichung zu Tarif zuordnen
+- Graph einer linearen Funktion erkennen
+- Graph nach Eigenschaft auswählen
+- Graph zu Wachstumsprozess zuordnen
+- Große Zahl mit Zehnerpotenz multiplizieren
+- Grundseite aus Dreiecksfläche berechnen
+- Größte Zahl aus Ziffern bilden
+- Guthabentabelle mit Zinsen ergänzen
+- Günstigste Preiskombination bestimmen
+- Kantenzahl eines Körpers angeben
+- Kenngrößen einer Liste prüfen
+- Kreissektor Anteil berechnen
+- Körper in Schrägbild skizzieren
+- Körperskizze beschriften
+- Lage eines Punktes zu den Achsen erkennen
+- Lage zweier Parabeln begründen
+- Lineare Funktion aus Sachverhalt aufstellen
+- Längeneinheit mit Faktor umrechnen
+- Mantelfläche Zylinder als Netz skizzieren
+- Minimum und Maximum ablesen
+- Mitte zweier Zahlen bestimmen
+- Mittelpunktswinkel berechnen
+- Netz eines Prismas vervollständigen
+- Netz eines Zylinders erkennen
+- Nullstelle am Graphen ablesen
+- Packungsanzahl in Quader bestimmen
+- Parabel an der y-Achse spiegeln
+- Parabel zu Eigenschaften angeben
+- Prozent und Anteil umwandeln
+- Pythagoras Kathete
+- Radius eines Zylinders aus Volumen berechnen
+- Rechteckseite aus Fläche berechnen
+- Rechten Winkel begründen
+- Relative Häufigkeit angeben
+- Restvolumen berechnen
+- Satz des Pythagoras formulieren
+- Scheitelpunktform in Normalform umformen
+- Schnittpunkt am Graphen ablesen
+- Schnittpunkte Gerade und Parabel berechnen
+- Sektor im Kreisdiagramm zuordnen
+- Sinussatz Seite berechnen
+- Steigung in Prozent berechnen
+- Symmetrieachsen bestimmen
+- Säulen- oder Balkendiagramm ergänzen
+- Trapezhöhe aus Fläche berechnen
+- Trigonometrische Gleichung nach Seite umstellen
+- Uhrzeit aus Startzeit und Dauer berechnen
+- Umfang Rechteck berechnen
+- Verdopplungs- oder Halbwertszeit bestimmen
+- Verpackungsmaße aus Körpermaßen bestimmen
+- Verschnitt in Prozent berechnen
+- Verzerrung eines Diagramms erklären
+- Veränderung des Mittelwerts begründen
+- Volumen Kegel und Zylinder vergleichen
+- Volumen Würfel berechnen
+- Volumenänderung bei doppeltem Radius begründen
+- Wachstumstabelle ergänzen
+- Wahrscheinlichkeit über Gegenereignis berechnen
+- Wert nach prozentualer Erhöhung berechnen
+- Werte im Diagramm nach Bedingung auswählen
+- Wertetabelle einer Funktion zuordnen
+- Winkel im Viereck berechnen
+- Winkelsumme im Dreieck anwenden
+- Zeitpunkt für Schwellenwert bei Wachstum bestimmen
+- y-Achsenabschnitt ablesen
+
+**in beiden** (102):
+
+- Achseneinteilung wählen
+- Anzahl der Anordnungen bestimmen
+- Argument zu Funktionswert berechnen
+- Arithmetisches Mittel berechnen
+- Aussage zu Diagramm prüfen
+- Bruchteil einer Fläche bestimmen
+- Bruchteil einer Größe berechnen
+- Dauer aus Menge und Rate berechnen
+- Eigenschaft einer Figur zuordnen
+- Eigenschaften eines Graphen beurteilen
+- Ergebnismenge aufzählen
+- Fehlenden Wert aus Mittelwert bestimmen
+- Fehler in Rechnung erklären und korrigieren
+- Figur nach Spiegelung benennen
+- Flächeninhalt Drachenviereck berechnen
+- Flächeninhalt Dreieck berechnen
+- Flächeninhalt Rechteck berechnen
+- Flächeninhalt Trapez berechnen
+- Flächeninhalt zusammengesetzter Figur berechnen
+- Funktionswert berechnen
+- Gegenfläche im Würfelnetz bestimmen
+- Gerade aus Gleichung zeichnen
+- Geradengleichung aus zwei Punkten
+- Gleichung im Sachzusammenhang deuten
+- Graph zu Tarif zuordnen
+- Grundwert berechnen
+- Größen vergleichen
+- Höhe eines Zylinders aus Volumen berechnen
+- Kosten aus Menge und Preis berechnen
+- Kreisdiagramm zeichnen
+- Kreisfläche berechnen
+- Körper aus Netz oder Schrägbild benennen
+- Lineare Gleichung aus Sachverhalt aufstellen
+- Lineare Gleichung lösen
+- Lineares Gleichungssystem aufstellen
+- Lineares Gleichungssystem lösen
+- Länge im Maßstab umrechnen
+- Lösbarkeit quadratischer Gleichung beurteilen
+- Lösung durch Einsetzen prüfen
+- Mantelfläche Kegel berechnen
+- Mantelfläche Prisma berechnen
+- Mantelfläche Zylinder berechnen
+- Mantellinie Kegel bestimmen
+- Masse aus Volumen und Dichte berechnen
+- Materialbedarf aus Fläche berechnen
+- Median bestimmen
+- Nullstelle lineare Funktion berechnen
+- Nullstellen quadratische Funktion berechnen
+- Parabel an der x-Achse spiegeln
+- Parabel aus Gleichung skizzieren
+- Parabel verschieben
+- Parabelgleichung zu Graph zuordnen
+- Portionen aus Gesamtmenge berechnen
+- Proportionale Zuordnung Dreisatz
+- Prozentsatz berechnen
+- Prozentuale Veränderung berechnen
+- Prozentwert berechnen
+- Punktprobe durchführen
+- Pythagoras Gleichung zuordnen
+- Pythagoras Hypotenuse
+- Quadratseite aus Fläche berechnen
+- Rechteckseite aus Umfang berechnen
+- Restfläche berechnen
+- Scheitelpunkt ablesen
+- Scheitelpunktform aufstellen
+- Seite im rechtwinkligen Dreieck berechnen
+- Spannweite berechnen
+- Steigung in Prozent deuten
+- Strecke aus Teilstrecken berechnen
+- Streckenlänge aus Koordinaten berechnen
+- Streifendiagramm zeichnen
+- Tarife vergleichen
+- Term zu Figur angeben
+- Term zu Körper angeben
+- Term zu Sachtext angeben
+- Termwert berechnen
+- Umfang Trapez berechnen
+- Volumen Kegel berechnen
+- Volumen Kugel berechnen
+- Volumen Prisma berechnen
+- Volumen Zylinder berechnen
+- Volumen aus Masse und Dichte berechnen
+- Vorzeichenregel anwenden
+- Wachstumsart begründen
+- Wachstumsfaktor aus Tabelle bestimmen
+- Wahrscheinlichkeit einstufig
+- Wahrscheinlichkeit mehrstufig ohne Zurücklegen
+- Wahrscheinlichkeit mehrstufig unabhängig
+- Wert aus Diagramm ablesen
+- Wertetabelle als Punkte darstellen
+- Winkel an geschnittenen Parallelen bestimmen
+- Winkel aus Teilwinkeln berechnen
 - Winkel im rechtwinkligen Dreieck berechnen
 - Winkel über Scheitel- oder Nebenwinkel bestimmen
 - Winkelfunktion Seitenverhältnis angeben
@@ -332,7 +581,7 @@ Erzeugt von `werkzeuge/gym-vergleich.py` (v0.1) aus den msa-Katalogen und msa-ty
 - Quadratische Gleichungen
 - Rationale Zahlen rechnen
 - Satz des Pythagoras
-- Sinussatz
+- Sinus- und Kosinussatz
 - Symmetrie und Abbildungen
 - Terme umformen
 - Trigonometrie im rechtwinkligen Dreieck

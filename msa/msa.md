@@ -1,5 +1,6 @@
 # PROFIL MSA – Prüfung am Ende der Jahrgangsstufe 10, Mathematik, Brandenburg
-Version 0.8 · 23.09.2026 · Kennung msa · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Version 0.9 · 24.09.2026 · Kennung msa · gilt mit Kern v0.9 (Schema-Version 2, unverändert seit Kern v0.3)
+Änderungen gegenüber 0.8 (Auftrag Abgleichlauf GYM, 24.09.2026): § 4 Satz zum Abgleichlauf (61 GYM-Typen zusammengeführt oder umbenannt, Typenzahl 293 → 264); § 6 Themenliste „Sinussatz" → „Sinus- und Kosinussatz" (fünf GYM-Zeilen prüfen den Kosinussatz). werkzeuge/typen-abgleich.py neu, liest das mit.
 Änderungen gegenüber 0.7 (Auftrag Gymnasialhefte, Entscheidung 18 neu gefasst): § 1 Absatz Gymnasium (Bestand um GYM 2014–2025 erweitert, Grund die zentrale Klassenarbeit ab 2025/26); § 3 Aufbau der Gymnasialhefte (am Heft geprüft: 2014 und 2019); § 4 papier GYM, id-Beispiele, block-Ausnahme (eigene Katalogdatei msa-katalog-gym.csv), hilfsmittel- und seite-Ausnahmen. msa-bau.py v0.3 liest das mit.
 Änderungen gegenüber 0.6 (Auftrag O, Punkt 2): § 2 verweist auf die angelegte msa-quellen.md (Quelle, Jahresseite, Verzeichnis der Hefte mit papier-Kürzel, lokaler Heftordner hefte/msa/ mit Erfassungsstand; Zahlen aus befund-quellenbestand-2026-09-18.md).
 Änderungen gegenüber 0.5 (Auftrag G, Punkt 4): § 6 Zeilenthema – die eigene Regel „Thema der Aufgabenstellung" ist entschieden, nicht mehr offen (konzept.md Entscheidung 26); Kernbindung entsprechend.
@@ -41,6 +42,8 @@ Gymnasialhefte (papier GYM), am Heft geprüft (2014 und 2019 gelesen, nicht ange
 
 ## 4 Kürzel und Werte
 
+Abgleichlauf 2026-09-24 (Gegenlese des Lehrers nach der GYM-Erfassung, Kern § 9): 61 der 108 neuen GYM-Typen über werkzeuge/typen-abgleich.py und msa/gym-abgleich.csv vereinheitlicht (29 zu vorhandenen Typen zusammengezogen, 32 umbenannt), Typenzahl 293 → 264; Log in msa/gym-abgleich-log.md.
+
 papier: OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM
 block: Basis (Aufgabe 1 „Basisaufgaben"; ab 2028 bzw. bei GYM ab 2019 der hilfsmittelfreie Teil) → msa-katalog-basis.csv; Kontext (alle übrigen Aufgaben) → msa-katalog-kontext.csv. Ausnahme papier GYM: beide Blöcke in einer Datei, msa-katalog-gym.csv (Feld block trennt sie), damit die übrigen Kataloge und alles, was sie liest, unverändert bleiben.
 id: Jahr-papier-BlockkürzelAufgabeTeilaufgabe mit Blockkürzel B oder K: 2025-OS-B1a, 2025-OS-K3b, 2026-FOR-K4c, 2028-MUSTER-FOR-B1a, 2019-GYM-B1a, 2019-GYM-K2a
@@ -59,7 +62,7 @@ Zahlen und Operationen · Größen und Messen · Raum und Form · Gleichungen un
 Feste Ebene zwischen Leitidee und Typ. Stand seit dem Probelauf (die ersten drei Hefte 2025, 2026 FOR und 2024, 05.09.2026, konzept.md § 7) unverändert und mit allen zwölf Heften bestätigt; Ergänzungen nur über den Bericht. Zeilenthema: in diesem Profil trägt die Zeile das Thema der Aufgabenstellung, auch wenn ihr Typ in msa-typen.csv unter einem anderen Thema steht – eigene Regel nach Kern § 6, entschieden am 17.09.2026 (Auftrag G; konzept.md Entscheidung 26): msa behält sie, die Kernregel Zeilenthema = Typthema wird nicht übernommen. 42 von 393 Zeilen weichen vom Thema ihres Typs ab; die Regel kippt bei einem Leser, der das Zeilenthema profilübergreifend auswertet.
 
 Zahlen und Operationen: Rationale Zahlen rechnen · Brüche und Dezimalzahlen · Prozentrechnung · Zinsrechnung · Zehnerpotenzen und Näherungswerte · Potenzen und Wurzeln · Terme umformen · Runden und Überschlag
-Größen und Messen: Einheiten umrechnen · Flächeninhalt und Umfang · Volumen und Oberfläche · Satz des Pythagoras · Trigonometrie im rechtwinkligen Dreieck · Sinussatz · Maßstab
+Größen und Messen: Einheiten umrechnen · Flächeninhalt und Umfang · Volumen und Oberfläche · Satz des Pythagoras · Trigonometrie im rechtwinkligen Dreieck · Sinus- und Kosinussatz · Maßstab
 Raum und Form: Ebene Figuren und Winkel · Körper, Netze, Schrägbilder · Symmetrie und Abbildungen · Ähnlichkeit und Strahlensätze · Kongruenz und Konstruktion · Koordinaten und Zeichnen
 Gleichungen und Funktionen: Lineare Gleichungen · Lineare Gleichungssysteme · Quadratische Gleichungen · Zuordnungen proportional und antiproportional · Lineare Funktionen · Quadratische Funktionen · Exponentialfunktionen und Wachstum · Trigonometrische Funktionen · Funktionen allgemein
 Daten und Zufall: Daten darstellen · Kenngrößen · Diagramme lesen und beurteilen · Wahrscheinlichkeit einstufig · Wahrscheinlichkeit mehrstufig · Zählen und Kombinatorik
