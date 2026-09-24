@@ -1,0 +1,235 @@
+Westermann, "Mathematik - Ausgabe 2023 für Berlin, Brandenburg,
+Sachsen-Anhalt, Thüringen, 7.-10. Schuljahr" (Oberschule), Foerderhefte
+(Sorte 1: Foerderheft zu einer im Repo bereits erfassten Regelreihe,
+vgl. quelle-westermann-mathematik2023-bebbstth-inhalt.txt). Klasse 7, 8
+und 9 gesichert (Auftrag Lehrwerke Sek II und Foerderhefte, 24.09.2026);
+Klasse 10 ist zum Stichtag noch nicht erschienen (ISBN-Fortsetzung
+9783141524772 in der DNB nicht vorhanden). Mit pdftotext -layout
+extrahiert; die Foerderheft-ISBNs selbst nennen das Bundesland nicht,
+liegen aber laut Titelfeld in derselben "Mathematik"-Reihe von 2023 wie
+die bestaetigte BE/BB/ST/TH-Landesausgabe.
+
+Kl. 7: ISBN 9783141524741, IDN 1277217157, https://d-nb.info/1277217157/04, 2023.
+Kl. 8: ISBN 9783141524758, IDN 1312199830, https://d-nb.info/1312199830/04, 2024.
+Kl. 9: ISBN 9783141524765, IDN 1349851957, https://d-nb.info/1349851957/04, 2025.
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben. Achtung: Original
+zweispaltig mit Seitensymbolen (Sternchen/Pfeile) statt einfacher
+Nummerierung; Reihenfolge im Rohtext teils spaltenweise vertauscht.
+
+== Klasse 7 ==
+
+1 Zuordnungen
+Füllkurven
+Direkt proportionale Zuordnungen
+Graphen direkt proportionaler Zuordnungen
+Der Dreisatz bei direkt proportionalen Zuordnungen                   38
+Indirekt proportionale Zuordnungen
+Der Dreisatz bei indirekt proportionalen Zuordnungen                 39
+Der Dreisatz bei direkt und indirekt proportionalen Zuordnungen      42
+Direkt und indirekt proportionale Zuordnungen                        43
+Veränderungen bei Weg und Zeit
+Den Taschenrechner kennenlernen                                      44
+Vermischte Übungen
+
+2 Prozentrechnung
+Prozentsätze darstellen
+Prozent
+Prozentwert berechnen
+Sachaufgaben zur Prozentwertberechnung
+Grundwert berechnen
+Prozentsatz berechnen
+Sachaufgaben
+Prozentuale Abnahme
+Prozentuale Zunahme
+Üben
+Üben: Sachaufgaben
+Vermischte Übungen
+
+3 Wahrscheinlichkeitsrechnung
+Ergebnisse von Zufallsexperimenten darstellen
+Zufallsexperimente auswerten
+Wahrscheinlichkeiten bestimmen
+Wahrscheinlichkeiten schätzen
+Vermischte Übungen
+
+4 Rationale Zahlen
+Temperaturen in Europa
+Temperaturvergleiche
+Rationale Zahlen darstellen, vergleichen und ordnen
+Schulden und Guthaben
+Addieren und Subtrahieren in vereinfachter Schreibweise
+Quadratwurzeln                                                       42
+Dritte Wurzeln                                                       43
+Vermischte Übungen                                                   44
+
+5 Ebene Figuren
+Flächeninhalt und Umfang eines Rechtecks                             45
+Flächeninhalt eines Parallelogramms                                  47
+Flächeninhalt und Umfang eines Parallelogramms                       48
+Flächeninhalt eines Dreiecks                                         49
+Flächeninhalt und Umfang eines Dreiecks                              50
+Flächeninhalt eines Trapezes                                         51
+Flächeninhalt und Umfang eines Trapezes                              52
+Üben: Sachaufgaben                                                   53
+Vermischte Übungen                                                   56
+
+6 Dreiecke konstruieren
+Deckungsgleiche Figuren                                              57
+Kongruenzsatz SSS                                                    58
+Kongruenzsatz SWS                                                    59
+Kongruenzsatz WSW                                                    60
+Üben: Konstruktion von Dreiecken                                     61
+Üben: Sachaufgaben                                                   62
+Vertiefen: Vierecke                                                  63
+Vertiefen: Konstruktion von Vierecken                                65
+Vermischte Übungen                                                   66
+
+7 Kreis und Kreisteile
+Umfang eines Kreises                                                 67
+Flächeninhalt eines Kreises                                          70
+Kreisring und Kreissektor                                            72
+Üben: Umfang und Flächeninhalt eines Kreises                         73
+Vermischte Übungen                                                   74
+
+Alles paletti - Vermischte Übungen zum gesamten Schuljahr            75
+Bleib fit! - Wiederholung                                            82
+
+== Klasse 8 ==
+
+1 Terme und Gleichungen
+Terme                                                                  1
+Terme mit Variablen ordnen und zusammenfassen                         3
+Waagen im Gleichgewicht                                                4
+Gleichungen mit x auf einer Seite                                      6
+Gleichungen mit x auf beiden Seiten                                    8
+Üben: Sachaufgaben                                                    10
+Üben: Gleichungen in der Geometrie                                    13
+Vermischte Übungen                                                    14
+
+2 Zinsrechnung
+Zinsrechnung als Anwendung der Prozentrechnung                       15
+Grundaufgaben der Zinsrechnung                                        16
+Tageszinsen                                                           17
+Arbeiten mit dem Computer: Zinsrechnung                               18
+Vermischte Übungen                                                    20
+
+3 Daten erheben und auswerten
+Daten erfassen und auswerten                                          21
+Diagramme                                                              22
+Arithmetisches Mittel                                                 24
+Arithmetisches Mittel, Median, Spannweite                             25
+Statistische Darstellungen beurteilen                                 27
+Arbeiten mit dem Computer: Tabellenkalkulation                        29
+Vermischte Übungen                                                    30
+
+4 Wahrscheinlichkeitsrechnung
+Relative und absolute Häufigkeiten                                   31
+Wahrscheinlichkeit von Ergebnissen bestimmen                          32
+Wahrscheinlichkeit von Ereignissen                                    33
+Wahrscheinlichkeit bestimmen                                          35
+Vermischte Übungen                                                    36
+
+5 Der Satz des Pythagoras
+Bezeichnungen im rechtwinkligen Dreieck                               37
+Der Satz des Pythagoras                                                38
+Berechnung der Hypotenuse in einem rechtwinkligen Dreieck             39
+Berechnung einer Kathete in einem rechtwinkligen Dreieck              40
+Berechnung von Hypotenuse und Katheten in einem rechtwinkligen Dreieck 41
+Sachaufgaben                                                          42
+Vermischte Übungen                                                    44
+
+6 Prismen und Zylinder
+Körper erkennen                                                       45
+Körper beschreiben                                                    46
+Schrägbilder und Netze von Prismen                                    47
+Oberflächeninhalt eines Quaders                                      48
+Oberflächeninhalt eines Prismas                                      49
+Volumen eines Quaders                                                 50
+Volumen eines Prismas                                                 51
+Oberflächeninhalt eines Zylinders                                    52
+Volumen eines Zylinders                                               53
+Üben: Volumen und Oberflächeninhalt eines Prismas                    54
+Üben: Sachaufgaben                                                    55
+Üben: Volumen und Oberflächeninhalt eines Zylinders                  56
+Üben: Zusammengesetzte Körper                                        57
+Vermischte Übungen                                                    58
+
+7 Lineare Funktionen
+Graphen von Funktionen                                                59
+Direkt proportionale Zuordnungen                                      60
+Indirekt proportionale Zuordnungen                                    61
+Direkt und indirekt proportionale Zuordnungen                         62
+Lineare Funktionen                                                    64
+Vermischte Übungen                                                    66
+
+8 Pyramiden, Kegel, Kugeln
+Körper erkennen                                                       67
+Volumen einer Pyramide                                                68
+Volumen eines Kegels                                                  69
+Volumen einer Kugel                                                   70
+Üben: Sachaufgaben                                                    71
+Vermischte Übungen                                                    72
+
+Projekt Sachprobleme
+Schätzen und Überschlagen                                            73
+Rückwärtsarbeiten                                                    75
+Systematisches Probieren                                              76
+
+Alles paletti - Vermischte Übungen                                   77
+
+== Klasse 9 ==
+
+1 Vergrößern und Verkleinern
+Maßstab                                                                1
+Maßstäbliches Verkleinern                                             3
+Maßstäbliches Vergrößern                                             4
+Maßstäbliches Vergrößern und Verkleinern                             5
+Vermischte Übungen                                                     6
+
+2 Lineare Gleichungssysteme
+Lineare Funktionen                                                     7
+Gleichungen durch Umformen lösen                                      9
+Sachaufgaben                                                          12
+Zwei Gleichungen mit zwei Variablen                                   13
+Vermischte Übungen                                                    16
+
+3 Reelle Zahlen
+Ebene Figuren und flächengleiche Quadrate                            17
+Quadratwurzeln                                                        19
+Kubikwurzeln                                                          20
+Üben: Aufgaben aus der Geometrie                                      21
+Vermischte Übungen                                                    22
+
+4 Statistische Erhebungen
+Eine Umfrage auswerten und die Ergebnisse darstellen                  23
+Arithmetisches Mittel, Median und Spannweite                          24
+Täuschen mit Statistik                                                25
+Statistische Darstellungen beurteilen                                 26
+Vermischte Übungen                                                    28
+
+5 Pyramiden, Kegel, Kugeln
+Schrägbilder und Netze von Körpern                                    29
+Volumen einer Pyramide                                                30
+Oberflächeninhalt einer Pyramide                                     31
+Volumen eines Kegels                                                  32
+Oberflächeninhalt eines Kegels                                       33
+Volumen einer Kugel                                                   34
+Oberflächeninhalt einer Kugel                                        35
+Volumen und Oberflächeninhalt einer Kugel                            36
+Zusammengesetzte Körper                                               37
+Üben: Sachaufgaben                                                    38
+Schätzen, Messen und Überschlagen                                    39
+Vermischte Übungen                                                    40
+
+Alles paletti - Vermischte Übungen                                   41
+
+Training für Tests
+Zahlen und Operationen                                                47
+Größen und Messen                                                    49
+Raum und Form                                                         51
+Muster und funktionaler Zusammenhang                                  53
+Funktionaler Zusammenhang                                             54
+Daten und Zufall                                                      55
+
+Wiederholung - Inhaltsbezogene und prozessbezogene Kompetenzen        57-84

@@ -1,0 +1,153 @@
+Klett, "Schnittpunkt Mathematik", Foerderhefte zur Differenzierenden
+Ausgabe ab 2017 (Sorte 1: Foerderheft zu einer im Repo bereits erfassten
+Regelreihe, vgl. quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt).
+Klasse 7 und 9 stichprobenartig gesichert (Auftrag Lehrwerke Sek II und
+Foerderhefte, 24.09.2026); Klasse 5, 6, 8, 10 aus Zeitgruenden nicht
+gesichert, siehe foerderhefte-fundliste.md fuer weitere ISBN-Kandidaten.
+Mit pdftotext -layout extrahiert.
+
+Achtung: Wie bei Sekundo (s. Datei quelle-westermann-sekundo-foerder-
+be_bb2017-inhalt.txt) fuehrt die DNB mehrere ISBN-Varianten je Klasse
+ohne Bundeslandangabe; die ISBN-Praefixe der hier gewaehlten Baende
+liegen naeher an denen der bestaetigten Berlin/Brandenburg-Schuelerbaende
+(Kl. 7: 9783127445718; Kl. 9: 9783127445916) als die jeweiligen
+Alternativ-ISBNs, eine Bundeslandbestaetigung liegt aber nicht vor.
+
+Kl. 7: ISBN 9783127445787, IDN 1153913186, https://d-nb.info/1153913186/04, 2018.
+Kl. 9: ISBN 9783127445985, IDN 1172441715, https://d-nb.info/1172441715/04, 2020.
+
+(C) Klett - Gliederung als Beleg, keine Aufgaben.
+
+== Klasse 7 ==
+
+Hinweise für Schülerinnen und Schüler                                  2
+
+1 Rationale Zahlen
+Rationale Zahlen                                                       3
+Rationale Zahlen vergleichen und ordnen                                4
+Zunahme und Abnahme                                                    5
+Addieren                                                                6
+Subtrahieren                                                           7
+Rechenvorteile                                                         8
+Multiplizieren                                                         9
+Dividieren                                                             10
+Verbindung der Rechenarten                                             11
+
+2 Dreiecke
+Winkel im Schnittpunkt von Geraden                                     12
+Winkelsumme im Dreieck                                                 13
+Dreiecksformen                                                         14
+Dreiecke konstruieren                                                  15
+Der Satz des Thales                                                    16
+Höhen                                                                  17
+Mittelsenkrechte. Umkreis                                              18
+Winkelhalbierende. Inkreis                                             19
+
+3 Rechnen mit Termen
+Terme und Variablen                                                    20
+Terme addieren und subtrahieren                                        21
+Terme multiplizieren und dividieren                                    22
+Terme mit Plus- und Minusklammern                                      23
+Terme ausmultiplizieren                                                24
+
+4 Gleichungen. Ungleichungen
+Gleichungen durch Probieren lösen                                     25
+Gleichungen durch Umformen lösen                                      26
+Gleichungen mit Klammern                                               27
+Mit Gleichungen Fragen beantworten                                     28
+Ungleichungen                                                          29
+
+5 Vierecke
+Vierecksformen                                                         30
+Haus der Vierecke                                                      31
+Winkelsumme im Viereck                                                 32
+Vierecke zeichnen                                                      33
+
+6 Proportional. Antiproportional
+Zuordnungen                                                            34
+Zuordnungen beschreiben und darstellen                                 35
+Proportionale Zuordnungen                                              36
+Zweisatz bei proportionalen Zuordnungen                                37
+Dreisatz bei proportionalen Zuordnungen                                38
+Antiproportionale Zuordnungen                                          39
+Dreisatz bei antiproportionalen Zuordnungen                            40
+
+7 Prozente
+Prozente                                                               41
+Absoluter und relativer Vergleich                                      42
+Prozentsatz                                                            43
+Prozentwert                                                            44
+Grundwert                                                              45
+Prozentdiagramme                                                       46
+
+8 Wahrscheinlichkeit
+Zufallsexperimente                                                     47
+Wahrscheinlichkeiten                                                   48
+Ereignisse                                                             49
+Schätzen von Wahrscheinlichkeiten                                     50
+
+== Klasse 9 ==
+
+Hinweise für Schülerinnen und Schüler                                  2
+
+1 Lineare Gleichungssysteme
+Lineare Gleichungen mit zwei Variablen                                 3
+Lineare Gleichungssysteme                                              4
+Gleichsetzungsverfahren                                                5
+Einsetzungsverfahren                                                   6
+Additionsverfahren                                                     7
+Lösungsvielfalt                                                       8
+
+2 Potenzen. Wurzeln. Reelle Zahlen
+Potenzen                                                               9
+Zehnerpotenzen mit positiven Exponenten                                10
+Zehnerpotenzen mit negativen Exponenten                                11
+Quadratwurzeln                                                         12
+Reelle Zahlen                                                          13
+Näherungswerte irrationaler Zahlen                                    14
+Quadratwurzeln multiplizieren und dividieren                           15
+Rechnen mit Quadratwurzeln                                             16
+Kubikwurzeln                                                           17
+
+3 Ähnlichkeit
+Vergrößern. Verkleinern                                               18
+Zentrische Streckung                                                   19
+Ähnliche Figuren                                                      20
+Strahlensätze                                                         21
+Bruchgleichungen                                                       22
+
+4 Satzgruppe des Pythagoras
+Satz des Pythagoras (1)                                                23
+Satz des Pythagoras (2)                                                24
+Länge von Hypotenuse und Kathete berechnen                            25
+Der Satz des Pythagoras in Figuren und Körpern                        26
+Höhensatz                                                              27
+Kathetensatz                                                           28
+Beweisen in der Geometrie                                              29
+
+5 Körper
+Prisma. Zylinder                                                       30
+Pyramide. Netz und Oberflächeninhalt (1)                              31
+Pyramide. Netz und Oberflächeninhalt (2)                              32
+Pyramide. Schrägbild und Volumen                                      33
+Kreisausschnitt (1)                                                    34
+Kreisausschnitt (2)                                                    35
+Kegel. Netz und Oberflächeninhalt                                     36
+Kegel. Schrägbild und Volumen                                         37
+Kugel. Volumen                                                         38
+Kugel. Oberflächeninhalt                                              39
+Zusammengesetzte Körper (1)                                            40
+Zusammengesetzte Körper (2)                                            41
+
+6 Daten
+Vierfeldertafeln                                                       42
+Daten beurteilen                                                       43
+Daten darstellen                                                       44
+
+7 Quadratische Funktionen
+Die Normalparabel y = x²                                              45
+Die quadratische Funktion y = x² + c                                  46
+Die quadratische Funktion y = ax² + c                                 47
+Die Scheitelform y = (x - d)² + e                                     48
+Die Normalform y = x² + bx + c (1)                                    49
+Die Normalform y = x² + bx + c (2)                                    50

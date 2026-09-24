@@ -1,0 +1,293 @@
+Westermann, "Sekundo - Mathematik für differenzierende Schulformen",
+Foerderhefte zur Ausgabe 2017 fuer Berlin und Brandenburg (Sorte 1:
+Foerderheft zu einer im Repo bereits erfassten Regelreihe, vgl.
+quelle-westermann-sekundo-bb-2017-inhalt.txt). Klasse 5, 7 und 9
+stichprobenartig gesichert (Auftrag Lehrwerke Sek II und Foerderhefte,
+24.09.2026); Klasse 6, 8, 10 aus Zeitgruenden nicht gesichert, siehe
+foerderhefte-fundliste.md fuer weitere gefundene ISBN-Kandidaten.
+Mit pdftotext -layout extrahiert; Schulform laut Verlag: differenzierende
+Schulformen (Gesamtschule, ISS, Oberschule).
+
+Achtung: Die DNB fuehrt zu jeder Klassenstufe mehrere ISBN-Varianten
+ohne Bundeslandangabe im Titel; die hier gewaehlten Baende liegen im
+selben Erscheinungsjahr wie die bereits erfasste Berlin/Brandenburg-
+Ausgabe des Schuelerbands (2017-2019), sind aber nicht einzeln als
+BE/BB bestaetigt - anders als bei den Landesausgaben in Teil A ist bei
+Foerderheften keine bundeslandspezifische Titelinformation ueber die
+Verlagsseite in vertretbarer Zeit auffindbar gewesen.
+
+Kl. 5: ISBN 9783141241945, IDN 1149949260, https://d-nb.info/1149949260/04, 2018.
+Kl. 7: ISBN 9783141242553, IDN 1129469905, https://d-nb.info/1129469905/04, 2017.
+Kl. 9: ISBN 9783141242737, IDN 117481070X, https://d-nb.info/117481070X/04, 2019.
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+== Klasse 5 ==
+
+1 Zahlen und Daten                                                     1
+Stellenwerttafel                                                       2
+Stellenwerttafel                                                       3
+Zahlen vergleichen und ordnen                                          4
+Zahlen runden                                                          5
+Übungen am Zahlenstrahl                                                6
+Diagramme lesen und zeichnen                                           7
+Vermischte Übungen zu Kapitel 1                                        8
+
+2 Addition und Subtraktion                                             9
+Halbschriftliches Rechnen                                             10
+Kopfrechnen                                                           11
+Vorteilhaftes Rechnen                                                 12
+Rechenstrategien                                                      13
+Schriftliches Addieren                                                14
+Schriftliches Addieren mit Übertrag                                   15
+Schriftliches Subtrahieren                                            16
+Schriftliches Subtrahieren mit Übertrag                               17
+Addieren und Subtrahieren                                             18
+Sachaufgaben                                                          19
+Vermischte Übungen zu Kapitel 2                                       20
+
+3 Körper, Flächen und Linien                                          21
+Netze von Würfel und Quader                                           22
+Flächen, Kanten und Ecken - Körper erkennen                           23
+Kantenmodelle - senkrecht und parallel                                24
+Übungen zur Raumvorstellung                                           25
+Vermischte Übungen zu Kapitel 3                                       26
+
+4 Multiplikation und Division                                         27
+Kopfrechnen mit Zehnern und Hundertern                                28
+Halbschriftliches Multiplizieren                                      29
+Vorteilhaftes Rechnen                                                 30
+Schriftliches Multiplizieren                                          31
+Schriftliches Multiplizieren                                          32
+Schriftliches Multiplizieren                                          33
+Schriftliches Dividieren                                              34
+Schriftliches Dividieren                                              35
+Schriftliches Dividieren mit Rest                                     36
+Sachaufgaben                                                          37
+Vermischte Übungen zu Kapitel 4                                       38
+
+5 Zeichnen und Konstruieren                                           39
+Senkrecht und parallel                                                40
+Abstand                                                               41
+Stadtplan - auf Plänen orientieren                                    42
+Koordinatensystem                                                     43
+Symmetrische Figuren                                                  44
+Rechteck und Quadrat                                                  45
+Vermischte Übungen zu Kapitel 5                                       46
+
+6 Größen                                                              47
+Rechnen mit Euro und Cent                                             48
+Sachrechnen mit Geld                                                  49
+Preisvergleich                                                        50
+Längen                                                                51
+Schätzen, messen und umwandeln                                       52
+Kommaschreibweise bei Längen                                          53
+Rechnen mit Längenmaßen                                              54
+Masse                                                                 55
+Kommaschreibweise bei Massen                                          56
+Zeit                                                                  57
+Zeitpunkte und Zeitspannen                                            58
+Sachrechnen mit Größen                                               59
+Vermischte Übungen zu Kapitel 6                                       60
+
+7 Umfang und Flächeninhalt                                           61
+Flächeninhalt des Rechtecks                                          62
+Flächeninhalt des Rechtecks                                          63
+Umfang des Rechtecks                                                 64
+Umfang des Rechtecks                                                 65
+Flächenmaße                                                          66
+Umfang und Flächeninhalt                                             67
+Anwendungen                                                           68
+Anwendungen                                                           69
+Vermischte Übungen zu Kapitel 7                                       70
+
+8 Brüche                                                              71
+Berechnungen mit Stammbrüchen                                        72
+Erkennen und Herstellen von Bruchteilen                               73
+Berechnen von Bruchteilen                                             74
+Bruchteile von Größen                                                75
+Ganze Zahlen und gemischte Zahlen                                     76
+Addition und Subtraktion von Brüchen mit gleichem Nenner              77
+Vermischte Übungen zu Kapitel 8                                       78
+
+Alles paletti - Vermischte Aufgaben zum gesamten Schuljahr            79
+
+== Klasse 7 ==
+
+1 Brüche und Dezimalzahlen                                            1
+Bruchteile von Größen                                                 2
+Addition und Subtraktion von Brüchen                                  3
+Addition und Subtraktion von Dezimalzahlen                            4
+Vervielfachen und Teilen von Brüchen                                  5
+Vervielfachen und Teilen von Dezimalzahlen                            6
+Multiplikation und Division einer Dezimalzahl mit 10,100,1000         7
+Multiplikation und Division von Dezimalzahlen                        8
+Sachaufgaben zu Brüchen und Dezimalzahlen                            9
+Vermischte Übungen zu Kapitel 1                                      10
+
+2 Zuordnungen                                                         11
+Tabellen und grafische Darstellungen                                  12
+Maßstab                                                               13
+Maßstab                                                               14
+Tabellenkalkulation                                                   15
+Tabellenkalkulation                                                   16
+Tabellenkalkulation                                                   17
+Proportionale Zuordnungen                                             18
+Grafische Darstellungen bei proportionalen Zuordnungen                19
+Antiproportionale Zuordnungen                                         20
+Antiproportionale Zuordnungen                                         21
+Dreisatz                                                              22
+Dreisatz                                                              23
+Dreisatz                                                              24
+Sachaufgaben                                                          25
+Vermischte Übungen zu Kapitel 2                                       26
+
+3 Zeichnen und Konstruieren                                           27
+Kongruente Figuren                                                    28
+Winkelpaare                                                           29
+Kongruenzsatz (WSW) - Dreiecke konstruieren                           30
+Kongruenzsatz (SWS) - Dreiecke konstruieren                           31
+Kongruenzsatz (SSS) - Dreiecke konstruieren                           32
+Anwendungen                                                           33
+Vermischte Übungen zu Kapitel 3                                       34
+
+4 Prozentrechnung                                                     35
+Brüche, Dezimalzahlen und Prozentsätze                               36
+Prozentsätze und Brüche                                              37
+Prozentwert                                                           38
+Prozentwert berechnen                                                 39
+Prozentwert berechnen                                                 40
+Sachaufgaben zur Prozentwertberechnung                                41
+Preisnachlass - Preiserhöhung                                        42
+Brutto - Netto                                                        43
+Vermischte Übungen zu Kapitel 4                                       44
+
+5 Rationale Zahlen                                                    45
+Temperaturen in Deutschland                                           46
+Mit Temperaturen rechnen                                              47
+Zahlengerade und Zahlenreihen                                         48
+Ordnen und Vergleichen an der Zahlengeraden                           49
+Addieren und Subtrahieren                                             50
+Addieren und Subtrahieren                                             51
+Rechnen mit positiven und negativen Zahlen in Sachsituationen         52
+Rechnen mit positiven und negativen Zahlen in Sachsituationen         53
+Vermischte Übungen zu Kapitel 5                                       54
+
+6 Flächeninhalt und Volumen                                           55
+Flächeninhalt und Umfang des Rechtecks                               56
+Flächeninhalt des Dreiecks                                            57
+Umfang und Flächeninhalt des Dreiecks                                58
+Zusammengesetzte Flächen                                             59
+Würfelnetze                                                           60
+Quadernetze                                                           61
+Volumen des Quaders                                                   62
+Liter                                                                 63
+Oberflächeninhalt des Quaders                                        64
+Übungen zu Volumen und Oberflächeninhalt                             65
+Vermischte Übungen zu Kapitel 6                                       66
+
+7 Daten und Zufall                                                    67
+Mittelwert, Median und Spannweite                                     68
+Tabellenkalkulation                                                   69
+Wahrscheinlichkeit                                                    70
+Wahrscheinlichkeit                                                    71
+Vermischte Übungen zu Kapitel 8 (so im Original numeriert)            72
+
+8 Terme und Gleichungen                                               73
+Gleichungen mit dem Waagemodell lösen                                74
+Zahlenrätsel                                                          75
+Gleichungen zu Sachaufgaben                                           76
+Gleichungen zu Sachaufgaben                                           77
+Vermischte Übungen zu Kapitel 7 (so im Original numeriert)            78
+
+Alles paletti - Vermischte Aufgaben zum gesamten Schuljahr            79
+
+== Klasse 9 ==
+
+1 Wiederholungen                                                       1
+Multiplizieren und Dividieren                                          2
+Negative Zahlen                                                        3
+Rechnen mit Dezimalzahlen                                              4
+Brüche und Dezimalzahlen                                               5
+Größen in verschiedenen Einheiten                                     6
+Gleichungen                                                            7
+Proportionale und antiproportionale Zuordnungen                       8
+Umfangs- und Flächenberechnungen                                     10
+Körperberechnungen                                                    11
+Daten und Zufall                                                      12
+
+2 Potenzen und Wurzeln                                                13
+Potenzen                                                              14
+Zehnerpotenzen                                                        15
+Quadrate und Quadratwurzeln                                           16
+Anwendungsaufgaben                                                    17
+Vermischte Übungen zu Kapitel 2                                       18
+
+3 Funktionen                                                          19
+Proportionale Zuordnungen                                             20
+Proportionale Zuordnungen                                             21
+Antiproportionale Zuordnungen                                         22
+Zuordnungen                                                           23
+Grafische Darstellung von Funktionen                                  24
+Lineare Funktionen                                                    25
+Vermischte Übungen zu Kapitel 3                                       26
+
+4 Satz des Pythagoras                                                 27
+Satz des Pythagoras                                                   28
+Berechnen der Hypotenuse                                              29
+Berechnen einer Kathete                                               30
+Berechnen von Hypotenuse und Katheten                                 31
+Anwendungen                                                           32
+Anwendungen                                                           33
+Vermischte Übungen zu Kapitel 4                                       34
+
+5 Lineare Gleichungssysteme                                           35
+Lösen von Gleichungen durch Umformen                                 36
+Lösen von Gleichungen durch Umformen                                 37
+Zwei Gleichungen mit zwei Variablen                                   38
+Zwei Gleichungen mit zwei Variablen                                   39
+Vermischte Übungen zu Kapitel 5                                       40
+
+6 Prozent- und Zinsrechnung                                           41
+Prozentrechnung                                                       42
+Vermehrter und verminderter Grundwert                                43
+Rabatt - Skonto                                                       44
+Brutto - Netto                                                        45
+Zinsrechnung                                                          46
+Zinsrechnung                                                          47
+Zinsrechnung am Computer                                              48
+Zinsrechnung am Computer                                              49
+Vermischte Übungen zu Kapitel 6                                       50
+
+7 Ähnlichkeit                                                         51
+Maßstab                                                               52
+Vergrößern                                                            53
+Verkleinern                                                           54
+Anwendungsaufgaben                                                    55
+Vermischte Übungen zu Kapitel 7 (im Original als Kapitel 6 nummeriert)  56
+
+8 Flächen- und Körperberechnungen                                    57
+Zusammengesetzte Figuren 1                                            58
+Umfang des Kreises                                                    59
+Flächeninhalt des Kreises                                            60
+Kreisteile (Kreisring, Halbkreis, Viertelkreis)                       61
+Zusammengesetzte Figuren 2                                            62
+Körper                                                                63
+Oberfläche des Prismas                                               64
+Volumen des Prismas                                                   65
+Oberfläche des Zylinders                                             66
+Volumen des Zylinders                                                 67
+Zusammengesetzte und ausgehöhlte Körper 1                            68
+Volumen der Pyramide                                                  69
+Volumen des Kegels                                                    70
+Zusammengesetzte und ausgehöhlte Körper 2                            71
+Vermischte Übungen zu Kapitel 8                                       72
+
+9 Daten und Zufall                                                    73
+Vorsicht bei Diagrammen                                               74
+Vorsicht bei Diagrammen                                               75
+Wahrscheinlichkeit                                                    76
+Zweistufige Zufallsversuche                                           77
+Vermischte Übungen zu Kapitel 9                                       78
+
+Alles paletti - Vermischte Aufgaben zum gesamten Schuljahr            79

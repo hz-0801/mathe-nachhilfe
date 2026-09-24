@@ -1,0 +1,136 @@
+Cornelsen, "Klick! - Mathematik", Ausgabe ab 2024. Sorte 3
+(Foerderschwerpunkt Lernen, bundesweit einsetzbar). Klasse 5, 6 und 7
+gesichert (Auftrag Lehrwerke Sek II und Foerderhefte, 24.09.2026);
+Klasse 8-10 der neuen Ausgabe sind zum Stichtag noch nicht erschienen
+(nur die Vorgaengerausgabe ab 2008-2018 fuehrt hoehere Klassen, siehe
+foerderhefte-fundliste.md). Mit pdftotext -layout extrahiert.
+
+Schulform laut DNB-926-Feld (Publisher-Metadaten): "Förderschule/
+Förderzentrum/Schule mit Förderschwerpunkt Lernen", daneben auch fuer
+Gemeinschaftsschule, Hauptschule, Werkrealschule, Mittelschule,
+Oberschule gelistet; verfuegbar in allen 16 Bundeslaendern (Berlin und
+Brandenburg eingeschlossen). Der Stoff liegt deutlich unter dem
+Klassenniveau des Regelschulbuchs (Kl. 5 behandelt u. a. Rechnen bis
+1000, Kl. 6 bis 10000/100000, Kl. 7 bis Millionen und erste Brueche).
+
+Kl. 5: ISBN 9783060013050, IDN 1294990020, https://d-nb.info/1294990020/04, 2024.
+Kl. 6: ISBN 9783060021536, IDN 1340845032, https://d-nb.info/1340845032/04, 2025.
+Kl. 7: ISBN 9783060021567, IDN 1380371414, https://d-nb.info/1380371414/04, 2026.
+
+(C) Cornelsen - Gliederung als Beleg, keine Aufgaben.
+
+== Klasse 5 ==
+
+Start ins Schuljahr
+Start ins Thema                                                        8
+Mein Mathematikbuch erforschen                                        10
+Addition bis 100                                                      12
+Subtraktion bis 100                                                   13
+Addition und Subtraktion bis 100                                      14
+Sachaufgaben bearbeiten                                               16
+Multiplikation bis 100                                                17
+Division bis 100                                                      18
+Multiplikation und Division bis 100                                   19
+
+Zahlenraum bis 1 000                                                  20-33
+Winkel                                                                34-37
+Gewichte                                                              38-41
+Addition                                                              42-59
+Lagebeziehungen                                                       60-65
+Achsensymmetrie                                                       66-69
+Subtraktion                                                           70-85
+Kreis                                                                 86-89
+Addition und Subtraktion                                              90-93
+
+Bist du fit?                                                          94
+
+Längen                                                                96-107
+Multiplikation                                                        108-119
+Umfang                                                                120-122
+Zeit                                                                  124-140
+Körper                                                                142-145
+Division                                                              146-148
+Geld                                                                  150-159
+Rauminhalte                                                           160-163
+Variablen und Terme                                                   164-169
+
+Bist du fit?                                                          170
+
+Schriftliche Subtraktion im Abziehverfahren                           172-173
+
+Strategien: Aufgaben-Profi, Lese-Profi                                174
+Methoden-Lexikon                                                      176
+Mathe-Lexikon                                                         178
+Lösungen: Das kann ich!                                              181
+Bildquellenverzeichnis                                                192
+
+== Klasse 6 ==
+
+Start ins Schuljahr                                                   8-16
+Winkel                                                                18-21
+Zahlenraum bis 10 000                                                 22-35
+Daten und Zufall                                                      36-41
+Addition und Subtraktion                                              42-57
+Gewichte                                                              58-67
+Längen                                                                68-77
+Umfang                                                                78-89
+Kreis                                                                 90-97
+
+Bist du fit?                                                          98
+
+Multiplikation                                                        100-113
+Flächeninhalt                                                        114-125
+Achsenspiegelung                                                      126-128
+Division                                                              130-143
+Zeit                                                                  144-153
+Brüche                                                               154-163
+Maßstab                                                               164
+Körper                                                                166-173
+Rauminhalte                                                           174-176
+Rechnen mit System                                                    178-185
+Temperaturen                                                          186
+
+Bist du fit?                                                          188
+
+Schriftliche Subtraktion im Abziehverfahren                           190-191
+
+Strategien: Aufgaben-Profi, Lese-Profi                                192
+Methoden-Lexikon                                                      194
+Mathe-Lexikon                                                         197
+Lösungen: Das kann ich!                                              201
+Bildquellenverzeichnis                                                216
+
+== Klasse 7 ==
+
+Start ins Schuljahr                                                   8-15
+Zahlenraum bis Millionen                                              16-23
+Größen                                                                24-31
+Addition und Subtraktion                                              32-39
+Winkel                                                                40-45
+Figuren                                                               46-59
+Vom Thermometer zur Zahlengeraden                                     60-61
+Spiegelung und Verschiebung                                           62-69
+Multiplikation                                                        70-77
+Umfang und Flächeninhalt                                             78-89
+Division                                                              90-97
+
+Bist du fit?                                                          98
+
+Brüche                                                               100-107
+Dezimalzahlen                                                         108-113
+Daten und Zufall                                                      114-125
+Rechnen mit System                                                    126-130
+Variablen, Terme und Gleichungen                                      132-137
+Körper                                                                138-145
+Volumen und Oberflächeninhalt                                        146-153
+Mit Größen rechnen                                                    154-161
+Zuordnungen                                                           162-167
+
+Bist du fit?                                                          168
+
+Strategien: Aufgaben-Profi, Lese-Profi                                170
+Methoden-Lexikon                                                      172
+Mathe-Lexikon                                                         175
+Formelsammlung                                                        178
+Lösungen: Das kann ich!                                              180
+Bildquellenverzeichnis                                                192

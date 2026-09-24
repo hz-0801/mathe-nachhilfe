@@ -11,9 +11,9 @@ sie als Beleg liegen.
 | Teil A Sek II | erledigt | 5 Bände (Fundamente Einführungsphase 1; EdM SII NRW-Gegenprobe 2; Mathematik Neue Wege Berlin 3) | Lambacher Schweizer und Bigalke/Köhler nicht gefunden; Fundamente-Qualifikationsphase Ausgabe B noch nicht erschienen/katalogisiert |
 | Teil A Bestätigung Fundamente B 2017 | erledigt | 3 (Kl.7, 8, 10) | beide Kandidaten aus dem Vorauftrag falsch (Hessen/Sachsen-Anhalt bzw. Rheinland-Pfalz), richtige ISBNs über Websuche gefunden |
 | Teil A Bestätigung Mathematik heute | erledigt | 4 | alle vier ISBNs über westermann.de bestätigt |
-| Teil B Sorte 1 (Regelreihen) | offen | 0 | |
-| Teil B Sorte 2 (Grundwissen) | offen | 0 | |
-| Teil B Sorte 3 (Förderschwerpunkt) | offen | 0 | |
+| Teil B Sorte 1 (Regelreihen) | erledigt | 8 (3 Reihen) | Zeitgrenze erreicht; Sekundo, Schnittpunkt, Mathematik 2023 gesichert, vier weitere Reihen ohne Fund/TOC |
+| Teil B Sorte 2 (Grundwissen) | erledigt | 3 (1 Reihe) | Zeitgrenze erreicht; Kohl-Verlag-Reihe (Kl. 5-7) gesichert, ein weiterer Kandidat ungeprüft |
+| Teil B Sorte 3 (Förderschwerpunkt) | erledigt | 3 (1 Reihe) | Zeitgrenze erreicht; Cornelsen Klick! (Kl. 5-7 der neuen Ausgabe) gesichert, weitere Startpunkte ungeprüft |
 | Teil C Probeseiten | offen | 0 | |
 | Register und Bericht | offen | – | |
 | Auftrag nach archiv/ | offen | – | |

@@ -1,0 +1,209 @@
+Kohl Verlag, "Grundwissen Mathematik [Klasse]. Freiarbeit"
+(Kopiervorlagen/Copymasters). Sorte 2 (eigenstaendige Basis- und
+Grundwissenreihe ohne Bindung an ein Schulbuch): ueber DNB-Suche
+tit="Grundwissen Mathematik" and tit="Freiarbeit" gefunden (Auftrag
+Lehrwerke Sek II und Foerderhefte, 24.09.2026). Reihe vollstaendig:
+nur Klasse 5, 6 und 7 erschienen (keine Baende fuer Klasse 8-10 in der
+DNB gefunden). Schulform laut DNB-Schlagworten: Nachhilfe/Haeusliches
+Ueben/Grundkompetenzen, schulformunabhaengig. Mit pdftotext -layout
+extrahiert.
+
+Kl. 5: ISBN 9783956865107, IDN 1037742206, https://d-nb.info/1037742206/04, 2013.
+Kl. 6: ISBN 9783955138455, IDN 1037742214, https://d-nb.info/1037742214/04, 2013.
+Kl. 7: ISBN 9783956865473, IDN 1046168479, https://d-nb.info/1046168479/04, 2014.
+
+(C) Kohl Verlag - Gliederung als Beleg, keine Aufgaben. Achtung: Die
+Hefte listen einzelne Arbeitsblaetter (kein Kapitel-/Kastenaufbau wie
+bei Schulbuechern); die Seitenzahl steht jeweils vor dem Titel.
+
+== Klasse 5 ==
+
+4    Vorbemerkungen
+5    Die natürlichen Zahlen
+6    Strichlisten und Häufigkeit
+7    Zählen mithilfe von Baumdiagrammen
+8    Vergleichen und Ordnen natürlicher Zahlen
+9    Zahlenstrahl und natürliche Zahlen
+11   Darstellung von Daten
+12   Zahlen ausschreiben
+13   Runden
+14   Römische Zahlzeichen
+15   Die Zahlzeichen der Ägypter
+16   Die Zahlzeichen der Babylonier
+17   Das Zehnersystem
+19   Das Zweiersystem
+20   Addition und Subtraktion natürlicher Zahlen
+22   Die schriftliche Addition
+24   Die schriftliche Subtraktion
+26   Schriftliche Subtraktion mehrerer Subtrahenden
+28   Multiplikation und Division
+29   Überschlagsrechnung
+31   Schriftliche Multiplikation
+33   Rechengesetze der Multiplikation
+35   Schriftliche Division
+37   Vorrangregeln
+39   Tricks fürs Kopfrechnen
+41   Potenzen
+42   Zehnerpotenzen
+43   Größen: Geld
+44   Größen: Zeit
+45   Größen: Längen
+46   Größen: Flächeneinheiten
+47   Größen: Volumen
+48   Größen: Masseeinheiten
+49   Grundbegriffe der Geometrie
+56   Achsensymmetrische Figuren
+59   Geometrische Muster
+60   Orientieren im Gitternetz
+62   Regelmäßige Vielecke
+64   Umfang von Vielecken
+65   Umfang Quadrat und Rechteck
+66   Vergleich von Flächen
+67   Flächeninhalt Quadrat und Rechteck
+68   Maßstab
+69   Benennen von Bruchteilen
+70   Berechnen von Bruchteilen
+71   Lösungen
+
+== Klasse 6 ==
+
+4    Vorbemerkungen
+5    Aufgaben zum Auffrischen I
+6    Aufgaben zum Auffrischen II
+7    Teiler einer Zahl
+8    Vielfache einer Zahl
+9    Teilbarkeit von Zahlen I (10, 5, 2, 4, 25)
+10   Teilbarkeit von Zahlen II (3, 9)
+11   Teilbarkeit von Zahlen III (8, 125)
+12   Teilbarkeit von Zahlen IV (15, 18)
+13   Teilbarkeit von Zahlen V
+14   Primzahlen
+15   Primfaktorzerlegung
+16   Der größte gemeinsame Teiler
+17   Das kleinste gemeinsame Vielfache
+18   Der Euklidsche Algorithmus
+19   Bruchteile erkennen
+20   Bruchteile kennzeichnen
+21   Unechte Brüche - Gemischte Zahlen I
+22   Unechte Brüche - Gemischte Zahlen II
+23   Brüche und Division
+24   Bruchteile ausrechnen
+25   Brüche bei Größen
+26   Addition von gleichnamigen Brüchen
+27   Subtraktion von gleichnamigen Brüchen
+28   Erweitern von Brüchen
+29   Kürzen von Brüchen
+30   Darstellung von Brüchen am Zahlenstrahl I
+31   Darstellung von Brüchen am Zahlenstrahl II
+32   Darstellung von Brüchen am Zahlenstrahl III
+33   Ordnen und Vergleichen von Brüchen
+34   Addition von Brüchen
+35   Subtraktion von Brüchen
+36   Rechengesetze der Addition von Brüchen
+37   Addition und Subtraktion von Brüchen
+38   Vervielfachen von Brüchen
+39   Teilen von Brüchen I
+40   Teilen von Brüchen II
+41   Multiplizieren von Brüchen
+42   Teilen von Brüchen III
+43   Rechengesetze der Multiplikation und Division von Brüchen
+44   Verbindung der Rechenarten I
+45   Dezimalbrüche I
+46   Dezimalbrüche II
+47   Darstellung von Dezimalbrüchen am Zahlenstrahl
+48   Vergleichen und Ordnen von Dezimalbrüchen
+49   Runden von Dezimalbrüchen
+50   Addition von Dezimalbrüchen
+51   Subtraktion von Dezimalbrüchen
+52   Addition und Subtraktion von Dezimalbrüchen
+53   Multiplikation von Dezimalbrüchen I
+54   Multiplikation von Dezimalbrüchen II
+55   Division von Dezimalbrüchen I
+56   Division von Dezimalbrüchen II
+57   Division von Dezimalbrüchen III
+58   Verbindung der Rechenarten II
+59   Umwandeln von Brüchen in Dezimalbrüche
+60   Periodische Dezimalbrüche
+61   Dezimalbrüche bei Größenangaben
+62   Geometrie: Kreis I
+63   Geometrie: Kreis II
+64   Geometrie: Winkel I
+65   Geometrie: Schätzen und Vergleichen von Winkeln
+66   Geometrie: Winkel II
+67   Geometrie: Winkel III
+68   Spiegeln mit dem Geodreieck I
+69   Spiegeln mit dem Geodreieck II
+70   Verschieben mit dem Geodreieck
+71   Lösungen
+
+== Klasse 7 ==
+
+4    Vorbemerkungen
+5    Aufgaben zum Auffrischen I (Schriftliche Multiplikation und Division)
+6    Aufgaben zum Auffrischen II (Rechnen mit Brüchen)
+7    Aufgaben zum Auffrischen III (Rechnen mit Dezimalbrüchen)
+8    Zuordnungen I
+9    Zuordnungen II
+10   Proportionale Zuordnungen I
+11   Proportionale Zuordnungen II
+12   Dreisatz bei proportionalen Zuordnungen
+13   Antiproportionale Zuordnungen I
+14   Antiproportionale Zuordnungen II
+15   Dreisatz bei antiproportionalen Zuordnungen
+16   Pro, anti oder nix von beiden
+18   Rationale Zahlen
+19   So erweiterst du den Zahlenstrahl I
+20   So erweiterst du den Zahlenstrahl II
+21   Betrag - Zahl und Gegenzahl
+22   Ordnen von rationalen Zahlen
+23   Das Koordinatensystem I
+24   Das Koordinatensystem II
+25   Additions- und Subtraktionsregeln für rationale Zahlen
+26   Rechenscheibe: Addition rationaler Zahlen
+30   Rechenscheibe: Subtraktion rationaler Zahlen
+32   Wir vereinfachen die Schreibweise
+33   Rechnen mit rationalen Zahlen
+34   Klammerregeln für Addition und Subtraktion
+35   Multiplikation und Division rationaler Zahlen
+36   Rechenscheibe: Multiplikation rationaler Zahlen
+38   Rechenscheibe: Division rationaler Zahlen
+40   Verbindung der vier Grundrechenarten I
+41   Verbindung der vier Grundrechenarten II
+42   Terme und Variable I
+43   Terme und Variable II
+44   Terme und Variable III
+45   Gleichungen I
+46   Gleichungen II
+47   Rechenscheibe: Gleichungen
+49   Wir rechnen mit Formeln
+50   Textaufgaben - kein Problem
+51   Prozentrechnung I
+52   Prozentrechnung II
+53   Rechenscheibe: Prozentrechnung I
+55   Rechenscheibe: Prozentrechnung II
+57   Rechenscheibe: Prozentrechnung III
+59   Zinsrechnung
+60   Winkelpaare
+62   Winkelsumme im Dreieck
+63   Dreieckskonstruktion (SSS)
+64   Dreieckskonstruktion (WSW)
+65   Dreieckskonstruktion (SWS)
+66   Dreieckskonstruktion (SSW)
+67   Grundkonstruktion: Winkelhalbierende
+68   Grundkonstruktion: Mittelsenkrechte
+69   Inkreis des Dreiecks
+70   Umkreis des Dreiecks
+71   Kreis und Tangente
+72   Geometrie-Memo
+74   Absolute und relative Häufigkeit
+75   Wir zeichnen Streifendiagramme
+76   Wir zeichnen Kreisdiagramme
+77   Wir berechnen den Mittelwert
+78   Wir ermitteln den Zentralwert
+79   Wir ermitteln die Spannweite
+80   Zufallsversuche I
+81   Zufallsversuche II
+82   Wahrscheinlichkeit I
+83   Wahrscheinlichkeit II
+84   Wahrscheinlichkeit III
+85   Lösungen
