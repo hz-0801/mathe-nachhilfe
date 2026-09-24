@@ -26,7 +26,7 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
 |---|---|---|---|
 | Vorgabencheck: neuesten Fachbrief Mathematik Brandenburg (Nr. 11) und Rundschreiben des MBJS lesen, Zeile in § 2 der Vorgaben-Datei | Fachbrief zum Schuljahresbeginn (Reihe belegt: Nr. 9 08/2025, Nr. 10 08/2026 – erwartet 08/2027); Rundschreiben aus der Sandbox nicht erreichbar | Claude (Check), Lehrer (Rundschreiben, falls nötig) | msa-vorgaben.md § 1, § 2, § 4 |
-| Heft 2027 FOR holen, in die Heftliste eintragen, erfassen; EBR bleibt zurückgestellt | Prüfung 04.05.2027 (Fachbrief 10); Veröffentlichung auf der Jahresseite: Zeitpunkt unbelegt (Heft 2026 lag vor dem 05.09.2026 vor) | Lehrer (Anweisung „weiter"), Claude (Lauf) | msa-quellen.md § 1, msa-pruefungen.md § 2, konzept.md § 7 Sonderfälle |
+| Heft 2027 FOR und EBR holen, in die Heftliste eintragen, erfassen | Prüfung 04.05.2027 (Fachbrief 10); Veröffentlichung auf der Jahresseite: Zeitpunkt unbelegt (Heft 2026 lag vor dem 05.09.2026 vor) | Lehrer (Anweisung „weiter"), Claude (Lauf) | msa-quellen.md § 1, msa-pruefungen.md § 2, konzept.md § 7 Sonderfälle |
 | Typen-Check über den Bestand nach dem letzten Heft des Jahrgangs | Heft erfasst | Claude | konzept.md § 7 Punkt 5, msa-pruefungen.md § 3 |
 
 **fhr**

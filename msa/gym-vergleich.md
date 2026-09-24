@@ -1,5 +1,5 @@
 # Vergleich GYM gegen OS/EBR/FOR – Profil msa
-Stand 2026-09-24, HEAD 26839a9.
+Stand 2026-09-24, HEAD 875c5d8.
 
 Vergleicht die Verwendung von Typ und Thema zwischen dem Papier GYM (msa-katalog-gym.csv) und den Papieren OS/EBR/FOR/MUSTER-EBR/MUSTER-FOR (msa-katalog-basis.csv, msa-katalog-kontext.csv). Die Typenliste msa-typen.csv ist beiden Gruppen gemeinsam (msa.md § 4). Bei Typen wird zwischen „Haupt“ (Feld typ) und „Haupt+Neben“ (Feld typ oder ein Glied des Pipe-getrennten Feldes typ_neben) unterschieden; „nur GYM“ heißt bei Haupt+Neben: in OS/EBR/FOR weder Haupt- noch Nebentyp. Themen werden nur über den Haupttyp der Zeile gezählt.
 
@@ -7,7 +7,7 @@ Typen (Haupt): 76 nur GYM, 91 nur OS/EBR/FOR, 84 in beiden.
 Typen (Haupt+Neben): 79 nur GYM, 83 nur OS/EBR/FOR, 102 in beiden.
 Themen: 4 nur GYM, 1 nur OS/EBR/FOR, 31 in beiden.
 
-Erzeugt von `werkzeuge/gym-vergleich.py` (v0.2) aus den msa-Katalogen und msa-typen.csv; abgeleitet, nie von Hand ändern.
+Erzeugt von `werkzeuge/gym-vergleich.py` (v0.3) aus den msa-Katalogen und msa-typen.csv; abgeleitet, nie von Hand ändern.
 
 ## Typen (Haupt)
 

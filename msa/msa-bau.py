@@ -58,13 +58,12 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # ===================================================================== KONFIG
 KONFIG = {
-    "jahr": "2025",
-    "papier": "GYM",     # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM (msa.md § 4)
-    "datei": "",         # zweiteiliges Heft ab 2019, siehe "dateien"
-    "dateien": ["25_P10_Ma_Gym_A1.pdf", "25_P10_Ma_Gym_A2.pdf"],
-    "seiten": {"Basis": 3, "Kontext": 8},  # eigene Fußzeile je Teildatei (msa.md § 3)
-    "soll": {"1": 5, "2": 5, "3": 12, "4": 9, "5": 13, "6": 6},
-    "soll_gesamt": 50,
+    "jahr": "2026",
+    "papier": "EBR",     # OS | EBR | FOR | MUSTER-EBR | MUSTER-FOR | GYM (msa.md § 4)
+    "datei": "26_P10_Ma_EBR_A.pdf",
+    "seiten": 10,
+    "soll": {"1": 10, "2": 5, "3": 4, "4": 6, "5": 5, "6": 5, "7": 5},
+    "soll_gesamt": 40,
 }
 
 # ---- technischer Block, nicht ändern ----
@@ -87,354 +86,385 @@ def row(**kw):
 # ============================================================ ZEILEN JE HEFT
 
 # Neue Typen: (typ, leitidee, thema, definition, beispiel_id)
-NEUE_TYPEN = [
-    ("Gleich große oder doppelt so große Winkel in einer aus kongruenten Dreiecken zusammengesetzten "
-     "Figur kennzeichnen", "Raum und Form", "Ebene Figuren und Winkel",
-     "In einer aus mehreren kongruenten rechtwinkligen Dreiecken zusammengesetzten Figur einen zu einem "
-     "gegebenen Winkel gleich großen bzw. einen doppelt so großen Winkel markieren, unter Nutzung der "
-     "Kongruenz der Teildreiecke und der Symmetrie der Figur.",
-     "2025-GYM-B1a"),
-    ("Flächeninhalt eines aus vier kongruenten rechtwinkligen Dreiecken zusammengesetzten Vierecks "
-     "berechnen", "Größen und Messen", "Flächeninhalt und Umfang",
-     "Flächeninhalt eines Vierecks (Drachen/Raute) berechnen, das aus vier kongruenten rechtwinkligen "
-     "Dreiecken mit gegebenen Katheten zusammengesetzt ist.",
-     "2025-GYM-B1b"),
-    ("Term durch Zusammenfassen gleichartiger Glieder vereinfachen", "Zahlen und Operationen",
-     "Terme umformen",
-     "Einen Term durch Zusammenfassen gleichartiger Glieder (ohne Klammern oder binomische Formeln) "
-     "vereinfachen und anschließend den Wert für eine gegebene Variablenbelegung berechnen.",
-     "2025-GYM-B2a"),
-    ("Aussage über einen Logarithmusterm als Abstand zur y-Achse prüfen", "Gleichungen und Funktionen",
-     "Exponentialfunktionen und Wachstum",
-     "Prüfen, ob der x-Wert eines Punktes einer Exponentialfunktion (als Abstand zur y-Achse) einem "
-     "gegebenen Logarithmusterm entspricht, unter Beachtung von Basis und Numerus des Logarithmus.",
-     "2025-GYM-K3c"),
-    ("Exponentialfunktion vertikal verschieben und Schnittpunkt mit der y-Achse angeben",
-     "Gleichungen und Funktionen", "Exponentialfunktionen und Wachstum",
-     "Gleichung einer Exponentialfunktion nach vertikaler Verschiebung angeben und den Schnittpunkt des "
-     "verschobenen Graphen mit der y-Achse bestimmen.",
-     "2025-GYM-K3d"),
-    ("Seite im rechtwinkligen Dreieck aus Winkel und Kathete berechnen", "Größen und Messen",
-     "Trigonometrie im rechtwinkligen Dreieck",
-     "Eine fehlende Seite (Kathete oder Hypotenuse) eines rechtwinkligen Dreiecks aus einem gegebenen "
-     "Winkel und einer bekannten Kathete über eine Winkelfunktion berechnen.",
-     "2025-GYM-K4a"),
-    ("Winkel im allgemeinen Dreieck über Sinussatz berechnen", "Größen und Messen", "Sinussatz",
-     "Im allgemeinen Dreieck einen Winkel aus zwei gegebenen Seiten und dem einer der Seiten "
-     "gegenüberliegenden Winkel mit dem Sinussatz berechnen.",
-     "2025-GYM-K4b"),
-    ("Fläche zweier Mantelflächen eines Prismas mit trapezförmiger Grundfläche berechnen",
-     "Größen und Messen", "Volumen und Oberfläche",
-     "Fläche der beiden zu den Schenkeln eines trapezförmigen Prismenquerschnitts gehörenden "
-     "rechteckigen Mantelflächen berechnen, wobei die Schenkellänge zuvor über den Satz des Pythagoras "
-     "aus der Höhe und dem halben Längenunterschied der parallelen Seiten bestimmt wird.",
-     "2025-GYM-K5d"),
-    ("Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen", "Daten und Zufall",
-     "Wahrscheinlichkeit einstufig",
-     "Erwartete Anzahl von Ereignissen in einer Stichprobe aus der Einzelwahrscheinlichkeit und dem "
-     "Stichprobenumfang berechnen (Produkt aus Wahrscheinlichkeit und Anzahl).",
-     "2025-GYM-K6b"),
-    ("Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen",
-     "Daten und Zufall", "Wahrscheinlichkeit mehrstufig",
-     "Aus der Wahrscheinlichkeit, dass mehrere unabhängige gleichartige Ereignisse gemeinsam eintreten, "
-     "durch Wurzelziehen die Einzelwahrscheinlichkeit (den Anteil) zurückrechnen und mit einem "
-     "Vergleichswert in Beziehung setzen.",
-     "2025-GYM-K6c"),
-]
+# Keine – jede Fertigkeit dieses Hefts steht schon in msa-typen.csv, siehe Bericht.
+NEUE_TYPEN = []
 
-row(id="2025-GYM-B1a", block="Basis", aufgabe="1", titel="", teilaufgabe="a", seite="2",
-    punkte="2", hilfsmittel="nein", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
-    typ="Gleich große oder doppelt so große Winkel in einer aus kongruenten Dreiecken zusammengesetzten "
-        "Figur kennzeichnen",
-    stichwoerter="kongruente Dreiecke|Winkel kennzeichnen|Symmetrie", format="Ankreuzen",
-    operator="Kennzeichnen Sie", antwort="Kreuz", material="Figur",
-    skizze="Viereck (Raute) aus vier kongruenten rechtwinkligen Dreiecken mit Katheten a (waagerecht) "
-           "und b (senkrecht), rechter Winkel im Mittelpunkt; α am rechten Mittelpunkt, β an der "
-           "oberen Spitze", kontext="ohne", textumfang="mittel",
-    gegeben="Viereck aus vier kongruenten rechtwinkligen Dreiecken mit Katheten a und b, Winkel α und β "
-            "eingezeichnet",
-    gesucht="ein Winkel γ, der genauso groß wie α ist; ein Winkel δ, der doppelt so groß wie β ist",
-    verfahren="γ am entsprechenden Winkel des kongruenten Dreiecks auf der gegenüberliegenden Seite "
-              "kennzeichnen (z. B. am linken Mittelpunkt); δ als volle Winkelspanne der Spitze aus beiden "
-              "angrenzenden β-Winkeln (oben oder unten) kennzeichnen", schritte="1",
-    ergebnis="γ am linken (oder unteren) Mittelpunktswinkel; δ als voller Spitzenwinkel oben (oder "
-             "unten), zusammengesetzt aus zwei β",
-    niveau_geschaetzt="II",
-    fehlerquelle="δ als einzelnen Winkel eines Teildreiecks statt als Summe zweier β-Winkel kennzeichnen")
+row(id="2026-EBR-B1a", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="a", seite="2",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Prozentrechnung", typ="Prozentwert berechnen",
+    stichwoerter="Prozent|Prozentwert|Geld", format="Kurzantwort", operator="Geben Sie an", antwort="Zahl",
+    material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="30 % von 70 €", gesucht="Prozentwert", verfahren="0,3 · 70", schritte="1",
+    zahlenraum="ganz|Prozent", einheiten="€", ergebnis="21 €", niveau_geschaetzt="I",
+    fehlerquelle="70 : 30 rechnen oder 30 % als 0,03 nehmen",
+    bemerkung="Wortgleich mit 2026-FOR-B1a.")
 
-row(id="2025-GYM-B1b", block="Basis", aufgabe="1", titel="", teilaufgabe="b", seite="2",
-    punkte="3", hilfsmittel="nein", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
-    typ="Flächeninhalt eines aus vier kongruenten rechtwinkligen Dreiecken zusammengesetzten Vierecks "
-        "berechnen",
-    stichwoerter="Raute|vier kongruente Dreiecke|Flächeninhalt", format="Rechnung",
-    operator="Berechnen Sie", antwort="Zahl", material="Figur", skizze="wie 2025-GYM-B1a",
-    kontext="ohne", textumfang="kurz", abhaengig_von="2025-GYM-B1a",
-    gegeben="vier kongruente rechtwinklige Dreiecke mit Kathete a = 4 cm und Kathete b = 2·a",
-    gesucht="Flächeninhalt des abgebildeten Vierecks",
-    verfahren="ein Dreieck hat die Fläche 0,5·a·b; das Viereck besteht aus vier solchen Dreiecken",
-    schritte="2", zahlenraum="ganz", einheiten="cm|cm²",
-    ergebnis="a = 4 cm, b = 8 cm, Flächeninhalt = 64 cm²", niveau_geschaetzt="II",
-    fehlerquelle="nur ein oder zwei Dreiecke statt aller vier in die Flächenberechnung einbeziehen")
-
-row(id="2025-GYM-B2a", block="Basis", aufgabe="2", titel="", teilaufgabe="a", seite="3",
-    punkte="2", hilfsmittel="nein", leitidee="Zahlen und Operationen", thema="Terme umformen",
-    typ="Term durch Zusammenfassen gleichartiger Glieder vereinfachen",
-    stichwoerter="Term vereinfachen|Termwert", format="Rechnung", operator="Vereinfachen Sie",
-    antwort="Zahl", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    gegeben="Term 6x − 3x² − 4x",
-    gesucht="vereinfachter Term; Wert für x = 2",
-    verfahren="gleichartige Glieder zusammenfassen: 6x − 4x = 2x, Term wird 2x − 3x²; x = 2 einsetzen",
-    schritte="2", zahlenraum="ganz",
-    ergebnis="2x − 3x²; Wert für x = 2 ist −8", niveau_geschaetzt="II",
-    fehlerquelle="6x und −4x nicht zusammenfassen oder −3x² mit −3x verwechseln")
-
-row(id="2025-GYM-B2b", block="Basis", aufgabe="2", titel="", teilaufgabe="b", seite="3",
-    punkte="3", hilfsmittel="nein", leitidee="Gleichungen und Funktionen", thema="Quadratische Gleichungen",
-    typ="Nullstellen quadratische Funktion berechnen",
-    stichwoerter="quadratische Gleichung|pq-Formel|Faktorisieren", format="Rechnung",
-    operator="Ermitteln Sie", antwort="Zahl", material="keins", skizze="keine", kontext="ohne",
-    textumfang="kurz",
-    gegeben="Gleichung x² + 2x − 8 = 0",
-    gesucht="Lösungen der Gleichung",
-    verfahren="pq-Formel oder Faktorisieren: (x+4)(x−2) = 0", schritte="1", zahlenraum="ganz",
-    ergebnis="x1 = −4, x2 = 2", niveau_geschaetzt="II",
-    fehlerquelle="nur eine der beiden Lösungen angeben")
-
-row(id="2025-GYM-K3a", block="Kontext", aufgabe="3", titel="Exponentialfunktion", teilaufgabe="a",
-    seite="2", punkte="2", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und "
-    "Wachstum",
-    typ="Punktprobe durchführen",
-    stichwoerter="Punktprobe|Exponentialfunktion", format="Rechnung", operator="Überprüfen Sie",
-    antwort="Text", material="Koordinatensystem",
-    skizze="Graph von f(x)=2^x im Koordinatensystem, streng monoton steigend, durch (0|1)",
+row(id="2026-EBR-B1b", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="b", seite="2",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Brüche und Dezimalzahlen",
+    typ="Bruchteil einer Fläche bestimmen",
+    stichwoerter="Drittel|Anteil|Figur|Kreissektor", format="Ankreuzen", operator="Kreuzen Sie an",
+    antwort="Kreuz", material="Figur",
+    skizze="vier Figuren nebeneinander, je ein Ankreuzfeld darüber: 1 Rechteck mit schmalem grauem "
+           "Streifen am linken Rand (etwa ein Sechstel der Breite); 2 auf der Spitze stehendes Quadrat "
+           "aus vier gleichen Teilquadraten, das rechte grau; 3 Parallelogramm, durch eine Diagonale "
+           "geteilt, das linke Dreieck grau; 4 Kreis mit grauem Sektor von 120° (von oben gegen den "
+           "Uhrzeigersinn bis etwa 8 Uhr)",
     kontext="ohne", textumfang="kurz",
-    gegeben="f(x) = 2^x; Punkt P(−4|0,05)",
-    gesucht="ob P auf dem Graphen von f liegt",
-    verfahren="f(−4) = 2^(−4) = 1:16 = 0,0625 berechnen und mit 0,05 vergleichen", schritte="1",
-    zahlenraum="Bruch",
-    ergebnis="f(−4) = 0,0625 ≠ 0,05, P liegt nicht auf dem Graphen", niveau_geschaetzt="II",
-    fehlerquelle="2^(−4) als negative Zahl (−2^4) statt als 1:2^4 berechnen")
+    gegeben="vier Figuren mit grauer Teilfläche: Rechteck (ca. 1/6), Quadrat (1/4), Parallelogramm "
+            "(1/2), Kreis (120°-Sektor)",
+    gesucht="Figur, deren grauer Anteil 1/3 ist",
+    verfahren="120° von 360° sind ein Drittel; die anderen Anteile sind 1/6, 1/4, 1/2", schritte="1",
+    zahlenraum="Bruch", ergebnis="vierte Abbildung (Kreis mit 120°-Sektor)", niveau_geschaetzt="I",
+    fehlerquelle="grauen Streifen des Rechtecks nach Augenmaß als Drittel schätzen",
+    bemerkung="Wortgleich mit 2026-FOR-B1b (eigene Bildvermessung bestätigt Rechteck ≈ 1/6, Quadrat "
+              "1/4, Parallelogramm 1/2, Kreissektor 120° = 1/3).")
 
-row(id="2025-GYM-K3b", block="Kontext", aufgabe="3", titel="Exponentialfunktion", teilaufgabe="b",
-    seite="2", punkte="1", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und "
-    "Wachstum",
-    typ="Wertebereich einer Funktion angeben",
-    stichwoerter="Wertebereich|Exponentialfunktion", format="Kurzantwort", operator="Geben Sie an",
+row(id="2026-EBR-B1c", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="c", seite="2",
+    punkte="1", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Eigenschaft einer Figur zuordnen",
+    stichwoerter="Trapez|parallele Seiten|Vierecke", format="Ankreuzen", operator="Kreuzen Sie an",
+    antwort="Kreuz", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Satzanfang „In jedem Trapez …“ mit drei Optionen: sind alle Winkel gleich groß; gibt es "
+            "ein Paar paralleler Seiten; sind alle Seiten gleich lang",
+    gesucht="zutreffende Eigenschaft",
+    verfahren="Definition des Trapezes: mindestens ein Paar paralleler Seiten", schritte="0",
+    zahlenraum="ganz", ergebnis="gibt es ein Paar paralleler Seiten", niveau_geschaetzt="I",
+    fehlerquelle="Trapez mit Raute oder Rechteck verwechseln",
+    bemerkung="Wortgleich mit 2026-FOR-B1c.")
+
+row(id="2026-EBR-B1d", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="d", seite="2",
+    punkte="1", leitidee="Größen und Messen", thema="Einheiten umrechnen", typ="Größen vergleichen",
+    stichwoerter="Meter|Zentimeter|Vergleichszeichen", format="Eintragen", operator="Setzen Sie ein",
     antwort="Term", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    abhaengig_von="2025-GYM-K3a",
-    gegeben="f(x) = 2^x",
-    gesucht="Wertebereich von f",
-    verfahren="Exponentialfunktionen mit positiver Basis nehmen nur positive Werte an", schritte="1",
-    ergebnis="f(x) > 0 für alle x (Wertebereich ℝ⁺)", niveau_geschaetzt="I",
-    fehlerquelle="0 fälschlich zum Wertebereich zählen")
+    gegeben="3,5 m □ 35 cm, Zeichen <, = oder >", gesucht="richtiges Zeichen",
+    verfahren="3,5 m = 350 cm > 35 cm", schritte="1", zahlenraum="dezimal", einheiten="m|cm",
+    ergebnis=">", niveau_geschaetzt="I", fehlerquelle="3,5 m als 35 cm lesen und = setzen",
+    bemerkung="Wortgleich mit 2026-FOR-B1d.")
 
-row(id="2025-GYM-K3c", block="Kontext", aufgabe="3", titel="Exponentialfunktion", teilaufgabe="c",
-    seite="2", punkte="3", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und "
-    "Wachstum",
-    typ="Aussage über einen Logarithmusterm als Abstand zur y-Achse prüfen",
-    stichwoerter="Logarithmus|Basiswechsel|Abstand zur y-Achse", format="Rechnung", operator="Prüfen Sie",
-    antwort="Text", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    abhaengig_von="2025-GYM-K3a",
-    gegeben="f(x) = 2^x; Punkt R(x|10) auf dem Graphen von f; Behauptung: Abstand von R zur y-Achse ist "
-            "log₁₀(2)",
-    gesucht="Wahrheitsgehalt der Behauptung",
-    verfahren="Abstand zur y-Achse ist |x| mit 2^x=10, also x=log₂(10) ≈ 3,32; log₁₀(2) ≈ 0,301 "
-              "berechnen und vergleichen (log₂(10) und log₁₀(2) sind zueinander reziprok, nicht gleich)",
-    schritte="2", zahlenraum="dezimal",
-    ergebnis="Behauptung ist falsch: log₂(10) ≈ 3,32 ≠ log₁₀(2) ≈ 0,301", niveau_geschaetzt="III",
-    fehlerquelle="log₂(10) und log₁₀(2) für denselben Wert halten, statt Basis und Numerus zu "
-                 "unterscheiden")
+row(id="2026-EBR-B1e", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="e", seite="2",
+    punkte="1", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Wertetabelle einer Funktion zuordnen",
+    stichwoerter="Wertetabelle|y = 3x²|Funktionsgleichung", format="Ankreuzen", operator="Kreuzen Sie an",
+    antwort="Kreuz", material="Tabelle",
+    skizze="drei Wertetabellen nebeneinander, je ein Ankreuzfeld darüber; x-Zeile jeweils −2, −1, 0, 1, "
+           "2; y-Zeilen: 12, 3, 0, 3, 12 | −6, −3, 0, 3, 6 | 4, 1, 0, 1, 4",
+    kontext="ohne", textumfang="kurz",
+    gegeben="y = 3x²; drei Wertetabellen für x = −2 … 2 mit y = 12, 3, 0, 3, 12 bzw. −6, −3, 0, 3, 6 "
+            "bzw. 4, 1, 0, 1, 4",
+    gesucht="passende Tabelle", verfahren="einen Wert prüfen: 3 · 2² = 12", schritte="1",
+    zahlenraum="ganz|negativ|Potenz", ergebnis="erste Tabelle (y = 12, 3, 0, 3, 12)",
+    zwischenergebnis="Tabelle 2 gehört zu y = 3x, Tabelle 3 zu y = x²", niveau_geschaetzt="I",
+    fehlerquelle="3x² als 3x oder als (3x)² lesen", bemerkung="Wortgleich mit 2026-FOR-B1e.")
 
-row(id="2025-GYM-K3d", block="Kontext", aufgabe="3", titel="Exponentialfunktion", teilaufgabe="d",
-    seite="3", punkte="2", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und "
-    "Wachstum",
-    typ="Exponentialfunktion vertikal verschieben und Schnittpunkt mit der y-Achse angeben",
-    stichwoerter="Verschiebung nach unten|y-Achsenabschnitt", format="Kurzantwort", operator="Geben Sie an",
-    antwort="Term", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
-    abhaengig_von="2025-GYM-K3a",
-    gegeben="f(x) = 2^x wird um 4 LE entlang der y-Achse nach unten verschoben",
-    gesucht="Funktionsgleichung des verschobenen Graphen; Koordinaten des Schnittpunkts S mit der "
-            "y-Achse",
-    verfahren="Verschiebung um 4 nach unten: neue Funktion 2^x − 4; Schnittpunkt mit der y-Achse bei "
-              "x=0 berechnen", schritte="1", zahlenraum="ganz",
-    ergebnis="2^x − 4; S(0|−3)", niveau_geschaetzt="II",
-    fehlerquelle="die Verschiebung auf den Exponenten statt auf den Funktionswert anwenden (2^(x−4))")
+row(id="2026-EBR-B1f", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="f", seite="2",
+    punkte="1", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Volumen Würfel berechnen",
+    stichwoerter="Würfel|Volumen|Kantenlänge", format="Kurzantwort", operator="Geben Sie an",
+    antwort="Zahl", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Würfel mit Kantenlänge a = 3 cm", gesucht="Volumen", verfahren="V = a³ = 3 · 3 · 3",
+    schritte="1", zahlenraum="ganz|Potenz", einheiten="cm|cm³", ergebnis="27 cm³",
+    niveau_geschaetzt="I", fehlerquelle="3 · 3 = 9 oder Oberfläche 54 cm²",
+    bemerkung="Wortgleich mit 2026-FOR-B1f.")
 
-row(id="2025-GYM-K3e", block="Kontext", aufgabe="3", titel="Exponentialfunktion", teilaufgabe="e",
-    seite="3", punkte="3", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und "
-    "Wachstum",
-    typ="Funktionswert berechnen", typ_neben="Wertetabelle als Punkte darstellen",
-    stichwoerter="Wertetabelle|Graph zeichnen", format="Kurzantwort|Zeichnen",
-    operator="Geben Sie an|Skizzieren Sie", antwort="Zahl|Grafik", material="Koordinatensystem",
-    skizze="Koordinatensystem für g(x)=2^(−x), Wertetabelle mit x = −2 und x = 1,5", kontext="ohne",
-    textumfang="kurz", abhaengig_von="2025-GYM-K3a",
-    gegeben="g(x) = 2^(−x); Wertetabelle für x = −2 und x = 1,5",
-    gesucht="Funktionswerte g(−2) und g(1,5); Graph von g mindestens im Intervall [−2;1,5]",
-    verfahren="g(−2) = 2^2 = 4; g(1,5) = 2^(−1,5) ≈ 0,354; Punkte eintragen und verbinden", schritte="2",
-    zahlenraum="dezimal",
-    ergebnis="g(−2) = 4; g(1,5) ≈ 0,35", niveau_geschaetzt="II",
-    fehlerquelle="beim negativen Exponenten das Vorzeichen falsch behandeln (g(−2) = 2^(−2) statt 2^2)")
+row(id="2026-EBR-B1g", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="g", seite="2",
+    punkte="1", leitidee="Zahlen und Operationen", thema="Rationale Zahlen rechnen",
+    typ="Termwert berechnen",
+    stichwoerter="Term|Einsetzen|negative Zahlen", format="Kurzantwort", operator="Geben Sie an",
+    antwort="Zahl", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Term 5 · (x − 3), x = −2", gesucht="Wert des Terms", verfahren="5 · (−2 − 3) = 5 · (−5)",
+    schritte="2", zahlenraum="ganz|negativ", ergebnis="−25", niveau_geschaetzt="I",
+    fehlerquelle="−2 − 3 = −1 oder Vorzeichen des Produkts", bemerkung="Wortgleich mit 2026-FOR-B1g.")
 
-row(id="2025-GYM-K3f", block="Kontext", aufgabe="3", titel="Exponentialfunktion", teilaufgabe="f",
-    seite="3", punkte="1", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und "
-    "Wachstum",
-    typ="Graph einer Exponentialfunktion an der y-Achse spiegeln",
-    stichwoerter="Spiegelung an der y-Achse|Exponent negiert", format="Begründung",
-    operator="Beschreiben Sie", antwort="Text", material="keins", skizze="keine", kontext="ohne",
-    textumfang="kurz", abhaengig_von="2025-GYM-K3e",
-    gegeben="f(x) = 2^x, g(x) = 2^(−x)",
-    gesucht="Beschreibung, wie der Graph von g aus dem Graphen von f hervorgeht",
-    verfahren="g(x) = f(−x), also Vorzeichenwechsel im Exponenten", schritte="1",
-    ergebnis="g entsteht durch Spiegelung des Graphen von f an der y-Achse", niveau_geschaetzt="I",
-    fehlerquelle="eine Spiegelung an der x-Achse statt an der y-Achse angeben")
+row(id="2026-EBR-B1h", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="h", seite="3",
+    punkte="1", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
+    typ="Umfang Rechteck berechnen",
+    stichwoerter="Rechteck|Umfang|Dezimalzahlen", format="Kurzantwort", operator="Geben Sie an",
+    antwort="Zahl", material="keins", skizze="keine", kontext="ohne", textumfang="kurz",
+    gegeben="Rechteck mit a = 3,5 cm und b = 1,5 cm", gesucht="Umfang", verfahren="u = 2 · (a + b) = 2 · 5",
+    schritte="1", zahlenraum="dezimal", einheiten="cm", ergebnis="10 cm", niveau_geschaetzt="I",
+    fehlerquelle="Flächeninhalt 5,25 cm² statt Umfang oder a + b",
+    bemerkung="Wortgleich mit 2026-FOR-B1h.")
 
-row(id="2025-GYM-K4a", block="Kontext", aufgabe="4", titel="Dorfteich", teilaufgabe="a", seite="4",
-    punkte="2", leitidee="Größen und Messen", thema="Trigonometrie im rechtwinkligen Dreieck",
-    typ="Seite im rechtwinkligen Dreieck aus Winkel und Kathete berechnen",
-    stichwoerter="Peilung|rechtwinkliges Dreieck|Hypotenuse", format="Rechnung",
-    operator="Weisen Sie rechnerisch nach", antwort="Text", material="Figur",
-    skizze="Viereck PSZQ am Dorfteich: P und Q auf einer Standlinie (PQ=150 m), bei P Winkel 50° (zu S) "
-           "und 40° (zu Z, zusammen 90° zu PQ), bei Q Winkel β (zu Z) und 20° (zu S, zu PQ); S liegt am "
-           "Teichrand, Z gegenüber; nicht maßstabsgerecht", kontext="Freizeit/Sport", textumfang="mittel",
-    gegeben="rechtwinkliges Dreieck SPQ (rechter Winkel bei P, da 50°+40°=90°), PQ = 150 m, Winkel SQP "
-            "= 20°",
-    gesucht="Nachweis, dass SQ ≈ 159,6 m",
-    verfahren="cos(20°) = PQ:SQ, also SQ = PQ:cos(20°)", schritte="1", zahlenraum="dezimal",
-    einheiten="m", ergebnis="SQ ≈ 159,63 m ≈ 159,6 m", niveau_geschaetzt="II",
-    fehlerquelle="sin und cos vertauschen und SQ = PQ:sin(20°) berechnen")
-
-row(id="2025-GYM-K4b", block="Kontext", aufgabe="4", titel="Dorfteich", teilaufgabe="b", seite="4",
-    punkte="4", leitidee="Größen und Messen", thema="Sinussatz",
-    typ="Winkel im allgemeinen Dreieck über Sinussatz berechnen",
-    stichwoerter="Sinussatz|Winkelsumme|Dreieck PQZ", format="Rechnung", operator="Zeigen Sie rechnerisch",
-    antwort="Text", material="Figur", skizze="wie 2025-GYM-K4a; zusätzlich QZ = 117,7 m eingezeichnet",
-    kontext="Freizeit/Sport", textumfang="mittel", abhaengig_von="2025-GYM-K4a",
-    gegeben="Dreieck PQZ mit PQ = 150 m, Winkel bei P (ZPQ) = 40°, QZ = 117,7 m (Seite gegenüber P)",
-    gesucht="Nachweis, dass Winkel α (bei Z) ≈ 55° ist; Nachweis, dass Winkel β ≈ 65° ist",
-    verfahren="Sinussatz: QZ:sin(P) = PQ:sin(Z), also sin(Z) = PQ·sin(40°):QZ, α = Z = arcsin(...); "
-              "Winkel bei Q im Dreieck PQZ = 180° − 40° − α; davon ist 20° der Winkel SQP (aus "
-              "Teilaufgabe a), der Rest ist β = (180° − 40° − α) − 20°", schritte="3",
-    zahlenraum="dezimal", einheiten="Grad", ergebnis="α ≈ 55,0°; β ≈ 65,0°", niveau_geschaetzt="III",
-    fehlerquelle="den Sinussatz mit der falschen Seiten-Winkel-Zuordnung ansetzen (QZ gegenüber Z statt "
-                 "gegenüber P)")
-
-row(id="2025-GYM-K4c", block="Kontext", aufgabe="4", titel="Dorfteich", teilaufgabe="c", seite="5",
-    punkte="3", leitidee="Größen und Messen", thema="Sinussatz",
-    typ="Seite im allgemeinen Dreieck über Kosinussatz berechnen",
-    stichwoerter="Kosinussatz|Mindestlänge|Bedingung prüfen", format="Rechnung", operator="Prüfen Sie",
-    antwort="Text", material="keins", skizze="keine", kontext="Freizeit/Sport", textumfang="kurz",
-    abhaengig_von="2025-GYM-K4b",
-    gegeben="Dreieck SQZ mit SQ ≈ 159,6 m, QZ = 117,7 m, Winkel SQZ = β ≈ 65°; geforderte Mindestlänge "
-            "SZ ≥ 150 m",
-    gesucht="ob die Strecke SZ mindestens 150 m lang ist",
-    verfahren="Kosinussatz: SZ² = SQ² + QZ² − 2·SQ·QZ·cos(65°)", schritte="1", zahlenraum="dezimal",
-    einheiten="m", ergebnis="SZ ≈ 153,1 m ≥ 150 m, die Bedingung ist erfüllt", niveau_geschaetzt="III",
-    fehlerquelle="den falschen (nicht eingeschlossenen) Winkel in den Kosinussatz einsetzen")
-
-row(id="2025-GYM-K5a", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="a", seite="6",
-    punkte="2", leitidee="Größen und Messen", thema="Flächeninhalt und Umfang",
-    typ="Flächeninhalt Trapez berechnen",
-    stichwoerter="Trapez|Grundfläche|Prisma", format="Rechnung", operator="Weisen Sie nach",
-    antwort="Text", material="Figur",
-    skizze="Prisma, Grundfläche gleichschenkliges Trapez mit parallelen Seiten 6 cm und 12 cm, Abstand "
-           "6 cm, Prismenhöhe 10 cm; nicht maßstabsgerecht", kontext="Freizeit/Konsum", textumfang="kurz",
-    gegeben="Trapez mit parallelen Seiten 6 cm und 12 cm, Abstand (Höhe) 6 cm",
-    gesucht="Nachweis, dass die Grundfläche 54 cm² beträgt",
-    verfahren="A = 0,5 · (a + c) · h mit a=6, c=12, h=6", schritte="1", zahlenraum="ganz",
-    einheiten="cm|cm²", ergebnis="A = 54 cm²", niveau_geschaetzt="I",
-    fehlerquelle="nur eine der beiden parallelen Seiten in die Formel einsetzen")
-
-row(id="2025-GYM-K5b", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="b", seite="6",
-    punkte="4", leitidee="Raum und Form", thema="Körper, Netze, Schrägbilder",
-    typ="Körper im Schrägbild darstellen",
-    stichwoerter="Schrägbild|Maßstab 1:1|Verzerrungsfaktor", format="Zeichnen", operator="Zeichnen Sie",
-    antwort="Grafik", material="keins",
-    skizze="Schrägbild des Prismas mit trapezförmiger Grundfläche, Verzerrungsfaktor q=0,5, "
-           "Winkel α=45°, Maßstab 1:1", kontext="Freizeit/Konsum", textumfang="kurz",
-    abhaengig_von="2025-GYM-K5a",
-    gegeben="Prisma mit trapezförmiger Grundfläche (Maße aus Teilaufgabe a) und Höhe 10 cm; "
-            "Schrägbildparameter q=0,5, α=45°",
-    gesucht="Schrägbild der Verpackung im Maßstab 1:1",
-    verfahren="Grundfläche wahr zeichnen, Tiefenachse im Winkel α=45° mit dem Verzerrungsfaktor q=0,5 "
-              "antragen, Prismenhöhe 10 cm senkrecht antragen", schritte="1",
-    ergebnis="Schrägbild des Prismas mit trapezförmiger Grundfläche", niveau_geschaetzt="II",
-    fehlerquelle="die Tiefenachse ohne den Verzerrungsfaktor q in wahrer Länge abtragen")
-
-row(id="2025-GYM-K5c", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="c", seite="7",
-    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
-    typ="Volumen Prisma berechnen", typ_neben="Masse aus Volumen und Dichte berechnen",
-    stichwoerter="Prismenvolumen|Füllgrad|Masse", format="Rechnung", operator="Berechnen Sie",
-    antwort="Zahl", material="keins", skizze="keine", kontext="Freizeit/Konsum", textumfang="mittel",
-    abhaengig_von="2025-GYM-K5a",
-    gegeben="Grundfläche 54 cm² (aus Teilaufgabe a), Prismenhöhe 10 cm; Seifenstücke füllen 80 % des "
-            "Volumens; 1 cm³ Seife hat eine Masse von 0,9 g",
-    gesucht="Volumen der Verpackung; Masse der enthaltenen Seife",
-    verfahren="V = Grundfläche · Höhe; Seifenvolumen = 80 % von V; Masse = Seifenvolumen · 0,9 g/cm³",
-    schritte="3", zahlenraum="ganz", einheiten="cm³|g",
-    ergebnis="V = 540 cm³; Seifenvolumen = 432 cm³; Masse ≈ 388,8 g", niveau_geschaetzt="II",
-    fehlerquelle="die 80 % auf die Masse statt auf das Volumen anwenden")
-
-row(id="2025-GYM-K5d", block="Kontext", aufgabe="5", titel="Verpackung", teilaufgabe="d", seite="7",
-    punkte="4", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
-    typ="Fläche zweier Mantelflächen eines Prismas mit trapezförmiger Grundfläche berechnen",
-    typ_neben="Mantellinie Kegel bestimmen",
-    stichwoerter="Körpernetz|Schenkel|Folie", format="Rechnung", operator="Berechnen Sie",
+row(id="2026-EBR-B1i", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="i", seite="3",
+    punkte="1", leitidee="Raum und Form", thema="Ebene Figuren und Winkel",
+    typ="Winkel im Viereck berechnen",
+    stichwoerter="Parallelogramm|Nebenwinkel|180°", format="Kurzantwort", operator="Geben Sie an",
     antwort="Zahl", material="Figur",
-    skizze="Netz des Prismas: zwei schräg abstehende, mit Blumenmotiv gemusterte Flächen (die beiden "
-           "Schenkelflächen des Trapezquerschnitts) neben einem mittleren Rechteckband und den beiden "
-           "Trapezflächen (Grund-/Deckfläche); nicht maßstabsgerecht", kontext="Freizeit/Konsum",
-    textumfang="mittel", abhaengig_von="2025-GYM-K5a",
-    gegeben="Trapez mit parallelen Seiten 6 cm und 12 cm, Abstand 6 cm (aus Teilaufgabe a); "
-            "Prismenhöhe 10 cm; zwei Schenkelflächen werden mit Folie beklebt",
-    gesucht="benötigte Fläche Folie für die beiden mit Blumenmotiv bedruckten Flächen",
-    verfahren="Schenkellänge über Pythagoras: √(((12−6):2)² + 6²) = √(3² + 6²) = √45 = 3√5 cm; jede "
-              "Schenkelfläche (Rechteck) hat die Fläche Schenkellänge · 10 cm; zwei Flächen zusammen",
-    schritte="3", zahlenraum="Wurzel", einheiten="cm|cm²",
-    ergebnis="Schenkellänge = 3√5 cm ≈ 6,71 cm; Folie insgesamt = 2 · 3√5 · 10 ≈ 134,2 cm²",
+    skizze="Parallelogramm, lange Seiten waagerecht, nach rechts geneigt; Winkel 75° an der linken "
+           "unteren Ecke, β an der rechten unteren Ecke; Hinweis „Abbildung nicht maßstabsgerecht“",
+    kontext="ohne", textumfang="kurz",
+    gegeben="Parallelogramm mit Winkel 75° links unten; β ist der benachbarte Winkel rechts unten",
+    gesucht="β", verfahren="benachbarte Winkel im Parallelogramm ergänzen sich zu 180°: 180° − 75°",
+    schritte="1", zahlenraum="ganz", einheiten="Grad", ergebnis="105°", niveau_geschaetzt="I",
+    fehlerquelle="β = 75° (gegenüberliegende statt benachbarte Winkel)",
+    bemerkung="Wortgleich mit 2026-FOR-B1i.")
+
+row(id="2026-EBR-B1j", block="Basis", aufgabe="1", titel="Basisaufgaben", teilaufgabe="j", seite="3",
+    punkte="1", leitidee="Größen und Messen", thema="Satz des Pythagoras",
+    typ="Pythagoras Gleichung zuordnen",
+    stichwoerter="Pythagoras|Hypotenuse|Formel wählen", format="Ankreuzen", operator="Kreuzen Sie an",
+    antwort="Kreuz", material="Figur",
+    skizze="rechtwinkliges Dreieck, rechter Winkel unten rechts markiert, Kathete u waagerecht unten, "
+           "Kathete v senkrecht rechts, Hypotenuse w von links unten nach rechts oben; links drei "
+           "Optionen mit Ankreuzfeld: w = √(v² − u²), w = √(u² − v²), w = √(u² + v²)",
+    kontext="ohne", textumfang="kurz",
+    gegeben="rechtwinkliges Dreieck mit Katheten u, v und Hypotenuse w; drei Gleichungen zur Auswahl",
+    gesucht="Gleichung für w", verfahren="w ist die Hypotenuse, also w² = u² + v²", schritte="0",
+    zahlenraum="Wurzel|Potenz", ergebnis="w = √(u² + v²) (dritte Option)", niveau_geschaetzt="I",
+    fehlerquelle="w als Kathete ansehen und eine Differenz wählen",
+    bemerkung="Wortgleich mit 2026-FOR-B1j.")
+
+row(id="2026-EBR-K2a", block="Kontext", aufgabe="2", titel="Turm", teilaufgabe="a", seite="4",
+    punkte="2", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Volumen Zylinder berechnen",
+    stichwoerter="Zylinder|Volumen|Turm", voraussetzungen="Formel aus der Formelsammlung entnehmen",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl", material="Körper",
+    skizze="Turm als Körper: grau schattierter Zylinder mit Höhe h (Maßpfeil rechts) und Radius r "
+           "(Pfeil am Boden), darauf ein Kegel mit Mantellinie s (Pfeil an der Schräge); Maße im Text "
+           "links: h = 25,0 m, r = 4,7 m, s = 8,6 m; Hinweis „Abbildung nicht maßstabsgerecht“; "
+           "Karokästchen",
+    kontext="Bauwesen/Architektur", textumfang="mittel",
+    gegeben="Zylinder mit r = 4,7 m und h = 25,0 m", gesucht="Volumen des Zylinders",
+    verfahren="V = π · r² · h = π · 4,7² · 25", schritte="1", zahlenraum="dezimal", einheiten="m|m³",
+    ergebnis="≈ 1734,9 m³", niveau_geschaetzt="I",
+    fehlerquelle="r² als 2r rechnen oder r mit dem Durchmesser verwechseln",
+    bemerkung="Wortgleich mit 2026-FOR-K2a.")
+
+row(id="2026-EBR-K2b", block="Kontext", aufgabe="2", titel="Turm", teilaufgabe="b", seite="4",
+    punkte="3", leitidee="Größen und Messen", thema="Volumen und Oberfläche",
+    typ="Mantelfläche Kegel berechnen", typ_neben="Kosten aus Menge und Preis berechnen",
+    stichwoerter="Kegel|Mantelfläche|Dachziegel|Kosten", voraussetzungen="Formel Kegelmantel",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl", material="Körper",
+    skizze="Turm als Körper: grau schattierter Zylinder mit Höhe h (Maßpfeil rechts) und Radius r "
+           "(Pfeil am Boden), darauf ein Kegel mit Mantellinie s (Pfeil an der Schräge); Maße im Text "
+           "links: h = 25,0 m, r = 4,7 m, s = 8,6 m; Hinweis „Abbildung nicht maßstabsgerecht“ "
+           "(Abbildung im Stamm auf Seite 4)",
+    kontext="Bauwesen/Architektur", textumfang="mittel",
+    gegeben="Kegeldach mit r = 4,7 m und Mantellinie s = 8,6 m; 1 m² Dachziegel kostet 20,00 €",
+    gesucht="Kosten der Dachziegel",
+    verfahren="M = π · r · s = π · 4,7 · 8,6 ≈ 127,0 m²; Kosten 127,0 · 20 €", schritte="2",
+    zahlenraum="dezimal", einheiten="m|m²|€", ergebnis="≈ 2539,66 € (rund 2540 €)",
+    zwischenergebnis="M ≈ 126,98 m²", niveau_geschaetzt="II",
+    fehlerquelle="Grundfläche des Kegels mitrechnen oder s als Höhe einsetzen",
+    bemerkung="Wortgleich mit 2026-FOR-K2b.")
+
+row(id="2026-EBR-K3a", block="Kontext", aufgabe="3", titel="Viereck", teilaufgabe="a", seite="5",
+    punkte="2", leitidee="Größen und Messen", thema="Satz des Pythagoras", typ="Pythagoras Kathete",
+    stichwoerter="Parallelogramm|Höhe|Pythagoras|Kathete", voraussetzungen="Wurzel ziehen",
+    format="Rechnung", operator="Berechnen Sie", antwort="Zahl", material="Figur",
+    skizze="Parallelogramm ABCD (A links unten, B rechts unten, C rechts oben, D links oben, nach "
+           "rechts geneigt); Seite BC mit 32 cm beschriftet; AB über B hinaus bis F verlängert, "
+           "BF = 13 cm; von C gestrichelt senkrecht nach unten die Höhe h bis F, rechter Winkel in F; "
+           "Winkel ε bei B zwischen BF und BC; Hinweis „Abbildung nicht maßstabsgerecht“; Karokästchen",
+    kontext="ohne", textumfang="mittel",
+    gegeben="Parallelogramm ABCD; BC = 32 cm; F auf der Verlängerung von AB mit BF = 13 cm; CF = h "
+            "steht senkrecht auf AF; ε = Winkel CBF",
+    gesucht="h", verfahren="h = √(32² − 13²) = √855", schritte="2", zahlenraum="ganz|Wurzel|dezimal",
+    einheiten="cm", ergebnis="h ≈ 29,2 cm", zwischenergebnis="h² = 1024 − 169 = 855",
+    niveau_geschaetzt="I", fehlerquelle="32² + 13² addieren",
+    bemerkung="Wortgleich mit 2026-FOR-K4a.")
+
+row(id="2026-EBR-K3b", block="Kontext", aufgabe="3", titel="Viereck", teilaufgabe="b", seite="5",
+    punkte="2", leitidee="Größen und Messen", thema="Trigonometrie im rechtwinkligen Dreieck",
+    typ="Winkel im rechtwinkligen Dreieck berechnen",
+    stichwoerter="Kosinus|Ankathete|Hypotenuse|Nachweis",
+    voraussetzungen="Umkehrfunktion cos⁻¹ am Taschenrechner", format="Rechnung",
+    operator="Weisen Sie nach", antwort="Zahl", material="Figur",
+    skizze="Parallelogramm ABCD (A links unten, B rechts unten, C rechts oben, D links oben, nach "
+           "rechts geneigt); Seite BC mit 32 cm beschriftet; AB über B hinaus bis F verlängert, "
+           "BF = 13 cm; von C gestrichelt senkrecht nach unten die Höhe h bis F, rechter Winkel in F; "
+           "Winkel ε bei B zwischen BF und BC; Hinweis „Abbildung nicht maßstabsgerecht“ (Abbildung im "
+           "Stamm auf Seite 5)",
+    kontext="ohne", textumfang="kurz",
+    gegeben="Parallelogramm ABCD; BC = 32 cm; F auf der Verlängerung von AB mit BF = 13 cm; CF = h "
+            "steht senkrecht auf AF; ε = Winkel CBF",
+    gesucht="Nachweis ε ≈ 66°",
+    verfahren="cos ε = 13 : 32 = 0,406; ε = cos⁻¹(0,406); alternativ tan ε = h : 13 mit h aus a)",
+    schritte="2", zahlenraum="ganz|dezimal", einheiten="cm|Grad", ergebnis="ε ≈ 66,0°",
+    niveau_geschaetzt="I", fehlerquelle="sin statt cos (13 als Gegenkathete)",
+    bemerkung="über cos unabhängig von a); über tan abhängig von 2026-EBR-K3a. Übrige Angaben "
+              "wortgleich mit 2026-FOR-K4b.")
+
+row(id="2026-EBR-K4a", block="Kontext", aufgabe="4", titel="Benzinpreise", teilaufgabe="a", seite="6",
+    punkte="1", leitidee="Daten und Zufall", thema="Kenngrößen", typ="Spannweite berechnen",
+    stichwoerter="Spannweite|Maximum|Minimum|Preise", format="Kurzantwort", operator="Geben Sie an",
+    antwort="Zahl", material="Tabelle",
+    skizze="Tabelle mit Kopfzeile „Wochentage“ (Mo bis So) und Zeile „Benzinpreis in € pro Liter“: "
+           "1,77; 1,78; 1,77; 1,79; 1,84; 1,82; 1,85; Zapfsäulen-Piktogramm",
+    kontext="Tankstelle/Preise", textumfang="kurz",
+    gegeben="Benzinpreise: Mo 1,77; Di 1,78; Mi 1,77; Do 1,79; Fr 1,84; Sa 1,82; So 1,85 (€ pro Liter)",
+    gesucht="Spannweite", verfahren="1,85 − 1,77", schritte="1", zahlenraum="dezimal", einheiten="€",
+    ergebnis="0,08 € pro Liter", niveau_geschaetzt="I",
+    fehlerquelle="Sa statt So als Maximum nehmen (0,05)",
+    bemerkung="Wortgleich mit 2026-FOR-K3a.")
+
+row(id="2026-EBR-K4b", block="Kontext", aufgabe="4", titel="Benzinpreise", teilaufgabe="b", seite="6",
+    punkte="2", leitidee="Daten und Zufall", thema="Kenngrößen", typ="Arithmetisches Mittel berechnen",
+    typ_neben="Behauptung prüfen", stichwoerter="Mittelwert|Teilzeitraum|Behauptung", format="Rechnung",
+    operator="Zeigen Sie rechnerisch", antwort="Zahl", material="Tabelle",
+    skizze="Tabelle mit Kopfzeile „Wochentage“ (Mo bis So) und Zeile „Benzinpreis in € pro Liter“: "
+           "1,77; 1,78; 1,77; 1,79; 1,84; 1,82; 1,85; Zapfsäulen-Piktogramm",
+    kontext="Tankstelle/Preise", textumfang="mittel",
+    gegeben="Benzinpreise: Mo 1,77; Di 1,78; Mi 1,77; Do 1,79; Fr 1,84; Sa 1,82; So 1,85 (€ pro Liter); "
+            "Behauptung: Mo bis Fr liegt der Durchschnittspreis unter 1,80 €",
+    gesucht="Nachweis der Behauptung", verfahren="(1,77 + 1,78 + 1,77 + 1,79 + 1,84) : 5 = 8,95 : 5",
+    schritte="2", zahlenraum="dezimal", einheiten="€",
+    ergebnis="Mittel Mo–Fr = 1,79 € < 1,80 €, Aussage richtig", zwischenergebnis="Summe 8,95",
+    niveau_geschaetzt="I", fehlerquelle="alle sieben Tage mitteln (1,803) und die Aussage verwerfen",
+    bemerkung="Wortgleich mit 2026-FOR-K3b.")
+
+row(id="2026-EBR-K4c", block="Kontext", aufgabe="4", titel="Benzinpreise", teilaufgabe="c", seite="6",
+    punkte="2", leitidee="Zahlen und Operationen", thema="Prozentrechnung",
+    typ="Prozentuale Veränderung berechnen",
+    stichwoerter="Preissteigerung|Prozent|Grundwert alt", format="Rechnung", operator="Berechnen Sie",
+    antwort="Zahl", material="Tabelle",
+    skizze="Tabelle mit Kopfzeile „Wochentage“ (Mo bis So) und Zeile „Benzinpreis in € pro Liter“: "
+           "1,77; 1,78; 1,77; 1,79; 1,84; 1,82; 1,85; Zapfsäulen-Piktogramm",
+    kontext="Tankstelle/Preise", textumfang="kurz",
+    gegeben="Preis Do 1,79 €, Fr 1,84 €", gesucht="Steigerung in Prozent",
+    verfahren="1,84 : 1,79 = 1,0279, also 2,8 %; oder 0,05 : 1,79", schritte="2",
+    zahlenraum="dezimal|Prozent", einheiten="€|%", ergebnis="≈ 2,8 %", zwischenergebnis="Differenz 0,05 €",
+    niveau_geschaetzt="II", fehlerquelle="Differenz auf den neuen Preis beziehen (0,05 : 1,84 = 2,7 %)",
+    bemerkung="Wortgleich mit 2026-FOR-K3c.")
+
+row(id="2026-EBR-K4d", block="Kontext", aufgabe="4", titel="Benzinpreise", teilaufgabe="d", seite="7",
+    punkte="1", leitidee="Daten und Zufall", thema="Daten darstellen",
+    typ="Säulen- oder Balkendiagramm ergänzen",
+    stichwoerter="Säulendiagramm|Skala|ergänzen", format="Zeichnen", operator="Zeichnen Sie ein",
+    antwort="Grafik", material="Diagramm",
+    skizze="Säulendiagramm mit y-Achse „Benzinpreis in € pro Liter“ von 1,75 bis 1,90 (Beschriftung "
+           "alle 0,05, Hilfslinien alle 0,01) und x-Achse Mo bis So („Wochentag“); blaue Säulen Mo "
+           "1,77, Di 1,78, Mi 1,77, Do 1,79, Fr 1,84, Sa 1,82; Platz für So leer",
+    kontext="Tankstelle/Preise", textumfang="kurz",
+    gegeben="Diagramm mit sechs Säulen Mo–Sa (Werte wie in der Tabelle), Preis So = 1,85 €",
+    gesucht="Säule für So", verfahren="Wert 1,85 auf der Skala (1,75 bis 1,90, Schritt 0,01) abtragen",
+    schritte="1", zahlenraum="dezimal", einheiten="€", ergebnis="Säule So bis 1,85 (höchste Säule)",
+    niveau_geschaetzt="I", fehlerquelle="Skala falsch lesen (Hilfslinie = 0,01)",
+    bemerkung="Wortgleich mit 2026-FOR-K3d.")
+
+row(id="2026-EBR-K5a", block="Kontext", aufgabe="5", titel="Funktionen", teilaufgabe="a", seite="8",
+    punkte="2", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
+    typ="Gerade aus Gleichung zeichnen",
+    stichwoerter="lineare Funktion|Steigung|y-Achsenabschnitt|zeichnen",
+    voraussetzungen="Steigungsdreieck", format="Zeichnen", operator="Zeichnen Sie ein",
+    antwort="Grafik", material="Koordinatensystem",
+    skizze="Kästchenraster ohne Achsen oder Beschriftung, für den Graphen von f; weiter unten auf der "
+           "Seite ein zweites, beschriftetes Koordinatensystem mit Ursprung O, x von −2 bis 5, y von "
+           "−2 bis 5, Gitter 1 mit Hilfslinien alle 0,5, darin die nach oben geöffnete Parabel p mit "
+           "Scheitel (2|−2) bereits eingezeichnet (für Teilaufgabe c)",
+    kontext="ohne", textumfang="kurz",
+    gegeben="f(x) = −2x + 2", gesucht="Graph von f",
+    verfahren="y-Achsenabschnitt 2, Steigungsdreieck 1 nach rechts, 2 nach unten; Gerade durch (0|2) "
+              "und (1|0)",
+    schritte="1", zahlenraum="ganz|negativ",
+    ergebnis="Gerade durch (0|2) und (1|0), fallend mit Steigung −2", niveau_geschaetzt="I",
+    fehlerquelle="Steigung −2 als 2 nach rechts, 1 nach unten",
+    bemerkung="Koordinatensystem für den Graphen hier ein unbeschriftetes Kästchenraster, anders als "
+              "2026-FOR-K5a, wo dieselbe beschriftete Achse mit Parabel für a), c) und d) zugleich "
+              "dient (FOR hat kein eigenes Blatt-Aufgabenäquivalent zu d) in diesem Heft); die "
+              "Rechnung ist sonst wortgleich.")
+
+row(id="2026-EBR-K5b", block="Kontext", aufgabe="5", titel="Funktionen", teilaufgabe="b", seite="8",
+    punkte="2", leitidee="Gleichungen und Funktionen", thema="Lineare Funktionen",
+    typ="Punktprobe durchführen",
+    stichwoerter="Punktprobe|Einsetzen|negative Zahlen", format="Rechnung",
+    operator="Untersuchen Sie rechnerisch", antwort="Text", material="keins", skizze="keine",
+    kontext="ohne", textumfang="kurz",
+    gegeben="f(x) = −2x + 2; Punkt P(−4|10)", gesucht="ob P auf dem Graphen liegt",
+    verfahren="f(−4) = −2 · (−4) + 2 = 10 mit y-Wert vergleichen", schritte="1",
+    zahlenraum="ganz|negativ", ergebnis="f(−4) = 10, P liegt auf dem Graphen", niveau_geschaetzt="I",
+    fehlerquelle="−2 · (−4) = −8", bemerkung="Wortgleich mit 2026-FOR-K5b.")
+
+row(id="2026-EBR-K5c", block="Kontext", aufgabe="5", titel="Funktionen", teilaufgabe="c", seite="8",
+    punkte="1", leitidee="Gleichungen und Funktionen", thema="Quadratische Funktionen",
+    typ="Scheitelpunkt ablesen",
+    stichwoerter="Scheitelpunktform|Scheitelpunkt|verschobene Normalparabel", format="Eintragen",
+    operator="Geben Sie an", antwort="Zahl", material="Koordinatensystem",
+    skizze="Koordinatensystem mit Ursprung O, x von −2 bis 5, y von −2 bis 5 beschriftet, Gitter 1 mit "
+           "Hilfslinien alle 0,5; eingezeichnete nach oben geöffnete Parabel p mit Scheitel (2|−2), "
+           "Nullstellen bei etwa 0,6 und 3,4, y-Achsenabschnitt 2; Eintragfeld „S( | )“",
+    kontext="ohne", textumfang="kurz",
+    gegeben="p(x) = (x − 2)² − 2, Parabel abgebildet", gesucht="Scheitelpunkt",
+    verfahren="aus der Scheitelpunktform oder am Graphen ablesen", schritte="1",
+    zahlenraum="ganz|negativ", ergebnis="S(2|−2)", niveau_geschaetzt="I",
+    fehlerquelle="Vorzeichen: S(−2|−2)", bemerkung="Wortgleich mit 2026-FOR-K5c.")
+
+row(id="2026-EBR-K6a", block="Kontext", aufgabe="6", titel="Würfel", teilaufgabe="a", seite="9",
+    punkte="1", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit einstufig",
+    typ="Wahrscheinlichkeit einstufig",
+    stichwoerter="Würfel|Laplace|Netz|günstige Fälle", format="Kurzantwort", operator="Geben Sie an",
+    antwort="Zahl", material="Figur",
+    skizze="zwei Würfelnetze in Kreuzform (waagerechte Reihe von vier Feldern, über und unter dem "
+           "zweiten Feld je ein Feld); Würfel A: oben 2, Reihe 1 2 4 1, unten 5; Würfel B: oben 3, "
+           "Reihe 3 1 2 1, unten 3",
+    kontext="Glücksspiel", textumfang="mittel",
+    gegeben="Würfel A mit den Zahlen 1, 1, 2, 2, 4, 5; Würfel B mit 1, 1, 2, 3, 3, 3; Würfel A wird "
+            "einmal geworfen",
+    gesucht="P(2) bei Würfel A", verfahren="zwei von sechs Flächen zeigen 2", schritte="1",
+    zahlenraum="Bruch", ergebnis="2/6 = 1/3", niveau_geschaetzt="I",
+    fehlerquelle="1/6, weil die 2 nur einmal gezählt wird",
+    bemerkung="Wortgleich mit 2026-FOR-K6a.")
+
+row(id="2026-EBR-K6b", block="Kontext", aufgabe="6", titel="Würfel", teilaufgabe="b", seite="9",
+    punkte="4", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit mehrstufig",
+    typ="Baumdiagramm ergänzen", typ_neben="Wahrscheinlichkeit mehrstufig unabhängig",
+    stichwoerter="Baumdiagramm|gerade/ungerade|Pfadregel|Gegenwahrscheinlichkeit",
+    voraussetzungen="Summe der Wahrscheinlichkeiten an einem Knoten ist 1",
+    format="Eintragen|Rechnung", operator="Ergänzen Sie|Ermitteln Sie", antwort="Zahl|Zahl",
+    material="Diagramm",
+    skizze="zweistufiges Baumdiagramm: Startpunkt links, Stufe „Würfel A“ mit Ästen gerade (3/6 "
+           "vorgegeben) und ungerade (leeres Feld), Stufe „Würfel B“ an jedem Ast gerade/ungerade; "
+           "vorgegeben 1/6 am Ast gerade→gerade, die drei übrigen Felder leer; darunter Karokästchen",
+    kontext="Glücksspiel", textumfang="mittel",
+    gegeben="Würfel A mit den Zahlen 1, 1, 2, 2, 4, 5; Würfel B mit 1, 1, 2, 3, 3, 3; erst A, dann B "
+            "geworfen; betrachtet wird gerade/ungerade; im Baum vorgegeben P(A gerade) = 3/6 und "
+            "P(B gerade | A gerade) = 1/6",
+    gesucht="fehlende Wahrscheinlichkeiten im Baum|P(beide ungerade)",
+    verfahren="A ungerade 3/6; bei B gerade 1/6 und ungerade 5/6 auf beiden Ästen; Pfadregel 3/6 · 5/6",
+    schritte="3", zahlenraum="Bruch",
+    ergebnis="A ungerade 3/6; B ungerade 5/6 (nach gerade), gerade 1/6 und ungerade 5/6 (nach "
+             "ungerade)|P(beide ungerade) = 15/36 = 5/12",
+    niveau_geschaetzt="II", fehlerquelle="B ungerade wie A mit 3/6 ansetzen oder 3/6 + 5/6 rechnen",
+    bemerkung="zwei Leistungen in einer Einheit, Punkte ungeteilt. Wortgleich mit 2026-FOR-K6b.")
+
+row(id="2026-EBR-K7a", block="Kontext", aufgabe="7", titel="Mietkosten", teilaufgabe="a", seite="10",
+    punkte="2", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
+    typ="Wachstumstabelle ergänzen",
+    stichwoerter="prozentuales Wachstum|Wachstumsfaktor 1,019|Tabelle",
+    voraussetzungen="Prozentsatz in Wachstumsfaktor umrechnen", format="Eintragen",
+    operator="Vervollständigen Sie", antwort="Zahl", material="Tabelle",
+    skizze="Tabelle mit Zeilen „Jahr“ (2026, 2027, 2028, 2029) und „Miete in €“ (leer, 662,35, 674,93, "
+           "leer); Foto Haus mit Schlüsseln neben dem Text",
+    kontext="Wohnen/Miete", textumfang="mittel",
+    gegeben="Miete im ersten Jahr (2026) 650 € monatlich, jährlich +1,9 %; Tabelle mit 2027: 662,35 € "
+            "und 2028: 674,93 €",
+    gesucht="Miete 2026 und 2029", verfahren="2026 ist der Anfangswert 650; 2029 = 674,93 · 1,019",
+    schritte="2", zahlenraum="dezimal|Prozent", einheiten="€",
+    ergebnis="2026: 650,00 €|2029: 687,76 €", niveau_geschaetzt="I",
+    fehlerquelle="2026 als 650 · 1,019 setzen oder jedes Jahr 12,35 € addieren (linear)",
+    bemerkung="Wortgleich mit 2026-FOR-K7a.")
+
+row(id="2026-EBR-K7b", block="Kontext", aufgabe="7", titel="Mietkosten", teilaufgabe="b", seite="10",
+    punkte="3", leitidee="Gleichungen und Funktionen", thema="Exponentialfunktionen und Wachstum",
+    typ="Graph zu Wachstumsprozess zuordnen", typ_neben="Eigenschaften eines Graphen beurteilen",
+    stichwoerter="exponentiell|linear|Startwert|Graph erkennen", format="Ankreuzen|Begründung",
+    operator="Entscheiden Sie|Kreuzen Sie an|Begründen Sie", antwort="Kreuz|Text", material="Diagramm",
+    skizze="drei kleine Koordinatensysteme A, B, C nebeneinander (Achsen „Miete in €“ und „Zeit in "
+           "Jahren“, Gitter, keine Zahlen), je ein Ankreuzfeld darunter: A nach oben gekrümmte Kurve, "
+           "die im Ursprung beginnt; B nach oben gekrümmte Kurve, die auf der y-Achse oberhalb des "
+           "Ursprungs beginnt; C Gerade, die auf der y-Achse oberhalb des Ursprungs beginnt; "
+           "Karokästchen",
+    kontext="Wohnen/Miete", textumfang="mittel",
+    gegeben="Miete im ersten Jahr (2026) 650 € monatlich, jährlich +1,9 %; drei Graphen: A exponentiell "
+            "ab Ursprung, B exponentiell ab positivem Startwert, C linear ab positivem Startwert",
+    gesucht="passender Graph|Begründung, warum die zwei anderen nicht passen",
+    verfahren="Startwert 650 > 0 schließt A aus; gleicher Prozentsatz bedeutet wachsende Zuwächse "
+              "(gekrümmt), schließt C aus",
+    schritte="0", zahlenraum="ganz",
+    ergebnis="B|A: Miete beginnt bei 0 € statt bei 650 €; C: linear, also jedes Jahr gleicher Betrag "
+             "statt gleicher Prozentsatz",
     niveau_geschaetzt="III",
-    fehlerquelle="den halben Längenunterschied (3 cm) statt des vollen Unterschieds (6 cm) als Kathete "
-                 "im Satz des Pythagoras verwenden, oder nur eine statt beider Flächen berechnen")
-
-row(id="2025-GYM-K6a", block="Kontext", aufgabe="6", titel="Computerchip", teilaufgabe="a", seite="8",
-    punkte="2", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit mehrstufig",
-    typ="Wahrscheinlichkeit mehrstufig unabhängig",
-    stichwoerter="Computerchip|fehlerfrei|unabhängige Entnahme", format="Rechnung",
-    operator="Berechnen Sie", antwort="Zahl", material="keins", skizze="keine", kontext="Technik",
-    textumfang="kurz",
-    gegeben="98,5 % der Computerchips des Herstellers LINE sind fehlerfrei; fünf zufällig entnommene "
-            "Chips",
-    gesucht="Wahrscheinlichkeit, dass alle fünf Chips fehlerfrei sind",
-    verfahren="0,985 hoch 5", schritte="1", zahlenraum="Prozent",
-    ergebnis="≈ 92,72 %", niveau_geschaetzt="II",
-    fehlerquelle="0,985 mit 5 multiplizieren statt zu potenzieren")
-
-row(id="2025-GYM-K6b", block="Kontext", aufgabe="6", titel="Computerchip", teilaufgabe="b", seite="8",
-    punkte="2", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit einstufig",
-    typ="Erwartete Anzahl aus Wahrscheinlichkeit und Stichprobengröße berechnen",
-    stichwoerter="fehlerhafte Chips|erwartete Anzahl|Stichprobe", format="Rechnung",
-    operator="Ermitteln Sie", antwort="Zahl", material="keins", skizze="keine", kontext="Technik",
-    textumfang="kurz", abhaengig_von="2025-GYM-K6a",
-    gegeben="98,5 % der Chips sind fehlerfrei; 1000 zufällig entnommene Chips",
-    gesucht="Anzahl der zu erwartenden fehlerhaften Chips",
-    verfahren="Anteil fehlerhaft = 1 − 0,985 = 0,015; erwartete Anzahl = 1000 · 0,015", schritte="1",
-    zahlenraum="ganz",
-    ergebnis="15 fehlerhafte Chips", niveau_geschaetzt="I",
-    fehlerquelle="mit dem Anteil fehlerfreier statt fehlerhafter Chips rechnen")
-
-row(id="2025-GYM-K6c", block="Kontext", aufgabe="6", titel="Computerchip", teilaufgabe="c", seite="8",
-    punkte="2", leitidee="Daten und Zufall", thema="Wahrscheinlichkeit mehrstufig",
-    typ="Anteil aus der Wahrscheinlichkeit mehrerer unabhängiger Ereignisse zurückrechnen",
-    stichwoerter="Herstellervergleich|Wurzelziehen|Anteil zurückrechnen", format="Rechnung",
-    operator="Zeigen Sie", antwort="Text", material="keins", skizze="keine", kontext="Technik",
-    textumfang="kurz", abhaengig_von="2025-GYM-K6a",
-    gegeben="Hersteller PAL: Anteil fehlerfreier Chips p %; Wahrscheinlichkeit, dass zwei zufällig "
-            "entnommene Chips beide fehlerfrei sind, beträgt 98,01 %; Hersteller LINE: 98,5 % fehlerfrei",
-    gesucht="Nachweis, dass PAL einen höheren Anteil fehlerfreier Chips als LINE hat",
-    verfahren="(p:100)² = 0,9801 nach p auflösen (Quadratwurzel ziehen) und mit 98,5 % vergleichen",
-    schritte="2", zahlenraum="Prozent",
-    ergebnis="p = 99 %, und 99 % > 98,5 %, also produziert PAL einen höheren Anteil fehlerfreier Chips",
-    niveau_geschaetzt="III",
-    fehlerquelle="0,9801 durch 2 teilen statt die Quadratwurzel zu ziehen")
+    fehlerquelle="C wählen, weil „1,9 % pro Jahr“ als konstanter Zuwachs verstanden wird",
+    bemerkung="Wortgleich mit 2026-FOR-K7b.")
 # Feldkorrektur an vorhandenen Typen: typ -> {feld: neuer Wert}; siehe Kopf.
 TYPEN_KORREKTUR = {
     "Behauptung prüfen": {

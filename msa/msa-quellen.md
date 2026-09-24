@@ -47,7 +47,7 @@ msa-pruefungen.md § 2.
 | OS | 2023 | 23_P10_Ma_A.pdf | 12 | erfasst |
 | OS | 2024 | 24_P10_Ma_A.pdf | 14 | erfasst |
 | OS | 2025 | 25_P10_Ma_A.pdf | 15 | erfasst |
-| EBR | 2026 | 26_P10_Ma_EBR_A.pdf | 10 | **ohne Katalogeintrag** (zurückgestellt, kein EBR-Schüler) |
+| EBR | 2026 | 26_P10_Ma_EBR_A.pdf | 10 | erfasst |
 | FOR | 2026 | 26_P10_Ma_FOR_A.pdf | 15 | erfasst |
 | MUSTER-EBR, MUSTER-FOR | 2028 | Fachbrief Mathematik Nr. 10, S. 20–31 (msa-vorgaben.md § 1) | – | ohne Katalogeintrag (FOR nicht erfasst, EBR zurückgestellt) |
 
@@ -100,11 +100,12 @@ Dateiname in hefte/msa/ = <jahr>-<papier>.pdf in Kleinbuchstaben (2025-os.pdf,
 | 2023-os.pdf | OS | 2023 | 23_P10_Ma_A.pdf | 12 | ja | 1,3 MB | erfasst 2026-09-05, 27 Zeilen |
 | 2024-os.pdf | OS | 2024 | 24_P10_Ma_A.pdf | 14 | ja | 1,5 MB | erfasst 2026-09-05, 29 Zeilen |
 | 2025-os.pdf | OS | 2025 | 25_P10_Ma_A.pdf | 15 | ja | 1,4 MB | erfasst 2026-09-05, 27 Zeilen |
-| 2026-ebr.pdf | EBR | 2026 | 26_P10_Ma_EBR_A.pdf | 10 | ja | 1,3 MB | **ohne Katalogeintrag** (zurückgestellt, msa-pruefungen.md § 2) |
+| 2026-ebr.pdf | EBR | 2026 | 26_P10_Ma_EBR_A.pdf | 10 | ja | 1,3 MB | erfasst 2026-09-24, 25 Zeilen |
 | 2026-for.pdf | FOR | 2026 | 26_P10_Ma_FOR_A.pdf | 15 | ja | 1,6 MB | erfasst 2026-09-05, 33 Zeilen |
 
-Abgleich (Befund § 4): Katalog 13 Hefte, alle mit Datei; eine Datei ohne
-Katalogeintrag (2026-ebr.pdf).
+Abgleich (Befund § 4, Stand 18.09.2026; seit 24.09.2026 überholt): Katalog 13
+Hefte, alle mit Datei; eine Datei ohne Katalogeintrag (2026-ebr.pdf) – seit
+Auftrag Nacht Teil 1 erfasst, alle 14 Hefte mit Katalogeintrag.
 
 **sonstiges/** – die 19 Gymnasialhefte 2014–2025 (papier GYM seit 23.09.2026,
 § 3), Status je Datei; Servername als Dateiname (kein eigenes Umbenennungsschema

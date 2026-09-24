@@ -126,8 +126,8 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 17. Skizzen werden nicht übernommen, sondern aus dem Feld skizze mit der Vorlage neu gezeichnet; das Original-PDF ist Referenz. Foto und technische Zeichnung: Nachbau mit zeichenbarer Figur, Originalausschnitt nur als Notlösung.
     Zahl: 94 Abbildungen im Markdown-Korpus als Referenz (abi-pruefungen.md § 4); Feld skizze in jeder Zeile mit Material (Kern § 5).
     Kippt bei: einem Blattbau, der aus dem Feld skizze keine zeichenbare Figur baut – dann muss das Feld genauer werden, nicht das Original hinein.
-18. Bestand: Oberschulhefte 2014–2026 und Musteraufgaben 2028. Seit 23.09.2026 zusätzlich die Gymnasialhefte 2014–2025 unter papier GYM, eigene Katalogdatei msa-katalog-gym.csv, gemeinsame Themen- und Typenliste mit OS/EBR/FOR (msa.md § 1, § 4). Grund: Das Gymnasium schreibt seit 2025/26 keine P10 mehr, sondern eine zentrale Klassenarbeit in Klasse 10 (90 min, 35 BE, 10 BE hilfsmittelfrei) – die 2026-09-23 eingetretene Kippbedingung der Vorfassung dieser Entscheidung; der Lehrer hat die Erfassung am selben Tag angewiesen.
-    Zahl: 12 Hefte OS/EBR/FOR, 393 Zeilen, 185 Typen (msa-pruefungen.md, msa-typen.csv); dazu seit 23.09.2026 alle 12 Gymnasialjahrgänge (19 Dateien) unter GYM erfasst: 248 Zeilen, msa-typen.csv von 185 auf 293 Typen gewachsen. Abgleichlauf 24.09.2026 (Gegenlese des Lehrers, Kern § 9, werkzeuge/typen-abgleich.py): 61 der 108 neuen GYM-Typen vereinheitlicht (29 zusammengezogen, 32 umbenannt), Typenzahl 293 → 264 (Vergleich in msa/gym-vergleich.md, nach dem Abgleich: Haupttyp 76 nur GYM, 91 nur OS/EBR/FOR, 84 in beiden).
+18. Bestand: Oberschulhefte 2014–2026 und Musteraufgaben 2028. Seit 23.09.2026 zusätzlich die Gymnasialhefte 2014–2025 unter papier GYM, eigene Katalogdatei msa-katalog-gym.csv, gemeinsame Themen- und Typenliste mit OS/EBR/FOR (msa.md § 1, § 4). Grund: Das Gymnasium schreibt seit 2025/26 keine P10 mehr, sondern eine zentrale Klassenarbeit in Klasse 10 (90 min, 35 BE, 10 BE hilfsmittelfrei) – die 2026-09-23 eingetretene Kippbedingung der Vorfassung dieser Entscheidung; der Lehrer hat die Erfassung am selben Tag angewiesen. Seit 24.09.2026 zusätzlich Heft 2026 EBR (zuvor zurückgestellt, kein EBR-Schüler); Grund: Marke im Themenkatalog prüfen (§ 6).
+    Zahl: 12 Hefte OS/EBR/FOR, 393 Zeilen, 185 Typen (msa-pruefungen.md, msa-typen.csv); dazu seit 23.09.2026 alle 12 Gymnasialjahrgänge (19 Dateien) unter GYM erfasst: 248 Zeilen, msa-typen.csv von 185 auf 293 Typen gewachsen. Abgleichlauf 24.09.2026 (Gegenlese des Lehrers, Kern § 9, werkzeuge/typen-abgleich.py): 61 der 108 neuen GYM-Typen vereinheitlicht (29 zusammengezogen, 32 umbenannt), Typenzahl 293 → 264 (Vergleich in msa/gym-vergleich.md, nach dem Abgleich: Haupttyp 76 nur GYM, 91 nur OS/EBR/FOR, 84 in beiden). Heft 2026 EBR erfasst (24.09.2026): 25 Zeilen, 0 Typen neu (Typenzahl bleibt 264); Vergleich EBR gegen FOR/OS in msa/ebr-vergleich.md (werkzeuge/gym-vergleich.py --gruppen): 0 Typen nur EBR, 150 nur FOR/OS, 25 in beiden (Haupttyp) – EBR verwendet keinen einzigen Typ oder Thema, der nicht auch bei FOR/OS vorkommt.
     Kippt bei: einer Veröffentlichung der zentralen Klassenarbeit mit einem vom Muster (§ 3) abweichenden Format – dann eigene papier-Kennung statt GYM prüfen, nicht als Nachtrag unter GYM einsortieren.
 19. Amtliche Vorgaben (Fachbriefe, Rundschreiben) werden gesondert in msa-vorgaben.md geführt, mit einem jährlichen Check als eigenem Schritt. Der Katalog-Prompt liest sie nicht.
     Zahl: Corona-Ausschlüsse 2021–2023 (msa-vorgaben.md) sind Vorgabe, kein Trend; der Katalog liest sie nicht.
@@ -240,6 +240,12 @@ steht, steht nur hier; die Profile wiederholen es nicht.
 - **Ablageort**: Repo hz-0801/mathe-nachhilfe mit Basis-URL in den vier
   Profilen (§ 2); vom Lehrer nicht ausdrücklich bestätigt, seit dem 07.09.2026
   in Gebrauch.
+- **Eigene Marke für EBR im Themenkatalog** (Zweck der Erfassung von Heft
+  2026 EBR, § 2 Baustein 18): der Vergleich EBR gegen FOR/OS
+  (msa/ebr-vergleich.md) zeigt für dieses eine Heft 0 Typen und 0 Themen nur
+  bei EBR – kein Befund, der eine eigene Marke stützt, aber ein einzelnes
+  Heft ist keine tragfähige Grundlage; wartet auf weitere EBR-Jahrgänge
+  (nächster: 2027, faellig.md § 1) oder eine Anweisung des Lehrers.
 - **Tokenverbrauch und Plattformunabhängigkeit** (festgehalten 17.09.2026):
   Der größte Einzelposten im laufenden Betrieb ist nicht der Katalog, sondern
   der Unterrichtsblatt-Prompt (rund 25.000 Zeichen, je Blatt vollständig gelesen) und
@@ -346,8 +352,8 @@ außerdem KONFIG, Kürzel und Felder, bevor eine Zeile geschrieben wird.
   fhr-vorgaben.md (Schritt 0 dort) und streicht dann den Vorbehalt.
 - msa: die Musteraufgaben 2028 FOR sind nicht erfasst (msa-pruefungen.md § 2);
   sie tragen Erwartungshorizont und Anforderungsbereiche, dann gilt afb_amtlich
-  und die Eichung wird Kennzahl (msa.md § 4, Kern § 5). EBR-Hefte bleiben
-  zurückgestellt, solange kein EBR-Schüler da ist.
+  und die Eichung wird Kennzahl (msa.md § 4, Kern § 5). EBR 2026 erfasst am
+  24.09.2026 (Grund: Marke im Themenkatalog), Vergleich EBR/FOR steht aus.
 - abi: Berlin 2026 ist ohne Band und ohne Veröffentlichung nicht beschaffbar
   (abi-quellen.md § 5); CAS-Fassungen sind Nachtrag nach WTR.
 

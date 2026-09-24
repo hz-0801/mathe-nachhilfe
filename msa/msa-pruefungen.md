@@ -24,7 +24,7 @@ Amtliche Vorgaben und ihre Änderungen stehen gesondert in msa-vorgaben.md.
 | 2023 | 23_P10_Ma_A.pdf | OS | 12 | 165 | 60 | erfasst 2026-09-05, 27 Zeilen (9 Basis, 18 Kontext) · Corona-Ausschlüsse (msa-vorgaben.md) |
 | 2024 | 24_P10_Ma_A.pdf | OS | 14 | 135 | 60 | erfasst 2026-09-05 · 29 Zeilen (9 Basis, 20 Kontext) |
 | 2025 | 25_P10_Ma_A.pdf | OS | 15 | 135 | 60 | erfasst 2026-09-05 · 27 Zeilen (9 Basis, 18 Kontext) |
-| 2026 | 26_P10_Ma_EBR_A.pdf | EBR | 10 | 135 | 40 | zurückgestellt – kein EBR-Schüler; bei Bedarf erfassen |
+| 2026 | 26_P10_Ma_EBR_A.pdf | EBR | 10 | 135 | 40 | erfasst 2026-09-24 · 25 Zeilen (10 Basis, 15 Kontext) |
 | 2026 | 26_P10_Ma_FOR_A.pdf | FOR | 15 | 135 | 60 | erfasst 2026-09-05 · 33 Zeilen (10 Basis, 23 Kontext) |
 | 2028 | Fachbrief 10, S. 20–31 | MUSTER-EBR / MUSTER-FOR | – | – | – | FOR: nicht erfasst · EBR: zurückgestellt (kein EBR-Schüler) · mit Erwartungshorizont, AFB, Standardbezug |
 
@@ -53,6 +53,7 @@ Katalogdatei msa-katalog-gym.csv (beide Blöcke, Feld block trennt sie); Quelle 
 
 ## 3 Änderungen an dieser Datei
 
+- 2026-09-24 (Auftrag Nacht, Teil 1): Heft 2026 EBR erfasst (25 Zeilen: 10 Basis, 15 Kontext; 0 Typen neu – jede Fertigkeit war schon in msa-typen.csv, größtenteils aus dem FOR-2026-Heft). Aufgabe 1 (Basisaufgaben) ist wortgleich mit 2026-FOR-B1a–j; die Kontextaufgaben 2–7 sind jeweils die ersten ein bis zwei Teilaufgaben derselben Kontexte wie im FOR-Heft (Turm, Viereck, Benzinpreise, Funktionen, Würfel, Mietkosten), nur ohne dessen schwerste Teilaufgabe(n). Keine unsicheren Zeilen. Grund der Erfassung: Marke „EBR" im Themenkatalog prüfen (konzept.md § 6); Vergleich EBR/FOR in msa/ebr-vergleich.md.
 - 2026-09-24 (Auftrag Abgleichlauf GYM): Gegenlese des Lehrers nach der GYM-Erfassung (Kern § 9) über werkzeuge/typen-abgleich.py umgesetzt – 61 der 108 neuen GYM-Typen vereinheitlicht (29 zusammengezogen, 32 umbenannt), Typenzahl 293 → 264; Thema „Sinussatz" → „Sinus- und Kosinussatz" (fünf GYM-Zeilen prüfen den Kosinussatz). Zeilenzahlen und Punktsummen aller drei Kataloge unverändert (126/267/248 Zeilen, 130/650/600 Punkte). Log in msa/gym-abgleich-log.md.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2025 GYM erfasst (20 Zeilen: 4 Basis, 16 Kontext; 10 Typen neu). Letztes Heft des Auftrags – alle zwölf Jahrgänge 2014–2025 sind nun erfasst. Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
 - 2026-09-23 (Auftrag Gymnasialhefte): Heft 2024 GYM erfasst (16 Zeilen: 3 Basis, 13 Kontext; 8 Typen neu). Gesamtbearbeitungszeit wieder 135 Minuten (nicht 165 wie 2021–2023). Keine unsicheren Zeilen. Kataloge OS/EBR/FOR unverändert.
