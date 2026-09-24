@@ -1,0 +1,381 @@
+Cornelsen, "Bigalke/Köhler: Mathematik - Brandenburg - Ausgabe 2019",
+gymnasiale Oberstufe, Qualifikationsphase Grund- und Leistungskurs
+(Jahrgang 11 und 12), dazu ein eigener Band "Aufgaben zur
+Abiturvorbereitung" mit hilfsmittelfreien und komplexen Aufgaben.
+Gefunden ueber das Personenfeld der DNB-SRU-Schnittstelle
+(per="Bigalke" and tit="Mathematik" and jhr>2013; Nachauftrag
+Lehrwerke, 24.09.2026, Teil 2) - eine reine Titelsuche haette den
+Verfassernamen nicht gefunden, weil er nur im Byline-Feld steht.
+Bundeslandzuordnung: "Brandenburg" steht wörtlich im Reihentitel
+(245/490-Feld) aller fuenf Baende. Fuer Berlin kein Treffer: weder
+per="Bigalke" and tit="Berlin" noch per="Köhler" and tit="Mathematik"
+and tit="Berlin" liefern eine aktuelle Ausgabe (einziger Treffer je
+Abfrage: "13. Schuljahr ... Berlin - Ausgabe 2004", IDN 979013186,
+außerhalb des Betrachtungszeitraums ab 2014 und ohne TOC-Link) - fuer
+Berlin fuehrt Cornelsen unter diesem Autorennamen offenbar keine
+eigene Landesausgabe. Keine Einfuehrungsphase (Jahrgang 10) gefunden:
+die Reihe beginnt in der DNB direkt mit der Qualifikationsphase
+(Jahrgang 11); ob Brandenburg dafuer ein anderes Cornelsen-Werk oder
+gar kein Bigalke/Köhler-Buch einsetzt, ist ungeklaert. Mit
+pdftotext -layout extrahiert. Die Symbole vor den Kapitelnummern
+(□, ■, B, K) sind Niveau-/Aufgabentyp-Marken des Originals, hier nur
+als Beleg mit uebernommen, nicht ausgewertet.
+
+Band 11 Grundkurs: ISBN 9783060406661, IDN 1164092987,
+https://d-nb.info/1164092987/04, 2019.
+Band 11 Leistungskurs: ISBN 9783060406685, IDN 1164092006,
+https://d-nb.info/1164092006/04, 2019.
+Band 12 Grundkurs: ISBN 9783060406678, IDN 1186081260,
+https://d-nb.info/1186081260/04, 2020.
+Band 12 Leistungskurs: ISBN 9783060406692, IDN 1188350994,
+https://d-nb.info/1188350994/04, 2020.
+Aufgaben zur Abiturvorbereitung (Hilfsmittelfreie und komplexe
+Aufgaben): ISBN 9783060004423, IDN 1200947215,
+https://d-nb.info/1200947215/04, 2020.
+
+Nicht gesichert (nur Struktur, kein eigener Wortlaut noetig): die vier
+zugehoerigen Loesungsbaende (ISBN 9783060406708, 9783060406722,
+9783060406715, 9783060406739) haben laut DNB dieselbe Kapitelfolge
+wie die zugehoerigen Schuelerbaende.
+
+(C) Cornelsen - Gliederung als Beleg, keine Aufgaben.
+
+== Band 11 Grundkurs ==
+
+Vorwort   5
+I. Lineare Gleichungssysteme
+  1. Grundlagen   14
+  2. Das Lösungsverfahren von Gauß   19
+  3. Lösbarkeitsuntersuchungen   23
+  4. Anwendungen   27
+  CAS-Anwendung   39
+II. Potenzfunktionen und ganzrationale Funktionen
+  1. Reelle Funktionen   42
+  2. Potenzfunktionen   46
+  3. Ganzrationale Funktionen   55
+III. Einführung des Ableitungsbegriffs
+  1. Grenzwerte von Funktionen   76
+  2. Die mittlere Steigung einer Funktion   82
+  3. Die lokale Steigung einer Funktion   88
+  4. Die Ableitungsfunktion   98
+  5. Elementare Ableitungsregeln   102
+  6. Erste Anwendungen der Ableitung   109
+  CAS-Anwendung   119
+IV. Anwendungen des Ableitungsbegriffs
+  1. Steigung und erste Ableitung   130
+  2. Krümmung und zweite Ableitung   134
+  3. Extrempunkte   137
+  4. Wendepunkte   143
+  5. Funktionsuntersuchung   148
+  6. Kurvenuntersuchungen bei realen Prozessen   161
+  7. Extremalprobleme   169
+  8. Rekonstruktionen von Funktionen   184
+  CAS-Anwendung   199
+V. Exponentialfunktionen
+  1. Funktionen der Form c · a^x   202
+  2. Untersuchung exponentieller Prozesse   206
+  3. Die natürliche Exponentialfunktion   210
+  4. Produkt- und Kettenregel   217
+  5. Funktionsuntersuchungen   226
+  6. Anwendungen von Exponentialfunktionen   239
+  CAS-Anwendung   247
+VI. Trigonometrische Funktionen
+  1. Grundlagen   252
+  2. Modifikationen von sin x und cos x   256
+  3. Das Lösen von trigonometrischen Gleichungen   261
+  4. Die Differentiation von sin x und cos x   265
+  5. Funktionsuntersuchungen und Modellierungen   270
+VII. Einführung in die Integralrechnung
+  1. Die Streifenmethode des Archimedes   284
+  2. Die Flächeninhaltsfunktion   288
+  3. Stammfunktion und unbestimmtes Integral   294
+  4. Das bestimmte Integral   300
+  CAS-Anwendung   308
+VIII. Anwendungen der Integralrechnung
+  1. Bestimmte Integrale und Flächeninhalte   312
+  2. Flächen unter Funktionsgraphen   314
+  3. Flächen zwischen Funktionsgraphen   324
+  4. Flächen unter nichtganzrationalen Funktionen   333
+  5. Rekonstruktion von Beständen   345
+  CAS-Anwendung   355
+IX. Vertiefung der Differential- und Integralrechnung
+  1. Kurvenuntersuchungen   358
+  2. Randkurvenprobleme   370
+  3. Beschreibung von Prozessen   382
+X. Beschreibende Statistik
+  1. Darstellung von Daten   390
+  2. Mittelwerte   400
+  3. Streuungsmaße   406
+  4. Boxplots   412
+XI. Grundlegende Begriffe der Stochastik
+  1. Zufallsversuche und Ereignisse   422
+  2. Relative Häufigkeit und Wahrscheinlichkeit   427
+  3. Mehrstufige Zufallsversuche/Baumdiagramme   438
+  4. Simulationen   444
+  CAS-Anwendung   456
+XII. Berechnung von Wahrscheinlichkeiten
+  1. Kombinatorische Abzählverfahren   460
+  2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit   469
+  3. Vierfeldertafeln   483
+XIII. Die Binomialverteilung
+  1. Zufallsgrößen und Wahrscheinlichkeitsverteilung   494
+  2. Bernoulli-Ketten   502
+  3. Eigenschaften von Binomialverteilungen   507
+  4. Praxis der Binomialverteilung   514
+  5. Zusammengesetzte Aufgaben   530
+Tabellen zur Stochastik   545
+Testlösungen   555
+Stichwortverzeichnis   570
+Bildnachweis   574
+
+== Band 11 Leistungskurs ==
+
+Vorwort   5
+I. Lineare Gleichungssysteme
+  1. Grundlagen   14
+  2. Das Lösungsverfahren von Gauß   19
+  3. Lösbarkeitsuntersuchungen   22
+  4. Lineare Gleichungssysteme mit Parametern   26
+  5. Lösung eines LGS mit einem Computerprogramm   28
+  6. Anwendungen   30
+  CAS-Anwendung   39
+II. Potenzfunktionen und ganzrationale Funktionen
+  1. Reelle Funktionen   48
+  2. Potenzfunktionen   52
+  3. Ganzrationale Funktionen   63
+III. Einführung des Ableitungsbegriffs
+  1. Grenzwerte von Funktionen   84
+  2. Die mittlere Steigung einer Funktion   91
+  3. Die lokale Steigung einer Funktion   98
+  4. Die Ableitungsfunktion   108
+  5. Elementare Ableitungsregeln   112
+  6. Erste Anwendungen der Ableitung   120
+  CAS-Anwendung   131
+IV. Anwendungen des Ableitungsbegriffs
+  1. Steigung und erste Ableitung   142
+  2. Krümmung und zweite Ableitung   146
+  3. Extrempunkte   149
+  4. Wendepunkte   155
+  5. Funktionsuntersuchung   160
+  6. Funktionenscharen   174
+  7. Kurvenuntersuchungen bei realen Prozessen   191
+  8. Extremalprobleme   199
+  9. Rekonstruktionen von Funktionen   214
+  CAS-Anwendung   229
+V. Exponentialfunktionen
+  1. Funktionen der Form c · a^x   232
+  2. Untersuchung exponentieller Prozesse   236
+  3. Die natürliche Exponentialfunktion   244
+  4. Produkt- und Kettenregel   251
+  5. Funktionsuntersuchungen   260
+  6. Anwendungen von Exponentialfunktionen   274
+  7. Funktionenscharen   278
+  8. Exkurs: Wachstums- und Zerfallsprozesse   284
+  CAS-Anwendung   297
+VI. Logarithmus- und Wurzelfunktionen
+  1. Logarithmusfunktionen   304
+  2. Wurzelfunktionen   315
+VII. Trigonometrische Funktionen
+  1. Grundlagen   334
+  2. Modifikationen von sin x und cos x   338
+  3. Das Lösen von trigonometrischen Gleichungen   343
+  4. Die Differentiation von sin x und cos x   349
+  6. Funktionsuntersuchungen und Modellierungen   354
+  7. Trigonometrische Kurvenscharen   361
+VIII. Einführung in die Integralrechnung
+  1. Die Streifenmethode des Archimedes   376
+  2. Die Flächeninhaltsfunktion   380
+  3. Stammfunktion und unbestimmtes Integral   386
+  4. Das bestimmte Integral   393
+  CAS-Anwendung   399
+IX. Anwendungen der Integralrechnung
+  1. Bestimmte Integrale und Flächeninhalte   404
+  2. Flächen unter Funktionsgraphen   406
+  3. Flächen zwischen Funktionsgraphen   416
+  4. Flächen unter nichtganzrationalen Funktionen   425
+  5. Uneigentliche Integrale   438
+  6. Rekonstruktion von Beständen   445
+  CAS-Anwendung   456
+X. Vertiefung der Differential- und Integralrechnung
+  1. Kurvenuntersuchungen   460
+  2. Randkurvenprobleme   480
+  3. Beschreibung von Prozessen   492
+XI. Beschreibende Statistik
+  1. Darstellung von Daten   500
+  2. Mittelwerte   510
+  3. Streuungsmaße   516
+  4. Boxplots   522
+XII. Grundlegende Begriffe der Stochastik
+  1. Zufallsversuche und Ereignisse   532
+  2. Relative Häufigkeit und Wahrscheinlichkeit   537
+  3. Mehrstufige Zufallsversuche/Baumdiagramme   548
+  4. Simulationen   554
+  CAS-Anwendung   566
+XIII. Berechnung von Wahrscheinlichkeiten
+  1. Kombinatorische Abzählverfahren   570
+  2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit   579
+  3. Vierfeldertafeln   593
+XIV. Die Binomialverteilung
+  1. Zufallsgrößen und Wahrscheinlichkeitsverteilung   604
+  2. Bernoulli-Ketten   612
+  3. Eigenschaften von Binomialverteilungen   617
+  4. Praxis der Binomialverteilung   624
+  5. Zusammengesetzte Aufgaben   640
+Tabellen zur Stochastik   655
+Testlösungen   665
+Stichwortverzeichnis   682
+Bildnachweis   686
+
+== Band 12 Grundkurs ==
+
+Vorwort   4
+I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum
+  1. Punkte im Koordinatensystem   14
+  2. Begriff des Vektors   24
+  3. Rechnen mit Vektoren   31
+  CAS-Anwendung   60
+II. Das Skalarprodukt
+  1. Die Definition des Skalarproduktes   64
+  2. Winkel- und Flächenberechnungen   68
+  3. Untersuchung von Figuren und Körpern   74
+  CAS-Anwendung   81
+III. Geraden
+  1. Lineare Gleichungssysteme (Wiederholung)   86
+  2. Geradengleichungen   94
+  3. Lagebeziehungen   100
+  4. Der Winkel zwischen Geraden   108
+  5. Spurpunkte mit Anwendungen   110
+  CAS-Anwendung   122
+IV. Ebenen
+  1. Parametergleichung   126
+  2. Normalen- und Koordinatengleichung der Ebene   129
+  3. Achsenabschnitte und Spurgeraden einer Ebene   136
+  4. Lagebeziehungen   141
+  CAS-Anwendung   170
+V. Winkel und Abstände
+  1. Schnittwinkel   174
+  2. Abstandsberechnungen   178
+  3. Untersuchung geometrischer Objekte im Raum   189
+  CAS-Anwendung   206
+VI. Prognose- und Konfidenzintervalle
+  1. Die Binomialverteilung im Überblick   210
+  2. Die Sigma-Regeln   218
+  3. Prognoseintervalle   223
+  4. Verträglichkeit mit einer Stichprobe   231
+  5. Konfidenzintervalle   234
+  6. Stichprobenumfänge bei Konfidenzintervallen   244
+  CAS-Anwendung   250
+VII. Grundstrategien in der Oberstufe
+  1. Grundstrategien in der Analysis   254
+  2. Grundstrategien in der Analytischen Geometrie   275
+  3. Grundstrategien in der Stochastik   293
+VIII. Aufgaben zur Abiturvorbereitung
+  1. Hilfsmittelfreie Aufgaben   320
+  2. Komplexe Aufgaben   333
+Testlösungen   361
+Stichwortverzeichnis   370
+Bildnachweis   374
+
+== Band 12 Leistungskurs ==
+
+Vorwort   5
+I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum
+  1. Punkte im Koordinatensystem   16
+  2. Begriff des Vektors   26
+  3. Rechnen mit Vektoren   33
+  CAS-Anwendung   62
+II. Das Skalarprodukt
+  1. Die Definition des Skalarproduktes   66
+  2. Winkel- und Flächenberechnungen   70
+  3. Untersuchung von Figuren und Körpern   76
+  CAS-Anwendung   85
+III. Geraden
+  1. Lineare Gleichungssysteme (Wiederholung)   90
+  2. Geradengleichungen   98
+  3. Lagebeziehungen   104
+  4. Der Winkel zwischen Geraden   112
+  5. Spurpunkte mit Anwendungen   114
+  6. Geradenscharen   122
+  CAS-Anwendung   134
+IV. Ebenen
+  1. Parametergleichung   138
+  2. Normalen- und Koordinatengleichung der Ebene   141
+  3. Achsenabschnitte und Spurgeraden einer Ebene   148
+  4. Lagebeziehungen   153
+  5. Ebenenscharen   174
+  CAS-Anwendung   188
+V. Winkel und Abstände
+  1. Schnittwinkel   192
+  2. Abstandsberechnungen   196
+  3. Untersuchung geometrischer Objekte im Raum   219
+  CAS-Anwendung   233
+VI. Weitere Anwendungen der Integralrechnung
+  1. Das Volumen von Rotationskörpern   242
+  2. Allgemeine Volumenformeln   248
+VII. Prognose- und Konfidenzintervalle
+  1. Die Binomialverteilung im Überblick   262
+  2. Die Sigma-Regeln   270
+  3. Prognoseintervalle   275
+  4. Verträglichkeit mit einer Stichprobe   283
+  5. Konfidenzintervalle   286
+  6. Stichprobenumfänge bei Konfidenzintervallen   296
+  CAS-Anwendung   302
+VIII. Die Normalverteilung
+  1. Gaußsche Glockenkurve   306
+  2. Approximation der Binomialverteilung   307
+  3. Die Gaußsche Integralfunktion Φ   312
+  4. Die Approximation der Binomialverteilung Φ   315
+  5. Die Normalverteilung bei stetigen Zufallsgrößen   320
+  CAS-Anwendung   338
+IX. Hypothesentests
+  1. Einführungsproblem   344
+  2. Der Alternativtest   346
+  3. Der Signifikanztest   353
+  4. Hypothesentests mit der Normalverteilung   374
+  CAS-Anwendung   384
+X. Grundstrategien in der Oberstufe
+  1. Grundstrategien in der Analysis   388
+  2. Grundstrategien in der Analytischen Geometrie   411
+  3. Grundstrategien in der Stochastik   433
+XI. Aufgaben zur Abiturvorbereitung
+  1. Hilfsmittelfreie Aufgaben   460
+  2. Komplexe Aufgaben   479
+Tabellen zur Stochastik   510
+Testlösungen   520
+Stichwortverzeichnis   532
+Bildnachweis   535
+
+== Aufgaben zur Abiturvorbereitung (Hilfsmittelfreie und komplexe Aufgaben) ==
+
+Vorwort   4
+I. Analysis
+  1. Potenzfunktionen und ganzrationale Funktionen   6
+  2. Einführung des Ableitungsbegriffs   7
+  3. Anwendungen des Ableitungsbegriffs   9
+  4. Exponentialfunktionen   10
+  5. Logarithmus- und Wurzelfunktionen   11
+  6. Trigonometrische Funktionen   13
+  7. Einführung in die Integralrechnung   15
+  8. Anwendungen der Integralrechnung   16
+II. Lineare Algebra und Analytische Geometrie
+  1. Lineare Gleichungssysteme   18
+  2. Vektoren   19
+  3. Das Skalarprodukt   21
+  4. Geraden   22
+  5. Ebenen   23
+  6. Winkel und Abstände   25
+  7. Matrizen und lineare Abbildungen   26
+  8. Matrizen zur Beschreibung von Übergangsprozessen   28
+III. Stochastik
+  1. Beschreibende Statistik   30
+  2. Grundlegende Begriffe der Stochastik   31
+  3. Berechnung von Wahrscheinlichkeiten   32
+  4. Zufallsgrößen und Wahrscheinlichkeitsverteilungen   34
+  5. Testen von Hypothesen   36
+  6. Schätzen von Wahrscheinlichkeiten   38
+  7. Normalverteilte Zufallsgrößen   40
+IV. Gemischte Aufgaben
+  1. Analysis   42
+  2. Lineare Algebra und analytische Geometrie   49
+  3. Stochastik   58
+Bildnachweis   64
