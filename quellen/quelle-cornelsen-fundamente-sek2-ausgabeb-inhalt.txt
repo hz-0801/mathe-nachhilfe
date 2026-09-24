@@ -1,0 +1,101 @@
+Cornelsen, "Fundamente der Mathematik", Ausgabe B (Berlin, Brandenburg,
+Mecklenburg-Vorpommern), gymnasiale Oberstufe. Inhaltsverzeichnis der
+Einfuehrungsphase aus dem DNB-Satz (TOC-PDF-Anhang /04), ueber die
+SRU-Schnittstelle (werkzeuge/dnb-sru.py) gefunden und mit pdftotext
+-layout extrahiert am 24.09.2026.
+
+Einfuehrungsphase: ISBN 9783060098514, IDN 1266335498,
+https://d-nb.info/1266335498/04, 2023.
+
+Qualifikationsphase (Grundkurs/Leistungskurs) dieser Ausgabe B: in der
+DNB nicht gefunden (Stand 24.09.2026). Die DNB-Titelaufnahmen der
+Fundamente-der-Mathematik-Oberstufenbaende tragen das Bundesland nicht
+im Titel; das 926-Feld (Publisher-Metadaten) einzelner Saetze nennt es
+aber explizit. Fuer die Einfuehrungsphase liefert es "1DFG-DE-BE"
+(Berlin), "1DFG-DE-BG" (Brandenburg), "1DFG-DE-BM"
+(Mecklenburg-Vorpommern). Alle anderen 2019-2025 katalogisierten
+Qualifikationsphase-Baende (Grundkurs/Leistungskurs, mehrere ISBN-
+Jahrgaenge) tragen im selben Feld andere Bundeslaender (u. a.
+Nordrhein-Westfalen); ein Ausgabe-B-Band fuer die Qualifikationsphase
+scheint zum Stichtag noch nicht zu existieren oder ist noch nicht
+katalogisiert.
+
+(C) Cornelsen - Gliederung als Beleg, keine Aufgaben.
+
+== Einfuehrungsphase ==
+
+1      / Auswerten von Daten                                                                                           5
+         Ihr Fundament               ..........................................................................         6
+1.1     Kennwerte und Skalen. ......................................................                                    8
+1.2     Streumaße..................................................                                                    11
+1.3     Klasseneinteilung und Histogramme.......................................................                       13
+1.4     Fehler und Manipulationen in der Statistik.............................................                        16
+1.5     Klausur- und Abiturtraining....................................................................               20
+         Prüfen Sie Ihr neues Fundament.........................................................                      22
+         Zusammenfassung..............................................................................                24
+
+2      / Potenzen und Potenzfunktionen                                                                                25
+         Ihr Fundament.................................................                                               26
+2.1      Wiederholung: Potenzen mit ganzzahligen Exponenten.........................                                  28
+2.2      n-te Wurzeln und Potenzen mit rationalen Exponenten .......................                                  32
+2.3      Rechnen mit Potenzen und Wurzeln......... ............................................                      36
+2.4      Wiederholung: Lineare und quadratische Funktionen...........................                                42
+2.5      Potenzfunktionen mit ganzzahligen Exponenten.......... . .................                                   48
+2.6      Wurzelfunktionen........ . ....................................                                             54
+2.7      Ganzrationale Funktionen....................                                                                58
+2.8      Besondere Punkte am Graphen...............................................................                   61
+2.9      Nullstellen...............................................................................................   65
+2.10     Klausur- und Abiturtraining...................................................................               70
+         Prüfen Sie Ihr neues Fundament.........................................................                      72
+         Zusammenfassung........ . ....................................................................               74
+
+3      / Exponentialfunktionen                                                                                        75
+         Ihr Fundament....................................................................                            76
+3.1      Exponentielles Wachstum.................................                                                      78
+3.2      Exponentialfunktion.................................                                                          83
+3.3      Exponentialgleichungen und Logarithmus.............................................                           88
+3.4      Wachstumsmodelle .............................................                                                93
+3.5      Klausur- und Abiturtraining................................................                                  100
+         Prüfen Sie Ihr neues Fundament........................................................                      102
+         Zusammenfassung.............. . .............................................................                104
+
+4     I Mehrstufige Zufallsexperimente und Kombinatorik                                                      105
+        Ihr Fundament........ ............................................                                   106
+4.1    Wiederholung: Mehrstufige Zufallsexperimente . ................................                       108
+4.2    Sinnvoller Umgang mit Baumdiagrammen ................................                                 113
+4.3    Urnenmodell - Ziehen mit und ohne Zurücklegen...............................                          118
+4.4    Urnenmodell - Ziehen ohne Beachtung der Reihenfolge.....................                              122
+4.5    Simulationen ............................................                                             128
+4.6    Klausur- und Abiturtraining.................................................................          132
+        Prüfen Sie Ihr neues Fundament....................                                                   134
+        Zusammenfassung..................................                                                    136
+
+5     / Trigonometrische Funktionen                                                                          137
+        Ihr Fundament..................................................                                      138
+5.1     Sinusfunktion und Kosinusfunktion....................................................                140
+5.2     Winkel im Bogenmaß.........................                                                          146
+5.3     Verschieben der Sinuskurve.................................................................          152
+5.4     Strecken und Stauchen der Sinuskurve..........                                                       154
+5.5     Allgemeine Sinusfunktion........... .........................                                        157
+5.6     Periodische Vorgänge modellieren......................................................               165
+5.7     Klausur- und Abiturtraining............................                                              168
+        Prüfen Sie Ihr neues Fundament..........................                                             170
+        Zusammenfassung.............................................................................         172
+
+6     / Steigung und Ableitung                                                                               173
+        Ihr Fundament.. ................                                                                     174
+6.1     Änderungsraten.............. . ...................................................................   176
+6.2     Lokale Änderungsrate und Ableitung. .. ...............................                       ....    181
+6.3     Ableitungsfunktion - Grafisches Ableiten...........................................                  186
+6.4     Ableitung von Potenzfunktionen...................................                                    192
+6.5     Faktor- und Summenregel..........                                                                    195
+6.6     Tangente, Steigungs- und Schnittwinkel.....................                                          200
+6.7     Klausur- und Abiturtraining ..................                                                       206
+        Prüfen Sie Ihr neues Fundament.......................................................                208
+        Zusammenfassung........... . ....................                                                    210
+
+7   I Anhang                                                                                                    211
+      Lösungen                                                                                                  212
+     Stichwortverzeichnis ...................................................................................   225
+      Bildquellenverzeichnis......................                                                              227
+      Impressum.......................................................................                          228

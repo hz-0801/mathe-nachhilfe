@@ -10,6 +10,13 @@ Kl. 10: ISBN 9783507812819, IDN 1174808292, https://d-nb.info/1174808292/04 (201
 
 (C) Westermann - Gliederung als Beleg, keine Aufgaben.
 
+Bestaetigung (Auftrag Lehrwerke Sek II und Foerderhefte, 24.09.2026): Alle
+vier ISBNs sind auf westermann.de eindeutig als "Mathematik heute -
+Ausgabe 2016 fuer die Sekundarstufe I in Berlin und Brandenburg" gefuehrt
+(Artikelseiten z. B. westermann.de/artikel/978-3-507-81260-4 fuer Kl. 7,
+.../978-3-507-81274-1 fuer Kl. 9, .../978-3-507-81281-9 fuer Kl. 10) -
+damit fuer alle vier Klassenstufen bestaetigt.
+
 Eigene Entscheidung: Die DNB fuehrt zu "Mathematik heute" sehr viele Titel-
 varianten je Jahrgang (Haupt-/Realschulbildungsgang, mehrere Druckjahre).
 Berlin und Brandenburg kennen diese Differenzierung nicht (ISS/Gesamtschule);

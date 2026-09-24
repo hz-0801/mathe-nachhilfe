@@ -1,0 +1,170 @@
+Westermann, "Mathematik Neue Wege SII", Ausgabe 2011 fuer Berlin,
+Rheinland-Pfalz, Saarland und Schleswig-Holstein. Inhaltsverzeichnisse
+der drei Themenbaende (Analysis; Lineare Algebra/Analytische Geometrie;
+Stochastik) aus den DNB-Saetzen, ueber die SRU-Schnittstelle
+(werkzeuge/dnb-sru.py) gefunden und mit pdftotext -layout extrahiert
+am 24.09.2026.
+
+Analysis: ISBN 9783507855816, IDN 100994021X,
+https://d-nb.info/100994021X/04, 2011. Titel nennt "[Berlin,
+Rheinland-Pfalz, Saarland, Schleswig-Holstein]" explizit.
+Lineare Algebra, Analytische Geometrie: ISBN 9783507855847,
+IDN 1009940228, https://d-nb.info/1009940228/04, 2011. Gleicher
+Herausgeber (Günter Schmidt) und gleiche Reihe/Jahrgang wie der
+Analysis-Band; Bundesland im Titel dieses Bandes nicht wiederholt,
+aus dem gemeinsamen Erscheinungsjahr und der Reihenkennung erschlossen.
+Stochastik: ISBN 9783507855878, IDN 1009940236,
+https://d-nb.info/1009940236/04, 2012. Ebenso erschlossen (Herausgeber
+Arno Lergenmüller/Günter Schmidt, gleiche Reihe).
+
+Brandenburg wird von keiner Ausgabe dieser Reihe genannt (DNB-Titelsuche
+"Mathematik Neue Wege" und "Brandenburg": 0 Treffer); die Reihe ist die
+einzige unter den fünf Startreihen von Teil A mit einer nachweisbaren
+Berlin-Ausgabe fuer die Oberstufe (allerdings nur Berlin, nicht
+Brandenburg, und aus 2011/2012 - keine jüngere Ausgabe gefunden).
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben.
+
+== Analysis ==
+
+Kapitel 1   Funktionen und Änderungsraten
+            1.1 Änderungsraten - grafisch erfasst............................................               10
+            1.2 Von der durchschnittlichen zur momentanen Änderungsrate . .                                  18
+            1.3 Von der Sekantensteigungsfunktion zur Ableitungsfunktion . .                                 31
+            CHECK UP                                                                                        39
+            Sichern und Vernetzen - Vermischte Aufgaben.................................                    41
+
+Kapitel 2   Funktionen und Ableitungen
+            2.1 Ableitungsregeln.......................................................................     46
+            2.2 Zusammenhänge zwischen Funktion und Ableitung.............                                  61
+            2.3 Ganzrationale Funktionen und ihre Graphen - Muster in der Vielfalt.....................................................................   76
+            2.4 Optimieren                                                                                  87
+            CHECK UP                                                                                        100
+            Sichern und Vernetzen - Vermischte Aufgaben.................................. 103
+
+Kapitel 3   Modellieren mit Funktionen - Kurvenanpassung
+            3.1 Funktionen beschreiben und modellieren Wirklichkeit......... 108
+            3.2 Gauß-Algorithmus zum Lösen linearer Gleichungssysteme ..117
+            3.3 Bestimmung ganzrationaler Funktionen zu vorgegebenen Daten und Eigenschaften........................................................... 123
+            3.4 Spezielle Kurvenanpassung durch Spline-Interpolation......... 137
+            CHECK UP......................                                                                    145
+            Sichern und Vernetzen - Vermischte Aufgaben .                                                     148
+
+Kapitel 4   Folgen - Reihen - Grenzwerte
+            4.1 Folgen beschreiben iterative Prozesse........................................ 154
+            4.2 Grenzwerte..................................................................................165
+            4.3 Grenzwerte bei Funktionen....................................................... 173
+            4.4 Folgen und Gleichungen............................................................179
+            CHECK UP............................................................................................... 185
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 187
+
+Kapitel 5   Integralrechnung
+            5.1 Von der Änderungs- zur Bestandsfunktion............................... 192
+            5.2 Integralfunktion, Stammfunktion und Hauptsatz der Differenzial- und Integralrechnung..................................... 202
+            5.3 Anwendungen der Integralrechnung........................................214
+            CHECK UP...............................................................................................235
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 238
+
+Kapitel 6   Erweiterung der Differenzialrechnung
+            6.1 Neue Ableitungsregeln - Produkt-, Quotienten-, Kettenregel 246
+            6.2 Funktionenscharen und Ortskurven.......................................... 260
+            6.3 Rationale Funktionen.................................................................. 267
+            6.4 Trigonometrische Funktionen..................................................... 282
+            CHECK UP...............................................................................................292
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 295
+
+Kapitel 7   Exponentialfunktionen und ihre Anwendungen
+            7.1 Änderungsverhalten bei Exponential- und Logarithmusfunktionen..............................................................300
+            7.2 e-Funktionen in Realität und Mathematik................................. 314
+            CHECK UP...............................................................................................328
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 331
+
+Kapitel 8   Wachstum
+            8.1 Exponentielles Wachstum............................................................338
+            8.2 Begrenztes Wachstum................................................................ 349
+            8.3 Logistisches Wachstum................................................................ 361
+            CHECK UP...............................................................................................377
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 379
+
+            Aufgaben zur Vorbereitung auf das Abitur........................................385
+            Lösungen zu den Check-Ups..............................................................397
+            Stichwortverzeichnis.......................................................................... 408
+            Fotoverzeichnis................................................................................... 411
+
+== Lineare Algebra, Analytische Geometrie ==
+
+Kapitel 1   Orientieren und Bewegen im Raum............................................                             9
+            1.1 Orientieren im Raum - Koordinaten........................................                          10
+            1.2 Bewegen im Raum - Vektoren................................................                         25
+            CHECK UP............................................................................................   43
+            Sichern und Vernetzen - Vermischte Aufgaben.................................                           45
+
+Kapitel 2   Geraden und Ebenen....................................................................                 49
+            2.1 Geraden in der Ebene und im Raum.......................................                            50
+            2.2 Ebenen im Raum........................................................................             72
+            CHECK UP............................................................................................   93
+            Sichern und Vernetzen - Vermischte Aufgaben.................................                           95
+
+Kapitel 3   Skalarprodukt und Messen............................................................ 99
+            3.1 Skalarprodukt und Winkel......................................................... 100
+            3.2 Winkel zwischen Geraden und Ebenen.....................................111
+            3.3 Abstandsprobleme.......................................................................128
+            CHECK UP...............................................................................................140
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 143
+
+Kapitel 4   Matrizen.............................................................................................147
+            4.1 Von Tabellen zu Matrizen - Matrizen in Anwendungen .... 148
+            4.2 Übergangsprozesse.................................................................... 166
+            4.3 Geometrische Abbildungen....................................................... 183
+            CHECK UP...............................................................................................197
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 201
+
+Kapitel 5   Ergänzungen - Kugeln, Kegelschnitte und Vektorräume .... 207
+            5.1 Kreise und Kugeln...................................................................... 208
+            5.2 Kegelschnitte............................................................................... 215
+            5.3 Vektorräume............................................................................... 221
+            Sichern und Vernetzen - Vermischte Aufgaben................................... 227
+
+            Aufgaben zur Vorbereitung auf das Abitur....................................... 231
+            Lösungen zu den Check-ups............................................................. 239
+            Stichwortverzeichnis...........................................................................243
+            Fotoverzeichnis................................................................................... 245
+
+== Stochastik ==
+
+Kapitel 1   Zufall und Wahrscheinlichkeit.......................................................                    9
+            1.1 Werkzeuge zur Lösung einfacher stochastischer Probleme . .                                         10
+            1.2 Simulationen.............................................................................          19
+            1.3 Nachgefragt - Empirisches Gesetz der großen Zahlen.........                                         29
+            CHECK UP............................................................................................   37
+
+Kapitel 2   Wahrscheinlichkeitsmodelle.........................................................                    39
+            2.1 Grundbegriffe stochastischer Modelle...................................                            40
+            2.2 Rechnen mit Ereigniswahrscheinlichkeiten.............................                              50
+            2.3 Zählen und Wahrscheinlichkeiten............................................                        56
+            2.4 Bedingte Wahrscheinlichkeit....................................................                    66
+            CHECK UP............................................................................................   78
+
+Kapitel 3   Umgang mit Daten.........................................................................             81
+            3.1 Verteilungen untersuchen.......................................................                   82
+            3.2 Beziehungen zwischen zwei Merkmalen.................................                              95
+            CHECK UP.............................................................................................. 106
+
+Kapitel 4   Wahrscheinlichkeitsverteilungen...................................................107
+            4.1 Zufallsgrößen und Erwartungswert..........................................108
+            4.2 Binomialverteilung...................................................................... 118
+            4.3 Stetige Zufallsgrößen und Normalverteilung.......................... 137
+            CHECK UP.............................................................................................. 148
+
+Kapitel 5   Beurteilende Statistik...................................................................... 151
+            5.1 Schätzen von Anteilen - Konfidenzintervalle.............................152
+            5.2 Testen von Hypothesen............................................................. 164
+            5.3 Andere Testverfahren..................................................................180
+            CHECK UP..............................................................................................189
+
+            Sichern und Vernetzen - Vermischte Aufgaben.................................191
+            Aufgaben zur Vorbereitung auf das Abitur..................................... 201
+            Lösungen zu den Check-ups...........................................................209
+            Tabellen........................................................................................... 213
+            Stichwortverzeichnis........................................................................215
+            Fotoverzeichnis................................................................................ 217

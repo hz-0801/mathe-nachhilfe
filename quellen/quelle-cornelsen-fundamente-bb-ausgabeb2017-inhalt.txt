@@ -1,23 +1,241 @@
 Cornelsen, "Fundamente der Mathematik", Ausgabe B ab 2017 (Vorgaengerausgabe
-der Ausgabe B ab 2024; Berlin, Brandenburg). Inhaltsverzeichnis nur fuer
-Klasse 9 gesichert (Kl. 7, 8, 10 nicht sicher zuordenbar, siehe unten).
+der Ausgabe B ab 2024; Berlin, Brandenburg). Inhaltsverzeichnisse Klasse
+7, 8, 9 und 10 vollstaendig gesichert (Bestaetigung vom 24.09.2026, Auftrag
+Lehrwerke Sek II und Foerderhefte, s. u.).
 
-Kl. 9: ISBN 9783060098538, IDN 1095896164, https://d-nb.info/1095896164/04
-Geholt und mit pdftotext -layout extrahiert am 24.09.2026.
+Kl. 7:  ISBN 9783060092345, IDN 1054777373, https://d-nb.info/1054777373/04
+Kl. 8:  ISBN 9783060092352, IDN 1054777381, https://d-nb.info/1054777381/04
+Kl. 9:  ISBN 9783060098538, IDN 1095896164, https://d-nb.info/1095896164/04
+Kl. 10: ISBN 9783060098545, IDN 1150425601, https://d-nb.info/1150425601/04
+Geholt und mit pdftotext -layout bzw. (Kl. 7/8, s. u.) durch Ansehen der
+gerenderten PDF-Seiten erfasst am 24.09.2026.
 
 (C) Cornelsen - Gliederung als Beleg, keine Aufgaben.
 
-Kl. 7, 8, 10 mitgesucht (Auftrag), aber nicht gesichert: Der Verlag legt zu
-dieser Ausgabe jaehrlich mehrere ISBN-Varianten fuer dieselbe Klassenstufe
-auf (Basis/Regel-Ausgabe, weitere Bundeslaender, Neuauflagen), ohne dass die
-DNB-Titelaufnahme das Bundesland nennt; eine Zuordnung zu Berlin/Brandenburg
-war innerhalb der Zeitvorgabe (15 Minuten je Werk) nicht sicher moeglich.
-Kandidaten (ungeprueft): Kl. 7 IDN 1141189505 (ISBN 9783060092697, 2018)
-oder IDN 1143859260 (ISBN 9783060092758, 2018); Kl. 8 IDN 1078032874 (ISBN
-9783060091973, 2016) oder IDN 1150427108 (ISBN 9783060092703, 2018); Kl. 10
-IDN 1150425601 (ISBN 9783060098545, 2018, ISBN-Nachbarblock zu Kl. 9) oder
-IDN 1122767005 (ISBN 9783060413171, 2017). Suchbegriffe: "Fundamente der
-Mathematik Klasse <n>" auf d-nb.info, jhr 2016-2019.
+Achtung Kl. 7 und Kl. 8: Die eingebettete Schrift dieser beiden TOC-PDFs
+ist ab der zweiten Seite gestoert (pdftotext liefert ab Kapitel 3 bzw. 5
+zufaellige Fremdschrift-Glyphen statt Ziffern/Buchstaben); der Wortlaut
+unten stammt aus dem Ansehen der gerenderten Seiten, nicht aus dem
+Rohtext.
+
+Bestaetigung der Klasse-7/8/10-Kandidaten (Auftrag vom 24.09., s. o.):
+Kl. 7 – keiner der beiden vorgemerkten Kandidaten (9783060092697 = Ausgabe
+Hessen, 9783060092758 = Ausgabe Rheinland-Pfalz) war die BE/BB-Ausgabe;
+die richtige ISBN (9783060092345, bibliografisch als "Ausgabe B ab 2017 -
+7. Schuljahr: Schulbuch" gefuehrt) wurde ueber eine Web-Suche gefunden,
+nicht ueber die DNB-Titelsuche (das DNB-926-Feld dieses 2016er Satzes
+nennt kein Bundesland). Kl. 8 – ebenfalls keiner der beiden Kandidaten
+(9783060091973 = Ausgabe Sachsen-Anhalt, 9783060092703 = ungeklaert);
+richtige ISBN 9783060092352 (bibliografisch "Ausgabe B ab 2017 -
+8. Schuljahr: Schulbuch"), gleicher Weg. Kl. 10 – der erste Kandidat
+(IDN 1150425601, ISBN 9783060098545) war zutreffend (bibliografisch
+bestaetigt als "Ausgabe B ab 2017 - 10. Schuljahr: Schulbuch"); der
+zweite Kandidat (9783060413171) war nicht die BE/BB-Ausgabe.
+== Klasse 7 ==
+
+0.    Vorbereitung zur Lernausgangslage                                                                                7
+1.    Zuordnungen – Proportionalität                                                                                  13
+      Dein Fundament                                                                                                  14
+1.1   Zuordnungen                                                                                                     16
+1.2   Grafische Darstellungen                                                                                         19
+1.3   Proportionale Zuordnungen                                                                                       24
+1.4   Antiproportionale Zuordnungen                                                                                   28
+1.5   Dreisatz                                                                                                        32
+1.6   Vermischte Aufgaben                                                                                             37
+      Prüfe dein neues Fundament                                                                                     40
+      Zusammenfassung                                                                                                 42
+
+2.    Prozent- und Zinsrechnung                                                                                       43
+      Dein Fundament                                                                                                  44
+2.1   Prozente                                                                                                        46
+2.2   Grundbegriffe der Prozentrechnung                                                                               50
+2.3   Prozentwert                                                                                                     52
+2.4   Grundwert                                                                                                       54
+2.5   Prozentsatz                                                                                                     56
+      Streifzug: Prozentuale Änderungen                                                                              58
+      Streifzug: Promille                                                                                            60
+2.6   Zinsrechnung                                                                                                    62
+      Streifzug: Zinseszins                                                                                          66
+2.7   Vermischte Aufgaben                                                                                             68
+      Prüfe dein neues Fundament                                                                                     72
+      Zusammenfassung                                                                                                 74
+
+3.    Rationale Zahlen                                                                                                75
+      Dein Fundament                                                                                                  76
+3.1   Negative Zahlen – Zahlengerade                                                                                  78
+3.2   Ganze Zahlen vergleichen und ordnen                                                                             80
+3.3   Zustandsänderungen                                                                                              83
+3.4   Rationale Zahlen und Zahlenmengen                                                                               86
+3.5   Erweiterung des Koordinatensystems                                                                              89
+3.6   Rationale Zahlen addieren                                                                                       92
+3.7   Rationale Zahlen subtrahieren                                                                                   95
+3.8   Rationale Zahlen multiplizieren und dividieren                                                                  98
+3.9   Vorrangregeln und Rechengesetze                                                                                102
+3.10  Vermischte Aufgaben                                                                                            105
+      Prüfe dein neues Fundament                                                                                    106
+      Zusammenfassung                                                                                                108
+
+4.    Terme und Gleichungen                                                                                          109
+      Dein Fundament                                                                                                 110
+4.1   Grundbegriffe                                                                                                  112
+4.2   Terme vereinfachen                                                                                             114
+      Streifzug: Sprache in der Mathematik                                                                          118
+4.3   Gleichungen                                                                                                    120
+      Streifzug: Spiel: Termjagd                                                                                    123
+4.4   Äquivalenzumformungen                                                                                          125
+      Streifzug: Ungleichungen                                                                                      132
+4.5   Verhältnisgleichungen und Bruchgleichungen                                                                    135
+      Streifzug: Gleichungen mit einem CAS lösen                                                                    138
+4.6   Vermischte Aufgaben                                                                                            140
+      Prüfe dein neues Fundament                                                                                    142
+      Zusammenfassung                                                                                                144
+
+5.    Ebene Figuren                                                                                                  145
+      Dein Fundament                                                                                                 146
+5.1   Kreis                                                                                                          148
+5.2   Senkrecht und parallel                                                                                         150
+5.3   Dynamische Geometrie-Software                                                                                  153
+5.4   Dreiecke                                                                                                       155
+5.5   Konstruktionsbeschreibungen                                                                                    159
+5.6   Der Innenwinkelsatz                                                                                            161
+5.7   Flächeninhalt eines Dreiecks                                                                                   163
+5.8   Flächeninhalt von Vierecken                                                                                    166
+5.9   Besondere Linien im Dreieck                                                                                    170
+5.10  Inkreis und Umkreis                                                                                            173
+5.11  Vermischte Aufgaben                                                                                            176
+      Prüfe dein neues Fundament                                                                                    178
+      Zusammenfassung                                                                                                180
+
+6.    Kongruenz und Ähnlichkeit                                                                                      181
+      Dein Fundament                                                                                                 182
+6.1   Kongruente Figuren                                                                                             184
+6.2   Kongruenzsätze                                                                                                 187
+6.3   Kongruenzabbildungen                                                                                           194
+6.4   Ähnliche Figuren                                                                                               198
+6.5   Umfang und Flächeninhalt ähnlicher Figuren                                                                     202
+6.6   Vermischte Aufgaben                                                                                            204
+      Prüfe dein neues Fundament                                                                                    206
+      Zusammenfassung                                                                                                208
+
+7.    Daten                                                                                                          209
+      Dein Fundament                                                                                                 210
+7.1   Absolute und relative Häufigkeit                                                                               212
+7.2   Diagramme                                                                                                      216
+7.3   Klasseneinteilung                                                                                              220
+7.4   Kennwerte                                                                                                      222
+      Streifzug: Weitere Kennwerte                                                                                   227
+7.5   Tabellenkalkulation                                                                                            230
+7.6   Boxplots                                                                                                       234
+7.7   Statistische Erhebungen                                                                                        238
+7.8   Vermischte Aufgaben                                                                                            240
+      Prüfe dein neues Fundament                                                                                    242
+      Zusammenfassung                                                                                                244
+
+8.    Komplexe Aufgaben                                                                                              245
+9.    Methoden                                                                                                       253
+10.   Anhang                                                                                                         263
+      Register, Bildquellenverzeichnis                                                                              278
+
+== Klasse 8 ==
+
+1.    Potenzen und Wurzeln                                                                                            7
+      Dein Fundament                                                                                                  8
+1.1   Potenzen                                                                                                       10
+1.2   Zehnerpotenzen                                                                                                 13
+1.3   Quadratwurzeln und Kubikwurzeln                                                                                17
+1.4   Vermischte Aufgaben                                                                                            22
+      Prüfe dein neues Fundament                                                                                    24
+      Zusammenfassung                                                                                                26
+
+2.    Kreis                                                                                                          27
+      Dein Fundament                                                                                                 28
+2.1   Kreise und Geraden                                                                                             30
+2.2   Satz der Thales                                                                                                33
+      Streifzug: Peripherie- und Zentriwinkel                                                                       36
+2.3   Umfang und Flächeninhalt eines Kreises                                                                        38
+2.4   Kreisausschnitt und Kreisbogen                                                                                44
+2.5   Umfang und Flächeninhalt zusammengesetzter Figuren                                                            46
+2.6   Vermischte Aufgaben                                                                                            48
+      Prüfe dein neues Fundament                                                                                    50
+      Zusammenfassung                                                                                                52
+
+3.    Funktionen                                                                                                     53
+      Dein Fundament                                                                                                 54
+3.1   Funktionen                                                                                                     56
+3.2   Proportionale Funktionen                                                                                       59
+3.3   Steigung                                                                                                       64
+3.4   Lineare Funktionen                                                                                             68
+      Streifzug: Stückweise lineare Funktionen                                                                     74
+      Streifzug: Funktionen mit einem CAS oder GTR zeichnen                                                        75
+3.5   Geraden durch zwei Punkte                                                                                      76
+3.6   Nullstellen                                                                                                    78
+      Streifzug: Antiproportionale Funktionen                                                                       82
+3.7   Vermischte Aufgaben                                                                                            84
+      Prüfe dein neues Fundament                                                                                    86
+      Zusammenfassung                                                                                                88
+
+4.    Terme                                                                                                          89
+      Dein Fundament                                                                                                 90
+4.1   Terme mit mehreren Variablen aufstellen                                                                        92
+4.2   Terme vereinfachen                                                                                             95
+      Streifzug: Terme mit einem CAS darstellen                                                                    101
+4.3   Ausmultiplizieren einer Klammer                                                                               102
+4.4   Ausklammern                                                                                                   106
+4.5   Ausmultiplizieren von zwei Klammern                                                                           108
+4.6   Binomische Formeln                                                                                            111
+      Streifzug: Pascal'sches Dreieck                                                                              115
+4.7   Vermischte Aufgaben                                                                                           117
+      Prüfe dein neues Fundament                                                                                   120
+      Zusammenfassung                                                                                               122
+
+5     Lineare Gleichungssysteme                                                                                     123
+      Dein Fundament                                                                                                124
+5.1   Lineare Gleichungen mit zwei Variablen                                                                        126
+5.2   Lineare Gleichungssysteme                                                                                     130
+5.3   Gleichsetzungs- und Einsetzungsverfahren                                                                      134
+5.4   Additionsverfahren                                                                                            138
+5.5   Eine, keine oder unendlich viele Lösungen                                                                     141
+      Streifzug: Lineare Gleichungssysteme mit einem CAS lösen                                                     144
+5.6   Vermischte Aufgaben                                                                                           146
+      Prüfe dein neues Fundament                                                                                   148
+      Zusammenfassung                                                                                               150
+
+6     Zufall und Wahrscheinlichkeit                                                                                 151
+      Dein Fundament                                                                                                152
+6.1   Zufallsexperimente und Wahrscheinlichkeit                                                                    154
+6.2   Eigenschaften der Wahrscheinlichkeit                                                                         158
+6.3   Laplace-Wahrscheinlichkeit                                                                                    162
+      Streifzug: Simulation von Zufallsexperimenten                                                                166
+6.4   Baumdiagramme                                                                                                 170
+      Streifzug: Bananensuche                                                                                      172
+6.5   Wahrscheinlichkeiten bei Baumdiagrammen                                                                      174
+6.6   Vermischte Aufgaben                                                                                           180
+      Prüfe dein neues Fundament                                                                                   182
+      Zusammenfassung                                                                                               184
+
+7.    Körper                                                                                                        185
+      Dein Fundament                                                                                                186
+7.1   Prisma - Netz und Oberflächeninhalt                                                                          188
+7.2   Schrägbild eines Prismas                                                                                     192
+7.3   Volumen eines Prismas                                                                                        194
+7.4   Zylinder - Netz und Oberflächeninhalt                                                                        198
+7.5   Schrägbild eines Zylinders                                                                                   203
+7.6   Volumen eines Zylinders                                                                                      205
+7.7   Satz des Pythagoras                                                                                          209
+7.8   Pyramide – Netz und Oberflächeninhalt                                                                        212
+7.9   Schrägbild und Dreitafelprojektion                                                                           215
+7.10  Volumen einer Pyramide                                                                                       218
+7.11  Vermischte Aufgaben                                                                                          220
+      Prüfe dein neues Fundament                                                                                  222
+      Zusammenfassung                                                                                              224
+
+8.    Komplexe Aufgaben                                                                                            225
+9.    Methoden                                                                                                     233
+10.   Anhang                                                                                                       241
+      Lösungen                                                                                                     242
+      Tabellen mit Zufallszahlen                                                                                  260
+      Stichwortverzeichnis, Bildquellenverzeichnis                                                                262
+
 == Klasse 9 ==
 
         V o r w o rt..............................................................................................................................     4
@@ -112,4 +330,87 @@ Mathematik Klasse <n>" auf d-nb.info, jhr 2016-2019.
       Bildquellenverzeichnis ..................................................................................................             253
       Stichwortverzeichnis .....................................................................................................            254
       Im pressum ........................................................................................................................   256
+
+== Klasse 10 ==
+
+      Vorwort                                                                                                                     4
+
+1      Trigonometrie                                                                                                              5
+       Dein Fundament                                                                                                             6
+1.1   Sinus und Kosinus                                                                                                           8
+1.2   Tangens                                                                                                                     13
+1.3   Berechnungen an rechtwinkligen Dreiecken                                                                                    19
+1.4   Sinussatz                                                                                                                   23
+       Streifzug: Sinus und Kosinus für beliebige Winkel                                                                         28
+1.5   Kosinussatz                                                                                                                 30
+1.6   Vermischte Aufgaben                                                                                                         36
+       Prüfe dein neues Fundament                                                                                                38
+      Zusammenfassung                                                                                                             40
+
+2      Exponentielle Zusammenhänge                                                                                               41
+      Dein Fundament                                                                                                              42
+2.1   Exponentielles Wachstum                                                                                                     44
+2.2   Prozentuale Wachstumsrate und Zinseszins                                                                                    50
+2.3   Exponentielle Abnahme                                                                                                       54
+2.4   Exponentialfunktionen                                                                                                       57
+2.5   Wachstumsvorgänge modellieren                                                                                               63
+2.6   Exponentialgleichungen und Logarithmus                                                                                      68
+      Streifzug: Regression                                                                                                       72
+2.7   Vermischte Aufgaben                                                                                                         74
+      Prüfe dein neues Fundament                                                                                                  76
+      Zusammenfassung                                                                                                             78
+
+3      Periodische Vorgänge                                                                                                       79
+      Dein Fundament                                                                                                              80
+3.1   Periodische Vorgänge                                                                                                        82
+3.2   Sinusfunktion und Kosinusfunktion                                                                                           85
+      Streifzug: Paare suchen!                                                                                                    90
+3.3   Winkel im Bogenmaß                                                                                                          92
+3.4   Sinusfunktionen mit Parametern                                                                                              97
+3.5   Periodische Vorgänge modellieren                                                                                           104
+3.6   Vermischte Aufgaben                                                                                                        107
+      Prüfe dein neues Fundament                                                                                                 110
+      Zusammenfassung                                                                                                            112
+
+4      Kombinatorik - Wahrscheinlichkeit                                                                                        113
+      Dein Fundament                                                                                                             114
+4.1   Wiederholung: Mehrstufige Zufallsexperimente                                                                              116
+4.2   Sinnvoller Umgang mit Baumdiagrammen                                                                                       121
+4.3   Urnenmodell - Ziehen mit und ohne Zurücklegen                                                                              126
+4.4   Urnenmodell - Ziehen ohne Reihenfolge                                                                                      130
+4.5   Simulationen                                                                                                               134
+4.6   Vermischte Aufgaben                                                                                                        138
+      Prüfe dein neues Fundament                                                                                                140
+      Zusammenfassung                                                                                                            142
+
+5     Ganzrationale Funktionen                                                                                                   143
+      Dein Fundament                                                                                                             144
+5.1   Grundlagen zu Funktionen                                                                                                   146
+5.2   Ganzrationale Funktionen                                                                                                   150
+5.3   Besondere Punkte am Graphen einer Funktion                                                                                 153
+5.4   Nullstellen                                                                                                                157
+      Streifzug: Polynomdivision                                                                                                161
+5.6   Vermischte Aufgaben                                                                                                        163
+      Prüfe dein neues Fundament                                                                                                166
+      Zusammenfassung                                                                                                           168
+
+6     Änderungsraten deuten und bestimmen                                                                                       169
+      Dein Fundament                                                                                                            170
+6.1   Mittlere Änderungsrate                                                                                                    172
+6.2   Lokale Änderungsrate - Ableitung                                                                                          175
+      Streifzug: Differenzierbarkeit                                                                                           181
+6.3   Graph der Ableitungsfunktion                                                                                             182
+6.4   Vermischte Aufgaben                                                                                                       186
+      Prüfe dein neues Fundament                                                                                               188
+      Zusammenfassung                                                                                                          190
+
+7     Komplexe Aufgaben                                                                                                        191
+
+8     Digitale Mathewerkzeuge                                                                                                  197
+
+9     Anhang                                                                                                                   207
+      Lösungen                                                                                                                 208
+      Bildquellenverzeichnis                                                                                                   221
+      Stichwortverzeichnis                                                                                                     222
+      Impressum                                                                                                                224
 

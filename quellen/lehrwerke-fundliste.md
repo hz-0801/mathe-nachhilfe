@@ -68,3 +68,25 @@ und Warenkorb. Je Werk höchstens 15 Minuten gesucht. Textfassungen unter
 Cornelsen-Werte für die Ausgabe B ab 2017 (Kl. 7, 8, 10) sind Kandidaten,
 keine Funde: `quelle-cornelsen-fundamente-bb-ausgabeb2017-inhalt.txt` nennt
 sie mit Begründung.
+
+## Bestätigungen und Sek II (Auftrag Lehrwerke Sek II und Förderhefte, 24.09.2026)
+
+| Verlag | Werk | Ausgabe | Klasse | ISBN | IDN | Fund | Vollständigkeit |
+|---|---|---|---|---|---|---|---|
+| Cornelsen | Fundamente der Mathematik | B ab 2017 | 7, 8, 10 | 9783060092345 (Kl.7), 9783060092352 (Kl.8), 9783060098545 (Kl.10) | 1054777373, 1054777381, 1150425601 | DNB + Web (bibliografische Bestätigung, da DNB-926-Feld kein Bundesland nennt) | ja – beide Kl.7/8-Kandidaten aus dem Auftrag vom 24.09. waren falsch (Hessen bzw. Sachsen-Anhalt/Rheinland-Pfalz), Kl.10-Erstkandidat war richtig |
+| Westermann | Mathematik heute | Ausgabe 2016 für Berlin und Brandenburg | 7–10 | 9783507812604/-2673/-2741/-2819 | 1081151951, 1121235808, 1149946571, 1174808292 | Verlag (westermann.de-Artikelseiten nennen Berlin/Brandenburg explizit) | ja, alle vier bestätigt |
+
+### Sek II – Landesausgaben Berlin/Brandenburg (Teil A)
+
+| Verlag | Reihe | Ausgabe | Band | ISBN | IDN | Fund | Vollständigkeit |
+|---|---|---|---|---|---|---|---|
+| Klett | Lambacher Schweizer | keine Landesausgabe; auch kein gedrucktes Allgemeine-Ausgabe-Schulbuch für BE/BB (nur die bundeslandübergreifende Digitalplattform Studyly) | Einführungsphase/Qualifikationsphase | – | – | nicht gefunden | – |
+| Cornelsen | Fundamente der Mathematik | Ausgabe B (Berlin, Brandenburg, Mecklenburg-Vorpommern) | Einführungsphase | 9783060098514 | 1266335498 | DNB | ja |
+| Cornelsen | Fundamente der Mathematik | Ausgabe B (BE/BB/MV) | Qualifikationsphase GK/LK | – | – | nicht gefunden (in der DNB noch nicht katalogisiert/erschienen; alle 2019–2025 gefundenen Qualifikationsphase-Bände tragen andere Bundesländer, u. a. NRW) | – |
+| Cornelsen | Bigalke/Köhler Mathematik | Berlin/Brandenburg | – | – | – | nicht gefunden (kein Titeltreffer in der DNB unter dem Autorennamen; Verlagssuche in dieser Sitzung nicht zuverlässig durchsuchbar) | – |
+| Westermann | Elemente der Mathematik SII | keine Landesausgabe BE/BB gefunden; Gegenprobe Ausgabe Nordrhein-Westfalen ab 2024 | Einführungsphase | 9783141094510 | 1312202416 | DNB (Gegenprobe) | ja |
+| Westermann | Elemente der Mathematik SII | Gegenprobe NRW ab 2024/2025 | Qualifikationsphase Grundkurs | 9783141094619 | 134985025X | DNB (Gegenprobe) | ja |
+| Westermann | Elemente der Mathematik SII | Gegenprobe NRW ab 2024/2025 | Qualifikationsphase Leistungskurs | 9783141094718 | 1349851108 | DNB (Gegenprobe) | ja |
+| Westermann | Mathematik Neue Wege SII | Ausgabe 2011 für Berlin, Rheinland-Pfalz, Saarland, Schleswig-Holstein (keine Brandenburg-Ausgabe gefunden) | Analysis | 9783507855816 | 100994021X | DNB (Titel nennt Berlin explizit) | ja |
+| Westermann | Mathematik Neue Wege SII | dieselbe Ausgabe (Bundesland aus Reihe/Jahrgang erschlossen) | Lineare Algebra, Analytische Geometrie | 9783507855847 | 1009940228 | DNB | ja |
+| Westermann | Mathematik Neue Wege SII | dieselbe Ausgabe (Bundesland aus Reihe/Jahrgang erschlossen) | Stochastik | 9783507855878 | 1009940236 | DNB | ja |

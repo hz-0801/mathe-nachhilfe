@@ -1,0 +1,264 @@
+Westermann, "Elemente der Mathematik SII", gymnasiale Oberstufe. Keine
+Landesausgabe fuer Berlin oder Brandenburg gefunden (DNB-Titelsuche
+"Elemente der Mathematik" mit "Einfuehrungsphase"/"Qualifikationsphase"
+und "Berlin"/"Brandenburg": 0 Treffer; Stichprobe der 926-Publisher-
+Metadaten mehrerer 2020-2025-Baende zeigt ausschliesslich
+Nordrhein-Westfalen). Als Gegenprobe die aktuelle Ausgabe fuer
+Nordrhein-Westfalen (Einfuehrungsphase 2024, Qualifikationsphase
+2025), Inhaltsverzeichnisse ueber die DNB-SRU-Schnittstelle gefunden
+und mit pdftotext -layout extrahiert am 24.09.2026.
+
+Einfuehrungsphase, Ausgabe NRW ab 2024: ISBN 9783141094510,
+IDN 1312202416, https://d-nb.info/1312202416/04, 2024.
+Qualifikationsphase Grundkurs, Ausgabe NRW ab 2024: ISBN 9783141094619,
+IDN 134985025X, https://d-nb.info/134985025X/04, 2025.
+Qualifikationsphase Leistungskurs, Ausgabe NRW ab 2024: ISBN 9783141094718,
+IDN 1349851108, https://d-nb.info/1349851108/04, 2025.
+
+(C) Westermann - Gliederung als Beleg, keine Aufgaben. Achtung: Seiten-
+zahlen einzelner Zeilen (z. B. Kapitel 1.6/1.7 im Grundkursband) stehen
+im Rohtext nicht in Lesereihenfolge; die Kapitelfolge selbst ist
+eindeutig.
+
+== Einfuehrungsphase ==
+
+1 Funktionen
+1.1   Funktionen und ihre Darstellungen                    10
+1.2   Potenzfunktionen                                     14
+1.3   Funktionsgraphen verschieben und strecken            16
+1.4   Ganzrationale Funktionen                              20
+1.5   Symmetrien von Funktionsgraphen                      24
+1.6   Nullstellen                                          28
+      Lösen von Gleichungen höheren Grades                 32
+      Mein Merkzettel                                      34
+      Wiederholen für die Klausur                          36
+
+2 Differenzialrechnung
+2.1   Mittlere Änderungsrate                                40
+2.2   Lokale Änderungsrate                                 46
+2.3   Ableitung an einer Stelle berechnen                  52
+      Differenzierbarkeit                                  56
+2.4   Graph der Ableitungsfunktion                         58
+2.5   Potenzregel                                          64
+2.6   Faktor- und Summenregel                              66
+2.7   Tangenten und Normalen                                70
+      Die Entstehung der Differenzialrechnung               76
+      Mein Merkzettel                                      78
+      Wiederholen für die Klausur                          80
+
+3 Funktionsuntersuchung
+3.1   Monotonie                                            84
+3.2   Extrempunkte                                          88
+3.3   Zweite Ableitung                                      94
+3.4   Wendepunkte                                          98
+      Typen ganzrationaler Funktionen 3. Grades            104
+3.5   Funktionen untersuchen                                106
+      Mein Merkzettel                                      110
+      Wiederholen für die Klausur                          112
+
+4 Vektoren und Geraden im Raum
+4.1   Punkte im Raum                                        116
+4.2   Verschiebungen im Raum - Vektoren                     120
+4.3   Vektoren addieren und subtrahieren                    124
+4.4   Vektoren vervielfachen                                128
+      Bewegungen auf dem Wasser                             132
+4.5   Geraden im Raum                                       134
+4.6   Lagebeziehungen zwischen Geraden                      140
+      Mein Merkzettel                                       144
+      Wiederholen für die Klausur                           146
+
+Vorbereiten und Wiederholen
+      3-Minuten-Runden                                      150
+      Wissensspeicher                                       154
+      Mathematische Symbole und Sprechweisen                165
+      Lösungen                                              168
+      Stichwortverzeichnis                                  188
+
+== Qualifikationsphase Grundkurs ==
+
+1 Modellieren mit Funktionen
+1.1  Extremwertprobleme                                10
+     Modelle variieren                                14
+1.2  Lineare Gleichungssysteme                          16
+1.3  Funktionsterme bestimmen                           20
+1.4  Funktionen mit einem Parameter                     26
+1.5  Umkehrfunktionen                                   30
+1.6  Ableitung der Wurzel- und der Kehrwertfunktion     32
+1.7  Ableitung der Sinus- und der Kosinusfunktion       36
+     Mein Merkzettel                                    38
+     Wiederholen für die Klausur                        40
+
+2 Integralrechnung
+2.1  Von der Änderung zum Bestand                      44
+2.2  Integral als Grenzwert                            48
+2.3  Hauptsatz der Differenzial- und Integralrechnung   52
+2.4  Integralfunktion                                   56
+     Mittelwert über einem Intervall                    60
+2.5  Fläche zwischen Graph und x-Achse                  62
+2.6  Fläche zwischen zwei Graphen                       66
+     Mein Merkzettel                                    70
+     Wiederholen für die Klausur                        72
+
+3 Wachstum beschreiben
+3.1  Exponentielles Wachstum                            76
+3.2  Die e-Funktion                                     82
+3.3  e-Funktionen ableiten                              88
+3.4  Exponentialfunktionen mit der Basis e beschreiben  90
+3.5  Begrenztes Wachstum                                94
+     Ausbreitung von Epidemien                          98
+3.6  Wachstum vergleichen - Produktregel                100
+3.7  e-Funktionen in Anwendungen                        104
+     Mein Merkzettel                                    110
+     Wiederholen für die Klausur                        112
+
+4 Analytische Geometrie
+4.1  Orthogonalität - Skalarprodukt                    116
+4.2  Winkel zwischen Vektoren                          120
+4.3  Parameterdarstellung einer Ebene                  124
+4.4  Koordinatenform einer Ebene                       130
+4.5  Lagebeziehungen zwischen Geraden und Ebenen       134
+     Licht und Schatten                                138
+4.6  Schnittwinkel mit Ebenen                          140
+     Mein Merkzettel                                    144
+     Wiederholen für die Klausur                        146
+
+5 Daten und Zufall
+5.1  Mittelwert und Standardabweichung                 150
+     Boxplots                                           156
+5.2  Mehrstufige Zufallsexperimente                    158
+5.3  Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit  162
+5.4  Vierfeldertafeln                                   166
+5.5  Erwartungswert einer Zufallsgröße                 172
+5.6  Standardabweichung einer Zufallsgröße             178
+     Mein Merkzettel                                    182
+     Wiederholen für die Klausur                        184
+
+6 Binomialverteilte Zufallsgrößen
+6.1  Binomialverteilung                                188
+     Binomialkoeffizienten                              194
+6.2  Kumulierte Binomialverteilung                     196
+6.3  Mindestzahl an Versuchen                           200
+6.4  Erwartungswert und Standardabweichung einer Binomialverteilung  202
+     Sigma-Regeln                                       207
+6.5  Simulation                                         208
+     Mein Merkzettel                                    212
+     Wiederholen für die Klausur                        214
+
+7 Abiturvorbereitung
+7.1  Aufgaben ohne Hilfsmittel                          220
+7.2  Aufgaben mit Hilfsmittel                           224
+7.3  Aufgaben im Stil einer Abiturklausur               231
+7.4  Aufgaben zur mündlichen Prüfung                    234
+
+Vorbereiten und Wiederholen
+     3-Minuten-Runden                                   240
+     Wissensspeicher                                    248
+     Mathematische Symbole und Sprechweisen             275
+     Lösungen                                           278 (Seitenangabe im Rohtext unklar)
+     Stichwortverzeichnis                               316
+
+== Qualifikationsphase Leistungskurs ==
+
+1 Modellieren mit Funktionen
+1.1  Extremwertprobleme                                 10
+     Modelle variieren                                  14
+1.2  Lineare Gleichungssysteme                          16
+1.3  Funktionsterme bestimmen                           20
+     Interpolation und Regression                       27
+1.4  Funktionenscharen                                  28
+1.5  Umkehrfunktionen                                   34
+1.6  Ableitung der Sinus- und der Kosinusfunktion       36
+1.7  Kettenregel und Produktregel                       38
+1.8  Allgemeine Sinusfunktion                           42
+1.9  Ableitung von Potenzfunktionen                     46
+     Mein Merkzettel                                    50
+     Wiederholen für die Klausur                        52
+
+2 Integralrechnung
+2.1  Von der Änderung zum Bestand                       56
+2.2  Integral als Grenzwert                             60
+2.3  Hauptsatz der Differenzial- und Integralrechnung   66
+2.4  Integralfunktion                                   70
+     Mittelwert über einem Intervall                    74
+2.5  Fläche zwischen Graph und x-Achse                  76
+2.6  Fläche zwischen zwei Graphen                       81
+2.7  Uneigentliche Integrale                            86
+2.8  Volumina von Rotationskörpern                      90
+     Bogenlänge                                         92
+     Mein Merkzettel                                    94
+     Wiederholen für die Klausur                        96
+
+3 Wachstum beschreiben
+3.1  Exponentielles Wachstum                            100
+3.2  Die e-Funktion                                     106
+3.3  Exponentialfunktionen ableiten                     112
+3.4  Wachstum mit e-Funktionen beschreiben              116
+3.5  Begrenztes Wachstum                                122
+     Ausbreitung von Epidemien                          126
+3.6  Produkte mit e-Funktionen                          128
+3.7  e-Funktionen in Anwendungen                        134
+3.8  Die natürliche Logarithmusfunktion                 142
+     Mein Merkzettel                                    146
+     Wiederholen für die Klausur                        148
+
+4 Analytische Geometrie
+4.1  Orthogonalität - Skalarprodukt                     152
+4.2  Winkel zwischen Vektoren                           156
+4.3  Parameterdarstellung einer Ebene                   160
+4.4  Koordinatenform einer Ebene                        166
+     Vektorprodukt                                      172
+4.5  Lagebeziehungen im Raum                            174
+     Licht und Schatten                                 180
+4.6  Schnittwinkel mit Ebenen                           (Seitenangabe im Rohtext unklar)
+4.7  Abstände zu Ebenen                                 186
+4.8  Abstände zu Geraden                                192
+     Mein Merkzettel                                    198
+     Wiederholen für die Klausur                        201
+
+5 Daten und Zufall
+5.1  Mittelwert und Standardabweichung                  206
+5.2  Daten klassieren                                   212
+     Boxplots                                           216
+5.3  Mehrstufige Zufallsexperimente                     (Seitenangabe im Rohtext unklar)
+5.4  Zählstrategien                                     222
+     Pascal'sches Dreieck                               227
+5.5  Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit  228
+5.6  Vierfeldertafeln                                   232
+     Aussagekraft medizinischer Testergebnisse          238
+5.7  Erwartungswert einer Zufallsgröße                  240
+5.8  Standardabweichung einer Zufallsgröße              246
+     Mein Merkzettel                                    250
+     Wiederholen für die Klausur                        252
+
+6 Binomialverteilte Zufallsgrößen
+6.1  Binomialverteilung                                 256
+6.2  Kumulierte Binomialverteilung                      264
+     Auslastungsmodell                                  270
+6.3  Mindestzahl an Versuchen                           272
+6.4  Erwartungswert und Standardabweichung einer Binomialverteilung  276
+6.5  Simulation                                         280
+     Mein Merkzettel                                    284
+     Wiederholen für die Klausur                        286
+
+7 Beurteilende Stochastik
+7.1  Sigma-Regeln - Prognoseintervalle                  292
+7.2  Konfidenzintervalle                                298
+7.3  Erforderlicher Stichprobenumfang                   304
+7.4  Stetige Zufallsgrößen                              308
+     Modellierung von Wartezeiten                       311
+7.5  Normalverteilung                                   312
+     Sigma-Regeln herleiten                             320
+     Mein Merkzettel                                    322
+     Wiederholen für die Klausur                        324
+
+8 Abiturvorbereitung
+8.1  Aufgaben ohne Hilfsmittel                          330
+8.2  Aufgaben mit Hilfsmittel                           334
+8.3  Aufgaben im Stil einer Abiturklausur               343
+
+Vorbereiten und Wiederholen
+     3-Minuten-Runden                                   350
+     Wissensspeicher                                    358
+     Mathematische Symbole und Sprechweisen             385
+     Lösungen                                           391
+     Stichwortverzeichnis                               443
