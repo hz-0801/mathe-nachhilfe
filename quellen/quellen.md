@@ -451,6 +451,21 @@ einzelne Zeilen verstümmelt; Klasse 8 in der DNB nur bis Kapitel 4, Kapitel
 5–6 aus dem frei verlinkten Stoffverteilungsplan des Verlags ergänzt
 (eigener Abschnitt in der Datei).
 
+## Freie Aufgabensammlungen anderer Länder (abgelegt 25.09.2026)
+
+Auftrag Nacht 2026-09-25, Teil 3: freie amtliche Tests und Prüfungen
+anderer Länder als mögliche Originale für die 22 Sprossen mit „kein
+P10-Original“. Gesichert (lokal unter `hefte/fremd/`, PDF und Textfassung,
+nicht im Repo): Bayern, ISB – Jahrgangsstufentests Mathematik Gymnasium 8
+und 10, Realschule 6 und 8 (Wahlpflichtfächergruppe II/III),
+Abschlussprüfung Realschule Mathematik I und II (Haupttermin), je
+2021–2025 mit Lösungen; IQB – VERA-8 Mathematik, Didaktische Handreichung
+Teil II 2022–2026. Nicht frei erreichbar: Quali Mittelschule Bayern
+(ByCS-Prüfungsarchiv, Download nur nach Anmeldung), Kompetenztests Sachsen
+(Portal mit Anmeldung). Fundliste mit Adressen, Vermerken, Umfang und
+Abrufzählung: `quellen/fremdsammlungen-fundliste.md`; Fundstellen je Typ:
+`katalog/_fremdoriginale-belege.md`.
+
 ## Noch nicht abgelegt
 
 - [MzDuF] LISUM, „Materialien zur Diagnose und Förderung im

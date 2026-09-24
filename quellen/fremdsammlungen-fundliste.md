@@ -1,0 +1,36 @@
+# Fundliste freie Aufgabensammlungen anderer Länder
+
+Stand 2026-09-25. Auftrag Nacht 2026-09-25 (`archiv/auftrag-nacht-2026-09-25.md`), Teil 3: freie amtliche Tests anderer Länder sichern, damit die 22 Sprossen mit „kein P10-Original“ (`katalog/_niveaustufen-belege.md`) später eine Decke aus echten Prüfungsaufgaben bekommen können. Die Fundstellen je Typ stehen in `katalog/_fremdoriginale-belege.md`; diese Liste nennt nur die Sammlungen.
+
+Ablage: PDF und Textfassung (`pdftotext -layout`, poppler aus MiKTeX) unter `hefte/fremd/` – lokal wie die Prüfungshefte (`.gitignore`), das Urheberrecht liegt bei den Ländern. Dateinamen `<land>-<sammlung>-<jahr>-<stufe>.pdf`, Lösungen mit dem Zusatz `-loesungen`, die Textfassung daneben mit `.txt`.
+
+Zählweise: Eine Sammlung ist eine Test- oder Prüfungsreihe (ein Test einer Jahrgangsstufe bzw. eine Prüfung); je Sammlung höchstens 12 Abrufe. Ein Abruf ist jeder Seiten- oder Dateiabruf; eine Übersichtsseite, die mehrere Sammlungen bedient, zählt bei jeder. Websuchen sind nicht mitgezählt (fünf, Suchbegriffe unten). „Jüngste fünf Jahrgänge“: die fünf jüngsten, die zum Stichtag auf der Seite stehen; wo mehrere Parallelhefte erscheinen (Gruppe A/B, Wahlpflichtfächergruppen, Haupt-/Nachtermin), ist eines gesichert – die Wahl steht in der Zeile. Umfang: Seitenzahl laut `pdfinfo`.
+
+## Gesichert
+
+| Sammlung | Land, Herausgeber | Stufe | Jahrgänge | Dateien | Umfang | Lösungen | Adresse | Vermerk (wortgleich) | Abrufe |
+|---|---|---|---|---|---|---|---|---|---|
+| Bayerischer Mathematik-Test (BMT) 8 – `bayern-bmt-<jahr>-gym8` | Bayern, Staatsinstitut für Schulqualität und Bildungsforschung (ISB) | Gymnasium, Jahrgangsstufe 8 (Test zu Schuljahrsbeginn) | 2021, 2022, 2023, 2024, 2025 | 10: Aufgaben Gruppe A, Lösungshinweise (beide Gruppen) | Aufgaben 5 × 4 S., Lösungshinweise 5 × 1 S. | ja – „Lösungshinweise und Notenschlüssel“; laut Kopf „keine vollständigen Lösungen der Aufgaben“ | https://www.isb.bayern.de/schularten/gymnasium/leistungserhebungen/jahrgangsstufentests/mathematik/ | kein Lizenz- oder Urheberrechtsvermerk auf der Seite und in den PDFs | 12 |
+| Bayerischer Mathematik-Test (BMT) 10 – `bayern-bmt-<jahr>-gym10` | Bayern, ISB | Gymnasium, Jahrgangsstufe 10 (Test zu Schuljahrsbeginn) | 2021–2025 | 10: Aufgaben Gruppe A, Lösungshinweise | Aufgaben 5 × 4 S., Lösungshinweise 5 × 1 S. | ja (wie BMT 8) | wie BMT 8 | kein Vermerk | 12 |
+| Jahrgangsstufentest Mathematik Realschule 6 – `bayern-jst-<jahr>-rs6` | Bayern, ISB | Realschule, Jahrgangsstufe 6 | 2021–2025 | 10: Angabe, Lösung | Angaben 5 × 4 S., Lösungen 24 S. | ja (Lösung mit Punktverteilung) | https://www.isb.bayern.de/schularten/realschule/leistungserhebungen/jahrgangsstufentests/mathematik/ | kein Vermerk | 11 |
+| Jahrgangsstufentest Mathematik Realschule 8, Wahlpflichtfächergruppe II/III – `bayern-jst-<jahr>-rs8` | Bayern, ISB | Realschule, Jahrgangsstufe 8 | 2021–2025 | 10: Angabe, Lösung | Angaben 5 × 4 S., Lösungen 23 S. | ja | wie RS 6 | kein Vermerk | 11 |
+| Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin – `bayern-rsap-<jahr>-rs10-mi` | Bayern, ISB | Realschule, Jahrgangsstufe 10 (Realschulabschluss) | 2021–2025 | 10: Angaben (Aufgabengruppe A taschenrechnerfrei, B), Lösungsmuster | Angaben 42 S., Lösungsmuster 32 S. | ja – „Lösungsmuster und Bewertung“ | https://www.isb.bayern.de/schularten/realschule/leistungserhebungen/abschlusspruefungen/mathematik/ | kein Lizenz- oder Urheberrechtsvermerk; Bildnachweis „© Clipdealer.com“ (2025, Angabe Zeile 24) | 11 |
+| Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin – `bayern-rsap-<jahr>-rs10-mii` | Bayern, ISB | Realschule, Jahrgangsstufe 10 | 2021–2025 | 10: Angaben, Lösungsmuster | Angaben 42 S., Lösungsmuster 29 S. | ja | wie M I | kein Vermerk | 11 |
+| VERA-8 Mathematik, Didaktische Handreichung Teil II („Langkommentare“) – `iqb-vera8-<jahr>-kl8` | Länderübergreifend, Institut zur Qualitätsentwicklung im Bildungswesen (IQB), Berlin | Jahrgangsstufe 8, alle Schularten | 2022, 2023, 2024, 2025, 2026 (2021 fehlt auf der Seite) | 5 | 33 + 30 + 36 + 39 + 44 = 182 S. | nur als Lösungswege und typische Fehler im fachdidaktischen Kommentar zu den Beispielaufgaben, keine Kodieranweisung | https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/ | kein Lizenzvermerk in Seite und PDFs; Kopf der Handreichung: Aufgaben „in Kooperation von Lehrkräften aus neun Bundesländern“ unter Federführung des IQB (2026) | 6 |
+
+Zusammen 65 PDF (60 Bayern, 5 IQB) mit Textfassung; Punkt e des Auftrags (weiteres Land bei weniger als 20 Dateien) entfällt.
+
+Wahl bei Parallelheften: Gymnasium Gruppe A (Gruppe B ist gleichwertig, die Lösungshinweise decken beide); Realschule 8 die Wahlpflichtfächergruppe II/III (der breitere Zug, näher an der Berliner Oberschule; die Fassung für Gruppe I liegt unter derselben Adresse); Abschlussprüfung nur Haupttermin (Nachtermin unter derselben Adresse).
+
+Weitere freie Dateien derselben Seiten, nicht gesichert: Ergebnisse und Auswertungen je Test, ältere Jahrgänge (BMT ab 2005, Realschultests ab 2001, Abschlussprüfung ab 2020 auf der Seite), beim IQB die Handreichungen 2012–2020 und „Alle Aufgaben der Leitidee 1–5“ als Word-Archive (Aufgabenpool 2011–2017).
+
+## Nicht gesichert
+
+| Sammlung | Land, Herausgeber | Befund | Adresse | Suchbegriffe | Abrufe |
+|---|---|---|---|---|---|
+| Qualifizierender Abschluss der Mittelschule (Quali), Mathematik | Bayern, ISB / ByCS-Prüfungsarchiv | offen: Die ISB-Seite nennt nur „Weitere Aufgaben“ und verweist für die Prüfungen auf das ByCS-Prüfungsarchiv. Dessen öffentliche Suche führt die Quali-Mathematik 2013–2025 (Aufgaben A, Aufgaben B, Lösungen) mit dem Metadatum „public (frei zugänglich)“; die Download-Adresse leitet aber auf die ByCS-Anmeldung (auth.bycs.de) um. Acht Downloadversuche (Teil B und Lösungen 2022–2025) lieferten die Anmeldeseite; Zählgrenze erreicht. | https://www.isb.bayern.de/schularten/mittelschule/qualifizierender-abschluss/mathematik/; https://archiv.bycs.de/edu-sharing/components/search | „isb.bayern.de Mittelschule qualifizierender Abschluss Mathematik Prüfungsaufgaben Lösungen PDF“; Archivsuche „Mathematik qualifizierender Abschluss“ | 12 |
+| Kompetenztests Mathematik Klasse 6 und 8 | Sachsen, Landesamt für Schule und Bildung / Kultusministerium | nicht frei: Die Seite verweist nur auf das Portal www.ktest.de/sachsen (Anmeldung). Die Informationsschrift 2025/26 nennt Kompetenztests für die Klassen 3 und 8 (Klasse 6 nicht mehr); Testaufgaben werden „den Lehrkräften auf dem Portal Kompetenztests“ zur Ansicht gegeben. | https://www.schule.sachsen.de/kompetenztest-6633.html; https://www.schule.sachsen.de/download/Kompetenztests_25_26.pdf | „Sachsen Kompetenztest Mathematik Klasse 8 Aufgaben Lösungen PDF frei“ | 2 |
+
+Websuchen: „ISB Bayern Jahrgangsstufentest Mathematik Gymnasium Jahrgangsstufe 8 Aufgaben Lösungen PDF“; „isb.bayern.de Abschlussprüfung Realschule Mathematik I Aufgaben Lösungen PDF 2024“; die beiden Suchen der Tabelle oben; „IQB VERA-8 Mathematik Aufgabenbeispiele Download PDF iqb.hu-berlin.de“.
+
+Gegenprobe (Auftrag): Die Jahrgangsstufentests Gymnasium 8 sind für 2021–2025 gesichert, fünf Jahrgänge ab 2019; die ISB-Seite führt das Archiv bis 2005 zurück.
