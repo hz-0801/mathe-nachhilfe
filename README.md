@@ -26,6 +26,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `befund-lauf3-2026-09-22.md` – Befund des dritten Testlaufs (Lernblatt Daten, v4.1): Bereitstellung, Stufenschnitt, Werkzeuggrenze, Bausteinliste für Vorlage Stufe 4.
 - `befund-foerderhefte-2026-09-24.md` – Befund der Förderheft-Formen (Klick!, Kohl) gegen unterrichtsblatt.md v4.2 und ziel.md § 2 „Option schwach“, mit Revisionsvorschlag für die Option „schwach“; Befund, kein Beschluss.
 - `befund-schwach-blatt-2026-09-24.md` – Befund des Prüfstein-Blatts „prozentsatz 7 schwach“ (v4.2, Opus) gegen den MSK-Baustein P A: was stimmt, fünf Abweichungen nach Wirkung geordnet, Folgerung für die Revision der Option „schwach“ in v4.3.
+- `nacht-bericht-2026-09-25.md` – Bericht des Auftrags Nacht 2026-09-25: Teil 1 Inhaltsverzeichnisse (LS BE/BB, Klasse 5/6, weitere Reihen), Teil 2 Klassenbelege je Lerneinheit (Zahlenblock, Gegenproben, Verlagsmarken), Teil 3 fremde Aufgabensammlungen und Fundstellen, je Teil offene Punkte und eigene Entscheidungen.
 - `themen.csv` – Themenkonkordanz: kanonisches Thema je Katalogthema, alle vier Profile; nach jeder Katalogänderung `python werkzeuge/themen-pruef.py`.
 - `eingang/erledigt/` – verarbeitete Protokoll-Archive der Blatt-Chats (lokal, nicht versioniert).
 - `blaetter/` – abgelegte Blätter je Thema und Datum, PDFs und Quelltexte; `blaetter/index.md` ist das Register, abgeleitet.
@@ -344,6 +345,8 @@ auf Ordner es überholt hat.
 
 `hefte/` gescannte Prüfungshefte (urheberrechtlich geschützt), `hefte-md/` Markdown-Korpus
 der Verlagsbände, `korpus/` maschineller Korpus, `baende/` Sammelbände, `iqb-pdf/` Cache.
+`hefte/fremd/` freie Tests und Prüfungen anderer Länder als PDF mit Textfassung (Verzeichnis:
+`quellen/fremdsammlungen-fundliste.md`).
 
 ## Repo blattbau – anderes Projekt
 
