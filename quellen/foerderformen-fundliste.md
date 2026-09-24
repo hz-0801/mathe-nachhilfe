@@ -55,7 +55,74 @@ nötig)
 
 ## Teil 2 – Stark Verlag
 
-(wird ausgefüllt)
+| Quelle | Titel | Klasse/Stufe | Adresse | Datei lokal | Lizenz | Seiten angesehen | Thema (Titel des Abschnitts) | Formen | Aufg./Seite | Zeilen vor 1. Aufg. | Teilaufg./Beispiel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| STARK | Mathematik - Abitur-Training - Stochastik | Oberstufe (GK/LK) | https://www.stark-verlag.de/mathematik-abitur-training-stochastik-9783849065263 | ja | urheberrechtlich geschützt (STARK Verlag) | 12 | Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit | B, M, Z, F, S, Lö | 2 | 6 | 2 |
+| STARK | Mathematik - Abitur-Training - Analysis | Oberstufe (GK/LK) | https://www.stark-verlag.de/mathematik-abitur-training-analysis-9783849065249 | ja | urheberrechtlich geschützt (STARK Verlag) | 12 | Differenzialrechnung – Bedeutung der Ableitung | B, M, Z, F, Lö | 1 | 1 | 1 |
+| STARK | Mathematik - Abitur-Training - Analytische Geometrie | Oberstufe (GK/LK) | https://www.stark-verlag.de/mathematik-abitur-training-analytische-geometrie-9783849065256 | ja | urheberrechtlich geschützt (STARK Verlag) | 12 | Ebenen – Ebenen in Parameterform | B, M, Z, F, Lö | 2 | 4 | 2 |
+| STARK | Mathematik - KOMPAKT - Basiswissen 5.-10. Klasse (Grundwissen-Titel, vormals „Grundwissen") | 5.–10. Klasse (Gymnasium) | https://www.stark-verlag.de/mathematik-kompakt-basiswissen-5-10-klasse-9783849065881 | nein | urheberrechtlich geschützt (STARK Verlag) | 0 | – | – | – | – | – |
+| STARK | Mathematik 5. Klasse - Training Realschule - Grundwissen, Aufgaben und Lösungen | 5. Klasse (Realschule) | https://www.stark-verlag.de/mathematik-5-klasse-training-realschule-grundwissen-aufgaben-und-loesungen-9783849026196 | nein | urheberrechtlich geschützt (STARK Verlag) | 0 | – | – | – | – | – |
+| STARK | Mathematik 6. Klasse - Training Realschule - Grundwissen, Aufgaben und Lösungen | 6. Klasse (Realschule) | https://www.stark-verlag.de/mathematik-6-klasse-training-realschule-grundwissen-aufgaben-und-loesungen-9783849032142 | nein | urheberrechtlich geschützt (STARK Verlag), angenommen | 0 | – | – | – | – | – |
+| STARK | Mathematik 7. Klasse - Training Realschule - Grundwissen, Aufgaben und Lösungen | 7. Klasse (Realschule) | https://www.stark-verlag.de/mathematik-7-klasse-training-realschule-grundwissen-aufgaben-und-loesungen-9783894499174 | nein | urheberrechtlich geschützt (STARK Verlag), angenommen | 0 | – | – | – | – | – |
+| STARK | Mathematik II/III 8. Klasse - Training Realschule - Grundwissen, Aufgaben und Lösungen | 8. Klasse (Realschule, Gr. II/III) | https://www.stark-verlag.de/mathematik-iiiii-8-klasse-training-realschule-grundwissen-aufgaben-und-loesungen-9783866681941 | nein | urheberrechtlich geschützt (STARK Verlag), angenommen | 0 | – | – | – | – | – |
+| STARK | Mathematik II/III 9. Klasse - Training Realschule - Grundwissen, Aufgaben und Lösungen | 9. Klasse (Realschule, Gr. II/III) | https://www.stark-verlag.de/mathematik-iiiii-9-klasse-training-realschule-grundwissen-aufgaben-und-loesungen-9783849026462 | nein | urheberrechtlich geschützt (STARK Verlag), angenommen | 0 | – | – | – | – | – |
+| STARK | Mathematik II/III 10. Klasse - Training Realschule - Grundwissen, Aufgaben und Lösungen | 10. Klasse (Realschule, Gr. II/III) | https://www.stark-verlag.de/mathematik-iiiii-10-klasse-training-realschule-grundwissen-aufgaben-und-loesungen-9783894498139 | nein | urheberrechtlich geschützt (STARK Verlag), angenommen | 0 | – | – | – | – | – |
+| STARK | Training Haupt-/Mittelschule – Mathematik, je Klasse 5.–10. | 5.–10. Klasse (Hauptschule/Mittelschule) | nicht gefunden (s. Bemerkung) | nein | – | 0 | – | – | – | – | – |
+
+Formen-Zuordnung und Kennzahlen, eigene Entscheidung: Bei allen drei Abitur-Training-
+Bänden (Analysis, Analytische Geometrie, Stochastik) zählt der blaue Definitions-/
+Regelkasten als M, jede Musteraufgabe mit vorgerechneter Lösung als B, jede
+Koordinatensystem-/Vierfeldertafel-Abbildung als Z (Bild/Tabelle als Hilfe) und die
+Übungsaufgaben ohne Vorgabe als F; die Lösungen im hinteren Buchteil zählen als Lö.
+Nur bei Stochastik kam ein Ankreuzraster („Kreuzen Sie an…", Aufgabe 58) als S hinzu;
+bei Analysis und Geometrie kamen in den angesehenen Abschnitten keine
+Kontrollkästchen vor. Kein L, R, W oder D beobachtet – diese Bände sind laufender
+Übungstext für die Oberstufe, keine Fördermaterialien mit Lückenraster, Wortschatzhilfe
+oder vorgeschalteter Diagnose. Die drei Kennzahlen sind Mittelwerte nur über die
+tatsächlichen Aufgabenseiten der 12 angesehenen Seiten je Datei (Cover, Inhalt,
+Vorwort, Leerseiten und Lösungsseiten zählen nicht als Aufgabenseite und wurden mit
+„–" ausgeklammert, analog zum Vorgehen bei Teil 1 mit dem Didaktischen Kommentar).
+
+Die „Leseprobe" ist nur dort ein echter Buchauszug, wo die Produktseite tatsächlich
+einen Leseprobe-Link zeigt (Klick löst media/muster/&lt;Verlagsnummer&gt;s1.pdf aus);
+ohne diesen Link liefert dieselbe Adressvorlage nur ein bedeutungsloses Platzhalter-
+Bild, kein Buchinhalt – bei der Mathematik 5. Klasse - Training Realschule wurde das
+geprüft und verworfen, deshalb „Seiten angesehen: 0" statt eines Fundes. Weil die drei
+Abitur-Training-Bände und die Grundwissen-Kategorie im Auftrag ausdrücklich genannt
+sind, wurden sie mit dem knappen Seitenaufruf-Budget vorrangig einzeln geöffnet; von
+den sechs Realschul-Jahrgangsstufen wurde nur die 5. Klasse tatsächlich aufgerufen
+und geprüft, die übrigen fünf (6.–10. Klasse, laut Trefferliste alle „Lieferbar") nur aus der
+Stark-eigenen Suchergebnisliste mit Titel und Adresse übernommen, ohne eigenen
+Seitenaufruf – ihr Leseprobe-Status wurde durch Analogieschluss auf die geprüfte
+5. Klasse (keine Leseprobe, gleiche Reihe, gleiche Aufmachung 2017–2019) als „nein"
+gesetzt, nicht einzeln bestätigt; das ist eine Vermutung, kein Fund, deshalb „Lizenz …,
+angenommen" statt einer bestätigten Angabe. Die drei neuen Abitur-Training-ISBN
+(…5249 Analysis, …5256 Geometrie, …5263 Stochastik) folgten erkennbar einer
+fortlaufenden Verlagsnummerierung; die mittlere Adresse (Geometrie) wurde deshalb
+direkt geraten statt über die Suche gesucht, was einen Seitenaufruf sparte.
+
+Die klassische Reihe „Training Haupt-/Mittelschule – Mathematik" je Klasse konnte
+nicht mit einer gültigen Adresse belegt werden: Die aus einer Web-Suche stammenden
+Adressen für die 5. und für die 6. Klasse lieferten beide „Seite nicht gefunden" (alte
+Verlagsnummern, vermutlich durch eine Neuauflage ersetzt); die Stark-eigene
+Volltextsuche nach „Training Haupt-Mittelschule Mathematik" fand dafür nur die neuere,
+nicht zum Auftrag gehörende Reihe „Prüfungsvorbereitung 2027" (anderer Produkttyp:
+Heft + Interaktives Training + Video statt Übungsbuch). Die zulässige Zahl von 15
+Seitenaufrufen für diese Quelle war erschöpft, bevor eine gezielte Ersatzsuche (analog
+zur erfolgreichen Suche bei den Abitur-Training-Bänden) möglich war.
+
+Dateien gesichert: 3
+Grenze erreicht: ja (Seitenaufrufe 15 von 15 verbraucht; Dateigrenze mit 3 von 8 nicht
+ausgeschöpft, da für die übrigen geprüften Titel keine Leseprobe angeboten war bzw.
+keine gültige Adresse mehr gefunden wurde, bevor die Seitenaufruf-Grenze griff)
+Suchbegriffe ohne Treffer: direkte Adresse „training-haupt-mittelschule-mathematik-
+5-klasse-9783849026127" (404); direkte Adresse
+„mathematik-6-klasse-training-haupt-mittelschule-grundwissen-aufgaben-und-
+loesungen-9783849033217" (404); Kategorie-Adresse
+„mittlere-schulformen/lernziele-themen/produktreihen/training" (Weiterleitung auf die
+Startseite); direkte Adresse „mathe-kompakt-gymnasium-grundwissen-5-10-klasse-
+9783849039363" (404, Reihe inzwischen von „Grundwissen" in „Basiswissen"
+umbenannt, richtige Adresse über Suche gefunden und in der Tabelle erfasst)
 
 ## Teil 3 – Persen und Auer
 
