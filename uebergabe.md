@@ -1,4 +1,4 @@
-# Übergabe 2026-09-23 – Werkstatt verbessereBlaetter
+# Übergabe 2026-09-25 – Werkstatt verbessereBlaetter
 
 ## 1 Ziel
 
@@ -11,150 +11,166 @@ bearbeiten kann.
 
 - ziel.md – das Ziel; gilt vor jeder anderen Datei.
 - blattbau/unterrichtsblatt.md v4.2 – läuft seit 23.09. als
-  Projektanweisung in erzeugeUnterrichtsblatt(); Repo und
-  Betrieb stimmen überein (CHANGELOG-Eintrag v4.2). Noch kein
-  Lauf mit v4.2.
-- blattbau/mathblatt.sty 2026-09-22h (Stufe 4) und
-  Anleitung_mathblatt.md, Kopf auf Stufe 4 berichtigt.
-- blattbau/pruefungsblatt.md v0.15 – unverändert.
-- katalog/_niveaustufen-belege.md – je Sek-I-Eintrag, Lern-
-  einheit und Sprosse die Stufe A–H aus Rahmenlehrplan und
-  LISUM, mit Zitat; Vorschlag, entscheidet nicht.
-- katalog/_kursart-belege.md – je Sek-II-Eintrag und Einheit
-  Grund- oder Leistungskurs aus Geltungstabellen und GOST;
-  Vorschlag, entscheidet nicht.
-- blaetter/ – drei Blätter (daten, nullstellen, prozentrechnung),
-  Register blaetter/index.md. nullstellen/2026-09-22 ist Lauf 4.
-- befund-lauf3-2026-09-22.md, befund-testlauf-2026-09-22.md –
-  Befunde der Läufe 1–3.
+  Projektanweisung in erzeugeUnterrichtsblatt(); noch kein Lauf
+  mit v4.2. blattbau/pruefungsblatt.md v0.15 unverändert.
+  blattbau/mathblatt.sty 2026-09-22h (Stufe 4).
+- msa/ – Profil msa mit vier Papieren: OS (2014–2025), EBR und
+  FOR (2026), GYM (Gymnasialhefte 2014–2025, eigene Datei
+  msa-katalog-gym.csv, 248 Zeilen). Gemeinsame Typenliste
+  msa-typen.csv, 264 Typen nach Abgleichlauf 24.09. Vergleiche:
+  msa/gym-vergleich.md (Typen: 76 nur GYM, 91 nur OS/EBR/FOR,
+  84 beide, als Haupttyp; Haupt+Neben 79/83/102),
+  msa/ebr-vergleich.md (EBR 2026: 25 Zeilen, 0 eigene Typen,
+  jede Aufgabe Teil einer FOR-Aufgabe). Berichte
+  msa/gym-bericht-2026-09.md, msa/nacht-bericht-2026-09-24.md.
+- katalog/_niveaustufen-belege.md, katalog/_kursart-belege.md –
+  Stufe A–H bzw. Kursart je Einheit und Sprosse; Vorschlag,
+  entscheidet nicht.
+- quellen/ – Rahmenlehrplan, LISUM, Klett-Fahrplan LS-AA,
+  Stoffverteilungspläne Elemente der Mathematik BB 2016 (Kl. 5–9)
+  und Sekundo BB 2017 (Kl. 7–10); Inhaltsverzeichnisse der
+  Landesausgaben BE/BB Kl. 7–10 als Text (Auftrag 25.09., DNB):
+  Fundamente B 2024 (Gymnasium und Oberschule), Fundamente B 2017
+  nur Kl. 9, Westermann Mathematik 2023 (Oberschule), Mathematik
+  heute 2014 (Oberschule; BE/BB-Zuordnung über ISBN-Folge, nicht
+  belegt), Elemente der Mathematik 2016 (Gymnasium, auch Kl. 10)
+  und 2025 (Kl. 5–7), Sekundo 2017, Schnittpunkt 2017 (ISS).
+  Lambacher Schweizer: keine BE/BB-Ausgabe, kein DNB-TOC.
+  Fundliste quellen/lehrwerke-fundliste.md, Bericht
+  quellen/lehrwerke-inhalt-bericht-2026-09.md, Skript
+  werkzeuge/dnb-sru.py.
+- fhr/fhr-vorgaben-pruefung-2026-09.md – Prüfung der fhr-Vorgaben:
+  16 bestätigt, 1 abweichend, 3 nicht belegbar; Vorbehalt bleibt.
+- blaetter/ – drei Blätter, Register blaetter/index.md;
+  nullstellen/2026-09-22 ist Lauf 4 (nicht ausgewertet).
 - katalog/ (73 Einträge), README.md als Landkarte.
 
 ## 3 Arbeitsstand
 
-Abgeschlossen:
-- Prompt v4.2 (auf Opus gebaut, nicht auf Fable): Planfrage vor
-  dem Bau (1.3), Stufenschnitt und Kursart (1.5), Halbseitenmaß
-  je Hauptnummer mit Teilung an Kettenstellen (2.3 g),
-  Bereitstellung in drei Antworten (2.7), Vorlage Stufe 4 ohne
-  eigene.sty (4.5), Vorstufe ohne Ergebnis, gemeinte Grafik wird
-  gezeichnet, Zählregel Lösungsdatei.
-- Lauf 4 abgelegt, nicht ausgewertet: Eingabe „nullstellen
-  10.klasse, test vorbereitung", v4.1, zwei Einträge
-  (quadratische-gleichungen, quadratische-funktionen Einheit 4),
-  5 Einheiten, Gesamt 22 Seiten plus Lösungen 3, über alle PDFs
-  mehr als 30 Seiten, über 20 Minuten. Gebraucht hätten pq-Formel
-  und Diskriminante. Anlass der Planfrage.
-- Belegdateien Niveaustufe und Kursart (Commit 3a420af). Kern:
-  Sek I trägt – 115 von 116 Lerneinheiten und 1126 von 1352
-  Sprossen haben eine Stelle im Rahmenlehrplan. Die Zeile
-  „Spanne" der Sek-I-Datei folgt einer falschen Regel aus dem
-  Auftrag (G/H und F zugleich); richtig ist Stoff auf H (siehe
-  § 4). Sek II: 37 von 44 Einträgen haben Stoff beider
-  Kursarten, 5 nur LK, 2 kein Planinhalt.
-- Nebenbefunde der Belege: trigonometrie liegt auf G (Eintrag
-  und index.md sagen F); lineare-funktionen Einheit 4 auf G
-  (sagen F); wahrscheinlichkeit: Baumdiagramm und Pfadregel auf
-  G (index.md D–E). Dazu 171 Ermessensfälle, je einer an seinem
-  Ort in den Dateien.
+Abgeschlossen seit 23.09.:
+- Gymnasialhefte P10 2014–2025 erfasst (Sonnet), Abgleichlauf der
+  Typen (29 zusammengezogen, 32 umbenannt), Thema „Sinus- und
+  Kosinussatz". Entscheidung 18 in konzept.md neu gefasst
+  (Kippbedingung eingetreten: zentrale Klassenarbeit Gymnasium
+  Kl. 10 seit 2025/26; Arbeit 2026 nicht veröffentlicht).
+- EBR-Heft 2026 erfasst, Vergleich EBR/FOR.
+- fhr-Vorgaben gegen die Papiere geprüft.
+- Quelle gefunden: Die Deutsche Nationalbibliothek führt zu fast
+  jedem Schulbuch das Inhaltsverzeichnis als PDF
+  (d-nb.info/<IDN>/04, SRU-Schnittstelle). Fundamente der
+  Mathematik Ausgabe B ab 2024 (Berlin/Brandenburg, Gymnasium
+  und Oberschule zugleich) Kl. 7–10 liegen vor; Kl. 10 endet mit
+  ganzrationalen Funktionen, Polynomdivision, Ableitung.
 
-Läuft nicht: nichts.
+- Inhaltsverzeichnisse von sieben Reihen gesichert (Sonnet,
+  25.09.): 27 Bände, Text unter quellen/. Schwachstelle: Mathematik
+  heute ist als BE/BB-Ausgabe angesetzt, nicht belegt; Kl. 7 mit
+  Zeichenfehlern.
+
+Läuft: nichts.
+
+Nicht geschehen: Lauf 5 mit v4.2; Auswertung Lauf 4.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-Neu am 23.09.:
-- Rückfragen im Blattbau nur, wo der Katalogeintrag eine Spanne
-  trägt, die die Eingabe nicht auflöst. v4.2: Umfang (nacktes
-  Thema, vier oder mehr Einheiten), Stufe (Eintrag „Sek I + II"
-  ohne Klasse), Bildungsgang (ab Kl. 11 ohne Schulwort). Alles in
-  einer Antwort mit dem Plan, sonst keine Frage.
-- Schulform bis Klasse 10: Der Unterschied ist real (Oberschule
-  bis F, in Teilen G; Gymnasium Kl. 10 auf H). Gefragt wird in
-  v4.3, und nur, wenn der Eintrag Stoff auf H trägt – nicht nach
-  der Regel „G/H und F zugleich" aus dem Belegauftrag.
-- Sek II: berufliches Gymnasium am OSZ = Zentralabitur, kein
-  Vorgabenunterschied; FOS = eigener Plan (schon 1.5). Ohne
-  Zuruf Grundkurs, LK-Stoff nur auf „lk".
-- Hauptnummern höchstens etwa eine halbe Seite; geteilt wird an
-  Kettenstellen, nie an jeder Sprosse; keine feste eigene Nummer
-  für die letzten Teilaufgaben.
-- Beispiel je Hauptnummer bleibt: eigene Zahlen, nie aus dem
-  Merkkasten.
-- Umgang mit dem Lehrer: Jede Antwort beginnt mit einem Satz,
-  wo wir stehen und warum wir den nächsten Schritt tun; dann ein
-  Punkt, eine Frage. Einfache Worte, Fachwort nur, wenn es im
-  Repo so heißt, dann mit Erklärung. Kein Bericht über den
-  eigenen Weg. Nur den nächsten Handgriff nennen, keine Vorschau
-  auf die übernächsten. Auch Prompt-Regeln werden hinterfragt,
-  nicht zitiert.
+Neu am 23.–25.09.:
+- Schulform bis Klasse 10: Zuruf statt Frage. Der Prompt fragt
+  nicht nach der Schulform; „oberschule" und „schwach" lassen
+  GYM- und Vorrat-Sprossen weg, ohne Zuruf bleibt alles auf dem
+  Blatt (Leiterprinzip; fehlender Stoff ist der schlimmere
+  Fehler als Überschuss). Ersetzt „Gefragt wird in v4.3".
+- GYM-Marke im Themenkatalog kommt aus drei Belegen zusammen:
+  Rahmenlehrplan H, LISUM nur-Gymnasium, Typ nur in
+  Gymnasialheften; ein P10-Original hebt sie immer auf. „Nur
+  GYM" im Vergleich allein ist kein Gymnasialstoff (Kreisumfang,
+  binomische Formel stehen dort).
+- EBR: keine eigene Marke; EBR ist FOR ohne die oberen Sprossen,
+  also die Option „schwach" (Beleg: ein Heft, 2026; zweites
+  2027).
+- Sek II: ohne Zuruf Grundkurs, keine Kursartfrage.
+- Berlin: MSA-Prüfung Mathematik seit 2011 gemeinsam mit
+  Brandenburg (FOR-Hefte = Berliner MSA); Gymnasium Berlin ohne
+  MSA-Prüfung seit 2023/24, ohne Ersatz. Die Gymnasialhefte
+  sind für Berlin Maßstab der Leiterhöhe, Prüfungsart nur für
+  Brandenburg.
+- Modelle: Sonnet reicht für Hefte erfassen und Mechanik, wenn
+  danach ein Abgleichlauf der Etiketten mit Opus oder im Chat
+  folgt (Sonnet-Messlauf 24.09.: Mechanik fehlerfrei, 108 neue
+  Typen für 248 Zeilen). Urteil bleibt Fable/Chat.
+- Unbeaufsichtigte Aufträge: keine Rückfrage, Standdatei je
+  Teil, ein Commit je Teil, Fehlerfall mit Regel, Berechtigungen
+  der Code-Sitzung auf automatisch. Der Kopf jedes Blocks sagt
+  „keine Rückfragen".
+- Quellen: sammeln breit (DNB ist billig), auswerten nur, was
+  ein Blatt ändert. Fotos der Schülerbücher: nicht ablegen,
+  im Chat lesen und als Zeile eintragen (Schule, Klasse, Werk,
+  Kapitelstand, Datum).
+- Beschlüsse vom 22.09. und 23.09. gelten weiter (archiv/
+  uebergabe-2026-09-23.md § 4), soweit oben nicht ersetzt.
 
-Beschlüsse vom 22.09. gelten weiter (archiv/uebergabe-
-2026-09-22d.md § 4, befund-lauf3-2026-09-22.md § 2–3).
+Rahmen: wie 23.09. (PowerShell, git.exe, Python-Pfad, MiKTeX;
+Modellwähler vor jedem Auftrag prüfen; eigenes Modell nachsehen).
+Zusätzlich: Schwelle „selten" muss je Papier zählen –
+msa-ertrag.csv trägt jetzt GYM- und EBR-Zeilen mit.
 
-Rahmen:
-- Oberfläche: Dateikarten erscheinen am Ende einer Antwort; je
-  Antwort etwa 20 Werkzeugaufrufe.
-- Claude-Code-Shell ist PowerShell: kein Heredoc, kein sed. Git
-  über die git.exe von GitHub Desktop, Python über den vollen
-  Pfad %LocalAppData%\Programs\Python\Python312\python.exe,
-  MiKTeX unter %LocalAppData%\Programs\MiKTeX\miktex\bin\x64.
-- Die Sitzung startet nicht immer auf dem gewünschten Modell
-  (v4.2-Auftrag lief auf Opus statt Sonnet, der Belegauftrag auf
-  Opus 5); vor jedem Auftrag den Modellwähler prüfen.
-- Das Modell dieses Chats nachsehen, nicht nennen: Der Umbau
-  v4.2 lief auf Opus 5.5, obwohl Fable geplant war.
-- Modellwahl nächste Phase: Fable für die Katalogentscheidung
-  (§ 6) und für die Auswertung von Lauf 4 und 5; Opus für
-  Aufträge und Berichte; Blatt-Chats Opus.
+Modellwahl nächste Phase: Fable für die drei Auswertungen (§ 6)
+und für Lauf-Auswertungen; Opus für Aufträge und Berichte;
+Sonnet für Sammelaufträge; Blatt-Chats Opus.
 
 ## 5 Offene Punkte und verworfene Ansätze
 
+Zur Entscheidung vorgelegt (Lehrer entscheidet):
+- Revision „Klasse filtert in der Sek I keine Sprosse": mit
+  mehreren Landesausgaben je Klasse gilt stattdessen – in
+  Richtung Klassenarbeit endet die Leiter beim Stoff der Klasse,
+  wo die Bücher einig sind; in Richtung Prüfung am
+  Prüfungsniveau; bei Streuung Leiterprinzip. Beleg entsteht im
+  laufenden Auftrag.
+
 Offen, in dieser Reihenfolge:
-1. Katalogentscheidung aus den Belegdateien (Fable): Sek-I-Marke
-   je Einheit und Sprosse (Stufe, Auslöser H); Sek II: bleibt es
-   bei GK ohne Frage (Empfehlung, weil eine Kursartfrage bei 37
-   von 44 Einträgen käme); die drei Stufenfehler aus § 3; die
-   sieben Sek-II-Befunde. Danach ein Auftrag, der die Marken in
-   die Einträge schreibt.
-2. Lauf 5 mit v4.2 im Blatt-Projekt, Vorschlag Eingabe
-   „nullstellen kl. 10" – misst die Planfrage an ihrem Anlass.
-   Archiv ablegen (Muster archiv/auftrag-lauf4-ablage.md), dann
-   auswerten.
-3. v4.3: Planfrage auch bei Test-Richtung (2.6), wenn die Themen
-   nicht einzeln aufgezählt sind und keine Übungsaufgaben
-   vorliegen – Lücke in v4.2, Lauf 4 wäre wieder ohne Frage
-   durchgelaufen; Schulformfrage mit H-Marke; Kursartregel nach
-   Punkt 1.
-4. Lauf 4 gegen ziel.md auswerten (Fable).
-5. v4.2 von Fable gegenlesen lassen, weil auf Opus gebaut – vor
-   oder mit v4.3.
-6. schwach: Lückenbeispiele auch im Lernblatt – nach dem ersten
-   Lauf mit der Option.
-7. ziel.md § 5: „Beispiel je Typ" als entschieden streichen;
-   „Kursart ohne Zuruf" nach Punkt 1.
-8. Befunde-Skript (blaetter/befunde.md) ab dem fünften Lauf.
-9. Sonnet-Vergleichslauf.
-10. Prompt kürzen um etwa ein Drittel – nach v4.3.
-11. Prüfungsblatt-Prompt auf ziel.md umbauen.
-12. Katalog: Gegenlese Sek II, Kategorien je Prüfungsart, Boden
-    unter Klasse 8; katalog/_vorlage.md Zeile 20; befund-geltung-
-    und befund-inkonsistenzen-2026-09-21.md fehlen in README.md;
-    leerer Kasten zum Selbstausfüllen; Band aller Themen;
-    \liniendia Overfull 5,7 pt in halber Spalte.
+1. Sammelauftrag DNB Sek II (Einführungs- und Q-Phase, beide
+   Länder, GK und LK) und Förder-/Arbeitshefte (bundesweit) –
+   Sonnet, nachts. Darin: Fundamente B 2017 Kl. 7/8/10 und
+   Mathematik heute per Verlagsseite bestätigen.
+2. Drei Auswertungen (Fable), jede mit einem Blatt als
+   Prüfstein: (a) Gymnasialdecke Kl. 10 aus Fundamente/Elemente –
+   welche Ketten oben länger werden, Verortung der Sek-II-
+   Einträge, die in Kl. 10 Gymnasium liegen; (b) Kapitel, die
+   Oberschulreihen weglassen → GYM-Marke; (c) Kapiteltitel als
+   Wortform für Katalogtitel und Zuruf.
+3. Katalogauftrag: Prüfungsform (GYM) je Kette in den 29 Sek-I-
+   Einträgen, GYM-Marke nach der Drei-Belege-Regel; die drei
+   Stufenfehler (trigonometrie G, lineare-funktionen E4 G,
+   wahrscheinlichkeit Baumdiagramm G); msa.md § 1 Satz zu Berlin.
+4. Lauf 5 mit v4.2, „nullstellen kl. 10" – misst die Umfangsfrage.
+5. v4.3: Umfangsfrage auch bei Test-Richtung; Zuruf oberschule/
+   schwach filtert GYM und Vorrat; Klassenfilter nach der
+   Revision oben, falls beschlossen; Schwelle „selten" je Papier.
+6. Lauf 4 auswerten (Fable); v4.2 von Fable gegenlesen.
+7. Weiter wie 23.09.: schwach mit Lückenbeispielen, ziel.md § 5
+   bereinigen, Befunde-Skript, Prompt kürzen, Prüfungsblatt-
+   Prompt, Katalogpflege (Gegenlese Sek II, Boden unter Kl. 8,
+   README-Lücken, \liniendia Overfull).
+8. Cornelsen-Synopsen: nur für Lehrkräfte; Weg entfällt.
+   Elemente Kl. 10 und Mathematik 2023 BB liegen (DNB).
 
 Verworfen:
-- Seitenschätzung als Auslöser der Umfangsfrage – vor dem Bau
-  nicht messbar; die Zahl der Einheiten ist das ehrliche Maß.
-- Jede Sprosse eine eigene Hauptnummer – zerstört die Leiter.
-- Feste eigene Nummer für die letzten Teilaufgaben (für Starke)
-  – legt den Schnitt fürs Blatt fest und wirkt wie eine
-  Niveauüberschrift; „blatt 0 kurz" und „ab d)" leisten es.
-- Verworfenes der Übergaben 2026-09-22b bis d gilt weiter.
+- Schulformfrage im Prompt mit Auslöser „Stoff auf H" – zu grob
+  in beide Richtungen (Begründungen liegen auf H, P10-Stoff
+  würde gestrichen; GYM-Sprossen ohne H blieben unerkannt).
+- Eigenes Profil für die Gymnasialhefte – gemeinsame Typenliste
+  ist nötig für den Vergleich je Typ.
+- Berlin als eigene Prüfungsquelle – gemeinsame Prüfung.
+- Leseproben und Warenkorb als Weg zu Inhaltsverzeichnissen –
+  DNB ist vollständiger und frei.
+- Fotos der Schülerbücher ablegen – im Chat lesen genügt.
+- Verworfenes vom 22./23.09. gilt weiter.
 
 ## 6 Nächster Arbeitsschritt
 
-Katalogentscheidung Niveaustufe und Kursart (Fable): die Zahlen
-und Ermessensfälle aus katalog/_niveaustufen-belege.md und
-katalog/_kursart-belege.md lesen und dem Lehrer die Entscheidungen
-einzeln vorlegen – zuerst, ob der Auslöser „Stoff auf H" für die
-Sek-I-Schulformfrage gilt. Liegt vorher ein Lauf-5-Archiv vor,
-zuerst ablegen und auswerten.
+Sammelauftrag für Sek II (Einführungs- und Q-Phase, Berlin und
+Brandenburg, GK und LK, alle drei Verlage) und für Förder- und
+Arbeitshefte (bundesweit) über die DNB schreiben (Sonnet,
+unbeaufsichtigt, Muster archiv/auftrag-lehrwerke-inhalt.md).
+Danach die Auswertung (a) Gymnasialdecke Kl. 10 auf Fable, mit
+einem Blatt als Prüfstein.
