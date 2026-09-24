@@ -297,6 +297,13 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-cornelsen-klick-foerder-vorgaenger-inhalt.txt` – Klick! – Mathematik, Vorgängerausgabe 2008–2018, nur Klasse 10 mit Inhaltsverzeichnis auffindbar.
 - `lehrwerke-stand-2026-09-24b.md` – Standdatei des Nachauftrags Lehrwerke (Formenliste, Bigalke/Köhler, Sorte 1 und 3, 24.09.2026).
 - `lehrwerke-nach-bericht-2026-09.md` – Bericht des Nachauftrags Lehrwerke (24.09.2026).
+- `foerderformen-fundliste.md` – Fundliste des Auftrags Förderformen (24.09.2026): freie Quellen für Klasse 7–10 und Sek II (DZLM, Stark, Persen, Auer, Grundwissen Bayern, Brückenkurse, Händlervorschauen, Rechenschwäche), Formenzeile je Titel.
+- `quelle-dzlm-mathe-sicher-koennen-inhalt.txt` – DZLM „Mathe sicher können“, Diagnose-/Förderbausteine Natürliche Zahlen/Brüche-Prozente-Dezimalzahlen/Sachrechnen, CC BY-NC-SA 4.0.
+- `quelle-dzlm-difsek-stellenwert-steckbrief.txt` – DZLM-Fortbildungssteckbrief Stellenwertverständnis Sek I, CC BY-SA 4.0.
+- `quelle-freiburg-vorkurs-mathematik-inhalt.txt` – Vorkurs-Skript Universität Freiburg, CC BY-SA 4.0, einziges frei lizenziertes von fünf geprüften Brückenkurs-Skripten.
+- `quelle-lisum-diagnose-foerderung-zahlen-operationen.txt` – LISUM-Diagnose-/Fördermaterial Leitidee Zahlen und Operationen, CC BY-SA 4.0; löst die Fundlücke [MzDuF] in `quellen.md`.
+- `foerderformen-stand-2026-09-24.md` – Standdatei des Auftrags Förderformen, nach Abschluss als Beleg liegen geblieben.
+- `foerderformen-bericht-2026-09.md` – Bericht des Auftrags Förderformen (24.09.2026).
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
 und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.

@@ -359,9 +359,51 @@ auf kohlverlag.de unter „Grundwissen Mathematik / Klasse n“),
 foerder-diff2017-inhalt.txt` (Klasse 5, 6, 8, 10 ergänzt, Reihe damit
 Klasse 5–10 vollständig).
 
+## Förderformen aus freien Quellen (abgelegt 24.09.2026)
+
+Auftrag Förderformen (24.09.2026): sucht dort, wo ganze Förder-/Diagnoseseiten
+frei als PDF vorliegen (DZLM, Hochschul-Vorkurse, Landesbildungsserver), als
+Vorbild für die Option „schwach“ des Unterrichtsblatts (unterrichtsblatt.md,
+Repo blattbau) und für Themen unter Klasse 8. Fundliste mit allen geprüften
+Quellen, auch den urheberrechtlich geschützten (nur Katalogzeile, keine
+Textdatei): `quellen/foerderformen-fundliste.md`. Standdatei:
+`quellen/foerderformen-stand-2026-09-24.md`. Bericht:
+`quellen/foerderformen-bericht-2026-09.md`.
+
+## quelle-dzlm-mathe-sicher-koennen-inhalt.txt
+
+DZLM/TU Dortmund, Projekt „Mathe sicher können“ (Deutsche Telekom Stiftung),
+Diagnose- und Förderbausteine der drei Bereiche Natürliche Zahlen,
+Brüche/Prozente/Dezimalzahlen, Sachrechnen. Acht Bausteine gesichert
+(Dateigrenze des Auftrags erreicht), Lizenz CC BY-NC-SA 4.0 auf jedem
+Baustein-PDF ausgewiesen. Gliederung (Bausteintitel, Seitenzahlen) als Beleg,
+keine Aufgaben.
+
+## quelle-dzlm-difsek-stellenwert-steckbrief.txt
+
+DZLM, Fortbildungsmodul DiFSek („Diagnose und Förderung von
+Verstehensgrundlagen“, Sekundarstufe), Steckbrief „Stellenwertverständnis“.
+Lizenz CC BY-SA 4.0. Fortbildungsplanung für Lehrkräfte, kein Schülermaterial.
+
+## quelle-freiburg-vorkurs-mathematik-inhalt.txt
+
+Universität Freiburg (Nadine Große), „Vorkurs Mathematik für Mathematiker“,
+WS 2024/25. Lizenz CC BY-SA 4.0 (Titelblatt) – einziges von fünf geprüften
+Hochschul-Vorkursskripten mit freier Lizenz.
+
+## quelle-lisum-diagnose-foerderung-zahlen-operationen.txt  [MzDuF]
+
+LISUM, „Materialien zur Diagnose und Förderung im Mathematikunterricht,
+Leitidee Zahlen und Operationen“, Stand 2023-05, 710 Seiten. Lizenz CC BY-SA
+4.0 (Fußzeile jeder Seite); einzelne Fotos/Illustrationen separat CC BY-NC 4.0
+gekennzeichnet – betrifft nur die Bilder, nicht die Textstruktur. Löst die
+Fundlücke [MzDuF] unten für diese Leitidee.
+
 ## Noch nicht abgelegt
 
-- [MzDuF] LISUM, „Material zur Diagnose und Förderung im Mathematikunterricht“,
-  je Leitidee eine PDF-Gesamtdatei (Seitenzahlen bis über 650). Lizenz wie die
-  Planungshilfen: LISUM 2023, CC BY-SA 4.0. Downloadadresse noch nicht gefunden.
+- [MzDuF] LISUM, „Materialien zur Diagnose und Förderung im
+  Mathematikunterricht“, je Leitidee eine PDF-Gesamtdatei (Seitenzahlen bis
+  über 650). Leitidee Zahlen und Operationen am 24.09.2026 gefunden und
+  abgelegt (siehe oben, Auftrag Förderformen Teil 7); die Downloadadressen
+  der übrigen Leitideen sind weiterhin nicht gesucht.
 - [FS] Formelsammlung Sek I: Das P10-Formelblatt ist nicht öffentlich. Sek II: siehe [FS-IQB].
