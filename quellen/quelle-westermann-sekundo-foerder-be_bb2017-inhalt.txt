@@ -8,13 +8,13 @@ foerderhefte-fundliste.md fuer weitere gefundene ISBN-Kandidaten.
 Mit pdftotext -layout extrahiert; Schulform laut Verlag: differenzierende
 Schulformen (Gesamtschule, ISS, Oberschule).
 
-Achtung: Die DNB fuehrt zu jeder Klassenstufe mehrere ISBN-Varianten
-ohne Bundeslandangabe im Titel; die hier gewaehlten Baende liegen im
-selben Erscheinungsjahr wie die bereits erfasste Berlin/Brandenburg-
-Ausgabe des Schuelerbands (2017-2019), sind aber nicht einzeln als
-BE/BB bestaetigt - anders als bei den Landesausgaben in Teil A ist bei
-Foerderheften keine bundeslandspezifische Titelinformation ueber die
-Verlagsseite in vertretbarer Zeit auffindbar gewesen.
+Nachtrag (Teil C, 24.09.2026): Kl. 7 (9783141242553) ist auf
+westermann.de bibliografisch als "Sekundo - Ausgabe 2017 fuer Berlin
+und Brandenburg - Foerderheft 7" gefuehrt - damit fuer diesen Band
+BE/BB bestaetigt. Kl. 5 und Kl. 9 wurden nicht einzeln nachbestaetigt
+(gleiches Erscheinungsjahr wie der Schuelerband, aber ohne eigene
+Websuche); die DNB selbst nennt bei keinem der drei Baende ein
+Bundesland im Titel.
 
 Kl. 5: ISBN 9783141241945, IDN 1149949260, https://d-nb.info/1149949260/04, 2018.
 Kl. 7: ISBN 9783141242553, IDN 1129469905, https://d-nb.info/1129469905/04, 2017.

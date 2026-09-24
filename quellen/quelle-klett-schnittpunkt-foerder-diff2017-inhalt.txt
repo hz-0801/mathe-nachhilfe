@@ -6,12 +6,11 @@ Foerderhefte, 24.09.2026); Klasse 5, 6, 8, 10 aus Zeitgruenden nicht
 gesichert, siehe foerderhefte-fundliste.md fuer weitere ISBN-Kandidaten.
 Mit pdftotext -layout extrahiert.
 
-Achtung: Wie bei Sekundo (s. Datei quelle-westermann-sekundo-foerder-
-be_bb2017-inhalt.txt) fuehrt die DNB mehrere ISBN-Varianten je Klasse
-ohne Bundeslandangabe; die ISBN-Praefixe der hier gewaehlten Baende
-liegen naeher an denen der bestaetigten Berlin/Brandenburg-Schuelerbaende
-(Kl. 7: 9783127445718; Kl. 9: 9783127445916) als die jeweiligen
-Alternativ-ISBNs, eine Bundeslandbestaetigung liegt aber nicht vor.
+Nachtrag (Teil C, 24.09.2026): Kl. 7 (9783127445787) ist auf klett.de
+ausdruecklich der "Differenzierenden Ausgabe BE, BB, HB, HH, HE, MV,
+NI, SH, ST, TH ab 2017" zugeordnet - damit fuer diesen Band bestaetigt.
+Kl. 9 (9783127445985) wurde nicht einzeln nachbestaetigt, liegt aber im
+selben ISBN-Block wie der bestaetigte Kl.-9-Schuelerband (9783127445916).
 
 Kl. 7: ISBN 9783127445787, IDN 1153913186, https://d-nb.info/1153913186/04, 2018.
 Kl. 9: ISBN 9783127445985, IDN 1172441715, https://d-nb.info/1172441715/04, 2020.
