@@ -1,0 +1,2712 @@
+==============================================================================
+Klasse 7
+==============================================================================
+
+Sekundo Mathematik
+ISBN 978-3-14-124252-2
+
+
+
+Stoffverteilungsplan Sekundo 7 Berlin/Brandenburg
+Vorbemerkung
+Der Kompetenzerwerb, insbesondere bei den prozessbezogenen Kompetenzen, erfolgt nicht punktuell und isoliert, sondern 
+in enger Verzahnung über größere Zeitspannen hinweg. 
+Zusatzstoff, der im Kerncurriculum zum Ende des Schuljahrgangs 7 nicht verlangt wird, ist gekennzeichnet (*).
+
+
+
+
+
+
+
+
+Besondere Seiten in jedem Kapitel: 
+Bleib fit!		Unabhängig vom Kapitelinhalt werden hier 				grundlegende Fähigkeiten wiederholt und geübt.
+TÜV		Wiederholung der wichtigsten Kapitelinhalte mit 			Merkkasten und zugehörigen Aufgaben
+Diagnosetest	Aufgaben zu allen Kapitelinhalten, zum Beispiel zur 			Vorbereitung auf eine Klassenarbeit
+
+
+
+
+
+
+
+
+
+
+
+
+1 Brüche und Dezimalzahlen 
+
+    • Brüche (auch mit verschiedenen Nennern) und Dezimalzahlen addieren und subtrahieren
+    • Dezimalzahlen mit 10, 100, 1000 multiplizieren
+    • Brüche und Dezimalzahlen multiplizieren und dividieren
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Bruchteile von Größen	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch gebrochene Zahlen)
+    • Zahlbeziehungen beschreiben (auch gebrochene Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den vier Grundrechenoperationen beschreiben (auch im Bereich der gebrochenen Zahlen)
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der gebrochenen Zahlen)
+
+Größen und Messern
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch Flächeninhalt, Volumen und Winkelgrößen) 
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • einfache Gleichungen lösen (auch im Bereich der gebrochenen Zahlen)	Mathematisch argumentieren
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …? (S.8: A.7d)
+    • Routineargumentationen wiedergeben (S.9: A.1a)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S.13: A.1)
+    • Fehler erkennen, beschreiben und korrigieren (S.14: A.3; S.16: A.2; S.19: A.6)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.16: A.1b; S.18: A.1)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.16: a.8)
+    • mathematische Fachbegriffe und Zeichen bei der Beschreibung und Dokumentation von Lösungswegen sachgerecht verwenden (S.18: A.7)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.8: A.6; S.11: A.4)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.10: A.5)
+    • Lösungswege reflektieren (S.10: A.1a)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.12: A.8)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.12: A.1)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.9: A.2 – 6)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen (S.10: A.2)
+    • Kontrollverfahren nutzen (S.10: A.8)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.19: A.1)
+
+Mathematisch kommunizieren
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.8: A.1)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.8: A.3)
+    • Aufgaben gemeinsam bearbeiten (S.17: A.1)
+Addition und Subtraktion von Brüchen		
+Addition und Subtraktion von Dezimalzahlen		
+Vervielfachen und Teilen von Brüchen		
+Multiplikation von Brüchen		
+Division durch einen Bruch		
+Vermischte Aufgaben		
+Multiplikation und Division einer Dezimalzahl mit 10, 100, 1 000		
+Multiplikation mit einer Dezimalzahl		
+Division durch eine Dezimalzahl		
+Taschenrechner*		
+Quadratzahlen und Kubikzahlen*		
+Vermischte Aufgaben		
+
+2 Zuordnungen 
+
+    • verschiedenen Zuordnungen als Tabelle oder im Koordinatensystem darstellen
+    • proportionale und antiproportionale Zuordnungen mit Zweisatz, Wertetabelle und im Koordinatensystem darstellen
+    • Proportionalität mit Quotientengleichheit und Antiproportionalität mit Produktgleichheit identifizieren
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Formel 1 auf dem Hockenheimring	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der gebrochenen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch Flächeninhalt, Volumen und Winkelgrößen)
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen)
+
+Raum und Form
+Geometrische Abbildungen:
+    • Eigenschaften von Abbildungen nutzen (auch Vergrößerungen und Verkleinerungen)
+    • ausgewählte Abbildungen ausführen (auch Vergrößerungen und Verkleinerungen)
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der gebrochenen Zahlen)
+Zuordnungen und Funktionen:
+    • direkt proportionale Zuordnungen von anderen Zuordnungen unterscheiden
+    • Zuordnungen darstellen (auch direkt proportionale)
+    • zu direkt proportionalen Zuordnungen Berechnungen durchführen
+    • Eigenschaften von Zuordnungen beschreiben (auch indirekt proportionale)
+    • zwischen verschiedenen Darstellungen von Zuordnungen (auch indirekt proportionalen) wechseln
+    • zu Zuordnungen (auch indirekt proportionalen) Berechnungen durchführen	Mathematisch argumentieren
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.32: A.5; S.48: A.2, 4, 5; S.49: A.1, 2)
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …?) (S.35: A.1; S.36: A.1)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.51: A.11)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.29: A.5c, 7; S.38: A.1)
+    • Lösungswege reflektieren (S.30: A.9)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.33: A.1 – 4)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.40 – 41: A.1 – 9; S.44: A.1 – 3)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.26: A.1 – 4)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.26: A.5; S.43: A.1 – 8)
+    • zu einem mathematischen Modell verschiedene Realsituationen angeben (S.36: A.5)
+    • reale Situationen mit mathematischen Modellen beschreiben (S.46 – 47: A.1 – 21)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren 
+(S.46 – 47: A.1 – 21)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.26: A.1; S.27: A.6; S.28: A.3b; S.35: A.2)
+    • verschiedene Darstellungen vergleichen (S.28: A.1)
+    • Darstellungen bewerten oder interpretieren (S.28: A.1)
+    • eine Darstellung in eine andere übertragen (S.50: A.3)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.27: A.8; S.31: A.1 – 4; S.50: A.6)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.37: A.1 – 3)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.45: A.3 – 5)
+    • mathematische Verfahren routiniert ausführen (S.30: A.2 – 6; S.38: A.2 – 4)
+
+Mathematisch kommunizieren
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.27: A.7)
+    • mathematische Zusammenhänge adressatengerecht beschreiben (S.28: A.2e; 3a; S.34: A.1)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.32: A.1)
+Tabellen und grafische Darstellungen		
+Maßstab		
+LVL: Entfernungen in Deutschland		
+Vergrößern und Verkleinern		
+LVL: Denkmäler und ihre Proportionen		
+Proportionale Zuordnungen		
+Grafische Darstellungen bei proportionalen Zuordnungen		
+Antiproportionale Zuordnungen		
+LVL: Dreisatz		
+Dreisatz bei proportionalen und antiproportionalen Zuordnungen		
+LVL: Ausflug in den Safaripark		
+Stundenlohn und Stückpreis		
+LVL: Weg, Zeit, Geschwindigkeit		
+LVL: Masse, Volumen, Dichte		
+LVL: Achtung – aufgepasst		
+Proportionalität und Quotientengleichheit		
+Antiproportionalität und Produktgleichheit		
+Vermischte Aufgaben		
+
+3 Zeichnen und Konstruieren
+
+    • Ortslinien im Dreieck konstruieren
+    • Winkel in Winkelpaaren berechnen, Winkelsummensatz im Dreieck herleiten und anwenden
+    • Dreiecke mit Kongruenzsätzen konstruieren
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Figuren im Koordinatensystem	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der gebrochenen Zahlen)
+
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch Flächeninhalt, Volumen und Winkelgrößen)
+    • Größen messen (auch Volumina und Winkelgrößen)
+    • Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen)
+
+Raum und Form
+Geometrische Objekte:
+    • geometrische Objekte beschreiben (auch quantitativ)
+    • Beziehungen zwischen geometrischen Objekten beschreiben (auch Sätze über Dreiecke) 
+    • ausgewählte geometrische Körper (auch Zylinder) darstellen und ebene Figuren konstruieren	Mathematisch argumentieren
+    • die Plausibilität von Vermutungen begründen (S.58: A.1; S.59: A.1; S.74: A.2, 6)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.58: A.6; S.59: A.6)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.62: A.4)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.72: A.6; S.73: A.6)
+    • Fehler erkennen, beschreiben und korrigieren (S.76: A.2)
+    • mehrschrittige Argumentationen zur Begründung und zum Beweisen mathematischer Aussagen entwickeln (S.77: A.16)
+
+Probleme mathematisch lösen
+    • heuristische Hilfsmittel zum Problemlösen anwenden (S.60: A.1)
+    • Lösungswege reflektieren (S.65: A.1 – 4)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.68 – 69: A.1 – 4)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.68 – 69: A.1 – 4)
+    • reale Situationen strukturieren und vereinfachen (S.68 – 69: A.1 – 4 )
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.68 – 69: A.1 - 4)
+
+Mathematische Darstellungen verwenden
+    • verschiedene Darstellungen vergleichen (S.78: A.1)
+    • Darstellungen bewerten oder interpretieren (S.78: A.1)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.57; S.61: A.1 – 6)
+    • mathematische Verfahren routiniert ausführen (S.63: A.1 – 6; S.76: A.6 - 9)
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.66: A.7)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.56: A.1, 3; S.71: A.2)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.66: A.4; S.75: A.4)
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.71: A.1 – 2; S.72: A.1; S.73: A.1)
+    • mathematische Fachbegriffe und Zeichen bei der Beschreibung und Dokumentation von Lösungswegen sachgerecht verwenden (S.78: A.2)
+
+LVL: Geometrie mit dem Computer*		
+Mittelsenkrechte		
+Winkelhalbierende		
+Höhen im Dreieck		
+LVL: Konstruieren mit dynamischer Geometriesoftware*		
+Kongruente Figuren		
+Winkelpaare		
+LVL: Konstruieren und Messen mit dem Computer*		
+LVL: Summe der Dreieckswinkel		
+Winkelsummensatz im Dreieck		
+WAV: Wissen – Anwenden – Vernetzen 		
+Dreieckstypen		
+LVL: Übertragen von Dreiecken		
+Kongruenzsatz (WSW		
+Kongruenzsatz (SWS)		
+Kongruenzsatz (SSS)		
+Kongruenzsatz (SsW)		
+Vermischte Aufgaben		
+Schrägbilder		
+
+4 Prozentrechnung 
+
+    • Prozentsätze und deren Beziehung zu Brüchen
+    • Grundaufgaben und weiterführende Aufgaben zu Prozentwert, - satz und Grundwert
+    • Prozentrechnung vernetzen mit Anwendungen (z.B. Brutto – Netto) und Diagrammen (z.B. Kreisdiagramme)
+
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Prozentsätze	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der gebrochenen Zahlen)
+
+Größen und Messen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der gebrochenen Zahlen
+Zuordnungen und Funktionen:
+    • direkt proportionale Zuordnungen von anderen Zuordnungen unterscheiden
+    • Zuordnungen darstellen (auch direkt proportionale)
+    • zu direkt proportionalen Zuordnungen Berechnungen durchführen
+    • Eigenschaften von Zuordnungen beschreiben (auch indirekt proportionale)
+    • zwischen verschiedenen Darstellungen von Zuordnungen (auch indirekt proportionalen) wechseln
+    • zu Zuordnungen (auch indirekt proportionalen) Berechnungen durchführen
+
+Daten und Zufall
+Daten:
+    • Daten darstellen (auch Kreisdiagramme)	Mathematisch argumentieren
+    • Fehler erkennen, beschreiben und korrigieren (S.83: A.6)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.92: A.9)
+
+Probleme mathematisch lösen
+    • Lösungswege reflektieren (S.83: A.1; S.86: A.1)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.84: A.1, 3)
+    • Probleme selbst formulieren (S.85: A.7; S.92: A.1; S.94: A.5, 6)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.89: A.4; S.92: A.8)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.98 – 99: A.1 – 3; S.100: A.1 – 6)
+
+Mathematisch modellieren
+    • reale Situationen mit mathematischen Modellen beschreiben (S.87: A.1 – 3; S.90: A.8, 9)
+    • verwendete Modelle reflektieren (S.87: A.1 – 3; S.90: A.8, 9; S.96: A.1)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.94: A.4; S.97: 
+A.1 – 5)
+
+Mathematische Darstellungen verwenden
+    • verschiedene Darstellungen vergleichen (S.82: A.2; S.95: A.5c)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.83: A.2; S.96: A.4c)
+    • eine Darstellung in eine andere übertragen (S.95: A.5)
+    • Darstellungen bewerten oder interpretieren (S.95: A.4b)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen 
+(S.85: A.2 – 4; S.86: A.7, 8; S.89: A.1, 3)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.93: A.1 – 4)
+
+Mathematisch kommunizieren
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.82: A.1; S.88: A.1)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.94: A.1; S.95: A.2b)
+
+Prozentsätze und Brüche		
+Vermischte Aufgaben		
+Grundwert und Prozentwert		
+Berechnung des Prozentwertes W		
+LVL: 7-Meter-Schützen für das Handballturnier gesucht		
+Berechnung des Prozentsatzes p%		
+Berechnung des Grundwertes G		
+Vermischte Aufgaben		
+Preisnachlass – Preiserhöhung		
+LVL: Tabellenkalkulation		
+Brutto – Netto		
+Streifen-, Säulen- und Balkendiagramm		
+Kreisdiagramm		
+Vermischte Aufgaben		
+LVL: Immer nur Schule		
+LVL: Alles Müll		
+
+5 Rationale Zahlen
+
+    • Gebrauch von rationalen Zahlen innerhalb und außerhalb der Mathematik sowie deren Anordnung
+    • Regeln für die Grundrechenoperationen
+    • Klammerregeln für Addition und Subtraktion sowie Rechengesetze für Addition und Multiplikation
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Temperaturen in Europa	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch rationale Zahlen)
+    • Zahlen ordnen (auch rationale Zahlen)
+    • Zahlbeziehungen beschreiben (auch rationale Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Grundrechenoperationen beschreiben (auch im Bereich der rationalen Zahlen)
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der rationalen Zahlen)
+
+Größen und Messen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen) 	Mathematisch argumentieren
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.106: A.4)
+    • Fehler erkennen, beschreiben und korrigieren (S.107: A.7; S.122: A.1; S.123: A.11)
+    • die Plausibilität von Vermutungen begründen (S.110: A.1; S.118: A.1; S.120: A.1; S.121: A.1)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.123: A.8)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.109: A.7, 9; S.117: A.3, 4; S.121: A.7b)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.112 – 113: A.1 – 4)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.114: A.4; S.122: A.2; S.123: A.9, 10)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.114: A.5; S.121: A.5)
+
+Mathematisch modellieren
+    • reale Situationen mit mathematischen Modellen beschreiben (S.104 – 105: A.1 – 7)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.104 – 105: A.1 – 7; S.112 – 113: A.1 – 4)
+    • verwendete Modelle reflektieren (S.107: A.1)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.110: A.3)
+    • reale Situationen strukturieren und vereinfachen ( S.112 – 113: A.1 – 4)
+    • zu einem mathematischen Modell verschiedene Realsituationen angeben (S.117: A.6)
+
+Mathematische Darstellungen verwenden
+    • eine Darstellung in eine andere übertragen (S.109: A.1)
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S.109: A.1)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.120: A.3)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt 
+(S.104 – 105: A.1 – 7; S.115: A.2)
+    • mathematische Verfahren routiniert ausführen (S.108: A.1 – 8; S.115: A.1, 3 – 4)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.106; A.3; S.114: A.1; S.116: A.1, 9)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.107: A.5; S.116: A.1)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.114: A.3; S.122: A.5)
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam 
+Lösungswege reflektieren (S.120: A.4)
+LVL: Zahlen unter Null in unserer Umwelt		
+Zahlbereiche und Koordinatensystem		
+Ordnen von rationalen Zahlen		
+Addieren und Subtrahieren		
+Vervielfachen und Teilen		
+Betrag – Zahl und Gegenzahl		
+WAV: Wissen – Anwenden – Vernetzen		
+LVL: Addition mit Hilfe von Modellen		
+Addition		
+Subtraktion		
+Vermischte Aufgaben		
+Klammerregeln für Addition und Subtraktion		
+Multiplikation		
+Division		
+Rechengesetze für rationale Zahlen		
+Vermischte Aufgaben		
+
+6 Flächeninhalt und Volumen
+
+    • Flächeninhalt (und Umfang) von Rechteck, Quadrat und Dreieck sowie von zusammengesetzten Flächen
+    • Volumen und Oberflächeninhalt von Quader und Würfel sowie von zusammengesetzten Körpern
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Flächeninhalt und Umfang von Rechteck und Quadrat	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • - Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der rationalen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • - die verschiedenen Größen und ihre Einheiten nutzen (auch Flächeninhalt, Volumen und Winkelgrößen)
+    • - Größen messen und Maße aus ausgewählten Darstellungen entnehmen
+    • Rechnen mit Größen:
+    • - mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen
+	Mathematisch argumentieren
+    • Fehler erkennen, beschreiben und korrigieren (S.128: A.1)
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …?) (S.129: A.18; S.132: A.3)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S.135: A.1)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.148: A.6b)
+
+Probleme mathematisch lösen
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.130: A.1-4; S.136 – 137: A.1 – 4)
+    • heuristische Hilfsmittel zum Problemlösen anwenden (S.130: A.2; S.145: A.7)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen 
+(S.131: A.1 – 5)
+    • Lösungswege reflektieren (S.131: A.1 – 5; S.132: A.5)
+    • Probleme selbst formulieren (S.134: A.17, 18)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.147: A.3, 9 – 11; S.148: A.3)
+
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.136 – 137: A.1 – 4; S.142 – 143)
+    • reale Situationen strukturieren und vereinfachen (S.136 – 137: A.1 – 4; S.142 – 143)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.137: A.4; S.144: A.6)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.142 – 143; S.145: A.1)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.132: A.1, 2, 4; S.138: A.1 – 8)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.133: A.11; S.146: A.3, 5)
+
+Mathematisch kommunizieren
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.129: A.9, 13; 
+S.140: A.6a)
+    • Aufgaben gemeinsam bearbeiten (S.129: A.17; S.141: A.12)
+    • mathematische Zusammenhänge adressatengerecht beschreiben (S.144: A.1)
+LVL: Berlin und Brandenburg		
+LVL: Herleitung der Flächeninhaltsformel für Dreiecke		
+Flächeninhalt des Dreiecks		
+Zusammengesetzte Flächen		
+LVL: Ein Hausbau wird geplant		
+Vermischte Aufgaben		
+Würfel- und Quadernetze		
+LVL: Ein Schluck aus dem Müggelsee		
+Volumen des Quaders		
+Oberfläche des Quaders		
+Quadrat- und Kubikwurzel*		
+Vermischte Aufgaben		
+Zusammengesetzte Körper		
+
+7 Daten und Zufall
+
+    • statistische Kenngrößen wiederholen und anwenden (auch mit Tabellenkalkulation)
+    • relative Häufigkeit mit Wahrscheinlichkeit beschreiben und umgekehrt
+    • Wahrscheinlichkeiten bei Laplace-Experimenten berechnen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Mit dem Zug unterwegs	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der rationalen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch Flächeninhalt, Volumen und Winkelgrößen)
+    • Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen)
+
+Daten und Zufall
+Daten:
+    • statistischen Erhebungen nach Vorgaben planen und durchführen
+    • Daten darstellen (auch Kreisdiagramme)
+    • verschiedene Kennwerte zueinander in Beziehung setzen
+Zählstrategien und Wahrscheinlichkeiten:
+    • die relative Häufigkeit von Ergebnissen bei einstufigen Zufallsexperimenten und Spielen inhaltlich einschätzen	Mathematisch argumentieren
+ mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.160: A.2b; S.164: A.6b)
+    • Fehler erkennen, beschreiben und korrigieren (S.160: A.2a)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.165: A.9b)
+    • die Plausibilität von Vermutungen begründen (S.165: A.11)
+
+
+Probleme mathematisch lösen
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.154: A.3)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.155: A.13)
+    • heuristische Hilfsmittel zum Problemlösen anwenden (S.155: A.13)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.160 – 161: A.1 – 3)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen 
+(S.166: A.1 – 4)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.152 – 153: A.1 – 6; S.157: A.1,2; S.161: A.3)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.152 – 153: A.1 – 6; S.161: A.3)
+    • verwendete Modelle reflektieren (S.154: A.4c; S.158: A.1; S.164: A.1)
+    • zu einem mathematischen Modell verschiedene Realsituationen angeben (S.155: A.11)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.157: A.3; S.158: A.4; S.166: A.1, 3)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen 
+(S.156: A.1 – 4; S.158: A.2, 3; S.160: A.1)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.156: A.4; S.157: A.1c; S.163: A.1 – 4)
+
+Mathematisch kommunizieren
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.152 – 153: A.1 – 6; S.166: A.4)
+    • mathematische Zusammenhänge adressatengerecht beschreiben (S.154: A.1)
+    • Aufgaben gemeinsam bearbeiten (S.158: A.4)
+    • Verabredungen treffen und einhalten (S.158: A.4)
+
+
+
+Statistische Kenngrößen		
+LVL: Statistische Kenngrößen mit Tabellenkalkulation*		
+LVL: Taschengeld		
+LVL: Umfragen		
+WAV: Wissen – Anwenden – Vernetzen		
+LVL: Rund ums Glücksrad		
+Wahrscheinlichkeit		
+LVL: Schere – Stein – Papier		
+
+8 Terme und Gleichungen
+
+    • Terme aufstellen, vereinfachen, ordnen und zusammenfassen
+    • Gleichungen mit Wahrheitstafeln, Tabellenkalkulation oder Umkehroperatoren lösen
+    • Gleichungen durch Umformen lösen
+    • Ungleichungen aufstellen und lösen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Spiel mit x	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der rationalen Zahlen)
+
+Größen und Messen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit Flächeninhalten, Volumina und Winkelgrößen)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen) 
+	Mathematisch argumentieren
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.183: A.2)
+    • Fehler erkennen, beschreiben und korrigieren (S.185: A.3)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.173: A1b; S.179: A.4; S.187: A.1 – 5; S.189: A.8)
+    • Lösungswege reflektieren (S.174: A.10; S.175: A.1, 4; S.186: A.10a)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.177: A.1; S.178: A.1 – 4; S.179: A.2; S.183: A.1; S.184: A.1)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.188: A.1 – 5)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.189: A.1 – 4)
+
+Mathematisch modellieren
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.174: A.10)
+    • Sachaufgaben zu Termen, Gleichungen und bildlichen Darstellungen formulieren (S.173: A.6; 
+S.177: A.5; S.186: A.15)
+    • reale Situationen mit mathematischen Modellen beschreiben (S.188: A.1 – 4)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.187: A.1 – 5)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.188: A.1 – 4)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen 
+(S.170 – 171; S.180 – 181: A.1 – 3, 8 – 10)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.172; S.173: A.1a)
+    • mathematische Verfahren routiniert ausführen (S.173: A.2 – 5)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen 
+(S.176: A.1 – 6; S.183: A.3)
+    • Kontrollverfahren nutzen (S.184: A.3, 4)
+
+Mathematisch kommunizieren
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.178: A.2)
+    • Aufgaben gemeinsam bearbeiten (S.183: A.1 - 3)
+LVL: Rechenwege aufschreiben		
+Terme mit Variablen		
+Lösen von Gleichungen		
+Lösen von Gleichungen mit Tabellenkalkulation		
+Lösen von Gleichungen mit Umkehroperatoren		
+LVL: Terme vereinfachen		
+Ordnen und Zusammenfassen		
+Vermischte Aufgaben		
+LVL: Gleichungen mit der Variablen auf beiden Seiten		
+Lösen von Gleichungen durch Umformen		
+Vermischte Aufgaben		
+LVL: Lösen von Sachaufgaben durch Gleichungen		
+LVL: Ungleichungen*		
+Lösen von Ungleichungen*
+
+==============================================================================
+Klasse 8
+==============================================================================
+
+Sekundo Mathematik
+ISBN 978-3-14-124261-4
+
+
+
+Stoffverteilungsplan Sekundo 8 Berlin/Brandenburg
+Vorbemerkung
+Der Kompetenzerwerb, insbesondere bei den prozessbezogenen Kompetenzen, erfolgt nicht punktuell und isoliert, sondern 
+in enger Verzahnung über größere Zeitspannen hinweg. 
+Zusatzstoff, der im Kerncurriculum zum Ende des Schuljahrgangs 8 nicht verlangt wird, ist gekennzeichnet (*).
+
+
+
+
+
+
+
+
+Besondere Seiten in jedem Kapitel: 
+Bleib fit!		Unabhängig vom Kapitelinhalt werden hier 				grundlegende Fähigkeiten wiederholt und geübt.
+TÜV		Wiederholung der wichtigsten Kapitelinhalte mit 			Merkkasten und zugehörigen Aufgaben
+Diagnosetest	Aufgaben zu allen Kapitelinhalten, zum Beispiel zur 			Vorbereitung auf eine Klassenarbeit
+
+
+
+
+
+
+
+
+
+
+
+1 Zahlen und Zuordnungen 
+
+    • proportionale und antiproportionale Zuordnungen wiederholen und vertiefen
+    • Dichte und (gleichförmige) Geschwindigkeit als proportionale Zuordnung auffassen
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Proportionale Zuordnungen	    • Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der rationalen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen)
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+Gleichungen und Funktionen
+Zuordnungen und Funktionen:
+    • Eigenschaften von Zuordnungen beschreiben (auch indirekt proportionale) 
+    • zwischen verschiedenen Darstellungen von Zuordnungen (auch indirekt proportionalen) wechseln 
+    • zu Zuordnungen (auch indirekt proportionalen) Berechnungen durchführen	Mathematisch argumentieren
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.11: A.1; S.13: A.1)
+    • die Plausibilität von Vermutungen begründen (S.13: A.1)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.14: A.10)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.8: A.3; S.14: A.11d)
+    • Lösungswege reflektieren (S.8: A.5)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.12: A.3, 4; S.14: A.14)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.9: A.4, 5; S.11: A.3)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.11: A.3)
+    • reale Situationen mit mathematischen Modellen beschreiben (S.13: A.2)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.11: A.5; S.12: A.6)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.8: A.1; S.9: A.1)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.8: A.1; S.12: A.1)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.14: A.11c)
+Antiproportionale Zuordnungen		
+Dichte		
+Geschwindigkeit		
+Vermischte Aufgaben		
+
+
+2 Zeichnen und Konstruieren 
+
+    • Symmetrie und Spiegelung; Dreieckskonstruktionen; Ortslinien im Dreieck wiederholen
+    • Vierecke aus dem Haus der Vierecke (auch mit DGS) konstruieren
+    • Satz des Thales und seine Umkehrung entdecken
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Achsensymmetrie und Achsenspiegelung	Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen)
+    • Größen messen und Maße aus ausgewählten Darstellungen entnehmen
+
+Raum und Form
+Geometrische Objekte:
+    • geometrische Objekte beschreiben (auch quantitativ) 
+    • Beziehungen zwischen geometrischen Objekten beschreiben (auch Sätze über Dreiecke)
+    • ausgewählte geometrische Körper (auch Zylinder) darstellen und ebene Figuren konstruieren
+Geometrische Abbildungen:
+    • Eigenschaften von Abbildungen nutzen (auch Vergrößerungen und Verkleinerungen)
+    • ausgewählte Abbildungen ausführen (auch Vergrößerungen und Verkleinerungen
+    • ausgewählte Abbildungen ausführen (auch mithilfe von Geometriesoftware) 
+
+	Mathematisch argumentieren
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.18: A.6; S.19: A.1, 2; S.21: A.3e; S.22: A.6b; S.35: A.2)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.20: A.5; S.22: A.6c; S.27: A.1; S.30: A. 2 – 4)
+    • Fehler erkennen, beschreiben und korrigieren (S.21: A.1b; S.24: A.10)
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …? (S.21: A.1a)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S.21: A.2; S.24: A.12; 
+S.35: A.3; S.40: A.7)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.22: A.1c; S.28: A.9; S.37: A.4)
+    • die Plausibilität von Vermutungen begründen (S.22: A.1a,b)
+    • mehrschrittige Argumentationen zur Begründung und zum Beweisen mathematischer Aussagen 
+entwickeln (S.24: A.13, 14; S.29: A.5; S.40: A.6b)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.20: A.6)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.28: A.5; S.29: A.1 – 5; S.31: A.3; S.34: A.5)
+    • Lösungswege reflektieren (S.30: A.5b; S.31: A.2; S.35: A.5)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.38: A.2 – 4)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.41: A.6)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.26: A.1, 2)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.39: A.1, 2)
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.21: A.3a, b; S.32: A.1, 2, 5, 6)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.36: A.1 – 4; S.38: A.3)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.19: A.1, 2)
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam 
+Lösungswege reflektieren (S.22: A.3; S.27: A.2)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.23: A.1b; S.27: A.2; S.30: A.1)
+Punktsymmetrie und Punktspiegelung		
+Parkette		
+LVL: Winkelsumme in Vielecken		
+Winkelberechnungen		
+Dreieckskonstruktionen und Kongruenz		
+LVL: Entfernungen und Abstände im Dreieck		
+LVL: Besondere Schnittpunkte beim Dreieck		
+Umkreis und Inkreis		
+LVL: Schwerelinien und Höhenschnittpunkte im Dreieck		
+LVL: Haus der Vierecke		
+LVL: Übertragen von Vierecken		
+Konstruieren von Rechteck, Quadrat und Raute		
+Konstruieren von Drachen und Parallelogramm
+		
+Konstruieren von gleichschenkligen und nicht gleichschenkligen Trapezen		
+Viereckskonstruktionen		
+LVL: Vierecke konstruieren mit Dynamischer Geometriesoftware (DGS)		
+Vermischte Aufgaben		
+LVL: Sehwinkel		
+LVL: Entdeckungen zum Satz des Thales		
+Satz des Thales und seine Umkehrung		
+Tangenten am Kreis*		
+Vermischte Aufgaben		
+
+3 Terme und Gleichungen (1)
+
+    • Terme berechnen und zu Sachsituationen aufstellen
+    • Gleichungen zu Sachsituationen aufstellen und sie durch Umformen lösen
+    • Terme mit Klammern ausmultiplizieren und ausklammern
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Aufstellen und Berechnen von Termen	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben (auch für Potenzen)
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+Größen und Messen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen) 
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen)	Mathematisch argumentieren
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.58: A.1; S.59: A.1, 2)
+    • die Plausibilität von Vermutungen begründen (S.58: A.1; S.59: A.1, 2)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.46: A.3; S.56: A.1 – 7)
+    • Plausibilität von Ergebnissen überprüfen (S.48: A.5)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.54 – 55: A.1 – 3)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.54 – 55: A.1 – 3)
+
+Mathematisch modellieren
+    • Sachaufgaben zu Termen, Gleichungen und bildlichen Darstellungen formulieren (S.46: A.4; S.48: A.7)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.49: A.1 – 4; S.62: A.8)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.50: 1 – 3; S.54 – 55: A.1 – 3)
+    • reale Situationen strukturieren und vereinfachen (S.50: A.1 – 4; S.54 – 55: A.1 – 3)
+    • Lösungswege reflektieren (S. 62: A.3)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.61: A.1 – 10)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.46: A.1; S.57: A.1 – 4)
+    • mathematische Verfahren routiniert ausführen (S.47: A.11, 12; S.51: A.1 – 3; S.59: A.3 – 9)
+    • Kontrollverfahren nutzen (S.48: A.4; S.58: A.3, 5)
+
+Mathematisch kommunizieren
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.47: A.8c)
+    • Aufgaben gemeinsam bearbeiten (S.51: A.1, 2)
+Lösen von linearen Gleichungen durch Umformen		
+LVL: Im Kino
+		
+LVL: Pension Tannenblick		
+Verhältnisgleichungen		
+WAV: Wissen – Anwenden – Vernetzen		
+LVL: Figurenrätsel		
+LVL: Formeln als spezielle Gleichungen		
+Terme und Gleichungen mit Klammern		
+Ausmultiplizieren und Ausklammern		
+Vermischte Aufgaben		
+LVL: Zahlenrätsel		
+Lösen von linearen Ungleichungen durch Umformen*		
+
+4 Flächenberechnung
+
+    • Flächeninhalt von Dreiecken und speziellen Vierecken berechnen
+    • mit dem Wissen über Flächeninhalte anwendungsbezogene Aufgaben lösen
+    • Umfang und Flächeninhalt von Kreisen bestimmen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Flächeninhalt und Umfang des Rechtecks	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen) 
+    • Größen messen und Maße aus ausgewählten Darstellungen entnehmen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+	Mathematisch argumentieren
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.67: A.5, 7)
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …?) (S.68: A.3)
+    • die Plausibilität von Vermutungen begründen (S.71: A.13; S.82: A.8)
+
+Probleme mathematisch lösen
+    • Lösungswege reflektieren (S.66: A.6)
+    • Probleme selbst formulieren (S.68: S.6)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.72; S.78 – 79: A.1 – 6)
+    • Plausibilität von Ergebnissen überprüfen (S.75: A.5b)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.83: A.10c)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.84: A.3)
+
+Mathematisch modellieren
+    • verwendete Modelle reflektieren (S.66: A.6; S.80: A.5)
+    • reale Situationen strukturieren und vereinfachen (S.67: A.1; S.68: A.6)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.68: A.6; 
+S.69: A. 10 – 15; S.72)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.78: A.1 – 3; S.81: A.16)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.81: A.12; S.83: A.14)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.73: A.7; S.79: A. 4 – 6)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.66: A.1)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen 
+(S.69: A.13a)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.72)
+
+Mathematisch kommunizieren
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam 
+Lösungswege reflektieren (S.66: A.1; S.69: A.14b; S.70: A1)
+    • Aufgaben gemeinsam bearbeiten (S.66: A.1; S.80: A.1)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.75: A.1, 2c)
+Flächeninhalt und Umfang des Dreiecks		
+Vermischte Aufgaben		
+Flächeninhalt des Parallelogramms		
+LVL: Flächengröße von Deutschland		
+Flächeninhalt des Trapezes		
+Flächeninhalt des Drachens und der Raute		
+Zusammengesetzte Figuren		
+Vermischte Aufgaben		
+LVL: Messen und Entdecken am Kreis		
+Umfang des Kreises		
+Flächeninhalt des Kreises		
+Vermischte Aufgaben		
+5 Prozent- und Zinsrechnung 
+
+    • Prozentwert, Grundwert und Prozentsatz berechnen
+    • Zinsrechnung als Prozentrechnung auffassen und Aufgaben zu Kapital, Zinssatz und Zinsen lösen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Grundbegriffe der Prozentrechnung	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+
+Größen und Messen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen) 
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen)
+
+Daten und Zufall
+Daten:
+    • Daten darstellen (auch mithilfe von Tabellenkalkulation)	Mathematisch argumentieren
+    • die Plausibilität von Vermutungen begründen (S.88: A.1c)
+    • Fehler erkennen, beschreiben und korrigieren (S.91: A.5; S.94: A.14, 18)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.88: A.1b; S.90: A3; S.92: A.7)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.89: A.1; S.106: A.9)
+    • Lösungswege reflektieren (S.91: A.6; S.92: A.8)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.97: A.10e; S.100 – 101: A.1 – 3)
+
+Mathematisch modellieren
+    • Sachaufgaben zu Termen, Gleichungen und bildlichen Darstellungen formulieren (S.89: A.8; S.93: A.5)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.94: A.18; S.105: A.15)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.96 – 97: A.2 – 10)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.89: A.5; S.90: A.3, 5b; S.96: A.1)
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S.90: A.1; 
+S.92: A.1)
+    • verschiedene Darstellungen vergleichen (S.90: A.1; S.92: A.1)
+    • Darstellungen bewerten oder interpretieren (S.90: A.1; S.92: A.1)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen (S.88: A.5; S.90: A.2)
+    • Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz bewerten (S.90: A.6)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.94: A.10; S.98: A.1 - 3)
+    • mathematische Verfahren routiniert ausführen (S.92: A.2 – 4; S.103: A.9)
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.95: A.1; 
+S.102: A.1)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.95: A.2; S.98: A.1 – 3)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.88: A.1; S.92: A.7, 8)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.92: A.7; S.103: A.1)
+    • mathematische Informationen in mathematikhaltigen Darstellungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S.102: A.1, 7)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.103: A.8; S.104: A.1)
+Prozentsätze über 100%		
+Berechnung des Prozentwertes W		
+Berechnung des Grundwertes G		
+Berechnung des Prozentsatzes p%		
+Vermehrter und verminderter Grundwert		
+Brutto – Netto		
+Grafische Darstellung		
+LVL: Grafische Darstellung mit Tabellenkalkulation		
+WAV: Wissen – Anwenden – Vernetzen		
+Kapital, Zinssatz und Zinsen		
+Berechnung von Kapital und Zinssatz		
+Monatszinsen und Tageszinsen		
+Kredite vergleichen		
+
+6 Lineare Funktionen 
+
+    • mittels Spezialisierung von Zuordnungen über Funktionen zu linearen Funktionen gelangen
+    • Graphen von linearen Funktionen zeichnen und anhand von Steigung und y-Achsenabschnitt untersuchen
+    • Funktionsgleichungen bestimmen und Schnittpunkte von Graphen berechnen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Eine Reise durch die USA 	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen) 
+    • Größen messen und Maße aus ausgewählten Darstellungen entnehmen
+
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch lineare Gleichungssysteme)
+    • Gleichungen und lineare Gleichungssysteme lösen
+Zuordnungen und Funktionen:
+    • Eigenschaften von linearen Funktionen beschreiben 
+    • zwischen verschiedenen Darstellungen von linearen Funktionen wechseln 
+    • zu linearen Funktionen Berechnungen durchführen	Mathematisch argumentieren
+mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.112: A.2a)
+Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.114: A.2b)
+Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.119: A.2b; S.124: A.1; S.125: A.1)
+die Plausibilität von Vermutungen begründen (S.119: A.2b; S.120: A.2a; S.124: A.5)
+
+Probleme mathematisch lösen
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.110 – 111: A.1 – 5)
+    • Probleme selbst formulieren (S.114: A.2c)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.119: A.1, 2)
+    • Lösungswege reflektieren (S.126: A.2; S.127: A.8)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.132: A.13)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.112 – 113: A.1 – 6)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.112 – 113: A.1 – 6; S.120: A.5)
+    • Sachaufgaben zu Termen, Gleichungen und bildlichen Darstellungen formulieren (S.113: A.4b)
+    • reale Situationen mit mathematischen Modellen beschreiben (S.125: A.4; S.130: A.3)
+
+Mathematische Darstellungen verwenden
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S.121: A.6)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.128: A.2 – 4)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.110 – 111: A.1 – 5; S.121: A.11)
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.118: A.6)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.119: A.1; S.129: A.3a)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S.121: A.7 – 9)
+    • mathematische Verfahren routiniert ausführen (S.124: A.2; S.125: A.2, 3; S.130: A.1, 2)
+    • Kontrollverfahren nutzen (S.129: A.1b, 2a)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.116 – 117: A.1 – 7; S.120: A.5)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.116 – 117: A.1 – 7)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.119: A.2c; S.122: A.6c; S.127: A.9)
+LVL: Zuordnungen zu Wasser		
+LVL: … und zu Land		
+Grafische Darstellungen bei Füllvorgängen		
+Geschwindigkeiten		
+Funktionen als spezielle Zuordnungen		
+Funktionen		
+LVL: Funktionen zeichnen und untersuchen		
+Lineare Funktionen		
+Sonderfälle linearer Funktionen		
+Steigung einer Geraden		
+Die Bedeutung von m und b bei Graphen zur Funktion y = mx + b		
+Bestimmung von Funktionsgleichungen linearer Funktionen		
+Bestimmen der Funktionsgleichung zu einer Geraden durch zwei Punkte		
+Schnittpunkt zweier Geraden		
+Bestimmen des Schnittpunktes zweier Geraden		
+Vermischte Aufgaben		
+
+7 Körper zeichnen und berechnen
+
+    • von speziellen und bekannten Prismen (Quader und Würfel) zu allgemeinen Prismen gelangen
+    • Oberfläche und Volumen von Prisma, Zylinder und zusammengesetzten bzw. ausgehöhlten Körpern bestimmen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Im Schwimmbad	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen) 
+    • Größen messen und Maße aus ausgewählten Darstellungen entnehmen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei ausgewählten Pyramiden und zusammengesetzten geometrischen Objekten)
+
+Raum und Form
+Geometrische Objekte:
+    • ausgewählte geometrische Körper (auch Zylinder) darstellen und ebene Figuren konstruieren
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen) 
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen)	Mathematisch argumentieren
+    • Fehler erkennen, beschreiben und korrigieren (S.139: A.6; S.146: A.1f; S.149: A.9)
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …? ) (S.142: A.1)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.144: A.15)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S.150: A.1; S.151: A.1)
+
+Probleme mathematisch lösen
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.139: A.1; S.152: A.20)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.139: A.2; S.147: A.2, 3)
+    • heuristische Hilfsmittel zum Problemlösen anwenden (S.142: A.1)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.146 – 147: A.1 – 3; S.154: A.14)
+    • Lösungswege reflektieren (S.148: A.1a)
+    • Probleme selbst formulieren (S.152: A.13)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.153: A.6)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.136 – 137: A.1 – 5; S.141: A.1; S.147: A.2, 3)
+    • reale Situationen strukturieren und vereinfachen (S.136 – 137: A.1 – 5)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.136 – 137: A.1 – 5)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.137: A.5a; S.138: A.7)
+    • verwendete Modelle reflektieren (S.142: A.1)
+    • reale Situationen mit mathematischen Modellen beschreiben (S.143: A.6, 7)
+    • zu einem mathematischen Modell verschiedene Realsituationen angeben (S.146: A.1c)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.146: A.1; S.149: A.10, 11)
+    • Darstellungen bewerten oder interpretieren (S.148: A.6)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.140: A.1 – 4)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.141: A.4; S.146: A.1d; S.149: A.1b)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.146: A.1h; S.151: A.4)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen (S.150: A.5; S.152: A.18, 19)
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.153: A.1, 2)
+
+Mathematisch kommunizieren
+    • mathematische Fachbegriffe und Zeichen bei der Beschreibung und Dokumentation von Lösungswegen sachgerecht verwenden (S.138: A.1)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.141: A.1; S.153: A.6)
+    • Aufgaben gemeinsam bearbeiten (S.148: A.6; S.150: A.1)
+    • mathematische Zusammenhänge adressatengerecht beschreiben (S.153: A.1, 2)
+Quader und Würfel		
+Prisma		
+Schrägbild des Prismas		
+Oberfläche des Prismas		
+Volumen des Prismas		
+Vermischte Aufgaben		
+WAV: Wissen – Anwenden – Vernetzen		
+Zylinder: Schrägbild und Netz		
+Oberfläche des Zylinders		
+Volumen des Zylinders		
+Berechnungen am Zylinder		
+Zusammengesetzte und ausgehöhlte Körper		
+
+8 Daten und Zufall
+
+    • statistische Kennwerte wiederholen, vertiefen und anwenden
+    • Boxplots (auch mit dem Computer) erstellen, interpretieren und vergleichen
+    • Wahrscheinlichkeiten von zweistufigen Laplace-Experimenten berechnen
+    • Laplace-Experimente von Nicht-Laplace-Experimenten abgrenzen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Stichproben	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen ordnen (auch rationale Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen)
+
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+Daten und Zufall
+Daten:
+    • statistische Erhebungen planen und durchführen
+    • Daten darstellen (auch mithilfe von Tabellenkalkulation) 
+    • statistische Erhebungen untersuchen
+Zählstrategien und Wahrscheinlichkeiten:
+    • erworbene Kompetenzen vertiefend auf weitere kombinatorische Fragestellungen anwenden 
+    • erworbene Kompetenzen vertiefend auf weitere Zufallsexperimente anwenden	Mathematisch argumentieren
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …?) (S.159: A.1b)
+    • Fehler erkennen, beschreiben und korrigieren (S.163: A.1 – 3; S.168: A.5; S.170: A.1a)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.164: A.8)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.168: A.1)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.168: A.3; S.172: A.6)
+
+Probleme mathematisch lösen
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.158: A.1; S.160: A.8b, 10 – 12; S.171: A.1, 2)
+    • Lösungswege reflektieren (S.161: A.4, 5)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.161: A.1 – 3; S.169: A.12; S.172: A.1 – 6)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.158: A.1; S.165: A.1)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.165: A.1)
+
+Mathematische Darstellungen verwenden
+    • verschiedene Darstellungen vergleichen (S.159: A.6; S.165: A.2, 3c)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.159: A.6; S.161: A.7; S.162: A.1; S.170: A.1b, c)
+    • Darstellungen bewerten oder interpretieren (S.163: A.1 – 3)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.159: A.4; S.166)
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.165: A.3c)
+
+Mathematisch kommunizieren
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.158: A.2)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.158: A.2)
+    • Aufgaben gemeinsam bearbeiten (S.170: A.1)
+    • mathematische Zusammenhänge adressatengerecht beschreiben (S.172: A.5)
+Mittelwert, Median, Modus und Spannweite		
+LVL: Klasseneinteilung		
+Diagramme		
+LVL: Problematische grafische Darstellungen* 		
+Vermischte Aufgaben		
+Quartile und Boxplots		
+LVL: Boxplot mit dem Computer
+
+		
+Berechnen von Wahrscheinlichkeiten bei Laplace-Experimenten		
+Die Laplace-Regel bei zweistufigen Zufallsversuchen		
+LVL: Wahrscheinlichkeiten bei Nicht-Laplace-Experimenten abschätzen		
+LVL: Das Gesetz der großen Zahlen		
+
+9 Terme und Gleichungen (2)
+
+    • Gleichungen erstellen und lösen sowie Formeln umstellen
+    • Produktterme in Summenterme überführen und umgekehrt
+    • binomische Formeln herleiten und vertiefen
+    • Pascal‘sche Dreieck mit Potenzen von Binomen in Zusammenhang bringen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Gleichungen und Formeln	Zahlen und Operationen
+Operationsvorstellungen und Rechenstrategien:
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen)
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen) 
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen)	Mathematisch argumentieren
+    • Ergebnisse bezüglich ihres Anwendungskontextes bewerten (S.176: A.1b)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.188: A.2, 3)
+
+
+Probleme mathematisch lösen
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.177: A.1)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.177: A.4; S.179: A.12 – 16; S.188: A.1)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.179: A.11)
+    • Probleme selbst formulieren (S.179: A.12b; S.185: A.18b)
+    • Lösungswege reflektieren (S.183: A.7; S.185: A.19)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.176: A.3)
+    • zu einem mathematischen Modell verschiedene Realsituationen angeben (S.180: A.2)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.182: A.1, 2; S.183: A.4, 10; S.186: A.6a)
+    • verschiedene Darstellungen vergleichen (S.183: A.7)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.176: A.3; S.186: A.11a)
+    • mathematische Verfahren routiniert ausführen (S.178: A.1 – 3)
+    • Kontrollverfahren nutzen (S.178: A.7; S.179: A.10)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen 
+(S.184: A.3 – 5)
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.185: A.15)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.176: A.1a)
+    • mathematische Zusammenhänge adressatengerecht beschreiben (S.177: A.2)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.177: A.3)
+    • mathematische Informationen in mathematikhaltigen Darstellungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S.187: A.12)
+LVL: Produkt von Summen		
+Produktterm – Summenterm 		
+Anwendungen		
+LVL: Herleitung der Binomischen Formeln		
+Binomische Formeln		
+Vermischte Aufgaben		
+LVL: Das Pascal‘sche Dreieck
+
+==============================================================================
+Klasse 9
+==============================================================================
+
+Sekundo Mathematik	
+ISBN 978-3-14-124270-6
+
+
+
+Stoffverteilungsplan Sekundo 9 Berlin/Brandenburg
+Vorbemerkung
+Der Kompetenzerwerb, insbesondere bei den prozessbezogenen Kompetenzen, erfolgt nicht punktuell und isoliert, sondern 
+in enger Verzahnung über größere Zeitspannen hinweg. 
+Zusatzstoff, der im Kerncurriculum zum Ende des Schuljahrgangs 9 nicht verlangt wird, ist gekennzeichnet (*).
+Die Vergleichenden Arbeiten 2015 und 2016 zur Berufsbildungsreife (inkl. Lösungen) befinden sich auf den Seiten 174 bis 181.
+
+
+
+
+
+
+Besondere Seiten in jedem Kapitel: 
+Bleib fit!		Unabhängig vom Kapitelinhalt werden hier 				grundlegende Fähigkeiten wiederholt und geübt.
+TÜV		Wiederholung der wichtigsten Kapitelinhalte mit 			Merkkasten und zugehörigen Aufgaben
+Diagnosetest	Aufgaben zu allen Kapitelinhalten, zum Beispiel zur 			Vorbereitung auf eine Klassenarbeit
+
+
+
+
+
+
+
+
+
+
+
+1 Wiederholungen 
+
+    • Grundrechenarten, Bruchrechenregeln und Rechnen mit Größen wiederholen
+    • Terme berechnen, Gleichungen und Verhältnisgleichungen aufstellen und lösen
+    • Flächeninhalte und Volumina sowie statistische Kennwerte und Wahrscheinlichkeiten berechnen 
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Reise durch Deutschland: 
+Grundrechenarten	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen ordnen (auch rationale Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und Gesetze der Grundrechenoperationen nutzen (auch im Bereich der rationalen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen)
+    • Größen messen und Maße aus ausgewählten Darstellungen entnehmen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten
+
+Raum und Form
+Geometrische Objekte:
+    • geometrische Objekte beschreiben (auch quantitativ)
+
+
+
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen) 
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen)
+Zuordnungen und Funktionen:
+    • zwischen verschiedenen Darstellungen von Zuordnungen (auch indirekt proportionalen) wechseln 
+    • zu Zuordnungen (auch indirekt proportionalen) Berechnungen durchführen
+
+Daten und Zufall
+Daten:
+    • verschiedene Kennwerte zueinander in Beziehung setzen
+Zählstrategien und Wahrscheinlichkeiten:
+    • Baumdiagramme erstellen und nutzen	Probleme mathematisch lösen
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.16: A.2; S.18: A.3, 4)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.15: A.5, 7)
+    • reale Situationen mit mathematischen Modellen beschreiben (S.16: A.3; S.17: A.6; S.20. A.4)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.18: A.4)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.20: A.3, 5)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.12 – 13: A.1 – 8)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen 
+(S.6: A.1 – 4)
+    • mathematische Verfahren routiniert ausführen (S.8: A.1 – 5)
+Reise durch Europa: 
+Bruchrechnung		
+Reise durch Australien: Größen		
+Reise durch Afrika: 
+Terme und Gleichungen		
+Reise durch Südamerika: 
+Terme und Verhältnisgleichungen		
+Zuordnungen		
+Flächenberechnungen		
+Körperberechnungen		
+Daten und Zufall		
+
+2 Potenzen und Wurzeln 
+
+    • Potenzen, insbesondere Zehnerpotenzen, addieren, subtrahieren und multiplizieren
+    • Zehnerpotenzen mit negativen Exponenten als Bruch oder Dezimalzahl darstellen
+    • mit Quadratwurzeln rechnen und Kubikwurzeln berechnen
+    • rationale von irrationalen Zahlen abgrenzen und zu den reellen Zahlen zusammenfassen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Potenzen	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+    • Näherungsverfahren zur Bestimmung reeller Zahlen nutzen
+    • Zahlenbereiche zueinander in Beziehung setzen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+
+
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben (auch im Bereich der reellen Zahlen) 
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch unter Verwendung von Zehnerpotenzen)
+    • Größenangaben bestimmen auch im Rahmen neuer Sachverhalte
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+	Mathematisch argumentieren
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.22: A.4; S.32: A.1; S.35: A.1, 2; S.36: A.6)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.22: A.4; S.30: A.9; S.35: A.5)
+    • Fehler erkennen, beschreiben und korrigieren (S.22: A.6; S.31: A.10; S.36: A.6)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.23: A.8, S.24: A.8)
+    • mehrschrittige Argumentationen, Begründungen und Beweise kritisch hinterfragen (S.28: A.2a; 
+S.35: A.6)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S.32: A.8, 9)
+    • die Plausibilität von Vermutungen begründen (S.34: A.7)
+Probleme mathematisch lösen
+    • Lösungswege reflektieren (S.22: A.1b; S.23: A.11; S.26: A.5a)
+    • Probleme selbst formulieren (S.23: A.9b)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.24: A.1; S.31: A.19; S.33: A.1)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.28 – 29: A.1 – 3)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.28: A.2b)
+
+Mathematisch modellieren
+    • reale Situationen mit mathematischen Modellen beschreiben (S.22: A.1a; S.28: A.1c; S.29: A.3a)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.22: A.1c; S.24: A.9)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.28: A.1; S.29: A.3)
+
+
+
+
+Mathematische Darstellungen verwenden
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S.23: A.1; S.25: A.9)
+    • Darstellungen bewerten oder interpretieren (S.25: A.1)
+    • eine Darstellung in eine andere übertragen (S.30: A.1)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.35: A.7)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.25: A.1; S.30: A.6, 7)
+    • Kontrollverfahren nutzen (S.30: A.8; S.35: A.3a)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.31: A.15, 18)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen (S.32: A.6)
+    • mathematische Verfahren routiniert ausführen (S.36: A.4, 5)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.23: A.1; S.35: A.5 – 7)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.26: A.12)
+Zehnerpotenzen		
+Zehnerpotenzen mit negativen Exponenten		
+Standardschreibweise für sehr große und sehr kleine positive Zahlen		
+Vermischte Aufgaben		
+WAV: Wissen – Anwenden – Vernetzen		
+Quadratwurzeln		
+Rechnen mit Quadratwurzeln		
+Kubikwurzeln		
+Vermischte Aufgaben		
+LVL: Rationale und irrationale Zahlen		
+Reelle Zahlen und Intervallschachtelung*		
+
+3 Funktionen
+
+    • Funktionen auf verschiedenen Arten darstellen, auch mit Grafiksoftware
+    • Graphen und Funktionsgleichungen von linearen Funktionen anhand der Steigung und des y-Achsenabschnitts zeichnen und bestimmen
+    • Schnittpunkt von zwei linearen Funktionen zeichnerisch und rechnerisch ermitteln
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Die Dietrich-Bonhoeffer-Schule hat Geburtstag	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch rationale Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • erworbene Rechenverfahren und 
+-strategien vertiefend auf neue Sachverhalte und im Zusammenhang anwenden
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen)
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+
+
+
+
+
+
+
+
+
+
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch lineare Gleichungssysteme)
+    • Gleichungen und lineare Gleichungssysteme lösen
+Zuordnungen und Funktionen:
+    • Eigenschaften von linearen Funktionen beschreiben
+    • zwischen verschiedenen Darstellungen von linearen Funktionen wechseln
+    • zu linearen Funktionen Berechnungen durchführen	Mathematisch argumentieren
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.43: A.6)
+    • die Plausibilität von Vermutungen begründen (S.46: A.1b; S.48: A.1a; S.49: A.1a)
+
+Probleme mathematisch lösen
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.40 – 41: A.1 – 5)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.47: A.1)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.49: A.1c)
+
+Mathematisch modellieren
+    • reale Situationen mit mathematischen Modellen beschreiben (S.46: A.3, 4; S.48: A.1a)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.48: A.1c, 3b; S.50: A.6bd,7b)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.40 – 41: A.1, 2, 4, 5)
+    • eine Darstellung in eine andere übertragen (S.43: A.1, 4)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.43: A.2)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.44: A.1 – 4)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S.47: A.2; S.49: A.5)
+    • mathematische Verfahren routiniert ausführen (S.49: A.2)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.50: A.3)
+
+
+
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.41: A.5; S.47: A.1)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.42: A.1 – 4; S.47: A.1)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.44: A.4)
+LVL: Funktionen als eindeutige Zuordnungen		
+Funktionen		
+LVL: Funktionen mit Computerprogrammen darstellen		
+Lineare Funktionen		
+Die Bedeutung von m und b bei Funktionen mit der Funktionsgleichung y = mx + b		
+Änderungsraten*		
+Schnittpunkte zweier Geraden		
+Vermischte Aufgaben		
+
+4 Satz des Pythagoras
+
+    • Beweise bzw. Grundaufgaben zum Satz des Pythagoras nachvollziehen bzw. rechnen (auch Umkehrung des Satzes)
+    • Anwendungsorientierte Aufgaben, z.B. bei (mathematischen) Problemen in Figuren oder im Gelände, lösen
+    • Katheten- und Höhensatz beweisen und anwenden
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+LVL: Beweise zum Satz des Pythagoras	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • Größen messen und Maße aus Darstellungen entnehmen 
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+Raum und Form
+Geometrische Objekte:
+    • Beziehungen zwischen geometrischen Objekten für Berechnungen nutzen (auch gerade quadratische Pyramiden und auch in Zusammensetzungen)
+
+
+
+
+
+
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für quadratische Zusammenhänge)
+    • Gleichungen (auch quadratische Gleichungen) und lineare Gleichungssysteme lösen	Mathematisch argumentieren
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.54: A.1; S.55: A.4a,5a)
+    • mehrschrittige Argumentationen zur Begründung und zum Beweisen mathematischer Aussagen entwickeln (S.54: A.2; S.66: A.2)
+    • die Plausibilität von Vermutungen begründen (S.55: A.4a,5a; S.59: A.1a)
+    • Fehler erkennen, beschreiben und korrigieren (S.56: A.5; S.57: A.7)
+
+Probleme mathematisch lösen
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.58: A.4,6; S.62: A.1 – 8)
+    • Lösungswege reflektieren (S.61: A.6b; S.64: A.1)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S.61: A.6a)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.66: A.4,5)
+
+Mathematisch modellieren
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.58: A.4)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.62: A.7; S.63: A.5-7)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.56: A.1 – 4; S.57: A.1,4)
+    • Kontrollverfahren nutzen (S.56: A.4; S.57: A.1,3; S.59: A.1b)
+    • symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt (S.58: A.6a; 
+S.66: A.1)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.61: A.1)
+
+Mathematisch kommunizieren
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.56: A.2)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.57: A.6)
+    • Aufgaben gemeinsam bearbeiten (S.59: A.1; S.64: A.2b)
+    • mathematische Informationen in mathematikhaltigen Darstellungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S.59: A.4b)
+Satz des Pythagoras		
+Berechnen der Hypotenuse		
+Berechnen der Kathete		
+Vermischte Aufgaben		
+Umkehrung des Satzes des Pythagoras		
+Pythagoras in ebenen Figuren		
+LVL: Pythagoras in Meyers Garten		
+LVL: Pythagoras im Gelände		
+Pythagoras im Raum		
+Kathetensatz und Höhensatz*		
+		
+
+5 Lineare Gleichungssysteme 
+
+    • zeichnerische und rechnerische Lösungen zu einer bzw. zwei linearen Gleichungen finden
+    • lineare Gleichungssysteme und deren Anwendung mit verschiedenen Verfahren lösen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Lineare Gleichungen mit zwei Variablen	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen)
+    • Größen messen und Maße aus ausgewählten Darstellungen entnehmen 
+
+
+
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten)
+
+
+
+
+
+
+
+
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch lineare Gleichungssysteme)
+    • Gleichungen und lineare Gleichungssysteme lösen
+Zuordnungen und Funktionen:
+    • zwischen verschiedenen Darstellungen von linearen Funktionen wechseln
+    • zu linearen Funktionen Berechnungen durchführen	Mathematisch argumentieren
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.73: A.3)
+
+Probleme mathematisch lösen
+    • Lösungswege reflektieren (S.73: A.4c)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.76: A.1)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.82: A.1 – 4)
+
+Mathematisch modellieren
+    • verwendete Modelle reflektieren (S.70: A.4b; S.72: A.2)
+    • reale Situationen mit mathematischen Modellen beschreiben (S.70: A.5; S.79: A.3 - 5)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretiere (S.70: A.5d)
+    • Sachaufgaben zu Termen, Gleichungen und bildlichen Darstellungen formulieren (S.71: A.14)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.74: A.1ab; S.77: A.8,9)
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Kontrollverfahren nutzen (S.70: A.3; S.74: A.2 – 4)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.71: A.7; S.72: A.2)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.72: A.2; S.82: A.1, 4)
+    • Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz bewerten (S.75: A.9; S.77: A.1)
+    • mathematische Verfahren routiniert ausführen (S.77: A.3,4)
+
+
+
+
+
+Mathematisch kommunizieren
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.70: A.1)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.71: A.7)
+    • Aufgaben gemeinsam bearbeiten (S.72: A.1)
+    • mathematische Informationen in mathematikhaltigen Darstellungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S.75: A.1)
+LVL: Zwei Gleichungen mit zwei Variablen		
+Lineare Gleichungssysteme		
+Gleichsetzungsverfahren und Einsetzungsverfahren		
+Additionsverfahren		
+Vermischte Aufgaben		
+Anwendungen		
+LVL: Mischaufgaben		
+
+6 Prozent- und Zinsrechnung 
+
+    • Prozentrechnung wiederholen und vertiefen; mit dem Prozentfaktor z.B. Rabatt oder Skonto berechnen
+    • Jahres-, Monats- und Tageszinsen berechnen (auch mit Tabellenkalkulation und mit variierenden Zinssätzen)
+    • Zinsrechnung anwenden bei Zinseszins, Ratensparen und Tilgung von Krediten
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Prozentrechnung	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch weitere Einheiten zu den bekannten Größen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch mit zusammengesetzten Größen und auch bei ausgewählten geometrischen Objekten
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen) 
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen)
+
+Daten und Zufall
+Daten:
+    • Daten präsentieren
+    • statistische Erhebungen kritisch bewerten	Mathematisch argumentieren
+    • Fehler erkennen, beschreiben und korrigieren (S.88: A.7)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.86: A.2, 5; S.93: A.11)
+    • Lösungswege reflektieren (S.88: A.1)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.94: A.1 – 4)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.94: A.1 – 4)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.97: A.3,4)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.90: A.5 – 7; S.98: A.8,9)
+
+Mathematische Darstellungen verwenden
+    • eine Darstellung in eine andere übertragen (S.86: A.1a)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.87: A.17; S.89: A.3; S.90: A.5)
+    • verschiedene Darstellungen vergleichen (S.87: A.17)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.87: A.11; S.93: A.13; S.95: A.1, 2; S.96 – 97: A.1 – 4)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.94: A.2 – 4; S.98: A.4b)
+
+
+
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.86: A.1)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.86: A.5)
+    • mathematische Informationen in mathematikhaltigen Darstellungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S.86: A.10)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.90: A.8; S.92: A.1, 6)
+Prozentfaktor		
+Rabatt - Skonto		
+Vermischte Aufgaben		
+Zinsrechnung		
+LVL: Zinseszins 		
+LVL: Ratensparen		
+LVL: Tilgung von Krediten durch Ratenzahlung		
+Vermischte Aufgaben		
+
+7 Ähnlichkeit
+
+    • Ähnlichkeitssätze vorbereiten mit Berechnungen zu Maßstäben und Längenverhältnisse von Strecken
+    • durch Zeichnung und Messen prüfen, ob Figuren und insbesondere Dreiecke ähnlich sind
+    • über die Streckenteilung zu den Strahlensätzen und deren Anwendungen gelangen
+    • zentrische Streckung als Verallgemeinerung der Strahlensätze auffassen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Maßstab	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • Größen messen und Maße aus Darstellungen entnehmen 
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei Pyramiden, Kegeln und Kugeln sowie zusammengesetzten Körpern und auch mithilfe trigonometrischer Beziehungen)
+
+
+
+
+
+
+
+
+
+
+
+
+Raum und Form
+Geometrische Objekte:
+    • Beziehungen zwischen geometrischen Objekten für Berechnungen nutzen (auch gerade quadratische Pyramiden und auch in Zusammensetzungen) 
+Geometrische Abbildungen:
+    • Eigenschaften von Abbildungen nutzen (auch Vergrößerungen und Verkleinerungen)
+    • ausgewählte Abbildungen ausführen (auch Vergrößerungen und Verkleinerungen)
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch im Bereich der rationalen Zahlen)
+    • lineare Gleichungen und Verhältnisgleichungen lösen (auch mit Äquivalenzumformungen)	Mathematisch argumentieren
+    • Ergebnisse bezüglich ihres Anwendungskontextes bewerten (S.102: A.1)
+    • die Plausibilität von Vermutungen begründen (S.106: A.6; S.116: A.1e)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.110: A.1b)
+    • mehrschrittige Argumentationen zur Begründung und zum Beweisen mathematischer Aussagen entwickeln (S.112: A.1,2; S.118: A.6)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.114: A.3)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S.117: A.6d)
+
+Probleme mathematisch lösen
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.103: A.13; S.111: A.2,3)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S.106: A.1; S.108: A.1; S.118: A.1ab)
+    • Lösungswege reflektieren (S.108: A.2a)
+    • Probleme selbst formulieren (S.108: A.6,7; S.113: A.10)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.110 – 111: A.1 – 3)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S.102: A.2; S.111: A.3; S.118: A.5)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.104: A.1 – 5; S.113: A.6 – 10)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S.114: A.1)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.115: A.10a; S.117: A.9)
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.102: A.3 – 5)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.105: A.2 – 4; S.107: A.7; S.112: A.4)
+    • Kontrollverfahren nutzen (S.107: A.4,6; S.114: A.5c)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.112: A.4)
+
+Mathematisch kommunizieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S.104: A.2)
+    • mathematische Informationen in mathematikhaltigen Darstellungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S.115: A.7)
+    • Aufgaben gemeinsam bearbeiten (S.105: A.1; S.115: A.8,9a,10)
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.115: A.10b)
+LVL: Fotos vergrößern		
+Längenverhältnisse von Strecken		
+Ähnliche Figuren		
+Ähnliche Dreiecke		
+Streckenteilung		
+WAV: Wissen – Anwenden – Vernetzen		
+Strahlensätze		
+Anwendungen		
+Zentrische Streckung		
+Vermischte Aufgaben		
+
+8 Flächen- und Körperberechnung
+
+    • Umfang und Flächeninhalt von Dreiecken, Vierecken, Kreise, Kreisringe und Kreisausschnitte berechnen
+    • Oberfläche und Volumen von Prismen und Zylinder wiederholend und vertiefend bestimmen
+    • Oberflächen- und Volumenformel von Pyramide und Kegel herleiten und bei (anwendungsbezogenen) Berechnungen nutzen (auch bei zusammengesetzten und ausgehöhlten Körpern)
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Umfang und Flächeninhalt	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+    • Näherungsverfahren zur Bestimmung reeller Zahlen nutzen
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch unter Verwendung von Zehnerpotenzen) 
+    • Größenangaben bestimmen auch im Rahmen neuer Sachverhalte
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei ausgewählten Pyramiden und zusammengesetzten geometrischen Objekten)
+
+
+
+
+
+
+Raum und Form
+Geometrische Objekte:
+    • geometrische Objekte beschreiben (auch Differenz- und Teilkörper sowie Differenz- und Teilflächen)
+    • Beziehungen zwischen geometrischen Objekten für Argumentationen nutzen
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für quadratische Zusammenhänge)
+    • Gleichungen (auch quadratische Gleichungen) und lineare Gleichungssysteme lösen	Mathematisch argumentieren
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.124: A.1; S.125: A.1; S.137: A.1)
+    • mehrschrittige Argumentationen zur Begründung und zum Beweisen mathematischer Aussagen entwickeln (S.125: A.5)
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …?) (S.125: A.7; S.143: A.7)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.129: A.1c,2ab; S.133: A.15)
+    • Fehler erkennen, beschreiben und korrigieren (S.136: A.3a)
+
+Probleme mathematisch lösen
+    • Lösungswege reflektieren (S.124: A.6)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.126 – 127: A.1 – 7; S.134: A.1 – 5; S.140: A.1,2)
+    • Probleme selbst formulieren (S.127: A.5; S.145: A.5)
+    • Plausibilität von Ergebnissen überprüfen (S.126: A.4b)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.127: A.6,7; S.129: A.1,2)
+    • heuristische Hilfsmittel zum Problemlösen anwenden (S.137: A.1)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen 
+(S.139: A.1 – 8; S.144: A.16)
+
+Mathematisch modellieren
+    • reale Situationen mit mathematischen Modellen beschreiben (S.123: A.11,14; S.128: A.1 – 8; 
+S.134: A.1 – 5; S.142: A.4)
+
+
+
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.124: A.5; S.135: A.1 – 3)
+    • Darstellungen zielgerichtet verändern (S.136: A.3b)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.122: A.3,5; S.129: A.1,2; S.133: A.8,9; S.146: A.1)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S.125: A.5)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen 
+(S.129: A.1e,2d; S.143: A.7)
+    • mathematische Verfahren routiniert ausführen (S.138: A.1 – 4; S.143: A.1,2)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.124: A.1,6)
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.124: A.1; S.133: A.12)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.125: A.1; S.133: A.11; S.145: A.1 – 5)
+Kreisring		
+Kreisausschnitt		
+LVL: Im Stadion		
+LVL: Unsere Erde		
+LVL: Grenzprozesse von Bestimmung von ?*		
+Vermischte Aufgaben		
+Oberfläche und Volumen von Körpern		
+LVL: Erbsensuppe aus der Dose 		
+LVL: Pyramiden zeichnen und bauen		
+LVL: Kegel zeichnen und bauen		
+LVL: Volumenformel		
+Volumen von Pyramide und Kegel		
+LVL: Rechtwinklige Dreiecke in Kegel und Pyramide		
+Oberfläche der Pyramide		
+Oberfläche des Kegels
+		
+LVL: Die Cheops-Pyramide in Ägypten		
+Vermischte Aufgaben		
+LVL: Zusammengesetzte und ausgehöhlte Körper		
+Zusammengesetzte und ausgehöhlte Körper		
+
+9 Daten und Zufall
+
+    • statistische Kennwerte berechnen, Boxplots erstellen und vergleichen
+    • Diagramme kritisch analysieren, Prognosen erstellen mit Zeitreihen, Altersverteilung untersuchen
+    • zweistufige Zufallsexperimente durchführen: Wahrscheinlichkeiten mit Produkt- und Summenregel sowie mithilfe des Gegenereignisses berechnen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenzen
+Mittelwert, Median und Spannweite	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen) 
+    • Zahlen ordnen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • Größen messen und Maße aus Darstellungen entnehmen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei ausgewählten Pyramiden und zusammengesetzten geometrischen Objekten)
+
+Gleichungen und Funktionen
+Zuordnungen und Funktionen:
+    • Eigenschaften von linearen Funktionen beschreiben
+    • zwischen verschiedenen Darstellungen von linearen Funktionen wechseln 
+
+
+
+
+
+Daten und Zufall
+Daten:
+    • Daten präsentieren
+    • statistische Erhebungen kritisch bewerten
+Zählstrategien und Wahrscheinlichkeiten:
+    • erworbene Kompetenzen vertiefend auf weitere kombinatorische Fragestellungen anwenden 
+    • Wahrscheinlichkeiten von Ereignissen ermitteln und vergleichen (auch auf der Basis von Simulationen)	Mathematisch argumentieren
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S.150: A.3; S.151: A.2b; S.161: A.1; S.167: A.1)
+    • Fehler erkennen, beschreiben und korrigieren (S.161: A.7)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S.163: A.6; S.165: A.5,6)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S.151: A.2c)
+    • Ergebnisse bezüglich ihres Anwendungskontextes bewerten (S.152: A.1)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.158 – 159: A.1 – 3)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S.158 – 159: A.1 – 3; S.165: A.2 – 4)
+
+Mathematisch modellieren
+    • reale Situationen mit mathematischen Modellen beschreiben (S.151: A.2; S.153: A.1 – 3)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.162: A.4,5; S.166: A.1 – 6)
+
+Mathematische Darstellungen verwenden
+    • verschiedene Darstellungen vergleichen (S.151: A.1; S.156 – 157; S.167: A.3)
+    • Darstellungen bewerten oder interpretieren (S.151: A.2a; S.152: A.2b; S.154 – 155: A.1 – 4; 
+S.156 – 157)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.152: A.3; S.162: A.1; S.164: A.1)
+
+
+
+
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S.152: A.3; S.166: A.1 – 6)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.153: A.1a,3a; S.156 – 157)
+    • mathematische Verfahren routiniert ausführen (S.161: A. 2 – 4)
+
+Mathematisch kommunizieren
+    • mathematische Fachbegriffe und Zeichen bei der Beschreibung und Dokumentation von Lösungswegen sachgerecht verwenden (S.150: A.1)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.150: A.7; S.161: A.7)
+    • mathematische Informationen in mathematikhaltigen Darstellungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S.152: A.2a)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.152: A.3)
+    • Aufgaben gemeinsam bearbeiten (S.165: A.1 – 6)
+Boxplots		
+Vorsicht bei Diagrammen		
+LVL: Zeitreihen: Prognosen 		
+LVL: Altersverteilung in Deutschland		
+LVL: Präsentationen		
+WAV: Wissen – Anwenden - Vernetzen		
+Wahrscheinlichkeit		
+Zweistufige Zufallsexperimente		
+Rechnen mit dem Gegenereignis		
+LVL: Zufallsregen		
+LVL: Simulieren von Zufallsziffern*		
+Vermischte Aufgaben
+
+==============================================================================
+Klasse 10
+==============================================================================
+
+Sekundo Mathematik
+ISBN 978-3-14-124279-9
+
+
+
+Stoffverteilungsplan Sekundo 10 Berlin/Brandenburg
+Vorbemerkung
+Der Kompetenzerwerb, insbesondere bei den prozessbezogenen 
+Kompetenzen, erfolgt nicht punktuell und isoliert, sondern in enger Verzahnung über größere Zeitspannen hinweg. 
+Zusatzstoff, der im Kerncurriculum zum Ende des Schuljahrgangs 10 nicht verlangt wird, ist gekennzeichnet (*).
+Die Vergleichenden Arbeiten 2017 und 2018 zum mittleren Schulabschluss (inkl. Lösungen) befinden sich auf den Seiten 168 bis 187.
+
+Besondere Seiten in jedem Kapitel: 
+Bleib fit!		Unabhängig vom Kapitelinhalt werden hier 				grundlegende Fähigkeiten wiederholt und geübt.
+TÜV		Wiederholung der wichtigsten Kapitelinhalte mit 			Merkkasten und zugehörigen Aufgaben
+Diagnosetest	Aufgaben zu allen Kapitelinhalten, zum Beispiel zur 			Vorbereitung auf eine Klassenarbeit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 Basiswissen
+
+    • Rechnen mit rationalen Zahlen, Termen und Gleichungen; mit proportionalen, antiproportionalen und linearen Funktionen Sachsituationen modellieren
+    • Symmetrien, Sätze über Winkelpaare und Dreieckskonstruktionen wiederholen; Satz des Pythagoras und dessen Umkehrung anwenden
+    • Maßeinheiten umrechnen und -zahlen in Vierecken bzw. Körper bestimmen, statistische Kennwerte berechnen, Wahrscheinlichkeiten in Laplace-Versuchen ermitteln
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenz
+Eingangstest	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+    • Zahlen ordnen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben (auch im Bereich der reellen Zahlen)
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten systematisch beschreiben
+    • Größen messen und Maße aus Darstellungen entnehmen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei ausgewählten Pyramiden und zusammengesetzten geometrischen Objekten)
+
+
+
+
+
+
+Raum und Form:
+Geometrische Objekte:
+    • geometrische Objekte beschreiben (auch quantitativ)
+    • ausgewählte geometrische Körper (auch Zylinder) darstellen und ebene Figuren konstruieren
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch lineare Gleichungssysteme)
+    • Gleichungen und lineare Gleichungssysteme lösen
+Zuordnungen und Funktionen:
+    • Eigenschaften von linearen Funktionen beschreiben
+    • zwischen verschiedenen Darstellungen von linearen Funktionen wechseln
+    • zu linearen Funktionen Berechnungen durchführen
+
+Daten und Zufall
+Daten:
+    • Daten darstellen (auch Kreisdiagramme)
+    • verschiedene Kennwerte zueinander in Beziehung setzen
+Zählstrategien und Wahrscheinlichkeiten:
+    • Baumdiagramme erstellen und nutzen
+    • Wahrscheinlichkeiten von Ereignissen bei zweistufigen Zufallsexperimenten vergleichen	Mathematisch argumentieren
+    • Fehler erkennen, beschreiben und korrigieren (S. 20: A.6)
+
+Probleme mathematisch lösen
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S. 17 – 18; S. 20: A.2 – 5)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S. 11: A.12; 
+S. 19: A.1 – 4; S. 24: A.4, 7)
+    • reale Situationen mit mathematischen Modellen beschreiben (S. 14; S. 15: A.7)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S. 21: A.8; S. 22: A.4)
+
+Mathematische Darstellungen verwenden
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S. 11: A.4, 11)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen 
+(S. 10: A.3, 4; S. 11: A.6 – 10)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S. 12 – 13; S. 16; S. 29)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S. 16; S. 27)
+    • symbolische und formale Sprache in natürliche Sprache über-setzen und umgekehrt (S. 16: A.7; 
+S. 17: A.2, 5)
+    • mathematische Verfahren routiniert ausführen (S. 23)
+Rechnen mit Brüchen und Dezimalzahlen		
+Rechnen mit positiven und negativen Zahlen, Sachaufgaben		
+Terme		
+Gleichungen		
+Proportionale und antiproportionale Zuordnungen		
+Lineare Funktionen		
+Lineare Gleichungssysteme		
+Prozentrechnung		
+Zinsrechnung		
+Winkel und Symmetrie		
+Dreiecke und Vierecke		
+Maßstab und Ähnlichkeit		
+Satz des Pythagoras		
+Maßeinheiten		
+Flächenberechnung		
+Schrägbilder und Netze		
+Körperberechnung		
+Rechnen mit Formeln		
+Statistik		
+Grafiken und Diagramme		
+Wahrscheinlichkeit		
+Ausgangstest		
+
+2 Quadratische Funktionen und Gleichungen
+
+    • Von der Funktionsgleichung der Normalparabel über gestreckte bzw. gestauchte und verschobene Parabeln zur Scheitelpunkts- bzw. Normalform gelangen
+    • Quadratische Gleichungen lösen: Erst Sonderfälle betrachten, dann mit quadratischer Ergänzung lösen und somit die Lösungsformel für quadratische Gleichungen entdecken
+    • Anwendungsaufgaben mithilfe von quadratischen Gleichungen und Parabeln lösen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenz
+Normalparabel	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+    • Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben (auch im Bereich der reellen Zahlen)
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch unter Verwendung von Zehnerpotenzen)
+    • Größenangaben bestimmen auch im Rahmen neuer Sachverhalte
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei ausgewählten Pyramiden und zusammengesetzten geometrischen Objekten)
+
+Raum und Form:
+Geometrische Objekte:
+    • Beziehungen zwischen geometrischen Objekten für Berechnungen nutzen (auch gerade quadratische Pyramiden und auch in Zusammensetzungen)
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für quadratische Zusammenhänge)
+    • Gleichungen (auch quadratische Gleichungen) und lineare Gleichungssysteme lösen 
+Zuordnungen und Funktionen:
+    • Eigenschaften von Funktionen beschreiben (auch quadratische und trigonometrische Funktionen sowie Exponentialfunktionen)
+    • -wischen verschiedenen Darstellungen von Funktionen wechseln (auch quadratische und trigonometrische Funktionen sowie Exponentialfunktionen)
+    • die verschiedenen Funktionstypen sachgerecht anwenden (auch quadratische und trigonometrische Funktionen sowie Exponentialfunktionen)	Mathematisch argumentieren
+    • die Plausibilität von Vermutungen begründen (S. 34: A.9; S.46: A.2)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S. 34: A.2, S. 46: A.1; S. 52: A.9)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S. 39: A.6)
+    • Fehler erkennen, beschreiben und korrigieren (S. 45: A. 6; S. 54: A.2)
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …?) (S.45: A.6)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S. 54: A.1)
+
+Probleme mathematisch lösen
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) (S. 35: A.1, 2; S. 38: A. 1, 2)
+    • Lösungswege reflektieren (S. 39: A.3; S. 45: A.6; S. 52: A.8)
+    • Probleme selbst formulieren (S. 41: A. 4; S. 42: A.5)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S. 43: A.1 – 6)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S. 45: A.4; S. 47: A.1, 4)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S. 47: A.5, 6)
+
+Mathematisch modellieren
+    • relevante Informationen aus Sachtexten und anderen Darstel-lungen entnehmen (S. 37: A.1 – 3)
+    • reale Situationen mit mathematischen Modellen beschreiben (S. 37: A.1 – 4; S.53: A.1 – 3)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S.50: A.1 – 7; S. 51: A.8 – 19)
+
+Mathematische Darstellungen verwenden
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S.36: A.4; 
+S. 39: A.2; S. 41: A.2)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S. 35: A.2; 
+S. 40: A. 1, 3; S. 52: A.2)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.37: A.1 – 4)
+    • symbolische und formale Sprache in natürliche Sprache über-setzen und umgekehrt (S. 36: A.2; 
+S. 45: A.5)
+    • mathematische Verfahren routiniert ausführen (S. 42: A.2 – 4; S.48: A.1 – 3)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen (S. 52: A.19)
+
+Mathematisch kommunizieren
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S. 35: A.3)
+    • Aufgaben gemeinsam bearbeiten (S. 35: A.1 – 3; S. 38: A.1 – 3; S. 47: A.4)
+LVL: Funktionen mit Gleichungen der Form y = ax²		
+Gestreckte und gestauchte Parabeln		
+LVL: Brückenbögen		
+LVL: Funktionen mit Gleichungen der Form y = ax² + c		
+Verschobene Parabeln		
+LVL: Funktionen mit Gleichungen der Form y = (x + d)² + e		
+Scheitelpunktform		
+Von der Form y = x² + bx + c zur Scheitelpunktform		
+Allgemeine Scheitelpunktform		
+Quadratische Gleichungen		
+Sonderfälle quadratischer Gleichungen		
+Rechnerische Lösung mit quadratischer Ergänzung		
+Lösungsformel für quadratische Gleichungen		
+Anwendungen		
+LVL: Parabeln im Sport		
+LVL: Satz des Vieta*		
+
+3 Körper
+
+    • Wiederholung: Volumen und Oberfläche von Prisma und Zylinder; Pyramiden und Kegel konstruieren und basteln
+    • Über Netz von Pyramide und Kegel zu deren Oberflächenformeln gelangen; inner- und außermathematische Aufgaben dazu lösen
+    • Mithilfe verschiedener Wege (z.B. Cavalieri) die Volumenformeln von Pyramide, Kegel und Kugel (auch Oberflächenformel) herleiten und in verschiedenen Sachkontexten anwenden
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenz
+Volumen von Prisma und Zylinder	Zahlen und Operationen
+    • Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+    • Näherungsverfahren zur Bestimmung reeller Zahlen nutzen*
+Operationsvorstellungen und Rechenstrategien:
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch unter Verwendung von Zehnerpotenzen)
+    • Größen messen und Maße aus Darstellungen entnehmen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei Pyramiden, Kegeln und Kugeln sowie zusammengesetzten Körpern und auch mithilfe trigonometrischer Beziehungen)
+
+
+
+
+
+
+
+
+
+Raum und Form:
+Geometrische Objekte:
+    • geometrische Objekte beschreiben (auch Differenz- und Teilkörper sowie Differenz- und Teilflächen)
+    • Beziehungen zwischen geometrischen Objekten für Argumentationen nutzen
+
+    • geometrische Körper (auch Kegel und Pyramiden) darstellen und zusammengesetzte Körper und Differenzkörper skizzieren
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für quadratische Zusammenhänge)	Mathematisch argumentieren
+    • Fragen stellen, die für die Mathematik charakteristisch sind (Gibt es …? Wie verändert sich …? Ist das immer so …?) (S. 58: A.5; S. 73: A.11)
+    • die Plausibilität von Vermutungen begründen (S. 70: A.2, 3)
+
+Probleme mathematisch lösen
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S.63: A.1 – 2; S.68 – 69)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S. 65: A.6; S. 66: A.3 – 6; S.78: A.10)
+    • Probleme selbst formulieren (S. 65: A.7; S. 76: A.1)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S. 59: A.8; S. 73: A.10)
+    • reale Situationen strukturieren und vereinfachen (S. 78: A.12)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.62: A.2; S. 71: A.1; S. 73: A.15)
+    • Darstellungen bewerten oder interpretieren (S. 71: A.1, 2)
+
+
+
+
+
+
+
+
+
+
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.58: A.2 – 4; S.64: A.1 – 5)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S. 65: A.8; 
+S. 71: A.2)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S.65: A.10, 11; S. 68: A.1d; 
+S. 73: A.11c)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen (S.68: A.1d; 
+S.69: A.2c, 3)
+    • symbolische und formale Sprache in natürliche Sprache über-setzen und umgekehrt (S. 70: A.1)
+
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen (S. 65: A.10; S. 72: A.5, 8)
+
+Mathematisch kommunizieren
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S.58: A.1; S. 77: A.5, 9)
+    • Aufgaben gemeinsam bearbeiten (S. 59: A.1; S. 77: A. 9)
+    • mathematische Zusammenhänge unter Nutzung von Fachsprache und geeigneten Medien mündlich und schriftlich präsentieren (S.60 – 61; S. 62: A.2)
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S. 63: A.1 – 2)
+    • mathematische Informationen in mathematikhaltigen Darstel-lungen und in nicht aufbereiteten, authentischen Texten erfassen, analysieren und bewerten (S. 66: A.1 – 2)
+Oberfläche von Prisma und Zylinder		
+LVL: Pyramiden zeichnen und bauen		
+LVL: Kegel zeichnen und bauen		
+Pythagorasanwendungen bei Kegel und Pyramiden		
+LVL: Hinführung zu den Oberflächenformeln für Pyramide und Kegel		
+Oberfläche von Pyramide und Kegel		
+LVL: Die Glaspyramide vor dem Louvre in Paris		
+WAV: Wissen – Anwenden – Vernetzen		
+LVL: Cavalieri*		
+LVL: Hinführung zu den Volumenformeln für Pyramide und Kegel		
+Volumen von Pyramide und Kegel		
+Volumen der Kugel		
+Oberfläche der Kugel		
+Volumen und Oberfläche der Kugel		
+
+4 Potenzen und Wurzeln
+
+    • Potenzen mit ganzzahligen Exponenten berechnen; sehr große und kleine Zahlen aus Natur und Technik/Wissenschaft in Standardschreibweise darstellen
+    • Potenzgesetze für ganzzahlige Exponenten herleiten und anwenden; n-te Wurzel als Umkehrung von n-ter Potenz einführen; Potenz- und Wurzelfunktionen voneinander abgrenzen
+    • Potenzen mit rationalen Exponent über n-te Wurzeln von Potenzen einführen; Potenzgleichungen lösen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenz 
+Potenzen	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch Zahlen in Potenzschreibweise) Zahlen ordnen (auch Zahlen in Potenzschreibweise)
+    • Zahlenbereiche zueinander in Beziehung setzen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben (auch beim Rechnen mit Potenzen mit rationalen Exponenten)*
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch beim Rechnen mit Potenzen mit rationalen Exponenten)*
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten nutzen (auch unter Verwendung von Zehnerpotenzen)
+    • Größenangaben bestimmen auch im Rahmen neuer Sachverhalte
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei ausgewählten Pyramiden und zusammengesetzten geometrischen Objekten)
+
+
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für potenzielle und exponentielle Zusammenhänge)*
+    • Gleichungen (auch Potenzgleichungen mit rationalen Exponenten und Exponentialgleichungen) und lineare Gleichungssysteme lösen*
+Zuordnungen und Funktionen:
+    • Eigenschaften von Funktionen beschreiben (auch Potenz-, Exponential- und ausgewählte ganzrationale Funktionen) und Umkehrfunktionen angeben*
+    • unterschiedliche Darstellungen von Funktionen (auch Potenz- und Exponentialfunktionen) interpretieren und zwischen ihnen wechseln*	Mathematisch argumentieren
+    • Fehler erkennen, beschreiben und korrigieren (S. 82: A.8)
+    • die Plausibilität von Vermutungen begründen (S. 82: A.11; S. 86: A.9)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S. 83: A.1; S. 92: A.5, 8; S. 93: A.1)
+    • mehrschrittige Argumentationen zur Begründung und zum Beweisen mathematischer Aussagen entwickeln (S. 83: A.10)
+    • Beispiele oder Gegenbeispiele für mathematische Aussagen finden (S. 88: A.4; S. 89: A.10; S. 91: A.10)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S. 93: A.5; S. 98: A.17)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S. 94: A.1, 3, 5)
+
+Probleme mathematisch lösen
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S. 83: A.7; S. 95: A.2, 7)
+    • Probleme selbst formulieren (S. 83: A.9; S.87: A.16)
+    • Lösungswege reflektieren (S. 91: A.1)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S. 96: A.7)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S. 85: A.1 – 9; S. 87: A.20, 21; S. 96: A.1)
+    • heuristische Hilfsmittel zum Problemlösen anwenden (S. 94: A.4; S. 95: A.1)
+
+Mathematische Darstellungen verwenden
+    • eine Darstellung in eine andere übertragen (S. 86: A.10, 11; S. 89: A.1, 7)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S.92: A.3; S. 93: A.3)
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S. 98: A.13)
+
+
+
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • symbolische und formale Sprache in natürliche Sprache über-setzen und umgekehrt (S.82: A.1)
+    • mathematische Verfahren routiniert ausführen (S. 82: A.2 – 5; S. 89: A.1, 2, 4 – 8)
+    • formale Rechenstrategien (schnelles Kopfrechnen und automatisierte Verfahren) ausführen (S.82: A.7; 
+S. 89: A.3; S. 91: A.3; S. 97: A.9)
+    • Kontrollverfahren nutzen (S. 83: A.6; S. 92: A.2)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S. 91: A.4; 
+S. 93: A.3, 4)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S. 92: A.1 – 8; S. 93: A.1 – 6)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S.93: A.1, 2)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.82: A.10; S. 86: A.12; S. 93: A.5)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S. 84: A.1)
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.88: A.1, 2; S. 95: A.3)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen und sich darüber mit anderen austauschen (S. 84: A.6)
+Potenzen mit negativen Exponenten		
+Standardschreibweise		
+LVL: Moleküle und Atome		
+LVL: Multiplikation und Division von Potenzen		
+Potenzgesetze		
+n-te Wurzel		
+Potenzfunktionen*		
+Wurzelfunktionen*		
+LVL: Irrationale Zahlen*		
+Potenzen mit gebrochenen Exponenten		
+Potenzgleichungen*		
+
+5 Trigonometrie
+
+    • Winkel und deren Sinus, Kosinus und Tangens im Einheitskreis berechnen; Seitenverhältnisse in ähnlichen rechtwinkligen Dreiecken mit Sinus etc. in Zusammenhang bringen
+    • Trigonometrische Berechnungen in rechtwinkligen Dreiecken, Flächen, Körpern und in Anwendungsaufgaben durchführen; prozentuale Steigung und Steigungswinkel in Beziehung setzen
+    • Sinus- und Kosinussatz herleiten und Berechnungen in Sachsituationen anstellen; Einfluss der Parameter der allgemeinen Sinusfunktion untersuchen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenz
+LVL: Winkel im Einheitskreis, Winkelfunktion Sinus (sin)	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen darstellen (auch reelle Zahlen)
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben (auch im Bereich der reellen Zahlen)
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch im Bereich der reellen Zahlen)
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten systematisch beschreiben (auch Winkel im Grad- und Bogenmaß)*
+    • Größen messen und Maße aus Darstellungen entnehmen
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei Pyramiden, Kegeln und Kugeln sowie zusammengesetzten Körpern und auch mithilfe trigonometrischer Beziehungen)
+
+Raum und Form:
+Geometrische Objekte:
+    • Beziehungen zwischen geometrischen Objekten für Argumentationen nutzen
+
+
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für potenzielle und exponentielle Zusammenhänge)*
+    • Gleichungen (auch Potenzgleichungen mit rationalen Exponenten und Exponentialgleichungen) und lineare Gleichungssysteme lösen*
+    • Zuordnungen und Funktionen:
+    • Eigenschaften von Funktionen beschreiben (auch quadratische und trigonometrische Funktionen sowie Exponentialfunktionen)
+    • zwischen verschiedenen Darstellungen von Funktionen wechseln (auch quadratische und trigonometrische Funktionen sowie Exponential-funktionen)	Mathematisch argumentieren
+    • die Plausibilität von Vermutungen begründen (S. 104: A.2, 3; S. 109: A.4b)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S. 105: A.2, 4; S. 113: A. 6)
+    • Fehler erkennen, beschreiben und korrigieren (S. 107: A.6; S. 115: A.2a)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S. 117: A.1 – 4)
+    • mehrschrittige Argumentationen zur Begründung und zum
+    • Beweisen mathematischer Aussagen entwickeln (S. 119: A.2; S. 121: A.1)
+
+Probleme mathematisch lösen
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen 
+(S. 103: A.1 – 3; S. 113: A.1 – 4)
+    • Probleme selbst formulieren (S. 105: A.2a)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S. 107: A. 8)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S. 112: A.1 – 7)
+    • Lösungswege reflektieren (S. 113: A.5b; S. 117: A.1 – 4)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S. 114 – 115: A.1 – 3)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S. 106: A.5; S. 107: A.11 – 14)
+    • reale Situationen mit mathematischen Modellen beschreiben (S. 110: A.1 – 5; S.111: A.6 – 13; 
+S. 118: A.3 – 5)
+
+Mathematische Darstellungen verwenden
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S. 109: A. 5, 6)
+
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S. 103: A.1, 3; S. 114: A.3c; S. 123: A.1, 2)
+    • mathematische Verfahren routiniert ausführen (S. 106: A.1 – 4)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen (S. 107: A. 9; S. 114: A.1a; S. 124: A.1 - 3)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S. 115: A. 3; S. 123: A.3, 5)
+
+Mathematisch kommunizieren
+    • eigene Vorgehensweisen beschreiben, Lösungswege anderer nachvollziehen und gemeinsam Lösungswege reflektieren (S.102: A.1 – 5; S. 113: A.5a)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S. 102: A.1 – 5; 
+S. 117: A.1 – 4)
+    • Aufgaben gemeinsam bearbeiten (S. 108: A.22)
+LVL: Kosinus (cos) und Tangens (tan)		
+Die Winkelfunktionen		
+Winkelfunktionen im rechtwinkligen Dreieck		
+Trigonometrische Berechnungen an rechtwinkligen Dreiecken		
+Trigonometrie bei Flächen und Körpern		
+LVL: Steigung in Prozent		
+Steigungswinkel einer Geraden		
+WAV: Wissen – Anwenden – Vernetzen		
+Überprüfung von Konstruktionsergebnissen durch Rechnung		
+Berechnungen in beliebigen Dreiecken		
+Sinussatz		
+Kosinussatz*		
+Bogenmaß*		
+Periodische Vorgänge*		
+
+6 Zinseszinsrechnung, Wachstum, Exponentialfunktionen
+
+    • Wiederholung: Zinsrechnung (auch mit Tabellenkalkulation); Zinseszinsen berechnen (auch Zinsfaktor und -satz); Zinseszinsrechnung bei Altersvorsorge anwenden
+    • Wachstum und Zerfall (linear, quadratisch und insbesondere exponentiell) beschreiben und vergleichen
+    • Exponentialfunktionen charakterisieren; Exponenten mithilfe des Logarithmus zu Wachstums- und Zerfallsvorgängen bestimmen
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenz
+Zinsrechnung	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen sachgerecht darstellen*
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben (auch beim Rechnen mit Potenzen mit rationalen Exponenten)*
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch beim Rechnen mit Potenzen mit rationalen Exponenten)*
+
+Größen und Messen
+Größenvorstellungen und Messen:
+    • die verschiedenen Größen und ihre Einheiten systematisch beschreiben
+Rechnen mit Größen:
+    • mit Größenangaben rechnen (auch bei ausgewählten Pyramiden und zusammengesetzten geometrischen Objekten)
+
+
+
+
+
+
+
+
+
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für potenzielle und exponentielle Zusammenhänge)*
+    • Gleichungen (auch Potenzgleichungen mit rationalen Exponenten und Exponentialgleichungen) und lineare Gleichungssysteme lösen*
+Zuordnungen und Funktionen:
+    • Eigenschaften von Funktionen beschreiben (auch Potenz-, Exponential- und ausgewählte ganzrationale Funktionen) und Umkehrfunktionen angeben*
+    • unterschiedliche Darstellungen von Funktionen (auch Potenz- und Exponentialfunktionen) interpretieren und zwischen ihnen wechseln*
+	Mathematisch argumentieren
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S. 131: A.9c; S. 144: A.1b)
+    • Begründungen nachvollziehen und zunehmend selbstständig entwickeln (S. 137: A.3a)
+    • die Plausibilität von Vermutungen begründen (S. 137: A.3c; S. 144: A.2c)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S. 137: A.3d; S. 144: A.8)
+
+Probleme mathematisch lösen
+    • Probleme selbst formulieren (S. 129: A.1b, 6c; S. 139: A. 2b)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S. 132: A.2 – 6; S. 141: A.1 – 4)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S. 133: A.1 – 2; S. 138: A.15 – 16; S. 146: A.1 – 4)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen 
+(S. 141: A.1 – 4; S. 145: A.1 – 4)
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S. 143: A.1 – 4)
+
+Mathematisch modellieren
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S. 131: A.6 – 11; S. 135: A.2 – 3)
+    • reale Situationen mit mathematischen Modellen beschreiben (S. 135: A.1; S. 137: A.8 – 10; 
+S. 139: A.2a)
+    • zu einem mathematischen Modell verschiedene Realsituationen angeben (S.136: A. 2a; S. 140: A. 8)
+    • verwendete Modelle reflektieren (S.140: A.6, 7c)
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S. 140: A.7a, b)
+
+Mathematische Darstellungen verwenden
+    • zwischen verschiedenen Darstellungen und Darstellungsebenen wechseln (übersetzen) (S. 130: A.1)
+
+
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • mathematische Verfahren routiniert ausführen (S.128: A.1 – 7)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen 
+(S. 129: A.1, 2, 4b, 6; S. 140: A.7c)
+    • Tabellen, Terme, Gleichungen und Diagramme zur Beschreibung von Sachverhalten nutzen 
+(S. 130: A.3, 4; S. 131: A.9; S. 132: A.1; S. 137: A.6)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S.131: A.9; S. 136: A.1 – 2)
+
+Mathematisch kommunizieren
+    • Aufgaben gemeinsam bearbeiten (S.130: A.1)
+    • eigene Problembearbeitungen und Einsichten dokumentieren und darstellen (S. 133: A.1 – 2)
+Regelmäßige Ein- und Auszahlungen mit Tabellenkalkulation		
+Zinseszinsrechnung		
+Berechnung des Zinsfaktors q und des Zinssatzes p%		
+LVL: Altersvorsorge		
+LVL: Wachstum und Veränderung		
+Exponentielles Wachstum und exponentieller Zerfall		
+Lineares, quadratisches und exponentielles Wachstum		
+LVL: Exponentialfunktion		
+Exponentialfunktion		
+LVL: Exponent gesucht*		
+Logarithmus*		
+Berechnung des Exponenten bei exponentiellem Wachstum oder Zerfall*		
+LVL: Weltbevölkerung*		
+
+7 Daten und Zufall
+
+    • Diagramme kritisch bewerten; statistische Kenndaten wiederholen und bei eigenen statistischen Erhebungen anwenden
+    • Wahrscheinlichkeiten bei mehrstufigen Zufallsexperimenten berechnen
+    • Kombinatorische Grundformeln herleiten und anwenden
+
+Thema	Inhaltsbezogene Kompetenzen	Prozessbezogene Kompetenz 
+LVL: Grafische Darstellungen	Zahlen und Operationen
+Zahlvorstellungen:
+    • Zahlen sachgerecht darstellen*
+Operationsvorstellungen und Rechenstrategien:
+    • Zusammenhänge zwischen den Rechenoperationen beschreiben
+    • (auch beim Rechnen mit Potenzen mit rationalen Exponenten)*
+    • Rechenstrategien, -verfahren, -regeln und -gesetze nutzen (auch beim Rechnen mit Potenzen mit rationalen Exponenten)*
+
+Gleichungen und Funktionen
+Terme und Gleichungen:
+    • Terme und Gleichungen darstellen (auch für potenzielle und exponentielle Zusammenhänge)*
+    • Gleichungen (auch Potenzgleichungen mit rationalen Exponenten und Exponentialgleichungen) und lineare Gleichungssysteme lösen*
+Zuordnungen und Funktionen:
+    • Eigenschaften von Funktionen beschreiben (auch Potenz-, Exponential- und ausgewählte ganzrationale Funktionen) und Umkehrfunktionen angeben*
+    • unterschiedliche Darstellungen von Funktionen (auch Potenz- und Exponentialfunktionen) interpretieren und zwischen ihnen wechseln*
+Daten und Zufall
+Daten:
+    • statistische Erhebungen unter Nutzung von technischen Medien planen und durchführen
+    • Daten präsentieren
+    • statistische Erhebungen kritisch bewerten
+Zählstrategien und Wahrscheinlichkeiten:
+    • kombinatorische Überlegungen zur Berechnung von Wahrscheinlichkeiten nutzen
+    • Wahrscheinlichkeiten von Ereignissen bestimmen (auch bei mehrstufigen Zufallsexperimenten)	Mathematisch argumentieren
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S. 150: A.3a)
+    • Fehler erkennen, beschreiben und korrigieren (S. 150: A.3)
+    • Zusammenhänge und Strukturen erkennen und Vermutungen zu mathematischen Situationen aufstellen (S. 152: A.3c; S. 161: A.1 – 4)
+    • mathematische Aussagen hinterfragen und auf Korrektheit prüfen (S. 152: A.4b)
+    • die Plausibilität von Vermutungen begründen (S. 153: A.7a)
+
+Probleme mathematisch lösen
+    • Lösungsstrategien (z. B. vom Probieren zum systematischen Probieren) entwickeln und nutzen 
+(S. 153: A.6c)
+    • Probleme selbst formulieren (S. 155: A.2b – c, 3)
+    • Aufgaben bearbeiten, zu denen sie noch keine Routinestrategie haben (sich zu helfen wissen) 
+(S. 156 – 157: A.1 – 3)
+    • mathematische Kenntnisse, Fähigkeiten und Fertigkeiten bei der Bearbeitung von Problemen anwenden (S. 156 – 157: A.1 – 3; S. 164 – 165: A.1 – 10)
+    • Zusammenhänge erkennen und Lösungsstrategien auf ähnliche Sachverhalte übertragen (S. 159: A.1; S. 162: A.2)
+    • heuristische Hilfsmittel zum Problemlösen anwenden (S. 163: A.9)
+
+Mathematisch modellieren
+    • mathematische Lösungen in Bezug auf die Ausgangssituation prüfen und interpretieren (S. 152: A.3b; 
+S. 154: A.1f)
+    • relevante Informationen aus Sachtexten und anderen Darstellungen entnehmen (S. 156: A.1)
+    • Sachsituationen in die Sprache der Mathematik übersetzen und entsprechende Aufgaben innermathematisch lösen (S. 160: A.3 – 10; S. 163: A.10 – 16)
+
+
+
+
+
+
+Mathematische Darstellungen verwenden
+    • Darstellungen bewerten oder interpretieren (S. 150: A. 1 – 3)
+    • Darstellungen zielgerichtet verändern (S. 150: A.1c, 3b)
+    • eine Darstellung in eine andere übertragen (S. 151: A.4)
+    • verschiedene Darstellungen vergleichen (S. 151: A.6c; S. 153: A.6a)
+    • geeignete Darstellungen für das Bearbeiten mathematischer Sachverhalte und Probleme auswählen, nutzen und entwickeln (S. 152: A.2; S. 155: A.2d)
+
+Mit symbolischen, formalen, technischen Elementen der Mathematik umgehen
+    • symbolische und formale Sprache in natürliche Sprache über-setzen und umgekehrt 
+(S. 150: A.2; S. 153: A.7b)
+    • mathematische Hilfsmittel und Werkzeuge sachgerecht auswählen und flexibel einsetzen 
+(S. 154: A.1a – e)
+    • Variablen und Funktionen zur Bearbeitung von Aufgaben nutzen (S. 156: A.1b, d; S. 157: A.2b, e)
+
+Mathematisch kommunizieren
+    • mathematische Fachbegriffe und Zeichen bei der Beschreibung und Dokumentation von Lösungswegen sachgerecht verwenden (S. 152: A.1)
+    • Aufgaben gemeinsam bearbeiten (S. 155: A.2, 3)
+LVL: Mittelwert, Median, Spannweite und Boxplots		
+LVL: Statistische Erhebungen planen und durchführen		
+WAV: Wissen – Anwenden – Vernetzen		
+Mehrstufige Zufallsversuche und Pfadregel		
+LVL: Kombinieren und Variieren		
+Kombination und Variation		
+LVL: Lotto „6 aus 49“

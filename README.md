@@ -267,6 +267,9 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-iqb-operatoren-2019.txt` – IQB, Grundstock von Operatoren, Stand 2019, © IQB.
 - `quelle-iqb-vereinbarungen-2022.txt` – IQB, Inhaltliche Vereinbarungen zur Gestaltung der Aufgaben, Stand 2022, © IQB.
 - `quelle-iqb-struktur-2024.txt` – IQB, Beschreibung der Struktur der Aufgaben, Stand 2024, © IQB.
+- `quelle-westermann-elemente-der-mathematik-bb-2016.txt` – Stoffverteilungspläne Elemente der Mathematik SI, Ausgabe 2016 für Berlin/Brandenburg, Klasse 5–9.
+- `quelle-westermann-sekundo-bb-2017.txt` – Stoffverteilungspläne Sekundo, Ausgabe 2017 für Berlin und Brandenburg, Klasse 7–10.
+- `lehrwerke-fundliste.md` – Fundliste der Stoffverteilungspläne/Synopsen für Landesausgaben BE/BB (Auftrag Nacht, Teil 2, 24.09.2026): je Lehrwerk gefunden/nicht gefunden/nicht frei verfügbar.
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
 und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.

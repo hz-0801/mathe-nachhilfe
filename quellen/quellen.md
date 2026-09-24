@@ -133,6 +133,48 @@ IQB, Beschreibung der Struktur der Aufgaben, Mathematik, Stand
 
 Quelle: https://www.iqb.hu-berlin.de/media/documents/M_Beschreibung_der_Struktur_der_Aufgaben.pdf
 
+## Lehrwerke Landesausgaben BE/BB, Sekundarstufe I (abgelegt 24.09.2026)
+
+Auftrag Nacht, Teil 2 (24.09.2026): frei zugängliche Stoffverteilungspläne der
+Landesausgaben Berlin/Brandenburg, Klasse 5–10 bzw. 7–10, als Grundlage für die
+Lehrwerkfrage im Themenkatalog (bisher nur [LS-AA], Lambacher Schweizer).
+Fundliste mit allen geprüften Werken (auch die nicht gefundenen):
+`quellen/lehrwerke-fundliste.md`.
+
+## quelle-westermann-elemente-der-mathematik-bb-2016.txt  [EDM-BB]
+
+Westermann, „Elemente der Mathematik SI – Ausgabe 2016 für Berlin/Brandenburg“,
+Stoffverteilungspläne Klasse 5–9 (fünf Einzeldateien, hintereinander mit
+Trennzeile „Klasse n“). Auf Basis des Rahmenlehrplans (Vorgängerfassung vor
+2023). © Westermann – Gliederung als Beleg, keine Aufgaben.
+
+Achtung: Klasse 5 stammt aus einer PDF-Datei (`pdftotext -layout`), Klasse
+6–9 aus DOCX-Dateien (mit LibreOffice nach Text gewandelt, Ausgabe war
+Windows-1252 und wurde nach UTF-8 rückkonvertiert).
+
+Quelle je Klasse (Downloadadresse leitet auf eine PDF- bzw. DOCX-Datei um):
+- Kl. 5: https://www.westermann.de/backend/anlage/herunterladen/4595420
+- Kl. 6: https://www.westermann.de/backend/anlage/herunterladen/4594509
+- Kl. 7: https://www.westermann.de/backend/anlage/herunterladen/4585710
+- Kl. 8: https://www.westermann.de/backend/anlage/herunterladen/4587893
+- Kl. 9: https://www.westermann.de/backend/anlage/herunterladen/4596042
+
+## quelle-westermann-sekundo-bb-2017.txt  [SEKUNDO-BB]
+
+Westermann, „Sekundo – Mathematik für differenzierende Schulformen, Ausgabe
+2017 für Berlin und Brandenburg“, Stoffverteilungspläne Klasse 7–10 (vier
+Einzeldateien, hintereinander mit Trennzeile „Klasse n"). © Westermann –
+Gliederung als Beleg, keine Aufgaben.
+
+Achtung: alle vier Dateien sind Word-97-2003-Dateien (.doc, Windows-1252),
+mit LibreOffice nach Text gewandelt und nach UTF-8 rückkonvertiert.
+
+Quelle je Klasse (Downloadadresse leitet auf eine DOC-Datei um):
+- Kl. 7: https://www.westermann.de/backend/anlage/herunterladen/4623963
+- Kl. 8: https://www.westermann.de/backend/anlage/herunterladen/4623964
+- Kl. 9: https://www.westermann.de/backend/anlage/herunterladen/4623965
+- Kl. 10: https://www.westermann.de/backend/anlage/herunterladen/4623966
+
 ## Noch nicht abgelegt
 
 - [MzDuF] LISUM, „Material zur Diagnose und Förderung im Mathematikunterricht“,
