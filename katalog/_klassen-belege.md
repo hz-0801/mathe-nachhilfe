@@ -1,0 +1,4569 @@
+# Klassenbelege je Lerneinheit aus den Lehrwerken (Sekundarstufe I)
+Stand 2026-09-25, Katalog auf Commit ba8ccd3 (letzte Änderung an den 29 Einträgen: 7718c4c vom 2026-09-22).
+Erzeugt im Auftrag `archiv/auftrag-nacht-2026-09-25.md` (Teil 2) aus den 29 Sek-I-Einträgen (`katalog/index.md`, Tabelle Sekundarstufe I) und den Inhaltsverzeichnissen der Regelreihen und Förderhefte unter `quellen/`; abgeleitet, nie von Hand ändern. Vorschlagsliste für die Zeitachse (`ziel.md` § 1): in welcher Klasse die Lehrwerke der Oberschule und die des Gymnasiums eine Lerneinheit führen – am Typ, wo ein Verzeichnis ihn nennt, sonst an der Einheit –, samt Verlagsmarken für „nicht für alle“ und den Förderheften. Kein Eintrag wird geändert, nichts wird entschieden; „keine Stelle“ ist ein Ergebnis, kein Mangel.
+
+Verzeichnisse (Dateien unter `quellen/`, Klassenumfang):
+- Oberschule (OS):
+  - Sekundo (Westermann, Ausgabe 2017 Berlin/Brandenburg): `quelle-westermann-sekundo-bb-2017-inhalt.txt`, Kl. 7–10. Bände 5/6 sind für BE/BB nicht erschienen (`quellen/lehrwerke-fundliste.md` Teil 3).
+  - Mathematik 2023 (Westermann, BE/BB/ST/TH): `quelle-westermann-mathematik2023-bebbstth-inhalt.txt`, Kl. 7–10, und `quelle-westermann-mathematik2022-bebbstth-kl5-6-inhalt.txt`, Kl. 5–6 (Ausgabe 2022 derselben Reihe).
+  - Schnittpunkt Mathematik (Klett, Differenzierende Ausgabe ab 2017): `quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt`, Kl. 7–10, und `quelle-klett-schnittpunkt-mathematik-diff2017-kl5-6-inhalt.txt`, Kl. 5–6.
+  - Mathematik heute (Westermann, BE/BB): `quelle-westermann-mathematikheute-bebb-inhalt.txt`, Kl. 7–10, und `quelle-westermann-mathematikheute-bebb-kl5-6-inhalt.txt`, Kl. 5–6 (Ausgabe 2014 für die Grundschule; Kl. 5 aus dem Lösungsband, die Seiten sind die des Lösungsbands).
+- Gymnasium (GYM):
+  - Lambacher Schweizer (Klett): `quelle-klett-fahrplan-ls-aa-berlin-2024.txt`, Kl. 5–10, Kapitel und Lerneinheiten ohne Seiten (Kapitelübersicht Zeilen 21–244; Klasse 5: 21–78, 6: 79–113, 7: 114–144, 8: 145–177, 9: 178–213, 10: 214–244). Eine Landesausgabe BE/BB mit Inhaltsverzeichnis gibt es in der DNB nicht (Teil 1 des Auftrags); der Fahrplan gilt als Verzeichnis.
+  - Fundamente der Mathematik (Cornelsen, Ausgabe B 2024): `quelle-cornelsen-fundamente-bb-ausgabeb2024-inhalt.txt`, Kl. 7–10, und `quelle-cornelsen-fundamente-bb-ausgabeb2024-kl5-6-inhalt.txt`, Kl. 5–6.
+  - Fundamente der Mathematik, Ausgabe B 2017 (Vorgängerausgabe): `quelle-cornelsen-fundamente-bb-ausgabeb2017-inhalt.txt`, Kl. 7–10 – Nebenquelle: ihre Zeilen stehen da, sie zählt nicht in Zusammenfassung, Spanne, Boden und Zahlenblock.
+  - Elemente der Mathematik (Westermann, Brandenburg): `quelle-westermann-elemente-der-mathematik-bb-2016u2025-inhalt.txt`, Ausgabe 2016 Kl. 7–10 und Ausgabe 2025 Kl. 5–7 (Klasse 7 aus beiden Ausgaben).
+  - mathe.delta (C.C. Buchner, Berlin/Brandenburg ab 2016): `quelle-buchner-mathedelta-bb-2016-inhalt.txt`, Kl. 7–10; Bände 5/6 nicht erschienen. Kl. 8 Kapitel 5–6 nur aus dem Stoffverteilungsplan des Verlags (ohne Seiten; das DNB-Verzeichnis endet mit Kapitel 4). Die Reihe fehlt in der Aufzählung des Auftrags und ist als vierte Gymnasialreihe aufgenommen (Teil 1).
+- Förderhefte (Sorte „Förderheft“ in `quellen/foerderhefte-fundliste.md`): Sekundo `quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt`, Kl. 5–9; Schnittpunkt `quelle-klett-schnittpunkt-foerder-diff2017-inhalt.txt`, Kl. 5–10; Mathematik 2023 `quelle-westermann-mathematik2023-foerder-bebbstth-inhalt.txt`, Kl. 7–9; Mathematik heute „Diagnose und Fördern“ `quelle-westermann-mathematikheute-diagnoseundfoerdern-inhalt.txt`, Kl. 7–10 (nur Themenblöcke des Schülerbands).
+- Stoffverteilungsplan als Gegenprobe: `quelle-westermann-sekundo-bb-2017.txt` [SEKUNDO-BB] für das Zusatzstoff-Kennzeichen „*“ (Zeilen 14, 643, 1310, 2064: „Zusatzstoff … gekennzeichnet (*)“).
+
+Lesart:
+- Eine Lerneinheit ist einer Reihe zugeordnet, wenn eine Kapitel- oder Unterkapitelzeile eines Verzeichnisses ihren Inhalt nennt; maßgeblich ist der Inhalt, nicht der Wortlaut. Das Zitat ist die Verzeichniszeile wortgleich aus der Quelldatei, auch mit deren Trennfugen und Erkennungsfehlern (etwa „Thaies“ für „Thales“); nur Führungspunkte, Seitenzahl und Leerraum sind herausgenommen, eine umbrochene Zeile ist zusammengesetzt. „S.“ ist die Seite laut Verzeichnis, „Z.“ die Zeilennummer der Quelldatei (zwei Nummern bei umbrochener Zeile). Beim Lambacher Schweizer steht die Kapitelzeile vor der Lerneinheit: „Kapitel …“ (Z.) › „Lerneinheit“ (Z.).
+- Führt eine Reihe den Inhalt in mehreren Klassen (Einführung, Erweiterung, Wiederaufnahme, wortgleiches Kapitel in zwei Bänden), stehen alle Stellen da.
+- Typzeile „Typ: <Typname> – <Reihe> Kl. n, S. x: „<Zeile>““, wenn die Zeile einen einzelnen Typ der Einheit nennt; der Typname ist wortgleich aus „Typen je Lerneinheit“ des Eintrags und wurde beim Bau dort nachgeschlagen.
+- Marken: jede zitierte Zeile, die mit einem Markenwort beginnt (LVL, Vertiefen, Üben, EXTRA, Streifzug, Exkursion, Themenseite, Werkzeug, Mathematisch arbeiten, Mit Medien arbeiten, Arbeiten mit dem Computer, Im Blickpunkt, Projekt, Wissen kompakt, Bleib fit, Diagnosetest, Training, Vertiefung, Sonderfälle) oder „Zum Selbstlernen“ bzw. „Wiederholung“ enthält; dazu Kennzeichen außerhalb der Zeile: ein Kapitel, das sich als Wiederholung ausweist; Zeichen vor der Zeile, die das Verzeichnis nicht erklärt („Symbolzeichen“, Sekundo und Elemente); das Zusatzstoff-Kennzeichen „*“ aus [SEKUNDO-BB] mit Zeile; „(fakultativ)“ im Stoffverteilungsplan von mathe.delta.
+- „keine Stelle“ mit Grund: Sek-II-Einheit; Thema liegt vor dem ersten Band (Reihe beginnt in Klasse 7, andere Reihen führen es früher); sonst führt die Reihe das Thema in keinem Band als Kapitel- oder Unterkapitelzeile. Kein Verzeichnis war für eine Klasse als Ganzes unlesbar, „nicht lesbar“ kommt deshalb nicht vor; verstümmelte Einzelzeilen (Texterkennung) sind wortgleich zitiert und mit „Ermessen:“ gelesen.
+- Förderheft: je Stelle eine Zeile mit der Seite des Förderhefts; „Förderheft: keine Stelle“, wenn keines der vier Hefte die Einheit nennt. Mathematik heute „Diagnose und Fördern“ gliedert nur nach Themenblöcken; ein Block ist den Einheiten zugeordnet, die sein Titel nennt (deckt der Titel das ganze Thema des Eintrags, allen Sek-I-Einheiten), das ist Ermessen und steht je Block einmal in der Ermessensliste des Eintrags. Der Block „Ebene Geometrie (Schülerband Seite 72 bis 113)“ (Kl. 8, Z. 46) nennt keinen Inhalt einer Einheit und ist nicht zugeordnet.
+- Zusammenfassung je Einheit: Einführungsklasse einer Reihe ist die kleinste Klasse mit Stelle. „OS: Kl. n“ bzw. „GYM: Kl. n“, wenn alle Reihen der Schulform in derselben Klasse einführen, sonst die Spanne („Kl. 9–10“) mit dem Grund (welche Reihen später einführen); in Klammern alle Klassen je Reihe, „–“ ohne Stelle. Sekundo und mathe.delta beginnen in Klasse 7: ihre 7 zählt nicht in die Spanne, wenn eine andere Reihe derselben Schulform früher einführt (erster Band, keine spätere Einführung), und steht dann als „nicht in die Spanne gerechnet“.
+- Spanne OS/GYM je Eintrag: ja, wenn für mindestens eine Einheit die Angabe „OS: Kl. …“ und die Angabe „GYM: Kl. …“ verschieden sind (Einheiten mit Stelle nur in einer Schulform zählen nicht); in Klammern die Einheiten, „ohne gemeinsame Klasse“ markiert die, bei denen sich OS- und GYM-Angabe nicht überschneiden.
+- Boden je Eintrag: ja, wenn eine Einheit in einer Regelreihe schon in Klasse 5 oder 6 steht.
+- „Ermessen:“ steht an der Zeile, deren Zuordnung eine Auslegung verlangt, und gesammelt am Schluss des Eintrags; Einträge ohne Einzelstelle („Ermessen:“ direkt unter der Einheit) betreffen die ganze Einheit.
+- Reihenfolge der Abschnitte wie die Tabelle Sekundarstufe I in `katalog/index.md`; Verortung = erster Satz des Abschnitts „### Verortung“, der eine Klasse nennt.
+
+## Zahlen
+Einträge gesamt: 29 (die 29 Sek-I-Einträge aus `katalog/index.md`, Tabelle Sekundarstufe I).
+Lerneinheiten gesamt: 116; mit mindestens einer Stelle in einer OS-Reihe: 116, in einer GYM-Reihe: 115, in beiden: 115, in keiner: 0. Ohne GYM-Stelle: einheiten 4. Mit Größen rechnen im Sachzusammenhang.
+Einträge mit Spanne OS/GYM ja: 26 (brueche-dezimalzahlen, bruchrechnung, rationale-zahlen, prozentrechnung, zinsrechnung, potenzen-wurzeln, reelle-zahlen, flaechen, kreis, koerper, pyramide-kegel-kugel, trigonometrie, winkel-dreiecke, symmetrie-abbildungen, strahlensaetze, zuordnungen, terme, lineare-gleichungen, lineare-gleichungssysteme, binomische-formeln, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen, trigonometrische-funktionen, daten, wahrscheinlichkeit); davon mit mindestens einer Einheit ohne gemeinsame Klasse: 6 (zinsrechnung, lineare-gleichungssysteme, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen, daten).
+Einträge mit Spanne OS/GYM nein: 3 (einheiten, pythagoras, lineare-funktionen).
+Einheiten mit verschiedener OS- und GYM-Angabe: 73.
+Einträge mit Boden ja: 17 (brueche-dezimalzahlen, bruchrechnung, rationale-zahlen, prozentrechnung, potenzen-wurzeln, einheiten, flaechen, kreis, koerper, winkel-dreiecke, symmetrie-abbildungen, strahlensaetze, zuordnungen, terme, lineare-gleichungen, daten, wahrscheinlichkeit).
+Einträge mit Boden nein: 12 (zinsrechnung, reelle-zahlen, pyramide-kegel-kugel, pythagoras, trigonometrie, lineare-funktionen, lineare-gleichungssysteme, binomische-formeln, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen, trigonometrische-funktionen).
+Typzeilen gesamt: 649.
+Ermessensfälle gesamt: 250 in 29 Einträgen (brueche-dezimalzahlen 8, bruchrechnung 1, rationale-zahlen 10, prozentrechnung 11, zinsrechnung 9, potenzen-wurzeln 4, reelle-zahlen 5, einheiten 2, flaechen 10, kreis 14, koerper 9, pyramide-kegel-kugel 1, pythagoras 6, trigonometrie 15, winkel-dreiecke 10, symmetrie-abbildungen 2, strahlensaetze 10, zuordnungen 4, terme 9, lineare-gleichungen 13, lineare-funktionen 7, lineare-gleichungssysteme 6, binomische-formeln 3, quadratische-funktionen 9, quadratische-gleichungen 12, potenz-exponentialfunktionen 13, trigonometrische-funktionen 6, daten 28, wahrscheinlichkeit 13).
+Förderheftzeilen gesamt: 401; Einheiten mit mindestens einer Förderheftstelle: 112 von 116.
+Verlagsmarken (Nennungen): LVL 52, EXTRA 29, Symbolzeichen 27, Vertiefen 22, Wiederholung 21, Zum Selbstlernen 16, Üben 15, Zusatzstoff (*) 15, Streifzug 14, Im Blickpunkt 4, Arbeiten mit dem Computer 3, Sonderfälle 3, fakultativ 2.
+Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 Förderheftzuordnungen, 649 Typnamen.
+
+### brueche-dezimalzahlen – Klasse 5/6, Stufe D (in Berlin/Brandenburg Grundschule; für die Oberschule 7–8 regulär, am Gymnasium Wiederholung in Kl. 7 vor den rationalen Zahlen).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Bruch als Anteil
+  - Sekundo Kl. 7, S. 8: „Bruchteile von Größen“ (Z. 52)
+  - Mathematik 2023 Kl. 5, S. 155: „Bruchteile“ (Z. 131)
+  - Mathematik 2023 Kl. 5, S. 158: „Brüche durch Falten darstellen“ (Z. 132)
+  - Mathematik 2023 Kl. 5, S. 159: „Brüche mit dem Geobrett darstellen“ (Z. 133)
+  - Mathematik 2023 Kl. 5, S. 168: „Bruchteile von Größen“ (Z. 141)
+  - Mathematik 2023 Kl. 5, S. 169: „Das Ganze bestimmen“ (Z. 142)
+  - Mathematik 2023 Kl. 6, S. 50: „Bruchteile berechnen“ (Z. 219)
+  - Mathematik 2023 Kl. 6, S. 24: „Brüche darstellen“ (Z. 233)
+  - Mathematik 2023 Kl. 6, S. 25: „Brüche durch Falten darstellen“ (Z. 234)
+  - Schnittpunkt Kl. 5, S. 226: „1 Bruchteile erkennen und darstellen“ (Z. 157)
+  - Schnittpunkt Kl. 5, S. 230: „2 Bruchteile von Größen“ (Z. 158)
+  - Schnittpunkt Kl. 6, S. 19: „5 Brüche“ (Z. 184)
+  - Schnittpunkt Kl. 6, S. 32: „9 Brüche und Größen“ (Z. 188)
+    Ermessen: „Brüche und Größen“ als Bruchteile von Größen gelesen.
+  - Mathematik heute Kl. 5, S. 77 (Seite des Lösungsbands): „Teile von Ganzen - Brüche“ (Z. 52)
+  - Mathematik heute Kl. 5, S. 84 (Seite des Lösungsbands): „Bestimmen eines Teils einer beliebigen Größe“ (Z. 55, 56)
+  - Mathematik heute Kl. 6, S. 10: „Brüche“ (Z. 118)
+    Ermessen: „Brüche“ als Wiederaufnahme von Bruch als Anteil gelesen.
+  - Mathematik heute Kl. 6, S. 15: „Anteile von beliebigen Größen - Drei Grund aufgaben“ (Z. 120, 121)
+  - LS Kl. 5: „Kapitel VI Brüche – das Ganze und seine Teile“ (Z. 52) › „1 Bruch und Anteil“ (Z. 54)
+  - LS Kl. 6: „Kapitel I Brüche – das Ganze und seine Teile“ (Z. 80) › „1 Bruch und Anteil“ (Z. 81)
+  - Fundamente Kl. 5, S. 196: „6.1 Brüche als Anteile von einem Ganzen“ (Z. 117)
+  - Fundamente Kl. 5, S. 210: „6.5 Größenanteilebestimmen“ (Z. 121)
+  - Fundamente Kl. 6, S. 8: „1.1 Brüche als Anteile von einem Ganzen“ (Z. 161)
+  - Fundamente Kl. 6, S. 22: „1.5 Größenanteilebestimmen“ (Z. 165)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 186: „9.1 Anteile mit Brüchen angeben“ (Z. 680)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 10: „1.1 Anteile mit Brüchen angeben“ (Z. 715)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 36: „2.1 Grundvorstellungen von Brüchen“ (Z. 731)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Bruchteil einer Menge oder Größe berechnen (Ganzes : Nenner · Zähler; auch mit Komma und Einheit) – Fundamente Kl. 5, S. 210: „6.5 Größenanteilebestimmen“
+  - Typ: Anteil einzeichnen (Kästchen, Streifen, Kreis) – Mathematik 2023 Kl. 5, S. 159: „Brüche mit dem Geobrett darstellen“
+  - Typ: Bruchteil einer Menge oder Größe berechnen (Ganzes : Nenner · Zähler; auch mit Komma und Einheit) – Mathematik 2023 Kl. 5, S. 168: „Bruchteile von Größen“
+  - Typ: Ganzes aus Bruchteil (Vorrat: ein Viertel sind 6 – wie viel ist alles) – Mathematik 2023 Kl. 5, S. 169: „Das Ganze bestimmen“
+  - Typ: Bruchteil einer Menge oder Größe berechnen (Ganzes : Nenner · Zähler; auch mit Komma und Einheit) – Mathematik 2023 Kl. 6, S. 50: „Bruchteile berechnen“
+  - Typ: Bruchteil einer Menge oder Größe berechnen (Ganzes : Nenner · Zähler; auch mit Komma und Einheit) – Mathematik heute Kl. 5, S. 84 (Seite des Lösungsbands): „Bestimmen eines Teils einer beliebigen Größe“
+  - Typ: Bruchteil einer Menge oder Größe berechnen (Ganzes : Nenner · Zähler; auch mit Komma und Einheit) – Sekundo Kl. 7, S. 8: „Bruchteile von Größen“
+  - Typ: Bruchteil einer Menge oder Größe berechnen (Ganzes : Nenner · Zähler; auch mit Komma und Einheit) – Schnittpunkt Kl. 5, S. 230: „2 Bruchteile von Größen“
+  - Marken: Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.1 Brüche als Anteile von einem Ganzen“; Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.5 Größenanteilebestimmen“
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 73: „Erkennen und Herstellen von Bruchteilen“ (Z. 120)
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 75: „Bruchteile von Größen“ (Z. 122)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 13: „Bruchteile vom Ganzen“ (Z. 324)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 2: „Bruchteile von Größen“ (Z. 132)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 49: „Bruchteile erkennen und darstellen“ (Z. 234)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 50: „Bruchteile von Größen“ (Z. 235)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 7: „Brüche“ (Z. 247)
+  - Ermessen: Elemente 2025 führt das Kapitel „Brüche“ mit denselben sieben Lerneinheiten in Band 5 (Kap. 9) und Band 6 (Kap. 1); beide Stellen stehen da (Einführungsklasse 5).
+  - Ermessen: Der LS-Fahrplan führt das Kapitel „Brüche – das Ganze und seine Teile“ mit denselben sechs Lerneinheiten in Kl. 5 (Kap. VI) und Kl. 6 (Kap. I); beide Stellen stehen da (Einführungsklasse 5).
+  - Ermessen: Mathematik heute Kl. 5: Das Schulbuch hat in der DNB kein Inhaltsverzeichnis; zitiert ist das Verzeichnis des Lösungsbands (gleiche Gliederung, Seiten des Lösungsbands).
+  - OS: Kl. 5 (Sekundo 7, Mathematik 2023 5, 6, Schnittpunkt 5, 6, Mathematik heute 5, 6); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 6, Fundamente 5, 6, Elemente 5, 6, mathe.delta –)
+- 2. Kürzen und Erweitern
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 160: „Verfeinern und Vergröbern“ (Z. 134)
+  - Mathematik 2023 Kl. 5, S. 162: „Erweitern und Kürzen“ (Z. 135)
+  - Mathematik 2023 Kl. 5, S. 164: „Gemischte Zahlen“ (Z. 137)
+  - Mathematik 2023 Kl. 6, S. 26: „Erweitern und Kürzen“ (Z. 235)
+  - Mathematik 2023 Kl. 6, S. 27: „Kürzen mithilfe von Teilbarkeitsregeln“ (Z. 237)
+    Ermessen: Kürzen mit Teilbarkeitsregeln als vollständiges Kürzen gelesen.
+  - Schnittpunkt Kl. 6, S. 26: „7 Erweitern und Kürzen“ (Z. 186)
+  - Mathematik heute Kl. 5, S. 85 (Seite des Lösungsbands): „Derselbe Anteil - Verschiedene Brüche“ (Z. 57, 58)
+    Ermessen: „Derselbe Anteil – verschiedene Brüche“ als gleichwertige Brüche (Erweitern/Kürzen) gelesen.
+  - Mathematik heute Kl. 6, S. 14: „Brüche als Quotienten natürlicher Zahlen“ (Z. 119)
+  - LS Kl. 5: „Kapitel VI Brüche – das Ganze und seine Teile“ (Z. 52) › „2 Kürzen und erweitern“ (Z. 56)
+  - LS Kl. 5: „Kapitel VI Brüche – das Ganze und seine Teile“ (Z. 52) › „5 Brüche als Quotienten“ (Z. 62)
+  - LS Kl. 6: „Kapitel I Brüche – das Ganze und seine Teile“ (Z. 80) › „2 Kürzen und erweitern“ (Z. 82)
+  - LS Kl. 6: „Kapitel I Brüche – das Ganze und seine Teile“ (Z. 80) › „5 Brüche als Quotienten“ (Z. 85)
+  - Fundamente Kl. 5, S. 200: „6.2 Brüche erweitern und kürzen“ (Z. 118)
+  - Fundamente Kl. 5, S. 206: „6.4 Brüche als Quotienten“ (Z. 120)
+  - Fundamente Kl. 6, S. 12: „1.2 Brüche erweitern und kürzen“ (Z. 162)
+  - Fundamente Kl. 6, S. 18: „1.4 Brüche als Quotienten“ (Z. 164)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 191: „9.2 Erweitern und Kürzen“ (Z. 681)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 197: „9.4 Gemischte Schreibweise“ (Z. 683)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 15: „1.2 Erweitern und Kürzen“ (Z. 716)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 21: „1.4 Gemischte Schreibweise“ (Z. 718)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: unechter Bruch ↔ gemischte Zahl – Elemente Kl. 5 (Ausgabe 2025), S. 197: „9.4 Gemischte Schreibweise“
+  - Typ: unechter Bruch ↔ gemischte Zahl – Elemente Kl. 6 (Ausgabe 2025), S. 21: „1.4 Gemischte Schreibweise“
+  - Typ: Bruch als Geteilt-Aufgabe (3 : 4 = 3/4, 5 : 2 = 2 1/2) – Fundamente Kl. 5, S. 206: „6.4 Brüche als Quotienten“
+  - Typ: Bruch als Geteilt-Aufgabe (3 : 4 = 3/4, 5 : 2 = 2 1/2) – LS Kl. 5: „5 Brüche als Quotienten“
+  - Typ: Bruch als Geteilt-Aufgabe (3 : 4 = 3/4, 5 : 2 = 2 1/2) – LS Kl. 6: „5 Brüche als Quotienten“
+  - Typ: unechter Bruch ↔ gemischte Zahl – Mathematik 2023 Kl. 5, S. 164: „Gemischte Zahlen“
+  - Typ: vollständig kürzen – Mathematik 2023 Kl. 6, S. 27: „Kürzen mithilfe von Teilbarkeitsregeln“
+  - Typ: gleichwertige Brüche am Streifen finden – Mathematik heute Kl. 5, S. 85 (Seite des Lösungsbands): „Derselbe Anteil - Verschiedene Brüche“
+  - Typ: Bruch als Geteilt-Aufgabe (3 : 4 = 3/4, 5 : 2 = 2 1/2) – Mathematik heute Kl. 6, S. 14: „Brüche als Quotienten natürlicher Zahlen“
+  - Marken: Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.2 Brüche erweitern und kürzen“; Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.4 Brüche als Quotienten“
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 76: „Ganze Zahlen und gemischte Zahlen“ (Z. 123)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 15: „Brüche größer als ein Ganzes“ (Z. 326)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 50: „Erweitern und Kürzen“ (Z. 365)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 9: „Erweitern und Kürzen“ (Z. 249)
+  - OS: Kl. 5–6 (Sekundo –, Mathematik 2023 5, 6, Schnittpunkt 6, Mathematik heute 5, 6); Streuung der Einführung: Schnittpunkt 6 später als Kl. 5
+  - GYM: Kl. 5 (LS 5, 6, Fundamente 5, 6, Elemente 5, 6, mathe.delta –)
+- 3. Brüche vergleichen
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 163: „Brüche vergleichen“ (Z. 136)
+  - Mathematik 2023 Kl. 5, S. 165: „Brüche am Zahlenstrahl“ (Z. 138)
+  - Mathematik 2023 Kl. 5, S. 173: „Vertiefen: Anteile bestimmen und vergleichen“ (Z. 145)
+  - Mathematik 2023 Kl. 6, S. 29: „Gebrochene Zahlen vergleichen“ (Z. 240)
+  - Mathematik 2023 Kl. 6, S. 30: „Gebrochene Zahlen am Zahlenstrahl darstellen“ (Z. 241, 242)
+  - Schnittpunkt Kl. 6, S. 23: „6 Brüche am Zahlenstrahl“ (Z. 185)
+  - Schnittpunkt Kl. 6, S. 29: „8 Brüche vergleichen und ordnen“ (Z. 187)
+  - Mathematik heute Kl. 5, S. 87 (Seite des Lösungsbands): „Darstellen von Brüchen auf dem Zahlenstrahl“ (Z. 59, 60)
+  - Mathematik heute Kl. 5, S. 88 (Seite des Lösungsbands): „Vergleichen und Ordnen von Brüchen“ (Z. 61, 62)
+  - LS Kl. 5: „Kapitel VI Brüche – das Ganze und seine Teile“ (Z. 52) › „3 Brüche vergleichen“ (Z. 58)
+  - LS Kl. 5: „Kapitel VI Brüche – das Ganze und seine Teile“ (Z. 52) › „6 Brüche auf dem Zahlenstrahl“ (Z. 64)
+  - LS Kl. 6: „Kapitel I Brüche – das Ganze und seine Teile“ (Z. 80) › „3 Brüche vergleichen“ (Z. 83)
+  - LS Kl. 6: „Kapitel I Brüche – das Ganze und seine Teile“ (Z. 80) › „6 Brüche auf dem Zahlenstrahl“ (Z. 86)
+  - Fundamente Kl. 5, S. 203: „6.3 Brüche vergleichen“ (Z. 119)
+  - Fundamente Kl. 5, S. 217: „6.7 Brüche am Zahlenstrahl“ (Z. 124)
+  - Fundamente Kl. 6, S. 15: „1.3 Brüche vergleichen“ (Z. 163)
+  - Fundamente Kl. 6, S. 29: „1.7 Brüche am Zahlenstrahl“ (Z. 168)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 194: „9.3 Brüche vergleichen“ (Z. 682)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 198: „9.5 Brüche auf dem Zahlenstrahl“ (Z. 684)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 18: „1.3 Brüche vergleichen“ (Z. 717)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 22: „1.5 Brüche auf dem Zahlenstrahl“ (Z. 719)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Brüche am Zahlenstrahl ablesen und eintragen (Skala in Vierteln, Zehnteln, Zwölfteln) – Elemente Kl. 5 (Ausgabe 2025), S. 198: „9.5 Brüche auf dem Zahlenstrahl“
+  - Typ: Brüche am Zahlenstrahl ablesen und eintragen (Skala in Vierteln, Zehnteln, Zwölfteln) – Fundamente Kl. 5, S. 217: „6.7 Brüche am Zahlenstrahl“
+  - Typ: Brüche am Zahlenstrahl ablesen und eintragen (Skala in Vierteln, Zehnteln, Zwölfteln) – LS Kl. 5: „6 Brüche auf dem Zahlenstrahl“
+  - Typ: Brüche am Zahlenstrahl ablesen und eintragen (Skala in Vierteln, Zehnteln, Zwölfteln) – LS Kl. 6: „6 Brüche auf dem Zahlenstrahl“
+  - Typ: Brüche am Zahlenstrahl ablesen und eintragen (Skala in Vierteln, Zehnteln, Zwölfteln) – Mathematik 2023 Kl. 5, S. 165: „Brüche am Zahlenstrahl“
+  - Typ: Anteile in Situationen vergleichen (Pizza, Download-Balken) – Mathematik 2023 Kl. 5, S. 173: „Vertiefen: Anteile bestimmen und vergleichen“
+  - Typ: Brüche am Zahlenstrahl ablesen und eintragen (Skala in Vierteln, Zehnteln, Zwölfteln) – Mathematik heute Kl. 5, S. 87 (Seite des Lösungsbands): „Darstellen von Brüchen auf dem Zahlenstrahl“
+  - Typ: Brüche am Zahlenstrahl ablesen und eintragen (Skala in Vierteln, Zehnteln, Zwölfteln) – Schnittpunkt Kl. 6, S. 23: „6 Brüche am Zahlenstrahl“
+  - Marken: Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.3 Brüche vergleichen“; Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.7 Brüche am Zahlenstrahl“; Mathematik 2023 Kl. 5: „Vertiefen: Anteile bestimmen und vergleichen“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 51: „Größenvergleich von Brüchen“ (Z. 366)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 8: „Brüche am Zahlenstrahl“ (Z. 248)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 10: „Brüche vergleichen und ordnen“ (Z. 250)
+  - OS: Kl. 5–6 (Sekundo –, Mathematik 2023 5, 6, Schnittpunkt 6, Mathematik heute 5); Streuung der Einführung: Schnittpunkt 6 später als Kl. 5
+  - GYM: Kl. 5 (LS 5, 6, Fundamente 5, 6, Elemente 5, 6, mathe.delta –)
+- 4. Dezimalzahlen
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 179: „Dezimalbrüche lesen und schreiben“ (Z. 153)
+  - Mathematik 2023 Kl. 5, S. 180: „Brüche und Dezimalbrüche“ (Z. 154)
+  - Mathematik 2023 Kl. 6, S. 28: „Brüche und Dezimalbrüche“ (Z. 238)
+  - Mathematik 2023 Kl. 6, S. 73: „Periodische Dezimalbrüche“ (Z. 247)
+  - Schnittpunkt Kl. 5, S. 232: „3 Dezimalbrüche“ (Z. 159)
+  - Schnittpunkt Kl. 6, S. 94: „1 Dezimalschreibweise“ (Z. 232)
+  - Schnittpunkt Kl. 6, S. 102: „4 Umwandeln von Brüchen in Dezimalbrüche“ (Z. 235)
+  - Schnittpunkt Kl. 6, S. 105: „EXTRA: Periodische Dezimalbrüche“ (Z. 236)
+  - Mathematik heute Kl. 5, S. 92 (Seite des Lösungsbands): „Dezimale Schreibweise für Brüche“ (Z. 67)
+  - Mathematik heute Kl. 5, S. 96 (Seite des Lösungsbands): „Darstellen von Dezimalbrüchen am Zahlenstrahl“ (Z. 68, 69)
+  - Mathematik heute Kl. 6, S. 86: „Umformen von Brüchen in Dezimalzahlen durch Erweitern und Kürzen“ (Z. 152, 153)
+  - Mathematik heute Kl. 6, S. 104: „Periodische Dezimalzahlen“ (Z. 157)
+  - LS Kl. 6: „Kapitel II Brüche in Dezimalschreibweise“ (Z. 87) › „1 Dezimalschreibweise“ (Z. 88)
+  - LS Kl. 6: „Kapitel II Brüche in Dezimalschreibweise“ (Z. 87) › „3 Abbrechende und periodische Dezimalzahlen“ (Z. 90)
+  - Fundamente Kl. 5, S. 219: „6.8 Dezimalzahlen“ (Z. 125)
+  - Fundamente Kl. 5, S. 226: „6.10 Abbrechende und periodische Dezimalzahlen“ (Z. 127)
+  - Fundamente Kl. 6, S. 31: „1.8 Dezimalzahlen“ (Z. 169)
+  - Fundamente Kl. 6, S. 38: „1.10 Abbrechende und periodische Dezimalzahlen“ (Z. 171)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 6 (Ausgabe 2025), S. 64: „3.1 Dezimalschreibweise“ (Z. 744)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 77: „3.6 Brüche und Dezimalzahlen“ (Z. 749)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: periodische Dezimalzahl erkennen und schreiben (Drittel, Sechstel) – Fundamente Kl. 5, S. 226: „6.10 Abbrechende und periodische Dezimalzahlen“
+  - Typ: periodische Dezimalzahl erkennen und schreiben (Drittel, Sechstel) – LS Kl. 6: „3 Abbrechende und periodische Dezimalzahlen“
+  - Typ: periodische Dezimalzahl erkennen und schreiben (Drittel, Sechstel) – Mathematik 2023 Kl. 6, S. 73: „Periodische Dezimalbrüche“
+  - Typ: Dezimalzahl am Zahlenstrahl (Zehntel-, Hundertstelskala) eintragen und ablesen – Mathematik heute Kl. 5, S. 96 (Seite des Lösungsbands): „Darstellen von Dezimalbrüchen am Zahlenstrahl“
+  - Typ: Bruch → Dezimalzahl durch Erweitern auf 10, 100, 1000 (Halbe, Viertel, Fünftel, Zwanzigstel, Fünfundzwanzigstel) – Mathematik heute Kl. 6, S. 86: „Umformen von Brüchen in Dezimalzahlen durch Erweitern und Kürzen“
+  - Typ: periodische Dezimalzahl erkennen und schreiben (Drittel, Sechstel) – Mathematik heute Kl. 6, S. 104: „Periodische Dezimalzahlen“
+  - Typ: periodische Dezimalzahl erkennen und schreiben (Drittel, Sechstel) – Schnittpunkt Kl. 6, S. 105: „EXTRA: Periodische Dezimalbrüche“
+  - Marken: Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.8 Dezimalzahlen“; Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.10 Abbrechende und periodische Dezimalzahlen“; Schnittpunkt Kl. 6: „EXTRA: Periodische Dezimalbrüche“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 19: „Dezimalzahlen“ (Z. 330)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 37: „Vom Bruch zur Dezimalzahl“ (Z. 350)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 51: „Dezimalbrüche“ (Z. 236)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 23: „Dezimalschreibweise“ (Z. 269)
+  - OS: Kl. 5 (Sekundo –, Mathematik 2023 5, 6, Schnittpunkt 5, 6, Mathematik heute 5, 6)
+  - GYM: Kl. 5–6 (LS 6, Fundamente 5, 6, Elemente 6, mathe.delta –); Streuung der Einführung: LS 6, Elemente 6 später als Kl. 5
+- 5. Vergleichen, Ordnen, Runden
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 181: „Dezimalbrüche vergleichen“ (Z. 156)
+  - Mathematik 2023 Kl. 5, S. 182: „Dezimalbrüche runden“ (Z. 158)
+  - Mathematik 2023 Kl. 6, S. 29: „Gebrochene Zahlen vergleichen“ (Z. 240)
+    Ermessen: „Gebrochene Zahlen“ umfasst Brüche und Dezimalbrüche; auch Einheit 5 (Bruch gegen Dezimalzahl) zugeordnet.
+  - Schnittpunkt Kl. 6, S. 97: „2 Dezimalbrüche vergleichen und ordnen“ (Z. 233)
+  - Schnittpunkt Kl. 6, S. 100: „3 Dezimalbrüche runden“ (Z. 234)
+  - Mathematik heute Kl. 5, S. 97 (Seite des Lösungsbands): „Vergleichen und Ordnen von Dezimalbrüchen - Runden“ (Z. 70, 71)
+  - LS Kl. 6: „Kapitel II Brüche in Dezimalschreibweise“ (Z. 87) › „2 Dezimalzahlen vergleichen und runden“ (Z. 89)
+  - Fundamente Kl. 5, S. 223: „6.9 Dezimalzahlen vergleichen“ (Z. 126)
+  - Fundamente Kl. 6, S. 35: „1.9 Dezimalzahlen vergleichen“ (Z. 170)
+  - Fundamente Kl. 6, S. 60: „2.3 Dezimalzahlen runden“ (Z. 184)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: runden auf Zehntel und Hundertstel (auch Größen mit Einheit) – Fundamente Kl. 6, S. 60: „2.3 Dezimalzahlen runden“
+  - Typ: runden auf Zehntel und Hundertstel (auch Größen mit Einheit) – Mathematik 2023 Kl. 5, S. 182: „Dezimalbrüche runden“
+  - Typ: Bruch gegen Dezimalzahl (Vergleichszeichen) – Mathematik 2023 Kl. 6, S. 29: „Gebrochene Zahlen vergleichen“
+  - Typ: runden auf Zehntel und Hundertstel (auch Größen mit Einheit) – Schnittpunkt Kl. 6, S. 100: „3 Dezimalbrüche runden“
+  - Marken: Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.9 Dezimalzahlen vergleichen“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 20: „Dezimalzahlen vergleichen und ordnen“ (Z. 331)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 24: „Dezimalbrüche vergleichen und ordnen“ (Z. 270)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 25: „Dezimalbrüche runden“ (Z. 271)
+  - OS: Kl. 5–6 (Sekundo –, Mathematik 2023 5, 6, Schnittpunkt 6, Mathematik heute 5); Streuung der Einführung: Schnittpunkt 6 später als Kl. 5
+  - GYM: Kl. 5–6 (LS 6, Fundamente 5, 6, Elemente –, mathe.delta –); Streuung der Einführung: LS 6 später als Kl. 5
+- Spanne OS/GYM: ja (Einheit 2: OS Kl. 5–6, GYM Kl. 5; Einheit 3: OS Kl. 5–6, GYM Kl. 5; Einheit 4: OS Kl. 5, GYM Kl. 5–6)
+- Boden: ja
+- Ermessen (8):
+  - Einheit 1, Schnittpunkt Kl. 6: „Brüche und Größen“ als Bruchteile von Größen gelesen.
+  - Einheit 1, Mathematik heute Kl. 6: „Brüche“ als Wiederaufnahme von Bruch als Anteil gelesen.
+  - Einheit 1: Elemente 2025 führt das Kapitel „Brüche“ mit denselben sieben Lerneinheiten in Band 5 (Kap. 9) und Band 6 (Kap. 1); beide Stellen stehen da (Einführungsklasse 5).
+  - Einheit 1: Der LS-Fahrplan führt das Kapitel „Brüche – das Ganze und seine Teile“ mit denselben sechs Lerneinheiten in Kl. 5 (Kap. VI) und Kl. 6 (Kap. I); beide Stellen stehen da (Einführungsklasse 5).
+  - Einheit 1: Mathematik heute Kl. 5: Das Schulbuch hat in der DNB kein Inhaltsverzeichnis; zitiert ist das Verzeichnis des Lösungsbands (gleiche Gliederung, Seiten des Lösungsbands).
+  - Einheit 2, Mathematik 2023 Kl. 6: Kürzen mit Teilbarkeitsregeln als vollständiges Kürzen gelesen.
+  - Einheit 2, Mathematik heute Kl. 5: „Derselbe Anteil – verschiedene Brüche“ als gleichwertige Brüche (Erweitern/Kürzen) gelesen.
+  - Einheit 5, Mathematik 2023 Kl. 6: „Gebrochene Zahlen“ umfasst Brüche und Dezimalbrüche; auch Einheit 5 (Bruch gegen Dezimalzahl) zugeordnet.
+
+### bruchrechnung – Klasse 6/7, Stufe D (in Berlin/Brandenburg Grundschule Kl. 5/6; für die Oberschule 7–8 regulär, am Gymnasium Wiederholung in Kl. 7 vor den rationalen Zahlen).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Brüche addieren und subtrahieren
+  - Sekundo Kl. 7, S. 9: „Addition und Subtraktion von B rü ch e n“ (Z. 54)
+  - Mathematik 2023 Kl. 5, S. 166: „Gleichnamige Brüche addieren und subtrahieren“ (Z. 139, 140)
+  - Mathematik 2023 Kl. 6, S. 43: „Gleichnamige Brüche addieren und subtrahieren“ (Z. 210, 211)
+  - Mathematik 2023 Kl. 6, S. 44: „Ungleichnamige Brüche addieren und subtrahieren“ (Z. 212, 213)
+  - Mathematik 2023 Kl. 6, S. 46: „Sachaufgaben zur Addition und Subtraktion“ (Z. 214, 215)
+  - Schnittpunkt Kl. 6, S. 44: „1 Addieren und Subtrahieren gleichnamiger Brüche“ (Z. 200, 201)
+  - Schnittpunkt Kl. 6, S. 46: „2 Addieren und Subtrahieren ungleichnamiger Brüche“ (Z. 202, 203)
+  - Mathematik heute Kl. 5, S. 90 (Seite des Lösungsbands): „Addieren und Subtrahieren von Brüchen“ (Z. 63, 64)
+  - Mathematik heute Kl. 6, S. 26: „Addieren und Subtrahieren von Brüchen“ (Z. 124)
+  - LS Kl. 6: „Kapitel III Zahlen addieren und subtrahieren“ (Z. 92) › „1 Brüche addieren und subtrahieren“ (Z. 93)
+  - Fundamente Kl. 6, S. 52: „2.1 Gleichnamige Brüche addieren und subtrahieren“ (Z. 180)
+  - Fundamente Kl. 6, S. 55: „2.2 Ungleichnamige Brüche addieren und subtrahieren“ (Z. 181)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 6 (Ausgabe 2025), S. 40: „2.2 Brüche addieren und subtrahieren“ (Z. 732)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: gleichnamig addieren und subtrahieren – Fundamente Kl. 6, S. 52: „2.1 Gleichnamige Brüche addieren und subtrahieren“
+  - Typ: gleichnamig addieren und subtrahieren – Mathematik 2023 Kl. 5, S. 166: „Gleichnamige Brüche addieren und subtrahieren“
+  - Typ: gleichnamig addieren und subtrahieren – Mathematik 2023 Kl. 6, S. 43: „Gleichnamige Brüche addieren und subtrahieren“
+  - Typ: Sachaufgabe (Zeit, Liter, Pizza) – Mathematik 2023 Kl. 6, S. 46: „Sachaufgaben zur Addition und Subtraktion“
+  - Typ: gleichnamig addieren und subtrahieren – Schnittpunkt Kl. 6, S. 44: „1 Addieren und Subtrahieren gleichnamiger Brüche“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 77: „Addition und Subtraktion von Brüchen mit gleichem Nenner“ (Z. 124)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 16: „Addieren und Subtrahieren bei gleichem Nenner“ (Z. 327)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 55: „Addition von Brüchen mit verschiedenen Nennern“ (Z. 370)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 3: „Addition und Subtraktion von Brüchen“ (Z. 133)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 12: „Addieren und Subtrahieren gleichnamiger Brüche“ (Z. 254)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 13: „Addieren und Subtrahieren ungleichnamiger Brüche“ (Z. 255)
+  - OS: Kl. 5–6 (Sekundo 7, Mathematik 2023 5, 6, Schnittpunkt 6, Mathematik heute 5, 6); Streuung der Einführung: Schnittpunkt 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6 (LS 6, Fundamente 6, Elemente 6, mathe.delta –)
+- 2. Dezimalzahlen addieren und subtrahieren
+  - Sekundo Kl. 7, S. 10: „Addition und Subtraktion von Dezimalzahlen“ (Z. 56, 58)
+  - Mathematik 2023 Kl. 5, S. 184: „Dezimalbrüche addieren und subtra hieren“ (Z. 161, 162)
+  - Mathematik 2023 Kl. 6, S. 68: „Dezimalbrüche addieren und subtrahieren“ (Z. 244)
+  - Schnittpunkt Kl. 6, S. 118: „1 Addieren und Subtrahieren“ (Z. 249)
+  - Mathematik heute Kl. 5, S. 99 (Seite des Lösungsbands): „Addieren und Subtrahieren von Dezimalbrüchen“ (Z. 72, 73)
+  - Mathematik heute Kl. 6, S. 89: „Addieren und Subtrahieren von Dezimalzahlen“ (Z. 154)
+  - LS Kl. 6: „Kapitel III Zahlen addieren und subtrahieren“ (Z. 92) › „2 Dezimalzahlen addieren und subtrahieren“ (Z. 94)
+  - Fundamente Kl. 6, S. 62: „2.4 Dezimalzahlen addieren und subtrahieren“ (Z. 185)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 6 (Ausgabe 2025), S. 67: „3.2 Addieren und Subtrahieren“ (Z. 745)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 21: „Addieren und Subtrahieren von Dezimalzahlen“ (Z. 332)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 4: „Addition und Subtraktion von Dezimalzahlen“ (Z. 134)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 28: „Addieren und Subtrahieren“ (Z. 276)
+  - OS: Kl. 5–6 (Sekundo 7, Mathematik 2023 5, 6, Schnittpunkt 6, Mathematik heute 5, 6); Streuung der Einführung: Schnittpunkt 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6 (LS 6, Fundamente 6, Elemente 6, mathe.delta –)
+- 3. Brüche multiplizieren und dividieren
+  - Sekundo Kl. 7, S. 11: „Vervielfachen und Teilen von B rüchen“ (Z. 60)
+  - Sekundo Kl. 7, S. 12: „Multiplikation von Brüchen“ (Z. 62)
+  - Sekundo Kl. 7, S. 13: „Division durch einen Bruch“ (Z. 64)
+  - Mathematik 2023 Kl. 6, S. 47: „Brüche mit natürlichen Zahlen multiplizieren“ (Z. 216, 217)
+  - Mathematik 2023 Kl. 6, S. 48: „Brüche multiplizieren“ (Z. 218)
+  - Mathematik 2023 Kl. 6, S. 51: „Brüche durch natürliche Zahlen dividieren“ (Z. 220)
+  - Mathematik 2023 Kl. 6, S. 52: „Durch Brüche dividieren“ (Z. 221)
+  - Schnittpunkt Kl. 6, S. 50: „3 Multiplizieren von Brüchen“ (Z. 204)
+  - Schnittpunkt Kl. 6, S. 53: „4 Dividieren von Brüchen“ (Z. 205)
+  - Schnittpunkt Kl. 7, S. 29: „EXTRA: Multiplizieren von Brüchen“ (Z. 51)
+  - Schnittpunkt Kl. 7, S. 30: „EXTRA: Dividieren von Brüchen“ (Z. 52)
+  - Mathematik heute Kl. 6, S. 38: „Vervielfachen und Teilen von Brüchen“ (Z. 130)
+  - Mathematik heute Kl. 6, S. 45: „Multiplizieren von Brüchen“ (Z. 131)
+  - Mathematik heute Kl. 6, S. 49: „Dividieren von Brüchen“ (Z. 132)
+  - LS Kl. 6: „Kapitel V Zahlen multiplizieren und dividieren“ (Z. 80) › „1 Brüche vervielfachen und teilen“ (Z. 81)
+  - LS Kl. 6: „Kapitel V Zahlen multiplizieren und dividieren“ (Z. 80) › „2 Brüche multiplizieren“ (Z. 82)
+  - LS Kl. 6: „Kapitel V Zahlen multiplizieren und dividieren“ (Z. 80) › „3 Durch Brüche dividieren“ (Z. 83)
+  - Fundamente Kl. 6, S. 104: „4.1 Brüche mit natürlichen Zahlen multiplizieren“ (Z. 211)
+  - Fundamente Kl. 6, S. 106: „4.2 Brüche multiplizieren“ (Z. 212)
+  - Fundamente Kl. 6, S. 110: „4.3 Brüche durch natürliche Zahlen dividieren“ (Z. 213)
+  - Fundamente Kl. 6, S. 112: „4.4 Brüche dividieren“ (Z. 214)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 200: „9.6 Brüche und natürliche Zahlen - multiplizieren und dividieren“ (Z. 685, 686)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 24: „1.6 Brüche und natürliche Zahlen - multiplizieren und dividieren“ (Z. 720, 721)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 44: „2.3 Brüche multiplizieren“ (Z. 733)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 47: „2.4 Brüche dividieren“ (Z. 734)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Bruch mal natürliche Zahl (vervielfachen) – Fundamente Kl. 6, S. 104: „4.1 Brüche mit natürlichen Zahlen multiplizieren“
+  - Typ: Bruch geteilt durch natürliche Zahl (teilen) – Fundamente Kl. 6, S. 110: „4.3 Brüche durch natürliche Zahlen dividieren“
+  - Typ: Zahl geteilt durch Bruch, Bruch geteilt durch Bruch (Kehrbruch) – Fundamente Kl. 6, S. 112: „4.4 Brüche dividieren“
+  - Typ: Zahl geteilt durch Bruch, Bruch geteilt durch Bruch (Kehrbruch) – LS Kl. 6: „3 Durch Brüche dividieren“
+  - Typ: Bruch mal natürliche Zahl (vervielfachen) – Mathematik 2023 Kl. 6, S. 47: „Brüche mit natürlichen Zahlen multiplizieren“
+  - Typ: Bruch geteilt durch natürliche Zahl (teilen) – Mathematik 2023 Kl. 6, S. 51: „Brüche durch natürliche Zahlen dividieren“
+  - Typ: Zahl geteilt durch Bruch, Bruch geteilt durch Bruch (Kehrbruch) – Mathematik 2023 Kl. 6, S. 52: „Durch Brüche dividieren“
+  - Typ: Zahl geteilt durch Bruch, Bruch geteilt durch Bruch (Kehrbruch) – Sekundo Kl. 7, S. 13: „Division durch einen Bruch“
+  - Marken: Schnittpunkt Kl. 7: „EXTRA: Multiplizieren von Brüchen“; Schnittpunkt Kl. 7: „EXTRA: Dividieren von Brüchen“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 32: „Teilen von Brüchen“ (Z. 345)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 75: „Sachaufgaben zur Multiplikation und Division von Brüchen“ (Z. 393)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 5: „Vervielfachen und Teilen von Brüchen“ (Z. 135)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 14: „Multiplizieren von Brüchen“ (Z. 256)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 15: „Dividieren von Brüchen“ (Z. 257)
+  - OS: Kl. 6 (Sekundo 7, Mathematik 2023 6, Schnittpunkt 6, 7, Mathematik heute 6); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–6 (LS 6, Fundamente 6, Elemente 5, 6, mathe.delta –); Streuung der Einführung: LS 6, Fundamente 6 später als Kl. 5
+- 4. Dezimalzahlen multiplizieren und dividieren
+  - Sekundo Kl. 7, S. 16: „Multiplikation und Division einer Dezimalzahl m it 10,100,1000“ (Z. 68, 70)
+  - Sekundo Kl. 7, S. 17: „Multiplikation m it einer Dezimalzahl“ (Z. 72)
+  - Sekundo Kl. 7, S. 18: „Division durch eine Dezimalzahl“ (Z. 74)
+  - Mathematik 2023 Kl. 5, S. 183: „Dezimalbrüche mit Zehnerzahlen multiplizieren und dividieren“ (Z. 159, 160)
+  - Mathematik 2023 Kl. 6, S. 69: „Dezimalbrüche multiplizieren“ (Z. 245)
+  - Mathematik 2023 Kl. 6, S. 71: „Dezimalbrüche dividieren“ (Z. 246)
+  - Schnittpunkt Kl. 6, S. 122: „2 Multiplizieren und Dividieren mit Stufenzahlen“ (Z. 250)
+  - Schnittpunkt Kl. 6, S. 124: „3 Multiplizieren“ (Z. 251)
+  - Schnittpunkt Kl. 6, S. 128: „4 Dividieren“ (Z. 253)
+  - Mathematik heute Kl. 6, S. 91: „Vervielfachen und Teilen von Dezimalzahlen“ (Z. 155)
+  - Mathematik heute Kl. 6, S. 98: „Multiplizieren und Dividieren von Dezimalzahlen“ (Z. 156)
+  - LS Kl. 6: „Kapitel V Zahlen multiplizieren und dividieren“ (Z. 80) › „4 Kommaverschiebung“ (Z. 84)
+  - LS Kl. 6: „Kapitel V Zahlen multiplizieren und dividieren“ (Z. 80) › „5 Dezimalzahlen multiplizieren“ (Z. 85)
+  - LS Kl. 6: „Kapitel V Zahlen multiplizieren und dividieren“ (Z. 80) › „6 Dezimalzahlen dividieren“ (Z. 86)
+  - Fundamente Kl. 6, S. 116: „4.5 Kommaverschiebung bei Dezimalzahlen“ (Z. 215)
+  - Fundamente Kl. 6, S. 119: „4.6 Dezimalzahlen multiplizieren“ (Z. 216)
+  - Fundamente Kl. 6, S. 122: „4.7 Dezimalzahlen dividieren“ (Z. 217)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 6 (Ausgabe 2025), S. 69: „3.3 Dezimalzahlen multiplizieren“ (Z. 746)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 72: „3.4 Dezimalzahlen dividieren“ (Z. 747)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Komma verschieben (mal 10, 100, 1000; geteilt durch 10, 100) – Fundamente Kl. 6, S. 116: „4.5 Kommaverschiebung bei Dezimalzahlen“
+  - Typ: Komma verschieben (mal 10, 100, 1000; geteilt durch 10, 100) – LS Kl. 6: „4 Kommaverschiebung“
+  - Typ: Komma verschieben (mal 10, 100, 1000; geteilt durch 10, 100) – Mathematik 2023 Kl. 5, S. 183: „Dezimalbrüche mit Zehnerzahlen multiplizieren und dividieren“
+  - Typ: Komma verschieben (mal 10, 100, 1000; geteilt durch 10, 100) – Sekundo Kl. 7, S. 16: „Multiplikation und Division einer Dezimalzahl m it 10,100,1000“
+  - Typ: geteilt durch Dezimalzahl (beide Kommas verschieben) – Sekundo Kl. 7, S. 18: „Division durch eine Dezimalzahl“
+  - Typ: Komma verschieben (mal 10, 100, 1000; geteilt durch 10, 100) – Schnittpunkt Kl. 6, S. 122: „2 Multiplizieren und Dividieren mit Stufenzahlen“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 33: „Dezimalzahlen - Multiplikation mit einer natürlichen Zahl“ (Z. 346)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 62: „Multiplikation von Dezimalzahlen“ (Z. 378)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 8: „Multiplikation und Division von Dezimalzahlen“ (Z. 138)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 30: „Multiplizieren“ (Z. 278)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 31: „Dividieren“ (Z. 279)
+  - OS: Kl. 5–6 (Sekundo 7, Mathematik 2023 5, 6, Schnittpunkt 6, Mathematik heute 6); Streuung der Einführung: Schnittpunkt 6, Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6 (LS 6, Fundamente 6, Elemente 6, mathe.delta –)
+- 5. Rechengesetze und Punkt vor Strich
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 6
+  - Mathematik 2023 Kl. 6, S. 60: „Üben: Verbindung der Grundrechenarten“ (Z. 227)
+  - Mathematik 2023 Kl. 6, S. 77: „Rechnen mit Näherungswerten“ (Z. 249)
+    Ermessen: „Rechnen mit Näherungswerten“ als Überschlag gelesen.
+  - Mathematik 2023 Kl. 6, S. 79: „Rechengesetze für gebrochene Zahlen“ (Z. 250)
+  - Schnittpunkt Kl. 6, S. 56: „5 Punkt vor Strich. Klammern“ (Z. 206)
+  - Schnittpunkt Kl. 6, S. 132: „5 Verbindung der Rechenarten“ (Z. 254)
+  - Mathematik heute Kl. 6, S. 56: „Vorteilhaftes Rechnen mit Brüchen - Rechengesetze“ (Z. 133, 134)
+  - Mathematik heute Kl. 6, S. 107: „Verbindung der vier Grundrechenarten“ (Z. 158)
+  - LS Kl. 6: „Kapitel V Zahlen multiplizieren und dividieren“ (Z. 80) › „7 Rechengesetze – Vorteile beim Rechnen“ (Z. 87)
+  - LS Kl. 6: „Kapitel III Zahlen addieren und subtrahieren“ (Z. 92) › „3 Geschicktes Rechnen mit Brüchen und Dezimal- zahlen“ (Z. 95, 96)
+  - Fundamente Kl. 6, S. 126: „4.8 Rechnen mit allen Grundrechenarten“ (Z. 218)
+  - Fundamente Kl. 6, S. 129: „4.9 Ausmultiplizieren und Ausklammern“ (Z. 219)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 6
+  - Elemente Kl. 6 (Ausgabe 2025), S. 52: „2.6 Rechenausdrücke“ (Z. 736)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 6
+  - Typ: Distributivgesetz (Ausklammern bei Dezimalzahlen) – Fundamente Kl. 6, S. 129: „4.9 Ausmultiplizieren und Ausklammern“
+  - Typ: Überschlag und Prüfen – Mathematik 2023 Kl. 6, S. 77: „Rechnen mit Näherungswerten“
+  - Typ: Punkt vor Strich mit Brüchen – Schnittpunkt Kl. 6, S. 56: „5 Punkt vor Strich. Klammern“
+  - Marken: Mathematik 2023 Kl. 6: „Üben: Verbindung der Grundrechenarten“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 16: „Punkt vor Strich. Klammern“ (Z. 258)
+  - OS: Kl. 6 (Sekundo –, Mathematik 2023 6, Schnittpunkt 6, Mathematik heute 6)
+  - GYM: Kl. 6 (LS 6, Fundamente 6, Elemente 6, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–6, GYM Kl. 6; Einheit 2: OS Kl. 5–6, GYM Kl. 6; Einheit 3: OS Kl. 6, GYM Kl. 5–6; Einheit 4: OS Kl. 5–6, GYM Kl. 6)
+- Boden: ja
+- Ermessen (1):
+  - Einheit 5, Mathematik 2023 Kl. 6: „Rechnen mit Näherungswerten“ als Überschlag gelesen.
+
+### rationale-zahlen – Klasse 7, Stufe E (Gymnasium Kl. 7, Oberschule 7–8); die Zahlengerade mit negativen Zahlen kommt in LS-AA schon in Klasse 6 (Kapitel IV 1 „Negative Zahlen – erweitertes Koordinatensystem“, Stufe D).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Negative Zahlen kennen und ordnen
+  - Sekundo Kl. 7, S. 105: „LVL: Zahlen unter Null in unserer U m w elt“ (Z. 140)
+  - Sekundo Kl. 7, S. 106: „Zahlbereiche und Koordinatensystem“ (Z. 142)
+  - Sekundo Kl. 7, S. 107: „Ordnen von rationalen Zahlen“ (Z. 143)
+  - Sekundo Kl. 7, S. 110: „Betrag - Zahl und Gegenzahl“ (Z. 146)
+  - Mathematik 2023 Kl. 6, S. 37: „Vertiefen: Negative Zahlen“ (Z. 248)
+  - Mathematik 2023 Kl. 7, S. 97: „Rationale Zahlen darstellen, vergleichen und ordnen“ (Z. 106, 107)
+  - Mathematik 2023 Kl. 7, S. 101: „Schulden und Guthaben“ (Z. 110)
+  - Schnittpunkt Kl. 6, S. 226: „1 Ganze Zahlen“ (Z. 321)
+  - Schnittpunkt Kl. 6, S. 228: „2 Ganze Zahlen vergleichen und ordnen“ (Z. 322)
+  - Schnittpunkt Kl. 6, S. 234: „EXTRA: Rationale Zahlen“ (Z. 325)
+  - Schnittpunkt Kl. 7, S. 10: „1 Rationale Zahlen“ (Z. 43)
+  - Schnittpunkt Kl. 7, S. 14: „2 Rationale Zahlen vergleichen und ordnen“ (Z. 45)
+  - Mathematik heute Kl. 7, S. 16: „Einführung rationaler Zahlen“ (Z. 71)
+  - Mathematik heute Kl. 7, S. 20: „Betrag und Gegenzahl einer rationalen Zahl“ (Z. 72)
+  - Mathematik heute Kl. 7, S. 22: „Vergleichen und Ordnen rationaler Zahlen“ (Z. 73)
+  - LS Kl. 6: „Kapitel IV Muster und Figuren“ (Z. 98) › „1 Negative Zahlen – erweitertes Koordinatensystem“ (Z. 99)
+  - LS Kl. 7: „Kapitel I Rechnen mit rationalen Zahlen“ (Z. 115) › „1 Ganze Zahlen“ (Z. 116)
+  - LS Kl. 7: „Kapitel I Rechnen mit rationalen Zahlen“ (Z. 115) › „2 Rationale Zahlen und ihre Anordnung“ (Z. 117)
+  - Fundamente Kl. 7, S. 78: „3.1 Ganze Zahlen und Zahlengerade“ (Z. 50)
+  - Fundamente Kl. 7, S. 82: „3.3 Ganze Zahlen vergleichen und ordnen“ (Z. 52)
+  - Fundamente Kl. 7, S. 87: „3.5 Rationale Zahlen“ (Z. 54)
+  - Fundamente 2017 Kl. 7, S. 78: „3.1 Negative Zahlen – Zahlengerade“ (Z. 65)
+  - Fundamente 2017 Kl. 7, S. 80: „3.2 Ganze Zahlen vergleichen und ordnen“ (Z. 66)
+  - Fundamente 2017 Kl. 7, S. 86: „3.4 Rationale Zahlen und Zahlenmengen“ (Z. 68)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 115: „4.1 Rationale Zahlen-Anordnung“ (Z. 137)
+    Ermessen: laut Seitenbild „4.1 Rationale Zahlen – Anordnung und Betrag“.
+  - Elemente Kl. 7 (Ausgabe 2016), S. 120: „4.2 Vergleichen und Ordnen“ (Z. 138)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 10: „1.1 Vom Zahlenstrahl zur Zahlengeraden“ (Z. 837)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 14: „1.2 Betrag einer Zahl“ (Z. 838)
+  - mathe.delta Kl. 7, S. 18: „1.1 GanzeZahlen“ (Z. 63)
+  - mathe.delta Kl. 7, S. 22: „Rationale Zahlen“ (Z. 65)
+  - mathe.delta Kl. 7, S. 26: „1.4 Rationale Zahlen ordnen und runden“ (Z. 66)
+  - Typ: Gegenzahl und Betrag angeben – Elemente Kl. 7 (Ausgabe 2025), S. 14: „1.2 Betrag einer Zahl“
+  - Typ: zwei Zahlen vergleichen (< >) – Fundamente Kl. 7, S. 82: „3.3 Ganze Zahlen vergleichen und ordnen“
+  - Typ: Situation ↔ Zahl (3 °C unter null, 20 € Schulden) – Mathematik 2023 Kl. 7, S. 101: „Schulden und Guthaben“
+  - Typ: Gegenzahl und Betrag angeben – Mathematik heute Kl. 7, S. 20: „Betrag und Gegenzahl einer rationalen Zahl“
+  - Typ: Situation ↔ Zahl (3 °C unter null, 20 € Schulden) – Sekundo Kl. 7, S. 105: „LVL: Zahlen unter Null in unserer U m w elt“
+  - Typ: Zahlen ordnen (gemischt: Bruch, Dezimalzahl, negativ) – Sekundo Kl. 7, S. 107: „Ordnen von rationalen Zahlen“
+  - Typ: Gegenzahl und Betrag angeben – Sekundo Kl. 7, S. 110: „Betrag - Zahl und Gegenzahl“
+  - Typ: zwei Zahlen vergleichen (< >) – Schnittpunkt Kl. 6, S. 228: „2 Ganze Zahlen vergleichen und ordnen“
+  - Marken: Mathematik 2023 Kl. 6: „Vertiefen: Negative Zahlen“; Sekundo Kl. 7: „LVL: Zahlen unter Null in unserer U m w elt“; Schnittpunkt Kl. 6: „EXTRA: Rationale Zahlen“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 49: „Ordnen und Vergleichen an der Zahlengeraden“ (Z. 183)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Rationale Zahlen darstellen, vergleichen und ordnen“ (Z. 59)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 50: „Ganze Zahlen vergleichen und ordnen“ (Z. 308)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 4: „Rationale Zahlen vergleichen und ordnen“ (Z. 39)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 4: „Rationale Zahlen (Schülerband Seite 10 bis 65)“ (Z. 33)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6–7 (Sekundo 7, Mathematik 2023 6, 7, Schnittpunkt 6, 7, Mathematik heute 7); Streuung der Einführung: Mathematik heute 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6–7 (LS 6, 7, Fundamente 7, Elemente 7, mathe.delta 7); Streuung der Einführung: Fundamente 7, Elemente 7 später als Kl. 6; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Addieren und Subtrahieren
+  - Sekundo Kl. 7, S. 108: „Addieren und Subtrahieren“ (Z. 144)
+  - Sekundo Kl. 7, S. 114: „LVL: Addition m it Hilfe von M odellen“ (Z. 149)
+  - Sekundo Kl. 7, S. 115: „A ddition“ (Z. 151)
+  - Sekundo Kl. 7, S. 116: „Subtraktion“ (Z. 153)
+  - Mathematik 2023 Kl. 7, S. 102: „Rationale Zahlen addieren“ (Z. 111)
+  - Mathematik 2023 Kl. 7, S. 104: „Rationale Zahlen subtrahieren“ (Z. 112)
+  - Mathematik 2023 Kl. 7, S. 105: „Addition und Subtraktion mit Rechenstreifen“ (Z. 113, 116)
+  - Mathematik 2023 Kl. 7, S. 108: „Addieren und Subtrahieren in vereinfachter Schreibweise“ (Z. 118, 121)
+  - Schnittpunkt Kl. 6, S. 230: „3 Zunahme und Abnahme“ (Z. 323)
+    Ermessen: „Zunahme und Abnahme“ bei ganzen Zahlen als Zustand und Änderung an der Zahlengeraden gelesen (Einheit 2).
+  - Schnittpunkt Kl. 7, S. 17: „3 Zunahme und Abnahme“ (Z. 46)
+  - Schnittpunkt Kl. 7, S. 20: „4 Addieren“ (Z. 48)
+  - Schnittpunkt Kl. 7, S. 23: „5 Subtrahieren“ (Z. 49)
+  - Mathematik heute Kl. 7, S. 27: „Addieren und Subtrahieren rationaler Zahlen“ (Z. 75)
+  - LS Kl. 7: „Kapitel I Rechnen mit rationalen Zahlen“ (Z. 115) › „3 Positive Zahlen addieren und subtrahieren“ (Z. 118)
+  - LS Kl. 7: „Kapitel I Rechnen mit rationalen Zahlen“ (Z. 115) › „4 Negative Zahlen addieren und subtrahieren“ (Z. 119)
+  - Fundamente Kl. 7, S. 84: „3.4 Zustandsänderungen“ (Z. 53)
+    Ermessen: Zustandsänderungen als Zustand und Änderung an der Zahlengeraden (Einheit 2) gelesen.
+  - Fundamente Kl. 7, S. 89: „3.6 Rationale Zahlen addieren und subtrahieren“ (Z. 55)
+  - Fundamente 2017 Kl. 7, S. 83: „3.3 Zustandsänderungen“ (Z. 67)
+  - Fundamente 2017 Kl. 7, S. 92: „3.6 Rationale Zahlen addieren“ (Z. 70)
+  - Fundamente 2017 Kl. 7, S. 95: „3.7 Rationale Zahlen subtrahieren“ (Z. 71)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 125: „4.4 Beschreiben von Zustandsänderungen“ (Z. 140)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 128: „4.5 Addieren rationaler Zahlen“ (Z. 141)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 138: „4.6 Subtrahieren rationaler Zahlen“ (Z. 145)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 17: „1.4 Zustände und Änderungen“ (Z. 840)
+    Ermessen: Zustände und Änderungen als Zustand und Änderung an der Zahlengeraden (Einheit 2) gelesen.
+  - Elemente Kl. 7 (Ausgabe 2025), S. 20: „1.5 Addieren rationaler Zahlen“ (Z. 843)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 22: „1.6 Subtrahieren rationaler Zahlen“ (Z. 844)
+  - mathe.delta Kl. 7, S. 20: „1•2 Zu- und Abnahm en“ (Z. 64)
+    Ermessen: „Zu- und Abnahmen“ als Zustand und Änderung (Einheit 2) gelesen.
+  - mathe.delta Kl. 7, S. 28: „Rationale Z a h n a d d e r e“ (Z. 67)
+    Ermessen: Zeile verstümmelt („ใ .5 Rationale Z a h n a d d e r e ■“); als 1.5 „Rationale Zahlen addieren (und subtrahieren)“ gelesen.
+  - Typ: positive Zahl dazu oder weg von negativer Zahl (Zahlengerade) – Elemente Kl. 7 (Ausgabe 2025), S. 17: „1.4 Zustände und Änderungen“
+  - Typ: positive Zahl dazu oder weg von negativer Zahl (Zahlengerade) – Elemente Kl. 7 (Ausgabe 2016), S. 125: „4.4 Beschreiben von Zustandsänderungen“
+  - Typ: positive Zahl dazu oder weg von negativer Zahl (Zahlengerade) – Fundamente Kl. 7, S. 84: „3.4 Zustandsänderungen“
+  - Typ: positive Zahl dazu oder weg von negativer Zahl (Zahlengerade) – LS Kl. 7: „3 Positive Zahlen addieren und subtrahieren“
+  - Typ: Zeichen zusammenfassen und rechnen – Mathematik 2023 Kl. 7, S. 108: „Addieren und Subtrahieren in vereinfachter Schreibweise“
+  - Typ: positive Zahl dazu oder weg von negativer Zahl (Zahlengerade) – Schnittpunkt Kl. 6, S. 230: „3 Zunahme und Abnahme“
+  - Typ: positive Zahl dazu oder weg von negativer Zahl (Zahlengerade) – Schnittpunkt Kl. 7, S. 17: „3 Zunahme und Abnahme“
+  - Marken: Sekundo Kl. 7: „LVL: Addition m it Hilfe von M odellen“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 50: „Addieren und Subtrahieren“ (Z. 184)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Addieren und Subtrahieren in vereinfachter Schreibweise“ (Z. 61)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 6: „Addieren“ (Z. 41)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 7: „Subtrahieren“ (Z. 42)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 4: „Rationale Zahlen (Schülerband Seite 10 bis 65)“ (Z. 33)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6–7 (Sekundo 7, Mathematik 2023 7, Schnittpunkt 6, 7, Mathematik heute 7); Streuung der Einführung: Mathematik 2023 7, Mathematik heute 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 3. Multiplizieren und Dividieren
+  - Sekundo Kl. 7, S. 109: „Vervielfachen und Teilen“ (Z. 145)
+  - Sekundo Kl. 7, S. 120: „Multiplikation“ (Z. 161)
+  - Sekundo Kl. 7, S. 121: „D ivision“ (Z. 163)
+  - Mathematik 2023 Kl. 7, S. 110: „Rationale Zahlen multiplizieren“ (Z. 122)
+  - Mathematik 2023 Kl. 7, S. 112: „Rationale Zahlen dividieren“ (Z. 125)
+  - Schnittpunkt Kl. 7, S. 31: „7 Multiplizieren“ (Z. 53)
+  - Schnittpunkt Kl. 7, S. 33: „8 Dividieren“ (Z. 54)
+  - Schnittpunkt Kl. 7, S. 35: „9 Verbindung der Rechenarten“ (Z. 55)
+  - Mathematik heute Kl. 7, S. 40: „Multiplizieren rationaler Zahlen“ (Z. 82)
+  - Mathematik heute Kl. 7, S. 45: „Produkte aus gleichen Faktoren - Potenzen“ (Z. 83)
+    Ermessen: Potenzen im Kapitel Rationale Zahlen: auch Typ der Einheit 3 (negative Basis).
+  - Mathematik heute Kl. 7, S. 46: „Dividieren rationaler Zahlen“ (Z. 84)
+  - Mathematik heute Kl. 7, S. 52: „Berechnen von Termen - Vorrangregeln“ (Z. 87)
+  - LS Kl. 7: „Kapitel I Rechnen mit rationalen Zahlen“ (Z. 115) › „5 Multiplizieren und Dividieren rationaler Zahlen“ (Z. 120)
+  - Fundamente Kl. 7, S. 95: „3.7 Rationale Zahlen multiplizieren und dividieren“ (Z. 56)
+  - Fundamente Kl. 7, S. 100: „3.8 Rechnen mit allen Grundrechenarten“ (Z. 58)
+  - Fundamente 2017 Kl. 7, S. 98: „3.8 Rationale Zahlen multiplizieren und dividieren“ (Z. 72)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 143: „4.7 Multiplizieren rationaler Zahlen“ (Z. 148)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 150: „4.8 Dividieren rationaler Zahlen“ (Z. 151)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 158: „4.10.1 Regeln fürdas Berechnen von Termen“ (Z. 155)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 25: „1.8 Multiplizieren und Dividieren“ (Z. 846)
+  - mathe.delta Kl. 7, S. 32: „1.6 Rationale Zahlen multiplizieren“ (Z. 68)
+  - mathe.delta Kl. 7, S. 34: „1.7 Rationale Zahlen dividieren“ (Z. 69)
+  - mathe.delta Kl. 7, S. 38: „1.9 Verbindung der Grundrechenarten“ (Z. 71)
+  - Typ: Punkt vor Strich mit negativen Zahlen – Elemente Kl. 7 (Ausgabe 2016), S. 158: „4.10.1 Regeln fürdas Berechnen von Termen“
+  - Typ: Punkt vor Strich mit negativen Zahlen – Fundamente Kl. 7, S. 100: „3.8 Rechnen mit allen Grundrechenarten“
+  - Typ: Punkt vor Strich mit negativen Zahlen – mathe.delta Kl. 7, S. 38: „1.9 Verbindung der Grundrechenarten“
+  - Typ: Potenzen: (−2)² gegen −2² – Mathematik heute Kl. 7, S. 45: „Produkte aus gleichen Faktoren - Potenzen“
+  - Typ: Punkt vor Strich mit negativen Zahlen – Mathematik heute Kl. 7, S. 52: „Berechnen von Termen - Vorrangregeln“
+  - Typ: Punkt vor Strich mit negativen Zahlen – Schnittpunkt Kl. 7, S. 35: „9 Verbindung der Rechenarten“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 9: „Multiplizieren“ (Z. 44)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 4: „Rationale Zahlen (Schülerband Seite 10 bis 65)“ (Z. 33)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7 (Sekundo 7, Mathematik 2023 7, Schnittpunkt 7, Mathematik heute 7)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 4. Terme und Sachaufgaben
+  - Sekundo Kl. 7, S. 118: „Klammerregeln für Addition und Subtraktion“ (Z. 157, 159)
+  - Sekundo Kl. 7, S. 122: „Rechengesetze für rationale Zahlen“ (Z. 165)
+  - Mathematik 2023 Kl. 7, S. 123: „Üben: Rechengesetze“ (Z. 144)
+  - Schnittpunkt Kl. 7, S. 26: „6 Rechenvorteile“ (Z. 50)
+  - Schnittpunkt Kl. 7, S. 45: „EXTRA: Girokonto“ (Z. 61)
+  - Mathematik heute Kl. 7, S. 56: „Rechengesetze für rationale Zahlen Vorteilhaftes Rechnen“ (Z. 88, 89)
+  - LS Kl. 7: „Kapitel I Rechnen mit rationalen Zahlen“ (Z. 115) › „6 Rechenvorteile nutzen“ (Z. 121)
+  - Fundamente Kl. 7, S. 104: „3.9 Ausmultiplizieren und Ausklammern“ (Z. 60)
+    Ermessen: Ausmultiplizieren und Ausklammern im Kapitel Rationale Zahlen als Rechenvorteile mit dem Distributivgesetz (Einheit 4) gelesen; die Termumformung folgt in Kapitel 5.
+  - Fundamente 2017 Kl. 7, S. 102: „3.9 Vorrangregeln und Rechengesetze“ (Z. 73)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 133: „4.5.2 RechengesetzefUrdieAddition rationaler Zahlen“ (Z. 143)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 141: „4.6.2 Auflösen von Z“ (Z. 147)
+    Ermessen: Zeile verstümmelt; laut Seitenbild „4.6.2 Auflösen von Zahlklammern – Vereinfachen eines Terms“.
+  - Elemente Kl. 7 (Ausgabe 2016), S. 160: „4.10.2 Distributivgesetz“ (Z. 156)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 27: „1.9 Rechenregeln anwenden“ (Z. 847)
+  - mathe.delta Kl. 7, S. 36: „1.8 Rechengesetze“ (Z. 70)
+  - Typ: Rechenvorteile (Tauschen, geschickt zusammenfassen) – Elemente Kl. 7 (Ausgabe 2016), S. 133: „4.5.2 RechengesetzefUrdieAddition rationaler Zahlen“
+  - Typ: Plus- und Minusklammer auflösen – Elemente Kl. 7 (Ausgabe 2016), S. 141: „4.6.2 Auflösen von Z“
+  - Typ: Rechenvorteile (Tauschen, geschickt zusammenfassen) – LS Kl. 7: „6 Rechenvorteile nutzen“
+  - Typ: Rechenvorteile (Tauschen, geschickt zusammenfassen) – Mathematik 2023 Kl. 7, S. 123: „Üben: Rechengesetze“
+  - Typ: Rechenvorteile (Tauschen, geschickt zusammenfassen) – Mathematik heute Kl. 7, S. 56: „Rechengesetze für rationale Zahlen Vorteilhaftes Rechnen“
+  - Typ: Plus- und Minusklammer auflösen – Sekundo Kl. 7, S. 118: „Klammerregeln für Addition und Subtraktion“
+  - Typ: Rechenvorteile (Tauschen, geschickt zusammenfassen) – Sekundo Kl. 7, S. 122: „Rechengesetze für rationale Zahlen“
+  - Typ: Rechenvorteile (Tauschen, geschickt zusammenfassen) – Schnittpunkt Kl. 7, S. 26: „6 Rechenvorteile“
+  - Typ: Kontostand nach mehreren Buchungen – Schnittpunkt Kl. 7, S. 45: „EXTRA: Girokonto“
+  - Marken: Mathematik 2023 Kl. 7: „Üben: Rechengesetze“; Schnittpunkt Kl. 7: „EXTRA: Girokonto“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 52: „Rechnen mit positiven und negativen Zahlen in Sachsituationen“ (Z. 186)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 8: „Rechenvorteile“ (Z. 43)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 4: „Rationale Zahlen (Schülerband Seite 10 bis 65)“ (Z. 33)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7 (Sekundo 7, Mathematik 2023 7, Schnittpunkt 7, Mathematik heute 7)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- Spanne OS/GYM: ja (Einheit 2: OS Kl. 6–7, GYM Kl. 7)
+- Boden: ja
+- Ermessen (10):
+  - Einheit 1, Elemente Kl. 7 (Ausgabe 2016): laut Seitenbild „4.1 Rationale Zahlen – Anordnung und Betrag“.
+  - Einheit 2, Schnittpunkt Kl. 6: „Zunahme und Abnahme“ bei ganzen Zahlen als Zustand und Änderung an der Zahlengeraden gelesen (Einheit 2).
+  - Einheit 2, Fundamente Kl. 7: Zustandsänderungen als Zustand und Änderung an der Zahlengeraden (Einheit 2) gelesen.
+  - Einheit 2, Elemente Kl. 7 (Ausgabe 2025): Zustände und Änderungen als Zustand und Änderung an der Zahlengeraden (Einheit 2) gelesen.
+  - Einheit 2, mathe.delta Kl. 7: „Zu- und Abnahmen“ als Zustand und Änderung (Einheit 2) gelesen.
+  - Einheit 2, mathe.delta Kl. 7: Zeile verstümmelt („ใ .5 Rationale Z a h n a d d e r e ■“); als 1.5 „Rationale Zahlen addieren (und subtrahieren)“ gelesen.
+  - Einheit 3, Mathematik heute Kl. 7: Potenzen im Kapitel Rationale Zahlen: auch Typ der Einheit 3 (negative Basis).
+  - Einheit 4, Fundamente Kl. 7: Ausmultiplizieren und Ausklammern im Kapitel Rationale Zahlen als Rechenvorteile mit dem Distributivgesetz (Einheit 4) gelesen; die Termumformung folgt in Kapitel 5.
+  - Einheit 4, Elemente Kl. 7 (Ausgabe 2016): Zeile verstümmelt; laut Seitenbild „4.6.2 Auflösen von Zahlklammern – Vereinfachen eines Terms“.
+  - Einheiten 1, 2, 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Rationale Zahlen (Schülerband Seite 10 bis 65)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### prozentrechnung – Klasse 6/7 (Grundlage: Prozent als Darstellungsform, Stufe D – in Berlin/Brandenburg noch Grundschule), Klasse 7 Gymnasium E, Oberschule 7–8 D–E; Rabatt/Zinsen und Überschlag auf F (Gymnasium Kl. 8, Oberschule 9–10).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Prozente als Anteile
+  - Sekundo Kl. 7, S. 82: „Prozentsätze“ (Z. 93)
+  - Sekundo Kl. 7, S. 83: „Prozentsätze und B rüche“ (Z. 95)
+  - Mathematik 2023 Kl. 5, S. 190: „Vertiefen: Brüche, Dezimalbrüche und Prozente“ (Z. 167, 168)
+  - Mathematik 2023 Kl. 6, S. 32: „Prozentzahlen“ (Z. 243)
+  - Mathematik 2023 Kl. 7, S. 48: „Prozent“ (Z. 90)
+  - Schnittpunkt Kl. 6, S. 106: „5 Dezimalbrüche, Brüche und Prozentangaben“ (Z. 237)
+  - Schnittpunkt Kl. 7, S. 180: „1 Prozente“ (Z. 154)
+  - Schnittpunkt Kl. 7, S. 182: „2 Absoluter und relativer Vergleich“ (Z. 155)
+    Ermessen: „Absoluter und relativer Vergleich“ als Vergleich über Anteile in Prozent gelesen.
+  - Schnittpunkt Kl. 7, S. 184: „EXTRA: Prozentband“ (Z. 156)
+  - Mathematik heute Kl. 6, S. 22: „Angabe von Anteilen in Prozent“ (Z. 122)
+  - Mathematik heute Kl. 7, S. 102: „Prozentschreibweise für Anteile“ (Z. 112)
+  - LS Kl. 5: „Kapitel VI Brüche – das Ganze und seine Teile“ (Z. 52) › „4 Prozente“ (Z. 60)
+  - LS Kl. 6: „Kapitel I Brüche – das Ganze und seine Teile“ (Z. 80) › „4 Prozente“ (Z. 84)
+  - Fundamente Kl. 5, S. 229: „6.11 Prozentschreibweise“ (Z. 128)
+  - Fundamente Kl. 6, S. 41: „1.11 Prozentschreibweise“ (Z. 172)
+  - Fundamente Kl. 7, S. 46: „2.1 Prozentschreibweise“ (Z. 34)
+  - Fundamente 2017 Kl. 7, S. 46: „2.1 Prozente“ (Z. 50)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 202: „9.7 Brüche und Prozente“ (Z. 687)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 26: „1.7 Brüche und Prozente“ (Z. 722)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 60: „3.1 Anteile“ (Z. 867)
+  - mathe.delta Kl. 7, S. 66: „2.4 B rü c h e ,P ro z e n te d“ (Z. 91)
+    Ermessen: Zeile verstümmelt („Brüche, Prozente d…“); als Prozent als Anteil (Einheit 1) gelesen.
+  - mathe.delta Kl. 7, S. 70: „2.5 Prozente d a rste lle n“ (Z. 92)
+  - Typ: Anteil am Streifen oder an einer Figur ablesen und einzeichnen – mathe.delta Kl. 7, S. 70: „2.5 Prozente d a rste lle n“
+  - Typ: Bruch → Prozent (Nenner 100; Nenner, der in 100 aufgeht) – Sekundo Kl. 7, S. 83: „Prozentsätze und B rüche“
+  - Typ: Anteil am Streifen oder an einer Figur ablesen und einzeichnen – Schnittpunkt Kl. 7, S. 184: „EXTRA: Prozentband“
+  - Marken: Fundamente Kl. 6: Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“ bei „1.11 Prozentschreibweise“; Mathematik 2023 Kl. 5: „Vertiefen: Brüche, Dezimalbrüche und Prozente“; Schnittpunkt Kl. 7: „EXTRA: Prozentband“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 36: „Brüche, Dezimalzahlen und Prozentsätze“ (Z. 169)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Prozent“ (Z. 37)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 27: „Dezimalbrüche, Brüche und Prozentangaben“ (Z. 273)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 41: „Prozente“ (Z. 88)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 16: „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“ (Z. 35)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 11: „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“ (Z. 45)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5–6 (Sekundo 7, Mathematik 2023 5, 6, 7, Schnittpunkt 6, 7, Mathematik heute 6, 7); Streuung der Einführung: Schnittpunkt 6, Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 6, Fundamente 5, 6, 7, Elemente 5, 6, 7, mathe.delta 7); nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Prozentsatz berechnen
+  - Sekundo Kl. 7, S. 88: „Berechnung des Prozentsatzes p %“ (Z. 107)
+  - Sekundo Kl. 8, S. 92: „Berechnung des Prozentsatzes p %“ (Z. 285)
+  - Mathematik 2023 Kl. 7, S. 54: „Prozentsatz berechnen“ (Z. 94)
+  - Schnittpunkt Kl. 7, S. 185: „3 Prozentsatz“ (Z. 157)
+  - Mathematik heute Kl. 7, S. 105: „Die Grundaufgaben der Prozentrechnung“ (Z. 113)
+    Ermessen: „Die Grundaufgaben der Prozentrechnung“ umfasst Prozentsatz, Prozentwert und Grundwert; den Einheiten 2 bis 4 zugeordnet.
+  - LS Kl. 7: „Kapitel III Prozent- und Zinsrechnung“ (Z. 128) › „1 Prozentsätze berechnen“ (Z. 129)
+  - Fundamente Kl. 7, S. 54: „2.4 Prozentsatz berechnen“ (Z. 37)
+  - Fundamente 2017 Kl. 7, S. 56: „2.5 Prozentsatz“ (Z. 54)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 47: „Berechnen des Prozentsatzes Anteil“ (Z. 99)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 62: „3.2 Prozentsatz“ (Z. 868)
+  - mathe.delta Kl. 7, S. 76: „2.7 Grundaufgaben der Prozentrechnung“ (Z. 94)
+    Ermessen: „Grundaufgaben der Prozentrechnung“ umfasst Prozentsatz, Prozentwert und Grundwert; den Einheiten 2 bis 4 zugeordnet.
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 46: „Prozentsatz berechnen“ (Z. 450)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Prozentsatz berechnen“ (Z. 41)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 43: „Prozentsatz“ (Z. 90)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 16: „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“ (Z. 35)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 11: „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“ (Z. 45)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7 (Sekundo 7, 8, Mathematik 2023 7, Schnittpunkt 7, Mathematik heute 7)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 3. Prozentwert berechnen
+  - Sekundo Kl. 7, S. 86: „Berechnung des Prozentwertes W“ (Z. 101)
+  - Sekundo Kl. 8, S. 89: „Prozentsätze über 100 %“ (Z. 282)
+  - Sekundo Kl. 8, S. 90: „Berechnung des Prozentwertes W“ (Z. 283)
+  - Mathematik 2023 Kl. 7, S. 55: „Prozentsätze von mehr als 100 %“ (Z. 45)
+  - Mathematik 2023 Kl. 7, S. 52: „Prozentwert berechnen“ (Z. 92)
+  - Schnittpunkt Kl. 7, S. 187: „4 Prozentwert“ (Z. 158)
+  - Mathematik heute Kl. 7, S. 105: „Die Grundaufgaben der Prozentrechnung“ (Z. 113)
+  - LS Kl. 7: „Kapitel III Prozent- und Zinsrechnung“ (Z. 128) › „2 Prozentwerte berechnen“ (Z. 130)
+  - Fundamente Kl. 7, S. 52: „2.3 Prozentwert berechnen“ (Z. 36)
+  - Fundamente 2017 Kl. 7, S. 52: „2.3 Prozentwert“ (Z. 52)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 50: „2.1.2 Rprpshnpn“ (Z. 100)
+    Ermessen: Die Zeile ist durch Texterkennung verstümmelt („2.1.2 Rprpshnpn Ηρς Prn7pntwprtpq …“); laut Seitenbild „2.1.2 Berechnen des Prozentwertes – Vom Ganzen zum Teil“.
+  - Elemente Kl. 7 (Ausgabe 2016), S. 59: „2.3.1 Prozentuale Erhöhung-Prozentsätze über 100%“ (Z. 105)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 64: „3.3 Prozentwert“ (Z. 869)
+  - mathe.delta Kl. 7, S. 76: „2.7 Grundaufgaben der Prozentrechnung“ (Z. 94)
+  - Typ: Prozentsatz über 100 % – Elemente Kl. 7 (Ausgabe 2016), S. 59: „2.3.1 Prozentuale Erhöhung-Prozentsätze über 100%“
+  - Typ: Prozentsatz über 100 % – Mathematik 2023 Kl. 7, S. 55: „Prozentsätze von mehr als 100 %“
+  - Typ: Prozentsatz über 100 % – Sekundo Kl. 8, S. 89: „Prozentsätze über 100 %“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 39: „Prozentwert berechnen“ (Z. 172)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 44: „Prozentwert berechnen“ (Z. 448)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Prozentwert berechnen“ (Z. 38)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 44: „Prozentwert“ (Z. 91)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 16: „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“ (Z. 35)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 11: „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“ (Z. 45)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7 (Sekundo 7, 8, Mathematik 2023 7, Schnittpunkt 7, Mathematik heute 7)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 4. Grundwert berechnen
+  - Sekundo Kl. 7, S. 89: „Berechnung des Grundwertes G“ (Z. 109)
+  - Sekundo Kl. 8, S. 91: „Berechnung des Grundwertes G“ (Z. 284)
+  - Mathematik 2023 Kl. 7, S. 53: „Grundwert berechnen“ (Z. 93)
+  - Schnittpunkt Kl. 7, S. 189: „5 Grundwert“ (Z. 159)
+  - Mathematik heute Kl. 7, S. 105: „Die Grundaufgaben der Prozentrechnung“ (Z. 113)
+  - LS Kl. 7: „Kapitel III Prozent- und Zinsrechnung“ (Z. 128) › „3 Grundwerte berechnen“ (Z. 131)
+  - Fundamente Kl. 7, S. 56: „2.5 Grundwert berechnen“ (Z. 38)
+  - Fundamente 2017 Kl. 7, S. 54: „2.4 Grundwert“ (Z. 53)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 53: „BerechnendesGrundwertes-VomTeilzumGanzen“ (Z. 101)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 66: „3.4 Grundwert“ (Z. 870)
+  - mathe.delta Kl. 7, S. 76: „2.7 Grundaufgaben der Prozentrechnung“ (Z. 94)
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 45: „Grundwert berechnen“ (Z. 449)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Grundwert berechnen“ (Z. 40)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 45: „Grundwert“ (Z. 92)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 16: „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“ (Z. 35)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 11: „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“ (Z. 45)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7 (Sekundo 7, 8, Mathematik 2023 7, Schnittpunkt 7, Mathematik heute 7)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 5. Prozentuale Veränderung
+  - Sekundo Kl. 7, S. 92: „Preisnachlass - Preiserhöhung“ (Z. 115)
+  - Sekundo Kl. 7, S. 94: „Brutto - N e tto“ (Z. 119)
+  - Sekundo Kl. 8, S. 93: „Vermehrter und verminderter G rundwert“ (Z. 286)
+  - Sekundo Kl. 8, S. 95: „Brutto - N e tto“ (Z. 287)
+  - Sekundo Kl. 9, S. 88: „Prozentfaktor“ (Z. 414)
+  - Sekundo Kl. 9, S. 89: „Rabatt - Skonto“ (Z. 415)
+    Ermessen: Rabatt und Skonto als prozentuale Senkung gelesen.
+  - Sekundo Kl. 10, S. 112: „LVL: Steigung in Prozent“ (Z. 553)
+  - Mathematik 2023 Kl. 7, S. 58: „Prozentuale Abnahme“ (Z. 47)
+  - Mathematik 2023 Kl. 7, S. 59: „Prozentuale Zunahme“ (Z. 49)
+  - Mathematik 2023 Kl. 7, S. 60: „Prozentuale Veränderungen“ (Z. 50)
+  - Mathematik 2023 Kl. 7, S. 61: „Mehrfache prozentuale Veränderungen“ (Z. 51)
+  - Mathematik 2023 Kl. 7, S. 68: „Üben: Brutto und netto“ (Z. 56)
+  - Schnittpunkt Kl. 7, S. 201: „EXTRA: Rabatt, Skonto und Mehrwertsteuer“ (Z. 167)
+    Ermessen: Rabatt, Skonto und Mehrwertsteuer als Veränderung eines Preises (Einheit 5) gelesen; Mehrwertsteuer in Euro ist auch Typ der Einheit 3.
+  - Schnittpunkt Kl. 8, S. 129: „2 Vermehrter und verminderter Grundwert“ (Z. 275)
+  - Mathematik heute Kl. 7, S. 121: „Prozentuale Veränderung“ (Z. 115)
+  - Mathematik heute Kl. 8, S. 12: „Prozentuale Veränderung“ (Z. 137)
+  - LS Kl. 7: „Kapitel III Prozent- und Zinsrechnung“ (Z. 128) › „4 Überall Prozente“ (Z. 132)
+    Ermessen: „Überall Prozente“ (wie in der NRW-Druckausgabe nach den Grundaufgaben) als prozentuale Veränderung und Anwendungen gelesen.
+  - Fundamente Kl. 7, S. 60: „2.6 Prozentuale Veränderung“ (Z. 40)
+  - Fundamente 2017 Kl. 7, S. 58: „Streifzug: Prozentuale Änderungen“ (Z. 55)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 59: „2.3 Prozentuale Änderungen“ (Z. 104)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 62: „2.3.2 Prozentuale Abnahme“ (Z. 106)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 67: „Prozent oder Prozentpunkte - was ist hier gemeint?“ (Z. 108)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 70: „3.6 Prozentuale Zunahme und Abnahme“ (Z. 872)
+  - mathe.delta Kl. 7, S. 80: „2.8 V _ e h rte ru n d v e“ (Z. 95)
+    Ermessen: Zeile verstümmelt; als 2.8 „Vermehrter und verminderter Grundwert“ gelesen.
+  - Typ: Prozentpunkte gegen Prozent – Elemente Kl. 7 (Ausgabe 2016), S. 67: „Prozent oder Prozentpunkte - was ist hier gemeint?“
+  - Typ: Brutto/Netto (19 %, 7 %) – Mathematik 2023 Kl. 7, S. 68: „Üben: Brutto und netto“
+  - Typ: Brutto/Netto (19 %, 7 %) – Sekundo Kl. 7, S. 94: „Brutto - N e tto“
+  - Typ: Brutto/Netto (19 %, 7 %) – Sekundo Kl. 8, S. 95: „Brutto - N e tto“
+  - Typ: neuer Wert über Faktor (1,2; 0,8) – Sekundo Kl. 9, S. 88: „Prozentfaktor“
+  - Typ: Steigung in Prozent deuten und berechnen – Sekundo Kl. 10, S. 112: „LVL: Steigung in Prozent“
+  - Marken: Fundamente 2017 Kl. 7: „Streifzug: Prozentuale Änderungen“; Mathematik 2023 Kl. 7: „Üben: Brutto und netto“; Sekundo Kl. 10: „LVL: Steigung in Prozent“; Schnittpunkt Kl. 7: „EXTRA: Rabatt, Skonto und Mehrwertsteuer“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 42: „Preisnachlass - Preiserhöhung“ (Z. 175)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 48: „Vermehrter Grundwert“ (Z. 452)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 43: „Vermehrter und verminderter Grundwert“ (Z. 267)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Prozentuale Abnahme“ (Z. 43)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 36: „Vermehrter und verminderter Grundwert“ (Z. 358)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 16: „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“ (Z. 35)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 11: „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“ (Z. 45)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7 (Sekundo 7, 8, 9, 10, Mathematik 2023 7, Schnittpunkt 7, 8, Mathematik heute 7, 8)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–6, GYM Kl. 5)
+- Boden: ja
+- Ermessen (11):
+  - Einheit 1, Schnittpunkt Kl. 7: „Absoluter und relativer Vergleich“ als Vergleich über Anteile in Prozent gelesen.
+  - Einheit 1, mathe.delta Kl. 7: Zeile verstümmelt („Brüche, Prozente d…“); als Prozent als Anteil (Einheit 1) gelesen.
+  - Einheit 2, Mathematik heute Kl. 7: „Die Grundaufgaben der Prozentrechnung“ umfasst Prozentsatz, Prozentwert und Grundwert; den Einheiten 2 bis 4 zugeordnet.
+  - Einheit 2, mathe.delta Kl. 7: „Grundaufgaben der Prozentrechnung“ umfasst Prozentsatz, Prozentwert und Grundwert; den Einheiten 2 bis 4 zugeordnet.
+  - Einheit 3, Elemente Kl. 7 (Ausgabe 2016): Die Zeile ist durch Texterkennung verstümmelt („2.1.2 Rprpshnpn Ηρς Prn7pntwprtpq …“); laut Seitenbild „2.1.2 Berechnen des Prozentwertes – Vom Ganzen zum Teil“.
+  - Einheit 5, Sekundo Kl. 9: Rabatt und Skonto als prozentuale Senkung gelesen.
+  - Einheit 5, Schnittpunkt Kl. 7: Rabatt, Skonto und Mehrwertsteuer als Veränderung eines Preises (Einheit 5) gelesen; Mehrwertsteuer in Euro ist auch Typ der Einheit 3.
+  - Einheit 5, LS Kl. 7: „Überall Prozente“ (wie in der NRW-Druckausgabe nach den Grundaufgaben) als prozentuale Veränderung und Anwendungen gelesen.
+  - Einheit 5, mathe.delta Kl. 7: Zeile verstümmelt; als 2.8 „Vermehrter und verminderter Grundwert“ gelesen.
+  - Einheiten 1, 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheiten 1, 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### zinsrechnung – Zinsen als Anwendung der Prozentrechnung – Zinssatz, Zinsen und Kapital wie Prozentsatz, Prozentwert und Grundwert – stehen im RLP auf F (Gymnasium Kl. 8 laut Bildungsgangtabelle; Oberschule/Gesamtschule 9–10 regulär) innerhalb der Prozentrechnungs-Zeile „auch im Zusammenhang mit Rabatt und Zinsen“; Überschlagen und Überprüfen bei der Prozentrechnung ebenfalls F. Der Zinseszins (Zinsen werden mitverzinst, Kapital nach n Jahren als K · qⁿ) hat im RLP 1–10 Teil C keine eigene Zeile; die nächste ist H unter Gleichungen und Funktionen „Darstellen von … Sachverhalten (auch für potenzielle und exponentielle Zusammenhänge) durch Terme und Gleichungen unter Verwendung von Prozentdarstellungen, Potenzen …“ – exponentielles Wachstum als Thema → potenz-exponentialfunktionen.md.
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Jahreszins, Monats- und Tageszins
+  - Sekundo Kl. 8, S. 102: „Kapital, Zinssatz und Zinsen“ (Z. 294)
+  - Sekundo Kl. 8, S. 103: „Berechnung von Kapital und Zinssatz“ (Z. 296)
+  - Sekundo Kl. 8, S. 104: „Monatszinsen und Tageszinsen“ (Z. 298)
+  - Sekundo Kl. 8, S. 106: „Kredite vergleichen“ (Z. 299)
+  - Sekundo Kl. 9, S. 92: „Zinsrechnung“ (Z. 418)
+  - Sekundo Kl. 10, S. 128: „Zinsrechnung“ (Z. 577)
+  - Mathematik 2023 Kl. 8, S. 57: „Vertiefen: Umstellen der Zinsformel“ (Z. 224)
+    Ermessen: Umstellen der Zinsformel als Kapital bzw. Zinssatz aus den übrigen Größen gelesen.
+  - Mathematik 2023 Kl. 8, S. 45: „Grundaufgaben der Zinsrechnung“ (Z. 261)
+  - Mathematik 2023 Kl. 8, S. 47: „Tageszinsen“ (Z. 262)
+  - Schnittpunkt Kl. 8, S. 132: „3 Zinsrechnen“ (Z. 276)
+  - Schnittpunkt Kl. 8, S. 135: „4 Monatszinsen. Tageszinsen“ (Z. 277)
+  - Schnittpunkt Kl. 10, S. 82: „1 Zinsen“ (Z. 527)
+  - Mathematik heute Kl. 8, S. 23: „Zinsrechnung“ (Z. 139)
+  - LS Kl. 7: „Kapitel III Prozent- und Zinsrechnung“ (Z. 128) › „5 Zinsen“ (Z. 133)
+  - Fundamente Kl. 7, S. 65: „2.7 Zinsen“ (Z. 41)
+  - Fundamente 2017 Kl. 7, S. 62: „2.6 Zinsrechnung“ (Z. 57)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 70: „Zum Selbstlernen Zinsen für“ (Z. 110)
+    Ermessen: Zeile verstümmelt („Zinsen für ‫ ן‬J a h r“); laut Seitenbild „2.5 Zum Selbstlernen Zinsen für 1 Jahr“.
+  - Elemente Kl. 7 (Ausgabe 2016), S. 72: „2.6 Zinsen für beliebige Zeitspannen“ (Z. 111)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 72: „2.6.1 Zinsen für Bruchteile“ (Z. 112)
+    Ermessen: laut Seitenbild „Zinsen für Bruchteile eines Jahres“: Monats- und Tageszinsen.
+  - Elemente Kl. 7 (Ausgabe 2016), S. 74: „2.6.2 Zinsen für mehrere Jahre“ (Z. 113)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 74: „3.7 Zinsen berechnen“ (Z. 873)
+  - mathe.delta Kl. 7, S. 82: „2.9 Zinsrechnung“ (Z. 96)
+  - Typ: Zinsen für mehrere Jahre ohne Zinseszins: Jahreszins mal Jahre (Kredit, Vergleich mit Einheit 2) – Elemente Kl. 7 (Ausgabe 2016), S. 74: „2.6.2 Zinsen für mehrere Jahre“
+  - Typ: Tageszinsen: Jahreszinsen durch 360 mal Anzahl der Tage (Bankjahr 360 Tage, jeder Monat 30 Tage) – Mathematik 2023 Kl. 8, S. 47: „Tageszinsen“
+  - Typ: Kapital aus Zinsen und Zinssatz (1 %-Weg rückwärts: 45 € sind 3 % → 1 % = 15 € → 1500 €) – Mathematik 2023 Kl. 8, S. 57: „Vertiefen: Umstellen der Zinsformel“
+  - Typ: Kapital, Zinssatz und Zinsen im Text finden und den Prozentbegriffen zuordnen (Kapital = Grundwert, Zinssatz = Prozentsatz, Zinsen = Prozentwert) – Sekundo Kl. 8, S. 102: „Kapital, Zinssatz und Zinsen“
+  - Typ: Monatszinsen: Jahreszinsen durch 12 mal Anzahl der Monate (Laufzeit ein halbes Jahr, drei Monate) – Sekundo Kl. 8, S. 104: „Monatszinsen und Tageszinsen“
+  - Typ: Tageszinsen: Jahreszinsen durch 360 mal Anzahl der Tage (Bankjahr 360 Tage, jeder Monat 30 Tage) – Sekundo Kl. 8, S. 104: „Monatszinsen und Tageszinsen“
+  - Typ: Kredit: Zinsen als Kosten, Rückzahlung = Kreditsumme plus Zinsen – Sekundo Kl. 8, S. 106: „Kredite vergleichen“
+  - Typ: Monatszinsen: Jahreszinsen durch 12 mal Anzahl der Monate (Laufzeit ein halbes Jahr, drei Monate) – Schnittpunkt Kl. 8, S. 135: „4 Monatszinsen. Tageszinsen“
+  - Typ: Tageszinsen: Jahreszinsen durch 360 mal Anzahl der Tage (Bankjahr 360 Tage, jeder Monat 30 Tage) – Schnittpunkt Kl. 8, S. 135: „4 Monatszinsen. Tageszinsen“
+  - Marken: Elemente Kl. 7 (Ausgabe 2016): „Zum Selbstlernen Zinsen für“; Mathematik 2023 Kl. 8: „Vertiefen: Umstellen der Zinsformel“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 53: „Zinsrechnung“ (Z. 457)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 46: „Zinsrechnung“ (Z. 270)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 16: „Grundaufgaben der Zinsrechnung“ (Z. 112)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 38: „Monatszinsen. Tageszinsen (1)“ (Z. 360)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 16: „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“ (Z. 35)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 11: „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“ (Z. 45)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8 (Sekundo 8, 9, 10, Mathematik 2023 8, Schnittpunkt 8, 10, Mathematik heute 8)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 2. Zinseszins und Guthabentabelle
+  - Sekundo Kl. 9, S. 94: „LVL: Zinseszins“ (Z. 419)
+  - Sekundo Kl. 9, S. 95: „LVL: Ratensparen“ (Z. 420)
+    Ermessen: Ratensparen als Guthaben mit regelmäßiger Einzahlung gelesen.
+  - Sekundo Kl. 10, S. 129: „Regelmäßige Ein- und Auszahlungen mit Tabellenkalkulation“ (Z. 579, 580)
+  - Sekundo Kl. 10, S. 130: „Zinseszinsrechnung“ (Z. 582)
+  - Sekundo Kl. 10, S. 132: „Berechnung des Zinsfaktors q und des Zinssatzes p%“ (Z. 583, 585)
+  - Mathematik 2023 Kl. 8, S. 48: „Mit dem Zinsfaktor rechnen“ (Z. 263)
+    Ermessen: Zinsfaktor als Wachstumsfaktor q = 1 + p/100 gelesen.
+  - Mathematik 2023 Kl. 8, S. 49: „Zinseszinsen“ (Z. 264)
+  - Mathematik 2023 Kl. 10, S. 47: „Üben: Zinseszinsrechnung“ (Z. 532)
+  - Schnittpunkt Kl. 8, S. 138: „5 Zinseszinsen“ (Z. 278)
+  - Schnittpunkt Kl. 10, S. 84: „2 Zinseszinsen“ (Z. 528)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 7: „Kapitel III Prozent- und Zinsrechnung“ (Z. 128) › „6 Zinseszinsen“ (Z. 134)
+  - Fundamente Kl. 7, S. 68: „Streifzug: Sparpläne und Tilgungspläne mit Tabellenkalkulationen“ (Z. 42)
+    Ermessen: Sparpläne mit Tabellenkalkulation als Guthabentabelle mit Einzahlung gelesen.
+  - Fundamente 2017 Kl. 7, S. 66: „Streifzug: Zinseszins“ (Z. 58)
+  - Fundamente 2017 Kl. 10, S. 50: „2.2 Prozentuale Wachstumsrate und Zinseszins“ (Z. 353)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 74: „2.6.2 Zinsen für mehrere Jahre“ (Z. 113)
+    Ermessen: „Zinsen für mehrere Jahre“ kann einfache Verzinsung (Einheit 1) oder Zinseszins (Einheit 2) sein; das Verzeichnis entscheidet es nicht – beiden zugeordnet.
+  - Elemente Kl. 7 (Ausgabe 2025), S. 76: „3.8 Zinseszins“ (Z. 874)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 78: „3.9 Zinseszins mit Tabellenkalkulation“ (Z. 875)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Guthaben nach n Jahren mit jährlicher Einzahlung (Tabelle statt Formel) – Fundamente Kl. 7, S. 68: „Streifzug: Sparpläne und Tilgungspläne mit Tabellenkalkulationen“
+  - Typ: Wachstumsfaktor: „plus 2 %“ ist „mal 1,02“, q = 1 + p/100 – Mathematik 2023 Kl. 8, S. 48: „Mit dem Zinsfaktor rechnen“
+  - Typ: Guthaben nach n Jahren mit jährlicher Einzahlung (Tabelle statt Formel) – Sekundo Kl. 9, S. 95: „LVL: Ratensparen“
+  - Typ: Guthaben nach n Jahren mit jährlicher Einzahlung (Tabelle statt Formel) – Sekundo Kl. 10, S. 129: „Regelmäßige Ein- und Auszahlungen mit Tabellenkalkulation“
+  - Typ: Wachstumsfaktor: „plus 2 %“ ist „mal 1,02“, q = 1 + p/100 – Sekundo Kl. 10, S. 132: „Berechnung des Zinsfaktors q und des Zinssatzes p%“
+  - Marken: Fundamente Kl. 7: „Streifzug: Sparpläne und Tilgungspläne mit Tabellenkalkulationen“; Fundamente 2017 Kl. 7: „Streifzug: Zinseszins“; Mathematik 2023 Kl. 10: „Üben: Zinseszinsrechnung“; Sekundo Kl. 9: „LVL: Zinseszins“; Sekundo Kl. 9: „LVL: Ratensparen“; Sekundo Kl. 10: Zeichen „W“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Berechnung des Zinsfaktors q und des Zinssatzes p%“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 40: „Zinseszinsen (1)“ (Z. 362)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 34: „Zinseszinsen“ (Z. 427)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 16: „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“ (Z. 35)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 11: „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“ (Z. 45)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8–9 (Sekundo 9, 10, Mathematik 2023 8, 10, Schnittpunkt 8, 10, Mathematik heute –); Streuung der Einführung: Sekundo 9 später als Kl. 8
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 8, GYM Kl. 7; Einheit 2: OS Kl. 8–9, GYM Kl. 7; ohne gemeinsame Klasse: Einheiten 1, 2)
+- Boden: nein
+- Ermessen (9):
+  - Einheit 1, Mathematik 2023 Kl. 8: Umstellen der Zinsformel als Kapital bzw. Zinssatz aus den übrigen Größen gelesen.
+  - Einheit 1, Elemente Kl. 7 (Ausgabe 2016): Zeile verstümmelt („Zinsen für ‫ ן‬J a h r“); laut Seitenbild „2.5 Zum Selbstlernen Zinsen für 1 Jahr“.
+  - Einheit 1, Elemente Kl. 7 (Ausgabe 2016): laut Seitenbild „Zinsen für Bruchteile eines Jahres“: Monats- und Tageszinsen.
+  - Einheit 2, Sekundo Kl. 9: Ratensparen als Guthaben mit regelmäßiger Einzahlung gelesen.
+  - Einheit 2, Mathematik 2023 Kl. 8: Zinsfaktor als Wachstumsfaktor q = 1 + p/100 gelesen.
+  - Einheit 2, Fundamente Kl. 7: Sparpläne mit Tabellenkalkulation als Guthabentabelle mit Einzahlung gelesen.
+  - Einheit 2, Elemente Kl. 7 (Ausgabe 2016): „Zinsen für mehrere Jahre“ kann einfache Verzinsung (Einheit 1) oder Zinseszins (Einheit 2) sein; das Verzeichnis entscheidet es nicht – beiden zugeordnet.
+  - Einheiten 1, 2, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Prozent- und Zinsrechnung (Schülerband Seite 104 bis 143)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheiten 1, 2, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Prozent- und Zinsrechnung (Schülerband Seite 46 bis 71)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### potenzen-wurzeln – Potenzen mit natürlichem Exponenten als fortgesetzte Multiplikation, Zehnerpotenzen und die Darstellung rationaler Zahlen mithilfe von Zehnerpotenzen, Quadrat- und Kubikwurzel als Umkehrung des Potenzierens: Stufe F (Gymnasium Kl. 8 laut Bildungsgangtabelle; Oberschule/Gesamtschule 9–10 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Potenzen
+  - Sekundo Kl. 7, S. 20: „Quadratzahlen und Kubikzahlen“ (Z. 78)
+  - Sekundo Kl. 9, S. 22: „Potenzen“ (Z. 390)
+  - Sekundo Kl. 10, S. 82: „Potenzen“ (Z. 523)
+  - Sekundo Kl. 10, S. 83: „Potenzen mit negativen Exponenten“ (Z. 524)
+  - Mathematik 2023 Kl. 5, S. 66: „Potenzieren“ (Z. 67)
+  - Mathematik 2023 Kl. 7, S. 114: „Potenzen“ (Z. 128)
+  - Mathematik 2023 Kl. 10, S. 16: „Potenzen mit negativen Exponenten“ (Z. 546)
+  - Schnittpunkt Kl. 5, S. 88: „4 Potenzieren“ (Z. 81)
+  - Schnittpunkt Kl. 9, S. 32: „1 Potenzen“ (Z. 351)
+  - Schnittpunkt Kl. 10, S. 66: „1 Potenzen mit ganzen Zahlen als Exponenten“ (Z. 516)
+  - Mathematik heute Kl. 5, S. 43 (Seite des Lösungsbands): „Potenzieren“ (Z. 70)
+  - Mathematik heute Kl. 7, S. 45: „Produkte aus gleichen Faktoren - Potenzen“ (Z. 83)
+  - Mathematik heute Kl. 8, S. 96: „Quadrieren“ (Z. 186)
+    Ermessen: „Quadrieren“ im Kapitel Wurzeln als Quadratzahlen gelesen.
+  - Mathematik heute Kl. 9, S. 61: „Potenzen“ (Z. 249)
+  - LS Kl. 5: „Kapitel III Rechnen“ (Z. 53) › „4 Potenzieren“ (Z. 61)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „1 Potenzen mit ganzzahligen Exponenten“ (Z. 193)
+  - Fundamente Kl. 5, S. 78: „2.10 Potenzieren“ (Z. 67)
+  - Fundamente Kl. 8, S. 172: „6.1 Potenzieren“ (Z. 225)
+  - Fundamente Kl. 9, S. 58: „2.4 Potenzen mit ganzzahligen Exponenten“ (Z. 302)
+  - Fundamente 2017 Kl. 8, S. 10: „1.1 Potenzen“ (Z. 143)
+  - Fundamente 2017 Kl. 9, S. 18: „1.2 Potenzen mit ganzzahligen E x p o n e n te n“ (Z. 248)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 65: „3.7 Potenzen“ (Z. 607)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 167: „5.1 Potenzen mit ganzzahligen Exponenten“ (Z. 435)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 172: „5.1.2 Erweiterung des Potenzbegriffs auf negative ganzzahlige Exponenten“ (Z. 438, 439)
+  - mathe.delta Kl. 7, S. 40: „1.10 Potenzen mjt rationaler Basis“ (Z. 72)
+  - mathe.delta Kl. 9, S. 18: „1.1 Potenzen mit negativen Exponenten“ (Z. 567)
+  - Typ: Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null – Elemente Kl. 9 (Ausgabe 2016), S. 172: „5.1.2 Erweiterung des Potenzbegriffs auf negative ganzzahlige Exponenten“
+  - Typ: Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null – Fundamente Kl. 9, S. 58: „2.4 Potenzen mit ganzzahligen Exponenten“
+  - Typ: Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null – LS Kl. 9: „1 Potenzen mit ganzzahligen Exponenten“
+  - Typ: Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null – Mathematik 2023 Kl. 10, S. 16: „Potenzen mit negativen Exponenten“
+  - Typ: Potenz mit negativer Basis: Vorzeichen aus gerader oder ungerader Hochzahl ((−3)⁴ = 81, (−3)³ = −27), Klammer gegen kein Klammer (−3⁴ = −81) – mathe.delta Kl. 7, S. 40: „1.10 Potenzen mjt rationaler Basis“
+  - Typ: Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null – mathe.delta Kl. 9, S. 18: „1.1 Potenzen mit negativen Exponenten“
+  - Typ: Quadratzahlen bis 20² aus dem Kopf, Kubikzahlen bis 10³ – Mathematik heute Kl. 8, S. 96: „Quadrieren“
+  - Typ: Quadratzahlen bis 20² aus dem Kopf, Kubikzahlen bis 10³ – Sekundo Kl. 7, S. 20: „Quadratzahlen und Kubikzahlen“
+  - Typ: Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null – Sekundo Kl. 10, S. 83: „Potenzen mit negativen Exponenten“
+  - Typ: Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null – Schnittpunkt Kl. 10, S. 66: „1 Potenzen mit ganzen Zahlen als Exponenten“
+  - Marken: Sekundo Kl. 7: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 102 („*“) bei „Quadratzahlen und Kubikzahlen“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 14: „Potenzen“ (Z. 234)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 20: „Potenzieren“ (Z. 195)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 43: „Potenzen (Schülerband Seite 198 bis 211)“ (Z. 50)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5 (Sekundo 7, 9, 10, Mathematik 2023 5, 7, 10, Schnittpunkt 5, 9, 10, Mathematik heute 5, 7, 8, 9); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 9, Fundamente 5, 8, 9, Elemente 5, 9, mathe.delta 7, 9); nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Zehnerpotenzen
+  - Sekundo Kl. 9, S. 23: „Zehnerpotenzen“ (Z. 392)
+  - Sekundo Kl. 9, S. 24: „Zehnerpotenzen mit negativen Exponenten“ (Z. 394)
+  - Sekundo Kl. 9, S. 25: „Standardschreibweise für sehr große und sehr kleine positive Zahlen“ (Z. 395, 397)
+  - Sekundo Kl. 10, S. 84: „Standardschreibweise“ (Z. 525)
+  - Mathematik 2023 Kl. 10, S. 9: „Zehnerpotenzen“ (Z. 541)
+  - Schnittpunkt Kl. 9, S. 34: „2 Zehnerpotenzen mit positivenExponenten“ (Z. 352)
+  - Schnittpunkt Kl. 9, S. 36: „3 Zehnerpotenzen mit negativen Exponenten“ (Z. 353)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „2 Zahlen mit Zehnerpotenzen schreiben“ (Z. 194)
+  - Fundamente Kl. 8, S. 175: „6.2 Wissenschaftliche Schreibweise mit Zehnerpotenzen“ (Z. 226)
+  - Fundamente 2017 Kl. 8, S. 13: „1.2 Zehnerpotenzen“ (Z. 144)
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta Kl. 9, S. 20: „1.2 Zehnerpotenzen“ (Z. 568)
+  - Typ: Zahl in Zehnerpotenzschreibweise a · 10ⁿ mit a zwischen 1 und 10 schreiben (Komma setzen, Stellen zählen) – Fundamente Kl. 8, S. 175: „6.2 Wissenschaftliche Schreibweise mit Zehnerpotenzen“
+  - Typ: Zahl kleiner als eins in Zehnerpotenzschreibweise schreiben (0,00035 = 3,5 · 10⁻⁴) – Sekundo Kl. 9, S. 24: „Zehnerpotenzen mit negativen Exponenten“
+  - Typ: Zahl in Zehnerpotenzschreibweise a · 10ⁿ mit a zwischen 1 und 10 schreiben (Komma setzen, Stellen zählen) – Sekundo Kl. 9, S. 25: „Standardschreibweise für sehr große und sehr kleine positive Zahlen“
+  - Typ: Zahl kleiner als eins in Zehnerpotenzschreibweise schreiben (0,00035 = 3,5 · 10⁻⁴) – Schnittpunkt Kl. 9, S. 36: „3 Zehnerpotenzen mit negativen Exponenten“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 15: „Zehnerpotenzen“ (Z. 235)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 11: „Zehnerpotenzen mit negativen Exponenten“ (Z. 116)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 43: „Potenzen (Schülerband Seite 198 bis 211)“ (Z. 50)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9–10 (Sekundo 9, 10, Mathematik 2023 10, Schnittpunkt 9, Mathematik heute –); Streuung der Einführung: Mathematik 2023 10 später als Kl. 9
+  - GYM: Kl. 8–9 (LS 9, Fundamente 8, Elemente –, mathe.delta 9); Streuung der Einführung: LS 9, mathe.delta 9 später als Kl. 8
+- 3. Quadratwurzeln
+  - Sekundo Kl. 7, S. 146: „O Quadrat- und Kubikwurzel“ (Z. 194)
+  - Sekundo Kl. 9, S. 30: „Quadratwurzeln“ (Z. 401)
+  - Sekundo Kl. 9, S. 33: „Kubikwurzeln“ (Z. 403)
+  - Mathematik 2023 Kl. 7, S. 115: „Quadratwurzeln“ (Z. 132)
+  - Mathematik 2023 Kl. 7, S. 116: „Dritte Wurzeln“ (Z. 135)
+  - Mathematik 2023 Kl. 7, S. 117: „Näherungswerte für Quadratwurzeln und dritte Wurzeln“ (Z. 136, 141)
+  - Mathematik 2023 Kl. 9, S. 56: „Ebene Figuren und flächengleiche Quadrate“ (Z. 389, 390)
+  - Mathematik 2023 Kl. 9, S. 59: „Quadratwurzeln“ (Z. 391)
+  - Mathematik 2023 Kl. 9, S. 60: „Kubikwurzeln“ (Z. 392)
+  - Schnittpunkt Kl. 9, S. 38: „4 Quadratwurzeln“ (Z. 354)
+  - Schnittpunkt Kl. 9, S. 50: „9 Kubikwurzeln“ (Z. 360)
+  - Mathematik heute Kl. 8, S. 98: „Quadratwurzelziehen“ (Z. 187)
+  - Mathematik heute Kl. 8, S. 102: „Kubikwurzeln“ (Z. 188)
+  - LS Kl. 8: „Kapitel IV Reelle Zahlen“ (Z. 163) › „1 Quadratwurzeln“ (Z. 164)
+  - Fundamente Kl. 8, S. 178: „6.3 Quadratwurzeln und Kubikwurzeln“ (Z. 227)
+  - Fundamente 2017 Kl. 8, S. 17: „1.3 Quadratwurzeln und Kubikwurzeln“ (Z. 145)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 141: „4.1 Quadrat- und Kubikwurzeln“ (Z. 285)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 11: „1.1 Quadratwurzeln“ (Z. 355)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 11: „1.1.1 Näherungswerte für Quadratwurzeln“ (Z. 356)
+  - mathe.delta Kl. 8: „5.1 Quadratwurzeln“ (Z. 460) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - mathe.delta Kl. 9, S. 26: „1.4 Wurzeln“ (Z. 570)
+    Ermessen: „Wurzeln“ im Kapitel Reelle Zahlen (Kl. 9) als Quadrat- und Kubikwurzeln gelesen; im Stoffverteilungsplan stehen die Quadratwurzeln schon Kl. 8.
+  - Typ: Kubikwurzel (³√27 = 3; Vorrat) – Mathematik 2023 Kl. 7, S. 116: „Dritte Wurzeln“
+  - Typ: Quadratseite aus dem Flächeninhalt (a = √A; Typ in flaechen.md Einheit 1) – Mathematik 2023 Kl. 9, S. 56: „Ebene Figuren und flächengleiche Quadrate“
+  - Typ: Kubikwurzel (³√27 = 3; Vorrat) – Mathematik 2023 Kl. 9, S. 60: „Kubikwurzeln“
+  - Typ: Kubikwurzel (³√27 = 3; Vorrat) – Mathematik heute Kl. 8, S. 102: „Kubikwurzeln“
+  - Typ: Kubikwurzel (³√27 = 3; Vorrat) – Sekundo Kl. 9, S. 33: „Kubikwurzeln“
+  - Typ: Kubikwurzel (³√27 = 3; Vorrat) – Schnittpunkt Kl. 9, S. 50: „9 Kubikwurzeln“
+  - Marken: Sekundo Kl. 7: Zeichen „O“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „O Quadrat- und Kubikwurzel“; Sekundo Kl. 7: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 484 („*“) bei „O Quadrat- und Kubikwurzel“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 16: „Quadrate und Quadratwurzeln“ (Z. 236)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Quadratwurzeln“ (Z. 62)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 20: „Kubikwurzeln“ (Z. 200)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 12: „Quadratwurzeln“ (Z. 117)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 17: „Wurzeln - Reelle Zahlen (Schülerband Seite 78 bis 105)“ (Z. 57)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–9 (Sekundo 7, 9, Mathematik 2023 7, 9, Schnittpunkt 9, Mathematik heute 8); Streuung der Einführung: Schnittpunkt 9, Mathematik heute 8 später als Kl. 7
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, 9, mathe.delta 8, 9)
+- Spanne OS/GYM: ja (Einheit 2: OS Kl. 9–10, GYM Kl. 8–9; Einheit 3: OS Kl. 7–9, GYM Kl. 8)
+- Boden: ja
+- Ermessen (4):
+  - Einheit 1, Mathematik heute Kl. 8: „Quadrieren“ im Kapitel Wurzeln als Quadratzahlen gelesen.
+  - Einheit 3, mathe.delta Kl. 9: „Wurzeln“ im Kapitel Reelle Zahlen (Kl. 9) als Quadrat- und Kubikwurzeln gelesen; im Stoffverteilungsplan stehen die Quadratwurzeln schon Kl. 8.
+  - Einheiten 1, 2, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Potenzen (Schülerband Seite 198 bis 211)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheit 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Wurzeln - Reelle Zahlen (Schülerband Seite 78 bis 105)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### reelle-zahlen – Irrationale Zahlen (Pi, Quadratwurzeln nicht quadratischer Zahlen), Näherungswerte, Vergleichen und Runden reeller Zahlen, Teilmengenbeziehungen der Zahlbereiche und die Erweiterung auf die reellen Zahlen: Stufe G (Gymnasium Kl. 9 laut Bildungsgangtabelle; Oberschule/Gesamtschule 9–10 „in Teilen“, für den MSA nötig).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Irrationale Zahlen und Zahlbereiche
+  - Sekundo Kl. 9, S. 35: „LVL: Rationale und irrationale Zahlen“ (Z. 405)
+  - Sekundo Kl. 9, S. 36: „Reelle Zahlen und Intervallschachtelung“ (Z. 406)
+  - Sekundo Kl. 10, S. 94: „M LVL: Irrationale Zahlen“ (Z. 535)
+  - Mathematik 2023 Kl. 9, S. 61: „Irrationale Zahlen“ (Z. 393)
+  - Mathematik 2023 Kl. 9, S. 63: „Rationale und irrationale Zahlen“ (Z. 394)
+  - Mathematik 2023 Kl. 9, S. 64: „Von den natürlichen zu den reellen Zahlen“ (Z. 395)
+  - Schnittpunkt Kl. 9, S. 40: „5 Reelle Zahlen“ (Z. 355)
+  - Schnittpunkt Kl. 9, S. 42: „6 Näherungswerte irrationaler Zahlen“ (Z. 356)
+    Ermessen: Näherungswerte irrationaler Zahlen als Vergleichen über Näherungswerte gelesen; die Einschachtelung (Vorrat) ist möglich, aber nicht genannt.
+  - Mathematik heute Kl. 9, S. 56: „Reelle Zahlen“ (Z. 248)
+  - LS Kl. 8: „Kapitel IV Reelle Zahlen“ (Z. 163) › „2 Wurzeln näherungsweise bestimmen“ (Z. 165)
+    Ermessen: Näherungsweise Bestimmung von Wurzeln als Einschachtelung gelesen.
+  - LS Kl. 8: „Kapitel IV Reelle Zahlen“ (Z. 163) › „3 Irrationale Zahlen“ (Z. 166)
+  - Fundamente Kl. 9, S. 46: „2.1 Rationale und irrationale Zahlen“ (Z. 297)
+  - Fundamente Kl. 9, S. 48: „Streifzug: Widerspruchsbeweise“ (Z. 298)
+  - Fundamente Kl. 9, S. 50: „2.2 Intervallschachtelung“ (Z. 299)
+  - Fundamente Kl. 9, S. 73: „2.9 Näherungswerte“ (Z. 307)
+    Ermessen: „Näherungswerte“ im Kapitel Potenzen und Wurzeln als Näherungswerte irrationaler Zahlen gelesen.
+  - Fundamente 2017 Kl. 9, S. 8: „1.1 Reelle Zahlen und Intervallschachtelung“ (Z. 245)
+  - Fundamente 2017 Kl. 9, S. 39: „1.7 N äh eru n g sw erte“ (Z. 253)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 12: „1.1.2 Irrationale Zahlen“ (Z. 357)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 16: „1.2 Reelle Zahlen“ (Z. 358)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 18: „1.3 Intervallhalbierungsverfahren“ (Z. 359)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 33: „1.7 Vergleich der Zahlbereiche N, Q +, Q und (R“ (Z. 364)
+  - mathe.delta Kl. 9, S. 30: „1.5 Die Menge der reellen Zahlen“ (Z. 571)
+  - Typ: Einschachtelung von √2: Tabelle Zehntel, Hundertstel (Vorrat, H, GYM) – Elemente Kl. 9 (Ausgabe 2016), S. 18: „1.3 Intervallhalbierungsverfahren“
+  - Typ: Teilmengenkette ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ erklären (jede natürliche Zahl ist ganz, jede ganze rational, jede rationale reell) – Elemente Kl. 9 (Ausgabe 2016), S. 33: „1.7 Vergleich der Zahlbereiche N, Q +, Q und (R“
+  - Typ: Begründen (warum √2 kein Bruch sein kann – Widerspruchsidee in Worten; warum 22/7 nicht π ist). – Fundamente Kl. 9, S. 48: „Streifzug: Widerspruchsbeweise“
+  - Typ: Einschachtelung von √2: Tabelle Zehntel, Hundertstel (Vorrat, H, GYM) – Fundamente Kl. 9, S. 50: „2.2 Intervallschachtelung“
+  - Typ: reelle Zahlen vergleichen und ordnen über Näherungswerte (√10, 3,2, 3 1/5) – Fundamente Kl. 9, S. 73: „2.9 Näherungswerte“
+  - Typ: Einschachtelung von √2: Tabelle Zehntel, Hundertstel (Vorrat, H, GYM) – LS Kl. 8: „2 Wurzeln näherungsweise bestimmen“
+  - Typ: Teilmengenkette ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ erklären (jede natürliche Zahl ist ganz, jede ganze rational, jede rationale reell) – Mathematik 2023 Kl. 9, S. 64: „Von den natürlichen zu den reellen Zahlen“
+  - Typ: Einschachtelung von √2: Tabelle Zehntel, Hundertstel (Vorrat, H, GYM) – Sekundo Kl. 9, S. 36: „Reelle Zahlen und Intervallschachtelung“
+  - Typ: reelle Zahlen vergleichen und ordnen über Näherungswerte (√10, 3,2, 3 1/5) – Schnittpunkt Kl. 9, S. 42: „6 Näherungswerte irrationaler Zahlen“
+  - Marken: Fundamente Kl. 9: „Streifzug: Widerspruchsbeweise“; Sekundo Kl. 9: „LVL: Rationale und irrationale Zahlen“; Sekundo Kl. 9: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 1480 („*“) bei „Reelle Zahlen und Intervallschachtelung“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „M LVL: Irrationale Zahlen“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2450 („*“) bei „M LVL: Irrationale Zahlen“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 13: „Reelle Zahlen“ (Z. 118)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 17: „Wurzeln - Reelle Zahlen (Schülerband Seite 78 bis 105)“ (Z. 57)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9 (Sekundo 9, 10, Mathematik 2023 9, Schnittpunkt 9, Mathematik heute 9)
+  - GYM: Kl. 8–9 (LS 8, Fundamente 9, Elemente 9, mathe.delta 9); Streuung der Einführung: Fundamente 9, Elemente 9, mathe.delta 9 später als Kl. 8
+- 2. Potenzgesetze
+  - Sekundo Kl. 10, S. 88: „M LVL: Multiplikation und Division von Potenzen“ (Z. 528, 529)
+  - Sekundo Kl. 10, S. 89: „W Potenzgesetze“ (Z. 530)
+  - Mathematik 2023 Kl. 10, S. 14: „Potenzgesetze“ (Z. 545)
+  - Schnittpunkt Kl. 10, S. 68: „2 Potenzen mit gleicher Basis“ (Z. 517)
+  - Schnittpunkt Kl. 10, S. 70: „3 Potenzen mit gleichem Exponenten“ (Z. 518)
+  - Mathematik heute Kl. 9, S. 68: „Potenzgesetze“ (Z. 250)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „3 Potenzen mit gleicher Basis“ (Z. 195)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „4 Potenzen mit gleichen Exponenten“ (Z. 196)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „5 Potenzieren von Potenzen“ (Z. 197)
+  - Fundamente Kl. 9, S. 60: „2.5 Potenzgesetze“ (Z. 303)
+  - Fundamente 2017 Kl. 9, S. 22: „1.3 Potenzgesetze“ (Z. 249)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 187: „5.3 Potenzgesetze und ihre Anwendung“ (Z. 444)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 187: „5.3.1 Multiplizieren und Potenzieren von Potenzen“ (Z. 445)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 195: „5.3.2 Zum Selbstlernen Dividieren von Potenzen“ (Z. 446)
+  - mathe.delta Kl. 9, S. 22: „1.3 Potenzgesetze“ (Z. 569)
+  - Typ: Quotient gleicher Basen: Exponenten subtrahieren (5⁶ : 5² = 5⁴; 3² : 3² = 3⁰ = 1; 2³ : 2⁵ = 2⁻²) – Elemente Kl. 9 (Ausgabe 2016), S. 195: „5.3.2 Zum Selbstlernen Dividieren von Potenzen“
+  - Typ: Produkt gleicher Basen als Malkette schreiben, Faktoren zählen, Exponenten addieren (2³ · 2⁴ = 2⁷) – LS Kl. 9: „3 Potenzen mit gleicher Basis“
+  - Typ: gleicher Exponent: Basen multiplizieren (2⁵ · 3⁵ = 6⁵) oder dividieren (10⁴ : 5⁴ = 2⁴) – LS Kl. 9: „4 Potenzen mit gleichen Exponenten“
+  - Typ: Potenz einer Potenz: Exponenten multiplizieren ((3²)⁴ = 3⁸) – LS Kl. 9: „5 Potenzieren von Potenzen“
+  - Typ: Produkt gleicher Basen als Malkette schreiben, Faktoren zählen, Exponenten addieren (2³ · 2⁴ = 2⁷) – Schnittpunkt Kl. 10, S. 68: „2 Potenzen mit gleicher Basis“
+  - Typ: gleicher Exponent: Basen multiplizieren (2⁵ · 3⁵ = 6⁵) oder dividieren (10⁴ : 5⁴ = 2⁴) – Schnittpunkt Kl. 10, S. 70: „3 Potenzen mit gleichem Exponenten“
+  - Marken: Elemente Kl. 9 (Ausgabe 2016): „5.3.2 Zum Selbstlernen Dividieren von Potenzen“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „M LVL: Multiplikation und Division von Potenzen“; Sekundo Kl. 10: Zeichen „W“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „W Potenzgesetze“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 30: „Potenzen mit gleicher Basis“ (Z. 421)
+  - OS: Kl. 9–10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 9); Streuung der Einführung: Sekundo 10, Mathematik 2023 10, Schnittpunkt 10 später als Kl. 9
+  - GYM: Kl. 9 (LS 9, Fundamente 9, Elemente 9, mathe.delta 9)
+- 3. Wurzelgesetze und rationale Exponenten
+  - Sekundo Kl. 9, S. 32: „Rechnen mit Quadratwurzeln“ (Z. 402)
+  - Sekundo Kl. 10, S. 91: „n-te Wurzel“ (Z. 532)
+  - Sekundo Kl. 10, S. 95: „M Potenzen mit gebrochenen Exponenten“ (Z. 536)
+  - Mathematik 2023 Kl. 9, S. 65: „Rechnen mit Quadratwurzeln“ (Z. 396)
+  - Mathematik 2023 Kl. 9, S. 73: „Vertiefen: Wurzelgleichungen“ (Z. 402)
+  - Mathematik 2023 Kl. 10, S. 17: „Potenzen der Form a1/n“ (Z. 547)
+  - Schnittpunkt Kl. 9, S. 46: „7 Quadratwurzeln multiplizieren unddividieren“ (Z. 358)
+  - Schnittpunkt Kl. 9, S. 48: „8 Rechnen mit Quadratwurzeln“ (Z. 359)
+  - Schnittpunkt Kl. 10, S. 72: „4 Potenzen mit gebrochenen Zahlen als Exponenten“ (Z. 519)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 8: „Kapitel IV Reelle Zahlen“ (Z. 163) › „4 Wurzelgesetze -Vorteile beim Rechnen“ (Z. 167)
+  - LS Kl. 8: „Kapitel IV Reelle Zahlen“ (Z. 163) › „5 Wurzelgleichungen“ (Z. 168)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „6 Potenzen mit rationalen Exponenten“ (Z. 198)
+  - Fundamente Kl. 9, S. 54: „2.3 Rechnen mit Quadratwurzeln“ (Z. 301)
+  - Fundamente Kl. 9, S. 64: „2.6 n-te Wurzeln und Potenzen mit rationalen Exponenten“ (Z. 304)
+  - Fundamente Kl. 9, S. 68: „2.7 Rechnen mit Potenzen und Wurzeln“ (Z. 305)
+  - Fundamente Kl. 9, S. 71: „2.8 Wurzelgleichungen“ (Z. 306)
+  - Fundamente 2017 Kl. 9, S. 28: „1.4 n-te Wurzeln und Potenzen mit rationalen Exponenten“ (Z. 250)
+  - Fundamente 2017 Kl. 9, S. 32: „1.5 Rechnen mit Potenzen und Wurzeln“ (Z. 251)
+  - Fundamente 2017 Kl. 9, S. 37: „1.6 Wurzelgleichungen“ (Z. 252)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 22: „1.4 Rechenregeln für Quadratwurzeln und ihre Anwendung“ (Z. 361)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 26: „1.5 Anwenden der Wurzelgesetze auf Terme mit Variablen“ (Z. 362)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 31: „1.6 Zum Selbstlernen Umformen von Wurzeltermen“ (Z. 363)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 37: „1.8 Wurzelgleichungen“ (Z. 366)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 177: „5.2.1 Potenzen mit Stammbrüchen als Exponenten - n-te Wurzeln“ (Z. 441)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 181: „5.2.2 Potenzen mit rationalen Exponenten“ (Z. 442)
+  - mathe.delta Kl. 9, S. 34: „1.6 Rechnen mit reellen Z a h le n“ (Z. 572)
+    Ermessen: „Rechnen mit reellen Zahlen“ als Rechnen mit Wurzeln (Wurzelgesetze) gelesen.
+  - mathe.delta Kl. 9, S. 106: „3.4 W urzelgleichungen“ (Z. 608)
+  - Typ: einfache Gleichung mit Potenz oder Wurzel: x³ = 27, √x = 4 (Vorrat; x² = c → quadratische-gleichungen.md) – Elemente Kl. 9 (Ausgabe 2016), S. 37: „1.8 Wurzelgleichungen“
+  - Typ: n-te Wurzel als a^(1/n), Kubikwurzel (³√8 = 2, ³√27 = 3) – Elemente Kl. 9 (Ausgabe 2016), S. 177: „5.2.1 Potenzen mit Stammbrüchen als Exponenten - n-te Wurzeln“
+  - Typ: n-te Wurzel als a^(1/n), Kubikwurzel (³√8 = 2, ³√27 = 3) – Fundamente Kl. 9, S. 64: „2.6 n-te Wurzeln und Potenzen mit rationalen Exponenten“
+  - Typ: einfache Gleichung mit Potenz oder Wurzel: x³ = 27, √x = 4 (Vorrat; x² = c → quadratische-gleichungen.md) – Fundamente Kl. 9, S. 71: „2.8 Wurzelgleichungen“
+  - Typ: einfache Gleichung mit Potenz oder Wurzel: x³ = 27, √x = 4 (Vorrat; x² = c → quadratische-gleichungen.md) – LS Kl. 8: „5 Wurzelgleichungen“
+  - Typ: Wurzel als Potenz mit Exponent 1/2 (√a = a^(1/2)), Taschenrechner mit Klammer (8^(1/3)) – LS Kl. 9: „6 Potenzen mit rationalen Exponenten“
+  - Typ: einfache Gleichung mit Potenz oder Wurzel: x³ = 27, √x = 4 (Vorrat; x² = c → quadratische-gleichungen.md) – Mathematik 2023 Kl. 9, S. 73: „Vertiefen: Wurzelgleichungen“
+  - Typ: n-te Wurzel als a^(1/n), Kubikwurzel (³√8 = 2, ³√27 = 3) – Mathematik 2023 Kl. 10, S. 17: „Potenzen der Form a1/n“
+  - Typ: einfache Gleichung mit Potenz oder Wurzel: x³ = 27, √x = 4 (Vorrat; x² = c → quadratische-gleichungen.md) – mathe.delta Kl. 9, S. 106: „3.4 W urzelgleichungen“
+  - Typ: n-te Wurzel als a^(1/n), Kubikwurzel (³√8 = 2, ³√27 = 3) – Sekundo Kl. 10, S. 91: „n-te Wurzel“
+  - Typ: Wurzel als Potenz mit Exponent 1/2 (√a = a^(1/2)), Taschenrechner mit Klammer (8^(1/3)) – Sekundo Kl. 10, S. 95: „M Potenzen mit gebrochenen Exponenten“
+  - Typ: Wurzel als Potenz mit Exponent 1/2 (√a = a^(1/2)), Taschenrechner mit Klammer (8^(1/3)) – Schnittpunkt Kl. 10, S. 72: „4 Potenzen mit gebrochenen Zahlen als Exponenten“
+  - Marken: Elemente Kl. 9 (Ausgabe 2016): „1.6 Zum Selbstlernen Umformen von Wurzeltermen“; Mathematik 2023 Kl. 9: „Vertiefen: Wurzelgleichungen“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „M Potenzen mit gebrochenen Exponenten“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 16: „Rechnen mit Quadratwurzeln“ (Z. 121)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 32: „Potenzen mit gebrochenen Zahlen als Exponenten“ (Z. 423)
+  - OS: Kl. 9 (Sekundo 9, 10, Mathematik 2023 9, 10, Schnittpunkt 9, 10, Mathematik heute –)
+  - GYM: Kl. 8–9 (LS 8, 9, Fundamente 9, Elemente 9, mathe.delta 9); Streuung der Einführung: Fundamente 9, Elemente 9, mathe.delta 9 später als Kl. 8
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 9, GYM Kl. 8–9; Einheit 2: OS Kl. 9–10, GYM Kl. 9; Einheit 3: OS Kl. 9, GYM Kl. 8–9)
+- Boden: nein
+- Ermessen (5):
+  - Einheit 1, Schnittpunkt Kl. 9: Näherungswerte irrationaler Zahlen als Vergleichen über Näherungswerte gelesen; die Einschachtelung (Vorrat) ist möglich, aber nicht genannt.
+  - Einheit 1, LS Kl. 8: Näherungsweise Bestimmung von Wurzeln als Einschachtelung gelesen.
+  - Einheit 1, Fundamente Kl. 9: „Näherungswerte“ im Kapitel Potenzen und Wurzeln als Näherungswerte irrationaler Zahlen gelesen.
+  - Einheit 3, mathe.delta Kl. 9: „Rechnen mit reellen Zahlen“ als Rechnen mit Wurzeln (Wurzelgesetze) gelesen.
+  - Einheit 1, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Wurzeln - Reelle Zahlen (Schülerband Seite 78 bis 105)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### einheiten – Einheiten der Länge, der Masse, der Zeit, des Geldes sowie mm²–m² und mm³–m³ verwenden, Größenangaben Repräsentanten zuordnen, Einheiten umwandeln und ordnen, Größenangaben mit Dezimalzahlen erklären: Stufe D (Grundschule Kl. 5/6 in Berlin/Brandenburg, LS-AA Klasse 5; für die Oberschule 7–8 regulär – der Fall der Gliederungsregel „Grundschulstoff, für die Oberschule regulär“).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Länge, Masse, Geld
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 195: „Längeneinheiten“ (Z. 181)
+  - Mathematik 2023 Kl. 5, S. 196: „Rechnen mit Längen“ (Z. 182)
+  - Schnittpunkt Kl. 5, S. 150: „2 Geld“ (Z. 114)
+  - Schnittpunkt Kl. 5, S. 157: „4 Gewicht“ (Z. 116)
+  - Schnittpunkt Kl. 5, S. 160: „5 Länge“ (Z. 117)
+  - Mathematik heute Kl. 5, S. 17 (Seite des Lösungsbands): „Messen einer Länge - Längeneinheiten“ (Z. 50, 51)
+  - Mathematik heute Kl. 5, S. 19 (Seite des Lösungsbands): „Messen einer Masse - Masseeinheiten“ (Z. 53, 54)
+  - LS Kl. 5: „Kapitel I Zahlen und Größen“ (Z. 23) › „5 Rechnen mit Geld“ (Z. 33)
+  - LS Kl. 5: „Kapitel I Zahlen und Größen“ (Z. 23) › „6 Rechnen mit Längenangaben“ (Z. 35)
+  - LS Kl. 5: „Kapitel I Zahlen und Größen“ (Z. 23) › „7 Rechnen mit Gewichtsangaben“ (Z. 37)
+  - LS Kl. 6: „Kapitel II Brüche in Dezimalschreibweise“ (Z. 87) › „4 Dezimalschreibweise bei Größen“ (Z. 91)
+  - LS Kl. 6: „Kapitel III Zahlen addieren und subtrahieren“ (Z. 92) › „4 Addieren und Subtrahieren von Größen“ (Z. 97)
+  - Fundamente Kl. 5, S. 28: „1.7 Größen angeben und schätzen“ (Z. 45)
+  - Fundamente Kl. 5, S. 30: „1.8 Größen umrechnen“ (Z. 46)
+  - Fundamente Kl. 5, S. 34: „1.9 Größen in Kommaschreibweise“ (Z. 47)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 32: „2.1 Längen messen“ (Z. 590)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 34: „2.2 Längeneinheiten umrechnen“ (Z. 591)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 40: „2.4 Massen“ (Z. 593)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Repräsentanten zuordnen (welche Angabe passt zu welchem Gegenstand) – Fundamente Kl. 5, S. 28: „1.7 Größen angeben und schätzen“
+  - Typ: Komma setzen: Größe in der Stellenwerttafel lesen – Fundamente Kl. 5, S. 34: „1.9 Größen in Kommaschreibweise“
+  - Typ: Komma setzen: Größe in der Stellenwerttafel lesen – LS Kl. 6: „4 Dezimalschreibweise bei Größen“
+  - Typ: Größen mit gleicher Einheit addieren und subtrahieren – LS Kl. 6: „4 Addieren und Subtrahieren von Größen“
+  - Typ: Größen mit gleicher Einheit addieren und subtrahieren – Mathematik 2023 Kl. 5, S. 196: „Rechnen mit Längen“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 48: „Rechnen mit Euro und Cent“ (Z. 93)
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 52: „Schätzen, messen und umwandeln“ (Z. 97)
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 56: „Kommaschreibweise bei Massen“ (Z. 101)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 34: „Geld“ (Z. 213)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 37: „Länge“ (Z. 216)
+  - OS: Kl. 5 (Sekundo –, Mathematik 2023 5, Schnittpunkt 5, Mathematik heute 5)
+  - GYM: Kl. 5 (LS 5, 6, Fundamente 5, Elemente 5, mathe.delta –)
+- 2. Zeit
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 216: „Zeiteinheiten“ (Z. 154)
+  - Mathematik 2023 Kl. 5, S. 217: „Zeitspannen“ (Z. 156)
+  - Schnittpunkt Kl. 5, S. 153: „3 Zeit“ (Z. 115)
+  - Mathematik heute Kl. 5, S. 21 (Seite des Lösungsbands): „Zeitpunkt, Zeitdauer - Zeitmessung“ (Z. 55)
+  - LS Kl. 5: „Kapitel I Zahlen und Größen“ (Z. 23) › „8 Rechnen mit Zeitangaben“ (Z. 39)
+  - Fundamente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 42: „2.5 Zeiten und Zeitspannen“ (Z. 594)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Zeitspanne zwischen zwei Uhrzeiten – Mathematik 2023 Kl. 5, S. 217: „Zeitspannen“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 58: „Zeitpunkte und Zeitspannen“ (Z. 103)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 35: „Zeit“ (Z. 214)
+  - OS: Kl. 5 (Sekundo –, Mathematik 2023 5, Schnittpunkt 5, Mathematik heute 5)
+  - GYM: Kl. 5 (LS 5, Fundamente –, Elemente 5, mathe.delta –)
+- 3. Flächen- und Volumeneinheiten
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 202: „Flächeneinheiten“ (Z. 187)
+  - Mathematik 2023 Kl. 6, S. 194: „Volumeneinheiten“ (Z. 329)
+  - Mathematik 2023 Kl. 10, S. 11: „Kleine und große Einheiten“ (Z. 542)
+    Ermessen: „Kleine und große Einheiten“ im Kapitel Potenzen als Einheitenvorsätze gelesen.
+  - Schnittpunkt Kl. 5, S. 208: „2 Flächenmaße“ (Z. 146)
+  - Schnittpunkt Kl. 6, S. 168: „3 Volumeneinheiten“ (Z. 280)
+  - Mathematik heute Kl. 5, S. 106 (Seite des Lösungsbands): „Umwandeln in andere Flächen einheiten - Kommaschreibweise“ (Z. 81, 82)
+  - Mathematik heute Kl. 5, S. 113 (Seite des Lösungsbands): „Umwandeln in andere Volumen einheiten - Kommaschreibweise“ (Z. 95, 96)
+  - LS Kl. 5: „Kapitel IV Flächen“ (Z. 22) › „2 Flächeneinheiten“ (Z. 26)
+  - LS Kl. 5: „Kapitel V Körper“ (Z. 36) › „5 Volumeneinheiten“ (Z. 46)
+  - Fundamente Kl. 5, S. 150: „4.3 Flächeneinheiten“ (Z. 96)
+  - Fundamente Kl. 5, S. 178: „5.3 Volumeneinheiten“ (Z. 109)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 170: „8.2 Flächeneinheiten“ (Z. 668)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 108: „5.2 Volumeneinheiten“ (Z. 774)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 111: „5.3 Volumen von Flüssigkeiten“ (Z. 775)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Liter und Kubikdezimeter, Milliliter und Kubikzentimeter gleichsetzen – Elemente Kl. 6 (Ausgabe 2025), S. 111: „5.3 Volumen von Flüssigkeiten“
+  - Typ: Einheitenvorsatz als Name für eine Zehnerpotenz lesen (Milli, Zenti, Kilo; Verfahren in potenzen-wurzeln.md Einheit 2) – Mathematik 2023 Kl. 10, S. 11: „Kleine und große Einheiten“
+  - Typ: Flächeneinheit in die Nachbareinheit umrechnen – Mathematik heute Kl. 5, S. 106 (Seite des Lösungsbands): „Umwandeln in andere Flächen einheiten - Kommaschreibweise“
+  - Typ: Volumeneinheit in die Nachbareinheit umrechnen – Mathematik heute Kl. 5, S. 113 (Seite des Lösungsbands): „Umwandeln in andere Volumen einheiten - Kommaschreibweise“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 66: „Flächenmaße“ (Z. 112)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 47: „Liter“ (Z. 361)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 46: „Flächenmaße“ (Z. 229)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 38: „Volumeneinheiten“ (Z. 290)
+  - OS: Kl. 5 (Sekundo –, Mathematik 2023 5, 6, 10, Schnittpunkt 5, 6, Mathematik heute 5)
+  - GYM: Kl. 5 (LS 5, Fundamente 5, Elemente 5, 6, mathe.delta –)
+- 4. Mit Größen rechnen im Sachzusammenhang
+  - Sekundo Kl. 7, S. 45: „LVL: Masse, Volumen, Dichte“ (Z. 120)
+  - Sekundo Kl. 8, S. 11: „D ic h te“ (Z. 227)
+  - Mathematik 2023 Kl. 8, S. 153: „Üben: Masse von Prismen und Zylindern“ (Z. 279)
+    Ermessen: Masse eines Körpers setzt Volumen und Dichte voraus; der Einheit 4 von einheiten zugeordnet.
+  - Schnittpunkt: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Masse aus Volumen und Dichte (P10-Form) – Mathematik 2023 Kl. 8, S. 153: „Üben: Masse von Prismen und Zylindern“
+  - Marken: Mathematik 2023 Kl. 8: „Üben: Masse von Prismen und Zylindern“; Sekundo Kl. 7: „LVL: Masse, Volumen, Dichte“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 8: „Masse, Volumen, Dichte“ (Z. 408)
+  - OS: Kl. 7–8 (Sekundo 7, 8, Mathematik 2023 8, Schnittpunkt –, Mathematik heute –); Streuung der Einführung: Mathematik 2023 8 später als Kl. 7
+  - GYM: keine Stelle (LS –, Fundamente –, Elemente –, mathe.delta –)
+- Spanne OS/GYM: nein
+- Boden: ja
+- Ermessen (2):
+  - Einheit 3, Mathematik 2023 Kl. 10: „Kleine und große Einheiten“ im Kapitel Potenzen als Einheitenvorsätze gelesen.
+  - Einheit 4, Mathematik 2023 Kl. 8: Masse eines Körpers setzt Volumen und Dichte voraus; der Einheit 4 von einheiten zugeordnet.
+
+### flaechen – Rechteck, Quadrat, Umfang von Vielecken, aus Rechtecken zusammengesetzte Flächen: Stufe D (Grundschule Kl. 5/6 in Berlin/Brandenburg, für die Oberschule 7–8 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Rechteck, Quadrat, Umfang
+  - Sekundo Kl. 7, S. 128: „Flächeninhalt und Umfang von Rechteck und Quadrat“ (Z. 176, 177)
+  - Sekundo Kl. 8, S. 66: „Flächeninhalt und Umfang des Rechtecks“ (Z. 246)
+  - Mathematik 2023 Kl. 5, S. 199: „Umfang“ (Z. 184)
+  - Mathematik 2023 Kl. 5, S. 200: „Umfang von Rechteck und Quadrat“ (Z. 185)
+  - Mathematik 2023 Kl. 5, S. 201: „Flächeninhalte vergleichen“ (Z. 186)
+    Ermessen: „Flächeninhalte vergleichen“ als Vorstufe des Flächeninhalts von Rechteck und Quadrat gelesen.
+  - Mathematik 2023 Kl. 5, S. 204: „Flächeninhalt von Rechteck und Quadrat“ (Z. 188)
+  - Mathematik 2023 Kl. 7, S. 131: „Flächeninhalt und Umfang von Rechteck und Quadrat“ (Z. 155, 156)
+  - Schnittpunkt Kl. 5, S. 206: „1 Flächeninhalt“ (Z. 145)
+    Ermessen: „Flächeninhalt“ (Kl. 5) als Einführung des Flächeninhalts am Rechteck gelesen.
+  - Schnittpunkt Kl. 5, S. 211: „3 Flächeninhalt und Umfang des Rechtecks“ (Z. 147)
+  - Schnittpunkt Kl. 5, S. 214: „4 Zusammengesetzte Figuren“ (Z. 148)
+    Ermessen: Zusammengesetzte Figuren in Kl. 5 bestehen aus Rechtecken (Kapitel „Flächeninhalt berechnen“ nach dem Rechteck); Einheit 1 und 5 zugeordnet.
+  - Schnittpunkt Kl. 8, S. 92: „1 Rechteck und Quadrat“ (Z. 255)
+  - Mathematik heute Kl. 5, S. 103 (Seite des Lösungsbands): „Flächenvergleich - Messen von Flächen“ (Z. 79, 80)
+    Ermessen: Flächenvergleich als Vorstufe des Flächeninhalts gelesen.
+  - Mathematik heute Kl. 5, S. 109 (Seite des Lösungsbands): „Berechnungen am Rechteck - Umfang und Flächeninhalt“ (Z. 84, 85)
+  - LS Kl. 5: „Kapitel IV Flächen“ (Z. 22) › „1 Flächeninhalte vergleichen“ (Z. 24)
+  - LS Kl. 5: „Kapitel IV Flächen“ (Z. 22) › „3 Flächeninhalt eines Rechtecks“ (Z. 28)
+  - LS Kl. 5: „Kapitel IV Flächen“ (Z. 22) › „5 Umfang von Figuren“ (Z. 32)
+  - Fundamente Kl. 5, S. 142: „4.1 Flächen vergleichen“ (Z. 94)
+  - Fundamente Kl. 5, S. 147: „4.2 Flächeninhalt eines Rechtecks“ (Z. 95)
+  - Fundamente Kl. 5, S. 156: „4.4 Flächeninhalt von zusammengesetzten Figuren“ (Z. 97)
+    Ermessen: Zusammengesetzte Figuren in Kl. 5 (nach dem Rechteck) als aus Rechtecken zusammengesetzt gelesen; auch Einheit 5.
+  - Fundamente Kl. 5, S. 158: „4.5 Umfang“ (Z. 98)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 168: „8.1 Flächeninhalt und Umfang messen“ (Z. 667)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 174: „8.3 Rechtecke“ (Z. 669)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 177: „8.4 Zerlegen und Ergänzen“ (Z. 670)
+    Ermessen: Zerlegen und Ergänzen (Kl. 5) als aus Rechtecken zusammengesetzte Figuren gelesen; auch Einheit 5.
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: aus Rechtecken zusammengesetzte Fläche (Summe) – Elemente Kl. 5 (Ausgabe 2025), S. 177: „8.4 Zerlegen und Ergänzen“
+  - Typ: aus Rechtecken zusammengesetzte Fläche (Summe) – Fundamente Kl. 5, S. 156: „4.4 Flächeninhalt von zusammengesetzten Figuren“
+  - Typ: Umfang eines Vielecks aus allen Seiten – Fundamente Kl. 5, S. 158: „4.5 Umfang“
+  - Typ: Umfang eines Vielecks aus allen Seiten – LS Kl. 5: „5 Umfang von Figuren“
+  - Typ: Umfang eines Vielecks aus allen Seiten – Mathematik 2023 Kl. 5, S. 199: „Umfang“
+  - Typ: aus Rechtecken zusammengesetzte Fläche (Summe) – Schnittpunkt Kl. 5, S. 214: „4 Zusammengesetzte Figuren“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 62: „Flächeninhalt des Rechtecks“ (Z. 108)
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 64: „Umfang des Rechtecks“ (Z. 110)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 40: „Umfang und Flächeninhalt des Rechtecks“ (Z. 354)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 45: „Flächeninhalt und Umfang eines Rechtecks“ (Z. 67)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 47: „Flächeninhalt und Umfang des Rechtecks“ (Z. 230)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 38: „Flächeninhalt und Umfang von Vielecken (Schülerband Seite 196 bis 219)“ (Z. 38)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5 (Sekundo 7, 8, Mathematik 2023 5, 7, Schnittpunkt 5, 8, Mathematik heute 5); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, Fundamente 5, Elemente 5, mathe.delta –)
+- 2. Parallelogramm
+  - Sekundo Kl. 8, S. 70: „Flächeninhalt des Parallelogramms“ (Z. 252)
+  - Mathematik 2023 Kl. 7, S. 132: „Flächeninhalt und Umfang eines Parallelogramms“ (Z. 157, 159)
+  - Schnittpunkt Kl. 8, S. 99: „3 Parallelogramm“ (Z. 258)
+  - Mathematik heute Kl. 7, S. 208: „Parallelogramm - Eigenschaften und Berechnungen“ (Z. 91, 92)
+  - LS Kl. 7: „Kapitel VI Flächen“ (Z. 127) › „1 Flächeninhalte von Parallelogrammen“ (Z. 128)
+  - Fundamente Kl. 7, S. 204: „6.3 Flächeninhalt eines Parallelogramms“ (Z. 101)
+  - Fundamente 2017 Kl. 7, S. 166: „5.8 Flächeninhalt von Vierecken“ (Z. 102)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 260: „7.2 Flächeninhalt eines Parallelogramms“ (Z. 206)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 154: „7.1 Parallelogramm“ (Z. 918)
+  - mathe.delta Kl. 7, S. 140: „4.4 Umfang und Flächeninhaltvon Vielecken“ (Z. 129)
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 34: „Flächeninhalt des Parallelogramms“ (Z. 437)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 47: „Flächeninhalt eines Parallelogramms“ (Z. 68)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 30: „Parallelogramm“ (Z. 350)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 38: „Flächeninhalt und Umfang von Vielecken (Schülerband Seite 196 bis 219)“ (Z. 38)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–8 (Sekundo 8, Mathematik 2023 7, Schnittpunkt 8, Mathematik heute 7); Streuung der Einführung: Sekundo 8, Schnittpunkt 8 später als Kl. 7
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 3. Dreieck
+  - Sekundo Kl. 7, S. 131: „LVL: Herleitung der Flächeninhaltsformel für Dreiecke“ (Z. 179, 180)
+  - Sekundo Kl. 7, S. 132: „Flächeninhalt des Dreiecks“ (Z. 181)
+  - Sekundo Kl. 8, S. 67: „Flächeninhalt und Umfang des Dreiecks“ (Z. 248)
+  - Mathematik 2023 Kl. 7, S. 134: „Flächeninhalt und Umfang eines Dreiecks“ (Z. 161)
+  - Schnittpunkt Kl. 8, S. 94: „2 Dreieck“ (Z. 256)
+  - Mathematik heute Kl. 7, S. 165: „Flächeninhalt und Umfang eines Dreiecks“ (Z. 70)
+  - LS Kl. 5: „Kapitel IV Flächen“ (Z. 22) › „4 Flächeninhalte rechtwinkliger Dreiecke“ (Z. 30)
+  - LS Kl. 7: „Kapitel VI Flächen“ (Z. 127) › „2 Flächeninhalte von Dreiecken“ (Z. 129)
+  - Fundamente Kl. 7, S. 198: „6.1 Flächeninhalt eines Dreiecks“ (Z. 99)
+  - Fundamente 2017 Kl. 7, S. 163: „5.7 Flächeninhalt eines Dreiecks“ (Z. 101)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 256: „7.1 Flächeninhalt eines Dreiecks“ (Z. 205)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 157: „7.2 Dreieck“ (Z. 919)
+  - mathe.delta Kl. 7, S. 140: „4.4 Umfang und Flächeninhaltvon Vielecken“ (Z. 129)
+  - Typ: rechtwinklig: Katheten als g und h – LS Kl. 5: „4 Flächeninhalte rechtwinkliger Dreiecke“
+  - Marken: Sekundo Kl. 7: „LVL: Herleitung der Flächeninhaltsformel für Dreiecke“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 57: „Flächeninhalt des Dreiecks“ (Z. 192)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 32: „Flächeninhalt und Umfang des Dreiecks“ (Z. 435)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 49: „Flächeninhalt eines Dreiecks“ (Z. 70)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 29: „Dreieck“ (Z. 349)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 38: „Flächeninhalt und Umfang von Vielecken (Schülerband Seite 196 bis 219)“ (Z. 38)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–8 (Sekundo 7, 8, Mathematik 2023 7, Schnittpunkt 8, Mathematik heute 7); Streuung der Einführung: Schnittpunkt 8 später als Kl. 7
+  - GYM: Kl. 5–7 (LS 5, 7, Fundamente 7, Elemente 7, mathe.delta 7); Streuung der Einführung: Fundamente 7, Elemente 7 später als Kl. 5; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 4. Trapez, Drachenviereck, Raute
+  - Sekundo Kl. 8, S. 73: „Flächeninhalt des Trapezes“ (Z. 256)
+  - Sekundo Kl. 8, S. 74: „Flächeninhalt des Drachens und der Raute“ (Z. 258)
+  - Mathematik 2023 Kl. 7, S. 136: „Flächeninhalt und Umfang eines Trapezes“ (Z. 162)
+  - Mathematik 2023 Kl. 7, S. 138: „Flächeninhalt und Umfang von Drachen viereck und Raute“ (Z. 167, 170)
+  - Schnittpunkt Kl. 8, S. 102: „EXTRA: Drachen und Raute“ (Z. 259)
+  - Schnittpunkt Kl. 8, S. 103: „4 Trapez“ (Z. 260)
+  - Mathematik heute Kl. 7, S. 217: „Trapez- Eigenschaften und Berechnungen“ (Z. 93)
+  - Mathematik heute Kl. 7, S. 223: „Drachenviereck“ (Z. 94)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente Kl. 7, S. 208: „6.4 Flächeninhalt von Trapez und Drachenviereck“ (Z. 102)
+  - Fundamente 2017 Kl. 7, S. 166: „5.8 Flächeninhalt von Vierecken“ (Z. 102)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 264: „7.3 Flächeninhalt von Trapez und Drachenviereck“ (Z. 207)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 160: „7.3 Trapez“ (Z. 920)
+  - mathe.delta Kl. 7, S. 140: „4.4 Umfang und Flächeninhaltvon Vielecken“ (Z. 129)
+  - Typ: Trapez A aus a, c, h – Elemente Kl. 7 (Ausgabe 2025), S. 160: „7.3 Trapez“
+  - Typ: Trapez A aus a, c, h – Sekundo Kl. 8, S. 73: „Flächeninhalt des Trapezes“
+  - Typ: Drachen und Raute A aus e und f – Sekundo Kl. 8, S. 74: „Flächeninhalt des Drachens und der Raute“
+  - Typ: Drachen und Raute A aus e und f – Schnittpunkt Kl. 8, S. 102: „EXTRA: Drachen und Raute“
+  - Typ: Trapez A aus a, c, h – Schnittpunkt Kl. 8, S. 103: „4 Trapez“
+  - Marken: Schnittpunkt Kl. 8: „EXTRA: Drachen und Raute“
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 51: „Flächeninhalt eines Trapezes“ (Z. 72)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 31: „Trapez“ (Z. 351)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 38: „Flächeninhalt und Umfang von Vielecken (Schülerband Seite 196 bis 219)“ (Z. 38)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–8 (Sekundo 8, Mathematik 2023 7, Schnittpunkt 8, Mathematik heute 7); Streuung der Einführung: Sekundo 8, Schnittpunkt 8 später als Kl. 7
+  - GYM: Kl. 7 (LS –, Fundamente 7, Elemente 7, mathe.delta 7)
+- 5. Zusammengesetzte Figuren
+  - Sekundo Kl. 7, S. 135: „Zusammengesetzte Flächen“ (Z. 182)
+  - Sekundo Kl. 8, S. 75: „Zusammengesetzte Figuren“ (Z. 260)
+  - Mathematik 2023 Kl. 7, S. 146: „Vertiefen: Unregelmäßige Flächen“ (Z. 101)
+    Ermessen: Unregelmäßige Flächen als zerlegte bzw. zusammengesetzte Figuren gelesen.
+  - Schnittpunkt Kl. 5, S. 214: „4 Zusammengesetzte Figuren“ (Z. 148)
+  - Schnittpunkt Kl. 8, S. 111: „7 Zusammengesetzte Figuren. Vielecke“ (Z. 264)
+  - Mathematik heute Kl. 6, S. 120: „Berechnungen an Flächen“ (Z. 167)
+    Ermessen: Kapitel „Zusammengesetzte Flächen und Körper“ (Kl. 6): Berechnungen an Flächen als zusammengesetzte Figuren (Einheit 5) gelesen.
+  - Mathematik heute Kl. 7, S. 225: „Flächeninhalt von Vielecken“ (Z. 95)
+  - LS Kl. 7: „Kapitel VI Flächen“ (Z. 127) › „3 Flächeninhalte zusammengesetzter Figuren“ (Z. 130)
+  - Fundamente Kl. 5, S. 156: „4.4 Flächeninhalt von zusammengesetzten Figuren“ (Z. 97)
+  - Fundamente Kl. 7, S. 212: „Streifzug: Flächeninhalt beliebiger Figuren“ (Z. 103)
+  - Fundamente 2017 Kl. 8, S. 46: „2.5 Umfang und Flächeninhalt zusammengesetzter Figuren“ (Z. 157)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 177: „8.4 Zerlegen und Ergänzen“ (Z. 670)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 267: „7.4 Zum Selbstlernen Flächeninhalt beliebiger Vielecke“ (Z. 208)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 162: „7.4 Vieleck“ (Z. 921)
+  - mathe.delta Kl. 7, S. 140: „4.4 Umfang und Flächeninhaltvon Vielecken“ (Z. 129)
+    Ermessen: „Umfang und Flächeninhalt von Vielecken“ in Kl. 7: Dreieck, Parallelogramm, Trapez und zusammengesetzte Vielecke; den Einheiten 2 bis 5 zugeordnet.
+  - Marken: Elemente Kl. 7 (Ausgabe 2016): „7.4 Zum Selbstlernen Flächeninhalt beliebiger Vielecke“; Fundamente Kl. 7: „Streifzug: Flächeninhalt beliebiger Figuren“; Mathematik 2023 Kl. 7: „Vertiefen: Unregelmäßige Flächen“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 41: „Zusammengesetzte Flächen“ (Z. 355)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 59: „Zusammengesetzte Flächen“ (Z. 194)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 36: „Zusammengesetzte Figuren“ (Z. 439)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 48: „Zusammengesetzte Figuren“ (Z. 231)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 34: „Zusammengesetzte Figuren. Vielecke“ (Z. 354)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 38: „Flächeninhalt und Umfang von Vielecken (Schülerband Seite 196 bis 219)“ (Z. 38)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5–7 (Sekundo 7, 8, Mathematik 2023 7, Schnittpunkt 5, 8, Mathematik heute 6, 7); Streuung der Einführung: Mathematik 2023 7, Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–7 (LS 7, Fundamente 5, 7, Elemente 5, 7, mathe.delta 7); Streuung der Einführung: LS 7 später als Kl. 5; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- Spanne OS/GYM: ja (Einheit 2: OS Kl. 7–8, GYM Kl. 7; Einheit 3: OS Kl. 7–8, GYM Kl. 5–7; Einheit 4: OS Kl. 7–8, GYM Kl. 7)
+- Boden: ja
+- Ermessen (10):
+  - Einheit 1, Mathematik 2023 Kl. 5: „Flächeninhalte vergleichen“ als Vorstufe des Flächeninhalts von Rechteck und Quadrat gelesen.
+  - Einheit 1, Schnittpunkt Kl. 5: „Flächeninhalt“ (Kl. 5) als Einführung des Flächeninhalts am Rechteck gelesen.
+  - Einheit 1, Schnittpunkt Kl. 5: Zusammengesetzte Figuren in Kl. 5 bestehen aus Rechtecken (Kapitel „Flächeninhalt berechnen“ nach dem Rechteck); Einheit 1 und 5 zugeordnet.
+  - Einheit 1, Mathematik heute Kl. 5: Flächenvergleich als Vorstufe des Flächeninhalts gelesen.
+  - Einheit 1, Fundamente Kl. 5: Zusammengesetzte Figuren in Kl. 5 (nach dem Rechteck) als aus Rechtecken zusammengesetzt gelesen; auch Einheit 5.
+  - Einheit 1, Elemente Kl. 5 (Ausgabe 2025): Zerlegen und Ergänzen (Kl. 5) als aus Rechtecken zusammengesetzte Figuren gelesen; auch Einheit 5.
+  - Einheit 5, Mathematik 2023 Kl. 7: Unregelmäßige Flächen als zerlegte bzw. zusammengesetzte Figuren gelesen.
+  - Einheit 5, Mathematik heute Kl. 6: Kapitel „Zusammengesetzte Flächen und Körper“ (Kl. 6): Berechnungen an Flächen als zusammengesetzte Figuren (Einheit 5) gelesen.
+  - Einheit 5, mathe.delta Kl. 7: „Umfang und Flächeninhalt von Vielecken“ in Kl. 7: Dreieck, Parallelogramm, Trapez und zusammengesetzte Vielecke; den Einheiten 2 bis 5 zugeordnet.
+  - Einheiten 1, 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Flächeninhalt und Umfang von Vielecken (Schülerband Seite 196 bis 219)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### kreis – Kreis zeichnen, Mittelpunkt, Radius, Durchmesser: Stufe D (Grundschule Kl. 5/6 in Berlin/Brandenburg; LS-AA Klasse 6).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Kreisumfang
+  - Sekundo Kl. 8, S. 78: „LVL: Messen und Entdecken am K re is“ (Z. 266)
+    Ermessen: „Messen und Entdecken am Kreis“ vor „Umfang des Kreises“ als Entdeckung von π gelesen.
+  - Sekundo Kl. 8, S. 80: „Umfang des Kreises“ (Z. 268)
+  - Sekundo Kl. 9, S. 122: „Umfang und Flächeninhalt“ (Z. 447)
+    Ermessen: „Umfang und Flächeninhalt“ im Kapitel Flächen- und Körperberechnungen vor Kreisring und Kreisausschnitt als Kreisumfang und Kreisfläche (Wiederaufnahme) gelesen.
+  - Sekundo Kl. 9, S. 129: „Q LVL: Grenzprozesse zur Bestimmung von 7i“ (Z. 454, 455)
+    Ermessen: „7i“ ist die Texterkennung für π.
+  - Mathematik 2023 Kl. 5, S. 136: „Kreise“ (Z. 103)
+    Ermessen: „Kreise“ (Kl. 5) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen; Umfang folgt erst Kl. 7.
+  - Mathematik 2023 Kl. 7, S. 170: „Umfang eines Kreises“ (Z. 151)
+  - Mathematik 2023 Kl. 7, S. 176: „Die Kreiszahl ir“ (Z. 155)
+    Ermessen: „ir“ ist die Texterkennung für π; die Seite zur Kreiszahl als Entdeckung von π gelesen.
+  - Mathematik 2023 Kl. 7, S. 177: „Arbeiten mit dem Computer: Die Kreiszahl T“ (Z. 156, 157)
+  - Schnittpunkt Kl. 5, S. 180: „1 Kreis“ (Z. 128)
+    Ermessen: „Kreis“ (Kl. 5) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen; der Kreisumfang folgt Kl. 8.
+  - Schnittpunkt Kl. 8, S. 107: „5 Kreis. Umfang“ (Z. 262)
+  - Mathematik heute Kl. 8, S. 108: „Kreis - Kreisornamente“ (Z. 194)
+    Ermessen: Kreisornamente als Zeichnen von Kreisen mit Radius und Mittelpunkt gelesen.
+  - Mathematik heute Kl. 8, S. 115: „Umfang und Flächeninhalt eines Kreises“ (Z. 199)
+  - LS Kl. 6: „Kapitel IV Muster und Figuren“ (Z. 98) › „3 Kreise und Kreisfiguren“ (Z. 101)
+    Ermessen: „Kreise und Kreisfiguren“ (Kl. 6) als Zeichnen von Kreisen mit Radius und Durchmesser gelesen.
+  - LS Kl. 8: „Kapitel VI Dreiecke und Kreise“ (Z. 149) › „5 Kreisumfang und Kreisfläche“ (Z. 154)
+  - Fundamente Kl. 6, S. 74: „3.1 Kreis“ (Z. 197)
+    Ermessen: „Kreis“ im Kapitel Winkel (Kl. 6) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen.
+  - Fundamente Kl. 7, S. 114: „4.1 Kreis“ (Z. 68)
+    Ermessen: „Kreis“ im Kapitel Geometrische Konstruktionen als Kreis zeichnen (Einheit 1) gelesen.
+  - Fundamente Kl. 8, S. 190: „7.1 Linien am Kreis“ (Z. 234)
+    Ermessen: „Linien am Kreis“ (Radius, Durchmesser, Sehne, Tangente) als Grundbegriffe des Kreises (Einheit 1) gelesen.
+  - Fundamente Kl. 8, S. 197: „7.3 Umfang eines Kreises“ (Z. 236)
+  - Fundamente 2017 Kl. 7, S. 148: „5.1 Kreis“ (Z. 95)
+  - Fundamente 2017 Kl. 8, S. 38: „2.3 Umfang und Flächeninhalt eines Kreises“ (Z. 155)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 108: „5.4 Kreise“ (Z. 629)
+    Ermessen: „Kreise“ (Kl. 5) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen.
+  - Elemente Kl. 7 (Ausgabe 2025), S. 164: „7.5 Umfang eines Kreises“ (Z. 922)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 169: „5.1 Umfang eines Kreises“ (Z. 297)
+  - mathe.delta Kl. 7, S. 152: „4.8 Umfang des Kreises“ (Z. 133)
+  - Typ: Kreis mit gegebenem Radius oder Durchmesser zeichnen – Mathematik 2023 Kl. 5, S. 136: „Kreise“
+  - Typ: Umfang messen und u : d bilden (Entdeckung von π) – Mathematik 2023 Kl. 7, S. 176: „Die Kreiszahl ir“
+  - Typ: Umfang messen und u : d bilden (Entdeckung von π) – Sekundo Kl. 8, S. 78: „LVL: Messen und Entdecken am K re is“
+  - Marken: Mathematik 2023 Kl. 7: „Arbeiten mit dem Computer: Die Kreiszahl T“; Sekundo Kl. 8: „LVL: Messen und Entdecken am K re is“; Sekundo Kl. 9: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 1948 („*“) bei „Q LVL: Grenzprozesse zur Bestimmung von 7i“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 39: „Umfang des Kreises“ (Z. 442)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 59: „Umfang des Kreises“ (Z. 285)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 67: „Umfang eines Kreises“ (Z. 89)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 40: „Kreis“ (Z. 221)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 32: „Kreis. Umfang“ (Z. 352)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 29: „Kreis und Zylinder (Schülerband Seite 124 bis 161)“ (Z. 59)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5–8 (Sekundo 8, 9, Mathematik 2023 5, 7, Schnittpunkt 5, 8, Mathematik heute 8); Streuung der Einführung: Sekundo 8, Mathematik heute 8 später als Kl. 5
+  - GYM: Kl. 5–6 (LS 6, 8, Fundamente 6, 7, 8, Elemente 5, 7, 8, mathe.delta 7); Streuung der Einführung: LS 6, Fundamente 6 später als Kl. 5; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Kreisfläche
+  - Sekundo Kl. 8, S. 82: „Flächeninhalt des Kreises“ (Z. 270)
+  - Sekundo Kl. 9, S. 122: „Umfang und Flächeninhalt“ (Z. 447)
+    Ermessen: wie Einheit 1.
+  - Mathematik 2023 Kl. 7, S. 172: „Flächeninhalt eines Kreises“ (Z. 152)
+  - Schnittpunkt Kl. 8, S. 109: „6 Kreis. Flächeninhalt“ (Z. 263)
+  - Mathematik heute Kl. 8, S. 115: „Umfang und Flächeninhalt eines Kreises“ (Z. 199)
+  - LS Kl. 8: „Kapitel VI Dreiecke und Kreise“ (Z. 149) › „5 Kreisumfang und Kreisfläche“ (Z. 154)
+  - Fundamente Kl. 8, S. 201: „7.4 Flächeninhalt eines Kreises“ (Z. 237)
+  - Fundamente 2017 Kl. 8, S. 38: „2.3 Umfang und Flächeninhalt eines Kreises“ (Z. 155)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 166: „7.6 Flächeninhalt eines Kreises“ (Z. 923)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 172: „5.2 Flächeninhalt eines Kreises“ (Z. 298)
+  - mathe.delta Kl. 7, S. 154: „4.9 F lä c h e n in h a jtd e s K r e is e s“ (Z. 134)
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 40: „Flächeninhalt des Kreises“ (Z. 443)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 70: „Flächeninhalt eines Kreises“ (Z. 90)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 33: „Kreis. Flächeninhalt“ (Z. 353)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 29: „Kreis und Zylinder (Schülerband Seite 124 bis 161)“ (Z. 59)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–8 (Sekundo 8, 9, Mathematik 2023 7, Schnittpunkt 8, Mathematik heute 8); Streuung der Einführung: Sekundo 8, Schnittpunkt 8, Mathematik heute 8 später als Kl. 7
+  - GYM: Kl. 7–8 (LS 8, Fundamente 8, Elemente 7, 8, mathe.delta 7); Streuung der Einführung: LS 8, Fundamente 8 später als Kl. 7
+- 3. Kreisteile
+  - Sekundo Kl. 9, S. 124: „Kreisring“ (Z. 449)
+  - Sekundo Kl. 9, S. 125: „Kreisausschnitt“ (Z. 450)
+  - Mathematik 2023 Kl. 7, S. 174: „Kreisring“ (Z. 153)
+  - Mathematik 2023 Kl. 7, S. 175: „Kreissektor, Kreisbogen“ (Z. 154)
+  - Schnittpunkt Kl. 9, S. 115: „4 Kreisausschnitt“ (Z. 402)
+  - Mathematik heute Kl. 8, S. 122: „Kreisring“ (Z. 200)
+  - LS Kl. 8: „Kapitel VI Dreiecke und Kreise“ (Z. 149) › „6 Kreisteile“ (Z. 155)
+  - Fundamente Kl. 8, S. 205: „7.5 Kreissektor und Kreisbogen“ (Z. 238)
+  - Fundamente 2017 Kl. 8, S. 44: „2.4 Kreisausschnitt und Kreisbogen“ (Z. 156)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 169: „7.7 Kreisteile“ (Z. 925)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 177: „5.3 Kreisausschnitt und Kreisbogen“ (Z. 299)
+  - mathe.delta Kl. 9, S. 128: „4.1 Kreis und Kreisteile“ (Z. 623)
+  - Typ: Kreisring (großer Kreis minus kleiner Kreis) – Mathematik 2023 Kl. 7, S. 174: „Kreisring“
+  - Typ: Kreisring (großer Kreis minus kleiner Kreis) – Mathematik heute Kl. 8, S. 122: „Kreisring“
+  - Typ: Kreisring (großer Kreis minus kleiner Kreis) – Sekundo Kl. 9, S. 124: „Kreisring“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 61: „Kreisteile (Kreisring, Halbkreis, Viertelkreis)“ (Z. 287)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 72: „Kreisring und Kreissektor“ (Z. 91)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 34: „Kreisausschnitt (1)“ (Z. 145)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 29: „Kreis und Zylinder (Schülerband Seite 124 bis 161)“ (Z. 59)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–9 (Sekundo 9, Mathematik 2023 7, Schnittpunkt 9, Mathematik heute 8); Streuung der Einführung: Sekundo 9, Schnittpunkt 9, Mathematik heute 8 später als Kl. 7
+  - GYM: Kl. 7–9 (LS 8, Fundamente 8, Elemente 7, 8, mathe.delta 9); Streuung der Einführung: LS 8, Fundamente 8, mathe.delta 9 später als Kl. 7
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–8, GYM Kl. 5–6)
+- Boden: ja
+- Ermessen (14):
+  - Einheit 1, Sekundo Kl. 8: „Messen und Entdecken am Kreis“ vor „Umfang des Kreises“ als Entdeckung von π gelesen.
+  - Einheit 1, Sekundo Kl. 9: „Umfang und Flächeninhalt“ im Kapitel Flächen- und Körperberechnungen vor Kreisring und Kreisausschnitt als Kreisumfang und Kreisfläche (Wiederaufnahme) gelesen.
+  - Einheit 1, Sekundo Kl. 9: „7i“ ist die Texterkennung für π.
+  - Einheit 1, Mathematik 2023 Kl. 5: „Kreise“ (Kl. 5) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen; Umfang folgt erst Kl. 7.
+  - Einheit 1, Mathematik 2023 Kl. 7: „ir“ ist die Texterkennung für π; die Seite zur Kreiszahl als Entdeckung von π gelesen.
+  - Einheit 1, Schnittpunkt Kl. 5: „Kreis“ (Kl. 5) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen; der Kreisumfang folgt Kl. 8.
+  - Einheit 1, Mathematik heute Kl. 8: Kreisornamente als Zeichnen von Kreisen mit Radius und Mittelpunkt gelesen.
+  - Einheit 1, LS Kl. 6: „Kreise und Kreisfiguren“ (Kl. 6) als Zeichnen von Kreisen mit Radius und Durchmesser gelesen.
+  - Einheit 1, Fundamente Kl. 6: „Kreis“ im Kapitel Winkel (Kl. 6) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen.
+  - Einheit 1, Fundamente Kl. 7: „Kreis“ im Kapitel Geometrische Konstruktionen als Kreis zeichnen (Einheit 1) gelesen.
+  - Einheit 1, Fundamente Kl. 8: „Linien am Kreis“ (Radius, Durchmesser, Sehne, Tangente) als Grundbegriffe des Kreises (Einheit 1) gelesen.
+  - Einheit 1, Elemente Kl. 5 (Ausgabe 2025): „Kreise“ (Kl. 5) als Zeichnen und Benennen von Mittelpunkt, Radius, Durchmesser gelesen.
+  - Einheit 2, Sekundo Kl. 9: wie Einheit 1.
+  - Einheiten 1, 2, 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Kreis und Zylinder (Schülerband Seite 124 bis 161)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### koerper – Würfel und Quader (Netze, Schrägbilder auf Rasterpapier, Volumen, Oberfläche, Volumeneinheiten): Stufe D (Grundschule Kl. 5/6 in Berlin/Brandenburg, LS-AA Klasse 5; für die Oberschule 7–8 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Körper erkennen, Netze, Schrägbilder
+  - Sekundo Kl. 7, S. 78: „Schrägbilder“ (Z. 86)
+  - Sekundo Kl. 7, S. 140: „Würfel- und Quadernetze“ (Z. 186)
+    Ermessen: Die Zeile nennt Würfel- und Quadernetze; als Typzeile dem Würfelnetz-Typ zugeordnet (Quadernetz-Typ „Netz von Quader oder Würfel mit Maßen zeichnen“ gleichfalls gedeckt).
+  - Sekundo Kl. 8, S. 140: „Schrägbilder des Prismas“ (Z. 348)
+  - Mathematik 2023 Kl. 5, S. 117: „Eigenschaften von Körpern“ (Z. 131)
+  - Mathematik 2023 Kl. 5, S. 120: „Schrägbilder“ (Z. 132)
+    Ermessen: Kl. 5 „Schrägbilder“: dem Grundtyp Schrägbild des Quaders zugeordnet.
+  - Mathematik 2023 Kl. 5, S. 122: „Netze“ (Z. 133)
+  - Mathematik 2023 Kl. 8, S. 132: „Körper beschreiben“ (Z. 312)
+  - Mathematik 2023 Kl. 8, S. 133: „Eigenschaften eines Prismas“ (Z. 313)
+    Ermessen: Eigenschaften des Prismas als Benennen von Grund-, Deck- und Seitenflächen gelesen.
+  - Mathematik 2023 Kl. 8, S. 134: „Prismen darstellen - Schrägbilder“ (Z. 314)
+  - Schnittpunkt Kl. 6, S. 68: „1 Quader und Würfel“ (Z. 215)
+    Ermessen: Kapitel „Körper“ (Kl. 6) führt Körperformen (Quader und Würfel, Prisma, Pyramide, Zylinder, Kegel, Kugel) mit Netzen und Schrägbildern; als Einheit 1 (Körper erkennen) gelesen.
+  - Schnittpunkt Kl. 6, S. 71: „2 Netze von Quadern und Würfeln“ (Z. 216)
+  - Schnittpunkt Kl. 6, S. 74: „3 Schrägbilder“ (Z. 217)
+  - Schnittpunkt Kl. 6, S. 77: „4 Prisma“ (Z. 218)
+  - Schnittpunkt Kl. 6, S. 80: „5 Pyramide“ (Z. 219)
+  - Schnittpunkt Kl. 6, S. 83: „6 Zylinder. Kegel. Kugel“ (Z. 220)
+  - Schnittpunkt Kl. 8, S. 158: „4 Prisma. Schrägbild“ (Z. 290)
+  - Schnittpunkt Kl. 8, S. 164: „6 Zylinder. Schrägbild“ (Z. 292)
+  - Mathematik heute Kl. 5, S. 70 (Seite des Lösungsbands): „Quader und Würfel“ (Z. 46)
+  - Mathematik heute Kl. 5, S. 54 (Seite des Lösungsbands): „Körper - Ecken, Kanten, Flächen“ (Z. 82)
+  - Mathematik heute Kl. 8, S. 76: „Schrägbilder von Prismen“ (Z. 169)
+  - LS Kl. 5: „Kapitel V Körper“ (Z. 36) › „1 Körper und Netze“ (Z. 38)
+  - LS Kl. 5: „Kapitel V Körper“ (Z. 36) › „2 Netze von Quadern und Würfeln“ (Z. 40)
+  - LS Kl. 5: „Kapitel V Körper“ (Z. 36) › „3 Schrägbilder“ (Z. 42)
+  - Fundamente Kl. 5, S. 120: „3.6 Körper“ (Z. 83)
+  - Fundamente Kl. 5, S. 124: „3.7 Körpernetze“ (Z. 84)
+  - Fundamente Kl. 5, S. 128: „3.8 Schrägbild eines Quaders“ (Z. 85)
+  - Fundamente Kl. 8, S. 268: „9.7 Schrägbilder“ (Z. 267)
+  - Fundamente Kl. 9, S. 32: „1.7 Schrägbilder“ (Z. 288)
+  - Fundamente 2017 Kl. 8, S. 192: „7.2 Schrägbild eines Prismas“ (Z. 219)
+  - Fundamente 2017 Kl. 8, S. 203: „7.5 Schrägbild eines Zylinders“ (Z. 222)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 86: „4.1 Geometrische Körper“ (Z. 758)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 92: „4.3 Netze“ (Z. 761)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 95: „4.4 Schrägbilder“ (Z. 762)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 275: „7.6 Schrägbild eines Prismas“ (Z. 211)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 183: „8.3 Schrägbild eines Prismas“ (Z. 935)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 189: „8.6 Schrägbild eines Zylinders“ (Z. 938)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 183: „5.5 Zum Selbstlernen Schrägbild des Zylinders“ (Z. 302)
+  - mathe.delta Kl. 7, S. 172: „5.1 Kö٢pe٢darstellen_Schrägbiider“ (Z. 145)
+  - mathe.delta Kl. 7, S. 178: „5.3 Körper d arstellen-Netze“ (Z. 147)
+  - Typ: Schrägbild eines Quaders auf Rasterpapier zeichnen (Tiefe halb, schräg) – Elemente Kl. 6 (Ausgabe 2025), S. 95: „4.4 Schrägbilder“
+  - Typ: Schrägbild eines Quaders auf Rasterpapier zeichnen (Tiefe halb, schräg) – Fundamente Kl. 5, S. 128: „3.8 Schrägbild eines Quaders“
+  - Typ: Netz von Quader oder Würfel mit Maßen zeichnen – LS Kl. 5: „2 Netze von Quadern und Würfeln“
+  - Typ: Schrägbild eines Quaders auf Rasterpapier zeichnen (Tiefe halb, schräg) – LS Kl. 5: „3 Schrägbilder“
+  - Typ: Schrägbild eines Quaders auf Rasterpapier zeichnen (Tiefe halb, schräg) – Mathematik 2023 Kl. 5, S. 120: „Schrägbilder“
+  - Typ: Grund- und Deckfläche, Seitenflächen benennen (auch beim liegenden Prisma) – Mathematik 2023 Kl. 8, S. 133: „Eigenschaften eines Prismas“
+  - Typ: Ecken, Kanten, Flächen zählen (Quader, Dreiecksprisma, quadratische Pyramide) – Mathematik heute Kl. 5, S. 54 (Seite des Lösungsbands): „Körper - Ecken, Kanten, Flächen“
+  - Typ: Würfelnetz: gültig oder nicht – Sekundo Kl. 7, S. 140: „Würfel- und Quadernetze“
+  - Typ: Netz von Quader oder Würfel mit Maßen zeichnen – Schnittpunkt Kl. 6, S. 71: „2 Netze von Quadern und Würfeln“
+  - Typ: Schrägbild eines Quaders auf Rasterpapier zeichnen (Tiefe halb, schräg) – Schnittpunkt Kl. 6, S. 74: „3 Schrägbilder“
+  - Marken: Elemente Kl. 8 (Ausgabe 2016): „5.5 Zum Selbstlernen Schrägbild des Zylinders“; Fundamente Kl. 9: Kapitel „Körper (Wiederholung aus Klasse 8)“ bei „1.7 Schrägbilder“
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 22: „Netze von Würfel und Quader“ (Z. 64)
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 23: „Flächen, Kanten und Ecken - Körper erkennen“ (Z. 65)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 43: „Schrägbilder“ (Z. 357)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 60: „Würfelnetze“ (Z. 195)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 18: „Netze von Quadern und Würfeln“ (Z. 262)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 19: „Schrägbilder“ (Z. 263)
+  - OS: Kl. 5–6 (Sekundo 7, 8, Mathematik 2023 5, 8, Schnittpunkt 6, 8, Mathematik heute 5, 8); Streuung der Einführung: Schnittpunkt 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–6 (LS 5, Fundamente 5, 8, 9, Elemente 6, 7, 8, mathe.delta 7); Streuung der Einführung: Elemente 6 später als Kl. 5; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Quader und Würfel
+  - Sekundo Kl. 7, S. 144: „Volumen des Quaders“ (Z. 190)
+  - Sekundo Kl. 7, S. 145: „Oberflächeninhalt des Q uaders“ (Z. 192)
+  - Sekundo Kl. 8, S. 138: „Quader und W ü rfe l“ (Z. 346)
+  - Mathematik 2023 Kl. 6, S. 190: „Oberflächeninhalt von Quader und Würfel“ (Z. 327)
+  - Mathematik 2023 Kl. 6, S. 192: „Rauminhalte vergleichen“ (Z. 328)
+  - Mathematik 2023 Kl. 6, S. 197: „Volumen von Quader und Würfel“ (Z. 330)
+  - Schnittpunkt Kl. 6, S. 164: „1 Oberflächeninhalt des Quaders“ (Z. 278)
+  - Schnittpunkt Kl. 6, S. 166: „2 Rauminhalte vergleichen“ (Z. 279)
+  - Schnittpunkt Kl. 6, S. 170: „4 Volumen des Quaders“ (Z. 281)
+  - Schnittpunkt Kl. 6, S. 173: „5 Zusammengesetzte Körper“ (Z. 283)
+    Ermessen: Zusammengesetzte Körper im Kapitel „Berechnungen am Quader“ (Kl. 6): aus Quadern zusammengesetzt, Einheit 2.
+  - Mathematik heute Kl. 5, S. 112 (Seite des Lösungsbands): „Volumenvergleich - Messen von Volumina“ (Z. 93, 94)
+  - Mathematik heute Kl. 5, S. 117 (Seite des Lösungsbands): „Berechnungen am Quader - Volumen und Oberfläche“ (Z. 98, 99)
+  - LS Kl. 5: „Kapitel V Körper“ (Z. 36) › „4 Rauminhalte vergleichen“ (Z. 44)
+  - LS Kl. 5: „Kapitel V Körper“ (Z. 36) › „6 Volumen eines Quaders“ (Z. 48)
+  - LS Kl. 5: „Kapitel V Körper“ (Z. 36) › „7 Oberflächeninhalte von Quadern und Würfeln“ (Z. 50)
+  - Fundamente Kl. 5, S. 172: „5.1 Körper vergleichen“ (Z. 107)
+  - Fundamente Kl. 5, S. 175: „5.2 Volumen eines Quaders“ (Z. 108)
+  - Fundamente Kl. 5, S. 182: „5.4 Volumen zusammengesetzter Körper“ (Z. 110)
+  - Fundamente Kl. 5, S. 185: „5.5 Oberflächeninhalt eines Quaders“ (Z. 111)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 6 (Ausgabe 2025), S. 104: „5.1 Rauminhalte messen“ (Z. 771)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 113: „5.4 Volumen eines Quaders“ (Z. 776)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 116: „5.5 Zusammengesetzte Körper“ (Z. 777)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 117: „5.6 Oberflächeninhalt eines Quaders“ (Z. 778)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: aus zwei Quadern zusammengesetzt (Treppe, L-Form) – Elemente Kl. 6 (Ausgabe 2025), S. 116: „5.5 Zusammengesetzte Körper“
+  - Typ: aus zwei Quadern zusammengesetzt (Treppe, L-Form) – Fundamente Kl. 5, S. 182: „5.4 Volumen zusammengesetzter Körper“
+  - Typ: Oberfläche als sechs Rechtecke, Würfel 6 · a² – LS Kl. 5: „7 Oberflächeninhalte von Quadern und Würfeln“
+  - Typ: aus zwei Quadern zusammengesetzt (Treppe, L-Form) – Schnittpunkt Kl. 6, S. 173: „5 Zusammengesetzte Körper“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 45: „Volumen des Quaders“ (Z. 359)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 62: „Volumen des Quaders“ (Z. 197)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 36: „Oberflächeninhalt des Quaders“ (Z. 288)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 39: „Volumen des Quaders“ (Z. 291)
+  - OS: Kl. 5–6 (Sekundo 7, 8, Mathematik 2023 6, Schnittpunkt 6, Mathematik heute 5); Streuung der Einführung: Mathematik 2023 6, Schnittpunkt 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–6 (LS 5, Fundamente 5, Elemente 6, mathe.delta –); Streuung der Einführung: Elemente 6 später als Kl. 5
+- 3. Prisma
+  - Sekundo Kl. 8, S. 139: „Prisma“ (Z. 347)
+  - Sekundo Kl. 8, S. 141: „Oberfläche des Prismas“ (Z. 350)
+  - Sekundo Kl. 8, S. 142: „Volumen des Prism as“ (Z. 352)
+  - Sekundo Kl. 10, S. 58: „Volumen von Prisma und Zylinder“ (Z. 496)
+  - Sekundo Kl. 10, S. 59: „Oberfläche von Prisma und Zylinder“ (Z. 497)
+  - Mathematik 2023 Kl. 8, S. 139: „Volumen von Prismen untersuchen“ (Z. 269)
+  - Mathematik 2023 Kl. 8, S. 140: „Volumen eines Prismas“ (Z. 270)
+  - Mathematik 2023 Kl. 8, S. 136: „Netz eines Prismas“ (Z. 316)
+  - Mathematik 2023 Kl. 8, S. 137: „Oberflächeninhalt eines Prismas“ (Z. 317)
+  - Schnittpunkt Kl. 8, S. 152: „1 Prisma“ (Z. 287)
+  - Schnittpunkt Kl. 8, S. 154: „2 Prisma. Netz“ (Z. 288)
+  - Schnittpunkt Kl. 8, S. 156: „3 Prisma. Oberflächeninhalt“ (Z. 289)
+  - Schnittpunkt Kl. 8, S. 161: „5 Prisma. Volumen“ (Z. 291)
+  - Schnittpunkt Kl. 9, S. 108: „1 Prisma. Zylinder“ (Z. 399)
+  - Mathematik heute Kl. 8, S. 72: „Prismen - Netz“ (Z. 167)
+  - Mathematik heute Kl. 8, S. 78: „Oberflächeninhalt eines Prismas“ (Z. 171)
+  - Mathematik heute Kl. 8, S. 80: „Volumen eines Prismas“ (Z. 173)
+  - LS Kl. 8: „Kapitel VII Körper“ (Z. 156) › „1 Flächen bei Prismen und Zylindern“ (Z. 157)
+  - LS Kl. 8: „Kapitel VII Körper“ (Z. 156) › „2 Prismen und Zylinder – Volumen“ (Z. 158)
+  - Fundamente Kl. 8, S. 244: „9.1 Prisma-Netz und Oberflächeninhalt“ (Z. 261)
+  - Fundamente Kl. 8, S. 248: „9.2 Volumen eines Prismas“ (Z. 262)
+  - Fundamente Kl. 9, S. 8: „1.1 Prisma - Netz und Oberflächeninhalt“ (Z. 282)
+  - Fundamente Kl. 9, S. 12: „1.2 Volumen eines Prismas“ (Z. 283)
+  - Fundamente 2017 Kl. 8, S. 188: „7.1 Prisma - Netz und Oberflächeninhalt“ (Z. 218)
+  - Fundamente 2017 Kl. 8, S. 194: „7.3 Volumen eines Prismas“ (Z. 220)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 271: „7.5 Netz und Oberflächeninhalt eines Prismas“ (Z. 210)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 279: „7.7 Volumen eines Prismas“ (Z. 212)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 176: „8.1 Prismen und Zylinder“ (Z. 932)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 179: „8.2 Prisma: Netz und Oberflächeninhalt“ (Z. 933)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 185: „8.4 Volumen eines Prismas“ (Z. 936)
+  - mathe.delta Kl. 7, S. 180: „5.4 Oberflächeninhalt von Prisma und Z y lin d e r“ (Z. 148)
+  - mathe.delta Kl. 7, S. 182: „5.5 Volumen von Prisma und Zylinder“ (Z. 149)
+  - Typ: Netz eines Prismas vervollständigen (fehlende Rechtecke, Maße) – Mathematik 2023 Kl. 8, S. 136: „Netz eines Prismas“
+  - Typ: Netz eines Prismas vervollständigen (fehlende Rechtecke, Maße) – Mathematik heute Kl. 8, S. 72: „Prismen - Netz“
+  - Typ: Netz eines Prismas vervollständigen (fehlende Rechtecke, Maße) – Schnittpunkt Kl. 8, S. 154: „2 Prisma. Netz“
+  - Marken: Fundamente Kl. 9: Kapitel „Körper (Wiederholung aus Klasse 8)“ bei „1.1 Prisma - Netz und Oberflächeninhalt“; Fundamente Kl. 9: Kapitel „Körper (Wiederholung aus Klasse 8)“ bei „1.2 Volumen eines Prismas“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 64: „Oberfläche des Prismas“ (Z. 470)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 65: „Volumen des Prismas“ (Z. 291)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 51: „Volumen eines Prismas“ (Z. 149)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 43: „Prisma. Netz“ (Z. 367)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 24: „Prismen (Schülerband Seite 114 bis 135)“ (Z. 47)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8 (Sekundo 8, 10, Mathematik 2023 8, Schnittpunkt 8, 9, Mathematik heute 8)
+  - GYM: Kl. 7–8 (LS 8, Fundamente 8, 9, Elemente 7, mathe.delta 7); Streuung der Einführung: LS 8, Fundamente 8 später als Kl. 7
+- 4. Zylinder
+  - Sekundo Kl. 8, S. 148: „Zylinder: Schrägbild und Netz“ (Z. 360)
+  - Sekundo Kl. 8, S. 149: „Oberfläche des Zylinders“ (Z. 362)
+  - Sekundo Kl. 8, S. 150: „Volumen des Zylinders“ (Z. 363)
+  - Sekundo Kl. 8, S. 151: „Berechnungen am Zylinder“ (Z. 364)
+  - Sekundo Kl. 10, S. 58: „Volumen von Prisma und Zylinder“ (Z. 496)
+  - Sekundo Kl. 10, S. 59: „Oberfläche von Prisma und Zylinder“ (Z. 497)
+  - Mathematik 2023 Kl. 8, S. 142: „Eigenschaften und Darstellungen eines Zylinders“ (Z. 271, 272)
+  - Mathematik 2023 Kl. 8, S. 143: „Netz eines Zylinders“ (Z. 273)
+  - Mathematik 2023 Kl. 8, S. 144: „Oberflächeninhalt eines Zylinders“ (Z. 274)
+  - Mathematik 2023 Kl. 8, S. 146: „Volumen eines Zylinders“ (Z. 275)
+  - Schnittpunkt Kl. 8, S. 166: „7 Zylinder. Netz und Oberflächeninhalt“ (Z. 293)
+  - Schnittpunkt Kl. 8, S. 168: „8 Zylinder. Volumen“ (Z. 294)
+  - Schnittpunkt Kl. 9, S. 108: „1 Prisma. Zylinder“ (Z. 399)
+  - Mathematik heute Kl. 8, S. 128: „Eigenschaften und Darstellungen eines Zvlinders“ (Z. 203, 204)
+  - Mathematik heute Kl. 8, S. 131: „Oberflächeninhalt und Volumen eines Zylinders“ (Z. 205)
+  - LS Kl. 8: „Kapitel VII Körper“ (Z. 156) › „1 Flächen bei Prismen und Zylindern“ (Z. 157)
+  - LS Kl. 8: „Kapitel VII Körper“ (Z. 156) › „2 Prismen und Zylinder – Volumen“ (Z. 158)
+  - Fundamente Kl. 8, S. 253: „9.3 Zylinder-Netz und Oberflächeninhalt“ (Z. 263)
+  - Fundamente Kl. 8, S. 256: „9.4 Volumen eines Zylinders“ (Z. 264)
+  - Fundamente Kl. 9, S. 17: „1.3 Zylinder-Netz und Oberflächeninhalt“ (Z. 284)
+  - Fundamente Kl. 9, S. 20: „1.4 Volumen eines Zylinders“ (Z. 285)
+  - Fundamente 2017 Kl. 8, S. 198: „7.4 Zylinder - Netz und Oberflächeninhalt“ (Z. 221)
+  - Fundamente 2017 Kl. 8, S. 205: „7.6 Volumen eines Zylinders“ (Z. 223)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 176: „8.1 Prismen und Zylinder“ (Z. 932)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 187: „8.5 Zylinder: Netz und Oberflächeninhalt“ (Z. 937)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 190: „8.7 Volumen eines Zylinders“ (Z. 939)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 181: „5.4 Zylinder - Netz und Oberflächeninhalt“ (Z. 301)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 184: „5.6 Volumen des Zylinders“ (Z. 303)
+  - mathe.delta Kl. 7, S. 180: „5.4 Oberflächeninhalt von Prisma und Z y lin d e r“ (Z. 148)
+  - mathe.delta Kl. 7, S. 182: „5.5 Volumen von Prisma und Zylinder“ (Z. 149)
+  - Typ: Netz: Rechtecklänge gleich Umfang – Mathematik 2023 Kl. 8, S. 143: „Netz eines Zylinders“
+  - Typ: Netz: Rechtecklänge gleich Umfang – Sekundo Kl. 8, S. 148: „Zylinder: Schrägbild und Netz“
+  - Typ: Netz: Rechtecklänge gleich Umfang – Schnittpunkt Kl. 8, S. 166: „7 Zylinder. Netz und Oberflächeninhalt“
+  - Marken: Fundamente Kl. 9: Kapitel „Körper (Wiederholung aus Klasse 8)“ bei „1.3 Zylinder-Netz und Oberflächeninhalt“; Fundamente Kl. 9: Kapitel „Körper (Wiederholung aus Klasse 8)“ bei „1.4 Volumen eines Zylinders“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 68: „Volumen des Zylinders“ (Z. 474)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 67: „Volumen des Zylinders“ (Z. 293)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 53: „Volumen eines Zylinders“ (Z. 151)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 50: „Zylinder. Volumen“ (Z. 374)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 29: „Kreis und Zylinder (Schülerband Seite 124 bis 161)“ (Z. 59)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8 (Sekundo 8, 10, Mathematik 2023 8, Schnittpunkt 8, 9, Mathematik heute 8)
+  - GYM: Kl. 7–8 (LS 8, Fundamente 8, 9, Elemente 7, 8, mathe.delta 7); Streuung der Einführung: LS 8, Fundamente 8 später als Kl. 7
+- 5. Zusammengesetzte Körper und Anwendungen
+  - Sekundo Kl. 7, S. 148: „Zusammengesetzte K ö rp e r“ (Z. 198)
+  - Sekundo Kl. 8, S. 153: „Zusammengesetzte und ausgehöhlte Körper“ (Z. 365, 366)
+  - Sekundo Kl. 9, S. 146: „Zusammengesetzte und ausgehöhlte Körper“ (Z. 476)
+  - Mathematik 2023 Kl. 8, S. 152: „Üben: Zusammengesetzte Körper“ (Z. 278)
+  - Mathematik 2023 Kl. 9, S. 140: „Zusammengesetzte Körper“ (Z. 461)
+    Ermessen: „Zusammengesetzte Körper“ im Kapitel Pyramiden, Kegel, Kugeln; Einheit 5 von koerper zugeordnet.
+  - Schnittpunkt Kl. 8, S. 170: „9 Zusammengesetzte Körper“ (Z. 295)
+  - Schnittpunkt Kl. 9, S. 126: „9 Zusammengesetzte Körper“ (Z. 408)
+  - Mathematik heute Kl. 6, S. 125: „Berechnungen an Körpern“ (Z. 168)
+    Ermessen: wie Flächen: zusammengesetzte Körper aus Quadern (koerper Einheit 5).
+  - Mathematik heute Kl. 8, S. 84: „Zusammengesetzte Körper“ (Z. 175)
+  - Mathematik heute Kl. 8, S. 137: „Berechnungen an zusammengesetzten Körpern“ (Z. 206)
+  - Mathematik heute Kl. 9, S. 119: „Berechnungen an zusammengesetzten Körpern“ (Z. 277, 278)
+  - Mathematik heute Kl. 10, S. 75: „Berechnungen an zusammengesetzten Körpern“ (Z. 321, 323)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente Kl. 9, S. 154: „4.5 Zusammengesetzte Körper“ (Z. 346)
+  - Fundamente 2017 Kl. 9, S. 182: „5.7 Zusammengesetzte Körper“ (Z. 306)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 190: „5.7 Zum Selbstlernen Berechnungen an zusammengesetzten Körpern“ (Z. 305)
+  - mathe.delta Kl. 9, S. 138: „4.4 Zusammengesetzte K ö rp e r“ (Z. 626)
+  - mathe.delta Kl. 10, S. 100: „3.4 Zusammengesetzte und ausgehöhlte Körper“ (Z. 726)
+  - Marken: Elemente Kl. 8 (Ausgabe 2016): „5.7 Zum Selbstlernen Berechnungen an zusammengesetzten Körpern“; Mathematik 2023 Kl. 8: „Üben: Zusammengesetzte Körper“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 68: „Zusammengesetzte und ausgehöhlte Körper 1“ (Z. 294)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 57: „Üben: Zusammengesetzte Körper“ (Z. 155)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 37: „Zusammengesetzte Körper“ (Z. 220)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 51: „Zusammengesetzte Körper (1)“ (Z. 375)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 40: „Zusammengesetzte Körper (1)“ (Z. 151)
+  - OS: Kl. 6–8 (Sekundo 7, 8, 9, Mathematik 2023 8, 9, Schnittpunkt 8, 9, Mathematik heute 6, 8, 9, 10); Streuung der Einführung: Mathematik 2023 8, Schnittpunkt 8 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 8–9 (LS –, Fundamente 9, Elemente 8, mathe.delta 9, 10); Streuung der Einführung: Fundamente 9, mathe.delta 9 später als Kl. 8
+- Spanne OS/GYM: ja (Einheit 3: OS Kl. 8, GYM Kl. 7–8; Einheit 4: OS Kl. 8, GYM Kl. 7–8; Einheit 5: OS Kl. 6–8, GYM Kl. 8–9)
+- Boden: ja
+- Ermessen (9):
+  - Einheit 1, Sekundo Kl. 7: Die Zeile nennt Würfel- und Quadernetze; als Typzeile dem Würfelnetz-Typ zugeordnet (Quadernetz-Typ „Netz von Quader oder Würfel mit Maßen zeichnen“ gleichfalls gedeckt).
+  - Einheit 1, Mathematik 2023 Kl. 5: Kl. 5 „Schrägbilder“: dem Grundtyp Schrägbild des Quaders zugeordnet.
+  - Einheit 1, Mathematik 2023 Kl. 8: Eigenschaften des Prismas als Benennen von Grund-, Deck- und Seitenflächen gelesen.
+  - Einheit 1, Schnittpunkt Kl. 6: Kapitel „Körper“ (Kl. 6) führt Körperformen (Quader und Würfel, Prisma, Pyramide, Zylinder, Kegel, Kugel) mit Netzen und Schrägbildern; als Einheit 1 (Körper erkennen) gelesen.
+  - Einheit 2, Schnittpunkt Kl. 6: Zusammengesetzte Körper im Kapitel „Berechnungen am Quader“ (Kl. 6): aus Quadern zusammengesetzt, Einheit 2.
+  - Einheit 5, Mathematik 2023 Kl. 9: „Zusammengesetzte Körper“ im Kapitel Pyramiden, Kegel, Kugeln; Einheit 5 von koerper zugeordnet.
+  - Einheit 5, Mathematik heute Kl. 6: wie Flächen: zusammengesetzte Körper aus Quadern (koerper Einheit 5).
+  - Einheit 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Prismen (Schülerband Seite 114 bis 135)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheit 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Kreis und Zylinder (Schülerband Seite 124 bis 161)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### pyramide-kegel-kugel – Gerade quadratische Pyramide (Volumen, Oberfläche, Netz, Schrägbild): Stufe F (Gymnasium laut Bildungsgangtabelle Kl. 8, im Lehrwerk Kl. 10; Oberschule 9–10 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Pyramide
+  - Sekundo Kl. 9, S. 135: „LVL: Pyramiden zeichnen und bauen“ (Z. 460)
+  - Sekundo Kl. 9, S. 138: „Volumen von Pyramide und Kegel“ (Z. 463)
+  - Sekundo Kl. 9, S. 139: „LVL: Rechtwinklige Dreiecke in Kegel und Pyramide“ (Z. 464, 465)
+  - Sekundo Kl. 9, S. 140: „Oberfläche der Pyramide“ (Z. 466)
+  - Sekundo Kl. 10, S. 60: „LVL: Pyramiden zeichnen und bauen“ (Z. 498)
+  - Sekundo Kl. 10, S. 62: „Pythagorasanwendungen bei Kegel und Pyramiden“ (Z. 500, 501)
+  - Sekundo Kl. 10, S. 64: „Oberfläche von Pyramide und Kegel“ (Z. 504)
+  - Sekundo Kl. 10, S. 72: „Volumen von Pyramide und Kegel“ (Z. 512)
+  - Mathematik 2023 Kl. 8, S. 189: „Darstellungen von Pyramide und Kegel“ (Z. 329)
+  - Mathematik 2023 Kl. 8, S. 191: „Volumen einer Pyramide“ (Z. 331)
+  - Mathematik 2023 Kl. 8, S. 193: „Oberflächeninhalt einer Pyramide“ (Z. 332)
+  - Mathematik 2023 Kl. 9, S. 131: „Darstellungen von Pyramide und Kegel“ (Z. 453)
+  - Mathematik 2023 Kl. 9, S. 133: „Volumen einer Pyramide“ (Z. 455)
+  - Mathematik 2023 Kl. 9, S. 135: „Oberflächeninhalt einer Pyramide“ (Z. 456)
+  - Schnittpunkt Kl. 9, S. 110: „2 Pyramide. Netz und Oberflächeninhalt“ (Z. 400)
+  - Schnittpunkt Kl. 9, S. 113: „3 Pyramide. Schrägbild und Volumen“ (Z. 401)
+  - Mathematik heute Kl. 9, S. 112: „Eigenschaften und Darstellung von Pyramiden“ (Z. 273, 274)
+  - Mathematik heute Kl. 9, S. 114: „Oberfläche von Pyramiden“ (Z. 275)
+  - Mathematik heute Kl. 9, S. 117: „Volumen von Pyramiden“ (Z. 276)
+  - LS Kl. 10: „Kapitel I Spitze Körper und Kugeln“ (Z. 215) › „1 Pyramiden“ (Z. 216)
+  - Fundamente Kl. 8, S. 260: „9.5 Pyramide-Netz und Oberflächeninhalt“ (Z. 265)
+  - Fundamente Kl. 8, S. 264: „9.6 Volumen einer Pyramide“ (Z. 266)
+  - Fundamente Kl. 9, S. 24: „1.5 Pyramide-Netz und Oberflächeninhalt“ (Z. 286)
+  - Fundamente Kl. 9, S. 28: „1.6 Volumen einer Pyramide“ (Z. 287)
+  - Fundamente 2017 Kl. 8, S. 212: „7.8 Pyramide – Netz und Oberflächeninhalt“ (Z. 225)
+  - Fundamente 2017 Kl. 8, S. 218: „7.10 Volumen einer Pyramide“ (Z. 227)
+  - Fundamente 2017 Kl. 9, S. 158: „5.1 Pyramide - Netz und O b erfläch en in h alt“ (Z. 300)
+  - Fundamente 2017 Kl. 9, S. 162: „5.2 Volumen einer P y ra m id e“ (Z. 301)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 53: „2.1.1 Pyramide - Netz und Oberflächeninhalt“ (Z. 493)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 62: „2.2.2 Volumen der Pyramide“ (Z. 497)
+  - mathe.delta Kl. 8: „5.4 Netze von Pyramide und Kegel“ (Z. 479) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - mathe.delta Kl. 8: „5.5 Oberflächeninhalt von Pyramide“ (Z. 490) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - mathe.delta Kl. 8: „5.6 Schrägbild von Pyramide und Kegel“ (Z. 496) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - mathe.delta Kl. 8: „5.7 Volumen von Pyramide und Kegel“ (Z. 500) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - Typ: Schrägbild zeichnen, Höhe einzeichnen und beschriften – Mathematik 2023 Kl. 8, S. 189: „Darstellungen von Pyramide und Kegel“
+  - Typ: Schrägbild zeichnen, Höhe einzeichnen und beschriften – mathe.delta Kl. 8: „5.6 Schrägbild von Pyramide und Kegel“
+  - Typ: Seitenhöhe aus h und a/2 (Stützdreieck, Pythagoras) – Sekundo Kl. 9, S. 139: „LVL: Rechtwinklige Dreiecke in Kegel und Pyramide“
+  - Typ: Seitenhöhe aus h und a/2 (Stützdreieck, Pythagoras) – Sekundo Kl. 10, S. 62: „Pythagorasanwendungen bei Kegel und Pyramiden“
+  - Marken: Fundamente Kl. 9: Kapitel „Körper (Wiederholung aus Klasse 8)“ bei „1.5 Pyramide-Netz und Oberflächeninhalt“; Fundamente Kl. 9: Kapitel „Körper (Wiederholung aus Klasse 8)“ bei „1.6 Volumen einer Pyramide“; Sekundo Kl. 9: „LVL: Pyramiden zeichnen und bauen“; Sekundo Kl. 9: „LVL: Rechtwinklige Dreiecke in Kegel und Pyramide“; Sekundo Kl. 10: „LVL: Pyramiden zeichnen und bauen“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 69: „Volumen der Pyramide“ (Z. 295)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 68: „Volumen einer Pyramide“ (Z. 168)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 30: „Volumen einer Pyramide“ (Z. 213)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 31: „Pyramide. Netz und Oberflächeninhalt (1)“ (Z. 142)
+  - Ermessen: Mathematik 2023 führt das Kapitel „Pyramiden, Kegel, Kugeln“ wortgleich in Band 8 (Kap. 8) und Band 9 (Kap. 6); die Ausgabe gilt für vier Länder, vermutlich je nach Land in Kl. 8 oder 9. Beide Stellen stehen da; die Einführungsklasse der Reihe ist deshalb 8.
+  - OS: Kl. 8–9 (Sekundo 9, 10, Mathematik 2023 8, 9, Schnittpunkt 9, Mathematik heute 9); Streuung der Einführung: Sekundo 9, Schnittpunkt 9, Mathematik heute 9 später als Kl. 8
+  - GYM: Kl. 8–10 (LS 10, Fundamente 8, 9, Elemente 10, mathe.delta 8); Streuung der Einführung: LS 10, Elemente 10 später als Kl. 8
+- 2. Kegel
+  - Sekundo Kl. 9, S. 136: „LVL: Kegel zeichnen und bauen“ (Z. 461)
+  - Sekundo Kl. 9, S. 138: „Volumen von Pyramide und Kegel“ (Z. 463)
+  - Sekundo Kl. 9, S. 139: „LVL: Rechtwinklige Dreiecke in Kegel und Pyramide“ (Z. 464, 465)
+  - Sekundo Kl. 9, S. 141: „Oberfläche des Kegels“ (Z. 468)
+  - Sekundo Kl. 10, S. 61: „LVL: Kegel zeichnen und bauen“ (Z. 499)
+  - Sekundo Kl. 10, S. 62: „Pythagorasanwendungen bei Kegel und Pyramiden“ (Z. 500, 501)
+  - Sekundo Kl. 10, S. 64: „Oberfläche von Pyramide und Kegel“ (Z. 504)
+  - Sekundo Kl. 10, S. 72: „Volumen von Pyramide und Kegel“ (Z. 512)
+  - Mathematik 2023 Kl. 8, S. 189: „Darstellungen von Pyramide und Kegel“ (Z. 329)
+  - Mathematik 2023 Kl. 8, S. 194: „Volumen eines Kegels“ (Z. 333)
+  - Mathematik 2023 Kl. 8, S. 195: „Oberflächeninhalt eines Kegels“ (Z. 334)
+  - Mathematik 2023 Kl. 9, S. 136: „Volumen eines Kegels“ (Z. 457)
+  - Mathematik 2023 Kl. 9, S. 137: „Oberflächeninhalt eines Kegels“ (Z. 458)
+  - Schnittpunkt Kl. 9, S. 117: „5 Kegel. Netz und Oberflächeninhalt“ (Z. 403)
+  - Schnittpunkt Kl. 9, S. 119: „6 Kegel. Schrägbild und Volumen“ (Z. 404)
+  - Mathematik heute Kl. 10, S. 62: „Kegel“ (Z. 319)
+  - LS Kl. 10: „Kapitel I Spitze Körper und Kugeln“ (Z. 215) › „2 Kegel“ (Z. 217)
+  - Fundamente Kl. 9, S. 142: „4.1 Netz und Oberflächeninhalt eines Kegels“ (Z. 342)
+  - Fundamente Kl. 9, S. 145: „4.2 Volumen eines Kegels“ (Z. 343)
+  - Fundamente 2017 Kl. 9, S. 168: „5.3 Kegel - Netz und Oberflächeninhalt“ (Z. 302)
+  - Fundamente 2017 Kl. 9, S. 171: „5.4 Volumen eines K egels“ (Z. 303)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 57: „2.1.2 Kegel - Netz und Oberflächeninhalt“ (Z. 494)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 67: „2.2.3 Volumen des Kegels“ (Z. 498)
+  - mathe.delta Kl. 8: „5.4 Netze von Pyramide und Kegel“ (Z. 479) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - mathe.delta Kl. 8: „5.6 Schrägbild von Pyramide und Kegel“ (Z. 496) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - mathe.delta Kl. 8: „5.7 Volumen von Pyramide und Kegel“ (Z. 500) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - Typ: Schrägbild eines Kegels skizzieren (Ellipse, Spitze, Höhe gestrichelt) – Mathematik 2023 Kl. 8, S. 189: „Darstellungen von Pyramide und Kegel“
+  - Typ: Schrägbild eines Kegels skizzieren (Ellipse, Spitze, Höhe gestrichelt) – mathe.delta Kl. 8: „5.6 Schrägbild von Pyramide und Kegel“
+  - Typ: s aus r und h (Stützdreieck) – Sekundo Kl. 9, S. 139: „LVL: Rechtwinklige Dreiecke in Kegel und Pyramide“
+  - Typ: s aus r und h (Stützdreieck) – Sekundo Kl. 10, S. 62: „Pythagorasanwendungen bei Kegel und Pyramiden“
+  - Typ: Netz des Kegels erkennen und beschriften: Kreis und Kreisausschnitt mit dem Radius s (Sektorwinkel Vorrat) – Schnittpunkt Kl. 9, S. 117: „5 Kegel. Netz und Oberflächeninhalt“
+  - Marken: Sekundo Kl. 9: „LVL: Kegel zeichnen und bauen“; Sekundo Kl. 9: „LVL: Rechtwinklige Dreiecke in Kegel und Pyramide“; Sekundo Kl. 10: „LVL: Kegel zeichnen und bauen“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 70: „Volumen des Kegels“ (Z. 296)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 69: „Volumen eines Kegels“ (Z. 169)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 33: „Oberflächeninhalt eines Kegels“ (Z. 216)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 36: „Kegel. Netz und Oberflächeninhalt“ (Z. 147)
+  - OS: Kl. 8–10 (Sekundo 9, 10, Mathematik 2023 8, 9, Schnittpunkt 9, Mathematik heute 10); Streuung der Einführung: Sekundo 9, Schnittpunkt 9, Mathematik heute 10 später als Kl. 8
+  - GYM: Kl. 8–10 (LS 10, Fundamente 9, Elemente 10, mathe.delta 8); Streuung der Einführung: LS 10, Fundamente 9, Elemente 10 später als Kl. 8
+- 3. Kugel
+  - Sekundo Kl. 10, S. 74: „Volumen der Kugel“ (Z. 513)
+  - Sekundo Kl. 10, S. 75: „Oberfläche der Kugel“ (Z. 514)
+  - Sekundo Kl. 10, S. 76: „Volumen und Oberfläche der Kugel“ (Z. 515)
+  - Mathematik 2023 Kl. 8, S. 196: „Volumen einer Kugel“ (Z. 335)
+  - Mathematik 2023 Kl. 8, S. 197: „Oberflächeninhalt einer Kugel“ (Z. 336)
+  - Mathematik 2023 Kl. 9, S. 138: „Volumen einer Kugel“ (Z. 459)
+  - Mathematik 2023 Kl. 9, S. 139: „Oberflächeninhalt einer Kugel“ (Z. 460)
+  - Schnittpunkt Kl. 9, S. 122: „7 Kugel. Volumen“ (Z. 406)
+  - Schnittpunkt Kl. 9, S. 124: „8 Kugel. Oberflächeninhalt“ (Z. 407)
+  - Mathematik heute Kl. 10, S. 69: „Kugel“ (Z. 320)
+  - LS Kl. 10: „Kapitel I Spitze Körper und Kugeln“ (Z. 215) › „3 Kugeln“ (Z. 218)
+  - Fundamente Kl. 9, S. 148: „4.3 Volumen einer Kugel“ (Z. 344)
+  - Fundamente Kl. 9, S. 151: „4.4 Oberflächeninhalt einer Kugel“ (Z. 345)
+  - Fundamente 2017 Kl. 9, S. 175: „5.5 Volumen einer Kugel“ (Z. 304)
+  - Fundamente 2017 Kl. 9, S. 178: „5.6 Oberflächeninhalt einer Kugel“ (Z. 305)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 71: „2.3.1 Volumen der Kugel“ (Z. 500)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 74: „2.3.2 Oberflächeninhalt der Kugel“ (Z. 501)
+  - mathe.delta Kl. 9, S. 134: „4.2 Volumen einer K u g e l“ (Z. 624)
+  - mathe.delta Kl. 9, S. 136: „4.3 Oberflächeninhalt einer K u g e l“ (Z. 625)
+  - Marken: keine
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 70: „Volumen einer Kugel“ (Z. 170)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 34: „Volumen einer Kugel“ (Z. 217)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 38: „Kugel. Volumen“ (Z. 149)
+  - OS: Kl. 8–10 (Sekundo 10, Mathematik 2023 8, 9, Schnittpunkt 9, Mathematik heute 10); Streuung der Einführung: Sekundo 10, Schnittpunkt 9, Mathematik heute 10 später als Kl. 8
+  - GYM: Kl. 9–10 (LS 10, Fundamente 9, Elemente 10, mathe.delta 9); Streuung der Einführung: LS 10, Elemente 10 später als Kl. 9
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 8–9, GYM Kl. 8–10; Einheit 3: OS Kl. 8–10, GYM Kl. 9–10)
+- Boden: nein
+- Ermessen (1):
+  - Einheit 1: Mathematik 2023 führt das Kapitel „Pyramiden, Kegel, Kugeln“ wortgleich in Band 8 (Kap. 8) und Band 9 (Kap. 6); die Ausgabe gilt für vier Länder, vermutlich je nach Land in Kl. 8 oder 9. Beide Stellen stehen da; die Einführungsklasse der Reihe ist deshalb 8.
+
+### pythagoras – Satz des Pythagoras zur Berechnung von Streckenlängen in rechtwinkligen Dreiecken, auch an Körpern, und seine Umkehrung zum Erkennen rechtwinkliger Dreiecke: Stufe E (Gymnasium Kl. 7 laut Bildungsgangtabelle; Oberschule 7–8 regulär; Förderschwerpunkt Lernen 9–10) – das Lehrwerk bringt den Satz in Kl. 9 V, nach den Quadratwurzeln (Kl. 8 IV) und vor Körpern und Trigonometrie (Kl. 10).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Satz und Hypotenuse
+  - Sekundo Kl. 9, S. 54: „LVL: Beweise zum Satz des Pythagoras“ (Z. 377)
+  - Sekundo Kl. 9, S. 55: „Satz des Pythagoras“ (Z. 378)
+  - Sekundo Kl. 9, S. 56: „Berechnen der Hypotenuse“ (Z. 379)
+  - Mathematik 2023 Kl. 8, S. 112: „Der Satz des Pythagoras“ (Z. 286)
+  - Mathematik 2023 Kl. 8, S. 113: „Berechnung der Hypotenuse in einem rechtwinkligen Dreieck“ (Z. 287, 288)
+  - Schnittpunkt Kl. 8, S. 97: „EXTRA: Satz des Pythagoras“ (Z. 257)
+  - Schnittpunkt Kl. 9, S. 82: „1 Satz des Pythagoras“ (Z. 383)
+  - Schnittpunkt Kl. 9, S. 85: „2 Länge von Hypothenuseund Kathete berechnen“ (Z. 384)
+  - Mathematik heute Kl. 8, S. 202: „Satz des Pythagoras“ (Z. 168)
+  - LS Kl. 9: „Kapitel V Der Satz des Pythagoras und Körper“ (Z. 204) › „1 Der Satz des Pythagoras“ (Z. 205)
+  - Fundamente Kl. 8, S. 218: „8.1 Satz des Pythagoras“ (Z. 247)
+  - Fundamente 2017 Kl. 8, S. 209: „7.7 Satz des Pythagoras“ (Z. 224)
+  - Fundamente 2017 Kl. 9, S. 102: „3.1 Der Satz des Pythagoras“ (Z. 277)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 144: „4.2 Satz des Pythagoras“ (Z. 286)
+  - mathe.delta Kl. 8: „5.2 Satz des Pythagoras“ (Z. 464) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - Typ: Hypotenuse aus zwei Katheten mit aufgehender Wurzel – Mathematik 2023 Kl. 8, S. 113: „Berechnung der Hypotenuse in einem rechtwinkligen Dreieck“
+  - Typ: Hypotenuse aus zwei Katheten mit aufgehender Wurzel – Sekundo Kl. 9, S. 56: „Berechnen der Hypotenuse“
+  - Marken: Sekundo Kl. 9: „LVL: Beweise zum Satz des Pythagoras“; Schnittpunkt Kl. 8: „EXTRA: Satz des Pythagoras“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 29: „Berechnen der Hypotenuse“ (Z. 251)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 38: „Der Satz des Pythagoras“ (Z. 135)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 23: „Satz des Pythagoras (1)“ (Z. 132)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 23: „Satz des Pythagoras (Schülerband Seite 106 bis 123)“ (Z. 58)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8–9 (Sekundo 9, Mathematik 2023 8, Schnittpunkt 8, 9, Mathematik heute 8); Streuung der Einführung: Sekundo 9 später als Kl. 8
+  - GYM: Kl. 8–9 (LS 9, Fundamente 8, Elemente 8, mathe.delta 8); Streuung der Einführung: LS 9 später als Kl. 8
+- 2. Kathete und Umkehrung
+  - Sekundo Kl. 9, S. 57: „Berechnen einer Kathete“ (Z. 380)
+  - Sekundo Kl. 9, S. 59: „Umkehrung des Satzes des Pythagoras“ (Z. 382)
+  - Sekundo Kl. 9, S. 63: „LVL: Pythagoras im Gelände“ (Z. 386)
+    Ermessen: „Pythagoras im Gelände“ als Sachaufgabe zur Kathete/Strecke gelesen.
+  - Mathematik 2023 Kl. 8, S. 114: „Berechnung einer Kathete in einem recht winkligen Dreieck“ (Z. 289, 291)
+  - Mathematik 2023 Kl. 8, S. 115: „Die Umkehrung des Satzes des Pythagoras“ (Z. 292)
+  - Mathematik 2023 Kl. 8, S. 126: „Vertiefen: Pythagoreische Zahlentripel“ (Z. 300)
+  - Schnittpunkt Kl. 9, S. 85: „2 Länge von Hypothenuseund Kathete berechnen“ (Z. 384)
+  - Mathematik heute Kl. 8, S. 206: „Umkehrung des Satzes des Pythagoras“ (Z. 170)
+  - LS Kl. 9: „Kapitel V Der Satz des Pythagoras und Körper“ (Z. 204) › „1 Der Satz des Pythagoras“ (Z. 205)
+    Ermessen: Die Lerneinheit „Der Satz des Pythagoras“ umfasst Hypotenuse, Kathete und Umkehrung; Einheiten 1 und 2 zugeordnet.
+  - Fundamente Kl. 8, S. 229: „8.3 Umkehrung des Satzes des Pythagoras“ (Z. 250)
+  - Fundamente 2017 Kl. 9, S. 110: „3.3 Die Umkehrung des Satzes des Pythagoras“ (Z. 279)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 160: „4.4 Umkehrung des Satzes des Pythagoras“ (Z. 289)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Umkehrung: drei Seiten gegeben, längste Seite als c, a² + b² mit c² vergleichen, rechtwinklig oder nicht (Antwort mit Rechnung) – Elemente Kl. 8 (Ausgabe 2016), S. 160: „4.4 Umkehrung des Satzes des Pythagoras“
+  - Typ: Umkehrung: drei Seiten gegeben, längste Seite als c, a² + b² mit c² vergleichen, rechtwinklig oder nicht (Antwort mit Rechnung) – Fundamente Kl. 8, S. 229: „8.3 Umkehrung des Satzes des Pythagoras“
+  - Typ: Kathete aus Hypotenuse und Kathete mit aufgehender Wurzel – Mathematik 2023 Kl. 8, S. 114: „Berechnung einer Kathete in einem recht winkligen Dreieck“
+  - Typ: Umkehrung: drei Seiten gegeben, längste Seite als c, a² + b² mit c² vergleichen, rechtwinklig oder nicht (Antwort mit Rechnung) – Mathematik 2023 Kl. 8, S. 115: „Die Umkehrung des Satzes des Pythagoras“
+  - Typ: pythagoreische Tripel erkennen und vervielfachen (Vorrat) – Mathematik 2023 Kl. 8, S. 126: „Vertiefen: Pythagoreische Zahlentripel“
+  - Typ: Umkehrung: drei Seiten gegeben, längste Seite als c, a² + b² mit c² vergleichen, rechtwinklig oder nicht (Antwort mit Rechnung) – Mathematik heute Kl. 8, S. 206: „Umkehrung des Satzes des Pythagoras“
+  - Typ: Kathete aus Hypotenuse und Kathete mit aufgehender Wurzel – Sekundo Kl. 9, S. 57: „Berechnen einer Kathete“
+  - Typ: Umkehrung: drei Seiten gegeben, längste Seite als c, a² + b² mit c² vergleichen, rechtwinklig oder nicht (Antwort mit Rechnung) – Sekundo Kl. 9, S. 59: „Umkehrung des Satzes des Pythagoras“
+  - Marken: Mathematik 2023 Kl. 8: „Vertiefen: Pythagoreische Zahlentripel“; Sekundo Kl. 9: „LVL: Pythagoras im Gelände“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 30: „Berechnen einer Kathete“ (Z. 252)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 40: „Berechnung einer Kathete in einem rechtwinkligen Dreieck“ (Z. 137)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 25: „Länge von Hypotenuse und Kathete berechnen“ (Z. 134)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 23: „Satz des Pythagoras (Schülerband Seite 106 bis 123)“ (Z. 58)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8–9 (Sekundo 9, Mathematik 2023 8, Schnittpunkt 9, Mathematik heute 8); Streuung der Einführung: Sekundo 9, Schnittpunkt 9 später als Kl. 8
+  - GYM: Kl. 8–9 (LS 9, Fundamente 8, Elemente 8, mathe.delta –); Streuung der Einführung: LS 9 später als Kl. 8
+- 3. Pythagoras in Figuren und Körpern
+  - Sekundo Kl. 9, S. 61: „Pythagoras in ebenen Figuren“ (Z. 384)
+  - Sekundo Kl. 9, S. 64: „Pythagoras im Raum“ (Z. 387)
+    Ermessen: „Pythagoras im Raum“: Typzeile der Raumdiagonale zugeordnet.
+  - Sekundo Kl. 10, S. 62: „Pythagorasanwendungen bei Kegel und Pyramiden“ (Z. 500, 501)
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 9, S. 88: „3 Der Satz des Pythagorasin Figuren und Körpern“ (Z. 385)
+  - Mathematik heute Kl. 8, S. 208: „Anwendungen des Satzes des Pythagoras“ (Z. 172)
+  - LS Kl. 9: „Kapitel V Der Satz des Pythagoras und Körper“ (Z. 204) › „2 Pythagoras in Figuren und Körpern“ (Z. 206)
+  - Fundamente Kl. 8, S. 226: „8.2 Probleme lösen mit dem Satz des Pythagoras“ (Z. 249)
+    Ermessen: „Probleme lösen mit dem Satz des Pythagoras“ als Anwendung in Figuren und Körpern (Einheit 3) gelesen; Kathete und Sachaufgaben der Einheit 2 gleichfalls gedeckt.
+  - Fundamente 2017 Kl. 9, S. 106: „3.2 Längen berechnen in Figuren und Körpern“ (Z. 278)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 149: „4.3 Berechnen von Streckenlängen“ (Z. 287)
+    Ermessen: „Berechnen von Streckenlängen“ nach dem Satz als Anwendung in Figuren und Körpern (Einheit 3) gelesen.
+  - mathe.delta Kl. 8: „5.3 Pythagoras und Körper“ (Z. 473) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - Typ: Diagonale im Rechteck, Raumdiagonale im Quader in zwei Schritten – Sekundo Kl. 9, S. 64: „Pythagoras im Raum“
+  - Typ: Seitenhöhe der Pyramide aus Höhe und halber Grundkante – Sekundo Kl. 10, S. 62: „Pythagorasanwendungen bei Kegel und Pyramiden“
+  - Typ: Mantellinie des Kegels aus Radius und Höhe, Radius zuerst aus dem Durchmesser – Sekundo Kl. 10, S. 62: „Pythagorasanwendungen bei Kegel und Pyramiden“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 26: „Der Satz des Pythagoras in Figuren und Körpern“ (Z. 135)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 23: „Satz des Pythagoras (Schülerband Seite 106 bis 123)“ (Z. 58)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8–9 (Sekundo 9, 10, Mathematik 2023 –, Schnittpunkt 9, Mathematik heute 8); Streuung der Einführung: Sekundo 9, Schnittpunkt 9 später als Kl. 8
+  - GYM: Kl. 8–9 (LS 9, Fundamente 8, Elemente 8, mathe.delta 8); Streuung der Einführung: LS 9 später als Kl. 8
+- Spanne OS/GYM: nein
+- Boden: nein
+- Ermessen (6):
+  - Einheit 2, Sekundo Kl. 9: „Pythagoras im Gelände“ als Sachaufgabe zur Kathete/Strecke gelesen.
+  - Einheit 2, LS Kl. 9: Die Lerneinheit „Der Satz des Pythagoras“ umfasst Hypotenuse, Kathete und Umkehrung; Einheiten 1 und 2 zugeordnet.
+  - Einheit 3, Sekundo Kl. 9: „Pythagoras im Raum“: Typzeile der Raumdiagonale zugeordnet.
+  - Einheit 3, Fundamente Kl. 8: „Probleme lösen mit dem Satz des Pythagoras“ als Anwendung in Figuren und Körpern (Einheit 3) gelesen; Kathete und Sachaufgaben der Einheit 2 gleichfalls gedeckt.
+  - Einheit 3, Elemente Kl. 8 (Ausgabe 2016): „Berechnen von Streckenlängen“ nach dem Satz als Anwendung in Figuren und Körpern (Einheit 3) gelesen.
+  - Einheiten 1, 2, 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Satz des Pythagoras (Schülerband Seite 106 bis 123)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### trigonometrie – Sinus, Kosinus und Tangens als Seitenverhältnisse im rechtwinkligen Dreieck zum Berechnen von Seitenlängen und Winkelgrößen, die Zerlegung beliebiger Dreiecke in rechtwinklige Teildreiecke: Stufe F (Gymnasium Kl. 8 laut Bildungsgangtabelle, Oberschule 9–10 regulär); Sinussatz für Seiten und Winkel und Kosinussatz für Seiten: G (Gymnasium Kl. 9, Oberschule 9–10 „in Teilen“); Kosinussatz für Winkel: H. Das Lehrwerk bringt alles in Kl. 10 III, nach dem Satz des Pythagoras (Kl. 9 V) und der Ähnlichkeit (Kl. 9 IV) – zwei Jahre nach der Bildungsgangtabelle, wie beim Pythagoras.
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Seite berechnen mit Sinus, Kosinus und Tangens
+  - Sekundo Kl. 10, S. 103: „LVL: Kosinus (cos) und Tangens (tan)“ (Z. 546)
+  - Sekundo Kl. 10, S. 104: „Die Winkelfunktionen“ (Z. 547)
+  - Sekundo Kl. 10, S. 105: „Winkelfunktionen im rechtwinkligen Dreieck“ (Z. 548)
+  - Sekundo Kl. 10, S. 106: „Trigonometrische Berechnungen an rechtwinkligen Dreiecken“ (Z. 549, 550)
+  - Mathematik 2023 Kl. 10, S. 54: „Sinus eines Winkels“ (Z. 549)
+  - Mathematik 2023 Kl. 10, S. 56: „Kosinus eines Winkels“ (Z. 550)
+  - Mathematik 2023 Kl. 10, S. 58: „Tangens eines Winkels“ (Z. 551)
+  - Mathematik 2023 Kl. 10, S. 61: „Berechnungen in rechtwinkligen Dreiecken“ (Z. 554, 555)
+  - Schnittpunkt Kl. 10, S. 42: „1 Sinus. Kosinus. Tangens“ (Z. 500)
+  - Schnittpunkt Kl. 10, S. 44: „2 Berechnungen am rechtwinkligen Dreieck“ (Z. 501)
+  - Mathematik heute Kl. 10, S. 90: „Sinus, Kosinus und Tangens im rechtwinkligen Dreieck“ (Z. 333, 334)
+  - LS Kl. 10: „Kapitel III Trigonometrie“ (Z. 224) › „1 Sinus und Kosinus“ (Z. 225)
+  - LS Kl. 10: „Kapitel III Trigonometrie“ (Z. 224) › „2 Tangens“ (Z. 226)
+  - Fundamente Kl. 9, S. 166: „5.1 Sinus und Kosinus“ (Z. 354)
+  - Fundamente Kl. 9, S. 171: „5.2 Tangens“ (Z. 355)
+  - Fundamente 2017 Kl. 10, S. 8: „1.1 Sinus und Kosinus“ (Z. 340)
+  - Fundamente 2017 Kl. 10, S. 13: „1.2 Tangens“ (Z. 341)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 135: „4.1 Sinus, Kosinus und Tangens“ (Z. 419)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 139: „4.2 Bestimmen von Werten für Sinus, Kosinus und Tangens - Zusammen hänge“ (Z. 420, 421)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 142: „4.3 Berechnungen in rechtwinkligen Dreiecken“ (Z. 422)
+  - mathe.delta Kl. 9, S. 158: „5.1 Sinus, Kosinus und Tangens im rechtwinkligen Dreieck“ (Z. 636, 637)
+  - Typ: sin-, cos- und tan-Werte mit dem Taschenrechner, Grad-Modus prüfen – Elemente Kl. 9 (Ausgabe 2016), S. 139: „4.2 Bestimmen von Werten für Sinus, Kosinus und Tangens - Zusammen hänge“
+  - Marken: Sekundo Kl. 10: „LVL: Kosinus (cos) und Tangens (tan)“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 20: „Sinus. Kosinus. Tangens“ (Z. 409)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 11: „Berechnungen an Dreiecken (Schülerband Seite 38 bis 71)“ (Z. 67)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 9–10 (LS 10, Fundamente 9, Elemente 9, mathe.delta 9); Streuung der Einführung: LS 10 später als Kl. 9
+- 2. Winkel berechnen
+  - Sekundo Kl. 10, S. 106: „Trigonometrische Berechnungen an rechtwinkligen Dreiecken“ (Z. 549, 550)
+    Ermessen: Die Seite nennt Berechnungen allgemein; Seiten und Winkel (Einheiten 1 und 2) zugeordnet.
+  - Sekundo Kl. 10, S. 113: „Steigungswinkel einer Geraden“ (Z. 554)
+    Ermessen: Steigungswinkel als Winkel aus zwei Katheten gelesen.
+  - Mathematik 2023 Kl. 10, S. 61: „Berechnungen in rechtwinkligen Dreiecken“ (Z. 554, 555)
+    Ermessen: Berechnungen allgemein: Seiten und Winkel (Einheiten 1 und 2).
+  - Mathematik 2023 Kl. 10, S. 73: „Üben: Steigung und Gefälle“ (Z. 563)
+    Ermessen: Steigung und Gefälle im Kapitel Trigonometrie als Steigungswinkel gelesen.
+  - Schnittpunkt Kl. 10, S. 44: „2 Berechnungen am rechtwinkligen Dreieck“ (Z. 501)
+  - Mathematik heute Kl. 10, S. 90: „Sinus, Kosinus und Tangens im rechtwinkligen Dreieck“ (Z. 333, 334)
+    Ermessen: Die Lerneinheit nennt Sinus, Kosinus, Tangens im rechtwinkligen Dreieck allgemein; Seiten und Winkel (Einheiten 1 und 2).
+  - LS Kl. 10: „Kapitel III Trigonometrie“ (Z. 224) › „3 Probleme lösen mit rechtwinkligen Dreiecken“ (Z. 227)
+    Ermessen: „Probleme lösen mit rechtwinkligen Dreiecken“: Winkel berechnen (Einheit 2) und Teildreiecke/Vermessung (Einheit 3).
+  - Fundamente Kl. 9, S. 176: „Streifzug: Der Tangens als Steigungsmaß“ (Z. 356)
+    Ermessen: Tangens als Steigungsmaß als Steigungswinkel gelesen.
+  - Fundamente 2017 Kl. 10, S. 19: „1.3 Berechnungen an rechtwinkligen Dreiecken“ (Z. 342)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 142: „4.3 Berechnungen in rechtwinkligen Dreiecken“ (Z. 422)
+    Ermessen: Berechnungen allgemein: Seiten und Winkel (Einheiten 1 und 2).
+  - mathe.delta Kl. 9, S. 158: „5.1 Sinus, Kosinus und Tangens im rechtwinkligen Dreieck“ (Z. 636, 637)
+    Ermessen: Sinus, Kosinus, Tangens im rechtwinkligen Dreieck allgemein: Seiten und Winkel (Einheiten 1 und 2).
+  - Typ: Steigungswinkel einer Rampe oder Seilbahn aus Höhe und Länge – Fundamente Kl. 9, S. 176: „Streifzug: Der Tangens als Steigungsmaß“
+  - Typ: Steigungswinkel einer Rampe oder Seilbahn aus Höhe und Länge – Mathematik 2023 Kl. 10, S. 73: „Üben: Steigung und Gefälle“
+  - Typ: Steigungswinkel einer Rampe oder Seilbahn aus Höhe und Länge – Sekundo Kl. 10, S. 113: „Steigungswinkel einer Geraden“
+  - Marken: Fundamente Kl. 9: „Streifzug: Der Tangens als Steigungsmaß“; Mathematik 2023 Kl. 10: „Üben: Steigung und Gefälle“; Sekundo Kl. 10: Zeichen „®“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Steigungswinkel einer Geraden“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 21: „Berechnungen am rechtwinkligen Dreieck“ (Z. 410)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 11: „Berechnungen an Dreiecken (Schülerband Seite 38 bis 71)“ (Z. 67)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 9–10 (LS 10, Fundamente 9, Elemente 9, mathe.delta 9); Streuung der Einführung: LS 10 später als Kl. 9
+- 3. Rechtwinklige Teildreiecke in Figuren und Vermessung
+  - Sekundo Kl. 10, S. 109: „Trigonometrie bei Flächen und Körpern“ (Z. 551)
+  - Mathematik 2023 Kl. 10, S. 74: „Üben: Messungen im Gelände“ (Z. 564)
+  - Schnittpunkt Kl. 10, S. 47: „3 Berechnungen am allgemeinen Dreieck“ (Z. 502)
+    Ermessen: Berechnungen am allgemeinen Dreieck vor dem Sinussatz als Zerlegung in rechtwinklige Teildreiecke (Einheit 3) gelesen.
+  - Schnittpunkt Kl. 10, S. 52: „5 Trigonometrie in der Ebene und im Raum“ (Z. 504)
+  - Mathematik heute Kl. 10, S. 96: „Anwendungen von Sinus, Kosinus und Tangens“ (Z. 335, 336)
+    Ermessen: Anwendungen als Teildreiecke in Figuren und Vermessung (Einheit 3) gelesen.
+  - Mathematik heute Kl. 10, S. 110: „Berechnen des Flächeninhalts eines Dreiecks mit trigonometrischen Mitteln“ (Z. 339, 340)
+  - Mathematik heute Kl. 10, S. 112: „Berechnen von Vierecken und Vielecken“ (Z. 341)
+  - LS Kl. 10: „Kapitel III Trigonometrie“ (Z. 224) › „3 Probleme lösen mit rechtwinkligen Dreiecken“ (Z. 227)
+  - Fundamente Kl. 9, S. 178: „5.3 Sinus, Kosinus und Tangens anwenden“ (Z. 357)
+  - Fundamente Kl. 9, S. 190: „5.6 Flächeninhaltsformeln“ (Z. 361)
+    Ermessen: Trigonometrische Flächeninhaltsformeln als Fläche über die Höhe aus Seite und Winkel gelesen.
+  - Fundamente 2017 Kl. 10, S. 19: „1.3 Berechnungen an rechtwinkligen Dreiecken“ (Z. 342)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 147: „4.4 Zum Selbstlernen Berechnungen in gleichschenkligen Dreiecken“ (Z. 423)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 160: „Wie hoch ist eigentlich“ (Z. 428)
+    Ermessen: „Wie hoch ist eigentlich … euer Schulgebäude?“ als Vermessungsaufgabe gelesen.
+  - mathe.delta Kl. 9, S. 162: „5.2 Sinus, Kosinus und Tangens im A llta g“ (Z. 638)
+  - mathe.delta Kl. 9, S. 170: „5.6 Der Flächeninhalt von beliebigen Dreiecken“ (Z. 643)
+  - Typ: Höhe im gleichschenkligen Dreieck aus Schenkel und Basiswinkel – Elemente Kl. 9 (Ausgabe 2016), S. 147: „4.4 Zum Selbstlernen Berechnungen in gleichschenkligen Dreiecken“
+  - Typ: Vermessung: Höhe eines Turms oder Bergs aus Abstand und Höhenwinkel, Gerätehöhe oder Sockel addieren (P10-Form) – Elemente Kl. 9 (Ausgabe 2016), S. 160: „Wie hoch ist eigentlich“
+  - Typ: Höhe im beliebigen Dreieck aus Seite und Winkel, dann Fläche (Typ in flaechen.md) – Fundamente Kl. 9, S. 190: „5.6 Flächeninhaltsformeln“
+  - Typ: Vermessung: Höhe eines Turms oder Bergs aus Abstand und Höhenwinkel, Gerätehöhe oder Sockel addieren (P10-Form) – Mathematik 2023 Kl. 10, S. 74: „Üben: Messungen im Gelände“
+  - Typ: Höhe im beliebigen Dreieck aus Seite und Winkel, dann Fläche (Typ in flaechen.md) – mathe.delta Kl. 9, S. 170: „5.6 Der Flächeninhalt von beliebigen Dreiecken“
+  - Typ: Höhe im beliebigen Dreieck aus Seite und Winkel, dann Fläche (Typ in flaechen.md) – Mathematik heute Kl. 10, S. 110: „Berechnen des Flächeninhalts eines Dreiecks mit trigonometrischen Mitteln“
+  - Marken: Elemente Kl. 9 (Ausgabe 2016): „4.4 Zum Selbstlernen Berechnungen in gleichschenkligen Dreiecken“; Elemente Kl. 9 (Ausgabe 2016): Zeichen „$“ vor der Zeile (Symbol des Originals für Sonderseiten) bei „Wie hoch ist eigentlich“; Mathematik 2023 Kl. 10: „Üben: Messungen im Gelände“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 26: „Trigonometrie in der Ebene und im Raum (1)“ (Z. 415)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 11: „Berechnungen an Dreiecken (Schülerband Seite 38 bis 71)“ (Z. 67)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 9–10 (LS 10, Fundamente 9, Elemente 9, mathe.delta 9); Streuung der Einführung: LS 10 später als Kl. 9
+- 4. Sinussatz
+  - Sekundo Kl. 10, S. 118: „Berechnungen in beliebigen Dreiecken“ (Z. 559)
+  - Sekundo Kl. 10, S. 119: „Sinussatz“ (Z. 561)
+  - Sekundo Kl. 10, S. 121: „Kosinussatz“ (Z. 563)
+  - Mathematik 2023 Kl. 10, S. 63: „Sinus für stumpfe Winkel“ (Z. 556)
+    Ermessen: Sinus für stumpfe Winkel steht direkt vor dem Sinussatz; als dessen Typ „stumpfer Winkel“ gelesen.
+  - Mathematik 2023 Kl. 10, S. 64: „Sinussatz“ (Z. 557)
+  - Mathematik 2023 Kl. 10, S. 67: „Kosinussatz“ (Z. 559)
+  - Schnittpunkt Kl. 10, S. 49: „4 Sinussatz und Kosinussatz“ (Z. 503)
+  - Mathematik heute Kl. 10, S. 100: „Berechnung allgemeiner Dreiecke - Sinus- und Kosinussatz“ (Z. 337, 338)
+  - LS Kl. 10: „Kapitel III Trigonometrie“ (Z. 224) › „4 Der Kosinussatz“ (Z. 228)
+  - LS Kl. 10: „Kapitel III Trigonometrie“ (Z. 224) › „5 Sinussatz“ (Z. 229)
+  - Fundamente Kl. 9, S. 181: „5.4 Sinussatz“ (Z. 358)
+  - Fundamente Kl. 9, S. 186: „5.5 Kosinussatz“ (Z. 360)
+  - Fundamente 2017 Kl. 10, S. 23: „1.4 Sinussatz“ (Z. 343)
+  - Fundamente 2017 Kl. 10, S. 30: „1.5 Kosinussatz“ (Z. 345)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 149: „4.5 Berechnungen in beliebigen Dreiecken“ (Z. 424)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 149: „4.5.1 Sinussatz“ (Z. 425)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 154: „4.5.2 Kosinussatz“ (Z. 426)
+  - mathe.delta Kl. 9, S. 164: „5.3 Der Sinussatz für beliebige Dreiecke“ (Z. 639)
+  - mathe.delta Kl. 9, S. 166: „5.4 Der Kosinussatz für beliebige D reiecke“ (Z. 640)
+  - mathe.delta Kl. 9, S. 168: „5.5 Sinussatz und Kosinussatz in Anwendungen und A llta g“ (Z. 641, 642)
+  - Typ: Sinussatz aufstellen (Seite durch Sinus des Gegenwinkels gleich Seite durch Sinus des Gegenwinkels) – Elemente Kl. 9 (Ausgabe 2016), S. 149: „4.5.1 Sinussatz“
+  - Typ: Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G) – Elemente Kl. 9 (Ausgabe 2016), S. 154: „4.5.2 Kosinussatz“
+  - Typ: Sinussatz aufstellen (Seite durch Sinus des Gegenwinkels gleich Seite durch Sinus des Gegenwinkels) – Fundamente Kl. 9, S. 181: „5.4 Sinussatz“
+  - Typ: Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G) – Fundamente Kl. 9, S. 186: „5.5 Kosinussatz“
+  - Typ: Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G) – LS Kl. 10: „4 Der Kosinussatz“
+  - Typ: Sinussatz aufstellen (Seite durch Sinus des Gegenwinkels gleich Seite durch Sinus des Gegenwinkels) – LS Kl. 10: „5 Sinussatz“
+  - Typ: stumpfer Winkel im Sinussatz (Taschenrechner rechnet direkt; der stumpfe Winkel gehört in die Winkelsumme) – Mathematik 2023 Kl. 10, S. 63: „Sinus für stumpfe Winkel“
+  - Typ: Sinussatz aufstellen (Seite durch Sinus des Gegenwinkels gleich Seite durch Sinus des Gegenwinkels) – Mathematik 2023 Kl. 10, S. 64: „Sinussatz“
+  - Typ: Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G) – Mathematik 2023 Kl. 10, S. 67: „Kosinussatz“
+  - Typ: Sinussatz aufstellen (Seite durch Sinus des Gegenwinkels gleich Seite durch Sinus des Gegenwinkels) – mathe.delta Kl. 9, S. 164: „5.3 Der Sinussatz für beliebige Dreiecke“
+  - Typ: Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G) – mathe.delta Kl. 9, S. 166: „5.4 Der Kosinussatz für beliebige D reiecke“
+  - Typ: Sinussatz aufstellen (Seite durch Sinus des Gegenwinkels gleich Seite durch Sinus des Gegenwinkels) – Sekundo Kl. 10, S. 119: „Sinussatz“
+  - Typ: Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G) – Sekundo Kl. 10, S. 121: „Kosinussatz“
+  - Marken: Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Berechnungen in beliebigen Dreiecken“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2538 („*“) bei „Kosinussatz“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 24: „Sinussatz und Kosinussatz (1)“ (Z. 413)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 11: „Berechnungen an Dreiecken (Schülerband Seite 38 bis 71)“ (Z. 67)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 9–10 (LS 10, Fundamente 9, Elemente 9, mathe.delta 9); Streuung der Einführung: LS 10 später als Kl. 9
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 10, GYM Kl. 9–10; Einheit 2: OS Kl. 10, GYM Kl. 9–10; Einheit 3: OS Kl. 10, GYM Kl. 9–10; Einheit 4: OS Kl. 10, GYM Kl. 9–10)
+- Boden: nein
+- Ermessen (15):
+  - Einheit 2, Sekundo Kl. 10: Die Seite nennt Berechnungen allgemein; Seiten und Winkel (Einheiten 1 und 2) zugeordnet.
+  - Einheit 2, Sekundo Kl. 10: Steigungswinkel als Winkel aus zwei Katheten gelesen.
+  - Einheit 2, Mathematik 2023 Kl. 10: Berechnungen allgemein: Seiten und Winkel (Einheiten 1 und 2).
+  - Einheit 2, Mathematik 2023 Kl. 10: Steigung und Gefälle im Kapitel Trigonometrie als Steigungswinkel gelesen.
+  - Einheit 2, Mathematik heute Kl. 10: Die Lerneinheit nennt Sinus, Kosinus, Tangens im rechtwinkligen Dreieck allgemein; Seiten und Winkel (Einheiten 1 und 2).
+  - Einheit 2, LS Kl. 10: „Probleme lösen mit rechtwinkligen Dreiecken“: Winkel berechnen (Einheit 2) und Teildreiecke/Vermessung (Einheit 3).
+  - Einheit 2, Fundamente Kl. 9: Tangens als Steigungsmaß als Steigungswinkel gelesen.
+  - Einheit 2, Elemente Kl. 9 (Ausgabe 2016): Berechnungen allgemein: Seiten und Winkel (Einheiten 1 und 2).
+  - Einheit 2, mathe.delta Kl. 9: Sinus, Kosinus, Tangens im rechtwinkligen Dreieck allgemein: Seiten und Winkel (Einheiten 1 und 2).
+  - Einheit 3, Schnittpunkt Kl. 10: Berechnungen am allgemeinen Dreieck vor dem Sinussatz als Zerlegung in rechtwinklige Teildreiecke (Einheit 3) gelesen.
+  - Einheit 3, Mathematik heute Kl. 10: Anwendungen als Teildreiecke in Figuren und Vermessung (Einheit 3) gelesen.
+  - Einheit 3, Fundamente Kl. 9: Trigonometrische Flächeninhaltsformeln als Fläche über die Höhe aus Seite und Winkel gelesen.
+  - Einheit 3, Elemente Kl. 9 (Ausgabe 2016): „Wie hoch ist eigentlich … euer Schulgebäude?“ als Vermessungsaufgabe gelesen.
+  - Einheit 4, Mathematik 2023 Kl. 10: Sinus für stumpfe Winkel steht direkt vor dem Sinussatz; als dessen Typ „stumpfer Winkel“ gelesen.
+  - Einheiten 1, 2, 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 10 „Berechnungen an Dreiecken (Schülerband Seite 38 bis 71)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### winkel-dreiecke – Winkel messen, zeichnen und benennen, Winkelarten, Gradmaß: Stufe D (Grundschule Kl. 6 in Berlin/Brandenburg, LS-AA Klasse 6; für die Oberschule 7–8 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Winkel messen und zeichnen
+  - Sekundo: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Mathematik 2023 Kl. 5, S. 138: „Winkel“ (Z. 105)
+  - Mathematik 2023 Kl. 5, S. 139: „Winkelgrößen“ (Z. 107)
+  - Mathematik 2023 Kl. 5, S. 141: „Winkel messen und zeichnen“ (Z. 110)
+  - Mathematik 2023 Kl. 5, S. 144: „Winkel bezeichnen“ (Z. 115)
+  - Schnittpunkt Kl. 5, S. 183: „2 Winkel“ (Z. 129)
+  - Schnittpunkt Kl. 5, S. 185: „3 Einteilung der Winkel. Winkelarten“ (Z. 130)
+  - Schnittpunkt Kl. 5, S. 188: „4 Winkel messen und zeichnen“ (Z. 131)
+  - Mathematik heute Kl. 5, S. 66 (Seite des Lösungsbands): „Winkel - Messen und Zeichnen“ (Z. 87)
+  - LS Kl. 6: „Kapitel IV Muster und Figuren“ (Z. 98) › „4 Winkel“ (Z. 102)
+  - LS Kl. 6: „Kapitel IV Muster und Figuren“ (Z. 98) › „5 Winkel mit dem Geodreieck messen und zeichnen“ (Z. 103)
+  - Fundamente Kl. 6, S. 77: „3.2 Winkelangeben“ (Z. 198)
+  - Fundamente Kl. 6, S. 80: „3.3 Winkel messen“ (Z. 199)
+  - Fundamente Kl. 6, S. 85: „3.4 Winkel zeichnen“ (Z. 200)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 110: „5.5 Winkel“ (Z. 630)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 113: „5.6 Winkel messen“ (Z. 631)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 115: „5.7 Winkel zeichnen“ (Z. 632)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Winkel mit dem Geodreieck messen (innere oder äußere Skala) – Elemente Kl. 5 (Ausgabe 2025), S. 113: „5.6 Winkel messen“
+  - Typ: Winkel mit gegebener Größe an einen Schenkel zeichnen – Elemente Kl. 5 (Ausgabe 2025), S. 115: „5.7 Winkel zeichnen“
+  - Typ: Winkel mit dem Geodreieck messen (innere oder äußere Skala) – Fundamente Kl. 6, S. 80: „3.3 Winkel messen“
+  - Typ: Winkel mit gegebener Größe an einen Schenkel zeichnen – Fundamente Kl. 6, S. 85: „3.4 Winkel zeichnen“
+  - Typ: Winkel mit dem Geodreieck messen (innere oder äußere Skala) – LS Kl. 6: „5 Winkel mit dem Geodreieck messen und zeichnen“
+  - Typ: Winkel benennen, Scheitel und Schenkel markieren – Mathematik 2023 Kl. 5, S. 144: „Winkel bezeichnen“
+  - Typ: Winkelart ankreuzen (spitz, recht, stumpf, gestreckt, überstumpf) – Schnittpunkt Kl. 5, S. 185: „3 Einteilung der Winkel. Winkelarten“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 24: „Winkel und Winkelarten“ (Z. 336)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 25: „Winkel messen“ (Z. 337)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 43: „Winkel messen und zeichnen“ (Z. 224)
+  - OS: Kl. 5 (Sekundo –, Mathematik 2023 5, Schnittpunkt 5, Mathematik heute 5)
+  - GYM: Kl. 5–6 (LS 6, Fundamente 6, Elemente 5, mathe.delta –); Streuung der Einführung: LS 6, Fundamente 6 später als Kl. 5
+- 2. Winkel an Geradenkreuzungen und Parallelen
+  - Sekundo Kl. 7, S. 63: „Winkelpaare“ (Z. 59)
+  - Sekundo Kl. 8, S. 22: „W inkelberechnungen“ (Z. 244)
+    Ermessen: „Winkelberechnungen“ ohne nähere Angabe; Einheiten 2 und 3 zugeordnet.
+  - Mathematik 2023 Kl. 5, S. 150: „Vertiefen: Winkel an Geradenkreuzungen“ (Z. 120)
+  - Schnittpunkt Kl. 5, S. 194: „EXTRA: Winkel an Geradenkreuzungen“ (Z. 133)
+  - Schnittpunkt Kl. 7, S. 50: „1 Winkel im Schnittpunkt von Geraden“ (Z. 69)
+  - Mathematik heute Kl. 6, S. 174: „Winkel an sich schneidenden Geraden - Sätze über Winkelbeziehungen“ (Z. 133, 134)
+  - LS Kl. 7: „Kapitel V Konstruieren und Argumentieren mit Winkeln“ (Z. 123) › „1 Winkel an sich schneidenden Geraden“ (Z. 124)
+  - Fundamente Kl. 6, S. 90: „3.5 Nebenwinkel und Scheitelwinkel“ (Z. 202)
+  - Fundamente Kl. 6, S. 92: „3.6 Stufenwinkel und Wechselwinkel“ (Z. 203)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 117: „5.8 Winkel an Geradenkreuzungen“ (Z. 633)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Scheitel- und Nebenwinkel benennen – Fundamente Kl. 6, S. 90: „3.5 Nebenwinkel und Scheitelwinkel“
+  - Marken: Mathematik 2023 Kl. 5: „Vertiefen: Winkel an Geradenkreuzungen“; Schnittpunkt Kl. 5: „EXTRA: Winkel an Geradenkreuzungen“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 29: „Winkelpaare“ (Z. 161)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 12: „Winkel im Schnittpunkt von Geraden“ (Z. 49)
+  - OS: Kl. 5–6 (Sekundo 7, 8, Mathematik 2023 5, Schnittpunkt 5, 7, Mathematik heute 6); Streuung der Einführung: Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–7 (LS 7, Fundamente 6, Elemente 5, mathe.delta –); Streuung der Einführung: LS 7, Fundamente 6 später als Kl. 5
+- 3. Winkelsummen, Dreiecke und Vierecke
+  - Sekundo Kl. 7, S. 65: „LVL: Summe der Dreieckswinkel“ (Z. 65)
+  - Sekundo Kl. 7, S. 66: „Winkelsummensatz im Dreieck“ (Z. 67)
+  - Sekundo Kl. 7, S. 70: „Dreieckstypen“ (Z. 73)
+  - Sekundo Kl. 8, S. 21: „LVL: Winkelsumme in Vielecken“ (Z. 243)
+  - Sekundo Kl. 8, S. 22: „W inkelberechnungen“ (Z. 244)
+    Ermessen: wie Einheit 2.
+  - Sekundo Kl. 8, S. 30: „LVL: Haus der Vierecke“ (Z. 263)
+  - Mathematik 2023 Kl. 5, S. 124: „Rechteck undQuadrat“ (Z. 134)
+    Ermessen: Die Vierecksseiten Kl. 5 (Rechteck und Quadrat, Parallelogramm und Raute, Trapez, Drachenviereck) im Kapitel „Körper und Flächen“ nennen Vierecksarten und ihre Eigenschaften, keine Flächenberechnung; zugeordnet Einheit 3 (Vierecksarten).
+  - Mathematik 2023 Kl. 5, S. 125: „Parallelogramm und Raute (Rhombus)“ (Z. 135)
+  - Mathematik 2023 Kl. 5, S. 126: „Trapez“ (Z. 136)
+  - Mathematik 2023 Kl. 5, S. 127: „Drachenviereck“ (Z. 137)
+  - Mathematik 2023 Kl. 6, S. 165: „Seiten und Winkel eines Dreiecks“ (Z. 294)
+  - Mathematik 2023 Kl. 6, S. 167: „Symmetrische Dreiecke“ (Z. 295)
+  - Mathematik 2023 Kl. 6, S. 168: „Innenwinkel im Dreieck“ (Z. 296)
+  - Mathematik 2023 Kl. 6, S. 169: „Winkel am Dreieck“ (Z. 297)
+  - Schnittpunkt Kl. 5, S. 130: „7 Rechteck und Quadrat“ (Z. 102)
+    Ermessen: Kl. 5, Kapitel „Geometrie. Vierecke“: Rechteck und Quadrat, Parallelogramm und Raute, weitere Vierecke als Vierecksarten (Einheit 3) gelesen, nicht als Flächenberechnung.
+  - Schnittpunkt Kl. 5, S. 132: „8 Parallelogramm und Raute“ (Z. 103)
+  - Schnittpunkt Kl. 5, S. 135: „9 Noch mehr Vierecke“ (Z. 104)
+  - Schnittpunkt Kl. 5, S. 195: „EXTRA: Dreiecksformen“ (Z. 134)
+  - Schnittpunkt Kl. 5, S. 196: „EXTRA: Winkelsumme in Dreieck und Viereck“ (Z. 135)
+  - Schnittpunkt Kl. 7, S. 52: „2 Winkelsumme im Dreieck“ (Z. 70)
+  - Schnittpunkt Kl. 7, S. 54: „3 Dreiecksformen“ (Z. 71)
+  - Schnittpunkt Kl. 7, S. 128: „1 Vierecksformen“ (Z. 121)
+  - Schnittpunkt Kl. 7, S. 131: „2 Haus der Vierecke“ (Z. 122)
+  - Schnittpunkt Kl. 7, S. 133: „3 Winkelsumme im Viereck“ (Z. 123)
+  - Mathematik heute Kl. 5, S. 69 (Seite des Lösungsbands): „Rechtecke - Parallelogramme - Trapeze“ (Z. 44, 45)
+    Ermessen: Vierecksarten (Kl. 5) als Einheit 3 gelesen, nicht als Flächenberechnung.
+  - Mathematik heute Kl. 6, S. 178: „Innenwinkelsatz für Dreiecke - Einteilung der Dreiecke nach Winkeln“ (Z. 135, 136)
+  - Mathematik heute Kl. 6, S. 182: „Gleichschenklige und gleichseitige Dreiecke - Einteilung der Dreiecke nach Seiten“ (Z. 137, 138)
+  - Mathematik heute Kl. 7, S. 202: „Vierecke-Grundlagen“ (Z. 88)
+  - Mathematik heute Kl. 7, S. 206: „Innenwinkelsatz für Vierecke“ (Z. 90)
+  - Mathematik heute Kl. 7, S. 136: „Dreiecke - Grundlagen“ (Z. 124)
+  - LS Kl. 5: „Kapitel II Symmetrie“ (Z. 41) › „5 Eigenschaften von Vielecken“ (Z. 51)
+    Ermessen: „Eigenschaften von Vielecken“ (Kl. 5) als Vierecksarten und ihre Eigenschaften gelesen.
+  - LS Kl. 7: „Kapitel V Konstruieren und Argumentieren mit Winkeln“ (Z. 123) › „2 Winkelsummen“ (Z. 125)
+  - Fundamente Kl. 5, S. 116: „3.5 Vierecke“ (Z. 82)
+    Ermessen: „Vierecke“ im Kapitel Grundbegriffe der Geometrie (Kl. 5) als Vierecksarten gelesen.
+  - Fundamente Kl. 6, S. 148: „5.3 Winkelsumme im Dreieck“ (Z. 230)
+  - Fundamente Kl. 6, S. 150: „5.4 Winkelsumme im Viereck“ (Z. 231)
+  - Fundamente Kl. 6, S. 155: „5.6 Symmetrische Dreiecke“ (Z. 233)
+  - Fundamente Kl. 7, S. 120: „4.3 Dreiecke“ (Z. 70)
+  - Fundamente Kl. 7, S. 124: „4.4 Winkelsumme im Dreieck“ (Z. 71)
+  - Fundamente Kl. 7, S. 202: „6.2 Winkelsumme im Viereck“ (Z. 100)
+  - Fundamente 2017 Kl. 7, S. 155: „5.4 Dreiecke“ (Z. 98)
+  - Fundamente 2017 Kl. 7, S. 161: „5.6 Der Innenwinkelsatz“ (Z. 100)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 148: „7.3 Besondere Vierecke“ (Z. 657)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 152: „Haus der Vierecke“ (Z. 658)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 153: „7.4 Winkel in Dreiecken“ (Z. 659)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 157: „7.5 Symmetrische Dreiecke“ (Z. 661)
+  - mathe.delta Kl. 7, S. 132: „4.1 Zusammenhänge ¡m Dreieck entdecken“ (Z. 126)
+    Ermessen: „Zusammenhänge im Dreieck entdecken“ als Winkelsumme und Dreiecksarten gelesen.
+  - Typ: Vierecksart-Eigenschaft ankreuzen („In jedem Trapez …“, „In jedem Parallelogramm …“) – Elemente Kl. 5 (Ausgabe 2025), S. 152: „Haus der Vierecke“
+  - Typ: gleichschenklig: Basiswinkel gleich, dritter Winkel – Elemente Kl. 5 (Ausgabe 2025), S. 157: „7.5 Symmetrische Dreiecke“
+  - Typ: dritter Winkel im Dreieck (ganze Grade, Dezimalgrade) – Fundamente Kl. 6, S. 148: „5.3 Winkelsumme im Dreieck“
+  - Typ: fehlender Winkel im Viereck (360°) – Fundamente Kl. 6, S. 150: „5.4 Winkelsumme im Viereck“
+  - Typ: gleichschenklig: Basiswinkel gleich, dritter Winkel – Fundamente Kl. 6, S. 155: „5.6 Symmetrische Dreiecke“
+  - Typ: dritter Winkel im Dreieck (ganze Grade, Dezimalgrade) – Fundamente Kl. 7, S. 124: „4.4 Winkelsumme im Dreieck“
+  - Typ: fehlender Winkel im Viereck (360°) – Fundamente Kl. 7, S. 202: „6.2 Winkelsumme im Viereck“
+  - Typ: gleichschenklig: Basiswinkel gleich, dritter Winkel – Mathematik 2023 Kl. 6, S. 167: „Symmetrische Dreiecke“
+  - Typ: dritter Winkel im Dreieck (ganze Grade, Dezimalgrade) – Mathematik 2023 Kl. 6, S. 168: „Innenwinkel im Dreieck“
+  - Typ: fehlender Winkel im Viereck (360°) – Mathematik heute Kl. 7, S. 206: „Innenwinkelsatz für Vierecke“
+  - Typ: dritter Winkel im Dreieck (ganze Grade, Dezimalgrade) – Sekundo Kl. 7, S. 66: „Winkelsummensatz im Dreieck“
+  - Typ: Dreieck nach Winkeln und Seiten einteilen (Ankreuzen) – Sekundo Kl. 7, S. 70: „Dreieckstypen“
+  - Typ: Innenwinkelsumme von Fünf- und Sechseck über Dreiecke (Vorrat) – Sekundo Kl. 8, S. 21: „LVL: Winkelsumme in Vielecken“
+  - Typ: Vierecksart-Eigenschaft ankreuzen („In jedem Trapez …“, „In jedem Parallelogramm …“) – Sekundo Kl. 8, S. 30: „LVL: Haus der Vierecke“
+  - Typ: Dreieck nach Winkeln und Seiten einteilen (Ankreuzen) – Schnittpunkt Kl. 5, S. 195: „EXTRA: Dreiecksformen“
+  - Typ: dritter Winkel im Dreieck (ganze Grade, Dezimalgrade) – Schnittpunkt Kl. 7, S. 52: „2 Winkelsumme im Dreieck“
+  - Typ: Dreieck nach Winkeln und Seiten einteilen (Ankreuzen) – Schnittpunkt Kl. 7, S. 54: „3 Dreiecksformen“
+  - Typ: Vierecksart-Eigenschaft ankreuzen („In jedem Trapez …“, „In jedem Parallelogramm …“) – Schnittpunkt Kl. 7, S. 131: „2 Haus der Vierecke“
+  - Typ: fehlender Winkel im Viereck (360°) – Schnittpunkt Kl. 7, S. 133: „3 Winkelsumme im Viereck“
+  - Marken: Sekundo Kl. 7: „LVL: Summe der Dreieckswinkel“; Sekundo Kl. 8: „LVL: Winkelsumme in Vielecken“; Sekundo Kl. 8: „LVL: Haus der Vierecke“; Schnittpunkt Kl. 5: „EXTRA: Dreiecksformen“; Schnittpunkt Kl. 5: „EXTRA: Winkelsumme in Dreieck und Viereck“
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 45: „Rechteck und Quadrat“ (Z. 89)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 15: „Winkelsumme im Dreieck“ (Z. 416)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 30: „Rechteck und Quadrat“ (Z. 207)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 13: „Winkelsumme im Dreieck“ (Z. 50)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 32: „Winkelsumme im Viereck“ (Z. 75)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 25: „Dreiecke (Schülerband Seite 146 bis 165)“ (Z. 36)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5 (Sekundo 7, 8, Mathematik 2023 5, 6, Schnittpunkt 5, 7, Mathematik heute 5, 6, 7); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 7, Fundamente 5, 6, 7, Elemente 5, mathe.delta 7); nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 4. Dreiecke konstruieren
+  - Sekundo Kl. 7, S. 62: „Kongruente Figuren“ (Z. 57)
+  - Sekundo Kl. 7, S. 71: „LVL: Übertragen von Dreiecken“ (Z. 75)
+    Ermessen: „Übertragen von Dreiecken“ als Vorstufe des Konstruierens gelesen.
+  - Sekundo Kl. 7, S. 72: „Kongruenzsatz (WSW)“ (Z. 77)
+  - Sekundo Kl. 7, S. 73: „Kongruenzsatz (SWS)“ (Z. 79)
+  - Sekundo Kl. 7, S. 74: „Kongruenzsatz (SSS)“ (Z. 81)
+  - Sekundo Kl. 7, S. 75: „Kongruenzsatz (SsW)“ (Z. 83)
+  - Sekundo Kl. 8, S. 23: „Dreieckskonstruktionen und Kongruenz“ (Z. 245)
+  - Mathematik 2023 Kl. 6, S. 98: „Kongruente Figuren“ (Z. 273)
+  - Mathematik 2023 Kl. 6, S. 218: „Kongruente Dreiecke“ (Z. 316)
+  - Mathematik 2023 Kl. 6, S. 221: „Kongruenzsatz SSS“ (Z. 317)
+  - Mathematik 2023 Kl. 6, S. 222: „Kongruenzsatz SWS“ (Z. 318)
+  - Mathematik 2023 Kl. 6, S. 223: „Kongruenzsatz WSW“ (Z. 319)
+  - Mathematik 2023 Kl. 6, S. 224: „Kongruenzsatz SsW“ (Z. 320)
+  - Mathematik 2023 Kl. 7, S. 150: „Kongruente Dreiecke“ (Z. 114)
+  - Mathematik 2023 Kl. 7, S. 153: „Kongruenzsatz SSS“ (Z. 115)
+  - Mathematik 2023 Kl. 7, S. 154: „Kongruenzsatz SWS“ (Z. 116)
+  - Mathematik 2023 Kl. 7, S. 155: „Kongruenzsatz WSW“ (Z. 119)
+  - Mathematik 2023 Kl. 7, S. 156: „Kongruenzsatz SsW“ (Z. 120)
+  - Mathematik 2023 Kl. 7, S. 157: „Arbeiten mit dem Computer: Dreiecks konstruktionen“ (Z. 123, 126)
+  - Schnittpunkt Kl. 7, S. 57: „4 Dreiecke konstruieren“ (Z. 72)
+  - Mathematik heute Kl. 6, S. 186: „Dreiecksungleichung - Seiten-Winkel-Beziehung im Dreieck“ (Z. 139, 140)
+  - Mathematik heute Kl. 6, S. 188: „Kongruente Figuren“ (Z. 141)
+  - Mathematik heute Kl. 7, S. 142: „Dreieckskonstruktionen —Kongruenzsätze“ (Z. 125)
+  - LS Kl. 7: „Kapitel V Konstruieren und Argumentieren mit Winkeln“ (Z. 123) › „3 Dreiecke konstruieren“ (Z. 126)
+  - LS Kl. 8: „Kapitel V Kongruenz“ (Z. 146) › „1 Kongruenz“ (Z. 147)
+  - LS Kl. 8: „Kapitel V Kongruenz“ (Z. 146) › „2 Mit Kongruenzsätzen argumentieren“ (Z. 148)
+  - Fundamente Kl. 7, S. 131: „4.6 Kongruenzsätze“ (Z. 73)
+  - Fundamente Kl. 7, S. 137: „4.7 Probleme lösen mit Dreieckskonstruktionen“ (Z. 74)
+  - Fundamente Kl. 7, S. 258: „8.1 Kongruente Figuren“ (Z. 125)
+  - Fundamente Kl. 8, S. 8: „1.1 Kongruente Figuren“ (Z. 148)
+  - Fundamente 2017 Kl. 7, S. 159: „5.5 Konstruktionsbeschreibungen“ (Z. 99)
+  - Fundamente 2017 Kl. 7, S. 184: „6.1 Kongruente Figuren“ (Z. 111)
+  - Fundamente 2017 Kl. 7, S. 187: „6.2 Kongruenzsätze“ (Z. 112)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 138: „6.6 Kongruente Figuren“ (Z. 647)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 203: „6.1 Kongruente Figuren“ (Z. 183)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 209: „6.2 Dreieckskonstruktionen —Kongruenzsätze“ (Z. 186)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 118: „6.1 Kongruente Figuren“ (Z. 902)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 120: „6.2 Kongruenzsätze“ (Z. 903)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 126: „6.3 Konstruieren von Dreiecken“ (Z. 904)
+  - mathe.delta Kl. 7, S. 134: „4.2 Dreiecke konstruieren“ (Z. 127)
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Elemente Kl. 5 (Ausgabe 2025), S. 138: „6.6 Kongruente Figuren“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Elemente Kl. 7 (Ausgabe 2025), S. 118: „6.1 Kongruente Figuren“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Elemente Kl. 7 (Ausgabe 2016), S. 203: „6.1 Kongruente Figuren“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Fundamente Kl. 7, S. 258: „8.1 Kongruente Figuren“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Fundamente Kl. 8, S. 8: „1.1 Kongruente Figuren“
+  - Typ: Konstruktionsbeschreibung (drei bis vier Schritte) – Fundamente 2017 Kl. 7, S. 159: „5.5 Konstruktionsbeschreibungen“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – LS Kl. 8: „1 Kongruenz“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Mathematik 2023 Kl. 6, S. 98: „Kongruente Figuren“
+  - Typ: Konstruktion SSS (Zirkel) – Mathematik 2023 Kl. 6, S. 221: „Kongruenzsatz SSS“
+  - Typ: SWS – Mathematik 2023 Kl. 6, S. 222: „Kongruenzsatz SWS“
+  - Typ: WSW – Mathematik 2023 Kl. 6, S. 223: „Kongruenzsatz WSW“
+  - Typ: SsW (Gegenwinkel der längeren Seite) – Mathematik 2023 Kl. 6, S. 224: „Kongruenzsatz SsW“
+  - Typ: Konstruktion SSS (Zirkel) – Mathematik 2023 Kl. 7, S. 153: „Kongruenzsatz SSS“
+  - Typ: SWS – Mathematik 2023 Kl. 7, S. 154: „Kongruenzsatz SWS“
+  - Typ: WSW – Mathematik 2023 Kl. 7, S. 155: „Kongruenzsatz WSW“
+  - Typ: SsW (Gegenwinkel der längeren Seite) – Mathematik 2023 Kl. 7, S. 156: „Kongruenzsatz SsW“
+  - Typ: Dreiecksungleichung: konstruierbar oder nicht (b + c > a) – Mathematik heute Kl. 6, S. 186: „Dreiecksungleichung - Seiten-Winkel-Beziehung im Dreieck“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Mathematik heute Kl. 6, S. 188: „Kongruente Figuren“
+  - Typ: kongruente Figuren erkennen und Ecken zuordnen – Sekundo Kl. 7, S. 62: „Kongruente Figuren“
+  - Typ: WSW – Sekundo Kl. 7, S. 72: „Kongruenzsatz (WSW)“
+  - Typ: SWS – Sekundo Kl. 7, S. 73: „Kongruenzsatz (SWS)“
+  - Typ: Konstruktion SSS (Zirkel) – Sekundo Kl. 7, S. 74: „Kongruenzsatz (SSS)“
+  - Typ: SsW (Gegenwinkel der längeren Seite) – Sekundo Kl. 7, S. 75: „Kongruenzsatz (SsW)“
+  - Marken: Mathematik 2023 Kl. 7: „Arbeiten mit dem Computer: Dreiecks konstruktionen“; Sekundo Kl. 7: „LVL: Übertragen von Dreiecken“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 28: „Kongruente Figuren“ (Z. 160)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 30: „Kongruenzsatz (WSW) - Dreiecke konstruieren“ (Z. 162)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 17: „Dreieckskonstruktionen“ (Z. 418)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7, S. 57: „Deckungsgleiche Figuren“ (Z. 78)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 15: „Dreiecke konstruieren“ (Z. 52)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 25: „Dreiecke (Schülerband Seite 146 bis 165)“ (Z. 36)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6–7 (Sekundo 7, 8, Mathematik 2023 6, 7, Schnittpunkt 7, Mathematik heute 6, 7); Streuung der Einführung: Schnittpunkt 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–7 (LS 7, 8, Fundamente 7, 8, Elemente 5, 7, mathe.delta 7); Streuung der Einführung: LS 7, Fundamente 7 später als Kl. 5; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 5. Besondere Linien im Dreieck und Satz des Thales
+  - Sekundo Kl. 7, S. 59: „Winkelhalbierende“ (Z. 50)
+  - Sekundo Kl. 7, S. 60: „Höhen im Dreieck“ (Z. 51)
+  - Sekundo Kl. 7, S. 58: „Mittelsenkrechte“ (Z. 141)
+  - Sekundo Kl. 8, S. 27: „LVL: Besondere Schnittpunkte beim D reieck“ (Z. 253, 255)
+  - Sekundo Kl. 8, S. 28: „Umkreis und Inkreis“ (Z. 257)
+  - Sekundo Kl. 8, S. 29: „LVL: Schwerelinien und Höhenschnitt punkt im D reieck“ (Z. 259, 261)
+  - Sekundo Kl. 8, S. 39: „LVL: Entdeckungen zum Satz des Thaies“ (Z. 284)
+  - Sekundo Kl. 8, S. 40: „Satz des Thaies und seine Umkehrung“ (Z. 285)
+  - Mathematik 2023 Kl. 6, S. 171: „Höhen eines Dreiecks“ (Z. 298)
+  - Mathematik 2023 Kl. 6, S. 173: „Umkreis eines Dreiecks“ (Z. 299)
+  - Mathematik 2023 Kl. 6, S. 175: „Inkreis eines Dreiecks“ (Z. 300)
+  - Mathematik 2023 Kl. 6, S. 177: „Schwerpunkt eines Dreiecks“ (Z. 301)
+  - Mathematik 2023 Kl. 6, S. 178: „Arbeiten mit dem Computer: Umkreis und Inkreis“ (Z. 308, 309)
+  - Mathematik 2023 Kl. 6, S. 228: „Vertiefen: Konstruktion mithilfe besonderer Linien“ (Z. 324, 325)
+  - Mathematik 2023 Kl. 7, S. 158: „Dreiecke mit dem Thaleskreis konstruieren“ (Z. 129)
+  - Mathematik 2023 Kl. 7, S. 159: „Konstruktion mithilfe besonderer Linien“ (Z. 133)
+  - Schnittpunkt Kl. 7, S. 61: „5 Der Satz des Thaies“ (Z. 73)
+  - Schnittpunkt Kl. 7, S. 63: „EXTRA: Die Umkehrung des Satzes des Thaies“ (Z. 74)
+  - Schnittpunkt Kl. 7, S. 64: „6 Höhen“ (Z. 75)
+  - Schnittpunkt Kl. 7, S. 66: „7 Mittelsenkrechte. Umkreis“ (Z. 76)
+  - Schnittpunkt Kl. 7, S. 68: „8 Winkelhalbierende. Inkreis“ (Z. 77)
+  - Schnittpunkt Kl. 7, S. 71: „EXTRA: Seitenhalbierende“ (Z. 78)
+  - Mathematik heute Kl. 7, S. 156: „Mittelsenkrechte, Winkelhalbierende und Seitenhalbierende“ (Z. 67, 68)
+  - Mathematik heute Kl. 7, S. 163: „Höhen eines Dreiecks“ (Z. 69)
+  - Mathematik heute Kl. 8, S. 113: „Satz des Thaies“ (Z. 198)
+  - LS Kl. 8: „Kapitel VI Dreiecke und Kreise“ (Z. 149) › „1 Der Satz des Thales“ (Z. 150)
+  - LS Kl. 8: „Kapitel VI Dreiecke und Kreise“ (Z. 149) › „2 Mittelsenkrechte und Umkreis“ (Z. 151)
+  - LS Kl. 8: „Kapitel VI Dreiecke und Kreise“ (Z. 149) › „3 Winkelhalbierende und Inkreis“ (Z. 152)
+  - LS Kl. 8: „Kapitel VI Dreiecke und Kreise“ (Z. 149) › „4 Schwerpunkt eines Dreiecks“ (Z. 153)
+  - Fundamente Kl. 6, S. 152: „5.5 Mittelsenkrechte und Winkelhalbierende“ (Z. 232)
+  - Fundamente Kl. 7, S. 140: „4.8 Mittelsenkrechte und Winkelhalbierende“ (Z. 75)
+  - Fundamente Kl. 7, S. 143: „4.9 Umkreis und Inkreis beim Dreieck“ (Z. 76)
+  - Fundamente Kl. 7, S. 147: „4.10 Höhe und Seitenhalbierende im Dreieck“ (Z. 77)
+  - Fundamente Kl. 8, S. 193: „7.2 Satzdes Thales“ (Z. 235)
+  - Fundamente 2017 Kl. 7, S. 170: „5.9 Besondere Linien im Dreieck“ (Z. 103)
+  - Fundamente 2017 Kl. 7, S. 173: „5.10 Inkreis und Umkreis“ (Z. 104)
+  - Fundamente 2017 Kl. 8, S. 33: „2.2 Satz der Thales“ (Z. 153)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 227: „6.5.1 Mittelsenkrechte - Umkreis eines Dreiecks“ (Z. 191)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 232: „6.5.2 Winkelhalbierende-Inkreis eines D r e i e c k s“ (Z. 192)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 237: „6.5.3 Seitenhalbierende-S c h w ^“ (Z. 193)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 238: „6.5.4 Höhen eines Dreiecks“ (Z. 194)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 244: „6.6 Satz des Thales“ (Z. 197)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 130: „6.5 Mittelsenkrechte“ (Z. 906)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 132: „6.6 Umkreis eines Dreiecks“ (Z. 907)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 134: „6.7 Winkelhalbierende“ (Z. 908)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 136: „6.8 Inkreis eines Dreiecks“ (Z. 909)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 140: „6.10 Satz des Thales“ (Z. 911)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 144: „6.11 Seitenhalbierende und Höhe“ (Z. 913)
+  - mathe.delta Kl. 7, S. 138: „4.3 Besondere Punkte und Unien“ (Z. 128)
+  - mathe.delta Kl. 7, S. 144: „4.5 SatzdesThales“ (Z. 130)
+  - Typ: Mittelsenkrechte einer Strecke mit dem Zirkel – Elemente Kl. 7 (Ausgabe 2025), S. 130: „6.5 Mittelsenkrechte“
+  - Typ: Umkreis (Schnittpunkt zweier Mittelsenkrechten) – Elemente Kl. 7 (Ausgabe 2025), S. 132: „6.6 Umkreis eines Dreiecks“
+  - Typ: Winkelhalbierende konstruieren – Elemente Kl. 7 (Ausgabe 2025), S. 134: „6.7 Winkelhalbierende“
+  - Typ: Inkreis – Elemente Kl. 7 (Ausgabe 2025), S. 136: „6.8 Inkreis eines Dreiecks“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – Elemente Kl. 7 (Ausgabe 2025), S. 140: „6.10 Satz des Thales“
+  - Typ: Umkreis (Schnittpunkt zweier Mittelsenkrechten) – Elemente Kl. 7 (Ausgabe 2016), S. 227: „6.5.1 Mittelsenkrechte - Umkreis eines Dreiecks“
+  - Typ: Inkreis – Elemente Kl. 7 (Ausgabe 2016), S. 232: „6.5.2 Winkelhalbierende-Inkreis eines D r e i e c k s“
+  - Typ: Seitenhalbierende und Schwerpunkt – Elemente Kl. 7 (Ausgabe 2016), S. 237: „6.5.3 Seitenhalbierende-S c h w ^“
+  - Typ: Höhe zur Seite mit dem Geodreieck (beim stumpfwinkligen Dreieck auf die Verlängerung) – Elemente Kl. 7 (Ausgabe 2016), S. 238: „6.5.4 Höhen eines Dreiecks“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – Elemente Kl. 7 (Ausgabe 2016), S. 244: „6.6 Satz des Thales“
+  - Typ: Mittelsenkrechte einer Strecke mit dem Zirkel – Fundamente Kl. 6, S. 152: „5.5 Mittelsenkrechte und Winkelhalbierende“
+  - Typ: Winkelhalbierende konstruieren – Fundamente Kl. 6, S. 152: „5.5 Mittelsenkrechte und Winkelhalbierende“
+  - Typ: Mittelsenkrechte einer Strecke mit dem Zirkel – Fundamente Kl. 7, S. 140: „4.8 Mittelsenkrechte und Winkelhalbierende“
+  - Typ: Winkelhalbierende konstruieren – Fundamente Kl. 7, S. 140: „4.8 Mittelsenkrechte und Winkelhalbierende“
+  - Typ: Umkreis (Schnittpunkt zweier Mittelsenkrechten) – Fundamente Kl. 7, S. 143: „4.9 Umkreis und Inkreis beim Dreieck“
+  - Typ: Inkreis – Fundamente Kl. 7, S. 143: „4.9 Umkreis und Inkreis beim Dreieck“
+  - Typ: Höhe zur Seite mit dem Geodreieck (beim stumpfwinkligen Dreieck auf die Verlängerung) – Fundamente Kl. 7, S. 147: „4.10 Höhe und Seitenhalbierende im Dreieck“
+  - Typ: Seitenhalbierende und Schwerpunkt – Fundamente Kl. 7, S. 147: „4.10 Höhe und Seitenhalbierende im Dreieck“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – Fundamente Kl. 8, S. 193: „7.2 Satzdes Thales“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – LS Kl. 8: „1 Der Satz des Thales“
+  - Typ: Mittelsenkrechte einer Strecke mit dem Zirkel – LS Kl. 8: „2 Mittelsenkrechte und Umkreis“
+  - Typ: Umkreis (Schnittpunkt zweier Mittelsenkrechten) – LS Kl. 8: „2 Mittelsenkrechte und Umkreis“
+  - Typ: Winkelhalbierende konstruieren – LS Kl. 8: „3 Winkelhalbierende und Inkreis“
+  - Typ: Inkreis – LS Kl. 8: „3 Winkelhalbierende und Inkreis“
+  - Typ: Seitenhalbierende und Schwerpunkt – LS Kl. 8: „4 Schwerpunkt eines Dreiecks“
+  - Typ: Höhe zur Seite mit dem Geodreieck (beim stumpfwinkligen Dreieck auf die Verlängerung) – Mathematik 2023 Kl. 6, S. 171: „Höhen eines Dreiecks“
+  - Typ: Umkreis (Schnittpunkt zweier Mittelsenkrechten) – Mathematik 2023 Kl. 6, S. 173: „Umkreis eines Dreiecks“
+  - Typ: Inkreis – Mathematik 2023 Kl. 6, S. 175: „Inkreis eines Dreiecks“
+  - Typ: Seitenhalbierende und Schwerpunkt – Mathematik 2023 Kl. 6, S. 177: „Schwerpunkt eines Dreiecks“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – Mathematik 2023 Kl. 7, S. 158: „Dreiecke mit dem Thaleskreis konstruieren“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – mathe.delta Kl. 7, S. 144: „4.5 SatzdesThales“
+  - Typ: Höhe zur Seite mit dem Geodreieck (beim stumpfwinkligen Dreieck auf die Verlängerung) – Mathematik heute Kl. 7, S. 163: „Höhen eines Dreiecks“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – Mathematik heute Kl. 8, S. 113: „Satz des Thaies“
+  - Typ: Mittelsenkrechte einer Strecke mit dem Zirkel – Sekundo Kl. 7, S. 58: „Mittelsenkrechte“
+  - Typ: Winkelhalbierende konstruieren – Sekundo Kl. 7, S. 59: „Winkelhalbierende“
+  - Typ: Umkreis (Schnittpunkt zweier Mittelsenkrechten) – Sekundo Kl. 8, S. 28: „Umkreis und Inkreis“
+  - Typ: Inkreis – Sekundo Kl. 8, S. 28: „Umkreis und Inkreis“
+  - Typ: Seitenhalbierende und Schwerpunkt – Sekundo Kl. 8, S. 29: „LVL: Schwerelinien und Höhenschnitt punkt im D reieck“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – Sekundo Kl. 8, S. 40: „Satz des Thaies und seine Umkehrung“
+  - Typ: Thales: Punkt auf dem Halbkreis, rechter Winkel; rechtwinkliges Dreieck über einem Durchmesser konstruieren – Schnittpunkt Kl. 7, S. 61: „5 Der Satz des Thaies“
+  - Typ: Höhe zur Seite mit dem Geodreieck (beim stumpfwinkligen Dreieck auf die Verlängerung) – Schnittpunkt Kl. 7, S. 64: „6 Höhen“
+  - Typ: Mittelsenkrechte einer Strecke mit dem Zirkel – Schnittpunkt Kl. 7, S. 66: „7 Mittelsenkrechte. Umkreis“
+  - Typ: Umkreis (Schnittpunkt zweier Mittelsenkrechten) – Schnittpunkt Kl. 7, S. 66: „7 Mittelsenkrechte. Umkreis“
+  - Typ: Winkelhalbierende konstruieren – Schnittpunkt Kl. 7, S. 68: „8 Winkelhalbierende. Inkreis“
+  - Typ: Inkreis – Schnittpunkt Kl. 7, S. 68: „8 Winkelhalbierende. Inkreis“
+  - Typ: Seitenhalbierende und Schwerpunkt – Schnittpunkt Kl. 7, S. 71: „EXTRA: Seitenhalbierende“
+  - Marken: Mathematik 2023 Kl. 6: „Arbeiten mit dem Computer: Umkreis und Inkreis“; Mathematik 2023 Kl. 6: „Vertiefen: Konstruktion mithilfe besonderer Linien“; Sekundo Kl. 8: „LVL: Besondere Schnittpunkte beim D reieck“; Sekundo Kl. 8: „LVL: Schwerelinien und Höhenschnitt punkt im D reieck“; Sekundo Kl. 8: „LVL: Entdeckungen zum Satz des Thaies“; Schnittpunkt Kl. 7: „EXTRA: Die Umkehrung des Satzes des Thaies“; Schnittpunkt Kl. 7: „EXTRA: Seitenhalbierende“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 16: „Der Satz des Thales“ (Z. 53)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 18: „Mittelsenkrechte. Umkreis“ (Z. 55)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 25: „Dreiecke (Schülerband Seite 146 bis 165)“ (Z. 36)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6–7 (Sekundo 7, 8, Mathematik 2023 6, 7, Schnittpunkt 7, Mathematik heute 7, 8); Streuung der Einführung: Schnittpunkt 7, Mathematik heute 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6–8 (LS 8, Fundamente 6, 7, 8, Elemente 7, mathe.delta 7); Streuung der Einführung: LS 8, Elemente 7 später als Kl. 6; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5, GYM Kl. 5–6; Einheit 2: OS Kl. 5–6, GYM Kl. 5–7; Einheit 4: OS Kl. 6–7, GYM Kl. 5–7; Einheit 5: OS Kl. 6–7, GYM Kl. 6–8)
+- Boden: ja
+- Ermessen (10):
+  - Einheit 2, Sekundo Kl. 8: „Winkelberechnungen“ ohne nähere Angabe; Einheiten 2 und 3 zugeordnet.
+  - Einheit 3, Sekundo Kl. 8: wie Einheit 2.
+  - Einheit 3, Mathematik 2023 Kl. 5: Die Vierecksseiten Kl. 5 (Rechteck und Quadrat, Parallelogramm und Raute, Trapez, Drachenviereck) im Kapitel „Körper und Flächen“ nennen Vierecksarten und ihre Eigenschaften, keine Flächenberechnung; zugeordnet Einheit 3 (Vierecksarten).
+  - Einheit 3, Schnittpunkt Kl. 5: Kl. 5, Kapitel „Geometrie. Vierecke“: Rechteck und Quadrat, Parallelogramm und Raute, weitere Vierecke als Vierecksarten (Einheit 3) gelesen, nicht als Flächenberechnung.
+  - Einheit 3, Mathematik heute Kl. 5: Vierecksarten (Kl. 5) als Einheit 3 gelesen, nicht als Flächenberechnung.
+  - Einheit 3, LS Kl. 5: „Eigenschaften von Vielecken“ (Kl. 5) als Vierecksarten und ihre Eigenschaften gelesen.
+  - Einheit 3, Fundamente Kl. 5: „Vierecke“ im Kapitel Grundbegriffe der Geometrie (Kl. 5) als Vierecksarten gelesen.
+  - Einheit 3, mathe.delta Kl. 7: „Zusammenhänge im Dreieck entdecken“ als Winkelsumme und Dreiecksarten gelesen.
+  - Einheit 4, Sekundo Kl. 7: „Übertragen von Dreiecken“ als Vorstufe des Konstruierens gelesen.
+  - Einheiten 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Dreiecke (Schülerband Seite 146 bis 165)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### symmetrie-abbildungen – Symmetrien erkennen und beschreiben (auch an Körpermodellen), kongruente Figuren erkennen und benennen, die Beziehung zwischen Original- und Bildfigur bei Kongruenzabbildungen (Längen- und Winkeltreue, auch Drehungen und Verschiebungen) beschreiben, Spiegelungen und Verschiebungen zeichnen, Parkette herstellen, ebene Figuren im Koordinatensystem (erster Quadrant) zeichnen, Lagebeziehungen mit Gitternetzen und Koordinaten beschreiben: Stufe D (Grundschule Kl. 5/6 in Berlin/Brandenburg, LS-AA Klasse 5/6; für die Oberschule 7–8 regulär – der Fall der Gliederungsregel „Grundschulstoff, für die Oberschule regulär“).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Koordinatensystem
+  - Sekundo Kl. 7, S. 56: „Figuren im Koordinatensystem“ (Z. 137)
+  - Sekundo Kl. 7, S. 106: „Zahlbereiche und Koordinatensystem“ (Z. 142)
+    Ermessen: „Zahlbereiche und Koordinatensystem“ im Kapitel Rationale Zahlen: als Erweiterung auf vier Quadranten gelesen.
+  - Mathematik 2023 Kl. 5, S. 95: „Koordinatensystem“ (Z. 104)
+  - Mathematik 2023 Kl. 6, S. 114: „Vertiefen: Koordinatensystem“ (Z. 283)
+  - Mathematik 2023 Kl. 7, S. 100: „Erweiterung des Koordinatensystems“ (Z. 109)
+  - Schnittpunkt Kl. 5, S. 120: „4 Das Koordinatensystem“ (Z. 97)
+  - Schnittpunkt Kl. 6, S. 232: „4 Das Koordinatensystem“ (Z. 324)
+  - Schnittpunkt Kl. 7, S. 13: „EXTRA: Das Koordinatensystem“ (Z. 44)
+  - Mathematik heute Kl. 5, S. 56 (Seite des Lösungsbands): „Vielecke - Koordinatensystem“ (Z. 83)
+  - Mathematik heute Kl. 7, S. 24: „Koordinatensystem und rationale Zahlen“ (Z. 74)
+  - LS Kl. 5: „Kapitel II Symmetrie“ (Z. 41) › „2 Koordinatensystem“ (Z. 45)
+  - LS Kl. 6: „Kapitel IV Muster und Figuren“ (Z. 98) › „1 Negative Zahlen – erweitertes Koordinatensystem“ (Z. 99)
+  - Fundamente Kl. 5, S. 102: „3.2 Koordinaten“ (Z. 78)
+  - Fundamente Kl. 7, S. 80: „3.2 Erweiterung des Koordinatensystems“ (Z. 51)
+  - Fundamente 2017 Kl. 7, S. 89: „3.5 Erweiterung des Koordinatensystems“ (Z. 69)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 106: „5.3 Koordinatensystem“ (Z. 628)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 123: „4.3 Zum Selbstlernen Koordinatensystem“ (Z. 139)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 15: „1.3 Koordinatensystem“ (Z. 839)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Elemente Kl. 7 (Ausgabe 2025), S. 15: „1.3 Koordinatensystem“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Elemente Kl. 7 (Ausgabe 2016), S. 123: „4.3 Zum Selbstlernen Koordinatensystem“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Fundamente Kl. 7, S. 80: „3.2 Erweiterung des Koordinatensystems“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – LS Kl. 6: „1 Negative Zahlen – erweitertes Koordinatensystem“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Mathematik 2023 Kl. 7, S. 100: „Erweiterung des Koordinatensystems“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Mathematik heute Kl. 7, S. 24: „Koordinatensystem und rationale Zahlen“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Sekundo Kl. 7, S. 106: „Zahlbereiche und Koordinatensystem“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Schnittpunkt Kl. 6, S. 232: „4 Das Koordinatensystem“
+  - Typ: Punkte mit negativen Koordinaten eintragen (vier Quadranten) – Schnittpunkt Kl. 7, S. 13: „EXTRA: Das Koordinatensystem“
+  - Marken: Elemente Kl. 7 (Ausgabe 2016): „4.3 Zum Selbstlernen Koordinatensystem“; Mathematik 2023 Kl. 6: „Vertiefen: Koordinatensystem“; Schnittpunkt Kl. 7: „EXTRA: Das Koordinatensystem“
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 43: „Koordinatensystem“ (Z. 87)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 27: „Das Koordinatensystem“ (Z. 204)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 52: „Das Koordinatensystem“ (Z. 310)
+  - OS: Kl. 5 (Sekundo 7, Mathematik 2023 5, 6, 7, Schnittpunkt 5, 6, 7, Mathematik heute 5, 7); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 6, Fundamente 5, 7, Elemente 5, 7, mathe.delta –)
+- 2. Achsensymmetrie und Spiegeln
+  - Sekundo Kl. 8, S. 18: „Achsensymmetrie und Achsenspiegelung“ (Z. 240)
+  - Mathematik 2023 Kl. 6, S. 96: „Symmetrische Figuren und Muster erzeugen“ (Z. 272)
+    Ermessen: „Symmetrische Figuren und Muster“ als Einstieg in die Achsensymmetrie gelesen.
+  - Mathematik 2023 Kl. 6, S. 102: „Achsenspiegelung“ (Z. 275)
+  - Mathematik 2023 Kl. 6, S. 105: „Achsensymmetrische Figuren“ (Z. 276)
+  - Mathematik 2023 Kl. 6, S. 106: „Spiegelachse konstruieren“ (Z. 277)
+  - Schnittpunkt Kl. 5, S. 125: „6 Achsensymmetrie und Punktsymmetrie“ (Z. 99)
+  - Schnittpunkt Kl. 8, S. 40: „1 Achsenspiegelung“ (Z. 224)
+  - Mathematik heute Kl. 6, S. 66: „Achsensymmetrie - Spiegeln einer Figur“ (Z. 142)
+  - Mathematik heute Kl. 7, S. 204: „Punktsymmetrie und Achsensymmetrie“ (Z. 89)
+  - LS Kl. 5: „Kapitel II Symmetrie“ (Z. 41) › „3 Achsensymmetrische Figuren“ (Z. 47)
+  - Fundamente Kl. 5, S. 106: „3.3 Achsensymmetrie“ (Z. 79)
+  - Fundamente Kl. 6, S. 159: „5.7 Symmetrische Vierecke“ (Z. 234)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 128: „6.2 Achsenspiegelung“ (Z. 642)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 144: „7.1 Achsensymmetrische Figuren“ (Z. 655)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Symmetrie der Vierecksarten im Haus der Vierecke zuordnen – Fundamente Kl. 6, S. 159: „5.7 Symmetrische Vierecke“
+  - Typ: Symmetrieachse einer Figur einzeichnen – Mathematik 2023 Kl. 6, S. 106: „Spiegelachse konstruieren“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 44: „Symmetrische Figuren“ (Z. 88)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 28: „Achsenspiegelung“ (Z. 340)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 29: „Symmetrische Figuren“ (Z. 206)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 14: „Achsenspiegelung“ (Z. 330)
+  - OS: Kl. 5–8 (Sekundo 8, Mathematik 2023 6, Schnittpunkt 5, 8, Mathematik heute 6, 7); Streuung der Einführung: Sekundo 8, Mathematik 2023 6, Mathematik heute 6 später als Kl. 5
+  - GYM: Kl. 5 (LS 5, Fundamente 5, 6, Elemente 5, mathe.delta –)
+- 3. Punktsymmetrie, Drehung, Verschiebung
+  - Sekundo Kl. 8, S. 19: „Punktsymmetrie und Punktspiegelung“ (Z. 241)
+  - Sekundo Kl. 8, S. 20: „P arke tte“ (Z. 242)
+  - Mathematik 2023 Kl. 6, S. 98: „Kongruente Figuren“ (Z. 273)
+  - Mathematik 2023 Kl. 6, S. 100: „Verschiebung“ (Z. 274)
+  - Mathematik 2023 Kl. 6, S. 107: „Drehung“ (Z. 278)
+  - Mathematik 2023 Kl. 6, S. 109: „Dreh- und punktsymmetrische Figuren“ (Z. 279)
+  - Schnittpunkt Kl. 5, S. 125: „6 Achsensymmetrie und Punktsymmetrie“ (Z. 99)
+  - Schnittpunkt Kl. 5, S. 128: „EXTRA: Bandornamente“ (Z. 100)
+  - Schnittpunkt Kl. 5, S. 129: „EXTRA: Verschiebung“ (Z. 101)
+  - Schnittpunkt Kl. 5, S. 192: „5 Drehsymmetrie“ (Z. 132)
+  - Schnittpunkt Kl. 8, S. 42: „2 Verschiebung“ (Z. 225)
+  - Schnittpunkt Kl. 8, S. 44: „3 Drehung. Punktspiegelung“ (Z. 226)
+  - Schnittpunkt Kl. 8, S. 46: „4 Kongruenzabbildungen“ (Z. 227)
+  - Mathematik heute Kl. 6, S. 70: „Bandornamente - Verschieben einer Figur“ (Z. 143)
+  - Mathematik heute Kl. 6, S. 73: „Drehsymmetrie - Drehen einer Figur“ (Z. 144)
+  - Mathematik heute Kl. 6, S. 82: „Im Blickpunkt: Parkettierung“ (Z. 149)
+  - Mathematik heute Kl. 7, S. 204: „Punktsymmetrie und Achsensymmetrie“ (Z. 89)
+  - LS Kl. 5: „Kapitel II Symmetrie“ (Z. 41) › „4 Punktsymmetrische Figuren“ (Z. 49)
+  - LS Kl. 6: „Kapitel IV Muster und Figuren“ (Z. 98) › „2 Verschiebungen“ (Z. 100)
+  - LS Kl. 6: „Kapitel IV Muster und Figuren“ (Z. 98) › „6 Drehungen“ (Z. 104)
+  - Fundamente Kl. 5, S. 110: „3.4 Punktsymmetrie“ (Z. 80)
+  - Fundamente Kl. 5, S. 114: „Streifzug: Parallelverschiebung“ (Z. 81)
+  - Fundamente Kl. 6, S. 142: „5.1 Drehsymmetrie“ (Z. 228)
+  - Fundamente Kl. 7, S. 261: „8.2 Kongruenzabbildungen“ (Z. 126)
+  - Fundamente Kl. 8, S. 11: „1.2 Kongruenzabbildungen“ (Z. 149)
+  - Fundamente 2017 Kl. 7, S. 194: „6.3 Kongruenzabbildungen“ (Z. 113)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 126: „6.1 Verschiebungen“ (Z. 641)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 132: „6.3 Punktspiegelung“ (Z. 644)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 134: „6.4 Drehungen“ (Z. 645)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 136: „6.5 Eigenschaften von Abbildungen“ (Z. 646)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 146: „7.2 Punktsymmetrische Figuren“ (Z. 656)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Figur mit einem Pfeil verschieben (Länge und Richtung) – Elemente Kl. 5 (Ausgabe 2025), S. 126: „6.1 Verschiebungen“
+  - Typ: Punkt an einem Punkt spiegeln (Symmetriezentrum, gleicher Abstand auf der Geraden durch das Zentrum) – Elemente Kl. 5 (Ausgabe 2025), S. 132: „6.3 Punktspiegelung“
+  - Typ: Figur um einen Punkt drehen (Vierteldrehung, halbe Drehung, Dreivierteldrehung) – Elemente Kl. 5 (Ausgabe 2025), S. 134: „6.4 Drehungen“
+  - Typ: Original und Bild vergleichen: Längen und Winkel bleiben gleich, kongruente Figuren – Elemente Kl. 5 (Ausgabe 2025), S. 136: „6.5 Eigenschaften von Abbildungen“
+  - Typ: Figur mit einem Pfeil verschieben (Länge und Richtung) – Fundamente Kl. 5, S. 114: „Streifzug: Parallelverschiebung“
+  - Typ: Original und Bild vergleichen: Längen und Winkel bleiben gleich, kongruente Figuren – Fundamente Kl. 7, S. 261: „8.2 Kongruenzabbildungen“
+  - Typ: Figur mit einem Pfeil verschieben (Länge und Richtung) – LS Kl. 6: „2 Verschiebungen“
+  - Typ: Figur um einen Punkt drehen (Vierteldrehung, halbe Drehung, Dreivierteldrehung) – LS Kl. 6: „6 Drehungen“
+  - Typ: Original und Bild vergleichen: Längen und Winkel bleiben gleich, kongruente Figuren – Mathematik 2023 Kl. 6, S. 98: „Kongruente Figuren“
+  - Typ: Figur mit einem Pfeil verschieben (Länge und Richtung) – Mathematik 2023 Kl. 6, S. 100: „Verschiebung“
+  - Typ: Figur um einen Punkt drehen (Vierteldrehung, halbe Drehung, Dreivierteldrehung) – Mathematik 2023 Kl. 6, S. 107: „Drehung“
+  - Typ: Bandornament fortsetzen (Verschiebung, Spiegelung) – Mathematik heute Kl. 6, S. 70: „Bandornamente - Verschieben einer Figur“
+  - Typ: Figur um einen Punkt drehen (Vierteldrehung, halbe Drehung, Dreivierteldrehung) – Mathematik heute Kl. 6, S. 73: „Drehsymmetrie - Drehen einer Figur“
+  - Typ: Parkett aus einer Figur legen und die Abbildung benennen – Mathematik heute Kl. 6, S. 82: „Im Blickpunkt: Parkettierung“
+  - Typ: Parkett aus einer Figur legen und die Abbildung benennen – Sekundo Kl. 8, S. 20: „P arke tte“
+  - Typ: Bandornament fortsetzen (Verschiebung, Spiegelung) – Schnittpunkt Kl. 5, S. 128: „EXTRA: Bandornamente“
+  - Typ: Figur mit einem Pfeil verschieben (Länge und Richtung) – Schnittpunkt Kl. 5, S. 129: „EXTRA: Verschiebung“
+  - Typ: drehsymmetrische Figuren erkennen und den Drehwinkel angeben (Vorrat) – Schnittpunkt Kl. 5, S. 192: „5 Drehsymmetrie“
+  - Typ: Original und Bild vergleichen: Längen und Winkel bleiben gleich, kongruente Figuren – Schnittpunkt Kl. 8, S. 46: „4 Kongruenzabbildungen“
+  - Marken: Fundamente Kl. 5: „Streifzug: Parallelverschiebung“; Mathematik heute Kl. 6: „Im Blickpunkt: Parkettierung“; Schnittpunkt Kl. 5: „EXTRA: Bandornamente“; Schnittpunkt Kl. 5: „EXTRA: Verschiebung“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 44: „Drehsymmetrie“ (Z. 225)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 18: „Kongruenzabbildungen“ (Z. 334)
+  - OS: Kl. 5–8 (Sekundo 8, Mathematik 2023 6, Schnittpunkt 5, 8, Mathematik heute 6, 7); Streuung der Einführung: Sekundo 8, Mathematik 2023 6, Mathematik heute 6 später als Kl. 5
+  - GYM: Kl. 5 (LS 5, 6, Fundamente 5, 6, 7, 8, Elemente 5, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 2: OS Kl. 5–8, GYM Kl. 5; Einheit 3: OS Kl. 5–8, GYM Kl. 5)
+- Boden: ja
+- Ermessen (2):
+  - Einheit 1, Sekundo Kl. 7: „Zahlbereiche und Koordinatensystem“ im Kapitel Rationale Zahlen: als Erweiterung auf vier Quadranten gelesen.
+  - Einheit 2, Mathematik 2023 Kl. 6: „Symmetrische Figuren und Muster“ als Einstieg in die Achsensymmetrie gelesen.
+
+### strahlensaetze – Rechnen mit Maßstäben, Maße aus Skizzen und Zeichnungen mit Maßstab entnehmen, maßstäblich vergrößerte und verkleinerte Figuren zeichnen, ähnliche Figuren erkennen und ihre Längenverhältnisse beschreiben: Stufe E (Gymnasium Kl. 7 laut Bildungsgangtabelle; Oberschule/Gesamtschule 7–8 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Maßstab
+  - Sekundo Kl. 7, S. 30: „Maßstab“ (Z. 91)
+  - Sekundo Kl. 7, S. 32: „Vergrößern und Verkleinern“ (Z. 94)
+    Ermessen: „Vergrößern und Verkleinern“ steht im Kapitel Zuordnungen direkt nach „Maßstab“ und vor der zentrischen Streckung (Kl. 9); als maßstäbliches Vergrößern gelesen, nicht als Einheit 2.
+  - Sekundo Kl. 9, S. 102: „Maßstab“ (Z. 430)
+  - Mathematik 2023 Kl. 5, S. 198: „Maßstab“ (Z. 183)
+  - Mathematik 2023 Kl. 6, S. 148: „Maßstab“ (Z. 277)
+  - Mathematik 2023 Kl. 7, S. 18: „Maßstab“ (Z. 63)
+  - Mathematik 2023 Kl. 9, S. 6: „Vergrößern und Verkleinern“ (Z. 378)
+  - Mathematik 2023 Kl. 9, S. 8: „Maßstäbliches Verkleinern“ (Z. 379)
+  - Mathematik 2023 Kl. 9, S. 9: „Maßstäbliches Vergrößern“ (Z. 380)
+  - Mathematik 2023 Kl. 9, S. 10: „Maßstäbliches Vergrößern und Verkleinern“ (Z. 381)
+  - Mathematik 2023 Kl. 9, S. 12: „Landkarten“ (Z. 382)
+  - Mathematik 2023 Kl. 9, S. 13: „Grundrisse“ (Z. 383)
+  - Schnittpunkt Kl. 5, S. 163: „6 Maßstab“ (Z. 118)
+  - Schnittpunkt Kl. 9, S. 60: „1 Vergrößern. Verkleinern“ (Z. 371)
+    Ermessen: „Vergrößern. Verkleinern“ vor der zentrischen Streckung als maßstäbliches Vergrößern (Einheit 1) gelesen.
+  - Mathematik heute Kl. 5, S. 18 (Seite des Lösungsbands): „Maßstab“ (Z. 52)
+  - Mathematik heute Kl. 8, S. 174: „Maßstäbliches Vergrößern und Verkleinern“ (Z. 146)
+  - LS Kl. 5: „Kapitel IV Flächen“ (Z. 22) › „6 Schätzen und Rechnen mit Maßstäben“ (Z. 34)
+  - Fundamente Kl. 5, S. 36: „1.10 Maßstab“ (Z. 48)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 5
+  - Elemente Kl. 5 (Ausgabe 2025), S. 37: „2.3 Maßstäbe“ (Z. 592)
+  - mathe.delta Kl. 8, S. 114: „4.2 Maßstäbliches Vergrößern und V e rk le in e rn“ (Z. 248)
+  - Typ: Landkarte: Strecke aus Kartenzentimetern (1 : 25 000 → 1 cm ≙ 250 m) – Mathematik 2023 Kl. 9, S. 12: „Landkarten“
+  - Typ: Figur auf Karo vergrößern und verkleinern (jede Seite mal 2, mal 3, halbieren) – Schnittpunkt Kl. 9, S. 60: „1 Vergrößern. Verkleinern“
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 13: „Maßstab“ (Z. 144)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 52: „Maßstab“ (Z. 277)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 5: „Maßstäbliches Vergrößern und Verkleinern“ (Z. 187)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 38: „Maßstab“ (Z. 217)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 18: „Vergrößern. Verkleinern“ (Z. 125)
+  - OS: Kl. 5 (Sekundo 7, 9, Mathematik 2023 5, 6, 7, 9, Schnittpunkt 5, 9, Mathematik heute 5, 8); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–8 (LS 5, Fundamente 5, Elemente 5, mathe.delta 8); Streuung der Einführung: mathe.delta 8 später als Kl. 5
+- 2. Zentrische Streckung und Ähnlichkeit
+  - Sekundo Kl. 9, S. 105: „Längenverhältnisse von Strecken“ (Z. 432)
+    Ermessen: „Längenverhältnisse von Strecken“ vor „Ähnliche Figuren“ als Grundlage der Ähnlichkeit gelesen.
+  - Sekundo Kl. 9, S. 106: „Ähnliche Figuren“ (Z. 433)
+  - Sekundo Kl. 9, S. 107: „Ähnliche Dreiecke“ (Z. 434)
+  - Sekundo Kl. 9, S. 116: „Zentrische Streckung“ (Z. 440)
+  - Mathematik 2023 Kl. 9, S. 14: „Ähnlichkeit“ (Z. 384)
+  - Mathematik 2023 Kl. 9, S. 17: „Ähnlichkeitssätze für Dreiecke“ (Z. 385)
+  - Mathematik 2023 Kl. 9, S. 18: „Zentrische Streckung“ (Z. 386)
+  - Mathematik 2023 Kl. 9, S. 19: „Zentrische Streckung ebener Figuren“ (Z. 387)
+  - Mathematik 2023 Kl. 9, S. 20: „Flächeninhalt von Original- und Bildfigur“ (Z. 388)
+  - Schnittpunkt Kl. 9, S. 62: „2 Zentrische Streckung“ (Z. 372)
+  - Schnittpunkt Kl. 9, S. 65: „3 Ähnliche Figuren“ (Z. 373)
+  - Mathematik heute Kl. 8, S. 176: „Ähnliche Vielecke - Eigenschaften“ (Z. 147)
+  - Mathematik heute Kl. 8, S. 182: „Flächeninhalt bei zueinander ähnlichen Vielecken“ (Z. 148, 149)
+  - Mathematik heute Kl. 8, S. 186: „Hauptähnlichkeitssatz für Dreiecke“ (Z. 153)
+  - Mathematik heute Kl. 8, S. 188: „Anwenden der Ähnlichkeit in ebenen und räumlichen Figuren“ (Z. 154, 156)
+  - LS Kl. 9: „Kapitel IV Ähnlichkeit“ (Z. 200) › „1 Zentrische Streckung“ (Z. 201)
+  - LS Kl. 9: „Kapitel IV Ähnlichkeit“ (Z. 200) › „2 Ähnlichkeit“ (Z. 202)
+  - Fundamente Kl. 7, S. 265: „8.3 Ähnliche Figuren“ (Z. 127)
+  - Fundamente Kl. 7, S. 268: „8.4 Umfang und Flächeninhalt ähnlicher Figuren“ (Z. 128)
+  - Fundamente Kl. 8, S. 15: „1.3 Ähnliche Figuren“ (Z. 150)
+  - Fundamente Kl. 8, S. 18: „1.4 Umfang und Flächeninhalt ähnlicher Figuren“ (Z. 151)
+  - Fundamente 2017 Kl. 7, S. 198: „6.4 Ähnliche Figuren“ (Z. 114)
+  - Fundamente 2017 Kl. 7, S. 202: „6.5 Umfang und Flächeninhalt ähnlicher Figuren“ (Z. 115)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 235: „7.1 Ähnliche Vielecke“ (Z. 328)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 241: „7.2 Zum Selbstlernen Flächeninhalt bei zueinander ähnlichen Vielecken“ (Z. 329)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 246: „7.3 Ähnlichkeitsabbildungen - Zentrische Streckung“ (Z. 332)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 250: „7.4 Ähnlichkeit bei beliebigen Figuren“ (Z. 333)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 252: „7.5 Ähnlichkeitssatz für Dreiecke“ (Z. 334)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 256: „7.7 Berechnen von Streckenlängen“ (Z. 336)
+    Ermessen: Die Strahlensätze nennt das Verzeichnis der Ausgabe 2016 nicht; „Berechnen von Streckenlängen“ über Ähnlichkeit ist der Einheit 2 zugeordnet, nicht als Stelle der Einheit 3 gezählt.
+  - mathe.delta Kl. 8, S. 118: „4.3 Ä h n lic h k e it“ (Z. 249)
+  - mathe.delta Kl. 8: „4.2 Maßstäbliches Vergrößern und Verkleinern -> zentrische Streckung (Definition und Ausführung) (fakultativ)“ (Z. 429, 430, 433, 434)
+    Ermessen: Die zentrische Streckung steht nur im Stoffverteilungsplan unter 4.2, dort „(fakultativ)“.
+  - Typ: Fläche der Bildfigur: mal k² (Vorrat) – Elemente Kl. 8 (Ausgabe 2016), S. 241: „7.2 Zum Selbstlernen Flächeninhalt bei zueinander ähnlichen Vielecken“
+  - Typ: ähnliche Dreiecke erkennen an zwei gleichen Winkeln (dritter folgt aus der Winkelsumme) – Elemente Kl. 8 (Ausgabe 2016), S. 252: „7.5 Ähnlichkeitssatz für Dreiecke“
+  - Typ: fehlende Seite in ähnlichen Dreiecken über die Verhältnisgleichung – Elemente Kl. 8 (Ausgabe 2016), S. 256: „7.7 Berechnen von Streckenlängen“
+  - Typ: ähnliche Figuren erkennen (gleiche Winkel und gleiche Verhältnisse gegen „nur eine Seite gestreckt“) – Fundamente Kl. 7, S. 265: „8.3 Ähnliche Figuren“
+  - Typ: Fläche der Bildfigur: mal k² (Vorrat) – Fundamente Kl. 7, S. 268: „8.4 Umfang und Flächeninhalt ähnlicher Figuren“
+  - Typ: Fläche der Bildfigur: mal k² (Vorrat) – Fundamente Kl. 8, S. 18: „1.4 Umfang und Flächeninhalt ähnlicher Figuren“
+  - Typ: ähnliche Dreiecke erkennen an zwei gleichen Winkeln (dritter folgt aus der Winkelsumme) – Mathematik 2023 Kl. 9, S. 17: „Ähnlichkeitssätze für Dreiecke“
+  - Typ: Fläche der Bildfigur: mal k² (Vorrat) – Mathematik 2023 Kl. 9, S. 20: „Flächeninhalt von Original- und Bildfigur“
+  - Typ: Fläche der Bildfigur: mal k² (Vorrat) – Mathematik heute Kl. 8, S. 182: „Flächeninhalt bei zueinander ähnlichen Vielecken“
+  - Typ: ähnliche Dreiecke erkennen an zwei gleichen Winkeln (dritter folgt aus der Winkelsumme) – Mathematik heute Kl. 8, S. 186: „Hauptähnlichkeitssatz für Dreiecke“
+  - Typ: ähnliche Figuren erkennen (gleiche Winkel und gleiche Verhältnisse gegen „nur eine Seite gestreckt“) – Sekundo Kl. 9, S. 106: „Ähnliche Figuren“
+  - Typ: ähnliche Dreiecke erkennen an zwei gleichen Winkeln (dritter folgt aus der Winkelsumme) – Sekundo Kl. 9, S. 107: „Ähnliche Dreiecke“
+  - Typ: ähnliche Figuren erkennen (gleiche Winkel und gleiche Verhältnisse gegen „nur eine Seite gestreckt“) – Schnittpunkt Kl. 9, S. 65: „3 Ähnliche Figuren“
+  - Marken: Elemente Kl. 8 (Ausgabe 2016): „7.2 Zum Selbstlernen Flächeninhalt bei zueinander ähnlichen Vielecken“; mathe.delta Kl. 8: „(fakultativ)“ im Stoffverteilungsplan des Verlags bei „4.2 Maßstäbliches Vergrößern und Verkleinern -> zentrische Streckung (Definition und Ausführung) (fakultativ)“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 19: „Zentrische Streckung“ (Z. 126)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 11: „Ähnlichkeit (Schülerband Seite 40 bis 77)“ (Z. 56)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 4: „Zentrische Streckung - Ähnlichkeit (Schülerband Seite 6 bis 35)“ (Z. 66)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Ermessen: Fundamente 2024 führt das Kapitel „Ähnlichkeit“ mit denselben Lerneinheiten in Band 7 (Kap. 8) und Band 8 (Kap. 1); beide Stellen stehen da (Einführungsklasse 7).
+  - OS: Kl. 8–9 (Sekundo 9, Mathematik 2023 9, Schnittpunkt 9, Mathematik heute 8); Streuung der Einführung: Sekundo 9, Mathematik 2023 9, Schnittpunkt 9 später als Kl. 8
+  - GYM: Kl. 7–9 (LS 9, Fundamente 7, 8, Elemente 8, mathe.delta 8); Streuung der Einführung: LS 9, Elemente 8, mathe.delta 8 später als Kl. 7
+- 3. Strahlensätze
+  - Sekundo Kl. 9, S. 108: „Streckenteilung“ (Z. 435)
+  - Sekundo Kl. 9, S. 112: „Strahlensätze“ (Z. 438)
+  - Sekundo Kl. 9, S. 114: „Anwendungen“ (Z. 439)
+    Ermessen: „Anwendungen“ direkt nach „Strahlensätze“ als Sachaufgaben zu den Strahlensätzen gelesen.
+  - Mathematik 2023 Kl. 9, S. 22: „Strahlensätze“ (Z. 391)
+  - Schnittpunkt Kl. 9, S. 68: „4 Strahlensätze“ (Z. 374)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 9: „Kapitel IV Ähnlichkeit“ (Z. 200) › „3 Strahlensätze“ (Z. 203)
+  - Fundamente Kl. 8, S. 20: „Streifzug: Strahlensätze“ (Z. 152)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta Kl. 8: „4.4 Besondere Verhältnisse ähnlicher Figuren -> Strahlensätze (fakultativ)“ (Z. 441, 442, 443)
+    Ermessen: Das Verzeichnis nennt „4.4 Besondere Verhältnisse ähnlicher Figuren“ (S. 120, Z. 250); erst der Stoffverteilungsplan sagt „Strahlensätze (fakultativ)“.
+  - Typ: Strecke in n gleiche Teile teilen (Vorrat) – Sekundo Kl. 9, S. 108: „Streckenteilung“
+  - Marken: Fundamente Kl. 8: „Streifzug: Strahlensätze“; mathe.delta Kl. 8: „(fakultativ)“ im Stoffverteilungsplan des Verlags bei „4.4 Besondere Verhältnisse ähnlicher Figuren -> Strahlensätze (fakultativ)“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 21: „Strahlensätze“ (Z. 128)
+  - OS: Kl. 9 (Sekundo 9, Mathematik 2023 9, Schnittpunkt 9, Mathematik heute –)
+  - GYM: Kl. 8–9 (LS 9, Fundamente 8, Elemente –, mathe.delta 8); Streuung der Einführung: LS 9 später als Kl. 8
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5, GYM Kl. 5–8; Einheit 2: OS Kl. 8–9, GYM Kl. 7–9; Einheit 3: OS Kl. 9, GYM Kl. 8–9)
+- Boden: ja
+- Ermessen (10):
+  - Einheit 1, Sekundo Kl. 7: „Vergrößern und Verkleinern“ steht im Kapitel Zuordnungen direkt nach „Maßstab“ und vor der zentrischen Streckung (Kl. 9); als maßstäbliches Vergrößern gelesen, nicht als Einheit 2.
+  - Einheit 1, Schnittpunkt Kl. 9: „Vergrößern. Verkleinern“ vor der zentrischen Streckung als maßstäbliches Vergrößern (Einheit 1) gelesen.
+  - Einheit 2, Sekundo Kl. 9: „Längenverhältnisse von Strecken“ vor „Ähnliche Figuren“ als Grundlage der Ähnlichkeit gelesen.
+  - Einheit 2, Elemente Kl. 8 (Ausgabe 2016): Die Strahlensätze nennt das Verzeichnis der Ausgabe 2016 nicht; „Berechnen von Streckenlängen“ über Ähnlichkeit ist der Einheit 2 zugeordnet, nicht als Stelle der Einheit 3 gezählt.
+  - Einheit 2, mathe.delta Kl. 8: Die zentrische Streckung steht nur im Stoffverteilungsplan unter 4.2, dort „(fakultativ)“.
+  - Einheit 2: Fundamente 2024 führt das Kapitel „Ähnlichkeit“ mit denselben Lerneinheiten in Band 7 (Kap. 8) und Band 8 (Kap. 1); beide Stellen stehen da (Einführungsklasse 7).
+  - Einheit 3, Sekundo Kl. 9: „Anwendungen“ direkt nach „Strahlensätze“ als Sachaufgaben zu den Strahlensätzen gelesen.
+  - Einheit 3, mathe.delta Kl. 8: Das Verzeichnis nennt „4.4 Besondere Verhältnisse ähnlicher Figuren“ (S. 120, Z. 250); erst der Stoffverteilungsplan sagt „Strahlensätze (fakultativ)“.
+  - Einheit 2, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Ähnlichkeit (Schülerband Seite 40 bis 77)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheit 2, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 10 „Zentrische Streckung - Ähnlichkeit (Schülerband Seite 6 bis 35)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### zuordnungen – Klasse 6/7: proportionale Zuordnungen und Dreisatz auf Stufe D (in Berlin/Brandenburg Grundschule Kl. 6, für die Oberschule 7–8 regulär), Klasse 7: antiproportional, Darstellungswechsel, vier Quadranten, Verhältnisgleichungen auf E (Gymnasium Kl. 7, Oberschule 7–8).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Zuordnungen darstellen
+  - Sekundo Kl. 7, S. 28: „Tabellen und grafische Darstellungen“ (Z. 90)
+  - Sekundo Kl. 8, S. 114: „Grafische Darstellungen bei Füllvorgängen“ (Z. 311)
+  - Mathematik 2023 Kl. 6, S. 142: „Zuordnungen und ihre Darstellungen“ (Z. 273)
+  - Mathematik 2023 Kl. 6, S. 156: „Üben: Weg-Zeit-Diagramm“ (Z. 283)
+  - Mathematik 2023 Kl. 7, S. 9: „Füllkurven“ (Z. 54)
+  - Mathematik 2023 Kl. 7, S. 36: „Vertiefen: Veränderungen bei Weg und Zeit“ (Z. 78)
+    Ermessen: Weg und Zeit als Weg-Zeit-Darstellung (Einheit 1) gelesen, nicht als Geschwindigkeitsrechnung.
+  - Schnittpunkt Kl. 6, S. 184: „1 Zuordnungen und Schaubilder“ (Z. 293)
+  - Schnittpunkt Kl. 7, S. 150: „1 Zuordnungen“ (Z. 135)
+  - Schnittpunkt Kl. 7, S. 153: „2 Zuordnungen beschreiben und darstellen“ (Z. 136)
+  - Schnittpunkt Kl. 8, S. 61: „EXTRA: Graphen erzählen Geschichten“ (Z. 239)
+  - Mathematik heute Kl. 6, S. 136: „Zuordnungen in der Umwelt“ (Z. 116)
+  - Mathematik heute Kl. 6, S. 138: „Zuordnungstabellen“ (Z. 117)
+  - Mathematik heute Kl. 6, S. 143: „Grafische Darstellungen von Zuordnungen“ (Z. 118)
+  - Mathematik heute Kl. 7, S. 72: „Zuordnungen ¡n Tabellen und Graphen“ (Z. 100)
+  - Mathematik heute Kl. 8, S. 220: „Zuordnungen - Grundlagen“ (Z. 183)
+  - Mathematik heute Kl. 9, S. 12: „Zuordnungen - Grundlagen“ (Z. 227)
+  - LS Kl. 6: „Kapitel VI Beziehungen zwischen Zahlen“ (Z. 88) › „4 Abhängigkeiten grafisch darstellen“ (Z. 92)
+  - LS Kl. 7: „Kapitel II Zuordnungen“ (Z. 122) › „1 Zuordnungen darstellen“ (Z. 123)
+  - LS Kl. 7: „Kapitel II Zuordnungen“ (Z. 122) › „2 Zuordnungen mit Formeln beschreiben“ (Z. 124)
+  - Fundamente Kl. 7, S. 14: „1.1 Zuordnungen“ (Z. 21)
+  - Fundamente Kl. 7, S. 18: „1.2 Grafische Darstellung“ (Z. 22)
+  - Fundamente 2017 Kl. 7, S. 16: „1.1 Zuordnungen“ (Z. 39)
+  - Fundamente 2017 Kl. 7, S. 19: „1.2 Grafische Darstellungen“ (Z. 40)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 142: „7.1 Zuordnungstabellen“ (Z. 801)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 145: „Füllgraphen“ (Z. 802)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 146: „7.2 „Je mehr- desto “-Zuordnungen“ (Z. 803)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 36: „2.1 Tabellen und Graphen“ (Z. 853)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 39: „Füllgraphen“ (Z. 854)
+  - mathe.delta Kl. 7, S. 58: „2.1 Eindeutige Zuordnungen“ (Z. 88)
+  - Typ: Graph zu Situation qualitativ zuordnen (Füllgraph, Weg-Zeit) – Elemente Kl. 6 (Ausgabe 2025), S. 145: „Füllgraphen“
+  - Typ: Zuordnung in Worten beschreiben („je mehr …, desto …“) – Elemente Kl. 6 (Ausgabe 2025), S. 146: „7.2 „Je mehr- desto “-Zuordnungen“
+  - Typ: Graph zu Situation qualitativ zuordnen (Füllgraph, Weg-Zeit) – Elemente Kl. 7 (Ausgabe 2025), S. 39: „Füllgraphen“
+  - Typ: Formel aus Tabelle (y = 4 · x) – LS Kl. 7: „2 Zuordnungen mit Formeln beschreiben“
+  - Typ: Graph zu Situation qualitativ zuordnen (Füllgraph, Weg-Zeit) – Mathematik 2023 Kl. 6, S. 156: „Üben: Weg-Zeit-Diagramm“
+  - Typ: Graph zu Situation qualitativ zuordnen (Füllgraph, Weg-Zeit) – Mathematik 2023 Kl. 7, S. 9: „Füllkurven“
+  - Typ: Wertetabelle aus Text anlegen – Mathematik heute Kl. 6, S. 138: „Zuordnungstabellen“
+  - Typ: Punkte ins Koordinatensystem eintragen – Mathematik heute Kl. 6, S. 143: „Grafische Darstellungen von Zuordnungen“
+  - Typ: Graph zu Situation qualitativ zuordnen (Füllgraph, Weg-Zeit) – Sekundo Kl. 8, S. 114: „Grafische Darstellungen bei Füllvorgängen“
+  - Typ: Graph zu Situation qualitativ zuordnen (Füllgraph, Weg-Zeit) – Schnittpunkt Kl. 8, S. 61: „EXTRA: Graphen erzählen Geschichten“
+  - Marken: Mathematik 2023 Kl. 6: „Üben: Weg-Zeit-Diagramm“; Mathematik 2023 Kl. 7: „Vertiefen: Veränderungen bei Weg und Zeit“; Schnittpunkt Kl. 8: „EXTRA: Graphen erzählen Geschichten“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 12: „Tabellen und grafische Darstellungen“ (Z. 143)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Füllkurven“ (Z. 23)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 41: „Zuordnungen und Schaubilder“ (Z. 295)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 35: „Zuordnungen beschreiben und darstellen“ (Z. 80)
+  - OS: Kl. 6 (Sekundo 7, 8, Mathematik 2023 6, 7, Schnittpunkt 6, 7, 8, Mathematik heute 6, 7, 8, 9); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6–7 (LS 6, 7, Fundamente 7, Elemente 6, 7, mathe.delta 7); Streuung der Einführung: Fundamente 7 später als Kl. 6; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Proportionale Zuordnungen und Dreisatz
+  - Sekundo Kl. 7, S. 34: „Proportionale Zuordnungen“ (Z. 98)
+  - Sekundo Kl. 7, S. 35: „Grafische Darstellungen bei proportionalen Zuordnungen“ (Z. 100, 102)
+  - Sekundo Kl. 7, S. 37: „LVL: D reisatz“ (Z. 106)
+  - Sekundo Kl. 7, S. 38: „Dreisatz bei proportionalen und antiproportionalen Zuordnungen“ (Z. 108, 110)
+  - Sekundo Kl. 8, S. 8: „Proportionale Zuordnungen“ (Z. 221)
+  - Mathematik 2023 Kl. 6, S. 145: „Direkt proportionale Zuordnungen“ (Z. 274)
+  - Mathematik 2023 Kl. 6, S. 146: „Der Dreisatz bei direkt proportionalen Zuordnungen“ (Z. 275, 276)
+  - Mathematik 2023 Kl. 6, S. 150: „Graphen direkt proportionaler Zuordnungen“ (Z. 278, 279)
+  - Mathematik 2023 Kl. 6, S. 151: „Proportionalitätsfaktor k“ (Z. 280)
+  - Mathematik 2023 Kl. 7, S. 11: „Direkt proportionale Zuordnungen“ (Z. 55)
+  - Mathematik 2023 Kl. 7, S. 13: „Graphen direkt proportionaler Zuordnungen“ (Z. 56, 57)
+  - Mathematik 2023 Kl. 7, S. 14: „Der Dreisatz bei direkt proportionalen Zuordnungen“ (Z. 58, 59)
+  - Mathematik 2023 Kl. 7, S. 15: „Proportionalitätsfaktor k“ (Z. 60)
+  - Mathematik 2023 Kl. 7, S. 17: „Die Verhältnisgleichung bei direkt proportionalen Zuordnungen“ (Z. 61, 62)
+  - Schnittpunkt Kl. 6, S. 187: „2 Proportionale Zuordnungen“ (Z. 294)
+  - Schnittpunkt Kl. 6, S. 190: „3 Schaubilder proportionaler Zuordnungen“ (Z. 295)
+  - Schnittpunkt Kl. 6, S. 193: „4 Zweisatz“ (Z. 296)
+  - Schnittpunkt Kl. 6, S. 195: „5 Dreisatz“ (Z. 297)
+  - Schnittpunkt Kl. 7, S. 155: „3 Proportionale Zuordnungen“ (Z. 137)
+  - Schnittpunkt Kl. 7, S. 159: „4 Zweisatz bei proportionalen Zuordnungen“ (Z. 138)
+  - Schnittpunkt Kl. 7, S. 161: „5 Dreisatz bei proportionalen Zuordnungen“ (Z. 139)
+  - Schnittpunkt Kl. 8, S. 26: „EXTRA: Verhältnisgleichungen“ (Z. 213)
+  - Mathematik heute Kl. 6, S. 154: „Direkt proportionale Zuordnungen - Dreisatz“ (Z. 123)
+  - Mathematik heute Kl. 7, S. 75: „Direkt proportionale Zuordnungen - Quotientengleichheit“ (Z. 101, 102)
+  - LS Kl. 6: „Kapitel VI Beziehungen zwischen Zahlen“ (Z. 88) › „3 Rechnen mit dem Dreisatz“ (Z. 91)
+  - LS Kl. 7: „Kapitel II Zuordnungen“ (Z. 122) › „3 Proportionale Zuordnungen“ (Z. 125)
+  - Fundamente Kl. 7, S. 22: „1.3 Proportionale Zuordnungen“ (Z. 23)
+  - Fundamente Kl. 7, S. 26: „1.4 Dreisatz für proportionale Zuordnungen“ (Z. 24)
+  - Fundamente 2017 Kl. 7, S. 24: „1.3 Proportionale Zuordnungen“ (Z. 41)
+  - Fundamente 2017 Kl. 7, S. 32: „1.5 Dreisatz“ (Z. 43)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 148: „7.3 Direkt proportionale Zuordnungen“ (Z. 804)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 150: „7.4 Dreisatz - direkte Proportionalität“ (Z. 805)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 19: „Direkt proportionale Zuordnungen (Wiederholung)“ (Z. 80)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 31: „Quotientengleichheit bei direkt proportionalen Zuordnungen - Proportionalitätsfaktor“ (Z. 85, 86)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 40: „2.2 Direkt proportionale Zuordnungen“ (Z. 855)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 42: „2.3 Dreisatz - direkt proportional“ (Z. 856)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 44: „2.4 Quotientengleichheit - Proportionalitätsfaktor“ (Z. 857)
+  - mathe.delta Kl. 7, S. 60: „2.2 Direkt proportionale Zuordnungen“ (Z. 89)
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Elemente Kl. 6 (Ausgabe 2025), S. 150: „7.4 Dreisatz - direkte Proportionalität“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Elemente Kl. 7 (Ausgabe 2025), S. 42: „2.3 Dreisatz - direkt proportional“
+  - Typ: fester Faktor angeben (Preis je Einheit), Gleichung y = k · x – Elemente Kl. 7 (Ausgabe 2025), S. 44: „2.4 Quotientengleichheit - Proportionalitätsfaktor“
+  - Typ: fester Faktor angeben (Preis je Einheit), Gleichung y = k · x – Elemente Kl. 7 (Ausgabe 2016), S. 31: „Quotientengleichheit bei direkt proportionalen Zuordnungen - Proportionalitätsfaktor“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Fundamente Kl. 7, S. 26: „1.4 Dreisatz für proportionale Zuordnungen“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – LS Kl. 6: „3 Rechnen mit dem Dreisatz“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Mathematik 2023 Kl. 6, S. 146: „Der Dreisatz bei direkt proportionalen Zuordnungen“
+  - Typ: Graph zeichnen (Ursprungsgerade) und Werte ablesen – Mathematik 2023 Kl. 6, S. 150: „Graphen direkt proportionaler Zuordnungen“
+  - Typ: fester Faktor angeben (Preis je Einheit), Gleichung y = k · x – Mathematik 2023 Kl. 6, S. 151: „Proportionalitätsfaktor k“
+  - Typ: Graph zeichnen (Ursprungsgerade) und Werte ablesen – Mathematik 2023 Kl. 7, S. 13: „Graphen direkt proportionaler Zuordnungen“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Mathematik 2023 Kl. 7, S. 14: „Der Dreisatz bei direkt proportionalen Zuordnungen“
+  - Typ: fester Faktor angeben (Preis je Einheit), Gleichung y = k · x – Mathematik 2023 Kl. 7, S. 15: „Proportionalitätsfaktor k“
+  - Typ: Verhältnisgleichung aufstellen (Vorrat) – Mathematik 2023 Kl. 7, S. 17: „Die Verhältnisgleichung bei direkt proportionalen Zuordnungen“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Mathematik heute Kl. 6, S. 154: „Direkt proportionale Zuordnungen - Dreisatz“
+  - Typ: Graph zeichnen (Ursprungsgerade) und Werte ablesen – Sekundo Kl. 7, S. 35: „Grafische Darstellungen bei proportionalen Zuordnungen“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Sekundo Kl. 7, S. 38: „Dreisatz bei proportionalen und antiproportionalen Zuordnungen“
+  - Typ: Graph zeichnen (Ursprungsgerade) und Werte ablesen – Schnittpunkt Kl. 6, S. 190: „3 Schaubilder proportionaler Zuordnungen“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Schnittpunkt Kl. 6, S. 195: „5 Dreisatz“
+  - Typ: auf eine Portion runterrechnen, dann hochrechnen (Dreisatz, Minitabelle) – Schnittpunkt Kl. 7, S. 161: „5 Dreisatz bei proportionalen Zuordnungen“
+  - Typ: Verhältnisgleichung aufstellen (Vorrat) – Schnittpunkt Kl. 8, S. 26: „EXTRA: Verhältnisgleichungen“
+  - Marken: Elemente Kl. 7 (Ausgabe 2016): „Direkt proportionale Zuordnungen (Wiederholung)“; Sekundo Kl. 7: „LVL: D reisatz“; Schnittpunkt Kl. 8: „EXTRA: Verhältnisgleichungen“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 5: „Zweisatz“ (Z. 315)
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 6: „Proportionale Zuordnungen“ (Z. 316)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 18: „Proportionale Zuordnungen“ (Z. 149)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 4: „Dreisatz bei proportionalen Zuordnungen“ (Z. 404)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Direkt proportionale Zuordnungen“ (Z. 24)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 42: „Proportionale Zuordnungen“ (Z. 296)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 45: „Dreisatz“ (Z. 299)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 38: „Dreisatz bei proportionalen Zuordnungen“ (Z. 83)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 10: „Proportionalität - Dreisatz (Schülerband Seite 68 bis 103)“ (Z. 34)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6 (Sekundo 7, 8, Mathematik 2023 6, 7, Schnittpunkt 6, 7, 8, Mathematik heute 6, 7); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6–7 (LS 6, 7, Fundamente 7, Elemente 6, 7, mathe.delta 7); Streuung der Einführung: Fundamente 7 später als Kl. 6; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 3. Antiproportionale Zuordnungen
+  - Sekundo Kl. 7, S. 36: „Antiproportionale Zuordnungen“ (Z. 104)
+  - Sekundo Kl. 7, S. 38: „Dreisatz bei proportionalen und antiproportionalen Zuordnungen“ (Z. 108, 110)
+  - Sekundo Kl. 7, S. 49: „Antiproportionalität und Produktgleichheit“ (Z. 126)
+  - Sekundo Kl. 8, S. 9: „Antiproportionale Zuordnungen“ (Z. 223)
+  - Mathematik 2023 Kl. 6, S. 158: „Vertiefen: Indirekt proportionale Zuordnungen“ (Z. 284, 285)
+  - Mathematik 2023 Kl. 7, S. 19: „Indirekt proportionale Zuordnungen“ (Z. 64)
+  - Mathematik 2023 Kl. 7, S. 21: „Der Dreisatz bei indirekt proportionalen Zuordnungen“ (Z. 65, 66)
+  - Mathematik 2023 Kl. 7, S. 22: „Proportionalitätskonstante c“ (Z. 67)
+    Ermessen: Die Proportionalitätskonstante c ist das gleichbleibende Produkt; als Typ „Produkt prüfen“ gelesen.
+  - Mathematik 2023 Kl. 7, S. 23: „Graphen indirekt proportionaler Zuordnungen“ (Z. 68, 70)
+  - Schnittpunkt Kl. 6, S. 198: „EXTRA: Antiproportionale Zuordnungen“ (Z. 298)
+  - Schnittpunkt Kl. 7, S. 165: „6 Antiproportionale Zuordnungen“ (Z. 141)
+  - Schnittpunkt Kl. 7, S. 168: „7 Dreisatz bei antiproportionalen Zuordnungen“ (Z. 142)
+  - Mathematik heute Kl. 7, S. 83: „Indirekt proportionale Zuordnungen - Dreisatz“ (Z. 103)
+  - LS Kl. 7: „Kapitel II Zuordnungen“ (Z. 122) › „4 Antiproportionale Zuordnungen“ (Z. 126)
+  - Fundamente Kl. 7, S. 30: „1.5 Antiproportionale Zuordnungen“ (Z. 25)
+  - Fundamente Kl. 7, S. 34: „1.6 Dreisatz für antiproportionaleZuordnungen“ (Z. 26)
+  - Fundamente 2017 Kl. 7, S. 28: „1.4 Antiproportionale Zuordnungen“ (Z. 42)
+  - Fundamente 2017 Kl. 7, S. 32: „1.5 Dreisatz“ (Z. 43)
+  - Fundamente 2017 Kl. 8, S. 82: „Streifzug: Antiproportionale Funktionen“ (Z. 172)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 25: „Zueinander indirekt proportionale Größen - indirekt proportionale Zuordnungen“ (Z. 81, 82)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 29: „Zum Se.bstlernen Dreisatz bei indirekt proportionalen Zuordnungen“ (Z. 83, 84)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 36: „Produktgleichheit bei indirekt proportionalen Zuordnungen — Gesamtgröße“ (Z. 88, 89)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 46: „2.5 Indirekt proportionale Zuordnungen“ (Z. 858)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 48: „2.6 Dreisatz - indirekt proportional“ (Z. 859)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 50: „2.7 Produktgleichheit - Gesamtgröße“ (Z. 860)
+  - mathe.delta Kl. 7, S. 64: „2.3 I n d e k t p r o p o r t i o n a l“ (Z. 90)
+    Ermessen: Zeile verstümmelt; als 2.3 „Indirekt proportionale Zuordnungen“ gelesen.
+  - Typ: Dreisatz umgekehrt (auf eine Einheit hochrechnen, dann runter) – Elemente Kl. 7 (Ausgabe 2025), S. 48: „2.6 Dreisatz - indirekt proportional“
+  - Typ: Produkt prüfen (x · y gleich) – Elemente Kl. 7 (Ausgabe 2025), S. 50: „2.7 Produktgleichheit - Gesamtgröße“
+  - Typ: Dreisatz umgekehrt (auf eine Einheit hochrechnen, dann runter) – Elemente Kl. 7 (Ausgabe 2016), S. 29: „Zum Se.bstlernen Dreisatz bei indirekt proportionalen Zuordnungen“
+  - Typ: Produkt prüfen (x · y gleich) – Elemente Kl. 7 (Ausgabe 2016), S. 36: „Produktgleichheit bei indirekt proportionalen Zuordnungen — Gesamtgröße“
+  - Typ: Dreisatz umgekehrt (auf eine Einheit hochrechnen, dann runter) – Fundamente Kl. 7, S. 34: „1.6 Dreisatz für antiproportionaleZuordnungen“
+  - Typ: Dreisatz umgekehrt (auf eine Einheit hochrechnen, dann runter) – Mathematik 2023 Kl. 7, S. 21: „Der Dreisatz bei indirekt proportionalen Zuordnungen“
+  - Typ: Produkt prüfen (x · y gleich) – Mathematik 2023 Kl. 7, S. 22: „Proportionalitätskonstante c“
+  - Typ: Graph als fallende Kurve, Werte ablesen – Mathematik 2023 Kl. 7, S. 23: „Graphen indirekt proportionaler Zuordnungen“
+  - Typ: Dreisatz umgekehrt (auf eine Einheit hochrechnen, dann runter) – Mathematik heute Kl. 7, S. 83: „Indirekt proportionale Zuordnungen - Dreisatz“
+  - Typ: Dreisatz umgekehrt (auf eine Einheit hochrechnen, dann runter) – Sekundo Kl. 7, S. 38: „Dreisatz bei proportionalen und antiproportionalen Zuordnungen“
+  - Typ: Produkt prüfen (x · y gleich) – Sekundo Kl. 7, S. 49: „Antiproportionalität und Produktgleichheit“
+  - Typ: Dreisatz umgekehrt (auf eine Einheit hochrechnen, dann runter) – Schnittpunkt Kl. 7, S. 168: „7 Dreisatz bei antiproportionalen Zuordnungen“
+  - Marken: Elemente Kl. 7 (Ausgabe 2016): „Zum Se.bstlernen Dreisatz bei indirekt proportionalen Zuordnungen“; Fundamente 2017 Kl. 8: „Streifzug: Antiproportionale Funktionen“; Mathematik 2023 Kl. 6: „Vertiefen: Indirekt proportionale Zuordnungen“; Schnittpunkt Kl. 6: „EXTRA: Antiproportionale Zuordnungen“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 20: „Antiproportionale Zuordnungen“ (Z. 151)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 7: „Dreisatz bei antiproportionalen Zuordnungen“ (Z. 407)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Indirekt proportionale Zuordnungen“ (Z. 27)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 40: „Dreisatz bei antiproportionalen Zuordnungen“ (Z. 85)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 10: „Proportionalität - Dreisatz (Schülerband Seite 68 bis 103)“ (Z. 34)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6–7 (Sekundo 7, 8, Mathematik 2023 6, 7, Schnittpunkt 6, 7, Mathematik heute 7); Streuung der Einführung: Mathematik heute 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 4. Zuordnungstypen erkennen und anwenden
+  - Sekundo Kl. 7, S. 43: „Stundenlohn und Stückpreis“ (Z. 116)
+  - Sekundo Kl. 7, S. 44: „LVL: Weg, Zeit, Geschwindigkeit“ (Z. 118)
+  - Sekundo Kl. 7, S. 48: „Proportionalität und Quotientengleichheit“ (Z. 124)
+  - Sekundo Kl. 8, S. 12: „Geschwindigkeit“ (Z. 229)
+  - Mathematik 2023 Kl. 7, S. 24: „Direkt und indirekt proportionale Zuordnungen“ (Z. 71, 72)
+  - Schnittpunkt: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 7: „Kapitel II Zuordnungen“ (Z. 122) › „5 Zuordnungstypen erkennen und nutzen“ (Z. 127)
+  - Fundamente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 31: „Quotientengleichheit bei direkt proportionalen Zuordnungen - Proportionalitätsfaktor“ (Z. 85, 86)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 39: „Modellieren mit direkt proportionalen und indirekt proportiona- len Zuordnungen“ (Z. 90, 91)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 52: „2.8 Zuordnungen anwenden“ (Z. 861)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Zuordnungstyp aus Tabelle (Quotient oder Produkt prüfen) – Elemente Kl. 7 (Ausgabe 2016), S. 31: „Quotientengleichheit bei direkt proportionalen Zuordnungen - Proportionalitätsfaktor“
+  - Typ: Kosten aus Menge und Preis je Einheit – Sekundo Kl. 7, S. 43: „Stundenlohn und Stückpreis“
+  - Typ: Geschwindigkeit aus Weg und Zeit mit Einheitenwechsel – Sekundo Kl. 7, S. 44: „LVL: Weg, Zeit, Geschwindigkeit“
+  - Typ: Zuordnungstyp aus Tabelle (Quotient oder Produkt prüfen) – Sekundo Kl. 7, S. 48: „Proportionalität und Quotientengleichheit“
+  - Typ: Geschwindigkeit aus Weg und Zeit mit Einheitenwechsel – Sekundo Kl. 8, S. 12: „Geschwindigkeit“
+  - Marken: Sekundo Kl. 7: „LVL: Weg, Zeit, Geschwindigkeit“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 9: „Weg, Zeit, Geschwindigkeit“ (Z. 409)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Direkt und indirekt proportionale Zuordnungen“ (Z. 30)
+  - OS: Kl. 7 (Sekundo 7, 8, Mathematik 2023 7, Schnittpunkt –, Mathematik heute –)
+  - GYM: Kl. 7 (LS 7, Fundamente –, Elemente 7, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 6, GYM Kl. 6–7; Einheit 2: OS Kl. 6, GYM Kl. 6–7; Einheit 3: OS Kl. 6–7, GYM Kl. 7)
+- Boden: ja
+- Ermessen (4):
+  - Einheit 1, Mathematik 2023 Kl. 7: Weg und Zeit als Weg-Zeit-Darstellung (Einheit 1) gelesen, nicht als Geschwindigkeitsrechnung.
+  - Einheit 3, Mathematik 2023 Kl. 7: Die Proportionalitätskonstante c ist das gleichbleibende Produkt; als Typ „Produkt prüfen“ gelesen.
+  - Einheit 3, mathe.delta Kl. 7: Zeile verstümmelt; als 2.3 „Indirekt proportionale Zuordnungen“ gelesen.
+  - Einheiten 2, 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Proportionalität - Dreisatz (Schülerband Seite 68 bis 103)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### terme – Klasse 7 (Terme mit einer Variablen, Zusammenfassen, Klammern, Ausklammern), Gymnasium E–F, Oberschule D–E; Terme mit mehreren Variablen, Summe mal Summe und binomische Formeln (Kl. 8, LS-AA Kl. 8 II) → binomische-formeln.md.
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Terme aufstellen und berechnen
+  - Sekundo Kl. 7, S. 173: „Terme m it Variablen“ (Z. 154)
+  - Sekundo Kl. 8, S. 46: „Aufstellen und Berechnen von Termen“ (Z. 293)
+  - Mathematik 2023 Kl. 6, S. 210: „Terme mit Variablen“ (Z. 357)
+  - Mathematik 2023 Kl. 6, S. 213: „Terme und Gleichungen in der Geometrie“ (Z. 363)
+  - Mathematik 2023 Kl. 8, S. 9: „Terme“ (Z. 231)
+    Ermessen: „Terme“ ohne Zusatz als Einstieg Terme aufstellen und berechnen gelesen.
+  - Schnittpunkt Kl. 6, S. 146: „1 Terme mit Variablen“ (Z. 264)
+  - Schnittpunkt Kl. 6, S. 148: „2 Terme aufstellen und berechnen“ (Z. 265)
+  - Schnittpunkt Kl. 7, S. 84: „1 Terme und Variablen“ (Z. 89)
+  - Mathematik heute Kl. 7, S. 176: „Aufstellen und Berechnen von Termen“ (Z. 77)
+  - LS Kl. 6: „Kapitel VI Beziehungen zwischen Zahlen“ (Z. 88) › „2 Abhängigkeiten mit Termen beschreiben“ (Z. 90)
+    Ermessen: „Abhängigkeiten mit Termen beschreiben“ als Term zu einem Sachverhalt aufstellen gelesen.
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „1 Terme mit einer Variablen“ (Z. 116)
+  - Fundamente Kl. 5, S. 69: „Streifzug: Variablen und Terme“ (Z. 63)
+    Ermessen: Streifzug „Variablen und Terme“ (Kl. 5) als erste Begegnung mit Termen mit Variablen gelesen.
+  - Fundamente Kl. 7, S. 160: „5.1 Variablen und Terme“ (Z. 85)
+  - Fundamente 2017 Kl. 7, S. 112: „4.1 Grundbegriffe“ (Z. 80)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 158: „8.1 Zahlenfolgen und Terme“ (Z. 813)
+    Ermessen: „Zahlenfolgen und Terme“ (Kl. 6) als Terme mit Variablen aufstellen gelesen.
+  - Elemente Kl. 7 (Ausgabe 2025), S. 86: „4.1 Terme mit einer Variablen“ (Z. 879)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 15: „1.1 Aufstellen eines Terms mit Variablen“ (Z. 234)
+    Ermessen: Im Kapitel „Terme mit mehreren Variablen“ (Kl. 8): Aufstellen von Termen als Einheit 1 von terme gelesen.
+  - mathe.delta Kl. 7, S. 100: „3.1 Term esinden“ (Z. 106)
+    Ermessen: „Term esinden“ = „Terme finden“ (Texterkennung): Terme aufstellen.
+  - mathe.delta Kl. 8, S. 48: „2.1 Terme aufstellen und vereinfachen“ (Z. 215)
+  - Typ: Term zu Figur angeben (Umfang, Fläche aus Rechtecken) – Mathematik 2023 Kl. 6, S. 213: „Terme und Gleichungen in der Geometrie“
+  - Marken: Fundamente Kl. 5: „Streifzug: Variablen und Terme“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 33: „Terme mit Variablen“ (Z. 283)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 20: „Terme und Variablen“ (Z. 59)
+  - OS: Kl. 6–7 (Sekundo 7, 8, Mathematik 2023 6, 8, Schnittpunkt 6, 7, Mathematik heute 7); Streuung der Einführung: Mathematik heute 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5–6 (LS 6, 7, Fundamente 5, 7, Elemente 6, 7, 8, mathe.delta 7, 8); Streuung der Einführung: LS 6, Elemente 6 später als Kl. 5; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Terme zusammenfassen
+  - Sekundo Kl. 7, S. 178: „LVL: Terme vereinfachen“ (Z. 166)
+  - Sekundo Kl. 7, S. 179: „Ordnen und Zusammenfassen“ (Z. 168)
+  - Mathematik 2023 Kl. 8, S. 12: „Terme mit Variablen ordnen und zusam menfassen“ (Z. 233, 234)
+  - Schnittpunkt Kl. 7, S. 87: „2 Terme addieren und subtrahieren“ (Z. 90)
+  - Schnittpunkt Kl. 7, S. 90: „3 Terme multiplizieren und dividieren“ (Z. 91)
+  - Mathematik heute Kl. 8, S. 40: „Termumformungen“ (Z. 149)
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „2 Terme mit einer Variablen umformen“ (Z. 117)
+  - Fundamente Kl. 7, S. 164: „5.2 Terme vereinfachen“ (Z. 86)
+  - Fundamente 2017 Kl. 7, S. 114: „4.2 Terme vereinfachen“ (Z. 81)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 90: „4.2 Zusammenfassen von Termen“ (Z. 881)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 26: „1.3 Addieren und Subtrahieren von Termen“ (Z. 237)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 35: „1.4 Multiplizieren und Dividieren von Termen“ (Z. 240)
+  - mathe.delta Kl. 7, S. 102: „3.2 Termevereinfachen“ (Z. 107)
+  - mathe.delta Kl. 7, S. 104: „3.3 Terme multiplizieren und dividieren“ (Z. 108)
+  - mathe.delta Kl. 8, S. 48: „2.1 Terme aufstellen und vereinfachen“ (Z. 215)
+  - Typ: gleichartige Glieder zusammenfassen – Elemente Kl. 8 (Ausgabe 2016), S. 26: „1.3 Addieren und Subtrahieren von Termen“
+  - Typ: Term mal Term (x · x = x²) – Elemente Kl. 8 (Ausgabe 2016), S. 35: „1.4 Multiplizieren und Dividieren von Termen“
+  - Typ: gleichartige Glieder zusammenfassen – Mathematik 2023 Kl. 8, S. 12: „Terme mit Variablen ordnen und zusam menfassen“
+  - Typ: gleichartige Glieder zusammenfassen – mathe.delta Kl. 7, S. 102: „3.2 Termevereinfachen“
+  - Typ: Zahl mal Term – mathe.delta Kl. 7, S. 104: „3.3 Terme multiplizieren und dividieren“
+  - Typ: gleichartige Glieder zusammenfassen – Sekundo Kl. 7, S. 179: „Ordnen und Zusammenfassen“
+  - Typ: gleichartige Glieder zusammenfassen – Schnittpunkt Kl. 7, S. 87: „2 Terme addieren und subtrahieren“
+  - Typ: Zahl mal Term – Schnittpunkt Kl. 7, S. 90: „3 Terme multiplizieren und dividieren“
+  - Marken: Sekundo Kl. 7: „LVL: Terme vereinfachen“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 25: „Zusammenfassen“ (Z. 427)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 3: „Terme mit Variablen ordnen und zusammenfassen“ (Z. 102)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 21: „Terme addieren und subtrahieren“ (Z. 60)
+  - OS: Kl. 7–8 (Sekundo 7, Mathematik 2023 8, Schnittpunkt 7, Mathematik heute 8); Streuung der Einführung: Mathematik 2023 8, Mathematik heute 8 später als Kl. 7
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, 8, mathe.delta 7, 8)
+- 3. Klammern auflösen
+  - Sekundo Kl. 8, S. 58: „Terme und Gleichungen m it K lam m ern“ (Z. 232)
+  - Sekundo Kl. 8, S. 59: „Ausmultiplizieren und Ausklammern“ (Z. 234)
+  - Mathematik 2023 Kl. 8, S. 14: „Terme mit Klammern“ (Z. 235)
+  - Schnittpunkt Kl. 7, S. 93: „4 Terme mit Plus- und Minusklammern“ (Z. 92)
+  - Schnittpunkt Kl. 7, S. 95: „5 Terme ausmultiplizieren“ (Z. 93)
+  - Schnittpunkt Kl. 8, S. 8: „1 Ausmultiplizieren. Ausklammern“ (Z. 204)
+  - Mathematik heute Kl. 8, S. 45: „Terme mit Klammern“ (Z. 150)
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „3 Ausmultiplizieren und Ausklammern“ (Z. 118)
+  - Fundamente Kl. 8, S. 43: „2.5 Ausmultiplizieren einer Klammer“ (Z. 166)
+  - Fundamente 2017 Kl. 8, S. 102: „4.3 Ausmultiplizieren einer Klammer“ (Z. 182)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 93: „4.4 Umformen von Termen“ (Z. 883)
+    Ermessen: „Umformen von Termen“ nach dem Zusammenfassen als Klammern auflösen und ausklammern (Einheiten 3 und 4) gelesen.
+  - Elemente Kl. 8 (Ausgabe 2016), S. 40: „1.5 Auflösen einer Klammer“ (Z. 241)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 47: „Minuszeichen vor einer Klammer“ (Z. 242)
+  - mathe.delta Kl. 7, S. 106: „3.4 Terme mit Klammern auflösen“ (Z. 109)
+  - mathe.delta Kl. 8, S. 50: „2.2 Terme um form en“ (Z. 216)
+    Ermessen: „Terme umformen“ (Kl. 8) als Klammern auflösen und ausklammern gelesen.
+  - Typ: Zahl mal Klammer – Elemente Kl. 8 (Ausgabe 2016), S. 40: „1.5 Auflösen einer Klammer“
+  - Typ: Minusklammer (alle Vorzeichen drehen) – Elemente Kl. 8 (Ausgabe 2016), S. 47: „Minuszeichen vor einer Klammer“
+  - Typ: Zahl mal Klammer – Fundamente Kl. 8, S. 43: „2.5 Ausmultiplizieren einer Klammer“
+  - Typ: Zahl mal Klammer – Sekundo Kl. 8, S. 59: „Ausmultiplizieren und Ausklammern“
+  - Typ: Zahl mal Klammer – Schnittpunkt Kl. 7, S. 95: „5 Terme ausmultiplizieren“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 23: „Terme mit Plus- und Minusklammern“ (Z. 62)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 3: „Ausmultiplizieren. Ausklammern“ (Z. 317)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 4: „Terme und Gleichungen mit Klammern (Schülerband Seite 6 bis 45)“ (Z. 44)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–8 (Sekundo 8, Mathematik 2023 8, Schnittpunkt 7, 8, Mathematik heute 8); Streuung der Einführung: Sekundo 8, Mathematik 2023 8, Mathematik heute 8 später als Kl. 7
+  - GYM: Kl. 7–8 (LS 7, Fundamente 8, Elemente 7, 8, mathe.delta 7, 8); Streuung der Einführung: Fundamente 8 später als Kl. 7
+- 4. Ausklammern
+  - Sekundo Kl. 8, S. 59: „Ausmultiplizieren und Ausklammern“ (Z. 234)
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 8, S. 8: „1 Ausmultiplizieren. Ausklammern“ (Z. 204)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „3 Ausmultiplizieren und Ausklammern“ (Z. 118)
+  - Fundamente Kl. 8, S. 46: „2.6 Ausklammern“ (Z. 167)
+  - Fundamente 2017 Kl. 8, S. 106: „4.4 Ausklammern“ (Z. 183)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 93: „4.4 Umformen von Termen“ (Z. 883)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 49: „1.7 Ausklammern“ (Z. 243)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 3: „Ausmultiplizieren. Ausklammern“ (Z. 317)
+  - OS: Kl. 8 (Sekundo 8, Mathematik 2023 –, Schnittpunkt 8, Mathematik heute –)
+  - GYM: Kl. 7–8 (LS 7, Fundamente 8, Elemente 7, 8, mathe.delta –); Streuung der Einführung: Fundamente 8 später als Kl. 7
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 6–7, GYM Kl. 5–6; Einheit 2: OS Kl. 7–8, GYM Kl. 7; Einheit 4: OS Kl. 8, GYM Kl. 7–8)
+- Boden: ja
+- Ermessen (9):
+  - Einheit 1, Mathematik 2023 Kl. 8: „Terme“ ohne Zusatz als Einstieg Terme aufstellen und berechnen gelesen.
+  - Einheit 1, LS Kl. 6: „Abhängigkeiten mit Termen beschreiben“ als Term zu einem Sachverhalt aufstellen gelesen.
+  - Einheit 1, Fundamente Kl. 5: Streifzug „Variablen und Terme“ (Kl. 5) als erste Begegnung mit Termen mit Variablen gelesen.
+  - Einheit 1, Elemente Kl. 6 (Ausgabe 2025): „Zahlenfolgen und Terme“ (Kl. 6) als Terme mit Variablen aufstellen gelesen.
+  - Einheit 1, Elemente Kl. 8 (Ausgabe 2016): Im Kapitel „Terme mit mehreren Variablen“ (Kl. 8): Aufstellen von Termen als Einheit 1 von terme gelesen.
+  - Einheit 1, mathe.delta Kl. 7: „Term esinden“ = „Terme finden“ (Texterkennung): Terme aufstellen.
+  - Einheit 3, Elemente Kl. 7 (Ausgabe 2025): „Umformen von Termen“ nach dem Zusammenfassen als Klammern auflösen und ausklammern (Einheiten 3 und 4) gelesen.
+  - Einheit 3, mathe.delta Kl. 8: „Terme umformen“ (Kl. 8) als Klammern auflösen und ausklammern gelesen.
+  - Einheit 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Terme und Gleichungen mit Klammern (Schülerband Seite 6 bis 45)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### lineare-gleichungen – Klasse 7/8, Gymnasium E (Äquivalenzumformungen, Probe, Lösbarkeit) und F (Gleichungen mit Klammern), Oberschule E–F. [RLP] „Lösen linearer Gleichungen durch systematisches Probieren, grafisch und durch Äquivalenzumformungen", „Prüfen einer Lösung durch Einsetzen", „Untersuchen von Fragen der Lösbarkeit und Lösungsvielfalt" (E); „Lösen von linearen Gleichungen (auch mit Klammern)" (F).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Gleichungen verstehen
+  - Sekundo Kl. 7, S. 175: „Lösen von Gleichungen“ (Z. 156)
+  - Sekundo Kl. 7, S. 176: „Lösen von Gleichungen m it Tabellen kalkulation“ (Z. 158, 160)
+    Ermessen: Tabellenkalkulation als systematisches Probieren gelesen.
+  - Sekundo Kl. 7, S. 177: „Lösen von Gleichungen m it Umkehroperatoren“ (Z. 162, 164)
+  - Mathematik 2023 Kl. 6, S. 211: „Gleichungen lösen“ (Z. 359)
+  - Schnittpunkt Kl. 6, S. 152: „3 Gleichungen“ (Z. 267)
+  - Schnittpunkt Kl. 7, S. 106: „1 Gleichungen durch Probieren lösen“ (Z. 105)
+  - Mathematik heute Kl. 5, S. 47 (Seite des Lösungsbands): „Gleichungen und Ungleichungen“ (Z. 74)
+    Ermessen: Gleichungen im Kapitel „Rechnen mit natürlichen Zahlen“ (Kl. 5) als Lösen durch Probieren und Umkehroperation (Einheit 1) gelesen.
+  - Mathematik heute Kl. 6, S. 109: „Gleichungen mit gebrochenen Zahlen“ (Z. 159)
+    Ermessen: Gleichungen mit Brüchen und Dezimalzahlen (Kl. 6) als Lösen mit Umkehroperation (Einheit 1) gelesen.
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „4 Gleichungen aufstellen und lösen“ (Z. 119)
+    Ermessen: „Gleichungen aufstellen und lösen“ vor den Äquivalenzumformungen als Lösen durch Probieren und Umkehroperation (Einheit 1) gelesen.
+  - Fundamente Kl. 7, S. 167: „5.3 Gleichungen“ (Z. 87)
+  - Fundamente 2017 Kl. 7, S. 120: „4.3 Gleichungen“ (Z. 83)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 164: „8.2 Gleichungen“ (Z. 815)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 169: „5.1 Variable und Gleichung“ (Z. 163)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 100: „5.1 Gleichungen“ (Z. 890)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 5
+  - Typ: Lösung durch Probieren finden – Sekundo Kl. 7, S. 176: „Lösen von Gleichungen m it Tabellen kalkulation“
+  - Typ: Gleichung mit Umkehroperation lösen – Sekundo Kl. 7, S. 177: „Lösen von Gleichungen m it Umkehroperatoren“
+  - Typ: Lösung durch Probieren finden – Schnittpunkt Kl. 7, S. 106: „1 Gleichungen durch Probieren lösen“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 35: „Gleichungen“ (Z. 285)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 25: „Gleichungen durch Probieren lösen“ (Z. 66)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 31: „Lösen von Gleichungen (Schülerband Seite 166 bis 193)“ (Z. 37)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5–6 (Sekundo 7, Mathematik 2023 6, Schnittpunkt 6, 7, Mathematik heute 5, 6); Streuung der Einführung: Mathematik 2023 6, Schnittpunkt 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6–7 (LS 7, Fundamente 7, Elemente 6, 7, mathe.delta –); Streuung der Einführung: LS 7, Fundamente 7 später als Kl. 6
+- 2. Äquivalenzumformungen
+  - Sekundo Kl. 7, S. 184: „Lösen von Gleichungen durch Umformen“ (Z. 176)
+  - Sekundo Kl. 8, S. 48: „Lösen von linearen Gleichungen durch U m form en“ (Z. 295, 297)
+  - Mathematik 2023 Kl. 8, S. 21: „Waagen im Gleichgewicht“ (Z. 240)
+    Ermessen: Waagemodell als Einführung der Äquivalenzumformungen gelesen.
+  - Mathematik 2023 Kl. 8, S. 23: „Gleichungen mit x auf einer Seite“ (Z. 241)
+  - Schnittpunkt Kl. 7, S. 109: „2 Gleichungen durch Umformen lösen“ (Z. 106)
+  - Mathematik heute Kl. 7, S. 181: „Lösen von Gleichungen“ (Z. 78)
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „5 Gleichungen mit Äquivalenzumformungen lösen“ (Z. 120)
+  - Fundamente Kl. 7, S. 172: „5.4 Äquivalenzumformungen“ (Z. 89)
+  - Fundamente 2017 Kl. 7, S. 125: „4.4 Äquivalenzumformungen“ (Z. 85)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 173: „5.2 Lösen von Gleichungen durch Umformen“ (Z. 164)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 102: „5.2 Gleichungen systematisch lösen“ (Z. 891)
+  - mathe.delta Kl. 7, S. 108: „3.5 Gleichungen lösen“ (Z. 110)
+  - mathe.delta Kl. 7, S. 110: „3.6 Gleichungen u m fo rm e n“ (Z. 111)
+  - Marken: keine
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 74: „Gleichungen mit dem Waagemodell lösen“ (Z. 211)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 24: „Lösen von Gleichungen durch Umformen“ (Z. 426)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 6: „Gleichungen mit x auf einer Seite“ (Z. 104)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 26: „Gleichungen durch Umformen lösen“ (Z. 67)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 31: „Lösen von Gleichungen (Schülerband Seite 166 bis 193)“ (Z. 37)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–8 (Sekundo 7, 8, Mathematik 2023 8, Schnittpunkt 7, Mathematik heute 7); Streuung der Einführung: Mathematik 2023 8 später als Kl. 7
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
+- 3. Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen. (Kl. 8)
+  - Sekundo Kl. 7, S. 183: „LVL: Gleichungen m it der Variablen auf beiden Seiten“ (Z. 173, 175)
+  - Sekundo Kl. 8, S. 58: „Terme und Gleichungen m it K lam m ern“ (Z. 232)
+  - Mathematik 2023 Kl. 8, S. 25: „Gleichungen mit x auf beiden Seiten“ (Z. 242)
+  - Mathematik 2023 Kl. 8, S. 26: „Gleichungen mit Klammern“ (Z. 243)
+  - Schnittpunkt Kl. 7, S. 113: „3 Gleichungen mit Klammern“ (Z. 107)
+  - Schnittpunkt Kl. 8, S. 18: „5 Gleichungen“ (Z. 209)
+    Ermessen: „Gleichungen“ in Kl. 8 zwischen Faktorisieren und „Gleichungen mit Klammern“ als Gleichungen mit x auf beiden Seiten (Einheit 3) gelesen.
+  - Schnittpunkt Kl. 8, S. 20: „6 Gleichungen mit Klammern“ (Z. 210)
+  - Mathematik heute Kl. 8, S. 51: „Lösen von Gleichungen“ (Z. 151)
+    Ermessen: „Lösen von Gleichungen“ in Kl. 8 nach „Terme mit Klammern“ als Gleichungen mit Klammern und x auf beiden Seiten (Einheit 3) gelesen.
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „5 Gleichungen mit Äquivalenzumformungen lösen“ (Z. 120)
+    Ermessen: Die Lerneinheit Äquivalenzumformungen umfasst auch x auf beiden Seiten und Klammern (Einheit 3); beide zugeordnet.
+  - Fundamente Kl. 7, S. 176: „5.5 Sonderfälle beim Lösen von Gleichungen“ (Z. 90)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 178: „Zum Selbstlernen Lösen einfacher Gleichungen des Typs a ٠x = b ٠x + c“ (Z. 167, 168)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 180: „5.2.3 Lösen von Gleichungen mit Zusammenfassen von Vielfachen einer Variablen“ (Z. 169, 170)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 184: „5.3 Sonderfälle bei der Lösung“ (Z. 171)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 108: „5.4 Lösungsmengen“ (Z. 893)
+  - mathe.delta Kl. 8, S. 58: „2.4 Gleichungen lösen“ (Z. 218)
+    Ermessen: „Gleichungen lösen“ in Kl. 8 nach den Termumformungen als Gleichungen mit Klammern und x auf beiden Seiten (Einheit 3) gelesen.
+  - mathe.delta Kl. 8, S. 62: „2.5 Besondere G le ic h u n g e n“ (Z. 219)
+    Ermessen: „Besondere Gleichungen“ als Sonderfälle keine/alle Lösungen gelesen.
+  - Typ: keine Lösung / alle Zahlen – Elemente Kl. 7 (Ausgabe 2025), S. 108: „5.4 Lösungsmengen“
+  - Typ: x beidseitig – Elemente Kl. 7 (Ausgabe 2016), S. 178: „Zum Selbstlernen Lösen einfacher Gleichungen des Typs a ٠x = b ٠x + c“
+  - Typ: erst zusammenfassen – Elemente Kl. 7 (Ausgabe 2016), S. 180: „5.2.3 Lösen von Gleichungen mit Zusammenfassen von Vielfachen einer Variablen“
+  - Typ: keine Lösung / alle Zahlen – Elemente Kl. 7 (Ausgabe 2016), S. 184: „5.3 Sonderfälle bei der Lösung“
+  - Typ: keine Lösung / alle Zahlen – Fundamente Kl. 7, S. 176: „5.5 Sonderfälle beim Lösen von Gleichungen“
+  - Typ: x beidseitig – Mathematik 2023 Kl. 8, S. 25: „Gleichungen mit x auf beiden Seiten“
+  - Typ: Klammer auflösen (Plus, Minus, Zahl mal Klammer) – Mathematik 2023 Kl. 8, S. 26: „Gleichungen mit Klammern“
+  - Typ: keine Lösung / alle Zahlen – mathe.delta Kl. 8, S. 62: „2.5 Besondere G le ic h u n g e n“
+  - Typ: x beidseitig – Sekundo Kl. 7, S. 183: „LVL: Gleichungen m it der Variablen auf beiden Seiten“
+  - Typ: Klammer auflösen (Plus, Minus, Zahl mal Klammer) – Sekundo Kl. 8, S. 58: „Terme und Gleichungen m it K lam m ern“
+  - Typ: Klammer auflösen (Plus, Minus, Zahl mal Klammer) – Schnittpunkt Kl. 7, S. 113: „3 Gleichungen mit Klammern“
+  - Typ: Klammer auflösen (Plus, Minus, Zahl mal Klammer) – Schnittpunkt Kl. 8, S. 20: „6 Gleichungen mit Klammern“
+  - Marken: Elemente Kl. 7 (Ausgabe 2016): „Zum Selbstlernen Lösen einfacher Gleichungen des Typs a ٠x = b ٠x + c“; Sekundo Kl. 7: „LVL: Gleichungen m it der Variablen auf beiden Seiten“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 26: „Gleichungen mit der Variablen auf beiden Seiten“ (Z. 428)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 8: „Gleichungen mit x auf beiden Seiten“ (Z. 105)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 27: „Gleichungen mit Klammern“ (Z. 68)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 8: „Gleichungen mit Klammern (1)“ (Z. 322)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 4: „Terme und Gleichungen mit Klammern (Schülerband Seite 6 bis 45)“ (Z. 44)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–8 (Sekundo 7, 8, Mathematik 2023 8, Schnittpunkt 7, 8, Mathematik heute 8); Streuung der Einführung: Mathematik 2023 8, Mathematik heute 8 später als Kl. 7
+  - GYM: Kl. 7–8 (LS 7, Fundamente 7, Elemente 7, mathe.delta 8); Streuung der Einführung: mathe.delta 8 später als Kl. 7
+- 4. Gleichungen aufstellen
+  - Sekundo Kl. 7, S. 187: „LVL: Lösen von Sachaufgaben durch Gleichungen“ (Z. 178, 179)
+  - Sekundo Kl. 8, S. 57: „LVL: Formeln als spezielle Gleichungen“ (Z. 230)
+  - Sekundo Kl. 8, S. 61: „LVL: Zahlenrätsel“ (Z. 237)
+  - Sekundo Kl. 8, S. 176: „0 Gleichungen und Formeln“ (Z. 325)
+  - Mathematik 2023 Kl. 6, S. 212: „Zahlenrätsel“ (Z. 361)
+  - Mathematik 2023 Kl. 6, S. 213: „Terme und Gleichungen in der Geometrie“ (Z. 363)
+  - Mathematik 2023 Kl. 8, S. 30: „Geometrische Formeln“ (Z. 245)
+  - Mathematik 2023 Kl. 8, S. 38: „Üben: Gleichungen in der Geometrie“ (Z. 249)
+  - Schnittpunkt Kl. 7, S. 116: „4 M it Gleichungen Fragen beantworten“ (Z. 108)
+  - Schnittpunkt Kl. 8, S. 27: „7 Formeln“ (Z. 214)
+  - Mathematik heute Kl. 7, S. 189: „Losen von Sachaufgaben mithilfe einfacher Gleichungen“ (Z. 79, 80)
+  - Mathematik heute Kl. 8, S. 58: „Lösen von Sachaufgaben mithilfe von Gleichungen“ (Z. 152, 153)
+  - Mathematik heute Kl. 8, S. 60: „Umstellen von Formeln“ (Z. 154)
+  - LS Kl. 7: „Kapitel IV Terme und Gleichungen“ (Z. 115) › „7 Problemlösen mit Gleichungen“ (Z. 122)
+  - Fundamente Kl. 7, S. 178: „5.6 Mit Gleichungen modellieren“ (Z. 91)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 6
+  - Elemente Kl. 7 (Ausgabe 2016), S. 187: „5.4 Modellieren - Anwenden von Gleichungen“ (Z. 173)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 192: „5.6 Umstellen von Formeln“ (Z. 175)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 105: „5.3 Sachaufgaben“ (Z. 892)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 109: „5.5 Formeln umstellen“ (Z. 894)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 60: „1.11.1 Umformen von Formeln“ (Z. 248)
+  - mathe.delta Kl. 7: „3.7 Sachaufgaben Osen“ (Z. 112)
+    Ermessen: Zeile verstümmelt („Sachaufgaben Osen“ = „Sachaufgaben lösen“), Seitenzahl nicht lesbar.
+  - Typ: Formel umstellen – Elemente Kl. 7 (Ausgabe 2025), S. 109: „5.5 Formeln umstellen“
+  - Typ: Formel umstellen – Elemente Kl. 7 (Ausgabe 2016), S. 192: „5.6 Umstellen von Formeln“
+  - Typ: Formel umstellen – Elemente Kl. 8 (Ausgabe 2016), S. 60: „1.11.1 Umformen von Formeln“
+  - Typ: Zahlenrätsel – Mathematik 2023 Kl. 6, S. 212: „Zahlenrätsel“
+  - Typ: Geometrie (Umfang, Winkel) – Mathematik 2023 Kl. 6, S. 213: „Terme und Gleichungen in der Geometrie“
+  - Typ: Formel umstellen – Mathematik 2023 Kl. 8, S. 30: „Geometrische Formeln“
+  - Typ: Geometrie (Umfang, Winkel) – Mathematik 2023 Kl. 8, S. 38: „Üben: Gleichungen in der Geometrie“
+  - Typ: Formel umstellen – Mathematik heute Kl. 8, S. 60: „Umstellen von Formeln“
+  - Typ: Formel umstellen – Sekundo Kl. 8, S. 57: „LVL: Formeln als spezielle Gleichungen“
+  - Typ: Zahlenrätsel – Sekundo Kl. 8, S. 61: „LVL: Zahlenrätsel“
+  - Typ: Formel umstellen – Sekundo Kl. 8, S. 176: „0 Gleichungen und Formeln“
+  - Typ: Formel umstellen – Schnittpunkt Kl. 8, S. 27: „7 Formeln“
+  - Marken: Mathematik 2023 Kl. 8: „Üben: Gleichungen in der Geometrie“; Sekundo Kl. 7: „LVL: Lösen von Sachaufgaben durch Gleichungen“; Sekundo Kl. 8: „LVL: Formeln als spezielle Gleichungen“; Sekundo Kl. 8: „LVL: Zahlenrätsel“; Sekundo Kl. 8: Zeichen „0“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „0 Gleichungen und Formeln“
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 75: „Zahlenrätsel“ (Z. 212)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 29: „Gleichungen in der Geometrie“ (Z. 431)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 13: „Üben: Gleichungen in der Geometrie“ (Z. 107)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 28: „Mit Gleichungen Fragen beantworten“ (Z. 69)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 12: „Formeln (1)“ (Z. 326)
+  - OS: Kl. 6–7 (Sekundo 7, 8, Mathematik 2023 6, 8, Schnittpunkt 7, 8, Mathematik heute 7, 8); Streuung der Einführung: Schnittpunkt 7, Mathematik heute 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, 8, mathe.delta 7)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–6, GYM Kl. 6–7; Einheit 2: OS Kl. 7–8, GYM Kl. 7; Einheit 4: OS Kl. 6–7, GYM Kl. 7)
+- Boden: ja
+- Ermessen (13):
+  - Einheit 1, Sekundo Kl. 7: Tabellenkalkulation als systematisches Probieren gelesen.
+  - Einheit 1, Mathematik heute Kl. 5: Gleichungen im Kapitel „Rechnen mit natürlichen Zahlen“ (Kl. 5) als Lösen durch Probieren und Umkehroperation (Einheit 1) gelesen.
+  - Einheit 1, Mathematik heute Kl. 6: Gleichungen mit Brüchen und Dezimalzahlen (Kl. 6) als Lösen mit Umkehroperation (Einheit 1) gelesen.
+  - Einheit 1, LS Kl. 7: „Gleichungen aufstellen und lösen“ vor den Äquivalenzumformungen als Lösen durch Probieren und Umkehroperation (Einheit 1) gelesen.
+  - Einheit 2, Mathematik 2023 Kl. 8: Waagemodell als Einführung der Äquivalenzumformungen gelesen.
+  - Einheit 3, Schnittpunkt Kl. 8: „Gleichungen“ in Kl. 8 zwischen Faktorisieren und „Gleichungen mit Klammern“ als Gleichungen mit x auf beiden Seiten (Einheit 3) gelesen.
+  - Einheit 3, Mathematik heute Kl. 8: „Lösen von Gleichungen“ in Kl. 8 nach „Terme mit Klammern“ als Gleichungen mit Klammern und x auf beiden Seiten (Einheit 3) gelesen.
+  - Einheit 3, LS Kl. 7: Die Lerneinheit Äquivalenzumformungen umfasst auch x auf beiden Seiten und Klammern (Einheit 3); beide zugeordnet.
+  - Einheit 3, mathe.delta Kl. 8: „Gleichungen lösen“ in Kl. 8 nach den Termumformungen als Gleichungen mit Klammern und x auf beiden Seiten (Einheit 3) gelesen.
+  - Einheit 3, mathe.delta Kl. 8: „Besondere Gleichungen“ als Sonderfälle keine/alle Lösungen gelesen.
+  - Einheit 4, mathe.delta Kl. 7: Zeile verstümmelt („Sachaufgaben Osen“ = „Sachaufgaben lösen“), Seitenzahl nicht lesbar.
+  - Einheiten 1, 2, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Lösen von Gleichungen (Schülerband Seite 166 bis 193)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheit 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Terme und Gleichungen mit Klammern (Schülerband Seite 6 bis 45)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### lineare-funktionen – Klasse 8, Gymnasium F, Oberschule E–F (Kl. 9 bei D–E-Verlauf).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Proportionale Funktion
+  - Sekundo Kl. 8, S. 116: „Funktionen als spezielle Zuordnungen“ (Z. 313)
+  - Sekundo Kl. 8, S. 118: „Funktionen“ (Z. 314)
+  - Sekundo Kl. 9, S. 42: „LVL: Funktionen als eindeutige Zuordnungen“ (Z. 414, 415)
+  - Sekundo Kl. 9, S. 43: „Funktionen“ (Z. 416)
+  - Mathematik 2023 Kl. 8, S. 164: „Funktionen als eindeutige Zuordnungen“ (Z. 294)
+  - Mathematik 2023 Kl. 8, S. 165: „Funktionen im Koordinatensystem“ (Z. 295)
+  - Mathematik 2023 Kl. 8, S. 166: „Funktionsgleichung“ (Z. 296)
+  - Mathematik 2023 Kl. 8, S. 168: „Lineare Funktionen mit der Funktions- gleichungy = mx“ (Z. 299, 300)
+  - Schnittpunkt Kl. 8, S. 58: „1 Funktionen“ (Z. 238)
+  - Schnittpunkt Kl. 8, S. 62: „EXTRA: Nicht alle Zuordnungen sind Funktionen“ (Z. 240)
+  - Schnittpunkt Kl. 8, S. 63: „2 Funktionsgleichungen“ (Z. 241)
+  - Schnittpunkt Kl. 8, S. 66: „3 Steigung. Proportionale Funktionen“ (Z. 242)
+  - Mathematik heute Kl. 8, S. 222: „Funktionen als eindeutige Zuordnungen“ (Z. 184)
+  - Mathematik heute Kl. 9, S. 14: „Funktionen als eindeutige Zuordnungen“ (Z. 228)
+  - LS Kl. 8: „Kapitel I Lineare Funktionen“ (Z. 146) › „1 Funktionen“ (Z. 147)
+  - LS Kl. 8: „Kapitel I Lineare Funktionen“ (Z. 146) › „2 Funktionen mit der Gleichung y = m ⋅ x“ (Z. 148)
+  - Fundamente Kl. 8, S. 100: „4.1 Funktionen“ (Z. 192)
+  - Fundamente Kl. 8, S. 103: „4.2 Proportionale Funktionen“ (Z. 193)
+  - Fundamente 2017 Kl. 8, S. 56: „3.1 Funktionen“ (Z. 164)
+  - Fundamente 2017 Kl. 8, S. 59: „3.2 Proportionale Funktionen“ (Z. 165)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 73: „2.1 Funktionen als eindeutige Zuordnungen“ (Z. 258)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 83: „2.2 Lineare Funktionen mit der Funktionsgleichungy = m x“ (Z. 260)
+  - mathe.delta Kl. 8, S. 82: „3.1 Lineare Z uordnungen“ (Z. 229)
+  - mathe.delta Kl. 8, S. 84: „3.2 Zuordnungen und F u n k tio n e n“ (Z. 230)
+  - Marken: Sekundo Kl. 9: „LVL: Funktionen als eindeutige Zuordnungen“; Schnittpunkt Kl. 8: „EXTRA: Nicht alle Zuordnungen sind Funktionen“
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 59: „Graphen von Funktionen“ (Z. 159)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 19: „Funktionen“ (Z. 337)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 30: „Funktionen - Lineare Funktionen (Schülerband Seite 136 bis 167)“ (Z. 48)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Ermessen: Mathematik heute führt das Kapitel „Funktionen – Lineare Funktionen“ wortgleich in Band 8 (Kap. 9) und Band 9 (Kap. 1); beide Stellen stehen da, die Einführungsklasse der Reihe ist 8.
+  - OS: Kl. 8 (Sekundo 8, 9, Mathematik 2023 8, Schnittpunkt 8, Mathematik heute 8, 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 2. Lineare Funktion f(x) = m·x + n
+  - Sekundo Kl. 8, S. 120: „Lineare Funktionen“ (Z. 316)
+  - Sekundo Kl. 8, S. 122: „Sonderfälle linearer Funktionen“ (Z. 317)
+  - Sekundo Kl. 8, S. 124: „Steigung einer Geraden“ (Z. 319)
+  - Sekundo Kl. 8, S. 125: „Die Bedeutung von m und c bei Graphen zur Funktion y = mx + c“ (Z. 320, 321)
+  - Sekundo Kl. 9, S. 46: „Lineare Funktionen“ (Z. 420)
+  - Sekundo Kl. 9, S. 47: „Die Bedeutung von m und b bei Funktionen mit der Funktionsgleichung y = mx + b“ (Z. 421, 422)
+  - Sekundo Kl. 9, S. 48: „Änderungsraten“ (Z. 423)
+    Ermessen: „Änderungsraten“ im Kapitel Funktionen als Deutung der Steigung gelesen.
+  - Mathematik 2023 Kl. 8, S. 169: „Steigung und Steigungsdreiecke“ (Z. 301)
+  - Mathematik 2023 Kl. 8, S. 171: „Lineare Funktionen mit der Funktions- gleichungy = mx + n“ (Z. 302, 303)
+  - Schnittpunkt Kl. 8, S. 66: „3 Steigung. Proportionale Funktionen“ (Z. 242)
+    Ermessen: Die Steigung wird an der proportionalen Funktion eingeführt; Einheiten 1 und 2 zugeordnet.
+  - Schnittpunkt Kl. 8, S. 70: „4 Lineare Funktionen“ (Z. 243)
+  - Schnittpunkt Kl. 8, S. 74: „5 Parallele und senkrechte Geraden“ (Z. 244)
+  - Mathematik heute Kl. 8, S. 229: „Lineare Funktionen“ (Z. 185)
+  - Mathematik heute Kl. 8, S. 233: „Zeichnen der Graphen linearer Funktionen“ (Z. 186)
+  - Mathematik heute Kl. 9, S. 21: „Lineare Funktionen“ (Z. 229)
+  - Mathematik heute Kl. 9, S. 25: „Zeichnen der Graphen linearer Funktionen“ (Z. 230)
+  - LS Kl. 8: „Kapitel I Lineare Funktionen“ (Z. 146) › „3 Lineare Funktionen“ (Z. 149)
+  - Fundamente Kl. 8, S. 108: „4.3 Steigung“ (Z. 194)
+  - Fundamente Kl. 8, S. 112: „4.4 Lineare Funktionen“ (Z. 195)
+  - Fundamente 2017 Kl. 8, S. 64: „3.3 Steigung“ (Z. 166)
+  - Fundamente 2017 Kl. 8, S. 68: „3.4 Lineare Funktionen“ (Z. 167)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 89: „2.2.2 Steigung - Steigungsdreieck - Änderungsrate“ (Z. 262)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 96: „2.3 Lineare Funktionen mit der Funktionsgleichungy = mx + n“ (Z. 263)
+  - mathe.delta Kl. 8, S. 86: „3.3 Lineare Funktionen grafisch b e s tim m e n“ (Z. 231)
+  - Typ: m mit Steigungsdreieck ablesen (auch negativ, auch Bruch) – Elemente Kl. 8 (Ausgabe 2016), S. 89: „2.2.2 Steigung - Steigungsdreieck - Änderungsrate“
+  - Typ: m mit Steigungsdreieck ablesen (auch negativ, auch Bruch) – Fundamente Kl. 8, S. 108: „4.3 Steigung“
+  - Typ: m mit Steigungsdreieck ablesen (auch negativ, auch Bruch) – Mathematik 2023 Kl. 8, S. 169: „Steigung und Steigungsdreiecke“
+  - Typ: Gerade aus Gleichung zeichnen – Mathematik heute Kl. 8, S. 233: „Zeichnen der Graphen linearer Funktionen“
+  - Typ: Gerade aus Gleichung zeichnen – Mathematik heute Kl. 9, S. 25: „Zeichnen der Graphen linearer Funktionen“
+  - Typ: Parameter deuten (steigend, fallend, parallel, Sonderfall m = 0) – Sekundo Kl. 8, S. 122: „Sonderfälle linearer Funktionen“
+  - Typ: m mit Steigungsdreieck ablesen (auch negativ, auch Bruch) – Sekundo Kl. 8, S. 124: „Steigung einer Geraden“
+  - Typ: m mit Steigungsdreieck ablesen (auch negativ, auch Bruch) – Schnittpunkt Kl. 8, S. 66: „3 Steigung. Proportionale Funktionen“
+  - Typ: Parameter deuten (steigend, fallend, parallel, Sonderfall m = 0) – Schnittpunkt Kl. 8, S. 74: „5 Parallele und senkrechte Geraden“
+  - Marken: Sekundo Kl. 8: „Sonderfälle linearer Funktionen“; Sekundo Kl. 9: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 1557 („*“) bei „Änderungsraten“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 58: „Lineare Funktionen“ (Z. 463)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 25: „Lineare Funktionen“ (Z. 246)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 64: „Lineare Funktionen“ (Z. 163)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 21: „Steigung. Proportionale Funktionen“ (Z. 339)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 30: „Funktionen - Lineare Funktionen (Schülerband Seite 136 bis 167)“ (Z. 48)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8 (Sekundo 8, 9, Mathematik 2023 8, Schnittpunkt 8, Mathematik heute 8, 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 3. Punkte und Werte
+  - Sekundo: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Mathematik 2023 Kl. 8, S. 182: „Vertiefen: x-Koordinate berechnen“ (Z. 312)
+  - Schnittpunkt: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Mathematik heute Kl. 8, S. 239: „Nullstellen linearer Funktionen“ (Z. 187)
+  - Mathematik heute Kl. 9, S. 31: „Nullstellen linearer Funktionen“ (Z. 231)
+  - LS Kl. 8: „Kapitel I Lineare Funktionen“ (Z. 146) › „5 Nullstellen und Schnittpunkte“ (Z. 151)
+  - Fundamente Kl. 8, S. 121: „4.6 Nullstellen“ (Z. 197)
+  - Fundamente 2017 Kl. 8, S. 78: „3.6 Nullstellen“ (Z. 171)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 103: „2.4 Zum Selbstlernen Nullstellen linearer Funktionen - Lösen linearer Gleichungen“ (Z. 264, 265)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Nullstelle berechnen – Elemente Kl. 8 (Ausgabe 2016), S. 103: „2.4 Zum Selbstlernen Nullstellen linearer Funktionen - Lösen linearer Gleichungen“
+  - Typ: Nullstelle berechnen – Fundamente Kl. 8, S. 121: „4.6 Nullstellen“
+  - Typ: Nullstelle berechnen – LS Kl. 8: „5 Nullstellen und Schnittpunkte“
+  - Typ: Argument zum Funktionswert – Mathematik 2023 Kl. 8, S. 182: „Vertiefen: x-Koordinate berechnen“
+  - Typ: Nullstelle berechnen – Mathematik heute Kl. 8, S. 239: „Nullstellen linearer Funktionen“
+  - Typ: Nullstelle berechnen – Mathematik heute Kl. 9, S. 31: „Nullstellen linearer Funktionen“
+  - Marken: Elemente Kl. 8 (Ausgabe 2016): „2.4 Zum Selbstlernen Nullstellen linearer Funktionen - Lösen linearer Gleichungen“; Mathematik 2023 Kl. 8: „Vertiefen: x-Koordinate berechnen“
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 30: „Funktionen - Lineare Funktionen (Schülerband Seite 136 bis 167)“ (Z. 48)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8 (Sekundo –, Mathematik 2023 8, Schnittpunkt –, Mathematik heute 8, 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta –)
+- 4. Gleichung bestimmen
+  - Sekundo Kl. 8, S. 126: „Bestimmung von Funktionsgleichungen linearer Funktionen“ (Z. 322, 323)
+  - Sekundo Kl. 8, S. 128: „Bestimmen der Funktionsgleichung zu einer Geraden durch zwei P unkte“ (Z. 324, 327)
+  - Sekundo Kl. 8, S. 129: „Schnittpunkt zweier Geraden“ (Z. 329)
+  - Sekundo Kl. 8, S. 130: „Bestimmen des Schnittpunktes zweier Geraden“ (Z. 330, 333)
+  - Sekundo Kl. 9, S. 49: „Schnittpunkte zweier Geraden“ (Z. 424)
+  - Mathematik 2023 Kl. 8, S. 183: „Vertiefen: Schnittpunkt zweier Geraden“ (Z. 313)
+  - Schnittpunkt Kl. 8, S. 76: „6 Geradengleichung berechnen“ (Z. 245)
+  - Mathematik heute Kl. 8, S. 241: „Gleichung einer Geraden durch zwei vorgegebene Punkte“ (Z. 188, 189)
+  - Mathematik heute Kl. 9, S. 33: „Gleichung einer Geraden durch zwei vorgegebene Punkte“ (Z. 232, 233)
+  - LS Kl. 8: „Kapitel I Lineare Funktionen“ (Z. 146) › „4 Funktionsgleichungen bestimmen“ (Z. 150)
+  - LS Kl. 8: „Kapitel I Lineare Funktionen“ (Z. 146) › „5 Nullstellen und Schnittpunkte“ (Z. 151)
+    Ermessen: „Schnittpunkte“ neben den Nullstellen: Schnittpunkt zweier Geraden (Einheit 4) und mit den Achsen (Einheit 3).
+  - Fundamente Kl. 8, S. 118: „4.5 Geraden durch zwei Punkte“ (Z. 196)
+  - Fundamente 2017 Kl. 8, S. 76: „3.5 Geraden durch zwei Punkte“ (Z. 170)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 106: „2.5 Geraden durch Punkte-Aufstellen linearer Funktionsgleichungen“ (Z. 266)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 106: „2.5.1 Geraden durch zwei Punkte“ (Z. 267)
+  - mathe.delta Kl. 8, S. 86: „3.3 Lineare Funktionen grafisch b e s tim m e n“ (Z. 231)
+    Ermessen: „Lineare Funktionen grafisch bestimmen“: Gleichung aus dem Graphen (Einheit 4) und Parameter ablesen (Einheit 2).
+  - mathe.delta Kl. 8, S. 90: „3.4 Lineare Funktionen rechnerisch b estim m en“ (Z. 232)
+  - Typ: aus zwei Punkten – Elemente Kl. 8 (Ausgabe 2016), S. 106: „2.5.1 Geraden durch zwei Punkte“
+  - Typ: aus zwei Punkten – Fundamente Kl. 8, S. 118: „4.5 Geraden durch zwei Punkte“
+  - Typ: Schnittpunkt zweier Geraden rechnerisch – LS Kl. 8: „5 Nullstellen und Schnittpunkte“
+  - Typ: Schnittpunkt zweier Geraden rechnerisch – Mathematik 2023 Kl. 8, S. 183: „Vertiefen: Schnittpunkt zweier Geraden“
+  - Typ: Gleichung aus Graph – mathe.delta Kl. 8, S. 86: „3.3 Lineare Funktionen grafisch b e s tim m e n“
+  - Typ: aus zwei Punkten – Mathematik heute Kl. 8, S. 241: „Gleichung einer Geraden durch zwei vorgegebene Punkte“
+  - Typ: aus zwei Punkten – Mathematik heute Kl. 9, S. 33: „Gleichung einer Geraden durch zwei vorgegebene Punkte“
+  - Typ: aus zwei Punkten – Sekundo Kl. 8, S. 128: „Bestimmen der Funktionsgleichung zu einer Geraden durch zwei P unkte“
+  - Typ: Schnittpunkt zweier Geraden rechnerisch – Sekundo Kl. 8, S. 129: „Schnittpunkt zweier Geraden“
+  - Typ: Schnittpunkt zweier Geraden rechnerisch – Sekundo Kl. 9, S. 49: „Schnittpunkte zweier Geraden“
+  - Marken: Mathematik 2023 Kl. 8: „Vertiefen: Schnittpunkt zweier Geraden“; Sekundo Kl. 8: Zeichen „0“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Bestimmen der Funktionsgleichung zu einer Geraden durch zwei P unkte“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 24: „Geradengleichung berechnen“ (Z. 342)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 30: „Funktionen - Lineare Funktionen (Schülerband Seite 136 bis 167)“ (Z. 48)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8 (Sekundo 8, 9, Mathematik 2023 8, Schnittpunkt 8, Mathematik heute 8, 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 5. Anwendungen
+  - Sekundo: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Mathematik 2023 Kl. 8, S. 174: „Sachaufgaben“ (Z. 304)
+  - Mathematik 2023 Kl. 8, S. 181: „Üben: Preise für Trink- und Schmutz wasser“ (Z. 310, 311)
+    Ermessen: Preise für Trink- und Schmutzwasser als Tarif gelesen.
+  - Schnittpunkt Kl. 8, S. 78: „7 Modellieren“ (Z. 246)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente Kl. 8, S. 124: „4.7 Mit linearen Funktionen modellieren“ (Z. 198)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta Kl. 8, S. 94: „3.5 Lineare Funktionen im A l l t a g“ (Z. 233)
+  - Typ: Tarife vergleichen mit Entscheidung – Mathematik 2023 Kl. 8, S. 181: „Üben: Preise für Trink- und Schmutz wasser“
+  - Marken: Mathematik 2023 Kl. 8: „Üben: Preise für Trink- und Schmutz wasser“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 25: „Modellieren (1)“ (Z. 343)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 30: „Funktionen - Lineare Funktionen (Schülerband Seite 136 bis 167)“ (Z. 48)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 8 (Sekundo –, Mathematik 2023 8, Schnittpunkt 8, Mathematik heute –)
+  - GYM: Kl. 8 (LS –, Fundamente 8, Elemente –, mathe.delta 8)
+- Spanne OS/GYM: nein
+- Boden: nein
+- Ermessen (7):
+  - Einheit 1: Mathematik heute führt das Kapitel „Funktionen – Lineare Funktionen“ wortgleich in Band 8 (Kap. 9) und Band 9 (Kap. 1); beide Stellen stehen da, die Einführungsklasse der Reihe ist 8.
+  - Einheit 2, Sekundo Kl. 9: „Änderungsraten“ im Kapitel Funktionen als Deutung der Steigung gelesen.
+  - Einheit 2, Schnittpunkt Kl. 8: Die Steigung wird an der proportionalen Funktion eingeführt; Einheiten 1 und 2 zugeordnet.
+  - Einheit 4, LS Kl. 8: „Schnittpunkte“ neben den Nullstellen: Schnittpunkt zweier Geraden (Einheit 4) und mit den Achsen (Einheit 3).
+  - Einheit 4, mathe.delta Kl. 8: „Lineare Funktionen grafisch bestimmen“: Gleichung aus dem Graphen (Einheit 4) und Parameter ablesen (Einheit 2).
+  - Einheit 5, Mathematik 2023 Kl. 8: Preise für Trink- und Schmutzwasser als Tarif gelesen.
+  - Einheiten 1, 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Funktionen - Lineare Funktionen (Schülerband Seite 136 bis 167)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### lineare-gleichungssysteme – Lineare Gleichungen mit zwei Variablen, Lösungspaare, grafisches Lösen und systematisches Probieren, Lösbarkeit (ein Schnittpunkt, parallel, identisch): Stufe F (Gymnasium Kl. 8; Oberschule 9–10 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Gleichungen mit zwei Variablen und grafisches Lösen
+  - Sekundo Kl. 9, S. 70: „Lineare Gleichungen mit zwei Variablen“ (Z. 398)
+  - Sekundo Kl. 9, S. 72: „LVL: Zwei Gleichungen mit zwei Variablen“ (Z. 399)
+  - Sekundo Kl. 9, S. 73: „Lineare Gleichungssysteme“ (Z. 400)
+  - Mathematik 2023 Kl. 9, S. 36: „Lineare Gleichungen - lineare Funktionen“ (Z. 410)
+    Ermessen: Die Seite verbindet Gleichung mit zwei Variablen und Gerade; Typzeile „nach y umstellen“.
+  - Mathematik 2023 Kl. 9, S. 39: „Grafische Lösung linearer Gleichungssysteme“ (Z. 411, 412)
+  - Schnittpunkt Kl. 9, S. 8: „1 Lineare Gleichungen mit zwei Variablen“ (Z. 334)
+  - Schnittpunkt Kl. 9, S. 10: „2 Lineare Gleichungssysteme“ (Z. 335)
+  - Schnittpunkt Kl. 9, S. 20: „6 Lösungsvielfalt“ (Z. 339)
+    Ermessen: Lösungsvielfalt (keine, eine, unendlich viele Lösungen) als Sonderfälle gelesen; der rechnerische Sonderfall ist Typ der Einheit 3.
+  - Mathematik heute Kl. 9, S. 82: „Lineare Gleichungen mit zwei Variablen“ (Z. 257)
+  - Mathematik heute Kl. 9, S. 85: „Lineare Gleichungssysteme - Zeichnerisches Lösen“ (Z. 258, 259)
+  - LS Kl. 8: „Kapitel III Lineare Gleichungssysteme“ (Z. 157) › „1 Lineare Gleichungen mit zwei Variablen“ (Z. 158)
+  - LS Kl. 8: „Kapitel III Lineare Gleichungssysteme“ (Z. 157) › „2 Lineare Gleichungssysteme“ (Z. 159)
+  - Fundamente Kl. 8, S. 140: „5.1 Lineare Gleichungen mit zwei Variablen“ (Z. 208)
+  - Fundamente Kl. 8, S. 144: „5.2 Lineare Gleichungssysteme“ (Z. 209)
+  - Fundamente 2017 Kl. 8, S. 126: „5.1 Lineare Gleichungen mit zwei Variablen“ (Z. 193)
+  - Fundamente 2017 Kl. 8, S. 130: „5.2 Lineare Gleichungssysteme“ (Z. 194)
+  - Fundamente 2017 Kl. 8, S. 141: „5.5 Eine, keine oder unendlich viele Lösungen“ (Z. 197)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 197: „6.1 Lineare Gleichungen der Form ax + by = c“ (Z. 310)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 203: „6.2 Systeme linearer Gleichungen - Grafisches Lösungsverfahren“ (Z. 311)
+  - mathe.delta Kl. 8: „6.1 Lineare Gleichungen mit zwei“ (Z. 522) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - mathe.delta Kl. 8: „6.2 Lineare Gleichungssysteme“ (Z. 527) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - Typ: zwei Geraden zeichnen, Schnittpunkt ablesen, Probe – Elemente Kl. 8 (Ausgabe 2016), S. 203: „6.2 Systeme linearer Gleichungen - Grafisches Lösungsverfahren“
+  - Typ: Gleichung nach y umstellen – Mathematik 2023 Kl. 9, S. 36: „Lineare Gleichungen - lineare Funktionen“
+  - Typ: zwei Geraden zeichnen, Schnittpunkt ablesen, Probe – Mathematik 2023 Kl. 9, S. 39: „Grafische Lösung linearer Gleichungssysteme“
+  - Typ: zwei Geraden zeichnen, Schnittpunkt ablesen, Probe – Mathematik heute Kl. 9, S. 85: „Lineare Gleichungssysteme - Zeichnerisches Lösen“
+  - Typ: Sonderfälle erkennen (parallel: keine Lösung; identisch: unendlich viele) am Bild und an der Gleichung (gleiche Steigung) – Schnittpunkt Kl. 9, S. 20: „6 Lösungsvielfalt“
+  - Marken: Sekundo Kl. 9: „LVL: Zwei Gleichungen mit zwei Variablen“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 38: „Zwei Gleichungen mit zwei Variablen“ (Z. 261)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 13: „Zwei Gleichungen mit zwei Variablen“ (Z. 194)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 3: „Lineare Gleichungen mit zwei Variablen“ (Z. 106)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 4: „Lineare Gleichungssysteme (Schülerband Seite 10 bis 39)“ (Z. 55)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9 (Sekundo 9, Mathematik 2023 9, Schnittpunkt 9, Mathematik heute 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 2. Einsetzungsverfahren
+  - Sekundo Kl. 9, S. 74: „Gleichsetzungsverfahren und Einsetzungsverfahren“ (Z. 401, 402)
+  - Mathematik 2023 Kl. 9, S. 41: „Gleichsetzungsverfahren“ (Z. 413)
+  - Mathematik 2023 Kl. 9, S. 43: „Einsetzungsverfahren“ (Z. 414)
+  - Schnittpunkt Kl. 9, S. 13: „3 Gleichsetzungsverfahren“ (Z. 336)
+  - Schnittpunkt Kl. 9, S. 16: „4 Einsetzungsverfahren“ (Z. 337)
+  - Mathematik heute Kl. 9, S. 88: „Lineare Gleichungssysteme - Rechnerisches Lösen“ (Z. 260, 261)
+    Ermessen: „Rechnerisches Lösen“ umfasst Einsetzungs-, Gleichsetzungs- und Additionsverfahren; Einheiten 2 und 3 zugeordnet.
+  - LS Kl. 8: „Kapitel III Lineare Gleichungssysteme“ (Z. 157) › „3 Gleichsetzungs- und Einsetzungsverfahren“ (Z. 160)
+  - Fundamente Kl. 8, S. 148: „5.3 Gleichsetzungs- und Einsetzungsverfahren“ (Z. 210)
+  - Fundamente 2017 Kl. 8, S. 134: „5.3 Gleichsetzungs- und Einsetzungsverfahren“ (Z. 195)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 208: „6.3 Gleichsetzungsverfahren“ (Z. 312)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 210: „6.4 Zum Selbstlernen Einsetzungsverfahren“ (Z. 313)
+  - mathe.delta Kl. 8: „6.3 Lineare Gleichungssysteme“ (Z. 534) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+    Ermessen: 6.3 „Lineare Gleichungssysteme …“ (Titel im Stoffverteilungsplan abgeschnitten) als rechnerisches Lösen gelesen; Einheiten 2 und 3.
+  - Typ: Gleichsetzen bei zwei Gleichungen der Form y = … (→ lineare-funktionen.md Einheit 4 für Schnittpunkte) – Elemente Kl. 8 (Ausgabe 2016), S. 208: „6.3 Gleichsetzungsverfahren“
+  - Typ: Gleichsetzen bei zwei Gleichungen der Form y = … (→ lineare-funktionen.md Einheit 4 für Schnittpunkte) – Mathematik 2023 Kl. 9, S. 41: „Gleichsetzungsverfahren“
+  - Typ: Gleichsetzen bei zwei Gleichungen der Form y = … (→ lineare-funktionen.md Einheit 4 für Schnittpunkte) – Schnittpunkt Kl. 9, S. 13: „3 Gleichsetzungsverfahren“
+  - Marken: Elemente Kl. 8 (Ausgabe 2016): „6.4 Zum Selbstlernen Einsetzungsverfahren“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 6: „Einsetzungsverfahren“ (Z. 109)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 4: „Lineare Gleichungssysteme (Schülerband Seite 10 bis 39)“ (Z. 55)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9 (Sekundo 9, Mathematik 2023 9, Schnittpunkt 9, Mathematik heute 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 3. Additionsverfahren
+  - Sekundo Kl. 9, S. 76: „Additionsverfahren“ (Z. 403)
+  - Mathematik 2023 Kl. 9, S. 44: „Additionsverfahren“ (Z. 415)
+  - Schnittpunkt Kl. 9, S. 18: „5 Additionsverfahren“ (Z. 338)
+  - Mathematik heute Kl. 9, S. 88: „Lineare Gleichungssysteme - Rechnerisches Lösen“ (Z. 260, 261)
+  - LS Kl. 8: „Kapitel III Lineare Gleichungssysteme“ (Z. 157) › „4 Das Additionsverfahren“ (Z. 161)
+  - Fundamente Kl. 8, S. 152: „5.4 Additionsverfahren“ (Z. 211)
+  - Fundamente Kl. 8, S. 155: „5.5 Sonderfälle beim rechnerischen Lösen“ (Z. 212)
+  - Fundamente 2017 Kl. 8, S. 138: „5.4 Additionsverfahren“ (Z. 196)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 211: „6.5 Additionsverfahren“ (Z. 314)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 214: „6.6 Sonderfälle beim rechnerischen Lösen“ (Z. 315)
+  - mathe.delta Kl. 8: „6.3 Lineare Gleichungssysteme“ (Z. 534) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+  - Typ: Sonderfälle rechnerisch (0 = 5 keine Lösung; 0 = 0 unendlich viele) – Elemente Kl. 8 (Ausgabe 2016), S. 214: „6.6 Sonderfälle beim rechnerischen Lösen“
+  - Typ: Sonderfälle rechnerisch (0 = 5 keine Lösung; 0 = 0 unendlich viele) – Fundamente Kl. 8, S. 155: „5.5 Sonderfälle beim rechnerischen Lösen“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 7: „Additionsverfahren“ (Z. 110)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 4: „Lineare Gleichungssysteme (Schülerband Seite 10 bis 39)“ (Z. 55)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9 (Sekundo 9, Mathematik 2023 9, Schnittpunkt 9, Mathematik heute 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 4. Sachaufgaben
+  - Sekundo Kl. 9, S. 79: „Anwendungen“ (Z. 406)
+  - Mathematik 2023 Kl. 9, S. 50: „Üben: Zahlenrätsel“ (Z. 371)
+  - Mathematik 2023 Kl. 9, S. 52: „Üben: Sachaufgaben“ (Z. 374)
+  - Schnittpunkt: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Mathematik heute Kl. 9, S. 98: „Lösen von Sachaufgaben“ (Z. 262)
+  - LS Kl. 8: „Kapitel III Lineare Gleichungssysteme“ (Z. 157) › „5 Probleme mit Gleichungssystemen lösen“ (Z. 162)
+  - Fundamente Kl. 8, S. 157: „5.6 Mit Gleichungssystemen modellieren“ (Z. 213)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 219: „6.8 Modellieren mithilfe linearer Gleichungssysteme“ (Z. 318)
+  - mathe.delta Kl. 8: „6.4 Lineare Gleichungssysteme im“ (Z. 542) – Zeile aus dem Stoffverteilungsplan des Verlags, ohne Seite (DNB-Verzeichnis Kl. 8 endet mit Kapitel 4)
+    Ermessen: 6.4 „Lineare Gleichungssysteme im …“ (abgeschnitten, vermutlich „im Alltag“) als Sachaufgaben gelesen.
+  - Typ: Zahlenrätsel (Summe und Differenz, Vielfache) – Mathematik 2023 Kl. 9, S. 50: „Üben: Zahlenrätsel“
+  - Marken: Mathematik 2023 Kl. 9: „Üben: Zahlenrätsel“; Mathematik 2023 Kl. 9: „Üben: Sachaufgaben“
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 4: „Lineare Gleichungssysteme (Schülerband Seite 10 bis 39)“ (Z. 55)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9 (Sekundo 9, Mathematik 2023 9, Schnittpunkt –, Mathematik heute 9)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 5. Drei Variablen und Lösungsvielfalt (Sek II)
+  - Sekundo: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Mathematik 2023 Kl. 9, S. 53: „Vertiefen: Lineare Gleichungssysteme mit drei Variablen“ (Z. 375, 376)
+  - Schnittpunkt: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Mathematik heute: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - LS: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Fundamente Kl. 8, S. 160: „Streifzug: Lineare Gleichungssysteme mit drei Gleichungen und der Gauß-Algorithmus“ (Z. 214, 215)
+  - Fundamente 2017: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Elemente Kl. 8 (Ausgabe 2016), S. 227: „6.9 Systeme von mehr als zwei linearen Gleichungen mit mehr als zwei Variablen“ (Z. 321, 322)
+  - mathe.delta: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Typ: Lineares Gleichungssystem mit drei Variablen lösen (1) – Elemente Kl. 8 (Ausgabe 2016), S. 227: „6.9 Systeme von mehr als zwei linearen Gleichungen mit mehr als zwei Variablen“
+  - Typ: Lineares Gleichungssystem mit drei Variablen lösen (1) – Fundamente Kl. 8, S. 160: „Streifzug: Lineare Gleichungssysteme mit drei Gleichungen und der Gauß-Algorithmus“
+  - Typ: Lineares Gleichungssystem mit drei Variablen lösen (1) – Mathematik 2023 Kl. 9, S. 53: „Vertiefen: Lineare Gleichungssysteme mit drei Variablen“
+  - Marken: Fundamente Kl. 8: „Streifzug: Lineare Gleichungssysteme mit drei Gleichungen und der Gauß-Algorithmus“; Mathematik 2023 Kl. 9: „Vertiefen: Lineare Gleichungssysteme mit drei Variablen“
+  - Förderheft: keine Stelle
+  - OS: Kl. 9 (Sekundo –, Mathematik 2023 9, Schnittpunkt –, Mathematik heute –)
+  - GYM: Kl. 8 (LS –, Fundamente 8, Elemente 8, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 9, GYM Kl. 8; Einheit 2: OS Kl. 9, GYM Kl. 8; Einheit 3: OS Kl. 9, GYM Kl. 8; Einheit 4: OS Kl. 9, GYM Kl. 8; Einheit 5: OS Kl. 9, GYM Kl. 8; ohne gemeinsame Klasse: Einheiten 1, 2, 3, 4, 5)
+- Boden: nein
+- Ermessen (6):
+  - Einheit 1, Mathematik 2023 Kl. 9: Die Seite verbindet Gleichung mit zwei Variablen und Gerade; Typzeile „nach y umstellen“.
+  - Einheit 1, Schnittpunkt Kl. 9: Lösungsvielfalt (keine, eine, unendlich viele Lösungen) als Sonderfälle gelesen; der rechnerische Sonderfall ist Typ der Einheit 3.
+  - Einheit 2, Mathematik heute Kl. 9: „Rechnerisches Lösen“ umfasst Einsetzungs-, Gleichsetzungs- und Additionsverfahren; Einheiten 2 und 3 zugeordnet.
+  - Einheit 2, mathe.delta Kl. 8: 6.3 „Lineare Gleichungssysteme …“ (Titel im Stoffverteilungsplan abgeschnitten) als rechnerisches Lösen gelesen; Einheiten 2 und 3.
+  - Einheit 4, mathe.delta Kl. 8: 6.4 „Lineare Gleichungssysteme im …“ (abgeschnitten, vermutlich „im Alltag“) als Sachaufgaben gelesen.
+  - Einheiten 1, 2, 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Lineare Gleichungssysteme (Schülerband Seite 10 bis 39)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### binomische-formeln – Terme mit mehreren Variablen zusammenfassen, Summe mal Summe (Distributivgesetz zweimal), die drei binomischen Formeln vorwärts (Ausmultiplizieren) und rückwärts (Faktorisieren): Stufe F (Distributivgesetz; Gymnasium Kl. 8, Oberschule 9–10) und G (binomische Formeln; Gymnasium Kl. 9, Oberschule „in Teilen G“).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Summe mal Summe
+  - Sekundo Kl. 8, S. 177: „O LVL: Produkt von Summen“ (Z. 326)
+  - Sekundo Kl. 8, S. 178: „O Produktterm - Summenterm“ (Z. 328)
+  - Mathematik 2023 Kl. 8, S. 16: „Multiplikation von Summen“ (Z. 236)
+  - Schnittpunkt Kl. 8, S. 11: „2 Summen multiplizieren“ (Z. 205)
+  - Mathematik heute Kl. 9, S. 50: „Multiplikation von Summen und Differenzen“ (Z. 247)
+  - LS Kl. 8: „Kapitel II Terme mit mehreren Variablen“ (Z. 152) › „2 Terme mit mehreren Variablen“ (Z. 154)
+  - LS Kl. 8: „Kapitel II Terme mit mehreren Variablen“ (Z. 152) › „3 Multiplizieren von Summen“ (Z. 155)
+  - Fundamente Kl. 8, S. 32: „2.1 Terme mit mehreren Variablen aufstellen“ (Z. 162)
+  - Fundamente Kl. 8, S. 35: „2.2 Terme zusammenfassen“ (Z. 163)
+  - Fundamente Kl. 8, S. 38: „2.3 Terme vereinfachen“ (Z. 164)
+    Ermessen: „Terme vereinfachen“ im Kapitel Terme mit mehreren Variablen (Kl. 8) der Einheit 1 von binomische-formeln zugeordnet.
+  - Fundamente Kl. 8, S. 48: „2.7 Ausmultiplizieren von zwei Klammern“ (Z. 168)
+  - Fundamente 2017 Kl. 8, S. 92: „4.1 Terme mit mehreren Variablen aufstellen“ (Z. 179)
+  - Fundamente 2017 Kl. 8, S. 95: „4.2 Terme vereinfachen“ (Z. 180)
+  - Fundamente 2017 Kl. 8, S. 108: „4.5 Ausmultiplizieren von zwei Klammern“ (Z. 184)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 92: „4.3 Terme mit mehreren Variablen“ (Z. 882)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 26: „1.3 Addieren und Subtrahieren von Termen“ (Z. 237)
+    Ermessen: Das Kapitel behandelt Terme mit mehreren Variablen; Addieren und Subtrahieren auch Einheit 1 von binomische-formeln.
+  - Elemente Kl. 8 (Ausgabe 2016), S. 52: „1.8 Auflösen von zwei Klammern in einem Produkt“ (Z. 244)
+  - mathe.delta Kl. 8, S. 54: „2.3 Binomische Formeln“ (Z. 217)
+    Ermessen: Laut Stoffverteilungsplan (Z. 341) gehört „Distributivgesetz zum Ausmultiplizieren von Summen“ zu 2.3; Einheiten 1 und 2 zugeordnet.
+  - Typ: zusammenfassen mit zwei Variablen (gleichartige Glieder sortieren) – Elemente Kl. 8 (Ausgabe 2016), S. 26: „1.3 Addieren und Subtrahieren von Termen“
+  - Typ: zusammenfassen mit zwei Variablen (gleichartige Glieder sortieren) – Fundamente Kl. 8, S. 35: „2.2 Terme zusammenfassen“
+  - Typ: zusammenfassen mit zwei Variablen (gleichartige Glieder sortieren) – LS Kl. 8: „2 Terme mit mehreren Variablen“
+  - Marken: Sekundo Kl. 8: Zeichen „O“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „O LVL: Produkt von Summen“; Sekundo Kl. 8: Zeichen „O“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „O Produktterm - Summenterm“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 4: „Summen multiplizieren“ (Z. 318)
+  - OS: Kl. 8–9 (Sekundo 8, Mathematik 2023 8, Schnittpunkt 8, Mathematik heute 9); Streuung der Einführung: Mathematik heute 9 später als Kl. 8
+  - GYM: Kl. 7–8 (LS 8, Fundamente 8, Elemente 7, 8, mathe.delta 8); Streuung der Einführung: LS 8, Fundamente 8, mathe.delta 8 später als Kl. 7
+- 2. Binomische Formeln
+  - Sekundo Kl. 8, S. 182: „LVL: Herleitung der Binomischen Formeln“ (Z. 335, 336)
+  - Sekundo Kl. 8, S. 184: „O Binomische Formeln“ (Z. 338)
+  - Mathematik 2023 Kl. 8, S. 18: „1. binomische Formel“ (Z. 237)
+  - Mathematik 2023 Kl. 8, S. 19: „2. binomische Formel“ (Z. 238)
+  - Mathematik 2023 Kl. 8, S. 20: „3. binomische Formel“ (Z. 239)
+  - Mathematik 2023 Kl. 8, S. 39: „Vertiefen: Verallgemeinerungen der bino mischen Formeln“ (Z. 250, 251)
+  - Schnittpunkt Kl. 8, S. 13: „3 Binomische Formeln“ (Z. 206)
+  - Schnittpunkt Kl. 8, S. 15: „EXTRA: Binomische Formeln geometrisch beweisen“ (Z. 207)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 8: „Kapitel II Terme mit mehreren Variablen“ (Z. 152) › „4 Binomische Formeln“ (Z. 156)
+  - Fundamente Kl. 8, S. 51: „2.8 Die binomischen Formeln“ (Z. 169)
+  - Fundamente 2017 Kl. 8, S. 111: „4.6 Binomische Formeln“ (Z. 185)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 55: „1.9 Zum Selbstlernen Binomische Formeln“ (Z. 245)
+  - mathe.delta Kl. 8, S. 54: „2.3 Binomische Formeln“ (Z. 217)
+  - Typ: erste binomische Formel mit x und Zahl – Mathematik 2023 Kl. 8, S. 18: „1. binomische Formel“
+  - Typ: zweite Formel (Minus im Mittelglied) – Mathematik 2023 Kl. 8, S. 19: „2. binomische Formel“
+  - Typ: dritte Formel (Mittelglied fällt weg) – Mathematik 2023 Kl. 8, S. 20: „3. binomische Formel“
+  - Marken: Elemente Kl. 8 (Ausgabe 2016): „1.9 Zum Selbstlernen Binomische Formeln“; Mathematik 2023 Kl. 8: „Vertiefen: Verallgemeinerungen der bino mischen Formeln“; Sekundo Kl. 8: „LVL: Herleitung der Binomischen Formeln“; Sekundo Kl. 8: Zeichen „O“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „O Binomische Formeln“; Schnittpunkt Kl. 8: „EXTRA: Binomische Formeln geometrisch beweisen“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 5: „Binomische Formeln“ (Z. 319)
+  - OS: Kl. 8 (Sekundo 8, Mathematik 2023 8, Schnittpunkt 8, Mathematik heute –)
+  - GYM: Kl. 8 (LS 8, Fundamente 8, Elemente 8, mathe.delta 8)
+- 3. Faktorisieren
+  - Sekundo Kl. 10, S. 47: „Rechnerische Lösung mit quadratischer Ergänzung“ (Z. 537, 538)
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 8, S. 16: „4 Faktorisieren mit binomischen Formeln“ (Z. 208)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 58: „1.10 Faktorisieren einer Summe“ (Z. 246)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: quadratische Ergänzung (Vorrat, H; → quadratische-funktionen.md Einheit 3) – Sekundo Kl. 10, S. 47: „Rechnerische Lösung mit quadratischer Ergänzung“
+  - Marken: Sekundo Kl. 10: Zeichen „•“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Rechnerische Lösung mit quadratischer Ergänzung“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 6: „Faktorisieren mit binomischen Formeln“ (Z. 320)
+  - OS: Kl. 8–10 (Sekundo 10, Mathematik 2023 –, Schnittpunkt 8, Mathematik heute –); Streuung der Einführung: Sekundo 10 später als Kl. 8
+  - GYM: Kl. 8 (LS –, Fundamente –, Elemente 8, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 8–9, GYM Kl. 7–8; Einheit 3: OS Kl. 8–10, GYM Kl. 8)
+- Boden: nein
+- Ermessen (3):
+  - Einheit 1, Fundamente Kl. 8: „Terme vereinfachen“ im Kapitel Terme mit mehreren Variablen (Kl. 8) der Einheit 1 von binomische-formeln zugeordnet.
+  - Einheit 1, Elemente Kl. 8 (Ausgabe 2016): Das Kapitel behandelt Terme mit mehreren Variablen; Addieren und Subtrahieren auch Einheit 1 von binomische-formeln.
+  - Einheit 1, mathe.delta Kl. 8: Laut Stoffverteilungsplan (Z. 341) gehört „Distributivgesetz zum Ausmultiplizieren von Summen“ zu 2.3; Einheiten 1 und 2 zugeordnet.
+
+### quadratische-funktionen – Quadratische Funktionen mit Scheitelpunktform und Streckfaktor – Merkmale (Form des Graphen, Achsenschnittpunkte, Einfluss der Parameter: Streckung, Stauchung, Verschiebung; Symmetrie, Öffnungsrichtung, Scheitelpunkt), Darstellen im Koordinatensystem, Übersetzen zwischen Sprache, Tabelle, Graph und Gleichung, Schnittpunkte von Funktionsgraphen: Stufe G (Gymnasium Kl. 9; Oberschule 9–10 „in Teilen G“, für den MSA nötig).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Normalparabel und Streckfaktor
+  - Sekundo Kl. 10, S. 34: „Normalparabel“ (Z. 519)
+  - Sekundo Kl. 10, S. 35: „LVL: Funktionen mit Gleichungen der Form y = ax2“ (Z. 520, 522)
+  - Sekundo Kl. 10, S. 36: „Gestreckte und gestauchte Parabel“ (Z. 523)
+  - Mathematik 2023 Kl. 9, S. 78: „Normalparabel f(x) = x2“ (Z. 433)
+  - Mathematik 2023 Kl. 9, S. 90: „Funktionsgleichung f(x) = ax2“ (Z. 443)
+  - Schnittpunkt Kl. 9, S. 154: „1 Die Normalparabel y = x2“ (Z. 429)
+  - Schnittpunkt Kl. 9, S. 158: „3 Die quadratische Funktion y = ax2 + c“ (Z. 431)
+  - Schnittpunkt Kl. 10, S. 10: „2 Die quadratische Funktion y = ax2 + c“ (Z. 481)
+  - Mathematik heute Kl. 9, S. 172: „Die quadratische Funktion y = x2 -N orm alparabel“ (Z. 247, 248)
+  - Mathematik heute Kl. 9, S. 175: „Quadratische Funktionen - Eigenschaften“ (Z. 249)
+    Ermessen: „Quadratische Funktionen – Eigenschaften“ vor der Form y = a(x + d)² + e als Eigenschaften und Streckfaktor (Einheit 1) gelesen.
+  - Mathematik heute Kl. 10, S. 8: „Die quadratische Funktion y = x2 - Normalparabel“ (Z. 294, 295)
+  - Mathematik heute Kl. 10, S. 11: „Quadratische Funktionen - Eigenschaften“ (Z. 296)
+  - LS Kl. 9: „Kapitel I Quadratische Funktionen“ (Z. 179) › „2 Quadratische Funktionen vom Typ f(x) = ax²“ (Z. 181)
+  - Fundamente Kl. 9, S. 88: „3.1 Normalparabel“ (Z. 316)
+  - Fundamente Kl. 9, S. 91: „3.2 Strecken der Normalparabel“ (Z. 317)
+  - Fundamente 2017 Kl. 9, S. 50: „2.1 Die N orm alparabel“ (Z. 261)
+  - Fundamente 2017 Kl. 9, S. 53: „2.2 Strecken und Stauchen der Normalparabel“ (Z. 262)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 47: „2.1 Quadratische Funktionen - Definition“ (Z. 377)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 50: „2.2 Normalparabel - Gleichungen der Form x2 = r“ (Z. 378)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 64: „2.4 Strecken und Spiegeln der Normalparabel“ (Z. 386)
+  - mathe.delta Kl. 9, S. 54: „2.1 Die Normalparabel“ (Z. 586)
+  - mathe.delta Kl. 9, S. 60: „2.3 Gestauchte und gestreckte Parabeln der Form f(x) = ax2“ (Z. 589, 590)
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – Elemente Kl. 9 (Ausgabe 2016), S. 64: „2.4 Strecken und Spiegeln der Normalparabel“
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – Fundamente Kl. 9, S. 91: „3.2 Strecken der Normalparabel“
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – LS Kl. 9: „2 Quadratische Funktionen vom Typ f(x) = ax²“
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – Mathematik 2023 Kl. 9, S. 90: „Funktionsgleichung f(x) = ax2“
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – mathe.delta Kl. 9, S. 60: „2.3 Gestauchte und gestreckte Parabeln der Form f(x) = ax2“
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – Sekundo Kl. 10, S. 36: „Gestreckte und gestauchte Parabel“
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – Schnittpunkt Kl. 9, S. 158: „3 Die quadratische Funktion y = ax2 + c“
+  - Typ: Öffnung und Breite an a erkennen (a < 0 nach unten; a größer als 1 schmaler; a zwischen 0 und 1 breiter) – Schnittpunkt Kl. 10, S. 10: „2 Die quadratische Funktion y = ax2 + c“
+  - Marken: Sekundo Kl. 10: „LVL: Funktionen mit Gleichungen der Form y = ax2“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 45: „Die Normalparabel y = x²“ (Z. 160)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 4: „Die quadratische Funktion y = ax² + c“ (Z. 391)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 24: „Quadratische Funktionen (Schülerband Seite 98 bis 127)“ (Z. 69)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Ermessen: Mathematik heute führt das Kapitel „Quadratische Funktionen und Gleichungen“ wortgleich in Band 9 (Kap. 7) und Band 10 (Kap. 1); beide Stellen stehen da, die Einführungsklasse der Reihe ist 9.
+  - OS: Kl. 9–10 (Sekundo 10, Mathematik 2023 9, Schnittpunkt 9, 10, Mathematik heute 9, 10); Streuung der Einführung: Sekundo 10 später als Kl. 9
+  - GYM: Kl. 9 (LS 9, Fundamente 9, Elemente 9, mathe.delta 9)
+- 2. Scheitelpunktform
+  - Sekundo Kl. 10, S. 38: „LVL: Funktionen mit Gleichungen der Form y = ax2 + c“ (Z. 525, 526)
+    Ermessen: y = ax² + c: Verschiebung längs der y-Achse, als Vorstufe der Scheitelpunktform gelesen.
+  - Sekundo Kl. 10, S. 39: „Verschobene Parabeln“ (Z. 527)
+  - Sekundo Kl. 10, S. 40: „LVL: Funktionen mit Gleichungen der Form y=(x + d)2 + e“ (Z. 528, 529)
+  - Sekundo Kl. 10, S. 41: „Scheitelpunktsform“ (Z. 530)
+  - Sekundo Kl. 10, S. 43: „Allgemeine Scheitelpunktsform“ (Z. 533)
+  - Mathematik 2023 Kl. 9, S. 80: „Verschobene Normalparabel f (x) = x2 + e“ (Z. 434)
+  - Mathematik 2023 Kl. 9, S. 82: „Verschobene Normalparabel f (x) = (x + d)2“ (Z. 435)
+  - Mathematik 2023 Kl. 9, S. 83: „Verschobene Normalparabel f (x) = (x + d)2 + e“ (Z. 436, 437)
+  - Schnittpunkt Kl. 9, S. 156: „2 Die quadratische Funktion y = x2 + c“ (Z. 430)
+    Ermessen: y = x² + c als verschobene Normalparabel (Einheit 2) gelesen.
+  - Schnittpunkt Kl. 9, S. 161: „4 Die Scheitelform y = (x - d)2 + e“ (Z. 432)
+  - Schnittpunkt Kl. 10, S. 8: „1 Die quadratische Funktion y = x2 + c“ (Z. 480)
+  - Schnittpunkt Kl. 10, S. 12: „3 Die Scheitelform y = a (x - d)2 + e“ (Z. 482)
+  - Mathematik heute Kl. 9, S. 185: „Quadratische Funktionen mit y = a (x + d)2 + e“ (Z. 250)
+  - Mathematik heute Kl. 10, S. 21: „Quadratische Funktionen mit y = a(x + d)2 + e“ (Z. 297)
+  - LS Kl. 9: „Kapitel I Quadratische Funktionen“ (Z. 179) › „3 Scheitelpunktform quadratischer Funktionen“ (Z. 182)
+  - LS Kl. 9: „Kapitel I Quadratische Funktionen“ (Z. 179) › „5 Aufstellen quadratischer Funktionsgleichungen“ (Z. 184)
+    Ermessen: Aufstellen von Funktionsgleichungen als Scheitelpunktform aus Graph oder Scheitel gelesen.
+  - Fundamente Kl. 9, S. 94: „3.3 Verschieben der Normalparabel in y-Richtung“ (Z. 318)
+  - Fundamente Kl. 9, S. 97: „3.4 Verschieben der Normalparabel in x-Richtung“ (Z. 319)
+  - Fundamente Kl. 9, S. 99: „3.5 Scheitelpunktform“ (Z. 320)
+  - Fundamente 2017 Kl. 9, S. 57: „2.3 Verschieben der Normalparabel in y-Richtung“ (Z. 263)
+  - Fundamente 2017 Kl. 9, S. 60: „2.4 Verschieben der Normalparabel in x-Richtung“ (Z. 264)
+  - Fundamente 2017 Kl. 9, S. 63: „2.5 Die Scheitelpunktform“ (Z. 265)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 53: „2.3.1 Verschieben der Normalparabel parallel zur y-Achse“ (Z. 380)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 56: „2.3.2 Verschieben der Normalparabel parallel zur x-Achse - Gleichungen der Form (x + d)2 = r“ (Z. 381, 382)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 59: „2.3.3 Verschieben der Normalparabel in beliebiger Richtung - Scheitelpunktform - Quadratische Gleichungen der Form x2 + px + q = 0“ (Z. 383, 384, 385)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 71: „2.5 Strecken und Verschieben der Normalparabel - Gleichungen der Form ax2 + bx + c = 0“ (Z. 387, 388)
+  - mathe.delta Kl. 9, S. 56: „2.2 Parallelverschiebung von Parabeln der Form f(x) = (x + d)2 und f(x) = x2 + e“ (Z. 587, 588)
+  - mathe.delta Kl. 9, S. 64: „2.4 Scheitelpunkt- und Normalform einer Parabel“ (Z. 591)
+  - mathe.delta Kl. 9, S. 72: „2.6 Aufstellen von Parabelgleichungen“ (Z. 593)
+    Ermessen: Aufstellen von Parabelgleichungen als Scheitelpunktform aus Graph oder Scheitel gelesen.
+  - Typ: Streckfaktor vor der Klammer erkennen und Merkmale der gestreckten Parabel bestimmen (LISUM G, kein P10-Original) – Elemente Kl. 9 (Ausgabe 2016), S. 71: „2.5 Strecken und Verschieben der Normalparabel - Gleichungen der Form ax2 + bx + c = 0“
+  - Typ: Scheitelpunktform aus dem Graphen aufstellen (Scheitel ablesen, Öffnung prüfen, nach unten: Minus vor der Klammer) – LS Kl. 9: „5 Aufstellen quadratischer Funktionsgleichungen“
+  - Typ: Scheitelpunktform aus dem Graphen aufstellen (Scheitel ablesen, Öffnung prüfen, nach unten: Minus vor der Klammer) – mathe.delta Kl. 9, S. 72: „2.6 Aufstellen von Parabelgleichungen“
+  - Typ: Streckfaktor vor der Klammer erkennen und Merkmale der gestreckten Parabel bestimmen (LISUM G, kein P10-Original) – Mathematik heute Kl. 9, S. 185: „Quadratische Funktionen mit y = a (x + d)2 + e“
+  - Typ: Streckfaktor vor der Klammer erkennen und Merkmale der gestreckten Parabel bestimmen (LISUM G, kein P10-Original) – Mathematik heute Kl. 10, S. 21: „Quadratische Funktionen mit y = a(x + d)2 + e“
+  - Typ: Streckfaktor vor der Klammer erkennen und Merkmale der gestreckten Parabel bestimmen (LISUM G, kein P10-Original) – Sekundo Kl. 10, S. 43: „Allgemeine Scheitelpunktsform“
+  - Typ: Streckfaktor vor der Klammer erkennen und Merkmale der gestreckten Parabel bestimmen (LISUM G, kein P10-Original) – Schnittpunkt Kl. 10, S. 12: „3 Die Scheitelform y = a (x - d)2 + e“
+  - Marken: Sekundo Kl. 10: „LVL: Funktionen mit Gleichungen der Form y = ax2 + c“; Sekundo Kl. 10: „LVL: Funktionen mit Gleichungen der Form y=(x + d)2 + e“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 48: „Die Scheitelform y = (x - d)² + e“ (Z. 163)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 24: „Quadratische Funktionen (Schülerband Seite 98 bis 127)“ (Z. 69)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9–10 (Sekundo 10, Mathematik 2023 9, Schnittpunkt 9, 10, Mathematik heute 9, 10); Streuung der Einführung: Sekundo 10 später als Kl. 9
+  - GYM: Kl. 9 (LS 9, Fundamente 9, Elemente 9, mathe.delta 9)
+- 3. Normalform
+  - Sekundo Kl. 10, S. 42: „M Von der Form y = x2 + bx+c zur Scheitelpunktsform“ (Z. 531, 532)
+  - Mathematik 2023 Kl. 9, S. 85: „Funktionsgleichung f (x) = x2 + px + q“ (Z. 438)
+  - Mathematik 2023 Kl. 9, S. 91: „Funktionsgleichung f (x) = ax2 + bx + c“ (Z. 444)
+  - Schnittpunkt Kl. 9, S. 164: „5 Die Normalform y = x2 + bx + c“ (Z. 433)
+  - Schnittpunkt Kl. 10, S. 15: „4 Die quadratische Funktion y = ax2 + bx + c“ (Z. 483)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 9: „Kapitel I Quadratische Funktionen“ (Z. 179) › „4 Normalform und quadratische Ergänzung“ (Z. 183)
+  - Fundamente Kl. 9, S. 104: „3.6 Allgemeine Form und Normalform“ (Z. 326)
+  - Fundamente 2017 Kl. 9, S. 68: „2.6 Die allgemeine und die faktorisierte F o r m“ (Z. 266)
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta Kl. 9, S. 64: „2.4 Scheitelpunkt- und Normalform einer Parabel“ (Z. 591)
+  - Typ: quadratische Ergänzung (Vorrat, H) – LS Kl. 9: „4 Normalform und quadratische Ergänzung“
+  - Typ: allgemeine Form a·x² + bx + c erkennen und Öffnung an a ablesen (Vorrat, H) – Mathematik 2023 Kl. 9, S. 91: „Funktionsgleichung f (x) = ax2 + bx + c“
+  - Typ: allgemeine Form a·x² + bx + c erkennen und Öffnung an a ablesen (Vorrat, H) – Schnittpunkt Kl. 10, S. 15: „4 Die quadratische Funktion y = ax2 + bx + c“
+  - Marken: Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „M Von der Form y = x2 + bx+c zur Scheitelpunktsform“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 49: „Die Normalform y = x² + bx + c (1)“ (Z. 164)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 24: „Quadratische Funktionen (Schülerband Seite 98 bis 127)“ (Z. 69)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9–10 (Sekundo 10, Mathematik 2023 9, Schnittpunkt 9, 10, Mathematik heute –); Streuung der Einführung: Sekundo 10 später als Kl. 9
+  - GYM: Kl. 9 (LS 9, Fundamente 9, Elemente –, mathe.delta 9)
+- 4. Nullstellen und Schnittpunkte berechnen
+  - Sekundo: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 10, S. 23: „7 Nullstellen“ (Z. 486)
+  - Schnittpunkt Kl. 10, S. 26: „8 Schnittpunkte“ (Z. 488)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente Kl. 9, S. 123: „3.11 Schnittpunkte von Graphen“ (Z. 331)
+  - Fundamente 2017 Kl. 9, S. 85: „2.9 Grafisches Lösen durch Schnittpunktbestimmung“ (Z. 269)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 87: „2.8 Schnittpunkte von Parabeln und Geraden“ (Z. 392)
+  - mathe.delta Kl. 9, S. 108: „3.5 Systeme quadratischer Gleichungen“ (Z. 609)
+    Ermessen: Systeme quadratischer Gleichungen als Schnittpunkte von Parabel und Gerade gelesen.
+  - Typ: Schnittpunkte Gerade und Parabel (gleichsetzen, alles auf eine Seite, lösen, y-Werte über die Gerade) – Elemente Kl. 9 (Ausgabe 2016), S. 87: „2.8 Schnittpunkte von Parabeln und Geraden“
+  - Typ: Schnittpunkte Gerade und Parabel (gleichsetzen, alles auf eine Seite, lösen, y-Werte über die Gerade) – Fundamente Kl. 9, S. 123: „3.11 Schnittpunkte von Graphen“
+  - Typ: Schnittpunkte Gerade und Parabel (gleichsetzen, alles auf eine Seite, lösen, y-Werte über die Gerade) – mathe.delta Kl. 9, S. 108: „3.5 Systeme quadratischer Gleichungen“
+  - Typ: Schnittpunkte Gerade und Parabel (gleichsetzen, alles auf eine Seite, lösen, y-Werte über die Gerade) – Schnittpunkt Kl. 10, S. 26: „8 Schnittpunkte“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 11: „Nullstellen (1)“ (Z. 398)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 13: „Schnittpunkte (1)“ (Z. 400)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 24: „Quadratische Funktionen (Schülerband Seite 98 bis 127)“ (Z. 69)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo –, Mathematik 2023 –, Schnittpunkt 10, Mathematik heute –)
+  - GYM: Kl. 9 (LS –, Fundamente 9, Elemente 9, mathe.delta 9)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 9–10, GYM Kl. 9; Einheit 2: OS Kl. 9–10, GYM Kl. 9; Einheit 3: OS Kl. 9–10, GYM Kl. 9; Einheit 4: OS Kl. 10, GYM Kl. 9; ohne gemeinsame Klasse: Einheit 4)
+- Boden: nein
+- Ermessen (9):
+  - Einheit 1, Mathematik heute Kl. 9: „Quadratische Funktionen – Eigenschaften“ vor der Form y = a(x + d)² + e als Eigenschaften und Streckfaktor (Einheit 1) gelesen.
+  - Einheit 1: Mathematik heute führt das Kapitel „Quadratische Funktionen und Gleichungen“ wortgleich in Band 9 (Kap. 7) und Band 10 (Kap. 1); beide Stellen stehen da, die Einführungsklasse der Reihe ist 9.
+  - Einheit 2, Sekundo Kl. 10: y = ax² + c: Verschiebung längs der y-Achse, als Vorstufe der Scheitelpunktform gelesen.
+  - Einheit 2, Schnittpunkt Kl. 9: y = x² + c als verschobene Normalparabel (Einheit 2) gelesen.
+  - Einheit 2, LS Kl. 9: Aufstellen von Funktionsgleichungen als Scheitelpunktform aus Graph oder Scheitel gelesen.
+  - Einheit 2, mathe.delta Kl. 9: Aufstellen von Parabelgleichungen als Scheitelpunktform aus Graph oder Scheitel gelesen.
+  - Einheit 4, mathe.delta Kl. 9: Systeme quadratischer Gleichungen als Schnittpunkte von Parabel und Gerade gelesen.
+  - Einheiten 1, 2, 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheiten 1, 2, 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 10 „Quadratische Funktionen (Schülerband Seite 98 bis 127)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### quadratische-gleichungen – Quadratische Gleichungen lösen – rechnerisch (Wurzelziehen, Satz vom Nullprodukt, p-q-Formel), durch Probieren und grafisch; Lösbarkeit und Lösungsvielfalt (zwei, eine, keine Lösung); Gleichungen aus Sachverhalten: Stufe G (Gymnasium Kl. 9; Oberschule 9–10 „in Teilen G“, für den MSA nötig).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Wurzelziehen und Lösbarkeit
+  - Sekundo Kl. 10, S. 45: „Quadratische Gleichungen“ (Z. 535)
+    Ermessen: „Quadratische Gleichungen“ als Einstieg in das Lösen gelesen (Einheit 1); ohne Unterkapitel nicht feiner zuzuordnen.
+  - Sekundo Kl. 10, S. 46: „Sonderfälle quadratischer Gleichungen“ (Z. 536)
+    Ermessen: „Sonderfälle“: reinquadratische Gleichungen und solche ohne Absolutglied – Einheiten 1 und 2 zugeordnet.
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 10, S. 17: „5 Quadratische Gleichungen“ (Z. 484)
+    Ermessen: „Quadratische Gleichungen“ ohne Unterkapitel als Einstieg (Einheit 1) gelesen; die Lösungsformel folgt S. 20.
+  - Mathematik heute Kl. 9, S. 199: „Quadratische Gleichungen“ (Z. 257)
+    Ermessen: „Quadratische Gleichungen“ ohne Zusatz als Einstieg (Einheit 1) gelesen; das rechnerische Lösen folgt S. 204.
+  - Mathematik heute Kl. 9, S. 203: „Im Blickpunkt: Grafisches Lösen einer quadratischen Gleichung“ (Z. 258, 259)
+  - Mathematik heute Kl. 10, S. 35: „Quadratische Gleichungen“ (Z. 303)
+  - Mathematik heute Kl. 10, S. 39: „Im Blickpunkt: Grafisches Lösen einer quadratischen Gleichung“ (Z. 305, 306)
+  - LS Kl. 9: „Kapitel II Quadratische Gleichungen“ (Z. 185) › „2 Quadratische Gleichungen grafisch lösen“ (Z. 187)
+  - LS Kl. 9: „Kapitel II Quadratische Gleichungen“ (Z. 185) › „3 Lösen einfacher quadratischer Gleichungen“ (Z. 188)
+  - Fundamente Kl. 8, S. 181: „6.4 Quadratische Gleichungen der Form x2 = a“ (Z. 228)
+  - Fundamente Kl. 9, S. 114: „3.9 Quadratische Gleichungen lösen“ (Z. 329)
+    Ermessen: „Quadratische Gleichungen lösen“ vor den Lösungsformeln als Wurzelziehen und Nullprodukt gelesen (Einheiten 1 und 2).
+  - Fundamente 2017 Kl. 9, S. 75: „2.7 Einfache quadratische G leich u n gen“ (Z. 267)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 50: „2.2 Normalparabel - Gleichungen der Form x2 = r“ (Z. 378)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 56: „2.3.2 Verschieben der Normalparabel parallel zur x-Achse - Gleichungen der Form (x + d)2 = r“ (Z. 381, 382)
+  - mathe.delta Kl. 9, S. 92: „3.1 Quadratische Gleichungen der Form x2 + q = 0“ (Z. 604)
+  - Typ: x² = c mit Quadratzahl lösen, beide Lösungen (x₁ = √c, x₂ = −√c) – Elemente Kl. 9 (Ausgabe 2016), S. 50: „2.2 Normalparabel - Gleichungen der Form x2 = r“
+  - Typ: (x − d)² = c rückwärts rechnen (zwei Fälle x − d = √c und x − d = −√c, dann d hinüberbringen) – Elemente Kl. 9 (Ausgabe 2016), S. 56: „2.3.2 Verschieben der Normalparabel parallel zur x-Achse - Gleichungen der Form (x + d)2 = r“
+  - Typ: x² = c mit Quadratzahl lösen, beide Lösungen (x₁ = √c, x₂ = −√c) – Fundamente Kl. 8, S. 181: „6.4 Quadratische Gleichungen der Form x2 = a“
+  - Typ: Zahl der Lösungen am Graphen ablesen (Parabel und waagerechte Gerade y = c; Nullstellen als Sonderfall c = 0) – LS Kl. 9: „2 Quadratische Gleichungen grafisch lösen“
+  - Typ: x² freistellen bei a·x² + b = 0 und a·x² = b (erst umformen, dann Wurzel) – mathe.delta Kl. 9, S. 92: „3.1 Quadratische Gleichungen der Form x2 + q = 0“
+  - Typ: Zahl der Lösungen am Graphen ablesen (Parabel und waagerechte Gerade y = c; Nullstellen als Sonderfall c = 0) – Mathematik heute Kl. 9, S. 203: „Im Blickpunkt: Grafisches Lösen einer quadratischen Gleichung“
+  - Typ: Zahl der Lösungen am Graphen ablesen (Parabel und waagerechte Gerade y = c; Nullstellen als Sonderfall c = 0) – Mathematik heute Kl. 10, S. 39: „Im Blickpunkt: Grafisches Lösen einer quadratischen Gleichung“
+  - Marken: Mathematik heute Kl. 9: „Im Blickpunkt: Grafisches Lösen einer quadratischen Gleichung“; Mathematik heute Kl. 10: „Im Blickpunkt: Grafisches Lösen einer quadratischen Gleichung“; Sekundo Kl. 10: „Sonderfälle quadratischer Gleichungen“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 8: „Quadratische Gleichungen (1)“ (Z. 395)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 17: „Quadratische Gleichungen (Schülerband Seite 74 bis 95)“ (Z. 68)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9–10 (Sekundo 10, Mathematik 2023 –, Schnittpunkt 10, Mathematik heute 9, 10); Streuung der Einführung: Sekundo 10, Schnittpunkt 10 später als Kl. 9
+  - GYM: Kl. 8–9 (LS 9, Fundamente 8, 9, Elemente 9, mathe.delta 9); Streuung der Einführung: LS 9, Elemente 9, mathe.delta 9 später als Kl. 8
+- 2. Satz vom Nullprodukt
+  - Sekundo Kl. 10, S. 46: „Sonderfälle quadratischer Gleichungen“ (Z. 536)
+    Ermessen: wie Einheit 1.
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 9: „Kapitel II Quadratische Gleichungen“ (Z. 185) › „4 Linearfaktorzerlegung“ (Z. 189)
+  - Fundamente Kl. 9, S. 108: „3.7 Faktorisierte Form“ (Z. 327)
+    Ermessen: Die faktorisierte Form y = a(x − x₁)(x − x₂) zeigt die Nullstellen als Produkt; als Satz vom Nullprodukt (Einheit 2) gelesen.
+  - Fundamente Kl. 9, S. 114: „3.9 Quadratische Gleichungen lösen“ (Z. 329)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 64: „1.12 Gleichungen vom Typ T v T2 = 0“ (Z. 251)
+    Ermessen: „Gleichungen vom Typ T₁ · T₂ = 0“ (Texterkennung „T v T2“) ist der Satz vom Nullprodukt; Elemente führt ihn schon Kl. 8 im Kapitel Terme.
+  - Elemente Kl. 9 (Ausgabe 2016), S. 83: „2.7 Linearfaktorzerlegung quadratischer Terme“ (Z. 391)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Produktform (x − a)·(x − b) = 0, jeden Faktor null setzen – Elemente Kl. 8 (Ausgabe 2016), S. 64: „1.12 Gleichungen vom Typ T v T2 = 0“
+  - Typ: Nullstellen einer Normalform durch Faktorisieren als Alternative zur Formel (Vorrat) – Elemente Kl. 9 (Ausgabe 2016), S. 83: „2.7 Linearfaktorzerlegung quadratischer Terme“
+  - Typ: Nullstellen einer Normalform durch Faktorisieren als Alternative zur Formel (Vorrat) – Fundamente Kl. 9, S. 108: „3.7 Faktorisierte Form“
+  - Marken: Sekundo Kl. 10: „Sonderfälle quadratischer Gleichungen“
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 17: „Quadratische Gleichungen (Schülerband Seite 74 bis 95)“ (Z. 68)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 –, Schnittpunkt –, Mathematik heute –)
+  - GYM: Kl. 8–9 (LS 9, Fundamente 9, Elemente 8, 9, mathe.delta –); Streuung der Einführung: LS 9, Fundamente 9 später als Kl. 8
+- 3. Normalform und p-q-Formel
+  - Sekundo Kl. 10, S. 47: „Rechnerische Lösung mit quadratischer Ergänzung“ (Z. 537, 538)
+    Ermessen: Lösen mit quadratischer Ergänzung als Vorstufe der Lösungsformel (Einheit 3) gelesen.
+  - Sekundo Kl. 10, S. 48: „Lösungsformel für quadratische Gleichungen“ (Z. 539)
+  - Mathematik 2023 Kl. 9, S. 87: „Quadratische Gleichungen der Form x2 + px + q = 0“ (Z. 439, 440)
+  - Mathematik 2023 Kl. 9, S. 103: „Vertiefen: Quadratische Gleichungen grafisch lösen“ (Z. 454, 455)
+  - Schnittpunkt Kl. 10, S. 20: „6 Lösungsformel“ (Z. 485)
+  - Mathematik heute Kl. 9, S. 204: „Quadratische Gleichungen - Rechnerisches Lösen“ (Z. 260, 261)
+  - Mathematik heute Kl. 10, S. 40: „Quadratische Gleichungen - Rechnerisches Lösen“ (Z. 308, 309)
+  - LS Kl. 9: „Kapitel II Quadratische Gleichungen“ (Z. 185) › „5 Lösungsformel für quadratische Gleichungen“ (Z. 190)
+  - Fundamente Kl. 9, S. 118: „3.10 Lösungsformeln für quadratische Gleichungen“ (Z. 330)
+  - Fundamente 2017 Kl. 9, S. 79: „2.8 Quadratische Ergänzungen und die p-q-Formel“ (Z. 268)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 59: „2.3.3 Verschieben der Normalparabel in beliebiger Richtung - Scheitelpunktform - Quadratische Gleichungen der Form x2 + px + q = 0“ (Z. 383, 384, 385)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 71: „2.5 Strecken und Verschieben der Normalparabel - Gleichungen der Form ax2 + bx + c = 0“ (Z. 387, 388)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 80: „2.6 Strategien zum Lösen quadratischer Gleichungen“ (Z. 390)
+  - mathe.delta Kl. 9, S. 96: „3.2 Quadratische Gleichungen der Form x2 + px + q = 0“ (Z. 605, 606)
+  - mathe.delta Kl. 9, S. 100: „3.3 Lösungsformel für quadratische Gleichungen“ (Z. 607)
+  - Typ: Normieren: durch die Vorzahl von x² teilen, auch bei negativer Vorzahl – Elemente Kl. 9 (Ausgabe 2016), S. 71: „2.5 Strecken und Verschieben der Normalparabel - Gleichungen der Form ax2 + bx + c = 0“
+  - Typ: Lösungsweg wählen: Wurzelziehen, Nullprodukt oder Formel – Elemente Kl. 9 (Ausgabe 2016), S. 80: „2.6 Strategien zum Lösen quadratischer Gleichungen“
+  - Typ: grafische Kontrolle an der Parabel (Vorrat) – Mathematik 2023 Kl. 9, S. 103: „Vertiefen: Quadratische Gleichungen grafisch lösen“
+  - Typ: p-q-Formel mit ganzzahligen Lösungen (Diskriminante Quadratzahl) – mathe.delta Kl. 9, S. 100: „3.3 Lösungsformel für quadratische Gleichungen“
+  - Typ: p-q-Formel mit ganzzahligen Lösungen (Diskriminante Quadratzahl) – Sekundo Kl. 10, S. 48: „Lösungsformel für quadratische Gleichungen“
+  - Typ: p-q-Formel mit ganzzahligen Lösungen (Diskriminante Quadratzahl) – Schnittpunkt Kl. 10, S. 20: „6 Lösungsformel“
+  - Marken: Mathematik 2023 Kl. 9: „Vertiefen: Quadratische Gleichungen grafisch lösen“; Sekundo Kl. 10: Zeichen „•“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Rechnerische Lösung mit quadratischer Ergänzung“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 10: „Lösungsformel“ (Z. 397)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 17: „Quadratische Gleichungen (Schülerband Seite 74 bis 95)“ (Z. 68)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9–10 (Sekundo 10, Mathematik 2023 9, Schnittpunkt 10, Mathematik heute 9, 10); Streuung der Einführung: Sekundo 10, Schnittpunkt 10 später als Kl. 9
+  - GYM: Kl. 9 (LS 9, Fundamente 9, Elemente 9, mathe.delta 9)
+- 4. Sachaufgaben
+  - Sekundo Kl. 10, S. 50: „81 Anwendungen“ (Z. 540)
+    Ermessen: „81 Anwendungen“: „81“ ist ein verstümmeltes Symbolzeichen; die Seite folgt auf die Lösungsformel.
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Mathematik heute Kl. 9, S. 212: „Anwenden von quadratischen Gleichungen“ (Z. 262)
+  - Mathematik heute Kl. 10, S. 48: „Anwenden von quadratischen Gleichungen“ (Z. 310)
+  - LS Kl. 9: „Kapitel II Quadratische Gleichungen“ (Z. 185) › „6 Problemlösen mit quadratischen Gleichungen“ (Z. 191)
+  - Fundamente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 92: „2.9 Zum Selbstlernen Modellieren - Anwenden von quadratischen Gleichungen“ (Z. 394, 395)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Marken: Elemente Kl. 9 (Ausgabe 2016): „2.9 Zum Selbstlernen Modellieren - Anwenden von quadratischen Gleichungen“
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 42: „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“ (Z. 61)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 17: „Quadratische Gleichungen (Schülerband Seite 74 bis 95)“ (Z. 68)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 9–10 (Sekundo 10, Mathematik 2023 –, Schnittpunkt –, Mathematik heute 9, 10); Streuung der Einführung: Sekundo 10 später als Kl. 9
+  - GYM: Kl. 9 (LS 9, Fundamente –, Elemente 9, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 9–10, GYM Kl. 8–9; Einheit 2: OS Kl. 10, GYM Kl. 8–9; Einheit 3: OS Kl. 9–10, GYM Kl. 9; Einheit 4: OS Kl. 9–10, GYM Kl. 9; ohne gemeinsame Klasse: Einheit 2)
+- Boden: nein
+- Ermessen (12):
+  - Einheit 1, Sekundo Kl. 10: „Quadratische Gleichungen“ als Einstieg in das Lösen gelesen (Einheit 1); ohne Unterkapitel nicht feiner zuzuordnen.
+  - Einheit 1, Sekundo Kl. 10: „Sonderfälle“: reinquadratische Gleichungen und solche ohne Absolutglied – Einheiten 1 und 2 zugeordnet.
+  - Einheit 1, Schnittpunkt Kl. 10: „Quadratische Gleichungen“ ohne Unterkapitel als Einstieg (Einheit 1) gelesen; die Lösungsformel folgt S. 20.
+  - Einheit 1, Mathematik heute Kl. 9: „Quadratische Gleichungen“ ohne Zusatz als Einstieg (Einheit 1) gelesen; das rechnerische Lösen folgt S. 204.
+  - Einheit 1, Fundamente Kl. 9: „Quadratische Gleichungen lösen“ vor den Lösungsformeln als Wurzelziehen und Nullprodukt gelesen (Einheiten 1 und 2).
+  - Einheit 2, Sekundo Kl. 10: wie Einheit 1.
+  - Einheit 2, Fundamente Kl. 9: Die faktorisierte Form y = a(x − x₁)(x − x₂) zeigt die Nullstellen als Produkt; als Satz vom Nullprodukt (Einheit 2) gelesen.
+  - Einheit 2, Elemente Kl. 8 (Ausgabe 2016): „Gleichungen vom Typ T₁ · T₂ = 0“ (Texterkennung „T v T2“) ist der Satz vom Nullprodukt; Elemente führt ihn schon Kl. 8 im Kapitel Terme.
+  - Einheit 3, Sekundo Kl. 10: Lösen mit quadratischer Ergänzung als Vorstufe der Lösungsformel (Einheit 3) gelesen.
+  - Einheit 4, Sekundo Kl. 10: „81 Anwendungen“: „81“ ist ein verstümmeltes Symbolzeichen; die Seite folgt auf die Lösungsformel.
+  - Einheiten 1, 2, 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Quadratische Funktionen und Gleichungen (Schülerband Seite 184 bis 207)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheiten 1, 2, 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 10 „Quadratische Gleichungen (Schülerband Seite 74 bis 95)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### potenz-exponentialfunktionen – Exponentielles Wachstum und Zerfall stehen im RLP auf G unter Gleichungen und Funktionen: die Exponentialfunktion y = a · bˣ ist dort neben der quadratischen und der trigonometrischen Funktion ein Funktionstyp, dessen Merkmale bestimmt, dargestellt, ineinander übersetzt und den anderen Typen gegenübergestellt werden; das Modellieren von Wachstums- und Zerfallsprozessen steht in derselben Stufe.
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Lineares und exponentielles Wachstum unterscheiden
+  - Sekundo Kl. 10, S. 92: „Potenzenfunktionen“ (Z. 533)
+    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1 (Unterscheidung vom exponentiellen Term).
+  - Sekundo Kl. 10, S. 135: „LVL: Wachstum und Veränderung“ (Z. 590)
+  - Sekundo Kl. 10, S. 139: „Lineares, quadratisches und exponentielles Wachstum“ (Z. 594, 595)
+  - Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548)
+    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Mathematik 2023 Kl. 10, S. 120: „Wachstumsprozesse“ (Z. 596)
+  - Mathematik 2023 Kl. 10, S. 122: „Lineares Wachstum“ (Z. 597)
+  - Mathematik 2023 Kl. 10, S. 126: „Exponentielles Wachstum“ (Z. 599)
+  - Mathematik 2023 Kl. 10, S. 128: „Wachstumsprozesse unterscheiden“ (Z. 600)
+  - Mathematik 2023 Kl. 10, S. 134: „Vertiefen: Wachstum vergleichen“ (Z. 604)
+  - Schnittpunkt Kl. 10, S. 93: „5 Wachstumsprozesse unterscheiden“ (Z. 533)
+  - Schnittpunkt Kl. 10, S. 134: „2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 562)
+    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Mathematik heute Kl. 10, S. 126: „Lineare und exponentielle Zunahme“ (Z. 290)
+  - Mathematik heute Kl. 10, S. 131: „Lineare und exponentielle Abnahme“ (Z. 292)
+  - Mathematik heute Kl. 10, S. 142: „Im Blickpunkt; Vergleich von exponentiellen, linearen und quadratischen Funktionen“ (Z. 296, 297)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „7 Potenzfunktionen mit natürlichen Exponenten“ (Z. 199)
+    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „1 Exponentielles Wachstum“ (Z. 220)
+  - Fundamente Kl. 9, S. 204: „6.2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 372)
+    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Fundamente Kl. 10, S. 10: „1.2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 405)
+  - Fundamente Kl. 10, S. 44: „2.1 Exponentielles Wachstum“ (Z. 419)
+  - Fundamente 2017 Kl. 9, S. 194: „6.1 Potenzfunktionen mit natürlichen Exponenten“ (Z. 313)
+  - Fundamente 2017 Kl. 10, S. 44: „2.1 Exponentielles Wachstum“ (Z. 352)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 200: „5.4.1 Potenzfunktionen mit natürlichen Exponenten“ (Z. 450)
+    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Elemente Kl. 10 (Ausgabe 2016), S. 88: „3.1.1 Lineares und exponentielles Wachstum“ (Z. 511)
+  - mathe.delta Kl. 9, S. 188: „6.1 Potenzfunktionen mit natürlichem Exponenten“ (Z. 657)
+    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - mathe.delta Kl. 10, S. 120: „4.1 Wachstumsprozesse“ (Z. 740)
+  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Elemente Kl. 9 (Ausgabe 2016), S. 200: „5.4.1 Potenzfunktionen mit natürlichen Exponenten“
+  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Fundamente Kl. 9, S. 204: „6.2 Potenzfunktionen mit natürlichen Exponenten“
+  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – LS Kl. 9: „7 Potenzfunktionen mit natürlichen Exponenten“
+  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“
+  - Typ: an einer Tabelle entscheiden, ob die Zunahme immer gleich groß ist (Differenzen) oder immer derselbe Faktor wirkt (Quotienten) – Mathematik 2023 Kl. 10, S. 128: „Wachstumsprozesse unterscheiden“
+  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – mathe.delta Kl. 9, S. 188: „6.1 Potenzfunktionen mit natürlichem Exponenten“
+  - Typ: Zunahme und Abnahme unterscheiden (Faktor größer oder kleiner als eins) – Mathematik heute Kl. 10, S. 131: „Lineare und exponentielle Abnahme“
+  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Sekundo Kl. 10, S. 92: „Potenzenfunktionen“
+  - Typ: an einer Tabelle entscheiden, ob die Zunahme immer gleich groß ist (Differenzen) oder immer derselbe Faktor wirkt (Quotienten) – Schnittpunkt Kl. 10, S. 93: „5 Wachstumsprozesse unterscheiden“
+  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Schnittpunkt Kl. 10, S. 134: „2 Potenzfunktionen mit natürlichen Exponenten“
+  - Marken: Fundamente Kl. 10: Kapitel „Potenzfunktionen (Wiederholung aus Klasse 9)“ bei „1.2 Potenzfunktionen mit natürlichen Exponenten“; Mathematik 2023 Kl. 10: „Vertiefen: Wachstum vergleichen“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Potenzenfunktionen“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2448 („*“) bei „Potenzenfunktionen“; Sekundo Kl. 10: „LVL: Wachstum und Veränderung“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Lineares, quadratisches und exponentielles Wachstum“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 37: „Wachstumsprozesse unterscheiden“ (Z. 430)
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 9 (LS 9, 10, Fundamente 9, 10, Elemente 9, 10, mathe.delta 9, 10)
+- 2. Wachstumsfaktor und Wachstumstabelle
+  - Sekundo Kl. 10, S. 136: „Exponentielles Wachstum und exponentieller Zerfall“ (Z. 592, 593)
+    Ermessen: Die Seite nennt Wachstum und Zerfall; als Wachstumsfaktor und Tabelle (Einheit 2) gelesen, die Gleichung folgt S. 142.
+  - Mathematik 2023 Kl. 10, S. 40: „Exponentielle Zunahme“ (Z. 578)
+  - Mathematik 2023 Kl. 10, S. 42: „Exponentielle Abnahme“ (Z. 579)
+  - Schnittpunkt Kl. 10, S. 88: „3 Exponentielles Wachstum. Exponentielle Abnahme“ (Z. 531)
+    Ermessen: Exponentielles Wachstum und Abnahme als Wachstumsfaktor und Tabelle (Einheit 2) gelesen.
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „1 Exponentielles Wachstum“ (Z. 220)
+    Ermessen: „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet.
+  - Fundamente Kl. 10, S. 44: „2.1 Exponentielles Wachstum“ (Z. 419)
+    Ermessen: „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet.
+  - Fundamente 2017 Kl. 10, S. 50: „2.2 Prozentuale Wachstumsrate und Zinseszins“ (Z. 353)
+  - Fundamente 2017 Kl. 10, S. 54: „2.3 Exponentielle Abnahme“ (Z. 354)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 92: „3.1.2 Prozentuale Wachstumsrate“ (Z. 512)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 94: „3.1.3 Exponentielle Abnahme - Zerfall“ (Z. 513)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Prozentsatz in den Faktor umrechnen, Zunahme und Abnahme – Elemente Kl. 10 (Ausgabe 2016), S. 92: „3.1.2 Prozentuale Wachstumsrate“
+  - Typ: Tabelle für einen Zerfall mit Faktor kleiner eins fortschreiben – Elemente Kl. 10 (Ausgabe 2016), S. 94: „3.1.3 Exponentielle Abnahme - Zerfall“
+  - Typ: Tabelle für einen Zerfall mit Faktor kleiner eins fortschreiben – Mathematik 2023 Kl. 10, S. 42: „Exponentielle Abnahme“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 35: „Exponentielles Wachstum. Exponentielle Abnahme“ (Z. 428)
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute –)
+  - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta –)
+- 3. Exponentialfunktion aufstellen und auswerten
+  - Sekundo Kl. 10, S. 141: „LVL: Exponentialfunktion“ (Z. 596)
+  - Sekundo Kl. 10, S. 142: „Exponentialfunktion“ (Z. 597)
+  - Mathematik 2023 Kl. 10, S. 36: „Funktionsgleichung f(x) = bx“ (Z. 574)
+  - Mathematik 2023 Kl. 10, S. 38: „Funktionsgleichung f(x) = abx“ (Z. 575)
+  - Schnittpunkt Kl. 10, S. 140: „4 Exponentialfunktionen“ (Z. 565)
+  - Mathematik heute Kl. 10, S. 136: „Exponentialfunktionen und ihre Eigenschaften“ (Z. 294)
+  - LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „2 Exponentialfunktionen“ (Z. 221)
+  - LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „4 Wachstumsprozesse modellieren“ (Z. 223)
+    Ermessen: Modellieren von Wachstumsprozessen als Aufstellen und Auswerten der Exponentialfunktion (Einheit 3) gelesen.
+  - Fundamente Kl. 10, S. 49: „2.2 Exponentialfunktion“ (Z. 420)
+  - Fundamente Kl. 10, S. 59: „2.4 Wachstumsmodelle“ (Z. 422)
+  - Fundamente 2017 Kl. 10, S. 57: „2.4 Exponentialfunktionen“ (Z. 355)
+  - Fundamente 2017 Kl. 10, S. 63: „2.5 Wachstumsvorgänge modellieren“ (Z. 356)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 99: „3.2 Exponentialfunktionen und ihre Eigenschaften“ (Z. 515)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 111: „3.4 Bestimmen von Exponentialfunktionen in Anwendungen“ (Z. 520)
+  - mathe.delta Kl. 10, S. 122: „4.2 Exponentialfunktion“ (Z. 741)
+  - mathe.delta Kl. 10, S. 126: „4.3 Einfluss der Parameter auf die Exponentialfunktion“ (Z. 742)
+  - Typ: Gleichung y = a · qˣ aufstellen (Zunahme und Abnahme) – Elemente Kl. 10 (Ausgabe 2016), S. 111: „3.4 Bestimmen von Exponentialfunktionen in Anwendungen“
+  - Typ: Gleichung y = a · qˣ aufstellen (Zunahme und Abnahme) – Mathematik 2023 Kl. 10, S. 38: „Funktionsgleichung f(x) = abx“
+  - Marken: Sekundo Kl. 10: „LVL: Exponentialfunktion“; Sekundo Kl. 10: Zeichen „W“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „LVL: Exponentialfunktion“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Exponentialfunktion“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 48: „Exponentialfunktionen“ (Z. 445)
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta 10)
+- 4. Verdopplungs- und Halbwertszeit
+  - Sekundo Kl. 10, S. 143: „LVL: Exponent gesucht“ (Z. 598)
+    Ermessen: „Exponent gesucht“ als Zeitpunkt zu gegebenem Wert gelesen.
+  - Sekundo Kl. 10, S. 144: „Logarithmus“ (Z. 599)
+  - Sekundo Kl. 10, S. 145: „Berechnung des Exponenten bei exponentiellem Wachstum oder Zerfall“ (Z. 600, 601)
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 10, S. 91: „4 Verdopplungszeit. Halbwertszeit“ (Z. 532)
+  - Schnittpunkt Kl. 10, S. 96: „6 Exponentialgleichung. Logarithmus“ (Z. 534)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „3 Exponentialgleichungen und Logarithmen“ (Z. 222)
+  - Fundamente Kl. 10, S. 54: „2.3 Exponentialgleichungen und Logarithmus“ (Z. 421)
+  - Fundamente 2017 Kl. 10, S. 68: „2.6 Exponentialgleichungen und Logarithmus“ (Z. 357)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 117: „3.6.1 Logarithmen“ (Z. 523)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 120: „3.6.2 Lösen von Exponentialgleichungen“ (Z. 524)
+  - mathe.delta Kl. 10, S. 130: „4.4 Logarithmus“ (Z. 743)
+  - mathe.delta Kl. 10, S. 138: „4.6 Exponentialgleichungen“ (Z. 745)
+  - Typ: Logarithmus für den genauen Zeitpunkt (Vorrat) – Elemente Kl. 10 (Ausgabe 2016), S. 117: „3.6.1 Logarithmen“
+  - Typ: Logarithmus für den genauen Zeitpunkt (Vorrat) – Fundamente Kl. 10, S. 54: „2.3 Exponentialgleichungen und Logarithmus“
+  - Typ: Logarithmus für den genauen Zeitpunkt (Vorrat) – LS Kl. 10: „3 Exponentialgleichungen und Logarithmen“
+  - Typ: Logarithmus für den genauen Zeitpunkt (Vorrat) – mathe.delta Kl. 10, S. 130: „4.4 Logarithmus“
+  - Typ: Logarithmus für den genauen Zeitpunkt (Vorrat) – Sekundo Kl. 10, S. 144: „Logarithmus“
+  - Typ: Halbwertszeit beim Zerfall, Verdopplungszeit beim Wachstum benennen – Schnittpunkt Kl. 10, S. 91: „4 Verdopplungszeit. Halbwertszeit“
+  - Typ: Logarithmus für den genauen Zeitpunkt (Vorrat) – Schnittpunkt Kl. 10, S. 96: „6 Exponentialgleichung. Logarithmus“
+  - Marken: Sekundo Kl. 10: „LVL: Exponent gesucht“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2627 („*“) bei „LVL: Exponent gesucht“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Logarithmus“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2628 („*“) bei „Logarithmus“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Berechnung des Exponenten bei exponentiellem Wachstum oder Zerfall“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2629 („*“) bei „Berechnung des Exponenten bei exponentiellem Wachstum oder Zerfall“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 36: „Verdopplungszeit. Halbwertszeit“ (Z. 429)
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 –, Schnittpunkt 10, Mathematik heute –)
+  - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta 10)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 10, GYM Kl. 9; ohne gemeinsame Klasse: Einheit 1)
+- Boden: nein
+- Ermessen (13):
+  - Einheit 1, Sekundo Kl. 10: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1 (Unterscheidung vom exponentiellen Term).
+  - Einheit 1, Mathematik 2023 Kl. 10: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Einheit 1, Schnittpunkt Kl. 10: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Einheit 1, LS Kl. 9: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Einheit 1, Fundamente Kl. 9: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Einheit 1, Elemente Kl. 9 (Ausgabe 2016): Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Einheit 1, mathe.delta Kl. 9: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+  - Einheit 2, Sekundo Kl. 10: Die Seite nennt Wachstum und Zerfall; als Wachstumsfaktor und Tabelle (Einheit 2) gelesen, die Gleichung folgt S. 142.
+  - Einheit 2, Schnittpunkt Kl. 10: Exponentielles Wachstum und Abnahme als Wachstumsfaktor und Tabelle (Einheit 2) gelesen.
+  - Einheit 2, LS Kl. 10: „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet.
+  - Einheit 2, Fundamente Kl. 10: „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet.
+  - Einheit 3, LS Kl. 10: Modellieren von Wachstumsprozessen als Aufstellen und Auswerten der Exponentialfunktion (Einheit 3) gelesen.
+  - Einheit 4, Sekundo Kl. 10: „Exponent gesucht“ als Zeitpunkt zu gegebenem Wert gelesen.
+
+### trigonometrische-funktionen – Der Befund ist für die Verortung entscheidend: **die trigonometrische Funktion steht wie die Exponentialfunktion auf G, nicht auf H** – anders, als der Index bis 09e angenommen hat (Spalte „Stufe H“, Spalte „Klasse 10 / –“).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Einheitskreis und Bogenmaß
+  - Sekundo Kl. 10, S. 102: „LVL: Winkel im Einheitskreis, Winkelfunktion Sinus (sin)“ (Z. 544, 545)
+  - Sekundo Kl. 10, S. 123: „Bogenmaß“ (Z. 566)
+  - Mathematik 2023 Kl. 10, S. 80: „Sinus am Einheitskreis“ (Z. 590)
+  - Mathematik 2023 Kl. 10, S. 83: „Kosinus am Einheitskreis“ (Z. 594)
+  - Mathematik 2023 Kl. 10, S. 84: „Die Sinusfunktion mit Winkeln im Bogenmaß“ (Z. 595, 596)
+    Ermessen: Das Bogenmaß wird hier mit der Sinusfunktion eingeführt; auch Einheit 1 (Bogenmaß) zugeordnet.
+  - Schnittpunkt Kl. 10, S. 55: „EXTRA: Bogenmaß“ (Z. 505)
+  - Mathematik heute Kl. 10, S. 178: „Sinus eines Winkels am Einheitskreis“ (Z. 324)
+  - LS Kl. 10: „Kapitel IV Trigonometrische Funktionen“ (Z. 230) › „1 Sinus und Kosinus am Einheitskreis“ (Z. 231)
+  - Fundamente Kl. 9, S. 184: „Streifzug: Sinus und Kosinus für beliebige Winkel“ (Z. 359)
+    Ermessen: Sinus und Kosinus für beliebige Winkel als Einheitskreis (Einheit 1) gelesen.
+  - Fundamente Kl. 10, S. 80: „3.2 Winkel im Bogenmaß“ (Z. 432)
+  - Fundamente 2017 Kl. 10, S. 28: „Streifzug: Sinus und Kosinus für beliebige Winkel“ (Z. 344)
+  - Fundamente 2017 Kl. 10, S. 92: „3.3 Winkel im Bogenmaß“ (Z. 368)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 15: „1.2 Sinus und Kosinus am Einheitskreis“ (Z. 475)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 19: „1.3.1 Bogenmaß eines Winkels“ (Z. 477)
+  - mathe.delta Kl. 10, S. 18: „1.1 Das Bogenmaß“ (Z. 688)
+  - mathe.delta Kl. 10, S. 20: „1.2 Sinus und Kosinus am Einheitskreis“ (Z. 689)
+  - Typ: Winkel vom Gradmaß ins Bogenmaß umrechnen – Elemente Kl. 10 (Ausgabe 2016), S. 19: „1.3.1 Bogenmaß eines Winkels“
+  - Typ: Winkel vom Gradmaß ins Bogenmaß umrechnen – Fundamente Kl. 10, S. 80: „3.2 Winkel im Bogenmaß“
+  - Typ: Sinuswert als Hochkoordinate und Kosinuswert als Rechtskoordinate ablesen – Mathematik 2023 Kl. 10, S. 80: „Sinus am Einheitskreis“
+  - Typ: Winkel vom Gradmaß ins Bogenmaß umrechnen – mathe.delta Kl. 10, S. 18: „1.1 Das Bogenmaß“
+  - Typ: Winkel vom Gradmaß ins Bogenmaß umrechnen – Sekundo Kl. 10, S. 123: „Bogenmaß“
+  - Typ: Winkel vom Gradmaß ins Bogenmaß umrechnen – Schnittpunkt Kl. 10, S. 55: „EXTRA: Bogenmaß“
+  - Marken: Fundamente Kl. 9: „Streifzug: Sinus und Kosinus für beliebige Winkel“; Fundamente 2017 Kl. 10: „Streifzug: Sinus und Kosinus für beliebige Winkel“; Sekundo Kl. 10: „LVL: Winkel im Einheitskreis, Winkelfunktion Sinus (sin)“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Bogenmaß“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2539 („*“) bei „Bogenmaß“; Schnittpunkt Kl. 10: „EXTRA: Bogenmaß“
+  - Förderheft: keine Stelle
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 9–10 (LS 10, Fundamente 9, 10, Elemente 10, mathe.delta 10); Streuung der Einführung: LS 10, Elemente 10, mathe.delta 10 später als Kl. 9
+- 2. Sinus- und Kosinusfunktion und ihre Merkmale
+  - Sekundo: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Mathematik 2023 Kl. 10, S. 84: „Die Sinusfunktion mit Winkeln im Bogenmaß“ (Z. 595, 596)
+  - Mathematik 2023 Kl. 10, S. 88: „Die Kosinusfunktion mit Winkeln im Bogenmaß“ (Z. 597, 598)
+  - Schnittpunkt Kl. 10, S. 143: „5 Die Sinusfunktion f (a) = a • sin(b • a + <p)“ (Z. 567)
+  - Mathematik heute Kl. 10, S. 181: „Sinusfunktion - Eigenschaften“ (Z. 325)
+  - LS Kl. 10: „Kapitel IV Trigonometrische Funktionen“ (Z. 230) › „2 Sinusfunktion“ (Z. 232)
+  - Fundamente Kl. 10, S. 74: „3.1 Sinusfunktion und Kosinusfunktion“ (Z. 431)
+  - Fundamente 2017 Kl. 10, S. 85: „3.2 Sinusfunktion und Kosinusfunktion“ (Z. 366)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 21: „1.3.2 Definiton der Sinus- und Kosinusfunktion“ (Z. 478)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 23: „1.3.3 Eigenschaften der Sinus- und Kosinusfunktion“ (Z. 479)
+  - mathe.delta Kl. 10, S. 24: „1.3 Die Sinusfunktion“ (Z. 690)
+  - mathe.delta Kl. 10, S. 30: „1.5 Die Kosinusfunktion“ (Z. 692)
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 49: „Die Sinusfunktion f(a) = a · sin(b · a + φ)“ (Z. 446)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 31: „Sinusfunktionen (Schülerband Seite 128 bis 143)“ (Z. 70)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo –, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta 10)
+- 3. Parameter und Transformationen
+  - Sekundo: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 10, S. 143: „5 Die Sinusfunktion f (a) = a • sin(b • a + <p)“ (Z. 567)
+    Ermessen: Die Überschrift nennt die Parameter a, b und die Verschiebung; Einheiten 2 und 3 zugeordnet (Texterkennung: „a“ steht für α, „<p“ für φ).
+  - Mathematik heute Kl. 10, S. 187: „Funktionen mit der Gleichung y = a • sin x“ (Z. 327)
+  - LS Kl. 10: „Kapitel IV Trigonometrische Funktionen“ (Z. 230) › „3 Transformationen der Sinusfunktion“ (Z. 233)
+  - Fundamente Kl. 10, S. 87: „3.3 Verschieben der Sinuskurve“ (Z. 434)
+  - Fundamente Kl. 10, S. 89: „3.4 Strecken und Stauchen der Sinuskurve“ (Z. 435)
+  - Fundamente Kl. 10, S. 92: „3.5 Allgemeine Sinusfunktion“ (Z. 436)
+  - Fundamente 2017 Kl. 10, S. 97: „3.4 Sinusfunktionen mit Parametern“ (Z. 369)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 26: „1.4 Strecken des Graphen der Sinusfunktion“ (Z. 480)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 32: „1.5 Zum Selbstlernen Verschieben des Graphen der Sinusfunktion“ (Z. 481)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 35: „1.6 Allgemeine Sinusfunktion“ (Z. 482)
+  - mathe.delta Kl. 10, S. 26: „1.4 Einfluss der Parameter auf die Sinusfunktion“ (Z. 691)
+  - Typ: Verschiebung nach oben und unten mit d, Verschiebung zur Seite mit c (Vorrat, H, GYM) – Elemente Kl. 10 (Ausgabe 2016), S. 32: „1.5 Zum Selbstlernen Verschieben des Graphen der Sinusfunktion“
+  - Typ: Verschiebung nach oben und unten mit d, Verschiebung zur Seite mit c (Vorrat, H, GYM) – Fundamente Kl. 10, S. 87: „3.3 Verschieben der Sinuskurve“
+  - Typ: Amplitude aus einer Gleichung ablesen – Mathematik heute Kl. 10, S. 187: „Funktionen mit der Gleichung y = a • sin x“
+  - Marken: Elemente Kl. 10 (Ausgabe 2016): „1.5 Zum Selbstlernen Verschieben des Graphen der Sinusfunktion“
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 10, S. 31: „Sinusfunktionen (Schülerband Seite 128 bis 143)“ (Z. 70)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo –, Mathematik 2023 –, Schnittpunkt 10, Mathematik heute 10)
+  - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta 10)
+- 4. Periodische Vorgänge modellieren
+  - Sekundo Kl. 10, S. 124: „Periodische Vorgänge“ (Z. 567)
+  - Mathematik 2023 Kl. 10, S. 78: „Schwingungen und Wellen“ (Z. 589)
+    Ermessen: Einstiegsseite „Schwingungen und Wellen“ als periodische Vorgänge gelesen.
+  - Mathematik 2023 Kl. 10, S. 93: „Vertiefen: Schwingungen“ (Z. 603)
+  - Schnittpunkt Kl. 10, S. 146: „6 Kreisbewegungen“ (Z. 568)
+    Ermessen: „Kreisbewegungen“ als periodischer Vorgang (Einheit 4) gelesen.
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 10: „Kapitel IV Trigonometrische Funktionen“ (Z. 230) › „4 Beschreibung periodischer Vorgänge“ (Z. 234)
+  - Fundamente Kl. 10, S. 100: „3.6 Periodische Vorgänge modellieren“ (Z. 438)
+  - Fundamente 2017 Kl. 10, S. 82: „3.1 Periodische Vorgänge“ (Z. 365)
+  - Fundamente 2017 Kl. 10, S. 104: „3.5 Periodische Vorgänge modellieren“ (Z. 370)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 11: „1.1 Periodische Vorgänge“ (Z. 474)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 40: „1.7 Modellieren mit allgemeinen Sinusfunktionen“ (Z. 483)
+  - mathe.delta Kl. 10, S. 32: „1.6 Periodische Vorgänge im Alltag“ (Z. 693)
+  - Typ: Sinusgleichung zu einem Sachverhalt aufstellen – Elemente Kl. 10 (Ausgabe 2016), S. 40: „1.7 Modellieren mit allgemeinen Sinusfunktionen“
+  - Marken: Mathematik 2023 Kl. 10: „Vertiefen: Schwingungen“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Periodische Vorgänge“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2540 („*“) bei „Periodische Vorgänge“
+  - Förderheft: keine Stelle
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute –)
+  - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta 10)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 10, GYM Kl. 9–10)
+- Boden: nein
+- Ermessen (6):
+  - Einheit 1, Mathematik 2023 Kl. 10: Das Bogenmaß wird hier mit der Sinusfunktion eingeführt; auch Einheit 1 (Bogenmaß) zugeordnet.
+  - Einheit 1, Fundamente Kl. 9: Sinus und Kosinus für beliebige Winkel als Einheitskreis (Einheit 1) gelesen.
+  - Einheit 3, Schnittpunkt Kl. 10: Die Überschrift nennt die Parameter a, b und die Verschiebung; Einheiten 2 und 3 zugeordnet (Texterkennung: „a“ steht für α, „<p“ für φ).
+  - Einheit 4, Mathematik 2023 Kl. 10: Einstiegsseite „Schwingungen und Wellen“ als periodische Vorgänge gelesen.
+  - Einheit 4, Schnittpunkt Kl. 10: „Kreisbewegungen“ als periodischer Vorgang (Einheit 4) gelesen.
+  - Einheiten 2, 3, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 10 „Sinusfunktionen (Schülerband Seite 128 bis 143)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### daten – Strichlisten, Häufigkeitstabellen, Säulen- und Balkendiagramme lesen und zeichnen, Minimum, Maximum, Spannweite: Stufe C/D (Grundschule in Berlin/Brandenburg, LS-AA Klasse 5; für die Oberschule 7–8 regulär).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Häufigkeiten
+  - Sekundo Kl. 7, S. 158: „LVL: Umfragen“ (Z. 210)
+    Ermessen: „Umfragen“ als Daten sammeln (Einheit 1) gelesen.
+  - Mathematik 2023 Kl. 5, S. 79: „Daten sammeln, ordnen und darstellen“ (Z. 89)
+  - Mathematik 2023 Kl. 6, S. 136: „Üben: Eine Umfrage auswerten“ (Z. 262)
+    Ermessen: Umfrage auswerten als Häufigkeitstabelle gelesen.
+  - Mathematik 2023 Kl. 8, S. 60: „Eine statistische Erhebung planen“ (Z. 235)
+    Ermessen: Erhebung planen als Daten sammeln gelesen.
+  - Mathematik 2023 Kl. 9, S. 106: „Einzelne Schritte bei einer statistischen Erhebung“ (Z. 469, 470)
+    Ermessen: Statistische Erhebung als Daten sammeln (Einheit 1) gelesen.
+  - Schnittpunkt Kl. 5, S. 10: „1 Daten in Listen erfassen“ (Z. 38)
+  - Schnittpunkt Kl. 5, S. 19: „4 Eine Datenerhebung durchführen“ (Z. 42)
+  - Schnittpunkt Kl. 6, S. 208: „1 Diagramme und Häufigkeitstabellen“ (Z. 306)
+  - Schnittpunkt Kl. 6, S. 214: „3 Absolute und relative Häufigkeit“ (Z. 310)
+  - Schnittpunkt Kl. 8, S. 184: „1 Daten erfassen“ (Z. 306)
+  - Schnittpunkt Kl. 9, S. 138: „1 Vierfeldertafeln“ (Z. 419)
+    Ermessen: Vierfeldertafeln stehen im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1; im Kapitel „Daten“ (Kl. 9) dieser Einheit zugeordnet.
+  - Schnittpunkt Kl. 10, S. 119: „5 Vierfeldertafeln“ (Z. 551)
+    Ermessen: wie Kl. 9: Vierfeldertafel als Sek-II-Deutungstyp in daten Einheit 1.
+  - Mathematik heute Kl. 6, S. 198: „Absolute und relative Häufigkeiten von Daten - Grafische Darstellungen“ (Z. 148, 149)
+  - Mathematik heute Kl. 6, S. 207: „Durchführen einer Umfrage“ (Z. 150)
+  - Mathematik heute Kl. 7, S. 240: „Statistische Erhebungen“ (Z. 107)
+  - Mathematik heute Kl. 7, S. 248: „Durchführen einer statistischen Erhebung“ (Z. 109)
+  - Mathematik heute Kl. 9, S. 139: „Durchführen einer Statistischen Erhebung“ (Z. 226)
+  - LS Kl. 5: „Kapitel I Zahlen und Größen“ (Z. 23) › „1 Zählen und Darstellen“ (Z. 25)
+    Ermessen: „Zählen und Darstellen“ im Kapitel Zahlen und Größen: laut Synopse des Fahrplans (Z. 586) ist dort „Daten erheben“ verortet; Einheiten 1 und 2 von daten zugeordnet.
+  - LS Kl. 7: „Kapitel VII Daten“ (Z. 131) › „1 Relative Häufigkeiten und Diagramme“ (Z. 132)
+  - LS Kl. 7: „Kapitel VII Daten“ (Z. 131) › „4 Untersuchungen planen und auswerten“ (Z. 135)
+  - LS Kl. 9: „Kapitel VI Daten“ (Z. 179) › „1 Relative Häufigkeiten und Diagramme“ (Z. 180)
+  - LS Kl. 9: „Kapitel VI Daten“ (Z. 179) › „4 Untersuchungen planen und auswerten“ (Z. 183)
+  - LS Kl. 9: „Kapitel VII Daten und Wahrscheinlichkeit“ (Z. 184) › „2 Vierfeldertafel – mit Anteilen argumentieren“ (Z. 186)
+    Ermessen: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Fundamente Kl. 5, S. 8: „1.1 Daten auswerten und darstellen“ (Z. 38)
+  - Fundamente Kl. 5, S. 12: „1.2 Befragungen durchführen“ (Z. 39)
+  - Fundamente Kl. 6, S. 170: „6.1 Absolute und relative Häufigkeit“ (Z. 241)
+  - Fundamente Kl. 7, S. 222: „7.1 Absolute und relative Häufigkeit“ (Z. 111)
+  - Fundamente Kl. 7, S. 246: „7.7 Statistische Erhebungen“ (Z. 117)
+  - Fundamente Kl. 10, S. 156: „5.6 Vierfeldertafeln“ (Z. 471)
+    Ermessen: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Fundamente 2017 Kl. 7, S. 212: „7.1 Absolute und relative Häufigkeit“ (Z. 122)
+  - Fundamente 2017 Kl. 7, S. 238: „7.7 Statistische Erhebungen“ (Z. 129)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 10: „1.1 Meine Klasse und ich“ (Z. 576)
+    Ermessen: „Meine Klasse und ich“ im Kapitel Daten und Zahlen als Daten sammeln gelesen.
+  - Elemente Kl. 6 (Ausgabe 2025), S. 124: „6.1 Absolute und relative Häufigkeiten“ (Z. 786)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 132: „6.4 Daten erheben und auswerten“ (Z. 790)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 81: „3.1 Absolute und relative Häufigkeiten und deren Darstellung“ (Z. 119)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 106: „Durchführen einer statistischen Erhebung“ (Z. 130)
+  - mathe.delta Kl. 7, S. 198: „6.1 Daten erheben“ (Z. 163)
+  - mathe.delta Kl. 10, S. 58: „2.3 Vierfeldertafeln“ (Z. 709)
+    Ermessen: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Marken: Mathematik 2023 Kl. 6: „Üben: Eine Umfrage auswerten“; Sekundo Kl. 7: „LVL: Umfragen“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 68: „Daten erfassen und auswerten“ (Z. 385)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 21: „Daten erfassen und auswerten“ (Z. 118)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 3: „Daten in Listen erfassen“ (Z. 172)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 46: „Diagramme und Häufigkeitstabellen“ (Z. 302)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 53: „Daten erfassen“ (Z. 379)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 44: „Daten (Schülerband Seite 220 bis 247)“ (Z. 39)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 37: „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“ (Z. 49)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Ermessen: Der LS-Fahrplan führt das Kapitel „Daten“ mit denselben vier Lerneinheiten in Kl. 7 (Kap. VII) und Kl. 9 (Kap. VI); beide Stellen stehen da (Einführungsklasse 7, für Einheit 1 und 2 schon 5).
+  - OS: Kl. 5–6 (Sekundo 7, Mathematik 2023 5, 6, 8, 9, Schnittpunkt 5, 6, 8, 9, 10, Mathematik heute 6, 7, 9); Streuung der Einführung: Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 7, 9, Fundamente 5, 6, 7, 10, Elemente 5, 6, 7, mathe.delta 7, 10); nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 2. Säulen-, Balken- und Liniendiagramme
+  - Sekundo Kl. 7, S. 95: „Streifen-, Säulen- und Balkendiagramm“ (Z. 121)
+  - Sekundo Kl. 8, S. 162: „Diagram m e“ (Z. 305)
+  - Mathematik 2023 Kl. 5, S. 82: „Diagramme lesen“ (Z. 90)
+  - Mathematik 2023 Kl. 6, S. 119: „Säulen-und Balkendiagramm“ (Z. 292)
+  - Mathematik 2023 Kl. 6, S. 120: „Liniendiagramm“ (Z. 293)
+  - Mathematik 2023 Kl. 8, S. 62: „Säulen- und Balkendiagramm“ (Z. 236)
+  - Schnittpunkt Kl. 5, S. 12: „2 Diagramme lesen“ (Z. 39)
+  - Schnittpunkt Kl. 5, S. 14: „3 Daten in Diagrammen darstellen“ (Z. 40)
+  - Schnittpunkt Kl. 6, S. 208: „1 Diagramme und Häufigkeitstabellen“ (Z. 306)
+  - Schnittpunkt Kl. 8, S. 188: „EXTRA: Schaubilder beschreiben“ (Z. 308)
+    Ermessen: Schaubilder beschreiben als Verlauf eines Liniendiagramms gelesen.
+  - Schnittpunkt Kl. 8, S. 189: „3 Diagramme auswerten“ (Z. 309)
+  - Schnittpunkt Kl. 9, S. 144: „3 Daten darstellen“ (Z. 421)
+    Ermessen: „Daten darstellen“ ohne nähere Angabe als Diagramme (Einheit 2) gelesen.
+  - Mathematik heute Kl. 6, S. 198: „Absolute und relative Häufigkeiten von Daten - Grafische Darstellungen“ (Z. 148, 149)
+  - Mathematik heute Kl. 7, S. 246: „Im Blickpunkt: Diagramme mit dem Computer“ (Z. 108)
+  - LS Kl. 5: „Kapitel I Zahlen und Größen“ (Z. 23) › „1 Zählen und Darstellen“ (Z. 25)
+  - LS Kl. 7: „Kapitel VII Daten“ (Z. 131) › „1 Relative Häufigkeiten und Diagramme“ (Z. 132)
+  - LS Kl. 9: „Kapitel VI Daten“ (Z. 179) › „1 Relative Häufigkeiten und Diagramme“ (Z. 180)
+  - Fundamente Kl. 5, S. 8: „1.1 Daten auswerten und darstellen“ (Z. 38)
+  - Fundamente Kl. 7, S. 226: „7.2 Diagramme“ (Z. 112)
+  - Fundamente 2017 Kl. 7, S. 216: „7.2 Diagramme“ (Z. 123)
+  - Fundamente 2017 Kl. 9, S. 128: „4.1 Häufigkeitsverteilungen darstellen“ (Z. 287)
+  - Elemente Kl. 5 (Ausgabe 2025), S. 22: „1.6 Diagramme mit großen Zahlen“ (Z. 581)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 126: „6.2 Daten darstellen“ (Z. 787)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 81: „3.1 Absolute und relative Häufigkeiten und deren Darstellung“ (Z. 119)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 200: „9.1 Daten darstellen“ (Z. 947)
+  - mathe.delta Kl. 7, S. 200: „6.2 Daten a u s w e r te n“ (Z. 164)
+    Ermessen: „Daten auswerten“ vor „Kennwerte“ als Diagramme lesen gelesen.
+  - mathe.delta Kl. 10, S. 50: „2.1 Daten beschreiben und darstellen“ (Z. 707)
+    Ermessen: „Daten beschreiben und darstellen“ (Kl. 10, Kapitel Wahrscheinlichkeitsrechnung) als Diagramme (Einheit 2) gelesen.
+  - Typ: Liniendiagramm lesen (Verlauf, Anstieg, Rückgang) – Mathematik 2023 Kl. 6, S. 120: „Liniendiagramm“
+  - Typ: Diagramm aus einer Tabelle zeichnen (Skala wählen) – Schnittpunkt Kl. 5, S. 14: „3 Daten in Diagrammen darstellen“
+  - Typ: Liniendiagramm lesen (Verlauf, Anstieg, Rückgang) – Schnittpunkt Kl. 8, S. 188: „EXTRA: Schaubilder beschreiben“
+  - Marken: Mathematik heute Kl. 7: „Im Blickpunkt: Diagramme mit dem Computer“; Schnittpunkt Kl. 8: „EXTRA: Schaubilder beschreiben“
+  - Förderheft: Sekundo-Förderheft Kl. 5, S. 7: „Diagramme lesen und zeichnen“ (Z. 47)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 74: „Diagramme“ (Z. 481)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 4: „Diagramme lesen“ (Z. 173)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 44: „Daten (Schülerband Seite 220 bis 247)“ (Z. 39)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 37: „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“ (Z. 49)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 5–6 (Sekundo 7, 8, Mathematik 2023 5, 6, 8, Schnittpunkt 5, 6, 8, 9, Mathematik heute 6, 7); Streuung der Einführung: Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 7, 9, Fundamente 5, 7, Elemente 5, 6, 7, mathe.delta 7, 10); nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 3. Streifen- und Kreisdiagramm
+  - Sekundo Kl. 7, S. 95: „Streifen-, Säulen- und Balkendiagramm“ (Z. 121)
+  - Sekundo Kl. 7, S. 96: „Kreisdiagramm“ (Z. 123)
+  - Mathematik 2023 Kl. 6, S. 121: „Streifendiagramm“ (Z. 294)
+  - Mathematik 2023 Kl. 6, S. 122: „Kreisdiagramm“ (Z. 295)
+  - Mathematik 2023 Kl. 7, S. 69: „Üben: Prozentangaben in Diagrammen“ (Z. 57)
+    Ermessen: Prozentangaben in Diagrammen als Streifen- und Kreisdiagramm gelesen.
+  - Mathematik 2023 Kl. 8, S. 63: „Streifendiagramm“ (Z. 237)
+  - Mathematik 2023 Kl. 8, S. 64: „Kreisdiagramm“ (Z. 238)
+  - Schnittpunkt Kl. 6, S. 210: „EXTRA: Kreisdiagramme zeichnen“ (Z. 307)
+  - Schnittpunkt Kl. 7, S. 191: „6 Prozentdiagramme“ (Z. 160)
+  - Mathematik heute Kl. 7, S. 118: „Aufteilen des Grundwertes - Diagramme“ (Z. 114)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente Kl. 6, S. 174: „6.2 Kreisdiagramme“ (Z. 242)
+  - Fundamente 2017: keine Stelle – Thema liegt vor dem ersten Band der Nebenquelle (Datei Kl. 7–10); andere Reihen führen es ab Kl. 6
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta: keine Stelle – Thema liegt vor dem ersten Band: die Reihe beginnt in Klasse 7 (Bände 5/6 für BE/BB nicht erschienen); andere Reihen führen es ab Kl. 6
+  - Typ: Kreisdiagramm mit drei bis vier Sektoren aus Prozentangaben – Mathematik 2023 Kl. 6, S. 122: „Kreisdiagramm“
+  - Typ: Kreisdiagramm mit drei bis vier Sektoren aus Prozentangaben – Schnittpunkt Kl. 6, S. 210: „EXTRA: Kreisdiagramme zeichnen“
+  - Marken: Mathematik 2023 Kl. 7: „Üben: Prozentangaben in Diagrammen“; Schnittpunkt Kl. 6: „EXTRA: Kreisdiagramme zeichnen“
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 46: „Prozentdiagramme“ (Z. 93)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 44: „Daten (Schülerband Seite 220 bis 247)“ (Z. 39)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 37: „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“ (Z. 49)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6–7 (Sekundo 7, Mathematik 2023 6, 7, 8, Schnittpunkt 6, 7, Mathematik heute 7); Streuung der Einführung: Mathematik heute 7 später als Kl. 6; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6 (LS –, Fundamente 6, Elemente –, mathe.delta –)
+- 4. Kenngrößen
+  - Sekundo Kl. 7, S. 154: „Statistische Kenngrößen“ (Z. 206)
+  - Sekundo Kl. 7, S. 156: „LVL: Statistische Kenngrößen mit Tabellen kalkulation“ (Z. 207, 208)
+  - Sekundo Kl. 8, S. 159: „Mittelwert, Median, Modus undSpannweite“ (Z. 302)
+  - Sekundo Kl. 9, S. 150: „Mittelwert, Median und Spannweite“ (Z. 430)
+  - Sekundo Kl. 10, S. 152: „LVL: Mittelwert, Median, Spannweite und Boxplots“ (Z. 545, 546)
+  - Mathematik 2023 Kl. 6, S. 125: „Kenngrößen: arithmetisches Mittel, häufigster Wert“ (Z. 298, 299)
+  - Mathematik 2023 Kl. 6, S. 126: „Kenngrößen: Median (Zentralwert)“ (Z. 300)
+  - Mathematik 2023 Kl. 6, S. 128: „Kenngrößen: Maximum, Minimum, Spannweite“ (Z. 301, 302)
+  - Mathematik 2023 Kl. 8, S. 66: „Arithmetisches Mittel,Modalwert“ (Z. 240)
+  - Mathematik 2023 Kl. 8, S. 67: „Median“ (Z. 241)
+  - Mathematik 2023 Kl. 8, S. 68: „Maximum, Minimum, Spannweite“ (Z. 242)
+  - Mathematik 2023 Kl. 9, S. 112: „Streumaße“ (Z. 424)
+    Ermessen: Streumaße: im Katalog nur die Spannweite (Sek I); als deren Typ gelesen.
+  - Mathematik 2023 Kl. 9, S. 110: „Mittelwerte“ (Z. 473)
+  - Schnittpunkt Kl. 6, S. 211: „2 Arithmetisches Mittel“ (Z. 308)
+  - Schnittpunkt Kl. 6, S. 213: „EXTRA: Median“ (Z. 309)
+  - Schnittpunkt Kl. 8, S. 186: „2 Daten auswerten“ (Z. 307)
+    Ermessen: „Daten auswerten“ als Kenngrößen gelesen; Einheit 4.
+  - Schnittpunkt Kl. 8, S. 195: „EXTRA: Tabellenkalkulation - Kennwerte“ (Z. 311)
+  - Mathematik heute Kl. 6, S. 210: „Arithmetisches Mittel“ (Z. 153)
+  - Mathematik heute Kl. 7, S. 251: „Mittelwerte und ihre Anwendungen“ (Z. 111)
+  - LS Kl. 7: „Kapitel VII Daten“ (Z. 131) › „2 Median und arithmetisches Mittel“ (Z. 133)
+  - LS Kl. 9: „Kapitel VI Daten“ (Z. 179) › „2 Median und arithmetisches Mittel“ (Z. 181)
+  - Fundamente Kl. 6, S. 180: „6.4 Kennwerte“ (Z. 244)
+  - Fundamente Kl. 7, S. 234: „7.4 Kennwerte“ (Z. 114)
+  - Fundamente Kl. 10, S. 115: „4.2 Lagemaße und Streumaße“ (Z. 455)
+  - Fundamente 2017 Kl. 7, S. 222: „7.4 Kennwerte“ (Z. 125)
+  - Fundamente 2017 Kl. 9, S. 134: „4.3 Lagemaße und Streumaße ermitteln“ (Z. 289)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 130: „6.3 Kenngrößen von Daten“ (Z. 788)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 97: „Arithmetisches M itte l-M d a lw e rt-S p a n n w e ite“ (Z. 128)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 102: „3.5 Median“ (Z. 129)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 206: „9.3 Mittelwerte“ (Z. 950)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 127: „3.3 Irreführende Anwendung des arithmetischen Mittels“ (Z. 412)
+    Ermessen: Irreführende Anwendung des Mittelwerts als Vergleich Mittelwert/Median (Ausreißer) gelesen.
+  - mathe.delta Kl. 7, S. 202: „6.3 Kennwerte von Daten“ (Z. 165)
+  - Typ: Mittelwert und Median vergleichen (Ausreißer) – Elemente Kl. 9 (Ausgabe 2016), S. 127: „3.3 Irreführende Anwendung des arithmetischen Mittels“
+  - Typ: Minimum und Maximum aus Liste, Tabelle, Diagramm – Mathematik 2023 Kl. 6, S. 128: „Kenngrößen: Maximum, Minimum, Spannweite“
+  - Typ: Spannweite (auch Dezimalzahlen und große Zahlen) – Mathematik 2023 Kl. 9, S. 112: „Streumaße“
+  - Typ: arithmetisches Mittel aus einer Liste – Mathematik heute Kl. 6, S. 210: „Arithmetisches Mittel“
+  - Typ: arithmetisches Mittel aus einer Liste – Schnittpunkt Kl. 6, S. 211: „2 Arithmetisches Mittel“
+  - Marken: Sekundo Kl. 7: „LVL: Statistische Kenngrößen mit Tabellen kalkulation“; Sekundo Kl. 7: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 551 („*“) bei „LVL: Statistische Kenngrößen mit Tabellen kalkulation“; Sekundo Kl. 10: „LVL: Mittelwert, Median, Spannweite und Boxplots“; Schnittpunkt Kl. 6: „EXTRA: Median“; Schnittpunkt Kl. 8: „EXTRA: Tabellenkalkulation - Kennwerte“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 66: „Mittelwert und Spannweite“ (Z. 383)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 68: „Mittelwert, Median und Spannweite“ (Z. 204)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 72: „Mittelwert, Median und Spannweite“ (Z. 479)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 25: „Arithmetisches Mittel, Median, Spannweite“ (Z. 121)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 24: „Arithmetisches Mittel, Median und Spannweite“ (Z. 206)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 6, S. 47: „Arithmetisches Mittel“ (Z. 303)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 44: „Daten (Schülerband Seite 220 bis 247)“ (Z. 39)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 37: „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“ (Z. 49)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6 (Sekundo 7, 8, 9, 10, Mathematik 2023 6, 8, 9, Schnittpunkt 6, 8, Mathematik heute 6, 7); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6–7 (LS 7, 9, Fundamente 6, 7, 10, Elemente 6, 7, 9, mathe.delta 7); Streuung der Einführung: LS 7 später als Kl. 6; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 5. Diagramme beurteilen und Boxplot
+  - Sekundo Kl. 8, S. 163: „LVL: Problematische grafischeDarstellungen“ (Z. 307)
+  - Sekundo Kl. 8, S. 165: „Quartile und B oxplots“ (Z. 309)
+  - Sekundo Kl. 8, S. 166: „LVL: Boxplot m it dem C o m p u te r“ (Z. 310)
+  - Sekundo Kl. 9, S. 151: „Boxplots“ (Z. 431)
+  - Sekundo Kl. 9, S. 152: „Vorsicht bei Diagrammen“ (Z. 432)
+  - Sekundo Kl. 9, S. 153: „LVL: Zeitreihen: Prognosen“ (Z. 433)
+  - Sekundo Kl. 10, S. 152: „LVL: Mittelwert, Median, Spannweite und Boxplots“ (Z. 545, 546)
+  - Mathematik 2023 Kl. 6, S. 124: „Statistische Darstellungen beurteilen“ (Z. 297)
+  - Mathematik 2023 Kl. 8, S. 69: „Boxplots“ (Z. 243)
+  - Mathematik 2023 Kl. 8, S. 71: „StatistischeDarstellungen beurteilen“ (Z. 244)
+  - Mathematik 2023 Kl. 9, S. 113: „Boxplot“ (Z. 425)
+  - Mathematik 2023 Kl. 9, S. 117: „Täuschen mit Statistik“ (Z. 429)
+  - Mathematik 2023 Kl. 9, S. 119: „Statistische Darstellungen beurteilen“ (Z. 430)
+  - Schnittpunkt Kl. 8, S. 192: „4 Quartile“ (Z. 310)
+  - Schnittpunkt Kl. 8, S. 196: „5 Boxplots“ (Z. 312)
+  - Schnittpunkt Kl. 9, S. 141: „2 Daten beurteilen“ (Z. 420)
+  - Mathematik heute Kl. 9, S. 132: „Irreführende Darstellungen in der Statistik“ (Z. 225)
+  - Mathematik heute Kl. 9, S. 146: „Boxplots“ (Z. 230)
+  - LS Kl. 7: „Kapitel VII Daten“ (Z. 131) › „3 Boxplots“ (Z. 134)
+  - LS Kl. 9: „Kapitel VI Daten“ (Z. 179) › „3 Boxplots“ (Z. 182)
+  - LS Kl. 9: „Kapitel VII Daten und Wahrscheinlichkeit“ (Z. 184) › „1 Statistiken verstehen und beurteilen“ (Z. 185)
+  - Fundamente Kl. 6, S. 188: „Streifzug: Wirkung vonDiagrammen“ (Z. 246)
+  - Fundamente Kl. 7, S. 242: „7.6 Boxplots“ (Z. 116)
+  - Fundamente Kl. 10, S. 119: „4.3 Fehler und Manipulationen in der Statistik“ (Z. 456)
+  - Fundamente 2017 Kl. 7, S. 234: „7.6 Boxplots“ (Z. 128)
+  - Fundamente 2017 Kl. 9, S. 140: „4.4 Darstellungen interpretieren“ (Z. 291)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 90: „Bildliche D a rs te llu n g“ (Z. 126)
+    Ermessen: Zeile verstümmelt; laut Seitenbild „3.2 Bildliche Darstellung von Daten und ihre Wirkungen“.
+  - Elemente Kl. 7 (Ausgabe 2016), S. 107: „3.6 Streuung bei Häufigkeitsverteilungen - Boxplots“ (Z. 131)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 204: „9.2 Wirkung von Diagrammen“ (Z. 949)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 212: „9.5 Boxplots lesen und erstellen“ (Z. 953)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 121: „3.2 Analyse von grafischen Darstellungen“ (Z. 410)
+  - mathe.delta Kl. 7, S. 208: „6.5 Boxplot“ (Z. 167)
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – Elemente Kl. 7 (Ausgabe 2025), S. 212: „9.5 Boxplots lesen und erstellen“
+  - Typ: Boxplot zeichnen (Vorrat) – Elemente Kl. 7 (Ausgabe 2025), S. 212: „9.5 Boxplots lesen und erstellen“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – Elemente Kl. 7 (Ausgabe 2016), S. 107: „3.6 Streuung bei Häufigkeitsverteilungen - Boxplots“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – Fundamente Kl. 7, S. 242: „7.6 Boxplots“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – LS Kl. 7: „3 Boxplots“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – LS Kl. 9: „3 Boxplots“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – Mathematik 2023 Kl. 8, S. 69: „Boxplots“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – mathe.delta Kl. 7, S. 208: „6.5 Boxplot“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – Mathematik heute Kl. 9, S. 146: „Boxplots“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – Sekundo Kl. 8, S. 165: „Quartile und B oxplots“
+  - Typ: Fortschreibung eines Trends prüfen – Sekundo Kl. 9, S. 153: „LVL: Zeitreihen: Prognosen“
+  - Typ: Boxplot lesen (Median, Quartile, Spannweite, Box) – Schnittpunkt Kl. 8, S. 196: „5 Boxplots“
+  - Marken: Fundamente Kl. 6: „Streifzug: Wirkung vonDiagrammen“; Sekundo Kl. 8: „LVL: Problematische grafischeDarstellungen“; Sekundo Kl. 8: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 1223 („*“) bei „LVL: Problematische grafischeDarstellungen“; Sekundo Kl. 8: „LVL: Boxplot m it dem C o m p u te r“; Sekundo Kl. 9: „LVL: Zeitreihen: Prognosen“; Sekundo Kl. 10: „LVL: Mittelwert, Median, Spannweite und Boxplots“
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 76: „Problematische grafische Darstellungen“ (Z. 483)
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 74: „Vorsicht bei Diagrammen“ (Z. 301)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 27: „Statistische Darstellungen beurteilen“ (Z. 122)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 9, S. 25: „Täuschen mit Statistik“ (Z. 207)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 8, S. 57: „Boxplots“ (Z. 383)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 9, S. 43: „Daten beurteilen“ (Z. 156)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 7, S. 44: „Daten (Schülerband Seite 220 bis 247)“ (Z. 39)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 37: „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“ (Z. 49)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 6–9 (Sekundo 8, 9, 10, Mathematik 2023 6, 8, 9, Schnittpunkt 8, 9, Mathematik heute 9); Streuung der Einführung: Sekundo 8, Schnittpunkt 8, Mathematik heute 9 später als Kl. 6
+  - GYM: Kl. 6–7 (LS 7, 9, Fundamente 6, 7, 10, Elemente 7, 9, mathe.delta 7); Streuung der Einführung: LS 7, Elemente 7 später als Kl. 6; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+- 6. Kenngrößen aus Häufigkeitstabellen und Klassen (Sek II)
+  - Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“ (Z. 304)
+    Ermessen: Klasseneinteilung (klassierte Daten) gehört im Katalog zur Sek-II-Einheit 6; Sekundo führt sie als LVL-Seite in Kl. 8.
+  - Mathematik 2023 Kl. 9, S. 125: „Vertiefen: Mittlere quadratische Abweichung und Standardabweichung“ (Z. 435, 436)
+  - Schnittpunkt: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“ (Z. 229)
+    Ermessen: Klassieren gehört im Katalog zur Sek-II-Einheit 6.
+  - LS: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“ (Z. 243)
+    Ermessen: Klasseneinteilung gehört im Katalog zur Sek-II-Einheit 6; Fundamente führt sie schon in Kl. 6.
+  - Fundamente Kl. 7, S. 230: „7.3 Klasseneinteilung und Histogramme“ (Z. 113)
+  - Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“ (Z. 454)
+    Ermessen: Häufigkeitsverteilungen (Kl. 10) als Kenngrößen aus Häufigkeitstabellen (Sek-II-Einheit 6) gelesen.
+  - Fundamente Kl. 10, S. 115: „4.2 Lagemaße und Streumaße“ (Z. 455)
+    Ermessen: Streumaße umfassen die Standardabweichung (Sek-II-Einheit 6); Einheiten 4 und 6 zugeordnet.
+  - Fundamente 2017 Kl. 7, S. 220: „7.3 Klasseneinteilung“ (Z. 124)
+  - Fundamente 2017 Kl. 9, S. 131: „4.2 Klasseneinteilung von Daten und H is to g ra m m e“ (Z. 288)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 94: „3.3 Klasseneinteilung bei Stichproben“ (Z. 127)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 210: „9.4 Klasseneinteilung von Stichproben“ (Z. 952)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 115: „3.1 Streuung - Standardabweichung“ (Z. 409)
+  - mathe.delta: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
+  - Marken: Mathematik 2023 Kl. 9: „Vertiefen: Mittlere quadratische Abweichung und Standardabweichung“; Sekundo Kl. 8: „LVL: Klasseneinteilung“
+  - Förderheft: keine Stelle
+  - OS: Kl. 8–9 (Sekundo 8, Mathematik 2023 9, Schnittpunkt –, Mathematik heute 9); Streuung der Einführung: Mathematik 2023 9, Mathematik heute 9 später als Kl. 8
+  - GYM: Kl. 6–7 (LS –, Fundamente 6, 7, 10, Elemente 7, 9, mathe.delta –); Streuung der Einführung: Elemente 7 später als Kl. 6
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–6, GYM Kl. 5; Einheit 2: OS Kl. 5–6, GYM Kl. 5; Einheit 3: OS Kl. 6–7, GYM Kl. 6; Einheit 4: OS Kl. 6, GYM Kl. 6–7; Einheit 5: OS Kl. 6–9, GYM Kl. 6–7; Einheit 6: OS Kl. 8–9, GYM Kl. 6–7; ohne gemeinsame Klasse: Einheit 6)
+- Boden: ja
+- Ermessen (28):
+  - Einheit 1, Sekundo Kl. 7: „Umfragen“ als Daten sammeln (Einheit 1) gelesen.
+  - Einheit 1, Mathematik 2023 Kl. 6: Umfrage auswerten als Häufigkeitstabelle gelesen.
+  - Einheit 1, Mathematik 2023 Kl. 8: Erhebung planen als Daten sammeln gelesen.
+  - Einheit 1, Mathematik 2023 Kl. 9: Statistische Erhebung als Daten sammeln (Einheit 1) gelesen.
+  - Einheit 1, Schnittpunkt Kl. 9: Vierfeldertafeln stehen im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1; im Kapitel „Daten“ (Kl. 9) dieser Einheit zugeordnet.
+  - Einheit 1, Schnittpunkt Kl. 10: wie Kl. 9: Vierfeldertafel als Sek-II-Deutungstyp in daten Einheit 1.
+  - Einheit 1, LS Kl. 5: „Zählen und Darstellen“ im Kapitel Zahlen und Größen: laut Synopse des Fahrplans (Z. 586) ist dort „Daten erheben“ verortet; Einheiten 1 und 2 von daten zugeordnet.
+  - Einheit 1, LS Kl. 9: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Einheit 1, Fundamente Kl. 10: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Einheit 1, Elemente Kl. 5 (Ausgabe 2025): „Meine Klasse und ich“ im Kapitel Daten und Zahlen als Daten sammeln gelesen.
+  - Einheit 1, mathe.delta Kl. 10: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Einheit 1: Der LS-Fahrplan führt das Kapitel „Daten“ mit denselben vier Lerneinheiten in Kl. 7 (Kap. VII) und Kl. 9 (Kap. VI); beide Stellen stehen da (Einführungsklasse 7, für Einheit 1 und 2 schon 5).
+  - Einheit 2, Schnittpunkt Kl. 8: Schaubilder beschreiben als Verlauf eines Liniendiagramms gelesen.
+  - Einheit 2, Schnittpunkt Kl. 9: „Daten darstellen“ ohne nähere Angabe als Diagramme (Einheit 2) gelesen.
+  - Einheit 2, mathe.delta Kl. 7: „Daten auswerten“ vor „Kennwerte“ als Diagramme lesen gelesen.
+  - Einheit 2, mathe.delta Kl. 10: „Daten beschreiben und darstellen“ (Kl. 10, Kapitel Wahrscheinlichkeitsrechnung) als Diagramme (Einheit 2) gelesen.
+  - Einheit 3, Mathematik 2023 Kl. 7: Prozentangaben in Diagrammen als Streifen- und Kreisdiagramm gelesen.
+  - Einheit 4, Mathematik 2023 Kl. 9: Streumaße: im Katalog nur die Spannweite (Sek I); als deren Typ gelesen.
+  - Einheit 4, Schnittpunkt Kl. 8: „Daten auswerten“ als Kenngrößen gelesen; Einheit 4.
+  - Einheit 4, Elemente Kl. 9 (Ausgabe 2016): Irreführende Anwendung des Mittelwerts als Vergleich Mittelwert/Median (Ausreißer) gelesen.
+  - Einheit 5, Elemente Kl. 7 (Ausgabe 2016): Zeile verstümmelt; laut Seitenbild „3.2 Bildliche Darstellung von Daten und ihre Wirkungen“.
+  - Einheit 6, Sekundo Kl. 8: Klasseneinteilung (klassierte Daten) gehört im Katalog zur Sek-II-Einheit 6; Sekundo führt sie als LVL-Seite in Kl. 8.
+  - Einheit 6, Mathematik heute Kl. 9: Klassieren gehört im Katalog zur Sek-II-Einheit 6.
+  - Einheit 6, Fundamente Kl. 6: Klasseneinteilung gehört im Katalog zur Sek-II-Einheit 6; Fundamente führt sie schon in Kl. 6.
+  - Einheit 6, Fundamente Kl. 10: Häufigkeitsverteilungen (Kl. 10) als Kenngrößen aus Häufigkeitstabellen (Sek-II-Einheit 6) gelesen.
+  - Einheit 6, Fundamente Kl. 10: Streumaße umfassen die Standardabweichung (Sek-II-Einheit 6); Einheiten 4 und 6 zugeordnet.
+  - Einheiten 1, 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Daten (Schülerband Seite 220 bis 247)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+  - Einheiten 1, 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
+
+### wahrscheinlichkeit – Zählen und systematisches Aufzählen von Möglichkeiten: Stufe C/D (Grundschule in Berlin/Brandenburg; für die Oberschule 7–8 regulär; im LS-AA-Fahrplan Kl. 5–10 keine eigene Lerneinheit).
+- Verortung (Zeile 5), Klassensatz wortgleich.
+- 1. Zählen und Ergebnismengen
+  - Sekundo Kl. 10, S. 161: „LVL: Kombinieren und Variieren“ (Z. 552)
+  - Sekundo Kl. 10, S. 162: „Kombination und Variation“ (Z. 553)
+  - Mathematik 2023 Kl. 6, S. 139: „Vertiefen: Zählstrategien“ (Z. 264)
+  - Mathematik 2023 Kl. 7, S. 78: „Zufallsexperimente und ihre Ergebnisse“ (Z. 74)
+    Ermessen: „Zufallsexperimente und ihre Ergebnisse“ als Ergebnismenge (Einheit 1) gelesen.
+  - Mathematik 2023 Kl. 10, S. 108: „Kombinatorisches Zählen“ (Z. 621)
+  - Schnittpunkt Kl. 5, S. 21: „5 Abzählen mit Baumdiagrammen“ (Z. 43)
+    Ermessen: Abzählen mit Baumdiagrammen (Kl. 5, Kapitel Daten) als Aufzählen von Möglichkeiten gelesen, ohne Wahrscheinlichkeiten.
+  - Schnittpunkt Kl. 7, S. 206: „1 Zufallsexperimente“ (Z. 173)
+    Ermessen: „Zufallsexperimente“ als Ergebnisse und Ergebnismenge (Einheit 1) gelesen.
+  - Mathematik heute Kl. 8, S. 162: „Kombinieren“ (Z. 137)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente Kl. 10, S. 146: „5.4 Urnenmodell-Ziehen ohne Beachtung der Reihenfolge“ (Z. 468)
+    Ermessen: Ziehen ohne Beachtung der Reihenfolge als Kombinatorik (Zählen, Einheit 1) gelesen.
+  - Fundamente 2017 Kl. 10, S. 130: „4.4 Urnenmodell - Ziehen ohne Reihenfolge“ (Z. 380)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 134: „6.5 Anzahlen bestimmen - Zählprinzip“ (Z. 791)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 156: „4.4.1 Anzahl der Möglichkeiten beim Ziehen mit einem Griff“ (Z. 542)
+    Ermessen: Anzahl der Möglichkeiten beim Ziehen mit einem Griff als Zählen (Einheit 1) gelesen.
+  - mathe.delta Kl. 8, S. 18: „1.1 Zufallsexperimente durchführen und beschreiben“ (Z. 196)
+    Ermessen: „Zufallsexperimente durchführen und beschreiben“ als Ergebnisse und Ergebnismengen (Einheit 1) gelesen.
+  - mathe.delta Kl. 10, S. 70: „2.6 Kombinatorik“ (Z. 712)
+  - Typ: Zählprinzip: Anzahl der Kombinationen als Produkt – Elemente Kl. 6 (Ausgabe 2025), S. 134: „6.5 Anzahlen bestimmen - Zählprinzip“
+  - Typ: Möglichkeiten aufzählen (Kleidung, Menü, Wege) und zählen – Schnittpunkt Kl. 5, S. 21: „5 Abzählen mit Baumdiagrammen“
+  - Marken: Mathematik 2023 Kl. 6: „Vertiefen: Zählstrategien“; Sekundo Kl. 10: „LVL: Kombinieren und Variieren“; Sekundo Kl. 10: Zeichen „O“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „LVL: Kombinieren und Variieren“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Kombination und Variation“
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Ergebnisse von Zufallsexperimenten darstellen“ (Z. 50)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 7: „Abzählen mit Baumdiagrammen“ (Z. 176)
+  - OS: Kl. 5–10 (Sekundo 10, Mathematik 2023 6, 7, 10, Schnittpunkt 5, 7, Mathematik heute 8); Streuung der Einführung: Sekundo 10, Mathematik 2023 6, Mathematik heute 8 später als Kl. 5
+  - GYM: Kl. 6–10 (LS –, Fundamente 10, Elemente 6, 10, mathe.delta 8, 10); Streuung der Einführung: Fundamente 10, mathe.delta 8 später als Kl. 6
+- 2. Wahrscheinlichkeit einstufig
+  - Sekundo Kl. 7, S. 162: „LVL: Rund ums Glücksrad“ (Z. 142)
+    Ermessen: Glücksrad-Seite im Kapitel Daten und Zufall vor „Wahrscheinlichkeit“ als einstufige Wahrscheinlichkeit gelesen.
+  - Sekundo Kl. 7, S. 164: „Wahrscheinlichkeit“ (Z. 143)
+  - Sekundo Kl. 8, S. 168: „Berechnen von Wahrscheinlichkeiten bei Laplace-Experimenten“ (Z. 312, 313)
+  - Sekundo Kl. 9, S. 161: „Wahrscheinlichkeit“ (Z. 438)
+  - Sekundo Kl. 9, S. 164: „Rechnen mit dem Gegenereignis“ (Z. 440)
+  - Mathematik 2023 Kl. 6, S. 137: „Vertiefen: Zufallsexperimente“ (Z. 263)
+  - Mathematik 2023 Kl. 7, S. 81: „Zufallsexperimente auswerten“ (Z. 75)
+    Ermessen: „Auswerten“ als relative Häufigkeit gelesen.
+  - Mathematik 2023 Kl. 7, S. 85: „Wahrscheinlichkeiten bestimmen“ (Z. 76)
+  - Mathematik 2023 Kl. 7, S. 87: „Wahrscheinlichkeiten schätzen“ (Z. 77)
+  - Mathematik 2023 Kl. 8, S. 92: „Wahrscheinlichkeit von Ergebnissen bestimmen“ (Z. 263, 264)
+  - Mathematik 2023 Kl. 8, S. 94: „Wahrscheinlichkeit von Ergebnissen schätzen“ (Z. 265, 266)
+  - Mathematik 2023 Kl. 8, S. 95: „Ereignisse“ (Z. 267)
+  - Mathematik 2023 Kl. 8, S. 97: „Wahrscheinlichkeit von Ereignissen“ (Z. 268)
+  - Mathematik 2023 Kl. 8, S. 99: „Wahrscheinlichkeit von Ereignissen und Gegenereignissen“ (Z. 269, 270)
+  - Schnittpunkt Kl. 6, S. 216: „EXTRA: Wahrscheinlichkeit“ (Z. 311)
+  - Schnittpunkt Kl. 7, S. 209: „2 Wahrscheinlichkeiten“ (Z. 174)
+  - Schnittpunkt Kl. 7, S. 211: „3 Ereignisse“ (Z. 175)
+  - Schnittpunkt Kl. 7, S. 213: „4 Schätzen von Wahrscheinlichkeiten“ (Z. 176)
+  - Schnittpunkt Kl. 10, S. 112: „2 Einstufige Zufallsexperimente“ (Z. 548)
+  - Mathematik heute Kl. 6, S. 214: „Zufallsexperimente“ (Z. 154)
+    Ermessen: „Zufallsexperimente“ im Kapitel Daten und Zufall (Kl. 6) als einstufige Wahrscheinlichkeit gelesen.
+  - Mathematik heute Kl. 8, S. 150: „Zufallsexperimente und Wahrscheinlichkeit“ (Z. 133)
+  - Mathematik heute Kl. 8, S. 155: „Wahrscheinlichkeit und relative Häufigkeit“ (Z. 135)
+  - Mathematik heute Kl. 8, S. 159: „Summenregel“ (Z. 136)
+  - Mathematik heute Kl. 10, S. 152: „Zufallsexperimente und Wahrscheinlichkeiten - Grundlagen“ (Z. 308, 309)
+  - Mathematik heute Kl. 10, S. 156: „Wahrscheinlichkeit eines Gegenereignisses“ (Z. 312)
+  - LS Kl. 8: „Kapitel VIII Wahrscheinlichkeit“ (Z. 160) › „1 Wahrscheinlichkeit“ (Z. 161)
+  - LS Kl. 8: „Kapitel VIII Wahrscheinlichkeit“ (Z. 160) › „2 Laplace-Wahrscheinlichkeit -- Summenregel“ (Z. 162)
+  - Fundamente Kl. 8, S. 68: „3.1 Zufallsexperimente und Wahrscheinlichkeit“ (Z. 180)
+  - Fundamente Kl. 8, S. 72: „3.2 Eigenschaften der Wahrscheinlichkeit“ (Z. 181)
+  - Fundamente Kl. 8, S. 76: „3.3 Laplace-Experimente“ (Z. 182)
+  - Fundamente 2017 Kl. 8, S. 154: „6.1 Zufallsexperimente und Wahrscheinlichkeit“ (Z. 205)
+  - Fundamente 2017 Kl. 8, S. 158: „6.2 Eigenschaften der Wahrscheinlichkeit“ (Z. 206)
+  - Fundamente 2017 Kl. 8, S. 162: „6.3 Laplace-Wahrscheinlichkeit“ (Z. 207)
+  - Elemente Kl. 6 (Ausgabe 2025), S. 136: „6.6 Zufallsexperimente“ (Z. 792)
+    Ermessen: „Zufallsexperimente“ (Kl. 6) als einstufige Wahrscheinlichkeit gelesen.
+  - Elemente Kl. 8 (Ausgabe 2016), S. 119: „3.1 Wahrscheinlichkeiten“ (Z. 275)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 126: „3.2 Ereignisse und ihre Wahrscheinlichkeiten“ (Z. 276)
+  - Elemente Kl. 8 (Ausgabe 2016), S. 128: „3.3 Laplace-Experimente“ (Z. 277)
+  - mathe.delta Kl. 8, S. 22: „1.3 Begriff der Wahrscheinlichkeit“ (Z. 198)
+  - mathe.delta Kl. 8, S. 26: „1.4 Laplace-Wahrscheinlichkeit“ (Z. 199)
+  - mathe.delta Kl. 10, S. 54: „2.2 Wahrscheinlichkeiten b estim m en“ (Z. 708)
+  - Typ: Ereignis aus mehreren Ergebnissen (Summenregel: „gerade Zahl“, „weder 1 noch 6“) – Elemente Kl. 8 (Ausgabe 2016), S. 126: „3.2 Ereignisse und ihre Wahrscheinlichkeiten“
+  - Typ: Ereignis aus mehreren Ergebnissen (Summenregel: „gerade Zahl“, „weder 1 noch 6“) – LS Kl. 8: „2 Laplace-Wahrscheinlichkeit -- Summenregel“
+  - Typ: relative Häufigkeit einer Versuchsreihe mit P vergleichen; erwartete Anzahl bei n Versuchen – Mathematik 2023 Kl. 7, S. 81: „Zufallsexperimente auswerten“
+  - Typ: Ereignis aus mehreren Ergebnissen (Summenregel: „gerade Zahl“, „weder 1 noch 6“) – Mathematik 2023 Kl. 8, S. 97: „Wahrscheinlichkeit von Ereignissen“
+  - Typ: Gegenereignis einstufig (1 − P) – Mathematik 2023 Kl. 8, S. 99: „Wahrscheinlichkeit von Ereignissen und Gegenereignissen“
+  - Typ: relative Häufigkeit einer Versuchsreihe mit P vergleichen; erwartete Anzahl bei n Versuchen – Mathematik heute Kl. 8, S. 155: „Wahrscheinlichkeit und relative Häufigkeit“
+  - Typ: Ereignis aus mehreren Ergebnissen (Summenregel: „gerade Zahl“, „weder 1 noch 6“) – Mathematik heute Kl. 8, S. 159: „Summenregel“
+  - Typ: Gegenereignis einstufig (1 − P) – Mathematik heute Kl. 10, S. 156: „Wahrscheinlichkeit eines Gegenereignisses“
+  - Typ: Gegenereignis einstufig (1 − P) – Sekundo Kl. 9, S. 164: „Rechnen mit dem Gegenereignis“
+  - Typ: Ereignis aus mehreren Ergebnissen (Summenregel: „gerade Zahl“, „weder 1 noch 6“) – Schnittpunkt Kl. 7, S. 211: „3 Ereignisse“
+  - Typ: relative Häufigkeit einer Versuchsreihe mit P vergleichen; erwartete Anzahl bei n Versuchen – Schnittpunkt Kl. 7, S. 213: „4 Schätzen von Wahrscheinlichkeiten“
+  - Marken: Mathematik 2023 Kl. 6: „Vertiefen: Zufallsexperimente“; Sekundo Kl. 7: „LVL: Rund ums Glücksrad“; Schnittpunkt Kl. 6: „EXTRA: Wahrscheinlichkeit“
+  - Förderheft: Sekundo-Förderheft Kl. 6, S. 70: „Wahrscheinlichkeit“ (Z. 387)
+  - Förderheft: Sekundo-Förderheft Kl. 7, S. 70: „Wahrscheinlichkeit“ (Z. 206)
+  - Förderheft: Sekundo-Förderheft Kl. 8, S. 77: „Zufall und Wahrscheinlichkeit“ (Z. 484)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 7: „Wahrscheinlichkeiten bestimmen“ (Z. 52)
+  - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 32: „Wahrscheinlichkeit von Ergebnissen bestimmen“ (Z. 128)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 7, S. 48: „Wahrscheinlichkeiten“ (Z. 97)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 40: „Einstufige Zufallsexperimente“ (Z. 435)
+  - OS: Kl. 6 (Sekundo 7, 8, 9, Mathematik 2023 6, 7, 8, Schnittpunkt 6, 7, 10, Mathematik heute 6, 8, 10); nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 6–8 (LS 8, Fundamente 8, Elemente 6, 8, mathe.delta 8, 10); Streuung der Einführung: LS 8, Fundamente 8, mathe.delta 8 später als Kl. 6
+- 3. Baumdiagramm und Pfadregeln
+  - Sekundo Kl. 8, S. 170: „Die Laplace-Reget bei zweistufigen Zufallsversuchen“ (Z. 314, 315)
+  - Sekundo Kl. 9, S. 162: „Zweistufige Zufallsversuche“ (Z. 439)
+  - Sekundo Kl. 9, S. 164: „Rechnen mit dem Gegenereignis“ (Z. 440)
+    Ermessen: Gegenereignis steht im Kapitel nach den zweistufigen Versuchen; auch der Typ „mindestens einmal“ der Einheit 3 gedeckt.
+  - Sekundo Kl. 10, S. 159: „Mehrstufige Zufallsversuche und Pfadregel“ (Z. 551)
+  - Mathematik 2023 Kl. 10, S. 101: „Mehrstufige Zufallsexperimente“ (Z. 614)
+  - Mathematik 2023 Kl. 10, S. 102: „Produktregel (1. Pfadregel)“ (Z. 615)
+  - Mathematik 2023 Kl. 10, S. 103: „Summenregel (2. Pfadregel)“ (Z. 616)
+  - Mathematik 2023 Kl. 10, S. 104: „Ziehen mit Zurücklegen“ (Z. 617)
+  - Mathematik 2023 Kl. 10, S. 107: „Vereinfachte Baumdiagramme“ (Z. 620)
+  - Mathematik 2023 Kl. 10, S. 109: „Ziehen mit Zurücklegen bei mehrstufigen Zufallsexperimenten“ (Z. 622, 623)
+  - Schnittpunkt Kl. 7, S. 216: „EXTRA: Zweistufige Zufallsexperimente“ (Z. 178)
+  - Schnittpunkt Kl. 10, S. 114: „3 Zweistufige Zufallsexperimente mit Zurücklegen“ (Z. 549)
+  - Mathematik heute Kl. 8, S. 165: „Zweistufige Laplace-Experimente - Baumdiagramme“ (Z. 138, 139)
+  - Mathematik heute Kl. 10, S. 158: „Wahrscheinlichkeit bei mehrstufigen Zufallsexperimenten - Pfadregeln“ (Z. 313, 314)
+  - Mathematik heute Kl. 10, S. 165: „Berechnen von Wahrscheinlichkeiten bei mehrstufigen Laplace-Experimenten“ (Z. 315, 316)
+  - LS Kl. 8: „Kapitel VIII Wahrscheinlichkeit“ (Z. 160) › „3 Baumdiagramm und Pfadregel“ (Z. 163)
+  - LS Kl. 8: „Kapitel VIII Wahrscheinlichkeit“ (Z. 160) › „4 Der richtige Blick auf das Baumdiagramm“ (Z. 164)
+    Ermessen: „Der richtige Blick auf das Baumdiagramm“ als Baumdiagramm und Pfadregeln (Einheit 3) gelesen.
+  - Fundamente Kl. 8, S. 84: „3.4 Baumdiagramme“ (Z. 184)
+  - Fundamente Kl. 8, S. 86: „3.5 Wahrscheinlichkeiten und Baumdiagramme“ (Z. 185)
+  - Fundamente Kl. 10, S. 132: „5.1 Wiederholung: Mehrstufige Zufallsexperimente“ (Z. 465)
+  - Fundamente Kl. 10, S. 137: „5.2 Sinnvoller Umgang mit Baumdiagrammen“ (Z. 466)
+  - Fundamente 2017 Kl. 8, S. 170: „6.4 Baumdiagramme“ (Z. 209)
+  - Fundamente 2017 Kl. 8, S. 174: „6.5 Wahrscheinlichkeiten bei Baumdiagrammen“ (Z. 211)
+  - Fundamente 2017 Kl. 10, S. 116: „4.1 Wiederholung: Mehrstufige Zufallsexperimente“ (Z. 377)
+  - Fundamente 2017 Kl. 10, S. 121: „4.2 Sinnvoller Umgang mit Baumdiagrammen“ (Z. 378)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 135: „4.1 Mehrstufige Zufallsexperimente - Baumdiagramme“ (Z. 536)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 139: „4.2 Pfad regeln“ (Z. 537)
+  - mathe.delta Kl. 8, S. 20: „1.2 Mehrstufige Z ufallsexperim ente“ (Z. 197)
+  - mathe.delta Kl. 8, S. 28: „1.5 Erste P fa d re g e l“ (Z. 200)
+  - mathe.delta Kl. 8, S. 30: „1.6 Zweite P fad regel“ (Z. 201)
+  - mathe.delta Kl. 10, S. 64: „2.5 Mehrstufige Zufallsexperimente“ (Z. 711)
+  - Typ: P eines Pfades (Pfadregel) – Elemente Kl. 10 (Ausgabe 2016), S. 139: „4.2 Pfad regeln“
+  - Typ: P eines Pfades (Pfadregel) – LS Kl. 8: „3 Baumdiagramm und Pfadregel“
+  - Typ: P eines Pfades (Pfadregel) – Mathematik 2023 Kl. 10, S. 102: „Produktregel (1. Pfadregel)“
+  - Typ: P eines Ereignisses aus mehreren Pfaden (Summenregel: „12 oder 21“) – Mathematik 2023 Kl. 10, S. 103: „Summenregel (2. Pfadregel)“
+  - Typ: dreistufig („mindestens zwei Sechsen“) – Mathematik 2023 Kl. 10, S. 109: „Ziehen mit Zurücklegen bei mehrstufigen Zufallsexperimenten“
+  - Typ: P eines Pfades (Pfadregel) – mathe.delta Kl. 8, S. 28: „1.5 Erste P fa d re g e l“
+  - Typ: P eines Ereignisses aus mehreren Pfaden (Summenregel: „12 oder 21“) – mathe.delta Kl. 8, S. 30: „1.6 Zweite P fad regel“
+  - Typ: „mindestens einmal“ über 1 − P(nie) – Sekundo Kl. 9, S. 164: „Rechnen mit dem Gegenereignis“
+  - Marken: Fundamente Kl. 10: „5.1 Wiederholung: Mehrstufige Zufallsexperimente“; Fundamente 2017 Kl. 10: „4.1 Wiederholung: Mehrstufige Zufallsexperimente“; Schnittpunkt Kl. 7: „EXTRA: Zweistufige Zufallsexperimente“
+  - Förderheft: Sekundo-Förderheft Kl. 9, S. 77: „Zweistufige Zufallsversuche“ (Z. 304)
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 41: „Zweistufige Zufallsexperimente mit Zurücklegen“ (Z. 436)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 36: „Mehrstufige Zufallsexperimente (Schülerband Seite 162 bis 183)“ (Z. 60)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 7–10 (Sekundo 8, 9, 10, Mathematik 2023 10, Schnittpunkt 7, 10, Mathematik heute 8, 10); Streuung der Einführung: Sekundo 8, Mathematik 2023 10, Mathematik heute 8 später als Kl. 7
+  - GYM: Kl. 8–10 (LS 8, Fundamente 8, 10, Elemente 10, mathe.delta 8, 10); Streuung der Einführung: Elemente 10 später als Kl. 8
+- 4. Ohne Zurücklegen
+  - Sekundo: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Mathematik 2023 Kl. 10, S. 105: „Ziehen ohne Zurücklegen“ (Z. 618)
+  - Mathematik 2023 Kl. 10, S. 111: „Ziehen ohne Zurücklegen bei mehrstufigen Zufallsexperimenten“ (Z. 624, 625)
+  - Schnittpunkt Kl. 10, S. 117: „4 Zweistufige Zufallsexperimente ohne Zurücklegen“ (Z. 550)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Fundamente Kl. 10, S. 142: „5.3 Urnenmodell-Ziehen mit und ohne Zurücklegen“ (Z. 467)
+  - Fundamente 2017 Kl. 10, S. 126: „4.3 Urnenmodell - Ziehen mit und ohne Zurücklegen“ (Z. 379)
+  - Elemente Kl. 10 (Ausgabe 2016), S. 149: „4.3 Ziehen mit und ohne Zurücklegen“ (Z. 540)
+  - mathe.delta: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Typ: Vergleich mit Zurücklegen (Behauptung „doppelt so hoch“) – Fundamente Kl. 10, S. 142: „5.3 Urnenmodell-Ziehen mit und ohne Zurücklegen“
+  - Typ: Baum für zweimal Ziehen ohne Zurücklegen (Nenner minus 1) – Mathematik 2023 Kl. 10, S. 105: „Ziehen ohne Zurücklegen“
+  - Typ: dreistufig, ein Pfad (drei rote Stifte) – Mathematik 2023 Kl. 10, S. 111: „Ziehen ohne Zurücklegen bei mehrstufigen Zufallsexperimenten“
+  - Typ: Baum für zweimal Ziehen ohne Zurücklegen (Nenner minus 1) – Schnittpunkt Kl. 10, S. 117: „4 Zweistufige Zufallsexperimente ohne Zurücklegen“
+  - Marken: keine
+  - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 42: „Zweistufige Zufallsexperimente ohne Zurücklegen“ (Z. 437)
+  - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 36: „Mehrstufige Zufallsexperimente (Schülerband Seite 162 bis 183)“ (Z. 60)
+    Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
+  - OS: Kl. 10 (Sekundo –, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute –)
+  - GYM: Kl. 10 (LS –, Fundamente 10, Elemente 10, mathe.delta –)
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–10, GYM Kl. 6–10; Einheit 2: OS Kl. 6, GYM Kl. 6–8; Einheit 3: OS Kl. 7–10, GYM Kl. 8–10)
+- Boden: ja
+- Ermessen (13):
+  - Einheit 1, Mathematik 2023 Kl. 7: „Zufallsexperimente und ihre Ergebnisse“ als Ergebnismenge (Einheit 1) gelesen.
+  - Einheit 1, Schnittpunkt Kl. 5: Abzählen mit Baumdiagrammen (Kl. 5, Kapitel Daten) als Aufzählen von Möglichkeiten gelesen, ohne Wahrscheinlichkeiten.
+  - Einheit 1, Schnittpunkt Kl. 7: „Zufallsexperimente“ als Ergebnisse und Ergebnismenge (Einheit 1) gelesen.
+  - Einheit 1, Fundamente Kl. 10: Ziehen ohne Beachtung der Reihenfolge als Kombinatorik (Zählen, Einheit 1) gelesen.
+  - Einheit 1, Elemente Kl. 10 (Ausgabe 2016): Anzahl der Möglichkeiten beim Ziehen mit einem Griff als Zählen (Einheit 1) gelesen.
+  - Einheit 1, mathe.delta Kl. 8: „Zufallsexperimente durchführen und beschreiben“ als Ergebnisse und Ergebnismengen (Einheit 1) gelesen.
+  - Einheit 2, Sekundo Kl. 7: Glücksrad-Seite im Kapitel Daten und Zufall vor „Wahrscheinlichkeit“ als einstufige Wahrscheinlichkeit gelesen.
+  - Einheit 2, Mathematik 2023 Kl. 7: „Auswerten“ als relative Häufigkeit gelesen.
+  - Einheit 2, Mathematik heute Kl. 6: „Zufallsexperimente“ im Kapitel Daten und Zufall (Kl. 6) als einstufige Wahrscheinlichkeit gelesen.
+  - Einheit 2, Elemente Kl. 6 (Ausgabe 2025): „Zufallsexperimente“ (Kl. 6) als einstufige Wahrscheinlichkeit gelesen.
+  - Einheit 3, Sekundo Kl. 9: Gegenereignis steht im Kapitel nach den zweistufigen Versuchen; auch der Typ „mindestens einmal“ der Einheit 3 gedeckt.
+  - Einheit 3, LS Kl. 8: „Der richtige Blick auf das Baumdiagramm“ als Baumdiagramm und Pfadregeln (Einheit 3) gelesen.
+  - Einheiten 3, 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 „Mehrstufige Zufallsexperimente (Schülerband Seite 162 bis 183)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.
