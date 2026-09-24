@@ -1,0 +1,20 @@
+1a  Anteil 2 von 4         Skript 0.5          Blatt 0.5          OK
+1b  Anteil 3 von 4         Skript 0.75         Blatt 0.75         OK
+1c  Hälfte von 4 Kästchen  Skript 2.0          Blatt 2            OK
+1d  Zehntel von 10 Kästchen Skript 1.0          Blatt 1            OK
+2a  3/20 auf Nenner 100    Skript 15.0         Blatt 15           OK
+2b  7/25 auf Nenner 100    Skript 28.0         Blatt 28           OK
+2c  12/40 gekürzt (Zähler) Skript 3            Blatt 3            OK
+2c  12/40 gekürzt (Nenner) Skript 10           Blatt 10           OK
+2c  12/40 auf Nenner 100   Skript 30.0         Blatt 30           OK
+3a  0,45 mal 100           Skript 45.0         Blatt 45           OK
+3b  0,06 mal 100           Skript 6.0          Blatt 6            OK
+3c  7 durch 100            Skript 0.07         Blatt 0.07         OK
+4a  3,00 € : 5             Skript 0.6          Blatt 0.6          OK
+4a  100 Becher             Skript 60.0         Blatt 60.0         OK
+4b  2,40 € : 20            Skript 0.12         Blatt 0.12         OK
+4b  100 Sticker            Skript 12.0         Blatt 12.0         OK
+5a  4,23 gerundet          Skript 4.2          Blatt 4.2          OK
+5b  17,58 gerundet         Skript 17.6         Blatt 17.6         OK
+5c  6,96 gerundet          Skript 7.0          Blatt 7.0          OK
+Abweichungen: 0

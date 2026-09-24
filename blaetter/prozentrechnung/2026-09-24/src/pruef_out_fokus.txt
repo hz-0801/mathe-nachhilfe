@@ -1,0 +1,38 @@
+Bsp 8   3 von 10           Skript 30.0         Blatt 30           OK
+8a                         Skript 40.0         Blatt 40           OK
+8b                         Skript 70.0         Blatt 70           OK
+8c                         Skript 90.0         Blatt 90           OK
+8d                         Skript 20.0         Blatt 20           OK
+9a  13 von 20              Skript 65.0         Blatt 65           OK
+9b  3 von 20               Skript 15.0         Blatt 15           OK
+9c  17 von 20              Skript 85.0         Blatt 85           OK
+Bsp 10a 17 von 100         Skript 17.0         Blatt 17           OK
+Bsp 10b 11 von 20          Skript 55.00000000000001 Blatt 55           OK
+10a                        Skript 23.0         Blatt 23           OK
+10b                        Skript 8.0          Blatt 8            OK
+10c                        Skript 60.0         Blatt 60           OK
+10d                        Skript 30.0         Blatt 30           OK
+10e                        Skript 45.0         Blatt 45           OK
+10f                        Skript 76.0         Blatt 76           OK
+10g                        Skript 42.0         Blatt 42           OK
+Bsp 11  9 von 40           Skript 22.5         Blatt 22.5         OK
+11a                        Skript 25.0         Blatt 25           OK
+11b                        Skript 45.0         Blatt 45           OK
+11c                        Skript 60.0         Blatt 60           OK
+11d  gerundet              Skript 41.7         Blatt 41.7         OK
+11e  gerundet              Skript 18.9         Blatt 18.9         OK
+12a  Beispielpaar 3 von 6  Skript 50.0         Blatt 50           OK
+12b  Beispielpaar 5 von 20 Skript 25.0         Blatt 25           OK
+12c  Beispielpaar 2 von 5  Skript 40.0         Blatt 40           OK
+13a                        Skript 52.0         Blatt 52           OK
+13b                        Skript 65.0         Blatt 65           OK
+13c  Ganzes                Skript 26           Blatt 26           OK
+13c  gerundet              Skript 26.9         Blatt 26.9         OK
+14a  richtig               Skript 40.0         Blatt 40           OK
+14b                        Skript 25.0         Blatt 25           OK
+15b  7a                    Skript 40.0         Blatt 40           OK
+15b  7b                    Skript 40.0         Blatt 40           OK
+16a  gerundet              Skript 23.4         Blatt 23.4         OK
+16b  Rest                  Skript 12           Blatt 12           OK
+16b                        Skript 20.0         Blatt 20           OK
+Abweichungen: 0

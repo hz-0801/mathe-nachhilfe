@@ -1,0 +1,15 @@
+Eingabe des Lehrers:
+prozentsatz 7 schwach
+
+Deutungszeile:
+-> Fokus Prozentsatz · Einheit 2 von 5 (Katalog) · Blatt 0 aus 4 Fertigkeiten + Grundvorstellung
+
+Plan: entfaellt (Fokus).
+Planfrage: entfaellt (Fokus; Umfangs- und Stufenzeile gelten nicht, Bildungsgangzeile erst ab Klasse 11).
+Rueckfragen: keine.
+
+Ausgabeblock: siehe Antwort im Chat.
+
+Uebergebene Dateien:
+ Prozentrechnung_Fokus_Prozentsatz.pdf
+ Prozentrechnung_Fokus_Prozentsatz_Loesungen.pdf

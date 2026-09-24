@@ -1,0 +1,55 @@
+Prompt: Unterrichtsblatt-Prompt v4.2
+Modell: Claude Opus 5
+Vorlage: % Version 2026-09-22h (Beschriftung bei \balkenab und \liniendia: \balkenab misst die Kategorienamen
+Katalog: prozentrechnung.md, Stand: gegengelesen bis auf [FS] (2026-09-08d; vierter Gegenlese-Block 2026-09-10i)
+
+Blatt: Fokus Prozentsatz (Lerneinheit 2 von 5, Prozentsatz berechnen), Klasse 7, Anspruchslage schwach.
+Nicht gebaut: Einheit 1, 3, 4, 5 (Fokus auf einen Typ).
+
+Hauptnummern:
+ 1 Anteile am Balken - ablesen und faerben (Blatt 0, Grundvorstellung schwach)
+ 2 Brueche kuerzen und erweitern (Blatt 0)
+ 3 Mal hundert und durch hundert (Blatt 0)
+ 4 In der Tabelle hoch- und runterrechnen (Blatt 0)
+ 5 Auf eine Stelle nach dem Komma runden (Blatt 0)
+ 6 Prozentsatz - Was ist das Ganze? (Vorstufe)
+ 7 Prozentsatz - Streifen einteilen (Vorstufe)
+ 8 Prozentsatz - am Streifen
+ 9 Prozentsatz - am Streifen, Fortsetzung
+10 Prozentsatz - rechnen
+11 Prozentsatz - rechnen, Fortsetzung
+12 Prozentsatz - Umkehrung
+13 Prozentsatz - aus dem Sachtext
+14 Prozentsatz - Fehler finden
+15 Prozentsatz - Begruenden
+16 Prozentsatz - Anwendung
+
+Zaehlung (Textextraktion des Kompilats):
+ Prozentrechnung_Fokus_Prozentsatz.pdf: 16 Hauptnummern, 52 Teilaufgaben, 16 Grafiken (11 Streifen, 2 Dreisatz-Schemata, 3 leere Streifen), 4 Seiten
+ Prozentrechnung_Fokus_Prozentsatz_Loesungen.pdf: 16 Nummern mit Loesung, 1 Seite
+
+Werkzeugaufrufe:
+ 1 Zeitstempel t0 - Protokollpflicht 6.3
+ 2 Vorlage, Register, Anleitung geholt - Baubeginn
+ 3 Katalogeintrag prozentrechnung.md geholt - Struktur
+ 4 fokus_a.tex geschrieben - Aufgabenteil
+ 5 fokus_l.tex geschrieben - Loesungen
+ 6 pruef.py geschrieben - Ergebnispruefung
+ 7 Pruefskript, zwei Kompilate, Log, Render - Mindestpruefung 5.1
+ 8 Seite 1 angesehen - Streifen und Dreisatz
+ 9 Seite 2 angesehen - Vorstufe und Streifen
+10 Seite 3 angesehen - Ablesestreifen
+11 mathblatt.sty gelesen (\streifen) - Anlass: Antwortfeld stand unter dem Streifen statt rechts daneben (4.3)
+12 Korrekturrunde: Baustein \streifenfeld im Vorspann, \streifenleer -> \streifen[0] in Nr. 7 (Anlass: \streifenleer bringt die Teilstriche schon mit, die Vorstufe waere geloest gewesen), \dfrac -> rac in Nr. 2 (Anlass: Bruchstrich lief in die Zeile darueber)
+13 Seite 3 neu angesehen - Kontrolle
+14 Seite 2 neu angesehen - Kontrolle
+15 Seite 4 angesehen - Schlussseite
+16 Loesungen kompiliert und angesehen
+17 Korrekturrunde Loesungen: egleitteil nur einmal (Anlass: jeder Aufruf begann eine neue Seite, Seite 1 blieb leer)
+18 Umbenennen, Zaehlung, Protokoll, Archiv
+
+Vorlage: fehlende Bausteine: \streifenfeld (Streifen mit Antwortfeld rechts daneben, 4.3) · Warnungen aus dem Log: keine
+Korrekturrunden: 3 von 18 Schritten
+Fokus: 608 s
+Loesungen: 608 s
+Weiter: nicht angefallen (Fokus in einer Antwort)

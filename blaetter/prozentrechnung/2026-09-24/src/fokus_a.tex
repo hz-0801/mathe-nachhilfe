@@ -1,0 +1,207 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+
+% fehlender Baustein (4.5): Streifen mit Antwortfeld rechts daneben (4.3)
+\newcommand{\streifenfeld}[4][10]{%
+  \par\smallskip\noindent
+  \begin{tikzpicture}[baseline=0pt]
+    \pgfmathsetmacro{\sfill}{(#2)/100*10}%
+    \ifdim\sfill pt>0pt\fill[black!20] (0,0) rectangle (\sfill,0.8);\fi
+    \mbstreifenrahmen{10}{0.8}{#1}%
+    \node[below,font=\small] at (0,-0.05) {#3};
+    \node[below,font=\small] at (10,-0.05) {#4};
+  \end{tikzpicture}\quad\leerfeld[\%]%
+  \par\smallskip}
+
+\begin{document}
+\blattkopf{Prozentrechnung}{Fokus Prozentsatz}
+\weit
+
+\einheitenkopf*{Blatt 0 · Das kannst du schon}
+
+\begin{aufgabe}{Anteile am Balken -- ablesen und färben. Der ganze Balken ist ein Ganzes. Kreuze an, wie viel gefärbt ist.}
+\begin{teile}
+\teil
+\streifen[4]{50}{}{}
+
+\kreuz{ein Viertel} \kreuz{die Hälfte} \kreuz{drei Viertel}
+\teil
+\streifen[4]{75}{}{}
+
+\kreuz{ein Viertel} \kreuz{die Hälfte} \kreuz{drei Viertel}
+\end{teile}
+Färbe bei c) und d) selbst.
+\begin{teile}
+\teil Färbe die Hälfte.
+
+\streifen[4]{0}{}{}
+\teil Färbe ein Zehntel.
+
+\streifen[10]{0}{}{}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Brüche kürzen und erweitern. Erweitere auf den Nenner hundert.}
+\begin{teilezwei}
+\tz $\frac{3}{20} = \frac{\phantom{00}}{100}$ & \tz $\frac{7}{25} = \frac{\phantom{00}}{100}$ \\
+\end{teilezwei}
+Kürze bei c) zuerst, dann erweitere.
+\begin{teile}
+\teil $\frac{12}{40}$ gekürzt: \leerfeld{} \quad und dann erweitert: $\frac{\phantom{00}}{100}$
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Mal hundert und durch hundert. Rechne im Kopf.}
+\begin{teilezwei}
+\tz $0{,}45 \cdot 100 = $ \leerfeld & \tz $0{,}06 \cdot 100 = $ \leerfeld \\
+\tz $7 : 100 = $ \leerfeld & \\
+\end{teilezwei}
+\end{aufgabe}
+
+\begin{aufgabe}{In der Tabelle hoch- und runterrechnen. Fülle die Lücken.}
+\begin{teile}
+\teil Fünf Becher kosten $3{,}00\,€$. Was kosten hundert Becher?
+
+\begin{dreisatz}{Becher}{Preis}
+\dsz{5}{3{,}00\,€}
+\dsp{:5}{:5}
+\dsz{1}{\dsleer}
+\dsp{\cdot 100}{\cdot 100}
+\dsz{100}{\dsleer}
+\end{dreisatz}
+\teil Zwanzig Sticker kosten $2{,}40\,€$. Was kosten hundert Sticker?
+
+\begin{dreisatz}{Sticker}{Preis}
+\dsz{20}{2{,}40\,€}
+\dsp{:20}{:20}
+\dsz{1}{\dsleer}
+\dsp{\cdot 100}{\cdot 100}
+\dsz{100}{\dsleer}
+\end{dreisatz}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Auf eine Stelle nach dem Komma runden.}
+\begin{teilezwei}
+\tz $4{,}23 \approx$ \leerfeld & \tz $17{,}58 \approx$ \leerfeld \\
+\tz $6{,}96 \approx$ \leerfeld & \\
+\end{teilezwei}
+\end{aufgabe}
+
+\einheitenkopf*{Fokus · Prozentsatz berechnen}
+
+\begin{aufgabe}{Prozentsatz -- Was ist das Ganze? Unterstreiche in jedem Satz das Ganze. Du rechnest hier nichts.}
+\begin{teile}
+\teil In der Klasse 7b sind 24 Kinder. Sechs davon fahren mit dem Rad zur Schule.
+\teil Von den 50 Plätzen im Bus sind 32 besetzt.
+\teil Beim Training wirft Ben 15-mal auf den Korb. Zwölf Würfe treffen.
+\teil Von den 200 Zuschauern sind 140 Kinder.
+\end{teile}
+Bei e) steht das Ganze nicht im Text. Kreuze an, was das Ganze ist.
+\begin{teile}
+\teil Auf dem Blech liegen 18 Kekse mit Schokolade und 30 Kekse ohne.
+
+\kreuz{18} \kreuz{30} \kreuz{18 und 30 zusammen}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- Streifen einteilen. Der ganze Streifen sind hundert Prozent. Zeichne mit dem Lineal ein.}
+\begin{teile}
+\teil Teile den Streifen in Schritte von zehn Prozent.
+
+\streifen[0]{0}{$0\,\%$}{$100\,\%$}
+\teil Teile den Streifen in Schritte von fünfundzwanzig Prozent.
+
+\streifen[0]{0}{$0\,\%$}{$100\,\%$}
+\teil Markiere die Mitte mit einem Pfeil.
+
+\streifen[0]{0}{$0\,\%$}{$100\,\%$}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- am Streifen. Wie viel Prozent sind gefärbt? Der Streifen ist in zehn gleich große Kästchen geteilt.}
+\beispiel{3 \text{ von } 10 &= \frac{30}{100} = 30\,\%}
+\begin{teile}
+\teil \streifenfeld[10]{40}{$0\,\%$}{$100\,\%$}
+\teil \streifenfeld[10]{70}{$0\,\%$}{$100\,\%$}
+\teil \streifenfeld[10]{90}{$0\,\%$}{$100\,\%$}
+\teil \streifenfeld[10]{20}{$0\,\%$}{$100\,\%$}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- am Streifen, Fortsetzung. Diese Streifen sind in zwanzig Kästchen geteilt. Ein Kästchen sind fünf Prozent.}
+\begin{teile}
+\teil \streifenfeld[20]{65}{$0\,\%$}{$100\,\%$}
+\teil \streifenfeld[20]{15}{$0\,\%$}{$100\,\%$}
+\teil \streifenfeld[20]{85}{$0\,\%$}{$100\,\%$}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- rechnen. Wie viel Prozent sind es? Bei a) bis c) ist das Ganze hundert.}
+\beispiel{17 \text{ von } 100 &= \frac{17}{100} = 17\,\%}
+\begin{teilezwei}
+\tz 23 von 100 \leerfeld[\%] & \tz 8 von 100 \leerfeld[\%] \\
+\tz 60 von 100 \leerfeld[\%] & \\
+\end{teilezwei}
+Bei d) bis g) ist das Ganze nicht hundert. Erweitere zuerst auf den Nenner hundert.
+\beispiel{11 \text{ von } 20 &= \frac{11}{20} = \frac{55}{100} = \phantom{55\,\%}}
+\begin{teilezwei}
+\tz 3 von 10 \leerfeld[\%] & \tz 9 von 20 \leerfeld[\%] \\
+\tz 19 von 25 \leerfeld[\%] & \tz 21 von 50 \leerfeld[\%] \\
+\end{teilezwei}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- rechnen, Fortsetzung. Geht das Erweitern nicht, teilst du: Teil geteilt durch Ganzes. Nimm den Taschenrechner.}
+\beispiel{9 \text{ von } 40: \quad 9 : 40 &= 0{,}225 = 22{,}5\,\%}
+\begin{teilezwei}
+\tz 12 von 48 \leerfeld[\%] & \tz 27 von 60 \leerfeld[\%] \\
+\tz 33 von 55 \leerfeld[\%] & \\
+\end{teilezwei}
+Bei d) und e) geht die Division nicht auf. Runde auf eine Stelle nach dem Komma.
+\begin{teilezwei}
+\tz 5 von 12 \leerfeld[\%] & \tz 17 von 90 \leerfeld[\%] \\
+\end{teilezwei}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- Umkehrung. Gib zu jedem Prozentsatz zwei Zahlen an, die dazu passen: einen Teil und ein Ganzes.}
+\begin{teile}
+\teil $50\,\%$: \leerfeld{} von \leerfeld
+\teil $25\,\%$: \leerfeld{} von \leerfeld
+\teil $40\,\%$: \leerfeld{} von \leerfeld
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- aus dem Sachtext. Suche zuerst das Ganze, dann rechne.}
+\begin{teile}
+\teil In der Klasse 7a sind 25 Kinder, 13 davon sind Mädchen. Wie viel Prozent der Kinder sind Mädchen? \leerfeld[\%]
+\teil Mia wirft beim Training 40-mal auf den Korb, 26 Würfe treffen. Wie viel Prozent der Würfe treffen? \leerfeld[\%]
+\teil Auf einem Blech liegen 7 Käsebrötchen und 19 Mohnbrötchen. Wie viel Prozent der Brötchen sind Käsebrötchen? Runde auf eine Stelle nach dem Komma. (P10 2018) \leerfeld[\%]
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- Fehler finden.}
+\begin{teile}
+\teil In einer Gruppe sind 12 von 30 Kindern Jungen. Jonas rechnet so:
+
+$30 : 12 = 2{,}5 = 2{,}5\,\%$
+
+Finde den Fehler, benenne ihn und korrigiere die Rechnung.
+\teil Berechne, wie viel Prozent 16 von 64 sind. \leerfeld[\%]
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- Begründen. Antworte in einem Satz, ohne zu rechnen.}
+\begin{teile}
+\teil Warum teilst du beim Prozentsatz durch das Ganze und nicht durch den Teil?
+\teil In der 7a sind 8 von 20 Kindern in einem Sportverein, in der 7b sind es 12 von 30. In welcher Klasse ist der Anteil größer? Begründe, ohne den Prozentsatz auszurechnen.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Prozentsatz -- Anwendung.}
+\begin{teile}
+\teil In einer Stadt leben 6,4 Millionen Menschen, 1,5 Millionen davon sind unter 18 Jahre alt. Wie viel Prozent der Menschen sind unter 18 Jahre alt? Runde auf eine Stelle nach dem Komma. (P10 2023) \leerfeld[\%]
+\teil Bei einem Turnier wurden 60 Strafstöße geschossen, 48 davon gingen ins Tor. Wie viel Prozent der Strafstöße gingen nicht ins Tor? (P10 2015) \leerfeld[\%]
+\end{teile}
+\end{aufgabe}
+
+\end{document}
