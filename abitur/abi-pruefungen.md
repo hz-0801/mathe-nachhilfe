@@ -18,7 +18,7 @@ in abi-vorgaben.md.
 
 | Jahr | Papier | Land | Niveau | Rechner | Seiten | Zeit | BE | Status |
 |---|---|---|---|---|---|---|---|---|
-| 2017 | 2017-be-gk | BE | grundlegend | WTR | 8 | 210 | 80 | nicht erfasst |
+| 2017 | 2017-be-gk | BE | grundlegend | WTR | 8 | 210 | 80 | **erfasst 2026-09-27, 33 Zeilen** (alle Aufgaben, beide Wahlwege; Pool: 3.1 Smartphone ist 2017 grundlegend Teil B Stochastik WTR 1 – 6 Zeilen „Dublette von:“ (3.1 a–d, f, g), 1 „Abgewandelt von:“ (3.1 e), keine Vormerkung; übrige Aufgaben ohne Pooltreffer) · Leitfassung grundlegend · 160 BE angeboten (40 + 40 + 20 + 20 + 20 + 20) |
 | 2017 | 2017-be-lk | BE | erhöht | WTR | 10 | 270 | 100 | teilweise abgedeckt · drei Aufgaben wortgleich in 2017-bb-ea, drei eigene noch nicht erfasst |
 | 2017 | 2017-bb-ea | BB | erhöht | WTR | 10 | 270 | 100 | **erfasst 2026-09-12, 36 Zeilen** (alle Aufgaben, beide Wahlwege) · Leitfassung erhöht |
 | 2017 | 2017-be-gk-cas | BE | grundlegend | CAS | 8 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
@@ -66,6 +66,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 
 | Heft | Zeilen | Typen | neu | Eichung | ? | ersatzw. | im Niveau bekannt | außerhalb der Geltung | Schnitt | Pool (Zeilen; BE angeboten) |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2017-be-gk | 33 | 42 | 5 (12 %) | 6 von 6 (100 %), davon 4 geerbt, 2 eigene (3.1 c, g nach dem amtlichen Bereich der Poolzeile gesetzt); 27 Zeilen ohne Maßstab | 0 | 0 | 28 von 42 (67 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 24 Werte, 31 von 33 Zeilen im Niveau bekannt (94 %), 1 Wert neu im Gesamtbestand (Rekonstruktion von Funktionsgleichungen · angeben, 1.2 f) | 6 von 33; 18 von 160 BE (11 %), alle „Dublette von:“ (2017-ga-B erfasst); abgewandelt 1 Zeile, 2 BE (3.1 e) |
 | 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
 | 2017-bb-ea-cas (CAS-Nachtrag, abi-bau.py v0.14) | 14 | 27 | 1 (4 %) | – (14 Zeilen ohne Maßstab) | 0 | 0 | 26 von 27 (96 %) | Heft (bb-ea) 0; alle: be-gk 5, be-lk 0, bb-gk 5, bb-ea 0 | 9 Werte, 14 von 14 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | 3 von 14; 13 von 87 BE der Nachtragszeilen (15 %), alle drei „Poolaufgabe (nicht erfasst)“ auf 2017MerhoehtBAGLAA2CAS2 (3.1 c, e, f; offener Posten, § 4); aufs ganze Heft gerechnet 40 von 185 BE (22 %: Teil 1 15 aus dem WTR-Heft, 3.1 Zelt 25) |
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
@@ -241,6 +242,64 @@ Seite 5 unter dem Schluss der Aufgabe, die Tabelle der summierten
 Binomialverteilungen zu 3.2 auf Seite 11. Die betreffenden Zeilen tragen die
 Seitenangaben 4|5 und 10|11. Das zu 1.1 f gehörende Koordinatensystem steht
 dagegen auf derselben Seite wie die Teilaufgabe.
+
+**2017-be-gk (erfasst 27.09.2026, Auftrag „2017 be-gk“).** Heft
+hefte/abi/2017-be-gk.pdf (17_Ma_GK_Aufgaben), 8 Seiten wie in abi-quellen.md
+§ 2: Deckblatt der Senatsverwaltung, sechs Aufgabenseiten mit Kopfzeile „Land
+Berlin“, Seite 8 Anlage zu 3.2 (summierte Binomialverteilung n = 5, 10, 15,
+20). Text mit pdftotext -layout, jede Aufgabenseite gerendert. **Aufbau wie
+2018-be-gk:** kein hilfsmittelfreier Teil, 40 + 20 + 20 = 80 BE, 210 Minuten,
+beide Wahlwege gleich gewichtet; BE-Vektoren 1.1 Holzeisenbahn 9 | 6 | 6 | 5 |
+5 | 9, 1.2 Dachformen 11 | 3 | 5 | 5 | 9 | 7, 2.1 Startbahn Ost 7 | 5 | 4 | 4,
+2.2 Schokotrüffel 2 | 4 | 5 | 4 | 5, 3.1 Smartphone 2 | 3 | 2 | 3 | 2 | 4 | 4,
+3.2 Zufallsexperimente 5 | 3 | 5 | 3 | 4 – 33 Zeilen, 160 BE angeboten. Anders
+als 2018 sind alle sechs BE-Tabellen mit „Teilaufgabe“ überschrieben (2018
+wechselnd „Teilaufgabe“/„Aufgabenteil“). **Poolbefund:** 3.1 Smartphone ist
+die Poolaufgabe 2017 grundlegend Teil B Stochastik WTR 1 (Stapel 2017-ga-B,
+erfasst); das Heft zählt Pool 1 a–b und 2 a–e als a–g durch, BE gleich. Am
+Text bestätigt: a, b, c, d, f, g wortgleich (der Pool setzt die Ereignisse A
+und B in Anführungszeichen) – sechs Zeilen „Dublette von:“ mit afb_amtlich
+und „AB amtlich“ aus der Poolzeile, Ergebnis „(amtlich)“ übernommen; e ist
+abgewandelt (Heft: 20 Geräte aus Werk A, keines fehlerhaft, 0,95^20; Pool 2
+c: 250 Geräte, wahrscheinlichste Anzahl fehlerhafter) – „Abgewandelt von:“
+mit eigenem Typ. Keine Vormerkung. Textvergleich (Anteil gemeinsamer
+Wort-Trigramme) jeder Teilaufgabe gegen alle 45 Pooldateien 2017 beider
+Niveaus, WTR und CAS: 3.1 trifft 0,74–0,93 (e 0,50), jede andere Teilaufgabe
+höchstens 0,16 bei unverwandten Dateien; Stichwortsuche (Holzeisenbahn,
+Dachelement, Startbahn, Rathaus, Schokotrüffel, Pyramidenstumpf, Glücksrad,
+Würfel W u. a.) ohne weiteren Treffer (Glücksrad nur in 2017 erhöht Teil A
+Stochastik 1.1, eine andere Aufgabe). Poolquote 6 von 33 Zeilen, 18 von 160
+BE (11 %), abgewandelt 2 BE – halb so hoch wie 2018-be-gk (22 %). Dieselbe
+Smartphone-Aufgabe steht auch in der CAS-Pooldatei 2017MgrundlegendBStochastikCAS
+(für einen späteren Nachtrag 2017-be-gk-cas). **Niveau der Dubletten:** 3.1
+c und g tragen den amtlichen Bereich der Poolzeile (II bzw. III, Vorrang des
+Amtlichen), die Poolzeilen selbst schätzen I bzw. II (dort vermerkt) – die
+Heftzeilen zählen deshalb als eigene Schätzungen, die übrigen vier als
+geerbt; Eichung 6 von 6, 27 Zeilen ohne Maßstab. **Kontrollangaben:** fünf
+(1.1 a f′ und A, B; 1.2 a f′; 2.1 b R(8040 | 1505 | 0); 2.2 b E1: 6x + z =
+60; 3.2 c P(C2) ≈ 0,3669), alle durch eigene Rechnung bestätigt; das
+Kontrollergebnis 2.1 b folgt nur mit dem auf 115 gerundeten Vielfachen von
+(60 | 11 | 0) (ungerundet R ≈ (8025 | 1502 | 0)) – daher die
+Rundungsanweisung im Heft. **Nur in Abbildungen:** Beschriftung des Würfels W
+(viermal 2, zweimal 1) und die Sektoren der Glücksräder G1 (4 rot, 4 blau, 2
+weiß) und G2 (2 rot, 1 blau, 1 schwarz) in 3.2 – ohne Bild ist 3.2 nicht
+lösbar; die Lage von P1–P4 auf den Seitenkanten in 2.2 e steht in Text und
+zweiter Abbildung. **Gegenprobe mit der Verlagsfassung**
+(hefte/abi/2017-be-gk-stark.pdf, Tipps und Lösungen, nicht Grundlage des
+Katalogs): die Ergebnisse stimmen überein (T(0 | 1), H(20 | 9), Stellen 4,23
+und 15,77, W(10 | 5), 20,9°, 615 m, Wolke 480 m, 80,5°, 80 cm², 79,8 cm,
+4,8 %); zwei Abweichungen, im Katalog nach eigener Rechnung: 2.2 c nennt der
+Verlag die Raumdiagonale DF ≈ 14,1 cm als größten Abstand, streng ist die
+Grundflächendiagonale 10√2 ≈ 14,14 cm länger als DF ≈ 14,07 cm (beide runden
+auf 14,1); 1.2 e rechnet der Verlag mit gerundeten Flächen 26,4 − 17 = 9,4
+m², exakt sind es 9,76 m². **Typen:** 42 verwendet, 5 neu (12 %), 28 aus dem
+grundlegenden abi-Bestand bekannt (67 %; 2018-be-gk: 32 %) – Analysis 12 von
+17, Analytische Geometrie 9 von 14, Stochastik 7 von 11; 27 der 42 stehen
+auch im Pool. Kein neues Thema, keine Zeile ersatzweise, alle 33 Zeilen in
+der Geltung be-gk. Ein Schnittwert neu im Gesamtbestand: Rekonstruktion von
+Funktionsgleichungen · angeben (1.2 f, vier Bedingungen angeben und die
+Existenz prüfen); neu im Niveau gk außerdem Punkte und Strecken · Körper ·
+begründen (2.2 e).
 
 **Berlin und Brandenburg: Zeitleiste der Zusammenarbeit.** Berlin führte das
 Zentralabitur 2006/2007 ein, seit dem Schuljahr 2009/2010 entwickeln beide Länder
@@ -2694,6 +2753,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-27 | Auftrag „2017 be-gk“: 2017-be-gk vollständig erfasst (Leitfassung grundlegend 2017) – 33 Zeilen, alle sechs Aufgaben beider Wahlwege, Punktsummen 40-40-20-20-20-20 gegen die BE-Tabellen geprüft; Katalog 855 Zeilen aus 19 Heften, Typenliste 1349 (5 neu: „Fläche: Volumen eines Körpers mit konstanter Tiefe aus der Fläche zwischen Graph und x-Achse berechnen“, „Existenz einer quadratischen Funktion zu vier Wert- und Steigungsbedingungen über das überbestimmte Gleichungssystem untersuchen“, „Gerade und Ebene: Parallelität einer Geraden zu einer Ebene über das Skalarprodukt von Richtungs- und Normalenvektor nachweisen“, „Körper: Eckpunkte eines Pyramidenstumpfs aus Symmetrie und Kantenlängen angeben“, „Gleich wahrscheinliche Ergebnisse eines zweistufigen Experiments über die Pfadwahrscheinlichkeiten ermitteln“). Pool: 3.1 Smartphone = 2017 grundlegend Teil B Stochastik WTR 1, 6 Zeilen „Dublette von:“ und 1 „Abgewandelt von:“ (3.1 e), keine Vormerkung; Poolquote 18 von 160 BE (11 %). abi-bau.py v0.14 unverändert, nur KONFIG, ZEILEN und NEUE_TYPEN getauscht (normales Heft, kein Nachtragsmodus); Lauf aus einer frischen Repo-Kopie byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Befunde in § 4; iqb-pruefungen.md Spalte „in Landesheften“ für 2017-ga-B-wtr nachgezogen (0 → 6); abi-quellen.md § 8 Status. Keine Umbenennung bestehender Typen. |
 | 2026-09-27 | Auftrag Nacht 2026-09-27, Teil 9: 2018-bb-ea-cas erfasst als CAS-Nachtrag zu 2018-bb-ea – 14 Zeilen (2.1 c, d, e, f, g, h; 2.2 b, d, e, f, g, i; 3.1 f; 4.2 d; 77 BE), vier „CAS:“-Aufgaben, Aufgaben ohne Präfix vollständig wortgleich geprüft; Katalog 822 Zeilen aus 18 Heften, Typenliste 1327 (3 neu: „Rotationsvolumen um die x-Achse berechnen“, „Schnittpunkte zweier Graphen mit dem Rechner ermitteln“, „Kleinsten Abstand eines Punktes zu einem Graphen über die Abstandsfunktion bestimmen“), 0 neue Schnittwerte im Gesamtbestand; CAS-Delta in § 4. abi-bau.py v0.14 ohne Änderung am Prüfteil – nur KONFIG, ZEILEN und NEUE_TYPEN getauscht, der Nachtragsmodus trägt auch die neuen Teilaufgaben mit verschobenen Buchstaben (2.1 i, j = WTR h, i). Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Bau-Skripte bestanden (abi 822, iqb 1443). **Offener Posten:** 3.1 Museum ist die Poolaufgabe 2018MerhoehtBAGLAA2CAS1, Stapel 2018-ea-B (CAS-Zweig) nicht erfasst – 1 Vormerkung (3.1 f), nach abi.md § 7 im selben Auftrag zu schließen, hier nicht möglich (Auftrag auf abi-Dateien beschränkt); dazu fehlen in den WTR-Zeilen 2018-bb-ea-B3.1a–f die Poolvermerke (Pool-Abgleich Lauf 14 nur gegen WTR-Dateien, § 4). faellig.md im Auftrag nicht angefasst: der Posten „Pool-Vormerkungen des CAS-Nachtrags schließen“ ist um 2018-bb-ea-cas 3.1 f zu ergänzen. |
 | 2026-09-27 | Auftrag Nacht 2026-09-27, Teil 9: 2017-bb-ea-cas erfasst als CAS-Nachtrag zu 2017-bb-ea – 14 Zeilen (2.1 a, b, c, e, f; 2.2 b, d, g; 3.1 c, e, f; 4.2 a, b, d; 87 BE), vier „CAS:“-Aufgaben, Aufgaben ohne Präfix vollständig wortgleich geprüft; Katalog 808 Zeilen aus 17 Heften, Typenliste 1324 (1 neu: „Identische Graphen einer Schar zu entgegengesetzten Parameterwerten begründen“), 0 neue Schnittwerte; CAS-Delta in § 4. **abi-bau.py v0.14:** Nachtragsmodus (KONFIG „nachtrag_zu“, „soll“ = BE der abweichenden Teilaufgaben, „uebernommen“ = wortgleiche Teilaufgaben CAS-Buchstabe → WTR-Buchstabe und BE, „unveraendert“ = übrige Aufgaben mit ihren Summen im WTR-Heft, „be_angeboten“ = 185; Summenprüfung 87 + 63 + 35 = 185, je „CAS:“-Aufgabe gleich der WTR-Aufgabensumme), Nachtragsvermerk in bemerkung geprüft, auch in der Selbstprüfung; ohne „nachtrag_zu“ unverändert. abi.md v0.30 § 7. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Bau-Skripte bestanden (abi 808, iqb 1443). **Offener Posten:** 3.1 Zelt ist die Poolaufgabe 2017MerhoehtBAGLAA2CAS2, Stapel 2017-ea-B (CAS-Zweig) nicht erfasst – 3 Vormerkungen (3.1 c, e, f), nach abi.md § 7 im selben Auftrag zu schließen, hier nicht möglich (Auftrag auf abi-Dateien beschränkt); dazu fehlen in den WTR-Zeilen 2017-bb-ea-B3.1a–f die Poolvermerke (Pool-Abgleich Lauf 14 nur gegen WTR-Dateien, § 4). |
 | 2026-09-19 | Auftrag „Strukturbefunde des Korpus-Laufs gegen die Profildateien": Kopplung 3⇒4 und BE 40+20+20 für be-gk 2017/2018 waren bereits in abi.md § 3, abi-struktur.json und abi-aufbau.md § 2 geführt (nichts geändert); die Jahresangabe „Brandenburg hilfsmittelfrei schon 2017" in abi.md § 9, § 10 war zu spät angesetzt und auf 2015 berichtigt (2015/2016 mit 30 BE ohne Kopplung, dokumentiert am Korpus-Lauf hefte-md/abi/2015-bb-ea.md, 2016-bb-ea.md); abi.md § 3, § 11 um Fundstellen zu 2011–2016 (be-gk/be-lk/bebb durchgängig 40+30+30=100 BE) ergänzt, die die Prozentspanne „bis 2018" in § 11 erstmals mit Primärquellen statt nur der Verlagsangabe belegen; abi-aufbau.md § 7 offener Punkt zur Bewegung 2011–2018 teilweise beantwortet; § 3 hier um den Verweis auf hefte-md/abi/ ergänzt. 2011–2016 bleiben nicht im Bestand (oben); keine Katalogzeile, keine Bestandszahl geändert. |

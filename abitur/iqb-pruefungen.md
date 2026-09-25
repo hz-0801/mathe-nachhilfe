@@ -63,7 +63,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2019-ea-B (WTR) | 10 von 17 | entfällt – Reserve (§ 4) |
 | 2018-ga-B (WTR) | 7 von 12 | **erfasst 2026-09-16, 53 Zeilen – wegen Landesheftverweisen** (2018-be-gk 2.2 und 3.2; Reserve geöffnet, Abbruchkriterium unberührt) · 29 Typen neu, 23 wiederverwendet (12 davon Etiketten des Landeshefts) · Eichung 46 von 53 (Spalte AB) |
 | 2018-ea-B (WTR) | 8 von 17 | **erfasst 2026-09-16, 69 Zeilen – wegen Landesheftverweisen** (2018-be-gk 3.2 e, g; Reserve geöffnet, Abbruchkriterium unberührt) · 38 Typen neu, 34 wiederverwendet · Eichung 59 von 69 (Spalte AB) · eine Zeile ersatzweise |
-| 2017-ga-B (WTR) | 5 von 10 | **erfasst 2026-09-27, 39 Zeilen – wegen Landesheftverweisen** (2017-be-gk 3.1; Reserve geöffnet, Abbruchkriterium unberührt) · 10 Typen neu, 29 wiederverwendet · Eichung 34 von 39 (Spalte AB; erster Lauf 23, elf Schätzungen nach der engen Fassung korrigiert, keine unabhängige Kennzahl, § 4) · das Heft stellt Stochastik WTR 1 (3.1 a–d, f, g wortgleich, 3.1 e abgewandelt aus 2 c); Heft noch nicht erfasst |
+| 2017-ga-B (WTR) | 5 von 10 | **erfasst 2026-09-27, 39 Zeilen – wegen Landesheftverweisen** (2017-be-gk 3.1; Reserve geöffnet, Abbruchkriterium unberührt) · 10 Typen neu, 29 wiederverwendet · Eichung 34 von 39 (Spalte AB; erster Lauf 23, elf Schätzungen nach der engen Fassung korrigiert, keine unabhängige Kennzahl, § 4) · das Heft stellt Stochastik WTR 1 (3.1 a–d, f, g wortgleich, 3.1 e abgewandelt aus 2 c); Heft erfasst 2026-09-27 (6 Zeilen „Dublette von:“, 1 „Abgewandelt von:“) |
 | 2017-ea-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
 | bsp-ga-B (WTR) | 4 von 8 | entfällt – Reserve (§ 4) |
 | bsp-ea-B (WTR) | 4 von 9 | entfällt – Reserve (§ 4) |
@@ -121,7 +121,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2021-ga-B-wtr (Teil B, Reserve) | 47 | 47 | 19 (40 %) | 45 von 47 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 15 von 47 (32 %); Schnitt 30 Werte, 41 von 47 Zeilen bekannt (87 %) | 8, 6, 8, 6 | 12 |
 | 2025-ea-B-mms (Teil B, Reserve, Delta-Stapel erhöht) | 25 | 25 | 19 (76 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 2 von 25 (8 %); Schnitt 21 Werte, 24 von 25 Zeilen bekannt (96 %) | 9, 3, 9, 3 | 7 |
 | 2019-ga-B-wtr (Teil B, Reserve) | 66 | 67 | 47 (70 %) | 59 von 66 (89 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 5 von 67 (7 %); Schnitt 48 Werte, 59 von 66 Zeilen bekannt (89 %) | 10, 6, 10, 6 | 9 |
-| 2017-ga-B-wtr (Teil B, Reserve) | 39 | 39 | 10 (26 %) | 34 von 39 (87 %), Liste v0.7, Spalte AB; erster Lauf 23 von 39 (59 %), elf Schätzungen nach Prüfung der Abweichungen korrigiert (§ 4) | 0 | 0 | 22 von 39 (56 %); Schnitt 31 Werte, 38 von 39 Zeilen bekannt (97 %) | 0, 0, 0, 0 | 0 |
+| 2017-ga-B-wtr (Teil B, Reserve) | 39 | 39 | 10 (26 %) | 34 von 39 (87 %), Liste v0.7, Spalte AB; erster Lauf 23 von 39 (59 %), elf Schätzungen nach Prüfung der Abweichungen korrigiert (§ 4) | 0 | 0 | 22 von 39 (56 %); Schnitt 31 Werte, 38 von 39 Zeilen bekannt (97 %) | 0, 0, 0, 0 | 6 (seit 2026-09-27: 2017-be-gk 3.1 a–d, f, g auf Stochastik WTR 1; dazu 1 abgewandelt, 3.1 e auf 2 c) |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
