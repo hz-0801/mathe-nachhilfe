@@ -1,0 +1,39 @@
+→ Lernblatt · Kl. 8, Oberschule als Standpunkt (am Gymnasium dieselben Marken) · mit Wiederholung · 3 Zweige, kein Ausblick-Zweig (jede Marke reicht bis Kl. 8) · Zone aus 6 Fertigkeiten
+
+Einheit 1 · Kreisumfang: Hier lernst du, den Umfang eines Kreises aus Radius oder Durchmesser zu berechnen und umgekehrt · neu oder schon bekannt – je nach Buch · P10 · baut auf: Rechnen mit Kommazahlen und Runden, Umfang und Fläche unterscheiden, Formeln umstellen
+Einheit 2 · Kreisfläche: Hier lernst du, den Flächeninhalt eines Kreises zu berechnen und aus der Fläche den Radius zu bestimmen · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Kreisumfang (Einheit 1), Quadrieren und Wurzelziehen, Formeln umstellen
+Einheit 3 · Kreisteile: Hier lernst du, mit Kreisausschnitten zu rechnen: Anteil aus dem Winkel, Bogenlänge, Fläche des Ausschnitts und Kreisring · neu oder schon bekannt – je nach Buch · P10 · baut auf: Kreisumfang (Einheit 1), Kreisfläche (Einheit 2), mit dem Vollwinkel rechnen, Anteile als Bruch und Prozent
+
+Es gab keine Planfrage: Das Blatt hat 3 Zweige und liegt in Sek I. Die Antwort „alle“ aus der Eingabe bestätigt den Plan.
+
+Kreis_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 3, Gesamt und Lösungen.
+
+Kreis_Lernblatt.pdf
+Kreis_Gesamt.pdf
+Kreis_Loesungen.pdf
+Kreis_2026-09-25_protokoll.zip
+
+1. Abweichungen:
+   - „mit Ausblick“ war bestellt, aber es gibt keinen Ausblick-Zweig. Alle drei Einheiten tragen OS und GYM Kl. 7–8 bzw. 7–9. Kl. 8 liegt in jeder Spanne, deshalb stehen alle drei als „neu oder schon bekannt – je nach Buch“ auf dem Blatt.
+   - Die Zone hat eigene Nummern 1–7, das Lernblatt zählt ab 1.
+   - Zwischensprossen: E2 Nr. 15c (Durchmesser aus der Fläche) und E3 Nr. 21e (glatter Prozentanteil vor dem gerundeten).
+   - Die Ketten sind nach Form geteilt: Umfang Nr. 6–7, Fläche Nr. 12–15, Kreisteile Nr. 21–24; das Original steht jeweils in der letzten Nummer.
+   - Im Vorspann definierte Bausteine: \zweigzeile, \abhak/\abhakgruppe, \vzeile, \zeichenflaeche, \tortenkreis, \tortenrechteck.
+   - Vereinfachte Grafiken: Der Halbkreis ist ein grauer Sektor im Vollkreis, weil die kreis-Umgebung immer den ganzen Kreis zeichnet. Der Kreisring ist mit freiem TikZ in der kreis-Umgebung gezeichnet.
+   - Die Vorstufe „Radius oder Durchmesser?“ ist nur Ankreuzen, weil 2.3 a in der Vorstufe kein Zahlenergebnis erlaubt. Das Umrechnen steht als eigene Nr. 4.
+2. Katalogzeile:
+   - Gebraucht: Lerneinheiten, Marken, Typen je Lerneinheit, Voraussetzungen samt allen vier Erkennungsschritten, Sprossen je Verfahrenstyp, Typische Fehler, Prüfungsform und Zielmarke.
+   - Nicht gebraucht: Verortung sowie Grundvorstellung und Mindeststoff (die gelten nur bei „schwach“). Den Merkkasten brauchte ich nur, um Zahlen zu sperren.
+   - Befund: Der Erkennungsschritt „Radius oder Durchmesser?“ verlangt eine Zahl („d = 6,4 → r = 3,2“). Das widerspricht der Vorstufe.
+   - Befund: Von der Fertigkeit „Winkel messen und zeichnen, Vollwinkel“ braucht das Blatt nur den Vollwinkel.
+   - Befund: Die Kastenzahlen (r = 2, 3, 4, 5, 10) sperren viele Grundfallzahlen.
+   - Befund: „nicht für alle“ bei Einheit 1 nennt nur spätere Bücher (Sekundo 9). Das passt nicht zur Form „in manchen Büchern schon Kl. n“.
+   - Spannen: E1 und E2 tragen 7–8, E3 trägt 7–9. Bei Kl. 8 heißt die Marke deshalb „neu oder schon bekannt – je nach Buch“.
+   - Typklammern: [OS 5, GYM 5–6] wird zu „kennst du seit Klasse 5“ an Nr. 3. Die übrigen Klammern decken sich mit der Einheitsmarke und bekommen keine eigene Angabe.
+4. Protokoll-Archiv: Kreis_2026-09-25_protokoll.zip
+
+---
+Hinweis zum Testlauf, nicht Teil des Blatts: Eine meiner PowerShell-Korrekturen hat einen relativen Pfad falsch aufgelöst. Dabei ist die leere, unversionierte Datei `C:\Users\holge\mathe\mathe-nachhilfe\e1_a.tex` im Repo entstanden. Ich wollte sie löschen, das hat die Rechteprüfung abgelehnt. Bitte lösche sie von Hand. Sonst habe ich im Repo nichts geändert.
+
+Alle Dateien liegen in `C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\c6924aab-9c6f-4c6b-96fc-d8fbcd8c8855\scratchpad\bau\5-kreis-8-ausblick\a1`.

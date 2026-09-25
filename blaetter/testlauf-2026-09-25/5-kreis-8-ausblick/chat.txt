@@ -1,0 +1,27 @@
+Eingabe des Lehrers:
+kreis 8 mit ausblick – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+Deutungszeile und Plan:
+→ Lernblatt · Kl. 8, Oberschule als Standpunkt (Gymnasium mit denselben Marken) · mit Wiederholung · 3 Zweige, kein Ausblick-Zweig (jede Marke reicht bis Kl. 8) · Zone aus 6 Fertigkeiten
+Einheit 1 · Kreisumfang: Hier lernst du, den Umfang eines Kreises aus Radius oder Durchmesser zu berechnen und umgekehrt · neu oder schon bekannt – je nach Buch · P10 · baut auf: Rechnen mit Kommazahlen und Runden, Umfang und Fläche unterscheiden, Formeln umstellen
+Einheit 2 · Kreisfläche: Hier lernst du, den Flächeninhalt eines Kreises zu berechnen und aus der Fläche den Radius zu bestimmen · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Kreisumfang (Einheit 1), Quadrieren und Wurzelziehen, Formeln umstellen
+Einheit 3 · Kreisteile: Hier lernst du, mit Kreisausschnitten zu rechnen: Anteil aus dem Winkel, Bogenlänge, Fläche des Ausschnitts und Kreisring · neu oder schon bekannt – je nach Buch · P10 · baut auf: Kreisumfang (Einheit 1), Kreisfläche (Einheit 2), mit dem Vollwinkel rechnen, Anteile als Bruch und Prozent
+
+Planfrage: keine (3 Zweige, Stufe Sek I) – Antwort aus der Eingabe „alle“ bestätigt den Plan.
+Rückfragen: keine.
+
+Zone:
+Kreis_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 3, Gesamt und Lösungen.
+Antwort: weiter (aus der Eingabe)
+
+Übergebene Dateien:
+Kreis_Lernblatt.pdf
+Kreis_Gesamt.pdf
+Kreis_Loesungen.pdf
+Kreis_2026-09-25_protokoll.zip
+
+Ausgabeblock:
+1. Abweichungen: „mit Ausblick“ bestellt, aber kein Ausblick-Zweig – alle drei Einheiten tragen OS und GYM Kl. 7–8 bzw. 7–9, Kl. 8 liegt in jeder Spanne, also stehen alle drei als „neu oder schon bekannt – je nach Buch“ auf dem Blatt · Zone mit eigenen Nummern 1–7, das Lernblatt zählt ab 1 · Zwischensprossen: E2 Nr. 15c Durchmesser aus der Fläche, E3 Nr. 21e glatter Prozentanteil (36° → 10 %) vor dem gerundeten · Ketten nach Form geteilt: Umfang Nr. 6–7, Fläche Nr. 12–15, Kreisteile Nr. 21–24 (Original jeweils in der letzten) · im Vorspann definierte Bausteine: \zweigzeile, \abhak/\abhakgruppe, \vzeile, \zeichenflaeche, \tortenkreis, \tortenrechteck · vereinfachte Grafiken: Halbkreis als grauer Sektor im Vollkreis (die kreis-Umgebung zeichnet immer den ganzen Kreis), Kreisring mit freiem TikZ in der kreis-Umgebung · Vorstufe „Radius oder Durchmesser?“ nur als Ankreuzen, das Umrechnen steht als eigene Nr. 4 (2.3 a verbietet ein Zahlenergebnis in der Vorstufe).
+2. Katalogzeile: Gebraucht wurden Lerneinheiten, Marken, Typen je Lerneinheit, Voraussetzungen (Fertigkeiten und alle vier Erkennungsschritte), Sprossen je Verfahrenstyp, Typische Fehler, Prüfungsform/Zielmarke; nicht gebraucht wurden Verortung, Grundvorstellung und Mindeststoff (nur bei „schwach“), der Merkkasten nur zum Sperren von Zahlen. Befunde: Der Erkennungsschritt „Radius oder Durchmesser?“ verlangt „die andere angeben (d = 6,4 → r = 3,2)“, also eine Zahl – das widerspricht der Vorstufe. Von der Fertigkeit „Winkel messen und zeichnen, Vollwinkel“ braucht das Blatt nur den Vollwinkel. Die Kastenzahlen (r = 2, 3, 4, 5, 10) sperren viele Grundfallzahlen. „nicht für alle“ bei Einheit 1 nennt nur spätere Bücher (Sekundo 9) und passt nicht zur Form „in manchen Büchern schon Kl. n“. Spannen: E1 und E2 OS/GYM 7–8, E3 7–9 → bei Kl. 8 „neu oder schon bekannt – je nach Buch“. Typklammer [OS 5, GYM 5–6] → „kennst du seit Klasse 5“ an Nr. 3; [OS 5–8], [OS 7–8] und [OS 7–9] decken sich mit der Einheitsmarke → keine Klammer.
+4. Protokoll-Archiv: Kreis_2026-09-25_protokoll.zip

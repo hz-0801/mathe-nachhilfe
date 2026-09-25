@@ -1,0 +1,38 @@
+20a | Skript 1/2 | Blatt 1/2 | OK
+20b | Skript 1/4 | Blatt 1/4 | OK
+20c | Skript 1/3 | Blatt 1/3 | OK
+20d | Skript 3/4 | Blatt 3/4 | OK
+20e | Skript 1/6 | Blatt 1/6 | OK
+21 Beispiel | Skript 1/12 | Blatt 1/12 | OK
+21a | Skript 1/4 | Blatt 1/4 | OK
+21b | Skript 1/2 | Blatt 1/2 | OK
+21c | Skript 1/6 | Blatt 1/6 | OK
+21d | Skript 1/8 | Blatt 1/8 | OK
+21e | Skript 10 | Blatt 10 | OK
+21f | Skript 13,9 | Blatt 13,9 | OK
+22 Beispiel | Skript 30 | Blatt 30 | OK
+22a | Skript 45 | Blatt 45 | OK
+22b | Skript 135 | Blatt 135 | OK
+22c | Skript 108 | Blatt 108 | OK
+23 Beispiel b | Skript 6,3 | Blatt 6,3 | OK
+23 Beispiel A | Skript 18,8 | Blatt 18,8 | OK
+23a | Skript 11,0 | Blatt 11,0 | OK
+23b | Skript 6,1 | Blatt 6,1 | OK
+23c | Skript 21,4 | Blatt 21,4 | OK
+23d | Skript 20,1 | Blatt 20,1 | OK
+23e b | Skript 17,3 | Blatt 17,3 | OK
+23e A | Skript 64,8 | Blatt 64,8 | OK
+24 Beispiel | Skript 141,4 | Blatt 141,4 | OK
+24a | Skript 88,0 | Blatt 88,0 | OK
+24b | Skript 377,0 | Blatt 377,0 | OK
+24c | Skript 179,1 | Blatt 179,1 | OK
+24d Restwinkel | Skript 235 | Blatt 235 | OK
+24d | Skript 65,3 | Blatt 65,3 | OK
+25 Ben | Skript 83,3 | Blatt 83,3 | OK
+25a | Skript 41,7 | Blatt 41,7 | OK
+25b | Skript 45 | Blatt 45 | OK
+27a | Skript 63,6 | Blatt 63,6 | OK
+27b | Skript 183,9 | Blatt 183,9 | OK
+27b gerundet | Skript 184 | Blatt 184 | OK
+27c | Skript 127,2 | Blatt 127,2 | OK
+Abweichungen: 0

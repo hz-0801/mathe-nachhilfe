@@ -1,0 +1,168 @@
+Prompt: Unterrichtsblatt-Prompt v4.3
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-22h
+Katalog: kreis.md, Status: gegengelesen bis auf [FS] (2026-09-08e; LISUM-Planungshilfen am 10d nachgetragen; Zitierform der LISUM-Zeile am 10e vereinheitlicht; Gegenlese im dritten Block 10h)
+Bestellung: mit Wiederholung · mit Ausblick
+Standpunkt: Kl. 8, Oberschule (Gymnasium als Zusatz; Marken beider Schulformen gleich)
+
+Zweige
+gebaut:
+Einheit 1 von 3 · Kreisumfang
+  Hier lernst du, den Umfang eines Kreises aus Radius oder Durchmesser zu berechnen und umgekehrt · neu oder schon bekannt – je nach Buch · P10 · baut auf: Rechnen mit Kommazahlen und Runden, Umfang und Fläche unterscheiden, Formeln umstellen
+  1. Ich erkenne, ob Radius oder Durchmesser gegeben ist.
+  2. Ich erkenne, ob nach dem Rand oder nach der Fläche gefragt ist.
+  3. Ich kann einen Kreis zeichnen und Mittelpunkt, Radius und Durchmesser einzeichnen (kennst du seit Klasse 5).
+  4. Ich kann aus dem Radius den Durchmesser berechnen und umgekehrt.
+  5. Ich kann herausfinden, wie oft der Durchmesser in den Umfang passt.
+  6. Ich kann den Umfang eines Kreises berechnen.
+  7. Ich kann aus dem Umfang den Durchmesser und den Radius berechnen.
+  8. Ich finde den Fehler beim Kreisumfang.
+  9. Ich kann begründen, warum u : d bei jedem Kreis gleich ist.
+  10. Ich kann ausrechnen, wie weit ein Rad rollt.
+Einheit 2 von 3 · Kreisfläche
+  Hier lernst du, den Flächeninhalt eines Kreises zu berechnen und aus der Fläche den Radius zu bestimmen · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Kreisumfang (Einheit 1), Quadrieren und Wurzelziehen, Formeln umstellen
+  11. Ich erkenne, welche Formel ich brauche.
+  12. Ich kann den Flächeninhalt eines Kreises berechnen.
+  13. Ich kann den Flächeninhalt von Halbkreis und Viertelkreis berechnen.
+  14. Ich kann aus einer Größe eines Kreises die anderen berechnen.
+  15. Ich kann aus dem Flächeninhalt den Radius berechnen.
+  16. Ich finde den Fehler bei der Kreisfläche.
+  17. Ich kann unterscheiden, ob der Umfang oder der Flächeninhalt gesucht ist.
+  18. Ich kann begründen, warum die Kreisfläche π · r² ist.
+  19. Ich kann mit Kreisflächen Preise vergleichen.
+Einheit 3 von 3 · Kreisteile
+  Hier lernst du, mit Kreisausschnitten zu rechnen: Anteil aus dem Winkel, Bogenlänge, Fläche des Ausschnitts und Kreisring · neu oder schon bekannt – je nach Buch · P10 · baut auf: Kreisumfang (Einheit 1), Kreisfläche (Einheit 2), mit dem Vollwinkel rechnen, Anteile als Bruch und Prozent
+  20. Ich erkenne, welcher Teil des Kreises grau ist.
+  21. Ich kann den Anteil eines Kreisausschnitts aus dem Mittelpunktswinkel berechnen.
+  22. Ich kann aus dem Anteil den Mittelpunktswinkel berechnen.
+  23. Ich kann Bogenlänge, Flächeninhalt und Umfang eines Kreisausschnitts berechnen.
+  24. Ich kann den Flächeninhalt eines Kreisrings berechnen.
+  25. Ich finde den Fehler beim Anteil eines Kreisausschnitts.
+  26. Ich kann begründen, welcher Teil eines Kreises zu einem Mittelpunktswinkel gehört.
+  27. Ich kann mit einem Kreisausschnitt eine Fläche planen.
+abgewählt: keine
+Ausblick: keiner (alle drei Einheiten tragen OS/GYM Kl. 7–8 bzw. 7–9; Kl. 8 liegt in jeder Spanne)
+Zone „Das kennst du schon“ (eigene Nummern 1–7): 1 Kommazahlen/Runden · 2 Umfang und Flächeninhalt, Einheiten · 3 Formel umstellen · 4 Quadrieren/Wurzel · 5 Fehler finden Quadrieren · 6 Vollwinkel · 7 Anteil als Bruch und Prozent
+
+Zählung aus der Textextraktion der Kompilate
+Kreis_KennstDuSchon.pdf: Hauptnummern 7, Teilaufgaben 39, Grafiken 0 (1 Sachtabelle), Seiten 2
+Kreis_Lernblatt.pdf: Hauptnummern 27, Teilaufgaben 111 (Regex-Zählung der Marken a)–h); Quelltext 112), Grafiken 18, Seiten 10
+Kreis_Gesamt.pdf: Hauptnummern 34, Teilaufgaben 150 (Regex; Quelltext 151), Grafiken 18, Seiten 12
+Kreis_Loesungen.pdf: Nummern mit Lösung 34 (Zone 1–7, Einheiten 1–27), Seiten 2
+Verzeichnis Lernblatt (wortgleich):
+  Einheit 1 · Kreisumfang (Nr. 1–10) · Seiten 2–4
+  Einheit 2 · Kreisfläche (Nr. 11–19) · Seiten 5–6
+  Einheit 3 · Kreisteile (Nr. 20–27) · Seiten 7–9
+  Das kann ich · Seite 10
+Verzeichnis Gesamt (wortgleich):
+  Kennst du schon (Nr. 1–7) · Seiten 2–3
+  Einheit 1 · Kreisumfang (Nr. 1–10) · Seiten 4–6
+  Einheit 2 · Kreisfläche (Nr. 11–19) · Seiten 7–8
+  Einheit 3 · Kreisteile (Nr. 20–27) · Seiten 9–11
+  Das kann ich · Seite 12
+Links (links.py): Lernblatt e1→2, e2→5, e3→7, abhaken→10; Gesamt zone→2, e1→4, e2→7, e3→9, abhaken→12
+
+Schritte (Schritt · Anlass)
+1 Arbeitsverzeichnis geprüft · Bau beginnt
+2 t0-Stempel · Zeitmessung
+3 Themenregister und Register der Blätter geholt · 1.2
+4 Themenregister nach „kreis“ durchsucht · Eintrag wählen
+5 Register der Blätter gelesen · Bestellung (kreis nicht im Register)
+6 kreis.md geholt · 1.2
+7 kreis.md gelesen · 2.1
+8 mathblatt.sty und Anleitung geholt · 4.5
+9 Anleitung gelesen · Makronamen
+10 Zählername in der Vorlage gesucht · \setcounter je Einheitsdatei
+11 zone_a.tex geschrieben · Zone
+12 Zonenkopf mit Hypertarget ergänzt · Verzeichnislink Gesamt
+13 zone_l.tex geschrieben · Lösungen Zone
+14 Kreis_KennstDuSchon.tex geschrieben · Rahmendatei Zone
+15 pruef.py geschrieben · 5.1 a
+16 Zone geprüft, kompiliert, gerendert · pruef_out_zone 0 Abweichungen; Textextraktion: 6c „Ein gestreckter Winkel hat“ gedehnt umbrochen; Log „Underfull \hbox (badness 10000)“
+17 Korrektur Nr. 6 (kürzere Feldtexte) · Umbruch 6c
+18 Korrektur Nr. 7 (geruest) · Felder nicht in Flucht
+19 Zone neu kompiliert, Stempel zone · Log „Overfull \hbox (83.82736pt too wide) in paragraph at lines 70--77“
+20 Seite 2 angesehen · Prozentzeichen rechts abgeschnitten (geruest mit zwei Feldern)
+21 Korrektur Nr. 7 → \sachtabelle · Overfull
+22 Seite 1 angesehen · Rasterzeile von Nr. 3 überdeckt „Löse nach der Variablen auf“
+23 Korrektur \medskip nach \gleichungsraster · Überdeckung
+24 Zone neu kompiliert, Stempel zone · Log ohne Befund
+25 Seite 2 angesehen · in Ordnung
+26 test_grafik.tex geschrieben · kreis-Bausteine (Sektor, Bogen, Ring, \kreissektor) erproben
+27 Stempel weiter, Testkompilat · Grafikprobe
+28 Testbild angesehen · Halbkreis nur als Sektor im Vollkreis, Ring mit freiem TikZ möglich
+29 e1_a.tex geschrieben · Einheit 1
+30 e1_l.tex geschrieben · Lösungen Einheit 1
+31 einheit_pruef.tex geschrieben · Prüfrahmen je Einheit
+32 pruef.py um Einheit 1 ergänzt · 5.1 a
+33 Zone: Buchstabe b (Breite) durch h, Variablen b, c durch x, z ersetzt · b steht im Lernblatt für den Bogen (3.6)
+34 zone_l.tex angepasst · dieselbe Änderung
+35 E1 geprüft, kompiliert, gerendert; Zone neu kompiliert · pruef_out_e1 0 Abweichungen
+36 E1 Seiten 1–3 angesehen · 1a–c „Durch-messer“ im Kästchen umbrochen; 7e Zeile gedehnt, Feld umbrochen
+37 Korrektur per PowerShell-Ersetzung · fehlgeschlagen: relativer Pfad in .NET, dabei leere Datei e1_a.tex im Repo-Verzeichnis angelegt
+38 git status des Repos · Nachweis der leeren Datei
+39 Löschen der leeren Datei · vom Rechtesystem verweigert, liegt noch dort
+40 Korrektur \kreuz untereinander (Edit) · Umbruch 1a–c
+41 Korrektur Radius c) auf 300° · Label über M
+42 Korrektur 7e Feld in eigener Zeile · gedehnte Zeile
+43 E1 neu kompiliert, Stempel e 1 · Log ohne Befund
+44 E1 Seiten 1 und 4 angesehen · d) klebt an den Kreuzen
+45 Korrektur \medskip nach den Kreisen · Abstand
+46 E1 Seite 3 angesehen · in Ordnung
+47 e2_a.tex geschrieben · Einheit 2
+48 e2_l.tex geschrieben · Lösungen Einheit 2
+49 pruef.py um Einheit 2 ergänzt · 5.1 a
+50 E2 geprüft, kompiliert, gerendert · pruef: „19c Differenz | Skript 0,23 | Blatt 0,22 | ABWEICHUNG“
+51 Lösung 19c ohne Differenz aus gerundeten Werten · Abweichung
+52 Skriptzeile 19c ersetzt · Vergleich statt Differenz
+53–55 E2 Seiten 1–3 angesehen · \tortenrechteck steht unter statt neben \tortenkreis
+56 Korrektur Nr. 18 mit zwei minipages · Platzierung
+57 E2 neu kompiliert, Stempel e 2 · pruef.py „TypeError: int() argument must be … not 'BooleanTrue'“
+58 Skriptfehler behoben · bool()
+59 pruef e2 · 0 Abweichungen
+60 E2 Seite 2 angesehen · in Ordnung
+61 e3_a.tex, e3_l.tex geschrieben, pruef.py ergänzt · Einheit 3
+62 E3 geprüft, kompiliert, gerendert · pruef_out_e3 0 Abweichungen
+63–65 E3 Seiten 1–3 angesehen · Bruchkästchen Nr. 20 zu klein und gedrängt; Kreisring: r_i-Label an M
+66 Zeilen gesucht · Korrektur
+67–69 Korrektur \dfrac mit Abstand; Ring größer, r_i nach links · Lesbarkeit
+70 E3 neu kompiliert, Stempel e 3 · Log ohne Befund
+71–72 E3 Seiten 1–2 angesehen · in Ordnung
+73 abhaken.tex geschrieben · 2.3 h
+74 Kreis_Lernblatt.tex geschrieben · Rahmendatei
+75 Kreis_Gesamt.tex geschrieben · Rahmendatei
+76 seiten.py geschrieben · Seitenbereiche aus Textextraktion
+77 Lernblatt und Gesamt kompiliert · seiten.py: Marken falsch zugeordnet (Inhaltsseite, Gruppenzeile der Abhakseite)
+78 seiten.py korrigiert; \eng in abhaken.tex · Abhakseite zwei Seiten
+79 neu kompiliert · Einheitenmarke zu streng (ganze Zeile)
+80 seiten.py korrigiert; Abhakseite gerendert · Absatzabstand zu groß
+81–82 \abhak ohne \smallskip · Abhakseite zwei Seiten
+83 neu kompiliert · weiter zwei Seiten
+84 Vorlage: \weit/\eng nachgesehen · Ursache \parskip
+85 \parskip auf 2pt in abhaken.tex · eine Seite
+86 neu kompiliert · Seitenbereiche Lernblatt 2–4, 5–6, 7–9, 10; Gesamt 2–3, 4–6, 7–8, 9–11, 12 = Verzeichnis
+87 links.py geschrieben · Linkprüfung
+88 Lernblatt und Gesamt Schlusslauf, Links geprüft, Stempel lernblatt, gesamt · alle Links treffen
+89 Inhaltsseite und Abhakseite angesehen · in Ordnung
+90 Kreis_Loesungen.tex geschrieben · Rahmendatei
+91 Lösungen kompiliert, Stempel loesungen · Seite 1: „14)“ unten, Tabelle auf Seite 2
+92 Seite 1 angesehen · Befund bestätigt
+93 Korrektur: Tabelle 14 in minipage · zusammenhalten
+94 Lösungen neu kompiliert, Stempel loesungen · Log ohne Befund
+95 Seite 2 angesehen · in Ordnung
+96 Zeiten und Zählung gesammelt · Protokoll
+97 mk_archiv.py geschrieben · Archiv
+98 protokoll.txt, chat.txt, Archiv · 6.3
+
+Vorlage: fehlende Bausteine · \zweigzeile (zweite Zeile des Einheitenkopfs), \abhak und \abhakgruppe (Abhakseite), \vzeile (Verzeichniszeile mit Link), \zeichenflaeche (freie Zeichenfläche mit Punkt M), \tortenkreis und \tortenrechteck (Kreis in 12 Stücken, Stücke umgelegt), Kreisring (freies TikZ in der kreis-Umgebung); Warnungen aus dem Log · keine (keine Package mathblatt Warning; Overfull der Zone behoben)
+
+Korrekturrunden: 16 von 98 Schritten
+Zone: 541 s
+Weiter: 1790332116 s (Stempel, 561 s nach t0)
+E 1: 830 s
+E 2: 997 s
+E 3: 1164 s
+Lernblatt: 1398 s
+Gesamt: 1406 s
+Lösungen: 1475 s
+(unbeaufsichtigter Testlauf: „weiter“ folgte ohne Wartezeit; bei doppelten Stempeln gilt der letzte)

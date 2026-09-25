@@ -1,0 +1,44 @@
+1a | Skript 3,6 | Blatt 3,6 | OK
+1b | Skript 4 | Blatt 4 | OK
+1c | Skript 3,5 | Blatt 3,5 | OK
+1d | Skript 3 | Blatt 3 | OK
+1e | Skript 12,5 | Blatt 12,5 | OK
+1f | Skript 8,05 | Blatt 8,05 | OK
+1g richtig | Skript 6,3 | Blatt 6,3 | OK
+1g falsch | Skript 6,5 | Blatt 6,5 | OK
+2a | Skript 10 | Blatt 10 | OK
+2b | Skript 6 | Blatt 6 | OK
+2c | Skript 6 | Blatt 6 | OK
+2d | Skript 2,25 | Blatt 2,25 | OK
+3c | Skript 3 | Blatt 3 | OK
+3d | Skript 10 | Blatt 10 | OK
+3e | Skript 7 | Blatt 7 | OK
+3f a^2 | Skript 25 | Blatt 25 | OK
+3f | Skript 5 | Blatt 5 | OK
+4a | Skript 36 | Blatt 36 | OK
+4b | Skript 9 | Blatt 9 | OK
+4c | Skript 1,44 | Blatt 1,44 | OK
+4d | Skript 0,09 | Blatt 0,09 | OK
+4e | Skript 1,5 | Blatt 1,5 | OK
+4f | Skript 6,3 | Blatt 6,3 | OK
+5a | Skript 64 | Blatt 64 | OK
+5b | Skript 1,21 | Blatt 1,21 | OK
+6a | Skript 360 | Blatt 360 | OK
+6b | Skript 90 | Blatt 90 | OK
+6c | Skript 180 | Blatt 180 | OK
+6d | Skript 45 | Blatt 45 | OK
+6e | Skript 250 | Blatt 250 | OK
+6f | Skript 115 | Blatt 115 | OK
+7a Bruch | Skript 1/4 | Blatt 1/4 | OK
+7a % | Skript 25 | Blatt 25 | OK
+7b Bruch | Skript 1/2 | Blatt 1/2 | OK
+7b % | Skript 50 | Blatt 50 | OK
+7c Bruch | Skript 3/4 | Blatt 3/4 | OK
+7c % | Skript 75 | Blatt 75 | OK
+7d Bruch | Skript 1/8 | Blatt 1/8 | OK
+7d % | Skript 12,5 | Blatt 12,5 | OK
+7e Bruch | Skript 7/30 | Blatt 7/30 | OK
+7e % | Skript 23,3 | Blatt 23,3 | OK
+7f Bruch | Skript 3/4 | Blatt 3/4 | OK
+7f % | Skript 75 | Blatt 75 | OK
+Abweichungen: 0

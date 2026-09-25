@@ -1,0 +1,31 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% im Vorspann definierte Bausteine (fehlen in der Vorlage)
+\newcommand{\zweigzeile}[1]{\par\noindent{\small #1}\par\medskip}
+\newcommand{\zeichenflaeche}[2]{\begin{tikzpicture}\draw[black!35] (0,0) rectangle (#1,#2); \fill ({#1/2},{#2/2}) circle (1.5pt) node[below right]{$M$};\end{tikzpicture}}
+\newcommand{\tortenkreis}{\begin{kreis}[1.6]\foreach \w in {0,60,...,300}{\fill[black!15] (0,0) -- (\w:1.6) arc (\w:\w+30:1.6) -- cycle;}\foreach \w in {0,30,...,330}{\draw (0,0) -- (\w:1.6);}\draw (0,0) circle (1.6);\end{kreis}}
+\newcommand{\tortenrechteck}{\begin{tikzpicture}\def\s{0.838}\def\h{1.6}\foreach \j in {0,...,5}{\draw[fill=black!15] ({\j*\s},0) to[bend right=15] ({(\j+1)*\s},0) -- ({(\j+0.5)*\s},\h) -- cycle; \draw ({(\j+0.5)*\s},\h) to[bend left=15] ({(\j+1.5)*\s},\h) -- ({(\j+1)*\s},0) -- cycle;}\draw[|-|] (0,-0.45) -- ({6*\s},-0.45) node[midway,below]{Länge ?}; \draw[|-|] (-0.35,0) -- (-0.35,\h) node[midway,left]{Höhe ?};\end{tikzpicture}}
+\newcommand{\abhakgruppe}[1]{\par\smallskip\noindent\textbf{#1}\par}
+\newcommand{\abhak}[2]{\par\noindent\hangindent=3.2em\hangafter=1 $\square$\enspace\textbf{#1.}\enspace #2\par}
+\newcommand{\vzeile}[2]{\par\noindent\hyperlink{#1}{#2}\par\medskip}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\blattkopf{Kreis}{Gesamt}
+\weit
+\einheitenkopf*{Inhalt}
+\vzeile{zone}{Kennst du schon (Nr. 1–7) · Seiten 2–3}
+\vzeile{e1}{Einheit 1 · Kreisumfang (Nr. 1–10) · Seiten 4–6}
+\vzeile{e2}{Einheit 2 · Kreisfläche (Nr. 11–19) · Seiten 7–8}
+\vzeile{e3}{Einheit 3 · Kreisteile (Nr. 20–27) · Seiten 9–11}
+\vzeile{abhaken}{Das kann ich · Seite 12}
+\clearpage
+\input{zone_a}
+\clearpage
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{abhaken}
+\end{document}

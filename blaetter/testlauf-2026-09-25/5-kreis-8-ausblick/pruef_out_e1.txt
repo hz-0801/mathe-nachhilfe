@@ -1,0 +1,36 @@
+3b r | Skript 3,5 | Blatt 3,5 | OK
+4a | Skript 12 | Blatt 12 | OK
+4b | Skript 9 | Blatt 9 | OK
+4c | Skript 5,5 | Blatt 5,5 | OK
+4d | Skript 7 | Blatt 7 | OK
+4e | Skript 0,65 | Blatt 0,65 | OK
+4f | Skript 50 | Blatt 50 | OK
+5a | Skript 3,16 | Blatt 3,16 | OK
+5b | Skript 3,13 | Blatt 3,13 | OK
+5c | Skript 3,15 | Blatt 3,15 | OK
+5d | Skript 3,14 | Blatt 3,14 | OK
+5e | Skript 3,14 | Blatt 3,14 | OK
+6 Beispiel | Skript 18,8 | Blatt 18,8 | OK
+6a | Skript 9,4 | Blatt 9,4 | OK
+6b | Skript 22,0 | Blatt 22,0 | OK
+6c | Skript 25,1 | Blatt 25,1 | OK
+6d | Skript 37,7 | Blatt 37,7 | OK
+6e | Skript 56,5 | Blatt 56,5 | OK
+6f | Skript 8,2 | Blatt 8,2 | OK
+6g | Skript 4,7 | Blatt 4,7 | OK
+7 Beispiel | Skript 7,0 | Blatt 7,0 | OK
+7a | Skript 14,0 | Blatt 14,0 | OK
+7b | Skript 31,8 | Blatt 31,8 | OK
+7c d | Skript 15,92 | Blatt 15,92 | OK
+7c r | Skript 8,0 | Blatt 8,0 | OK
+7d | Skript 14,1 | Blatt 14,1 | OK
+7e | Skript 23,1 | Blatt 23,1 | OK
+7f | Skript 27,0 | Blatt 27,0 | OK
+8a Tom | Skript 88,0 | Blatt 88,0 | OK
+8a richtig | Skript 44,0 | Blatt 44,0 | OK
+8b | Skript 81,7 | Blatt 81,7 | OK
+9c | Skript 3 | Blatt 3 | OK
+10a | Skript 219,9 | Blatt 219,9 | OK
+10b m | Skript 1099,6 | Blatt 1099,6 | OK
+10c | Skript 1137 | Blatt 1137 | OK
+Abweichungen: 0

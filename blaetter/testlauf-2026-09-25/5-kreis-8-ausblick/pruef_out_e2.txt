@@ -1,0 +1,43 @@
+12 Beispiel | Skript 113,1 | Blatt 113,1 | OK
+12a | Skript 3,1 | Blatt 3,1 | OK
+12b | Skript 153,9 | Blatt 153,9 | OK
+12c | Skript 254,5 | Blatt 254,5 | OK
+12d | Skript 452,4 | Blatt 452,4 | OK
+12e r | Skript 8 | Blatt 8 | OK
+12e | Skript 201,1 | Blatt 201,1 | OK
+12f | Skript 19,6 | Blatt 19,6 | OK
+13a | Skript 100,5 | Blatt 100,5 | OK
+13b | Skript 95,0 | Blatt 95,0 | OK
+13c r | Skript 4,5 | Blatt 4,5 | OK
+13c | Skript 31,8 | Blatt 31,8 | OK
+14a d | Skript 3 | Blatt 3 | OK
+14a u | Skript 9,4 | Blatt 9,4 | OK
+14a A | Skript 7,1 | Blatt 7,1 | OK
+14b r | Skript 15 | Blatt 15 | OK
+14b u | Skript 94,2 | Blatt 94,2 | OK
+14b A | Skript 706,9 | Blatt 706,9 | OK
+14c d | Skript 12,7 | Blatt 12,7 | OK
+14c r | Skript 6,4 | Blatt 6,4 | OK
+14c A | Skript 127,3 | Blatt 127,3 | OK
+15 Beispiel | Skript 4,0 | Blatt 4,0 | OK
+15a | Skript 3,1 | Blatt 3,1 | OK
+15b | Skript 8,0 | Blatt 8,0 | OK
+15c r | Skript 17,84 | Blatt 17,84 | OK
+15c d | Skript 35,7 | Blatt 35,7 | OK
+15d r | Skript 1,83 | Blatt 1,83 | OK
+15d | Skript 10,52 | Blatt 10,52 | OK
+16 Mia | Skript 106,8 | Blatt 106,8 | OK
+16a | Skript 907,9 | Blatt 907,9 | OK
+16b r2 | Skript 0,64 | Blatt 0,64 | OK
+16b | Skript 2,0 | Blatt 2,0 | OK
+17a | Skript 1963,5 | Blatt 1963,5 | OK
+17b | Skript 157,1 | Blatt 157,1 | OK
+17c | Skript 13,2 | Blatt 13,2 | OK
+17d r | Skript 2,1 | Blatt 2,1 | OK
+17d | Skript 13,9 | Blatt 13,9 | OK
+19a klein | Skript 530,9 | Blatt 530,9 | OK
+19a gross | Skript 1017,9 | Blatt 1017,9 | OK
+19b klein | Skript 1,60 | Blatt 1,60 | OK
+19b gross | Skript 1,38 | Blatt 1,38 | OK
+19c Vergleich gross<klein | Skript 1 | Blatt 1 | OK
+Abweichungen: 0
