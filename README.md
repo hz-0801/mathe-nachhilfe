@@ -88,7 +88,7 @@ Profil abi:
 
 Profil iqb:
 - `iqb.md` – vor dem Erfassen eines Stapels: Kennung und id, Stapel als Laufeinheit, Schätzung vor dem Erwartungshorizont, Schwellen, Abbruchkriterium.
-- `iqb-quellen.md`, `iqb-quellen.csv`, `iqb-quellen.py` – Pooljahrgänge, Kennungen deuten, Dateiliste erneuern (Cache `iqb-pdf/`, lokal).
+- `iqb-quellen.md`, `iqb-quellen.csv`, `iqb-quellen.py` – Pooljahrgänge, Kennungen deuten, Dateiliste erneuern (Cache `hefte/iqb/`, lokal; seit 27.09.2026 Standard des Skripts, vorher `iqb-pdf/`).
 - `iqb-pruefungen.md` – nächster Stapel, Reserven, Kennzahlen, Befunde, Änderungslog.
 - `iqb-katalog.csv` – der Katalog; nie von Hand ändern.
 - `iqb-bau.py` – Stapel erfassen oder Bestand prüfen.
@@ -325,6 +325,7 @@ Chat neu geholt werden. Herkunft, Stand, Lizenz und Suchfallstricke in `quellen/
 - `quelle-westermann-mathematikheute-bebb-kl5-6-inhalt.txt` – Inhaltsverzeichnisse Mathematik heute, Ausgabe 2014 für Grundschulen in Berlin und Brandenburg, Klasse 5–6 (Klasse 5 über den Lösungsband), aus der DNB.
 - `quelle-cornelsen-fundamente-bb-ausgabeb2024-kl5-6-inhalt.txt` – Inhaltsverzeichnisse Fundamente der Mathematik, Ausgabe B ab 2024, Klasse 5–6 (grundständiges Gymnasium), aus der DNB.
 - `quelle-buchner-mathedelta-bb-2016-inhalt.txt` – Inhaltsverzeichnisse mathe.delta Berlin/Brandenburg (Gymnasium), Klasse 7–10, aus der DNB; Klasse 8 ab Kapitel 5 aus dem Stoffverteilungsplan des Verlags.
+- `quelle-cosh-mindestanforderungskatalog-v3.1.pdf`, `quelle-cosh-mindestanforderungskatalog-v3.1.txt` – cosh-Mindestanforderungskatalog Mathematik Schule–Hochschule, Version 3.1 (2025), CC BY-SA 4.0, PDF und Textfassung (seit 27.09.2026); öffnen, wenn der Mindeststoff eines fhr-Eintrags (Entscheidung 36) gegen den Katalog gehalten wird.
 - `fremdsammlungen-fundliste.md` – Fundliste freier amtlicher Aufgabensammlungen anderer Länder (Auftrag Nacht 2026-09-25, Teil 3): Bayern (Jahrgangsstufentests Gymnasium 8/10, Realschule 6/8, Realschulabschluss Mathematik I/II, je 2021–2025) und IQB VERA-8 (2022–2026) mit Adresse, Vermerk, Umfang und Lösungen, dazu die nicht frei erreichbaren (Quali Mittelschule, Kompetenztests Sachsen); die PDFs und Textfassungen liegen lokal unter `hefte/fremd/`. Öffnen, wenn für eine Prüfungshöhe ohne P10-Original eine fremde Originalaufgabe gesucht wird.
 
 Das LISUM wurde zum 31.12.2024 aufgelöst; die Texte werden nicht mehr fortgeschrieben
@@ -375,7 +376,7 @@ die Wurzel kopieren und dort ausführen.
 ## Nicht im Repo (lokal, `.gitignore`)
 
 `hefte/` gescannte Prüfungshefte (urheberrechtlich geschützt), `hefte-md/` Markdown-Korpus
-der Verlagsbände, `korpus/` maschineller Korpus, `baende/` Sammelbände, `iqb-pdf/` Cache.
+der Verlagsbände, `korpus/` maschineller Korpus, `baende/` Sammelbände; der Cache der Pool-PDFs von `abitur/iqb-quellen.py` liegt unter `hefte/iqb/`.
 `hefte/fremd/` freie Tests und Prüfungen anderer Länder als PDF mit Textfassung (Verzeichnis:
 `quellen/fremdsammlungen-fundliste.md`).
 

@@ -1,0 +1,1548 @@
+Mindestanforderungskatalog
+       Mathematik
+                        Version 3.1
+     von Schulen und Hochschulen
+          Baden-Württembergs
+für ein Studium von WiMINT-Fächern
+(Wirtschaft, Mathematik, Informatik, Naturwissenschaft und Technik)
+
+
+
+
+                 www.cosh-mathe.de
+                           1. Mai 2025
+Vorwort
+Die erste Version des vorliegenden Papiers war das Ergebnis einer Arbeits-
+tagung an der Außenstelle des ZSL in Esslingen zum Thema Übergangs-
+                                                             ”
+schwierigkeiten in Mathematik an der Schnittstelle Schule zu Hochschule“
+im Jahr 2012. Nach größeren Überarbeitungen auf Tagungen in den Jahren
+2014 (Version 2.0) und 2021 (Version 3.0) enthält die aktuell vorliegende
+Version 3.1 aus dem Jahr 2025 nur kleinere Änderungen gegenüber der
+Vorgängerversion.
+
+Die Teilnehmenden der ersten Tagung waren Professorinnen und Profes-
+soren von Hochschulen für angewandte Wissenschaften und Universitäten
+sowie Lehrerinnen und Lehrer der beruflichen und allgemeinbildenden
+Gymnasien und der Berufskollegs in Baden-Württemberg. Ab der Ver-
+sion 2.0 haben auch Vertreterinnen und Vertreter der Pädagogischen und
+der Dualen Hochschulen Baden-Württembergs mitgewirkt.
+
+Die Mathematik-Kommission Übergang Schule-Hochschule der Verbände
+DMV, GDM und MNU hat die Bemühungen um diesen Katalog
+ausdrücklich begrüßt, da Kataloge dieser Art in geeigneter Weise die Bil-
+dungsstandards konkretisieren können. Er erfährt eine breite Akzeptanz
+durch Hochschulen und Fachverbände, z. B. basieren die Brückenkurse
+vieler Hochschulen Baden-Württembergs auf seinen Inhalten. Auch an-
+dere Bundesländer haben, teilweise unter Bezug auf diesen Katalog und
+seine Aufgaben, eigene Kataloge erstellt. Der Mindestanforderungskatalog
+aus Baden-Württemberg nimmt dabei eine Vorreiterrolle ein.
+
+Die Formulierung des Katalogs wurde von der Arbeitsgruppe cosh1 Ma-
+thematik initiiert, die sich seit 2002 mit dem Übergang von der Schu-
+le zur Hochschule beschäftigt. Bei diesem Übergang haben die Studi-
+enanfängerinnen und -anfänger seit vielen Jahren Probleme im Fach Ma-
+thematik. Empirische Analysen belegen, dass sich diese Problematik
+verschärft hat.
+
+Bei den Tagungen wurde mehrfach auf die unterschiedlichen Bildungs-
+aufträge von Schule und Hochschule hingewiesen. Während Mathema-
+tik in der Hochschule häufig zielgerichtet als Werkzeug und Sprache zur
+Lösung von komplexen berufsrelevanten Problemen eingesetzt wird, steht
+der allgemeinbildende Charakter des Mathematikunterrichts in der Schu-
+le im Vordergrund. Kompetenzen wie Argumentieren, Problemlösen oder
+
+ 1 Cooperation Schule-Hochschule
+
+
+
+                                    1
+Modellieren haben in den letzten Jahren im Mathematikunterricht ein
+deutlich größeres Gewicht erhalten. Die Schule soll nicht nur auf ein
+Ingenieurstudium vorbereiten.
+
+Durch die Hochschulreife erhalten Schülerinnen und Schüler die formale
+Berechtigung, alle Fächer an Hochschulen studieren zu können. Offensicht-
+lich beherrschen aber nicht alle die in der Schule vermittelten mathema-
+tischen Inhalte und Kompetenzen mit der Sicherheit, die für das Studium
+eines wirtschafts-, informations-, ingenieur- oder naturwissenschaftlichen
+Faches (im Folgenden mit WiMINT bezeichnet) erforderlich ist. Es darf
+aber von Studienanfängerinnen und -anfängern erwartet werden, dass sie
+diese Lücken in eigener Verantwortung schließen können. Dabei sollen sie
+von den Schulen und Hochschulen unterstützt werden. Darüber hinaus
+setzt die Hochschulseite in den WiMINT-Studiengängen Kenntnisse und
+Fertigkeiten voraus, die nicht in den Bildungsplänen der Gymnasien und
+Berufskollegs in Baden-Württemberg abgebildet sind. Nach Einschätzung
+der Teilnehmenden der Tagungen ändern auch die beschlossenen bundes-
+weiten Bildungsstandards nichts an dieser Diskrepanz.
+
+Der folgende Mindestanforderungskatalog beschreibt die Kenntnisse,
+Fertigkeiten und Kompetenzen, die Studienanfängerinnen und -anfänger
+eines WiMINT-Studiengangs vorweisen sollten, um das Studium erfolg-
+reich zu starten. Diese Anforderungen werden durch Aufgabenbeispiele im
+nächsten Abschnitt konkretisiert. Die Aufgaben sind keine Lehr-, Lern-
+oder Testaufgaben. Sie dienen lediglich der Orientierung und zur
+Konkretisierung bzw. Erläuterung der Kompetenzen. Die in Klammern
+gesetzten Zahlen in der Liste der Kompetenzen beziehen sich auf die zu-
+gehörigen Aufgabenbeispiele.
+
+Die Bildungspläne der Schularten, die zu einer (Fach-)Hochschulreife
+führen, variieren in Inhalten und der Tiefe, in der manche Themen be-
+handelt werden. Darum gehen einzelne Kompetenzen und Aufgaben dieses
+Katalogs über die Inhalte der Bildungspläne dieser Schularten hinaus.
+
+Aus drei Gründen messen die Teilnehmenden der Tagungen diesem
+Katalog eine außerordentliche Bedeutung zu:
+    Er stellt das Ergebnis einer engagierten Diskussion und Analyse der
+     eingangs beschriebenen Problematik dar und legt eine differenzierte
+     Beschreibung dazu vor.
+    Er wurde in einem breiten Konsens von beiden beteiligten Seiten –
+     Schule und Hochschule – erstellt.
+
+                                    2
+    Er spiegelt das Interesse von Schule und Hochschule wider, die Pro-
+     blematik gemeinsam zu lösen.
+Der Katalog macht deutlich, dass die Anforderungen an der Schnittstelle
+Schule-Hochschule in großen Bereichen aufeinander abgestimmt sind. Die
+dort auftretenden Schwierigkeiten der Studienanfängerinnen und
+-anfänger können durch Vertiefungs- und Übungsangebote weitgehend
+aufgefangen werden. Die Analyse zeigt aber auch eine systematische
+Diskrepanz, die es aufzulösen gilt.
+
+Die Teilnehmenden der Tagungen haben die Verantwortung der einzelnen
+Beteiligten an dieser Schnittstelle klar benannt:
+
+    Die Schule muss den Schülerinnen und Schülern ermöglichen, die
+     in den Bildungsplänen verzeichneten Fertigkeiten und Kompeten-
+     zen zu erwerben. Schülerinnen und Schüler, die beabsichtigen, ein
+     WiMINT-Fach zu studieren, sollen über die bestehenden Probleme
+     informiert werden. Im Rahmen ihrer Möglichkeiten bietet die Schule
+     Hilfestellungen an.
+
+    Die Hochschule akzeptiert diesen Anforderungskatalog – und nicht
+     mehr – als Basis für Studienanfängerinnen und -anfänger. Im Rah-
+     men ihrer Möglichkeiten bietet die Hochschule Hilfestellungen an.
+    Die Studienanfängerinnen und -anfänger sollen, wenn sie ein
+     WiMINT-Fach studieren, dafür sorgen, dass sie zu Beginn des Studi-
+     ums die Anforderungen des Katalogs erfüllen. Die fehlenden Inhalte
+     müssen sie frühzeitig mit Unterstützung von Schule und Hochschu-
+     le nacharbeiten. Dafür muss ihnen ein adäquater Rahmen geboten
+     werden.
+
+    Die Politik muss auf die beschriebene systematische Diskrepanz
+     reagieren. Solange diese Diskrepanz besteht, sind flächendeckend
+     Maßnahmen erforderlich, um die beschriebenen Schwierigkeiten mög-
+     lichst rasch zu beseitigen. Um die Qualität unseres Bildungssystems
+     zu sichern, müssen Rahmenbedingungen für Schule, Hochschule, Stu-
+     dienanfängerinnen und -anfänger so verbessert werden, dass diese
+     ihrer oben beschriebenen Verantwortung gerecht werden können.
+
+
+
+
+                                   3
+Kompetenzen
+1 Allgemeine mathematische Kompetenzen
+Das Studium von WiMINT-Fächern erfordert zusätzlich zur allgemeinen
+Studierfähigkeit die Bereitschaft, auch komplexe Fragestellungen
+dieser Gebiete ohne Scheu anzugehen, daran hartnäckig und sorgfältig zu
+arbeiten und dabei die strenge Exaktheit der Fachsprache und
+Fachsymbolik zu akzeptieren. Die Nutzung elektronischer Hilfsmittel –
+insbesondere mathematischer Software – wird immer selbstverständlicher.
+Ihr sinnvoller Einsatz erfordert Kontrolle durch Plausibilitätsbetrachtun-
+gen, die eine besondere Vertrautheit im Umgang mit Zahlen und Variablen
+(vergleiche Kapitel 2) voraussetzen. Diese muss durch nachhaltiges Üben
+wachgehalten werden.
+
+1.1 Probleme lösen
+Sachverhalte oder Probleme in den WiMINT-Fächern können in unter-
+schiedlichen Darstellungsarten vorliegen, zum Beispiel als Text, Grafik,
+Tabelle, Bild, Modell usw. Manchmal können Probleme auch offen formu-
+liert sein. Die Studienanfängerinnen und -anfänger können
+
+    dazu nützliche Fragen stellen (1, 61);
+
+    die gegebenen Sachverhalte mathematisch modellieren (2, 3, 29);
+
+    Strategien des Problemlösens anwenden (4, 12);
+
+    Hilfsmittel (Formelsammlung, elektronische Hilfsmittel) angemessen
+     nutzen (20, 52, 55, 56, 59).
+
+1.2 Systematisch vorgehen
+Die Studienanfängerinnen und -anfänger können systematisch arbeiten.
+Sie
+    zerlegen komplexe Sachverhalte in einfachere Probleme (41, 44);
+
+    können Fallunterscheidungen vornehmen (5, 50b));
+
+    arbeiten sorgfältig und gewissenhaft (71);
+
+    können Algorithmen verstehen, erklären und beurteilen (6, 7, 92).
+
+                                    4
+1.3 Plausibilitätsüberlegungen anstellen
+Zur Kontrolle ihrer Arbeit können die Studienanfängerinnen und -anfänger
+    Fehler identifizieren und erklären (8, 9, 16);
+
+    Größenordnungen abschätzen (10, 11);
+
+    ihre Ergebnisse mittels Überschlagsrechnung kontrollieren (12, 13).
+
+1.4 Mathematisch kommunizieren und argumentieren
+Für das Begreifen der Fragestellungen und das Weitergeben mathemati-
+scher Ergebnisse ist es unerlässlich, dass die Studienanfängerinnen
+und -anfänger
+    Fachsprache und Fachsymbolik verstehen und verwenden (14, 15,
+     16);
+
+    mathematische Sachverhalte mit Worten beschreiben und erläutern
+     (17, 18, 19);
+    mathematische Behauptungen mithilfe von unterschiedlichen
+     Darstellungsformen, z. B. Worten, Skizzen, Tabellen, Berechnungen
+     oder Graphen, begründen oder widerlegen (4, 53);
+    Zusammenhänge (mit und ohne Hilfsmittel) visualisieren (3, 20, 21);
+
+    eigene sowie fremde Lösungswege nachvollziehbar präsentieren
+     können (22).
+
+
+
+
+                                     5
+2 Elementare Algebra
+Es wird vorausgesetzt, dass die Studienanfängerinnen und -anfänger die
+Aufgaben zu den folgenden Kompetenzen – abgesehen von der Bestim-
+mung eines numerischen Endergebnisses – ohne CAS-Rechner und ohne
+Taschenrechner (TR/GTR) lösen können.
+
+2.1 Grundrechenarten
+Die Studienanfängerinnen und -anfänger
+
+    können überschlägig mit Zahlen rechnen (23);
+
+    können die Regeln zur Kommaverschiebung anwenden (24);
+
+    beherrschen die Vorzeichen- und Klammerregeln, können ausmulti-
+     plizieren und ausklammern (25);
+
+    können Terme zielgerichtet umformen mithilfe von Kommutativ-,
+     Assoziativ- und Distributivgesetz (26);
+    beherrschen die binomischen Formeln mit beliebigen Variablen (27,
+     28);
+
+    verstehen Proportionalitäten und können mit dem Dreisatz rechnen
+     (29, 30, 58).
+
+2.2 Bruchrechnen
+Die Studienanfängerinnen und -anfänger können die Regeln der Bruch-
+rechnung zielgerichtet anwenden. Sie können
+    erweitern und kürzen (31, 32, 33);
+
+    Brüche multiplizieren, dividieren, addieren und subtrahieren (33,
+     34).
+
+2.3 Prozentrechnung
+Die Studienanfängerinnen und -anfänger können mit Prozentangaben gut
+und sicher umgehen. Sie beherrschen die Zins- und Zinseszinsrechnung
+(13, 35, 36, 37).
+
+
+
+                                    6
+2.4 Potenzen und Wurzeln
+Die Studienanfängerinnen und -anfänger können die Potenz- und
+Wurzelgesetze zielgerichtet anwenden. Sie wissen, wie Wurzeln auf
+Potenzen zurückgeführt werden, und können damit rechnen (33, 38, 39).
+
+2.5 Gleichungen mit einer Unbekannten
+Die Studienanfängerinnen und -anfänger können Gleichungen mithilfe von
+Äquivalenzumformungen und Termumformungen lösen. Sie können
+    lineare und quadratische Gleichungen lösen (40, 41, 42, 43);
+
+    einfache Bruchgleichungen          auf   bekannte    Gleichungstypen
+     zurückführen (42, 43);
+    einfache Exponentialgleichungen lösen (44a), 67);
+
+    Gleichungen durch Faktorisieren lösen (44b));
+
+    Wurzelgleichungen lösen und kennen dabei den Unterschied
+     zwischen einer Äquivalenz und einer Implikation (45);
+    einfache Betragsgleichungen lösen und dabei den Betrag als Abstand
+     auf dem Zahlenstrahl interpretieren (5a));
+
+    Gleichungen durch Substitutionen lösen (biquadratisch, exponential,
+     . . . ) (44c)d));
+    Formeln nach einer Größe auflösen (46, 56).
+
+2.6 Ungleichungen mit einer Unbekannten
+Die Studienanfängerinnen und -anfänger können die Lösungsmengen von
+einfachen Ungleichungen bestimmen. Sie können
+    lineare Ungleichungen lösen (47);
+
+    quadratische Ungleichungen grafisch lösen (48);
+
+    einfache Betragsungleichungen lösen und dabei den Betrag als
+     Abstand auf dem Zahlenstrahl interpretieren (49);
+    Ungleichungen mit Brüchen lösen (5c), 50).
+
+
+
+                                    7
+3 Elementare Geometrie/Trigonometrie
+Die Studienanfängerinnen und -anfänger können
+    elementargeometrische Objekte anhand ihrer definierenden Eigen-
+     schaften identifizieren (51, 52);
+    grundlegende Sätze der Elementargeometrie (Stufen- und Wechsel-
+     winkel an Parallelen, Strahlensätze, Kongruenz von Dreiecken, Win-
+     kelsummen, Satz des Pythagoras) verstehen und anwenden (53, 54);
+    Umfang und Flächeninhalt von Kreisen und einfachen Vielecken
+     berechnen (55, 56, 57);
+    Oberflächeninhalt und Volumen einfacher Körper berechnen (Pris-
+     ma, Zylinder, Pyramide, Kegel, Kugel) (55, 56, 57);
+
+    Gradmaß und Bogenmaß unterscheiden und ineinander umrechnen
+     (58, 59);
+    Sinus, Kosinus und Tangens als Seitenverhältnisse in rechtwinkligen
+     Dreiecken interpretieren und damit fehlende Größen bestimmen (60,
+     61, 62);
+    Sinus und Kosinus als Koordinaten der Punkte des Einheitskreises
+     identifizieren (63, 64).
+
+
+
+
+                                   8
+4 Analysis
+4.1 Funktionen
+Die Studienanfängerinnen und -anfänger verfügen über ein Verständnis
+für Funktionen, d. h. sie
+
+    kennen wichtige Eigenschaften (Definitionsmenge, Wertemenge,
+     Symmetrie, Monotonie, Nullstellen, Extrem- und Wendestellen)
+     folgender elementarer Funktionen (65, 66, 67, 69):
+     Polynomfunktionen/ganzrationale Funktionen (insbesondere linea-
+     re und quadratische Funktionen), Potenzfunktionen (insbesondere
+          √           1         1
+     x 7→ x, x 7→ , x 7→ 2 ), Exponentialfunktionen (auch x 7→ ex ),
+                      x        x
+     x 7→ ln (x), x 7→ sin (x), x 7→ cos (x), x 7→ tan (x);
+    können den qualitativen Verlauf der Graphen dieser elementaren
+     Funktionen beschreiben sowie Funktionsterme von elementaren
+     Funktionen ihren Schaubildern zuordnen und umgekehrt (68);
+    können elementare Funktionen transformieren und die entsprechen-
+     de Abbildung (Verschiebung sowie Streckung bzw. Stauchung in
+     x- und y-Richtung, Spiegelung an Koordinatenachsen) durchführen
+     (69, 70);
+    können durch Addition, Multiplikation und Verkettung von Funk-
+     tionen neue Funktionen erzeugen (71);
+    können Wertetabellen und Graphen auch für nichtelementare Funk-
+     tionen (in einfachen Fällen auch ohne Hilfsmittel) erstellen (72);
+    können aus gegebenen Bedingungen einen Funktionsterm mit
+     vorgegebenem Typ bestimmen (73).
+
+4.2 Differenzialrechnung
+Die Studienanfängerinnen und -anfänger verfügen über ein grundlegendes
+Verständnis des Ableitungsbegriffs und beherrschen die zentralen
+Techniken der Differenzialrechnung, d. h. sie
+    haben ein propädeutisches Wissen über Grenzwerte (74);
+    verstehen die Ableitung an einer Stelle als lokale Änderungsrate und
+     als Tangentensteigung (75);
+
+                                    9
+    können den Zusammenhang zwischen einer Funktion und ihrer
+     Ableitungsfunktion erläutern (76);
+    können aus dem Graphen einer Funktion den qualitativen Verlauf
+     des Graphen der Ableitungsfunktion bestimmen und umgekehrt (77);
+    kennen die Ableitungsfunktionen elementarer Funktionen (78);
+    kennen die Summen-, Faktor-, Produkt- und Kettenregel und können
+     diese sowie einfache Kombinationen davon anwenden (19, 79);
+    können die Differenzialrechnung zur Bestimmung von Eigenschaften
+     von Funktionen (insbesondere Monotonieverhalten und Extremstel-
+     len) nutzen (76, 80, 81);
+    können mithilfe der Differenzialrechnung Optimierungsprobleme
+     lösen (82).
+
+4.3 Integralrechnung
+Die Studienanfängerinnen und -anfänger verfügen über ein grundlegendes
+Verständnis des Integralbegriffs und beherrschen zentrale Techniken der
+Integralrechnung, d. h. sie
+    verstehen das bestimmte Integral als Grenzwert von Summen (83);
+    können das bestimmte Integral als Rekonstruktion eines Bestandes
+     aus der Änderungsrate und als orientierten Flächeninhalt
+     interpretieren (84);
+    kennen den Begriff der Stammfunktion und kennen die Stammfunk-
+     tionen der grundlegenden Funktionen
+     x 7→ xr , x 7→ ex , x 7→ sin (x), x 7→ cos (x) (85, 86);
+    können die Faktor- und Summenregel zur Berechnung von Stamm-
+     funktionen anwenden (86b));
+    können Stammfunktionen von verketteten Funktionen mit linearer
+     innerer Funktion angeben (86d)e), 87b));
+    können bestimmte      Integrale   mithilfe   von   Stammfunktionen
+     berechnen (87);
+    können die Integralrechnung zur Berechnung der Fläche zwischen
+     zwei Kurven anwenden (88).
+
+
+                                   10
+5 Lineare Algebra/Analytische Geometrie
+5.1 Orientierung im zweidimensionalen
+    Koordinatensystem
+Die Studienanfängerinnen und -anfänger finden sich sicher im zweidimen-
+sionalen Koordinatensystem zurecht. Insbesondere können sie
+    eine analytisch gegebene Gerade zeichnen (89);
+    Koordinatenbereiche skizzieren (90);
+    einen durch eine Gleichung gegebenen Kreis zeichnen (91).
+
+5.2 Lineare Gleichungssysteme
+Die Studienanfängerinnen und -anfänger können
+    lineare Gleichungssysteme mit bis zu 3 Gleichungen und 3 Unbe-
+     kannten ohne Hilfsmittel lösen. Sie wenden dazu geeignete Lösungs-
+     strategien an. (92, 93);
+    die Lösbarkeit derartiger Gleichungssysteme – in einfachen Fällen
+     auch in Abhängigkeit von Parametern – diskutieren (93, 94);
+    ein lineares Gleichungssystem mit 2 Gleichungen und 2 Unbekann-
+     ten geometrisch im zweidimensionalen Koordinatensystem interpre-
+     tieren (95).
+
+5.3 Grundlagen der anschaulichen Vektorgeometrie
+Die Studienanfängerinnen und -anfänger können mit Vektoren in der Ebe-
+ne und im Raum umgehen. Insbesondere
+    können sie Vektoren als Pfeilklassen interpretieren (96);
+    kennen sie die Komponentendarstellung von Vektoren (97, 98);
+    können sie Punktmengen im Anschauungsraum mithilfe von
+     Vektoren untersuchen (97, 98);
+    beherrschen sie die Addition von Vektoren sowie die Multiplikation
+     von Skalar und Vektor (98);
+    können sie mithilfe von Vektoren Geraden und Ebenen im Raum
+     darstellen und deren gegenseitige Lage untersuchen (99, 100, 101).
+
+                                   11
+6 Stochastik
+Die Studienanfängerinnen und -anfänger können
+    mit den Begriffen der relativen und absoluten Häufigkeit umgehen
+     sowie Lage- und Streuungsmaße berechnen und interpretieren (102,
+     103);
+    verschiedene Diagrammarten als Veranschaulichung von Daten und
+     Zufall erstellen und interpretieren und darauf basierende Argumen-
+     tationen reflektieren und bewerten (104, 105);
+    bei der Durchführung von Zufallsexperimenten die auftretenden
+     relativen Häufigkeiten als Schätzwerte von Wahrscheinlichkeiten
+     deuten und wissen, dass die Schätzwerte bei wachsendem Stichpro-
+     benumfang besser werden (104, 105);
+    die Anzahl der jeweiligen Möglichkeiten bei Laplace-Experimenten
+     durch einfache kombinatorische Überlegungen bestimmen (106, 107,
+     108, 109);
+    mehrstufige Zufallsexperimente beispielsweise durch Baumdiagram-
+     me oder Vierfeldertafeln darstellen und damit Problemstellungen
+     auch im Kontext bedingter Wahrscheinlichkeiten lösen (107, 110,
+     111).
+
+
+
+
+                                  12
+Beispielaufgaben
+Die aufgeführten Beispielaufgaben verdeutlichen das Anforderungsniveau
+der oben genannten Kenntnisse und Fertigkeiten.
+
+  1. Im Jahr 2022 hatte Deutschland etwa 42,8 Millionen weibliche und
+     41,6 Millionen männliche Einwohner2 . In Baden-Württemberg leb-
+     ten 11,28 Millionen Menschen, davon waren 50,30 % weiblich. Die
+     Anzahl der Studierenden betrug in Deutschland 2,89 Millionen, in
+     Baden-Württemberg 360.000 und in Hamburg 110.220.
+       a) Formulieren Sie Fragen, die mithilfe dieser Daten beantwortet
+          werden können. Welche Daten werden hierfür benötigt?
+       b) Formulieren Sie eine Frage, für deren Beantwortung mindestens
+          eine weitere Information notwendig ist.
+  2. Die Geschwindigkeit eines Autos beträgt 20 ms zu Beginn der
+     Beobachtung. Innerhalb der nächsten 10 s nimmt die Geschwindig-
+     keit gleichmäßig bis zum Stillstand ab. Stellen Sie den Geschwindig-
+     keitsverlauf im Intervall von 0 s bis 10 s grafisch dar und geben Sie
+     einen Funktionsterm an, der die Geschwindigkeit in Abhängigkeit
+     von der Zeit beschreibt.
+  3. Ermitteln Sie den Term einer Sinusfunktion, die den Tagesgang der
+     Temperatur modelliert. Bestimmen Sie die Parameter aus den fol-
+     genden Angaben: Um 16:00 Uhr ist die Temperatur mit 25 ◦ C am
+     höchsten. Nachts um 4:00 Uhr ist es mit 13 ◦ C am kältesten.
+  4. Ein Schwimmbecken mit dem Volumen 720 m3 kann durch drei
+     Leitungen mit Wasser gefüllt werden. Eine Messung ergab, dass
+     die Füllung des Beckens mit den beiden ersten Leitungen zusam-
+     men 45 Minuten dauert. Die Füllung mit der ersten und der dritten
+     Leitung zusammen dauert eine Stunde, mit der zweiten und der
+     dritten Leitung zusammen dauert es 1,5 Stunden.
+       a) Erläutern Sie zunächst, wieso das nachfolgende lineare Glei-
+          chungssystem nicht geeignet ist, um das Problem zu lösen:
+           x1 + x2                  = 43
+           x1             + x3 = 1
+                     x2 + x3 = 23
+
+2 Statistisch wurden nur diese beiden Geschlechter erfasst, weswegen sich die Aufgabe
+
+  darauf beschränkt.
+
+
+                                        13
+    b) Wie groß ist die Wassermenge, die durch jede der drei Leitun-
+       gen pro Minute ins Becken gepumpt werden kann?
+    c) Wie lange benötigt man bei der Benutzung aller drei Leitungen,
+       um das Becken zu füllen?
+5. Für welche x ∈ R sind die folgenden Gleichungen und Ungleichungen
+   erfüllt?
+    a) |2x − 3| = 8
+    b) |3x − 6| ≤ x + 2
+       x+1
+    c)       ≤2
+       x−1
+6. Nach einem Citylauf wird eine Liste mit den Ergebnissen ausgehängt.
+   Die Liste ist nach den Startnummern der Teilnehmenden geordnet,
+   in aufsteigender Reihenfolge.
+   Lea sucht ihr Laufergebnis mit ihrer Startnummer S. Dazu geht sie
+   nicht einfach die Liste von vorn nach hinten durch, sondern wendet
+   den folgenden Algorithmus an:
+     1. Zu Beginn umfasst der Suchbereich die gesamte Liste.
+     2. Solange der Suchbereich mindestens eine Zeile enthält und die
+        Startnummer S nicht gefunden wurde, werden die folgenden
+        Schritte ausgeführt:
+        2.1 Die mittlere Zeile des Suchbereichs wird bestimmt (bei ei-
+            ner geraden Anzahl von Zeilen nimmt man die letzte Zeile
+            der oberen Hälfte).
+        2.2 Wenn in der Zeile das Ergebnis für die gesuchte Startnum-
+            mer S steht, ist die Suche erfolgreich beendet.
+        2.3 Sonst wird die Startnummer S mit der Startnummer M
+            in der mittleren Zeile verglichen: Ist M < S, schränkt sich
+            der Suchbereich auf die Einträge unterhalb der mittleren
+            Zeile ein, für M > S auf die Zeilen oberhalb.
+        Die Schritte 2.1 bis 2.3 werden mit dem verkleinerten Suchbe-
+        reich wiederholt.
+
+
+
+
+                                 14
+     a) Lea sucht ihre Startnummer 1248 in            Startnr.       Zeit
+        der nebenstehenden Liste. Wie oft              1121       2:02:34 h
+        muss sie die Schritte 2.1 bis 2.3              1164       1:56:57 h
+        ausführen, bis sie ihr Ergebnis findet?       1197       2:07:12 h
+                                                       1234       1:55:23 h
+     b) Wie viel Leseaufwand hat Lea ge-
+                                                       1235       2:09:02 h
+        spart, im Vergleich zum einfachen
+                                                       1238       2:06:45 h
+        Durchlesen der Liste von oben nach
+                                                       1248       1:59:09 h
+        unten?
+                                                       1253       1:53:17 h
+     c) Angenommen, die Startleitung hätte            1261       2:00:51 h
+        Leas Startnummer in der Liste verges-          1268       1:49:54 h
+        sen, woran würde Lea das merken?              1272       2:03:31 h
+7. Es soll näherungsweise eine Nullstelle der Funktion f , gegeben durch
+   f (x) = e−x − x, bestimmt werden.
+   Skizzieren Sie zunächst die Graphen von y = e−x und y = x in
+   einem Koordinatensystem. Begründen Sie, dass die Funktion f im
+   Intervall [0; 1] genau eine Nullstelle hat.
+   Die Näherungslösung x̄ der Gleichung f (x) = 0 soll durch Intervall-
+   halbierung bestimmt werden.
+     1. Man startet mit dem Intervall [a; b] = [0; 1]. Die gewünschte
+        Genauigkeit wird als eine positive Zahl ε festgelegt, die kleiner
+        ist als die Intervalllänge.
+     2. Solange die Länge von [a; b] größer ist als die Genauigkeit ε,
+        führt man die folgenden Schritte aus:
+        2.1 Man halbiert das Intervall [a; b] und berechnet die Mitte
+            x̄ = a+b
+                  2 .
+        2.2 Wenn f (x̄) = 0 ist, ist die Nullstelle gefunden und der
+            Algorithmus endet.
+        2.3 Wenn f (a) · f (x̄) < 0 ist, setzt man b := x̄, sonst a := x̄.
+   Wie oft müssen Sie das Intervall [0; 1] maximal halbieren, damit
+   die Näherungslösung x̄ von der gesuchten Nullstelle nur noch um
+   höchstens ε = 0, 001 abweicht?
+   Berechnen Sie anschließend die Näherungslösung x̄ nach dem Inter-
+   vallhalbierungsverfahren.
+8. Gegeben ist die auf ganz R definierte Polynomfunktion f .
+   Welche Folgerungen sind falsch? Widerlegen Sie die falschen
+   Aussagen durch ein Gegenbeispiel.
+
+                                  15
+        Wenn f ′ (x0 ) = 0 ist, dann ist x0 eine Extremstelle von f .
+        Wenn x0 eine Extremstelle von f ist, dann ist f ′ (x0 ) = 0.
+        Ist f ′′ (x0 ) > 0, so ist der Punkt P (x0 |f (x0 )) ein Tiefpunkt des
+         Graphen von f .
+ 9. Welche der folgenden Umformungen für a, b > 0 sind richtig, wel-
+    che falsch? Widerlegen Sie die falschen Umformungen mithilfe eines
+    Gegenbeispiels.
+         √
+      a) a2 + b2 = a + b
+         √
+      b) a2 · b2 = a · b
+      c) sin(a + b) = sin(a) + sin(b)
+      d) ln(a · b) = ln(a) + ln(b)
+10. Ordnen Sie (ohne Verwendung eines Taschenrechners) die angege-
+    benen Zahlen der Größe nach, beginnend mit der kleinsten:
+    0; (0, 5)−2,4 ; 1; 4; 4−3,8 ; 0,25; 2−3,3 ; (0,5)2,4 ; 8; 2−3
+                                                             10
+11. Wenn man die Zahlen a = (1010 )10 und b = 10(10 ) ausschreibt,
+    beginnen sie mit einer 1, danach kommen viele Nullen. Wie viele
+    Stellen haben die Zahlen a bzw. b?
+    Auf eine Normseite passen 1.800 Zeichen. Ein Drucker benötigt 5 s,
+    um eine Seite zu drucken. Wie lange braucht er etwa, um die aus-
+    geschriebenen Zahlen a und b zu drucken? Überschlagen Sie zuerst
+    das Ergebnis und berechnen Sie es anschließend!
+12. Im Jahr 2021 wurde in Baden auf einer Fläche von 15.836 Hektar
+    Wein angebaut. Der durchschnittliche Ertrag pro Ar betrug 70,5 Li-
+    ter. Ermitteln Sie durch eine Überschlagsrechnung, wie lange die
+    Flaschenreihe ungefähr wäre, wenn man die gesamte Jahresproduk-
+    tion in Dreiviertelliterflaschen abfüllen und diese Flaschen der Länge
+    nach hintereinander legen würde?
+13. Zu Beginn jedes Jahres werden auf ein Sparbuch 1000 N eingezahlt.
+      a) Das Guthaben wird während der gesamten Zeit mit einem Zins-
+         satz von 5 % pro Jahr verzinst, und die Zinsen werden jeweils
+         zum Jahresende dem Guthaben zugeschlagen. Überschlagen
+         Sie, welcher der folgenden Werte dem Guthaben am Ende des
+         fünften Jahres am nächsten kommt. Begründen Sie Ihre Wahl,
+         ohne das genaue Ergebnis zu berechnen.
+         1250 N     5000 N     5250 N    5800 N    6250 N
+
+                                     16
+      b) Kontrollieren Sie Ihr Ergebnis durch eine exakte Rechnung.
+14. Erläutern Sie den Unterschied zwischen der Menge {2; 5}, dem Inter-
+    vall [2; 5] und dem Intervall ]2; 5[. Ist ein Intervall auch eine Menge?
+    Entscheiden Sie für jedes x ∈ {1; 2; 3; 4; 5; 6} jeweils, ob x ∈ {2; 5},
+    x ∈ [2; 5] beziehungsweise x ∈ ]2; 5[ gilt.
+15.   a) Formulieren Sie in Worten:
+            x ∈ {0; 1; 2; 3}
+            x ∈ [0; 1,5]
+            x ∈ R \ {0; 2}
+            x ∈ R \ ] − 1; 1[
+      b) Notieren Sie in Mengenschreibweise:
+            Die Zahl s ist größer oder gleich 5 und kleiner oder
+             gleich 7.
+            Die Zahl 5 gehört nicht zu den einstelligen geraden Zahlen.
+            Die Funktion f hat 2 als einzige Definitionslücke.
+            Die Definitionsmenge D der Funktion g besteht aus allen
+             reellen Zahlen, die größer als 1 sind.
+16. Korrigieren Sie die falsche Schreibweise.
+      a) x2 − 4 ⇒ (x + 2) · (x − 2)
+      b) (3 + (2 · 4)) · 5 = 3 + 8 = 11 · 5 = 55
+      c) 3 · −2
+17. Die Abbildung zeigt für −6 ≤ x ≤ 3 das Schaubild der Ableitungs-
+    funktion h′ einer Funktion h.
+
+
+
+
+                                    17
+   Entscheiden und begründen Sie, ob gilt:
+       x1 = 0 ist eine Wendestelle von h.
+       h′′ (−2) = 1.
+       Die Funktion h ist auf dem Intervall [−3; 1] streng monoton
+        fallend.
+       Das Schaubild von h hat an der Stelle x2 = −4 einen Tiefpunkt.
+    Skizzieren Sie das Schaubild von h′′ .
+                                      √
+18. Formulieren Sie den Term a · b · c2 + d so in Worten, dass ein
+    Zuhörer ihn fehlerfrei aufschreiben kann.
+
+19. Welche Ableitungsregeln benötigen Sie zur Ableitung der Funktion
+                                   2
+    f gegeben durch f (x) = x · e−x ? Berechnen Sie die Ableitung.
+20. Vor 200 Jahren wurden in Entenhausen 2 Dagos – das entspricht
+    0,3 N – bei einer Bank angelegt und zum Jahresende mit 8 % fest
+    verzinst.
+     a) Wie groß wäre das Guthaben heute, wenn die Zinsen stets
+        wieder mitverzinst würden? Stellen Sie eine Wertetabelle auf
+        und skizzieren Sie die Entwicklung des Guthabens in Abhängig-
+        keit von der Zeit.
+     b) Nach wie vielen Jahren wären die 2 Dagos auf 200 Dagos
+        angewachsen?
+     c) Wie hoch müsste der Zinssatz sein, damit nach 200 Jahren das
+        Guthaben umgerechnet 2.000.000 N beträgt?
+21. Betrachten Sie die beiden linearen Gleichungssysteme:
+                                                
+      −15x + 3y = 3                 −15x + 3y = 3
+                         sowie
+      −5, 2x + y = 0                −5, 1x + y = 0
+     a) Lösen Sie beide linearen Gleichungssysteme rechnerisch.
+     b) Interpretieren Sie die Gleichungen als Geraden und skizzieren
+        Sie diese. Erklären Sie, weswegen die beiden Schnittpunkte, die
+        Sie in a) berechnet haben, weit auseinanderliegen.
+     c) Verändern Sie den Koeffizienten vor x in der zweiten Gleichung,
+        sodass das lineare Gleichungssystem keine Lösung besitzt.
+
+
+
+
+                                 18
+22. Jan formuliert die Lösung einer
+    Aufgabe in Kurzschreibweise“:                    f ( x) = 3x 2 − 12 x − 5
+               ”
+      a) Ergänzen Sie die fehlende                  g ( x) = −6 x − 8
+         Rechnung.                                   f ( x ) = g ( x) :
+      b) Welches geometrische Pro-                  3 x 2 − 12 x − 5 = −6 x − 8
+         blem hatte Jan zu lösen?
+                                                    ⇔ ...
+      c) Interpretieren Sie das von Jan
+         errechnete Ergebnis geome-                  ⇔ x =1
+         trisch.
+                                        2
+                                    99
+23.   a) Begründen Sie, dass                 zwischen 4 und 9 liegt.
+                                    41
+                                                                                √
+      b) Zwischen welchen aufeinanderfolgenden ganzen Zahlen liegt                  150?
+24. Geben Sie als Dezimalzahl an:
+      a) 0,005 · 100
+         78653
+      b)
+           104
+25. Vereinfachen Sie soweit wie möglich:
+      a) −(−(b + c − (5 − (−2c))))
+         4·a·b+6·a
+      b)
+         2 · (b + 1) + 1
+26. Vereinfachen Sie den Ausdruck 3ab − (b(a − 2) + 4b).
+                           2
+                        x2
+                
+                   b
+27. Formen Sie        − 3     mit Hilfe der binomischen Formeln um
+                  3x    b
+    und vereinfachen Sie das Ergebnis soweit wie möglich.
+                                            4 − t2
+28. Vereinfachen Sie den Ausdruck                     .
+                                          4 − 4t + t2
+29. Fließt ein Gleichstrom durch eine verdünnte Kupfersulfatlösung, so
+    entsteht am negativen Pol metallisches Kupfer. Die abgeschiedene
+    Kupfermenge ist sowohl zur Dauer des Stromflusses als auch zur
+    Stromstärke proportional. Bei einer Stromstärke von 0,4 A werden
+    in 15 Minuten 0,12 g Kupfer abgeschieden. Wie lange dauert es, bis
+    0,24 g Kupfer bei einer Stromstärke von 1 A abgeschieden werden?
+
+
+                                     19
+30. Eine Kamera hat eine Auflösung von 6 Megapixeln (der Einfachheit
+    halber 6 Millionen Pixel) und produziert Bilder im Kleinbildformat
+    3 : 2. Welche Seitenlänge hat ein quadratisches Pixel auf einem Aus-
+    druck im Format (60 cm) × (40 cm)?
+                    a      b        c
+31. Bringen Sie        +       2
+                                 +     auf den Hauptnenner.
+                  x − 2 (x − 2)    x−3
+                              1
+32. Fassen Sie den Ausdruck      + x − 1 zu einem Bruch zusammen.
+                             x+1
+                      2 3            4
+                      a ·b       a · b2
+33. Vereinfachen Sie          :            .
+                      c · d3    c2 · d2
+                                       1
+                                      ω·C
+34. Formen Sie den Bruchterm         1      so um, dass das Ergebnis nur
+                                    ω·C + R
+    einen Bruchstrich enthält.
+35. Der Aktienkurs der Firma XXL fällt im Jahr 2022 um 10 % und
+    wächst in den Jahren 2023 und 2024 um je 5 %. Ist der Kurs Ende
+    2024 gleich, höher oder tiefer im Vergleich zum anfänglichen Kurs?
+
+36. Ein Kreissektor füllt 30 % der Fläche eines Kreises aus. Welchem
+    Mittelpunktswinkel entspricht das?
+37. Um welchen Faktor verändert sich der Flächeninhalt eines recht-
+    winkligen Dreiecks, wenn eine der Katheten um 20 % verkürzt und
+    die andere um 20 % verlängert wird?
+                                          x8      3
+38. Fassen Sie den Ausdruck x2 x4 +         2
+                                              + x2 + x0 zusammen.
+                                          x
+                       √       √
+                               3
+                           x · x2
+39. Vereinfachen Sie        √     und x1 · x−2 .
+                             6
+                               x
+40. Bestimmen Sie jeweils die Nullstellen der linearen Funktion f
+    gegeben durch f (x) = 12x + 14 und der quadratischen Funktion
+    g gegeben durch g(x) = x2 − 3x − 4.
+41. Welche der Aussagen sind in Bezug auf die Gleichung
+                                √ 
+                     (x − 2) x − 2 x2 − 9 = 0
+                                              
+
+
+    richtig? Begründen Sie Ihre Entscheidung!
+
+                                     20
+      a) Die Lösungen kann man ohne komplizierte Rechnungen
+         angeben.
+     b) x = 1 und x = 2 sind Lösungen.
+      c) x = 2 und x = 3 sind Lösungen.
+     d) x = 1, 4142 und x = 2 sind Lösungen.
+      e) Es gibt genau vier Lösungen.
+                                   x+1
+42. Lösen Sie die Gleichung y =       nach x auf.
+                                   x−1
+43. Lösen Sie die nachfolgenden Bruchgleichungen.
+            2
+      a)        =4
+          x+1
+            x        1        6
+      b)        +        = 2
+          x+3 x−3           x −9
+44. Für welche x ∈ R sind die folgenden Gleichungen erfüllt?
+      a) 2ex = 8
+     b) 2e2x − 5ex = 0
+      c) x4 − 13x2 + 36 = 0
+     d) 3 + 2e−2x − 5e−x = 0
+                          √            √
+45. Für welche x ∈ R gilt 8 − 2x = 1 + 5 − x?
+46. Stellen Sie die Formel nach der angegebenen Größe um:
+      a) v = st nach t
+     b) V = 13 π · r2 · h nach r
+      c) A = a+c
+              2 · h nach c
+     d) R1 = R11 + R12 nach R
+      e) m1 v1 + m2 v2 = m1 u1 + m2 u2 nach m1
+47. Berechnen Sie die Lösungsmenge der Ungleichung 3x − 7 > 2 + 5x
+    und überprüfen Sie Ihr Ergebnis grafisch.
+48. Lösen Sie die Ungleichung x2 < 2x + 3 grafisch.
+49. Lösen Sie die Betragsungleichungen.
+      a) |x − 3| < 2
+     b) |2x − 3| > 5
+
+                                   21
+50. Für welche x ∈ R ist
+           1    1
+      a) √ < ;
+            x   9
+            1
+     b)         > 3?
+          1−x
+51.   a) Wie viele Quadrate und wie viele Rauten sind hier dargestellt?
+
+
+
+
+      b) Begründen Sie, dass beide Figuren Quadrate sind.
+      c) Zeichnen Sie eine Raute, die kein Quadrat ist.
+52. Begründen Sie, dass jedes Viereck, das zugleich Raute und Rechteck
+    ist, ein Quadrat sein muss.
+53. Zwei Dreiecke heißen ähnlich, wenn sie die gleichen Innenwinkel
+    besitzen.
+    In einem spitzwinkligen Dreieck ABC seien nun D der Höhenfuß-
+    punkt von C, E der Höhenfußpunkt von B und S der Schnittpunkt
+    der beiden Höhen DC und EB.
+      a) Skizzieren Sie den dargestellten Sachverhalt.
+      b) Begründen Sie, dass die Dreiecke SCE, ADC, BEA und SDB
+         ähnlich sind.
+54. Gegeben ist die nebenstehende Zeich-
+    nung mit parallelen Geraden.
+      a) Es ist α1 = 37◦ . Geben Sie die
+         fehlenden Winkelgrößen an.
+      b) Geben Sie jeweils zwei Paare
+         von Neben-, Scheitel-, Stufen-
+         und Wechselwinkeln an.
+
+55. Berechnen Sie den Oberflächeninhalt und das Volumen eines
+    senkrechten Kreiszylinders mit dem Durchmesser 4 cm und der Höhe
+    8 cm.
+56. Gegeben ist eine quadratische Pyramide mit dem Volumen 60 cm3
+    und der Höhe 6 cm. Berechnen Sie die Länge der Grundseite und
+    den Inhalt der Grundfläche.
+
+                                 22
+57. Ein gleichseitiges Dreieck der Seitenlänge 10 cm wird um eine der
+    Symmetrieachsen gedreht. Welcher Körper entsteht? Welches Volu-
+    men und welchen Oberflächeninhalt hat der erzeugte Drehkörper?
+58.   a) Geben Sie die folgenden Winkel im Bogenmaß an: 135◦ ; 19,7◦ .
+      b) Geben Sie die folgenden Winkel im Gradmaß an: 0,6π; 2,7.
+      c) Ergänzen Sie die folgende Tabelle. Schreiben Sie die Winkel im
+         Bogenmaß als Vielfache von π.
+                                   π
+          Bogenmaß π               4  - π3                 1
+                               ◦                 ◦     ◦
+          Gradmaß            90              270    18
+59. Die folgenden Werte wurden mit dem Taschenrechner berechnet und
+    gerundet: cos( π4 ) = 0,7071, cos(π) = 0,998, sin( π2 ) = 0,027,
+    sin(270◦ ) = −1, sin(30◦ ) = −0,988.
+      a) Überprüfen Sie ohne Taschenrechner, ob die Ergebnisse plau-
+         sibel sind.
+      b) Welcher Fehler wurde bei der Berechnung teilweise gemacht?
+60. Eine 4 m lange Leiter wird in einer Höhe von 3,80 m an eine Haus-
+    wand gelehnt. Welchen Winkel schließt die Leiter mit dem Boden
+    ein? Wie weit sind die Füße der Leiter von der Wand entfernt?
+61. Von der auf 1800 m Höhe gelegenen Bergstation einer Seilbahn
+    erscheint die auf 1100 m Höhe gelegene Talstation unter einem Blick-
+    winkel von 42◦ gegenüber der Waagerechten.
+    Welche Größen lassen sich mit Hilfe der Trigonometrie berechnen?
+62. Das zylinderförmige Schaufelrad eines Dampfers hat einen Durch-
+    messer von 5,90 m.
+      a) Bei entsprechender Beladung des Dampfers taucht das Rad
+         1,20 m tief in das Wasser ein. Wie viel Prozent des Umfangs der
+         kreisförmigen Querschnittsfläche des Schaufelrads sind dann
+         unter Wasser?
+      b) Berechnen Sie den Tiefgang des Schaufelrads unter der Voraus-
+         setzung, dass 40 % des Umfangs unter Wasser sind.
+63. Der Sinus von 15◦ ist ungefähr 0,2588. Bestimmen Sie damit ohne
+    Taschenrechner näherungsweise die Werte sin(165◦ ), sin(−15◦ ) und
+    cos(105◦ ).
+
+
+
+                                  23
+64. Zeichnen Sie in ein Koordinatensystem einen Einheitskreis mit
+    Mittelpunkt (0|0).
+      a) Zeichnen Sie einen Punkt P auf dem Einheitskreis ein, so dass
+         für den zu P gehörenden Winkel α zur x-Achse sin(α) = 0,6
+         ist. Begründen Sie, dass es für 0◦ ≤ α ≤ 180◦ einen weiteren
+         Punkt mit dieser Eigenschaft gibt.
+     b) Entnehmen Sie Ihrer Zeichnung einen Näherungswert für cos(α).
+      c) Begründen Sie mithilfe des Einheitskreises, dass es für 0◦ ≤
+         α ≤ 180◦ nur einen Punkt P gibt, für den gilt: cos(α) = 0,8.
+     d) Erläutern Sie, warum (sin(α))2 + (cos(α))2 = 1 für alle Winkel
+        α gilt.
+
+65. Welche der folgenden Aussagen sind falsch? Geben Sie für die falschen
+    Aussagen ein Gegenbeispiel an.
+      a) Eine Polynomfunktion ungeraden Grades hat mindestens eine
+         Nullstelle.
+     b) Eine Polynomfunktion geraden Grades hat keine Nullstellen.
+     c) Quadratische Funktionen haben keine Wendestellen.
+                                  1
+     d) Die Funktion f mit f (x) = hat die Menge aller reellen Zahlen
+                                  x
+        als Definitionsmenge.
+                                  1
+     e) Die Funktion f mit f (x) = hat die Menge aller reellen Zahlen
+                                  x
+        als Wertemenge.
+      f) Alle Funktionen f mit f (x) = ax (mit a > 0) sind streng
+         monoton wachsend.
+     g) Der Graph der Funktion f mit f (x) = xn (n ∈ N) ist achsen-
+        symmetrisch zur y-Achse.
+                                                              √
+     h) Die Definitionsmenge der Funktion f mit f (x) = x + 5 ist
+        die Menge aller reellen Zahlen, die größer als 5 sind.
+      i) Die Maximalstellen der Funktion f mit f (x) = sin(x) sind
+         Wendestellen der Funktion g mit g(x) = cos(x).
+
+
+
+
+                                  24
+66. Gesucht ist der Term einer Polynomfunktion niedrigsten Grades mit
+    den drei Nullstellen x1 = −3, x2 = −1, x3 = 2, deren Schaubild
+    durch den Punkt (0|3) geht.
+67. Das Gesetz des radioaktiven Zerfalls des radioaktiven Jod-Isotops
+    137                       −0,062·t
+    57 I lautet n(t) = n0 · e          , t in Tagen.
+     a) Ermitteln Sie die Halbwertszeit tH von 137
+                                               57 I.
+     b) Nach wie vielen Tagen sind nur noch 25 % des Stoffes
+        vorhanden?
+     c) Geben Sie ohne Verwendung eines Taschenrechners an,
+        zwischen welchen ganzzahligen Vielfachen der Halbwertszeit
+        noch 5 % des Stoffes vorhanden sind.
+68. Ordnen Sie die Funktionsgraphen den unten aufgeführten Zuord-
+    nungen zu.
+
+
+
+
+                                25
+                             √
+    x 7→ x2 , x 7→ x3 , x 7→ x, x 7→ x1 , x 7→ x12 , x 7→ ex , x 7→ ln(x),
+    x 7→ sin(x), x 7→ cos(x), x 7→ tan(x)
+
+69. Bestimmen Sie die Periode p der Funktion f mit f (x) = −3 cos(2x)
+    sowie – ohne Hilfsmittel aus der Differenzialrechnung – sämtliche
+    Nullstellen, Hoch-, Tief- und Wendepunkte auf dem Intervall
+    0 ≤ x < p.
+70. Skizzieren Sie den Graphen von f .
+     a) f (x) = sin(x)
+     b) f (x) = 2 sin(x)
+      c) f (x) = sin(−x)
+     d) f (x) = −3 sin(x + 2) − 1
+      e) f (x) = sin(3x + 2)
+
+71. Gegeben sind die Funktionen
+                           √        f1 , f2 und f3 mit f1 (x) = x2 ,
+    f2 (x) = 1 und f3 (x) = x. Bestimmen Sie möglichst einfache Terme
+    der Funktionen g, h und k mit
+     a) g(x) = f3 (f1 (x) + f2 (x)),
+     b) h(x) = f3 (f1 (x)) + f2 (x),
+      c) k(x) = f1 (f2 (x) + f3 (x))
+    und geben Sie jeweils den maximalen Definitionsbereich und den
+    Wertebereich der Funktionen an.
+
+
+
+
+                                   26
+72. Skizzieren Sie den Graphen der Funktion f .
+      a) f (x) = | sin(x)|
+      b) f (x) = 2 · esin(x)
+73.   a) Bestimmen Sie den Term der Funktion f mit f (x) = ax , a > 0,
+         deren Graph durch den Punkt P (2|49) geht.
+      b) Der Graph einer ganzrationalen Funktion vierten Grades ist
+         achsensymmetrisch zur y-Achse, schneidet die y-Achse 2 Ein-
+         heiten oberhalb des Ursprungs und hat den Hochpunkt H(1|3).
+         Bestimmen Sie den Term der Funktion f .
+
+74. Wie verhält sich die Funktion f mit
+                    2
+     a) f (x) =         für x → +∞;
+                 x+2
+                   2x
+     b) f (x) =         für x → +∞;
+                 x+2
+                  2x2
+     c) f (x) =         für x → −∞;
+                 x+2
+                    x
+     d) f (x) =         für x → −1;
+                 x+1
+                 x2 − 1
+     e) f (x) =           für x → −1?
+                  x+1
+75. Beurteilen Sie die nachfolgenden Aussagen und geben Sie gegebenen-
+    falls ein Gegenbeispiel an, wenn eine Aussage nicht allgemeingültig
+    ist.
+      a) Besitzt die Funktion f an der Stelle 2 den Funktionswert 1, so
+         gilt f ′ (2) = 1.
+      b) Gilt f ′ (2) = 1, so hat die Tangente an den Graphen von f im
+         Punkt P (1|f (1)) die Steigung 2.
+      c) Die lokale Änderungsrate der Funktion f mit f (x) = −0, 5x2 +2
+         an der Stelle −3 ist positiv.
+
+
+
+
+                                  27
+76. Die Abbildung zeigt für −4 ≤ x ≤ 10 den Graphen der Ableitungs-
+    funktion h′ einer Funktion h.
+
+
+
+
+    Entscheiden Sie, ob die nachfolgenden Aussagen wahr sind. Be-
+    gründen Sie Ihre Entscheidung.
+     a) Die Funktion h ist auf dem Intervall −3 < x < 10 streng
+        monoton fallend.
+     b) Die Funktion h hat an der Stelle −3 ein Minimum.
+      c) x = 0 ist eine Wendestelle von h.
+77. Gegeben ist der Graph einer Funktion f . Skizzieren Sie in dasselbe
+    Koordinatensystem den Graphen der Ableitungsfunktion f ′ .
+
+
+
+
+                                 28
+78. Geben Sie die Ableitungsfunktion an.
+      a) f (x) = xn
+     b) f (x) = ex
+                √
+     c) f (x) = x
+     d) f (x) = sin(x)
+      e) f (x) = cos(x)
+      f) f (x) = ln(x)
+79. Bestimmen Sie die Ableitung der Funktion f .
+      a) f (x) = x3 − 6x + 1
+     b) f (x) = e5
+      c) f (x) = (1 − x2 )9
+     d) f (x) = x · e2x
+                 1
+     e) f (x) = 2 · sin(x)
+                x
+80. Berechnen Sie die Extrem- und Wendepunkte des Graphen der Funk-
+    tion f mit f (x) = x3 − 6x + 1. In welchem Bereich ist die Funktion
+    f streng monoton fallend?
+
+81. Gegeben ist die Funktion f durch f (x) = x · e−0,5x .
+    Bestimmen Sie den Extrempunkt von f und weisen Sie rechnerisch
+    nach, dass es sich um einen Hochpunkt handelt.
+82. Zwei Seiten eines Rechtecks liegen auf
+    den positiven Koordinatenachsen,
+    ein Eckpunkt auf dem abgebildeten
+    Stück der Parabel mit der Gleichung
+    y = −0, 25x2 + 4.
+    Wie groß müssen die Seitenlängen
+    dieses Rechtecks sein, damit sein
+    Umfang maximal wird?
+    Wie groß ist dann der Umfang?
+
+
+
+
+                                  29
+                                                                 R1
+83.   a) Berechnen Sie einen Näherungswert für das Integral 0 x2 dx,
+         indem Sie das Intervall [0; 1] in fünf gleiche Teile teilen und
+         damit die Untersumme berechnen.
+      b) Wie kann man den Näherungswert verbessern?
+      c) Wie erhält man den exakten Wert des Integrals?
+84. Bei einem Becken, das zu Beginn 2000 m3 Wasser enthält, fließt
+    Wasser ein und aus. Die Zuflussgeschwindigkeit kann für t ∈ [0; 70]
+    durch die Funktion f beschrieben werden:
+    f (t) = −t2 + 40t + 225 (t in Tagen seit Beginn, f (t) in m3 /Tag).
+    Bestimmen Sie die Funktion, die die vorhandene Wassermenge zu
+    jedem Zeitpunkt angibt. Wie viel Wasser befindet sich nach 30 Tagen
+    im Becken?
+85. f ist eine auf R definierte differenzierbare Funktion mit der Ablei-
+    tung f ′ . Welche Aussagen sind richtig?
+      a) Die Funktion f hat genau eine Ableitung aber viele Stamm-
+         funktionen.
+      b) Sind F und G Stammfunktionen zu f , so ist auch die Summe
+         F + G eine Stammfunktion zu f .
+      c) Ist F Stammfunktion von f , so gilt f ′ (x) = F (x).
+      d) Zwei Stammfunktionen von f unterscheiden sich nur durch
+         einen konstanten Summanden.
+86. Geben Sie eine Stammfunktion F der Funktion f an.
+      a) f (x) = x1
+      b) f (x) = x3 − 3x2 + 5
+                  2
+      c) f (x) = 2
+                 x
+      d) f (x) = 2e−2x
+                 √
+      e) f (x) = 5x − 1
+
+87. Berechnen Sie ohne Taschenrechner:
+         R2
+     a) −1 (2x3 + 1)dx
+         Rπ
+     b) 02 (1 + cos(2x))dx
+
+
+
+
+                                  30
+88. Gegeben sind die Funktionen f und g mit f (x) = −x2 + 4 und
+    g(x) = 2x + 1.
+      a) Skizzieren Sie die Graphen der beiden Funktionen.
+      b) Berechnen Sie den Inhalt der Fläche, die der Graph von f mit
+         der x-Achse einschließt.
+      c) Berechnen Sie den Inhalt der Fläche, die von den Graphen der
+         Funktionen f und g eingeschlossen wird.
+89. Zeichnen Sie die Gerade
+      a) mit der Gleichung y = −2x + 3;
+      b) mit der Gleichung −2x + y − 5 = 0;
+      c) mit der Gleichung x + 8 = 0;
+      d) mit der Steigung 3, die durch den Punkt P (0|3) geht;
+      e) mit der Steigung −2, die durch den Punkt P (2|3) geht;
+      f) durch die Punkte A(−4| − 3) und B(1|3).
+
+90. Schraffieren Sie in einem Koordinatensystem den Bereich, der durch
+    die Ungleichung |x − y| < 1 gegeben ist.
+91.   a) Begründen Sie, dass durch die Gleichung x2 +y 2 = 25 ein Kreis
+         gegeben ist, und zeichnen Sie diesen.
+      b) Geben Sie Mittelpunkt und Radius des Kreises gegeben durch
+         (x − 2)2 + y 2 = 25 an.
+92. Lösen Sie das folgende LGS mit Hilfe des Gauß-Algorithmus.
+
+                      2a    − 3b       + 4c =      −17
+                      −a    + 3b       − 2c =       13
+                       a    + 5b       + 6c =       −7
+
+93. Lösen Sie das folgende LGS in Abhängigkeit vom Parameter t.
+
+                       x1   +   x2     + x3    =   18
+                       x1   +   x2     − 2x3   =    0
+                       x1   +   x2     −  x3   =    t
+
+
+
+
+                                  31
+94. Durch die Punkte P (−3|3) und Q(3|0) gehen unendlich viele Para-
+    beln.
+      a) Stellen Sie ein lineares Gleichungssystem für die Koeffizienten
+         a, b, c der Parabelgleichung y = ax2 + bx + c auf.
+     b) Bestimmen Sie die Lösungsmenge dieses Gleichungssystems.
+
+95. Zeichnen Sie die beiden Geraden g und h in der x1 x2 -Ebene.
+
+                         g:    2x1     + x2   =   1
+                         h:     x1     − x2   =   3
+
+    Berechnen Sie den Schnittpunkt der beiden Geraden und vergleichen
+    Sie das Ergebnis mit Ihrer Zeichnung.
+96. Ein Flugzeug würde bei Windstille mit einer Geschwindigkeit von
+    150 km
+         h genau nach Süden fliegen. Es wird jedoch vom Wind, der
+    mit der Geschwindigkeit 30 km h aus nordöstlicher Richtung bläst,
+    abgetrieben. Stellen Sie die Geschwindigkeit des Flugzeugs relativ
+    zur Erde als Pfeil dar.
+97. Überprüfen Sie, ob das Viereck mit den Ecken A(1|4| − 1), B(8|8|4),
+    C(4|4|3), D(−3|0| − 2) ein Parallelogramm ist.
+98. P , Q, R und S sind Punkte im R3 . Vereinfachen Sie:
+         −−→ −−→
+      a) P Q + QR
+         −−→ −−→
+      b) P Q − RQ
+         −−→ −−→ −−→ −→
+      c) P Q − P Q − QR + RS
+              
+             2      3        1
+      d)  1  − 2 +  2 
+            −3      1        −5
+                        
+               −1          1
+      e) 2 ·  4  − 3 ·  6 
+               2          −2
+99. Zeichnen Sie die Gerade g und geben Sie die Gleichung der Geraden
+    in der Form y = mx + b an.
+                                  
+                        x      2       −1
+                   g:      =      +t        ,     t∈R
+                        y      5        5
+
+
+                                  32
+100. Gegeben ist die Ebene
+                                   
+                         3     2       3
+              E: →−
+                  x = 0 + r 1 + s 2 ,           r, s ∈ R.
+                         2     7       5
+
+     Bestimmen Sie p so, dass P (p|2| − 2) in dieser Ebene liegt.
+
+101. Welche Lagebeziehung haben die Geraden g und h mit
+                                      
+                            1        −5
+                     −
+                  g: →x = 2 + r  10  ,     r∈R
+                            4        −15
+                                  
+                            1        3
+                       −
+                    h: →
+                       x = 2 + s −2 ,           s∈R
+                            4        3
+     zueinander? Begründen Sie Ihre Entscheidung.
+102. Paul hat drei Mathetests geschrieben, in denen nur ganze Noten
+     zwischen 1 und 6 vergeben wurden. Im Durchschnitt hat er eine 3.
+     Welche Noten kann er in den drei Tests geschrieben haben? Finden
+     Sie mehrere Möglichkeiten.
+
+103. In zwei Kisten mit Wassermelonen befinden sich unterschiedlich vie-
+     le Wassermelonen unterschiedlicher Größe.
+     In der ersten Kiste befinden sich sieben Melonen mit den folgenden
+     Gewichten: 4,8 kg, 4,2 kg, 4,2 kg, 4,2 kg, 4,5 kg, 4,6 kg, 4,3 kg.
+     In der zweiten Kiste befinden sich fünf Melonen mit den folgenden
+     Gewichten: 3,8 kg, 4,2 kg, 3,7 kg, 4,0 kg, 4,2 kg.
+     Bestimmen Sie jeweils den Durchschnitt (das arithmetische Mittel)
+     der Gewichte in den beiden Kisten sowie das durchschnittliche Ge-
+     wicht aller 12 Wassermelonen. Wäre es richtig, den Durchschnitt
+     der beiden Durchschnitte zu bilden, um den Gesamtdurchschnitt zu
+     erhalten? Begründen Sie Ihre Antwort.
+104. Ein Würfel ist manipuliert worden und ergibt beim Werfen eine
+     1 mit der Wahrscheinlichkeit 12 und alle anderen Ziffern mit der
+                          1
+     Wahrscheinlichkeit 10  . Hannah experimentiert mit drei Würfeln:
+     dem manipulierten Würfel, einem fairen Würfel und einem dritten
+     Würfel mit bisher unbekannten Eigenschaften.
+
+
+                                   33
+       a) Welche Häufigkeiten erwarten Sie etwa, wenn der faire Würfel
+          2.400-mal geworfen wird; welche beim manipulierten? Stellen
+          Sie diese Häufigkeitsverteilungen jeweils in einem Säulen-
+          diagramm dar.
+      b) Im Experiment hat Hannah bei mehreren Durchgängen mit
+         jeweils 1.200 Würfen folgende Häufigkeiten notiert.
+                            1      2    3       4     5      6
+           Experiment 1 583 135 111 111 151 109
+           Experiment 2 982 47          46     48    37     40
+           Experiment 3 209 206 198 218 213 156
+     Welches der Experimente wurde vermutlich mit welchem Würfel
+     durchgeführt? Begründen Sie Ihre Aussage!
+105. Leon und Anna haben eine faire Münze geworfen. Leon hat die
+     Münze 50-mal geworfen. Die Anteile, mit denen Kopf“ bzw. Zahl“
+                                                    ”             ”
+     vorgekommen sind, hat er in Prozent berechnet und anschließend
+     in einem Kreisdiagramm veranschaulicht. Dieses 50-mal-Münze-
+                                                       ”
+     werfen-Experiment“ hat er dreimal durchgeführt und seine drei Kreis-
+     diagramme nebeneinander in einer Reihe angeordnet.
+     Anna hat die Münze 200-mal geworfen. Auch sie hat dies dreimal
+     durchgeführt und ihre drei Kreisdiagramme auch nebeneinander in
+     einer Reihe angeordnet.
+
+
+
+
+     Welche Reihe gehört vermutlich zum Experiment von Leon, welche
+     zu Annas? Begründen Sie Ihre Entscheidung.
+
+
+
+
+                                   34
+106. In einer Klasse wird ein Ankreuz-Test durchgeführt. Es gibt 15
+     Antworten, 5 davon sind richtig, 10 davon falsch. Diese sind durch
+     einen Zufallsgenerator angeordnet worden. Simon hat nicht gelernt
+     und kreuzt wahllos 5 Antworten an. Ist einer der folgenden
+     Vorschläge besser geeignet, um möglichst viele Punkte zu erzielen?
+     Begründen Sie Ihre Entscheidung!
+     Vorschlag A: 444442222222222
+     Vorschlag B: 224242244224222
+107. Wie wahrscheinlich ist es, beim Spiel Mensch-ärgere-Dich-nicht“ zu
+                                          ”
+     Beginn aus dem Häuschen zu kommen?
+108. Benjamin hat acht Stifte in seinem Mäppchen, von denen jeder eine
+     andere Farbe hat. Er möchte das Wort cosh“ mit farbigen Buch-
+                                             ”
+     staben schreiben.
+       a) Wie viele Möglichkeiten gibt es dafür, wenn jeder Buchstabe
+          eine andere Farbe haben soll?
+      b) Wie viele Möglichkeiten gibt es dafür, wenn alle Farben beliebig
+         oft verwendet werden können?
+       c) Anne nimmt vier Stifte von Benjamin. Wie viele Möglichkeiten
+          gibt es hierfür?
+109. Zwei ideale Ein-Euro-Münzen werden gleichzei-
+     tig geworfen.
+     Wie groß ist die Wahrscheinlichkeit, dass eine
+     davon Zahl und die andere Wappen zeigt?
+
+
+
+
+                                   35
+110. Maria hat einen Mail-Account, dessen Adresse auf einer Website
+     steht. Etwa 80 % ihrer Mails sind Spam. Sandra empfängt bei ih-
+     rem Mail-Account nur etwa 20 % Spam-Mails. Beide installieren nun
+     denselben Spam-Filter. Von diesem werden 95 % aller Spam-Mails in
+     einen Spam-Ordner aussortiert, jedoch werden auch 1 % aller Mails,
+     die kein Spam sind, fälschlicherweise aussortiert. Wie wahrscheinlich
+     ist es, dass eine nicht aussortierte Mail
+       a) bei Maria dennoch Spam ist?
+       b) bei Sandra dennoch Spam ist?
+     Hinweis: Spielen Sie jeweils das Eintreffen von 1.000 Mails mit einem
+     Baumdiagramm oder einer Vierfeldertafel durch und berechnen Sie
+     den Anteil unter den nicht aussortierten Mails, die Spam sind, indem
+     Sie die errechneten Häufigkeiten geeignet auswerten.
+       c) Die Ergebnisse in a) und b) sind recht unterschiedlich, obwohl
+          derselbe Spamfilter verwendet wird. Woran liegt es, dass es zu
+          solch unterschiedlichen Spam-Anteilen bei den nicht aussortier-
+          ten Mails kommt?
+111. In einer Kiste befinden sich 20 Tischtennisbälle in den Farben weiß
+     und blau. Tina zieht nacheinander drei Bälle heraus.
+       a) Ergänzen Sie das nachfolgende Baumdiagramm um die Wahr-
+          scheinlichkeiten in den grau hinterlegten Kästchen.
+       b) Wie groß ist die Wahrscheinlichkeit, dass Tina drei blaue Bälle
+          erwischt?
+
+
+
+
+                                    36
+Teilnehmende der Tagungen 2012, 2014 und 2021:
+Prof. Dr. Isabel Acker, HS Nürtingen-Geislingen
+OStR Friedrich Achtstätter, LS Stuttgart
+StD Annemarie Ahring-Nowak, Technische Oberschule Stuttgart
+Prof. Dr. Volker Bach, Universität Braunschweig
+StR Christopher Balszun, Louise-Schroeder-Gymnasium München
+Prof. Dr. Kirstin Baumann, HS Furtwangen
+Dr. Jochen Berendes,Geschäftsstelle für Hochschuldidaktik Karlsruhe
+StD Achim Boger, Gewerbliche Schule Schwäbisch Gmünd
+Prof. Dr. Manuela Boin, TH Ulm
+Prof. Dr. Steffen Bohrmann, HS Mannheim
+Prof. Dr. Martin Bokler, Technische Hochschule Mittelhessen
+Prof. Hanspeter Bopp, HfT Stuttgart
+Dr. Isabel Braun, HS Karlsruhe
+StD Gabriele Brosch-Kammerer, Berufliches Schulzentrum Leonberg
+StD Heidi Buck, Seminar für Ausbildung und Fortbildung der Lehrkräfte Tübingen
+(Gymnasium)
+RSD Jana Bursian, Ministerium für Kultus, Jugend und Sport, Stuttgart
+Prof. Dr. Eva Decker, HS Offenburg
+StD Ralf Dehlen, Gewerbliche Schule Kirchheim/Teck
+Dr. Jens Dennhard, Integrierte Gesamtschule Mannheim Herzogenried
+StD Renate Diehl, IBG Lahr
+Prof. Rolf Dürr, Seminar für Ausbildung und Fortbildung der Lehrkräfte Tübingen
+(Gymnasium)
+Prof. Dr. Klaus Dürrschnabel, HS Karlsruhe
+StD Armin Egenter, Gewerbliche Schule Heidenheim
+Prof. Dr. Michael Eichmair, Universität Wien
+Prof. Dr. Michael Eisermann, Uni Stuttgart
+StD Wolfgang Eppler, Walther-Groz-Schule, Kaufmännische Schule Albstadt
+StR Andrea Erben, Kaufmännische Schule Böblingen
+Prof. Dr. Wolfgang Erben, HfT Stuttgart
+Prof. Dr. Michael Felten, HDM Stuttgart
+Prof. Dr. Viola Galler, HS Pforzheim
+Prof. Dr. Gerhard Götz, DHBW Mosbach
+StD Axel Goy, Seminar für Ausbildung und Fortbildung der Lehrkräfte Weingarten
+(Berufliche Schulen und Gymnasium)
+OStR Rainer Grunert, Mathilde-Planck-Schule Ludwigsburg
+Dr. Daniel Haase, KIT
+Dr. Michael Harder, Universität Ulm
+Prof. Dr. Zerrin Harth, HS Ravensburg-Weingarten
+Prof. Bernd Hatz, Elly-Heuss-Knapp-Gymnasium Stuttgart
+Prof. Dr. Elkedagmar Heinrich, HS Konstanz
+Prof. Dr. Gert Heinrich, DHBW Villingen-Schwenningen
+Prof. Dr. Frank Herrlich, KIT
+StD Dr. Jörg Heuß, Seminar für Ausbildung und Fortbildung der Lehrkräfte Karlsruhe
+(Berufliche Schulen)
+StD Dr. Thilo Höfer, Staufer-Gymnasium Waiblingen
+Prof. Dr. Stefan Hofmann, HS Biberach
+Dr. Ralph Hofrichter, HS Pforzheim
+OStR Christa Holoch, Johanna-Wittum-Schule Pforzheim
+Prof. Dr. Reinhold Hübl, DHBW Mannheim
+StD Markus Kammerer, Droste-Hülshoff-Gymnasium, Rottweil
+Prof. Dr. Hanno Käß, HS Esslingen
+Prof. Dr. Andreas Kirsch, KIT
+Prof. Dr. Hans-Dieter Klein, HS Ulm
+Prof. Dr. Anselm Knebusch, HfT Stuttgart
+Dr. Michael Kölle, RP Tübingen
+M.Sc. Jan Köllner, Universität Stuttgart
+StD Bernhard Koob, Gottlieb-Daimler-Schule 2 Sindelfingen
+StR Ulrike Kopizenski, Hubert-Sternberg-Schule Wiesloch
+Prof. Dr. Harro Kümmerer, HS Esslingen
+Prof. Dr. Günther Kurz, HS Esslingen
+Gabriella Lambrecht, DHBW Heilbronn
+Prof. Dr. Axel Löffler, HS Aachen
+Prof. Dr. Frank Loose, Uni Tübingen
+MDg Klaus Lorenz, Ministerium für Kultus und Sport, Stuttgart
+Prof. Dr. Karin Lunde, TH Ulm
+Prof. Dr. Werner Lütkebohmert, Uni Ulm
+StR Vera May, Albert-Einstein-Schule Ettlingen
+Martin Mayerhofer, Universität Wien
+Dipl.-Math. Edith Mechelke-Schwede, DHBW Mannheim
+Dipl.-Math. Konstanze Mehmedovski, HfT Stuttgart
+Prof. Dr. Silke Michaelsen, HS Konstanz
+Prof. Dr. Thomas Morgenstern, HS Karlsruhe
+OStR’in Heidi Mößner, John-F.-Kennedy-Schule Esslingen
+Prof. Dr. Gerrit Nandi, DHBW Heidenheim
+Prof. Dr. Cornelia Niederdrenk-Felgner, HS Nürtingen-Geislingen
+David Obermayr, DHBW Mannheim
+Prof. Dr. Gerald Oberschmidt, DHBW Karlsruhe
+Dipl.-Math. Bernd Oder, HS Aalen
+Prof. Dr. Walther Paravicini, Universität Tübingen
+OStR’in Anja Peters, Ludwig-Erhard-Schule Pforzheim
+Prof. Dr. Guido Pinkernell, PH Heidelberg
+Prof. Dr. Stephan Pitsch, HS Reutlingen
+Prof. Dr. Barbara Priwitzer, HS Reutlingen
+Dr. Kevin Rapedius, MINT-Kolleg Karlsruhe
+OStR’in Petra Ritter, Ludwig-Marum-Gymnasium
+Prof. Dr. Ivica Rogina, HS Karlsruhe
+
+
+
+                                         38
+Dr. Norbert Röhrl, Uni Stuttgart
+Prof. Dr. Ralf Rothfuß, HS Esslingen
+Prof. Dr. Torsten Schatz, Seminar für Ausbildung und Fortbildung der Lehrkräfte
+Tübingen (Gymnasium)
+Prof. Dr. Axel Schenk, HS Heilbronn
+Christina Schneider, DHBW Karlsruhe
+StR’in Jolan Schneider-Kis, Helene-Weber-Schule Bad Saulgau
+Dr. Oliver Schöll, Ministerium für Schule und Bildung NRW
+Dipl.-Math. Jochen Schröder, HS Karlsruhe
+Dr. Daniel Schropp, Universität Ulm
+M.Sc. Britta Schuetter-Kerndl, TH Ulm
+Dipl.-Math. Henrik Söderberg, HS Nürtingen-Geislingen
+Prof. Dr. Axel Stahl, HS Esslingen
+StR Martin Stöckel, Carl-Engler-Schule Karlsruhe
+StD Ulla Sturm-Petrikat, Oskar-von-Nell-Breuning-Schule Rottweil
+Prof. Dr. Ursula Voß, HS Reutlingen
+Prof. Hans-Peter Voss, Geschäftsstelle für Hochschuldidaktik Karlsruhe
+MR Steffen Walter, Ministerium für Wissenschaft, Forschung und Kunst, Stuttgart
+StD Bruno Weber, LS Stuttgart
+StD’in Nathalie Weber, Lessing-Gymnasium Karlsruhe
+StD Dr. Thomas Weber, Carl-Engler-Schule Karlsruhe
+OStR Albert Weinmann, Ferdinand-von-Steinbeis-Schule Reutlingen
+Prof. Dr. Frédéric Weller, HS Esslingen
+Prof. Dr. Holger Wengert, DHBW Stuttgart
+Dr. Andrea Wirmer, Universität Ulm
+StR’in Dr. Marinela Wong, Heinrich-Wieland-Schule-Pforzheim
+RSD Karen Wunderlich, Ministerium für Kultus, Jugend und Sport, Stuttgart
+StD Rita Wurth, Mettnau-Schule Radolfzell
+
+
+
+
+Satz:
+Dr. Isabel Braun, Projekt ’SKATING’, HS Karlsruhe (Version 1.0)
+Dipl.-Math. Jochen Schröder, HS Karlsruhe (Versionen 2.0, 3.0, 3.1)
+
+
+
+Lizenz:
+Die Inhalte dieses Katalogs stehen unter der Creative Commons Lizenz CC BY-
+SA 4.0. Sie können kopiert oder nach Bearbeitung weiterverwendet werden, solange
+der Ursprung in angemessener Weise zitiert wird und darauf aufbauende Inhalte unter
+derselben Lizenz veröffentlicht werden.
+Index
+Ableitungen, Differenzialrechnung
+    • Ableitungen berechnen (19, 78, 79, 80, 81, 82)
+    • Ableitungen verstehen (8, 17, 19, 75, 76, 77)
+    • Extremstellen einer Funktion (8, 80, 81, 82)
+    • Wendestellen einer Funktion (17, 80)
+Baumdiagramme (109, 110, 111)
+binomische Formeln (27, 28)
+Bruchrechnung (31, 32, 33, 34)
+Dezimalzahlen (24)
+Differenzialrechnung → siehe Ableitungen
+Dreisatz, proportionale Zuordnungen (29, 30, 58)
+Fachsprache (14, 15, 18)
+Fallunterscheidungen (5, 49, 50)
+Funktionen
+    • Exponentialfunktionen (67, 73)
+    • Funktionsgraphen erkennen, interpretieren und zeichnen (17, 68, 72, 76, 77, 88,
+      89)
+    • ganzrationale Funktionen, Polynomfunktionen (65, 66, 73)
+    • trigonometrische Funktionen (69, 70)
+    • Verkettung von Funktionen (71)
+Geometrische Formen
+    • Berechnungen (55, 56, 57)
+    • Eigenschaften (51, 52)
+Geraden und Ebenen (89, 99, 100, 101)
+Gleichungen
+    • Betragsgleichungen (5a))
+    • Bruchgleichungen (42, 43)
+    • Exponentialgleichungen (44, 67)
+    • lineare Gleichungen (40)
+    • quadratische Gleichungen (40)
+    • Wurzelgleichungen (45)
+Grenzwertberechnung (74)
+Größenordnungen (12, 13, 10, 11, 23)
+Häufigkeiten (relativ, absolut) (104)
+Integralrechnung
+    • bestimmtes Integral (83, 84, 87, 88)
+    • unbestimmtes Integral, Stammfunktion (85, 86)
+
+
+                                         40
+Kombinatorik (106, 107, 108)
+Kreis (91)
+lineare Gleichungssysteme (21, 92, 93, 94, 95)
+Mittelwert (102, 103)
+Modellierung (2, 3)
+Potenzen (38, 39)
+Prozentrechnung (35, 36)
+Stammfunktionen → siehe Integralrechnung
+Terme
+    • nicht erlaubte Umformungen (9)
+    • umformen und vereinfachen (25, 26, 31, 32, 33, 34)
+    • umstellen nach Variablen (46)
+    • verstehen (18)
+Trigonometrie
+    • Einheitskreis, Bogenmaß (58, 63, 64)
+    • am rechtwinkligen Dreieck (60, 61, 62)
+    • trigonometrische Funktionen → siehe Funktionen
+Ungleichungen
+    • Betragsungleichungen (5b), 49, 90))
+    • Bruchungleichungen 50
+    • lineare Ungleichungen 47
+    • quadratische Ungleichungen 48
+Vektoren
+    • Anschauung, Vektoren als Pfeile (96, 97, 98)
+    • Vektorrechnung (97, 98)
+    • Ebenen und Geraden (99, 100, 101)
+Winkel (53, 54, 58)
+Zinsrechnung (13, 20)
+
+
+
+
+                                         41
+

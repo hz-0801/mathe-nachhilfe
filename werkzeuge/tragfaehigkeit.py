@@ -185,7 +185,7 @@ def head_kurz():
         return "unbekannt"
 
 
-NICHT_DURCHSUCHT = {"hefte", "hefte-md", "korpus", "baende", "iqb-pdf", "__pycache__"}  # lokal, nicht im Repo (.gitignore)
+NICHT_DURCHSUCHT = {"hefte", "hefte-md", "korpus", "baende", "iqb-pdf", "__pycache__"}  # lokal, nicht im Repo (.gitignore); der iqb-Cache liegt seit 27.09.2026 unter hefte/iqb/, iqb-pdf nur noch für alte Aufrufe
 
 
 def fundort(dateiname):

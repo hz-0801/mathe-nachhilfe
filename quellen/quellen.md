@@ -270,7 +270,14 @@ Bericht: `quellen/lehrwerke-sek2-foerder-bericht-2026-09.md`.
 Cornelsen, „Fundamente der Mathematik“, Ausgabe B (Berlin, Brandenburg,
 Mecklenburg-Vorpommern), Einführungsphase der gymnasialen Oberstufe, aus
 der DNB. Eine Qualifikationsphase dieser Ausgabe war zum Stichtag nicht
-auffindbar.
+auffindbar. Nachsuche 27.09.2026 (Auftrag Nacht 2026-09-27, Teil 6, zehn
+SRU-Abfragen über `werkzeuge/dnb-sru.py`): wieder nicht gefunden. Die DNB
+führt Qualifikationsphasen-Bände von 2018/2019 und 2021 ohne Landesangabe,
+2025 für Nordrhein-Westfalen (ISBN 9783060419401 GK, 9783060419425 LK) und
+2026 „Q1/Q2“ für Hessen (9783060025572 GK, 9783060025602 LK), alle mit
+Inhaltsverzeichnis; unter dem ISBN-Kreis der Ausgabe B (9783060098…) stehen
+nur Einführungsphase (2023) und Klasse 9/10. Nichts davon abgelegt, weil
+keiner der Bände nachweislich Ausgabe B ist.
 
 ## quelle-westermann-elemente-der-mathematik-sek2-nrw-inhalt.txt
 
@@ -465,6 +472,22 @@ Teil II 2022–2026. Nicht frei erreichbar: Quali Mittelschule Bayern
 (Portal mit Anmeldung). Fundliste mit Adressen, Vermerken, Umfang und
 Abrufzählung: `quellen/fremdsammlungen-fundliste.md`; Fundstellen je Typ:
 `katalog/_fremdoriginale-belege.md`.
+
+## quelle-cosh-mindestanforderungskatalog-v3.1.txt  [COSH]
+
+cosh – Cooperation Schule:Hochschule (Baden-Württemberg), „Mindestanforderungskatalog
+Mathematik (Version 3.1) von Schulen und Hochschulen Baden-Württembergs für ein Studium
+von WiMINT-Fächern“, 43 Seiten, Stand 2025 (Datei vom Mai 2026); Version 3.1 bringt nach
+eigener Angabe nur kleinere Änderungen gegenüber Version 3.0 (2021). Satz Jochen Schröder,
+HS Karlsruhe. Lizenz CC BY-SA 4.0 (Abschnitt „Lizenz“ am Schluss des Katalogs: kopieren und bearbeitet weiterverwenden
+mit Quellenangabe, darauf aufbauende Inhalte unter derselben Lizenz). PDF daneben
+(`quelle-cosh-mindestanforderungskatalog-v3.1.pdf`), Textfassung mit `pdftotext -layout`
+am 27.09.2026 (Auftrag Nacht 2026-09-27, Teil 6).
+
+Quelle: https://cosh-bw.de/wp-content/uploads/2026/05/makV3.1.pdf (Materialseite
+https://cosh-bw.de/cosh-mathe/materialien/; die ältere Adresse …/2025/07/makV3.1.pdf
+liefert 404). Version 3.0: https://cosh-mathe.de/wp-content/uploads/2021/12/makV3.0.pdf
+(40 Seiten, nicht abgelegt).
 
 ## Noch nicht abgelegt
 

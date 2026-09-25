@@ -1,4 +1,5 @@
-# Cache der Pool-PDFs von iqb-quellen.py; die Dateien werden bei Bedarf neu geholt
+# Cache der Pool-PDFs von iqb-quellen.py liegt seit 27.09.2026 standardmäßig unter hefte/iqb/ (unten, mit hefte/);
+# der alte Standardordner bleibt ausgeschlossen, falls ein älterer Aufruf ihn noch anlegt
 iqb-pdf/
 __pycache__/
 # Gescannte Prüfungshefte (Stark u. a.): urheberrechtlich geschützt, bleiben lokal

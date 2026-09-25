@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """iqb-quellen.py – erzeugt iqb-quellen.csv aus der Übersichtsseite des IQB.
-Version 0.5 · 17.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
+Version 0.6 · 27.09.2026 · gehört zum Profil iqb (iqb-quellen.md § 4)
+Änderungen gegenüber 0.5 (Auftrag Nacht 2026-09-27, Teil 6): Standard-Cache hefte/iqb/ statt ./iqb-pdf; --help.
 Änderungen gegenüber 0.4 (Auftrag E, Punkt 4): Spalte dublette_von heißt dateidublette_von; nur der Name.
 Änderungen gegenüber 0.3: DUBLETTEN_HAND auch für rein redaktionelle
 Abweichungen (2026-ea-B Stochastik MMS 1 = WTR 1: ein Artikel), iqb.md § 7.
@@ -24,7 +25,9 @@ Ablauf:
   4. iqb-quellen.csv schreiben. Kennungen dürfen nur hinzukommen; fehlt eine
      bisherige, bricht das Skript ab.
 
-Aufruf: python iqb-quellen.py [CACHE-ORDNER]   (Standard: ./iqb-pdf, wird angelegt)
+Aufruf: python iqb-quellen.py [CACHE-ORDNER]   (Standard: hefte/iqb/ in der Repo-Wurzel, unabhängig vom
+Arbeitsordner, wird angelegt; bis 27.09.2026 war es ./iqb-pdf, der Cache lag aber schon seit Auftrag N unter
+hefte/iqb/). --help zeigt nur den Aufruf und holt nichts.
 Braucht pypdf.
 """
 import csv, io, os, re, sys, urllib.request, collections, difflib
@@ -236,8 +239,15 @@ def abschnitte(seiten):
     return tuple(teile)
 
 
+STANDARD_CACHE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "hefte", "iqb")
+
+
 def main():
-    cache = sys.argv[1] if len(sys.argv) > 1 else "iqb-pdf"
+    if len(sys.argv) > 1 and sys.argv[1] in ("-h", "--help"):
+        print(__doc__.strip().split("\n\n")[0])
+        print(f"\nAufruf: python iqb-quellen.py [CACHE-ORDNER]\nStandard-Cache: {STANDARD_CACHE} (hefte/iqb/ im Repo, lokal)")
+        return
+    cache = sys.argv[1] if len(sys.argv) > 1 else STANDARD_CACHE
     rows = [zerlege(k) for k in kennungen()]
     for r in rows:
         r.setdefault("seiten", ""); r.setdefault("dateidublette_von", "")
