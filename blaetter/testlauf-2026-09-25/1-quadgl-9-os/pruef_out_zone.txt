@@ -1,0 +1,64 @@
+Z1a      Skript: 25                               Blatt: 25                               OK
+Z1b      Skript: 81                               Blatt: 81                               OK
+Z1c      Skript: 64                               Blatt: 64                               OK
+Z1d      Skript: 0.1600                           Blatt: 0.16                             OK
+Z1e      Skript: 6.2500                           Blatt: 6.25                             OK
+Z1f      Skript: 12                               Blatt: 12                               OK
+Z1g      Skript: -6                               Blatt: -6                               OK
+Z2a      Skript: 18                               Blatt: 18                               OK
+Z2b      Skript: 12                               Blatt: 12                               OK
+Z2c      Skript: -15                              Blatt: -15                              OK
+Z2d      Skript: 24                               Blatt: 24                               OK
+Z2e      Skript: -4                               Blatt: -4                               OK
+Z2f      Skript: 0                                Blatt: 0                                OK
+Z3a      Skript: [9]                              Blatt: 9                                OK
+Z3b      Skript: [7]                              Blatt: 7                                OK
+Z3c      Skript: [-8]                             Blatt: -8                               OK
+Z3d      Skript: [-7]                             Blatt: -7                               OK
+Z3e      Skript: [-5]                             Blatt: -5                               OK
+Z3f      Skript: [4]                              Blatt: 4                                OK
+Z4a      Skript: True                             Blatt: True                             OK
+Z4b      Skript: False                            Blatt: False                            OK
+Z4c      Skript: True                             Blatt: True                             OK
+Z4d      Skript: True                             Blatt: True                             OK
+Z4e      Skript: False                            Blatt: False                            OK
+Z5a      Skript: 9.0                              Blatt: 9                                OK
+Z5b      Skript: 12.0                             Blatt: 12                               OK
+Z5c      Skript: 0.5                              Blatt: 0.5                              OK
+Z5d      Skript: 2.65                             Blatt: 2.65                             OK
+Z5e      Skript: 0.0                              Blatt: 0                                OK
+Z5f      Skript: None                             Blatt: None                             OK
+Z6a S    Skript: [2, 1]                           Blatt: [2, 1]                           OK
+Z6a Öff  Skript: oben                             Blatt: oben                             OK
+Z6a Anz  Skript: 0                                Blatt: 0                                OK
+Z6b S    Skript: [4, -3]                          Blatt: [4, -3]                          OK
+Z6b Öff  Skript: oben                             Blatt: oben                             OK
+Z6b Anz  Skript: 2                                Blatt: 2                                OK
+Z6c S    Skript: [-1, -2]                         Blatt: [-1, -2]                         OK
+Z6c Öff  Skript: oben                             Blatt: oben                             OK
+Z6c Anz  Skript: 2                                Blatt: 2                                OK
+Z6d S    Skript: [3, 4]                           Blatt: [3, 4]                           OK
+Z6d Öff  Skript: unten                            Blatt: unten                            OK
+Z6d Anz  Skript: 2                                Blatt: 2                                OK
+Z6e S    Skript: [-2, 0]                          Blatt: [-2, 0]                          OK
+Z6e Öff  Skript: oben                             Blatt: oben                             OK
+Z6e Anz  Skript: 1                                Blatt: 1                                OK
+Z6f S    Skript: [-1, -5]                         Blatt: [-1, -5]                         OK
+Z6f Öff  Skript: unten                            Blatt: unten                            OK
+Z6f Anz  Skript: 0                                Blatt: 0                                OK
+Z7a      Skript: x**2 + 3*x + 2                   Blatt: x**2 + 3*x + 2                   OK
+Z7b      Skript: x**2 - 4*x + 5                   Blatt: x**2 - 4*x + 5                   OK
+Z7c      Skript: x**2 + 5*x - 7                   Blatt: x**2 + 5*x - 7                   OK
+Z7d      Skript: x**2 + x + 5                     Blatt: x**2 + x + 5                     OK
+Z7e      Skript: -x**2 + 2*x + 4                  Blatt: -x**2 + 2*x + 4                  OK
+Z8a      Skript: x**2 + 4*x                       Blatt: x**2 + 4*x                       OK
+Z8b      Skript: x**2 + 7*x + 10                  Blatt: x**2 + 7*x + 10                  OK
+Z8c      Skript: x**2 + 3*x - 18                  Blatt: x**2 + 3*x - 18                  OK
+Z8d      Skript: x**2 + 10*x + 25                 Blatt: x**2 + 10*x + 25                 OK
+Z8e      Skript: x**2 - 6*x + 9                   Blatt: x**2 - 6*x + 9                   OK
+Z8f      Skript: x**2 + 9*x                       Blatt: x**2 + 9*x                       OK
+Z8g      Skript: x**2 - 2*x                       Blatt: x**2 - 2*x                       OK
+Z9a      Skript: x**2 + 18*x + 81                 Blatt: x**2 + 18*x + 81                 OK
+Z9b      Skript: x**2 - 16*x + 64                 Blatt: x**2 - 16*x + 64                 OK
+Z9a Feh  Skript: 18*x                             Blatt: 18*x                             OK
+Abweichungen: 0

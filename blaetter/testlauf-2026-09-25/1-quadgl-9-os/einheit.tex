@@ -1,0 +1,13 @@
+% Prüfrahmen je Einheit (5.1 c): xelatex -jobname=e<n>_pruef "\def\E{<n>}\input{einheit.tex}"
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% im Vorspann ergänzt: zweite Zeile des Einheitenkopfs (Zweigzeile)
+\newcommand{\zweigzeile}[1]{{\small #1\par}\medskip}
+\begin{document}
+\blattkopf{Quadratische Gleichungen}{Einheit \E}
+\weit
+\input{e\E_a}
+\clearpage
+\input{e\E_l}
+\end{document}

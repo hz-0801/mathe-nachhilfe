@@ -1,0 +1,154 @@
+11a      Skript: Formel                           Blatt: Formel                           OK
+11b      Skript: Wurzel                           Blatt: Wurzel                           OK
+11c      Skript: Rueckwaerts                      Blatt: Rueckwaerts                      OK
+11d      Skript: Wurzel                           Blatt: Wurzel                           OK
+11e      Skript: Formel                           Blatt: Formel                           OK
+12a      Skript: [7, 10]                          Blatt: [7, 10]                          OK
+12b      Skript: [-3, 2]                          Blatt: [-3, 2]                          OK
+12c      Skript: [4, -7]                          Blatt: [4, -7]                          OK
+12d      Skript: [-1, -12]                        Blatt: [-1, -12]                        OK
+12e      Skript: [-11, 0]                         Blatt: [-11, 0]                         OK
+13a      Skript: 1                                Blatt: 1                                OK
+13b      Skript: 2                                Blatt: 2                                OK
+13c      Skript: 5                                Blatt: 5                                OK
+13d      Skript: -1                               Blatt: -1                               OK
+13e      Skript: 0.5000                           Blatt: 0.5                              OK
+14 Bsp -p/2 Skript: -1                               Blatt: -1                               OK
+14 Bsp D Skript: 9                                Blatt: 9                                OK
+14 Bsp   Skript: [-4.0, 2.0]                      Blatt: [2, -4]                          OK
+14 Bsp   Kasten/Original: x^2+2x-8=0                               OK
+14a -p/2 Skript: -3                               Blatt: -3                               OK
+14a D    Skript: 1                                Blatt: 1                                OK
+14a      Skript: [-4.0, -2.0]                     Blatt: [-2, -4]                         OK
+14a      Kasten/Original: x^2+6x+8=0                               OK
+14b -p/2 Skript: -5                               Blatt: -5                               OK
+14b D    Skript: 16                               Blatt: 16                               OK
+14b      Skript: [-9.0, -1.0]                     Blatt: [-1, -9]                         OK
+14b      Kasten/Original: x^2+10x+9=0                              OK
+14c -p/2 Skript: -3                               Blatt: -3                               OK
+14c D    Skript: 4                                Blatt: 4                                OK
+14c      Skript: [-5.0, -1.0]                     Blatt: [-1, -5]                         OK
+14c      Kasten/Original: x^2+6x+5=0                               OK
+14d -p/2 Skript: -5                               Blatt: -5                               OK
+14d D    Skript: 9                                Blatt: 9                                OK
+14d      Skript: [-8.0, -2.0]                     Blatt: [-2, -8]                         OK
+14d      Kasten/Original: x^2+10x+16=0                             OK
+14e -p/2 Skript: 3                                Blatt: 3                                OK
+14e D    Skript: 1                                Blatt: 1                                OK
+14e      Skript: [2.0, 4.0]                       Blatt: [4, 2]                           OK
+14e      Kasten/Original: x^2-6x+8=0                               OK
+14f -p/2 Skript: -1                               Blatt: -1                               OK
+14f D    Skript: 25                               Blatt: 25                               OK
+14f      Skript: [-6.0, 4.0]                      Blatt: [4, -6]                          OK
+14f      Kasten/Original: x^2+2x-24=0                              OK
+15 Bsp -p/2 Skript: -3                               Blatt: -3                               OK
+15 Bsp D Skript: 25                               Blatt: 25                               OK
+15 Bsp   Skript: [-8.0, 2.0]                      Blatt: [2, -8]                          OK
+15 Bsp   Kasten/Original: 2x^2+12x=32                              OK
+15a -p/2 Skript: 2                                Blatt: 2                                OK
+15a D    Skript: 9                                Blatt: 9                                OK
+15a      Skript: [-1.0, 5.0]                      Blatt: [5, -1]                          OK
+15a      Kasten/Original: x^2-4x=5                                 OK
+15b -p/2 Skript: -2                               Blatt: -2                               OK
+15b D    Skript: 16                               Blatt: 16                               OK
+15b      Skript: [-6.0, 2.0]                      Blatt: [2, -6]                          OK
+15b      Kasten/Original: x^2+5x=x+12                              OK
+15c -p/2 Skript: 2                                Blatt: 2                                OK
+15c D    Skript: 1                                Blatt: 1                                OK
+15c      Skript: [1.0, 3.0]                       Blatt: [3, 1]                           OK
+15c      Kasten/Original: 5x^2-20x+15=0                            OK
+15d -p/2 Skript: 4                                Blatt: 4                                OK
+15d D    Skript: 4                                Blatt: 4                                OK
+15d      Skript: [2.0, 6.0]                       Blatt: [6, 2]                           OK
+15d      Kasten/Original: -x^2+8x-12=0                             OK
+16a -p/2 Skript: -3/2                             Blatt: -1.5                             OK
+16a D    Skript: 49/4                             Blatt: 12.25                            OK
+16a      Skript: [-5.0, 2.0]                      Blatt: [2, -5]                          OK
+16a      Kasten/Original: x^2+3x-10=0                              OK
+16b -p/2 Skript: 5                                Blatt: 5                                OK
+16b D    Skript: 0                                Blatt: 0                                OK
+16b      Skript: [5.0]                            Blatt: [5]                              OK
+16b      Kasten/Original: x^2-10x+25=0                             OK
+16c -p/2 Skript: -2                               Blatt: -2                               OK
+16c D    Skript: -3                               Blatt: -3                               OK
+16c      Skript: []                               Blatt: []                               OK
+16c      Kasten/Original: x^2+4x+7=0                               OK
+16d -p/2 Skript: -5/2                             Blatt: -2.5                             OK
+16d D    Skript: 13/4                             Blatt: 3.25                             OK
+16d      Kasten/Original: x^2+5x+3=0                               OK
+16e -p/2 Skript: 2                                Blatt: 2                                OK
+16e D    Skript: 3                                Blatt: 3                                OK
+16e      Skript: [0.27, 3.73]                     Blatt: [3.73, 0.27]                     OK
+16e      Kasten/Original: x^2-4x+1=0                               OK
+16f -p/2 Skript: -1                               Blatt: -1                               OK
+16f D    Skript: 36                               Blatt: 36                               OK
+16f      Skript: [-7.0, 5.0]                      Blatt: [5, -7]                          OK
+16f      Kasten/Original: x^2+2x-35=0                              OK
+17a -p/2 Skript: 1/2                              Blatt: 0.5                              OK
+17a D    Skript: 25/4                             Blatt: 6.25                             OK
+17a      Skript: [-2.0, 3.0]                      Blatt: [3, -2]                          OK
+17a      Kasten/Original: (x+1)^2=3x+7                             OK
+17b -p/2 Skript: -2                               Blatt: -2                               OK
+17b D    Skript: 25                               Blatt: 25                               OK
+17b      Skript: [-7.0, 3.0]                      Blatt: [3, -7]                          OK
+17b      Kasten/Original: x*(x+4)=21                               OK
+17e -p/2 Skript: 3                                Blatt: 3                                OK
+17e D    Skript: 4                                Blatt: 4                                OK
+17e      Skript: [1.0, 5.0]                       Blatt: [5, 1]                           OK
+17e      Kasten/Original: 2x^2-12x+10=0                            OK
+18b -p/2 Skript: -1/2                             Blatt: -0.5                             OK
+18b D    Skript: 25/4                             Blatt: 6.25                             OK
+18b      Skript: [-3.0, 2.0]                      Blatt: [2, -3]                          OK
+18b      Kasten/Original: x^2-5=-x+1                               OK
+18c -p/2 Skript: 3/2                              Blatt: 1.5                              OK
+18c D    Skript: 25/4                             Blatt: 6.25                             OK
+18c      Skript: [-1.0, 4.0]                      Blatt: [4, -1]                          OK
+18c      Kasten/Original: (x-1)^2-3=x+2                            OK
+19a -p/2 Skript: 5/2                              Blatt: 2.5                              OK
+19a D    Skript: 1/4                              Blatt: 0.25                             OK
+19a      Skript: [2.0, 3.0]                       Blatt: [3, 2]                           OK
+19a      Kasten/Original: 2x^2-10x+12=0                            OK
+19b -p/2 Skript: -1                               Blatt: -1                               OK
+19b D    Skript: 4                                Blatt: 4                                OK
+19b      Skript: [-3.0, 1.0]                      Blatt: [1, -3]                          OK
+19b      Kasten/Original: 5x^2+10x-15=0                            OK
+19c -p/2 Skript: 5                                Blatt: 5                                OK
+19c D    Skript: 9                                Blatt: 9                                OK
+19c      Skript: [2.0, 8.0]                       Blatt: [8, 2]                           OK
+19c      Kasten/Original: x^2-10x+16=0                             OK
+19d -p/2 Skript: 7                                Blatt: 7                                OK
+19d D    Skript: 9                                Blatt: 9                                OK
+19d      Skript: [4.0, 10.0]                      Blatt: [10, 4]                          OK
+19d      Kasten/Original: x^2-14x+40=0                             OK
+16d Anz  Skript: 2                                Blatt: 2                                OK
+16f Probe Skript: 0                                Blatt: 0                                OK
+17c      Skript: [-5, 5]                          Blatt: [5, -5]                          OK
+17c      Kasten/Original: 2x^2-50=0                                OK
+17d      Skript: [-3, 5]                          Blatt: [5, -3]                          OK
+17d      Kasten/Original: (x-1)^2=16                               OK
+17e normiert Skript: [-6, 5]                          Blatt: [-6, 5]                          OK
+18a/b y  Skript: [4, -1]                          Blatt: [4, -1]                          OK
+18c y    Skript: [1, 6]                           Blatt: [1, 6]                           OK
+18c f=g  Skript: [1, 6]                           Blatt: [1, 6]                           OK
+19a falsch Skript: 8.61                             Blatt: 8.61                             OK
+20a D    Skript: -4                               Blatt: -4                               OK
+20b normiert Skript: [2, -1]                          Blatt: [2, -1]                          OK
+20c D    Skript: 0                                Blatt: 0                                OK
+20c L    Skript: [3]                              Blatt: [3]                              OK
+20a      Kasten/Original: x^2+2x+5=0                               OK
+20b      Kasten/Original: 4x^2+8x-4=0                              OK
+20c      Kasten/Original: x^2-6x+9=0                               OK
+11a      Kasten/Original: x^2-5x+4=0                               OK
+11c      Kasten/Original: (x+2)^2=11                               OK
+11e      Kasten/Original: 2x^2+3x-1=0                              OK
+12a      Kasten/Original: x^2+7x+10=0                              OK
+12b      Kasten/Original: x^2-3x+2=0                               OK
+12d      Kasten/Original: x^2-x-12=0                               OK
+13a      Kasten/Original: x^2+3x-4=0                               OK
+13b      Kasten/Original: 2x^2+6x-8=0                              OK
+13d      Kasten/Original: -x^2+4x+5=0                              OK
+13e      Kasten/Original: 0.5x^2+x-3=0                             OK
+21a      Skript: v**2 + 30*v - 4000               Blatt: v**2 + 30*v - 4000               OK
+21b      Skript: [-80, 50]                        Blatt: [-80, 50]                        OK
+21c      Skript: 20                               Blatt: 20                               OK
+Abweichungen: 0

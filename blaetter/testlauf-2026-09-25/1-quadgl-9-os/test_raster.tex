@@ -1,0 +1,20 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\begin{document}
+\weit
+D: Leerzeile mit Strut nach jeder Reihe
+\begin{gleichungsraster}[1]
+\gl{x^2 = 4} & \gl{x^2 = 81} \\
+\rule{0pt}{2mm} & \\
+\gl{x^2 = 1} & \gl{x^2 = 100} \\
+\rule{0pt}{2mm} & \\
+\end{gleichungsraster}
+Text danach D.
+
+E: Box mit Tiefe am Zellende
+\begin{gleichungsraster}[1]
+\gl{x^2 = 4}\par\rule[-4mm]{0pt}{0pt} & \gl{x^2 = 81} \\
+\gl{x^2 = 1}\par\rule[-4mm]{0pt}{0pt} & \gl{x^2 = 100} \\
+\end{gleichungsraster}
+Text danach E.
+\end{document}

@@ -1,0 +1,27 @@
+Eingabe des Lehrers:
+quadratische gleichungen 9 oberschule
+
+Deutungszeile und Plan:
+→ Lernblatt · mit Wiederholung und Ausblick (das Register der Blätter führt das Thema nicht, nur das Blatt „nullstellen“) · 3 Zweige, 1 Ausblick (Satz vom Nullprodukt: Oberschule erst Kl. 10) · Zone aus 8 Fertigkeiten
+Einheit 1 · Wurzelziehen und Lösbarkeit – Hier lernst du, Gleichungen mit x² durch Wurzelziehen zu lösen und zu sagen, wie viele Lösungen sie haben · neu in diesem Jahr, je nach Buch erst Klasse 10 (am Gymnasium je nach Buch schon seit Klasse 8) · P10 · baut auf: Quadrieren, Quadratwurzeln, lineare Gleichungen, Einsetzen, Scheitelpunktform
+Einheit 2 · Normalform und p-q-Formel – Hier lernst du, eine quadratische Gleichung zu ordnen, zu normieren und mit der p-q-Formel zu lösen · neu in diesem Jahr, je nach Buch erst Klasse 10 · P10 oft · baut auf: Wurzelziehen und Lösbarkeit (Einheit 1), Terme ordnen, Ausmultiplizieren und binomische Formeln
+Einheit 3 · Sachaufgaben – Hier lernst du, zu einer Sachaufgabe eine quadratische Gleichung aufzustellen, sie zu lösen und die passende Lösung auszuwählen · neu in diesem Jahr, je nach Buch erst Klasse 10 · keine P10-Aufgabe · baut auf: Wurzelziehen und Lösbarkeit (Einheit 1), Normalform und p-q-Formel (Einheit 2), Gleichungen aufstellen
+Ausblick: Einheit 4 · Satz vom Nullprodukt – Hier lernst du, Gleichungen, bei denen ein Produkt null ist, ohne Formel zu lösen · kommt nächstes Jahr (am Gymnasium je nach Buch schon seit Klasse 8) · P10 · baut auf: Normalform und p-q-Formel (Einheit 2), Ausmultiplizieren und Ausklammern, Einsetzen
+
+Planfrage: Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort: alle
+
+Nach der Zone:
+QuadratischeGlg_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen.
+
+Übergebene Dateien:
+QuadratischeGlg_KennstDuSchon.pdf
+QuadratischeGlg_Lernblatt.pdf
+QuadratischeGlg_Gesamt.pdf
+QuadratischeGlg_Loesungen.pdf
+
+Ausgabeblock:
+1. Ausblick-Zweig Satz vom Nullprodukt (Katalog-Einheit 2, Oberschule Kl. 10) steht zuletzt; darum fehlt das Nullprodukt in der Vorstufe „Welche Form?“ (Nr. 11) und in „Lösungsweg wählen“ (Nr. 17), Produkt gleich Zahl läuft in Nr. 17b über die Formel · Zone eigens gezählt (Z1–Z9), Lernblatt ab Nr. 1 · geteilte Hauptnummern: 14/16 (p-q-Formel – weiter), 24/25 (Rechteckaufgabe – weiter) · Zwischensprossen: Nr. 4d Minus vor x², Nr. 8b Gleichung mit genau einer Lösung angeben, Nr. 14e/f „p negativ“ und „q negativ“ getrennt · Höhe nach Lehrwerk: Einheit 3 (keine P10-Aufgabe), Nr. 25b · im Vorspann definiert: \zweigzeile, \abhakkopf/\abhak (Abhakseite), \vzeile (Verzeichniszeile mit Link) · Vorlage: gleichungsraster setzt die letzte Schreibzeile einer Reihe auf die nächste Zeile, \\[3mm] wirkt nicht; im Aufruf mit einer Leerzeile (\rule{0pt}{2mm} & \\) nach jeder Reihe ausgeglichen, die Zone ist danach neu gesetzt · Nullfall x² = 0 aus Kasten 1 nur als 5x² = 0 und 3x² + 5 = 5.
+2. Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen (Fertigkeiten, Erkennungsschritte), Sprossen, Typische Fehler, Prüfungsform/Zielmarke; Merkkasten nur als Sperrliste, Verortung und Grundvorstellung nicht gebraucht · gefehlt/Konflikt: Typklammer p-q-Formel [OS 10] gegen die Einheitenmarke OS 9–10 (gesetzt als „kommt je nach Buch erst nächstes Jahr“ an Nr. 14); Vorstufe „Welche Form?“ und Typ „Lösungsweg wählen“ der Einheit 3 setzen Einheit 2 voraus, die an der Oberschule erst Kl. 10 kommt; Kasten 1 sperrt x² = 0, das der Nullfall braucht · Spannen: Einheiten 1, 3, 4 „OS Kl. 9–10“ bei Eingabeklasse 9 = frühe Grenze → „neu in diesem Jahr, je nach Buch erst Klasse 10“ (die Formel „neu oder schon bekannt“ passt an der frühen Grenze nicht); GYM 8–9 der Einheiten 1 und 2 → „am Gymnasium je nach Buch schon seit Klasse 8“; „nicht für alle“ ohne Wirkung, weil es keine frühere Klasse nennt.
+4. Protokoll-Archiv: QuadratischeGlg_2026-09-25_protokoll.zip

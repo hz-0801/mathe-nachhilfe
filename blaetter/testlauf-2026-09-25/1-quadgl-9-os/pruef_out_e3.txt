@@ -1,0 +1,53 @@
+22a      Skript: x1                               Blatt: x1                               OK
+22b      Skript: x2                               Blatt: x2                               OK
+22c      Skript: beide                            Blatt: beide                            OK
+22d      Skript: x1                               Blatt: x1                               OK
+22e      Skript: beide                            Blatt: beide                            OK
+23 Bsp   Skript: [-12, 12]                        Blatt: [12, -12]                        OK
+23 Bsp   Kasten/Original: x^2=144                                  OK
+23a      Skript: [-15, 15]                        Blatt: [15, -15]                        OK
+23a      Kasten/Original: x^2=225                                  OK
+23b      Skript: [-30, 30]                        Blatt: [30, -30]                        OK
+23b      Kasten/Original: x^2=900                                  OK
+23c      Skript: [-5, 5]                          Blatt: [5, -5]                          OK
+23c      Kasten/Original: 2x^2=50                                  OK
+23d      Skript: [-8, 8]                          Blatt: [8, -8]                          OK
+23d      Kasten/Original: x^2+7=71                                 OK
+23e      Skript: [-10, 10]                        Blatt: [10, -10]                        OK
+23e      Kasten/Original: x^2-19=81                                OK
+23f      Skript: [-9, 8]                          Blatt: [8, -9]                          OK
+23f      Kasten/Original: x*(x+1)=72                               OK
+24 Bsp   Skript: [-8, 5]                          Blatt: [5, -8]                          OK
+24 Bsp   Kasten/Original: x*(x+3)=40                               OK
+24b      Skript: [-8, 6]                          Blatt: [6, -8]                          OK
+24b      Kasten/Original: x*(x+2)=48                               OK
+25a      Skript: [-31, 19]                        Blatt: [19, -31]                        OK
+25a      Kasten/Original: (x+6)^2=625                              OK
+25b      Skript: [-13, 6]                         Blatt: [6, -13]                         OK
+25b      Kasten/Original: (x+1)*(x+6)=84                           OK
+26a      Skript: [-9, 5]                          Blatt: [5, -9]                          OK
+26a      Kasten/Original: x*(x+4)=45                               OK
+26b      Skript: [-7, 2]                          Blatt: [2, -7]                          OK
+26b      Kasten/Original: x*(x+5)=14                               OK
+26c      Skript: [-9, 6]                          Blatt: [6, -9]                          OK
+26c      Kasten/Original: x*(x+3)=54                               OK
+26d      Skript: [-6, 5]                          Blatt: [5, -6]                          OK
+26d      Kasten/Original: x*(x+1)=30                               OK
+27       Skript: [-8, 4]                          Blatt: [4, -8]                          OK
+27       Kasten/Original: x^2+4x=32                                OK
+23f Nachfolger Skript: [-8, 9]                          Blatt: [-8, 9]                          OK
+24 Bsp Seiten Skript: [5, 8]                           Blatt: [5, 8]                           OK
+24d Seiten Skript: [6, 8]                           Blatt: [6, 8]                           OK
+25b Seiten Skript: [6, 11]                          Blatt: [6, 11]                          OK
+26a Seiten Skript: [5, 9]                           Blatt: [5, 9]                           OK
+26b Seiten Skript: [2, 7]                           Blatt: [2, 7]                           OK
+26c Seiten Skript: [6, 9]                           Blatt: [6, 9]                           OK
+26d Seiten Skript: [5, 6]                           Blatt: [5, 6]                           OK
+27b Seiten Skript: [4, 8]                           Blatt: [4, 8]                           OK
+24 Bsp -p/2 D Skript: [-3/2, 169/4]                    Blatt: [-1.5, 42.25]                    OK
+24e Probe Skript: 48                               Blatt: 48                               OK
+25a      Skript: 19                               Blatt: 19                               OK
+25b -p/2 D Skript: [-7/2, 361/4]                    Blatt: [-3.5, 90.25]                    OK
+26c Umfang falsch Skript: [12]                             Blatt: [12]                             OK
+27a      Skript: [True, True]                     Blatt: [True, True]                     OK
+Abweichungen: 0

@@ -1,0 +1,61 @@
+28a      Skript: null                             Blatt: null                             OK
+28a      Kasten/Original: x*(x+4)=0                                OK
+28b      Skript: andere                           Blatt: andere                           OK
+28b      Kasten/Original: (x-2)*(x+5)=12                           OK
+28c      Skript: null                             Blatt: null                             OK
+28c      Kasten/Original: (x+1)*(x-6)=0                            OK
+28d      Skript: andere                           Blatt: andere                           OK
+28d      Kasten/Original: x*(x-3)=10                               OK
+28e      Skript: null                             Blatt: null                             OK
+28e      Kasten/Original: 3x*(x+2)=0                               OK
+29 Bsp   Skript: [2, 5]                           Blatt: [2, 5]                           OK
+29 Bsp   Kasten/Original: (x-2)*(x-5)=0                            OK
+29a      Skript: [1, 4]                           Blatt: [1, 4]                           OK
+29a      Kasten/Original: (x-1)*(x-4)=0                            OK
+29b      Skript: [3, 6]                           Blatt: [3, 6]                           OK
+29b      Kasten/Original: (x-3)*(x-6)=0                            OK
+29c      Skript: [2, 7]                           Blatt: [2, 7]                           OK
+29c      Kasten/Original: (x-2)*(x-7)=0                            OK
+29d      Skript: [5, 8]                           Blatt: [5, 8]                           OK
+29d      Kasten/Original: (x-5)*(x-8)=0                            OK
+29e      Skript: [-3, 1]                          Blatt: [-3, 1]                          OK
+29e      Kasten/Original: (x+3)*(x-1)=0                            OK
+29f      Skript: [-6, 0]                          Blatt: [0, -6]                          OK
+29f      Kasten/Original: x*(x+6)=0                                OK
+29g      Skript: [-2]                             Blatt: [-2]                             OK
+29g      Kasten/Original: (x+2)*(x+2)=0                            OK
+30 Bsp   Skript: [0, 5]                           Blatt: [0, 5]                           OK
+30 Bsp   Kasten/Original: x^2-5x=0                                 OK
+30a      Skript: [-3, 0]                          Blatt: [0, -3]                          OK
+30a      Kasten/Original: x^2+3x=0                                 OK
+30b      Skript: [0, 6]                           Blatt: [0, 6]                           OK
+30b      Kasten/Original: x^2-6x=0                                 OK
+30c      Skript: [-5, 0]                          Blatt: [0, -5]                          OK
+30c      Kasten/Original: 2x^2+10x=0                               OK
+30d      Skript: [-7, 4]                          Blatt: [4, -7]                          OK
+30d      Kasten/Original: x*(x+3)=28                               OK
+30e      Skript: [4, 5]                           Blatt: [4, 5]                           OK
+30e      Kasten/Original: x^2-9x+20=0                              OK
+31a      Skript: [0, 4]                           Blatt: [0, 4]                           OK
+31a      Kasten/Original: x^2=4x                                   OK
+31b      Skript: [0, 9]                           Blatt: [0, 9]                           OK
+31b      Kasten/Original: x^2=9x                                   OK
+31c      Skript: [-2, 6]                          Blatt: [6, -2]                          OK
+31c      Kasten/Original: x*(x-4)=12                               OK
+31d      Skript: [-3, 6]                          Blatt: [6, -3]                          OK
+31d      Kasten/Original: x*(x-3)=18                               OK
+32b      Skript: [0, 11]                          Blatt: [0, 11]                          OK
+32b      Kasten/Original: x^2=11x                                  OK
+29h      Skript: True                             Blatt: True                             OK
+29h Wert Skript: -10                              Blatt: -10                              OK
+30d -p/2 D Skript: [-3/2, 121/4]                    Blatt: [-1.5, 30.25]                    OK
+30e Faktor Skript: x**2 - 9*x + 20                  Blatt: x**2 - 9*x + 20                  OK
+30f      Skript: [-3]                             Blatt: [-3]                             OK
+30f      Kasten/Original: x*(x+7)=-12                              OK
+31c falsch Skript: [12, 16]                         Blatt: [12, 16]                         OK
+31c -p/2 D Skript: [2, 16]                          Blatt: [2, 16]                          OK
+31d -p/2 D Skript: [3/2, 81/4]                      Blatt: [1.5, 20.25]                     OK
+32a      Skript: 0                                Blatt: 0                                OK
+33b      Skript: [0, 3]                           Blatt: [0, 3]                           OK
+33b Faktor Skript: -5*t**2 + 15*t                   Blatt: -5*t**2 + 15*t                   OK
+Abweichungen: 0

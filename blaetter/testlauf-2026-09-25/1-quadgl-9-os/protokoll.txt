@@ -1,0 +1,207 @@
+Prompt: Unterrichtsblatt-Prompt v4.3
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: 2026-09-22h
+Katalog: quadratische-gleichungen.md, Status: gegengelesen bis auf [FS] (2026-09-11h, dreizehnter Gegenlese-Block; Entwurf 2026-09-08i, LISUM-Planungshilfen am 10e nachgetragen)
+Bestellung: mit Wiederholung · mit Ausblick
+Standpunkt: Kl. 9, Oberschule
+
+Zweige (gebaut, keiner abgewählt, einer als Ausblick):
+  Einheit 1 · Wurzelziehen und Lösbarkeit – Hier lernst du, Gleichungen mit x² durch Wurzelziehen zu lösen und zu sagen, wie viele Lösungen sie haben · neu in diesem Jahr, je nach Buch erst Klasse 10 (am Gymnasium je nach Buch schon seit Klasse 8) · P10 · baut auf: Quadrieren, Quadratwurzeln, lineare Gleichungen, Einsetzen, Scheitelpunktform
+  Einheit 2 · Normalform und p-q-Formel – Hier lernst du, eine quadratische Gleichung zu ordnen, zu normieren und mit der p-q-Formel zu lösen · neu in diesem Jahr, je nach Buch erst Klasse 10 · P10 oft · baut auf: Wurzelziehen und Lösbarkeit (Einheit 1), Terme ordnen, Ausmultiplizieren und binomische Formeln
+  Einheit 3 · Sachaufgaben – Hier lernst du, zu einer Sachaufgabe eine quadratische Gleichung aufzustellen, sie zu lösen und die passende Lösung auszuwählen · neu in diesem Jahr, je nach Buch erst Klasse 10 · keine P10-Aufgabe · baut auf: Wurzelziehen und Lösbarkeit (Einheit 1), Normalform und p-q-Formel (Einheit 2), Gleichungen aufstellen
+  Ausblick: Einheit 4 · Satz vom Nullprodukt – Hier lernst du, Gleichungen, bei denen ein Produkt null ist, ohne Formel zu lösen · kommt nächstes Jahr (am Gymnasium je nach Buch schon seit Klasse 8) · P10 · baut auf: Normalform und p-q-Formel (Einheit 2), Ausmultiplizieren und Ausklammern, Einsetzen
+
+Hauptnummern je Zweig (Titel):
+  Das kennst du schon:
+    Z1. Ich kann Zahlen quadrieren, auch negative Zahlen und Dezimalzahlen.
+    Z2. Ich kann Klammern zuerst rechnen und Punkt vor Strich beachten, auch mit negativen Zahlen.
+    Z3. Ich kann eine lineare Gleichung durch Umformen lösen.
+    Z4. Ich kann durch Einsetzen prüfen, ob eine Zahl eine Gleichung löst.
+    Z5. Ich kann Quadratwurzeln ziehen und Näherungswerte runden.
+    Z6. Ich kann an der Scheitelpunktform den Scheitel, die Öffnung und die Zahl der Nullstellen ablesen.
+    Z7. Ich kann Terme ordnen und zusammenfassen.
+    Z8. Ich kann Klammern ausmultiplizieren, binomische Formeln anwenden und $x$ ausklammern.
+    Z9. Ich finde den Fehler beim Quadrieren einer Klammer.
+  Einheit 1 · Wurzelziehen und Lösbarkeit:
+    1. Ich erkenne, ob eine Gleichung quadratisch oder linear ist.
+    2. Ich erkenne, ob die rechte Seite positiv, null oder negativ ist.
+    3. Ich kann eine Gleichung der Form $x^2 = \text{Zahl}$ durch Wurzelziehen lösen.
+    4. Ich kann $x^2$ erst freistellen und dann die Wurzel ziehen.
+    5. Ich kann eine Gleichung mit quadrierter Klammer rückwärts lösen.
+    6. Ich kann durch Einsetzen prüfen, ob eine Zahl eine Lösung ist.
+    7. Ich kann am Graphen ablesen, wie viele Lösungen eine Gleichung hat.
+    8. Ich kann Gleichungen mit keiner, einer oder zwei Lösungen angeben und Aussagen dazu beurteilen.
+    9. Ich finde den Fehler beim Wurzelziehen.
+    10. Ich kann begründen, wie viele Lösungen eine Gleichung mit $x^2$ hat.
+  Einheit 2 · Normalform und p-q-Formel:
+    11. Ich erkenne an der Form einer Gleichung, welcher Lösungsweg passt.
+    12. Ich kann in der Normalform $x^2 + px + q = 0$ die Zahlen $p$ und $q$ mit Vorzeichen ablesen.
+    13. Ich erkenne, ob die Zahl vor $x^2$ eins ist oder ob ich vorher teilen muss.
+    14. Ich kann eine Gleichung in Normalform mit der p-q-Formel lösen.
+    15. Ich kann eine Gleichung erst in Normalform bringen und dann mit der p-q-Formel lösen.
+    16. Ich kann eine Gleichung in Normalform mit der p-q-Formel lösen – weiter.
+    17. Ich kann Klammern zuerst auflösen und den passenden Lösungsweg wählen.
+    18. Ich kann die Schnittpunkte einer Parabel mit einer Geraden berechnen.
+    19. Ich finde den Fehler beim Lösen mit der p-q-Formel.
+    20. Ich kann begründen, wann die p-q-Formel passt und wann es keine Lösung gibt.
+    21. Ich kann eine Sachfrage mit der p-q-Formel beantworten.
+  Einheit 3 · Sachaufgaben:
+    22. Ich erkenne, welche Lösung zur Frage passt.
+    23. Ich kann ein Zahlenrätsel mit einer quadratischen Gleichung lösen.
+    24. Ich kann eine Rechteckaufgabe mit einer quadratischen Gleichung lösen.
+    25. Ich kann eine Rechteckaufgabe mit einer quadratischen Gleichung lösen – weiter.
+    26. Ich finde den Fehler in einer Rechteckaufgabe.
+    27. Ich kann begründen, wann beide Lösungen passen und wann nur eine.
+  Ausblick Einheit 4 · Satz vom Nullprodukt:
+    28. Ich erkenne, ob bei einem Produkt rechts null steht.
+    29. Ich kann eine Gleichung lösen, bei der ein Produkt null ist.
+    30. Ich kann $x$ ausklammern und dann jeden Faktor null setzen.
+    31. Ich finde den Fehler beim Lösen einer Produktgleichung.
+    32. Ich kann begründen, warum ein Produkt null ist und warum man nicht durch $x$ teilen darf.
+    33. Ich kann mit dem Nullprodukt eine Frage zu einem Wurf beantworten.
+
+Zählung aus der Textextraktion (Grafiken aus dem Quelltext: ksys in Nr. 7 und 18, Rechteck-Skizze in Nr. 24):
+  QuadratischeGlg_KennstDuSchon.pdf: Hauptnummern 9, Teilaufgaben 50, Grafiken 0, Seiten 2
+  QuadratischeGlg_Lernblatt.pdf: Hauptnummern 33, Teilaufgaben 154, Grafiken 3, Seiten 20
+  QuadratischeGlg_Gesamt.pdf: Hauptnummern 42, Teilaufgaben 204, Grafiken 3, Seiten 22
+  QuadratischeGlg_Loesungen.pdf: Nummern mit Lösung 42, Seiten 3
+  Verzeichnis QuadratischeGlg_Lernblatt.pdf (5 Links):
+    Einheit 1 · Wurzelziehen und Lösbarkeit (Nr. 1–10) · Seiten 2–6
+    Einheit 2 · Normalform und p-q-Formel (Nr. 11–21) · Seiten 7–13
+    Einheit 3 · Sachaufgaben (Nr. 22–27) · Seiten 14–15
+    Ausblick Einheit 4 · Satz vom Nullprodukt (Nr. 28–33) · Seiten 16–18
+    Das kann ich · Seiten 19–20
+  Verzeichnis QuadratischeGlg_Gesamt.pdf (6 Links):
+    Kennst du schon (Nr. Z1–Z9) · Seiten 2–3
+    Einheit 1 · Wurzelziehen und Lösbarkeit (Nr. 1–10) · Seiten 4–8
+    Einheit 2 · Normalform und p-q-Formel (Nr. 11–21) · Seiten 9–15
+    Einheit 3 · Sachaufgaben (Nr. 22–27) · Seiten 16–17
+    Ausblick Einheit 4 · Satz vom Nullprodukt (Nr. 28–33) · Seiten 18–20
+    Das kann ich · Seiten 21–22
+
+Werkzeugaufrufe (Schritt · Anlass):
+  1 Arbeitsverzeichnis prüfen · vorhanden, leer
+  2 Stempel t0
+  3 Themenregister und Blätterregister holen · beide erreichbar
+  4 Register durchsuchen · Eintrag quadratische-gleichungen.md; Blatt „nullstellen“ nutzt ihn, Thema selbst nicht geführt
+  5 Blätterregister lesen · 4 Blätter
+  6 Registerzeile suchen · Datei bestätigt
+  7 Eintrag, mathblatt.sty, Anleitung holen · alle drei erreichbar, Vorlage 2026-09-22h
+  8 Eintrag lesen, Teil 1 · Struktur, Sprossen, Fehler (Datei ganz eingelesen; Status, Offene Punkte, Prüfliste nicht verwendet)
+  9 Eintrag lesen, Teil 2 · Prüfungsform, Zielmarken
+  10 Anleitung lesen · Makros
+  11 Vorlage nach Zählern durchsuchen · Zähler aufgabe für Z-Zählung der Zone
+  12 Vorlage Z. 60–310 gelesen · Umgebung aufgabe, Felder (Abweichung von 4.5 „nicht lesen“, nur zur Diagnose)
+  13 Vorlage Z. 1–60 gelesen · Versionszeile
+  14 zone_a.tex schreiben
+  15 zone_l.tex schreiben
+  16 zone.tex schreiben
+  17 pruef.py schreiben (Zone, Sperrliste aus Kasten/Beispiel/Original/Fehlern)
+  18 pruef.py: Import ergänzt
+  19 Zone prüfen, kompilieren, rendern · 0 Abweichungen; Stempel zone
+  20 Zone Seite 1 ansehen
+  21 Zone Seite 2 ansehen
+  22 Stempel weiter
+  23 e1_a.tex schreiben
+  24 e1_l.tex schreiben
+  25 pruef.py: x^2 = 0 aus Sperrliste (Nullfall unvermeidbar)
+  26 pruef.py: Einheit 1
+  27 einheit.tex (Prüfrahmen je Einheit) schreiben
+  28 E1 prüfen, kompilieren · „9d Kasten/Original: (x+1)^2=16 ABWEICHUNG Gleichung x^2 + 2x - 15 = 0“
+  29 E1 Seitenfüllung aus Textextraktion
+  30 E1 Seite 3 ansehen · Geradenlabels „y =“ abgeschnitten
+  31 E1 Seite 1 ansehen · gleichungsraster: Schreibzeile auf der Folgezeile, Nr. 3e Feld umbrochen
+  32 E1 Seite 2 ansehen · dasselbe bei Nr. 4, 5
+  33 E1 Seite 4 ansehen · dasselbe bei Nr. 9
+  34 Ausschnitt 150 dpi · Überlappung bestätigt
+  35 Rasterreihen mit \\[3mm] (Zone, E1)
+  36 Nr. 3e Feld in eigene Zeile
+  37 Nr. 7 xmax=6, Labels bei x = 4,2
+  38 Nr. 9d → (x+5)^2 = 4
+  39 Lösung 9d
+  40 pruef.py 9d
+  41 Aufruf abgewiesen (Remove-Item mit \input im Befehl)
+  42 E1 neu · 0 Abweichungen; \\[3mm] ohne Wirkung
+  43 E1 Seite 3 ansehen · Labels lesbar
+  44 E1 Seite 2 ansehen · Überlappung bleibt
+  45 test_raster.tex, Varianten A–C
+  46 Test kompilieren
+  47 Test ansehen · Überhang in allen drei Varianten
+  48 test_raster.tex, Varianten D–E
+  49 Test kompilieren
+  50 Test ansehen · Leerzeile mit Strut (D) behebt es
+  51 Leerzeile in Zone und E1, E1 neu · 5 Seiten, keine Warnung; Stempel e 1
+  52 E1 Seite 2 ansehen · Abstand in Ordnung
+  53 E1 Seite 4 ansehen · Grafik in Ordnung
+  54 e2_a.tex schreiben
+  55 Nr. 17: Original als \gl mit Raster
+  56 Nr. 18: b) und c) als \gl mit Raster
+  57 e2_l.tex schreiben
+  58 pruef.py: Einheit 2
+  59 E2 prüfen, kompilieren · „15 Bsp Kasten/Original: 3x^2-6x=9 ABWEICHUNG Gleichung (x-2)^2 - 4 = -2x + 3“, „12a … ABWEICHUNG Gleichung x(x+5) = -6“
+  60 E2 Seite 2 ansehen
+  61 E2 Seite 4 ansehen
+  62 E2 Seite 5 ansehen
+  63 E2 Seite 6 ansehen · Geradenlabel g im Text nicht erklärt
+  64 Beispiel Nr. 15 → 2x^2 + 12x = 32
+  65 Nr. 12a → x^2 + 7x + 10 = 0
+  66 Geradenlabel leer
+  67 Nr. 18c Funktionen g und h (f schon in Nr. 17)
+  68 Lösung 12a
+  69 pruef.py 12a
+  70 pruef.py Beispiel 15
+  71 pruef.py 12a Sperrliste
+  72 E2 neu · 0 Abweichungen; Stempel e 2
+  73 E2 Seite 7 ansehen
+  74 e3_a.tex schreiben
+  75 Nr. 24: Beispiel und Aufgabenrechteck getrennt
+  76 e3_l.tex schreiben
+  77 pruef.py: Einheit 3
+  78 pruef.py: Seitenlängen mit d aus dem Text
+  79 E3 prüfen, kompilieren · 0 Abweichungen
+  80 E3 Seite 1 ansehen · „oder − 12“: Minus nach Text als Rechenzeichen gesetzt
+  81 E3 Seite 2 ansehen · dasselbe bei −9 und −8
+  82 Minus als {-12}, {-9}, {-8}
+  83 E3 neu · Stempel e 3
+  84 Nr. 18c: h → k (h ist Zylinderhöhe in Nr. 4e)
+  85 Nr. 18a: A und B statt S (S ist der Scheitel)
+  86 Lösung 18
+  87 e4_a.tex schreiben
+  88 e4_l.tex schreiben
+  89 pruef.py: Einheit 4
+  90 E2 und E4 prüfen · 0 und 0 Abweichungen; Kompilieren in der Schleife: „I/O Error: Couldn't open file 'e4_pruef.pdf'“ (Jobname nicht ersetzt)
+  91 E2 und E4 kompilieren · keine Warnung
+  92 E4 Seite 2 ansehen
+  93 E2 Seite 6 ansehen · A(…|…), B(…|…) in Ordnung
+  94 E4 Seite 1 ansehen
+  95 Stempel e 4
+  96 rahmen.py schreiben (Abhakseite wortgleich aus den Quelltexten, Verzeichnis aus dem Kompilat)
+  97 rahmen.py: Zone nur im Gesamt suchen
+  98 lernblatt.tex schreiben
+  99 rahmen.py: Makronamen ohne Ziffern
+  100 lernblatt.tex: Makronamen
+  101 gesamt.tex schreiben
+  102 loesungen.tex schreiben
+  103 Abhakseite (42 Nummern) und Lernblatt · Gegenprobe Verzeichnis OK; Stempel lernblatt
+  104 Lernblatt Verzeichnis und Abhakseite rendern
+  105 Abhakseite ansehen
+  106 Gesamt · Gegenprobe OK, 6 Links; Stempel gesamt
+  107 Lösungen · 42 Nummern mit Lösung; Stempel loesungen
+  108 Lösungen Seite 1 ansehen · „3 = 4 (fA)“ als Gleichung gesetzt
+  109 ≠ in Z4 und Nr. 6; Lösungen und Zone-PDF neu
+  110 Zone-PDF ansehen
+  111 Zählung aus der Textextraktion
+  112 archiv.py schreiben
+  113 protokoll.txt, chat.txt, Archiv
+
+Vorlage: fehlende Bausteine · \zweigzeile (zweite Zeile des Einheitenkopfs), \abhakkopf und \abhak (Abhakseite), \vzeile (Verzeichniszeile mit Link); Befund gleichungsraster: Zeilentiefe ohne die letzte Schreibzeile (Überhang auf die Folgezeile, auch ohne \weit) · Warnungen aus dem Log: keine (keine Package mathblatt Warning, keine Overfull-Box)
+Korrekturrunden: 9 von 113 Schritten
+Zone: 713 s
+Weiter: 1790332262 (Stempel), 806 s nach t0
+E 1: 1162 s
+E 2: 1538 s
+E 3: 1724 s
+E 4: 1976 s
+Lernblatt: 2066 s
+Gesamt: 2110 s
+Lösungen: 2135 s

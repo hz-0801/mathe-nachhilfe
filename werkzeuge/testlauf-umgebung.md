@@ -7,9 +7,20 @@ ersetzt nur, was im Claude-Projekt die Oberfläche und die Sandbox
 liefern; am Prompt ändert er nichts. `{ARBEIT}`, `{PROMPT}` und
 `{PYLIB}` setzt die Auftragssitzung ein.
 
+Die Nachricht an den Sub-Agenten besteht aus den drei Blöcken unter
+dem Strich; `{EINGABE}` ist die Spalte `eingabe` der CSV, `{ANTWORTEN}`
+die Spalte `antworten`.
+
 ---
 
-UMGEBUNG (vom Testlauf gesetzt, nicht Teil des Prompts)
+TEIL 1 – SYSTEMANWEISUNG
+
+Die Anleitung für diese Aufgabe steht in `{PROMPT}`. Lies sie zuerst
+vollständig mit dem Read-Tool (sie ist länger als eine Leseseite;
+lies in Abschnitten bis zur letzten Zeile) und arbeite dann genau
+nach ihr.
+
+TEIL 2 – UMGEBUNG (vom Testlauf gesetzt, nicht Teil des Prompts)
 
 Du läufst nicht im Claude-Projekt mit Chat und Dateikarten, sondern
 unbeaufsichtigt auf einem Windows-Rechner. Der Prompt bleibt, wie er
@@ -45,14 +56,11 @@ ist; nur diese Punkte ersetzen die Oberfläche und die Linux-Sandbox:
 - Protokoll-Archiv: zippen mit Python (`zipfile`) oder
   `Compress-Archive`.
 - Keine Sub-Agenten starten.
-- Deine Schlussnachricht ist die Textausgabe der Sitzung: schreibe
-  darin der Reihe nach wortgleich alles, was du dem Lehrer in den
-  Antworten nach 2.7 und 6.1 geschrieben hättest – Deutungszeile,
-  Plan, gegebenenfalls Planfrage mit der Antwort aus der Eingabe,
-  die Zeile nach der Zone, die Dateinamen an Stelle der Karten,
-  Ausgabeblock. Nichts davor, nichts danach.
+- Deine letzte Nachricht zeigt, was der Lehrer im Chat zu sehen
+  bekäme (2.7, 6.1): Deutungszeile, Plan, gegebenenfalls die
+  Planfrage mit der Antwort aus der Eingabe, die Zeile nach der
+  Zone, die Namen der fertigen Dateien und den Ausgabeblock (6.3).
 
-Der Prompt steht in `{PROMPT}`. Lies ihn zuerst vollständig mit dem
-Read-Tool (er ist länger als eine Leseseite; lies in Abschnitten
-bis zur letzten Zeile). Sein Inhalt ist deine Systemanweisung für
-diese Sitzung, so als stünde er als Projektanweisung über dem Chat.
+TEIL 3 – EINGABE DES LEHRERS (erste Nutzerzeile des Chats)
+
+{EINGABE} – Antworten auf Planfrage und Zone: {ANTWORTEN}; baue ohne Halt bis zum Ausgabeblock durch

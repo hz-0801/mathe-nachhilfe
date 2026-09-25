@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% im Vorspann ergänzt (fehlen in der Vorlage): Zweigzeile unter dem Einheitenkopf,
+% Abhakseite (\abhakkopf, \abhak), Verzeichniszeile mit Link (\vzeile)
+\newcommand{\zweigzeile}[1]{{\small #1\par}\medskip}
+\newcommand{\abhakkopf}[1]{\par\medskip\noindent\textbf{#1}\par\smallskip}
+\newcommand{\abhak}[2]{\noindent\makebox[1.6em][l]{$\square$}\makebox[2.4em][l]{#1.}\parbox[t]{\dimexpr\linewidth-4em\relax}{#2}\par\smallskip}
+\newcommand{\vzeile}[3]{\noindent\hyperlink{#1}{#2 \,·\, #3}\par\medskip}
+\providecommand{\Szone}{}\providecommand{\Seins}{}\providecommand{\Szwei}{}\providecommand{\Sdrei}{}\providecommand{\Svier}{}\providecommand{\Sabhaken}{}
+\input{QuadratischeGlg_Gesamt_seiten}
+\begin{document}
+\blattkopf{Quadratische Gleichungen}{Gesamt}
+\weit
+{\large\bfseries Inhalt}\par\bigskip
+\vzeile{zone}{Kennst du schon (Nr. Z1–Z9)}{\Szone}
+\vzeile{e1}{Einheit 1 · Wurzelziehen und Lösbarkeit (Nr. 1–10)}{\Seins}
+\vzeile{e2}{Einheit 2 · Normalform und p-q-Formel (Nr. 11–21)}{\Szwei}
+\vzeile{e3}{Einheit 3 · Sachaufgaben (Nr. 22–27)}{\Sdrei}
+\vzeile{e4}{Ausblick Einheit 4 · Satz vom Nullprodukt (Nr. 28–33)}{\Svier}
+\vzeile{abhaken}{Das kann ich}{\Sabhaken}
+\clearpage
+\input{zone_a}
+\clearpage
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{e4_a}
+\input{abhaken}
+\end{document}
