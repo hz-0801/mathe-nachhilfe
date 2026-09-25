@@ -14,7 +14,7 @@ Parallelität: Eingaben 1–5 zuerst, 6–10 nach einer Lastprobe (Rechnerlast 2
 
 1 quadgl-9-os · fertig · Anläufe 1 · (abgelegt)
 2 quadgl-9-gym · fertig · Anläufe 1 · (abgelegt)
-3 prozent-7-schwach · läuft · Anläufe 1 ·
+3 prozent-7-schwach · fertig · Anläufe 1 · (abgelegt)
 4 linfkt-8-neu · fertig · Anläufe 1 · (abgelegt)
 5 kreis-8-ausblick · fertig · Anläufe 1 · (abgelegt; Sitzung legte eine leere e1_a.tex in der Repo-Wurzel an – in den Scratchpad verschoben)
 6 daten-7 · fertig · Anläufe 1 · (abgelegt)

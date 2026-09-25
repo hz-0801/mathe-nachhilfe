@@ -1,0 +1,18 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% Prüfrahmen je Einheit (nicht übergeben): Aufgaben und Lösungen einer Datei
+\newcommand{\swz}[3][2]{\par\noindent\makebox[0.34\linewidth][l]{\begin{minipage}[t]{0.76\linewidth}\vspace{0pt}\begin{gleichungsraster}[#1] \gl{\parbox[t]{5.3cm}{\raggedright #2}} & \\ \end{gleichungsraster}\end{minipage}}\hfill\begin{minipage}[t]{0.64\linewidth}\vspace{2pt}#3\end{minipage}\par\vspace{3mm}}
+\newcommand{\swa}[2]{\par\noindent\begin{minipage}[t]{0.34\linewidth}\vspace{0pt}\begin{teile}\teil #1\end{teile}\end{minipage}\hfill\begin{minipage}[t]{0.64\linewidth}\vspace{2pt}#2\end{minipage}\par\smallskip}
+\newcommand{\swb}[2]{\par\noindent\begin{minipage}[t]{0.34\linewidth}\vspace{0pt}#1\end{minipage}\hfill\begin{minipage}[t]{0.64\linewidth}\vspace{2pt}#2\end{minipage}\par\smallskip}
+\newcommand{\swfrage}[1]{\par\noindent\begin{gleichungsraster}[2] \gl{\text{#1}} & \\ \end{gleichungsraster}\par\vspace{3mm}}
+\newcommand{\rasterende}{\par\vspace{3mm}}
+\newcommand{\anw}[1]{\par\smallskip\noindent #1\par\smallskip}
+\newcommand{\zweigzeile}[1]{\par\noindent{\small #1}\par\medskip}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\blattkopf{Prozentrechnung}{Prüflauf}
+\weit
+\input{\dateia}
+\clearpage
+\input{\dateil}
+\end{document}

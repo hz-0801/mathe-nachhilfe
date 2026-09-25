@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% --- Im Vorspann definierte Bausteine (Option schwach, fehlen in Vorlage 2026-09-22h) ---
+% \swz[n]{Teilaufgabe}{Darstellung}: Teilaufgabe mit Raster (n Schreibzeilen aus gleichungsraster) links, Darstellung rechts
+% \swa{Teilaufgabe mit Feld}{Darstellung}: Ablese-/Zeichenteilaufgabe links, Darstellung rechts
+% \swb{Beispiel}{Darstellung}: durchgerechnetes Beispiel links, Darstellung rechts
+% \swfrage{Text}: Erklärzeile mit Antwortzeilen;  \anw{Text}: neue Anweisung;  \zweigzeile{Text}: zweite Zeile des Einheitenkopfs
+% \verzeile{Ziel}{Text}: klickbare Zeile des Verzeichnisses
+\newcommand{\swz}[3][2]{\par\noindent\makebox[0.34\linewidth][l]{\begin{minipage}[t]{0.76\linewidth}\vspace{0pt}\begin{gleichungsraster}[#1] \gl{\parbox[t]{5.3cm}{\raggedright #2}} & \\ \end{gleichungsraster}\end{minipage}}\hfill\begin{minipage}[t]{0.64\linewidth}\vspace{2pt}#3\end{minipage}\par\vspace{3mm}}
+\newcommand{\swa}[2]{\par\noindent\begin{minipage}[t]{0.34\linewidth}\vspace{0pt}\begin{teile}\teil #1\end{teile}\end{minipage}\hfill\begin{minipage}[t]{0.64\linewidth}\vspace{2pt}#2\end{minipage}\par\smallskip}
+\newcommand{\swb}[2]{\par\noindent\begin{minipage}[t]{0.34\linewidth}\vspace{0pt}#1\end{minipage}\hfill\begin{minipage}[t]{0.64\linewidth}\vspace{2pt}#2\end{minipage}\par\smallskip}
+\newcommand{\swfrage}[1]{\par\noindent\begin{gleichungsraster}[2] \gl{\text{#1}} & \\ \end{gleichungsraster}\par\vspace{3mm}}
+\newcommand{\rasterende}{\par\vspace{3mm}}
+\newcommand{\anw}[1]{\par\smallskip\noindent #1\par\smallskip}
+\newcommand{\zweigzeile}[1]{\par\noindent{\small #1}\par\medskip}
+\newcommand{\verzeile}[2]{\par\noindent\hyperlink{#1}{#2}\par\medskip}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\blattkopf{Prozentrechnung}{Lernblatt}
+\weit
+\einheitenkopf*{Inhalt}
+% @e1@
+\verzeile{e1}{Einheit 1 · Prozentsatz berechnen (Nr. 11–21) · Seiten 2–8}
+% @e2@
+\verzeile{e2}{Einheit 2 · Prozentwert berechnen (Nr. 22–30) · Seiten 9–13}
+% @e3@
+\verzeile{e3}{Einheit 3 · Grundwert berechnen (Nr. 31–38) · Seiten 14–18}
+% @e4@
+\verzeile{e4}{Einheit 4 · Prozentuale Veränderung (Nr. 39–52) · Seiten 19–24}
+% @abhaken@
+\verzeile{abhaken}{Das kann ich (Nr. 1–52) · Seiten 25–26}
+\input{e1_a}
+\input{e2_a}
+\input{e3_a}
+\input{e4_a}
+\input{abhaken}
+\end{document}

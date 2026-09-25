@@ -1,0 +1,95 @@
+Prompt: Unterrichtsblatt-Prompt v4.3
+Modell: Opus 5.5
+Vorlage: Version 2026-09-22h (Beschriftung bei \balkenab und \liniendia: \balkenab misst die Kategorienamen
+Katalog: prozentrechnung.md, Status: gegengelesen bis auf [FS] (2026-09-08d; offener Punkt Zinsen am 09c entschieden; LISUM-Planungshilfen am 10e nachgetragen; vierter Gegenlese-Block am 2026-09-10i: Zielmarke und Prüfungshöhe für alle fünf Einheiten gesetzt, Prüfungsform auf alle 22 Originale des Themas gebracht, vier fehlende Originale nachgetragen, 2015-OS-K7c aus daten.md zurückgeholt, 2015-OS-K2a als achter Fall der Gliederungsregel geführt, 2025-OS-K6b und 2021-OS-K5b als neunter und zehnter Fall verzeichnet, Sprosse „Jahreszinsen“ entschieden, 10e-Befund abgearbeitet) · Stufe: Sek I · Bildungsgänge: alle bis Kl. 10 · gegengelesen: bis auf [FS]
+Bestellung: mit Wiederholung (ohne Ausblick: Thema im Register der Blätter)
+Standpunkt: Klasse 7, Oberschule (Gymnasium als Zusatz); Option schwach
+
+Zweige (gebaut, in Katalogfolge; abgewählt: keine; Ausblick: keiner):
+- Einheit 1 von 4 · Prozentsatz berechnen (Katalog-Einheit 2) – Hier lernst du auszurechnen, wie viel Prozent ein Teil vom Ganzen ist · neu in diesem Jahr · P10 oft · baut auf: Prozente als Anteile, Brüche erweitern, Runden (Kennst du schon)
+  11 Ich erkenne, was das Ganze ist. · 12 Ich kann einen Streifen in gleich große Teile einteilen. · 13 Ich kann am Streifen ablesen, wie viel Prozent ein Teil ist. · 14 Ich kann ausrechnen, wie viel Prozent das sind. · 15 … – weiter. · 16 Ich kann zu einer Prozentzahl passende Zahlen finden. · 17 Ich kann in einem Text ausrechnen, wie viel Prozent das sind. · 18 Ich finde den Fehler in einer Prozentrechnung. · 19 … – weiter. · 20 Ich kann begründen, warum ich durch das Ganze teile. · 21 Ich kann mit Prozenten vergleichen, wer besser trifft.
+- Einheit 2 von 4 · Prozentwert berechnen (Katalog-Einheit 3) – Hier lernst du auszurechnen, wie viel ein Prozentanteil von einer Größe ist – in Euro, kg oder Stück · neu in diesem Jahr · P10 · baut auf: Prozente als Anteile, Bruchteil einer Größe, Kommazahlen malnehmen, Dreisatz (Kennst du schon)
+  22 Ich kann am Streifen ausrechnen, wie viel 50 %, 25 % oder 10 % von einer Größe sind. · 23 Ich kann über 1 % ausrechnen, wie viel ein Prozentanteil ist. · 24 Ich kann einen Prozentanteil mit einer Kommazahl ausrechnen. · 25 Ich kann in einem Text ausrechnen, wie viel Euro das sind. · 26 … – weiter. · 27 Ich finde den Fehler beim Ausrechnen eines Prozentwerts. · 28 … – weiter. · 29 Ich kann begründen, warum ich zuerst 1 % ausrechne. · 30 Ich kann entscheiden, welches Angebot günstiger ist.
+- Einheit 3 von 4 · Grundwert berechnen (Katalog-Einheit 4) – Hier lernst du, aus einem Teil und seiner Prozentzahl auszurechnen, wie groß das Ganze ist · neu in diesem Jahr · P10 oft · baut auf: Einheit 1 und 2 (für die gemischten Aufgaben), Dreisatz (Kennst du schon)
+  31 Ich erkenne, was gegeben und was gesucht ist. · 32 Ich kann am Streifen vom Teil auf das Ganze schließen. · 33 Ich kann aus einem Teil das Ganze ausrechnen. · 34 … – weiter. · 35 Ich kann unterscheiden, was gesucht ist, und dann richtig rechnen. · 36 Ich finde den Fehler, wenn das Ganze gesucht ist. · 37 Ich kann begründen, warum ich am Ende mal 100 nehme. · 38 Ich kann ausrechnen, wie viel Geld noch fehlt.
+- Einheit 4 von 4 · Prozentuale Veränderung (Katalog-Einheit 5) – Hier lernst du, Preise nach einer Erhöhung oder Senkung auszurechnen und eine Veränderung in Prozent anzugeben · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Einheit 1 bis 3, Rest zu 100 % und Runden (Kennst du schon)
+  39 Ich erkenne, ob „um“ oder „auf“ gemeint ist. · 40 Ich erkenne, welcher Wert der alte ist. · 41 Ich kann ausrechnen, wie viel etwas nach einer Erhöhung oder Senkung kostet. · 42 … – weiter. · 43 Ich kann den neuen Preis in einem Schritt mit einer Kommazahl ausrechnen (kommt in Klasse 9). · 44 Ich kann ausrechnen, um wie viel Prozent sich ein Preis verändert hat. · 45 Ich kann ausrechnen, wie viel etwas vor einer Änderung gekostet hat. · 46 Ich kann Preise mit und ohne Mehrwertsteuer ausrechnen (neu in diesem Jahr). · 47 Ich kann zwei Prozentangaben richtig vergleichen. · 48 Ich kann eine Steigung in Prozent verstehen und ausrechnen (kommt in Klasse 10). · 49 … (Einheit 4, Nr. 44) – weiter. · 50 Ich finde den Fehler bei einer Veränderung in Prozent. · 51 Ich kann begründen, welcher Wert 100 % ist. · 52 Ich kann entscheiden, ob sich zwei Änderungen aufheben.
+- Zone „Das kennst du schon“ (Katalog-Einheit 1 als Wiederholung, Marke OS Kl. 6 vor der Eingabeklasse): 1 Grundvorstellung am Streifen · 2–3 Bruch schreiben, kürzen, auf Hundertstel erweitern · 4 Bruch ↔ Dezimalzahl · 5 Anteil in Prozent (Katalog-Einheit 1, Grundfall) · 6 Runden · 7 durch 100 teilen, mit Kommazahlen malnehmen · 8 Dreisatz · 9 Bruchteil einer Größe · 10 Fehler finden (Teil durch Rest) mit Aufgabe zum selbst Rechnen
+
+Zählung (Textextraktion der Kompilate):
+- Prozentrechnung_KennstDuSchon.pdf: 10 Hauptnummern, 47 Teilaufgaben, 41 Grafiken (aus dem Quelltext gezählt), 6 Seiten
+- Prozentrechnung_Lernblatt.pdf: 42 Hauptnummern, 126 Teilaufgaben, 112 Grafiken (aus dem Quelltext gezählt), 26 Seiten
+  Verzeichnis: Einheit 1 · Prozentsatz berechnen (Nr. 11–21) · Seiten 2–8 | Einheit 2 · Prozentwert berechnen (Nr. 22–30) · Seiten 9–13 | Einheit 3 · Grundwert berechnen (Nr. 31–38) · Seiten 14–18 | Einheit 4 · Prozentuale Veränderung (Nr. 39–52) · Seiten 19–24 | Das kann ich (Nr. 1–52) · Seiten 25–26
+- Prozentrechnung_Gesamt.pdf: 52 Hauptnummern, 173 Teilaufgaben, 153 Grafiken (aus dem Quelltext gezählt), 32 Seiten
+  Verzeichnis: Kennst du schon (Nr. 1–10) · Seiten 2–7 | Einheit 1 · Prozentsatz berechnen (Nr. 11–21) · Seiten 8–14 | Einheit 2 · Prozentwert berechnen (Nr. 22–30) · Seiten 15–19 | Einheit 3 · Grundwert berechnen (Nr. 31–38) · Seiten 20–24 | Einheit 4 · Prozentuale Veränderung (Nr. 39–52) · Seiten 25–30 | Das kann ich (Nr. 1–52) · Seiten 31–32
+- Prozentrechnung_Loesungen.pdf: Lösungen zu 52 Nummern, 3 Seiten
+
+Schritte (je Werkzeugaufruf · Anlass → Ergebnis; Bildansichten zusammengefasst):
+1 zeiten.txt t0 · Baustart
+2 curl katalog/index.md und blaetter/index.md · Eintrag wählen → prozentrechnung.md; Register der Blätter führt das Thema → ohne Ausblick
+3–4 Suche im Register, Ausschnitt lesen · Datei und Blätterregister bestätigt
+5 curl prozentrechnung.md, mathblatt.sty, Anleitung_mathblatt.md · Katalog und Vorlage holen → Vorlage 2026-09-22h
+6–7 Eintrag und Anleitung ganz gelesen
+8–12 test.tex (Probe der Bausteine), xelatex, zwei Bildansichten · Overfull 12/24 pt, Streifen neben Text zu breit; 45 % auf dem Zehnerstreifen = halbes Kästchen → Zwanzigerstreifen; \streifenwertreihe mit leerem Ganzwert ohne Feld → nicht verwendet
+13–16 test.tex (Raster in minipage, Zähler, \dreieckrw, \zahlenstrahl, \kreuz), xelatex, Bildansichten · \setcounter{aufgabe}{n} ergibt Nr. n+1; Parbox im Raster zu schmal; Feld neben \streifen bricht in eine eigene Zeile → Baustein \swa
+17–21 zone_a.tex, zone_l.tex, Rahmen Zone, check.tex, pruef.py geschrieben
+22 pruef zone, xelatex Zone und Prüfrahmen, zeiten zone · 0 Abweichungen; Overfull 1–5 pt
+23–29 Bildansichten Zone S. 1–5, Ausschnitt S. 3 · Anweisung nach \swz von der letzten Schreibzeile durchgestrichen; \zahlenstrahl 7,6–7,7 in 0,01-Schritten fehlt (Nr. 6 b, d, e); gleichungsraster[1] Linie auf der Folgezeile
+30–32 test.tex (Rastertiefe, Zahlenstrahl), xelatex, Bildansicht · Raster endet ohne Tiefe; xmax + halber Schritt zeigt den letzten Teilstrich
+33 PowerShell-Ersetzung scheitert (.NET liest relativ zum Prozessverzeichnis) · nichts geschrieben
+34–37 Korrektur 1: \vspace nach Raster, Zehntel-Zahlenstrahlen in Nr. 6, xmax 1.05 in Nr. 4
+38 xelatex Zone, zeiten zone · „Overfull \hbox (9.82542pt too wide) in paragraph at lines 7--7“ (Streifen breiter als rechte Spalte)
+39 Korrektur 2: Spalten 0,34/0,64 · „Overfull \hbox (11.5624pt too wide)“ in \swz (Rastertabelle breiter als innere minipage)
+40 Korrektur 3: innere minipage 0,76, Parbox 5,3 cm · keine Warnung, 6 Seiten
+41–46 Bildansichten Zone S. 1–6 · in Ordnung
+47–48 Prüfrahmen Zone neu, Lösungsseite angesehen · in Ordnung
+49 zeiten weiter
+50–52 e1_a.tex, e1_l.tex, pruef.py (e1)
+53 pruef e1, xelatex check_e1 · 0 Abweichungen, Overfull 1,7/5,5 pt (Beschriftung „alle Kinder“)
+54–60 Bildansichten S. 1–7 · Nr. 18 (zwei Fehlermuster) fast eine ganze Seite
+61–63 Korrektur 4: Nr. 18 geteilt in 18/19, Lösungen und pruef.py umnummeriert
+64 xelatex check_e1, zeiten e 1 · 0 Abweichungen
+65–66 Bildansichten S. 6–7 · in Ordnung
+67–70 e2_a.tex (dazu Darstellung Nr. 30 b), e2_l.tex, pruef.py (e2)
+71 pruef e2, xelatex check_e2 · „! LaTeX Error: There's no line here to end.“ (\\ zwischen zwei Streifen in Nr. 29 b)
+72–73 Korrektur 5: \par\medskip statt \\, xelatex · ohne Fehler
+74–79 Bildansichten S. 1–6 · in Ordnung
+80–83 e3_a.tex (Streifen Nr. 38 a/b angepasst), e3_l.tex, pruef.py (e3)
+84 Aufruf vom Werkzeug abgelehnt (Remove-Item-Muster) · nichts ausgeführt
+85 zeiten e 2, pruef e3, xelatex check_e3 · 0 Abweichungen
+86–90 Bildansichten S. 1–5 · in Ordnung
+91–92 e4_a.tex; Zahlenstrahlen Nr. 43, 45, 46 enger gefasst (Beschriftungen 100 %/110 % lagen übereinander)
+93–94 e4_l.tex, pruef.py (e4)
+95 zeiten e 3, pruef e4, xelatex check_e4 · 0 Abweichungen; „Overfull \hbox (14.36464pt too wide) in paragraph at lines 64--64“ (\zahlenstrahl Nr. 46)
+96–101 Bildansichten S. 1–6
+102 Korrektur 6: karo 1,3 in Nr. 46, xelatex, zeiten e 4 · ohne Warnung
+103 Lösungsseite E4 angesehen
+104–107 verzeichnis.py, Rahmen Lernblatt, Gesamt, Lösungen
+108 abhaken.tex erzeugt (52 Titel), xelatex Lernblatt, Seitenbereiche aus Textextraktion, 2× xelatex, zeiten lernblatt · 26 Seiten
+109–111 Bildansichten Verzeichnis und Abhakseiten
+112 kontrolle.py geschrieben
+113 xelatex Gesamt, Seitenbereiche, 2× xelatex, Kontrolle beider Verzeichnisse, zeiten gesamt · alle Links und Seitenbereiche treffen den Zweigkopf, Nummern 1–52 durchlaufend, keine Seite unter einem Drittel
+114 Bildansicht Verzeichnis Gesamt
+115 xelatex Lösungen, zeiten loesungen · 52 Nummern
+116 Bildansicht S. 1 · Kopf „Einheit 2 von 4“ allein am Seitenende
+117 Korrektur 7: needspace vor jedem Abschnitt, xelatex, zeiten loesungen
+118–119 Bildansichten S. 2–3 · in Ordnung
+120–123 chat.txt, archiv.py, protokoll_teil.txt, protokoll_schritte.txt geschrieben
+124 archiv.py: protokoll.txt und Archiv
+
+Vorlage: fehlende Bausteine · Warnungen aus dem Log
+- fehlende Bausteine: Teilaufgabe mit Raster und Darstellung daneben (\swz, \swa, \swb, \swfrage), neue Anweisung (\anw), Abstand nach gleichungsraster (\rasterende), zweite Zeile des Einheitenkopfs (\zweigzeile), Verzeichniszeile (\verzeile); needspace im Lösungsrahmen
+- Warnungen: keine „Package mathblatt Warning“; verbleibend Overfull \hbox 1,7 pt und 5,5 pt (Streifenbeschriftung rechts, Einheit 1) und 1,7 pt (Einheit 3)
+
+Korrekturrunden: 7 von 124 Schritten
+
+Zone: 995 s
+Weiter: 1790332714 s (Stempel des Klicks; hier kam „weiter“ aus der Eingabe, ohne Wartezeit)
+E 1: 1322 s
+E 2: 1612 s
+E 3: 1804 s
+E 4: 1850 s
+Lernblatt: 2002 s
+Gesamt: 2125 s
+Lösungen: 2166 s
+Hinweis: Der Stempel „e 2“ wurde zu Beginn des Aufrufs für Einheit 3 gesetzt (nach der Durchsicht von Einheit 2), „e 3“ ebenso zu Beginn des Aufrufs für Einheit 4; „zone“ und „loesungen“ stehen zweimal in zeiten.txt, gezählt ist der letzte Stempel nach der Korrektur.

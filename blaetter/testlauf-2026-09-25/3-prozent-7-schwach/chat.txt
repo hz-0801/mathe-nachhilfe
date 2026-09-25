@@ -1,0 +1,32 @@
+Eingabe des Lehrers:
+prozentrechnung 7 schwach – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+Deutungszeile:
+→ Lernblatt · Oberschule als Standpunkt, Gymnasium als Zusatz · mit Wiederholung, ohne Ausblick (Thema steht schon im Register der Blätter) · 4 Zweige; Katalog-Einheit 1 „Prozente als Anteile“ (Kl. 6) als Wiederholung in der Zone · Zone aus 8 Fertigkeiten
+
+Plan:
+Einheit 1 von 4 · Prozentsatz berechnen – Hier lernst du auszurechnen, wie viel Prozent ein Teil vom Ganzen ist · neu in diesem Jahr · P10 oft · baut auf: Prozente als Anteile, Brüche erweitern, Runden (Kennst du schon)
+Einheit 2 von 4 · Prozentwert berechnen – Hier lernst du auszurechnen, wie viel ein Prozentanteil von einer Größe ist – in Euro, kg oder Stück · neu in diesem Jahr · P10 · baut auf: Prozente als Anteile, Bruchteil einer Größe, Kommazahlen malnehmen, Dreisatz (Kennst du schon)
+Einheit 3 von 4 · Grundwert berechnen – Hier lernst du, aus einem Teil und seiner Prozentzahl auszurechnen, wie groß das Ganze ist · neu in diesem Jahr · P10 oft · baut auf: Einheit 1 und 2 (für die gemischten Aufgaben), Dreisatz (Kennst du schon)
+Einheit 4 von 4 · Prozentuale Veränderung – Hier lernst du, Preise nach einer Erhöhung oder Senkung auszurechnen und eine Veränderung in Prozent anzugeben · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Einheit 1 bis 3, Rest zu 100 % und Runden (Kennst du schon)
+
+Planfrage:
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort (aus der Eingabe): alle
+
+Nach der Zone:
+Prozentrechnung_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen.
+Antwort (aus der Eingabe): weiter
+
+Übergebene Dateien:
+Prozentrechnung_KennstDuSchon.pdf
+Prozentrechnung_Lernblatt.pdf
+Prozentrechnung_Gesamt.pdf
+Prozentrechnung_Loesungen.pdf
+Prozentrechnung_2026-09-25_protokoll.zip
+
+Ausgabeblock:
+Abweichungen: Katalog-Einheit 1 „Prozente als Anteile“ (OS Kl. 6) steht als Wiederholung in der Zone (Nr. 5), das Blatt zählt Einheit 1–4 = Katalog-Einheit 2–5 · kein Ausblick, weil das Register der Blätter das Thema schon führt · geteilte Hauptnummern 2/3, 14/15, 18/19, 25/26, 27/28, 33/34, 41/42, 44/49 · Päckchen-Nummern 14, 22, 33, 41 etwa eine halbe Seite hoch statt einer Drittelseite (Grundfall wird nicht geteilt) · Prüfungshöhe der Einheit 4 als eigene Nr. 49 mit einer Teilaufgabe, weil die Kette mit der Steigung endet · Vorstufen 11, 31, 39, 40 mit einem gemeinsamen Streifen statt Darstellung je Teilaufgabe und ohne Raster (kein Rechenschritt); Nr. 7 ohne Darstellung (keine Stellenwerttafel in der Vorlage) · Darstellungen über 100 % (Faktor, Brutto/Netto, 150 %) als Zahlenstrahl, weil der Streifen bei 100 % endet; Steigung als Skizze mit \dreieckrw (Punktnamen A, B, C setzt das Makro) · im Vorspann definierte Bausteine: \swz, \swa, \swb, \swfrage (Teilaufgabe mit Raster und Darstellung daneben, Option schwach), \anw, \rasterende, \zweigzeile (zweite Zeile des Einheitenkopfs), \verzeile (Verzeichniszeile), needspace im Lösungsrahmen · Vorlage: gleichungsraster endet ohne Tiefe unter der letzten Schreibzeile (Folgetext lief hinein, 3 mm Abstand gesetzt); \zahlenstrahl mit xstep 0.01 ab xmin 7.6 zeichnet nichts, letzter Teilstrich fehlt, wenn xmax genau auf dem Raster liegt; \streifenwertreihe zeigt bei leerem Ganzwert kein Feld; \setcounter{aufgabe}{n} ergibt Nr. n+1
+Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen (Fertigkeiten und alle fünf Erkennungsschritte), Für schwache Schüler (Sprossen, Grundvorstellung), Typische Fehler, Prüfungsform/Zielmarke (2018-OS-K7a, 2021-OS-B1c, 2025-OS-B1a, 2026-FOR-K3c verfremdet), Merkkasten (bei schwach am Zweigende); nicht gebraucht Verortung · Spanne Einheit 5 „OS Kl. 7–8“ bei Eingabeklasse 7 → „neu oder schon bekannt – je nach Buch“; Typklammern [OS 9] Faktor → „kommt in Klasse 9“, [OS 10] Steigung → „kommt in Klasse 10“, [OS 7] Brutto/Netto → „neu in diesem Jahr“; [OS 7–8, GYM 7] „Prozentsatz über 100 %“ steht als Sprosse in Nr. 25 ohne eigene Marke · gefehlt: „Für schwache Schüler“ nennt keine Darstellung für Faktor, Brutto/Netto, Prozentpunkte und Steigung; die Kette der Einheit 5 endet mit der Steigung vor einer Prüfungshöhe anderer Art; der Kasten der Einheit 5 hat mehr als fünf Zeilen (auf vier Zeilen gesetzt)
+Protokoll-Archiv: Prozentrechnung_2026-09-25_protokoll.zip
