@@ -1101,6 +1101,7 @@ T('strahlensaetze', '3.8', 'Sachaufgabe mit Skizze: Höhe eines Baums aus Schatt
 # ==== zuordnungen ====
 U('zuordnungen', 1, ['Wertetabelle als Punkte darstellen', 'Achseneinteilung wählen'])
 U('zuordnungen', 2, ['Proportionale Zuordnung Dreisatz'])
+U('zuordnungen', 3, ['Antiproportionale Zuordnung Dreisatz'])   # Zuordnungszeile seit 27.09.2026 (GYM-Typ)
 U('zuordnungen', 4, ['Kosten aus Menge und Preis berechnen', 'Geschwindigkeit aus Weg und Zeit berechnen', 'Dauer aus Menge und Rate berechnen'])
 T('zuordnungen', '1.1', 'Wertetabelle aus Text anlegen', ['Endwert linearer Veränderung berechnen', 'Graph eines exponentiellen Vorgangs zeichnen'],
   'In 2021-OS-K6a sind leere Tabellenfelder aus dem Text zu füllen (Anfangshöhe 40 cm, Höhe nach 80 min), in 2014-GYM-K4b entstehen die Wertepaare aus der Vorschrift „Halbierung je Stunde“ (Definition „aus einer Wertetabelle oder Rekursionsvorschrift“).')
@@ -1153,6 +1154,8 @@ T('zuordnungen', '4.8', 'Fehler finden (antiproportional gerechnet; Einheit)', [
 
 # ==== terme ====
 U('terme', 1, ['Term zu Sachtext angeben'])
+U('terme', 2, ['Term durch Zusammenfassen gleichartiger Glieder vereinfachen'])   # Zuordnungszeile seit 27.09.2026 (GYM-Typ)
+U('terme', 3, ['Term mit Klammern und Potenzen vereinfachen'])   # Zuordnungszeile seit 27.09.2026 (GYM-Typ)
 T('terme', '1.1', 'Termwert berechnen (auch negative Einsetzung)', ['Termwert berechnen', 'Funktionswert berechnen', 'Term durch Zusammenfassen gleichartiger Glieder vereinfachen'],
   'Definition „auch mit negativen Zahlen“ (2026-FOR-B1g, 2021-OS-B1g); derselbe Schritt als Funktionswert, etwa ½ · (−10) + 1 in 2017-OS-K5b, und nach dem Zusammenfassen in 2025-GYM-B2a (Wert für x = 2).')
 T('terme', '1.2', 'Term zu Sachtext angeben (Doppeltes, vermindert um)', ['Term zu Sachtext angeben', 'Lineare Gleichung aus Sachverhalt aufstellen'],

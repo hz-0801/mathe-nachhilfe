@@ -839,8 +839,8 @@ Zahl der Typen je Wert:
 - reelle-zahlen, Einheit 3 · Wurzelgesetze und rationale Exponenten – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
 - flaechen, Einheit 2 · Parallelogramm – themen.csv: „enthält Kreisaufgaben; kreis hat kein msa-Thema“
 - symmetrie-abbildungen, Einheit 3 · Punktsymmetrie, Drehung, Verschiebung
-- strahlensaetze, Einheit 2 · Zentrische Streckung und Ähnlichkeit – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
-- strahlensaetze, Einheit 3 · Strahlensätze – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
+- strahlensaetze, Einheit 2 · Zentrische Streckung und Ähnlichkeit – themen.csv: „Maßstab als proportionale Zuordnung; bis 27.09.2026 bei zuordnungen, katalog/index.md führt ihn bei strahlensaetze Einheit 1“
+- strahlensaetze, Einheit 3 · Strahlensätze – themen.csv: „Maßstab als proportionale Zuordnung; bis 27.09.2026 bei zuordnungen, katalog/index.md führt ihn bei strahlensaetze Einheit 1“
 - terme, Einheit 4 · Ausklammern – themen.csv: „binomische-formeln stecken hier oder in quadratische Gleichungen“
 - lineare-gleichungssysteme, Einheit 3 · Additionsverfahren
 - binomische-formeln, Einheit 1 · Summe mal Summe – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
@@ -2197,7 +2197,7 @@ themen.csv: „Symmetrie und Abbildungen“.
 
 ### strahlensaetze
 
-themen.csv: kein msa-Thema – Vermerk: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“.
+themen.csv: „Maßstab“ – Vermerk: „Maßstab als proportionale Zuordnung; bis 27.09.2026 bei zuordnungen, katalog/index.md führt ihn bei strahlensaetze Einheit 1“.
 
 **Einheit 1 · Maßstab** – P10-Jahrgänge 3 von 13 (davon Haupt 3); P10-Typen 2; Summe ertrag 9.
 
@@ -2258,8 +2258,7 @@ themen.csv: kein msa-Thema – Vermerk: „kein Prüfungsthema; Aufgaben in ande
 
 ### zuordnungen
 
-themen.csv: „Zuordnungen proportional und antiproportional“, „Maßstab“ – Vermerk: „Maßstab als proportionale Zuordnung“.
-P10-Typen der Themen ohne Einheit in diesem Eintrag: „Draufsicht maßstabsgerecht zeichnen“; „Länge im Maßstab umrechnen“.
+themen.csv: „Zuordnungen proportional und antiproportional“.
 
 **Einheit 1 · Zuordnungen darstellen** – P10-Jahrgänge 5 von 13 (davon Haupt 5); P10-Typen 3; Summe ertrag 17.
 
@@ -2301,7 +2300,7 @@ P10-Typen der Themen ohne Einheit in diesem Eintrag: „Draufsicht maßstabsgere
 
 | P10-Typ | ertrag | jahre_haupt | jahre_gesamt | erster | letzter | basis | kontext | Vermerk |
 |---|---|---|---|---|---|---|---|---|
-| Antiproportionale Zuordnung Dreisatz | 0 | 0 | 0 |  |  | 0 | 0 | nicht in der Zuordnungszeile der Einheit; nur GYM |
+| Antiproportionale Zuordnung Dreisatz | 0 | 0 | 0 |  |  | 0 | 0 | nur GYM |
 | Wertetabelle als Punkte darstellen | 5 | 2 | 4 | 2016 | 2025 | 0 | 2 | nicht in der Zuordnungszeile der Einheit |
 
 - 3.1 Tabelle ergänzen: doppelt → halb, dreifach → Drittel → „Antiproportionale Zuordnung Dreisatz“ – P10-Jahrgänge 0 (Haupt 0). Grund: 2014-GYM-B1c: doppelt so viele Pferde, halb so viele Tage (Vorrat für 4 Pferde 8 Tage, für 8 Pferde 4 Tage).
@@ -2354,7 +2353,7 @@ themen.csv: „Terme umformen“ – Vermerk: „binomische-formeln stecken hier
 
 | P10-Typ | ertrag | jahre_haupt | jahre_gesamt | erster | letzter | basis | kontext | Vermerk |
 |---|---|---|---|---|---|---|---|---|
-| Term durch Zusammenfassen gleichartiger Glieder vereinfachen | 0 | 0 | 0 |  |  | 0 | 0 | nicht in der Zuordnungszeile der Einheit; nur GYM |
+| Term durch Zusammenfassen gleichartiger Glieder vereinfachen | 0 | 0 | 0 |  |  | 0 | 0 | nur GYM |
 | Term mit Klammern und Potenzen vereinfachen | 0 | 0 | 0 |  |  | 0 | 0 | nicht in der Zuordnungszeile der Einheit; nur GYM |
 | Binomische Formel anwenden | 0 | 0 | 0 |  |  | 0 | 0 | nicht in der Zuordnungszeile der Einheit; nur GYM |
 | Term zu Figur angeben | 5 | 5 | 5 | 2014 | 2025 | 5 | 0 | nicht in der Zuordnungszeile der Einheit |
@@ -2371,7 +2370,7 @@ themen.csv: „Terme umformen“ – Vermerk: „binomische-formeln stecken hier
 
 | P10-Typ | ertrag | jahre_haupt | jahre_gesamt | erster | letzter | basis | kontext | Vermerk |
 |---|---|---|---|---|---|---|---|---|
-| Term mit Klammern und Potenzen vereinfachen | 0 | 0 | 0 |  |  | 0 | 0 | nicht in der Zuordnungszeile der Einheit; nur GYM |
+| Term mit Klammern und Potenzen vereinfachen | 0 | 0 | 0 |  |  | 0 | 0 | nur GYM |
 
 - 3.1 Plusklammer weglassen → kein P10-Typ
 - 3.2 Minusklammer (alle Vorzeichen drehen) → kein P10-Typ der eigenen Themen. Außerhalb der Themen des Eintrags (zählt nicht): „Lineare Gleichung lösen“. Grund: 2021-GYM-B1a: die rechte Seite −(x + 2) zu −x − 2 auflösen.

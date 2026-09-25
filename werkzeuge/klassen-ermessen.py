@@ -1,4 +1,8 @@
-"""Ermessensfälle der Klassenbelege, nach Sorte des Grundes gruppiert (v0.1, 26.09.2026).
+"""Ermessensfälle der Klassenbelege, nach Sorte des Grundes gruppiert (v0.2, 27.09.2026; v0.1 26.09.2026).
+
+v0.2 (Auftrag Nacht 2026-09-27, Teil 4): steht derselbe Grund an mehreren Stellen eines Eintrags, kommt das Zitat
+aus der Stelle der eigenen Reihe (Präfix „Einheit n, <Reihe> Kl. k:“) und Einheit, nicht mehr aus der ersten
+(Nebenbefund in katalog/_marken-entscheidungen.md: fünfmal das Zitat von Mathematik 2023 bei den Potenzfunktionen).
 
 Liest katalog/_klassen-belege.md und schreibt katalog/_klassen-ermessen.md: alle Ermessensfälle mit Eintrag,
 Einheit, Reihe, Zitat und Grund, gruppiert nach der Sorte des Grundes; oben die Sorten mit Zahl. Keine Bewertung,
@@ -92,7 +96,7 @@ def baue():
             continue
         m = re.match(r'^    Ermessen: (.*)$', z)
         if m:
-            inline.append((eintrag, m.group(1).strip(), letzte_stelle))
+            inline.append((eintrag, einheit, m.group(1).strip(), letzte_stelle))
             continue
         m = re.match(r'^  - (.*„.*“.*)$', z)
         if m and not m.group(1).startswith('Ermessen'):
@@ -124,8 +128,12 @@ def baue():
             name = next((r for r in REIHEN if re.match(r'^(Der |Die )?' + re.escape(r) + r'\b', grund)
                          or re.match(r'^(Der |Die )?' + re.escape(r) + r'-', grund)), None)
             f['reihe'] = name or '–'
-        treffer = [s for e, g, s in inline if e == f['eintrag'] and g == grund]
-        f['zitat'] = treffer[0] if treffer and treffer[0] else '–'
+        # v0.2: bei mehreren Stellen mit demselben Grund die aus der eigenen Reihe und Einheit (vorher: die erste)
+        einheiten = {int(x) for x in re.findall(r'\d+', f['einheit'])}
+        kandidaten = [(u, s) for e, u, g, s in inline if e == f['eintrag'] and g == grund and s]
+        eigene = [s for u, s in kandidaten if reihe and re.match(re.escape(reihe) + r'[,:]', s) and (not einheiten or u in einheiten)]
+        treffer = eigene or [s for u, s in kandidaten]
+        f['zitat'] = treffer[0] if treffer else '–'
     for f in faelle:
         for name, muster, _ in SORTEN:
             if re.search(muster, f['grund']):

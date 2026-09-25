@@ -1,5 +1,5 @@
 # Verweise und Namen – Prüfung des Themenkatalogs
-Stand 2026-09-25, Katalog auf Commit cba84ca.
+Stand 2026-09-25, Katalog auf Commit 1036af9.
 Erzeugt von `werkzeuge/verweis-pruef.py` (v0.2) aus den Einträgen, `themen.csv`, `abitur/abitur-vokabular.md`, den vier `abitur/abi-*-geltung.md` und den Typenkatalogen `msa/msa-typen.csv` und `fhr/fhr-typen.csv`; abgeleitet, nie von Hand ändern. Fünf Prüfungen der inneren Stimmigkeit vor dem Umbau der Blatt-Prompte: Dateiverweise, Einheitennummern, Namensgleichheit, Gegenrichtung, Formlücke. Befunde werden berichtet, nicht behoben; wo eine Zuordnung nicht eindeutig ist, steht der Fall in einer eigenen Liste statt in einer Entscheidung.
 
 Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie in `werkzeuge/tragfaehigkeit.py` (v0.2), importiert, nicht nachgebaut: Verweis = Zeichenkette der Form `<name>.md` (auch in Klammern oder Backticks; ein Pfad davor wird mitgenommen), Blatt-0-Abschnitt = „### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, Nennung in Wortform = „Thema “ vor einem Großbuchstaben (Heuristik; folgt dem Titel unmittelbar „ (<name>.md“, ist es ein Verweis und keine Nennung in Wortform), Fundort einer Datei außerhalb von `katalog/` = Suche im Repo nach dem Dateinamen. Abschnitt einer Fundstelle = die nächste Überschrift davor (#, ##, ###); in den Listen abgekürzt: Kopf (Titel und Statuszeilen), Verortung, Lerneinheiten, Typen (Typen je Lerneinheit), Blatt 0, Merkkasten, Fehler (Typische Fehler), Schwache (Für schwache Schüler), Prüfungsform, Offene Punkte, Prüfliste. Zeilennummern zählen ab 1 in der Datei. Zahl der Lerneinheiten eines Eintrags = Zeilen im Abschnitt „### Lerneinheiten“, die mit „<n>. “ beginnen.
@@ -7,7 +7,7 @@ Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie i
 ## 1 Dateiverweise
 Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 0. Gruppe (a): das Ziel liegt in `katalog/` (Katalogeintrag, Selbstverweis, Katalogeintrag mit Pfadangabe oder eine andere Datei des Ordners); Gruppe (b): das Ziel liegt anderswo im Repo (ohne Pfadangabe über den Fundort, mit Pfadangabe über den Pfad relativ zur Wurzel); Gruppe (c): keine Datei dieses Namens im Repo. Gruppe (b) und (c) vollständig, je Ziel eine Zeile und darunter je Quelldatei die Abschnitte (×n = mehrfach im Abschnitt).
 
-2976 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2722 – davon 2581 auf andere Katalogeinträge, 54 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 86 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 238 Verweise auf 55 Dateien. Gruppe (c) Ziel gibt es nicht: 16 Verweise auf 5 Namen.
+2978 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2724 – davon 2583 auf andere Katalogeinträge, 54 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 86 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 238 Verweise auf 55 Dateien. Gruppe (c) Ziel gibt es nicht: 16 Verweise auf 5 Namen.
 
 ### Gruppe (b) – Ziel anderswo im Repo
 - **abi-pruefungen.md** (liegt in abitur/) – 4 Verweise aus 2 Einträgen
@@ -343,7 +343,7 @@ Verweise auf Katalogeinträge mit Pfadangabe (`katalog/<name>.md`; zählen in `t
 ## 2 Einheitennummern
 Eine Einheitenangabe ist „Einheit n“ oder „Einheiten n“ mit einer oder zwei Ziffern, fortgesetzt mit „und“, „bis“, „–“, Komma oder Schrägstrich („Einheit 6 und 8“, „Einheiten 2 bis 4“, „Einheit 2, 3 und 5“). Sie steht hinter einem Verweis, wenn zwischen `<name>.md` und „Einheit“ nur Leerraum, ein Komma oder eine öffnende Klammer steht („x.md Einheit 4“, „x.md, Einheit 4“, „x.md (Einheit 4)“) – oder, in der Klammerform der Blatt-0-Abschnitte seit Commit cfa4723, davor noch der Rest des Klammerinhalts und die schließende Klammer („Thema Terme (terme.md), Einheit 2“, „Kreis (kreis.md) Einheit 2“, „(x.md, Blatt 0), Einheit 2“; „Lineare Funktionen (lineare-funktionen.md, Blatt 0)“ ohne Angabe dahinter bekommt keine); dann wird die größte genannte Nummer gegen die Zahl der Lerneinheiten der Zieldatei gehalten. Nicht eindeutig zuordenbar und deshalb nur gelistet: (1) der Verweis davor steht in einer Reihung („a.md und b.md Einheit 2“, „a.md, b.md Einheit 2“) – welcher gemeint ist, steht nicht da; (2) zwischen Verweis und Angabe stehen bis zu 4 Wörter ohne Satz- oder Klammerende („x.md, dessen Einheit 5“, „x.md (Sek I, Einheit 3)“) – hier kann auch eine eigene Einheit gemeint sein; (3) die Angabe steht vor dem Verweis mit „in“, „im“, „von“, „aus“, „der“, „des“ oder „bei“ dazwischen („Einheit 4 in x.md“). Alle anderen Einheitenangaben – ohne Verweis in der Zeile, hinter einem Satzende oder weiter entfernt – gelten als eigene Einheiten des Eintrags und werden nicht geprüft; Angaben an Nennungen in Wortform („Thema Terme, Einheit 2“) haben keinen Verweis, dem sie zugeordnet werden könnten (die in Blatt 0 stehen unter Prüfung 5).
 
-3868 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 515 (515 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 24. Die übrigen 3329 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
+3872 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 517 (517 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 24. Die übrigen 3331 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
 
 ### Nummer größer als vorhanden
 - lineare-gleichungssysteme.md (Schwache, Zeile 122): „rekonstruktion-von-funktionsgleichungen.md … Einheit 5“ – 3 vorhanden; Zitat: …hungssystem ist dort Werkzeug der Rekonstruktion (rekonstruktion-von-funktionsgleichungen.md), Einheit 5 ist für fhr Vorrat.
@@ -384,7 +384,7 @@ Vier Abgleiche, jeder in beide Richtungen. (a) Jede `katalog/<x>.md` hat eine Ze
 
 (a) Datei ↔ kanonisch: 73 Katalogdateien, 74 kanonische Namen in `themen.csv`, davon 47 mit Stufe II. Bestanden.
 
-(b) H1 gegen thema-Werte: 39 Einträge mit H1 gleich allen thema-Werten, 27 mit Abweichung, 7 ohne thema-Wert (kein Prüfungsthema).
+(b) H1 gegen thema-Werte: 39 Einträge mit H1 gleich allen thema-Werten, 28 mit Abweichung, 6 ohne thema-Wert (kein Prüfungsthema).
 - ableitungsregeln.md: H1 „Ableitungsregeln“ – gleich: abi, iqb; abweichend: fhr „Ableitungen bilden“
 - daten.md: H1 „Daten“ – gleich: –; abweichend: msa „Kenngrößen“, msa „Diagramme lesen und beurteilen“, msa „Daten darstellen“, fhr „Statistische Kenngrößen“, fhr „Daten darstellen und aufbereiten“, iqb „Lage- und Streumaße einer Stichprobe“
 - einheiten.md: H1 „Größen und Einheiten“ – gleich: fhr; abweichend: msa „Einheiten umrechnen“
@@ -403,6 +403,7 @@ Vier Abgleiche, jeder in beide Richtungen. (a) Jede `katalog/<x>.md` hat eine Ze
 - rationale-zahlen.md: H1 „Rationale Zahlen“ – gleich: –; abweichend: msa „Rationale Zahlen rechnen“
 - rekonstruktion-von-funktionsgleichungen.md: H1 „Rekonstruktion von Funktionsgleichungen“ – gleich: abi, iqb; abweichend: fhr „Funktionsgleichung bestimmen“
 - rotationsvolumen.md: H1 „Rotationsvolumen“ – gleich: abi, iqb; abweichend: fhr „Rotationsvolumen um die x-Achse“
+- strahlensaetze.md: H1 „Maßstab, Ähnlichkeit und Strahlensätze“ – gleich: –; abweichend: msa „Maßstab“
 - symmetrie-abbildungen.md: H1 „Symmetrie, Abbildungen und Koordinatensystem“ – gleich: –; abweichend: msa „Symmetrie und Abbildungen“
 - tangente-normale-schnittwinkel.md: H1 „Tangente, Normale, Schnittwinkel“ – gleich: abi, iqb; abweichend: fhr „Anstieg und Tangente“, fhr „Normale“
 - terme.md: H1 „Terme“ – gleich: –; abweichend: msa „Terme umformen“, fhr „Terme umformen“
@@ -411,7 +412,7 @@ Vier Abgleiche, jeder in beide Richtungen. (a) Jede `katalog/<x>.md` hat eine Ze
 - wahrscheinlichkeit.md: H1 „Wahrscheinlichkeit“ – gleich: –; abweichend: msa „Wahrscheinlichkeit mehrstufig“, msa „Wahrscheinlichkeit einstufig“, msa „Zählen und Kombinatorik“
 - winkel-dreiecke.md: H1 „Winkel und Dreiecke“ – gleich: –; abweichend: msa „Ebene Figuren und Winkel“
 - zufallsexperimente-und-pfadregeln.md: H1 „Zufallsexperimente und Pfadregeln“ – gleich: –; abweichend: fhr „Mehrstufige Zufallsexperimente“, fhr „Laplace-Wahrscheinlichkeit“, fhr „Baumdiagramm und Pfadregeln“, abi „Baumdiagramm und Pfadregeln“, abi „Zufallsexperimente und Urnenmodelle“, abi „Ereignisse und Mengenoperationen“, iqb „Baumdiagramm und Pfadregeln“, iqb „Zufallsexperimente und Urnenmodelle“, iqb „Ereignisse und Mengenoperationen“
-- zuordnungen.md: H1 „Zuordnungen“ – gleich: –; abweichend: msa „Zuordnungen proportional und antiproportional“, msa „Maßstab“
+- zuordnungen.md: H1 „Zuordnungen“ – gleich: –; abweichend: msa „Zuordnungen proportional und antiproportional“
 
 Ohne `thema`-Wert in `themen.csv` (kein Prüfungsthema; H1 zum Nachlesen):
 - binomische-formeln.md: H1 „Binomische Formeln“
@@ -419,7 +420,6 @@ Ohne `thema`-Wert in `themen.csv` (kein Prüfungsthema; H1 zum Nachlesen):
 - kreis.md: H1 „Kreis“
 - pyramide-kegel-kugel.md: H1 „Pyramide, Kegel, Kugel“
 - reelle-zahlen.md: H1 „Reelle Zahlen, Potenzgesetze und Wurzelgesetze“
-- strahlensaetze.md: H1 „Maßstab, Ähnlichkeit und Strahlensätze“
 - trigonometrische-funktionen.md: H1 „Trigonometrische Funktionen“
 
 (c) abi/iqb-Themen: 48 verschiedene thema-Werte der abi/iqb-Zeilen; Listen: abitur-vokabular.md § 2: 48; abi-be-gk-geltung.md § 1: 48; abi-be-lk-geltung.md § 1: 48; abi-bb-gk-geltung.md § 1: 48; abi-bb-ea-geltung.md § 1: 48. Bestanden.

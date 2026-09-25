@@ -858,7 +858,7 @@ Einheit 3 · Punktsymmetrie, Drehung, Verschiebung
   3.13  Fehler finden (Drehung mit Spiegelung verwechselt; beim Verschieben nur eine Ecke verschoben; Punktspiegelung als Achsenspiegelung gezeichnet)
   3.14  Begründen (warum Original und Bild bei allen drei Abbildungen deckungsgleich sind, obwohl die Lage anders ist)
 
-## strahlensaetze (Sek I)
+## strahlensaetze (Sek I) – themen.csv: Maßstab
 Einheit 1 · Maßstab
   1.1  Maßstab lesen und in Worten sagen (1 : 200 – ein Zentimeter auf dem Plan sind 200 cm = 2 m)
   1.2  Vergrößerungs- gegen Verkleinerungsmaßstab unterscheiden (5 : 1 gegen 1 : 5)
@@ -906,7 +906,7 @@ Einheit 3 · Strahlensätze
   3.11  Fehler finden (Abschnitt nicht vom Zentrum aus gemessen; Parallele mit Strahlabschnitt in einer Gleichung gemischt; nicht parallele Linien; Verhältnisgleichung falsch umgestellt)
   3.12  Begründen (warum die Strahlensätze aus der zentrischen Streckung folgen; warum der Schatten eines Baums zur Höhe eines Stabs passt – gleiche Sonnenstrahlen sind parallel)
 
-## zuordnungen (Sek I) – themen.csv: Zuordnungen proportional und antiproportional, Maßstab
+## zuordnungen (Sek I) – themen.csv: Zuordnungen proportional und antiproportional
 Einheit 1 · Zuordnungen darstellen
   1.1  Wertetabelle aus Text anlegen
   1.2  Punkte ins Koordinatensystem eintragen

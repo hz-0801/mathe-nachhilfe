@@ -160,7 +160,7 @@ Gegenprobe: 236 Fälle; Zahlenblock von `_klassen-belege.md`: 236 – stimmt.
 | trigonometrie | 2 | Sekundo Kl. 10 | Sekundo Kl. 10, S. 106: „Trigonometrische Berechnungen an rechtwinkligen Dreiecken“ (Z. 549, 550) | Die Seite nennt Berechnungen allgemein; Seiten und Winkel (Einheiten 1 und 2) zugeordnet. |
 | trigonometrie | 2 | Mathematik 2023 Kl. 10 | Mathematik 2023 Kl. 10, S. 61: „Berechnungen in rechtwinkligen Dreiecken“ (Z. 554, 555) | Berechnungen allgemein: Seiten und Winkel (Einheiten 1 und 2). |
 | trigonometrie | 2 | Mathematik heute Kl. 10 | Mathematik heute Kl. 10, S. 90: „Sinus, Kosinus und Tangens im rechtwinkligen Dreieck“ (Z. 333, 334) | Die Lerneinheit nennt Sinus, Kosinus, Tangens im rechtwinkligen Dreieck allgemein; Seiten und Winkel (Einheiten 1 und 2). |
-| trigonometrie | 2 | Elemente Kl. 9 (Ausgabe 2016) | Mathematik 2023 Kl. 10, S. 61: „Berechnungen in rechtwinkligen Dreiecken“ (Z. 554, 555) | Berechnungen allgemein: Seiten und Winkel (Einheiten 1 und 2). |
+| trigonometrie | 2 | Elemente Kl. 9 (Ausgabe 2016) | Elemente Kl. 9 (Ausgabe 2016), S. 142: „4.3 Berechnungen in rechtwinkligen Dreiecken“ (Z. 422) | Berechnungen allgemein: Seiten und Winkel (Einheiten 1 und 2). |
 | trigonometrie | 2 | mathe.delta Kl. 9 | mathe.delta Kl. 9, S. 158: „5.1 Sinus, Kosinus und Tangens im rechtwinkligen Dreieck“ (Z. 636, 637) | Sinus, Kosinus, Tangens im rechtwinkligen Dreieck allgemein: Seiten und Winkel (Einheiten 1 und 2). |
 | winkel-dreiecke | 2 | Sekundo Kl. 8 | Sekundo Kl. 8, S. 22: „W inkelberechnungen“ (Z. 244) | „Winkelberechnungen“ ohne nähere Angabe; Einheiten 2 und 3 zugeordnet. |
 | winkel-dreiecke | 3 | Sekundo Kl. 8 | Sekundo Kl. 8, S. 22: „W inkelberechnungen“ (Z. 244) | wie Einheit 2. |
@@ -172,7 +172,7 @@ Gegenprobe: 236 Fälle; Zahlenblock von `_klassen-belege.md`: 236 – stimmt.
 | quadratische-gleichungen | 1 | Fundamente Kl. 9 | Fundamente Kl. 9, S. 114: „3.9 Quadratische Gleichungen lösen“ (Z. 329) | „Quadratische Gleichungen lösen“ vor den Lösungsformeln als Wurzelziehen und Nullprodukt gelesen (Einheiten 1 und 2). |
 | quadratische-gleichungen | 2 | Sekundo Kl. 10 | Sekundo Kl. 10, S. 46: „Sonderfälle quadratischer Gleichungen“ (Z. 536) | wie Einheit 1. |
 | potenz-exponentialfunktionen | 2 | LS Kl. 10 | LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „1 Exponentielles Wachstum“ (Z. 220) | „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet. |
-| potenz-exponentialfunktionen | 2 | Fundamente Kl. 10 | LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „1 Exponentielles Wachstum“ (Z. 220) | „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet. |
+| potenz-exponentialfunktionen | 2 | Fundamente Kl. 10 | Fundamente Kl. 10, S. 44: „2.1 Exponentielles Wachstum“ (Z. 419) | „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet. |
 | trigonometrische-funktionen | 1 | Mathematik 2023 Kl. 10 | Mathematik 2023 Kl. 10, S. 84: „Die Sinusfunktion mit Winkeln im Bogenmaß“ (Z. 595, 596) | Das Bogenmaß wird hier mit der Sinusfunktion eingeführt; auch Einheit 1 (Bogenmaß) zugeordnet. |
 | wahrscheinlichkeit | 3 | Sekundo Kl. 9 | Sekundo Kl. 9, S. 164: „Rechnen mit dem Gegenereignis“ (Z. 440) | Gegenereignis steht im Kapitel nach den zweistufigen Versuchen; auch der Typ „mindestens einmal“ der Einheit 3 gedeckt. |
 
