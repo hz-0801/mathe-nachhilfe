@@ -1,0 +1,49 @@
+20a Produkte | Skript: 4 | Blatt: 4 | OK
+20b Produkte | Skript: 4 | Blatt: 4 | OK
+20c Produkte | Skript: 4 | Blatt: 4 | OK
+20d Produkte | Skript: 4 | Blatt: 4 | OK
+21B | Skript: 11 | Blatt: 11 | OK
+21a | Skript: 5 | Blatt: 5 | OK
+21b | Skript: 7 | Blatt: 7 | OK
+21c | Skript: 4 | Blatt: 4 | OK
+21d | Skript: 17 | Blatt: 17 | OK
+21e | Skript: 1 | Blatt: 1 | OK
+21f | Skript: 11 | Blatt: 11 | OK
+21g | Skript: -12 | Blatt: -12 | OK
+21h | Skript: 19 | Blatt: 19 | OK
+22B | Skript: 6*x + 3*y | Blatt: 6x + 3y | OK
+22a | Skript: 7*x + 2*y | Blatt: 7x + 2y | OK
+22b | Skript: 5*m + 6*n | Blatt: 5m + 6n | OK
+22c | Skript: 8*m + 7*n | Blatt: 8m + 7n | OK
+22d | Skript: 7*u + 7*v | Blatt: 7u + 7v | OK
+22e | Skript: 7*x + 3*y | Blatt: 7x + 3y | OK
+22f | Skript: 3*x**2 + 2*x*y + x | Blatt: 3x² + 2xy + x | OK
+22g | Skript: 3*m*n + 4*m | Blatt: 3mn + 4m | OK
+22h | Skript: 10*x + 3*y | Blatt: 10x + 3y | OK
+23B | Skript: x**2 + 8*x + 12 | Blatt: x² + 8x + 12 | OK
+23a | Skript: x**2 + 5*x + 4 | Blatt: x² + 4x + x + 4 | OK
+23b | Skript: m**2 + 9*m + 14 | Blatt: m² + 7m + 2m + 14 | OK
+23c | Skript: y**2 + 4*y + 3 | Blatt: y² + y + 3y + 3 | OK
+23d | Skript: u*v + 3*u + 4*v + 12 | Blatt: uv + 3u + 4v + 12 | OK
+23e | Skript: x**2 + 11*x + 18 | Blatt: x² + 11x + 18 | OK
+24a | Skript: x**2 - 4*x - 12 | Blatt: x² - 4x - 12 | OK
+24b | Skript: x**2 - 10*x + 21 | Blatt: x² - 10x + 21 | OK
+24c | Skript: 2*x**2 + 11*x + 5 | Blatt: 2x² + 11x + 5 | OK
+24d | Skript: 3*m**2 + 7*m*n + 2*n**2 | Blatt: 3m² + 7mn + 2n² | OK
+24e | Skript: 8*x**2 - 26*x + 15 | Blatt: 8x² - 26x + 15 | OK
+25a | Skript: x**2 + 10*x + 24 | Blatt: x² + 10x + 24 | OK
+25b | Skript: x**2 + 9*x + 14 | Blatt: x² + 9x + 14 | OK
+25c | Skript: x**2 - 6*x + 5 | Blatt: x² - 6x + 5 | OK
+25d | Skript: x**2 - 10*x + 16 | Blatt: x² - 10x + 16 | OK
+25e | Skript: x**2 + 6*x + 8 | Blatt: x² + 6x + 8 | OK
+25f | Skript: y**2 + 9*y + 18 | Blatt: y² + 9y + 18 | OK
+26a | Skript: x**2 + 5*x + 4 | Blatt: x² + 4x + x + 4 | OK
+26c | Skript: x**2 + 5*x + 4 | Blatt: x² + 5x + 4 | OK
+26c fehlt | Skript: 5*x | Blatt: 5x | OK
+27a | Skript: s**2 + 2*s - 8 | Blatt: s² + 2s - 8 | OK
+27b alt | Skript: 36 | Blatt: 36 | OK
+27b neu | Skript: 40 | Blatt: 40 | OK
+27c Unterschied | Skript: 2*s - 8 | Blatt: 2s - 8 | OK
+27c Grenze | Skript: 4 | Blatt: 4 | OK
+Kastenprüfung e3_a.tex: x^2+3x, 6x+12, x+6x
+Abweichungen: 0

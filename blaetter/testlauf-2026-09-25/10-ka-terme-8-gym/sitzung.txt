@@ -1,0 +1,37 @@
+Lernblatt · Klassenarbeit aus zwei Einträgen: terme.md (Einheit 3–4) und binomische-formeln.md (Einheit 1–3) · mit Wiederholung, Ausblick leer (kein Zweig nach Kl. 8) · 5 Zweige · Zone aus 6 Fertigkeiten, darin terme.md Einheit 1–2
+
+Einheit 1 · Klammern auflösen: Hier lernst du, Klammern mit Plus, Minus oder einer Zahl davor aufzulösen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Terme zusammenfassen, Malnehmen mit Vorzeichen
+Einheit 2 · Ausklammern: Hier lernst du, einen gemeinsamen Faktor vor die Klammer zu ziehen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Zahl mal Klammer (Einheit 1)
+Einheit 3 · Summe mal Summe: Hier lernst du, Terme mit zwei Variablen zusammenzufassen und zwei Klammern miteinander malzunehmen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Klammern auflösen (Einheit 1), Terme zusammenfassen, Terme malnehmen
+Einheit 4 · Binomische Formeln: Hier lernst du, Quadrate von Klammern mit den drei binomischen Formeln auszumultiplizieren · neu in diesem Jahr · P10 · baut auf: Summe mal Summe (Einheit 3), Minusklammer (Einheit 1), Quadratzahlen
+Einheit 5 · Faktorisieren: Hier lernst du, eine Summe mit einer binomischen Formel in ein Produkt zu verwandeln · neu in diesem Jahr (an der Oberschule je nach Buch bis Klasse 10) · keine P10-Aufgabe · baut auf: binomische Formeln (Einheit 4), Ausklammern (Einheit 2)
+
+Planfrage: entfällt, weil es eine Klassenarbeit ist (1.3). Die Antwort „alle“ aus der Eingabe deckt sich mit dem Plan.
+
+TermeBinomischeFormeln_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+
+TermeBinomischeFormeln_Lernblatt.pdf
+TermeBinomischeFormeln_Gesamt.pdf
+TermeBinomischeFormeln_Loesungen.pdf
+TermeBinomischeFormeln_2026-09-25_protokoll.zip
+
+1. Abweichungen:
+- Die Klassenarbeit stützt sich auf zwei Einträge: terme.md Einheit 1–2 liegen als Wiederholung in der Zone (am Gymnasium Kl. 6–7 und 7), terme.md Einheit 3–4 und binomische-formeln.md Einheit 1–3 sind die fünf Zweige. Kein Ausblick-Zweig, weil keine Marke nach Kl. 8 liegt.
+- Die Zone ist ohne „Scheitelpunktform lesen“ (am Gymnasium erst Kl. 9; der P10-Nachweis Nr. 33 d ist reine Termumformung) und ohne „Dezimalzahlen als Vorzahlen“, weil das Blatt beides nicht braucht.
+- Zwischensprosse: Nr. 11 g „Variable mal Klammer“ als Brücke zu Ausklammern und Klammer mal Klammer.
+- Ergänzte Pflichtelemente ohne passenden Typ im Eintrag: Entscheiden Nr. 18, Anwendungen Nr. 19, 38 und 46.
+- Die Höhe ist die Zielmarke des Eintrags ohne Original in den Einheiten 1, 2, 3 und 5. Einheit 4 schließt mit dem verfremdeten Original (P10 2017), Nr. 33 d.
+- Geteilte Hauptnummern: 23/24, 31/32/33, 35/36, 41/42/43.
+- Im Vorspann definierte Bausteine: \zweigkopf (Zweigzeile unter \einheitenkopf*), \flaechenbild (Rechteck in vier Teilflächen, Nr. 26 und 37), \abhak/\abhakgruppe (Abhakseite), \verzzeile (Verzeichniszeile mit Link).
+- Befund zur Vorlage 2026-09-22h: Im gleichungsraster liegt die letzte Schreiblinie einer Zeile auf dem Text der nächsten Zeile. Ich habe je Rasterzeile \noalign{\vspace{5mm}} gesetzt; die Vorlage bleibt unverändert.
+- Die „Tabelle als Bild“ der Klammer-Kette steht nur im Beispiel von Nr. 11, als Sachtabelle.
+- Auf dem ganzen Blatt stehen a und b nur für die Glieder der Formel. Aufgabenvariablen sind x, y, z, m, n, u, v; Sachvariablen p, k, s, q, w.
+
+2. Katalogzeile:
+- Gebraucht: Lerneinheiten, Marken, Typen, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Sprossen, Typische Fehler, Prüfungsform/Zielmarke. Nicht gebraucht: Merkkasten, Grundvorstellung. Die Verortung diente nur zur Wahl der beiden Einträge.
+- Lücken im Katalog: Die Vorstufen „Ist das ein Quadrat?“ (Wurzel dazuschreiben) und „Passt das Mittelglied?“ (doppeltes Produkt bilden) in binomische-formeln.md verlangen eine Rechnung, was 2.3 a widerspricht. Auf dem Blatt stehen sie als „Quadrat von“ (Nr. 39) und als reines Ankreuzen (Nr. 40).
+- Weitere Lücken: terme.md Einheit 4 hat keinen Begründen- oder Kontexttyp. Die Voraussetzung „Scheitelpunktform lesen“ liegt am Gymnasium hinter dem Thema.
+- Spannen: terme.md Einheit 3–4 und binomische-formeln.md Einheit 1 (GYM Kl. 7–8) wurden zu „neu oder schon bekannt – je nach Buch“. binomische-formeln.md Einheit 3 (OS Kl. 8–10) steht als Zusatz „an der Oberschule je nach Buch bis Klasse 10“. terme.md Einheit 1 (GYM 6–7) und 2 (GYM 7) liegen in der Zone.
+
+3. Protokoll-Archiv: TermeBinomischeFormeln_2026-09-25_protokoll.zip

@@ -1,0 +1,43 @@
+39 81 | Skript: 9 | Blatt: 9 | OK
+39 z² | Skript: z | Blatt: z | OK
+39 25m² | Skript: 5*m | Blatt: 5*m | OK
+39 8x | Skript: nein | Blatt: nein | OK
+39 12 | Skript: nein | Blatt: nein | OK
+39 100y² | Skript: 10*y | Blatt: 10*y | OK
+39 2x² | Skript: nein | Blatt: nein | OK
+40a | Skript: ja | Blatt: ja | OK
+40b | Skript: nein | Blatt: nein | OK
+40c | Skript: ja | Blatt: ja | OK
+40d | Skript: nein | Blatt: nein | OK
+40e | Skript: ja | Blatt: ja | OK
+40f | Skript: nein | Blatt: nein | OK
+41B | Skript: (x - 6)*(x + 6) | Blatt: (x + 6)·(x - 6) | OK
+41a | Skript: (x - 4)*(x + 4) | Blatt: (x + 4)·(x - 4) | OK
+41b | Skript: (x - 9)*(x + 9) | Blatt: (x + 9)·(x - 9) | OK
+41c | Skript: (m - 1)*(m + 1) | Blatt: (m + 1)·(m - 1) | OK
+41d | Skript: (y - 10)*(y + 10) | Blatt: (y + 10)·(y - 10) | OK
+41e | Skript: (x + 8)**2 | Blatt: (x + 8)² | OK
+41f | Skript: (z - 9)**2 | Blatt: (z - 9)² | OK
+42a | Skript: (4*y + 5)**2 | Blatt: (4y + 5)² | OK
+42b | Skript: 7*(x - 2)*(x + 2) | Blatt: 7·(x + 2)·(x - 2) | OK
+42c | Skript: nein | Blatt: nein | OK
+42c Mittelglied | Skript: 8 | Blatt: 8 | OK
+42d | Skript: (4*x - 1)*(4*x + 1) | Blatt: (4x + 1)·(4x - 1) | OK
+43a | Skript: [-12, 12] | Blatt: [-12, 12] | OK
+43b | Skript: 4 | Blatt: 4 | OK
+43c | Skript: 2*(x - 6)**2 | Blatt: 2·(x - 6)² | OK
+44a | Skript: True | Blatt: True | OK
+44b geht nicht | Skript: True | Blatt: True | OK
+44c | Skript: nein | Blatt: nein | OK
+44d | Skript: (x + 10)**2 | Blatt: (x + 10)² | OK
+44e | Skript: (x - 4)**2 | Blatt: (x - 4)² | OK
+44f | Skript: (y - 11)**2 | Blatt: (y - 11)² | OK
+45a | Skript: True | Blatt: True | OK
+45b | Skript: -(y - 3)*(y + 3) | Blatt: (3 + y)·(3 - y) | OK
+46a | Skript: w + 12 | Blatt: w + 12 | OK
+46b Seite | Skript: 20 | Blatt: 20 | OK
+46b Fläche | Skript: 400 | Blatt: 400 | OK
+46c | Skript: w - 4 | Blatt: w - 4 | OK
+Kastenprüfung e5_a.tex: keine Treffer
+Doppelte Aufgabenterme (alle Aufgabendateien): keine
+Abweichungen: 0

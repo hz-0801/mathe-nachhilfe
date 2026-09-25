@@ -1,0 +1,37 @@
+8a | Skript: 3 | Blatt: 3 | OK
+9d | Skript: negative Zahl | Blatt: negative Zahl | OK
+10B | Skript: x + 5 | Blatt: x + 5 | OK
+10a | Skript: x + 7 | Blatt: x + 7 | OK
+10b | Skript: 3*x + 5 | Blatt: 3x + 5 | OK
+10c | Skript: x + 4 | Blatt: x + 4 | OK
+10d | Skript: 3*m + 2 | Blatt: 3m + 2 | OK
+11B | Skript: 4*x + 8 | Blatt: 4x + 8 | OK
+11a | Skript: 2*x + 6 | Blatt: 2x + 6 | OK
+11b | Skript: 5*m + 20 | Blatt: 5m + 20 | OK
+11c | Skript: 6*y + 6 | Blatt: 6y + 6 | OK
+11d | Skript: 7*x + 14 | Blatt: 14 + 7x | OK
+11e | Skript: 4*x - 20 | Blatt: 4x - 20 | OK
+11f | Skript: 2*x + 18 | Blatt: 2x + 18 | OK
+11g | Skript: x**2 + 4*x | Blatt: x² + 4x | OK
+12B | Skript: 11 - x | Blatt: 11 - x | OK
+12a | Skript: -x - 6 | Blatt: -x - 6 | OK
+12b | Skript: 8 - x | Blatt: 8 - x | OK
+12c | Skript: 12 - x | Blatt: 12 - x | OK
+12d | Skript: 3*x + 1 | Blatt: 3x + 1 | OK
+12e | Skript: 3*m + 2*n - 3 | Blatt: 3m + 2n - 3 | OK
+12f | Skript: 12 - 3*x | Blatt: -3x + 12 | OK
+12g | Skript: 2*x - 6 | Blatt: 2x - 6 | OK
+12h | Skript: 2*x + 18 | Blatt: 2x + 18 | OK
+13a | Skript: 17 - x | Blatt: 17 - x | OK
+13b | Skript: 13 - 2*x | Blatt: 13 - 2x | OK
+13c | Skript: 3 - 2*x | Blatt: 3 - 2x | OK
+13d | Skript: 2 - 3*x | Blatt: 2 - 3x | OK
+14a | Skript: nein | Blatt: nein | OK
+14b | Skript: ja | Blatt: ja | OK
+14c | Skript: nein | Blatt: nein | OK
+14c-Probe x=0 | Skript: -1 | Blatt: 2 - 3 | OK
+15b | Skript: 14 - 3*p | Blatt: 14 - 3p | OK
+15c | Skript: 19/2 | Blatt: 9,50 | OK
+15d | Skript: -1 | Blatt: -1 | OK
+Kastenprüfung e1_a.tex: keine Treffer
+Abweichungen: 0

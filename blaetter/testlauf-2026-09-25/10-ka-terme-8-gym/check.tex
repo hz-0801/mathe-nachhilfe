@@ -1,0 +1,22 @@
+% Prüfsatz je Einheit: xelatex -jobname=check_e1 "\def\EIN{e1}\input{check.tex}"
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% Bausteine, die die Vorlage nicht führt (wie in den Rahmendateien)
+\newcommand{\zweigkopf}[3]{\par\noindent\hypertarget{#3}{}\einheitenkopf*{#1}\vspace{-1mm}\noindent{\small #2\par}\medskip}
+\newcommand{\flaechenbild}[8]{\begin{tikzpicture}[thick]
+  \draw (0,0) rectangle (#1+#2,-#3-#4);
+  \draw (#1,0) -- (#1,-#3-#4);
+  \draw (0,-#3) -- (#1+#2,-#3);
+  \node[above] at (#1/2,0) {$#5$};
+  \node[above] at (#1+#2/2,0) {$#6$};
+  \node[left] at (0,-#3/2) {$#7$};
+  \node[left] at (0,-#3-#4/2) {$#8$};
+\end{tikzpicture}}
+\begin{document}
+\blattkopf{Terme und binomische Formeln}{Prüfsatz \EIN}
+\weit
+\input{\EIN_a}
+\clearpage
+\input{\EIN_l}
+\end{document}

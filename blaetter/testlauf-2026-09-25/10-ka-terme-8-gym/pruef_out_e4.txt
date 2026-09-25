@@ -1,0 +1,57 @@
+28a | Skript: ja | Blatt: ja | OK
+28b | Skript: False | Blatt: False | OK
+28c | Skript: ja | Blatt: ja | OK
+28c | Skript: (m - 6)**2 | Blatt: (m - 6)·(m - 6) | OK
+28d | Skript: True | Blatt: True | OK
+28e | Skript: False | Blatt: False | OK
+29a | Skript: True | Blatt: True | OK
+29b | Skript: True | Blatt: True | OK
+29c | Skript: True | Blatt: True | OK
+29d | Skript: True | Blatt: True | OK
+29e | Skript: True | Blatt: True | OK
+30a | Skript: erste | Blatt: erste | OK
+30b | Skript: dritte | Blatt: dritte | OK
+30c | Skript: keine | Blatt: keine | OK
+30d | Skript: zweite | Blatt: zweite | OK
+30e | Skript: keine | Blatt: keine | OK
+31B | Skript: x**2 + 12*x + 36 | Blatt: x² + 12x + 36 | OK
+31a | Skript: x**2 + 2*x + 1 | Blatt: x² + 2x + 1 | OK
+31b | Skript: x**2 + 8*x + 16 | Blatt: x² + 8x + 16 | OK
+31c | Skript: m**2 + 4*m + 4 | Blatt: m² + 4m + 4 | OK
+31d | Skript: y**2 + 20*y + 100 | Blatt: y² + 20y + 100 | OK
+31e | Skript: x**2 - 18*x + 81 | Blatt: x² - 18x + 81 | OK
+31f | Skript: x**2 - 64 | Blatt: x² - 64 | OK
+32a Formel | Skript: dritte | Blatt: dritte | OK
+32a | Skript: 16 - z**2 | Blatt: 16 - z² | OK
+32b Formel | Skript: keine | Blatt: keine | OK
+32b | Skript: x**2 + 5*x - 6 | Blatt: x² + 5x - 6 | OK
+32c | Skript: 9*x**2 + 12*x + 4 | Blatt: 9x² + 12x + 4 | OK
+32d | Skript: 4*m**2 - 4*m*n + n**2 | Blatt: 4m² - 4mn + n² | OK
+33a | Skript: 4*x**2 - 8*x + 4 | Blatt: 4x² - 8x + 4 | OK
+33b | Skript: -x**2 + 14*x - 49 | Blatt: -x² + 14x - 49 | OK
+33c | Skript: x**2 + 4 | Blatt: x² + 4 | OK
+33d | Skript: x**2 - 12*x + 25 | Blatt: x² - 12x + 25 | OK
+34B | Skript: 1681 | Blatt: 1681 | OK
+34a | Skript: 961 | Blatt: 961 | OK
+34b | Skript: 361 | Blatt: 361 | OK
+34c | Skript: 2496 | Blatt: 2496 | OK
+34d | Skript: 9801 | Blatt: 9801 | OK
+35a | Skript: x**2 + 22*x + 121 | Blatt: x² + 22x + 121 | OK
+35b | Skript: m**2 + 26*m + 169 | Blatt: m² + 26m + 169 | OK
+35c | Skript: x**2 - 20*x + 100 | Blatt: x² - 20x + 100 | OK
+35d | Skript: y**2 - 16*y + 64 | Blatt: y² - 16y + 64 | OK
+36a | Skript: 25*x**2 + 20*x + 4 | Blatt: 25x² + 20x + 4 | OK
+36b | Skript: 16*y**2 + 24*y + 9 | Blatt: 16y² + 24y + 9 | OK
+36c | Skript: -x**2 - 12*x - 36 | Blatt: -x² - 12x - 36 | OK
+36d | Skript: -x**2 - 8*x + 4 | Blatt: -x² - 8x + 4 | OK
+37a links | Skript: 100 | Blatt: 100 | OK
+37a rechts | Skript: 52 | Blatt: 52 | OK
+37a fehlt | Skript: 48 | Blatt: 48 | OK
+37b | Skript: x**2 + 4*x + 4 | Blatt: x² + 4x + 4 | OK
+37b Formel | Skript: x**2 + 4*x + 4 | Blatt: x² + 4x + 4 | OK
+37c | Skript: [0] | Blatt: [0] | OK
+38a | Skript: q**2 + 8*q + 16 | Blatt: q² + 8q + 16 | OK
+38b | Skript: 8*q + 16 | Blatt: 8q + 16 | OK
+38c | Skript: 96 | Blatt: 96 | OK
+Kastenprüfung e4_a.tex: keine Treffer
+Abweichungen: 0

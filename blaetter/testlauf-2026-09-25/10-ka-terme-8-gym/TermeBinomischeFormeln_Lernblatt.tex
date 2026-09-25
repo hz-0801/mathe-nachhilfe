@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% Bausteine, die die Vorlage (2026-09-22h) nicht führt – Kandidaten für die nächste Stufe:
+% \zweigkopf: Einheitenkopf mit Zweigzeile als zweiter Zeile und Sprungziel
+\newcommand{\zweigkopf}[3]{\par\noindent\hypertarget{#3}{}\einheitenkopf*{#1}\vspace{-1mm}\noindent{\small #2\par}\medskip}
+% \flaechenbild{b1}{b2}{h1}{h2}{oben1}{oben2}{links1}{links2}: Rechteck in vier Teilflächen (Maße in cm)
+\newcommand{\flaechenbild}[8]{\begin{tikzpicture}[thick]
+  \draw (0,0) rectangle (#1+#2,-#3-#4);
+  \draw (#1,0) -- (#1,-#3-#4);
+  \draw (0,-#3) -- (#1+#2,-#3);
+  \node[above] at (#1/2,0) {$#5$};
+  \node[above] at (#1+#2/2,0) {$#6$};
+  \node[left] at (0,-#3/2) {$#7$};
+  \node[left] at (0,-#3-#4/2) {$#8$};
+\end{tikzpicture}}
+% Abhakseite „Das kann ich"
+\newcommand{\abhakgruppe}[1]{\par\smallskip\noindent\textbf{#1}\par}
+\newcommand{\abhak}[2]{\par\noindent{\small\makebox[2em][r]{#1.}\hspace{0.8em}#2\hfill$\square$\par}}
+% Verzeichniszeile mit Sprung
+\newcommand{\verzzeile}[2]{\par\noindent\hyperlink{#1}{#2}\par\medskip}
+\begin{document}
+\blattkopf{Terme und binomische Formeln}{Lernblatt}
+\weit
+\noindent{\large\bfseries Inhalt}\par\bigskip
+\input{verz_lernblatt}
+\clearpage
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{e4_a}
+\clearpage
+\input{e5_a}
+\input{abhaken}
+\end{document}

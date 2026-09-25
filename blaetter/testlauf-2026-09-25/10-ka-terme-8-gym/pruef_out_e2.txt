@@ -1,0 +1,37 @@
+16B | Skript: 4*(x + 5) | Blatt: 4·(x + 5) | OK
+16a | Skript: 3*(x + 4) | Blatt: 3·(x + 4) | OK
+16b | Skript: 5*(m + 2) | Blatt: 5·(m + 2) | OK
+16c | Skript: 7*(y + 3) | Blatt: 7·(y + 3) | OK
+16d | Skript: 2*(x - 8) | Blatt: 2·(x - 8) | OK
+16e | Skript: x*(x + 9) | Blatt: x·(x + 9) | OK
+16f | Skript: 4*x*(x + 3) | Blatt: 4x·(x + 3) | OK
+16g | Skript: 5*x*(x + 1) | Blatt: 5x·(x + 1) | OK
+16h | Skript: 3*(x - 1)*(2*x + 3) | Blatt: 3·(2x² + x - 3) | OK
+16i | Skript: 5*x*(2*x - 3) | Blatt: 5x·(2x - 3) | OK
+16j | Skript: 4*m*(3*m + 2*n - 1) | Blatt: 4m·(3m + 2n - 1) | OK
+16a ggT | Skript: 3 | Blatt: 3 | OK
+16b ggT | Skript: 5 | Blatt: 5 | OK
+16c ggT | Skript: 7 | Blatt: 7 | OK
+16d ggT | Skript: 2 | Blatt: 2 | OK
+16e ggT | Skript: x | Blatt: x | OK
+16f ggT | Skript: 4*x | Blatt: 4*x | OK
+16g ggT | Skript: 5*x | Blatt: 5*x | OK
+16h ggT | Skript: 3 | Blatt: 3 | OK
+16i ggT | Skript: 5*x | Blatt: 5*x | OK
+16j ggT | Skript: 4*m | Blatt: 4*m | OK
+17a | Skript: 6*(x + 3) | Blatt: 6·(x + 3) | OK
+17b | Skript: 8*(m - 3) | Blatt: 8·(m - 3) | OK
+17c | Skript: 7*y*(y + 1) | Blatt: 7y·(y + 1) | OK
+17d | Skript: 9*x*(x - 1) | Blatt: 9x·(x - 1) | OK
+18a | Skript: 2 | Blatt: 2 | OK
+18b | Skript: 1 | Blatt: 1 | OK
+18c | Skript: 1 | Blatt: 1 | OK
+18d | Skript: 4*m | Blatt: 4*m | OK
+18e | Skript: 4 | Blatt: 4 | OK
+18e | Skript: 4*(3*x + 2) | Blatt: 4·(3x + 2) | OK
+19a | Skript: 2*k + 5 | Blatt: 2k + 5 | OK
+19b | Skript: k + 8 | Blatt: k + 8 | OK
+19c | Skript: 13 | Blatt: 13 | OK
+19c Probe | Skript: 0 | Blatt: 0 | OK
+Kastenprüfung e2_a.tex: x^2-9, x^2+3x, 49x^2, x^2+9
+Abweichungen: 0

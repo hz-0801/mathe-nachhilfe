@@ -1,0 +1,41 @@
+1a | Skript: 5 | Blatt: 5 | OK
+1b | Skript: 4 | Blatt: 4 | OK
+1c | Skript: -5/2 | Blatt: -2,5 | OK
+1d | Skript: -5 | Blatt: -5 | OK
+1e | Skript: -10 | Blatt: -10 | OK
+1f | Skript: -1 | Blatt: -1 | OK
+2a | Skript: -15 | Blatt: -15 | OK
+2b | Skript: 20 | Blatt: 20 | OK
+2c | Skript: -4 | Blatt: -4 | OK
+2d | Skript: 64 | Blatt: 64 | OK
+2e | Skript: -4 | Blatt: -4 | OK
+3a | Skript: 7 | Blatt: 7 | OK
+3b | Skript: 11 | Blatt: 11 | OK
+3c | Skript: -2 | Blatt: -2 | OK
+3d | Skript: 5 | Blatt: 5 | OK
+3e | Skript: 11 | Blatt: 11 | OK
+4a | Skript: 7*x | Blatt: 7x | OK
+4b | Skript: 4*y | Blatt: 4y | OK
+4c | Skript: 8*m + 5 | Blatt: 8m + 5 | OK
+4d | Skript: 5*z | Blatt: 5z | OK
+4e | Skript: -4*n | Blatt: -4n | OK
+4f | Skript: 5*x**2 + 5*x | Blatt: 5x² + 5x | OK
+4g | Skript: 2*m + 6*n | Blatt: 2m + 6n | OK
+5a | Skript: 2*x**2 + 8*x | Blatt: 2x² + 8x | OK
+5b | Skript: y**2 + 8*y | Blatt: y² + 8y | OK
+6a | Skript: 20*x | Blatt: 20x | OK
+6b | Skript: 10*m | Blatt: 10m | OK
+6c | Skript: -8*x | Blatt: -8x | OK
+6d | Skript: y**2 | Blatt: y² | OK
+6e | Skript: 8*z**2 | Blatt: 8z² | OK
+6f | Skript: 10*x*y | Blatt: 10xy | OK
+6g | Skript: 18*x | Blatt: 18x | OK
+6h | Skript: -3*x*y | Blatt: -3xy | OK
+7a | Skript: 36 | Blatt: 36 | OK
+7b | Skript: 81 | Blatt: 81 | OK
+7c | Skript: 9/100 | Blatt: 0,09 | OK
+7d | Skript: 12 | Blatt: 12 | OK
+7e | Skript: 14 | Blatt: 14 | OK
+7f | Skript: 16*x**2 | Blatt: 16x² | OK
+Kastenprüfung zone_a.tex: x^2+3x
+Abweichungen: 0

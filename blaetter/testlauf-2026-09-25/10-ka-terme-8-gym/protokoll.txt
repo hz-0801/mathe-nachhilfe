@@ -1,0 +1,225 @@
+Prompt: Unterrichtsblatt-Prompt v4.3
+Modell: Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-22h (Beschriftung bei \balkenab und \liniendia: \balkenab misst die Kategorienamen
+Katalog: terme.md, Status: gegengelesen bis auf [FS] (2026-09-08b; Abgrenzung der Einheit 4 zu binomische-formeln.md am 2026-09-08i; Abschnitt „Offene Punkte des Eintrags“ und Zeile `Zuordnung:` am 2026-09-10c nachgetragen; LISUM-Planungshilfen am 10e nachgetragen; erster Gegenlese-Block am 2026-09-10f: Zielmarken je Einheit, Kette Einheit 4 gebaut, Prüfungshöhe der Kette „Term aufstellen“ gesetzt; Originale des Themas am 10h vollständig nachgetragen) · Stufe: Sek I · Bildungsgänge: alle bis Kl. 10 · gegengelesen: bis auf [FS]
+Katalog: binomische-formeln.md, Status: gegengelesen bis auf [FS] (2026-09-08i; LISUM-Planungshilfen am 10e nachgetragen; erster Gegenlese-Block am 2026-09-10f: Zielmarke geschärft, Vorrat-Sprossen in der Kette markiert, Gliederung bestätigt) · Stufe: Sek I · Bildungsgänge: Gymnasium Kl. 8 (Lehrwerk Kl. 8 II; RLP F = Kl. 8 für Summe mal Summe, G = Kl. 9 für binomische Formeln), Oberschule/Gesamtschule Kl. 9–10 (F; binomische Formeln „in Teilen G“, für den MSA nötig – die P10 setzt sie 2017 und 2022 voraus); nicht Förderschwerpunkt Lernen (D–E) · gegengelesen: bis auf [FS]
+Bestellung: mit Wiederholung · mit Ausblick (Register der Blätter führt das Thema nicht; kein Zweig liegt nach Kl. 8, Ausblick leer)
+Standpunkt: Kl. 8, Gymnasium (Klassenarbeit terme + binomische Formeln)
+
+Zweige (gebaut, alle):
+  Einheit 1 von 5 · Klammern auflösen (terme.md, Einheit 3)
+    Hier lernst du, Klammern mit Plus, Minus oder einer Zahl davor aufzulösen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Terme zusammenfassen, Malnehmen mit Vorzeichen
+  Einheit 2 von 5 · Ausklammern (terme.md, Einheit 4)
+    Hier lernst du, einen gemeinsamen Faktor vor die Klammer zu ziehen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Zahl mal Klammer (Einheit 1)
+  Einheit 3 von 5 · Summe mal Summe (binomische-formeln.md, Einheit 1)
+    Hier lernst du, Terme mit zwei Variablen zusammenzufassen und zwei Klammern miteinander malzunehmen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Klammern auflösen (Einheit 1), Terme zusammenfassen, Terme malnehmen
+  Einheit 4 von 5 · Binomische Formeln (binomische-formeln.md, Einheit 2)
+    Hier lernst du, Quadrate von Klammern mit den drei binomischen Formeln auszumultiplizieren · neu in diesem Jahr · P10 · baut auf: Summe mal Summe (Einheit 3), Minusklammer (Einheit 1), Quadratzahlen
+  Einheit 5 von 5 · Faktorisieren (binomische-formeln.md, Einheit 3)
+    Hier lernst du, eine Summe mit einer binomischen Formel in ein Produkt zu verwandeln · neu in diesem Jahr (an der Oberschule je nach Buch bis Klasse 10) · keine P10-Aufgabe · baut auf: binomische Formeln (Einheit 4), Ausklammern (Einheit 2)
+Abgewählt: keine. Ausblick: keiner. In der Zone (Wiederholung): terme.md Einheit 1 (GYM Kl. 6–7) und Einheit 2 (GYM Kl. 7).
+
+Hauptnummern mit Titel:
+  Kennst du schon
+    1. Ich kann negative Zahlen addieren und subtrahieren.
+    2. Ich kann mit Vorzeichen multiplizieren und Punkt vor Strich beachten.
+    3. Ich kann den Wert eines Terms berechnen.
+    4. Ich kann gleichartige Glieder zusammenfassen.
+    5. Ich finde den Fehler beim Zusammenfassen.
+    6. Ich kann Terme malnehmen.
+    7. Ich kann Quadratzahlen bilden und erkennen.
+  Einheit 1 · Klammern auflösen
+    8. Ich erkenne die Glieder eines Terms mit ihrem Vorzeichen.
+    9. Ich erkenne, was vor einer Klammer steht.
+    10. Ich kann eine Klammer mit Plus davor weglassen.
+    11. Ich kann eine Zahl mit einer Klammer malnehmen.
+    12. Ich kann eine Klammer mit Minus davor auflösen.
+    13. Ich finde den Fehler beim Auflösen von Klammern.
+    14. Ich kann begründen, ob zwei Terme gleichwertig sind.
+    15. Ich kann eine Sachaufgabe mit einer Klammer lösen.
+  Einheit 2 · Ausklammern
+    16. Ich kann einen gemeinsamen Faktor ausklammern.
+    17. Ich finde den Fehler beim Ausklammern.
+    18. Ich kann entscheiden, ob man einen Faktor ausklammern kann.
+    19. Ich kann mit Ausklammern eine Seitenlänge bestimmen.
+  Einheit 3 · Summe mal Summe
+    20. Ich erkenne, welches Glied mit welchem malgenommen wird.
+    21. Ich kann den Wert eines Terms mit zwei Variablen berechnen.
+    22. Ich kann Terme mit zwei Variablen zusammenfassen.
+    23. Ich kann zwei Klammern miteinander malnehmen.
+    24. Ich kann zwei Klammern miteinander malnehmen – weiter.
+    25. Ich finde den Fehler beim Malnehmen zweier Klammern.
+    26. Ich kann mit einem Rechteck begründen, warum vier Produkte entstehen.
+    27. Ich kann mit Klammer mal Klammer Flächen vergleichen.
+  Einheit 4 · Binomische Formeln
+    28. Ich erkenne, ob eine Klammer mit sich selbst malgenommen wird.
+    29. Ich erkenne, was $a$ und was $b$ ist.
+    30. Ich erkenne, welche binomische Formel passt.
+    31. Ich kann eine Klammer mit einer binomischen Formel ausmultiplizieren.
+    32. Ich kann eine Klammer mit einer binomischen Formel ausmultiplizieren – weiter.
+    33. Ich kann eine Klammer mit einer binomischen Formel ausmultiplizieren – weiter.
+    34. Ich kann mit einer binomischen Formel im Kopf rechnen.
+    35. Ich finde den Fehler bei einer binomischen Formel.
+    36. Ich finde den Fehler bei einer binomischen Formel – weiter.
+    37. Ich kann begründen, warum $(a + b)^2$ nicht $a^2 + b^2$ ist.
+    38. Ich kann mit einer binomischen Formel die Fläche eines Rahmens berechnen.
+  Einheit 5 · Faktorisieren
+    39. Ich erkenne, ob ein Term ein Quadrat ist.
+    40. Ich erkenne, ob das Mittelglied passt.
+    41. Ich kann eine Summe mit einer binomischen Formel in ein Produkt verwandeln.
+    42. Ich kann eine Summe mit einer binomischen Formel in ein Produkt verwandeln – weiter.
+    43. Ich kann eine Summe mit einer binomischen Formel in ein Produkt verwandeln – weiter.
+    44. Ich finde den Fehler beim Faktorisieren.
+    45. Ich kann begründen, wann man mit einer binomischen Formel faktorisieren kann.
+    46. Ich kann die Seitenlänge eines Quadrats aus seiner Fläche als Term bestimmen.
+
+Zählung aus der Textextraktion:
+  TermeBinomischeFormeln_KennstDuSchon.pdf: Hauptnummern 7 (1–7), Teilaufgaben 39, Grafiken 0, Seiten 1
+  TermeBinomischeFormeln_Lernblatt.pdf: Hauptnummern 39 (8–46), Teilaufgaben 182, Grafiken 2 (Flächenbilder Nr. 26 und 37; dazu Sachtabellen Nr. 11 und 39), Seiten 17
+  TermeBinomischeFormeln_Gesamt.pdf: Hauptnummern 46 (1–46), Teilaufgaben 221, Grafiken 2 (Flächenbilder Nr. 26 und 37; dazu Sachtabellen Nr. 11 und 39), Seiten 18
+  TermeBinomischeFormeln_Loesungen.pdf: 46 Nummern mit Lösung (1–46), Grafiken 0, Seiten 3
+  Verzeichnis Lernblatt (wortgleich):
+  Einheit 1 · Klammern auflösen (Nr. 8–15) · Seiten 2–4
+  Einheit 2 · Ausklammern (Nr. 16–19) · Seiten 5–6
+  Einheit 3 · Summe mal Summe (Nr. 20–27) · Seiten 7–9
+  Einheit 4 · Binomische Formeln (Nr. 28–38) · Seiten 10–13
+  Einheit 5 · Faktorisieren (Nr. 39–46) · Seiten 14–16
+  Das kann ich (Abhakseite) · Seite 17
+  Verzeichnis Gesamt (wortgleich):
+  Kennst du schon (Nr. 1–7) · Seite 2
+  Einheit 1 · Klammern auflösen (Nr. 8–15) · Seiten 3–5
+  Einheit 2 · Ausklammern (Nr. 16–19) · Seiten 6–7
+  Einheit 3 · Summe mal Summe (Nr. 20–27) · Seiten 8–10
+  Einheit 4 · Binomische Formeln (Nr. 28–38) · Seiten 11–14
+  Einheit 5 · Faktorisieren (Nr. 39–46) · Seiten 15–17
+  Das kann ich (Abhakseite) · Seite 18
+
+Werkzeugaufrufe (Schritt · Anlass):
+    1 · Arbeitsverzeichnis ansehen (Glob) · leer
+    2 · t0-Stempel · Beginn des Baus
+    3 · Themenregister und Blattregister holen · Ausgabe zu groß, in Datei abgelegt
+    4 · Register nach terme/binomisch durchsuchen · Zeilen 26 und 30
+    5 · Registerzeilen ausgeben · terme.md und binomische-formeln.md gewählt
+    6 · Blattregister lesen · Thema nicht geführt → Bestellung mit Ausblick (kein Zweig nach Kl. 8)
+    7 · Einträge terme.md und binomische-formeln.md holen · je eine Datei
+    8 · Eintrag binomische-formeln.md lesen
+    9 · Eintrag terme.md lesen
+   10 · Vorlage und Anleitung holen · Version 2026-09-22h
+   11 · Anleitung lesen
+   12 · Vorlage: Zählername der Hauptnummern suchen · aufgabe
+   13 · Vorlage: Ausschnitt Z. 100–299 lesen · Umgebung aufgabe, gleichungsraster, Einheitenkopf ohne zweite Zeile
+   14 · zone_a.tex schreiben
+   15 · zone_l.tex schreiben
+   16 · Rahmen KennstDuSchon schreiben
+   17 · check.tex (Prüfsatz je Einheit) schreiben
+   18 · pruef.py mit Zone schreiben
+   19 · Zone rechnen, kompilieren, rendern, zone-Stempel · 0 Abweichungen, 1 Seite, Kastentreffer x^2+3x als Teilstring von 2x^2+3x gewertet (kein Kastenterm)
+   20 · Zone Seite 1 ansehen · in Ordnung
+   21 · Zone Lösungsseite ansehen · in Ordnung
+   22 · e1_a.tex schreiben
+   23 · e1_l.tex schreiben
+   24 · pruef.py: Einheit 1 ergänzt
+   25 · weiter-Stempel; Einheit 1 rechnen, kompilieren, rendern · 0 Abweichungen; Kastentreffer „-(x-4)“ im Beispiel 9 − (x − 4)
+   26 · e1 Seite 1 ansehen · gleichungsraster: letzte Schreiblinie läuft durch den Text der nächsten Zeile
+   27 · e1 Seite 2 ansehen · dasselbe bei Nr. 11 und 12
+   28 · e1 Seite 3 ansehen · „gleichwertig."Hat – ASCII-Schlusszeichen verschluckt das Leerzeichen
+   29 · Ausschnitt vergrößert rendern · Raster Nr. 10
+   30 · Ausschnitt ansehen
+   31 · zweiten Ausschnitt rendern
+   32 · zweiten Ausschnitt ansehen · Linie liegt auf c) 10 + (x − 6)
+   33 · Korrektur e1: Rasterzeilen \\[3mm], Beispiel 9 − (x − 2), Anführungszeichen
+   34 · pruef.py: Beispiel 12B angepasst
+   35 · e1 neu kompilieren · \\[3mm] wirkt nicht, Überlappung bleibt
+   36 · e1 Seite 2 ansehen · Überlappung bleibt
+   37 · e1 Seite 3 ansehen · Überlappung bleibt bei Nr. 13
+   38 · Korrektur per Python-Einzeiler · von der Sandbox abgewiesen (Pfadprüfung), nichts geändert
+   39 · Korrektur e1: \\[3mm] → \\ \noalign{\vspace{5mm}}
+   40 · e1 neu kompilieren, e1-Stempel · 0 Abweichungen, 4 Seiten
+   41 · e1 Seite 2 ansehen · Abstand in Ordnung
+   42 · e1 Seite 3 ansehen · in Ordnung
+   43 · e2_a.tex schreiben
+   44 · e2_l.tex schreiben
+   45 · pruef.py: Einheit 2 ergänzt
+   46 · pruef.py: ggT-Prüfung vereinfacht
+   47 · pruef.py: Funktion ggt ergänzt
+   48 · Einheit 2 rechnen, kompilieren, rendern, e2-Stempel · 0 Abweichungen, 3 Seiten; Kastentreffer nur Teilstrings über Termgrenzen
+   49 · pruef.py: Kastenprüfung trennt Terme mit |
+   50 · e2 Seite 1 ansehen · in Ordnung
+   51 · e2 Seite 2 ansehen · in Ordnung
+   52 · e3_a.tex schreiben
+   53 · e3_l.tex schreiben
+   54 · e3_l.tex: Nr. 24 Buchstaben a–e statt f–j
+   55 · pruef.py: Einheit 3 ergänzt
+   56 · Einheit 3 rechnen, kompilieren, rendern, e3-Stempel · 0 Abweichungen, 4 Seiten; Kastentreffer nur Teilstrings
+   57 · e3 Seite 1 ansehen · in Ordnung
+   58 · e3 Seite 2 ansehen · in Ordnung
+   59 · e3 Seite 3 ansehen · Flächenbild in Ordnung
+   60 · e4_a.tex schreiben
+   61 · e4_a.tex: a und b im Text als Mathematik
+   62 · e4_l.tex schreiben
+   63 · pruef.py: Einheit 4 ergänzt
+   64 · Einheit 4 rechnen, kompilieren, e4-Stempel · 0 Abweichungen; Kastentreffer (x+5)^2 in 2·(x + 5)^2
+   65 · Korrektur e4: 2·(x + 5)^2 → 4·(x − 1)^2 in Aufgabe, Lösung, pruef.py
+   66 · Einheit 4 neu, e4-Stempel · 0 Abweichungen, keine Kastentreffer, 5 Seiten
+   67 · e4 Seite 1 ansehen · in Ordnung
+   68 · e4 Seite 2 ansehen · in Ordnung
+   69 · e4 Seite 3 ansehen · in Ordnung
+   70 · e4 Seite 4 ansehen · Flächenbild in Ordnung
+   71 · e5_a.tex schreiben
+   72 · e5_l.tex schreiben
+   73 · pruef.py: Einheit 5 und Doppelprüfung ergänzt
+   74 · pruef.py: quadrat_von
+   75 · pruef.py: mittelglied_passt bereinigt
+   76 · pruef.py: Ausgabe der Doppelprüfung
+   77 · Einheit 5 rechnen, kompilieren, rendern, e5-Stempel · 1 Abweichung 46a: Skript zog die Wurzel ohne Positivannahme (Skriptfehler)
+   78 · pruef.py: 46a mit positivem w
+   79 · pruef.py e5 neu, e5-Stempel · 0 Abweichungen, keine doppelten Aufgabenterme
+   80 · e5 Seite 1 ansehen · in Ordnung
+   81 · e5 Seite 2 ansehen · Nr. 43 b: Feld nach „(x + 4)^2+“ umbrochen, Zeile gedehnt
+   82 · e5 Seite 3 ansehen · in Ordnung
+   83 · Korrektur e5: Gleichung von 43 b in eigene Zeile
+   84 · abhaken.tex schreiben
+   85 · Rahmen Lernblatt schreiben
+   86 · Rahmen Gesamt schreiben
+   87 · Rahmen Lösungen schreiben
+   88 · verz.py schreiben
+   89 · Lernblatt: Platzhalter, kompilieren, Verzeichnis, kompilieren, prüfen, lernblatt-Stempel · Verzeichnis und Links in Ordnung, 18 Seiten, Abhakseite auf zwei Seiten
+   90 · Lernblatt Seite 1 ansehen · Verzeichnis in Ordnung
+   91 · Lernblatt Seite 17 ansehen · Abhakseite läuft über
+   92 · Lernblatt Seite 18 ansehen
+   93 · Lernblatt Seite 15 ansehen · Nr. 43 b in Ordnung
+   94 · abhaken.tex: parskip 0 (Anfang)
+   95 · abhaken.tex: Gruppe schließen
+   96 · Lernblatt neu, lernblatt-Stempel · noch 18 Seiten
+   97 · Rahmen Lernblatt/Gesamt: \abhak ohne parbox
+   98 · Korrektur per PowerShell · von der Sandbox abgewiesen (Pfadprüfung), nichts geändert
+   99 · Rahmen Lernblatt: \par innerhalb von \small
+  100 · Rahmen Gesamt: \par innerhalb von \small
+  101 · Lernblatt neu, lernblatt-Stempel · 17 Seiten, Verzeichnis und Links in Ordnung
+  102 · Abhakseite ansehen · eine Seite
+  103 · Gesamt: Platzhalter, kompilieren, Verzeichnis, kompilieren, prüfen, gesamt-Stempel · 18 Seiten, Verzeichnis und Links in Ordnung
+  104 · Lösungen kompilieren, rendern, loesungen-Stempel · 3 Seiten, 46 Nummern mit Lösung
+  105 · Lösungen Seite 1 ansehen · in Ordnung
+  106 · Lösungen Seite 3 ansehen · in Ordnung
+  107 · Zählung aus der Textextraktion · siehe oben
+  108 · zeiten.txt lesen
+  109 · archiv.py schreiben
+  110 · archiv.py: Inhalt von chat.txt ergänzt
+  111 · ausgabeblock.txt schreiben (Quelle für chat.txt)
+  112 · archiv.py: diese Schrittliste ergänzt
+  113 · protokoll.txt, chat.txt schreiben und Archiv packen
+
+Vorlage: fehlende Bausteine · \zweigkopf (Zweigzeile als zweite Zeile unter \einheitenkopf*, mit Sprungziel), \flaechenbild (Rechteck in vier Teilflächen, Nr. 26 und 37), \abhak und \abhakgruppe (Abhakseite), \verzzeile (Verzeichniszeile mit Link) – alle im Vorspann der Rahmendateien. Befund gleichungsraster: die letzte Schreiblinie einer Zeile liegt auf dem Text der nächsten Zeile; \\[3mm] wirkt nicht, je Zeile \\ \noalign{\vspace{5mm}} gesetzt.
+Warnungen aus dem Log: keine (keine Package mathblatt Warning, keine Overfull-Box, keine Fehler)
+Korrekturrunden: 21 von 113 Schritten
+Zeiten (letzter Stempel je Wort):
+  Zone: 794 s
+  Weiter: 1790332609 (Stempel; 874 s nach t0 – unbeaufsichtigter Lauf, keine Wartezeit)
+  E 1: 1028 s
+  E 2: 1118 s
+  E 3: 1229 s
+  E 4: 1405 s
+  E 5: 1535 s
+  Lernblatt: 1770 s
+  Gesamt: 1803 s
+  Lösungen: 1822 s
