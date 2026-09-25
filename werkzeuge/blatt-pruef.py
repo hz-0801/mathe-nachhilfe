@@ -66,7 +66,9 @@ Lesarten (was gezählt wird; Nummern = Kennzahlen des Auftrags):
     Begriffs in dieser Folge als Wortanfänge stehen (Stamm wie unter 9).
  9  Sprossenabgleich: Typen = die mit „·“ getrennten Stücke der Zeilen „Einheit n:“
     im Abschnitt „### Typen je Lerneinheit“; getrennt wird auch an „—“ und am
-    Satzende, nie in Klammern; ein Vorspann bis zu einem Doppelpunkt mit Marke
+    Satzende, nie in Klammern und nie an einem Malpunkt in einer Formel (V = π · r² · h;
+    Zerlegung seit 26.09.2026 aus werkzeuge/pruefungswort-belege.py übernommen, damit
+    beide Werkzeuge dieselben Typen sehen); ein Vorspann bis zu einem Doppelpunkt mit Marke
     („Sek II …, Haupttypen …:“, „Deutung:“, „Dazu:“) wird abgelöst, „kein …typ“ ist
     kein Typ. Typen hinter „— Sek II“ und in Einheiten mit „(Sek II)“ im Titel
     tragen die Marke [Sek II] und zählen nicht in „ohne Treffer“ (ziel.md § 3:
@@ -478,74 +480,24 @@ def lerneinheiten(eintrag_text):
     return einheiten
 
 
-def teile_auf(text, trenner=(' · ',)):
-    """Trennt an den Trennern außerhalb von Klammern."""
-    stuecke, tiefe, akt, i = [], 0, '', 0
-    while i < len(text):
-        c = text[i]
-        if c in '([':
-            tiefe += 1
-        elif c in ')]':
-            tiefe = max(0, tiefe - 1)
-        treffer = next((t for t in trenner if tiefe == 0 and text.startswith(t, i)), None)
-        if treffer:
-            stuecke.append(akt)
-            akt = ''
-            i += len(treffer)
-            continue
-        akt += c
-        i += 1
-    stuecke.append(akt)
-    return stuecke
-
-
-def auf_ebene_null(text, zeichen):
-    """Positionen von zeichen außerhalb von Klammern."""
-    tiefe, pos = 0, []
-    for i, c in enumerate(text):
-        if c in '([':
-            tiefe += 1
-        elif c in ')]':
-            tiefe = max(0, tiefe - 1)
-        elif c == zeichen and tiefe == 0:
-            pos.append(i)
-    return pos
-
-
-TYPMARKE = re.compile(r'Sek II|Haupttypen|Deutung|Dazu|Nachweis')
+_PW = None
 
 
 def typen(eintrag_text):
-    """{Einheit: [(Typ, Sek-II-Zusatz ja/nein)]}. Getrennt wird an „·“, „—“ und am
-    Satzende außerhalb von Klammern; Vorspann bis zu einem Doppelpunkt, der eine
-    Marke (Sek II, Haupttypen, Deutung, Dazu, Nachweis) trägt, wird abgelöst;
-    „kein …typ“ ist kein Typ. Alles hinter „— Sek II“ ist Sek-II-Zusatz."""
-    teil = abschnitt(eintrag_text, 'Typen je Lerneinheit')
-    sek2_einheit = {n for n, t in lerneinheiten(eintrag_text).items() if 'Sek II' in t}
-    ergebnis = {}
-    for m in re.finditer(r'^Einheit (\d+):\s*(.+)$', teil, re.M):
-        n = int(m.group(1))
-        zeile = m.group(2)
-        for i, abk in enumerate(ABKUERZUNGEN):
-            zeile = zeile.replace(abk, f'\x00{i}\x00')
-        liste = []
-        sek2 = n in sek2_einheit
-        for stueck in teile_auf(zeile, (' · ', ' — ', '. ')):
-            s = stueck.strip().lstrip('—').strip().rstrip('.').strip()
-            if s.startswith('Sek II'):
-                sek2 = True
-            doppel = auf_ebene_null(s, ':')
-            for p in reversed(doppel):
-                if TYPMARKE.search(s[:p]):
-                    s = s[p + 1:].strip()
-                    break
-            for i, abk in enumerate(ABKUERZUNGEN):
-                s = s.replace(f'\x00{i}\x00', abk)
-            if not s or re.fullmatch(r'kein \w*typ', s) or TYPMARKE.fullmatch(s):
-                continue
-            liste.append((s, sek2))
-        ergebnis[n] = liste
-    return ergebnis
+    """{Einheit: [(Typ, Sek-II-Zusatz ja/nein)]}. Die Zerlegung der Typenzeilen übernimmt
+    werkzeuge/pruefungswort-belege.py (typen_des_eintrags: Trennung an „·“, „—“ und am Satzende
+    außerhalb von Klammern, Malpunkte in Formeln wie „V = π · r² · h“ trennen nicht, Platzhalter
+    „kein …typ“ fallen weg). Sek-II-Zusatz = Typ hinter „— Sek II“ oder in einer Sek-II-Einheit
+    eines Sek-I-Eintrags; in einem Sek-II-Eintrag (ohne Abschnitt „Prüfungsform (P10)“) zählt jeder Typ."""
+    global _PW
+    if _PW is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('pruefungswort_belege', Path(__file__).parent / 'pruefungswort-belege.py')
+        _PW = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(_PW)
+    sek2_eintrag = '### Prüfungsform (P10)' not in eintrag_text
+    return {n: [(t['text'], t['sek2'] and not sek2_eintrag) for t in liste]
+            for n, liste in _PW.typen_des_eintrags(eintrag_text, sek2_eintrag).items()}
 
 
 def kernwoerter(text):
