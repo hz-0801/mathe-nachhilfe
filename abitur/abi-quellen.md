@@ -255,7 +255,7 @@ dem CAS-Delta (Auftrag B, Teil 4):
 | 2016-be-lk.pdf | 16_Ma_LK_Aufgaben.pdf | 8 | ja | 1,2 MB | nicht erfasst (vor dem Schnitt 2017) |
 | 2016-be-lk-cas.pdf | 16_Ma_LK_CAS_Aufgaben.pdf | 7 | ja | 1,0 MB | nicht erfasst (vor dem Schnitt 2017) |
 | 2017-bb-ea.pdf | BB_17_Ma_Aufgaben.pdf | 10 | ja | 1,0 MB | erfasst 2026-09-12, 36 Zeilen |
-| 2017-bb-ea-cas.pdf | BB_17_Ma_CAS_Aufgaben.pdf | 10 | ja | 1,1 MB | nicht erfasst |
+| 2017-bb-ea-cas.pdf | BB_17_Ma_CAS_Aufgaben.pdf | 10 | ja | 1,1 MB | erfasst 2026-09-27 (CAS-Nachtrag, 14 Zeilen) |
 | 2017-be-gk.pdf | 17_Ma_GK_Aufgaben.pdf | 8 | ja | 1,4 MB | nicht erfasst |
 | 2017-be-gk-cas.pdf | 17_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 1,5 MB | nicht erfasst |
 | 2017-be-lk.pdf | 17_Ma_LK_Aufgaben_neu.pdf | 10 | ja | 1,1 MB | nicht erfasst |

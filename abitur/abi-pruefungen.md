@@ -1,5 +1,5 @@
 # Zentralabitur Mathematik Berlin/Brandenburg – Hefte und Erfassungsstatus
-Stand 19.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
+Stand 27.09.2026 · Profil abi · gepflegt vom Katalog-Prompt
 
 ## 1 Quelle
 
@@ -23,7 +23,7 @@ in abi-vorgaben.md.
 | 2017 | 2017-bb-ea | BB | erhöht | WTR | 10 | 270 | 100 | **erfasst 2026-09-12, 36 Zeilen** (alle Aufgaben, beide Wahlwege) · Leitfassung erhöht |
 | 2017 | 2017-be-gk-cas | BE | grundlegend | CAS | 8 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
 | 2017 | 2017-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
-| 2017 | 2017-bb-ea-cas | BB | erhöht | CAS | 10 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
+| 2017 | 2017-bb-ea-cas | BB | erhöht | CAS | 10 | 270 | 100 | **erfasst 2026-09-27, 14 Zeilen** (CAS-Nachtrag: nur abweichende Teilaufgaben; 4 „CAS:“-Aufgaben – 2.1 Eisbecher, 2.2 Straßenverlauf, 3.1 Zelt, 4.2 Freizeit) · Zeilen 2.1 a, b, c, e, f; 2.2 b, d, g; 3.1 c, e, f; 4.2 a, b, d mit 87 BE, dazu 63 BE wortgleich übernommen und 35 BE unverändert (Teil 1, 3.2, 4.1) – 185 angeboten wie im WTR-Heft · 3.1 Zelt ist wortgleich die Poolaufgabe 2017MerhoehtBAGLAA2CAS2: 3 Vormerkungen, Stapel 2017-ea-B (CAS-Zweig) nicht erfasst – offener Posten (§ 4) |
 | 2018 | 2018-be-gk | BE | grundlegend | WTR | 11 | 210 | 80 | **erfasst 2026-09-12, 36 Zeilen** (alle Aufgaben, beide Wahlwege) · Leitfassung grundlegend |
 | 2018 | 2018-be-lk | BE | erhöht | WTR | 11 | 270 | 100 | teilweise abgedeckt · vier Aufgaben gleichlautend in 2018-bb-ea, zwei eigene noch nicht erfasst |
 | 2018 | 2018-bb-ea | BB | erhöht | WTR | 13 | 270 | 100 | **erfasst 2026-09-12, 41 Zeilen** (alle Aufgaben, beide Wahlwege) |
@@ -67,6 +67,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | Heft | Zeilen | Typen | neu | Eichung | ? | ersatzw. | im Niveau bekannt | außerhalb der Geltung | Schnitt | Pool (Zeilen; BE angeboten) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2017-bb-ea | 36 | – | – | – | – | – | – | – | – | 6 von 36; 15 von 185 (8 %), seit Lauf 15 alle „Dublette von:“ (2017-ea-A erfasst) |
+| 2017-bb-ea-cas (CAS-Nachtrag, abi-bau.py v0.14) | 14 | 27 | 1 (4 %) | – (14 Zeilen ohne Maßstab) | 0 | 0 | 26 von 27 (96 %) | Heft (bb-ea) 0; alle: be-gk 5, be-lk 0, bb-gk 5, bb-ea 0 | 9 Werte, 14 von 14 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | 3 von 14; 13 von 87 BE der Nachtragszeilen (15 %), alle drei „Poolaufgabe (nicht erfasst)“ auf 2017MerhoehtBAGLAA2CAS2 (3.1 c, e, f; offener Posten, § 4); aufs ganze Heft gerechnet 40 von 185 BE (22 %: Teil 1 15 aus dem WTR-Heft, 3.1 Zelt 25) |
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %) |
 | 2019-be-gk | 45 | 51 | 25 (49 %) | 4 von 4 (100 %) im Heftlauf, alle 4 geerbt; seit Lauf 23 12 von 12 (100 %; acht Teil-B-Dubletten dazu, vier davon auf den amtlichen Bereich nachgezogen); eigene 0 (33 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 19 von 51 (37 %) | Heft (be-gk) 1; alle: be-gk 1, be-lk 0, bb-gk 1, bb-ea 0 | 35 Werte, 34 von 45 Zeilen im Niveau bekannt (76 %), 1 Wert neu im Gesamtbestand | 12 von 45; 35 von 180 BE (19 %), seit Lauf 23 alle „Dublette von:“ (2019-ga-B erfasst); abgewandelt 2 Zeilen, 7 BE (1.4 c, 3.2 b) |
@@ -1771,6 +1772,84 @@ CAS-Hefte weichen auch in den übrigen Aufgaben ab (2016: 1.2 a–c, e, 2.1 c,
 3.1 e, 3.2 b; 2017: 1.1 e, f, 2.2 c, 3.1 e, g, 3.2 d), die Stark-Auswahl ist
 also keine Differenzmenge (abi-quellen.md § 5).
 
+**2017-bb-ea-cas, CAS-Delta (27.09.2026, Auftrag Nacht 2026-09-27, Teil 9).**
+Erstes erfasstes Rechnerheft, als Nachtrag zu 2017-bb-ea (abi.md § 7;
+abi-bau.py v0.14 mit Nachtragsmodus). Heft hefte/abi/2017-bb-ea-cas.pdf
+(BB_17_Ma_CAS_Aufgaben), 10 Seiten wie die WTR-Fassung, jede Aufgabe auf
+derselben Seite; Deckblatt „mit CAS“, Hilfsmittel „CAS, das zugelassen und an
+der Schule eingeführt ist“ (nicht für Aufgabenstellung 1). Text beider Hefte
+mit pdftotext -layout, alle Teilaufgaben nebeneinander verglichen (Skript
+vergleich.py im Scratchpad), jede Aufgabenseite gerendert; die Abbildungen
+(Eisbecher, Koordinatensystem 2.2 c, Zelt Abb. 1 und 2, Pavillon, Urnen) sind
+gleich. **Präfixregel bestätigt:** „CAS:“ tragen 2.1, 2.2, 3.1 und 4.2; die
+Aufgaben ohne Präfix – Teil 1 (1.1–1.3, BE 2 + 3 je Aufgabe), 3.2
+Gartenpavillon (3 | 2 | 3 | 2) und 4.1 Vereinsjubiläum (2 | 4 | 4) – sind in
+jeder Teilaufgabe wortgleich mit gleichen BE; keine Aufgabe ohne Präfix
+weicht ab. Je Teilaufgabe (CAS-BE, in Klammern WTR): *2.1 Eisbecher* (CAS
+7 | 7 | 13 | 4 | 6 | 6 | 7 = 50 in sieben Teilaufgaben, WTR 8 | 8 | 14 | 4 | 9 |
+7 = 50 in sechs): wortgleich mit gleichen BE d (4) und g = WTR f (7);
+wortgleich, nur BE gesenkt a (7 statt 8), b (7 statt 8), c (13 statt 14),
+f = WTR e Parabel p (6 statt 9); neu e (6, Größe der hellen
+Querschnittsfläche des befüllbaren Teils, Fläche zwischen Graph und
+waagerechter Randgeraden). *2.2 Straßenverlauf* (CAS 6 | 9 | 9 | 5 | 6 | 10 | 5,
+WTR 6 | 10 | 9 | 6 | 10 | 9): wortgleich a (6), c (9), e = WTR d (6), f = WTR e
+(10; nur der Rückverweis „aus Teilaufgabe e)“ statt „d)“ nachgeführt); nur BE
+gesenkt b (9 statt 10) und g = WTR f Getreidefläche (5 statt 9); neu d (5,
+Identität von G_a und G_(−a) begründen, Parameter für R(2 | 4)). *3.1 Zelt*
+(CAS 5 | 4 | 4 | 3 | 4 | 5, WTR 5 | 4 | 5 | 3 | 3 | 5): wortgleich a, b, d; c
+nur BE (4 statt 5); e mit zusätzlichem Auftrag – y-Koordinate der äußeren
+Vordachkante, Kontrollangabe etwa 5,98 (4 statt 3); f gleich bis auf den
+Hinweis auf 5,98, der in die Kontrollangabe von e gewandert ist. *4.2
+Freizeit* (BE 8 | 4 | 5 | 4 | 4 in beiden): c und e wortgleich; a Ereignis C
+„unter 100 mehr als 78 und weniger als 92“ statt „unter 20 mehr als 18“; b
+umgekehrt – höchstens n mit P unter 98 % statt mindestens n mit mindestens
+98 % (12 statt 13); d Stammangabe 6 % statt 5 % Stornierungen (Modalwert 10
+statt 9); e rechnet nicht mit dem Anteil und bleibt gleich. **Zeilen:** 14
+(2.1 a, b, c, e, f; 2.2 b, d, g; 3.1 c, e, f; 4.2 a, b, d), 87 BE; jede trägt
+„CAS-Nachtrag zu <WTR-id> (WTR): …“ bzw. „CAS-Nachtrag, ohne WTR-Gegenstück:
+…“ und „Eigene Rechnung“. **Messung** über die 185 angebotenen BE (Klassen
+wie beim Paar oben): wortgleich mit gleichen BE 98 BE (53 %: 35 in Aufgaben
+ohne Präfix, 63 in „CAS:“-Aufgaben); gleicher Typ, gleicher Wortlaut, nur BE
+gesenkt – der Rechenweg geht ans CAS – 51 BE (28 %: 2.1 a, b, c, f, 2.2 b, g,
+3.1 c); gleicher Typ, andere Angaben oder andere Frage 25 BE (14 %: 3.1 e, f,
+4.2 a, b, d; in 3.1 e eine Nebenleistung mehr); zusätzliche Teilaufgaben mit
+anderem Typ 11 BE (6 %: 2.1 e, 2.2 d). Keine WTR-Leistung entfällt; die BE,
+die das CAS an Rechnungen spart (−11 in 2.1 und 2.2, −1 in 3.1 c), gehen in
+die beiden neuen Teilaufgaben (+11) und in 3.1 e (+1). **Typen:** 27
+verwendet, 1 neu („Identische Graphen einer Schar zu entgegengesetzten
+Parameterwerten begründen“, 2.2 d); 2.1 e nutzt „Fläche: Fläche zwischen zwei
+Graphen als Integral der Differenz berechnen“ (Pool), 4.2 b den Typ
+„Mindestanzahl von Versuchen …“ mit umgekehrter Frage (Etikett im Bericht zur
+Umbenennung vorgeschlagen). **Neue Schnittwerte: 0** – alle 9 Schnittwerte
+der Zeilen stehen im erhöhten Bestand. Muster wie beim Berliner Paar: das
+CAS senkt die BE rechenlastiger Teilaufgaben, verschiebt Fragen ins Größere
+(n = 100 statt 20, Intervall statt Einzelsumme) oder dreht sie um und setzt
+kleine Begründungsaufgaben dazu; die Fertigkeiten bleiben im Typenvorrat.
+**Poolbefund:** 3.1 Zelt ist wortgleich die Poolaufgabe 2017 erhöht Teil B
+AG/LA (A2) CAS 2 (2017MerhoehtBAGLAA2CAS2, hefte/iqb/, BE 5 | 4 | 4 | 3 | 4 |
+5); die Zeilen 3.1 c, e, f tragen „Poolaufgabe (nicht erfasst):
+2017MerhoehtBAGLAA2CAS2-1c“ (-1e, -1f). Ihr Stapel 2017-ea-B, CAS-Zweig (6
+Dateien, iqb-pruefungen.md § 2: Reserve, „CAS ist die MMS-Fassung bis 2021“),
+ist nicht erfasst. Nach der Regel „Eine Vormerkung überlebt keinen Auftrag“
+(abi.md § 7) wäre er im selben Auftrag zu erfassen; der Auftrag Teil 9
+beschränkt die Änderungen auf abi-Dateien – **offener Posten, gemeldet**
+(3 Vormerkungen; die Selbstprüfung von iqb-bau.py zählt „2017-ea-B-cas 3“).
+Die Schätzung der drei Zeilen stammt aus den WTR-Zeilen; wo der Standardbezug
+der Poolfassung abweicht, gilt er (Vorrang des Amtlichen, Kern § 5): c und e
+II statt III, f III wie gehabt; afb_amtlich bleibt bis zum Verweis leer.
+**Folge für 2017-bb-ea:** die WTR-Aufgabe 3.1 Zelt ist die WTR-Fassung dieser
+CAS-Poolaufgabe – a, b, d wortgleich (12 BE), c, e, f abgewandelt (BE 5 | 3 | 5,
+f mit 5,98 als Angabe). Der Pool-Abgleich des Bestands (Lauf 14, § 4 Tabelle
+„2017-bb-ea | Teil B 2.1–4.2 | kein Treffer“) hat nur die WTR-Pooldateien
+durchsucht. Die WTR-Zeilen 2017-bb-ea-B3.1a–f tragen deshalb keinen
+Poolvermerk; die Poolquote von 2017-bb-ea stiege mit Vormerkungen von 15 auf
+27 von 185 BE wortgleich (15 %) und 13 BE abgewandelt. Nicht geändert: das
+geht nur über abitur-abgleich.py (Abgleichlauf) und zusammen mit dem Stapel.
+Suche nach den Kontexten aller vier „CAS:“-Aufgaben in allen 24 Dateien des
+Pools 2017 Teil B (WTR und CAS, beide Niveaus): sonst kein Treffer
+(2017MgrundlegendBAGLAA2CAS2 ist eine andere Zeltaufgabe mit derselben
+Pyramide).
+
 **Ausschlussliste, strukturelle Geltung und Widerspruch Teil A (17.09.2026,
 Auftrag B, Teil 5).** abitur-vokabular.md v1.4 § 3: Ausschlussliste neben
 der Geltungstabelle (Beweise, Simulationen, Grenzwerte bei Ableitung und
@@ -2522,6 +2601,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-27 | Auftrag Nacht 2026-09-27, Teil 9: 2017-bb-ea-cas erfasst als CAS-Nachtrag zu 2017-bb-ea – 14 Zeilen (2.1 a, b, c, e, f; 2.2 b, d, g; 3.1 c, e, f; 4.2 a, b, d; 87 BE), vier „CAS:“-Aufgaben, Aufgaben ohne Präfix vollständig wortgleich geprüft; Katalog 808 Zeilen aus 17 Heften, Typenliste 1324 (1 neu: „Identische Graphen einer Schar zu entgegengesetzten Parameterwerten begründen“), 0 neue Schnittwerte; CAS-Delta in § 4. **abi-bau.py v0.14:** Nachtragsmodus (KONFIG „nachtrag_zu“, „soll“ = BE der abweichenden Teilaufgaben, „uebernommen“ = wortgleiche Teilaufgaben CAS-Buchstabe → WTR-Buchstabe und BE, „unveraendert“ = übrige Aufgaben mit ihren Summen im WTR-Heft, „be_angeboten“ = 185; Summenprüfung 87 + 63 + 35 = 185, je „CAS:“-Aufgabe gleich der WTR-Aufgabensumme), Nachtragsvermerk in bemerkung geprüft, auch in der Selbstprüfung; ohne „nachtrag_zu“ unverändert. abi.md v0.30 § 7. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Bau-Skripte bestanden (abi 808, iqb 1443). **Offener Posten:** 3.1 Zelt ist die Poolaufgabe 2017MerhoehtBAGLAA2CAS2, Stapel 2017-ea-B (CAS-Zweig) nicht erfasst – 3 Vormerkungen (3.1 c, e, f), nach abi.md § 7 im selben Auftrag zu schließen, hier nicht möglich (Auftrag auf abi-Dateien beschränkt); dazu fehlen in den WTR-Zeilen 2017-bb-ea-B3.1a–f die Poolvermerke (Pool-Abgleich Lauf 14 nur gegen WTR-Dateien, § 4). |
 | 2026-09-19 | Auftrag „Strukturbefunde des Korpus-Laufs gegen die Profildateien": Kopplung 3⇒4 und BE 40+20+20 für be-gk 2017/2018 waren bereits in abi.md § 3, abi-struktur.json und abi-aufbau.md § 2 geführt (nichts geändert); die Jahresangabe „Brandenburg hilfsmittelfrei schon 2017" in abi.md § 9, § 10 war zu spät angesetzt und auf 2015 berichtigt (2015/2016 mit 30 BE ohne Kopplung, dokumentiert am Korpus-Lauf hefte-md/abi/2015-bb-ea.md, 2016-bb-ea.md); abi.md § 3, § 11 um Fundstellen zu 2011–2016 (be-gk/be-lk/bebb durchgängig 40+30+30=100 BE) ergänzt, die die Prozentspanne „bis 2018" in § 11 erstmals mit Primärquellen statt nur der Verlagsangabe belegen; abi-aufbau.md § 7 offener Punkt zur Bewegung 2011–2018 teilweise beantwortet; § 3 hier um den Verweis auf hefte-md/abi/ ergänzt. 2011–2016 bleiben nicht im Bestand (oben); keine Katalogzeile, keine Bestandszahl geändert. |
 | 2026-09-18 | Auftrag O, Punkt 4: Kürzel der gemeinsamen Hefte 2011–2013 ist bebb (Entscheidung des Lehrers, 18.09.2026); die zwölf Dateien von hefte/abi/sonstiges/ (Servernamen) nach hefte/abi/2011-bebb-gk.pdf … 2013-bebb-lk-cas.pdf umbenannt (SHA-256 vor und nach dem Verschieben gleich, nichts gelöscht); abi-quellen.md v0.8 § 8 nachgezogen (amtliche Dateien 2011–2018, 44). Keine Katalogzeile betroffen. |
 | 2026-09-18 | Auftrag O, Punkt 3: Pfade auf den seit Auftrag N je Profil unterteilten Heftordner nachgezogen – 15 Stellen in § 2 (7) und § 4 (8) hefte/<datei>.pdf → hefte/abi/<datei>.pdf, dazu § 3 (Ablageort), § 4 die Quelldateien stichwort-2027-bebb-*.md → hefte/abi/sonstiges/ und die amtlichen Dateien 2016/2017 (unter hefte/abi/). Nur Pfade geändert, kein Befundtext; Ausnahme die zwei Sichtungen 2026 (Verlagsdatei damals 2026-bebb-gk.pdf bzw. -lk.pdf, am 17.09.2026 umbenannt): dort steht der damalige Name mit dem heutigen Pfad in Klammern, weil ein reiner Pfadtausch auf eine nie vorhandene Datei gezeigt hätte. Nicht geändert: Nennungen des Ordners hefte/ als Ganzes und der Vorschlag hefte/stichwort-2027-*.pdf (Auftrag B Teil 3, nie angelegt). abi-bau.py v0.13 (KONFIG datei), abi.md v0.27, namensschema.md v0.3. Keine Katalogzeile geändert. |

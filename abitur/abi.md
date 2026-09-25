@@ -1,5 +1,8 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.29 · 19.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Version 0.30 · 27.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 0.29 (Auftrag Nacht 2026-09-27, Teil 9): § 7 „CAS-Hefte
+2017/2018" um den Nachtragsmodus von abi-bau.py v0.14 ergänzt (erster Nachtrag
+2017-bb-ea-cas, 14 Zeilen; abi-pruefungen.md § 2, § 4).
 Änderungen gegenüber 0.28 (Auftrag iqb-beleg, 19.09.2026): § 10 Zeile „ab Abitur
 2026" mit amtlichem Beleg der IQB-Poolregel ergänzt ([BS-IQB], [IQB-Pool],
 Entnahme durch Brandenburg [FB-BB-7]; für 2026 kein amtlicher Wortlaut, Beleg
@@ -498,6 +501,15 @@ einer Stichprobe, Lineare Gleichungssysteme und Matrizen und
   vorgegebener Kontrollwert in der CAS-Fassung selbst bestimmt (CAS-Delta,
   abi-pruefungen.md § 4). Für die Berliner CAS-Hefte, die durchgehend eigene
   Fassungen ohne Präfix sind, ist die Abgrenzung nicht entschieden (§ 9).
+  **Nachtragsmodus** (abi-bau.py v0.14, 27.09.2026, erster Nachtrag
+  2017-bb-ea-cas mit 14 Zeilen): KONFIG["nachtrag_zu"] nennt das WTR-Heft,
+  „soll" je abweichender Aufgabe die BE der Zeilen, „uebernommen" die
+  wortgleichen Teilaufgaben mit gleichen BE (CAS-Buchstabe → WTR-Buchstabe,
+  BE), „unveraendert" die Aufgaben ohne Präfix mit ihren Summen im WTR-Heft,
+  „be_angeboten" die angebotenen BE; das Skript prüft alles gegen das
+  WTR-Heft im Katalog, und jede Zeile beginnt in bemerkung mit „CAS-Nachtrag
+  zu <WTR-id> (WTR): …" oder „CAS-Nachtrag, ohne WTR-Gegenstück: …" (nach
+  einem Poolvermerk, wo einer steht).
 - **Wahl ist keine Eigenschaft der Teilaufgabe.** Dass 2.1 und 2.2 zur Wahl stehen
   und dass 3.x und 4.x in bb-ea gekoppelt sind, steht in diesem Profil und in
   abi-pruefungen.md, nicht im Katalog.
