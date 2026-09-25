@@ -30,6 +30,9 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `themen.csv` – Themenkonkordanz: kanonisches Thema je Katalogthema, alle vier Profile; nach jeder Katalogänderung `python werkzeuge/themen-pruef.py`.
 - `eingang/erledigt/` – verarbeitete Protokoll-Archive der Blatt-Chats (lokal, nicht versioniert).
 - `blaetter/` – abgelegte Blätter je Thema und Datum, PDFs und Quelltexte; `blaetter/index.md` ist das Register, abgeleitet.
+- `blaetter/kennzahlen.md` – Kennzahlen je Blatt (seit 26.09.2026): je PDF Seiten, Hauptnummern und Teilaufgaben (gesamt und je Seite), Titel wortgleich mit Titelform, Darstellungen, Antwortform, Merkkästen, erstes Auftreten der Fachwörter des Merkkastens und Sprossenabgleich gegen „Typen je Lerneinheit“, oben eine Vergleichstabelle über alle Blätter; abgeleitet von `werkzeuge/blatt-pruef.py`, nie von Hand ändern. Öffnen, wenn zwei Läufe desselben Themas verglichen werden.
+- `auftrag-nacht-2026-09-26.md` – Auftrag Nacht 2026-09-26 (Prüfskript für Blätter, Prüfungswort-Belege, Sek-II-Ordnung, Ermessensfälle gruppieren); wandert nach Abschluss nach `archiv/`.
+- `nacht-stand-2026-09-26.md` – Standdatei dieses Auftrags, je Teil offen/läuft/erledigt; ein Neustart liest sie zuerst; wandert nach Abschluss nach `archiv/`.
 - `werkzeuge/einsortieren.py` – durchsucht die Quellordner (Downloads, OneDrive/Downloads, OneDrive/blatt-eingang) nach `*protokoll*.zip`, schreibt `blaetter/` und den Index; nach jedem neuen Archiv ausführen.
 
 ## msa/ – P10 Mathematik, Brandenburg, Oberschule/Gesamtschule (Niveau FOR) und Gymnasium
@@ -337,6 +340,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `klassen-belege.py` – baut `katalog/_klassen-belege.md` aus den 29 Sek-I-Einträgen, den Verzeichnisdateien unter `quellen/` und den Zuordnungsdaten, prüft jedes Zitat an der Quelldatei und jeden Typnamen am Eintrag und schreibt nichts bei einem Fehler; `--probe` vergleicht nur mit der vorhandenen Datei; nach einer Änderung an den Einträgen, an einer Verzeichnisdatei oder an den Daten ausführen.
 - `klassen-belege-daten.py` – die Zuordnungsdaten dazu, je Reihe und für die Förderhefte ein Abschnitt (Lerneinheit, Verzeichniszeile, Seite, Zeilenhinweis, Typ, Marke, Ermessen); hier wird eine Zuordnung ergänzt oder berichtigt, nie in der Ausgabedatei.
 - `klassen-belege-typen.txt` – Typenliste zum Nachschlagen der Typnamen beim Zuordnen (je Einheit die Zeile aus „Typen je Lerneinheit“ mit Zeilennummer); abgeleitet von `klassen-belege.py`, nie von Hand ändern.
+- `blatt-pruef.py` – misst je Blatt unter `blaetter/` (jede PDF-Datei mit der gleichnamigen tex-Datei unter `src/`, pdfinfo und pdftotext aus MiKTeX) die Kennzahlen 1–9 des Auftrags Nacht 2026-09-26 und schreibt `blaetter/kennzahlen.md`; Lesarten (Titel, Darstellungskategorien nach den Makros von `mathblatt.sty`, Antwortform, Fachwörter, Wortstamm im Sprossenabgleich) im Skriptkopf; mit Pfad nur ein Blatt auf die Konsole, ohne zu schreiben; nach jedem neuen Blatt (nach `einsortieren.py`) ausführen.
 
 ## archiv/ – eingefroren
 
