@@ -1,0 +1,31 @@
+Gemeint ist: quadratische-funktionen (Nullstellen einer Parabel aus Scheitelpunkt- und Normalform, Schnittpunkte mit einer Geraden) · quadratische-gleichungen (Gleichungen lösen: Wurzelziehen, Nullprodukt, p-q-Formel, Lösbarkeit)
+Antwort aus der Eingabe: quadratische-funktionen
+
+→ Fokus Nullstellen · Eintrag quadratische-funktionen, Einheit 4 · ohne Klasse, Marken absolut (ab Kl. 10, am Gymnasium ab Kl. 9) · Zone aus 5 Fertigkeiten
+
+QuadratischeFkt_Fokus_Nullstellen.pdf
+QuadratischeFkt_Fokus_Nullstellen_Loesungen.pdf
+QuadratischeFkt_2026-09-25_protokoll.zip
+
+(alle in `C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\c6924aab-9c6f-4c6b-96fc-d8fbcd8c8855\scratchpad\bau\7-nullstellen-fokus\a1`)
+
+1. Abweichungen:
+   - **Zwischensprosse in Nr. 11:** Nr. 11 enthält zusätzlich die p-q-Formel, wenn unter der Wurzel null steht (eine Nullstelle) oder eine negative Zahl (keine Nullstelle). Die Kette der Einheit 4 führt diesen Sonderfall nur über den Scheitel.
+   - **Geteilte Hauptnummern:** 7/8, 10/11 und 16/17. Die Nummern 13/14 sind nach der Form getrennt (Normalform, Scheitelpunktform).
+   - **Nr. 18 (Wurfparabel):** Es gibt dafür kein Original, die Höhe ist nach Lehrwerk gesetzt.
+   - **Umfang:** Der Fokus hat 27 Rechenteilaufgaben einschließlich zweier Lückenbeispiele. Der Richtwert ist 15–25; die Kette wurde nicht gekürzt.
+   - **Nicht im Fokus:** die übrigen Typen der Einheit 4, nämlich Argument zu Funktionswert, Schnittpunkte Gerade–Parabel, Punktprobe als Schnittpunkt-Nachweis, Gerade ohne gemeinsamen Punkt und Schnittpunkte zweier Parabeln. Sie sind nur in der Vorstufe (6d–e) angelegt.
+   - **Im Vorspann definierter Baustein:** `\zweigzeile`.
+   - **Vorlage, `gleichungsraster`:** Die letzte Schreibzeile lief in die Folgezeile bzw. in den Folgetext. Ich habe das im Aufruf mit zusätzlichem Abstand ausgeglichen (`\\[7mm]`, `\vspace{7mm}`), die Vorlage selbst ist unverändert.
+2. Katalog:
+   - **Gebraucht:** Lerneinheiten, Marken, Typen der Einheit 4, der Erkennungsschritt „Was wird gleichgesetzt?“ und die Sprossen der Einheit 4. Außerdem:
+     - Voraussetzungen: 5 der 8 Fertigkeiten. Koordinaten, lineare Gleichung und Schnittpunkt zweier Geraden braucht der Fokus nicht.
+     - Typische Fehler: nur eine Lösung angegeben; ohne Normieren gerechnet.
+     - Prüfungsform und Zielmarke: 2020-OS-K3e, 2025-OS-K5c, 2017-OS-K5d.
+   - **Nicht gebraucht:** Merkkasten, Verortung, Grundvorstellung.
+   - **Gefehlt:**
+     - „nullstellen“ allein trifft zwei Einträge, deshalb war die Eintragsfrage nötig.
+     - Die Sonderfälle der p-q-Formel fehlen in der Sprossenkette.
+     - Die Kastensperre (0–6, 8–10, 16) lässt sich wörtlich nicht einhalten. Ich habe sie auf Terme und Ergebnispaare aus Kästen und Originalen angewandt, nicht auf einzelne Ziffern.
+   - **Spanne:** Einheit 4 trägt keine (OS Kl. 10 · GYM Kl. 9). Die Marke lautet deshalb „ab Kl. 10 (am Gymnasium ab Kl. 9)“.
+4. Protokoll-Archiv: QuadratischeFkt_2026-09-25_protokoll.zip

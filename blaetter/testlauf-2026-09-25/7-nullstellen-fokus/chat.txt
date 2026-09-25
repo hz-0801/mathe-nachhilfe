@@ -1,0 +1,21 @@
+Eingabe des Lehrers:
+nullstellen – Antworten auf Planfrage und Zone: quadratische-funktionen; baue ohne Halt bis zum Ausgabeblock durch
+
+Planfrage:
+Gemeint ist: quadratische-funktionen (Nullstellen einer Parabel aus Scheitelpunkt- und Normalform, Schnittpunkte mit einer Geraden) · quadratische-gleichungen (Gleichungen lösen: Wurzelziehen, Nullprodukt, p-q-Formel, Lösbarkeit)
+Antwort: quadratische-funktionen
+
+Deutungszeile:
+→ Fokus Nullstellen · Eintrag quadratische-funktionen, Einheit 4 · ohne Klasse, Marken absolut (ab Kl. 10, am Gymnasium ab Kl. 9) · Zone aus 5 Fertigkeiten
+
+Plan: entfällt (Fokus)
+
+Ausgabeblock:
+1. Zwischensprosse in Nr. 11: p-q-Formel mit Radikand null (eine Nullstelle) und negativ (keine Nullstelle) – die Kette der Einheit 4 führt den Sonderfall nur über den Scheitel · geteilte Hauptnummern 7/8, 10/11, 16/17; 13/14 nach Form getrennt (Normalform, Scheitelpunktform) · Nr. 18 (Wurfparabel) ohne Original, Höhe nach Lehrwerk · Fokus mit 27 Rechenteilaufgaben einschließlich zweier Lückenbeispiele (Richtwert 15–25), Kette nicht gekürzt · nicht im Fokus: die übrigen Typen der Einheit 4 (Argument zu Funktionswert, Schnittpunkte Gerade–Parabel, Punktprobe als Schnittpunkt-Nachweis, Gerade ohne gemeinsamen Punkt, Schnittpunkte zweier Parabeln), nur in der Vorstufe d–e angelegt · im Vorspann definiert: \zweigzeile · gleichungsraster: letzte Schreibzeile lief in die Folgezeile, im Aufruf mit Zusatzabstand ausgeglichen
+2. Katalog: gebraucht Lerneinheiten, Marken, Typen Einheit 4, Voraussetzungen (5 der 8 Fertigkeiten; Koordinaten, lineare Gleichung und Schnittpunkt zweier Geraden braucht der Fokus nicht), Erkennungsschritt „Was wird gleichgesetzt?“, Sprossen Einheit 4, Typische Fehler (nur eine Lösung; ohne Normieren), Prüfungsform und Zielmarke (2020-OS-K3e, 2025-OS-K5c, 2017-OS-K5d); nicht gebraucht Merkkasten, Verortung, Grundvorstellung · gefehlt: „nullstellen“ allein trifft zwei Einträge (Eintragsfrage nötig); p-q-Sonderfälle fehlen in der Kette; die Kastensperre (0–6, 8–10, 16) ist wörtlich nicht einzuhalten – angewandt auf Terme und Ergebnispaare aus Kästen und Originalen, nicht auf Einzelziffern · Spanne: Einheit 4 trägt keine (OS Kl. 10 · GYM Kl. 9) → „ab Kl. 10 (am Gymnasium ab Kl. 9)“
+4. Protokoll-Archiv: QuadratischeFkt_2026-09-25_protokoll.zip
+
+Übergebene Dateien:
+QuadratischeFkt_Fokus_Nullstellen.pdf
+QuadratischeFkt_Fokus_Nullstellen_Loesungen.pdf
+QuadratischeFkt_2026-09-25_protokoll.zip

@@ -1,0 +1,81 @@
+Prompt: Unterrichtsblatt-Prompt v4.3
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-22h
+Katalog: quadratische-funktionen.md, Status: gegengelesen bis auf [FS] (2026-09-11g; LISUM-Planungshilfen am 10e nachgetragen, Gegenlese 11g)
+Bestellung: mit Wiederholung (Fokus: kurze Zone)
+Standpunkt: absolut (keine Klasse, keine Schulform; Oberschule als Standpunkt, Gymnasium als Zusatz)
+
+Zweige
+- gebaut (Fokus): Einheit 4 von 4 · Nullstellen und Schnittpunkte berechnen
+  Zweigzeile: Hier lernst du, die Nullstellen einer Parabel und ihre Schnittpunkte mit einer Geraden zu berechnen · ab Kl. 10 (am Gymnasium ab Kl. 9) · P10 oft · baut auf: Scheitelpunktform (Einheit 2), Normalform (Einheit 3), Nullstelle einer Geraden, binomische Formeln, Quadratwurzeln, quadratische Gleichungen
+- nicht Teil des Fokus: Einheit 1 Normalparabel und Streckfaktor, Einheit 2 Scheitelpunktform, Einheit 3 Normalform
+- Ausblick: keiner (Fokus)
+Hauptnummern
+Zone (Das kennst du schon):
+ 1. Ich kann Zahlen quadrieren, auch negative Zahlen und Dezimalzahlen.
+ 2. Ich kann berechnen, wo eine Gerade die x-Achse schneidet.
+ 3. Ich kann eine Klammer mit der binomischen Formel auflösen.
+ 4. Ich kann Quadratwurzeln ziehen und weiß, wann es keine gibt.
+ 5. Ich kann eine quadratische Gleichung lösen.
+Einheit 4:
+ 6. Ich erkenne, welche Gleichung ich lösen muss. (Vorstufe „Was wird gleichgesetzt?“)
+ 7. Ich kann die Nullstellen einer Parabel in Scheitelpunktform berechnen. (Beispiel, Grundfall)
+ 8. Ich kann die Nullstellen einer Parabel in Scheitelpunktform berechnen – weiter.
+ 9. Ich kann ohne Rechnung sagen, wie viele Nullstellen eine Parabel hat.
+ 10. Ich kann die Nullstellen einer Parabel in Normalform berechnen. (Lückenbeispiel)
+ 11. Ich kann die Nullstellen einer Parabel in Normalform berechnen – weiter.
+ 12. Ich kann Nullstellen berechnen, wenn die Wurzel nicht aufgeht.
+ 13. Ich kann Nullstellen berechnen, wenn vor x² eine Zahl steht. (Lückenbeispiel)
+ 14. Ich kann Nullstellen berechnen, wenn vor der Klammer eine Zahl steht.
+ 15. Ich kann selbst entscheiden, wie ich die Nullstellen berechne. (P10 2020, 2025, 2017 verfremdet)
+ 16. Ich finde den Fehler beim Berechnen von Nullstellen.
+ 17. Ich finde den Fehler beim Berechnen von Nullstellen – weiter.
+ 18. Ich kann mit Nullstellen berechnen, wo ein geworfener Ball landet.
+
+Zählung aus der Textextraktion
+- QuadratischeFkt_Fokus_Nullstellen.pdf: 18 Hauptnummern (Zone 5, Einheit 4 13), 56 Teilaufgaben (Zone 10, Einheit 4 46, davon 2 Lückenbeispiele), 0 Grafiken, 7 Seiten (Seite 1 Zone: Nr. 1–5; 2: 6–7; 3: 8–9; 4: 10–11; 5: 12–13; 6: 14–15; 7: 16–18)
+- QuadratischeFkt_Fokus_Nullstellen_Loesungen.pdf: Lösungen zu 18 Nummern (1–18), Zuordnungszeile der Zone, 1 Seite
+
+Werkzeugaufrufe (Schritt · Anlass)
+1. Arbeitsverzeichnis, Themenregister und Blätterregister holen · 1.2
+2. Register durchsuchen · Stichwort „nullstellen“ führt zu quadratische-funktionen und quadratische-gleichungen
+3. Registerzeilen ausgeben · Eintragsfrage; Antwort aus der Eingabe: quadratische-funktionen
+4. t0 · Zeitmessung
+5. Eintrag, mathblatt.sty, Anleitung holen · 1.2, 4.5
+6. Eintrag lesen, Teil 1 · 2.1
+7. Eintrag lesen, Teil 2 · 2.1
+8. Anleitung lesen · 4.5
+9. Vorlage nach Feld-, Raster- und Kopfmakros durchsuchen · Zweigzeile-Baustein vorhanden? (nein)
+10. Vorlage Abschnitt A lesen · Feldbreiten, gleichungsraster, geruest
+11. Vorlage Begleitteil lesen · \erg für die Lösungen
+12. zone_a.tex, zone_l.tex, Rahmendateien, pruef.py schreiben · Zone
+13. pruef zone, kompilieren, rendern · Korrektur: pruef.py „ValueError: Unknown format code 's' for object of type 'bool'“; Seite 1: \leerfeld hinter √7 in eigene Zeile umgebrochen, Zeile sichtbar gedehnt
+14. pruef.py und zone_a.tex korrigiert (\\ vor dem Feld) · Korrektur
+15. Render ansehen · Befund oben
+16. pruef zone (0 Abweichungen), neu kompilieren, Stempel zone · Zone fertig
+17. Render ansehen · in Ordnung
+18. e4_a.tex, e4_l.tex schreiben, pruef.py um Einheit 4 ergänzt · Fokus
+19. pruef e4 (0 Abweichungen), Fokus und Lösungen kompilieren, rendern · keine Log-Warnung
+20.–24. Seiten 2–7 und Lösungen ansehen · Korrektur: gleichungsraster – letzte Schreibzeile läuft in die Beschriftung der Folgezeile (Nr. 6, 7) und in den Folgetext (Nr. 6, 15); Lösungen: Buchstabe „c)“ am Zeilenende getrennt
+25. Zeilenende \\[3mm], \medskip nach dem Raster, „)~$“ in den Lösungen · Korrektur
+26. Neu kompilieren – vom Werkzeug blockiert (Remove-Item-Pfadsperre), nichts ausgeführt
+27. zeiten.txt geprüft · Stempel fehlten noch
+28. Neu kompilieren beide, Stempel e 4, fokus, loesungen, rendern, zählen · keine Log-Warnung
+29. Ausschnitt Seite 2 vergrößert · Abstand noch zu knapp
+30. \\[7mm] und \vspace{7mm} · Korrektur
+31. Fokus neu kompilieren, Stempel fokus, rendern · in Ordnung
+32. Seiten ansehen · in Ordnung
+33. zeiten.txt und Versionszeilen lesen · Protokoll
+34. protokoll.txt, chat.txt, Archiv · 6.3
+
+Vorlage: fehlende Bausteine · Warnungen aus dem Log
+- fehlende Bausteine: \zweigzeile (zweite Zeile unter \einheitenkopf, im Vorspann der Rahmendatei definiert)
+- Warnungen aus dem Log: keine (kein Overfull, keine Package mathblatt Warning)
+- Befund Vorlage: gleichungsraster – die letzte Schreibzeile einer Zeile ragt bis an die Beschriftung der nächsten Rasterzeile bzw. an den Folgetext; im Aufruf mit \\[7mm] und \vspace{7mm} ausgeglichen
+
+Korrekturrunden: 3 von 34 Schritten
+Zone: 501 s (erster Stempel „zone“ 473 s vor der Korrektur von pruef.py; gezählt der zweite)
+E 4: 760 s
+Fokus: 824 s (letzter Stempel nach der zweiten Rasterkorrektur; erster 766 s)
+Lösungen: 766 s
+Weiter: kein Klick (Fokus, eine Antwort)

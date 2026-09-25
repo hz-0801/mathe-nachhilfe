@@ -1,0 +1,11 @@
+1a       Skript: 25                                       Blatt: 25                                       OK
+1b       Skript: 9/4                                      Blatt: 2.2500                                   OK
+2a       Skript: {4}                                      Blatt: {4}                                      OK
+2b       Skript: {-2}                                     Blatt: {-2}                                     OK
+3a       Skript: x**2 + 10*x + 25                         Blatt: x**2 + 10*x + 25                         OK
+3b       Skript: x**2 - 6*x + 4                           Blatt: x**2 - 6*x + 4                           OK
+4a       Skript: 2.6500                                   Blatt: 2.6500                                   OK
+4b       Skript: False                                    Blatt: False                                    OK
+5a       Skript: {-8, 8}                                  Blatt: {-8, 8}                                  OK
+5b       Skript: {-6, 2}                                  Blatt: {-6, 2}                                  OK
+Abweichungen: 0

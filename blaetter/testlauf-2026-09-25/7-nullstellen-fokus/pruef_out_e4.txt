@@ -1,0 +1,63 @@
+6d       Skript: x**2 - x - 6                             Blatt: x**2 - x - 6                             OK
+6e       Skript: x**2 + 3*x - 2                           Blatt: x**2 + 3*x - 2                           OK
+7 Bsp    Skript: {-2, 4}                                  Blatt: {-2, 4}                                  OK
+7a       Skript: {-5, 5}                                  Blatt: {-5, 5}                                  OK
+7b       Skript: {3, 5}                                   Blatt: {3, 5}                                   OK
+7c       Skript: {4, 8}                                   Blatt: {4, 8}                                   OK
+7d       Skript: {-2, 8}                                  Blatt: {-2, 8}                                  OK
+8a       Skript: {-5, 1}                                  Blatt: {-5, 1}                                  OK
+8b       Skript: {-7, -3}                                 Blatt: {-7, -3}                                 OK
+8c       Skript: {7}                                      Blatt: {7}                                      OK
+8d       Skript: {}                                       Blatt: {}                                       OK
+9a       Skript: 2                                        Blatt: 2                                        OK
+9b       Skript: 0                                        Blatt: 0                                        OK
+9c       Skript: 1                                        Blatt: 1                                        OK
+9d       Skript: 2                                        Blatt: 2                                        OK
+9e       Skript: 0                                        Blatt: 0                                        OK
+9g       Skript: 0                                        Blatt: 0                                        OK
+10a Rad  Skript: 16                                       Blatt: 16                                       OK
+10a      Skript: {-3, 5}                                  Blatt: {-3, 5}                                  OK
+10b Rad  Skript: 4                                        Blatt: 4                                        OK
+10b      Skript: {2, 6}                                   Blatt: {2, 6}                                   OK
+10c Rad  Skript: 25                                       Blatt: 25                                       OK
+10c      Skript: {-7, 3}                                  Blatt: {-7, 3}                                  OK
+10d Rad  Skript: 9                                        Blatt: 9                                        OK
+10d      Skript: {-8, -2}                                 Blatt: {-8, -2}                                 OK
+11a Rad  Skript: 1/4                                      Blatt: 0.2500                                   OK
+11a      Skript: {2, 3}                                   Blatt: {2, 3}                                   OK
+11b Rad  Skript: 49/4                                     Blatt: 12.2500                                  OK
+11b      Skript: {-5, 2}                                  Blatt: {-5, 2}                                  OK
+11c      Skript: {5}                                      Blatt: {5}                                      OK
+11d Rad  Skript: -3                                       Blatt: -3                                       OK
+11d      Skript: {}                                       Blatt: {}                                       OK
+12a exakt Skript: {1 - sqrt(3), 1 + sqrt(3)}               Blatt: {1 - sqrt(3), 1 + sqrt(3)}               OK
+12a gerund. Skript: {-0.7300, 2.7300}                        Blatt: {-0.7300, 2.7300}                        OK
+12b exakt Skript: {-3 - sqrt(7), -3 + sqrt(7)}             Blatt: {-3 - sqrt(7), -3 + sqrt(7)}             OK
+12b gerund. Skript: {-5.6500, -0.3500}                       Blatt: {-5.6500, -0.3500}                       OK
+12c Rad  Skript: 6                                        Blatt: 6                                        OK
+12c gerund. Skript: {-0.4500, 4.4500}                        Blatt: {-0.4500, 4.4500}                        OK
+13a normiert Skript: x**2 + 2*x - 8                           Blatt: x**2 + 2*x - 8                           OK
+13a      Skript: {-4, 2}                                  Blatt: {-4, 2}                                  OK
+13b normiert Skript: x**2 - 7*x + 10                          Blatt: x**2 - 7*x + 10                          OK
+13b Rad  Skript: 9/4                                      Blatt: 2.2500                                   OK
+13b      Skript: {2, 5}                                   Blatt: {2, 5}                                   OK
+13c normiert Skript: x**2 - 4*x - 5                           Blatt: x**2 - 4*x - 5                           OK
+13c      Skript: {-1, 5}                                  Blatt: {-1, 5}                                  OK
+14a      Skript: {0, 6}                                   Blatt: {0, 6}                                   OK
+14b      Skript: {-5, -3}                                 Blatt: {-5, -3}                                 OK
+15a normiert Skript: x**2 - x - 12                            Blatt: x**2 - x - 12                            OK
+15a      Skript: {-3, 4}                                  Blatt: {-3, 4}                                  OK
+15b exakt Skript: {-sqrt(5) - 2, -2 + sqrt(5)}             Blatt: {-sqrt(5) - 2, -2 + sqrt(5)}             OK
+15b gerund. Skript: {-4.2400, 0.2400}                        Blatt: {-4.2400, 0.2400}                        OK
+15c Nachweis Skript: x**2 - 8*x + 9                           Blatt: x**2 - 8*x + 9                           OK
+15c exakt Skript: {4 - sqrt(7), sqrt(7) + 4}               Blatt: {4 - sqrt(7), sqrt(7) + 4}               OK
+15c gerund. Skript: {1.3500, 6.6500}                         Blatt: {1.3500, 6.6500}                         OK
+16a      Skript: {-8, 6}                                  Blatt: {-8, 6}                                  OK
+16b      Skript: {-1, 11}                                 Blatt: {-1, 11}                                 OK
+17a Ben  Skript: {-11.1000, -0.9000}                      Blatt: {-11.1000, -0.9000}                      OK
+17a      Skript: {-5, -1}                                 Blatt: {-5, -1}                                 OK
+17b      Skript: {-2, 6}                                  Blatt: {-2, 6}                                  OK
+18a      Skript: 2                                        Blatt: 2                                        OK
+18b      Skript: {-2, 10}                                 Blatt: {-2, 10}                                 OK
+18b Lösung Skript: 10                                       Blatt: 10                                       OK
+Abweichungen: 0

@@ -1,0 +1,11 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% Im Vorspann definierter Baustein: Zweigzeile als zweite Zeile unter dem Einheitenkopf
+% (die Anleitung Stufe 4 kennt keine zweite Zeile des Einheitenkopfs).
+\newcommand{\zweigzeile}[1]{\par\vspace{-2mm}\noindent{\small #1}\par\medskip}
+\begin{document}
+\blattkopf{Quadratische Funktionen}{Fokus Nullstellen}
+\weit
+\input{zone_a}
+\IfFileExists{e4_a.tex}{\clearpage\input{e4_a}}{}
+\end{document}
