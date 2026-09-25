@@ -96,9 +96,9 @@ Zwischenkompilate der Sitzung (gesamt.pdf, probe_e1.pdf …). Der Ordner ist fla
 nebeneinander. Quelltext = gleichnamige tex-Datei, sonst die tex-Datei, deren Name das
 Blattwort nach dem letzten „_“ ist (gesamt.tex, fokus*.tex), sonst die tex-Datei mit
 \blattkopf{…}{<Blattwort>…}. Prompt und Katalogeintrag stehen nicht im Register, sondern
-in protokoll.txt des Ordners (Zeilen „Prompt:“ und „Katalog:“ samt eingerückten
-Folgezeilen; Eintrag = jeder Name mit „.md“, sonst jedes Wort, zu dem katalog/<wort>.md
-existiert). Spalte „Thema“ = Unterordner, „Datum“ = Testlaufordner.
+in protokoll.txt des Ordners (Zeile „Prompt:“; je Zeile „Katalog:“ der Name direkt dahinter –
+nicht die Namen, die die Stand-Zeile des Eintrags nebenbei nennt; ein Blatt aus zwei Einträgen
+hat zwei solche Zeilen). Spalte „Thema“ = Unterordner, „Datum“ = Testlaufordner.
   --ausgabe <datei>  schreibt die Kennzahlen dorthin statt nach blaetter/kennzahlen.md
                      (auch ohne --testlauf).
 
@@ -858,14 +858,12 @@ def testlauf_protokoll(ordner):
     if not prot.exists():
         return {'prompt': prompt, 'katalog': '', 'namen': namen}
     zeilen = prot.read_text(encoding='utf-8', errors='replace').split('\n')
-    for i, z in enumerate(zeilen):
+    for z in zeilen:
         if z.startswith('Prompt:') and prompt == '?':
             prompt = z.split(':', 1)[1].strip()
-        if z.startswith('Katalog:') and not namen:
-            block = ' '.join([z] + [y for y in zeilen[i + 1:i + 6] if y.startswith((' ', '\t'))])
-            namen = re.findall(r'([a-z0-9-]+)\.md', block)
-            if not namen:
-                namen = [w for w in re.findall(r'[a-z0-9-]+', block) if (KATALOG / f'{w}.md').exists()]
+        m = re.match(r'Katalog:\s*([a-z0-9-]+)(\.md)?', z)
+        if m and (m.group(2) or (KATALOG / f'{m.group(1)}.md').exists()):
+            namen.append(m.group(1))
     return {'prompt': prompt, 'katalog': '', 'namen': list(dict.fromkeys(namen))}
 
 
