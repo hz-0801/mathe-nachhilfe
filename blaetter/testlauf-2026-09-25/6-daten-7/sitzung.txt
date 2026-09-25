@@ -1,0 +1,34 @@
+→ Lernblatt · Kl. 7 · Oberschule als Standpunkt, Gymnasium daneben vermerkt · mit Wiederholung, ohne Ausblick (Daten steht schon im Register der Blätter) · 2 Zweige · Einheiten 1, 2 und 4 kommen laut Marke vor Kl. 7 und stehen deshalb als Fertigkeiten in der Zone · Einheit 6 (Sek II) und Einheit 7 (Vierfeldertafel, Kl. 9) weggelassen · Zone aus 9 Fertigkeiten
+
+- Einheit 1 von 2 · Streifen- und Kreisdiagramm – Hier lernst du, Anteile als Streifen und als Kreisdiagramm darzustellen · neu oder schon bekannt – je nach Buch (am Gymnasium schon seit Klasse 6) · P10 oft · baut auf: Häufigkeiten und Anteile (Kennst du schon), Prozentsatz, Längen in cm und mm, Winkel zeichnen
+- Einheit 2 von 2 · Diagramme beurteilen und Boxplot – Hier lernst du, Aussagen zu Diagrammen zu prüfen, täuschende Diagramme zu erkennen und Boxplots zu lesen · neu oder schon bekannt – je nach Buch, bis Klasse 9 (am Gymnasium neu in diesem Jahr) · P10 · baut auf: Säulendiagramme lesen und Kenngrößen (Kennst du schon), Prozentsatz, Bruchteil und Vielfaches
+
+Es gab keine Planfrage: Der Plan hat nur zwei Zweige, und die Stufe steht durch Kl. 7 fest. Die Antwort „sek i, alle“ aus der Eingabe passt dazu.
+
+Daten_KennstDuSchon.pdf
+
+Weiter baut Einheit 1 bis 2, Gesamt und Lösungen.
+
+Daten_Lernblatt.pdf
+Daten_Gesamt.pdf
+Daten_Loesungen.pdf
+Daten_2026-09-25_protokoll.zip
+
+1. Abweichungen:
+   - Die Katalog-Einheiten 1, 2 und 4 (Marke OS Kl. 5–6 bzw. 6, also vor Kl. 7) stehen nur als Fertigkeiten in der Zone. Dadurch fallen ihre Typen über den Grundfall hinaus weg, ebenso die Vorstufen „Welche Kenngröße?“ und „Sortiert?“.
+   - Einheit 6 (Sek II) und Einheit 7 (Vierfeldertafel, Kl. 9) fehlen. Einen Ausblick gibt es nicht, weil das Register der Blätter „daten“ schon führt.
+   - Geteilte Hauptnummern: 6/7, 14/15, 17/18, 25/26.
+   - Boxplot lesen und zeichnen (30, 31) stehen als eigene Hauptnummern hinter der Prüfungshöhe 29, weil sie eine eigene Form und Zeitmarke haben.
+   - Für den Boxplot gibt es kein P10-Original; die Höhe folgt dem Lehrwerk. Die Quartilregel steht in der Anweisung. Die Zahlen sind so gewählt, dass beide Schulbuchregeln dasselbe Quartil ergeben.
+   - Zwischensprosse „ein Sechstel“ beim Schätzen von Sektoren (19).
+   - Die Vorstufe 24 hat vier kleine Diagramme statt höchstens zwei, weil jede Achse ihre eigene Grafik braucht.
+   - Im Vorspann selbst definiert: \zweigkopf (Zweigzeile als zweite Zeile), \zonekopf, \loesungskopf und die Abhakseite (aus den Titeln erzeugt).
+   - Vorlage: Bei \bp sind die Endstriche der Antennen im gerenderten Bild nicht immer zu sehen, weil sie auf Gitterlinien liegen. Die Werte lassen sich trotzdem ablesen.
+2. Katalog:
+   - Gebraucht wurden Lerneinheiten, Marken, Typen je Lerneinheit, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Sprossen, Typische Fehler und Prüfungsform/Zielmarke (P10).
+   - Nicht gebraucht wurden Merkkasten, Verortung und alle Sek-II-Teile.
+   - Befunde: „Boxplot zeichnen [GYM 7]“ hat keine OS-Marke. „Boxplot zeichnen“ und „Boxplot vergleichen“ haben keine Sprossenkette. „Spannweite [OS 9]“ passt nicht zur Einheitsmarke OS Kl. 6.
+   - Spannen: Einheit 3 (OS 6–7) und Einheit 5 (OS 6–9) schließen Kl. 7 ein, daher „neu oder schon bekannt – je nach Buch“. Einheit 1 und 2 (OS 5–6) liegen vor Kl. 7 und gehen in die Zone. Die Typklammer „Liniendiagramm lesen [OS 6–8]“ schließt Kl. 7 zwar ein, gehört aber zu einem Zweig der Zone und kommt dort nur als Grundfall vor.
+4. Protokoll-Archiv: Daten_2026-09-25_protokoll.zip
+
+Alle Dateien liegen in `C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\c6924aab-9c6f-4c6b-96fc-d8fbcd8c8855\scratchpad\bau\6-daten-7\a1`.

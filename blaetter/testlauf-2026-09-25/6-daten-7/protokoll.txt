@@ -1,0 +1,121 @@
+Prompt: Unterrichtsblatt-Prompt v4.3
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-22h (Beschriftung bei \balkenab und \liniendia: \balkenab misst die Kategorienamen
+Katalog: daten.md, Status: gegengelesen bis auf [FS] (2026-09-08f; LISUM-Planungshilfen am 10d nachgetragen; Zitierform der LISUM-Zeile am 10e vereinheitlicht; fünfter Gegenlese-Block am 2026-09-10j: Zielmarke und Prüfungshöhe für alle fünf Einheiten mit Original-id und Niveau gesetzt, die drei Prozent-Kanten zu prozentrechnung.md gegengezeichnet, 2015-OS-K4a als elfter Fall der Gliederungsregel aufgenommen, zwei Typen ohne Hauptoriginal vermerkt, fünf offene Punkte geschlossen; Sek-II-Teil ergänzt 2026-09-20, Entscheidung 37, nicht gegengelesen: Einheit 6 neu, Sek-II-Zeilen in den Einheiten 1 und 4, Prüfungsform (fhr / abi / iqb) aus rohdaten/daten.md mit 30 Zeilen) · Stufe: Sek I + II · Bildungsgänge: alle bis Kl. 10; Sek-II-Teil: Fachoberschule Brandenburg (Pflichtthema 4 „Beschreibende Statistik“, jedes Heft 2019–2026) und gymnasiale Oberstufe Berlin und Brandenburg (Q2 „Lage- und Streumaße einer Stichprobe“, im Pool nur in den Jahrgängen 2023 und 2026 mit vier Zeilen, alle Teil B) · gegengelesen: bis auf [FS]
+Bestellung: mit Wiederholung (ohne Ausblick: das Register der Blätter führt „daten“ seit 2026-09-22)
+Standpunkt: Kl. 7, Oberschule (keine Schulform genannt), Gymnasium als Zusatz
+
+Zweige:
+Gebaut:
+  Einheit 1 von 2 · Streifen- und Kreisdiagramm – Hier lernst du, Anteile als Streifen und als Kreisdiagramm darzustellen · neu oder schon bekannt – je nach Buch (am Gymnasium schon seit Klasse 6) · P10 oft · baut auf: Häufigkeiten und Anteile (Kennst du schon), Prozentsatz, Längen in cm und mm, Winkel zeichnen
+  Einheit 2 von 2 · Diagramme beurteilen und Boxplot – Hier lernst du, Aussagen zu Diagrammen zu prüfen, täuschende Diagramme zu erkennen und Boxplots zu lesen · neu oder schon bekannt – je nach Buch, bis Klasse 9 (am Gymnasium neu in diesem Jahr) · P10 · baut auf: Säulendiagramme lesen und Kenngrößen (Kennst du schon), Prozentsatz, Bruchteil und Vielfaches
+Zone (Wiederholung, Marke vor Kl. 7): Katalog-Einheit 1 Häufigkeiten (OS Kl. 5–6), Einheit 2 Säulen-, Balken- und Liniendiagramme (OS Kl. 5–6), Einheit 4 Kenngrößen (OS Kl. 6) – je eine Fertigkeit mit dem Grundfall
+Abgewählt/weggelassen: Einheit 6 Kenngrößen aus Häufigkeitstabellen und Klassen (Sek II); Einheit 7 Vierfeldertafel (OS Kl. 9, GYM Kl. 9–10 – Ausblick, nicht bestellt)
+Ausblick: keiner
+
+Hauptnummern:
+Kennst du schon:
+  1. Ich kann eine Strichliste auszählen und angeben, welcher Anteil das ist.
+  2. Ich kann ausrechnen, wie viel Prozent ein Teil vom Ganzen ist.
+  3. Ich kann Werte aus einem Säulendiagramm ablesen.
+  4. Ich kann Zahlen ordnen und Werte an einer Skala ablesen.
+  5. Ich kann Längen in Zentimetern und Millimetern angeben und zeichnen.
+  6. Ich kann Winkel als Teil des Vollkreises sehen und mit dem Geodreieck zeichnen.
+  7. Ich kann Winkel als Teil des Vollkreises sehen und mit dem Geodreieck zeichnen – weiter.
+  8. Ich kann mit Dezimalzahlen rechnen und sinnvoll runden.
+  9. Ich kann den kleinsten und den größten Wert, die Spannweite, den Mittelwert und den Median einer Liste bestimmen.
+  10. Ich kann ausrechnen, was „die Hälfte“, „ein Drittel mehr“ oder „doppelt so viel“ bedeutet.
+  11. Ich finde den Fehler, wenn ein Anteil vom falschen Ganzen berechnet wurde.
+Einheit 1 von 2:
+  12. Ich erkenne, was das Ganze ist.
+  13. Ich erkenne, ob eine Zahl ein Anteil in Prozent oder ein Winkel in Grad ist.
+  14. Ich kann einen Anteil als Streifen darstellen.
+  15. Ich kann einen Anteil als Streifen darstellen – weiter.
+  16. Ich kann ausrechnen, welcher Winkel im Kreisdiagramm zu einem Anteil gehört.
+  17. Ich kann ein Kreisdiagramm zeichnen (kennst du wahrscheinlich seit Klasse 6).
+  18. Ich kann ein Kreisdiagramm zeichnen – weiter.
+  19. Ich kann schätzen, welcher Anteil zu einem Sektor gehört.
+  20. Ich kann die Sektoren eines Kreisdiagramms den Anteilen zuordnen.
+  21. Ich finde den Fehler beim Winkel im Kreisdiagramm.
+  22. Ich kann begründen, wie Anteil und Winkel im Kreisdiagramm zusammenhängen.
+  23. Ich kann entscheiden, ob ein Kreisdiagramm zu einer Umfrage passt.
+Einheit 2 von 2:
+  24. Ich erkenne, wo die senkrechte Achse eines Diagramms anfängt.
+  25. Ich kann prüfen, ob eine Aussage zu einem Diagramm stimmt.
+  26. Ich kann prüfen, ob eine Aussage zu einem Diagramm stimmt – weiter.
+  27. Ich kann erklären, warum ein Diagramm täuscht.
+  28. Ich kann einen Trend in einem Diagramm beurteilen (kommt in Klasse 9, am Gymnasium neu in diesem Jahr).
+  29. Ich kann ein Diagramm mit einer Achse ab 0 zeichnen und eine Zeitungsaussage dazu prüfen.
+  30. Ich kann einen Boxplot lesen (kommt nächstes Jahr, je nach Buch bis Klasse 9; am Gymnasium neu in diesem Jahr).
+  31. Ich kann einen Boxplot zeichnen (kommt nächstes Jahr, je nach Buch bis Klasse 9; am Gymnasium neu in diesem Jahr).
+  32. Ich finde den Fehler, wenn jemand nur die Säulenhöhe vergleicht.
+  33. Ich kann begründen, wann die Achse eines Diagramms bei 0 beginnen sollte.
+  34. Ich kann mit Zahlen aus einer Zählung einen Antrag begründen.
+
+Zählung aus der Textextraktion:
+Daten_KennstDuSchon.pdf: Hauptnummern 11, Teilaufgaben 50, Grafiken 5 (aus dem Quelltext gezählt), Seiten 3
+Daten_Lernblatt.pdf: Hauptnummern 23, Teilaufgaben 93, Grafiken 31 (aus dem Quelltext gezählt), Seiten 15
+  Verzeichnis: Einheit 1 · Streifen- und Kreisdiagramm (Nr. 12–23) · Seiten 2–7 | Einheit 2 · Diagramme beurteilen und Boxplot (Nr. 24–34) · Seiten 8–14 | Das kann ich (Nr. 1–34) · Seite 15
+Daten_Gesamt.pdf: Hauptnummern 34, Teilaufgaben 143, Grafiken 36 (aus dem Quelltext gezählt), Seiten 18
+  Verzeichnis: Kennst du schon (Nr. 1–11) · Seiten 2–4 | Einheit 1 · Streifen- und Kreisdiagramm (Nr. 12–23) · Seiten 5–10 | Einheit 2 · Diagramme beurteilen und Boxplot (Nr. 24–34) · Seiten 11–17 | Das kann ich (Nr. 1–34) · Seite 18
+Daten_Loesungen.pdf: Nummern mit Lösung 34, Lösungsgrafiken 3, Seiten 3
+
+Schritte (Schritt · Anlass):
+1 · Themenregister und Register der Blätter geholt (curl) – Ausgabe 120 KB, in Datei abgelegt
+2 · Registerzeilen zu „daten“ gesucht – daten.md gefunden; Register der Blätter führt „daten“ (2026-09-22) → ohne Ausblick
+3 · Registerzeile daten.md und Blätterregister angezeigt
+4 · Zeitstempel t0 (allein)
+5 · Eintrag daten.md, mathblatt.sty und Anleitung_mathblatt.md geholt; Vorlagenversion 2026-09-22h = Anleitung
+6 · Eintrag gelesen (Teil 1)
+7 · Eintrag gelesen (Teil 2)
+8 · Anleitung gelesen
+9 · Zählername der Hauptnummern in der Vorlage gesucht (aufgabe)
+10 · zone_a.tex geschrieben
+11 · Korrektur vorbeugend: Tabelle, Diagramm und \rechnung aus dem Titelargument von aufgabe in den Rumpf gezogen
+12 · zone_l.tex geschrieben
+13 · Zuordnungszeile der Zone präzisiert
+14 · Rahmen Daten_KennstDuSchon.tex und pruef.py geschrieben
+15 · Zone: pruef.py (0 Abweichungen), Kompilat 3 Seiten, gerendert
+16 · Korrektur: Felder gedehnt (1d, 1e, 2e, 2f), Ordnungskette 4a–c zerrissen, teilezwei-Zelle 6d übergelaufen → 4 Seiten
+17 · Seitenverteilung geprüft: Nr. 11 allein auf Seite 4, Seite 2 halb leer (Nr. 7 mit drei Winkelstrahlen untereinander)
+18 · Korrektur abgebrochen: Werkzeugaufruf gesperrt (Remove-Item auf gerenderte Bilder)
+19 · Korrektur: drei \winkelstrahl nebeneinander → „Overfull \hbox (12.28787pt too wide)“, 3 Seiten
+20 · Korrektur: \winkelstrahl[4.6] → „Overfull \hbox (0.90695pt too wide)“, Stempel zone
+21 · Feld 11b auf eigene Zeile, Stempel weiter, Zone neu kompiliert
+22 · e1_a.tex geschrieben
+23 · Titel Nr. 19 als Ich-kann-Satz „schätzen“ korrigiert, Kopf der Zonenlösung angepasst
+24 · e1_l.tex geschrieben
+25 · Prüfrahmen check_e.tex geschrieben
+26 · E1: pruef.py (0 Abweichungen), Kompilat, gerendert – Kreuze 13c umbrochen, Felder 19 in teilezwei übergelaufen, Streifenfeld nicht neben dem Streifen
+27 · Korrektur abgebrochen: PowerShell-Parserfehler an „“ im Ersetzungstext
+28 · Korrektur: Text 13c gekürzt, Nr. 19 in teile
+29 · Korrektur: Streifen mit Feld rechts daneben (minipage), neu kompiliert – Nr. 14 allein auf Seite 2 (Seite 1 zu zwei Dritteln gefüllt, kein Befund)
+30 · Seite 5 gerendert: \rechnung Nr. 21 – Pfeile nicht bündig
+31 · Korrektur: Vorgabe-Rechnung Nr. 21 am Gleichheitszeichen ausgerichtet, Lösungstext geprüft, Stempel e 1
+32 · e2_a.tex und e2_l.tex geschrieben
+33 · E2: pruef.py (0 Abweichungen), Kompilat – „! Package array Error: Illegal pream-token (8): `c' used.“ (\sachtabelle mit p{8.6cm}), „Package mathblatt Warning: Hauptnummer 26 ist hoeher als eine Seite“
+34 · Korrektur: Tabelle Nr. 26e durch Kreuzzeilen ersetzt – „Overfull \hbox (22.2356pt too wide)“ bei Nr. 29 (zwei \saeulenab nebeneinander); Rendern: Wochennamen Nr. 27e berühren sich, Felder 31c zerrissen
+35 · Korrektur: breite=0.7 bei Nr. 29, Kategorien W1–W5, Felder 31c auf drei Zeilen – Log sauber
+36 · Stempel e 2
+37 · Lösungsgrafiken (Kreisdiagramme 17b/18b, Boxplots 31) angehängt, verz.py geschrieben
+38 · Lernblatt: Abhakseite und Verzeichnis – „! Too many }'s.“ (Titel Nr. 15 ohne Aufgabentext, Regex in verz.py)
+39 · Korrektur: Regex, „Seiten“ bei zwei Seiten – Lernblatt 16 Seiten, Abhakseite 2 Seiten, Stempel lernblatt
+40 · Korrektur: \eng vor der Abhakseite, Gesamt gebaut – Abhakseite weiter 2 Seiten
+41 · Korrektur: Absatzabstand der Abhakseite verkleinert – Lernblatt 15, Gesamt 18 Seiten, Verzeichnis gegen zweites Kompilat gleich, Stempel gesamt
+42 · Lösungen gebaut (3 Seiten), Links geprüft (jeder Link trifft seinen Zweigkopf), Hauptnummern durchlaufend 1–34, Stempel loesungen
+43 · Lösungsgrafik 31 und Boxplots Nr. 30 vergrößert gerendert (60, 150, 300 dpi): Endstriche der Antennen teils im Raster nicht sichtbar
+44 · Protokoll, chat.txt und Archiv
+
+Vorlage: fehlende Bausteine · Warnungen aus dem Log
+Fehlende Bausteine: zweite Zeile des Einheitenkopfs für die Zweigzeile (\zweigkopf im Vorspann von Lernblatt und Gesamt), Zonenkopf (\zonekopf), Abschnittskopf der Lösungen (\loesungskopf), Abhakseite „Das kann ich“ (von verz.py aus den Titeln erzeugt, mit \einheitenkopf und $\square$)
+Warnungen aus dem Log: „Package mathblatt Warning: Hauptnummer 26 ist hoeher als eine Seite“ (Folge eines Tabellenfehlers, behoben); Overfull \hbox 0,9 pt bei den drei Winkelstrahlen der Zone (Nr. 7, verbleibt); sonst keine
+
+Korrekturrunden: 14 von 44 Schritten (zwei davon abgebrochene Aufrufe)
+Zone: 761 s
+Weiter: 1790332467 (Stempel des Durchlaufs ohne Wartezeit; kein Gegenüber, „weiter“ lag in der Eingabe)
+E 1: 992 s
+E 2: 1214 s
+Lernblatt: 1376 s
+Gesamt: 1570 s
+Lösungen: 1602 s
+Hinweis: „zone“, „lernblatt“ und „gesamt“ wurden nach Korrekturrunden erneut gestempelt; gezählt ist jeweils der letzte Stempel.

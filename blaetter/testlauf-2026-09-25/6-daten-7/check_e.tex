@@ -1,0 +1,13 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% Prüfrahmen je Einheit (nur zur Prüfung nach 5.1, wird nicht übergeben)
+\newcommand{\zweigkopf}[3]{\hypertarget{#1}{}\einheitenkopf{#2}\par\nopagebreak\noindent{\small #3}\par\medskip}
+\newcommand{\loesungskopf}[2]{\par\bigskip\noindent\hypertarget{#1}{}{\bfseries #2}\par\smallskip}
+\begin{document}
+\blattkopf{Daten}{Prüfung}
+\weit
+\input{\einheit_a}
+\clearpage
+\input{\einheit_l}
+\end{document}

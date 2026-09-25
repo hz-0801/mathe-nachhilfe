@@ -1,0 +1,50 @@
+1a         Skript 7              Blatt 7.0          OK
+1b         Skript Erdbeere       Blatt Erdbeere     OK
+1c         Skript 24             Blatt 24.0         OK
+1d Bruch   Skript 0.375          Blatt 0.375        OK
+1d %       Skript 37.5           Blatt 37.5         OK
+1e Bruch   Skript 0.125          Blatt 0.125        OK
+1e %       Skript 12.5           Blatt 12.5         OK
+2a         Skript 50             Blatt 50.0         OK
+2b         Skript 30             Blatt 30.0         OK
+2c         Skript 45             Blatt 45.0         OK
+2d         Skript 0.05           Blatt 0.05         OK
+2e         Skript 25             Blatt 25.0         OK
+2f         Skript 70             Blatt 70.0         OK
+3a         Skript 40             Blatt 40.0         OK
+3b         Skript 50             Blatt 50.0         OK
+3c         Skript 25             Blatt 25.0         OK
+3d         Skript 35000          Blatt 35000.0      OK
+4a         Skript [3, 5, 7, 9] Blatt [3, 5, 7, 9] OK
+4b         Skript [12, 15, 18, 21] Blatt [12, 15, 18, 21] OK
+4c         Skript [1.65, 1.7, 1.72, 1.8] Blatt [1.65, 1.7, 1.72, 1.8] OK
+4d         Skript 1.65           Blatt 1.65         OK
+4e         Skript 1.85           Blatt 1.85         OK
+5a         Skript 30             Blatt 30.0         OK
+5b         Skript 6              Blatt 6.0          OK
+5c         Skript 45             Blatt 45.0         OK
+5d         Skript 0.8            Blatt 0.8          OK
+5e         Skript 75             Blatt 75.0         OK
+6a         Skript 0.5            Blatt 0.5          OK
+6b         Skript 0.25           Blatt 0.25         OK
+6c         Skript 120            Blatt 120.0        OK
+6d         Skript 60             Blatt 60.0         OK
+8a         Skript 4              Blatt 4.0          OK
+8b         Skript 4.2            Blatt 4.2          OK
+8c         Skript 100            Blatt 100.0        OK
+8d         Skript 8.5            Blatt 8.5          OK
+8e         Skript 18             Blatt 18.0         OK
+8f         Skript 3.28571        Blatt 3.3          OK
+9a         Skript 9              Blatt 9.0          OK
+9b         Skript 20             Blatt 20.0         OK
+9c         Skript 11             Blatt 11.0         OK
+9d         Skript 14.2           Blatt 14.2         OK
+9e         Skript 14             Blatt 14.0         OK
+10a        Skript 40             Blatt 40.0         OK
+10b        Skript 70             Blatt 70.0         OK
+10c        Skript 80             Blatt 80.0         OK
+10d        Skript 200            Blatt 200.0        OK
+10e        Skript 90             Blatt 90.0         OK
+11a        Skript 40             Blatt 40.0         OK
+11b        Skript 30             Blatt 30.0         OK
+Abweichungen: 0

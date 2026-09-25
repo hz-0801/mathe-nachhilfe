@@ -1,0 +1,65 @@
+24b        Skript 80             Blatt 80.0         OK
+24c        Skript 1.5            Blatt 1.5          OK
+25a        Skript True           Blatt True         OK
+25b        Skript True           Blatt True         OK
+25c        Skript False          Blatt False        OK
+25d        Skript False          Blatt False        OK
+25e        Skript False          Blatt False        OK
+25f        Skript True           Blatt True         OK
+26 Summe   Skript 100            Blatt 100.0        OK
+26g        Skript True           Blatt True         OK
+26h        Skript True           Blatt True         OK
+26i        Skript False          Blatt False        OK
+26i 1/15   Skript 6.66667        Blatt 6.7          OK
+26j Lesen Anzahl Skript 54             Blatt 54.0         OK
+26j        Skript False          Blatt False        OK
+26k1       Skript True           Blatt True         OK
+26k1 %     Skript 41             Blatt 41.0         OK
+26k2       Skript False          Blatt False        OK
+27a        Skript 400            Blatt 400.0        OK
+27b Differenz Skript 20             Blatt 20.0         OK
+27b Säulen scheinbar Skript 2              Blatt 2.0          OK
+27c        Skript 4.7619         Blatt 4.8          OK
+27e Säulenverhältnis Skript 3              Blatt 3.0          OK
+27e Anstieg % Skript 8.33333        Blatt 8.3          OK
+28b        Skript False          Blatt False        OK
+28b Anstieg 2022 Skript 5              Blatt 5.0          OK
+28c Rückgang je Jahr Skript 10             Blatt 10.0         OK
+28c Jahr 0 Skript 2031           Blatt 2031.0       OK
+29a 2021   Skript 42             Blatt 42.0         OK
+29a 2022   Skript 40             Blatt 40.0         OK
+29a 2023   Skript 41             Blatt 41.0         OK
+29a 2024   Skript 37             Blatt 37.0         OK
+29a 2025   Skript 35             Blatt 35.0         OK
+29d jedes Jahr Skript False          Blatt False        OK
+29d Rückgang % Skript 16.6667        Blatt 16.7         OK
+29d Verhältnis Skript 0.833333       Blatt 0.83         OK
+29d Säulen scheinbar Skript 0.416667       Blatt 0.42         OK
+30a        Skript 13             Blatt 13.0         OK
+30b min    Skript 6              Blatt 6.0          OK
+30b max    Skript 22             Blatt 22.0         OK
+30c Q1     Skript 10             Blatt 10.0         OK
+30c Q3     Skript 16             Blatt 16.0         OK
+30d        Skript 16             Blatt 16.0         OK
+30e von    Skript 12             Blatt 12.0         OK
+30e bis    Skript 15             Blatt 15.0         OK
+30f Median 7b Skript 14             Blatt 14.0         OK
+30f Spannw 7b Skript 10             Blatt 10.0         OK
+30f Box 7a Skript 6              Blatt 6.0          OK
+30f Box 7b Skript 3              Blatt 3.0          OK
+30 Bsp Spannw Skript 13             Blatt 13.0         OK
+31c Konventionen gleich Skript True           Blatt True         OK
+31c min    Skript 2              Blatt 2.0          OK
+31c Q1     Skript 5              Blatt 5.0          OK
+31c Median Skript 7              Blatt 7.0          OK
+31c Q3     Skript 9              Blatt 9.0          OK
+31c max    Skript 13             Blatt 13.0         OK
+32a Differenz Skript 60             Blatt 60.0         OK
+32a %      Skript 23.0769        Blatt 23.0         OK
+32a scheinbar Skript 2              Blatt 2.0          OK
+32b scheinbar Skript 3              Blatt 3.0          OK
+32b %      Skript 18.1818        Blatt 18.2         OK
+34a fehlen Skript 25             Blatt 25.0         OK
+34a Ständer Skript 2              Blatt 2.0          OK
+34b        Skript 48.8095        Blatt 48.8         OK
+Abweichungen: 0

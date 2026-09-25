@@ -1,0 +1,66 @@
+14 Bsp     Skript 3              Blatt 3.0          OK
+14a        Skript 4              Blatt 4.0          OK
+14b        Skript 7              Blatt 7.0          OK
+14c        Skript 2              Blatt 2.0          OK
+14d        Skript 9              Blatt 9.0          OK
+15e        Skript 6.5            Blatt 6.5          OK
+15f Rad    Skript 4.5            Blatt 4.5          OK
+15f Bus    Skript 4              Blatt 4.0          OK
+15f Fuß    Skript 1.5            Blatt 1.5          OK
+15f Summe  Skript 100            Blatt 100.0        OK
+15g Rest   Skript 30             Blatt 30.0         OK
+15g cm     Skript 3              Blatt 3.0          OK
+15h Brötchen Skript 4              Blatt 4.0          OK
+15h Getränke Skript 3              Blatt 3.0          OK
+15h Müsli  Skript 2.5            Blatt 2.5          OK
+15h Kekse  Skript 0.5            Blatt 0.5          OK
+15h Summe  Skript 100            Blatt 100.0        OK
+16 Bsp     Skript 72             Blatt 72.0         OK
+16a        Skript 180            Blatt 180.0        OK
+16b        Skript 90             Blatt 90.0         OK
+16c        Skript 36             Blatt 36.0         OK
+16d        Skript 270            Blatt 270.0        OK
+16e        Skript 54             Blatt 54.0         OK
+16f        Skript 18             Blatt 18.0         OK
+16g        Skript 45             Blatt 45.0         OK
+16h        Skript 135            Blatt 135.0        OK
+16i        Skript 117            Blatt 117.0        OK
+16j        Skript 110.769        Blatt 111.0        OK
+17 Bsp     Skript 90             Blatt 90.0         OK
+17a        Skript 144            Blatt 144.0        OK
+17b Tee    Skript 180            Blatt 180.0        OK
+17b Kakao  Skript 162            Blatt 162.0        OK
+17b Milch  Skript 18             Blatt 18.0         OK
+18c Rest   Skript 11.5           Blatt 11.5         OK
+18c Sport  Skript 153            Blatt 153.0        OK
+18c Musik  Skript 99             Blatt 99.0         OK
+18c Lesen  Skript 66.6           Blatt 67.0         OK
+18c Sonst  Skript 41.4           Blatt 41.0         OK
+18c Summe gerundet Skript 360            Blatt 360.0        OK
+18c exakt Lesen Skript 66.6           Blatt 66.6         OK
+18c exakt Sonst Skript 41.4           Blatt 41.4         OK
+19a        Skript 50             Blatt 50.0         OK
+19b        Skript 25             Blatt 25.0         OK
+19c        Skript 33.3333        Blatt 33.0         OK
+19d        Skript 16.6667        Blatt 17.0         OK
+20a Summe  Skript 100            Blatt 100.0        OK
+20b Sonstiges Skript 14             Blatt 14.0         OK
+20b Winkel Skript 8.1            Blatt 8.1          OK
+21a Rad    Skript 144            Blatt 144.0        OK
+21a Bus    Skript 162            Blatt 162.0        OK
+21a Fuß    Skript 54             Blatt 54.0         OK
+21b Kakao  Skript 198            Blatt 198.0        OK
+21b Tee    Skript 72             Blatt 72.0         OK
+21b Wasser Skript 90             Blatt 90.0         OK
+21c %      Skript 4              Blatt 4.0          OK
+21c Winkel Skript 14.4           Blatt 14.4         OK
+21c falsch Skript 43.2           Blatt 43.2         OK
+21d %      Skript 2              Blatt 2.0          OK
+21d Winkel Skript 7.2            Blatt 7.2          OK
+22a        Skript 3.6            Blatt 3.6          OK
+23 Fußball Skript 45             Blatt 45.0         OK
+23 Schwimmen Skript 30             Blatt 30.0         OK
+23 Rad     Skript 40             Blatt 40.0         OK
+23 Tanzen  Skript 20             Blatt 20.0         OK
+23 Summe   Skript 135            Blatt 135.0        OK
+Abweichungen: 0

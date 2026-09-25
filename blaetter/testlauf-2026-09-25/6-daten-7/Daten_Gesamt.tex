@@ -1,0 +1,20 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% Vorspann-Bausteine (fehlen in der Vorlage): Zonenkopf und Zweigkopf mit Zweigzeile als zweiter Zeile
+\newcommand{\zonekopf}{\hypertarget{zone}{}\einheitenkopf{Kennst du schon}\par\nopagebreak\noindent{\small Das kennst du schon}\par\medskip}
+\newcommand{\zweigkopf}[3]{\hypertarget{#1}{}\einheitenkopf{#2}\par\nopagebreak\noindent{\small #3}\par\medskip}
+\begin{document}
+\blattkopf{Daten}{Gesamt}
+\weit
+\noindent{\large\bfseries Inhalt}\par\bigskip
+\InputIfFileExists{verz_gesamt}{}{}
+\clearpage
+\input{zone_a}
+\clearpage
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{abhaken}
+\end{document}
