@@ -63,7 +63,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2019-ea-B (WTR) | 10 von 17 | entfällt – Reserve (§ 4) |
 | 2018-ga-B (WTR) | 7 von 12 | **erfasst 2026-09-16, 53 Zeilen – wegen Landesheftverweisen** (2018-be-gk 2.2 und 3.2; Reserve geöffnet, Abbruchkriterium unberührt) · 29 Typen neu, 23 wiederverwendet (12 davon Etiketten des Landeshefts) · Eichung 46 von 53 (Spalte AB) |
 | 2018-ea-B (WTR) | 8 von 17 | **erfasst 2026-09-16, 69 Zeilen – wegen Landesheftverweisen** (2018-be-gk 3.2 e, g; Reserve geöffnet, Abbruchkriterium unberührt) · 38 Typen neu, 34 wiederverwendet · Eichung 59 von 69 (Spalte AB) · eine Zeile ersatzweise |
-| 2017-ga-B (WTR) | 5 von 10 | entfällt – Reserve (§ 4) |
+| 2017-ga-B (WTR) | 5 von 10 | **erfasst 2026-09-27, 39 Zeilen – wegen Landesheftverweisen** (2017-be-gk 3.1; Reserve geöffnet, Abbruchkriterium unberührt) · 10 Typen neu, 29 wiederverwendet · Eichung 34 von 39 (Spalte AB; erster Lauf 23, elf Schätzungen nach der engen Fassung korrigiert, keine unabhängige Kennzahl, § 4) · das Heft stellt Stochastik WTR 1 (3.1 a–d, f, g wortgleich, 3.1 e abgewandelt aus 2 c); Heft noch nicht erfasst |
 | 2017-ea-B (WTR) | 8 von 14 | entfällt – Reserve (§ 4) |
 | bsp-ga-B (WTR) | 4 von 8 | entfällt – Reserve (§ 4) |
 | bsp-ea-B (WTR) | 4 von 9 | entfällt – Reserve (§ 4) |
@@ -121,6 +121,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2021-ga-B-wtr (Teil B, Reserve) | 47 | 47 | 19 (40 %) | 45 von 47 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 15 von 47 (32 %); Schnitt 30 Werte, 41 von 47 Zeilen bekannt (87 %) | 8, 6, 8, 6 | 12 |
 | 2025-ea-B-mms (Teil B, Reserve, Delta-Stapel erhöht) | 25 | 25 | 19 (76 %) | 24 von 25 (96 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 2 von 25 (8 %); Schnitt 21 Werte, 24 von 25 Zeilen bekannt (96 %) | 9, 3, 9, 3 | 7 |
 | 2019-ga-B-wtr (Teil B, Reserve) | 66 | 67 | 47 (70 %) | 59 von 66 (89 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 5 von 67 (7 %); Schnitt 48 Werte, 59 von 66 Zeilen bekannt (89 %) | 10, 6, 10, 6 | 9 |
+| 2017-ga-B-wtr (Teil B, Reserve) | 39 | 39 | 10 (26 %) | 34 von 39 (87 %), Liste v0.7, Spalte AB; erster Lauf 23 von 39 (59 %), elf Schätzungen nach Prüfung der Abweichungen korrigiert (§ 4) | 0 | 0 | 22 von 39 (56 %); Schnitt 31 Werte, 38 von 39 Zeilen bekannt (97 %) | 0, 0, 0, 0 | 0 |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -2054,6 +2055,7 @@ des Werts).** Nach Teil A hat der Bestand 139 Schnittwerte (ga 97, ea 115).
 | 2021-ga-B-wtr (Reserve) | 47 | 30 | 6 | 6 | 6 | 1 | 1 | 1 |
 | 2025-ea-B-mms (Reserve) | 25 | 21 | 1 | 0 | 0 | 0 | 0 | 0 |
 | 2019-ga-B-wtr (Reserve) | 66 | 48 | 7 | 6 | 7 | 1 | 1 | 1 |
+| 2017-ga-B-wtr (Reserve) | 39 | 31 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 *Die drei letzten Zeilen sind nach Lauf 7 gemessen; 2026-ga-B-mms nach der
 Bereinigung (Lauf 9, vorher 42 Zeilen auf 34 Werte, die neuen Werte
@@ -2113,6 +2115,7 @@ fortgeschrieben).**
 | 2021-ga-B-wtr (Reserve) | 47 | 30 | 1,57 | 33 (70 %) | 43 (91 %) | 0 (0 %) | 6 | 0 | 7 | 6,7 | 60 min |
 | 2025-ea-B-mms (Reserve) | 25 | 21 | 1,19 | 21 (84 %) | 21 (84 %) | 0 (0 %) | 2 | 0 | 4 | 6,2 | 45 min |
 | 2019-ga-B-wtr (Reserve) | 66 | 48 | 1,38 | 43 (65 %) | 57 (86 %) | 0 (0 %) | 10 | 0 | 8 | 8,2 | 90 min |
+| 2017-ga-B-wtr (Reserve) | 39 | 31 | 1,26 | 35 (90 %) | 37 (95 %) | 0 (0 %) | 7 | 0 | 5 | 7,8 | 80 min |
 
 Befunde: Der Schnitt trägt in beiden Niveaus – 63 bis 78 % der Zeilen
 liegen auf Werten aus Teil A desselben Niveaus, 73 bis 90 % auf Werten aus
@@ -3272,10 +3275,120 @@ HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden (1463
 Zeilen, 1334 Typen, 38 Stapel, Eichung über den Bestand 1374 von 1462
 gewerteten Zeilen, 93 %, enge Fassung 94 %).
 
+**Stapel 2017-ga-B (WTR) – Reserve geöffnet wegen der Landesheftverweise
+(Auftrag Nacht 2026-09-27, Teil 10, 27.09.2026; Regel „Eine Vormerkung
+überlebt keinen Auftrag“, iqb.md § 7; kein Widerruf des Abbruchs, das
+Abbruchkriterium Teil B grundlegend bleibt ausgereizt).** Anlass ist das
+Landesheft 2017-be-gk, das im selben Auftrag erfasst wird: seine Aufgabe 3.1
+(Smartphone) ist die Pooldatei Stochastik WTR 1. 5 WTR-Dateien (Analysis WTR
+mit Aufgabe 1 Senke und Fluss, 31 BE, und Aufgabe 2 Funktion vierten Grades,
+9 BE; AG/LA (A2) WTR 1 Pagode, AG/LA (A2) WTR 2 Punkte und Solarmodule,
+Stochastik WTR 1 Smartphone, Stochastik WTR 2 Pkw und Standardabweichung, je
+20 BE; eine AG/LA-(A1)-Datei gibt es 2017 nur als CAS); die fünf CAS-Dateien
+(2017-iqb-ga-mms) bleiben Reserve. Keine Dateidublette, keine
+Aufgabendublette. 39 Zeilen, 39 Typen verwendet (vier davon nur als
+Nebentyp), 10 neu (26 %), 29 wiederverwendet.
+
+*Poolabgleich mit 2017-be-gk* (Text beider Fassungen mit pdftotext
+verglichen, die Zuordnung des vorigen Laufs bestätigt): 3.1 a, b →
+Stochastik WTR 1 1 a, b; 3.1 c, d → 2 a, b; 3.1 f, g → 2 d, e – wortgleich
+(Stamm, Tabelle, Aufträge, BE); 3.1 e ist abgewandelt aus 2 c (Heft: 20
+Geräte aus Werk A, Wahrscheinlichkeit für kein fehlerhaftes; Pool: 250
+Geräte, wahrscheinlichste Anzahl fehlerhafter; je 2 BE). Die übrigen vier
+Dateien kommen im Heft nicht vor (Heft 1.1 Holzeisenbahn, 1.2 Dachformen, 2.1
+Startbahn, 2.2 Schokotrüffel, 3.2 Würfel und Glücksräder). Das Heft ist noch
+nicht erfasst, der abi-Katalog trägt keine Vormerkung auf diesen Stapel: In
+Landesheften 0, kein Abgleichlauf nötig; der Heftlauf setzt bei 3.1 a–d, f, g
+„Dublette von:“ mit dem Typ der Poolzeile und bei 3.1 e „Abgewandelt von:
+2017MgrundlegendBStochastikWTR1-2c; …“. Die Typen der sechs wortgleichen
+Poolzeilen sind für beide Fassungen gewählt; 1 b liegt unter
+Zufallsexperimente (Lotto-Modell), nicht unter Hypergeometrische Verteilung,
+die be-gk nicht führt. Nebenbefund: Stochastik CAS trägt dieselbe
+Smartphone-Aufgabe, ist laut iqb-quellen.csv aber keine Dateidublette.
+
+*Eichung.* Die Schätzungen sind vor dem Standardbezug festgelegt (er steht
+in jeder Datei auf der letzten Seite; je Datei zuerst die Aufgabenseiten
+gerendert). In AG/LA (A2) WTR 2 und den beiden Stochastik-Dateien beginnt der
+Erwartungshorizont auf der Seite der letzten Teilaufgaben und war beim
+Schätzen dieser Datei in Sicht. Der erste Lauf stand bei 23 von 39 (59 %) und riss die Schwelle. Die
+Prüfung der 16 Abweichungen gegen die enge Fassung setzte elf Zeilen um, jede
+mit erster Schätzung und Grund in bemerkung: nach oben Analysis 1 c
+(f(x + 3) = f(x) erst in eine waagerechte Sehne der Länge 3 übersetzen, (a)
+und (d)), 1 g (Brücke mit 6 % auf der Uferzone, (a)) und 2 c (g'(3) · g''(3)
+über Monotonie und Krümmung, (d) sinngemäß) II → III, AG/LA (A2) WTR 1 e und
+WTR 2 d (Neigungswinkel, Koordinatengleichung – Verkettung, alle Zeilen der
+Typen im Bestand II) I → II; nach unten Analysis 1 e (Tiefpunkt über die
+gegebene Ableitung) und 1 f (zwei unabhängige Einzelrechnungen) II → I,
+Stochastik WTR 1 1 b (eine Laplace-Rechnung mit Gegenereignis) und 2 c
+(Modalwert, Standardverfahren des Typs) II → I, Stochastik WTR 1 2 d
+(einfache Deutung einer Binomialsumme, Ausnahme zu (d)) und WTR 2 1 b
+(Urnenmodell mit Pfadprodukt, kein Listeneintrag) III → II. Stand 34 von 39
+(87 %); die Schwelle blieb. **Die Quote nach der Prüfung ist keine
+unabhängige Kennzahl:** geprüft wurden nur die Abweichungen; unabhängig ist
+der erste Lauf mit 59 %, der niedrigste Wert eines Poolstapels. AG/LA (A2)
+WTR 2 e ist nicht blind geschätzt (der amtliche Bereich der gleichartigen WTR
+1 e war gelesen). Die fünf verbliebenen Abweichungen: Analysis 1 d
+(Produktregel mit Ausklammern, I gegen II – dieselbe Leistung in 2024-ga-B
+Analysis WTR 1 1 a amtlich I), Stochastik WTR 1 2 a (totale
+Wahrscheinlichkeit aus einer Tabelle, I gegen II – die Poolzeilen des Typs
+amtlich I), WTR 2 2 a (n aus σ und p, I gegen II) sowie WTR 1 2 e und WTR 2
+1 c (Mindestanzahl über das Gegenereignis, II gegen III). Die beiden letzten
+sind die ersten amtlichen Bereiche für ihren Typ; mit 2018-ea-B WTR 1 1 b,
+2019-ga-B WTR 1 1 b und 2024-ea-B WTR 1 1 c ist „Mindestanzahl oder
+Mindestumfang für eine Mindestwahrscheinlichkeit“ im Pool in fünf von fünf
+Fällen III, die enge Fassung schätzt sie II – Kandidat für einen Eintrag der
+Deutungsliste (nicht gesetzt). Befund: nach 2017-ga-A (erster Lauf 75 %)
+zeigt der zweite Stapel des grundlegenden Pools 2017 das dort beschriebene
+Muster, hier in beide Richtungen – einfache Tabellen- und Formelrechnungen
+amtlich II, Extrempunkt, Streckenlänge und Modalwert amtlich I, Deutungen
+von Gleichungen und Termen amtlich III; das ist der Anlass, die Grenze I/II
+der Liste und ihre Anwendung auf den Pool 2017 zu prüfen (Entscheidung beim
+Lehrer). Anteil amtlich-III 7 von 39 (18 %). Alle rechnerischen amtlichen
+Ergebnisse mit sympy nachgerechnet (check17b.py im Scratchpad: 0,446 m;
+Breite 2,22 m; x ≈ −3,86; Tiefe 1,707 m; Brücke 6,025 m und 9,10 %; Δx ≈
+9,103; α ≈ 66,55°; Durchflussrate 2,07 m³/s; a = 4 und 5; Pagode |A1A2| =
+|B1B2| ≈ 5,377, 122,45 m², (0; 0; 9,3), 30,96°; Ebene 3x1 − x2 + 5x3 = 5,
+32,31°, Schatten 56 m² gegen 47,3 m²; 15; 247/490; 3 %; 1/6; Modalwert 12;
+s = 199; n ≥ 74; P(X = 8) ≈ 0,0623, P(X ≥ 5) ≈ 0,5793; 1/230; n ≥ 14; 88 %;
+n = 48; max p(1 − p) = 1/4), keine Abweichung (amtlich gerundet 45 cm, 2,2
+m, 67°, 2,1). Kein Fragezeichen, kein ersatzweise.
+
+*Schnitt.* 31 Werte, 38 von 39 Zeilen auf bekannten Werten des Niveaus; ein
+Wert neu im Niveau (Punkte und Strecken · Punkt · angeben, AG/LA (A2) WTR 1
+c: Mittelpunkte angeben, in be-gk und bb-ea), **keiner neu gegen den Pool
+und keiner im Gesamtbestand iqb + abi**: Abbruchkriterium 0 von 5, die Reihen
+aus Teil A und Teil B sind unberührt (Reserve-Stapel am Ende der
+Erfassungsreihenfolge; Eintrag in beiden Tabellen oben). Auf Teil-A-Werten
+gleiches Niveau 35 (90 %), beide Niveaus 37 (95 %). Außerhalb der Geltung:
+keine Zeile (keine A1-Datei, keine Scharaufgabe). Keine Trägerbindung,
+abhaengig_von in 7 Zeilen. Neue Typen nach Thema: Funktionsklassen 2
+(Fehlen weiterer Extrempunkte nach dem Grad; Werte a mit vorgegebener
+Lösungsanzahl von f(x) = a), Geraden 2 (Horizontalabstand aus einer Neigung
+in Prozent; senkrechte Strecke mit Parameterbereich), Kenngrößen von
+Verteilungen 2 (n aus σ und p; Unmöglichkeit über das Maximum von
+p · (1 − p)), je 1 Ableitungsgraph und Funktionsgraph (Vorzeichen von f' und
+f'' am Graphen), Ebenen (parallele Ebenen auswählen und der Höhe nach
+zuordnen), Flächeninhalt und Volumen im Raum (Schatten eines geneigten
+Rechtecks), Kombinatorik (ungeordnete Auswahl über den Binomialkoeffizienten).
+Etiketten: Analysis 1 e nimmt „Hochpunkt eines Produkts aus Polynom und
+e-Funktion berechnen“ für einen Tiefpunkt, 1 c „Funktionalgleichung mit
+Zeitverschiebung …“ für eine Verschiebung im Ort, 1 f „Streckenlänge im Raum
+berechnen“ für eine Strecke der Ebene (leitidee Analytische Geometrie wie
+2018-ga-B Analysis 1 c, 1 g ebenso unter Geraden), AG/LA (A2) WTR 2 c
+„Vierten Eckpunkt eines Quadrats …“ für ein Rechteck – Umbenennungen nur als
+Vorschlag für den Abgleichlauf. Befunde am Pooltext: Analysis Aufgabe 2 zeigt
+g nur als Graph (alle Werte abgelesen); die Textextraktion liefert Formeln,
+Vektoren und Standardbezüge nur bruchstückhaft, alles am gerenderten Blatt
+gelesen. Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte
+bestanden (1502 Zeilen, 1344 Typen, 39 Stapel, Eichung über den Bestand
+1408 von 1501 gewerteten Zeilen, 93 %, enge Fassung 1409). Aufwand etwa 80
+Minuten.
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-27 | Auftrag Nacht 2026-09-27, Teil 10: Stapel 2017-ga-B (WTR) erfasst – Reserve geöffnet wegen Landesheftverweisen (2017-be-gk 3.1 = Stochastik WTR 1; Regel „Eine Vormerkung überlebt keinen Auftrag“, Abbruchkriterium unberührt); 39 Zeilen aus 5 Dateien, Katalog 1463 → 1502 Zeilen, Typenliste 1334 → 1344 (10 neu). Alle Punktsummen geprüft (40, 20, 20, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 34 von 39 (87 %): der erste Lauf riss die Schwelle mit 23 von 39 (59 %), elf Schätzungen nach Prüfung der Abweichungen gegen die enge Fassung korrigiert (keine unabhängige Kennzahl, § 4), Schwelle unverändert. Kein neuer Schnittwert im Gesamtbestand (Abbruchkriterium 0 von 5). Poolabgleich: 3.1 a–d, f, g wortgleich, 3.1 e abgewandelt aus 2 c; Heft noch nicht erfasst, In Landesheften 0, kein Abgleichlauf. iqb.md v1.14 (§ 1 Bestand nachgezogen, auch für 2017-ga-A). |
 | 2026-09-27 | Auftrag Nacht 2026-09-27: Stapel 2017-ga-A erfasst – Reserve geöffnet wegen Landesheftverweisen (2017-be-gk, Regel „Eine Vormerkung überlebt keinen Auftrag“, Abbruchkriterium unberührt); 20 Zeilen aus 10 Dateien, Katalog 1463 Zeilen, Typenliste 1327 → 1334 (7 neu). Alle Punktsummen geprüft (10 × 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 17 von 20 (85 %): der erste Lauf riss die Schwelle mit 15 von 20, zwei Schätzungen nach der engen Fassung korrigiert, Schwelle unverändert. Kein neuer Schnittwert im Gesamtbestand (Abbruchkriterium 0 von 5). Poolabgleich: das Heft stellt keine Teilaufgabe dieses Stapels (kein hilfsmittelfreier Teil), In Landesheften 0; Heftaufgabe 3.1 stammt aus dem Reserve-Stapel 2017-ga-B-wtr (Stochastik WTR 1, sechs Teilaufgaben wortgleich, eine abgewandelt), der nach derselben Regel noch zu erfassen ist. |
 | 2026-09-17 | Auftrag G, Punkt 1 und 2: abitur-abgleich.py v0.24 (eigener Name im Kopf und Aufrufbeispiel, befund-abi-iqb-typen.md; Versionsbindung auf abitur-vokabular.md v1.6, abi-bau.py v0.12, iqb-bau.py v1.9), abi-bau.py v0.12 und iqb-bau.py v1.9 (nur Kopfzeile: abitur-abgleich.py v0.24). Kataloge und Typenliste unverändert, Selbstprüfung beider Skripte bestanden, Lauf 23 byteidentisch wiederholt. |
 | 2026-09-17 | Auftrag F, Punkt 2: das Abgleichskript heißt abitur-abgleich.py (git mv von abgleich.py, Inhalt byteidentisch, v0.23; bis Abgleichlauf 11 iqb-abgleich.py). Verweise in dieser Liste und im Regelwerk nachgezogen (abi-pruefungen.md § 5); Katalog unverändert, Selbstprüfung bestanden. Punkt 3: abi-iqb-typen.md → befund-abi-iqb-typen.md, repo-bestand.md → befund-repo-bestand.md. |

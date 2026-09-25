@@ -1,5 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.13 · 17.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Version 1.14 · 27.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 1.13 (Auftrag Nacht 2026-09-27, Teil 10): § 1 Bestand nachgezogen – Reserve-Stapel 2017-ga-A (20 Zeilen) und 2017-ga-B (WTR, 39 Zeilen) wegen Landesheftverweisen des Hefts 2017-be-gk geöffnet (Abbruchkriterium unberührt); Stand 1502 Zeilen in 39 Stapeln, 1344 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.12 (Auftrag F, Punkt 1 und 2): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge. Punkt 2: das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py; Familienname wie abitur-typen.csv), Verweise in § 2, § 7, § 9 nachgezogen. Punkt 5: Kern § 6 setzt Zeilenthema = Typthema als Regel (bisher Verweis auf das Profil) und § 5 die Eichung als Kennzahl nur bei amtlichen Anforderungsbereichen – für dieses Profil ohne Änderung (abitur-vokabular.md § 4, § 7). Punkt 6: Kern § 7 Selbstprüfung als Bedingung eines vollständigen Profils – iqb-bau.py hat sie.
 Änderungen gegenüber 1.11 (Auftrag E, Punkt 1, 3 und 4; Punkt 4: Begriffe – Dateidublette und Aufgabendublette statt Dublette für Datei und Aufgabe, Spalte dateidublette_von, Vormerkung statt Vermerk/Vorstufe, WTR-Fassung statt WTR-Zwilling, Schnitt statt Typenschnitt, Abgleichlauf bei erster Nennung; Punkt 3: unsichtbares Zeichen U+FEFF vor der ersten Beispielzeile in § 8 entfernt): überholte Aussagen auf den Stand vom 17.09.2026 – § 1 Bestand nach Abgleichlauf 23 und Zusammenführung mit abi als vollzogen; § 4 „vorläufig" bei den Kürzeln für Teil B gestrichen (seit dem Probestapel geltend); § 7 Schwellenwerte als gesetzt, Schranke neue Typen; Messgeschichte der Deutungsliste als eigener Befund vom Regelteil getrennt; § 9 erledigte Punkte gestrichen, Eichungsfrage beantwortet.
 Änderungen gegenüber 1.10 (Auftrag D, Teil 7): § 7 Regel „Eine Vormerkung
@@ -124,13 +125,13 @@ Abbruchkriterium ausgereizt am 14.09.2026, Pool 2017 und Beispielaufgaben
 Reserve), dann Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung; der
 WTR-Zweig beider Niveaus ist mit neun Stapeln 2026 bis 2022 ausgereizt,
 15.09.2026, MMS/CAS sind Delta nach § 7 und werden je Niveau an einem Stapel
-gemessen; alles Übrige Reserve, davon acht Stapel wegen Landesheftverweisen
+gemessen; alles Übrige Reserve, davon zehn Stapel wegen Landesheftverweisen
 geöffnet: 2017-ea-A, 2018-ga-B, 2018-ea-B, 2022-ga-B, 2020-ga-B, 2021-ga-B,
-2025-ea-B-mms, 2019-ga-B; § 7). Stand 17.09.2026
-nach Abgleichlauf 23: 1443 Zeilen in 37 Stapeln (19 Teil A, 15 Teil B WTR, 3
-Teil B MMS), 1323 Typen in der gemeinsamen Liste (708 nur im Pool, 348 in
-beiden Katalogen), 186 Schnittwerte im Poolbestand (iqb-pruefungen.md § 2 und
-§ 4).
+2025-ea-B-mms, 2019-ga-B, 2017-ga-A, 2017-ga-B (WTR); § 7). Stand 27.09.2026
+nach dem Stapel 2017-ga-B (WTR): 1502 Zeilen in 39 Stapeln (20 Teil A, 16
+Teil B WTR, 3 Teil B MMS), 1344 Typen in der gemeinsamen Liste (725 nur im
+Pool, 352 in beiden Katalogen), 186 Schnittwerte im Poolbestand
+(iqb-pruefungen.md § 2 und § 4).
 
 ## 2 Ablage und Quellen
 
