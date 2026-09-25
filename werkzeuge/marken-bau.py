@@ -32,7 +32,9 @@ Lesart (Auftrag Marken, archiv/auftrag-marken-2026-09-26.md; Entscheidungen im B
 - Typklammer: je Schulform die Einführungsklasse jeder Reihe mit Typzeile (gleiche 7er-Regel), eine Klasse
   oder die Spanne; Typzeilen mit Verlagsmarke zählen mit.
 - Prüfungswort Sek I: P10-Jahrgänge ab der Schwelle aus Datei 2 „P10 oft“, ab 1 „P10“, sonst „keine
-  P10-Aufgabe“. Sek II: „Abitur GK“, „Abitur LK“, „FHR“ je nach Jahrgängen, sonst „keine Prüfungsaufgabe“.
+  P10-Aufgabe“; hat die Sek-I-Einheit Sek-II-Zeilen (Sek-II-Teil eines Sek-I-Eintrags in _pruefungswort-belege.md)
+  mit mindestens einem FHR-Jahrgang, folgt „FHR“ (seit Auftrag Nacht 2026-09-27, Teil 2). Sek II: „Abitur GK“,
+  „Abitur LK“, „FHR“ je nach Jahrgängen, sonst „keine Prüfungsaufgabe“.
 - Sek II: „BE Q1/2“ bei zwei Halbjahren, „BE –“ ohne Planstelle; Kursart „GK“ (Grund- und Leistungskurs, bei
   Länderunterschied „GK (BE nur LK)“), „nur LK“, „FOS“ (nur FOS-Stelle), „Kursart –“ (keine Stelle).
 
@@ -70,6 +72,9 @@ NICHT_MARKE = {
 # solange _pruefungswort-belege.md sie nicht führt (seit dem Neubau im Auftrag Nacht 2026-09-27 führt sie beide –
 # der Eintrag greift dann nicht mehr).
 NEUE_EINHEITEN = {('potenz-exponentialfunktionen', 5): 'keine P10-Aufgabe', ('daten', 7): 'keine P10-Aufgabe'}
+
+# FHR-Wort an einer Sek-I-Einheit mit Sek-II-Zeilen: ab so vielen FHR-Jahrgängen (Auftrag Nacht 2026-09-27, Teil 2).
+FHR_SCHWELLE = 1
 
 # Gegenprobe des Auftrags (bekannte Werte); Abweichung wird gemeldet, nichts wird angepasst.
 GEGENPROBE = [
@@ -682,6 +687,11 @@ def main(probe=False):
                 LOG['Prüfungswort aus Datei 3'].append(f'{e} {u}: {NEUE_EINHEITEN[(e, u)]} (Einheit fehlt in _pruefungswort-belege.md)')
             else:
                 FEHLER.append(f'{e} {u}: keine P10-Zeile in _pruefungswort-belege.md'); continue
+            # Sek-I-Einheit mit Sek-II-Zeilen (Sek-II-Teil eines Sek-I-Eintrags in _pruefungswort-belege.md): „FHR“ wie bei
+            # den Sek-II-Einträgen, ab einem FHR-Jahrgang (Auftrag Nacht 2026-09-27, Teil 2)
+            if (e, u) in pw2 and pw2[(e, u)][2] >= FHR_SCHWELLE:
+                teile.append('FHR')
+                LOG['FHR-Wort an Sek-I-Einheit mit Sek-II-Zeilen'].append(f'{e} {u}: FHR-Jahrgänge {pw2[(e, u)][2]} von 8')
             nfa = nfa_text(z['nfa'])
             if nfa:
                 teile.append('nicht für alle: ' + nfa)

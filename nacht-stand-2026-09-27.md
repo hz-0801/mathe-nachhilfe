@@ -6,7 +6,7 @@ Beginn: 2026-09-25 15:47
 
 | Teil | Stand | letzter fertiger Punkt | Commit |
 |---|---|---|---|
-| 1 Belegskripte, Marken | offen | – | – |
+| 1 Belegskripte, Marken | erledigt | Punkt 4 (Marken-Bau: nichts zu ändern) | 265ce68 |
 | 2 FHR-Wort | offen | – | – |
 | 3 potenz-exponentialfunktionen | offen | – | – |
 | 4 Kleinposten | offen | – | – |
