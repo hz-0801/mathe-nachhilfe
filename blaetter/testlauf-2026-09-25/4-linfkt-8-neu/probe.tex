@@ -1,0 +1,13 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% Baustein Zweigzeile (fehlt in der Vorlage): zweite Zeile unter dem Einheitenkopf
+\newcommand{\zweigzeile}[1]{\par\nopagebreak{\small #1}\par\medskip}
+\begin{document}
+\blattkopf{Lineare Funktionen}{Probe \einheit}
+\weit
+\input{\einheit_a}
+\clearpage
+\begleitteil
+\input{\einheit_l}
+\end{document}

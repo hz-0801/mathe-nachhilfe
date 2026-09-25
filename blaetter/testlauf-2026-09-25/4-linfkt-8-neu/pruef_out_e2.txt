@@ -1,0 +1,51 @@
+8a         Skript=(3, -5)                      Blatt=(3, -5)                      OK
+8b         Skript=(-1, 6)                      Blatt=(-1, 6)                      OK
+8c         Skript=(7, 0)                       Blatt=(7, 0)                       OK
+8d         Skript=(0, -4)                      Blatt=(0, -4)                      OK
+8e         Skript=(1/2, 4)                     Blatt=(1/2, 4)                     OK
+9a         Skript=steigt                       Blatt=steigt                       OK
+9b         Skript=fällt                        Blatt=fällt                        OK
+9c         Skript=steigt                       Blatt=steigt                       OK
+9d         Skript=fällt                        Blatt=fällt                        OK
+9e         Skript=fällt                        Blatt=fällt                        OK
+10a        Skript=2                            Blatt=2                            OK
+10b        Skript=-1                           Blatt=-1                           OK
+10c        Skript=3                            Blatt=3                            OK
+10d        Skript=-2                           Blatt=-2                           OK
+11 Bsp     Skript=(-2, -1, 0, 1)               Blatt=(-2, -1, 0, 1)               OK
+11a        Skript=(2, 3, 4, 5)                 Blatt=(2, 3, 4, 5)                 OK
+11b        Skript=(-3, -1, 1, 3)               Blatt=(-3, -1, 1, 3)               OK
+11c        Skript=(3, 2, 1, 0)                 Blatt=(3, 2, 1, 0)                 OK
+12 Bsp     Skript=(3, 5)                       Blatt=(3, 5)                       OK
+12a        Skript=(2, 3)                       Blatt=(2, 3)                       OK
+12b        Skript=(2, 5)                       Blatt=(2, 5)                       OK
+12c        Skript=(5, 6)                       Blatt=(5, 6)                       OK
+12d        Skript=(5, 7)                       Blatt=(5, 7)                       OK
+13e        Skript=(5, 2)                       Blatt=(5, 2)                       OK
+13f        Skript=(3, 4)                       Blatt=(3, 4)                       OK
+13g        Skript=(-4, -2)                     Blatt=(-4, -2)                     OK
+13h        Skript=(-1, -3)                     Blatt=(-1, -3)                     OK
+14a        Skript=2                            Blatt=2                            OK
+14b        Skript=4                            Blatt=4                            OK
+14c        Skript=-2                           Blatt=-2                           OK
+14d        Skript=2                            Blatt=2                            OK
+14e        Skript=-1                           Blatt=-1                           OK
+14f        Skript=1/3                          Blatt=1/3                          OK
+15a        Skript=p                            Blatt=p                            OK
+15b        Skript=q                            Blatt=q                            OK
+15c        Skript=r                            Blatt=r                            OK
+15d        Skript=s                            Blatt=s                            OK
+15e        Skript=l_3                          Blatt=l_3                          OK
+16a        Skript=(1, 3, 6)                    Blatt=(1, 3, 6)                    OK
+16b        Skript=((1, 3), (2, 5))             Blatt=((1, 3), (2, 5))             OK
+16c        Skript=(4,)                         Blatt=(4,)                         OK
+16d        Skript=((2, 6),)                    Blatt=((2, 6),)                    OK
+17a        Skript=2/3                          Blatt=2/3                          OK
+17a Lage   Skript=3                            Blatt=3                            OK
+17b        Skript=-1/2                         Blatt=-1/2                         OK
+18a        Skript=g                            Blatt=g                            OK
+18b        Skript=g                            Blatt=g                            OK
+18c        Skript=nein                         Blatt=nein                         OK
+19b        Skript=B                            Blatt=B                            OK
+19c        Skript=30                           Blatt=30                           OK
+Abweichungen: 0

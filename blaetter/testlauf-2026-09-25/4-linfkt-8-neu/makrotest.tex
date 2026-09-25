@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\zweigzeile}[1]{\par\nopagebreak{\small #1}\par\medskip}
+\begin{document}
+\blattkopf{Lineare Funktionen}{Lernblatt}
+\weit
+\hypertarget{e1}{}\einheitenkopf{Einheit 1 von 5 · Proportionale Funktion}
+\zweigzeile{Hier lernst du etwas · neu in diesem Jahr · P10 oft · baut auf: Dreisatz}
+\begin{aufgabe}{\textbf{Ich kann ein Steigungsdreieck lesen.} Test.}
+\begin{ksys}[xmin=-4,xmax=4,ymin=-4,ymax=4,ablesen]
+\gerade{2}{-1}{g}\steigungsdreieck{0}{-1}{2}
+\gerade[-2]{-0.5}{1}{h}\steigungsdreieck{0}{1}{-0.5}
+\end{ksys}
+
+\begin{teile}
+\teil Test $f(x) = 2x$ \feld{m}\feld{n}\feldl{y}
+\teil \kreuz{steigt}\kreuz{fällt}
+\end{teile}
+\punktprobenliste{2x-1/A(3|5), -\frac{3}{4}x+2/B(-8|8)}
+\mnliste{2x+3, 0{,}5x-1}
+\wertetabelle{x}{f(x)}{-2,-1,0,1,2}
+\begin{geruest} \gz{a}{Gerade $g$}{\feld{m}\feld{n}\feldl{y}} \end{geruest}
+\end{aufgabe}
+\begin{aufgabe}{Zweite}
+\beispiel{3x + 2 &= 14 &&\mid -2 \\ 3x &= 12 &&\mid :3 \\ x &= 4}
+\begin{gleichungsraster}[2] \gl{2x + 4 = 10} & \gl{3x - 5 = 7} \\ \end{gleichungsraster}
+\begin{dreisatz}{$x$}{$y$}
+\dsz{2}{3}
+\dsp{\cdot 6}{\cdot 6}
+\dsz{12}{\dsleer}
+\end{dreisatz}
+\end{aufgabe}
+\newpage
+\begleitteil
+\erg{1}{a) test \quad b) test}
+\end{document}

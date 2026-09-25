@@ -1,0 +1,33 @@
+32a        Skript=(1, -3)                      Blatt=(1, -3)                      OK
+32b        Skript=(-3, 2)                      Blatt=(-3, 2)                      OK
+32c        Skript=(2, 4)                       Blatt=(2, 4)                       OK
+33 Bsp     Skript=-1                           Blatt=-1                           OK
+33a        Skript=3                            Blatt=3                            OK
+33b        Skript=-2                           Blatt=-2                           OK
+33c        Skript=4                            Blatt=4                            OK
+33d        Skript=-2                           Blatt=-2                           OK
+33e        Skript=5                            Blatt=5                            OK
+34 Bsp     Skript=(3, -3)                      Blatt=(3, -3)                      OK
+34a        Skript=(3, 2)                       Blatt=(3, 2)                       OK
+34b        Skript=(2, -1)                      Blatt=(2, -1)                      OK
+34c        Skript=(3, 3)                       Blatt=(3, 3)                       OK
+34d        Skript=(-3, 4)                      Blatt=(-3, 4)                      OK
+35c        Skript=(-1/2, 3)                    Blatt=(-1/2, 3)                    OK
+36 Bsp     Skript=(3, 7)                       Blatt=(3, 7)                       OK
+36a        Skript=(2, 8)                       Blatt=(2, 8)                       OK
+36b        Skript=(4, 13)                      Blatt=(4, 13)                      OK
+36c        Skript=(2, 6)                       Blatt=(2, 6)                       OK
+36d        Skript=(3, 13)                      Blatt=(3, 13)                      OK
+37e        Skript=(3, 4)                       Blatt=(3, 4)                       OK
+37f        Skript=(2, 2)                       Blatt=(2, 2)                       OK
+37g        Skript=(3/2, 0)                     Blatt=(3/2, 0)                     OK
+38 Mia     Skript=-3                           Blatt=-3                           OK
+38a        Skript=(3, -1)                      Blatt=(3, -1)                      OK
+38b        Skript=(4, -5)                      Blatt=(4, -5)                      OK
+39a        Skript=parallel                     Blatt=parallel                     OK
+39b        Skript=schneiden                    Blatt=schneiden                    OK
+39b S      Skript=(0, 2)                       Blatt=(0, 2)                       OK
+39c        Skript=identisch                    Blatt=identisch                    OK
+40a        Skript=(-20, 900)                   Blatt=(-20, 900)                   OK
+40c        Skript=45                           Blatt=45                           OK
+Abweichungen: 0

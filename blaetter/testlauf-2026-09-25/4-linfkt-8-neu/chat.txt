@@ -1,0 +1,22 @@
+lineare funktionen 8 nur das neue – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Standpunkt Oberschule (Gymnasium ebenfalls Kl. 8) · 5 Zweige, alle neu in Kl. 8 · ohne Zone, ohne Ausblick
+
+Einheit 1 von 5 · Proportionale Funktion: Hier lernst du, Funktionen mit y = m · x zu berechnen, zu zeichnen und zu erkennen · neu in diesem Jahr · P10 oft · baut auf: Koordinatensystem, proportionale Zuordnungen (Dreisatz)
+Einheit 2 von 5 · Lineare Funktion f(x) = m · x + n: Hier lernst du, Geraden mit f(x) = m · x + n zu zeichnen, m und n abzulesen und zu deuten · neu in diesem Jahr · P10 oft · baut auf: proportionale Funktion (Einheit 1), Brüche, negative Zahlen
+Einheit 3 von 5 · Punkte und Werte: Hier lernst du, Funktionswerte zu berechnen, Punkte zu prüfen und Nullstellen und Achsenschnittpunkte zu bestimmen · neu in diesem Jahr · P10 oft · baut auf: lineare Funktion (Einheit 2), lineare Gleichungen lösen, negative Zahlen
+Einheit 4 von 5 · Gleichung bestimmen: Hier lernst du, die Gleichung einer Geraden aus dem Graphen, aus Steigung und Punkt oder aus zwei Punkten zu bestimmen und den Schnittpunkt zweier Geraden zu berechnen · neu in diesem Jahr · P10 · baut auf: m und n ablesen (Einheit 2), Punktprobe und Nullstelle (Einheit 3), lineare Gleichungen, Terme zusammenfassen
+Einheit 5 von 5 · Anwendungen: Hier lernst du, Tarife und andere Sachsituationen mit linearen Funktionen zu beschreiben, zu berechnen und zu vergleichen · neu in diesem Jahr · P10 oft · baut auf: Gleichung, Graph und Schnittpunkt (Einheit 2 bis 4), Dreisatz
+
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort: alle
+
+1. Abweichungen: keine Zone (Bestellung „nur das Neue“), das Gesamt hat daher denselben Inhalt wie das Lernblatt, nur mit der Kopfzeile „Gesamt“ · geteilte Hauptnummern 1/2, 12/13, 23/24, 36/37 · im Vorspann bzw. mit Standard-LaTeX ergänzt: \zweigzeile (zweite Zeile des Einheitenkopfs), Abhakseite (minipage/tabular), Buchstaben der geteilten Nummern per \setcounter{teil}{4}, unbeschriftete Steigungsdreiecke in Nr. 10 per TikZ-\draw im ksys (\steigungsdreieck beschriftet die Höhe und verriete die Antwort) · Vorstufe Nr. 20 ohne Ausrechnen (der Katalog sagt „rechne aus“, 2.3 a verbietet ein Ergebnis) · Einheit 1 ohne P10-Original: Decke nach der Zielmarke des Eintrags (Nr. 7, ohne Jahr) · Ketten nach Lehrwerk für Typen ohne Sprossen im Eintrag: Argument zum Funktionswert (Nr. 22), Parameter deuten (Nr. 16), Gerade durch zwei Punkte zeichnen (Nr. 35), Schnittpunkt rechnerisch (Nr. 36/37) · Nullstelle (Nr. 23/24) steht vor der Punktprobe (Nr. 25), damit die letzte Verfahrensnummer der Einheit 3 die Prüfungshöhe trägt · Einheit 5 besteht nur aus Anwendungen, die Grenze von zwei Kontextaufgaben je Zweig gilt dort nicht · Prüfumfang reduziert
+2. Katalog: gebraucht – Lerneinheiten, Marken, Typen je Lerneinheit, Erkennungsschritte und Einheitenangaben der Voraussetzungen, Sprossen je Verfahrenstyp, Typische Fehler, Prüfungsform mit Zielmarke und Zuordnung · nicht gebraucht – Fertigkeiten der Voraussetzungen (ohne Zone), Grundvorstellung, Merkkasten, Verortung · gefehlt – Sprossen für Argument zum Funktionswert, Parameter deuten, Gerade durch zwei Punkte zeichnen und Schnittpunkt rechnerisch; der Erkennungsschritt „Punkt einsetzen … rechne aus“ widerspricht der Vorstufe ohne Ergebnis; die Kette der Einheit 1 beginnt mit einer Blatt-0-Vorstufe (bei „nur das Neue“ entfallen); in der Kette der Einheit 3 liegt die Nullstelle zwischen der Punktprobe und der Prüfungshöhe (Punktprobe mit Bruch-m); getrennt nach Form ergibt das zwei Punktprobe-Stellen, gebaut ist daher die Nullstelle vor der Punktprobe · Spannen: keine – alle fünf Marken OS Kl. 8 · GYM Kl. 8 → „neu in diesem Jahr“; „nicht für alle“ nennt nur spätere Klassen oder Zusatzstoff (z. B. Sekundo 9), daher kein „in manchen Büchern schon“
+3. Protokoll-Archiv: LinFkt_2026-09-25_protokoll.zip
+
+Dateien:
+LinFkt_Lernblatt.pdf
+LinFkt_Gesamt.pdf
+LinFkt_Loesungen.pdf
+LinFkt_2026-09-25_protokoll.zip

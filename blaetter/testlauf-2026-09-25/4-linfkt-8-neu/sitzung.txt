@@ -1,0 +1,41 @@
+→ Lernblatt · Standpunkt Oberschule (Gymnasium ebenfalls Kl. 8) · 5 Zweige, alle neu in Kl. 8 · ohne Zone, ohne Ausblick
+
+1. Einheit 1 von 5 · Proportionale Funktion: Hier lernst du, Funktionen mit y = m · x zu berechnen, zu zeichnen und zu erkennen · neu in diesem Jahr · P10 oft · baut auf: Koordinatensystem, proportionale Zuordnungen (Dreisatz)
+2. Einheit 2 von 5 · Lineare Funktion f(x) = m · x + n: Hier lernst du, Geraden mit f(x) = m · x + n zu zeichnen, m und n abzulesen und zu deuten · neu in diesem Jahr · P10 oft · baut auf: proportionale Funktion (Einheit 1), Brüche, negative Zahlen
+3. Einheit 3 von 5 · Punkte und Werte: Hier lernst du, Funktionswerte zu berechnen, Punkte zu prüfen und Nullstellen und Achsenschnittpunkte zu bestimmen · neu in diesem Jahr · P10 oft · baut auf: lineare Funktion (Einheit 2), lineare Gleichungen lösen, negative Zahlen
+4. Einheit 4 von 5 · Gleichung bestimmen: Hier lernst du, die Gleichung einer Geraden aus dem Graphen, aus Steigung und Punkt oder aus zwei Punkten zu bestimmen und den Schnittpunkt zweier Geraden zu berechnen · neu in diesem Jahr · P10 · baut auf: m und n ablesen (Einheit 2), Punktprobe und Nullstelle (Einheit 3), lineare Gleichungen, Terme zusammenfassen
+5. Einheit 5 von 5 · Anwendungen: Hier lernst du, Tarife und andere Sachsituationen mit linearen Funktionen zu beschreiben, zu berechnen und zu vergleichen · neu in diesem Jahr · P10 oft · baut auf: Gleichung, Graph und Schnittpunkt (Einheit 2 bis 4), Dreisatz
+
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort: alle
+
+Die Zeile nach der Zone entfällt, weil es bei „nur das Neue“ keine Zone gibt.
+
+LinFkt_Lernblatt.pdf
+LinFkt_Gesamt.pdf
+LinFkt_Loesungen.pdf
+LinFkt_2026-09-25_protokoll.zip
+
+1. Abweichungen:
+   - Es gibt keine Zone (Bestellung „nur das Neue“). Das Gesamt hat daher denselben Inhalt wie das Lernblatt, nur mit der Kopfzeile „Gesamt“.
+   - Geteilte Hauptnummern: 1/2, 12/13, 23/24, 36/37.
+   - Im Vorspann ergänzt: \zweigzeile als zweite Zeile unter dem Einheitenkopf.
+   - Mit Standard-LaTeX ergänzt: die Abhakseite (minipage/tabular) und die Buchstaben der geteilten Nummern per \setcounter{teil}{4}.
+   - In Nr. 10 sind die Steigungsdreiecke ohne Beschriftung mit TikZ-\draw im ksys gezeichnet. \steigungsdreieck schreibt die Höhe an und hätte die Antwort verraten.
+   - Die Vorstufe Nr. 20 verlangt kein Ausrechnen. Der Katalog sagt „rechne aus“, aber nach 2.3 a darf eine Vorstufe kein Ergebnis verlangen.
+   - Einheit 1 hat kein P10-Original. Die Decke folgt der Zielmarke des Eintrags (Nr. 7, ohne Jahr).
+   - Für Typen ohne Sprossen im Eintrag sind die Ketten nach Lehrwerk gebildet: Argument zum Funktionswert (Nr. 22), Parameter deuten (Nr. 16), Gerade durch zwei Punkte zeichnen (Nr. 35), Schnittpunkt rechnerisch (Nr. 36/37).
+   - Die Nullstelle (Nr. 23/24) steht vor der Punktprobe (Nr. 25). So trägt die letzte Verfahrensnummer der Einheit 3 die Prüfungshöhe.
+   - Einheit 5 besteht nur aus Anwendungen. Die Grenze von zwei Kontextaufgaben je Zweig gilt dort nicht.
+   - Prüfumfang: reduziert.
+2. Katalog:
+   - Gebraucht: Lerneinheiten, Marken, Typen je Lerneinheit, Erkennungsschritte und Einheitenangaben der Voraussetzungen, Sprossen je Verfahrenstyp, Typische Fehler, Prüfungsform mit Zielmarke und Zuordnung.
+   - Nicht gebraucht: Fertigkeiten der Voraussetzungen (ohne Zone), Grundvorstellung, Merkkasten, Verortung.
+   - Gefehlt: Sprossen für Argument zum Funktionswert, Parameter deuten, Gerade durch zwei Punkte zeichnen und Schnittpunkt rechnerisch.
+   - Widerspruch: Der Erkennungsschritt „Punkt einsetzen … rechne aus“ passt nicht zu einer Vorstufe ohne Ergebnis.
+   - Einheit 1: Die Kette beginnt mit einer Blatt-0-Vorstufe. Bei „nur das Neue“ fällt sie weg.
+   - Einheit 3: In der Kette liegt die Nullstelle zwischen Punktprobe und Prüfungshöhe (Punktprobe mit Bruch-m). Nach Form getrennt ergäbe das zwei Punktprobe-Stellen, deshalb steht die Nullstelle vor der Punktprobe.
+   - Spannen: keine. Alle fünf Marken lauten OS Kl. 8 · GYM Kl. 8, also „neu in diesem Jahr“. „nicht für alle“ nennt nur spätere Klassen oder Zusatzstoff (z. B. Sekundo 9), daher kein „in manchen Büchern schon“.
+3. Protokoll-Archiv: LinFkt_2026-09-25_protokoll.zip
+
+Alle Dateien liegen in `C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\c6924aab-9c6f-4c6b-96fc-d8fbcd8c8855\scratchpad\bau\4-linfkt-8-neu\a1`.

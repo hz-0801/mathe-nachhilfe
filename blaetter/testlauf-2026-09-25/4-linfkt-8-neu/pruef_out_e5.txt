@@ -1,0 +1,35 @@
+42a        Skript=(3/10, 6)                    Blatt=(3/10, 6)                    OK
+42b        Skript=(4, 12)                      Blatt=(4, 12)                      OK
+42c        Skript=(3/10, 9)                    Blatt=(3/10, 9)                    OK
+43a        Skript=(3, 5)                       Blatt=(3, 5)                       OK
+43b        Skript=(-25, 800)                   Blatt=(-25, 800)                   OK
+43c        Skript=(2/25, 2)                    Blatt=(2/25, 2)                    OK
+44a        Skript=130                          Blatt=130                          OK
+44b        Skript=15                           Blatt=15                           OK
+44c m      Skript=-4                           Blatt=-4                           OK
+44c        Skript=80                           Blatt=80                           OK
+44d Grenze Skript=130/9                        Blatt=130/9                        OK
+44d        Skript=15                           Blatt=15                           OK
+44d 14     Skript=980                          Blatt=980                          OK
+44d 15     Skript=1025                         Blatt=1025                         OK
+45a A      Skript=14                           Blatt=14                           OK
+45a B      Skript=15                           Blatt=15                           OK
+45a        Skript=A                            Blatt=A                            OK
+45b C      Skript=26                           Blatt=26                           OK
+45b D      Skript=16                           Blatt=16                           OK
+45b        Skript=D                            Blatt=D                            OK
+46b        Skript=4                            Blatt=4                            OK
+46b y      Skript=18                           Blatt=18                           OK
+46c A      Skript=33                           Blatt=33                           OK
+46c B      Skript=45                           Blatt=45                           OK
+46c        Skript=ja                           Blatt=ja                           OK
+47 Tim     Skript=155                          Blatt=155                          OK
+47a        Skript=230                          Blatt=230                          OK
+47b        Skript=83/10                        Blatt=83/10                        OK
+48a        Skript=('III', 'I', 'II')           Blatt=('III', 'I', 'II')           OK
+48c        Skript=B                            Blatt=B                            OK
+48c Werte  Skript=(4, 3, 6)                    Blatt=(4, 3, 6)                    OK
+48 AB      Skript=20                           Blatt=20                           OK
+48 AC      Skript=30                           Blatt=30                           OK
+48 BC      Skript=25                           Blatt=25                           OK
+Abweichungen: 0

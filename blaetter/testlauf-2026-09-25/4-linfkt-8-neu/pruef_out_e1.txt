@@ -1,0 +1,29 @@
+Bsp        Skript=2                            Blatt=2                            OK
+1a         Skript=1                            Blatt=1                            OK
+1b         Skript=3                            Blatt=3                            OK
+1c         Skript=4                            Blatt=4                            OK
+1d         Skript=5                            Blatt=5                            OK
+2a         Skript=5                            Blatt=5                            OK
+2b         Skript=1                            Blatt=1                            OK
+2c         Skript=-2                           Blatt=-2                           OK
+3a         Skript=3                            Blatt=3                            OK
+3b         Skript=-3                           Blatt=-3                           OK
+3c         Skript=4                            Blatt=4                            OK
+3d         Skript=3                            Blatt=3                            OK
+3e         Skript=18                           Blatt=18                           OK
+3f         Skript=18                           Blatt=18                           OK
+4a         Skript=('ja', 6)                    Blatt=('ja', 6)                    OK
+4b         Skript=nein                         Blatt=nein                         OK
+4b q       Skript=(7/2, 10/3)                  Blatt=(7/2, 10/3)                  OK
+4c         Skript=nein                         Blatt=nein                         OK
+4d         Skript=('ja', -3/2)                 Blatt=('ja', -3/2)                 OK
+4e         Skript=('ja', 9/5)                  Blatt=('ja', 9/5)                  OK
+4f         Skript=nein                         Blatt=nein                         OK
+5 Tom      Skript=18                           Blatt=18                           OK
+5a         Skript=('ja', 7)                    Blatt=('ja', 7)                    OK
+5b         Skript=('ja', 9/2)                  Blatt=('ja', 9/2)                  OK
+6b         Skript=nein                         Blatt=nein                         OK
+7a         Skript=40                           Blatt=40                           OK
+7b         Skript=400                          Blatt=400                          OK
+7c         Skript=5                            Blatt=5                            OK
+Abweichungen: 0

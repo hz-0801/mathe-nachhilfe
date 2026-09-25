@@ -1,0 +1,229 @@
+Prompt: Unterrichtsblatt-Prompt v4.3
+Modell: Claude Opus 5.5
+Vorlage: Version 2026-09-22h (Beschriftung bei \balkenab und \liniendia: \balkenab misst die Kategorienamen
+Katalog: lineare-funktionen.md, Status: gegengelesen bis auf [FS] (2026-09-08b; drei Originale des Typs „Funktionswert berechnen“ am 09d nach potenz-exponentialfunktionen.md geführt; Abschnitt „Offene Punkte des Eintrags“ und Zeile `Zuordnung:` am 2026-09-10c nachgetragen; LISUM-Planungshilfen am 10e nachgetragen; zweiter Gegenlese-Block am 2026-09-10g: Sprossenkette der Einheit 1 gebaut, Zielmarke-Zeile für alle fünf Einheiten angelegt, Original 2021-OS-K6b aufgenommen, Doppelnennung eines Typs aufgelöst, Gliederungsfrage geschlossen; Originale des Themas am 10h vollständig nachgetragen) · Stufe: Sek I · Bildungsgänge: alle bis Kl. 10 · gegengelesen: bis auf [FS]
+Bestellung: nur das Neue
+Standpunkt: Kl. 8, ohne Schulform (Oberschule Standpunkt, Gymnasium gleiche Marke)
+
+Zweige (gebaut: alle fünf; abgewählt: keine; Ausblick: keiner – alle Marken OS/GYM Kl. 8):
+Einheit 1 von 5 · Proportionale Funktion
+  Zweigzeile: Hier lernst du, Funktionen mit y = m · x zu berechnen, zu zeichnen und zu erkennen · neu in diesem Jahr · P10 oft · baut auf: Koordinatensystem, proportionale Zuordnungen (Dreisatz)
+  1. Ich kann die Gerade zu $y = m \cdot x$ zeichnen.
+  2. Ich kann die Gerade zu $y = m \cdot x$ zeichnen – weiter.
+  3. Ich kann Werte an einer Ursprungsgeraden ablesen und berechnen.
+  4. Ich kann erkennen, ob eine proportionale Funktion vorliegt, und ihre Gleichung angeben.
+  5. Ich finde den Fehler beim Bestimmen des Faktors.
+  6. Ich kann Eigenschaften von Ursprungsgeraden begründen.
+  7. Ich kann eine Sachsituation mit $y = m \cdot x$ beschreiben.
+Einheit 2 von 5 · Lineare Funktion f(x) = m · x + n
+  Zweigzeile: Hier lernst du, Geraden mit f(x) = m · x + n zu zeichnen, m und n abzulesen und zu deuten · neu in diesem Jahr · P10 oft · baut auf: proportionale Funktion (Einheit 1), Brüche, negative Zahlen
+  8. Ich erkenne $m$ und $n$ in der Gleichung.
+  9. Ich erkenne, ob eine Gerade steigt oder fällt.
+  10. Ich kann ein Steigungsdreieck lesen.
+  11. Ich kann eine Gerade mit einer Wertetabelle zeichnen.
+  12. Ich kann eine Gerade mit $n$ und Steigungsdreieck zeichnen.
+  13. Ich kann eine Gerade mit $n$ und Steigungsdreieck zeichnen – weiter.
+  14. Ich kann $n$ und $m$ an einer Geraden ablesen.
+  15. Ich kann einer Gleichung die passende Gerade zuordnen.
+  16. Ich kann an $m$ und $n$ ablesen, wie Geraden zueinander liegen.
+  17. Ich finde den Fehler beim Ablesen der Steigung.
+  18. Ich kann begründen, welche Gerade steiler ist.
+  19. Ich kann $m$ und $n$ in einer Sachsituation deuten.
+Einheit 3 von 5 · Punkte und Werte
+  Zweigzeile: Hier lernst du, Funktionswerte zu berechnen, Punkte zu prüfen und Nullstellen und Achsenschnittpunkte zu bestimmen · neu in diesem Jahr · P10 oft · baut auf: lineare Funktion (Einheit 2), lineare Gleichungen lösen, negative Zahlen
+  20. Ich kann eine Zahl für $x$ einsetzen.
+  21. Ich kann Funktionswerte berechnen.
+  22. Ich kann zu einem Funktionswert das passende $x$ berechnen.
+  23. Ich kann die Nullstelle einer linearen Funktion berechnen.
+  24. Ich kann die Nullstelle einer linearen Funktion berechnen – weiter.
+  25. Ich kann prüfen, ob ein Punkt auf einer Geraden liegt.
+  26. Ich kann eine Wertetabelle ausfüllen und einer Funktion zuordnen.
+  27. Ich kann Nullstellen und Schnittpunkte am Graphen ablesen.
+  28. Ich finde den Fehler bei der Nullstelle.
+  29. Ich kann Aussagen über eine Gerade beurteilen.
+  30. Ich kann begründen, wie viele Nullstellen eine Gerade hat.
+  31. Ich kann Funktionswert und Nullstelle im Sachzusammenhang deuten.
+Einheit 4 von 5 · Gleichung bestimmen
+  Zweigzeile: Hier lernst du, die Gleichung einer Geraden aus dem Graphen, aus Steigung und Punkt oder aus zwei Punkten zu bestimmen und den Schnittpunkt zweier Geraden zu berechnen · neu in diesem Jahr · P10 · baut auf: m und n ablesen (Einheit 2), Punktprobe und Nullstelle (Einheit 3), lineare Gleichungen, Terme zusammenfassen
+  32. Ich kann die Gleichung einer Geraden am Graphen ablesen.
+  33. Ich kann die Gleichung aus der Steigung und einem Punkt bestimmen.
+  34. Ich kann die Gleichung einer Geraden durch zwei Punkte bestimmen.
+  35. Ich kann eine Gerade durch zwei Punkte zeichnen.
+  36. Ich kann den Schnittpunkt zweier Geraden berechnen.
+  37. Ich kann den Schnittpunkt zweier Geraden berechnen – weiter.
+  38. Ich finde den Fehler bei der Steigung aus zwei Punkten.
+  39. Ich kann begründen, wie zwei Geraden zueinander liegen.
+  40. Ich kann eine Geradengleichung im Sachzusammenhang bestimmen.
+Einheit 5 von 5 · Anwendungen
+  Zweigzeile: Hier lernst du, Tarife und andere Sachsituationen mit linearen Funktionen zu beschreiben, zu berechnen und zu vergleichen · neu in diesem Jahr · P10 oft · baut auf: Gleichung, Graph und Schnittpunkt (Einheit 2 bis 4), Dreisatz
+  41. Ich finde Anfangswert und Änderung im Text.
+  42. Ich kann die passende Gleichung zu einem Tarif erkennen.
+  43. Ich kann eine Gleichung zu einer Sachsituation aufstellen.
+  44. Ich kann berechnen, welcher Wert nach einer bestimmten Zeit erreicht ist.
+  45. Ich kann zwei Tarife für eine bestimmte Nutzung vergleichen.
+  46. Ich kann berechnen, ab wann ein Tarif günstiger ist.
+  47. Ich finde den Fehler beim Aufstellen einer Tarifgleichung.
+  48. Ich kann einem Tarif seinen Graphen zuordnen.
+  49. Ich kann zu einer Gleichung eine passende Situation beschreiben.
+
+Zählung aus der Textextraktion:
+lernblatt.pdf: Hauptnummern 49, Teilaufgaben 185, Koordinatensysteme 21, Tabellen und Dreisatzschemata 16, Seiten 24
+gesamt.pdf: Hauptnummern 49, Teilaufgaben 185, Koordinatensysteme 21, Tabellen und Dreisatzschemata 16, Seiten 24
+loesungen.pdf: Lösungen zu 49 Nummern, Seiten 3
+Verzeichnis lernblatt.pdf:
+Lineare Funktionen · Lernblatt
+
+
+
+Inhalt
+
+Einheit 1 · Proportionale Funktion (Nr. 1–7) · Seiten 2–5
+
+Einheit 2 · Lineare Funktion f (x) = m · x + n (Nr. 8–19) · Seiten 6–11
+
+Einheit 3 · Punkte und Werte (Nr. 20–31) · Seiten 12–15
+
+Einheit 4 · Gleichung bestimmen (Nr. 32–40) · Seiten 16–19
+
+Einheit 5 · Anwendungen (Nr. 41–49) · Seiten 20–22
+
+Das kann ich (Nr. 1–49) · Seiten 23–24
+
+
+
+
+                                                                          Seite 1
+Verzeichnis gesamt.pdf:
+Lineare Funktionen · Gesamt
+
+
+
+Inhalt
+
+Einheit 1 · Proportionale Funktion (Nr. 1–7) · Seiten 2–5
+
+Einheit 2 · Lineare Funktion f (x) = m · x + n (Nr. 8–19) · Seiten 6–11
+
+Einheit 3 · Punkte und Werte (Nr. 20–31) · Seiten 12–15
+
+Einheit 4 · Gleichung bestimmen (Nr. 32–40) · Seiten 16–19
+
+Einheit 5 · Anwendungen (Nr. 41–49) · Seiten 20–22
+
+Das kann ich (Nr. 1–49) · Seiten 23–24
+
+
+
+
+                                                                          Seite 1
+
+Werkzeugaufrufe (Schritt · Anlass):
+1 · Arbeitsverzeichnis anlegen
+2 · Zeitstempel t0
+3 · Themenregister und Register der Blätter holen (1.2)
+4 · Register nach „lineare funktionen“ durchsuchen → lineare-funktionen.md
+5 · Register der Blätter lesen → Thema noch nicht gebaut
+6 · Eintrag, mathblatt.sty und Anleitung holen (4.5)
+7 · Eintrag lesen
+8 · Anleitung lesen
+9 · Zählername der Hauptnummern in der Vorlage suchen (aufgabe) für \setcounter je Einheitsdatei
+10 · Makrotest schreiben (Kopf, \steigungsdreieck, \begleitteil, hyperref)
+11 · Makrotest kompilieren und rendern
+12 · Makrotest Seite 1 ansehen → \steigungsdreieck beschriftet m
+13 · Makrotest Seite 2 ansehen → \begleitteil setzt „Ergebnisse“
+14 · Rahmendatei probe.tex für die Einheitsprüfung schreiben
+15 · e1_a.tex schreiben
+16 · e1_a.tex: Tabellen in Nr. 4 in die Teilaufgaben gezogen (Buchstabe stand vor der Tabelle)
+17 · e1_l.tex schreiben
+18 · pruef.py mit Einheit 1 schreiben
+19 · pruef.py: Zahlen als Zeichenkette werden numerisch verglichen (Skriptfehler behoben)
+20 · einheit.ps1 schreiben (Prüfung, Kompilat, Render, Log, Seitenfüllung)
+21 · E1 prüfen, kompilieren, rendern → 0 Abweichungen
+22 · E1 Seite 1 ansehen
+23 · E1 Seite 2 ansehen
+24 · E1 Seite 3 ansehen
+25 · E1 Seite 4 ansehen
+26 · e2_a.tex schreiben
+27 · e2_a.tex: Tipp in Nr. 13 durch Anweisung vor der Bruch-Sprosse ersetzt (Tipps nur auf „mit tipps“)
+28 · e2_l.tex schreiben
+29 · pruef.py Einheit 2
+30 · E2 prüfen, kompilieren, rendern → 16d ABWEICHUNG: f1 und f5 haben beide n = −1
+31 · E2 Seite 1 ansehen
+32 · E2 Seite 2 ansehen
+33 · E2 Seite 3 ansehen
+34 · E2 Seite 4 ansehen
+35 · E2 Seite 5 ansehen
+36 · Nr. 10 und Nr. 15 vergrößert rendern (TikZ-Dreiecke, Labels l_1…l_4)
+37 · Ausschnitt Nr. 10 ansehen → Dreiecke liegen richtig
+38 · Ausschnitt Nr. 15 ansehen → Labels richtig
+39 · Korrektur e2_a.tex: f5(x) = −2x − 3
+40 · Korrektur pruef.py: f5 nachgezogen
+41 · E2 neu prüfen und kompilieren → 0 Abweichungen
+42 · e3_a.tex schreiben
+43 · e3_l.tex schreiben
+44 · pruef.py Einheit 3
+45 · E3 prüfen, kompilieren, rendern → 0 Abweichungen
+46 · E3 Seite 1 ansehen
+47 · E3 Seite 2 ansehen → Nr. 24: Schreiblinie des Gleichungsrasters läuft durch h); Buchstaben der geteilten Nummer beginnen bei a)
+48 · E3 Seite 3 ansehen
+49 · Zeilen der geteilten Nummern suchen
+50 · Korrektur e1_a.tex: \setcounter{teil}{4} in Nr. 2
+51 · Korrektur e1_l.tex: Nr. 2 mit e)–g)
+52 · Korrektur e2_a.tex: \setcounter{teil}{4} in Nr. 13 (Text nennt e)–h), Blatt zeigte a)–d))
+53 · Korrektur e3_a.tex: \setcounter{teil}{4} und Abstand nach dem Raster in Nr. 24
+54 · E1, E2, E3 neu kompilieren, Buchstaben per Textextraktion geprüft
+55 · E3 Seite 2 erneut ansehen → behoben
+56 · e4_a.tex schreiben
+57 · e4_l.tex schreiben
+58 · pruef.py Einheit 4
+59 · E4 prüfen, kompilieren, rendern → 0 Abweichungen
+60 · E4 Seite 1 ansehen
+61 · E4 Seite 3 ansehen → Nr. 35: rechtes System niedriger als das linke
+62 · Korrektur e4_a.tex: rechtes System in Nr. 35 auf y −3..6
+63 · e5_a.tex schreiben
+64 · e5_l.tex schreiben
+65 · pruef.py Einheit 5
+66 · e5_l.tex: periodischer Wert 14,4… mit Periodenstrich
+67 · E5 prüfen, kompilieren, rendern → 0 Abweichungen
+68 · E5 Seite 2 ansehen → Nr. 48 a): Feld „C:“ bricht allein um
+69 · E5 Seite 1 ansehen
+70 · Korrektur e5_a.tex: Felder in Nr. 48 a) auf eigene Zeile
+71 · rahmen.py schreiben (Abhakseite wortgleich aus den Quelltexten, Verzeichnis aus der Textextraktion)
+72 · lernblatt.tex schreiben
+73 · gesamt.tex schreiben
+74 · loesungen.tex schreiben
+75 · rahmen.ps1 schreiben (zwei Läufe, Verzeichnis gegen Endkompilat, Linkziele)
+76 · Lernblatt bauen → Verzeichnis stimmt, Links auf Seite 2, 6, 12, 16, 20, 23
+77 · Lernblatt Seite 1 (Verzeichnis) ansehen
+78 · Lernblatt Seite 18 ansehen → Nr. 35 behoben
+79 · Lernblatt Seite 21 ansehen → Nr. 48 behoben
+80 · Lernblatt Seite 23 ansehen → Überschrift „Einheit 3“ der Abhakseite allein am Seitenende
+81 · Korrektur rahmen.py: Einheitenblock der Abhakseite in minipage, Nummernspalte fest
+82 · Lernblatt neu bauen → Verzeichnis unverändert
+83 · Lernblatt Seite 24 ansehen → behoben
+84 · Gesamt bauen → Verzeichnis stimmt, Links richtig
+85 · Lösungen bauen → Lösungen zu allen 49 Nummern
+86 · Lösungen Seite 1 ansehen
+87 · archiv.py schreiben
+88 · archiv.py: Zählung der Hauptnummern vereinfacht
+89 · archiv.py: Schrittzahl aus schritte.txt
+90 · ausgabeblock.txt schreiben
+91 · ausgabeblock.txt: Katalogbefund zu Einheit 3 berichtigt
+92 · schritte.txt schreiben
+93 · protokoll.txt und chat.txt schreiben, Archiv packen
+
+Vorlage: fehlende Bausteine · Warnungen aus dem Log
+  fehlende Bausteine: \zweigzeile (zweite Zeile des Einheitenkopfs), Abhakseite „Das kann ich“ (minipage/tabular), unbeschriftetes Steigungsdreieck (TikZ-\draw im ksys, Nr. 10)
+  Warnungen aus dem Log: keine
+
+Korrekturrunden: 5 von 93 Schritten (E2 Nr. 16 Abweichung; E1–E3 Buchstaben der geteilten Nummern und Überlappung Nr. 24; E4 Nr. 35 Systemhöhe; E5 Nr. 48 Feldumbruch; Abhakseite Kopf ohne Tabelle)
+Zone: entfällt (nur das Neue, keine Zone)
+Weiter: entfällt (kein Halt, Antworten in der Eingabe)
+E 1: 731 s
+E 2: 954 s
+E 3: 1130 s
+E 4: 1221 s
+E 5: 1341 s
+Lernblatt: 1527 s
+Gesamt: 1565 s
+Lösungen: 1592 s
