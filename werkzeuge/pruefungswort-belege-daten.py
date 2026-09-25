@@ -1538,9 +1538,7 @@ T('potenz-exponentialfunktionen', '1.8', 'begründen, warum die beiden anderen G
   'Definition „… und die anderen ausschließen“; die Begründung je Graph tragen 2019-OS-K7c und 2026-FOR-K7b als Nebentyp „Eigenschaften eines Graphen beurteilen“.')
 T('potenz-exponentialfunktionen', '1.9', 'Graph einer Abnahme (fallend, flacher werdend) erkennen', ['Graph zu Wachstumsprozess zuordnen'],
   'Definition „zu einem linearen oder exponentiellen Sachverhalt“ schließt die Abnahme ein; beide Originale (2019-OS-K7c, 2026-FOR-K7b) zeigen Zunahmen.')
-T('potenz-exponentialfunktionen', '1.11', 'Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', ['Exponentialfunktion aufstellen'],
-  'Erste Hälfte von „Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden“; 2017-OS-K7c verlangt, den Vorschlag y = x^1,13 als Potenzfunktion auszuschließen. 2017-OS-K7c: unter vier Gleichungen steht y = x^1,13 neben y = 1000 · 0,87^x; die richtige Wahl setzt die Unterscheidung Basis gegen Exponent voraus.')
-T('potenz-exponentialfunktionen', '1.13', 'Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt)', ['Wachstumsart begründen'],
+T('potenz-exponentialfunktionen', '1.12', 'Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt)', ['Wachstumsart begründen'],
   '2018-OS-K2b verlangt genau diese Begründung: gleicher Prozentsatz vom jeweils vorigen Wert, die absoluten Zuwächse werden größer.')
 T('potenz-exponentialfunktionen', '2.1', 'Prozentsatz in den Faktor umrechnen, Zunahme und Abnahme', ['Wachstumstabelle ergänzen', 'Exponentialfunktion aufstellen', 'Wert nach prozentualer Erhöhung berechnen'],
   'Teilschritt aller Originale: 3 % zu 1,03 (2020-OS-K4a), 11 % Abnahme zu 0,89 (2016-OS-K4a), 1,9 % zu 1,019 (2026-FOR-K7c); Definition „Erhöhung oder Senkung … (Wachstumsfaktor)“ bei prozentrechnung.md.')
@@ -1600,6 +1598,11 @@ T('potenz-exponentialfunktionen', '4.7', 'Halbwertszeit beim Zerfall, Verdopplun
   'Definition „verdoppelt oder halbiert“: Halbierung in 2016-OS-K4c, Verdopplung in 2020-OS-K4b.')
 T('potenz-exponentialfunktionen', '4.9', 'Logarithmus für den genauen Zeitpunkt (Vorrat)', ['Zeit aus Exponentialgleichung berechnen', 'Aussage zu Logarithmusterm prüfen', 'Gleichungskette im Sachzusammenhang erläutern'],
   'GYM-Typen: Definition „den Exponenten t durch Logarithmieren berechnen“ (2014-GYM-K4c, 2018-GYM-K2b); derselbe Schritt in 2025-GYM-K3c (x = log₂ 10) und 2024-GYM-K4c (x = log₂,₅ 2500 erläutern).')
+# Einheit 5 (Potenzfunktionen, seit 26.09.2026, katalog/_marken-neue-einheiten.md): keine Zuordnung, Prüfungswort „keine
+# P10-Aufgabe“ nach dem Chat („Kein P10-Original zu allen dreien“). Der Typ 5.14 „Potenzfunktion vom exponentiellen Term
+# unterscheiden …“ stand bis 26.09.2026 als 1.11 (Vorrat) mit „Exponentialfunktion aufstellen“ (2017-OS-K7c: y = x^1,13 unter
+# vier Gleichungen ausschließen); die Zuordnung ist nicht übernommen, weil sie die ganze Einheit zur P10-Einheit machte –
+# Urteil im Chat (katalog/_vorschlaege-2026-09-27.md Abschnitt 1).
 
 # ==== trigonometrische-funktionen ====
 T('trigonometrische-funktionen', '1.5', 'abgelesenen Wert mit dem Taschenrechner prüfen (Grad-Modus)', ['Sinussatz Seite berechnen'],
@@ -1751,6 +1754,11 @@ T('daten', '5.12', 'Fehler finden (Verdopplung der Säulenhöhe als Verdopplung 
   'Der P10-Typ verlangt genau diese Fehleranalyse: 2026-FOR-K3e erklärt Fabios Schluss von der verdoppelten Säulenhöhe auf den verdoppelten Preis, und die Fehlerquelle von 2014-OS-K3d ist die Antwort „die Säulen sind unterschiedlich hoch“ ohne Bezug zur Achse.')
 T('daten', '5.13', 'Begründen (warum die Achse bei 0 beginnen sollte)', ['Verzerrung eines Diagramms erklären'],
   'Definition „Erklären, warum ein Diagramm (abgeschnittene Achse, Skalierung) einen falschen Eindruck erzeugt“ ist dieselbe Begründung am konkreten Diagramm (2014-OS-K3d, 2026-FOR-K3e).')
+# Einheit 1, Typen 1.12–1.15 (Klassen, seit 26.09.2026): kein P10-Typ führt Klassen; die Sek-II-Typen von Einheit 1 stehen seither
+# als 1.16–1.20 (keine Daten S, alle wortgleich). Einheit 7 (Vierfeldertafel Sek I, seit 26.09.2026): keine Zuordnung, Prüfungswort
+# „keine P10-Aufgabe“ nach dem Chat („Kein P10-Original zu allen dreien“); msa-typen.csv führt keinen Vierfeldertafel-Typ. Der
+# Anteil an allen (7.4) ist dieselbe Rechnung wie „Relative Häufigkeit angeben“ – nicht zugeordnet, weil das die Einheit zur
+# P10-Einheit machte; Urteil im Chat (katalog/_vorschlaege-2026-09-27.md Abschnitt 1).
 
 # ==== wahrscheinlichkeit ====
 U('wahrscheinlichkeit', 1, ['Ergebnismenge aufzählen', 'Anzahl der Anordnungen bestimmen', 'Größte Zahl aus Ziffern bilden', 'Anzahl der Dreiecke aus Punkten bestimmen'])

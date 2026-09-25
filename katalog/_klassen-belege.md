@@ -1,5 +1,5 @@
 # Klassenbelege je Lerneinheit aus den Lehrwerken (Sekundarstufe I)
-Stand 2026-09-25, Katalog auf Commit ba8ccd3 (letzte Änderung an den 29 Einträgen: 7718c4c vom 2026-09-22).
+Stand 2026-09-25, Katalog auf Commit 7613213 (letzte Änderung an den 29 Einträgen: 7613213 vom 2026-09-25).
 Erzeugt im Auftrag `archiv/auftrag-nacht-2026-09-25.md` (Teil 2) aus den 29 Sek-I-Einträgen (`katalog/index.md`, Tabelle Sekundarstufe I) und den Inhaltsverzeichnissen der Regelreihen und Förderhefte unter `quellen/`; abgeleitet, nie von Hand ändern. Vorschlagsliste für die Zeitachse (`ziel.md` § 1): in welcher Klasse die Lehrwerke der Oberschule und die des Gymnasiums eine Lerneinheit führen – am Typ, wo ein Verzeichnis ihn nennt, sonst an der Einheit –, samt Verlagsmarken für „nicht für alle“ und den Förderheften. Kein Eintrag wird geändert, nichts wird entschieden; „keine Stelle“ ist ein Ergebnis, kein Mangel.
 
 Verzeichnisse (Dateien unter `quellen/`, Klassenumfang):
@@ -32,17 +32,17 @@ Lesart:
 
 ## Zahlen
 Einträge gesamt: 29 (die 29 Sek-I-Einträge aus `katalog/index.md`, Tabelle Sekundarstufe I).
-Lerneinheiten gesamt: 116; mit mindestens einer Stelle in einer OS-Reihe: 116, in einer GYM-Reihe: 115, in beiden: 115, in keiner: 0. Ohne GYM-Stelle: einheiten 4. Mit Größen rechnen im Sachzusammenhang.
-Einträge mit Spanne OS/GYM ja: 26 (brueche-dezimalzahlen, bruchrechnung, rationale-zahlen, prozentrechnung, zinsrechnung, potenzen-wurzeln, reelle-zahlen, flaechen, kreis, koerper, pyramide-kegel-kugel, trigonometrie, winkel-dreiecke, symmetrie-abbildungen, strahlensaetze, zuordnungen, terme, lineare-gleichungen, lineare-gleichungssysteme, binomische-formeln, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen, trigonometrische-funktionen, daten, wahrscheinlichkeit); davon mit mindestens einer Einheit ohne gemeinsame Klasse: 6 (zinsrechnung, lineare-gleichungssysteme, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen, daten).
+Lerneinheiten gesamt: 118; mit mindestens einer Stelle in einer OS-Reihe: 118, in einer GYM-Reihe: 117, in beiden: 117, in keiner: 0. Ohne GYM-Stelle: einheiten 4. Mit Größen rechnen im Sachzusammenhang.
+Einträge mit Spanne OS/GYM ja: 26 (brueche-dezimalzahlen, bruchrechnung, rationale-zahlen, prozentrechnung, zinsrechnung, potenzen-wurzeln, reelle-zahlen, flaechen, kreis, koerper, pyramide-kegel-kugel, trigonometrie, winkel-dreiecke, symmetrie-abbildungen, strahlensaetze, zuordnungen, terme, lineare-gleichungen, lineare-gleichungssysteme, binomische-formeln, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen, trigonometrische-funktionen, daten, wahrscheinlichkeit); davon mit mindestens einer Einheit ohne gemeinsame Klasse: 5 (zinsrechnung, lineare-gleichungssysteme, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen).
 Einträge mit Spanne OS/GYM nein: 3 (einheiten, pythagoras, lineare-funktionen).
-Einheiten mit verschiedener OS- und GYM-Angabe: 73.
+Einheiten mit verschiedener OS- und GYM-Angabe: 74.
 Einträge mit Boden ja: 17 (brueche-dezimalzahlen, bruchrechnung, rationale-zahlen, prozentrechnung, potenzen-wurzeln, einheiten, flaechen, kreis, koerper, winkel-dreiecke, symmetrie-abbildungen, strahlensaetze, zuordnungen, terme, lineare-gleichungen, daten, wahrscheinlichkeit).
 Einträge mit Boden nein: 12 (zinsrechnung, reelle-zahlen, pyramide-kegel-kugel, pythagoras, trigonometrie, lineare-funktionen, lineare-gleichungssysteme, binomische-formeln, quadratische-funktionen, quadratische-gleichungen, potenz-exponentialfunktionen, trigonometrische-funktionen).
-Typzeilen gesamt: 649.
-Ermessensfälle gesamt: 250 in 29 Einträgen (brueche-dezimalzahlen 8, bruchrechnung 1, rationale-zahlen 10, prozentrechnung 11, zinsrechnung 9, potenzen-wurzeln 4, reelle-zahlen 5, einheiten 2, flaechen 10, kreis 14, koerper 9, pyramide-kegel-kugel 1, pythagoras 6, trigonometrie 15, winkel-dreiecke 10, symmetrie-abbildungen 2, strahlensaetze 10, zuordnungen 4, terme 9, lineare-gleichungen 13, lineare-funktionen 7, lineare-gleichungssysteme 6, binomische-formeln 3, quadratische-funktionen 9, quadratische-gleichungen 12, potenz-exponentialfunktionen 13, trigonometrische-funktionen 6, daten 28, wahrscheinlichkeit 13).
-Förderheftzeilen gesamt: 401; Einheiten mit mindestens einer Förderheftstelle: 112 von 116.
+Typzeilen gesamt: 678.
+Ermessensfälle gesamt: 236 in 29 Einträgen (brueche-dezimalzahlen 8, bruchrechnung 1, rationale-zahlen 10, prozentrechnung 11, zinsrechnung 9, potenzen-wurzeln 4, reelle-zahlen 5, einheiten 2, flaechen 10, kreis 14, koerper 9, pyramide-kegel-kugel 1, pythagoras 6, trigonometrie 15, winkel-dreiecke 10, symmetrie-abbildungen 2, strahlensaetze 10, zuordnungen 4, terme 9, lineare-gleichungen 13, lineare-funktionen 7, lineare-gleichungssysteme 6, binomische-formeln 3, quadratische-funktionen 9, quadratische-gleichungen 12, potenz-exponentialfunktionen 6, trigonometrische-funktionen 6, daten 21, wahrscheinlichkeit 13).
+Förderheftzeilen gesamt: 401; Einheiten mit mindestens einer Förderheftstelle: 112 von 118.
 Verlagsmarken (Nennungen): LVL 52, EXTRA 29, Symbolzeichen 27, Vertiefen 22, Wiederholung 21, Zum Selbstlernen 16, Üben 15, Zusatzstoff (*) 15, Streifzug 14, Im Blickpunkt 4, Arbeiten mit dem Computer 3, Sonderfälle 3, fakultativ 2.
-Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 Förderheftzuordnungen, 649 Typnamen.
+Geprüfte Zitate beim Bau: 2921 Verzeichniszeilen in 2135 Regelreihen- und 401 Förderheftzuordnungen, 678 Typnamen.
 
 ### brueche-dezimalzahlen – Klasse 5/6, Stufe D (in Berlin/Brandenburg Grundschule; für die Oberschule 7–8 regulär, am Gymnasium Wiederholung in Kl. 7 vor den rationalen Zahlen).
 - Verortung (Zeile 5), Klassensatz wortgleich.
@@ -3073,7 +3073,7 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
     Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
   - OS: Kl. 7–8 (Sekundo 7, 8, Mathematik 2023 8, Schnittpunkt 7, Mathematik heute 7); Streuung der Einführung: Mathematik 2023 8 später als Kl. 7
   - GYM: Kl. 7 (LS 7, Fundamente 7, Elemente 7, mathe.delta 7)
-- 3. Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen. (Kl. 8)
+- 3. Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen.
   - Sekundo Kl. 7, S. 183: „LVL: Gleichungen m it der Variablen auf beiden Seiten“ (Z. 173, 175)
   - Sekundo Kl. 8, S. 58: „Terme und Gleichungen m it K lam m ern“ (Z. 232)
   - Mathematik 2023 Kl. 8, S. 25: „Gleichungen mit x auf beiden Seiten“ (Z. 242)
@@ -3836,52 +3836,29 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
 ### potenz-exponentialfunktionen – Exponentielles Wachstum und Zerfall stehen im RLP auf G unter Gleichungen und Funktionen: die Exponentialfunktion y = a · bˣ ist dort neben der quadratischen und der trigonometrischen Funktion ein Funktionstyp, dessen Merkmale bestimmt, dargestellt, ineinander übersetzt und den anderen Typen gegenübergestellt werden; das Modellieren von Wachstums- und Zerfallsprozessen steht in derselben Stufe.
 - Verortung (Zeile 5), Klassensatz wortgleich.
 - 1. Lineares und exponentielles Wachstum unterscheiden
-  - Sekundo Kl. 10, S. 92: „Potenzenfunktionen“ (Z. 533)
-    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1 (Unterscheidung vom exponentiellen Term).
   - Sekundo Kl. 10, S. 135: „LVL: Wachstum und Veränderung“ (Z. 590)
   - Sekundo Kl. 10, S. 139: „Lineares, quadratisches und exponentielles Wachstum“ (Z. 594, 595)
-  - Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548)
-    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
   - Mathematik 2023 Kl. 10, S. 120: „Wachstumsprozesse“ (Z. 596)
   - Mathematik 2023 Kl. 10, S. 122: „Lineares Wachstum“ (Z. 597)
   - Mathematik 2023 Kl. 10, S. 126: „Exponentielles Wachstum“ (Z. 599)
   - Mathematik 2023 Kl. 10, S. 128: „Wachstumsprozesse unterscheiden“ (Z. 600)
   - Mathematik 2023 Kl. 10, S. 134: „Vertiefen: Wachstum vergleichen“ (Z. 604)
   - Schnittpunkt Kl. 10, S. 93: „5 Wachstumsprozesse unterscheiden“ (Z. 533)
-  - Schnittpunkt Kl. 10, S. 134: „2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 562)
-    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
   - Mathematik heute Kl. 10, S. 126: „Lineare und exponentielle Zunahme“ (Z. 290)
   - Mathematik heute Kl. 10, S. 131: „Lineare und exponentielle Abnahme“ (Z. 292)
   - Mathematik heute Kl. 10, S. 142: „Im Blickpunkt; Vergleich von exponentiellen, linearen und quadratischen Funktionen“ (Z. 296, 297)
-  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „7 Potenzfunktionen mit natürlichen Exponenten“ (Z. 199)
-    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
   - LS Kl. 10: „Kapitel II Exponentialfunktionen“ (Z. 219) › „1 Exponentielles Wachstum“ (Z. 220)
-  - Fundamente Kl. 9, S. 204: „6.2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 372)
-    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
-  - Fundamente Kl. 10, S. 10: „1.2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 405)
   - Fundamente Kl. 10, S. 44: „2.1 Exponentielles Wachstum“ (Z. 419)
-  - Fundamente 2017 Kl. 9, S. 194: „6.1 Potenzfunktionen mit natürlichen Exponenten“ (Z. 313)
   - Fundamente 2017 Kl. 10, S. 44: „2.1 Exponentielles Wachstum“ (Z. 352)
-  - Elemente Kl. 9 (Ausgabe 2016), S. 200: „5.4.1 Potenzfunktionen mit natürlichen Exponenten“ (Z. 450)
-    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
   - Elemente Kl. 10 (Ausgabe 2016), S. 88: „3.1.1 Lineares und exponentielles Wachstum“ (Z. 511)
-  - mathe.delta Kl. 9, S. 188: „6.1 Potenzfunktionen mit natürlichem Exponenten“ (Z. 657)
-    Ermessen: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
   - mathe.delta Kl. 10, S. 120: „4.1 Wachstumsprozesse“ (Z. 740)
-  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Elemente Kl. 9 (Ausgabe 2016), S. 200: „5.4.1 Potenzfunktionen mit natürlichen Exponenten“
-  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Fundamente Kl. 9, S. 204: „6.2 Potenzfunktionen mit natürlichen Exponenten“
-  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – LS Kl. 9: „7 Potenzfunktionen mit natürlichen Exponenten“
-  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“
   - Typ: an einer Tabelle entscheiden, ob die Zunahme immer gleich groß ist (Differenzen) oder immer derselbe Faktor wirkt (Quotienten) – Mathematik 2023 Kl. 10, S. 128: „Wachstumsprozesse unterscheiden“
-  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – mathe.delta Kl. 9, S. 188: „6.1 Potenzfunktionen mit natürlichem Exponenten“
   - Typ: Zunahme und Abnahme unterscheiden (Faktor größer oder kleiner als eins) – Mathematik heute Kl. 10, S. 131: „Lineare und exponentielle Abnahme“
-  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Sekundo Kl. 10, S. 92: „Potenzenfunktionen“
   - Typ: an einer Tabelle entscheiden, ob die Zunahme immer gleich groß ist (Differenzen) oder immer derselbe Faktor wirkt (Quotienten) – Schnittpunkt Kl. 10, S. 93: „5 Wachstumsprozesse unterscheiden“
-  - Typ: Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) – Schnittpunkt Kl. 10, S. 134: „2 Potenzfunktionen mit natürlichen Exponenten“
-  - Marken: Fundamente Kl. 10: Kapitel „Potenzfunktionen (Wiederholung aus Klasse 9)“ bei „1.2 Potenzfunktionen mit natürlichen Exponenten“; Mathematik 2023 Kl. 10: „Vertiefen: Wachstum vergleichen“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Potenzenfunktionen“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2448 („*“) bei „Potenzenfunktionen“; Sekundo Kl. 10: „LVL: Wachstum und Veränderung“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Lineares, quadratisches und exponentielles Wachstum“
+  - Marken: Mathematik 2023 Kl. 10: „Vertiefen: Wachstum vergleichen“; Sekundo Kl. 10: „LVL: Wachstum und Veränderung“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Lineares, quadratisches und exponentielles Wachstum“
   - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 37: „Wachstumsprozesse unterscheiden“ (Z. 430)
   - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute 10)
-  - GYM: Kl. 9 (LS 9, 10, Fundamente 9, 10, Elemente 9, 10, mathe.delta 9, 10)
+  - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta 10)
 - 2. Wachstumsfaktor und Wachstumstabelle
   - Sekundo Kl. 10, S. 136: „Exponentielles Wachstum und exponentieller Zerfall“ (Z. 592, 593)
     Ermessen: Die Seite nennt Wachstum und Zerfall; als Wachstumsfaktor und Tabelle (Einheit 2) gelesen, die Gleichung folgt S. 142.
@@ -3957,16 +3934,24 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
   - Förderheft: Schnittpunkt-Förderheft Kl. 10, S. 36: „Verdopplungszeit. Halbwertszeit“ (Z. 429)
   - OS: Kl. 10 (Sekundo 10, Mathematik 2023 –, Schnittpunkt 10, Mathematik heute –)
   - GYM: Kl. 10 (LS 10, Fundamente 10, Elemente 10, mathe.delta 10)
-- Spanne OS/GYM: ja (Einheit 1: OS Kl. 10, GYM Kl. 9; ohne gemeinsame Klasse: Einheit 1)
+- 5. Potenzfunktionen mit natürlichem Exponenten
+  - Sekundo Kl. 10, S. 92: „Potenzenfunktionen“ (Z. 533)
+  - Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548)
+  - Schnittpunkt Kl. 10, S. 134: „2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 562)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 9: „Kapitel III Potenzen und Potenzgesetze“ (Z. 192) › „7 Potenzfunktionen mit natürlichen Exponenten“ (Z. 199)
+  - Fundamente Kl. 9, S. 204: „6.2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 372)
+  - Fundamente Kl. 10, S. 10: „1.2 Potenzfunktionen mit natürlichen Exponenten“ (Z. 405)
+  - Fundamente 2017 Kl. 9, S. 194: „6.1 Potenzfunktionen mit natürlichen Exponenten“ (Z. 313)
+  - Elemente Kl. 9 (Ausgabe 2016), S. 200: „5.4.1 Potenzfunktionen mit natürlichen Exponenten“ (Z. 450)
+  - mathe.delta Kl. 9, S. 188: „6.1 Potenzfunktionen mit natürlichem Exponenten“ (Z. 657)
+  - Marken: Fundamente Kl. 10: Kapitel „Potenzfunktionen (Wiederholung aus Klasse 9)“ bei „1.2 Potenzfunktionen mit natürlichen Exponenten“; Sekundo Kl. 10: Zeichen „M“ vor der Zeile (Symbol des Originals, im Verzeichnis nicht erklärt) bei „Potenzenfunktionen“; Sekundo Kl. 10: Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. 2448 („*“) bei „Potenzenfunktionen“
+  - Förderheft: keine Stelle
+  - OS: Kl. 10 (Sekundo 10, Mathematik 2023 10, Schnittpunkt 10, Mathematik heute –)
+  - GYM: Kl. 9 (LS 9, Fundamente 9, 10, Elemente 9, mathe.delta 9)
+- Spanne OS/GYM: ja (Einheit 5: OS Kl. 10, GYM Kl. 9; ohne gemeinsame Klasse: Einheit 5)
 - Boden: nein
-- Ermessen (13):
-  - Einheit 1, Sekundo Kl. 10: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1 (Unterscheidung vom exponentiellen Term).
-  - Einheit 1, Mathematik 2023 Kl. 10: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
-  - Einheit 1, Schnittpunkt Kl. 10: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
-  - Einheit 1, LS Kl. 9: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
-  - Einheit 1, Fundamente Kl. 9: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
-  - Einheit 1, Elemente Kl. 9 (Ausgabe 2016): Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
-  - Einheit 1, mathe.delta Kl. 9: Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.
+- Ermessen (6):
   - Einheit 2, Sekundo Kl. 10: Die Seite nennt Wachstum und Zerfall; als Wachstumsfaktor und Tabelle (Einheit 2) gelesen, die Gleichung folgt S. 142.
   - Einheit 2, Schnittpunkt Kl. 10: Exponentielles Wachstum und Abnahme als Wachstumsfaktor und Tabelle (Einheit 2) gelesen.
   - Einheit 2, LS Kl. 10: „Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet.
@@ -4082,6 +4067,7 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
 - 1. Häufigkeiten
   - Sekundo Kl. 7, S. 158: „LVL: Umfragen“ (Z. 210)
     Ermessen: „Umfragen“ als Daten sammeln (Einheit 1) gelesen.
+  - Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“ (Z. 304)
   - Mathematik 2023 Kl. 5, S. 79: „Daten sammeln, ordnen und darstellen“ (Z. 89)
   - Mathematik 2023 Kl. 6, S. 136: „Üben: Eine Umfrage auswerten“ (Z. 262)
     Ermessen: Umfrage auswerten als Häufigkeitstabelle gelesen.
@@ -4094,42 +4080,77 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
   - Schnittpunkt Kl. 6, S. 208: „1 Diagramme und Häufigkeitstabellen“ (Z. 306)
   - Schnittpunkt Kl. 6, S. 214: „3 Absolute und relative Häufigkeit“ (Z. 310)
   - Schnittpunkt Kl. 8, S. 184: „1 Daten erfassen“ (Z. 306)
-  - Schnittpunkt Kl. 9, S. 138: „1 Vierfeldertafeln“ (Z. 419)
-    Ermessen: Vierfeldertafeln stehen im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1; im Kapitel „Daten“ (Kl. 9) dieser Einheit zugeordnet.
-  - Schnittpunkt Kl. 10, S. 119: „5 Vierfeldertafeln“ (Z. 551)
-    Ermessen: wie Kl. 9: Vierfeldertafel als Sek-II-Deutungstyp in daten Einheit 1.
   - Mathematik heute Kl. 6, S. 198: „Absolute und relative Häufigkeiten von Daten - Grafische Darstellungen“ (Z. 148, 149)
   - Mathematik heute Kl. 6, S. 207: „Durchführen einer Umfrage“ (Z. 150)
   - Mathematik heute Kl. 7, S. 240: „Statistische Erhebungen“ (Z. 107)
   - Mathematik heute Kl. 7, S. 248: „Durchführen einer statistischen Erhebung“ (Z. 109)
   - Mathematik heute Kl. 9, S. 139: „Durchführen einer Statistischen Erhebung“ (Z. 226)
+  - Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“ (Z. 229)
   - LS Kl. 5: „Kapitel I Zahlen und Größen“ (Z. 23) › „1 Zählen und Darstellen“ (Z. 25)
     Ermessen: „Zählen und Darstellen“ im Kapitel Zahlen und Größen: laut Synopse des Fahrplans (Z. 586) ist dort „Daten erheben“ verortet; Einheiten 1 und 2 von daten zugeordnet.
   - LS Kl. 7: „Kapitel VII Daten“ (Z. 131) › „1 Relative Häufigkeiten und Diagramme“ (Z. 132)
   - LS Kl. 7: „Kapitel VII Daten“ (Z. 131) › „4 Untersuchungen planen und auswerten“ (Z. 135)
   - LS Kl. 9: „Kapitel VI Daten“ (Z. 179) › „1 Relative Häufigkeiten und Diagramme“ (Z. 180)
   - LS Kl. 9: „Kapitel VI Daten“ (Z. 179) › „4 Untersuchungen planen und auswerten“ (Z. 183)
-  - LS Kl. 9: „Kapitel VII Daten und Wahrscheinlichkeit“ (Z. 184) › „2 Vierfeldertafel – mit Anteilen argumentieren“ (Z. 186)
-    Ermessen: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
   - Fundamente Kl. 5, S. 8: „1.1 Daten auswerten und darstellen“ (Z. 38)
   - Fundamente Kl. 5, S. 12: „1.2 Befragungen durchführen“ (Z. 39)
   - Fundamente Kl. 6, S. 170: „6.1 Absolute und relative Häufigkeit“ (Z. 241)
+  - Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“ (Z. 243)
   - Fundamente Kl. 7, S. 222: „7.1 Absolute und relative Häufigkeit“ (Z. 111)
+  - Fundamente Kl. 7, S. 230: „7.3 Klasseneinteilung und Histogramme“ (Z. 113)
   - Fundamente Kl. 7, S. 246: „7.7 Statistische Erhebungen“ (Z. 117)
-  - Fundamente Kl. 10, S. 156: „5.6 Vierfeldertafeln“ (Z. 471)
-    Ermessen: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“ (Z. 454)
+    Ermessen: Häufigkeitsverteilungen (Kl. 10) auch als Klasseneinteilung gelesen: Typzeile an den Klassen-Typen von Einheit 1 (katalog/_marken-entscheidungen.md).
   - Fundamente 2017 Kl. 7, S. 212: „7.1 Absolute und relative Häufigkeit“ (Z. 122)
+  - Fundamente 2017 Kl. 7, S. 220: „7.3 Klasseneinteilung“ (Z. 124)
   - Fundamente 2017 Kl. 7, S. 238: „7.7 Statistische Erhebungen“ (Z. 129)
+  - Fundamente 2017 Kl. 9, S. 131: „4.2 Klasseneinteilung von Daten und H is to g ra m m e“ (Z. 288)
   - Elemente Kl. 5 (Ausgabe 2025), S. 10: „1.1 Meine Klasse und ich“ (Z. 576)
     Ermessen: „Meine Klasse und ich“ im Kapitel Daten und Zahlen als Daten sammeln gelesen.
   - Elemente Kl. 6 (Ausgabe 2025), S. 124: „6.1 Absolute und relative Häufigkeiten“ (Z. 786)
   - Elemente Kl. 6 (Ausgabe 2025), S. 132: „6.4 Daten erheben und auswerten“ (Z. 790)
   - Elemente Kl. 7 (Ausgabe 2016), S. 81: „3.1 Absolute und relative Häufigkeiten und deren Darstellung“ (Z. 119)
+  - Elemente Kl. 7 (Ausgabe 2016), S. 94: „3.3 Klasseneinteilung bei Stichproben“ (Z. 127)
   - Elemente Kl. 7 (Ausgabe 2016), S. 106: „Durchführen einer statistischen Erhebung“ (Z. 130)
+  - Elemente Kl. 7 (Ausgabe 2025), S. 210: „9.4 Klasseneinteilung von Stichproben“ (Z. 952)
   - mathe.delta Kl. 7, S. 198: „6.1 Daten erheben“ (Z. 163)
-  - mathe.delta Kl. 10, S. 58: „2.3 Vierfeldertafeln“ (Z. 709)
-    Ermessen: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
-  - Marken: Mathematik 2023 Kl. 6: „Üben: Eine Umfrage auswerten“; Sekundo Kl. 7: „LVL: Umfragen“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Elemente Kl. 7 (Ausgabe 2025), S. 210: „9.4 Klasseneinteilung von Stichproben“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Elemente Kl. 7 (Ausgabe 2025), S. 210: „9.4 Klasseneinteilung von Stichproben“
+  - Typ: Säulendiagramm der Klassen zeichnen – Elemente Kl. 7 (Ausgabe 2025), S. 210: „9.4 Klasseneinteilung von Stichproben“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Elemente Kl. 7 (Ausgabe 2025), S. 210: „9.4 Klasseneinteilung von Stichproben“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Elemente Kl. 7 (Ausgabe 2016), S. 94: „3.3 Klasseneinteilung bei Stichproben“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Elemente Kl. 7 (Ausgabe 2016), S. 94: „3.3 Klasseneinteilung bei Stichproben“
+  - Typ: Säulendiagramm der Klassen zeichnen – Elemente Kl. 7 (Ausgabe 2016), S. 94: „3.3 Klasseneinteilung bei Stichproben“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Elemente Kl. 7 (Ausgabe 2016), S. 94: „3.3 Klasseneinteilung bei Stichproben“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“
+  - Typ: Säulendiagramm der Klassen zeichnen – Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Fundamente Kl. 7, S. 230: „7.3 Klasseneinteilung und Histogramme“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Fundamente Kl. 7, S. 230: „7.3 Klasseneinteilung und Histogramme“
+  - Typ: Säulendiagramm der Klassen zeichnen – Fundamente Kl. 7, S. 230: „7.3 Klasseneinteilung und Histogramme“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Fundamente Kl. 7, S. 230: „7.3 Klasseneinteilung und Histogramme“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“
+  - Typ: Säulendiagramm der Klassen zeichnen – Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Fundamente 2017 Kl. 7, S. 220: „7.3 Klasseneinteilung“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Fundamente 2017 Kl. 7, S. 220: „7.3 Klasseneinteilung“
+  - Typ: Säulendiagramm der Klassen zeichnen – Fundamente 2017 Kl. 7, S. 220: „7.3 Klasseneinteilung“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Fundamente 2017 Kl. 7, S. 220: „7.3 Klasseneinteilung“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Fundamente 2017 Kl. 9, S. 131: „4.2 Klasseneinteilung von Daten und H is to g ra m m e“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Fundamente 2017 Kl. 9, S. 131: „4.2 Klasseneinteilung von Daten und H is to g ra m m e“
+  - Typ: Säulendiagramm der Klassen zeichnen – Fundamente 2017 Kl. 9, S. 131: „4.2 Klasseneinteilung von Daten und H is to g ra m m e“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Fundamente 2017 Kl. 9, S. 131: „4.2 Klasseneinteilung von Daten und H is to g ra m m e“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“
+  - Typ: Säulendiagramm der Klassen zeichnen – Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“
+  - Typ: Klassen zu einer Urliste bilden (gleich breit, Randregel) – Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“
+  - Typ: Häufigkeitstabelle mit Klassen auszählen – Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“
+  - Typ: Säulendiagramm der Klassen zeichnen – Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“
+  - Typ: Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) – Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“
+  - Marken: Mathematik 2023 Kl. 6: „Üben: Eine Umfrage auswerten“; Sekundo Kl. 7: „LVL: Umfragen“; Sekundo Kl. 8: „LVL: Klasseneinteilung“
   - Förderheft: Sekundo-Förderheft Kl. 6, S. 68: „Daten erfassen und auswerten“ (Z. 385)
   - Förderheft: Mathematik-2023-Förderheft Kl. 8, S. 21: „Daten erfassen und auswerten“ (Z. 118)
   - Förderheft: Schnittpunkt-Förderheft Kl. 5, S. 3: „Daten in Listen erfassen“ (Z. 172)
@@ -4140,8 +4161,8 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
   - Förderheft: Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 37: „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“ (Z. 49)
     Ermessen: Themenblock ohne Unterkapitel, dem Blocktitel nach zugeordnet (Grund unter „Ermessen“ des Eintrags).
   - Ermessen: Der LS-Fahrplan führt das Kapitel „Daten“ mit denselben vier Lerneinheiten in Kl. 7 (Kap. VII) und Kl. 9 (Kap. VI); beide Stellen stehen da (Einführungsklasse 7, für Einheit 1 und 2 schon 5).
-  - OS: Kl. 5–6 (Sekundo 7, Mathematik 2023 5, 6, 8, 9, Schnittpunkt 5, 6, 8, 9, 10, Mathematik heute 6, 7, 9); Streuung der Einführung: Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
-  - GYM: Kl. 5 (LS 5, 7, 9, Fundamente 5, 6, 7, 10, Elemente 5, 6, 7, mathe.delta 7, 10); nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - OS: Kl. 5–6 (Sekundo 7, 8, Mathematik 2023 5, 6, 8, 9, Schnittpunkt 5, 6, 8, Mathematik heute 6, 7, 9); Streuung der Einführung: Mathematik heute 6 später als Kl. 5; nicht in die Spanne gerechnet: Sekundo 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
+  - GYM: Kl. 5 (LS 5, 7, 9, Fundamente 5, 6, 7, 10, Elemente 5, 6, 7, mathe.delta 7); nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
 - 2. Säulen-, Balken- und Liniendiagramme
   - Sekundo Kl. 7, S. 95: „Streifen-, Säulen- und Balkendiagramm“ (Z. 121)
   - Sekundo Kl. 8, S. 162: „Diagram m e“ (Z. 305)
@@ -4328,44 +4349,47 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
   - OS: Kl. 6–9 (Sekundo 8, 9, 10, Mathematik 2023 6, 8, 9, Schnittpunkt 8, 9, Mathematik heute 9); Streuung der Einführung: Sekundo 8, Schnittpunkt 8, Mathematik heute 9 später als Kl. 6
   - GYM: Kl. 6–7 (LS 7, 9, Fundamente 6, 7, 10, Elemente 7, 9, mathe.delta 7); Streuung der Einführung: LS 7, Elemente 7 später als Kl. 6; nicht in die Spanne gerechnet: mathe.delta 7 (Reihe beginnt in Klasse 7, Bände 5/6 für BE/BB nicht erschienen)
 - 6. Kenngrößen aus Häufigkeitstabellen und Klassen (Sek II)
-  - Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“ (Z. 304)
-    Ermessen: Klasseneinteilung (klassierte Daten) gehört im Katalog zur Sek-II-Einheit 6; Sekundo führt sie als LVL-Seite in Kl. 8.
+  - Sekundo: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
   - Mathematik 2023 Kl. 9, S. 125: „Vertiefen: Mittlere quadratische Abweichung und Standardabweichung“ (Z. 435, 436)
   - Schnittpunkt: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
-  - Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“ (Z. 229)
-    Ermessen: Klassieren gehört im Katalog zur Sek-II-Einheit 6.
+  - Mathematik heute: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
   - LS: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
-  - Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“ (Z. 243)
-    Ermessen: Klasseneinteilung gehört im Katalog zur Sek-II-Einheit 6; Fundamente führt sie schon in Kl. 6.
-  - Fundamente Kl. 7, S. 230: „7.3 Klasseneinteilung und Histogramme“ (Z. 113)
   - Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“ (Z. 454)
     Ermessen: Häufigkeitsverteilungen (Kl. 10) als Kenngrößen aus Häufigkeitstabellen (Sek-II-Einheit 6) gelesen.
   - Fundamente Kl. 10, S. 115: „4.2 Lagemaße und Streumaße“ (Z. 455)
     Ermessen: Streumaße umfassen die Standardabweichung (Sek-II-Einheit 6); Einheiten 4 und 6 zugeordnet.
-  - Fundamente 2017 Kl. 7, S. 220: „7.3 Klasseneinteilung“ (Z. 124)
-  - Fundamente 2017 Kl. 9, S. 131: „4.2 Klasseneinteilung von Daten und H is to g ra m m e“ (Z. 288)
-  - Elemente Kl. 7 (Ausgabe 2016), S. 94: „3.3 Klasseneinteilung bei Stichproben“ (Z. 127)
-  - Elemente Kl. 7 (Ausgabe 2025), S. 210: „9.4 Klasseneinteilung von Stichproben“ (Z. 952)
+  - Fundamente 2017: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
   - Elemente Kl. 9 (Ausgabe 2016), S. 115: „3.1 Streuung - Standardabweichung“ (Z. 409)
   - mathe.delta: keine Stelle – Sek-II-Einheit; die Verzeichnisse reichen bis Klasse 10
-  - Marken: Mathematik 2023 Kl. 9: „Vertiefen: Mittlere quadratische Abweichung und Standardabweichung“; Sekundo Kl. 8: „LVL: Klasseneinteilung“
+  - Marken: Mathematik 2023 Kl. 9: „Vertiefen: Mittlere quadratische Abweichung und Standardabweichung“
   - Förderheft: keine Stelle
-  - OS: Kl. 8–9 (Sekundo 8, Mathematik 2023 9, Schnittpunkt –, Mathematik heute 9); Streuung der Einführung: Mathematik 2023 9, Mathematik heute 9 später als Kl. 8
-  - GYM: Kl. 6–7 (LS –, Fundamente 6, 7, 10, Elemente 7, 9, mathe.delta –); Streuung der Einführung: Elemente 7 später als Kl. 6
-- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–6, GYM Kl. 5; Einheit 2: OS Kl. 5–6, GYM Kl. 5; Einheit 3: OS Kl. 6–7, GYM Kl. 6; Einheit 4: OS Kl. 6, GYM Kl. 6–7; Einheit 5: OS Kl. 6–9, GYM Kl. 6–7; Einheit 6: OS Kl. 8–9, GYM Kl. 6–7; ohne gemeinsame Klasse: Einheit 6)
+  - OS: Kl. 9 (Sekundo –, Mathematik 2023 9, Schnittpunkt –, Mathematik heute –)
+  - GYM: Kl. 9–10 (LS –, Fundamente 10, Elemente 9, mathe.delta –); Streuung der Einführung: Fundamente 10 später als Kl. 9
+- 7. Vierfeldertafel (Sek I)
+  - Sekundo: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Mathematik 2023: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - Schnittpunkt Kl. 9, S. 138: „1 Vierfeldertafeln“ (Z. 419)
+  - Schnittpunkt Kl. 10, S. 119: „5 Vierfeldertafeln“ (Z. 551)
+  - Mathematik heute: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - LS Kl. 9: „Kapitel VII Daten und Wahrscheinlichkeit“ (Z. 184) › „2 Vierfeldertafel – mit Anteilen argumentieren“ (Z. 186)
+  - Fundamente Kl. 10, S. 156: „5.6 Vierfeldertafeln“ (Z. 471)
+  - Fundamente 2017: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 7–10)
+  - Elemente: keine Stelle – Reihe führt das Thema in keinem Band als Kapitel- oder Unterkapitelzeile (Verzeichnisse Kl. 5–10)
+  - mathe.delta Kl. 10, S. 58: „2.3 Vierfeldertafeln“ (Z. 709)
+  - Marken: keine
+  - Förderheft: keine Stelle
+  - OS: Kl. 9 (Sekundo –, Mathematik 2023 –, Schnittpunkt 9, 10, Mathematik heute –)
+  - GYM: Kl. 9–10 (LS 9, Fundamente 10, Elemente –, mathe.delta 10); Streuung der Einführung: Fundamente 10, mathe.delta 10 später als Kl. 9
+- Spanne OS/GYM: ja (Einheit 1: OS Kl. 5–6, GYM Kl. 5; Einheit 2: OS Kl. 5–6, GYM Kl. 5; Einheit 3: OS Kl. 6–7, GYM Kl. 6; Einheit 4: OS Kl. 6, GYM Kl. 6–7; Einheit 5: OS Kl. 6–9, GYM Kl. 6–7; Einheit 6: OS Kl. 9, GYM Kl. 9–10; Einheit 7: OS Kl. 9, GYM Kl. 9–10)
 - Boden: ja
-- Ermessen (28):
+- Ermessen (21):
   - Einheit 1, Sekundo Kl. 7: „Umfragen“ als Daten sammeln (Einheit 1) gelesen.
   - Einheit 1, Mathematik 2023 Kl. 6: Umfrage auswerten als Häufigkeitstabelle gelesen.
   - Einheit 1, Mathematik 2023 Kl. 8: Erhebung planen als Daten sammeln gelesen.
   - Einheit 1, Mathematik 2023 Kl. 9: Statistische Erhebung als Daten sammeln (Einheit 1) gelesen.
-  - Einheit 1, Schnittpunkt Kl. 9: Vierfeldertafeln stehen im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1; im Kapitel „Daten“ (Kl. 9) dieser Einheit zugeordnet.
-  - Einheit 1, Schnittpunkt Kl. 10: wie Kl. 9: Vierfeldertafel als Sek-II-Deutungstyp in daten Einheit 1.
   - Einheit 1, LS Kl. 5: „Zählen und Darstellen“ im Kapitel Zahlen und Größen: laut Synopse des Fahrplans (Z. 586) ist dort „Daten erheben“ verortet; Einheiten 1 und 2 von daten zugeordnet.
-  - Einheit 1, LS Kl. 9: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
-  - Einheit 1, Fundamente Kl. 10: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
+  - Einheit 1, Fundamente Kl. 10: Häufigkeitsverteilungen (Kl. 10) auch als Klasseneinteilung gelesen: Typzeile an den Klassen-Typen von Einheit 1 (katalog/_marken-entscheidungen.md).
   - Einheit 1, Elemente Kl. 5 (Ausgabe 2025): „Meine Klasse und ich“ im Kapitel Daten und Zahlen als Daten sammeln gelesen.
-  - Einheit 1, mathe.delta Kl. 10: Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.
   - Einheit 1: Der LS-Fahrplan führt das Kapitel „Daten“ mit denselben vier Lerneinheiten in Kl. 7 (Kap. VII) und Kl. 9 (Kap. VI); beide Stellen stehen da (Einführungsklasse 7, für Einheit 1 und 2 schon 5).
   - Einheit 2, Schnittpunkt Kl. 8: Schaubilder beschreiben als Verlauf eines Liniendiagramms gelesen.
   - Einheit 2, Schnittpunkt Kl. 9: „Daten darstellen“ ohne nähere Angabe als Diagramme (Einheit 2) gelesen.
@@ -4376,9 +4400,6 @@ Geprüfte Zitate beim Bau: 2920 Verzeichniszeilen in 2134 Regelreihen- und 401 F
   - Einheit 4, Schnittpunkt Kl. 8: „Daten auswerten“ als Kenngrößen gelesen; Einheit 4.
   - Einheit 4, Elemente Kl. 9 (Ausgabe 2016): Irreführende Anwendung des Mittelwerts als Vergleich Mittelwert/Median (Ausreißer) gelesen.
   - Einheit 5, Elemente Kl. 7 (Ausgabe 2016): Zeile verstümmelt; laut Seitenbild „3.2 Bildliche Darstellung von Daten und ihre Wirkungen“.
-  - Einheit 6, Sekundo Kl. 8: Klasseneinteilung (klassierte Daten) gehört im Katalog zur Sek-II-Einheit 6; Sekundo führt sie als LVL-Seite in Kl. 8.
-  - Einheit 6, Mathematik heute Kl. 9: Klassieren gehört im Katalog zur Sek-II-Einheit 6.
-  - Einheit 6, Fundamente Kl. 6: Klasseneinteilung gehört im Katalog zur Sek-II-Einheit 6; Fundamente führt sie schon in Kl. 6.
   - Einheit 6, Fundamente Kl. 10: Häufigkeitsverteilungen (Kl. 10) als Kenngrößen aus Häufigkeitstabellen (Sek-II-Einheit 6) gelesen.
   - Einheit 6, Fundamente Kl. 10: Streumaße umfassen die Standardabweichung (Sek-II-Einheit 6); Einheiten 4 und 6 zugeordnet.
   - Einheiten 1, 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 7 „Daten (Schülerband Seite 220 bis 247)“: Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten.

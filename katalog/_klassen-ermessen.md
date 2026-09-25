@@ -4,24 +4,24 @@ Zweck: das Urteil über die Ermessensfälle der Klassenbelege im Chat gebündelt
 
 Lesart: Ein Fall ist ein Punkt der Liste „Ermessen (n)“ am Schluss eines Eintrags. Zitat = die Verzeichniszeile, an der derselbe Grund im Eintrag steht (bei Förderheft-Blöcken die Förderheftzeile mit dem Blocktitel; „–“, wenn der Grund die ganze Einheit betrifft). Sorte = die erste zutreffende Regel der Liste unten, in dieser Reihenfolge; die Muster sind aus dem Wortlaut der Gründe abgeleitet und stehen im Skript.
 
-Gegenprobe: 250 Fälle; Zahlenblock von `_klassen-belege.md`: 250 – stimmt.
+Gegenprobe: 236 Fälle; Zahlenblock von `_klassen-belege.md`: 236 – stimmt.
 
 ## Sorten
 
 | Sorte | Fälle | Kennzeichen im Wortlaut |
 |---|---|---|
-| Wortlaut weicht ab | 112 | die Zeile nennt den Inhalt mit anderen Worten; Lesart „… als … gelesen“ |
+| Wortlaut weicht ab | 113 | die Zeile nennt den Inhalt mit anderen Worten; Lesart „… als … gelesen“ |
 | Zeile deckt mehrere Einheiten oder Typen | 32 | eine Verzeichniszeile nennt Stoff mehrerer Einheiten oder Typen; mehrfach zugeordnet |
 | Förderheft nach Blocktitel | 31 | Förderheft gliedert nur nach Blöcken des Schülerbands; Zuordnung nach dem Blocktitel |
-| Katalog verortet den Stoff anders | 23 | der Katalog führt den Inhalt als Sek-II-Einheit, Vorrat oder in einem anderen Eintrag |
 | Zeile unlesbar oder abgeschnitten | 19 | Erkennungsfehler, Seitenbild oder abgeschnittener Titel; Lesart nach dem Bild oder dem Sinn |
 | Frühe Stelle als Grundstufe gelesen | 15 | Stelle in einer früheren Klasse oder vor dem eigentlichen Kapitel als Vorstufe, Einstieg oder Wiederaufnahme gelesen |
+| Katalog verortet den Stoff anders | 8 | der Katalog führt den Inhalt als Sek-II-Einheit, Vorrat oder in einem anderen Eintrag |
 | Kapitel in zwei Bänden | 7 | dasselbe Kapitel steht in zwei Bänden oder Klassen; beide Stellen stehen da |
 | Ersatzverzeichnis | 6 | die Stelle stammt aus Lösungsband, Stoffverteilungsplan oder Synopse statt aus dem Schulbuchverzeichnis |
 | Verzeichnis zu grob | 5 | die Zeile nennt nur das Thema, keinen Inhalt einer Einheit |
-| zusammen | 250 | |
+| zusammen | 236 | |
 
-## Wortlaut weicht ab (112)
+## Wortlaut weicht ab (113)
 
 | Eintrag | Einheit | Reihe | Zitat | Grund |
 |---|---|---|---|---|
@@ -119,6 +119,7 @@ Gegenprobe: 250 Fälle; Zahlenblock von `_klassen-belege.md`: 250 – stimmt.
 | daten | 1 | Mathematik 2023 Kl. 6 | Mathematik 2023 Kl. 6, S. 136: „Üben: Eine Umfrage auswerten“ (Z. 262) | Umfrage auswerten als Häufigkeitstabelle gelesen. |
 | daten | 1 | Mathematik 2023 Kl. 8 | Mathematik 2023 Kl. 8, S. 60: „Eine statistische Erhebung planen“ (Z. 235) | Erhebung planen als Daten sammeln gelesen. |
 | daten | 1 | Mathematik 2023 Kl. 9 | Mathematik 2023 Kl. 9, S. 106: „Einzelne Schritte bei einer statistischen Erhebung“ (Z. 469, 470) | Statistische Erhebung als Daten sammeln (Einheit 1) gelesen. |
+| daten | 1 | Fundamente Kl. 10 | Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“ (Z. 454) | Häufigkeitsverteilungen (Kl. 10) auch als Klasseneinteilung gelesen: Typzeile an den Klassen-Typen von Einheit 1 (katalog/_marken-entscheidungen.md). |
 | daten | 1 | Elemente Kl. 5 (Ausgabe 2025) | Elemente Kl. 5 (Ausgabe 2025), S. 10: „1.1 Meine Klasse und ich“ (Z. 576) | „Meine Klasse und ich“ im Kapitel Daten und Zahlen als Daten sammeln gelesen. |
 | daten | 2 | Schnittpunkt Kl. 8 | Schnittpunkt Kl. 8, S. 188: „EXTRA: Schaubilder beschreiben“ (Z. 308) | Schaubilder beschreiben als Verlauf eines Liniendiagramms gelesen. |
 | daten | 2 | mathe.delta Kl. 7 | mathe.delta Kl. 7, S. 200: „6.2 Daten a u s w e r te n“ (Z. 164) | „Daten auswerten“ vor „Kennwerte“ als Diagramme lesen gelesen. |
@@ -211,34 +212,6 @@ Gegenprobe: 250 Fälle; Zahlenblock von `_klassen-belege.md`: 250 – stimmt.
 | daten | 1 | 2, 3, 4, 5, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 8 | Mathematik heute „Diagnose und Fördern“ Kl. 8, S. 37: „Darstellen und Auswerten von Daten (Schülerband Seite 168 bis 197)“ (Z. 49) | Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten. |
 | wahrscheinlichkeit | 3 | 4, Förderheft Mathematik heute „Diagnose und Fördern“ Kl. 9 | Mathematik heute „Diagnose und Fördern“ Kl. 9, S. 36: „Mehrstufige Zufallsexperimente (Schülerband Seite 162 bis 183)“ (Z. 60) | Themenblock ohne Unterkapitel (das Heft gliedert nur nach Blöcken des Schülerbands); zugeordnet den Einheiten, die der Blocktitel nennt – deckt er das ganze Thema des Eintrags, allen Sek-I-Einheiten. |
 
-## Katalog verortet den Stoff anders (23)
-
-| Eintrag | Einheit | Reihe | Zitat | Grund |
-|---|---|---|---|---|
-| einheiten | 4 | Mathematik 2023 Kl. 8 | Mathematik 2023 Kl. 8, S. 153: „Üben: Masse von Prismen und Zylindern“ (Z. 279) | Masse eines Körpers setzt Volumen und Dichte voraus; der Einheit 4 von einheiten zugeordnet. |
-| koerper | 5 | Mathematik 2023 Kl. 9 | Mathematik 2023 Kl. 9, S. 140: „Zusammengesetzte Körper“ (Z. 461) | „Zusammengesetzte Körper“ im Kapitel Pyramiden, Kegel, Kugeln; Einheit 5 von koerper zugeordnet. |
-| terme | 1 | Elemente Kl. 8 (Ausgabe 2016) | Elemente Kl. 8 (Ausgabe 2016), S. 15: „1.1 Aufstellen eines Terms mit Variablen“ (Z. 234) | Im Kapitel „Terme mit mehreren Variablen“ (Kl. 8): Aufstellen von Termen als Einheit 1 von terme gelesen. |
-| binomische-formeln | 1 | Fundamente Kl. 8 | Fundamente Kl. 8, S. 38: „2.3 Terme vereinfachen“ (Z. 164) | „Terme vereinfachen“ im Kapitel Terme mit mehreren Variablen (Kl. 8) der Einheit 1 von binomische-formeln zugeordnet. |
-| binomische-formeln | 1 | Elemente Kl. 8 (Ausgabe 2016) | Elemente Kl. 8 (Ausgabe 2016), S. 26: „1.3 Addieren und Subtrahieren von Termen“ (Z. 237) | Das Kapitel behandelt Terme mit mehreren Variablen; Addieren und Subtrahieren auch Einheit 1 von binomische-formeln. |
-| potenz-exponentialfunktionen | 1 | Sekundo Kl. 10 | Sekundo Kl. 10, S. 92: „Potenzenfunktionen“ (Z. 533) | Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1 (Unterscheidung vom exponentiellen Term). |
-| potenz-exponentialfunktionen | 1 | Mathematik 2023 Kl. 10 | Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548) | Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1. |
-| potenz-exponentialfunktionen | 1 | Schnittpunkt Kl. 10 | Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548) | Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1. |
-| potenz-exponentialfunktionen | 1 | LS Kl. 9 | Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548) | Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1. |
-| potenz-exponentialfunktionen | 1 | Fundamente Kl. 9 | Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548) | Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1. |
-| potenz-exponentialfunktionen | 1 | Elemente Kl. 9 (Ausgabe 2016) | Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548) | Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1. |
-| potenz-exponentialfunktionen | 1 | mathe.delta Kl. 9 | Mathematik 2023 Kl. 10, S. 18: „Potenzfunktionen“ (Z. 548) | Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1. |
-| daten | 1 | Schnittpunkt Kl. 9 | Schnittpunkt Kl. 9, S. 138: „1 Vierfeldertafeln“ (Z. 419) | Vierfeldertafeln stehen im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1; im Kapitel „Daten“ (Kl. 9) dieser Einheit zugeordnet. |
-| daten | 1 | Schnittpunkt Kl. 10 | Schnittpunkt Kl. 10, S. 119: „5 Vierfeldertafeln“ (Z. 551) | wie Kl. 9: Vierfeldertafel als Sek-II-Deutungstyp in daten Einheit 1. |
-| daten | 1 | LS Kl. 9 | LS Kl. 9: „Kapitel VII Daten und Wahrscheinlichkeit“ (Z. 184) › „2 Vierfeldertafel – mit Anteilen argumentieren“ (Z. 186) | Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1. |
-| daten | 1 | Fundamente Kl. 10 | LS Kl. 9: „Kapitel VII Daten und Wahrscheinlichkeit“ (Z. 184) › „2 Vierfeldertafel – mit Anteilen argumentieren“ (Z. 186) | Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1. |
-| daten | 1 | mathe.delta Kl. 10 | LS Kl. 9: „Kapitel VII Daten und Wahrscheinlichkeit“ (Z. 184) › „2 Vierfeldertafel – mit Anteilen argumentieren“ (Z. 186) | Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1. |
-| daten | 4 | Mathematik 2023 Kl. 9 | Mathematik 2023 Kl. 9, S. 112: „Streumaße“ (Z. 424) | Streumaße: im Katalog nur die Spannweite (Sek I); als deren Typ gelesen. |
-| daten | 6 | Sekundo Kl. 8 | Sekundo Kl. 8, S. 161: „LVL: Klasseneinteilung“ (Z. 304) | Klasseneinteilung (klassierte Daten) gehört im Katalog zur Sek-II-Einheit 6; Sekundo führt sie als LVL-Seite in Kl. 8. |
-| daten | 6 | Mathematik heute Kl. 9 | Mathematik heute Kl. 9, S. 143: „Zusammenfassen von Daten zu Klassen“ (Z. 229) | Klassieren gehört im Katalog zur Sek-II-Einheit 6. |
-| daten | 6 | Fundamente Kl. 6 | Fundamente Kl. 6, S. 178: „6.3 Klasseneinteilung“ (Z. 243) | Klasseneinteilung gehört im Katalog zur Sek-II-Einheit 6; Fundamente führt sie schon in Kl. 6. |
-| daten | 6 | Fundamente Kl. 10 | Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“ (Z. 454) | Häufigkeitsverteilungen (Kl. 10) als Kenngrößen aus Häufigkeitstabellen (Sek-II-Einheit 6) gelesen. |
-| daten | 6 | Fundamente Kl. 10 | Fundamente Kl. 10, S. 115: „4.2 Lagemaße und Streumaße“ (Z. 455) | Streumaße umfassen die Standardabweichung (Sek-II-Einheit 6); Einheiten 4 und 6 zugeordnet. |
-
 ## Zeile unlesbar oder abgeschnitten (19)
 
 | Eintrag | Einheit | Reihe | Zitat | Grund |
@@ -282,6 +255,19 @@ Gegenprobe: 250 Fälle; Zahlenblock von `_klassen-belege.md`: 250 – stimmt.
 | quadratische-gleichungen | 3 | Sekundo Kl. 10 | Sekundo Kl. 10, S. 47: „Rechnerische Lösung mit quadratischer Ergänzung“ (Z. 537, 538) | Lösen mit quadratischer Ergänzung als Vorstufe der Lösungsformel (Einheit 3) gelesen. |
 | potenz-exponentialfunktionen | 2 | Sekundo Kl. 10 | Sekundo Kl. 10, S. 136: „Exponentielles Wachstum und exponentieller Zerfall“ (Z. 592, 593) | Die Seite nennt Wachstum und Zerfall; als Wachstumsfaktor und Tabelle (Einheit 2) gelesen, die Gleichung folgt S. 142. |
 | trigonometrische-funktionen | 4 | Mathematik 2023 Kl. 10 | Mathematik 2023 Kl. 10, S. 78: „Schwingungen und Wellen“ (Z. 589) | Einstiegsseite „Schwingungen und Wellen“ als periodische Vorgänge gelesen. |
+
+## Katalog verortet den Stoff anders (8)
+
+| Eintrag | Einheit | Reihe | Zitat | Grund |
+|---|---|---|---|---|
+| einheiten | 4 | Mathematik 2023 Kl. 8 | Mathematik 2023 Kl. 8, S. 153: „Üben: Masse von Prismen und Zylindern“ (Z. 279) | Masse eines Körpers setzt Volumen und Dichte voraus; der Einheit 4 von einheiten zugeordnet. |
+| koerper | 5 | Mathematik 2023 Kl. 9 | Mathematik 2023 Kl. 9, S. 140: „Zusammengesetzte Körper“ (Z. 461) | „Zusammengesetzte Körper“ im Kapitel Pyramiden, Kegel, Kugeln; Einheit 5 von koerper zugeordnet. |
+| terme | 1 | Elemente Kl. 8 (Ausgabe 2016) | Elemente Kl. 8 (Ausgabe 2016), S. 15: „1.1 Aufstellen eines Terms mit Variablen“ (Z. 234) | Im Kapitel „Terme mit mehreren Variablen“ (Kl. 8): Aufstellen von Termen als Einheit 1 von terme gelesen. |
+| binomische-formeln | 1 | Fundamente Kl. 8 | Fundamente Kl. 8, S. 38: „2.3 Terme vereinfachen“ (Z. 164) | „Terme vereinfachen“ im Kapitel Terme mit mehreren Variablen (Kl. 8) der Einheit 1 von binomische-formeln zugeordnet. |
+| binomische-formeln | 1 | Elemente Kl. 8 (Ausgabe 2016) | Elemente Kl. 8 (Ausgabe 2016), S. 26: „1.3 Addieren und Subtrahieren von Termen“ (Z. 237) | Das Kapitel behandelt Terme mit mehreren Variablen; Addieren und Subtrahieren auch Einheit 1 von binomische-formeln. |
+| daten | 4 | Mathematik 2023 Kl. 9 | Mathematik 2023 Kl. 9, S. 112: „Streumaße“ (Z. 424) | Streumaße: im Katalog nur die Spannweite (Sek I); als deren Typ gelesen. |
+| daten | 6 | Fundamente Kl. 10 | Fundamente Kl. 10, S. 112: „4.1 Häufigkeitsverteilungen“ (Z. 454) | Häufigkeitsverteilungen (Kl. 10) als Kenngrößen aus Häufigkeitstabellen (Sek-II-Einheit 6) gelesen. |
+| daten | 6 | Fundamente Kl. 10 | Fundamente Kl. 10, S. 115: „4.2 Lagemaße und Streumaße“ (Z. 455) | Streumaße umfassen die Standardabweichung (Sek-II-Einheit 6); Einheiten 4 und 6 zugeordnet. |
 
 ## Kapitel in zwei Bänden (7)
 

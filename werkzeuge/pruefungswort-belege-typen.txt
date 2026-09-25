@@ -992,7 +992,7 @@ Einheit 2 · Äquivalenzumformungen
   2.7  Fehler finden (falsche Umkehroperation)
   2.8  Begründen (warum darf man auf beiden Seiten …)
   2.9  Gleichung mit Lösungsvorgabe aufstellen (Umkehrung)
-Einheit 3 · Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen. (Kl. 8)
+Einheit 3 · Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen.
   3.1  x beidseitig
   3.2  erst zusammenfassen
   3.3  Klammer auflösen (Plus, Minus, Zahl mal Klammer)
@@ -1288,9 +1288,8 @@ Einheit 1 · Lineares und exponentielles Wachstum unterscheiden
   1.8  begründen, warum die beiden anderen Graphen nicht passen
   1.9  Graph einer Abnahme (fallend, flacher werdend) erkennen
   1.10  Grenzen des Modells nennen (ein Bestand wächst nicht ewig)
-  1.11  Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)
-  1.12  Fehler finden (Tabelle als linear gelesen, weil der Prozentsatz gleich bleibt)
-  1.13  Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt)
+  1.11  Fehler finden (Tabelle als linear gelesen, weil der Prozentsatz gleich bleibt)
+  1.12  Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt)
 Einheit 2 · Wachstumsfaktor und Wachstumstabelle
   2.1  Prozentsatz in den Faktor umrechnen, Zunahme und Abnahme
   2.2  Faktor in den Prozentsatz zurück
@@ -1330,6 +1329,21 @@ Einheit 4 · Verdopplungs- und Halbwertszeit
   4.9  Logarithmus für den genauen Zeitpunkt (Vorrat)
   4.10  Fehler finden (die Zeit statt des Wertes verdoppelt; beim Ablesen die Achsen vertauscht)
   4.11  Begründen (warum es genügt, den doppelten Wert einmal zu suchen)
+Einheit 5 · Potenzfunktionen mit natürlichem Exponenten
+  5.1  Wertetabelle zu y = x³ ausfüllen (auch negative x)
+  5.2  Wertetabelle zu y = x⁴
+  5.3  Punkte eintragen und Graph zeichnen
+  5.4  Symmetrie am Exponenten erkennen (gerade: y-Achse, ungerade: Ursprung)
+  5.5  Öffnung und Breite an a erkennen
+  5.6  Funktionswert berechnen, auch negatives x (−2)³
+  5.7  Punktprobe
+  5.8  Argument zu gegebenem Wert (dritte Wurzel)
+  5.9  Gleichung unter vier Graphen zuordnen
+  5.10  Graph zu gegebener Gleichung ankreuzen
+  5.11  Sachaufgabe (Volumen eines Würfels aus der Kante, Kante aus dem Volumen)
+  5.12  Fehler finden (−x² gegen (−x)²; x³ als 3 · x)
+  5.13  Begründen (warum y = x⁴ nie negativ wird; warum y = x³ durch den dritten Quadranten geht)
+  5.14  Potenzfunktion vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten)
 
 ## trigonometrische-funktionen (Sek I)
 Einheit 1 · Einheitskreis und Bogenmaß
@@ -1410,11 +1424,15 @@ Einheit 1 · Häufigkeiten
   1.9  zwei Gruppen verschiedener Größe über relative Häufigkeiten vergleichen
   1.10  Fehler finden (absolute Zahl als relative Häufigkeit angegeben; durch die Zahl der anderen statt durch alle geteilt)
   1.11  Begründen (warum relative Häufigkeiten zwei Klassen vergleichbar machen)
-  1.12  Relative Häufigkeit berechnen (7; fhr – je Klasse oder Sorte, mit Häufigkeitsdiagramm als Nebentyp, Hochrechnung auf eine Gruppe) [=]
-  1.13  Relative Häufigkeit aus absoluten Häufigkeiten berechnen (1; aus der Restanzahl) [=]
-  1.14  Vierfeldertafel vervollständigen (1; fhr – absolute Anzahlen über Randsummen) [=]
-  1.15  Fehler finden (durch die Zahl der Werte statt durch die Gesamtzahl geteilt; beide Gruppen durch dieselbe Gesamtzahl; die Laplace-Wahrscheinlichkeit statt der beobachteten Häufigkeit) [didaktisch]
-  1.16  Begründen (warum sich bei größerer Stichprobe die absoluten, nicht die relativen Häufigkeiten ändern) [didaktisch]
+  1.12  Klassen zu einer Urliste bilden (gleich breit, Randregel)
+  1.13  Häufigkeitstabelle mit Klassen auszählen
+  1.14  Säulendiagramm der Klassen zeichnen
+  1.15  Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten)
+  1.16  Relative Häufigkeit berechnen (7; fhr – je Klasse oder Sorte, mit Häufigkeitsdiagramm als Nebentyp, Hochrechnung auf eine Gruppe) [=]
+  1.17  Relative Häufigkeit aus absoluten Häufigkeiten berechnen (1; aus der Restanzahl) [=]
+  1.18  Vierfeldertafel vervollständigen (1; fhr – absolute Anzahlen über Randsummen) [=]
+  1.19  Fehler finden (durch die Zahl der Werte statt durch die Gesamtzahl geteilt; beide Gruppen durch dieselbe Gesamtzahl; die Laplace-Wahrscheinlichkeit statt der beobachteten Häufigkeit) [didaktisch]
+  1.20  Begründen (warum sich bei größerer Stichprobe die absoluten, nicht die relativen Häufigkeiten ändern) [didaktisch]
 Einheit 2 · Säulen-, Balken- und Liniendiagramme
   2.1  Wert einer Säule an der Skala ablesen (Hilfslinien zählen)
   2.2  Achsenbeschriftung „in Tausend“, „in Mio.“, „in %“ anwenden
@@ -1482,6 +1500,16 @@ Einheit 6 · Kenngrößen aus Häufigkeitstabellen und Klassen (Sek II)
   6.5  Gewichtete Summe der Intervallgrenzen als Schranke des Mittelwerts deuten (1) [=]
   6.6  Fehler finden (die Werte ungewichtet gemittelt; mit den Klassengrenzen statt den Klassenmitten gerechnet; die Klasse mit der größten Anzahl als Medianklasse genannt; die Abweichungen ohne Quadrat addiert; die Wurzel vergessen; beide Gruppen gleich gewichtet) [didaktisch]
   6.7  Begründen (warum die Klassenmitte alle Werte einer Klasse vertritt und der Mittelwert aus Klassen deshalb ein Näherungswert ist; warum bei klassierten Daten nur die Medianklasse bestimmbar ist) [didaktisch]
+Einheit 7 · Vierfeldertafel (Sek I)
+  7.1  Tafel mit gegebenen Zahlen ausfüllen und Summen bilden
+  7.2  fehlendes Feld aus Zeilen- oder Spaltensumme berechnen
+  7.3  Tafel aus einem Text aufstellen (Merkmale benennen, Zahlen einordnen)
+  7.4  Anteil an allen als Bruch und in Prozent
+  7.5  Anteil innerhalb einer Zeile („von den 120 Mädchen“)
+  7.6  beide Anteile zu derselben Zelle unterscheiden
+  7.7  Aussage prüfen („mehr als die Hälfte der Brillenträger sind Jungen“)
+  7.8  Fehler finden (falsche Bezugsgröße)
+  7.9  Begründen (warum die Anteile einer Zeile zusammen eins ergeben)
 
 ## wahrscheinlichkeit (Sek I) – themen.csv: Wahrscheinlichkeit mehrstufig, Wahrscheinlichkeit einstufig, Zählen und Kombinatorik
 Einheit 1 · Zählen und Ergebnismengen

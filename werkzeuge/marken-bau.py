@@ -66,8 +66,9 @@ NICHT_MARKE = {
     'Sonderfälle': 'Wortanfang eines Inhaltstitels („Sonderfälle quadratischer Gleichungen“), keine Seitenart',
 }
 
-# Einheiten, die der Auftrag vor dem Lauf eingefügt hat (katalog/_marken-neue-einheiten.md) und die in den
-# Belegdateien noch fehlen; Prüfungswort bis zum nächsten Bau von _pruefungswort-belege.md aus Datei 3.
+# Einheiten, die der Auftrag vor dem Lauf eingefügt hat (katalog/_marken-neue-einheiten.md); Prüfungswort aus Datei 3,
+# solange _pruefungswort-belege.md sie nicht führt (seit dem Neubau im Auftrag Nacht 2026-09-27 führt sie beide –
+# der Eintrag greift dann nicht mehr).
 NEUE_EINHEITEN = {('potenz-exponentialfunktionen', 5): 'keine P10-Aufgabe', ('daten', 7): 'keine P10-Aufgabe'}
 
 # Gegenprobe des Auftrags (bekannte Werte); Abweichung wird gemeldet, nichts wird angepasst.
@@ -306,20 +307,24 @@ def pruefe_datei2(liste):
     for l in lies(DATEI2).splitlines():
         m = re.match(r'^\| ([a-z0-9-]+) \| (\d+) \| (.*?) \| (.*?) \| (.*?) \|$', l)
         if m:
-            faelle.append((m.group(1), int(m.group(2)), m.group(3)))
+            # Einheiten, unter denen die Stellen stehen dürfen: die des Falls und die, die die Entscheidung nennt
+            # („gelten für die neue Einheit 5“, „Typzeile an den neuen Klassen-Typen in Einheit 1“) – seit dem
+            # Auftrag Nacht 2026-09-27 stehen diese Stellen in den Belegen unter der neuen Einheit.
+            einheiten = {int(m.group(2))} | {int(x) for x in re.findall(r'Einheit (\d+)', m.group(4))}
+            faelle.append((m.group(1), einheiten, m.group(3)))
             anzahl += zahlwort.get(m.group(3).split()[0], 1)      # „sieben Stellen …“ sind sieben Fälle
 
     def passt(w, fall):
-        e, u, text = fall
+        e, einheiten, text = fall
         k = klasse(w['kl'])
-        return (w['eintrag'], w['nr']) == (e, u) and (f'{w["reihe"]} {k}' in text or f'{w["reihe"]} Kl. {k}' in text)
+        return w['eintrag'] == e and w['nr'] in einheiten and (f'{w["reihe"]} {k}' in text or f'{w["reihe"]} Kl. {k}' in text)
 
     d2 = [w for w in liste if w['quelle'] == 'Datei 2']
     for fall in faelle:
         stellen = {(w['reihe'], w['kl'], w['zitat']) for w in d2 if passt(w, fall)}
         soll = zahlwort.get(fall[2].split()[0], 1)
         if len(stellen) < soll:
-            FEHLER.append(f'Datei 2: Fall mit {len(stellen)} statt {soll} Stellen in der Stellenliste: {fall[0]} {fall[1]} {fall[2]}')
+            FEHLER.append(f'Datei 2: Fall mit {len(stellen)} statt {soll} Stellen in der Stellenliste: {fall[0]} {"/".join(map(str, sorted(fall[1])))} {fall[2]}')
     for w in d2:
         if not any(passt(w, fall) for fall in faelle):
             FEHLER.append(f'marken-bau-stellen.txt Z. {w["zeile"]}: Quelle „Datei 2“, aber kein Fall dort')

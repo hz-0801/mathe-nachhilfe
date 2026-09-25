@@ -6,7 +6,7 @@ Lesart (Einzelheiten im Skriptkopf): Die P10-Typen einer Einheit sind die der Zu
 
 ## Zahlenblock
 
-- Sek I: 29 Einträge, 114 Lerneinheiten (ohne Sek-II-Einheiten), 1308 Typen; Einheiten mit P10-Typ 93, ohne P10-Typ 21; Typen mit P10-Typ 651, ohne 657 (davon 196 nur mit P10-Typen fremder Themen, zählen nicht).
+- Sek I: 29 Einträge, 116 Lerneinheiten (ohne Sek-II-Einheiten), 1334 Typen; Einheiten mit P10-Typ 93, ohne P10-Typ 23; Typen mit P10-Typ 650, ohne 684 (davon 196 nur mit P10-Typen fremder Themen, zählen nicht).
 - Sek II: 47 Einträge mit Sek-II-Typen (davon 3 Sek-I-Einträge mit Sek-II-Teil), 162 Einheiten.
 
 ## Verteilung für die Schwelle „oft“ – Sek-I-Einheiten
@@ -77,7 +77,7 @@ Sortiert nach P10-Jahrgängen (Haupt oder Neben), dann nach Summe ertrag.
 | terme | 2 · Terme zusammenfassen | 5 | 5 | 4 | 5 |
 | kreis | 1 · Kreisumfang | 5 | 2 | 2 | 4 |
 | lineare-gleichungen | 2 · Äquivalenzumformungen | 5 | 3 | 1 | 3 |
-| lineare-gleichungen | 3 · Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen. (Kl. 8) | 5 | 3 | 1 | 3 |
+| lineare-gleichungen | 3 · Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen. | 5 | 3 | 1 | 3 |
 | quadratische-gleichungen | 2 · Satz vom Nullprodukt | 4 | 3 | 2 | 10 |
 | daten | 1 · Häufigkeiten | 4 | 4 | 5 | 9 |
 | einheiten | 1 · Länge, Masse, Geld | 4 | 4 | 4 | 8 |
@@ -113,8 +113,10 @@ Sortiert nach P10-Jahrgängen (Haupt oder Neben), dann nach Summe ertrag.
 | bruchrechnung | 3 · Brüche multiplizieren und dividieren | 0 | 0 | 0 | 0 |
 | bruchrechnung | 4 · Dezimalzahlen multiplizieren und dividieren | 0 | 0 | 0 | 0 |
 | bruchrechnung | 5 · Rechengesetze und Punkt vor Strich | 0 | 0 | 0 | 0 |
+| daten | 7 · Vierfeldertafel (Sek I) | 0 | 0 | 0 | 0 |
 | flaechen | 2 · Parallelogramm | 0 | 0 | 0 | 0 |
 | lineare-gleichungssysteme | 3 · Additionsverfahren | 0 | 0 | 0 | 0 |
+| potenz-exponentialfunktionen | 5 · Potenzfunktionen mit natürlichem Exponenten | 0 | 0 | 0 | 0 |
 | pyramide-kegel-kugel | 1 · Pyramide | 0 | 0 | 1 | 0 |
 | quadratische-gleichungen | 4 · Sachaufgaben | 0 | 0 | 0 | 0 |
 | reelle-zahlen | 1 · Irrationale Zahlen und Zahlbereiche | 0 | 0 | 0 | 0 |
@@ -147,11 +149,11 @@ Zahl der Einheiten je Wert:
 | 3 | 9 | 14 |
 | 2 | 4 | 6 |
 | 1 | 6 | 8 |
-| 0 | 23 | 23 |
+| 0 | 25 | 25 |
 
 ## Verteilung für die Schwelle „oft“ – Sek-I-Typen
 
-Sortiert nach P10-Jahrgängen; aufgeführt die 651 Typen mit P10-Typ, die übrigen 657 zählen unten unter 0.
+Sortiert nach P10-Jahrgängen; aufgeführt die 650 Typen mit P10-Typ, die übrigen 684 zählen unten unter 0.
 
 | Eintrag | Typ | P10-Jahrgänge | davon Haupt | P10-Typen |
 |---|---|---|---|---|
@@ -425,7 +427,6 @@ Sortiert nach P10-Jahrgängen; aufgeführt die 651 Typen mit P10-Typ, die übrig
 | winkel-dreiecke | 2.3 drei Geraden durch einen Punkt (Teilwinkel, Scheitelwinkel minus Teil) | 4 | 3 | Winkel über Scheitel- oder Nebenwinkel bestimmen · Winkel aus Teilwinkeln berechnen |
 | daten | 3.8 Sektoren nach Größe den Angaben zuordnen | 4 | 2 | Sektor im Kreisdiagramm zuordnen |
 | daten | 3.9 Anteil aus einem Sektor schätzen (Viertel, Drittel, Hälfte) | 4 | 2 | Sektor im Kreisdiagramm zuordnen |
-| potenz-exponentialfunktionen | 1.11 Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) | 4 | 2 | Exponentialfunktion aufstellen |
 | potenz-exponentialfunktionen | 3.1 Anfangswert und Faktor im Text finden | 4 | 2 | Exponentialfunktion aufstellen |
 | potenz-exponentialfunktionen | 3.2 Gleichung y = a · qˣ aufstellen (Zunahme und Abnahme) | 4 | 2 | Exponentialfunktion aufstellen |
 | potenz-exponentialfunktionen | 3.3 passende Gleichung unter vier Vorschlägen ankreuzen | 4 | 2 | Exponentialfunktion aufstellen |
@@ -552,7 +553,7 @@ Sortiert nach P10-Jahrgängen; aufgeführt die 651 Typen mit P10-Typ, die übrig
 | lineare-gleichungen | 4.1 Zahlenrätsel | 2 | 2 | Lineare Gleichung aus Sachverhalt aufstellen |
 | lineare-gleichungen | 4.2 Alter, Geld, Verteilung | 2 | 2 | Lineare Gleichung aus Sachverhalt aufstellen |
 | lineare-gleichungen | 4.6 Deutung der Lösung im Kontext | 2 | 2 | Lineare Gleichung aus Sachverhalt aufstellen |
-| potenz-exponentialfunktionen | 1.13 Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt) | 2 | 2 | Wachstumsart begründen |
+| potenz-exponentialfunktionen | 1.12 Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt) | 2 | 2 | Wachstumsart begründen |
 | potenz-exponentialfunktionen | 1.2 Wachstumsart begründen: gleicher Prozentsatz vom jeweils vorigen Wert bedeutet gleicher Faktor, die Zuwächse in Euro oder Kilogramm werden größer (bei Abnahme kleiner) | 2 | 2 | Wachstumsart begründen |
 | potenz-exponentialfunktionen | 1.3 dieselbe Entscheidung aus einem Text ohne Tabelle | 2 | 2 | Wachstumsart begründen |
 | potenz-exponentialfunktionen | 1.7 Graph zu einem Wachstumsprozess auswählen: Startwert auf der y-Achse gegen Beginn im Ursprung, Gerade gegen gekrümmte Kurve | 2 | 2 | Graph zu Wachstumsprozess zuordnen |
@@ -820,11 +821,11 @@ Zahl der Typen je Wert:
 | 7 | 22 | 45 |
 | 6 | 34 | 19 |
 | 5 | 87 | 60 |
-| 4 | 56 | 30 |
+| 4 | 55 | 30 |
 | 3 | 80 | 98 |
-| 2 | 95 | 126 |
+| 2 | 95 | 125 |
 | 1 | 145 | 169 |
-| 0 | 703 | 712 |
+| 0 | 730 | 739 |
 
 ## Sek-I-Einheiten ohne P10-Typ („keine P10-Aufgabe“)
 
@@ -845,10 +846,12 @@ Zahl der Typen je Wert:
 - binomische-formeln, Einheit 1 · Summe mal Summe – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
 - binomische-formeln, Einheit 3 · Faktorisieren – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
 - quadratische-gleichungen, Einheit 4 · Sachaufgaben
+- potenz-exponentialfunktionen, Einheit 5 · Potenzfunktionen mit natürlichem Exponenten
 - trigonometrische-funktionen, Einheit 1 · Einheitskreis und Bogenmaß – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
 - trigonometrische-funktionen, Einheit 2 · Sinus- und Kosinusfunktion und ihre Merkmale – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
 - trigonometrische-funktionen, Einheit 3 · Parameter und Transformationen – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
 - trigonometrische-funktionen, Einheit 4 · Periodische Vorgänge modellieren – themen.csv: „kein Prüfungsthema; Aufgaben in anderen Themen oder nicht geprüft“
+- daten, Einheit 7 · Vierfeldertafel (Sek I)
 
 ## Sek I je Eintrag
 
@@ -2418,7 +2421,7 @@ themen.csv: „Lineare Gleichungen“.
 - 2.8 Begründen (warum darf man auf beiden Seiten …) → kein P10-Typ
 - 2.9 Gleichung mit Lösungsvorgabe aufstellen (Umkehrung) → kein P10-Typ
 
-**Einheit 3 · Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen. (Kl. 8)** – P10-Jahrgänge 5 von 13 (davon Haupt 3); P10-Typen 1; Summe ertrag 3.
+**Einheit 3 · Gleichungen mit x auf beiden Seiten, Klammern, Brüchen und Dezimalzahlen; Sonderfälle keine/alle Lösungen.** – P10-Jahrgänge 5 von 13 (davon Haupt 3); P10-Typen 1; Summe ertrag 3.
 
 | P10-Typ | ertrag | jahre_haupt | jahre_gesamt | erster | letzter | basis | kontext | Vermerk |
 |---|---|---|---|---|---|---|---|---|
@@ -2891,9 +2894,8 @@ P10-Typen der Themen ohne Einheit in diesem Eintrag: „Wertebereich einer Funkt
 - 1.8 begründen, warum die beiden anderen Graphen nicht passen → „Graph zu Wachstumsprozess zuordnen“ – P10-Jahrgänge 2 (Haupt 2). Außerhalb der Themen des Eintrags (zählt nicht): „Eigenschaften eines Graphen beurteilen“. Grund: Definition „… und die anderen ausschließen“; die Begründung je Graph tragen 2019-OS-K7c und 2026-FOR-K7b als Nebentyp „Eigenschaften eines Graphen beurteilen“.
 - 1.9 Graph einer Abnahme (fallend, flacher werdend) erkennen → „Graph zu Wachstumsprozess zuordnen“ – P10-Jahrgänge 2 (Haupt 2). Grund: Definition „zu einem linearen oder exponentiellen Sachverhalt“ schließt die Abnahme ein; beide Originale (2019-OS-K7c, 2026-FOR-K7b) zeigen Zunahmen.
 - 1.10 Grenzen des Modells nennen (ein Bestand wächst nicht ewig) → kein P10-Typ
-- 1.11 Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat) → „Exponentialfunktion aufstellen“ – P10-Jahrgänge 4 (Haupt 2). Grund: Erste Hälfte von „Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden“; 2017-OS-K7c verlangt, den Vorschlag y = x^1,13 als Potenzfunktion auszuschließen. 2017-OS-K7c: unter vier Gleichungen steht y = x^1,13 neben y = 1000 · 0,87^x; die richtige Wahl setzt die Unterscheidung Basis gegen Exponent voraus.
-- 1.12 Fehler finden (Tabelle als linear gelesen, weil der Prozentsatz gleich bleibt) → kein P10-Typ
-- 1.13 Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt) → „Wachstumsart begründen“ – P10-Jahrgänge 2 (Haupt 2). Grund: 2018-OS-K2b verlangt genau diese Begründung: gleicher Prozentsatz vom jeweils vorigen Wert, die absoluten Zuwächse werden größer.
+- 1.11 Fehler finden (Tabelle als linear gelesen, weil der Prozentsatz gleich bleibt) → kein P10-Typ
+- 1.12 Begründen (warum „jedes Jahr gleich viel Prozent“ nicht „jedes Jahr gleich viel Euro“ heißt) → „Wachstumsart begründen“ – P10-Jahrgänge 2 (Haupt 2). Grund: 2018-OS-K2b verlangt genau diese Begründung: gleicher Prozentsatz vom jeweils vorigen Wert, die absoluten Zuwächse werden größer.
 
 **Einheit 2 · Wachstumsfaktor und Wachstumstabelle** – P10-Jahrgänge 7 von 13 (davon Haupt 7); P10-Typen 4; Summe ertrag 23.
 
@@ -2960,6 +2962,23 @@ P10-Typen der Themen ohne Einheit in diesem Eintrag: „Wertebereich einer Funkt
 - 4.9 Logarithmus für den genauen Zeitpunkt (Vorrat) → „Zeit aus Exponentialgleichung berechnen“ · „Aussage zu Logarithmusterm prüfen“ · „Gleichungskette im Sachzusammenhang erläutern“ – P10-Jahrgänge 0 (Haupt 0). Grund: GYM-Typen: Definition „den Exponenten t durch Logarithmieren berechnen“ (2014-GYM-K4c, 2018-GYM-K2b); derselbe Schritt in 2025-GYM-K3c (x = log₂ 10) und 2024-GYM-K4c (x = log₂,₅ 2500 erläutern).
 - 4.10 Fehler finden (die Zeit statt des Wertes verdoppelt; beim Ablesen die Achsen vertauscht) → kein P10-Typ
 - 4.11 Begründen (warum es genügt, den doppelten Wert einmal zu suchen) → kein P10-Typ
+
+**Einheit 5 · Potenzfunktionen mit natürlichem Exponenten** – P10-Jahrgänge 0 von 13 (davon Haupt 0); P10-Typen 0; Summe ertrag 0 – keine P10-Aufgabe.
+
+- 5.1 Wertetabelle zu y = x³ ausfüllen (auch negative x) → kein P10-Typ
+- 5.2 Wertetabelle zu y = x⁴ → kein P10-Typ
+- 5.3 Punkte eintragen und Graph zeichnen → kein P10-Typ
+- 5.4 Symmetrie am Exponenten erkennen (gerade: y-Achse, ungerade: Ursprung) → kein P10-Typ
+- 5.5 Öffnung und Breite an a erkennen → kein P10-Typ
+- 5.6 Funktionswert berechnen, auch negatives x (−2)³ → kein P10-Typ
+- 5.7 Punktprobe → kein P10-Typ
+- 5.8 Argument zu gegebenem Wert (dritte Wurzel) → kein P10-Typ
+- 5.9 Gleichung unter vier Graphen zuordnen → kein P10-Typ
+- 5.10 Graph zu gegebener Gleichung ankreuzen → kein P10-Typ
+- 5.11 Sachaufgabe (Volumen eines Würfels aus der Kante, Kante aus dem Volumen) → kein P10-Typ
+- 5.12 Fehler finden (−x² gegen (−x)²; x³ als 3 · x) → kein P10-Typ
+- 5.13 Begründen (warum y = x⁴ nie negativ wird; warum y = x³ durch den dritten Quadranten geht) → kein P10-Typ
+- 5.14 Potenzfunktion vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten) → kein P10-Typ
 
 ### trigonometrische-funktionen
 
@@ -3063,6 +3082,10 @@ P10-Typen der Themen ohne Einheit in diesem Eintrag: „Fehlenden Wert aus Spann
 - 1.9 zwei Gruppen verschiedener Größe über relative Häufigkeiten vergleichen → kein P10-Typ
 - 1.10 Fehler finden (absolute Zahl als relative Häufigkeit angegeben; durch die Zahl der anderen statt durch alle geteilt) → kein P10-Typ
 - 1.11 Begründen (warum relative Häufigkeiten zwei Klassen vergleichbar machen) → kein P10-Typ
+- 1.12 Klassen zu einer Urliste bilden (gleich breit, Randregel) → kein P10-Typ
+- 1.13 Häufigkeitstabelle mit Klassen auszählen → kein P10-Typ
+- 1.14 Säulendiagramm der Klassen zeichnen → kein P10-Typ
+- 1.15 Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten) → kein P10-Typ
 
 **Einheit 2 · Säulen-, Balken- und Liniendiagramme** – P10-Jahrgänge 11 von 13 (davon Haupt 11); P10-Typen 7; Summe ertrag 43.
 
@@ -3158,6 +3181,18 @@ P10-Typen der Themen ohne Einheit in diesem Eintrag: „Fehlenden Wert aus Spann
 - 5.11 zwei Boxplots vergleichen (Vorrat) → kein P10-Typ
 - 5.12 Fehler finden (Verdopplung der Säulenhöhe als Verdopplung des Werts; nur „die Säulen sind verschieden hoch“ ohne die Achse) → „Verzerrung eines Diagramms erklären“ – P10-Jahrgänge 3 (Haupt 2). Grund: Der P10-Typ verlangt genau diese Fehleranalyse: 2026-FOR-K3e erklärt Fabios Schluss von der verdoppelten Säulenhöhe auf den verdoppelten Preis, und die Fehlerquelle von 2014-OS-K3d ist die Antwort „die Säulen sind unterschiedlich hoch“ ohne Bezug zur Achse.
 - 5.13 Begründen (warum die Achse bei 0 beginnen sollte) → „Verzerrung eines Diagramms erklären“ – P10-Jahrgänge 3 (Haupt 2). Grund: Definition „Erklären, warum ein Diagramm (abgeschnittene Achse, Skalierung) einen falschen Eindruck erzeugt“ ist dieselbe Begründung am konkreten Diagramm (2014-OS-K3d, 2026-FOR-K3e).
+
+**Einheit 7 · Vierfeldertafel (Sek I)** – P10-Jahrgänge 0 von 13 (davon Haupt 0); P10-Typen 0; Summe ertrag 0 – keine P10-Aufgabe.
+
+- 7.1 Tafel mit gegebenen Zahlen ausfüllen und Summen bilden → kein P10-Typ
+- 7.2 fehlendes Feld aus Zeilen- oder Spaltensumme berechnen → kein P10-Typ
+- 7.3 Tafel aus einem Text aufstellen (Merkmale benennen, Zahlen einordnen) → kein P10-Typ
+- 7.4 Anteil an allen als Bruch und in Prozent → kein P10-Typ
+- 7.5 Anteil innerhalb einer Zeile („von den 120 Mädchen“) → kein P10-Typ
+- 7.6 beide Anteile zu derselben Zelle unterscheiden → kein P10-Typ
+- 7.7 Aussage prüfen („mehr als die Hälfte der Brillenträger sind Jungen“) → kein P10-Typ
+- 7.8 Fehler finden (falsche Bezugsgröße) → kein P10-Typ
+- 7.9 Begründen (warum die Anteile einer Zeile zusammen eins ergeben) → kein P10-Typ
 
 ### wahrscheinlichkeit
 
@@ -5499,11 +5534,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 1 · Häufigkeiten** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 7 von 8 (Haupt 6).
 
-- 1.12 Relative Häufigkeit berechnen (7; fhr – je Klasse oder Sorte, mit Häufigkeitsdiagramm als Nebentyp, Hochrechnung auf eine Gruppe) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2022, 2024, 2025, 2026), Haupt 5
-- 1.13 Relative Häufigkeit aus absoluten Häufigkeiten berechnen (1; aus der Restanzahl) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.14 Vierfeldertafel vervollständigen (1; fhr – absolute Anzahlen über Randsummen) → wortgleich; GK 0 · LK 0 · FHR 3 (2023, 2024, 2026), Haupt 3
-- 1.15 Fehler finden (durch die Zahl der Werte statt durch die Gesamtzahl geteilt; beide Gruppen durch dieselbe Gesamtzahl; die Laplace-Wahrscheinlichkeit statt der beobachteten Häufigkeit) → didaktischer Typ, kein Prüfungstyp
-- 1.16 Begründen (warum sich bei größerer Stichprobe die absoluten, nicht die relativen Häufigkeiten ändern) → didaktischer Typ, kein Prüfungstyp
+- 1.16 Relative Häufigkeit berechnen (7; fhr – je Klasse oder Sorte, mit Häufigkeitsdiagramm als Nebentyp, Hochrechnung auf eine Gruppe) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2022, 2024, 2025, 2026), Haupt 5
+- 1.17 Relative Häufigkeit aus absoluten Häufigkeiten berechnen (1; aus der Restanzahl) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.18 Vierfeldertafel vervollständigen (1; fhr – absolute Anzahlen über Randsummen) → wortgleich; GK 0 · LK 0 · FHR 3 (2023, 2024, 2026), Haupt 3
+- 1.19 Fehler finden (durch die Zahl der Werte statt durch die Gesamtzahl geteilt; beide Gruppen durch dieselbe Gesamtzahl; die Laplace-Wahrscheinlichkeit statt der beobachteten Häufigkeit) → didaktischer Typ, kein Prüfungstyp
+- 1.20 Begründen (warum sich bei größerer Stichprobe die absoluten, nicht die relativen Häufigkeiten ändern) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Kenngrößen** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 7 von 8 (Haupt 7).
 

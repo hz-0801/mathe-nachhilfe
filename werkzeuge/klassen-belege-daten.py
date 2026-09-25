@@ -4,9 +4,14 @@ R(einheit, reihe, klasse, zeile(n), seite, typ=…, marke=…, erm=…, z=[zeile
 Lerneinheit (Kürzel wie „lf4“ = lineare-funktionen Einheit 4) eine Verzeichniszeile zu; E(einheit, text) ist ein
 Ermessen für die ganze Einheit, K(einheit, reihe, grund) ein eigener Grund für „keine Stelle“. Das Segment muss in
 der Klasse der Reihe genau einmal vorkommen (sonst Zeilenhinweis z), ein typ wortgleich in der Typenliste
-werkzeuge/klassen-belege-typen.txt stehen. Stand 2026-09-25 (Auftrag Nacht, Teil 2)."""
+werkzeuge/klassen-belege-typen.txt stehen. Stand 2026-09-25 (Auftrag Nacht, Teil 2); 2026-09-27 (Auftrag Nacht, Teil 1):
+Potenzfunktionen-Stellen nach potenz-exponentialfunktionen Einheit 5, Vierfeldertafel-Stellen nach daten Einheit 7,
+Klasseneinteilungs-Stellen als Typzeilen an den Klassen-Typen von daten Einheit 1 (katalog/_marken-neue-einheiten.md)."""
 
 # ==== Abschnitt: edm ====
+# Klassen-Typen von daten Einheit 1 (katalog/_marken-neue-einheiten.md): Klasseneinteilungs-Stellen werden Typzeile an allen vier
+KLASSEN = ['Klassen zu einer Urliste bilden (gleich breit, Randregel)', 'Häufigkeitstabelle mit Klassen auszählen',
+           'Säulendiagramm der Klassen zeichnen', 'Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten)']
 # Elemente der Mathematik SI, BE/BB: Ausgabe 2016 (Kl. 7-10), Ausgabe 2025 (Kl. 5-7); Seiten Kl. 7/2016 aus dem Seitenbild
 S = 'EDM'
 # ----- Ausgabe 2025, Kl. 5 -----
@@ -155,7 +160,7 @@ R('ko4', S, K, '8.7 Volumen eines Zylinders', 190)
 R('da2', S, K, '9.1 Daten darstellen', 200)
 R('da5', S, K, '9.2 Wirkung von Diagrammen', 204)
 R('da4', S, K, '9.3 Mittelwerte', 206)
-R('da6', S, K, '9.4 Klasseneinteilung von Stichproben', 210)
+R('da1', S, K, '9.4 Klasseneinteilung von Stichproben', 210, typ=KLASSEN)
 R('da5', S, K, '9.5 Boxplots lesen und erstellen', 212, typ=['Boxplot lesen (Median, Quartile, Spannweite, Box)', 'Boxplot zeichnen (Vorrat)'])
 
 # ----- Ausgabe 2016, Kl. 7 -----
@@ -182,7 +187,7 @@ R('zi2', S, K, '2.6.2 Zinsen für mehrere Jahre', 74, erm='„Zinsen für mehrer
 R('da1', S, K, '3.1 Absolute und relative Häufigkeiten und deren Darstellung', 81)
 R('da2', S, K, '3.1 Absolute und relative Häufigkeiten und deren Darstellung', 81)
 R('da5', S, K, 'Bildliche D a rs te llu n g', 90, erm='Zeile verstümmelt; laut Seitenbild „3.2 Bildliche Darstellung von Daten und ihre Wirkungen“.')
-R('da6', S, K, '3.3 Klasseneinteilung bei Stichproben', 94)
+R('da1', S, K, '3.3 Klasseneinteilung bei Stichproben', 94, typ=KLASSEN)
 R('da4', S, K, 'Arithmetisches M itte l-M d a lw e rt-S p a n n w e ite', 97)
 R('da4', S, K, '3.5 Median', 102)
 R('da1', S, K, 'Durchführen einer statistischen Erhebung', 106)
@@ -315,7 +320,7 @@ R('re3', S, K, '5.2.2 Potenzen mit rationalen Exponenten', 181)
 R('re2', S, K, '5.3 Potenzgesetze und ihre Anwendung', 187)
 R('re2', S, K, '5.3.1 Multiplizieren und Potenzieren von Potenzen', 187)
 R('re2', S, K, '5.3.2 Zum Selbstlernen Dividieren von Potenzen', 195, typ='Quotient gleicher Basen: Exponenten subtrahieren (5⁶ : 5² = 5⁴; 3² : 3² = 3⁰ = 1; 2³ : 2⁵ = 2⁻²)')
-R('pe1', S, K, '5.4.1 Potenzfunktionen mit natürlichen Exponenten', 200, typ='Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', erm='Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.')
+R('pe5', S, K, '5.4.1 Potenzfunktionen mit natürlichen Exponenten', 200)
 # ----- Ausgabe 2016, Kl. 10 -----
 K = '2016-10'
 R('tf4', S, K, '1.1 Periodische Vorgänge', 11)
@@ -346,6 +351,9 @@ R('wa4', S, K, '4.3 Ziehen mit und ohne Zurücklegen', 149)
 R('wa1', S, K, '4.4.1 Anzahl der Möglichkeiten beim Ziehen mit einem Griff', 156, erm='Anzahl der Möglichkeiten beim Ziehen mit einem Griff als Zählen (Einheit 1) gelesen.')
 
 # ==== Abschnitt: fdm ====
+# Klassen-Typen von daten Einheit 1 (katalog/_marken-neue-einheiten.md): Klasseneinteilungs-Stellen werden Typzeile an allen vier
+KLASSEN = ['Klassen zu einer Urliste bilden (gleich breit, Randregel)', 'Häufigkeitstabelle mit Klassen auszählen',
+           'Säulendiagramm der Klassen zeichnen', 'Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten)']
 # Fundamente der Mathematik, Ausgabe B ab 2024 (Kl. 5-10) und Vorgängerausgabe B ab 2017 (Kl. 7-10)
 S = 'FDM'
 W6 = 'Wiederholung|Kapitel „Brüche und Dezimalzahlen (Wiederholung aus Klasse 5)“'
@@ -428,7 +436,7 @@ R('wd3', S, 6, '5.6 Symmetrische Dreiecke', 155, typ='gleichschenklig: Basiswink
 R('sy2', S, 6, '5.7 Symmetrische Vierecke', 159, typ='Symmetrie der Vierecksarten im Haus der Vierecke zuordnen')
 R('da1', S, 6, '6.1 Absolute und relative Häufigkeit', 170)
 R('da3', S, 6, '6.2 Kreisdiagramme', 174)
-R('da6', S, 6, '6.3 Klasseneinteilung', 178, erm='Klasseneinteilung gehört im Katalog zur Sek-II-Einheit 6; Fundamente führt sie schon in Kl. 6.')
+R('da1', S, 6, '6.3 Klasseneinteilung', 178, typ=KLASSEN)
 R('da4', S, 6, '6.4 Kennwerte', 180)
 R('da5', S, 6, 'Streifzug: Wirkung vonDiagrammen', 188)
 # ----- Kl. 7 -----
@@ -475,7 +483,7 @@ R('fl4', S, 7, '6.4 Flächeninhalt von Trapez und Drachenviereck', 208)
 R('fl5', S, 7, 'Streifzug: Flächeninhalt beliebiger Figuren', 212)
 R('da1', S, 7, '7.1 Absolute und relative Häufigkeit', 222)
 R('da2', S, 7, '7.2 Diagramme', 226)
-R('da6', S, 7, '7.3 Klasseneinteilung und Histogramme', 230)
+R('da1', S, 7, '7.3 Klasseneinteilung und Histogramme', 230, typ=KLASSEN)
 R('da4', S, 7, '7.4 Kennwerte', 234)
 R('da5', S, 7, '7.6 Boxplots', 242, typ='Boxplot lesen (Median, Quartile, Spannweite, Box)')
 R('da1', S, 7, '7.7 Statistische Erhebungen', 246)
@@ -577,9 +585,9 @@ R('tr4', S, 9, '5.4 Sinussatz', 181, typ='Sinussatz aufstellen (Seite durch Sinu
 R('tf1', S, 9, 'Streifzug: Sinus und Kosinus für beliebige Winkel', 184, erm='Sinus und Kosinus für beliebige Winkel als Einheitskreis (Einheit 1) gelesen.')
 R('tr4', S, 9, '5.5 Kosinussatz', 186, typ='Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G)')
 R('tr3', S, 9, '5.6 Flächeninhaltsformeln', 190, typ='Höhe im beliebigen Dreieck aus Seite und Winkel, dann Fläche (Typ in flaechen.md)', erm='Trigonometrische Flächeninhaltsformeln als Fläche über die Höhe aus Seite und Winkel gelesen.')
-R('pe1', S, 9, '6.2 Potenzfunktionen mit natürlichen Exponenten', 204, typ='Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', erm='Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.')
+R('pe5', S, 9, '6.2 Potenzfunktionen mit natürlichen Exponenten', 204)
 # ----- Kl. 10 -----
-R('pe1', S, 10, '1.2 Potenzfunktionen mit natürlichen Exponenten', 10, marke=W10)
+R('pe5', S, 10, '1.2 Potenzfunktionen mit natürlichen Exponenten', 10, marke=W10)
 R('pe1', S, 10, '2.1 Exponentielles Wachstum', 44)
 R('pe2', S, 10, '2.1 Exponentielles Wachstum', 44, erm='„Exponentielles Wachstum“ umfasst Wachstumsart und Wachstumsfaktor; Einheiten 1 und 2 zugeordnet.')
 R('pe3', S, 10, '2.2 Exponentialfunktion', 49)
@@ -592,6 +600,7 @@ R('tf3', S, 10, '3.4 Strecken und Stauchen der Sinuskurve', 89)
 R('tf3', S, 10, '3.5 Allgemeine Sinusfunktion', 92)
 R('tf4', S, 10, '3.6 Periodische Vorgänge modellieren', 100)
 R('da6', S, 10, '4.1 Häufigkeitsverteilungen', 112, erm='Häufigkeitsverteilungen (Kl. 10) als Kenngrößen aus Häufigkeitstabellen (Sek-II-Einheit 6) gelesen.')
+R('da1', S, 10, '4.1 Häufigkeitsverteilungen', 112, typ=KLASSEN, erm='Häufigkeitsverteilungen (Kl. 10) auch als Klasseneinteilung gelesen: Typzeile an den Klassen-Typen von Einheit 1 (katalog/_marken-entscheidungen.md).')
 R('da4', S, 10, '4.2 Lagemaße und Streumaße', 115)
 R('da6', S, 10, '4.2 Lagemaße und Streumaße', 115, erm='Streumaße umfassen die Standardabweichung (Sek-II-Einheit 6); Einheiten 4 und 6 zugeordnet.')
 R('da5', S, 10, '4.3 Fehler und Manipulationen in der Statistik', 119)
@@ -599,7 +608,7 @@ R('wa3', S, 10, '5.1 Wiederholung: Mehrstufige Zufallsexperimente', 132)
 R('wa3', S, 10, '5.2 Sinnvoller Umgang mit Baumdiagrammen', 137)
 R('wa4', S, 10, '5.3 Urnenmodell-Ziehen mit und ohne Zurücklegen', 142, typ='Vergleich mit Zurücklegen (Behauptung „doppelt so hoch“)')
 R('wa1', S, 10, '5.4 Urnenmodell-Ziehen ohne Beachtung der Reihenfolge', 146, erm='Ziehen ohne Beachtung der Reihenfolge als Kombinatorik (Zählen, Einheit 1) gelesen.')
-R('da1', S, 10, '5.6 Vierfeldertafeln', 156, erm='Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.')
+R('da7', S, 10, '5.6 Vierfeldertafeln', 156)
 
 # ===== Fundamente 2017 (Vorgänger, Kl. 7-10) =====
 S = 'FDM17'
@@ -645,7 +654,7 @@ R('st2', S, 7, '6.4 Ähnliche Figuren', 198)
 R('st2', S, 7, '6.5 Umfang und Flächeninhalt ähnlicher Figuren', 202)
 R('da1', S, 7, '7.1 Absolute und relative Häufigkeit', 212)
 R('da2', S, 7, '7.2 Diagramme', 216)
-R('da6', S, 7, '7.3 Klasseneinteilung', 220)
+R('da1', S, 7, '7.3 Klasseneinteilung', 220, typ=KLASSEN)
 R('da4', S, 7, '7.4 Kennwerte', 222)
 R('da5', S, 7, '7.6 Boxplots', 234)
 R('da1', S, 7, '7.7 Statistische Erhebungen', 238)
@@ -709,7 +718,7 @@ R('py1', S, 9, '3.1 Der Satz des Pythagoras', 102)
 R('py3', S, 9, '3.2 Längen berechnen in Figuren und Körpern', 106)
 R('py2', S, 9, '3.3 Die Umkehrung des Satzes des Pythagoras', 110)
 R('da2', S, 9, '4.1 Häufigkeitsverteilungen darstellen', 128)
-R('da6', S, 9, '4.2 Klasseneinteilung von Daten und H is to g ra m m e', 131)
+R('da1', S, 9, '4.2 Klasseneinteilung von Daten und H is to g ra m m e', 131, typ=KLASSEN)
 R('da4', S, 9, '4.3 Lagemaße und Streumaße ermitteln', 134)
 R('da5', S, 9, '4.4 Darstellungen interpretieren', 140)
 R('pk1', S, 9, '5.1 Pyramide - Netz und O b erfläch en in h alt', 158)
@@ -719,7 +728,7 @@ R('pk2', S, 9, '5.4 Volumen eines K egels', 171)
 R('pk3', S, 9, '5.5 Volumen einer Kugel', 175)
 R('pk3', S, 9, '5.6 Oberflächeninhalt einer Kugel', 178)
 R('ko5', S, 9, '5.7 Zusammengesetzte Körper', 182)
-R('pe1', S, 9, '6.1 Potenzfunktionen mit natürlichen Exponenten', 194)
+R('pe5', S, 9, '6.1 Potenzfunktionen mit natürlichen Exponenten', 194)
 R('tr1', S, 10, '1.1 Sinus und Kosinus', 8)
 R('tr1', S, 10, '1.2 Tangens', 13)
 R('tr2', S, 10, '1.3 Berechnungen an rechtwinkligen Dreiecken', 19)
@@ -1303,7 +1312,7 @@ r('re2', 9, K3, '3 Potenzen mit gleicher Basis', typ='Produkt gleicher Basen als
 r('re2', 9, K3, '4 Potenzen mit gleichen Exponenten', typ='gleicher Exponent: Basen multiplizieren (2⁵ · 3⁵ = 6⁵) oder dividieren (10⁴ : 5⁴ = 2⁴)')
 r('re2', 9, K3, '5 Potenzieren von Potenzen', typ='Potenz einer Potenz: Exponenten multiplizieren ((3²)⁴ = 3⁸)')
 r('re3', 9, K3, '6 Potenzen mit rationalen Exponenten', typ='Wurzel als Potenz mit Exponent 1/2 (√a = a^(1/2)), Taschenrechner mit Klammer (8^(1/3))')
-r('pe1', 9, K3, '7 Potenzfunktionen mit natürlichen Exponenten', typ='Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', erm='Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.')
+r('pe5', 9, K3, '7 Potenzfunktionen mit natürlichen Exponenten')
 K4 = 'Kapitel IV Ähnlichkeit'
 r('st2', 9, K4, '1 Zentrische Streckung')
 r('st2', 9, K4, '2 Ähnlichkeit')
@@ -1320,7 +1329,7 @@ r('da5', 9, K6, '3 Boxplots', typ='Boxplot lesen (Median, Quartile, Spannweite, 
 r('da1', 9, K6, '4 Untersuchungen planen und auswerten')
 K7 = 'Kapitel VII Daten und Wahrscheinlichkeit'
 r('da5', 9, K7, '1 Statistiken verstehen und beurteilen')
-r('da1', 9, K7, '2 Vierfeldertafel – mit Anteilen argumentieren', erm='Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.')
+r('da7', 9, K7, '2 Vierfeldertafel – mit Anteilen argumentieren')
 # ----- Kl. 10 -----
 K1 = 'Kapitel I Spitze Körper und Kugeln'
 r('pk1', 10, K1, '1 Pyramiden')
@@ -1671,7 +1680,7 @@ R('ei3', S, 10, 'Kleine und große Einheiten', 11, typ='Einheitenvorsatz als Nam
 R('re2', S, 10, 'Potenzgesetze', 14)
 R('pw1', S, 10, 'Potenzen mit negativen Exponenten', 16, typ='Potenz mit negativem Exponenten als Bruch und als Dezimalzahl (2⁻³ = 1/8 = 0,125), hoch null')
 R('re3', S, 10, 'Potenzen der Form a1/n', 17, typ='n-te Wurzel als a^(1/n), Kubikwurzel (³√8 = 2, ³√27 = 3)')
-R('pe1', S, 10, 'Potenzfunktionen', 18, z=[548], typ='Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', erm='Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.')
+R('pe5', S, 10, 'Potenzfunktionen', 18, z=[548])
 R('pe3', S, 10, 'Funktionsgleichung f(x) = bx', 36)
 R('pe3', S, 10, 'Funktionsgleichung f(x) = abx', 38, typ='Gleichung y = a · qˣ aufstellen (Zunahme und Abnahme)')
 R('pe2', S, 10, 'Exponentielle Zunahme', 40)
@@ -1830,7 +1839,7 @@ R('tr4', S, 9, '5.3 Der Sinussatz für beliebige Dreiecke', 164, typ='Sinussatz 
 R('tr4', S, 9, '5.4 Der Kosinussatz für beliebige D reiecke', 166, typ='Kosinussatz für die dritte Seite aus zwei Seiten und dem eingeschlossenen Winkel (kein P10-Original, RLP G)')
 R('tr4', S, 9, ['5.5 Sinussatz und Kosinussatz in Anwendungen', 'und A llta g'], 168, z=[641, 642])
 R('tr3', S, 9, '5.6 Der Flächeninhalt von beliebigen Dreiecken', 170, typ='Höhe im beliebigen Dreieck aus Seite und Winkel, dann Fläche (Typ in flaechen.md)')
-R('pe1', S, 9, '6.1 Potenzfunktionen mit natürlichem Exponenten', 188, typ='Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', erm='Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.')
+R('pe5', S, 9, '6.1 Potenzfunktionen mit natürlichem Exponenten', 188)
 # ----- Kl. 10 -----
 R('tf1', S, 10, '1.1 Das Bogenmaß', 18, typ='Winkel vom Gradmaß ins Bogenmaß umrechnen')
 R('tf1', S, 10, '1.2 Sinus und Kosinus am Einheitskreis', 20)
@@ -1840,7 +1849,7 @@ R('tf2', S, 10, '1.5 Die Kosinusfunktion', 30)
 R('tf4', S, 10, '1.6 Periodische Vorgänge im Alltag', 32)
 R('da2', S, 10, '2.1 Daten beschreiben und darstellen', 50, erm='„Daten beschreiben und darstellen“ (Kl. 10, Kapitel Wahrscheinlichkeitsrechnung) als Diagramme (Einheit 2) gelesen.')
 R('wa2', S, 10, '2.2 Wahrscheinlichkeiten b estim m en', 54)
-R('da1', S, 10, '2.3 Vierfeldertafeln', 58, erm='Vierfeldertafel steht im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1.')
+R('da7', S, 10, '2.3 Vierfeldertafeln', 58)
 R('wa3', S, 10, '2.5 Mehrstufige Zufallsexperimente', 64)
 R('wa1', S, 10, '2.6 Kombinatorik', 70)
 R('ko5', S, 10, '3.4 Zusammengesetzte und ausgehöhlte Körper', 100)
@@ -1851,6 +1860,9 @@ R('pe4', S, 10, '4.4 Logarithmus', 130, typ='Logarithmus für den genauen Zeitpu
 R('pe4', S, 10, '4.6 Exponentialgleichungen', 138)
 
 # ==== Abschnitt: mh ====
+# Klassen-Typen von daten Einheit 1 (katalog/_marken-neue-einheiten.md): Klasseneinteilungs-Stellen werden Typzeile an allen vier
+KLASSEN = ['Klassen zu einer Urliste bilden (gleich breit, Randregel)', 'Häufigkeitstabelle mit Klassen auszählen',
+           'Säulendiagramm der Klassen zeichnen', 'Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten)']
 # Mathematik heute BE/BB: Ausgabe 2014 Grundschule (Kl. 5 über den Lösungsband, Kl. 6) und Ausgabe 2016 Sek I (Kl. 7-10)
 S = 'MH'
 def L(n): return f'{n} (Seite des Lösungsbands)'
@@ -2027,7 +2039,7 @@ R('pk1', S, 9, 'Volumen von Pyramiden', 117)
 R('ko5', S, 9, ['Berechnungen an zusammengesetzten', 'Körpern'], 119, z=[277, 278])
 R('da5', S, 9, 'Irreführende Darstellungen in der Statistik', 132)
 R('da1', S, 9, 'Durchführen einer Statistischen Erhebung', 139)
-R('da6', S, 9, 'Zusammenfassen von Daten zu Klassen', 143, erm='Klassieren gehört im Katalog zur Sek-II-Einheit 6.')
+R('da1', S, 9, 'Zusammenfassen von Daten zu Klassen', 143, typ=KLASSEN)
 R('da5', S, 9, 'Boxplots', 146, typ='Boxplot lesen (Median, Quartile, Spannweite, Box)')
 R('qf1', S, 9, ['Die quadratische Funktion y = x2', '-N orm alparabel'], 172, z=[247, 248])
 R('qf1', S, 9, 'Quadratische Funktionen - Eigenschaften', 175, erm='„Quadratische Funktionen – Eigenschaften“ vor der Form y = a(x + d)² + e als Eigenschaften und Streckfaktor (Einheit 1) gelesen.')
@@ -2067,6 +2079,9 @@ R('tf2', S, 10, 'Sinusfunktion - Eigenschaften', 181)
 R('tf3', S, 10, 'Funktionen mit der Gleichung y = a • sin x', 187, typ='Amplitude aus einer Gleichung ablesen')
 
 # ==== Abschnitt: sek ====
+# Klassen-Typen von daten Einheit 1 (katalog/_marken-neue-einheiten.md): Klasseneinteilungs-Stellen werden Typzeile an allen vier
+KLASSEN = ['Klassen zu einer Urliste bilden (gleich breit, Randregel)', 'Häufigkeitstabelle mit Klassen auszählen',
+           'Säulendiagramm der Klassen zeichnen', 'Aussage aus der Klassentabelle prüfen (in welcher Klasse liegen die meisten)']
 # Sekundo, Ausgabe 2017 BE/BB, Kl. 7-10 (Seiten aus dem Verzeichnistext; Zeilen einspaltig gesetzt, Seite am Ende)
 S = 'SEK'
 Z = 'Zusatzstoff (*)|Zusatzstoff laut Stoffverteilungsplan [SEKUNDO-BB] Z. '
@@ -2235,7 +2250,7 @@ R('ko4', S, 8, 'Volumen des Zylinders', 150)
 R('ko4', S, 8, 'Berechnungen am Zylinder', 151)
 R('ko5', S, 8, ['Zusammengesetzte und ausgehöhlte', 'Körper'], 153, z=[365, 366])
 R('da4', S, 8, 'Mittelwert, Median, Modus undSpannweite', 159)
-R('da6', S, 8, 'LVL: Klasseneinteilung', 161, erm='Klasseneinteilung (klassierte Daten) gehört im Katalog zur Sek-II-Einheit 6; Sekundo führt sie als LVL-Seite in Kl. 8.')
+R('da1', S, 8, 'LVL: Klasseneinteilung', 161, typ=KLASSEN)
 R('da2', S, 8, 'Diagram m e', 162)
 R('da5', S, 8, 'LVL: Problematische grafischeDarstellungen', 163, marke=zs(1223))
 R('da5', S, 8, 'Quartile und B oxplots', 165, typ='Boxplot lesen (Median, Quartile, Spannweite, Box)')
@@ -2353,7 +2368,7 @@ R('pw2', S, 10, 'Standardschreibweise', 84, z=[525])
 R('re2', S, 10, ['M LVL: Multiplikation und Division', 'von Potenzen'], 88, z=[528, 529], marke=sym('M'))
 R('re2', S, 10, 'W Potenzgesetze', 89, marke=sym('W'))
 R('re3', S, 10, 'n-te Wurzel', 91, typ='n-te Wurzel als a^(1/n), Kubikwurzel (³√8 = 2, ³√27 = 3)')
-R('pe1', S, 10, 'M | Potenzenfunktionen'.split(' | ')[1], 92, typ='Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', marke=[sym('M'), zs(2448)], erm='Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1 (Unterscheidung vom exponentiellen Term).')
+R('pe5', S, 10, 'M | Potenzenfunktionen'.split(' | ')[1], 92, marke=[sym('M'), zs(2448)])
 R('re1', S, 10, 'M LVL: Irrationale Zahlen', 94, marke=[sym('M'), zs(2450)])
 R('re3', S, 10, 'M Potenzen mit gebrochenen Exponenten', 95, typ='Wurzel als Potenz mit Exponent 1/2 (√a = a^(1/2)), Taschenrechner mit Klammer (8^(1/3))', marke=sym('M'))
 R('tr1', S, 10, 'LVL: Kosinus (cos) und Tangens (tan)', 103)
@@ -2630,7 +2645,7 @@ R('pk2', S, 9, '6 Kegel. Schrägbild und Volumen', 119)
 R('pk3', S, 9, '7 Kugel. Volumen', 122)
 R('pk3', S, 9, '8 Kugel. Oberflächeninhalt', 124)
 R('ko5', S, 9, '9 Zusammengesetzte Körper', 126)
-R('da1', S, 9, '1 Vierfeldertafeln', 138, erm='Vierfeldertafeln stehen im Katalog nur als Sek-II-Deutungstyp in daten Einheit 1; im Kapitel „Daten“ (Kl. 9) dieser Einheit zugeordnet.')
+R('da7', S, 9, '1 Vierfeldertafeln', 138)
 R('da5', S, 9, '2 Daten beurteilen', 141)
 R('da2', S, 9, '3 Daten darstellen', 144, erm='„Daten darstellen“ ohne nähere Angabe als Diagramme (Einheit 2) gelesen.')
 R('qf1', S, 9, '1 Die Normalparabel y = x2', 154)
@@ -2667,8 +2682,8 @@ R('pe4', S, 10, '6 Exponentialgleichung. Logarithmus', 96, typ='Logarithmus für
 R('wa2', S, 10, '2 Einstufige Zufallsexperimente', 112)
 R('wa3', S, 10, '3 Zweistufige Zufallsexperimente mit Zurücklegen', 114)
 R('wa4', S, 10, '4 Zweistufige Zufallsexperimente ohne Zurücklegen', 117, typ='Baum für zweimal Ziehen ohne Zurücklegen (Nenner minus 1)')
-R('da1', S, 10, '5 Vierfeldertafeln', 119, erm='wie Kl. 9: Vierfeldertafel als Sek-II-Deutungstyp in daten Einheit 1.')
-R('pe1', S, 10, '2 Potenzfunktionen mit natürlichen Exponenten', 134, typ='Potenzfunktion y = a · xᵏ vom exponentiellen Term unterscheiden (Variable in der Basis gegen Variable im Exponenten; Vorrat)', erm='Potenzfunktionen sind im Katalog nur Vorrat in Einheit 1.')
+R('da7', S, 10, '5 Vierfeldertafeln', 119)
+R('pe5', S, 10, '2 Potenzfunktionen mit natürlichen Exponenten', 134)
 R('pe3', S, 10, '4 Exponentialfunktionen', 140)
 R('tf2', S, 10, '5 Die Sinusfunktion f (a) = a • sin(b • a + <p)', 143)
 R('tf3', S, 10, '5 Die Sinusfunktion f (a) = a • sin(b • a + <p)', 143, erm='Die Überschrift nennt die Parameter a, b und die Verschiebung; Einheiten 2 und 3 zugeordnet (Texterkennung: „a“ steht für α, „<p“ für φ).')
