@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.1, 26.09.2026)
+r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.2, 25.09.2026; v0.1 26.09.2026)
 
 Misst für jedes abgelegte Blatt, was die Befunde vom 24.09.2026 von Hand gezählt
 haben (befund-schwach-blatt-2026-09-24.md), damit zwei Läufe desselben Themas
@@ -87,6 +87,20 @@ Lesarten (was gezählt wird; Nummern = Kennzahlen des Auftrags):
     Einheiten. Nennt der Quelltext „Blatt 0“ und ist keine Einheit erkannt, trägt die
     Datei nur Blatt 0 und Kennzahl 9 entfällt. Ein Typ ohne Kernwort gilt als „nicht
     prüfbar“.
+
+Testlauf (v0.2, 25.09.2026, Auftrag Testlauf des Unterrichtsblatt-Prompts):
+  python werkzeuge/blatt-pruef.py --testlauf blaetter/testlauf-<datum> [--ausgabe <datei>]
+misst in jedem Unterordner <nr>-<kurzname>/ die PDFs nach dem Namensschema des Prompts
+(unterrichtsblatt.md 4.5) mit „_Gesamt“ oder „_Fokus“ im Namen, ohne „Loesungen“ – nicht die
+Zwischenkompilate der Sitzung (gesamt.pdf, probe_e1.pdf …). Der Ordner ist flach: Quelltexte, protokoll.txt und PDFs liegen
+nebeneinander. Quelltext = gleichnamige tex-Datei, sonst die tex-Datei, deren Name das
+Blattwort nach dem letzten „_“ ist (gesamt.tex, fokus*.tex), sonst die tex-Datei mit
+\blattkopf{…}{<Blattwort>…}. Prompt und Katalogeintrag stehen nicht im Register, sondern
+in protokoll.txt des Ordners (Zeilen „Prompt:“ und „Katalog:“ samt eingerückten
+Folgezeilen; Eintrag = jeder Name mit „.md“, sonst jedes Wort, zu dem katalog/<wort>.md
+existiert). Spalte „Thema“ = Unterordner, „Datum“ = Testlaufordner.
+  --ausgabe <datei>  schreibt die Kennzahlen dorthin statt nach blaetter/kennzahlen.md
+                     (auch ohne --testlauf).
 
 Register: Der Katalogeintrag steht in der Spalte „Katalog“ von blaetter/index.md.
 Endet die Zelle auf „und“ (einsortieren.py übernimmt nur die erste Zeile des
@@ -571,19 +585,27 @@ def version(prompt):
 
 # ---------------------------------------------------------------- Messen
 
-def messe(pdf, ordner, reg):
-    thema, datum = ordner.parent.name, ordner.name
-    schluessel = f'blaetter/{thema}/{datum}'
-    r = reg.get(schluessel, {'prompt': '?', 'katalog': ''})
-    texdateien = {p.stem.lower(): p for p in (ordner / 'src').glob('*.tex')}
-    tex_pfad = texdateien.get(pdf.stem.lower())
+def messe(pdf, ordner, reg, testlauf=None):
+    """testlauf: None oder {'src', 'thema', 'datum', 'eintrag', 'tex'} aus testlauf_blaetter()."""
+    if testlauf:
+        thema, datum, src = testlauf['thema'], testlauf['datum'], testlauf['src']
+        r = testlauf['eintrag']
+        tex_pfad = testlauf['tex']
+    else:
+        thema, datum, src = ordner.parent.name, ordner.name, ordner / 'src'
+        schluessel = f'blaetter/{thema}/{datum}'
+        r = reg.get(schluessel, {'prompt': '?', 'katalog': ''})
+        texdateien = {p.stem.lower(): p for p in src.glob('*.tex')}
+        tex_pfad = texdateien.get(pdf.stem.lower())
     k = {'thema': thema, 'datum': datum, 'datei': pdf.name, 'prompt': version(r['prompt']),
          'tex': tex_pfad.name if tex_pfad else None, 'seiten': pdf_seiten(pdf)}
+    if testlauf:
+        k['texort'] = ''
     if not tex_pfad:
         k['fehlt_tex'] = True
         return k
     tex = lies_tex(tex_pfad)
-    eigene = eigene_makros(tex, ordner / 'src')
+    eigene = eigene_makros(tex, src)
     hns, kaesten, koepfe, begleit = zerlege(tex)
     seiten_text = pdf_text(pdf)
     k['hauptnummern'] = hns
@@ -639,7 +661,10 @@ def messe(pdf, ordner, reg):
             k['kaesten'].append(f'zwischen den Aufgaben (nach Nr. {vor})')
 
     # Katalog
-    namen, quelle = katalognamen(r['katalog'], ordner)
+    if 'namen' in r:
+        namen, quelle = r['namen'], 'protokoll.txt des Testlaufordners'
+    else:
+        namen, quelle = katalognamen(r['katalog'], ordner)
     k['katalog'] = namen
     k['katalogquelle'] = quelle
     k['fachwoerter'] = []
@@ -737,7 +762,7 @@ def abschnitt_md(k):
         z += [f"Keine gleichnamige tex-Datei unter src/; gemessen nur die Seiten: {k['seiten']}.", '']
         return z
     hns = k['hauptnummern']
-    z.append(f"Quelltext: src/{k['tex']} (mit \\input) · Prompt {k['prompt']} · "
+    z.append(f"Quelltext: {k.get('texort', 'src/')}{k['tex']} (mit \\input) · Prompt {k['prompt']} · "
              f"Katalog: {', '.join(n + '.md' for n in k['katalog']) or '–'} ({k['katalogquelle']})")
     z.append('')
     art = 'Aufgaben' if hns else 'Ergebnisse (keine Hauptnummer)'
@@ -826,11 +851,69 @@ def alle_blaetter():
     return paare
 
 
-def baue(paare, reg, stand):
-    messungen = [messe(pdf, o, reg) for pdf, o in paare]
+def testlauf_protokoll(ordner):
+    """Prompt-Zeile und Katalognamen aus protokoll.txt eines Testlauf-Unterordners."""
+    prot = ordner / 'protokoll.txt'
+    prompt, namen = '?', []
+    if not prot.exists():
+        return {'prompt': prompt, 'katalog': '', 'namen': namen}
+    zeilen = prot.read_text(encoding='utf-8', errors='replace').split('\n')
+    for i, z in enumerate(zeilen):
+        if z.startswith('Prompt:') and prompt == '?':
+            prompt = z.split(':', 1)[1].strip()
+        if z.startswith('Katalog:') and not namen:
+            block = ' '.join([z] + [y for y in zeilen[i + 1:i + 6] if y.startswith((' ', '\t'))])
+            namen = re.findall(r'([a-z0-9-]+)\.md', block)
+            if not namen:
+                namen = [w for w in re.findall(r'[a-z0-9-]+', block) if (KATALOG / f'{w}.md').exists()]
+    return {'prompt': prompt, 'katalog': '', 'namen': list(dict.fromkeys(namen))}
+
+
+def testlauf_tex(pdf, ordner):
+    tex = {p.stem.lower(): p for p in ordner.glob('*.tex')}
+    stamm_pdf = pdf.stem.lower()
+    if stamm_pdf in tex:
+        return tex[stamm_pdf]
+    wort = stamm_pdf.rsplit('_', 1)[-1]
+    if 'fokus' in stamm_pdf and 'fokus' not in tex:
+        wort = 'fokus'
+    for s, p in sorted(tex.items()):
+        if s == wort or (wort == 'fokus' and s.startswith('fokus') and not s.endswith(('_a', '_l'))
+                         and 'loesung' not in s):
+            return p
+    blatt = 'Fokus' if 'fokus' in stamm_pdf else pdf.stem.rsplit('_', 1)[-1]
+    for s, p in sorted(tex.items()):
+        inhalt = p.read_text(encoding='utf-8', errors='replace')
+        if re.search(r'\\blattkopf\{[^}]*\}\{' + re.escape(blatt), inhalt):
+            return p
+    return None
+
+
+def testlauf_blaetter(wurzel):
+    """[(pdf, ordner, testlauf-Angaben)] für alle Gesamt- und Fokus-PDFs eines Testlaufordners."""
+    def nr(p):
+        m = re.match(r'(\d+)', p.name)
+        return (int(m.group(1)) if m else 10 ** 6, p.name)
+    tripel = []
+    for o in sorted((p for p in wurzel.iterdir() if p.is_dir()), key=nr):
+        eintrag = testlauf_protokoll(o)
+        for pdf in sorted(o.glob('*.pdf'), key=lambda p: p.name.lower()):
+            if re.search(r'_(Gesamt|Fokus)', pdf.name) and 'Loesungen' not in pdf.name:
+                tripel.append((pdf, o, {'src': o, 'thema': o.name, 'datum': wurzel.name,
+                                        'eintrag': eintrag, 'tex': testlauf_tex(pdf, o)}))
+    return tripel
+
+
+def baue(paare, reg, stand, testlauf=False):
+    if testlauf:
+        messungen = [messe(pdf, o, reg, t) for pdf, o, t in paare]
+    else:
+        messungen = [messe(pdf, o, reg) for pdf, o in paare]
+    herkunft = ('Testlauf: Prompt und Katalog je Ordner aus protokoll.txt' if testlauf
+                else f'Register: blaetter/index.md ({stand})')
     z = ['# Blätter – Kennzahlen je Blatt',
          'Abgeleitet von `werkzeuge/blatt-pruef.py`, nie von Hand ändern.',
-         f'Register: blaetter/index.md ({stand}); {len(messungen)} PDF-Dateien in '
+         f'{herkunft}; {len(messungen)} PDF-Dateien in '
          f'{len({(m["thema"], m["datum"]) for m in messungen})} Blattordnern. Lesarten im Skriptkopf.',
          '',
          '## Vergleichstabelle',
@@ -855,8 +938,25 @@ def baue(paare, reg, stand):
 
 def main():
     stand, reg = register()
-    if len(sys.argv) > 1:
-        ziel = Path(sys.argv[1]).resolve()
+    argv = sys.argv[1:]
+    ausgabe = AUSGABE
+    if '--ausgabe' in argv:
+        i = argv.index('--ausgabe')
+        ausgabe = Path(argv[i + 1]).resolve()
+        del argv[i:i + 2]
+    if '--testlauf' in argv:
+        i = argv.index('--testlauf')
+        wurzel = Path(argv[i + 1]).resolve()
+        tripel = testlauf_blaetter(wurzel)
+        if not tripel:
+            sys.exit(f'kein Gesamt- oder Fokus-PDF unter {wurzel}')
+        text, messungen = baue(tripel, reg, stand, testlauf=True)
+        with open(ausgabe, 'w', encoding='utf-8', newline='\n') as f:
+            f.write(text)
+        print(f'{ausgabe} geschrieben: {len(messungen)} PDF-Dateien.')
+        return
+    if argv:
+        ziel = Path(argv[0]).resolve()
         if ziel.is_file():
             paare = [(ziel, ziel.parent.parent)]
         else:
@@ -867,9 +967,9 @@ def main():
             print('\n'.join(abschnitt_md(messe(pdf, o, reg))))
         return
     text, messungen = baue(alle_blaetter(), reg, stand)
-    with open(AUSGABE, 'w', encoding='utf-8', newline='\n') as f:
+    with open(ausgabe, 'w', encoding='utf-8', newline='\n') as f:
         f.write(text)
-    print(f'{AUSGABE.relative_to(WURZEL)} geschrieben: {len(messungen)} PDF-Dateien.')
+    print(f'{ausgabe} geschrieben: {len(messungen)} PDF-Dateien.')
 
 
 if __name__ == '__main__':
