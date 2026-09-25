@@ -1,0 +1,106 @@
+% Einheit 2 – Extrempunkte
+\setcounter{aufgabe}{13}
+\hypertarget{e2}{}\einheitenkopf{Einheit 2 von 5 · Extrempunkte}
+\zweigzeile{Hier lernst du, Hoch-, Tief- und Sattelpunkte zu berechnen und nachzuweisen · kennst du seit Q1 (Klasse 11) · Abitur GK · baut auf: Monotonie (Einheit 1), Ableitungen bilden, Gleichungen lösen, Funktionswerte berechnen, Graphen grob skizzieren}
+
+\begin{aufgabe}{Ich erkenne, ob eine Stelle gegeben ist oder gesucht wird. Lies die Aufgabenstellung und kreuze an. Rechne nichts.}
+\begin{teile}
+\teil „Bestimmen Sie die Koordinaten der Extrempunkte des Graphen von $f$.“ \\ \kreuz{gegeben – nachweisen}\kreuz{gesucht – berechnen}
+\teil „Zeigen Sie, dass der Graph von $f$ an der Stelle $x = 2$ einen Tiefpunkt hat.“ \\ \kreuz{gegeben – nachweisen}\kreuz{gesucht – berechnen}
+\teil „Weisen Sie nach, dass $H(1 \mid 4)$ ein Hochpunkt des Graphen von $f$ ist.“ \\ \kreuz{gegeben – nachweisen}\kreuz{gesucht – berechnen}
+\teil „Ermitteln Sie die Stelle, an der der Graph von $f$ seinen Hochpunkt hat.“ \\ \kreuz{gegeben – nachweisen}\kreuz{gesucht – berechnen}
+\teil „Untersuchen Sie, ob der Graph von $f$ bei $x = -1$ eine waagerechte Tangente hat.“ \\ \kreuz{gegeben – nachweisen}\kreuz{gesucht – berechnen}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich erkenne, welcher Nachweis für die Art eines Extrempunkts passt. Schreibe A (Vorzeichen von $f''$), B (Vorzeichenwechsel von $f'$), C (Begründung aus Abbildung oder Sachzusammenhang) oder D (kein Nachweis verlangt). Rechne nichts.}
+\begin{teile}
+\teil An der Stelle $x_0$ gilt $f'(x_0) = 0$ und $f''(x_0) = -4$. \leerfeld
+\teil An der Stelle $x_0$ gilt $f'(x_0) = 0$ und $f''(x_0) = 0$. \leerfeld
+\teil „Bestimmen Sie die Stelle des Hochpunkts rechnerisch. Die hinreichende Bedingung muss nicht untersucht werden.“ \leerfeld
+\teil „Berechnen Sie die Stelle, an der die Konzentration am größten ist. Begründen Sie die Art des Extremums mithilfe der Abbildung.“ \leerfeld
+\teil Gegeben ist nur $f'(x) = (2 - x)\cdot\mathrm{e}^{-x}$, die zweite Ableitung ist nicht angegeben. \leerfeld
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Stellen berechnen, an denen ein Graph eine waagerechte Tangente hat. Bilde $f'$ und löse $f'(x) = 0$.}
+\beispiel{f(x) &= x^3 - 6x^2 + 9x \\ f'(x) &= 3x^2 - 12x + 9 = 0 &&\mid :3 \\ x^2 - 4x + 3 &= 0 \\ x &= 2 \pm \sqrt{4 - 3} \\ x_1 = 3,\ x_2 &= 1}
+\begin{gleichungsraster}[3]
+\gl{f(x) = \tfrac{1}{3}x^3 - 4x} & \gl{f(x) = \tfrac{1}{3}x^3 - x^2 - 3x} \\
+\gl{f(x) = 2x^3 + 3x^2 - 12x} & \gl{f(x) = -\tfrac{1}{3}x^3 + 2x^2 + 5x} \\
+\end{gleichungsraster}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Hoch-, Tief- und Sattelpunkte berechnen. Bestimme Lage und Art der Extrempunkte.}
+\begin{teile}
+\teil $f(x) = x^3 + 3x^2 - 9x$
+\teil $f(x) = x^4 - 4x^3 + 4x^2$
+\teil $f(x) = 3x^4 - 4x^3$; untersuche auch, ob ein Sattelpunkt vorliegt.
+\teil $f(x) = 0{,}25x^4 - 3{,}5x^2 + 6x$; die Stelle $x = 1$ ist eine Extremstelle. Bestimme alle Extremstellen und ihre Art.
+\teil $f(x) = (x^2 - 3)\cdot\mathrm{e}^{x}$
+\teil Die Zahl der Anrufe pro Minute bei einer Hotline wird durch $a(t) = 5t\cdot\mathrm{e}^{-0{,}2t}$ beschrieben ($t$ in Minuten nach Beginn einer Werbesendung). Im Sachzusammenhang ist klar, dass die Zahl der Anrufe erst steigt und dann wieder fällt; die hinreichende Bedingung muss nicht untersucht werden. Berechne, wann die meisten Anrufe pro Minute eingehen, und gib ihre Zahl an.
+\teil Bestimme den größten und den kleinsten Funktionswert von $g(x) = -x^3 + 6x^2$ auf dem Intervall $[-3;\,5]$.
+\teil Bestimme den Wertebereich von $f(x) = x^4 - 2x^2 + 3$.
+\teil Bestimme Lage und Art aller lokalen Extrempunkte des Graphen von $f$ mit $f(x) = x^2\cdot\mathrm{e}^{-0{,}5x}$. (Abitur 2021)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann nachweisen, dass an einer gegebenen Stelle ein Hoch- oder Tiefpunkt liegt. Zeige, dass $f'(x_0) = 0$ gilt.}
+\beispiel{f(x) &= x^3 - 6x^2 + 5, \quad x_0 = 4 \\ f'(x) &= 3x^2 - 12x \\ f'(4) &= 3\cdot 16 - 12\cdot 4 = 0 && \text{notwendige Bedingung erfüllt}}
+\begin{teilezwei}
+\tz $f(x) = x^2 - 10x$, \quad $x_0 = 5$ & \tz $f(x) = x^3 - 27x$, \quad $x_0 = 3$ \\
+\tz $f(x) = 2x^3 + 3x^2 - 36x$, \quad $x_0 = 2$ & \tz $f(x) = x^4 - 18x^2$, \quad $x_0 = -3$ \\
+\end{teilezwei}
+\begin{teile}
+\teil Zeige, dass der Graph von $f(x) = -x^3 + 3x^2 + 24x$ bei $x = 4$ einen Hochpunkt hat.
+\teil Weise nach, dass $T(-1 \mid -7)$ ein Tiefpunkt des Graphen von $f(x) = x^4 + 4x - 4$ ist.
+\teil Für $f(x) = (x + 2)^4 - 1$ ist $f''(-2) = 0$. Zeige mit dem Vorzeichenwechsel von $f'$, dass bei $x = -2$ ein Tiefpunkt liegt.
+\teil Für eine Funktion $f$ gilt $f'(3) = 0$ und $f''(3) = -2$. Begründe, dass der Graph von $f$ bei $x = 3$ einen Hochpunkt hat.
+\teil Zeige, dass der Graph von $f(x) = -x^3 + 3x^2 - 3x + 4$ bei $x = 1$ eine waagerechte Tangente, aber keinen Extrempunkt hat.
+\teil Zeige, ohne $f'(x) = 0$ zu lösen, dass der Graph von $f(x) = x^3 + x^2 - 3x$ zwischen $x = 0$ und $x = 1$ einen Tiefpunkt hat.
+\teil Gegeben ist $f(x) = 3x^4 - 8x^3 + 2$. Zeige, dass der Graph an der Stelle $x = 2$ einen Tiefpunkt hat, und gib ihn an. Begründe, dass der Graph an der Stelle $x = 0$ eine waagerechte Tangente, aber keinen Extrempunkt hat. (Abitur 2026)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann mit berechneten Hoch- und Tiefpunkten weiterrechnen.}
+\begin{teile}
+\teil Berechne die Nullstellen und die Extremstelle von $p(x) = x^2 - 6x + 5$.
+\teil Bestimme den kleinsten senkrechten Abstand zwischen dem Graphen von $q(x) = x^2 - 4x + 7$ und der Geraden $y = 1$. Beschreibe dein Vorgehen.
+\teil Weise nach, dass $f(x) = (x^2 - 4)\cdot\mathrm{e}^{-x}$ genau die Nullstellen $-2$ und $2$ hat, und berechne die Stelle des Tiefpunkts.
+\teil Berechne den Tiefpunkt des Graphen von $f(x) = 0{,}25x^3 - 3x$. Gib den Hochpunkt mithilfe der Punktsymmetrie ohne Rechnung an und berechne den Abstand der beiden Punkte.
+\teil Berechne die Extrempunkte des Graphen von $f(x) = -0{,}5x^3 + 1{,}5x$ und zeige, dass ihre Verbindungsgerade die Winkelhalbierende $y = x$ ist.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler bei der Art eines Extrempunkts. Jonas bestimmt die Extrempunkte von $f(x) = x^3 - 3x^2 - 9x + 2$:}
+\rechnung{f'(x) &= 3x^2 - 6x - 9 = 0 && \Leftrightarrow x = -1 \text{ oder } x = 3 \\ f''(x) &= 6x - 6 \\ f''(-1) &= -12 < 0 && \Rightarrow \text{Tiefpunkt } T(-1 \mid 7) \\ f''(3) &= 12 > 0 && \Rightarrow \text{Hochpunkt } H(3 \mid -25)}
+\begin{teile}
+\teil Finde den Fehler, benenne ihn und korrigiere die Rechnung.
+\teil Bestimme die Extrempunkte von $g(x) = x^3 + 3x^2 - 1$.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann ohne Rechnung begründen, ob an einer Stelle ein Hoch- oder Tiefpunkt liegt.}
+\begin{teile}
+\teil Begründe, warum aus $f'(x_0) = 0$ allein nicht folgt, dass bei $x_0$ ein Hoch- oder Tiefpunkt liegt.
+\teil Begründe, warum der größte Funktionswert auf einem Intervall $[a;\,b]$ an einer Stelle liegen kann, an der die Tangente nicht waagerecht ist.
+\teil Beurteile die Aussage: „Hat der Graph einer ganzrationalen Funktion dritten Grades zwei verschiedene Stellen mit waagerechter Tangente, so hat er einen Hoch- und einen Tiefpunkt.“
+\teil Beurteile die Aussage: „Rechts neben einem Tiefpunkt $T(x_0 \mid y_0)$ gilt in der Nähe $f'(x) > 0$ und $f(x) < y_0$.“
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann mit der Ableitung begründen, welche Hoch- und Tiefpunkte ein Graph hat.}
+\begin{teile}
+\teil Gegeben ist $f(x) = x^3 - 3x^2$ mit $f'(x) = 3x\,(x - 2)$. Gib die Schnittpunkte des Graphen mit den Koordinatenachsen an und begründe mit $f'$, dass der Graph im Ursprung einen Hochpunkt hat.
+\teil Begründe mit a), dass der Graph die $x$-Achse im Ursprung berührt und nicht schneidet.
+\teil Gib den Tiefpunkt des Graphen von $f(x) = \mathrm{e}^{x} - x$ an und weise nach, dass der Graph keine weiteren Extrempunkte hat.
+\teil Begründe mit Monotonie, Grenzverhalten und Symmetrie, dass $f(x) = \mathrm{e}^{-x^2}$ den größten Funktionswert $1$ hat, und gib die Wertemenge von $f$ an.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Gipfelpunkte in einer Sachaufgabe berechnen und vergleichen. Das Profil einer Hügelkette wird für $0 \le x \le 4$ durch $f(x) = -0{,}5x^2 + 2x + 1$ und für $4 \le x \le 7$ durch $g(x) = -0{,}25x^3 + 3{,}75x^2 - 18x + 29$ beschrieben ($x$ und $y$ in 100 m).}
+\begin{teile}
+\teil Berechne die beiden Gipfelpunkte.
+\teil Zwischen den Gipfeln soll ein Stahlseil geradlinig gespannt werden, das höchstens 450 m lang sein darf. Prüfe, ob das möglich ist.
+\end{teile}
+\end{aufgabe}

@@ -1,0 +1,44 @@
+24 Beispiel f'' | Skript: 12*x*(x - 1) | Blatt: 12*x**2 - 12*x | OK
+24 Beispiel f''' | Skript: 12*(2*x - 1) | Blatt: 24*x - 12 | OK
+24a f'' | Skript: 2*(3*x + 2) | Blatt: 6*x + 4 | OK
+24a f''' | Skript: 6 | Blatt: 6 | OK
+24b f'' | Skript: 2*(6*x**2 - 1) | Blatt: 12*x**2 - 2 | OK
+24b f''' | Skript: 24*x | Blatt: 24*x | OK
+24c f'' | Skript: -12*x | Blatt: -12*x | OK
+24c f''' | Skript: -12 | Blatt: -12 | OK
+24d f'' | Skript: 6*x*(x + 1) | Blatt: 6*x**2 + 6*x | OK
+24d f''' | Skript: 6*(2*x + 1) | Blatt: 12*x + 6 | OK
+25 Beispiel | Skript: [-1.0, 0.0] | Blatt: [-1.0, 0.0] | OK
+25a | Skript: [1.0, 1.0] | Blatt: [1.0, 1.0] | OK
+25b | Skript: [-1.0, -4.0, 1.0, -4.0] | Blatt: [-1.0, -4.0, 1.0, -4.0] | OK
+25c Grenzen | Skript: [-1.0, 1.0] | Blatt: [-1.0, 1.0] | OK
+25c VZ f'' (+ = links) | Skript: +-+ | Blatt: +-+ | OK
+25d W | Skript: [2.0, 1.0] | Blatt: [2.0, 1.0] | OK
+25d Tangente m, n | Skript: [-1.0, 3.0] | Blatt: [-1.0, 3.0] | OK
+25e f''(1), f'''(1), f(1) | Skript: [0.0, -6.0, 3.0] | Blatt: [0.0, -6.0, 3.0] | OK
+25f f'(0), f''(0), f'''(0), f(0) | Skript: [0.0, 0.0, 24.0, 1.0] | Blatt: [0.0, 0.0, 24.0, 1.0] | OK
+26a f'' | Skript: (x + 2)*exp(x) | Blatt: (x + 2)*exp(x) | OK
+26a W exakt | Skript: [-2.0, -0.2706705664732254] | Blatt: [-2.0, -0.2706705664732254] | OK
+26a W gerundet | Skript: [-0.2706705664732254] | Blatt: [-0.27] | OK
+26b Skizze: T | Skript: [1.0, -3.0] | Blatt: [1.0, -3.0] | OK
+26b Skizze: Grenzwert links | Skript: [0.0] | Blatt: [0.0] | OK
+26b Skizze: W links von T | Skript: [0.0] | Blatt: [0.0] | OK
+27a Winkel | Skript: [45.0] | Blatt: [45.0] | OK
+27b W | Skript: [0.0, 0.0, 1.0, -1.0] | Blatt: [0.0, 0.0, 1.0, -1.0] | OK
+27b Gerade m, n | Skript: [-1.0, 0.0] | Blatt: [-1.0, 0.0] | OK
+27c zulässige c (2 < c <= 4,33) | Skript: [2.0, 4.3296] | Blatt: [2.0, 4.33] | OK
+27c Schnittstelle bei c = 3 (genau eine) | Skript: [2.097740791784448] | Blatt: [2.1] | OK
+28a Grenze | Skript: [2.0] | Blatt: [2.0] | OK
+28a VZ (links, rechts) | Skript: +- | Blatt: +- | OK
+28 Leas f''(0), f''(3) | Skript: [12.0, -6.0] | Blatt: [12.0, -6.0] | OK
+28b Grenze | Skript: [-1.0] | Blatt: [-1.0] | OK
+28b VZ | Skript: -+ | Blatt: -+ | OK
+29a x^4 ohne Wendepunkt | Skript: 0 | Blatt: 0 | OK
+29c m = 2: Anzahl | Skript: [3.0] | Blatt: [3.0] | OK
+29c m = 1: Anzahl | Skript: [1.0] | Blatt: [1.0] | OK
+29c m = 0: Anzahl | Skript: [1.0] | Blatt: [1.0] | OK
+29c m = -3: Anzahl | Skript: [1.0] | Blatt: [1.0] | OK
+29c W | Skript: [0.0, 0.0] | Blatt: [0.0, 0.0] | OK
+30a W | Skript: [2.0, 0.4] | Blatt: [2.0, 0.4] | OK
+30 VZ (rechts, links) | Skript: -+ | Blatt: -+ | OK
+Abweichungen: 0

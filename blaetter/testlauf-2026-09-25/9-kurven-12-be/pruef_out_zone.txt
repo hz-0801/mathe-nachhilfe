@@ -1,0 +1,53 @@
+1a | Skript: [0.0, 3.0] | Blatt: [0.0, 3.0] | OK
+1b | Skript: [2.0] | Blatt: [2.0] | OK
+1c | Skript: [1.0, 4.0] | Blatt: [1.0, 4.0] | OK
+1d | Skript: [3.0, 0.0] | Blatt: [3.0, 0.0] | OK
+1e | Skript: [1.0, 4.0] | Blatt: [1.0, 4.0] | OK
+1f | Skript: [4.0] | Blatt: [4.0] | OK
+2 Beispiel | Skript: [2.0, 4.0] | Blatt: [2.0, 4.0] | OK
+2a | Skript: [4.0] | Blatt: [4.0] | OK
+2b | Skript: [-7.0, 7.0] | Blatt: [-7.0, 7.0] | OK
+2c | Skript: [-2.0, 4.0] | Blatt: [-2.0, 4.0] | OK
+2d | Skript: [-3.0, 0.0, 3.0] | Blatt: [-3.0, 0.0, 3.0] | OK
+2e | Skript: [-5.0, 0.0, 2.0] | Blatt: [-5.0, 0.0, 2.0] | OK
+2f | Skript: [3.0] | Blatt: [3.0] | OK
+2g | Skript: [-2.0, 1.0, 3.0] | Blatt: [-2.0, 1.0, 3.0] | OK
+2g Lösung 1 | Skript: [0.0] | Blatt: [0.0] | OK
+3a | Skript: [-6.0, 0.0, 6.0] | Blatt: [-6.0, 0.0, 6.0] | OK
+3b | Skript: [-4.0, 0.0, 4.0] | Blatt: [-4.0, 0.0, 4.0] | OK
+4a | Skript: 5*x**4 | Blatt: 5*x**4 | OK
+4b | Skript: 6*x + 7 | Blatt: 6*x + 7 | OK
+4c | Skript: -2*x**3 + 6*x**2 - 1 | Blatt: -2*x**3 + 6*x**2 - 1 | OK
+4d | Skript: x**2 - x | Blatt: x**2 - x | OK
+4f | Skript: -2*exp(-2*x) | Blatt: -2*exp(-2*x) | OK
+4g | Skript: (x + 3)*exp(x) + exp(x) | Blatt: (x + 4)*exp(x) | OK
+4h | Skript: -x**2*exp(-x) + 2*x*exp(-x) | Blatt: (-x**2 + 2*x)*exp(-x) | OK
+4e f' | Skript: 4*x**3 - 15*x**2 + 1 | Blatt: 4*x**3 - 15*x**2 + 1 | OK
+4e f'' | Skript: 6*x*(2*x - 5) | Blatt: 12*x**2 - 30*x | OK
+4e f''' | Skript: 6*(4*x - 5) | Blatt: 24*x - 30 | OK
+5a | Skript: [10.0] | Blatt: [10.0] | OK
+5b | Skript: [6.0] | Blatt: [6.0] | OK
+5c | Skript: [4.0] | Blatt: [4.0] | OK
+5d | Skript: [-21.0] | Blatt: [-21.0] | OK
+5e | Skript: [-9.0] | Blatt: [-9.0] | OK
+5f | Skript: [1.0] | Blatt: [1.0] | OK
+5g | Skript: ja | Blatt: ja | OK
+5g Wert | Skript: [0.0] | Blatt: [0.0] | OK
+5h | Skript: nein | Blatt: nein | OK
+5h Wert | Skript: [6.0] | Blatt: [6.0] | OK
+5i | Skript: ja | Blatt: ja | OK
+6a | Skript: oben, oben | Blatt: oben, oben | OK
+6b | Skript: unten, oben | Blatt: unten, oben | OK
+6c | Skript: unten, unten | Blatt: unten, unten | OK
+6d | Skript: oben, unten | Blatt: oben, unten | OK
+6e | Skript: oben, oben | Blatt: oben, oben | OK
+6f | Skript: y | Blatt: y | OK
+6g | Skript: U | Blatt: U | OK
+6h | Skript: k | Blatt: k | OK
+7a (A, x=-3) | Skript: + | Blatt: + | OK
+7b (C, x=0) | Skript: - | Blatt: - | OK
+7c (B, x=-2) | Skript: 0 | Blatt: 0 | OK
+7d | Skript: [-1.5] | Blatt: [-1.5] | OK
+7e | Skript: B höher, C steiler | Blatt: B höher, C steiler | OK
+7 Punkte A,B,D,E | Skript: [1.125, 2.0, -2.0, -1.125] | Blatt: [1.125, 2.0, -2.0, -1.125] | OK
+Abweichungen: 0

@@ -20,5 +20,5 @@ Parallelität: Eingaben 1–5 zuerst, 6–10 nach einer Lastprobe (Rechnerlast 2
 6 daten-7 · fertig · Anläufe 1 · (abgelegt)
 7 nullstellen-fokus · fertig · Anläufe 1 · (abgelegt)
 8 potenz-10 · fertig · Anläufe 1 · (abgelegt)
-9 kurven-12-be · läuft · Anläufe 1 ·
+9 kurven-12-be · fertig · Anläufe 1 · (abgelegt)
 10 ka-terme-8-gym · fertig · Anläufe 1 · (abgelegt)

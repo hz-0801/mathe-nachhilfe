@@ -1,0 +1,53 @@
+Kennst du schon
+1. Ich kann besondere Punkte eines Graphen ablesen.
+2. Ich kann Gleichungen durch Ausklammern und mit der Lösungsformel lösen.
+3. Ich finde den Fehler beim Lösen durch Ausklammern.
+4. Ich kann Ableitungen bilden.
+5. Ich kann Funktionswerte berechnen und prüfen, ob ein Punkt auf einem Graphen liegt.
+6. Ich kann am Term erkennen, wie ein Graph grob verläuft.
+7. Ich kann an einem Graphen ablesen, wie steil er ist.
+Einheit 1 · Monotonie und erste Ableitung
+8. Ich kann am Vorzeichen der Ableitung ablesen, ob ein Graph steigt oder fällt.
+9. Ich kann die Intervalle berechnen, in denen ein Graph steigt oder fällt.
+10. Ich kann am Term der Ableitung zeigen, dass ein Graph überall steigt oder überall fällt.
+11. Ich finde den Fehler bei den Monotonieintervallen.
+12. Ich kann begründen, wann ein Graph überall steigt.
+13. Ich kann mit der Monotonie eine Aussage über zwei Modelle beurteilen.
+Einheit 2 · Extrempunkte
+14. Ich erkenne, ob eine Stelle gegeben ist oder gesucht wird.
+15. Ich erkenne, welcher Nachweis für die Art eines Extrempunkts passt.
+16. Ich kann die Stellen berechnen, an denen ein Graph eine waagerechte Tangente hat.
+17. Ich kann Hoch-, Tief- und Sattelpunkte berechnen.
+18. Ich kann nachweisen, dass an einer gegebenen Stelle ein Hoch- oder Tiefpunkt liegt.
+19. Ich kann mit berechneten Hoch- und Tiefpunkten weiterrechnen.
+20. Ich finde den Fehler bei der Art eines Extrempunkts.
+21. Ich kann ohne Rechnung begründen, ob an einer Stelle ein Hoch- oder Tiefpunkt liegt.
+22. Ich kann mit der Ableitung begründen, welche Hoch- und Tiefpunkte ein Graph hat.
+23. Ich kann Gipfelpunkte in einer Sachaufgabe berechnen und vergleichen.
+Einheit 3 · Krümmung und Wendepunkte
+24. Ich kann die zweite und die dritte Ableitung bilden.
+25. Ich kann Wendepunkte berechnen.
+26. Ich kann Wendepunkte berechnen – weiter.
+27. Ich kann Geraden durch Wendepunkte untersuchen.
+28. Ich finde den Fehler beim Krümmungsverhalten.
+29. Ich kann begründen, was an einem Wendepunkt geschieht.
+30. Ich kann die Krümmung im Sachzusammenhang deuten.
+Einheit 4 · Graph und Ableitungsgraph
+31. Ich kann am Graphen von $f$ ablesen, wo $f'$ positiv, negativ oder null ist.
+32. Ich kann den Graphen der Ableitung zum Graphen von $f$ zeichnen.
+33. Ich kann einen möglichen Graphen zu vorgegebenen Eigenschaften skizzieren.
+34. Ich kann aus dem Graphen einer Differenzfunktion die Lage zweier Graphen ablesen.
+35. Ich kann Aussagen über einen Graphen und seine Ableitung beurteilen.
+36. Ich finde den Fehler beim Lesen eines Ableitungsgraphen.
+37. Ich kann Zusammenhänge zwischen $f$ und $f'$ begründen.
+38. Ich kann aus dem Graphen einer Änderungsrate den Verlauf eines Bestands ablesen.
+Einheit 5 · Kurvenuntersuchung im Sachzusammenhang
+39. Ich erkenne, was eine Sachfrage mathematisch bedeutet.
+40. Ich kann den Verlauf eines Graphen im Sachzusammenhang beschreiben.
+41. Ich kann größte Werte und stärkste Änderungen im Sachzusammenhang berechnen.
+42. Ich kann größte Werte und stärkste Änderungen im Sachzusammenhang berechnen – weiter.
+43. Ich finde den Fehler bei der stärksten Zunahme.
+44. Ich kann Ergebnisse im Sachzusammenhang begründen.
+45. Ich kann die Maße eines umschließenden Quaders aus einem Profil bestimmen.
+46. Ich kann Steigung und Neigungswinkel im Sachzusammenhang berechnen.
+47. Ich kann Werte am Graphen im Sachzusammenhang ablesen und deuten.

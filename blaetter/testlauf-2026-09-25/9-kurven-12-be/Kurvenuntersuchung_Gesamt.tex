@@ -1,0 +1,40 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\usepackage[hidelinks]{hyperref}
+% im Vorspann definierte Bausteine (fehlen in der Vorlage): Zweigzeile, Abhakseite, Verzeichniszeile
+\newcommand{\zweigzeile}[1]{\par\nopagebreak\vspace{-0.2\baselineskip}{\small\itshape #1\par}\nopagebreak\medskip}
+\newcommand{\abhakgruppe}[1]{\par\smallskip\noindent\textbf{#1}\par}
+\newcommand{\abhak}[2]{\noindent\hangindent=2.6em\hangafter=1 $\square$\ \textbf{#1.}\ #2\par}
+\newcommand{\verzeile}[2]{\noindent\hyperlink{#1}{#2}\par\medskip}
+% Seitenbereiche aus der Textextraktion (rahmen.py seiten)
+\def\SeZone{2–4}
+\def\SeEa{5–6}
+\def\SeEb{7–9}
+\def\SeEc{10–11}
+\def\SeEd{12–16}
+\def\SeEe{17–19}
+\def\SeAbh{20}
+\begin{document}
+\blattkopf{Kurvenuntersuchung}{Gesamt}
+\einheitenkopf{Inhalt}
+\verzeile{zone}{Kennst du schon (Nr. 1–7) · Seiten \SeZone}
+\verzeile{e1}{Einheit 1 · Monotonie und erste Ableitung (Nr. 8–13) · Seiten \SeEa}
+\verzeile{e2}{Einheit 2 · Extrempunkte (Nr. 14–23) · Seiten \SeEb}
+\verzeile{e3}{Einheit 3 · Krümmung und Wendepunkte (Nr. 24–30) · Seiten \SeEc}
+\verzeile{e4}{Einheit 4 · Graph und Ableitungsgraph (Nr. 31–38) · Seiten \SeEd}
+\verzeile{e5}{Einheit 5 · Kurvenuntersuchung im Sachzusammenhang (Nr. 39–47) · Seiten \SeEe}
+\verzeile{abhaken}{Das kann ich · Seite \SeAbh}
+\clearpage
+\input{zone_a}
+\clearpage
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{e4_a}
+\clearpage
+\input{e5_a}
+\input{abhaken}
+\end{document}

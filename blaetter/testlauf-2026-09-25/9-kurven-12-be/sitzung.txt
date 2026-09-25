@@ -1,0 +1,36 @@
+→ Lernblatt · Sek II, Standpunkt Q1 = Klasse 11: alle Zweige liegen vor der Eingabeklasse und stehen als Wiederholung zum Abitur auf dem Blatt · mit Wiederholung · 5 Zweige, kein Ausblick · Zone aus 6 Fertigkeiten
+
+- **Einheit 1 · Monotonie und erste Ableitung:** Hier lernst du, am Vorzeichen der Ableitung abzulesen, wo ein Graph steigt und wo er fällt · kennst du seit Q1 (Klasse 11) · Abitur GK · baut auf: Ableitungen bilden, Gleichungen lösen
+- **Einheit 2 · Extrempunkte:** Hier lernst du, Hoch-, Tief- und Sattelpunkte zu berechnen und nachzuweisen · kennst du seit Q1 (Klasse 11) · Abitur GK · baut auf: Monotonie (Einheit 1), Ableitungen bilden, Gleichungen lösen, Funktionswerte berechnen, Graphen grob skizzieren
+- **Einheit 3 · Krümmung und Wendepunkte:** Hier lernst du, mit der zweiten Ableitung die Krümmung eines Graphen und seine Wendepunkte zu bestimmen · kennst du seit Q1 (Klasse 11) · Abitur GK · baut auf: Monotonie (Einheit 1), Extrempunkte (Einheit 2), Ableitungen bilden, Gleichungen lösen, Funktionswerte berechnen
+- **Einheit 4 · Graph und Ableitungsgraph:** Hier lernst du, aus dem Graphen einer Funktion den Graphen ihrer Ableitung zu entwickeln und umgekehrt · kennst du seit Q1 (Klasse 11), je nach Kursplan bis Q2 · Abitur GK · baut auf: Monotonie (Einheit 1), Extrempunkte (Einheit 2), Krümmung und Wendepunkte (Einheit 3), Ableitung als Steigung deuten, Graphen grob skizzieren
+- **Einheit 5 · Kurvenuntersuchung im Sachzusammenhang:** Hier lernst du, Sachfragen in Hoch-, Tief- und Wendepunkte zu übersetzen und die Ergebnisse im Sachzusammenhang zu deuten · kennst du seit Q1 (Klasse 11) · Abitur GK · baut auf: Extrempunkte (Einheit 2), Krümmung und Wendepunkte (Einheit 3), Graph und Ableitungsgraph (Einheit 4), Ableitung als Änderungsrate deuten, Gleichungen lösen, Funktionswerte berechnen
+
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Schüler ist am: Gymnasium · OSZ (Abitur) · FOS
+*Antwort aus der Eingabe:* gymnasium, gk; baue ohne Halt bis zum Ausgabeblock durch
+
+---
+
+→ alle Zweige (Rückfall, keine Auswahl genannt) · LK-Typen weggelassen
+
+Kurvenuntersuchung_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+
+---
+
+Kurvenuntersuchung_Lernblatt.pdf
+Kurvenuntersuchung_Gesamt.pdf
+Kurvenuntersuchung_Loesungen.pdf
+Kurvenuntersuchung_2026-09-25_protokoll.zip
+
+Alle Dateien liegen in `C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\c6924aab-9c6f-4c6b-96fc-d8fbcd8c8855\scratchpad\bau\9-kurven-12-be\a1`.
+
+1. Kl. 12 Berlin: Alle fünf Zweige tragen Q1 (Klasse 11). Nach 1.5 lägen sie vor der Eingabeklasse, also ganz in der Zone. Sie stehen stattdessen als Wiederholung zum Abitur auf dem Blatt, mit der Zeitmarke „kennst du seit Q1 (Klasse 11)“ · Umfang: alle Zweige (Rückfall) · wegen GK weggelassen: „Einzigen Tiefpunkt über die streng monotone Ableitung nachweisen und berechnen“ und „Extremstelle einer Logarithmusfunktion über die Ableitung oder die Symmetrie begründen“ (E2), „Wendepunkt mit vorgegebenen Koordinaten über die zweite Ableitung nachweisen und den symmetrischen Wendepunkt angeben“, „Wendepunkt über den Vorzeichenwechsel der zweiten Ableitung aus der Kettenregel am Graphen nachweisen“ und „Wendestellen einer Sinusfunktion als ganzzahlig nachweisen …“ (E3), „Logarithmus einer Exponentialfunktion als lineare Funktion nachweisen …“ (E4) · geteilte Hauptnummern: 25/26 (wegen der Zeichenfläche) und 41/42 (vor dem Wechsel zu Aufgaben mit Maßstab) · im Vorspann definiert: \zweigzeile (zweite Zeile des Einheitenkopfs), \abhakgruppe und \abhak (Abhakseite), \verzeile (Verzeichniszeile) · keine Zwischensprossen, keine vereinfachten Grafiken
+2. Katalog: Gebraucht wurden Lerneinheiten, Marken, Typen je Lerneinheit, Voraussetzungen (6 Fertigkeiten → Zone, 3 Erkennungsschritte → Vorstufen 14, 15, 39), Sprossen je Verfahrenstyp, Typische Fehler, Prüfungsform und Zielmarke. Nicht gebraucht wurden Merkkasten, Grundvorstellung und Verortung · Befunde:
+   - Die Sek-II-Marken nennen keine Klasse. Für Kl. 12 Berlin liegt deshalb jeder Zweig vor der Eingabeklasse, und 1.5 regelt diesen Fall nicht.
+   - Die Kastenzahlen-Sperre der Offenen Punkte (0 bis 4, 6) ist in Sek II nicht einzuhalten. Gemieden wurden stattdessen die Kastenfunktionen und ihre Ergebnisse.
+   - Mindestgrad und Skizze aus Eigenschaften (E4) stammen nur aus LK-Heft und erhöhtem Pool. Der Eintrag trägt dort keinen LK-Vermerk, deshalb stehen sie hier als GK.
+   - Der iqb-Typ „Gerade durch die beiden Wendepunkte … parallele Gerade mit genau einem gemeinsamen Punkt“ geht bei Funktionen vierten Grades auf ℝ nie auf, weil f minus die Wendepunktgerade symmetrisch ist. Gebaut ist er deshalb auf einem eingeschränkten Bereich.
+   - Spanne: Einheit 4 „BE Q1/2“ → „kennst du seit Q1 (Klasse 11), je nach Kursplan bis Q2“
+4. Protokoll-Archiv: Kurvenuntersuchung_2026-09-25_protokoll.zip

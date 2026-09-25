@@ -1,0 +1,79 @@
+16 Beispiel | Skript: [1.0, 3.0] | Blatt: [1.0, 3.0] | OK
+16a | Skript: [-2.0, 2.0] | Blatt: [-2.0, 2.0] | OK
+16b | Skript: [-1.0, 3.0] | Blatt: [-1.0, 3.0] | OK
+16c | Skript: [-2.0, 1.0] | Blatt: [-2.0, 1.0] | OK
+16d | Skript: [-1.0, 5.0] | Blatt: [-1.0, 5.0] | OK
+17a H | Skript: [-3.0, 27.0] | Blatt: [-3.0, 27.0] | OK
+17a T | Skript: [1.0, -5.0] | Blatt: [1.0, -5.0] | OK
+17b T | Skript: [0.0, 0.0, 2.0, 0.0] | Blatt: [0.0, 0.0, 2.0, 0.0] | OK
+17b H | Skript: [1.0, 1.0] | Blatt: [1.0, 1.0] | OK
+17c T | Skript: [1.0, -1.0] | Blatt: [1.0, -1.0] | OK
+17c S | Skript: [0.0, 0.0] | Blatt: [0.0, 0.0] | OK
+17c f''(0), f'''(0) | Skript: [0.0, -24.0] | Blatt: [0.0, -24.0] | OK
+17d Stelle 1 ist NS von f' | Skript: [0.0] | Blatt: [0.0] | OK
+17d H-Stellen | Skript: [1.0] | Blatt: [1.0] | OK
+17d T-Stellen | Skript: [-3.0, 2.0] | Blatt: [-3.0, 2.0] | OK
+17e H | Skript: [-3.0, 0.29872241020718365] | Blatt: [-3.0, 0.3] | OK
+17e T | Skript: [1.0, -5.43656365691809] | Blatt: [1.0, -5.44] | OK
+17e exakt | Skript: [0.29872241020718365, -5.43656365691809] | Blatt: [0.29872241020718365, -5.43656365691809] | OK
+17f | Skript: [5.0, 9.196986029286059] | Blatt: [5.0, 9.2] | OK
+17g max (Wert, Stelle) | Skript: [81.0, -3.0] | Blatt: [81.0, -3.0] | OK
+17g min (Wert, Stelle) | Skript: [0.0, 0.0] | Blatt: [0.0, 0.0] | OK
+17g Randwert g(5), H | Skript: [25.0, 4.0, 32.0] | Blatt: [25.0, 4.0, 32.0] | OK
+17h T | Skript: [-1.0, 2.0, 1.0, 2.0] | Blatt: [-1.0, 2.0, 1.0, 2.0] | OK
+17h H | Skript: [0.0, 3.0] | Blatt: [0.0, 3.0] | OK
+17h Grenzverhalten | Skript: oben, oben | Blatt: oben, oben | OK
+17i T | Skript: [0.0, 0.0] | Blatt: [0.0, 0.0] | OK
+17i H | Skript: [4.0, 2.1653645317858032] | Blatt: [4.0, 2.17] | OK
+17i f' | Skript: -x**2*exp(-x/2)/2 + 2*x*exp(-x/2) | Blatt: x*(4 - x)*exp(-x/2)/2 | OK
+18 Beispiel | Skript: [0.0] | Blatt: [0.0] | OK
+18a | Skript: [0.0] | Blatt: [0.0] | OK
+18b | Skript: [0.0] | Blatt: [0.0] | OK
+18c | Skript: [0.0] | Blatt: [0.0] | OK
+18d | Skript: [0.0] | Blatt: [0.0] | OK
+18e f'(4), f''(4) | Skript: [0.0, -18.0] | Blatt: [0.0, -18.0] | OK
+18f f'(-1), f''(-1), f(-1) | Skript: [0.0, 12.0, -7.0] | Blatt: [0.0, 12.0, -7.0] | OK
+18g Art | Skript: T | Blatt: T | OK
+18g Punkt | Skript: [-2.0, -1.0] | Blatt: [-2.0, -1.0] | OK
+18g f''(-2) | Skript: [0.0] | Blatt: [0.0] | OK
+18i Art | Skript: S | Blatt: S | OK
+18i Punkt | Skript: [1.0, 3.0] | Blatt: [1.0, 3.0] | OK
+18j f'(0), f'(1) | Skript: [-3.0, 2.0] | Blatt: [-3.0, 2.0] | OK
+18j Tiefstelle | Skript: [0.7207592200561265] | Blatt: [0.72] | OK
+18k T | Skript: [2.0, -14.0] | Blatt: [2.0, -14.0] | OK
+18k f''(2) | Skript: [48.0] | Blatt: [48.0] | OK
+18k Art bei 0 | Skript: S | Blatt: S | OK
+19a Nullstellen | Skript: [1.0, 5.0] | Blatt: [1.0, 5.0] | OK
+19a Extremstelle | Skript: [3.0] | Blatt: [3.0] | OK
+19b Abstand | Skript: [2.0] | Blatt: [2.0] | OK
+19c Nullstellen | Skript: [-2.0, 2.0] | Blatt: [-2.0, 2.0] | OK
+19c Tiefstelle | Skript: [-1.2360679774997898] | Blatt: [-1.2360679774997898] | OK
+19c gerundet | Skript: [-1.2360679774997898] | Blatt: [-1.24] | OK
+19d T | Skript: [2.0, -4.0] | Blatt: [2.0, -4.0] | OK
+19d H | Skript: [-2.0, 4.0] | Blatt: [-2.0, 4.0] | OK
+19d Abstand | Skript: [8.94427190999916] | Blatt: [8.94] | OK
+19e H | Skript: [1.0, 1.0] | Blatt: [1.0, 1.0] | OK
+19e T | Skript: [-1.0, -1.0] | Blatt: [-1.0, -1.0] | OK
+20a H | Skript: [-1.0, 7.0] | Blatt: [-1.0, 7.0] | OK
+20a T | Skript: [3.0, -25.0] | Blatt: [3.0, -25.0] | OK
+20 Jonas f''(-1), f''(3) | Skript: [-12.0, 12.0] | Blatt: [-12.0, 12.0] | OK
+20b H | Skript: [-2.0, 3.0] | Blatt: [-2.0, 3.0] | OK
+20b T | Skript: [0.0, -1.0] | Blatt: [0.0, -1.0] | OK
+21a x^5 bei 0 | Skript: S | Blatt: S | OK
+21c Stichprobe | Skript: HT | Blatt: HT | OK
+22a Achsenschnitt | Skript: [0.0, 3.0] | Blatt: [0.0, 3.0] | OK
+22a f' | Skript: 3*x**2 - 6*x | Blatt: 3*x*(x - 2) | OK
+22a f'(-1), f'(1) | Skript: [9.0, -3.0] | Blatt: [9.0, -3.0] | OK
+22a H | Skript: [0.0, 0.0] | Blatt: [0.0, 0.0] | OK
+22c | Skript: [0.0, 1.0] | Blatt: [0.0, 1.0] | OK
+22c Anzahl Extrema | Skript: 1 | Blatt: 1 | OK
+22d H | Skript: [0.0, 1.0] | Blatt: [0.0, 1.0] | OK
+22d Symmetrie | Skript: y | Blatt: y | OK
+22d Grenzwert | Skript: [0.0] | Blatt: [0.0] | OK
+23 Stetigkeit f(4)=g(4) | Skript: [1.0] | Blatt: [1.0] | OK
+23a Gipfel A | Skript: [2.0, 3.0] | Blatt: [2.0, 3.0] | OK
+23a Gipfel B | Skript: [6.0, 2.0] | Blatt: [6.0, 2.0] | OK
+23a g''(6) | Skript: [-1.5] | Blatt: [-1.5] | OK
+23b Länge in m | Skript: [412.31056256176606] | Blatt: [412.0] | OK
+23b möglich | Skript: ja | Blatt: ja | OK
+Abweichungen: 0

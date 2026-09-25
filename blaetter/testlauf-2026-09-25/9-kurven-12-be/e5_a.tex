@@ -1,0 +1,98 @@
+% Einheit 5 – Kurvenuntersuchung im Sachzusammenhang
+\setcounter{aufgabe}{38}
+\hypertarget{e5}{}\einheitenkopf{Einheit 5 von 5 · Kurvenuntersuchung im Sachzusammenhang}
+\zweigzeile{Hier lernst du, Sachfragen in Hoch-, Tief- und Wendepunkte zu übersetzen und die Ergebnisse im Sachzusammenhang zu deuten · kennst du seit Q1 (Klasse 11) · Abitur GK · baut auf: Extrempunkte (Einheit 2), Krümmung und Wendepunkte (Einheit 3), Graph und Ableitungsgraph (Einheit 4), Ableitung als Änderungsrate deuten, Gleichungen lösen, Funktionswerte berechnen}
+
+\begin{aufgabe}{Ich erkenne, was eine Sachfrage mathematisch bedeutet. Schreibe A (Hoch- oder Tiefpunkt von $f$, Ränder beachten), B (Wendepunkt von $f$, also Extremstelle von $f'$), C ($f'(t) = 0$) oder D (Wert von $f'(t)$ berechnen). Rechne nichts.}
+\begin{teile}
+\teil „Wann ist die Temperatur am höchsten?“ \leerfeld
+\teil „Wann nimmt die Zahl der Erkrankten am stärksten zu?“ \leerfeld
+\teil „Wann ändert sich der Wasserstand gerade nicht?“ \leerfeld
+\teil „Wie schnell wächst der Bestand nach 3 Tagen?“ \leerfeld
+\teil „Wann nimmt die Geschwindigkeit am stärksten ab?“ \leerfeld
+\teil „Welches ist der größte Wert im Zeitraum von 0 bis 10 Stunden?“ \leerfeld
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann den Verlauf eines Graphen im Sachzusammenhang beschreiben. Die Abbildung zeigt die Wassermenge $W(t)$ in einem Hochbehälter (in 100 m³), $t$ Stunden nach 6 Uhr.}
+Beispiel: Ein Graph steigt und wird dabei immer steiler. → Die Größe nimmt zu, und zwar immer schneller.
+
+\begin{ksys}[xmin=0,xmax=8,ymin=0,ymax=11,ablesen,xlabel=$t$ in h,ylabel=$W(t)$ in 100 m³]
+\funktionab{0.25*\x^3-3*\x^2+9*\x+2}{W}{0}{8}
+\end{ksys}
+
+Beschreibe den Verlauf im Zeitabschnitt mit „nimmt zu“ oder „nimmt ab“ und „immer schneller“ oder „immer langsamer“.
+\begin{teile}
+\teil $0 \le t \le 2$: \leerfeld \leerfeld
+\teil $2 \le t \le 4$: \leerfeld \leerfeld
+\teil $4 \le t \le 6$: \leerfeld \leerfeld
+\teil $6 \le t \le 8$: \leerfeld \leerfeld
+\teil Gib an, zu welcher Uhrzeit die Wassermenge am stärksten abnimmt. \leerfeld
+\teil Lies ab, wie viel Wasser zu diesem Zeitpunkt im Behälter ist. \leerfeld
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann größte Werte und stärkste Änderungen im Sachzusammenhang berechnen. Antworte mit Zahl, Einheit und Bedeutung.}
+\beispiel{h(t) &= -5t^2 + 20t && \text{Höhe eines Balls in m, } t \text{ in s} \\ h'(t) &= -10t + 20 = 0 && \Leftrightarrow t = 2 \\ h(2) &= 20 && \text{„Nach 2 s erreicht der Ball mit 20 m seine größte Höhe.“}}
+\begin{teile}
+\teil Die Flughöhe einer Drohne wird für $0 \le t \le 6$ durch $h(t) = -0{,}5t^3 + 3t^2$ beschrieben ($h$ in m, $t$ in s). Berechne die größte Flughöhe.
+\teil Die Zahl der Nutzer einer App wird für $0 \le t \le 14$ durch $N(t) = -0{,}1t^3 + 1{,}5t^2 + 20$ beschrieben ($N$ in Tausend, $t$ in Monaten). Weise nach, dass die Nutzerzahl nach 10 Monaten am größten ist, und gib die größte Nutzerzahl an.
+\teil Die Konzentration eines Wirkstoffs im Blut wird durch $K(t) = 50t\cdot\mathrm{e}^{-0{,}5t}$ beschrieben ($K$ in mg/l, $t$ in Stunden). Berechne, wann die Konzentration am stärksten abnimmt, und gib die Abnahmerate zu diesem Zeitpunkt an.
+\teil Der Wasserstand eines Flusses an einem Pegel wird für $0 \le t \le 5$ durch $f(t) = 0{,}5t^3 - 6t^2 + 18t + 20$ beschrieben ($f$ in cm, $t$ in Stunden). Bestimme den höchsten und den niedrigsten Wasserstand in diesem Zeitraum.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann größte Werte und stärkste Änderungen im Sachzusammenhang berechnen – weiter.}
+\begin{teile}
+\teil Das Profil eines Futtertrogs wird durch $s(x) = 0{,}1x^3 - 0{,}6x^2$ für $0 \le x \le 6$ beschrieben; der obere Rand liegt auf der $x$-Achse (1 LE = 5 cm). Prüfe, ob der Trog in einen Karton mit den Innenmaßen 32 cm Breite und 15 cm Höhe passt.
+\teil Die Zuflussrate in ein Becken wird für $0 \le t \le 15$ durch $r(t) = -0{,}2t^3 + 3t^2$ beschrieben ($r$ in Litern pro Minute, $t$ in Minuten). Die Wendestelle von $r$ liegt bei $t = 5$. Berechne $r'(5)$ und deute den Wert im Sachzusammenhang. (Abitur 2025)
+\teil Die Höhe zweier Pflanzen A und B wird für $0 \le t \le 12$ ($t$ in Wochen) durch $f(t) = -0{,}05t^3 + 1{,}3t^2 + t + 5$ und $g(t) = 0{,}4t^2 + 4t + 5$ beschrieben (in cm). Tom rechnet:
+\rechnung{d(t) &= f(t) - g(t) = -0{,}05t^3 + 0{,}9t^2 - 3t && (1) \\ d'(t) &= 0 \;\Leftrightarrow\; t = 2 \text{ oder } t = 10 && (2) \\ d''(10) &= -1{,}2 < 0 && (3) \\ d(10) &= 10; \quad d(0) = 0; \quad d(12) = 7{,}2 && (4)}
+Beschreibe die Bedeutung der Schritte im Sachzusammenhang und formuliere eine Aufgabenstellung, die Tom damit beantwortet. (Abitur 2024)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler bei der stärksten Zunahme. Für die Temperatur $T(t) = -0{,}1t^3 + 0{,}9t^2 + 15$ (in °C, $t$ in Stunden nach 8 Uhr, $0 \le t \le 8$) sucht Paul den Zeitpunkt der stärksten Zunahme:}
+\rechnung{T'(t) &= -0{,}3t^2 + 1{,}8t = 0 \\ t &= 0 \text{ oder } t = 6 \\ &\Rightarrow \text{„Um 14 Uhr nimmt die Temperatur am stärksten zu.“}}
+\begin{teile}
+\teil Finde den Fehler, benenne ihn und korrigiere die Rechnung.
+\teil Die Zahl der Besucher eines Stadtfests wird für $0 \le t \le 9$ durch $Z(t) = -0{,}2t^3 + 1{,}8t^2 + 50$ beschrieben ($Z$ in Hundert, $t$ in Stunden nach 14 Uhr). Bestimme, wann die Besucherzahl am stärksten zunimmt, und gib die Zunahme pro Stunde an.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Ergebnisse im Sachzusammenhang begründen.}
+\begin{teile}
+\teil $V(t)$ gibt das Volumen in einem Tank in Litern an, $t$ in Minuten. Begründe, warum $V'(t)$ in Litern pro Minute angegeben wird.
+\teil Die Temperatur wird von 6 bis 18 Uhr gemessen. Die höchste Temperatur liegt um 18 Uhr, obwohl die Ableitung dort nicht null ist. Erkläre, wie das sein kann.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Maße eines umschließenden Quaders aus einem Profil bestimmen.}
+\begin{teile}
+\teil Der Querschnitt eines Zelts wird durch $z(x) = -0{,}5x^2 + 2$ beschrieben (1 LE = 1 m, Boden auf der $x$-Achse); das Zelt ist 3 m lang. Berechne das Volumen des kleinsten Quaders, der das Zelt umschließt.
+\teil Eine Vase entsteht, wenn der Graph von $r(x) = 0{,}1x^3 - 0{,}9x^2 + 2{,}4x + 1$ für $0 \le x \le 6$ um die $x$-Achse rotiert (1 LE = 1 cm). Sie wird aus einem quaderförmigen Holzblock gedreht, der die Vase genau umschließt. Berechne die Maße des Blocks und seine Masse bei einer Dichte von 0,7 g/cm³.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Steigung und Neigungswinkel im Sachzusammenhang berechnen. Eine Straße steigt auf 100 m Länge nach dem Profil $h(x) = -0{,}00002x^3 + 0{,}003x^2$ an ($x$ und $h$ in m, $0 \le x \le 100$).}
+\begin{teile}
+\teil Bestimme die Stelle, an der die Straße am steilsten ist, und gib die Steigung dort in Prozent an.
+\teil Berechne den größten Neigungswinkel der Straße und prüfe, ob sie die Vorgabe „höchstens 10°“ einhält.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Werte am Graphen im Sachzusammenhang ablesen und deuten. Links: Kosten $K(x)$ und Erlös $E(x)$ eines Betriebs ($x$ in 100 Stück, Beträge in 1000 €). Rechts: Wasserstand $p(t)$ in einem Hafen ($p$ in m, $t$ in Stunden).}
+
+\begin{ksys}[xmin=0,xmax=9,ymin=0,ymax=60,ystep=10,ablesen,xlabel=$x$,ylabel=in 1000 €]
+\funktionab{0.1*\x^3-0.5*\x^2+1.6*\x+8}{K}{0}{9}
+\gerade[7]{5}{0}{E}
+\end{ksys}\ksysabstand\begin{ksys}[xmin=0,xmax=24,xstep=2,ymin=0,ymax=6,ablesen,xlabel=$t$ in h,ylabel=$p(t)$ in m]
+\funktionab{3+2*sin(30*\x)}{p}{0}{24}
+\end{ksys}
+
+\begin{teile}
+\teil Lies ab, für welche Stückzahlen der Erlös größer ist als die Kosten. \leerfeld
+\teil Deute $K(0) = 8$ im Sachzusammenhang.
+\teil Lies ab, um welchen mittleren Wasserstand der Wasserstand im Hafen schwankt. \leerfeld
+\end{teile}
+\end{aufgabe}

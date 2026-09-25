@@ -1,0 +1,47 @@
+8 Beispiel | Skript: + | Blatt: + | OK
+8a | Skript: + | Blatt: + | OK
+8b | Skript: - | Blatt: - | OK
+8c | Skript: + | Blatt: + | OK
+8d | Skript: - | Blatt: - | OK
+9 Beispiel Grenzen | Skript: [-1.0] | Blatt: [-1.0] | OK
+9 Beispiel VZ | Skript: -+ | Blatt: -+ | OK
+9a Grenzen | Skript: [-3.0, 3.0] | Blatt: [-3.0, 3.0] | OK
+9a VZ | Skript: +-+ | Blatt: +-+ | OK
+9b Grenzen | Skript: [-1.0, 3.0] | Blatt: [-1.0, 3.0] | OK
+9b VZ | Skript: -+- | Blatt: -+- | OK
+9b Probe f'(0) | Skript: [9.0] | Blatt: [9.0] | OK
+9c Extremstellen | Skript: [-2.0, 0.0, 2.0] | Blatt: [-2.0, 0.0, 2.0] | OK
+9c VZ | Skript: -+-+ | Blatt: -+-+ | OK
+9d Grenzen | Skript: [-1.0, 3.0] | Blatt: [-1.0, 3.0] | OK
+9d VZ | Skript: +-+ | Blatt: +-+ | OK
+9e Grenzen | Skript: [1.0] | Blatt: [1.0] | OK
+9e VZ | Skript: -+ | Blatt: -+ | OK
+9e f' | Skript: (x - 2)*exp(x) + exp(x) | Blatt: (x - 1)*exp(x) | OK
+9f d(t) | Skript: -t**3/10 + 3*t**2/2 - 27*t/10 | Blatt: -t**3/10 + 3*t**2/2 - 27*t/10 | OK
+9f Grenzen | Skript: [1.0, 9.0] | Blatt: [1.0, 9.0] | OK
+9f VZ | Skript: -+- | Blatt: -+- | OK
+9f d(0),d(1),d(9),d(10) | Skript: [0.0, -1.3, 24.3, 23.0] | Blatt: [0.0, -1.3, 24.3, 23.0] | OK
+9f Wertebereich | Skript: [-1.3, 24.3] | Blatt: [-1.3, 24.3] | OK
+10 Beispiel Schranke von f' | Skript: [1.0] | Blatt: [1.0] | OK
+10 Beispiel kein VZW/keine NS | Skript: 0 | Blatt: 0 | OK
+10a Schranke von f' | Skript: [5.0] | Blatt: [5.0] | OK
+10a kein VZW/keine NS | Skript: 0 | Blatt: 0 | OK
+10c Schranke von f' | Skript: [-2.0] | Blatt: [-2.0] | OK
+10c kein VZW/keine NS | Skript: 0 | Blatt: 0 | OK
+10b f'=1+e^x>0 | Skript: 0 | Blatt: 0 | OK
+10e f' | Skript: 2*x*exp(x) + (x**2 + 1)*exp(x) | Blatt: (x + 1)**2*exp(x) | OK
+10e VZ (nie negativ) | Skript: ++ | Blatt: ++ | OK
+11a Grenzen | Skript: [0.0, 4.0] | Blatt: [0.0, 4.0] | OK
+11a VZ | Skript: +-+ | Blatt: +-+ | OK
+11a Probestellen f'(-1), f'(1), f'(5) | Skript: [15.0, -9.0, 15.0] | Blatt: [15.0, -9.0, 15.0] | OK
+11 Mias Rechnung f''(0), f''(3) | Skript: [-12.0, 6.0] | Blatt: [-12.0, 6.0] | OK
+11b Grenzen | Skript: [-2.0, 0.0] | Blatt: [-2.0, 0.0] | OK
+11b VZ | Skript: +-+ | Blatt: +-+ | OK
+12a Minimum von 4x^2+7 | Skript: [7.0] | Blatt: [7.0] | OK
+12b VZ von f' (nie negativ) | Skript: ++ | Blatt: ++ | OK
+13a A Grenze | Skript: [10.0] | Blatt: [10.0] | OK
+13a A VZ | Skript: +- | Blatt: +- | OK
+13a B Grenze | Skript: [8.0] | Blatt: [8.0] | OK
+13a B VZ | Skript: +- | Blatt: +- | OK
+13b Differenz der Steigzeiten | Skript: [2.0] | Blatt: [2.0] | OK
+Abweichungen: 0

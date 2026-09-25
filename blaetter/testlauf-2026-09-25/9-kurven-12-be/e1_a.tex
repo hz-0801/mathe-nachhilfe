@@ -1,0 +1,59 @@
+% Einheit 1 – Monotonie und erste Ableitung
+\setcounter{aufgabe}{7}
+\hypertarget{e1}{}\einheitenkopf{Einheit 1 von 5 · Monotonie und erste Ableitung}
+\zweigzeile{Hier lernst du, am Vorzeichen der Ableitung abzulesen, wo ein Graph steigt und wo er fällt · kennst du seit Q1 (Klasse 11) · Abitur GK · baut auf: Ableitungen bilden, Gleichungen lösen}
+
+\begin{aufgabe}{Ich kann am Vorzeichen der Ableitung ablesen, ob ein Graph steigt oder fällt. Gegeben ist die Ableitung $f'$ einer Funktion $f$. Kreuze an, ob $f$ im angegebenen Intervall steigt oder fällt.}
+\beispiel{f'(x) &= 5x - 10 \text{ auf } [3;\,6] \\ f'(3) &= 5 > 0 && f' \text{ ist eine steigende Gerade} \\ f'(x) &> 0 && \text{für alle } x \text{ aus } [3;\,6] \\ &\Rightarrow f \text{ steigt auf } [3;\,6]}
+\begin{teile}
+\teil $f'(x) = 2x - 6$ auf $[4;\,7]$ \hfill \kreuz{steigt}\kreuz{fällt}
+\teil $f'(x) = -x + 5$ auf $[6;\,9]$ \hfill \kreuz{steigt}\kreuz{fällt}
+\teil $f'(x) = x^2 + 1$ auf $[-2;\,2]$ \hfill \kreuz{steigt}\kreuz{fällt}
+\teil $f'(x) = x^2 - 9$ auf $[-2;\,2]$ \hfill \kreuz{steigt}\kreuz{fällt}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Intervalle berechnen, in denen ein Graph steigt oder fällt. Bestimme, wo $f$ steigt und wo $f$ fällt (Monotonieintervalle); gib die Intervalle mit ihren Grenzen an.}
+\beispiel{f(x) &= x^2 + 2x \\ f'(x) &= 2x + 2 = 0 && \Leftrightarrow x = -1 \\ f'(-2) &= -2 < 0 && \Rightarrow f \text{ fällt auf } ]{-\infty};\,-1] \\ f'(0) &= 2 > 0 && \Rightarrow f \text{ steigt auf } [-1;\,\infty[}
+\begin{teile}
+\teil $f(x) = \frac{1}{3}x^3 - 9x$
+\teil $f(x) = -x^3 + 3x^2 + 9x$; prüfe das Vorzeichen von $f'$ in jedem Intervall an einer Probestelle.
+\teil Berechne die Extremstellen von $f(x) = x^4 - 8x^2$ und gib an, wo $f$ steigt und wo $f$ fällt.
+\teil Der Graph einer ganzrationalen Funktion dritten Grades hat genau zwei Extrempunkte, den Hochpunkt $H(-1 \mid 5)$ und den Tiefpunkt $T(3 \mid -4)$. Gib ohne Rechnung an, wo die Funktion steigt und wo sie fällt.
+\teil $f(x) = (x - 2)\cdot\mathrm{e}^{x}$
+\teil Die Wassermenge in zwei Becken wird für $0 \le t \le 10$ ($t$ in Stunden) durch $f(t) = -0{,}1t^3 + 1{,}2t^2 + 50$ (Becken A) und $g(t) = -0{,}3t^2 + 2{,}7t + 50$ (Becken B) beschrieben, beide in m³. Die Funktion $d$ mit $d(t) = f(t) - g(t)$ gibt an, wie viel mehr Wasser in Becken A ist. Ermittle, in welchen Zeiträumen $d$ steigt oder fällt, und gib den Wertebereich von $d$ für $0 \le t \le 10$ an. (Abitur 2021)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann am Term der Ableitung zeigen, dass ein Graph überall steigt oder überall fällt. Zeige mit der Ableitung, dass $f$ auf ganz $\mathbb{R}$ streng monoton steigt oder streng monoton fällt.}
+\beispiel{f(x) &= 2x^3 + x \\ f'(x) &= 6x^2 + 1 \\ 6x^2 &\ge 0 && \text{Quadrat} \\ f'(x) &\ge 1 > 0 && \text{für alle } x \\ &\Rightarrow f \text{ ist streng monoton steigend}}
+\begin{teile}
+\teil $f(x) = x^3 + 5x - 7$
+\teil $f(x) = x + \mathrm{e}^{x}$
+\teil $f(x) = -x^3 - 2x + 1$
+\teil Begründe, dass der Graph von $f$ aus a) keinen Hochpunkt und keinen Tiefpunkt hat.
+\teil Gegeben ist $f(x) = (x^2 + 1)\cdot\mathrm{e}^{x}$. Zeige, dass $f'(x) = (x + 1)^2\cdot\mathrm{e}^{x}$ gilt, und begründe damit, dass der Graph von $f$ an keiner Stelle fällt. (Abitur 2024)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler bei den Monotonieintervallen. Mia untersucht, wo $f(x) = x^3 - 6x^2$ steigt und wo $f$ fällt:}
+\rechnung{f'(x) &= 3x^2 - 12x \\ f''(x) &= 6x - 12 = 0 && \Leftrightarrow x = 2 \\ f''(0) &= -12 < 0 && \Rightarrow f \text{ fällt auf } ]{-\infty};\,2] \\ f''(3) &= 6 > 0 && \Rightarrow f \text{ steigt auf } [2;\,\infty[}
+\begin{teile}
+\teil Finde den Fehler, benenne ihn und korrigiere die Rechnung.
+\teil Bestimme, wo $g(x) = x^3 + 3x^2$ steigt und wo $g$ fällt.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann begründen, wann ein Graph überall steigt.}
+\begin{teile}
+\teil Für eine Funktion $f$ gilt $f'(x) = 4x^2 + 7$. Begründe ohne Rechnung, dass $f'(x)$ für kein $x$ null wird und der Graph von $f$ deshalb keinen Hoch- oder Tiefpunkt hat.
+\teil Tim sagt: „$f(x) = x^5$ ist nicht streng monoton steigend, weil $f'(0) = 0$ ist.“ Nimm Stellung.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann mit der Monotonie eine Aussage über zwei Modelle beurteilen. Die Temperatur an einem Sommertag wird für $0 \le t \le 14$ ($t$ in Stunden nach 6 Uhr, Temperatur in °C) durch zwei Modelle beschrieben: $A(t) = -0{,}02t^3 + 0{,}3t^2 + 15$ und $B(t) = -0{,}1t^2 + 1{,}6t + 14$.}
+\begin{teile}
+\teil Ermittle für beide Modelle, in welchem Zeitraum die Temperatur steigt.
+\teil Beurteile die Aussage: „Nach Modell A wird es zwei Stunden länger wärmer als nach Modell B.“ (Abitur 2023)
+\end{teile}
+\end{aufgabe}

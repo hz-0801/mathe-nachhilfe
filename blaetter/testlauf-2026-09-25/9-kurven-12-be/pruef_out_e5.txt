@@ -1,0 +1,56 @@
+40a | Skript: nimmt zu, immer langsamer | Blatt: nimmt zu, immer langsamer | OK
+40b | Skript: nimmt ab, immer schneller | Blatt: nimmt ab, immer schneller | OK
+40c | Skript: nimmt ab, immer langsamer | Blatt: nimmt ab, immer langsamer | OK
+40d | Skript: nimmt zu, immer schneller | Blatt: nimmt zu, immer schneller | OK
+40 Abschnittsgrenzen (H, T) | Skript: [2.0, 10.0, 6.0, 2.0] | Blatt: [2.0, 10.0, 6.0, 2.0] | OK
+40e Wendestelle | Skript: [4.0] | Blatt: [4.0] | OK
+40e Abnahme | Skript: - | Blatt: - | OK
+40f in m³ | Skript: [600.0] | Blatt: [600.0] | OK
+40 Bild: W(0), W(8) | Skript: [2.0, 10.0] | Blatt: [2.0, 10.0] | OK
+41 Beispiel | Skript: [2.0, 20.0] | Blatt: [2.0, 20.0] | OK
+41a (Wert, Stelle) | Skript: [16.0, 4.0] | Blatt: [16.0, 4.0] | OK
+41b N'(10), N''(10) | Skript: [0.0, -3.0] | Blatt: [0.0, -3.0] | OK
+41b N(10), N(0), N(14) | Skript: [70.0, 20.0, 39.6] | Blatt: [70.0, 20.0, 39.6] | OK
+41b global max | Skript: [70.0, 10.0] | Blatt: [70.0, 10.0] | OK
+41c Wendestelle | Skript: [4.0] | Blatt: [4.0] | OK
+41c Minimum von K' | Skript: T bei 4 | Blatt: T bei 4 | OK
+41c K'(4) | Skript: [-6.7667641618306344] | Blatt: [-6.77] | OK
+41c K'(4) exakt | Skript: [-6.7667641618306344] | Blatt: [-6.7667641618306344] | OK
+41d Nullstellen von f' | Skript: [2.0, 6.0] | Blatt: [2.0, 6.0] | OK
+41d max (Wert, Stelle) | Skript: [36.0, 2.0] | Blatt: [36.0, 2.0] | OK
+41d min (Wert, Stelle) | Skript: [20.0, 0.0] | Blatt: [20.0, 0.0] | OK
+41d f(5) | Skript: [22.5] | Blatt: [22.5] | OK
+42a Nullstellen | Skript: [0.0, 6.0] | Blatt: [0.0, 6.0] | OK
+42a T | Skript: [4.0, -3.2] | Blatt: [4.0, -3.2] | OK
+42a Breite, Tiefe in cm | Skript: [30.0, 16.0] | Blatt: [30.0, 16.0] | OK
+42a passt | Skript: nein | Blatt: nein | OK
+42b Wendestelle | Skript: [5.0] | Blatt: [5.0] | OK
+42b r'(5) | Skript: [15.0] | Blatt: [15.0] | OK
+42c d(t) | Skript: -t**3/20 + 9*t**2/10 - 3*t | Blatt: -t**3/20 + 9*t**2/10 - 3*t | OK
+42c Nullstellen d' | Skript: [2.0, 10.0] | Blatt: [2.0, 10.0] | OK
+42c d''(10) | Skript: [-1.2] | Blatt: [-1.2] | OK
+42c d(10), d(0), d(12) | Skript: [10.0, 0.0, 7.2] | Blatt: [10.0, 0.0, 7.2] | OK
+42c globaler Vorsprung | Skript: [10.0, 10.0] | Blatt: [10.0, 10.0] | OK
+43 Pauls Nullstellen T' | Skript: [0.0, 6.0] | Blatt: [0.0, 6.0] | OK
+43 Pauls Stelle ist H | Skript: [6.0] | Blatt: [6.0] | OK
+43a max T' (Wert, Stelle) | Skript: [2.7, 3.0] | Blatt: [2.7, 3.0] | OK
+43b max Z' (Wert, Stelle) | Skript: [5.4, 3.0] | Blatt: [5.4, 3.0] | OK
+43b Besucher pro Stunde | Skript: [540.0] | Blatt: [540.0] | OK
+45a Nullstellen | Skript: [-2.0, 2.0] | Blatt: [-2.0, 2.0] | OK
+45a Volumen | Skript: [24.0] | Blatt: [24.0] | OK
+45b H, T | Skript: [2.0, 3.0, 4.0, 2.6] | Blatt: [2.0, 3.0, 4.0, 2.6] | OK
+45b Ränder | Skript: [1.0, 4.6] | Blatt: [1.0, 4.6] | OK
+45b größter Radius | Skript: [4.6] | Blatt: [4.6] | OK
+45b Volumen | Skript: [507.84] | Blatt: [507.84] | OK
+45b Masse | Skript: [355.488] | Blatt: [355.5] | OK
+46a Wendestelle | Skript: [50.0] | Blatt: [50.0] | OK
+46a h'(50) | Skript: [0.15] | Blatt: [0.15] | OK
+46a h' an den Rändern | Skript: [0.0, 0.0] | Blatt: [0.0, 0.0] | OK
+46b Winkel | Skript: [8.530765609948133] | Blatt: [8.5] | OK
+46b eingehalten | Skript: ja | Blatt: ja | OK
+47a Schnittstellen im Bild | Skript: [2.0, 8.0] | Blatt: [2.0, 8.0] | OK
+47a Gewinn zwischen | Skript: + | Blatt: + | OK
+47b K(0) | Skript: [8.0] | Blatt: [8.0] | OK
+47 Bild: K(9) <= 60 | Skript: [54.8] | Blatt: [54.8] | OK
+47c Mittelwert (Max+Min)/2 | Skript: [3.0] | Blatt: [3.0] | OK
+Abweichungen: 0

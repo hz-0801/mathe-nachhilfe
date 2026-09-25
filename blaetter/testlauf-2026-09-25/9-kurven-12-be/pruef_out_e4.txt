@@ -1,0 +1,37 @@
+31 Beispiel | Skript: [-1.0, 2.0] | Blatt: [-1.0, 2.0] | OK
+31 Beispiel VZ | Skript: +-+ | Blatt: +-+ | OK
+31a | Skript: [-2.0, 0.0, 2.0] | Blatt: [-2.0, 0.0, 2.0] | OK
+31b | Skript: -+-+ | Blatt: -+-+ | OK
+31 f1 im Bild (y-Bereich) | Skript: [3.25, -3.0] | Blatt: [3.25, -3.0] | OK
+31c | Skript: [0.0, 2.0] | Blatt: [0.0, 2.0] | OK
+31d | Skript: +-+ | Blatt: +-+ | OK
+31e W | Skript: [1.0, 1.0] | Blatt: [1.0, 1.0] | OK
+31e f2'(1) | Skript: [-1.5] | Blatt: [-1.5] | OK
+31f Punkt x=1,5: f>0, f'<0, f''>0 | Skript: +-+ | Blatt: +-+ | OK
+32a f' | Skript: x**2 - 2*x | Blatt: x**2 - 2*x | OK
+32a Tabelle | Skript: [3.0, 0.0, -1.0, 0.0, 3.0] | Blatt: [3.0, 0.0, -1.0, 0.0, 3.0] | OK
+32c H, T | Skript: [0.0, 0.0, 2.0, -1.3333333333333333] | Blatt: [0.0, 0.0, 2.0, -1.3333333333333333] | OK
+33 Skizze H | Skript: [-2.0, 2.0] | Blatt: [-2.0, 2.0] | OK
+33 Skizze T | Skript: [2.0, -3.0] | Blatt: [2.0, -3.0] | OK
+33 Skizze W-Stelle | Skript: [0.0] | Blatt: [0.0] | OK
+33 f'-Skizze Nullstellen | Skript: [-2.0, 2.0] | Blatt: [-2.0, 2.0] | OK
+33c Mindestgrad (Beispiel x^4-2x^2: 2 T, 1 H) | Skript: [2.0, 1.0, 4.0] | Blatt: [2.0, 1.0, 4.0] | OK
+34b | Skript: [-1.0, 3.0] | Blatt: [-1.0, 3.0] | OK
+34a VZ zwischen | Skript: + | Blatt: + | OK
+34c | Skript: [1.0, 2.0] | Blatt: [1.0, 2.0] | OK
+35a W | Skript: [1.0, 2.0] | Blatt: [1.0, 2.0] | OK
+35a Normale Steigung | Skript: [-0.6666666666666666] | Blatt: [-0.6666666666666666] | OK
+35a max f' | Skript: [1.0, 1.5] | Blatt: [1.0, 1.5] | OK
+35a (2) f' nimmt 3 an? | Skript: nein | Blatt: nein | OK
+35b f - Wendetangente | Skript: -x**3/2 + 3*x**2/2 - 3*x/2 + 1/2 | Blatt: -(x - 1)**3/2 | OK
+35b Tangente bei x=0: Anzahl gemeinsamer Punkte | Skript: [2.0] | Blatt: [2.0] | OK
+36 Tiefpunkt von f' | Skript: [1.0, -4.0] | Blatt: [1.0, -4.0] | OK
+36a Wendestelle von f | Skript: [1.0] | Blatt: [1.0] | OK
+36b H-Stelle | Skript: [-1.0] | Blatt: [-1.0] | OK
+36b T-Stelle | Skript: [3.0] | Blatt: [3.0] | OK
+37a Grad | Skript: [4.0] | Blatt: [4.0] | OK
+38a/b | Skript: [2.0, 10.0] | Blatt: [2.0, 10.0] | OK
+38a VZ | Skript: -+- | Blatt: -+- | OK
+38c | Skript: [6.0, 4.0] | Blatt: [6.0, 4.0] | OK
+38 Bild: w'(0), w'(12) | Skript: [-5.0, -5.0] | Blatt: [-5.0, -5.0] | OK
+Abweichungen: 0

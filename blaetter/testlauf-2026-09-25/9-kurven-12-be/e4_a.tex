@@ -1,0 +1,110 @@
+% Einheit 4 – Graph und Ableitungsgraph
+\setcounter{aufgabe}{30}
+\hypertarget{e4}{}\einheitenkopf{Einheit 4 von 5 · Graph und Ableitungsgraph}
+\zweigzeile{Hier lernst du, aus dem Graphen einer Funktion den Graphen ihrer Ableitung zu entwickeln und umgekehrt · kennst du seit Q1 (Klasse 11), je nach Kursplan bis Q2 · Abitur GK · baut auf: Monotonie (Einheit 1), Extrempunkte (Einheit 2), Krümmung und Wendepunkte (Einheit 3), Ableitung als Steigung deuten, Graphen grob skizzieren}
+
+\begin{aufgabe}{Ich kann am Graphen von $f$ ablesen, wo $f'$ positiv, negativ oder null ist. Die Abbildungen zeigen die Graphen von $f_1$ und $f_2$; in den Graphen von $f_2$ ist eine Tangente eingezeichnet.}
+Beispiel: Der Graph steigt bis zum Hochpunkt bei $x = -1$, fällt bis zum Tiefpunkt bei $x = 2$ und steigt dann wieder. \\
+Also: $f'(x) = 0$ bei $x = -1$ und $x = 2$; \ $f'(x) > 0$ für $x < -1$ und $x > 2$; \ $f'(x) < 0$ für $-1 < x < 2$.
+
+\begin{ksys}[xmin=-3,xmax=4,ymin=-3,ymax=4,ablesen]
+\funktionab{0.25*\x^4-2*\x^2+1}{f_1}{-3}{3}
+\end{ksys}\ksysabstand\begin{ksys}[xmin=-2,xmax=4,ymin=-3,ymax=5,ablesen]
+\funktionab{0.5*\x^3-1.5*\x^2+2}{f_2}{-1.5}{3.5}
+\tangentean*{0.5*\x^3-1.5*\x^2+2}{1}{t}
+\end{ksys}
+
+\begin{teile}
+\teil Gib die Stellen an, an denen $f_1'(x) = 0$ ist. \leerfeld
+\teil Vorzeichen von $f_1'$ in den Abschnitten, von links nach rechts: \leerfeld
+\teil Gib die Stellen an, an denen $f_2'(x) = 0$ ist. \leerfeld
+\teil Gib das Vorzeichen von $f_2'(-1)$, $f_2'(1)$ und $f_2'(3)$ an. \leerfeld
+\teil Markiere den Wendepunkt von $f_2$, begründe, dass die Steigung dort negativ ist, und lies $f_2'$ an der Wendestelle an der Tangente ab.
+\teil Markiere auf dem Graphen von $f_2$ einen Punkt, in dem $f_2(x) > 0$, $f_2'(x) < 0$ und $f_2''(x) > 0$ gilt.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann den Graphen der Ableitung zum Graphen von $f$ zeichnen. Oben ist der Graph von $f(x) = \frac{1}{3}x^3 - x^2$ gezeichnet.}
+\begin{teile}
+\teil Bilde $f'(x)$ und fülle die Wertetabelle aus.
+\end{teile}
+\wertetabelle{x}{f'(x)}{-1,0,1,2,3}
+
+\ableitungspaar[xmin=-1,xmax=3,ymin=-2,ymax=1,ymin2=-2,ymax2=4]{\x^3/3-\x^2}{f}{}{f'}
+
+\begin{teile}
+\teil Zeichne den Graphen von $f'$ in das untere Koordinatensystem.
+\teil Begründe am Bild, warum die Nullstellen von $f'$ genau unter dem Hoch- und dem Tiefpunkt von $f$ liegen.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann einen möglichen Graphen zu vorgegebenen Eigenschaften skizzieren. Eine ganzrationale Funktion $f$ dritten Grades hat den Hochpunkt $H(-2 \mid 2)$, den Tiefpunkt $T(2 \mid -3)$ und die Wendestelle $x = 0$.}
+\begin{teile}
+\teil Skizziere einen möglichen Graphen von $f$ in das obere Koordinatensystem.
+\teil Skizziere dazu den Graphen von $f'$ in das untere; beachte, dass die Wendestelle von $f$ eine Extremstelle von $f'$ ist.
+\end{teile}
+
+\ableitungspaar[xmin=-4,xmax=4,ymin=-4,ymax=3,ymin2=-3,ymax2=3]{}{f}{}{f'}
+
+\begin{teile}
+\teil Begründe, welchen Grad eine ganzrationale Funktion mindestens hat, deren Graph zwei Tiefpunkte und einen Hochpunkt hat.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann aus dem Graphen einer Differenzfunktion die Lage zweier Graphen ablesen. Die Abbildung zeigt den Graphen der Funktion $d$ mit $d(x) = f(x) - g(x)$.}
+
+\begin{ksys}[xmin=-2,xmax=4,ymin=-3,ymax=3,ablesen]
+\funktionab{-0.5*\x^2+\x+1.5}{d}{-2}{4}
+\end{ksys}
+
+\begin{teile}
+\teil Gib an, für welche $x$ der Graph von $f$ oberhalb des Graphen von $g$ liegt. \leerfeld
+\teil Gib die Stellen an, an denen sich die Graphen von $f$ und $g$ schneiden. \leerfeld
+\teil Gib an, an welcher Stelle zwischen $x = -1$ und $x = 3$ der senkrechte Abstand der beiden Graphen am größten ist und wie groß er dort ist.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Aussagen über einen Graphen und seine Ableitung beurteilen. Die Abbildung zeigt den Graphen von $f(x) = -0{,}5x^3 + 1{,}5x^2 + 1$; es ist $f'(x) = -1{,}5x^2 + 3x$.}
+
+\begin{ksys}[xmin=-2,xmax=4,ymin=-3,ymax=5,ablesen]
+\funktionab{-0.5*\x^3+1.5*\x^2+1}{f}{-1.3}{3.5}
+\end{ksys}
+
+\begin{teile}
+\teil Beurteile die beiden Aussagen: (1) „Die Normale im Wendepunkt des Graphen von $f$ ist fallend und hat die Steigung $-\frac{2}{3}$.“ (2) „Die Ableitung $f'$ nimmt jeden Wert zwischen $-3$ und $3$ an.“ (Abitur 2024)
+\teil Beurteile die Aussage „Jede Tangente an den Graphen von $f$ hat mit dem Graphen genau zwei gemeinsame Punkte.“ Zeichne dazu passende Tangenten in die Abbildung ein. (Abitur 2023)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler beim Lesen eines Ableitungsgraphen. Die Abbildung zeigt den Graphen der Ableitung $f'$ einer Funktion $f$. Ben schreibt: „Der Graph hat bei $x = 1$ seinen Tiefpunkt, also hat $f$ bei $x = 1$ einen Tiefpunkt.“}
+
+\begin{ksys}[xmin=-2,xmax=4,ymin=-5,ymax=5,ablesen]
+\funktionab{\x^2-2*\x-3}{f'}{-2}{4}
+\end{ksys}
+
+\begin{teile}
+\teil Finde den Fehler, benenne ihn und korrigiere die Aussage.
+\teil Bestimme am Graphen von $f'$ die Extremstellen von $f$ und ihre Art.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Zusammenhänge zwischen $f$ und $f'$ begründen.}
+\begin{teile}
+\teil Begründe, warum der Graph von $f'$ bei einer ganzrationalen Funktion $f$ einen Grad niedriger ist als der von $f$.
+\teil Begründe: Hat der Graph von $f$ an der Stelle $x_0$ einen Wendepunkt, so hat der Graph von $f'$ dort einen Hoch- oder Tiefpunkt.
+\teil $f$ und $g$ sind ganzrationale Funktionen, deren Graphen auf dem Intervall $[0;\,4]$ oberhalb der $x$-Achse verlaufen. Die Flächen, die die beiden Graphen dort mit der $x$-Achse einschließen, sind gleich groß. Begründe, dass sich die Graphen von $f$ und $g$ im Intervall $[0;\,4]$ mindestens einmal schneiden.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann aus dem Graphen einer Änderungsrate den Verlauf eines Bestands ablesen. Die Abbildung zeigt, wie schnell sich der Wasserstand eines Stausees ändert: $w'(t)$ in Zentimetern pro Stunde, $t$ in Stunden nach Mitternacht.}
+
+\begin{ksys}[xmin=0,xmax=12,ymin=-6,ymax=5,ablesen,xlabel=$t$ in h,ylabel=$w'(t)$ in cm/h]
+\funktionab{-0.25*\x^2+3*\x-5}{w'}{0}{12}
+\end{ksys}
+
+\begin{teile}
+\teil Gib an, in welchem Zeitraum der Wasserstand steigt. \leerfeld
+\teil Gib an, wann der Wasserstand einen Tiefpunkt und wann er einen Hochpunkt erreicht.
+\teil Gib an, wann der Wasserstand am schnellsten steigt und wie schnell.
+\end{teile}
+\end{aufgabe}

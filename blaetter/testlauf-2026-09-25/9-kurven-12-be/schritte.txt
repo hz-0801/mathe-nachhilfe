@@ -1,0 +1,111 @@
+1 PowerShell t0 · Arbeitsverzeichnis anlegen, Startstempel (6.3)
+2 PowerShell curl · Themenregister und Register der Blätter holen (1.2) – Register führt kurvenuntersuchung nicht: mit Ausblick
+3 Grep · Themenregister nach dem Thema durchsuchen
+4 Read · Sek-II-Abschnitt des Themenregisters
+5 Grep · weitere Treffer im Register
+6 Grep · Beginn des Blätter-Registers
+7 Read · Blätter-Register (4 Blätter, kein Kurvenuntersuchungsblatt)
+8 PowerShell curl · Eintrag kurvenuntersuchung.md holen
+9 Read · Eintrag Teil 1 (Verortung bis Merkkasten 4)
+10 Read · Eintrag Teil 2 (bis Prüfliste)
+11 PowerShell curl · mathblatt.sty und Anleitung_mathblatt.md holen (4.5)
+12 Read · Anleitung
+13 Grep · Zählername der Vorlage und Kopfmakros (Zweigzeile nicht vorhanden)
+14 Grep · Signaturen von \feldl, \leerfeld, \kreuz, \begleitteil, \erg
+15 Write · check.tex (Prüfrahmen je Einheit)
+16 Write · zone_a.tex
+17 Edit · zone_a.tex: Punkt C in Aufgabe 7 beschriften
+18 Write · zone_l.tex
+19 Write · pruef.py (Zone)
+20 PowerShell · Zone rechnen, kompilieren, rendern, Log lesen – 10 Abweichungen
+21 PowerShell · Abweichungen anzeigen: Skriptfehler (sympify ohne reelles x)
+22 Edit · Korrektur pruef.py: Blattausdrücke mit reellem x einlesen
+23 Read · Zone Seite 1 ansehen (Ablesegrafik)
+24 Read · Zone Seite 2 ansehen
+25 Read · Zone Seite 3 ansehen (Ablesegrafik 7)
+26 PowerShell · Grafiken der Zone vergrößert rendern
+27 Read · Grafik 7 prüfen
+28 Read · Grafik 1 prüfen: negative y-Zahlen unter dem Graphen
+29 Edit · Korrektur zone_a.tex: ksys Aufgabe 1 ymin=-2, Graph ab x=-0,19 (Zahlen −3, −4 lagen im Graphen)
+30 PowerShell · Korrektur: Zone neu rechnen (0 Abweichungen) und kompilieren, Stempel zone
+31 Write · Kurvenuntersuchung_KennstDuSchon.tex
+32 PowerShell · Zone-PDF kompilieren (3 Seiten)
+33 PowerShell · Stempel weiter (unbeaufsichtigter Lauf, Antwort in der Eingabe)
+34 Write · e1_a.tex
+35 Write · e1_l.tex
+36 Edit · pruef.py Einheit 1
+37 PowerShell · E1 rechnen, kompilieren, rendern – 2 Abweichungen (Skript: Probestelle −10⁴ ergibt e^x = 0)
+38 Edit · Korrektur pruef.py: Probestellen neben den Grenzen
+39 Read · E1 Seite 1 ansehen: Intervall ]−∞ mit Binärabstand
+40 Edit · Korrektur e1_a.tex: ]{-\infty}
+41 Edit · Korrektur e1_l.tex: ]{-\infty}
+42 PowerShell · Korrektur: E1 neu rechnen (0) und kompilieren, Stempel e 1
+43 Write · e2_a.tex
+44 Write · e2_l.tex
+45 Edit · pruef.py Einheit 2
+46 PowerShell · E2 rechnen (0 Abweichungen), kompilieren, rendern
+47 Read · E2 Seite 1 ansehen
+48 Read · E2 Seite 2 ansehen
+49 PowerShell · Stempel e 2
+50 Write · e3_a.tex
+51 Write · e3_l.tex
+52 Edit · pruef.py Einheit 3
+53 PowerShell · E3 rechnen, kompilieren, rendern – Skript 2,1 und 4,33, Lösung trug 1,9 und 4,3
+54 Edit · Korrektur e3_l.tex 27c: x ≈ 2,1, c ≤ 4,33
+55 Read · E3 Seite 1 (Zeichenfläche 26)
+56 Read · E3 Seite 2 (Zeichenfläche 27)
+57 Read · E3 Seite 3 (Lösungsgrafik 26)
+58 PowerShell · Korrektur: E3 neu kompilieren, Stempel e 3
+59 Write · e4_a.tex
+60 Write · e4_l.tex
+61 Edit · pruef.py Einheit 4
+62 PowerShell · E4 rechnen (0 Abweichungen), kompilieren, rendern
+63 Read · E4 Seite 1: Feld von 31 b) bricht in die Zeile von c)
+64 Read · E4 Seite 2 (ableitungspaar 32)
+65 PowerShell · Grafiken 31 vergrößert rendern
+66 Read · Label f_1 am rechten Rand abgeschnitten
+67 Edit · Korrektur e4_a.tex: ksys f_1 xmax=4
+68 Edit · Korrektur e4_a.tex: \\ vor dem Feld in 31 b)
+69 Read · E4 Seite 3 (33, 34)
+70 Read · E4 Seite 4 (35, 36)
+71 Read · E4 Seite 5 (38)
+72 PowerShell · Korrektur: E4 neu kompilieren, Stempel e 4
+73 Read · E4 Seite 1: Feld von 31 b) steht allein über c)
+74 Edit · Korrektur e4_a.tex: Text von 31 b) gekürzt auf eine Zeile mit Feld
+75 PowerShell · Korrektur: E4 neu kompilieren
+76 Read · 31 a) bis f) geprüft
+77 Write · e5_a.tex
+78 Edit · e5_a.tex: Verlaufsbeschreibung 40 a)–d) in teile mit zwei Feldern
+79 Write · e5_l.tex
+80 Edit · pruef.py Einheit 5
+81 PowerShell · E5 rechnen, kompilieren – 1 Abweichung (Skript: Mengenreihenfolge), Overfull \hbox 19,3pt in 43
+82 Edit · Korrektur pruef.py: Schnittstellen sortieren
+83 Read · E5 Seite 2: \rechnung in 42 c) und 43 läuft über den Rand
+84 Edit · Korrektur e5_a.tex: \rechnung in 43 neu gegliedert
+85 Edit · Korrektur e5_a.tex: \rechnung in 42 c) mit Nummern rechts
+86 Read · E5 Seite 3 (Grafiken 47)
+87 Read · E5 Seite 1 (Grafik 40)
+88 PowerShell · Korrektur: E5 neu rechnen (0) und kompilieren, Stempel e 5
+89 Read · E5 Seite 2 geprüft
+90 Edit · zone_l.tex: Kopf wie im Gesamt („Das kennst du schon“)
+91 Write · rahmen.py (Abhakseite aus den Titeln, Seitenbereiche aus der Textextraktion)
+92 Write · Kurvenuntersuchung_Lernblatt.tex
+93 Write · Kurvenuntersuchung_Lernblatt.tex neu: Makronamen ohne Ziffern (\SeE1 ist kein Makroname)
+94 Edit · rahmen.py: Schlüssel an Makronamen angepasst
+95 Write · Kurvenuntersuchung_Gesamt.tex
+96 Write · Kurvenuntersuchung_Loesungen.tex
+97 PowerShell · Lernblatt: Abhakseite bauen, erster Lauf, Seitenbereiche eintragen, zweiter Lauf – Abhakseite auf zwei Seiten
+98 PowerShell · Überlauf der Abhakseite und Seitenfüllung prüfen (E4 Seite 10 und 13 unter einem Drittel Text, grafikgefüllt)
+99 Edit · Korrektur rahmen.py: Abhakseite ohne Absatzabstand
+100 Edit · rahmen.py: Gruppe „Kennst du schon“ wie im Verzeichnis
+101 Edit · Korrektur Lernblatt-Vorspann: \abhakgruppe enger
+102 Edit · Korrektur Gesamt-Vorspann: \abhakgruppe enger
+103 PowerShell · Korrektur: Lernblatt neu, Abhakseite auf einer Seite, Verzeichnis 2–3 · 4–6 · 7–8 · 9–13 · 14–16 · 17, Stempel lernblatt
+104 Read · Abhakseite geprüft
+105 PowerShell · Gesamt: zwei Läufe mit Seitenbereichen, Nummern 1–47 durchlaufend, Stempel gesamt
+106 PowerShell · Lösungen kompilieren, Nummern 1–47, Links von Lernblatt und Gesamt gegen Zweigköpfe geprüft, Stempel loesungen
+107 Read · Lösungen Seite 3 (Lösungsgrafiken 26, 33)
+108 Write · archiv.py
+109 Write · schritte.txt
+110 Write · chat_quelle.txt
+111 PowerShell · protokoll.txt und chat.txt schreiben, Archiv packen
