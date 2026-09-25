@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% --- im Vorspann definierte Bausteine (fehlen in Vorlage 2026-09-22h) ---
+% Zweigzeile: zweite Zeile unter \einheitenkopf, kleinere Schrift
+\newcommand{\zweigzeile}[1]{\vspace{-1.5mm}\par\noindent{\small #1}\par\medskip}
+% Punktfeld mit Punktnamen (Vorlage hat nur \punktfeld mit S)
+\newcommand{\punktfeldn}[1]{\ensuremath{#1(\underline{\hspace{1.2cm}}\,|\,\underline{\hspace{1.2cm}})}}
+% leeres Gitter mit Achsenpfeilen ohne Bezifferung (Achseneinteilung selbst wählen), Karo 8 mm
+\newcommand{\leeresgitter}[2]{\begin{tikzpicture}[baseline=(current bounding box.north)]
+  \draw[step=0.8cm,color=mbgrau!45,line width=0.3pt] (0,0) grid ({#1*0.8},{#2*0.8});
+  \draw[->,line width=0.8pt] (0,0)--({#1*0.8+0.4},0);
+  \draw[->,line width=0.8pt] (0,0)--(0,{#2*0.8+0.4});\end{tikzpicture}}
+% lange Schreiblinie für Deutungstabellen (\leerzelle ist 1,4 cm)
+\newcommand{\langzelle}{\rule[-0.5ex]{8cm}{0.4pt}}
+% Abhakzeile: Kästchen, Nummer, Ich-kann-Satz
+\newcommand{\abhak}[2]{\par\noindent\hangindent=2.6em\hangafter=1$\square$\enspace\makebox[1.6em][r]{#1.}\enspace #2\par\smallskip}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\blattkopf{Potenz- und Exponentialfunktionen}{Gesamt}
+\weit
+\einheitenkopf*{Inhalt}
+\input{gesamt_toc}
+\clearpage\input{zone_a}
+\clearpage\input{e1_a}
+\clearpage\input{e2_a}
+\clearpage\input{e3_a}
+\clearpage\input{e4_a}
+\clearpage\input{e5_a}
+\clearpage\input{abhaken}
+\end{document}

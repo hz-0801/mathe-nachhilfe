@@ -1,0 +1,61 @@
+Prüfung e2: Nummer · Skriptwert · Blattwert · Ergebnis
+21a · nimmt zu · nimmt zu · OK
+21b · nimmt ab · nimmt ab · OK
+21c · nimmt zu · nimmt zu · OK
+21d · nimmt ab · nimmt ab · OK
+21e · nimmt zu · nimmt zu · OK
+22 Bsp · 1.11 · 1,11 · OK
+22a · 1.1 · 1,1 · OK
+22b · 1.15 · 1,15 · OK
+22c · 1.02 · 1,02 · OK
+22d · 1.35 · 1,35 · OK
+22e · 0.6 · 0,6 · OK
+22f · 7 · 7 · OK
+22g · 1.16 · 1,16 · OK
+22h q1 · 1.15 · 1,15 · OK
+22h q2 · 1.15 · 1,15 · OK
+22h q3 · 1.15 · 1,15 · OK
+22i q · 1.1 · 1,1 · OK
+22i p · 10 · 10 · OK
+22j q1 · 1.25 · 1,25 · OK
+22j q2 · 1.25 · 1,25 · OK
+22j q3 · 1.25 · 1,25 · OK
+23 Bsp · 330 · 330 · OK
+23a · 140 · 140 · OK
+23b · 550 · 550 · OK
+23c · 840 · 840 · OK
+23d · 255 · 255 · OK
+23e 0 · 400 · 400 · OK
+23e 1 · 440 · 440 · OK
+23e 2 · 484 · 484 · OK
+23f · 1650 · 1650 · OK
+23f Kontrolle · 1815 · 1815 · OK
+23g · 3472.875 · 3472,88 · OK
+24a · 1210 · 1210 · OK
+24b Jahr · 4 · 4 · OK
+24b Probe · 732.05 · 732,05 · OK
+24b Tabelle · 550 · 550 · OK
+24c 2 · 480 · 480 · OK
+24c 3 · 384 · 384 · OK
+24c Kontrolle · 600 · 600 · OK
+24d 2025 · 144 · 144,00 · OK
+24d 2026 · 149.04 · 149,04 · OK
+24d 2027 · 154.2564 · 154,26 · OK
+24d 2028 · 159.655374 · 159,66 · OK
+25 Paul Betrag · 1080 · 1080 · OK
+25 Paul 1 · 6120 · 6120 · OK
+25a 2 · 5202 · 5202 · OK
+25a 3 · 4421.7 · 4421,70 · OK
+25b 1 · 3240 · 3240 · OK
+25b 2 · 2916 · 2916 · OK
+25b 3 · 2624.4 · 2624,40 · OK
+25c Lena · 180 · 180 · OK
+25c · 2180 · 2180 · OK
+25d · 2675 · 2675 · OK
+26c · 0.75 · 0,75 · OK
+27a 1 · 12240 · 12240 · OK
+27a 2 · 12484.8 · 12485 · OK
+27a 3 · 12734.496 · 12734 · OK
+27b · 3 · 3 · OK
+Sperrzahlen im Aufgabenquelltext: keine
+Abweichungen: 0

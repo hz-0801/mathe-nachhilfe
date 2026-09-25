@@ -1,0 +1,54 @@
+Prüfung e4: Nummer · Skriptwert · Blattwert · Ergebnis
+37 Bsp · 175 · 175 · OK
+37a · 180 · 180 · OK
+37b · 700 · 700 · OK
+37c · 1.25 · 1,25 · OK
+37d · 1450 · 1450 · OK
+37e Tabelle 4 · 1131.37085 · 1131 · OK
+37e Tabelle 8 · 800 · 800 · OK
+37e Tabelle 12 · 565.685425 · 566 · OK
+37e Tabelle 16 · 400 · 400 · OK
+37e · 8 · 8 · OK
+37f Tabelle 1 · 339 · 339 · OK
+37f Tabelle 2 · 383.07 · 383 · OK
+37f Tabelle 3 · 432.8691 · 433 · OK
+37f Tabelle 4 · 489.142083 · 489 · OK
+37f Tabelle 5 · 552.730554 · 553 · OK
+37f Tabelle 6 · 624.585526 · 625 · OK
+37f Tabelle 7 · 705.781644 · 706 · OK
+37f · 6 · 6 · OK
+38a · 3 · 3 · OK
+39a · 5 · 5 · OK
+39a 1 · 46 · 46 · OK
+39a 2 · 52.9 · 52,9 · OK
+39a 3 · 60.835 · 60,8 · OK
+39a 4 · 69.96025 · 70,0 · OK
+39a 5 · 80.454287 · 80,5 · OK
+39b · 5 · 5 · OK
+39b 1 · 345 · 345 · OK
+39b 2 · 396.75 · 396,8 · OK
+39b 3 · 456.2625 · 456,3 · OK
+39b 4 · 524.701875 · 524,7 · OK
+39b 5 · 603.407156 · 603,4 · OK
+39c · 4.959484 · 5,0 · OK
+39c genauer · 4.959484 · 4,96 · OK
+39d · 8.043232 · 8 · OK
+39d doppelt · 3.2 · 3,2 · OK
+40 Tabelle 2 · 420.448208 · 420 · OK
+40 Tabelle 4 · 353.553391 · 354 · OK
+40 Tabelle 6 · 297.301779 · 297 · OK
+40 Tabelle 8 · 250 · 250 · OK
+40a · 8 · 8 · OK
+40b Tabelle 9 · 1697.056275 · 1697 · OK
+40b Tabelle 18 · 1200 · 1200 · OK
+40b Tabelle 27 · 848.528137 · 849 · OK
+40b Tabelle 36 · 600 · 600 · OK
+40b · 18 · 18 · OK
+41a · 8 · 8 · OK
+42a 12 · 4 · 4 · OK
+42a 24 · 2 · 2 · OK
+42a 36 · 1 · 1 · OK
+42b · 1.587401 · 1,59 · OK
+42c · 36 · 36 · OK
+Sperrzahlen im Aufgabenquelltext: keine
+Abweichungen: 0

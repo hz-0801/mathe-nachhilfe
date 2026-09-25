@@ -1,0 +1,84 @@
+% Einheit 4 – Verdopplungs- und Halbwertszeit
+\setcounter{aufgabe}{35}
+\hypertarget{e4}{}\einheitenkopf*{Einheit 4 von 5 · Verdopplungs- und Halbwertszeit}
+\zweigzeile{Hier lernst du, die Zeit zu bestimmen, nach der sich ein Wert verdoppelt oder halbiert hat \,·\, neu in diesem Jahr \,·\, P10 \,·\, baut auf: Einheit 3, Wertetabelle und Graph lesen, Potenz mit dem Taschenrechner}
+
+\begin{aufgabe}{Ich erkenne, ob in einer Frage die Zeit oder der Bestand verdoppelt oder halbiert wird. Kreuze an. Du musst nichts ablesen.}
+\begin{teile}
+\teil Nach wie vielen Jahren hat sich das Guthaben verdoppelt? \hfill \kreuz{Zeit}\kreuz{Bestand}
+\teil Wie viel Geld ist auf dem Konto, wenn man doppelt so lange spart? \hfill \kreuz{Zeit}\kreuz{Bestand}
+\teil Wann ist nur noch die Hälfte des Wirkstoffs im Blut? \hfill \kreuz{Zeit}\kreuz{Bestand}
+\teil Wie viele Bakterien sind es nach der halben Zeit? \hfill \kreuz{Zeit}\kreuz{Bestand}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Verdopplungszeit und die Halbwertszeit bestimmen. Bilde den Zielwert und kreuze an, welche Zeit gesucht ist.}
+\beispiel{\text{Anfangswert } 350\,\text{g, der Bestand nimmt ab} &\;\rightarrow\; \text{Zielwert } 175\,\text{g, gesucht ist die Halbwertszeit}}
+\begin{teile}
+\teil Anfangswert $90$, der Bestand nimmt zu. \hfill Zielwert: \leerfeld \kreuz{Verdopplungszeit}\kreuz{Halbwertszeit}
+\teil Anfangswert $1\,400$, der Bestand nimmt ab. \hfill Zielwert: \leerfeld \kreuz{Verdopplungszeit}\kreuz{Halbwertszeit}
+\teil Anfangswert $2{,}5\,\text{mg}$, der Bestand nimmt ab. \hfill Zielwert: \leerfeld \kreuz{Verdopplungszeit}\kreuz{Halbwertszeit}
+\teil Anfangswert $725$, der Bestand nimmt zu. \hfill Zielwert: \leerfeld \kreuz{Verdopplungszeit}\kreuz{Halbwertszeit}
+\end{teile}
+Lies die gesuchte Zeit aus der Tabelle ab.
+\begin{teile}
+\teil Ein Stoff zerfällt. \hfill Halbwertszeit: \leerfeld[Tage]
+\end{teile}
+\sachtabelle{lccccc}{Zeit in Tagen & 0 & 4 & 8 & 12 & 16}{Menge in g & 1\,600 & 1\,131 & 800 & 566 & 400}
+\begin{teile}
+\teil Ein Bestand wächst. Der doppelte Wert steht nicht genau in der Tabelle. Gib die Zeit an, die am nächsten liegt. \hfill Verdopplungszeit: etwa \leerfeld[Jahre]
+\end{teile}
+\sachtabelle{lcccccccc}{Jahr & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7}{Bestand & 300 & 339 & 383 & 433 & 489 & 553 & 625 & 706}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Verdopplungszeit und die Halbwertszeit bestimmen – weiter. Ein Wirkstoff wird im Körper abgebaut. Der Graph zeigt die Menge in mg, $t$ ist die Zeit in Stunden.}
+
+\begin{ksys}[xmin=0,xmax=10,ymin=0,ymax=360,ystep=40,ablesen,xlabel=$t$ in h,ylabel=mg]
+\funktion[7]{320*0.5^(\x/3)}{}
+\end{ksys}
+
+\begin{teile}
+\teil Lies die Halbwertszeit am Graphen ab. \quad \leerfeld[h]
+\teil Beschreibe in zwei Sätzen, wie du vorgegangen bist.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Verdopplungszeit und die Halbwertszeit bestimmen – weiter. Rechne mit dem Wachstumsfaktor.}
+\begin{teile}
+\teil Ein Bestand von $40$ Tieren wächst jedes Jahr um $15\,\%$. Rechne Schritt für Schritt, bis sich der Bestand verdoppelt hat. Nach wie vielen Jahren ist das erstmals der Fall? \quad \leerfeld[Jahre]
+\teil Zeige: Auch ein Bestand von $300$ Tieren braucht bei $15\,\%$ Wachstum genauso viele Jahre, bis er sich verdoppelt hat.
+\teil Mit dem Taschenrechner geht es genau: Die Verdopplungszeit bei $15\,\%$ ist $t = \log(2) : \log(1{,}15)$; $\log$ ist eine Taste deines Taschenrechners. Berechne $t$ und runde auf eine Nachkommastelle. \quad \leerfeld[Jahre]
+\teil Der Graph zeigt die Zahl der Elektroautos in einer Stadt (in Tausend), $t$ in Jahren seit Beginn der Zählung. Bestimme mithilfe des Graphen, nach wie vielen Jahren sich die Zahl verdoppelt hat. Beschreibe dein Vorgehen. (P10 2020)
+\end{teile}
+
+\begin{ksys}[xmin=0,xmax=12,ymin=0,ymax=4.8,ystep=0.4,ablesen,xlabel=$t$ in Jahren,ylabel=Tausend]
+\funktion[10]{1.6*1.09^\x}{}
+\end{ksys}
+
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler beim Bestimmen der Halbwertszeit. Ein Stoff zerfällt:}
+\sachtabelle{lccccc}{Zeit in Stunden & 0 & 2 & 4 & 6 & 8}{Menge in mg & 500 & 420 & 354 & 297 & 250}
+Emil schreibt: „Die Tabelle geht bis 8 Stunden. Die Hälfte davon sind 4 Stunden, also ist die Halbwertszeit 4 Stunden.“
+\begin{teile}
+\teil Finde den Fehler, benenne ihn und gib die richtige Halbwertszeit an.
+\teil Bestimme selbst die Halbwertszeit. \hfill Halbwertszeit: \leerfeld[Jahre]
+\end{teile}
+\sachtabelle{lccccc}{Zeit in Jahren & 0 & 9 & 18 & 27 & 36}{Menge in g & 2\,400 & 1\,697 & 1\,200 & 849 & 600}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann begründen, warum die Verdopplungszeit immer gleich lang ist. Entscheide ohne Rechnung und begründe.}
+\begin{teile}
+\teil Ein Bestand verdoppelt sich alle $7$ Jahre. Wie viel Mal so groß wie am Anfang ist er nach $21$ Jahren?
+\teil Warum genügt es, den doppelten Wert einmal zu suchen? Warum dauert die nächste Verdopplung genauso lang?
+\teil Ein Bestand wächst jedes Jahr um denselben Betrag. Hat er auch eine feste Verdopplungszeit?
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann mit der Halbwertszeit eine Entscheidung treffen. Ein Pflanzenschutzmittel zerfällt im Boden mit einer Halbwertszeit von $12$ Tagen. Auf ein Feld werden $8\,\text{kg}$ ausgebracht. Gemüse darf erst gesät werden, wenn weniger als $1\,\text{kg}$ im Boden ist.}
+\begin{teile}
+\teil Wie viel Mittel ist nach $12$, nach $24$ und nach $36$ Tagen noch im Boden?
+\teil Reicht es, vier Wochen ($28$ Tage) zu warten? Begründe.
+\teil Ab wann darf gesät werden?
+\end{teile}
+\end{aufgabe}

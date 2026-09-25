@@ -1,0 +1,46 @@
+Prüfung e3: Nummer · Skriptwert · Blattwert · Ergebnis
+28a Schritte · 7 · 7 · OK
+28b Schritte · 5 · 5 · OK
+28c Schritte · 8 · 8 · OK
+28d Schritte · 7 · 7 · OK
+29a q · 1.02 · 1,02 · OK
+29b q · 1.15 · 1,15 · OK
+29c q · 1.025 · 1,025 · OK
+29d q · 1.35 · 1,35 · OK
+29f q · 0.98 · 0,98 · OK
+30a q · 0.88 · 0,88 · OK
+30d q · 1.028 · 1,028 · OK
+30b p · 7 · 7 · OK
+31 Bsp · 302.5 · 302,5 · OK
+31a · 4000 · 4000 · OK
+31b · 108.9 · 108,9 · OK
+31c · 2205 · 2205 · OK
+31d · 450 · 450 · OK
+31e · 2315.25 · 2315,25 · OK
+31f t · 8 · 8 · OK
+31f · 3983.641895 · 3984 · OK
+31g · 1590.349078 · 1590,35 · OK
+31h · 1669.652086 · 1669,65 · OK
+31h Urteil · stimmt · stimmt · OK
+31i A · 22828.352302 · 22828 · OK
+31i B · 22320 · 22320 · OK
+31i Differenz · 508.352302 · 508 · OK
+32a t · 4 · 4 · OK
+32a Wert · 2491.129688 · 2491 · OK
+32b t · 7 · 7 · OK
+32b Wert · 288.519379 · 288,5 · OK
+32c · 50931.703299 · 50932 · OK
+33 Ole · 5040 · 5040 · OK
+33a · 886.473266 · 886,47 · OK
+33b · 1328.67075 · 1328,67 · OK
+33c t · 6 · 6 · OK
+33c · 2027.092355 · 2027,09 · OK
+33d · 2885.596774 · 2885,60 · OK
+34b Faktor · 1.268242 · 1,268 · OK
+34b Prozent · 26.824179 · 26,8 · OK
+35b · 137.842 · 137,8 · OK
+35c 5 · 92.684961 · 92,7 · OK
+35c 6 · 76.001668 · 76,0 · OK
+35c t · 6 · 6 · OK
+Sperrzahlen im Aufgabenquelltext: keine
+Abweichungen: 0

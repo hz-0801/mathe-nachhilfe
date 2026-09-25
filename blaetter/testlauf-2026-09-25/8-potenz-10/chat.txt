@@ -1,0 +1,33 @@
+Eingabe des Lehrers:
+potenz-exponentialfunktionen 10 – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+Deutungszeile:
+Lernblatt · Oberschule als Standpunkt, Gymnasium als Zusatz · mit Wiederholung · mit Ausblick (Thema noch nicht gebaut), kein Zweig liegt hinter Kl. 10 · 5 Zweige · Zone aus 8 Fertigkeiten
+
+Plan:
+1. Lineares und exponentielles Wachstum unterscheiden: Hier lernst du, an Tabellen, Texten und Graphen zu erkennen, ob ein Wert linear oder exponentiell wächst · neu in diesem Jahr · P10 oft · baut auf: Zunahme um denselben Betrag, Erhöhen um Prozent mit einer Dezimalzahl, Punkte im Koordinatensystem
+2. Wachstumsfaktor und Wachstumstabelle: Hier lernst du, aus dem Prozentsatz den Wachstumsfaktor zu bilden und eine Wachstumstabelle mit ihm fortzuschreiben · neu in diesem Jahr · P10 oft · baut auf: Einheit 1, Prozentwert und Prozentsatz, Zinseszins, Quotient zweier Werte
+3. Exponentialfunktion aufstellen und auswerten: Hier lernst du, eine Gleichung für ein Wachstum aufzustellen und damit Werte und Zeitpunkte zu berechnen · neu in diesem Jahr · P10 · baut auf: Einheit 2, Potenz mit dem Taschenrechner, Zinseszins
+4. Verdopplungs- und Halbwertszeit: Hier lernst du, die Zeit zu bestimmen, nach der sich ein Wert verdoppelt oder halbiert hat · neu in diesem Jahr · P10 · baut auf: Einheit 3, Wertetabelle und Graph lesen, Potenz mit dem Taschenrechner
+5. Potenzfunktionen mit natürlichem Exponenten: Hier lernst du Funktionen wie y = x³ und y = x⁴ kennen: Wertetabelle, Graph und Eigenschaften · neu in diesem Jahr (am Gymnasium schon seit Klasse 9) · keine P10-Aufgabe · baut auf: Einheit 3, Normalparabel, Punkte im Koordinatensystem
+
+Planfrage:
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort (aus der Eingabe): alle
+
+Nach der Zone:
+PotenzExponentialFkt_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+Antwort (aus der Eingabe): weiter
+
+Übergebene Dateien:
+PotenzExponentialFkt_KennstDuSchon.pdf
+PotenzExponentialFkt_Lernblatt.pdf
+PotenzExponentialFkt_Gesamt.pdf
+PotenzExponentialFkt_Loesungen.pdf
+PotenzExponentialFkt_2026-09-25_protokoll.zip
+
+Ausgabeblock:
+1. Abweichungen: kein Ausblick-Zweig – alle Marken liegen bei Kl. 10 (Einheit 5 am Gymnasium Kl. 9), „mit Ausblick“ hatte nichts zu tragen · Einheit 5 hat im Eintrag keine Sprossenkette: Ketten und Höhe nach Lehrwerk-Konvention (keine P10-Aufgabe) · die Vorrats-Kette „Potenzfunktion einordnen“ aus Einheit 1 ist in Einheit 5 gebaut (Nr. 43–48), nicht doppelt · Logarithmus (Vorrat) als Sprosse Nr. 39 c · geteilte Hauptnummern 14/15, 16/17, 23/24, 29/30, 31/32, 37/38/39 · Nr. 16: Zeichenfläche neben sechs kurzen Teilaufgaben statt Teilung (Grundfall ist eine Sprosse) · im Vorspann definierte Bausteine: \zweigzeile, \punktfeldn, \leeresgitter, \langzelle, \abhak · Abhakseite läuft über zwei Seiten · Zeiten gemessen; zwei Stempel „zone“ (der erste aus einem fehlgeschlagenen Aufruf), die Stempel „e n“ je einen Aufruf nach der Prüfung · unbeaufsichtigter Lauf: Planfrage und „weiter“ aus der Eingabe beantwortet
+2. Katalog: gebraucht Lerneinheiten, Marken, Typen je Lerneinheit, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Sprossen je Verfahrenstyp, Typische Fehler, Prüfungsform und Zielmarke; nicht gebraucht Merkkasten (nur als Sperrliste), Verortung, Grundvorstellung (nur bei schwach) · gefehlt: Einheit 5 hat weder Sprossen noch Erkennungsschritte noch eine Fertigkeitszeile „– Einheit 5“; Einheit 1 führt die Potenzfunktion noch als Vorrat-Kette neben der eigenen Einheit 5; die Erkennungsschritte „Differenz oder Quotient?“ und „Welcher Schritt ist null?“ verlangen Aufschreiben bzw. Abzählen und widersprechen der Vorstufenregel (auf dem Blatt ohne Zahl umgesetzt); die Kastenzahlen-Sperre (0, 1, 4, 5, 20, 100) ist in Tabellenköpfen nicht einhaltbar, 20 und 80 stehen in Nr. 16 bewusst in einer Verdopplungsreihe · Spannen: keine Marke trug eine Spanne; „nicht für alle“ nennt nur Bücher ohne frühere Klasse und steht deshalb nicht in der Zweigzeile
+3. Protokoll: PotenzExponentialFkt_2026-09-25_protokoll.zip

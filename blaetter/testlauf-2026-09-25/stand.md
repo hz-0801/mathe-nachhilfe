@@ -19,6 +19,6 @@ Parallelität: Eingaben 1–5 zuerst, 6–10 nach einer Lastprobe (Rechnerlast 2
 5 kreis-8-ausblick · fertig · Anläufe 1 · (abgelegt; Sitzung legte eine leere e1_a.tex in der Repo-Wurzel an – in den Scratchpad verschoben)
 6 daten-7 · fertig · Anläufe 1 · (abgelegt)
 7 nullstellen-fokus · fertig · Anläufe 1 · (abgelegt)
-8 potenz-10 · läuft · Anläufe 1 ·
+8 potenz-10 · fertig · Anläufe 1 · (abgelegt)
 9 kurven-12-be · läuft · Anläufe 1 ·
 10 ka-terme-8-gym · fertig · Anläufe 1 · (abgelegt)

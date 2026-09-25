@@ -1,0 +1,68 @@
+Prüfung e5: Nummer · Skriptwert · Blattwert · Ergebnis
+43 Bsp · -8 · -8 · OK
+43a x=0 · 0 · 0 · OK
+43a x=1 · 1 · 1 · OK
+43a x=2 · 8 · 8 · OK
+43a x=3 · 27 · 27 · OK
+43b x=-3 · -27 · -27 · OK
+43b x=-2 · -8 · -8 · OK
+43b x=-1 · -1 · -1 · OK
+43c x=-2 · 16 · 16 · OK
+43c x=-1 · 1 · 1 · OK
+43c x=0 · 0 · 0 · OK
+43c x=1 · 1 · 1 · OK
+43c x=2 · 16 · 16 · OK
+43d x=-0.5 · 0.0625 · 0,0625 · OK
+43d x=0.5 · 0.0625 · 0,0625 · OK
+43d x=3 · 81 · 81 · OK
+44 Bsp · 81 · 81 · OK
+44a · 8 · 8 · OK
+44b · 16 · 16 · OK
+44c · 27 · 27 · OK
+44d · 10000 · 10000 · OK
+44e · -125 · -125 · OK
+44f · 16 · 16 · OK
+44g · -16 · -16 · OK
+44h · 0.125 · 0,125 · OK
+44i · ja · ja · OK
+44j · nein · nein · OK
+44k · 6 · 6 · OK
+44l + · 3 · 3 · OK
+44l - · 81 · 81 · OK
+45a x=-2 · 4 · 4 · OK
+45a x=-1 · 1 · 1 · OK
+45a x=0 · 0 · 0 · OK
+45a x=1 · 1 · 1 · OK
+45a x=2 · 4 · 4 · OK
+45b x=-2 · -8 · -8 · OK
+45b x=-1 · -1 · -1 · OK
+45b x=1 · 1 · 1 · OK
+45b x=2 · 8 · 8 · OK
+45c x=-2 · 16 · 16 · OK
+45c x=2 · 16 · 16 · OK
+46a · y-Achse · y-Achse · OK
+46b · Ursprung · Ursprung · OK
+46c · y-Achse · y-Achse · OK
+46d · Ursprung · Ursprung · OK
+46e · schmaler · schmaler · OK
+46f · breiter · breiter · OK
+47a · II · II · OK
+47b · III · III · OK
+47c · I · I · OK
+47d · IV · IV · OK
+47e · I · I · OK
+48g 2 · 8 · 8 · OK
+48g 2b · 9 · 9 · OK
+48g 5 · 125 · 125 · OK
+48g 5b · 243 · 243 · OK
+49 Tom · -6 · -6 · OK
+49a · -8 · -8 · OK
+49b · -27 · -27 · OK
+49 Sara · 16 · 16 · OK
+49c · -16 · -16 · OK
+49d · -81 · -81 · OK
+51a · 343 · 343 · OK
+51b · 11 · 11 · OK
+51c · 8 · 8 · OK
+Sperrzahlen im Aufgabenquelltext: keine
+Abweichungen: 0

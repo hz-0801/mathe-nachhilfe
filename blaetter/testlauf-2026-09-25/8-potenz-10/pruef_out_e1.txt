@@ -1,0 +1,68 @@
+Prüfung e1: Nummer · Skriptwert · Blattwert · Ergebnis
+13a Differenz · 7 · 7 · OK
+13a gleich · ja · ja · OK
+13b Differenz · 10 · 10 · OK
+13b gleich · ja · ja · OK
+13c Differenzen · 3;4;5 · 3;4;5 · OK
+13c gleich · nein · nein · OK
+13d Differenz · 15 · 15 · OK
+13d gleich · ja · ja · OK
+13e Quotient · 1.1 · 1,1 · OK
+13e gleich · ja · ja · OK
+13f · exponentiell · exponentiell · OK
+13f q · 1.05 · 1,05 · OK
+13g Faktor · 1.15 · 1,15 · OK
+13h · exponentiell · exponentiell · OK
+13h q · 0.9 · 0,9 · OK
+13h Tabelle · 1458 · 1458 · OK
+13i 1 · 40 · 40 · OK
+13i 2 · 42 · 42 · OK
+13i 3 · 44.1 · 44,1 · OK
+13k q1 · 1.05 · 1,05 · OK
+13k q2 · 1.05 · 1,05 · OK
+13k q3 · 1.05 · 1,05 · OK
+13k d1 · 12000 · 12000 · OK
+13k d2 · 12600 · 12600 · OK
+13k d3 · 13230 · 13230 · OK
+14e · I und IV · I und IV · OK
+14f · II · II · OK
+15a Betrag · 300 · 300 · OK
+15 Graph II Start · 3200 · 3200 · OK
+15d richtig · III · III · OK
+12b Start II · 1.2 · 1,2 · OK
+12c Start III · 2 · 2 · OK
+16 t=0 · 10 · 10 · OK
+16 t=1 · 20 · 20 · OK
+16 t=2 · 40 · 40 · OK
+16 t=3 · 80 · 80 · OK
+17a t=0 · 500 · 500 · OK
+17a t=2 · 605 · 605 · OK
+17a t=4 · 732.05 · 732 · OK
+17a t=6 · 885.7805 · 886 · OK
+17a t=8 · 1071.794405 · 1072 · OK
+17b 0 m · 800 · 800 · OK
+17b 1 m · 520 · 520 · OK
+17b 2 m · 338 · 338 · OK
+17b 3 m · 219.7 · 220 · OK
+18 Tabelle 1 · 560 · 560 · OK
+18 Tabelle 2 · 627.2 · 627,2 · OK
+18 Tabelle 3 · 702.464 · 702,46 · OK
+18a d2 · 67.2 · 67,20 · OK
+18a d3 · 75.264 · 75,26 · OK
+18b 2 · 34300 · 34300 · OK
+18b 3 · 33614 · 33614 · OK
+18b 4 · 32941.72 · 32942 · OK
+18b · exponentiell · exponentiell · OK
+20 B3 · 1597.2 · 1597 · OK
+20 B4 · 1756.92 · 1757 · OK
+20 B5 · 1932.612 · 1933 · OK
+20 B6 · 2125.8732 · 2126 · OK
+20 B7 · 2338.46052 · 2338 · OK
+20 B8 · 2572.306572 · 2572 · OK
+20b · 6 · 6 · OK
+20c Plan B · 7 · 7 · OK
+20c Plan A · 8 · 8 · OK
+Sperrzahl 20 zugelassen: Nr. 16 Verdopplungsreihe 10; 20; 40; 80 (kein Kastenbeispiel nachgebildet)
+Sperrzahl 80 zugelassen: Nr. 16 Verdopplungsreihe 10; 20; 40; 80
+Sperrzahlen im Aufgabenquelltext: keine
+Abweichungen: 0
