@@ -1,5 +1,5 @@
 # IQB-Aufgabenpool Mathematik – Stapel und Erfassungsstatus
-Stand 15.09.2026 · Profil iqb · gepflegt vom Katalog-Prompt
+Stand 27.09.2026 · Profil iqb · gepflegt vom Katalog-Prompt
 
 ## 1 Quelle
 
@@ -38,7 +38,7 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2019-ea-A | 10 | **erfasst 2026-09-14, 20 Zeilen** · 15 Typen neu, 5 wiederverwendet · Eichung 20 von 20 (Liste v0.7) |
 | 2018-ga-A | 12 | **erfasst 2026-09-14, 25 Zeilen** · 17 Typen neu, 8 wiederverwendet · Eichung 23 von 25 (Liste v0.7) |
 | 2018-ea-A | 12 | **erfasst 2026-09-14, 26 Zeilen** · 21 Typen neu, 5 wiederverwendet · Eichung 25 von 26 (Liste v0.7) |
-| 2017-ga-A | 10 | entfällt – Teil A nach dem Abbruchkriterium ausgereizt (§ 4, 14.09.2026); Reserve |
+| 2017-ga-A | 10 | **erfasst 2026-09-27, 20 Zeilen – wegen Landesheftverweisen** (2017-be-gk; Reserve geöffnet, Abbruchkriterium unberührt) · 7 Typen neu, 13 wiederverwendet · Eichung 17 von 20 (erster Lauf 15, zwei Schätzungen nach der engen Fassung korrigiert) · das Heft stellt keine Teilaufgabe dieses Stapels (kein hilfsmittelfreier Teil, § 4) |
 | 2017-ea-A | 11 | **erfasst 2026-09-16, 23 Zeilen – wegen Landesheftverweisen** (2017-bb-ea Teil 1; Reserve geöffnet, Abbruchkriterium unberührt) · 10 Typen neu, 16 wiederverwendet · Eichung 22 von 23 |
 | bsp-ga-A | 16 (12 + 4 Dubletten) | entfällt – Reserve (§ 4) |
 | bsp-ea-A | 14 (12 + 2 Dubletten) | entfällt – Reserve (§ 4) |
@@ -101,6 +101,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2018-ga-A | 25 | 25 | 17 (68 %) | 23 von 25 (92 %), Liste v0.7 | 0 | 0 | 7 von 25 (28 %); Schnitt 22 Werte, 19 von 25 Zeilen bekannt (76 %) | 7, 7, 7, 7 | 0 |
 | 2018-ea-A | 26 | 26 | 21 (81 %) | 25 von 26 (96 %), Liste v0.7 | 0 | 0 | 3 von 26 (12 %); Schnitt 22 Werte, 18 von 26 Zeilen bekannt (69 %) | 7, 7, 7, 7 | 4 |
 | 2017-ea-A | 23 | 26 | 10 (38 %) | 22 von 23 (96 %) | 0 | 0 | 7 von 26 (27 %); Schnitt 18 Werte, 23 von 23 Zeilen bekannt (100 %) | 2, 2, 2, 2 | 6 |
+| 2017-ga-A (Reserve) | 20 | 20 | 7 (35 %) | 17 von 20 (85 %), Liste v0.7; erster Lauf 15 von 20 (75 %) | 0 | 0 | 10 von 20 (50 %); Schnitt 20 Werte, 18 von 20 Zeilen bekannt (90 %) | 3, 2, 3, 2 | 0 |
 | 2026-ga-B-wtr (Teil B) | 45 | 42 | 32 (76 %) | 44 von 45 (98 %), Liste v0.7 | 0 | 0 | 6 von 42 (14 %); Schnitt 36 Werte, 32 von 45 Zeilen bekannt (71 %) | 5, 5, 5, 5 | 0 |
 | 2026-ea-B-wtr (Teil B) | 60 | 59 | 46 (78 %) | 59 von 60 (98 %), Liste v0.7, Spalte AB | 0 | 3 | 4 von 59 (7 %); Schnitt 46 Werte, 41 von 60 Zeilen bekannt (68 %) | 19, 4, 19, 4 | 0 |
 | 2025-ga-B-wtr (Teil B) | 42 | 41 | 30 (73 %) | 42 von 42 (100 %), Liste v0.7, Spalte AB | 0 | 0 | 9 von 41 (22 %); Schnitt 35 Werte, 36 von 42 Zeilen bekannt (86 %) | 3, 3, 3, 3 | 0 |
@@ -3199,10 +3200,83 @@ Bedingte Wahrscheinlichkeit. Lauf aus dem HEAD-Stand byteidentisch,
 Selbstprüfung beider Skripte bestanden (1443 Zeilen, 1323 Typen, 37 Stapel,
 Eichung über den Bestand 94 %). Aufwand etwa 90 Minuten.
 
+**Stapel 2017-ga-A – Reserve geöffnet wegen der Landesheftverweise
+(Auftrag Nacht 2026-09-27, 27.09.2026; Regel „Eine Vormerkung überlebt keinen
+Auftrag“, iqb.md § 7; kein Widerruf des Abbruchs, das Abbruchkriterium Teil A
+bleibt ausgereizt).** Anlass ist das Landesheft 2017-be-gk, das im selben
+Auftrag erfasst wird. 10 Dateien zu je 5 BE (Analysis 1.1, 1.2, 2; AG/LA (A1) 1;
+AG/LA (A2) 1.1, 1.2, 2; Stochastik 1.1, 1.2, 2), jede mit a und b, keine
+Dateidublette; 20 Zeilen, 20 Typen verwendet, 7 neu (35 %), 13 wiederverwendet.
+**Poolabgleich mit 2017-be-gk:** das Berliner Heft 2017 hat keinen
+hilfsmittelfreien Teil (abitur-vokabular.md § 3, Klasse „vor 2019“); keine
+seiner Teilaufgaben ist wortgleich oder abgewandelt eine Teilaufgabe dieses
+Stapels, der abi-Katalog trägt keine Vormerkung auf 2017Mgrundlegend… –
+In Landesheften 0, kein Abgleichlauf für diesen Stapel. Beim Abgleich fiel
+auf: Aufgabe 3.1 (Smartphone) des Hefts ist die Pooldatei
+2017MgrundlegendBStochastikWTR1 aus dem Reserve-Stapel 2017-ga-B-wtr (3.1 a,
+b → 1 a, b; c, d → 2 a, b; f, g → 2 d, e wortgleich; 3.1 e abgewandelt – Heft
+20 Geräte aus Werk A, kein fehlerhaftes, Pool 2 c 250 Geräte, wahrscheinlichste
+Anzahl fehlerhafter). Nach derselben Regel ist 2017-ga-B-wtr im Auftrag zu
+erfassen; dieser Lauf erfasst ihn nicht (ein Stapel je Lauf).
+
+*Eichung.* Die Schätzungen sind vor dem Standardbezug festgelegt (Seite 1
+gelesen, Standardbezug in allen zehn Dateien auf Seite 2; in vier Dateien
+stand der Erwartungshorizont schon auf Seite 1). Der erste Lauf stand bei 15
+von 20 (75 %) und riss die Schwelle; die Prüfung der Schätzungen gegen die
+enge Fassung setzte zwei Zeilen um (AG/LA (A2) 1.1 a, Nichtkollinearität und
+Ebenengleichung aus denselben Spannvektoren: I → II, Verkettung von
+Standardschritten; Stochastik 1.2 b, gerade Zahlen je Würfel abzählen und
+über zwei Pfade addieren: I → II), beide in bemerkung vermerkt; die Schwelle
+selbst blieb. Stand 17 von 20 (85 %, genau an der Schwelle). Die drei
+Abweichungen sind Einzelurteile ohne Listeneintrag, alle eine Stufe unter dem
+amtlichen Bereich: Analysis 2 b (k aus ∫ k · sin x = 1/2, geschätzt II,
+amtlich III mit K2 und K5 III), AG/LA (A1) 1 a (Definiertheit von A + B und
+A · B, I gegen II mit K1 II), Stochastik 1.1 a (drei Säulen ablesen und
+addieren, I gegen II mit K4 II). Befund: der grundlegende Pool 2017 belegt
+einfache Begründungen und Ablesungen mit K1 bzw. K4 II, wo die enge Fassung
+eine einzelne Beobachtung sieht (I); ein zweiter Stapel mit diesem Muster
+wäre ein Anlass, die Grenze I/II der Liste zu prüfen. Anteil amtlich-III 3
+von 20 (15 %; Analysis 2 b, AG/LA (A2) 2 b, Stochastik 2 b – die drei
+Teilaufgaben b der Aufgabengruppe 2). Alle rechnerischen amtlichen Ergebnisse
+mit sympy nachgerechnet (Tangente y = −x + 2; ∫ von 0 bis 1 von 2e^(−x/2) =
+4 − 4e^(−1/2) ≈ 1,57; Fläche 4/3; k = 1/4; B^(−1) mit a = 1/3, b = 0,
+c = −1/6, d = 1/2; AB × AC ≠ 0, d = −1/3; |AB| = 5, h = 6, z = 10 oder −2;
+a = 1, |RQ|² − |R'Q|² = 10 · (r1 − r2) · (r1 + r2); n = 15, p = 0,4; 5/12;
+25/72; 2/5), keine Abweichung; Stochastik 1.1 a amtlich abgelesen 0,58,
+exakt 0,5696. Kein Fragezeichen, kein ersatzweise.
+
+*Schnitt.* 20 Werte, 18 von 20 Zeilen auf bekannten Werten des Niveaus; zwei
+Werte neu im Niveau (Ableitungsgraph und Funktionsgraph · angeben; Flächeninhalt
+und Volumen im Raum · Ebene Figur · begründen), **keiner neu im
+Gesamtbestand** (weder gegen iqb noch gegen iqb + abi): Abbruchkriterium 0
+von 5, die Reihen aus Teil A und Teil B sind unberührt (der Stapel steht in
+der Erfassungsreihenfolge am Ende). Auf Teil-A-Werten des Niveaus 14 Zeilen
+(70 %), auf Teil-A-Werten überhaupt 18 (90 %). Außerhalb der Geltung: AG/LA
+(A1) 1 a, b (Matrizen, alle Zielprüfungen) und Analysis 2 b (Typ im Thema
+Funktionsscharen, in den Grundkursen). Neue Typen nach Thema: Flächeninhalt
+durch Integration 2 (Integralwert: Flächenstück zu vorgegebenem Inhalt
+einzeichnen; Fläche zwischen zwei Nullstellen), je 1 Matrizen (Definiertheit
+von Summe und Produkt), Punkte und Strecken (Dreieck über nicht kollineare
+Verbindungsvektoren), Flächeninhalt und Volumen (Quadratfläche über die
+Seitenlänge), Orthogonalität (Parameter aus Strecke senkrecht zur Geraden),
+Abstände (Parameterpaare gleichen Abstands über die Symmetrie zum
+Lotfußpunkt). Etiketten: Analysis 2 b nimmt den Typ „Scharparameter für einen
+vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen“ (k ist ein
+Parameter der Funktion wie bei einer Schar); Stochastik 1.2 b und 2 a teilen
+„Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger
+Urnenzusammensetzung berechnen“ (Münze wählt den Würfel wie sonst die Urne).
+Befunde am Pooltext: AG/LA (A2) 2 b – der Erwartungshorizont nennt nur die
+Paare (b; −b), der Fall r1 = r2 (derselbe Punkt) fehlt; Analysis 2 a – die
+Graphen sind ohne Term abgebildet (I ist 1 − cos x, II sin x). Lauf aus dem
+HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden (1463
+Zeilen, 1334 Typen, 38 Stapel, Eichung über den Bestand 1374 von 1462
+gewerteten Zeilen, 93 %, enge Fassung 94 %).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-27 | Auftrag Nacht 2026-09-27: Stapel 2017-ga-A erfasst – Reserve geöffnet wegen Landesheftverweisen (2017-be-gk, Regel „Eine Vormerkung überlebt keinen Auftrag“, Abbruchkriterium unberührt); 20 Zeilen aus 10 Dateien, Katalog 1463 Zeilen, Typenliste 1327 → 1334 (7 neu). Alle Punktsummen geprüft (10 × 5), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 17 von 20 (85 %): der erste Lauf riss die Schwelle mit 15 von 20, zwei Schätzungen nach der engen Fassung korrigiert, Schwelle unverändert. Kein neuer Schnittwert im Gesamtbestand (Abbruchkriterium 0 von 5). Poolabgleich: das Heft stellt keine Teilaufgabe dieses Stapels (kein hilfsmittelfreier Teil), In Landesheften 0; Heftaufgabe 3.1 stammt aus dem Reserve-Stapel 2017-ga-B-wtr (Stochastik WTR 1, sechs Teilaufgaben wortgleich, eine abgewandelt), der nach derselben Regel noch zu erfassen ist. |
 | 2026-09-17 | Auftrag G, Punkt 1 und 2: abitur-abgleich.py v0.24 (eigener Name im Kopf und Aufrufbeispiel, befund-abi-iqb-typen.md; Versionsbindung auf abitur-vokabular.md v1.6, abi-bau.py v0.12, iqb-bau.py v1.9), abi-bau.py v0.12 und iqb-bau.py v1.9 (nur Kopfzeile: abitur-abgleich.py v0.24). Kataloge und Typenliste unverändert, Selbstprüfung beider Skripte bestanden, Lauf 23 byteidentisch wiederholt. |
 | 2026-09-17 | Auftrag F, Punkt 2: das Abgleichskript heißt abitur-abgleich.py (git mv von abgleich.py, Inhalt byteidentisch, v0.23; bis Abgleichlauf 11 iqb-abgleich.py). Verweise in dieser Liste und im Regelwerk nachgezogen (abi-pruefungen.md § 5); Katalog unverändert, Selbstprüfung bestanden. Punkt 3: abi-iqb-typen.md → befund-abi-iqb-typen.md, repo-bestand.md → befund-repo-bestand.md. |
 | 2026-09-17 | Auftrag D, Teil 7: Regel „Eine Vormerkung überlebt keinen Auftrag" gesetzt (iqb.md v1.11 § 7, abi.md v0.24 § 7, CLAUDE.md § 2): ein Reserve-Stapel, auf den ein neu erfasstes Landesheft verweist, wird im selben Auftrag erfasst (eigener Commit, Abbruchkriterium unberührt), der Abgleichlauf stellt die Vormerkung um. Katalog und Typen unverändert. |

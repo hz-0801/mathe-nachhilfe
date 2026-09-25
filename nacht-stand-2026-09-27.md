@@ -14,11 +14,12 @@ Beginn: 2026-09-25 15:47
 | 6 Netz und Pfade | erledigt (6.2 offen: Fundamente B Q-Phase in zehn Abfragen nicht gefunden) | 6.3 iqb-Cache, Gegenprobe --help | 2f52c77 |
 | 7 Vorschläge | erledigt | Vorschlagsdatei, vier Posten mit Zusatz | 1d53833 |
 | 8 Prüfskript, Kennzahlen, Vorlage | erledigt | 8.3 Testlauf-Vorlage | b9683ed |
-| 9 CAS-Nachtrag 2017, 2018 | läuft | 2017-bb-ea-cas beim Hilfsagenten | – |
-| 10 2017-be-gk, Stapel 2017-ga-A/B | offen | – | – |
+| 9 CAS-Nachtrag 2017, 2018 | erledigt | 2018-bb-ea-cas (je 4 „CAS:“-Aufgaben, je 14 Zeilen) | 11d31b9, 4624fc9 |
+| 10 2017-be-gk, Stapel 2017-ga-A/B | läuft | Punkt 1 (2017-ga-A) beim Hilfsagenten | – |
 | Abschluss | offen | – | – |
 
 ## Verlauf
 
 - 2026-09-25 15:47 Auftragsdatei angelegt, Standdatei angelegt.
 - 2026-09-25 16:36 Teile 1–8 committet (Teil 7 zuletzt, 1d53833); Teil 9 läuft (Hilfsagent 2017-bb-ea-cas).
+- 2026-09-25 17:12 Teil 9 erledigt (11d31b9, 4624fc9); Teil 10 Punkt 1 gestartet.
