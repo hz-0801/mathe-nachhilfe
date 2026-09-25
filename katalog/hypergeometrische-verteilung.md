@@ -9,7 +9,9 @@ Das Ziehen ohne Zurücklegen aus einer kleinen Gesamtheit: die Wahrscheinlichkei
 
 ### Lerneinheiten
 1. Genau k Treffer ohne Zurücklegen: die Situation erkennen (feste kleine Gesamtheit, Ziehen ohne Zurücklegen – das Binomialmodell ist ungeeignet), die Wahrscheinlichkeit als günstige durch mögliche Teilmengen (Quotient von Binomialkoeffizienten), gleichwertig die Bruchkette der Pfadregel; Mindestens- und Höchstens-Ereignisse über das Gegenereignis (statt viele Fälle zu addieren). (Q2, GK-Kern „Ziehen ohne Zurücklegen“; OHiMi 2.4 „Ansätze“; IQB-VER 4 vorausgesetzt) ← Eingabe „ohne zurücklegen“, „hypergeometrisch“, „lotto-prinzip“, „mindestens eine ohne zurücklegen“
+  Marken: BE Q2 · BB Q2 · GK · Abitur GK · Abitur LK
 2. Kumulieren gegen eine Schranke: hypergeometrische Einzelwahrscheinlichkeiten aufsummieren und die größte (oder kleinste) Trefferzahl gegen eine Schranke bestimmen – Nachbarwerte prüfen wie beim Binomialmodell. (Q2; Prüfungshöhe) ← Eingabe „kumuliert ohne zurücklegen“, „größtes n schranke“
+  Marken: BE Q2 · BB Q2 · GK · Abitur LK
 Warum Kurzform: sieben Zeilen, drei Typen – die Substanz trägt zwei Einheiten (die Formel mit Gegenereignis, das Kumulieren); die Modellabgrenzung ist die gemeinsame Vorstufe mit binomialverteilung.md. Niveaustufung: fhr = kein Bestand; GK und LK = beide Einheiten (kein LK-Zusatz; die Kumulierungsaufgabe liegt im lk-Heft). Geltungsbesonderheit: Berlin führt das Thema in beiden Geltungsdateien mit „nein“, Brandenburg mit „ja“ – für Berliner Zielprüfungen ist es kein Blattstoff (Entscheidung 30: das einzige Thema mit Länderunterschied).
 
 ### Typen je Lerneinheit

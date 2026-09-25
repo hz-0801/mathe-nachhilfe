@@ -9,7 +9,9 @@ Das uneigentliche Integral: der Inhalt einer unbegrenzten Fläche als Grenzwert 
 
 ### Lerneinheiten
 1. Der Begriff – Grenzwert statt Grenze: das uneigentliche Integral als Grenzwert bestimmter Integrale, wenn die obere Grenze über alle Schranken wächst oder der Integrand an einer Stelle unbeschränkt ist; es existiert, wenn der Grenzwert existiert – bei Integranden, die schnell genug gegen null fallen (e-Funktionen), bleibt die Fläche endlich. Kein eigenes Original – der Bestand prüft den Begriff nur über die Näherungsdeutung der Einheit 2; Vermerk „kein Original“. (Q2 LK „Inhalte unbegrenzter Flächen mittels uneigentlicher Integrale“) ← Eingabe „uneigentliches integral“, „unbegrenzte fläche“, „grenze gegen unendlich“
+  Marken: BE Q2/4 · BB Q2 · nur LK · keine Prüfungsaufgabe
 2. Die Näherungsdeutung – Restfläche vernachlässigen: die Aussage, dass F(w) − F(0) für jedes große w näherungsweise ein festes Integral ist, geometrisch deuten – die Differenz ist die Fläche bis w, der Graph läuft gegen null, die Zusatzfläche jenseits der festen Grenze fällt nicht mehr ins Gewicht. (Prüfungsform des Pools 2022, beide Zeilen erhöht) ← Eingabe „restfläche“, „näherung großes w“, „fläche fast vollständig“
+  Marken: BE Q2/4 · BB Q2 · nur LK · Abitur LK
 Warum zwei: der amtliche LK-Begriff (Planzeile, Lehrwerkseinheit) und die einzige Prüfungsform des Bestands (Deutung der Näherung) sind verschiedene Fertigkeiten – definieren können gegen deuten können. Niveaustufung: fhr = kein Stoff; GK = kein Planstoff (der Eintrag setzt trotzdem keine Decke); LK = beide Einheiten (beide Originale erhöht, Niveau II).
 
 ### Typen je Lerneinheit

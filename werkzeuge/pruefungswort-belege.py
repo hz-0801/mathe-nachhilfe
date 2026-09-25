@@ -239,9 +239,12 @@ def sek2_typen(teil):
     return liste
 
 
+KLASSENKLAMMER = re.compile(r' \[(?:OS|GYM) [^\]]*\]')   # „[OS 5, GYM 6]“ von werkzeuge/marken-bau.py, kein Teil des Typnamens
+
+
 def typen_des_eintrags(text, sek2_eintrag):
     """{Einheit: [dict(nr, text, sek2, didakt)]}."""
-    teil = abschnitt(text, 'Typen je Lerneinheit')
+    teil = KLASSENKLAMMER.sub('', abschnitt(text, 'Typen je Lerneinheit'))
     sek2_einheiten = {n for n, t in lerneinheiten(text).items() if 'Sek II' in t}
     ergebnis = OrderedDict()
     for m in re.finditer(r'^Einheit (\d+):\s*(.+)$', teil, re.M):

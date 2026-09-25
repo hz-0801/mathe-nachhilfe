@@ -135,7 +135,9 @@ def lies_katalog():
             m = re.match(r'^(\d+)\.\s+(.*)$', l)
             if m:
                 einheiten.append({'nr': int(m.group(1)), 'zeile': i, 'text': m.group(2)})
-        daten[e] = {'einheiten': einheiten, 'typen': [(i, l) for i, l in abschnitt(lines, 'Typen je Lerneinheit') if l.strip()]}
+        # die Klassenklammer „[OS 5, GYM 6]“ hinter Typen (werkzeuge/marken-bau.py) gehört nicht zum Typnamen
+        daten[e] = {'einheiten': einheiten, 'typen': [(i, re.sub(r' \[(?:OS|GYM) [^\]]*\]', '', l))
+                                                      for i, l in abschnitt(lines, 'Typen je Lerneinheit') if l.strip()]}
     return {'eintraege': eintraege, 'daten': daten}
 
 KATALOG = lies_katalog()

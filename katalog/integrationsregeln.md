@@ -9,7 +9,9 @@ Die Integrationsregeln als Regelwerk: Potenzregel rückwärts (Exponent um eins 
 
 ### Lerneinheiten
 1. Der Regelsatz – gliedweise integrieren: Potenzregel rückwärts, Faktor vor das Integral, Summen Glied für Glied, Konstante wird lineares Glied; die Substitution bei linearer innerer Funktion (innere Funktion beibehalten, durch die innere Ableitung teilen); die Grenzenregeln (Vertauschen wechselt das Vorzeichen, Additivität zerlegt das Intervall). Kein eigenes Original – die Regeln werden in jeder Zeile von stammfunktion-und-hauptsatz.md und flaecheninhalt-durch-integration.md angewendet; Vermerk „kein Original“. (Q2 GK-Kern; OHiMi „Integrationsregeln“) ← Eingabe „integrationsregeln“, „potenzregel rückwärts“, „lineare substitution“
+  Marken: BE Q2 · BB Q2 · GK · keine Prüfungsaufgabe
 2. Vorgegebene Regeln anwenden – die Struktur erkennen: eine in der Aufgabe mitgelieferte Regel (∫ g' · e^g dx = [e^g]) auf einen Integranden anwenden, der erst passend gemacht werden muss – g identifizieren, g' ableiten, Vorzeichen und Faktoren anpassen, dann den Hauptsatz an den Grenzen führen. (kein Planinhalt – Prüfungsform des Pools, die Regel wird vorgegeben; beide Zeilen erhöht) ← Eingabe „vorgegebene regel“, „g strich mal e hoch g“, „struktur erkennen integral“
+  Marken: BE Q2 · BB Q2 · GK · Abitur LK
 Warum zwei: der amtliche Regelsatz (Plan und Anlage) und die einzige eigene Prüfungsform des Themas (Regel vorgegeben, Struktur gesucht) sind verschiedene Fertigkeiten – auswendig können gegen umformen können. Niveaustufung: fhr = Einheit 1 ohne Substitution, angewendet in den Flächenaufgaben; GK = Einheit 1 vollständig (Teil-A-Stoff der Anlage); LK = dazu Einheit 2 (beide Originale erhöht, amtlicher Anforderungsbereich III).
 
 ### Typen je Lerneinheit

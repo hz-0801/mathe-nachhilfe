@@ -9,7 +9,9 @@ Die Zufallsgröße als Zuordnung und ihre Verteilung ohne spezielles Modell: die
 
 ### Lerneinheiten
 1. Verteilung aufstellen: die Werte der Zufallsgröße aus den Regeln gewinnen (alle Ergebnisfolgen durchrechnen), die Tabelle durch Abzählen füllen (günstige Paare je Wert), fehlende Wahrscheinlichkeiten über die Summe eins – auch mit Parameter und über unmögliche Werte. (Q2, GK-Kern „Zufallsgrößen als Zuordnung“, „Verteilung in Tabellen“) ← Eingabe „wahrscheinlichkeitsverteilung“, „zufallsgröße tabelle“, „summe eins“
+  Marken: BE Q2/4 · BB Q2 · GK (BE nur LK) · keine Prüfungsaufgabe
 2. Verteilung lesen: die Symmetrie einer Verteilung nutzen (Restwahrscheinlichkeit gleich verteilen, kumulierte Werte daraus), beschriebene Zufallsgrößen den Säulendiagrammen zuordnen (Symmetrie, Verhältnisse einzelner Säulen). (Q2, GK-Kern „Verteilung in … Diagrammen“; OHiMi 2.4 Histogramme) ← Eingabe „verteilung zuordnen“, „symmetrische verteilung“, „säulendiagramm zufallsgröße“
+  Marken: BE Q2/4 · BB Q2 · GK (BE nur LK) · Abitur LK
 Warum Kurzform: sechs Zeilen, sechs Typen, alle in Teil A – die Substanz trägt zwei Einheiten (aufstellen und lesen); die große Diagrammarbeit liegt beim Binomialmodell (binomialverteilung.md Einheit 5). Niveaustufung: fhr = über den Erwartungswert (Zeilen bei kenngroessen-von-verteilungen.md); GK = beide Einheiten; LK = dieselben – die Zuordnungsaufgabe und die Symmetrieaufgabe liegen erhöht; die Grenze kommt aus dem Niveau der Zeilen, nicht aus dem Plan.
 
 ### Typen je Lerneinheit
