@@ -2,10 +2,10 @@
 
 Stufe: II
 
-- abi: Lagebeziehungen (13 Zeilen)
-- iqb: Lagebeziehungen (25 Zeilen)
+- abi: Lagebeziehungen (14 Zeilen)
+- iqb: Lagebeziehungen (26 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -18,11 +18,11 @@ abitur/abitur-typen.csv (neu): Den freien Parameter einer Koordinatengleichung b
 **Gerade und Ebene: Lage einer Geraden in einer Ebene durch Einsetzen nachweisen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2021–2026
 abitur/abitur-typen.csv (neu): Zeigen, dass eine Gerade in einer Ebene liegt, indem ihr allgemeiner Punkt die Koordinatengleichung für alle Parameterwerte erfüllt.
 
+**Gerade und Ebene: Parallelität einer Geraden zu einer Koordinatenebene über die z-Koordinaten entscheiden** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Entscheiden, ob eine Gerade durch zwei Punkte (mit Parameter) parallel zu einer Koordinatenebene sein kann, über die Gleichheit der entsprechenden Koordinaten.
+
 **Gerade und Ebene: Kreisbahn einer Drehung um eine Kante als Kreis in einer Ebene mit Mittelpunkt begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Begründen, dass ein bei Drehung um eine Kante bewegter Punkt einen Kreis in der zur Kante senkrechten Ebene durch den Punkt beschreibt, mit dem Schnittpunkt von Kante und Ebene als Mittelpunkt.
-
-**Gerade und Ebene: Parallelität einer Geraden zu einer Koordinatenebene über die z-Koordinaten entscheiden** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
-abitur/abitur-typen.csv (neu): Entscheiden, ob eine Gerade durch zwei Punkte (mit Parameter) parallel zu einer Koordinatenebene sein kann, über die Gleichheit der entsprechenden Koordinaten.
 
 **Gerade und Ebene: Spurpunkt einer Lichtgeraden als Schatten auf der Wand aus einem Lösungsweg erläutern** · 2 Zeilen · iqb 2 · Jahre 2023–2024
 abitur/abitur-typen.csv (neu): Einen vorgelegten Lösungsweg erläutern, in dem der Schnittpunkt einer Geraden in Lichtrichtung mit einer Koordinatenebene als Schattenpunkt bestimmt und seine Lage über Koordinatenbereiche gedeutet wird.
@@ -35,6 +35,9 @@ abitur/abitur-typen.csv (neu): Begründen, dass es unendlich viele Ebenen ohne P
 
 **Gerade und Ebene: Lage einer Geradenschar zu einer Ebene mit Fallunterscheidung nach dem Parameter untersuchen** · 1 Zeile · abi 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Für eine Geradenschar mit Parameter im Stütz- und Richtungsvektor die Lage zu einer Ebene über das Skalarprodukt mit dem Normalenvektor unterscheiden (Gerade in der Ebene, parallel, schneidend) und den parameterabhängigen Schnittpunkt berechnen.
+
+**Gerade und Ebene: Parallelität einer Geraden zu einer Ebene über das Skalarprodukt von Richtungs- und Normalenvektor nachweisen** · 1 Zeile · abi 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Nachweisen, dass eine Gerade zu einer Ebene in Koordinatenform parallel ist, indem das Skalarprodukt ihres Richtungsvektors mit dem Normalenvektor null ist; mit einer Punktprobe ausschließen, dass die Gerade in der Ebene liegt.
 
 **Gerade und Ebene: Schattenpunkt auf einer Wand als Schnitt von Lichtstrahl und Ebene untersuchen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Den Schatten eines Punktes bei einer Punktlichtquelle als Schnittpunkt der Geraden Lichtquelle–Punkt mit einer Wandebene berechnen und prüfen, ob er innerhalb der Wandmaße liegt.
@@ -60,7 +63,7 @@ abitur/abitur-typen.csv (neu): Den Punkt einer Ebene bestimmen, dessen Koordinat
 **Punkt und Ebene: Verlauf zweier Ebenen durch das Innere eines Körpers über Punktproben und Vorzeichen untersuchen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Für Ebenen durch den Ursprung entscheiden, ob sie das Innere eines Körpers treffen, über Punktproben mit Eckpunkten bzw. ein Vorzeichenargument für die Koordinaten im Körper.
 
-**Nebentypen:** Geraden und Ebenen: Orthogonalität zu einer Ebene über Kollinearität mit dem Normalenvektor begründen (4) · Geraden und Ebenen: Orthogonalität zweier Ebenen über die Normalenvektoren nachweisen (1)
+**Nebentypen:** Geraden und Ebenen: Orthogonalität zu einer Ebene über Kollinearität mit dem Normalenvektor begründen (4) · Geraden und Ebenen: Orthogonalität zweier Ebenen über die Normalenvektoren nachweisen (1) · Schnittpunkt einer Ebene mit einer senkrechten Kante berechnen (1)
 
 ## B Zeilenliste
 
@@ -70,6 +73,7 @@ abitur/abitur-typen.csv (neu): Für Ebenen durch den Ursprung entscheiden, ob si
 2021-be-gk-A1.4b | 2 | nein | Rechnung · Weisen Sie nach | E: 2x + y + 4z = 6; Gerade s: x = (1 ¦ −4 ¦ 2) + r · (0 ¦ 8 ¦ −2), r ∈ IR, liegt in F → Nachweis, dass s auch in E liegt | Koordinaten von s in E einsetzen; r fällt heraus
 2023-bebb-lk-A1.5a | 2 | nein | Begründung · Zeigen Sie | g: x = (0; 1; 1) + λ · (1; 0; −1), λ reell; Ebene x + y + z = 2 → Nachweis, dass g in der Ebene liegt | allgemeinen Punkt von g einsetzen
 2024-bebb-lk-A1.8a | 5 | nein | Rechnung · Untersuchen Sie¦Berechnen Sie | E: −x + 2z = −3; Geradenschar g_a: x = (3a + 2; −3; a) + r · (−2; 2; −a), r ∈ IR, a ∈ IR → Lagebeziehung zwischen g_a und E in Abhängigkeit von a, gegebenenfalls Koordinaten des Schnittpunkts | Skalarprodukt n · u auswerten; Fall a = 1 mit Punktprobe; sonst Geradenpunkt in die Ebenengleichung einsetzen
+2017-be-gk-B2.1d | 4 | ja | Begründung¦Rechnung · Weisen Sie nach¦Untersuchen Sie | Die untere Begrenzung einer dichten Wolkendecke liegt in der Ebene E: x − 20z = −1560. Die neue Flugbahn des Jets ist h: x = (1740 ¦ 350 ¦ 300) + s · (90 ¦ 16,5 ¦ 4,5); er überfliegt das Rathaus R(8040 ¦ 1505 ¦ 0) in 615 m Höhe. Der Bürgermeister schaut vom Rathaus in dem Moment nach oben, in dem der Jet genau darüber ist; 1 LE = 1 m. → Nachweis, dass die neue Flugbahn parallel zur Wolkenuntergrenze verläuft; Untersuchung, ob der Bürgermeister den Jet sehen kann oder nur die Wolkendecke | Normalenvektor n = (1 ¦ 0 ¦ −20) von E; r_neu · n = 90 − 90 = 0, also ist h parallel zu E (P10 erfüllt die Gleichung nicht, h liegt nicht in E). Über dem Rathaus x = 8040 in E einsetzen: 8040 − 20z = −1560 liefert die Höhe der Wolkenuntergrenze; mit der Flughöhe 615 m vergleichen.
 2024-bebb-gk-A1.2a | 2 | nein | Begründung · Entscheiden Sie¦Begründen Sie | P(2 ¦ 0 ¦ 23) und Q(6 ¦ t ¦ 20), t ∈ IR → ob es ein t gibt, für das die Gerade PQ parallel zur x-y-Ebene verläuft, mit Begründung | Richtungsvektor hat z-Komponente −3 unabhängig von t
 2023-bebb-gk-B3f | 3 | ja | Begründung · Begründen Sie | Körper ABCDEF: Die Eckpunkte A(4 ¦ 0 ¦ 0), B(0 ¦ 4 ¦ 0) und C(0 ¦ 0 ¦ 4) liegen in der Ebene L1: x + y + z = 4, die Eckpunkte D, E und F jeweils auf einer Koordinatenachse und in der Ebene L2: 2x + 2y + 2z = 5 (also D(2,5 ¦ 0 ¦ 0), E(0 ¦ 2,5 ¦ 0), F(0 ¦ 0 ¦ 2,5)). Die Oberfläche des Körpers besteht aus zwei Dreiecken (in L1 und L2) und drei Trapezen (in den Koordinatenebenen); T(1 ¦ 1 ¦ 1). → Begründung, dass T im Inneren des Körpers ABCDEF liegt | Der Körper ist der Teil des ersten Oktanten zwischen L2 und L1. T hat positive Koordinaten und liegt wegen 2 · 3 = 6 > 5 auf der vom Ursprung abgewandten Seite von L2 und wegen 3 < 4 auf der Ursprungsseite von L1.
 2022-bebb-lk-B3h | 3 | ja | Rechnung · Bestimmen Sie | Quader mit Ecken A und Q(1¦1¦3), Seitenflächen achsenparallel; BCD_k enthält die Quaderecken P und R; Kontrolle k = 4 → dieser Wert von k | P(1¦0¦3) in L_k einsetzen
@@ -86,6 +90,7 @@ abitur/abitur-typen.csv (neu): Für Ebenen durch den Ursprung entscheiden, ob si
 2026MerhoehtBAGLAA2WTR2-1d | 4 | ja | Begründung · Begründen Sie | Pyramide wird um die Gerade CD um 360° gedreht; Spitze S durchläuft einen Kreis; L: −2x + y + 4 = 0; H = CD ∩ L → Begründung, dass der Kreis in L liegt und H sein Mittelpunkt ist | L senkrecht zur Achse und durch S, Mittelpunkt auf der Achse
 2023MerhoehtAAGLAA213-a | 2 | nein | Begründung · Zeigen Sie | g: x = (0; 1; 1) + λ · (1; 0; −1), λ reell; Ebene x + y + z = 2 → Nachweis, dass g in der Ebene liegt | allgemeinen Punkt von g einsetzen
 2026MerhoehtBAGLAA2MMS2-1d | 2 | ja | Begründung · Weisen Sie nach | E: x1 + x2 + 2x3 = 12; g: x = (3; 1; 4) + r · (1; −1; 0), r ∈ IR → Nachweis, dass g in E liegt | Koordinaten des allgemeinen Geradenpunkts einsetzen, r fällt heraus
+2017MgrundlegendBAGLAA2WTR2-1a | 2 | ja | Begründung · Begründen Sie | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem → Begründung, dass die Gerade AB parallel zur x1x2-Ebene verläuft | Die x3-Koordinaten von A und B stimmen überein, also hat der Richtungsvektor die x3-Komponente 0
 2024MgrundlegendAAGLAA213-a | 2 | nein | Begründung · Entscheiden Sie¦Begründen Sie | P(2; 0; 23) und Q_t(6; t; 20) mit reellem t → Entscheidung mit Begründung, ob es ein t gibt, für das die Gerade PQ_t parallel zur xy-Ebene verläuft | die Gerade ist genau dann parallel zur xy-Ebene, wenn P und Q_t dieselbe z-Koordinate haben; die z-Koordinaten hängen nicht von t ab
 2020MerhoehtAAGLAA212 | 5 | nein | Rechnung · Untersuchen Sie | Kulisse 7 m breit, linke Wand in der xz-Ebene, rechte Wand parallel dazu (y = 7), Höhe 3, Tiefe 4; Lampe L(4; 0; 5), Spitze S(1; 6; 2) → rechnerische Untersuchung, ob der Schatten der Spitze auf der rechten Wand liegt | Gerade LS mit y = 7 schneiden, Koordinaten gegen die Wandmaße prüfen
 2023MgrundlegendBAGLAA2WTR1-1g | 5 | ja | Begründung¦Zeichnen · Beschreiben Sie¦Fertigen Sie an | Rechnung (x₁; 0; x₃) = (0; 3; 3) + μ · (1; −1; −2) liefert μ = 3 und (3¦0¦−3); geschlossene Wand ABFE; vollständig herabgelassenes Rollo (Unterkante HG) → Bedeutung des Lösungsschritts; Zeichnung von Wand und Schatten in der x₁x₃-Ebene | Punkt als Spurpunkt der Lichtgeraden durch H in der Wandebene erkennen; Wand als Rechteck 5 × 4 zeichnen, Schattenkante durch die Spur des Lichts von G aus, Bereich schraffieren

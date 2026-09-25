@@ -1,11 +1,11 @@
 # Rohdatei lineare-gleichungssysteme
 
-Stufe: I
+Stufe: I, II
 
 - msa: Lineare Gleichungssysteme (6 Zeilen)
 - iqb: Lineare Gleichungssysteme (14 Zeilen)
 
-Stand: 2026-09-20, Commit 1887018
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 

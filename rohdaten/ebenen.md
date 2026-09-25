@@ -2,14 +2,14 @@
 
 Stufe: II
 
-- abi: Ebenen (20 Zeilen)
-- iqb: Ebenen (28 Zeilen)
+- abi: Ebenen (21 Zeilen)
+- iqb: Ebenen (30 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen** · 20 Zeilen · abi 9 iqb 11 · Jahre 2018–2026
+**Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen** · 22 Zeilen · abi 10 iqb 12 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Die Koordinatengleichung einer Ebene bestimmen, die durch drei Punkte oder durch zwei sich schneidende Geraden gegeben ist: Normalenvektor aus zwei Richtungsvektoren (Skalarprodukte oder Ansatz mit Einsetzen), Konstante aus einem Punkt.
 
 **Koordinatengleichung einer parallelen Ebene durch einen Punkt aufstellen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2019–2020
@@ -57,6 +57,9 @@ abitur/abitur-typen.csv (neu): Einen Normalenvektor einer durch drei Punkte gege
 **Parallele Ebene mit vorgegebenem Volumenverhältnis eines Prismas ermitteln** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Die zur Grundfläche parallele Ebene ermitteln, die ein gerades Prisma in einem vorgegebenen Volumenverhältnis teilt (Höhenverhältnis, Punkt auf der Kante, Koordinatenform).
 
+**Parallele Ebenen über die Normalenvektoren auswählen und über die Konstante der Koordinatengleichung der Höhe nach zuordnen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Aus mehreren Koordinatengleichungen die zu einer gegebenen Ebene parallelen über kollineare Normalenvektoren auswählen und sie über die Konstante (bei festen übrigen Koordinaten wächst sie mit der Höhe) übereinanderliegenden Flächen zuordnen.
+
 **Parallelität zweier Ebenen über die Normalenvektoren und eine Punktprobe begründen** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Für zwei Ebenen in Koordinatenform aus kollinearen Normalenvektoren die Parallelität folgern und mit der Punktprobe eines Ebenenpunktes ausschließen, dass die Ebenen identisch sind.
 
@@ -74,6 +77,7 @@ abitur/abitur-typen.csv (neu): Beurteilen, ob eine durch eine Gleichung gegebene
 
 2021-be-gk-A1.4a | 1 | nein | Kurzantwort · Geben Sie an | E: 2x + y + 4z = 6; F: (x − (1 ¦ 8 ¦ 3)) · (−5 ¦ 2 ¦ 8) = 0 → Koordinatenform von F | Skalarprodukt ausmultiplizieren
 2017-bb-ea-B3.2c | 3 | ja | Begründung · Weisen Sie nach | Eine der dreieckigen Teilflächen des Pavillondaches liegt in der Ebene H, die die Gerade g: x = (−1,5 ¦ 1,5 ¦ 2,1) + t · (−1,5 ¦ 1,5 ¦ −1) und den Punkt E(1,5 ¦ 1,5 ¦ 2,1) enthält. → Nachweis, dass die Ebene H durch die Gleichung 3y + 4,5z = 13,95 beschrieben werden kann | Stützpunkt von g und Punkt E in die Gleichung einsetzen; anschließend zeigen, dass der Richtungsvektor von g orthogonal zum Normalenvektor (0 ¦ 3 ¦ 4,5) ist, damit die ganze Gerade in H liegt.
+2017-be-gk-B2.2b | 4 | ja | Rechnung · Bestimmen Sie | Verpackung für Schokotrüffel: gerader quadratischer Pyramidenstumpf ABCDEFGH mit aufgesetzter gerader quadratischer Pyramide EFGHS als Deckel. Kantenlänge AB = 10 cm, Kantenlänge EF der Deckfläche 8 cm, Höhe des Stumpfs 6 cm, Gesamthöhe der Verpackung 9 cm, 1 LE = 1 cm. Eckpunkte B(10 ¦ 10 ¦ 0), D(0 ¦ 0 ¦ 0), F(9 ¦ 9 ¦ 6), Spitze S(5 ¦ 5 ¦ 9). A(10 ¦ 0 ¦ 0), E(9 ¦ 1 ¦ 6). Kontrollangabe: E1: 6x + z = 60. → Gleichung der Ebene E1, in der die Seitenwand ABFE liegt, in Koordinatenform | Spannvektoren AB = (0 ¦ 10 ¦ 0) und AF = (−1 ¦ 9 ¦ 6); Normalenvektor AB × AF = (60 ¦ 0 ¦ 10), gekürzt (6 ¦ 0 ¦ 1). Die Konstante aus A: 6 · 10 + 0 = 60; Probe mit E und F.
 2018-be-gk-B2.1a | 4 | ja | Rechnung · Ermitteln Sie¦Geben Sie an | Seitliche Streben einer Brücke im Koordinatensystem durch A(0 ¦ 0 ¦ 5), B(4,4 ¦ 44 ¦ 5), C(0,2 ¦ 2 ¦ 7) und D(4,8 ¦ 48 ¦ 9); die Fahrbahn liegt in der x-y-Ebene, 1 LE = 1 m. Die Punkte A, B und C liegen in der Ebene E. Als Kontrolle ist E: −10x + y = 0 angegeben. → Normalenvektor der Ebene E; Gleichung von E in Koordinatenform | Die Verbindungsvektoren AB = (4,4 ¦ 44 ¦ 0) und AC = (0,2 ¦ 2 ¦ 2) bilden und ihr Kreuzprodukt n = (88 ¦ −8,8 ¦ 0) berechnen; gekürzt ist n = (10 ¦ −1 ¦ 0). Mit dem Ansatz 10x − y = d und dem Punkt A folgt d = 0, also E: −10x + y = 0.
 2020-be-gk-B3.1a | 3 | ja | Rechnung · Bestimmen Sie | E₁: x = (3 ¦ 0 ¦ 0) + r · (−3 ¦ 9 ¦ 0) + s · (−3 ¦ 0 ¦ 4), r, s ∈ IR; E₂: 6x + 2y + 9z = 18; Kontrollergebnis E₁: 12x + 4y + 9z = 36 → Koordinatenform von E₁ | Normalenvektor über das Kreuzprodukt der Spannvektoren, d aus dem Stützpunkt
 2020-be-gk-B3.2b | 4 | ja | Rechnung · Bestimmen Sie | Lagerhalle mit quadratischer Grundfläche ABCD (Seite 10 m, in der x-y-Ebene, A im Ursprung, B auf der x-Achse, D auf der y-Achse) und Höhe 6 m (E, F, G, H oben); dreieckige Plane ELK mit E(0 ¦ 0 ¦ 6), K(2 ¦ 10 ¦ 6), L(10 ¦ 0 ¦ 4); 1 LE = 1 m; Kontrollergebnis E_P: 5x − y + 25z = 150 → Gleichung der Ebene E_P der Plane in Parameter- und in Koordinatenform | Stützpunkt L, Spannvektoren LE und LK; Normalenvektor über das Kreuzprodukt, d aus L
@@ -100,6 +104,7 @@ abitur/abitur-typen.csv (neu): Beurteilen, ob eine durch eine Gleichung gegebene
 2018MgrundlegendAAGLAA211-b | 3 | nein | Begründung · Begründen Sie | A(1 ¦ 1 ¦ −1), B(3 ¦ −5 ¦ 2), C mit OC = 2 · OA, Koordinatenursprung O → Begründung, dass genau eine Ebene A, B, C und O enthält | O, A, C als kollinear erkennen, B als nicht kollinear nachweisen
 2026MerhoehtBAGLAA2WTR1-1c | 2 | ja | Begründung · Begründen Sie | (k; 3; −10) Normalenvektor der Ebene AEFD; yz-Ebene Symmetrieebene (aus b) → Begründung ohne Rechnung, dass k = 0 | Lage der Ebene zur yz-Ebene deuten
 2020MgrundlegendBAGLAA2WTR-1a | 1 | ja | Rechnung · Bestimmen Sie | Sonnensegel als Dreieck ABC mit A(−1 ¦ 1 ¦ 2), B(−1 ¦ 5 ¦ 2), C(−4 ¦ 3 ¦ 3) zwischen drei Masten; Untergrund = x₁x₂-Ebene; 1 LE = 1 m; die Ebene des Dreiecks hat eine Gleichung der Form x₁ + 3x₃ = j → Wert von j | Koordinaten eines Eckpunkts einsetzen
+2017MgrundlegendBAGLAA2WTR2-1d | 4 | ja | Rechnung · Ermitteln Sie | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem; D(−6; 2; 5); das Rechteck ABCD liegt in einer Ebene E; zur Kontrolle 3x1 − x2 + 5x3 − 5 = 0 → eine Gleichung von E in Koordinatenform | Parameterform mit Stützvektor OA und Spannvektoren AB, AC aufstellen, die Parameter eliminieren (oder Normalenvektor über das Vektorprodukt) und die Konstante mit A bestimmen
 2018MerhoehtAAGLAA212-b | 3 | nein | Rechnung · Bestimmen Sie | E enthält g und h aus a → Gleichung von E in Koordinatenform | Normalenvektor aus den Richtungsvektoren, Konstante über den Schnittpunkt
 2021MgrundlegendBAGLAA2WTR1-1b | 3 | ja | Rechnung · Bestimmen Sie | Holzkörper mit den Eckpunkten A(0 ¦ 0 ¦ 0), B(10 ¦ 0 ¦ 0), C(10 ¦ 10 ¦ 0), D(0 ¦ 10 ¦ 0) und E(0 ¦ 10 ¦ 6) (Pyramide über dem Quadrat ABCD, Spitze E senkrecht über D); B, D und E liegen in der Symmetrieebene des Körpers; 1 LE = 1 cm → Koordinatengleichung der Ebene L durch B, C, E | Parameterform aufstellen und Parameter eliminieren
 2022MerhoehtBAGLAA2WTR1-1c | 4 | ja | Rechnung · Bestimmen Sie | Seitenfläche BCD_k in der Ebene L_k; Kontrolle x₁ + x₂ + 4/k · x₃ = 4 → Koordinatengleichung von L_k | Ansatz mit rechter Seite 4, Koeffizienten aus den Achsenpunkten
@@ -119,6 +124,7 @@ abitur/abitur-typen.csv (neu): Beurteilen, ob eine durch eine Gleichung gegebene
 2025MerhoehtBAGLAA2WTR-1b | 3 | ja | Begründung · Begründen Sie | Vektoren n ≠ 0 mit n · (−1; 2; 0) = 0 und n · (−1; −1; 3) = 0; Ebene E durch B, C, S → Begründung, dass ein solcher Vektor Normalenvektor von E ist | die beiden Vektoren als Vielfache von BC und BS erkennen
 2025MgrundlegendBAGLAA2WTR1-1c | 3 | ja | Rechnung · Bestimmen Sie | E(4 ¦ 3 ¦ 3), F(0 ¦ 5 ¦ 3), S(0 ¦ 0 ¦ 5) → Normalenvektor der Ebene EFS, rechnerisch | Skalarprodukte mit zwei Richtungsvektoren null setzen
 2020MgrundlegendAAGLAA211-b | 3 | nein | Rechnung · Ermitteln Sie | Prisma wie in a; M parallel zu L teilt das Prisma so, dass der Teilkörper mit E doppelt so groß ist wie der andere → Gleichung von M | Volumenverhältnis 1 : 2 in Höhenverhältnis übersetzen, Punkt in 1/3 der Kante BE, in x + 6y + 2z = b einsetzen
+2017MgrundlegendBAGLAA2WTR1-1f | 4 | ja | Kurzantwort¦Begründung · Ordnen Sie zu¦Begründen Sie | Pagode mit drei Dachetagen aus je vier Dachflächen gleicher Form und Größe; die Dachflächen der mittleren und oberen Etage sind jeweils parallel zu einer Dachfläche der unteren Etage; die Dachflächen der unteren Etage sind Vierecke mit den Eckpunkten A1(5,5; −5,5; 6), B1(5,5; 5,5; 6), C1(−5,5; 5,5; 6), D1(−5,5; −5,5; 6), A2(2; −2; 8,1), B2(2; 2; 8,1), C2(−2; 2; 8,1) und D2(−2; −2; 8,1); die xy-Ebene ist die Horizontale, 1 LE = 1 m; die untere Dachfläche der Südseite liegt in E: 3x + 5z = 46,5; die Dachflächen der mittleren und oberen Etage der Südseite liegen in zwei der Ebenen I: 3x + 8z = 46,5, II: 3x + 5z = 24,5, III: 3x + 5z = 58, IV: 3x + 10z = 46,5, V: 3x + 5z = 35, VI: 3x + 5z = 68,5 → Zuordnung der beiden Dachflächen zu je einer Gleichung mit Begründung | Die drei Dachflächen der Südseite sind parallel, also sind die Normalenvektoren kollinear zu (3; 0; 5): I und IV scheiden aus; für Punkte gleicher x-Koordinate wächst 3x + 5z mit der Höhe, also müssen die Konstanten größer als 46,5 sein und mit der Etage wachsen
 2022MgrundlegendBAGLAA2WTR2-1a | 3 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Zeigen Sie | Kirchturmdach: Eckpunkte A(0 ¦ 0 ¦ 0), B(8 ¦ 0 ¦ 0), C(8 ¦ 8 ¦ 0), D(0 ¦ 8 ¦ 0), E(4 ¦ 0 ¦ 6), F(8 ¦ 4 ¦ 6), G(4 ¦ 8 ¦ 6), H(0 ¦ 4 ¦ 6), S(4 ¦ 4 ¦ 12); vier gleiche viereckige Dachflächen (Rauten wie CGSF) und vier dreieckige Giebelflächen; 1 LE = 1 m; Ebene L durch C, G und F → Parametergleichung von L; Nachweis, dass S in L liegt | Richtungsvektoren CG und CF; OS = OC + s · CG + t · CF lösen
 2022MgrundlegendBAGLAA2WTR1-1b | 3 | ja | Rechnung · Zeigen Sie | Kletterwand als ebenes Viereck mit A(6¦7¦4), B(10¦5¦5), C(9¦5,5¦8), D(5¦7,5¦7); x₁x₂-Ebene ist der Boden, 1 LE = 1 m → Nachweis, dass die Wand vertikal ausgerichtet ist | Normalenvektor der Wandebene bestimmen, dritte Komponente null zeigen
 2026MerhoehtBAGLAA2WTR1-1f | 2 | ja | Begründung · Beurteilen Sie | Weg des Fahrers in der Ebene L: 10x − 3y = 0 (senkrecht zur xy-Ebene); Symmetrieebene des Körpers ist die yz-Ebene → ob der Weg in der Symmetrieebene verläuft | L mit x = 0 vergleichen

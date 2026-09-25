@@ -2,14 +2,14 @@
 
 Stufe: I
 
-- msa: Volumen und Oberfläche (16 Zeilen)
+- msa: Volumen und Oberfläche (19 Zeilen)
 - msa: Körper, Netze, Schrägbilder (12 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Volumen Zylinder berechnen** · 4 Zeilen · msa 4 · Jahre 2021–2026
+**Volumen Zylinder berechnen** · 5 Zeilen · msa 5 · Jahre 2021–2026
 msa/msa-typen.csv (gültig): Volumen eines Zylinders aus Radius und Höhe berechnen.
 
 **Netz eines Prismas vervollständigen** · 3 Zeilen · msa 3 · Jahre 2014–2020
@@ -17,6 +17,12 @@ msa/msa-typen.csv (gültig): Ein begonnenes Netz eines Prismas (z. B. mit Trapez
 
 **Körper aus Netz oder Schrägbild benennen** · 2 Zeilen · msa 2 · Jahre 2017–2018
 msa/msa-typen.csv (gültig): Zu einem gezeichneten Netz oder Schrägbild den Körper (Prisma, Pyramide, Quader) benennen oder auswählen; Darstellung steht in material. Gegenrichtung: „Netz eines Zylinders erkennen“ (zum Körper das Netz auswählen).
+
+**Mantelfläche Kegel berechnen** · 2 Zeilen · msa 2 · Jahre 2026
+msa/msa-typen.csv (gültig): Mantelfläche eines Kegels aus Radius und Mantellinie berechnen.
+
+**Volumen Würfel berechnen** · 2 Zeilen · msa 2 · Jahre 2026
+msa/msa-typen.csv (gültig): Volumen eines Würfels aus der Kantenlänge berechnen.
 
 **Flächeninhalt Dreieck berechnen** · 1 Zeile · msa 1 · Jahre 2019
 msa/msa-typen.csv (gültig): Flächeninhalt eines Dreiecks aus Grundseite und Höhe berechnen, auch als Beschreibung des Rechenwegs ohne Zahlen (format Begründung); sind Teilstrecken erst über Trigonometrie oder Pythagoras zu bestimmen, steht das in typ_neben.
@@ -35,9 +41,6 @@ msa/msa-typen.csv (gültig): Einen Körper in ein vorgegebenes Schrägbild (z. B
 
 **Körperskizze beschriften** · 1 Zeile · msa 1 · Jahre 2015
 msa/msa-typen.csv (gültig): In ein vorgegebenes Schrägbild eine Strecke (Körperhöhe) einzeichnen und die Skizze mit gegebenen Maßen beschriften.
-
-**Mantelfläche Kegel berechnen** · 1 Zeile · msa 1 · Jahre 2026
-msa/msa-typen.csv (gültig): Mantelfläche eines Kegels aus Radius und Mantellinie berechnen.
 
 **Mantelfläche Zylinder als Netz skizzieren** · 1 Zeile · msa 1 · Jahre 2023
 msa/msa-typen.csv (gültig): Mantelfläche eines Zylinders als Rechteck skizzieren und mit Umfang und Höhe bemaßen.
@@ -69,13 +72,10 @@ msa/msa-typen.csv (gültig): Volumen einer Kugel aus Radius oder Durchmesser mit
 **Volumen Prisma berechnen** · 1 Zeile · msa 1 · Jahre 2014
 msa/msa-typen.csv (gültig): Volumen eines geraden Prismas als Grundfläche mal Höhe berechnen.
 
-**Volumen Würfel berechnen** · 1 Zeile · msa 1 · Jahre 2026
-msa/msa-typen.csv (gültig): Volumen eines Würfels aus der Kantenlänge berechnen.
-
 **Volumenänderung bei doppeltem Radius begründen** · 1 Zeile · msa 1 · Jahre 2021
 msa/msa-typen.csv (gültig): Begründen, wie sich das Volumen eines Zylinders (Kegels) ändert, wenn der Radius vervielfacht wird; quadratischer Einfluss von r in der Formel.
 
-**Nebentypen:** Behauptung prüfen (4) · Kosten aus Menge und Preis berechnen (1) · Mantelfläche Zylinder als Netz skizzieren (1) · Masse aus Volumen und Dichte berechnen (1) · Verpackungsmaße aus Körpermaßen bestimmen (1) · Volumen Kegel berechnen (1) · Volumen Prisma berechnen (1) · Volumen Zylinder berechnen (1)
+**Nebentypen:** Behauptung prüfen (4) · Kosten aus Menge und Preis berechnen (2) · Mantelfläche Zylinder als Netz skizzieren (1) · Masse aus Volumen und Dichte berechnen (1) · Verpackungsmaße aus Körpermaßen bestimmen (1) · Volumen Kegel berechnen (1) · Volumen Prisma berechnen (1) · Volumen Zylinder berechnen (1)
 
 ## B Zeilenliste
 
@@ -89,6 +89,7 @@ msa/msa-typen.csv (gültig): Begründen, wie sich das Volumen eines Zylinders (K
 2018-OS-B1i | 1 | ja | Ankreuzen · Kreuzen Sie an | Netz aus vier Dreiecken; Auswahl Prisma, Pyramide, Quader → der Körper zum Netz | vier Dreiecke, drei Seitenflächen um eine Grundfläche: Pyramide
 2024-OS-K4b | 4 | ja | Zeichnen¦Ankreuzen¦Begründung · Skizzieren Sie¦Kreuzen Sie an¦Begründen Sie | Kegel r = 30 cm, h = 80 cm; quaderförmiger Karton, so klein wie möglich; vier Verpackungsgrößen (L × B × H) zur Auswahl → Kegel in den Quader skizziert¦kleinste passende Verpackung¦Begründung | Grundkreis (Durchmesser 60) liegt auf der Bodenfläche, Spitze in der Mitte der Deckfläche; Länge und Breite müssen ≥ 60 cm, Höhe ≥ 80 cm sein
 2015-OS-K6b | 2 | ja | Zeichnen¦Eintragen · Zeichnen Sie ein¦Beschriften Sie | Schrägbild der Modellpyramide ohne Maße; Modell: Höhe 0,68 m, Grundkante 0,80 m → Höhe im Schrägbild eingezeichnet¦Skizze mit den gegebenen Maßen beschriftet | Diagonalen der Grundfläche schneiden, Schnittpunkt mit der Spitze verbinden (gestrichelt) und h = 0,68 m anschreiben; eine Grundkante mit 0,80 m beschriften
+2026-EBR-K2b | 3 | ja | Rechnung · Berechnen Sie | Kegeldach mit r = 4,7 m und Mantellinie s = 8,6 m; 1 m² Dachziegel kostet 20,00 € → Kosten der Dachziegel | M = π · r · s = π · 4,7 · 8,6 ≈ 127,0 m²; Kosten 127,0 · 20 €
 2026-FOR-K2b | 3 | ja | Rechnung · Berechnen Sie | Kegeldach mit r = 4,7 m und Mantellinie s = 8,6 m; 1 m² Dachziegel kostet 20,00 € → Kosten der Dachziegel | M = π · r · s = π · 4,7 · 8,6 ≈ 127,0 m²; Kosten 127,0 · 20 €
 2023-OS-K5a | 3 | ja | Zeichnen¦Rechnung · Skizzieren Sie¦Bestimmen Sie¦Beschriften Sie | zylinderförmige Dose, Radius 4 cm, Höhe 8 cm → Skizze der Mantelfläche¦Länge a¦Breite b¦Beschriftung | Mantel ist ein Rechteck mit a = 2πr = 2 · π · 4 und b = h
 2018-OS-K6b | 2 | ja | Rechnung · Berechnen Sie | Zylinder d = 6,4 m, Mauerhöhe 21,7 m → Fläche der Außenmauer | M = π · d · h = π · 6,4 · 21,7
@@ -103,9 +104,11 @@ msa/msa-typen.csv (gültig): Begründen, wie sich das Volumen eines Zylinders (K
 2026-FOR-K2d | 3 | ja | Rechnung¦Begründung · Untersuchen Sie rechnerisch | Zylinder und Kegel mit gleicher Höhe h; Aussage: „Wenn der Radius des Kegels dreimal so groß ist wie der Radius des Zylinders, haben beide das gleiche Volumen.“ → Prüfung der Aussage mit Rechnung | V_Kegel = 1/3 · π · (3r)² · h = 3 · π · r² · h = 3 · V_Zylinder; oder mit Beispielwerten
 2016-OS-K3c | 3 | ja | Rechnung · Berechnen Sie | d = 12 cm → Volumen | V = 4/3 · π · 6³
 2014-OS-K5a | 2 | ja | Rechnung · Berechnen Sie | Prisma mit gleichschenkligem Trapez als Grundfläche, A = 5 225 cm², Prismenhöhe 165 cm → Volumen | V = 5 225 · 165
+2026-EBR-B1f | 1 | ja | Kurzantwort · Geben Sie an | Würfel mit Kantenlänge a = 3 cm → Volumen | V = a³ = 3 · 3 · 3
 2026-FOR-B1f | 1 | ja | Kurzantwort · Geben Sie an | Würfel mit Kantenlänge a = 3 cm → Volumen | V = a³ = 3 · 3 · 3
 2021-OS-K4a | 2 | ja | Rechnung · Bestätigen Sie | zylinderförmige Regentonne, h = 95 cm, r = 29 cm; Herstellerangabe ca. 250 Liter; 1 l = 1 dm³ → Volumen der Tonne in Litern zur Bestätigung | V = π · 29² · 95 = 250 998 cm³ ≈ 251 dm³
 2022-OS-K2b | 2 | ja | Rechnung · Zeigen Sie | zylinderförmiger Becher ohne Deckel, h = 7 cm, r = 3,2 cm; Behauptung: 200 ml passen hinein; Hinweis 1 cm³ = 1 ml → Nachweis | V = π · 3,2² · 7
 2023-OS-K5b | 2 | ja | Rechnung · Weisen Sie nach | zylinderförmige Dose, Radius 4 cm, Höhe 8 cm; Herstellerangabe ca. 400 ml; Hinweis 1 cm³ = 1 ml → Nachweis der Angabe | V = π · r² · h = π · 16 · 8
+2026-EBR-K2a | 2 | ja | Rechnung · Berechnen Sie | Zylinder mit r = 4,7 m und h = 25,0 m → Volumen des Zylinders | V = π · r² · h = π · 4,7² · 25
 2026-FOR-K2a | 2 | ja | Rechnung · Berechnen Sie | Zylinder mit r = 4,7 m und h = 25,0 m → Volumen des Zylinders | V = π · r² · h = π · 4,7² · 25
 2021-OS-K4b | 2 | ja | Begründung · Entscheiden Sie¦Begründen Sie | zylinderförmige Regentonne, h = 95 cm, r = 29 cm; Behauptung: bei doppeltem Radius passt genau doppelt so viel Wasser hinein → Entscheidung mit Begründung | V = π r² h, r geht quadratisch ein: (2r)² = 4r²; rechnerisch π · 58² · 95 ≈ 1004 l

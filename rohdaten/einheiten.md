@@ -1,13 +1,16 @@
 # Rohdatei einheiten
 
-Stufe: I
+Stufe: I, II
 
-- msa: Einheiten umrechnen (14 Zeilen)
+- msa: Einheiten umrechnen (15 Zeilen)
 - fhr: Größen und Einheiten (9 Zeilen)
 
-Stand: 2026-09-20, Commit 1887018
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
+
+**Größen vergleichen** · 3 Zeilen · msa 3 · Jahre 2019–2026
+msa/msa-typen.csv (gültig): Zwei Größen mit verschiedenen Einheiten vergleichen und <, = oder > setzen.
 
 **Streckenlänge im Koordinatensystem in Meter umrechnen** · 3 Zeilen · fhr 3 · Jahre 2021–2024
 fhr/fhr-typen.csv (geprüft): Eine in Längeneinheiten gemessene Strecke über den angegebenen Maßstab in eine wirkliche Länge umrechnen.
@@ -17,9 +20,6 @@ msa/msa-typen.csv (gültig): Zeitangaben zwischen h, min und s umrechnen, auch a
 
 **Funktionswert im Sachzusammenhang deuten** · 2 Zeilen · fhr 2 · Jahre 2025
 fhr/fhr-typen.csv (geprüft): Eine Stelle aus dem Sachzusammenhang bestimmen, den Funktionswert berechnen und als Länge oder Höhe in der Wirklichkeit deuten.
-
-**Größen vergleichen** · 2 Zeilen · msa 2 · Jahre 2019–2026
-msa/msa-typen.csv (gültig): Zwei Größen mit verschiedenen Einheiten vergleichen und <, = oder > setzen.
 
 **Strecke aus Teilstrecken berechnen** · 2 Zeilen · msa 2 · Jahre 2014–2018
 msa/msa-typen.csv (gültig): Länge einer Strecke oder eines Weges als Summe oder Differenz gegebener Teilstrecken bestimmen, ggf. nach Umrechnung in eine gemeinsame Einheit (cm, m, km).
@@ -66,6 +66,7 @@ msa/msa-typen.csv (gültig): Volumen aus Masse und Dichte durch Umstellen von ϱ
 2017-OS-K3d | 2 | ja | Rechnung · Ermitteln Sie | Pumpe 17 500 L je Stunde; 140 m³ Wasser → Dauer in Stunden | 140 m³ = 140 000 L; 140 000 : 17 500
 2014-OS-K4e | 4 | ja | Begründung¦Rechnung · Erklären Sie¦Korrigieren Sie | Mehrkosten 585 € auf 100 000 km; Behauptung: Preis je Taxikilometer müsste um ca. 6 ct steigen; Rechnung: 585 € = 585 000 ct; 585 000 ct : 100 000 = 5,85 ct → Fehler in der Rechnung¦korrigierte Rechnung und Behauptung | 1 € = 100 ct, also 585 € = 58 500 ct (nicht 585 000); 58 500 : 100 000 = 0,585 ct ≈ 0,6 ct je km
 2019-OS-B1b | 1 | ja | Eintragen · Setzen Sie ein | 0,06 m □ 60 cm, Zeichen <, > oder = → richtiges Zeichen | 0,06 m = 6 cm < 60 cm
+2026-EBR-B1d | 1 | ja | Eintragen · Setzen Sie ein | 3,5 m □ 35 cm, Zeichen <, = oder > → richtiges Zeichen | 3,5 m = 350 cm > 35 cm
 2026-FOR-B1d | 1 | ja | Eintragen · Setzen Sie ein | 3,5 m □ 35 cm, Zeichen <, = oder > → richtiges Zeichen | 3,5 m = 350 cm > 35 cm
 2016-OS-K3a | 1 | ja | Rechnung · Weisen Sie nach | 7 Fuß; 1 Fuß ≈ 0,305 m; Behauptung d ≈ 2,14 m → Nachweis | 7 · 0,305
 2015-OS-K6d | 3 | ja | Rechnung¦Begründung · Entscheiden Sie¦Begründen Sie | vier Seitenflächen à ca. 0,32 m², jede zweimal gestrichen; 1 l Lack reicht für 10 m²; Dosen S 375 ml (8,49 €), M 750 ml (12,49 €), L 2,5 l (31,95 €); Tim will M, Paul sagt S reicht → Entscheidung, wer recht hat¦Begründung | Fläche 4 · 0,32 m² · 2 = 2,56 m²; Bedarf 2,56 : 10 = 0,256 l = 256 ml < 375 ml

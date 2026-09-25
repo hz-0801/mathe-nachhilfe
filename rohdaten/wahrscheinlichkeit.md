@@ -2,18 +2,18 @@
 
 Stufe: I
 
-- msa: Wahrscheinlichkeit mehrstufig (17 Zeilen)
-- msa: Wahrscheinlichkeit einstufig (14 Zeilen)
+- msa: Wahrscheinlichkeit mehrstufig (18 Zeilen)
+- msa: Wahrscheinlichkeit einstufig (15 Zeilen)
 - msa: Zählen und Kombinatorik (6 Zeilen)
 
-Stand: 2026-09-20, Commit 1887018
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Wahrscheinlichkeit einstufig** · 12 Zeilen · msa 12 · Jahre 2014–2026
+**Wahrscheinlichkeit einstufig** · 13 Zeilen · msa 13 · Jahre 2014–2026
 msa/msa-typen.csv (gültig): Laplace-Wahrscheinlichkeit eines Ergebnisses als günstige durch mögliche Fälle angeben.
 
-**Baumdiagramm ergänzen** · 6 Zeilen · msa 6 · Jahre 2014–2026
+**Baumdiagramm ergänzen** · 7 Zeilen · msa 7 · Jahre 2014–2026
 msa/msa-typen.csv (gültig): Fehlende Wahrscheinlichkeiten in einem Baumdiagramm eintragen (Knotensumme 1, Astwahrscheinlichkeiten aus dem Sachverhalt).
 
 **Wahrscheinlichkeit mehrstufig unabhängig** · 4 Zeilen · msa 4 · Jahre 2014–2025
@@ -40,7 +40,7 @@ msa/msa-typen.csv (gültig): Aus gegebenen Ziffern durch Anordnen die größte (
 **Wahrscheinlichkeit über Gegenereignis berechnen** · 1 Zeile · msa 1 · Jahre 2026
 msa/msa-typen.csv (gültig): Wahrscheinlichkeit eines mit „nicht“ oder „mindestens“ formulierten Ereignisses über 1 − P(Gegenereignis) berechnen.
 
-**Nebentypen:** Behauptung prüfen (6) · Wahrscheinlichkeit mehrstufig unabhängig (5) · Wahrscheinlichkeit einstufig (3) · Wahrscheinlichkeit mehrstufig ohne Zurücklegen (3) · Prozent und Anteil umwandeln (2) · Ergebnismenge aufzählen (1) · Gleichung im Sachzusammenhang deuten (1)
+**Nebentypen:** Behauptung prüfen (6) · Wahrscheinlichkeit mehrstufig unabhängig (6) · Wahrscheinlichkeit einstufig (3) · Wahrscheinlichkeit mehrstufig ohne Zurücklegen (3) · Prozent und Anteil umwandeln (2) · Ergebnismenge aufzählen (1) · Gleichung im Sachzusammenhang deuten (1)
 
 ## B Zeilenliste
 
@@ -54,6 +54,7 @@ msa/msa-typen.csv (gültig): Wahrscheinlichkeit eines mit „nicht“ oder „mi
 2019-OS-K6b | 5 | ja | Eintragen¦Ankreuzen · Ergänzen Sie¦Entscheiden Sie¦Kreuzen Sie an | Kiste mit 20 Buntstiften: 7 grün, 4 rot, 3 gelb, 6 blau; drei Stifte nacheinander ohne Zurücklegen; Baum rot/nicht rot mit 4/20, 3/19 und 2/18 am fetten Pfad rot–rot–rot; zwei Felder leer: Stufe 1 nicht rot; Stufe 3 rot nach nicht rot → rot; Aussagen zum fetten Pfad: 1 Marie greift drei unterschiedlich farbige Stifte; 2 Marie legt den Stift nach jedem Ziehen zurück; 3 die Wahrscheinlichkeit des Pfades ist kleiner als 1 % → zwei fehlende Wahrscheinlichkeiten¦wahr/falsch je Aussage | nicht rot = 16/20; nach nicht rot und rot bleiben 18 Stifte mit 3 roten: 3/18; fetter Pfad = dreimal rot ohne Zurücklegen, P = 4/20 · 3/19 · 2/18
 2020-OS-K6c | 3 | ja | Eintragen¦Rechnung · Vervollständigen Sie¦Berechnen Sie | drei Würfe; Max zahlt, wenn Lisa mindestens zweimal eine 6 würfelt; Baumdiagramm ohne Wahrscheinlichkeiten → Astwahrscheinlichkeiten¦P(mindestens zwei Sechsen) | jeder Ast 1/6 bzw. 5/6; Pfade mit genau zwei Sechsen 3 · (1/6)² · 5/6 = 15/216, drei Sechsen 1/216, addieren
 2024-OS-K5b | 3 | ja | Eintragen¦Rechnung · Ergänzen Sie¦Weisen Sie nach | fünf Zettel: Müll rausbringen, Spülmaschine ausräumen, Staubsaugen, Einkaufen, Joker; jedes der 5 Kinder zieht am Wochenanfang genau einen Zettel; Benjamin zieht jede Woche als Erster (jede Woche alle fünf Zettel); Behauptung: P(Joker in beiden Wochen) = 1/25 → fehlende Wahrscheinlichkeiten¦Nachweis von 1/25 | 1. Woche kein Joker 4/5, Joker 1/5; 2. Woche ebenso an beiden Ästen; Pfad Joker–Joker 1/5 · 1/5
+2026-EBR-K6b | 4 | ja | Eintragen¦Rechnung · Ergänzen Sie¦Ermitteln Sie | Würfel A mit den Zahlen 1, 1, 2, 2, 4, 5; Würfel B mit 1, 1, 2, 3, 3, 3; erst A, dann B geworfen; betrachtet wird gerade/ungerade; im Baum vorgegeben P(A gerade) = 3/6 und P(B gerade ¦ A gerade) = 1/6 → fehlende Wahrscheinlichkeiten im Baum¦P(beide ungerade) | A ungerade 3/6; bei B gerade 1/6 und ungerade 5/6 auf beiden Ästen; Pfadregel 3/6 · 5/6
 2026-FOR-K6b | 4 | ja | Eintragen¦Rechnung · Ergänzen Sie¦Ermitteln Sie | Würfel A mit den Zahlen 1, 1, 2, 2, 4, 5; Würfel B mit 1, 1, 2, 3, 3, 3; erst A, dann B geworfen; betrachtet wird gerade/ungerade; im Baum vorgegeben P(A gerade) = 3/6 und P(B gerade ¦ A gerade) = 1/6 → fehlende Wahrscheinlichkeiten im Baum¦P(beide ungerade) | A ungerade 3/6; bei B gerade 1/6 und ungerade 5/6 auf beiden Ästen; Pfadregel 3/6 · 5/6
 2017-OS-B1f | 1 | ja | Kurzantwort · Geben Sie an | zwei gleiche Münzen gleichzeitig; Ergebnisse Z oder W → Anzahl der möglichen Ergebnisse | ZZ, ZW, WZ, WW
 2020-OS-K6a | 3 | ja | Kurzantwort¦Rechnung · Notieren Sie¦Ermitteln Sie¦Geben Sie an | Würfel zweimal geworfen, 36 Augenpaare, (2,1) und (1,2) verschieden → alle Paare mit zweiter Augenzahl 2¦P(zweiter Wurf 2) in Prozent | (1,2), (2,2), …, (6,2) aufzählen; 6 von 36
@@ -70,6 +71,7 @@ msa/msa-typen.csv (gültig): Wahrscheinlichkeit eines mit „nicht“ oder „mi
 2018-OS-K7b | 2 | ja | Begründung · Entscheiden Sie¦Begründen Sie | 16 Pfannkuchen (14 Marmelade, 2 Senf); Tom hat zwei mit Marmelade genommen; Pia: P(Senf) = 2/16 → Entscheidung mit Begründung | nur noch 14 Pfannkuchen, davon 2 mit Senf: 2/14
 2019-OS-K6a | 1 | ja | Kurzantwort · Geben Sie an | Kiste mit 20 Buntstiften: 7 grün, 4 rot, 3 gelb, 6 blau; ein Stift wird gegriffen und zurückgelegt → P(gelb) | günstige durch mögliche: 3/20
 2024-OS-K5a | 1 | ja | Kurzantwort · Geben Sie an | fünf Zettel: Müll rausbringen, Spülmaschine ausräumen, Staubsaugen, Einkaufen, Joker; jedes der 5 Kinder zieht am Wochenanfang genau einen Zettel → P(erstes Kind zieht Staubsaugen) | ein günstiger von fünf Zetteln
+2026-EBR-K6a | 1 | ja | Kurzantwort · Geben Sie an | Würfel A mit den Zahlen 1, 1, 2, 2, 4, 5; Würfel B mit 1, 1, 2, 3, 3, 3; Würfel A wird einmal geworfen → P(2) bei Würfel A | zwei von sechs Flächen zeigen 2
 2026-FOR-K6a | 1 | ja | Kurzantwort · Geben Sie an | Würfel A mit den Zahlen 1, 1, 2, 2, 4, 5; Würfel B mit 1, 1, 2, 3, 3, 3; Würfel A wird einmal geworfen → P(2) bei Würfel A | zwei von sechs Flächen zeigen 2
 2018-OS-K7c | 4 | ja | Kurzantwort¦Rechnung¦Kurzantwort · Nennen Sie¦Ermitteln Sie¦Formulieren Sie | 16 Pfannkuchen (14 Marmelade M, 2 Senf S); zwei nacheinander zufällig ohne Zurücklegen; Rechnung P(E) = 2/16 · 1/15 + 14/16 · 13/15 → alle Ergebnisse mit mindestens einem Senf-Pfannkuchen¦P(beide Marmelade)¦Ereignis E zur Rechnung in Worten | Ergebnisse (S;M), (M;S), (S;S); P(M;M) = 14/16 · 13/15; E: beide gleich (beide Senf oder beide Marmelade)
 2019-OS-K6c | 3 | ja | Rechnung¦Begründung · Begründen Sie rechnerisch | Kiste mit 20 Buntstiften: 7 grün, 4 rot, 3 gelb, 6 blau; drei Stifte nacheinander ohne Zurücklegen; Behauptung: P(3 blau) ist doppelt so hoch wie P(3 gelb) → Widerlegung mit Rechnung | P(3 blau) = 6/20 · 5/19 · 4/18; P(3 gelb) = 3/20 · 2/19 · 1/18; Quotient bilden

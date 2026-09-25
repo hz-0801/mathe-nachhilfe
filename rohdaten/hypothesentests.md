@@ -2,14 +2,14 @@
 
 Stufe: II
 
-- abi: Hypothesentests (10 Zeilen)
+- abi: Hypothesentests (11 Zeilen)
 - iqb: Hypothesentests (12 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Entscheidungsregel eines einseitigen Signifikanztests bestimmen** · 6 Zeilen · abi 3 iqb 3 · Jahre 2018–2026
+**Entscheidungsregel eines einseitigen Signifikanztests bestimmen** · 7 Zeilen · abi 4 iqb 3 · Jahre 2018–2026
 abitur/abitur-typen.csv (neu): Für eine einseitige Nullhypothese (p ≤ p0 oder p ≥ p0) die Entscheidungsregel bestimmen: die Grenze des Ablehnungsbereichs über kumulierte Binomialwahrscheinlichkeiten so wählen, dass die Irrtumswahrscheinlichkeit das Signifikanzniveau nicht überschreitet; die Richtung steht in der Zeile.
 
 **Wahl der Nullhypothese aus der Sicht des Entscheiders begründen** · 5 Zeilen · abi 2 iqb 3 · Jahre 2018–2024
@@ -43,6 +43,7 @@ abitur/abitur-typen.csv (neu): Den Fehler erster Art am Graphen ablesen, den Wer
 ## abi
 
 2018-bb-ea-B4.2d | 5 | ja | Rechnung¦Begründung · Bestimmen Sie | In einer großen Gemeinde tragen 62,5 % der Bevölkerung eine Brille. Bei den Frauen beträgt der Anteil 64,8 %. Bekannt ist außerdem, dass 52,1 % der Bevölkerung Frauen sind. Ein Optiker vermutet, dass mehr als 30 % der jungen Erwachsenen aus dem Landkreis Kunden in seinem Geschäft sind. Sollte das nicht der Fall sein, erwägt er eine Werbeaktion mit Flyern. Um unnötige Kosten zu vermeiden, soll die Nullhypothese, dass höchstens 30 % der jungen Erwachsenen Kunden bei diesem Optiker sind, mit einer Stichprobe von 100 jungen Erwachsenen auf einem Signifikanzniveau von 5 % getestet werden. → die zugehörige Entscheidungsregel | Unter der Nullhypothese ist die Trefferzahl binomialverteilt mit 100 Versuchen und der Trefferwahrscheinlichkeit 0,3. Der Test ist rechtsseitig, weil die Alternative mehr als 30 % lautet. Gesucht ist die kleinste Trefferzahl, ab der die Wahrscheinlichkeit für mindestens so viele Treffer höchstens 5 % beträgt; gleichwertig die kleinste Zahl, bis zu deren Vorgänger die summierte Wahrscheinlichkeit mindestens 0,95 erreicht.
+2018-bb-ea-cas-B4.2d | 5 | ja | Rechnung¦Begründung · Bestimmen Sie | In einer großen Gemeinde tragen 62,5 % der Bevölkerung eine Brille. Bei den Frauen beträgt der Anteil 64,8 %. Bekannt ist außerdem, dass 52,1 % der Bevölkerung Frauen sind. Ein Optiker vermutet, dass mehr als 30 % der jungen Erwachsenen aus dem Landkreis Kunden in seinem Geschäft sind. Sollte das nicht der Fall sein, erwägt er eine Werbeaktion mit Flyern. Um unnötige Kosten zu vermeiden, soll die Nullhypothese, dass höchstens 30 % der jungen Erwachsenen Kunden bei diesem Optiker sind, mit einer Stichprobe von 100 jungen Erwachsenen auf einem Signifikanzniveau von 5 % getestet werden. → die zugehörige Entscheidungsregel | Unter der Nullhypothese ist die Trefferzahl X binomialverteilt mit 100 Versuchen und der Trefferwahrscheinlichkeit 0,3. Der Test ist rechtsseitig, weil die Alternative mehr als 30 % lautet. Mit dem CAS die kleinste Trefferzahl k suchen, für die P(X ≥ k) höchstens 5 % beträgt.
 2023-bebb-lk-B4i | 4 | ja | Rechnung · Bestimmen Sie | p Buchungswahrscheinlichkeit nach dem Gewinnspiel; Verlängerung lohnt für p ≥ 3 %; H₀: p ≥ 3 % auf dem Signifikanzniveau 5 %; n = 800 → Entscheidungsregel | größtes k mit P₀,₀₃⁸⁰⁰(X ≤ k) ≤ 0,05
 2025-bebb-lk-B4e | 5 | ja | Rechnung · Bestimmen Sie | Nullhypothese: Anteil der Radausflügler höchstens 14 %; Signifikanzniveau 8 %; Stichprobe 500; Busse laufen nur bei Ablehnung weiter → Entscheidungsregel | kumulierte Wahrscheinlichkeiten von oben an der Grenze vergleichen
 2023-bebb-lk-B4j | 4 | ja | Rechnung¦Begründung · Ermitteln Sie¦Interpretieren Sie | Wiederholung mit n = 600; H₀ wird abgelehnt, wenn weniger als 11 Personen eine Reise buchen → Fehler 2. Art für zwei geeignete Werte von p; Deutung im Sachzusammenhang | p < 0,03 wählen, P(X ≥ 11) berechnen; als Verlängerung trotz Verlusten deuten

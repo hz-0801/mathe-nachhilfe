@@ -4,9 +4,9 @@ Stufe: II
 
 - fhr: Erwartungswert (2 Zeilen)
 - abi: Kenngrößen von Verteilungen (23 Zeilen)
-- iqb: Kenngrößen von Verteilungen (48 Zeilen)
+- iqb: Kenngrößen von Verteilungen (51 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -25,11 +25,11 @@ abitur/abitur-typen.csv (neu): Den Erwartungswert der Auszahlung eines Spiels be
 **Erwartungswertgleichung für einen Glücksradparameter aus den Spielregeln herleiten** · 3 Zeilen · abi 1 iqb 2 · Jahre 2021–2024
 abitur/abitur-typen.csv (neu): Aus Spielregeln mit unbekannter Sektorwahrscheinlichkeit die Auszahlungsfälle und ihre Wahrscheinlichkeiten bestimmen und die Gleichung Erwartungswert gleich Einsatz aufstellen.
 
+**Parameter einer Binomialverteilung aus Erwartungswert und Standardabweichung bestimmen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2026
+abitur/abitur-typen.csv (neu): Aus μ = n · p und σ = √(n · p · (1 − p)) die Parameter n und p einer Binomialverteilung bestimmen.
+
 **Erwartungswert berechnen** · 2 Zeilen · fhr 2 · Jahre 2019–2021
 fhr/fhr-typen.csv (geprüft): Die Werte einer Zufallsgröße mit ihren Wahrscheinlichkeiten gewichten und aufsummieren, um den auf Dauer zu erwartenden Durchschnittswert zu erhalten.
-
-**Parameter einer Binomialverteilung aus Erwartungswert und Standardabweichung bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
-abitur/abitur-typen.csv (neu): Aus μ = n · p und σ = √(n · p · (1 − p)) die Parameter n und p einer Binomialverteilung bestimmen.
 
 **Parität von n aus zwei gleich hohen Säulen der Verteilung begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Aus zwei gleich hohen höchsten Säulen einer Binomialverteilung mit p = 0,5 begründen, dass der Erwartungswert nicht ganzzahlig und n ungerade ist.
@@ -39,6 +39,9 @@ abitur/abitur-typen.csv (neu): Den Erwartungswert n · p einer Binomialverteilun
 
 **Restwahrscheinlichkeit und Erwartungswert eines Teilgewinns aus dem Gesamterwartungswert bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit des verbleibenden Ausgangs als Gegenwahrscheinlichkeit nachweisen und aus dem bekannten Gesamterwartungswert den Erwartungswert des zugehörigen Teilgewinns über eine Gleichung bestimmen.
+
+**Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2020
+abitur/abitur-typen.csv (neu): Aus einer vorgegebenen Standardabweichung – als Wert oder als Vielfaches der Standardabweichung bei einem gegebenen Umfang – und der Trefferwahrscheinlichkeit die Anzahl der Versuche über σ = √(n · p · (1 − p)) berechnen (quadrieren und nach n auflösen; das k-fache σ verlangt das k²-fache n).
 
 **Summand eines Erwartungswertterms im Sachzusammenhang deuten** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Einen Summanden eines gegebenen Erwartungswertterms als Produkt aus Auszahlung, Anzahl der Reihenfolgen und Wahrscheinlichkeiten im Sachzusammenhang erläutern.
@@ -97,8 +100,8 @@ abitur/abitur-typen.csv (neu): Aus n und dem Erwartungswert p bestimmen und dara
 **Standardabweichung über einen Summanden der Varianz abschätzen** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Zeigen, dass die Standardabweichung eine Schranke übersteigt, indem ein einzelner Summand der Varianz als untere Abschätzung benutzt wird.
 
-**Stichprobenumfang für eine verdoppelte Standardabweichung der Binomialverteilung ermitteln** · 1 Zeile · iqb 1 · Jahre 2020
-abitur/abitur-typen.csv (neu): Über σ = √(n · p · (1 − p)) den Stichprobenumfang bestimmen, bei dem die Standardabweichung doppelt so groß ist wie bei einem gegebenen Umfang.
+**Unmöglichkeit einer Standardabweichung bei gegebener Versuchszahl über das Maximum von p · (1 − p) begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Für eine vorgegebene Standardabweichung und Versuchszahl die Gleichung für p · (1 − p) aufstellen und begründen, dass sie keine Lösung hat, weil p · (1 − p) höchstens 1/4 ist.
 
 **Untere Schranke für eine Kugelbeschriftung aus dem Erwartungswert der Summe ohne Rechnung begründen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Ohne Wahrscheinlichkeiten begründen, dass eine unbekannte Kugelbeschriftung größer als ein Wert sein muss, weil sonst der Erwartungswert der Summe nicht erreicht werden könnte.
@@ -163,6 +166,7 @@ abitur/abitur-typen.csv (neu): Alle möglichen Erwartungswerte einer Zufallsgrö
 2022MerhoehtAStochastik21 | 5 | nein | Rechnung · Ermitteln Sie | 100 Kugeln, b blaue vom Spieler gewählt; eine Kugel wird gezogen; rot: Auszahlung b Cent, blau: 10 Cent → Wahl von b, für die der Erwartungswert der Auszahlung möglichst groß ist | E(b) aufstellen, als Parabel deuten, Scheitel in der Mitte der Nullstellen
 2023MerhoehtBStochastikWTR3-1b | 3 | ja | Rechnung · Ermitteln Sie | Lieferung von m Flaschen; im Mittel mehr als 780 Flaschen mit mindestens 600 ml → Mindestzahl gelieferter Flaschen | m · 0,985 > 780 nach m auflösen, auf ganze Zahl aufrunden
 2022MgrundlegendBStochastikWTR2-3b | 4 | ja | Begründung · Beurteilen Sie | Behauptung: für binomialverteilte Zufallsgrößen mit n = 1000 und 0 < p < 0,5 nimmt die Varianz mit steigendem p zu → Beurteilung der Behauptung | Varianz als Funktion von p betrachten, Parabelform und Scheitel nutzen
+2017MgrundlegendAStochastik11-b | 3 | nein | Rechnung · Ermitteln Sie | X binomialverteilt mit den Parametern n und p, Erwartungswert 6, Varianz 3,6 → Werte von n und p | n · p = 6 in n · p · (1 − p) = 3,6 einsetzen, 1 − p = 0,6 und damit p und n bestimmen
 2026MgrundlegendAStochastik22 | 5 | nein | Rechnung · Bestimmen Sie | binomialverteilte Zufallsgröße X mit Erwartungswert μ = 20 und Standardabweichung σ = 2 → parameterfreier Term für P(X = 21) | aus σ^2 = n · p · (1 − p) = μ · (1 − p) folgt 4 = 20 · (1 − p), also p = 0,8 und n = μ/p = 25; dann Bernoulli-Formel für k = 21
 2018MerhoehtAStochastik11-b | 2 | nein | Rechnung · Ermitteln Sie | Y binomialverteilt mit n und p; E(Y) = 8; Verteilung symmetrisch → Wert von n | p = 0,5 aus der Symmetrie, n aus dem Erwartungswert
 2025MgrundlegendAStochastik21-a | 2 | nein | Begründung · Begründen Sie | binomialverteilte Zufallsgröße X mit unbekanntem n und p = 0,5, Säulendiagramm mit zwei gleich hohen höchsten Säulen bei 10 und 11; P(X = 10) = P(X = 11) → Begründung, dass n nicht gerade ist | das Maximum liegt zwischen 10 und 11, also ist E(X) = n · 0,5 = 10,5 nicht ganzzahlig
@@ -170,6 +174,7 @@ abitur/abitur-typen.csv (neu): Alle möglichen Erwartungswerte einer Zufallsgrö
 2023MerhoehtBStochastikWTR2-2a | 4 | ja | Rechnung · Zeigen Sie¦Bestimmen Sie | Gewinnspiel mit 1 bis 5 Strandkörben; bei 1 Strandkorb Sachgewinne; Tabelle der Gutscheine; Erwartungswert des Gewinns 43,5 Cent je Person → Nachweis P(1 Strandkorb) > 1 − 0,001; Erwartungswert des Gewinns bei einem Strandkorb | Gegenwahrscheinlichkeit der Gutscheine; Erwartungswertgleichung nach dem Sachgewinn-Erwartungswert x auflösen
 2021MerhoehtAStochastik12-a | 3 | nein | Rechnung · Berechnen Sie | X binomialverteilt mit n = 100 und p; E(X) = 50 → Standardabweichung von X | p aus dem Erwartungswert, dann σ
 2023MgrundlegendAStochastik11-b | 2 | nein | Begründung · Zeigen Sie | Teil der Verteilung von Y mit Erwartungswert 5: P(Y = 2) = 1/4, P(Y = 5) = 3/8, weitere Werte unbekannt → Nachweis, dass die Standardabweichung von Y größer als 1 ist | der Summand (2 − 5)² · 1/4 der Varianz ist allein schon 9/4 > 1, alle anderen Summanden sind nichtnegativ
+2017MgrundlegendBStochastikWTR2-2a | 3 | ja | Rechnung · Bestimmen Sie | binomialverteilte Zufallsgrößen, die für eine Trefferwahrscheinlichkeit p mit 0 <= p <= 1 die Anzahl der Treffer bei n Versuchen angeben; die Standardabweichung der Zufallsgrößen ist 3; Trefferwahrscheinlichkeit 25 % → die zugehörige Anzahl der Versuche | √(n · 0,25 · 0,75) = 3 quadrieren und nach n auflösen
 2020MgrundlegendBStochastikWTR2-1d | 3 | ja | Rechnung · Ermitteln Sie | Postunternehmen Q befördert jährlich etwa 60 Millionen Briefe und stellt 95 % aller Briefe am ersten Werktag nach der Einlieferung zu; für 2000 zufällig ausgewählte Briefe wird untersucht, ob sie am ersten Werktag zugestellt werden → Anzahl der Briefe, bei der die Standardabweichung der Anzahl der zugestellten Briefe doppelt so groß ist wie bei 2000 | σ-Formel ansetzen, Faktor 2 unter die Wurzel als Faktor 4 bei n
 2023MgrundlegendBStochastikWTR3-2a | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Erläutern Sie | vier weiße, fünf schwarze Kugeln; Einsatz 2 Euro ausgelegt; zweimal ziehen mit Zurücklegen; weiß verdoppelt, schwarz halbiert den Betrag; Term 8 · (4/9)² + 2 · 2 · 4/9 · 5/9 + 1/2 · (5/9)² → Bedeutung des zweiten Summanden mit Erläuterung | Faktoren als Auszahlung 2 Euro, zwei Reihenfolgen und Wahrscheinlichkeiten 4/9 und 5/9 deuten
 2024MerhoehtAStochastik11-b | 3 | nein | Rechnung · Bestimmen Sie | Glücksrad mit 20 Sektoren, 100 Drehungen, X Anzahl Blau mit ganzzahligem Erwartungswert; Wahrscheinlichkeitsverteilung von X in der Abbildung → Anzahl der blauen Sektoren | Erwartungswert als Lage der höchsten Säule ablesen, 75 = 100 · b/20 nach b auflösen
@@ -188,6 +193,7 @@ abitur/abitur-typen.csv (neu): Alle möglichen Erwartungswerte einer Zufallsgrö
 2025MgrundlegendAStochastik22-b | 4 | nein | Rechnung · Ermitteln Sie | Behälter mit einer schwarzen und w weißen Kugeln, w >= 2; zweimal Ziehen ohne Zurücklegen; Einsatz 2 €; Auszahlung 8 € bei schwarz im ersten Zug, 4 € bei schwarz im zweiten Zug, sonst nichts; auf lange Sicht gleichen sich Einsätze und Auszahlungen aus → zugehöriger Wert von w | Erwartungswert der Auszahlung 8 · 1/(w + 1) + 4 · w/(w + 1) · 1/w gleich 2 setzen; vereinfacht 12/(w + 1) = 2
 2025MgrundlegendBStochastikWTR3-1e | 4 | ja | Rechnung · Ermitteln Sie | Kosten 2,00 € je Glas; volle Zahlung bei höchstens sechs Mängeln (0,77), halbe bei sieben oder acht (0,17), sonst nichts; Gewinn im Mittel mindestens 0,50 € je Glas → geringster Preis je Glas auf Cent genau | Erwartungswert des Gewinns je Glas in x aufstellen, Ungleichung lösen
 2026MerhoehtAStochastik23-b | 4 | nein | Rechnung · Bestimmen Sie | fünf Kugeln, drei mit a, zwei mit b, a + b = 17, natürliche Zahlen; zwei Kugeln werden gleichzeitig entnommen; X ist die Summe der beiden Zahlen; E(X) = 16 → a und b | P(2a) = 3/5 · 2/4, P(a + b) = 2 · 3/5 · 2/4, P(2b) = 2/5 · 1/4; Erwartungswert mit b = 17 − a aufstellen und nach a auflösen
+2017MgrundlegendBStochastikWTR2-2b | 3 | ja | Begründung · Begründen Sie | binomialverteilte Zufallsgrößen, die für eine Trefferwahrscheinlichkeit p mit 0 <= p <= 1 die Anzahl der Treffer bei n Versuchen angeben; die Standardabweichung der Zufallsgrößen ist 3; Anzahl der Versuche 9 → Begründung, dass es keinen Wert von p geben kann, für den die Anzahl der Versuche 9 ist | √(9 · p · (1 − p)) = 3 ⇔ p · (1 − p) = 1; p · (1 − p) ist für 0 <= p <= 1 höchstens 1/4, also gibt es keine Lösung
 2019MgrundlegendBStochastikWTR3-2b | 2 | ja | Begründung · Begründen Sie | Urne mit fünf Kugeln: drei mit der Zahl 4, zwei mit der natürlichen Zahl x ≠ 4; beim gleichzeitigen Ziehen zweier Kugeln ist der Erwartungswert der Summe 12 → Begründung ohne Wahrscheinlichkeiten, dass x > 5 | Maximale Summe für x ≤ 5 mit dem Erwartungswert vergleichen
 2018MgrundlegendBStochastikWTR1-2 | 3 | ja | Rechnung · Bestimmen Sie | Diagramm der Verteilung von Y1 ~ B(20; p1) mit ganzzahligem Erwartungswert; Y2 ~ B(40; p2) mit halb so großem Erwartungswert → Verhältnis der Varianzen von Y1 und Y2 | E(Y1) = 8 ablesen, p1 = 0,4; E(Y2) = 4, p2 = 0,1; Varianzen n · p · (1 − p) bilden
 2023MgrundlegendAStochastik2 | 5 | nein | Rechnung · Berechnen Sie | Spieler A und B werfen je einmal ein Tetraeder (1 bis 4); ist Bs Zahl um mindestens 2 größer, zahlt A den Betrag x an B; bei gleicher Zahl keine Zahlung; sonst zahlt B den Betrag y an A; auf lange Sicht gleichen sich die Zahlungen aus → Verhältnis von x und y | Wahrscheinlichkeiten der drei Fälle abzählen (3/16, 4/16, 9/16), erwartete Zahlung von A gleich erwarteter Zahlung von B setzen

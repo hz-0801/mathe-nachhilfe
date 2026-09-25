@@ -3,21 +3,21 @@
 Stufe: II
 
 - fhr: Funktionsgleichung bestimmen (10 Zeilen)
-- abi: Rekonstruktion von Funktionsgleichungen (15 Zeilen)
+- abi: Rekonstruktion von Funktionsgleichungen (17 Zeilen)
 - iqb: Rekonstruktion von Funktionsgleichungen (10 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
 **Funktionsgleichung mit Symmetriebedingung über LGS** · 4 Zeilen · fhr 4 · Jahre 2020–2026
 fhr/fhr-typen.csv (geprüft): Aus einer Symmetrieeigenschaft den verkürzten Ansatz aufstellen, gegebene Punkte einsetzen und das LGS lösen.
 
+**Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren** · 4 Zeilen · abi 4 · Jahre 2017–2023
+abitur/abitur-typen.csv (neu): Aus dem allgemeinen Ansatz dritten Grades die vier Koeffizienten über ein lineares Gleichungssystem aus Wert- und Steigungsbedingungen bestimmen; Punkte, Nullstellen, Extrempunkte (Wert und Ableitung null) und Parallelität zu einer Geraden (gleiche Steigung) sind solche Bedingungen, welche vorliegen, steht in der Zeile.
+
 **Funktionsgleichung aus drei Punkten über LGS** · 3 Zeilen · fhr 3 · Jahre 2019–2026
 fhr/fhr-typen.csv (geprüft): Allgemeinen Ansatz aufstellen, gegebene Punkte einsetzen und das lineare Gleichungssystem lösen.
-
-**Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren** · 3 Zeilen · abi 3 · Jahre 2019–2023
-abitur/abitur-typen.csv (neu): Aus dem allgemeinen Ansatz dritten Grades die vier Koeffizienten über ein lineares Gleichungssystem aus Wert- und Steigungsbedingungen bestimmen; Punkte, Nullstellen, Extrempunkte (Wert und Ableitung null) und Parallelität zu einer Geraden (gleiche Steigung) sind solche Bedingungen, welche vorliegen, steht in der Zeile.
 
 **Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren** · 3 Zeilen · abi 2 iqb 1 · Jahre 2020–2021
 abitur/abitur-typen.csv (neu): Aus dem allgemeinen Ansatz zweiten Grades (oder der Scheitelpunktform) die Koeffizienten über ein Gleichungssystem aus Wert- und Steigungsbedingungen bestimmen; Punkte, Nullstellen, Scheitel (Wert und Ableitung null) und eine Tangentengleichung (Wert und Steigung an der Berührstelle) sind solche Bedingungen, welche vorliegen, steht in der Zeile.
@@ -27,6 +27,9 @@ abitur/abitur-typen.csv (neu): Aus der Forderung, dass zwei Graphen an einer Ste
 
 **Parameter einer Linearkombination aus Funktion und Gerade aus zwei Punkten bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Die Koeffizienten a und b in g(x) = a · f(x) + b · x aus zwei Punkten des Graphen von g über zwei Gleichungen bestimmen.
+
+**Existenz einer quadratischen Funktion zu vier Wert- und Steigungsbedingungen über das überbestimmte Gleichungssystem untersuchen** · 1 Zeile · abi 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Aus der Forderung, dass eine Parabel einen Graphen in zwei Punkten berührt, vier Bedingungen (zwei Werte, zwei Steigungen) für die drei Koeffizienten aufstellen, mit drei davon die Koeffizienten bestimmen und an der vierten entscheiden, ob es eine solche Funktion gibt.
 
 **Funktionsgleichung aus der Ableitung und einer Tangente über die Integrationskonstante rekonstruieren** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Aus f' und einer Tangentengleichung die Berührstelle über die Steigung bestimmen, f durch Integration mit Konstante ansetzen und die Konstante aus dem Berührpunkt berechnen.
@@ -100,10 +103,12 @@ abitur/abitur-typen.csv (neu): Begründen, dass ein Profil, das an beiden Enden 
 2025-C-2d | 4 | ja | Eintragen¦Rechnung · Markieren Sie¦notieren Sie¦Bestimmen Sie | für die weitere Nutzung wird ein zusätzlicher Belüftungstunnel benötigt; er soll den Querschnitt einer achsensymmetrischen quadratischen Funktion g bekommen und dieselbe Höhe 1,2 m und Breite 1 m wie der historische Tunnel erhalten; Abbildung 2 zeigt das Koordinatensystem → drei markante Punkte des neuen Tunnelquerschnitts mit ihren Koordinaten¦Gleichung einer passenden Funktion g durch alle drei Punkte | die beiden Randpunkte auf der x-Achse und den höchsten Punkt auf der y-Achse markieren, aus der Achsensymmetrie b = 0 setzen, mit dem höchsten Punkt c bestimmen und mit einem Randpunkt a berechnen
 ## abi
 
+2017-be-gk-B1.2f | 7 | ja | Kurzantwort¦Rechnung¦Begründung · Geben Sie an¦Untersuchen Sie | Die äußere Kante eines geplanten Dachelements wird im Intervall [0; 2] annähernd durch f mit f(x) = (x² − 2x + 1) · e^(−x) beschrieben, 1 LE = 10 m. f′(x) = (−x² + 4x − 3) · e^(−x), also f′(0) = −3 und f′(1) = 0. Der Graph einer quadratischen Funktion p soll in den Punkten R(0 ¦ 1) und S(1 ¦ 0) tangential zum Graphen von f verlaufen. → vier Bedingungen für p; Untersuchung, ob es eine solche Funktion p gibt | Ansatz p(x) = ax² + bx + c. Bedingungen p(0) = 1, p′(0) = −3, p(1) = 0, p′(1) = 0. Die ersten drei liefern c = 1, b = −3, a = 2; die vierte prüfen: p′(1) = 2a + b = 1 ≠ 0.
 2023-bebb-lk-A1.4b | 3 | nein | Rechnung · Ermitteln Sie | f'(x) = 3x · (4 − x) = 12x − 3x²; t(x) = 9x + 1 ist Tangente an den Graphen von f → eine mögliche Funktionsgleichung von f | Berührstelle aus f' = 9, f durch Integration mit Konstante, Konstante aus f(x₀) = t(x₀)
 2018-be-gk-B1.1e | 6 | ja | Rechnung · Bestimmen Sie | Anlaufbahn h mit h(x) = 0,05x² + 54 und Aufsprunghang g mit g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000), 1 LE = 1 m. Die Flugbahn des Springers ist eine quadratische Funktion f; im Punkt S(0 ¦ 54) geht die Anlaufbahn ohne Knick in die Flugbahn über. Bei x = 60 m hat der Springer eine vertikale Höhe von 4,72 m über dem Aufsprunghang. Als Kontrolle ist f(x) = −0,008x² + 54 angegeben. → Funktionsgleichung der Flugbahn f | Ansatz f(x) = ax² + bx + c. Knickfreier Übergang in S heißt f(0) = h(0) = 54, also c = 54, und f'(0) = h'(0) = 0, also b = 0. Die dritte Bedingung ist f(60) − g(60) = 4,72 mit g(60) = 20,48; daraus 3600a + 54 = 25,2 und a = −0,008.
 2022-bebb-gk-B2.2k | 5 | ja | Rechnung · Weisen Sie nach¦Bestimmen Sie | Größeres Bauteil: oberer Rand zwischen R(2 ¦ 1) und S(4 ¦ 4) gerade, links und rechts knickfreie Kurven mit Übergängen bei (0 ¦ 0), R, S und (5 ¦ 5); Kurvenstück von (0 ¦ 0) bis R als Graph von k(x) = a · x⁴ + b · x² → Nachweis, dass k verwendet werden kann; Werte von a und b | Bedingungen k(2) = 1 und k'(2) = 1,5 (Steigung von RS) als Gleichungssystem; k'(0) = 0 erfüllt
 2018-bb-ea-B2.2h | 6 | ja | Rechnung · Ermitteln Sie | Über den Gartenteich führt eine Brücke. Sie soll in einem neuen x-y-Koordinatensystem durch eine ganzrationale Funktion 4. Grades modelliert werden, die symmetrisch zur y-Achse verläuft. Die Brücke hat eine Spannweite von 4 Metern, ist in der Mitte 0,5 Meter hoch über der x-Achse und hat an den beiden Enden einen Steigungswinkel von 45° bzw. −45°. → Gleichung dieser Funktion vierten Grades | Die Achsensymmetrie lässt nur gerade Exponenten zu: Ansatz p(x) = ax⁴ + bx² + c. Die Mitte liegt bei x = 0, also c = 0,5. Die Spannweite 4 legt die Enden auf x = ±2 mit p(2) = 0. Der Steigungswinkel −45° am rechten Ende bedeutet p′(2) = tan(−45°) = −1. Aus 16a + 4b = −0,5 und 32a + 4b = −1 folgen a und b.
+2017-be-gk-B1.1f | 9 | ja | Rechnung · Bestimmen Sie | Ein verändertes Brückenteil der Holzeisenbahn soll 25 cm lang sein, links 1,5 cm und rechts 11,5 cm hoch; in beiden oberen Eckpunkten sollen wieder die Extrempunkte liegen. Die linke untere Ecke liegt im Koordinatenursprung, 1 LE = 1 cm. Das Profil wird durch g mit g(x) = ax³ + bx² + c modelliert. → Funktionsgleichung von g | Bedingungen: g(0) = 1,5 liefert c = 1,5; g′(0) = 0 gilt für den Ansatz ohne linearen Term von selbst; g′(25) = 0 und g(25) = 11,5 ergeben 1875a + 50b = 0 und 15 625a + 625b = 10. Aus der ersten b = −37,5a, eingesetzt −7812,5a = 10.
 2019-be-gk-B2.1c | 5 | ja | Rechnung · Ermitteln Sie | Baum B: g(t) = a · t³ + b · t² (t Jahre, g(t) cm); nach 5 Jahren 500 cm hoch, Wachstumsgeschwindigkeit dann 150 cm/Jahr; Kontrollergebnis g(t) = −2t³ + 30t² → Funktionsgleichung von g | g'(t) = 3at² + 2bt; Bedingungen g(5) = 500 und g'(5) = 150 als LGS lösen
 2022-bebb-lk-B2.1i | 7 | ja | Rechnung · Bestimmen Sie | g ganzrational dritten Grades; Graph durch den Ursprung; Nullstelle −2 mit Steigung −5; Tangente in (2 ¦ g(2)) parallel zu y = −9x + 9; Kontrolle g(x) = −3/4 x³ − 1/2 x² + 2x → eine Funktionsgleichung von g | vier Bedingungen in a, b, c, d aufstellen und das Gleichungssystem lösen
 2023-bebb-gk-B2.2k | 6 | ja | Rechnung · Ermitteln Sie | Für eine neue Heizung wird der Temperaturverlauf der Startphase durch eine ganzrationale Funktion k vom Grad 3 beschrieben mit I k(0) = 20, II k'(0) = 130, III H(5 ¦ 220) ist Hochpunkt des Graphen von k. → Funktionsgleichung von k | Ansatz k(x) = ax³ + bx² + cx + d, k'(x) = 3ax² + 2bx + c; aus I und II folgen d = 20 und c = 130; aus k(5) = 220 und k'(5) = 0 folgt 125a + 25b = −450 und 75a + 10b = −130, also a = 2, b = −28.

@@ -5,7 +5,7 @@ Stufe: I
 - msa: Potenzen und Wurzeln (6 Zeilen)
 - msa: Zehnerpotenzen und Näherungswerte (6 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 

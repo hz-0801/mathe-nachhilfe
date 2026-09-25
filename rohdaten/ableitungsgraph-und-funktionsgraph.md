@@ -3,13 +3,13 @@
 Stufe: II
 
 - abi: Ableitungsgraph und Funktionsgraph (11 Zeilen)
-- iqb: Ableitungsgraph und Funktionsgraph (10 Zeilen)
+- iqb: Ableitungsgraph und Funktionsgraph (12 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Graphen von Funktion und Ableitung einander zuordnen** · 5 Zeilen · abi 2 iqb 3 · Jahre 2019–2026
+**Graphen von Funktion und Ableitung einander zuordnen** · 6 Zeilen · abi 2 iqb 4 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Unter abgebildeten Graphen den einer Funktion, ihrer Ableitung oder einer Stammfunktion erkennen, indem Nullstellen, Extremstellen und Wendestellen einander zugeordnet werden.
 
 **Monotonie aus dem Vorzeichen der Ableitung am Graphen begründen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2019–2026
@@ -48,6 +48,9 @@ abitur/abitur-typen.csv (neu): Die Steigung der Tangente an einer Stelle als Wer
 **Vorzeichen der Ableitung an vorgegebenen Stellen aus dem Funktionsgraphen angeben** · 1 Zeile · abi 1 · Jahre 2021
 abitur/abitur-typen.csv (neu): Aus dem Verlauf eines Funktionsgraphen an markierten Stellen angeben, ob die Ableitung dort positiv, null oder negativ ist (Steigung, waagerechte Tangente).
 
+**Vorzeichen von erster und zweiter Ableitung an einer Stelle aus Monotonie und Krümmung am Graphen bestimmen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Am abgebildeten Funktionsgraphen an einer Stelle das Vorzeichen von f' aus dem Steigen oder Fallen und das Vorzeichen von f'' aus der Krümmung (Lage zur Wendestelle) bestimmen und daraus das Vorzeichen eines Terms wie f'(a) · f''(a) folgern.
+
 **Wendepunkt des Funktionsgraphen aus dem Extrempunkt des Ableitungsgraphen erläutern** · 1 Zeile · abi 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Erläutern, dass ein Hoch- oder Tiefpunkt des Graphen von f' einer Wendestelle von f entspricht (f'' = 0 mit Vorzeichenwechsel), und die Folgerung für den Graphen von f nennen.
 
@@ -76,6 +79,7 @@ abitur/abitur-typen.csv (neu): Aus dem abgebildeten Graphen der zweiten Ableitun
 2024MerhoehtBAnalysisWTR1-1c | 3 | ja | Kurzantwort¦Zeichnen · Geben Sie an¦Skizzieren Sie | f'(−x) = f'(x) für alle x → Bedeutung für den Graphen von f' und Skizze | Symmetrie benennen, Graph mit Tiefpunkt (0 ¦ −1) skizzieren
 2026MerhoehtBAnalysisMMS2-2c | 5 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Abbildung 2 mit den Graphen von f_1' und h'; einziger gemeinsamer Punkt der Ableitungsgraphen (1; f_1'(1)); f_1(1) = h(1) = 0 aus b → Anzahl der gemeinsamen Punkte der Graphen von f_1 und h, ohne weitere Rechnung mit Abbildung 2 begründet | Differenz h − f_1 betrachten: sie ist bei x = 1 null und wegen h' > f_1' rechts von 1 streng wachsend, links von 1 (mit abnehmendem x) ebenfalls betragsmäßig wachsend, also sonst nie null
 2024MgrundlegendBAnalysisWTR1-2c | 3 | ja | Begründung · Beurteilen Sie | Abbildung 2 (p) und Abbildung 3 (a'); Aussage: ab dem Zeitpunkt, ab dem sich die Phosphorkonzentration verringert, verringert sich auch die Algenkonzentration → Beurteilung | Maximum von p mit dem Vorzeichen von a' vergleichen
+2017MgrundlegendAAnalysis2-a | 2 | nein | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Abbildung mit den Graphen I und II einer Funktion und ihrer ersten Ableitungsfunktion (ohne Zuordnung) → welcher der Graphen die Ableitungsfunktion darstellt, mit Begründung | Annahme prüfen: wäre I die Ableitung, müsste II dort steigen, wo I positiv ist (π/2 <= x <= 3π/2); II fällt dort, also ist II die Ableitung
 2019MerhoehtAAnalysis12-a | 3 | nein | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Graph Gf; drei Graphen I, II, III, einer davon gehört zu f' → der Ableitungsgraph und Begründung, warum die beiden anderen nicht infrage kommen | Nullstellen von f' mit den Extremstellen von f vergleichen, Steigung bei 0 abschätzen
 2025MerhoehtAAnalysis12-b | 3 | nein | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | f(x) = 1/4 x³ − 3x mit der Extremstelle 2; zwei abgebildete Graphen I und II, einer davon ist der Graph einer Stammfunktion von f → dieser Graph mit Begründung | der Graph jeder Stammfunktion F hat an der Extremstelle 2 von f einen Wendepunkt; Graph II wendet bei 2, Graph I nicht (oder: F hat Extremstellen bei den Nullstellen 0 und ±3,46 von f, das passt nur zu Graph II)
 2026MgrundlegendAAnalysis14-a | 2 | nein | Begründung · Begründen Sie | Abbildung mit zwei Graphen I und II: der Graph einer in IR definierten Funktion f und der Graph ihrer Ableitungsfunktion f'; Graph I hat einen Hochpunkt bei (0; 2) und berührt die x-Achse bei 2, Graph II hat Nullstellen bei 0 und 2 und einen Tiefpunkt bei etwa (1; −1,6) → Begründung, dass Graph I der Graph von f ist | einen Bereich nennen, in dem Graph I fällt und Graph II negativ ist (0 bis 2), oder umgekehrt in dem Graph II fällt, Graph I aber nicht negativ ist; die Zuordnung Graph II = f' passt zu Graph I
@@ -83,3 +87,4 @@ abitur/abitur-typen.csv (neu): Aus dem abgebildeten Graphen der zweiten Ableitun
 2019MerhoehtAAnalysis12-b | 2 | nein | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Graph Gf; F ist eine Stammfunktion von f; Intervall [1; 3] → Monotonieverhalten von F in [1; 3] mit Begründung | Vorzeichen von f auf dem Intervall ablesen
 2026MgrundlegendAAnalysis22-a | 2 | nein | Begründung · Begründen Sie | Abbildung mit dem Graphen der Ableitungsfunktion f' einer in IR definierten Funktion f; die einzige Nullstelle von f' ist −3; f' ist links von −3 negativ, rechts davon positiv → Begründung, dass f für x <= −3 monoton fallend und für x >= −3 monoton steigend ist | am Graphen von f' das Vorzeichen links und rechts von −3 ablesen; f' wechselt an seiner einzigen Nullstelle von minus nach plus
 2021MerhoehtAAnalysis22-a | 1 | nein | Kurzantwort · Geben Sie an | Abbildung mit G_f und dem Graphen von f'; f'(0) = 1 am Graphen → Steigung der Tangente an G_f im Punkt (0; f(0)) | f'(0) ablesen
+2017MgrundlegendBAnalysisWTR-2c | 4 | ja | Begründung · Untersuchen Sie | ganzrationale Funktion g vierten Grades, in IR definiert; Abbildung 2 zeigt ihren Graphen → Untersuchung, ob der Wert des Terms g'(3) · g''(3) positiv ist | Am Graphen: bei x = 3 fällt der Graph (g'(3) < 0) und ist rechtsgekrümmt, weil die Wendestelle zwischen dem Hochpunkt bei 2 und dem Tiefpunkt bei 6 rechts von 3 liegt (g''(3) < 0); das Produkt zweier negativer Zahlen ist positiv

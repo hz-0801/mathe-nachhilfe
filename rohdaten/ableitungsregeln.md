@@ -3,14 +3,14 @@
 Stufe: II
 
 - fhr: Ableitungen bilden (8 Zeilen)
-- abi: Ableitungsregeln (7 Zeilen)
-- iqb: Ableitungsregeln (9 Zeilen)
+- abi: Ableitungsregeln (8 Zeilen)
+- iqb: Ableitungsregeln (10 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Ableitung eines Produkts mit e-Funktion in vorgegebener Form nachweisen** · 6 Zeilen · abi 4 iqb 2 · Jahre 2018–2024
+**Ableitung eines Produkts mit e-Funktion in vorgegebener Form nachweisen** · 8 Zeilen · abi 5 iqb 3 · Jahre 2017–2024
 abitur/abitur-typen.csv (neu): Eine vorgegebene erste oder zweite Ableitung eines Produkts aus Potenz oder Polynom und e-Funktion mit Produkt- und Kettenregel nachweisen und in die vorgegebene Form bringen.
 
 **Ableitung ganzrationale Funktion** · 6 Zeilen · fhr 6 · Jahre 2023–2026
@@ -43,7 +43,7 @@ abitur/abitur-typen.csv (neu): Die Tangente an den Graphen einer Verkettung g(f(
 **Verschiebung zwischen Graph und hundertster Ableitung berechnen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Für eine e-Funktion die n-te Ableitung als Vielfaches erkennen und die Verschiebung in x-Richtung, die den Graphen in den der Ableitung überführt, über eine Exponentialgleichung berechnen.
 
-**Nebentypen:** Ableitung ganzrationale Funktion (2) · Anstieg des Graphen an einer Stelle berechnen (2) · Extrempunkt über notwendige Bedingung ausschließen (1) · Hochpunkt eines Produkts aus Polynom und e-Funktion berechnen (1) · Krümmungsverhalten aus der zweiten Ableitung deuten (1) · Punktprobe am Graphen (1) · Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben (1)
+**Nebentypen:** Ableitung ganzrationale Funktion (2) · Anstieg des Graphen an einer Stelle berechnen (2) · Krümmungsverhalten aus der zweiten Ableitung deuten (2) · Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen (1) · Extrempunkt über notwendige Bedingung ausschließen (1) · Punktprobe am Graphen (1) · Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben (1)
 
 ## B Zeilenliste
 
@@ -61,6 +61,7 @@ abitur/abitur-typen.csv (neu): Für eine e-Funktion die n-te Ableitung als Vielf
 
 2022-bebb-lk-B2.2b | 2 | ja | Rechnung · Bestimmen Sie | f wie in a; Kontrolle f'(x) = (1 − x²) · e^(−x²/2 + 1/2) → Term von f' | Produkt- und Kettenregel, ausklammern
 2018-bb-ea-B2.1e | 8 | ja | Rechnung¦Begründung · Weisen Sie nach¦Erläutern Sie | Die Funktion f_2 mit f_2(x) = (x² + 2) · e^(0,5 − x) aus der Schar f_a; ihre erste Ableitung ist f_2′(x) = (−x² + 2x − 2) · e^(0,5 − x). → Nachweis von f_2″(x) = (x − 2)² · e^(0,5 − x); Schlussfolgerungen über den Verlauf von G_2 | f_2′ nochmals mit Produkt- und Kettenregel ableiten und den Term als vollständiges Quadrat zusammenfassen. Dann das Vorzeichen beurteilen: Quadrat und Exponentialfaktor sind nicht negativ, die Nullstelle bei x = 2 ist doppelt, also ohne Vorzeichenwechsel.
+2018-bb-ea-cas-B2.1e | 7 | ja | Rechnung¦Begründung · Weisen Sie nach¦Erläutern Sie | Die Funktion f_2 mit f_2(x) = (x² + 2) · e^(0,5 − x) aus der Schar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR. → Nachweis von f_2″(x) = (x − 2)² · e^(0,5 − x); Schlussfolgerungen über den Verlauf von G_2 | f_2 zweimal ableiten (mit dem CAS oder mit Produkt- und Kettenregel, die erste Ableitung aus d) und den Term als vollständiges Quadrat zusammenfassen. Dann das Vorzeichen beurteilen: Quadrat und Exponentialfaktor sind nicht negativ, die Nullstelle bei x = 2 ist doppelt, also ohne Vorzeichenwechsel.
 2020-be-gk-B2.1c | 4 | ja | Rechnung · Weisen Sie nach¦Ermitteln Sie | f(x) = (6x − 3) · e^(−x), x ∈ IR; der Graph hat genau einen lokalen Extrempunkt → Nachweis von f'(x) = (−6x + 9) · e^(−x); Koordinaten des Extrempunkts | Produktregel anwenden und ausklammern; f' = 0 lösen, Funktionswert berechnen (Art nicht verlangt)
 2022-bebb-lk-A1.4a | 2 | nein | Rechnung · Zeigen Sie | f_a(x) = eˣ · (1 − ax), definiert in IR, a ∈ IR → Nachweis, dass f_a'(x) = eˣ · (1 − ax − a) | Produktregel anwenden und eˣ ausklammern
 2024-bebb-lk-B2.1d | 4 | ja | Rechnung¦Kurzantwort · Zeigen Sie¦Geben Sie an | f_{−0,2}(x) = (−0,2x² + x − 5) · e^(−0,2x); Behauptung f'_{−0,2}(x) = 0,04(x − 5)(x − 10) · e^(−0,2x) → Nachweis der Ableitung; mögliche lokale Extremstellen ohne weitere Rechnung | Produktregel, e-Term ausklammern, quadratischen Faktor in Linearfaktoren zerlegen; Nullstellen der Ableitung ablesen
@@ -71,6 +72,7 @@ abitur/abitur-typen.csv (neu): Für eine e-Funktion die n-te Ableitung als Vielf
 2022MgrundlegendBAnalysisWTR1-1c | 3 | ja | Rechnung · Zeigen Sie | f(x) = 1/80 x⁵ − 1/6 x³ + x, definiert in IR; Abbildung 1 zeigt G_f; W(2 ¦ f(2)) ist Wendepunkt; Behauptung f'(x) = 1/16 (x − 2)² (x + 2)² → Nachweis der Ableitung in der faktorisierten Form | Ableiten, 1/16 ausklammern, binomische Formeln
 2026MgrundlegendAAnalysis21-b | 4 | nein | Rechnung · Bestimmen Sie | Abbildung mit dem Graphen der linearen Funktion g (Steigung 2, g(3) = 4) und dem Graphen der differenzierbaren Funktion f (Tiefpunkt (3; −6)); h(x) = f(x) · g(x), definiert in IR → Steigung der Tangente an den Graphen von h im Punkt (3; h(3)) | h'(3) = f'(3) · g(3) + f(3) · g'(3) mit der Produktregel; f'(3) = 0 (Tiefpunkt), g(3) = 4, f(3) = −6 und g'(3) = 2 aus der Abbildung einsetzen
 2022MerhoehtBAnalysisWTR2-1b | 2 | ja | Rechnung · Bestimmen Sie | f wie in a; Kontrolle f'(x) = (1 − x²) · e^(−x²/2 + 1/2) → Term von f' | Produkt- und Kettenregel, ausklammern
+2017MgrundlegendBAnalysisWTR-1d | 3 | ja | Rechnung · Leiten Sie her | f(x) = −5x^2 · e^x + 1; angegebene Ableitung f'(x) = −5x · (2 + x) · e^x → Herleitung der angegebenen Gleichung von f' aus der Funktionsgleichung von f | Produktregel auf −5x^2 · e^x anwenden, die Konstante fällt weg, und −5x · e^x ausklammern
 2021MerhoehtAAnalysis13-a | 2 | nein | Rechnung · Zeigen Sie | f(t) = 2 · t · e^(−t/100), t in Tagen, f(t) Rate in Tausend Computern pro Tag → Nachweis, dass 2 · (1 − t/100) · e^(−t/100) ein Term von f' ist | Produktregel anwenden und zusammenfassen
 2024MgrundlegendBAnalysisWTR1-1a | 2 | ja | Rechnung · Zeigen Sie | f(x) = 2 · (x² − 1) · e^x in IR; Behauptung f'(x) = 2 · (x² + 2x − 1) · e^x → Nachweis der Ableitung | Produktregel, zusammenfassen
 2021MerhoehtAAnalysis12-a | 1 | nein | Rechnung · Zeigen Sie | f(x) = x⁴ − k · x² in IR mit k > 0; Graph in der Abbildung → Nachweis, dass f'(x) = 2x · (2x² − k) gilt | ableiten und ausklammern

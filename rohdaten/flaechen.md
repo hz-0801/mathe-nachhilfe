@@ -2,9 +2,9 @@
 
 Stufe: I
 
-- msa: Flächeninhalt und Umfang (26 Zeilen)
+- msa: Flächeninhalt und Umfang (27 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -19,6 +19,9 @@ msa/msa-typen.csv (gültig): Flächeninhalt eines Kreises aus dem Radius berechn
 
 **Rechteckseite aus Fläche berechnen** · 2 Zeilen · msa 2 · Jahre 2014–2023
 msa/msa-typen.csv (gültig): Länge oder Breite eines Rechtecks aus Flächeninhalt und der anderen Seite berechnen.
+
+**Umfang Rechteck berechnen** · 2 Zeilen · msa 2 · Jahre 2026
+msa/msa-typen.csv (gültig): Umfang eines Rechtecks aus Länge und Breite berechnen.
 
 **Figur in Teilflächen zerlegen** · 1 Zeile · msa 1 · Jahre 2017
 msa/msa-typen.csv (gültig): Eine zusammengesetzte Figur in bekannte Teilflächen (Rechteck, Halbkreise, Dreiecke) zerlegen und diese benennen.
@@ -52,9 +55,6 @@ msa/msa-typen.csv (gültig): Differenz der Flächeninhalte zweier Figuren (Recht
 
 **Trapezhöhe aus Fläche berechnen** · 1 Zeile · msa 1 · Jahre 2014
 msa/msa-typen.csv (gültig): Höhe eines Trapezes aus Flächeninhalt und den parallelen Seiten durch Umstellen der Trapezformel berechnen; bei gleichschenkligem Trapez auch über Pythagoras aus Schenkel und halber Seitendifferenz.
-
-**Umfang Rechteck berechnen** · 1 Zeile · msa 1 · Jahre 2026
-msa/msa-typen.csv (gültig): Umfang eines Rechtecks aus Länge und Breite berechnen.
 
 **Umfang Trapez berechnen** · 1 Zeile · msa 1 · Jahre 2023
 msa/msa-typen.csv (gültig): Umfang eines Trapezes berechnen, dessen Schenkel erst über Trigonometrie oder Pythagoras bestimmt werden müssen.
@@ -91,6 +91,7 @@ msa/msa-typen.csv (gültig): Aus einem Blech- oder Stoffstreifen die größtmög
 2024-OS-B1c | 1 | ja | Ankreuzen · Kreuzen Sie an | gleichseitiges Dreieck mit Seitenlänge a; Optionen u = a · a · a, u = a³, u = 3 · a, u = a/3 → Formel für den Umfang | drei gleich lange Seiten addieren
 2025-OS-B1i | 1 | ja | Ankreuzen · Kreuzen Sie an | Rechteck der Breite a, in zwei Teile der Höhen b und c geteilt; vier Terme zur Auswahl → Term für den gesamten Flächeninhalt | Gesamthöhe b + c, Fläche Breite mal Höhe
 2014-OS-K5c | 3 | ja | Rechnung · Weisen Sie nach | gleichschenkliges Trapez mit A = 5 225 cm², parallele Seiten 110 cm und 80 cm, Schenkel 57 cm; Kuchenplatten mit Durchmesser 50 cm → Nachweis, dass die Tiefe h ausreicht | h = 2 · A : (a + c) = 10 450 : 190 = 55 cm ≥ 50 cm; alternativ Pythagoras h = √(57² − 15²) ≈ 55 cm
+2026-EBR-B1h | 1 | ja | Kurzantwort · Geben Sie an | Rechteck mit a = 3,5 cm und b = 1,5 cm → Umfang | u = 2 · (a + b) = 2 · 5
 2026-FOR-B1h | 1 | ja | Kurzantwort · Geben Sie an | Rechteck mit a = 3,5 cm und b = 1,5 cm → Umfang | u = 2 · (a + b) = 2 · 5
 2023-OS-K2c | 3 | ja | Rechnung · Berechnen Sie | Trapez mit parallelen Seiten 15,00 m (oben) und 25,80 m (unten), Höhe 8,00 m, beide Basiswinkel 56° → Umfang | Schenkel s = 8 : sin 56° (oder Überstand (25,8 − 15) : 2 = 5,4 und s = √(5,4² + 8²)); U = 15 + 25,8 + 2s
 2023-OS-K5c | 4 | ja | Rechnung · Überprüfen Sie rechnerisch | Deckel r = 4 cm; Blechstreifen 8 cm breit, 1 m lang; so viele Deckel wie möglich; Abfall soll höchstens 25 % betragen → Prüfung, ob die Abfallvorgabe eingehalten wird | 100 : 8 = 12,5 → 12 Deckel; Deckelfläche 12 · π · 16; Blech 8 · 100 = 800 cm²; Abfall (800 − 603,2) : 800

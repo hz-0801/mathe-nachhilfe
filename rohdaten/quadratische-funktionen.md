@@ -2,13 +2,13 @@
 
 Stufe: I
 
-- msa: Quadratische Funktionen (31 Zeilen)
+- msa: Quadratische Funktionen (33 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Scheitelpunkt ablesen** · 8 Zeilen · msa 8 · Jahre 2017–2026
+**Scheitelpunkt ablesen** · 9 Zeilen · msa 9 · Jahre 2017–2026
 msa/msa-typen.csv (gültig): Scheitelpunkt einer Parabel am Graphen ablesen oder aus der Gleichung bestimmen.
 
 **Punktprobe durchführen** · 3 Zeilen · msa 3 · Jahre 2014–2024
@@ -25,6 +25,9 @@ msa/msa-typen.csv (gültig): Gleichung einer Parabel nach Verschiebung um gegebe
 
 **Scheitelpunktform aufstellen** · 2 Zeilen · msa 2 · Jahre 2016–2018
 msa/msa-typen.csv (gültig): Quadratische Funktion in der Form p(x) = (x − d)² + e angeben.
+
+**Wertetabelle einer Funktion zuordnen** · 2 Zeilen · msa 2 · Jahre 2026
+msa/msa-typen.csv (gültig): Zu einer Funktionsgleichung die passende Wertetabelle auswählen oder prüfen.
 
 **Argument zu Funktionswert berechnen** · 1 Zeile · msa 1 · Jahre 2023
 msa/msa-typen.csv (gültig): Zu einem gegebenen y-Wert die x-Werte einer quadratischen Funktion durch Lösen der quadratischen Gleichung bestimmen.
@@ -56,9 +59,6 @@ msa/msa-typen.csv (gültig): Zu einer gezeichneten Parabel aus einer Auswahl die
 **Scheitelpunktform in Normalform umformen** · 1 Zeile · msa 1 · Jahre 2017
 msa/msa-typen.csv (gültig): Scheitelpunktform durch Ausmultiplizieren der binomischen Formel in die Normalform y = x² + px + q überführen, ggf. als Nachweis.
 
-**Wertetabelle einer Funktion zuordnen** · 1 Zeile · msa 1 · Jahre 2026
-msa/msa-typen.csv (gültig): Zu einer Funktionsgleichung die passende Wertetabelle auswählen oder prüfen.
-
 **Nebentypen:** Scheitelpunktform aufstellen (3) · Parabel an der x-Achse spiegeln (2) · Behauptung prüfen (1) · Nullstellen quadratische Funktion berechnen (1) · Punktprobe durchführen (1) · Scheitelpunkt ablesen (1)
 
 ## B Zeilenliste
@@ -88,6 +88,7 @@ msa/msa-typen.csv (gültig): Zu einer Funktionsgleichung die passende Wertetabel
 2022-OS-K3b | 1 | ja | Kurzantwort · Geben Sie an | p(x) = (x − 2)² − 4 → Koordinaten des Scheitelpunkts | aus der Scheitelpunktform ablesen
 2023-OS-K4b | 2 | ja | Kurzantwort¦Kurzantwort · Geben Sie an¦Notieren Sie | Graph der nach unten geöffneten Normalparabel p mit Scheitel (−1¦6) auf Seite 6 → Koordinaten des Scheitelpunkts¦Gleichung in Scheitelpunktform | Scheitel ablesen; p(x) = −(x − d)² + e mit d = −1, e = 6
 2025-OS-K5b | 2 | ja | Eintragen¦Eintragen · Geben Sie an¦Geben Sie an | p(x) = x² − 6x + 7, Parabel im Koordinatensystem abgebildet → Scheitelpunkt S¦Gleichung in Scheitelpunktform | Scheitel am Graphen ablesen oder quadratische Ergänzung: x² − 6x + 9 − 2 = (x − 3)² − 2
+2026-EBR-K5c | 1 | ja | Eintragen · Geben Sie an | p(x) = (x − 2)² − 2, Parabel abgebildet → Scheitelpunkt | aus der Scheitelpunktform oder am Graphen ablesen
 2026-FOR-K5c | 1 | ja | Eintragen · Geben Sie an | p(x) = (x − 2)² − 2, Parabel abgebildet → Scheitelpunkt | aus der Scheitelpunktform oder am Graphen ablesen
 2016-OS-B1g | 1 | ja | Ankreuzen · Kreuzen Sie an | Scheitel S(1¦3); Auswahl y = (x + 1)² + 3, y = (x − 1)² − 3, y = (x − 1)² + 3 → die passende Gleichung | Scheitel (d¦e) → y = (x − d)² + e
 2018-OS-K5c | 2 | ja | Kurzantwort · Geben Sie an | p(x) = x² − 4x + 2; Scheitel (2¦−2) → Scheitelpunktform | p(x) = (x − 2)² − 2 (aus Scheitel oder durch quadratische Ergänzung x² − 4x + 4 − 4 + 2)
@@ -95,4 +96,5 @@ msa/msa-typen.csv (gültig): Zu einer Funktionsgleichung die passende Wertetabel
 2021-OS-K2c | 4 | ja | Rechnung · Berechnen Sie | Parabel y = x² + 2x − 1; Gerade y = 3x + 1 → Koordinaten der Schnittpunkte | x² + 2x − 1 = 3x + 1 → x² − x − 2 = 0 → x = 2 oder x = −1; y aus der Geraden
 2022-OS-K3c | 4 | ja | Rechnung · Ermitteln Sie | f(x) = −2x + 3; p(x) = (x − 2)² − 4 → Koordinaten der Schnittpunkte | (x − 2)² − 4 = −2x + 3 → x² − 2x − 3 = 0; p-q-Formel x = 1 ± 2; y-Werte über f
 2024-OS-K3d | 4 | ja | Rechnung · Berechnen Sie | f(x) = 4x + 1 (Gerade f); p(x) = x² − 4 (Parabel p); beide schneiden sich in zwei Punkten → Koordinaten der Schnittpunkte | 4x + 1 = x² − 4; x² − 4x − 5 = 0; x = 2 ± √9; y-Werte über f
+2026-EBR-B1e | 1 | ja | Ankreuzen · Kreuzen Sie an | y = 3x²; drei Wertetabellen für x = −2 … 2 mit y = 12, 3, 0, 3, 12 bzw. −6, −3, 0, 3, 6 bzw. 4, 1, 0, 1, 4 → passende Tabelle | einen Wert prüfen: 3 · 2² = 12
 2026-FOR-B1e | 1 | ja | Ankreuzen · Kreuzen Sie an | y = 3x²; drei Wertetabellen für x = −2 … 2 mit y = 12, 3, 0, 3, 12 bzw. −6, −3, 0, 3, 6 bzw. 4, 1, 0, 1, 4 → passende Tabelle | einen Wert prüfen: 3 · 2² = 12

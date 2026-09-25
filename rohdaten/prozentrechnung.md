@@ -2,24 +2,24 @@
 
 Stufe: I
 
-- msa: Prozentrechnung (22 Zeilen)
+- msa: Prozentrechnung (24 Zeilen)
 - fhr: Prozentrechnung (1 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Prozentwert berechnen** · 5 Zeilen · msa 5 · Jahre 2014–2026
+**Prozentwert berechnen** · 6 Zeilen · msa 6 · Jahre 2014–2026
 msa/msa-typen.csv (gültig): Aus Grundwert und Prozentsatz den Prozentwert bestimmen, auch Jahreszinsen aus Kapital und Zinssatz.
+
+**Prozentuale Veränderung berechnen** · 4 Zeilen · msa 4 · Jahre 2016–2026
+msa/msa-typen.csv (gültig): Zu- oder Abnahme zwischen zwei Werten in Prozent des Ausgangswerts berechnen.
 
 **Anteilsaussage prüfen und korrigieren** · 3 Zeilen · msa 3 · Jahre 2017–2023
 msa/msa-typen.csv (gültig): Aussagen über Anteile (jeder zweite, ein Drittel) mit Tabellenwerten prüfen, die falsche ankreuzen und korrekt umformulieren.
 
 **Prozentsatz berechnen** · 3 Zeilen · msa 3 · Jahre 2015–2023
 msa/msa-typen.csv (gültig): Aus Teil und Ganzem den Anteil in Prozent bestimmen, auch Zinssatz aus Kapital und Jahreszinsen.
-
-**Prozentuale Veränderung berechnen** · 3 Zeilen · msa 3 · Jahre 2016–2026
-msa/msa-typen.csv (gültig): Zu- oder Abnahme zwischen zwei Werten in Prozent des Ausgangswerts berechnen.
 
 **Grundwert berechnen** · 2 Zeilen · msa 2 · Jahre 2023–2025
 msa/msa-typen.csv (gültig): Aus Prozentwert und Prozentsatz den Grundwert bestimmen.
@@ -57,11 +57,13 @@ msa/msa-typen.csv (gültig): Zu einer sprachlichen Beschreibung (Differenz, Dopp
 2023-OS-K6a | 2 | ja | Rechnung · Berechnen Sie | Weltbevölkerung 2020: 7,8 Mrd.; Kinder (0–14) 1,95 Mrd.; Jugendliche (15–24) 1,25 Mrd.; mittleres Alter (25–64) 3,9 Mrd.; höheres Alter (ab 65) 0,7 Mrd. → Anteil der Jugendlichen in Prozent | 1,25 : 7,8 · 100
 2016-OS-K2c | 2 | ja | Rechnung · Berechnen Sie | 2009: 320 000, 2010: 400 000 → Zunahme in Prozent | (400 − 320) : 320
 2022-OS-K4b | 2 | ja | Rechnung · Ermitteln Sie | 2020: 470, 2021: 400 → Abnahme in Prozent | (470 − 400) : 470 · 100
+2026-EBR-K4c | 2 | ja | Rechnung · Berechnen Sie | Preis Do 1,79 €, Fr 1,84 € → Steigerung in Prozent | 1,84 : 1,79 = 1,0279, also 2,8 %; oder 0,05 : 1,79
 2026-FOR-K3c | 2 | ja | Rechnung · Berechnen Sie | Preis Do 1,79 €, Fr 1,84 € → Steigerung in Prozent | 1,84 : 1,79 = 1,0279, also 2,8 %; oder 0,05 : 1,79
 2014-OS-B1a | 1 | ja | Kurzantwort · Bestimmen Sie | 13 % von 50 € → Prozentwert | 50 · 0,13
 2017-OS-B1b | 1 | ja | Kurzantwort · Geben Sie an | Preis 120,00 €; Rabatt 20 % → Rabatt in € | 120 · 0,2
 2019-OS-K5a | 2 | ja | Rechnung · Berechnen Sie | 1 200 befragte Jugendliche; 2013 hatten 72 % ein Smartphone, 2016 95 % → Zunahme der Anzahl mit Smartphone | 0,95 · 1200 − 0,72 · 1200 oder 23 % von 1200
 2021-OS-B1c | 1 | ja | Ankreuzen · Kreuzen Sie an | Fahrrad 550 €; 20 % Rabatt bei Barzahlung; Optionen 100 €, 440 €, 110 €, 660 € → Ersparnis | 550 · 0,2
+2026-EBR-B1a | 1 | ja | Kurzantwort · Geben Sie an | 30 % von 70 € → Prozentwert | 0,3 · 70
 2026-FOR-B1a | 1 | ja | Kurzantwort · Geben Sie an | 30 % von 70 € → Prozentwert | 0,3 · 70
 2025-OS-K4b | 3 | ja | Eintragen¦Rechnung¦Begründung · Vervollständigen Sie¦Überprüfen Sie | zulässige Steigung höchstens 6 %; Lückensatz: „Eine Steigung von 6 % bedeutet, dass auf einer waagerechten Strecke von ___ Metern ein Höhenunterschied von ___ Metern erreicht wird.“; Behauptung von Frau Yücel: die Rampe (170 cm waagerecht, 16 cm hoch) ist zu steil, da die Steigung mehr als 6 % beträgt → beide Lücken¦Entscheidung zur Behauptung mit Rechnung | 6 % = 6 : 100; Steigung der Rampe = 16 : 170 = 0,094 = 9,4 %, mit 6 % vergleichen
 2015-OS-K2a | 3 | ja | Ankreuzen · Entscheiden Sie¦Kreuzen Sie an | Eintritt Erwachsene 12,00 €, Kinder (3–16 Jahre) 7,50 €; im Winter 20 % Rabatt; Familie Krause: Vater, Mutter, 13-jähriger Sohn, Großvater; drei Terme für den Rabatt: (2 · 12 € + 2 · 7,50 €) · 20/100; 1/5 · (36 € + 7,50 €); 20 · (12 € + 12 € + 12 € + 7,50 €) / 100 → richtig oder falsch je Term | Familie = drei Erwachsene und ein Kind, voller Preis 3 · 12 + 7,50 = 43,50 €; Rabatt = 20 % = 1/5 = 20/100 davon; Term 1 rechnet mit zwei Kindern → falsch; Term 2 und 3 richtig

@@ -5,10 +5,10 @@ Stufe: II
 - fhr: Graph zeichnen und zuordnen (23 Zeilen)
 - fhr: Nullstellen ganzrationaler Funktionen (19 Zeilen)
 - fhr: Symmetrie nachweisen (6 Zeilen)
-- abi: Funktionsklassen und Eigenschaften (53 Zeilen)
-- iqb: Funktionsklassen und Eigenschaften (99 Zeilen)
+- abi: Funktionsklassen und Eigenschaften (55 Zeilen)
+- iqb: Funktionsklassen und Eigenschaften (104 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -33,11 +33,17 @@ fhr/fhr-typen.csv (geprüft): Über die Exponenten des Funktionsterms oder über
 **Nullstellen über Substitution biquadratisch** · 5 Zeilen · fhr 5 · Jahre 2019–2026
 fhr/fhr-typen.csv (geprüft): Eine biquadratische Gleichung mit z = x^2 auf eine quadratische zurückführen, lösen und rücksubstituieren.
 
+**Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben** · 4 Zeilen · abi 4 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Die Nullstelle eines Produkts aus linearem Faktor und e-Funktion angeben (der e-Faktor hat keine Nullstelle) und den Schnittpunkt mit der y-Achse berechnen.
+
 **Nullstelle durch Einsetzen nachweisen** · 3 Zeilen · fhr 3 · Jahre 2024–2025
 fhr/fhr-typen.csv (geprüft): Eine behauptete Nullstelle durch Einsetzen in den Funktionsterm bestätigen.
 
-**Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben** · 3 Zeilen · abi 3 · Jahre 2020–2024
-abitur/abitur-typen.csv (neu): Die Nullstelle eines Produkts aus linearem Faktor und e-Funktion angeben (der e-Faktor hat keine Nullstelle) und den Schnittpunkt mit der y-Achse berechnen.
+**Nullstellen und Werte: Definitionsbereich einer Logarithmusfunktion angeben** · 3 Zeilen · abi 3 · Jahre 2017–2023
+abitur/abitur-typen.csv (neu): Den größtmöglichen Definitionsbereich einer Logarithmusfunktion aus der Bedingung bestimmen, dass das Argument positiv sein muss, gegebenenfalls in Abhängigkeit von einem Parameter.
+
+**Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Die Nullstellen einer ganzrationalen Funktion ohne konstantes Glied berechnen: x ausklammern, den verbleibenden quadratischen Faktor lösen.
 
 **Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2021–2022
 abitur/abitur-typen.csv (neu): Unter vorgelegten Graphen den zum Term passenden auswählen bzw. die unpassenden ausschließen, über einen Funktionswert oder eine Eigenschaft wie die Nichtkonstanz der Steigung.
@@ -72,17 +78,14 @@ fhr/fhr-typen.csv (geprüft): Die Variable ausklammern und die Nullstellen über
 **Nullstellen mit Polynomdivision** · 2 Zeilen · fhr 2 · Jahre 2021–2022
 fhr/fhr-typen.csv (geprüft): Eine gegebene oder durch Probieren gefundene Nullstelle abspalten und die restliche Gleichung niedrigeren Grades lösen.
 
-**Nullstellen und Werte: Definitionsbereich einer Logarithmusfunktion angeben** · 2 Zeilen · abi 2 · Jahre 2017–2023
-abitur/abitur-typen.csv (neu): Den größtmöglichen Definitionsbereich einer Logarithmusfunktion aus der Bedingung bestimmen, dass das Argument positiv sein muss, gegebenenfalls in Abhängigkeit von einem Parameter.
-
 **Nullstellen und Werte: Gleichheit zweier Funktionswerte durch Einsetzen im Sachzusammenhang nachweisen** · 2 Zeilen · iqb 2 · Jahre 2018
 abitur/abitur-typen.csv (neu): Durch Einsetzen einer Stelle in zwei Funktionsterme (etwa Erlös und Kosten) nachweisen, dass die Werte übereinstimmen, und das im Sachzusammenhang deuten (kein Gewinn).
 
+**Nullstellen und Werte: Höhen an den Rändern einer Profillinie als Funktionswerte berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Die Höhen an den Enden eines durch einen Funktionsgraphen modellierten Profils als Funktionswerte an den Intervallrändern berechnen.
+
 **Nullstellen und Werte: Nullstellen aus Linearfaktoren im Sachzusammenhang nennen und ihre Vollständigkeit über die Faktorstruktur begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die Nullstellen eines in Linearfaktoren gegebenen Terms als Zeitpunkte im Sachzusammenhang nennen und über die Anzahl und Gleichheit der Faktoren begründen, dass es keine weiteren gibt.
-
-**Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen** · 2 Zeilen · abi 2 · Jahre 2021–2022
-abitur/abitur-typen.csv (neu): Die Nullstellen einer ganzrationalen Funktion ohne konstantes Glied berechnen: x ausklammern, den verbleibenden quadratischen Faktor lösen.
 
 **Nullstellen und Werte: Nullstellenfreiheit und Wertemenge einer e-Funktion aus dem Term begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Am Term begründen, dass eine Funktion (etwa a · e^x + c oder eine Summe stets positiver Bestandteile) keine Nullstelle hat, und, wenn verlangt, ihre Wertemenge angeben.
@@ -92,6 +95,9 @@ abitur/abitur-typen.csv (neu): Den Schnittpunkt eines Graphen mit der y-Achse al
 
 **Nullstellen und Werte: Schnittstellen zweier Graphen im Sachzusammenhang ablesen** · 2 Zeilen · iqb 2 · Jahre 2024–2025
 abitur/abitur-typen.csv (neu): Die Stellen, an denen zwei abgebildete Graphen gleiche Werte haben, ablesen und im Sachzusammenhang angeben.
+
+**Nullstellen und Werte: Stelle zu einem Funktionswert am Graphen im Sachzusammenhang ablesen** · 2 Zeilen · iqb 2 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Die Stelle ablesen, an der ein abgebildeter Graph einen vorgegebenen Wert annimmt, und sie im Sachzusammenhang angeben.
 
 **Nullstellen und Werte: Stelle zu einem vorgegebenen Funktionswert am Graphen ablesen** · 2 Zeilen · iqb 2 · Jahre 2018
 abitur/abitur-typen.csv (neu): Aus einer Abbildung die Stelle ablesen, an der eine Funktion einen vorgegebenen Wert annimmt, gegebenenfalls nach Umrechnung der Einheit.
@@ -134,6 +140,9 @@ abitur/abitur-typen.csv (neu): Die Wertemenge von a · f(x − d) + e aus der We
 
 **Extrempunkte: Existenz eines Hochpunkts aus dem Grad und einem Tiefpunkt begründen und Koordinaten angeben** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Begründen, dass eine ganzrationale Funktion dritten Grades mit einem Tiefpunkt auch einen Hochpunkt hat, und dessen Koordinaten angeben.
+
+**Extrempunkte: Fehlen weiterer Extrempunkte über die Höchstzahl nach dem Grad begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Begründen, dass eine ganzrationale Funktion vom Grad n höchstens n − 1 Extrempunkte hat und deshalb außerhalb eines Bildausschnitts, der bereits so viele zeigt, keine weiteren besitzt.
 
 **Extrempunkte: Gerade durch die Hochpunkte einer Kosinusfunktion begründen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Begründen, dass alle Hochpunkte einer verschobenen Kosinusfunktion auf einer waagerechten Geraden liegen.
@@ -192,9 +201,6 @@ abitur/abitur-typen.csv (neu): Aus der Nullstelle einer Modellfunktion (Ende ein
 **Nullstellen und Werte: Gleichheit zweier Sachgrößen als Bedingung an den Funktionswert übersetzen und Stelle am Graphen ablesen** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Aus der Gleichheit zweier über Faktoren skalierter Funktionswerte den gesuchten Funktionswert berechnen und die zugehörige Stelle am Graphen ablesen.
 
-**Nullstellen und Werte: Höhen an den Rändern einer Profillinie als Funktionswerte berechnen** · 1 Zeile · iqb 1 · Jahre 2025
-abitur/abitur-typen.csv (neu): Die Höhen an den Enden eines durch einen Funktionsgraphen modellierten Profils als Funktionswerte an den Intervallrändern berechnen.
-
 **Nullstellen und Werte: Lage eines Graphen unterhalb der x-Achse über eine Logarithmus-Abschätzung beurteilen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Eine Aussage über die Lage eines Graphen gegenüber der x-Achse über eine Abschätzung mit ln(e^x + 1) > x beurteilen.
 
@@ -225,9 +231,6 @@ abitur/abitur-typen.csv (neu): Rechnerisch zeigen, dass ein vorgegebener Punkt a
 **Nullstellen und Werte: Schnittpunkte des Graphen mit beiden Koordinatenachsen berechnen** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Den Schnittpunkt mit der y-Achse als (0 | f(0)) und die Nullstellen über den Satz vom Nullprodukt berechnen und als Punkte angeben.
 
-**Nullstellen und Werte: Stelle zu einem Funktionswert am Graphen im Sachzusammenhang ablesen** · 1 Zeile · iqb 1 · Jahre 2024
-abitur/abitur-typen.csv (neu): Die Stelle ablesen, an der ein abgebildeter Graph einen vorgegebenen Wert annimmt, und sie im Sachzusammenhang angeben.
-
 **Nullstellen und Werte: Summe von Funktionswerten mit Maßstab als Gesamtlänge im Sachzusammenhang deuten** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Einen Summenterm über Funktionswerte an äquidistanten Stellen mit Maßstabsfaktor als Gesamtlänge gleichartiger Bauteile deuten und die Stellen, Werte und den Faktor begründen.
 
@@ -239,6 +242,9 @@ abitur/abitur-typen.csv (neu): Eine Aussage der Form f(t0) < c für eine Modellf
 
 **Nullstellen und Werte: Wert einer Funktion berechnen und die zugehörige Stelle einer zweiten Funktion am Graphen ablesen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Einen Funktionswert eines ersten Modells berechnen und am Graphen eines zweiten Modells die Stelle ablesen, an der dieser Wert angenommen wird (Verkettung zweier Modelle).
+
+**Nullstellen und Werte: Werte a mit vorgegebener Lösungsanzahl von f(x) = a über die lokalen Extremwerte am Graphen angeben** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Lösungen von f(x) = a als Schnittstellen des Graphen mit der Parallelen y = a deuten und die Werte a angeben, für die es eine vorgegebene Anzahl gibt, meist Berührung in einem lokalen Hoch- oder Tiefpunkt.
 
 **Nullstellen und Werte: Wertemenge einer verketteten e-Funktion angeben** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die Wertemenge einer Verkettung wie e^(x²) aus der Wertemenge der inneren Funktion und der Monotonie der äußeren angeben.
@@ -327,7 +333,7 @@ abitur/abitur-typen.csv (neu): Aus dem Term einer gebrochenrationalen Funktion d
 **Transformation: Wertebereich einer gestreckten und verschobenen Sinusfunktion angeben** · 1 Zeile · iqb 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Den Wertebereich einer Funktion a + b · sin x aus dem Wertebereich [−1; 1] der Sinusfunktion über Streckung und Verschiebung angeben.
 
-**Nebentypen:** Schnittpunkt mit der y-Achse berechnen (7) · Verhalten im Unendlichen bestimmen (6) · Graph nach Wertetabelle skizzieren (2) · Nullstelle durch Einsetzen nachweisen (2) · Nullstellen mit Polynomdivision (2) · Nullstellen und y-Achsenschnitt unterscheiden (2) · Scharparameter aus einem Punkt des Graphen angeben (2) · Vorzeichen der ersten Ableitung am Graphen beurteilen (2) · Anstieg des Graphen an einer Stelle berechnen (1) · Ausschluss eines Parameterwerts über das Grenzverhalten begründen (1) · Funktionswert im Sachzusammenhang deuten (1) · Gemeinsame Punkte aller Graphen einer Schar bestimmen (1) · Graph ganzrationaler Funktion im Intervall zeichnen (1) · Graphen einer Schar beschriften (1) · Grenzverhalten einer Potenzfunktion untersuchen (1) · Koordinatenachsen in eine Abbildung einzeichnen (1) · Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen (1) · Nullstellen durch Ausklammern (1) · Nullstellen einer quadratischen Funktion mit Lösungsformel (1) · Nullstellen und Werte: Fehlende Ecke einer Raute aus drei Achsenschnittpunkten angeben (1) · Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen (1) · Nullstellen und Werte: Schnittpunkt mit der y-Achse und Steigung des Graphen dort angeben (1) · Punktprobe am Graphen (1) · Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen (1) · Stellen mit vorgegebenem Funktionswert durch Ausklammern berechnen (1) · Streckenlänge im Koordinatensystem in Meter umrechnen (1) · Transformation: Extrempunkt eines transformierten Graphen angeben (1) · Umschließendes achsenparalleles Rechteck zu einer krummlinig begrenzten Fläche bestimmen (1) · Ungleichheit zweier Funktionsterme nachweisen (1) · Vorzeichen der zweiten Ableitung am Graphen beurteilen (1) · Weitere Nullstellen über Symmetrie angeben (1) · Wendepunkte am Graphen markieren (1) · Zahl der Krümmungs- und Monotoniewechsel vergleichen (1) · Zeitpunkt für einen vorgegebenen Bestand aus der Funktionsgleichung mit dem Rechner ermitteln (1) · Zeitpunkte gleicher Änderungsrate zweier Modelle über die Gleichung der Ableitungen berechnen (1)
+**Nebentypen:** Schnittpunkt mit der y-Achse berechnen (7) · Verhalten im Unendlichen bestimmen (6) · Scharparameter aus einem Punkt des Graphen angeben (3) · Gemeinsame Punkte aller Graphen einer Schar bestimmen (2) · Graph nach Wertetabelle skizzieren (2) · Nullstelle durch Einsetzen nachweisen (2) · Nullstellen mit Polynomdivision (2) · Nullstellen und y-Achsenschnitt unterscheiden (2) · Vorzeichen der ersten Ableitung am Graphen beurteilen (2) · Anstieg des Graphen an einer Stelle berechnen (1) · Ausschluss eines Parameterwerts über das Grenzverhalten begründen (1) · Funktionswert im Sachzusammenhang deuten (1) · Graph ganzrationaler Funktion im Intervall zeichnen (1) · Graphen einer Schar beschriften (1) · Grenzverhalten einer Potenzfunktion untersuchen (1) · Koordinatenachsen in eine Abbildung einzeichnen (1) · Lage und Art aller lokalen Extrempunkte bestimmen (1) · Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen (1) · Nullstellen durch Ausklammern (1) · Nullstellen einer quadratischen Funktion mit Lösungsformel (1) · Nullstellen und Werte: Fehlende Ecke einer Raute aus drei Achsenschnittpunkten angeben (1) · Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen (1) · Nullstellen und Werte: Schnittpunkt mit der y-Achse und Steigung des Graphen dort angeben (1) · Punktprobe am Graphen (1) · Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen (1) · Stellen mit vorgegebenem Funktionswert durch Ausklammern berechnen (1) · Streckenlänge im Koordinatensystem in Meter umrechnen (1) · Transformation: Extrempunkt eines transformierten Graphen angeben (1) · Umschließendes achsenparalleles Rechteck zu einer krummlinig begrenzten Fläche bestimmen (1) · Ungleichheit zweier Funktionsterme nachweisen (1) · Vorzeichen der zweiten Ableitung am Graphen beurteilen (1) · Weitere Nullstellen über Symmetrie angeben (1) · Wendepunkte am Graphen markieren (1) · Zahl der Krümmungs- und Monotoniewechsel vergleichen (1) · Zeitpunkt für einen vorgegebenen Bestand aus der Funktionsgleichung mit dem Rechner ermitteln (1) · Zeitpunkte gleicher Änderungsrate zweier Modelle über die Gleichung der Ableitungen berechnen (1)
 
 ## B Zeilenliste
 
@@ -386,11 +392,13 @@ abitur/abitur-typen.csv (neu): Den Wertebereich einer Funktion a + b · sin x au
 2026-bb-gk-A1.4b | 3 | nein | Begründung · Untersuchen Sie | f(x) = sin x mit den Extrempunkten A(π/2; 1) und B(3π/2; −1); g(x) = 2 · sin(1/3 · x), definiert in IR; betrachtet wird die Strecke zwischen zwei direkt aufeinanderfolgenden Extrempunkten des Graphen von g → Untersuchung, ob diese Strecke kürzer als die Strecke AB ist | den Graphen von g als Streckung des Graphen von f in x-Richtung mit Faktor 3 und in y-Richtung mit Faktor 2 erkennen; beide Faktoren größer als 1, also wächst die waagerechte und die senkrechte Differenz der Extrempunkte, die Strecke ist länger
 2026-bb-gk-A1.4a | 2 | nein | Rechnung · Berechnen Sie | f(x) = sin x, definiert in IR; Dreieck ABC, dessen Eckpunkte drei direkt aufeinanderfolgende Extrempunkte des Graphen sind: A(π/2; 1), B(3π/2; −1), C(5π/2; 1) (aus der Abbildung) → Flächeninhalt des Dreiecks ABC | Grundseite AC mit Länge 2π und Höhe 2 (Abstand von B zur Geraden AC) ablesen, Fläche als halbes Produkt
 2017-bb-ea-B2.1a | 8 | ja | Kurzantwort¦Begründung¦Rechnung · Geben Sie an¦Zeigen Sie¦Ermitteln Sie | Funktionenschar f_a mit f_a(x) = ln(a · x² + 1); a ∈ IR, a > 0. Die Graphen dieser Funktionen sind G_a. → Definitionsbereich von f_a; Nachweis, dass alle Graphen G_a durch den Koordinatenursprung verlaufen; exakter Wert von a mit f_a(2) = 2 | Für a > 0 ist a · x² + 1 ≥ 1 > 0, der Logarithmus also für jedes x definiert. f_a(0) = ln 1 = 0 unabhängig von a. Aus ln(4a + 1) = 2 folgt durch Exponenzieren 4a + 1 = e², also a = (e² − 1)/4.
+2017-bb-ea-cas-B2.1a | 7 | ja | Kurzantwort¦Begründung¦Rechnung · Geben Sie an¦Zeigen Sie¦Ermitteln Sie | Funktionenschar f_a mit f_a(x) = ln(a · x² + 1); a ∈ IR, a > 0. Die Graphen dieser Funktionen sind G_a. → Definitionsbereich von f_a; Nachweis, dass alle Graphen G_a durch den Koordinatenursprung verlaufen; exakter Wert von a mit f_a(2) = 2 | Für a > 0 ist a · x² + 1 ≥ 1 > 0, der Logarithmus also für jedes x definiert. f_a(0) = ln 1 = 0 unabhängig von a. Aus ln(4a + 1) = 2 folgt durch Exponenzieren (oder mit dem CAS) 4a + 1 = e², also a = (e² − 1)/4.
 2023-bebb-lk-A1.2a | 2 | nein | Rechnung · Ermitteln Sie | f(x) = ln(−4x² + 4) → maximaler Definitionsbereich von f | Argument größer null setzen und die Ungleichung lösen
 2019-be-gk-B2.1a | 10 | ja | Rechnung · Bestimmen Sie¦Berechnen Sie¦Geben Sie an | Wachstum eines Baums A für t ≥ 0 bis zur maximalen Höhe: h(t) = −0,1 · t⁴ + 20 · t², t in Jahren, h(t) Höhe in cm → Höhe nach 2 und nach 8 Jahren; maximale Höhe; Anzahl der Jahre, die der Baum wächst | Funktionswerte einsetzen; h'(t) = −0,4t³ + 40t = t · (−0,4t² + 40) = 0 mit t = 10 (t = 0 Minimum, −10 entfällt), h''(10) < 0; h(10) = 1000
 2019-be-gk-B2.1d | 7 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Berechnen Sie | Wachstum eines Baums A für t ≥ 0 bis zur maximalen Höhe: h(t) = −0,1 · t⁴ + 20 · t², t in Jahren, h(t) Höhe in cm; Baum B: g(t) = a · t³ + b · t² (t Jahre, g(t) cm) mit g(t) = −2t³ + 30t² (aus c); beide beginnen bei t = 0 → Höhe beider Bäume zu Beobachtungsbeginn; Zeiten mit gleicher Wachstumsgeschwindigkeit | Funktionswerte bei t = 0; Ableitungen gleichsetzen, t ausklammern, quadratische Gleichung 0,4t² − 6t + 20 = 0 lösen
 2024-bebb-lk-B2.2g | 3 | ja | Rechnung¦Kurzantwort · Berechnen Sie¦Interpretieren Sie | k(x) = u(x) = 100x³ − 900x² + 2300x für 0 ≤ x < 3, v(x) = 20x² − 520x + 2880 für 3 ≤ x ≤ 8; x Stunden seit 7:00 Uhr, k(x) momentane Änderungsrate der Anzahl der Lesebestätigungen in 1/h → k(2) und Deutung | u(2) berechnen, als Rate um 9:00 Uhr deuten
 2026-bb-gk-B2.2g | 1 | ja | Kurzantwort · Geben Sie an | k(x) = 60e^{−x/400} + 20, x Zeit in Minuten seit Beginn des Abkühlens, k(x) Oberflächentemperatur in °C → Oberflächentemperatur zu Beginn | k(0)
+2017-be-gk-B1.2a | 11 | ja | Rechnung · Bestimmen Sie¦Ermitteln Sie | Die äußere Kante eines geplanten Dachelements wird im Intervall [0; 2] annähernd durch f mit f(x) = (x² − 2x + 1) · e^(−x) beschrieben, 1 LE = 10 m. Kontrollangabe: f′(x) = (−x² + 4x − 3) · e^(−x). → Koordinaten der Schnittpunkte des Graphen von f mit den Koordinatenachsen; Art und Lage aller Extrempunkte des Graphen von f | f(0) = 1 liefert den y-Achsenschnittpunkt; da e^(−x) > 0, ist f(x) = 0 genau für (x − 1)² = 0. Für die Extrempunkte −x² + 4x − 3 = 0 lösen (x = 1, x = 3) und die Art mit f″(x) = (x² − 6x + 7) · e^(−x) oder über den Vorzeichenwechsel von f′ bestimmen.
 2020-be-gk-B2.1a | 2 | ja | Rechnung · Ermitteln Sie | f(x) = (6x − 3) · e^(−x), x ∈ IR → Schnittpunkte des Graphen von f mit den Koordinatenachsen | Ersten Faktor null setzen; f(0) berechnen
 2021-be-gk-B2.2a | 4 | ja | Rechnung · Berechnen Sie | f(x) = (−1/10 x² + 2x) · e^(−0,1x) und h(x) = −3/4 x · e^(−0,1x), beide in IR; Graphen G und H → Schnittpunkte von G mit den Koordinatenachsen | Polynomfaktor null setzen; f(0)
 2024-bebb-gk-B2.1a | 2 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Ermitteln Sie | f(x) = (x − 2) · e^(−x/2 + 3), definiert in IR, mit f'(x) = (−x/2 + 2) · e^(−x/2 + 3); Abbildung 1 zeigt G_f und G_f'; f hat genau eine Nullstelle → die Nullstelle; Koordinaten des Schnittpunkts von G_f mit der y-Achse | x − 2 = 0; f(0) berechnen
@@ -440,6 +448,7 @@ abitur/abitur-typen.csv (neu): Den Wertebereich einer Funktion a + b · sin x au
 
 2026MgrundlegendAAnalysis12-b | 3 | nein | Begründung · Untersuchen Sie | f(x) = sin x mit den Extrempunkten A(π/2; 1) und B(3π/2; −1); g(x) = 2 · sin(1/3 · x), definiert in IR; betrachtet wird die Strecke zwischen zwei direkt aufeinanderfolgenden Extrempunkten des Graphen von g → Untersuchung, ob diese Strecke kürzer als die Strecke AB ist | den Graphen von g als Streckung des Graphen von f in x-Richtung mit Faktor 3 und in y-Richtung mit Faktor 2 erkennen; beide Faktoren größer als 1, also wächst die waagerechte und die senkrechte Differenz der Extrempunkte, die Strecke ist länger
 2026MgrundlegendBAnalysisMMS2-1b | 3 | ja | Begründung¦Kurzantwort · Begründen Sie¦Geben Sie an | f wie in a; Tiefpunkt von G bei x = 2/3 → Begründung eines Hochpunkts; seine Koordinaten | Über den Grad argumentieren, Hochpunkt aus f' = 0 oder aus der doppelten Nullstelle
+2017MgrundlegendBAnalysisWTR-2a | 3 | ja | Begründung · Begründen Sie | ganzrationale Funktion g vierten Grades, in IR definiert; Abbildung 2 zeigt ihren Graphen → Begründung, dass der Graph von g außerhalb des abgebildeten Bereichs keine Extrempunkte besitzt | Die Ableitung ist ganzrational vom Grad 3 und hat höchstens drei Nullstellen, also hat der Graph höchstens drei Extrempunkte; drei sind im Bild zu sehen
 2026MgrundlegendAAnalysis12-a | 2 | nein | Rechnung · Berechnen Sie | f(x) = sin x, definiert in IR; Dreieck ABC, dessen Eckpunkte drei direkt aufeinanderfolgende Extrempunkte des Graphen sind: A(π/2; 1), B(3π/2; −1), C(5π/2; 1) (aus der Abbildung) → Flächeninhalt des Dreiecks ABC | Grundseite AC mit Länge 2π und Höhe 2 (Abstand von B zur Geraden AC) ablesen, Fläche als halbes Produkt
 2022MgrundlegendAAnalysis11-a | 1 | nein | Begründung · Begründen Sie | f(x) = cos(x) + 1 in IR; Graph mit Gerade g durch die Hochpunkte in der Abbildung → Begründung, dass g durch y = 2 dargestellt werden kann | alle Hochpunkte haben die y-Koordinate 2, da der Kosinus höchstens 1 ist
 2025MerhoehtBAnalysisWTR1-2a | 4 | ja | Kurzantwort · Geben Sie an¦Beschreiben Sie | r(x) Quotient aus tatsächlicher Reichweite und Nennreichweite bei Außentemperatur x in °C, −12 ≤ x ≤ 36; Graph in Abbildung 2 → Koordinaten des Hochpunkts und ihre Bedeutung | Ablesen, beide Koordinaten deuten
@@ -467,6 +476,7 @@ abitur/abitur-typen.csv (neu): Den Wertebereich einer Funktion a + b · sin x au
 2018MerhoehtBAnalysisWTR1-2c | 2 | ja | Rechnung · Zeigen Sie | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 2 zeigt den Graphen von K; Erlös E(x) = 23x, Gewinn G = E − K → Nachweis, dass bei vier verkauften Kubikmetern kein Gewinn entsteht | E(4) und K(4) vergleichen
 2018MgrundlegendBAnalysisWTR-2d | 2 | ja | Rechnung · Zeigen Sie | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 3 zeigt den Graphen von K; Erlösfunktion E(x) = 23x, Gewinnfunktion G = E − K (positive Werte Gewinn, negative Verlust) → Nachweis, dass bei vier verkauften Kubikmetern kein Gewinn entsteht | E(4) und K(4) berechnen und vergleichen
 2025MerhoehtBAnalysisWTR1-2b | 5 | ja | Rechnung · Bestimmen Sie | Nennreichweiten 320 km (Auto A) und 500 km (Auto B); r wie in a → eine Außentemperatur, bei der A dieselbe tatsächliche Reichweite hat wie B bei 0 °C | Gleichung der Reichweiten aufstellen, r(x) berechnen, am Graphen ablesen
+2017MgrundlegendBAnalysisWTR-1a | 2 | ja | Rechnung · Berechnen Sie | Querschnitt einer Senke mit Fluss: Profillinie f(x) = −5x^2 · e^x + 1 für −6 <= x <= 0; linke Uferzone waagerecht in Höhe f(−6) links von x = −6, rechte Uferzone waagerecht in Höhe 1 rechts von x = 0 (Strecken parallel zur x-Achse, lückenlos an den Graphen anschließend); die Wasseroberfläche ist ein Abschnitt der x-Achse; 1 LE = 1 m; gegeben f'(x) = −5x · (2 + x) · e^x, f''(x) = −10e^x − 20x · e^x − 5x^2 · e^x und die Stammfunktion F(x) = x − 5 · (x^2 − 2x + 2) · e^x → Höhenunterschied zwischen den beiden Uferzonen | Die Höhen der Uferzonen als f(0) = 1 und f(−6) berechnen und subtrahieren
 2025MerhoehtBAnalysisMMS2-2a | 3 | ja | Rechnung · Berechnen Sie | Wasserrutsche: r(x) = 1/16 · x² · e^(−0,25x + 1) (= f_(0,25)), Graph G beschreibt für −4 ≤ x ≤ 10 die Profillinie der Rutschbahn, die x-Achse den Boden und die Wasseroberfläche, links ein horizontales Startpodest; 1 LE = 1 m → Höhe des Startpodests über dem Boden und Höhe des Endpunkts über der Wasseroberfläche | r(−4) und r(10) berechnen
 2024MerhoehtBAnalysisWTR1-1e | 3 | ja | Begründung · Beurteilen Sie | F wie in d; Aussage: der Graph von F verläuft vollständig unterhalb der x-Achse → Beurteilung | ln(e^x + 1) gegen x abschätzen
 2018MerhoehtBAnalysisWTR2-1a | 2 | ja | Rechnung · Berechnen Sie | Kugelstoßen im Koordinatensystem (1 LE = 1 m, x-Achse ist der Boden): Bahn von der Ruhelage R bis zum Abstoßpunkt A durch f(x) = 0,4 + 1,6 · e^(0,5x), x ∈ [−2; 0]; Flugkurven p_a(x) = −ax² + bx + 2, a > 0, ohne Knick in A → Länge der Bahn von R bis A näherungsweise als Streckenlänge | R(−2 ¦ f(−2)) und A(0 ¦ 2), Abstand
@@ -474,6 +484,7 @@ abitur/abitur-typen.csv (neu): Den Wertebereich einer Funktion a + b · sin x au
 2022MgrundlegendBAnalysisWTR1-1a | 2 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | f(x) = 1/80 x⁵ − 1/6 x³ + x, definiert in IR; Abbildung 1 zeigt G_f; W(2 ¦ f(2)) ist Wendepunkt → die Nullstelle von f mit Begründung am Term | x ausklammern bzw. fehlenden konstanten Summanden nennen
 2023MerhoehtBAnalysisWTR1-1a | 3 | ja | Kurzantwort¦Begründung · Nennen Sie¦Begründen Sie | f(x) = x · (8 − 5x) · (1 − x/4)² = −5/16x⁴ + 3x³ − 9x² + 8x, x Stunden nach 06:00 Uhr, f(x) Änderungsrate der Staulänge in km/h; Stau von 06:00 bis 10:00 Uhr; f'(x) = (5x² − 16x + 8)(1 − x/4) → Zeitpunkte mit Änderungsrate null; Begründung, dass es keine weiteren gibt | Nullstellen der Linearfaktoren ablesen, Anzahl über die Faktorstruktur begründen
 2026MgrundlegendBAnalysisMMS2-1a | 3 | ja | Rechnung¦Kurzantwort · Berechnen Sie¦Geben Sie an | f(x) = 3/16 · (x³ + 2x² − 4x − 8) in IR, Graph G → Nullstellen; Verhalten für x → −∞ | Gleichung lösen (Rechner oder Faktorisierung), Grad und Leitkoeffizient betrachten
+2017MgrundlegendAAnalysis12-a | 2 | nein | Begründung · Bestätigen Sie | f: x ↦ x^3 + 2x^2, in IR definiert → Bestätigung, dass x1 = −2 und x2 = 0 die einzigen Nullstellen von f sind | f(x) = 0 setzen, x^2 ausklammern und den Satz vom Nullprodukt anwenden
 2026MgrundlegendBAnalysisWTR2-1a | 3 | ja | Begründung¦Kurzantwort · Begründen Sie¦Geben Sie an | f(x) = 3e^x + 1 in IR → Begründung am Term, dass Gf die x-Achse nicht schneidet, und Wertemenge | e^x > 0 nutzen
 2021MgrundlegendAAnalysis12-a | 2 | nein | Begründung · Geben Sie an¦Begründen Sie | f(x) = x³ − x in IR; Graphen I, II, III, einer stellt f dar → die Graphen, die nicht infrage kommen, mit Begründung | Vorzeichen eines Funktionswerts und Nichtkonstanz der Steigung prüfen
 2022MgrundlegendBAnalysisWTR2-1c | 2 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | f(x) = (x + 2) · e^(−x), definiert in IR, mit f'(x) = −(x + 1) · e^(−x); Abbildungen I, II, III → die Abbildung, die den Graphen von f zeigt, mit Begründung | Einen Funktionswert (etwa f(0) = 2 oder f(1) ≈ 1,1) mit den Abbildungen vergleichen
@@ -484,6 +495,7 @@ abitur/abitur-typen.csv (neu): Den Wertebereich einer Funktion a + b · sin x au
 2026MgrundlegendBAnalysisMMS1-2a | 2 | ja | Kurzantwort · Geben Sie an | f(x) = e^(−x+2) − 1 und h(x) = −2x − 2 in IR; Graphen in Abbildung 2 → Schnittpunkt von G_f mit der y-Achse und Steigung dort | x = 0 einsetzen, Ableitung an der Stelle 0
 2024MgrundlegendBAnalysisWTR2-2b | 3 | ja | Rechnung¦Kurzantwort · Ermitteln Sie¦Geben Sie an | genau ein Zeitpunkt x_s mit gleicher Geschwindigkeit; Abbildung 2 → x_s und der Zeitraum, in dem A schneller ist als B | Schnittstelle ablesen, Lage der Graphen vergleichen
 2025MerhoehtBAnalysisWTR3-2b | 3 | ja | Rechnung · Ermitteln Sie | Graphen von k (abgegebene Leistung) und h (aufgenommene Leistung) in Abbildung 2 → Zeitpunkte gleicher Leistung, grafisch | Schnittstellen ablesen
+2017MgrundlegendBAnalysisWTR-1b | 2 | ja | Kurzantwort · Ermitteln Sie | Querschnitt einer Senke mit Fluss: Profillinie f(x) = −5x^2 · e^x + 1 für −6 <= x <= 0; linke Uferzone waagerecht in Höhe f(−6) links von x = −6, rechte Uferzone waagerecht in Höhe 1 rechts von x = 0 (Strecken parallel zur x-Achse, lückenlos an den Graphen anschließend); die Wasseroberfläche ist ein Abschnitt der x-Achse; 1 LE = 1 m; gegeben f'(x) = −5x · (2 + x) · e^x, f''(x) = −10e^x − 20x · e^x − 5x^2 · e^x und die Stammfunktion F(x) = x − 5 · (x^2 − 2x + 2) · e^x; Abbildung 1 → Breite der Senke einen Meter unterhalb der Wasseroberfläche, mithilfe von Abbildung 1 | In Abbildung 1 die beiden Stellen ablesen, an denen der Graph den Wert −1 annimmt, und ihren Abstand bilden
 2024MgrundlegendBAnalysisWTR1-2a | 2 | ja | Kurzantwort · Geben Sie an | p(t) Phosphorkonzentration in mg/m³, t Jahre seit Beobachtungsbeginn, 0 ≤ t ≤ 40; Graph in Abbildung 2 → Zeitpunkt mit Phosphorkonzentration 30 mg/m³ | Waagerechte bei 30 mit dem Graphen schneiden
 2018MerhoehtBAnalysisWTR1-2a | 1 | ja | Kurzantwort · Geben Sie an | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 2 zeigt den Graphen von K → Produktionsmenge mit Kosten 125 000 Euro, mithilfe der Abbildung | y = 125 am Graphen suchen
 2018MgrundlegendBAnalysisWTR-2a | 1 | ja | Kurzantwort · Geben Sie an | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 3 zeigt den Graphen von K → Produktionsmenge, bei der die Kosten 125 000 Euro betragen, mithilfe der Abbildung | y = 125 am Graphen suchen
@@ -491,6 +503,7 @@ abitur/abitur-typen.csv (neu): Den Wertebereich einer Funktion a + b · sin x au
 2019MgrundlegendBAnalysisWTR1-1b | 2 | ja | Kurzantwort · Bestimmen Sie | k(x) = 1/40 · (x³ − 30x² + 288x − 815), in IR definiert; Abbildung 1 zeigt den Graphen; Laktattest: für 8,5 ≤ x ≤ 17,5 beschreibt k die Laktatkonzentration in mmol/l in Abhängigkeit von der Geschwindigkeit x in km/h → Geschwindigkeit, ab der die Konzentration ansteigt; Geschwindigkeit, bei der 3,25 mmol/l überschritten werden | Tiefpunkt und Stelle zu y = 3,25 aus Abbildung 1 ablesen
 2026MerhoehtBAnalysisMMS2-1a | 2 | ja | Kurzantwort · Geben Sie an | r(t) = 3/4 · t · (t + 4) · e^(−t/2) Wachstumsrate in cm pro Woche, t Wochen seit dem Einpflanzen; Anfangshöhe 3 cm; r(10) < 1 → Bedeutung von r(10) < 1 im Sachzusammenhang | Argument als Zeitpunkt, Wert als Rate mit Einheit aussprechen
 2022MerhoehtBAnalysisWTR3-3c | 4 | ja | Rechnung¦Kurzantwort · Bestimmen Sie | V(t) wie in 3a; Abbildung 3 mit V(h) → Füllhöhe 50 Minuten nach Beginn | V(50) berechnen, in Abbildung 3 die zugehörige Höhe ablesen
+2017MgrundlegendBAnalysisWTR-2b | 2 | ja | Kurzantwort · Geben Sie an | ganzrationale Funktion g vierten Grades, in IR definiert; Abbildung 2 zeigt ihren Graphen; betrachtet wird die Gleichung g(x) = a mit a ∈ IR → alle Werte von a, für die die Gleichung genau drei Lösungen hat | Lösungen als Schnittstellen des Graphen mit der Parallelen y = a deuten; genau drei, wenn die Parallele den Graphen im Tiefpunkt (0; 4) oder im Hochpunkt (2; 5) berührt (für 4 < a < 5 sind es vier)
 2023MgrundlegendAAnalysis2-a | 2 | nein | Kurzantwort · Geben Sie an | f(x) = e^(x²), definiert in IR → Wertemenge von f | x² nimmt alle Werte ab 0 an, die e-Funktion ist streng monoton steigend, also alle Werte ab e^0 = 1
 2023MgrundlegendBAnalysisWTR2-2c | 4 | ja | Kurzantwort · Geben Sie an | h(x) = −3 · sin(π/6 · x) + 14 für 0 ≤ x < 12 als alternatives Modell → alle angenommenen Temperaturen; wie oft jede angenommen wird | Wertebereich aus Amplitude 3 um 14, Periode 12 ausnutzen: Extremwerte einmal, alle anderen zweimal
 2019MgrundlegendBAnalysisWTR2-2c | 2 | ja | Zeichnen · Stellen Sie dar | CO₂-Konzentration in einem Raum: g(x) = −600 · e^(−0,5x) + 1000, in IR definiert, x Zeit in Stunden seit Beginn der Untersuchung, g(x) in ppm → grafische Darstellung der Konzentration für die ersten zehn Stunden | Koordinatensystem mit passender Skalierung, Graph von g zeichnen

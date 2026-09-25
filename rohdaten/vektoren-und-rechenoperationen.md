@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Vektoren und Rechenoperationen (1 Zeilen)
-- iqb: Vektoren und Rechenoperationen (19 Zeilen)
+- iqb: Vektoren und Rechenoperationen (20 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -20,6 +20,9 @@ abitur/abitur-typen.csv (neu): Den Punkt mit einem als Vektorterm gegebenen Orts
 
 **Verbindungsvektor zweier Kantenmittelpunkte als Linearkombination der Kantenvektoren angeben** · 2 Zeilen · iqb 2 · Jahre 2026
 abitur/abitur-typen.csv (neu): Die Strecke zwischen zwei Kantenmittelpunkten eines Quaders einzeichnen und ihren Vektor als Linearkombination der aufspannenden Vektoren angeben.
+
+**Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Den fehlenden Eckpunkt eines Parallelogramms – auch eines Rechtecks oder Quadrats – aus drei gegebenen Ecken über die Addition eines Seitenvektors bestimmen (OD = OA + BC).
 
 **Blickrichtungsvektoren zu schematischen Ansichten angeben und eine weitere Ansicht zeichnen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Zu schematischen Ansichten eines Streckenzugs passende Blickrichtungsvektoren angeben und die Ansicht aus einer weiteren Richtung (von oben) zeichnen.
@@ -54,9 +57,6 @@ abitur/abitur-typen.csv (neu): Zu einer vorgegebenen Raumdiagonale eines Würfel
 **Verschobenen Punkt über den Diagonalenschnittpunkt bestimmen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Den Bildpunkt einer Verschiebung bestimmen, die den Diagonalenschnittpunkt eines Körpers in den Ursprung bringt: Mittelpunkt berechnen, Verschiebungsvektor anwenden.
 
-**Vierten Eckpunkt eines Quadrats über eine Vektoraddition bestimmen** · 1 Zeile · iqb 1 · Jahre 2022
-abitur/abitur-typen.csv (neu): Den fehlenden Eckpunkt eines Quadrats aus drei gegebenen Ecken über die Addition eines Seitenvektors bestimmen.
-
 **Nebentypen:** keine
 
 ## B Zeilenliste
@@ -84,4 +84,5 @@ abitur/abitur-typen.csv (neu): Den fehlenden Eckpunkt eines Quadrats aus drei ge
 2026MerhoehtBAGLAA1WTR-1a | 3 | ja | Zeichnen¦Kurzantwort · Zeichnen Sie ein¦Geben Sie an | Quader ABCDEFGH von u, v, w aufgespannt; M1 Mittelpunkt von BC, M2 Mittelpunkt von EF → Strecke M1M2 in der Abbildung und r, s, t mit M1M2 = r u + s v + t w | Weg von M1 über B und A nach E und M2 als Vektorkette
 2025MerhoehtBAGLAA1MMS-1a | 2 | ja | Kurzantwort · Geben Sie an | Würfel mit einer Ecke O im Ursprung, Kanten parallel zu den Achsen, Kantenlänge 4; v = (4; −4; 4) ist der Verbindungsvektor der Ecken O und A → ein Vektor u: Verbindungsvektor zweier Würfelecken, gleich lang wie v, nicht kollinear zu v | Eine andere Raumdiagonale wählen
 2024MgrundlegendAAGLAA211-b | 3 | nein | Rechnung · Ermitteln Sie | Quader mit A(1; 1; 0), G(4; 7; 4), H(1; 7; 4); der Quader wird parallel zu einer Geraden so verschoben, dass der Schnittpunkt seiner Raumdiagonalen im Ursprung liegt; es entsteht A'B'C'D'E'F'G'H' → Koordinaten von H' | Schnittpunkt S der Raumdiagonalen als Mittelpunkt von AG; Verschiebung um −OS auf H anwenden
+2017MgrundlegendBAGLAA2WTR2-1c | 1 | ja | Rechnung · Bestimmen Sie | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem; das Dreieck ABC hat bei B einen rechten Winkel → Koordinaten des Punkts D, für den das Viereck ABCD ein Rechteck ist | OD = OA + BC
 2022MerhoehtBAGLAA1WTR-1b | 2 | ja | Rechnung · Bestimmen Sie | E auf der längeren Diagonale AC; BCDE Quadrat → Koordinaten von E | E = D + CB

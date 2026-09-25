@@ -2,10 +2,10 @@
 
 Stufe: II
 
-- abi: Flächeninhalt und Volumen im Raum (26 Zeilen)
-- iqb: Flächeninhalt und Volumen im Raum (52 Zeilen)
+- abi: Flächeninhalt und Volumen im Raum (27 Zeilen)
+- iqb: Flächeninhalt und Volumen im Raum (55 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -17,6 +17,12 @@ abitur/abitur-typen.csv (neu): Alle Kantenlängen einer Pyramide vergleichen und
 
 **Ebene Figur: Parameter einer Ecke aus dem Flächeninhalt eines gleichschenkligen Dreiecks bestimmen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2020–2022
 abitur/abitur-typen.csv (neu): Die Parameterkoordinate der Spitze eines gleichschenkligen Dreiecks aus dem vorgegebenen Flächeninhalt bestimmen, mit der Höhe vom Mittelpunkt der Basis.
+
+**Körper: Höhe einer Pyramide aus dem Volumen bestimmen** · 3 Zeilen · iqb 3 · Jahre 2017–2026
+abitur/abitur-typen.csv (neu): Aus dem gegebenen Volumen einer Pyramide und ihrer Grundfläche die Höhe bestimmen, wobei die Höhenkante über Skalarprodukte als senkrecht zur Grundfläche erkannt wird.
+
+**Körper: Oberflächeninhalt einer quadratischen Pyramide berechnen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Den Oberflächeninhalt einer quadratischen Pyramide aus Grundfläche und vier Seitendreiecken (Seitenhöhe über Pythagoras) berechnen.
 
 **Körper: Trapezgrundfläche nachweisen und Pyramidenvolumen berechnen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2024–2026
 abitur/abitur-typen.csv (neu): Die Grundfläche einer Pyramide als Trapez nachweisen (kollineare Seiten) und das Volumen über Trapezfläche und Höhe berechnen.
@@ -38,12 +44,6 @@ abitur/abitur-typen.csv (neu): Einen Innenwinkel einer Raute im Raum über das S
 
 **Ebene Figur: Parameter eines Punktes aus einer Flächengleichheit bestimmen** · 2 Zeilen · iqb 2 · Jahre 2026
 abitur/abitur-typen.csv (neu): Den Parameter eines Punktes so bestimmen, dass zwei Dreiecke mit gemeinsamer Seite gleichen Flächeninhalt haben, über den Vergleich der zugehörigen Höhen oder Katheten.
-
-**Körper: Höhe einer Pyramide aus dem Volumen bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017–2026
-abitur/abitur-typen.csv (neu): Aus dem gegebenen Volumen einer Pyramide und ihrer Grundfläche die Höhe bestimmen, wobei die Höhenkante über Skalarprodukte als senkrecht zur Grundfläche erkannt wird.
-
-**Körper: Oberflächeninhalt einer quadratischen Pyramide berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
-abitur/abitur-typen.csv (neu): Den Oberflächeninhalt einer quadratischen Pyramide aus Grundfläche und vier Seitendreiecken (Seitenhöhe über Pythagoras) berechnen.
 
 **Körper: Pyramidenvolumen aus Grundfläche und Höhe berechnen** · 2 Zeilen · abi 2 · Jahre 2018–2020
 abitur/abitur-typen.csv (neu): Das Volumen einer Pyramide im Koordinatensystem aus dem Flächeninhalt der Grundfläche und dem Abstand der Spitze zu deren Ebene bestimmen.
@@ -75,6 +75,9 @@ abitur/abitur-typen.csv (neu): An einer Skizze begründen, dass der Flächeninha
 **Ebene Figur: Flächengleichheit zweier Dreiecke mit gemeinsamer Seite über gleiche Höhen an einer Skizze begründen** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Ohne Rechnung an einer Skizze begründen, dass zwei Dreiecke mit gemeinsamer Seite gleichen Flächeninhalt haben, weil die Höhen auf diese Seite gleich lang sind (dritter Punkt aus einer Vektorgleichung).
 
+**Ebene Figur: Flächeninhalt eines Quadrats über die Seitenlänge nachweisen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Den vorgegebenen Flächeninhalt eines im Raum gegebenen Quadrats bestätigen, indem eine Seitenlänge als Vektorbetrag berechnet und quadriert wird.
+
 **Ebene Figur: Flächeninhalt eines Rechtecks aus Kantenlängen berechnen und rechten Winkel zweier Flächen prüfen** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Den Flächeninhalt eines Rechtecks im Raum aus zwei Kantenlängen (ein Eckpunkt ergänzt) berechnen und über das Skalarprodukt zweier Kanten prüfen, ob zwei Flächen einen rechten Winkel einschließen.
 
@@ -89,6 +92,9 @@ abitur/abitur-typen.csv (neu): Einen vorgegebenen Term aus Streckenlängen als F
 
 **Ebene Figur: Flächenverhältnis zweier Quadrate aus den Seitenlängen nachweisen** · 1 Zeile · abi 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Die Seitenlängen zweier Quadrate im Raum aus Koordinaten berechnen und ein behauptetes Verhältnis ihrer Flächeninhalte nachweisen.
+
+**Ebene Figur: Größeren Flächeninhalt des Schattens eines geneigten Rechtecks bei senkrechtem Lichteinfall begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Mit einer beschrifteten Querschnittsskizze begründen, dass der Schatten eines Rechtecks mit einer waagerechten Seite bei senkrecht auffallendem Parallellicht auf der Grundebene größer ist: die waagerechte Seite bleibt gleich lang, die geneigte wird zur Hypotenuse verlängert.
 
 **Ebene Figur: Kongruenz aller Dreiecke aus Raumdiagonale, Flächendiagonale und Kante begründen und Flächeninhalt berechnen** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Begründen, dass alle Dreiecke aus einer Raumdiagonale eines Würfels und einer weiteren Ecke kongruent sind, und den Flächeninhalt an einem rechtwinkligen Vertreter berechnen.
@@ -188,6 +194,7 @@ abitur/abitur-typen.csv (neu): Das Volumen eines Restkörpers als Differenz eine
 2022-bebb-lk-B3k | 5 | ja | Rechnung · Ermitteln Sie | Pyramide ABCD₆ (A(0¦0¦0), B(4¦0¦0), C(0¦4¦0), D₆(0¦0¦6)); Ebene T parallel zur yz-Ebene teilt sie in zwei volumengleiche Teilkörper → die Stelle, an der T die x-Achse schneidet | Ähnlichkeit: Teilpyramide mit Spitze B hat das (4 − t)/4-fache in jeder Richtung, Volumenverhältnis kubisch
 2025-bebb-gk-B3a | 5 | ja | Rechnung · Berechnen Sie | A(0 ¦ 0 ¦ 0), B(2 ¦ 2 ¦ 0), C(0 ¦ 6 ¦ 0), D(−2 ¦ 2 ¦ 0), S(0 ¦ 0 ¦ 6); ABCD Drachenviereck → Länge der kürzesten und der längsten Kante, Volumen | acht Kantenlängen vergleichen, Grundfläche über Diagonalen, Volumen
 2025-bebb-lk-B3a | 4 | ja | Rechnung · Berechnen Sie | A(0 ¦ 0 ¦ 0), B(2 ¦ 2 ¦ 0), C(0 ¦ 6 ¦ 0), D(−2 ¦ 2 ¦ 0), S(0 ¦ 0 ¦ 6); ABCD Drachenviereck → Länge der kürzesten Kante und Volumen | Kantenlängen vergleichen, Grundfläche über Diagonalen, Volumen
+2017-be-gk-B2.2d | 4 | ja | Rechnung · Berechnen Sie | Verpackung für Schokotrüffel: gerader quadratischer Pyramidenstumpf ABCDEFGH mit aufgesetzter gerader quadratischer Pyramide EFGHS als Deckel. Kantenlänge AB = 10 cm, Kantenlänge EF der Deckfläche 8 cm, Höhe des Stumpfs 6 cm, Gesamthöhe der Verpackung 9 cm, 1 LE = 1 cm. Eckpunkte B(10 ¦ 10 ¦ 0), D(0 ¦ 0 ¦ 0), F(9 ¦ 9 ¦ 6), Spitze S(5 ¦ 5 ¦ 9). Die vier Seitenflächen des pyramidenförmigen Deckels über der Deckfläche EFGH (Kantenlänge 8 cm, in 6 cm Höhe) werden mit Goldfolie überzogen; die Spitze liegt in 9 cm Höhe. → benötigte Goldfolie in cm² für einen Deckel | Pyramidenhöhe 9 − 6 = 3 cm; Seitenhöhe eines Dreiecks über der halben Kante 4 cm mit Pythagoras √(3² + 4²) = 5 cm. Vier Dreiecke mit Grundseite 8 cm und Höhe 5 cm.
 2024-bebb-lk-B3a | 4 | ja | Rechnung · Berechnen Sie | A(−3 ¦ −3 ¦ 0), B(3 ¦ −3 ¦ 0), C(3 ¦ 3 ¦ 0), D(−3 ¦ 3 ¦ 0), S(0 ¦ 0 ¦ 4) → Oberflächeninhalt der Pyramide | Seitenhöhe, Dreiecksfläche, Summe
 2018-bb-ea-B3.1d | 4 | ja | Rechnung¦Begründung · Weisen Sie nach | Das Gebäude eines Museums wird modellhaft durch den abgebildeten Körper ABCDEFG dargestellt. Die obere Etage entspricht der Pyramide DEFG, die untere Etage dem Körper ABCDEF, der Teil der Pyramide DEFS ist. Das Dreieck ABC liegt in der x-y-Ebene, das Dreieck DEF parallel dazu. Im kartesischen Koordinatensystem gilt A(−5 ¦ 5 ¦ 0), B(−5 ¦ 25 ¦ 0), D(0 ¦ 0 ¦ 15), E(0 ¦ 30 ¦ 15), F(−25 ¦ 5 ¦ 15) und G(−10 ¦ 10 ¦ 35). Eine Längeneinheit entspricht 1 m in der Realität. Für die obere Etage, also die Pyramide DEFG, wird eine Anlage zur Entfeuchtung der Luft installiert, die für 100 m³ Rauminhalt eine elektrische Leistung von 0,8 Kilowatt benötigt. → Nachweis, dass für den Betrieb der Anlage eine Leistung von 25 Kilowatt ausreicht | Die Grundfläche DEF beträgt 375 m². Die Höhe der Pyramide ist der Abstand von G zur Ebene des Dreiecks DEF; beide Dreiecke liegen waagerecht, also ist die Höhe die Differenz der z-Werte 35 und 15, also 20 m. Aus V = (1/3) · Grundfläche · Höhe folgt der Rauminhalt, daraus über den Dreisatz die benötigte Leistung, die mit 25 Kilowatt zu vergleichen ist.
 2020-be-gk-B3.1e | 3 | ja | Rechnung · Berechnen Sie | Pyramide mit den Eckpunkten A(3 ¦ 0 ¦ 0), B(0 ¦ 9 ¦ 0), C(0 ¦ 0 ¦ 4) und dem Ursprung → Volumen der Pyramide | V = 1/3 · Grundfläche · Höhe mit dem Dreieck OAB in der x-y-Ebene und Höhe 4
@@ -206,6 +213,7 @@ abitur/abitur-typen.csv (neu): Das Volumen eines Restkörpers als Differenz eine
 2020MgrundlegendBAGLAA1WTR-2b | 3 | ja | Zeichnen¦Begründung · Begründen Sie | Viereck ABCD mit A(5 ¦ 0 ¦ 0), B(0 ¦ 8 ¦ −6), C(−5 ¦ 0 ¦ 0) und D(0 ¦ −8 ¦ 6); Term 1/2 · ¦AC¦ · ¦BD¦ → Begründung mithilfe einer Skizze, dass der Term den Flächeninhalt der Raute liefert | Raute mit Diagonalen in ein Rechteck der Seiten ¦AC¦ und ¦BD¦ einbetten und den Anteil 1/2 begründen
 2023MerhoehtBAGLAA1WTR-2c | 3 | ja | Zeichnen¦Begründung · Begründen Sie | OK = OP + 2 · PQ → Begründung ohne Rechnung anhand einer Skizze, dass die Dreiecke OPQ und OQK flächengleich sind | Q als Mittelpunkt von PK erkennen, gemeinsame Seite OQ, gleiche Höhen
 2017MerhoehtAAGLAA22-a | 2 | nein | Rechnung · Bestimmen Sie | Ebene E: 2x1 + x2 − 2x3 = −18; Dreieck aus den Schnittpunkten von E mit der x1- und der x2-Achse und dem Ursprung → Flächeninhalt des Dreiecks | Spurpunkte bestimmen, Katheten 9 und 18
+2017MgrundlegendAAGLAA212-a | 2 | nein | Begründung · Weisen Sie nach | Quadrat ABCD mit A(3 ¦ 3 ¦ 4), B(6 ¦ 7 ¦ 4), C(2 ¦ 10 ¦ 4) und D(−1 ¦ 6 ¦ 4) in der Ebene z = 4 → Nachweis, dass das Quadrat den Flächeninhalt 25 besitzt | Seitenlänge als Betrag von AB berechnen und quadrieren
 2023MerhoehtBAGLAA2WTR1-1a | 4 | ja | Rechnung · Bestimmen Sie¦Prüfen Sie | Mast 15 m hoch, Durchmesser 80 cm, Mittelpunkt der Grundfläche im Ursprung; A(5¦−2¦11), E(−2¦5¦15), F(−2¦−2¦15) Ecken der Werbeflächen; seitliche Kanten vertikal; 1 LE = 1 m → Flächeninhalt der grauen Werbefläche; ob die anderen beiden Flächen einen rechten Winkel einschließen | D über A ergänzen, Rechteckseiten 4 und ¦DE¦; Skalarprodukt der Oberkanten FD und FE
 2019MgrundlegendBAGLAA2WTR1-1d | 4 | ja | Rechnung · Berechnen Sie | Würfel ABCDEFGH mit G(5 ¦ 5 ¦ 5) und H(0 ¦ 5 ¦ 5) (A im Ursprung, Kantenlänge 5); I(5 ¦ 0 ¦ 1), J(2 ¦ 5 ¦ 0), K(0 ¦ 5 ¦ 2), L(1 ¦ 0 ¦ 5) auf Kanten des Würfels; IL ∥ JK, ¦IL¦ = 2 · ¦JK¦, ¦IJ¦ = ¦KL¦ → Flächeninhalt des Trapezes IJKL | Höhe als Abstand der Mittelpunkte der parallelen Seiten, Trapezformel
 2018MerhoehtBAGLAA2WTR2-1e | 3 | ja | Rechnung · Berechnen Sie | Kletteranlage im Koordinatensystem (x1x2-Ebene ist der Untergrund, 1 LE = 1 m): Pfähle durch P1(0 ¦ 0 ¦ 0) und P2(5 ¦ 10 ¦ 0); Kletterwand mit den Eckpunkten A(3 ¦ 0 ¦ 2), B(0 ¦ 3 ¦ 2), E(6 ¦ 0 ¦ 0), F(0 ¦ 6 ¦ 0); Plattform 2 mit den Eckpunkten R(5 ¦ 7 ¦ 3), S(8 ¦ 13 ¦ 3), T(2 ¦ 10 ¦ 3); Kletternetz als ebenes Viereck zwischen den Pfählen: untere Ecken bei (0 ¦ 0 ¦ 2) am Pfahl 1 und oberhalb der Plattform 2 am Pfahl 2, an jedem Pfahl Abstand 1,80 m zwischen den beiden dort befestigten Ecken → Flächeninhalt des Netzes | Grundseite 1,8 mal Abstand der Pfähle
@@ -217,6 +225,7 @@ abitur/abitur-typen.csv (neu): Das Volumen eines Restkörpers als Differenz eine
 2023MerhoehtBAGLAA2WTR2-1c | 3 | ja | Zeichnen · Veranschaulichen Sie | Flächeninhalt von ABC über 6 · 6 − 1/2 · 3 · 3 − 2 · 1/2 · 3 · 6 → Veranschaulichung durch Eintragungen in der Abbildung | Quadrat um das Dreieck legen, die drei Eckdreiecke markieren und bemaßen
 2021MgrundlegendBAGLAA2WTR2-1b | 4 | ja | Kurzantwort¦Begründung · Nennen Sie¦Erläutern Sie | Ebene Rasenfläche mit den Eckpunkten A(0 ¦ 0 ¦ 0), B(18 ¦ 0 ¦ 1,5), C(12 ¦ 10 ¦ 1), D(12 ¦ 15 ¦ 1), E(0 ¦ 15 ¦ 0); AB ∥ DE; 1 LE = 1 m; Mähroboter: Mittelpunkt der kreisförmigen Unterseite (Radius 20 cm) berührt die Fläche, Start P(3,6 ¦ 8 ¦ 0,3), Bewegung entlang der Geraden g durch P mit Richtungsvektor (12; −4; 1) auf den Rand BC zu; Ansatz ¦AE¦ · ¦DE¦ + 1/2 · (¦AB¦ − ¦DE¦) · (¦AE¦ − ¦CD¦) → die mit dem Ansatz berechnete Größe und die Erläuterung des Ansatzes | Fläche in Rechteck und rechtwinkliges Dreieck zerlegen und die Faktoren zuordnen
 2024MgrundlegendAAGLAA112 | 5 | nein | Rechnung¦Zeichnen · Ermitteln Sie¦Stellen Sie dar | Dreieck ABC in der Abbildung ohne Koordinaten; Punkt D mit OD = OC − 2 · AB, O der Ursprung → Verhältnis des Flächeninhalts von Dreieck ABC zu dem des Trapezes ABCD¦Darstellung des Vorgehens in der Abbildung | D konstruieren (von C aus den Vektor −2 · AB abtragen), CD ist parallel zu AB und doppelt so lang; Dreieck und Trapez haben dieselbe Höhe h zwischen AB und CD; Trapezformel
+2017MgrundlegendBAGLAA2WTR2-1g | 4 | ja | Begründung¦Zeichnen · Begründen Sie | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem; Solarmodule auf einem Trägergestell, das an einem vertikal stehenden Metallrohr befestigt ist; die Fläche der Module ist das Rechteck ABCD mit D(−6; 2; 5), der Befestigungspunkt des Rohrs am Gestell ist M(−2; 4; 3); die x1x2-Ebene ist der horizontale Untergrund, auf dem das Rohr steht; 1 LE = 1 m; ABCD liegt in E: 3x1 − x2 + 5x3 − 5 = 0; das Sonnenlicht fällt als parallele Geraden senkrecht auf die Modulfläche und erzeugt auf dem horizontalen Untergrund einen rechteckigen Schatten → Begründung unter Verwendung einer geeignet beschrifteten Skizze, dass der Flächeninhalt des Schattenrechtecks größer ist als der des Rechtecks ABCD | AB ist parallel zum Boden und wird in wahrer Länge abgebildet; im Querschnitt senkrecht zu AB trifft das senkrecht auf AD fallende Licht den Boden schräg, der Schatten von AD ist die Hypotenuse zu AD als Kathete; Flächeninhalt als Produkt der Seitenlängen
 2022MgrundlegendBAGLAA2WTR2-1d | 6 | ja | Rechnung · Berechnen Sie | Kirchturmdach: Eckpunkte A(0 ¦ 0 ¦ 0), B(8 ¦ 0 ¦ 0), C(8 ¦ 8 ¦ 0), D(0 ¦ 8 ¦ 0), E(4 ¦ 0 ¦ 6), F(8 ¦ 4 ¦ 6), G(4 ¦ 8 ¦ 6), H(0 ¦ 4 ¦ 6), S(4 ¦ 4 ¦ 12); vier gleiche viereckige Dachflächen (Rauten wie CGSF) und vier dreieckige Giebelflächen; 1 LE = 1 m; Raute CGSF → Innenwinkel bei S; gesamter Flächeninhalt der vier Dachflächen | Winkel zwischen SG und SF; Rautenfläche über Kreuzprodukt oder Diagonalen, mal 4
 2025MerhoehtBAGLAA1MMS-1b | 5 | ja | Begründung¦Rechnung · Begründen Sie¦Ermitteln Sie | Würfel mit einer Ecke O im Ursprung, Kanten parallel zu den Achsen, Kantenlänge 4; v = (4; −4; 4) ist der Verbindungsvektor der Ecken O und A; Dreiecke OAB mit B weiterer Würfelecke → Begründung, dass alle diese Dreiecke kongruent sind; Flächeninhalt eines dieser Dreiecke | Seitenarten der Dreiecke vergleichen, ein rechtwinkliges Dreieck OAB berechnen
 2025MgrundlegendBAGLAA1WTR-2b | 3 | ja | Rechnung · Bestimmen Sie | Rechteck aus 2a; eine Seite hat Länge 3, Flächeninhalt 39 → m | Flächengleichung nach m auflösen
@@ -228,6 +237,7 @@ abitur/abitur-typen.csv (neu): Das Volumen eines Restkörpers als Differenz eine
 2018MerhoehtBAGLAA2WTR3-1b | 5 | ja | Rechnung · Ermitteln Sie | Beachvolleyballfeld im Koordinatensystem (1 LE = 1 m, x1x2-Ebene ist der Sandboden): Spielfeld ABCD 8 m × 16 m, Netzoberkante zwischen E und F(−1 ¦ 8 ¦ 2,4) in 2,4 m Höhe; Tribüne als Viereck GHIJ mit G(−4 ¦ 0 ¦ 0), H(−4 ¦ 16 ¦ 0), I(−10 ¦ 20 ¦ 4), J(−10 ¦ −4 ¦ 4) in L: 2x1 + 3x3 = −8; pro Person 0,5 m² der Tribüne → Anzahl der Zuschauer für eine voll besetzte Tribüne | Trapezhöhe als Abstand der Seitenmittelpunkte, Fläche, durch 0,5
 2026MgrundlegendBAGLAA2WTR1-1d | 3 | ja | Eintragen¦Kurzantwort · Zeichnen Sie ein¦Geben Sie an | Behälter = Prisma (1000 cm³, Öffnung BEFC), halb gefüllt; Drehung um die Achse AD bis 120°; Graph Volumen gegen Drehwinkel für [α; β] vorgegeben → Graph für [0°; α[ und Bedeutung von α | konstante 0,5 Liter bis α einzeichnen, α als Beginn des Auslaufens deuten
 2017MerhoehtAAGLAA212-b | 3 | nein | Rechnung · Bestimmen Sie | Dreieck ABC (Fläche 25/2, in der Ebene z = 3) als Grundfläche einer Pyramide ABCD → Koordinaten eines Punktes D, für den das Volumen 25 ist | Höhe aus V = 1/3 · G · h, dann einen Punkt in der Höhe 6 über der Ebene z = 3 wählen
+2017MgrundlegendAAGLAA212-b | 3 | nein | Rechnung · Bestimmen Sie | Quadrat ABCD mit A(3 ¦ 3 ¦ 4), B(6 ¦ 7 ¦ 4), C(2 ¦ 10 ¦ 4) und D(−1 ¦ 6 ¦ 4) in der Ebene z = 4; Grundfläche 25 (aus a); Punkte S, für die die Pyramide ABCDS das Volumen 50 hat → die z-Koordinate eines solchen Punktes S | Höhe aus 1/3 · 25 · h = 50 bestimmen und zur z-Koordinate der Grundebene addieren (oder abziehen)
 2026MgrundlegendAAGLAA111-b | 2 | nein | Rechnung · Bestimmen Sie | Dreieck OAB mit O(0; 0; 0), A(8; 6; 0), B(0; 0; 10), rechtwinklig in O mit Kathetenlänge 10; Pyramide OABS mit Spitze S und Volumen 100; OS · OA = 0 und OS · OB = 0 → Länge ¦OS¦ | OS steht senkrecht auf der Grundfläche OAB, ist also die Höhe; Grundfläche 1/2 · 10 · 10 = 50; aus V = 1/3 · 50 · ¦OS¦ = 100 folgt ¦OS¦ = 6
 2019MgrundlegendAAGLAA212-b | 3 | nein | Rechnung · Bestimmen Sie | gerades Prisma über dem Dreieck ABC aus a; Inhalt der Mantelfläche 60 → Höhe des Prismas | Umfang des Dreiecks berechnen, Mantel = Umfang · h nach h auflösen
 2025MerhoehtBAGLAA2WTR-1a | 4 | ja | Rechnung · Berechnen Sie | A(0 ¦ 0 ¦ 0), B(2 ¦ 2 ¦ 0), C(0 ¦ 6 ¦ 0), D(−2 ¦ 2 ¦ 0), S(0 ¦ 0 ¦ 6); ABCD Drachenviereck → Länge der kürzesten Kante und Volumen | Kantenlängen vergleichen, Grundfläche über Diagonalen, Volumen

@@ -2,10 +2,10 @@
 
 Stufe: II
 
-- abi: Ableitung und Änderungsrate (23 Zeilen)
+- abi: Ableitung und Änderungsrate (25 Zeilen)
 - iqb: Ableitung und Änderungsrate (31 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -14,6 +14,9 @@ abitur/abitur-typen.csv (neu): Für ein Zeitintervall die Werte am Graphen ables
 
 **Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion berechnen** · 4 Zeilen · abi 1 iqb 3 · Jahre 2025–2026
 abitur/abitur-typen.csv (neu): Die Stelle der größten Rate als Nullstelle der Ableitung der Ratenfunktion berechnen (ist der Bestand gegeben, der zweiten Ableitung), Randstellen prüfen und, wenn verlangt, den Wert der Rate dort angeben.
+
+**Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017–2019
+abitur/abitur-typen.csv (neu): Die kleinste (oder größte) Steigung aller Tangenten an einen Graphen bestimmen, indem die Ableitung als Funktion untersucht und ihr Extremwert ermittelt wird.
 
 **Länge des Zeitraums mit Mindeständerungsrate über die Lösungen von f'(x) = c berechnen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2022–2026
 abitur/abitur-typen.csv (neu): Die beiden Lösungen der Gleichung f'(x) = c mit dem Rechner bestimmen und ihre Differenz als Länge des Zeitraums angeben, in dem die Rate mindestens c beträgt.
@@ -30,11 +33,11 @@ abitur/abitur-typen.csv (neu): Den Wert der Ableitung an einer Stelle berechnen 
 **Eignung eines Modells über das Vorzeichen der Änderungsrate nach einer Nullstelle beurteilen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Begründen, dass eine Ratenfunktion jenseits einer Nullstelle mit Vorzeichenwechsel im Sachzusammenhang ungeeignet ist.
 
-**Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2018–2019
-abitur/abitur-typen.csv (neu): Die kleinste (oder größte) Steigung aller Tangenten an einen Graphen bestimmen, indem die Ableitung als Funktion untersucht und ihr Extremwert ermittelt wird.
-
 **Mittlere und momentane Änderungsrate im Sachzusammenhang vergleichen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Die mittlere Änderungsrate über ein Intervall und die momentane Änderungsrate am Intervallende berechnen und ihre relative Abweichung mit einer Schranke vergleichen.
+
+**Mittlere Änderungsrate über ein Intervall berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017–2019
+abitur/abitur-typen.csv (neu): Die mittlere Änderungsrate einer Funktion über ein vorgegebenes Intervall als Differenzenquotient mit Einheit berechnen.
 
 **Negativen Wert einer Änderungsrate im Sachzusammenhang deuten** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die Aussage f(x₀) < 0 für eine Änderungsrate als Abnahme der Bestandsgröße zu diesem Zeitpunkt deuten.
@@ -84,9 +87,6 @@ abitur/abitur-typen.csv (neu): Die beiden Koordinaten eines Punktes auf dem Grap
 **Mittlere Steigung berechnen und Tangentensteigung im Wendepunkt grafisch bestimmen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die mittlere Steigung über ein Intervall als Differenzenquotient berechnen und die Steigung im Wendepunkt durch Anlegen einer Tangente grafisch bestimmen.
 
-**Mittlere Änderungsrate über ein Intervall berechnen** · 1 Zeile · iqb 1 · Jahre 2019
-abitur/abitur-typen.csv (neu): Die mittlere Änderungsrate einer Funktion über ein vorgegebenes Intervall als Differenzenquotient mit Einheit berechnen.
-
 **Mittlere Änderungsraten zweier Modelle vergleichen** · 1 Zeile · abi 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Für zwei Funktionen auf demselben Intervall den Differenzenquotienten bilden und die Beträge der mittleren Änderungsraten vergleichen.
 
@@ -108,7 +108,7 @@ abitur/abitur-typen.csv (neu): Die Gesamtlänge eines Verlaufs aus symmetrischen
 **Zeitpunkte größter Differenz zweier Änderungsraten über die Extremstellen der Differenzfunktion berechnen** · 1 Zeile · abi 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Die Differenz der Ableitungen zweier Modellfunktionen bilden und ihre Extremstellen über die notwendige Bedingung als Zeitpunkte größter Abweichung der Änderungsraten bestimmen.
 
-**Nebentypen:** Parameter einer Exponentialfunktion aus zwei Punkten des Graphen bestimmen (1)
+**Nebentypen:** Parameter einer Exponentialfunktion aus zwei Punkten des Graphen bestimmen (1) · Stelle mit lokaler gleich mittlerer Änderungsrate bestimmen (1)
 
 ## B Zeilenliste
 
@@ -119,6 +119,7 @@ abitur/abitur-typen.csv (neu): Die Differenz der Ableitungen zweier Modellfunkti
 2024-bebb-lk-B2.2h | 3 | ja | Begründung · Begründen Sie | v(x) = 20 · (x − 18) · (x − 8) → Begründung, dass v nach 15:00 Uhr (x > 8) ungeeignet ist | Vorzeichen von v für x etwas größer als 8
 2021-be-gk-B2.1i | 3 | ja | Rechnung¦Begründung · Weisen Sie nach¦Erläutern Sie | f(x) = 1/12 x³ − x² + 3x und p(x) = −x² + 3,8x − 1,36, beide in IR; Graphen G_f und G_p (Parabel) → Nachweis p'(0,4) = f'(0); anschauliche Bedeutung im Sachzusammenhang | Ableitungen auswerten; gleiche Steigung heißt parallele Tangenten an den unteren Enden der Schaufel
 2019-be-gk-B2.1b | 4 | ja | Rechnung · Berechnen Sie | Wachstum eines Baums A für t ≥ 0 bis zur maximalen Höhe: h(t) = −0,1 · t⁴ + 20 · t², t in Jahren, h(t) Höhe in cm; Ableitung h'(t) = −0,4t³ + 40t (aus a) → höchste Wachstumsgeschwindigkeit des Baums A in cm/Jahr (Bearbeitung mit dem notwendigen Kriterium genügt) | Maximum von h' über h''(t) = 0: t² = 100/3, t = 10/√3 ≈ 5,77 (negativ entfällt); h'(t_m) = 800√3/9 ≈ 154
+2017-be-gk-B1.2c | 5 | ja | Rechnung · Bestimmen Sie | Die äußere Kante eines geplanten Dachelements wird im Intervall [0; 2] annähernd durch f mit f(x) = (x² − 2x + 1) · e^(−x) beschrieben, 1 LE = 10 m. f′(x) = (−x² + 4x − 3) · e^(−x). Im Intervall [0; 2] gibt es eine Stelle x_P, an der der Graph von f die maximale positive Steigung hat; die notwendige Bedingung genügt. → Wert von x_P und Steigung des Graphen von f an dieser Stelle | Die Steigung f′ wird maximal, wo f″(x) = (x² − 6x + 7) · e^(−x) null ist: x² − 6x + 7 = 0 liefert x = 3 ± √2, im Intervall nur x_P = 3 − √2. Die Steigung durch Einsetzen in f′ berechnen.
 2018-be-gk-B1.2f | 5 | ja | Begründung¦Rechnung · Weisen Sie nach | Höhenprofil f mit f(x) = (x + 1) · e^(−0,5x) für 0 ≤ x ≤ 6 und f'(x) = (0,5 − 0,5x) · e^(−0,5x), 1 LE = 1 km. → Nachweis, dass es im Intervall [2 ; 6] eine Stelle gibt, an der die Steigung des Höhenprofils kleiner als −0,222 ist | Die Steigung ist im Intervall dort am kleinsten, wo f' sein Minimum hat, also bei f''(x) = 0,25 · (x − 3) · e^(−0,5x) = 0 und damit bei x = 3. Dort ist f'(3) = −e^(−1,5) ≈ −0,2231 und damit kleiner als −0,222. Es genügt auch, den Wert f'(3) zu berechnen und mit der Schranke zu vergleichen.
 2022-bebb-gk-B2.1m | 5 | ja | Rechnung · Berechnen Sie | Tauchroboter, vertikale Bewegung für 0 ≤ t ≤ 30 mit h(t) = 9/40 t³ − 27/2 t² + 405/2 t, t Zeit in Minuten, h(t) Abstand von der Wasseroberfläche in Metern; Abbildung des Graphen; Phase des zunehmenden Abstands (0 bis 10 Minuten) → Zeitraum in dieser Phase, in dem die Geschwindigkeit mindestens 29,7 m/min beträgt | h'(t) = 29,7 lösen, Lösung in der Phase auswählen
 2026-bb-gk-B2.2h | 4 | ja | Rechnung · Untersuchen Sie | k(x) = 60e^{−x/400} + 20; k'(x) = −1/400 · 60e^{−x/400}; erste 60 Minuten → ob die mittlere Änderungsrate der ersten 60 Minuten um mehr als 10 % von der momentanen Änderungsrate bei 60 Minuten abweicht | beide Raten berechnen, relative Abweichung bilden
@@ -126,6 +127,7 @@ abitur/abitur-typen.csv (neu): Die Differenz der Ableitungen zweier Modellfunkti
 2025-bebb-lk-B2.2h | 3 | ja | Rechnung¦Begründung · Berechnen Sie¦Interpretieren Sie | h wie in g; Term 1/2 · (h(4) − h(2)) → Wert des Terms und Deutung im Sachzusammenhang | Funktionswerte einsetzen, als Differenzenquotient über [2; 4] deuten
 2024-bebb-lk-B2.2f | 3 | ja | Rechnung · Ermitteln Sie | Tabelle der bis zum Zeitpunkt eingegangenen Lesebestätigungen; 8:30 Uhr 1701, 10:00 Uhr 4364 → mittlere Anzahl je Stunde von 8:30 bis 10:00 Uhr | Differenz durch 1,5 Stunden
 2025-bebb-gk-B2.2f | 3 | ja | Rechnung · Bestimmen Sie | a wie in a → durchschnittlich pro Stunde abgegebene Likes von 14:00 bis 16:00 Uhr | Werte ablesen, Differenzenquotient
+2017-be-gk-B1.1b | 6 | ja | Rechnung · Berechnen Sie | Brückenteil einer Holzeisenbahn; die obere Begrenzungslinie des Bauelements wird durch f mit f(x) = −1/500 · x³ + 3/50 · x² + 1 beschrieben, 1 LE = 1 cm. Die linke untere Ecke des Bauteils liegt im Koordinatenursprung, die oberen Eckpunkte A und B liegen auf dem Graphen von f. Das Brückenteil reicht von A(0 ¦ 1) bis B(20 ¦ 9); f′(x) = −3/500 · x² + 3/25 · x. → mittlere Steigung des Brückenteils; Stellen, an denen die lokale Steigung von f gleich der mittleren Steigung ist | Mittlere Steigung als Differenzenquotient (f(20) − f(0))/20. Dann f′(x) = 0,4 setzen, mit −500/3 multiplizieren und die quadratische Gleichung x² − 20x + 200/3 = 0 mit der Lösungsformel lösen.
 2018-be-gk-B1.2g | 9 | ja | Rechnung¦Begründung · Untersuchen Sie¦Ermitteln Sie | Höhenprofil f mit f(x) = (x + 1) · e^(−0,5x), 1 LE = 1 km. Ähnliche Profile werden durch h(x) = (x + a) · e^(b · x) mit a > 0 und b < 0 beschrieben. Von einem Profil h_W ist bekannt: h_W(0) = 1,2 km und h_W(6) = 0,3 km. → Vergleich der Beträge der mittleren Steigungen von f und h_W im Intervall [0 ; 6]; Werte von a und b für h_W | Mittlere Steigung als Differenzenquotient: bei f ist (f(6) − f(0))/6 = (7 · e^(−3) − 1)/6 ≈ −0,109, bei h_W ist (0,3 − 1,2)/6 = −0,15; der Betrag ist bei h_W größer. Für die Parameter aus h_W(0) = a = 1,2 und aus (6 + 1,2) · e^(6b) = 0,3 die Gleichung e^(6b) = 1/24 durch Logarithmieren lösen.
 2023-bebb-lk-B2.2b | 1 | ja | Kurzantwort · Geben Sie an | f wie in a; f(2) < 0 → Bedeutung im Sachzusammenhang | Negative Rate als Abnahme deuten, x = 2 als 08:00 Uhr
 2026-bb-gk-B2.2i | 3 | ja | Begründung · Begründen Sie | k(x) − 20 Differenz zur Umgebungstemperatur; k'(x) = −1/400 · 60e^{−x/400}; Aussage: es gibt c mit k(x) − 20 = c · k'(x) für alle x → Begründung, dass die Aussage im Modell wahr ist | k − 20 als Vielfaches von k' schreiben

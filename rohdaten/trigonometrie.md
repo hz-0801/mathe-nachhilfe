@@ -2,10 +2,10 @@
 
 Stufe: I
 
-- msa: Trigonometrie im rechtwinkligen Dreieck (19 Zeilen)
-- msa: Sinussatz (9 Zeilen)
+- msa: Trigonometrie im rechtwinkligen Dreieck (20 Zeilen)
+- msa: Sinus- und Kosinussatz (9 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -15,7 +15,7 @@ msa/msa-typen.csv (gültig): Im allgemeinen Dreieck eine Seite mit dem Sinussatz
 **Seite im rechtwinkligen Dreieck berechnen** · 8 Zeilen · msa 8 · Jahre 2016–2026
 msa/msa-typen.csv (gültig): Seite aus einer Seite und einem Winkel über sin, cos oder tan berechnen.
 
-**Winkel im rechtwinkligen Dreieck berechnen** · 5 Zeilen · msa 5 · Jahre 2019–2026
+**Winkel im rechtwinkligen Dreieck berechnen** · 6 Zeilen · msa 6 · Jahre 2019–2026
 msa/msa-typen.csv (gültig): Winkel aus zwei Seiten über tan, sin oder cos und die Umkehrfunktion berechnen.
 
 **Winkelfunktion Seitenverhältnis angeben** · 5 Zeilen · msa 5 · Jahre 2017–2025
@@ -52,6 +52,7 @@ msa/msa-typen.csv (gültig): Eine Gleichung der Form sin α = a/x ohne Figur nac
 2020-OS-K5b | 3 | ja | Rechnung · Berechnen Sie | rechtwinkliges Trapez mit Grundseite 14 cm, Höhen 6 cm und 15 cm; α an der oberen Ecke der 15-cm-Seite → α | Hilfsdreieck mit Katheten 14 (waagerecht) und 15 − 6 = 9 (senkrecht); tan α = 14/9
 2022-OS-K5b | 2 | ja | Rechnung · Berechnen Sie | Dreieck ABC, nicht rechtwinklig; Höhe hc ≈ 7,4 m mit Fußpunkt D auf AB; b = 14,1 m; β = 52° → Winkel α | sin α = 7,4 : 14,1 (oder cos α = 12 : 14,1)
 2024-OS-K6b | 2 | ja | Rechnung · Bestimmen Sie | rechtwinkliges Dreieck AFB mit rechtem Winkel in F, FB = 255 m, AB = 384 m; β1 bei B zwischen FB und BA → β1 | cos β1 = 255 : 384; alternativ sin β1 = FA : 384 mit FA aus a)
+2026-EBR-K3b | 2 | ja | Rechnung · Weisen Sie nach | Parallelogramm ABCD; BC = 32 cm; F auf der Verlängerung von AB mit BF = 13 cm; CF = h steht senkrecht auf AF; ε = Winkel CBF → Nachweis ε ≈ 66° | cos ε = 13 : 32 = 0,406; ε = cos⁻¹(0,406); alternativ tan ε = h : 13 mit h aus a)
 2026-FOR-K4b | 2 | ja | Rechnung · Weisen Sie nach | Parallelogramm ABCD; BC = 32 cm; F auf der Verlängerung von AB mit BF = 13 cm; CF = h steht senkrecht auf AF; ε = Winkel CBF → Nachweis ε ≈ 66° | cos ε = 13 : 32 = 0,406; ε = cos⁻¹(0,406); alternativ tan ε = h : 13 mit h aus a)
 2017-OS-B1j | 1 | ja | Kurzantwort · Geben Sie an | Katheten r (gegenüber β) und s, Hypotenuse t → Gleichung für sin β | Gegenkathete durch Hypotenuse
 2018-OS-B1g | 1 | ja | Ankreuzen · Kreuzen Sie an | rechtwinkliges Dreieck mit Kathete b (gegenüber β), Hypotenuse a; Auswahl sin β = a/b, cos β = a/b, sin β = b/a → die zu β passende Gleichung | Gegenkathete b durch Hypotenuse a

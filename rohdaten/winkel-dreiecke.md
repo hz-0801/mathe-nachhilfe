@@ -2,19 +2,19 @@
 
 Stufe: I
 
-- msa: Ebene Figuren und Winkel (19 Zeilen)
+- msa: Ebene Figuren und Winkel (21 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
+
+**Winkel im Viereck berechnen** · 4 Zeilen · msa 4 · Jahre 2021–2026
+msa/msa-typen.csv (gültig): Fehlenden Winkel in Trapez oder Parallelogramm über Neben- oder Gegenwinkel an den parallelen Seiten bestimmen.
 
 **Winkelsumme im Dreieck anwenden** · 4 Zeilen · msa 4 · Jahre 2015–2022
 msa/msa-typen.csv (gültig): Dritten Winkel eines Dreiecks aus der Winkelsumme 180° angeben.
 
-**Winkel im Viereck berechnen** · 3 Zeilen · msa 3 · Jahre 2021–2026
-msa/msa-typen.csv (gültig): Fehlenden Winkel in Trapez oder Parallelogramm über Neben- oder Gegenwinkel an den parallelen Seiten bestimmen.
-
-**Eigenschaft einer Figur zuordnen** · 2 Zeilen · msa 2 · Jahre 2016–2026
+**Eigenschaft einer Figur zuordnen** · 3 Zeilen · msa 3 · Jahre 2016–2026
 msa/msa-typen.csv (gültig): Die zutreffende Eigenschaft einer Figurenklasse (Trapez, Raute, …) aus Aussagen auswählen.
 
 **Gleichschenkliges Dreieck erkennen** · 2 Zeilen · msa 2 · Jahre 2023
@@ -46,6 +46,7 @@ msa/msa-typen.csv (gültig): Winkel als Differenz oder Summe gegebener Winkel mi
 
 2020-OS-B1i | 1 | ja | Ankreuzen · Kreuzen Sie an | Dreieck ABC mit a = 10 cm; Optionen b + c > 10 cm, b + c = 10 cm, b + c < 10 cm → richtige Aussage über b + c | Summe zweier Seiten ist größer als die dritte
 2016-OS-B1e | 1 | ja | Ankreuzen · Kreuzen Sie an | „In jedem Parallelogramm sind …“; Auswahl: benachbarte Winkel gleich groß, gegenüberliegende Winkel gleich groß, alle Winkel gleich groß → die richtige Ergänzung | Gegenwinkel im Parallelogramm sind gleich, Nachbarwinkel ergänzen sich zu 180°
+2026-EBR-B1c | 1 | ja | Ankreuzen · Kreuzen Sie an | Satzanfang „In jedem Trapez …“ mit drei Optionen: sind alle Winkel gleich groß; gibt es ein Paar paralleler Seiten; sind alle Seiten gleich lang → zutreffende Eigenschaft | Definition des Trapezes: mindestens ein Paar paralleler Seiten
 2026-FOR-B1c | 1 | ja | Ankreuzen · Kreuzen Sie an | Satzanfang „In jedem Trapez …“ mit drei Optionen: sind alle Winkel gleich groß; gibt es ein Paar paralleler Seiten; sind alle Seiten gleich lang → zutreffende Eigenschaft | Definition des Trapezes: mindestens ein Paar paralleler Seiten
 2023-OS-B1g | 2 | ja | Kurzantwort¦Kurzantwort · Geben Sie an¦Geben Sie an | Dreieck ABC mit α = β = 70°, AC = 6 cm → Länge BC¦Größe von γ | gleiche Basiswinkel, also gleichschenklig mit BC = AC; γ = 180° − 2 · 70°
 2023-OS-K7a | 1 | ja | Begründung · Begründen Sie | Dreieck ABC mit F auf AC und BF ⊥ AC; AB = 131,5 cm; Winkel bei B: CBF = 65°, FBA = 45°; Winkel bei A 45° → Begründung, dass ABF gleichschenklig ist | in ABF sind die Winkel bei A und B je 45° (bzw. rechter Winkel bei F und 45° bei A ergibt 45° bei B); gleiche Basiswinkel, also BF = AF
@@ -56,6 +57,7 @@ msa/msa-typen.csv (gültig): Winkel als Differenz oder Summe gegebener Winkel mi
 2018-OS-K4a | 1 | ja | Kurzantwort · Geben Sie an | Winkel 30° (AB zu AC) und 35° (AB zu AD) → γ (zwischen AC und AD) | 35° − 30°
 2021-OS-B1i | 1 | ja | Kurzantwort · Bestimmen Sie | Viereck (Trapez) mit den Innenwinkeln α, 50°, 140°, 130° → α | Winkelsumme 360°: α = 360° − 50° − 140° − 130°; alternativ Nebenwinkel am Schenkel: α = 180° − 140°
 2023-OS-K2a | 1 | ja | Kurzantwort · Geben Sie an | Trapez mit parallelen Seiten 15,00 m (oben) und 25,80 m (unten), Höhe 8,00 m, beide Basiswinkel 56° → Winkel γ oben rechts | an parallelen Seiten ergänzen sich Basiswinkel und Winkel darüber zu 180°: 180° − 56°
+2026-EBR-B1i | 1 | ja | Kurzantwort · Geben Sie an | Parallelogramm mit Winkel 75° links unten; β ist der benachbarte Winkel rechts unten → β | benachbarte Winkel im Parallelogramm ergänzen sich zu 180°: 180° − 75°
 2026-FOR-B1i | 1 | ja | Kurzantwort · Geben Sie an | Parallelogramm mit Winkel 75° links unten; β ist der benachbarte Winkel rechts unten → β | benachbarte Winkel im Parallelogramm ergänzen sich zu 180°: 180° − 75°
 2014-OS-B1f | 1 | ja | Kurzantwort · Geben Sie an | α = 50° (rechter Winkel zwischen den Geraden), γ = 30° (unterer Teil des linken Scheitelwinkels), β der obere Teil → Größe von β | Scheitelwinkel links = α = 50°; β = 50° − 30°
 2019-OS-B1a | 1 | ja | Kurzantwort · Geben Sie an | Dreieck mit Innenwinkel 65° an der oberen Ecke; an der rechten Ecke sind zwei Seiten verlängert, der Winkel zwischen den Verlängerungen beträgt 35°; β ist der Innenwinkel an dieser Ecke → β | β und 35° sind Scheitelwinkel, also gleich groß; 65° wird nicht gebraucht

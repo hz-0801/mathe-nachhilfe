@@ -5,7 +5,7 @@ Stufe: II
 - abi: Rekonstruktion von Beständen (8 Zeilen)
 - iqb: Rekonstruktion von Beständen (19 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 

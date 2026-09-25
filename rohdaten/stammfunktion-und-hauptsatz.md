@@ -2,14 +2,14 @@
 
 Stufe: II
 
-- abi: Stammfunktion und Hauptsatz (21 Zeilen)
+- abi: Stammfunktion und Hauptsatz (22 Zeilen)
 - iqb: Stammfunktion und Hauptsatz (31 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Stammfunktion durch Ableiten nachweisen** · 8 Zeilen · abi 5 iqb 3 · Jahre 2018–2024
+**Stammfunktion durch Ableiten nachweisen** · 9 Zeilen · abi 6 iqb 3 · Jahre 2017–2024
 abitur/abitur-typen.csv (neu): Zeigen, dass eine vorgegebene Funktion Stammfunktion ist, indem ihre Ableitung gebildet wird.
 
 **Bestimmtes Integral einer ganzrationalen Funktion berechnen** · 4 Zeilen · abi 1 iqb 3 · Jahre 2018–2026
@@ -96,7 +96,7 @@ abitur/abitur-typen.csv (neu): Mithilfe des Graphen des Integranden begründen, 
 **Wendestelle einer Integralfunktion über die Ableitung des Integranden begründen und Funktionswert berechnen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Die Wendestelle einer Integralfunktion über die Nullstelle der Ableitung des Integranden (zweite Ableitung) begründen und den Funktionswert dort berechnen.
 
-**Nebentypen:** Prozentuale Abweichung eines Näherungswerts vom exakten Wert berechnen (2) · Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen (1) · Fläche: Flächengleichheit zweier Flächenstücke aus Nullstellen und einem Stammfunktionswert begründen (1) · Fläche: Flächeninhalt einer symmetrischen Figur als Vielfaches eines Integrals mit Maßstab berechnen (1) · Fläche: Flächeninhalt zwischen Graph, x-Achse und senkrechter Gerade im Sachzusammenhang mit Maßstab berechnen (1) · Nullstellen und Werte: Einzige Nullstelle über den positiven Exponentialfaktor nachweisen (1) · Stammfunktion mit einer Wertebedingung bestimmen (1)
+**Nebentypen:** Prozentuale Abweichung eines Näherungswerts vom exakten Wert berechnen (2) · Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen (1) · Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen (1) · Fläche: Flächengleichheit zweier Flächenstücke aus Nullstellen und einem Stammfunktionswert begründen (1) · Fläche: Flächeninhalt einer symmetrischen Figur als Vielfaches eines Integrals mit Maßstab berechnen (1) · Fläche: Flächeninhalt zwischen Graph, x-Achse und senkrechter Gerade im Sachzusammenhang mit Maßstab berechnen (1) · Fläche: Flächenmaßstab eines Modells auf eine Realfläche anwenden (1) · Nullstellen und Werte: Einzige Nullstelle über den positiven Exponentialfaktor nachweisen (1) · Stammfunktion mit einer Wertebedingung bestimmen (1)
 
 ## B Zeilenliste
 
@@ -117,6 +117,7 @@ abitur/abitur-typen.csv (neu): Die Wendestelle einer Integralfunktion über die 
 2022-bebb-lk-A1.1a | 2 | nein | Rechnung · Bestimmen Sie | f und F in IR, F Stammfunktion von f; Graph G_F in der Abbildung mit F(1) = 1 und F(7) = 5 → Wert des Integrals von 1 bis 7 über f(x) dx | Hauptsatz mit den abgelesenen Werten F(7) und F(1)
 2025-bebb-lk-B2.2c | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Abb. 1 (Graph von f_0'); gesucht c ≠ d mit ∫_c^d f_0''(x) dx = 0 → näherungsweise Werte für c und d mit Begründung | Integral über f_0'' als Differenz zweier Werte von f_0' deuten und zwei Stellen mit gleichem Wert ablesen
 2023-bebb-gk-B2.1l | 5 | ja | Rechnung · Ermitteln Sie¦Berechnen Sie¦Geben Sie an | Die in IR definierte Funktion f mit f(x) = 0,5 · (x² − 4) · e^x, ihr Graph G; die erste Ableitung ist f'(x) = (0,5x² + x − 2) · e^x. Es gilt ∫ (0,5x² · e^x) dx = (0,5x² − x + 1) · e^x + C, C ∈ IR. Tischplatte nach Abbildung 2 (vier zu den Achsen symmetrische Randlinien, im III. Quadranten der Graph von f), 1 LE = 15 cm. → Stammfunktion von f mithilfe der Gleichung; Flächeninhalt der Tischplatte in Quadratzentimetern | f(x) = 0,5x² e^x − 2e^x, also F(x) = (0,5x² − x + 1) e^x − 2e^x = (0,5x² − x − 1) e^x. Das Flächenstück im III. Quadranten ist ¦F(0) − F(−2)¦ = ¦−1 − 3e^(−2)¦; die Platte besteht aus vier solchen Stücken; mit 1 LE² = 225 cm² umrechnen.
+2017-be-gk-B1.2d | 5 | ja | Begründung¦Rechnung · Zeigen Sie¦Berechnen Sie | Die äußere Kante eines geplanten Dachelements wird im Intervall [0; 2] annähernd durch f mit f(x) = (x² − 2x + 1) · e^(−x) beschrieben, 1 LE = 10 m. Unter einem Dachelement soll eine Trennwand errichtet werden, die im Intervall [0; 1] durch den Graphen von f und die x-Achse begrenzt ist. F(x) = (−x² − 1) · e^(−x). → Nachweis, dass F eine Stammfunktion von f ist; Flächeninhalt der Trennwand in m² | F mit der Produktregel ableiten: F′(x) = −2x · e^(−x) − (−x² − 1) · e^(−x) = (x² − 2x + 1) · e^(−x) = f(x). Dann ∫₀¹ f(x) dx = F(1) − F(0) berechnen; 1 LE = 10 m heißt 1 FE = 100 m².
 2018-be-gk-B1.2c | 9 | ja | Begründung¦Rechnung · Weisen Sie nach¦Zeigen Sie¦Berechnen Sie | Funktionen f mit f(x) = (x + 1) · e^(−0,5x) und g mit g(x) = x + 1 sowie F mit F(x) = (−2x − 6) · e^(−0,5x). Die Graphen von f und g schließen im zweiten Quadranten eine Fläche mit dem Inhalt A vollständig ein; die Graphen sind in der Anlage dargestellt. → Nachweis, dass F eine Stammfunktion von f ist; Nachweis, dass beide Funktionen nur bei x = −1 eine Nullstelle haben; Wert von A | F mit Produkt- und Kettenregel ableiten: F'(x) = −2e^(−0,5x) + (−2x − 6) · (−0,5) · e^(−0,5x) = (x + 1) · e^(−0,5x) = f(x). Da e^(−0,5x) stets positiv ist, wird f nur für x + 1 = 0 null; g wird ebenfalls nur bei x = −1 null. Die Fläche liegt zwischen der gemeinsamen Nullstelle x = −1 und der y-Achse, dort verläuft f oberhalb von g: A = Integral von −1 bis 0 über f(x) − g(x).
 2020-be-gk-B2.1h | 3 | ja | Begründung¦Kurzantwort · Beschreiben Sie¦Geben Sie an | f(x) = (6x − 3) · e^(−x), x ∈ IR; F(x) = (−6x − 3) · e^(−x) → Beschreibung, wie nachgewiesen wird, dass F Stammfunktion von f ist; Stammfunktion H mit H(0) = 17 | F ableiten und mit f vergleichen; H = F + C mit C aus H(0) = 17
 2022-bebb-gk-B2.2d | 4 | ja | Rechnung¦Begründung · Weisen Sie nach¦Begründen Sie | f(x) = −1/6 x³ + 1/2 x², x ∈ IR; F(x) = −1/24 x⁴ + 1/6 x³; Eigenschaften: x = 0 und x = 3 sind die einzigen Nullstellen von f, F(4) = 0; Aussage: Graph, x-Achse und Gerade x = 4 begrenzen zwei Flächen gleichen Inhalts → Nachweis, dass F Stammfunktion ist; Begründung der Aussage aus den beiden Eigenschaften | F ableiten; ∫ von 0 bis 4 f = F(4) − F(0) = 0 und f wechselt bei 3 das Vorzeichen

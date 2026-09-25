@@ -1,29 +1,29 @@
 # Rohdatei daten
 
-Stufe: I
+Stufe: I, II
 
-- msa: Kenngrößen (22 Zeilen)
+- msa: Kenngrößen (24 Zeilen)
 - msa: Diagramme lesen und beurteilen (11 Zeilen)
-- msa: Daten darstellen (7 Zeilen)
+- msa: Daten darstellen (8 Zeilen)
 - fhr: Statistische Kenngrößen (18 Zeilen)
 - fhr: Daten darstellen und aufbereiten (8 Zeilen)
 - iqb: Lage- und Streumaße einer Stichprobe (4 Zeilen)
 
-Stand: 2026-09-20, Commit 1887018
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Arithmetisches Mittel berechnen** · 8 Zeilen · msa 8 · Jahre 2015–2026
+**Arithmetisches Mittel berechnen** · 9 Zeilen · msa 9 · Jahre 2015–2026
 msa/msa-typen.csv (gültig): Durchschnitt einer Datenliste berechnen.
+
+**Spannweite berechnen** · 8 Zeilen · msa 8 · Jahre 2014–2026
+msa/msa-typen.csv (gültig): Spannweite einer Datenliste als Differenz von Maximum und Minimum bestimmen.
 
 **Mittelwert aus Häufigkeitstabelle** · 7 Zeilen · fhr 7 · Jahre 2020–2026
 fhr/fhr-typen.csv (geprüft): Arithmetisches Mittel aus Werten mit zugehörigen absoluten Häufigkeiten berechnen.
 
 **Relative Häufigkeit berechnen** · 7 Zeilen · fhr 7 · Jahre 2019–2026
 fhr/fhr-typen.csv (geprüft): Absolute Häufigkeiten durch den Gesamtumfang teilen und als Dezimalzahl oder Prozentwert angeben.
-
-**Spannweite berechnen** · 7 Zeilen · msa 7 · Jahre 2014–2026
-msa/msa-typen.csv (gültig): Spannweite einer Datenliste als Differenz von Maximum und Minimum bestimmen.
 
 **Mittelwert aus Werteliste** · 5 Zeilen · fhr 5 · Jahre 2020–2026
 fhr/fhr-typen.csv (geprüft): Arithmetisches Mittel einer ungewichteten Liste von Einzelwerten als Summe durch Anzahl berechnen.
@@ -33,6 +33,9 @@ msa/msa-typen.csv (gültig): Eine Behauptung über Verlauf oder Veränderung in 
 
 **Median aus Werteliste** · 3 Zeilen · fhr 3 · Jahre 2019–2024
 fhr/fhr-typen.csv (geprüft): Den Median einer ungeordneten Werteliste durch Ordnen bestimmen und bei gerader Anzahl aus den beiden mittleren Werten mitteln.
+
+**Säulen- oder Balkendiagramm ergänzen** · 3 Zeilen · msa 3 · Jahre 2020–2026
+msa/msa-typen.csv (gültig): Fehlende Säule oder fehlenden Balken mit gegebenem Wert in ein Diagramm mit vorgegebener Skala einzeichnen.
 
 **Achsenskalierung aus Säule bestimmen** · 2 Zeilen · msa 2 · Jahre 2018–2023
 msa/msa-typen.csv (gültig): Aus einer Säule mit bekanntem Wert die fehlende Einteilung der Achse ermitteln und weitere Säulen zuordnen.
@@ -48,9 +51,6 @@ msa/msa-typen.csv (gültig): Kleinsten und größten Wert einer Datenreihe oder 
 
 **Sektor im Kreisdiagramm zuordnen** · 2 Zeilen · msa 2 · Jahre 2022–2024
 msa/msa-typen.csv (gültig): Einen unbeschrifteten Sektor eines Kreisdiagramms anhand der Anteile einer Tabelle identifizieren.
-
-**Säulen- oder Balkendiagramm ergänzen** · 2 Zeilen · msa 2 · Jahre 2020–2026
-msa/msa-typen.csv (gültig): Fehlende Säule oder fehlenden Balken mit gegebenem Wert in ein Diagramm mit vorgegebener Skala einzeichnen.
 
 **Verzerrung eines Diagramms erklären** · 2 Zeilen · msa 2 · Jahre 2014–2026
 msa/msa-typen.csv (gültig): Erklären, warum ein Diagramm (abgeschnittene Achse, Skalierung) einen falschen Eindruck erzeugt.
@@ -100,7 +100,7 @@ fhr/fhr-typen.csv (geprüft): Fehlende Felder und Randsummen einer Vierfeldertaf
 **Wert aus Diagramm ablesen** · 1 Zeile · msa 1 · Jahre 2016
 msa/msa-typen.csv (gültig): Einzelwert einer Kategorie aus einem Säulen-, Balken- oder Liniendiagramm oder aus einem Funktionsgraphen im Sachzusammenhang (z. B. Startwert bei t = 0) an der Skala ablesen, ggf. mit Einheit „in Tausend“ umrechnen.
 
-**Nebentypen:** Standardabweichung aus Werteliste (8) · Häufigkeitsdiagramm zeichnen (6) · Standardabweichung aus Häufigkeitstabelle (6) · Behauptung prüfen (4) · Mittelpunktswinkel berechnen (3) · Mittelwert aus Werteliste (3) · Prozentuale Veränderung berechnen (3) · Arithmetisches Mittel berechnen (2) · Median aus Häufigkeitstabelle (2) · Medianklasse aus klassierter Häufigkeitstabelle bestimmen (2) · Sektor im Kreisdiagramm zuordnen (2) · Anzahl aus relativer Häufigkeit hochrechnen (1) · Bedarf im ungünstigsten Fall angeben (1) · Kreisdiagramm zeichnen (1) · Median und Mittelwert bei Ausreißern vergleichen (1) · Mittelwert aus Häufigkeitstabelle (1) · Modalwert aus Häufigkeitstabelle (1) · Prozent und Anteil umwandeln (1) · Prozentualen Mehrpreis berechnen (1) · Relative Häufigkeit berechnen (1) · Streuung zweier Verteilungen vergleichen (1) · Säulen- oder Balkendiagramm ergänzen (1) · Urliste zu einer Häufigkeitsverteilung ordnen (1) · Verzerrung eines Diagramms erklären (1) · Veränderung des Mittelwerts begründen (1) · Zwei Häufigkeitsverteilungen gemeinsam darstellen (1) · Änderung der Häufigkeiten bei größerer Stichprobe begründen (1)
+**Nebentypen:** Standardabweichung aus Werteliste (8) · Häufigkeitsdiagramm zeichnen (6) · Standardabweichung aus Häufigkeitstabelle (6) · Behauptung prüfen (5) · Mittelpunktswinkel berechnen (3) · Mittelwert aus Werteliste (3) · Prozentuale Veränderung berechnen (3) · Arithmetisches Mittel berechnen (2) · Median aus Häufigkeitstabelle (2) · Medianklasse aus klassierter Häufigkeitstabelle bestimmen (2) · Sektor im Kreisdiagramm zuordnen (2) · Anzahl aus relativer Häufigkeit hochrechnen (1) · Bedarf im ungünstigsten Fall angeben (1) · Kreisdiagramm zeichnen (1) · Median und Mittelwert bei Ausreißern vergleichen (1) · Mittelwert aus Häufigkeitstabelle (1) · Modalwert aus Häufigkeitstabelle (1) · Prozent und Anteil umwandeln (1) · Prozentualen Mehrpreis berechnen (1) · Relative Häufigkeit berechnen (1) · Streuung zweier Verteilungen vergleichen (1) · Säulen- oder Balkendiagramm ergänzen (1) · Urliste zu einer Häufigkeitsverteilung ordnen (1) · Verzerrung eines Diagramms erklären (1) · Veränderung des Mittelwerts begründen (1) · Zwei Häufigkeitsverteilungen gemeinsam darstellen (1) · Änderung der Häufigkeiten bei größerer Stichprobe begründen (1)
 
 ## B Zeilenliste
 
@@ -115,6 +115,7 @@ msa/msa-typen.csv (gültig): Einzelwert einer Kategorie aus einem Säulen-, Balk
 2021-OS-B1f | 1 | ja | Kurzantwort · Geben Sie an | Weiten 4,08 m, 3,88 m, 3,92 m, 4,12 m → durchschnittliche Weite | (4,08 + 3,88 + 3,92 + 4,12) : 4 = 16 : 4
 2024-OS-K2b | 3 | ja | Rechnung¦Rechnung · Zeigen Sie¦Ermitteln Sie | monatliche Niederschläge 2021 in mm: Jan 52,2; Feb 39,6; Mär 35,3; Apr 19,2; Mai 49,3; Jun 85,1; Jul 36,1; Aug 82,4; Sep 21,7; Okt 54,6; Nov 64,1; Dez 42,1; Jahressumme 581,7 mm; Behauptung: Monatsdurchschnitt ca. 48,5 mm → Nachweis des Durchschnitts¦Prozentsatz, um den der April unter dem Durchschnitt liegt | 581,7 : 12 = 48,475 ≈ 48,5; (48,5 − 19,2) : 48,5 = 0,604
 2025-OS-K6c | 3 | ja | Rechnung¦Begründung · Bestimmen Sie¦Erklären Sie | Alter der 11 Erziehenden: 52, 57, 33, 44, 31, 30, 66, 58, 61, 41, 55; die älteste (66) und die jüngste Person (30) verlassen die Kita → Durchschnittsalter¦Auswirkung des Weggangs auf den Durchschnitt | 528 : 11 = 48; 66 + 30 = 96 = 2 · 48, also (528 − 96) : 9 = 48
+2026-EBR-K4b | 2 | ja | Rechnung · Zeigen Sie rechnerisch | Benzinpreise: Mo 1,77; Di 1,78; Mi 1,77; Do 1,79; Fr 1,84; Sa 1,82; So 1,85 (€ pro Liter); Behauptung: Mo bis Fr liegt der Durchschnittspreis unter 1,80 € → Nachweis der Behauptung | (1,77 + 1,78 + 1,77 + 1,79 + 1,84) : 5 = 8,95 : 5
 2026-FOR-K3b | 2 | ja | Rechnung · Zeigen Sie rechnerisch | Benzinpreise: Mo 1,77; Di 1,78; Mi 1,77; Do 1,79; Fr 1,84; Sa 1,82; So 1,85 (€ pro Liter); Behauptung: Mo bis Fr liegt der Durchschnittspreis unter 1,80 € → Nachweis der Behauptung | (1,77 + 1,78 + 1,77 + 1,79 + 1,84) : 5 = 8,95 : 5
 2018-OS-K3d | 4 | ja | Ankreuzen¦Begründung · Untersuchen Sie¦Kreuzen Sie an¦Geben Sie an | Anteile 10 %, 15 %, 55 %, 20 %; Aussage 1: weniger als die Hälfte essen 4- bis 6-mal pro Woche Fleisch; Aussage 2: jede 15. Frau isst 1- bis 3-mal pro Woche Fleisch → richtig/falsch/nicht entscheidbar je Aussage¦Begründung je Aussage | 55 % > 50 %: falsch; jede 15. = 1/15 ≈ 6,7 %, im Diagramm 15 %: falsch
 2019-OS-K5c | 2 | ja | Begründung · Nennen Sie¦Berichtigen Sie | Artikel (2015): Anzahl der Jugendlichen, die Bücher lesen, nimmt von Jahr zu Jahr extrem ab; in wenigen Jahren liest kein Jugendlicher mehr ein Buch; Diagramm mit Anteilen 2011 bis 2015 etwa 44, 42, 40, 39, 36 %, Achse ab 30 % → eine der zwei unzutreffenden Aussagen nennen und berichtigen | Rückgang nur etwa 8 Prozentpunkte in vier Jahren, wirkt durch die bei 30 % beginnende Achse extrem; bei 2 Prozentpunkten je Jahr läge 0 % erst nach etwa 18 Jahren, Fortschreibung unzulässig
@@ -137,9 +138,11 @@ msa/msa-typen.csv (gültig): Einzelwert einer Kategorie aus einem Säulen-, Balk
 2021-OS-K5a | 5 | ja | Rechnung · Berechnen Sie¦Berechnen Sie | bewegte Container in Mio. 2009–2017: 7,0; 7,9; 9,0; 8,9; 9,3; 9,7; 8,8; 8,9; 8,8 → Spannweite¦arithmetisches Mittel¦prozentuale Erhöhung 2010 → 2011 | 9,7 − 7,0; Summe 78,3 : 9; (9,0 − 7,9)/7,9
 2023-OS-K6c | 3 | ja | Kurzantwort¦Rechnung · Geben Sie an | Muttersprachler in Millionen: Arabisch 290, Chinesisch 1 300, Englisch 500, Hindi 525, Spanisch 389 → Minimum¦Maximum¦Spannweite | kleinsten und größten Wert ablesen, Differenz bilden
 2024-OS-K2a | 2 | ja | Rechnung · Ermitteln Sie | monatliche Niederschläge 2021 in mm: Jan 52,2; Feb 39,6; Mär 35,3; Apr 19,2; Mai 49,3; Jun 85,1; Jul 36,1; Aug 82,4; Sep 21,7; Okt 54,6; Nov 64,1; Dez 42,1 → Spannweite | 85,1 − 19,2
+2026-EBR-K4a | 1 | ja | Kurzantwort · Geben Sie an | Benzinpreise: Mo 1,77; Di 1,78; Mi 1,77; Do 1,79; Fr 1,84; Sa 1,82; So 1,85 (€ pro Liter) → Spannweite | 1,85 − 1,77
 2026-FOR-K3a | 1 | ja | Kurzantwort · Geben Sie an | Benzinpreise: Mo 1,77; Di 1,78; Mi 1,77; Do 1,79; Fr 1,84; Sa 1,82; So 1,85 (€ pro Liter) → Spannweite | 1,85 − 1,77
 2018-OS-K3c | 2 | ja | Zeichnen · Zeichnen Sie | Anteile 10 %, 15 %, 55 %, 20 % (am Säulendiagramm abgelesen); Streifen 10 cm lang → Streifendiagramm | 10 cm = 100 %, 1 mm je 1 %: Abschnitte 1 cm, 1,5 cm, 5,5 cm, 2 cm, beschriften
 2020-OS-K2a | 1 | ja | Zeichnen · Ergänzen Sie | Besucher je Tag: Mo 170, Di 130, Mi 210, Do 180 (im Text), Fr 190, Sa 240, So 280; Balken für Do fehlt → Balken für Donnerstag | Balkenlänge 180 an der Skala abtragen
+2026-EBR-K4d | 1 | ja | Zeichnen · Zeichnen Sie ein | Diagramm mit sechs Säulen Mo–Sa (Werte wie in der Tabelle), Preis So = 1,85 € → Säule für So | Wert 1,85 auf der Skala (1,75 bis 1,90, Schritt 0,01) abtragen
 2026-FOR-K3d | 1 | ja | Zeichnen · Zeichnen Sie ein | Diagramm mit sechs Säulen Mo–Sa (Werte wie in der Tabelle), Preis So = 1,85 € → Säule für So | Wert 1,85 auf der Skala (1,75 bis 1,90, Schritt 0,01) abtragen
 2014-OS-K3d | 2 | ja | Begründung · Erklären Sie | Zinssatz 0,25 % pro Jahr; Diagramm mit y-Achse ab 1060 €, Säulen wachsen scheinbar stark → Erklärung, wie das Diagramm täuscht | y-Achse beginnt bei 1060 statt bei 0 (abgeschnitten) und ist stark gedehnt, daher wirken kleine Zuwächse groß
 2026-FOR-K3e | 1 | ja | Begründung · Begründen Sie | Fabios Säulendiagramm mit y-Achse ab 1,75 €; seine Aussage: das Diagramm zeigt, dass sich die Preise von Do auf Fr mehr als verdoppeln (tatsächlich 1,79 → 1,84) → Erklärung des falschen Eindrucks | y-Achse beginnt bei 1,75 statt bei 0; die Säulen zeigen nur den Teil über 1,75 (Do 0,04, Fr 0,09), dieser Teil verdoppelt sich, der Preis nur um 0,05 €

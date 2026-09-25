@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """abitur-abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.24 · 17.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.12 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
+Version 0.25 · 25.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb; bis 17.09.2026 abgleich.py – Auftrag F Punkt 2, Familienname wie abitur-typen.csv)
+0.25 (Auftrag Nacht 2026-09-27, Teil 10 Punkt 4): Lauf 24; Versionsbindung auf abi-bau.py v0.14 (stand auf v0.12).
 0.24 (Auftrag G, Punkt 1 und 2): eigener Name im Kopf und im Aufrufbeispiel, befund-abi-iqb-typen.md statt abi-iqb-typen.md; Versionsbindung auf den geltenden Stand (stand auf abitur-vokabular.md v1.5, abi-bau.py v0.10, iqb-bau.py v1.7); keine Regel und kein Lauf geändert.
 
 Benennt Typen um und zieht Typen zusammen, in abitur-typen.csv und in beiden
@@ -125,6 +126,16 @@ abgewandelt befunden: 2020-be-gk 4.2 e, f). Dazu drei Feldkorrekturen aus der
 Markdown-Prüfung (Auftrag C Teil 1): Rundung in 2023-bebb-gk 2.1 c, d;
 2022-bebb-lk 4 d vom Dubletten- auf den Abgewandelt-Verweis mit eigenem
 Ergebnis. Typen unverändert (1323).
+Lauf 24 (25.09.2026, Abgleich nach 2017-bb-ea-cas, 2018-bb-ea-cas, 2017-ga-A,
+2017-ga-B und 2017-be-gk): neun Umbenennungen (Etikett neutral zur Verwendung:
+Anzahl von Versuchen für mindestens einen Treffer, Extrempunkt eines Produkts,
+Funktionalgleichung mit Verschiebung, Streckenlänge, vierter Eckpunkt eines
+Parallelogramms, Höhenunterschied senkrecht übereinanderliegender Punkte, zwei
+gleichzeitige Ereignisse einer Bernoulli-Kette, Gesamtlänge gleich langer
+Strecken an einem Körper, Graph in ein Koordinatensystem), vier
+Zusammenziehungen (Fläche aus einem Flächenstück; Scharparameter für einen
+vorgegebenen Flächeninhalt; Stichprobenumfang aus einer vorgegebenen
+Standardabweichung; Scharparameter aus einem Punkt des Graphen), 1349 → 1345.
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1441,6 +1452,144 @@ def zeile_23(d):
         sys.exit(f"Lauf 23 fasst mehr als {HOECHSTENS_23} Zeilen an – Abbruch")
     return True
 
+# ======================================================================= Lauf 24
+# Nach den CAS-Nachträgen 2017-bb-ea-cas und 2018-bb-ea-cas, den Reserve-Stapeln
+# 2017-ga-A und 2017-ga-B (WTR) und dem Heft 2017-be-gk (Auftrag Nacht
+# 2026-09-27, Teil 10 Punkt 4; 25.09.2026): die 26 neuen Typen der fünf Läufe
+# gegen alle Typen derselben Leitidee verglichen (Wortmenge von Name und
+# Definition, Zeichenfolge des Namens), dazu die Etikettenvorschläge der
+# Heftläufe (abi-pruefungen.md, iqb-pruefungen.md § 4) an gegeben, gesucht und
+# verfahren aller Zeilen der betroffenen Typen geprüft. Neun Umbenennungen –
+# ein Etikett, das eine Verwendung falsch beschreibt, wird neutral gefasst
+# (Kern § 6: Kontext löst man vom Etikett, Gegenstand plus Handlung): Mindest-
+# oder Höchstanzahl über das Gegenereignis (2017-bb-ea-cas 4.2 b fragt die
+# größte Anzahl, gleicher Weg), Extrempunkt statt Hochpunkt (2017-ga-B Tiefpunkt,
+# 2025-ea-B und 2020-be-gk Extrempunkt), Verschiebung statt Zeitverschiebung
+# (2017-ga-B Ort), Streckenlänge ohne „im Raum" (2017-ga-B Brücke in der Ebene,
+# Thema Abstände bleibt), Parallelogramm statt Quadrat (2017-ga-B Rechteck; die
+# Vektoraddition ist die Parallelogrammregel), Höhenunterschied ohne
+# „Seilgeraden" (2017-be-gk Jet über dem Rathaus), zwei gleichzeitige Ereignisse
+# statt „Gewinn und Extrapreis" (2017-be-gk Glücksrad), Gesamtlänge gleich
+# langer Strecken an einem Körper statt „Dachkanten mit Zuschlag" (2017-be-gk
+# Draht), Koordinatensystem ohne „vorgegebenes" (2017-be-gk 1.2 b ohne, 2020-be-gk
+# 2.2 d leer vorgegeben). Vier Zusammenziehungen – dieselbe Fertigkeit unter
+# zwei Namen: ein Flächenstück zwischen Graph und x-Achse ohne Vorzeichenwechsel
+# (Grenzen zwei Nullstellen, 2017-ga-A, oder y-Achse und Nullstelle, 2025-ga-A;
+# eigenes Gegenstück zu „aus zwei Flächenstücken"); Scharparameter aus einem
+# vorgegebenen Flächeninhalt zwischen Graph und x-Achse (2024-ga-B, 2017-ga-A
+# gegen 2026-ea-B-mms, 2019-ga-B – Integral als Term im Parameter gleich dem
+# Inhalt, ob die Grenzen vom Parameter abhängen, ändert den Weg nicht);
+# Stichprobenumfang aus einer vorgegebenen Standardabweichung (2017-ga-B als
+# Wert, 2020-ga-B als Doppeltes der Standardabweichung bei gegebenem Umfang –
+# dieselbe Gleichung σ = √(npq) nach n); Scharparameter aus einem Punkt des
+# Graphen (2021-ga-B „Parameter einer Schar aus einem vorgegebenen Punkt …"
+# ist ein Synonym, Befund der Ähnlichkeitssuche über die Nebentypen von
+# 2017-bb-ea-cas). Getrennt gelassen: Horizontalabstand aus Neigung (2017-ga-B)
+# gegen Neigung aus Horizontalabstand (Umkehraufgabe, anderer Gegenstand),
+# Funktionalgleichung grafisch gegen f(t) = f(t − c) mit dem Rechner (anderer
+# Lösungsweg), Schnittpunkte mit dem Rechner gegen Zeitpunkt für einen Bestand
+# mit dem Rechner (anderer Gegenstand), Quadratfläche über die Seitenlänge gegen
+# Flächenverhältnis zweier Quadrate und Dreiecksfläche über die Katheten (andere
+# Figur bzw. Frage), die drei Mindestumfang-Typen (Probieren mit kumulierten
+# Werten statt Gegenereignis). Alle Paare liegen im selben Thema, kein Präfix
+# ändert sich; geteilte Typen von Dubletten ändern sich in beiden Katalogen
+# gleich. Die Funktion prüft nach dem Umbenennen, dass keine Zeile einen Typ
+# doppelt trägt (typ in typ_neben oder typ_neben mit Wiederholung).
+ZUSAMMEN_24 = {
+    # Umbenennungen
+    "Mindestanzahl von Versuchen einer Bernoulli-Kette über das Gegenereignis bestimmen":
+        "Anzahl von Versuchen einer Bernoulli-Kette für mindestens einen Treffer über das Gegenereignis bestimmen",
+    "Hochpunkt eines Produkts aus Polynom und e-Funktion berechnen":
+        "Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen",
+    "Funktionalgleichung mit Zeitverschiebung grafisch lösen und im Sachzusammenhang deuten":
+        "Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten",
+    "Streckenlänge im Raum berechnen":
+        "Streckenlänge berechnen",
+    "Vierten Eckpunkt eines Quadrats über eine Vektoraddition bestimmen":
+        "Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen",
+    "Höhenunterschied zweier übereinanderliegender Punkte auf Seilgeraden bestimmen":
+        "Höhenunterschied senkrecht übereinanderliegender Punkte über gleiche x- und y-Koordinaten bestimmen",
+    "Wahrscheinlichkeit für Gewinn und Extrapreis über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen":
+        "Wahrscheinlichkeit für zwei gleichzeitige Ereignisse über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen",
+    "Körper: Gesamtlänge der Dachkanten einer Pyramide mit Zuschlag berechnen":
+        "Körper: Gesamtlänge gleich langer Strecken an einem Körper über einen Vektorbetrag berechnen",
+    "Graphen einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen":
+        "Graphen einer Funktion in ein Koordinatensystem einzeichnen",
+    # Zusammenziehungen
+    "Fläche: Fläche zwischen Graph und Koordinatenachsen berechnen":
+        "Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen",
+    "Fläche: Fläche zwischen Graph und x-Achse zwischen zwei Nullstellen berechnen":
+        "Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen",
+    "Scharparameter aus einem vorgegebenen Flächeninhalt zwischen Graph und x-Achse berechnen":
+        "Scharparameter für einen vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen",
+    "Stichprobenumfang für eine verdoppelte Standardabweichung der Binomialverteilung ermitteln":
+        "Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen",
+    "Versuchszahl aus Standardabweichung und Trefferwahrscheinlichkeit berechnen":
+        "Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen",
+    "Parameter einer Schar aus einem vorgegebenen Punkt auf dem Graphen bestimmen":
+        "Scharparameter aus einem Punkt des Graphen angeben",
+}
+NEUE_DEFINITION_24 = {
+    "Anzahl von Versuchen einer Bernoulli-Kette für mindestens einen Treffer über das Gegenereignis bestimmen":
+        "Die kleinste (oder größte) Zahl unabhängiger Wiederholungen bestimmen, für die die Wahrscheinlichkeit für "
+        "mindestens einen Treffer eine vorgegebene Schranke erreicht (bzw. unter ihr bleibt), über das Gegenereignis "
+        "„kein Treffer“ und Logarithmieren oder Probieren; welche Richtung gefragt ist, steht in der Zeile, sie kehrt "
+        "nur die Rundung um.",
+    "Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen":
+        "Den Hoch- oder Tiefpunkt (auch den größten Wert im Sachzusammenhang) eines Produkts aus Polynom und e-Funktion "
+        "über die notwendige Bedingung berechnen (Produktregel, der e-Faktor ist stets positiv); die Art folgt aus der "
+        "Abbildung, dem Sachzusammenhang oder einer Vorgabe, eine hinreichende Bedingung wird nicht oder nur ergänzend "
+        "verlangt.",
+    "Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten":
+        "Eine Gleichung der Form a(x + c) = a(x) + d am Graphen lösen – zwei Graphenpunkte mit festem Abstand c in "
+        "x- und d in y-Richtung, bei d = 0 eine waagerechte Sehne der Länge c; x ist eine Zeit oder ein Ort – und im "
+        "Sachzusammenhang deuten.",
+    "Streckenlänge berechnen":
+        "Die Länge einer Strecke in der Ebene oder im Raum als Betrag des Verbindungsvektors (Satz des Pythagoras über "
+        "die Koordinatendifferenzen) berechnen.",
+    "Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen":
+        "Den fehlenden Eckpunkt eines Parallelogramms – auch eines Rechtecks oder Quadrats – aus drei gegebenen Ecken "
+        "über die Addition eines Seitenvektors bestimmen (OD = OA + BC).",
+    "Höhenunterschied senkrecht übereinanderliegender Punkte über gleiche x- und y-Koordinaten bestimmen":
+        "„Senkrecht (vertikal) übereinander“ als Gleichheit der x- und y-Koordinaten übersetzen, den Parameter der "
+        "Geraden bestimmen, auf der der gesuchte Punkt liegt (über einem gegebenen Punkt oder über einem Punkt einer "
+        "zweiten Geraden), und die Differenz der Höhen (z-Koordinaten) berechnen.",
+    "Wahrscheinlichkeit für zwei gleichzeitige Ereignisse über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen":
+        "Die Wahrscheinlichkeit für das gleichzeitige Eintreten zweier Ereignisse einer Bernoulli-Kette berechnen, "
+        "indem die Kette in den festgelegten Abschnitt (Binomialterm) und den Rest zerlegt wird, für den eine Bedingung "
+        "abgeleitet und über das Gegenereignis oder eine kumulierte Wahrscheinlichkeit berechnet wird; beide Abschnitte "
+        "sind unabhängig, das Ergebnis ist das Produkt.",
+    "Körper: Gesamtlänge gleich langer Strecken an einem Körper über einen Vektorbetrag berechnen":
+        "Die Länge einer Strecke an einem Körper (Kante, Draht, Girlande) als Vektorbetrag berechnen, mit der Anzahl "
+        "gleich langer Strecken (Symmetrie) und gegebenenfalls einem Zuschlag zur Gesamtlänge hochrechnen und im "
+        "Sachzusammenhang angeben oder mit einer Vorgabe vergleichen.",
+    "Graphen einer Funktion in ein Koordinatensystem einzeichnen":
+        "Den Verlauf einer Funktion mit Hilfe berechneter oder bekannter Punkte (Wertetabelle, Achsenschnittpunkte, "
+        "Extrempunkte, Grenzverhalten) in ein Koordinatensystem eintragen und glatt verbinden – in ein vorgegebenes, "
+        "das schon andere Graphen enthalten kann, oder in ein selbst angelegtes.",
+    "Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen":
+        "Den Inhalt einer von Graph und x-Achse begrenzten Fläche, die aus einem Stück ohne Vorzeichenwechsel des "
+        "Integranden besteht, als ein bestimmtes Integral berechnen – zwischen zwei benachbarten Nullstellen oder, wenn "
+        "die y-Achse Rand ist, von 0 bis zur Nullstelle –, unterhalb der Achse mit Betrag.",
+    "Scharparameter für einen vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen":
+        "Den Parameter einer Schar (auch einen Vorfaktor wie in k · f(x)) bestimmen, für den das vom Graphen und der "
+        "x-Achse eingeschlossene Flächenstück einen vorgegebenen Inhalt hat: das Integral zwischen den festen oder "
+        "parameterabhängigen Nullstellen bzw. Grenzen als Term im Parameter berechnen (eigene oder vorgegebene "
+        "Stammfunktion, auch am Rechner), gleich dem Inhalt setzen und auflösen.",
+    "Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen":
+        "Aus einer vorgegebenen Standardabweichung – als Wert oder als Vielfaches der Standardabweichung bei einem "
+        "gegebenen Umfang – und der Trefferwahrscheinlichkeit die Anzahl der Versuche über σ = √(n · p · (1 − p)) "
+        "berechnen (quadrieren und nach n auflösen; das k-fache σ verlangt das k²-fache n).",
+}
+
+
+def pruefe_24(d):
+    """Nach dem Umbenennen: kein Typ doppelt in einer Zeile (Zusammenziehung zweier Typen derselben Zeile)."""
+    neben = [t for t in d["typ_neben"].split("|") if t]
+    if d["typ"] in neben or len(neben) != len(set(neben)):
+        sys.exit(f"{d['id']}: Typ nach Lauf 24 doppelt in typ/typ_neben – Abbruch")
+    return False
+
 
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
@@ -1466,11 +1615,12 @@ LAEUFE = {
     21: ({}, ZUSAMMEN_21, NEUE_DEFINITION_21, {}),
     22: ({}, {}, {}, {}),
     23: ({}, {}, {}, {}),
+    24: ({}, ZUSAMMEN_24, NEUE_DEFINITION_24, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
                  18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)],
-                 23: [("*", zeile_23)]}
+                 23: [("*", zeile_23)], 24: [("*", pruefe_24)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]

@@ -2,13 +2,13 @@
 
 Stufe: I
 
-- msa: Brüche und Dezimalzahlen (17 Zeilen)
+- msa: Brüche und Dezimalzahlen (18 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Bruchteil einer Fläche bestimmen** · 9 Zeilen · msa 9 · Jahre 2014–2026
+**Bruchteil einer Fläche bestimmen** · 10 Zeilen · msa 10 · Jahre 2014–2026
 msa/msa-typen.csv (gültig): Bruchteil einer markierten Teilfläche an einer Figur angeben, unter mehreren Figuren die mit einem vorgegebenen Anteil auswählen oder einen Bruchteil einer Figur durch Zerlegen markieren; die Leistung steht in format.
 
 **Zahlen in verschiedenen Darstellungen vergleichen** · 4 Zeilen · msa 4 · Jahre 2014–2023
@@ -37,6 +37,7 @@ msa/msa-typen.csv (gültig): Eine beliebige Zahl angeben, die eine Bedingung erf
 2023-OS-B1d | 1 | ja | Zeichnen · Markieren Sie | Figur aus 24 Kästchen → 25 % der Fläche markiert | 24 Kästchen zählen, ein Viertel davon markieren
 2024-OS-B1b | 1 | ja | Kurzantwort · Geben Sie an | Quadrat mit 4×4-Gitter; grau: das Quadrat aus den vier Seitenmitten → Anteil der grauen Fläche | vier weiße Eckdreiecke ergeben zusammen die graue Fläche, oder Kästchen zählen (8 von 16)
 2025-OS-B1c | 1 | ja | Zeichnen · Kennzeichnen Sie | leeres Quadrat (auf der Spitze stehend) → ein Viertel der Fläche markiert | Quadrat durch beide Diagonalen oder beide Mittellinien in vier gleiche Teile teilen, eines schraffieren
+2026-EBR-B1b | 1 | ja | Ankreuzen · Kreuzen Sie an | vier Figuren mit grauer Teilfläche: Rechteck (ca. 1/6), Quadrat (1/4), Parallelogramm (1/2), Kreis (120°-Sektor) → Figur, deren grauer Anteil 1/3 ist | 120° von 360° sind ein Drittel; die anderen Anteile sind 1/6, 1/4, 1/2
 2026-FOR-B1b | 1 | ja | Ankreuzen · Kreuzen Sie an | vier Figuren mit grauer Teilfläche: Rechteck (ca. 1/6), Quadrat (1/4), Parallelogramm (1/2), Kreis (120°-Sektor) → Figur, deren grauer Anteil 1/3 ist | 120° von 360° sind ein Drittel; die anderen Anteile sind 1/6, 1/4, 1/2
 2015-OS-B1h | 1 | ja | Kurzantwort · Geben Sie an | Tonne mit 600 l Fassungsvermögen, zu 2/3 gefüllt → nachzufüllende Menge bis zur vollen Tonne | 2/3 von 600 l = 400 l, Rest 600 − 400 = 200 l (oder 1/3 von 600 l)
 2018-OS-B1a | 1 | ja | Kurzantwort · Bestimmen Sie | 3/4 von 1,2 kg → die Masse | 1,2 : 4 · 3 oder 1,2 · 0,75

@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Schnittmengen (14 Zeilen)
-- iqb: Schnittmengen (17 Zeilen)
+- iqb: Schnittmengen (18 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -14,6 +14,9 @@ abitur/abitur-typen.csv (neu): Den Schnittpunkt einer Geraden in Parameterform m
 
 **Parameter aus dem Schnitt zweier Geraden ermitteln** · 3 Zeilen · abi 1 iqb 2 · Jahre 2021–2023
 abitur/abitur-typen.csv (neu): Zwei Geraden gleichsetzen und aus der Bedingung eines gemeinsamen Punktes einen Parameter in einem Richtungsvektor ermitteln.
+
+**Spitze einer Pyramide als Schnittpunkt einer Kantengeraden mit einer Koordinatenachse berechnen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2023
+abitur/abitur-typen.csv (neu): Die Spitze einer Pyramide als Schnittpunkt der Geraden durch zwei Punkte einer Kante mit einer Koordinatenachse berechnen.
 
 **Spurgerade einer Ebene in einer Koordinatenebene in das Schrägbild einzeichnen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2021
 abitur/abitur-typen.csv (neu): Die Schnittgerade einer Ebene in Koordinatenform mit einer Koordinatenebene über ihre beiden Spurpunkte auf den Achsen bestimmen und in ein Schrägbild einzeichnen.
@@ -29,9 +32,6 @@ abitur/abitur-typen.csv (neu): Die Schnittfigur einer durch drei Punkte gegebene
 
 **Schnittpunkt einer parameterabhängigen Geraden mit einer Kante und Teilverhältnis bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Eine Gerade, deren Stützvektor einen Parameter enthält, mit der Geraden durch eine Körperkante gleichsetzen, den Parameterwert mit Schnittpunkt auf der Kante über das lineare Gleichungssystem finden und das Teilverhältnis aus dem Kantenparameter angeben.
-
-**Spitze einer Pyramide als Schnittpunkt einer Kantengeraden mit einer Koordinatenachse berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017–2023
-abitur/abitur-typen.csv (neu): Die Spitze einer Pyramide als Schnittpunkt der Geraden durch zwei Punkte einer Kante mit einer Koordinatenachse berechnen.
 
 **Durchstoßpunkt einer achsenparallelen Geraden mit einer Ebene berechnen und Abstand im Sachzusammenhang angeben** · 1 Zeile · abi 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Eine zu einer Koordinatenachse parallele Gerade durch einen Punkt mit einer Ebene in Koordinatenform schneiden und aus der Koordinatendifferenz die Länge der Strecke bis zum Durchstoßpunkt mit Maßstab und Zuschlag angeben.
@@ -96,6 +96,7 @@ abitur/abitur-typen.csv (neu): Eine geradlinige und gleichförmige Bewegung als 
 2017MerhoehtAAGLAA211-b | 3 | nein | Rechnung · Berechnen Sie | E: x1 + x2 + 2x3 = 4; g: x = (2; 1; −2) + λ · (2; −1; −3), λ ∈ IR → Koordinaten des Schnittpunkts von E und g | Koordinaten von g in E einsetzen, λ bestimmen, Punkt berechnen
 2019MerhoehtAAGLAA21-a | 3 | nein | Rechnung · Berechnen Sie | g: x = (0; 2; 0) + r · (2; 4; 1); E: x1 + 2x2 − 2x3 = 2; g und E schneiden sich in S → Koordinaten von S | Einsetzen, r bestimmen, Punkt berechnen
 2026MerhoehtBAGLAA2WTR2-1c | 4 | ja | Rechnung · Berechnen Sie | L: −2x + y + 4 = 0 schneidet die Kante CD in H; Kontrolle H(2,8 ¦ 1,6 ¦ 0) → Koordinaten von H | Geradengleichung der Kante, Parameter aus L
+2017MgrundlegendBAGLAA2WTR1-1d | 3 | ja | Rechnung · Bestimmen Sie | Pagode mit drei Dachetagen aus je vier Dachflächen gleicher Form und Größe; die Dachflächen der mittleren und oberen Etage sind jeweils parallel zu einer Dachfläche der unteren Etage; die Dachflächen der unteren Etage sind Vierecke mit den Eckpunkten A1(5,5; −5,5; 6), B1(5,5; 5,5; 6), C1(−5,5; 5,5; 6), D1(−5,5; −5,5; 6), A2(2; −2; 8,1), B2(2; 2; 8,1), C2(−2; 2; 8,1) und D2(−2; −2; 8,1); die xy-Ebene ist die Horizontale, 1 LE = 1 m; die Strecke A1A2 ist Teil einer Geraden g → Koordinaten des Schnittpunkts von g mit der z-Achse | g: x = (5,5; −5,5; 6) + λ · (−3,5; 3,5; 2,1); aus x = 0 folgt λ = 11/7, damit y = 0 und z = 9,3
 2023MgrundlegendBAGLAA2WTR2-1d | 3 | ja | Rechnung · Berechnen Sie | Körper ABCDEF ergänzt zur Pyramide mit Grundfläche ABC und Spitze S; D, E, F auf den Kanten; Kontrolle S(0¦0¦5) → Koordinaten von S | S liegt auf der x₃-Achse; Gerade durch A und D mit der x₃-Achse schneiden
 2017MerhoehtAAGLAA211-a | 2 | nein | Zeichnen · Zeichnen Sie ein | Ebene E: x1 + x2 + 2x3 = 4 und die Gerade g: x = (2; 1; −2) + λ · (2; −1; −3); Schrägbild eines Koordinatensystems → Schnittgerade von E mit der x2x3-Ebene in der Abbildung | x1 = 0 setzen, die Spurpunkte auf der x2- und der x3-Achse bestimmen und verbinden
 2021MgrundlegendBAGLAA2WTR1-1e | 2 | ja | Zeichnen · Zeichnen Sie | Holzkörper mit den Eckpunkten A(0 ¦ 0 ¦ 0), B(10 ¦ 0 ¦ 0), C(10 ¦ 10 ¦ 0), D(0 ¦ 10 ¦ 0) und E(0 ¦ 10 ¦ 6) (Pyramide über dem Quadrat ABCD, Spitze E senkrecht über D); B, D und E liegen in der Symmetrieebene des Körpers; 1 LE = 1 cm; L: 3x + 5z = 30; F = Schnittpunkt von L mit der z-Achse → F und die Schnittgeraden von L mit der xz- und der yz-Ebene in der Abbildung | F(0 ¦ 0 ¦ 6) eintragen, Geraden BF und FE einzeichnen

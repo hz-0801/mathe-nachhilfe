@@ -5,21 +5,21 @@ Stufe: II
 - fhr: Mehrstufige Zufallsexperimente (16 Zeilen)
 - fhr: Laplace-Wahrscheinlichkeit (7 Zeilen)
 - fhr: Baumdiagramm und Pfadregeln (5 Zeilen)
-- abi: Baumdiagramm und Pfadregeln (42 Zeilen)
-- abi: Zufallsexperimente und Urnenmodelle (34 Zeilen)
+- abi: Baumdiagramm und Pfadregeln (46 Zeilen)
+- abi: Zufallsexperimente und Urnenmodelle (35 Zeilen)
 - abi: Ereignisse und Mengenoperationen (4 Zeilen)
-- iqb: Baumdiagramm und Pfadregeln (61 Zeilen)
-- iqb: Zufallsexperimente und Urnenmodelle (59 Zeilen)
+- iqb: Baumdiagramm und Pfadregeln (67 Zeilen)
+- iqb: Zufallsexperimente und Urnenmodelle (61 Zeilen)
 - iqb: Ereignisse und Mengenoperationen (9 Zeilen)
 
-Stand: 2026-09-20, Commit 1887018
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
 **Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben** · 21 Zeilen · abi 6 iqb 15 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Zu einem gegebenen Term (Produkt, Summe, Potenz oder Quotient von Binomialkoeffizienten) das Ereignis und gegebenenfalls das Zufallsexperiment im Sachzusammenhang beschreiben.
 
-**Baumdiagramm zu einer zweistufigen Situation erstellen** · 11 Zeilen · abi 4 iqb 7 · Jahre 2018–2025
+**Baumdiagramm zu einer zweistufigen Situation erstellen** · 13 Zeilen · abi 4 iqb 9 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): Aus Sachangaben ein beschriftetes zweistufiges Baumdiagramm zeichnen, wobei fehlende Astwahrscheinlichkeiten aus Pfadwahrscheinlichkeiten und Gegenwahrscheinlichkeiten berechnet werden.
 
 **Baumdiagramm mehrstufig ohne Zurücklegen darstellen** · 10 Zeilen · fhr 10 · Jahre 2019–2025
@@ -28,20 +28,23 @@ fhr/fhr-typen.csv (geprüft): Ein Ziehen ohne Zurücklegen über zwei oder mehr 
 **Ziehen ohne Zurücklegen: Wahrscheinlichkeit beim zweimaligen Ziehen ohne Zurücklegen berechnen** · 9 Zeilen · abi 4 iqb 5 · Jahre 2018–2025
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass zwei ohne Zurücklegen gezogene Objekte beide eine Eigenschaft haben, mit der Pfadregel und verringertem Nenner berechnen.
 
+**Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen** · 8 Zeilen · abi 4 iqb 4 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit einer in fester Reihenfolge vorgegebenen Folge von Ergebnissen als Produkt der Einzelwahrscheinlichkeiten berechnen, etwa erster Treffer erst beim k-ten Versuch.
+
 **Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen** · 8 Zeilen · abi 4 iqb 4 · Jahre 2021–2026
 abitur/abitur-typen.csv (neu): Einen vorgegebenen Term mit Platzhaltern so ergänzen, dass er die Wahrscheinlichkeit eines Ereignisses liefert, wobei Anzahl der Anordnungen und Einzelwahrscheinlichkeiten zu bestimmen sind.
 
 **Fehlenden Anteil im Baumdiagramm aus einer Randwahrscheinlichkeit berechnen** · 7 Zeilen · abi 4 iqb 3 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Einen unbekannten Ast-Anteil bestimmen, indem die Summe der Pfade zu einem Ergebnis der zweiten Stufe mit der gegebenen Randwahrscheinlichkeit gleichgesetzt wird.
 
-**Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen** · 7 Zeilen · abi 3 iqb 4 · Jahre 2017–2022
-abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit einer in fester Reihenfolge vorgegebenen Folge von Ergebnissen als Produkt der Einzelwahrscheinlichkeiten berechnen, etwa erster Treffer erst beim k-ten Versuch.
-
 **Laplace-Experiment: Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen** · 6 Zeilen · abi 2 iqb 4 · Jahre 2019–2025
 abitur/abitur-typen.csv (neu): Gleichheit oder Verhältnis der Wahrscheinlichkeiten zweier Ereignisse über die Anzahl ihrer gleich wahrscheinlichen Ergebnisse begründen.
 
 **Pfadwahrscheinlichkeit für lauter gleiche Ergebnisse als Potenz berechnen** · 6 Zeilen · abi 2 iqb 4 · Jahre 2021–2025
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass alle Versuche dasselbe Ergebnis liefern, als Potenz der Einzelwahrscheinlichkeit berechnen oder begründen, gegebenenfalls mit einer Schranke vergleichen.
+
+**Totale Wahrscheinlichkeit über die Pfadregeln nachweisen** · 6 Zeilen · abi 3 iqb 3 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Eine vorgegebene Gesamtwahrscheinlichkeit als Summe der Pfadwahrscheinlichkeiten nachweisen.
 
 **Verhältnis zweier Pfadwahrscheinlichkeiten im Baumdiagramm prüfen** · 5 Zeilen · abi 2 iqb 3 · Jahre 2025–2026
 abitur/abitur-typen.csv (neu): Eine Aussage über das Verhältnis zweier Pfadwahrscheinlichkeiten (etwa „sechsmal so groß“) durch Berechnen beider Pfade prüfen.
@@ -55,8 +58,17 @@ abitur/abitur-typen.csv (neu): Ein zweistufiges Baumdiagramm erstellen, dessen E
 **Baumdiagramm zweistufig darstellen** · 4 Zeilen · fhr 4 · Jahre 2019–2026
 fhr/fhr-typen.csv (geprüft): Ein zweistufiges Zufallsexperiment mit allen Ästen und Wahrscheinlichkeiten zeichnen.
 
-**Totale Wahrscheinlichkeit über die Pfadregeln nachweisen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2018–2025
-abitur/abitur-typen.csv (neu): Eine vorgegebene Gesamtwahrscheinlichkeit als Summe der Pfadwahrscheinlichkeiten nachweisen.
+**Pfadwahrscheinlichkeit zweier Stufen aus dem Sachtext berechnen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Aus bedingten Angaben im Text die Wahrscheinlichkeit eines zweistufigen Pfads als Produkt berechnen.
+
+**Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen** · 4 Zeilen · abi 1 iqb 3 · Jahre 2017–2023
+abitur/abitur-typen.csv (neu): Eine Wahrscheinlichkeit berechnen, wenn erst die Urne oder ihre Zusammensetzung zufällig gewählt wird und dann daraus gezogen wird: bedingte Wahrscheinlichkeiten je Fall gewichtet addieren (totale Wahrscheinlichkeit).
+
+**Ziehen ohne Zurücklegen: Wahrscheinlichkeit für ausschließlich eine Sorte beim mehrfachen Ziehen als Produkt berechnen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2017–2023
+abitur/abitur-typen.csv (neu): Beim mehrfachen Ziehen ohne Zurücklegen die Wahrscheinlichkeit dafür berechnen, dass alle gezogenen Objekte zu einer Sorte gehören, als Produkt fallender Brüche oder als Quotient von Binomialkoeffizienten (Lotto-Modell).
+
+**Anteil über die totale Wahrscheinlichkeit aus dem Baumdiagramm berechnen** · 3 Zeilen · iqb 3 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit eines Ereignisses der zweiten Stufe als Summe der Pfadwahrscheinlichkeiten berechnen.
 
 **Ergebnismenge eines Zufallsexperiments angeben** · 3 Zeilen · fhr 3 · Jahre 2021–2023
 fhr/fhr-typen.csv (geprüft): Alle möglichen Ergebnisse eines einstufigen Zufallsexperiments als Menge notieren.
@@ -78,9 +90,6 @@ abitur/abitur-typen.csv (neu): Die Sektorwahrscheinlichkeit eines zweifarbigen G
 
 **Laplace-Wahrscheinlichkeit berechnen** · 3 Zeilen · fhr 3 · Jahre 2019–2022
 fhr/fhr-typen.csv (geprüft): Die Wahrscheinlichkeit eines Ereignisses im ein- oder mehrstufigen Laplace-Versuch als Anteil der günstigen an allen gleich wahrscheinlichen Ergebnissen berechnen.
-
-**Pfadwahrscheinlichkeit zweier Stufen aus dem Sachtext berechnen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2019–2024
-abitur/abitur-typen.csv (neu): Aus bedingten Angaben im Text die Wahrscheinlichkeit eines zweistufigen Pfads als Produkt berechnen.
 
 **Term und Ereignis: Schnittwahrscheinlichkeit zweier Ereignisse im Sachzusammenhang deuten** · 3 Zeilen · abi 1 iqb 2 · Jahre 2023–2024
 abitur/abitur-typen.csv (neu): Eine Gleichung der Form P(A ∩ B) = c im Sachzusammenhang in Worte übersetzen.
@@ -111,9 +120,6 @@ abitur/abitur-typen.csv (neu): Den Anteil für „entweder A oder B“ (ausschli
 
 **Anteil in der Restgruppe über die totale Wahrscheinlichkeit einordnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Aus einem Gesamtanteil und den Anteilen in zwei Teilgruppen den Anteil in der verbleibenden Gruppe über die totale Wahrscheinlichkeit berechnen oder gegen den Gesamtanteil einordnen.
-
-**Anteil über die totale Wahrscheinlichkeit aus dem Baumdiagramm berechnen** · 2 Zeilen · iqb 2 · Jahre 2020–2022
-abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit eines Ereignisses der zweiten Stufe als Summe der Pfadwahrscheinlichkeiten berechnen.
 
 **Anzahlvergleich zweier Teilgruppen über Pfadwahrscheinlichkeiten nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Nachweisen, welche von zwei Teilgruppen größer ist, indem die zugehörigen Pfadwahrscheinlichkeiten als Anteile an der Gesamtgruppe verglichen werden.
@@ -148,9 +154,6 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass die Summe zweier Erg
 **Wahrscheinlichkeit eines Vergleichs zweier Zufallsgeräte über Pfade berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Aus den Verteilungen zweier Zufallsgeräte die Wahrscheinlichkeit, dass das eine einen größeren Wert liefert als das andere, über die passenden Pfade berechnen und für mehrere Runden potenzieren.
 
-**Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
-abitur/abitur-typen.csv (neu): Eine Wahrscheinlichkeit berechnen, wenn erst die Urne oder ihre Zusammensetzung zufällig gewählt wird und dann daraus gezogen wird: bedingte Wahrscheinlichkeiten je Fall gewichtet addieren (totale Wahrscheinlichkeit).
-
 **Wahrscheinlichkeit für k Treffer unmittelbar hintereinander unter n Versuchen berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit berechnen, dass unter n Versuchen genau k Treffer auftreten und diese unmittelbar aufeinander folgen (Pfad mal Anzahl der Blocklagen).
 
@@ -183,6 +186,9 @@ abitur/abitur-typen.csv (neu): Ein als Gegenereignis einer Vereinigung notiertes
 
 **Gegenereignis nutzen** · 1 Zeile · fhr 1 · Jahre 2024
 fhr/fhr-typen.csv (geprüft): Eine Wahrscheinlichkeit als 1 minus der Wahrscheinlichkeit des Gegenereignisses berechnen.
+
+**Gleich wahrscheinliche Ergebnisse eines zweistufigen Experiments über die Pfadwahrscheinlichkeiten ermitteln** · 1 Zeile · abi 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Für ein aus zwei unabhängigen Stufen zusammengesetztes Experiment (etwa Würfel und Glücksrad) alle Ergebnisse mit ihren Pfadwahrscheinlichkeiten aufstellen und diejenigen mit gleicher Wahrscheinlichkeit angeben.
 
 **Laplace-Bedingung begründen** · 1 Zeile · fhr 1 · Jahre 2019
 fhr/fhr-typen.csv (geprüft): Anhand der Versuchsbedingungen begründen, dass alle Ergebnisse gleich wahrscheinlich sind und damit ein Laplace-Experiment vorliegt.
@@ -295,9 +301,6 @@ abitur/abitur-typen.csv (neu): Die kleinste Anzahl zu ziehender Elemente bestimm
 **Ziehen ohne Zurücklegen: Mögliche Anzahlen nach dem Umlegen zweier Kugeln angeben** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Alle möglichen Anzahlen einer Farbe in einer Urne angeben, nachdem eine Kugel in eine andere Urne und eine von dort zurückgelegt wurde (Fälle nach den Farben der umgelegten Kugeln).
 
-**Ziehen ohne Zurücklegen: Wahrscheinlichkeit für ausschließlich eine Sorte beim mehrfachen Ziehen als Produkt berechnen** · 1 Zeile · abi 1 · Jahre 2023
-abitur/abitur-typen.csv (neu): Beim mehrfachen Ziehen ohne Zurücklegen die Wahrscheinlichkeit dafür berechnen, dass alle gezogenen Objekte zu einer Sorte gehören, als Produkt fallender Brüche oder als Quotient von Binomialkoeffizienten (Lotto-Modell).
-
 **Ziehen ohne Zurücklegen: Wahrscheinlichkeit für eine Mehrheit einer Sorte beim dreimaligen Ziehen ohne Zurücklegen berechnen** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Beim dreimaligen Ziehen ohne Zurücklegen die Wahrscheinlichkeit dafür berechnen, dass eine Sorte in der Mehrheit ist (genau zwei oder drei), über Pfade mit Reihenfolgen oder Binomialkoeffizienten.
 
@@ -310,7 +313,7 @@ abitur/abitur-typen.csv (neu): Beim mehrfachen Ziehen ohne Zurücklegen die Wahr
 **Ziehen ohne Zurücklegen: Wahrscheinlichkeit für spätestens den dritten Zug über das Gegenereignis berechnen** · 1 Zeile · iqb 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätestens beim dritten Zug ohne Zurücklegen auftritt, über das Gegenereignis (drei Züge ohne das Merkmal) berechnen.
 
-**Nebentypen:** Wahrscheinlichkeit über mehrere Pfade summieren (10) · Gegenereignis nutzen (9) · Pfadregel mehrstufig ohne Zurücklegen anwenden (9) · Pfadregel zweistufig anwenden (4) · Baumdiagramm zu einer zweistufigen Situation erstellen (3) · Gegenereignis in Worten formulieren (3) · Laplace-Bedingung begründen (3) · Pfadregel mehrstufig mit Zurücklegen anwenden (3) · Anzahl aus relativer Häufigkeit hochrechnen (1) · Baumdiagramm mehrstufig ohne Zurücklegen darstellen (1) · Beispiele für Laplace-Experimente nennen (1) · Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln (1) · Laplace-Wahrscheinlichkeit berechnen (1) · Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben (1) · Vertauschung der Reihenfolge bei unabhängigen Stufen begründen (1) · Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen (1) · Überschuss aus Einsatz und durchschnittlicher Auszahlung berechnen (1)
+**Nebentypen:** Wahrscheinlichkeit über mehrere Pfade summieren (10) · Gegenereignis nutzen (9) · Pfadregel mehrstufig ohne Zurücklegen anwenden (9) · Pfadregel zweistufig anwenden (4) · Baumdiagramm zu einer zweistufigen Situation erstellen (3) · Gegenereignis in Worten formulieren (3) · Laplace-Bedingung begründen (3) · Pfadregel mehrstufig mit Zurücklegen anwenden (3) · Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln (2) · Anzahl aus relativer Häufigkeit hochrechnen (1) · Baumdiagramm mehrstufig ohne Zurücklegen darstellen (1) · Beispiele für Laplace-Experimente nennen (1) · Laplace-Wahrscheinlichkeit berechnen (1) · Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben (1) · Vertauschung der Reihenfolge bei unabhängigen Stufen begründen (1) · Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen (1) · Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen (1) · Überschuss aus Einsatz und durchschnittlicher Auszahlung berechnen (1)
 
 ## B Zeilenliste
 
@@ -370,6 +373,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2026-bb-ea-B4d | 3 | ja | Rechnung · Berechnen Sie | Baumdiagramm mit a; 30 % nicht weiblich → a | Pfadsumme gleich 0,3
 2026-bb-gk-B4e | 3 | ja | Rechnung · Berechnen Sie | Baumdiagramm wie in a; Anteil der nicht weiblichen Personen im Kundenkreis 30 % → Anteil a | Summe der Pfade zu „nicht weiblich“ gleich 0,3 setzen
 2020-be-gk-A1.5b | 3 | nein | Rechnung · Weisen Sie nach | Behälter wieder mit drei blauen und zwei roten Kugeln; zwei Spielerinnen ziehen abwechselnd ohne Zurücklegen; wer zuerst rot zieht, gewinnt → Nachweis, dass die zuerst ziehende Spielerin im Vorteil ist | Gewinnwahrscheinlichkeit der ersten Spielerin über die Pfade 1. Zug rot und 3. Zug rot
+2017-be-gk-B3.2b | 3 | ja | Rechnung¦Kurzantwort · Ermitteln Sie | Ein Würfel W, durch Neubeschriftung aus einem Laplace-Würfel entstanden, trägt viermal die 2 und zweimal die 1. Glücksrad G1 hat zehn gleich große Sektoren: 4 rot, 4 blau, 2 weiß; Glücksrad G2 hat vier gleich große Sektoren: 2 rot, 1 blau, 1 schwarz. Ein gedrehtes Rad bleibt zufällig auf einem Sektor stehen, nie auf einer Grenze. Tom wirft den Würfel W und Lisa dreht gleichzeitig das Glücksrad G2. Von den jetzt möglichen sechs Ergebnissen haben drei die gleiche Wahrscheinlichkeit. → die drei Ergebnisse mit gleicher Wahrscheinlichkeit | Alle sechs Paare (Augenzahl; Farbe) aufstellen und ihre Wahrscheinlichkeiten als Produkte berechnen: P(1) = 1/3, P(2) = 2/3 mit P(rot) = 1/2, P(blau) = P(schwarz) = 1/4; die drei gleichen Werte heraussuchen.
 2019-be-gk-A1.4a | 1 | nein | Kurzantwort · Geben Sie an | Chor aus 12 Frauen und 9 Männern, eine Frau leitet; die Leiterin nimmt teil, das zweite Mitglied wird zufällig aus den übrigen gewählt → Wahrscheinlichkeit, dass das zweite Mitglied eine Frau ist | Anteil der Frauen unter den 20 übrigen
 2018-bb-ea-A1.3a | 3 | nein | Rechnung · Ermitteln Sie | Ein Landwirt plant für sein Hoffest ein Glücksrad aus blauen, gelben und roten Sektoren von je 6°. Ein Dreh kostet einen Euro. Gelb bringt einen Gutschein für eine Packung Bio-Eier, blau als Hauptgewinn einen Ökokorb, bei rot geht man leer aus. Eine Packung Bio-Eier kostet den Landwirt 1,50 €, ein Ökokorb 15 €. Die Wahrscheinlichkeit für den Hauptgewinn soll 5 % betragen, die Chance auf einen Gutschein ein Drittel.  → Anzahl der blauen, der gelben und der roten Sektoren | Aus 360° geteilt durch 6° folgen 60 gleich große Sektoren; das Rad ist damit ein Laplace-Experiment und jede Wahrscheinlichkeit ist der Anteil an diesen 60. Blau: 5 % von 60; gelb: ein Drittel von 60; rot als Rest zu 60.
 2019-be-gk-A1.4b | 1 | nein | Begründung · Begründen Sie | die Leiterin kann nicht teilnehmen; zwei der anderen 20 Mitglieder (11 Frauen, 9 Männer) werden zufällig ausgewählt → Begründung ohne Rechnung, dass P(zwei Frauen) > P(zwei Männer) | Anzahl der Frauen mit der der Männer vergleichen
@@ -378,10 +382,12 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2021-be-gk-A1.6a | 2 | nein | Begründung · Begründen Sie | Ein roter und ein blauer Laplace-Würfel (1 bis 6) werden gleichzeitig geworfen; Aussage P(blau > rot) = 15/36 → Begründung, dass die Aussage wahr ist | Günstige Paare abzählen (bei rot = 1 fünf, rot = 2 vier, …)
 2020-be-gk-B4.1e | 3 | ja | Rechnung · Zeigen Sie | Zwei Würfel mit gleich wahrscheinlichen Seiten: 5er-Würfel mit den Seiten 5, 6, 1, 2, 5, 4 (P(5) = 1/3, P(4) = P(6) = P(1) = P(2) = 1/6), 6er-Würfel mit den Seiten 6, 1, 2, 4, 6, 5 (P(6) = 1/3, P(5) = P(4) = P(1) = P(2) = 1/6); Luisa würfelt dreimal mit dem 5er-Würfel und braucht genau die Augensumme 15 → Nachweis, dass P(Augensumme 15) = 5/54 | Mögliche Tripel (4, 5, 6 in sechs Reihenfolgen; 5, 5, 5) mit ihren Pfadwahrscheinlichkeiten addieren
 2017-bb-ea-B4.2a | 8 | ja | Rechnung · Berechnen Sie | In der deutschen Bevölkerung ab 14 Jahre sehen 96 % mindestens einmal pro Woche fern, 72,6 % lesen gern und 60,3 % arbeiten gern am Computer. Ereignis A: Zufällig ausgewählte Personen werden nacheinander befragt, erst die fünfte antwortet, dass sie gern am Computer arbeitet. Ereignis B: Von acht zufällig ausgewählten Personen arbeiten nur die dritte und die fünfte gern am Computer. Ereignis C: Unter 20 zufällig ausgewählten Personen befinden sich mehr als 18, die mindestens einmal pro Woche fernsehen. → Wahrscheinlichkeiten der Ereignisse A, B und C | A als Kette von vier Nichttreffern und einem Treffer: 0,397⁴ · 0,603. B mit festgelegten Positionen über die Pfadregel ohne Binomialkoeffizient: 0,603² · 0,397⁶. C als Binomialverteilung mit n = 20 und p = 0,96 über P(X = 19) + P(X = 20).
+2017-bb-ea-cas-B4.2a | 8 | ja | Rechnung · Berechnen Sie | In der deutschen Bevölkerung ab 14 Jahre sehen 96 % mindestens einmal pro Woche fern, 72,6 % lesen gern und 60,3 % arbeiten gern am Computer. Ereignis A: Zufällig ausgewählte Personen werden nacheinander befragt, erst die fünfte antwortet, dass sie gern am Computer arbeitet. Ereignis B: Von acht zufällig ausgewählten Personen arbeiten nur die dritte und die fünfte gern am Computer. Ereignis C: Unter 100 zufällig ausgewählten Personen befinden sich mehr als 78 und weniger als 92, die mindestens einmal pro Woche fernsehen. → Wahrscheinlichkeiten der Ereignisse A, B und C | A als Kette von vier Nichttreffern und einem Treffer: 0,397⁴ · 0,603. B mit festgelegten Positionen über die Pfadregel ohne Binomialkoeffizient: 0,603² · 0,397⁶. C als Binomialverteilung mit n = 100 und p = 0,96 über P(79 ≤ X ≤ 91) = P(X ≤ 91) − P(X ≤ 78), mit dem CAS.
 2021-be-gk-B4g | 2 | ja | Rechnung · Bestimmen Sie | Bonuspunkte beim täglichen Start: 10 mit 50 %, 20 mit 40 %, 50 mit 10 %; ein Spieler startet an drei aufeinanderfolgenden Tagen → Wahrscheinlichkeit, von Tag zu Tag weniger Bonuspunkte zu erhalten | Einzige passende Folge 50 – 20 – 10 als Pfadprodukt
 2022-bebb-lk-B4i | 2 | ja | Rechnung · Ermitteln Sie | Glücksrad mit Sonne (S, p = 0,7) und Mond (M, 0,3), siebenmal gedreht, Anordnung aus sieben Symbolen → P(Anordnung endet mit SSS) | Produkt der drei Einzelwahrscheinlichkeiten
 2024-bebb-gk-A1.6a | 2 | nein | Rechnung · Zeigen Sie | jedes Kind erhält einen blickdicht verpackten Ball, Wahrscheinlichkeit für Glitzerfärbung 40 %; Gruppe von drei Kindern → Nachweis, dass die Wahrscheinlichkeit, dass jedes der drei Kinder einen Glitzerball erhält, kleiner als 10 % ist | 0,4³ berechnen
 2025-bebb-lk-A1.4a | 2 | nein | Begründung · Begründen Sie | Spiel: ein Würfel mit den Zahlen 1 bis 6 wird zweimal geworfen → Begründung, dass die Wahrscheinlichkeit für keine 3 bei beiden Würfen 25/36 beträgt | Wahrscheinlichkeit 5/6 für keine 3 bei einem Wurf, Pfadregel für beide Würfe
+2017-be-gk-B3.2a | 5 | ja | Rechnung · Bestimmen Sie | Ein Würfel W, durch Neubeschriftung aus einem Laplace-Würfel entstanden, trägt viermal die 2 und zweimal die 1. Glücksrad G1 hat zehn gleich große Sektoren: 4 rot, 4 blau, 2 weiß; Glücksrad G2 hat vier gleich große Sektoren: 2 rot, 1 blau, 1 schwarz. Ein gedrehtes Rad bleibt zufällig auf einem Sektor stehen, nie auf einer Grenze. Tom würfelt mit W, anschließend dreht Lisa das Glücksrad, das der Würfel anzeigt (bei 1 G1, bei 2 G2). A1: W zeigt 2 und G2 zeigt anschließend Rot. A2: Das gedrehte Glücksrad zeigt Weiß oder Rot. → Wahrscheinlichkeiten der Ereignisse A1 und A2 | P(1) = 1/3, P(2) = 2/3; P(Rot ¦ G2) = 1/2, P(Weiß oder Rot ¦ G1) = 6/10, P(Weiß oder Rot ¦ G2) = 1/2. A1 als Pfadprodukt, A2 als Summe der beiden Pfade über G1 und G2.
 2019-be-gk-B4.2a | 2 | ja | Rechnung · Bestimmen Sie | Sven und Tom würfeln täglich mit einem fairen Würfel: zuerst Sven, dann Tom; ist Svens Augenzahl kleiner als Toms, bringt Sven den Müll hinunter, sonst Tom → Wahrscheinlichkeit, dass Sven eine 4 gewürfelt hat und den Müll hinunterbringen muss | P(4) · P(Tom 5 oder 6)
 2023-bebb-lk-B4b | 2 | ja | Kurzantwort · Interpretieren Sie | W: Person weiblich, Z: Person war zufrieden; Term P(W) + P(Z) − 2 · P(W ∩ Z) → Deutung des Terms im Sachzusammenhang | Term als P(W ∪ Z) − P(W ∩ Z) lesen
 2025-bebb-lk-A1.9b | 3 | nein | Rechnung · Ermitteln Sie | Würfel mit den Zahlen 1 bis 6 wird n-mal geworfen, n > 2; Ereignis: das Produkt der n Zahlen ist 2, 3 oder 5 → Term für die Wahrscheinlichkeit dieses Ereignisses | das Produkt ist genau dann 2, 3 oder 5, wenn genau ein Wurf diese Zahl zeigt und alle anderen Würfe 1 zeigen; drei Zahlen, n mögliche Positionen, Pfadwahrscheinlichkeit (1/6)^n
@@ -398,6 +404,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2026-bb-gk-B4a | 2 | ja | Kurzantwort · Geben Sie an¦Beschreiben Sie | 75 % des Kundenkreises sammeln Treuepunkte; X Anzahl der Sammler unter 10 zufällig Ausgewählten, binomialverteilt; Term P(X = a) = (b über 3) · c³ · 0,25⁷ → Werte a, b, c und Beschreibung des Ereignisses | Platzhalter aus n, p und k lesen
 2022-bebb-lk-B4j | 2 | ja | Kurzantwort · Interpretieren Sie | Glücksrad mit Sonne (S, p = 0,7) und Mond (M, 0,3), siebenmal gedreht, Anordnung aus sieben Symbolen; Term 0,7³ · C(4; 2) · 0,7² · 0,3² → Deutung des Terms im Sachzusammenhang | Faktoren den Abschnitten der Anordnung zuordnen
 2024-bebb-gk-B4.1a | 2 | ja | Kurzantwort · Interpretieren Sie | T Treuekunde (60 %), M Morgenkunde (20 %); P(¬T ∩ M) = 0,05 → Bedeutung der Gleichung im Sachzusammenhang | Schnitt von Gegenereignis und Ereignis benennen
+2017-be-gk-B3.1c | 2 | ja | Rechnung · Weisen Sie nach | Ein Hersteller bringt ein neues Smartphone auf den Markt. Die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 %. → Nachweis, dass der Anteil der fehlerhaften Geräte unter allen hergestellten Geräten 3 % beträgt | Summe der Produkte aus Werksanteil und Fehleranteil bilden (totale Wahrscheinlichkeit).
 2021-be-gk-A1.7a | 2 | nein | Rechnung · Zeigen Sie | Urne mit 6 weißen und 4 schwarzen Kugeln; 10 Bewerber ziehen nacheinander ohne Zurücklegen, wer weiß zieht, ist ausgewählt → Nachweis, dass der zweite Bewerber mit 60 % ausgewählt wird | Beide Pfade zur zweiten weißen Ziehung addieren
 2025-bebb-gk-B4b | 2 | ja | Rechnung · Zeigen Sie | Baumdiagramm aus a → Nachweis, dass etwa 9,18 % aller Haushalte überbelegt sind | beide Pfade zu B addieren
 2025-bebb-lk-B4d | 3 | ja | Begründung · Beurteilen Sie | Baumdiagramm aus a; nicht genutzte Fahrkarte; Aussage: P(Vortag ¦ nicht genutzt) ist achtmal so groß wie P(am Tag ¦ nicht genutzt) → Beurteilung | beide bedingten Wahrscheinlichkeiten als Brüche mit gleichem Nenner
@@ -421,6 +428,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2019-be-gk-A1.4c | 3 | nein | Kurzantwort · Geben Sie an | Chor aus 12 Frauen und 9 Männern, die Leiterin (eine Frau) kann nicht teilnehmen; zwei der anderen 20 Mitglieder (11 Frauen, 9 Männer) werden zufällig ausgewählt → Term für die Wahrscheinlichkeit, dass eine Frau und ein Mann ausgewählt werden | Zwei Pfade (Frau–Mann, Mann–Frau) mit Pfadregel oder günstige durch mögliche Auswahlen mit Binomialkoeffizienten
 2020-be-gk-A1.5a | 2 | nein | Rechnung · Berechnen Sie | Behälter mit drei blauen und zwei roten Kugeln; zwei Kugeln werden entnommen → Wahrscheinlichkeit für zwei verschiedene Farben | zwei Pfade addieren
 2025-bebb-gk-A1.6a | 2 | nein | Rechnung · Berechnen Sie | Schwimmgruppe mit 20 Kindern, 9 haben das Schwimmabzeichen Bronze; zwei Kinder werden zufällig ausgewählt → Wahrscheinlichkeit, dass beide das Abzeichen Bronze haben | Pfadregel ohne Zurücklegen: 9/20 · 8/19
+2017-be-gk-B3.1b | 3 | ja | Rechnung · Berechnen Sie | Eine Lieferung neuer Smartphones umfasst 50 Geräte, davon sind drei fehlerhaft. Aus der Lieferung werden zehn Geräte zufällig ausgewählt. A: Von den zehn ausgewählten Geräten ist keines fehlerhaft. B: Von den zehn ausgewählten Geräten ist mindestens eines fehlerhaft. → Wahrscheinlichkeiten der Ereignisse A und B | P(A) als Quotient (47 über 10)/(50 über 10) (alle zehn aus den 47 fehlerfreien, ohne Zurücklegen) oder als Produkt 47/50 · 46/49 · … · 38/41; P(B) = 1 − P(A).
 2023-bebb-gk-B4.1g | 1 | ja | Rechnung · Ermitteln Sie | An einer Fortbildung nehmen 20 Lehrkräfte eines Gymnasiums teil, davon 12 weiblich; für eine Präsentation werden 6 Lehrkräfte zufällig ausgewählt. → Wahrscheinlichkeit, dass alle ausgewählten Lehrkräfte weiblich sind | Sechs Züge ohne Zurücklegen, jeweils weiblich: Produkt 12/20 · 11/19 · … · 7/15; gleichwertig C(12; 6)/C(20; 6).
 2023-bebb-gk-A1.6b | 3 | nein | Rechnung · Ermitteln Sie | Urne mit 3 roten und 2 weißen Kugeln; drei Kugeln werden nacheinander ohne Zurücklegen gezogen. → Wahrscheinlichkeit, dass unter den gezogenen Kugeln mehr rote als weiße sind | Genau zwei rote (drei Reihenfolgen mit 3/5 · 2/4 · 2/3 = 1/5 je Pfad) plus drei rote (3/5 · 2/4 · 1/3 = 1/10); alternativ (C(3; 2) · C(2; 1) + C(3; 3)) / C(5; 3) = 7/10.
 2024-bebb-lk-A1.4a | 2 | nein | Rechnung · Berechnen Sie | Urne mit 3 grünen und 3 roten, sonst nicht unterscheidbaren Kugeln; vier Kugeln werden nacheinander ohne Zurücklegen gezogen → P(genau drei Kugeln gleicher Farbe folgen aufeinander) | die vier günstigen Farbfolgen aufzählen, Pfadwahrscheinlichkeit je Folge, Summe
@@ -438,6 +446,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2022MgrundlegendAStochastik12-b | 3 | nein | Rechnung · Berechnen Sie | P(A) = 60 %, P(B) = 30 %, P(A ∩ B) = 20 % → Anteil der Kunden, die entweder in A oder in B gerne reisen | Anteile addieren, Schnitt zweimal abziehen
 2024MgrundlegendBStochastikWTR1-1c | 2 | ja | Rechnung · Ermitteln Sie | Vierfeldertafel aus b → P(entweder Treuekunde oder Morgenkunde) | zwei Felder addieren
 2022MgrundlegendBStochastikWTR1-1g | 3 | ja | Rechnung¦Begründung · Untersuchen Sie | P(S) = 5 %; unter Ziel A (10 %) 8 % schwer, unter Ziel B (7 %) 2 % schwer → ob der Anteil schwerer Pakete unter denen mit anderem Ziel kleiner, gleich oder größer als 5 % ist | Gleichung der totalen Wahrscheinlichkeit nach x auflösen
+2017MgrundlegendBStochastikWTR2-1e | 2 | ja | Rechnung · Berechnen Sie | 20 % aller Pkw eines Herstellers sind Dieselfahrzeuge; 80 % der Dieselfahrzeuge und 90 % der übrigen Pkw des Herstellers haben eine Leistung von mehr als 60 kW → Wahrscheinlichkeit dafür, dass die Leistung eines zufällig ausgewählten Pkw des Herstellers größer als 60 kW ist | Beide Pfade zu L addieren
 2020MgrundlegendBStochastikWTR2-2a | 2 | ja | Rechnung · Berechnen Sie | Große Firma versendet einen Teil ihrer Briefe mit Q (95 % am ersten Werktag zugestellt), den anderen Teil mit einem anderen Unternehmen; Baumdiagramm (Abb. 1): Q mit 0,6, dann E (zugestellt) 0,95 und Ē 0,05; nicht Q mit 0,4, dann E und Ē mit a; ein Brief wird zufällig ausgewählt; a = 0,25 → Wahrscheinlichkeit, dass der ausgewählte Brief nicht am ersten Werktag zugestellt wird | Beide Pfade zu Ē multiplizieren und addieren
 2022MgrundlegendBStochastikWTR2-1b | 2 | ja | Rechnung · Ermitteln Sie | Krankheit durch Bakterien: ein Drittel aller Menschen infiziert sich im Laufe des Lebens, bei 8 % der Infizierten bricht die Krankheit aus → Anteil der Menschen, bei denen die Krankheit nicht ausbricht | Beide Pfade zu ¬K addieren
 2023MerhoehtBStochastikWTR2-1b | 2 | ja | Rechnung · Weisen Sie nach | a = 0,7 → Nachweis, dass weniger weibliche als nicht weibliche Personen zufrieden waren | Beide Schnittanteile berechnen und vergleichen
@@ -446,6 +455,8 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2023MerhoehtAStochastik12-a | 2 | nein | Zeichnen · Stellen Sie dar | Glücksrad mit Sektoren 2 und 3, P(2) = p; gedreht wird, bis die Summe 5, 6 oder 7 ist; bei 6 Gewinn → beschriftetes Baumdiagramm des Sachverhalts | alle Pfade bis zum Erreichen einer Summe von mindestens 5 aufzeichnen
 2022MerhoehtBStochastikWTR1-1a | 3 | ja | Zeichnen · Stellen Sie dar | 59 % mit Datenschutzbedenken; davon 23 % mit Fitnessarmband; 19 % aller Kunden ohne Bedenken und mit Armband → beschriftetes Baumdiagramm | Anteil im Ast ¬D → F aus 0,41 · x = 0,19
 2024MgrundlegendBStochastikWTR1-2a | 3 | ja | Zeichnen · Stellen Sie dar | Glücksrad mit Sektoren 5 und 2, zweimal gedreht; P(beide 5) = 1/36, P(kleinster Rabatt) = 25/36 → beschriftetes Baumdiagramm | p aus p² = 1/36, Diagramm
+2017MgrundlegendAStochastik12-a | 3 | nein | Zeichnen · Stellen Sie dar | Münze und zwei Würfel: Würfel A mit 1, 2, 3, 4, 5, 6, Würfel B mit 1, 1, 2, 2, 3, 3; zuerst wird die Münze geworfen, bei „Kopf“ wird Würfel A, bei „Zahl“ Würfel B einmal geworfen und die Zahl notiert → beschriftetes Baumdiagramm des Zufallsexperiments | Erste Stufe Münze mit 1/2 und 1/2; nach Kopf sechs Äste mit 1/6, nach Zahl drei Äste mit 1/3 (je zwei gleiche Seiten zusammengefasst)
+2017MgrundlegendBStochastikWTR2-1d | 2 | ja | Zeichnen · Stellen Sie dar | 20 % aller Pkw eines Herstellers sind Dieselfahrzeuge; 80 % der Dieselfahrzeuge und 90 % der übrigen Pkw des Herstellers haben eine Leistung von mehr als 60 kW → beschriftetes Baumdiagramm zum Sachverhalt | Erste Stufe D/nicht D, zweite Stufe L/nicht L mit den bedingten Anteilen
 2018MgrundlegendBStochastikWTR3-1a | 3 | ja | Zeichnen · Stellen Sie dar | Hundefutter: 2/3 der Kunden kaufen Trockenfutter (T), davon 40 % die Light-Variante (L); von den Nassfutterkäufern wählen 25 % Light; eine Person wird zufällig ausgewählt → beschriftetes Baumdiagramm | Zwei Stufen T/¬T und L/¬L mit den Anteilen
 2022MgrundlegendBStochastikWTR2-1a | 3 | ja | Zeichnen · Stellen Sie dar | Krankheit durch Bakterien: ein Drittel aller Menschen infiziert sich im Laufe des Lebens, bei 8 % der Infizierten bricht die Krankheit aus → beschriftetes Baumdiagramm | Zwei Stufen I/¬I und K/¬K mit den Anteilen
 2024MerhoehtBStochastikWTR1-1a | 3 | ja | Zeichnen · Stellen Sie dar | 70 % höchstens 40 Jahre, davon 80 % Komplettpaket; von den Älteren 50 % Komplettpaket → beschriftetes Baumdiagramm | erste Stufe Alter, zweite Stufe Paket
@@ -523,6 +534,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2024MgrundlegendBStochastikWTR1-1a | 2 | ja | Kurzantwort · Interpretieren Sie | T Treuekunde (60 %), M Morgenkunde (20 %); P(nicht T ∩ M) = 0,05 → Bedeutung der Gleichung | Ereignis in Worte übersetzen
 2023MgrundlegendBStochastikWTR2-1e | 2 | ja | Begründung · Begründen Sie | Zwei Personen würfeln abwechselnd, bis eine Person eine andere Zahl erzielt als die andere beim unmittelbar vorhergehenden Wurf; die größere Zahl gewinnt; Term 1 − (1/3)³ − (2/3)³ → Begründung, dass der Term die Wahrscheinlichkeit für eine Entscheidung spätestens im dritten Wurf angibt | Nicht entschieden nach drei Würfen heißt dreimal dieselbe Zahl; Gegenereignis
 2019MgrundlegendBStochastikWTR3-2a | 2 | ja | Kurzantwort · Beschreiben Sie¦Geben Sie an | Urne mit fünf Kugeln: drei mit der Zahl 4, zwei mit der natürlichen Zahl x ≠ 4; Term 1 − 0,6³ → ein Zufallsexperiment und ein Ereignis mit dieser Wahrscheinlichkeit | 0,6³ als dreimal 4 mit Zurücklegen, 1 − … als Gegenereignis
+2017MgrundlegendBStochastikWTR1-2a | 2 | ja | Rechnung · Weisen Sie nach | Ein Hersteller bringt ein neues Smartphone auf den Markt; die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 % → Nachweis, dass der Anteil der fehlerhaften Geräte unter allen hergestellten Geräten 3 % beträgt | Summe der Produkte aus Werksanteil und Fehleranteil (totale Wahrscheinlichkeit)
 2018MgrundlegendBStochastikWTR3-1b | 2 | ja | Rechnung · Weisen Sie nach | Hundefutter: 2/3 der Kunden kaufen Trockenfutter (T), davon 40 % die Light-Variante (L); von den Nassfutterkäufern wählen 25 % Light; eine Person wird zufällig ausgewählt → Nachweis, dass P(L) = 35 % | Beide Pfade zu L addieren
 2025MgrundlegendBStochastikWTR1-1b | 2 | ja | Rechnung · Zeigen Sie | Baumdiagramm aus a → Nachweis, dass etwa 9,18 % aller Haushalte überbelegt sind | beide Pfade zu B addieren
 2025MerhoehtBStochastikWTR2-2b | 3 | ja | Begründung · Beurteilen Sie | Baumdiagramm aus a; nicht genutzte Fahrkarte; Aussage: P(Vortag ¦ nicht genutzt) ist achtmal so groß wie P(am Tag ¦ nicht genutzt) → Beurteilung | beide bedingten Wahrscheinlichkeiten als Brüche mit gleichem Nenner
@@ -540,6 +552,8 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2023MgrundlegendBStochastikWTR2-1f | 3 | ja | Rechnung · Berechnen Sie | Spielregel wie in e; eine Person beginnt → Wahrscheinlichkeit, dass der Anfänger verliert und höchstens viermal geworfen wird | Alle Wurffolgen bis Länge 4 aufzählen, bei denen der erste Wechsel gegen den Anfänger ausgeht, Pfadwahrscheinlichkeiten addieren
 2026MerhoehtAStochastik21-a | 3 | nein | Rechnung · Ermitteln Sie | Würfel A mit den Zahlen 3, 3, 3, 5, 5, 5 und Würfel B mit 4, 4, 4, 4, 1, 1 (aus den abgebildeten Netzen); pro Runde wird jeder Würfel einmal geworfen; es werden zwei Runden gespielt → Wahrscheinlichkeit, dass in beiden Runden mit A eine größere Zahl erzielt wird als mit B | in einer Runde ist A größer bei A = 5 (Wahrscheinlichkeit 1/2) oder bei A = 3 und B = 1 (1/2 · 1/3), zusammen 2/3; für zwei Runden quadrieren
 2022MerhoehtAStochastik12-a | 1 | nein | Rechnung · Bestimmen Sie | Spielfeld A–E × 1–5, Start (A¦1); Würfel mit 2 Seiten „rechts“, 3 Seiten „oben“, 1 Seite „rechts oben“ → Wahrscheinlichkeit, dass die Figur im Laufe eines Spiels (A¦4) erreicht | nur der Pfad oben, oben, oben führt dorthin
+2017MgrundlegendAStochastik12-b | 2 | nein | Rechnung · Berechnen Sie | Münze und zwei Würfel: Würfel A mit 1, 2, 3, 4, 5, 6, Würfel B mit 1, 1, 2, 2, 3, 3; zuerst wird die Münze geworfen, bei „Kopf“ wird Würfel A, bei „Zahl“ Würfel B einmal geworfen und die Zahl notiert; Baumdiagramm aus a → Wahrscheinlichkeit, dass die gewürfelte Zahl gerade ist | Je Würfel den Anteil gerader Zahlen bestimmen, mit 1/2 gewichten und addieren
+2017MgrundlegendAStochastik2-a | 2 | nein | Kurzantwort · Geben Sie an | Urne U1 mit vier roten und zwei gelben Kugeln, Urne U2 mit zwei roten, einer gelben und einer blauen Kugel; eine der Urnen wird zufällig ausgewählt, daraus wird zweimal nacheinander eine Kugel mit Zurücklegen gezogen → Term für die Wahrscheinlichkeit, dass beide gezogenen Kugeln rot sind | Je Urne die Wahrscheinlichkeit für zweimal Rot als Quadrat bilden, mit 1/2 gewichten und addieren
 2023MerhoehtAStochastik22-b | 3 | nein | Rechnung · Ermitteln Sie | Behälter mit drei zufällig gefärbten Kugeln (schwarz mit 2/3 je Kugel); zwei der drei Kugeln werden zufällig entnommen → Wahrscheinlichkeit, dass beide entnommenen Kugeln schwarz sind | über die Zusammensetzung aufsummieren: bei zwei schwarzen 2/3 · 1/2, bei drei schwarzen 1
 2024MgrundlegendBStochastikWTR1-2b | 3 | ja | Rechnung · Berechnen Sie | sieben Personen nacheinander; P(kleinster Rabatt) = 25/36 → P(genau viermal kleinster Rabatt, und zwar bei vier Personen unmittelbar hintereinander) | Block von vier Treffern an 4 Positionen, Pfad mal Anzahl
 2023MerhoehtBStochastikWTR1-3a | 2 | ja | Rechnung · Bestimmen Sie | Spiel: beliebig oft drehen, Auszahlung Summe der Zahlen in Euro, bei „0“ Ende ohne Auszahlung; erster Spieler dreht viermal, sofern keine „0“ → Wahrscheinlichkeit für eine Auszahlung | Viermal keine „0“
@@ -555,5 +569,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2020MgrundlegendAStochastik11-a | 2 | nein | Rechnung · Berechnen Sie | Behälter mit drei blauen und zwei roten Kugeln; zwei Kugeln werden entnommen → Wahrscheinlichkeit für zwei verschiedene Farben | zwei Pfade addieren
 2022MgrundlegendAStochastik13-a | 2 | nein | Rechnung · Bestimmen Sie | drei rote und drei gelbe Kugeln werden zufällig auf drei Kisten zu je zwei Kugeln verteilt → Wahrscheinlichkeit, dass in die erste Kiste eine rote und eine gelbe Kugel kommen | Pfadregel für zwei Züge ohne Zurücklegen, beide Reihenfolgen
 2025MgrundlegendAStochastik13-a | 2 | nein | Rechnung · Berechnen Sie | Schwimmgruppe mit 20 Kindern, 9 haben das Schwimmabzeichen Bronze; zwei Kinder werden zufällig ausgewählt → Wahrscheinlichkeit, dass beide das Abzeichen Bronze haben | Pfadregel ohne Zurücklegen: 9/20 · 8/19
+2017MgrundlegendBStochastikWTR1-1b | 3 | ja | Rechnung · Berechnen Sie | Ein Hersteller bringt ein neues Smartphone auf den Markt; ein Händler erhält eine Lieferung dieser Smartphones; die Lieferung umfasst 50 Geräte, davon sind drei fehlerhaft; zehn Geräte werden zufällig ausgewählt; A: von den zehn ausgewählten Geräten ist keines fehlerhaft; B: von den zehn ausgewählten Geräten ist mindestens eines fehlerhaft → Wahrscheinlichkeiten der Ereignisse A und B | P(A) als Quotient (47 über 10)/(50 über 10) (alle zehn aus den 47 fehlerfreien, ohne Zurücklegen), P(B) = 1 − P(A)
+2017MgrundlegendBStochastikWTR2-1b | 3 | ja | Rechnung · Bestimmen Sie | 20 % aller Pkw eines bestimmten Herstellers sind Dieselfahrzeuge; die Anzahl der Dieselfahrzeuge in einer Stichprobe gilt modellhaft als binomialverteilt; 25 Pkw des Herstellers werden zufällig ausgewählt, davon sind drei rot; von den ausgewählten Pkw sind genau fünf Dieselfahrzeuge → Wahrscheinlichkeit dafür, dass die drei roten Pkw Dieselfahrzeuge sind | Die fünf Diesel sind zufällig auf die 25 Pkw verteilt; für die drei roten nacheinander ohne Zurücklegen 5/25 · 4/24 · 3/23
 2018MgrundlegendBStochastikWTR1-1f | 3 | ja | Rechnung · Bestimmen Sie | Zehn Jugendliche, vier nur Smartphone, sechs nur Tablet; drei werden zufällig ausgewählt → Wahrscheinlichkeit, dass genau zwei der drei nur Smartphones nutzen | Pfad SST mit 4/10 · 3/9 · 6/8, mal drei Reihenfolgen
 2018MgrundlegendAStochastik11-b | 3 | nein | Rechnung · Bestimmen Sie | acht Karten (vier gerade, vier ungerade), nacheinander aufgedeckt → Wahrscheinlichkeit, dass spätestens die dritte Karte eine gerade Zahl trägt | 1 minus Wahrscheinlichkeit für drei ungerade Karten

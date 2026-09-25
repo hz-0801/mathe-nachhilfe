@@ -2,13 +2,13 @@
 
 Stufe: I
 
-- msa: Lineare Funktionen (28 Zeilen)
+- msa: Lineare Funktionen (30 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Gerade aus Gleichung zeichnen** · 5 Zeilen · msa 5 · Jahre 2021–2026
+**Gerade aus Gleichung zeichnen** · 6 Zeilen · msa 6 · Jahre 2021–2026
 msa/msa-typen.csv (gültig): Graph einer linearen Funktion aus der Gleichung mit y-Achsenabschnitt und Steigungsdreieck zeichnen.
 
 **Endwert linearer Veränderung berechnen** · 2 Zeilen · msa 2 · Jahre 2021–2022
@@ -22,6 +22,9 @@ msa/msa-typen.csv (gültig): Unter mehreren gezeichneten Graphen den mit einer g
 
 **Lineare Funktion aus Sachverhalt aufstellen** · 2 Zeilen · msa 2 · Jahre 2016–2022
 msa/msa-typen.csv (gültig): Gleichung f(x) = mx + n aus einem Sachverhalt mit Anfangswert und konstanter Änderung je Einheit angeben (Tarif, Guthaben). Abgrenzung: eine Gleichung mit einer Unbekannten zum Lösen ist „Lineare Gleichung aus Sachverhalt aufstellen“.
+
+**Punktprobe durchführen** · 2 Zeilen · msa 2 · Jahre 2026
+msa/msa-typen.csv (gültig): Rechnerisch prüfen, ob ein Punkt auf dem Graphen einer Funktion liegt.
 
 **Tarife vergleichen** · 2 Zeilen · msa 2 · Jahre 2016–2023
 msa/msa-typen.csv (gültig): Gesamtkosten zweier Tarife mit Grundgebühr, Freimenge und Preis je Einheit für eine konkrete Nutzung berechnen und den günstigeren wählen.
@@ -56,9 +59,6 @@ msa/msa-typen.csv (gültig): Schnittstelle eines gezeichneten Graphen mit der x-
 **Nullstelle lineare Funktion berechnen** · 1 Zeile · msa 1 · Jahre 2021
 msa/msa-typen.csv (gültig): Nullstelle einer linearen Funktion aus der Gleichung berechnen.
 
-**Punktprobe durchführen** · 1 Zeile · msa 1 · Jahre 2026
-msa/msa-typen.csv (gültig): Rechnerisch prüfen, ob ein Punkt auf dem Graphen einer Funktion liegt.
-
 **Wertetabelle als Punkte darstellen** · 1 Zeile · msa 1 · Jahre 2021
 msa/msa-typen.csv (gültig): Wertepaare einer Tabelle in ein vorgegebenes Koordinatensystem eintragen.
 
@@ -79,6 +79,7 @@ msa/msa-typen.csv (gültig): Schnittpunkt einer Geraden mit der y-Achse aus der 
 2022-OS-K3a | 3 | ja | Zeichnen¦Kurzantwort · Zeichnen Sie¦Geben Sie an | f(x) = −2x + 3; leeres Koordinatensystem → Graph von f¦Nullstelle | durch (0¦3) mit Steigung −2; 0 = −2x + 3
 2023-OS-K4a | 5 | ja | Zeichnen¦Kurzantwort¦Ankreuzen · Zeichnen Sie¦Geben Sie an¦Entscheiden Sie¦Kreuzen Sie an | Graph der Parabel p mit Scheitel (−1¦6); Gerade f(x) = 4x − 2; drei Aussagen: Steigung von f ist negativ; Gerade und Parabel schneiden sich in zwei Punkten; f schneidet die y-Achse in (−2¦0) → Gerade f im Koordinatensystem¦Koordinaten eines Schnittpunkts¦wahr/falsch je Aussage | f durch (0¦−2) mit Steigung 4 zeichnen; Schnittpunkt am Bild ablesen; Aussagen prüfen (zweiter Schnittpunkt liegt außerhalb des Bildes bei (−7¦−30))
 2024-OS-K3a | 2 | ja | Zeichnen · Zeichnen Sie ein | f(x) = 4x + 1 → Gerade f | Achsenabschnitt 1, Steigungsdreieck 1 nach rechts, 4 nach oben
+2026-EBR-K5a | 2 | ja | Zeichnen · Zeichnen Sie ein | f(x) = −2x + 2 → Graph von f | y-Achsenabschnitt 2, Steigungsdreieck 1 nach rechts, 2 nach unten; Gerade durch (0¦2) und (1¦0)
 2026-FOR-K5a | 2 | ja | Zeichnen · Zeichnen Sie ein | f(x) = −2x + 2 → Graph von f | y-Achsenabschnitt 2, Steigungsdreieck 1 nach rechts, 2 nach unten; Gerade durch (0¦2) und (1¦0)
 2017-OS-K5a | 3 | ja | Zeichnen¦Rechnung · Zeichnen Sie¦Weisen Sie nach | K(−4¦−1), L(2¦2); Behauptung y = ½x + 1 → Gerade g im Koordinatensystem¦Nachweis der Gleichung | Achsen anlegen, Punkte eintragen, verbinden; m = (2 − (−1)) : (2 − (−4)) = 3/6 = ½, n aus L: 2 = 1 + n, n = 1 (oder Punktprobe mit K und L)
 2025-OS-K5a | 4 | ja | Zeichnen¦Ankreuzen¦Kurzantwort · Zeichnen Sie¦Entscheiden Sie¦Geben Sie an | Gerade f durch A(−2¦6) und B(3¦−1,5); zwei Aussagen zum Ankreuzen: f verläuft monoton steigend; f schneidet die y-Achse in (0¦3) → Graph von f¦wahr/falsch je Aussage¦eine Gleichung von f | A und B eintragen und verbinden; m = (−1,5 − 6) : (3 − (−2)) = −1,5; n aus A: 6 = −1,5 · (−2) + n, n = 3
@@ -94,6 +95,7 @@ msa/msa-typen.csv (gültig): Schnittpunkt einer Geraden mit der y-Achse aus der 
 2022-OS-K6b | 4 | ja | Rechnung¦Rechnung · Stellen Sie auf¦Ermitteln Sie | Maxi: Anfangsguthaben 1 472 €, monatlich 22 €; Paula: Anfangsguthaben 990 €, monatlich 55 €; y Gesamtguthaben in €, x Anzahl der Monate; Ziel 2 000 € → Gleichung für Paulas Guthaben¦Mindestzahl der Sparmonate | y = 55x + 990; 55x + 990 ≥ 2 000 → x ≥ 18,4
 2019-OS-K2a | 1 | ja | Kurzantwort · Geben Sie an | Graph von g durch (−2¦0), (0¦2), (3¦5) im Koordinatensystem → Nullstelle von g | Schnittpunkt mit der x-Achse ablesen
 2021-OS-K6d | 2 | ja | Rechnung · Ermitteln Sie | Gleichung y = −0,2x + 40 (y Höhe in cm, x Zeit in min) → Zeit, bis die Kerze vollständig abgebrannt ist | 0 = −0,2x + 40 → x = 40 : 0,2
+2026-EBR-K5b | 2 | ja | Rechnung · Untersuchen Sie rechnerisch | f(x) = −2x + 2; Punkt P(−4¦10) → ob P auf dem Graphen liegt | f(−4) = −2 · (−4) + 2 = 10 mit y-Wert vergleichen
 2026-FOR-K5b | 2 | ja | Rechnung · Untersuchen Sie rechnerisch | f(x) = −2x + 2; Punkt P(−4¦10) → ob P auf dem Graphen liegt | f(−4) = −2 · (−4) + 2 = 10 mit y-Wert vergleichen
 2016-OS-K6b | 3 | ja | Rechnung¦Begründung · Geben Sie an¦Begründen Sie | Entfernung 175 km (hin und zurück 350 km); Tagesfahrt zusätzlich 100 km (450 km) → günstigeres Unternehmen für 350 km¦ob es bei 450 km günstiger bleibt, mit Begründung | S: 200 + 1,5 · 350 = 725; R: 2 · 350 = 700 → Reiselust; 450 km: S 875, R 900 → Sonnenschein günstiger (Schnittpunkt 400 km)
 2023-OS-K3b | 5 | ja | Rechnung¦Kurzantwort¦Rechnung · Berechnen Sie¦Entscheiden Sie¦Stellen Sie auf | Angebot 1: 27 € Miete pro Tag, 350 km insgesamt frei, jeder weitere km 0,36 €; Angebot 2: einmalig 120 € für eine Woche, jeder km 0,09 €; Mietdauer Montag bis Freitag (5 Tage); 470 km → Gesamtkosten beider Angebote¦günstigeres Angebot¦Gleichung für Angebot 2 bei beliebiger km-Zahl und einer Woche | Angebot 1: 5 · 27 + (470 − 350) · 0,36; Angebot 2: 120 + 470 · 0,09; Gleichung K(x) = 0,09x + 120

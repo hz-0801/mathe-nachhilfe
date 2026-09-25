@@ -3,10 +3,10 @@
 Stufe: II
 
 - fhr: Kombinatorische Abzählverfahren (15 Zeilen)
-- abi: Kombinatorik (4 Zeilen)
-- iqb: Kombinatorik (13 Zeilen)
+- abi: Kombinatorik (5 Zeilen)
+- iqb: Kombinatorik (14 Zeilen)
 
-Stand: 2026-09-20, Commit 1887018
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -21,6 +21,9 @@ abitur/abitur-typen.csv (neu): Die Anzahl der Zeichenfolgen fester Länge mit Wi
 
 **Anzahl der Kennwörter mit fester Buchstabenfolge und zwei Zusatzzeichen berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Anzahl der Zeichenfolgen bestimmen, die eine feste Teilfolge in Reihenfolge enthalten und mit verschiedenen weiteren Zeichen aufgefüllt sind (Lagen mal Zeichenwahl).
+
+**Anzahl ungeordneter Auswahlen ohne Wiederholung über den Binomialkoeffizienten berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Anzahl der Möglichkeiten, k aus n verschiedenen Objekten ohne Beachtung der Reihenfolge und ohne Wiederholung auszuwählen, als Binomialkoeffizient (n über k) berechnen.
 
 **Auswahlen mit Abstandsbedingung aufzählen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Alle Auswahlen von Plätzen in einer Reihe aufzählen, die eine Abstandsbedingung erfüllen.
@@ -90,6 +93,7 @@ abitur/abitur-typen.csv (neu): Einen Term für die Wahrscheinlichkeit aufstellen
 2024-bebb-lk-B4g | 2 | ja | Rechnung · Zeigen Sie | 80 Zeichen (26 Groß-, 26 Kleinbuchstaben, 10 Ziffern, 18 Sonderzeichen); Kennwörter aus genau acht Zeichen, Wiederholung erlaubt → Nachweis, dass Kennwörter nur aus Kleinbuchstaben weniger als ein Tausendstel ausmachen | Potenzen bilden, Quotient
 2024-bebb-lk-B4h | 3 | ja | Rechnung · Bestimmen Sie | acht verschiedene Zeichen; Buchstaben von Niclas in Reihenfolge und Schreibung enthalten; Beispiele Nic4+las, nNicl*as → Anzahl solcher Kennwörter | Lagen der zwei freien Stellen mal Zeichenwahl
 2024-bebb-gk-A1.3b | 2 | nein | Rechnung · Berechnen Sie | sechs Stühle, die vier zulässigen Auswahlen aus a; Aaron, Bert und Can setzen sich so, dass zwischen je zwei Schülern mindestens ein Stuhl frei bleibt → Anzahl der Möglichkeiten | 4 · 3!
+2017-be-gk-B3.1a | 2 | ja | Rechnung · Bestimmen Sie | Ein Händler erhält eine Lieferung neuer Smartphones in sechs verschiedenen Farben. Für die Auslage einiger Geräte im Schaufenster sollen vier Farben ausgewählt werden. → Anzahl der Möglichkeiten für diese Auswahl | Ungeordnete Auswahl von 4 aus 6 ohne Wiederholung: Binomialkoeffizient (6 über 4).
 2024-bebb-gk-A1.3a | 3 | nein | Kurzantwort · Geben Sie an | sechs Stühle in einer Reihe; es gibt vier Möglichkeiten, drei so auszuwählen, dass zwischen je zwei ausgewählten mindestens ein weiterer steht → diese vier Möglichkeiten | Systematisch von links beginnend aufzählen
 ## iqb
 
@@ -101,6 +105,7 @@ abitur/abitur-typen.csv (neu): Einen Term für die Wahrscheinlichkeit aufstellen
 2022MerhoehtBStochastikWTR2-2 | 3 | ja | Rechnung · Bestimmen Sie | sechsstellige Kombination aus den Ziffern 1, 5, 9, alle kommen vor, eine Ziffer viermal → Anzahl der möglichen Kombinationen | Vierfache Ziffer wählen, Plätze der beiden übrigen wählen, deren Reihenfolge
 2020MerhoehtAStochastik22-b | 3 | nein | Rechnung · Bestimmen Sie | Strauß mit 15 Tulpen; je Farbe mindestens vier und höchstens sechs → Anzahl der Möglichkeiten, den Strauß zusammenzustellen | Zerlegungen von 15 in drei Zahlen aus {4, 5, 6} und ihre Farbzuordnungen zählen
 2023MgrundlegendBStochastikWTR1-1a | 2 | ja | Rechnung · Bestimmen Sie | fünf Röstgrade; jeder Besucher probiert drei verschiedene und legt die Reihenfolge fest → Anzahl der Möglichkeiten | Produkt 5 · 4 · 3
+2017MgrundlegendBStochastikWTR1-1a | 2 | ja | Rechnung · Bestimmen Sie | Ein Hersteller bringt ein neues Smartphone auf den Markt; ein Händler erhält eine Lieferung dieser Smartphones; die gelieferten Geräte haben sechs verschiedene Farben; für die Auslage einiger Geräte im Schaufenster sollen vier Farben ausgewählt werden → Anzahl der Möglichkeiten für diese Auswahl | Ungeordnete Auswahl von 4 aus 6 ohne Wiederholung: Binomialkoeffizient
 2024MgrundlegendAStochastik13-a | 3 | nein | Kurzantwort · Geben Sie an | sechs Stühle in einer Reihe; es gibt vier Möglichkeiten, drei Stühle so auszuwählen, dass zwischen je zwei ausgewählten mindestens ein weiterer steht → diese vier Möglichkeiten | mit dem ersten Stuhl beginnen und die Lücken systematisch verteilen
 2020MerhoehtAStochastik22-a | 2 | nein | Kurzantwort · Beschreiben Sie | Sträuße mit 15 Tulpen in Gelb, Orange, Rot; Strauß mit genau zwei Farben; Term (3 über 2) · 14 → Bedeutung beider Faktoren im Sachzusammenhang | Auswahl der Farben und Aufteilung der Anzahl deuten
 2023MerhoehtBStochastikWTR3-3 | 4 | ja | Rechnung · Ermitteln Sie | n verschiedene Motive, je Flasche zufällig eines; bei n Flaschen sind alle Motive verschieden mit Wahrscheinlichkeit unter 1 % → kleinster möglicher Wert von n | n!/nⁿ für wachsendes n berechnen, bis der Wert unter 1 % fällt

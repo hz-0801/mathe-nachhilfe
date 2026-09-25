@@ -3,15 +3,16 @@
 Stufe: II
 
 - fhr: Rotationsvolumen um die x-Achse (4 Zeilen)
-- abi: Rotationsvolumen (4 Zeilen)
+- abi: Rotationsvolumen (5 Zeilen)
 - iqb: Rotationsvolumen (5 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
-**Rotationsvolumen um die x-Achse berechnen** · 4 Zeilen · fhr 4 · Jahre 2019–2024
+**Rotationsvolumen um die x-Achse berechnen** · 5 Zeilen · fhr 4 abi 1 · Jahre 2018–2024
 fhr/fhr-typen.csv (geprüft): Das Volumen eines Rotationskörpers als Produkt der Kreiszahl mit dem Integral über das Quadrat des Funktionsterms zwischen den Grenzen berechnen.
+abitur/abitur-typen.csv (neu): Das Volumen des Körpers, der bei Rotation der Fläche zwischen einem Graphen und der x-Achse über einem Intervall um die x-Achse entsteht, als π · ∫ (f(x))² dx berechnen (mit dem Rechner oder über eine Stammfunktion) und im Sachzusammenhang angeben, etwa als Fassungsvermögen nach Abzug eines Materialanteils.
 
 **Umbeschriebenes Prisma zu einem Rotationskörper bestimmen** · 2 Zeilen · abi 2 · Jahre 2017–2018
 abitur/abitur-typen.csv (neu): Aus dem maximalen Radius eines Rotationskörpers die Grundfläche und das Mindestvolumen eines umbeschriebenen Prismas bestimmen.
@@ -51,6 +52,7 @@ abitur/abitur-typen.csv (neu): Aus der Sachlage (Kugel vollständig unter Wasser
 
 2017-bb-ea-B2.1f | 7 | ja | Begründung · Beurteilen Sie¦Beschreiben Sie | Der Fuß des Eisbechers entsteht durch Rotation der Fläche zwischen der Parabel p mit p(x) = −0,2x² + 0,2 und der x-Achse um die y-Achse; es gilt 1 LE = 4 cm. Zur Berechnung der Masse des Fußes geht ein Schüler so vor: (1) Volumen in VE über V = π · Integral von 0 bis 1 über (p(x))² dx; (2) Umwandeln in cm³ über den Ansatz 1 VE / 4 cm³ = V / V(cm³); (3) Multiplizieren des erhaltenen Wertes mit der Dichte des Materials. → Beurteilung der drei Teilschritte jeweils einzeln und Beschreibung, wie fehlerhafte Schritte zu berichtigen sind | Schritt 1 gehört zur Rotation um die x-Achse. Bei Rotation um die y-Achse ist über y zu integrieren: aus y = −0,2x² + 0,2 folgt x² = 1 − 5y, also V = π · Integral von 0 bis 0,2 über (1 − 5y) dy. Schritt 2 überträgt den Längenmaßstab ohne Potenzierung: aus 1 LE = 4 cm folgt 1 VE = 4³ cm³ = 64 cm³. Schritt 3 ist richtig, sofern Volumen und Dichte in zueinander passenden Einheiten stehen.
 2018-bb-ea-B2.1h | 2 | ja | Kurzantwort · Interpretieren Sie | Die Vase entsteht durch Rotation der Fläche unter G_0,65 über [0; 3] um die x-Achse, 1 LE = 1 dm; die Öffnung liegt bei x = 0, der Boden bei x = 3. Gegeben ist die Funktion b(t) = π · ∫ von 3 − t bis 3 über (f_0,65(x))² dx. → Deutung von b(t) im Sachzusammenhang | Die Integralformel als Rotationsvolumen erkennen; die untere Grenze 3 − t zeigt, dass vom Boden aus ein Stück der Länge t erfasst wird.
+2018-bb-ea-cas-B2.1h | 5 | ja | Rechnung · Berechnen Sie | Die Funktion f_0,65 mit f_0,65(x) = (x² + 0,65) · e^(0,5 − x) aus der Schar; ihr Graph schließt über [0; 3] mit der x-Achse eine Fläche ein (Abbildung 2). Durch Rotation dieser Fläche um die x-Achse entsteht ein Körper, der modellhaft einer liegenden, nach links geöffneten Vase entspricht; 1 LE = 1 dm. Der Materialanteil am gesamten Volumen der Vase beträgt 10 %. → Fassungsvermögen der Vase in Liter | Das Gesamtvolumen der Vase ist das Rotationsvolumen V = π · ∫ (f_0,65(x))² dx über [0; 3], mit dem CAS berechnet. Das Material nimmt 10 % davon ein, das Fassungsvermögen ist also 90 % von V; 1 dm³ = 1 l.
 2017-bb-ea-B2.1d | 4 | ja | Rechnung · Ermitteln Sie | Der halbe Längsquerschnitt eines Eisbechers wird im Intervall [0; 1,5] durch Teile der Graphen von h mit h(x) = 0,75 · f_2(x) + 1 = 0,75 · ln(2x² + 1) + 1 und von k mit k(x) = 1,75 · ln(2,5x + 1) − 0,5, eine zur y-Achse symmetrische quadratische Parabel p und die beiden Koordinatenachsen begrenzt. Der Eisbecher entsteht durch Rotation dieser Fläche um die y-Achse, 1 LE = 4 cm. Je zwölf Eisbecher werden stehend in einem quaderförmigen Karton mit zwölf gleich großen quaderförmigen Fächern verpackt. → Kantenlängen, die ein Fach für einen stehenden Eisbecher mindestens haben muss | Der größte Radius des Rotationskörpers ist der Randwert x = 1,5 LE, also 6 cm; die Grundfläche eines Fachs muss deshalb mindestens 12 cm mal 12 cm messen. Die Höhe ist der größte Funktionswert am rechten Rand: h(1,5) = 0,75 · ln 5,5 + 1.
 2018-bb-ea-B2.1i | 7 | ja | Zeichnen¦Rechnung · Stellen Sie dar¦Ermitteln Sie | Die Vase hat die Länge 3 dm und einen maximalen Radius von ca. 1,07 dm. Sie soll stehend in einem Karton verpackt werden, der die Form eines regelmäßigen sechsseitigen Prismas besitzt. → Zusammenhang zwischen dem maximalen Radius der Vase und der Grundfläche des Kartons als Skizze und Gleichung; Mindestvolumen des Kartons in cm³ | Der maximale Radius ist der Inkreisradius r des regelmäßigen Sechsecks. Aus s = 2r / √3 folgt für die Grundfläche A = 6 · (s · r / 2) = 2√3 · r². Die Prismenhöhe ist die Vasenlänge 3 dm, also V = 2√3 · r² · 3; Ergebnis in cm³ umrechnen.
 ## iqb

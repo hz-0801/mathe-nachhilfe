@@ -2,10 +2,10 @@
 
 Stufe: II
 
-- abi: Scharen von Geraden und Ebenen (22 Zeilen)
+- abi: Scharen von Geraden und Ebenen (23 Zeilen)
 - iqb: Scharen von Geraden und Ebenen (27 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -14,6 +14,9 @@ abitur/abitur-typen.csv (neu): Die Parameterwerte bestimmen, bei denen eine Eben
 
 **Zugehörigkeit einer Ebene zu einer Schar prüfen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2022–2024
 abitur/abitur-typen.csv (neu): Prüfen, ob eine gegebene Ebene zu einer Ebenenschar gehört, indem die Koordinatengleichung als Vielfaches der Schargleichung angesetzt und das Gleichungssystem auf Widerspruch geprüft wird.
+
+**Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen** · 2 Zeilen · abi 2 · Jahre 2017
+abitur/abitur-typen.csv (neu): Den Parameter im Richtungsvektor einer Geradenschar so bestimmen, dass der Durchstoßpunkt durch eine Ebene in einem vorgegebenen Bereich liegt, und daraus zulässige ganzzahlige Werte angeben.
 
 **Gemeinsamen Punkt aller Ebenen einer Schar nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Durch Einsetzen nachweisen, dass ein Punkt in allen Ebenen einer Schar liegt.
@@ -53,9 +56,6 @@ abitur/abitur-typen.csv (neu): Nachweisen, dass eine Gerade zu jeder Geraden ein
 
 **Existenz eines Scharparameters für eine Gerade in der Ebene untersuchen** · 1 Zeile · iqb 1 · Jahre 2021
 abitur/abitur-typen.csv (neu): Untersuchen, ob eine Gerade der Schar in einer Ebene liegt: Stützpunkt in der Ebene, Richtungsvektor senkrecht zum Normalenvektor als Gleichung im Parameter.
-
-**Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen** · 1 Zeile · abi 1 · Jahre 2017
-abitur/abitur-typen.csv (neu): Den Parameter im Richtungsvektor einer Geradenschar so bestimmen, dass der Durchstoßpunkt durch eine Ebene in einem vorgegebenen Bereich liegt, und daraus zulässige ganzzahlige Werte angeben.
 
 **Gemeinsame Gerade aller Ebenen einer Schar aus der Abbildung begründen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Begründen, dass alle Ebenen einer Schar eine abgebildete Gerade enthalten, indem zwei abgelesene Punkte der Geraden die Schargleichung für jeden Parameter erfüllen.
@@ -105,7 +105,7 @@ abitur/abitur-typen.csv (neu): Für einen Parameterwert einer Ebenenschar nachwe
 **Weiteren Eckpunkt des Schnittdreiecks einer Scharebene mit einem Körper ermitteln** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Für eine feste Scharebene durch einen Eckpunkt eine Kante mit Vorzeichenwechsel der Ebenengleichung wählen und den Schnittpunkt als weitere Ecke der Schnittfigur berechnen.
 
-**Nebentypen:** Punkt: Mittelpunkt einer Strecke im Raum bestimmen (1) · Schnittpunkt von Gerade und Ebene berechnen (1) · Schnittwinkel zweier Geraden über das Skalarprodukt berechnen (1)
+**Nebentypen:** Schnittpunkt von Gerade und Ebene berechnen (2) · Punkt: Mittelpunkt einer Strecke im Raum bestimmen (1) · Schnittwinkel zweier Geraden über das Skalarprodukt berechnen (1)
 
 ## B Zeilenliste
 
@@ -113,6 +113,7 @@ abitur/abitur-typen.csv (neu): Für eine feste Scharebene durch einen Eckpunkt e
 
 2022-bebb-lk-B3i | 4 | ja | Kurzantwort · Geben Sie an | Für k = 6 enthält BCD_k die Ecke Q, für kleinere k schneidet die Fläche den Quader in einem Vieleck → Anzahl der Eckpunkte des Vielecks in Abhängigkeit von k | Übergangswerte k = 6, 4, 3 aus den Ecken Q, P/R, (0¦0¦3) bestimmen, Schnittfiguren zuordnen
 2017-bb-ea-B3.1f | 5 | ja | Rechnung · Ermitteln Sie¦Geben Sie an | Zelt als Pyramide ABCDS mit dem Bodenmittelpunkt M(2,5 ¦ 2,5 ¦ 0). Das waagerechte Vordach liegt in 1,80 m Höhe, ist 1,40 m breit und mittig zur Kante CD angesetzt; seine wandseitige Kante liegt bei y ≈ 3,85, alle Punkte der äußeren Kante, an deren Enden die beiden Stangen befestigt sind, haben die y-Koordinate 5,98. Auf das Zelt treffendes Sonnenlicht verläuft längs paralleler Geraden mit dem Richtungsvektor (0,5 ¦ −4,2 ¦ a) und fällt durch ein kleines Loch im Vordach genau auf den Mittelpunkt des Zeltbodens; für a kommen verschiedene ganzzahlige Werte infrage. → Ein möglicher ganzzahliger Wert für a und die Koordinaten des zugehörigen Punktes, der eine mögliche Position des Lochs im Vordach darstellt | Gerade durch M mit dem gegebenen Richtungsvektor ansetzen und die Vordachhöhe z = 1,8 fordern: t = 1,8/a. Damit sind x = 2,5 + 0,5 · 1,8/a und y = 2,5 − 4,2 · 1,8/a. Das Loch muss auf dem Vordach liegen, also y zwischen 3,85 und 5,98 und x zwischen 1,8 und 3,2; das führt auf negative ganzzahlige Werte von a.
+2017-bb-ea-cas-B3.1f | 5 | ja | Rechnung · Ermitteln Sie¦Geben Sie an | Zelt als Pyramide ABCDS mit dem Bodenmittelpunkt M(2,5 ¦ 2,5 ¦ 0). Das waagerechte Vordach liegt in 1,80 m Höhe, ist 1,40 m breit und mittig zur Kante CD angesetzt; seine wandseitige Kante liegt bei y ≈ 3,85, die äußere Kante nach dem Kontrollergebnis aus Teilaufgabe e bei y ≈ 5,98. Auf das Zelt treffendes Sonnenlicht verläuft längs paralleler Geraden mit dem Richtungsvektor (0,5 ¦ −4,2 ¦ a) und fällt durch ein kleines Loch im Vordach genau auf den Mittelpunkt des Zeltbodens; für a kommen verschiedene ganzzahlige Werte infrage. → Ein möglicher ganzzahliger Wert für a und die Koordinaten des zugehörigen Punktes, der eine mögliche Position des Lochs im Vordach darstellt | Gerade durch M mit dem gegebenen Richtungsvektor ansetzen und die Vordachhöhe z = 1,8 fordern: t = 1,8/a. Damit sind x = 2,5 + 0,5 · 1,8/a und y = 2,5 − 4,2 · 1,8/a. Das Loch muss auf dem Vordach liegen, also y zwischen 3,85 und 5,98 und x zwischen 1,8 und 3,2; das führt auf negative ganzzahlige Werte von a.
 2024-bebb-lk-B3e | 1 | ja | Rechnung · Zeigen Sie | E_k: 4k · x + 4√(1 − k²) · y + 3z = 12, k ∈ [−1; 1]; S(0 ¦ 0 ¦ 4) → Nachweis S ∈ E_k für alle k | S einsetzen
 2022-bebb-lk-A1.6b | 3 | nein | Rechnung · Bestimmen Sie | E_a,b: (2a − 1)x + by − z = 1; Schnittgeraden mit der yz-Ebene → eine Gleichung der Geradenschar g_b | x = 0 einsetzen, y = t wählen, z = bt − 1
 2025-bebb-lk-A1.7b | 3 | nein | Begründung · Beurteilen Sie | g_k: x = (5 − 6k; 3k; 4 − 9k) + r · (2; −1; 3), r reell; Aussage: alle Geraden g_k sind identisch → Beurteilung der Aussage | den Stützvektor als (5; 0; 4) − 3k · (2; −1; 3) schreiben; damit hat jede g_k die Darstellung (5; 0; 4) + r' · (2; −1; 3) mit r' = r − 3k

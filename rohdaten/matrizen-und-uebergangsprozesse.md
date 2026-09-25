@@ -2,9 +2,9 @@
 
 Stufe: II
 
-- iqb: Matrizen und Übergangsprozesse (154 Zeilen)
+- iqb: Matrizen und Übergangsprozesse (156 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -23,6 +23,9 @@ abitur/abitur-typen.csv (neu): Das Produkt einer Matrix mit einem Vektor berechn
 **Verflechtung: Rohstoffbedarf über die Verflechtungsmatrix berechnen** · 4 Zeilen · iqb 4 · Jahre 2024–2026
 abitur/abitur-typen.csv (neu): Den Bedarf an Rohstoffen für vorgegebene Produktmengen als Matrix-Vektor-Produkt berechnen.
 
+**Matrizenalgebra: Inverse Matrix über A · B = E bestimmen** · 3 Zeilen · iqb 3 · Jahre 2017–2020
+abitur/abitur-typen.csv (neu): Die Einträge der inversen Matrix über A · B = E bestimmen – Platzhalter einer vorgegebenen Form (auch über Kehrwerte) oder alle Einträge über das Gleichungssystem aus dem Produkt.
+
 **Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen** · 3 Zeilen · iqb 3 · Jahre 2020–2026
 abitur/abitur-typen.csv (neu): Aus der Bedingung M · v = v mit teilweise bekanntem Vektor v unbekannte Einträge der Übergangsmatrix und fehlende Komponenten des Bestands bestimmen (Gleichungssystem).
 
@@ -31,9 +34,6 @@ abitur/abitur-typen.csv (neu): Alle Matrizen B mit A · B = B · A für eine geg
 
 **Matrizenalgebra: Erhalt der Spaltensumme unter einer stochastischen Matrix allgemein nachweisen** · 2 Zeilen · iqb 2 · Jahre 2020–2022
 abitur/abitur-typen.csv (neu): Mit allgemeiner Matrix zeigen, dass eine stochastische Matrix die Komponentensumme eines Vektors erhält oder dass ihr Quadrat wieder stochastisch ist (Spaltensummen über a + c = 1, b + d = 1).
-
-**Matrizenalgebra: Inverse Matrix über A · B = E bestimmen** · 2 Zeilen · iqb 2 · Jahre 2018–2020
-abitur/abitur-typen.csv (neu): Die Einträge der inversen Matrix über A · B = E bestimmen – Platzhalter einer vorgegebenen Form (auch über Kehrwerte) oder alle Einträge über das Gleichungssystem aus dem Produkt.
 
 **Matrizenalgebra: Parameter eines Vektors aus einer Matrix-Vektor-Gleichung bestimmen** · 2 Zeilen · iqb 2 · Jahre 2026
 abitur/abitur-typen.csv (neu): Aus einer Gleichung A · v = k · v den unbekannten Eintrag des Vektors über eine geeignete Komponente bestimmen.
@@ -88,6 +88,9 @@ abitur/abitur-typen.csv (neu): Beschreiben, wie Vertauschungsmatrizen mit einer 
 
 **Matrizenalgebra: Bedingung für eine selbstinverse Matrix mit Parametern herleiten** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Aus M⁻¹ = M die Bedingung M² = E gewinnen, sie für eine Matrix mit Parametern auswerten und Beispielwerte angeben.
+
+**Matrizenalgebra: Definiertheit von Summe und Produkt zweier Matrizen über die Formate entscheiden** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Aus den Zeilen- und Spaltenzahlen zweier Matrizen entscheiden und begründen, ob ihre Summe (gleiches Format) und ihr Produkt (Spaltenzahl des linken gleich Zeilenzahl des rechten Faktors) definiert sind.
 
 **Matrizenalgebra: Einträge einer Faktormatrix aus dem Produkt mit einer bekannten Matrix bestimmen** · 1 Zeile · iqb 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Die unbekannten Einträge einer Matrix F aus der Gleichung H · F = J mit bekannten Matrizen H und J durch Ausmultiplizieren und Vergleich bestimmen.
@@ -370,6 +373,7 @@ abitur/abitur-typen.csv (neu): Die Übergänge einer Matrix mit Parameter nach F
 2025MerhoehtAAGLAA122 | 5 | nein | Rechnung · Untersuchen Sie | A = ((0; 1), (0; 0)) und X = ((a; b), (c; d)) mit reellen a, b, c, d; Gleichung (X + A) · (X + A) = X² + 2 · A · X + A² → Bedingungen an a, b, c, d, unter denen die Gleichung gilt | (X + A)² ausmultiplizieren, ohne die Reihenfolge zu vertauschen; die Gleichung reduziert sich auf X · A = A · X; beide Produkte berechnen und vergleichen
 2020MgrundlegendAAGLAA111-c | 2 | nein | Kurzantwort · Beschreiben Sie | Vertauschungsmatrizen N (3×3); N · v hat gegenüber v genau zwei vertauschte Einträge → Beschreibung des Aufbaus aller solchen N | Rolle der Diagonaleinträge deuten
 2022MgrundlegendAAGLAA12 | 5 | nein | Rechnung · Zeigen Sie¦Bestimmen Sie | M = ((a; b), (c; −a)) mit reellen a, b, c; M heißt selbstinvers, wenn M⁻¹ = M → Nachweis, dass b · c ≤ 1 gilt, wenn M selbstinvers ist; für a = 5 je ein Wert von b und c mit M selbstinvers | M⁻¹ = M in M² = E übersetzen, M² ausrechnen, bc = 1 − a² und a² ≥ 0; a = 5 einsetzen
+2017MgrundlegendAAGLAA11-a | 2 | nein | Begründung · Entscheiden Sie¦Begründen Sie | Matrizen A = ((2; 2), (3; 0), (0; 1)) mit drei Zeilen und zwei Spalten und B = ((3; 0), (1; 2)) (zeilenweise) → Entscheidung mit Begründung, ob A + B und A · B definiert sind | Formate vergleichen: für die Summe gleiche Formate, für das Produkt Spaltenzahl von A gleich Zeilenzahl von B
 2018MerhoehtBAGLAA1WTR-2a | 3 | ja | Rechnung · Bestimmen Sie | Indisches Springkraut: Zustand (S; P) mit Samen S und Pflanzen P; Frühjahr bis Herbst F · u mit F = ((f1; f2), (0; 0)), Herbst bis Frühjahr H · v mit H = ((0,3; 0), (0,01; 0)); Frühjahr zu Frühjahr J · u mit J = ((0,3; 150), (0,01; 5)) → Werte von f1 und f2 | H · F = J ausmultiplizieren und vergleichen
 2020MerhoehtAAGLAA12 | 5 | nein | Begründung · Zeigen Sie | spaltenstochastisch: Einträge ≥ 0, jede Spaltensumme 1; M = ((a; b), (c; d)) spaltenstochastisch → Nachweis, dass M² spaltenstochastisch ist | M² berechnen, Nichtnegativität und Spaltensummen mit a + c = 1, b + d = 1 zeigen
 2022MerhoehtAAGLAA12-b | 3 | nein | Begründung · Zeigen Sie | N stochastische 2×2-Matrix; u Vektor mit Komponentensumme 5 → Nachweis, dass N · u ebenfalls die Komponentensumme 5 hat | N und u allgemein ansetzen, Summe der Komponenten von N · u nach u_x und u_y sortieren, Spaltensummen 1 einsetzen
@@ -380,6 +384,7 @@ abitur/abitur-typen.csv (neu): Die Übergänge einer Matrix mit Parameter nach F
 2020MgrundlegendAAGLAA12 | 5 | nein | Rechnung · Bestimmen Sie | M = ((0; 0; c), (a; 0; 0), (d; b; 0)) mit ganzzahligen a, b, c, d; M · M = ((−10; 2; 0), (0; 0; 6), (3; 0; −10)) → alle Zahlentupel (a; b; c; d) | M² ausrechnen, Einträge vergleichen, Ganzzahligkeit nutzen
 2026MerhoehtAAGLAA121-b | 3 | nein | Rechnung · Bestimmen Sie | A = ((6; −2; 0), (4; 0; 0), (−4; 4; −2)); v_a = (1; 1; 0) mit A · v_a = 4 · v_a; für jedes reelle c gibt es ein reelles b mit A^(−1) · (b · v_a) = c · v_a; A^(−1) soll nicht berechnet werden → b in Abhängigkeit von c | beide Seiten mit A multiplizieren: b · v_a = A · (c · v_a) = c · (A · v_a) = c · 4 · v_a; weil v_a nicht der Nullvektor ist, folgt b = 4c
 2019MerhoehtAAGLAA12-b | 3 | nein | Begründung · Untersuchen Sie | Definition der Orthogonalität aus a; Matrix ((0; 1), (1; 0))^101 → ob diese Matrix orthogonal ist | Potenz über V² = E auf V zurückführen, dann V^T · V prüfen
+2017MgrundlegendAAGLAA11-b | 3 | nein | Rechnung · Bestimmen Sie | B = ((3; 0), (1; 2)) (zeilenweise); C = ((a; b), (c; d)) → Werte von a, b, c und d mit B · C = ((1; 0), (0; 1)) | B · C ausmultiplizieren und eintragsweise mit der Einheitsmatrix gleichsetzen; die vier linearen Gleichungen lösen
 2018MgrundlegendAAGLAA111-a | 3 | nein | Rechnung · Bestimmen Sie | A = ((7; 4), (2; 0)), B = ((a; b), (c; d)); A · B = E → Werte von a, b, c, d | Produkt ausrechnen, vier Gleichungen lösen
 2020MgrundlegendAAGLAA112-a | 2 | nein | Kurzantwort · Geben Sie an | A = ((0; 1/2; 0), (0; 0; −1/5), (−10; 0; 0)); A⁻¹ = ((0; 0; c), (a; 0; 0), (0; b; 0)) → Werte von a, b, c | Produkt mit E vergleichen oder Kehrwerte
 2020MgrundlegendAAGLAA111-b | 2 | nein | Kurzantwort · Geben Sie an | M = ((0; 1; 0), (0; 0; 1), (1; 0; 0)) → inverse Matrix zu M | Vertauschung umkehren

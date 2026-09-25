@@ -3,24 +3,24 @@
 Stufe: II
 
 - fhr: Schnittpunkte von Funktionsgraphen (9 Zeilen)
-- abi: Gleichungen lösen (15 Zeilen)
-- iqb: Gleichungen lösen (19 Zeilen)
+- abi: Gleichungen lösen (16 Zeilen)
+- iqb: Gleichungen lösen (20 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
 **Schnittpunkte zweier Funktionsgraphen berechnen** · 6 Zeilen · fhr 6 · Jahre 2019–2023
 fhr/fhr-typen.csv (geprüft): Zwei Funktionsterme gleichsetzen, die Gleichung lösen und die Schnittpunkte mit beiden Koordinaten angeben.
 
+**Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Eine Gleichung der Form a(x + c) = a(x) + d am Graphen lösen – zwei Graphenpunkte mit festem Abstand c in x- und d in y-Richtung, bei d = 0 eine waagerechte Sehne der Länge c; x ist eine Zeit oder ein Ort – und im Sachzusammenhang deuten.
+
 **Schnittstellen zweier Graphen durch Lösen einer quadratischen Gleichung nachweisen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2019–2021
 abitur/abitur-typen.csv (neu): Zeigen, dass zwei Graphen genau die genannten Schnittstellen haben, indem die Gleichsetzung auf eine quadratische Gleichung führt (höchstens zwei Lösungen, Werte einsetzen oder lösen).
 
 **Stelle zu gegebenem Funktionswert berechnen** · 3 Zeilen · fhr 3 · Jahre 2021–2025
 fhr/fhr-typen.csv (geprüft): Den Funktionsterm einem vorgegebenen Wert gleichsetzen, die Gleichung lösen und alle im Sachzusammenhang sinnvollen Lösungen angeben.
-
-**Funktionalgleichung mit Zeitverschiebung grafisch lösen und im Sachzusammenhang deuten** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
-abitur/abitur-typen.csv (neu): Eine Gleichung der Form a(x + c) = a(x) + d am Graphen lösen (zwei Graphenpunkte mit festem Abstand in x und y) und im Sachzusammenhang deuten.
 
 **Gleichung aus Differenzenquotient und Ableitung lösen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Eine Gleichung, die den Differenzenquotienten zu einem festen Punkt mit der Ableitung gleichsetzt, als Bruchgleichung lösen.
@@ -82,6 +82,9 @@ abitur/abitur-typen.csv (neu): Zwei Funktionsterme gleichsetzen, die entstehende
 **Schnittpunkte einer Geraden mit einer Hyperbel über eine quadratische Gleichung berechnen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Die gemeinsamen Punkte einer Geraden und einer Hyperbel durch Gleichsetzen, Umformen zu (x − c)² = k und Wurzelziehen berechnen.
 
+**Schnittpunkte zweier Graphen mit dem Rechner ermitteln** · 1 Zeile · abi 1 · Jahre 2018
+abitur/abitur-typen.csv (neu): Die Gleichung f(x) = g(x), die sich nicht durch elementares Umformen lösen lässt, mit dem Rechner numerisch lösen und die Schnittpunkte mit gerundeten Koordinaten angeben.
+
 **Steigung im Schnittpunkt von Graph und Ableitungsgraph bestimmen** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die Schnittstelle von f und f' über die Gleichung f = f' bestimmen (Kürzen durch f ≠ 0) und die Steigung dort angeben.
 
@@ -94,7 +97,7 @@ abitur/abitur-typen.csv (neu): Zeigen, dass eine faktorisierte und eine ausmulti
 **Zeitpunkt für einen Anteil des Maximalwerts einer Sinusfunktion berechnen** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Eine Gleichung k(x) = c mit einer Sinusfunktion rechnerisch lösen, wobei c ein Anteil des Maximalwerts ist, und die Lösung als Uhrzeit angeben.
 
-**Nebentypen:** Ableitung einer quadratischen Funktion angeben (2) · Nullstellen mit Polynomdivision (2) · Ableitung eines ganzrationalen Produkts durch Ausmultiplizieren nachweisen (1) · Fläche zwischen zwei Graphen berechnen (1) · Flächeninhalt im Koordinatensystem in Quadratmeter umrechnen (1) · Graphen einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen (1) · Grenzverhalten einer ganzrationalen Funktion angeben (1) · Mindestmaße eines umschließenden Rechtecks bestimmen (1) · Nullstellen über Substitution biquadratisch (1) · Preis aus Fläche und Quadratmeterpreis berechnen (1) · Streckenlänge im Koordinatensystem in Meter umrechnen (1)
+**Nebentypen:** Ableitung einer quadratischen Funktion angeben (2) · Nullstellen mit Polynomdivision (2) · Ableitung eines ganzrationalen Produkts durch Ausmultiplizieren nachweisen (1) · Fläche zwischen zwei Graphen berechnen (1) · Flächeninhalt im Koordinatensystem in Quadratmeter umrechnen (1) · Graphen einer Funktion in ein Koordinatensystem einzeichnen (1) · Grenzverhalten einer ganzrationalen Funktion angeben (1) · Mindestmaße eines umschließenden Rechtecks bestimmen (1) · Nullstellen über Substitution biquadratisch (1) · Preis aus Fläche und Quadratmeterpreis berechnen (1) · Streckenlänge im Koordinatensystem in Meter umrechnen (1) · Umschließendes achsenparalleles Rechteck zu einer krummlinig begrenzten Fläche bestimmen (1)
 
 ## B Zeilenliste
 
@@ -120,6 +123,7 @@ abitur/abitur-typen.csv (neu): Eine Gleichung k(x) = c mit einer Sinusfunktion r
 2017-bb-ea-A1.1a | 2 | nein | Rechnung · Ermitteln Sie | Funktion f mit f(x) = 2 · e^(0,5 · x) − 1; x ∈ IR. → Nullstelle der Funktion f | f(x) = 0 setzen, nach der Exponentialfunktion auflösen und logarithmieren: e^(0,5 · x) = 0,5, also 0,5 · x = ln 0,5.
 2019-be-gk-B2.2g | 6 | ja | Rechnung · Ermitteln Sie | Erhöhte Wirkstoffmenge: h_k(t) = k · t · e^(−0,04t) + 50, t ≥ 0, k ≥ 0 → Wert von k, ab dem der Hormonspiegel am 70. Tag noch mindestens 100 erreicht | h_k(70) ≥ 100 nach k auflösen
 2018-be-gk-B1.1f | 10 | ja | Rechnung¦Zeichnen · Berechnen Sie¦Skizzieren Sie | Flugbahn f mit f(x) = −0,008x² + 54 und Aufsprunghang g mit g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000), 1 LE = 1 m. Der Springer landet im Punkt L auf dem Aufsprunghang. Ein Koordinatensystem mit beiden Graphen ist vorgegeben. Als Kontrolle ist L(73,9 ¦ 10,3) angegeben. → Koordinaten des Landepunktes L; Skizze der Flugbahn im vorgegebenen Koordinatensystem | f(x) = g(x) setzen und ordnen: x⁴/2 000 000 − 0,002x² − 4 = 0, also nach Multiplikation x⁴ − 4000x² − 8 000 000 = 0. Mit u = x² die quadratische Gleichung u² − 4000u − 8 000 000 = 0 lösen; nur die positive Lösung u = 2000 + 2000√3 ist brauchbar, daraus x = √u ≈ 73,9 und y = g(73,9) ≈ 10,3. Für die Zeichnung die nach unten geöffnete Parabel von S(0 ¦ 54) über (60 ¦ 25,2) bis L eintragen.
+2018-bb-ea-cas-B2.2f | 9 | ja | Rechnung · Ermitteln Sie¦Berechnen Sie | Funktionenschar f_a mit f_a(x) = (1/a)·x³ + 3x² + 5x + 2a; x ∈ IR, a ∈ IR, a ≠ 0, und die Funktion h mit h(x) = −(1/2)·x^(−3); x ∈ IR, x ≠ 0. Die zugehörigen Graphen sind G_a und K. Ein Gartenbesitzer hat in einer Ecke seines Gartens einen Teich angelegt. Der Rand des Teiches an der Wasseroberfläche wird durch die Graphen G_2 und K modelliert. Im Intervall von −3 bis −2 verläuft eine Brücke über den Teich; 1 LE = 1 m. Eine Darstellung zeigt Teichoberfläche und Brücke senkrecht von oben betrachtet. Der Teich wird kurzzeitig durch eine rechteckige Plane abgedeckt, deren Seiten parallel zu den Koordinatenachsen liegen. → Koordinaten der Schnittpunkte von G_2 und K, auf zwei Nachkommastellen gerundet¦Seitenlängen, die die Plane mindestens haben muss | f_2(x) = h(x) mit f_2(x) = 0,5x³ + 3x² + 5x + 4 mit dem CAS lösen (nach Multiplikation mit 2x³ ein Polynom sechsten Grades mit zwei reellen Lösungen) und die y-Koordinaten berechnen. Für die Plane die waagerechte Seite als Differenz der beiden x-Werte nehmen und die senkrechte als Abstand zwischen dem tiefsten Randpunkt (linker Schnittpunkt, weil K steigt) und dem lokalen Hochpunkt von G_2; dazu f_2′(x) = 0 lösen.
 2022-bebb-gk-B2.1d | 2 | ja | Rechnung · Weisen Sie nach | f(x) = (x + 2) · e^(−x), definiert in IR, mit f'(x) = −(x + 1) · e^(−x) → Nachweis, dass der Schnittpunkt der Graphen von f und f' bei x = −1,5 liegt | Gleichsetzen, durch e^(−x) teilen
 2025-bebb-lk-B2.2d | 2 | ja | Rechnung · Zeigen Sie | f_0(x) = (x − 2)² · e^x, f_0'(x) = (x² − 2x) · e^x → Nachweis, dass sich die Graphen von f_0' und f_0 an der Stelle 2 schneiden | beide Funktionswerte an der Stelle 2 berechnen
 2019-be-gk-A1.2a | 2 | nein | Begründung · Zeigen Sie | g(x) = x² − 3 und h(x) = −x² + 2x + 1 in IR → Nachweis, dass sich die Graphen nur für x = −1 und x = 2 schneiden | quadratische Gleichung g(x) = h(x) lösen oder beide Werte einsetzen und Lösungszahl begründen
@@ -133,6 +137,7 @@ abitur/abitur-typen.csv (neu): Eine Gleichung k(x) = c mit einer Sinusfunktion r
 2024MerhoehtBAnalysisWTR1-2b | 4 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Berechnen Sie | w(x) = 40/(1 + e^{−0,2x}), x Jahre seit der Ansiedlung, w(x) Anzahl der Seeadler → Anzahl bei der Ansiedlung; Zeitpunkt, zu dem 32 erreicht sind | w(0), Gleichung nach x auflösen
 2018MerhoehtBAnalysisWTR2-1b | 4 | ja | Rechnung · Berechnen Sie | Kugelstoßen im Koordinatensystem (1 LE = 1 m, x-Achse ist der Boden): Bahn von der Ruhelage R bis zum Abstoßpunkt A durch f(x) = 0,4 + 1,6 · e^(0,5x), x ∈ [−2; 0]; Flugkurven p_a(x) = −ax² + bx + 2, a > 0, ohne Knick in A → horizontaler Abstand der Kugel von der Ruhelage bei Höhe 1,50 m | f(x) = 1,5 lösen, Differenz zu x = −2
 2018MerhoehtAAnalysis11-a | 2 | nein | Begründung · Begründen Sie | f(x) = e^x + 1/2 x und g(x) = 1/2 x − 1 in IR → Begründung, dass die Graphen keinen gemeinsamen Punkt haben | Gleichung f(x) = g(x) auf e^x = −1 zurückführen
+2017MgrundlegendBAnalysisWTR-1c | 3 | ja | Kurzantwort · Deuten Sie¦Bestimmen Sie | Querschnitt einer Senke mit Fluss: Profillinie f(x) = −5x^2 · e^x + 1 für −6 <= x <= 0; linke Uferzone waagerecht in Höhe f(−6) links von x = −6, rechte Uferzone waagerecht in Höhe 1 rechts von x = 0 (Strecken parallel zur x-Achse, lückenlos an den Graphen anschließend); die Wasseroberfläche ist ein Abschnitt der x-Achse; 1 LE = 1 m; gegeben f'(x) = −5x · (2 + x) · e^x, f''(x) = −10e^x − 20x · e^x − 5x^2 · e^x und die Stammfunktion F(x) = x − 5 · (x^2 − 2x + 2) · e^x; Abbildung 1; Gleichung f(x + 3) = f(x) → Deutung der Gleichung im Sachzusammenhang und eine Lösung mithilfe von Abbildung 1 | Die Gleichung verlangt zwei Punkte der Profillinie auf gleicher Höhe mit 3 m waagerechtem Abstand; in Abbildung 1 eine waagerechte Strecke der Länge 3 zwischen linkem und rechtem Hang suchen und ihren linken Endpunkt ablesen
 2025MgrundlegendBAnalysisWTR2-2c | 5 | ja | Rechnung¦Kurzantwort · Ermitteln Sie¦Interpretieren Sie | Gleichung a(x + 3) = a(x) + 1000 mit genau einer Lösung für x > 0 → Lösung grafisch in Abbildung 2 und Bedeutung der Gleichung | Punkte P(x ¦ a(x)) und Q(x + 3 ¦ a(x) + 1000) auf dem Graphen suchen, x ablesen; deuten
 2020MgrundlegendBAnalysisWTR1-1a | 5 | ja | Rechnung · Zeigen Sie | Logo eines Geschäfts für Anglerbedarf: untere Begrenzungslinie des Fischs u(x) = 1/8 x³, obere Begrenzungslinie v(x) = 1/4 x² · (4 − x) (beide in IR definiert), Wasseroberfläche y = 5/4; die obere Spitze der Schwanzflosse liegt auf der Wasseroberfläche, die Strecke zwischen oberer und unterer Spitze der Schwanzflosse steht senkrecht dazu; Behauptungen: P(0 ¦ 0) und Q(8/3 ¦ 64/27) sind die einzigen gemeinsamen Punkte; v'(x) = −3/4 x² + 2x → Nachweis beider Behauptungen | u = v ausmultiplizieren, x² ausklammern, Lösungen und Funktionswerte angeben; v ausmultiplizieren und ableiten
 2025MgrundlegendAAnalysis22-a | 3 | nein | Kurzantwort¦Rechnung · Geben Sie an¦Ermitteln Sie | f(x) = −x^2 + 4x − 1, definiert in IR, Graph in der Abbildung; Gleichung (f(x) − 0)/(x − 0) = f'(x) → Term von f'¦Lösungen der Gleichung, rechnerisch | f'(x) = −2x + 4; die Gleichung mit x multiplizieren: −x^2 + 4x − 1 = −2x^2 + 4x, also x^2 = 1

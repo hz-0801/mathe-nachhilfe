@@ -3,10 +3,10 @@
 Stufe: II
 
 - fhr: Extremwertaufgaben (9 Zeilen)
-- abi: Extremalprobleme (7 Zeilen)
+- abi: Extremalprobleme (8 Zeilen)
 - iqb: Extremalprobleme (7 Zeilen)
 
-Stand: 2026-09-19, Commit 16e5c1f
+Stand: 2026-09-25, Commit 25322c5
 
 ## A Typenprofil
 
@@ -49,6 +49,9 @@ abitur/abitur-typen.csv (neu): Den Term für den Flächeninhalt eines Dreiecks m
 **Flächenterm eines einbeschriebenen Trapezes über die Mittelparallele geometrisch herleiten** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Einen vorgegebenen Flächenterm eines einbeschriebenen Trapezes als Produkt aus Mittelparallele und Höhe geometrisch begründen.
 
+**Kleinsten Abstand eines Punktes zu einem Graphen über die Abstandsfunktion bestimmen** · 1 Zeile · abi 1 · Jahre 2018
+abitur/abitur-typen.csv (neu): Den Abstand eines festen Punktes zu einem Punkt des Graphen als Funktion der Stelle aufstellen (meist als Abstandsquadrat), ihr Minimum über die Ableitung oder mit dem Rechner bestimmen und prüfen, dass die Minimalstelle auf dem betrachteten Graphenstück liegt.
+
 **Rechteck in das Koordinatensystem einzeichnen** · 1 Zeile · fhr 1 · Jahre 2020
 fhr/fhr-typen.csv (neu): Ein durch seine Eckpunkte gegebenes Rechteck in ein vorhandenes oder selbst angelegtes Koordinatensystem eintragen.
 
@@ -75,6 +78,7 @@ abitur/abitur-typen.csv (neu): Die Länge der gleich langen Schenkel eines einbe
 2022-bebb-gk-B2.1h | 5 | ja | Rechnung · Ermitteln Sie | f(x) = (x + 2) · e^(−x), definiert in IR, mit f'(x) = −(x + 1) · e^(−x); Ursprung und P(u ¦ v) auf dem Graphen mit u > 0 sind gegenüberliegende Ecken eines achsenparallelen Rechtecks; genau ein u liefert maximale Fläche; Kontrolle A'(u) = (2 − u²) · e^(−u) → Koordinaten von P für die maximale Fläche | A(u) = u · f(u) ableiten, A'(u) = 0 für u > 0, P berechnen
 2021-be-gk-A1.3b | 3 | nein | Rechnung · Weisen Sie nach | f(x) = x³ − 3x² + 4; P(x ¦ f(x)) mit 0 < x < 2 legt ein achsenparalleles Rechteck fest, dessen Flächeninhalt für genau ein x_max maximal ist → Nachweis, dass x_max ≠ 1 | A(x) = x · f(x) ableiten und A'(1) ≠ 0 zeigen
 2017-bb-ea-B2.2c | 9 | ja | Zeichnen¦Begründung¦Rechnung · Zeichnen Sie ein¦Begründen Sie¦Ermitteln Sie | Funktionenschar f_a mit f_a(x) = e^(2ax) + e^(−2ax); für a = 0,15 ist f_0,15(x) = e^(0,3x) + e^(−0,3x) mit dem Graphen G_0,15. Dieser wird von den Parallelen zur x-Achse mit der Gleichung y = k; 2 < k < 6 in den Punkten A_k und B_k geschnitten. A_k, B_k und der Punkt C(0 ¦ 6) bilden ein Dreieck. Ein Koordinatensystem mit dem Graphen G_0,15 ist auf der Folgeseite abgedruckt. → Zeichnung eines der möglichen Dreiecke A_k B_k C; Begründung ohne Rechnung, dass keines der Dreiecke einen minimalen Flächeninhalt haben kann, wohl aber eines einen maximalen; Gleichung für den Flächeninhalt in Abhängigkeit vom x-Wert des im I. Quadranten liegenden Eckpunktes | Wegen der Achsensymmetrie liegen A_k und B_k spiegelbildlich zur y-Achse: ist u der x-Wert des Eckpunktes im I. Quadranten, so ist die Grundseite 2u lang und die Höhe 6 − k = 6 − f_0,15(u). Für k gegen 2 schrumpft die Grundseite, für k gegen 6 die Höhe gegen null; da beide Randwerte wegen 2 < k < 6 nicht angenommen werden, gibt es kein kleinstes Dreieck, wegen der Stetigkeit im Inneren aber ein größtes.
+2018-bb-ea-cas-B2.2i | 5 | ja | Rechnung · Ermitteln Sie | Funktionenschar f_a mit f_a(x) = (1/a)·x³ + 3x² + 5x + 2a; x ∈ IR, a ∈ IR, a ≠ 0, und die Funktion h mit h(x) = −(1/2)·x^(−3); x ∈ IR, x ≠ 0. Die zugehörigen Graphen sind G_a und K. Ein Gartenbesitzer hat in einer Ecke seines Gartens einen Teich angelegt. Der Rand des Teiches an der Wasseroberfläche wird durch die Graphen G_2 und K modelliert. Im Intervall von −3 bis −2 verläuft eine Brücke über den Teich; 1 LE = 1 m. Eine Darstellung zeigt Teichoberfläche und Brücke senkrecht von oben betrachtet. Für einen Grillplatz hat der Gartenbesitzer eine Fläche betoniert; der Koordinatenursprung ist im Modell der Punkt der betonierten Fläche, der den geringsten Abstand zum Teichrand hat. → geringster Abstand des Koordinatenursprungs zum Teichrand | Der Ursprung liegt rechts unterhalb des Teichs, am nächsten liegt der untere Rand K. Das Abstandsquadrat d(x)² = x² + (h(x))² = x² + 0,25 · x^(−6) aufstellen und die Ableitung 2x − 1,5 · x^(−7) null setzen: x^8 = 0,75, also x ≈ −0,965, im Randstück zwischen den Schnittpunkten. Zum Vergleich ist der kleinste Abstand zum Randstück von G_2 etwa 1,80.
 2018-be-gk-B1.1g | 6 | ja | Begründung¦Rechnung · Weisen Sie nach | Flugbahn f mit f(x) = −0,008x² + 54 und Aufsprunghang g mit g(x) = 1/1000 · (1/2000 · x⁴ − 10x² + 50 000), 1 LE = 1 m; der Sprung führt von S(0 ¦ 54) bis zum Landepunkt L(73,9 ¦ 10,3). Auf die hinreichende Bedingung darf verzichtet werden. → Nachweis, dass der maximale vertikale Abstand des Springers zum Hang höchstens 6 m beträgt | Die Differenzfunktion d(x) = f(x) − g(x) beschreibt den vertikalen Abstand. d'(x) = 0,004x − x³/500 000 = 0 liefert nach Ausklammern x = 0 und x² = 2000, also x = 20√5 ≈ 44,7 im Flugbereich. Einsetzen ergibt d(20√5) = 38 − 32 = 6.
 2020-be-gk-B2.1g | 5 | ja | Rechnung · Berechnen Sie | f(x) = (6x − 3) · e^(−x), x ∈ IR; f'(x) = (−6x + 9) · e^(−x); im Bereich x ≥ 1 gibt es eine Stelle x_M maximalen senkrechten Abstands der Graphen von f und f'; Nachweis des Maximums nicht verlangt → x_M und der Abstand der Graphen an dieser Stelle | Differenz d = f − f' bilden (f liegt für x > 1 oberhalb), d' = 0 lösen, d(x_M) berechnen
 2021-be-gk-B2.2i | 7 | ja | Rechnung · Untersuchen Sie | f(x) = (−1/10 x² + 2x) · e^(−0,1x) und h(x) = −3/4 x · e^(−0,1x), beide in IR; Graphen G und H; d(x) = f(x) − h(x) beschreibt die vertikale Höhe des Flügels auf [0; 27,5]; die maximale Höhe darf 7,15 dm nicht überschreiten → ob die Konstrukteure die Vorgabe beachtet haben | d' = 0 lösen, die Stelle im Intervall wählen, d dort berechnen und mit 7,15 vergleichen

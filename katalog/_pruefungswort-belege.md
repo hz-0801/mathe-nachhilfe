@@ -3306,11 +3306,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.7 Fehler finden (Monotonie nach dem Vorzeichen von f'' statt f' angegeben; Intervallgrenzen bei null statt an der Extremstelle; f'(x₀) = 0 an einer Stelle als Gegenargument gegen die Monotonie) → didaktischer Typ, kein Prüfungstyp
 - 1.8 Begründen (warum ein Quadrat plus eine positive Zahl nie null wird; warum aus f' > 0 überall folgt, dass es keinen Extrempunkt gibt) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Extrempunkte** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 6 von 7 (Haupt 5) · FHR-Jahrgänge 8 von 8 (Haupt 8).
+**Einheit 2 · Extrempunkte** – Abitur-Jahrgänge GK 9 von 9 (Haupt 9) · LK 6 von 7 (Haupt 5) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 2.1 Extrem- und Sattelpunkte über zweite Ableitung (17) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 8
-- 2.2 Hochpunkt eines Produkts aus Polynom und e-Funktion berechnen (8) → wortgleich; GK 5 (2018, 2019, 2020, 2024, 2025), Haupt 4 · LK 1 (2025), Haupt 1 · FHR 0
-- 2.3 Lage und Art aller lokalen Extrempunkte bestimmen (6) → wortgleich; GK 6 (2018, 2020, 2021, 2022, 2023, 2024), Haupt 6 · LK 0 · FHR 0
+- 2.2 Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen (8) → wortgleich; GK 5 (2018, 2019, 2020, 2024, 2025), Haupt 4 · LK 1 (2025), Haupt 1 · FHR 0
+- 2.3 Lage und Art aller lokalen Extrempunkte bestimmen (6) → wortgleich; GK 7 (2017, 2018, 2020, 2021, 2022, 2023, 2024), Haupt 7 · LK 0 · FHR 0
 - 2.4 Abstand zweier Extrempunkte verschiedener Graphen mit einer Schranke vergleichen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
 - 2.5 Abstand zweier Extrempunkte über die Punktsymmetrie berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.6 Extrempunkte berechnen und ihre Verbindungsgerade als Winkelhalbierende nachweisen (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
@@ -3354,9 +3354,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.14 Fehler finden (Links- und Rechtskrümmung vertauscht; f''' vergessen; Wendestelle ohne Funktionswert; Sattelpunkt als bloßer Wendepunkt) → didaktischer Typ, kein Prüfungstyp
 - 3.15 Begründen (warum f'' das Vorzeichen wechseln muss, damit ein Wendepunkt vorliegt; warum die Wendetangente den Graphen dort durchsetzt) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 4 · Graph und Ableitungsgraph** – Abitur-Jahrgänge GK 7 von 9 (Haupt 6) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 4 · Graph und Ableitungsgraph** – Abitur-Jahrgänge GK 8 von 9 (Haupt 7) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Graphen einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen (3) → wortgleich; GK 3 (2018, 2019, 2020), Haupt 2 · LK 0 · FHR 0
+- 4.1 Graphen einer Funktion in ein Koordinatensystem einzeichnen (3) → wortgleich; GK 4 (2017, 2018, 2019, 2020), Haupt 3 · LK 0 · FHR 0
 - 4.2 Mindestgrad einer ganzrationalen Funktion aus Eigenschaften der Ableitung begründen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 4.3 Gemeinsamen Punkt zweier Graphen über gleiche Flächeninhalte indirekt begründen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.4 Logarithmus einer Exponentialfunktion als lineare Funktion nachweisen und Steigung und Achsenabschnitt angeben (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3370,7 +3370,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.12 Fehler finden (Graph von f' als Graph von f gelesen; an der Wendestelle ein Extrempunkt gezeichnet; Ableitungswert als Funktionswert abgelesen) → didaktischer Typ, kein Prüfungstyp
 - 4.13 Begründen (warum die Nullstellen von f' unter den Hoch- und Tiefpunkten von f liegen; warum der Graph von f' einen Grad einfacher ist) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 5 · Kurvenuntersuchung im Sachzusammenhang** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 4 von 8 (Haupt 4).
+**Einheit 5 · Kurvenuntersuchung im Sachzusammenhang** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 4 von 8 (Haupt 4).
 
 - 5.1 Zeitpunkt stärkster Abnahme über das Minimum der Ableitung berechnen (4) → wortgleich; GK 2 (2018, 2019), Haupt 2 · LK 0 · FHR 0
 - 5.2 Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen (2) → wortgleich; GK 1 (2019), Haupt 0 · LK 0 · FHR 0
@@ -3378,7 +3378,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 5.4 Funktionswert im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2024, 2025), Haupt 2
 - 5.5 Maße und Masse eines umschließenden Quaders eines Rotationskörpers aus Hochpunkt und Bereich mit Maßstab berechnen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
 - 5.6 Maximale Höhe im Sachzusammenhang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2023, 2024), Haupt 1
-- 5.7 Maximalen Neigungswinkel über die Wendestelle berechnen und mit einer Schranke vergleichen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.7 Maximalen Neigungswinkel über die Wendestelle berechnen und mit einer Schranke vergleichen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
 - 5.8 Steilsten Anstieg über den Wendepunkt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 1 (2021), Haupt 1
 - 5.9 Volumen eines umschließenden Quaders aus den Achsenschnittpunkten mit Maßstab berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
 - 5.10 Maximum eines Bestands an vorgegebener Stelle im Sachzusammenhang nachweisen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
@@ -3406,17 +3406,17 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.7 Fehler finden (Binomialverteilung bejaht, weil es nur zwei Ausgänge gibt, obwohl ohne Zurücklegen aus einer kleinen Gesamtheit gezogen wird; bei zwei Versuchen nur einen Pfad gerechnet; die Unabhängigkeit nicht genannt) → didaktischer Typ, kein Prüfungstyp
 - 1.8 Begründen (warum eine große Gesamtheit das Zurücklegen ersetzt; warum ein Spiel mit drei möglichen Ausgängen keine Bernoulli-Kette liefert) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Bernoulli-Formel** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 2 · Bernoulli-Formel** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 2.1 Einzelwahrscheinlichkeit der Binomialverteilung mit dem Rechner ermitteln (12) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 3 (2017, 2018, 2025), Haupt 3 · FHR 0
-- 2.2 Binomialwahrscheinlichkeit mit der Bernoulli-Formel oder der Tabelle berechnen (8; Ermessen, siehe Offene Punkte) → wortgleich; GK 3 (2019, 2020, 2021), Haupt 3 · LK 0 · FHR 0
+- 2.2 Binomialwahrscheinlichkeit mit der Bernoulli-Formel oder der Tabelle berechnen (8; Ermessen, siehe Offene Punkte) → wortgleich; GK 4 (2017, 2019, 2020, 2021), Haupt 4 · LK 0 · FHR 0
 - 2.3 Einzelwahrscheinlichkeit einer Binomialverteilung aus n und Erwartungswert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Stichprobenumfang aus dem Erwartungswert berechnen und Einzelwahrscheinlichkeit ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.5 Term für eine Wahrscheinlichkeit einer Bernoulli-Kette angeben (7) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
 - 2.6 Fehler finden (Binomialkoeffizient weggelassen, nur das Produkt der Einzelwahrscheinlichkeiten; Exponenten von p und 1 − p vertauscht; Trefferdefinition beim Zählen der Nieten nicht mitgewechselt; kumulierte statt Einzelwahrscheinlichkeit am Rechner) → didaktischer Typ, kein Prüfungstyp
 - 2.7 Begründen (warum jeder Pfad mit k Treffern dieselbe Wahrscheinlichkeit hat; warum die Potenz für „alle Treffer“ keinen Binomialkoeffizienten braucht) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Kumulierte Wahrscheinlichkeiten** – Abitur-Jahrgänge GK 7 von 9 (Haupt 6) · LK 5 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 3 · Kumulierte Wahrscheinlichkeiten** – Abitur-Jahrgänge GK 8 von 9 (Haupt 7) · LK 5 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln (22) → wortgleich; GK 3 (2018, 2022, 2026), Haupt 2 · LK 4 (2017, 2022, 2023, 2026), Haupt 3 · FHR 0
 - 3.2 Fehlerwahrscheinlichkeit einer Einheit binomial berechnen und als Trefferwahrscheinlichkeit einer zweiten Binomialverteilung verwenden (3) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
@@ -3426,19 +3426,19 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.6 Kumulierte Binomialwahrscheinlichkeit und Pfadwahrscheinlichkeit einer festen Anfangsfolge berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.7 Wahrscheinlichkeit einer prozentualen Abweichung vom Erwartungswert nach beiden Seiten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.8 Wahrscheinlichkeit eines zweistufigen Prüfplans über Binomialwahrscheinlichkeiten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.9 Wahrscheinlichkeit für Gewinn und Extrapreis über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 3.9 Wahrscheinlichkeit für zwei gleichzeitige Ereignisse über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 1 (2022), Haupt 1 · FHR 0
 - 3.10 Wahrscheinlichkeit für zwei unabhängige Spieler als Produkt binomialer Wahrscheinlichkeiten berechnen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
 - 3.11 Summenbedingung bei wiederholtem Wurf in eine Binomialwahrscheinlichkeit übersetzen und nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.12 Summenterme der Binomialverteilung auf ein vorgegebenes Mindestens-Ereignis prüfen und begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.13 Kumulierte Binomialsumme als Sachaussage formulieren (10) → wortgleich; GK 3 (2019, 2020, 2023), Haupt 3 · LK 0 · FHR 0
+- 3.13 Kumulierte Binomialsumme als Sachaussage formulieren (10) → wortgleich; GK 4 (2017, 2019, 2020, 2023), Haupt 4 · LK 0 · FHR 0
 - 3.14 Sachaussage zu einer Ungleichung mit Binomialsumme formulieren (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.15 Aufgabenstellung zu einer Potenz der Gegenwahrscheinlichkeit formulieren und Ansatz erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.16 Fehler finden („mehr als k“ als X ≥ k gelesen; „weniger als k“ als P(X ≤ k); beim Intervall die falsche untere Grenze abgezogen; ein Prozentanteil als Anzahl genommen; im Summenterm Treffer und Niete vertauscht; die Summe als „genau k“ gedeutet) → didaktischer Typ, kein Prüfungstyp
 - 3.17 Begründen (warum „mindestens k“ über das Gegenereignis „höchstens k − 1“ läuft; warum sich eine Anteilsbedingung erst in eine ganze Zahl übersetzen lässt) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 4 · Umkehraufgaben** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 4 · Umkehraufgaben** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Mindestanzahl von Versuchen einer Bernoulli-Kette über das Gegenereignis bestimmen (6) → wortgleich; GK 5 (2019, 2020, 2021, 2022, 2023), Haupt 5 · LK 1 (2017), Haupt 1 · FHR 0
+- 4.1 Anzahl von Versuchen einer Bernoulli-Kette für mindestens einen Treffer über das Gegenereignis bestimmen (6) → wortgleich; GK 6 (2017, 2019, 2020, 2021, 2022, 2023), Haupt 6 · LK 1 (2017), Haupt 1 · FHR 0
 - 4.2 Trefferwahrscheinlichkeit aus einer Bedingung an die Wahrscheinlichkeit für null Treffer bestimmen (4) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 0 · FHR 0
 - 4.3 Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln (3) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
 - 4.4 Kleinsten Radius einer symmetrischen Umgebung um den Erwartungswert für eine Mindestwahrscheinlichkeit ermitteln (3) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
@@ -3487,9 +3487,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.3 Fehler finden (zwei parallele Vektoren als Spannvektoren gewählt, etwa AB und DC; beim Nachweis eines Punktes die Parameter aus zwei Gleichungen bestimmt und die dritte Koordinate nicht geprüft; drei Punkte auf einer Geraden für ausreichend gehalten) → didaktischer Typ, kein Prüfungstyp
 - 1.4 Begründen (warum eine Ebene unendlich viele Parametergleichungen hat; warum drei Punkte auf einer Geraden keine Ebene festlegen) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Normalenvektor und Koordinatengleichung** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 5 von 7 (Haupt 5) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 2 · Normalenvektor und Koordinatengleichung** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 6 von 7 (Haupt 5) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen (20) → wortgleich; GK 5 (2018, 2020, 2021, 2024, 2025), Haupt 5 · LK 4 (2017, 2022, 2023, 2024), Haupt 3 · FHR 0
+- 2.1 Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen (20) → wortgleich; GK 6 (2017, 2018, 2020, 2021, 2024, 2025), Haupt 6 · LK 5 (2017, 2018, 2022, 2023, 2024), Haupt 3 · FHR 0
 - 2.2 Normalenvektor als Ortsvektor eines Ebenenpunktes bestimmen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
 - 2.3 Konstante einer Koordinatengleichung durch Einsetzen eines Punktes bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Normalenvektor einer Ebene aus zwei Richtungsvektoren über Skalarprodukte bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3521,12 +3521,12 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### ableitung-und-aenderungsrate
 
-**Einheit 1 · Mittlere Änderungsrate und Sekante** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 1 · Mittlere Änderungsrate und Sekante** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Mittlere Änderungsrate aus dem Graphen im Sachzusammenhang bestimmen (4) → wortgleich; GK 1 (2025), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
 - 1.2 Mittlere Änderungsrate aus dem Funktionsterm im Sachzusammenhang berechnen (3) → wortgleich; GK 1 (2019), Haupt 1 · LK 1 (2025), Haupt 1 · FHR 0
 - 1.3 Sekantengleichung durch zwei Punkte eines Graphen ermitteln (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.4 Mittlere Änderungsrate über ein Intervall berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.4 Mittlere Änderungsrate über ein Intervall berechnen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
 - 1.5 Mittlere Änderungsraten zweier Modelle vergleichen (1) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
 - 1.6 Umlaufzeit aus der Gesamtlänge eines symmetrischen Streckenzugs mit Halbkreisen und der Durchschnittsgeschwindigkeit berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
 - 1.7 Term für die mittlere Änderungsrate über Einheitsintervalle nachweisen und Zeitpunkt des Unterschreitens einer Schranke berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3550,9 +3550,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.9 Fehler finden (f'(x₀) als f(x₀) gelesen oder umgekehrt; die Konstante im Term mit abgeleitet; eine Sekante statt der Tangente eingezeichnet; die negative Rate als negativen Bestand gedeutet) → didaktischer Typ, kein Prüfungstyp
 - 2.10 Begründen (warum die Ableitung einer Geraden überall ihre Steigung ist; warum ein Gegenbeispiel eine Allaussage widerlegt, eine bestätigte Stelle sie aber nicht beweist) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Von der Sekante zur Tangente** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 3 · Von der Sekante zur Tangente** – Abitur-Jahrgänge GK 3 von 9 (Haupt 2) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 3.1 Stelle mit lokaler gleich mittlerer Änderungsrate bestimmen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 3.1 Stelle mit lokaler gleich mittlerer Änderungsrate bestimmen (2) → wortgleich; GK 2 (2017, 2022), Haupt 1 · LK 0 · FHR 0
 - 3.2 Mittlere und momentane Änderungsrate im Sachzusammenhang vergleichen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
 - 3.3 Mittlere Steigung berechnen und Tangentensteigung im Wendepunkt grafisch bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.4 Steigungen aller Sekanten durch einen Punkt des Graphen angeben (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
@@ -3560,12 +3560,12 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.6 Fehler finden (die Tangentensteigung zu den Sekantensteigungen gezählt, obwohl die Tangente den Graphen nur in P trifft; die Gleichung f'(x₀) = Differenzenquotient als Sekante selbst gedeutet; die Abweichung auf die mittlere statt auf die momentane Rate bezogen; der Betrag statt des Vorzeichens der Steigung) → didaktischer Typ, kein Prüfungstyp
 - 3.7 Begründen (warum die Sekantensteigungen gegen die Tangentensteigung streben; warum es zwischen zwei Punkten eine Stelle mit Tangente parallel zur Sekante gibt – anschaulich, nicht als Satz) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 4 · Die Rate als Funktion** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 4 · Die Rate als Funktion** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 4.1 Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion berechnen (4) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
 - 4.2 Länge des Zeitraums mit Mindeständerungsrate über die Lösungen von f'(x) = c berechnen (3) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
 - 4.3 Zeitpunkt der größten Rate aus der Ableitung angeben (3) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 4.4 Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
+- 4.4 Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen (2) → wortgleich; GK 2 (2017, 2018), Haupt 2 · LK 0 · FHR 0
 - 4.5 Größte und kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.6 Größte Änderungsrate über das Maximum der Ableitung im Sachzusammenhang berechnen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
 - 4.7 Zeitpunkte größter Differenz zweier Änderungsraten über die Extremstellen der Differenzfunktion berechnen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
@@ -3662,7 +3662,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.2 Alle Zeitpunkte für einen Wert einer Sinusfunktion in einem Intervall berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.3 Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen und im Graphen darstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.4 Zeitpunkt für einen Anteil des Maximalwerts einer Sinusfunktion berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Funktionalgleichung mit Zeitverschiebung grafisch lösen und im Sachzusammenhang deuten (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 3.5 Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
 - 3.6 Achsenparallele Quadrate mit Eckpunkt auf dem Graphen skizzieren, Gleichungen für die Seitenlängen angeben und Umfangsverhältnis beschreiben (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 3.7 Gleichung für zwei Graphenpunkte mit festem horizontalem Abstand und Höhenunterschied aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.8 Lösungen einer Differenzgleichung als Schnittstellen zweier Graphen grafisch beschreiben und angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3698,10 +3698,10 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### tangente-normale-schnittwinkel
 
-**Einheit 1 · Tangentengleichung im Punkt** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 6 von 7 (Haupt 6) · FHR-Jahrgänge 8 von 8 (Haupt 7).
+**Einheit 1 · Tangentengleichung im Punkt** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 6 von 7 (Haupt 6) · FHR-Jahrgänge 8 von 8 (Haupt 7).
 
-- 1.1 Tangentengleichung in einem Punkt des Graphen aufstellen (11) → wortgleich; GK 4 (2019, 2022, 2025, 2026), Haupt 4 · LK 2 (2017, 2018), Haupt 1 · FHR 0
-- 1.2 Berührpunkt der Tangente mit vorgegebener Steigung berechnen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 1.1 Tangentengleichung in einem Punkt des Graphen aufstellen (11) → wortgleich; GK 5 (2017, 2019, 2022, 2025, 2026), Haupt 5 · LK 2 (2017, 2018), Haupt 1 · FHR 0
+- 1.2 Berührpunkt der Tangente mit vorgegebener Steigung berechnen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
 - 1.3 Tangentengleichung im Punkt (3) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2021, 2022, 2024, 2025, 2026), Haupt 3
 - 1.4 Anstieg des Graphen an einer Stelle berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2022, 2023, 2024), Haupt 2
 - 1.5 Parallele Tangente über die Ableitung finden und skizzieren (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
@@ -3765,7 +3765,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.9 Fehler finden (die Tangentensteigung für die Normale übernommen oder nur das Vorzeichen gedreht, ohne den Kehrwert zu bilden; den Abstand senkrecht zur Achse statt senkrecht zur Tangente gemessen; die Tangente statt der Normalen angesetzt) → didaktischer Typ, kein Prüfungstyp
 - 3.10 Begründen (warum der kürzeste Abstand auf der Normalen liegt; warum der Mittelpunkt eines berührenden Kreises auf der Normalen im Berührpunkt liegt) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 4 · Steigungswinkel und Schnittwinkel** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 4 · Steigungswinkel und Schnittwinkel** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 4.1 Parameter aus dem senkrechten Schnitt zweier Graphen bestimmen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 4.2 Schnittwinkel zweier Graphen im gemeinsamen Punkt über die Tangentensteigungen berechnen (2) → wortgleich; GK 2 (2022, 2023), Haupt 2 · LK 0 · FHR 0
@@ -3776,7 +3776,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.7 Öffnungswinkel an der Spitze eines Rotationskörpers über die Tangentensteigung prüfen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
 - 4.8 Scharparameter für einen vorgegebenen Schnittwinkel des Graphen mit der y-Achse bestimmen (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
 - 4.9 Schnittwinkel eines Graphen mit einer waagerechten Geraden über die Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.10 Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen (1) → wortgleich; GK 2 (2018, 2021), Haupt 1 · LK 0 · FHR 0
+- 4.10 Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen (1) → wortgleich; GK 3 (2017, 2018, 2021), Haupt 2 · LK 0 · FHR 0
 - 4.11 Steigungswinkel des Graphen in einem Punkt über die Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.12 Steigungswinkel einer Tangente berechnen und Aussage über den Schnittwinkel mit einer Geraden prüfen (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
 - 4.13 Steigungswinkel und y-Achsenabschnitt der Wendetangente berechnen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
@@ -3786,9 +3786,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.17 Fehler finden (die Anstiege statt der Steigungswinkel voneinander abgezogen; den Winkel gegen die falsche Bezugslinie angegeben; den Rechner im Bogenmaß gelassen; nur den halben Winkel mit der Vorgabe verglichen; den Winkel als Steigung angegeben) → didaktischer Typ, kein Prüfungstyp
 - 4.18 Begründen (warum tan α = m die Steigung in einen Winkel übersetzt; warum senkrechter Schnitt das Produkt der Steigungen minus eins bedeutet) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 5 · Dreiecke und Figuren aus Tangente, Normale und Achsen** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 2 von 8 (Haupt 1).
+**Einheit 5 · Dreiecke und Figuren aus Tangente, Normale und Achsen** – Abitur-Jahrgänge GK 6 von 9 (Haupt 5) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 2 von 8 (Haupt 1).
 
-- 5.1 Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen (3) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
+- 5.1 Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen (3) → wortgleich; GK 2 (2017, 2026), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
 - 5.2 Berührpunkt der Tangente mit gleichschenkligem Achsendreieck über die Steigung −1 berechnen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 5.3 Flächeninhalt des Dreiecks aus Tangente, Gerade und x-Achse berechnen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
 - 5.4 Umfang des Achsendreiecks einer Tangente berechnen und Umkreismittelpunkt angeben (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
@@ -3872,10 +3872,10 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.29 Fehler finden (den Wert am falschen Graphen abgelesen; die Achsen beim Ablesen vertauscht; die Einheit der Achse übersehen; den Maßstab vergessen; e als Variable behandelt und die Gleichung lösen wollen) → didaktischer Typ, kein Prüfungstyp
 - 1.30 Begründen (warum ein Punkt auf dem Graphen „f von Stelle gleich Wert“ bedeutet; warum der Anfangswert der Funktionswert an der Stelle null ist) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Nullstellen** – Abitur-Jahrgänge GK 6 von 9 (Haupt 5) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
+**Einheit 2 · Nullstellen** – Abitur-Jahrgänge GK 7 von 9 (Haupt 6) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 2.1 Nullstellen über Substitution biquadratisch (5) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2022, 2023, 2026), Haupt 5
-- 2.2 Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben (3) → wortgleich; GK 3 (2020, 2021, 2024), Haupt 3 · LK 0 · FHR 0
+- 2.2 Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben (3) → wortgleich; GK 4 (2017, 2020, 2021, 2024), Haupt 4 · LK 0 · FHR 0
 - 2.3 Nullstellen durch Ausklammern (2) → wortgleich; GK 0 · LK 0 · FHR 5 (2019, 2023, 2024, 2025, 2026), Haupt 2
 - 2.4 Nullstellen mit Polynomdivision (2) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2021, 2022, 2023, 2024, 2025, 2026), Haupt 2
 - 2.5 Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen (2) → wortgleich; GK 3 (2021, 2022, 2025), Haupt 2 · LK 0 · FHR 0
@@ -3978,23 +3978,22 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 1 · Scharbegriff und Parameterwert** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 5 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 1.1 Scharparameter aus einem Punkt des Graphen angeben (9) → wortgleich; GK 0 · LK 4 (2017, 2018, 2022, 2024), Haupt 2 · FHR 0
-- 1.2 Parameter einer Schar aus einem vorgegebenen Punkt auf dem Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.3 Parameter einer Schar aus einer vorgegebenen Ausdehnung einer Figur bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.4 Scharparameter aus Anfangswert und Grenzwert über das Vorzeichen des Exponenten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.5 Scharparameter aus der Differenz zweier Scharfunktionswerte über eine Potenzgleichung bestimmen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 1.6 Scharparameter aus der Weite berechnen und Höhe des Hochpunkts angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.7 Graph der Schar zum Parametervorzeichen über das Grenzverhalten zuordnen (4) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.8 Steigung und Achsenschnittpunkt des linearen Sonderfalls einer Schar angeben (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 1.9 Einfluss eines additiven Scharparameters auf den Graphen beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.10 Einfluss eines multiplikativen Parameters auf den Graphen im Vergleich mit dem Ausgangsgraphen beschreiben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
-- 1.11 Gleichungen eines Bestimmungssystems für Scharparameter im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.12 Graph der Schar zu einem Parameterwert in die Abbildung skizzieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.13 Scharparameter den Graphen über Spiegelung und Extremstelle zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.14 Scharparameter den Graphen über den y-Achsenabschnitt zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.15 Scharparameter der Ausgangsfunktion angeben und Eignung zweier Scharfunktionen am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.16 Fehler finden (den Parameter als Variable behandelt und nach x aufgelöst; das Vorzeichen im Exponenten beim Vergleich verloren; die Zuordnung an der Form statt an einem parameterabhängigen Merkmal festgemacht) → didaktischer Typ, kein Prüfungstyp
-- 1.17 Begründen (warum ein Parameterwert genau einen Graphen liefert; warum der y-Achsenabschnitt die Kurven ordnet) → didaktischer Typ, kein Prüfungstyp
+- 1.1 Scharparameter aus einem Punkt des Graphen angeben (10) → wortgleich; GK 0 · LK 4 (2017, 2018, 2022, 2024), Haupt 2 · FHR 0
+- 1.2 Parameter einer Schar aus einer vorgegebenen Ausdehnung einer Figur bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.3 Scharparameter aus Anfangswert und Grenzwert über das Vorzeichen des Exponenten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.4 Scharparameter aus der Differenz zweier Scharfunktionswerte über eine Potenzgleichung bestimmen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 1.5 Scharparameter aus der Weite berechnen und Höhe des Hochpunkts angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.6 Graph der Schar zum Parametervorzeichen über das Grenzverhalten zuordnen (4) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 1.7 Steigung und Achsenschnittpunkt des linearen Sonderfalls einer Schar angeben (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 1.8 Einfluss eines additiven Scharparameters auf den Graphen beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.9 Einfluss eines multiplikativen Parameters auf den Graphen im Vergleich mit dem Ausgangsgraphen beschreiben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 1.10 Gleichungen eines Bestimmungssystems für Scharparameter im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.11 Graph der Schar zu einem Parameterwert in die Abbildung skizzieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.12 Scharparameter den Graphen über Spiegelung und Extremstelle zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.13 Scharparameter den Graphen über den y-Achsenabschnitt zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.14 Scharparameter der Ausgangsfunktion angeben und Eignung zweier Scharfunktionen am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.15 Fehler finden (den Parameter als Variable behandelt und nach x aufgelöst; das Vorzeichen im Exponenten beim Vergleich verloren; die Zuordnung an der Form statt an einem parameterabhängigen Merkmal festgemacht) → didaktischer Typ, kein Prüfungstyp
+- 1.16 Begründen (warum ein Parameterwert genau einen Graphen liefert; warum der y-Achsenabschnitt die Kurven ordnet) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Eigenschaften aller Graphen am Term** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 7 von 7 (Haupt 6) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4059,7 +4058,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.1 Fläche zwischen Graph und x-Achse in Abhängigkeit vom Scharparameter berechnen (4) → wortgleich; GK 0 · LK 2 (2023, 2024), Haupt 2 · FHR 0
 - 4.2 Scharparameter aus einer Nullstelle und einem Flächeninhalt bestimmen (3) → wortgleich; GK 0 · LK 2 (2017, 2024), Haupt 2 · FHR 0
 - 4.3 Scharparameter aus der Flächengleichheit von Quadrat und Flächenstück bestimmen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 4.4 Scharparameter aus einem vorgegebenen Flächeninhalt zwischen Graph und x-Achse berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.4 Scharparameter für einen vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.5 Scharparameter für eine vorgegebene Wendestelle berechnen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 4.6 Scharparameter für einen vorgegebenen Flächeninhalt eines Vierecks aus Hochpunkt und Achsenpunkten bestimmen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 4.7 Parameter einer Parabelschar aus dem knickfreien Übergang zu einem Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4117,9 +4116,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.10 Fehler finden (den vollen Ansatz gewählt, obwohl die Symmetrie ihn verkürzt; den y-Achsenabschnitt nicht direkt abgelesen; mit zwei Punkten ein unterbestimmtes System gebaut; den Punkt ungenau aus dem Bild abgelesen) → didaktischer Typ, kein Prüfungstyp
 - 1.11 Begründen (warum die Symmetrie Koeffizienten streicht; warum jede Bedingung genau eine Gleichung liefert) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Bedingungen mit Ableitung** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 2 von 8 (Haupt 1).
+**Einheit 2 · Bedingungen mit Ableitung** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 2 von 8 (Haupt 1).
 
-- 2.1 Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren (3) → wortgleich; GK 2 (2019, 2023), Haupt 2 · LK 1 (2022), Haupt 1 · FHR 0
+- 2.1 Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren (3) → wortgleich; GK 3 (2017, 2019, 2023), Haupt 3 · LK 1 (2022), Haupt 1 · FHR 0
 - 2.2 Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren (3) → wortgleich; GK 2 (2020, 2021), Haupt 2 · LK 0 · FHR 0
 - 2.3 Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren (2) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 0 · FHR 0
 - 2.4 Funktionsgleichung aus der Ableitung und einer Tangente über die Integrationskonstante rekonstruieren (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
@@ -4144,7 +4143,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### stammfunktion-und-hauptsatz
 
-**Einheit 1 · Stammfunktion** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 1 · Stammfunktion** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Stammfunktion mit einer Wertebedingung bestimmen (3) → wortgleich; GK 1 (2020), Haupt 0 · LK 0 · FHR 0
 - 1.2 Faktor für einen Stammfunktionsterm der Form r/x · f(x) bestimmen (1) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
@@ -4152,7 +4151,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.4 Stammfunktion aus einer vorgegebenen Integralgleichung ermitteln (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
 - 1.5 Stammfunktion eines Polynomterms nach dem Ausmultiplizieren angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.6 Stammfunktionen mit der x-Achse als Tangente über die Nullstellen der Funktion ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.7 Stammfunktion durch Ableiten nachweisen (8) → wortgleich; GK 4 (2018, 2020, 2022, 2024), Haupt 4 · LK 1 (2023), Haupt 1 · FHR 0
+- 1.7 Stammfunktion durch Ableiten nachweisen (8) → wortgleich; GK 5 (2017, 2018, 2020, 2022, 2024), Haupt 5 · LK 1 (2023), Haupt 1 · FHR 0
 - 1.8 Stammfunktionen mit vorgegebenem vertikalem Abstand zum Graphen einer Stammfunktion angeben (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 1.9 Fehler finden (aufgeleitet statt abgeleitet oder umgekehrt; die Integrationskonstante vergessen; beim Produktnachweis einen Faktor verloren; das Vorzeichen der inneren Ableitung verdreht) → didaktischer Typ, kein Prüfungstyp
 - 1.10 Begründen (warum alle Stammfunktionen sich nur um eine Konstante unterscheiden; warum der Nachweis eine Ableitungsrechnung ist) → didaktischer Typ, kein Prüfungstyp
@@ -4203,11 +4202,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### flaecheninhalt-durch-integration
 
-**Einheit 1 · Fläche zwischen Graph und x-Achse** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
+**Einheit 1 · Fläche zwischen Graph und x-Achse** – Abitur-Jahrgänge GK 5 von 9 (Haupt 4) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 1.1 Fläche zwischen Graph und x-Achse berechnen (10) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 7
 - 1.2 Fläche: Fläche zwischen Graph und x-Achse aus zwei Flächenstücken berechnen (4) → wortgleich; GK 2 (2021, 2024), Haupt 2 · LK 0 · FHR 0
-- 1.3 Fläche: Fläche zwischen Graph und Koordinatenachsen berechnen (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 1.3 Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen (2) → wortgleich; GK 2 (2017, 2025), Haupt 1 · LK 0 · FHR 0
 - 1.4 Fläche: Fläche zwischen Graph, x-Achse und zwei senkrechten Geraden mit vorgegebener Stammfunktion berechnen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 1.5 Fläche: Flächeninhalt einer Vorderansicht als Integral mit Maßstab und Abzug berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.6 Fläche: Flächeninhalt zwischen Graph, x-Achse und senkrechter Gerade im Sachzusammenhang mit Maßstab berechnen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 0 · FHR 0
@@ -4218,9 +4217,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.11 Fehler finden (den negativen Integralwert ohne Betrag als Fläche angegeben; über eine Nullstelle hinweg in einem Zug integriert; nur eine Teilfläche berechnet; die untere Grenze am Zeichenintervall statt an der Nullstelle angesetzt) → didaktischer Typ, kein Prüfungstyp
 - 1.12 Begründen (warum der Betrag nötig ist; warum die Nullstellen die Grenzen liefern) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Fläche zwischen zwei Graphen** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 7 von 8 (Haupt 6).
+**Einheit 2 · Fläche zwischen zwei Graphen** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 5 von 7 (Haupt 5) · FHR-Jahrgänge 7 von 8 (Haupt 6).
 
-- 2.1 Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen (14) → wortgleich; GK 3 (2018, 2019, 2021), Haupt 3 · LK 3 (2018, 2023, 2026), Haupt 3 · FHR 0
+- 2.1 Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen (14) → wortgleich; GK 3 (2018, 2019, 2021), Haupt 3 · LK 4 (2017, 2018, 2023, 2026), Haupt 4 · FHR 0
 - 2.2 Fläche zwischen zwei Graphen berechnen (6) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2020, 2021, 2022, 2023, 2024, 2026), Haupt 6
 - 2.3 Fläche: Fläche zwischen Graph und Hochpunktgerade über eine Periode berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Fläche: Fläche zwischen Graph und zwei Tangenten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4339,9 +4338,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### rotationsvolumen
 
-**Einheit 1 · Die Volumenformel** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 3 von 8 (Haupt 3).
+**Einheit 1 · Die Volumenformel** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 3 von 8 (Haupt 3).
 
-- 1.1 Rotationsvolumen um die x-Achse berechnen (4) → wortgleich; GK 0 · LK 0 · FHR 3 (2019, 2020, 2024), Haupt 3
+- 1.1 Rotationsvolumen um die x-Achse berechnen (4) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 3 (2019, 2020, 2024), Haupt 3
 - 1.2 Gleichung für die Füllhöhe aus einem Rotationsvolumen zwischen variablen Grenzen aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.3 Wasservolumen als Differenz aus Rotationsvolumen und Kugelvolumen nach unten abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Fehler finden (den Funktionsterm nicht oder gliedweise quadriert; das gemischte Glied vergessen; die Kreiszahl weggelassen; das Volumen in Volumeneinheiten stehen gelassen) → didaktischer Typ, kein Prüfungstyp
@@ -4382,11 +4381,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.10 Fehler finden (Punkte auf die falschen Kanten gesetzt; das Vorzeichen negativer Koordinaten beim Eintragen verloren; die Symmetrie zur falschen Koordinatenebene behauptet; die Spitze statt ihrer Projektion betrachtet) → didaktischer Typ, kein Prüfungstyp
 - 1.11 Begründen (warum eine Koordinate null den Punkt in die Koordinatenebene legt; warum die Projektion parallel zur Achse genau eine Koordinate löscht) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Streckenlängen, Mittelpunkt und Teilpunkte** – Abitur-Jahrgänge GK 5 von 9 (Haupt 3) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 2 · Streckenlängen, Mittelpunkt und Teilpunkte** – Abitur-Jahrgänge GK 6 von 9 (Haupt 4) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 2.1 Punkt: Koordinaten eines Punktes auf einer Strecke in Abhängigkeit von seiner Höhe ermitteln (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 2.2 Körper: Gesamtlänge der Dachkanten einer Pyramide mit Zuschlag berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.3 Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen (1) → wortgleich; GK 1 (2018), Haupt 0 · LK 0 · FHR 0
+- 2.2 Körper: Gesamtlänge gleich langer Strecken an einem Körper über einen Vektorbetrag berechnen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 2.3 Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen (1) → wortgleich; GK 2 (2017, 2018), Haupt 0 · LK 0 · FHR 0
 - 2.4 Körper: Länge eines Streckenzugs aus Kanten und Diagonalen eines Quaders im Sachzusammenhang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.5 Punkt: Begegnungspunkt zweier gleichzeitig startender Bewegungen auf einer Strecke aus den Geschwindigkeiten berechnen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
 - 2.6 Punkt: Lage eines bewegten Punktes gegenüber einer Mauer über Zeitpunkt und Höhe untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4467,7 +4466,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 2 · Vektorterme am Körper** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 2.1 Verschobenen Punkt über den Diagonalenschnittpunkt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.2 Vierten Eckpunkt eines Quadrats über eine Vektoraddition bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.2 Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.3 Vektorterm für einen Eckpunkt eines Pyramidenstumpfs begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Lage eines Punktes zu einem Vektorterm im Quader beschreiben (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 2.5 Punkt zu einem Vektorterm in das Schrägbild einzeichnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4495,20 +4494,20 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### geraden
 
-**Einheit 1 · Geradengleichung aufstellen und lesen** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 1 · Geradengleichung aufstellen und lesen** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Parallele Gerade durch einen Teilpunkt einer Strecke bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.2 Parallelität einer Geraden zu einer Koordinatenachse über die Koordinaten begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.3 Echt parallele und senkrecht schneidende Gerade zu einer gegebenen Geraden angeben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
 - 1.4 Gerade in einer Ebene durch einen Punkt parallel zu einer Koordinatenebene angeben (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 1.5 Geradengleichung durch zwei Punkte aufstellen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 1.5 Geradengleichung durch zwei Punkte aufstellen (1) → wortgleich; GK 2 (2017, 2019), Haupt 2 · LK 0 · FHR 0
 - 1.6 Parametergleichung einer Strecke im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.7 Fehler finden (für die echt parallele Gerade einen Stützpunkt auf der Geraden selbst gewählt; einen Spannvektor der Ebene als Richtungsvektor genommen, der die Koordinatenebene schneidet; das Teilverhältnis als Bruchteil gelesen; die Streckengleichung als ganze Gerade gedeutet) → didaktischer Typ, kein Prüfungstyp
 - 1.8 Begründen (warum die Punktprobe des Stützpunkts über echt parallel entscheidet; warum die Richtungskomponente null den Schnitt mit der Koordinatenebene verhindert) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Punktprobe und Punkte auf der Geraden** – Abitur-Jahrgänge GK 5 von 9 (Haupt 4) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 2 · Punktprobe und Punkte auf der Geraden** – Abitur-Jahrgänge GK 6 von 9 (Haupt 5) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.1 Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen (2) → wortgleich; GK 1 (2017), Haupt 1 · LK 1 (2017), Haupt 1 · FHR 0
 - 2.2 Höhe eines Punktes auf einer Strecke aus der Entfernung vom Anfang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.3 Punkt auf einer Geraden mit vorgegebener Koordinate angeben (1) → wortgleich; GK 2 (2019, 2025), Haupt 0 · LK 0 · FHR 0
 - 2.4 Punktprobe an einer Geraden durchführen (11) → wortgleich; GK 3 (2018, 2023, 2025), Haupt 3 · LK 1 (2025), Haupt 1 · FHR 0
@@ -4527,9 +4526,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.7 Fehler finden (wegen des gemeinsamen Stützpunkts Identität angenommen; gleiche Richtungsvektoren als Identität gelesen; die Windschiefe nur über die fehlende Parallelität begründet; nur „kein Schnittpunkt“ gezeigt und die Parallelität nicht ausgeschlossen) → didaktischer Typ, kein Prüfungstyp
 - 3.8 Begründen (warum zwei nicht parallele Geraden einer Ebene sich schneiden müssen; warum senkrechtes Schneiden im Raum keinen Schnitt mit der Parallelen erzwingt) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 4 · Sachgeraden** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 4 · Sachgeraden** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Höhenunterschied zweier übereinanderliegender Punkte auf Seilgeraden bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.1 Höhenunterschied senkrecht übereinanderliegender Punkte über gleiche x- und y-Koordinaten bestimmen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
 - 4.2 Neigung einer Strecke in Prozent aus Höhendifferenz und Horizontalabstand berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.3 Lösungsweg zur Bestimmung eines Punktes auf einer Geraden beschreiben (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
 - 4.4 Lösungsansatz für eine bewegte Gerade durch einen festen Punkt erläutern und im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4631,18 +4630,18 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.6 Fehler finden (die Vektoren nicht von derselben Ecke aus angesetzt; einen Vektor in Gegenrichtung genommen und den Nebenwinkel erhalten; den Betrag im Zähler weggelassen und den stumpfen Winkel angegeben; das falsche Eckenpaar auf den rechten Winkel geprüft) → didaktischer Typ, kein Prüfungstyp
 - 2.7 Begründen (warum beide Vektoren vom Scheitel weg zeigen müssen; warum der Betrag im Zähler den spitzen Winkel liefert) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Neigungswinkel von Ebenen** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 3 · Neigungswinkel von Ebenen** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 3.1 Neigungswinkel einer Ebene gegen eine Koordinatenebene über die Normalenvektoren berechnen (17) → wortgleich; GK 5 (2018, 2021, 2023, 2024, 2025), Haupt 5 · LK 3 (2017, 2023, 2025), Haupt 3 · FHR 0
+- 3.1 Neigungswinkel einer Ebene gegen eine Koordinatenebene über die Normalenvektoren berechnen (17) → wortgleich; GK 6 (2017, 2018, 2021, 2023, 2024, 2025), Haupt 6 · LK 3 (2017, 2023, 2025), Haupt 3 · FHR 0
 - 3.2 Innenwinkel zwischen Dachebene und vertikaler Wand über den Neigungswinkel berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.3 Winkel zwischen einer Seitenfläche und der Horizontalen als Grenzwinkel im Sachzusammenhang bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.4 Neigung einer Ebene in Prozent über den Winkel zur Koordinatenebene prüfen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.5 Fehler finden (den Sinus statt des Kosinus genommen; das Komplement – den Winkel zwischen Normalenvektor und Ebene – angegeben; den Nebenwinkel statt des Innenwinkels gelassen; einen Betrag falsch berechnet; die Neigung in Prozent mit dem Gradmaß gleichgesetzt) → didaktischer Typ, kein Prüfungstyp
 - 3.6 Begründen (warum der Winkel der Normalenvektoren der Winkel der Ebenen ist; warum der Tangens die Neigung in Prozent liefert) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 4 · Winkel von Geraden gegen Ebenen und Bogenmaße** – Abitur-Jahrgänge GK 1 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 4 · Winkel von Geraden gegen Ebenen und Bogenmaße** – Abitur-Jahrgänge GK 2 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Schnittwinkel zwischen Gerade und Ebene über Richtungs- und Normalenvektor berechnen (3) → wortgleich; GK 1 (2019), Haupt 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 4.1 Schnittwinkel zwischen Gerade und Ebene über Richtungs- und Normalenvektor berechnen (3) → wortgleich; GK 2 (2017, 2019), Haupt 0 · LK 1 (2017), Haupt 1 · FHR 0
 - 4.2 Länge eines Kreisbogens durch drei Punkte über den Winkel am Mittelpunkt berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.3 Neigungswinkel einer Strecke gegen die Horizontale über ihre Projektion berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.4 Fehler finden (den Kosinus statt des Sinus genommen und den Winkel zur Normalen erhalten; den Winkel zur Vertikalen statt zur Horizontalen angegeben; den Radius falsch angesetzt) → didaktischer Typ, kein Prüfungstyp
@@ -4692,10 +4691,10 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### abstaende
 
-**Einheit 1 · Abstand zweier Punkte** – Abitur-Jahrgänge GK 4 von 9 (Haupt 3) · LK 3 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 1 · Abstand zweier Punkte** – Abitur-Jahrgänge GK 5 von 9 (Haupt 3) · LK 3 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Parameter aus der Gleichschenkligkeit eines Dreiecks berechnen (6) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
-- 1.2 Streckenlänge im Raum berechnen (5) → wortgleich; GK 3 (2018, 2019, 2020), Haupt 2 · LK 2 (2017, 2018), Haupt 0 · FHR 0
+- 1.2 Streckenlänge berechnen (5) → wortgleich; GK 4 (2017, 2018, 2019, 2020), Haupt 2 · LK 2 (2017, 2018), Haupt 0 · FHR 0
 - 1.3 Erreichbarkeit der Grundfläche über den größten Abstand zu einem Punkt beurteilen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Nächsten und fernsten Punkt des Deckflächenrands eines Zylinders zu einem Randpunkt der Grundfläche bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.5 Sprungweite als Abstand zweier Punkte einer Parameterkurve in der Grundebene berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4865,11 +4864,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.14 Fehler finden (eine Schenkellänge als Trapezhöhe genommen; die Rautenfläche als Seite mal Seite gerechnet; den halben Diagonalenabstand als Seitenlänge genommen; die Verschiebung nur auf einer Seite angesetzt; die Schnittgerade in der falschen Höhe bestimmt; das Netz mit der Seillänge statt dem Pfahlabstand gerechnet; die Formel nur zitiert statt am Rechteck zu begründen; nur eine Lösung der Wurzelgleichung ohne Begründung angegeben; den falschen Anteil der Fläche genommen) → didaktischer Typ, kein Prüfungstyp
 - 2.15 Begründen (warum die Trapezhöhe senkrecht zwischen den parallelen Seiten gemessen wird; warum das halbe Diagonalenprodukt am umschließenden Rechteck sichtbar wird) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Volumen und Oberfläche von Pyramide und Prisma: Grundfläche mal Höhe, bei der Pyramide der Faktor ein Drittel; die Höhe als Abstand der Spitze zur Grundflächenebene (waagerechte Grundfläche: z-Differenz; senkrechte Kante über Skalarprodukte erkennen); die Grundfläche aus den Kästen eins und zwei (Drachen, Trapez, Raute, rechtwinkliges Dreieck); Oberflächen (Seitenhöhe über Pythagoras** – Abitur-Jahrgänge GK 4 von 9 (Haupt 3) · LK 5 von 7 (Haupt 5) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 3 · Volumen und Oberfläche von Pyramide und Prisma: Grundfläche mal Höhe, bei der Pyramide der Faktor ein Drittel; die Höhe als Abstand der Spitze zur Grundflächenebene (waagerechte Grundfläche: z-Differenz; senkrechte Kante über Skalarprodukte erkennen); die Grundfläche aus den Kästen eins und zwei (Drachen, Trapez, Raute, rechtwinkliges Dreieck); Oberflächen (Seitenhöhe über Pythagoras** – Abitur-Jahrgänge GK 5 von 9 (Haupt 4) · LK 5 von 7 (Haupt 5) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Körper: Kürzeste und längste Kante und Volumen einer Pyramide über einem Drachenviereck berechnen (4) → wortgleich; GK 1 (2025), Haupt 1 · LK 1 (2025), Haupt 1 · FHR 0
 - 3.2 Körper: Höhe einer Pyramide aus dem Volumen bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.3 Körper: Oberflächeninhalt einer quadratischen Pyramide berechnen (2) → wortgleich; GK 1 (2021), Haupt 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 3.3 Körper: Oberflächeninhalt einer quadratischen Pyramide berechnen (2) → wortgleich; GK 2 (2017, 2021), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
 - 3.4 Körper: Pyramidenvolumen aus Grundfläche und Höhe berechnen (2) → wortgleich; GK 1 (2020), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
 - 3.5 Körper: Volumen aus Prisma und aufgesetzter Pyramide berechnen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 3.6 Körper: Höhe eines Prismas aus dem Mantelflächeninhalt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -5069,9 +5068,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### bedingte-wahrscheinlichkeit-und-bayes
 
-**Einheit 1 · Der Quotient** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 1 · Der Quotient** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 1.1 Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen (12) → wortgleich; GK 3 (2018, 2022, 2023), Haupt 3 · LK 2 (2017, 2018), Haupt 1 · FHR 0
+- 1.1 Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen (12) → wortgleich; GK 4 (2017, 2018, 2022, 2023), Haupt 4 · LK 2 (2017, 2018), Haupt 1 · FHR 0
 - 1.2 Bedingte Anteile aus der Vierfeldertafel vergleichen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.3 Bedingte Wahrscheinlichkeit aus der Vierfeldertafel mit absoluten Häufigkeiten angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Fehler finden (die Bedingung vertauscht – durch den falschen Rand geteilt, das Kernfehlmuster des Themas; den Quotienten auf die Gesamtheit statt auf die Bedingungsgruppe bezogen; Schnittanteile direkt verglichen statt bedingte Anteile; absolute statt bedingte Anteile verglichen) → didaktischer Typ, kein Prüfungstyp
@@ -5197,7 +5196,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.2 Standardabweichung einer Binomialverteilung aus n und Erwartungswert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.3 Parameter n aus Erwartungswert und Symmetrie einer Binomialverteilung ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.4 Verhältnis der Varianzen zweier Binomialverteilungen aus dem Erwartungswert im Diagramm bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Stichprobenumfang für eine verdoppelte Standardabweichung der Binomialverteilung ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.5 Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.6 Standardabweichung über einen Summanden der Varianz abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.7 Gleiche Standardabweichung zweier komplementärer Zufallsgrößen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.8 Monotonie der Varianz einer Binomialverteilung in p über die Parabel begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -5334,11 +5333,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.15 Fehler finden (doch gerechnet, wo eine Begründung über Anzahlen verlangt war; gleiche Augenzahlen beim Vergleich „kleiner als“ mitgezählt; (2; 6) und (6; 2) als ein Ergebnis genommen; die Grundmenge nicht angepasst – Leiterin nicht abgezogen, die Gesamtzahl der Sektoren nicht bestimmt; verschieden große Sektoren als gleich wahrscheinlich angesetzt; beim Term in n den Nenner um eins statt um die Zahl der hinzugefügten Kugeln erhöht) → didaktischer Typ, kein Prüfungstyp
 - 2.16 Begründen (warum beim Vergleich zweier Laplace-Wahrscheinlichkeiten der Nenner wegbleiben darf; warum ein Glücksrad mit ungleichen Sektoren kein Laplace-Experiment ist, ein Würfel mit doppelt beschrifteten Seiten aber doch) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Pfadregeln bei unabhängigen Stufen** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 6 von 8 (Haupt 5).
+**Einheit 3 · Pfadregeln bei unabhängigen Stufen** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 6 von 8 (Haupt 5).
 
 - 3.1 Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen (7) → wortgleich; GK 1 (2021), Haupt 1 · LK 2 (2017, 2022), Haupt 2 · FHR 0
 - 3.2 Pfadwahrscheinlichkeit für lauter gleiche Ergebnisse als Potenz berechnen (6) → wortgleich; GK 1 (2024), Haupt 1 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.3 Pfadwahrscheinlichkeit zweier Stufen aus dem Sachtext berechnen (3) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 3.3 Pfadwahrscheinlichkeit zweier Stufen aus dem Sachtext berechnen (3) → wortgleich; GK 2 (2017, 2019), Haupt 2 · LK 0 · FHR 0
 - 3.4 Wahrscheinlichkeit einer vorgegebenen Augensumme bei zwei Würfen über Pfade berechnen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 3.5 Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen (3) → wortgleich; GK 1 (2020), Haupt 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 3.6 Wahrscheinlichkeit einer ungeraden Summe über Pfade berechnen (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
@@ -5359,13 +5358,13 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.21 Fehler finden (Wahrscheinlichkeiten addiert oder vervielfacht statt multipliziert; einen Binomialkoeffizienten ergänzt, obwohl die Reihenfolge festliegt; die Potenz mit der Trefferwahrscheinlichkeit statt der Nietenwahrscheinlichkeit gebildet; nur einen von mehreren Pfaden gerechnet; beim Abbruch alle Pfade auf volle Länge gezeichnet; in einem Wechselspiel nur den ersten Zug des Zweiten berücksichtigt; „höchstens einmal“ als „genau einmal“ gelesen) → didaktischer Typ, kein Prüfungstyp
 - 3.22 Begründen (warum die Äste auf jeder Stufe gleich bleiben, wenn zurückgelegt wird oder verschiedene Geräte gedreht werden; warum „mindestens einmal in n Versuchen“ über das Gegenereignis eine Potenz wird; warum beim Abbruch die Pfade verschieden lang sind und sich trotzdem zu eins ergänzen) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 4 · Ziehen ohne Zurücklegen und Umlegen** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 7).
+**Einheit 4 · Ziehen ohne Zurücklegen und Umlegen** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 7).
 
 - 4.1 Ziehen ohne Zurücklegen: Wahrscheinlichkeit beim zweimaligen Ziehen ohne Zurücklegen berechnen (9) → wortgleich; GK 4 (2018, 2019, 2020, 2025), Haupt 4 · LK 0 · FHR 0
 - 4.2 Wahrscheinlichkeit bei zweistufigem Umlegen zwischen Urnen berechnen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
 - 4.3 Gegenereignis nutzen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2024, 2025, 2026), Haupt 1
 - 4.4 Pfadregel mehrstufig ohne Zurücklegen anwenden (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 5 (2020, 2021, 2023, 2024, 2025), Haupt 1
-- 4.5 Ziehen ohne Zurücklegen: Wahrscheinlichkeit für ausschließlich eine Sorte beim mehrfachen Ziehen als Produkt berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 4.5 Ziehen ohne Zurücklegen: Wahrscheinlichkeit für ausschließlich eine Sorte beim mehrfachen Ziehen als Produkt berechnen (1) → wortgleich; GK 2 (2017, 2023), Haupt 2 · LK 0 · FHR 0
 - 4.6 Ziehen ohne Zurücklegen: Wahrscheinlichkeit für spätestens den dritten Zug über das Gegenereignis berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.7 Ziehen ohne Zurücklegen: Gleiche Chance verschiedener Ziehungspositionen beim Ziehen ohne Zurücklegen begründen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
 - 4.8 Baumdiagramm mehrstufig ohne Zurücklegen darstellen (10; fhr) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2020, 2021, 2022, 2023, 2024, 2025), Haupt 7
@@ -5388,12 +5387,12 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 5.11 Fehler finden (den Faktor für die Reihenfolgen vergessen – der häufigste Fehler des Themas; einen Binomialkoeffizienten für einen Block genommen, der nur wenige Lagen hat; eine Zerlegung der Summe übersehen; „weniger als zwei“ als „höchstens zwei“ gelesen; beim Lotto-Bruch die Auswahl der einen Sorte im Zähler vergessen) → didaktischer Typ, kein Prüfungstyp
 - 5.12 Begründen (warum alle Pfade mit denselben Sorten in anderer Reihenfolge dieselbe Wahrscheinlichkeit haben – auch ohne Zurücklegen; warum der Lotto-Bruch und der Pfadweg dasselbe Ergebnis liefern) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 6 · Situationsbäume** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 7 von 7 (Haupt 6) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 6 · Situationsbäume** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 7 von 7 (Haupt 6) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 6.1 Fehlende Wahrscheinlichkeiten im Baumdiagramm über die Pfadregel ermitteln (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 6.2 Anteil über die totale Wahrscheinlichkeit aus dem Baumdiagramm berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.3 Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen (2) → wortgleich; GK 0 · LK 2 (2017, 2023), Haupt 1 · FHR 0
-- 6.4 Totale Wahrscheinlichkeit über die Pfadregeln nachweisen (4) → wortgleich; GK 2 (2021, 2025), Haupt 2 · LK 0 · FHR 0
+- 6.3 Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen (2) → wortgleich; GK 1 (2017), Haupt 0 · LK 2 (2017, 2023), Haupt 1 · FHR 0
+- 6.4 Totale Wahrscheinlichkeit über die Pfadregeln nachweisen (4) → wortgleich; GK 3 (2017, 2021, 2025), Haupt 3 · LK 0 · FHR 0
 - 6.5 Absolute Anzahl aus einer Pfadwahrscheinlichkeit mit einer Schranke vergleichen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 6.6 Anzahlvergleich zweier Teilgruppen über Pfadwahrscheinlichkeiten nachweisen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 6.7 Baumdiagramm zu einer zweistufigen Situation erstellen (11) → wortgleich; GK 1 (2025), Haupt 1 · LK 5 (2017, 2018, 2023, 2024, 2025), Haupt 3 · FHR 0
