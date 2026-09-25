@@ -1,0 +1,2393 @@
+# Sek-II-Ordnung nach Halbjahr und Kursart je Lerneinheit (Vorschlagsliste)
+Eingaben auf Stand unbekannt. Erzeugt im Auftrag Nacht 2026-09-26 (Teil 3) von `werkzeuge/sek2-ordnung-belege.py` aus den Sek-II-Einträgen, `katalog/_kursart-belege.md` (Planstellen), den Rahmenlehrplantexten und den Sek-II-Verzeichnissen unter `quellen/` sowie den Zuordnungsdaten `werkzeuge/sek2-ordnung-belege-daten.py`; abgeleitet, nie von Hand ändern. Zweck: für die Oberstufe ordnen Halbjahr und Kursart statt der Klasse (`ziel.md` § 5). Kein Eintrag wird geändert, nichts wird entschieden; „keine Stelle“ ist ein Ergebnis.
+
+Quellen:
+- Rahmenlehrplan GOST Berlin (`quelle-rlp-gost-be-2022-mathematik.txt`): Kurshalbjahr in der Spalte „Khj“ am rechten Rand des Standards (Q1–Q4; „Q1/2“ heißt Q1 oder Q2), Block „Grundkursfach und Leistungskursfach“ oder „Zusätzlich: Leistungskursfach“.
+- Rahmenlehrplan GOST Brandenburg (`quelle-rlp-gost-bb-2022-mathematik.txt`): Kurshalbjahr = Abschnitt „Q1 1. Kurshalbjahr“ … „Q4“ (Zeilen 864, 1030, 1196, 1313), Block „Grund- und Leistungskursfach“ oder „Zusätzlich im Leistungskursfach“.
+- Rahmenlehrplan Fachoberschule (`quelle-rlp-fos-bb-2019-mathematik.txt`): Themenfeld 1–8; die FOS ist einjährig, ohne Kurshalbjahr und Kursart. Gesucht werden die FOS-Zitate der Lerneinheitszeile des Eintrags.
+- Die Planstellen je Einheit stammen aus `katalog/_kursart-belege.md` (dort am Quelltext geprüft, mit Ermessen); Halbjahr und Block liest dieses Skript am Quelltext nach.
+- Lehrwerke: Bigalke/Köhler Brandenburg 2019/2020, Bände GK 11, LK 11, GK 12, LK 12 (`quelle-cornelsen-bigalkekoehler-sek2-bebb-inhalt.txt`; Reihenfolge-Quelle, keine Form-Quelle, Beschluss 25.09.2026); Fundamente der Mathematik Ausgabe B, nur Einführungsphase (`quelle-cornelsen-fundamente-sek2-ausgabeb-inhalt.txt`); Elemente der Mathematik SII NRW 2024/2025, nur Gegenprobe (`quelle-westermann-elemente-der-mathematik-sek2-nrw-inhalt.txt`); Mathematik Neue Wege SII Berlin 2011, nur Gegenprobe (`quelle-westermann-mathematikneuewege-sek2-berlin2011-inhalt.txt`).
+
+Lesart:
+- Eine Lehrwerkszeile gehört zu einer Einheit, wenn sie ihren Inhalt nennt; maßgeblich ist der Inhalt, nicht der Wortlaut. Zitiert ist die Kapitelzeile wortgleich (ohne Führungspunkte und Seitenzahl), davor die Kapitelüberschrift; S. = Seite laut Verzeichnis, Z. = Zeilennummer der Quelldatei. Wiederholungs- und Übersichtskapitel (Abiturvorbereitung, Grundstrategien) zählen nicht in die Zusammenfassung.
+- „Halbjahr:“ nennt die Kurshalbjahre beider Pläne (gleich: einmal) und die Bigalke/Köhler-Bände (11 oder 12). „GK/LK:“ nennt die Blöcke beider Pläne („GK und LK“ = mindestens eine Stelle im gemeinsamen Block) und die Bigalke/Köhler-Kursbände. „nur LK: ja“, wenn jede Planstelle im Leistungskurszusatz steht (mindestens eine Stelle) oder Bigalke/Köhler die Einheit nur in LK-Bänden führt.
+- „Ermessen:“ steht an der Einheit, deren Zuordnung eine Auslegung verlangt (aus `_kursart-belege.md` übernommen oder neu).
+
+## Zahlen
+Einträge: 46 (44 Sek-II-Einträge der Tabelle Sekundarstufe II und 2 Sek-I-Einträge mit Sek-II-Einheit); Lerneinheiten: 157.
+Einheiten mit Planstelle Berlin: 155, Brandenburg: 151, in keinem Plan: 2 (gleichungen-loesen 4, matrizen-und-uebergangsprozesse 5).
+Einheiten je Kurshalbjahr (Berlin oder Brandenburg; eine Einheit kann in mehreren stehen): Q1 41, Q2 58, Q3 56, Q4 25.
+Einheiten mit Länderunterschied in der Kursart: 6 (grenzwerte-und-verhalten-im-unendlichen 3, flaecheninhalt-durch-integration 4, lagebeziehungen 2, schnittmengen 3, zufallsgroessen-und-verteilungen 1, zufallsgroessen-und-verteilungen 2).
+Einheiten „nur LK: ja“: 22 (umkehrfunktion 1, umkehrfunktion 2, funktionsscharen-und-ortskurven 1, funktionsscharen-und-ortskurven 2, funktionsscharen-und-ortskurven 3, funktionsscharen-und-ortskurven 4, funktionsscharen-und-ortskurven 5, rotationsvolumen 1, rotationsvolumen 2, uneigentliche-integrale 1, uneigentliche-integrale 2, abstaende 3, scharen-von-geraden-und-ebenen 1, scharen-von-geraden-und-ebenen 2, scharen-von-geraden-und-ebenen 3, scharen-von-geraden-und-ebenen 4, normalverteilung-und-sigma-regeln 1, normalverteilung-und-sigma-regeln 2, normalverteilung-und-sigma-regeln 3, hypothesentests 1, hypothesentests 2, hypothesentests 3).
+Einheiten mit Stelle bei Bigalke/Köhler (Bände 11/12): 150; ohne: 7.
+Einheiten mit FOS-Stelle: 33; FOS-Zitate des Eintrags ohne Fund im Plantext: 2.
+
+## Übersicht je Eintrag
+
+| Eintrag | Halbjahr | GK/LK | nur LK |
+|---|---|---|---|
+| kurvenuntersuchung | BE Q1/Q2 · BB Q1 · B/K 11 | BE GK und LK, Teile nur LK · BB GK und LK | nein |
+| binomialverteilung | BE Q4 · BB Q2 · B/K 11 | GK und LK | nein |
+| ebenen | Q3 · B/K 12 | GK und LK | nein |
+| ableitung-und-aenderungsrate | BE Q1/Q2 · BB Q1 · B/K 11 | GK und LK | nein |
+| ableitungsregeln | Q1 · B/K 11 | GK und LK | nein |
+| grenzwerte-und-verhalten-im-unendlichen | BE Q1/Q2 · BB Q1 · B/K 11 | BE GK und LK, Teile nur LK · BB GK und LK | nein |
+| gleichungen-loesen | BE Q1/Q3 · BB Q1 · B/K 11 | GK und LK | nein |
+| umkehrfunktion | Q2 · B/K 11 | nur LK | Einheit 1, 2 |
+| ableitungsgraph-und-funktionsgraph | keine Lerneinheiten (Verweiseintrag) | – | – |
+| tangente-normale-schnittwinkel | Q1 · B/K 11 | GK und LK | nein |
+| extremalprobleme | Q1 · B/K 11 | GK und LK | nein |
+| funktionsklassen-und-eigenschaften | BE Q1/Q2 · BB Q1 · B/K 11 | BE GK und LK, Teile nur LK · BB GK und LK | nein |
+| funktionsscharen-und-ortskurven | Q1 · B/K 11 | nur LK | Einheit 1, 2, 3, 4, 5 |
+| rekonstruktion-von-funktionsgleichungen | Q1 · B/K 11 | GK und LK | nein |
+| stammfunktion-und-hauptsatz | Q2 · B/K 11 | GK und LK | nein |
+| integrationsregeln | Q2 · B/K 11 | GK und LK | nein |
+| flaecheninhalt-durch-integration | BE Q2 · BB Q2/Q4 · B/K 11/12 | BE GK und LK · BB GK und LK, Teile nur LK | nein |
+| rekonstruktion-von-bestaenden | Q2 · B/K 11 | GK und LK | nein |
+| rotationsvolumen | BE Q2/Q4 · BB Q4 · B/K 12 | nur LK | Einheit 1, 2 |
+| uneigentliche-integrale | BE Q2/Q4 · BB Q2 · B/K 11 | nur LK | Einheit 1, 2 |
+| punkte-und-strecken-im-koordinatensystem | Q3 · B/K 12 | GK und LK | nein |
+| vektoren-und-rechenoperationen | Q3 · B/K 12 | GK und LK | nein |
+| linearkombination-und-lineare-abhaengigkeit | Q3 · B/K 12 | GK und LK | nein |
+| geraden | Q3 · B/K 12 | GK und LK | nein |
+| lagebeziehungen | Q3 · B/K 12 | GK und LK, Teile nur LK | nein |
+| schnittmengen | Q3 · B/K 12 | BE GK und LK · BB GK und LK, Teile nur LK | nein |
+| skalarprodukt-und-winkel | Q3 · B/K 12 | GK und LK | nein |
+| orthogonalitaet | Q3 · B/K 12 | GK und LK | nein |
+| abstaende | Q3 · B/K 12 | GK und LK, Teile nur LK | Einheit 3 |
+| spiegelung | Q3 · B/K 12 | GK und LK | nein |
+| scharen-von-geraden-und-ebenen | Q3 · B/K 12 | nur LK | Einheit 1, 2, 3, 4 |
+| flaecheninhalt-und-volumen-im-raum | Q3 · B/K 12 | GK und LK | nein |
+| matrizen-und-uebergangsprozesse | BE Q3 · B/K – | BE GK und LK · BB – | nein |
+| vierfeldertafel | Q2 · B/K 11 | GK und LK | nein |
+| bedingte-wahrscheinlichkeit-und-bayes | Q2 · B/K 11 | GK und LK | nein |
+| unabhaengigkeit | Q2 · B/K 11 | GK und LK | nein |
+| zufallsgroessen-und-verteilungen | BE Q2/Q4 · BB Q2 · B/K 11 | BE nur LK · BB GK und LK | nein |
+| hypergeometrische-verteilung | Q2 · B/K 11 | GK und LK | nein |
+| kenngroessen-von-verteilungen | BE Q2/Q4 · BB Q2 · B/K 11 | BE GK und LK, Teile nur LK · BB GK und LK | nein |
+| normalverteilung-und-sigma-regeln | Q4 · B/K 12 | nur LK | Einheit 1, 2, 3 |
+| hypothesentests | Q4 · B/K 12 | nur LK | Einheit 1, 2, 3 |
+| konfidenzintervalle | Q4 · B/K 12 | GK und LK | nein |
+| zufallsexperimente-und-pfadregeln | Q2 · B/K 11 | GK und LK | nein |
+| kombinatorik | Q2 · B/K 11 | GK und LK | nein |
+| lineare-gleichungssysteme | BE Q3 · BB Q1/Q3 · B/K 11 | GK und LK | nein |
+| daten | Q2 · B/K 11 | GK und LK | nein |
+
+### kurvenuntersuchung
+- 1. Monotonie und erste Ableitung
+  - Eintrag, Zeile 11: „(Q1, GK-Kern; FOS „Monotonie und 1. Ableitung“)“
+  - Rahmenlehrplan Berlin, Z. 1186–1187: „die Ableitung zur Bestimmung von Monotonie, Extrema und Wendepunkten (notwendige Bedingung und inhaltliche Begründungen für die Existenz) von“ – Q1 (Khj, Z. 1188), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 968–969: „die Ableitung zur Bestimmung von Monotonie, Extrem- und Wendepunkten“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1090: „Monotonie und 1. Ableitung“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 130: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „1. Steigung und erste Ableitung“ (Z. 65)
+  - Bigalke/Köhler LK 11, S. 142: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „1. Steigung und erste Ableitung“ (Z. 155)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 84: „3 Funktionsuntersuchung“ (Z. 49) › „3.1 Monotonie“ (Z. 50) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 61: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.2 Zusammenhänge zwischen Funktion und Ableitung“ (Z. 39) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 39: „Zusammenhänge zwischen Funktion und Ableitung“ als Monotonie über das Vorzeichen von f′ gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Extrempunkte
+  - Eintrag, Zeile 12: „(Q1, GK-Kern; FOS „lokale Extrempunkte“, „Sattelpunkte“)“
+  - Rahmenlehrplan Berlin, Z. 1186–1187: „die Ableitung zur Bestimmung von Monotonie, Extrema und Wendepunkten (notwendige Bedingung und inhaltliche Begründungen für die Existenz) von“ – Q1 (Khj, Z. 1188), Grund- und Leistungskurs
+  - Rahmenlehrplan Berlin, Z. 1208–1209: „Ableitungen zur Bestimmung von Extrema und Wendepunkten (notwendige Bedingung und hinreichende) von Funktionen nutzen,“ – Q1 (Khj, Z. 1209), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 968–969: „die Ableitung zur Bestimmung von Monotonie, Extrem- und Wendepunkten“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1091: „lokale Extrempunkte“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - FOS, Z. 1093: „Sattelpunkte“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 137: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „3. Extrempunkte“ (Z. 67)
+  - Bigalke/Köhler LK 11, S. 149: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „3. Extrempunkte“ (Z. 157)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 88: „3 Funktionsuntersuchung“ (Z. 49) › „3.2 Extrempunkte“ (Z. 51) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 61: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.2 Zusammenhänge zwischen Funktion und Ableitung“ (Z. 39) (Gegenprobe)
+  - Ermessen: Länderunterschied: die hinreichende Bedingung steht in Berlin im LK-Zusatz, in Brandenburg im Grund- und Leistungskursfach (Inhaltszeile 970–972).
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 39: „Zusammenhänge zwischen Funktion und Ableitung“ als Extrempunkte über f′ gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Krümmung und Wendepunkte
+  - Eintrag, Zeile 13: „(Q1, GK-Kern; FOS „Krümmung und 2. Ableitung“, „Wendepunkte und Sattelpunkte“)“
+  - Rahmenlehrplan Berlin, Z. 1186–1187: „die Ableitung zur Bestimmung von Monotonie, Extrema und Wendepunkten (notwendige Bedingung und inhaltliche Begründungen für die Existenz) von“ – Q1 (Khj, Z. 1188), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 968–969: „die Ableitung zur Bestimmung von Monotonie, Extrem- und Wendepunkten“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1092: „Krümmung und 2. Ableitung“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - FOS, Z. 1093: „Wendepunkte und Sattelpunkte“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 134: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „2. Krümmung und zweite Ableitung“ (Z. 66)
+  - Bigalke/Köhler GK 11, S. 143: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „4. Wendepunkte“ (Z. 68)
+  - Bigalke/Köhler LK 11, S. 146: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „2. Krümmung und zweite Ableitung“ (Z. 156)
+  - Bigalke/Köhler LK 11, S. 155: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „4. Wendepunkte“ (Z. 158)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 94: „3 Funktionsuntersuchung“ (Z. 49) › „3.3 Zweite Ableitung“ (Z. 52) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 98: „3 Funktionsuntersuchung“ (Z. 49) › „3.4 Wendepunkte“ (Z. 53) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 61: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.2 Zusammenhänge zwischen Funktion und Ableitung“ (Z. 39) (Gegenprobe)
+  - Ermessen: Die Krümmung nennt Brandenburg nur in der Inhaltsspalte derselben Zeile („Zusammenhang zwischen Krümmungsverhalten und zweiter Ableitung“, Zeilen 973–976); zitiert ist die Kompetenzzeile.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 39: „Zusammenhänge zwischen Funktion und Ableitung“ als Krümmung und Wendepunkte gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Graph und Ableitungsgraph
+  - Eintrag, Zeile 14: „(Q1, GK-Kern „den Ableitungsgraphen aus dem Funktionsgraphen entwickeln“; FOS nur „grafische Darstellung“ und „graphisches Differenzieren“)“
+  - Rahmenlehrplan Berlin, Z. 1189: „Ableitungsgraphen aus Funktionsgraphen entwickeln und umgekehrt,“ – Q1/2 (Khj, Z. 1189), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 982–983: „den Ableitungsgraphen aus dem Funktionsgraphen entwickeln.“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1094: „grafische Darstellung“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - FOS, Z. 1082: „graphisches Differenzieren“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 98: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „4. Die Ableitungsfunktion“ (Z. 60)
+  - Bigalke/Köhler LK 11, S. 108: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „4. Die Ableitungsfunktion“ (Z. 150)
+  - Fundamente Sek II B Einführungsphase, S. 186: „6 / Steigung und Ableitung“ (Z. 85) › „6.3 Ableitungsfunktion - Grafisches Ableiten“ (Z. 89)
+  - Elemente Sek II NRW Einführungsphase, S. 58: „2 Differenzialrechnung“ (Z. 36) › „2.4 Graph der Ableitungsfunktion“ (Z. 41) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 61: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.2 Zusammenhänge zwischen Funktion und Ableitung“ (Z. 39) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 60: „Die Ableitungsfunktion“ als Ableitungsgraph zum Funktionsgraphen gelesen.
+  - Halbjahr: Berlin Q1/Q2 · Brandenburg Q1 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 5. Kurvenuntersuchung im Sachzusammenhang
+  - Eintrag, Zeile 15: „(Q1, GK-Kern „lokale Änderungsrate auch in Sachzusammenhängen“, „Randextrema“; FOS „Modellierung von Verläufen und Formen … im …“
+  - Rahmenlehrplan Berlin, Z. 1165–1166: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen zur Beschreibung und Untersuchung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 926–927: „Funktionseigenschaften, auch in Anwendungszusammenhängen:“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1111–1112: „Modellierung von Verläufen und Formen … im Sachzusammenhang“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 161: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „6. Kurvenuntersuchungen bei realen Prozessen“ (Z. 70)
+  - Bigalke/Köhler LK 11, S. 191: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „7. Kurvenuntersuchungen bei realen Prozessen“ (Z. 161)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 106: „3 Funktionsuntersuchung“ (Z. 49) › „3.5 Funktionen untersuchen“ (Z. 55) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 108: „Kapitel 3 Modellieren mit Funktionen - Kurvenanpassung“ (Z. 45) › „3.1 Funktionen beschreiben und modellieren Wirklichkeit“ (Z. 46) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 55: „Funktionen untersuchen“ als vollständige Kurvenuntersuchung gelesen; der Sachzusammenhang ist nicht genannt.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### binomialverteilung
+- 1. Bernoulli-Experiment und Bernoulli-Kette
+  - Eintrag, Zeile 11: „(Q2, GK-Kern; OHiMi 2.4 „Ansätze zur Berechnung“)“
+  - Rahmenlehrplan Berlin, Z. 1195: „die Binomialverteilung zur Beschreibung stochastischer Situationen nutzen.“ – Q4 (Khj, Z. 1195), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1108–1109: „Bernoulli-Experiment Bernoulli-Kette“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 502: „XIII. Die Binomialverteilung“ (Z. 120) › „2. Bernoulli-Ketten“ (Z. 122)
+  - Bigalke/Köhler LK 11, S. 612: „XIV. Die Binomialverteilung“ (Z. 218) › „2. Bernoulli-Ketten“ (Z. 220)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 188: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „6.1 Binomialverteilung“ (Z. 137) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 256: „6 Binomialverteilte Zufallsgrößen“ (Z. 233) › „6.1 Binomialverteilung“ (Z. 234) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 118: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.2 Binomialverteilung“ (Z. 155) (Gegenprobe)
+  - Halbjahr: Berlin Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Bernoulli-Formel
+  - Eintrag, Zeile 12: „(Q2, GK-Kern; OHiMi 2.4 Bernoulli-Formel auswendig)“
+  - Rahmenlehrplan Berlin, Z. 1248: „die Binomialverteilung und ihre Kenngrößen (n, p) nutzen,“ – Q4 (Khj, Z. 1248), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1107–1108: „die Binomialverteilung und ihre Kenngrößen nutzen und die Binomialvertei-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 502: „XIII. Die Binomialverteilung“ (Z. 120) › „2. Bernoulli-Ketten“ (Z. 122)
+  - Bigalke/Köhler LK 11, S. 612: „XIV. Die Binomialverteilung“ (Z. 218) › „2. Bernoulli-Ketten“ (Z. 220)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 188: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „6.1 Binomialverteilung“ (Z. 137) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase GK, S. 194: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „Binomialkoeffizienten“ (Z. 138) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 256: „6 Binomialverteilte Zufallsgrößen“ (Z. 233) › „6.1 Binomialverteilung“ (Z. 234) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 118: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.2 Binomialverteilung“ (Z. 155) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 122: Die Bernoulli-Formel als Teil der „Bernoulli-Ketten“ gelesen.
+  - Halbjahr: Berlin Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Kumulierte Wahrscheinlichkeiten
+  - Eintrag, Zeile 13: „(Q2, GK-Kern „Punkt- und Intervallwahrscheinlichkeiten“, „kumulative Darstellungen“; Teil B mit Rechner)“
+  - Rahmenlehrplan Berlin, Z. 1248: „die Binomialverteilung und ihre Kenngrößen (n, p) nutzen,“ – Q4 (Khj, Z. 1248), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1114–1115: „Binomialverteilung im Histogramm, auch kumulative Darstellungen“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 514: „XIII. Die Binomialverteilung“ (Z. 120) › „4. Praxis der Binomialverteilung“ (Z. 124)
+  - Bigalke/Köhler LK 11, S. 624: „XIV. Die Binomialverteilung“ (Z. 218) › „4. Praxis der Binomialverteilung“ (Z. 222)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 196: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „6.2 Kumulierte Binomialverteilung“ (Z. 139) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 264: „6 Binomialverteilte Zufallsgrößen“ (Z. 233) › „6.2 Kumulierte Binomialverteilung“ (Z. 235) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 118: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.2 Binomialverteilung“ (Z. 155) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 124: „Praxis der Binomialverteilung“ als kumulierte Wahrscheinlichkeiten gelesen.
+  - Halbjahr: Berlin Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Umkehraufgaben
+  - Eintrag, Zeile 14: „(Q2, GK-Kern; LS-AA „Problemlösen mit der Binomialverteilung“; Landeshefte mit Logarithmus, Pool mit Probieren)“
+  - Rahmenlehrplan Berlin, Z. 1248: „die Binomialverteilung und ihre Kenngrößen (n, p) nutzen,“ – Q4 (Khj, Z. 1248), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1112–1113: „Punkt- und Intervallwahrscheinlichkeiten für die Anzahl an Erfolgen“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 514: „XIII. Die Binomialverteilung“ (Z. 120) › „4. Praxis der Binomialverteilung“ (Z. 124)
+  - Bigalke/Köhler LK 11, S. 624: „XIV. Die Binomialverteilung“ (Z. 218) › „4. Praxis der Binomialverteilung“ (Z. 222)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 200: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „6.3 Mindestzahl an Versuchen“ (Z. 140) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 272: „6 Binomialverteilte Zufallsgrößen“ (Z. 233) › „6.3 Mindestzahl an Versuchen“ (Z. 237) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 118: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.2 Binomialverteilung“ (Z. 155) (Gegenprobe)
+  - Ermessen: Die Umkehraufgabe (n oder p aus einer Wahrscheinlichkeit) nennt kein Plan eigens; zugeordnet ist die Inhaltszeile zu Punkt- und Intervallwahrscheinlichkeiten.
+  - Ermessen: Bigalke/Köhler, Z. 124: „Praxis der Binomialverteilung“ auch als Umkehraufgaben (n, p, k gesucht) gelesen.
+  - Halbjahr: Berlin Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 5. Verteilung im Diagramm
+  - Eintrag, Zeile 15: „(Q2, GK-Kern „Binomialverteilung im Histogramm, auch kumulative Darstellungen“, „Eigenschaften auf der Grundlage graphischer Darstellungen“; …“
+  - Rahmenlehrplan Berlin, Z. 1248: „die Binomialverteilung und ihre Kenngrößen (n, p) nutzen,“ – Q4 (Khj, Z. 1248), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1114–1115: „Binomialverteilung im Histogramm, auch kumulative Darstellungen“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 507: „XIII. Die Binomialverteilung“ (Z. 120) › „3. Eigenschaften von Binomialverteilungen“ (Z. 123)
+  - Bigalke/Köhler LK 11, S. 617: „XIV. Die Binomialverteilung“ (Z. 218) › „3. Eigenschaften von Binomialverteilungen“ (Z. 221)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 202: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „6.4 Erwartungswert und Standardabweichung einer Binomialverteilung“ (Z. 141) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 276: „6 Binomialverteilte Zufallsgrößen“ (Z. 233) › „6.4 Erwartungswert und Standardabweichung einer Binomialverteilung“ (Z. 238) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 118: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.2 Binomialverteilung“ (Z. 155) (Gegenprobe)
+  - Halbjahr: Berlin Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### ebenen
+- 1. Parameterform einer Ebene
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Spannvektoren“, „Parameterform“; OHiMi 2.3 „Ebenen: Parameterform“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1268–1269: „Geraden und Ebenen analytisch beschreiben und Lagebeziehungen von“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 126: „IV. Ebenen“ (Z. 249) › „1. Parametergleichung“ (Z. 250)
+  - Bigalke/Köhler LK 12, S. 138: „IV. Ebenen“ (Z. 300) › „1. Parametergleichung“ (Z. 301)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 124: „4 Analytische Geometrie“ (Z. 114) › „4.3 Parameterdarstellung einer Ebene“ (Z. 117) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 160: „4 Analytische Geometrie“ (Z. 204) › „4.3 Parameterdarstellung einer Ebene“ (Z. 207) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Normalenvektor und Koordinatengleichung
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Normalenvektor“, „Koordinatenform“, „Normalenform“, „Zusammenhang zwischen Parameter-, Normalen- und Koordinatengleichung“; …“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1274–1275: „Koordinatenform Normalenform“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 129: „IV. Ebenen“ (Z. 249) › „2. Normalen- und Koordinatengleichung der Ebene“ (Z. 251)
+  - Bigalke/Köhler LK 12, S. 141: „IV. Ebenen“ (Z. 300) › „2. Normalen- und Koordinatengleichung der Ebene“ (Z. 302)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 130: „4 Analytische Geometrie“ (Z. 114) › „4.4 Koordinatenform einer Ebene“ (Z. 118) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 166: „4 Analytische Geometrie“ (Z. 204) › „4.4 Koordinatenform einer Ebene“ (Z. 208) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 172: „4 Analytische Geometrie“ (Z. 204) › „Vektorprodukt“ (Z. 209) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 104: „Ebenen im Raum“ als Parameter- und Koordinatenform gelesen; der Normalenvektor braucht das Skalarprodukt aus Kapitel 3.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Ebenen im Koordinatensystem
+  - Eintrag, Zeile 13: „(Q3, GK-Kern „Darstellung von ... Ebenen ... in dreidimensionalen kartesischen Koordinatensystemen“; OHiMi 2.3 „Darstellung und Beschreibung …“
+  - Rahmenlehrplan Berlin, Z. 1134–1135: „geometrische Sachverhalte in Ebene und Raum koordinatisieren (geometrische Interpretation von Gleichungssystemen und ihrer Lösungen) und im Koordinaten-“ – Q3 (Khj, Z. 1136), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1225–1226: „geometrische Sachverhalte in Ebene und Raum koordinatisieren und im Ko-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 136: „IV. Ebenen“ (Z. 249) › „3. Achsenabschnitte und Spurgeraden einer Ebene“ (Z. 252)
+  - Bigalke/Köhler LK 12, S. 148: „IV. Ebenen“ (Z. 300) › „3. Achsenabschnitte und Spurgeraden einer Ebene“ (Z. 303)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 130: „4 Analytische Geometrie“ (Z. 114) › „4.4 Koordinatenform einer Ebene“ (Z. 118) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 166: „4 Analytische Geometrie“ (Z. 204) › „4.4 Koordinatenform einer Ebene“ (Z. 208) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 118: Koordinatenform als Ebenen in besonderer Lage zu den Achsen gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 4. Parallele Ebenen
+  - Eintrag, Zeile 14: „(Q3, GK-Kern „Lagebeziehungen zwischen: ... Ebenen“; OHiMi 2.3 „Lagebeziehungen zwischen Punkten, Geraden und Ebenen“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1268–1269: „Geraden und Ebenen analytisch beschreiben und Lagebeziehungen von“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 141: „IV. Ebenen“ (Z. 249) › „4. Lagebeziehungen“ (Z. 253)
+  - Bigalke/Köhler LK 12, S. 153: „IV. Ebenen“ (Z. 300) › „4. Lagebeziehungen“ (Z. 304)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 134: „4 Analytische Geometrie“ (Z. 114) › „4.5 Lagebeziehungen zwischen Geraden und Ebenen“ (Z. 119) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 174: „4 Analytische Geometrie“ (Z. 204) › „4.5 Lagebeziehungen im Raum“ (Z. 210) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Ermessen: Parallele Ebenen sind ein Sonderfall der Lagebeziehung; eine eigene Zeile gibt es in keinem Plan.
+  - Ermessen: Elemente Sek II NRW, Z. 119: Lagebeziehungen als parallele Ebenen gelesen; der GK-Band nennt nur Geraden und Ebenen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### ableitung-und-aenderungsrate
+- 1. Mittlere Änderungsrate und Sekante
+  - Eintrag, Zeile 11: „(Q1, GK-Kern „Differenzenquotient“, „mittlere Steigung einer Kurve in einem Intervall“; FOS „mittlere Änderung“; OHiMi 2.2 „mittlere …“
+  - Rahmenlehrplan Berlin, Z. 1087: „Sekanten- und Tangentensteigungen zu Funktionsgraphen bestimmen,“ – Q1 (Khj, Z. 1087), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 901–902: „Sekanten- und Tangentensteigungen an Funktionsgraphen bestimmen,“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1082: „mittlere Änderung“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 82: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „2. Die mittlere Steigung einer Funktion“ (Z. 58)
+  - Bigalke/Köhler LK 11, S. 91: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „2. Die mittlere Steigung einer Funktion“ (Z. 148)
+  - Fundamente Sek II B Einführungsphase, S. 176: „6 / Steigung und Ableitung“ (Z. 85) › „6.1 Änderungsraten“ (Z. 87)
+  - Elemente Sek II NRW Einführungsphase, S. 40: „2 Differenzialrechnung“ (Z. 36) › „2.1 Mittlere Änderungsrate“ (Z. 37) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 10: „Kapitel 1 Funktionen und Änderungsraten“ (Z. 30) › „1.1 Änderungsraten - grafisch erfasst“ (Z. 31) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 18: „Kapitel 1 Funktionen und Änderungsraten“ (Z. 30) › „1.2 Von der durchschnittlichen zur momentanen Änderungsrate“ (Z. 32) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Ableitung an einer Stelle
+  - Eintrag, Zeile 12: „(Q1, GK-Kern „Ableitung einer Funktion an einer Stelle“, „lokale Änderungsrate und Anstieg der Tangente“, „lokale Änderungsrate auch in …“
+  - Rahmenlehrplan Berlin, Z. 1179: „die Ableitung insbesondere als lokale Änderungsrate deuten,“ – Q1 (Khj, Z. 1179), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 950–951: „die Ableitung insbesondere als lokale Änderungsrate deuten,“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1084: „Tangentenanstieg“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 88: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „3. Die lokale Steigung einer Funktion“ (Z. 59)
+  - Bigalke/Köhler LK 11, S. 98: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „3. Die lokale Steigung einer Funktion“ (Z. 149)
+  - Fundamente Sek II B Einführungsphase, S. 181: „6 / Steigung und Ableitung“ (Z. 85) › „6.2 Lokale Änderungsrate und Ableitung“ (Z. 88)
+  - Elemente Sek II NRW Einführungsphase, S. 46: „2 Differenzialrechnung“ (Z. 36) › „2.2 Lokale Änderungsrate“ (Z. 38) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 52: „2 Differenzialrechnung“ (Z. 36) › „2.3 Ableitung an einer Stelle berechnen“ (Z. 39) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 18: „Kapitel 1 Funktionen und Änderungsraten“ (Z. 30) › „1.2 Von der durchschnittlichen zur momentanen Änderungsrate“ (Z. 32) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Von der Sekante zur Tangente
+  - Eintrag, Zeile 13: „LK-Zusatz „Approximation durch lineare Funktionen“; OHiMi 2.2 „Ableitung an einer Stelle“) ← Eingabe „grenzwert der sekantensteigung“, …“
+  - Rahmenlehrplan Berlin, Z. 1050–1051: „einen propädeutischen Grenzwertbegriffs insbesondere bei der Bestimmung von Ableitung und Integral nutzen,“ – Q1/2 (Khj, Z. 1051), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 878–879: „Grenzwerte auf der Grundlage eines propädeutischen Grenzwertbegriffs“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 88: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „3. Die lokale Steigung einer Funktion“ (Z. 59)
+  - Bigalke/Köhler LK 11, S. 98: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „3. Die lokale Steigung einer Funktion“ (Z. 149)
+  - Fundamente Sek II B Einführungsphase, S. 181: „6 / Steigung und Ableitung“ (Z. 85) › „6.2 Lokale Änderungsrate und Ableitung“ (Z. 88)
+  - Elemente Sek II NRW Einführungsphase, S. 46: „2 Differenzialrechnung“ (Z. 36) › „2.2 Lokale Änderungsrate“ (Z. 38) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 18: „Kapitel 1 Funktionen und Änderungsraten“ (Z. 30) › „1.2 Von der durchschnittlichen zur momentanen Änderungsrate“ (Z. 32) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 31: „Kapitel 1 Funktionen und Änderungsraten“ (Z. 30) › „1.3 Von der Sekantensteigungsfunktion zur Ableitungsfunktion“ (Z. 33) (Gegenprobe)
+  - Ermessen: Der Übergang von der Sekante zur Tangente steht in beiden Plänen nicht als eigene Zeile; zugeordnet ist die Grenzwertzeile, die die Bestimmung der Ableitung nennt.
+  - Ermessen: Bigalke/Köhler, Z. 59: „Die lokale Steigung einer Funktion“ als Grenzlage der Sekanten gelesen.
+  - Halbjahr: Berlin Q1/Q2 · Brandenburg Q1 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Die Rate als Funktion
+  - Eintrag, Zeile 14: „(Q1, GK-Kern „Ableitungsfunktion auch in Sachzusammenhängen“, „Änderungsrate im Sachzusammenhang“; FOS „Modellierung von Verläufen … im …“
+  - Rahmenlehrplan Berlin, Z. 1180: „Änderungsraten funktional beschreiben (Ableitungsfunktion) und interpretieren,“ – Q1 (Khj, Z. 1180), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 955–956: „Änderungsraten funktional beschreiben und interpretieren,“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1111–1112: „Modellierung von Verläufen … im Sachzusammenhang“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 98: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „4. Die Ableitungsfunktion“ (Z. 60)
+  - Bigalke/Köhler LK 11, S. 108: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „4. Die Ableitungsfunktion“ (Z. 150)
+  - Bigalke/Köhler GK 11, S. 161: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „6. Kurvenuntersuchungen bei realen Prozessen“ (Z. 70)
+  - Bigalke/Köhler LK 11, S. 191: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „7. Kurvenuntersuchungen bei realen Prozessen“ (Z. 161)
+  - Fundamente Sek II B Einführungsphase, S. 186: „6 / Steigung und Ableitung“ (Z. 85) › „6.3 Ableitungsfunktion - Grafisches Ableiten“ (Z. 89)
+  - Elemente Sek II NRW Einführungsphase, S. 58: „2 Differenzialrechnung“ (Z. 36) › „2.4 Graph der Ableitungsfunktion“ (Z. 41) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 31: „Kapitel 1 Funktionen und Änderungsraten“ (Z. 30) › „1.3 Von der Sekantensteigungsfunktion zur Ableitungsfunktion“ (Z. 33) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 60: Die Rate als Funktion: „Die Ableitungsfunktion“; ihre Extremwerte im Sachzusammenhang: „Kurvenuntersuchungen bei realen Prozessen“.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### ableitungsregeln
+- 1. Potenz-, Faktor- und Summenregel
+  - Eintrag, Zeile 11: „(Q1, GK-Kern „Konstanten-, Potenz-, Faktor-, Summenregel“; FOS „Ableitungsregeln: Konstanten-, Faktor-, Summen- und Potenzregel (auch mit …“
+  - Rahmenlehrplan Berlin, Z. 1181–1182: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen ableiten, auch unter Verwendung der Konstanten-, Potenz-, Faktor-“ – Q1 (Khj, Z. 1183), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 959–960: „Funktionen ableiten, auch unter Verwendung der Konstanten-, Potenz-,“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1086–1088: „Ableitungsregeln: Konstanten-, Faktor-, Sum-“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - FOS, Z. 1086–1088: „Ableitungsregeln: Konstanten-, Faktor-, Summen- und Potenzregel (auch mit negativen Exponenten)“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - FOS, Z. 1089: „höhere Ableitungen“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - FOS: Zitat „Konstanten-, Potenz-, Faktor-, Summenregel“ im Plantext nicht gefunden
+  - Bigalke/Köhler GK 11, S. 102: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „5. Elementare Ableitungsregeln“ (Z. 61)
+  - Bigalke/Köhler LK 11, S. 112: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „5. Elementare Ableitungsregeln“ (Z. 151)
+  - Fundamente Sek II B Einführungsphase, S. 192: „6 / Steigung und Ableitung“ (Z. 85) › „6.4 Ableitung von Potenzfunktionen“ (Z. 90)
+  - Fundamente Sek II B Einführungsphase, S. 195: „6 / Steigung und Ableitung“ (Z. 85) › „6.5 Faktor- und Summenregel“ (Z. 91)
+  - Elemente Sek II NRW Einführungsphase, S. 64: „2 Differenzialrechnung“ (Z. 36) › „2.5 Potenzregel“ (Z. 42) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 66: „2 Differenzialrechnung“ (Z. 36) › „2.6 Faktor- und Summenregel“ (Z. 43) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 46: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.1 Ableitungsregeln“ (Z. 38) (Gegenprobe)
+  - Ermessen: Das FOS-Zitat des Eintrags („Konstanten-, Potenz-, Faktor-, Summenregel“) stellt die Regeln um; der Plantext Z. 1086–1088 lautet „Ableitungsregeln: Konstanten-, Faktor-, Summen- und Potenzregel (auch mit negativen Exponenten)“.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Kettenregel
+  - Eintrag, Zeile 12: „(Q1, GK-Kern „Kettenregel mit linearer bzw. quadratischer innerer Funktion“, „Verkettungen von ganzrationalen Funktionen und natürlichen …“
+  - Rahmenlehrplan Berlin, Z. 1184–1185: „die Produktregel und die Kettenregel (mit linearer bzw. quadratischer innerer Funktion) zum Ableiten verwenden,“ – Q1 (Khj, Z. 1185), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 963–964: „Kettenregel mit linearer bzw. quadratischer innerer Funktion“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 217: „V. Exponentialfunktionen“ (Z. 74) › „4. Produkt- und Kettenregel“ (Z. 78)
+  - Bigalke/Köhler LK 11, S. 251: „V. Exponentialfunktionen“ (Z. 165) › „4. Produkt- und Kettenregel“ (Z. 169)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 88: „3 Wachstum beschreiben“ (Z. 102) › „3.3 e-Funktionen ableiten“ (Z. 105) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 38: „1 Modellieren mit Funktionen“ (Z. 162) › „1.7 Kettenregel und Produktregel“ (Z. 171) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 246: „Kapitel 6 Erweiterung der Differenzialrechnung“ (Z. 68) › „6.1 Neue Ableitungsregeln - Produkt-, Quotienten-, Kettenregel“ (Z. 69) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 105: GK-Band: „e-Funktionen ableiten“ als Kettenregel mit linearer innerer Funktion gelesen; der LK-Band nennt die Kettenregel.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Produktregel
+  - Eintrag, Zeile 13: „(Q1, GK-Kern „Produktregel“, „multiplikative Verknüpfungen zweier Funktionen“; OHiMi 2.2 „Produktregel“; FOS: kein Stoff)“
+  - Rahmenlehrplan Berlin, Z. 1184–1185: „die Produktregel und die Kettenregel (mit linearer bzw. quadratischer innerer Funktion) zum Ableiten verwenden,“ – Q1 (Khj, Z. 1185), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 959–960: „Funktionen ableiten, auch unter Verwendung der Konstanten-, Potenz-,“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 217: „V. Exponentialfunktionen“ (Z. 74) › „4. Produkt- und Kettenregel“ (Z. 78)
+  - Bigalke/Köhler LK 11, S. 251: „V. Exponentialfunktionen“ (Z. 165) › „4. Produkt- und Kettenregel“ (Z. 169)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 100: „3 Wachstum beschreiben“ (Z. 102) › „3.6 Wachstum vergleichen - Produktregel“ (Z. 109) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 38: „1 Modellieren mit Funktionen“ (Z. 162) › „1.7 Kettenregel und Produktregel“ (Z. 171) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 128: „3 Wachstum beschreiben“ (Z. 191) › „3.6 Produkte mit e-Funktionen“ (Z. 198) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 246: „Kapitel 6 Erweiterung der Differenzialrechnung“ (Z. 68) › „6.1 Neue Ableitungsregeln - Produkt-, Quotienten-, Kettenregel“ (Z. 69) (Gegenprobe)
+  - Ermessen: Brandenburg führt Produkt- und Kettenregel in derselben Zeile wie die Grundregeln; eine eigene Zeile zur Produktregel gibt es dort nicht.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### grenzwerte-und-verhalten-im-unendlichen
+- 1. Ganzrationale Funktionen
+  - Eintrag, Zeile 11: „(Q1, GK-Kern „Verhalten im Unendlichen“, „Axialsymmetrie bzgl. der Ordinatenachse“; FOS „Verhalten im Unendlichen“, „Symmetrie bezüglich …“
+  - Rahmenlehrplan Berlin, Z. 1050–1051: „einen propädeutischen Grenzwertbegriffs insbesondere bei der Bestimmung von Ableitung und Integral nutzen,“ – Q1/2 (Khj, Z. 1051), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 878–879: „Grenzwerte auf der Grundlage eines propädeutischen Grenzwertbegriffs“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1050: „Verhalten im Unendlichen“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - FOS, Z. 1048: „Symmetrie bezüglich y-Achse und Koordinatenursprung“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 76: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „1. Grenzwerte von Funktionen“ (Z. 57)
+  - Bigalke/Köhler LK 11, S. 84: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „1. Grenzwerte von Funktionen“ (Z. 147)
+  - Bigalke/Köhler GK 11, S. 55: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 52) › „3. Ganzrationale Funktionen“ (Z. 55)
+  - Bigalke/Köhler LK 11, S. 63: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 142) › „3. Ganzrationale Funktionen“ (Z. 145)
+  - Fundamente Sek II B Einführungsphase, S. 58: „2 / Potenzen und Potenzfunktionen“ (Z. 37) › „2.7 Ganzrationale Funktionen“ (Z. 45)
+  - Elemente Sek II NRW Einführungsphase, S. 20: „1 Funktionen“ (Z. 25) › „1.4 Ganzrationale Funktionen“ (Z. 29) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 173: „Kapitel 4 Folgen - Reihen - Grenzwerte“ (Z. 53) › „4.3 Grenzwerte bei Funktionen“ (Z. 56) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 76: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.3 Ganzrationale Funktionen und ihre Graphen - Muster in der Vielfalt“ (Z. 40) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 57: „Grenzwerte von Funktionen“ und „Ganzrationale Funktionen“ als Verhalten im Unendlichen über den Leitterm gelesen.
+  - Ermessen: Fundamente Sek II B, Z. 45: „Ganzrationale Funktionen“ als Verhalten im Unendlichen gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 29: „Ganzrationale Funktionen“ als Verhalten im Unendlichen gelesen.
+  - Halbjahr: Berlin Q1/Q2 · Brandenburg Q1 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Produkte aus Polynom und e-Funktion
+  - Eintrag, Zeile 12: „(Q1, GK-Kern „Grenzwertverhalten von Funktionsgraphen (x → ±∞)“
+  - Rahmenlehrplan Berlin, Z. 1050–1051: „einen propädeutischen Grenzwertbegriffs insbesondere bei der Bestimmung von Ableitung und Integral nutzen,“ – Q1/2 (Khj, Z. 1051), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 878–879: „Grenzwerte auf der Grundlage eines propädeutischen Grenzwertbegriffs“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 226: „V. Exponentialfunktionen“ (Z. 74) › „5. Funktionsuntersuchungen“ (Z. 79)
+  - Bigalke/Köhler LK 11, S. 260: „V. Exponentialfunktionen“ (Z. 165) › „5. Funktionsuntersuchungen“ (Z. 170)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 100: „3 Wachstum beschreiben“ (Z. 102) › „3.6 Wachstum vergleichen - Produktregel“ (Z. 109) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 128: „3 Wachstum beschreiben“ (Z. 191) › „3.6 Produkte mit e-Funktionen“ (Z. 198) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 314: „Kapitel 7 Exponentialfunktionen und ihre Anwendungen“ (Z. 76) › „7.2 e-Funktionen in Realität und Mathematik“ (Z. 78) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 79: „Funktionsuntersuchungen“ im Kapitel Exponentialfunktionen als Grenzverhalten von Polynom mal e-Funktion gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 109: Produkte mit e-Funktionen als deren Grenzverhalten gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 78: „e-Funktionen in Realität und Mathematik“ als Grenzverhalten von e-Funktionstermen gelesen.
+  - Halbjahr: Berlin Q1/Q2 · Brandenburg Q1 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Waagerechte Asymptoten
+  - Eintrag, Zeile 13: „(Q1, GK-Kern „Grenzwertverhalten“, „Monotonie“, „Nullstellen“; OHiMi 2.2 „Zusammenhang zwischen Funktionsgraph und Funktionsgleichung nach … …“
+  - Rahmenlehrplan Berlin, Z. 1205–1206: „die Ableitung mithilfe der Approximation durch lineare Funktionen deuten und Asymptoten ermitteln,“ – Q1 (Khj, Z. 1206), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 938: „Verhalten im Unendlichen“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 239: „V. Exponentialfunktionen“ (Z. 74) › „6. Anwendungen von Exponentialfunktionen“ (Z. 80)
+  - Bigalke/Köhler LK 11, S. 274: „V. Exponentialfunktionen“ (Z. 165) › „6. Anwendungen von Exponentialfunktionen“ (Z. 171)
+  - Bigalke/Köhler LK 11, S. 284: „V. Exponentialfunktionen“ (Z. 165) › „8. Exkurs: Wachstums- und Zerfallsprozesse“ (Z. 173)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 94: „3 Wachstum beschreiben“ (Z. 102) › „3.5 Begrenztes Wachstum“ (Z. 107) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 122: „3 Wachstum beschreiben“ (Z. 191) › „3.5 Begrenztes Wachstum“ (Z. 196) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 349: „Kapitel 8 Wachstum“ (Z. 82) › „8.2 Begrenztes Wachstum“ (Z. 84) (Gegenprobe)
+  - Ermessen: Länderunterschied: Asymptoten stehen in Berlin im LK-Zusatz, in Brandenburg als Funktionseigenschaft „Verhalten im Unendlichen“ im Grund- und Leistungskursfach.
+  - Ermessen: Bigalke/Köhler, Z. 80: Anwendungen von Exponentialfunktionen und Wachstumsprozesse als begrenztes Wachstum mit waagerechter Asymptote gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: Berlin nur LK · Brandenburg GK und LK · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### gleichungen-loesen
+- 1. Ganzrationale Gleichungen
+  - Eintrag, Zeile 11: „(Q1, GK-Kern „lineare, allgemeine quadratische und biquadratische Gleichungen sowie Gleichungen höheren Grades (Polynomdivision, …“
+  - Rahmenlehrplan Berlin, Z. 1052–1053: „geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen auswählen,“ – Q1/3 (Khj, Z. 1053), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 885–886: „geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1052: „Lösungsverfahren ganzrationaler Gleichungen“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - FOS, Z. 1059: „Schnittpunkte von Graphen“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 55: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 52) › „3. Ganzrationale Funktionen“ (Z. 55)
+  - Bigalke/Köhler LK 11, S. 63: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 142) › „3. Ganzrationale Funktionen“ (Z. 145)
+  - Fundamente Sek II B Einführungsphase, S. 65: „2 / Potenzen und Potenzfunktionen“ (Z. 37) › „2.9 Nullstellen“ (Z. 47)
+  - Elemente Sek II NRW Einführungsphase, S. 28: „1 Funktionen“ (Z. 25) › „1.6 Nullstellen“ (Z. 31) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 32: „1 Funktionen“ (Z. 25) › „Lösen von Gleichungen höheren Grades“ (Z. 32) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 76: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.3 Ganzrationale Funktionen und ihre Graphen - Muster in der Vielfalt“ (Z. 40) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 55: Ganzrationale Gleichungen als Nullstellen- und Schnittstellenbestimmung im Kapitel „Ganzrationale Funktionen“ gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 40: „Ganzrationale Funktionen und ihre Graphen“ als ganzrationale Gleichungen gelesen.
+  - Halbjahr: Berlin Q1/Q3 · Brandenburg Q1 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Gleichungen mit e-Funktion und Logarithmus
+  - Eintrag, Zeile 12: „(Q1, GK-Kern „natürliche Exponentialgleichungen (natürlicher Logarithmus und Logarithmengesetze)“
+  - Rahmenlehrplan Berlin, Z. 1052–1053: „geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen auswählen,“ – Q1/3 (Khj, Z. 1053), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 890–891: „natürliche Exponentialgleichungen (lösen unter Anwendung des natürlichen Loga-“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 210: „V. Exponentialfunktionen“ (Z. 74) › „3. Die natürliche Exponentialfunktion“ (Z. 77)
+  - Bigalke/Köhler LK 11, S. 244: „V. Exponentialfunktionen“ (Z. 165) › „3. Die natürliche Exponentialfunktion“ (Z. 168)
+  - Bigalke/Köhler LK 11, S. 304: „VI. Logarithmus- und Wurzelfunktionen“ (Z. 175) › „1. Logarithmusfunktionen“ (Z. 176)
+  - Fundamente Sek II B Einführungsphase, S. 88: „3 / Exponentialfunktionen“ (Z. 52) › „3.3 Exponentialgleichungen und Logarithmus“ (Z. 56)
+  - Elemente Sek II NRW Q-Phase GK, S. 82: „3 Wachstum beschreiben“ (Z. 102) › „3.2 Die e-Funktion“ (Z. 104) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 142: „3 Wachstum beschreiben“ (Z. 191) › „3.8 Die natürliche Logarithmusfunktion“ (Z. 200) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 300: „Kapitel 7 Exponentialfunktionen und ihre Anwendungen“ (Z. 76) › „7.1 Änderungsverhalten bei Exponential- und Logarithmusfunktionen“ (Z. 77) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 77: „Die natürliche Exponentialfunktion“ als Exponentialgleichung mit dem natürlichen Logarithmus gelesen; der LK-Band führt die Logarithmusfunktion eigens.
+  - Ermessen: Elemente Sek II NRW, Z. 104: GK-Band: „Die e-Funktion“ als Gleichungen mit e und ln gelesen; der LK-Band nennt die Logarithmusfunktion.
+  - Halbjahr: Berlin Q1/Q3 · Brandenburg Q1 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Gleichungen aufstellen und grafisch oder numerisch lösen
+  - Eintrag, Zeile 13: „(Q1, GK-Kern „Änderungsrate im Sachzusammenhang“, „Nullstellen“; OHiMi 2.1 „einfache Bruchgleichungen“; LK „goniometrische Gleichungen“; BE …“
+  - Rahmenlehrplan Berlin, Z. 1052–1053: „geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen auswählen,“ – Q1/3 (Khj, Z. 1053), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 885–886: „geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler: keine Stelle – kein Kapitel zum Aufstellen und grafischen oder numerischen Lösen von Gleichungen
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 179: „Kapitel 4 Folgen - Reihen - Grenzwerte“ (Z. 53) › „4.4 Folgen und Gleichungen“ (Z. 57) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 57: „Folgen und Gleichungen“ als numerisches Lösen gelesen.
+  - Halbjahr: Berlin Q1/Q3 · Brandenburg Q1 · Bigalke/Köhler keine Stelle · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler keine Stelle
+  - nur LK: nein
+- 4. Ungleichungen
+  - Eintrag, Zeile 14: „(Q1, GK-Kern „Funktionseigenschaften“ als Herkunft; OHiMi 2.1 „Gleichungen durch Faktorisieren lösen“, „einfache Betragsgleichungen“ – …“
+  - Rahmenlehrplan Berlin: keine Stelle
+  - Rahmenlehrplan Brandenburg: keine Stelle
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler: keine Stelle – kein Kapitel zu Ungleichungen
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Ungleichungen nennt keiner der beiden Pläne in der Qualifikationsphase – weder Berlin noch Brandenburg. Keine Stelle.
+  - Halbjahr: keine Planstelle · Bigalke/Köhler keine Stelle · GK/LK: keine Planstelle · Bigalke/Köhler keine Stelle
+  - nur LK: nein
+
+### umkehrfunktion
+- 1. Umkehrbarkeit, Bereiche und Term
+  - Eintrag, Zeile 11: „(Eingangsvoraussetzung L4; Q2 LK „ln als Umkehrfunktion der e-Funktion“; OHiMi 2.2 „Zusammenhang zwischen Funktion und Umkehrfunktion“, „Definitionsbereich, …“
+  - Rahmenlehrplan Berlin, Z. 1211–1213: „die ln-Funktion als Stammfunktion von x →     und als Umkehrfunktion der e-Funktion nutzen,“ – Q2 (Khj, Z. 1213), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1180–1182: „die natürliche Logarithmusfunktion als Stammfunktion von x → x und als Um-“ – Q2, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 304: „VI. Logarithmus- und Wurzelfunktionen“ (Z. 175) › „1. Logarithmusfunktionen“ (Z. 176)
+  - Bigalke/Köhler LK 11, S. 315: „VI. Logarithmus- und Wurzelfunktionen“ (Z. 175) › „2. Wurzelfunktionen“ (Z. 177)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 30: „1 Modellieren mit Funktionen“ (Z. 79) › „1.5 Umkehrfunktionen“ (Z. 85) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 34: „1 Modellieren mit Funktionen“ (Z. 162) › „1.5 Umkehrfunktionen“ (Z. 169) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: In beiden Texten ist der Bruch 1/x über mehrere Zeilen gesetzt (Berlin 1210 und 1212, Brandenburg 1181 und 1183); im Zitat bleibt an seiner Stelle eine Lücke.
+  - Ermessen: Bigalke/Köhler, Z. 176: Logarithmus- und Wurzelfunktionen (nur LK-Band) als Umkehrfunktionen gelesen; das Verzeichnis nennt den Begriff nicht.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 2. Spiegelung an der Winkelhalbierenden
+  - Eintrag, Zeile 12: „(OHiMi 2.2 „Zusammenhang zwischen Funktion und Umkehrfunktion“; Q1 LK-Klassen; Pool erhöht 2025–2026)“
+  - Rahmenlehrplan Berlin, Z. 1211–1213: „die ln-Funktion als Stammfunktion von x →     und als Umkehrfunktion der e-Funktion nutzen,“ – Q2 (Khj, Z. 1213), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1185–1186: „natürliche Exponentialfunktion als Umkehrfunktion der natürlichen Logarithmus-“ – Q2, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 304: „VI. Logarithmus- und Wurzelfunktionen“ (Z. 175) › „1. Logarithmusfunktionen“ (Z. 176)
+  - Bigalke/Köhler LK 11, S. 315: „VI. Logarithmus- und Wurzelfunktionen“ (Z. 175) › „2. Wurzelfunktionen“ (Z. 177)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 30: „1 Modellieren mit Funktionen“ (Z. 79) › „1.5 Umkehrfunktionen“ (Z. 85) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 34: „1 Modellieren mit Funktionen“ (Z. 162) › „1.5 Umkehrfunktionen“ (Z. 169) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Die Spiegelung an der Winkelhalbierenden nennt kein Plan der Qualifikationsphase; zugeordnet ist die Umkehrfunktionszeile.
+  - Ermessen: Bigalke/Köhler, Z. 176: Wie Einheit 1: der Graph der Umkehrfunktion am Logarithmus und an der Wurzel.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+
+### ableitungsgraph-und-funktionsgraph
+- Keine Lerneinheiten: Verweiseintrag, die didaktischen Abschnitte verweisen auf den tragenden Eintrag (Halbjahr und Kursart dort).
+
+### tangente-normale-schnittwinkel
+- 1. Tangentengleichung im Punkt
+  - Eintrag, Zeile 11: „(Q1, GK-Kern „Gleichung der Tangente in einem Punkt des Funktionsgraphen“; FOS „Tangentenanstieg“, „Bestimmung einer Tangentengleichung“; …“
+  - Rahmenlehrplan Berlin, Z. 1087: „Sekanten- und Tangentensteigungen zu Funktionsgraphen bestimmen,“ – Q1 (Khj, Z. 1087), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 903–904: „Gleichung der Tangente in einem Punkt des Funktionsgraphen unter Verwendung“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1084: „Tangentenanstieg“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - FOS, Z. 1095: „Bestimmung einer Tangentengleichung“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 109: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „6. Erste Anwendungen der Ableitung“ (Z. 62)
+  - Bigalke/Köhler LK 11, S. 120: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „6. Erste Anwendungen der Ableitung“ (Z. 152)
+  - Fundamente Sek II B Einführungsphase, S. 200: „6 / Steigung und Ableitung“ (Z. 85) › „6.6 Tangente, Steigungs- und Schnittwinkel“ (Z. 92)
+  - Elemente Sek II NRW Einführungsphase, S. 70: „2 Differenzialrechnung“ (Z. 36) › „2.7 Tangenten und Normalen“ (Z. 44) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Bigalke/Köhler, Z. 62: „Erste Anwendungen der Ableitung“ als Tangentengleichung gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Tangente als Berührung
+  - Eintrag, Zeile 12: „(Q1, GK-Kern; FOS „Bestimmung einer Tangentengleichung“ nur als Grundform; OHiMi 2.2 „Gleichungen von Sekanten, Tangenten und Normalen“)“
+  - Rahmenlehrplan Berlin, Z. 1087: „Sekanten- und Tangentensteigungen zu Funktionsgraphen bestimmen,“ – Q1 (Khj, Z. 1087), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 901–902: „Sekanten- und Tangentensteigungen an Funktionsgraphen bestimmen,“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1095: „Bestimmung einer Tangentengleichung“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 109: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „6. Erste Anwendungen der Ableitung“ (Z. 62)
+  - Bigalke/Köhler LK 11, S. 120: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „6. Erste Anwendungen der Ableitung“ (Z. 152)
+  - Fundamente Sek II B Einführungsphase, S. 200: „6 / Steigung und Ableitung“ (Z. 85) › „6.6 Tangente, Steigungs- und Schnittwinkel“ (Z. 92)
+  - Elemente Sek II NRW Einführungsphase, S. 70: „2 Differenzialrechnung“ (Z. 36) › „2.7 Tangenten und Normalen“ (Z. 44) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Bigalke/Köhler, Z. 62: „Erste Anwendungen der Ableitung“ als Berührbedingung gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Normale
+  - Eintrag, Zeile 13: „(Q1, GK-Kern „Tangenten- und Normalengleichungen“; FOS „Bestimmung … einer Normalengleichung“; OHiMi 2.2 „Gleichungen von Sekanten, Tangenten …“
+  - Rahmenlehrplan Berlin, Z. 1087: „Sekanten- und Tangentensteigungen zu Funktionsgraphen bestimmen,“ – Q1 (Khj, Z. 1087), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 939: „Tangenten- und Normalengleichungen“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1095–1096: „Bestimmung … einer Normalengleichung“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 109: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „6. Erste Anwendungen der Ableitung“ (Z. 62)
+  - Bigalke/Köhler LK 11, S. 120: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „6. Erste Anwendungen der Ableitung“ (Z. 152)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 70: „2 Differenzialrechnung“ (Z. 36) › „2.7 Tangenten und Normalen“ (Z. 44) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Länderunterschied: die Normale nennt nur Brandenburg („Tangenten- und Normalengleichungen“); Berlin führt nur Tangentensteigungen.
+  - Ermessen: Bigalke/Köhler, Z. 62: „Erste Anwendungen der Ableitung“ als Normale gelesen; das Verzeichnis nennt sie nicht.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Steigungswinkel und Schnittwinkel
+  - Eintrag, Zeile 14: „(Q1, GK-Kern „Schnittwinkel zwischen Funktionsgraphen“ – im Plan, nicht in der Anlage; kein FOS-Stoff)“
+  - Rahmenlehrplan Berlin, Z. 1087: „Sekanten- und Tangentensteigungen zu Funktionsgraphen bestimmen,“ – Q1 (Khj, Z. 1087), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 906: „Schnittwinkel zwischen Funktionsgraphen“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 109: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „6. Erste Anwendungen der Ableitung“ (Z. 62)
+  - Bigalke/Köhler LK 11, S. 120: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „6. Erste Anwendungen der Ableitung“ (Z. 152)
+  - Fundamente Sek II B Einführungsphase, S. 200: „6 / Steigung und Ableitung“ (Z. 85) › „6.6 Tangente, Steigungs- und Schnittwinkel“ (Z. 92)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Länderunterschied: den Schnittwinkel nennt nur Brandenburg.
+  - Ermessen: Bigalke/Köhler, Z. 62: „Erste Anwendungen der Ableitung“ als Steigungswinkel gelesen; das Verzeichnis nennt Winkel nicht.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 5. Dreiecke und Figuren aus Tangente, Normale und Achsen
+  - Eintrag, Zeile 15: „(Q1, GK-Kern; Sek-I-Geometrie als Werkzeug; fhr nur die Dreiecksfläche an einer Geraden)“
+  - Rahmenlehrplan Berlin, Z. 1087: „Sekanten- und Tangentensteigungen zu Funktionsgraphen bestimmen,“ – Q1 (Khj, Z. 1087), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 939: „Tangenten- und Normalengleichungen“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 109: „III. Einführung des Ableitungsbegriffs“ (Z. 56) › „6. Erste Anwendungen der Ableitung“ (Z. 62)
+  - Bigalke/Köhler LK 11, S. 120: „III. Einführung des Ableitungsbegriffs“ (Z. 146) › „6. Erste Anwendungen der Ableitung“ (Z. 152)
+  - Fundamente Sek II B Einführungsphase, S. 200: „6 / Steigung und Ableitung“ (Z. 85) › „6.6 Tangente, Steigungs- und Schnittwinkel“ (Z. 92)
+  - Elemente Sek II NRW Einführungsphase, S. 70: „2 Differenzialrechnung“ (Z. 36) › „2.7 Tangenten und Normalen“ (Z. 44) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Figuren aus Tangente, Normale und Achsen nennt kein Plan eigens.
+  - Ermessen: Bigalke/Köhler, Z. 62: „Erste Anwendungen der Ableitung“ als Figuren aus Tangente und Achsen gelesen.
+  - Ermessen: Fundamente Sek II B, Z. 92: „Tangente, Steigungs- und Schnittwinkel“ als Achsendreiecke der Tangente gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 44: „Tangenten und Normalen“ als Figuren aus Tangente, Normale und Achsen gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### extremalprobleme
+- 1. Figur und Term
+  - Eintrag, Zeile 11: „(Q1, GK-Kern; FOS „Umfang und Flächeninhalt ebener Figuren in Zusammenhang mit Funktionsgraphen“)“
+  - Rahmenlehrplan Berlin, Z. 1167–1168: „hänge nutzen (z. B. in Fragestellungen zu Sachsituationen, die auf Rekonstruktion von Funktionsgleichungen, Extremalprobleme etc. führen),“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 924–925: „Extremalprobleme, auch im Kontext außermathematischer Problemstellungen“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1105–1106: „Umfang und Flächeninhalt ebener Figuren in Zusammenhang mit Funktionsgraphen“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 169: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „7. Extremalprobleme“ (Z. 71)
+  - Bigalke/Köhler LK 11, S. 199: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „8. Extremalprobleme“ (Z. 162)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 10: „1 Modellieren mit Funktionen“ (Z. 79) › „1.1 Extremwertprobleme“ (Z. 80) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 10: „1 Modellieren mit Funktionen“ (Z. 162) › „1.1 Extremwertprobleme“ (Z. 163) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 87: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.4 Optimieren“ (Z. 41) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Zielfunktion aus Haupt- und Nebenbedingung
+  - Eintrag, Zeile 12: „(Q1, GK-Kern „Extremalprobleme“; FOS „Ermitteln der Zielfunktion“)“
+  - Rahmenlehrplan Berlin, Z. 1167–1168: „hänge nutzen (z. B. in Fragestellungen zu Sachsituationen, die auf Rekonstruktion von Funktionsgleichungen, Extremalprobleme etc. führen),“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 924–925: „Extremalprobleme, auch im Kontext außermathematischer Problemstellungen“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1103: „Ermitteln der Zielfunktion“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 169: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „7. Extremalprobleme“ (Z. 71)
+  - Bigalke/Köhler LK 11, S. 199: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „8. Extremalprobleme“ (Z. 162)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 10: „1 Modellieren mit Funktionen“ (Z. 79) › „1.1 Extremwertprobleme“ (Z. 80) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 10: „1 Modellieren mit Funktionen“ (Z. 162) › „1.1 Extremwertprobleme“ (Z. 163) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 87: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.4 Optimieren“ (Z. 41) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Maximum bestimmen und deuten
+  - Eintrag, Zeile 13: „(Q1, GK-Kern „Extremalprobleme“, „Randextrema“; FOS „Untersuchung auf lokale Extrema“)“
+  - Rahmenlehrplan Berlin, Z. 1186–1187: „die Ableitung zur Bestimmung von Monotonie, Extrema und Wendepunkten (notwendige Bedingung und inhaltliche Begründungen für die Existenz) von“ – Q1 (Khj, Z. 1188), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 968–969: „die Ableitung zur Bestimmung von Monotonie, Extrem- und Wendepunkten“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1103–1104: „Untersuchung auf lokale Extrema“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 169: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „7. Extremalprobleme“ (Z. 71)
+  - Bigalke/Köhler LK 11, S. 199: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „8. Extremalprobleme“ (Z. 162)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 10: „1 Modellieren mit Funktionen“ (Z. 79) › „1.1 Extremwertprobleme“ (Z. 80) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 10: „1 Modellieren mit Funktionen“ (Z. 162) › „1.1 Extremwertprobleme“ (Z. 163) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 87: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.4 Optimieren“ (Z. 41) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### funktionsklassen-und-eigenschaften
+- 1. Funktionswert und Punkt
+  - Eintrag, Zeile 11: „(Q1, GK-Kern „Funktionseigenschaften, auch in Anwendungszusammenhängen“; FOS „Funktionsbegriff“, „Achsenschnittpunkte“; OHiMi 2.2 …“
+  - Rahmenlehrplan Berlin, Z. 1165–1166: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen zur Beschreibung und Untersuchung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 923–924: „Funktionen zur Beschreibung und Untersuchung quantifizierbarer Zusam-“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1028: „Funktionsbegriff“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - FOS, Z. 1032: „Achsenschnittpunkte“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 42: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 52) › „1. Reelle Funktionen“ (Z. 53)
+  - Bigalke/Köhler LK 11, S. 48: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 142) › „1. Reelle Funktionen“ (Z. 143)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 10: „1 Funktionen“ (Z. 25) › „1.1 Funktionen und ihre Darstellungen“ (Z. 26) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Nullstellen
+  - Eintrag, Zeile 12: „(Q1, GK-Kern „Nullstellen“, „Schnittpunkte mit den Koordinatenachsen“; FOS „Lösungsverfahren ganzrationaler Gleichungen“, „Nullstellen und …“
+  - Rahmenlehrplan Berlin, Z. 1165–1166: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen zur Beschreibung und Untersuchung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 929: „Nullstellen“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1052: „Lösungsverfahren ganzrationaler Gleichungen“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - FOS, Z. 1040: „Nullstellen und Achsenschnittpunkte“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 55: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 52) › „3. Ganzrationale Funktionen“ (Z. 55)
+  - Bigalke/Köhler LK 11, S. 63: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 142) › „3. Ganzrationale Funktionen“ (Z. 145)
+  - Fundamente Sek II B Einführungsphase, S. 65: „2 / Potenzen und Potenzfunktionen“ (Z. 37) › „2.9 Nullstellen“ (Z. 47)
+  - Elemente Sek II NRW Einführungsphase, S. 28: „1 Funktionen“ (Z. 25) › „1.6 Nullstellen“ (Z. 31) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 32: „1 Funktionen“ (Z. 25) › „Lösen von Gleichungen höheren Grades“ (Z. 32) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 76: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.3 Ganzrationale Funktionen und ihre Graphen - Muster in der Vielfalt“ (Z. 40) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 55: Nullstellen als Teil von „Ganzrationale Funktionen“ gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 40: „Ganzrationale Funktionen und ihre Graphen“ als Nullstellenverfahren gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Definitionsbereich, Wertemenge und Schranken: den größtmöglichen Definitionsbereich einer Logarithmusfunktion aus der Bedingung Argument größer null, auch mit Parameter; Wertemengen am Term ablesen (e-Funktion positiv und nie null, Sinus zwischen minus eins und plus eins, Quadrat ab null), bei Verkettungen von innen nach außen; Schranken über das Vorzeichen des e-Terms begründen (der Grenzwert wird nicht angenommen); Werte und ihre Häufigkeit auf einer Periode; Abschätzungen gegen die x-Achse. (Q1, GK-Kern „Definitions- und Wertebereich“; LK-Zusatz ln als Funktionsklasse; FOS „Funktionsbegriff“ mit „Definitions- und Wertebereich“, ohne eigene fhr-Zeile; OHiMi 2.2 „Definitionsbereich, Wertebereich“) ← Eingabe „definitionsbereich“, „wertemenge“, „wertebereich“, „schranke“, „nie null“
+  - Eintrag, Zeile 13: „(Q1, GK-Kern „Definitions- und Wertebereich“; LK-Zusatz ln als Funktionsklasse; FOS „Funktionsbegriff“ mit „Definitions- und Wertebereich“, ohne eigene fhr-Zeile; OHiMi 2.2 …“
+  - Rahmenlehrplan Berlin, Z. 1165–1166: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen zur Beschreibung und Untersuchung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Berlin, Z. 1200–1201: „Wurzelfunktionen, gebrochenrationale Funktionen und Funktionen wie ln, sin, cos zur Beschreibung und Untersuchung quantifizierbarer Zusammenhänge nutzen, Q1/2“ – Q1/2 (Khj, Z. 1201), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 928: „Definitions- und Wertebereich“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1028: „Funktionsbegriff“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - FOS, Z. 1027: „Definitions- und Wertebereich“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 42: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 52) › „1. Reelle Funktionen“ (Z. 53)
+  - Bigalke/Köhler LK 11, S. 48: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 142) › „1. Reelle Funktionen“ (Z. 143)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 10: „1 Funktionen“ (Z. 25) › „1.1 Funktionen und ihre Darstellungen“ (Z. 26) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Der größtmögliche Definitionsbereich einer Logarithmusfunktion setzt die ln-Funktion voraus; sie steht in Berlin im LK-Zusatz, in Brandenburg im LK-Zusatz des ersten Kurshalbjahrs.
+  - Ermessen: Bigalke/Köhler, Z. 53: „Reelle Funktionen“ als Definitionsbereich und Wertemenge gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 26: „Funktionen und ihre Darstellungen“ als Definitions- und Wertebereich gelesen.
+  - Halbjahr: Berlin Q1/Q2 · Brandenburg Q1 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Symmetrie
+  - Eintrag, Zeile 14: „(Q1, GK-Kern „Punktsymmetrie bzgl. des Koordinatenursprungs und Axialsymmetrie bzgl. der Ordinatenachse“; FOS „Symmetrie bezüglich y-Achse …“
+  - Rahmenlehrplan Berlin, Z. 1165–1166: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen zur Beschreibung und Untersuchung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 932–933: „Punktsymmetrie bzgl. des Koordinatenursprungs und“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1048: „Symmetrie bezüglich y-Achse und Koordinatenursprung“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 55: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 52) › „3. Ganzrationale Funktionen“ (Z. 55)
+  - Bigalke/Köhler LK 11, S. 63: „II. Potenzfunktionen und ganzrationale Funktionen“ (Z. 142) › „3. Ganzrationale Funktionen“ (Z. 145)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 24: „1 Funktionen“ (Z. 25) › „1.5 Symmetrien von Funktionsgraphen“ (Z. 30) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 76: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.3 Ganzrationale Funktionen und ihre Graphen - Muster in der Vielfalt“ (Z. 40) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 55: Symmetrie als Teil von „Ganzrationale Funktionen“ gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 40: „Muster in der Vielfalt“ als Symmetrie der Graphen gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 5. Transformationen
+  - Eintrag, Zeile 15: „(Q1, GK-Kern „Sinus- und Kosinusfunktionen: Einfluss der Parameter auf den Verlauf der Funktionsgraphen“; OHiMi 2.2 „Zusammenhang zwischen …“
+  - Rahmenlehrplan Berlin, Z. 1165–1166: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen zur Beschreibung und Untersuchung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 941–942: „Einfluss der Parameter auf den Verlauf der Funktionsgraphen“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 256: „VI. Trigonometrische Funktionen“ (Z. 82) › „2. Modifikationen von sin x und cos x“ (Z. 84)
+  - Bigalke/Köhler LK 11, S. 338: „VII. Trigonometrische Funktionen“ (Z. 178) › „2. Modifikationen von sin x und cos x“ (Z. 180)
+  - Fundamente Sek II B Einführungsphase, S. 152: „5 / Trigonometrische Funktionen“ (Z. 73) › „5.3 Verschieben der Sinuskurve“ (Z. 77)
+  - Fundamente Sek II B Einführungsphase, S. 154: „5 / Trigonometrische Funktionen“ (Z. 73) › „5.4 Strecken und Stauchen der Sinuskurve“ (Z. 78)
+  - Elemente Sek II NRW Einführungsphase, S. 16: „1 Funktionen“ (Z. 25) › „1.3 Funktionsgraphen verschieben und strecken“ (Z. 28) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Bigalke/Köhler, Z. 84: „Modifikationen von sin x und cos x“ als Transformationen gelesen; allgemeine Transformationen nennt das Verzeichnis nicht.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 6. Graph und Term
+  - Eintrag, Zeile 16: „(Q1, GK-Kern „Funktionseigenschaften“; FOS „Wertetabelle, Darstellung der Funktionsgraphen“; OHiMi 2.2 „qualitative Beschreibung des Verlaufs …“
+  - Rahmenlehrplan Berlin, Z. 1165–1166: „Potenzfunktionen mit ganzzahligen Exponenten, ganzrationale und Exponentialfunktionen zur Beschreibung und Untersuchung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 926–927: „Funktionseigenschaften, auch in Anwendungszusammenhängen:“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1056: „Wertetabelle, Darstellung der Funktionsgraphen“ – Themenfeld 1 Elementare Funktionsuntersuchungen (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 148: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „5. Funktionsuntersuchung“ (Z. 69)
+  - Bigalke/Köhler LK 11, S. 160: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „5. Funktionsuntersuchung“ (Z. 159)
+  - Fundamente Sek II B Einführungsphase, S. 58: „2 / Potenzen und Potenzfunktionen“ (Z. 37) › „2.7 Ganzrationale Funktionen“ (Z. 45)
+  - Elemente Sek II NRW Einführungsphase, S. 104: „3 Funktionsuntersuchung“ (Z. 49) › „Typen ganzrationaler Funktionen 3. Grades“ (Z. 54) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 106: „3 Funktionsuntersuchung“ (Z. 49) › „3.5 Funktionen untersuchen“ (Z. 55) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 76: „Kapitel 2 Funktionen und Ableitungen“ (Z. 37) › „2.3 Ganzrationale Funktionen und ihre Graphen - Muster in der Vielfalt“ (Z. 40) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 69: „Funktionsuntersuchung“ als Graph zeichnen und Graph zum Term zuordnen gelesen.
+  - Ermessen: Fundamente Sek II B, Z. 45: „Ganzrationale Funktionen“ als Graph und Term gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### funktionsscharen-und-ortskurven
+- 1. Scharbegriff und Parameterwert
+  - Eintrag, Zeile 11: „(Q1 LK „Funktionsscharen mit einem Parameter“; Pool prüft auch grundlegend)“
+  - Rahmenlehrplan Berlin, Z. 1202–1203: „in einfachen Fällen Verknüpfungen und Verkettungen (zwei Funktionsklassen) sowie Scharen von Funktionen zur Beschreibung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1204), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1005: „Funktionsscharen mit einem Parameter“ – Q1, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 174: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „6. Funktionenscharen“ (Z. 160)
+  - Bigalke/Köhler LK 11, S. 278: „V. Exponentialfunktionen“ (Z. 165) › „7. Funktionenscharen“ (Z. 172)
+  - Bigalke/Köhler LK 11, S. 361: „VII. Trigonometrische Funktionen“ (Z. 178) › „7. Trigonometrische Kurvenscharen“ (Z. 184)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 26: „1 Modellieren mit Funktionen“ (Z. 79) › „1.4 Funktionen mit einem Parameter“ (Z. 84) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 28: „1 Modellieren mit Funktionen“ (Z. 162) › „1.4 Funktionenscharen“ (Z. 168) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 260: „Kapitel 6 Erweiterung der Differenzialrechnung“ (Z. 68) › „6.2 Funktionenscharen und Ortskurven“ (Z. 70) (Gegenprobe)
+  - Ermessen: Elemente NRW führt „Funktionen mit einem Parameter“ auch im GK-Band (Z. 84); Bigalke/Köhler nur in den LK-Bänden.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 2. Eigenschaften aller Graphen am Term
+  - Eintrag, Zeile 12: „(Q1 LK; L4)“
+  - Rahmenlehrplan Berlin, Z. 1202–1203: „in einfachen Fällen Verknüpfungen und Verkettungen (zwei Funktionsklassen) sowie Scharen von Funktionen zur Beschreibung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1204), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1014–1015: „in einfachen Fällen Verknüpfungen und Verkettungen von Scharen von“ – Q1, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 174: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „6. Funktionenscharen“ (Z. 160)
+  - Bigalke/Köhler LK 11, S. 278: „V. Exponentialfunktionen“ (Z. 165) › „7. Funktionenscharen“ (Z. 172)
+  - Bigalke/Köhler LK 11, S. 361: „VII. Trigonometrische Funktionen“ (Z. 178) › „7. Trigonometrische Kurvenscharen“ (Z. 184)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 26: „1 Modellieren mit Funktionen“ (Z. 79) › „1.4 Funktionen mit einem Parameter“ (Z. 84) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 28: „1 Modellieren mit Funktionen“ (Z. 162) › „1.4 Funktionenscharen“ (Z. 168) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 260: „Kapitel 6 Erweiterung der Differenzialrechnung“ (Z. 68) › „6.2 Funktionenscharen und Ortskurven“ (Z. 70) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 3. Extrem- und Wendepunkte mit Parameter
+  - Eintrag, Zeile 13: „(Q1 LK; Kriterien aus kurvenuntersuchung.md)“
+  - Rahmenlehrplan Berlin, Z. 1202–1203: „in einfachen Fällen Verknüpfungen und Verkettungen (zwei Funktionsklassen) sowie Scharen von Funktionen zur Beschreibung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1204), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1006–1007: „Ortskurven von Extrem- und Wendepunkten“ – Q1, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 174: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „6. Funktionenscharen“ (Z. 160)
+  - Bigalke/Köhler LK 11, S. 278: „V. Exponentialfunktionen“ (Z. 165) › „7. Funktionenscharen“ (Z. 172)
+  - Bigalke/Köhler LK 11, S. 361: „VII. Trigonometrische Funktionen“ (Z. 178) › „7. Trigonometrische Kurvenscharen“ (Z. 184)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 26: „1 Modellieren mit Funktionen“ (Z. 79) › „1.4 Funktionen mit einem Parameter“ (Z. 84) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 28: „1 Modellieren mit Funktionen“ (Z. 162) › „1.4 Funktionenscharen“ (Z. 168) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 260: „Kapitel 6 Erweiterung der Differenzialrechnung“ (Z. 68) › „6.2 Funktionenscharen und Ortskurven“ (Z. 70) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 4. Parameter aus Bedingungen bestimmen
+  - Eintrag, Zeile 14: „(LK-Zusatz Integralrechnung „Bestimmung von Scharparametern … bei gegebenem Volumen oder Flächeninhalt“)“
+  - Rahmenlehrplan Berlin, Z. 1202–1203: „in einfachen Fällen Verknüpfungen und Verkettungen (zwei Funktionsklassen) sowie Scharen von Funktionen zur Beschreibung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1204), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1014–1015: „in einfachen Fällen Verknüpfungen und Verkettungen von Scharen von“ – Q1, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 174: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „6. Funktionenscharen“ (Z. 160)
+  - Bigalke/Köhler LK 11, S. 278: „V. Exponentialfunktionen“ (Z. 165) › „7. Funktionenscharen“ (Z. 172)
+  - Bigalke/Köhler LK 11, S. 361: „VII. Trigonometrische Funktionen“ (Z. 178) › „7. Trigonometrische Kurvenscharen“ (Z. 184)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 26: „1 Modellieren mit Funktionen“ (Z. 79) › „1.4 Funktionen mit einem Parameter“ (Z. 84) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 28: „1 Modellieren mit Funktionen“ (Z. 162) › „1.4 Funktionenscharen“ (Z. 168) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 260: „Kapitel 6 Erweiterung der Differenzialrechnung“ (Z. 68) › „6.2 Funktionenscharen und Ortskurven“ (Z. 70) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 5. Ortskurve und Kurvenvergleich
+  - Eintrag, Zeile 15: „(Q1 LK „Ortskurven von Extrem- und Wendepunkten“)“
+  - Rahmenlehrplan Berlin, Z. 1202–1203: „in einfachen Fällen Verknüpfungen und Verkettungen (zwei Funktionsklassen) sowie Scharen von Funktionen zur Beschreibung quantifizierbarer Zusammen-“ – Q1 (Khj, Z. 1204), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1006–1007: „Ortskurven von Extrem- und Wendepunkten“ – Q1, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 174: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „6. Funktionenscharen“ (Z. 160)
+  - Bigalke/Köhler LK 11, S. 278: „V. Exponentialfunktionen“ (Z. 165) › „7. Funktionenscharen“ (Z. 172)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 28: „1 Modellieren mit Funktionen“ (Z. 162) › „1.4 Funktionenscharen“ (Z. 168) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 260: „Kapitel 6 Erweiterung der Differenzialrechnung“ (Z. 68) › „6.2 Funktionenscharen und Ortskurven“ (Z. 70) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 160: „Funktionenscharen“ auch als Ortskurven gelesen; das Verzeichnis nennt sie nicht.
+  - Ermessen: Elemente Sek II NRW, Z. 168: „Funktionenscharen“ (LK) als Ortskurven und Kurvenvergleich gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+
+### rekonstruktion-von-funktionsgleichungen
+- 1. Ansatz und Punktbedingungen
+  - Eintrag, Zeile 11: „(GK-Kern „Rekonstruktion von Funktionsgleichungen“; FOS Pflichtthema 1 und 2; OHiMi 2.2 „aus graphischen Darstellungen“)“
+  - Rahmenlehrplan Berlin, Z. 1167–1168: „hänge nutzen (z. B. in Fragestellungen zu Sachsituationen, die auf Rekonstruktion von Funktionsgleichungen, Extremalprobleme etc. führen),“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 923: „Rekonstruktion von Funktionsgleichungen“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 184: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „8. Rekonstruktionen von Funktionen“ (Z. 72)
+  - Bigalke/Köhler LK 11, S. 214: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „9. Rekonstruktionen von Funktionen“ (Z. 163)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 20: „1 Modellieren mit Funktionen“ (Z. 79) › „1.3 Funktionsterme bestimmen“ (Z. 83) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 20: „1 Modellieren mit Funktionen“ (Z. 162) › „1.3 Funktionsterme bestimmen“ (Z. 166) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 123: „Kapitel 3 Modellieren mit Funktionen - Kurvenanpassung“ (Z. 45) › „3.3 Bestimmung ganzrationaler Funktionen zu vorgegebenen Daten und Eigenschaften“ (Z. 48) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Bedingungen mit Ableitung
+  - Eintrag, Zeile 12: „(GK-Kern; FOS „Symmetrie, Anstieg, Extrem-, Wende- und Sattelstellen“; OHiMi 2.2 „aus Funktionseigenschaften“)“
+  - Rahmenlehrplan Berlin, Z. 1167–1168: „hänge nutzen (z. B. in Fragestellungen zu Sachsituationen, die auf Rekonstruktion von Funktionsgleichungen, Extremalprobleme etc. führen),“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 923: „Rekonstruktion von Funktionsgleichungen“ – Q1, Grund- und Leistungskurs
+  - FOS, Z. 1099–1100: „Symmetrie, Anstieg, Extrem-, Wende- und Sattelstellen“ – Themenfeld 2 Differentialrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 184: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 64) › „8. Rekonstruktionen von Funktionen“ (Z. 72)
+  - Bigalke/Köhler LK 11, S. 214: „IV. Anwendungen des Ableitungsbegriffs“ (Z. 154) › „9. Rekonstruktionen von Funktionen“ (Z. 163)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 20: „1 Modellieren mit Funktionen“ (Z. 79) › „1.3 Funktionsterme bestimmen“ (Z. 83) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 20: „1 Modellieren mit Funktionen“ (Z. 162) › „1.3 Funktionsterme bestimmen“ (Z. 166) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 123: „Kapitel 3 Modellieren mit Funktionen - Kurvenanpassung“ (Z. 45) › „3.3 Bestimmung ganzrationaler Funktionen zu vorgegebenen Daten und Eigenschaften“ (Z. 48) (Gegenprobe)
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Sonderansätze und Modellkritik
+  - Eintrag, Zeile 13: „(LK-Funktionsklassen sin/cos und ln als Ansätze; GK-Kern sin/cos-Parameter als Beschreibungsmittel)“
+  - Rahmenlehrplan Berlin, Z. 1167–1168: „hänge nutzen (z. B. in Fragestellungen zu Sachsituationen, die auf Rekonstruktion von Funktionsgleichungen, Extremalprobleme etc. führen),“ – Q1 (Khj, Z. 1168), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 923–924: „Funktionen zur Beschreibung und Untersuchung quantifizierbarer Zusam-“ – Q1, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 270: „VI. Trigonometrische Funktionen“ (Z. 82) › „5. Funktionsuntersuchungen und Modellierungen“ (Z. 87)
+  - Bigalke/Köhler LK 11, S. 354: „VII. Trigonometrische Funktionen“ (Z. 178) › „6. Funktionsuntersuchungen und Modellierungen“ (Z. 183)
+  - Fundamente Sek II B Einführungsphase, S. 165: „5 / Trigonometrische Funktionen“ (Z. 73) › „5.6 Periodische Vorgänge modellieren“ (Z. 80)
+  - Elemente Sek II NRW Q-Phase LK, S. 42: „1 Modellieren mit Funktionen“ (Z. 162) › „1.8 Allgemeine Sinusfunktion“ (Z. 172) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Modellkritik (Gültigkeitsbereich, Grenzen des Ansatzes) nennt kein Plan eigens.
+  - Ermessen: Bigalke/Köhler, Z. 87: „Funktionsuntersuchungen und Modellierungen“ (trigonometrische Funktionen) als Sinusansatz gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 172: „Allgemeine Sinusfunktion“ (LK) als Sinusansatz aus Extremstellen gelesen.
+  - Halbjahr: Q1 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### stammfunktion-und-hauptsatz
+- 1. Stammfunktion
+  - Eintrag, Zeile 11: „(Q2 GK-Kern „Integrieren als Umkehrung des Differenzierens“; OHiMi „Stammfunktionen elementarer Funktionen“)“
+  - Rahmenlehrplan Berlin, Z. 1193–1194: „Integrale von Funktionen (Potenzfunktionen f mit f(x) = xn, n ∈ ZZ , n ≠ −1, ganzrationalen und Exponentialfunktionen) mittels Stammfunktionen bestimmen,“ – Q2 (Khj, Z. 1194), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1085–1086: „Integrale von Funktionen mittels Stammfunktionen bilden,“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 294: „VII. Einführung in die Integralrechnung“ (Z. 88) › „3. Stammfunktion und unbestimmtes Integral“ (Z. 91)
+  - Bigalke/Köhler LK 11, S. 386: „VIII. Einführung in die Integralrechnung“ (Z. 185) › „3. Stammfunktion und unbestimmtes Integral“ (Z. 188)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 52: „2 Integralrechnung“ (Z. 91) › „2.3 Hauptsatz der Differenzial- und Integralrechnung“ (Z. 94) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 66: „2 Integralrechnung“ (Z. 177) › „2.3 Hauptsatz der Differenzial- und Integralrechnung“ (Z. 180) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 202: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.2 Integralfunktion, Stammfunktion und Hauptsatz der Differenzial- und Integralrechnung“ (Z. 63) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 94: Die Stammfunktion steht im Kapitel „Hauptsatz“; eine eigene Zeile nennt das Verzeichnis nicht.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Hauptsatz
+  - Eintrag, Zeile 12: „(Q2 GK-Kern „Hauptsatz der Differential- und Integralrechnung“, „Integrale von Funktionen mittels Stammfunktionen bilden“; OHiMi „bestimmtes …“
+  - Rahmenlehrplan Berlin, Z. 1191–1192: „geometrisch anschaulich den Hauptsatz als Beziehung zwischen Ableiten und Integrieren begründen,“ – Q2 (Khj, Z. 1192), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1070–1071: „geometrisch anschaulich den Hauptsatz als Beziehung zwischen Ableiten“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 300: „VII. Einführung in die Integralrechnung“ (Z. 88) › „4. Das bestimmte Integral“ (Z. 92)
+  - Bigalke/Köhler LK 11, S. 393: „VIII. Einführung in die Integralrechnung“ (Z. 185) › „4. Das bestimmte Integral“ (Z. 189)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 52: „2 Integralrechnung“ (Z. 91) › „2.3 Hauptsatz der Differenzial- und Integralrechnung“ (Z. 94) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 66: „2 Integralrechnung“ (Z. 177) › „2.3 Hauptsatz der Differenzial- und Integralrechnung“ (Z. 180) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 202: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.2 Integralfunktion, Stammfunktion und Hauptsatz der Differenzial- und Integralrechnung“ (Z. 63) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Der Graphenblick
+  - Eintrag, Zeile 13: „(Q2 GK-Kern „Zusammenhang zwischen den Funktionsgraphen der Funktion, der Ableitungsfunktion und der Stammfunktion“)“
+  - Rahmenlehrplan Berlin, Z. 1191–1192: „geometrisch anschaulich den Hauptsatz als Beziehung zwischen Ableiten und Integrieren begründen,“ – Q2 (Khj, Z. 1192), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1072–1073: „Zusammenhang zwischen den Funk-tionsgraphen der Funktion, der Ableitungs-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 288: „VII. Einführung in die Integralrechnung“ (Z. 88) › „2. Die Flächeninhaltsfunktion“ (Z. 90)
+  - Bigalke/Köhler LK 11, S. 380: „VIII. Einführung in die Integralrechnung“ (Z. 185) › „2. Die Flächeninhaltsfunktion“ (Z. 187)
+  - Bigalke/Köhler GK 11, S. 294: „VII. Einführung in die Integralrechnung“ (Z. 88) › „3. Stammfunktion und unbestimmtes Integral“ (Z. 91)
+  - Bigalke/Köhler LK 11, S. 386: „VIII. Einführung in die Integralrechnung“ (Z. 185) › „3. Stammfunktion und unbestimmtes Integral“ (Z. 188)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 56: „2 Integralrechnung“ (Z. 91) › „2.4 Integralfunktion“ (Z. 95) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 70: „2 Integralrechnung“ (Z. 177) › „2.4 Integralfunktion“ (Z. 181) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 202: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.2 Integralfunktion, Stammfunktion und Hauptsatz der Differenzial- und Integralrechnung“ (Z. 63) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 90: „Die Flächeninhaltsfunktion“ und „Stammfunktion“ als Graphenblick F′ = f gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 95: „Integralfunktion“ als Graphenblick F′ = f gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Integralfunktion
+  - Eintrag, Zeile 14: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1190: „das bestimmte Integral deuten, insbesondere als (re-) konstruierten Bestand,“ – Q2 (Khj, Z. 1190), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1067–1068: „das bestimmte Integral deuten, insbesondere als (re-)konstruierten Be-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 288: „VII. Einführung in die Integralrechnung“ (Z. 88) › „2. Die Flächeninhaltsfunktion“ (Z. 90)
+  - Bigalke/Köhler LK 11, S. 380: „VIII. Einführung in die Integralrechnung“ (Z. 185) › „2. Die Flächeninhaltsfunktion“ (Z. 187)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 56: „2 Integralrechnung“ (Z. 91) › „2.4 Integralfunktion“ (Z. 95) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 70: „2 Integralrechnung“ (Z. 177) › „2.4 Integralfunktion“ (Z. 181) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 202: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.2 Integralfunktion, Stammfunktion und Hauptsatz der Differenzial- und Integralrechnung“ (Z. 63) (Gegenprobe)
+  - Ermessen: Die Integralfunktion als Funktion der oberen Grenze nennt kein Plan eigens.
+  - Ermessen: Bigalke/Köhler, Z. 90: „Die Flächeninhaltsfunktion“ als Integralfunktion gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### integrationsregeln
+- 1. Der Regelsatz
+  - Eintrag, Zeile 11: „(Q2 GK-Kern; OHiMi „Integrationsregeln“)“
+  - Rahmenlehrplan Berlin, Z. 1193–1194: „Integrale von Funktionen (Potenzfunktionen f mit f(x) = xn, n ∈ ZZ , n ≠ −1, ganzrationalen und Exponentialfunktionen) mittels Stammfunktionen bestimmen,“ – Q2 (Khj, Z. 1194), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1090–1091: „Integrationsregeln: Potenzregel“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 294: „VII. Einführung in die Integralrechnung“ (Z. 88) › „3. Stammfunktion und unbestimmtes Integral“ (Z. 91)
+  - Bigalke/Köhler LK 11, S. 386: „VIII. Einführung in die Integralrechnung“ (Z. 185) › „3. Stammfunktion und unbestimmtes Integral“ (Z. 188)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 202: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.2 Integralfunktion, Stammfunktion und Hauptsatz der Differenzial- und Integralrechnung“ (Z. 63) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 91: „Stammfunktion und unbestimmtes Integral“ als Regelsatz gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 63: „Integralfunktion, Stammfunktion und Hauptsatz“ als Regelsatz gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Vorgegebene Regeln anwenden
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1193–1194: „Integrale von Funktionen (Potenzfunktionen f mit f(x) = xn, n ∈ ZZ , n ≠ −1, ganzrationalen und Exponentialfunktionen) mittels Stammfunktionen bestimmen,“ – Q2 (Khj, Z. 1194), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1085–1086: „Integrale von Funktionen mittels Stammfunktionen bilden,“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 333: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „4. Flächen unter nichtganzrationalen Funktionen“ (Z. 98)
+  - Bigalke/Köhler LK 11, S. 425: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „4. Flächen unter nichtganzrationalen Funktionen“ (Z. 195)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Bigalke/Köhler, Z. 98: „Flächen unter nichtganzrationalen Funktionen“ als Integrieren mit vorgegebener Regel gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### flaecheninhalt-durch-integration
+- 1. Fläche zwischen Graph und x-Achse
+  - Eintrag, Zeile 11: „(Q2 GK-Kern L2; FOS „Fläche zwischen dem Graphen einer Funktion und der x-Achse“, „Orientierung von Flächen“; OHiMi „Ermittlung von …“
+  - Rahmenlehrplan Berlin, Z. 1090–1091: „Inhalte von Flächen, die durch Funktionsgraphen (von Potenzfunktionen f mit f(x) = xn, n ∈ ZZ , n ≠ −1 , ganzrationalen und Exponentialfunktionen) begrenzt“ – Q2 (Khj, Z. 1092), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1053–1054: „Inhalte von Flächen, die durch Funk-tionsgraphen begrenzt sind, bestimmen,“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1138–1139: „Fläche zwischen dem Graphen einer Funktion und der x-Achse“ – Themenfeld 3 Integralrechnung (Pflichtthema)
+  - FOS, Z. 1137: „Orientierung von Flächen“ – Themenfeld 3 Integralrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 312: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „1. Bestimmte Integrale und Flächeninhalte“ (Z. 95)
+  - Bigalke/Köhler GK 11, S. 314: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „2. Flächen unter Funktionsgraphen“ (Z. 96)
+  - Bigalke/Köhler LK 11, S. 404: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „1. Bestimmte Integrale und Flächeninhalte“ (Z. 192)
+  - Bigalke/Köhler LK 11, S. 406: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „2. Flächen unter Funktionsgraphen“ (Z. 193)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 62: „2 Integralrechnung“ (Z. 91) › „2.5 Fläche zwischen Graph und x-Achse“ (Z. 97) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 76: „2 Integralrechnung“ (Z. 177) › „2.5 Fläche zwischen Graph und x-Achse“ (Z. 183) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 214: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.3 Anwendungen der Integralrechnung“ (Z. 64) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Fläche zwischen zwei Graphen
+  - Eintrag, Zeile 12: „(Q2 GK-Kern L2 „von Funktionsgraphen … begrenzt“; FOS „Fläche zwischen zwei Funktionsgraphen“)“
+  - Rahmenlehrplan Berlin, Z. 1090–1091: „Inhalte von Flächen, die durch Funktionsgraphen (von Potenzfunktionen f mit f(x) = xn, n ∈ ZZ , n ≠ −1 , ganzrationalen und Exponentialfunktionen) begrenzt“ – Q2 (Khj, Z. 1092), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1054–1055: „Flächeninhalt von Flächen, welche von Funktionsgraphen, den Koordinatenach-“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1140: „Fläche zwischen zwei Funktionsgraphen“ – Themenfeld 3 Integralrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 324: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „3. Flächen zwischen Funktionsgraphen“ (Z. 97)
+  - Bigalke/Köhler LK 11, S. 416: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „3. Flächen zwischen Funktionsgraphen“ (Z. 194)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 66: „2 Integralrechnung“ (Z. 91) › „2.6 Fläche zwischen zwei Graphen“ (Z. 98) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 81: „2 Integralrechnung“ (Z. 177) › „2.6 Fläche zwischen zwei Graphen“ (Z. 184) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 214: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.3 Anwendungen der Integralrechnung“ (Z. 64) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Zusammengesetzte Flächen, Maßstab und Volumen
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1090–1091: „Inhalte von Flächen, die durch Funktionsgraphen (von Potenzfunktionen f mit f(x) = xn, n ∈ ZZ , n ≠ −1 , ganzrationalen und Exponentialfunktionen) begrenzt“ – Q2 (Khj, Z. 1092), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1053–1054: „Inhalte von Flächen, die durch Funk-tionsgraphen begrenzt sind, bestimmen,“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1144–1145: „Grund-, Querschnitts- und Deckflächen von Körpern“ – Themenfeld 3 Integralrechnung (Pflichtthema)
+  - FOS, Z. 1147: „V = A∙l“ – Themenfeld 3 Integralrechnung (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 314: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „2. Flächen unter Funktionsgraphen“ (Z. 96)
+  - Bigalke/Köhler LK 11, S. 406: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „2. Flächen unter Funktionsgraphen“ (Z. 193)
+  - Bigalke/Köhler LK 12, S. 248: „VI. Weitere Anwendungen der Integralrechnung“ (Z. 312) › „2. Allgemeine Volumenformeln“ (Z. 314)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 62: „2 Integralrechnung“ (Z. 91) › „2.5 Fläche zwischen Graph und x-Achse“ (Z. 97) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 76: „2 Integralrechnung“ (Z. 177) › „2.5 Fläche zwischen Graph und x-Achse“ (Z. 183) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 214: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.3 Anwendungen der Integralrechnung“ (Z. 64) (Gegenprobe)
+  - Ermessen: Maßstab und Volumen als Anwendung der Flächenrechnung nennt kein Plan eigens; Brandenburg hat nur den Zusatz „auch in Anwendungszusammenhängen“ in der Inhaltsspalte (Zeilen 1057–1058).
+  - Ermessen: Bigalke/Köhler, Z. 96: Zusammengesetzte Flächen als „Flächen unter Funktionsgraphen“; das Körpervolumen aus Querschnitt und Länge als „Allgemeine Volumenformeln“ (nur LK 12).
+  - Ermessen: Elemente Sek II NRW, Z. 97: Zusammengesetzte Flächen als Fläche zwischen Graph und x-Achse gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 und 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11, LK 12
+  - nur LK: nein
+- 4. Flächenbedingungen
+  - Eintrag, Zeile 14: „(Q2 GK-Kern L2 „auch in Anwendungszusammenhängen“; Teil-A-Belege, siehe Kasten)“
+  - Rahmenlehrplan Berlin, Z. 1090–1091: „Inhalte von Flächen, die durch Funktionsgraphen (von Potenzfunktionen f mit f(x) = xn, n ∈ ZZ , n ≠ −1 , ganzrationalen und Exponentialfunktionen) begrenzt“ – Q2 (Khj, Z. 1092), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1337–1338: „Bestimmung von Scharparametern bzw. Integrationsgrenzen bei gegebenem“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 370: „IX. Vertiefung der Differential- und Integralrechnung“ (Z. 101) › „2. Randkurvenprobleme“ (Z. 103)
+  - Bigalke/Köhler LK 11, S. 480: „X. Vertiefung der Differential- und Integralrechnung“ (Z. 199) › „2. Randkurvenprobleme“ (Z. 201)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 214: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.3 Anwendungen der Integralrechnung“ (Z. 64) (Gegenprobe)
+  - Ermessen: Die Rückrichtung (Grenze oder Parameter aus einem vorgegebenen Flächeninhalt) steht nur in Brandenburg, dort im LK-Zusatz des vierten Kurshalbjahrs.
+  - Ermessen: Bigalke/Köhler, Z. 103: „Randkurvenprobleme“ als Flächenbedingungen gelesen.
+  - Halbjahr: Berlin Q2 · Brandenburg Q4 · Bigalke/Köhler Band 11 · GK/LK: Berlin GK und LK · Brandenburg nur LK · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 5. Das Integral als Flächenbilanz
+  - Eintrag, Zeile 15: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1190: „das bestimmte Integral deuten, insbesondere als (re-) konstruierten Bestand,“ – Q2 (Khj, Z. 1190), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1067–1068: „das bestimmte Integral deuten, insbesondere als (re-)konstruierten Be-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 312: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „1. Bestimmte Integrale und Flächeninhalte“ (Z. 95)
+  - Bigalke/Köhler LK 11, S. 404: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „1. Bestimmte Integrale und Flächeninhalte“ (Z. 192)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 48: „2 Integralrechnung“ (Z. 91) › „2.2 Integral als Grenzwert“ (Z. 93) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 60: „2 Integralrechnung“ (Z. 177) › „2.2 Integral als Grenzwert“ (Z. 179) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 192: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.1 Von der Änderungs- zur Bestandsfunktion“ (Z. 62) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 93: „Integral als Grenzwert“ als orientierter Flächeninhalt gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 62: „Von der Änderungs- zur Bestandsfunktion“ als Flächenbilanz gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### rekonstruktion-von-bestaenden
+- 1. Bestand aus Rate
+  - Eintrag, Zeile 11: „(Q2 GK-Kern L2 „Bestände aus Änderungsraten und Anfangsbestand berechnen“)“
+  - Rahmenlehrplan Berlin, Z. 1089: „Bestände aus Änderungsraten und Anfangsbestand berechnen,“ – Q2 (Khj, Z. 1089), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1050–1051: „Bestände aus Änderungsraten und Anfangsbestand berechnen,“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 345: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „5. Rekonstruktion von Beständen“ (Z. 99)
+  - Bigalke/Köhler LK 11, S. 445: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „6. Rekonstruktion von Beständen“ (Z. 197)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 44: „2 Integralrechnung“ (Z. 91) › „2.1 Von der Änderung zum Bestand“ (Z. 92) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 56: „2 Integralrechnung“ (Z. 177) › „2.1 Von der Änderung zum Bestand“ (Z. 178) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 192: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.1 Von der Änderungs- zur Bestandsfunktion“ (Z. 62) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Rate und Bestand als Paar
+  - Eintrag, Zeile 12: „(Q2 GK-Kern L4 „das bestimmte Integral deuten, insbesondere als (re-)“
+  - Rahmenlehrplan Berlin, Z. 1190: „das bestimmte Integral deuten, insbesondere als (re-) konstruierten Bestand,“ – Q2 (Khj, Z. 1190), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1067–1068: „das bestimmte Integral deuten, insbesondere als (re-)konstruierten Be-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 345: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „5. Rekonstruktion von Beständen“ (Z. 99)
+  - Bigalke/Köhler LK 11, S. 445: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „6. Rekonstruktion von Beständen“ (Z. 197)
+  - Bigalke/Köhler GK 11, S. 382: „IX. Vertiefung der Differential- und Integralrechnung“ (Z. 101) › „3. Beschreibung von Prozessen“ (Z. 104)
+  - Bigalke/Köhler LK 11, S. 492: „X. Vertiefung der Differential- und Integralrechnung“ (Z. 199) › „3. Beschreibung von Prozessen“ (Z. 202)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 44: „2 Integralrechnung“ (Z. 91) › „2.1 Von der Änderung zum Bestand“ (Z. 92) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 56: „2 Integralrechnung“ (Z. 177) › „2.1 Von der Änderung zum Bestand“ (Z. 178) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 192: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.1 Von der Änderungs- zur Bestandsfunktion“ (Z. 62) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 104: „Beschreibung von Prozessen“ als Rate und Bestand im Paar gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Am Ratengraphen
+  - Eintrag, Zeile 13: „(Q2 GK-Kern L4; Bildarbeit des Pools)“
+  - Rahmenlehrplan Berlin, Z. 1190: „das bestimmte Integral deuten, insbesondere als (re-) konstruierten Bestand,“ – Q2 (Khj, Z. 1190), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1067–1068: „(Re-)konstruktion eines Bestandes aus Änderungsraten in Anwendungs-situatio-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 345: „VIII. Anwendungen der Integralrechnung“ (Z. 94) › „5. Rekonstruktion von Beständen“ (Z. 99)
+  - Bigalke/Köhler LK 11, S. 445: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „6. Rekonstruktion von Beständen“ (Z. 197)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 44: „2 Integralrechnung“ (Z. 91) › „2.1 Von der Änderung zum Bestand“ (Z. 92) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 56: „2 Integralrechnung“ (Z. 177) › „2.1 Von der Änderung zum Bestand“ (Z. 178) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 192: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.1 Von der Änderungs- zur Bestandsfunktion“ (Z. 62) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### rotationsvolumen
+- 1. Die Volumenformel
+  - Eintrag, Zeile 11: „(FOS „Rotationsvolumen“ als Pflichtform mit linearen und quadratischen Funktionen; GOST LK „auch zusammengesetzte Rotationskörper“)“
+  - Rahmenlehrplan Berlin, Z. 1110–1111: „das Volumen von Körpern bestimmen, die durch Rotation um die Abszissenachse entstehen.“ – Q2/4 (Khj, Z. 1111), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1331–1332: „das Volumen von Körpern bestimmen, die durch Rotation um die Abszissen-“ – Q4, Leistungskurszusatz
+  - FOS, Z. 1151: „Rotationsvolumen“ – Themenfeld 3 Integralrechnung (Pflichtthema)
+  - Bigalke/Köhler LK 12, S. 242: „VI. Weitere Anwendungen der Integralrechnung“ (Z. 312) › „1. Das Volumen von Rotationskörpern“ (Z. 313)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 90: „2 Integralrechnung“ (Z. 177) › „2.8 Volumina von Rotationskörpern“ (Z. 186) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 214: „Kapitel 5 Integralrechnung“ (Z. 61) › „5.3 Anwendungen der Integralrechnung“ (Z. 64) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 64: „Anwendungen der Integralrechnung“ als Rotationsvolumen gelesen; das Verzeichnis nennt es nicht.
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q4 · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 2. Um den Körper herum
+  - Eintrag, Zeile 12: „(GOST LK; Poolpraxis)“
+  - Rahmenlehrplan Berlin, Z. 1110–1111: „das Volumen von Körpern bestimmen, die durch Rotation um die Abszissenachse entstehen.“ – Q2/4 (Khj, Z. 1111), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1336: „zusammengesetzte Rotationskörper“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 242: „VI. Weitere Anwendungen der Integralrechnung“ (Z. 312) › „1. Das Volumen von Rotationskörpern“ (Z. 313)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 90: „2 Integralrechnung“ (Z. 177) › „2.8 Volumina von Rotationskörpern“ (Z. 186) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q4 · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+
+### uneigentliche-integrale
+- 1. Der Begriff
+  - Eintrag, Zeile 11: „(Q2 LK „Inhalte unbegrenzter Flächen mittels uneigentlicher Integrale“)“
+  - Rahmenlehrplan Berlin, Z. 1104–1105: „Inhalte von Flächen, die durch Funktionsgraphen begrenzt sind, bestimmen (ggf. näherungsweise), auch mithilfe uneigentlicher Integrale und unter“ – Q2/4 (Khj, Z. 1106), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1174–1175: „Inhalte unbegrenzter Flächen mittels uneigentlicher Integrale:“ – Q2, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 438: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „5. Uneigentliche Integrale“ (Z. 196)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 86: „2 Integralrechnung“ (Z. 177) › „2.7 Uneigentliche Integrale“ (Z. 185) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 2. Die Näherungsdeutung
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1104–1105: „Inhalte von Flächen, die durch Funktionsgraphen begrenzt sind, bestimmen (ggf. näherungsweise), auch mithilfe uneigentlicher Integrale und unter“ – Q2/4 (Khj, Z. 1106), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1176–1177: „Integral über einen unbeschränkten Intervall“ – Q2, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 11, S. 438: „IX. Anwendungen der Integralrechnung“ (Z. 191) › „5. Uneigentliche Integrale“ (Z. 196)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 86: „2 Integralrechnung“ (Z. 177) › „2.7 Uneigentliche Integrale“ (Z. 185) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 11
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+
+### punkte-und-strecken-im-koordinatensystem
+- 1. Punkte darstellen und Lage lesen
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „geometrische Sachverhalte … koordinatisieren und im Koordinatensystem darstellen“; OHiMi 2.3 „Darstellung und Beschreibung von …“
+  - Rahmenlehrplan Berlin, Z. 1134–1135: „geometrische Sachverhalte in Ebene und Raum koordinatisieren (geometrische Interpretation von Gleichungssystemen und ihrer Lösungen) und im Koordinaten-“ – Q3 (Khj, Z. 1136), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1225–1226: „geometrische Sachverhalte in Ebene und Raum koordinatisieren und im Ko-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 14: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „1. Punkte im Koordinatensystem“ (Z. 233)
+  - Bigalke/Köhler LK 12, S. 16: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „1. Punkte im Koordinatensystem“ (Z. 283)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 116: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.1 Punkte im Raum“ (Z. 60) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 10: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.1 Orientieren im Raum - Koordinaten“ (Z. 97) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Streckenlängen, Mittelpunkt und Teilpunkte
+  - Eintrag, Zeile 12: „(Q3, GK-Kern L2 „Betrag eines Vektors bzw. Länge einer Strecke“, „Mittelpunkt einer Strecke“, „Abstände zwischen: Punkt – Punkt“, L3 …“
+  - Rahmenlehrplan Berlin, Z. 1096–1097: „Streckenlängen und Winkelgrößen im Raum (auch mithilfe des Skalarprodukts) bestimmen,“ – Q3 (Khj, Z. 1097), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1230: „Teilverhältnisse von Strecken“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 31: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „3. Rechnen mit Vektoren“ (Z. 235)
+  - Bigalke/Köhler LK 12, S. 33: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „3. Rechnen mit Vektoren“ (Z. 285)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 120: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.2 Verschiebungen im Raum - Vektoren“ (Z. 61) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 25: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.2 Bewegen im Raum - Vektoren“ (Z. 98) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 235: Streckenlänge als Betrag im Kapitel „Rechnen mit Vektoren“ gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 61: „Verschiebungen im Raum – Vektoren“ als Verbindungsvektor und Streckenlänge gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 98: „Bewegen im Raum – Vektoren“ als Streckenlänge und Teilpunkte gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Dreiecke nachweisen
+  - Eintrag, Zeile 13: „GK-Kern L2/L3; OHiMi 2.3 „Betrag eines Vektors“, „Skalarprodukt“, „Orthogonalität von Vektoren“) ← Eingabe „gleichschenklig nachweisen“, …“
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometri-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 74: „II. Das Skalarprodukt“ (Z. 237) › „3. Untersuchung von Figuren und Körpern“ (Z. 240)
+  - Bigalke/Köhler LK 12, S. 76: „II. Das Skalarprodukt“ (Z. 287) › „3. Untersuchung von Figuren und Körpern“ (Z. 290)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 116: „4 Analytische Geometrie“ (Z. 114) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 115) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 152: „4 Analytische Geometrie“ (Z. 204) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 205) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 100: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.1 Skalarprodukt und Winkel“ (Z. 109) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 115: Rechte Winkel am Dreieck über „Orthogonalität – Skalarprodukt“ gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 109: „Skalarprodukt und Winkel“ als Dreiecksnachweis gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 4. Vierecke nachweisen
+  - Eintrag, Zeile 14: „(Q3, GK-Kern L3 „Beschreibung geometrischer Objekte mittels Vektoren“, „Flächeninhalte von geometrischen Objekten …“; Eingangsvoraussetzung …“
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometri-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 74: „II. Das Skalarprodukt“ (Z. 237) › „3. Untersuchung von Figuren und Körpern“ (Z. 240)
+  - Bigalke/Köhler LK 12, S. 76: „II. Das Skalarprodukt“ (Z. 287) › „3. Untersuchung von Figuren und Körpern“ (Z. 290)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 5. Körper im Koordinatensystem und Drehungen
+  - Eintrag, Zeile 15: „(Q3, GK-Kern „Darstellung von … Körpern in … dreidimensionalen kartesischen Koordinatensystemen“; OHiMi 2.3)“
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1225–1226: „Darstellung von Punktmengen, Geraden, Ebenen, ebenen Figuren und Körpern in“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 14: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „1. Punkte im Koordinatensystem“ (Z. 233)
+  - Bigalke/Köhler LK 12, S. 16: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „1. Punkte im Koordinatensystem“ (Z. 283)
+  - Bigalke/Köhler GK 12, S. 189: „V. Winkel und Abstände“ (Z. 255) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 258)
+  - Bigalke/Köhler LK 12, S. 219: „V. Winkel und Abstände“ (Z. 307) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 310)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 116: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.1 Punkte im Raum“ (Z. 60) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 10: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.1 Orientieren im Raum - Koordinaten“ (Z. 97) (Gegenprobe)
+  - Ermessen: Drehungen im Koordinatensystem nennt kein Plan; zugeordnet ist die Inhaltszeile zur Darstellung von Körpern.
+  - Ermessen: Bigalke/Köhler, Z. 233: Körper im Koordinatensystem als „Punkte im Koordinatensystem“ und „Untersuchung geometrischer Objekte im Raum“ gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### vektoren-und-rechenoperationen
+- 1. Vektorbegriff, Betrag und Kollinearität
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Vektorbegriff (Verschiebung, Pfeilklasse)“
+  - Rahmenlehrplan Berlin, Z. 1137–1138: „elementare Operationen mit geometrischen Vektoren ausführen und Vektoren auf Kollinearität untersuchen,“ – Q3 (Khj, Z. 1138), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1231–1232: „elementare Operationen mit geometrischen Vektoren ausführen und Vekto-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 24: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „2. Begriff des Vektors“ (Z. 234)
+  - Bigalke/Köhler GK 12, S. 31: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „3. Rechnen mit Vektoren“ (Z. 235)
+  - Bigalke/Köhler LK 12, S. 26: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „2. Begriff des Vektors“ (Z. 284)
+  - Bigalke/Köhler LK 12, S. 33: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „3. Rechnen mit Vektoren“ (Z. 285)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 120: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.2 Verschiebungen im Raum - Vektoren“ (Z. 61) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 124: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.3 Vektoren addieren und subtrahieren“ (Z. 62) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 128: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.4 Vektoren vervielfachen“ (Z. 63) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 25: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.2 Bewegen im Raum - Vektoren“ (Z. 98) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Vektorterme am Körper
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Vektoraddition“, „Multiplikation eines Vektors mit einer reellen Zahl“, „Darstellung von Vektoren als Linearkombinationen …“
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometri-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 31: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „3. Rechnen mit Vektoren“ (Z. 235)
+  - Bigalke/Köhler LK 12, S. 33: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „3. Rechnen mit Vektoren“ (Z. 285)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 124: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.3 Vektoren addieren und subtrahieren“ (Z. 62) (Gegenprobe)
+  - Elemente Sek II NRW Einführungsphase, S. 128: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.4 Vektoren vervielfachen“ (Z. 63) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 25: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.2 Bewegen im Raum - Vektoren“ (Z. 98) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Skalarprodukt im Sachzusammenhang
+  - Eintrag, Zeile 13: „(Q3, GK-Kern L1 „Tupel in Form von Punkten und Vektoren angeben“; das Skalarprodukt als Operation aus der L3-Zeile)“
+  - Rahmenlehrplan Berlin, Z. 1141: „das Skalarprodukt geometrisch deuten,“ – Q3 (Khj, Z. 1141), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1260: „das Skalarprodukt geometrisch deuten,“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 64: „II. Das Skalarprodukt“ (Z. 237) › „1. Die Definition des Skalarproduktes“ (Z. 238)
+  - Bigalke/Köhler LK 12, S. 66: „II. Das Skalarprodukt“ (Z. 287) › „1. Die Definition des Skalarproduktes“ (Z. 288)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 116: „4 Analytische Geometrie“ (Z. 114) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 115) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 152: „4 Analytische Geometrie“ (Z. 204) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 205) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 148: „Kapitel 4 Matrizen“ (Z. 115) › „4.1 Von Tabellen zu Matrizen - Matrizen in Anwendungen“ (Z. 116) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 238: „Die Definition des Skalarproduktes“ als Skalarprodukt im Sachzusammenhang gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 115: Das Skalarprodukt steht nur geometrisch („Orthogonalität – Skalarprodukt“).
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 116: „Von Tabellen zu Matrizen – Matrizen in Anwendungen“ als Mengen- mal Preisvektor gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### linearkombination-und-lineare-abhaengigkeit
+- 1. Kollinearität und lineare Abhängigkeit
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „lineare Abhängigkeit und lineare Unabhängigkeit von Vektoren“; OHiMi 2.3 „Untersuchung von Vektoren auf lineare Abhängigkeit …“
+  - Rahmenlehrplan Berlin, Z. 1137–1138: „elementare Operationen mit geometrischen Vektoren ausführen und Vektoren auf Kollinearität untersuchen,“ – Q3 (Khj, Z. 1138), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1242–1243: „lineare Abhängigkeit und lineare Unabhängigkeit von Vektoren“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 31: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „3. Rechnen mit Vektoren“ (Z. 235)
+  - Bigalke/Köhler LK 12, S. 33: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „3. Rechnen mit Vektoren“ (Z. 285)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 128: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.4 Vektoren vervielfachen“ (Z. 63) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 25: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.2 Bewegen im Raum - Vektoren“ (Z. 98) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 221: „Kapitel 5 Ergänzungen - Kugeln, Kegelschnitte und Vektorräume“ (Z. 122) › „5.3 Vektorräume“ (Z. 125) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 235: Kollinearität und Linearkombination als Teil von „Rechnen mit Vektoren“ gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 63: „Vektoren vervielfachen“ als Kollinearität gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 98: „Vektorräume“ als lineare Abhängigkeit gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Linearkombination mit Nebenbedingung
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Darstellung von Vektoren als Linearkombinationen anderer Vektoren“; die Deutung als Strecke ist Prüfungspraxis ohne eigenen …“
+  - Rahmenlehrplan Berlin, Z. 1137–1138: „elementare Operationen mit geometrischen Vektoren ausführen und Vektoren auf Kollinearität untersuchen,“ – Q3 (Khj, Z. 1138), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1240–1241: „Darstellung von Vektoren als Linear-kombinationen anderer Vektoren“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 31: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „3. Rechnen mit Vektoren“ (Z. 235)
+  - Bigalke/Köhler LK 12, S. 33: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „3. Rechnen mit Vektoren“ (Z. 285)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 25: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.2 Bewegen im Raum - Vektoren“ (Z. 98) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 235: Linearkombination als Teil von „Rechnen mit Vektoren“ gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### geraden
+- 1. Geradengleichung aufstellen und lesen
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Richtungsvektor“, „analytische Beschreibung von Geraden …: Parameterform“; OHiMi 2.3 „Geraden: Parameterform“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1268–1269: „Geraden und Ebenen analytisch beschreiben und Lagebeziehungen von“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 94: „III. Geraden“ (Z. 242) › „2. Geradengleichungen“ (Z. 244)
+  - Bigalke/Köhler LK 12, S. 98: „III. Geraden“ (Z. 292) › „2. Geradengleichungen“ (Z. 294)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 134: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.5 Geraden im Raum“ (Z. 65) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 50: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.1 Geraden in der Ebene und im Raum“ (Z. 103) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Punktprobe und Punkte auf der Geraden
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Lagebeziehungen zwischen: Punkt und Gerade“; OHiMi 2.3 „Lagebeziehungen …“, „Betrag eines Vektors“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1282: „Punkt und Gerade“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 94: „III. Geraden“ (Z. 242) › „2. Geradengleichungen“ (Z. 244)
+  - Bigalke/Köhler LK 12, S. 98: „III. Geraden“ (Z. 292) › „2. Geradengleichungen“ (Z. 294)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 134: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.5 Geraden im Raum“ (Z. 65) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 50: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.1 Geraden in der Ebene und im Raum“ (Z. 103) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Lage als Anhang
+  - Eintrag, Zeile 13: „(Q3, GK-Kern „Lagebeziehungen zwischen: … Geraden“; OHiMi 2.3)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1283: „Geraden“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 100: „III. Geraden“ (Z. 242) › „3. Lagebeziehungen“ (Z. 245)
+  - Bigalke/Köhler LK 12, S. 104: „III. Geraden“ (Z. 292) › „3. Lagebeziehungen“ (Z. 295)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 140: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.6 Lagebeziehungen zwischen Geraden“ (Z. 66) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 50: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.1 Geraden in der Ebene und im Raum“ (Z. 103) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 4. Sachgeraden
+  - Eintrag, Zeile 14: „(Q3, GK-Kern L2/L3; die Prüfungsform trägt Teil B mit Maßstab „1 LE = …“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1268–1269: „Geraden und Ebenen analytisch beschreiben und Lagebeziehungen von“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 110: „III. Geraden“ (Z. 242) › „5. Spurpunkte mit Anwendungen“ (Z. 247)
+  - Bigalke/Köhler LK 12, S. 114: „III. Geraden“ (Z. 292) › „5. Spurpunkte mit Anwendungen“ (Z. 297)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 132: „4 Vektoren und Geraden im Raum“ (Z. 59) › „Bewegungen auf dem Wasser“ (Z. 64) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 50: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.1 Geraden in der Ebene und im Raum“ (Z. 103) (Gegenprobe)
+  - Ermessen: Sachgeraden (Gerade als Weg, Parameter als Zeit) nennt kein Plan eigens.
+  - Ermessen: Bigalke/Köhler, Z. 247: „Spurpunkte mit Anwendungen“ als Sachgeraden gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 64: „Bewegungen auf dem Wasser“ als Sachgerade gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### lagebeziehungen
+- 1. Punktprobe und Seitenlage
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Lagebeziehungen zwischen: … Punkt und Ebene“; OHiMi 2.3 „Lagebeziehungen …“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1281–1282: „Lagebeziehungen zwischen: Punkt und Gerade“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 141: „IV. Ebenen“ (Z. 249) › „4. Lagebeziehungen“ (Z. 253)
+  - Bigalke/Köhler LK 12, S. 153: „IV. Ebenen“ (Z. 300) › „4. Lagebeziehungen“ (Z. 304)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 134: „4 Analytische Geometrie“ (Z. 114) › „4.5 Lagebeziehungen zwischen Geraden und Ebenen“ (Z. 119) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 174: „4 Analytische Geometrie“ (Z. 204) › „4.5 Lagebeziehungen im Raum“ (Z. 210) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Parameter aus der Lagebedingung
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Lagebeziehungen …“ rückwärts gelesen; Teil-A-Praxis des Pools)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Berlin, Z. 1148–1149: „die Lagebeziehungen von Punkten, Geraden und Ebenen (auch Scharen) untersuchen.“ – Q3 (Khj, Z. 1149), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1300–1301: „die Lagebeziehungen von Geraden und Ebenen untersuchen.“ – Q3, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 141: „IV. Ebenen“ (Z. 249) › „4. Lagebeziehungen“ (Z. 253)
+  - Bigalke/Köhler LK 12, S. 153: „IV. Ebenen“ (Z. 300) › „4. Lagebeziehungen“ (Z. 304)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 134: „4 Analytische Geometrie“ (Z. 114) › „4.5 Lagebeziehungen zwischen Geraden und Ebenen“ (Z. 119) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 174: „4 Analytische Geometrie“ (Z. 204) › „4.5 Lagebeziehungen im Raum“ (Z. 210) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Ermessen: Parameter in der Lagebedingung führen auf Scharen; die stehen in beiden Ländern nur im LK-Zusatz.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: Berlin GK und LK · Brandenburg nur LK · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Gerade und Ebene
+  - Eintrag, Zeile 13: „(Q3, GK-Kern „Lagebeziehungen zwischen: … Gerade und Ebene“; LK „auch Scharen“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1284: „Gerade und Ebene“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 141: „IV. Ebenen“ (Z. 249) › „4. Lagebeziehungen“ (Z. 253)
+  - Bigalke/Köhler LK 12, S. 153: „IV. Ebenen“ (Z. 300) › „4. Lagebeziehungen“ (Z. 304)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 134: „4 Analytische Geometrie“ (Z. 114) › „4.5 Lagebeziehungen zwischen Geraden und Ebenen“ (Z. 119) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 174: „4 Analytische Geometrie“ (Z. 204) › „4.5 Lagebeziehungen im Raum“ (Z. 210) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 4. Lagebefunde im Sachzusammenhang
+  - Eintrag, Zeile 14: „(Q3, GK-Kern; die Prüfungsform trägt Teil B mit Maßstab und Bereichsprüfung)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1268–1269: „Geraden und Ebenen analytisch beschreiben und Lagebeziehungen von“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 110: „III. Geraden“ (Z. 242) › „5. Spurpunkte mit Anwendungen“ (Z. 247)
+  - Bigalke/Köhler LK 12, S. 114: „III. Geraden“ (Z. 292) › „5. Spurpunkte mit Anwendungen“ (Z. 297)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 138: „4 Analytische Geometrie“ (Z. 114) › „Licht und Schatten“ (Z. 120) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 180: „4 Analytische Geometrie“ (Z. 204) › „Licht und Schatten“ (Z. 211) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 247: „Spurpunkte mit Anwendungen“ als Schattenpunkt und Durchstoßpunkt gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### schnittmengen
+- 1. Schnittpunkt von Gerade und Ebene
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Schnittmenge: … einer Geraden und einer Ebene“; IQB-VER 3.2 zu den vorausgesetzten Fällen)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1289: „einer Geraden und einer Ebene“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 141: „IV. Ebenen“ (Z. 249) › „4. Lagebeziehungen“ (Z. 253)
+  - Bigalke/Köhler LK 12, S. 153: „IV. Ebenen“ (Z. 300) › „4. Lagebeziehungen“ (Z. 304)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 134: „4 Analytische Geometrie“ (Z. 114) › „4.5 Lagebeziehungen zwischen Geraden und Ebenen“ (Z. 119) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 174: „4 Analytische Geometrie“ (Z. 204) › „4.5 Lagebeziehungen im Raum“ (Z. 210) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Schnittpunkt zweier Geraden
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Schnittmenge: zweier Geraden“; L1 „Bestimmung von Schnittmengen“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1288: „zweier Geraden“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 100: „III. Geraden“ (Z. 242) › „3. Lagebeziehungen“ (Z. 245)
+  - Bigalke/Köhler LK 12, S. 104: „III. Geraden“ (Z. 292) › „3. Lagebeziehungen“ (Z. 295)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Einführungsphase, S. 140: „4 Vektoren und Geraden im Raum“ (Z. 59) › „4.6 Lagebeziehungen zwischen Geraden“ (Z. 66) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 50: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.1 Geraden in der Ebene und im Raum“ (Z. 103) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Spuren, Schnittgeraden und Schnittfiguren
+  - Eintrag, Zeile 13: „(Q3, GK-Kern „Darstellung …“; LK „Schnittmenge zweier Ebenen“)“
+  - Rahmenlehrplan Berlin, Z. 1142–1143: „Geraden und Ebenen (durch Parameter-, Koordinaten- und Normalenform) analytisch beschreiben und Lagebeziehungen untersuchen (vgl. L2).“ – Q3 (Khj, Z. 1143), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1304: „Schnittmenge zweier Ebenen“ – Q3, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 110: „III. Geraden“ (Z. 242) › „5. Spurpunkte mit Anwendungen“ (Z. 247)
+  - Bigalke/Köhler GK 12, S. 136: „IV. Ebenen“ (Z. 249) › „3. Achsenabschnitte und Spurgeraden einer Ebene“ (Z. 252)
+  - Bigalke/Köhler LK 12, S. 114: „III. Geraden“ (Z. 292) › „5. Spurpunkte mit Anwendungen“ (Z. 297)
+  - Bigalke/Köhler LK 12, S. 148: „IV. Ebenen“ (Z. 300) › „3. Achsenabschnitte und Spurgeraden einer Ebene“ (Z. 303)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 134: „4 Analytische Geometrie“ (Z. 114) › „4.5 Lagebeziehungen zwischen Geraden und Ebenen“ (Z. 119) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 174: „4 Analytische Geometrie“ (Z. 204) › „4.5 Lagebeziehungen im Raum“ (Z. 210) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 72: „Kapitel 2 Geraden und Ebenen“ (Z. 102) › „2.2 Ebenen im Raum“ (Z. 104) (Gegenprobe)
+  - Ermessen: Länderunterschied: die Schnittgerade zweier Ebenen steht in Brandenburg im LK-Zusatz; Berlin trennt hier nicht und führt Lagebeziehungen im Grund- und Leistungskursfach.
+  - Ermessen: Elemente Sek II NRW, Z. 119: Lagebeziehungen als Schnittgeraden gelesen; Spuren nennt das Verzeichnis nicht.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: Berlin GK und LK · Brandenburg nur LK · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### skalarprodukt-und-winkel
+- 1. Das Skalarprodukt als Objekt
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „das Skalarprodukt geometrisch deuten“; OHiMi 2.3 „Skalarprodukt in Koordinatenform und koordinatenfreier Form“)“
+  - Rahmenlehrplan Berlin, Z. 1141: „das Skalarprodukt geometrisch deuten,“ – Q3 (Khj, Z. 1141), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1260: „das Skalarprodukt geometrisch deuten,“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 64: „II. Das Skalarprodukt“ (Z. 237) › „1. Die Definition des Skalarproduktes“ (Z. 238)
+  - Bigalke/Köhler LK 12, S. 66: „II. Das Skalarprodukt“ (Z. 287) › „1. Die Definition des Skalarproduktes“ (Z. 288)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 116: „4 Analytische Geometrie“ (Z. 114) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 115) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 152: „4 Analytische Geometrie“ (Z. 204) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 205) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 100: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.1 Skalarprodukt und Winkel“ (Z. 109) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Winkel zwischen Vektoren, Kanten und Geraden
+  - Eintrag, Zeile 12: „(Q3, GK-Kern L2 „Winkel zwischen Geraden“, L3 „Winkel zwischen zwei Vektoren“; OHiMi 2.3 „Ansätze zur Winkelberechnung“)“
+  - Rahmenlehrplan Berlin, Z. 1096–1097: „Streckenlängen und Winkelgrößen im Raum (auch mithilfe des Skalarprodukts) bestimmen,“ – Q3 (Khj, Z. 1097), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1262: „Winkel zwischen zwei Vektoren“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 68: „II. Das Skalarprodukt“ (Z. 237) › „2. Winkel- und Flächenberechnungen“ (Z. 239)
+  - Bigalke/Köhler GK 12, S. 108: „III. Geraden“ (Z. 242) › „4. Der Winkel zwischen Geraden“ (Z. 246)
+  - Bigalke/Köhler LK 12, S. 70: „II. Das Skalarprodukt“ (Z. 287) › „2. Winkel- und Flächenberechnungen“ (Z. 289)
+  - Bigalke/Köhler LK 12, S. 112: „III. Geraden“ (Z. 292) › „4. Der Winkel zwischen Geraden“ (Z. 296)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 120: „4 Analytische Geometrie“ (Z. 114) › „4.2 Winkel zwischen Vektoren“ (Z. 116) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 156: „4 Analytische Geometrie“ (Z. 204) › „4.2 Winkel zwischen Vektoren“ (Z. 206) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 100: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.1 Skalarprodukt und Winkel“ (Z. 109) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Neigungswinkel von Ebenen
+  - Eintrag, Zeile 13: „(Q3, GK-Kern L2 „Winkel zwischen … Ebenen und Ebenen“; OHiMi 2.3 „Ansätze zur Winkelberechnung“)“
+  - Rahmenlehrplan Berlin, Z. 1096–1097: „Streckenlängen und Winkelgrößen im Raum (auch mithilfe des Skalarprodukts) bestimmen,“ – Q3 (Khj, Z. 1097), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1216–1217: „Winkel zwischen Geraden, Geraden und Ebenen, Ebenen und Ebenen“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 174: „V. Winkel und Abstände“ (Z. 255) › „1. Schnittwinkel“ (Z. 256)
+  - Bigalke/Köhler LK 12, S. 192: „V. Winkel und Abstände“ (Z. 307) › „1. Schnittwinkel“ (Z. 308)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 140: „4 Analytische Geometrie“ (Z. 114) › „4.6 Schnittwinkel mit Ebenen“ (Z. 121) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK: „4 Analytische Geometrie“ (Z. 204) › „4.6 Schnittwinkel mit Ebenen“ (Z. 212) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 111: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.2 Winkel zwischen Geraden und Ebenen“ (Z. 110) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 4. Winkel von Geraden gegen Ebenen und Bogenmaße
+  - Eintrag, Zeile 14: „(Q3, GK-Kern L2 „Winkel zwischen Geraden … und Ebenen“; OHiMi 2.3 „Ansätze zur Winkelberechnung“)“
+  - Rahmenlehrplan Berlin, Z. 1096–1097: „Streckenlängen und Winkelgrößen im Raum (auch mithilfe des Skalarprodukts) bestimmen,“ – Q3 (Khj, Z. 1097), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1216–1217: „Winkel zwischen Geraden, Geraden und Ebenen, Ebenen und Ebenen“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 174: „V. Winkel und Abstände“ (Z. 255) › „1. Schnittwinkel“ (Z. 256)
+  - Bigalke/Köhler LK 12, S. 192: „V. Winkel und Abstände“ (Z. 307) › „1. Schnittwinkel“ (Z. 308)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 140: „4 Analytische Geometrie“ (Z. 114) › „4.6 Schnittwinkel mit Ebenen“ (Z. 121) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK: „4 Analytische Geometrie“ (Z. 204) › „4.6 Schnittwinkel mit Ebenen“ (Z. 212) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 111: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.2 Winkel zwischen Geraden und Ebenen“ (Z. 110) (Gegenprobe)
+  - Ermessen: Das Bogenmaß nennt kein Plan der Qualifikationsphase.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### orthogonalitaet
+- 1. Rechte Winkel an Dreiecken nachweisen
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Orthogonalität von Vektoren“; OHiMi 2.3)“
+  - Rahmenlehrplan Berlin, Z. 1141: „das Skalarprodukt geometrisch deuten,“ – Q3 (Khj, Z. 1141), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1263: „Orthogonalität von Vektoren“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 74: „II. Das Skalarprodukt“ (Z. 237) › „3. Untersuchung von Figuren und Körpern“ (Z. 240)
+  - Bigalke/Köhler LK 12, S. 76: „II. Das Skalarprodukt“ (Z. 287) › „3. Untersuchung von Figuren und Körpern“ (Z. 290)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 116: „4 Analytische Geometrie“ (Z. 114) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 115) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 152: „4 Analytische Geometrie“ (Z. 204) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 205) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 100: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.1 Skalarprodukt und Winkel“ (Z. 109) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 240: „Untersuchung von Figuren und Körpern“ als rechte Winkel über das Skalarprodukt gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Rechte Winkel rückwärts
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Orthogonalität von Vektoren“ rückwärts gelesen; OHiMi 2.3)“
+  - Rahmenlehrplan Berlin, Z. 1141: „das Skalarprodukt geometrisch deuten,“ – Q3 (Khj, Z. 1141), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1263: „Orthogonalität von Vektoren“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 74: „II. Das Skalarprodukt“ (Z. 237) › „3. Untersuchung von Figuren und Körpern“ (Z. 240)
+  - Bigalke/Köhler LK 12, S. 76: „II. Das Skalarprodukt“ (Z. 287) › „3. Untersuchung von Figuren und Körpern“ (Z. 290)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 116: „4 Analytische Geometrie“ (Z. 114) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 115) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 152: „4 Analytische Geometrie“ (Z. 204) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 205) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 100: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.1 Skalarprodukt und Winkel“ (Z. 109) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 240: „Untersuchung von Figuren und Körpern“ als rechte Winkel über das Skalarprodukt gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Senkrecht zu Geraden und Ebenen
+  - Eintrag, Zeile 13: „(Q3, GK-Kern „Orthogonalität von Geraden, Ebenen, Geraden und Ebenen“; OHiMi 2.3)“
+  - Rahmenlehrplan Berlin, Z. 1141: „das Skalarprodukt geometrisch deuten,“ – Q3 (Khj, Z. 1141), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1218–1219: „Orthogonalität von Geraden, Ebenen, Geraden und Ebenen“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 129: „IV. Ebenen“ (Z. 249) › „2. Normalen- und Koordinatengleichung der Ebene“ (Z. 251)
+  - Bigalke/Köhler LK 12, S. 141: „IV. Ebenen“ (Z. 300) › „2. Normalen- und Koordinatengleichung der Ebene“ (Z. 302)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 116: „4 Analytische Geometrie“ (Z. 114) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 115) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 152: „4 Analytische Geometrie“ (Z. 204) › „4.1 Orthogonalität - Skalarprodukt“ (Z. 205) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 111: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.2 Winkel zwischen Geraden und Ebenen“ (Z. 110) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 251: „Normalen- und Koordinatengleichung der Ebene“ als senkrecht zu Ebenen gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 110: „Winkel zwischen Geraden und Ebenen“ als Orthogonalität von Gerade und Ebene gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 4. Lot und Extremum
+  - Eintrag, Zeile 14: „(Q3, GK-Kern; Eingangsvoraussetzung L3 „Ähnlichkeit“ für die Lotfiguren)“
+  - Rahmenlehrplan Berlin, Z. 1098–1099: „Abstände (Punkt-Punkt, Punkt-Ebene, Gerade-Ebene, Ebene-Ebene) bestimmen.“ – Q3 (Khj, Z. 1099), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1220–1221: „Abstände zwischen Punkten, Geraden und Ebenen bestimmen,“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 178: „V. Winkel und Abstände“ (Z. 255) › „2. Abstandsberechnungen“ (Z. 257)
+  - Bigalke/Köhler LK 12, S. 196: „V. Winkel und Abstände“ (Z. 307) › „2. Abstandsberechnungen“ (Z. 309)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 192: „4 Analytische Geometrie“ (Z. 204) › „4.8 Abstände zu Geraden“ (Z. 214) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 128: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.3 Abstandsprobleme“ (Z. 111) (Gegenprobe)
+  - Ermessen: Lot und Extremum: das Verfahren steht als Abstandsbestimmung in beiden Plänen, als Extremwertzugang in keinem.
+  - Ermessen: Bigalke/Köhler, Z. 257: „Abstandsberechnungen“ als Lotbedingung gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 214: „Abstände zu Geraden“ (LK) als Lotbedingung gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### abstaende
+- 1. Abstand zweier Punkte
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Punkt – Punkt“; OHiMi 2.3 „Betrag eines Vektors“)“
+  - Rahmenlehrplan Berlin, Z. 1098–1099: „Abstände (Punkt-Punkt, Punkt-Ebene, Gerade-Ebene, Ebene-Ebene) bestimmen.“ – Q3 (Khj, Z. 1099), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1220–1221: „Abstände zwischen Punkten, Geraden und Ebenen bestimmen,“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 31: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 232) › „3. Rechnen mit Vektoren“ (Z. 235)
+  - Bigalke/Köhler LK 12, S. 33: „I. Koordinatensysteme und Vektoren - Orientieren und Bewegen im Raum“ (Z. 282) › „3. Rechnen mit Vektoren“ (Z. 285)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 25: „Kapitel 1 Orientieren und Bewegen im Raum“ (Z. 96) › „1.2 Bewegen im Raum - Vektoren“ (Z. 98) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 235: Abstand zweier Punkte als Betrag im Kapitel „Rechnen mit Vektoren“ gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 98: „Bewegen im Raum – Vektoren“ als Betrag gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Abstand Punkt–Ebene
+  - Eintrag, Zeile 12: „(Q3, GK-Kern „Punkt – Ebene“; OHiMi 2.3 „Hessesche Normalenform“)“
+  - Rahmenlehrplan Berlin, Z. 1098–1099: „Abstände (Punkt-Punkt, Punkt-Ebene, Gerade-Ebene, Ebene-Ebene) bestimmen.“ – Q3 (Khj, Z. 1099), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1220–1221: „Abstände zwischen Punkten, Geraden und Ebenen bestimmen,“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 178: „V. Winkel und Abstände“ (Z. 255) › „2. Abstandsberechnungen“ (Z. 257)
+  - Bigalke/Köhler LK 12, S. 196: „V. Winkel und Abstände“ (Z. 307) › „2. Abstandsberechnungen“ (Z. 309)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 186: „4 Analytische Geometrie“ (Z. 204) › „4.7 Abstände zu Ebenen“ (Z. 213) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 128: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.3 Abstandsprobleme“ (Z. 111) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Lotfußpunkt
+  - Eintrag, Zeile 13: „(Q3, LK-Zusatz „Punkt – Gerade“; der Pool prüft auch grundlegend, siehe Befund Niveaustufung)“
+  - Rahmenlehrplan Berlin, Z. 1109: „Abstände (Punkt-Gerade, Gerade-Gerade) bestimmen,“ – Q3 (Khj, Z. 1109), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1296–1297: „Abstände zwischen Punkten und Geraden bestimmen,“ – Q3, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 178: „V. Winkel und Abstände“ (Z. 255) › „2. Abstandsberechnungen“ (Z. 257)
+  - Bigalke/Köhler LK 12, S. 196: „V. Winkel und Abstände“ (Z. 307) › „2. Abstandsberechnungen“ (Z. 309)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 192: „4 Analytische Geometrie“ (Z. 204) › „4.8 Abstände zu Geraden“ (Z. 214) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 128: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.3 Abstandsprobleme“ (Z. 111) (Gegenprobe)
+  - Ermessen: Den Lotfußpunkt nennt keiner der beiden Pläne. Zugeordnet ist die Zeile zum Abstand Punkt–Gerade, die in beiden Ländern im LK-Zusatz steht – das Verfahren der Einheit.
+  - Ermessen: Bigalke/Köhler, Z. 257: „Abstandsberechnungen“ auch als Abstand Punkt–Gerade gelesen; der GK-Band führt das Kapitel ebenso.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: ja (Plan)
+- 4. Abstand als Argument
+  - Eintrag, Zeile 14: „(Q3, GK-Kern „Gerade – Ebene“, „Ebene – Ebene“; Eingangsvoraussetzung L3 Pythagoras, Thales, Ähnlichkeit)“
+  - Rahmenlehrplan Berlin, Z. 1098–1099: „Abstände (Punkt-Punkt, Punkt-Ebene, Gerade-Ebene, Ebene-Ebene) bestimmen.“ – Q3 (Khj, Z. 1099), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1220–1221: „Abstände zwischen Punkten, Geraden und Ebenen bestimmen,“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 178: „V. Winkel und Abstände“ (Z. 255) › „2. Abstandsberechnungen“ (Z. 257)
+  - Bigalke/Köhler GK 12, S. 189: „V. Winkel und Abstände“ (Z. 255) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 258)
+  - Bigalke/Köhler LK 12, S. 196: „V. Winkel und Abstände“ (Z. 307) › „2. Abstandsberechnungen“ (Z. 309)
+  - Bigalke/Köhler LK 12, S. 219: „V. Winkel und Abstände“ (Z. 307) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 310)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 128: „Kapitel 3 Skalarprodukt und Messen“ (Z. 108) › „3.3 Abstandsprobleme“ (Z. 111) (Gegenprobe)
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### spiegelung
+- 1. Punkte spiegeln
+  - Eintrag, Zeile 11: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometri-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 189: „V. Winkel und Abstände“ (Z. 255) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 258)
+  - Bigalke/Köhler LK 12, S. 219: „V. Winkel und Abstände“ (Z. 307) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 310)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 183: „Kapitel 4 Matrizen“ (Z. 115) › „4.3 Geometrische Abbildungen“ (Z. 118) (Gegenprobe)
+  - Ermessen: Spiegelungen nennt weder der Berliner noch der Brandenburger Plan; zugeordnet ist in beiden Ländern die Zeile zum Arbeiten mit Vektoren an geometrischen Objekten.
+  - Ermessen: Bigalke/Köhler, Z. 258: „Untersuchung geometrischer Objekte im Raum“ als Spiegelung und Symmetrie gelesen; das Verzeichnis nennt sie nicht.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 118: „Geometrische Abbildungen“ (Kapitel Matrizen) als Spiegelung gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Spiegelebene und Spiegelgerade bestimmen
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometri-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 189: „V. Winkel und Abstände“ (Z. 255) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 258)
+  - Bigalke/Köhler LK 12, S. 219: „V. Winkel und Abstände“ (Z. 307) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 310)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 183: „Kapitel 4 Matrizen“ (Z. 115) › „4.3 Geometrische Abbildungen“ (Z. 118) (Gegenprobe)
+  - Ermessen: wie Einheit 1: keine eigene Stelle.
+  - Ermessen: Bigalke/Köhler, Z. 258: „Untersuchung geometrischer Objekte im Raum“ als Spiegelung und Symmetrie gelesen; das Verzeichnis nennt sie nicht.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 118: „Geometrische Abbildungen“ (Kapitel Matrizen) als Spiegelung gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Symmetrieebenen von Körpern
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Beschreibung geometrischer Objekte mittels Vektoren“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 189: „V. Winkel und Abstände“ (Z. 255) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 258)
+  - Bigalke/Köhler LK 12, S. 219: „V. Winkel und Abstände“ (Z. 307) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 310)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: wie Einheit 1: keine eigene Stelle.
+  - Ermessen: Bigalke/Köhler, Z. 258: „Untersuchung geometrischer Objekte im Raum“ als Spiegelung und Symmetrie gelesen; das Verzeichnis nennt sie nicht.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### scharen-von-geraden-und-ebenen
+- 1. Die Schar als Familie
+  - Eintrag, Zeile 11: „(Q3 LK „Scharen“)“
+  - Rahmenlehrplan Berlin, Z. 1148–1149: „die Lagebeziehungen von Punkten, Geraden und Ebenen (auch Scharen) untersuchen.“ – Q3 (Khj, Z. 1149), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1300–1301: „die Lagebeziehungen von Geraden und Ebenen untersuchen.“ – Q3, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 122: „III. Geraden“ (Z. 292) › „6. Geradenscharen“ (Z. 298)
+  - Bigalke/Köhler LK 12, S. 174: „IV. Ebenen“ (Z. 300) › „5. Ebenenscharen“ (Z. 305)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 2. Parameter aus Lagebedingungen
+  - Eintrag, Zeile 12: „(Q3 LK; Paarregeln aus orthogonalitaet.md mit Parameter)“
+  - Rahmenlehrplan Berlin, Z. 1148–1149: „die Lagebeziehungen von Punkten, Geraden und Ebenen (auch Scharen) untersuchen.“ – Q3 (Khj, Z. 1149), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1301–1302: „Geraden und Ebenen auch unter Verwendung von Parametern in den Koordinaten“ – Q3, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 122: „III. Geraden“ (Z. 292) › „6. Geradenscharen“ (Z. 298)
+  - Bigalke/Köhler LK 12, S. 174: „IV. Ebenen“ (Z. 300) › „5. Ebenenscharen“ (Z. 305)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Das Wort „(Scharen)“ steht in Brandenburg als eigene Zeile 1303 am Ende derselben Inhaltszeile.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 3. Parameter aus Maßbedingungen
+  - Eintrag, Zeile 13: „(Q3 LK; Formeln aus skalarprodukt-und-winkel.md und abstaende.md)“
+  - Rahmenlehrplan Berlin, Z. 1148–1149: „die Lagebeziehungen von Punkten, Geraden und Ebenen (auch Scharen) untersuchen.“ – Q3 (Khj, Z. 1149), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1300–1301: „die Lagebeziehungen von Geraden und Ebenen untersuchen.“ – Q3, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 122: „III. Geraden“ (Z. 292) › „6. Geradenscharen“ (Z. 298)
+  - Bigalke/Köhler LK 12, S. 174: „IV. Ebenen“ (Z. 300) › „5. Ebenenscharen“ (Z. 305)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Maßbedingungen an Scharen (Abstand, Winkel, Volumen mit Parameter) nennt kein Plan eigens.
+  - Ermessen: Bigalke/Köhler, Z. 298: Geraden- und Ebenenscharen auch mit Maßbedingungen gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 4. Scharen am Körper
+  - Eintrag, Zeile 14: „(Q3 LK; Körperarbeit in Teil B)“
+  - Rahmenlehrplan Berlin, Z. 1148–1149: „die Lagebeziehungen von Punkten, Geraden und Ebenen (auch Scharen) untersuchen.“ – Q3 (Khj, Z. 1149), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1300–1301: „die Lagebeziehungen von Geraden und Ebenen untersuchen.“ – Q3, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 174: „IV. Ebenen“ (Z. 300) › „5. Ebenenscharen“ (Z. 305)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Scharen am Körper nennt kein Plan eigens.
+  - Ermessen: Bigalke/Köhler, Z. 305: „Ebenenscharen“ als Scharen am Körper gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+
+### flaecheninhalt-und-volumen-im-raum
+- 1. Dreiecksflächen
+  - Eintrag, Zeile 11: „(Q3, GK-Kern „Flächeninhalte von geometrischen Objekten“; OHiMi 2.3 „Flächenberechnung: Dreieck“)“
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1257–1258: „Flächeninhalte von geometrischen Objekte, die durch Koordinaten und mit Vek-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 68: „II. Das Skalarprodukt“ (Z. 237) › „2. Winkel- und Flächenberechnungen“ (Z. 239)
+  - Bigalke/Köhler LK 12, S. 70: „II. Das Skalarprodukt“ (Z. 287) › „2. Winkel- und Flächenberechnungen“ (Z. 289)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 172: „4 Analytische Geometrie“ (Z. 204) › „Vektorprodukt“ (Z. 209) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Elemente Sek II NRW, Z. 209: „Vektorprodukt“ (LK) als Dreiecksfläche gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Vierecksflächen
+  - Eintrag, Zeile 12: „(Q3, GK-Kern; OHiMi 2.3 „Rechteck“; Trapez- und Rautenformel in FS-IQB 1.1)“
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1257–1258: „Flächeninhalte von geometrischen Objekte, die durch Koordinaten und mit Vek-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 68: „II. Das Skalarprodukt“ (Z. 237) › „2. Winkel- und Flächenberechnungen“ (Z. 239)
+  - Bigalke/Köhler LK 12, S. 70: „II. Das Skalarprodukt“ (Z. 287) › „2. Winkel- und Flächenberechnungen“ (Z. 289)
+  - Bigalke/Köhler GK 12, S. 74: „II. Das Skalarprodukt“ (Z. 237) › „3. Untersuchung von Figuren und Körpern“ (Z. 240)
+  - Bigalke/Köhler LK 12, S. 76: „II. Das Skalarprodukt“ (Z. 287) › „3. Untersuchung von Figuren und Körpern“ (Z. 290)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Volumen und Oberfläche von Pyramide und Prisma: Grundfläche mal Höhe, bei der Pyramide der Faktor ein Drittel; die Höhe als Abstand der Spitze zur Grundflächenebene (waagerechte Grundfläche: z-Differenz; senkrechte Kante über Skalarprodukte erkennen); die Grundfläche aus den Kästen eins und zwei (Drachen, Trapez, Raute, rechtwinkliges Dreieck); Oberflächen (Seitenhöhe über Pythagoras
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometri-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 74: „II. Das Skalarprodukt“ (Z. 237) › „3. Untersuchung von Figuren und Körpern“ (Z. 240)
+  - Bigalke/Köhler LK 12, S. 76: „II. Das Skalarprodukt“ (Z. 287) › „3. Untersuchung von Figuren und Körpern“ (Z. 290)
+  - Bigalke/Köhler GK 12, S. 189: „V. Winkel und Abstände“ (Z. 255) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 258)
+  - Bigalke/Köhler LK 12, S. 219: „V. Winkel und Abstände“ (Z. 307) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 310)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Volumen und Oberfläche von Körpern nennt der GOST-Text beider Länder in der Analytischen Geometrie nicht; zugeordnet ist die Zeile zum Arbeiten mit ebenflächig begrenzten Objekten.
+  - Ermessen: Bigalke/Köhler, Z. 240: „Untersuchung von Figuren und Körpern“ und „Untersuchung geometrischer Objekte im Raum“ als Volumen und Oberfläche gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 4. Zusammengesetzte Körper, Verhältnisse und Parameter: Zerlegen und Ergänzen (Differenz zweier Pyramiden am abgeschnittenen Quader, Quader plus Dachprisma, Prisma plus Pyramide, vorgelegte Volumenterme Faktor für Faktor deuten), Volumenverhältnisse ohne Zahlenwerte (Formeln dividieren, Anteile am Quader begründen), Ähnlichkeit (der parallele Schnitt trennt eine ähnliche Teilpyramide ab
+  - Eintrag, Zeile 14: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1139–1140: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden,“ – Q3 (Khj, Z. 1140), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1255–1256: „Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometri-“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 189: „V. Winkel und Abstände“ (Z. 255) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 258)
+  - Bigalke/Köhler LK 12, S. 219: „V. Winkel und Abstände“ (Z. 307) › „3. Untersuchung geometrischer Objekte im Raum“ (Z. 310)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Wie Einheit 3: zusammengesetzte Körper und Volumenverhältnisse stehen in keinem Plan.
+  - Ermessen: Bigalke/Köhler, Z. 258: „Untersuchung geometrischer Objekte im Raum“ als zusammengesetzte Körper gelesen.
+  - Halbjahr: Q3 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### matrizen-und-uebergangsprozesse
+- 1. Matrizen als Rechenobjekte
+  - Eintrag, Zeile 11: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1056–1057: „einfache Sachverhalte mit Tupeln (Listen, Vektoren) bzw. Matrizen (Koeffizientenmatrizen, Tabellen) beschreiben.“ – Q3 (Khj, Z. 1057), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg: keine Stelle
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler Abiturvorbereitung, S. 26: „II. Lineare Algebra und Analytische Geometrie“ (Z. 360) › „7. Matrizen und lineare Abbildungen“ (Z. 367)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 148: „Kapitel 4 Matrizen“ (Z. 115) › „4.1 Von Tabellen zu Matrizen - Matrizen in Anwendungen“ (Z. 116) (Gegenprobe)
+  - Ermessen: Brandenburg kennt Matrizen nicht: die entsprechende Zeile des dritten Kurshalbjahrs nennt nur Tupel („einfache Sachverhalte mit Tupeln beschreiben“, Zeilen 1209–1210). Keine Stelle.
+  - Ermessen: Bigalke/Köhler, Z. 367: Nur im Band Abiturvorbereitung; die Bände 11 und 12 führen keine Matrizen.
+  - Halbjahr: Berlin Q3 · Bigalke/Köhler nur im Band Abiturvorbereitung · GK/LK: Berlin GK und LK · Bigalke/Köhler nur Band Abiturvorbereitung
+  - nur LK: nein
+- 2. Vektoren unter Matrizen
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1056–1057: „einfache Sachverhalte mit Tupeln (Listen, Vektoren) bzw. Matrizen (Koeffizientenmatrizen, Tabellen) beschreiben.“ – Q3 (Khj, Z. 1057), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg: keine Stelle
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler Abiturvorbereitung, S. 26: „II. Lineare Algebra und Analytische Geometrie“ (Z. 360) › „7. Matrizen und lineare Abbildungen“ (Z. 367)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 166: „Kapitel 4 Matrizen“ (Z. 115) › „4.2 Übergangsprozesse“ (Z. 117) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 183: „Kapitel 4 Matrizen“ (Z. 115) › „4.3 Geometrische Abbildungen“ (Z. 118) (Gegenprobe)
+  - Ermessen: wie Einheit 1: keine Stelle in Brandenburg.
+  - Ermessen: Bigalke/Köhler, Z. 367: Nur im Band Abiturvorbereitung.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 117: Fixvektoren als Teil von Übergangsprozessen und geometrischen Abbildungen gelesen.
+  - Halbjahr: Berlin Q3 · Bigalke/Köhler nur im Band Abiturvorbereitung · GK/LK: Berlin GK und LK · Bigalke/Köhler nur Band Abiturvorbereitung
+  - nur LK: nein
+- 3. Verflechtung
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1056–1057: „einfache Sachverhalte mit Tupeln (Listen, Vektoren) bzw. Matrizen (Koeffizientenmatrizen, Tabellen) beschreiben.“ – Q3 (Khj, Z. 1057), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg: keine Stelle
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler Abiturvorbereitung, S. 26: „II. Lineare Algebra und Analytische Geometrie“ (Z. 360) › „7. Matrizen und lineare Abbildungen“ (Z. 367)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 148: „Kapitel 4 Matrizen“ (Z. 115) › „4.1 Von Tabellen zu Matrizen - Matrizen in Anwendungen“ (Z. 116) (Gegenprobe)
+  - Ermessen: wie Einheit 1: keine Stelle in Brandenburg.
+  - Ermessen: Bigalke/Köhler, Z. 367: Nur im Band Abiturvorbereitung; Verflechtung als Matrizenanwendung gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 116: „Matrizen in Anwendungen“ als mehrstufige Produktion gelesen.
+  - Halbjahr: Berlin Q3 · Bigalke/Köhler nur im Band Abiturvorbereitung · GK/LK: Berlin GK und LK · Bigalke/Köhler nur Band Abiturvorbereitung
+  - nur LK: nein
+- 4. Übergangsmodell
+  - Eintrag, Zeile 14: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1056–1057: „einfache Sachverhalte mit Tupeln (Listen, Vektoren) bzw. Matrizen (Koeffizientenmatrizen, Tabellen) beschreiben.“ – Q3 (Khj, Z. 1057), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg: keine Stelle
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler Abiturvorbereitung, S. 28: „II. Lineare Algebra und Analytische Geometrie“ (Z. 360) › „8. Matrizen zur Beschreibung von Übergangsprozessen“ (Z. 368)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 166: „Kapitel 4 Matrizen“ (Z. 115) › „4.2 Übergangsprozesse“ (Z. 117) (Gegenprobe)
+  - Ermessen: Übergangs- und Prozessmatrizen nennt auch Berlin nicht; die Berliner Zeile nennt Matrizen nur als Beschreibungsmittel („Koeffizientenmatrizen, Tabellen“).
+  - Ermessen: Bigalke/Köhler, Z. 368: Nur im Band Abiturvorbereitung.
+  - Halbjahr: Berlin Q3 · Bigalke/Köhler nur im Band Abiturvorbereitung · GK/LK: Berlin GK und LK · Bigalke/Köhler nur Band Abiturvorbereitung
+  - nur LK: nein
+- 5. Stationär und langfristig
+  - Eintrag, Zeile 15: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin: keine Stelle
+  - Rahmenlehrplan Brandenburg: keine Stelle
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler Abiturvorbereitung, S. 28: „II. Lineare Algebra und Analytische Geometrie“ (Z. 360) › „8. Matrizen zur Beschreibung von Übergangsprozessen“ (Z. 368)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Lineare Algebra/Analytische Geometrie, S. 166: „Kapitel 4 Matrizen“ (Z. 115) › „4.2 Übergangsprozesse“ (Z. 117) (Gegenprobe)
+  - Ermessen: Stationäre Verteilung und Langfristverhalten nennt keiner der beiden Pläne. Keine Stelle.
+  - Ermessen: Bigalke/Köhler, Z. 368: Nur im Band Abiturvorbereitung.
+  - Halbjahr: keine Planstelle · Bigalke/Köhler nur im Band Abiturvorbereitung · GK/LK: keine Planstelle · Bigalke/Köhler nur Band Abiturvorbereitung
+  - nur LK: nein
+
+### vierfeldertafel
+- 1. Die Tafel füllen: Aufbau (zwei Merkmale mit Gegenereignissen, vier Felder, Ränder, Summe eins bzw. Gesamtzahl), Füllregeln (Ränder zuerst, Felder als Differenzen der Ränder), der Kernschritt bei bedingten Angaben („Anteil innerhalb einer Gruppe“ ist bedingt
+  - Eintrag, Zeile 11: „(Q2, GK-Kern „Vierfeldertafel“; OHiMi 2.4)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1144: „Vierfeldertafel“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 483: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „3. Vierfeldertafeln“ (Z. 119)
+  - Bigalke/Köhler LK 11, S. 593: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „3. Vierfeldertafeln“ (Z. 217)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 166: „5 Daten und Zufall“ (Z. 125) › „5.4 Vierfeldertafeln“ (Z. 130) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 232: „5 Daten und Zufall“ (Z. 218) › „5.6 Vierfeldertafeln“ (Z. 226) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 66: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.4 Bedingte Wahrscheinlichkeit“ (Z. 145) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 145: „Bedingte Wahrscheinlichkeit“ als Vierfeldertafel gelesen; das Verzeichnis nennt sie nicht.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Aus der Tafel rechnen: die Vereinigung „A oder B“ als eins minus Gegenfeld (oder über den Additionssatz), das ausschließende Entweder-oder als Summe der beiden gemischten Felder, fehlende absolute Häufigkeiten durch Subtraktion, Anteile aus Anteilen und bedingten Anteilen kombinieren. (Q2, GK-Kern; OHiMi 2.4 „Additionssatz“) ← Eingabe „a oder b tafel“, „entweder oder“, „vereinigung tafel“
+  - Eintrag, Zeile 12: „(Q2, GK-Kern; OHiMi 2.4 „Additionssatz“)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1136–1137: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln unter-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 483: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „3. Vierfeldertafeln“ (Z. 119)
+  - Bigalke/Köhler LK 11, S. 593: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „3. Vierfeldertafeln“ (Z. 217)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 166: „5 Daten und Zufall“ (Z. 125) › „5.4 Vierfeldertafeln“ (Z. 130) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 232: „5 Daten und Zufall“ (Z. 218) › „5.6 Vierfeldertafeln“ (Z. 226) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 50: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.2 Rechnen mit Ereigniswahrscheinlichkeiten“ (Z. 143) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 143: „Rechnen mit Ereigniswahrscheinlichkeiten“ als Additionssatz an der Tafel gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### bedingte-wahrscheinlichkeit-und-bayes
+- 1. Der Quotient
+  - Eintrag, Zeile 11: „(Q2, GK-Kern „bedingte Wahrscheinlichkeit“; OHiMi 2.4 Quotient)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1136–1137: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln unter-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 469: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 118)
+  - Bigalke/Köhler LK 11, S. 579: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 216)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 162: „5 Daten und Zufall“ (Z. 125) › „5.3 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 129) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 228: „5 Daten und Zufall“ (Z. 218) › „5.5 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 225) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 66: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.4 Bedingte Wahrscheinlichkeit“ (Z. 145) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Bayes
+  - Eintrag, Zeile 12: „(Q2, GK-Kern „Satz von der totalen Wahrscheinlichkeit“, „Satz von Bayes“ – nur Brandenburg nennt die Namen)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1147: „Satz von Bayes“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 469: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 118)
+  - Bigalke/Köhler LK 11, S. 579: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 216)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 162: „5 Daten und Zufall“ (Z. 125) › „5.3 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 129) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 228: „5 Daten und Zufall“ (Z. 218) › „5.5 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 225) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 238: „5 Daten und Zufall“ (Z. 218) › „Aussagekraft medizinischer Testergebnisse“ (Z. 227) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 66: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.4 Bedingte Wahrscheinlichkeit“ (Z. 145) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Mit Parameter
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1136–1137: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln unter-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 469: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 118)
+  - Bigalke/Köhler LK 11, S. 579: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 216)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 162: „5 Daten und Zufall“ (Z. 125) › „5.3 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 129) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 228: „5 Daten und Zufall“ (Z. 218) › „5.5 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 225) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 66: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.4 Bedingte Wahrscheinlichkeit“ (Z. 145) (Gegenprobe)
+  - Ermessen: Den Parameterfall (bedingte Wahrscheinlichkeit mit Unbekannter) nennt kein Plan eigens; zugeordnet ist die Zeile zur bedingten Wahrscheinlichkeit.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### unabhaengigkeit
+- 1. Unabhängigkeit prüfen: die Produktregel P(A ∩ B) = P(A) · P(B) an Anteilen oder absoluten Häufigkeiten prüfen (Tafel oder Anzahlen erst beschaffen
+  - Eintrag, Zeile 11: „(Q2, GK-Kern; OHiMi 2.4 „stochastische Unabhängigkeit“; FOS Pflichtthema 4)“
+  - Rahmenlehrplan Berlin, Z. 1243–1244: „Teilvorgänge mehrstufiger Zufallsexperimente auf stochastische Unabhängigkeit anhand einfacher Beispiele untersuchen,“ – Q2 (Khj, Z. 1244), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1148–1149: „Teilvorgänge mehrstufiger Zufalls-experimente auf stochastische Unabhän-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 469: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 118)
+  - Bigalke/Köhler LK 11, S. 579: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 216)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 162: „5 Daten und Zufall“ (Z. 125) › „5.3 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 129) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 228: „5 Daten und Zufall“ (Z. 218) › „5.5 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 225) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 66: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.4 Bedingte Wahrscheinlichkeit“ (Z. 145) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 145: „Bedingte Wahrscheinlichkeit“ als Unabhängigkeit gelesen; das Verzeichnis nennt sie nicht.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Rückwärts
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1243–1244: „Teilvorgänge mehrstufiger Zufallsexperimente auf stochastische Unabhängigkeit anhand einfacher Beispiele untersuchen,“ – Q2 (Khj, Z. 1244), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1149–1150: „stochastische Abhängigkeit und Unabhängigkeit von Ereignissen“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 469: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 118)
+  - Bigalke/Köhler LK 11, S. 579: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 216)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 162: „5 Daten und Zufall“ (Z. 125) › „5.3 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 129) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 228: „5 Daten und Zufall“ (Z. 218) › „5.5 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 225) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 66: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.4 Bedingte Wahrscheinlichkeit“ (Z. 145) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 145: „Bedingte Wahrscheinlichkeit“ als Unabhängigkeit gelesen; das Verzeichnis nennt sie nicht.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Unabhängigkeit als Argument: die Ausgleichs-Fehlvorstellung widerlegen
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1243–1244: „Teilvorgänge mehrstufiger Zufallsexperimente auf stochastische Unabhängigkeit anhand einfacher Beispiele untersuchen,“ – Q2 (Khj, Z. 1244), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1148–1149: „Teilvorgänge mehrstufiger Zufalls-experimente auf stochastische Unabhän-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 469: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 118)
+  - Bigalke/Köhler LK 11, S. 579: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 216)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 29: „Kapitel 1 Zufall und Wahrscheinlichkeit“ (Z. 135) › „1.3 Nachgefragt - Empirisches Gesetz der großen Zahlen“ (Z. 138) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 118: Die Ausgleichs-Fehlvorstellung als Anwendung der Unabhängigkeit gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 138: „Empirisches Gesetz der großen Zahlen“ als Widerlegung des Ausgleichs gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### zufallsgroessen-und-verteilungen
+- 1. Verteilung aufstellen: die Werte der Zufallsgröße aus den Regeln gewinnen (alle Ergebnisfolgen durchrechnen), die Tabelle durch Abzählen füllen (günstige Paare je Wert), fehlende Wahrscheinlichkeiten über die Summe eins
+  - Eintrag, Zeile 11: „(Q2, GK-Kern „Zufallsgrößen als Zuordnung“, „Verteilung in Tabellen“)“
+  - Rahmenlehrplan Berlin, Z. 1214–1215: „Zufallsgrößen und Wahrscheinlichkeitsverteilungen zur Beschreibung stochastischer Situationen nutzen.“ – Q2/4 (Khj, Z. 1215), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1103–1104: „Zufallsgrößen und Wahrscheinlichkeitsverteilungen zur Beschreibung“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 494: „XIII. Die Binomialverteilung“ (Z. 120) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 121)
+  - Bigalke/Köhler LK 11, S. 604: „XIV. Die Binomialverteilung“ (Z. 218) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 219)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 172: „5 Daten und Zufall“ (Z. 125) › „5.5 Erwartungswert einer Zufallsgröße“ (Z. 131) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 240: „5 Daten und Zufall“ (Z. 218) › „5.7 Erwartungswert einer Zufallsgröße“ (Z. 228) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 108: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.1 Zufallsgrößen und Erwartungswert“ (Z. 154) (Gegenprobe)
+  - Ermessen: Länderunterschied: Zufallsgrößen und Wahrscheinlichkeitsverteilungen stehen in Berlin im LK-Zusatz, in Brandenburg im Grund- und Leistungskursfach des zweiten Kurshalbjahrs.
+  - Ermessen: Elemente Sek II NRW, Z. 131: „Erwartungswert einer Zufallsgröße“ als Verteilung einer Zufallsgröße gelesen; eine eigene Zeile fehlt.
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: Berlin nur LK · Brandenburg GK und LK · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Verteilung lesen: die Symmetrie einer Verteilung nutzen (Restwahrscheinlichkeit gleich verteilen, kumulierte Werte daraus), beschriebene Zufallsgrößen den Säulendiagrammen zuordnen (Symmetrie, Verhältnisse einzelner Säulen). (Q2, GK-Kern „Verteilung in … Diagrammen“; OHiMi 2.4 Histogramme) ← Eingabe „verteilung zuordnen“, „symmetrische verteilung“, „säulendiagramm zufallsgröße“
+  - Eintrag, Zeile 12: „(Q2, GK-Kern „Verteilung in … Diagrammen“; OHiMi 2.4 Histogramme)“
+  - Rahmenlehrplan Berlin, Z. 1214–1215: „Zufallsgrößen und Wahrscheinlichkeitsverteilungen zur Beschreibung stochastischer Situationen nutzen.“ – Q2/4 (Khj, Z. 1215), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1105–1106: „Wahrscheinlichkeitsverteilung einer Zufallsgröße in Tabellen und Diagrammen“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 494: „XIII. Die Binomialverteilung“ (Z. 120) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 121)
+  - Bigalke/Köhler LK 11, S. 604: „XIV. Die Binomialverteilung“ (Z. 218) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 219)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 172: „5 Daten und Zufall“ (Z. 125) › „5.5 Erwartungswert einer Zufallsgröße“ (Z. 131) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 240: „5 Daten und Zufall“ (Z. 218) › „5.7 Erwartungswert einer Zufallsgröße“ (Z. 228) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 108: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.1 Zufallsgrößen und Erwartungswert“ (Z. 154) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 131: „Erwartungswert einer Zufallsgröße“ als Verteilung einer Zufallsgröße gelesen; eine eigene Zeile fehlt.
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: Berlin nur LK · Brandenburg GK und LK · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### hypergeometrische-verteilung
+- 1. Genau k Treffer ohne Zurücklegen: die Situation erkennen (feste kleine Gesamtheit, Ziehen ohne Zurücklegen
+  - Eintrag, Zeile 11: „(Q2, GK-Kern „Ziehen ohne Zurücklegen“; OHiMi 2.4 „Ansätze“; IQB-VER 4 vorausgesetzt)“
+  - Rahmenlehrplan Berlin, Z. 1245–1246: „Anwendungssituationen mithilfe des Urnenmodells (mit und ohne Zurücklegen) untersuchen,“ – Q2 (Khj, Z. 1246), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1124–1125: „Ziehen ohne Zurücklegen (hypergeometrische Verteilung)“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 460: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „1. Kombinatorische Abzählverfahren“ (Z. 117)
+  - Bigalke/Köhler LK 11, S. 570: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „1. Kombinatorische Abzählverfahren“ (Z. 215)
+  - Fundamente Sek II B Einführungsphase, S. 118: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.3 Urnenmodell - Ziehen mit und ohne Zurücklegen“ (Z. 66)
+  - Fundamente Sek II B Einführungsphase, S. 122: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.4 Urnenmodell - Ziehen ohne Beachtung der Reihenfolge“ (Z. 67)
+  - Elemente Sek II NRW Q-Phase LK, S. 222: „5 Daten und Zufall“ (Z. 218) › „5.4 Zählstrategien“ (Z. 223) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 56: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.3 Zählen und Wahrscheinlichkeiten“ (Z. 144) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 117: „Kombinatorische Abzählverfahren“ als Quotient von Binomialkoeffizienten gelesen; die hypergeometrische Verteilung nennt das Verzeichnis nicht.
+  - Ermessen: Elemente Sek II NRW, Z. 223: „Zählstrategien“ (LK) als Ziehen ohne Zurücklegen gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Kumulieren gegen eine Schranke: hypergeometrische Einzelwahrscheinlichkeiten aufsummieren und die größte (oder kleinste) Trefferzahl gegen eine Schranke bestimmen
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1245–1246: „Anwendungssituationen mithilfe des Urnenmodells (mit und ohne Zurücklegen) untersuchen,“ – Q2 (Khj, Z. 1246), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1121–1122: „Anwendungssituationen mithilfe von Urnenmodellen untersuchen,“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 460: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „1. Kombinatorische Abzählverfahren“ (Z. 117)
+  - Bigalke/Köhler LK 11, S. 570: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „1. Kombinatorische Abzählverfahren“ (Z. 215)
+  - Fundamente Sek II B Einführungsphase, S. 122: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.4 Urnenmodell - Ziehen ohne Beachtung der Reihenfolge“ (Z. 67)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 56: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.3 Zählen und Wahrscheinlichkeiten“ (Z. 144) (Gegenprobe)
+  - Ermessen: Das Kumulieren hypergeometrischer Wahrscheinlichkeiten nennt kein Plan; zugeordnet ist die Urnenmodellzeile.
+  - Ermessen: Bigalke/Köhler, Z. 117: Wie Einheit 1.
+  - Ermessen: Fundamente Sek II B, Z. 67: Ziehen ohne Reihenfolge als Kumulieren hypergeometrischer Wahrscheinlichkeiten gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### kenngroessen-von-verteilungen
+- 1. Erwartungswert berechnen und deuten: die Verteilung beschaffen (Tabelle, Sachtext, Baumpfade, Kosten je Ausgang; fehlende Wahrscheinlichkeit über die Summe 1), die gewichtete Summe bilden (bei Anzahlen n · p), das Ergebnis deuten
+  - Eintrag, Zeile 11: „(Q2 BB, GK-Kern; OHiMi 2.4 „Erwartungswert von Zufallsgrößen“; FOS Pflichtthema 4)“
+  - Rahmenlehrplan Berlin, Z. 1094–1095: „Erwartungswert und Standardabweichung der Binomialverteilung bestimmen und deuten,“ – Q4 (Khj, Z. 1095), Grund- und Leistungskurs
+  - Rahmenlehrplan Berlin, Z. 1107–1108: „Erwartungswert und Standardabweichung diskreter Zufallsgrößen bestimmen und deuten,“ – Q2 (Khj, Z. 1108), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1064–1065: „Erwartungswert und Standardabweichung diskreter Zufallsgrößen bestim-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 494: „XIII. Die Binomialverteilung“ (Z. 120) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 121)
+  - Bigalke/Köhler LK 11, S. 604: „XIV. Die Binomialverteilung“ (Z. 218) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 219)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 172: „5 Daten und Zufall“ (Z. 125) › „5.5 Erwartungswert einer Zufallsgröße“ (Z. 131) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 240: „5 Daten und Zufall“ (Z. 218) › „5.7 Erwartungswert einer Zufallsgröße“ (Z. 228) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 108: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.1 Zufallsgrößen und Erwartungswert“ (Z. 154) (Gegenprobe)
+  - Ermessen: Länderunterschied: Erwartungswert und Standardabweichung stehen in Berlin für die Binomialverteilung im Grund- und Leistungskursfach, für diskrete Zufallsgrößen im LK-Zusatz; Brandenburg führt die diskreten Zufallsgrößen im Grund- und Leistungskursfach.
+  - Ermessen: Bigalke/Köhler, Z. 121: „Zufallsgrößen und Wahrscheinlichkeitsverteilung“ als Erwartungswert gelesen.
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Rückwärts
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1094–1095: „Erwartungswert und Standardabweichung der Binomialverteilung bestimmen und deuten,“ – Q4 (Khj, Z. 1095), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1064–1065: „Erwartungswert und Standardabweichung diskreter Zufallsgrößen bestim-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 494: „XIII. Die Binomialverteilung“ (Z. 120) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 121)
+  - Bigalke/Köhler LK 11, S. 604: „XIV. Die Binomialverteilung“ (Z. 218) › „1. Zufallsgrößen und Wahrscheinlichkeitsverteilung“ (Z. 219)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 172: „5 Daten und Zufall“ (Z. 125) › „5.5 Erwartungswert einer Zufallsgröße“ (Z. 131) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 240: „5 Daten und Zufall“ (Z. 218) › „5.7 Erwartungswert einer Zufallsgröße“ (Z. 228) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 108: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.1 Zufallsgrößen und Erwartungswert“ (Z. 154) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 121: „Zufallsgrößen und Wahrscheinlichkeitsverteilung“ als Erwartungswert gelesen.
+  - Halbjahr: Berlin Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Varianz und Standardabweichung: die allgemeinen Formeln (gewichtete quadrierte Abweichung, Wurzel), die Binomialformeln μ = n · p und σ = √(n · p · (1 − p)) vorwärts und rückwärts (Parameter aus Kenngrößen, Symmetrie liefert p), Argumente über die Formel (Parabel in p, Symmetrie von p und Gegenwahrscheinlichkeit, Wachstum mit der Wurzel aus n). (BB Q2 GK-Kern, BE Q4 GK binomial bzw. LK allgemein; [IQB-VER 4] vorausgesetzt) ← Eingabe „standardabweichung“, „varianz“, „sigma“, „streuung“
+  - Eintrag, Zeile 13: „(BB Q2 GK-Kern, BE Q4 GK binomial bzw. LK allgemein; [IQB-VER 4] vorausgesetzt)“
+  - Rahmenlehrplan Berlin, Z. 1094–1095: „Erwartungswert und Standardabweichung der Binomialverteilung bestimmen und deuten,“ – Q4 (Khj, Z. 1095), Grund- und Leistungskurs
+  - Rahmenlehrplan Berlin, Z. 1107–1108: „Erwartungswert und Standardabweichung diskreter Zufallsgrößen bestimmen und deuten,“ – Q2 (Khj, Z. 1108), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1116–1117: „Kenngrößen von Wahrscheinlichkeits-verteilungen“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 507: „XIII. Die Binomialverteilung“ (Z. 120) › „3. Eigenschaften von Binomialverteilungen“ (Z. 123)
+  - Bigalke/Köhler LK 11, S. 617: „XIV. Die Binomialverteilung“ (Z. 218) › „3. Eigenschaften von Binomialverteilungen“ (Z. 221)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 178: „5 Daten und Zufall“ (Z. 125) › „5.6 Standardabweichung einer Zufallsgröße“ (Z. 132) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 246: „5 Daten und Zufall“ (Z. 218) › „5.8 Standardabweichung einer Zufallsgröße“ (Z. 229) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase GK, S. 202: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „6.4 Erwartungswert und Standardabweichung einer Binomialverteilung“ (Z. 141) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 276: „6 Binomialverteilte Zufallsgrößen“ (Z. 233) › „6.4 Erwartungswert und Standardabweichung einer Binomialverteilung“ (Z. 238) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 108: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.1 Zufallsgrößen und Erwartungswert“ (Z. 154) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 118: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.2 Binomialverteilung“ (Z. 155) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 123: „Eigenschaften von Binomialverteilungen“ als Standardabweichung gelesen; die allgemeine Varianz nennt das Verzeichnis nicht.
+  - Halbjahr: Berlin Q2/Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Kenngrößen am Säulendiagramm: den ganzzahligen Erwartungswert an der höchsten Säule ablesen und daraus p, n oder Verhältnisse bestimmen, die Parität von n aus zwei gleich hohen Säulen begründen, ein Sigma-Intervall auf ganze Werte übertragen und die Wahrscheinlichkeit als Summe der Säulenhöhen ablesen. (GOST-Inhalt „Eigenschaften auf der Grundlage graphischer Darstellungen“; OHiMi 2.4 „Histogramme“; alle Zeilen Teil A, gehäuft seit 2024) ← Eingabe „höchste säule“, „diagramm erwartungswert“, „sigma-intervall“, „säulendiagramm binomial“
+  - Eintrag, Zeile 14: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1094–1095: „Erwartungswert und Standardabweichung der Binomialverteilung bestimmen und deuten,“ – Q4 (Khj, Z. 1095), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1065–1066: „Eigenschaften auf der Grundlage graphischer Darstellungen“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 507: „XIII. Die Binomialverteilung“ (Z. 120) › „3. Eigenschaften von Binomialverteilungen“ (Z. 123)
+  - Bigalke/Köhler LK 11, S. 617: „XIV. Die Binomialverteilung“ (Z. 218) › „3. Eigenschaften von Binomialverteilungen“ (Z. 221)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 202: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „6.4 Erwartungswert und Standardabweichung einer Binomialverteilung“ (Z. 141) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase GK, S. 207: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „Sigma-Regeln“ (Z. 142) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 276: „6 Binomialverteilte Zufallsgrößen“ (Z. 233) › „6.4 Erwartungswert und Standardabweichung einer Binomialverteilung“ (Z. 238) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 118: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.2 Binomialverteilung“ (Z. 155) (Gegenprobe)
+  - Halbjahr: Berlin Q4 · Brandenburg Q2 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### normalverteilung-und-sigma-regeln
+- 1. Modell und Glockenkurve: die Dichtefunktion lesen und skizzieren (μ als Symmetrieachse und Maximumsstelle, σ als Breitenmaß
+  - Eintrag, Zeile 11: „(Q4 LK; OHiMi-LK „Interpretationen von Darstellungen“; Teil-A-Stoff)“
+  - Rahmenlehrplan Berlin, Z. 1257–1258: „exemplarisch diskrete und stetige Zufallsgrößen unterscheiden und die „Glockenform“ als Grundvorstellung von normalverteilten Zufallsgrößen nutzen,“ – Q4 (Khj, Z. 1258), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1348–1349: „exemplarisch diskrete und stetige Zufallsgrößen unterscheiden und die“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 306: „VIII. Die Normalverteilung“ (Z. 323) › „1. Gaußsche Glockenkurve“ (Z. 324)
+  - Bigalke/Köhler LK 12, S. 320: „VIII. Die Normalverteilung“ (Z. 323) › „5. Die Normalverteilung bei stetigen Zufallsgrößen“ (Z. 328)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 308: „7 Beurteilende Stochastik“ (Z. 243) › „7.4 Stetige Zufallsgrößen“ (Z. 247) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 312: „7 Beurteilende Stochastik“ (Z. 243) › „7.5 Normalverteilung“ (Z. 249) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 137: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.3 Stetige Zufallsgrößen und Normalverteilung“ (Z. 156) (Gegenprobe)
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 2. Wahrscheinlichkeiten berechnen: Intervall- und einseitige Wahrscheinlichkeiten mit dem Rechner, die Sigma-Regeln der Formelsammlung, Symmetrie und Gegenereignis (außerhalb wird halbiert), Sachbedingungen übersetzen („weicht um höchstens … ab“ als symmetrisches Intervall um den Sollwert, diskrete Anzahlen im stetigen Modell über halbe Schritte), Näherungen ohne Rechner (Rechteck unter der Dichte). (Q4 LK; FS-IQB Abschnitt „Sigma-Regeln“) ← Eingabe „normalverteilung wahrscheinlichkeit“, „sigma-regeln“, „intervall normalverteilung“
+  - Eintrag, Zeile 12: „(Q4 LK; FS-IQB Abschnitt „Sigma-Regeln“)“
+  - Rahmenlehrplan Berlin, Z. 1259–1260: „stochastische Situationen untersuchen, die zu annähernd normalverteilten Zufallsgrößen führen.“ – Q4 (Khj, Z. 1260), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1351–1352: „Einfluss von Erwartungswert und Standardabweichung auf die Normalverteilung“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 312: „VIII. Die Normalverteilung“ (Z. 323) › „3. Die Gaußsche Integralfunktion Φ“ (Z. 326)
+  - Bigalke/Köhler LK 12, S. 320: „VIII. Die Normalverteilung“ (Z. 323) › „5. Die Normalverteilung bei stetigen Zufallsgrößen“ (Z. 328)
+  - Bigalke/Köhler LK 12, S. 270: „VII. Prognose- und Konfidenzintervalle“ (Z. 315) › „2. Die Sigma-Regeln“ (Z. 317)
+  - Bigalke/Köhler GK 12, S. 218: „VI. Prognose- und Konfidenzintervalle“ (Z. 260) › „2. Die Sigma-Regeln“ (Z. 262)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 312: „7 Beurteilende Stochastik“ (Z. 243) › „7.5 Normalverteilung“ (Z. 249) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 292: „7 Beurteilende Stochastik“ (Z. 243) › „7.1 Sigma-Regeln - Prognoseintervalle“ (Z. 244) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase GK, S. 207: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „Sigma-Regeln“ (Z. 142) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 137: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.3 Stetige Zufallsgrößen und Normalverteilung“ (Z. 156) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 326: Die Sigma-Regeln stehen in beiden Band-12-Kapiteln „Prognose- und Konfidenzintervalle“ (GK Z. 262, LK Z. 317) für die Binomialverteilung; die Normalverteilung nur im LK-Band.
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: ja (Plan)
+- 3. Umkehraufgaben und Argumente: μ aus einer Wahrscheinlichkeitsvorgabe bei bekanntem σ, Grenzen und Quantile, μ und σ am Graphen der Verteilungsfunktion (die Stelle mit dem Wert ein Halb) und am Dichteterm ablesen ([IQB-VER 4] vorausgesetzt), Argumente über die Parameter (Monotonie in σ, das beste Intervall fester Länge liegt symmetrisch um μ). (Q4 LK; Prüfungshöhe des Pools in Teil B) ← Eingabe „umkehraufgabe normalverteilung“, „mu gesucht“, „quantil“, „parameter ablesen“
+  - Eintrag, Zeile 13: „(Q4 LK; Prüfungshöhe des Pools in Teil B)“
+  - Rahmenlehrplan Berlin, Z. 1259–1260: „stochastische Situationen untersuchen, die zu annähernd normalverteilten Zufallsgrößen führen.“ – Q4 (Khj, Z. 1260), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1357–1358: „stochastische Situationen untersuchen, die zu annähernd normalverteilten Zu-“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 320: „VIII. Die Normalverteilung“ (Z. 323) › „5. Die Normalverteilung bei stetigen Zufallsgrößen“ (Z. 328)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 312: „7 Beurteilende Stochastik“ (Z. 243) › „7.5 Normalverteilung“ (Z. 249) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 137: „Kapitel 4 Wahrscheinlichkeitsverteilungen“ (Z. 153) › „4.3 Stetige Zufallsgrößen und Normalverteilung“ (Z. 156) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 328: „Die Normalverteilung bei stetigen Zufallsgrößen“ als Umkehraufgaben gelesen.
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+
+### hypothesentests
+- 1. Entscheidungsregel bestimmen: die Nullhypothese liefert p und die Binomialverteilung der Testgröße, die Alternative die Seite des Ablehnungsbereichs (rechtsseitig bei „mehr als“, linksseitig bei „weniger als“); die Grenze über kumulierte Wahrscheinlichkeiten so wählen, dass das Signifikanzniveau eingehalten wird
+  - Eintrag, Zeile 11: „(Q4 LK; Prüfform jedes Testjahrs)“
+  - Rahmenlehrplan Berlin, Z. 1255–1256: „Hypothesentests bei Binomialverteilungen interpretieren und die Unsicherheit (Fehler 1. und 2. Art) der Ergebnisse begründen,“ – Q4 (Khj, Z. 1256), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1340–1341: „Hypothesentests bei Binomial-verteilungen interpretieren und die Unsi-“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 353: „IX. Hypothesentests“ (Z. 330) › „3. Der Signifikanztest“ (Z. 333)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle – die NRW-Ausgabe 2024/2025 führt keine Hypothesentests (Kapitel 7 endet bei der Normalverteilung)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 164: „Kapitel 5 Beurteilende Statistik“ (Z. 159) › „5.2 Testen von Hypothesen“ (Z. 161) (Gegenprobe)
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 2. Die Nullhypothese wählen: aus der Sicht des Entscheiders
+  - Eintrag, Zeile 12: „(Q4 LK; BE Kap. 4 „kein sicheres Urteil“)“
+  - Rahmenlehrplan Berlin, Z. 1255–1256: „Hypothesentests bei Binomialverteilungen interpretieren und die Unsicherheit (Fehler 1. und 2. Art) der Ergebnisse begründen,“ – Q4 (Khj, Z. 1256), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1345–1346: „Signifikanzniveau, Ablehnungsbereich und Entscheidungsregel“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 353: „IX. Hypothesentests“ (Z. 330) › „3. Der Signifikanztest“ (Z. 333)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle – die NRW-Ausgabe 2024/2025 führt keine Hypothesentests (Kapitel 7 endet bei der Normalverteilung)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 164: „Kapitel 5 Beurteilende Statistik“ (Z. 159) › „5.2 Testen von Hypothesen“ (Z. 161) (Gegenprobe)
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+- 3. Fehlerarten und Güte: den Fehler zweiter Art für selbst gewählte Anteile berechnen (p dort wählen, wo die Nullhypothese falsch ist), einordnen und im Sachzusammenhang beschreiben; Mindestanteile für eine Fehlerschranke; die Gütekurve lesen (Ablehnwahrscheinlichkeit in Abhängigkeit von p
+  - Eintrag, Zeile 13: „(Q4 LK; Prüfungshöhe)“
+  - Rahmenlehrplan Berlin, Z. 1255–1256: „Hypothesentests bei Binomialverteilungen interpretieren und die Unsicherheit (Fehler 1. und 2. Art) der Ergebnisse begründen,“ – Q4 (Khj, Z. 1256), Leistungskurszusatz
+  - Rahmenlehrplan Brandenburg, Z. 1347: „Fehler 1. und 2. Art“ – Q4, Leistungskurszusatz
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler LK 12, S. 346: „IX. Hypothesentests“ (Z. 330) › „2. Der Alternativtest“ (Z. 332)
+  - Bigalke/Köhler LK 12, S. 353: „IX. Hypothesentests“ (Z. 330) › „3. Der Signifikanztest“ (Z. 333)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle – die NRW-Ausgabe 2024/2025 führt keine Hypothesentests (Kapitel 7 endet bei der Normalverteilung)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 164: „Kapitel 5 Beurteilende Statistik“ (Z. 159) › „5.2 Testen von Hypothesen“ (Z. 161) (Gegenprobe)
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: nur LK (Berlin und Brandenburg) · Bigalke/Köhler LK 12
+  - nur LK: ja (Plan, Bigalke/Köhler nur LK-Band)
+
+### konfidenzintervalle
+- 1. Das Intervall lesen und deuten: die Überdeckungsdeutung (verträglich heißt: der angenommene Anteil wird vom Intervall überdeckt
+  - Eintrag, Zeile 11: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1249–1250: „in einfachen Fällen aufgrund von Stichproben auf die Gesamtheit schließen (k-σ-Intervalle, Signifikanzbegriff).“ – Q4 (Khj, Z. 1250), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1321–1322: „in einfachen Fällen aufgrund von Stichproben auf die Gesamtheit schließen.“ – Q4, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 231: „VI. Prognose- und Konfidenzintervalle“ (Z. 260) › „4. Verträglichkeit mit einer Stichprobe“ (Z. 264)
+  - Bigalke/Köhler GK 12, S. 234: „VI. Prognose- und Konfidenzintervalle“ (Z. 260) › „5. Konfidenzintervalle“ (Z. 265)
+  - Bigalke/Köhler LK 12, S. 283: „VII. Prognose- und Konfidenzintervalle“ (Z. 315) › „4. Verträglichkeit mit einer Stichprobe“ (Z. 319)
+  - Bigalke/Köhler LK 12, S. 286: „VII. Prognose- und Konfidenzintervalle“ (Z. 315) › „5. Konfidenzintervalle“ (Z. 320)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 298: „7 Beurteilende Stochastik“ (Z. 243) › „7.2 Konfidenzintervalle“ (Z. 245) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 152: „Kapitel 5 Beurteilende Statistik“ (Z. 159) › „5.1 Schätzen von Anteilen - Konfidenzintervalle“ (Z. 160) (Gegenprobe)
+  - Ermessen: Konfidenz-, Vertrauens- oder Prognoseintervalle nennt kein Plan; zugeordnet ist die Zeile zum Schluss von der Stichprobe auf die Gesamtheit.
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 2. Mit der Näherungsformel rechnen: die Grenzgleichung nach p lösen (quadratisch
+  - Eintrag, Zeile 12: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1249–1250: „in einfachen Fällen aufgrund von Stichproben auf die Gesamtheit schließen (k-σ-Intervalle, Signifikanzbegriff).“ – Q4 (Khj, Z. 1250), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1323–1324: „Schätzung von Wahrscheinlichkeiten aus relativen Häufigkeiten mit den k-σ-Regeln“ – Q4, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 234: „VI. Prognose- und Konfidenzintervalle“ (Z. 260) › „5. Konfidenzintervalle“ (Z. 265)
+  - Bigalke/Köhler LK 12, S. 286: „VII. Prognose- und Konfidenzintervalle“ (Z. 315) › „5. Konfidenzintervalle“ (Z. 320)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 298: „7 Beurteilende Stochastik“ (Z. 243) › „7.2 Konfidenzintervalle“ (Z. 245) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 152: „Kapitel 5 Beurteilende Statistik“ (Z. 159) › „5.1 Schätzen von Anteilen - Konfidenzintervalle“ (Z. 160) (Gegenprobe)
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+- 3. Argumente über Formel und Verträglichkeit: die Länge des Intervalls bei doppeltem Umfang (Faktor eins durch Wurzel zwei
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1249–1250: „in einfachen Fällen aufgrund von Stichproben auf die Gesamtheit schließen (k-σ-Intervalle, Signifikanzbegriff).“ – Q4 (Khj, Z. 1250), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1323–1324: „Schätzung von Wahrscheinlichkeiten aus relativen Häufigkeiten mit den k-σ-Regeln“ – Q4, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 12, S. 244: „VI. Prognose- und Konfidenzintervalle“ (Z. 260) › „6. Stichprobenumfänge bei Konfidenzintervallen“ (Z. 266)
+  - Bigalke/Köhler LK 12, S. 296: „VII. Prognose- und Konfidenzintervalle“ (Z. 315) › „6. Stichprobenumfänge bei Konfidenzintervallen“ (Z. 321)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 304: „7 Beurteilende Stochastik“ (Z. 243) › „7.3 Erforderlicher Stichprobenumfang“ (Z. 246) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 152: „Kapitel 5 Beurteilende Statistik“ (Z. 159) › „5.1 Schätzen von Anteilen - Konfidenzintervalle“ (Z. 160) (Gegenprobe)
+  - Halbjahr: Q4 (Berlin und Brandenburg) · Bigalke/Köhler Band 12 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 12, LK 12
+  - nur LK: nein
+
+### zufallsexperimente-und-pfadregeln
+- 1. Ereignisse als Mengen
+  - Eintrag, Zeile 12: „(Q2, GK-Kern „Grundbegriffe der Mengenlehre“; OHiMi 2.4 Additionssatz; FOS „elementare Begriffe“)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1136–1137: „Grundbegriffe der Mengenlehre: leere Menge“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1178: „elementare Begriffe“ – Themenfeld 4 Stochastik (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 422: „XI. Grundlegende Begriffe der Stochastik“ (Z. 110) › „1. Zufallsversuche und Ereignisse“ (Z. 111)
+  - Bigalke/Köhler LK 11, S. 532: „XII. Grundlegende Begriffe der Stochastik“ (Z. 208) › „1. Zufallsversuche und Ereignisse“ (Z. 209)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 40: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.1 Grundbegriffe stochastischer Modelle“ (Z. 142) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 50: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.2 Rechnen mit Ereigniswahrscheinlichkeiten“ (Z. 143) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Laplace-Experimente in der Oberstufe
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1245–1246: „Anwendungssituationen mithilfe des Urnenmodells (mit und ohne Zurücklegen) untersuchen,“ – Q2 (Khj, Z. 1246), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1121–1122: „Anwendungssituationen mithilfe von Urnenmodellen untersuchen,“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1181: „Laplace-Experiment“ – Themenfeld 4 Stochastik (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 427: „XI. Grundlegende Begriffe der Stochastik“ (Z. 110) › „2. Relative Häufigkeit und Wahrscheinlichkeit“ (Z. 112)
+  - Bigalke/Köhler LK 11, S. 537: „XII. Grundlegende Begriffe der Stochastik“ (Z. 208) › „2. Relative Häufigkeit und Wahrscheinlichkeit“ (Z. 210)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 40: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.1 Grundbegriffe stochastischer Modelle“ (Z. 142) (Gegenprobe)
+  - Ermessen: Laplace-Experimente nennt kein Plan der Qualifikationsphase eigens; sie sind Eingangsvoraussetzung.
+  - Ermessen: Bigalke/Köhler, Z. 112: „Relative Häufigkeit und Wahrscheinlichkeit“ als Laplace-Experimente gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 142: „Grundbegriffe stochastischer Modelle“ als Laplace-Modell gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Pfadregeln bei unabhängigen Stufen
+  - Eintrag, Zeile 14: „(Q2, GK-Kern „zwei- und dreistufige Zufallsexperimente“; OHiMi 2.4 „Baumdiagramm, Pfadregeln“; FOS „mehrstufige Zufallsexperimente“)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1143: „Baumdiagramm und Pfadregeln“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1183: „mehrstufige Zufallsexperimente“ – Themenfeld 4 Stochastik (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 438: „XI. Grundlegende Begriffe der Stochastik“ (Z. 110) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 113)
+  - Bigalke/Köhler LK 11, S. 548: „XII. Grundlegende Begriffe der Stochastik“ (Z. 208) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 211)
+  - Fundamente Sek II B Einführungsphase, S. 108: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.1 Wiederholung: Mehrstufige Zufallsexperimente“ (Z. 64)
+  - Fundamente Sek II B Einführungsphase, S. 113: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.2 Sinnvoller Umgang mit Baumdiagrammen“ (Z. 65)
+  - Elemente Sek II NRW Q-Phase GK, S. 158: „5 Daten und Zufall“ (Z. 125) › „5.2 Mehrstufige Zufallsexperimente“ (Z. 128) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK: „5 Daten und Zufall“ (Z. 218) › „5.3 Mehrstufige Zufallsexperimente“ (Z. 222) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 50: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.2 Rechnen mit Ereigniswahrscheinlichkeiten“ (Z. 143) (Gegenprobe)
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 143: „Rechnen mit Ereigniswahrscheinlichkeiten“ als Pfadregeln gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 4. Ziehen ohne Zurücklegen und Umlegen
+  - Eintrag, Zeile 15: „(Q2, GK-Kern „Ziehen ohne Zurücklegen“; OHiMi 2.4 Pfadregeln; FOS – die punktreichste fhr-Form)“
+  - Rahmenlehrplan Berlin, Z. 1245–1246: „Anwendungssituationen mithilfe des Urnenmodells (mit und ohne Zurücklegen) untersuchen,“ – Q2 (Khj, Z. 1246), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1124–1125: „Ziehen ohne Zurücklegen (hypergeometrische Verteilung)“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 438: „XI. Grundlegende Begriffe der Stochastik“ (Z. 110) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 113)
+  - Bigalke/Köhler LK 11, S. 548: „XII. Grundlegende Begriffe der Stochastik“ (Z. 208) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 211)
+  - Fundamente Sek II B Einführungsphase, S. 118: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.3 Urnenmodell - Ziehen mit und ohne Zurücklegen“ (Z. 66)
+  - Elemente Sek II NRW Q-Phase GK, S. 158: „5 Daten und Zufall“ (Z. 125) › „5.2 Mehrstufige Zufallsexperimente“ (Z. 128) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK: „5 Daten und Zufall“ (Z. 218) › „5.3 Mehrstufige Zufallsexperimente“ (Z. 222) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 56: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.3 Zählen und Wahrscheinlichkeiten“ (Z. 144) (Gegenprobe)
+  - Ermessen: Elemente Sek II NRW, Z. 128: „Mehrstufige Zufallsexperimente“ als Ziehen ohne Zurücklegen gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 144: „Zählen und Wahrscheinlichkeiten“ als Ziehen ohne Zurücklegen gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 5. Mammutbäume
+  - Eintrag, Zeile 16: „(Q2, GK-Kern „kombinatorische Abzählverfahren“; OHiMi 2.4 Kombinatorik; IQB-VER 4 Ziehen ohne Zurücklegen mit Binomialkoeffizienten)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1143: „Baumdiagramm und Pfadregeln“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 460: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „1. Kombinatorische Abzählverfahren“ (Z. 117)
+  - Bigalke/Köhler LK 11, S. 570: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „1. Kombinatorische Abzählverfahren“ (Z. 215)
+  - Fundamente Sek II B Einführungsphase, S. 122: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.4 Urnenmodell - Ziehen ohne Beachtung der Reihenfolge“ (Z. 67)
+  - Elemente Sek II NRW Q-Phase LK, S. 222: „5 Daten und Zufall“ (Z. 218) › „5.4 Zählstrategien“ (Z. 223) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 56: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.3 Zählen und Wahrscheinlichkeiten“ (Z. 144) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 117: „Kombinatorische Abzählverfahren“ als Pfad mal Anzahl der Reihenfolgen gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 223: „Zählstrategien“ (LK) als Anzahl der Reihenfolgen gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 6. Situationsbäume
+  - Eintrag, Zeile 17: „(Q2, GK-Kern „Baumdiagramm und Pfadregeln“, „Satz von der totalen Wahrscheinlichkeit“; Vorstufe von Vierfeldertafel und Bayes)“
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1148: „zwei- und dreistufige Zufallsexperimente“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 438: „XI. Grundlegende Begriffe der Stochastik“ (Z. 110) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 113)
+  - Bigalke/Köhler LK 11, S. 548: „XII. Grundlegende Begriffe der Stochastik“ (Z. 208) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 211)
+  - Bigalke/Köhler GK 11, S. 469: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 118)
+  - Bigalke/Köhler LK 11, S. 579: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „2. Bedingte Wahrscheinlichkeiten und Unabhängigkeit“ (Z. 216)
+  - Fundamente Sek II B Einführungsphase, S. 113: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.2 Sinnvoller Umgang mit Baumdiagrammen“ (Z. 65)
+  - Elemente Sek II NRW Q-Phase GK, S. 162: „5 Daten und Zufall“ (Z. 125) › „5.3 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 129) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 228: „5 Daten und Zufall“ (Z. 218) › „5.5 Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit“ (Z. 225) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 66: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.4 Bedingte Wahrscheinlichkeit“ (Z. 145) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 113: Situationsbäume als Baumdiagramme mit bedingten Angaben gelesen.
+  - Ermessen: Fundamente Sek II B, Z. 65: „Sinnvoller Umgang mit Baumdiagrammen“ als Situationsbaum gelesen.
+  - Ermessen: Elemente Sek II NRW, Z. 129: „Bedingte Wahrscheinlichkeit“ als Situationsbaum mit totaler Wahrscheinlichkeit gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 7. Term und Ereignis
+  - Eintrag, Zeile 18: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1136–1137: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln unter-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 438: „XI. Grundlegende Begriffe der Stochastik“ (Z. 110) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 113)
+  - Bigalke/Köhler LK 11, S. 548: „XII. Grundlegende Begriffe der Stochastik“ (Z. 208) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 211)
+  - Fundamente Sek II B Einführungsphase, S. 113: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.2 Sinnvoller Umgang mit Baumdiagrammen“ (Z. 65)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 50: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.2 Rechnen mit Ereigniswahrscheinlichkeiten“ (Z. 143) (Gegenprobe)
+  - Ermessen: Bigalke/Köhler, Z. 113: Terme lesen und aufstellen als Teil von „Mehrstufige Zufallsversuche/Baumdiagramme“ gelesen.
+  - Ermessen: Fundamente Sek II B, Z. 65: „Sinnvoller Umgang mit Baumdiagrammen“ als Term und Ereignis gelesen.
+  - Ermessen: Neue Wege Sek II Berlin 2011, Z. 143: „Rechnen mit Ereigniswahrscheinlichkeiten“ als Wahrscheinlichkeitsterme gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 8. Rückwärts
+  - Eintrag, Zeile 19: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1241–1242: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen,“ – Q2 (Khj, Z. 1242), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1136–1137: „Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln unter-“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 438: „XI. Grundlegende Begriffe der Stochastik“ (Z. 110) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 113)
+  - Bigalke/Köhler LK 11, S. 548: „XII. Grundlegende Begriffe der Stochastik“ (Z. 208) › „3. Mehrstufige Zufallsversuche/Baumdiagramme“ (Z. 211)
+  - Fundamente Sek II B Einführungsphase, S. 113: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.2 Sinnvoller Umgang mit Baumdiagrammen“ (Z. 65)
+  - Elemente Sek II NRW: keine Stelle
+  - Neue Wege Sek II Berlin 2011: keine Stelle
+  - Ermessen: Bigalke/Köhler, Z. 113: Rückwärtsaufgaben am Baum als Teil von „Mehrstufige Zufallsversuche/Baumdiagramme“ gelesen.
+  - Ermessen: Fundamente Sek II B, Z. 65: „Sinnvoller Umgang mit Baumdiagrammen“ als Rückwärtsaufgaben gelesen.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### kombinatorik
+- 1. Zählprinzip und Anordnungen
+  - Eintrag, Zeile 11: „(Q2, GK-Kern „kombinatorische Abzählverfahren“; OHiMi 2.4 n! und n^k; FOS „Permutationen, Variationen“)“
+  - Rahmenlehrplan Berlin, Z. 1245–1246: „Anwendungssituationen mithilfe des Urnenmodells (mit und ohne Zurücklegen) untersuchen,“ – Q2 (Khj, Z. 1246), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1121: „kombinatorische Abzählverfahren“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1194: „Permutationen, Kombinationen, Variationen“ – Themenfeld 4 Stochastik (Pflichtthema)
+  - FOS: Zitat „Permutationen, Variationen“ im Plantext nicht gefunden
+  - Bigalke/Köhler GK 11, S. 460: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „1. Kombinatorische Abzählverfahren“ (Z. 117)
+  - Bigalke/Köhler LK 11, S. 570: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „1. Kombinatorische Abzählverfahren“ (Z. 215)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 222: „5 Daten und Zufall“ (Z. 218) › „5.4 Zählstrategien“ (Z. 223) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 56: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.3 Zählen und Wahrscheinlichkeiten“ (Z. 144) (Gegenprobe)
+  - Ermessen: Das FOS-Zitat des Eintrags („Permutationen, Variationen“) kürzt die Plantextzeile „Permutationen, Kombinationen, Variationen“.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 2. Auswahlen und Binomialkoeffizient
+  - Eintrag, Zeile 12: „(Q2, GK-Kern; OHiMi 2.4 „Kombinationen ohne Wiederholung“ mit Eigenschaften; FOS „Kombinationen“; FS-IQB 1.4)“
+  - Rahmenlehrplan Berlin, Z. 1245–1246: „Anwendungssituationen mithilfe des Urnenmodells (mit und ohne Zurücklegen) untersuchen,“ – Q2 (Khj, Z. 1246), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1121: „kombinatorische Abzählverfahren“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1194: „Kombinationen“ – Themenfeld 4 Stochastik (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 460: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „1. Kombinatorische Abzählverfahren“ (Z. 117)
+  - Bigalke/Köhler LK 11, S. 570: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „1. Kombinatorische Abzählverfahren“ (Z. 215)
+  - Fundamente Sek II B Einführungsphase, S. 122: „4 I Mehrstufige Zufallsexperimente und Kombinatorik“ (Z. 62) › „4.4 Urnenmodell - Ziehen ohne Beachtung der Reihenfolge“ (Z. 67)
+  - Elemente Sek II NRW Q-Phase GK, S. 194: „6 Binomialverteilte Zufallsgrößen“ (Z. 136) › „Binomialkoeffizienten“ (Z. 138) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 222: „5 Daten und Zufall“ (Z. 218) › „5.4 Zählstrategien“ (Z. 223) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 227: „5 Daten und Zufall“ (Z. 218) › „Pascal'sches Dreieck“ (Z. 224) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 56: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.3 Zählen und Wahrscheinlichkeiten“ (Z. 144) (Gegenprobe)
+  - Ermessen: Den Binomialkoeffizienten nennt kein Plan beim Namen; zugeordnet ist die Inhaltszeile „kombinatorische Abzählverfahren“.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+- 3. Zählen mit Bedingungen und Wahrscheinlichkeitsterme
+  - Eintrag, Zeile 13: keine Kursartmarke in der Einheitszeile
+  - Rahmenlehrplan Berlin, Z. 1245–1246: „Anwendungssituationen mithilfe des Urnenmodells (mit und ohne Zurücklegen) untersuchen,“ – Q2 (Khj, Z. 1246), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1121–1122: „Anwendungssituationen mithilfe von Urnenmodellen untersuchen,“ – Q2, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 460: „XII. Berechnung von Wahrscheinlichkeiten“ (Z. 116) › „1. Kombinatorische Abzählverfahren“ (Z. 117)
+  - Bigalke/Köhler LK 11, S. 570: „XIII. Berechnung von Wahrscheinlichkeiten“ (Z. 214) › „1. Kombinatorische Abzählverfahren“ (Z. 215)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase LK, S. 222: „5 Daten und Zufall“ (Z. 218) › „5.4 Zählstrategien“ (Z. 223) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 56: „Kapitel 2 Wahrscheinlichkeitsmodelle“ (Z. 141) › „2.3 Zählen und Wahrscheinlichkeiten“ (Z. 144) (Gegenprobe)
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### lineare-gleichungssysteme
+- 5. Drei Variablen und Lösungsvielfalt (Sek II)
+  - Rahmenlehrplan Berlin, Z. 1054–1055: „ein algorithmisches Lösungsverfahren für lineare Gleichungssysteme erläutern“ – Q3 (Khj, Z. 1055), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 894–895: „Gauß-Verfahren zur Lösung linearer“ – Q1, Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1204–1205: „lineare Gleichungssysteme mit bis zu drei“ – Q3, Grund- und Leistungskurs
+  - FOS: keine Stelle (die Zeile der Einheit nennt kein FOS-Zitat)
+  - Bigalke/Köhler GK 11, S. 14: „I. Lineare Gleichungssysteme“ (Z. 46) › „1. Grundlagen“ (Z. 47)
+  - Bigalke/Köhler GK 11, S. 19: „I. Lineare Gleichungssysteme“ (Z. 46) › „2. Das Lösungsverfahren von Gauß“ (Z. 48)
+  - Bigalke/Köhler GK 11, S. 23: „I. Lineare Gleichungssysteme“ (Z. 46) › „3. Lösbarkeitsuntersuchungen“ (Z. 49)
+  - Bigalke/Köhler LK 11, S. 14: „I. Lineare Gleichungssysteme“ (Z. 134) › „1. Grundlagen“ (Z. 135)
+  - Bigalke/Köhler LK 11, S. 19: „I. Lineare Gleichungssysteme“ (Z. 134) › „2. Das Lösungsverfahren von Gauß“ (Z. 136)
+  - Bigalke/Köhler LK 11, S. 22: „I. Lineare Gleichungssysteme“ (Z. 134) › „3. Lösbarkeitsuntersuchungen“ (Z. 137)
+  - Bigalke/Köhler LK 11, S. 26: „I. Lineare Gleichungssysteme“ (Z. 134) › „4. Lineare Gleichungssysteme mit Parametern“ (Z. 138)
+  - Fundamente Sek II B: keine Stelle – nicht in der Einführungsphase; die Bände der Qualifikationsphase sind nicht im Repo (quellen/lehrwerke-fundliste.md)
+  - Elemente Sek II NRW Q-Phase GK, S. 16: „1 Modellieren mit Funktionen“ (Z. 79) › „1.2 Lineare Gleichungssysteme“ (Z. 82) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 16: „1 Modellieren mit Funktionen“ (Z. 162) › „1.2 Lineare Gleichungssysteme“ (Z. 165) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Analysis, S. 117: „Kapitel 3 Modellieren mit Funktionen - Kurvenanpassung“ (Z. 45) › „3.2 Gauß-Algorithmus zum Lösen linearer Gleichungssysteme“ (Z. 47) (Gegenprobe)
+  - Ermessen: Die Einheit fehlt in _kursart-belege.md (Sek-I-Eintrag); Stelle neu zugeordnet.
+  - Ermessen: Brandenburg führt lineare Gleichungssysteme zweimal: Q1 (Gauß-Verfahren, Lösbarkeit) und Q3 (bis zu drei Variablen, Schnittmengen).
+  - Halbjahr: Berlin Q3 · Brandenburg Q1/Q3 · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
+
+### daten
+- 6. Kenngrößen aus Häufigkeitstabellen und Klassen (Sek II)
+  - Rahmenlehrplan Berlin, Z. 1093: „Lage- und Streumaße einer Stichprobe bestimmen und deuten,“ – Q2 (Khj, Z. 1093), Grund- und Leistungskurs
+  - Rahmenlehrplan Brandenburg, Z. 1059–1060: „Lage- und Streumaße einer Stichprobe“ – Q2, Grund- und Leistungskurs
+  - FOS, Z. 1172: „Beschreibende Statistik“ – Themenfeld 4 Stochastik (Pflichtthema)
+  - Bigalke/Köhler GK 11, S. 400: „X. Beschreibende Statistik“ (Z. 105) › „2. Mittelwerte“ (Z. 107)
+  - Bigalke/Köhler GK 11, S. 406: „X. Beschreibende Statistik“ (Z. 105) › „3. Streuungsmaße“ (Z. 108)
+  - Bigalke/Köhler LK 11, S. 510: „XI. Beschreibende Statistik“ (Z. 203) › „2. Mittelwerte“ (Z. 205)
+  - Bigalke/Köhler LK 11, S. 516: „XI. Beschreibende Statistik“ (Z. 203) › „3. Streuungsmaße“ (Z. 206)
+  - Fundamente Sek II B Einführungsphase, S. 8: „1 / Auswerten von Daten“ (Z. 27) › „1.1 Kennwerte und Skalen“ (Z. 29)
+  - Fundamente Sek II B Einführungsphase, S. 11: „1 / Auswerten von Daten“ (Z. 27) › „1.2 Streumaße“ (Z. 30)
+  - Fundamente Sek II B Einführungsphase, S. 13: „1 / Auswerten von Daten“ (Z. 27) › „1.3 Klasseneinteilung und Histogramme“ (Z. 31)
+  - Elemente Sek II NRW Q-Phase GK, S. 150: „5 Daten und Zufall“ (Z. 125) › „5.1 Mittelwert und Standardabweichung“ (Z. 126) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 206: „5 Daten und Zufall“ (Z. 218) › „5.1 Mittelwert und Standardabweichung“ (Z. 219) (Gegenprobe)
+  - Elemente Sek II NRW Q-Phase LK, S. 212: „5 Daten und Zufall“ (Z. 218) › „5.2 Daten klassieren“ (Z. 220) (Gegenprobe)
+  - Neue Wege Sek II Berlin 2011 Stochastik, S. 82: „Kapitel 3 Umgang mit Daten“ (Z. 148) › „3.1 Verteilungen untersuchen“ (Z. 149) (Gegenprobe)
+  - Ermessen: Die Einheit fehlt in _kursart-belege.md (Sek-I-Eintrag); Stelle neu zugeordnet.
+  - Halbjahr: Q2 (Berlin und Brandenburg) · Bigalke/Köhler Band 11 · GK/LK: GK und LK (Berlin und Brandenburg) · Bigalke/Köhler GK 11, LK 11
+  - nur LK: nein
