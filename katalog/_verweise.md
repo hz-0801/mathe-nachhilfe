@@ -1,5 +1,5 @@
 # Verweise und Namen – Prüfung des Themenkatalogs
-Stand 2026-09-25, Katalog auf Commit 1036af9.
+Stand 2026-09-25, Katalog auf Commit f9632e3.
 Erzeugt von `werkzeuge/verweis-pruef.py` (v0.2) aus den Einträgen, `themen.csv`, `abitur/abitur-vokabular.md`, den vier `abitur/abi-*-geltung.md` und den Typenkatalogen `msa/msa-typen.csv` und `fhr/fhr-typen.csv`; abgeleitet, nie von Hand ändern. Fünf Prüfungen der inneren Stimmigkeit vor dem Umbau der Blatt-Prompte: Dateiverweise, Einheitennummern, Namensgleichheit, Gegenrichtung, Formlücke. Befunde werden berichtet, nicht behoben; wo eine Zuordnung nicht eindeutig ist, steht der Fall in einer eigenen Liste statt in einer Entscheidung.
 
 Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie in `werkzeuge/tragfaehigkeit.py` (v0.2), importiert, nicht nachgebaut: Verweis = Zeichenkette der Form `<name>.md` (auch in Klammern oder Backticks; ein Pfad davor wird mitgenommen), Blatt-0-Abschnitt = „### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, Nennung in Wortform = „Thema “ vor einem Großbuchstaben (Heuristik; folgt dem Titel unmittelbar „ (<name>.md“, ist es ein Verweis und keine Nennung in Wortform), Fundort einer Datei außerhalb von `katalog/` = Suche im Repo nach dem Dateinamen. Abschnitt einer Fundstelle = die nächste Überschrift davor (#, ##, ###); in den Listen abgekürzt: Kopf (Titel und Statuszeilen), Verortung, Lerneinheiten, Typen (Typen je Lerneinheit), Blatt 0, Merkkasten, Fehler (Typische Fehler), Schwache (Für schwache Schüler), Prüfungsform, Offene Punkte, Prüfliste. Zeilennummern zählen ab 1 in der Datei. Zahl der Lerneinheiten eines Eintrags = Zeilen im Abschnitt „### Lerneinheiten“, die mit „<n>. “ beginnen.
@@ -7,7 +7,7 @@ Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie i
 ## 1 Dateiverweise
 Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 0. Gruppe (a): das Ziel liegt in `katalog/` (Katalogeintrag, Selbstverweis, Katalogeintrag mit Pfadangabe oder eine andere Datei des Ordners); Gruppe (b): das Ziel liegt anderswo im Repo (ohne Pfadangabe über den Fundort, mit Pfadangabe über den Pfad relativ zur Wurzel); Gruppe (c): keine Datei dieses Namens im Repo. Gruppe (b) und (c) vollständig, je Ziel eine Zeile und darunter je Quelldatei die Abschnitte (×n = mehrfach im Abschnitt).
 
-2978 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2724 – davon 2583 auf andere Katalogeinträge, 54 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 86 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 238 Verweise auf 55 Dateien. Gruppe (c) Ziel gibt es nicht: 16 Verweise auf 5 Namen.
+2996 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2758 – davon 2616 auf andere Katalogeinträge, 54 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 87 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 238 Verweise auf 55 Dateien. Gruppe (c) Ziel gibt es nicht: 0 Verweise auf 0 Namen.
 
 ### Gruppe (b) – Ziel anderswo im Repo
 - **abi-pruefungen.md** (liegt in abitur/) – 4 Verweise aus 2 Einträgen
@@ -227,22 +227,7 @@ Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 
   - zufallsgroessen-und-verteilungen.md (Kopf)
 
 ### Gruppe (c) – Ziel gibt es nicht
-- **fos-stochastik.md** (keine Datei dieses Namens im Repo) – 2 Verweise aus 2 Einträgen
-  - kombinatorik.md (Offene Punkte)
-  - wahrscheinlichkeit.md (Verortung)
-- **gost-ableitung.md** (keine Datei dieses Namens im Repo) – 1 Verweis aus 1 Eintrag
-  - trigonometrische-funktionen.md (Offene Punkte)
-- **gost-exponential-e.md** (keine Datei dieses Namens im Repo) – 3 Verweise aus 1 Eintrag
-  - potenz-exponentialfunktionen.md (Verortung, Offene Punkte ×2)
-- **gost-funktionen-grundlagen.md** (keine Datei dieses Namens im Repo) – 8 Verweise aus 5 Einträgen
-  - binomische-formeln.md (Verortung)
-  - quadratische-funktionen.md (Verortung)
-  - quadratische-gleichungen.md (Verortung, Offene Punkte)
-  - reelle-zahlen.md (Offene Punkte)
-  - trigonometrische-funktionen.md (Verortung, Offene Punkte ×2)
-- **gost-stochastik.md** (keine Datei dieses Namens im Repo) – 2 Verweise aus 2 Einträgen
-  - kombinatorik.md (Offene Punkte)
-  - wahrscheinlichkeit.md (Verortung)
+- keine
 
 ### Gruppe (a), Sonderfälle
 Verweise auf Dateien in `katalog/`, die kein Eintrag sind (zählen in `tragfaehigkeit.py` als Verweise auf Nicht-Katalogdateien):
@@ -336,6 +321,8 @@ Verweise auf Dateien in `katalog/`, die kein Eintrag sind (zählen in `tragfaehi
   - potenz-exponentialfunktionen.md (Verortung, Offene Punkte)
 - **katalog/_quellen.md** (liegt in katalog/) – 1 Verweis aus 1 Eintrag
   - zufallsexperimente-und-pfadregeln.md (Offene Punkte)
+- **katalog/index.md** (liegt in katalog/) – 1 Verweis aus 1 Eintrag
+  - kombinatorik.md (Offene Punkte)
 
 Verweise auf Katalogeinträge mit Pfadangabe (`katalog/<name>.md`; zählen in `tragfaehigkeit.py` nicht als Katalogverweis, weil der Pfad mitgenommen wird):
 - katalog/flaecheninhalt-durch-integration.md ← punkte-und-strecken-im-koordinatensystem.md (Offene Punkte, Zeile 134)
@@ -343,7 +330,7 @@ Verweise auf Katalogeinträge mit Pfadangabe (`katalog/<name>.md`; zählen in `t
 ## 2 Einheitennummern
 Eine Einheitenangabe ist „Einheit n“ oder „Einheiten n“ mit einer oder zwei Ziffern, fortgesetzt mit „und“, „bis“, „–“, Komma oder Schrägstrich („Einheit 6 und 8“, „Einheiten 2 bis 4“, „Einheit 2, 3 und 5“). Sie steht hinter einem Verweis, wenn zwischen `<name>.md` und „Einheit“ nur Leerraum, ein Komma oder eine öffnende Klammer steht („x.md Einheit 4“, „x.md, Einheit 4“, „x.md (Einheit 4)“) – oder, in der Klammerform der Blatt-0-Abschnitte seit Commit cfa4723, davor noch der Rest des Klammerinhalts und die schließende Klammer („Thema Terme (terme.md), Einheit 2“, „Kreis (kreis.md) Einheit 2“, „(x.md, Blatt 0), Einheit 2“; „Lineare Funktionen (lineare-funktionen.md, Blatt 0)“ ohne Angabe dahinter bekommt keine); dann wird die größte genannte Nummer gegen die Zahl der Lerneinheiten der Zieldatei gehalten. Nicht eindeutig zuordenbar und deshalb nur gelistet: (1) der Verweis davor steht in einer Reihung („a.md und b.md Einheit 2“, „a.md, b.md Einheit 2“) – welcher gemeint ist, steht nicht da; (2) zwischen Verweis und Angabe stehen bis zu 4 Wörter ohne Satz- oder Klammerende („x.md, dessen Einheit 5“, „x.md (Sek I, Einheit 3)“) – hier kann auch eine eigene Einheit gemeint sein; (3) die Angabe steht vor dem Verweis mit „in“, „im“, „von“, „aus“, „der“, „des“ oder „bei“ dazwischen („Einheit 4 in x.md“). Alle anderen Einheitenangaben – ohne Verweis in der Zeile, hinter einem Satzende oder weiter entfernt – gelten als eigene Einheiten des Eintrags und werden nicht geprüft; Angaben an Nennungen in Wortform („Thema Terme, Einheit 2“) haben keinen Verweis, dem sie zugeordnet werden könnten (die in Blatt 0 stehen unter Prüfung 5).
 
-3872 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 517 (517 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 24. Die übrigen 3331 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
+3887 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 531 (531 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 25. Die übrigen 3331 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
 
 ### Nummer größer als vorhanden
 - lineare-gleichungssysteme.md (Schwache, Zeile 122): „rekonstruktion-von-funktionsgleichungen.md … Einheit 5“ – 3 vorhanden; Zitat: …hungssystem ist dort Werkzeug der Rekonstruktion (rekonstruktion-von-funktionsgleichungen.md), Einheit 5 ist für fhr Vorrat.
@@ -369,6 +356,7 @@ Eine Einheitenangabe ist „Einheit n“ oder „Einheiten n“ mit einer oder z
 - potenzen-wurzeln.md (Offene Punkte, Zeile 110): kurzer Zwischentext – „Einheit 3 und 4“ bei koerper.md; Zitat: …√49 = 7), trigonometrie.md (Taschenrechnerzeile), koerper.md (Quadrieren und Wurzelziehen Einheit 3 und 4), flaechen.md (√49 Quadratseite) – alle…
 - pyramide-kegel-kugel.md (Prüfungsform, Zeile 96): kurzer Zwischentext – „Einheit 2“ bei pythagoras.md; Zitat: …chnen“ (2026-FOR-K2c, Kegelhöhe und Gesamthöhe) → pythagoras.md, Verfahren Stützdreieck hier in Einheit 2; „Restvolumen berechnen“ (2024-OS-K4c) …
 - pyramide-kegel-kugel.md (Prüfungsform, Zeile 96): kurzer Zwischentext – „Einheit 1“ bei flaechen.md; Zitat: …enuse“ (2015-OS-K6c, Seitenfläche der Pyramide) → flaechen.md, Verfahren Seitenhöhe hier in Einheit 1; „Kreisfläche berechnen“ (2024-OS-K4a, …
+- reelle-zahlen.md (Verortung, Zeile 5): Verweisreihung davor – „Einheit 1 und 2“ bei potenz-exponentialfunktionen.md / gleichungen-loesen.md; Zitat: …ithmus und Gleichungen mit höheren Potenzen (H) → potenz-exponentialfunktionen.md und gleichungen-loesen.md (Einheit 1 und 2). Das Lehrwerk bringt die irrationalen …
 - reelle-zahlen.md (Offene Punkte, Zeile 98): Angabe vor dem Verweis – „Einheit 1“ bei potenzen-wurzeln.md; Zitat: …→ potenz-exponentialfunktionen.md. Alternative C: Einheit 1 in potenzen-wurzeln.md Einheit 3 einbauen (das Lehrwerk hat IV…
 - strahlensaetze.md (Offene Punkte, Zeile 100): Angabe vor dem Verweis – „Einheit 5“ bei zuordnungen.md; Zitat: …lensätze (Kl. 9 IV 3). Alternative A: Maßstab als Einheit 5 in zuordnungen.md (der RLP führt den Maßstab bei Zuordnun…
 - strahlensaetze.md (Offene Punkte, Zeile 105): kurzer Zwischentext – „Einheit 2“ bei trigonometrie.md; Zitat: …er als letzte Mindeststoff-Sprosse der Einheit 2, trigonometrie.md verweist seit 09b auf Einheit 2 statt „noch leer“; Sinussatz-Originale …
@@ -434,7 +422,7 @@ Ohne `thema`-Wert in `themen.csv` (kein Prüfungsthema; H1 zum Nachlesen):
 ## 4 Gegenrichtung
 Nennt Eintrag A unter „Voraussetzungen (Blatt 0)“ den Eintrag B (Kante wie in `tragfaehigkeit.py`: Verweis `<B>.md` ohne Pfad, kein Selbstverweis), wird geprüft, ob B irgendwo in seinem Text `<A>.md` nennt (auch als `katalog/<A>.md`; Nennungen in Wortform zählen nicht). Fehlt das, ist (A, B) ein Paar. Nur aufgelistet, nicht bewertet.
 
-511 Blatt-0-Verweise auf andere Katalogeinträge (Kanten A → B); 297 davon ohne Gegenrichtung: B nennt A.md in keinem Abschnitt. Gruppiert nach B (dort stünde die Erwähnung), 46 Einträge B betroffen.
+511 Blatt-0-Verweise auf andere Katalogeinträge (Kanten A → B); 282 davon ohne Gegenrichtung: B nennt A.md in keinem Abschnitt. Gruppiert nach B (dort stünde die Erwähnung), 46 Einträge B betroffen.
 - **ableitungsregeln** (3): funktionsscharen-und-ortskurven, integrationsregeln, rekonstruktion-von-funktionsgleichungen
 - **abstaende** (1): flaecheninhalt-und-volumen-im-raum
 - **binomialverteilung** (1): konfidenzintervalle
@@ -458,16 +446,16 @@ Nennt Eintrag A unter „Voraussetzungen (Blatt 0)“ den Eintrag B (Kante wie i
 - **lineare-gleichungssysteme** (4): ebenen, linearkombination-und-lineare-abhaengigkeit, orthogonalitaet, scharen-von-geraden-und-ebenen
 - **linearkombination-und-lineare-abhaengigkeit** (2): orthogonalitaet, scharen-von-geraden-und-ebenen
 - **orthogonalitaet** (1): scharen-von-geraden-und-ebenen
-- **potenz-exponentialfunktionen** (9): ableitung-und-aenderungsrate, ableitungsregeln, binomialverteilung, funktionsklassen-und-eigenschaften, gleichungen-loesen, grenzwerte-und-verhalten-im-unendlichen, matrizen-und-uebergangsprozesse, trigonometrische-funktionen, umkehrfunktion
+- **potenz-exponentialfunktionen** (4): binomialverteilung, grenzwerte-und-verhalten-im-unendlichen, matrizen-und-uebergangsprozesse, trigonometrische-funktionen
 - **potenzen-wurzeln** (14): ableitungsregeln, daten, funktionsklassen-und-eigenschaften, funktionsscharen-und-ortskurven, grenzwerte-und-verhalten-im-unendlichen, integrationsregeln, kenngroessen-von-verteilungen, kombinatorik, kreis, punkte-und-strecken-im-koordinatensystem, pyramide-kegel-kugel, stammfunktion-und-hauptsatz, vektoren-und-rechenoperationen, zufallsexperimente-und-pfadregeln
 - **prozentrechnung** (17): ableitung-und-aenderungsrate, bedingte-wahrscheinlichkeit-und-bayes, binomialverteilung, einheiten, flaecheninhalt-und-volumen-im-raum, geraden, kenngroessen-von-verteilungen, koerper, kombinatorik, konfidenzintervalle, matrizen-und-uebergangsprozesse, normalverteilung-und-sigma-regeln, punkte-und-strecken-im-koordinatensystem, skalarprodukt-und-winkel, unabhaengigkeit, vierfeldertafel, zufallsexperimente-und-pfadregeln
 - **punkte-und-strecken-im-koordinatensystem** (1): lineare-gleichungssysteme
 - **pyramide-kegel-kugel** (4): ebenen, flaecheninhalt-und-volumen-im-raum, punkte-und-strecken-im-koordinatensystem, rotationsvolumen
 - **pythagoras** (8): abstaende, extremalprobleme, flaecheninhalt-und-volumen-im-raum, punkte-und-strecken-im-koordinatensystem, rotationsvolumen, tangente-normale-schnittwinkel, umkehrfunktion, vektoren-und-rechenoperationen
-- **quadratische-funktionen** (8): ableitung-und-aenderungsrate, ableitungsregeln, funktionsklassen-und-eigenschaften, funktionsscharen-und-ortskurven, gleichungen-loesen, grenzwerte-und-verhalten-im-unendlichen, kurvenuntersuchung, rekonstruktion-von-funktionsgleichungen
-- **quadratische-gleichungen** (14): abstaende, flaecheninhalt-durch-integration, flaecheninhalt-und-volumen-im-raum, funktionsklassen-und-eigenschaften, funktionsscharen-und-ortskurven, gleichungen-loesen, grenzwerte-und-verhalten-im-unendlichen, kenngroessen-von-verteilungen, konfidenzintervalle, lagebeziehungen, orthogonalitaet, scharen-von-geraden-und-ebenen, unabhaengigkeit, zufallsexperimente-und-pfadregeln
+- **quadratische-funktionen** (7): ableitung-und-aenderungsrate, ableitungsregeln, funktionsklassen-und-eigenschaften, funktionsscharen-und-ortskurven, gleichungen-loesen, grenzwerte-und-verhalten-im-unendlichen, kurvenuntersuchung
+- **quadratische-gleichungen** (13): abstaende, flaecheninhalt-durch-integration, flaecheninhalt-und-volumen-im-raum, funktionsscharen-und-ortskurven, gleichungen-loesen, grenzwerte-und-verhalten-im-unendlichen, kenngroessen-von-verteilungen, konfidenzintervalle, lagebeziehungen, orthogonalitaet, scharen-von-geraden-und-ebenen, unabhaengigkeit, zufallsexperimente-und-pfadregeln
 - **rationale-zahlen** (11): binomische-formeln, funktionsklassen-und-eigenschaften, grenzwerte-und-verhalten-im-unendlichen, integrationsregeln, lineare-gleichungssysteme, potenzen-wurzeln, pythagoras, quadratische-funktionen, quadratische-gleichungen, reelle-zahlen, stammfunktion-und-hauptsatz
-- **reelle-zahlen** (4): ableitungsregeln, binomialverteilung, gleichungen-loesen, grenzwerte-und-verhalten-im-unendlichen
+- **reelle-zahlen** (3): ableitungsregeln, binomialverteilung, grenzwerte-und-verhalten-im-unendlichen
 - **schnittmengen** (1): scharen-von-geraden-und-ebenen
 - **skalarprodukt-und-winkel** (1): scharen-von-geraden-und-ebenen
 - **stammfunktion-und-hauptsatz** (1): normalverteilung-und-sigma-regeln
@@ -476,9 +464,9 @@ Nennt Eintrag A unter „Voraussetzungen (Blatt 0)“ den Eintrag B (Kante wie i
 - **tangente-normale-schnittwinkel** (1): stammfunktion-und-hauptsatz
 - **terme** (12): ableitungsregeln, extremalprobleme, funktionsscharen-und-ortskurven, gleichungen-loesen, integrationsregeln, lagebeziehungen, lineare-funktionen, lineare-gleichungssysteme, pyramide-kegel-kugel, quadratische-gleichungen, reelle-zahlen, vektoren-und-rechenoperationen
 - **trigonometrie** (4): gleichungen-loesen, potenzen-wurzeln, skalarprodukt-und-winkel, tangente-normale-schnittwinkel
-- **trigonometrische-funktionen** (3): funktionsklassen-und-eigenschaften, gleichungen-loesen, rekonstruktion-von-funktionsgleichungen
+- **trigonometrische-funktionen** (1): rekonstruktion-von-funktionsgleichungen
 - **vektoren-und-rechenoperationen** (3): ebenen, flaecheninhalt-und-volumen-im-raum, spiegelung
-- **wahrscheinlichkeit** (8): binomialverteilung, hypothesentests, kenngroessen-von-verteilungen, normalverteilung-und-sigma-regeln, unabhaengigkeit, vierfeldertafel, zufallsexperimente-und-pfadregeln, zufallsgroessen-und-verteilungen
+- **wahrscheinlichkeit** (3): binomialverteilung, hypothesentests, normalverteilung-und-sigma-regeln
 - **winkel-dreiecke** (4): orthogonalitaet, punkte-und-strecken-im-koordinatensystem, skalarprodukt-und-winkel, trigonometrische-funktionen
 - **zuordnungen** (7): ableitung-und-aenderungsrate, linearkombination-und-lineare-abhaengigkeit, prozentrechnung, rekonstruktion-von-bestaenden, trigonometrische-funktionen, vektoren-und-rechenoperationen, zinsrechnung
 

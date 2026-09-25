@@ -9,7 +9,7 @@ Beginn: 2026-09-25 15:47
 | 1 Belegskripte, Marken | erledigt | Punkt 4 (Marken-Bau: nichts zu ändern) | 265ce68 |
 | 2 FHR-Wort | erledigt | Neubau, Gegenprobe daten 1 und 4 | cba84ca |
 | 3 potenz-exponentialfunktionen | erledigt | Prüfskripte ohne neuen Befund | 1036af9 |
-| 4 Kleinposten | offen | – | – |
+| 4 Kleinposten | erledigt | Punkt 5 und Nachzug Rohdateien | de503c9, f9632e3 |
 | 5 Vorrat-Verweise | offen | – | – |
 | 6 Netz und Pfade | offen | – | – |
 | 7 Vorschläge | offen | – | – |
