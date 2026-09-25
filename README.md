@@ -267,7 +267,7 @@ Lesestoff für Katalogeinträge: je kanonischem Thema aus `themen.csv` eine Date
 und Definition aus der Typenliste, dazu die Nebentypen) und Teil B Zeilenliste (eine Zeile
 je Katalogzeile, nach Profil, Typ, Jahr, id). Abgeleitet aus `themen.csv` und den fünf
 Katalogen, nie von Hand ändern; neu bauen mit `python werkzeuge/rohdatei-bau.py [thema ...]`.
-66 Dateien – alle kanonischen Themen mit Katalogzeilen; die 7 ohne Zeilen haben keine Datei.
+68 Dateien – alle kanonischen Themen mit Katalogzeilen; die 6 ohne Zeilen haben keine Datei (seit 27.09.2026 hat strahlensaetze eine, weil themen.csv den Maßstab dort führt).
 
 ## quellen/ – Quellentexte
 
