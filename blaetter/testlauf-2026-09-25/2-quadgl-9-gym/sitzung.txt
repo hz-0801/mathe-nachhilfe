@@ -1,0 +1,45 @@
+→ Lernblatt · mit Wiederholung · 4 Zweige, kein Ausblick-Zweig (keiner liegt nach Kl. 9) · Zone aus 8 Fertigkeiten
+
+**Einheit 1 · Wurzelziehen und Lösbarkeit:** Hier lernst du, Gleichungen wie x² = c durch Wurzelziehen zu lösen und zu entscheiden, ob sie zwei, eine oder keine Lösung haben · neu oder schon bekannt – je nach Buch (an der Oberschule Klasse 9 oder 10) · P10 · baut auf: Quadrieren, Quadratwurzeln, lineare Gleichungen, Scheitelpunktform
+
+**Einheit 2 · Satz vom Nullprodukt:** Hier lernst du, Gleichungen wie (x − a)·(x − b) = 0 mit dem Satz vom Nullprodukt zu lösen, auch durch Ausklammern von x · neu oder schon bekannt – je nach Buch (an der Oberschule erst in Klasse 10) · P10 · baut auf: lineare Gleichungen, Ausklammern, Einsetzen prüfen
+
+**Einheit 3 · Normalform und p-q-Formel:** Hier lernst du, eine quadratische Gleichung in die Normalform zu bringen und mit der p-q-Formel zu lösen · neu in diesem Jahr (an der Oberschule je nach Buch Klasse 9 oder 10) · P10 oft · baut auf: Wurzelziehen und Lösbarkeit (Einheit 1), Satz vom Nullprodukt (Einheit 2), Terme ordnen, binomische Formeln
+
+**Einheit 4 · Sachaufgaben:** Hier lernst du, zu Zahlenrätseln und Rechtecken eine quadratische Gleichung aufzustellen, zu lösen und die Lösung auszuwählen, die zur Frage passt · neu in diesem Jahr (an der Oberschule je nach Buch Klasse 9 oder 10) · keine P10-Aufgabe · baut auf: Wurzelziehen (Einheit 1), Satz vom Nullprodukt (Einheit 2), p-q-Formel (Einheit 3)
+
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+*Antwort aus der Eingabe: alle*
+
+---
+
+QuadratischeGlg_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen.
+*Antwort aus der Eingabe: weiter*
+
+---
+
+QuadratischeGlg_Lernblatt.pdf
+QuadratischeGlg_Gesamt.pdf
+QuadratischeGlg_Loesungen.pdf
+QuadratischeGlg_2026-09-25_protokoll.zip
+
+1. Abweichungen:
+   - **Geteilte Hauptnummer:** Nr. 28 ist in Nr. 29 und Nr. 30 („– weiter“) geteilt.
+   - **Eigene Hauptnummer:** Die Schnittpunkte von Parabel und Gerade stehen als Nr. 32, weil der Typ in keiner Kette steht. Oben steht die verfremdete Prüfungsaufgabe (P10 2022).
+   - **Höhe nach Lehrwerk:** Einheit 4 hat keine P10-Aufgabe. Oben steht ein Rechteck mit Klammer, Ordnen, Formel und Auswahl der passenden Lösung, ohne Jahr.
+   - **Weggelassen:** „grafische Kontrolle an der Parabel“ (Vorrat, Einheit 3). Das Ablesen am Graphen übt Nr. 15.
+   - **Kontextaufgaben in Einheit 4:** Es sind drei (Beet, Foto, Teich), weil die Kette des Eintrags sie verlangt. Beet und Foto nutzen beide das Rechteck.
+   - **Im Vorspann definiert:** `\zweigzeile`, `\verzzeile`, `\abhakgruppe` und `\abhakzeile`.
+   - **Aufruf ergänzt:** Nach jeder Zeile des `gleichungsraster` steht `\noalign{\vspace{6pt}}`. Ohne diesen Abstand berühren die Schreibzeilen die nächste Gleichung – das ist ein Befund für die Vorlage.
+   - **Zeiten:** Sie sind gemessen. Die Stempel „e 1“, „e 3“ und „e 4“ wurden erst zu Beginn des folgenden Aufrufs gesetzt. „weiter“ hat keine Wartezeit, weil der Testlauf ohne Gegenüber lief.
+
+2. Katalogzeile:
+   - **Gebraucht:** Lerneinheiten, Marken, Typen, Voraussetzungen (8 Fertigkeiten, 7 Erkennungsschritte), Sprossen, Typische Fehler, Prüfungsform und Zielmarke.
+   - **Nicht gebraucht:** Merkkasten, Grundvorstellung, Verortung.
+   - **Was fehlt:** Die Kastenzahlen sperren fast den ganzen kleinen Zahlenraum (0, 2–4, 6–10). Gesperrt sind deshalb nur ganze Gleichungen und Zahlen ab 13 aus Kasten, Beispielen und Originalen; die Umbaufrage T4 bleibt offen. Außerdem hat „Gerade und Parabel gleichsetzen“ keine Sprosse in der Kette von Einheit 3.
+   - **Spannen in den Marken:** Einheit 1 und 2 tragen „GYM Kl. 8–9“; daraus wird „neu oder schon bekannt – je nach Buch“. Die Oberschule steht als Zusatz: Kl. 9–10 wird zu „je nach Buch Klasse 9 oder 10“ (Einheit 1, 3, 4), Kl. 10 zu „erst in Klasse 10“ (Einheit 2).
+
+4. Protokoll-Archiv: QuadratischeGlg_2026-09-25_protokoll.zip
+
+Alle Dateien liegen in `C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\c6924aab-9c6f-4c6b-96fc-d8fbcd8c8855\scratchpad\bau\2-quadgl-9-gym\a1\`. Die Prüfung mit `pruef.py` ergab für die Zone und jede Einheit 0 Abweichungen. Die Verzeichnisse stimmen mit dem Kompilat überein, die Links führen zu den Zweigköpfen, und die Nummern 1 bis 40 sind lückenlos.

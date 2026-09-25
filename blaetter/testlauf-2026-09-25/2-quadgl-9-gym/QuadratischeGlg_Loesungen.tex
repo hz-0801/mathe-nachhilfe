@@ -1,0 +1,20 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% Bausteine, die die Vorlage (Stufe 4) nicht führt – hier im Vorspann definiert:
+% Zweigzeile unter dem Einheitenkopf, Verzeichniszeile mit Link, Abhakseite
+\newcommand{\zweigzeile}[1]{\par\noindent{\small #1}\par\medskip}
+\newcommand{\verzzeile}[2]{\par\noindent\hyperlink{#1}{#2}\par\smallskip}
+\newcommand{\abhakgruppe}[1]{\par\medskip\noindent\textbf{#1}\par\smallskip}
+\newcommand{\abhakzeile}[2]{\par\noindent\hangindent3.2em\hangafter1$\square$\enspace Nr.~#1\enspace #2\par}
+\usepackage[hidelinks]{hyperref}
+\begin{document}\blattkopf{Quadratische Gleichungen}{Lösungen}
+\input{zone_l}
+\bigskip
+\input{e1_l}
+\bigskip
+\input{e2_l}
+\bigskip
+\input{e3_l}
+\bigskip
+\input{e4_l}
+\end{document}

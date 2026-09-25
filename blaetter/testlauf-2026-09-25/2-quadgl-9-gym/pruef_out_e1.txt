@@ -1,0 +1,47 @@
+12-Bsp | Skript: -9, 9 | Blatt: 9; -9 | OK
+13-Bsp | Skript: -8, 8 | Blatt: 8; -8 | OK
+14-Bsp | Skript: -2, 8 | Blatt: 8; -2 | OK
+10a    | Skript: quadratisch | Blatt: quadratisch | OK
+10b    | Skript: linear | Blatt: linear | OK
+10c    | Skript: quadratisch | Blatt: quadratisch | OK
+10d    | Skript: linear | Blatt: linear | OK
+10e    | Skript: quadratisch | Blatt: quadratisch | OK
+11a    | Skript: positiv, zwei | Blatt: positiv, zwei | OK
+11b    | Skript: negativ, keine | Blatt: negativ, keine | OK
+11c    | Skript: null, eine | Blatt: null, eine | OK
+11d    | Skript: positiv, zwei | Blatt: positiv, zwei | OK
+11e    | Skript: negativ, keine | Blatt: negativ, keine | OK
+12a    | Skript: -5, 5 | Blatt: 5; -5 | OK
+12b    | Skript: -10, 10 | Blatt: 10; -10 | OK
+12c    | Skript: -12, 12 | Blatt: 12; -12 | OK
+12d    | Skript: -1, 1 | Blatt: 1; -1 | OK
+12e    | Skript: 15 | Blatt: 15 | OK
+12f    | Skript: -3.74166, 3.74166 | Blatt: 3,74; -3,74 | OK
+12g    | Skript: keine | Blatt: keine | OK
+13a    | Skript: -5, 5 | Blatt: 5; -5 | OK
+13b    | Skript: -7, 7 | Blatt: 7; -7 | OK
+13c    | Skript: -4, 4 | Blatt: 4; -4 | OK
+13d-r2 | Skript: 22.547 | Blatt: 22,55 | OK
+13d    | Skript: 4.74836 | Blatt: 4,7 | OK
+13e    | Skript: 0 | Blatt: 0 | OK
+13f    | Skript: keine | Blatt: keine | OK
+14a    | Skript: -2, 4 | Blatt: 4; -2 | OK
+14b    | Skript: 3, 7 | Blatt: 7; 3 | OK
+14c    | Skript: -9, 5 | Blatt: 5; -9 | OK
+14d    | Skript: -6 | Blatt: -6 | OK
+14e    | Skript: wA | Blatt: wA | OK
+15a    | Skript: -1, 3 | Blatt: -1; 3 | OK
+15b    | Skript: 1 | Blatt: 1 | OK
+15c    | Skript: keine | Blatt: keine | OK
+15d    | Skript: keine | Blatt: keine | OK
+16a-1  | Skript: eine | Blatt: eine | OK
+16a-2  | Skript: falsch | Blatt: falsch | OK
+16a-2L | Skript: -9, -3 | Blatt: -3; -9 | OK
+16b    | Skript: keine | Blatt: keine | OK
+17a    | Skript: -10, 8 | Blatt: 8; -10 | OK
+17b    | Skript: -11, 5 | Blatt: 5; -11 | OK
+18a    | Skript: zwei | Blatt: zwei | OK
+18b    | Skript: keine | Blatt: keine | OK
+18c    | Skript: eine | Blatt: eine | OK
+Sperre | e1_a.tex: keine Sperrzahl, keine Sperrgleichung | OK
+Abweichungen: 0

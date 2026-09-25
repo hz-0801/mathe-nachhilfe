@@ -1,0 +1,57 @@
+28-Bsp | Skript: -4, -2 | Blatt: -2; -4 | OK
+28-Bsp-L | Skript: -4, -2 | Blatt: -2; -4 | OK
+25a    | Skript: ohne x-Glied, Wurzelziehen | Blatt: ohne x-Glied, Wurzelziehen | OK
+25b    | Skript: Produkt = 0, Nullprodukt | Blatt: Produkt = 0, Nullprodukt | OK
+25c    | Skript: Klammer^2 = Zahl, Rückwärtsrechnen | Blatt: Klammer^2 = Zahl, Rückwärtsrechnen | OK
+25d    | Skript: Normalform, Formel | Blatt: Normalform, Formel | OK
+25e    | Skript: ohne x-Glied, Wurzelziehen | Blatt: ohne x-Glied, Wurzelziehen | OK
+26a-p  | Skript: 5 | Blatt: 5 | OK
+26a-q  | Skript: 4 | Blatt: 4 | OK
+26b-p  | Skript: -3 | Blatt: -3 | OK
+26b-q  | Skript: 2 | Blatt: 2 | OK
+26c-p  | Skript: 1 | Blatt: 1 | OK
+26c-q  | Skript: -12 | Blatt: -12 | OK
+26d-p  | Skript: -11 | Blatt: -11 | OK
+26d-q  | Skript: 0 | Blatt: 0 | OK
+26e-p  | Skript: 0 | Blatt: 0 | OK
+26e-q  | Skript: -2 | Blatt: -2 | OK
+27a    | Skript: 2 | Blatt: 2 | OK
+27b    | Skript: nicht teilen | Blatt: nicht teilen | OK
+27c    | Skript: -1 | Blatt: -1 | OK
+27d    | Skript: 0.5 | Blatt: 0,5 | OK
+27e    | Skript: 5 | Blatt: 5 | OK
+28a    | Skript: -5, -1 | Blatt: -1; -5 | OK
+28b    | Skript: -7, -3 | Blatt: -3; -7 | OK
+28c    | Skript: -7, -5 | Blatt: -5; -7 | OK
+28d    | Skript: -10, -4 | Blatt: -4; -10 | OK
+28e    | Skript: -1, 5 | Blatt: 5; -1 | OK
+29a    | Skript: -4, 6 | Blatt: 6; -4 | OK
+29b    | Skript: 1, 5 | Blatt: 5; 1 | OK
+29c    | Skript: 2, 3 | Blatt: 3; 2 | OK
+29d    | Skript: 5 | Blatt: 5 | OK
+29e    | Skript: keine | Blatt: keine | OK
+29f-D  | Skript: 1.25 | Blatt: 1,25 | OK
+29f    | Skript: zwei | Blatt: zwei | OK
+30a    | Skript: 0.267949, 3.73205 | Blatt: 3,73; 0,27 | OK
+30b    | Skript: wA | Blatt: wA | OK
+30c    | Skript: -5, 1 | Blatt: 1; -5 | OK
+31a    | Skript: -5, 5 | Blatt: 5; -5 | OK
+31b    | Skript: -1, 6 | Blatt: 6; -1 | OK
+31c    | Skript: 0, 9 | Blatt: 0; 9 | OK
+31d    | Skript: 3, 5 | Blatt: 5; 3 | OK
+31e    | Skript: -3, 2 | Blatt: 2; -3 | OK
+31f    | Skript: -2.73205, 0.732051 | Blatt: 0,73; -2,73 | OK
+32a-x  | Skript: -2, 4 | Blatt: 4; -2 | OK
+32a-y  | Skript: 1, 13 | Blatt: 13; 1 | OK
+32a-y-Gerade | Skript: 1, 13 | Blatt: 13; 1 | OK
+32b-x  | Skript: 1, 4 | Blatt: 4; 1 | OK
+32b-y  | Skript: -1, 2 | Blatt: -1; 2 | OK
+32b-y-Gerade | Skript: -1, 2 | Blatt: -1; 2 | OK
+33a    | Skript: 5, 9 | Blatt: 9; 5 | OK
+33b    | Skript: 1, 7 | Blatt: 7; 1 | OK
+34a    | Skript: -1, 3 | Blatt: 3; -1 | OK
+35a    | Skript: -2, 8 | Blatt: 8; -2 | OK
+35a-Antwort | Skript: 8 | Blatt: 8 | OK
+35b    | Skript: 0.763932, 5.23607 | Blatt: 0,76; 5,24 | OK
+Sperre | e3_a.tex: keine Sperrzahl, keine Sperrgleichung | OK
+Abweichungen: 0

@@ -1,0 +1,19 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% Bausteine, die die Vorlage (Stufe 4) nicht führt – hier im Vorspann definiert:
+% Zweigzeile unter dem Einheitenkopf, Verzeichniszeile mit Link, Abhakseite
+\newcommand{\zweigzeile}[1]{\par\noindent{\small #1}\par\medskip}
+\newcommand{\verzzeile}[2]{\par\noindent\hyperlink{#1}{#2}\par\smallskip}
+\newcommand{\abhakgruppe}[1]{\par\medskip\noindent\textbf{#1}\par\smallskip}
+\newcommand{\abhakzeile}[2]{\par\noindent\hangindent3.2em\hangafter1$\square$\enspace Nr.~#1\enspace #2\par}
+\usepackage[hidelinks]{hyperref}
+\begin{document}\blattkopf{Quadratische Gleichungen}{Lernblatt}
+\noindent{\large\bfseries Inhalt}\par\bigskip
+\input{verz_lernblatt}
+\weit
+\input{e1_a}
+\input{e2_a}
+\input{e3_a}
+\input{e4_a}
+\input{abhaken}
+\end{document}

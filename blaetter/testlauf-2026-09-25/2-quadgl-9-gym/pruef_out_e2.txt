@@ -1,0 +1,33 @@
+20-Bsp | Skript: 2, 5 | Blatt: 2; 5 | OK
+21-Bsp | Skript: -3, 0 | Blatt: 0; -3 | OK
+19a    | Skript: gilt | Blatt: gilt | OK
+19b    | Skript: gilt nicht | Blatt: gilt nicht | OK
+19c    | Skript: gilt | Blatt: gilt | OK
+19d    | Skript: gilt nicht | Blatt: gilt nicht | OK
+19e    | Skript: gilt | Blatt: gilt | OK
+20a    | Skript: 1, 4 | Blatt: 1; 4 | OK
+20b    | Skript: 3, 6 | Blatt: 3; 6 | OK
+20c    | Skript: 2, 8 | Blatt: 8; 2 | OK
+20d    | Skript: 5, 7 | Blatt: 5; 7 | OK
+20e    | Skript: -4, 1 | Blatt: -4; 1 | OK
+20f    | Skript: -6, 0 | Blatt: 0; -6 | OK
+20g    | Skript: -3 | Blatt: -3 | OK
+20h-Wert | Skript: 5 | Blatt: 5 | OK
+20h    | Skript: fA | Blatt: fA | OK
+21a    | Skript: -4, 0 | Blatt: 0; -4 | OK
+21b    | Skript: -9, 0 | Blatt: 0; -9 | OK
+21c    | Skript: 0, 8 | Blatt: 0; 8 | OK
+21d    | Skript: -5, 0 | Blatt: 0; -5 | OK
+21e    | Skript: x**2 + x - 30 | Blatt: x**2+x-30 | OK
+21f-Faktor | Skript: 2*x**2 - 2*x - 24 | Blatt: 2*(x-4)*(x+3) | OK
+21f    | Skript: -3, 4 | Blatt: 4; -3 | OK
+21g    | Skript: -3 | Blatt: -3 | OK
+22a    | Skript: 0, 6 | Blatt: 0; 6 | OK
+22b    | Skript: 0, 7 | Blatt: 0; 7 | OK
+23a    | Skript: -1, 4 | Blatt: 4; -1 | OK
+23b-Probe | Skript: 30 | Blatt: 30 | OK
+23b    | Skript: -2, 3 | Blatt: 3; -2 | OK
+24a    | Skript: 0, 48 | Blatt: 0; 48 | OK
+24b    | Skript: 28.8 | Blatt: 28,8 | OK
+Sperre | e2_a.tex: keine Sperrzahl, keine Sperrgleichung | OK
+Abweichungen: 0

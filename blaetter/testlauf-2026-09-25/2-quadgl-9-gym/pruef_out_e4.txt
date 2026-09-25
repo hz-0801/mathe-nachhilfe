@@ -1,0 +1,24 @@
+37-Bsp | Skript: -25, 25 | Blatt: 25; -25 | OK
+38-Bsp | Skript: -9, 5 | Blatt: 5; -9 | OK
+36a    | Skript: 4 | Blatt: 4 | OK
+36b    | Skript: 8 | Blatt: 8 | OK
+36c    | Skript: -7, 7 | Blatt: 7; -7 | OK
+36d    | Skript: 2.5 | Blatt: 2,5 | OK
+36e    | Skript: -6, 5 | Blatt: 5; -6 | OK
+37a    | Skript: -20, 20 | Blatt: 20; -20 | OK
+37b    | Skript: -30, 30 | Blatt: 30; -30 | OK
+37c    | Skript: -0.5, 0.5 | Blatt: 0,5; -0,5 | OK
+37d    | Skript: -50, 50 | Blatt: 50; -50 | OK
+37e    | Skript: -9, 9 | Blatt: 9; -9 | OK
+37f    | Skript: -8, 7 | Blatt: 7; -8 | OK
+38a    | Skript: -12, 7 | Blatt: 7; -12 | OK
+38c    | Skript: 7, 12 | Blatt: 7; 12 | OK
+38d    | Skript: 84 | Blatt: 84 | OK
+38e    | Skript: -13, 6 | Blatt: 6; -13 | OK
+38e-Antwort | Skript: 6 | Blatt: 6 | OK
+39a    | Skript: 10 | Blatt: 10 | OK
+39b    | Skript: -26, 14 | Blatt: 14; -26 | OK
+39b-Antwort | Skript: 14 | Blatt: 14 | OK
+40a    | Skript: -14, 14 | Blatt: 14; -14 | OK
+Sperre | e4_a.tex: keine Sperrzahl, keine Sperrgleichung | OK
+Abweichungen: 0
