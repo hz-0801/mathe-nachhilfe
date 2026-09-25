@@ -12,8 +12,8 @@ Beginn: 2026-09-25 15:47
 | 4 Kleinposten | erledigt | Punkt 5 und Nachzug Rohdateien | de503c9, f9632e3 |
 | 5 Vorrat-Verweise | erledigt | Gliederungsentwürfe index.md, Gruppe „Ziel fehlt“ 0 | 99da689 |
 | 6 Netz und Pfade | erledigt (6.2 offen: Fundamente B Q-Phase in zehn Abfragen nicht gefunden) | 6.3 iqb-Cache, Gegenprobe --help | 2f52c77 |
-| 7 Vorschläge | offen | – | – |
-| 8 Prüfskript, Kennzahlen, Vorlage | offen | – | – |
+| 7 Vorschläge | läuft | Abschnitt 2, 3, 4 entworfen; Abschnitt 1 beim Hilfsagenten | – |
+| 8 Prüfskript, Kennzahlen, Vorlage | erledigt | 8.3 Testlauf-Vorlage | b9683ed |
 | 9 CAS-Nachtrag 2017, 2018 | offen | – | – |
 | 10 2017-be-gk, Stapel 2017-ga-A/B | offen | – | – |
 | Abschluss | offen | – | – |
