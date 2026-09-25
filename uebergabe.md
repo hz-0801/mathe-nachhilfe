@@ -1,177 +1,183 @@
-# Übergabe – Werkstatt verbessereBlaetter
+# Übergabe verbessereBlaetter – 2026-09-26 (nach zwei Nächten)
 
-Stand 2026-09-24, 19 Uhr. Nächster Chat beginnt mit „Start."
+Vorherige Übergabe: archiv/uebergabe-2026-09-24.md.
 
-## 1. Ziel
+## 1 Ziel
 
-Bestmöglicher Themenkatalog und bestmögliche Prompts für
-Unterrichts- und Prüfungsblatt (ziel.md). Diese Phase: den
-Unterrichtsblatt-Prompt auf v4.3 umbauen – neue Steuerung
-(Bildschirm, drei Leiterstellungen, Blatt-0-Schalter) und
-„schwach" als Form statt als Kürzung.
+Der bestmögliche Themenkatalog und die beiden Prompts, damit
+erzeugeUnterrichtsblatt() und erzeugePrüfungsblatt() aus wenigen
+Wörtern druckfertige Blätter bauen. Maßstab ist ziel.md
+(Stand 25.09.2026).
 
-## 2. Arbeitsgrundlage
+## 2 Arbeitsgrundlage
 
-- ziel.md – Maßstab jeder Auswertung.
-- blattbau/unterrichtsblatt.md v4.2 – der Prompt, der umgebaut
-  wird; liegt seit 23.09. wortgleich in erzeugeUnterrichtsblatt().
-- blaetter/prozentrechnung/2026-09-24/ – das Prüfstein-Blatt:
-  Eingabe „prozentsatz 7 schwach", v4.2, Opus; Fokus Prozentsatz
-  mit Blatt 0, 16 Hauptnummern, 4 Seiten.
-- befund-schwach-blatt-2026-09-24.md – Auswertung dieses Blatts
-  gegen MSK P A; befund-foerderhefte-2026-09-24.md – Befund aus
-  den Förderheft-Seiten (älter, teils überholt durch den Blatt-
-  Befund).
-- quellen/foerderformen-fundliste.md (42 Zeilen, Formen und
-  Dichte), quellen/foerderhefte-formen.md (Klick!, Kohl).
-- MSK-Baustein P „Verständiges Prozentrechnen" (DZLM, CC BY-NC-SA):
-  https://mathe-sicher-koennen.dzlm.de/mskfiles/uploads/Dokumente/
-  msk_df_p_abc-verstaendig-prozentrechnen_260311.pdf, lokal unter
-  hefte/foerderformen/. Der Katalog zitiert ihn schon (MSK P A).
-- katalog/prozentrechnung.md, Abschnitt „Für schwache Schüler".
+- ziel.md (25.09.2026): drei Bilder – Leiter je Typ, Baum je
+  Thema, Zeitachse je Schüler; Zone „kennst du schon" statt
+  Blatt 0; „schwach" als Form; Zweigzeile und Ich-kann-Titel;
+  Klasse und Schulform ordnen, filtern nicht.
+- katalog/_klassen-belege.md (Nacht 25.09.): Klasse je
+  Lerneinheit aus 9 Regelreihen und 4 Förderheften, Typzeilen,
+  Verlagsmarken; Bauskript werkzeuge/klassen-belege.py mit
+  Daten. Zahlen: 29 Einträge, 116 Einheiten, 649 Typzeilen,
+  401 Förderheftzeilen, 250 Ermessensfälle.
+- katalog/_klassen-ermessen.md (Nacht 26.09.): die 250 Fälle
+  nach Sorte; Urteil brauchen nur „Katalog verortet den Stoff
+  anders" (23) und „Frühe Stelle als Grundstufe gelesen" (15).
+- katalog/_pruefungswort-belege.md (Nacht 26.09.): P10-Jahrgänge
+  je Sek-I-Einheit und Typ (114 Einheiten, 1308 Typen), Sek II
+  gegen Abitur GK/LK und FHR; Skript werkzeuge/pruefungswort-
+  belege.py.
+- katalog/_sek2-ordnung-belege.md (Nacht 26.09.): Halbjahr und
+  Kursart je Sek-II-Einheit (157) aus RLP GOST BE und BB, FOS,
+  Bigalke/Köhler; Skript werkzeuge/sek2-ordnung-belege.py.
+- werkzeuge/blatt-pruef.py und blaetter/kennzahlen.md (Nacht
+  26.09.): Kennzahlen je abgelegtem Blatt (Seiten, Nummern und
+  Teilaufgaben je Seite, Titelform, letzte Darstellung,
+  Antwortform, Fachwörter, Typen ohne Treffer).
+- quellen/: Inhaltsverzeichnisse jetzt für Sekundo, Mathematik
+  2022/2023, Schnittpunkt, Mathematik heute (OS, Kl. 5–10),
+  Fundamente B, Elemente, mathe.delta, LS-Fahrplan (GYM,
+  Kl. 5–10); vier Förderhefte; fremde Aufgabensammlungen
+  (Bayern Gymnasium 8/10, Realschule 6/8, Realschulabschluss;
+  IQB VERA-8) lokal unter hefte/fremd/, Fundliste quellen/
+  fremdsammlungen-fundliste.md, Fundstellen katalog/
+  _fremdoriginale-belege.md (18 von 22 Sprossen, meist
+  Teilleistung).
+- blattbau/unterrichtsblatt.md v4.2 (unverändert seit 24.09.);
+  Befund befund-schwach-blatt-2026-09-24.md.
+- Nachtberichte nacht-bericht-2026-09-25.md und
+  nacht-bericht-2026-09-26.md (Lesarten, Befunde, Entscheidungen
+  der Läufe).
 
-## 3. Arbeitsstand
+## 3 Arbeitsstand
 
-Abgeschlossen am 24.09.:
-- Sek II gesichert (quellen/lehrwerke-fundliste.md, Tabelle
-  Sek II): Fundamente Einführungsphase BE/BB; Bigalke/Köhler
-  Brandenburg 2019, Qualifikationsphase GK und LK, 5 Bände;
-  Elemente SII nur NRW, Neue Wege nur Berlin 2011 (Gegenproben).
-  Lambacher Schweizer Oberstufe hat keine Landesausgabe;
-  Fundamente Qualifikationsphase B nicht erschienen. Fundamente B
-  2017 und Mathematik heute bestätigt.
-- Förderhefte: 25 Bände Inhaltsverzeichnisse (Sekundo 6–9,
-  Schnittpunkt 5–10, Mathematik 2023, Kohl 5–10, Klick! 5–7 und
-  Vorgänger 10, Mathematik heute Diagnose und Fördern 7–10);
-  quellen/foerderhefte-fundliste.md.
-- Formen: 42 freie Quellen (DZLM 8 Bausteine, Stark 3, Persen/
-  Auer 13, Grundwissen Bayern 8, Brückenkurse 5, Rechenschwäche
-  5); Zahlen in der Fundliste. Ergebnis in Kürze: Boden (DZLM,
-  Klick!) = 1–3 Aufgaben je Seite, Diagnose zuerst, Streifen als
-  Methode, Lücken; Kl. 7–10 (Auer Inklusion) = 1–2 je Seite,
-  Lücke und Raster statt Beispiel; Grundwissen (Bayern, Stark) =
-  Regel, Beispiel, eine Aufgabe, dicht – Vorbild für
-  Auffrischen, nicht für schwach.
-- MSK P A gelesen und gegen Katalog und Blatt gehalten; Befund
-  in befund-schwach-blatt-2026-09-24.md.
-- Prüfstein-Blatt gebaut und abgelegt.
+Abgeschlossen: Grundlage (ziel.md) neu beschlossen; alle
+Belegdateien für Klasse, Prüfungswort und Sek-II-Ordnung liegen
+mit Skripten vor; Prüfskript misst die vier abgelegten Blätter.
+Nichts davon ist in einen Katalogeintrag oder Prompt
+eingeflossen.
 
-Nicht begonnen (aus der Übergabe vom Vormittag, weiter offen):
-(a) Gymnasialdecke Kl. 10 gegen die drei Gymnasial-Reihen plus
-Fundamente Einführungsphase; (b) Katalogrevision „Klasse filtert
-in Sek I nur, wo die Bücher es zeigen" (Beleg liegt jetzt in den
-Inhaltsverzeichnissen); (c) Verortung Sek II an Bigalke/Köhler
-und Fundamente EP. Alle drei Fable.
+Wesentliche Befunde der Nächte:
+- Spanne OS/GYM ohne gemeinsame Klasse nur bei 6 Themen
+  (zinsrechnung, lineare-gleichungssysteme, quadratische-
+  funktionen, quadratische-gleichungen, potenz-
+  exponentialfunktionen, daten); bei 17 Themen liegt eine
+  Einheit schon in Klasse 5 oder 6 („Boden").
+- Prozentrechnung Einheit 1 am Gymnasium schon Klasse 5.
+- Blätter v4.0–4.2 lassen laut Prüfskript viele Katalogtypen
+  aus (Prozent-Gesamtblatt 14 von 44, Nullstellen 33 von 61;
+  Wortstamm-Heuristik, aber deutlich).
+- Sek II: 22 Einheiten „nur LK"; Berlin und Brandenburg legen
+  Einheiten in verschiedene Halbjahre (Binomialverteilung Q4
+  gegen Q2) – die Sek-II-Zeitachse braucht das Land.
+- Bigalke/Köhler führt fast alle Stochastik in Band 11.
+- Kein Katalog-Merkkasten hat fette Begriffe; das Prüfskript
+  nimmt Begriffe vor Doppelpunkt.
+- Prüfskript kennt als Merkkasten nur \uebersichtskasten und
+  findet keinen; der Befund vom 24.09. sah oben einen Kasten –
+  Lesart klären.
+- Nicht frei: Quali Mittelschule Bayern, Kompetenztests Sachsen.
 
-## 4. Verbindliche Entscheidungen und Rahmenbedingungen
+## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-Neu am 24.09. (Lehrer):
-- Jedes Blatt beginnt mit einem Bildschirm: Thema, Klasse
-  (Katalog, wenn nicht genannt), Zahl der Einheiten, die
-  Leiterstellungen als nummerierte Zeilen mit je einer Zeile
-  Wirkung, Vorschlag markiert (2 statt 1, wenn das Thema in
-  blaetter/ liegt), Zusatzzeile mit den Zurufen. Antwort: eine
-  Nummer; „weiter" nimmt den Vorschlag. Wer Thema, Klasse und
-  Wort in einer Zeile tippt, überspringt den Bildschirm. Zweck
-  ohne Thema → eine Zeile Rückfrage „Thema, Klasse?".
-- Klasse ist Pflichtzahl im Zuruf; schwach, oberschule,
-  Einheitsname (= Fokus) sind Zurufe, keine Fragen. Schulform
-  filtert bis Kl. 10 nur GYM-Sprossen (Beschluss 23.09. bleibt).
-- Fokus läuft über den Einheitsnamen; am Blatt vom 24.09.
-  bestätigt („prozentsatz" → Fokus Einheit 2).
-- Revision „schwach" vorgemerkt („superidee"), zu entscheiden
-  am Prüfstein: schwach ändert die Form, nicht die Länge. Der
-  Prüfstein liegt jetzt; die Entscheidung fällt zu Beginn des
-  Umbaus.
-- Claude-Code-Aufträge: Zählgrenzen (Abfragen, Bände, Seiten)
-  statt Zeitgrenzen – Claude Code misst keine Zeit und meldet
-  jede Zeitgrenze als erreicht. CQL mit Anführungszeichen an
-  dnb-sru.py über --% und verdoppelte Anführungszeichen. Eine
-  Formenzeile braucht keine gesicherte Datei; Ansehen im
-  Betrachter genügt.
+- Die Marke im Katalog ist die Klasse je Schulform aus den
+  Lehrwerken, so fein wie das Verzeichnis (Typ oder Einheit),
+  nicht der RLP-Buchstabe (25.09.; Grund: Buchstabe G an
+  „Gleichung aus zwei Punkten" hätte Kl. 8 Oberschule falsch
+  geschnitten, Sekundo 8 S. 128 lehrt es).
+- Klasse und Schulform filtern nicht; sie ordnen (Zeitachse).
+  Einzige feste Grenze: unter Klasse 11 keine Sek-II-Einheit.
+- Zweigzeile: Fertigkeit · Zeitmarke · Prüfungswort. Zeitmarke
+  relativ zur Eingabeklasse („kennst du wahrscheinlich seit
+  Klasse 7", „neu in diesem Jahr", „kommt nächstes Jahr", „am
+  Gymnasium schon jetzt"), ohne Klasse absolut („ab Kl. 7").
+- Prüfungswort (26.09.): Schwelle 7 von 13 P10-Jahrgängen,
+  Zählung „Haupt oder Neben"; Wörter „P10 oft", „P10", „keine
+  P10-Aufgabe"; gilt für beide Prompts; im Prüfungsheft bleibt
+  „selten" daneben, Schwelle dafür beim Umbau des
+  Prüfungsprompts. Sek II: „Abitur GK", „Abitur LK", „FHR".
+  Ergibt 44 / 47 / 23 Sek-I-Einheiten.
+- Hauptnummern-Titel als Fertigkeit in Schülersprache („Ich kann
+  …"); bei gemischten Aufgaben ist die Fertigkeit das
+  Unterscheiden.
+- „schwach" ändert die Form (Förderheft-Form, ziel.md § 2),
+  nicht den Stoff; das Blatt darf länger werden.
+- Bestellung: „nur das Neue / mit Wiederholung / mit Ausblick";
+  ohne Angabe mit Wiederholung, und mit Ausblick nur beim ersten
+  Bau eines Themas (Annahme, kippbar).
+- Bigalke/Köhler ist Reihenfolge-Quelle, keine Form-Quelle.
+- Reihenfolge der Bauphase: v4.3 → Prüfskript (liegt schon) →
+  wiederkehrender Nachtauftrag „auftrag-testlauf" mit fester
+  Eingabeliste, der bei jeder Prompt-Version dieselben Blätter
+  baut (Claude Code, MiKTeX lokal).
+- Kaufen nur zwei Förderhefte (Sekundo 8 BE/BB 978-3-14-124264-5,
+  Schnittpunkt 8 diff. 978-3-12-744588-6); keine Schulbücher.
+- Fremde Aufgabensammlungen nur für die 22 Sprossen ohne
+  P10-Original auswerten (15 davon Prüfungshöhen).
+- Nachtaufträge: Skripte samt Daten ins Repo, nichts im
+  Scratchpad; Dateien mit WriteAllText ohne BOM; Commit-
+  Nachrichten mit Umlaut über -F.
+- Bonusguthaben 250 $ für Cloud-Sitzungen (Claude Code im Web):
+  cloudfähig sind Aufträge, die nur Repo und Netz brauchen
+  (Verzeichnisse, Belege); nicht cloudfähig: hefte/, MiKTeX.
 
-Vorgelegt, unwidersprochen, im neuen Chat mit einem Satz zu
-bestätigen (nicht neu herleiten):
-- Drei Stellungen der Leiter, disjunkt nach dem Kriterium
-  „welcher Teil wird bearbeitet": ganze Leiter (jede Sprosse
-  einmal), unten (untere Sprossen mehrfach), oben (obere
-  Sprossen mehrfach). Blatt 0 ist ein eigener Schalter: voll,
-  kurz, nur, ohne – Vorgabe je Stellung: ganz → voll (kurz, wenn
-  das Thema in blaetter/ liegt), unten → voll, oben → ohne.
-  „knapp" als Zuruf = ganze Leiter mit einer Aufgabe je Typ.
-- Schnitt unten/oben: vor der ersten Sprosse, bei der der
-  Schüler deuten muss (Sachtext, Umkehrung, Verknüpfung,
-  Begründung); ohne solche Sprosse: Prüfungshöhe plus die
-  davor. Der Prompt setzt ihn, die Deutungszeile zeigt ihn;
-  Katalogmarke erst, wenn ein Lauf falsch schneidet.
-- Klasse, Schulform, schwach ändern die Leiter (Stoffstand,
-  GYM-Sprossen, F/Vorrat-Sprossen), die Stellung wählt daraus.
-  schwach + oben = die höchsten verbliebenen Sprossen.
-- Der Lehrer will die Wörter nicht lernen; die Wortliste dient
-  dem Prompt (Freitext lesen), nicht ihm.
-
-Rahmen aus früheren Übergaben, unverändert: Leiterprinzip;
-Erkennungsschritte als Vorstufe; Schulform per Zuruf; Titel
-„Kurzname – Formwort"; Ausgabeblock; Regel „erst Exemplar, dann
-Regel"; nach jedem Blatt-Chat Protokoll-Archiv einsortieren.
-
-## 5. Offene Punkte und verworfene Ansätze
+## 5 Offene Punkte und verworfene Ansätze
 
 Offen:
-- Bezeichnungen der drei Leiterstellungen: Der Lehrer fand
-  „Einstieg/Wiederholung/Sondierung/Vertiefung/Sicherheit" nicht
-  treffend; Vorschlag „Ganze Leiter · Unten · Oben" mit je einer
-  Zeile Wirkung; endgültig entscheidet er am Bildschirm-Entwurf.
-- Stil-Befund am Blatt vom 24.09. (Lehrer, mit Fotos):
-  Zwischenanweisungen wiederholen die Teilaufgabe („Färbe bei c)
-  und d) selbst." – dann „c) Färbe die Hälfte."; „Kürze bei c)
-  zuerst, dann erweitere." – dann „c) … gekürzt: … erweitert";
-  „Bei e) steht das Ganze nicht im Text. Kreuze an …" – dann
-  e) mit Kreuzen). Regel für v4.3, Abschnitt 3: Eine Anweisung
-  steht einmal, entweder als Zwischenzeile oder im Teil.
-- \streifenfeld (Streifen mit Antwortfeld rechts) fehlt in
-  mathblatt.sty; der Prompt hat ihn als Baustein gebaut
-  (Protokoll, Schritt 12). Auftrag an blattbau.
-- Nach der Stunde ein Satz (Thema, wo der Schüler hing, was
-  half): Der Lehrer denkt nach; Frage wieder stellen, wenn das
-  erste v4.3-Blatt am Tisch war. Posten in faellig.md.
-- Empfehlung: zwei bis drei Förderhefte kaufen (Sekundo
-  Förderheft 7/8, Schnittpunkt Förderheft 8); Verlage zeigen
-  keine Seiten, Händler nur Deckel.
-- cosh-Katalog: in quellen.md geführt, Datei fehlt (faellig.md).
-- Nebenfund: LISUM-Diagnosematerial (quellen/quelle-lisum-
-  diagnose-foerderung-zahlen-operationen.txt) löst die Fundlücke
-  [MzDuF] auf; Katalogeinträge, die sie zitieren, prüfen.
+- 38 Ermessensfälle (Sorten „Katalog verortet anders", „Frühe
+  Stelle als Grundstufe") entscheiden; die übrigen 212 gelten
+  als Vorschlag übernommen.
+- Format der Marken im Eintrag festlegen (je Lerneinheit: OS-
+  Klasse, GYM-Klasse, Prüfungswort; Sek II: Halbjahr BE/BB,
+  Kursart) und per Auftrag mechanisch eintragen.
+- v4.3: Abschnitt 0–2 umbauen (Zeitachse, Zone, Bestellung,
+  Zweigzeile, Ich-kann-Titel, schwach als Form); Vorschlag:
+  „Stichwort in zwei Einträgen: begleitendes Wort entscheidet,
+  sonst Rückfrage" (nullstellen 22.09. holte beide Einträge).
+- Prüfskript: Lesart Merkkasten prüfen; „Typen ohne Treffer"
+  an einem Blatt von Hand gegenlesen, um die Fehlerquote der
+  Heuristik zu kennen.
+- Befunde in Einträgen (Nacht 26.09.): flaechen.md Original-ids
+  zu „Term zu Figur angeben" vertauscht; zuordnungen.md und
+  terme.md kennen neuere GYM-Typen nicht; themen.csv führt den
+  Maßstab bei zuordnungen statt strahlensaetze; 2025-GYM-K5d
+  Nebentyp-Etikett prüfen.
+- ziel.md § 5: „22 Prüfungshöhen" → „22 Sprossen, 15 davon
+  Prüfungshöhen" (erledigt der Umzugsauftrag).
+- Fundamente B Qualifikationsphase liegt nicht im Repo.
+- In etwa zwei Wochen: Fotos der Inhaltsverzeichnisse aus den
+  Büchern der Schüler, dazu zwei Aufgabenseiten eines Themas;
+  im Chat lesen, je Buch eine Zeile eintragen.
+- Förderhefte, wenn gekauft: Prüfstein-Befund daneben legen.
+- Prüfungsheft: Schwelle „selten" beim Umbau setzen.
 
-Verworfen (nicht wieder aufnehmen):
-- Niveau-Achse (schwach/mittel/stark) als Filter: widerspricht
-  dem Leiterprinzip; nur „schwach" bleibt, als Form.
-- Fünf Zweckwörter als Zeilen des Bildschirms: mischten
-  Leiterteil und Blatt 0; ersetzt durch drei Stellungen plus
-  Schalter.
-- „?"-Hilfeliste: ersetzt durch den Bildschirm bei jedem Blatt.
-- Zwischensprossen für schwach: Die Seiten zeigen Takt und
-  Dichte, keine zusätzlichen Stufen.
-- Zeitgrenzen in Code-Aufträgen (siehe oben).
-- Bundesweite Förderreihen ohne Zweck suchen: Zweck ist jetzt
-  benannt (Form), Suche erledigt.
+Verworfen:
+- RLP-Niveaustufe (D–H) als Filtermarke: schneidet falsch,
+  weil die Lehrwerke früher lehren als der Plan stuft
+  (_niveaustufen-belege.md bleibt als Beleg liegen).
+- Klasse und Schulform als Filter überhaupt: widerspricht „ein
+  Blatt für alle"; ersetzt durch Zeitachse.
+- Bildschirm mit drei Leiterstellungen (unten/oben/ganz):
+  aufgegangen in der Bestellung „neu / mit Wiederholung / mit
+  Ausblick".
+- Sprossen bundesweit aus Lehrplänen recherchieren: Pläne sind
+  keine Aufgaben; stattdessen freie Testaufgaben (gesichert).
+- Lineare Funktionen als Prüfstein für Spanne: keine Spanne
+  (alle Reihen Kl. 8).
 
-## 6. Nächster Arbeitsschritt
+## 6 Nächster Arbeitsschritt
 
-Modell Fable. Zuerst in einem Satz bestätigen lassen: drei
-Stellungen plus Blatt-0-Schalter und die Revision „schwach als
-Form" (Befund liegt). Dann v4.3 von unterrichtsblatt.md bauen,
-Abschnitt 0–2: Bildschirm (Aufbau oben), Eingabedeutung (Thema,
-Zahl unter 20 = Klasse, Einheitsname = Fokus, Zurufe), drei
-Stellungen mit Schnittregel, Blatt-0-Schalter mit Vorgaben,
-„schwach" als Form (zwei bis drei Aufgaben je Seite, Streifen
-bzw. Darstellung neben jeder Aufgabe bis zur Prüfungshöhe,
-Raster mit einer Zeile je Schritt, Päckchen mit einem variierten
-Merkmal und Erklärzeile, Fachwort erst in der Sprosse, die es
-braucht, Merkkasten ans Ende). Abschnitt 3: Anweisung nur einmal.
-Testmaterial: das Blatt vom 24.09. gegen MSK P A – v4.3 muss die
-fünf Abweichungen aus befund-schwach-blatt-2026-09-24.md
-schließen. Ausgabe: vollständiger Prompt als Chat-Block mit
-Holger-Zeile für erzeugeUnterrichtsblatt(), dazu Auftrag an
-blattbau (Datei, \streifenfeld). Danach Opus: Lauf „prozent 7
-schwach" und „prozent 7" mit v4.3, einsortieren, auswerten.
+Modell: Fable (Urteil mit Folgen).
+
+1. katalog/_klassen-ermessen.md öffnen, die 38 Fälle der zwei
+   Sorten im Chat entscheiden, Ergebnis als Liste (Eintrag,
+   Einheit, Entscheidung, Grund).
+2. Format der Markenzeilen im Eintrag festlegen; Auftrag
+   (Sonnet, Mechanik) schreiben, der aus den drei Belegdateien
+   und der Entscheidungsliste die Zeilen in alle Einträge
+   einträgt, mit Gegenprobe (lineare-funktionen Einheit 4: OS 8,
+   GYM 8, P10 oft; quadratische-gleichungen Einheit 2: OS 10,
+   GYM 9; prozentrechnung Einheit 1: GYM 5).
+3. Danach v4.3 (Fable), Prüfstein „quadratische gleichungen 9
+   oberschule" und „9 gymnasium" sowie „prozentrechnung 7
+   schwach" im Blatt-Chat, dann Prüfskript darüber.

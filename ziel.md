@@ -203,8 +203,8 @@ keine Formeln im Heft, Verweis auf die Formelsammlung.
   für alle" (Vertiefen, LVL, Sonderfälle); Urteil im Chat.
   Prüfstein: quadratische Gleichungen (Sekundo Kl. 10, Fundamente
   und Lambacher Schweizer Kl. 9).
-- Sprossen ohne Prüfungsoriginal (22 Prüfungshöhen im Sek-I-
-  Katalog): freie Aufgabensammlungen anderer Länder sichern
+- Sprossen ohne Prüfungsoriginal (22 Sprossen im Sek-I-Katalog, 15 davon
+  Prüfungshöhen): freie Aufgabensammlungen anderer Länder sichern
   (Bayern Jahrgangsstufentests und Realschulabschluss, Sachsen
   Kompetenztests, VERA-8), auswerten nur für diese 22.
 - Prüfungswort „oft": Schwelle aus msa-ertrag.csv setzen.

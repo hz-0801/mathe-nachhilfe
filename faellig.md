@@ -1,6 +1,6 @@
 # FÄLLIG – Handlungen mit Termin oder Auslöser
 
-Stand 21.09.2026 (Rest des Geltungspostens – die sechs Vermerke in den beiden Vorratsthemen – erledigt, sechster Eintrag in § 4, dazu ein Posten index.md Zeile 232 in § 2; davor Posten gebündelte Geltungsrecherche und Wortform-Zeile zinsrechnung.md 27 erledigt, vierter und fünfter Eintrag in § 4, zwei Posten aus dem Geltungsbefund in § 2 – P10-Struktur ab 2026, neue Inhalte Niveaustufe G; Blatt-0-Dateiverweise der sieben weiteren Sek-I-Einträge, sechs Posten aus den Prüfläufen Verweise und Belege, Auftrag Werkzeugpflege) · angelegt in Auftrag O, Punkt 5 · gilt für alle Profile
+Stand 21.09.2026 (Rest des Geltungspostens – die sechs Vermerke in den beiden Vorratsthemen – erledigt, sechster Eintrag in § 4, dazu ein Posten index.md Zeile 232 in § 2; davor Posten gebündelte Geltungsrecherche und Wortform-Zeile zinsrechnung.md 27 erledigt, vierter und fünfter Eintrag in § 4, zwei Posten aus dem Geltungsbefund in § 2 – P10-Struktur ab 2026, neue Inhalte Niveaustufe G; Blatt-0-Dateiverweise der sieben weiteren Sek-I-Einträge, sechs Posten aus den Prüfläufen Verweise und Belege, Auftrag Werkzeugpflege) · 26.09.2026: sieben Posten aus dem Umzug in § 2 · angelegt in Auftrag O, Punkt 5 · gilt für alle Profile
 
 **Abgrenzung.** konzept.md § 6 führt offene *Entscheidungen* mit dem Grund des
 Wartens; diese Datei führt *Handlungen* mit Termin oder Auslöser und mit der
@@ -84,6 +84,13 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | katalog: index.md Zeile 232 (Absatz „Belege der Blatt-0-Fertigkeiten ohne Ziel") auf den Stand von 795ca0a bringen – die Zeile nennt noch 147/112/35, „112 … ein Ziel und 35 keins", Kennzahl 9 = 93 von 463 und für die übrigen 51 Einträge 316/258/58; heute gelten 147/131/16, Kennzahl 9 = 24 von 463 und 316/308/8 (_blatt0-belege.md). Der Auftrag Geltungsvermerke nannte nur die ersten beiden Zahlen und ließ die Zeile bei einer weiteren Abweichung stehen | Anweisung des Lehrers (Freigabe der dritten Zahl 316/308/8) | Claude | katalog/index.md Zeile 232; katalog/_blatt0-belege.md § Zahlen; archiv/auftrag-geltungsvermerke-2026-09-21.md Schritt 5 |
 | Nach der Stunde ein Satz (Thema, wo der Schüler hing, was half) | Auslöser: erstes Blatt mit v4.3 am Tisch; liegt beim Lehrer; der Chat stellt die Frage dann wieder | Lehrer | uebergabe.md § 5 |
 | \streifenfeld in mathblatt.sty aufnehmen | Auslöser: Umbau v4.3; Auftrag an blattbau; Quelle: blaetter/prozentrechnung/2026-09-24/src/fokus_a.tex, Vorspann | Claude (Auftrag), Lehrer (blattbau) | uebergabe.md § 5 |
+| Fotos der Inhaltsverzeichnisse aus den Büchern der Schüler und zwei Aufgabenseiten eines Themas im Chat lesen, je Buch eine Zeile eintragen | Fotos liegen vor (etwa 10.10.2026) | Lehrer, dann Chat | uebergabe.md § 5 |
+| Prüfstein-Befund neben die gekauften Förderhefte legen (Sekundo 8 BE/BB, Schnittpunkt 8 diff.) | Heft liegt vor | Chat | befund-schwach-blatt-2026-09-24.md |
+| flaechen.md: Original-ids zu „Term zu Figur angeben" prüfen und tauschen | nächster Katalogauftrag | Claude Code | nacht-bericht-2026-09-26.md Teil 2 |
+| zuordnungen.md und terme.md um die neueren GYM-Typen ergänzen | nächster Katalogauftrag | Claude Code | nacht-bericht-2026-09-26.md Teil 2 |
+| themen.csv: Maßstab von zuordnungen nach strahlensaetze | nächster Katalogauftrag | Claude Code | nacht-bericht-2026-09-26.md Teil 2 |
+| 2025-GYM-K5d Nebentyp-Etikett prüfen | nächster msa-Abgleich | Chat | nacht-bericht-2026-09-26.md Teil 2 |
+| Fundamente B Qualifikationsphase in der DNB nachsehen | nächster Sek-II-Quellenlauf | Claude Code | nacht-bericht-2026-09-26.md Teil 3 |
 
 ## 3 Liegt beim Lehrer
 
