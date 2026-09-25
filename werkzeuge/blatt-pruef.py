@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
-r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.2, 25.09.2026; v0.1 26.09.2026)
+r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.3, 27.09.2026; v0.2 25.09.2026; v0.1 26.09.2026)
+
+v0.3 (Auftrag Nacht 2026-09-27, Teil 8): Bausteine der Vorlage Stufe 5 – \swfrage zählt als Teilaufgabe
+(Liste TEILZAEHLER); für Blätter, die \zweigzeile, die Umgebung abhakseite, \abhak, \verzeichniszeile, \verz oder
+\swfrage tragen, drei weitere Kennzahlen je Blatt:
+ 10 Zweigzeilen je Einheitenkopf: „Einheitenköpfe n · Zweigzeilen m“ (Einheitenkopf = \einheitenkopf u. a. mit
+    „Einheit n …“ oder „·“ im Text; „Inhalt“, „Das kennst du schon“, „Das kann ich“ zählen als weitere Köpfe),
+    dazu die Zahl der \swfrage.
+ 11 Abhakseite: ja, wenn \begin{abhakseite} vorkommt; Zahl der Zeilen = Zahl der \abhak.
+ 12 Verzeichniszeile: ja, wenn \verzeichniszeile oder \verz vorkommt; Zahl der Einträge = Zahl der \verz.
+    Dazu die Zuordnung Einheitenkopf → Lerneinheit, wie Kennzahl 9 sie trifft (unten), und ein Vermerk, wenn
+    kein Kopf eine Lerneinheit trifft.
+Die Zuordnung Einheitenkopf → Lerneinheit läuft über den Titel (Text hinter dem letzten „·“, ohne
+Sprungmarken und ohne eine Ich-Form am Anfang wie „Ich kann“), nie über die Blattnummer „Einheit n von m“ –
+die ist die Nummer im Blatt, nicht im Katalog. Blätter ohne diese Bausteine messen und schreiben sich
+byteidentisch wie in v0.2 (geprüft am 27.09.2026 an allen 22 PDFs unter blaetter/).
 
 Misst für jedes abgelegte Blatt, was die Befunde vom 24.09.2026 von Hand gezählt
 haben (befund-schwach-blatt-2026-09-24.md), damit zwei Läufe desselben Themas
@@ -141,10 +156,20 @@ KATEGORIEN = ['Streifen', 'Tabelle', 'Skizze', 'Koordinatensystem', 'Balken', 's
 MAKRO_KAT = {m: k for k, ms in DARSTELLUNG.items() for m in ms}
 
 ANTWORTLINIE = ['leerfeld', 'feld', 'feldl', 'dsleer', 'leerzelle', 'punktfeld', 'pfeld']
-TEILZAEHLER = ['teil', 'steil', 'tz', 'stz', 'gl', 'sgl', 'gz', 'gzs']
+TEILZAEHLER = ['teil', 'steil', 'tz', 'stz', 'gl', 'sgl', 'gz', 'gzs', 'swfrage']   # swfrage: Vorlage Stufe 5 (v0.3)
 LISTENMAKROS = ['mnliste', 'nullstellenliste', 'punktprobenliste']
 KOPFMAKROS = ['einheitenkopf', 'einheitskopf', 'blattunter']
 KASTENMARKEN = ('Formelsammlung', 'Auswendig', 'Quelle')
+
+# Vorlage Stufe 5 (v0.3, Namen aus dem Auftrag Nacht 2026-09-27, Teil 8; ../blattbau/mathblatt.sty trug am
+# 27.09.2026 noch Version 2026-09-22h ohne diese Bausteine)
+ZWEIGZEILE = 'zweigzeile'                   # \zweigzeile{Fertigkeit · Zeitmarke · Prüfungswort} unter \einheitenkopf
+ABHAKSEITE = ('abhakseite', 'abhak')        # \begin{abhakseite} … \abhak{nr}{titel} … \end{abhakseite}
+VERZEICHNIS = ('verzeichniszeile', 'verz')  # \verzeichniszeile mit \verz{label}{text}
+# Titel eines Einheitenkopfs = Text hinter dem letzten „·“ („Einheit 3 von 5 · Titel“: die Blattnummer davor ist
+# nicht die Katalognummer und zählt nicht); eine Ich-Form am Anfang (v4.3: „Ich kann …“) wird abgelöst.
+ICH_FORM = re.compile(r'^Ich\s+(?:kann|erkenne|finde|weiß)\s+', re.I)
+KEIN_EINHEITENKOPF = ('Das kann ich',)      # Kopf der Abhakseite
 
 FUELLWORT = set('''
 aber alle allen aller alles also als am an auch auf aus bei beim beide beiden bis dann
@@ -303,7 +328,8 @@ def zerlege(tex):
     for m in re.finditer(r'\\(' + '|'.join(KOPFMAKROS) + r')\*?(?=[\s{])', tex):
         arg, _ = argumente(tex, m.end(), 1)
         if arg:
-            ereignisse.append((m.start(), 'kopf', zu_text(arg[0])))
+            # v0.3: Sprungmarken im Kopf (\hypertarget{e1}{}, \label{…}) gehören nicht zum Text
+            ereignisse.append((m.start(), 'kopf', zu_text(re.sub(r'\\(?:hypertarget|label)\{[^{}]*\}(?:\{\})?', '', arg[0]))))
     ereignisse.sort(key=lambda x: x[0])
 
     nummer = 0
@@ -682,7 +708,7 @@ def messe(pdf, ordner, reg, testlauf=None):
         einheiten = lerneinheiten(et)
         gebaut = set()
         for kopf in koepfe:
-            rest = kopf.split('·')[-1]
+            rest = ICH_FORM.sub('', kopf.split('·')[-1].strip())
             rest_st = [stamm(w) for w in kernwoerter(rest)]
             rest_w = [w.lower() for w in woerter(rest)]
             for n, titel in einheiten.items():
@@ -693,6 +719,7 @@ def messe(pdf, ordner, reg, testlauf=None):
                 gemeinsam = max(len(hat_staemme(t_st, rest_w)), len(hat_staemme(rest_st, t_w)))
                 if gemeinsam * 3 >= 2 * max(len(t_st), len(rest_st)):
                     gebaut.add(n)
+                    k.setdefault('kopftreffer', {}).setdefault(kopf, []).append(f'{name} {n}')
         for n, liste in sorted(typen(et).items()):
             for typ, sek2 in liste:
                 paare = kernstaemme(typ)
@@ -716,7 +743,29 @@ def messe(pdf, ordner, reg, testlauf=None):
         k.setdefault('gebaut', {})[name] = sorted(gebaut)
     k['nur_blatt0'] = (not any(k.get('gebaut', {}).values())
                        and bool(re.search(r'Blatt 0', tex)))
+    k['stufe5'] = stufe5(tex, koepfe)
     return k
+
+
+def stufe5(tex, koepfe):
+    """Bausteine der Vorlage Stufe 5 (v0.3): Zweigzeilen, Abhakseite, Verzeichniszeile, Schwach-Teilaufgaben.
+    None, wenn das Blatt keinen davon trägt (dann bleibt die Ausgabe wie in v0.2)."""
+    zweig = len(re.findall(r'\\' + ZWEIGZEILE + r'(?![A-Za-z])', tex))
+    abhakseite = bool(re.search(r'\\begin\{' + ABHAKSEITE[0] + r'\}', tex))
+    abhak = len(re.findall(r'\\' + ABHAKSEITE[1] + r'(?![A-Za-z])', tex))
+    verzzeile = len(re.findall(r'\\' + VERZEICHNIS[0] + r'(?![A-Za-z])', tex))
+    verz = len(re.findall(r'\\' + VERZEICHNIS[1] + r'(?![A-Za-z])', tex))
+    sw = len(re.findall(r'\\swfrage(?![A-Za-z])', tex))
+    if not (zweig or abhakseite or abhak or verzzeile or verz or sw):
+        return None
+    # Einheitenkopf = Kopf mit Blattnummer „Einheit n …“ oder Mittelpunkt; Köpfe wie „Inhalt“, „Das kennst du
+    # schon“ (Zone) oder „Das kann ich“ (Abhakseite) stehen getrennt
+    einheitenkoepfe = [kp for kp in koepfe if kp.strip() not in KEIN_EINHEITENKOPF
+                       and (re.search(r'\bEinheit\s+\d', kp) or '·' in kp)]
+    weitere = [kp for kp in koepfe if kp not in einheitenkoepfe]
+    return {'koepfe': len(einheitenkoepfe), 'zweig': zweig, 'abhakseite': abhakseite, 'abhak': abhak,
+            'verzzeile': verzzeile, 'verz': verz, 'swfrage': sw, 'kopfliste': einheitenkoepfe,
+            'weitere': list(dict.fromkeys(weitere))}
 
 
 # ---------------------------------------------------------------- Ausgabe
@@ -757,6 +806,37 @@ def zusammen(k):
 
 
 def abschnitt_md(k):
+    z = abschnitt_md_basis(k)
+    s5 = k.get('stufe5')
+    if not s5:
+        return z
+    # v0.3: Kennzahlen 10–12 nur für Blätter mit Bausteinen der Vorlage Stufe 5 (ältere Blätter unverändert)
+    if z and z[-1] == '':
+        z = z[:-1]
+    z.append(f"10. Zweigzeilen je Einheitenkopf: Einheitenköpfe {s5['koepfe']} · Zweigzeilen {s5['zweig']}"
+             + (f"; Schwach-Teilaufgaben (\\swfrage): {s5['swfrage']}" if s5['swfrage'] else '') + '.')
+    z.append(f"11. Abhakseite: {'ja' if s5['abhakseite'] else 'nein'}"
+             + (f", {s5['abhak']} Zeilen (\\abhak)" if s5['abhak'] else '') + '.')
+    z.append(f"12. Verzeichniszeile: {'ja' if s5['verzzeile'] or s5['verz'] else 'nein'}"
+             + (f", {s5['verz']} Einträge (\\verz)" if s5['verz'] else '') + '.')
+    treffer = k.get('kopftreffer', {})
+    if s5['kopfliste']:
+        teile = []
+        for kp in s5['kopfliste']:
+            ziel = treffer.get(kp)
+            teile.append(f"„{kp}“ → " + (', '.join(f'Einheit {x}' for x in dict.fromkeys(ziel)) if ziel
+                                          else 'ohne Treffer'))
+        z.append('Einheitenkopf → Lerneinheit (Titel gegen Titel, Wortstamm; die Blattnummer zählt nicht): '
+                 + '; '.join(dict.fromkeys(teile)) + '.')
+        if not any(k.get('gebaut', {}).values()):
+            z.append('Vermerk: kein Einheitenkopf trifft eine Lerneinheit – Kennzahl 9 zählt gegen alle Einheiten.')
+    if s5['weitere']:
+        z.append('Weitere Köpfe (keine Einheit): ' + '; '.join(f'„{kp}“' for kp in s5['weitere']) + '.')
+    z.append('')
+    return z
+
+
+def abschnitt_md_basis(k):
     z = [f"### {k['thema']} · {k['datum']} · {k['datei']}", '']
     if k.get('fehlt_tex'):
         z += [f"Keine gleichnamige tex-Datei unter src/; gemessen nur die Seiten: {k['seiten']}.", '']
