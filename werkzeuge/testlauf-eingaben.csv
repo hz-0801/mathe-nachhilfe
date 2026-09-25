@@ -1,0 +1,11 @@
+nr;kurzname;eingabe;antworten;prueft
+1;quadgl-9-os;quadratische gleichungen 9 oberschule;alle;Zeitmarke „kommt nächstes Jahr" an den Zweigen (OS Kl. 10), Gleichungsraster, Prüfungswort je Zweig, Abhakseite
+2;quadgl-9-gym;quadratische gleichungen 9 gymnasium;alle;dieselben Zweige wie Nr. 1 mit gekippten Zeitmarken (GYM Kl. 8–9), Zusatz „an der Oberschule erst Kl. 10"
+3;prozent-7-schwach;prozentrechnung 7 schwach;alle;Form nach 2.8: Darstellung neben jeder Teilaufgabe, Raster je Schritt, Päckchen mit Erklärzeile, Kasten am Zweigende, Zone mit Grundvorstellung; keine Sprosse fehlt gegenüber dem Katalog
+4;linfkt-8-neu;lineare funktionen 8 nur das neue;alle;keine Zone, kein PDF KennstDuSchon, Zweigzeilen „neu in diesem Jahr", Grafiken auf Gitter, Wertetabellen, Halbseitenmaß
+5;kreis-8-ausblick;kreis 8 mit ausblick;alle;Typklammer „kennst du seit Klasse 5" am Zeichnen-Typ, Zeichenflächen mit 8-mm-Karo, Ausblick-Zweig Kreisteile am Ende mit „Ausblick"
+6;daten-7;daten 7;sek i, alle;Stufenfrage beantwortet (Sek I), Einheit 6 weggelassen und in der Deutungszeile genannt, neue Klassen-Typen in Einheit 1 als Sprosse oder Hauptnummer, Säulendiagramme mit Bausteinen
+7;nullstellen-fokus;nullstellen;quadratische-funktionen;Eintragsfrage gestellt und mit dem Eintrag beantwortet, dann Fokus: kurze Zone, Zweigzeile, Grundfall dreimal, Prüfungshöhe mehrfach
+8;potenz-10;potenz-exponentialfunktionen 10;alle;neue Einheit 5 Potenzfunktionen als Zweig mit „keine P10-Aufgabe", Decke nach Lehrwerk im Ausgabeblock genannt, Graphen von x³ und x⁴
+9;kurven-12-be;kurvenuntersuchung 12 berlin;gymnasium, gk;Sek II: Zeitmarke mit Halbjahr Q1 Berlin, Kursart GK, Prüfungswort „Abitur GK", Decke Abitur Teil A/B, kein `\weit`
+10;ka-terme-8-gym;klassenarbeit terme binomische formeln 8 gymnasium;alle;zwei Einträge, Zweige in Lehrplanfolge, eine Zone aus beiden, Nachbarzweige aus „Querbezüge" genannt, Leiter eine Stufe über der Richtung
