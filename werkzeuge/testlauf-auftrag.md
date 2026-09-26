@@ -5,12 +5,15 @@ Vorlage; für einen Lauf in die Wurzel als auftrag-testlauf.md kopieren, Datum e
 Datum des Laufs: <JJJJ-MM-TT> (Tag des Starts, aus `Get-Date -Format yyyy-MM-dd`; überall, wo
 unten `<datum>` steht, dieses Datum). Vorlage aus `archiv/auftrag-testlauf-2026-09-25.md` mit drei
 Änderungen (Auftrag Nacht 2026-09-27, Teil 8): Blätter nacheinander, Uhrzeiten nur aus `Get-Date`,
-Ordner- und Berichtsname mit dem Datum des Laufs.
+Ordner- und Berichtsname mit dem Datum des Laufs. Seit 26.09.2026
+(Auftrag Testlauf 2026-09-26, Teil 0): Prompt-Version nicht mehr fest,
+Pfad der Desktop-Beigabe, Spalte „Aufrufe (Umgebung)“ im Bericht.
 
 ## Ausgangslage
 
-`hz-0801/blattbau/unterrichtsblatt.md` liegt in Version v4.3
-(Commit 512ae78). Der Prompt ist die Projektanweisung des
+`hz-0801/blattbau/unterrichtsblatt.md` liegt in der Version aus
+Zeile 1 von unterrichtsblatt.md, die der Auftrag nennt (Lauf vom
+25.09.2026: v4.3, Commit 512ae78). Der Prompt ist die Projektanweisung des
 Claude-Projekts erzeugeUnterrichtsblatt(); dort baut ein Chat
 aus einer Eingabe wie „kreis 8" druckfertige PDFs. Dieser
 Auftrag baut dieselben Blätter ohne den Lehrer: je Eingabe aus
@@ -45,7 +48,8 @@ angehängt. Darin:
 
 1. `unterrichtsblatt.md` per Raw-URL holen:
    https://raw.githubusercontent.com/hz-0801/blattbau/main/unterrichtsblatt.md
-   Zeile 1 muss „v4.3" tragen; sonst abbrechen mit Grund in
+   Zeile 1 muss die Version aus Zeile 1 von unterrichtsblatt.md,
+   die der Auftrag nennt, tragen; sonst abbrechen mit Grund in
    `stand.md` und Bericht.
 2. Werkzeuge prüfen: `claude` auf der Befehlszeile (Version
    ausgeben), `xelatex`, `pdftotext` und `pdfinfo` unter
@@ -60,7 +64,7 @@ angehängt. Darin:
      <pfad zu unterrichtsblatt.md> --dangerously-skip-permissions
      --model opus` im Arbeitsordner der Eingabe, Ausgabe nach
      `sitzung.txt`. `claude` steht nicht im PATH; die Desktop-Beigabe
-     liegt unter `%APPDATA%\Claude\claude-code\<version>\claude.exe`.
+     liegt unter `%LocalAppData%\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude-code\<version>\claude.exe`.
      Kennt die installierte Version die Optionen unter anderem
      Namen, nimm die passenden und notiere sie. Vor der ersten
      Eingabe ein Probeaufruf (`claude -p "Antworte mit OK"`); meldet
@@ -95,7 +99,8 @@ nächste Zeile erst nach Schritt 6 der vorigen):
    entpacken. Fehlt das Archiv, bleibt, was da ist.
 3. Prüfen: mindestens ein PDF mit „Gesamt" oder „Fokus" im Namen,
    `protokoll.txt` mit Zeile „Prompt: Unterrichtsblatt-Prompt
-   v4.3". Fehlt eines, zählt die Eingabe als „offen".
+   <version>" (die Version aus Zeile 1 von unterrichtsblatt.md,
+   die der Auftrag nennt). Fehlt eines, zählt die Eingabe als „offen".
 4. Fehlerregel: Bricht die Sitzung ab oder fehlt das Gesamt-PDF,
    ein zweiter Anlauf in frischer Sitzung. Nach zwei Anläufen:
    Eingabe „offen mit Grund" in `stand.md`, nächste Eingabe.
@@ -149,8 +154,11 @@ nächste Zeile erst nach Schritt 6 der vorigen):
    Zeile das Modell der Auftragssitzung und das Modell der
    Blattsitzungen; Bauweise (Regel- oder Ersatzweg, Optionen);
    Tabelle je Eingabe: Anläufe, Ergebnis (fertig/offen),
-   Werkzeugaufrufe laut protokoll.txt, Seiten Gesamt, Zeit aus
-   zeiten.txt; die drei Gegenproben mit Ist-Wert; was der
+   Werkzeugaufrufe laut protokoll.txt, daneben die Spalte
+   „Aufrufe (Umgebung)" (die tatsächlichen Werkzeugaufrufe der
+   Sitzung aus ihrer Ausgabe oder dem Sitzungsprotokoll; geht das
+   im gewählten Weg nicht, „nicht messbar" mit Grund), Seiten
+   Gesamt, Zeit aus zeiten.txt; die drei Gegenproben mit Ist-Wert; was der
    Auftrag nicht regelte und wie entschieden; Abweichungen des
    Sitzungsverhaltens vom Prompt, die dir auffallen (Planfrage
    trotz Antwort gestellt, Bau angehalten, Rückfall ohne
