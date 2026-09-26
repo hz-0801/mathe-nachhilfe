@@ -8,6 +8,6 @@ Beginn: 2026-09-26 14:07
 - Teil 4: offen
 - Teil 5: erledigt (14:18) – Sollwert umgestellt, alle GEGENPROBE-Zeilen stimmen; Commit 3e64629
 - Teil 6: erledigt (14:19) – Merkkasten quadratische-funktionen Einheit 4 umgestellt; Commit c8c16ef
-- Teil 7: erledigt (14:34) – Vorschlagsdatei, 29 Einträge, 118 Einheiten, 6 Vorschläge; Commit: katalog: Vorschläge Sprossenregel
-- Teil 8: läuft (Hilfsagent, gestartet vor 14:23)
+- Teil 7: erledigt (14:34) – Vorschlagsdatei, 29 Einträge, 118 Einheiten, 6 Vorschläge; Commit e439302
+- Teil 8: erledigt (14:45) – Vorschlagsdatei, 6 Punkte, 22 Zeilen, 1 ohne Beleg; Commit: katalog: Vorschläge Katalogbefund 3–8
 - Abschluss: offen
