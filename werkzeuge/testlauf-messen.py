@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-r"""testlauf-messen.py – Kennzahlen eines Testlaufs des Unterrichtsblatt-Prompts (v0.1, 25.09.2026)
+r"""testlauf-messen.py – Kennzahlen eines Testlaufs des Unterrichtsblatt-Prompts (v0.2, 26.09.2026)
+
+v0.2: Einheitenkopf auch ohne „von m“ (Fokus-Kopf nach unterrichtsblatt.md v4.4, 2.5: „Einheit 4 ·
+Nullstellen …“); --ohne-gegenproben lässt die drei Gegenproben weg, wenn ein Auftrag eigene
+misst (werkzeuge/testlauf-pruefung.py). Blätter mit „Einheit n von m“ messen sich wie in v0.1.
 
 Auftrag: archiv/auftrag-testlauf-<datum>.md, Teil 3. Baut
 blaetter/testlauf-<datum>/kennzahlen.md in zwei Teilen:
@@ -9,7 +13,7 @@ blaetter/testlauf-<datum>/kennzahlen.md in zwei Teilen:
      und die drei Gegenproben des Auftrags.
 
 Aufruf (aus der Repo-Wurzel oder beliebig):
-  python werkzeuge/testlauf-messen.py blaetter/testlauf-<datum> [--probe]
+  python werkzeuge/testlauf-messen.py blaetter/testlauf-<datum> [--probe] [--ohne-gegenproben]
 --probe gibt Teil 2 auf der Konsole aus und schreibt nichts.
 
 Lesarten der Zusatzzählung (je Seite des pdftotext-Texts, Seitentrennung Seitenvorschub):
@@ -17,7 +21,8 @@ Lesarten der Zusatzzählung (je Seite des pdftotext-Texts, Seitentrennung Seiten
               Seiten danach (die Abhakseite ist nach unterrichtsblatt.md 4.1 der Schluss und
               kann zwei Seiten lang sein). Diese Seiten zählen für Köpfe, Zweigzeilen und
               Hauptnummern nicht mit (sie wiederholen die Titel).
- Einheitenkopf  Zeile mit „Einheit <n> von <m>“ (davor ggf. „Ausblick“).
+ Einheitenkopf  Zeile mit „Einheit <n> von <m>“ (davor ggf. „Ausblick“), seit v0.2 auch „Einheit <n> ·“
+              ohne „von“ (Fokus v4.4).
  Zweigzeile   Zeile mit „Hier lernst du“, oder – wenn keine solche folgt – die erste
               nichtleere Zeile nach einem Einheitenkopf mit mindestens zwei „·“. Der Text der
               Zweigzeile reicht bis zur nächsten Leerzeile, Hauptnummer oder zum nächsten Kopf.
@@ -42,9 +47,13 @@ _spec = importlib.util.spec_from_file_location('blatt_pruef', Path(__file__).par
 BP = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(BP)
 
-KOPF = re.compile(r'(Ausblick\s*)?Einheit\s+(\d+)\s+von\s+(\d+)\s*·?\s*(.*)')
+KOPF = re.compile(r'(Ausblick\s*)?Einheit\s+(\d+)(?:\s+von\s+(\d+)\s*·?|\s*·)\s*(.*)')
 HN = re.compile(r'^\s{0,6}(Z?)(\d{1,3})\.\s+(\S.*)$')
 ICH = ('Ich kann', 'Ich erkenne', 'Ich finde')
+
+
+def von(kopf):
+    return f" von {kopf['von']}" if kopf.get('von') else ''
 
 
 def satz(text):
@@ -68,7 +77,8 @@ def zerlege_text(seiten):
             m = KOPF.search(z)
             if m and not re.search(r'Seiten?\s+\d', z):
                 kopf = {'seite': i + 1, 'ausblick': bool(m.group(1)), 'nr': int(m.group(2)),
-                        'von': int(m.group(3)), 'titel': m.group(4).strip(), 'zweig': None}
+                        'von': int(m.group(3)) if m.group(3) else None, 'titel': m.group(4).strip(),
+                        'zweig': None}
                 koepfe.append(kopf)
                 # Zweigzeile suchen: nächste nichtleere Zeilen
                 k = j + 1
@@ -191,7 +201,7 @@ def gegenproben(ordner, mess):
         if not treffer:
             z.append('   - kein Einheitenkopf und keine Zweigzeile mit „Potenzfunktion“.')
         for k in treffer:
-            z.append(f"   - {'Ausblick ' if k['ausblick'] else ''}Einheit {k['nr']} von {k['von']} · "
+            z.append(f"   - {'Ausblick ' if k['ausblick'] else ''}Einheit {k['nr']}{von(k)} · "
                      f"{zeile_md(k['titel'])}: „keine P10-Aufgabe“ in der Zweigzeile: "
                      f"{'ja' if k['zweig'] and 'keine P10-Aufgabe' in k['zweig'] else 'nein'} – "
                      f"„{zeile_md(k['zweig'] or '– keine –')}“")
@@ -213,7 +223,7 @@ def gegenproben(ordner, mess):
     return z
 
 
-def zusatz(ordner):
+def zusatz(ordner, mit_gegenproben=True):
     tripel = BP.testlauf_blaetter(ordner)
     mess = {}
     for pdf, o, _ in tripel:
@@ -238,7 +248,7 @@ def zusatz(ordner):
         z.append('')
         if m['koepfe']:
             for k in m['koepfe']:
-                z.append(f"- S. {k['seite']} {'Ausblick ' if k['ausblick'] else ''}Einheit {k['nr']} von {k['von']}"
+                z.append(f"- S. {k['seite']} {'Ausblick ' if k['ausblick'] else ''}Einheit {k['nr']}{von(k)}"
                          f" · {zeile_md(k['titel'])} – Zweigzeile: "
                          f"{('„' + zeile_md(k['zweig']) + '“') if k['zweig'] else 'fehlt'}")
         else:
@@ -255,7 +265,8 @@ def zusatz(ordner):
         if m['blatt0']:
             z.append(f"- „Blatt 0“ kommt {m['blatt0']}-mal vor.")
         z.append('')
-    z += gegenproben(ordner, mess)
+    if mit_gegenproben:
+        z += gegenproben(ordner, mess)
     return '\n'.join(z).rstrip('\n') + '\n'
 
 
@@ -265,7 +276,7 @@ def main():
     if not args:
         sys.exit(__doc__)
     ordner = Path(args[0]).resolve()
-    teil2 = zusatz(ordner)
+    teil2 = zusatz(ordner, '--ohne-gegenproben' not in sys.argv)
     if probe:
         print(teil2)
         return
