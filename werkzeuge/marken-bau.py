@@ -77,9 +77,23 @@ NEUE_EINHEITEN = {('potenz-exponentialfunktionen', 5): 'keine P10-Aufgabe', ('da
 FHR_SCHWELLE = 1
 
 # Gegenprobe des Auftrags (bekannte Werte); Abweichung wird gemeldet, nichts wird angepasst.
+# Seit 28.09.2026 (Auftrag Nacht 2026-09-28, Teil 5; Entscheidung des Chats vom 26.09.2026 „beide Belegwerte
+# gelten“) stehen zwei Sollwerte auf den Belegwerten statt auf den Werten der Übergabe vom 26.09., die
+# bericht-marken.md (Gegenprobe 1 und 2) und nacht-bericht-2026-09-27.md Teil 1 als falsch belegen:
+# - lineare-funktionen 4: „P10“ statt „P10 oft“ – Quelle katalog/_pruefungswort-belege.md, „Einheit 4 · Gleichung
+#   bestimmen“ mit 3 von 13 P10-Jahrgängen, unter der Schwelle 7 aus _marken-entscheidungen.md;
+# - quadratische-gleichungen 2: „GYM Kl. 8–9“ statt „GYM Kl. 9“ – Quelle katalog/_klassen-belege.md, Elemente
+#   Kl. 8 (Ausgabe 2016) „1.12 Gleichungen vom Typ T v T2 = 0“ (Satz vom Nullprodukt, zählt: kein Stichwort der
+#   Regel A, nicht in Datei 2), neben LS 9 und Fundamente 9.
+# Die übrigen Sollwerte sind die der Übergabe vom 26.09.; kreis 1 (Typ) weicht weiter ab (bericht-marken.md
+# Gegenprobe 4, Posten in faellig.md).
+# Prüfung einer Marken-Zeile: Schulformangaben und Prüfungswort als ganzer Teil zwischen „ · “ (eine Spanne
+# darf ihre Reihenliste in Klammern tragen: „GYM Kl. 8–9“ trifft „GYM Kl. 8–9 (LS 9, …)“, nicht „GYM Kl. 7–9 (…)“;
+# „P10“ trifft nicht „P10 oft“), alles andere als Text.
+PRUEFUNGSWORT = ('P10', 'P10 oft', 'keine P10-Aufgabe')
 GEGENPROBE = [
-    ('lineare-funktionen', 4, 'Marken', ['OS Kl. 8', 'GYM Kl. 8', 'P10 oft']),
-    ('quadratische-gleichungen', 2, 'Marken', ['OS Kl. 10', 'GYM Kl. 9']),
+    ('lineare-funktionen', 4, 'Marken', ['OS Kl. 8', 'GYM Kl. 8', 'P10']),
+    ('quadratische-gleichungen', 2, 'Marken', ['OS Kl. 10', 'GYM Kl. 8–9']),
     ('prozentrechnung', 1, 'Marken', ['GYM Kl. 5']),
     ('kreis', 1, 'ohne Kl. 5/6', []),
     ('kreis', 1, 'Typ', ['Kreis mit gegebenem Radius oder Durchmesser zeichnen', '[OS 5, GYM 6]']),
@@ -734,8 +748,11 @@ def main(probe=False):
     for e, u, art, soll in GEGENPROBE:
         ist = marken.get((e, u), '–')
         if art == 'Marken':
-            # Schulformangaben müssen als ganzer Teil stimmen („OS Kl. 8“ ≠ „OS Kl. 7–8 (…)“), der Rest als Text
-            ok = all(x in ist.split(' · ') if x.startswith(('OS ', 'GYM ')) else x in ist for x in soll)
+            # Schulformangaben und Prüfungswort müssen als ganzer Teil stimmen („OS Kl. 8“ ≠ „OS Kl. 7–8 (…)“,
+            # „P10“ ≠ „P10 oft“; eine Spanne darf ihre Reihenliste tragen), der Rest als Text
+            teile = ist.split(' · ')
+            ok = all(any(t == x or t.startswith(x + ' (') for t in teile) if x.startswith(('OS ', 'GYM '))
+                     else x in teile if x in PRUEFUNGSWORT else x in ist for x in soll)
             print(f'  {"stimmt" if ok else "ABWEICHUNG"}: {e} {u} – Soll {" · ".join(soll)} – Ist {ist}')
         elif art == 'ohne Kl. 5/6':
             teile = [t for t in ist.split(' · ') if t.startswith(('OS', 'GYM'))]

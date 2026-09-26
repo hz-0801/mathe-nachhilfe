@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
-r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.3, 27.09.2026; v0.2 25.09.2026; v0.1 26.09.2026)
+r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.4, 28.09.2026; v0.3 27.09.2026; v0.2 25.09.2026; v0.1 26.09.2026)
+
+v0.4 (Auftrag Nacht 2026-09-28, Teil 5; Vorlage Stufe 6, ../blattbau/mathblatt.sty 2026-09-28a): \swz und \swa zählen
+als Teilaufgaben (TEILZAEHLER; in der Vorlage laufen sie seit Stufe 5 mit dem teil-Zähler – offener Punkt aus
+blattbau/bericht-vorlage-stufe5-2026-09-27.md); Teilaufgaben im Beispielblock (\begin{beispiel} … \end{beispiel})
+zählen nicht, die Vorlage setzt den Buchstaben nach dem Block zurück. Für Blätter mit Bausteinen der Stufe 6 je
+Baustein eine Kennzahl (Zahl je Blatt): 13 \verfahren (Verfahrensüberschrift), 14 \anweisung (Anweisungszeile
+zwischen Teilaufgaben; keine Teilaufgabe), 15 \rechenplatz (dazu die Summe der Zeilen), 16 Umgebung beispiel
+(nicht der Befehl \beispiel{…}), 17 \streifenleer[0] (Streifen ohne Teilstriche). Sie stehen im Abschnitt des
+Blatts und in einer Tabelle „Bausteine Stufe 6“ unter der Vergleichstabelle, beides nur, wenn ein Blatt einen
+dieser Bausteine trägt; ältere Blätter messen sich byteidentisch wie in v0.3 (geprüft am 28.09.2026 an allen
+22 PDFs unter blaetter/ und am Testlauf 25.09.2026, dort außer Eingabe 3, deren Blätter \swz und \swa tragen).
 
 v0.3 (Auftrag Nacht 2026-09-27, Teil 8): Bausteine der Vorlage Stufe 5 – \swfrage zählt als Teilaufgabe
 (Liste TEILZAEHLER); für Blätter, die \zweigzeile, die Umgebung abhakseite, \abhak, \verzeichniszeile, \verz oder
@@ -156,7 +167,8 @@ KATEGORIEN = ['Streifen', 'Tabelle', 'Skizze', 'Koordinatensystem', 'Balken', 's
 MAKRO_KAT = {m: k for k, ms in DARSTELLUNG.items() for m in ms}
 
 ANTWORTLINIE = ['leerfeld', 'feld', 'feldl', 'dsleer', 'leerzelle', 'punktfeld', 'pfeld']
-TEILZAEHLER = ['teil', 'steil', 'tz', 'stz', 'gl', 'sgl', 'gz', 'gzs', 'swfrage']   # swfrage: Vorlage Stufe 5 (v0.3)
+TEILZAEHLER = ['teil', 'steil', 'tz', 'stz', 'gl', 'sgl', 'gz', 'gzs', 'swfrage',   # swfrage: Vorlage Stufe 5 (v0.3)
+               'swz', 'swa']                                                      # swz, swa: Stufe 5, gezählt seit v0.4
 LISTENMAKROS = ['mnliste', 'nullstellenliste', 'punktprobenliste']
 KOPFMAKROS = ['einheitenkopf', 'einheitskopf', 'blattunter']
 KASTENMARKEN = ('Formelsammlung', 'Auswendig', 'Quelle')
@@ -170,6 +182,16 @@ VERZEICHNIS = ('verzeichniszeile', 'verz')  # \verzeichniszeile mit \verz{label}
 # nicht die Katalognummer und zählt nicht); eine Ich-Form am Anfang (v4.3: „Ich kann …“) wird abgelöst.
 ICH_FORM = re.compile(r'^Ich\s+(?:kann|erkenne|finde|weiß)\s+', re.I)
 KEIN_EINHEITENKOPF = ('Das kann ich',)      # Kopf der Abhakseite
+
+# Vorlage Stufe 6 (v0.4, ../blattbau/Anleitung_mathblatt.md, mathblatt.sty 2026-09-28a): Kennzahl → (Name, Muster)
+STUFE6 = [
+    (13, r'\verfahren', re.compile(r'\\verfahren(?![A-Za-z])')),
+    (14, r'\anweisung', re.compile(r'\\anweisung(?![A-Za-z])')),
+    (15, r'\rechenplatz', re.compile(r'\\rechenplatz(?![A-Za-z])')),
+    (16, 'Umgebung beispiel', re.compile(r'\\begin\{beispiel\}')),
+    (17, r'\streifenleer[0]', re.compile(r'\\streifenleer\s*\[\s*0\s*\]')),
+]
+BEISPIELBLOCK = re.compile(r'\\begin\{beispiel\}.*?\\end\{beispiel\}', re.S)
 
 FUELLWORT = set('''
 aber alle allen aller alles also als am an auch auf aus bei beim beide beiden bis dann
@@ -354,6 +376,8 @@ def zerlege(tex):
 
 
 def teilaufgaben(rumpf):
+    # v0.4: Teilaufgaben im Beispielblock verbrauchen in der Vorlage keinen Buchstaben
+    rumpf = BEISPIELBLOCK.sub(' ', rumpf)
     stand, hoechst = 0, 0
     muster = r'\\(setcounter)\{teil\}\{(\d+)\}|\\(' + '|'.join(TEILZAEHLER + LISTENMAKROS) + r')(?![A-Za-z])'
     for m in re.finditer(muster, rumpf):
@@ -744,7 +768,18 @@ def messe(pdf, ordner, reg, testlauf=None):
     k['nur_blatt0'] = (not any(k.get('gebaut', {}).values())
                        and bool(re.search(r'Blatt 0', tex)))
     k['stufe5'] = stufe5(tex, koepfe)
+    k['stufe6'] = stufe6(tex)
     return k
+
+
+def stufe6(tex):
+    """Bausteine der Vorlage Stufe 6 (v0.4): Zahl je Baustein (Kennzahlen 13–17), dazu die Zeilen aller
+    \\rechenplatz. None, wenn das Blatt keinen davon trägt (dann bleibt die Ausgabe wie in v0.3)."""
+    s6 = {nr: len(muster.findall(tex)) for nr, _, muster in STUFE6}
+    if not any(s6.values()):
+        return None
+    s6['zeilen'] = sum(int(n) for n in re.findall(r'\\rechenplatz(?:\s*\[[^\]]*\])?\s*\{(\d+)\}', tex))
+    return s6
 
 
 def stufe5(tex, koepfe):
@@ -807,12 +842,24 @@ def zusammen(k):
 
 def abschnitt_md(k):
     z = abschnitt_md_basis(k)
-    s5 = k.get('stufe5')
-    if not s5:
+    s5, s6 = k.get('stufe5'), k.get('stufe6')
+    if not s5 and not s6:
         return z
-    # v0.3: Kennzahlen 10–12 nur für Blätter mit Bausteinen der Vorlage Stufe 5 (ältere Blätter unverändert)
     if z and z[-1] == '':
         z = z[:-1]
+    if s5:
+        z = abschnitt_stufe5(k, s5, z)
+    if s6:
+        # v0.4: Kennzahlen 13–17 nur für Blätter mit Bausteinen der Vorlage Stufe 6
+        z.append('13.–17. Bausteine Stufe 6: ' + ' · '.join(
+            f"{nr} {name} {s6[nr]}" + (f" ({s6['zeilen']} Zeilen)" if nr == 15 and s6[nr] else '')
+            for nr, name, _ in STUFE6) + '.')
+    z.append('')
+    return z
+
+
+def abschnitt_stufe5(k, s5, z):
+    # v0.3: Kennzahlen 10–12 nur für Blätter mit Bausteinen der Vorlage Stufe 5 (ältere Blätter unverändert)
     z.append(f"10. Zweigzeilen je Einheitenkopf: Einheitenköpfe {s5['koepfe']} · Zweigzeilen {s5['zweig']}"
              + (f"; Schwach-Teilaufgaben (\\swfrage): {s5['swfrage']}" if s5['swfrage'] else '') + '.')
     z.append(f"11. Abhakseite: {'ja' if s5['abhakseite'] else 'nein'}"
@@ -832,7 +879,6 @@ def abschnitt_md(k):
             z.append('Vermerk: kein Einheitenkopf trifft eine Lerneinheit – Kennzahl 9 zählt gegen alle Einheiten.')
     if s5['weitere']:
         z.append('Weitere Köpfe (keine Einheit): ' + '; '.join(f'„{kp}“' for kp in s5['weitere']) + '.')
-    z.append('')
     return z
 
 
@@ -1008,6 +1054,17 @@ def baue(paare, reg, stand, testlauf=False):
         datei = k['datei'] + ('' if k['hauptnummern'] else ' (Ergebnisse)')
         z.append(f"| {k['thema']} | {k['datum']} | {k['prompt']} | {datei} | {k['seiten']} | {s['hn']} "
                  f"| {s['ta']} | {s['hns']} | {s['tas']} | {s['form']} | {s['letzte']} | {s['ohne']} |")
+    mit6 = [k for k in messungen if k.get('stufe6')]
+    if mit6:
+        # v0.4: nur, wenn ein Blatt Bausteine der Vorlage Stufe 6 trägt (sonst Ausgabe wie in v0.3)
+        z += ['', '## Bausteine Stufe 6 (Kennzahlen 13–17)', '',
+              '| Thema | Datum | Datei | ' + ' | '.join(f'{nr} {name}' for nr, name, _ in STUFE6) + ' |',
+              '|---|---|---|' + '---|' * len(STUFE6)]
+        for k in mit6:
+            s6 = k['stufe6']
+            z.append(f"| {k['thema']} | {k['datum']} | {k['datei']} | "
+                     + ' | '.join(str(s6[nr]) + (f" ({s6['zeilen']} Z.)" if nr == 15 and s6[nr] else '')
+                                  for nr, _, _ in STUFE6) + ' |')
     z += ['', '## Je Blatt', '']
     for k in messungen:
         z += abschnitt_md(k)
