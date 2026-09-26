@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """abitur-abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.25 · 25.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
+Version 0.26 · 28.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb; bis 17.09.2026 abgleich.py – Auftrag F Punkt 2, Familienname wie abitur-typen.csv)
+0.26 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 4): Lauf 25; keine Regel eines früheren Laufs geändert.
 0.25 (Auftrag Nacht 2026-09-27, Teil 10 Punkt 4): Lauf 24; Versionsbindung auf abi-bau.py v0.14 (stand auf v0.12).
 0.24 (Auftrag G, Punkt 1 und 2): eigener Name im Kopf und im Aufrufbeispiel, befund-abi-iqb-typen.md statt abi-iqb-typen.md; Versionsbindung auf den geltenden Stand (stand auf abitur-vokabular.md v1.5, abi-bau.py v0.10, iqb-bau.py v1.7); keine Regel und kein Lauf geändert.
 
@@ -136,6 +137,16 @@ Strecken an einem Körper, Graph in ein Koordinatensystem), vier
 Zusammenziehungen (Fläche aus einem Flächenstück; Scharparameter für einen
 vorgegebenen Flächeninhalt; Stichprobenumfang aus einer vorgegebenen
 Standardabweichung; Scharparameter aus einem Punkt des Graphen), 1349 → 1345.
+Lauf 25 (28.09.2026, nach den Reserve-Stapeln 2017-ea-B (WTR) und 2017-ea-B
+(CAS-Delta)): die drei Vormerkungen von 2017-bb-ea-cas 3.1 c, e, f werden zu
+Verweisen (c „Dublette von:", e und f „Abgewandelt von:" – zusätzliche Ebene F
+im Aufgabenstamm), die WTR-Zeilen 2017-bb-ea 3.1 a–f bekommen ihre fehlenden
+Poolverweise auf AG/LA (A2) CAS 2 (a, b, c, d „Dublette von:", c mit 5 statt
+4 BE; e, f „Abgewandelt von:"); 3.1 b übernimmt den Typ der Poolzeile. Dazu der Abgleich
+der 53 neuen Typen beider Stapel: vier Zusammenziehungen (Extremstelle einer
+Stammfunktion über den Vorzeichenwechsel; zwei linear eingehende Parameter aus
+zwei Punkten; Volumen eines Körpers mit konstantem Querschnitt; Abbildung
+zwischen zwei Graphen), neun Umbenennungen; 1398 → 1393.
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1591,6 +1602,279 @@ def pruefe_24(d):
     return False
 
 
+# ======================================================================= Lauf 25
+# Nach den Reserve-Stapeln 2017-ea-B (WTR, 82 Zeilen) und 2017-ea-B-cas
+# (CAS-Delta, 55 Zeilen), Auftrag Nacht 2026-09-28, Teil 2 Punkt 4; 28.09.2026.
+# (a) Verweise. 3.1 Zelt der Brandenburger Hefte 2017 ist die Poolaufgabe
+# 2017 erhöht Teil B AG/LA (A2) CAS 2 (BE 5 | 4 | 4 | 3 | 4 | 5), am Text
+# geprüft (pdftotext -layout der Hefte 2017-bb-ea, 2017-bb-ea-cas und der
+# Pooldatei). Beide Hefte haben im Stamm vor e den Satz „Dieses Dreieck liegt in
+# der Ebene F: 39y + 25z = 195.“, den der Pool nicht hat. 2017-bb-ea-cas: c
+# wortgleich → „Dublette von:" (die Vormerkung war richtig); e, f bis auf diesen
+# Satz wortgleich → „Abgewandelt von:" (Entscheidung des Auftraggebers: streng
+# wortgleich heißt Dublette, ein zusätzlicher Satz ist eine Abweichung).
+# 2017-bb-ea (WTR-Fassung des Landes, Pool-Abgleich in Lauf 14 nur gegen die
+# WTR-Dateien, daher ohne Vermerk): a, b, d wortgleich mit gleichen BE →
+# „Dublette von:"; c Wortlaut gleich, 5 statt 4 BE → ebenfalls „Dublette von:"
+# mit den BE in bemerkung (abi.md § 7: eine Dublette darf andere BE haben;
+# Entscheidung des Auftraggebers, ersetzt seine erste Vorgabe „Abgewandelt
+# von:"); e nur der Nachweis 2,14 m (3 statt 4 BE), f mit y = 5,98
+# als Angabe → „Abgewandelt von:". Wortgleiche Verweise: typ-Abgleich gegen die
+# Poolzeile (Typ nach den Umbenennungen dieses Laufs), AB-Spalte nach
+# afb_amtlich und als „AB amtlich: X." in bemerkung, Schätzung auf den amtlichen
+# Bereich nachgezogen (Vorrang des Amtlichen, Kern § 5; wie Lauf 23);
+# abgewandelte behalten afb_amtlich leer und ihre Schätzung, „AB amtlich der
+# Poolzeile: X." steht in bemerkung. 2017-bb-ea 3.1 b trägt als einzige Zeile
+# einen anderen Typ als die Poolzeile – „Neigungswinkel einer Ebene gegen eine
+# Koordinatenebene …“ für den Winkel zweier Zeltwände; nach Kern § 6 (gleiche
+# Fertigkeit, gleiches Etikett; das Landesetikett beschreibt die Aufgabe falsch)
+# übernimmt sie den Typ der Poolzeile, typ_neben (Ebenengleichung der
+# Nachbarwand) bleibt als Nebenleistung des Landeshefts. Abbruch bei fehlender
+# Poolzeile oder AB-Spalte, bei unerwartetem Feldanfang, bei einem anderen
+# Typunterschied als dem genannten und wenn nicht genau neun Zeilen angefasst
+# werden.
+# (b) Abgleich der 53 neuen Typen (40 aus 2017-ea-B-wtr, 13 aus
+# 2017-ea-B-cas) gegen alle Typen derselben Leitidee (Wortmenge von Name und
+# Definition, Zeichenfolge des Namens; Kandidaten an gegeben, gesucht und
+# verfahren der Zeilen geprüft), dazu die Etikettenvorschläge der beiden
+# Stapelläufe (iqb-pruefungen.md § 4). Vier Zusammenziehungen – dieselbe
+# Fertigkeit unter mehreren Namen: Extremstelle einer Stammfunktion über den
+# Vorzeichenwechsel des Integranden (Integralfunktion L in 2017-ea-B, „aller
+# Stammfunktionen“ in 2019-ga-B und 2026-bb-gk/-ea – F' = f ist in allen Fällen
+# das Argument); zwei linear eingehende Parameter aus zwei Punkten (a − c · e^(−x²)
+# in 2017-ea-B, a · f(x) + b · x in 2025-ea-A – Einsetzen, lineares
+# Gleichungssystem); Volumen eines Körpers mit konstantem Querschnitt aus der
+# Fläche zwischen Graph und waagerechter Gerade (Mulde 2025-ea-B-mms,
+# Durchfluss 2017-ga-B, Holzkörper 2017-ea-B, Brückenteil 2017-be-gk – die
+# x-Achse ist eine waagerechte Gerade; Vorschlag des WTR-Stapels erweitert);
+# Streckungen aus f2(x) = a · f1(bx) beschreiben ist „Abbildung zwischen zwei
+# Graphen angeben“. Neun Umbenennungen, neutral zur Verwendung (Kern § 6, wie
+# Lauf 24): Tangente an einer Stelle statt im Ursprung (2017-ea-B Punkt
+# (1; p(1))), Strecke statt senkrechte Strecke (Flugbahn), Flächeninhalt des
+# Schattens über eine Querschnittsskizze statt „größeren“ (2017-ea-B fragt den
+# Term), Verteilung nach einem Übergang ohne Pflicht zum Anteil, Unter- oder
+# Überschreiten einer Schranke statt Unterschreiten eines Anteils der
+# Populationsgröße (2017-ea-B 45 000 Tiere, 2021-ga-B Kunden), Lage der
+# Hochpunkte statt Lage zur x-Achse und Höhe (Gläser in 2017-ea-B-cas), maximaler
+# Neigungswinkel ohne Pflicht zum Schrankenvergleich (2017-ga-B, 2017-ea-B-cas),
+# f(t) = f(t − c) ohne Pflicht zur Darstellung im Graphen (Kiellinie in
+# 2017-ea-B-cas), Tangente durch einen vorgegebenen Punkt statt Graphenpunkt.
+# Getrennt gelassen: Extrempunkte einer Schar mit Art ohne gegen mit
+# Fallunterscheidung nach dem Parametervorzeichen (anderer Weg, vom Erfasser
+# bewusst getrennt), Funktionswert an einer Stelle ablesen gegen Stelle zu einem
+# Funktionswert (Umkehraufgabe), Zeitraum der Abnahme berechnen gegen Zunahme
+# begründen, Matrixparameter aus einer Überlebensrate (Produkt zweier Raten)
+# gegen aus einer Komponente nach zwei Schritten (M² · v), Standardabweichung
+# gegen Erwartungswert einer Normalverteilung aus einer Wahrscheinlichkeit
+# (anderer Parameter), Ablehnungsgrenze bei größerem Umfang gegen
+# Entscheidungsregel (zusätzlich α der alten Regel als Niveau), Stumpfer Winkel
+# zweier Seitenflächen gegen Innenwinkel Dach–Wand über den Neigungswinkel
+# (anderer Weg), Punkt mit Abstand zu einem festen Punkt über eine quadratische
+# Gleichung gegen Punkt mit Abstand zum Aufpunkt (normierter Richtungsvektor).
+# Alle Paare im selben Thema, kein Präfix ändert sich.
+ZUSAMMEN_25 = {
+    # Zusammenziehungen
+    "Maximumstelle aller Stammfunktionen über den Vorzeichenwechsel des Integranden begründen":
+        "Extremstelle einer Stammfunktion über den Vorzeichenwechsel des Integranden begründen",
+    "Extremstelle aller Stammfunktionen über den Vorzeichenwechsel der gegebenen Ableitung begründen":
+        "Extremstelle einer Stammfunktion über den Vorzeichenwechsel des Integranden begründen",
+    "Extrempunkt einer Integralfunktion ohne Rechnung über den Vorzeichenwechsel des Integranden begründen":
+        "Extremstelle einer Stammfunktion über den Vorzeichenwechsel des Integranden begründen",
+    "Parameter einer Linearkombination aus Funktion und Gerade aus zwei Punkten bestimmen":
+        "Zwei linear eingehende Parameter eines Funktionsterms aus zwei Punkten bestimmen",
+    "Zwei Parameter einer Exponentialfunktion aus zwei Punktbedingungen über ein lineares Gleichungssystem bestimmen":
+        "Zwei linear eingehende Parameter eines Funktionsterms aus zwei Punkten bestimmen",
+    "Fläche: Wasservolumen in einer Mulde aus Fläche zwischen Wasserlinie und Graph mal Breite berechnen":
+        "Fläche: Volumen eines Körpers mit konstantem Querschnitt aus der Fläche zwischen Graph und waagerechter Gerade berechnen",
+    "Fläche: Volumen eines Körpers mit konstanter Tiefe aus der Fläche zwischen Graph und x-Achse berechnen":
+        "Fläche: Volumen eines Körpers mit konstantem Querschnitt aus der Fläche zwischen Graph und waagerechter Gerade berechnen",
+    "Transformation: Streckungen in x- und y-Richtung aus einer Funktionalgleichung f2(x) = a · f1(bx) beschreiben":
+        "Transformation: Abbildung zwischen zwei Graphen angeben",
+    # Umbenennungen
+    "Tangente im Ursprung als Gerade durch zwei Punkte nachweisen":
+        "Tangente an einer Stelle als Gerade durch zwei Punkte nachweisen",
+    "Gleichung einer senkrechten Strecke mit Parameterbereich im Sachzusammenhang angeben":
+        "Gleichung einer Strecke mit Parameterbereich im Sachzusammenhang angeben",
+    "Ebene Figur: Größeren Flächeninhalt des Schattens eines geneigten Rechtecks bei senkrechtem Lichteinfall begründen":
+        "Ebene Figur: Flächeninhalt des Schattens eines geneigten Rechtecks bei senkrechtem Lichteinfall über eine Querschnittsskizze begründen",
+    "Übergangsprozess: Verteilung nach einem Übergang berechnen und einen Anteil angeben":
+        "Übergangsprozess: Verteilung nach einem Übergang berechnen",
+    "Übergangsprozess: Zeitpunkt für das Unterschreiten eines Anteils der Populationsgröße über einen konstanten Faktor bestimmen":
+        "Übergangsprozess: Zeitpunkt für das Unter- oder Überschreiten einer Schranke über einen konstanten Faktor bestimmen",
+    "Scharparameter den Graphen über Lage zur x-Achse und Höhe der Hochpunkte zuordnen":
+        "Scharparameter den Graphen über die Lage der Hochpunkte zuordnen",
+    "Maximalen Neigungswinkel über die Wendestelle berechnen und mit einer Schranke vergleichen":
+        "Maximalen Neigungswinkel über die Wendestelle berechnen",
+    "Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen und im Graphen darstellen":
+        "Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen",
+    "Berührpunkt einer Tangente durch einen vorgegebenen Graphenpunkt berechnen":
+        "Berührpunkt einer Tangente durch einen vorgegebenen Punkt berechnen",
+}
+NEUE_DEFINITION_25 = {
+    "Extremstelle einer Stammfunktion über den Vorzeichenwechsel des Integranden begründen":
+        "Ohne Stammfunktionsterm begründen, dass eine Stammfunktion an einer Stelle ein Minimum oder Maximum hat, weil "
+        "ihre Ableitung – die gegebene Funktion, der Integrand – dort das Vorzeichen wechselt (Monotonie links und rechts "
+        "der Stelle); gemeint sind alle Stammfunktionen einer Funktion oder eine Integralfunktion, deren Wert an der "
+        "unteren Grenze null ist; eine Nullstelle ohne Vorzeichenwechsel liefert kein Extremum.",
+    "Zwei linear eingehende Parameter eines Funktionsterms aus zwei Punkten bestimmen":
+        "Zwei Parameter, die linear in einen Funktionsterm eingehen (etwa a und b in a · f(x) + b · x oder a und c in "
+        "a − c · e^(−x²)), aus zwei Punkten des Graphen bestimmen: die Punkte einsetzen und das in den Parametern "
+        "lineare Gleichungssystem lösen.",
+    "Fläche: Volumen eines Körpers mit konstantem Querschnitt aus der Fläche zwischen Graph und waagerechter Gerade berechnen":
+        "Die Querschnittsfläche zwischen einem Profilgraphen und einer waagerechten Geraden (x-Achse, Wasserlinie, "
+        "Oberkante; Grenzen gegebenenfalls als Schnittstellen) als bestimmtes Integral berechnen und mit der konstanten "
+        "Tiefe oder Breite zum Volumen multiplizieren – im Sachzusammenhang weiter zu Masse oder Fassungsvermögen in "
+        "Litern, mit einer Fließgeschwindigkeit zur Durchflussrate.",
+    "Transformation: Abbildung zwischen zwei Graphen angeben":
+        "Zu zwei gegebenen Funktionstermen – oder einer Beziehung wie f2(x) = a · f1(bx) – angeben, durch welche "
+        "Spiegelung, Streckung oder Verschiebung der eine Graph aus dem anderen hervorgeht.",
+    "Tangente an einer Stelle als Gerade durch zwei Punkte nachweisen":
+        "Die Tangente an einer Stelle (im Ursprung oder in einem anderen Graphenpunkt) über Ableitung und Funktionswert "
+        "aufstellen oder ihre Steigung mit der Steigung der Geraden vergleichen und zeigen, dass sie mit der Geraden "
+        "durch zwei gegebene Punkte übereinstimmt.",
+    "Gleichung einer Strecke mit Parameterbereich im Sachzusammenhang angeben":
+        "Eine Strecke im Sachzusammenhang (Rohr, Mast, Abschnitt einer Flugbahn) als Gerade mit Stütz- und "
+        "Richtungsvektor und passend eingeschränktem Parameterbereich angeben – senkrecht mit Richtung (0; 0; 1) bis zur "
+        "Grundebene oder schräg zwischen zwei Punkten oder Zeitpunkten.",
+    "Ebene Figur: Flächeninhalt des Schattens eines geneigten Rechtecks bei senkrechtem Lichteinfall über eine Querschnittsskizze begründen":
+        "Mit einer beschrifteten Querschnittsskizze begründen, wie der Schatten eines Rechtecks mit einer waagerechten "
+        "Seite bei senkrecht auffallendem Parallellicht auf der Grundebene entsteht: die waagerechte Seite bleibt gleich "
+        "lang, die geneigte wird zur Hypotenuse verlängert (Länge |AD|/cos φ); gefragt ist, dass der Schatten größer "
+        "ist, oder ein Term für seinen Flächeninhalt.",
+    "Übergangsprozess: Verteilung nach einem Übergang berechnen":
+        "Mit der Übergangsmatrix die Bestände nach einem Schritt berechnen (auch über die feste Gesamtzahl) und, wo "
+        "verlangt, den prozentualen Anteil eines Zustands angeben.",
+    "Übergangsprozess: Zeitpunkt für das Unter- oder Überschreiten einer Schranke über einen konstanten Faktor bestimmen":
+        "Aus einem konstanten Faktor je Schritt (Abnahme oder Wachstum) die Zahl der Schritte oder den Zeitpunkt "
+        "bestimmen, zu dem eine Größe erstmals unter einen Anteil ihres Anfangswerts fällt oder einen vorgegebenen Wert "
+        "erreicht (Exponentialgleichung oder -ungleichung), und das Ergebnis im Sachzusammenhang deuten.",
+    "Scharparameter den Graphen über die Lage der Hochpunkte zuordnen":
+        "Abgebildete Graphen einer Schar vorgegebenen Parameterwerten zuordnen, indem die parameterabhängige Lage der "
+        "Hochpunkte (Koordinaten, Höhe, Lage zur x-Achse) berechnet oder aus früheren Ergebnissen übernommen und mit "
+        "den Graphen verglichen wird.",
+    "Maximalen Neigungswinkel über die Wendestelle berechnen":
+        "Die Stelle größter Steigung als Wendestelle bestimmen, den Steigungswinkel dort über tan α = f'(x) berechnen "
+        "und ihn, wo verlangt, mit einer Schranke vergleichen.",
+    "Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen":
+        "Die Bedingung, dass eine Größe denselben Wert hat wie im Abstand c davor (zeitlich oder räumlich), als "
+        "Gleichung f(t) = f(t − c) ansetzen, numerisch lösen und das Ergebnis verwenden – beide Punkte im Graphen "
+        "markieren oder den gemeinsamen Funktionswert im Sachzusammenhang auswerten.",
+    "Berührpunkt einer Tangente durch einen vorgegebenen Punkt berechnen":
+        "Die Tangente in einem Punkt mit unbekannter Stelle u allgemein aufstellen, einen vorgegebenen Punkt (außerhalb "
+        "des Graphen oder einen anderen Graphenpunkt) einsetzen und die Gleichung nach u lösen; unpassende Lösungen "
+        "ausschließen.",
+}
+POOL_25 = "2017MerhoehtBAGLAA2CAS2-1"
+EBENE_F_25 = ("Im Heftlauf als wortgleich vorgemerkt; der Satz „Dieses Dreieck liegt in der Ebene F: 39y + 25z = 195.“ "
+              "steht nur im Heft, nicht im Pool (Landesheftabgleich beim Stapel 2017-ea-B-cas, am Text geprüft). ")
+VERWEISE_25 = {  # id → (Teilaufgabe der Poolzeile, Unterschied bei abgewandelter Fassung oder None)
+    "2017-bb-ea-B3.1a": ("a", None),
+    "2017-bb-ea-B3.1b": ("b", None),
+    "2017-bb-ea-B3.1c": ("c", None),
+    "2017-bb-ea-B3.1d": ("d", None),
+    "2017-bb-ea-B3.1e": ("e", "das Heft verlangt nur den Nachweis der Länge 2,14 m, nicht die y-Koordinate der äußeren "
+                              "Vordachkante (3 statt 4 BE), und nennt im Aufgabenstamm zusätzlich die Ebene F: 39y + 25z = 195"),
+    "2017-bb-ea-B3.1f": ("f", "das Heft gibt die y-Koordinate 5,98 der äußeren Vordachkante als Hinweis vor (im Pool "
+                              "Kontrollergebnis von e) und nennt im Aufgabenstamm zusätzlich die Ebene F: 39y + 25z = 195; "
+                              "gleiche BE (5)"),
+    "2017-bb-ea-cas-B3.1c": ("c", None),
+    "2017-bb-ea-cas-B3.1e": ("e", "im Aufgabenstamm zusätzlich die Ebene F, für die Lösung nicht nötig"),
+    "2017-bb-ea-cas-B3.1f": ("f", "im Aufgabenstamm zusätzlich die Ebene F, für die Lösung nicht nötig"),
+}
+TYPWECHSEL_25 = {  # einziger erwarteter Typunterschied einer wortgleichen Zeile (alter typ der Landeszeile)
+    "2017-bb-ea-B3.1b": "Neigungswinkel einer Ebene gegen eine Koordinatenebene über die Normalenvektoren berechnen",
+}
+REST_25 = {  # überholter Satz im Vermerk der Vormerkung
+    "2017-bb-ea-cas-B3.1c": ("ihr Stapel 2017-ea-B (CAS-Zweig) ist Reserve und nicht erfasst – offener Posten in der "
+                             "Prüfungsliste (§ 4).",
+                             "ihr Stapel 2017-ea-B (CAS-Zweig) war beim Heftlauf Reserve und nicht erfasst (erfasst am "
+                             "28.09.2026, Verweis seit Lauf 25)."),
+}
+ANDERE_BE_25 = {  # wortgleiche Dublette mit anderer Punktzahl (abi.md § 7: bemerkung nennt die BE)
+    "2017-bb-ea-B3.1c": ("5", "4", "Wortlaut gleich, 5 statt 4 BE – das Heft ist die WTR-Fassung, der Pool die CAS-Fassung"),
+}
+HOECHSTENS_25 = 9
+_PROTOKOLL_25 = []
+
+
+def verweis_25(d):
+    i = d["id"]
+    if i not in VERWEISE_25:
+        return False
+    t, unterschied = VERWEISE_25[i]
+    pid = POOL_25 + t
+    q = poolzeilen_15().get(pid)
+    if q is None:
+        sys.exit(f"{i}: Poolzeile {pid} nicht im iqb-Katalog – Abbruch")
+    ab = AB_15.search(q["bemerkung"])
+    if not ab:
+        sys.exit(f"{i}: Poolzeile {pid} ohne AB-Spalte – Abbruch")
+    b = d["bemerkung"]
+    vormerkung = f"Poolaufgabe (nicht erfasst): {pid}. "
+    if d["papier"] == "2017-bb-ea-cas":
+        if not b.startswith(vormerkung):
+            sys.exit(f"{i}: Vormerkung „{vormerkung.strip()}“ am Anfang von bemerkung erwartet – Abbruch")
+        rest, herkunft = b[len(vormerkung):], "im Heftlauf vorgemerkt"
+    elif d["papier"] == "2017-bb-ea":
+        if b.startswith(("Dublette von", "Poolaufgabe (nicht erfasst", "Abgewandelt von")) or d["afb_amtlich"]:
+            sys.exit(f"{i}: WTR-Zeile trägt schon einen Poolvermerk oder afb_amtlich – Abbruch")
+        rest, herkunft = b, "bisher ohne Vermerk, der Pool-Abgleich in Lauf 14 hatte nur die WTR-Dateien durchsucht"
+    else:
+        sys.exit(f"{i}: unerwartetes Heft {d['papier']} – Abbruch")
+    if i in REST_25:
+        alt, neu = REST_25[i]
+        if rest.count(alt) != 1:
+            sys.exit(f"{i}: überholter Satz nicht genau einmal in bemerkung – Abbruch")
+        rest = rest.replace(alt, neu)
+    typ_pool, typ_alt = neu_name(q["typ"]), d["typ"]
+    if unterschied is None:
+        # wortgleich: geteilter Typ (abi-bau.py), AB-Spalte nach afb_amtlich, Schätzung nach dem amtlichen Bereich
+        be = "gleiche BE"
+        if i in ANDERE_BE_25:
+            heft_be, pool_be, be = ANDERE_BE_25[i]
+            if (d["punkte"], q["punkte"]) != (heft_be, pool_be):
+                sys.exit(f"{i}: BE {d['punkte']}/{q['punkte']} statt erwartet {heft_be}/{pool_be} – Abbruch")
+        elif d["punkte"] != q["punkte"]:
+            sys.exit(f"{i}: als wortgleich geführt, aber {d['punkte']} statt {q['punkte']} BE – Abbruch")
+        typsatz = ""
+        if typ_alt != typ_pool:
+            if TYPWECHSEL_25.get(i) != typ_alt:
+                sys.exit(f"{i}: typ weicht von {pid} ab – nicht umstellbar:\n  abi: {typ_alt}\n  iqb: {typ_pool}")
+            d["typ"] = typ_pool
+            typsatz = (f"Typ in Lauf 25 von „{typ_alt}“ auf den der Poolzeile umgestellt: gefragt ist der Winkel zweier "
+                       f"benachbarter Zeltwände, nicht der Winkel gegen eine Koordinatenebene (Kern § 6, geteilter Typ); "
+                       f"typ_neben bleibt als Nebenleistung des Landeshefts. ")
+        d["bemerkung"] = (f"Dublette von: {pid}. AB amtlich: {ab.group(1)}. Wortgleich mit dem erhöhten Pool 2017, "
+                          f"CAS-Fassung (Teilaufgabe 1 {t}, {be}; Lauf 25, {herkunft}). " + typsatz + rest)
+        d["afb_amtlich"] = ab.group(1)
+        nach = ""
+        if d["niveau_geschaetzt"] != ab.group(1):
+            alt = d["niveau_geschaetzt"]
+            d["niveau_geschaetzt"] = ab.group(1)
+            d["bemerkung"] += (f" Schätzung nach dem amtlichen Bereich der Poolzeile nachgezogen (Lauf 25, Vorrang des "
+                               f"Amtlichen, Kern § 5): {ab.group(1)} statt {alt}.")
+            nach = f"; Schätzung {alt} → {ab.group(1)}"
+        _PROTOKOLL_25.append((i, pid, "Dublette von", ("typ gleich" if not typsatz else f"typ umgestellt von „{typ_alt}“") + nach))
+    else:
+        if d["afb_amtlich"]:
+            sys.exit(f"{i}: abgewandelte Fassung mit afb_amtlich – Abbruch")
+        zusatz = EBENE_F_25 if d["papier"] == "2017-bb-ea-cas" and t in "ef" else ""
+        d["bemerkung"] = f"Abgewandelt von: {pid}; {unterschied}. AB amtlich der Poolzeile: {ab.group(1)}. " + zusatz + rest
+        _PROTOKOLL_25.append((i, pid, "Abgewandelt von",
+                              "typ gleich" if typ_alt == typ_pool else f"typ verschieden (abi: {typ_alt}; iqb: {typ_pool})"))
+    if len(_PROTOKOLL_25) > HOECHSTENS_25:
+        sys.exit(f"Lauf 25 fasst mehr als {HOECHSTENS_25} Zeilen an – Abbruch")
+    return True
+
+
+def zeile_25(d):
+    war = verweis_25(d)
+    neben = [t for t in d["typ_neben"].split("|") if t]
+    if d["typ"] in neben or len(neben) != len(set(neben)):
+        sys.exit(f"{d['id']}: Typ nach Lauf 25 doppelt in typ/typ_neben – Abbruch")
+    return war
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1616,11 +1900,12 @@ LAEUFE = {
     22: ({}, {}, {}, {}),
     23: ({}, {}, {}, {}),
     24: ({}, ZUSAMMEN_24, NEUE_DEFINITION_24, {}),
+    25: ({}, ZUSAMMEN_25, NEUE_DEFINITION_25, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
                  18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)],
-                 23: [("*", zeile_23)], 24: [("*", pruefe_24)]}
+                 23: [("*", zeile_23)], 24: [("*", pruefe_24)], 25: [("*", zeile_25)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -1768,6 +2053,15 @@ def main():
         print(f"\nVerweise geschlossen ({len(_PROTOKOLL_18)} Zeilen, höchstens {HOECHSTENS_18}):")
         for i, pid, art, gleich in _PROTOKOLL_18:
             print(f"  {i} → {pid} [{art}] typ {'gleich' if gleich else 'VERSCHIEDEN'}")
+        rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
+                if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
+        print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+    if LAUF == 25:
+        if len(_PROTOKOLL_25) != HOECHSTENS_25:
+            sys.exit(f"Lauf 25: {len(_PROTOKOLL_25)} statt {HOECHSTENS_25} Zeilen angefasst")
+        print(f"\nVerweise geschlossen und gesetzt ({len(_PROTOKOLL_25)} Zeilen):")
+        for i, pid, art, zusatz in _PROTOKOLL_25:
+            print(f"  {i} → {art}: {pid} [{zusatz}]")
         rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
                 if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
         print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
