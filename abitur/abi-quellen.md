@@ -259,7 +259,7 @@ dem CAS-Delta (Auftrag B, Teil 4):
 | 2017-be-gk.pdf | 17_Ma_GK_Aufgaben.pdf | 8 | ja | 1,4 MB | erfasst 2026-09-27, 33 Zeilen |
 | 2017-be-gk-cas.pdf | 17_Ma_GK_CAS_Aufgaben.pdf | 8 | ja | 1,5 MB | erfasst 2026-09-29 (CAS-Nachtrag, 16 Zeilen) |
 | 2017-be-lk.pdf | 17_Ma_LK_Aufgaben_neu.pdf | 10 | ja | 1,1 MB | nicht erfasst |
-| 2017-be-lk-cas.pdf | 17_Ma_LK_CAS_Aufgaben_neu.pdf | 9 | ja | 1,3 MB | nicht erfasst |
+| 2017-be-lk-cas.pdf | 17_Ma_LK_CAS_Aufgaben_neu.pdf | 9 | ja | 1,3 MB | Nachtrag geprüft 2026-09-29, 0 Zeilen (Verweise auf 2017-bb-ea-cas, abi-pruefungen.md § 4) |
 | 2018-bb-ea.pdf | BB_18_Ma_Aufgaben.pdf | 13 | ja | 2,0 MB | erfasst 2026-09-12, 41 Zeilen |
 | 2018-bb-ea-cas.pdf | BB_18_Ma_CAS_Aufgaben.pdf | 12 | ja | 1,9 MB | erfasst 2026-09-27 (CAS-Nachtrag, 14 Zeilen) |
 | 2018-be-gk.pdf | 18_Ma_GK_Aufgaben.pdf | 11 | ja | 3,1 MB | erfasst 2026-09-12, 36 Zeilen |
