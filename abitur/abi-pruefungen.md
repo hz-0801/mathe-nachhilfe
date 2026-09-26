@@ -27,7 +27,7 @@ in abi-vorgaben.md.
 | 2018 | 2018-be-gk | BE | grundlegend | WTR | 11 | 210 | 80 | **erfasst 2026-09-12, 36 Zeilen** (alle Aufgaben, beide Wahlwege) · Leitfassung grundlegend |
 | 2018 | 2018-be-lk | BE | erhöht | WTR | 11 | 270 | 100 | teilweise abgedeckt · vier Aufgaben gleichlautend in 2018-bb-ea, zwei eigene noch nicht erfasst |
 | 2018 | 2018-bb-ea | BB | erhöht | WTR | 13 | 270 | 100 | **erfasst 2026-09-12, 41 Zeilen** (alle Aufgaben, beide Wahlwege) · Pool: Teil 1 (1.1, 1.2) = 2018 erhöht Teil A (4 „Dublette von:“); 3.1 Museum = 2018 erhöht Teil B AG/LA (A2) CAS 1 – seit Lauf 27 5 „Dublette von:“ (3.1 a–e; c mit 5 statt 4 BE) und 1 „Abgewandelt von:“ (3.1 f; § 4) |
-| 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | zurückgestellt – Nachtrag nach WTR |
+| 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | **erfasst 2026-09-29, 16 Zeilen** (CAS-Nachtrag nach dem Beschluss vom 26.09.2026 Punkt 3, abi-bau.py v0.15: 12 eigene Zeilen für die Arten Werkzeug, Auftrag, Zuschnitt, ganze Aufgabe – 1.1 c, e, f, g; 1.2 a–h –, 3 Landes-Dubletten „Dublette von: <WTR-id>“ – 1.1 b, d nur BE, 3.1 b nur Zahl – und 1 Pool-Dublette – 3.2 a nur Zahl gegenüber dem WTR-Heft, aber wortgleich mit 2018MgrundlegendBStochastikWTR2-1a) mit 86 BE, dazu 34 BE wortgleich übernommen und 40 BE unverändert (2.1, 2.2) – 160 angeboten wie im WTR-Heft · 10 statt 11 Seiten: keine Anlagen (Graphen zu 1.2, Tafel zu 3.2) · WTR 1.1 f ohne eigenes CAS-Gegenstück (in 1.1 f aufgegangen, § 4) |
 | 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | **erfasst 2026-09-27, 14 Zeilen** (CAS-Nachtrag: nur abweichende Teilaufgaben; 4 „CAS:“-Aufgaben – 2.1 Vase, 2.2 Gartenteich, 3.1 Museum, 4.2 Brillenträger) · Zeilen 2.1 c, d, e, f, g, h; 2.2 b, d, e, f, g, i; 3.1 f; 4.2 d mit 77 BE, dazu 73 BE wortgleich übernommen und 35 BE unverändert (Teil 1, 3.2, 4.1) – 185 angeboten wie im WTR-Heft · 12 statt 13 Seiten: die Anlage zu 4.2 (Tafel der summierten Binomialverteilungen) fehlt · 3.1 Museum ist die Poolaufgabe 2018MerhoehtBAGLAA2CAS1: im Heftlauf 1 Vormerkung (3.1 f), seit Lauf 27 (2026-09-29, Stapel 2018-ea-B-cas erfasst) „Abgewandelt von:“ (umformuliert, 6 statt 7 BE; § 4) |
 | 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt; 8 Dubletten und 1 abgewandelter Verweis auf den Pool 2019 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
@@ -71,6 +71,7 @@ Kennzahlenzeile (vor v0.3 erfasst).
 | 2017-bb-ea-cas (CAS-Nachtrag, abi-bau.py v0.14) | 14 | 27 | 1 (4 %) | – (14 Zeilen ohne Maßstab); seit Lauf 25 1 von 1 (3.1 c, geerbt), 13 Zeilen ohne Maßstab | 0 | 0 | 26 von 27 (96 %) | Heft (bb-ea) 0; alle: be-gk 5, be-lk 0, bb-gk 5, bb-ea 0 | 9 Werte, 14 von 14 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | im Heftlauf 3 von 14; 13 von 87 BE der Nachtragszeilen (15 %), alle drei „Poolaufgabe (nicht erfasst)“ auf 2017MerhoehtBAGLAA2CAS2 (3.1 c, e, f); aufs ganze Heft gerechnet 40 von 185 BE (22 %: Teil 1 15 aus dem WTR-Heft, 3.1 Zelt 25); seit Lauf 25 1 von 14; 4 von 87 BE (5 %, 3.1 c „Dublette von:“), abgewandelt 2 Zeilen, 9 BE (3.1 e, f: Ebene F im Stamm) – aufs ganze Heft 31 von 185 BE wortgleich (17 %: Teil 1 15, 3.1 a, b, d über die WTR-Zeilen 12, 3.1 c 4), 9 BE abgewandelt (§ 4) |
 | 2017-be-gk-cas (CAS-Nachtrag, abi-bau.py v0.15) | 16 | 27 | 2 (7 %) | 2 von 2 (100 %), beide geerbt (3.1 e, g); 14 Zeilen ohne Maßstab | 0 | 0 | 21 von 27 (78 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 10 Werte, 16 von 16 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | 2 von 16; 6 von 86 BE der Nachtragszeilen (7 %), beide „Dublette von:“ auf die CAS-Poolfassung (3.1 e, g); die 5 Landes-Dubletten zählen nicht als Pool |
 | 2018-be-gk | 36 | – | – | – | – | – | – | – | – | 11 von 36; 36 von 160 (22 %), seit Lauf 15/16 alle „Dublette von:“ (2018-ga-B erfasst; 3.2 e und f grundlegender Pool); abgewandelt 1 Zeile, 4 BE (3.2 a, „Abgewandelt von:“) |
+| 2018-be-gk-cas (CAS-Nachtrag, abi-bau.py v0.15) | 16 | 23 | 2 (9 %) | 1 von 1 (100 %), geerbt (3.2 a); 15 Zeilen ohne Maßstab | 0 | 0 | 20 von 23 (87 %) | Heft (be-gk) 0; alle: be-gk 0, be-lk 0, bb-gk 0, bb-ea 0 | 9 Werte, 16 von 16 Zeilen im Niveau bekannt (100 %), 0 Werte neu im Gesamtbestand | 1 von 16; 4 von 86 BE der Nachtragszeilen (5 %), „Dublette von:“ 2018MgrundlegendBStochastikWTR2-1a (3.2 a); die 3 Landes-Dubletten zählen nicht als Pool; aufs ganze Heft gerechnet 40 von 160 BE wortgleich im Pool (25 %: 2.2 und 3.2 b–g über die WTR-Zeilen 36, 3.2 a 4; das WTR-Heft 36 von 160) |
 | 2018-bb-ea | 41 | – | – | – | – | – | – | – | – | 4 von 41; 10 von 185 (5 %); seit Lauf 27 9 von 41; 29 von 185 BE (16 %) – dazu 3.1 a–e auf AG/LA (A2) CAS 1 (2018-ea-B-cas erfasst; c mit 5 statt 4 BE); abgewandelt 1 Zeile, 6 BE (3.1 f) |
 | 2018-bb-ea-cas (CAS-Nachtrag, abi-bau.py v0.14) | 14 | 19 | 3 (16 %) | – (14 Zeilen ohne Maßstab) | 0 | 0 | 15 von 19 (79 %) | Heft (bb-ea) 0; alle: be-gk 4, be-lk 0, bb-gk 4, bb-ea 0 | 10 Werte, 13 von 14 Zeilen im Niveau bekannt (93 %), 0 Werte neu im Gesamtbestand | 1 von 14; 6 von 77 BE der Nachtragszeilen (8 %), „Poolaufgabe (nicht erfasst)“ auf 2018MerhoehtBAGLAA2CAS1 (3.1 f; offener Posten, § 4); seit Lauf 27 0 von 14 wortgleich, abgewandelt 1 Zeile, 6 BE (3.1 f „Abgewandelt von:“); aufs ganze Heft gerechnet 35 von 185 BE (19 %: Teil 1 10 aus dem WTR-Heft, 3.1 Museum 25, davon c mit 5 BE abgewandelt) |
 | 2019-be-gk | 45 | 51 | 25 (49 %) | 4 von 4 (100 %) im Heftlauf, alle 4 geerbt; seit Lauf 23 12 von 12 (100 %; acht Teil-B-Dubletten dazu, vier davon auf den amtlichen Bereich nachgezogen); eigene 0 (33 Landeszeilen ohne amtlichen Bereich) | 0 | 0 | 19 von 51 (37 %) | Heft (be-gk) 1; alle: be-gk 1, be-lk 0, bb-gk 1, bb-ea 0 | 35 Werte, 34 von 45 Zeilen im Niveau bekannt (76 %), 1 Wert neu im Gesamtbestand | 12 von 45; 35 von 180 BE (19 %), seit Lauf 23 alle „Dublette von:“ (2019-ga-B erfasst); abgewandelt 2 Zeilen, 7 BE (1.4 c, 3.2 b) |
@@ -2081,6 +2082,65 @@ c (Zahl) – die WTR-Aufgaben 2017-be-lk 1.1, 2.1, 3.1 sind selbst nicht erfasst
 faellig.md (eigene Aufgaben der Berliner LK-Hefte 2017/2018, WTR und CAS).
 Gegenprobe gegen den Befund: 19 abweichend, 9 nur BE, 9 schon Zeile.
 
+**2018-be-gk-cas, CAS-Nachtrag (29.09.2026, Auftrag Nacht 2026-09-29, Teil 4;
+Beschluss vom 26.09.2026 Punkt 3).** Nachtrag zu 2018-be-gk nach derselben
+Regel wie 2017-be-gk-cas. Heft hefte/abi/2018-be-gk-cas.pdf
+(18_Ma_GK_CAS_Aufgaben), 10 Seiten gegen 11 der WTR-Fassung: es fehlen die
+Anlage mit den Graphen zu 1.2 (der Hinweis darauf entfällt im Stamm, Art
+Werkzeug, zu 1.2 a gerechnet) und die Tafel der summierten Binomialverteilung
+zu 3.2; 1.1 steht auf Seite 2–3, 1.2 auf 4–5, 2.1 auf 6, 2.2 auf 7–8, 3.1 auf
+9, 3.2 auf 10. Text mit pdftotext -layout, jede Aufgabenseite gerendert (die
+Abbildung zu 1.1 zeigt zusätzlich K, U und P). **Zeilen:** 16 von 16
+abweichenden Teilaufgaben (Befund: 16, davon nur BE 2), 86 BE. *Eigene Zeilen
+(12):* 1.1 c (Werkzeug + Auftrag: Kontrollergebnis g′ entfällt, dazu die
+mittlere Steigung −0,5 zwischen C und U), 1.1 e (ganze Aufgabe: knickfreie
+geradlinige Fortsetzung in P(110 | g(110)), t(x) = 0,462x − 48,615), 1.1 f
+(Zuschnitt + Auftrag: Flugbahn aus WTR e und Landepunkt aus WTR f, dazu der
+Winkel 15,9° zwischen Flugbahn und Hang in L; Verweis auf WTR e), 1.1 g (Auftrag
++ Werkzeug: Intervall 24,2 ≤ x ≤ 58,4 mit mindestens 5 m Abstand, Hinweis zur
+hinreichenden Bedingung entfällt), 1.2 a (Auftrag: auch x → −∞), 1.2 b
+(Werkzeug + Auftrag: S und T selbst bestimmen, T(−1 | 0), Kontrollangabe f′
+entfällt; neuer Typ), 1.2 c (Werkzeug + Auftrag: Stammfunktion weder gegeben
+noch nachzuweisen, statt A zu berechnen „A > 1/10?“ – nein, A = 4√e − 6,5 ≈
+0,0949), 1.2 d (Werkzeug: Hinweis zur hinreichenden Bedingung entfällt), 1.2 e
+(ganze Aufgabe anstelle von WTR f: kleinste Steigung −e^(−1,5) ≈ −0,2231 und
+Intervall [2,2042; 4,0869] mit f′(x) ≤ −0,2), 1.2 f (Werkzeug: Kontrollangabe
+s(x) = −0,19x + 1,48 kommt dazu; Verweis auf WTR e), 1.2 g (ganze Aufgabe:
+größter vertikaler Abstand von s und f in [2; 6], mit der exakten Sekante
+≈ 0,052 km bei x ≈ 4,39, mit der gerundeten Kontrollangabe ≈ 0,046 km – das Heft
+sagt nicht, welche Gerade gemeint ist; beide Werte in ergebnis), 1.2 h (Auftrag:
+genau eine positive Stelle gleicher Steigung von f und h_W, x ≈ 4,68, Steigung
+≈ −0,177; neuer Nebentyp). *Landes-Dubletten (3):* 1.1 b (nur BE, 4 statt 5),
+1.1 d (nur BE, 3 statt 4), 3.1 b (nur Zahl: „von den übrigen 9 noch mindestens
+vier“ statt „höchstens eins“, P(B) = 0,4 · P(Y ≥ 4) ≈ 0,2070 neu gerechnet).
+*Pool-Dublette (1):* 3.2 a ist gegenüber dem WTR-Heft nur Zahl (B mit 200
+statt 50 Bildschirmen), aber wortgleich mit der Poolaufgabe 2018 grundlegend
+Teil B Stochastik WTR 2, Teilaufgabe 1 a („Bestimmen Sie“ statt „Berechnen Sie“,
+Ereignisse ohne Anführungszeichen) – die Berliner CAS-Fassung übernimmt die
+Poolfassung, die WTR-Fassung des Landes hat B abgewandelt (dort „Abgewandelt
+von:“). Deshalb „Dublette von: 2018MgrundlegendBStochastikWTR2-1a.“ statt des
+Landesverweises (abi.md § 7, Pool-Teilaufgaben in Landesheften, eigene
+Entscheidung im Nachtrag), afb_amtlich I, Schätzung I nach dem amtlichen
+Bereich (die WTR-Zeile schätzt II); Nachtragsvermerk mit „nur Zahl“. Der Befund
+vom 28.09.2026 hatte nur die CAS-Pooldateien 2018 grundlegend gelesen, die
+Aufgabe Bildschirme steht in der WTR-Pooldatei. *Übernommen:* 1.1 a, 3.1 a,
+c–e, 3.2 b–g (34 BE); 2.1 und 2.2 unverändert (40 BE). WTR 1.1 f (Landepunkt
+und Skizze der Flugbahn) hat kein eigenes CAS-Gegenstück, der Landepunkt
+steht in 1.1 f als Nebentyp (Hinweis des Skripts). **Pool:** die fünf
+CAS-Pooldateien 2018 grundlegend (Analysis CAS 1, 2; Stochastik CAS; AG/LA
+CAS 1, 2) enthalten keine Aufgabe des Hefts; Suche nach Skisprung, Höhenprofil
+und Gewinnspiel in allen 98 Pooldateien 2017/2018: kein Treffer. **Typen:** 23
+verwendet, 2 neu („Schnittpunkte zweier Graphen durch Ausklammern eines
+gemeinsamen Faktors berechnen“, 1.2 b; „Einzige Stelle gleicher Steigung zweier
+Graphen mit dem Rechner bestimmen“, Nebentyp 1.2 h). Anderer Haupttyp als die
+WTR-Zeile: 1.1 f (bleibt WTR e), 1.1 g (Intervall über eine Ungleichung, erste
+Leistung), 1.2 b (Schnittpunkte), 1.2 c (Fläche zwischen zwei Graphen statt
+Nachweis der Stammfunktion). **Muster:** wie 2017 – BE rechenlastiger
+Teilaufgaben gesenkt (1.1 b, d), Kontrollangaben gestrichen (g′, f′, F),
+Aufträge zusammengelegt (1.1 f) und neue Rechenaufgaben, die ohne Rechner nicht
+zumutbar wären (1.1 g, 1.2 e, g, h); eine Kontrollangabe kommt dazu (1.2 f).
+Kennzahlen § 2.
+
 **Abgleichlauf 25 – Verweise 3.1 Zelt 2017 (28.09.2026, Auftrag Nacht
 2026-09-28, Teil 2 Punkt 4; abitur-abgleich.py v0.26).** Nach den
 Reserve-Stapeln 2017-ea-B (WTR) und 2017-ea-B-cas (CAS-Delta, iqb-pruefungen.md
@@ -2911,6 +2971,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-29 | Nachtrag 2018-be-gk-cas (Auftrag Nacht 2026-09-29, Teil 4; Beschluss vom 26.09.2026 Punkt 3): 16 Zeilen, 86 BE – 12 eigene Zeilen (1.1 c, e, f, g; 1.2 a–h), 3 Landes-Dubletten (1.1 b, d nur BE; 3.1 b nur Zahl, Ergebnis neu gerechnet), 1 Pool-Dublette (3.2 a „Dublette von: 2018MgrundlegendBStochastikWTR2-1a.“ – wortgleich mit dem Pool, nur gegenüber dem WTR-Heft andere Zahlen; eigene Entscheidung statt Landesverweis, § 4); 34 BE übernommen, 40 BE unverändert, 160 angeboten. abi-bau.py v0.15 unverändert im Modus. Katalog 887 Zeilen aus 21 Heften, Typenliste 1421 (2 neu, § 4). Lauf aus einer frischen Repo-Kopie byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Keine Umbenennung bestehender Typen. |
 | 2026-09-29 | Nachtrag 2017-be-lk-cas geprüft (Auftrag Nacht 2026-09-29, Teil 4; Beschluss vom 26.09.2026 Punkt 3): 0 Zeilen. 9 abweichende Teilaufgaben sind schon Zeilen von 2017-bb-ea-cas (1.2 b, d, g → 2.2 b, d, g; 2.2 c, e, f → 3.1 c, e, f; 3.2 a, b, d → 4.2 a, b, d), Verweisliste in § 4; 10 abweichende Teilaufgaben der eigenen Berliner Aufgaben 1.1, 2.1, 3.1 nicht erfasst (offener Posten). Katalog unverändert. |
 | 2026-09-29 | Nachtrag 2017-be-gk-cas (Auftrag Nacht 2026-09-29, Teil 4; Beschluss vom 26.09.2026 Punkt 3): 16 Zeilen, 86 BE – 11 eigene Zeilen (Werkzeug, Auftrag, Zuschnitt, ganze Aufgabe: 1.1 a, e, f; 1.2 a, b, d, f; 2.2 c; 3.1 e, g; 3.2 d), 5 Landes-Dubletten mit BE-Vermerk (1.1 b, c; 1.2 e; 2.2 d; 3.2 c); 54 BE übernommen, 20 BE unverändert, 160 angeboten. 3.1 e, g „Dublette von:“ auf die CAS-Poolfassung 2017MgrundlegendBStochastikCAS-2c, -2e. abi-bau.py v0.15: „Dublette von: <WTR-id>“ als Landes-Dublette (Prüfung: WTR-Zeile derselben Aufgabe, typ und afb_amtlich gleich, Vermerk „nur BE“/„nur Zahl“, Nachtragsvermerk auf dieselbe Zeile); Selbstprüfung des alten Bestands byteidentisch zu v0.14. Katalog 871 Zeilen aus 20 Heften, Typenliste 1419 (2 neu, § 4). Lauf aus einer frischen Repo-Kopie byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Keine Umbenennung bestehender Typen. |
 | 2026-09-29 | Abgleichlauf 27 (abitur-abgleich.py v0.28; Auftrag Nacht 2026-09-29, Teil 3 Punkt 4) nach dem Delta-Stapel 2018-ea-B-cas (erfasst mit dokumentierter Unterschreitung der Eichschwelle, iqb-pruefungen.md § 4): Verweise 3.1 Museum auf 2018MerhoehtBAGLAA2CAS1 – 2018-bb-ea-cas-B3.1f Vormerkung → „Abgewandelt von: …-1f“ (umformuliert, 6 statt 7 BE); 2018-bb-ea-B3.1a, b, d, e → „Dublette von: …-1a, 1b, 1d, 1e“ (e redaktionell „Gerade durch die Punkte A und G“; afb_amtlich II, I, II, I; Schätzung b und e II → I nachgezogen); 2018-bb-ea-B3.1c → „Dublette von: …-1c“ mit BE-Vermerk (5 statt 4 BE, Kontrollangabe h_EF ≈ 21,21 m nur im Heft; afb_amtlich II, Schätzung II bleibt); 2018-bb-ea-B3.1f → „Abgewandelt von: …-1f“ (Ebenengleichung 2x − 2y − z = −75 vorgegeben, umformuliert, 6 statt 7 BE). Typ gleich in allen sieben Paaren. Offene Vormerkungen 1 → 0. Poolquote 2018-bb-ea 4 → 9 von 41 Zeilen, 10 → 29 von 185 BE (16 %), abgewandelt 1 Zeile, 6 BE; 2018-bb-ea-cas 1 → 0 von 14, abgewandelt 1 Zeile, 6 BE (§ 2). Eichung abi 335 → 340 von 360. Typabgleich (Liste alt → neu mit allen Zeilen in iqb-pruefungen.md § 5): Zusammenziehung „Mindestanzahl von Versuchen für mindestens drei Treffer mit vorgegebener Wahrscheinlichkeit durch Probieren ermitteln“ → „Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k Treffern ermitteln“; Umbenennungen „Kurvenlänge über eine vorgegebene Integralformel berechnen und mit der Länge von Streckenzügen vergleichen“ → „Kurvenlänge über eine vorgegebene Integralformel berechnen“; „Übergangsprozess: Langfristige Entwicklung aus M³ als Vielfachem der Einheitsmatrix durch Fallunterscheidung beschreiben“ → „… Einheitsmatrix beschreiben“; „Übergangsprozess: Jährlichen Wachstumsfaktor aus zwei Zuständen im Abstand mehrerer Schritte nachweisen“ → „Übergangsprozess: Wachstumsfaktor je Schritt aus zwei Zuständen im Abstand mehrerer Schritte nachweisen“; „Übergangsprozess: Vorherige Verteilung über die inverse Matrix berechnen und prozentuale Abnahme einer Komponente angeben“ → „Übergangsprozess: Vorherige Verteilung über die inverse Matrix berechnen“; „Übergangsprozess: Anteil zu entfernender Individuen für einen stationären Zustand berechnen“ → „Übergangsprozess: Anteil oder Anzahl zu entfernender Individuen für einen stationären Zustand berechnen“; „Fläche: Fläche zwischen Graph, x-Achse und waagerechter Gerade aus Rechteck und Integral berechnen“ → „Fläche: Fläche zwischen Graph und waagerechten Geraden aus Rechteck und Integral berechnen“; „Größte und kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen“ → „Größte oder kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen“; „Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren“ → „Funktionsgleichung aus knickfreiem Übergang rekonstruieren“ (im abi-Katalog 2018-be-gk-B1.1e, 2022-bebb-gk-B2.2k); „Körper: Volumen eines Teilkörpers als Differenz zweier Pyramiden berechnen und erläutern“ → „Körper: Volumen eines Teilkörpers als Differenz zweier Pyramiden berechnen“; vier erweiterte Definitionen ohne neuen Namen. Typen 1411 → 1410. Lauf aus einer frischen Repo-Kopie byteidentisch; Selbstprüfung beider Skripte bestanden. |
