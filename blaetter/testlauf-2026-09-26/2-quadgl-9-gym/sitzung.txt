@@ -1,0 +1,11 @@
+Now the entry and the template/manual.
+
+Catalog, template and manual are loaded. Now writing the check script and the zone.
+
+Zone is done. Now unit 1.
+
+Unit 1 passed. Now unit 2.
+
+All four units passed. Now the Abhakseite (generated from the sources so the titles match word for word) and the frame files.
+
+Everything is built and checked. Writing the archive script (it creates protokoll.txt and chat.txt and zips everything in one call).

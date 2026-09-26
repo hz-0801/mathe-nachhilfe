@@ -1,0 +1,22 @@
+Eingabe des Lehrers:
+quadratische gleichungen 9 gymnasium – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · mit Wiederholung, ohne Ausblick (Register führt das Thema; kein Zweig nach Kl. 9) · 4 Zweige · Zone aus 8 Fertigkeiten
+Einheit 1 von 4 · Wurzelziehen und Lösbarkeit: Hier lernst du, Gleichungen mit x², aber ohne x-Glied durch Wurzelziehen zu lösen und zu sagen, wie viele Lösungen sie haben · neu oder schon bekannt – je nach Buch (an der Oberschule je nach Buch Kl. 9 oder 10) · P10 · baut auf: Quadrieren, Wurzelziehen, lineare Gleichungen, Scheitelpunktform
+Einheit 2 von 4 · Satz vom Nullprodukt: Hier lernst du, Gleichungen der Form Produkt gleich null mit dem Satz vom Nullprodukt zu lösen · neu oder schon bekannt – je nach Buch (an der Oberschule erst Kl. 10) · P10 · baut auf: lineare Gleichungen, Ausmultiplizieren und Ausklammern, Einsetzen
+Einheit 3 von 4 · Normalform und p-q-Formel: Hier lernst du, eine quadratische Gleichung in die Normalform zu bringen und mit der p-q-Formel zu lösen · neu in diesem Jahr (an der Oberschule je nach Buch Kl. 9 oder 10) · P10 oft · baut auf: Wurzelziehen (Einheit 1), Ausmultiplizieren und Ordnen (Einheit 2), binomische Formeln
+Einheit 4 von 4 · Sachaufgaben: Hier lernst du, zu Zahlenrätseln und Rechtecken eine quadratische Gleichung aufzustellen, sie zu lösen und die passende Lösung auszuwählen · neu in diesem Jahr (an der Oberschule je nach Buch Kl. 9 oder 10) · keine P10-Aufgabe · baut auf: Einheit 1 bis 3, Gleichungen aufstellen
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort: alle
+
+QuadratischeGlg_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen.
+Antwort: (Testlauf ohne Halt, Bau lief weiter)
+
+QuadratischeGlg_Lernblatt.pdf
+QuadratischeGlg_Gesamt.pdf
+QuadratischeGlg_Loesungen.pdf
+QuadratischeGlg_2026-09-26_protokoll.zip
+1. Abweichungen: ohne Ausblick, weil das Register der Blätter das Thema schon führt (alle Marken liegen ohnehin bei oder vor Kl. 9) · Baustein im Vorspann von Lernblatt und Gesamt: \rechteckrand (Beet mit Weg, Nr. 47 f) · Höhe nach Lehrwerk: Einheit 4 (kein P10-Original, Zielmarke LS-AA Kl. 9 II 6) · Nr. 15, 35, 36 und 40 sind etwa zwei Drittel Seite hoch (unter dem Maß von zwölf Teilaufgaben, daher nicht geteilt), ihre Seiten tragen Restfläche · keine geteilten Hauptnummern, keine Zwischensprossen · Papier der OS-Originale als „FOR“ angenommen · Kopfzeile der Zone zeigt „Kennst du schon“ doppelt (Blattname und Kurzform der Vorlage) · kein Weiter-Stempel (Testlauf ohne Halt)
+2. Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen (8 Fertigkeiten; 7 Erkennungsschritte als Nr. 12, 13, 24, 32, 33, 34, 45), Sprossen, Typische Fehler, Prüfungsform und Zielmarke; nicht gebraucht Merkkasten, Grundvorstellung, Verortung · Befunde: der Erkennungsschritt „Zwei, eine oder keine?“ braucht den Fall rechts null, x² = 0 ist aber Kastengleichung (ausgewichen auf 5x² = 0); die Prüfungshöhe von Einheit 1 (2021-OS-K7c) enthält „Gleichung ohne Lösung angeben“, das die Kette davor als eigene Sprosse führt (hier verfremdet als „rechte Seite ändern“); der Typ „Quadrat mit Rand (Vorrat)“ hat keine Sprosse in der Kette (in Nr. 47 f als Beet mit Weg gebaut); Einheit 3 führt vier Originale, das Blatt trägt je Hauptnummer eine Prüfungshöhe (2020-OS-K3e in Nr. 29, 2023-OS-K4c in Nr. 41, 2022-OS-K3c in Nr. 44; 2025-OS-K5c und 2017-OS-K5d nicht verwendet); der Eintrag nennt für die OS-Originale kein Papierkürzel · Spannen: Einheit 1 und 2 GYM Kl. 8–9 → „neu oder schon bekannt – je nach Buch“; Oberschul-Zusatz bei Einheit 1, 3, 4 „je nach Buch Kl. 9 oder 10“, bei Einheit 2 „erst Kl. 10“
+4. Protokoll-Archiv: QuadratischeGlg_2026-09-26_protokoll.zip

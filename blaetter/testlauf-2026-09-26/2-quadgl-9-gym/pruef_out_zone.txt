@@ -1,0 +1,58 @@
+Nummer	Skriptwert	Blattwert	Ergebnis
+1a	49	49	OK
+1b	144	144	OK
+1c	81	81	OK
+1d	0.36	0.36	OK
+1e	12	12	OK
+2a	20	20	OK
+2b	6	6	OK
+2c	-8	-8	OK
+2d	28	28	OK
+2e	11	11	OK
+3a	(wA)	(wA)	OK
+3b	(fA)	(fA)	OK
+3c	(wA)	(wA)	OK
+3d	(wA)	(wA)	OK
+3e	(fA)	(fA)	OK
+4	(wA)	(wA)	OK
+5a	(wA)	(wA)	OK
+5b	(fA)	(fA)	OK
+4 linke Seite	10	10	OK
+5a linke Seite	8	8	OK
+5b linke Seite	10	10	OK
+6a	[5]	[5]	OK
+6b	[7]	[7]	OK
+6c	[-8]	[-8]	OK
+6d	[-7]	[-7]	OK
+6e	[3.5]	[3.5]	OK
+6f	[-5]	[-5]	OK
+7a	7	7	OK
+7b	10	10	OK
+7c	13	13	OK
+7d	0.5	0.5	OK
+7f	5	5	OK
+7g	2.6458	2.65	OK
+7h	3.6742	3.67	OK
+7e	gibt es nicht	gibt es nicht	OK
+8a	[2; 1; oben]	[2; 1; oben]	OK
+8b	[3; 0; oben]	[3; 0; oben]	OK
+8c	[-0; -4; oben]	[0; -4; oben]	OK
+8d	[-1; -5; oben]	[-1; -5; oben]	OK
+8e	[2; 3; unten]	[2; 3; unten]	OK
+9a	x**2 + 4*x	x**2 + 4*x	OK
+9b	3*x**2 - 6*x	3*x**2 - 6*x	OK
+9c	x**2 + 10*x + 25	x**2 + 10*x + 25	OK
+9d	x**2 - 6*x + 9	x**2 - 6*x + 9	OK
+9e	x**2 - 4*x - 12	x**2 - 4*x - 12	OK
+10a	x**2 + 9*x	x**2 + 9*x	OK
+10b	x**2 - 4*x	x**2 - 4*x	OK
+10c	3*x**2 + 12*x	3*x**2 + 12*x	OK
+10d	x**2 - x	x**2 - x	OK
+11a	x**2 + 2*x + 3	x**2 + 2*x + 3	OK
+11b	x**2 + 5*x - 1	x**2 + 5*x - 1	OK
+11c	x**2 + x + 7	x**2 + x + 7	OK
+11d	x**2 - 2*x - 3	x**2 - 2*x - 3	OK
+11e	x**2 + x - 6	x**2 + x - 6	OK
+11f	x**2 - x - 4	x**2 - x - 4	OK
+Sperrliste	43 Einträge geprüft	0 Treffer	OK
+Abweichungen: 0

@@ -1,0 +1,41 @@
+Nummer	Skriptwert	Blattwert	Ergebnis
+24a	ja	ja	OK
+24b	nein	nein	OK
+24c	ja	ja	OK
+24d	nein	nein	OK
+24e	nein	nein	OK
+24f	ja	ja	OK
+25a	[2; 5]	[2; 5]	OK
+25b	[1; 4]	[1; 4]	OK
+25c	[3; 6]	[6; 3]	OK
+25d	[2; 7]	[7; 2]	OK
+25e	[-4; 1]	[-4; 1]	OK
+25f	[-6; 0]	[0; -6]	OK
+25g	[3]	[3]	OK
+26a	(wA)	(wA)	OK
+26b	(fA)	(fA)	OK
+26c	(wA)	(wA)	OK
+26d	(fA)	(fA)	OK
+26e	(wA)	(wA)	OK
+26f	[-2]	[-2]	OK
+27a	[-4; 0]	[0; -4]	OK
+27b	[-5; 0]	[0; -5]	OK
+27c	[-2; 0]	[0; -2]	OK
+27d	[0; 6]	[0; 6]	OK
+27e	[0; 3]	[0; 3]	OK
+28a	x**2 + 3*x - 10	x**2 + 3*x - 10	OK
+28b	x**2 - 4*x + 3	x**2 - 4*x + 3	OK
+28c	x**2 - x - 6	x**2 - x - 6	OK
+29a Produktform	x**2 + 5*x + 6	x**2 + 5*x + 6	OK
+29a	[-3; -2]	[-2; -3]	OK
+29b Produktform	x**2 - 2*x - 8	x**2 - 2*x - 8	OK
+29b	[-2; 4]	[4; -2]	OK
+29c Produktform	4*x**2 - 4*x - 24	4*x**2 - 4*x - 24	OK
+29c	[-2; 3]	[3; -2]	OK
+30a	[0; 6]	[0; 6]	OK
+30b	[-5; 2]	[-5; 2]	OK
+30c Normalform	x**2 + x - 12	x**2 + x - 12	OK
+30c	[-4; 3]	[3; -4]	OK
+31b	[0; 3]	[0; 3]	OK
+Sperrliste	43 Einträge geprüft	0 Treffer	OK
+Abweichungen: 0

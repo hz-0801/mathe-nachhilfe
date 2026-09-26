@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% Baustein im Vorspann (fehlt in der Anleitung): Rechteck mit Rand, für Sachaufgaben „Beet mit Weg"
+% #1 Breite innen, #2 Länge innen, #3 Randbreite (cm), #4 Label Breite, #5 Label Länge, #6 Text im Rand
+\newcommand{\rechteckrand}[6]{%
+\begin{tikzpicture}
+\fill[gray!18] (0,0) rectangle ({#2+2*#3},{#1+2*#3});
+\fill[white] (#3,#3) rectangle ({#2+#3},{#1+#3});
+\draw[thick] (0,0) rectangle ({#2+2*#3},{#1+2*#3});
+\draw[thick] (#3,#3) rectangle ({#2+#3},{#1+#3});
+\node[above] at ({#3+#2/2},#3) {$#5$};
+\node[right] at (#3,{#3+#1/2}) {$#4$};
+\node at ({#3+#2/2},{#1+1.5*#3}) {\small #6};
+\end{tikzpicture}}
+\begin{document}
+\blattkopf{Quadratische Gleichungen}{Gesamt}
+\weit
+\verzeichniszeile{\verz{zone}{Kennst du schon (Nr. 1–11)} \verztrenn \verz{e1}{1 Wurzelziehen und Lösbarkeit (Nr. 12–23)} \verztrenn \verz{e2}{2 Satz vom Nullprodukt (Nr. 24–31)} \verztrenn \verz{e3}{3 Normalform und p-q-Formel (Nr. 32–44)} \verztrenn \verz{e4}{4 Sachaufgaben (Nr. 45–49)} \verztrenn \verz{abhaken}{Das kann ich}}
+\input{zone_a}
+\clearpage
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{e4_a}
+\input{abhaken}
+\end{document}

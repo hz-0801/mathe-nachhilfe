@@ -1,0 +1,27 @@
+Nummer	Skriptwert	Blattwert	Ergebnis
+45a	x1	x1	OK
+45b	x2	x2	OK
+45c	x1	x1	OK
+45d	beide	beide	OK
+45e	x2	x2	OK
+46a	[-10; 10]	[10; -10]	OK
+46b	[-11; 11]	[11; -11]	OK
+46c	[-6; 6]	[6; -6]	OK
+46d	[-9; 9]	[9; -9]	OK
+46e	[-8; 8]	[8; -8]	OK
+46f	[-8; 7]	[7; -8]	OK
+47b	[-8; 5]	[5; -8]	OK
+47f	[-14; 6]	[6; -14]	OK
+48a	[-8; 6]	[6; -8]	OK
+48b falsch	[3.5]	[3.5]	OK
+48b richtig	[-8; 3]	[3; -8]	OK
+46f Nachfolger	[[-8; -7]; [7; 8]]	[[-8; -7]; [7; 8]]	OK
+47b Normalform	x**2 + 3*x - 40	x**2 + 3*x - 40	OK
+47d Länge	8	8	OK
+47e Probe	40	40	OK
+47f Normalform	x**2 + 8*x - 84	x**2 + 8*x - 84	OK
+47f Länge	10	10	OK
+47f Probe	96	96	OK
+48b Länge	8	8	OK
+Sperrliste	43 Einträge geprüft	0 Treffer	OK
+Abweichungen: 0
