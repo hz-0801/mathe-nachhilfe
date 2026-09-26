@@ -6,6 +6,9 @@ Bauweise: Ersatzweg – je Eingabe ein Sub-Agent (Typ general-purpose, model opu
 Modell: Auftragssitzung Claude Opus 5.5 (claude-opus-5-5); Blattsitzungen Sub-Agent mit model opus
 Werkzeuge: xelatex (MiKTeX-XeTeX 4.16, MiKTeX 25.12), pdftotext, pdfinfo, pdftoppm unter %LocalAppData%\Programs\MiKTeX\miktex\bin\x64; Python 3.12.10 unter %LocalAppData%\Programs\Python\Python312 (sympy 1.14.0, pypdf 6.19.0 per pip --target im Scratchpad); curl 8.21.0
 Katalog: live von raw.githubusercontent.com (origin/main 68a6401; lokal ein Commit voraus, ohne Änderung an katalog/ und blaetter/index.md)
+Reihenfolge: nacheinander, je Eingabe ein Sub-Agent erst nach Ablage und Commit der vorigen; Start und Ende aus Get-Date beim Start bzw. bei der Ablage (Ende = Ablage, nicht Sitzungsende). Der Lauf ging über Mitternacht; Ordner- und Dateinamen tragen das Startdatum.
+
+Abschluss: Teil 0–4 erledigt; alle zehn Eingaben fertig im ersten Anlauf, keine offen. Kennzahlen (kennzahlen.md), Lesezettel (lesezettel.md), Bericht (../../bericht-testlauf-2026-09-26.md). Auftrag nach archiv/auftrag-testlauf-2026-09-26.md verschoben.
 
 ## Eingaben
 

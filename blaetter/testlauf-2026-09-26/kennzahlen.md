@@ -1073,13 +1073,13 @@ Erzeugt von `werkzeuge/testlauf-pruefung.py` (Lesarten im Skriptkopf). Quelltext
 | Eingabe | Datei | a) \rechenplatz | a) beispiel (Soll 0) | b) Seite „Inhalt“ (Soll nein) | b) \verzeichniszeile (Soll ja) | c) Nummern durchlaufend (Soll ja) | c) „Z1“ (Soll nein) | d) \verfahren | d) \anweisung | e) Nachbau (Soll 0) | f) „→“ (Soll ja) | g) zeiten.txt (Soll ja) | h) P10-Marken / mit Papier |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1-quadgl-9-os | QuadratischeGlg_Gesamt.pdf | 10 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–11, 1–55 im Text) | nein | 12 | 11 | 0 | ja | ja | 8 / 8 |
-| 2-quadgl-9-gym | QuadratischeGlg_Gesamt.pdf | 13 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–11, 1–49 im Text) | nein | 11 | 7 | 0 | ja | ja | 7 / 7 |
+| 2-quadgl-9-gym | QuadratischeGlg_Gesamt.pdf | 13 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–11, 1–49 im Text) | nein | 11 | 7 | 0 | ja | nein (fehlt: weiter) | 7 / 7 |
 | 3-prozent-7-schwach | Prozentrechnung_Gesamt.pdf | 3 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–11, 1–54 im Text) | nein | 18 | 4 | 0 | ja | ja | 5 / 5 |
 | 4-linfkt-8-neu | LinFkt_Gesamt.pdf | 6 | 0 | nein | Gesamt ja · Lernblatt ja | ja (keine Zone, 1–53 im Text) | nein | 22 | 2 | 0 | ja | ja | 16 / 16 |
 | 5-kreis-8-ausblick | Kreis_Gesamt.pdf | 0 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–9, 1–43 im Text) | nein | 9 | 14 | 0 | ja | ja | 3 / 3 |
 | 6-daten-7 | Daten_Gesamt.pdf | 1 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–11, 1–37 im Text) | nein | 5 | 9 | 0 | ja | ja | 5 / 5 |
 | 7-nullstellen-fokus | QuadratischeFkt_Fokus_Nullstellen.pdf | 2 | 0 | nein | Fokus nein | ja (Zone 1–5, 1–19 im Text) | nein | 2 | 4 | 0 | ja | ja | 3 / 3 |
-| 8-potenz-10 | PotenzUndExponentialFkt_Gesamt.pdf | 0 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–12, 1–69 im Text) | nein | 9 | 14 | 0 | ja | ja | 11 / 11 |
+| 8-potenz-10 | PotenzUndExponentialFkt_Gesamt.pdf | 0 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–12, 1–69 im Text) | nein | 9 | 14 | 0 | ja | nein (fehlt: e 1) | 11 / 11 |
 | 9-kurven-12-be | Kurvenuntersuchung_Gesamt.pdf | 0 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–8, 1–44 im Text) | nein | 10 | 29 | 0 | ja | ja | 0 / 0 |
 | 10-ka-terme-8-gym | TermeBinomischeFormeln_Gesamt.pdf | 10 | 0 | nein | Gesamt ja · Lernblatt ja | ja (Zone 1–9, 1–48 im Text) | nein | 8 | 45 | 0 | ja | ja | 3 / 3 |
 
@@ -1094,7 +1094,7 @@ Erzeugt von `werkzeuge/testlauf-pruefung.py` (Lesarten im Skriptkopf). Quelltext
 - 7-nullstellen-fokus: Deutungszeile „→ Fokus Nullstellen · ohne Klasse, Marken absolut“; eigene Definitionen: keine; P10-Marken: (P10 2017 OS), (P10 2020 OS), (P10 2025 OS).
 - 8-potenz-10: Deutungszeile „→ Lernblatt · Kl. 10 Oberschule, Gymnasium als Zusatz · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 10 · 5 Zweige · Zone aus 8 Fertigkeiten“; eigene Definitionen: PotenzUndExponentialFkt_Gesamt.tex: \newcommand leeresgitter; PotenzUndExponentialFkt_Lernblatt.tex: \newcommand leeresgitter; P10-Marken: (P10 2018 OS), (P10 2026 FOR), (P10 2017 OS), (P10 2025 OS), (P10 2016 OS), (P10 2017 OS), (P10 2019 OS), (P10 2025 OS), (P10 2018 OS), (P10 2016 OS), (P10 2020 OS).
 - 9-kurven-12-be: Deutungszeile „→ Lernblatt · Q3/Q4 in Berlin, Zeitmarken ab Q1 · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 12 · 5 Zweige · Zone aus 6 Fertigkeiten“; eigene Definitionen: Kurvenuntersuchung_Gesamt.tex: \newcommand zonekurz; Kurvenuntersuchung_KennstDuSchon.tex: \newcommand zonekurz; Kurvenuntersuchung_Lernblatt.tex: \newcommand zonekurz; Kurvenuntersuchung_Loesungen.tex: \newcommand zonekurz; P10-Marken: keine.
-- 10-ka-terme-8-gym: Deutungszeile „→ Lernblatt · Einträge terme.md und binomische-formeln.md · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 8 · 5 Zweige · Terme Einheit 1 und 2 (GYM Kl. 6–7) in der Zone · Zone aus 7 Fertigkeiten und dem Fehler-finden-Paar“; eigene Definitionen: keine; P10-Marken: (P10 2022 GYM), (P10 2017 OS), (P10 2019 GYM).
+- 10-ka-terme-8-gym: Deutungszeile „→ Lernblatt · Einträge terme.md und binomische-formeln.md · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 8 · 5 Zweige · Terme Einheit 1 und 2 (GYM Kl. 6–7) in der Zone · Zone aus 7 Fertigkeiten und dem Fehler-finden-Paar“; eigene Definitionen: gesamt.tex: \newcommand flaechenbild; lernblatt.tex: \newcommand flaechenbild; P10-Marken: (P10 2022 GYM), (P10 2017 OS), (P10 2019 GYM).
 
 ## Vergleich v4.3 gegen v4.4
 

@@ -24,12 +24,15 @@ Rahmendatei mit allen \input, ohne Kommentare):
     vorkommt; die Zone ist der Bereich „Kennst du schon (Nr. a–b)“ der Verzeichniszeile oder
     beim Fokus die Nummern vor dem Zweigkopf. „Z1“: jedes „Z1“ als eigenes Wort im PDF-Text.
  d) Zahl `\verfahren`; Zahl `\anweisung`.
- e) In den Rahmen- und Einheitsdateien (die .tex der übergebenen PDFs, zone_*, e<n>_*, abhaken,
+ e) In den Rahmen- und Einheitsdateien (die .tex der übergebenen PDFs, auch klein geschrieben als
+    gesamt.tex, lernblatt.tex, loesungen.tex, kennstduschon.tex, zone.tex; zone_*, e<n>_*, abhaken,
     fokus*): `\newcommand`, `\def`, `\newenvironment`, deren Name in ../blattbau/
     Anleitung_mathblatt.md als Makro (`\name`) oder Umgebung (`\begin{name}`) vorkommt. Eigene
     Definitionen mit anderem Namen stehen darunter als Auskunft.
  f) chat.txt: die erste Zeile, die mit „→“, „Lernblatt ·“ oder „Fokus “ beginnt, beginnt mit „→“.
- g) zeiten.txt: jedes Stempelwort genau einmal, kein „e<n>“ ohne Leerzeichen.
+ g) zeiten.txt: jedes Stempelwort genau einmal, kein „e<n>“ ohne Leerzeichen; keines der Stempelworte
+    des Prompts (6.3) fehlt: t0, zone und weiter (nur mit Zone), „e n“ je Zweigkopf im PDF, lernblatt,
+    gesamt, loesungen; beim Fokus t0 und fokus.
  h) PDF-Text (Zeilenumbrüche zu Leerzeichen): Klammern „(P10 JJJJ …)“, davon mit FOR, EBR, OS
     oder GYM als erstem Wort nach dem Jahr.
 Vergleich: links Seiten, Hauptnummern, Teilaufgaben aus der Vergleichstabelle von
@@ -82,10 +85,11 @@ def zaehle(tex, name):
 
 
 def rahmendateien(o):
-    pdfs = {p.stem for p in o.glob('*.pdf') if re.search(r'_(KennstDuSchon|Lernblatt|Gesamt|Loesungen|Fokus)', p.name)}
+    pdfs = {p.stem.lower() for p in o.glob('*.pdf') if re.search(r'_(KennstDuSchon|Lernblatt|Gesamt|Loesungen|Fokus)', p.name)}
     for p in sorted(o.glob('*.tex')):
-        s = p.stem
-        if s in pdfs or re.match(r'(zone|e\d+)_[al]$', s) or s == 'abhaken' or s.lower().startswith('fokus'):
+        s = p.stem.lower()
+        if (s in pdfs or s in ('gesamt', 'lernblatt', 'loesungen', 'kennstduschon', 'zone')
+                or re.match(r'(zone|e\d+)_[al]$', s) or s == 'abhaken' or s.startswith('fokus')):
             yield p
 
 
@@ -198,7 +202,15 @@ def pruefe_blatt(pdf, o, t, namen):
     zaehlung = collections.Counter(w for w, _ in s)
     doppelt = [w for w, n in zaehlung.items() if n > 1]
     ohne = [w for w in zaehlung if re.fullmatch(r'e\d+', w)]
-    fehler = ([f"doppelt: {', '.join(doppelt)}"] if doppelt else []) + ([f"ohne Leerzeichen: {', '.join(ohne)}"] if ohne else [])
+    if fokus:
+        soll = ['t0', 'fokus']
+    else:
+        mit_zone = zone_txt != 'keine Zone'
+        soll = (['t0'] + (['zone', 'weiter'] if mit_zone else [])
+                + [f"e {k['nr']}" for k in koepfe] + ['lernblatt', 'gesamt', 'loesungen'])
+    fehlt = [w for w in soll if w not in zaehlung]
+    fehler = ([f"doppelt: {', '.join(doppelt)}"] if doppelt else []) + ([f"ohne Leerzeichen: {', '.join(ohne)}"] if ohne else []) \
+        + ([f"fehlt: {', '.join(fehlt)}"] if fehlt else [])
     r['zeiten'] = ('ja' if s and not fehler else 'nein') + (f" ({'; '.join(fehler)})" if fehler else '') \
         + ('' if s else ' (zeiten.txt fehlt oder leer)')
     # h

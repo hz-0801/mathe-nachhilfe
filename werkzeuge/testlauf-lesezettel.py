@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-r"""testlauf-lesezettel.py – Lesezettel eines Testlaufs des Unterrichtsblatt-Prompts (v0.1, 25.09.2026)
+r"""testlauf-lesezettel.py – Lesezettel eines Testlaufs des Unterrichtsblatt-Prompts (v0.2, 26.09.2026)
+
+v0.2: unter „Worauf beim Gegenlesen achten“ zusätzlich die Prüfpunkte a)–h) aus
+werkzeuge/testlauf-pruefung.py, die ihr Soll verfehlen („v4.4-Prüfpunkt:“), sonst eine Zeile, dass
+alle Soll erfüllt sind (Auftrag Testlauf 2026-09-26, Teil 4 Schritt 1); ein Komma vor „weil“
+trennt in der Spalte „prüft“ kein Stück ab.
 
 Auftrag: archiv/auftrag-testlauf-<datum>.md, Teil 4 Schritt 1. Schreibt
 blaetter/testlauf-<datum>/lesezettel.md: je Eingabe der CSV werkzeuge/testlauf-eingaben.csv
@@ -14,7 +19,8 @@ Je Abschnitt:
                  „Fokus “ beginnt, bis vor die erste Zeile, die einen anderen Teil des Chats
                  eröffnet (Planfrage, Antwort, Zone, Rückfragen, Dateien, Ausgabeblock).
   Ausgabeblock   wortgleich aus chat.txt: nach der Überschrift „Ausgabeblock:“ (samt dem, was auf
-                 derselben Zeile dahinter steht; fehlt sie: ab der ersten Zeile „1. “) bis vor
+                 derselben Zeile dahinter steht; fehlt sie: ab der ersten Zeile „1. “, fehlt auch die:
+                 ab der Zeile nach der letzten Zeile, die nur ein Dateiname .pdf/.zip ist, seit v0.2) bis vor
                  „Übergebene Dateien“/„Dateien:“ oder zum Ende.
   PDFs           die Übergabedateien nach dem Namensschema des Prompts (4.5) mit Pfad relativ
                  zum Lesezettel; die Zwischenkompilate der Sitzung in einer Zeile dahinter.
@@ -47,6 +53,30 @@ def lade(name, datei):
 BP = lade('blatt_pruef', 'blatt-pruef.py')
 TM = lade('testlauf_messen', 'testlauf-messen.py')
 TA = lade('testlauf_ablage', 'testlauf-ablage.py')
+TP = lade('testlauf_pruefung', 'testlauf-pruefung.py')
+NAMEN = TP.anleitung_namen()
+
+
+def soll_verfehlt(r, fokus):
+    """Prüfpunkte a)–h) (testlauf-pruefung.py), die ihr Soll verfehlen."""
+    z = []
+    if r['beispiel']:
+        z.append(f"a) Umgebung beispiel {r['beispiel']}-mal (Soll 0)")
+    if r['inhalt'] != 'nein':
+        z.append('b) Seite „Inhalt“ vorhanden (Soll nein)')
+    if not fokus and 'nein' in r['verz']:
+        z.append(f"b) \\verzeichniszeile: {r['verz']} (Soll ja)")
+    if not r['nummern'].startswith('ja'):
+        z.append(f"c) Nummern: {r['nummern']} (Soll ja)")
+    if r['z1'] != 'nein':
+        z.append('c) „Z1“ kommt vor (Soll nein)')
+    if not r['nachbau'].startswith('0'):
+        z.append(f"e) Bausteine der Vorlage nachgebaut: {r['nachbau']} (Soll 0)")
+    if r['pfeil'] != 'ja':
+        z.append(f"f) Deutungszeile ohne „→“: {r['pfeil']} (Soll ja)")
+    if not r['zeiten'].startswith('ja'):
+        z.append(f"g) zeiten.txt: {r['zeiten']} (Soll ja)")
+    return z
 
 DEUTUNG = re.compile(r'^\s*(→|Lernblatt ·|Fokus )')
 STOPP = re.compile(r'^\s*(Planfrage|Alle Zweige, oder welche|Schüler ist|Gemeint ist|Antwort|Zweite Antwort|'
@@ -83,6 +113,10 @@ def ausgabeblock(zeilen):
     else:
         i = next((k for k, z in enumerate(zeilen) if re.match(r'^1\. ', z)), None)
     if i is None:
+        # v0.2: ohne Überschrift und Nummern der Block unter der letzten reinen Dateizeile (v4.4)
+        dateien = [k for k, z in enumerate(zeilen) if re.match(r'^\s*\S+\.(pdf|zip)\s*$', z)]
+        i = dateien[-1] + 1 if dateien else None
+    if i is None:
         return None
     j = next((k for k in range(i, len(zeilen)) if AUSGABE_ENDE.match(zeilen[k])), len(zeilen))
     return schneide(erste + zeilen[i:j], 0, len(erste) + j - i)
@@ -101,7 +135,7 @@ def stuecke(text):
             zitat = True
         elif c in '“"' and zitat:
             zitat = False
-        if not tiefe and not zitat and text[k:k + 2] in (', ', '; '):
+        if not tiefe and not zitat and text[k:k + 2] in (', ', '; ') and not text[k + 2:].startswith('weil '):
             teile.append(akt.strip())
             akt = ''
             k += 2
@@ -181,6 +215,12 @@ def abschnitt(ordner, zeile):
             if kein:
                 zeile_t += '; ohne jeden Treffer: ' + '; '.join(f"E{t[1]} {t[3]}" for t in kein)
             z.append(zeile_t + '.')
+        r, _, _, _ = TP.pruefe_blatt(pdf, oo, tl, NAMEN)
+        verfehlt = soll_verfehlt(r, 'fokus' in pdf.name.lower())
+        for v in verfehlt:
+            z.append(f'- v4.4-Prüfpunkt: {pdf.name} – {v}.')
+        if not verfehlt:
+            z.append(f'- v4.4-Prüfpunkte: {pdf.name} – a)–g) erfüllen ihr Soll.')
     aufrufe = TA.werkzeugaufrufe(o / 'protokoll.txt')
     if aufrufe and aufrufe > 60:
         z.append(f'- Messung: {aufrufe} Werkzeugaufrufe laut protokoll.txt (Zählgrenze 60).')
