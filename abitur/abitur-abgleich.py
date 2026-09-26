@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """abitur-abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.27 · 29.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
+Version 0.28 · 29.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.10 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb; bis 17.09.2026 abgleich.py – Auftrag F Punkt 2, Familienname wie abitur-typen.csv)
+0.28 (Auftrag Nacht 2026-09-29, Teil 3 Punkt 4): Lauf 27; Versionsbindung auf iqb-bau.py v1.10; keine Regel eines früheren Laufs geändert.
 0.27 (Auftrag Nacht 2026-09-29, Teil 2 Punkt 2): Lauf 26; keine Regel eines früheren Laufs geändert.
 0.26 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 4): Lauf 25; keine Regel eines früheren Laufs geändert.
 0.25 (Auftrag Nacht 2026-09-27, Teil 10 Punkt 4): Lauf 24; Versionsbindung auf abi-bau.py v0.14 (stand auf v0.12).
@@ -153,6 +154,17 @@ Feldkorrektur niveau_geschaetzt in sechs Zeilen – fünf Poolzeilen „Mindesta
 oder Mindestumfang für eine Mindestwahrscheinlichkeit“ von II auf III (amtlich
 III), die wortgleiche Landeszeile 2024-bebb-lk-B4c zieht nach; Typen unverändert
 (1393).
+Lauf 27 (29.09.2026, nach dem Delta-Stapel 2018-ea-B-cas, erfasst mit
+dokumentierter Unterschreitung der Eichschwelle): die Vormerkung 2018-bb-ea-cas
+3.1 f wird „Abgewandelt von:" (umformuliert, 6 statt 7 BE), die WTR-Zeilen
+2018-bb-ea 3.1 a–f bekommen ihre fehlenden Poolverweise auf AG/LA (A2) CAS 1
+(a, b, d, e „Dublette von:", c „Dublette von:" mit 5 statt 4 BE und der
+Kontrollangabe des Hefts, f „Abgewandelt von:" mit vorgegebener Ebenengleichung);
+Schätzungen der Dubletten nach dem amtlichen Bereich nachgezogen. Dazu der Abgleich
+der 18 neuen Typen: keine Zusammenziehung eines neuen Typs, eine Zusammenziehung
+zweier vorhandener Etiketten derselben Fertigkeit (Mindestumfang für eine
+Mindestwahrscheinlichkeit), neun Umbenennungen neutral zur Verwendung, vier
+erweiterte Definitionen; 1411 → 1410.
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1923,6 +1935,247 @@ def zeile_26(d):
     return True
 
 
+# ======================================================================= Lauf 27
+# Nach dem Delta-Stapel 2018-ea-B-cas (85 Zeilen, erfasst mit dokumentierter
+# Unterschreitung der Eichschwelle, iqb-bau.py v1.10), Auftrag Nacht 2026-09-29,
+# Teil 3 Punkt 4; 29.09.2026.
+# (a) Verweise. 3.1 Museum der Brandenburger Hefte 2018 ist die Poolaufgabe 2018
+# erhöht Teil B AG/LA (A2) CAS 1 (BE 4 | 3 | 4 | 4 | 3 | 7), am Text geprüft
+# (pdftotext -layout der Hefte 2018-bb-ea, 2018-bb-ea-cas und der Pooldatei, dazu die
+# Seitenbilder). Beide Hefte schreiben im Stamm „Das Dreieck ABC liegt in der
+# x-y-Ebene.“ statt „Die Ebene, in der das Dreieck ABC liegt, beschreibt die
+# Horizontale.“ (redaktionell, A und B haben z = 0). 2018-bb-ea (WTR-Fassung des
+# Landes, bisher ohne Vermerk, weil der Pool-Abgleich in Lauf 14 nur die WTR-Dateien
+# durchsucht hat): a, b, d wortgleich, e bis auf „Gerade durch die Punkte A und G“
+# statt „Gerade AG“ (redaktionell) → „Dublette von:“; c Auftrag gleich („auf der
+# Seite“ statt „zur Seite“), 5 statt 4 BE und im Heft die Kontrollangabe
+# h_EF ≈ 21,21 m, die im Pool fehlt → ebenfalls „Dublette von:“ mit BE-Vermerk
+# (abi.md § 7; Auftrag Teil 3 Punkt 4, wie 2017-bb-ea 3.1 c in Lauf 25); f
+# umformuliert, mit vorgegebener Ebenengleichung 2x − 2y − z = −75 und 6 statt 7 BE
+# → „Abgewandelt von:“. 2018-bb-ea-cas 3.1 f (die Vormerkung): Angaben und Auftrag
+# gleich (Ebene EFG selbst aufzustellen), Wortlaut umformuliert, 6 statt 7 BE →
+# „Abgewandelt von:“ (Landesheftabgleich im Arbeitsstand; ein Heft, das umformuliert
+# und andere BE hat, ist nicht streng wortgleich). Wortgleiche Verweise wie Lauf 25:
+# typ-Abgleich gegen die Poolzeile, AB-Spalte nach afb_amtlich und als „AB amtlich:
+# X." in bemerkung, Schätzung auf den amtlichen Bereich nachgezogen (Vorrang des
+# Amtlichen, Kern § 5); abgewandelte behalten afb_amtlich leer und ihre Schätzung,
+# „AB amtlich der Poolzeile: X." steht in bemerkung. Abbruch bei fehlender Poolzeile
+# oder AB-Spalte, bei unerwartetem Feldanfang, bei einem Typunterschied einer
+# wortgleichen Zeile und wenn nicht genau sieben Zeilen angefasst werden.
+# (b) Abgleich der 18 neuen Typen des Stapels gegen alle Typen desselben Themas
+# (Wortmenge von Name und Definition; Kandidaten an gegeben, gesucht und verfahren
+# geprüft) und der vom Stapel wiederverwendeten Etiketten, die die Zeilen-Agenten als
+# nicht passend gemeldet haben. Keine Zusammenziehung eines neuen Typs – die nächsten
+# Nachbarn haben einen anderen Weg oder Gegenstand (Integral der Geschwindigkeit nur
+# deuten gegen Integral einer Rate berechnen und deuten; Anzahl der Nullstellen aus
+# Grenzverhalten und Tiefpunkt gegen aus der faktorisierten Form; Aussage aus
+# absoluten Anzahlen gegen Vergleich über die Anzahl gleich wahrscheinlicher
+# Ergebnisse). Eine Zusammenziehung zweier vorhandener Etiketten derselben Fertigkeit
+# (Kern § 6): „Mindestanzahl von Versuchen für mindestens drei Treffer …“ (2018-ea-B
+# WTR 1 1 b) ist „Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k
+# Treffern ermitteln“ (P(Y >= 3) = P(Y > 2), Probieren am Rechner; im Stapel CAS 1 1 b
+# und CAS 2 1 b). Neun Umbenennungen, neutral zur Verwendung (wie Lauf 24 und 25): der
+# Name trug eine Einzelheit der ersten Aufgabe, die die neue Zeile nicht hat –
+# Kurvenlänge ohne Pflicht zum Streckenzugvergleich, Langfristige Entwicklung aus M³
+# ohne Pflicht zur Fallunterscheidung, Wachstumsfaktor je Schritt statt jährlich,
+# vorherige Verteilung über die Inverse ohne Pflicht zur prozentualen Abnahme, Anteil
+# oder Anzahl zu entfernender Individuen, Fläche zwischen Graph und waagerechten
+# Geraden (die x-Achse ist eine), größte oder kleinste Rate, Funktionsgleichung aus
+# knickfreiem Übergang ohne Pflicht zu einer weiteren Wertbedingung, Volumen eines
+# Teilkörpers als Differenz zweier Pyramiden ohne Pflicht zum Erläutern. Vier
+# erweiterte Definitionen ohne neuen Namen (Halbierungsgerade auch mit dem Rechner;
+# mehrere Unbekannte in A · v = k · v; Sektorwinkel mit drei Farben und mehrstufigem
+# Ergebnis; Gleichungssystem vor einem Übergang, wo verlangt, lösen). Alle Paare im
+# selben Thema, kein Präfix ändert sich.
+ZUSAMMEN_27 = {
+    # Zusammenziehung
+    "Mindestanzahl von Versuchen für mindestens drei Treffer mit vorgegebener Wahrscheinlichkeit durch Probieren ermitteln":
+        "Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k Treffern ermitteln",
+    # Umbenennungen
+    "Kurvenlänge über eine vorgegebene Integralformel berechnen und mit der Länge von Streckenzügen vergleichen":
+        "Kurvenlänge über eine vorgegebene Integralformel berechnen",
+    "Übergangsprozess: Langfristige Entwicklung aus M³ als Vielfachem der Einheitsmatrix durch Fallunterscheidung beschreiben":
+        "Übergangsprozess: Langfristige Entwicklung aus M³ als Vielfachem der Einheitsmatrix beschreiben",
+    "Übergangsprozess: Jährlichen Wachstumsfaktor aus zwei Zuständen im Abstand mehrerer Schritte nachweisen":
+        "Übergangsprozess: Wachstumsfaktor je Schritt aus zwei Zuständen im Abstand mehrerer Schritte nachweisen",
+    "Übergangsprozess: Vorherige Verteilung über die inverse Matrix berechnen und prozentuale Abnahme einer Komponente angeben":
+        "Übergangsprozess: Vorherige Verteilung über die inverse Matrix berechnen",
+    "Übergangsprozess: Anteil zu entfernender Individuen für einen stationären Zustand berechnen":
+        "Übergangsprozess: Anteil oder Anzahl zu entfernender Individuen für einen stationären Zustand berechnen",
+    "Fläche: Fläche zwischen Graph, x-Achse und waagerechter Gerade aus Rechteck und Integral berechnen":
+        "Fläche: Fläche zwischen Graph und waagerechten Geraden aus Rechteck und Integral berechnen",
+    "Größte und kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen":
+        "Größte oder kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen",
+    "Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren":
+        "Funktionsgleichung aus knickfreiem Übergang rekonstruieren",
+    "Körper: Volumen eines Teilkörpers als Differenz zweier Pyramiden berechnen und erläutern":
+        "Körper: Volumen eines Teilkörpers als Differenz zweier Pyramiden berechnen",
+}
+NEUE_DEFINITION_27 = {
+    "Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k Treffern ermitteln":
+        "Den kleinsten Stichprobenumfang oder die kleinste Anzahl von Versuchen n ermitteln, für den P(X > k) – "
+        "gleichwertig P(X >= k + 1), etwa mindestens drei oder mindestens 100 Treffer – eine vorgegebene Schranke "
+        "erreicht, durch Probieren am Rechner an den in Frage kommenden Werten von n.",
+    "Kurvenlänge über eine vorgegebene Integralformel berechnen":
+        "Die Länge eines Graphenstücks mit der vorgegebenen Formel ∫ √(1 + (f'(x))^2) dx numerisch berechnen – auch "
+        "abschnittsweise für eine zusammengesetzte Bahn, zu der senkrechte Strecken addiert werden – und, wo verlangt, "
+        "begründen, dass sie größer ist als die Länge jedes einbeschriebenen Streckenzugs.",
+    "Übergangsprozess: Langfristige Entwicklung aus M³ als Vielfachem der Einheitsmatrix beschreiben":
+        "Eine Gleichung M^n = c · E (auch für eine abgewandelte Matrix erst nachzurechnen) im Sachzusammenhang deuten – "
+        "alle Anzahlen ändern sich je n Schritte mit dem Faktor c – und daraus die langfristige Entwicklung beschreiben; "
+        "kommt ein Parameter vor, nach ihm unterscheiden (c < 1, c = 1, c > 1).",
+    "Übergangsprozess: Wachstumsfaktor je Schritt aus zwei Zuständen im Abstand mehrerer Schritte nachweisen":
+        "Aus zwei Zustandsvektoren im Abstand von n Schritten (Jahren, Wochen) nachweisen, dass die Komponenten mit "
+        "einem gemeinsamen Faktor je Schritt wachsen – den Faktor hoch n mit dem ersten Vektor multiplizieren und mit "
+        "dem zweiten vergleichen oder die Quotienten der Komponenten bilden und die n-te Wurzel ziehen.",
+    "Übergangsprozess: Vorherige Verteilung über die inverse Matrix berechnen":
+        "Mit der gegebenen oder am Rechner bestimmten inversen Übergangsmatrix die Verteilung des vorigen Schritts "
+        "berechnen und, wo verlangt, die prozentuale Abnahme einer Komponente oder die prozentualen Anteile angeben.",
+    "Übergangsprozess: Anteil oder Anzahl zu entfernender Individuen für einen stationären Zustand berechnen":
+        "Den Anteil oder die Anzahl bestimmen, um den eine Komponente bei jedem Übergang verringert werden muss, damit "
+        "der Zustand gleich bleibt: Gleichungssystem aufstellen (etwa J · (S; P') = (S; P) oder L · v − (0; 0; a) = v) "
+        "und P'/P bzw. a berechnen.",
+    "Fläche: Fläche zwischen Graph und waagerechten Geraden aus Rechteck und Integral berechnen":
+        "Den Inhalt einer Fläche, die ein Graph mit einer oder zwei waagerechten Geraden (x-Achse, Fahrbahn, Oberkante) "
+        "einschließt, berechnen, indem sie in ein Rechteck und Flächenstücke unter dem Graphen zerlegt wird (Symmetrie, "
+        "Betrag des Integrals, Schnittstellen als Grenzen).",
+    "Größte oder kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen":
+        "Auf einem abgeschlossenen Zeitintervall die größte oder die kleinste momentane Änderungsrate (oder beide) über "
+        "die Nullstellen der Ableitung der Ratenfunktion und die Randwerte bestimmen.",
+    "Funktionsgleichung aus knickfreiem Übergang rekonstruieren":
+        "Aus der Forderung, dass zwei Graphen an einer Stelle ohne Knick ineinander übergehen (gleicher Funktionswert, "
+        "gleicher Anstieg), und, wo nötig, einer weiteren Wertbedingung die Parameter einer Ansatzfunktion "
+        "(quadratisch, mit zwei Parametern wie a · x⁴ + b · x² oder gebrochenrational) über ein Gleichungssystem "
+        "bestimmen.",
+    "Körper: Volumen eines Teilkörpers als Differenz zweier Pyramiden berechnen":
+        "Das Volumen eines Teilkörpers (durch eine Ebene abgeschnittenes Stück eines Quaders, Pyramidenstumpf) als "
+        "Differenz einer großen Pyramide und einer kleineren Ergänzungspyramide berechnen und, wo verlangt, den Ansatz "
+        "erläutern oder mit der Dichte zur Masse weiterrechnen.",
+    # erweiterte Definitionen ohne neuen Namen
+    "Fläche: Senkrechte Gerade zur Halbierung einer Fläche über den Flächenterm bestimmen":
+        "Die senkrechte Gerade x = a bestimmen, die eine Fläche halbiert, indem der Flächenterm in der Grenze gleich "
+        "der halben Gesamtfläche gesetzt wird (Exponentialgleichung mit Logarithmus oder Gleichung mit dem Rechner).",
+    "Matrizenalgebra: Parameter eines Vektors aus einer Matrix-Vektor-Gleichung bestimmen":
+        "Aus einer Gleichung A · v = k · v den unbekannten Eintrag des Vektors – oder mehrere, zusammen mit dem Faktor "
+        "k – über geeignete Komponenten bestimmen.",
+    "Laplace-Experiment: Sektorwinkel eines Glücksrads aus einer Wahrscheinlichkeitsbedingung berechnen":
+        "Die Sektorwahrscheinlichkeiten eines Glücksrads (zwei oder drei Farben, als Vielfache einer Unbekannten) aus "
+        "einer Bedingung an ein mehrstufiges Ergebnis über eine Gleichung in der Unbekannten bestimmen, unpassende "
+        "Lösungen über die Sachbedingung ausschließen und in den Mittelpunktswinkel umrechnen.",
+    "Übergangsprozess: Gleichungssystem für die Verteilung vor einem Übergang aufstellen":
+        "Aus M · v = w mit bekannter Verteilung w nach dem Übergang das lineare Gleichungssystem für die unbekannte "
+        "Verteilung v davor angeben und, wo verlangt, lösen.",
+}
+POOL_27 = "2018MerhoehtBAGLAA2CAS1-1"
+VERWEISE_27 = {  # id → (Teilaufgabe der Poolzeile, Unterschied bei abgewandelter Fassung oder None)
+    "2018-bb-ea-B3.1a": ("a", None),
+    "2018-bb-ea-B3.1b": ("b", None),
+    "2018-bb-ea-B3.1c": ("c", None),
+    "2018-bb-ea-B3.1d": ("d", None),
+    "2018-bb-ea-B3.1e": ("e", None),
+    "2018-bb-ea-B3.1f": ("f", "das Heft gibt die Gleichung 2x − 2y − z = −75 der Ebene EFG vor (im Pool ist sie selbst "
+                              "aufzustellen, Nebentyp der Poolzeile), formuliert den Auftrag um (der Scheinwerfer lässt "
+                              "sich verschieben, er soll die Wand beleuchten) und hat 6 statt 7 BE"),
+    "2018-bb-ea-cas-B3.1f": ("f", "Angaben und Auftrag gleich (die Ebene EFG ist wie im Pool selbst aufzustellen), "
+                                  "Wortlaut umformuliert (der Scheinwerfer lässt sich entlang der Stange verschieben, er "
+                                  "soll die Wand beleuchten), 6 statt 7 BE"),
+}
+ANDERE_BE_27 = {  # Dublette mit anderer Punktzahl (abi.md § 7: bemerkung nennt die BE)
+    "2018-bb-ea-B3.1c": ("5", "4", "Auftrag gleich („auf der Seite“ statt „zur Seite“), 5 statt 4 BE; das Heft nennt "
+                                   "zusätzlich die Kontrollangabe h_EF ≈ 21,21 m, die im Pool fehlt – das Heft ist die "
+                                   "WTR-Fassung, der Pool die CAS-Fassung"),
+}
+REDAKTIONELL_27 = {  # redaktionelle Abweichung einer wortgleich geführten Teilaufgabe (Vermerk in bemerkung)
+    "2018-bb-ea-B3.1e": "im Heft „Gerade durch die Punkte A und G“ statt „Gerade AG“, redaktionell",
+}
+REST_27 = {  # überholter Satz im Vermerk der Vormerkung
+    "2018-bb-ea-cas-B3.1f": ("Ihr Stapel 2018-ea-B (CAS-Zweig) ist Reserve und nicht erfasst – offener Posten in der "
+                             "Prüfungsliste (§ 4).",
+                             "Ihr Stapel 2018-ea-B (CAS-Zweig) war beim Heftlauf Reserve und nicht erfasst (erfasst am "
+                             "29.09.2026, Verweis seit Lauf 27)."),
+}
+HOECHSTENS_27 = 7
+_PROTOKOLL_27 = []
+
+
+def verweis_27(d):
+    i = d["id"]
+    if i not in VERWEISE_27:
+        return False
+    t, unterschied = VERWEISE_27[i]
+    pid = POOL_27 + t
+    q = poolzeilen_15().get(pid)
+    if q is None:
+        sys.exit(f"{i}: Poolzeile {pid} nicht im iqb-Katalog – Abbruch")
+    ab = AB_15.search(q["bemerkung"])
+    if not ab:
+        sys.exit(f"{i}: Poolzeile {pid} ohne AB-Spalte – Abbruch")
+    b = d["bemerkung"]
+    vormerkung = f"Poolaufgabe (nicht erfasst): {pid}. "
+    if d["papier"] == "2018-bb-ea-cas":
+        if not b.startswith(vormerkung):
+            sys.exit(f"{i}: Vormerkung „{vormerkung.strip()}“ am Anfang von bemerkung erwartet – Abbruch")
+        rest, herkunft = b[len(vormerkung):], "im Heftlauf vorgemerkt"
+    elif d["papier"] == "2018-bb-ea":
+        if b.startswith(("Dublette von", "Poolaufgabe (nicht erfasst", "Abgewandelt von")) or d["afb_amtlich"]:
+            sys.exit(f"{i}: WTR-Zeile trägt schon einen Poolvermerk oder afb_amtlich – Abbruch")
+        rest, herkunft = b, "bisher ohne Vermerk, der Pool-Abgleich in Lauf 14 hatte nur die WTR-Dateien durchsucht"
+    else:
+        sys.exit(f"{i}: unerwartetes Heft {d['papier']} – Abbruch")
+    if i in REST_27:
+        alt, neu = REST_27[i]
+        if rest.count(alt) != 1:
+            sys.exit(f"{i}: überholter Satz nicht genau einmal in bemerkung – Abbruch")
+        rest = rest.replace(alt, neu)
+    typ_pool, typ_alt = neu_name(q["typ"]), d["typ"]
+    if unterschied is None:
+        # wortgleich: geteilter Typ (abi-bau.py), AB-Spalte nach afb_amtlich, Schätzung nach dem amtlichen Bereich
+        be = "gleiche BE"
+        if i in ANDERE_BE_27:
+            heft_be, pool_be, be = ANDERE_BE_27[i]
+            if (d["punkte"], q["punkte"]) != (heft_be, pool_be):
+                sys.exit(f"{i}: BE {d['punkte']}/{q['punkte']} statt erwartet {heft_be}/{pool_be} – Abbruch")
+        elif d["punkte"] != q["punkte"]:
+            sys.exit(f"{i}: als wortgleich geführt, aber {d['punkte']} statt {q['punkte']} BE – Abbruch")
+        if i in REDAKTIONELL_27:
+            be += "; " + REDAKTIONELL_27[i]
+        if typ_alt != typ_pool:
+            sys.exit(f"{i}: typ weicht von {pid} ab – nicht umstellbar:\n  abi: {typ_alt}\n  iqb: {typ_pool}")
+        lead = "Auftrag gleich wie im" if i in ANDERE_BE_27 else "Wortgleich mit dem"
+        d["bemerkung"] = (f"Dublette von: {pid}. AB amtlich: {ab.group(1)}. {lead} erhöhten Pool 2018, "
+                          f"CAS-Fassung (Teilaufgabe 1 {t}, {be}; im Aufgabenstamm „x-y-Ebene“ statt „Horizontale“, "
+                          f"redaktionell; Lauf 27, {herkunft}). " + rest)
+        d["afb_amtlich"] = ab.group(1)
+        nach = ""
+        if d["niveau_geschaetzt"] != ab.group(1):
+            alt = d["niveau_geschaetzt"]
+            d["niveau_geschaetzt"] = ab.group(1)
+            d["bemerkung"] += (f" Schätzung nach dem amtlichen Bereich der Poolzeile nachgezogen (Lauf 27, Vorrang des "
+                               f"Amtlichen, Kern § 5): {ab.group(1)} statt {alt}.")
+            nach = f"; Schätzung {alt} → {ab.group(1)}"
+        _PROTOKOLL_27.append((i, pid, "Dublette von", "typ gleich; AB " + ab.group(1)
+                              + (f"; {d['punkte']} statt {q['punkte']} BE" if i in ANDERE_BE_27 else "") + nach))
+    else:
+        if d["afb_amtlich"]:
+            sys.exit(f"{i}: abgewandelte Fassung mit afb_amtlich – Abbruch")
+        d["bemerkung"] = (f"Abgewandelt von: {pid}; {unterschied}. AB amtlich der Poolzeile: {ab.group(1)}. "
+                          f"Verweis seit Lauf 27 ({herkunft}). " + rest)
+        _PROTOKOLL_27.append((i, pid, "Abgewandelt von",
+                              ("typ gleich" if typ_alt == typ_pool else f"typ verschieden (abi: {typ_alt}; iqb: {typ_pool})")
+                              + f"; AB der Poolzeile {ab.group(1)}, Schätzung {d['niveau_geschaetzt']} bleibt"))
+    if len(_PROTOKOLL_27) > HOECHSTENS_27:
+        sys.exit(f"Lauf 27 fasst mehr als {HOECHSTENS_27} Zeilen an – Abbruch")
+    return True
+
+
+def zeile_27(d):
+    war = verweis_27(d)
+    neben = [t for t in d["typ_neben"].split("|") if t]
+    if d["typ"] in neben or len(neben) != len(set(neben)):
+        sys.exit(f"{d['id']}: Typ nach Lauf 27 doppelt in typ/typ_neben – Abbruch")
+    return war
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1950,11 +2203,13 @@ LAEUFE = {
     24: ({}, ZUSAMMEN_24, NEUE_DEFINITION_24, {}),
     25: ({}, ZUSAMMEN_25, NEUE_DEFINITION_25, {}),
     26: ({}, {}, {}, {}),
+    27: ({}, ZUSAMMEN_27, NEUE_DEFINITION_27, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
                  18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)],
-                 23: [("*", zeile_23)], 24: [("*", pruefe_24)], 25: [("*", zeile_25)], 26: [("*", zeile_26)]}
+                 23: [("*", zeile_23)], 24: [("*", pruefe_24)], 25: [("*", zeile_25)], 26: [("*", zeile_26)],
+                 27: [("*", zeile_27)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -2105,6 +2360,17 @@ def main():
         rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
                 if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
         print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+    if LAUF == 27:
+        if len(_PROTOKOLL_27) != HOECHSTENS_27:
+            sys.exit(f"Lauf 27: {len(_PROTOKOLL_27)} statt {HOECHSTENS_27} Zeilen angefasst")
+        print(f"\nVerweise geschlossen und gesetzt ({len(_PROTOKOLL_27)} Zeilen):")
+        for i, pid, art, zusatz in _PROTOKOLL_27:
+            print(f"  {i} → {art}: {pid} [{zusatz}]")
+        rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
+                if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
+        print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+        nur_def = [n for n in NEUE_DEFINITION_27 if n not in ZUSAMMEN_27.values()]
+        print("Erweiterte Definitionen ohne neuen Namen:", "; ".join(nur_def))
     if LAUF == 26:
         fehlt = sorted(set(KORREKTUR_26) - {i for i, _, _ in _PROTOKOLL_26})
         if fehlt:

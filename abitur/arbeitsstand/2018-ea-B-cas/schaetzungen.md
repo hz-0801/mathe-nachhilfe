@@ -1,5 +1,9 @@
 # Blinde Schätzungen 2018-ea-B-cas (vor Erwartungshorizont und Standardbezug)
 
+Erfasst am 29.09.2026 (Auftrag Nacht 2026-09-29, Teil 3) mit dem geprüften Stand dieser Datei und Deutungsliste (f) an
+Stochastik CAS 1 1b und CAS 2 1b: 69 von 85, dokumentierte Unterschreitung der Eichschwelle (iqb-bau.py v1.10,
+EICHUNG_UNTERSCHRITTEN; iqb-pruefungen.md § 4); Verweise der Landeshefte per abitur-abgleich.py Lauf 27.
+
 ## Ergebnis (nach dem Lesen der Standardbezüge; Rechnung eichung.py mit eichung() aus abitur/iqb-bau.py)
 Erster vollständiger Stand (alle 85 Zeilen, blind): 57 von 85 (67,1 %) – eigene 55 von 82 (blind 54 von 81, dazu
 Stochastik CAS 1 2 c nicht blind), aus der WTR-Zeile übernommene 2 von 3. Nach Prüfung der 28 Abweichungen zehn
