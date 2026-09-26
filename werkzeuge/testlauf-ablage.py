@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-r"""testlauf-ablage.py – Ergebnis einer Blattsitzung im Testlaufordner ablegen (v0.1, 25.09.2026)
+r"""testlauf-ablage.py – Ergebnis einer Blattsitzung im Testlaufordner ablegen (v0.2, 26.09.2026)
 
 Auftrag: archiv/auftrag-testlauf-<datum>.md, Teil 2 Schritt 2–3 und 5.
 
-  python werkzeuge/testlauf-ablage.py <arbeitsordner der sitzung> <blaetter/testlauf-<datum>/<nr>-<kurzname>>
+  python werkzeuge/testlauf-ablage.py <arbeitsordner der sitzung> <blaetter/testlauf-<datum>/<nr>-<kurzname>> [<version>]
+
+<version> ist die Prompt-Version des Laufs (Zeile 1 von unterrichtsblatt.md, etwa „v4.4“);
+ohne Angabe v4.3 wie im Lauf vom 25.09.2026 (v0.2: Version als Argument statt fest).
 
 Kopiert alle PDFs aus dem Arbeitsordner in den Zielordner und entpackt dort das
 Protokoll-Archiv (*_protokoll.zip; Unterordner des Archivs bleiben erhalten). Das Zip selbst
@@ -14,7 +17,7 @@ werden nicht übernommen. sitzung.txt schreibt die Auftragssitzung selbst.
 
 Danach die Prüfung aus Teil 2 Schritt 3 und die Zählung aus Schritt 5, auf der Konsole:
   PDF Gesamt/Fokus   mindestens ein PDF mit „Gesamt“ oder „Fokus“ im Namen
-  Prompt-Zeile       protokoll.txt enthält die Zeile „Prompt: Unterrichtsblatt-Prompt v4.3“
+  Prompt-Zeile       protokoll.txt enthält die Zeile „Prompt: Unterrichtsblatt-Prompt <version>“
   Werkzeugaufrufe    höchste Schrittnummer im Abschnitt „Werkzeugaufrufe“ oder „Schritte“ (auch
                      „… (Schritt · Anlass)“) von protokoll.txt (Zeilen „n. …“, „n …“, „n.–m. …“,
                      „n–m …“ bis zur nächsten Leerzeile); ersatzweise m aus „Korrekturrunden: k von m
@@ -75,8 +78,11 @@ def pruefe(ziel):
 
 
 def main():
-    if len(sys.argv) != 3:
+    global PROMPTZEILE
+    if len(sys.argv) not in (3, 4):
         sys.exit(__doc__)
+    if len(sys.argv) == 4:
+        PROMPTZEILE = f'Prompt: Unterrichtsblatt-Prompt {sys.argv[3]}'
     quelle, ziel = Path(sys.argv[1]).resolve(), Path(sys.argv[2]).resolve()
     ziel.mkdir(parents=True, exist_ok=True)
     for pdf in sorted(quelle.glob('*.pdf')):
