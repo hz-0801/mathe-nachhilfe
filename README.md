@@ -87,6 +87,7 @@ Profil abi:
 - `abi-vorgaben.md` – jährlicher Vorgabencheck (Prüfungsschwerpunkte beider Länder; gilt auch für iqb).
 - `abi-aufbau.md`, `abi-struktur.json` – nur für 2017/2018: Wahlstruktur, BE-Vektoren, Zwillingsnachweis.
 - `abi-be-gk-geltung.md`, `abi-be-lk-geltung.md`, `abi-bb-gk-geltung.md`, `abi-bb-ea-geltung.md` – je Zielprüfung Thema ja/nein, ausgeschlossene Aufgabenformen, Rechnerfassung.
+- `befund-cas-berlin-2026-09-28.md` – Messung der vier Berliner CAS-Hefte 2017/2018 gegen die WTR-Fassung je Teilaufgabe (wortgleich/abweichend, Art der Abweichung, schon vorhandene Zeilen der BB-CAS-Hefte); kein Urteil. Öffnen, wenn im Chat die Abgrenzung nach abi.md § 9 entschieden wird.
 
 Profil iqb:
 - `iqb.md` – vor dem Erfassen eines Stapels: Kennung und id, Stapel als Laufeinheit, Schätzung vor dem Erwartungshorizont, Schwellen, Abbruchkriterium.
@@ -368,6 +369,7 @@ Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind l
 - `testlauf-lesezettel.py` – schreibt `blaetter/testlauf-<datum>/lesezettel.md` (je Eingabe Deutungszeile, Plan und Ausgabeblock wortgleich aus `chat.txt`, PDFs, Hinweise aus der Spalte „prueft“ und Messungen).
 - `marken-bau.py` – schreibt in jeden Katalogeintrag unter jede Nummernzeile die Zeile „Marken:“ (Sek I: „OS Kl. n“ bzw. Spanne mit Reihenliste, „GYM Kl. n“, Prüfungswort, seit 27.09.2026 „FHR“ bei Sek-I-Einheiten mit Sek-II-Zeilen und mindestens einem FHR-Jahrgang, „nicht für alle: <Reihe> <Klasse> <Marke>“; Sek II: „BE Q…“, „BB Q…“, Kursart, „Abitur GK“, „Abitur LK“, „FHR“), setzt hinter Typen mit eigener Verzeichnisstelle die Klasse in eckigen Klammern und entfernt am Ende einer Nummernzeile die reine Klassenklammer „(Kl. n)“; liest `katalog/_klassen-belege.md`, `_pruefungswort-belege.md`, `_sek2-ordnung-belege.md`, `_marken-entscheidungen.md` und `marken-bau-stellen.txt`; wiederholbar (ersetzt vorhandene Marken-Zeilen und Klammern), schreibt nichts bei einem Fehler, `--probe` baut und vergleicht nur; Gegenprobe des Auftrags im Skript (Abweichung wird gemeldet); nach jedem Neubau einer der drei Belegdateien oder einer Änderung an der Stellenliste ausführen.
 - `marken-bau-stellen.txt` – die Stellenliste dazu: je Stelle aus `_klassen-belege.md` die Lesart (gilt, ohne Klasse, gilt für eine andere Einheit, Typzeile an einem Typ) mit Quelle (Datei 2 oder im Lauf entschieden) und Grund; hier wird eine Lesart ergänzt oder berichtigt, nie in den Einträgen.
+- `cas-vergleich.py` – hält die CAS-Fassung eines Landeshefts je Teilaufgabe gegen die WTR-Fassung (pdftotext aus MiKTeX, Hefte unter `hefte/abi/`, Normierung wie beim Pool-Abgleich) und gibt Zuordnung, Urteil, BE und Diff auf die Konsole; mit einem dritten Heft (z. B. `2017-bb-ea-cas`) auch dagegen; Messwerkzeug zu `abitur/befund-cas-berlin-2026-09-28.md`, schreibt nichts.
 
 ## archiv/ – eingefroren
 
