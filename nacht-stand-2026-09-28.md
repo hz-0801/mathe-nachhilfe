@@ -5,7 +5,7 @@ Auftrag: auftrag-nacht-2026-09-28.md. Start 2026-09-26 10:09 (Get-Date). Ein Neu
 | Teil | Stand | letzter fertiger Punkt | Commit |
 |---|---|---|---|
 | 1 Befund ablegen | erledigt (10:11) | README-Zeilen, zwölf Posten in faellig.md § 2, drei Vorlagen-Posten nach § 4 | f6aebd6 |
-| 2 Delta-Stapel CAS und Vormerkungen | läuft (seit 10:15) | Messung Dateidubletten: iqb-quellen.csv trägt sie für 2017/2018 schon (Nachlauf offline ohne Abweichung, keine CAS-Datei wortgleich); Punkt 1 erledigt 10:54: 2017-ea-B-wtr, 82 Zeilen, Eichung erster Lauf 57, Ende 71 von 82 (Commit „abitur: Stapel 2017-ea-B (WTR) erfasst“); weiter Punkt 2 (2017-ea-B-cas) | – |
+| 2 Delta-Stapel CAS und Vormerkungen | läuft (seit 10:15) | Messung Dateidubletten: iqb-quellen.csv trägt sie für 2017/2018 schon (Nachlauf offline ohne Abweichung, keine CAS-Datei wortgleich); Punkt 1 erledigt 10:54: 2017-ea-B-wtr, 82 Zeilen, Eichung erster Lauf 57, Ende 71 von 82 (Commit „abitur: Stapel 2017-ea-B (WTR) erfasst“); Punkt 2 erledigt 11:27: 2017-ea-B-cas, 55 Zeilen, keine Datei- und Aufgabendublette, Eichung erster Lauf 34, Ende 47 von 55; weiter Punkt 3 (2018-ea-B-cas) | – |
 | 3 Berliner CAS-Hefte messen | erledigt (10:26) | abitur/befund-cas-berlin-2026-09-28.md, werkzeuge/cas-vergleich.py; abweichend 16/19/16/16 | a1d8012 |
 | 4 Sek-II-Einträge nachziehen | offen | – | – |
 | 5 Prüfskript und Marken-Gegenprobe | erledigt (10:29) | blatt-pruef.py v0.4 (Eingabe 3: 173 Teilaufgaben), marken-bau.py GEGENPROBE auf Belegwerten | 0062451 |

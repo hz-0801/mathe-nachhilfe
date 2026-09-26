@@ -1,5 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.15 · 28.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Version 1.16 · 28.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 1.15 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 2): § 1 Bestand nachgezogen – Delta-Stapel 2017-ea-B (CAS, 55 Zeilen) wegen der Landesheftverweise aus 2017-bb-ea-cas B3.1 geöffnet (keine Dateidublette, alle sechs CAS-Dateien, Abbruchkriterium unberührt); Stand 1639 Zeilen in 41 Stapeln, 1398 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.14 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 1): § 1 Bestand nachgezogen – Reserve-Stapel 2017-ea-B (WTR, 82 Zeilen) wegen der Landesheftverweise aus 2017-bb-ea-cas B3.1 geöffnet (WTR-Zweig vor dem CAS-Delta, Abbruchkriterium unberührt); Stand 1584 Zeilen in 40 Stapeln, 1385 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.13 (Auftrag Nacht 2026-09-27, Teil 10): § 1 Bestand nachgezogen – Reserve-Stapel 2017-ga-A (20 Zeilen) und 2017-ga-B (WTR, 39 Zeilen) wegen Landesheftverweisen des Hefts 2017-be-gk geöffnet (Abbruchkriterium unberührt); Stand 1502 Zeilen in 39 Stapeln, 1344 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.12 (Auftrag F, Punkt 1 und 2): Kernbindung v0.9 – der Kern nennt in § 1 die msa-Dateien mit Präfix; für dieses Profil ohne Folge. Punkt 2: das Abgleichskript heißt abitur-abgleich.py (bis 17.09.2026 abgleich.py, bis Abgleichlauf 11 iqb-abgleich.py; Familienname wie abitur-typen.csv), Verweise in § 2, § 7, § 9 nachgezogen. Punkt 5: Kern § 6 setzt Zeilenthema = Typthema als Regel (bisher Verweis auf das Profil) und § 5 die Eichung als Kennzahl nur bei amtlichen Anforderungsbereichen – für dieses Profil ohne Änderung (abitur-vokabular.md § 4, § 7). Punkt 6: Kern § 7 Selbstprüfung als Bedingung eines vollständigen Profils – iqb-bau.py hat sie.
@@ -126,12 +127,13 @@ Abbruchkriterium ausgereizt am 14.09.2026, Pool 2017 und Beispielaufgaben
 Reserve), dann Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung; der
 WTR-Zweig beider Niveaus ist mit neun Stapeln 2026 bis 2022 ausgereizt,
 15.09.2026, MMS/CAS sind Delta nach § 7 und werden je Niveau an einem Stapel
-gemessen; alles Übrige Reserve, davon elf Stapel wegen Landesheftverweisen
+gemessen; alles Übrige Reserve, davon zwölf Stapel wegen Landesheftverweisen
 geöffnet: 2017-ea-A, 2018-ga-B, 2018-ea-B, 2022-ga-B, 2020-ga-B, 2021-ga-B,
-2025-ea-B-mms, 2019-ga-B, 2017-ga-A, 2017-ga-B (WTR), 2017-ea-B (WTR); § 7).
-Stand 28.09.2026 nach dem Stapel 2017-ea-B (WTR): 1584 Zeilen in 40 Stapeln
-(20 Teil A, 17 Teil B WTR, 3 Teil B MMS), 1385 Typen in der gemeinsamen Liste
-(756 nur im Pool, 360 in beiden Katalogen), 190 Schnittwerte im Poolbestand
+2025-ea-B-mms, 2019-ga-B, 2017-ga-A, 2017-ga-B (WTR), 2017-ea-B (WTR),
+2017-ea-B (CAS); § 7).
+Stand 28.09.2026 nach dem Stapel 2017-ea-B (CAS): 1639 Zeilen in 41 Stapeln
+(20 Teil A, 17 Teil B WTR, 4 Teil B MMS/CAS), 1398 Typen in der gemeinsamen Liste
+(769 nur im Pool, 370 in beiden Katalogen), 192 Schnittwerte im Poolbestand
 (iqb-pruefungen.md § 2 und § 4).
 
 ## 2 Ablage und Quellen

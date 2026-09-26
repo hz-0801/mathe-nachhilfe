@@ -65,10 +65,11 @@ Rechnerfassungen („9 von 17": neun WTR-Dateien von 17).
 | 2018-ea-B (WTR) | 8 von 17 | **erfasst 2026-09-16, 69 Zeilen – wegen Landesheftverweisen** (2018-be-gk 3.2 e, g; Reserve geöffnet, Abbruchkriterium unberührt) · 38 Typen neu, 34 wiederverwendet · Eichung 59 von 69 (Spalte AB) · eine Zeile ersatzweise |
 | 2017-ga-B (WTR) | 5 von 10 | **erfasst 2026-09-27, 39 Zeilen – wegen Landesheftverweisen** (2017-be-gk 3.1; Reserve geöffnet, Abbruchkriterium unberührt) · 10 Typen neu, 29 wiederverwendet · Eichung 34 von 39 (Spalte AB; erster Lauf 23, elf Schätzungen nach der engen Fassung korrigiert, keine unabhängige Kennzahl, § 4) · das Heft stellt Stochastik WTR 1 (3.1 a–d, f, g wortgleich, 3.1 e abgewandelt aus 2 c); Heft erfasst 2026-09-27 (6 Zeilen „Dublette von:“, 1 „Abgewandelt von:“) |
 | 2017-ea-B (WTR) | 8 von 14 | **erfasst 2026-09-28, 82 Zeilen – wegen Landesheftverweisen** (2017-bb-ea-cas B3.1; Reserve geöffnet, Abbruchkriterium unberührt) · 40 Typen neu, 42 wiederverwendet · Eichung 71 von 82 (Spalte AB; erster Lauf 57 von 82, vierzehn Schätzungen nach der engen Fassung korrigiert, keine unabhängige Kennzahl, § 4) · kein Landesheft des Katalogs stellt eine Teilaufgabe dieses Zweigs (2017-bb-ea B3.1 Zelt ist nur die CAS-Datei 2); AG/LA (A2) WTR 2 ist Aufgabe 2.1 des nicht erfassten Hefts 2017-be-lk · der CAS-Zweig ist Delta-Stapel (2017-ea-B-cas) |
+| 2017-ea-B (CAS) | 6 von 14 (keine Dateidublette: iqb-quellen.csv ohne dateidublette_von, Ähnlichkeit zu jeder WTR-Datei höchstens 0,85; keine Aufgabendublette) | **erfasst 2026-09-28, 55 Zeilen – wegen Landesheftverweisen** (2017-bb-ea-cas B3.1 c, e, f auf AG/LA (A2) CAS 2; Reserve geöffnet, Abbruchkriterium unberührt) · 13 Typen neu, 50 wiederverwendet (7 in den mit AG/LA (A2) WTR 1 geteilten Teilaufgaben) · Eichung 47 von 55 (Spalte AB; erster Lauf 34 von 55, dreizehn Schätzungen nach der engen Fassung korrigiert, keine unabhängige Kennzahl, § 4) · Delta-Stapel erhöht, CAS-Delta in § 4 · In Landesheften 3 vorgemerkt (Umstellung im Abgleichlauf, Auftrag Teil 2 Punkt 4) |
 | bsp-ga-B (WTR) | 4 von 8 | entfällt – Reserve (§ 4) |
 | bsp-ea-B (WTR) | 4 von 9 | entfällt – Reserve (§ 4) |
 | 2025-ga-B bis 2022-ea-B (MMS) | 6, 7, 6, 6, 7, 7, 6, 8 (Dubletten je Stapel in iqb-quellen.csv) | entfällt – Delta zum WTR-Zweig (iqb.md § 7), je Niveau an einem Stapel gemessen (2026-ga-B und 2026-ea-B); Reserve |
-| 2021-ga-B bis 2017-ea-B, bsp-ga-B, bsp-ea-B (CAS) | 5, 5, 7, 7, 6, 7, 5, 9, 5, 6, 4, 5 | entfällt – CAS ist die MMS-Fassung bis 2021, keine eigene Fassung (Berlin schreibt „MMS (CAS)", iqb.md § 6); als Delta durch die MMS-Stapel gemessen; Reserve |
+| 2021-ga-B bis 2017-ga-B, bsp-ga-B, bsp-ea-B (CAS) | 5, 5, 7, 7, 6, 7, 5, 9, 5, 4, 5 | entfällt – CAS ist die MMS-Fassung bis 2021, keine eigene Fassung (Berlin schreibt „MMS (CAS)", iqb.md § 6); als Delta durch die MMS-Stapel gemessen; Reserve (2017-ea-B (CAS) seit 28.09.2026 als Delta-Stapel erfasst, Zeile oben) |
 
 Dubletten: wortgleiche Dateien unter beiden AG/LA-Alternativen (iqb.md § 7,
 Spalte dublette_von in iqb-quellen.csv); sie bekommen keine Zeile. Teil A hat
@@ -123,6 +124,7 @@ der Selbstprüfung: 2017-ea-A 6, 2018-ga-B-wtr 9, 2018-ea-B-wtr 2):
 | 2019-ga-B-wtr (Teil B, Reserve) | 66 | 67 | 47 (70 %) | 59 von 66 (89 %), Liste v0.7, Spalte AB – Schätzung mit Standardbezug in Sicht (§ 4) | 0 | 0 | 5 von 67 (7 %); Schnitt 48 Werte, 59 von 66 Zeilen bekannt (89 %) | 10, 6, 10, 6 | 9 |
 | 2017-ga-B-wtr (Teil B, Reserve) | 39 | 39 | 10 (26 %) | 34 von 39 (87 %), Liste v0.7, Spalte AB; erster Lauf 23 von 39 (59 %), elf Schätzungen nach Prüfung der Abweichungen korrigiert (§ 4) | 0 | 0 | 22 von 39 (56 %); Schnitt 31 Werte, 38 von 39 Zeilen bekannt (97 %) | 0, 0, 0, 0 | 6 (seit 2026-09-27: 2017-be-gk 3.1 a–d, f, g auf Stochastik WTR 1; dazu 1 abgewandelt, 3.1 e auf 2 c) |
 | 2017-ea-B-wtr (Teil B, Reserve) | 82 | 82 | 40 (49 %) | 71 von 82 (87 %), Liste v0.7, Spalte AB; erster Lauf 57 von 82 (70 %), vierzehn Schätzungen nach Prüfung der Abweichungen korrigiert (§ 4) | 0 | 0 | 25 von 82 (30 %); Schnitt 55 Werte, 74 von 82 Zeilen bekannt (90 %) | 24, 11, 24, 11 | 0 (kein erfasstes Landesheft stellt den WTR-Zweig; 2017-be-lk 2.1 = AG/LA (A2) WTR 2, Heft nicht erfasst) |
+| 2017-ea-B-cas (Teil B, Reserve, Delta-Stapel erhöht) | 55 | 63 | 13 (21 %) | 47 von 55 (85 %), Liste v0.7, Spalte AB; erster Lauf 34 von 55 (62 %), dreizehn Schätzungen nach Prüfung der Abweichungen korrigiert (§ 4) | 0 | 2 | 33 von 63 (52 %); Schnitt 39 Werte, 53 von 55 Zeilen bekannt (96 %) | 14, 0, 14, 0 | 0 (3 vorgemerkt: 2017-bb-ea-cas B3.1 c, e, f auf AG/LA (A2) CAS 2 1 c, e, f; Umstellung im Abgleichlauf, Auftrag Teil 2 Punkt 4) |
 
 Ab 2023-ga-A trägt die Kennzahlenzeile zusätzlich den Schnitt Thema ×
 Gegenstandsklasse × Handlung (Entscheidung 24): Werte im Stapel und Zeilen,
@@ -3517,10 +3519,151 @@ Zeilen, 93 %, enge Fassung 1480); vorgemerkt bleiben 2017-ea-B-cas 3 und
 2018-ea-B-cas 1 (Auftrag Teil 2 Punkt 2 bis 4). Aufwand etwa 35 Minuten nach der
 Pflichtlektüre (Get-Date 10:15 bis 10:49).
 
+**Stapel 2017-ea-B (CAS-Zweig) – Delta-Stapel, Reserve geöffnet wegen der
+Landesheftverweise (Auftrag Nacht 2026-09-28, Teil 2 Punkt 2, 28.09.2026; Regel
+„Eine Vormerkung überlebt keinen Auftrag“, iqb.md § 7; Abbruchkriterium
+unberührt).** Anlass sind die Vormerkungen 2017-bb-ea-cas B3.1 c, e, f auf
+2017MerhoehtBAGLAA2CAS2. iqb-quellen.csv führt für keine der sechs CAS-Dateien
+eine dateidublette_von (Nachlauf scanne_teil_b offline am 28.09.2026 ohne
+Abweichung zur CSV; Ähnlichkeit jeder CAS-Datei zu jeder WTR-Datei desselben
+Sachgebiets höchstens 0,85); alle sechs bilden den Delta-Stapel (iqb.md § 7):
+Analysis CAS 1 (Schar x² · e^(−ax), Kiellinie eines Schiffs) und CAS 2 (Gläser
+einer Serie), je 50 BE; AG/LA (A2) CAS 1 (Spielplatzturm) und CAS 2 (Zelt),
+Stochastik CAS 1 (Haushaltsgrößen) und CAS 2 (Glutentest, Teststreifen), je 25 BE
+– 200 BE, 55 Zeilen, alle Punktsummen bestätigt, 63 Typen verwendet (13 nur als
+Nebentyp), 13 neu (21 %), 50 wiederverwendet.
+
+*Aufgabendubletten und geteilte Teilaufgaben* (Textvergleich jeder Aufgabe gegen
+die WTR-Dateien 2017MerhoehtB…WTR*): keine Aufgabendublette, das Soll sinkt
+nirgends. AG/LA (A2) CAS 1 ist die CAS-Fassung von AG/LA (A2) WTR 1 (Ähnlichkeit
+0,85): a, b, c, d, f, g, h = WTR 1 1 a, b, c, d, e, f, g, Aufgabentext, Standardbezug
+und Erwartungshorizont gleich; d trägt in der CAS-Fassung die Kontrollangabe
+5x1 − x2 + 13x3 = 65 und 3 statt 4 BE, g 4 statt 5 BE; e (Neigungswinkel der
+Dachfläche, 2 BE) fehlt im WTR-Zweig – die nummerierte Aufgabe ist als Ganzes
+nicht wortgleich. Sieben Zeilen mit geteiltem Typ und aus der WTR-Zeile
+übernommenen Feldern (Vermerk in bemerkung, wie 2026-ea-B-mms). Die übrigen fünf
+Dateien sind eigene Aufgaben (Analysis und Stochastik mit anderem Stoff als der
+WTR-Zweig; das Zelt hat im Pool keine WTR-Fassung).
+
+*Eichung.* Die eigenen Schätzungen sind vor dem Standardbezug festgelegt
+(schaetzungen.md im Scratchpad, je Datei zuerst der Aufgabentext); der
+Erwartungshorizont war in Sicht bei AG/LA (A2) CAS 2 a und Stochastik CAS 2 1 a
+(unten auf der Aufgabenseite) und bei Stochastik CAS 1 (ganz auf Seite 2, der
+Standardbezug erst auf Seite 3); die sieben geteilten Zeilen tragen die
+Schätzung der WTR-Zeile. **Der erste vollständige Lauf stand bei 34 von 55
+(62 %)** – eigene Schätzungen 28 von 48 (58 %), übernommene 6 von 7 – und riss
+die Schwelle; er ist die unabhängige Kennzahl dieses Stapels. Die Prüfung der
+21 Abweichungen setzte dreizehn Zeilen um, jede mit erster Schätzung und Regel
+in bemerkung: nach oben Analysis CAS 1 1 e (II → III, (c): Schranke für alle p
+hergeleitet), 1 2 f (I → II, Verkettung wie „Mittelpunkt und Höhe und
+Fläche“), CAS 2 2 b (I → II, zweite Ableitung und Gleichung sind nach der Liste
+eine Verkettung), CAS 2 4 (II → III, (a): „ohne Knick“ erst in p1' = p2'
+übersetzen), AG/LA (A2) CAS 1 e (I → II, Neigungswinkel als Verkettung wie in
+2017-ga-B schon korrigiert); nach unten Analysis CAS 2 1 a (II → I, zwei
+unabhängige Einzelrechnungen), 2 c (III → II, Ausnahme zu (a): „berührt“ gibt die
+Tangente wörtlich vor), 3 a (III → II, (b) nicht einschlägig, die Punkte sind
+ausdrücklich genannt), AG/LA (A2) CAS 2 c (III → II, Ausnahme zu (b): die
+Symmetrieachse steht seit a fest), e (III → II, Ausnahme zu (a): Text und
+Abbildung 2 geben die Übersetzung vor), Stochastik CAS 1 2 (II → I, eine
+Rechnung mit Gegenereignis), 6 (III → II, kein Listeneintrag für die Wahl der
+Nullhypothese); dazu die übernommene Schätzung AG/LA (A2) CAS 1 b (II → I,
+Vorrang des Amtlichen, Kern § 5; die WTR-Zeile bleibt). Stand 47 von 55 (85 %),
+genau an der Schwelle; die Schwelle blieb. **Die Quote nach der Prüfung ist
+keine unabhängige Kennzahl:** geprüft wurden nur die Abweichungen (eine Treffer-
+zeile, Analysis CAS 2 1 d, ist nach derselben Listenstelle wie 2 b eher II, blieb
+aber als Treffer ungeprüft). Die acht verbliebenen Abweichungen, sieben davon unter
+dem amtlichen Bereich: Analysis CAS 1 1 b (Extrempunkte mit Parameter, II gegen
+amtlich I), 2 g (Verfeinerung der Streckenzüge beschreiben, K2 III, K6 III), 2 h
+(Kurvenlänge und allgemeine Aussage), CAS 2 2 d (Tangente von einem Punkt an den
+Graphen, K2 III, K5 III), 3 d (Volumen über r(h), K2 III, K3 III), AG/LA (A2)
+CAS 2 d (Punkt auf CS über r + s = 1 – nach dem Prinzip Identität mit
+mitgeführtem Parameter II, amtlich K1 III, K2 III, K5 III: erster Fall, in dem der
+Standardbezug die Ausnahme zu (c) nicht trägt), Stochastik CAS 1 4 (Mindestumfang
+für eine Mindestwahrscheinlichkeit: nach den fünf Fällen aus dem Befund zu
+2017-ga-B ein weiterer Poolfall amtlich III, Kandidat für die Deutungsliste) und CAS 2 3 c (σ aus halbierter Wahrscheinlichkeit).
+Befund: das Muster aus 2017-ga-A, 2017-ga-B und 2017-ea-B (WTR) setzt sich im
+CAS-Zweig fort, mit einem ersten Lauf noch unter dem des WTR-Zweigs (62 % gegen
+70 %); der Posten „Eichung Pool 2017 grundlegend prüfen“
+(faellig.md) hat damit einen vierten Stapel. Anteil amtlich-III 15 von 55 (27 %;
+I 14, II 26). Alle rechnerischen amtlichen Ergebnisse mit sympy nachgerechnet
+(check.py im Scratchpad: a = ln 2; Hochpunkt (2/a; 4/(e²a²)); b = 15, 3375/(2e³);
+250 − 5(p² + 10p + 50) · e^(−p/5); 1,862; 34,67°; 4,067 und 19,990; 7,298 und
+1,51; 20,98; 21,185; k ≈ 4,063; ±2/3 · √30, 22,94; ±2√2; √97, 10,15;
+u = (1 + √142)/3; 27π/2 ≈ 42,4; a = 3/16 · √3, b = 3/32 · (3 + √3); 21,42°;
+t = 0,4; 106,93°; z_L ≈ 2,418; 2,138 und 5,984, zulässig a = −5, −4, −3; 8,1 % und
+97,8 %; 21,0 %; 20,6 %; n = 80; 39,9 Millionen; k = 222; 0,98 % und 95,06 %;
+19,8 %; 14,5 %; k = 29; σ ≈ 3,09), keine Abweichung. Kein Fragezeichen; zwei
+Zeilen ersatzweise (Analysis CAS 1 2 g, 2 h: die Kurvenlänge hat keine
+Themenzeile, wie 2018-ea-B Analysis WTR 2 1 a und 2023-ea-B der Kreisbogen –
+Kandidat für eine Themenlücke).
+
+*Schnitt.* 39 Werte, 53 von 55 Zeilen auf bekannten Werten des Niveaus; zwei
+Werte neu im Poolbestand (190 → 192): Uneigentliche Integrale · berechnen
+(Analysis CAS 1 1 e; auch gegen iqb + abi neu, in bb-ea, nicht in be-gk) und
+Linearkombination und lineare Abhängigkeit · begründen (AG/LA (A2) CAS 2 d; im
+abi-Bestand seit 2017-bb-ea B3.1 d). Ein Delta-Stapel zählt nicht in die Reihe
+des Abbruchkriteriums (iqb.md § 6). Auf Teil-A-Werten gleiches Niveau 43 (78 %),
+beide Niveaus 45 (82 %). Außerhalb der Geltung: be-gk und bb-gk je 14
+(Funktionsscharen 7, Hypothesentests 3, Uneigentliche Integrale,
+Rotationsvolumen, Normalverteilung, Scharen von Geraden und Ebenen je 1), be-lk und bb-ea 0. Keine Trägerbindung,
+abhaengig_von in 15 Zeilen. Neue Typen nach Thema: Funktionsscharen 2
+(Extrempunkte mit Art in Abhängigkeit vom Parameter; Lage der Extrempunkte auf
+einer gegebenen Kurve durch Einsetzen – je zweimal verwendet), Hypothesentests 2
+(Fehlentscheidungen beschreiben; Ablehnungsgrenze bei größerem Umfang ohne
+höheren Fehler erster Art), je 1 Uneigentliche Integrale, Gleichungen lösen
+(waagerechte Ausdehnung eines Profils in vorgegebener Höhe, zweimal verwendet),
+Funktionsklassen und Stammfunktion (Kurvenlänge, ersatzweise), Tangente
+(Berührpunkt einer Tangente durch einen vorgegebenen Graphenpunkt),
+Umkehrfunktion (Radius aus der Füllhöhe), Skalarprodukt und Winkel (stumpfer
+Winkel zweier Pyramidenflächen), Kenngrößen von Verteilungen (Gesamtzahl aus
+mittlerer Gruppengröße), Normalverteilung (σ aus einer Wahrscheinlichkeit).
+Etiketten (Vorschläge für den Abgleichlauf, nicht ausgeführt): Analysis CAS 2 1 a
+nimmt „Scharparameter den Graphen über Lage zur x-Achse und Höhe der Hochpunkte
+zuordnen“ ohne Lage zur x-Achse (Vorschlag: „… über die Lage der Hochpunkte
+zuordnen“), CAS 1 2 c „Maximalen Neigungswinkel über die Wendestelle berechnen und
+mit einer Schranke vergleichen“ ohne Schranke, CAS 1 2 e „Gleichung f(t) =
+f(t − c) … lösen und im Graphen darstellen“ ohne Darstellung (Vorschlag: „… lösen
+und das Ergebnis deuten“).
+
+*CAS gegen WTR desselben Stapels (Delta-Kennzahlen wie bei 2026-ea-B-mms).*
+Wortgleiche Dateien 0 von 6, wortgleiche Aufgaben 0, geteilte Teilaufgaben 7
+(23 von 200 BE, 12 %; 2026-ea-B-mms 49 %). Zeilen auf Schnittwerten des
+WTR-Zwillings 35 von 55 (64 %), ohne die sieben geteilten 28 von 48 (58 %). Neue
+Schnittwerte im Poolbestand 2 (2026-ea-B-mms 0, 2025-ea-B-mms 0). Rechner (Vermerk
+„CAS-Anteil“ in bemerkung) in 33 von 55 Zeilen, reine Rechnerbedienung in keiner
+Zeile, Rechner als Etikett in einer (Gleichung f(t) = f(t − c) mit dem Rechner,
+wiederverwendet). Einschätzung: der CAS-Zweig 2017 ist weitgehend eigener Stoff
+(fünf von sechs Dateien ohne WTR-Gegenstück), bringt aber im Schnitt fast nichts
+Neues – die Delta-Regel trägt auch hier.
+
+*Landesheftabgleich* (pdftotext -layout der Hefte, nur Liste, abi-katalog.csv
+unverändert; landesheft-abgleich.md im Scratchpad): Nur AG/LA (A2) CAS 2 (Zelt)
+steht in Landesheften. Beide Brandenburger Hefte fügen vor e im Stamm den Satz
+„Dieses Dreieck liegt in der Ebene F: 39y + 25z = 195.“ ein, den der Pool nicht
+hat. 2017-bb-ea-cas B3.1 c, e, f (vorgemerkt) sind wortgleich mit 1 c, e, f (e und f
+bis auf diese Zusatzangabe im Stamm, die die amtliche Lösung nicht braucht),
+Typen gleich; die Vormerkungen sind damit richtig und werden im Abgleichlauf
+(Auftrag Teil 2 Punkt 4) umgestellt. 2017-bb-ea B3.1 (WTR-Fassung des Landes): a,
+b, d wortgleich; c Wortlaut gleich, aber 5 statt 4 BE; e abgewandelt (nur der
+Nachweis 2,14 m, 3 statt 4 BE); f abgewandelt (y-Koordinate 5,98 als Hinweis
+vorgegeben); Typen gleich außer b – die Landeszeile trägt „Neigungswinkel einer
+Ebene gegen eine Koordinatenebene …“, die Poolzeile den neuen Typ „Stumpfen Winkel
+zwischen zwei benachbarten Seitenflächen einer Pyramide über die
+Normalenvektoren berechnen“ (die Aufgabe fragt den Winkel zweier Wände); bei
+„Dublette von:“ zieht der Typ der Landeszeile nach. Nebenbefund: 2017-be-lk-cas
+2.2 ist wortgleich mit 2017-bb-ea-cas B3.1, 2017-be-lk 2.2 mit 2017-bb-ea B3.1
+(beide Hefte nicht erfasst; Verweise auf diese Pooldatei bei ihrer Erfassung
+fällig). Lauf aus einer frischen Repo-Kopie byteidentisch (iqb-katalog.csv,
+abitur-typen.csv), Selbstprüfung beider Skripte bestanden (1639 Zeilen, 1398
+Typen, 41 Stapel, Eichung über den Bestand 1526 von 1638 gewerteten Zeilen, 93 %,
+enge Fassung 1527; abi-bau.py: 855 Zeilen, vier offene Vormerkungen, drei davon mit
+erfasster Poolzeile – Umstellung in Punkt 4).
+
 ## 5 Änderungslog
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-28 | Auftrag Nacht 2026-09-28, Teil 2 Punkt 2: Delta-Stapel 2017-ea-B (CAS) erfasst – Reserve geöffnet wegen Landesheftverweisen (2017-bb-ea-cas B3.1 c, e, f auf 2017MerhoehtBAGLAA2CAS2; Regel „Eine Vormerkung überlebt keinen Auftrag“, Abbruchkriterium unberührt); alle sechs CAS-Dateien, keine Dateidublette (iqb-quellen.csv unverändert), keine Aufgabendublette, sieben mit AG/LA (A2) WTR 1 geteilte Teilaufgaben; 55 Zeilen, Katalog 1584 → 1639 Zeilen, Typenliste 1385 → 1398 (13 neu). Alle Punktsummen geprüft (50, 50, 25, 25, 25, 25), Lauf aus einer frischen Repo-Kopie byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 47 von 55 (85 %): der erste Lauf riss die Schwelle mit 34 von 55 (62 %; eigene Schätzungen 28 von 48), zwölf eigene Schätzungen nach Prüfung der Abweichungen gegen die enge Fassung korrigiert und eine aus der WTR-Zeile übernommene nach dem Vorrang des Amtlichen (keine unabhängige Kennzahl, § 4), Schwelle unverändert. Schnitt: 2 neue Werte im Poolbestand (190 → 192), Delta-Stapel außerhalb der Reihe. Landesheftabgleich: 2017-bb-ea-cas B3.1 c, e, f wortgleich (e, f bis auf die Zusatzangabe der Ebene F im Stamm), 2017-bb-ea B3.1 a, b, d wortgleich, c nur mit anderen BE, e, f abgewandelt; Typ verschieden nur bei B3.1 b; abi-katalog.csv unverändert, Umstellung der drei Vormerkungen in Punkt 4. iqb.md v1.16 (§ 1 Bestand nachgezogen). |
 | 2026-09-28 | Auftrag Nacht 2026-09-28, Teil 2 Punkt 1: Stapel 2017-ea-B (WTR) erfasst – Reserve geöffnet wegen Landesheftverweisen (2017-bb-ea-cas B3.1 c, e, f auf 2017MerhoehtBAGLAA2CAS2; der WTR-Zweig vor dem CAS-Delta, iqb.md § 7; Regel „Eine Vormerkung überlebt keinen Auftrag“, Abbruchkriterium unberührt); 82 Zeilen aus 8 Dateien, Katalog 1502 → 1584 Zeilen, Typenliste 1345 → 1385 (40 neu). Alle Punktsummen geprüft (50, 50, 50, 25, 25, 25, 25, 25), Lauf aus einer frischen Repo-Kopie byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 71 von 82 (87 %): der erste Lauf riss die Schwelle mit 57 von 82 (70 %), vierzehn Schätzungen nach Prüfung der Abweichungen gegen die enge Fassung korrigiert (keine unabhängige Kennzahl, § 4), Schwelle unverändert. Schnitt: 4 neue Werte im Poolbestand in Geltung (Abbruchkriterium 4 von 5), 2 gegen iqb + abi. Poolabgleich: kein erfasstes Landesheft stellt eine Teilaufgabe des WTR-Zweigs, 2017-bb-ea B3.1 passt zu keiner WTR-Datei; In Landesheften 0, kein Abgleichlauf; AG/LA (A2) WTR 2 steht als Aufgabe 2.1 im nicht erfassten Heft 2017-be-lk. Die Vormerkungen auf den CAS-Zweig bleiben bis zum Delta-Stapel 2017-ea-B-cas offen. iqb.md v1.15 (§ 1 Bestand nachgezogen). |
 | 2026-09-25 | Abgleichlauf 24 (abitur-abgleich.py v0.25) nach den Stapeln 2017-ga-A, 2017-ga-B (WTR) und den Landesheften 2017-bb-ea-cas, 2018-bb-ea-cas, 2017-be-gk: neun Umbenennungen, vier Zusammenziehungen, Typenliste 1349 → 1345, 22 Typfelder im iqb-Katalog (alle typ: 2017-ga-A Analysis 1.2 b; 2017-ga-B Analysis 1 c, e, f, AG/LA (A2) WTR 2 1 c, Stochastik WTR 1 2 e, WTR 2 1 c, 2 a; 2025-ga-A Analysis 1.3 b; 2025-ga-B Analysis WTR 2 1 b, 2 c, AG/LA (A2) WTR 1 1 b; 2025-ea-B Analysis WTR 2 1 a; 2022-ea-B AG/LA (A1) 1 b; 2026-ea-B-mms Analysis MMS 1 1 b; 2018-ga-B und 2018-ea-B AG/LA (A2) WTR 2 1 a; 2022-ga-B AG/LA (A2) WTR 1 1 f; 2020-ga-B Analysis WTR 2 1 a, Stochastik WTR 2 1 d; 2021-ga-B Analysis 1 d; 2019-ga-B Analysis WTR 2 1 d) und 34 im abi-Katalog. alt → neu (Gründe in abi-pruefungen.md § 5): Umbenennungen „Mindestanzahl von Versuchen einer Bernoulli-Kette über das Gegenereignis bestimmen“ → „Anzahl von Versuchen einer Bernoulli-Kette für mindestens einen Treffer über das Gegenereignis bestimmen“; „Hochpunkt eines Produkts aus Polynom und e-Funktion berechnen“ → „Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen“; „Funktionalgleichung mit Zeitverschiebung grafisch lösen und im Sachzusammenhang deuten“ → „Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten“; „Streckenlänge im Raum berechnen“ → „Streckenlänge berechnen“; „Vierten Eckpunkt eines Quadrats über eine Vektoraddition bestimmen“ → „Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen“; „Höhenunterschied zweier übereinanderliegender Punkte auf Seilgeraden bestimmen“ → „Höhenunterschied senkrecht übereinanderliegender Punkte über gleiche x- und y-Koordinaten bestimmen“; „Wahrscheinlichkeit für Gewinn und Extrapreis über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen“ → „Wahrscheinlichkeit für zwei gleichzeitige Ereignisse über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen“; „Körper: Gesamtlänge der Dachkanten einer Pyramide mit Zuschlag berechnen“ → „Körper: Gesamtlänge gleich langer Strecken an einem Körper über einen Vektorbetrag berechnen“; „Graphen einer Funktion in ein vorgegebenes Koordinatensystem einzeichnen“ → „Graphen einer Funktion in ein Koordinatensystem einzeichnen“. Zusammenziehungen „Fläche: Fläche zwischen Graph und Koordinatenachsen berechnen“ + „Fläche: Fläche zwischen Graph und x-Achse zwischen zwei Nullstellen berechnen“ → „Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen“; „Scharparameter aus einem vorgegebenen Flächeninhalt zwischen Graph und x-Achse berechnen“ → „Scharparameter für einen vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen“; „Stichprobenumfang für eine verdoppelte Standardabweichung der Binomialverteilung ermitteln“ + „Versuchszahl aus Standardabweichung und Trefferwahrscheinlichkeit berechnen“ → „Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen“; „Parameter einer Schar aus einem vorgegebenen Punkt auf dem Graphen bestimmen“ → „Scharparameter aus einem Punkt des Graphen angeben“. Lauf aus einer frischen HEAD-Kopie byteidentisch, Selbstprüfung beider Skripte bestanden (1502 Zeilen, 1345 Typen, 39 Stapel vollständig; Eichung über den Bestand unverändert 1408 von 1501). |
 | 2026-09-27 | Auftrag Nacht 2026-09-27, Teil 10: Stapel 2017-ga-B (WTR) erfasst – Reserve geöffnet wegen Landesheftverweisen (2017-be-gk 3.1 = Stochastik WTR 1; Regel „Eine Vormerkung überlebt keinen Auftrag“, Abbruchkriterium unberührt); 39 Zeilen aus 5 Dateien, Katalog 1463 → 1502 Zeilen, Typenliste 1334 → 1344 (10 neu). Alle Punktsummen geprüft (40, 20, 20, 20, 20), Lauf aus dem HEAD-Stand byteidentisch, Selbstprüfung beider Skripte bestanden. Eichung 34 von 39 (87 %): der erste Lauf riss die Schwelle mit 23 von 39 (59 %), elf Schätzungen nach Prüfung der Abweichungen gegen die enge Fassung korrigiert (keine unabhängige Kennzahl, § 4), Schwelle unverändert. Kein neuer Schnittwert im Gesamtbestand (Abbruchkriterium 0 von 5). Poolabgleich: 3.1 a–d, f, g wortgleich, 3.1 e abgewandelt aus 2 c; Heft noch nicht erfasst, In Landesheften 0, kein Abgleichlauf. iqb.md v1.14 (§ 1 Bestand nachgezogen, auch für 2017-ga-A). |
