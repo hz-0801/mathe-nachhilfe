@@ -1,0 +1,26 @@
+Übersichtsblatt · Prozentrechnung · zweiter Prüfstein (Verfahrensthema)
+Auftrag: Nacht 2026-09-28, Teil 7, Punkt 4 (der erste Prüfstein stand nach drei Kompilierläufen)
+Katalog: prozentrechnung.md (Abschnitt „Merkkasten“, Einheit 1–5)
+Vorlage: ../blattbau/mathblatt.sty 2026-09-28a (Stufe 6, Commit cad91ae), xelatex, TEXINPUTS auf ../blattbau
+Kompilierläufe: 2 (1: der Streifen ist fest 10 cm breit und lief in die Tabelle daneben, Beispielzeilen umbrochen; 2: Streifen über der Tabelle, steht)
+Seiten: 1 (pdfinfo)
+Regel wie beim ersten Prüfstein: jede Zeile ist eine Regelzeile eines Kastens, wortgleich oder gekürzt; die Zeilen „Quelle: …“ fehlen. Die Zeilen „Formelsammlung: …“ tragen hier Formeln (p % = W : G, W = p/100 · G, G = W · 100 : p) und stehen deshalb in der Tabelle, ohne das Wort „Formelsammlung“ und ohne [FS]. Keine Aufgabe, kein Kästchen, keine Zweigzeile.
+
+Blöcke (Reihenfolge der Einheiten; Titel = Kopfzeile des Kastens):
+Block 1 „1 Prozente als Anteile“ – Einheit 1: „Prozent heißt Hundertstel …“, „Bruch → Prozent …“, die drei Beispiele (auf zwei Zeilen), „Alle Anteile zusammen sind 100 %.“ – alle wortgleich.
+Block 2 „2 Prozentsatz“ – Einheit 2: Regelzeile und beide Beispiele wortgleich.
+Block 3 „3 Prozentwert“ – Einheit 3: Regelzeile und beide Beispiele wortgleich.
+Block 4 „4 Grundwert“ – Einheit 4: „Grundwert: erst 1 % …“ mit Beispiel (gekürzt: die Streifenangabe „Streifen: 45 % ≙ 36 €, 100 % ≙ ?“ steht unter dem Streifen), „Erst zuordnen: …“ wortgleich.
+Block 5 „5 Veränderung“ – Einheit 5: Erhöhung/Senkung mit Beispielen, Veränderung in Prozent, Prozentpunkte, Steigung in Prozent – wortgleich, Beispiele je in eigener Zeile.
+
+Streifen (Baustein \streifenfrage): 45 % gefüllt, „?“ über der Füllgrenze; darunter die Kastenzeile „Streifen: 45 % ≙ 36 €, 100 % ≙ ?“ (Einheit 4).
+
+Tabelle „Gesucht · Rechnung · wann“:
+- Prozentsatz: Einheit 2, Regelzeile gekürzt, dazu die Formel der Formelsammlungszeile „p % = W : G“.
+- Prozentwert: Einheit 3, Regelzeile gekürzt, Formel „W = p/100 · G“.
+- Grundwert: Einheit 4, Regelzeile, Formel „G = W · 100 : p“.
+- neuer Wert: Einheit 5, Erhöhung und Senkung in einer Zeile (1 ± p/100).
+- Veränderung in Prozent: Einheit 5, wortgleich.
+Spalte „wann“: aus der Zeile „Erst zuordnen: Was ist gegeben (W, p, G), was gesucht?“ (Einheit 4) je Zeile angewandt; „um p % erhöht oder gesenkt“ aus „Erhöhung um p % … Senkung“ (Einheit 5); „alter und neuer Wert gegeben“ aus „(neu − alt) : alt“ (Einheit 5).
+
+Gegenprobe (Regel des Auftrags Teil 7 sinngemäß): Kästen in katalog/prozentrechnung.md: 5 (Einheit 1–5); Blöcke auf der Seite: 5 (\uebersichtskasten); pdfinfo: 1 Seite.

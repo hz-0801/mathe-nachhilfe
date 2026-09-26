@@ -1,0 +1,87 @@
+% Übersichtsblatt Prozentrechnung – zweiter Prüfstein (Auftrag Nacht 2026-09-28, Teil 7, Punkt 4)
+% Quelle je Block: protokoll.txt. Jede Zeile ist eine Regelzeile eines Merkkastens, wortgleich oder gekürzt.
+% Vorlage: ../blattbau/mathblatt.sty (2026-09-28a), kompiliert mit xelatex.
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\blattkopf{Prozentrechnung}{Übersicht}
+
+\newcommand{\blocktitel}[1]{\textbf{#1}\par\smallskip}
+
+\begin{document}
+\small
+
+% ---------- Blöcke je Kasten, Reihenfolge der Einheiten (katalog/prozentrechnung.md, Merkkasten) ----------
+\noindent
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{1 Prozente als Anteile}
+Prozent heißt Hundertstel: $1\,\% = \frac{1}{100} = 0{,}01$.\\[2pt]
+Bruch $\to$ Prozent: auf Nenner 100 erweitern oder Dezimalzahl mit Komma zwei Stellen nach rechts.\\
+\hspace*{0.5em}$\frac{3}{4} = \frac{75}{100} = 75\,\%$ \quad $0{,}08 = 8\,\%$\\
+\hspace*{0.5em}„jeder Fünfte“ $= \frac{1}{5} = 20\,\%$\\[2pt]
+Alle Anteile zusammen sind $100\,\%$.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{2 Prozentsatz}
+Prozentsatz: Teil geteilt durch Ganzes – das ist der Anteil, dann in Prozent schreiben.\\
+\hspace*{0.5em}14 von 40: $14 : 40 = 0{,}35 = 35\,\%$\\
+\hspace*{0.5em}3 von 8: $3 : 8 = 0{,}375 = 37{,}5\,\%$}
+\end{minipage}
+
+\smallskip
+\noindent
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{3 Prozentwert}
+Prozentwert: erst $1\,\%$ (Ganzes $: 100$), dann mal $p$ – oder $p$ als Dezimalzahl mal Ganzes.\\
+\hspace*{0.5em}$18\,\%$ von $40\,$kg: $1\,\% = 0{,}4\,$kg $\to 18\,\% = 7{,}2\,$kg\\
+\hspace*{0.5em}$0{,}18 \cdot 40 = 7{,}2$}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{4 Grundwert}
+Grundwert: erst $1\,\%$ (Prozentwert $: p$), dann mal 100.\\
+\hspace*{0.5em}$36\,€$ sind $45\,\%$: $1\,\% = 0{,}80\,€ \to 100\,\% = 80\,€$\\[2pt]
+Erst zuordnen: Was ist gegeben ($W$, $p$, $G$), was gesucht? Dann rechnen.}
+\end{minipage}
+
+\smallskip
+\uebersichtskasten{\blocktitel{5 Veränderung}
+Erhöhung um $p\,\%$: neuer Wert $=$ alter Wert $\cdot \left(1 + \frac{p}{100}\right)$; Senkung: $\cdot \left(1 - \frac{p}{100}\right)$.\\
+\hspace*{0.5em}$250\,€$ um $12\,\%$ erhöht: $250 \cdot 1{,}12 = 280\,€$ \qquad $250\,€$ um $12\,\%$ gesenkt: $250 \cdot 0{,}88 = 220\,€$\\[2pt]
+Veränderung in Prozent: (neu $-$ alt) $:$ alt.\\
+\hspace*{0.5em}von 60 auf 69: $9 : 60 = 0{,}15 = 15\,\%$\\[2pt]
+Prozentpunkte: Unterschied zweier Prozentangaben.\\
+\hspace*{0.5em}von $30\,\%$ auf $33\,\%$: 3 Prozentpunkte (das sind $10\,\%$ mehr)\\[2pt]
+Steigung in Prozent: Höhe $:$ waagerechte Strecke.\\
+\hspace*{0.5em}$8\,$m auf $100\,$m $= 8\,\%$}
+
+\medskip
+% ---------- Streifen, darunter die Tabelle „Gesucht · Rechnung · wann“ (der Streifen ist fest 10 cm breit) ----------
+\noindent
+\begin{minipage}[t]{0.62\linewidth}\vspace{0pt}
+\streifenfrage{45}{$0\,\%$}{$100\,\%$}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.36\linewidth}\vspace{4mm}
+{\footnotesize Streifen: $45\,\% \mathrel{\widehat{=}} 36\,€$,\\ $100\,\% \mathrel{\widehat{=}}\ ?$}
+\end{minipage}
+
+\smallskip
+\noindent
+\begin{minipage}[t]{\linewidth}\vspace{0pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.50\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}@{}}
+\toprule
+\textbf{Gesucht} & \textbf{Rechnung} & \textbf{wann} \\
+\midrule
+Prozentsatz $p\,\%$ & Teil geteilt durch Ganzes: $p\,\% = W : G$ & gegeben $W$ und $G$ \\
+\addlinespace
+Prozentwert $W$ & erst $1\,\%$ ($G : 100$), dann mal $p$ – oder $W = \frac{p}{100} \cdot G$ & gegeben $p$ und $G$ \\
+\addlinespace
+Grundwert $G$ & erst $1\,\%$ ($W : p$), dann mal 100: $G = W \cdot 100 : p$ & gegeben $W$ und $p$ \\
+\addlinespace
+neuer Wert & alter Wert $\cdot \left(1 \pm \frac{p}{100}\right)$ & „um $p\,\%$ erhöht“ oder „gesenkt“ \\
+\addlinespace
+Veränderung in Prozent & (neu $-$ alt) $:$ alt & alter und neuer Wert gegeben \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+
+\end{document}

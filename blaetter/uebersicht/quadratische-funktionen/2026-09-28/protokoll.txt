@@ -1,0 +1,25 @@
+Übersichtsblatt · Quadratische Funktionen · Prüfstein
+Auftrag: Nacht 2026-09-28, Teil 7 (Beschluss des Lehrers vom 26.09.2026, befund-testlauf-2026-09-25.md, Beschluss 2)
+Katalog: quadratische-funktionen.md (Abschnitt „Merkkasten“, Einheit 1–4), quadratische-gleichungen.md (Abschnitt „Merkkasten“, Einheit 1–3)
+Vorlage: ../blattbau/mathblatt.sty 2026-09-28a (Stufe 6, Commit cad91ae), xelatex, TEXINPUTS auf ../blattbau
+Kompilierläufe: 3 (1: Blöcke unten statt oben bündig, Beispiel in der Tabelle umbrochen; 2: Beispielzeilen in Block 2 und 4 umbrochen, Label q am oberen Rand; 3: steht)
+Seiten: 1 (pdfinfo)
+Regel: jede Zeile ist eine Regelzeile eines Kastens, wortgleich oder gekürzt; weggelassen sind die Zeilen „Formelsammlung: …“ und „Quelle: …“ der Kästen (Verweise, keine Regel). Keine Aufgabe, kein Kästchen, keine Zweigzeile.
+
+Blöcke (Reihenfolge der Einheiten; Titel = Kopfzeile des Kastens):
+Block 1 „1 Normalparabel und Streckfaktor“ – quadratische-funktionen.md, Einheit 1, Kasten: Zeilen „Normalparabel: …“ (wortgleich), „Vom Scheitel aus: …“ (wortgleich), „Streckfaktor: …“ (gekürzt: der Klammersatz „(−x² ist das Spiegelbild)“ fehlt), Beispiel „p(x) = 2x² … Punkte (1 | 2) und (2 | 8)“ (gekürzt: „jeder y-Wert doppelt so groß“ fehlt).
+Block 2 „2 Scheitelpunktform“ – quadratische-funktionen.md, Einheit 2, Kasten: „Scheitelpunktform: … S(d | e) …“ (wortgleich), die drei Beispiele (wortgleich, untereinander), „Zeichnen: …“ (gekürzt: „1 nach rechts 1 nach oben, 2 nach rechts 4 nach oben (Schablone)“ fehlt, steht in Block 1), „Verschieben … Spiegeln …“ (gekürzt: Beispiele in Klammern fehlen), „Nullstellen ohne Rechnung …“ (wortgleich, Klammer „nach oben geöffnet“ vorgezogen).
+Block 3 „3 Normalform“ – quadratische-funktionen.md, Einheit 3, Kasten: „Normalform: …“ (wortgleich ohne das Wort „Normalform:“), „Von der Scheitelpunktform zur Normalform: …“ mit Beispiel (wortgleich), „Von der Normalform zur Scheitelpunktform: …“ (wortgleich, das Beispiel „x² − 6x + 10 mit Scheitel S(3 | 1) …“ fehlt).
+Block 4 „4 Nullstellen und Schnittpunkte“ – quadratische-funktionen.md, Einheit 4, Kasten: „Nullstellen: …“ (gekürzt: „(→ Quadratische Gleichungen)“ fehlt), Beispiel (gekürzt auf Ansatz und Lösungen, ohne Zwischenschritte und ohne N₁, N₂), „Schnittpunkte von Gerade und Parabel: …“ (wortgleich ohne Beispielzeile), „Zwei Lösungen … kein gemeinsamer Punkt“ (wortgleich).
+
+Koordinatensystem (Bausteine ksys, funktion, punkt): p(x) = x² (Normalparabel, Kasten Einheit 1) und q(x) = (x + 3)² − 1 mit S(−3 | −1) (Beispiel aus Kasten Einheit 2); Unterzeile „Scheitel S(−3 | −1): zwei Nullstellen“ nach der Zeile „Nullstellen ohne Rechnung“ (Kasten Einheit 2).
+
+Tabelle „Form · Verfahren zur Nullstelle · wann“:
+- Normalparabel: Scheitel S(0 | 0) (quadratische-funktionen.md Einheit 1); „Scheitel auf der x-Achse: eine“ (Einheit 2, „Nullstellen ohne Rechnung“).
+- Scheitelpunktform: „p(x) = 0 setzen … durch Wurzelziehen“ (quadratische-funktionen.md Einheit 4); „erst die Wurzel mit beiden Vorzeichen, dann d hinüberbringen“ und Beispiel (x + 4)² = 36 (quadratische-gleichungen.md Einheit 1, „Quadrierte Klammer“, gekürzt); wann: „Nullstellen ohne Rechnung“ (quadratische-funktionen.md Einheit 2, gekürzt).
+- Normalform: p-q-Formel (quadratische-gleichungen.md Einheit 3, wortgleich); wann: „Unter der Wurzel entscheidet: positiv → zwei Lösungen, null → eine Lösung, negativ → keine Lösung“ (dort, gekürzt).
+- Normalform ohne q: „Satz vom Nullprodukt“, „Ohne Absolutglied immer x ausklammern – nie durch x teilen“, Beispiel x·(x − 7) = 0 (quadratische-gleichungen.md Einheit 2, gekürzt); wann: „Steht rechts null, jeden Faktor einzeln null setzen“ (dort).
+- allgemeine Form: „die Vorzahl von x² ist eins, sonst durch sie teilen (normieren)“ mit Beispiel 3x² + 24x − 60 = 0 | : 3 (quadratische-gleichungen.md Einheit 3, gekürzt). Der Name „allgemeine Form a·x² + bx + c“ steht in keinem Kasten, sondern im Auftrag (Teil 7.2) und in quadratische-funktionen.md „Typen je Lerneinheit“, Einheit 3 („allgemeine Form a·x² + bx + c erkennen …“).
+Lösbarkeit (quadratische-gleichungen.md Einheit 1 „Wurzelziehen: … zwei … eine … keine“ und Einheit 3) steht in der Spalte „wann“ der Zeilen Scheitelpunktform und Normalform.
+
+Gegenprobe (Auftrag Teil 7): Kästen in katalog/quadratische-funktionen.md: 4 (Einheit 1–4); Blöcke auf der Seite: 4 (\uebersichtskasten); pdfinfo: 1 Seite.

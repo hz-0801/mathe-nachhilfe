@@ -10,5 +10,5 @@ Auftrag: auftrag-nacht-2026-09-28.md. Start 2026-09-26 10:09 (Get-Date). Ein Neu
 | 4 Sek-II-Einträge nachziehen | offen | – | – |
 | 5 Prüfskript und Marken-Gegenprobe | erledigt (10:29) | blatt-pruef.py v0.4 (Eingabe 3: 173 Teilaufgaben), marken-bau.py GEGENPROBE auf Belegwerten | siehe nächsten Commit „werkzeuge: blatt-pruef.py Schwach-Zähler, marken-bau Gegenprobe“ |
 | 6 Eichungsfrage 2017 | offen | – | – |
-| 7 Prüfstein Übersichtsblatt | offen | – | – |
+| 7 Prüfstein Übersichtsblatt | erledigt (10:40) | quadratische-funktionen (3 Kompilierläufe, 4 Blöcke, 1 Seite) und prozentrechnung (2 Läufe, 5 Blöcke, 1 Seite) unter blaetter/uebersicht/ | siehe Commit „blaetter: Prüfstein Übersichtsblatt …“ |
 | Abschluss | offen | – | – |

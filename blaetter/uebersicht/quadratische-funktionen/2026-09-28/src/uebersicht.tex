@@ -1,0 +1,82 @@
+% Übersichtsblatt Quadratische Funktionen – Prüfstein (Auftrag Nacht 2026-09-28, Teil 7)
+% Quelle je Block: protokoll.txt. Jede Zeile ist eine Regelzeile eines Merkkastens, wortgleich oder gekürzt.
+% Vorlage: ../blattbau/mathblatt.sty (2026-09-28a), kompiliert mit xelatex.
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\blattkopf{Quadratische Funktionen}{Übersicht}
+
+\newcommand{\blocktitel}[1]{\textbf{#1}\par\smallskip}
+
+\begin{document}
+\small
+
+% ---------- Blöcke je Kasten, Reihenfolge der Einheiten (katalog/quadratische-funktionen.md, Merkkasten) ----------
+\noindent
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{1 Normalparabel und Streckfaktor}
+Normalparabel: $p(x) = x^2$. Scheitel $S(0 \mid 0)$, Symmetrieachse ist die $y$-Achse, nach oben geöffnet, kein $y$-Wert ist negativ.\\[2pt]
+Vom Scheitel aus: 1 nach rechts 1 nach oben, 2 nach rechts 4 nach oben, 3 nach rechts 9 nach oben – nach links genauso, denn $(-3)^2 = 9$.\\[2pt]
+Streckfaktor: $p(x) = a \cdot x^2$. $a$ negativ: nach unten geöffnet. $a$ zwischen 0 und 1: breiter (gestaucht). $a$ größer als 1: schmaler (gestreckt).\\
+\hspace*{0.5em}$p(x) = 2x^2$: Punkte $(1 \mid 2)$ und $(2 \mid 8)$.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{2 Scheitelpunktform}
+$p(x) = (x - d)^2 + e$ hat den Scheitel $S(d \mid e)$ – in der Klammer steht $d$ mit umgedrehtem Vorzeichen.\\
+\hspace*{0.5em}$(x - 3)^2 + 1 \to S(3 \mid 1)$\\
+\hspace*{0.5em}$(x + 3)^2 - 1 \to S(-3 \mid -1)$\\
+\hspace*{0.5em}$-(x - 3)^2 + 1 \to S(3 \mid 1)$, nach unten geöffnet\\[2pt]
+Zeichnen: Scheitel setzen, dann wie bei der Normalparabel weiter.\\[2pt]
+Verschieben ändert nur $d$ und $e$. Spiegeln an der $x$-Achse: Minus vor die Klammer und $e$ umgedreht. Spiegeln an der $y$-Achse: $d$ umgedreht.\\[2pt]
+Nullstellen ohne Rechnung (nach oben geöffnet): Scheitel unter der $x$-Achse $\to$ zwei, auf der $x$-Achse $\to$ eine, darüber $\to$ keine.}
+\end{minipage}
+
+\smallskip
+\noindent
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{3 Normalform}
+$y = x^2 + px + q$. Die Zahl $q$ ist der $y$-Achsenabschnitt ($x = 0$ einsetzen). Die Öffnung ist die der Normalparabel.\\[2pt]
+Von der Scheitelpunktform zur Normalform: Klammer mit der binomischen Formel auflösen, zusammenfassen.\\
+\hspace*{0.5em}$(x - 3)^2 + 1 = x^2 - 6x + 9 + 1 = x^2 - 6x + 10$\\[2pt]
+Von der Normalform zur Scheitelpunktform: Scheitel am Graphen ablesen und in $(x - d)^2 + e$ eintragen; Probe: $x = 0$ muss $q$ ergeben.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.495\linewidth}\vspace{0pt}
+\uebersichtskasten{\blocktitel{4 Nullstellen und Schnittpunkte}
+Nullstellen: $p(x) = 0$ setzen. Aus der Scheitelpunktform durch Wurzelziehen, aus der Normalform mit der $p$-$q$-Formel.\\
+\hspace*{0.5em}$(x - 2)^2 - 16 = 0 \to x_1 = 6,\ x_2 = -2$\\[2pt]
+Schnittpunkte von Gerade und Parabel: Terme gleichsetzen $p(x) = f(x)$, alles auf eine Seite bringen, quadratische Gleichung lösen, $y$-Werte mit der Geraden berechnen.\\[2pt]
+Zwei Lösungen: zwei Schnittpunkte. Eine Lösung: Berührpunkt. Keine Lösung (Wurzel aus einer negativen Zahl): kein gemeinsamer Punkt.}
+\end{minipage}
+
+\medskip
+% ---------- Koordinatensystem und Tabelle „Form · Verfahren · wann“ nebeneinander ----------
+\noindent
+\begin{minipage}[t]{0.30\linewidth}\vspace{0pt}
+\begin{ksys}[xmin=-6,xmax=3,ymin=-2,ymax=9,karo=0.5]
+  \funktion{\x^2}{p}
+  \funktion[-5]{(\x+3)^2-1}{q}
+  \punkt{-3}{-1}{}
+  \node[below,font=\small] at (-3,-1) {$S$};
+\end{ksys}
+
+{\footnotesize $p(x) = x^2$ \quad $q(x) = (x + 3)^2 - 1$\\ Scheitel $S(-3 \mid -1)$: zwei Nullstellen}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.68\linewidth}\vspace{0pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.47\linewidth}>{\raggedright\arraybackslash}p{0.22\linewidth}@{}}
+\toprule
+\textbf{Form} & \textbf{Verfahren zur Nullstelle} & \textbf{wann} \\
+\midrule
+Normalparabel $p(x) = x^2$ & ohne Rechnung: Scheitel $S(0 \mid 0)$ & Scheitel auf der $x$-Achse: eine ($x = 0$) \\
+\addlinespace
+Scheitelpunktform $(x - d)^2 + e$ & $p(x) = 0$ setzen, Wurzelziehen: erst die Wurzel mit beiden Vorzeichen, dann $d$ hinüberbringen\newline $(x + 4)^2 = 36 \to x_1 = 2,\ x_2 = -10$ & Scheitel unter der $x$-Achse: zwei, auf ihr: eine, darüber: keine \\
+\addlinespace
+Normalform $x^2 + px + q$ & $p$-$q$-Formel\newline $x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q}$ & unter der Wurzel positiv: zwei, null: eine, negativ: keine \\
+\addlinespace
+Normalform ohne $q$: $x^2 + px = 0$ & Satz vom Nullprodukt: $x$ ausklammern, jeden Faktor null setzen – nie durch $x$ teilen\newline $x \cdot (x - 7) = 0 \to x_1 = 0,\ x_2 = 7$ & rechts steht null \\
+\addlinespace
+allgemeine Form $a x^2 + bx + c$ & durch die Vorzahl von $x^2$ teilen (normieren), dann $p$-$q$-Formel\newline $3x^2 + 24x - 60 = 0 \mid :3$ & Vorzahl von $x^2$ nicht eins \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+
+\end{document}
