@@ -1,0 +1,29 @@
+Eingabe des Lehrers:
+kurvenuntersuchung 12 berlin – Antworten auf Planfrage und Zone: gymnasium, gk; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Q3/Q4 in Berlin, Zeitmarken ab Q1 · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 12 · 5 Zweige · Zone aus 6 Fertigkeiten
+Einheit 1 · Monotonie und erste Ableitung: Hier lernst du, am Vorzeichen der Ableitung abzulesen und am Term nachzuweisen, wo ein Graph steigt oder fällt · kennst du seit Q1 · Abitur GK · baut auf: Gleichungen lösen, Ableitungen bilden
+Einheit 2 · Extrempunkte: Hier lernst du, Hoch-, Tief- und Sattelpunkte zu berechnen und an einer gegebenen Stelle nachzuweisen, auch den größten Wert am Rand · kennst du seit Q1 · Abitur GK · baut auf: Monotonie (Einheit 1), Gleichungen lösen, Ableitungen bilden, Funktionswerte
+Einheit 3 · Krümmung und Wendepunkte: Hier lernst du, mit der zweiten Ableitung Krümmung und Wendepunkte zu bestimmen und an einer gegebenen Stelle nachzuweisen · kennst du seit Q1 · Abitur GK · baut auf: Extrempunkte (Einheit 2), Gleichungen lösen, Ableitungen bilden
+Einheit 4 · Graph und Ableitungsgraph: Hier lernst du, vom Graphen von f auf den Graphen von f' zu schließen und umgekehrt und Graphen aus Eigenschaften zu skizzieren · kennst du seit Q1 oder Q2 – je nach Buch · Abitur GK · baut auf: Einheit 1 bis 3, Ableitung als Steigung
+Einheit 5 · Kurvenuntersuchung im Sachzusammenhang: Hier lernst du, Sachfragen in Hoch-, Tief- und Wendepunkte zu übersetzen und die Ergebnisse mit Einheit zu deuten · kennst du seit Q1 · Abitur GK · baut auf: Einheit 1 bis 4, Ableitung als Änderungsrate
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Schüler ist am: Gymnasium · OSZ (Abitur) · FOS
+
+Antwort des Lehrers (aus der Eingabe): gymnasium, gk; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Gymnasium, Abitur-Gang GK · alle 5 Zweige (Umfang nicht genannt: Rückfall) · LK-Sprossen weggelassen
+Kurvenuntersuchung_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+
+Weitere Rückfragen: keine
+
+Kurvenuntersuchung_Lernblatt.pdf
+Kurvenuntersuchung_Gesamt.pdf
+Kurvenuntersuchung_Loesungen.pdf
+Kurvenuntersuchung_2026-09-26_protokoll.zip
+
+Abweichung: kein Zweig abgewählt, kein Ausblick-Zweig (alle Marken Q1 bzw. Q1/2); LK-Stoff weggelassen – Sprossen „genau einen Tiefpunkt über die streng monotone Ableitung“, „Extremstelle einer Logarithmusfunktion“, „zweiten Wendepunkt über die Punktsymmetrie“, „Wendepunkt über den Vorzeichenwechsel von f'' aus der Kettenregel“ und die Typen an Sinus-, Logarithmus- und Scharfunktionen, deshalb Prüfungshöhe Nr. 19 aus IQB 2026 grundlegend statt der LK-Zielmarke; kein Rechenplatz (Sek II); geteilte Hauptnummer Nr. 17/18; Einheit 1 bis 3 mit je zwei, Einheit 5 mit vier Verfahrensüberschriften; Zwischensprosse Nr. 40 b (stärkste Abnahme an einer e-Funktion); keine Bausteine im Vorspann, keine vereinfachten Grafiken; Zeitstempel „weiter“, „e 3“ und „e 4“ verspätet gesetzt (protokoll.txt).
+Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen (6 Fertigkeiten → Zone Nr. 1–8, 3 Erkennungsschritte → Vorstufen Nr. 15, 16, 37), Sprossen, Typische Fehler, Prüfungsform und Zielmarke; nicht gebraucht Merkkasten, Grundvorstellung, Verortung; Befunde: die Ketten von Einheit 1 und 4 beginnen mit einer „Vorstufe“, die Erkennungsschritte nennen aber keine vor Einheit 1 und 4 (nicht gebaut, die Grundvorstellung trägt Zone Nr. 8); 26 von 76 Haupttypen (Einzeltypen, 8 davon erhöht oder LK) haben keine eigene Sprosse – „jeder Typ eine Sprosse“ ist bei 76 Typen nicht einlösbar, die Ketten tragen die häufigen; die eine Kette von Einheit 5 läuft über vier Formen; die Stand-Zeile trägt Nachzüge vom 28. und 29.09.2026, nach dem Bautag; Spanne nur in Einheit 4 („BE Q1/2“ → „kennst du seit Q1 oder Q2 – je nach Buch“); Prüfungswort aus „GK · Abitur GK · Abitur LK“ als „Abitur GK“.
+Vorlage: Kopfzeile der Zonen-Datei doppelt („Kurvenuntersuchung · Kennst du schon · Kennst du schon“), eine leere Kurzform lässt ein „·“ am Ende stehen.
+Protokoll-Archiv: Kurvenuntersuchung_2026-09-26_protokoll.zip

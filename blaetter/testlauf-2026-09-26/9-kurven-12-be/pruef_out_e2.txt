@@ -1,0 +1,55 @@
+16b f''(0)=0 -> VZW noetig Skript [0.0]  Blatt [0.0]  OK
+17a                      Skript [-3.0, 3.0]  Blatt [-3.0, 3.0]  OK
+17b                      Skript [-3.0, 1.0]  Blatt [-3.0, 1.0]  OK
+17c                      Skript [1.0, 2.0]  Blatt [1.0, 2.0]  OK
+17d                      Skript [1.0, 3.0]  Blatt [1.0, 3.0]  OK
+17e Stellen              Skript [-1.0, 3.0]  Blatt [-1.0, 3.0]  OK
+17e Werte                Skript [7.0, -25.0]  Blatt [7.0, -25.0]  OK
+17e Art                  Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+17f Stellen              Skript [-1.0, 0.0, 2.0]  Blatt [-1.0, 0.0, 2.0]  OK
+17f Werte                Skript [-5.0, 0.0, -32.0]  Blatt [-5.0, 0.0, -32.0]  OK
+17f Art                  Skript [-1.0, 1.0, -1.0]  Blatt [-1.0, 1.0, -1.0]  OK
+17g Stellen              Skript [-1.0, 0.0]  Blatt [-1.0, 0.0]  OK
+17g Werte                Skript [-1.0, 0.0]  Blatt [-1.0, 0.0]  OK
+17g Art                  Skript [-1.0, 0.0]  Blatt [-1.0, 0.0]  OK
+17h x=3 ist Nullst. von f' Skript [0.0]  Blatt [0.0]  OK
+17h Stellen              Skript [-1.0, 1.0, 3.0]  Blatt [-1.0, 1.0, 3.0]  OK
+17h Werte                Skript [-9.0, 7.0, -9.0]  Blatt [-9.0, 7.0, -9.0]  OK
+17h Art                  Skript [-1.0, 1.0, -1.0]  Blatt [-1.0, 1.0, -1.0]  OK
+18a Stellen              Skript [1.0]  Blatt [1.0]  OK
+18a Werte                Skript [0.3679]  Blatt [0.3679]  OK
+18a Art                  Skript [1.0]  Blatt [1.0]  OK
+18b Stellen              Skript [2.0]  Blatt [2.0]  OK
+18b Werte                Skript [5.8861]  Blatt [5.89]  OK
+18b Art                  Skript [1.0]  Blatt [1.0]  OK
+18c groesster Wert       Skript [32.0]  Blatt [32.0]  OK
+18c Stelle               Skript [4.0]  Blatt [4.0]  OK
+18d Minimum (global)     Skript [-48.0]  Blatt [-48.0]  OK
+18e Stellen              Skript [-1.0, 3.0]  Blatt [-1.0, 3.0]  OK
+18e Werte                Skript [-5.4366, 0.2987]  Blatt [-5.4366, 0.2987]  OK
+18e Art                  Skript [-1.0, 1.0]  Blatt [-1.0, 1.0]  OK
+19a f'(x0)               Skript [0.0]  Blatt [0.0]  OK
+19b f'(x0)               Skript [0.0]  Blatt [0.0]  OK
+19c f'(x0)               Skript [0.0]  Blatt [0.0]  OK
+19d f'(x0)               Skript [0.0]  Blatt [0.0]  OK
+19e f'(-2), f''(-2), f(-2) Skript [0.0, -6.0, 2.0]  Blatt [0.0, -6.0, 2.0]  OK
+19f Stellen              Skript [0.0]  Blatt [0.0]  OK
+19f Werte                Skript [-5.0]  Blatt [-5.0]  OK
+19f Art                  Skript [-1.0]  Blatt [-1.0]  OK
+19g f'(2), f''(2), f(2)  Skript [0.0, -12.0, 19.0]  Blatt [0.0, -12.0, 19.0]  OK
+19i Stellen              Skript [1.0]  Blatt [1.0]  OK
+19i Werte                Skript [1.0]  Blatt [1.0]  OK
+19i Art                  Skript [0.0]  Blatt [0.0]  OK
+19k f'(2), f''(2), f(2)  Skript [0.0, -6.0, 5.0]  Blatt [0.0, -6.0, 5.0]  OK
+20a Stellen              Skript [-1.0, 1.0]  Blatt [-1.0, 1.0]  OK
+20a Werte                Skript [5.0, -3.0]  Blatt [5.0, -3.0]  OK
+20a Art                  Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+20b Stellen              Skript [1.0]  Blatt [1.0]  OK
+20b Werte                Skript [-2.7183]  Blatt [-2.7183]  OK
+20b Art                  Skript [-1.0]  Blatt [-1.0]  OK
+22a Stellen              Skript [1.0, 4.0, 7.0]  Blatt [1.0, 4.0, 7.0]  OK
+22a Werte                Skript [4.45, 0.4, 4.45]  Blatt [4.45, 0.4, 4.45]  OK
+22a Art                  Skript [1.0, -1.0, 1.0]  Blatt [1.0, -1.0, 1.0]  OK
+22a Randwerte h(0), h(8) Skript [2.0, 2.0]  Blatt [2.0, 2.0]  OK
+22b Abstand in m         Skript [60.0]  Blatt [60.0]  OK
+Abweichungen: 0

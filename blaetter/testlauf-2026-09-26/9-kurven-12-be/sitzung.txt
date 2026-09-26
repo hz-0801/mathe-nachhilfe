@@ -1,0 +1,37 @@
+Now the three frame files.
+
+→ Lernblatt · Q3/Q4 in Berlin, Zeitmarken ab Q1 · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 12 · 5 Zweige · Zone aus 6 Fertigkeiten
+Einheit 1 · Monotonie und erste Ableitung: Hier lernst du, am Vorzeichen der Ableitung abzulesen und am Term nachzuweisen, wo ein Graph steigt oder fällt · kennst du seit Q1 · Abitur GK · baut auf: Gleichungen lösen, Ableitungen bilden
+Einheit 2 · Extrempunkte: Hier lernst du, Hoch-, Tief- und Sattelpunkte zu berechnen und an einer gegebenen Stelle nachzuweisen, auch den größten Wert am Rand · kennst du seit Q1 · Abitur GK · baut auf: Monotonie (Einheit 1), Gleichungen lösen, Ableitungen bilden, Funktionswerte
+Einheit 3 · Krümmung und Wendepunkte: Hier lernst du, mit der zweiten Ableitung Krümmung und Wendepunkte zu bestimmen und an einer gegebenen Stelle nachzuweisen · kennst du seit Q1 · Abitur GK · baut auf: Extrempunkte (Einheit 2), Gleichungen lösen, Ableitungen bilden
+Einheit 4 · Graph und Ableitungsgraph: Hier lernst du, vom Graphen von f auf den Graphen von f' zu schließen und umgekehrt und Graphen aus Eigenschaften zu skizzieren · kennst du seit Q1 oder Q2 – je nach Buch · Abitur GK · baut auf: Einheit 1 bis 3, Ableitung als Steigung
+Einheit 5 · Kurvenuntersuchung im Sachzusammenhang: Hier lernst du, Sachfragen in Hoch-, Tief- und Wendepunkte zu übersetzen und die Ergebnisse mit Einheit zu deuten · kennst du seit Q1 · Abitur GK · baut auf: Einheit 1 bis 4, Ableitung als Änderungsrate
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Schüler ist am: Gymnasium · OSZ (Abitur) · FOS
+
+Antwort aus der Eingabe: gymnasium, gk; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Gymnasium, Abitur-Gang GK · alle 5 Zweige (Umfang nicht genannt: Rückfall) · LK-Sprossen weggelassen
+Kurvenuntersuchung_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+
+Kurvenuntersuchung_Lernblatt.pdf
+Kurvenuntersuchung_Gesamt.pdf
+Kurvenuntersuchung_Loesungen.pdf
+Kurvenuntersuchung_2026-09-26_protokoll.zip
+
+Abweichung: Kein Zweig abgewählt und kein Ausblick-Zweig (alle Marken Q1 bzw. Q1/2). Den LK-Stoff habe ich weggelassen: die Sprossen „genau einen Tiefpunkt über die streng monotone Ableitung“, „Extremstelle einer Logarithmusfunktion“, „zweiten Wendepunkt über die Punktsymmetrie“ und „Wendepunkt über den Vorzeichenwechsel von f'' aus der Kettenregel“ sowie die Typen an Sinus-, Logarithmus- und Scharfunktionen. Deshalb kommt die Prüfungshöhe von Nr. 19 aus IQB 2026 grundlegend statt aus der LK-Zielmarke. Kein Rechenplatz (Sek II). Geteilte Hauptnummer Nr. 17/18. Einheit 1 bis 3 haben je zwei Verfahrensüberschriften, Einheit 5 hat vier. Zwischensprosse Nr. 40 b (stärkste Abnahme an einer e-Funktion). Keine Bausteine im Vorspann, keine vereinfachten Grafiken. Die Zeitstempel „weiter“, „e 3“ und „e 4“ wurden verspätet gesetzt (siehe protokoll.txt).
+Katalog: Gebraucht habe ich Lerneinheiten, Marken, Typen, Voraussetzungen (6 Fertigkeiten → Zone Nr. 1–8, 3 Erkennungsschritte → Vorstufen Nr. 15, 16, 37), Sprossen, Typische Fehler sowie Prüfungsform und Zielmarke; nicht gebraucht: Merkkasten, Grundvorstellung, Verortung. Befunde: Die Ketten von Einheit 1 und 4 beginnen mit einer „Vorstufe“, die Erkennungsschritte nennen aber keine vor Einheit 1 und 4 – nicht gebaut, die Grundvorstellung trägt Zone Nr. 8. 26 von 76 Haupttypen haben keine eigene Sprosse (Einzeltypen, 8 davon erhöht oder LK); „jeder Typ eine Sprosse“ ist bei 76 Typen nicht einlösbar, die Ketten tragen die häufigen. Die eine Kette von Einheit 5 läuft über vier Formen. Die Stand-Zeile trägt Nachzüge vom 28. und 29.09.2026, also nach dem Bautag. Eine Spanne gibt es nur in Einheit 4 („BE Q1/2“ → „kennst du seit Q1 oder Q2 – je nach Buch“). Das Prüfungswort aus „GK · Abitur GK · Abitur LK“ steht als „Abitur GK“.
+Vorlage: Die Kopfzeile der Zonen-Datei lautet doppelt „Kurvenuntersuchung · Kennst du schon · Kennst du schon“. Eine leere Kurzform ließe ein „·“ am Ende stehen, ein leeres Blatt-Argument ergäbe „· ·“.
+Protokoll-Archiv: Kurvenuntersuchung_2026-09-26_protokoll.zip
+
+---
+Nur für den Aufrufer (nicht Teil der Chat-Fassung):
+- Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\9-kurven-12-be.
+- Umfang: Zone 4 Seiten (Nr. 1–8), Lernblatt 14 Seiten (Nr. 9–44), Gesamt 19 Seiten, Lösungen 4 Seiten mit allen 44 Nummern.
+- Nachgerechnet: pruef.py zeigt für die Zone und für alle fünf Einheiten 0 Abweichungen.
+- Log: keine mathblatt-Warnungen, keine Overfull-Boxen.
+- Verzeichniszeile: alle Sprungziele mit pypdf geprüft.
+- Zeiten ab t0: Zone 913 s, E1 1036 s, E2 1180 s, E3 1404 s, E4 1568 s, E5 1595 s, Lernblatt 1671 s, Gesamt 1695 s, Lösungen 1731 s. „e 3“ und „e 4“ enthalten das Schreiben der jeweils nächsten Einheit.
+- Das Archiv enthält 59 Dateien, darunter die Prüf-PDFs _pruef_*.pdf der einzelnen Einheiten.
+- Ein Korrekturaufruf wurde vom Werkzeug abgelehnt: Remove-Item auf PNG-Dateien wurde als Systempfad gewertet. Dabei ging nichts verloren.

@@ -1,0 +1,46 @@
+1a y-Achse               Skript [2.0]  Blatt [2.0]  OK
+1b H x,y                 Skript [-2.0, 4.0]  Blatt [-2.0, 4.0]  OK
+1c T x,y                 Skript [0.0, 2.0]  Blatt [0.0, 2.0]  OK
+1d Nullstellen           Skript [-4.0, 2.0]  Blatt [-4.0, 2.0]  OK
+1e Berührstelle          Skript [2.0]  Blatt [2.0]  OK
+2a                       Skript [3.0]  Blatt [3.0]  OK
+2b                       Skript [0.0, 5.0]  Blatt [0.0, 5.0]  OK
+2c                       Skript [1.0, 5.0]  Blatt [1.0, 5.0]  OK
+2d                       Skript [-6.0, 6.0]  Blatt [-6.0, 6.0]  OK
+2e                       Skript [-3.0, 2.0]  Blatt [-3.0, 2.0]  OK
+2f                       Skript [-2.0, 0.0, 2.0]  Blatt [-2.0, 0.0, 2.0]  OK
+2g                       Skript [-2.2361, 0.0, 2.2361]  Blatt [-2.2361, 0.0, 2.2361]  OK
+2h                       Skript [2.0]  Blatt [2.0]  OK
+3                        Skript [-4.0, 0.0, 4.0]  Blatt [-4.0, 0.0, 4.0]  OK
+4a                       Skript [-3.0, 0.0, 3.0]  Blatt [-3.0, 0.0, 3.0]  OK
+4b                       Skript [0.0, 7.0]  Blatt [0.0, 7.0]  OK
+5a                       Skript [-4.0, 0.5, 32.0]  Blatt [-4.0, 0.5, 32.0]  OK
+5b                       Skript [-10.0, 5.0, 20.0]  Blatt [-10.0, 5.0, 20.0]  OK
+5c                       Skript [-4.5, 0.0, 18.0]  Blatt [-4.5, 0.0, 18.0]  OK
+5d                       Skript [-6.0, 1.875, 3.0]  Blatt [-6.0, 1.875, 3.0]  OK
+5e                       Skript [0.2707, 5.4366, 109.1963]  Blatt [0.2707, 5.4366, 109.1963]  OK
+5f                       Skript [0.0, 2.4731, 22.1672]  Blatt [0.0, 2.4731, 22.1672]  OK
+5g                       Skript [0.2707, 2.1229, 13.5914]  Blatt [0.2707, 2.1229, 13.5914]  OK
+5h f'                    Skript [-10.0, -1.0, 8.0]  Blatt [-10.0, -1.0, 8.0]  OK
+5h f''                   Skript [-3.0, 24.0, 24.0]  Blatt [-3.0, 24.0, 24.0]  OK
+5i f'                    Skript [-0.1353, 5.4366, 272.9908]  Blatt [-0.1353, 5.4366, 272.9908]  OK
+5i f''                   Skript [0.0, 16.3097, 655.1778]  Blatt [0.0, 16.3097, 655.1778]  OK
+6a                       Skript [1.0]  Blatt [1.0]  OK
+6b                       Skript [1.0]  Blatt [1.0]  OK
+6c                       Skript [-2.0]  Blatt [-2.0]  OK
+6d                       Skript [0.625]  Blatt [0.625]  OK
+6e                       Skript [1.0]  Blatt [1.0]  OK
+6f                       Skript [0.0]  Blatt [0.0]  OK
+6g P(2|1) ja=1           Skript [1.0]  Blatt [1.0]  OK
+6h f(-2)                 Skript [-15.0]  Blatt [-15.0]  OK
+7a Nullst.               Skript [-1.0, 2.0]  Blatt [-1.0, 2.0]  OK
+7a Scheitel              Skript [-2.25, 0.5]  Blatt [-2.25, 0.5]  OK
+7b Nullst.               Skript [-2.0, 2.0]  Blatt [-2.0, 2.0]  OK
+7c Nullst.               Skript [-2.0, 0.0, 2.0]  Blatt [-2.0, 0.0, 2.0]  OK
+8a q'(0)<0               Skript [-2.0]  Blatt [-2.0]  OK
+8b q'(2)                 Skript [0.0]  Blatt [0.0]  OK
+8c q'(4)>0               Skript [2.0]  Blatt [2.0]  OK
+8d Tangentensteigung A   Skript [-2.0]  Blatt [-2.0]  OK
+8 C auf q                Skript [1.0]  Blatt [1.0]  OK
+8e q(0)=q(4)             Skript [1.0, 1.0]  Blatt [1.0, 1.0]  OK
+Abweichungen: 0

@@ -1,0 +1,30 @@
+38 h(0),h(4),h(8),h(12)  Skript [2.0, 18.0, 10.0, 2.0]  Blatt [2.0, 18.0, 10.0, 2.0]  OK
+38a-c steigt bis 4, dann faellt Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+38d h'=0                 Skript [4.0, 12.0]  Blatt [4.0, 12.0]  OK
+38e staerkstes Sinken (min h') Skript [8.0]  Blatt [8.0]  OK
+38f h(8)                 Skript [10.0]  Blatt [10.0]  OK
+39a groesste Hoehe, Zeit Skript [100.0, 5.0]  Blatt [100.0, 5.0]  OK
+39a z(7)                 Skript [56.0]  Blatt [56.0]  OK
+39b Max bei t=6, Wert    Skript [6.0, 492.0]  Blatt [6.0, 492.0]  OK
+39b n''(6)               Skript [-72.0]  Blatt [-72.0]  OK
+39c hoechste Temp., Zeit Skript [28.0, 10.0]  Blatt [28.0, 10.0]  OK
+39c lokale Extrema Stellen Skript [2.0, 6.0]  Blatt [2.0, 6.0]  OK
+39c lokale Extrema Werte Skript [15.2, 12.0]  Blatt [15.2, 12.0]  OK
+39c lokale Extrema Art   Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+39d G'=0                 Skript [-10.0, 30.0]  Blatt [-10.0, 30.0]  OK
+39d G''(30)              Skript [-1.2]  Blatt [-1.2]  OK
+39d Max G, Stelle        Skript [170.0, 30.0]  Blatt [170.0, 30.0]  OK
+39d G(0), G(50)          Skript [-100.0, -150.0]  Blatt [-100.0, -150.0]  OK
+40a min w', Zeit         Skript [-6.0, 4.0]  Blatt [-6.0, 4.0]  OK
+40a w(4)                 Skript [208.0]  Blatt [208.0]  OK
+40b min p', Zeit         Skript [-4.0601, 6.0]  Blatt [-4.06, 6.0]  OK
+40c max f', Stelle       Skript [0.6, 20.0]  Blatt [0.6, 20.0]  OK
+40c Winkel in Grad       Skript [30.9638]  Blatt [31.0]  OK
+41a Breite cm, Tiefe cm  Skript [20.0, 5.0]  Blatt [20.0, 5.0]  OK
+41b Breite cm, Tiefe cm  Skript [30.0, 8.0]  Blatt [30.0, 8.0]  OK
+42a min V', Zeit         Skript [-12.0, 5.0]  Blatt [-12.0, 5.0]  OK
+42a V'(0), V'(8)         Skript [63.0, 15.0]  Blatt [63.0, 15.0]  OK
+42b Breite cm            Skript [100.0]  Blatt [100.0]  OK
+44a max N', Tag          Skript [5.0, 7.5]  Blatt [5.0, 7.5]  OK
+44c N'>0 auf ]0;10[ (min N' innen) Skript [1.0]  Blatt [1.0]  OK
+Abweichungen: 0

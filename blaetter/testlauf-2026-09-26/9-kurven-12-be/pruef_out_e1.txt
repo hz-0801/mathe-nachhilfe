@@ -1,0 +1,30 @@
+9a Vorz.                 Skript [1.0]  Blatt [1.0]  OK
+9b Vorz.                 Skript [-1.0]  Blatt [-1.0]  OK
+9c Vorz.                 Skript [-1.0]  Blatt [-1.0]  OK
+9d Vorz.                 Skript [-1.0]  Blatt [-1.0]  OK
+10a Grenzen              Skript [-2.0, 2.0]  Blatt [-2.0, 2.0]  OK
+10a +-+                  Skript [1.0, -1.0, 1.0]  Blatt [1.0, -1.0, 1.0]  OK
+10b Grenzen              Skript [-1.0, 3.0]  Blatt [-1.0, 3.0]  OK
+10b -+-                  Skript [-1.0, 1.0, -1.0]  Blatt [-1.0, 1.0, -1.0]  OK
+10c a>0 (steigt-fällt-steigt) Skript [1.0]  Blatt [1.0]  OK
+10d Grenzen              Skript [1.0, 3.0]  Blatt [1.0, 3.0]  OK
+10d +-+                  Skript [1.0, -1.0, 1.0]  Blatt [1.0, -1.0, 1.0]  OK
+10d Wertebereich         Skript [0.0, 20.0]  Blatt [0.0, 20.0]  OK
+11a f'>0                 Skript [1.0]  Blatt [1.0]  OK
+11b f'>0                 Skript [1.0]  Blatt [1.0]  OK
+11c f'>0                 Skript [1.0]  Blatt [1.0]  OK
+11d f'>0                 Skript [1.0]  Blatt [1.0]  OK
+11e f'>0                 Skript [1.0]  Blatt [1.0]  OK
+11f f'>0                 Skript [1.0]  Blatt [1.0]  OK
+11g f'>0                 Skript [1.0]  Blatt [1.0]  OK
+11e Diskriminante        Skript [-8.0]  Blatt [-8.0]  OK
+12a Grenzen              Skript [0.0, 4.0]  Blatt [0.0, 4.0]  OK
+12a +-+                  Skript [1.0, -1.0, 1.0]  Blatt [1.0, -1.0, 1.0]  OK
+12b Grenze               Skript [3.0]  Blatt [3.0]  OK
+13b f streng steigend (f(1)>f(0)>f(-1)) Skript [1.0]  Blatt [1.0]  OK
+14a A steigt bis         Skript [8.0]  Blatt [8.0]  OK
+14a A +-                 Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+14a B steigt bis         Skript [5.0]  Blatt [5.0]  OK
+14a B +-                 Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+14b Differenz            Skript [3.0]  Blatt [3.0]  OK
+Abweichungen: 0

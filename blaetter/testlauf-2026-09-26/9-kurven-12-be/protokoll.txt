@@ -1,0 +1,180 @@
+Prompt: Unterrichtsblatt-Prompt v4.4
+Modell: Claude Opus 5.5
+Vorlage: % Version 2026-09-28a (Stufe 6: Bausteine aus den Lesebefunden des Lehrers vom 26.09.2026 zu zwei
+Katalog: kurvenuntersuchung.md, Status: Entwurf 2026-09-19 (Pilot der Sek-II-Eintragsform nach konzept.md § 4 Entscheidung 36; erster Sek-II-Eintrag des Katalogs; Rohdatei rohdaten/kurvenuntersuchung.md, Stand 2026-09-19, Commit 16e5c1f, 150 Zeilen; nachgezogen 2026-09-28 auf 161 Zeilen, Rohdatei-Stand ca3237b; nachgezogen 2026-09-29 auf 174 Zeilen, Rohdatei-Stand 3de052e) · Stufe: Sek II · Bildungsgänge: gymnasiale Oberstufe Berlin und Brandenburg, Qualifikationsphase Q1 (Grundkurs-Kern; Leistungskurs-Zusatz weitere Funktionsklassen und Ortskurven), Fachoberschule Brandenburg (RLP FOS 2019, Pflichtthema 2 „Differentialrechnung“, Thema „Funktionsuntersuchungen“) · gegengelesen: nein
+Bestellung: mit Wiederholung · mit Ausblick (Register der Blätter führt das Thema nicht; kein Ausblick-Zweig, alle Marken Q1 bzw. Q1/2)
+Standpunkt: Kl. 12 Berlin (Q3/Q4), Gymnasium, Abitur-Gang, Grundkurs
+
+Zweige (alle gebaut, keiner abgewählt, kein Ausblick-Zweig):
+  Zone Kennst du schon (Nr. 1–8): 6 Fertigkeiten des Abschnitts Voraussetzungen, dazu Fehler finden (Nr. 3) und die gleichartige Rechenaufgabe (Nr. 4)
+  Einheit 1 von 5 · Monotonie und erste Ableitung – Hier lernst du, am Vorzeichen der Ableitung abzulesen und am Term nachzuweisen, wo ein Graph steigt oder fällt · kennst du seit Q1 · Abitur GK · baut auf: Gleichungen lösen, Ableitungen bilden (Nr. 2–5)
+  Einheit 2 von 5 · Extrempunkte – Hier lernst du, Hoch-, Tief- und Sattelpunkte zu berechnen und an einer gegebenen Stelle nachzuweisen, auch den größten Wert am Rand · kennst du seit Q1 · Abitur GK · baut auf: Monotonie (Einheit 1), Gleichungen lösen, Ableitungen bilden, Funktionswerte (Nr. 2–6)
+  Einheit 3 von 5 · Krümmung und Wendepunkte – Hier lernst du, mit der zweiten Ableitung Krümmung und Wendepunkte zu bestimmen und an einer gegebenen Stelle nachzuweisen · kennst du seit Q1 · Abitur GK · baut auf: Extrempunkte (Einheit 2), Gleichungen lösen, Ableitungen bilden (Nr. 2–5)
+  Einheit 4 von 5 · Graph und Ableitungsgraph – Hier lernst du, vom Graphen von f auf den Graphen von f' zu schließen und umgekehrt und Graphen aus Eigenschaften zu skizzieren · kennst du seit Q1 oder Q2 – je nach Buch · Abitur GK · baut auf: Einheit 1 bis 3, Ableitung als Steigung (Nr. 8)
+  Einheit 5 von 5 · Kurvenuntersuchung im Sachzusammenhang – Hier lernst du, Sachfragen in Hoch-, Tief- und Wendepunkte zu übersetzen und die Ergebnisse mit Einheit zu deuten · kennst du seit Q1 · Abitur GK · baut auf: Einheit 1 bis 4, Ableitung als Änderungsrate (Nr. 8)
+
+Hauptnummern mit Titel:
+Kennst du schon:
+    1. Ich kann Hochpunkte, Tiefpunkte und Achsenschnittpunkte an einem Graphen ablesen.
+    2. Ich kann Gleichungen durch Ausklammern und mit der Lösungsformel lösen.
+    3. Ich finde den Fehler beim Lösen einer Gleichung durch Teilen.
+    4. Ich kann eine Gleichung lösen, ohne durch $x$ zu teilen.
+    5. Ich kann Ableitungen bilden.
+    6. Ich kann Funktionswerte berechnen und die Punktprobe machen.
+    7. Ich kann den Verlauf eines Graphen am Funktionsterm grob skizzieren.
+    8. Ich kann die Ableitung als Steigung des Graphen und als Änderungsrate deuten.
+Einheit 1 · Monotonie und erste Ableitung:
+  Monotonie aus der Ableitung bestimmen:
+    9. Ich kann am Vorzeichen der Ableitung ablesen, ob der Graph steigt oder fällt.
+    10. Ich kann die Monotonieintervalle einer Funktion bestimmen.
+  Monotonie am Term nachweisen:
+    11. Ich kann am Term der Ableitung nachweisen, dass ein Graph überall steigt.
+    12. Ich finde den Fehler bei Monotonieintervallen.
+    13. Ich kann begründen, ob ein Graph überall steigt.
+    14. Ich kann die Monotoniebereiche zweier Modelle vergleichen.
+Einheit 2 · Extrempunkte:
+    15. Ich erkenne, ob eine Stelle gegeben ist oder gesucht wird.
+    16. Ich erkenne, welcher Nachweis für die Art des Punktes passt.
+  Extrempunkte berechnen:
+    17. Ich kann Extrempunkte berechnen.
+    18. Ich kann Extrempunkte berechnen – weiter.
+  Extrempunkte nachweisen:
+    19. Ich kann nachweisen, dass an einer gegebenen Stelle ein Extrempunkt liegt.
+    20. Ich finde den Fehler bei der Bestimmung von Extrempunkten.
+    21. Ich kann Aussagen über Extrempunkte begründen.
+    22. Ich kann mit Extrempunkten eine Bedingung im Sachzusammenhang prüfen.
+Einheit 3 · Krümmung und Wendepunkte:
+  Wendepunkte berechnen:
+    23. Ich kann Wendepunkte berechnen.
+    24. Ich kann angeben, wo ein Graph links- und wo er rechtsgekrümmt ist.
+  Wendepunkte nachweisen:
+    25. Ich kann nachweisen, dass an einer gegebenen Stelle ein Wendepunkt liegt.
+    26. Ich finde den Fehler bei Krümmung und Wendepunkten.
+    27. Ich kann begründen, wann ein Wendepunkt vorliegt.
+    28. Ich kann Krümmung im Sachzusammenhang deuten.
+Einheit 4 · Graph und Ableitungsgraph:
+    29. Ich kann am Graphen von $f$ ablesen, wo $f'$ positiv, negativ oder null ist.
+    30. Ich kann am Graphen von $f'$ ablesen, was der Graph von $f$ macht.
+    31. Ich kann die Graphen von $f$ und $f'$ aus berechneten Werten zeichnen.
+    32. Ich kann einen möglichen Graphen zu gegebenen Eigenschaften skizzieren.
+    33. Ich kann Aussagen über Graphen und Ableitungen beurteilen.
+    34. Ich finde den Fehler beim Lesen von Graph und Ableitungsgraph.
+    35. Ich kann Zusammenhänge zwischen $f$ und $f'$ begründen.
+    36. Ich kann aus dem Graphen einer Änderungsrate auf den Bestand schließen.
+Einheit 5 · Kurvenuntersuchung im Sachzusammenhang:
+    37. Ich erkenne, was eine Sachfrage mathematisch bedeutet.
+  Verlauf am Graphen beschreiben:
+    38. Ich kann den Verlauf eines Graphen im Sachzusammenhang beschreiben.
+  Größter und kleinster Wert:
+    39. Ich kann den größten Wert im Sachzusammenhang berechnen.
+  Stärkste Zunahme und Abnahme:
+    40. Ich kann berechnen, wann eine Größe am stärksten zu- oder abnimmt.
+  Maße aus einem Profil:
+    41. Ich kann Maße eines Profils mit einem Maßstab berechnen.
+    42. Ich finde den Fehler bei Sachaufgaben zur Kurvenuntersuchung.
+    43. Ich kann Ergebnisse im Sachzusammenhang begründen.
+    44. Ich kann den Wendepunkt im Sachzusammenhang deuten.
+
+Zählung je Datei (Textextraktion der Kompilate; Grafiken = Koordinatensysteme aus den Quelltexten):
+Kurvenuntersuchung_KennstDuSchon.pdf: Hauptnummern 8 (1–8), Teilaufgaben 43, Grafiken 5, Seiten 4
+Kurvenuntersuchung_Lernblatt.pdf: Hauptnummern 36 (9–44), Teilaufgaben 136, Grafiken 8, Seiten 14
+  Verzeichniszeile: 1 Monotonie und erste Ableitung (Nr. 9–14) • 2 Extrempunkte (Nr. 15–22) • 3 Krümmung und Wendepunkte (Nr. 23–28) • 4 Graph und Ableitungsgraph (Nr. 29–36) • 5 Kurvenuntersuchung im Sachzusammenhang (Nr. 37–44) • Das kann ich
+Kurvenuntersuchung_Gesamt.pdf: Hauptnummern 44 (1–44), Teilaufgaben 179, Grafiken 13, Seiten 19
+  Verzeichniszeile: Kennst du schon (Nr. 1–8) • 1 Monotonie und erste Ableitung (Nr. 9–14) • 2 Extrempunkte (Nr. 15–22) • 3 Krümmung und Wendepunkte (Nr. 23–28) • 4 Graph und Ableitungsgraph (Nr. 29–36) • 5 Kurvenuntersuchung im Sachzusammenhang (Nr. 37–44) • Das kann ich
+Kurvenuntersuchung_Loesungen.pdf: Nummern mit Lösung 44 (1–44), Lösungsgrafiken 7, Seiten 4
+
+Schritte (Schritt · Anlass):
+1 · Read unterrichtsblatt.md Z. 1–754 · Anleitung lesen
+2 · Read unterrichtsblatt.md Z. 755–1448 · Anleitung zu Ende lesen
+3 · PowerShell · Arbeitsverzeichnis anlegen, Stempel t0 (allein)
+4 · PowerShell · Themenregister und Register der Blätter per curl geholt
+5 · Grep katalog_index.md · Sek-II-Zeilen suchen (Ausgabe über 30 KB)
+6 · Read katalog_index.md Z. 36–85 · Sek-II-Tabelle lesen, Datei kurvenuntersuchung.md gewählt
+7 · PowerShell · Register der Blätter ausgeben: Thema nicht geführt → mit Ausblick
+8 · PowerShell · Eintrag kurvenuntersuchung.md per curl geholt
+9 · Read Eintrag Z. 1–81 · Eintrag lesen
+10 · Read Eintrag Z. 82–121 · Eintrag lesen
+11 · Read Eintrag Z. 122–165 · Eintrag zu Ende lesen
+12 · PowerShell · mathblatt.sty und Anleitung_mathblatt.md per curl geholt
+13 · Read Anleitung Z. 1–275 · Bausteine lesen
+14 · Read Anleitung Z. 276–391 · Bausteine zu Ende lesen
+15 · mark_chapter · Kapitelmarke der Sitzung
+16 · Write zone_a.tex · Zone geschrieben
+17 · PowerShell · Korrektur zone_a: Tangente hieß t, t ist in f) die Zeit → s; Punkt C fehlte im Bild
+18 · Write zone_l.tex · Lösungen Zone
+19 · Write pruef.py · Prüfskript für alle Einheiten (Teil zone)
+20 · Write Kurvenuntersuchung_KennstDuSchon.tex · Rahmendatei Zone
+21 · PowerShell · pruef.py zone (0 Abweichungen), xelatex Zone und Prüfrahmen Lösungen, Log, Rendern
+22 · Read zone-1.png · Seite mit Ablesegrafik Nr. 1
+23 · Read zone-3.png · Seite mit Zeichenflächen Nr. 7
+24 · Read zone-4.png · Seite mit Ablesegrafik Nr. 8
+25 · Read zone-2.png · Seite 2 (Gleichungsraster, Punktprobe)
+26 · Read zonel-1.png · Lösungsgrafik Nr. 7
+27 · PowerShell · Korrektur, vom Werkzeug abgelehnt (Remove-Item auf PNG-Muster als Systempfad gewertet), nichts geändert
+28 · PowerShell · Korrektur Zone: Kopfzeile „Kennst du schon · Kennst du schon“ (Kurzform leer gesetzt), Nr. 7 drei Zeichenflächen zu hoch (ymax 5 → 4), Nr. 8 Labels q und s überlagert (Tangente von C nach A verlegt, Lösung d) −2)
+29 · PowerShell · Test Kopfzeile mit leerem Blatt-Argument: „Kurvenuntersuchung · · Kennst du schon“ – verworfen, Kurzform „Kennst du schon“ zurück
+30 · PowerShell · Zone final kompiliert, Stempel zone
+31 · Read zonec-4.png · geänderte Seite Nr. 8
+32 · Write e1_a.tex · Einheit 1
+33 · Write e1_l.tex · Lösungen Einheit 1
+34 · Edit pruef.py · Teil e1
+35 · PowerShell · Stempel weiter, pruef.py e1: 2 Abweichungen (Skriptfehler: Randnullstelle t = 0 als Grenze gezählt; Vorzeichenfolgen sortiert verglichen), xelatex, Textextraktion
+36 · PowerShell · Korrektur: gerade Anführungszeichen als „…“ gesetzt (babel-Kurzbefehl schluckte das Leerzeichen: „monoton.”Hat“), Minus nach | als {-} („T (3 | − 1)“), pruef.py geordneter Vergleich; 0 Abweichungen; Stempel e 1
+37 · Write e2_a.tex · Einheit 2
+38 · Write e2_l.tex · Lösungen Einheit 2
+39 · PowerShell · Lösung 21a: Beispiel f(x) = x³ (Kastenfunktion) durch x³ + 1 ersetzt
+40 · Edit pruef.py · Teil e2
+41 · Edit pruef.py · 19e prüfte einen Tiefpunkt mit, der nicht auf dem Blatt steht – auf die gefragte Stelle beschränkt
+42 · PowerShell · pruef.py e2 (0 Abweichungen), xelatex, Log, Textextraktion
+43 · PowerShell · Seite 1 rendern (Vorstufen), Stempel e 2
+44 · Read e2v-1.png · Vorstufen Nr. 15/16
+45 · Write e3_a.tex · Einheit 3
+46 · Write e3_l.tex · Lösungen Einheit 3
+47 · Edit pruef.py · Teil e3
+48 · PowerShell · pruef.py 27a zählte Nullstellen statt Vorzeichenwechsel (Skriptfehler); Zone Nr. 8f W(t) → V(t), weil W der Wendepunkt ist; pruef.py e3 (0 Abweichungen), xelatex, Log
+49 · Write e4_a.tex · Einheit 4
+50 · Write e4_l.tex · Lösungen Einheit 4
+51 · Edit pruef.py · Teil e4
+52 · PowerShell · Stempel e 3 (verspätet, siehe Zeiten), pruef.py e4 (0 Abweichungen), xelatex, Log, alle Seiten rendern
+53 · Read e4v-1.png · Ablesegrafiken Nr. 29/30
+54 · Read e4v-2.png · Zeichenflächen Nr. 31
+55 · Read e4v-3.png · Zeichenflächen Nr. 32, Ablesegrafik Nr. 33
+56 · Read e4v-4.png · Ablesegrafik Nr. 36
+57 · Read e4v-5.png · Lösungsgrafiken Nr. 31/32
+58 · PowerShell · Korrektur Nr. 31: zweite Wertetabelle mit \qquad eingerückt und versetzt → untereinander; karo=0.8 am \ableitungspaar gesetzt
+59 · Read e4w-2.png · geänderte Seite Nr. 31
+60 · Write e5_a.tex · Einheit 5
+61 · Write e5_l.tex · Lösungen Einheit 5
+62 · Edit pruef.py · Teil e5
+63 · PowerShell · Stempel e 4 (verspätet), pruef.py e5 bricht ab: „AttributeError: 'BooleanTrue' object has no attribute 'evalf'“ (Skriptfehler 44c), xelatex, Log
+64 · PowerShell · pruef.py 44c korrigiert, e5: 0 Abweichungen
+65 · Read e5v-1.png · Ablesegrafik Nr. 38
+66 · PowerShell · Korrektur Nr. 37e: Antwortfeld „Nummer“ brach in eigene Zeile um → Aufgabentext gekürzt; xelatex; Stempel e 5
+67 · Write gen_abhak.py · Abhakseiten wortgleich aus den Quelltexten
+68 · PowerShell · gen_abhak.py: Nummernbereiche 1–8 · 9–14 · 15–22 · 23–28 · 29–36 · 37–44
+69 · PowerShell · Rahmendateien Lernblatt, Gesamt, Lösungen geschrieben
+70 · PowerShell · Zone neu kompiliert (Änderung V(t)), Lernblatt zweimal xelatex, Kopfzeilen, Nummernfolge; Stempel lernblatt
+71 · PowerShell · Gesamt zweimal xelatex, Kopfzeilen je Seite, Nummernfolge 1–44; Stempel gesamt
+72 · PowerShell · Abhakseiten des Gesamt rendern
+73 · Read gesabh-18.png · Abhakseite
+74 · Read ges-01.png · Seite 1 Gesamt mit Verzeichniszeile
+75 · PowerShell · Lösungen zweimal xelatex, Nummern 1–44, Kopfzeilen, Sprungziele der Verzeichniszeilen mit pypdf geprüft; Stempel loesungen
+76 · Write mk_protokoll.py · Protokoll, chat.txt und Archiv
+77 · Edit mk_protokoll.py · chat.txt direkt im Skript statt aus einer Vorlagendatei
+78 · Edit mk_protokoll.py · Ausgabeblock direkt im Skript; Schrittliste nachgeführt
+79 · PowerShell · mk_protokoll.py: Teilaufgaben im Lernblatt und Gesamt als 0 gezählt – der Schnitt „Das kann ich“ traf schon die Verzeichniszeile
+80 · PowerShell · Zählung korrigiert (Schnitt an der letzten Stelle), protokoll.txt, chat.txt und Archiv neu
+
+Vorlage: fehlende Bausteine · Warnungen aus dem Log: keine · keine (keine Package-mathblatt-Warnung, keine Overfull-Box in Zone, Einheiten, Lernblatt, Gesamt, Lösungen). Befund: Kopfzeile der Zonen-Datei lautet „Kurvenuntersuchung · Kennst du schon · Kennst du schon“ – eine leere Kurzform ergibt „Kurvenuntersuchung · Kennst du schon ·“, ein leeres Blatt-Argument „Kurvenuntersuchung · · Kennst du schon“.
+Korrekturrunden: 12 von 80 Schritten (17, 27, 28, 29, 36, 39, 41, 48, 58, 64, 66, 80)
+Zone: 913 s
+Weiter: 1002 s (kein Klick – unbeaufsichtigter Testlauf; gesetzt im ersten Aufruf der Einheitenphase, nach dem Schreiben von e1_a/e1_l)
+E 1: 1036 s
+E 2: 1180 s
+E 3: 1404 s
+E 4: 1568 s
+E 5: 1595 s
+Lernblatt: 1671 s
+Gesamt: 1695 s
+Lösungen: 1731 s
+Zeitenhinweis: „e 3“ und „e 4“ stehen nicht im Aufruf, der die Einheit fertig geprüft hat (48 bzw. 58/59), sondern am Anfang des jeweils nächsten Prüfaufrufs (52 bzw. 63); sie enthalten damit das Schreiben der Folgeeinheit. Nichts nachgetragen oder rekonstruiert.

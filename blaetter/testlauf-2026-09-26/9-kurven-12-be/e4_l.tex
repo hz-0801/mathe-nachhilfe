@@ -1,0 +1,34 @@
+% Lösungen Einheit 4
+\einheitenkopf[][4 Graph und Ableitungsgraph]{Einheit 4 von 5 · Graph und Ableitungsgraph}
+
+\erg{29}{a) $x = -2$, $x = 0$, $x = 2$ \quad b) $-2 < x < 0$ und $2 < x \le 3$ \quad c) $-3 \le x < -2$ und $0 < x < 2$ \quad d) negativ, der Graph fällt bei $x = 1$ \quad e) Wendepunkt bei $x \approx 1{,}15$ ($y \approx -1{,}2$): Dort fällt der Graph, also $f' < 0$; im Wendepunkt ist der Graph zwischen Hochpunkt $(0\,|\,1)$ und Tiefpunkt $(2\,|\,{-}3)$ am steilsten, $f'$ hat dort seinen kleinsten Wert.}
+
+\erg{30}{a) $f'(1) = -2$ \quad b) $x = 1$ (Tiefpunkt von $f'$) \quad c) $x = -1$: $f'$ wechselt von $+$ nach $-$, Hochstelle; $x = 3$: $f'$ wechselt von $-$ nach $+$, Tiefstelle \quad d) für $x \le -1$ und für $x \ge 3$ (dort ist $f' \ge 0$)}
+
+\erg{31}{a) $f$: $-2;\ 0;\ -1;\ -2;\ 0$ \quad $f'(x) = 1{,}5x^2 - 3x$: $4{,}5;\ 0;\ -1{,}5;\ 0;\ 4{,}5$ \quad b) siehe Skizze \quad c) $f'$ ist null bei $x = 0$ und $x = 2$: Hochpunkt $H(0\,|\,0)$ und Tiefpunkt $T(2\,|\,{-}2)$ von $f$}
+
+\begin{ksys}[xmin=-2,xmax=4,ymin=-3,ymax=2,klein]
+  \funktion{0.5*\x^3-1.5*\x^2}{f}
+\end{ksys}\ksysabstand\begin{ksys}[xmin=-2,xmax=4,ymin=-2,ymax=5,klein]
+  \funktion{1.5*\x^2-3*\x}{f'}
+\end{ksys}
+
+\erg{32}{a) Kurve dritten Grades: von links unten steigend bis $H(-1\,|\,3)$, fallend bis $T(2\,|\,{-}2)$, dann steigend \quad b) von links oben fallend, in $S(0\,|\,2)$ waagerecht ohne Richtungswechsel, weiter fallend bis $T(2\,|\,{-}1)$, dann steigend (z.\,B. $f(x) = \tfrac{9}{16}x^4 - \tfrac{3}{2}x^3 + 2$) \quad c) $f'$ hat bei 0 eine doppelte Nullstelle (kein Vorzeichenwechsel) und bei 2 eine einfache, also mindestens Grad 3; $f$ hat mindestens Grad 4.}
+
+\begin{ksys}[xmin=-3,xmax=4,ymin=-3,ymax=4,klein]
+  \funktion{(10/27)*\x^3-(5/9)*\x^2-(20/9)*\x+46/27}{f}
+  \hochpunkt{-1}{3}{H}
+  \tiefpunkt{2}{-2}{T}
+\end{ksys}\ksysabstand\begin{ksys}[xmin=-3,xmax=4,ymin=-3,ymax=4,klein]
+  \funktion{(9/16)*\x^4-1.5*\x^3+2}{f}
+  \wendepunkt[0]{0}{2}{S}
+  \tiefpunkt{2}{-1}{T}
+\end{ksys}
+
+\erg{33}{a) wahr: dort ist $d(x) > 0$, also $f(x) > g(x)$ \quad b) wahr: $d$ hat bei 2,5 seinen Hochpunkt, also $d'(2{,}5) = f'(2{,}5) - g'(2{,}5) = 0$ \quad c) $f''(x) = 6x - 12$, $W(2\,|\,4)$, $f'(2) = -2$, Normale mit Steigung $\tfrac{1}{2}$: $n(x) = 0{,}5x + 3$ – (1) wahr; $f'(x) = 3x^2 - 12x + 10 = 3(x - 2)^2 - 2 \ge -2$ – (2) falsch}
+
+\erg{34}{a) Ein Tiefpunkt von $f'$ ist eine Wendestelle von $f$, kein Extrempunkt: $f$ hat bei $x = 1$ einen Wendepunkt (dort fällt oder steigt $f$ am stärksten). \quad b) Max verwechselt Funktionswert und Ableitung: $f(2) = 3$; $f'(2)$ ist die Steigung der Tangente in $P$ und muss daran abgelesen werden.}
+
+\erg{35}{a) An Hoch- und Tiefpunkten ist die Tangente waagerecht, die Steigung also null – und $f'$ gibt die Steigung an. \quad b) Beim Ableiten sinkt jeder Exponent um eins: aus $ax^3$ wird $3ax^2$, der höchste Grad ist 2, der Graph von $f'$ ist eine Parabel.}
+
+\erg{36}{a) für $1 < t < 7$ ($r > 0$) \quad b) bei $t = 7$: bis dahin fließt Wasser zu, danach ab (Vorzeichenwechsel von $r$ von $+$ nach $-$); der Zufluss von 1 bis 7 ist größer als der Abfluss von 0 bis 1 \quad c) bei $t = 4$, dort ist die Rate mit 4,5 m$^3$ pro Stunde am größten (Wendestelle der Wassermenge)}

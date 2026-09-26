@@ -1,0 +1,108 @@
+% Zone „Kennst du schon" – Kurvenuntersuchung, Kl. 12 Berlin, Gymnasium GK
+\setcounter{aufgabe}{0}
+\einheitenkopf[zone][\zonekurz]{Das kennst du schon}
+
+\begin{aufgabe}{Ich kann Hochpunkte, Tiefpunkte und Achsenschnittpunkte an einem Graphen ablesen.}
+Lies am Graphen von $f$ ab.
+
+\begin{ksys}[xmin=-5,xmax=4,ymin=-2,ymax=5,ablesen]
+  \funktion{0.125*\x^3-1.5*\x+2}{f}
+\end{ksys}
+
+\begin{teile}
+\teil Schnittpunkt mit der $y$-Achse: \leerfeld
+\teil Hochpunkt: \leerfeld
+\teil Tiefpunkt: \leerfeld
+\teil Schnittpunkte mit der $x$-Achse: \leerfeld
+\teil An welcher Stelle berührt der Graph die $x$-Achse, ohne sie zu schneiden? \leerfeld
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Gleichungen durch Ausklammern und mit der Lösungsformel lösen.}
+Löse die Gleichung.
+\begin{gleichungsraster}[2]
+\gl{4x - 12 = 0} & \gl{x\,(x - 5) = 0} \\
+\gl{x^2 - 6x + 5 = 0} & \gl{x^2 - 36 = 0} \\
+\gl{6x^2 + 6x - 36 = 0} & \gl{x^3 - 4x = 0} \\
+\gl{x^4 - 5x^2 = 0} & \gl{(x - 2)\cdot e^{x} = 0} \\
+\end{gleichungsraster}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler beim Lösen einer Gleichung durch Teilen.}
+Lena löst die Gleichung $x^3 = 16x$ so:
+\rechnung{x^3 &= 16x &&\mid :x \\ x^2 &= 16 \\ x &= -4 \text{ oder } x = 4}
+\begin{teile}
+\teil Finde den Fehler, benenne ihn und korrigiere die Rechnung.
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann eine Gleichung lösen, ohne durch $x$ zu teilen.}
+Löse die Gleichung.
+\begin{gleichungsraster}[3]
+\gl{2x^3 = 18x} & \gl{x^4 = 7x^3} \\
+\end{gleichungsraster}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Ableitungen bilden.}
+Bilde die erste Ableitung.
+\begin{gleichungsraster}[1]
+\gl{f(x) = x^4} & \gl{f(x) = 5x^2} \\
+\gl{f(x) = 2x^3 - 6x^2 + 7} & \gl{f(x) = -\tfrac{1}{4}x^4 + 2x} \\
+\gl[2]{f(x) = e^{2x}} & \gl[2]{f(x) = x\cdot e^{x}} \\
+\gl[2]{f(x) = (x - 3)\cdot e^{-x}} & \\
+\anweisung{Bilde die erste und die zweite Ableitung.}
+\gl[2]{f(x) = x^4 - 2x^3} & \gl[3]{f(x) = x\cdot e^{2x}} \\
+\end{gleichungsraster}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Funktionswerte berechnen und die Punktprobe machen.}
+Gegeben sind $f(x) = x^3 - 2x^2 + 1$ und $g(x) = (x + 1)\cdot e^{x}$. Berechne den Funktionswert.
+\begin{teilezwei}
+\tz $f(0)$ = \leerfeld & \tz $f(2)$ = \leerfeld \\
+\tz $f(-1)$ = \leerfeld & \tz $f(0{,}5)$ = \leerfeld \\
+\tz $g(0)$ = \leerfeld & \tz $g(-1)$ = \leerfeld \\
+\anweisung{Prüfe, ob der Punkt auf dem Graphen von $f$ liegt.}
+\tz $P(2\,|\,1)$ \quad \janein & \tz $Q(-2\,|\,9)$ \quad \janein \\
+\end{teilezwei}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann den Verlauf eines Graphen am Funktionsterm grob skizzieren.}
+Skizziere den Graphen grob in das Koordinatensystem mit demselben Buchstaben. Trage zuerst die Nullstellen ein.
+\begin{teile}
+\teil $f(x) = (x - 2)(x + 1)$
+\teil $g(x) = -x^2 + 4$
+\teil $h(x) = -x^3 + 4x$
+\end{teile}
+
+\begin{ksys}[xmin=-3,xmax=3,ymin=-4,ymax=4]
+  \node[anchor=north west,font=\bfseries] at (-3,4) {a)};
+\end{ksys}\ksysabstand\begin{ksys}[xmin=-3,xmax=3,ymin=-4,ymax=4]
+  \node[anchor=north west,font=\bfseries] at (-3,4) {b)};
+\end{ksys}\ksysabstand\begin{ksys}[xmin=-3,xmax=3,ymin=-4,ymax=4]
+  \node[anchor=north west,font=\bfseries] at (-3,4) {c)};
+\end{ksys}
+
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Ableitung als Steigung des Graphen und als Änderungsrate deuten.}
+Gib an, ob der Graph von $q$ im Punkt steigt, fällt oder waagerecht verläuft und ob $q'$ dort positiv, negativ oder null ist.
+
+\begin{ksys}[xmin=-1,xmax=6,ymin=-2,ymax=4,ablesen]
+  \funktion{0.5*\x^2-2*\x+1}{q}
+  \tangentean*{0.5*\x^2-2*\x+1}{0}{s}
+  \punkt{0}{1}{A}
+  \punkt{2}{-1}{B}
+  \punkt{4}{1}{C}
+\end{ksys}
+
+\begin{teile}
+\teil im Punkt $A$: \leerfeld
+\teil im Punkt $B$: \leerfeld
+\teil im Punkt $C$: \leerfeld
+\anweisung{Lies ab und entscheide.}
+\teil Steigung der Tangente $s$ in $A$: \leerfeld
+\teil $A$ und $C$ haben denselben Funktionswert. Haben $q'(0)$ und $q'(4)$ auch denselben Wert? Begründe.
+\anweisung{Deute im Sachzusammenhang.}
+\teil $V(t)$ ist die Wassermenge in einem Becken in Litern, $t$ die Zeit in Minuten. Es gilt $V'(10) = -4$. Was bedeutet das?
+\end{teile}
+\end{aufgabe}

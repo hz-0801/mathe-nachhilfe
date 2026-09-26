@@ -1,0 +1,95 @@
+% Einheit 5 – Kurvenuntersuchung im Sachzusammenhang
+\setcounter{aufgabe}{36}
+\einheitenkopf[e5][5 Sachzusammenhang]{Einheit 5 von 5 · Kurvenuntersuchung im Sachzusammenhang}
+\zweigzeile{Hier lernst du, Sachfragen in Hoch-, Tief- und Wendepunkte zu übersetzen und die Ergebnisse mit Einheit zu deuten · kennst du seit Q1 · Abitur GK · baut auf: Einheit 1 bis 4, Ableitung als Änderungsrate (Nr. 8)}
+
+\begin{aufgabe}{Ich erkenne, was eine Sachfrage mathematisch bedeutet.}
+Trage die passende Nummer ein. Rechne nichts.\\
+(1) Hoch- oder Tiefpunkt von $f$, Randwerte vergleichen \quad (2) $f'(x) = 0$ \quad (3) Wendepunkt, also Extremstelle von $f'$ \quad (4) $f' > 0$ und $f'' < 0$
+\begin{teile}
+\teil „Wann war der Wasserstand am höchsten?“ \hfill Nummer: \leerfeld
+\teil „Wann nahm die Temperatur am stärksten ab?“ \hfill Nummer: \leerfeld
+\teil „Zu welchem Zeitpunkt ändert sich die Höhe gerade nicht?“ \hfill Nummer: \leerfeld
+\teil „In welchem Zeitraum wächst die Pflanze immer langsamer?“ \hfill Nummer: \leerfeld
+\teil „Wie viele Besucher waren von 8 bis 20 Uhr höchstens im Bad?“ \hfill Nummer: \leerfeld
+\end{teile}
+\end{aufgabe}
+
+\verfahren{Verlauf am Graphen beschreiben}
+\begin{aufgabe}{Ich kann den Verlauf eines Graphen im Sachzusammenhang beschreiben.}
+Der Graph zeigt den Wasserstand $h$ in einem Regenrückhaltebecken ($t$ in Stunden nach Regenbeginn, $h$ in Dezimetern). Beschreibe den Verlauf im Sachzusammenhang.
+
+\begin{ksys}[xmin=0,xmax=12,ymin=0,ymax=20,ystep=2,ablesen,xlabel=$t$,ylabel=$h(t)$]
+  \funktion{\x^3/16-1.5*\x^2+9*\x+2}{h}
+\end{ksys}
+
+\begin{teile}
+\teil von $t = 0$ bis $t = 4$
+\teil von $t = 4$ bis $t = 8$
+\teil von $t = 8$ bis $t = 12$
+\teil Zu welchen Zeitpunkten ändert sich der Wasserstand gerade nicht? \leerfeld
+\anweisung{Lies ab und deute.}
+\teil Wann sinkt der Wasserstand am schnellsten? \leerfeld
+\teil Wie hoch steht das Wasser zu diesem Zeitpunkt? \leerfeld
+\end{teile}
+\end{aufgabe}
+
+\verfahren{Größter und kleinster Wert}
+\begin{aufgabe}{Ich kann den größten Wert im Sachzusammenhang berechnen.}
+Berechne und antworte mit Einheit.
+\begin{teile}
+\teil Die Höhe einer Feuerwerksrakete ist $z(t) = -t^3 + 6t^2 + 15t$ ($t$ in Sekunden, $z$ in Metern, $0 \le t \le 7$). Berechne die größte Höhe.
+\teil Die Zahl der Besucher eines Freibads ist $n(t) = -4t^3 + 36t^2 + 60$ ($t$ in Stunden nach 9 Uhr, $0 \le t \le 9$). Weise nach, dass um 15 Uhr die meisten Besucher da sind, und berechne ihre Zahl.
+\teil Die Temperatur in einer Lagerhalle ist $\vartheta(t) = 0{,}1t^3 - 1{,}2t^2 + 3{,}6t + 12$ ($t$ in Stunden nach 8 Uhr, $0 \le t \le 10$, $\vartheta$ in $^\circ$C). Bestimme die höchste Temperatur in diesem Zeitraum.
+\anweisung{Deute einen fremden Lösungsweg.}
+\teil Ein Betrieb stellt täglich $x$ Stück eines Bauteils her ($0 \le x \le 50$). Der Erlös ist $E(x) = 40x$, die Kosten sind $K(x) = 0{,}01x^3 - 0{,}3x^2 + 31x + 100$ (in Euro). Jana rechnet:
+\rechnung{G(x) &= E(x) - K(x) = -0{,}01x^3 + 0{,}3x^2 + 9x - 100 \\ G'(x) &= -0{,}03x^2 + 0{,}6x + 9 = 0 \quad\Longleftrightarrow\quad x = 30 \quad (x = -10 \text{ entfällt}) \\ G''(30) &= -1{,}2 < 0 \\ G(30) &= 170}
+Beschreibe, was Jana in den einzelnen Schritten im Sachzusammenhang berechnet, und formuliere eine passende Aufgabenstellung. (IQB 2024 grundlegend)
+\end{teile}
+\end{aufgabe}
+
+\verfahren{Stärkste Zunahme und Abnahme}
+\begin{aufgabe}{Ich kann berechnen, wann eine Größe am stärksten zu- oder abnimmt.}
+Berechne und antworte mit Einheit.
+\begin{teile}
+\teil Der Wasserstand eines Flusses nach einem Unwetter ist $w(t) = 0{,}5t^3 - 6t^2 + 18t + 200$ ($t$ in Stunden, $0 \le t \le 8$, $w$ in Zentimetern). Bestimme, wann der Wasserstand am stärksten sinkt, und gib an, wie schnell er dann sinkt.
+\teil Die Pollenkonzentration in der Luft an einem Frühlingstag ist $p(t) = 30t\cdot e^{-t/3}$ ($t$ in Stunden nach 6 Uhr, $0 \le t \le 14$, $p$ in Pollen pro m$^3$). Bestimme, wann die Konzentration am stärksten abnimmt, und die Abnahmerate zu diesem Zeitpunkt.
+\teil Das Profil eines Skihangs wird für $0 \le x \le 40$ durch $f(x) = -0{,}0005x^3 + 0{,}03x^2$ beschrieben ($x$ und $f(x)$ in Metern). An keiner Stelle darf der Hang steiler als $30^\circ$ sein. Prüfe, ob der Hang diese Bedingung erfüllt. (Abitur 2017 GK)
+\end{teile}
+\end{aufgabe}
+
+\verfahren{Maße aus einem Profil}
+\begin{aufgabe}{Ich kann Maße eines Profils mit einem Maßstab berechnen.}
+Rechne in Zentimeter um und antworte mit Einheit.
+\begin{teile}
+\teil Der Querschnitt einer Regenrinne wird für $0 \le x \le 4$ durch $g(x) = 0{,}25x^2 - x$ beschrieben (1 Längeneinheit entspricht 5 cm). Berechne Breite und Tiefe der Rinne.
+\teil Das Profil einer Mulde in einem Formteil wird für $0 \le x \le 6$ durch $m(x) = 0{,}05x^3 - 0{,}3x^2$ beschrieben (1 Längeneinheit entspricht 5 cm). Das Formteil soll in einen Karton, dessen Innenraum 32 cm breit und 10 cm hoch ist; die Mulde muss mit Breite und Tiefe hineinpassen. Prüfe. (Abitur 2026 GK)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler bei Sachaufgaben zur Kurvenuntersuchung.}
+Finde den Fehler, benenne ihn und korrigiere die Rechnung.
+\begin{teile}
+\teil Das Wasser in einem Becken ist $V(t) = t^3 - 15t^2 + 63t + 10$ ($t$ in Stunden, $0 \le t \le 8$, $V$ in m$^3$). Nils sucht, wann das Wasser am stärksten abnimmt:
+\rechnung{V'(t) &= 3t^2 - 30t + 63 = 0 \\ t &= 3 \quad\text{oder}\quad t = 7}
+Nils schreibt: „Nach 7 Stunden nimmt das Wasser am stärksten ab.“
+\teil Das Profil einer Rinne hat die Nullstellen 0 und 5; 1 Längeneinheit entspricht 20 cm. Lea schreibt: „Die Rinne ist 5 cm breit.“
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann Ergebnisse im Sachzusammenhang begründen.}
+Begründe ohne Rechnung.
+\begin{teile}
+\teil $V(t)$ ist die Wassermenge in Litern, $t$ die Zeit in Minuten. Warum hat $V'(t)$ die Einheit Liter pro Minute?
+\teil Der Wasserstand in einem Hafen wird zwischen 6 und 18 Uhr betrachtet. Warum kann der höchste Wasserstand um 18 Uhr liegen, obwohl die Ableitung um 18 Uhr nicht null ist?
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann den Wendepunkt im Sachzusammenhang deuten.}
+Die Zahl der Downloads einer neuen App wird in den ersten zehn Tagen durch $N(t) = -0{,}1t^3 + 1{,}5t^2$ beschrieben ($t$ in Tagen, $N$ in Tausend).
+\begin{teile}
+\teil Bestimme, wann die Zahl der Downloads am stärksten zunimmt.
+\teil Berechne $N'(5)$ und deute den Wert im Sachzusammenhang.
+\teil Beurteile die Aussage: „Ab dem fünften Tag nimmt die Gesamtzahl der Downloads ab.“
+\end{teile}
+\end{aufgabe}

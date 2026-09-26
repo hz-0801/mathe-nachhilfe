@@ -1,0 +1,33 @@
+29a f'=0                 Skript [-2.0, 0.0, 2.0]  Blatt [-2.0, 0.0, 2.0]  OK
+29b/c Vorzeichen auf [-3;3] Skript [-1.0, 1.0, -1.0, 1.0]  Blatt [-1.0, 1.0, -1.0, 1.0]  OK
+29d f'(1)                Skript [-3.0]  Blatt [-3.0]  OK
+29e W rechts             Skript [1.1547, -1.2222]  Blatt [1.15, -1.22]  OK
+29e f'(W)<0              Skript [-3.0792]  Blatt [-3.08]  OK
+30a f'(1)                Skript [-2.0]  Blatt [-2.0]  OK
+30b Wendestelle = Extremstelle von f' Skript [1.0]  Blatt [1.0]  OK
+30c Extremstellen        Skript [-1.0, 3.0]  Blatt [-1.0, 3.0]  OK
+30c/d +-+ (H bei -1, T bei 3) Skript [1.0, -1.0, 1.0]  Blatt [1.0, -1.0, 1.0]  OK
+31a f                    Skript [-2.0, 0.0, -1.0, -2.0, 0.0]  Blatt [-2.0, 0.0, -1.0, -2.0, 0.0]  OK
+31a f'                   Skript [4.5, 0.0, -1.5, 0.0, 4.5]  Blatt [4.5, 0.0, -1.5, 0.0, 4.5]  OK
+31c Stellen              Skript [0.0, 2.0]  Blatt [0.0, 2.0]  OK
+31c Werte                Skript [0.0, -2.0]  Blatt [0.0, -2.0]  OK
+31c Art                  Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+32a Loesungsskizze Stellen Skript [-1.0, 2.0]  Blatt [-1.0, 2.0]  OK
+32a Loesungsskizze Werte Skript [3.0, -2.0]  Blatt [3.0, -2.0]  OK
+32a Loesungsskizze Art   Skript [1.0, -1.0]  Blatt [1.0, -1.0]  OK
+32b Loesungsskizze Stellen Skript [0.0, 2.0]  Blatt [0.0, 2.0]  OK
+32b Loesungsskizze Werte Skript [2.0, -1.0]  Blatt [2.0, -1.0]  OK
+32b Loesungsskizze Art   Skript [0.0, -1.0]  Blatt [0.0, -1.0]  OK
+32c Mindestgrad          Skript [4.0]  Blatt [4.0]  OK
+33a d>0 auf ]1;4[ (Nullstellen) Skript [1.0, 4.0]  Blatt [1.0, 4.0]  OK
+33a d(2.5)>0             Skript [2.25]  Blatt [2.25]  OK
+33b d'(2.5)              Skript [0.0]  Blatt [0.0]  OK
+33c W                    Skript [2.0, 4.0]  Blatt [2.0, 4.0]  OK
+33c Normale y-Achsenabschnitt Skript [3.0]  Blatt [3.0]  OK
+33c min f'               Skript [-2.0]  Blatt [-2.0]  OK
+33c Steigung -3 moeglich? (0=nein) Skript [0.0]  Blatt [0.0]  OK
+36a Nullstellen r        Skript [1.0, 7.0]  Blatt [1.0, 7.0]  OK
+36b V(7)-V(0)>0 und V(7)>V(8) Skript [1.0, 1.0]  Blatt [1.0, 1.0]  OK
+36c max Rate bei         Skript [4.0]  Blatt [4.0]  OK
+36c Rate                 Skript [4.5]  Blatt [4.5]  OK
+Abweichungen: 0
