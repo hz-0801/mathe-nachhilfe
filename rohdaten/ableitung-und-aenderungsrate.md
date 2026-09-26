@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Ableitung und Änderungsrate (25 Zeilen)
-- iqb: Ableitung und Änderungsrate (31 Zeilen)
+- iqb: Ableitung und Änderungsrate (34 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -32,6 +32,9 @@ abitur/abitur-typen.csv (neu): Den Wert der Ableitung an einer Stelle berechnen 
 
 **Eignung eines Modells über das Vorzeichen der Änderungsrate nach einer Nullstelle beurteilen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Begründen, dass eine Ratenfunktion jenseits einer Nullstelle mit Vorzeichenwechsel im Sachzusammenhang ungeeignet ist.
+
+**Größte und kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Auf einem abgeschlossenen Zeitintervall die größte und die kleinste momentane Änderungsrate über die Nullstellen der Ableitung der Ratenfunktion und die Randwerte bestimmen.
 
 **Mittlere und momentane Änderungsrate im Sachzusammenhang vergleichen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Die mittlere Änderungsrate über ein Intervall und die momentane Änderungsrate am Intervallende berechnen und ihre relative Abweichung mit einer Schranke vergleichen.
@@ -75,8 +78,8 @@ abitur/abitur-typen.csv (neu): Nachweisen, dass zwei Funktionen an vorgegebenen 
 **Gleichung für die mittlere Änderungsrate lösen und Lösung im Sachzusammenhang deuten** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Eine Gleichung der Form (f(c) − f(0))/c = m mit dem Rechner lösen, den Quotienten als mittlere Änderungsrate über [0; c] und die Lösung als Zeitraum im Sachzusammenhang deuten.
 
-**Größte und kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen** · 1 Zeile · iqb 1 · Jahre 2025
-abitur/abitur-typen.csv (neu): Auf einem abgeschlossenen Zeitintervall die größte und die kleinste momentane Änderungsrate über die Nullstellen der Ableitung der Ratenfunktion und die Randwerte bestimmen.
+**Graph der Füllhöhe in Abhängigkeit von der Zeit über die Gefäßform auswählen und begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Unter mehreren Graphen der Füllhöhe gegen die Zeit bei konstanter Zuflussrate den passenden auswählen und über die Gefäßform begründen (wächst der Querschnitt nach oben, nimmt die Änderungsrate der Füllhöhe ab).
 
 **Größte Änderungsrate über das Maximum der Ableitung im Sachzusammenhang berechnen** · 1 Zeile · abi 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Die größte momentane Änderungsrate (etwa eine höchste Wachstumsgeschwindigkeit) als Maximum der Ableitungsfunktion über die Nullstelle der zweiten Ableitung berechnen; Gegenstück zur kleinsten Tangentensteigung.
@@ -89,6 +92,9 @@ abitur/abitur-typen.csv (neu): Die mittlere Steigung über ein Intervall als Dif
 
 **Mittlere Änderungsraten zweier Modelle vergleichen** · 1 Zeile · abi 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Für zwei Funktionen auf demselben Intervall den Differenzenquotienten bilden und die Beträge der mittleren Änderungsraten vergleichen.
+
+**Momentane Änderungsrate am Graphen über eine eingezeichnete Tangente bestimmen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): In einen abgebildeten Graphen die Tangente an einer Stelle einzeichnen und ihre Steigung über ein Steigungsdreieck als momentane Änderungsrate mit Einheit angeben.
 
 **Sekantenwinkel gegen eine Schranke am Graphen beurteilen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Ohne Rechnung beurteilen, ob die Sekante zwischen zwei Graphenpunkten einen Winkel unter einer Schranke hat, durch Vergleich mit einer eingezeichneten Hilfsgeraden.
@@ -148,6 +154,8 @@ abitur/abitur-typen.csv (neu): Die Differenz der Ableitungen zweier Modellfunkti
 2026MgrundlegendBAnalysisWTR1-2c | 3 | ja | Kurzantwort · Geben Sie an | h wie in a; erster Atemzyklus (0 bis 3 Sekunden, Minimum bei 1,5); Terme I h(3) − h(1,5) und II (h(3) − h(1,5))/1,5 → Bedeutung beider Terme im Sachzusammenhang | Differenz und Differenzenquotient auf das Einatmen beziehen
 2024MerhoehtBAnalysisWTR2-2c | 3 | ja | Begründung · Begründen Sie | v(x) = 20 · (x − 18) · (x − 8) → Begründung, dass v nach 15:00 Uhr (x > 8) ungeeignet ist | Vorzeichen von v für x etwas größer als 8
 2026MgrundlegendBAnalysisMMS1-1b | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Deuten Sie | Gleichung (k(c) − k(0))/c = 1,9 mit c ∈ IR hat genau zwei Lösungen → kleinere Lösung; Deutung von Gleichung und Lösung | Gleichung mit dem Rechner lösen, linke Seite als mittlere Abbaurate über [0; c] deuten
+2017MerhoehtBAnalysisWTR2-2b | 2 | ja | Kurzantwort¦Begründung · Entscheiden Sie¦Begründen Sie | Eine große rotationssymmetrische Schale ist aus einem Steinblock gefertigt; ein Kubikmeter des Steins hat eine Masse von 2700 kg; im Querschnitt wird die Schale durch die Graphen von p(x) = √(6x), 0 <= x <= 6 (Außenseite), und q(x) = √(4x − 8), 2 <= x <= 6 (Innenseite), und ihre Spiegelbilder an der x-Achse dargestellt; die x-Achse ist die Rotationsachse, 1 LE = 1 dm; in die aufrecht stehende Schale wird mit konstanter Zuflussrate Wasser gefüllt → Entscheidung, welcher der Graphen I, II und III die Füllhöhe in Abhängigkeit von der Zeit beschreibt, mit Begründung | Die Schale wird nach oben weiter, bei konstanter Zuflussrate steigt die Füllhöhe immer langsamer: rechtsgekrümmter Graph
+2017MerhoehtBAnalysisWTR1-2a | 5 | ja | Rechnung · Berechnen Sie | Für ein anderes Becken beschreibt g(t) = 0,4 · (2t^3 − 39t^2 + 180t) für 0 <= t <= 15 die momentane Änderungsrate des Wasservolumens in m^3/h, t in Stunden seit Beobachtungsbeginn; G(t) = 0,2 · (t^4 − 26t^3 + 180t^2) ist eine Stammfunktion von g → Zeitpunkt im beschriebenen Zeitraum, zu dem die momentane Änderungsrate des Wasservolumens maximal ist | g'(t) = 0 ⇔ t^2 − 13t + 30 = 0 ⇔ t = 3 oder t = 10; g an diesen Stellen und an den Rändern 0 und 15 vergleichen
 2025MerhoehtBAnalysisMMS1-2a | 4 | ja | Rechnung · Berechnen Sie | Regenwasser-Auffangbecken: momentane Zuflussrate r(x) = eˣ · f_(2,5)(x) für 0 ≤ x ≤ 5 (f_(2,5) aus der Schar mit k = 2,5), x Zeit in Stunden seit Beginn des Zuflusses, r(x) in m³/h → größte und kleinste momentane Zuflussrate im Zeitraum | Nullstellen von r' mit dem Rechner, Randwerte vergleichen
 2019MgrundlegendAAnalysis12-b | 3 | nein | Rechnung · Bestimmen Sie | f(x) = 1/3 x³ − 4/3 x + 1; unter den Tangenten an den Graphen hat eine die kleinste Steigung → Steigung dieser Tangente | Ableitung bilden, ihr Minimum bestimmen
 2021MgrundlegendBAnalysisWTR-2a | 2 | ja | Kurzantwort · Interpretieren Sie | Glyzerintank: f(x) = −5/16 x⁴ + 5x³ beschreibt für 0 ≤ x ≤ 20 die momentane Änderungsrate des Tankinhalts in kg/h, x Zeit in Stunden seit Beobachtungsbeginn; zu Beobachtungsbeginn 1200 kg im Tank; die Abbildung zeigt den Graphen von f; (4 ¦ 240) liegt auf dem Graphen von f → Bedeutung der Koordinaten im Sachzusammenhang | x als Zeit, f(x) als momentane Änderungsrate benennen
@@ -159,6 +167,7 @@ abitur/abitur-typen.csv (neu): Die Differenz der Ableitungen zweier Modellfunkti
 2024MerhoehtBAnalysisWTR2-2a | 3 | ja | Rechnung · Ermitteln Sie | Tabelle der bis zum Zeitpunkt eingegangenen Lesebestätigungen; 8:30 Uhr 1701, 10:00 Uhr 4364 → mittlere Anzahl je Stunde von 8:30 bis 10:00 Uhr | Differenz durch 1,5 Stunden
 2025MgrundlegendBAnalysisWTR2-2b | 3 | ja | Rechnung · Bestimmen Sie | a wie in a → durchschnittlich pro Stunde abgegebene Likes von 14:00 bis 16:00 Uhr | Werte ablesen, Differenzenquotient
 2019MgrundlegendBAnalysisWTR1-1d | 3 | ja | Rechnung · Berechnen Sie | k(x) = 1/40 · (x³ − 30x² + 288x − 815), in IR definiert; Abbildung 1 zeigt den Graphen; Laktattest: für 8,5 ≤ x ≤ 17,5 beschreibt k die Laktatkonzentration in mmol/l in Abhängigkeit von der Geschwindigkeit x in km/h → mittlere Änderungsrate der Laktatkonzentration zwischen 12,0 und 17,5 km/h | Differenzenquotient von k über [12; 17,5]
+2017MerhoehtBAnalysisWTR1-1b | 4 | ja | Rechnung¦Zeichnen · Bestimmen Sie | Abbildung 1 zeigt den Graphen einer Funktion f, die für 0 <= t <= 15 das Volumen des Wassers in einem Becken in Abhängigkeit von der Zeit beschreibt; t ist die seit Beobachtungsbeginn vergangene Zeit in Stunden, f(t) das Volumen in Kubikmetern → momentane Änderungsrate des Wasservolumens zwei Stunden nach Beobachtungsbeginn | In Abbildung 1 die Tangente im Punkt (2; f(2)) einzeichnen und ihre Steigung über ein Steigungsdreieck bestimmen
 2023MerhoehtBAnalysisWTR1-1b | 1 | ja | Kurzantwort · Geben Sie an | f wie in a; f(2) < 0 → Bedeutung im Sachzusammenhang | Negative Rate als Abnahme deuten, x = 2 als 08:00 Uhr
 2026MgrundlegendBAnalysisWTR2-2c | 3 | ja | Begründung · Begründen Sie | k(x) − 20 Differenz zur Umgebungstemperatur; k'(x) = −1/400 · 60e^{−x/400}; Aussage: es gibt c mit k(x) − 20 = c · k'(x) für alle x → Begründung, dass die Aussage im Modell wahr ist | k − 20 als Vielfaches von k' schreiben
 2024MerhoehtBAnalysisWTR3-1b | 3 | ja | Begründung¦Zeichnen · Beurteilen Sie¦Veranschaulichen Sie | Kriterium I: der durch Anfangs- und Endpunkt festgelegte Winkel gegen die Horizontale höchstens 45° → Beurteilung ohne Rechnung mit Eintragung in der Abbildung | 45°-Gerade durch den Anfangspunkt und Sekante einzeichnen und vergleichen

@@ -4,9 +4,9 @@ Stufe: II
 
 - fhr: Verhalten im Unendlichen (4 Zeilen)
 - abi: Grenzwerte und Verhalten im Unendlichen (12 Zeilen)
-- iqb: Grenzwerte und Verhalten im Unendlichen (6 Zeilen)
+- iqb: Grenzwerte und Verhalten im Unendlichen (7 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -16,7 +16,7 @@ abitur/abitur-typen.csv (neu): Für ein Produkt aus Polynom und e^x das Verhalte
 **Nullstelle und Grenzverhalten eines Produkts aus Polynom und e-Funktion angeben** · 5 Zeilen · abi 3 iqb 2 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): Für ein Produkt aus linearem Faktor und e-Funktion die Nullstelle und das Verhalten für x → ±∞ angeben.
 
-**Grenzverhalten einer ganzrationalen Funktion angeben** · 3 Zeilen · abi 3 · Jahre 2022–2026
+**Grenzverhalten einer ganzrationalen Funktion angeben** · 4 Zeilen · abi 3 iqb 1 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Das Verhalten der Funktionswerte einer ganzrationalen Funktion für x → +∞ und x → −∞ aus dem Leitterm angeben.
 
 **Grenzwert für x gegen unendlich angeben und Verlauf des Graphen beschreiben** · 3 Zeilen · abi 1 iqb 2 · Jahre 2020–2022
@@ -60,6 +60,7 @@ fhr/fhr-typen.csv (geprüft): Aus Grad und Vorzeichen des Leitkoeffizienten das 
 2025-bebb-gk-B2.2a | 3 | ja | Kurzantwort · Geben Sie an | f(x) = (2 − x) · e^x in IR; Graph in Abbildung 1 → Nullstelle und Verhalten für x → −∞ und x → +∞ | Faktoren betrachten
 ## iqb
 
+2017MerhoehtBAnalysisWTR2-1a | 2 | ja | Kurzantwort · Geben Sie an | Für jedes k ∈ IR+ ist die Funktion f_k mit f_k(x) = k^2x^3 − 6kx^2 + 9x, x ∈ IR, gegeben; ihr Graph heißt G_k → Verhalten von f_k für x → −∞ und x → +∞ | Der Leitterm k^2x^3 hat ungeraden Grad und positiven Koeffizienten
 2020MgrundlegendBAnalysisWTR2-1b | 2 | ja | Begründung · Beschreiben Sie¦Begründen Sie | f(x) = 1/10 · x · (3 − x) · eˣ, x ∈ IR; Abbildung 1 zeigt den Graphen von f; f'(x) = −1/10 · (x² − x − 3) · eˣ → Verlauf des Graphen für x → −∞ mit Begründung am Term | Grenzwert von eˣ nennen und den Faktor x · (3 − x) als untergeordnet begründen
 2022MgrundlegendBAnalysisWTR2-1b | 2 | ja | Kurzantwort · Geben Sie an¦Beschreiben Sie | f(x) = (x + 2) · e^(−x), definiert in IR, mit f'(x) = −(x + 1) · e^(−x) → Grenzwert von f für x → +∞; Verlauf des Graphen dort | e^(−x) fällt schneller als x + 2 wächst
 2026MerhoehtBAnalysisWTR3-1a | 4 | ja | Begründung¦Kurzantwort · Begründen Sie¦Geben Sie an | f(x) = 5 · e^{−3/5 x} − 5 in IR → Begründung: streng monoton fallend und durch den Ursprung; Grenzwert für x → +∞ | Term als Transformation von e^−x lesen

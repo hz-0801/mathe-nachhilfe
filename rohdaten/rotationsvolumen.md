@@ -4,15 +4,18 @@ Stufe: II
 
 - fhr: Rotationsvolumen um die x-Achse (4 Zeilen)
 - abi: Rotationsvolumen (5 Zeilen)
-- iqb: Rotationsvolumen (5 Zeilen)
+- iqb: Rotationsvolumen (9 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
 **Rotationsvolumen um die x-Achse berechnen** · 5 Zeilen · fhr 4 abi 1 · Jahre 2018–2024
 fhr/fhr-typen.csv (geprüft): Das Volumen eines Rotationskörpers als Produkt der Kreiszahl mit dem Integral über das Quadrat des Funktionsterms zwischen den Grenzen berechnen.
 abitur/abitur-typen.csv (neu): Das Volumen des Körpers, der bei Rotation der Fläche zwischen einem Graphen und der x-Achse über einem Intervall um die x-Achse entsteht, als π · ∫ (f(x))² dx berechnen (mit dem Rechner oder über eine Stammfunktion) und im Sachzusammenhang angeben, etwa als Fassungsvermögen nach Abzug eines Materialanteils.
+
+**Integralfunktion im Sachzusammenhang deuten** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017–2018
+abitur/abitur-typen.csv (neu): Ein Integral mit variabler Grenze als Größe im Sachkontext deuten.
 
 **Umbeschriebenes Prisma zu einem Rotationskörper bestimmen** · 2 Zeilen · abi 2 · Jahre 2017–2018
 abitur/abitur-typen.csv (neu): Aus dem maximalen Radius eines Rotationskörpers die Grundfläche und das Mindestvolumen eines umbeschriebenen Prismas bestimmen.
@@ -26,11 +29,17 @@ abitur/abitur-typen.csv (neu): Die Teilschritte einer vorgelegten fremden Rechnu
 **Gleichung für die Füllhöhe aus einem Rotationsvolumen zwischen variablen Grenzen aufstellen** · 1 Zeile · iqb 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Den Volumenzuwachs einer Schicht als Rotationsintegral mit variablen Grenzen t und t + 1 ansetzen und mit dem eingefüllten Volumen gleichsetzen, ohne die Gleichung zu lösen.
 
-**Integralfunktion im Sachzusammenhang deuten** · 1 Zeile · abi 1 · Jahre 2018
-abitur/abitur-typen.csv (neu): Ein Integral mit variabler Grenze als Größe im Sachkontext deuten.
-
 **Integranden als Querschnittsfläche über den Satz des Pythagoras deuten und Umrechnungsfaktor erläutern** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Den Integranden eines Volumenintegrals als Flächeninhalt eines Kreisschnitts deuten, den Radius an der Abbildung über den Satz des Pythagoras begründen und einen Vorfaktor als Einheitenumrechnung erläutern.
+
+**Masse eines Hohlkörpers aus der Differenz zweier Rotationsvolumina berechnen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Das Materialvolumen eines rotationssymmetrischen Hohlkörpers als Rotationsvolumen der Außenkurve minus Rotationsvolumen der Innenkurve (mit eigenen Grenzen) berechnen und mit der Dichte nach Einheitenumrechnung die Masse bestimmen.
+
+**Querschnittsfläche eines Rotationskörpers in Abhängigkeit von der Füllhöhe als Term nachweisen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Füllhöhe in die Koordinate längs der Rotationsachse übersetzen und die Fläche der Flüssigkeitsoberfläche als π · r^2 mit dem Randfunktionswert als Radius nachweisen.
+
+**Rotationsvolumen um die y-Achse über die Umkehrfunktion aufstellen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Für die Rotation einer Fläche um die y-Achse den Funktionsterm nach x² auflösen und das Volumenintegral über y aufstellen und auswerten.
 
 **Rotationsvolumen über einbeschriebene Zylinder abschätzen** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Einen Term π · Integral f² als Rotationsvolumen deuten und über einbeschriebene Zylinder eine untere Schranke begründen.
@@ -59,6 +68,10 @@ abitur/abitur-typen.csv (neu): Aus der Sachlage (Kugel vollständig unter Wasser
 
 2026MerhoehtBAnalysisWTR3-1d | 3 | ja | Kurzantwort · Geben Sie an | Lösungsweg: V1 = π · ∫_0^4 (f(x))² dx ≈ 141,02; V2 = π · (f(4))² · 4 ≈ 259,74; V1/V2 ≈ 0,54 → passende Aufgabenstellung | Terme als Rotationskörper und Zylinder deuten
 2018MerhoehtBAnalysisWTR2-2b | 3 | ja | Rechnung · Stellen Sie auf | Behälter mit Kugel (Abbildung 3, um 90° gedreht, 1 LE = 1 cm): Seitenwand durch Rotation des Graphen von q(x) = √(5x + 40), x ∈ [0; 13], um die x-Achse; Kugel mit Durchmesser 10 cm liegt auf dem Boden (x = 0), vollständig unter Wasser; zusätzlich 300 cm³ Wasser lassen die Füllhöhe um 1 cm steigen → Gleichung zur Berechnung der Füllhöhe vor dem Einfüllen | Schicht zwischen t und t + 1 als Rotationsvolumen gleich 300
+2017MerhoehtBAnalysisWTR2-2d | 4 | ja | Kurzantwort · Interpretieren Sie¦Geben Sie an | Eine große rotationssymmetrische Schale ist aus einem Steinblock gefertigt; ein Kubikmeter des Steins hat eine Masse von 2700 kg; im Querschnitt wird die Schale durch die Graphen von p(x) = √(6x), 0 <= x <= 6 (Außenseite), und q(x) = √(4x − 8), 2 <= x <= 6 (Innenseite), und ihre Spiegelbilder an der x-Achse dargestellt; die x-Achse ist die Rotationsachse, 1 LE = 1 dm; die aufrecht stehende Schale wird mit Wasser gefüllt; s(x) = π · ∫ von 2 bis 2 + x (q(t))^2 dt → Interpretation der Funktion s im Sachzusammenhang; größter im Sachzusammenhang sinnvoller Definitionsbereich von s | s(x) ist das Volumen des Rotationskörpers zwischen Boden (x = 2) und Füllhöhe x, also das Wasservolumen; x reicht von 0 bis zur Randhöhe 6 − 2 = 4
 2022MerhoehtBAnalysisWTR3-2b | 6 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie¦Beschreiben Sie | Term π(50² − (50 − x)²) im Integranden; Faktor 1/1000; Abbildung 2 → Bedeutung des Terms mit Begründung an der Abbildung; Bedeutung des Faktors | Fette Strecke als Radius des Spiegels über Pythagoras, Kreisfläche; Umrechnung der Einheiten
+2017MerhoehtBAnalysisWTR2-2e | 6 | ja | Rechnung · Berechnen Sie | Eine große rotationssymmetrische Schale ist aus einem Steinblock gefertigt; ein Kubikmeter des Steins hat eine Masse von 2700 kg; im Querschnitt wird die Schale durch die Graphen von p(x) = √(6x), 0 <= x <= 6 (Außenseite), und q(x) = √(4x − 8), 2 <= x <= 6 (Innenseite), und ihre Spiegelbilder an der x-Achse dargestellt; die x-Achse ist die Rotationsachse, 1 LE = 1 dm → Masse der Schale | Volumen des Steins als Rotationsvolumen der Außenkurve p über [0; 6] minus Rotationsvolumen der Innenkurve q über [2; 6]; 2700 kg/m^3 = 2,7 kg/dm^3
+2017MerhoehtBAnalysisWTR2-2c | 4 | ja | Begründung · Weisen Sie nach | Eine große rotationssymmetrische Schale ist aus einem Steinblock gefertigt; ein Kubikmeter des Steins hat eine Masse von 2700 kg; im Querschnitt wird die Schale durch die Graphen von p(x) = √(6x), 0 <= x <= 6 (Außenseite), und q(x) = √(4x − 8), 2 <= x <= 6 (Innenseite), und ihre Spiegelbilder an der x-Achse dargestellt; die x-Achse ist die Rotationsachse, 1 LE = 1 dm; die aufrecht stehende Schale wird mit Wasser gefüllt, h ist die Füllhöhe in dm → Nachweis, dass der Flächeninhalt A der Wasseroberfläche (in dm^2) mit A(h) = 4πh berechnet werden kann | Die Wasseroberfläche ist ein Kreis mit Radius q(2 + h), weil der Innenraum bei x = 2 beginnt; A(h) = π · (q(2 + h))^2
+2017MerhoehtBAnalysisCAS2-3d | 4 | ja | Rechnung · Ermitteln Sie | Das Sektglas steht mit vertikaler Rotationsachse und wird mit Flüssigkeit gefüllt; für −3 <= x <= 3 wird sein Längsschnitt näherungsweise durch p(x) = 4/3 · x^2 beschrieben; r(h) = 1/2 · √(3h) ist der Radius der Oberfläche bei der Füllhöhe h → Volumen der Flüssigkeit bei einer Füllhöhe von 6 cm unter Verwendung von r(h) | Das Volumen als Rotationskörper um die h-Achse: V = π · ∫ von 0 bis 6 (r(h))^2 dh = π · ∫ von 0 bis 6 3h/4 dh
 2023MerhoehtAAnalysis13-b | 3 | nein | Begründung · Begründen Sie | Graph von f in der Abbildung; Term π · Integral von 0 bis 2 über (f(x))² dx beschreibt das Volumen eines Körpers → Begründung, dass dieses Volumen größer als π · 0,5² + π · 1² ist | Term als Volumen des Rotationskörpers über [0; 2] deuten; der Graph liegt auf [0; 1] über 0,5 und auf [1; 2] über 1, also enthält der Körper zwei Zylinder
 2018MerhoehtBAnalysisWTR2-2a | 5 | ja | Rechnung · Zeigen Sie | Behälter mit Kugel (Abbildung 3, um 90° gedreht, 1 LE = 1 cm): Seitenwand durch Rotation des Graphen von q(x) = √(5x + 40), x ∈ [0; 13], um die x-Achse; Kugel mit Durchmesser 10 cm liegt auf dem Boden (x = 0), vollständig unter Wasser → Nachweis, dass sich mehr als 1500 cm³ Wasser im Behälter befinden | Rotationsvolumen bis zur Kugeloberkante x = 10 minus Kugelvolumen

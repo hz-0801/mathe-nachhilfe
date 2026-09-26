@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Rekonstruktion von Beständen (8 Zeilen)
-- iqb: Rekonstruktion von Beständen (19 Zeilen)
+- iqb: Rekonstruktion von Beständen (22 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -18,6 +18,9 @@ abitur/abitur-typen.csv (neu): Einen Term für die in einem Zeitraum angefallene
 **Zeitpunkt des größten Bestands aus dem Vorzeichenwechsel der Rate begründen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2021–2023
 abitur/abitur-typen.csv (neu): Den Zeitpunkt des maximalen Bestands als die Nullstelle der Rate angeben, an der die Rate von positiv nach negativ wechselt, und dies über das Vorzeichen der Rate begründen.
 
+**Bestand nach einem Zeitraum aus Anfangsbestand und Integral der Änderungsrate berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2021
+abitur/abitur-typen.csv (neu): Den Bestand am Ende eines Zeitraums als Summe aus Anfangsbestand und bestimmtem Integral der Änderungsrate berechnen.
+
 **Funktion als Bestandsfunktion über Ableitung und Anfangswert begründen und Endwert bestätigen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Begründen, dass eine gegebene Funktion s den Bestand beschreibt, weil s' gleich der Rate ist und s zum Startzeitpunkt den Anfangsbestand hat, und einen Bestandswert (etwa null am Ende) nachrechnen.
 
@@ -29,9 +32,6 @@ abitur/abitur-typen.csv (neu): Die Zunahme eines Bestands in einem Zeitraum als 
 
 **Anfangsbestand aus Endbestand und Fläche unter dem Ableitungsgraphen ermitteln** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Einen Bestand zu Beginn aus einem späteren Bestand und der am Ableitungsgraphen geschätzten Fläche (Integral der Änderungsrate) ermitteln.
-
-**Bestand nach einem Zeitraum aus Anfangsbestand und Integral der Änderungsrate berechnen** · 1 Zeile · iqb 1 · Jahre 2021
-abitur/abitur-typen.csv (neu): Den Bestand am Ende eines Zeitraums als Summe aus Anfangsbestand und bestimmtem Integral der Änderungsrate berechnen.
 
 **Bestandsänderung grafisch als Fläche unter dem Ratengraphen bestimmen** · 1 Zeile · iqb 1 · Jahre 2021
 abitur/abitur-typen.csv (neu): Die Änderung eines Bestands in einem Zeitraum als Fläche unter dem abgebildeten Graphen der Änderungsrate durch Auszählen der Kästchen näherungsweise bestimmen.
@@ -50,6 +50,12 @@ abitur/abitur-typen.csv (neu): Die Funktion w mit w' = r und w(0) = 0 als Zunahm
 
 **Nullstelle eines Differenzintegrals als Zeitpunkt gleicher Strecke deuten und ihre Lage begründen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Nullstelle von ∫_0^z (f − h) als Zeitpunkt gleicher zurückgelegter Strecke deuten und ihre Lage relativ zum Schnittpunkt der Geschwindigkeiten begründen.
+
+**Zeitpunkt mit gleichem Bestand wie zu Beginn über das Integral der Änderungsrate gleich null untersuchen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Bedingung „gleicher Bestand wie zu Beginn“ als Integral der Änderungsrate von null bis x gleich null ansetzen, über die Stammfunktion lösen und die Lösungen nach dem Beginn beurteilen.
+
+**Zeitraum der Abnahme eines Bestands über Nullstellen und Vorzeichen der Änderungsrate berechnen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Nullstellen einer als Term gegebenen Änderungsrate berechnen und über das Vorzeichen (Testwert) den Zeitraum bestimmen, in dem der Bestand abnimmt.
 
 **Zunahme eines Bestands aus dem Vorzeichen der Rate begründen** · 1 Zeile · iqb 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Begründen, dass ein Bestand in einem Zeitraum durchgehend zunimmt, weil die als Term gegebene Rate dort positiv ist (Rate als Ableitung des Bestands, Vorzeichen über Nullstellen).
@@ -77,6 +83,7 @@ abitur/abitur-typen.csv (neu): Einen Weg als Integral einer Geschwindigkeitsfunk
 ## iqb
 
 2024MgrundlegendBAnalysisWTR1-2d | 4 | ja | Rechnung¦Zeichnen · Bestimmen Sie¦Veranschaulichen Sie | a(10) = 100 mg/m³; Graph von a' in Abbildung 3 → a(0) mit Veranschaulichung in Abbildung 3 | Dreiecksfläche unter a' schätzen, von a(10) abziehen
+2017MerhoehtBAnalysisWTR1-2c | 4 | ja | Rechnung · Bestimmen Sie | Für ein anderes Becken beschreibt g(t) = 0,4 · (2t^3 − 39t^2 + 180t) für 0 <= t <= 15 die momentane Änderungsrate des Wasservolumens in m^3/h, t in Stunden seit Beobachtungsbeginn; G(t) = 0,2 · (t^4 − 26t^3 + 180t^2) ist eine Stammfunktion von g; drei Stunden nach Beobachtungsbeginn sind im Becken 350 m^3 Wasser enthalten → Volumen des Wassers zu Beobachtungsbeginn | Die Zunahme von 0 bis 3 als ∫ von 0 bis 3 g(t) dt = G(3) − G(0) berechnen und von 350 abziehen
 2021MgrundlegendBAnalysisWTR-2d | 4 | ja | Rechnung · Berechnen Sie | Glyzerintank: f(x) = −5/16 x⁴ + 5x³ beschreibt für 0 ≤ x ≤ 20 die momentane Änderungsrate des Tankinhalts in kg/h, x Zeit in Stunden seit Beobachtungsbeginn; zu Beobachtungsbeginn 1200 kg im Tank; die Abbildung zeigt den Graphen von f → Glyzerinmenge im Tank 20 Stunden nach Beobachtungsbeginn | Integral der Rate von 0 bis 20 zum Anfangsbestand addieren
 2021MgrundlegendBAnalysisWTR-2c | 3 | ja | Zeichnen¦Rechnung · Bestimmen Sie | Glyzerintank: f(x) = −5/16 x⁴ + 5x³ beschreibt für 0 ≤ x ≤ 20 die momentane Änderungsrate des Tankinhalts in kg/h, x Zeit in Stunden seit Beobachtungsbeginn; zu Beobachtungsbeginn 1200 kg im Tank; die Abbildung zeigt den Graphen von f → grafisch bestimmte Zunahme des Tankinhalts zwischen acht und zehn Stunden | Fläche unter dem Graphen über [8; 10] schraffieren und die Kästchen auszählen
 2023MerhoehtBAnalysisWTR1-1e | 4 | ja | Begründung¦Rechnung · Begründen Sie¦Bestätigen Sie | s(x) = (x/4)² · (4 − x)³ = −1/16x⁵ + 3/4x⁴ − 3x³ + 4x²; Aussage: die Staulänge kann für jeden Zeitpunkt von 06:00 bis 10:00 Uhr durch s angegeben werden → Begründung der Aussage; rechnerische Bestätigung, dass sich der Stau um 10:00 Uhr aufgelöst hat | s' mit f vergleichen und s(0) = 0 prüfen; s(4) berechnen
@@ -91,6 +98,8 @@ abitur/abitur-typen.csv (neu): Einen Weg als Integral einer Geschwindigkeitsfunk
 2021MgrundlegendBAnalysisWTR-2b | 2 | ja | Begründung · Beurteilen Sie | Glyzerintank: f(x) = −5/16 x⁴ + 5x³ beschreibt für 0 ≤ x ≤ 20 die momentane Änderungsrate des Tankinhalts in kg/h, x Zeit in Stunden seit Beobachtungsbeginn; zu Beobachtungsbeginn 1200 kg im Tank; die Abbildung zeigt den Graphen von f; Aussage: Zwölf Stunden nach Beobachtungsbeginn ist die größte Menge Glyzerin im Tank enthalten → Beurteilung der Aussage | Hochpunkt der Rate bei 12 von der Nullstelle der Rate bei 16 unterscheiden
 2023MerhoehtBAnalysisWTR1-1d | 2 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | f wie in a mit Nullstellen 0, 8/5, 4 → Zeitpunkt des längsten Staus mit Begründung | Bestand wächst genau bei positiver Rate, also bis zur Nullstelle mit Vorzeichenwechsel
 2023MerhoehtBAnalysisWTR1-1g | 3 | ja | Zeichnen¦Begründung · Markieren Sie¦Begründen Sie¦Veranschaulichen Sie | Graph der Änderungsrate der Staulänge für einen anderen Tag (Abbildung 2), x Stunden nach 06:00 Uhr; um 07:30 Uhr hat der Stau eine bestimmte Länge, zu einem anderen Zeitpunkt dieselbe → diesen Zeitpunkt markieren, begründen, Begründung in der Abbildung veranschaulichen | Zeitpunkt b so wählen, dass die Flächen zwischen Graph und x-Achse von 1,5 bis zur Nullstelle a und von a bis b gleich groß sind
+2017MerhoehtBAnalysisWTR1-2d | 5 | ja | Rechnung¦Begründung · Untersuchen Sie | Für ein anderes Becken beschreibt g(t) = 0,4 · (2t^3 − 39t^2 + 180t) für 0 <= t <= 15 die momentane Änderungsrate des Wasservolumens in m^3/h, t in Stunden seit Beobachtungsbeginn; G(t) = 0,2 · (t^4 − 26t^3 + 180t^2) ist eine Stammfunktion von g → rechnerische Untersuchung, ob es nach Beobachtungsbeginn einen Zeitpunkt gibt, zu dem das Wasservolumen ebenso groß ist wie zu Beobachtungsbeginn | Gleiches Volumen heißt ∫ von 0 bis x g(t) dt = 0, also G(x) − G(0) = 0,2 · x^2 · (x^2 − 26x + 180) = 0; der quadratische Faktor hat keine reelle Nullstelle, es bleibt nur x = 0
+2017MerhoehtBAnalysisWTR1-2b | 4 | ja | Rechnung · Ermitteln Sie | Für ein anderes Becken beschreibt g(t) = 0,4 · (2t^3 − 39t^2 + 180t) für 0 <= t <= 15 die momentane Änderungsrate des Wasservolumens in m^3/h, t in Stunden seit Beobachtungsbeginn; G(t) = 0,2 · (t^4 − 26t^3 + 180t^2) ist eine Stammfunktion von g → rechnerisch der Zeitraum, in dem das Volumen des Wassers abnimmt | g(t) = 0 ⇔ 2t · (t^2 − 19,5t + 90) = 0 ⇔ t = 0, 7,5 oder 12; mit einem Testwert (g(10) < 0) das Intervall mit negativer Rate bestimmen
 2023MerhoehtBAnalysisWTR1-1f | 3 | ja | Rechnung · Berechnen Sie¦Bestimmen Sie | s wie in e; Zeitraum 06:30 bis 08:00 Uhr → Zunahme der Staulänge; durchschnittliche Änderungsrate im Zeitraum | Differenz der Bestandswerte, geteilt durch die Zeitspanne 1,5 h
 2018MgrundlegendAAnalysis2-a | 3 | nein | Begründung · Begründen Sie | Behälter mit 2 Litern zu Beginn; Zuflussrate f(t) = −t · (t − 4) in Litern je Stunde für 0 ≤ t ≤ 5 → Begründung, dass das Volumen in den ersten vier Stunden durchgehend zunimmt | Zunahme auf positive Rate zurückführen, Vorzeichen von f auf (0; 4) über die Nullstellen
 2022MerhoehtBAnalysisWTR1-1c | 3 | ja | Rechnung · Berechnen Sie | f wie in a; erste zwei Minuten → Länge der zurückgelegten Strecke | Integral von 0 bis 2 über f, mit 1/60 in km umrechnen

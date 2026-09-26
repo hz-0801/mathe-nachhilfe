@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Punkte und Strecken im Koordinatensystem (26 Zeilen)
-- iqb: Punkte und Strecken im Koordinatensystem (64 Zeilen)
+- iqb: Punkte und Strecken im Koordinatensystem (70 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -15,11 +15,17 @@ abitur/abitur-typen.csv (neu): Ein Viereck über kollineare Verbindungsvektoren 
 **Körper: Koordinaten eines Eckpunkts eines Prismas angeben** · 4 Zeilen · abi 1 iqb 3 · Jahre 2020–2026
 abitur/abitur-typen.csv (neu): Aus gegebenen Eckpunkten eines geraden Prismas und dem Schrägbild die Koordinaten eines weiteren Eckpunkts der Deckfläche angeben.
 
+**Ebene Figur: Parallelogramm als Rechteck über das Skalarprodukt nachweisen** · 3 Zeilen · iqb 3 · Jahre 2017–2026
+abitur/abitur-typen.csv (neu): Zeigen, dass ein Parallelogramm ein Rechteck ist, indem das Skalarprodukt zweier benachbarter Seitenvektoren null ist.
+
 **Ebene Figur: Trapez mit zwei gleich langen Seiten über Kollinearität und Seitenlängen nachweisen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2019
 abitur/abitur-typen.csv (neu): Für ein Viereck im Raum die Parallelität zweier Seiten über kollineare Verbindungsvektoren, die Gleichheit der beiden anderen Seitenlängen über Beträge und ein Längenverhältnis der parallelen Seiten aus dem Kollinearitätsfaktor nachweisen.
 
 **Ebene Figur: Viereck in ein Schrägbild einzeichnen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2019
 abitur/abitur-typen.csv (neu): Die Eckpunkte eines Vierecks aus ihren Koordinaten in ein vorgegebenes Schrägbild eintragen und verbinden.
+
+**Körper: Koordinaten der Eckpunkte eines beschriebenen Körpers wählen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2020
+abitur/abitur-typen.csv (neu): Für einen nur durch Längen und rechte Winkel beschriebenen Körper passende Koordinaten der Eckpunkte angeben (rechte Winkel auf die Achsen legen).
 
 **Ebene Figur: Ansatz für einen rechten Innenwinkel eines Vierecks über das Skalarprodukt mit unbekannter Koordinate erläutern** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Einen vorgelegten Ansatz erläutern, in dem ein verschobener Eckpunkt mit unbekannter Koordinate angesetzt und der rechte Winkel über das Skalarprodukt der Nachbarseiten ausgedrückt wird.
@@ -36,9 +42,6 @@ abitur/abitur-typen.csv (neu): Die Beträge der Verbindungsvektoren eines Dreiec
 **Ebene Figur: Gleichschenkligkeit über kongruente rechtwinklige Dreiecke begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Die Gleichschenkligkeit eines Dreiecks begründen, indem zwei Seiten als Hypotenusen kongruenter rechtwinkliger Dreiecke mit gleichen Katheten erkannt werden.
 
-**Ebene Figur: Parallelogramm als Rechteck über das Skalarprodukt nachweisen** · 2 Zeilen · iqb 2 · Jahre 2023–2026
-abitur/abitur-typen.csv (neu): Zeigen, dass ein Parallelogramm ein Rechteck ist, indem das Skalarprodukt zweier benachbarter Seitenvektoren null ist.
-
 **Ebene Figur: Parallelogramm über gleiche Verbindungsvektoren nachweisen** · 2 Zeilen · iqb 2 · Jahre 2018–2021
 abitur/abitur-typen.csv (neu): Nachweisen, dass vier Punkte ein Parallelogramm bilden, weil zwei gegenüberliegende Verbindungsvektoren gleich sind.
 
@@ -54,11 +57,11 @@ abitur/abitur-typen.csv (neu): Für eine Schar von Ebenen die Eckenzahl des Schn
 **Körper: Gesamtlänge gleich langer Strecken an einem Körper über einen Vektorbetrag berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): Die Länge einer Strecke an einem Körper (Kante, Draht, Girlande) als Vektorbetrag berechnen, mit der Anzahl gleich langer Strecken (Symmetrie) und gegebenenfalls einem Zuschlag zur Gesamtlänge hochrechnen und im Sachzusammenhang angeben oder mit einer Vorgabe vergleichen.
 
+**Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2023
+abitur/abitur-typen.csv (neu): Die Länge einer Kante aus den Koordinaten berechnen und mit einer Zeitangabe und Einheitenumrechnung eine mittlere Geschwindigkeit bestimmen.
+
 **Körper: Kantenlänge eines Würfels aus gegenüberliegenden Oktaederecken nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Den Abstand zweier gegenüberliegender Flächenmittelpunkte als Kantenlänge des Würfels deuten und berechnen.
-
-**Körper: Koordinaten der Eckpunkte eines beschriebenen Körpers wählen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017–2020
-abitur/abitur-typen.csv (neu): Für einen nur durch Längen und rechte Winkel beschriebenen Körper passende Koordinaten der Eckpunkte angeben (rechte Winkel auf die Achsen legen).
 
 **Punkt: Koordinaten eines Punktes auf einer Strecke in Abhängigkeit von seiner Höhe ermitteln** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Einen Punkt auf einer Strecke (etwa der Mittellinie einer Pyramidenfläche) in Abhängigkeit von seiner Höhe über die Parameterform der Strecke ermitteln.
@@ -68,6 +71,9 @@ abitur/abitur-typen.csv (neu): Nachweisen, dass ein Punkt Mittelpunkt einer Kant
 
 **Punkt: Mittelpunkt einer Strecke im Raum bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017
 abitur/abitur-typen.csv (neu): Den Mittelpunkt einer Strecke – auch einer Diagonalen eines Vierecks, also den Mittelpunkt der Figur – als halbe Summe der Ortsvektoren der Endpunkte berechnen.
+
+**Punkt: Unbekannte Höhenkoordinate eines Endpunkts einer senkrechten Strecke aus ihrer Länge bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017
+abitur/abitur-typen.csv (neu): Bei einer senkrechten Strecke bekannter Länge mit bekanntem oberem Endpunkt die dritte Koordinate des unteren Endpunkts bestimmen und im Sachzusammenhang (etwa als Tiefe im Untergrund) angeben.
 
 **Ebene Figur: Berührpunkt des Inkreises einer Raute über Lage auf der Seite und Orthogonalität zum Mittelpunkt begründen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Für einen vorgegebenen Punkt zeigen, dass er auf einer Rautenseite liegt und dass seine Verbindung zum Diagonalenschnittpunkt senkrecht auf der Seite steht, damit er Berührpunkt des einbeschriebenen Kreises ist.
@@ -138,9 +144,6 @@ abitur/abitur-typen.csv (neu): Nach einer Verschiebung des Körpers den Eckpunkt
 **Körper: Eckpunkte eines Pyramidenstumpfs aus Symmetrie und Kantenlängen angeben** · 1 Zeile · abi 1 · Jahre 2017
 abitur/abitur-typen.csv (neu): Aus gegebenen Eckpunkten eines geraden quadratischen Pyramidenstumpfs, seinen Kantenlängen und dem Schrägbild die Koordinaten weiterer Ecken angeben: Grundfläche aus der Diagonalen, Deckfläche mittig über der Mittelachse in der Stumpfhöhe.
 
-**Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen** · 1 Zeile · iqb 1 · Jahre 2023
-abitur/abitur-typen.csv (neu): Die Länge einer Kante aus den Koordinaten berechnen und mit einer Zeitangabe und Einheitenumrechnung eine mittlere Geschwindigkeit bestimmen.
-
 **Körper: Kantenlänge eines Würfels mit einer Ecke auf einer Pyramidenkante berechnen und Lage im Inneren begründen** · 1 Zeile · abi 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Für einen Würfel mit drei Seitenflächen in den Koordinatenebenen die Kantenlänge k bestimmen, für die die Ecke (k | k | k) auf einer Pyramidenkante liegt, und begründen, dass der Würfel ganz in der Pyramide liegt (Ecken gegen die Seitenflächenebenen prüfen, Konvexität).
 
@@ -186,6 +189,9 @@ abitur/abitur-typen.csv (neu): Beschreiben, wie der Bildpunkt einer Drehung um e
 **Punkt: Mittelpunkt des Kreises durch drei Punkte der Ebene über Mittelsenkrechte und Abstandsgleichung berechnen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Den Umkreismittelpunkt dreier Punkte der Ebene berechnen, indem eine Koordinate aus einer Mittelsenkrechten und die andere aus der Gleichheit zweier Abstände gewonnen wird.
 
+**Punkt: Positionen bei gleichförmiger Bewegung zu vorgegebenen Zeitpunkten in eine schematische Abbildung einzeichnen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Bei gleichförmiger Bewegung auf einer Strecke die Positionen zu vorgegebenen Zeitpunkten als Teilpunkte im Verhältnis der Zeiten in eine schematische Abbildung einzeichnen.
+
 **Punkt: Teilpunkte einer Strecke in drei gleiche Abschnitte berechnen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Koordinaten der Punkte berechnen, die eine Strecke in gleiche Abschnitte teilen.
 
@@ -195,7 +201,7 @@ abitur/abitur-typen.csv (neu): Die Länge einer Strecke aus den Koordinaten bere
 **Punkt: Zweiten Punkt auf einer Geraden mit gleichem Abstand zu einem Geradenpunkt über den Richtungsvektor angeben** · 1 Zeile · abi 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zweiten Geradenpunkt B den Punkt D auf der anderen Seite von A mit gleichem Abstand angeben, indem der Verbindungsvektor AB von A abgezogen wird.
 
-**Nebentypen:** Punkt: Mittelpunkt einer Strecke im Raum bestimmen (2) · Ebene Figur: Flächeninhalt eines Trapezes im Raum über die Höhe zwischen den parallelen Seiten berechnen (1) · Ebene Figur: Gleichschenkligkeit oder Gleichseitigkeit eines Dreiecks über die Seitenlängen prüfen (1) · Ebene Figur: Viereck in ein Schrägbild einzeichnen (1) · Körper: Körper in ein räumliches Koordinatensystem einzeichnen (1) · Parametergleichung einer Ebene aus Punkten angeben (1) · Punkt: Teilpunkte einer Strecke in drei gleiche Abschnitte berechnen (1) · Rechten Winkel zwischen zwei Seiten einer Figur über das Skalarprodukt nachweisen (1) · Schnittpunkt von Gerade und Ebene berechnen (1) · Streckenlänge berechnen (1)
+**Nebentypen:** Punkt: Mittelpunkt einer Strecke im Raum bestimmen (4) · Körper: Körper in ein räumliches Koordinatensystem einzeichnen (2) · Ebene Figur: Flächeninhalt eines Trapezes im Raum über die Höhe zwischen den parallelen Seiten berechnen (1) · Ebene Figur: Gleichschenkligkeit oder Gleichseitigkeit eines Dreiecks über die Seitenlängen prüfen (1) · Ebene Figur: Viereck in ein Schrägbild einzeichnen (1) · Parametergleichung einer Ebene aus Punkten angeben (1) · Punkt: Teilpunkte einer Strecke in drei gleiche Abschnitte berechnen (1) · Rechten Winkel zwischen zwei Seiten einer Figur über das Skalarprodukt nachweisen (1) · Schnittpunkt von Gerade und Ebene berechnen (1) · Streckenlänge berechnen (1)
 
 ## B Zeilenliste
 
@@ -246,6 +252,7 @@ abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zwei
 2024MgrundlegendBAGLAA2WTR2-1b | 3 | ja | Begründung · Begründen Sie | D(6 ¦ 0 ¦ 5), E(0 ¦ 8 ¦ 5), F(0 ¦ 0 ¦ 5), M(3 ¦ 4 ¦ 5) → Begründung, dass D, E, F auf einem Kreis mit Mittelpunkt M liegen | M als Mittelpunkt von DE, Thaleskreis
 2026MgrundlegendBAGLAA2WTR1-1a | 3 | ja | Begründung · Begründen Sie | gerades Prisma ABCDEF mit A(10 ¦ 0 ¦ 0), B(10 ¦ 5 ¦ 20), C(10 ¦ −5 ¦ 20), D(0 ¦ 0 ¦ 0) → Begründung, dass ABC parallel zur yz-Ebene und symmetrisch zur xz-Ebene liegt | Koordinaten vergleichen
 2021MgrundlegendBAGLAA2WTR2-1a | 3 | ja | Rechnung · Zeigen Sie | Ebene Rasenfläche mit den Eckpunkten A(0 ¦ 0 ¦ 0), B(18 ¦ 0 ¦ 1,5), C(12 ¦ 10 ¦ 1), D(12 ¦ 15 ¦ 1), E(0 ¦ 15 ¦ 0); AB ∥ DE; 1 LE = 1 m; Mähroboter: Mittelpunkt der kreisförmigen Unterseite (Radius 20 cm) berührt die Fläche, Start P(3,6 ¦ 8 ¦ 0,3), Bewegung entlang der Geraden g durch P mit Richtungsvektor (12; −4; 1) auf den Rand BC zu → Nachweis, dass AE und CD parallel sind und CD und DE einen rechten Winkel einschließen | Vektoren AE, CD, DE bilden; Vielfaches und Skalarprodukt prüfen
+2017MerhoehtBAGLAA2WTR2-1b | 4 | ja | Begründung¦Kurzantwort · Weisen Sie nach¦Geben Sie an | Viereck ABCD mit A(0; 0; 1), B(2; 6; 1), C(−4; 8; 5) und D(−6; 2; 5) in einem kartesischen Koordinatensystem; der Schnittpunkt der Diagonalen heißt M → Nachweis, dass das Viereck ABCD ein Rechteck ist; Koordinaten von M | AB = DC = (2; 6; 0) zeigt das Parallelogramm, AB ∘ AD = (2; 6; 0) ∘ (−6; 2; 4) = 0 den rechten Winkel; M als Mitte von AC
 2023MgrundlegendBAGLAA1WTR-1a | 3 | ja | Rechnung · Weisen Sie nach | A(0¦0¦0), B(4,5¦0¦0), C(4,5¦4,5¦0), D(0¦4,5¦0), E(0¦0¦13,5), F(4,5¦0¦12), G(4,5¦4,5¦12), H(0¦4,5¦13,5); 1 LE = 1 cm; P(1,5¦2,25¦13) Einstichstelle; Trinkhalm 14 cm → Nachweis, dass die Deckfläche EFGH rechteckig ist | Gegenüberliegende Seiten als gleiche Vektoren, Skalarprodukt benachbarter Seiten null
 2026MerhoehtBAGLAA2WTR1-1a | 2 | ja | Begründung · Zeigen Sie | A(2 ¦ 0 ¦ −0,5), D(−2 ¦ 0 ¦ −0,5), E(2 ¦ 5 ¦ 1), F(−2 ¦ 5 ¦ 1); AEFD Parallelogramm → Nachweis, dass AEFD ein Rechteck ist | Skalarprodukt zweier benachbarter Seiten
 2018MerhoehtBAGLAA1WTR-1a | 3 | ja | Rechnung¦Zeichnen · Zeigen Sie¦Zeichnen Sie ein | Viereck ABCD mit A(0 ¦ 0 ¦ 0), B(0 ¦ 6 ¦ 0), C(−4 ¦ 14 ¦ 4), D(−4 ¦ 8 ¦ 4) im räumlichen Koordinatensystem (Abbildung mit Achsen x, y, z) → Nachweis, dass ABCD ein Parallelogramm ist; Zeichnung in der Abbildung | AB und DC vergleichen; Punkte eintragen
@@ -271,8 +278,10 @@ abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zwei
 2024MgrundlegendBAGLAA2WTR2-1e | 4 | ja | Kurzantwort · Geben Sie an | Punkte S_t(t ¦ 0 ¦ 0), t ≥ 0; Ebene durch M, F, S_t schneidet das Prisma in einem Vieleck → Eckenzahl in Abhängigkeit von t; alle t mit zwei Symmetrieachsen | Schnitt der Ebene mit den Kanten des Prismas nach Lage von S_t
 2024MgrundlegendAAGLAA211-c | 1 | nein | Kurzantwort · Geben Sie an | verschobener Quader A'B'C'D'E'F'G'H' mit Diagonalenschnittpunkt im Ursprung; S(2,5; 4; 2), G(4; 7; 4) → ein Eckpunkt des verschobenen Quaders mit nur positiven Koordinaten | die Ecke, deren Koordinaten alle größer als die von S sind, ist G; nach der Verschiebung G'(1,5; 3; 2)
 2025MgrundlegendBAGLAA2WTR1-1b | 3 | ja | Rechnung · Bestimmen Sie | D(5 ¦ 0 ¦ 3), S(0 ¦ 0 ¦ 5); acht gleich lange Dachkanten; Girlande je 60 cm länger als die Kante; 1 LE = 1 m → Gesamtlänge aller Girlanden | ¦DS¦ berechnen, mal acht, Zuschlag addieren
+2017MerhoehtBAGLAA2WTR3-1c | 2 | ja | Rechnung · Ermitteln Sie | Eine Radarstation überwacht ein Flugzeug; die x1x2-Ebene ist die Horizontale, 1 LE = 1 km; die Radarstation ist R(18; 0; −1); um 14.00 Uhr ist das Flugzeug in A(0; 0; 0), danach bewegt es sich entlang einer Geraden durch B(8; 4; 1), die Position um 14.02 Uhr; ab 14.14 Uhr fliegt es in gleicher Himmelsrichtung horizontal weiter und bleibt im Modell in der Ebene, die A und B enthält und zur x1x2-Ebene senkrecht steht; von 14.00 bis 14.14 Uhr fliegt es mit konstanter Geschwindigkeit → Geschwindigkeit des Flugzeugs bis 14.14 Uhr in km/h | ¦AB¦ = √(64 + 16 + 1) = 9 km in 2 min, also 9/2 km je Minute, mal 60
 2023MgrundlegendBAGLAA2WTR1-1e | 2 | ja | Rechnung · Bestimmen Sie | Rollo läuft in einer Minute von der Dachkante EF bis zur unteren Dachkante HG → mittlere Geschwindigkeit in cm/s | Länge der Dachstrecke FG berechnen, in cm umrechnen, durch 60 s teilen
 2024MerhoehtAAGLAA221-a | 2 | nein | Begründung · Weisen Sie nach | Oktaeder mit den Flächenmittelpunkten eines Würfels als Ecken; A(1; 2; 1), B, C(−3; −6; 9), D liegen in der Ebene H: 2 x1 + x2 + 2 x3 = 6 → Nachweis, dass die Kantenlänge des Würfels 12 beträgt | A und C sind Mittelpunkte gegenüberliegender Würfelflächen, ihr Abstand ist die Kantenlänge
+2017MerhoehtBAGLAA2CAS2-1a | 5 | ja | Kurzantwort¦Zeichnen · Geben Sie an¦zeichnen Sie ein | Ein geschlossenes Zelt auf horizontalem Untergrund hat die Form einer Pyramide mit quadratischer Grundfläche; die seitlichen Kanten bilden vier gleich lange Stangen; das Zelt ist 3,90 m hoch, die Seitenlänge des Zeltbodens beträgt 5,00 m; Modell: Pyramide ABCDS mit Spitze S, A im Koordinatenursprung, B auf dem positiven Teil der x-Achse, D auf dem positiven Teil der y-Achse, C(5; 5; 0), M Mittelpunkt der Grundfläche; das Dreieck ABS liegt in der Ebene E: −39y + 25z = 0; 1 LE = 1 m → Koordinaten der Punkte B, D, M und S; Zeichnung der Pyramide in ein Koordinatensystem gemäß Abbildung 1 | B und D aus der Seitenlänge 5 auf den Achsen, M als Mitte von AC, S 3,9 über M; Punkte ins Schrägbild eintragen und verbinden
 2020MgrundlegendAAGLAA212-b | 2 | nein | Kurzantwort · Geben Sie an | Pyramide aus a; Koordinatensystem mit 1 LE = 1 cm → mögliche Koordinaten der Eckpunkte | rechtwinklige Lage an den Achsen ausnutzen
 2024MgrundlegendAAGLAA211-a | 1 | nein | Kurzantwort · Geben Sie an | Quader ABCDEFGH mit A(1; 1; 0), B(4; 1; 0), E(1; 1; 4), H(1; 7; 4), Abbildung → Koordinaten von G | G = B + AD + AE mit AD = EH = (0; 6; 0) und AE = (0; 0; 4)
 2026MerhoehtAAGLAA212-a | 1 | nein | Kurzantwort · Geben Sie an | gerades Prisma ABCDEF mit A(0; 0; 0), B(6; 0; 0), C(0; 4; 0) und D(0; 0; 3), Abbildung → Koordinaten des Punktes F | F liegt senkrecht über C in der Höhe von D
@@ -291,5 +300,8 @@ abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zwei
 2026MgrundlegendBAGLAA2WTR2-1d | 2 | ja | Begründung¦Kurzantwort · Zeigen Sie¦Geben Sie an | Ebene F: z = 2 schneidet die Seitenkanten in T, U(3,5 ¦ −0,5 ¦ 2), V, W(1 ¦ 1 ¦ 2); D(0 ¦ 2 ¦ 0), S(2 ¦ 0 ¦ 4); Pyramide symmetrisch zur xz-Ebene → Nachweis, dass W Mittelpunkt von DS ist, und Koordinaten von T | Mittelpunkt berechnen, T durch Spiegelung von W an der xz-Ebene
 2017MgrundlegendBAGLAA2WTR1-1c | 5 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Berechnen Sie | Pagode mit drei Dachetagen aus je vier Dachflächen gleicher Form und Größe; die Dachflächen der mittleren und oberen Etage sind jeweils parallel zu einer Dachfläche der unteren Etage; die Dachflächen der unteren Etage sind Vierecke mit den Eckpunkten A1(5,5; −5,5; 6), B1(5,5; 5,5; 6), C1(−5,5; 5,5; 6), D1(−5,5; −5,5; 6), A2(2; −2; 8,1), B2(2; 2; 8,1), C2(−2; 2; 8,1) und D2(−2; −2; 8,1); die xy-Ebene ist die Horizontale, 1 LE = 1 m; A1B1B2A2 ist ein Trapez mit zwei gleich langen Schenkeln → Koordinaten der Mittelpunkte M1 und M2 der Seiten A1B1 bzw. A2B2; gesamter Inhalt der Dachflächen der unteren Etage in Quadratmetern | M1 und M2 als halbe Summen; ¦M1M2¦ = √(3,5^2 + 2,1^2) ist die Höhe des symmetrischen Trapezes; Fläche 1/2 · (11 + 4) · ¦M1M2¦, mal vier
 2017MgrundlegendBAGLAA2WTR2-1b | 4 | ja | Rechnung · Weisen Sie nach | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem; M(−2; 4; 3) → Nachweis, dass M der Mittelpunkt der Strecke AC ist und dass das Dreieck ABC bei B einen rechten Winkel hat | OM = OA + 1/2 · AC prüfen; BA ∘ BC = (−2; −6; 0) ∘ (−6; 2; 4) = 0
+2017MerhoehtBAGLAA2WTR3-1b | 2 | ja | Zeichnen · Zeichnen Sie ein | Eine Radarstation überwacht ein Flugzeug; die x1x2-Ebene ist die Horizontale, 1 LE = 1 km; die Radarstation ist R(18; 0; −1); um 14.00 Uhr ist das Flugzeug in A(0; 0; 0), danach bewegt es sich entlang einer Geraden durch B(8; 4; 1), die Position um 14.02 Uhr; ab 14.14 Uhr fliegt es in gleicher Himmelsrichtung horizontal weiter und bleibt im Modell in der Ebene, die A und B enthält und zur x1x2-Ebene senkrecht steht; von 14.00 bis 14.14 Uhr fliegt es mit konstanter Geschwindigkeit; die Abbildung zeigt schematisch die Flugbahn und die Horizontale → Positionen des Flugzeugs zu den Zeitpunkten 14.02 Uhr und 14.10 Uhr in der Abbildung | Die ansteigende Strecke (14.00 bis 14.14 Uhr, 14 Minuten) in sieben gleiche Abschnitte teilen; 14.02 Uhr am Ende des ersten, 14.10 Uhr am Ende des fünften
 2024MgrundlegendBAGLAA2WTR1-1b | 2 | ja | Rechnung · Bestimmen Sie | Strebe von A(3 ¦ 0 ¦ 0) nach E(0 ¦ 2 ¦ 0); zwei Befestigungspunkte teilen sie in drei gleiche Abschnitte → Koordinaten eines Befestigungspunkts | A + 1/3 · AE
+2017MerhoehtBAGLAA2CAS1-1a | 1 | ja | Kurzantwort · Geben Sie an | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → wie tief die Pfosten in den Untergrund hineinreichen | z = 4 − 4,5 = −0,5; die Pfosten reichen 0,5 m unter die x1x2-Ebene
+2017MerhoehtBAGLAA2WTR1-1a | 1 | ja | Kurzantwort · Geben Sie an | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → wie tief die Pfosten in den Untergrund hineinreichen | z = 4 − 4,5 = −0,5; die Pfosten reichen 0,5 m unter die x1x2-Ebene
 2020MgrundlegendBAGLAA2WTR-1c | 3 | ja | Rechnung · Berechnen Sie | Sonnensegel als Dreieck ABC mit A(−1 ¦ 1 ¦ 2), B(−1 ¦ 5 ¦ 2), C(−4 ¦ 3 ¦ 3) zwischen drei Masten; Untergrund = x₁x₂-Ebene; 1 LE = 1 m; die Ebene des Dreiecks hat eine Gleichung der Form x₁ + 3x₃ = j; die zum Untergrund parallele Seite ist 4 % länger als vor dem ersten Aufspannen → Länge dieser Seite vor dem ersten Aufspannen | Seite AB als parallele Seite erkennen, Länge 4 durch 1,04 teilen

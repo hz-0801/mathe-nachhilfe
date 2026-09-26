@@ -5,7 +5,7 @@ Stufe: I
 - msa: Prozentrechnung (24 Zeilen)
 - fhr: Prozentrechnung (1 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 

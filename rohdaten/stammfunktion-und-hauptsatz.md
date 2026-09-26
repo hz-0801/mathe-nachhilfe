@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Stammfunktion und Hauptsatz (22 Zeilen)
-- iqb: Stammfunktion und Hauptsatz (31 Zeilen)
+- iqb: Stammfunktion und Hauptsatz (35 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -18,6 +18,9 @@ abitur/abitur-typen.csv (neu): Stammfunktion einer ganzrationalen Funktion bilde
 **Bestimmtes Integral mit vorgegebener Stammfunktion berechnen** · 4 Zeilen · abi 1 iqb 3 · Jahre 2025–2026
 abitur/abitur-typen.csv (neu): Ein bestimmtes Integral über den Hauptsatz mit einer vorgegebenen Stammfunktion berechnen.
 
+**Extremstelle einer Stammfunktion über den Vorzeichenwechsel des Integranden begründen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2017–2026
+abitur/abitur-typen.csv (neu): Ohne Stammfunktionsterm begründen, dass eine Stammfunktion an einer Stelle ein Minimum oder Maximum hat, weil ihre Ableitung – die gegebene Funktion, der Integrand – dort das Vorzeichen wechselt (Monotonie links und rechts der Stelle); gemeint sind alle Stammfunktionen einer Funktion oder eine Integralfunktion, deren Wert an der unteren Grenze null ist; eine Nullstelle ohne Vorzeichenwechsel liefert kein Extremum.
+
 **Aussage über Extrempunkte einer Stammfunktion beurteilen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2022–2026
 abitur/abitur-typen.csv (neu): Eine Behauptung über Extrempunkte einer Stammfunktion F beurteilen, indem F' = f genutzt und das Vorzeichen von f aus dem Graphen der Ableitung f' und einem Funktionswert erschlossen wird.
 
@@ -29,9 +32,6 @@ abitur/abitur-typen.csv (neu): Ein bestimmtes Integral über f mit dem Hauptsatz
 
 **Stammfunktion mit einer Wertebedingung bestimmen** · 3 Zeilen · iqb 3 · Jahre 2025–2026
 abitur/abitur-typen.csv (neu): Die allgemeine Stammfunktion bilden und die Integrationskonstante aus einer Wertebedingung oder einem vorgegebenen Punkt des Graphen bestimmen.
-
-**Extremstelle aller Stammfunktionen über den Vorzeichenwechsel der gegebenen Ableitung begründen** · 2 Zeilen · abi 2 · Jahre 2026
-abitur/abitur-typen.csv (neu): Aus dem Vorzeichenwechsel einer gegebenen Funktion (als Ableitung aller ihrer Stammfunktionen) begründen, dass jede Stammfunktion an dieser Stelle ein Minimum oder Maximum hat.
 
 **Funktionswert von f als Tangentensteigung am Graphen der Stammfunktion bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Einen Funktionswert von f als Steigung der Tangente an den abgebildeten Graphen der Stammfunktion ablesen und das Vorgehen einzeichnen.
@@ -63,14 +63,17 @@ abitur/abitur-typen.csv (neu): Aus dem Grad des Integranden den Grad der Integra
 **Integral der Ableitung als Differenz von Funktionswerten berechnen** · 1 Zeile · abi 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Ein bestimmtes Integral über die Ableitung einer Funktion nach dem Hauptsatz als Differenz zweier Funktionswerte der Funktion berechnen.
 
+**Integralfunktionen mit verschiedenen unteren Grenzen als Verschiebung in y-Richtung begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Über die Intervalladditivität zeigen, dass sich zwei Integralfunktionen mit verschiedenen unteren Grenzen um das Integral zwischen diesen Grenzen unterscheiden, und aus dessen Vorzeichen am Graphen die Richtung der Verschiebung begründen.
+
 **Integrationsgrenzen mit Integral null über die zweite Ableitung am Graphen der Ableitung angeben** · 1 Zeile · abi 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Grenzen c ≠ d angeben, für die das Integral über die zweite Ableitung null ist, indem am Graphen der ersten Ableitung zwei Stellen mit gleichem Ableitungswert abgelesen werden (Hauptsatz), mit Begründung.
 
+**Kurvenlänge über eine vorgegebene Integralformel berechnen und mit der Länge von Streckenzügen vergleichen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Länge eines Graphenstücks mit der vorgegebenen Formel ∫ √(1 + (f'(x))^2) dx numerisch berechnen und begründen, dass sie größer ist als die Länge jedes einbeschriebenen Streckenzugs.
+
 **Maximum einer Integralfunktion über die Nullstelle des Integranden begründen und im Sachzusammenhang deuten** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Für D(x) = ∫(g − h) begründen, dass das Maximum an der Schnittstelle der Graphen von g und h liegt (D' = g − h mit Vorzeichenwechsel von plus nach minus), und das Maximum als größten Bestand deuten.
-
-**Maximumstelle aller Stammfunktionen über den Vorzeichenwechsel des Integranden begründen** · 1 Zeile · iqb 1 · Jahre 2019
-abitur/abitur-typen.csv (neu): Ohne Stammfunktionsterm die Stelle angeben und begründen, an der jede Stammfunktion ihr Maximum annimmt, weil der Integrand dort das Vorzeichen von plus nach minus wechselt.
 
 **Prozentuale Abweichung eines Näherungswerts vom exakten Wert berechnen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Die relative Abweichung eines Näherungswerts vom exakten Integralwert in Prozent berechnen (Nebenleistung).
@@ -89,6 +92,9 @@ abitur/abitur-typen.csv (neu): Die Menge aller Stammfunktionen F + C angeben und
 
 **Tiefpunkt aller Stammfunktionen auf der y-Achse über den Vorzeichenwechsel von f begründen und Stammfunktion mit Tiefpunkt im Ursprung bestimmen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Aus dem Vorzeichenwechsel des Integranden bei 0 folgern, dass jede Stammfunktion dort einen Tiefpunkt hat, und die Integrationskonstante so wählen, dass der Tiefpunkt im Ursprung liegt.
+
+**Waagerechte Tangente und Wendepunkt einer Integralfunktion an einer doppelten Nullstelle des Integranden begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): An einer doppelten Nullstelle (Extremstelle) des Integranden zwei Eigenschaften der Integralfunktion angeben und begründen: waagerechte Tangente wegen L' = f = 0 und Wendepunkt wegen des Extremums von L' = f.
 
 **Weitere Nullstelle einer Integralfunktion über die Flächenbilanz am Graphen begründen** · 1 Zeile · iqb 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Mithilfe des Graphen des Integranden begründen, dass die Integralfunktion eine weitere Nullstelle hat, weil die Flächenbilanz bei wachsender oberer Grenze wieder null wird.
@@ -135,6 +141,8 @@ abitur/abitur-typen.csv (neu): Die Wendestelle einer Integralfunktion über die 
 2025MerhoehtBAnalysisWTR3-2c | 4 | ja | Rechnung · Berechnen Sie | K(x) = −144/(5π) · cos(π/12 · (x − 7)) + x Stammfunktion von k; Integral der Leistung über die Zeit in Stunden gibt die Energie in kWh → von 6:00 bis 20:00 Uhr abgegebene Energie | K(20) − K(6)
 2025MgrundlegendBAnalysisWTR2-1d | 5 | ja | Rechnung · Berechnen Sie | F(x) = (3 − x) · e^x Stammfunktion von f; Näherungswert 1/2 · e · 4 → exakter Wert des Integrals von −3 bis 1 und prozentuale Abweichung des Näherungswerts | F(1) − F(−3), Differenz durch exakten Wert
 2026MerhoehtBAnalysisWTR3-1b | 2 | ja | Rechnung · Berechnen Sie | F(x) = −25/3 e^{−3/5 x} − 5x Stammfunktion von f → ∫_0^{5/3} f(x) dx | F(5/3) − F(0)
+2017MerhoehtBAnalysisWTR2-1i | 3 | ja | Begründung · Begründen Sie | f_1(x) = x^3 − 6x^2 + 9x mit Graph G_1 (Abbildung 2: Nullstelle 0 mit Vorzeichenwechsel von minus nach plus, Hochpunkt (1; 4), doppelte Nullstelle 3 im Tiefpunkt); betrachtet werden die in IR definierten Funktionen L und M mit L(x) = ∫ von 0 bis x f_1(t) dt und M(x) = ∫ von 3 bis x f_1(t) dt → Begründung ohne Rechnung, dass der Punkt (0; 0) Tiefpunkt des Graphen von L ist | L(0) = 0; L' = f_1 hat bei 0 eine Nullstelle, links davon ist f_1 negativ, rechts positiv
+2019MgrundlegendBAnalysisWTR2-1e | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; k = 1/4 → Stelle, an der jede Stammfunktion von f_(1/4) ihr Maximum annimmt, mit Begründung ohne Stammfunktionsterm | Vorzeichen von f_(1/4) links und rechts von 8 als Monotonie der Stammfunktion deuten
 2022MerhoehtAAnalysis11-b | 3 | nein | Rechnung¦Zeichnen · Bestimmen Sie¦Veranschaulichen Sie | Graph G_F; F Stammfunktion von f → f(1) mit Veranschaulichung des Vorgehens in der Abbildung | Tangente in (1; 1) an G_F zeichnen und ihre Steigung als Steigungsdreieck ablesen
 2018MerhoehtBAnalysisWTR1-1d | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | f(x) = 1/18 · (x³ − 15x² + 50x), ganzrational dritten Grades, G_f schneidet die x-Achse bei 0, 5 und 10 und geht durch (1 ¦ 2); Abbildung 1 zeigt G_f; F1(x) = ∫ von 1 bis x f(t) dt (Integralfunktion zu f mit unterer Grenze 1); F1 hat für 0 ≤ x ≤ 10 zwei ganzzahlige Nullstellen → die beiden Nullstellen mit Begründung | x = 1 wegen gleicher Grenzen; x = 9, weil G_f symmetrisch zu (5 ¦ 0) ist und die Flächenstücke über [1; 5] und [5; 9] sich aufheben
 2021MgrundlegendAAnalysis2-b | 3 | nein | Zeichnen · Skizzieren Sie | Graph von f in der Abbildung; F Stammfunktion durch den Koordinatenursprung; nur der Graph von f darf verwendet werden → Skizze des Graphen von F in der Abbildung | fallend von links (flach) mit Wendepunkt über −1, Tiefpunkt im Ursprung, danach steil steigend
@@ -143,8 +151,9 @@ abitur/abitur-typen.csv (neu): Die Wendestelle einer Integralfunktion über die 
 2018MerhoehtBAnalysisWTR1-1f | 2 | ja | Begründung · Begründen Sie | f(x) = 1/18 · (x³ − 15x² + 50x), ganzrational dritten Grades, G_f schneidet die x-Achse bei 0, 5 und 10 und geht durch (1 ¦ 2); Abbildung 1 zeigt G_f; F1(x) = ∫ von 1 bis x f(t) dt (Integralfunktion zu f mit unterer Grenze 1) → Begründung, dass F1 höchstens vier Nullstellen hat | Grad von F1 ist 4
 2021MgrundlegendAAnalysis11-a | 2 | nein | Rechnung · Bestimmen Sie | Abb. 1 Graph von f, Abb. 2 Graph einer Stammfunktion F mit F(1) ≈ 1,7 und F(5) ≈ −1,3; nur Abb. 2 darf verwendet werden → Wert des Integrals von 1 bis 5 über f(x) dx | Hauptsatz mit den abgelesenen Werten
 2022MerhoehtAAnalysis11-a | 2 | nein | Rechnung · Bestimmen Sie | f und F in IR, F Stammfunktion von f; Graph G_F in der Abbildung mit F(1) = 1 und F(7) = 5 → Wert des Integrals von 1 bis 7 über f(x) dx | Hauptsatz mit den abgelesenen Werten F(7) und F(1)
+2017MerhoehtBAnalysisWTR2-1k | 2 | ja | Begründung · Begründen Sie | f_1(x) = x^3 − 6x^2 + 9x mit Graph G_1 (Abbildung 2: Nullstelle 0 mit Vorzeichenwechsel von minus nach plus, Hochpunkt (1; 4), doppelte Nullstelle 3 im Tiefpunkt); betrachtet werden die in IR definierten Funktionen L und M mit L(x) = ∫ von 0 bis x f_1(t) dt und M(x) = ∫ von 3 bis x f_1(t) dt → Begründung, dass der Graph der Funktion M aus dem Graphen der Funktion L durch eine Verschiebung in negative y-Richtung hervorgeht | ∫ von 3 bis x = ∫ von 0 bis x − ∫ von 0 bis 3, also M(x) = L(x) − L(3); L(3) > 0, weil der Graph von f_1 zwischen 0 und 3 oberhalb der x-Achse liegt
+2017MerhoehtBAnalysisCAS1-2h | 4 | ja | Rechnung¦Begründung · Berechnen Sie¦Formulieren Sie¦Begründen Sie | Längsschnitt eines Schiffs mit horizontalem Deck; im Koordinatensystem mit Ursprung an der Bugspitze B und x-Achse entlang der Decklinie beschreibt k(x) = −0,3x^2 · e^(−0,2x) für 0 <= x <= 20 die Kiellinie; 1 LE = 1 m; für ein Kurvenstück einer in [a; b] definierten Funktion h gilt für die Länge s = ∫ von a bis b √(1 + (h'(x))^2) dx; Näherung durch den Streckenzug B–P–T–E: 21,0 → Länge der Kiellinie im Modell; allgemeine Aussage zur Länge der Kiellinie im Vergleich zur Länge der Streckenzüge aus Teilaufgabe g mit Begründung | ∫ von 0 bis 20 √(1 + (k'(x))^2) dx mit dem Rechner auswerten; jede Strecke eines Streckenzugs ist kürzer als das Graphenstück zwischen ihren Endpunkten
 2026MerhoehtBAnalysisMMS1-1h | 4 | ja | Begründung¦Kurzantwort · Begründen Sie¦Geben Sie an | D(x) = ∫₀^x (g(t) − h(t)) dt auf [0; 12]; D nimmt sein Maximum in [2; 11] an; dort schneiden sich die Graphen von g und h genau einmal, bei x_S → Begründung, dass das Maximum an der Stelle x_S liegt; Bedeutung des Maximums | D' = g − h, x_S als einzige Nullstelle mit Vorzeichenwechsel von plus nach minus (g > h davor, h > g danach); D als Zahl der anwesenden Gäste deuten
-2019MgrundlegendBAnalysisWTR2-1e | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; k = 1/4 → Stelle, an der jede Stammfunktion von f_(1/4) ihr Maximum annimmt, mit Begründung ohne Stammfunktionsterm | Vorzeichen von f_(1/4) links und rechts von 8 als Monotonie der Stammfunktion deuten
 2022MgrundlegendBAnalysisWTR1-1f | 4 | ja | Rechnung · Berechnen Sie | f(x) = 1/80 x⁵ − 1/6 x³ + x, definiert in IR; Abbildung 1 zeigt G_f; W(2 ¦ f(2)) ist Wendepunkt; Näherungswert 1/2 · (2 + 14/15) · 16/15 aus e → prozentuale Abweichung des Näherungswerts vom exakten Integralwert | Integral exakt berechnen, Differenz durch den exakten Wert teilen
 2020MerhoehtAAnalysis21-a | 1 | nein | Rechnung · Zeigen Sie | f_a(x) = a · (x − 2)³ für a ≠ 0; F(x) = 1/2 · (x − 2)⁴ + 3 → Nachweis, dass F Stammfunktion von f_2 ist | F ableiten
 2020MgrundlegendBAnalysisWTR2-1e | 4 | ja | Rechnung · Zeigen Sie | f(x) = 1/10 · x · (3 − x) · eˣ, x ∈ IR; Abbildung 1 zeigt den Graphen von f; f'(x) = −1/10 · (x² − x − 3) · eˣ; F(x) = −1/10 · (x² − 5x + 5) · eˣ, in IR definiert → Nachweis, dass F eine Stammfunktion von f ist | F mit der Produktregel ableiten und zu f zusammenfassen
@@ -155,5 +164,6 @@ abitur/abitur-typen.csv (neu): Die Wendestelle einer Integralfunktion über die 
 2026MgrundlegendBAnalysisWTR1-1d | 3 | ja | Rechnung · Ermitteln Sie | f(x) = 1/4 x³ + 1/4; Punkt (4 ¦ 16) auf dem Graphen der Stammfunktion → Term dieser Stammfunktion | allgemeine Stammfunktion, c aus F(4) = 16
 2024MgrundlegendBAnalysisWTR1-1f | 4 | ja | Rechnung · Ermitteln Sie | h2 = f; H2(x) = 2 · (x² − 2x + 1) · e^x; zwei Stammfunktionen mit der x-Achse als Tangente → je ein Term dieser Stammfunktionen | Bedingung an c aus H2(±1) + c = 0
 2020MgrundlegendBAnalysisWTR2-1h | 5 | ja | Begründung¦Rechnung · Begründen Sie¦Bestimmen Sie | f(x) = 1/10 · x · (3 − x) · eˣ, x ∈ IR; Abbildung 1 zeigt den Graphen von f; f'(x) = −1/10 · (x² − x − 3) · eˣ; F(x) = −1/10 · (x² − 5x + 5) · eˣ ist eine Stammfunktion → Begründung ohne den Term von F, dass der Graph jeder Stammfunktion einen Tiefpunkt auf der y-Achse hat; die Stammfunktion mit Tiefpunkt im Ursprung | Vorzeichenwechsel von f bei 0 aus Term oder Abbildung; H(0) = F(0) + c = 0 nach c lösen
+2017MerhoehtBAnalysisWTR2-1j | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | f_1(x) = x^3 − 6x^2 + 9x mit Graph G_1 (Abbildung 2: Nullstelle 0 mit Vorzeichenwechsel von minus nach plus, Hochpunkt (1; 4), doppelte Nullstelle 3 im Tiefpunkt); betrachtet werden die in IR definierten Funktionen L und M mit L(x) = ∫ von 0 bis x f_1(t) dt und M(x) = ∫ von 3 bis x f_1(t) dt → zwei besondere Eigenschaften des Graphen von L bei x = 3 mit Begründung | L'(3) = f_1(3) = 0, also waagerechte Tangente; f_1 = L' hat bei 3 einen Tiefpunkt, also ist 3 Wendestelle von L
 2018MerhoehtBAnalysisWTR1-1e | 2 | ja | Begründung · Begründen Sie | f(x) = 1/18 · (x³ − 15x² + 50x), ganzrational dritten Grades, G_f schneidet die x-Achse bei 0, 5 und 10 und geht durch (1 ¦ 2); Abbildung 1 zeigt G_f; F1(x) = ∫ von 1 bis x f(t) dt (Integralfunktion zu f mit unterer Grenze 1) → Begründung mithilfe der Abbildung, dass F1 mindestens eine weitere positive Nullstelle hat | Für ein x > 10 sind die Inhalte der Flächenstücke oberhalb der x-Achse zusammen so groß wie das Flächenstück unterhalb
 2022MerhoehtBAnalysisWTR3-2c | 5 | ja | Begründung¦Rechnung · Begründen Sie¦Berechnen Sie | Graph von h ↦ V(h) in Abbildung 3 → Begründung der Wendestelle 50; zugehöriges Füllvolumen | Zweite Ableitung von V über den Integranden, Nullstelle; V(50) als halbe Kugel oder über die Stammfunktion

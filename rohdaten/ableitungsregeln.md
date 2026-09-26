@@ -4,9 +4,9 @@ Stufe: II
 
 - fhr: Ableitungen bilden (8 Zeilen)
 - abi: Ableitungsregeln (8 Zeilen)
-- iqb: Ableitungsregeln (10 Zeilen)
+- iqb: Ableitungsregeln (12 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -16,11 +16,11 @@ abitur/abitur-typen.csv (neu): Eine vorgegebene erste oder zweite Ableitung eine
 **Ableitung ganzrationale Funktion** · 6 Zeilen · fhr 6 · Jahre 2023–2026
 fhr/fhr-typen.csv (geprüft): Erste bis dritte Ableitung einer ganzrationalen Funktion mit Potenz-, Faktor- und Summenregel bilden.
 
+**Ableitung mit Parameter in faktorisierter Form nachweisen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Eine vorgegebene faktorisierte Ableitung einer ganzrationalen Funktion mit Parameter durch Ableiten und Ausklammern nachweisen.
+
 **Ableitung eines Produkts aus x und einer e-Funktion mit Produkt- und Kettenregel bilden** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Die Ableitung eines Terms p(x) · e^(g(x)) (p Polynom, auch nur x) mit Produkt- und Kettenregel bilden und den gemeinsamen Faktor ausklammern.
-
-**Ableitung mit Parameter in faktorisierter Form nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2021–2025
-abitur/abitur-typen.csv (neu): Eine vorgegebene faktorisierte Ableitung einer ganzrationalen Funktion mit Parameter durch Ableiten und Ausklammern nachweisen.
 
 **Verhalten im Unendlichen bestimmen** · 2 Zeilen · fhr 2 · Jahre 2021–2022
 fhr/fhr-typen.csv (geprüft): Aus Grad und Vorzeichen des Leitkoeffizienten das Verhalten von f für x gegen plus und minus unendlich angeben.
@@ -39,6 +39,9 @@ abitur/abitur-typen.csv (neu): Für g = f · e^x mit allgemeinem f mit der Produ
 
 **Tangente an eine Verkettung aus zwei abgebildeten Graphen über die Kettenregel bestimmen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Die Tangente an den Graphen einer Verkettung g(f(x)) an einer Stelle bestimmen, wenn nur die Graphen von f und g abgebildet sind (Kettenregel mit abgelesenen Werten, Extremstelle als Nullstelle der Ableitung).
+
+**Term einer höheren Ableitung einer Sinusfunktion über die Periodizität der Ableitungen angeben** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Aus den ersten Ableitungen einer Funktion wie c · sin(cx) die Periode vier der Ableitungsfolge und den Faktor je Ableitung erkennen und einen Term einer hohen Ableitung über den Rest bei Division durch vier angeben.
 
 **Verschiebung zwischen Graph und hundertster Ableitung berechnen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Für eine e-Funktion die n-te Ableitung als Vielfaches erkennen und die Verschiebung in x-Richtung, die den Graphen in den der Ableitung überführt, über eine Exponentialgleichung berechnen.
@@ -75,7 +78,9 @@ abitur/abitur-typen.csv (neu): Für eine e-Funktion die n-te Ableitung als Vielf
 2017MgrundlegendBAnalysisWTR-1d | 3 | ja | Rechnung · Leiten Sie her | f(x) = −5x^2 · e^x + 1; angegebene Ableitung f'(x) = −5x · (2 + x) · e^x → Herleitung der angegebenen Gleichung von f' aus der Funktionsgleichung von f | Produktregel auf −5x^2 · e^x anwenden, die Konstante fällt weg, und −5x · e^x ausklammern
 2021MerhoehtAAnalysis13-a | 2 | nein | Rechnung · Zeigen Sie | f(t) = 2 · t · e^(−t/100), t in Tagen, f(t) Rate in Tausend Computern pro Tag → Nachweis, dass 2 · (1 − t/100) · e^(−t/100) ein Term von f' ist | Produktregel anwenden und zusammenfassen
 2024MgrundlegendBAnalysisWTR1-1a | 2 | ja | Rechnung · Zeigen Sie | f(x) = 2 · (x² − 1) · e^x in IR; Behauptung f'(x) = 2 · (x² + 2x − 1) · e^x → Nachweis der Ableitung | Produktregel, zusammenfassen
+2017MerhoehtBAnalysisWTR2-1d | 3 | ja | Begründung · Weisen Sie nach | Für jedes k ∈ IR+ ist die Funktion f_k mit f_k(x) = k^2x^3 − 6kx^2 + 9x, x ∈ IR, gegeben; ihr Graph heißt G_k → Nachweis, dass f_k'(x) = 3 · (kx − 1) · (kx − 3) eine Gleichung der ersten Ableitungsfunktion ist | f_k ableiten und den vorgegebenen Term ausmultiplizieren, beide stimmen überein
 2021MerhoehtAAnalysis12-a | 1 | nein | Rechnung · Zeigen Sie | f(x) = x⁴ − k · x² in IR mit k > 0; Graph in der Abbildung → Nachweis, dass f'(x) = 2x · (2x² − k) gilt | ableiten und ausklammern
 2025MerhoehtAAnalysis21-a | 3 | nein | Begründung · Weisen Sie nach | f und g in IR definiert und differenzierbar mit g(x) = f(x) · e^x; Aussage: hat der Graph von g im Punkt (a; g(a)) eine waagerechte Tangente, dann gilt f'(a) = −f(a) → Nachweis, dass die Aussage wahr ist | g' mit der Produktregel bilden, g'(a) = 0 setzen, durch e^a ≠ 0 teilen
 2020MerhoehtAAnalysis22 | 5 | nein | Rechnung · Bestimmen Sie | Graphen der ganzrationalen Funktionen f und g in der Abbildung; f(4) = −2, g hat den Tiefpunkt (−2; 1); h(x) = g(f(x)) → Gleichung der Tangente an den Graphen von h in (4; h(4)) | Kettenregel an der Stelle 4, g'(−2) = 0 am Tiefpunkt erkennen, h(4) ablesen
+2017MerhoehtBAnalysisWTR1-3d | 3 | ja | Kurzantwort · Geben Sie an | Für jeden Wert c ∈ IR+ ist die in IR definierte Funktion h_c mit h_c(x) = c · sin(cx) gegeben → ein Term der 103. Ableitung von h_c | Die ersten Ableitungen bilden: c^2 · cos(cx), −c^3 · sin(cx), −c^4 · cos(cx), c^5 · sin(cx); das Muster wiederholt sich nach vier Schritten, jede Ableitung liefert einen Faktor c; 103 lässt bei Division durch 4 den Rest 3
 2024MerhoehtAAnalysis23 | 5 | nein | Rechnung · Ermitteln Sie | f in IR definiert mit f'(x) = 2 · e^(2x) und f(0) = 1; f^(100) ist die hundertste Ableitungsfunktion; der Graph von f^(100) entsteht aus dem Graphen von f durch eine Verschiebung in x-Richtung → um wie viele Einheiten der Graph von f dazu in x-Richtung zu verschieben ist | f = e^(2x) rekonstruieren, f^(100) = 2^100 · e^(2x) erkennen, die Verschiebungsgleichung f(x − c) = f^(100)(x) nach c auflösen

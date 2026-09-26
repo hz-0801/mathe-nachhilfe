@@ -4,16 +4,16 @@ Stufe: II
 
 - fhr: Schnittpunkte von Funktionsgraphen (9 Zeilen)
 - abi: Gleichungen lösen (16 Zeilen)
-- iqb: Gleichungen lösen (20 Zeilen)
+- iqb: Gleichungen lösen (24 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
 **Schnittpunkte zweier Funktionsgraphen berechnen** · 6 Zeilen · fhr 6 · Jahre 2019–2023
 fhr/fhr-typen.csv (geprüft): Zwei Funktionsterme gleichsetzen, die Gleichung lösen und die Schnittpunkte mit beiden Koordinaten angeben.
 
-**Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2025
+**Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten** · 4 Zeilen · abi 1 iqb 3 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): Eine Gleichung der Form a(x + c) = a(x) + d am Graphen lösen – zwei Graphenpunkte mit festem Abstand c in x- und d in y-Richtung, bei d = 0 eine waagerechte Sehne der Länge c; x ist eine Zeit oder ein Ort – und im Sachzusammenhang deuten.
 
 **Schnittstellen zweier Graphen durch Lösen einer quadratischen Gleichung nachweisen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2019–2021
@@ -24,6 +24,9 @@ fhr/fhr-typen.csv (geprüft): Den Funktionsterm einem vorgegebenen Wert gleichse
 
 **Gleichung aus Differenzenquotient und Ableitung lösen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Eine Gleichung, die den Differenzenquotienten zu einem festen Punkt mit der Ableitung gleichsetzt, als Bruchgleichung lösen.
+
+**Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen** · 2 Zeilen · iqb 2 · Jahre 2017–2026
+abitur/abitur-typen.csv (neu): Die Bedingung, dass eine Größe denselben Wert hat wie im Abstand c davor (zeitlich oder räumlich), als Gleichung f(t) = f(t − c) ansetzen, numerisch lösen und das Ergebnis verwenden – beide Punkte im Graphen markieren oder den gemeinsamen Funktionswert im Sachzusammenhang auswerten.
 
 **Lösungsmenge einer Ungleichung zwischen zwei Funktionstermen über die faktorisierte Differenz bestimmen** · 2 Zeilen · abi 2 · Jahre 2022–2023
 abitur/abitur-typen.csv (neu): Die Differenz zweier Funktionsterme bilden, faktorisieren (Ausklammern, binomische Formel) und aus den Vorzeichen der Faktoren die Lösungsmenge der Ungleichung f(x) > g(x) angeben.
@@ -36,6 +39,9 @@ abitur/abitur-typen.csv (neu): Nachweisen, dass sich die Graphen von f und f' an
 
 **Schnittstellen zweier Graphen über den gemeinsamen Exponentialfaktor nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Beim Gleichsetzen zweier Terme mit demselben positiven Exponentialfaktor diesen kürzen und die verbleibende Gleichung lösen, um alle Schnittstellen nachzuweisen.
+
+**Waagerechte Ausdehnung eines Profils in vorgegebener Höhe über die Stellen mit vorgegebenem Funktionswert berechnen** · 2 Zeilen · iqb 2 · Jahre 2017
+abitur/abitur-typen.csv (neu): Eine vorgegebene Höhe oder Tiefe als Funktionswert ansetzen, die Stellen im Definitionsbereich lösen und die waagerechte Ausdehnung (Länge, Radius, Umfang) daraus berechnen.
 
 **Achsenparallele Quadrate mit Eckpunkt auf dem Graphen skizzieren, Gleichungen für die Seitenlängen angeben und Umfangsverhältnis beschreiben** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Quadrate mit dem Ursprung und einem Graphenpunkt als Gegenecken einzeichnen, die Seitenlängen als Lösungen von f(x) = x bzw. f(x) = −x angeben und beschreiben, wie daraus das Verhältnis der Umfänge folgt.
@@ -57,9 +63,6 @@ abitur/abitur-typen.csv (neu): Begründen, dass zwei Graphen keinen gemeinsamen 
 
 **Gemeinsame Punkte zweier Graphen als einzige durch Ausklammern nachweisen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Zwei Funktionsterme gleichsetzen, die Differenz faktorisieren (x² ausklammern) und aus dem Produkt gleich null die einzigen Schnittstellen samt Punkten angeben.
-
-**Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen und im Graphen darstellen** · 1 Zeile · iqb 1 · Jahre 2026
-abitur/abitur-typen.csv (neu): Die Bedingung, dass eine Größe zu einem Zeitpunkt denselben Wert hat wie c Zeiteinheiten davor, als Gleichung f(t) = f(t − c) ansetzen, numerisch lösen und beide Punkte im Graphen markieren.
 
 **Gleichung für zwei Graphenpunkte mit festem horizontalem Abstand und Höhenunterschied aufstellen** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Eine Gleichung der Form s(x) − s(x − d) = h angeben, deren Lösung die Stelle eines Graphenpunkts mit vorgegebenem horizontalem Abstand und Höhenunterschied zu einem zweiten Graphenpunkt ist (Maßstab beachten).
@@ -137,10 +140,12 @@ abitur/abitur-typen.csv (neu): Eine Gleichung k(x) = c mit einer Sinusfunktion r
 2024MerhoehtBAnalysisWTR1-2b | 4 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Berechnen Sie | w(x) = 40/(1 + e^{−0,2x}), x Jahre seit der Ansiedlung, w(x) Anzahl der Seeadler → Anzahl bei der Ansiedlung; Zeitpunkt, zu dem 32 erreicht sind | w(0), Gleichung nach x auflösen
 2018MerhoehtBAnalysisWTR2-1b | 4 | ja | Rechnung · Berechnen Sie | Kugelstoßen im Koordinatensystem (1 LE = 1 m, x-Achse ist der Boden): Bahn von der Ruhelage R bis zum Abstoßpunkt A durch f(x) = 0,4 + 1,6 · e^(0,5x), x ∈ [−2; 0]; Flugkurven p_a(x) = −ax² + bx + 2, a > 0, ohne Knick in A → horizontaler Abstand der Kugel von der Ruhelage bei Höhe 1,50 m | f(x) = 1,5 lösen, Differenz zu x = −2
 2018MerhoehtAAnalysis11-a | 2 | nein | Begründung · Begründen Sie | f(x) = e^x + 1/2 x und g(x) = 1/2 x − 1 in IR → Begründung, dass die Graphen keinen gemeinsamen Punkt haben | Gleichung f(x) = g(x) auf e^x = −1 zurückführen
+2017MerhoehtBAnalysisWTR1-1d | 4 | ja | Kurzantwort · Interpretieren Sie¦Geben Sie an | Abbildung 1 zeigt den Graphen einer Funktion f, die für 0 <= t <= 15 das Volumen des Wassers in einem Becken in Abhängigkeit von der Zeit beschreibt; t ist die seit Beobachtungsbeginn vergangene Zeit in Stunden, f(t) das Volumen in Kubikmetern; Gleichung f(t + 6) = f(t) − 350 → Interpretation der Gleichung im Sachzusammenhang; eine Lösung der Gleichung | Die Gleichung beschreibt Zeitpunkte, zu denen das Volumen um 350 m^3 größer ist als sechs Stunden später; am Graphen zwei Punkte im waagerechten Abstand 6 mit Höhenunterschied 350 suchen (etwa (3; 570) und (9; 220))
 2017MgrundlegendBAnalysisWTR-1c | 3 | ja | Kurzantwort · Deuten Sie¦Bestimmen Sie | Querschnitt einer Senke mit Fluss: Profillinie f(x) = −5x^2 · e^x + 1 für −6 <= x <= 0; linke Uferzone waagerecht in Höhe f(−6) links von x = −6, rechte Uferzone waagerecht in Höhe 1 rechts von x = 0 (Strecken parallel zur x-Achse, lückenlos an den Graphen anschließend); die Wasseroberfläche ist ein Abschnitt der x-Achse; 1 LE = 1 m; gegeben f'(x) = −5x · (2 + x) · e^x, f''(x) = −10e^x − 20x · e^x − 5x^2 · e^x und die Stammfunktion F(x) = x − 5 · (x^2 − 2x + 2) · e^x; Abbildung 1; Gleichung f(x + 3) = f(x) → Deutung der Gleichung im Sachzusammenhang und eine Lösung mithilfe von Abbildung 1 | Die Gleichung verlangt zwei Punkte der Profillinie auf gleicher Höhe mit 3 m waagerechtem Abstand; in Abbildung 1 eine waagerechte Strecke der Länge 3 zwischen linkem und rechtem Hang suchen und ihren linken Endpunkt ablesen
 2025MgrundlegendBAnalysisWTR2-2c | 5 | ja | Rechnung¦Kurzantwort · Ermitteln Sie¦Interpretieren Sie | Gleichung a(x + 3) = a(x) + 1000 mit genau einer Lösung für x > 0 → Lösung grafisch in Abbildung 2 und Bedeutung der Gleichung | Punkte P(x ¦ a(x)) und Q(x + 3 ¦ a(x) + 1000) auf dem Graphen suchen, x ablesen; deuten
 2020MgrundlegendBAnalysisWTR1-1a | 5 | ja | Rechnung · Zeigen Sie | Logo eines Geschäfts für Anglerbedarf: untere Begrenzungslinie des Fischs u(x) = 1/8 x³, obere Begrenzungslinie v(x) = 1/4 x² · (4 − x) (beide in IR definiert), Wasseroberfläche y = 5/4; die obere Spitze der Schwanzflosse liegt auf der Wasseroberfläche, die Strecke zwischen oberer und unterer Spitze der Schwanzflosse steht senkrecht dazu; Behauptungen: P(0 ¦ 0) und Q(8/3 ¦ 64/27) sind die einzigen gemeinsamen Punkte; v'(x) = −3/4 x² + 2x → Nachweis beider Behauptungen | u = v ausmultiplizieren, x² ausklammern, Lösungen und Funktionswerte angeben; v ausmultiplizieren und ableiten
 2025MgrundlegendAAnalysis22-a | 3 | nein | Kurzantwort¦Rechnung · Geben Sie an¦Ermitteln Sie | f(x) = −x^2 + 4x − 1, definiert in IR, Graph in der Abbildung; Gleichung (f(x) − 0)/(x − 0) = f'(x) → Term von f'¦Lösungen der Gleichung, rechnerisch | f'(x) = −2x + 4; die Gleichung mit x multiplizieren: −x^2 + 4x − 1 = −2x^2 + 4x, also x^2 = 1
+2017MerhoehtBAnalysisCAS1-2e | 5 | ja | Rechnung · Ermitteln Sie | Längsschnitt eines Schiffs mit horizontalem Deck; im Koordinatensystem mit Ursprung an der Bugspitze B und x-Achse entlang der Decklinie beschreibt k(x) = −0,3x^2 · e^(−0,2x) für 0 <= x <= 20 die Kiellinie; 1 LE = 1 m; der Boden der Kajüte liegt 2,20 m unter Deck; der Boden des Stauraums unterhalb der Kajüte hat in Längsrichtung eine Länge von 6 m → rechnerisch in Metern, wie weit der Boden des Stauraums unterhalb des Bodens der Kajüte liegt | Die Endpunkte des Stauraumbodens liegen auf gleicher Höhe im Abstand 6: k(x) = k(x + 6) für 0 <= x <= 14 lösen; k(x) mit −2,2 vergleichen
 2026MerhoehtBAnalysisMMS2-1b | 4 | ja | Rechnung¦Zeichnen · Berechnen Sie¦Stellen Sie dar | r wie in a; es gibt einen Zeitpunkt, zu dem die Wachstumsrate genauso groß ist wie fünf Wochen davor → dieser Zeitpunkt; Darstellung des Sachverhalts in Abbildung 1 | r(t) = r(t − 5) mit dem Rechner lösen; in der Abbildung die Punkte bei t ≈ 1 und t ≈ 6 auf gleicher Höhe markieren und verbinden
 2023MerhoehtBAnalysisWTR2-2b | 2 | ja | Kurzantwort · Geben Sie an | zwei Punkte des Tragseils in der rechten Hälfte mit horizontalem Abstand 40 m und Höhenunterschied 5 m → Gleichung, deren Lösung die x-Koordinate des höheren Punkts ist | Maße in LE umrechnen, Differenz s(x) − s(x − 4) gleich 0,5 setzen
 2019MgrundlegendBAnalysisWTR1-2d | 3 | ja | Begründung¦Kurzantwort · Beschreiben Sie¦Geben Sie an | k(x) = 1/40 · (x³ − 30x² + 288x − 815), in IR definiert; Abbildung 1 zeigt den Graphen; Laktattest: für 8,5 ≤ x ≤ 17,5 beschreibt k die Laktatkonzentration in mmol/l in Abhängigkeit von der Geschwindigkeit x in km/h; der Graph ist symmetrisch bezüglich seines Wendepunkts W(10 ¦ 13/8); betrachtet werden Geraden durch W; g(x) = 13/40 · (x − 5); Gleichung k(x) − g(x) = 0 → grafisches Verfahren zur Lösung; die Lösungen | Schnittstellen der Graphen von k und g in Abbildung 1 ablesen
@@ -151,4 +156,6 @@ abitur/abitur-typen.csv (neu): Eine Gleichung k(x) = c mit einer Sinusfunktion r
 2026MerhoehtAAnalysis14-a | 1 | nein | Begründung · Zeigen Sie | f(x) = 4e^(1/2 x + 1) und g(x) = x^2 · e^(1/2 x + 1), beide in IR definiert → Nachweis, dass sich die Graphen nur für x = −2 und x = 2 schneiden | Gleichsetzen, durch den positiven Faktor e^(1/2 x + 1) teilen, 4 = x^2 lösen
 2023MgrundlegendAAnalysis2-b | 3 | nein | Rechnung · Bestimmen Sie | f(x) = e^(x²); f'(x) = 2x · f(x); die Graphen von f und f' schneiden sich in genau einem Punkt → Steigung des Graphen von f in diesem Punkt | f(x) = 2x · f(x) durch f(x) > 0 teilen, x = 1/2, dann f'(1/2)
 2019MgrundlegendAAnalysis12-a | 2 | nein | Rechnung · Bestimmen Sie | f(x) = 1/3 x³ − 4/3 x + 1 in IR; Gerade y = 1 → x-Koordinaten der Schnittpunkte von Graph und Gerade | f(x) = 1 setzen, x ausklammern, Nullprodukt
+2017MerhoehtBAnalysisCAS1-2d | 4 | ja | Rechnung · Berechnen Sie | Längsschnitt eines Schiffs mit horizontalem Deck; im Koordinatensystem mit Ursprung an der Bugspitze B und x-Achse entlang der Decklinie beschreibt k(x) = −0,3x^2 · e^(−0,2x) für 0 <= x <= 20 die Kiellinie; 1 LE = 1 m; der horizontal liegende Boden der Kajüte liegt 2,20 m unterhalb des Decks → Länge des Bodens der Kajüte in Längsrichtung des Schiffs in Metern | k(x) = −2,2 für 0 <= x <= 20 lösen; die Länge ist die Differenz der beiden Lösungen
+2017MerhoehtBAnalysisCAS2-2a | 5 | ja | Rechnung · Berechnen Sie | Cocktailglas der Serie: Längsschnitt f_3(x) = −9/512 · x^4 + 27/32 · x^2 für −2√6 <= x <= 2√6, Rotationsachse auf der y-Achse, 1 LE = 1 cm; um das Glas verläuft 2 cm unterhalb des Rands eine eingeschliffene Linie → Länge dieser Linie | Randhöhe f_3(2√6) = 81/8, Linie in der Höhe 65/8; f_3(x) = 65/8 im Bereich lösen liefert den Radius 2/3 · √30; Umfang 2πr
 2025MerhoehtBAnalysisWTR3-2a | 5 | ja | Rechnung · Ermitteln Sie¦Geben Sie an | k(x) = 2,4 · sin(π/12 · (x − 7)) + 1 Leistung in kW, x Stunden seit 0:00 Uhr, 6 ≤ x ≤ 20; Maximum um 13:00 Uhr → ein Zeitpunkt mit 50 % der Maximalleistung als Uhrzeit in Stunden und Minuten | k(x) = 0,5 · k(13) lösen, Uhrzeit umrechnen

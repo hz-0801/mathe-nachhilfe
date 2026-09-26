@@ -6,9 +6,9 @@ Stufe: II
 - fhr: Wendepunkte (13 Zeilen)
 - fhr: Monotonie und Krümmung (3 Zeilen)
 - abi: Kurvenuntersuchung (62 Zeilen)
-- iqb: Kurvenuntersuchung (55 Zeilen)
+- iqb: Kurvenuntersuchung (60 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -18,26 +18,29 @@ fhr/fhr-typen.csv (geprüft): An Stellen mit f'(x) = 0 über das Vorzeichen von 
 **Wendepunkte über zweite Ableitung** · 11 Zeilen · fhr 11 · Jahre 2019–2026
 fhr/fhr-typen.csv (geprüft): Nullstellen von f'' bestimmen, mit f''' ungleich Null bestätigen und die Koordinaten der Wendepunkte angeben.
 
+**Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen** · 10 Zeilen · abi 5 iqb 5 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Den Hoch- oder Tiefpunkt (auch den größten Wert im Sachzusammenhang) eines Produkts aus Polynom und e-Funktion über die notwendige Bedingung berechnen (Produktregel, der e-Faktor ist stets positiv); die Art folgt aus der Abbildung, dem Sachzusammenhang oder einer Vorgabe, eine hinreichende Bedingung wird nicht oder nur ergänzend verlangt.
+
 **Extrempunkt an vorgegebener Stelle nachweisen** · 9 Zeilen · abi 3 iqb 6 · Jahre 2020–2026
 abitur/abitur-typen.csv (neu): Für eine genannte Stelle zeigen, dass dort ein Hoch- oder Tiefpunkt liegt: erste Ableitung null (notwendige Bedingung) und Art über das Vorzeichen der zweiten Ableitung oder über den Vorzeichenwechsel der ersten Ableitung.
-
-**Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen** · 9 Zeilen · abi 5 iqb 4 · Jahre 2017–2025
-abitur/abitur-typen.csv (neu): Den Hoch- oder Tiefpunkt (auch den größten Wert im Sachzusammenhang) eines Produkts aus Polynom und e-Funktion über die notwendige Bedingung berechnen (Produktregel, der e-Faktor ist stets positiv); die Art folgt aus der Abbildung, dem Sachzusammenhang oder einer Vorgabe, eine hinreichende Bedingung wird nicht oder nur ergänzend verlangt.
 
 **Lage und Art aller lokalen Extrempunkte bestimmen** · 7 Zeilen · abi 7 · Jahre 2017–2024
 abitur/abitur-typen.csv (neu): Alle Stellen mit waagerechter Tangente über die erste Ableitung bestimmen, ihre Art mit der zweiten Ableitung entscheiden und die Extrempunkte mit beiden Koordinaten angeben.
 
+**Graphen einer Funktion in ein Koordinatensystem einzeichnen** · 5 Zeilen · abi 4 iqb 1 · Jahre 2017–2020
+abitur/abitur-typen.csv (neu): Den Verlauf einer Funktion mit Hilfe berechneter oder bekannter Punkte (Wertetabelle, Achsenschnittpunkte, Extrempunkte, Grenzverhalten) in ein Koordinatensystem eintragen und glatt verbinden – in ein vorgegebenes, das schon andere Graphen enthalten kann, oder in ein selbst angelegtes.
+
+**Verlauf eines Graphen im Sachzusammenhang beschreiben** · 5 Zeilen · abi 1 iqb 4 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Monotonie, Krümmungswechsel und Sättigung eines abgebildeten Graphen in Worten des Sachzusammenhangs beschreiben.
+
 **Wendepunkte über die zweite Ableitung berechnen** · 5 Zeilen · abi 5 · Jahre 2021–2026
 abitur/abitur-typen.csv (neu): Die zweite Ableitung bilden (bei Produkten mit e^x mit der Produktregel), ihre Nullstellen berechnen und die Wendepunkte mit beiden Koordinaten angeben; die Existenz ist vorgegeben oder wird über den Vorzeichenwechsel gesichert.
 
-**Graphen einer Funktion in ein Koordinatensystem einzeichnen** · 4 Zeilen · abi 4 · Jahre 2017–2020
-abitur/abitur-typen.csv (neu): Den Verlauf einer Funktion mit Hilfe berechneter oder bekannter Punkte (Wertetabelle, Achsenschnittpunkte, Extrempunkte, Grenzverhalten) in ein Koordinatensystem eintragen und glatt verbinden – in ein vorgegebenes, das schon andere Graphen enthalten kann, oder in ein selbst angelegtes.
+**Maximalen Neigungswinkel über die Wendestelle berechnen** · 4 Zeilen · abi 1 iqb 3 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Die Stelle größter Steigung als Wendestelle bestimmen, den Steigungswinkel dort über tan α = f'(x) berechnen und ihn, wo verlangt, mit einer Schranke vergleichen.
 
 **Monotonie über das Vorzeichen der Ableitung am Term nachweisen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2022–2026
 abitur/abitur-typen.csv (neu): Zeigen, dass ein Graph auf ganz IR monoton ist, indem die Ableitung gebildet und ihr Vorzeichen am Term begründet wird (etwa als Quadrat).
-
-**Verlauf eines Graphen im Sachzusammenhang beschreiben** · 4 Zeilen · abi 1 iqb 3 · Jahre 2018–2025
-abitur/abitur-typen.csv (neu): Monotonie, Krümmungswechsel und Sättigung eines abgebildeten Graphen in Worten des Sachzusammenhangs beschreiben.
 
 **Wendepunkt als Zeitpunkt stärkster Zu- oder Abnahme im Sachzusammenhang deuten** · 4 Zeilen · abi 1 iqb 3 · Jahre 2022–2024
 abitur/abitur-typen.csv (neu): Die Bedeutung eines Wendepunkts als Zeitpunkt der stärksten Zunahme (steigender Bereich) oder der stärksten Abnahme (fallender Bereich) einer Größe im Sachzusammenhang beschreiben; die Wendestelle ist gegeben oder wird abgelesen.
@@ -47,9 +50,6 @@ abitur/abitur-typen.csv (neu): Den Zeitpunkt der stärksten Abnahme einer Größ
 
 **Krümmungsverhalten angeben** · 3 Zeilen · fhr 3 · Jahre 2019–2025
 fhr/fhr-typen.csv (geprüft): Die Intervalle der Links- und Rechtskrümmung aus den Wendestellen und dem Vorzeichen von f'' angeben.
-
-**Maximalen Neigungswinkel über die Wendestelle berechnen und mit einer Schranke vergleichen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2024
-abitur/abitur-typen.csv (neu): Die Stelle größter Steigung als Wendestelle bestimmen, den Steigungswinkel dort berechnen und mit einer Schranke vergleichen.
 
 **Achsenschnittpunkte angeben und Hochpunkt aus der gegebenen Ableitung begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Die Schnittpunkte eines Graphen mit beiden Achsen angeben und mit der vorgegebenen Ableitung (Nullstelle mit Vorzeichenwechsel) begründen, dass ein Hochpunkt vorliegt, samt Koordinaten.
@@ -161,6 +161,9 @@ abitur/abitur-typen.csv (neu): Aus der einzigen positiven Extremstelle, der Mono
 
 **Hochpunkt mit vorgegebenen Koordinaten und waagerechte Tangente im Ursprung rechnerisch nachweisen** · 1 Zeile · iqb 1 · Jahre 2021
 abitur/abitur-typen.csv (neu): Mit erster und zweiter Ableitung einen vorgegebenen Punkt als Hochpunkt bestätigen und über f'(0) = 0 zeigen, dass die Tangente im Ursprung parallel zur x-Achse verläuft.
+
+**Krümmungsverhalten aus der zweiten Ableitung deuten** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Aus dem Vorzeichen der zweiten Ableitung Krümmung, Wendepunkte und Flachpunkte eines Graphen erschließen.
 
 **Lage eines Punktes aus Bedingungen an Funktionswert und Ableitung am Graphen beschreiben** · 1 Zeile · abi 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Bedingungen der Form y = −g(−x) und g'(−x) = 0 in Koordinaten übersetzen und die Lage des Punktes in der Abbildung beschreiben.
@@ -356,6 +359,7 @@ abitur/abitur-typen.csv (neu): Eine vorgegebene zweite Ableitung mit Produkt- un
 2023MgrundlegendBAnalysisWTR2-1b | 4 | ja | Rechnung · Zeigen Sie | f wie in a; zwei Extrempunkte → Nachweis eines Tiefpunkts an der Stelle √12 | Erste Ableitung an der Stelle √12 gleich null, zweite Ableitung positiv
 2025MerhoehtAAnalysis12-a | 2 | nein | Rechnung · Zeigen Sie | f(x) = 1/4 x³ − 3x, definiert in IR; es gilt f''(2) ≠ 0 → Nachweis, dass 2 eine Extremstelle von f ist | f' bilden und f'(2) = 0 zeigen; zusammen mit f''(2) ≠ 0 folgt die Extremstelle
 2026MgrundlegendAAnalysis11-a | 2 | nein | Begründung · Weisen Sie nach | f(x) = x^3 − 3x, definiert in IR; Graph G → Nachweis, dass G einen Hochpunkt mit der x-Koordinate −1 hat | erste und zweite Ableitung bilden, f'(−1) = 0 und f''(−1) < 0 zeigen
+2017MerhoehtBAnalysisCAS1-2b | 4 | ja | Rechnung · Berechnen Sie | Längsschnitt eines Schiffs mit horizontalem Deck; im Koordinatensystem mit Ursprung an der Bugspitze B und x-Achse entlang der Decklinie beschreibt k(x) = −0,3x^2 · e^(−0,2x) für 0 <= x <= 20 die Kiellinie; 1 LE = 1 m → Höhendifferenz in Metern zwischen dem tiefsten Punkt des Kiels und dem Endpunkt des Kiels am Heck | k'(x) = 0 im Inneren liefert x = 10 (Minimum); k(20) − k(10) berechnen
 2017MgrundlegendBAnalysisWTR-1e | 4 | ja | Rechnung · Berechnen Sie | Querschnitt einer Senke mit Fluss: Profillinie f(x) = −5x^2 · e^x + 1 für −6 <= x <= 0; linke Uferzone waagerecht in Höhe f(−6) links von x = −6, rechte Uferzone waagerecht in Höhe 1 rechts von x = 0 (Strecken parallel zur x-Achse, lückenlos an den Graphen anschließend); die Wasseroberfläche ist ein Abschnitt der x-Achse; 1 LE = 1 m; gegeben f'(x) = −5x · (2 + x) · e^x, f''(x) = −10e^x − 20x · e^x − 5x^2 · e^x und die Stammfunktion F(x) = x − 5 · (x^2 − 2x + 2) · e^x; Abbildung 1 → Tiefe des Wassers an der tiefsten Stelle der Senke | An der Abbildung die Tiefstelle zwischen −2,5 und −1,5 eingrenzen, dort f'(x) = 0 mit der faktorisierten Ableitung lösen (x = −2) und f(−2) berechnen; die Wasseroberfläche liegt auf der x-Achse
 2020MgrundlegendBAnalysisWTR2-1a | 4 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Berechnen Sie | f(x) = 1/10 · x · (3 − x) · eˣ, x ∈ IR; Abbildung 1 zeigt den Graphen von f; f'(x) = −1/10 · (x² − x − 3) · eˣ → Nullstellen von f; Koordinaten des Hochpunkts | Nullstellen am Produkt ablesen; f' = 0 lösen, Hochstelle aus der Abbildung wählen, Funktionswert berechnen
 2025MerhoehtBAnalysisWTR2-1a | 4 | ja | Rechnung · Berechnen Sie | f(x) = 5x · e^−x in IR; G hat genau einen Extrempunkt; Kontrolle (1 ¦ 5/e) → Koordinaten des Extrempunkts | f' = 0, einsetzen
@@ -367,11 +371,14 @@ abitur/abitur-typen.csv (neu): Eine vorgegebene zweite Ableitung mit Produkt- un
 2021MgrundlegendBAnalysisWTR-1b | 7 | ja | Rechnung¦Zeichnen · Bestimmen Sie¦Zeichnen Sie | f(x) = −5/16 x⁴ + 5x³, in IR definiert; die Abbildung zeigt den Graphen von f → Gleichung der Geraden g durch die beiden Wendepunkte; in der Abbildung eine zu g parallele Gerade, die für 0 ≤ x ≤ 8 mit dem Graphen genau einen Punkt gemeinsam hat | Wendestellen berechnen, g aus (0 ¦ 0) und (8 ¦ 1280); Parallele als Tangente an den Bogen zwischen den Wendepunkten einzeichnen
 2018MerhoehtBAnalysisWTR1-2d | 4 | ja | Zeichnen¦Kurzantwort · Zeichnen Sie ein¦Bestimmen Sie | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 2 zeigt den Graphen von K; E(x) = 23x, G = E − K → Graph von E in Abbildung 2; Bereich der verkauften Menge mit Gewinn | Gerade einzeichnen, Schnittstellen ablesen
 2018MgrundlegendBAnalysisWTR-2e | 4 | ja | Zeichnen¦Kurzantwort · Zeichnen Sie ein¦Bestimmen Sie | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 3 zeigt den Graphen von K; E(x) = 23x, G = E − K → Graph von E in Abbildung 3; Bereich der verkauften Menge mit Gewinn, aus der Darstellung | Gerade durch (0 ¦ 0) und (9 ¦ 207) einzeichnen; zwischen den Schnittpunkten liegt E über K
+2017MerhoehtBAnalysisCAS2-3c | 2 | ja | Zeichnen · Zeichnen Sie | Das Sektglas steht mit vertikaler Rotationsachse und wird mit Flüssigkeit gefüllt; für −3 <= x <= 3 wird sein Längsschnitt näherungsweise durch p(x) = 4/3 · x^2 beschrieben; r(h) = 1/2 · √(3h), h ∈ IR0+ → die Graphen von p und von r jeweils in ein geeignetes Koordinatensystem | Wertetabellen anlegen, Achsen passend skalieren und beide Graphen zeichnen
 2023MerhoehtAAnalysis11-b | 3 | nein | Zeichnen · Skizzieren Sie | Eigenschaften aus a: Nullstelle x1, f'(x2) = 0 mit f''(x2) ≠ 0, Minimum von f' bei x3; Abbildung mit x1, x2, x3 → Skizze eines möglichen Graphen von f in der Abbildung | Graph durch (x1; 0) steigend, Hochpunkt (oder Tiefpunkt) über x2, Wendepunkt über x3 mit dort minimaler Steigung, danach wieder steigend
 2021MgrundlegendBAnalysisWTR-1a | 5 | ja | Rechnung · Zeigen Sie | f(x) = −5/16 x⁴ + 5x³, in IR definiert; die Abbildung zeigt den Graphen von f → Nachweis, dass (12 ¦ 2160) Hochpunkt ist und die Tangente in (0 ¦ 0) parallel zur x-Achse verläuft | f' und f'' bilden, Werte an den Stellen 12 und 0 prüfen
+2017MerhoehtBAnalysisCAS2-2b | 3 | ja | Rechnung · Bestimmen Sie | Cocktailglas der Serie: Längsschnitt f_3(x) = −9/512 · x^4 + 27/32 · x^2 für −2√6 <= x <= 2√6, Rotationsachse auf der y-Achse, 1 LE = 1 cm; die Form eines Glases heißt in einem Bereich konvex, wenn der zugehörige Graph dort linksgekrümmt ist → x-Koordinaten des Bereichs, in dem das Cocktailglas konvex ist | f_3''(x) = 0 lösen; nach der Abbildung (oder f_3''(0) > 0) ist der untere Bereich zwischen den Wendestellen konvex
 2018MgrundlegendBAnalysisWTR-1f | 4 | ja | Begründung · Beschreiben Sie | f(x) = 1/8 · (x³ − 15x² + 50x), x ∈ IR; Abbildung 1 zeigt den Graphen G_f; eine in IR definierte Funktion h; Abbildung 2 zeigt h(x) − f(x) mit Nullstellen bei 0, etwa 2,2 und 5 und Tiefpunkt bei etwa x = 1 → Beschreibung der gegenseitigen Lage der Graphen von f und h für x ∈ [0; 5] mit Bedeutung der Nullstellen und der Tiefpunktstelle | Nullstellen der Differenz = gemeinsame Punkte; negative Differenz = f oberhalb h; Tiefpunkt = größter Abstand der Punkte gleicher x-Koordinate
 2022MerhoehtBAnalysisWTR3-1c | 5 | ja | Rechnung¦Kurzantwort · Zeigen Sie¦Geben Sie an | Zuordnung h ↦ ln(100 · e^(−0,04h)) → Nachweis geradlinigen Verlaufs; Steigung; Schnittpunkt mit der y-Achse | Logarithmus umformen
 2023MgrundlegendBAnalysisWTR2-2d | 4 | ja | Begründung · Beurteilen Sie | g und h wie oben; Aussage: Im Modell mit h ist der Zeitraum steigender Tagesdurchschnittstemperatur etwa einen Monat kürzer als mit g → Beurteilung der Aussage | Monotoniebereiche beider Funktionen bestimmen (h: Minimum bei 3, Maximum bei 9; g: Extremstellen 6 ± √12) und Längen vergleichen
+2017MerhoehtBAnalysisCAS1-2c | 4 | ja | Rechnung · Bestimmen Sie | Längsschnitt eines Schiffs mit horizontalem Deck; im Koordinatensystem mit Ursprung an der Bugspitze B und x-Achse entlang der Decklinie beschreibt k(x) = −0,3x^2 · e^(−0,2x) für 0 <= x <= 20 die Kiellinie; 1 LE = 1 m; der Kiel hat in einem Punkt seinen größten Neigungswinkel gegen die Horizontale → Größe dieses Neigungswinkels | Nach der Abbildung liegt der Punkt zwischen Bug und tiefstem Punkt; k''(x) = 0 für 0 < x < 10 liefert x = 10 − 5√2; tan α = k'(10 − 5√2)
 2017MgrundlegendBAnalysisWTR-1h | 5 | ja | Rechnung · Berechnen Sie | Querschnitt einer Senke mit Fluss: Profillinie f(x) = −5x^2 · e^x + 1 für −6 <= x <= 0; linke Uferzone waagerecht in Höhe f(−6) links von x = −6, rechte Uferzone waagerecht in Höhe 1 rechts von x = 0 (Strecken parallel zur x-Achse, lückenlos an den Graphen anschließend); die Wasseroberfläche ist ein Abschnitt der x-Achse; 1 LE = 1 m; gegeben f'(x) = −5x · (2 + x) · e^x, f''(x) = −10e^x − 20x · e^x − 5x^2 · e^x und die Stammfunktion F(x) = x − 5 · (x^2 − 2x + 2) · e^x; betrachtet wird die Profillinie zwischen dem tiefsten Punkt der Senke (x = −2) und ihrem rechten Rand (x = 0) → Größe des größten Neigungswinkels der Profillinie gegenüber der Horizontalen in diesem Bereich | Die Stelle größter Steigung ist Wendestelle: f''(x) = 0 ⇔ x^2 + 4x + 2 = 0, im Bereich x = −2 + √2; dort tan α = f'(−2 + √2)
 2024MerhoehtBAnalysisWTR3-1c | 4 | ja | Rechnung · Untersuchen Sie | f'(x) = −0,3x · e^{−0,1x}, f''(x) = 0,03 · (x − 10) · e^{−0,1x}; Kriterium II: nirgends Neigung über 60° → rechnerische Prüfung von Kriterium II | Wendestelle aus f'' = 0, Winkel aus f'(10)
 2018MerhoehtBAnalysisWTR1-2e | 5 | ja | Rechnung · Berechnen Sie | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 2 zeigt den Graphen von K; E(x) = 23x, G = E − K, Gewinnbereich 4 < x < x_S ≈ 8,6 → verkaufte Menge mit dem größten Gewinn | G aufstellen, G' = 0, Lösung im Gewinnbereich
@@ -384,6 +391,7 @@ abitur/abitur-typen.csv (neu): Eine vorgegebene zweite Ableitung mit Produkt- un
 2023MgrundlegendBAnalysisWTR1-1a | 3 | ja | Rechnung · Berechnen Sie | r(x) = −(x² − x − 1) in IR; Graph in Abbildung 1 → Nullstellen und Extremstelle von r | Quadratische Gleichung lösen, Extremstelle als Mitte der Nullstellen
 2026MgrundlegendBAnalysisMMS2-1e | 3 | ja | Rechnung · Untersuchen Sie | Dachrinne 3 m lang, Blech 0,7 mm; Profillinie der Innenseite für −2 ≤ x ≤ 2 durch G, 1 LE = 5 cm; Karton innen 21 cm × 9,5 cm → ob der Karton als Verpackung geeignet ist | Breite und Tiefe der Rinne in cm berechnen und mit den Kartonmaßen vergleichen
 2024MgrundlegendBAnalysisWTR2-1a | 6 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Zeigen Sie | f(x) = 3/1000 x⁴ − 8/100 x³ + 6/10 x² in IR; Graph in Abbildung 1 → Koordinaten des Tiefpunkts; Nachweis, dass es keine weiteren Extrempunkte gibt | f' = 0 lösen, Vorzeichenwechsel prüfen
+2017MerhoehtBAnalysisCAS2-3a | 4 | ja | Kurzantwort · Beschreiben Sie | Sektglas der Serie (12 cm hoch, Randdurchmesser 6 cm, k ≈ 4,06); ein Hochpunkt des Graphen der zugehörigen Funktion hat die Koordinaten x ≈ 5,7 und y ≈ 25,2, ein Wendepunkt x ≈ 3,3 und y ≈ 14,0; Cocktailglas f_3 für −2√6 <= x <= 2√6 mit Hochpunkten am Rand und Wendestellen ±2√2 im Glas → zwei wesentliche Unterschiede der Form des Sektglases zur Form des Cocktailglases im Sachzusammenhang unter Berücksichtigung der gegebenen Punkte | Beim Sektglas liegen Hochpunkt und Wendepunkt außerhalb von −3 <= x <= 3: der Rand läuft nicht waagerecht aus, und das Glas ist durchgehend konvex; das Cocktailglas endet im Hochpunkt und hat einen konkaven oberen Bereich
 2018MerhoehtBAnalysisWTR1-2b | 2 | ja | Kurzantwort · Geben Sie an¦Deuten Sie | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 2 zeigt den Graphen von K → Monotonieverhalten von K mit Deutung | Am Graphen ablesen
 2018MgrundlegendBAnalysisWTR-2b | 2 | ja | Kurzantwort · Geben Sie an¦Deuten Sie | Kostenfunktion K(x) = x³ − 12x² + 50x + 20, 0 ≤ x ≤ 9, K(x) in 1000 Euro für die Produktion von x Kubikmetern einer Flüssigkeit; Abbildung 3 zeigt den Graphen von K → Monotonieverhalten von K mit Deutung im Sachzusammenhang | Am Graphen ablesen
 2025MgrundlegendBAnalysisWTR2-2a | 2 | ja | Kurzantwort · Beschreiben Sie | a(x) Anzahl der seit 12:00 Uhr abgegebenen Likes, x Stunden seit 12:00 Uhr; Graph in Abbildung 2 → Verlauf des Graphen im Sachzusammenhang | Graphen abschnittweise beschreiben

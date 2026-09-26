@@ -4,9 +4,9 @@ Stufe: II
 
 - fhr: Funktionsgleichung bestimmen (10 Zeilen)
 - abi: Rekonstruktion von Funktionsgleichungen (17 Zeilen)
-- iqb: Rekonstruktion von Funktionsgleichungen (10 Zeilen)
+- iqb: Rekonstruktion von Funktionsgleichungen (13 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -19,14 +19,14 @@ abitur/abitur-typen.csv (neu): Aus dem allgemeinen Ansatz dritten Grades die vie
 **Funktionsgleichung aus drei Punkten über LGS** · 3 Zeilen · fhr 3 · Jahre 2019–2026
 fhr/fhr-typen.csv (geprüft): Allgemeinen Ansatz aufstellen, gegebene Punkte einsetzen und das lineare Gleichungssystem lösen.
 
+**Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Aus der Forderung, dass zwei Graphen an einer Stelle ohne Knick ineinander übergehen (gleicher Funktionswert, gleicher Anstieg), und einer weiteren Wertbedingung die Parameter einer Ansatzfunktion (quadratisch oder mit zwei Parametern wie a · x⁴ + b · x²) über ein Gleichungssystem bestimmen.
+
 **Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren** · 3 Zeilen · abi 2 iqb 1 · Jahre 2020–2021
 abitur/abitur-typen.csv (neu): Aus dem allgemeinen Ansatz zweiten Grades (oder der Scheitelpunktform) die Koeffizienten über ein Gleichungssystem aus Wert- und Steigungsbedingungen bestimmen; Punkte, Nullstellen, Scheitel (Wert und Ableitung null) und eine Tangentengleichung (Wert und Steigung an der Berührstelle) sind solche Bedingungen, welche vorliegen, steht in der Zeile.
 
-**Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren** · 2 Zeilen · abi 2 · Jahre 2018–2022
-abitur/abitur-typen.csv (neu): Aus der Forderung, dass zwei Graphen an einer Stelle ohne Knick ineinander übergehen (gleicher Funktionswert, gleicher Anstieg), und einer weiteren Wertbedingung die Parameter einer Ansatzfunktion (quadratisch oder mit zwei Parametern wie a · x⁴ + b · x²) über ein Gleichungssystem bestimmen.
-
-**Parameter einer Linearkombination aus Funktion und Gerade aus zwei Punkten bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
-abitur/abitur-typen.csv (neu): Die Koeffizienten a und b in g(x) = a · f(x) + b · x aus zwei Punkten des Graphen von g über zwei Gleichungen bestimmen.
+**Zwei linear eingehende Parameter eines Funktionsterms aus zwei Punkten bestimmen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Zwei Parameter, die linear in einen Funktionsterm eingehen (etwa a und b in a · f(x) + b · x oder a und c in a − c · e^(−x²)), aus zwei Punkten des Graphen bestimmen: die Punkte einsetzen und das in den Parametern lineare Gleichungssystem lösen.
 
 **Existenz einer quadratischen Funktion zu vier Wert- und Steigungsbedingungen über das überbestimmte Gleichungssystem untersuchen** · 1 Zeile · abi 1 · Jahre 2017
 abitur/abitur-typen.csv (neu): Aus der Forderung, dass eine Parabel einen Graphen in zwei Punkten berührt, vier Bedingungen (zwei Werte, zwei Steigungen) für die drei Koeffizienten aufstellen, mit drei davon die Koeffizienten bestimmen und an der vierten entscheiden, ob es eine solche Funktion gibt.
@@ -85,7 +85,10 @@ abitur/abitur-typen.csv (neu): Aus Periode, Hoch- und Wendepunkt mit allgemeinem
 **Unmöglichkeit einer einzigen Parabel für ein knickfreies Profil mit zwei waagerechten Tangenten begründen** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Begründen, dass ein Profil, das an beiden Enden knickfrei mit waagerechter Tangente anschließt (Krümmungswechsel), nicht durch eine einzige quadratische Parabel modelliert werden kann.
 
-**Nebentypen:** Anstieg einer senkrechten Geraden angeben (1) · Funktionsgleichung mit Extremalbedingung über LGS (1) · Funktionsgleichung mit Symmetriebedingung über LGS (1) · Steigungswinkel in einen Anstieg umrechnen (1)
+**Unmöglichkeit waagerechter Tangenten an den Rändern über die Ableitung mit Parametern begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Eine Forderung „parallel zur x-Achse auslaufen“ als Ableitung null an den Rändern übersetzen und über den Ableitungsterm mit positiven Parametern zeigen, dass sie für keine Parameterwahl erfüllbar ist.
+
+**Nebentypen:** Anstieg einer senkrechten Geraden angeben (1) · Funktionsgleichung mit Extremalbedingung über LGS (1) · Funktionsgleichung mit Symmetriebedingung über LGS (1) · Steigungswinkel in einen Anstieg umrechnen (1) · Wendepunkte über die zweite Ableitung berechnen (1)
 
 ## B Zeilenliste
 
@@ -116,15 +119,15 @@ abitur/abitur-typen.csv (neu): Begründen, dass ein Profil, das an beiden Enden 
 2026-bb-ea-B2.1i | 4 | ja | Rechnung · Ermitteln Sie | Weltbevölkerung in Mrd. seit 2023 (x Jahre): Modell A linear von 8 (2023) auf 13 (2075), Modell B b(x) = 11 − 3 · e^(kx), Modell C Parabel (Abbildung mit den drei Kurven); Modell C Parabel; durchschnittliches Wachstum von 2031 bis 2075 null; zum Maximum von C gilt A − B = B − C → maximale Weltbevölkerungszahl nach Modell C | Scheitelstelle aus der Symmetrie (Mitte von 8 und 52), Werte von A und B dort, C = 2B − A
 2023-bebb-lk-B2.1m | 5 | ja | Begründung¦Rechnung · Begründen Sie¦Berechnen Sie | Profil auf [0; 4] als Parabel y = ax² + c, knickfrei an G_0,5 mit Hochpunkt (0 ¦ 2); Querschnittsfläche über [0; 4] gleich 155 m²; 1 LE = 5 m → Begründung der Form y = ax² + c; Werte von a und c | Waagerechte Tangente bei 0 erzwingt Scheitel auf der y-Achse; c aus dem Hochpunkt, a aus dem Integral
 2026-bb-ea-B2.1g | 2 | ja | Rechnung · Ermitteln Sie | Weltbevölkerung in Mrd. seit 2023 (x Jahre): Modell A linear von 8 (2023) auf 13 (2075), Modell B b(x) = 11 − 3 · e^(kx), Modell C Parabel (Abbildung mit den drei Kurven); b(x) = 11 − 3 · e^(kx); Zuwachs bei x = 0: 0,1 Mrd. pro Jahr; Kontrolle k = −1/30 → der Wert von k | b'(0) = 0,1 nach k auflösen
-2025-bebb-lk-A1.2b | 4 | nein | Rechnung · Ermitteln Sie | f(x) = 3 · cos(x); g(x) = a · f(x) + b · x mit reellen a und b; die Punkte (0; −3) und (π/2; 3π/4) liegen auf dem Graphen von g → a und b | beide Punkte einsetzen: 3a · cos(0) + b · 0 = −3 liefert a; 3a · cos(π/2) + b · π/2 = 3π/4 liefert b
 2020-be-gk-A1.2a | 5 | nein | Rechnung · Bestimmen Sie | quadratische Funktion f durch den Ursprung; Tangente in (2; f(2)) mit y = 4x − 2 → Funktionsterm von f | drei Bedingungen aufstellen und lösen
 2021-be-gk-B2.1k | 4 | ja | Rechnung · Ermitteln Sie | Parabel q mit q(0) = 0 und Hochpunkt H_q(2 ¦ 2,2) als neue untere Begrenzung → Funktionsgleichung von q | Ansatz ax² + bx, Bedingungen q(2) = 2,2 und q'(2) = 0
 2023-bebb-lk-B2.1l | 3 | ja | Begründung · Begründen Sie | Profil auf [0; 5] laut Abbildung 3 knickfrei an G_0,5 (Hochpunkt (0 ¦ 2)) anschließend und bei x = 5 waagerecht in den Boden auslaufend → Begründung, dass eine einzige quadratische Parabel auf [0; 5] nicht möglich ist | Zwei Stellen mit waagerechter Tangente (0 und 5) gegen den einen Scheitel einer Parabel; oder Krümmungswechsel gegen konstante Krümmungsrichtung
+2025-bebb-lk-A1.2b | 4 | nein | Rechnung · Ermitteln Sie | f(x) = 3 · cos(x); g(x) = a · f(x) + b · x mit reellen a und b; die Punkte (0; −3) und (π/2; 3π/4) liegen auf dem Graphen von g → a und b | beide Punkte einsetzen: 3a · cos(0) + b · 0 = −3 liefert a; 3a · cos(π/2) + b · π/2 = 3π/4 liefert b
 ## iqb
 
+2017MerhoehtBAnalysisCAS2-4 | 7 | ja | Rechnung · Bestimmen Sie | f_2(x) = −3/256 · x^4 + 3/8 · x^2 (Likörglas); der Längsschnitt soll für 0 <= x <= 4 durch zwei quadratische Funktionen p1 und p2 beschrieben werden: die Scheitelpunkte ihrer Graphen liegen im Tiefpunkt bzw. im Hochpunkt des Graphen von f_2; die Graphen gehen ohne Knick ineinander über, und zwar an der x-Koordinate des Wendepunkts des Graphen von f_2 → Funktionsgleichungen von p1 und p2 | Tiefpunkt (0; 0), Hochpunkt (4; 3) und Wendestelle 4/3 · √3 von f_2 bestimmen; Ansatz p1(x) = ax^2 und p2(x) = −b(x − 4)^2 + 3; p1 = p2 und p1' = p2' an der Wendestelle liefern a und b
 2018MerhoehtBAnalysisWTR1-1a | 4 | ja | Rechnung · Ermitteln Sie | Abbildung 1: Graph einer ganzrationalen Funktion dritten Grades mit Nullstellen 0, 5, 10 durch (1 ¦ 2); Kontrolle f(x) = 1/18 (x³ − 15x² + 50x) → ein Funktionsterm von f | Produktansatz mit den drei Nullstellen, a aus f(1) = 2
 2022MgrundlegendAAnalysis12-a | 3 | nein | Rechnung · Bestimmen Sie | f: x ↦ a · b^x mit a, b > 0; Graph in der Abbildung durch (0; 0,5) und (1; 2) → Werte von a und b | f(0) = a ablesen, dann f(1) = a · b nach b auflösen
-2025MerhoehtAAnalysis13-b | 4 | nein | Rechnung · Ermitteln Sie | f(x) = 3 · cos(x); g(x) = a · f(x) + b · x mit reellen a und b; die Punkte (0; −3) und (π/2; 3π/4) liegen auf dem Graphen von g → a und b | beide Punkte einsetzen: 3a · cos(0) + b · 0 = −3 liefert a; 3a · cos(π/2) + b · π/2 = 3π/4 liefert b
 2026MerhoehtAAnalysis13-b | 3 | nein | Rechnung · Ermitteln Sie | g(x) = ln(x − a) + b mit ganzzahligen a und b und größtmöglicher Definitionsmenge; der Graph verläuft durch (−1; −1); Abbildung mit dem Graphen von g, senkrechte Asymptote bei x = −2 → a und b | Definitionsbereich ]a; ∞[ mit der Asymptote im Bild vergleichen: a = −2; dann (−1; −1) einsetzen: ln 1 + b = −1
 2022MgrundlegendBAnalysisWTR1-1g | 4 | ja | Rechnung · Ermitteln Sie | f(x) = 1/80 x⁵ − 1/6 x³ + x, definiert in IR; Abbildung 1 zeigt G_f; W(2 ¦ f(2)) ist Wendepunkt; g(x) = a · sin(bx), a, b > 0, auf [−2; 2] Näherung von f; 2 ist Extremstelle von g; g(2) = f(2) → die passenden Werte von a und b | b aus der Lage des ersten Hochpunkts, a aus dem Funktionswert
 2022MerhoehtBAnalysisWTR1-2a | 3 | ja | Rechnung · Bestimmen Sie | s(x) = a · sin(b · x) + 1; E₁(−2 ¦ −1) und E₂(2 ¦ 3) direkt aufeinanderfolgende Extrempunkte; Kontrolle a = 2, b = π/4 → a und b | Amplitude als halbe Differenz der Extremwerte, b aus der Periode
@@ -132,3 +135,6 @@ abitur/abitur-typen.csv (neu): Begründen, dass ein Profil, das an beiden Enden 
 2022MerhoehtAAnalysis2 | 5 | nein | Rechnung · Ermitteln Sie | quadratische Funktion g; der Graph schneidet y = 1/4 x + 1 im Punkt (0; 1) unter einem rechten Winkel; x- und y-Koordinate des Extrempunkts stimmen überein → Gleichung von g | c aus dem Punkt, b aus der Orthogonalität der Steigungen, a aus der Extrempunktbedingung
 2018MerhoehtBAnalysisWTR1-1g | 6 | ja | Rechnung · Bestimmen Sie | f(x) = 1/18 · (x³ − 15x² + 50x), ganzrational dritten Grades, G_f schneidet die x-Achse bei 0, 5 und 10 und geht durch (1 ¦ 2); Abbildung 1 zeigt G_f; für 0 ≤ x ≤ 5 haben G_f und der Graph einer trigonometrischen Funktion h dieselben Schnittpunkte mit der x-Achse, verlaufen nicht unterhalb der x-Achse und schließen mit ihr je eine Fläche des Inhalts 625/72 ein → ein Term einer solchen Funktion h | Ansatz a · sin(bx); b aus der Nullstelle 5 (halbe Periode); a aus dem Integral über [0; 5]
 2023MerhoehtAAnalysis22 | 5 | nein | Rechnung · Bestimmen Sie | Kosinusfunktion f in IR mit Periode p; (p/2; p) ist Hochpunkt, (p/4; p/2) Wendepunkt → Steigung des Graphen an der Stelle p/4 | aus Hoch- und Wendepunkt Amplitude p/2 und Mittellinie p/2 ablesen, Minimum im Ursprung: f(x) = −p/2 · cos(2π/p · x) + p/2; ableiten und p/4 einsetzen
+2017MerhoehtBAnalysisWTR3-2i | 3 | ja | Begründung · Begründen Sie | q(x) = a − c · e^(−x^2), a, c ∈ IR+, x ∈ [−3; 3] → Begründung, dass a und c nicht so gewählt werden können, dass der Graph von q zu seinen Randpunkten hin parallel zur x-Achse ausläuft | q'(x) = 2cx · e^(−x^2); an x = ±3 ist das Produkt wegen c > 0 und e^(−9) > 0 von null verschieden
+2017MerhoehtBAnalysisWTR3-2h | 3 | ja | Rechnung · Ermitteln Sie | Die Profillinie soll nun durch q(x) = a − c · e^(−x^2), a, c ∈ IR+, x ∈ [−3; 3] beschrieben werden; der Graph von q soll durch den Ursprung verlaufen, die y-Koordinaten seiner Randpunkte sollen mit denen des Graphen von p(x) = −1/48 · (x^4 − 18x^2) übereinstimmen (p(±3) = 27/16) → Werte von a und c | q(0) = a − c = 0 und q(3) = a − c · e^(−9) = 27/16 (wegen der Symmetrie genügt ein Rand); aus a = c folgt a · (1 − e^(−9)) = 27/16
+2025MerhoehtAAnalysis13-b | 4 | nein | Rechnung · Ermitteln Sie | f(x) = 3 · cos(x); g(x) = a · f(x) + b · x mit reellen a und b; die Punkte (0; −3) und (π/2; 3π/4) liegen auf dem Graphen von g → a und b | beide Punkte einsetzen: 3a · cos(0) + b · 0 = −3 liefert a; 3a · cos(π/2) + b · π/2 = 3π/4 liefert b

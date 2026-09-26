@@ -4,7 +4,7 @@ Stufe: I
 
 - msa: Ebene Figuren und Winkel (21 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 

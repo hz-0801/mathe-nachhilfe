@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Lagebeziehungen (14 Zeilen)
-- iqb: Lagebeziehungen (26 Zeilen)
+- iqb: Lagebeziehungen (29 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -18,11 +18,14 @@ abitur/abitur-typen.csv (neu): Den freien Parameter einer Koordinatengleichung b
 **Gerade und Ebene: Lage einer Geraden in einer Ebene durch Einsetzen nachweisen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2021–2026
 abitur/abitur-typen.csv (neu): Zeigen, dass eine Gerade in einer Ebene liegt, indem ihr allgemeiner Punkt die Koordinatengleichung für alle Parameterwerte erfüllt.
 
-**Gerade und Ebene: Parallelität einer Geraden zu einer Koordinatenebene über die z-Koordinaten entscheiden** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2024
+**Gerade und Ebene: Parallelität einer Geraden zu einer Koordinatenebene über die z-Koordinaten entscheiden** · 4 Zeilen · abi 1 iqb 3 · Jahre 2017–2024
 abitur/abitur-typen.csv (neu): Entscheiden, ob eine Gerade durch zwei Punkte (mit Parameter) parallel zu einer Koordinatenebene sein kann, über die Gleichheit der entsprechenden Koordinaten.
 
 **Gerade und Ebene: Kreisbahn einer Drehung um eine Kante als Kreis in einer Ebene mit Mittelpunkt begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Begründen, dass ein bei Drehung um eine Kante bewegter Punkt einen Kreis in der zur Kante senkrechten Ebene durch den Punkt beschreibt, mit dem Schnittpunkt von Kante und Ebene als Mittelpunkt.
+
+**Gerade und Ebene: Länge eines Schattens auf einer Dachfläche über Schnitt von Lichtgerade und Ebene beschreiben** · 2 Zeilen · iqb 2 · Jahre 2017
+abitur/abitur-typen.csv (neu): Beschreiben, wie die Länge des Schattens einer Stange auf einer ebenen Fläche berechnet wird: Gerade durch den Endpunkt in Lichtrichtung mit der Ebene schneiden und den Abstand des Schnittpunkts zum Fußpunkt der Stange bestimmen.
 
 **Gerade und Ebene: Spurpunkt einer Lichtgeraden als Schatten auf der Wand aus einem Lösungsweg erläutern** · 2 Zeilen · iqb 2 · Jahre 2023–2024
 abitur/abitur-typen.csv (neu): Einen vorgelegten Lösungsweg erläutern, in dem der Schnittpunkt einer Geraden in Lichtrichtung mit einer Koordinatenebene als Schattenpunkt bestimmt und seine Lage über Koordinatenbereiche gedeutet wird.
@@ -90,6 +93,9 @@ abitur/abitur-typen.csv (neu): Für Ebenen durch den Ursprung entscheiden, ob si
 2026MerhoehtBAGLAA2WTR2-1d | 4 | ja | Begründung · Begründen Sie | Pyramide wird um die Gerade CD um 360° gedreht; Spitze S durchläuft einen Kreis; L: −2x + y + 4 = 0; H = CD ∩ L → Begründung, dass der Kreis in L liegt und H sein Mittelpunkt ist | L senkrecht zur Achse und durch S, Mittelpunkt auf der Achse
 2023MerhoehtAAGLAA213-a | 2 | nein | Begründung · Zeigen Sie | g: x = (0; 1; 1) + λ · (1; 0; −1), λ reell; Ebene x + y + z = 2 → Nachweis, dass g in der Ebene liegt | allgemeinen Punkt von g einsetzen
 2026MerhoehtBAGLAA2MMS2-1d | 2 | ja | Begründung · Weisen Sie nach | E: x1 + x2 + 2x3 = 12; g: x = (3; 1; 4) + r · (1; −1; 0), r ∈ IR → Nachweis, dass g in E liegt | Koordinaten des allgemeinen Geradenpunkts einsetzen, r fällt heraus
+2017MerhoehtBAGLAA2CAS1-1f | 4 | ja | Kurzantwort · Beschreiben Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; die Dachfläche EFS liegt in L: 5x1 − x2 + 13x3 = 65; an der Spitze S ist eine gerade Stange befestigt, deren oberer Endpunkt T ist; das Sonnenlicht fällt in parallelen Geraden mit dem Richtungsvektor v; der Schatten der Stange liegt vollständig auf der Dachfläche EFS → Beschreibung, wie man die Länge dieses Schattens berechnen kann, wenn die Koordinaten von T und v bekannt sind | Die Gerade durch T mit Richtung v mit L schneiden; der Schatten reicht von S bis zu diesem Schnittpunkt, seine Länge ist der Abstand der beiden Punkte
+2017MerhoehtBAGLAA2WTR1-1e | 4 | ja | Kurzantwort · Beschreiben Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; die Dachfläche EFS liegt in L: 5x1 − x2 + 13x3 = 65; an der Spitze S ist eine gerade Stange befestigt, deren oberer Endpunkt T ist; das Sonnenlicht fällt in parallelen Geraden mit dem Richtungsvektor v; der Schatten der Stange liegt vollständig auf der Dachfläche EFS → Beschreibung, wie man die Länge dieses Schattens berechnen kann, wenn die Koordinaten von T und v bekannt sind | Die Gerade durch T mit Richtung v mit L schneiden; der Schatten reicht von S bis zu diesem Schnittpunkt, seine Länge ist der Abstand der beiden Punkte
+2017MerhoehtBAGLAA2WTR2-1a | 2 | ja | Begründung · Begründen Sie | Viereck ABCD mit A(0; 0; 1), B(2; 6; 1), C(−4; 8; 5) und D(−6; 2; 5) in einem kartesischen Koordinatensystem; der Schnittpunkt der Diagonalen heißt M → Begründung, dass die Gerade AB parallel zur x1x2-Ebene verläuft | Die x3-Koordinaten von A und B stimmen überein, der Richtungsvektor hat die x3-Komponente 0
 2017MgrundlegendBAGLAA2WTR2-1a | 2 | ja | Begründung · Begründen Sie | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem → Begründung, dass die Gerade AB parallel zur x1x2-Ebene verläuft | Die x3-Koordinaten von A und B stimmen überein, also hat der Richtungsvektor die x3-Komponente 0
 2024MgrundlegendAAGLAA213-a | 2 | nein | Begründung · Entscheiden Sie¦Begründen Sie | P(2; 0; 23) und Q_t(6; t; 20) mit reellem t → Entscheidung mit Begründung, ob es ein t gibt, für das die Gerade PQ_t parallel zur xy-Ebene verläuft | die Gerade ist genau dann parallel zur xy-Ebene, wenn P und Q_t dieselbe z-Koordinate haben; die z-Koordinaten hängen nicht von t ab
 2020MerhoehtAAGLAA212 | 5 | nein | Rechnung · Untersuchen Sie | Kulisse 7 m breit, linke Wand in der xz-Ebene, rechte Wand parallel dazu (y = 7), Höhe 3, Tiefe 4; Lampe L(4; 0; 5), Spitze S(1; 6; 2) → rechnerische Untersuchung, ob der Schatten der Spitze auf der rechten Wand liegt | Gerade LS mit y = 7 schneiden, Koordinaten gegen die Wandmaße prüfen

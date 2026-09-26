@@ -7,7 +7,7 @@ Lesart (Einzelheiten im Skriptkopf): Die P10-Typen einer Einheit sind die der Zu
 ## Zahlenblock
 
 - Sek I: 29 Einträge, 116 Lerneinheiten (ohne Sek-II-Einheiten), 1334 Typen; Einheiten mit P10-Typ 93, ohne P10-Typ 23; Typen mit P10-Typ 650, ohne 684 (davon 196 nur mit P10-Typen fremder Themen, zählen nicht).
-- Sek II: 47 Einträge mit Sek-II-Typen (davon 3 Sek-I-Einträge mit Sek-II-Teil), 162 Einheiten.
+- Sek II: 47 Einträge mit Sek-II-Typen (davon 3 Sek-I-Einträge mit Sek-II-Teil), 163 Einheiten.
 
 ## Verteilung für die Schwelle „oft“ – Sek-I-Einheiten
 
@@ -3309,15 +3309,15 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 2 · Extrempunkte** – Abitur-Jahrgänge GK 9 von 9 (Haupt 9) · LK 6 von 7 (Haupt 5) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 2.1 Extrem- und Sattelpunkte über zweite Ableitung (17) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 8
-- 2.2 Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen (8) → wortgleich; GK 5 (2018, 2019, 2020, 2024, 2025), Haupt 4 · LK 1 (2025), Haupt 1 · FHR 0
-- 2.3 Lage und Art aller lokalen Extrempunkte bestimmen (6) → wortgleich; GK 7 (2017, 2018, 2020, 2021, 2022, 2023, 2024), Haupt 7 · LK 0 · FHR 0
-- 2.4 Abstand zweier Extrempunkte verschiedener Graphen mit einer Schranke vergleichen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 2.5 Abstand zweier Extrempunkte über die Punktsymmetrie berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.6 Extrempunkte berechnen und ihre Verbindungsgerade als Winkelhalbierende nachweisen (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 2.7 Extremstellen aus den Nullstellen der Ableitung berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 2.8 Nullstellen einer e-Funktion nachweisen und Tiefstelle berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.9 Nullstellen und Extremstelle einer Parabel berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.10 Stellen mit maximalem Funktionswert einschließlich Rand bestimmen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 2.2 Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen (10) → wortgleich; GK 5 (2018, 2019, 2020, 2024, 2025), Haupt 4 · LK 1 (2025), Haupt 1 · FHR 0
+- 2.3 Lage und Art aller lokalen Extrempunkte bestimmen (7) → wortgleich; GK 7 (2017, 2018, 2020, 2021, 2022, 2023, 2024), Haupt 7 · LK 0 · FHR 0
+- 2.4 Stellen mit maximalem Funktionswert einschließlich Rand bestimmen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 2.5 Abstand zweier Extrempunkte verschiedener Graphen mit einer Schranke vergleichen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 2.6 Abstand zweier Extrempunkte über die Punktsymmetrie berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.7 Extrempunkte berechnen und ihre Verbindungsgerade als Winkelhalbierende nachweisen (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 2.8 Extremstellen aus den Nullstellen der Ableitung berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 2.9 Nullstellen einer e-Funktion nachweisen und Tiefstelle berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.10 Nullstellen und Extremstelle einer Parabel berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.11 Wertebereich einer ganzrationalen Funktion über den globalen Tiefpunkt ermitteln (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 2.12 Extrempunkt an vorgegebener Stelle nachweisen (9) → wortgleich; GK 1 (2021), Haupt 1 · LK 2 (2017, 2025), Haupt 1 · FHR 0
 - 2.13 Achsenschnittpunkte angeben und Hochpunkt aus der gegebenen Ableitung begründen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
@@ -3336,27 +3336,28 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.26 Fehler finden (positives f'' als Hochpunkt gedeutet; Lösung x = 0 beim Ausklammern verloren; Extremstelle statt Extremwert angegeben; e-Faktor null gesetzt) → didaktischer Typ, kein Prüfungstyp
 - 2.27 Begründen (warum f'(x₀) = 0 allein nicht reicht – Sattelstelle; warum am Rand eines Intervalls ein größter Wert ohne waagerechte Tangente liegen kann) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Krümmung und Wendepunkte** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
+**Einheit 3 · Krümmung und Wendepunkte** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 3.1 Wendepunkte über zweite Ableitung (11) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2020, 2021, 2022, 2023, 2024, 2026), Haupt 7
 - 3.2 Wendepunkte über die zweite Ableitung berechnen (5) → wortgleich; GK 3 (2021, 2023, 2026), Haupt 3 · LK 0 · FHR 0
 - 3.3 Krümmungsverhalten angeben (3) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2022, 2024, 2025, 2026), Haupt 3
 - 3.4 Gerade durch die beiden Wendepunkte aufstellen und parallele Gerade mit genau einem gemeinsamen Punkt einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Wendepunkt an vorgegebener Stelle nachweisen und Wendetangente aufstellen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Existenz eines Wendepunkts aus Tiefpunkt und Grenzverhalten über eine Skizze begründen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 3.7 Punktprobe am Graphen (1; fhr 2023-C-1d: Punkt auf dem Graphen und Wendepunkt prüfen – Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2023, 2024, 2025, 2026), Haupt 4
-- 3.8 Wendepunkt mit vorgegebenen Koordinaten über die zweite Ableitung nachweisen und den symmetrischen Wendepunkt angeben (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 3.9 Wendepunkt über den Vorzeichenwechsel der zweiten Ableitung aus der Kettenregel am Graphen nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.10 Wendestelle nachweisen und Winkel der Wendetangente mit der x-Achse über die Steigung −1 zeigen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.11 Wendestellen einer Sinusfunktion als ganzzahlig nachweisen und die beiden Wendetangentensteigungen zeigen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.12 Zweite Ableitung nachweisen und Wendepunkt an vorgegebener Stelle zeigen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
-- 3.13 Anzahl der Schnittpunkte von Geraden durch den Wendepunkt mit dem Graphen nach der Steigung unterscheiden (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.14 Fehler finden (Links- und Rechtskrümmung vertauscht; f''' vergessen; Wendestelle ohne Funktionswert; Sattelpunkt als bloßer Wendepunkt) → didaktischer Typ, kein Prüfungstyp
-- 3.15 Begründen (warum f'' das Vorzeichen wechseln muss, damit ein Wendepunkt vorliegt; warum die Wendetangente den Graphen dort durchsetzt) → didaktischer Typ, kein Prüfungstyp
+- 3.5 Krümmungsverhalten aus der zweiten Ableitung deuten (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2018), Haupt 0 · FHR 0
+- 3.6 Wendepunkt an vorgegebener Stelle nachweisen und Wendetangente aufstellen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.7 Existenz eines Wendepunkts aus Tiefpunkt und Grenzverhalten über eine Skizze begründen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 3.8 Punktprobe am Graphen (1; fhr 2023-C-1d: Punkt auf dem Graphen und Wendepunkt prüfen – Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2023, 2024, 2025, 2026), Haupt 4
+- 3.9 Wendepunkt mit vorgegebenen Koordinaten über die zweite Ableitung nachweisen und den symmetrischen Wendepunkt angeben (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 3.10 Wendepunkt über den Vorzeichenwechsel der zweiten Ableitung aus der Kettenregel am Graphen nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.11 Wendestelle nachweisen und Winkel der Wendetangente mit der x-Achse über die Steigung −1 zeigen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.12 Wendestellen einer Sinusfunktion als ganzzahlig nachweisen und die beiden Wendetangentensteigungen zeigen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.13 Zweite Ableitung nachweisen und Wendepunkt an vorgegebener Stelle zeigen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 3.14 Anzahl der Schnittpunkte von Geraden durch den Wendepunkt mit dem Graphen nach der Steigung unterscheiden (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.15 Fehler finden (Links- und Rechtskrümmung vertauscht; f''' vergessen; Wendestelle ohne Funktionswert; Sattelpunkt als bloßer Wendepunkt) → didaktischer Typ, kein Prüfungstyp
+- 3.16 Begründen (warum f'' das Vorzeichen wechseln muss, damit ein Wendepunkt vorliegt; warum die Wendetangente den Graphen dort durchsetzt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Graph und Ableitungsgraph** – Abitur-Jahrgänge GK 8 von 9 (Haupt 7) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Graphen einer Funktion in ein Koordinatensystem einzeichnen (3) → wortgleich; GK 4 (2017, 2018, 2019, 2020), Haupt 3 · LK 0 · FHR 0
+- 4.1 Graphen einer Funktion in ein Koordinatensystem einzeichnen (5) → wortgleich; GK 4 (2017, 2018, 2019, 2020), Haupt 3 · LK 0 · FHR 0
 - 4.2 Mindestgrad einer ganzrationalen Funktion aus Eigenschaften der Ableitung begründen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 4.3 Gemeinsamen Punkt zweier Graphen über gleiche Flächeninhalte indirekt begründen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.4 Logarithmus einer Exponentialfunktion als lineare Funktion nachweisen und Steigung und Achsenabschnitt angeben (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3373,16 +3374,16 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 5 · Kurvenuntersuchung im Sachzusammenhang** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 4 von 8 (Haupt 4).
 
 - 5.1 Zeitpunkt stärkster Abnahme über das Minimum der Ableitung berechnen (4) → wortgleich; GK 2 (2018, 2019), Haupt 2 · LK 0 · FHR 0
-- 5.2 Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen (2) → wortgleich; GK 1 (2019), Haupt 0 · LK 0 · FHR 0
-- 5.3 Passung eines Profils in einen Karton über Breite und Tiefe aus Nullstellen und Tiefpunkt prüfen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
-- 5.4 Funktionswert im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2024, 2025), Haupt 2
-- 5.5 Maße und Masse eines umschließenden Quaders eines Rotationskörpers aus Hochpunkt und Bereich mit Maßstab berechnen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
-- 5.6 Maximale Höhe im Sachzusammenhang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2023, 2024), Haupt 1
-- 5.7 Maximalen Neigungswinkel über die Wendestelle berechnen und mit einer Schranke vergleichen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 5.2 Maximalen Neigungswinkel über die Wendestelle berechnen (4) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 5.3 Maximum einer ganzrationalen Funktion im Sachzusammenhang über die Ableitung berechnen (2) → wortgleich; GK 1 (2019), Haupt 0 · LK 0 · FHR 0
+- 5.4 Passung eines Profils in einen Karton über Breite und Tiefe aus Nullstellen und Tiefpunkt prüfen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
+- 5.5 Funktionswert im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2024, 2025), Haupt 2
+- 5.6 Maße und Masse eines umschließenden Quaders eines Rotationskörpers aus Hochpunkt und Bereich mit Maßstab berechnen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 5.7 Maximale Höhe im Sachzusammenhang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2023, 2024), Haupt 1
 - 5.8 Steilsten Anstieg über den Wendepunkt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 1 (2021), Haupt 1
 - 5.9 Volumen eines umschließenden Quaders aus den Achsenschnittpunkten mit Maßstab berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
 - 5.10 Maximum eines Bestands an vorgegebener Stelle im Sachzusammenhang nachweisen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 5.11 Verlauf eines Graphen im Sachzusammenhang beschreiben (4) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 5.11 Verlauf eines Graphen im Sachzusammenhang beschreiben (5) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
 - 5.12 Wendepunkt als Zeitpunkt stärkster Zu- oder Abnahme im Sachzusammenhang deuten (4) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
 - 5.13 Gewinnbereich als Bereich zwischen den Schnittstellen von Erlösgerade und Kostengraph zeichnerisch bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.14 Ableitungswert an der Wendestelle als stärksten Anstieg der Rate im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3408,8 +3409,8 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Bernoulli-Formel** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Einzelwahrscheinlichkeit der Binomialverteilung mit dem Rechner ermitteln (12) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 3 (2017, 2018, 2025), Haupt 3 · FHR 0
-- 2.2 Binomialwahrscheinlichkeit mit der Bernoulli-Formel oder der Tabelle berechnen (8; Ermessen, siehe Offene Punkte) → wortgleich; GK 4 (2017, 2019, 2020, 2021), Haupt 4 · LK 0 · FHR 0
+- 2.1 Einzelwahrscheinlichkeit der Binomialverteilung mit dem Rechner ermitteln (15) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 3 (2017, 2018, 2025), Haupt 3 · FHR 0
+- 2.2 Binomialwahrscheinlichkeit mit der Bernoulli-Formel oder der Tabelle berechnen (12; Ermessen, siehe Offene Punkte) → wortgleich; GK 4 (2017, 2019, 2020, 2021), Haupt 4 · LK 0 · FHR 0
 - 2.3 Einzelwahrscheinlichkeit einer Binomialverteilung aus n und Erwartungswert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Stichprobenumfang aus dem Erwartungswert berechnen und Einzelwahrscheinlichkeit ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.5 Term für eine Wahrscheinlichkeit einer Bernoulli-Kette angeben (7) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
@@ -3421,16 +3422,16 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.1 Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln (22) → wortgleich; GK 3 (2018, 2022, 2026), Haupt 2 · LK 4 (2017, 2022, 2023, 2026), Haupt 3 · FHR 0
 - 3.2 Fehlerwahrscheinlichkeit einer Einheit binomial berechnen und als Trefferwahrscheinlichkeit einer zweiten Binomialverteilung verwenden (3) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
 - 3.3 Bedingung an ein Anzahlverhältnis in eine Binomialwahrscheinlichkeit übersetzen (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 3.4 Wahrscheinlichkeit einer relativen Abweichung vom Erwartungswert nach oben berechnen (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.5 Bedingte Restwahrscheinlichkeit nach bekannten Ergebnissen über die Binomialverteilung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Kumulierte Binomialwahrscheinlichkeit und Pfadwahrscheinlichkeit einer festen Anfangsfolge berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Wahrscheinlichkeit einer prozentualen Abweichung vom Erwartungswert nach beiden Seiten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.8 Wahrscheinlichkeit eines zweistufigen Prüfplans über Binomialwahrscheinlichkeiten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.9 Wahrscheinlichkeit für zwei gleichzeitige Ereignisse über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 1 (2022), Haupt 1 · FHR 0
+- 3.4 Wahrscheinlichkeit einer prozentualen Abweichung vom Erwartungswert nach beiden Seiten berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.5 Wahrscheinlichkeit einer relativen Abweichung vom Erwartungswert nach oben berechnen (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 3.6 Wahrscheinlichkeit für zwei gleichzeitige Ereignisse über die Aufteilung einer Bernoulli-Kette in zwei Abschnitte berechnen (2) → wortgleich; GK 1 (2017), Haupt 1 · LK 1 (2022), Haupt 1 · FHR 0
+- 3.7 Bedingte Restwahrscheinlichkeit nach bekannten Ergebnissen über die Binomialverteilung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.8 Kumulierte Binomialwahrscheinlichkeit und Pfadwahrscheinlichkeit einer festen Anfangsfolge berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.9 Wahrscheinlichkeit eines zweistufigen Prüfplans über Binomialwahrscheinlichkeiten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.10 Wahrscheinlichkeit für zwei unabhängige Spieler als Produkt binomialer Wahrscheinlichkeiten berechnen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
 - 3.11 Summenbedingung bei wiederholtem Wurf in eine Binomialwahrscheinlichkeit übersetzen und nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.12 Summenterme der Binomialverteilung auf ein vorgegebenes Mindestens-Ereignis prüfen und begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.13 Kumulierte Binomialsumme als Sachaussage formulieren (10) → wortgleich; GK 4 (2017, 2019, 2020, 2023), Haupt 4 · LK 0 · FHR 0
+- 3.13 Kumulierte Binomialsumme als Sachaussage formulieren (13) → wortgleich; GK 4 (2017, 2019, 2020, 2023), Haupt 4 · LK 0 · FHR 0
 - 3.14 Sachaussage zu einer Ungleichung mit Binomialsumme formulieren (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.15 Aufgabenstellung zu einer Potenz der Gegenwahrscheinlichkeit formulieren und Ansatz erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.16 Fehler finden („mehr als k“ als X ≥ k gelesen; „weniger als k“ als P(X ≤ k); beim Intervall die falsche untere Grenze abgezogen; ein Prozentanteil als Anzahl genommen; im Summenterm Treffer und Niete vertauscht; die Summe als „genau k“ gedeutet) → didaktischer Typ, kein Prüfungstyp
@@ -3438,11 +3439,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 4 · Umkehraufgaben** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Anzahl von Versuchen einer Bernoulli-Kette für mindestens einen Treffer über das Gegenereignis bestimmen (6) → wortgleich; GK 6 (2017, 2019, 2020, 2021, 2022, 2023), Haupt 6 · LK 1 (2017), Haupt 1 · FHR 0
-- 4.2 Trefferwahrscheinlichkeit aus einer Bedingung an die Wahrscheinlichkeit für null Treffer bestimmen (4) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 0 · FHR 0
-- 4.3 Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln (3) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 4.4 Kleinsten Radius einer symmetrischen Umgebung um den Erwartungswert für eine Mindestwahrscheinlichkeit ermitteln (3) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 4.5 Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k Treffern ermitteln (3) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 4.1 Anzahl von Versuchen einer Bernoulli-Kette für mindestens einen Treffer über das Gegenereignis bestimmen (10) → wortgleich; GK 6 (2017, 2019, 2020, 2021, 2022, 2023), Haupt 6 · LK 1 (2017), Haupt 1 · FHR 0
+- 4.2 Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k Treffern ermitteln (4) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 4.3 Trefferwahrscheinlichkeit aus einer Bedingung an die Wahrscheinlichkeit für null Treffer bestimmen (4) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 0 · FHR 0
+- 4.4 Grenze k einer kumulierten Wahrscheinlichkeit gegen eine Schranke mit dem Rechner ermitteln (3) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 4.5 Kleinsten Radius einer symmetrischen Umgebung um den Erwartungswert für eine Mindestwahrscheinlichkeit ermitteln (3) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 4.6 Kleinste Umgebungsbreite unterhalb des Erwartungswerts für eine Mindestwahrscheinlichkeit ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.7 Mindestanzahl von Versuchen für mindestens drei Treffer mit vorgegebener Wahrscheinlichkeit durch Probieren ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.8 Parameter n und p aus einem Verhältnis zweier Einzelwahrscheinlichkeiten und dem Erwartungswert berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3459,7 +3460,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 5 · Verteilung im Diagramm** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 3 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 5.1 Einzelwahrscheinlichkeit aus Symmetrie und kumulierten Werten berechnen (3; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 5.2 Modalwert einer Binomialverteilung bestimmen (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 1 (2017), Haupt 0 · FHR 0
+- 5.2 Modalwert einer Binomialverteilung bestimmen (3) → wortgleich; GK 1 (2018), Haupt 1 · LK 1 (2017), Haupt 0 · FHR 0
 - 5.3 Achsen eines Verteilungsdiagramms über Erwartungswert und größte Einzelwahrscheinlichkeit skalieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.4 Einzelwahrscheinlichkeit aus dem Diagramm kumulierter Wahrscheinlichkeiten ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.5 Obere Grenze einer im Diagramm markierten kumulierten Wahrscheinlichkeit über den Erwartungswert ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3470,11 +3471,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 5.10 Aussage über die Stelle des Maximums der Binomialverteilung über den Erwartungswert beurteilen (4) → wortgleich; GK 2 (2020, 2025), Haupt 2 · LK 0 · FHR 0
 - 5.11 Wahrscheinlichkeit über die Verteilung der Gegenzufallsgröße im Diagramm erläutern (4) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
 - 5.12 Werte zu Wahrscheinlichkeitsbedingungen aus dem Säulendiagramm ablesen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
-- 5.13 Aussagen über Verteilungen verschiedener Gruppen am Säulendiagramm beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.14 Aussagen über kumulierte Wahrscheinlichkeit und Trefferwahrscheinlichkeit aus dem Säulendiagramm einer Binomialverteilung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.15 Bedingung an p für das Verhältnis zweier symmetrisch liegender Einzelwahrscheinlichkeiten angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.16 Verteilung der Gegenzufallsgröße im Diagramm darstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.17 Wahrscheinlichkeit eines Intervalls aus dem Säulendiagramm einer Verteilung ablesen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 5.13 Wahrscheinlichkeit eines Intervalls aus dem Säulendiagramm einer Verteilung ablesen (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 5.14 Aussagen über Verteilungen verschiedener Gruppen am Säulendiagramm beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.15 Aussagen über kumulierte Wahrscheinlichkeit und Trefferwahrscheinlichkeit aus dem Säulendiagramm einer Binomialverteilung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.16 Bedingung an p für das Verhältnis zweier symmetrisch liegender Einzelwahrscheinlichkeiten angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.17 Verteilung der Gegenzufallsgröße im Diagramm darstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.18 Fehler finden (das Maximum bei n/2 statt bei n · p vermutet; ein Diagramm nur nach der Form beurteilt, ohne die Summe der Säulen zu prüfen; bei der Gegenzufallsgröße die Säule bei k statt bei n − k gelesen; die Symmetrieachse auf eine ganze Zahl statt auf die Mitte zweier Werte gelegt; Wertebereich mit n + 1 Werten als n gelesen) → didaktischer Typ, kein Prüfungstyp
 - 5.19 Begründen (warum die Säulen sich zu eins addieren müssen; warum die Verteilung nur für p = 0,5 symmetrisch ist) → didaktischer Typ, kein Prüfungstyp
 
@@ -3489,7 +3490,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Normalenvektor und Koordinatengleichung** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 6 von 7 (Haupt 5) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen (20) → wortgleich; GK 6 (2017, 2018, 2020, 2021, 2024, 2025), Haupt 6 · LK 5 (2017, 2018, 2022, 2023, 2024), Haupt 3 · FHR 0
+- 2.1 Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen (25) → wortgleich; GK 6 (2017, 2018, 2020, 2021, 2024, 2025), Haupt 6 · LK 5 (2017, 2018, 2022, 2023, 2024), Haupt 3 · FHR 0
 - 2.2 Normalenvektor als Ortsvektor eines Ebenenpunktes bestimmen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
 - 2.3 Konstante einer Koordinatengleichung durch Einsetzen eines Punktes bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Normalenvektor einer Ebene aus zwei Richtungsvektoren über Skalarprodukte bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3516,8 +3517,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.1 Koordinatengleichung einer parallelen Ebene durch einen Punkt aufstellen (3) → wortgleich; GK 3 (2019, 2020, 2022), Haupt 2 · LK 0 · FHR 0
 - 4.2 Parallele Ebene mit vorgegebenem Volumenverhältnis eines Prismas ermitteln (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.3 Parallelität zweier Ebenen über die Normalenvektoren und eine Punktprobe begründen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 4.4 Fehler finden (den Punkt in die Ausgangsebene statt in die parallele Ebene eingesetzt; nur die Parallelität genannt und „identisch“ nicht ausgeschlossen; das Volumenverhältnis auf die halbe Höhe statt auf ein Drittel übersetzt) → didaktischer Typ, kein Prüfungstyp
-- 4.5 Begründen (warum parallele Ebenen denselben Normalenvektor haben; warum eine Punktprobe zwischen parallel und identisch entscheidet) → didaktischer Typ, kein Prüfungstyp
+- 4.4 Parallele Ebenen über die Normalenvektoren auswählen und über die Konstante der Koordinatengleichung der Höhe nach zuordnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.5 Fehler finden (den Punkt in die Ausgangsebene statt in die parallele Ebene eingesetzt; nur die Parallelität genannt und „identisch“ nicht ausgeschlossen; das Volumenverhältnis auf die halbe Höhe statt auf ein Drittel übersetzt) → didaktischer Typ, kein Prüfungstyp
+- 4.6 Begründen (warum parallele Ebenen denselben Normalenvektor haben; warum eine Punktprobe zwischen parallel und identisch entscheidet) → didaktischer Typ, kein Prüfungstyp
 
 ### ableitung-und-aenderungsrate
 
@@ -3526,7 +3528,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.1 Mittlere Änderungsrate aus dem Graphen im Sachzusammenhang bestimmen (4) → wortgleich; GK 1 (2025), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
 - 1.2 Mittlere Änderungsrate aus dem Funktionsterm im Sachzusammenhang berechnen (3) → wortgleich; GK 1 (2019), Haupt 1 · LK 1 (2025), Haupt 1 · FHR 0
 - 1.3 Sekantengleichung durch zwei Punkte eines Graphen ermitteln (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.4 Mittlere Änderungsrate über ein Intervall berechnen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 1.4 Mittlere Änderungsrate über ein Intervall berechnen (2) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
 - 1.5 Mittlere Änderungsraten zweier Modelle vergleichen (1) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
 - 1.6 Umlaufzeit aus der Gesamtlänge eines symmetrischen Streckenzugs mit Halbkreisen und der Durchschnittsgeschwindigkeit berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
 - 1.7 Term für die mittlere Änderungsrate über Einheitsintervalle nachweisen und Zeitpunkt des Unterschreitens einer Schranke berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3540,15 +3542,17 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 2 · Ableitung an einer Stelle** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 2.1 Ableitungswert berechnen und als Tangentensteigung veranschaulichen (2) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
-- 2.2 Stelle mit vorgegebener momentaner Änderungsrate über die Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.3 Gleiche Ableitungswerte zweier Funktionen nachweisen und als parallele Tangenten deuten (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 2.4 Steigung einer Geraden am Graphen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.5 Negativen Wert einer Änderungsrate im Sachzusammenhang deuten (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 2.6 Aussage über den Vergleich der Steigungen zweier Graphen auf einem Intervall mit Gegenbeispiel beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.7 Aussage über die Steigung am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.8 Koordinaten eines Punktes des Ratengraphen im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.9 Fehler finden (f'(x₀) als f(x₀) gelesen oder umgekehrt; die Konstante im Term mit abgeleitet; eine Sekante statt der Tangente eingezeichnet; die negative Rate als negativen Bestand gedeutet) → didaktischer Typ, kein Prüfungstyp
-- 2.10 Begründen (warum die Ableitung einer Geraden überall ihre Steigung ist; warum ein Gegenbeispiel eine Allaussage widerlegt, eine bestätigte Stelle sie aber nicht beweist) → didaktischer Typ, kein Prüfungstyp
+- 2.2 Momentane Änderungsrate am Graphen über eine eingezeichnete Tangente bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.3 Stelle mit vorgegebener momentaner Änderungsrate über die Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.4 Gleiche Ableitungswerte zweier Funktionen nachweisen und als parallele Tangenten deuten (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 2.5 Steigung einer Geraden am Graphen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.6 Negativen Wert einer Änderungsrate im Sachzusammenhang deuten (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 2.7 Aussage über den Vergleich der Steigungen zweier Graphen auf einem Intervall mit Gegenbeispiel beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.8 Aussage über die Steigung am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.9 Graph der Füllhöhe in Abhängigkeit von der Zeit über die Gefäßform auswählen und begründen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.10 Koordinaten eines Punktes des Ratengraphen im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.11 Fehler finden (f'(x₀) als f(x₀) gelesen oder umgekehrt; die Konstante im Term mit abgeleitet; eine Sekante statt der Tangente eingezeichnet; die negative Rate als negativen Bestand gedeutet) → didaktischer Typ, kein Prüfungstyp
+- 2.12 Begründen (warum die Ableitung einer Geraden überall ihre Steigung ist; warum ein Gegenbeispiel eine Allaussage widerlegt, eine bestätigte Stelle sie aber nicht beweist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Von der Sekante zur Tangente** – Abitur-Jahrgänge GK 3 von 9 (Haupt 2) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -3565,8 +3569,8 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.1 Zeitpunkt und Größe der maximalen Rate über die Ableitung der Ratenfunktion berechnen (4) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
 - 4.2 Länge des Zeitraums mit Mindeständerungsrate über die Lösungen von f'(x) = c berechnen (3) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
 - 4.3 Zeitpunkt der größten Rate aus der Ableitung angeben (3) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 4.4 Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen (2) → wortgleich; GK 2 (2017, 2018), Haupt 2 · LK 0 · FHR 0
-- 4.5 Größte und kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.4 Kleinste Tangentensteigung über das Minimum der Ableitung bestimmen (3) → wortgleich; GK 2 (2017, 2018), Haupt 2 · LK 0 · FHR 0
+- 4.5 Größte und kleinste Rate im Zeitraum über Ableitung und Randwerte berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.6 Größte Änderungsrate über das Maximum der Ableitung im Sachzusammenhang berechnen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
 - 4.7 Zeitpunkte größter Differenz zweier Änderungsraten über die Extremstellen der Differenzfunktion berechnen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
 - 4.8 Eignung eines Modells über das Vorzeichen der Änderungsrate nach einer Nullstelle beurteilen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
@@ -3579,7 +3583,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 1 · Potenz-, Faktor- und Summenregel** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 6).
 
 - 1.1 Ableitung ganzrationale Funktion (6) → wortgleich; GK 0 · LK 0 · FHR 6 (2021, 2022, 2023, 2024, 2025, 2026), Haupt 4
-- 1.2 Ableitung mit Parameter in faktorisierter Form nachweisen (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 1.2 Ableitung mit Parameter in faktorisierter Form nachweisen (3) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
 - 1.3 Ableitung als Quadrat eines Produkts von Linearfaktoren nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Verhalten im Unendlichen bestimmen (2; Ermessen, siehe Offene Punkte – zwei fhr-Zeilen, deren Punkt-Schwerpunkt bei den drei Ableitungen liegt, der Typ gehört zu grenzwerte-und-verhalten-im-unendlichen.md) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 3
 - 1.5 Ableitungsfunktion und Stammfunktion einer ganzrationalen Funktion angeben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
@@ -3590,14 +3594,15 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 2.1 Tangente an eine Verkettung aus zwei abgebildeten Graphen über die Kettenregel bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.2 Verschiebung zwischen Graph und hundertster Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.3 Fehler finden (die innere Ableitung vergessen; die äußere Ableitung an x statt an der inneren Funktion gebildet; bei e^(kx) den Faktor k als Exponent behandelt; die wiederholte Ableitung von e^(2x) als Streckung statt als Verschiebung gedeutet) → didaktischer Typ, kein Prüfungstyp
-- 2.4 Begründen (warum die Ableitung von e^(kx) den Faktor k trägt; warum der Graph von c · e^(2x) eine Verschiebung des Graphen von e^(2x) ist) → didaktischer Typ, kein Prüfungstyp
+- 2.3 Term einer höheren Ableitung einer Sinusfunktion über die Periodizität der Ableitungen angeben (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.4 Fehler finden (die innere Ableitung vergessen; die äußere Ableitung an x statt an der inneren Funktion gebildet; bei e^(kx) den Faktor k als Exponent behandelt; die wiederholte Ableitung von e^(2x) als Streckung statt als Verschiebung gedeutet) → didaktischer Typ, kein Prüfungstyp
+- 2.5 Begründen (warum die Ableitung von e^(kx) den Faktor k trägt; warum der Graph von c · e^(2x) eine Verschiebung des Graphen von e^(2x) ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Produktregel** – Abitur-Jahrgänge GK 2 von 9 (Haupt 1) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Ableitung eines Produkts aus x und einer e-Funktion mit Produkt- und Kettenregel bilden (2) → wortgleich; GK 1 (2018), Haupt 0 · LK 2 (2018, 2022), Haupt 1 · FHR 0
 - 3.2 Ableitung eines Produkts aus Graphenwerten mit der Produktregel bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.3 Ableitung eines Produkts mit e-Funktion in vorgegebener Form nachweisen (6) → wortgleich; GK 1 (2020), Haupt 1 · LK 3 (2018, 2022, 2024), Haupt 3 · FHR 0
+- 3.3 Ableitung eines Produkts mit e-Funktion in vorgegebener Form nachweisen (8) → wortgleich; GK 1 (2020), Haupt 1 · LK 3 (2018, 2022, 2024), Haupt 3 · FHR 0
 - 3.4 Bedingung für eine waagerechte Tangente eines Produkts mit e^x nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.5 Fehler finden (nur die Faktoren einzeln abgeleitet und multipliziert; die innere Ableitung des e-Terms vergessen; der Vorfaktor nur bei einem Summanden; nach dem Ausklammern nicht zusammengefasst und die vorgegebene Form nicht erreicht; am Extrempunkt f'(x₀) = 0 nicht erkannt) → didaktischer Typ, kein Prüfungstyp
 - 3.6 Begründen (warum man den e-Term ausklammern kann und warum er die Nullstellen nicht ändert; warum g'(a) = 0 für g = f · e^x auf f'(a) = −f(a) führt) → didaktischer Typ, kein Prüfungstyp
@@ -3607,7 +3612,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 1 · Ganzrationale Funktionen** – Abitur-Jahrgänge GK 3 von 9 (Haupt 2) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 1.1 Symmetrie am Funktionsterm beurteilen (3; Ermessen, siehe Offene Punkte – drei fhr-Zeilen, deren Punkt-Schwerpunkt beim Verhalten im Unendlichen liegt, der Typ gehört zum fhr-Thema „Symmetrie nachweisen“ bei funktionsklassen-und-eigenschaften.md) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 8
-- 1.2 Grenzverhalten einer ganzrationalen Funktion angeben (3) → wortgleich; GK 3 (2020, 2022, 2026), Haupt 2 · LK 1 (2022), Haupt 1 · FHR 0
+- 1.2 Grenzverhalten einer ganzrationalen Funktion angeben (4) → wortgleich; GK 3 (2020, 2022, 2026), Haupt 2 · LK 1 (2022), Haupt 1 · FHR 0
 - 1.3 Verhalten im Unendlichen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 3
 - 1.4 Fehler finden (bei ungeradem Grad beide Seiten gleich angegeben; das Vorzeichen des Leitkoeffizienten übersehen; am Summanden 2x statt am Leitterm abgelesen; das Absolutglied als ungeraden Exponenten gewertet; das Verhalten von f statt von f' angegeben) → didaktischer Typ, kein Prüfungstyp
 - 1.5 Begründen (warum nur der Leitterm zählt; warum ein negativer Leitkoeffizient bei geradem Grad beide Seiten nach unten schickt) → didaktischer Typ, kein Prüfungstyp
@@ -3633,14 +3638,15 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 1.1 Schnittpunkte zweier Funktionsgraphen berechnen (6) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2022, 2023, 2025), Haupt 5
 - 1.2 Stelle zu gegebenem Funktionswert berechnen (3) → wortgleich; GK 0 · LK 0 · FHR 3 (2021, 2024, 2025), Haupt 3
-- 1.3 Schnittpunkt zweier Graphen über eine biquadratische Gleichung berechnen (1) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
-- 1.4 Schnittpunkte einer Geraden mit einer Hyperbel über eine quadratische Gleichung berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.5 Stellen mit vorgegebenem Funktionswert durch Ausklammern berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.6 Schnittstellen zweier Graphen durch Lösen einer quadratischen Gleichung nachweisen (3) → wortgleich; GK 2 (2019, 2021), Haupt 2 · LK 0 · FHR 0
-- 1.7 Gemeinsame Punkte zweier Graphen als einzige durch Ausklammern nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.8 Termgleichheit zweier Darstellungen einer ganzrationalen Funktion durch Ausmultiplizieren nachweisen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 1.9 Fehler finden (durch x geteilt und die Lösung null verloren; die negative Hilfslösung u zurücksubstituiert; aus x⁴ = c die Quadratwurzel gezogen; beim Wurzelziehen nur das positive Vorzeichen; beim Gleichsetzen ein Vorzeichen falsch übernommen; das „nur“ nicht begründet; die Lösung nicht am Sachzusammenhang geprüft) → didaktischer Typ, kein Prüfungstyp
-- 1.10 Begründen (warum eine quadratische Gleichung höchstens zwei Lösungen hat; warum u = x² nicht negativ sein kann; warum eine bekannte Lösung die Polynomdivision erlaubt) → didaktischer Typ, kein Prüfungstyp
+- 1.3 Waagerechte Ausdehnung eines Profils in vorgegebener Höhe über die Stellen mit vorgegebenem Funktionswert berechnen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.4 Schnittpunkt zweier Graphen über eine biquadratische Gleichung berechnen (1) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
+- 1.5 Schnittpunkte einer Geraden mit einer Hyperbel über eine quadratische Gleichung berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.6 Stellen mit vorgegebenem Funktionswert durch Ausklammern berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.7 Schnittstellen zweier Graphen durch Lösen einer quadratischen Gleichung nachweisen (3) → wortgleich; GK 2 (2019, 2021), Haupt 2 · LK 0 · FHR 0
+- 1.8 Gemeinsame Punkte zweier Graphen als einzige durch Ausklammern nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.9 Termgleichheit zweier Darstellungen einer ganzrationalen Funktion durch Ausmultiplizieren nachweisen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 1.10 Fehler finden (durch x geteilt und die Lösung null verloren; die negative Hilfslösung u zurücksubstituiert; aus x⁴ = c die Quadratwurzel gezogen; beim Wurzelziehen nur das positive Vorzeichen; beim Gleichsetzen ein Vorzeichen falsch übernommen; das „nur“ nicht begründet; die Lösung nicht am Sachzusammenhang geprüft) → didaktischer Typ, kein Prüfungstyp
+- 1.11 Begründen (warum eine quadratische Gleichung höchstens zwei Lösungen hat; warum u = x² nicht negativ sein kann; warum eine bekannte Lösung die Polynomdivision erlaubt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Gleichungen mit e-Funktion und Logarithmus** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -3656,18 +3662,19 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.10 Fehler finden (den Vorfaktor beim Logarithmieren mitgezogen; den Faktor im Exponenten vergessen; den e-Faktor null gesetzt statt gekürzt; ln(1/4) mit falschem Vorzeichen; ln(x + 5) = −1 zu x + 5 = −e umgeformt; e^x = −1 numerisch lösen wollen; die Lösung statt des Abstands zur Bezugsstelle angegeben) → didaktischer Typ, kein Prüfungstyp
 - 2.11 Begründen (warum man durch e^x teilen darf; warum ln nur auf positive Zahlen anwendbar ist und e^x = −1 keine Lösung hat) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Gleichungen aufstellen und grafisch oder numerisch lösen** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 3 · Gleichungen aufstellen und grafisch oder numerisch lösen** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Gleichung aus Differenzenquotient und Ableitung lösen (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 3.2 Alle Zeitpunkte für einen Wert einer Sinusfunktion in einem Intervall berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.3 Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen und im Graphen darstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.4 Zeitpunkt für einen Anteil des Maximalwerts einer Sinusfunktion berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 3.6 Achsenparallele Quadrate mit Eckpunkt auf dem Graphen skizzieren, Gleichungen für die Seitenlängen angeben und Umfangsverhältnis beschreiben (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.7 Gleichung für zwei Graphenpunkte mit festem horizontalem Abstand und Höhenunterschied aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.8 Lösungen einer Differenzgleichung als Schnittstellen zweier Graphen grafisch beschreiben und angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.9 Fehler finden (a(x + 3) = a(x) + 1000 als a(3) = a(0) + 1000 gelesen; r(t) = r(5) statt r(t − 5) angesetzt; die Maße in Metern statt in Längeneinheiten in die Gleichung geschrieben; nur die Rechnerlösung der Sinusgleichung angegeben; 0,13 Stunden als 13 Minuten gelesen; beim Multiplizieren mit x einen Summanden vergessen) → didaktischer Typ, kein Prüfungstyp
-- 3.10 Begründen (warum eine Sinusgleichung im Intervall mehrere Lösungen hat; warum die Differenz zweier Funktionen genau dort null ist, wo sich die Graphen schneiden) → didaktischer Typ, kein Prüfungstyp
+- 3.2 Gleichung f(t) = f(t − c) für gleiche Werte im Abstand c mit dem Rechner lösen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.3 Alle Zeitpunkte für einen Wert einer Sinusfunktion in einem Intervall berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.4 Schnittpunkte zweier Graphen mit dem Rechner ermitteln (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 3.5 Zeitpunkt für einen Anteil des Maximalwerts einer Sinusfunktion berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.6 Funktionalgleichung mit Verschiebung grafisch lösen und im Sachzusammenhang deuten (4; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 3.7 Achsenparallele Quadrate mit Eckpunkt auf dem Graphen skizzieren, Gleichungen für die Seitenlängen angeben und Umfangsverhältnis beschreiben (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.8 Gleichung für zwei Graphenpunkte mit festem horizontalem Abstand und Höhenunterschied aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.9 Lösungen einer Differenzgleichung als Schnittstellen zweier Graphen grafisch beschreiben und angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.10 Fehler finden (a(x + 3) = a(x) + 1000 als a(3) = a(0) + 1000 gelesen; r(t) = r(5) statt r(t − 5) angesetzt; die Maße in Metern statt in Längeneinheiten in die Gleichung geschrieben; nur die Rechnerlösung der Sinusgleichung angegeben; 0,13 Stunden als 13 Minuten gelesen; beim Multiplizieren mit x einen Summanden vergessen) → didaktischer Typ, kein Prüfungstyp
+- 3.11 Begründen (warum eine Sinusgleichung im Intervall mehrere Lösungen hat; warum die Differenz zweier Funktionen genau dort null ist, wo sich die Graphen schneiden) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Ungleichungen** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -3682,9 +3689,10 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 1 · Umkehrbarkeit, Bereiche und Term** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Definitionsbereich der Umkehrfunktion angeben und ihren Term nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.2 Umkehrbarkeit auf einem Intervall begründen und Definitions- und Wertebereich der Umkehrfunktion angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.3 Fehler finden (Definitionsbereich der Umkehrfunktion mit dem der Funktion verwechselt; einen Grenzwert, der nicht angenommen wird, in den Bereich aufgenommen; die Variablen nicht getauscht) → didaktischer Typ, kein Prüfungstyp
-- 1.4 Begründen (warum eine Funktion mit Extrempunkt auf ℝ nicht umkehrbar ist; warum der Wertebereich von f der Definitionsbereich von g ist) → didaktischer Typ, kein Prüfungstyp
+- 1.2 Radius der Flüssigkeitsoberfläche in Abhängigkeit von der Füllhöhe über die Umkehrung der Profilfunktion nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.3 Umkehrbarkeit auf einem Intervall begründen und Definitions- und Wertebereich der Umkehrfunktion angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.4 Fehler finden (Definitionsbereich der Umkehrfunktion mit dem der Funktion verwechselt; einen Grenzwert, der nicht angenommen wird, in den Bereich aufgenommen; die Variablen nicht getauscht) → didaktischer Typ, kein Prüfungstyp
+- 1.5 Begründen (warum eine Funktion mit Extrempunkt auf ℝ nicht umkehrbar ist; warum der Wertebereich von f der Definitionsbereich von g ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Spiegelung an der Winkelhalbierenden** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -3700,8 +3708,8 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 1 · Tangentengleichung im Punkt** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 6 von 7 (Haupt 6) · FHR-Jahrgänge 8 von 8 (Haupt 7).
 
-- 1.1 Tangentengleichung in einem Punkt des Graphen aufstellen (11) → wortgleich; GK 5 (2017, 2019, 2022, 2025, 2026), Haupt 5 · LK 2 (2017, 2018), Haupt 1 · FHR 0
-- 1.2 Berührpunkt der Tangente mit vorgegebener Steigung berechnen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
+- 1.1 Tangentengleichung in einem Punkt des Graphen aufstellen (14) → wortgleich; GK 5 (2017, 2019, 2022, 2025, 2026), Haupt 5 · LK 2 (2017, 2018), Haupt 1 · FHR 0
+- 1.2 Berührpunkt der Tangente mit vorgegebener Steigung berechnen (4) → wortgleich; GK 1 (2020), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
 - 1.3 Tangentengleichung im Punkt (3) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2021, 2022, 2024, 2025, 2026), Haupt 3
 - 1.4 Anstieg des Graphen an einer Stelle berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2022, 2023, 2024), Haupt 2
 - 1.5 Parallele Tangente über die Ableitung finden und skizzieren (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
@@ -3711,46 +3719,49 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.9 Stelle zu gegebenem Anstieg berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 1 (2019), Haupt 1
 - 1.10 Tangente mit vorgegebener Steigung außerhalb eines Punktes angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.11 y-Achsenabschnitt der Tangente allgemein nachweisen (3) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.12 Tangentensteigung in einem Punkt über die Ableitung nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.13 Fehlende waagerechte Tangente über Vorzeichen am Graphen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.14 Nullstelle der Tangente an einen gestreckten Graphen als parameterunabhängig nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.15 Schranke für den Anstieg der Tangenten einer Schar begründen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 1.16 Stellen mit vorgegebenem Tangentenanstieg nachweisen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
-- 1.17 Tangente im Ursprung als Gerade durch zwei Punkte nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.18 Waagerechte Tangente an einer vorgegebenen Stelle nachweisen und Funktionswert berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 1.19 Tangentengleichung aus der Abbildung ablesen (3) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.20 Tangente am gespiegelten Punkt über die Achsensymmetrie angeben (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 1.21 Tangente mit gegebener Gleichung in die Abbildung einzeichnen (2) → wortgleich; GK 1 (2020), Haupt 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 1.22 Aussage über den größten y-Achsenabschnitt der Tangenten eines Graphen beurteilen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 1.23 Ergebnis eines Lösungswegs als y-Achsenabschnitt der parallelen Tangente deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.24 Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben (1) → wortgleich; GK 0 · LK 2 (2023, 2024), Haupt 1 · FHR 0
-- 1.25 Tangente in das Koordinatensystem einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 3 (2024, 2025, 2026), Haupt 1
-- 1.26 Fehler finden (den Funktionswert statt des Ableitungswerts als Steigung genommen; n gleich dem Funktionswert gesetzt statt aus der Punktbedingung berechnet; die Funktionsgleichung statt der Ableitung gleich dem Anstieg gesetzt; die Steigung aus der Abbildung falsch abgelesen) → didaktischer Typ, kein Prüfungstyp
-- 1.27 Begründen (warum die Tangente an der Stelle dieselbe Steigung wie der Graph hat; warum parallele Tangenten über f' gleich m gefunden werden) → didaktischer Typ, kein Prüfungstyp
+- 1.12 Schranke für den Anstieg der Tangenten einer Schar begründen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 1.13 Tangente an einer Stelle als Gerade durch zwei Punkte nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.14 Tangentensteigung in einem Punkt über die Ableitung nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.15 Fehlende waagerechte Tangente über Vorzeichen am Graphen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.16 Nullstelle der Tangente an einen gestreckten Graphen als parameterunabhängig nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.17 Parallelität der Wendetangenten einer Schar über eine parameterunabhängige Steigung nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.18 Stellen mit vorgegebenem Tangentenanstieg nachweisen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 1.19 Waagerechte Tangente an einer vorgegebenen Stelle nachweisen und Funktionswert berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 1.20 Tangentengleichung aus der Abbildung ablesen (3) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 1.21 Tangente am gespiegelten Punkt über die Achsensymmetrie angeben (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 1.22 Tangente mit gegebener Gleichung in die Abbildung einzeichnen (2) → wortgleich; GK 1 (2020), Haupt 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 1.23 Aussage über den größten y-Achsenabschnitt der Tangenten eines Graphen beurteilen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 1.24 Ergebnis eines Lösungswegs als y-Achsenabschnitt der parallelen Tangente deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.25 Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben (1) → wortgleich; GK 0 · LK 2 (2023, 2024), Haupt 1 · FHR 0
+- 1.26 Tangente in das Koordinatensystem einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 3 (2024, 2025, 2026), Haupt 1
+- 1.27 Fehler finden (den Funktionswert statt des Ableitungswerts als Steigung genommen; n gleich dem Funktionswert gesetzt statt aus der Punktbedingung berechnet; die Funktionsgleichung statt der Ableitung gleich dem Anstieg gesetzt; die Steigung aus der Abbildung falsch abgelesen) → didaktischer Typ, kein Prüfungstyp
+- 1.28 Begründen (warum die Tangente an der Stelle dieselbe Steigung wie der Graph hat; warum parallele Tangenten über f' gleich m gefunden werden) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Tangente als Berührung** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 3 von 7 (Haupt 2) · FHR-Jahrgänge 2 von 8 (Haupt 2).
 
-- 2.1 Einsehbarkeit eines Kurvenstücks von einem Punkt aus über die Tangente durch diesen Punkt untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.2 Näherung durch die Tangente mit dem Funktionswert im Sachzusammenhang vergleichen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 0 · FHR 0
-- 2.3 Parameter einer Logarithmusfunktion aus einer gemeinsamen Tangente mit einer Scharkurve berechnen und Tangentengleichung angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.4 Steigungen der Geraden durch den Wendepunkt mit genau einem gemeinsamen Punkt über die Wendetangente eingrenzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.5 Tangente aufstellen und weiteren gemeinsamen Punkt mit dem Graphen berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 2.6 Gemeinsame Tangente zweier Graphen im Schnittpunkt nachweisen und angeben (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 2.7 Gerade als Tangente in einem vorgegebenen Punkt über Funktionswert und Ableitung nachweisen (2) → wortgleich; GK 2 (2020, 2026), Haupt 2 · LK 0 · FHR 0
-- 2.8 Tangenteneigenschaft einer Geraden nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 2 (2022, 2026), Haupt 2
-- 2.9 Faktorisierung von f(x) − t(x) nachweisen und weiteren Schnittpunkt von Tangente und Graph begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.10 Fehlen einer gemeinsamen Tangente zweier Graphen über die Vorzeichen der Steigungen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.11 Näherungsweise tangentiale Einmündung einer Geraden nachweisen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 2.12 Schnittpunkt zweier Tangenten nachweisen und Tangenten einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.13 Tangente durch einen entfernten Punkt über die Rationalität der Steigung ausschließen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.14 Weiteren Schnittpunkt von Tangente und Graph aus einer vorgegebenen Faktorisierung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.15 Gleichung als Tangentenbedingung geometrisch deuten (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 2.16 Rechenweg zur Tangente von einem Punkt an den Graphen erläutern und Aufgabenstellung formulieren (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 2.17 Relative Abweichung zwischen Tangente und Funktion als Ungleichung im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.18 Tangente durch einen vorgegebenen Punkt am Graphen einzeichnen und ihre Gleichung ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.19 Tangenten durch einen Punkt der y-Achse an den Graphen skizzieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.20 Fehler finden (nur eine der beiden Berührbedingungen geprüft; die Berührstelle als weiteren Schnittpunkt gezählt; die Tangente als Sekante durch zwei Kurvenpunkte gezeichnet; den Parameter aus der Punktbedingung statt aus der Steigungsbedingung bestimmt) → didaktischer Typ, kein Prüfungstyp
-- 2.21 Begründen (warum die Berührstelle doppelte Nullstelle der Differenz ist; warum eine Aussage über alle Tangenten nicht an einem Beispiel bewiesen werden kann) → didaktischer Typ, kein Prüfungstyp
+- 2.1 Tangente aufstellen und weiteren gemeinsamen Punkt mit dem Graphen berechnen (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 2.2 Berührpunkt einer Tangente durch einen vorgegebenen Punkt berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.3 Einsehbarkeit eines Kurvenstücks von einem Punkt aus über die Tangente durch diesen Punkt untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.4 Näherung durch die Tangente mit dem Funktionswert im Sachzusammenhang vergleichen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 0 · FHR 0
+- 2.5 Parameter einer Logarithmusfunktion aus einer gemeinsamen Tangente mit einer Scharkurve berechnen und Tangentengleichung angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.6 Steigungen der Geraden durch den Wendepunkt mit genau einem gemeinsamen Punkt über die Wendetangente eingrenzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.7 Gemeinsame Tangente zweier Graphen im Schnittpunkt nachweisen und angeben (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 2.8 Gerade als Tangente in einem vorgegebenen Punkt über Funktionswert und Ableitung nachweisen (2) → wortgleich; GK 2 (2020, 2026), Haupt 2 · LK 0 · FHR 0
+- 2.9 Tangenteneigenschaft einer Geraden nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 2 (2022, 2026), Haupt 2
+- 2.10 Faktorisierung von f(x) − t(x) nachweisen und weiteren Schnittpunkt von Tangente und Graph begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.11 Fehlen einer gemeinsamen Tangente zweier Graphen über die Vorzeichen der Steigungen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.12 Näherungsweise tangentiale Einmündung einer Geraden nachweisen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.13 Schnittpunkt zweier Tangenten nachweisen und Tangenten einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.14 Tangente durch einen entfernten Punkt über die Rationalität der Steigung ausschließen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.15 Weiteren Schnittpunkt von Tangente und Graph aus einer vorgegebenen Faktorisierung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.16 Gleichung als Tangentenbedingung geometrisch deuten (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 2.17 Rechenweg zur Tangente von einem Punkt an den Graphen erläutern und Aufgabenstellung formulieren (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 2.18 Relative Abweichung zwischen Tangente und Funktion als Ungleichung im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.19 Tangente durch einen vorgegebenen Punkt am Graphen einzeichnen und ihre Gleichung ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.20 Tangenten durch einen Punkt der y-Achse an den Graphen skizzieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.21 Zeitpunkt bei gleichbleibender Änderungsrate über den Schnitt der Tangente mit der Zeitachse grafisch bestimmen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.22 Fehler finden (nur eine der beiden Berührbedingungen geprüft; die Berührstelle als weiteren Schnittpunkt gezählt; die Tangente als Sekante durch zwei Kurvenpunkte gezeichnet; den Parameter aus der Punktbedingung statt aus der Steigungsbedingung bestimmt) → didaktischer Typ, kein Prüfungstyp
+- 2.23 Begründen (warum die Berührstelle doppelte Nullstelle der Differenz ist; warum eine Aussage über alle Tangenten nicht an einem Beispiel bewiesen werden kann) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Normale** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 4 von 8 (Haupt 3).
 
@@ -3769,26 +3780,27 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 4.1 Parameter aus dem senkrechten Schnitt zweier Graphen bestimmen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 4.2 Schnittwinkel zweier Graphen im gemeinsamen Punkt über die Tangentensteigungen berechnen (2) → wortgleich; GK 2 (2022, 2023), Haupt 2 · LK 0 · FHR 0
-- 4.3 Tangentengleichung und Schnittwinkel der Tangente mit der x-Achse bestimmen (2) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 4.4 Winkel zwischen Graph und senkrechter Kante über die Ableitung berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.5 Auftreffwinkel einer Flugkurve über die Ableitung an der Nullstelle berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.6 Bereich der Stellen mit Mindeststeigungswinkel der Tangente über eine quadratische Ungleichung ermitteln (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 4.7 Öffnungswinkel an der Spitze eines Rotationskörpers über die Tangentensteigung prüfen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
-- 4.8 Scharparameter für einen vorgegebenen Schnittwinkel des Graphen mit der y-Achse bestimmen (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 4.9 Schnittwinkel eines Graphen mit einer waagerechten Geraden über die Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.10 Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen (1) → wortgleich; GK 3 (2017, 2018, 2021), Haupt 2 · LK 0 · FHR 0
-- 4.11 Steigungswinkel des Graphen in einem Punkt über die Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.3 Schnittwinkel zwischen Tangente und Gerade über die Anstiege berechnen (2) → wortgleich; GK 3 (2017, 2018, 2021), Haupt 2 · LK 0 · FHR 0
+- 4.4 Steigungswinkel des Graphen in einem Punkt über die Ableitung berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.5 Tangentengleichung und Schnittwinkel der Tangente mit der x-Achse bestimmen (2) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 4.6 Winkel zwischen Graph und senkrechter Kante über die Ableitung berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.7 Auftreffwinkel einer Flugkurve über die Ableitung an der Nullstelle berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.8 Bereich der Stellen mit Mindeststeigungswinkel der Tangente über eine quadratische Ungleichung ermitteln (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 4.9 Öffnungswinkel an der Spitze eines Rotationskörpers über die Tangentensteigung prüfen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 4.10 Scharparameter für einen vorgegebenen Schnittwinkel des Graphen mit der y-Achse bestimmen (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 4.11 Schnittwinkel eines Graphen mit einer waagerechten Geraden über die Ableitung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.12 Steigungswinkel einer Tangente berechnen und Aussage über den Schnittwinkel mit einer Geraden prüfen (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
 - 4.13 Steigungswinkel und y-Achsenabschnitt der Wendetangente berechnen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
 - 4.14 Ursprungsgerade durch einen Graphenpunkt als Winkelhalbierende zwischen x-Achse und Tangente bestimmen (1) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 4.15 Rechenschritte zur Winkelbestimmung aus Höhen- und Horizontalabstand beurteilen und berichtigen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 4.16 Steigungswinkel und Nebenwinkel am Übergang zweier Profilstücke einzeichnen und im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.17 Fehler finden (die Anstiege statt der Steigungswinkel voneinander abgezogen; den Winkel gegen die falsche Bezugslinie angegeben; den Rechner im Bogenmaß gelassen; nur den halben Winkel mit der Vorgabe verglichen; den Winkel als Steigung angegeben) → didaktischer Typ, kein Prüfungstyp
-- 4.18 Begründen (warum tan α = m die Steigung in einen Winkel übersetzt; warum senkrechter Schnitt das Produkt der Steigungen minus eins bedeutet) → didaktischer Typ, kein Prüfungstyp
+- 4.16 Steigungswinkel einer Tangente als größten Kippwinkel im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.17 Steigungswinkel und Nebenwinkel am Übergang zweier Profilstücke einzeichnen und im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.18 Fehler finden (die Anstiege statt der Steigungswinkel voneinander abgezogen; den Winkel gegen die falsche Bezugslinie angegeben; den Rechner im Bogenmaß gelassen; nur den halben Winkel mit der Vorgabe verglichen; den Winkel als Steigung angegeben) → didaktischer Typ, kein Prüfungstyp
+- 4.19 Begründen (warum tan α = m die Steigung in einen Winkel übersetzt; warum senkrechter Schnitt das Produkt der Steigungen minus eins bedeutet) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 5 · Dreiecke und Figuren aus Tangente, Normale und Achsen** – Abitur-Jahrgänge GK 6 von 9 (Haupt 5) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 2 von 8 (Haupt 1).
 
-- 5.1 Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen (3) → wortgleich; GK 2 (2017, 2026), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
+- 5.1 Flächeninhalt oder Umfang des Dreiecks aus Tangente und Koordinatenachsen berechnen (4) → wortgleich; GK 2 (2017, 2026), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
 - 5.2 Berührpunkt der Tangente mit gleichschenkligem Achsendreieck über die Steigung −1 berechnen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 5.3 Flächeninhalt des Dreiecks aus Tangente, Gerade und x-Achse berechnen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
 - 5.4 Umfang des Achsendreiecks einer Tangente berechnen und Umkreismittelpunkt angeben (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
@@ -3826,31 +3838,32 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.3 Fehler finden (die Nebenbedingung nach der falschen Variablen umgestellt; den Umfang als einfache statt doppelte Summe angesetzt; das Material auf vier statt drei Seiten verteilt; den Faktor ein halb der Dreiecksfläche im Term verloren) → didaktischer Typ, kein Prüfungstyp
 - 2.4 Begründen (warum die Zielfunktion nur noch eine Variable haben darf; warum der Definitionsbereich zur Figur gehört) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Maximum bestimmen und deuten** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 3 von 8 (Haupt 3).
+**Einheit 3 · Maximum bestimmen und deuten** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 3 von 8 (Haupt 3).
 
 - 3.1 Maximum der Zielfunktion bestimmen (3) → wortgleich; GK 0 · LK 0 · FHR 3 (2020, 2023, 2025), Haupt 3
-- 3.2 Parameter für den größten Flächeninhalt über die Ableitung bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.2 Parameter für den größten Flächeninhalt über die Ableitung bestimmen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.3 Achsenparalleles Rechteck maximaler Fläche zwischen Ursprung und Graphenpunkt bestimmen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 3.4 Maximalen vertikalen Abstand zweier Graphen über die Differenzfunktion nachweisen (4) → wortgleich; GK 4 (2018, 2020, 2021, 2024), Haupt 4 · LK 0 · FHR 0
-- 3.5 Ausschluss einer Stelle als Maximalstelle einer Rechtecksfläche über die notwendige Bedingung nachweisen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 3.6 Aufgabenstellung zu einer Extremwertaufgabe mit Dreiecksfläche aus dem Lösungsweg formulieren und Schritte erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Fehler finden (die Lösung außerhalb des Definitionsbereichs verwendet; die Extremstelle statt des Extremwerts angegeben; das Minimum der Differenz als Maximalstelle genommen; die hinreichende Bedingung vergessen; f' statt A' betrachtet) → didaktischer Typ, kein Prüfungstyp
-- 3.8 Begründen (warum am Rand die Figur entartet und das größte Exemplar im Inneren liegt; warum der vertikale Abstand die Differenz der Funktionswerte ist) → didaktischer Typ, kein Prüfungstyp
+- 3.4 Kleinsten Abstand eines Punktes zu einem Graphen über die Abstandsfunktion bestimmen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 3.5 Maximalen vertikalen Abstand zweier Graphen über die Differenzfunktion nachweisen (4) → wortgleich; GK 4 (2018, 2020, 2021, 2024), Haupt 4 · LK 0 · FHR 0
+- 3.6 Ausschluss einer Stelle als Maximalstelle einer Rechtecksfläche über die notwendige Bedingung nachweisen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 3.7 Aufgabenstellung zu einer Extremwertaufgabe mit Dreiecksfläche aus dem Lösungsweg formulieren und Schritte erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.8 Fehler finden (die Lösung außerhalb des Definitionsbereichs verwendet; die Extremstelle statt des Extremwerts angegeben; das Minimum der Differenz als Maximalstelle genommen; die hinreichende Bedingung vergessen; f' statt A' betrachtet) → didaktischer Typ, kein Prüfungstyp
+- 3.9 Begründen (warum am Rand die Figur entartet und das größte Exemplar im Inneren liegt; warum der vertikale Abstand die Differenz der Funktionswerte ist) → didaktischer Typ, kein Prüfungstyp
 
 ### funktionsklassen-und-eigenschaften
 
 **Einheit 1 · Funktionswert und Punkt** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 8 von 8 (Haupt 5).
 
 - 1.1 Nullstellen und Werte: Funktionswert im Sachzusammenhang berechnen (12) → wortgleich; GK 2 (2019, 2026), Haupt 2 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.2 Nullstellen und Werte: Vertikalen Abstand zweier Punkte als Differenz von Funktionswerten berechnen (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 1 (2023), Haupt 1 · FHR 0
-- 1.3 Nullstellen und Werte: Zurückgelegten Weg aus Hin- und Rückbewegung über Funktionswerte berechnen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 1.4 Nullstellen und Werte: Anfangswert eines Bestands als Funktionswert an der Stelle null berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.5 Nullstellen und Werte: Ausdehnung einer Figur in x-Richtung aus der Ausdehnung in y-Richtung über Funktionswerte ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.6 Nullstellen und Werte: Bereich mit Funktionswerten über einer Schranke aus dem Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.7 Nullstellen und Werte: Funktionswert und Änderungsbeträge zweier Zeitabschnitte im Sachzusammenhang vergleichen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.8 Nullstellen und Werte: Gleichheit zweier Sachgrößen als Bedingung an den Funktionswert übersetzen und Stelle am Graphen ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.9 Nullstellen und Werte: Höhen an den Rändern einer Profillinie als Funktionswerte berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.10 Nullstellen und Werte: Länge der Verbindungsstrecke zweier Graphenpunkte als Näherung der Bogenlänge berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.2 Nullstellen und Werte: Höhen an den Rändern einer Profillinie als Funktionswerte berechnen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.3 Nullstellen und Werte: Länge der Verbindungsstrecke zweier Graphenpunkte als Näherung der Bogenlänge berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.4 Nullstellen und Werte: Vertikalen Abstand zweier Punkte als Differenz von Funktionswerten berechnen (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 1 (2023), Haupt 1 · FHR 0
+- 1.5 Nullstellen und Werte: Zurückgelegten Weg aus Hin- und Rückbewegung über Funktionswerte berechnen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 1.6 Nullstellen und Werte: Anfangswert eines Bestands als Funktionswert an der Stelle null berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.7 Nullstellen und Werte: Ausdehnung einer Figur in x-Richtung aus der Ausdehnung in y-Richtung über Funktionswerte ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.8 Nullstellen und Werte: Bereich mit Funktionswerten über einer Schranke aus dem Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.9 Nullstellen und Werte: Funktionswert und Änderungsbeträge zweier Zeitabschnitte im Sachzusammenhang vergleichen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.10 Nullstellen und Werte: Gleichheit zweier Sachgrößen als Bedingung an den Funktionswert übersetzen und Stelle am Graphen ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.11 Nullstellen und Werte: Prozentuale Abweichung eines Modellwerts vom Messwert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.12 Nullstellen und Werte: Wert einer Funktion berechnen und die zugehörige Stelle einer zweiten Funktion am Graphen ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.13 Nullstellen und Werte: y-Achsenabschnitt einer Geraden durch einen festen Punkt als Term in der Steigung angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3864,21 +3877,25 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.21 Nullstellen und Werte: Schnittpunkt mit der y-Achse und Steigung des Graphen dort angeben (2) → wortgleich; GK 1 (2018), Haupt 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 1.22 Nullstellen und Werte: Schnittstellen zweier Graphen im Sachzusammenhang ablesen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.23 Nullstellen und Werte: Stelle zu einem vorgegebenen Funktionswert am Graphen ablesen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.24 Nullstellen und Werte: Aussage zur Modellgüte über die Summe vorzeichenbehafteter Abweichungen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.25 Nullstellen und Werte: Stelle zu einem Funktionswert am Graphen im Sachzusammenhang ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.26 Nullstellen und Werte: Summe von Funktionswerten mit Maßstab als Gesamtlänge im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.27 Nullstellen und Werte: Tiefstelle und Stelle zu einem Funktionswert am Graphen im Sachzusammenhang ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.28 Nullstellen und Werte: Ungleichung für einen Funktionswert im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.29 Fehler finden (den Wert am falschen Graphen abgelesen; die Achsen beim Ablesen vertauscht; die Einheit der Achse übersehen; den Maßstab vergessen; e als Variable behandelt und die Gleichung lösen wollen) → didaktischer Typ, kein Prüfungstyp
-- 1.30 Begründen (warum ein Punkt auf dem Graphen „f von Stelle gleich Wert“ bedeutet; warum der Anfangswert der Funktionswert an der Stelle null ist) → didaktischer Typ, kein Prüfungstyp
+- 1.24 Nullstellen und Werte: Stelle zu einem Funktionswert am Graphen im Sachzusammenhang ablesen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.25 Nullstellen und Werte: Aussage zur Modellgüte über die Summe vorzeichenbehafteter Abweichungen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.26 Nullstellen und Werte: Differenz zweier Funktionswerte als Abstand im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.27 Nullstellen und Werte: Funktionswert an einer Stelle am Graphen im Sachzusammenhang ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.28 Nullstellen und Werte: Summe von Funktionswerten mit Maßstab als Gesamtlänge im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.29 Nullstellen und Werte: Tiefstelle und Stelle zu einem Funktionswert am Graphen im Sachzusammenhang ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.30 Nullstellen und Werte: Ungleichung für einen Funktionswert im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.31 Nullstellen und Werte: Verfahren zur beliebig genauen Näherung einer Kurvenlänge über verfeinerte Streckenzüge beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.32 Nullstellen und Werte: Werte a mit vorgegebener Lösungsanzahl von f(x) = a über die lokalen Extremwerte am Graphen angeben (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.33 Fehler finden (den Wert am falschen Graphen abgelesen; die Achsen beim Ablesen vertauscht; die Einheit der Achse übersehen; den Maßstab vergessen; e als Variable behandelt und die Gleichung lösen wollen) → didaktischer Typ, kein Prüfungstyp
+- 1.34 Begründen (warum ein Punkt auf dem Graphen „f von Stelle gleich Wert“ bedeutet; warum der Anfangswert der Funktionswert an der Stelle null ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Nullstellen** – Abitur-Jahrgänge GK 7 von 9 (Haupt 6) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 2.1 Nullstellen über Substitution biquadratisch (5) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2022, 2023, 2026), Haupt 5
-- 2.2 Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben (3) → wortgleich; GK 4 (2017, 2020, 2021, 2024), Haupt 4 · LK 0 · FHR 0
-- 2.3 Nullstellen durch Ausklammern (2) → wortgleich; GK 0 · LK 0 · FHR 5 (2019, 2023, 2024, 2025, 2026), Haupt 2
-- 2.4 Nullstellen mit Polynomdivision (2) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2021, 2022, 2023, 2024, 2025, 2026), Haupt 2
-- 2.5 Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen (2) → wortgleich; GK 3 (2021, 2022, 2025), Haupt 2 · LK 0 · FHR 0
+- 2.2 Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben (4) → wortgleich; GK 4 (2017, 2020, 2021, 2024), Haupt 4 · LK 0 · FHR 0
+- 2.3 Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen (4) → wortgleich; GK 3 (2021, 2022, 2025), Haupt 2 · LK 0 · FHR 0
+- 2.4 Nullstellen durch Ausklammern (2) → wortgleich; GK 0 · LK 0 · FHR 5 (2019, 2023, 2024, 2025, 2026), Haupt 2
+- 2.5 Nullstellen mit Polynomdivision (2) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2021, 2022, 2023, 2024, 2025, 2026), Haupt 2
 - 2.6 Nullstellen einer quadratischen Funktion mit Lösungsformel (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2023, 2024), Haupt 1
 - 2.7 Nullstellen einer quadratischen Funktion über Wurzelziehen (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2023, 2024), Haupt 1
 - 2.8 Nullstellen und Werte: Gesamtlänge aus einer Nullstelle und der Achsensymmetrie im Sachzusammenhang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3898,7 +3915,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 3 · Definitionsbereich, Wertemenge und Schranken: den größtmöglichen Definitionsbereich einer Logarithmusfunktion aus der Bedingung Argument größer null, auch mit Parameter; Wertemengen am Term ablesen (e-Funktion positiv und nie null, Sinus zwischen minus eins und plus eins, Quadrat ab null), bei Verkettungen von innen nach außen; Schranken über das Vorzeichen des e-Terms begründen (der Grenzwert wird nicht angenommen); Werte und ihre Häufigkeit auf einer Periode; Abschätzungen gegen die x-Achse. (Q1, GK-Kern „Definitions- und Wertebereich“; LK-Zusatz ln als Funktionsklasse; FOS „Funktionsbegriff“ mit „Definitions- und Wertebereich“, ohne eigene fhr-Zeile; OHiMi 2.2 „Definitionsbereich, Wertebereich“) ← Eingabe „definitionsbereich“, „wertemenge“, „wertebereich“, „schranke“, „nie null“** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 3.1 Nullstellen und Werte: Definitionsbereich einer Logarithmusfunktion angeben (2) → wortgleich; GK 0 · LK 2 (2017, 2023), Haupt 2 · FHR 0
+- 3.1 Nullstellen und Werte: Definitionsbereich einer Logarithmusfunktion angeben (3) → wortgleich; GK 0 · LK 2 (2017, 2023), Haupt 2 · FHR 0
 - 3.2 Nullstellen und Werte: Nullstellenfreiheit und Wertemenge einer e-Funktion aus dem Term begründen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2017), Haupt 0 · FHR 0
 - 3.3 Nullstellen und Werte: Einhalten einer Schranke über das Vorzeichen des e-Terms begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.4 Nullstellen und Werte: Minimalwert einer verschobenen Sinusfunktion begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3911,16 +3928,17 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 4 · Symmetrie** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 5 von 7 (Haupt 4) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 4.1 Symmetrie: Höhe einer waagerechten Sekante aus dem Abstand ihrer Schnittpunkte über die Symmetrie bestimmen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
-- 4.2 Symmetrie: Symmetrieart am Term über die Exponenten begründen (11) → wortgleich; GK 2 (2024, 2025), Haupt 2 · LK 4 (2017, 2018, 2022, 2024), Haupt 3 · FHR 0
+- 4.2 Symmetrie: Symmetrieart am Term über die Exponenten begründen (14) → wortgleich; GK 2 (2024, 2025), Haupt 2 · LK 4 (2017, 2018, 2022, 2024), Haupt 3 · FHR 0
 - 4.3 Symmetrie am Funktionsterm beurteilen (7) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 8
 - 4.4 Symmetrie: Fehlende Punktsymmetrie aus der Wertemenge begründen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 4.5 Symmetrie: Punktsymmetrie zum Wendepunkt über die Verschiebung einer ungeraden Funktion begründen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.6 Symmetrie: Punktsymmetrie über f(−x) = −f(x) nachweisen, eindeutige Nullstelle begründen und Grenzwert angeben (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 4.7 Symmetrie: Symmetrie eines Produkts symmetrischer Funktionen allgemein nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.8 Symmetrie: Weiteren Wendepunkt über die Punktsymmetrie ohne Rechnung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.9 Symmetrie: Weiteren Extrempunkt aus der Symmetrie des Graphen angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.10 Fehler finden (das Absolutglied als ungeraden Summanden gewertet; einen Term mit gemischten Exponenten für symmetrisch erklärt; die Symmetrie nur am Bild abgelesen oder nur behauptet; f(−x) = −f(x) nur an einem Beispiel geprüft) → didaktischer Typ, kein Prüfungstyp
-- 4.11 Begründen (warum das Absolutglied als gerader Exponent zählt; warum bei Punktsymmetrie mit jedem Wert auch sein Gegenwert angenommen wird) → didaktischer Typ, kein Prüfungstyp
+- 4.8 Symmetrie: Termformen für einen abgebildeten Graphen über Symmetrie und Zahl der Wendepunkte ausschließen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.9 Symmetrie: Weiteren Wendepunkt über die Punktsymmetrie ohne Rechnung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.10 Symmetrie: Weiteren Extrempunkt aus der Symmetrie des Graphen angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.11 Fehler finden (das Absolutglied als ungeraden Summanden gewertet; einen Term mit gemischten Exponenten für symmetrisch erklärt; die Symmetrie nur am Bild abgelesen oder nur behauptet; f(−x) = −f(x) nur an einem Beispiel geprüft) → didaktischer Typ, kein Prüfungstyp
+- 4.12 Begründen (warum das Absolutglied als gerader Exponent zählt; warum bei Punktsymmetrie mit jedem Wert auch sein Gegenwert angenommen wird) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 5 · Transformationen** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -3933,13 +3951,13 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 5.7 Transformation: Streckfaktor und Verschiebung aus zwei Termen durch Koeffizientenvergleich ermitteln und die Abbildung beschreiben (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
 - 5.8 Transformation: Streckfaktoren aus der Zuordnung zweier Punkte deuten und berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.9 Transformation: Verschiebung einer Geraden aus dem Abstand der parallelen Geraden über das Steigungsdreieck ermitteln (1) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
-- 5.10 Transformation: Graph eines in y-Richtung gestreckten Scharmitglieds begründen und skizzieren (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.10 Transformation: Graph eines in y-Richtung gestreckten Scharmitglieds begründen und skizzieren (4) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.11 Transformation: Verschiebung einer Exponentialfunktion als Streckung nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.12 Transformation: Wertemenge einer transformierten Funktion begründen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 5.13 Transformation: Anzahl verschiedener Ergebnisse bei vertauschter Reihenfolge von Spiegelung und Verschiebungen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.14 Transformation: Bild des Graphen unter Spiegelung, Streckung und Verschiebung als Ableitungsgraph nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.15 Transformation: Um 90° gedrehte Gerade und Bildpunkt einer Drehung um den Ursprung angeben (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 5.16 Transformation: Abbildung zwischen zwei Graphen angeben (8) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
+- 5.16 Transformation: Abbildung zwischen zwei Graphen angeben (10) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
 - 5.17 Transformation: Aussage über eine Verschiebung zwischen zwei Graphen beurteilen (2) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
 - 5.18 Transformation: Graphen einer periodischen Funktion mit vorgegebenem Maximum und Periode skizzieren (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 5.19 Transformation: Verschobenen Graphen in die Abbildung skizzieren (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -3960,45 +3978,48 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 6.2 Extrempunkte: Flächeninhalt eines Dreiecks aus Extrempunkten der Sinusfunktion berechnen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
 - 6.3 Extrempunkte: Abstand von Extrempunkten einer gestreckten Sinusfunktion vergleichen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
 - 6.4 Extrempunkte: Existenz eines Hochpunkts aus dem Grad und einem Tiefpunkt begründen und Koordinaten angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.5 Extrempunkte: Gerade durch die Hochpunkte einer Kosinusfunktion begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.6 Nullstellen und Werte: Geradengleichung aus der Abbildung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.7 Graph ganzrationaler Funktion im Intervall zeichnen (13) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 8
-- 6.8 Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen (3) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 6.9 Extrempunkte: Hochpunkt aus dem Graphen ablesen und im Sachzusammenhang deuten (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.10 Funktionswert am Graphen ablesen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 2 (2024, 2025), Haupt 2
-- 6.11 Graph einer ganzrationalen Funktion zuordnen (2) → wortgleich; GK 0 · LK 0 · FHR 2 (2022, 2026), Haupt 2
-- 6.12 Grad einer Funktion am Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 1 (2024), Haupt 1
-- 6.13 Koordinatenachsen in eine Abbildung einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2022, 2024), Haupt 1
-- 6.14 Nullstellen und Werte: Aussage über die Achsenskalierung einer Abbildung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.15 Nullstellen und Werte: Zeitliche Entwicklung eines Bestands über ein Intervall grafisch darstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.16 Fehler finden (beide Achsen gleich eingeteilt und den Graphen nicht aufs Blatt gebracht; die Randwerte nicht berechnet und den Graphen auslaufen lassen; beim Zuordnen nur die Form verglichen oder nur ein Merkmal geprüft; den Grad aus der Zahl der Nullstellen statt der Extrempunkte geschlossen; bei negativen Stellen das Vorzeichen der dritten Potenz verloren) → didaktischer Typ, kein Prüfungstyp
-- 6.17 Begründen (warum eine Funktion mit drei Extrempunkten mindestens vierten Grades ist; warum ein einzelner berechneter Punkt die Achsenskalierung prüft) → didaktischer Typ, kein Prüfungstyp
+- 6.5 Extrempunkte: Fehlen weiterer Extrempunkte über die Höchstzahl nach dem Grad begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 6.6 Extrempunkte: Gerade durch die Hochpunkte einer Kosinusfunktion begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 6.7 Nullstellen und Werte: Geradengleichung aus der Abbildung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 6.8 Graph ganzrationaler Funktion im Intervall zeichnen (13) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 8
+- 6.9 Nullstellen und Werte: Passenden Graphen zu einem Funktionsterm über Funktionswerte auswählen (3) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 6.10 Extrempunkte: Hochpunkt aus dem Graphen ablesen und im Sachzusammenhang deuten (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 6.11 Funktionswert am Graphen ablesen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 2 (2024, 2025), Haupt 2
+- 6.12 Graph einer ganzrationalen Funktion zuordnen (2) → wortgleich; GK 0 · LK 0 · FHR 2 (2022, 2026), Haupt 2
+- 6.13 Grad einer Funktion am Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 1 (2024), Haupt 1
+- 6.14 Koordinatenachsen in eine Abbildung einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2022, 2024), Haupt 1
+- 6.15 Nullstellen und Werte: Aussage über die Achsenskalierung einer Abbildung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 6.16 Nullstellen und Werte: Zeitliche Entwicklung eines Bestands über ein Intervall grafisch darstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 6.17 Fehler finden (beide Achsen gleich eingeteilt und den Graphen nicht aufs Blatt gebracht; die Randwerte nicht berechnet und den Graphen auslaufen lassen; beim Zuordnen nur die Form verglichen oder nur ein Merkmal geprüft; den Grad aus der Zahl der Nullstellen statt der Extrempunkte geschlossen; bei negativen Stellen das Vorzeichen der dritten Potenz verloren) → didaktischer Typ, kein Prüfungstyp
+- 6.18 Begründen (warum eine Funktion mit drei Extrempunkten mindestens vierten Grades ist; warum ein einzelner berechneter Punkt die Achsenskalierung prüft) → didaktischer Typ, kein Prüfungstyp
 
 ### funktionsscharen-und-ortskurven
 
 **Einheit 1 · Scharbegriff und Parameterwert** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 5 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 1.1 Scharparameter aus einem Punkt des Graphen angeben (10) → wortgleich; GK 0 · LK 4 (2017, 2018, 2022, 2024), Haupt 2 · FHR 0
+- 1.1 Scharparameter aus einem Punkt des Graphen angeben (12) → wortgleich; GK 0 · LK 4 (2017, 2018, 2022, 2024), Haupt 2 · FHR 0
 - 1.2 Parameter einer Schar aus einer vorgegebenen Ausdehnung einer Figur bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.3 Scharparameter aus Anfangswert und Grenzwert über das Vorzeichen des Exponenten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Scharparameter aus der Differenz zweier Scharfunktionswerte über eine Potenzgleichung bestimmen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 1.5 Scharparameter aus der Weite berechnen und Höhe des Hochpunkts angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.6 Graph der Schar zum Parametervorzeichen über das Grenzverhalten zuordnen (4) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.7 Steigung und Achsenschnittpunkt des linearen Sonderfalls einer Schar angeben (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 1.8 Einfluss eines additiven Scharparameters auf den Graphen beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.9 Einfluss eines multiplikativen Parameters auf den Graphen im Vergleich mit dem Ausgangsgraphen beschreiben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
-- 1.10 Gleichungen eines Bestimmungssystems für Scharparameter im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.11 Graph der Schar zu einem Parameterwert in die Abbildung skizzieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.12 Scharparameter den Graphen über Spiegelung und Extremstelle zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.13 Scharparameter den Graphen über den y-Achsenabschnitt zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.14 Scharparameter der Ausgangsfunktion angeben und Eignung zweier Scharfunktionen am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.15 Fehler finden (den Parameter als Variable behandelt und nach x aufgelöst; das Vorzeichen im Exponenten beim Vergleich verloren; die Zuordnung an der Form statt an einem parameterabhängigen Merkmal festgemacht) → didaktischer Typ, kein Prüfungstyp
-- 1.16 Begründen (warum ein Parameterwert genau einen Graphen liefert; warum der y-Achsenabschnitt die Kurven ordnet) → didaktischer Typ, kein Prüfungstyp
+- 1.7 Graph der Schar zu einem Parameterwert in die Abbildung skizzieren (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.8 Scharparameter den Graphen über die Lage der Hochpunkte zuordnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.9 Steigung und Achsenschnittpunkt des linearen Sonderfalls einer Schar angeben (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 1.10 Einfluss eines additiven Scharparameters auf den Graphen beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.11 Einfluss eines multiplikativen Parameters auf den Graphen im Vergleich mit dem Ausgangsgraphen beschreiben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 1.12 Gleichungen eines Bestimmungssystems für Scharparameter im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.13 Graphen einer Scharfunktion und ihrer in y-Richtung verschobenen Fassung zuordnen und Parameter und Verschiebung bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.14 Scharparameter den Graphen über Spiegelung und Extremstelle zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.15 Scharparameter den Graphen über den y-Achsenabschnitt zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.16 Scharparameter der Ausgangsfunktion angeben und Eignung zweier Scharfunktionen am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.17 Fehler finden (den Parameter als Variable behandelt und nach x aufgelöst; das Vorzeichen im Exponenten beim Vergleich verloren; die Zuordnung an der Form statt an einem parameterabhängigen Merkmal festgemacht) → didaktischer Typ, kein Prüfungstyp
+- 1.18 Begründen (warum ein Parameterwert genau einen Graphen liefert; warum der y-Achsenabschnitt die Kurven ordnet) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Eigenschaften aller Graphen am Term** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 7 von 7 (Haupt 6) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 2 · Eigenschaften aller Graphen am Term** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 7 von 7 (Haupt 7) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 2.1 Gemeinsame Punkte aller Graphen einer Schar bestimmen (3) → wortgleich; GK 0 · LK 3 (2017, 2024, 2026), Haupt 1 · FHR 0
-- 2.2 Nullstellen einer Funktionenschar mit Fallunterscheidung ermitteln (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 2.2 Nullstellen einer Funktionenschar mit Fallunterscheidung ermitteln (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 2.3 Anzahl der Nullstellen einer Schar in Abhängigkeit vom Parameter über die Diskriminante ermitteln (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
 - 2.4 Genau zwei Nullstellen einer Schar aus der faktorisierten Form begründen und angeben (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
 - 2.5 Grenzverhalten einer Potenzschar nach der Parität des Exponenten begründen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
@@ -4006,59 +4027,64 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.7 Gleiche Steigung aller Graphen einer Schar im Ursprung nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.8 Gleichung zwischen Scharparameter und Nullstelle aus der Nullstellenbedingung herleiten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.9 Grenzverhalten einer Schar angeben und parameterunabhängigen Funktionswert nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.10 Nullstellen einer Schar am Term begründen und Tangentensteigungen dort nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.11 Nullstellen einer Schar angeben und Vorzeichen des y-Achsenabschnitts begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.12 Positivität, y-Achsenabschnitt und Steigung einer Schar begründen und berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.13 Punktsymmetrie aller Graphen einer Schar zum Ursprung nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.14 Punktsymmetrie aller Scharkurven und gemeinsame Tangente im Ursprung nachweisen (1) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
-- 2.15 Symmetrieachse einer Scharkurve aus der Verschiebung einer geraden Funktion begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.16 Tangente im y-Achsenschnittpunkt aufstellen und als gemeinsame Tangente aller Scharkurven begründen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 2.17 Verschobene Scharfunktion als gerade Funktion nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.18 Vorzeichen aller Funktionswerte einer Schar am Term begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.19 Folgerungen aus gemeinsamen Eigenschaften einer Schar für den Verlauf der Graphen angeben (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 2.20 Grenzverhalten einer Schar für x → +∞ nach dem Parametervorzeichen angeben (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 2.21 Nullstellen einer Schar am faktorisierten Term angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.22 Fehler finden (den e-Faktor oder den Nenner als Nullstellenquelle behandelt; die Fallunterscheidung auf zwei Fälle verkürzt und den Sonderfall null vergessen; die Symmetrie nur für einen Parameterwert geprüft) → didaktischer Typ, kein Prüfungstyp
-- 2.23 Begründen (warum an einem gemeinsamen Punkt der Parameter herausfällt; warum der Sonderfall Parameter null eigens zu prüfen ist) → didaktischer Typ, kein Prüfungstyp
+- 2.10 Identische Graphen einer Schar zu entgegengesetzten Parameterwerten begründen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.11 Nullstellen einer Schar am Term begründen und Tangentensteigungen dort nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.12 Nullstellen einer Schar angeben und Vorzeichen des y-Achsenabschnitts begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.13 Positivität, y-Achsenabschnitt und Steigung einer Schar begründen und berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.14 Punktsymmetrie aller Graphen einer Schar zum Ursprung nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.15 Punktsymmetrie aller Scharkurven und gemeinsame Tangente im Ursprung nachweisen (1) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
+- 2.16 Symmetrieachse einer Scharkurve aus der Verschiebung einer geraden Funktion begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.17 Tangente im y-Achsenschnittpunkt aufstellen und als gemeinsame Tangente aller Scharkurven begründen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 2.18 Verschobene Scharfunktion als gerade Funktion nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.19 Vorzeichen aller Funktionswerte einer Schar am Term begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.20 Folgerungen aus gemeinsamen Eigenschaften einer Schar für den Verlauf der Graphen angeben (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 2.21 Grenzverhalten einer Schar für x → +∞ nach dem Parametervorzeichen angeben (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 2.22 Nullstellen einer Schar am faktorisierten Term angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.23 Fehler finden (den e-Faktor oder den Nenner als Nullstellenquelle behandelt; die Fallunterscheidung auf zwei Fälle verkürzt und den Sonderfall null vergessen; die Symmetrie nur für einen Parameterwert geprüft) → didaktischer Typ, kein Prüfungstyp
+- 2.24 Begründen (warum an einem gemeinsamen Punkt der Parameter herausfällt; warum der Sonderfall Parameter null eigens zu prüfen ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Extrem- und Wendepunkte mit Parameter** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 7 von 7 (Haupt 7) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Abstand des Hochpunkts zu den Tiefpunkten einer Schar in Abhängigkeit vom Parameter berechnen (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.2 Scharparameter aus einem Punkt bestimmen und Wendepunkt nachweisen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
-- 3.3 Einzigen Extrempunkt einer Schar mit vorgegebener x-Koordinate nachweisen und y-Koordinate berechnen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.4 Extrempunkt einer Schar mit Art nach dem Parametervorzeichen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Hochpunkt einer Schar mit Parameterfaktor bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Hochpunkt im Ursprung über das Vorzeichen begründen und Tiefstelle einer Schar berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Lage und Art der Extrempunkte einer Schar bestimmen und Parameter für einen vorgegebenen Abstand der Extrempunkte berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.8 Parameterwert für genau eine waagerechte Tangente bestimmen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
-- 3.9 Parameterwerte nach der Anzahl der Extrempunkte über die Lösbarkeit der Extremstellengleichung begründen (4) → wortgleich; GK 0 · LK 3 (2018, 2022, 2026), Haupt 3 · FHR 0
-- 3.10 Gemeinsamen Extrempunkt einer Funktionenschar nachweisen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 3.11 Hochpunkt einer Parabelschar mit Parameterkoordinaten nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.12 Tiefpunkt einer Schar mit zwei Parametern nachweisen und Hochpunkt über die Punktsymmetrie begründen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 3.13 Ableitung einer Schar als Vielfaches der Ableitung eines Scharmitglieds nachweisen (1) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.14 Ableitung einer Schar nachweisen und zusammenhängenden Monotoniebereich ohne Rechnung begründen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.15 Einzigen Wendepunkt einer Schar nachweisen und angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.16 Extrempunkte aller Scharkurven aus dem Ableitungsgraphen eines Scharmitglieds ohne Rechnung begründen (1) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.17 Gemeinsamen und parameterabhängigen Wendepunkt einer Schar nachweisen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 3.18 Konstanten Abstand von Extrem- und Wendestelle einer Schar nachweisen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.19 Parameterwerte mit waagerechter Tangente über die Lösbarkeit der Ableitungsgleichung untersuchen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 3.20 Strenge Monotonie einer Schar über die Diskriminante der Ableitung für einen Parameterbereich nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.21 Tiefpunkt oder Sattelpunkt nach der Parität des Exponenten unterscheiden (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.22 Waagerechte Tangente aller Scharkurven in einem gemeinsamen Punkt nachweisen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.23 Wendepunkt einer Schar im Ursprung mit der x-Achse als Wendetangente nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.24 Eignung der Scharfunktionen über die Lage einer dritten Extremstelle beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.25 Nullstellenfreiheit aller Scharkurven aus dem gemeinsamen Tiefpunktwert beurteilen (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 3.26 Scharparameter für genau eine Nullstelle über die Lage der Extrempunkte angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.27 Scharparameter für genau eine waagerechte Tangente aus dem Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.28 Fehler finden (die hinreichende Bedingung weggelassen oder nur an einem Beispiel geführt; beim Ableiten den Parameterterm falsch behandelt; die Sattelstelle als Extremstelle mitgezählt) → didaktischer Typ, kein Prüfungstyp
-- 3.29 Begründen (warum die Anzahl der Extrempunkte an der Lösbarkeit einer Gleichung hängt; warum eine parameterfreie Nullstelle der Ableitung allen Graphen gehört) → didaktischer Typ, kein Prüfungstyp
+- 3.2 Extrempunkt einer Schar mit Art nach dem Parametervorzeichen bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.3 Extrempunkte einer Schar mit Art in Abhängigkeit vom Parameter bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.4 Parameterwert für genau eine waagerechte Tangente bestimmen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 3.5 Scharparameter aus einem Punkt bestimmen und Wendepunkt nachweisen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
+- 3.6 Anzahl gemeinsamer Punkte einer Schar mit einer waagerechten Geraden über die Höhe der Hochpunkte nach Parameterbereichen angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.7 Einzigen Extrempunkt einer Schar mit vorgegebener x-Koordinate nachweisen und y-Koordinate berechnen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.8 Hochpunkt einer Schar mit Parameterfaktor bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.9 Hochpunkt im Ursprung über das Vorzeichen begründen und Tiefstelle einer Schar berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.10 Lage und Art der Extrempunkte einer Schar bestimmen und Parameter für einen vorgegebenen Abstand der Extrempunkte berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.11 Scharparameter aus dem Abstand der Extremstellen berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.12 Parameterwerte nach der Anzahl der Extrempunkte über die Lösbarkeit der Extremstellengleichung begründen (5) → wortgleich; GK 0 · LK 3 (2018, 2022, 2026), Haupt 3 · FHR 0
+- 3.13 Gemeinsamen Extrempunkt einer Funktionenschar nachweisen (4) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 3.14 Hochpunkt einer Parabelschar mit Parameterkoordinaten nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.15 Tiefpunkt einer Schar mit zwei Parametern nachweisen und Hochpunkt über die Punktsymmetrie begründen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 3.16 Ableitung einer Schar als Vielfaches der Ableitung eines Scharmitglieds nachweisen (1) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 3.17 Ableitung einer Schar nachweisen und zusammenhängenden Monotoniebereich ohne Rechnung begründen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.18 Einzigen Wendepunkt einer Schar nachweisen und angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.19 Extrempunkte aller Scharkurven aus dem Ableitungsgraphen eines Scharmitglieds ohne Rechnung begründen (1) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 3.20 Gemeinsamen und parameterabhängigen Wendepunkt einer Schar nachweisen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 3.21 Konstanten Abstand von Extrem- und Wendestelle einer Schar nachweisen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.22 Parameterwerte mit waagerechter Tangente über die Lösbarkeit der Ableitungsgleichung untersuchen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 3.23 Strenge Monotonie einer Schar über die Diskriminante der Ableitung für einen Parameterbereich nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.24 Tiefpunkt oder Sattelpunkt nach der Parität des Exponenten unterscheiden (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.25 Waagerechte Tangente aller Scharkurven in einem gemeinsamen Punkt nachweisen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.26 Wendepunkt einer Schar im Ursprung mit der x-Achse als Wendetangente nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.27 Eignung der Scharfunktionen über die Lage einer dritten Extremstelle beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.28 Extrempunkt einer trigonometrischen Schar ohne Ableitung über benachbarte Nullstellen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.29 Nullstellenfreiheit aller Scharkurven aus dem gemeinsamen Tiefpunktwert beurteilen (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 3.30 Scharparameter für genau eine Nullstelle über die Lage der Extrempunkte angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.31 Scharparameter für genau eine waagerechte Tangente aus dem Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.32 Fehler finden (die hinreichende Bedingung weggelassen oder nur an einem Beispiel geführt; beim Ableiten den Parameterterm falsch behandelt; die Sattelstelle als Extremstelle mitgezählt) → didaktischer Typ, kein Prüfungstyp
+- 3.33 Begründen (warum die Anzahl der Extrempunkte an der Lösbarkeit einer Gleichung hängt; warum eine parameterfreie Nullstelle der Ableitung allen Graphen gehört) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Parameter aus Bedingungen bestimmen** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Fläche zwischen Graph und x-Achse in Abhängigkeit vom Scharparameter berechnen (4) → wortgleich; GK 0 · LK 2 (2023, 2024), Haupt 2 · FHR 0
-- 4.2 Scharparameter aus einer Nullstelle und einem Flächeninhalt bestimmen (3) → wortgleich; GK 0 · LK 2 (2017, 2024), Haupt 2 · FHR 0
-- 4.3 Scharparameter aus der Flächengleichheit von Quadrat und Flächenstück bestimmen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 4.4 Scharparameter für einen vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.1 Fläche zwischen Graph und x-Achse in Abhängigkeit vom Scharparameter berechnen (5) → wortgleich; GK 0 · LK 2 (2023, 2024), Haupt 2 · FHR 0
+- 4.2 Scharparameter aus einer Nullstelle und einem Flächeninhalt bestimmen (4) → wortgleich; GK 0 · LK 2 (2017, 2024), Haupt 2 · FHR 0
+- 4.3 Scharparameter für einen vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen (4) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.4 Scharparameter aus der Flächengleichheit von Quadrat und Flächenstück bestimmen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 4.5 Scharparameter für eine vorgegebene Wendestelle berechnen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 4.6 Scharparameter für einen vorgegebenen Flächeninhalt eines Vierecks aus Hochpunkt und Achsenpunkten bestimmen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 4.7 Parameter einer Parabelschar aus dem knickfreien Übergang zu einem Graphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4071,13 +4097,12 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.14 Scharparameter für ein vorgegebenes Verhältnis zweier Radien einer Profilkurve berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.15 Scharparameter für einen Extrempunkt als Quadratecke bestimmen und Flächeninhalt berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.16 Scharparameter für einen Wendepunkt auf einer Geraden berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.17 Scharparameter für einen vorgegebenen Flächeninhalt zwischen Graph und x-Achse bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.18 Achsenschnittpunkte einer Schar bestimmen und Flächeninhalt des Achsendreiecks als Term im Parameter nachweisen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 4.19 Scharparameter für eine vorgegebene Tangente in einem Punkt untersuchen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 4.20 Vorzeichen der Stammfunktionen einer Schar durch Fallunterscheidung untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.21 Bedingungen für den sprungfreien Übergang von Funktionswert und Ableitung angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.22 Fehler finden (das Integral über einem Flächenstück unter der Achse positiv angesetzt; die Vorzeichenbedingung an den Parameter beim Sieben der Lösungen vergessen; die Parametergrenzen des Integrals als Zahlen behandelt) → didaktischer Typ, kein Prüfungstyp
-- 4.23 Begründen (warum die Bedingung eine Gleichung im Parameter liefert; warum knickfrei mehr verlangt als sprungfrei) → didaktischer Typ, kein Prüfungstyp
+- 4.17 Achsenschnittpunkte einer Schar bestimmen und Flächeninhalt des Achsendreiecks als Term im Parameter nachweisen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 4.18 Scharparameter für eine vorgegebene Tangente in einem Punkt untersuchen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 4.19 Vorzeichen der Stammfunktionen einer Schar durch Fallunterscheidung untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.20 Bedingungen für den sprungfreien Übergang von Funktionswert und Ableitung angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.21 Fehler finden (das Integral über einem Flächenstück unter der Achse positiv angesetzt; die Vorzeichenbedingung an den Parameter beim Sieben der Lösungen vergessen; die Parametergrenzen des Integrals als Zahlen behandelt) → didaktischer Typ, kein Prüfungstyp
+- 4.22 Begründen (warum die Bedingung eine Gleichung im Parameter liefert; warum knickfrei mehr verlangt als sprungfrei) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 5 · Ortskurve und Kurvenvergleich** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4087,18 +4112,19 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 5.4 Gemeinsamen Punkt von Scharkurve und ihrem Ableitungsgraphen in Abhängigkeit vom Parameter berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.5 Steigung der Ortsgeraden der Hochpunkte einer Schar aus zwei Hochpunkten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.6 Gleichmäßige Streckung eines Scharfgraphen als Graph einer anderen Scharfunktion nachweisen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 5.7 Mittelpunkte der Strecken zum Ursprung auf einem gegebenen Graphen allgemein nachweisen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 5.8 Ortskurve der Extrempunkte einer Schar als Gerade über Sonderfall und Streckungseigenschaft begründen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 5.9 Spiegelung an der x-Achse als Scharmitglied nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.10 Trapez aus Funktions- und Ableitungswerten einer Schar begründen und Flächengleichheit für k und k + 1 nachweisen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 5.11 Existenz von Scharparametern mit beliebig vielen Schnittstellen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.12 Parameterunabhängigkeit der Fläche zwischen zwei Scharkurven nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.13 Punktsymmetrie zweier Scharkurven zueinander aus einer Identität nachweisen und deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.14 Schnittwinkel von Scharkurve und Ortskurve als nur von der Ortskurve abhängig begründen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 5.15 Aussage über den Ableitungsgraphen einer Schar als Tangente an den Scharfgraphen beurteilen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 5.16 Parameter des Extrempunkts mit kleinstem Abstand zum Ursprung an der Ortskurve näherungsweise erläutern und angeben (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 5.17 Fehler finden (beim Eliminieren den Parameter statt der Variablen eingesetzt; die Ortskurve für einen einzelnen Parameterwert bestätigt und für bewiesen gehalten; den Abstand benachbarter Kurven nur in einer Richtung genommen) → didaktischer Typ, kein Prüfungstyp
-- 5.18 Begründen (warum die Elimination alle Extrempunkte zugleich erfasst; warum eine parameterfreie Differenz für alle Nachbarn gilt) → didaktischer Typ, kein Prüfungstyp
+- 5.7 Lage der Extrempunkte einer Schar auf einer gegebenen Kurve durch Einsetzen nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.8 Mittelpunkte der Strecken zum Ursprung auf einem gegebenen Graphen allgemein nachweisen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 5.9 Ortskurve der Extrempunkte einer Schar als Gerade über Sonderfall und Streckungseigenschaft begründen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 5.10 Spiegelung an der x-Achse als Scharmitglied nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.11 Trapez aus Funktions- und Ableitungswerten einer Schar begründen und Flächengleichheit für k und k + 1 nachweisen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 5.12 Existenz von Scharparametern mit beliebig vielen Schnittstellen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.13 Parameterunabhängigkeit der Fläche zwischen zwei Scharkurven nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.14 Punktsymmetrie zweier Scharkurven zueinander aus einer Identität nachweisen und deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.15 Schnittwinkel von Scharkurve und Ortskurve als nur von der Ortskurve abhängig begründen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 5.16 Aussage über den Ableitungsgraphen einer Schar als Tangente an den Scharfgraphen beurteilen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 5.17 Parameter des Extrempunkts mit kleinstem Abstand zum Ursprung an der Ortskurve näherungsweise erläutern und angeben (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 5.18 Fehler finden (beim Eliminieren den Parameter statt der Variablen eingesetzt; die Ortskurve für einen einzelnen Parameterwert bestätigt und für bewiesen gehalten; den Abstand benachbarter Kurven nur in einer Richtung genommen) → didaktischer Typ, kein Prüfungstyp
+- 5.19 Begründen (warum die Elimination alle Extrempunkte zugleich erfasst; warum eine parameterfreie Differenz für alle Nachbarn gilt) → didaktischer Typ, kein Prüfungstyp
 
 ### rekonstruktion-von-funktionsgleichungen
 
@@ -4106,7 +4132,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 1.1 Funktionsgleichung mit Symmetriebedingung über LGS (4) → wortgleich; GK 0 · LK 0 · FHR 5 (2020, 2021, 2023, 2025, 2026), Haupt 4
 - 1.2 Funktionsgleichung aus drei Punkten über LGS (3) → wortgleich; GK 0 · LK 0 · FHR 3 (2019, 2023, 2026), Haupt 3
-- 1.3 Parameter einer Linearkombination aus Funktion und Gerade aus zwei Punkten bestimmen (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 1.3 Zwei linear eingehende Parameter eines Funktionsterms aus zwei Punkten bestimmen (3) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
 - 1.4 Ganzrationale Funktion dritten Grades aus drei Nullstellen und einem Punkt rekonstruieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.5 Geradengleichung aus zwei Punkten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 1 (2022), Haupt 1
 - 1.6 Parameter einer Exponentialfunktion aus zwei Punkten des Graphen bestimmen (1) → wortgleich; GK 1 (2018), Haupt 0 · LK 0 · FHR 0
@@ -4118,9 +4144,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Bedingungen mit Ableitung** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 2 von 8 (Haupt 1).
 
-- 2.1 Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren (3) → wortgleich; GK 3 (2017, 2019, 2023), Haupt 3 · LK 1 (2022), Haupt 1 · FHR 0
-- 2.2 Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren (3) → wortgleich; GK 2 (2020, 2021), Haupt 2 · LK 0 · FHR 0
-- 2.3 Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren (2) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 0 · FHR 0
+- 2.1 Ganzrationale Funktion dritten Grades aus Wert- und Steigungsbedingungen rekonstruieren (4) → wortgleich; GK 3 (2017, 2019, 2023), Haupt 3 · LK 1 (2022), Haupt 1 · FHR 0
+- 2.2 Funktionsgleichung aus knickfreiem Übergang und einer Wertbedingung rekonstruieren (3) → wortgleich; GK 2 (2018, 2022), Haupt 2 · LK 0 · FHR 0
+- 2.3 Quadratische Funktion aus Wert- und Steigungsbedingungen rekonstruieren (3) → wortgleich; GK 2 (2020, 2021), Haupt 2 · LK 0 · FHR 0
 - 2.4 Funktionsgleichung aus der Ableitung und einer Tangente über die Integrationskonstante rekonstruieren (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 2.5 Funktionsgleichung mit Extremalbedingung über LGS (1) → wortgleich; GK 0 · LK 0 · FHR 2 (2021, 2025), Haupt 1
 - 2.6 Ganzrationale Funktion aus Symmetrie und Randbedingungen rekonstruieren (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
@@ -4129,17 +4155,19 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.9 Fehler finden (den Hochpunkt nur als Punkt eingesetzt und die Ableitungsbedingung vergessen; knickfrei nur über den Funktionswert angesetzt; die Tangente falsch übersetzt; die Integrationskonstante vergessen; den Steigungswinkel ohne Tangens als Anstieg genommen) → didaktischer Typ, kein Prüfungstyp
 - 2.10 Begründen (warum ein Wortpaar wie Hochpunkt zwei Gleichungen liefert; warum die Zahl der Bedingungen zur Zahl der Koeffizienten passen muss) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Sonderansätze und Modellkritik** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 3 · Sonderansätze und Modellkritik** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Maximum eines Parabelmodells aus einem Zeitraum ohne Durchschnittswachstum und einer Differenzbedingung ermitteln (1) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 3.2 Parameter einer Sinusfunktion aus Extremstelle und Funktionswert bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.3 Parameter einer Sinusfunktion aus zwei aufeinanderfolgenden Extrempunkten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.4 Sinusfunktion mit gleichen Nullstellen und gleichem Flächeninhalt wie ein Graph bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.5 Steigung einer aus Periode und Extrempunkt rekonstruierten Kosinusfunktion allgemein bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Parabel ohne lineares Glied aus dem knickfreien Übergang begründen und Parameter aus einem Flächeninhalt berechnen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.7 Unmöglichkeit einer einzigen Parabel für ein knickfreies Profil mit zwei waagerechten Tangenten begründen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.8 Fehler finden (die halbe Periode als ganze genommen; die Amplitude als ganze Differenz der Extremwerte angesetzt; die Fläche nicht in Längeneinheiten des Modells umgerechnet; die Unmöglichkeit nur mit einem Punktargument begründet) → didaktischer Typ, kein Prüfungstyp
-- 3.9 Begründen (warum der Abstand aufeinanderfolgender Extremstellen die halbe Periode ist; warum eine Parabel keinen Krümmungswechsel hat) → didaktischer Typ, kein Prüfungstyp
+- 3.6 Existenz einer quadratischen Funktion zu vier Wert- und Steigungsbedingungen über das überbestimmte Gleichungssystem untersuchen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 3.7 Parabel ohne lineares Glied aus dem knickfreien Übergang begründen und Parameter aus einem Flächeninhalt berechnen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.8 Unmöglichkeit einer einzigen Parabel für ein knickfreies Profil mit zwei waagerechten Tangenten begründen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 3.9 Unmöglichkeit waagerechter Tangenten an den Rändern über die Ableitung mit Parametern begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.10 Fehler finden (die halbe Periode als ganze genommen; die Amplitude als ganze Differenz der Extremwerte angesetzt; die Fläche nicht in Längeneinheiten des Modells umgerechnet; die Unmöglichkeit nur mit einem Punktargument begründet) → didaktischer Typ, kein Prüfungstyp
+- 3.11 Begründen (warum der Abstand aufeinanderfolgender Extremstellen die halbe Periode ist; warum eine Parabel keinen Krümmungswechsel hat) → didaktischer Typ, kein Prüfungstyp
 
 ### stammfunktion-und-hauptsatz
 
@@ -4151,7 +4179,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.4 Stammfunktion aus einer vorgegebenen Integralgleichung ermitteln (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
 - 1.5 Stammfunktion eines Polynomterms nach dem Ausmultiplizieren angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.6 Stammfunktionen mit der x-Achse als Tangente über die Nullstellen der Funktion ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.7 Stammfunktion durch Ableiten nachweisen (8) → wortgleich; GK 5 (2017, 2018, 2020, 2022, 2024), Haupt 5 · LK 1 (2023), Haupt 1 · FHR 0
+- 1.7 Stammfunktion durch Ableiten nachweisen (9) → wortgleich; GK 5 (2017, 2018, 2020, 2022, 2024), Haupt 5 · LK 1 (2023), Haupt 1 · FHR 0
 - 1.8 Stammfunktionen mit vorgegebenem vertikalem Abstand zum Graphen einer Stammfunktion angeben (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 1.9 Fehler finden (aufgeleitet statt abgeleitet oder umgekehrt; die Integrationskonstante vergessen; beim Produktnachweis einen Faktor verloren; das Vorzeichen der inneren Ableitung verdreht) → didaktischer Typ, kein Prüfungstyp
 - 1.10 Begründen (warum alle Stammfunktionen sich nur um eine Konstante unterscheiden; warum der Nachweis eine Ableitungsrechnung ist) → didaktischer Typ, kein Prüfungstyp
@@ -4162,35 +4190,37 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.2 Bestimmtes Integral mit vorgegebener Stammfunktion berechnen (4) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
 - 2.3 Bestimmtes Integral einer trigonometrischen Funktion über eine Periode berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Integral der Ableitung als Differenz von Funktionswerten berechnen (1) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 2.5 Prozentuale Abweichung eines Näherungswerts vom exakten Wert berechnen (1) → wortgleich; GK 1 (2025), Haupt 0 · LK 1 (2024), Haupt 0 · FHR 0
-- 2.6 Fehler finden (die Grenzen vertauscht; den Wert an der unteren Grenze mit falschem Vorzeichen abgezogen; einen Vorfaktor beim Integrieren vergessen; den Rechner im Gradmaß gelassen; die Abweichung auf den Näherungswert statt den exakten Wert bezogen) → didaktischer Typ, kein Prüfungstyp
-- 2.7 Begründen (warum der Integralwert nicht von der Wahl der Stammfunktion abhängt; warum das Integral über eine volle Sinusperiode null ist) → didaktischer Typ, kein Prüfungstyp
+- 2.5 Kurvenlänge über eine vorgegebene Integralformel berechnen und mit der Länge von Streckenzügen vergleichen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.6 Prozentuale Abweichung eines Näherungswerts vom exakten Wert berechnen (1) → wortgleich; GK 1 (2025), Haupt 0 · LK 1 (2024), Haupt 0 · FHR 0
+- 2.7 Fehler finden (die Grenzen vertauscht; den Wert an der unteren Grenze mit falschem Vorzeichen abgezogen; einen Vorfaktor beim Integrieren vergessen; den Rechner im Gradmaß gelassen; die Abweichung auf den Näherungswert statt den exakten Wert bezogen) → didaktischer Typ, kein Prüfungstyp
+- 2.8 Begründen (warum der Integralwert nicht von der Wahl der Stammfunktion abhängt; warum das Integral über eine volle Sinusperiode null ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Der Graphenblick** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Integral über f aus dem Graphen der Stammfunktion bestimmen (3) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 3.2 Funktionswert von f als Tangentensteigung am Graphen der Stammfunktion bestimmen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 3.3 Extremstelle aller Stammfunktionen über den Vorzeichenwechsel der gegebenen Ableitung begründen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
+- 3.3 Extremstelle einer Stammfunktion über den Vorzeichenwechsel des Integranden begründen (4) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
 - 3.4 Höchstens eine positive Nullstelle jeder Stammfunktion über die Monotonie aus dem Vorzeichen des Integranden begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Maximumstelle aller Stammfunktionen über den Vorzeichenwechsel des Integranden begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Tiefpunkt aller Stammfunktionen auf der y-Achse über den Vorzeichenwechsel von f begründen und Stammfunktion mit Tiefpunkt im Ursprung bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Aussage über Extrempunkte einer Stammfunktion beurteilen (3) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2022), Haupt 1 · FHR 0
-- 3.8 Graph einer Stammfunktion durch einen Punkt skizzieren (3) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 3.9 Aussage über den Krümmungswechsel der Stammfunktionen über das Vorzeichen von f am Graphen beurteilen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
-- 3.10 Integrationsgrenzen mit Integral null über die zweite Ableitung am Graphen der Ableitung angeben (1) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.11 Fehler finden (Extremstellen von f als Extremstellen von F übernommen; einen Tiefpunkt von f als Tiefpunkt von F gezeichnet; den F-Wert statt der Steigung abgelesen; die Fläche unter dem Stammfunktionsgraphen bestimmt) → didaktischer Typ, kein Prüfungstyp
-- 3.12 Begründen (warum eine Nullstelle von f ohne Vorzeichenwechsel keine Extremstelle von F liefert; warum die Aussage für jede Stammfunktion zugleich gilt) → didaktischer Typ, kein Prüfungstyp
+- 3.5 Tiefpunkt aller Stammfunktionen auf der y-Achse über den Vorzeichenwechsel von f begründen und Stammfunktion mit Tiefpunkt im Ursprung bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.6 Aussage über Extrempunkte einer Stammfunktion beurteilen (3) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2022), Haupt 1 · FHR 0
+- 3.7 Graph einer Stammfunktion durch einen Punkt skizzieren (3) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 3.8 Aussage über den Krümmungswechsel der Stammfunktionen über das Vorzeichen von f am Graphen beurteilen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 3.9 Integrationsgrenzen mit Integral null über die zweite Ableitung am Graphen der Ableitung angeben (1) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 3.10 Fehler finden (Extremstellen von f als Extremstellen von F übernommen; einen Tiefpunkt von f als Tiefpunkt von F gezeichnet; den F-Wert statt der Steigung abgelesen; die Fläche unter dem Stammfunktionsgraphen bestimmt) → didaktischer Typ, kein Prüfungstyp
+- 3.11 Begründen (warum eine Nullstelle von f ohne Vorzeichenwechsel keine Extremstelle von F liefert; warum die Aussage für jede Stammfunktion zugleich gilt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Integralfunktion** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 4.1 Ganzzahlige Nullstellen einer Integralfunktion über gleiche Grenzen und Symmetrie begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.2 Höchstzahl der Nullstellen einer Integralfunktion über den Grad begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.3 Maximum einer Integralfunktion über die Nullstelle des Integranden begründen und im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.4 Weitere Nullstelle einer Integralfunktion über die Flächenbilanz am Graphen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.5 Wendestelle einer Integralfunktion über die Ableitung des Integranden begründen und Funktionswert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.6 Anzahl der Nullstellen einer Integralfunktion am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.7 Fehler finden (die Nullstellen des Integranden für Nullstellen der Integralfunktion gehalten; die untere Grenze als Nullstelle vergessen; die Flächenbilanz ohne Vorzeichen gerechnet) → didaktischer Typ, kein Prüfungstyp
-- 4.8 Begründen (warum die untere Grenze immer Nullstelle ist; warum die Integralfunktion den Grad des Integranden um eins übertrifft) → didaktischer Typ, kein Prüfungstyp
+- 4.3 Integralfunktionen mit verschiedenen unteren Grenzen als Verschiebung in y-Richtung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.4 Maximum einer Integralfunktion über die Nullstelle des Integranden begründen und im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.5 Waagerechte Tangente und Wendepunkt einer Integralfunktion an einer doppelten Nullstelle des Integranden begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.6 Weitere Nullstelle einer Integralfunktion über die Flächenbilanz am Graphen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.7 Wendestelle einer Integralfunktion über die Ableitung des Integranden begründen und Funktionswert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.8 Anzahl der Nullstellen einer Integralfunktion am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.9 Fehler finden (die Nullstellen des Integranden für Nullstellen der Integralfunktion gehalten; die untere Grenze als Nullstelle vergessen; die Flächenbilanz ohne Vorzeichen gerechnet) → didaktischer Typ, kein Prüfungstyp
+- 4.10 Begründen (warum die untere Grenze immer Nullstelle ist; warum die Integralfunktion den Grad des Integranden um eins übertrifft) → didaktischer Typ, kein Prüfungstyp
 
 ### integrationsregeln
 
@@ -4206,7 +4236,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 1.1 Fläche zwischen Graph und x-Achse berechnen (10) → wortgleich; GK 0 · LK 0 · FHR 8, Haupt 7
 - 1.2 Fläche: Fläche zwischen Graph und x-Achse aus zwei Flächenstücken berechnen (4) → wortgleich; GK 2 (2021, 2024), Haupt 2 · LK 0 · FHR 0
-- 1.3 Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen (2) → wortgleich; GK 2 (2017, 2025), Haupt 1 · LK 0 · FHR 0
+- 1.3 Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen (3) → wortgleich; GK 2 (2017, 2025), Haupt 1 · LK 0 · FHR 0
 - 1.4 Fläche: Fläche zwischen Graph, x-Achse und zwei senkrechten Geraden mit vorgegebener Stammfunktion berechnen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 1.5 Fläche: Flächeninhalt einer Vorderansicht als Integral mit Maßstab und Abzug berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.6 Fläche: Flächeninhalt zwischen Graph, x-Achse und senkrechter Gerade im Sachzusammenhang mit Maßstab berechnen (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 0 · FHR 0
@@ -4219,7 +4249,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Fläche zwischen zwei Graphen** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 5 von 7 (Haupt 5) · FHR-Jahrgänge 7 von 8 (Haupt 6).
 
-- 2.1 Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen (14) → wortgleich; GK 3 (2018, 2019, 2021), Haupt 3 · LK 4 (2017, 2018, 2023, 2026), Haupt 4 · FHR 0
+- 2.1 Fläche: Fläche zwischen zwei Graphen als Integral der Differenz berechnen (17) → wortgleich; GK 3 (2018, 2019, 2021), Haupt 3 · LK 4 (2017, 2018, 2023, 2026), Haupt 4 · FHR 0
 - 2.2 Fläche zwischen zwei Graphen berechnen (6) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2020, 2021, 2022, 2023, 2024, 2026), Haupt 6
 - 2.3 Fläche: Fläche zwischen Graph und Hochpunktgerade über eine Periode berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Fläche: Fläche zwischen Graph und zwei Tangenten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4231,19 +4261,19 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.10 Fehler finden (die Differenz in der falschen Reihenfolge gebildet und das Vorzeichen als Fläche gelassen; nur eine Randkurve integriert; beide Integrale über dieselben Grenzen gebildet, obwohl die Randkurven verschieden weit reichen) → didaktischer Typ, kein Prüfungstyp
 - 2.11 Begründen (warum die Differenzfunktion die Fläche unabhängig von der Achsenlage liefert; warum ein Wechsel der oberen Funktion das Intervall teilt) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Zusammengesetzte Flächen, Maßstab und Volumen** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 3 von 8 (Haupt 2).
+**Einheit 3 · Zusammengesetzte Flächen, Maßstab und Volumen** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 3 von 8 (Haupt 2).
 
-- 3.1 Fläche: Abschnittsweise begrenzte Fläche durch Integration berechnen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 3.2 Fläche: Differenz von Kreisfläche und Flügelflächen veranschaulichen und berechnen (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
-- 3.3 Fläche: Eingeschlossene Fläche aus Integral, Symmetrie und Halbkreisen berechnen (1) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
-- 3.4 Fläche: Fläche zwischen Graph, x-Achse und waagerechter Gerade aus Rechteck und Integral berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Fläche: Flächeninhalt aus einem vorgegebenen Term mit Stammfunktion berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Fläche: Flächeninhalt zwischen Graph, Achse und zwei Parallelen über Rechtecke und Integral berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Fläche: Querschnittsfläche eines Rotationskörpers als doppeltes Integral mit Maßstab berechnen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
-- 3.8 Fläche: Querschnittsfläche zwischen Graph und Streckenzug als Integral minus Trapez und Dreieck berechnen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 3.9 Fläche: Querschnittsfläche zwischen Tangente und Graph als Dreieck minus Integral berechnen und mit der Breite zum Volumen umrechnen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 3.10 Fläche: Radius eines flächengleichen Halbkreisprofils aus einem Integral bestimmen und Materialmasse berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.11 Fläche: Wasservolumen in einer Mulde aus Fläche zwischen Wasserlinie und Graph mal Breite berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.1 Fläche: Volumen eines Körpers mit konstantem Querschnitt aus der Fläche zwischen Graph und waagerechter Gerade berechnen (4) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 3.2 Fläche: Abschnittsweise begrenzte Fläche durch Integration berechnen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 3.3 Fläche: Differenz von Kreisfläche und Flügelflächen veranschaulichen und berechnen (1) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
+- 3.4 Fläche: Eingeschlossene Fläche aus Integral, Symmetrie und Halbkreisen berechnen (1) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
+- 3.5 Fläche: Fläche zwischen Graph, x-Achse und waagerechter Gerade aus Rechteck und Integral berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.6 Fläche: Flächeninhalt aus einem vorgegebenen Term mit Stammfunktion berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.7 Fläche: Flächeninhalt zwischen Graph, Achse und zwei Parallelen über Rechtecke und Integral berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.8 Fläche: Querschnittsfläche eines Rotationskörpers als doppeltes Integral mit Maßstab berechnen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 3.9 Fläche: Querschnittsfläche zwischen Graph und Streckenzug als Integral minus Trapez und Dreieck berechnen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 3.10 Fläche: Querschnittsfläche zwischen Tangente und Graph als Dreieck minus Integral berechnen und mit der Breite zum Volumen umrechnen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 3.11 Fläche: Radius eines flächengleichen Halbkreisprofils aus einem Integral bestimmen und Materialmasse berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.12 Länge aus Volumen und Querschnittsfläche berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 1 (2025), Haupt 1
 - 3.13 Volumen aus Querschnittsfläche und Länge (1) → wortgleich; GK 0 · LK 0 · FHR 3 (2021, 2025, 2026), Haupt 1
 - 3.14 Fläche: An der Sehne gespiegelte Randlinien skizzieren und Lösungsweg für den Flächenzuwachs beschreiben (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
@@ -4293,14 +4323,16 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 5.16 Integralwert: Integralabschätzung über ein Rechteck und Flächenvergleich am Graphen erläutern und im Sachzusammenhang deuten (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
 - 5.17 Integralwert: Summe zweier Integrale als Flächeninhalt beurteilen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
 - 5.18 Integralwert: Aussage über zwei Integrale über die Lage des Graphen zur x-Achse beurteilen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 5.19 Integralwert: Integral einer Differenzfunktion grafisch abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.20 Integralwert: Integrale der Ableitung über das Vorzeichen des Ableitungsgraphen vergleichen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 5.21 Integralwert: Negativen Integralwert als Differenz zweier Flächeninhalte am Graphen erläutern (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 5.22 Integralwert: Nullwert eines Integrals über eine Differenzfunktion mit drei Schnittstellen als Flächengleichheit deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.23 Integralwert: Vorgehen zur grafischen Bestimmung eines Integrals beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.24 Integralwert: Vorzeichen eines Integrals am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.25 Fehler finden (Integralwert und Flächeninhalt gleichgesetzt; Flächeninhalte statt orientierter Integrale verglichen; Kästchen als Einheitsquadrate gezählt; das Flächenstück oberhalb der Achse mit demselben Vorzeichen wie das darunter) → didaktischer Typ, kein Prüfungstyp
-- 5.26 Begründen (warum das Integral über eine ungerade Funktion auf symmetrischem Intervall null ist; warum der Mittelwert die Fläche zu einem Rechteck glättet) → didaktischer Typ, kein Prüfungstyp
+- 5.19 Integralwert: Flächenstück mit vorgegebenem Inhalt am Graphen einzeichnen und Integralterm angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.20 Integralwert: Integral der Differenz aus waagerechter Gerade und Funktion als Flächeninhalt mit einer Skizze deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.21 Integralwert: Integral einer Differenzfunktion grafisch abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.22 Integralwert: Integrale der Ableitung über das Vorzeichen des Ableitungsgraphen vergleichen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 5.23 Integralwert: Negativen Integralwert als Differenz zweier Flächeninhalte am Graphen erläutern (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 5.24 Integralwert: Nullwert eines Integrals über eine Differenzfunktion mit drei Schnittstellen als Flächengleichheit deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.25 Integralwert: Vorgehen zur grafischen Bestimmung eines Integrals beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.26 Integralwert: Vorzeichen eines Integrals am Graphen beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.27 Fehler finden (Integralwert und Flächeninhalt gleichgesetzt; Flächeninhalte statt orientierter Integrale verglichen; Kästchen als Einheitsquadrate gezählt; das Flächenstück oberhalb der Achse mit demselben Vorzeichen wie das darunter) → didaktischer Typ, kein Prüfungstyp
+- 5.28 Begründen (warum das Integral über eine ungerade Funktion auf symmetrischem Intervall null ist; warum der Mittelwert die Fläche zu einem Rechteck glättet) → didaktischer Typ, kein Prüfungstyp
 
 ### rekonstruktion-von-bestaenden
 
@@ -4308,24 +4340,26 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 1.1 Integral einer Rate berechnen und als Gesamtmenge im Sachzusammenhang deuten (4) → wortgleich; GK 0 · LK 2 (2024, 2026), Haupt 2 · FHR 0
 - 1.2 Zunahme eines Bestands als Differenz der Bestandsfunktion und mittlere Änderungsrate im Zeitraum berechnen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 1.3 Anfangsbestand aus Endbestand und Fläche unter dem Ableitungsgraphen ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.4 Bestand nach einem Zeitraum aus Anfangsbestand und Integral der Änderungsrate berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.3 Bestand nach einem Zeitraum aus Anfangsbestand und Integral der Änderungsrate berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.4 Anfangsbestand aus Endbestand und Fläche unter dem Ableitungsgraphen ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.5 Bestandsänderung grafisch als Fläche unter dem Ratengraphen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.6 Zurückgelegte Strecke als Integral der Geschwindigkeit mit Umrechnung der Einheiten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.7 Zurückgelegte Strecke aus dem Integral der Geschwindigkeit und einer Phase konstanter Geschwindigkeit berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.8 Term für einen Bestand aus einer Rate über ein Integral angeben (3) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
-- 1.9 Gleichung für den Zeitpunkt eines Bestandswerts über ein Integral der Rate angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.10 Fehler finden (den Anfangsbestand vergessen; die Grenzen als Uhrzeiten statt als Modellstunden eingesetzt; den Einheitenfaktor verloren; die Rate über ihren Geltungsbereich hinaus integriert) → didaktischer Typ, kein Prüfungstyp
-- 1.11 Begründen (warum der neue Bestand alter Bestand plus Integral ist; warum die Einheit des Integrals Rate mal Zeit ist) → didaktischer Typ, kein Prüfungstyp
+- 1.6 Zeitpunkt mit gleichem Bestand wie zu Beginn über das Integral der Änderungsrate gleich null untersuchen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.7 Zurückgelegte Strecke als Integral der Geschwindigkeit mit Umrechnung der Einheiten berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.8 Zurückgelegte Strecke aus dem Integral der Geschwindigkeit und einer Phase konstanter Geschwindigkeit berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.9 Term für einen Bestand aus einer Rate über ein Integral angeben (3) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
+- 1.10 Gleichung für den Zeitpunkt eines Bestandswerts über ein Integral der Rate angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.11 Fehler finden (den Anfangsbestand vergessen; die Grenzen als Uhrzeiten statt als Modellstunden eingesetzt; den Einheitenfaktor verloren; die Rate über ihren Geltungsbereich hinaus integriert) → didaktischer Typ, kein Prüfungstyp
+- 1.12 Begründen (warum der neue Bestand alter Bestand plus Integral ist; warum die Einheit des Integrals Rate mal Zeit ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Rate und Bestand als Paar** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Zeitpunkt des größten Bestands aus dem Vorzeichenwechsel der Rate begründen (3) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 2.2 Funktion als Bestandsfunktion über Ableitung und Anfangswert begründen und Endwert bestätigen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 2.3 Zunahme eines Bestands aus dem Vorzeichen der Rate begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.4 Integralfunktion einer Rate und ihren Grenzwert als Bestand und Endwert im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.5 Fehler finden (den Hochpunkt der Rate mit dem größten Bestand verwechselt; nur die Ableitung geprüft und den Anfangswert vergessen; die Rate als Bestand gelesen und ihre Monotonie untersucht) → didaktischer Typ, kein Prüfungstyp
-- 2.6 Begründen (warum der Bestand am Vorzeichenwechsel der Rate kippt; warum eine Kandidatenfunktion zwei Prüfungen braucht) → didaktischer Typ, kein Prüfungstyp
+- 2.1 Zeitraum der Abnahme eines Bestands über Nullstellen und Vorzeichen der Änderungsrate berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.2 Zeitpunkt des größten Bestands aus dem Vorzeichenwechsel der Rate begründen (3) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 2.3 Funktion als Bestandsfunktion über Ableitung und Anfangswert begründen und Endwert bestätigen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 2.4 Zunahme eines Bestands aus dem Vorzeichen der Rate begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.5 Integralfunktion einer Rate und ihren Grenzwert als Bestand und Endwert im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.6 Fehler finden (den Hochpunkt der Rate mit dem größten Bestand verwechselt; nur die Ableitung geprüft und den Anfangswert vergessen; die Rate als Bestand gelesen und ihre Monotonie untersucht) → didaktischer Typ, kein Prüfungstyp
+- 2.7 Begründen (warum der Bestand am Vorzeichenwechsel der Rate kippt; warum eine Kandidatenfunktion zwei Prüfungen braucht) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Am Ratengraphen** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4338,26 +4372,36 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 ### rotationsvolumen
 
-**Einheit 1 · Die Volumenformel** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 3 von 8 (Haupt 3).
+**Einheit 1 · Die Volumenformel** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 3 von 8 (Haupt 3).
 
-- 1.1 Rotationsvolumen um die x-Achse berechnen (4) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 3 (2019, 2020, 2024), Haupt 3
+- 1.1 Rotationsvolumen um die x-Achse berechnen (5) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 3 (2019, 2020, 2024), Haupt 3
 - 1.2 Gleichung für die Füllhöhe aus einem Rotationsvolumen zwischen variablen Grenzen aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.3 Wasservolumen als Differenz aus Rotationsvolumen und Kugelvolumen nach unten abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.4 Fehler finden (den Funktionsterm nicht oder gliedweise quadriert; das gemischte Glied vergessen; die Kreiszahl weggelassen; das Volumen in Volumeneinheiten stehen gelassen) → didaktischer Typ, kein Prüfungstyp
-- 1.5 Begründen (warum quadriert wird – der Funktionswert ist der Radius der Kreisscheibe; warum der Volumenmaßstab die dritte Potenz trägt) → didaktischer Typ, kein Prüfungstyp
+- 1.3 Masse eines Hohlkörpers aus der Differenz zweier Rotationsvolumina berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.4 Rotationsvolumen um die y-Achse über die Umkehrfunktion aufstellen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 0 · FHR 0
+- 1.5 Wasservolumen als Differenz aus Rotationsvolumen und Kugelvolumen nach unten abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.6 Fehler finden (den Funktionsterm nicht oder gliedweise quadriert; das gemischte Glied vergessen; die Kreiszahl weggelassen; das Volumen in Volumeneinheiten stehen gelassen) → didaktischer Typ, kein Prüfungstyp
+- 1.7 Begründen (warum quadriert wird – der Funktionswert ist der Radius der Kreisscheibe; warum der Volumenmaßstab die dritte Potenz trägt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Um den Körper herum** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 2.1 Umbeschriebenes Prisma zu einem Rotationskörper bestimmen (2) → wortgleich; GK 0 · LK 2 (2017, 2018), Haupt 2 · FHR 0
 - 2.2 Integranden als Querschnittsfläche über den Satz des Pythagoras deuten und Umrechnungsfaktor erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.3 Rotationsvolumen über einbeschriebene Zylinder abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.4 Aufgabenstellung zu einem Rotationsvolumen-Anteil aus dem Lösungsweg formulieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.5 Fehlerhaftes Verfahren zur Volumenberechnung beurteilen und berichtigen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 2.6 Integralfunktion im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
-- 2.7 Fehler finden (die Rotationsachse nicht geprüft und den x-Achsen-Ansatz übernommen; den Umkreis- statt des Inkreisradius genommen; den Zylinderterm als Kegel gedeutet; die Kugel in die Schicht eingerechnet) → didaktischer Typ, kein Prüfungstyp
-- 2.8 Begründen (warum der Integrand eine Kreisfläche ist; warum einbeschriebene Zylinder eine untere Schranke liefern) → didaktischer Typ, kein Prüfungstyp
+- 2.3 Querschnittsfläche eines Rotationskörpers in Abhängigkeit von der Füllhöhe als Term nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.4 Rotationsvolumen über einbeschriebene Zylinder abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.5 Integralfunktion im Sachzusammenhang deuten (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 2.6 Aufgabenstellung zu einem Rotationsvolumen-Anteil aus dem Lösungsweg formulieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.7 Fehlerhaftes Verfahren zur Volumenberechnung beurteilen und berichtigen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.8 Fehler finden (die Rotationsachse nicht geprüft und den x-Achsen-Ansatz übernommen; den Umkreis- statt des Inkreisradius genommen; den Zylinderterm als Kegel gedeutet; die Kugel in die Schicht eingerechnet) → didaktischer Typ, kein Prüfungstyp
+- 2.9 Begründen (warum der Integrand eine Kreisfläche ist; warum einbeschriebene Zylinder eine untere Schranke liefern) → didaktischer Typ, kein Prüfungstyp
 
 ### uneigentliche-integrale
+
+**Einheit 1 · Der Begriff** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+
+- 1.1 Beschränktheit eines Flächeninhalts mit variabler Grenze über den Integralterm nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.2 Fehler finden (nur den Grenzwert angegeben, ohne zu zeigen, dass er nicht erreicht wird) → didaktischer Typ, kein Prüfungstyp
+- 1.3 Begründen (warum ein stets positiver Abzug die Schranke sichert) → didaktischer Typ, kein Prüfungstyp
+- 1.4 Bis zum Nachzug 2026-09-28 ohne Typ (Vermerk „kein Original“) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Die Näherungsdeutung** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4371,7 +4415,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 1.1 Punkt: Lage zweier Punkte zu einer Koordinatenebene begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.2 Ebene Figur: Lage eines Dreiecks parallel zu einer Koordinatenebene und symmetrisch zu einer anderen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.3 Ebene Figur: Viereck in ein Schrägbild einzeichnen (2) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 1.3 Ebene Figur: Viereck in ein Schrägbild einzeichnen (3) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
 - 1.4 Ebene Figur: Dreieck in ein Schrägbild einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.5 Ebene Figur: Projektion eines Parallelogramms in eine Koordinatenebene einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.6 Ebene Figur: Symmetrisches Achteck in der Koordinatenebene vervollständigen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4381,22 +4425,24 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.10 Fehler finden (Punkte auf die falschen Kanten gesetzt; das Vorzeichen negativer Koordinaten beim Eintragen verloren; die Symmetrie zur falschen Koordinatenebene behauptet; die Spitze statt ihrer Projektion betrachtet) → didaktischer Typ, kein Prüfungstyp
 - 1.11 Begründen (warum eine Koordinate null den Punkt in die Koordinatenebene legt; warum die Projektion parallel zur Achse genau eine Koordinate löscht) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Streckenlängen, Mittelpunkt und Teilpunkte** – Abitur-Jahrgänge GK 6 von 9 (Haupt 4) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 2 · Streckenlängen, Mittelpunkt und Teilpunkte** – Abitur-Jahrgänge GK 6 von 9 (Haupt 4) · LK 4 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Punkt: Koordinaten eines Punktes auf einer Strecke in Abhängigkeit von seiner Höhe ermitteln (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 2.2 Körper: Gesamtlänge gleich langer Strecken an einem Körper über einen Vektorbetrag berechnen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
-- 2.3 Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen (1) → wortgleich; GK 2 (2017, 2018), Haupt 0 · LK 0 · FHR 0
-- 2.4 Körper: Länge eines Streckenzugs aus Kanten und Diagonalen eines Quaders im Sachzusammenhang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.5 Punkt: Begegnungspunkt zweier gleichzeitig startender Bewegungen auf einer Strecke aus den Geschwindigkeiten berechnen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
-- 2.6 Punkt: Lage eines bewegten Punktes gegenüber einer Mauer über Zeitpunkt und Höhe untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.7 Punkt: Länge einer Strecke aus einer Vektorbeziehung der Ortsvektoren berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.8 Punkt: Teilpunkte einer Strecke in drei gleiche Abschnitte berechnen (1) → wortgleich; GK 1 (2023), Haupt 0 · LK 0 · FHR 0
-- 2.9 Punkt: Ursprüngliche Länge einer Strecke aus der Streckenlänge und einer prozentualen Verlängerung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.10 Körper: Kantenlänge eines Würfels aus gegenüberliegenden Oktaederecken nachweisen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 2.11 Punkt: Mittelpunkt einer Kante nachweisen und symmetrischen Schnittpunkt angeben (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
-- 2.12 Punkt: Zweiten Punkt auf einer Geraden mit gleichem Abstand zu einem Geradenpunkt über den Richtungsvektor angeben (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 2.13 Fehler finden (Koordinaten statt Koordinatendifferenzen quadriert; das Teilverhältnis mit dem Anteil verwechselt; den Zuschlag in der falschen Einheit addiert; den Prozentsatz abgezogen statt geteilt) → didaktischer Typ, kein Prüfungstyp
-- 2.14 Begründen (warum die Längenformel der räumliche Pythagoras ist; warum der Mittelpunkt koordinatenweise der Mittelwert ist) → didaktischer Typ, kein Prüfungstyp
+- 2.1 Körper: Gesamtlänge gleich langer Strecken an einem Körper über einen Vektorbetrag berechnen (2) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 2.2 Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen (2) → wortgleich; GK 2 (2017, 2018), Haupt 0 · LK 0 · FHR 0
+- 2.3 Punkt: Koordinaten eines Punktes auf einer Strecke in Abhängigkeit von seiner Höhe ermitteln (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
+- 2.4 Punkt: Mittelpunkt einer Strecke im Raum bestimmen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 2 (2017, 2018), Haupt 0 · LK 2 (2017, 2018), Haupt 0 · FHR 0
+- 2.5 Körper: Länge eines Streckenzugs aus Kanten und Diagonalen eines Quaders im Sachzusammenhang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.6 Punkt: Begegnungspunkt zweier gleichzeitig startender Bewegungen auf einer Strecke aus den Geschwindigkeiten berechnen (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 2.7 Punkt: Lage eines bewegten Punktes gegenüber einer Mauer über Zeitpunkt und Höhe untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.8 Punkt: Länge einer Strecke aus einer Vektorbeziehung der Ortsvektoren berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.9 Punkt: Teilpunkte einer Strecke in drei gleiche Abschnitte berechnen (1) → wortgleich; GK 1 (2023), Haupt 0 · LK 0 · FHR 0
+- 2.10 Punkt: Ursprüngliche Länge einer Strecke aus der Streckenlänge und einer prozentualen Verlängerung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.11 Körper: Kantenlänge eines Würfels aus gegenüberliegenden Oktaederecken nachweisen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 2.12 Punkt: Mittelpunkt einer Kante nachweisen und symmetrischen Schnittpunkt angeben (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
+- 2.13 Punkt: Positionen bei gleichförmiger Bewegung zu vorgegebenen Zeitpunkten in eine schematische Abbildung einzeichnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.14 Punkt: Zweiten Punkt auf einer Geraden mit gleichem Abstand zu einem Geradenpunkt über den Richtungsvektor angeben (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 2.15 Fehler finden (Koordinaten statt Koordinatendifferenzen quadriert; das Teilverhältnis mit dem Anteil verwechselt; den Zuschlag in der falschen Einheit addiert; den Prozentsatz abgezogen statt geteilt) → didaktischer Typ, kein Prüfungstyp
+- 2.16 Begründen (warum die Längenformel der räumliche Pythagoras ist; warum der Mittelpunkt koordinatenweise der Mittelwert ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Dreiecke nachweisen** – Abitur-Jahrgänge GK 4 von 9 (Haupt 3) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4410,20 +4456,21 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.8 Ebene Figur: Gleichschenkligkeit über kongruente rechtwinklige Dreiecke begründen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 3.9 Ebene Figur: Rechtwinkliges gleichschenkliges Dreieck aus den Koordinaten begründen und Flächeninhalt angeben (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.10 Ebene Figur: Gleichschenkligkeit über Seitenlängen nachweisen und Parallelität einer Kante zur Grundfläche begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.11 Ebene Figur: Lage dreier Punkte auf einem Kreis über den Thaleskreis begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.12 Fehler finden (die Basis als Schenkel geprüft; nur zwei Seiten berechnet und die dritte nicht geprüft; den rechten Winkel an der falschen Ecke vermutet; beim Quadrieren die Wurzel nicht isoliert) → didaktischer Typ, kein Prüfungstyp
-- 3.13 Begründen (warum zwei gleiche Schenkellängen genügen und welche Seite die Basis ist; warum der Thaleskreis den rechten Winkel liefert) → didaktischer Typ, kein Prüfungstyp
+- 3.11 Ebene Figur: Dreieck aus drei Punkten über nicht kollineare Verbindungsvektoren nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.12 Ebene Figur: Lage dreier Punkte auf einem Kreis über den Thaleskreis begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.13 Fehler finden (die Basis als Schenkel geprüft; nur zwei Seiten berechnet und die dritte nicht geprüft; den rechten Winkel an der falschen Ecke vermutet; beim Quadrieren die Wurzel nicht isoliert) → didaktischer Typ, kein Prüfungstyp
+- 3.14 Begründen (warum zwei gleiche Schenkellängen genügen und welche Seite die Basis ist; warum der Thaleskreis den rechten Winkel liefert) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Vierecke nachweisen** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 4.1 Ebene Figur: Eckpunkt eines Quadrats in einer Ebene aus zwei benachbarten Ecken berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.2 Ebene Figur: Eckpunkte einer Raute mit einer Seite auf einer Geraden bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.3 Ebene Figur: Trapez über parallele Seiten nachweisen und Flächeninhalt berechnen (6) → wortgleich; GK 2 (2018, 2026), Haupt 2 · LK 0 · FHR 0
-- 4.4 Ebene Figur: Benachbarte Ecke eines Quadrats über den Diagonalenschnittpunkt als Spurpunkt nachweisen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
-- 4.5 Ebene Figur: Parallelogramm als Rechteck über das Skalarprodukt nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.6 Ebene Figur: Parallelogramm über gleiche Verbindungsvektoren nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.7 Ebene Figur: Raute über vier gleich lange Seiten nachweisen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 4.8 Ebene Figur: Trapez mit zwei gleich langen Seiten über Kollinearität und Seitenlängen nachweisen (2) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 4.4 Ebene Figur: Parallelogramm als Rechteck über das Skalarprodukt nachweisen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.5 Ebene Figur: Trapez mit zwei gleich langen Seiten über Kollinearität und Seitenlängen nachweisen (3) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 4.6 Ebene Figur: Benachbarte Ecke eines Quadrats über den Diagonalenschnittpunkt als Spurpunkt nachweisen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 4.7 Ebene Figur: Parallelogramm über gleiche Verbindungsvektoren nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.8 Ebene Figur: Raute über vier gleich lange Seiten nachweisen (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
 - 4.9 Ebene Figur: Berührpunkt des Inkreises einer Raute über Lage auf der Seite und Orthogonalität zum Mittelpunkt begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.10 Ebene Figur: Drachenviereck über zwei Paare gleich langer Seiten nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.11 Ebene Figur: Größeren Teil einer Wand über die Lage der Diagonalen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4435,7 +4482,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 4.17 Fehler finden (AB mit CD statt DC verglichen; nur vier gleiche Seiten gezeigt und das Parallelogramm weggelassen; die Parallelität aus gleich langen Vektoren statt aus dem Vielfachen geschlossen; nur zwei Seiten der Raute verglichen; gegenüberliegende statt benachbarter Seiten beim Drachenviereck) → didaktischer Typ, kein Prüfungstyp
 - 4.18 Begründen (warum ein Gegenmerkmal zum Ausschließen genügt; warum im Raum vier gleiche Seiten allein die Raute nicht sichern) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 5 · Körper im Koordinatensystem und Drehungen** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 5 · Körper im Koordinatensystem und Drehungen** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 5.1 Körper: Anteil der Bodenfläche unter einer Mindesthöhe über den Strahlensatz am Dachquerschnitt berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.2 Körper: Kantenlänge eines Würfels mit einer Ecke auf einer Pyramidenkante berechnen und Lage im Inneren begründen (1) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
@@ -4443,13 +4490,15 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 5.4 Körper: Parallelität der Grundfläche einer Pyramide zu einer Koordinatenebene begründen und Höhe angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.5 Körper: Punkt auf dem Rand der Grundfläche eines Zylinders nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.6 Körper: Koordinaten eines Eckpunkts eines Prismas angeben (4) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 5.7 Körper: Eckenzahl der Schnittvielecke einer Ebenenschar mit einem Körper und Sonderfälle angeben (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.8 Körper: Koordinaten der Eckpunkte eines beschriebenen Körpers wählen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 5.9 Körper: Eckpunkt mit vorgegebenen Vorzeichen nach einer Verschiebung angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.10 Punkt: Bildpunkte einer Drehung um eine Koordinatenachse mit vorgegebener Koordinate angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.11 Punkt: Lösungsweg für den Bildpunkt einer Drehung um eine Kante über Lotfußpunkt und Abstand beschreiben (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 5.12 Fehler finden (zwei Deckenecken verwechselt; die Ecke nach der größten Koordinate statt nach der Lage zum Mittelpunkt benannt; die Hypotenuse auf eine Achse gelegt; um den Ursprung statt um die Kante gedreht; die Vierteldrehung nicht erkannt) → didaktischer Typ, kein Prüfungstyp
-- 5.13 Begründen (warum die Deckenecke eines geraden Prismas senkrecht über der Grundecke liegt; warum der gedrehte Punkt auf einem Kreis um den Lotfußpunkt läuft) → didaktischer Typ, kein Prüfungstyp
+- 5.7 Körper: Koordinaten der Eckpunkte eines beschriebenen Körpers wählen (3) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 5.8 Körper: Eckenzahl der Schnittvielecke einer Ebenenschar mit einem Körper und Sonderfälle angeben (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.9 Punkt: Unbekannte Höhenkoordinate eines Endpunkts einer senkrechten Strecke aus ihrer Länge bestimmen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.10 Körper: Eckpunkt mit vorgegebenen Vorzeichen nach einer Verschiebung angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.11 Körper: Eckpunkte eines Pyramidenstumpfs aus Symmetrie und Kantenlängen angeben (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 5.12 Punkt: Bildpunkte einer Drehung um eine Koordinatenachse mit vorgegebener Koordinate angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.13 Punkt: Lösungsweg für den Bildpunkt einer Drehung um eine Kante über Lotfußpunkt und Abstand beschreiben (1) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
+- 5.14 Fehler finden (zwei Deckenecken verwechselt; die Ecke nach der größten Koordinate statt nach der Lage zum Mittelpunkt benannt; die Hypotenuse auf eine Achse gelegt; um den Ursprung statt um die Kante gedreht; die Vierteldrehung nicht erkannt) → didaktischer Typ, kein Prüfungstyp
+- 5.15 Begründen (warum die Deckenecke eines geraden Prismas senkrecht über der Grundecke liegt; warum der gedrehte Punkt auf einem Kreis um den Lotfußpunkt läuft) → didaktischer Typ, kein Prüfungstyp
 
 ### vektoren-und-rechenoperationen
 
@@ -4465,8 +4514,8 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Vektorterme am Körper** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Verschobenen Punkt über den Diagonalenschnittpunkt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.2 Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.1 Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen (4) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.2 Verschobenen Punkt über den Diagonalenschnittpunkt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.3 Vektorterm für einen Eckpunkt eines Pyramidenstumpfs begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Lage eines Punktes zu einem Vektorterm im Quader beschreiben (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 2.5 Punkt zu einem Vektorterm in das Schrägbild einzeichnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4488,7 +4537,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Linearkombination mit Nebenbedingung** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Lage eines Punktes auf einer Strecke über eine Linearkombination nachweisen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.1 Lage eines Punktes auf einer Strecke über eine Linearkombination nachweisen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
 - 2.2 Fehler finden (die Behauptung an einem einzelnen Zahlenbeispiel geprüft statt allgemein umgeformt; die Intervallbedingung vergessen und die ganze Gerade erhalten) → didaktischer Typ, kein Prüfungstyp
 - 2.3 Begründen (warum r = 1 − s die Kombination auf eine Parameterform bringt; warum die Grenzen des Parameters die Endpunkte der Strecke liefern) → didaktischer Typ, kein Prüfungstyp
 
@@ -4498,22 +4547,24 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 1.1 Parallele Gerade durch einen Teilpunkt einer Strecke bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.2 Parallelität einer Geraden zu einer Koordinatenachse über die Koordinaten begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.3 Echt parallele und senkrecht schneidende Gerade zu einer gegebenen Geraden angeben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
-- 1.4 Gerade in einer Ebene durch einen Punkt parallel zu einer Koordinatenebene angeben (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 1.5 Geradengleichung durch zwei Punkte aufstellen (1) → wortgleich; GK 2 (2017, 2019), Haupt 2 · LK 0 · FHR 0
-- 1.6 Parametergleichung einer Strecke im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.7 Fehler finden (für die echt parallele Gerade einen Stützpunkt auf der Geraden selbst gewählt; einen Spannvektor der Ebene als Richtungsvektor genommen, der die Koordinatenebene schneidet; das Teilverhältnis als Bruchteil gelesen; die Streckengleichung als ganze Gerade gedeutet) → didaktischer Typ, kein Prüfungstyp
-- 1.8 Begründen (warum die Punktprobe des Stützpunkts über echt parallel entscheidet; warum die Richtungskomponente null den Schnitt mit der Koordinatenebene verhindert) → didaktischer Typ, kein Prüfungstyp
+- 1.3 Geradengleichung durch zwei Punkte aufstellen (2) → wortgleich; GK 2 (2017, 2019), Haupt 2 · LK 0 · FHR 0
+- 1.4 Gleichung einer Strecke mit Parameterbereich im Sachzusammenhang angeben (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.5 Echt parallele und senkrecht schneidende Gerade zu einer gegebenen Geraden angeben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
+- 1.6 Gerade in einer Ebene durch einen Punkt parallel zu einer Koordinatenebene angeben (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 1.7 Parametergleichung einer Strecke im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.8 Fehler finden (für die echt parallele Gerade einen Stützpunkt auf der Geraden selbst gewählt; einen Spannvektor der Ebene als Richtungsvektor genommen, der die Koordinatenebene schneidet; das Teilverhältnis als Bruchteil gelesen; die Streckengleichung als ganze Gerade gedeutet) → didaktischer Typ, kein Prüfungstyp
+- 1.9 Begründen (warum die Punktprobe des Stützpunkts über echt parallel entscheidet; warum die Richtungskomponente null den Schnitt mit der Koordinatenebene verhindert) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Punktprobe und Punkte auf der Geraden** – Abitur-Jahrgänge GK 6 von 9 (Haupt 5) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen (2) → wortgleich; GK 1 (2017), Haupt 1 · LK 1 (2017), Haupt 1 · FHR 0
-- 2.2 Höhe eines Punktes auf einer Strecke aus der Entfernung vom Anfang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.3 Punkt auf einer Geraden mit vorgegebener Koordinate angeben (1) → wortgleich; GK 2 (2019, 2025), Haupt 0 · LK 0 · FHR 0
-- 2.4 Punktprobe an einer Geraden durchführen (11) → wortgleich; GK 3 (2018, 2023, 2025), Haupt 3 · LK 1 (2025), Haupt 1 · FHR 0
-- 2.5 Kollinearität dreier Punkte über die Verbindungsvektoren nachweisen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 2.6 Fehler finden (nur eine oder zwei Koordinaten geprüft; den Abstand als Parameterwert genommen statt den Richtungsvektor zu normieren; die Entfernung direkt als Parameter eingesetzt; bei der Strecke den Parameterbereich nicht geprüft; Schar- und Geradenparameter als denselben Parameter behandelt) → didaktischer Typ, kein Prüfungstyp
-- 2.7 Begründen (warum ein einziger Widerspruch die Punktprobe entscheidet; warum der Parameter bei der Strecke zwischen null und eins liegen muss) → didaktischer Typ, kein Prüfungstyp
+- 2.1 Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen (3) → wortgleich; GK 1 (2017), Haupt 1 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.2 Punkt auf einer Geraden mit vorgegebenem Abstand zu einem festen Punkt über eine quadratische Gleichung bestimmen (3; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.3 Höhe eines Punktes auf einer Strecke aus der Entfernung vom Anfang berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.4 Punkt auf einer Geraden mit vorgegebener Koordinate angeben (1) → wortgleich; GK 2 (2019, 2025), Haupt 0 · LK 0 · FHR 0
+- 2.5 Punktprobe an einer Geraden durchführen (11) → wortgleich; GK 3 (2018, 2023, 2025), Haupt 3 · LK 1 (2025), Haupt 1 · FHR 0
+- 2.6 Kollinearität dreier Punkte über die Verbindungsvektoren nachweisen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 2.7 Fehler finden (nur eine oder zwei Koordinaten geprüft; den Abstand als Parameterwert genommen statt den Richtungsvektor zu normieren; die Entfernung direkt als Parameter eingesetzt; bei der Strecke den Parameterbereich nicht geprüft; Schar- und Geradenparameter als denselben Parameter behandelt) → didaktischer Typ, kein Prüfungstyp
+- 2.8 Begründen (warum ein einziger Widerspruch die Punktprobe entscheidet; warum der Parameter bei der Strecke zwischen null und eins liegen muss) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Lage als Anhang** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4528,12 +4579,13 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 4 · Sachgeraden** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Höhenunterschied senkrecht übereinanderliegender Punkte über gleiche x- und y-Koordinaten bestimmen (1) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
-- 4.2 Neigung einer Strecke in Prozent aus Höhendifferenz und Horizontalabstand berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.3 Lösungsweg zur Bestimmung eines Punktes auf einer Geraden beschreiben (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
-- 4.4 Lösungsansatz für eine bewegte Gerade durch einen festen Punkt erläutern und im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.5 Fehler finden (den vertikalen Abstand als Abstand windschiefer Geraden gerechnet; die Seillänge statt des Horizontalabstands als Bezug der Neigung genommen; die Höhendifferenz als Lotfußpunkt-Abstand beschrieben; das Intervall des Streckenparameters nicht erläutert) → didaktischer Typ, kein Prüfungstyp
-- 4.6 Begründen (warum „vertikal übereinander“ zwei Koordinatengleichungen liefert; warum die Neigung ein Quotient zweier Längen ist) → didaktischer Typ, kein Prüfungstyp
+- 4.1 Höhenunterschied senkrecht übereinanderliegender Punkte über gleiche x- und y-Koordinaten bestimmen (2) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 4.2 Horizontalabstand aus vorgegebener Neigung in Prozent und Höhendifferenz berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.3 Neigung einer Strecke in Prozent aus Höhendifferenz und Horizontalabstand berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.4 Lösungsweg zur Bestimmung eines Punktes auf einer Geraden beschreiben (2) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
+- 4.5 Lösungsansatz für eine bewegte Gerade durch einen festen Punkt erläutern und im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.6 Fehler finden (den vertikalen Abstand als Abstand windschiefer Geraden gerechnet; die Seillänge statt des Horizontalabstands als Bezug der Neigung genommen; die Höhendifferenz als Lotfußpunkt-Abstand beschrieben; das Intervall des Streckenparameters nicht erläutert) → didaktischer Typ, kein Prüfungstyp
+- 4.7 Begründen (warum „vertikal übereinander“ zwei Koordinatengleichungen liefert; warum die Neigung ein Quotient zweier Längen ist) → didaktischer Typ, kein Prüfungstyp
 
 ### lagebeziehungen
 
@@ -4554,33 +4606,35 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.3 Fehler finden (den falschen Punkt eingesetzt; einen Punkt gewählt, an dem der Parameter herausfällt; beide freien Werte null gesetzt; den Parameter aus einem einzelnen Koeffizienten geraten) → didaktischer Typ, kein Prüfungstyp
 - 2.4 Begründen (warum ein Punkt der Ebene eine Gleichung für den Parameter liefert; warum die triviale Lösung keine Ebenengleichung ergibt) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 3 · Gerade und Ebene** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
+**Einheit 3 · Gerade und Ebene** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Gerade und Ebene: Lage einer Geradenschar zu einer Ebene mit Fallunterscheidung nach dem Parameter untersuchen (1) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
 - 3.2 Gerade und Ebene: Lage einer Geraden in einer Ebene durch Einsetzen nachweisen (4) → wortgleich; GK 1 (2021), Haupt 1 · LK 1 (2023), Haupt 1 · FHR 0
-- 3.3 Gerade und Ebene: Kreisbahn einer Drehung um eine Kante als Kreis in einer Ebene mit Mittelpunkt begründen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
-- 3.4 Gerade und Ebene: Parallelität einer Geraden zu einer Koordinatenebene über die z-Koordinaten entscheiden (2) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 3.3 Gerade und Ebene: Parallelität einer Geraden zu einer Koordinatenebene über die z-Koordinaten entscheiden (4) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 3.4 Gerade und Ebene: Kreisbahn einer Drehung um eine Kante als Kreis in einer Ebene mit Mittelpunkt begründen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 3.5 Gerade und Ebene: Existenz unendlich vieler Ebenen ohne Punkt mit drei gleichen Koordinaten begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Punkt und Ebene: Parameterwerte für gemeinsame Punkte einer Pyramidenschar mit einer Ebene untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Fehler finden (nur den Stützpunkt geprüft und „liegt in der Ebene“ geschlossen; den Fall Parameter fällt heraus als „parallel“ abgeschlossen, ohne die Punktprobe zu führen; bei der Schar nur die Spitze geprüft und die Grundfläche vergessen) → didaktischer Typ, kein Prüfungstyp
-- 3.8 Begründen (warum das Herausfallen des Parameters über enthalten oder parallel entscheidet; warum das Skalarprodukt mit dem Normalenvektor die drei Fälle trennt) → didaktischer Typ, kein Prüfungstyp
+- 3.6 Gerade und Ebene: Parallelität einer Geraden zu einer Ebene über das Skalarprodukt von Richtungs- und Normalenvektor nachweisen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 3.7 Punkt und Ebene: Parameterwerte für gemeinsame Punkte einer Pyramidenschar mit einer Ebene untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.8 Fehler finden (nur den Stützpunkt geprüft und „liegt in der Ebene“ geschlossen; den Fall Parameter fällt heraus als „parallel“ abgeschlossen, ohne die Punktprobe zu führen; bei der Schar nur die Spitze geprüft und die Grundfläche vergessen) → didaktischer Typ, kein Prüfungstyp
+- 3.9 Begründen (warum das Herausfallen des Parameters über enthalten oder parallel entscheidet; warum das Skalarprodukt mit dem Normalenvektor die drei Fälle trennt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Lagebefunde im Sachzusammenhang** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 4.1 Gerade und Ebene: Berühren einer Geraden mit einem Netz über die Höhe des Durchstoßpunkts in der Netzebene untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.2 Gerade und Ebene: Schattenpunkt auf einer Wand als Schnitt von Lichtstrahl und Ebene untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.3 Punkt und Ebene: Auftreffpunkt einer Bahnkurve auf der Grundebene berechnen und Lage innerhalb des Spielfelds prüfen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.4 Gerade und Ebene: Spurpunkt einer Lichtgeraden als Schatten auf der Wand aus einem Lösungsweg erläutern (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.5 Fehler finden (nur den Schnittpunkt berechnet und die Wandmaße nicht geprüft; nur die Zeit berechnet und die Lage nicht geprüft; den Schatten an der falschen Kante beginnen lassen; den zweiten Lösungsschritt falsch gedeutet) → didaktischer Typ, kein Prüfungstyp
-- 4.6 Begründen (warum der Schatten der Durchstoßpunkt der Lichtgeraden ist; warum nach der Rechnung immer der Bereich zu prüfen bleibt) → didaktischer Typ, kein Prüfungstyp
+- 4.4 Gerade und Ebene: Länge eines Schattens auf einer Dachfläche über Schnitt von Lichtgerade und Ebene beschreiben (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.5 Gerade und Ebene: Spurpunkt einer Lichtgeraden als Schatten auf der Wand aus einem Lösungsweg erläutern (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.6 Fehler finden (nur den Schnittpunkt berechnet und die Wandmaße nicht geprüft; nur die Zeit berechnet und die Lage nicht geprüft; den Schatten an der falschen Kante beginnen lassen; den zweiten Lösungsschritt falsch gedeutet) → didaktischer Typ, kein Prüfungstyp
+- 4.7 Begründen (warum der Schatten der Durchstoßpunkt der Lichtgeraden ist; warum nach der Rechnung immer der Bereich zu prüfen bleibt) → didaktischer Typ, kein Prüfungstyp
 
 ### schnittmengen
 
 **Einheit 1 · Schnittpunkt von Gerade und Ebene** – Abitur-Jahrgänge GK 3 von 9 (Haupt 3) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Schnittpunkt von Gerade und Ebene berechnen (6) → wortgleich; GK 2 (2018, 2023), Haupt 1 · LK 3 (2017, 2018, 2026), Haupt 2 · FHR 0
-- 1.2 Schattenpunkt bei paralleler Projektion bestimmen (2) → wortgleich; GK 1 (2018), Haupt 0 · LK 0 · FHR 0
-- 1.3 Spitze einer Pyramide als Schnittpunkt einer Kantengeraden mit einer Koordinatenachse berechnen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 1.2 Spitze einer Pyramide als Schnittpunkt einer Kantengeraden mit einer Koordinatenachse berechnen (3) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 1.3 Schattenpunkt bei paralleler Projektion bestimmen (2) → wortgleich; GK 1 (2018), Haupt 0 · LK 0 · FHR 0
 - 1.4 Durchstoßpunkt einer achsenparallelen Geraden mit einer Ebene berechnen und Abstand im Sachzusammenhang angeben (1) → wortgleich; GK 1 (2019), Haupt 1 · LK 0 · FHR 0
 - 1.5 Zeit bis zum Erreichen einer Ebene aus dem Geradenparameter bestimmen (1) → wortgleich; GK 1 (2018), Haupt 1 · LK 0 · FHR 0
 - 1.6 Rechenweg für den Schnittpunkt einer Geraden mit einer Ebene durch drei Punkte beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4632,16 +4686,17 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 3 · Neigungswinkel von Ebenen** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 3 von 7 (Haupt 3) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 3.1 Neigungswinkel einer Ebene gegen eine Koordinatenebene über die Normalenvektoren berechnen (17) → wortgleich; GK 6 (2017, 2018, 2021, 2023, 2024, 2025), Haupt 6 · LK 3 (2017, 2023, 2025), Haupt 3 · FHR 0
-- 3.2 Innenwinkel zwischen Dachebene und vertikaler Wand über den Neigungswinkel berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.3 Winkel zwischen einer Seitenfläche und der Horizontalen als Grenzwinkel im Sachzusammenhang bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.4 Neigung einer Ebene in Prozent über den Winkel zur Koordinatenebene prüfen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Fehler finden (den Sinus statt des Kosinus genommen; das Komplement – den Winkel zwischen Normalenvektor und Ebene – angegeben; den Nebenwinkel statt des Innenwinkels gelassen; einen Betrag falsch berechnet; die Neigung in Prozent mit dem Gradmaß gleichgesetzt) → didaktischer Typ, kein Prüfungstyp
-- 3.6 Begründen (warum der Winkel der Normalenvektoren der Winkel der Ebenen ist; warum der Tangens die Neigung in Prozent liefert) → didaktischer Typ, kein Prüfungstyp
+- 3.1 Neigungswinkel einer Ebene gegen eine Koordinatenebene über die Normalenvektoren berechnen (21) → wortgleich; GK 6 (2017, 2018, 2021, 2023, 2024, 2025), Haupt 6 · LK 2 (2023, 2025), Haupt 2 · FHR 0
+- 3.2 Stumpfen Winkel zwischen zwei benachbarten Seitenflächen einer Pyramide über die Normalenvektoren berechnen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 3.3 Innenwinkel zwischen Dachebene und vertikaler Wand über den Neigungswinkel berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.4 Winkel zwischen einer Seitenfläche und der Horizontalen als Grenzwinkel im Sachzusammenhang bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.5 Neigung einer Ebene in Prozent über den Winkel zur Koordinatenebene prüfen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.6 Fehler finden (den Sinus statt des Kosinus genommen; das Komplement – den Winkel zwischen Normalenvektor und Ebene – angegeben; den Nebenwinkel statt des Innenwinkels gelassen; einen Betrag falsch berechnet; die Neigung in Prozent mit dem Gradmaß gleichgesetzt) → didaktischer Typ, kein Prüfungstyp
+- 3.7 Begründen (warum der Winkel der Normalenvektoren der Winkel der Ebenen ist; warum der Tangens die Neigung in Prozent liefert) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Winkel von Geraden gegen Ebenen und Bogenmaße** – Abitur-Jahrgänge GK 2 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Schnittwinkel zwischen Gerade und Ebene über Richtungs- und Normalenvektor berechnen (3) → wortgleich; GK 2 (2017, 2019), Haupt 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 4.1 Schnittwinkel zwischen Gerade und Ebene über Richtungs- und Normalenvektor berechnen (4) → wortgleich; GK 2 (2017, 2019), Haupt 0 · LK 1 (2017), Haupt 1 · FHR 0
 - 4.2 Länge eines Kreisbogens durch drei Punkte über den Winkel am Mittelpunkt berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.3 Neigungswinkel einer Strecke gegen die Horizontale über ihre Projektion berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.4 Fehler finden (den Kosinus statt des Sinus genommen und den Winkel zur Normalen erhalten; den Winkel zur Vertikalen statt zur Horizontalen angegeben; den Radius falsch angesetzt) → didaktischer Typ, kein Prüfungstyp
@@ -4660,15 +4715,16 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Rechte Winkel rückwärts** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Dreieck: Parameter für einen rechten Winkel über das Skalarprodukt ermitteln (4) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
+- 2.1 Dreieck: Parameter für einen rechten Winkel über das Skalarprodukt ermitteln (5) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
 - 2.2 Dreieck: Koordinate eines Punktes auf einer Kante für einen rechten Winkel über das Skalarprodukt berechnen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 2.3 Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen oder Oberflächeninhalt berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Geraden und Ebenen: Punkt aus Orthogonalitäts- und Ebenenbedingung bestimmen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
 - 2.5 Dreieck: Eckpunkt eines gleichschenklig-rechtwinkligen Dreiecks mit Kathete in einer Koordinatenebene ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.6 Dreieck: Punkte auf einer Koordinatenachse mit rechtem Winkel zu zwei Punkten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.7 Dreieck: Teilverhältnis eines Punktes auf einer Strecke aus einem rechten Winkel ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.8 Fehler finden (die Vektoren vom falschen Punkt aus angesetzt; eine Lösung außerhalb des Kantenbereichs nicht ausgeschlossen; die negative Höhe nicht verworfen; nur eine von zwei Lösungen angegeben; den Streckenparameter als Teilverhältnis ausgegeben; die Länge des konstruierten Vektors nicht angepasst) → didaktischer Typ, kein Prüfungstyp
-- 2.9 Begründen (warum die Bedingung eine Gleichung liefert; warum quadratische Bedingungen zwei Kandidaten geben, die der Bereich siebt) → didaktischer Typ, kein Prüfungstyp
+- 2.8 Geraden und Ebenen: Parameter eines Punktes aus der Orthogonalität einer Strecke zu einer Geraden bestimmen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.9 Fehler finden (die Vektoren vom falschen Punkt aus angesetzt; eine Lösung außerhalb des Kantenbereichs nicht ausgeschlossen; die negative Höhe nicht verworfen; nur eine von zwei Lösungen angegeben; den Streckenparameter als Teilverhältnis ausgegeben; die Länge des konstruierten Vektors nicht angepasst) → didaktischer Typ, kein Prüfungstyp
+- 2.10 Begründen (warum die Bedingung eine Gleichung liefert; warum quadratische Bedingungen zwei Kandidaten geben, die der Bereich siebt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Senkrecht zu Geraden und Ebenen** – Abitur-Jahrgänge GK 4 von 9 (Haupt 3) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4694,7 +4750,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 1 · Abstand zweier Punkte** – Abitur-Jahrgänge GK 5 von 9 (Haupt 3) · LK 3 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Parameter aus der Gleichschenkligkeit eines Dreiecks berechnen (6) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2026), Haupt 1 · FHR 0
-- 1.2 Streckenlänge berechnen (5) → wortgleich; GK 4 (2017, 2018, 2019, 2020), Haupt 2 · LK 2 (2017, 2018), Haupt 0 · FHR 0
+- 1.2 Streckenlänge berechnen (6) → wortgleich; GK 4 (2017, 2018, 2019, 2020), Haupt 2 · LK 2 (2017, 2018), Haupt 0 · FHR 0
 - 1.3 Erreichbarkeit der Grundfläche über den größten Abstand zu einem Punkt beurteilen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Nächsten und fernsten Punkt des Deckflächenrands eines Zylinders zu einem Randpunkt der Grundfläche bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.5 Sprungweite als Abstand zweier Punkte einer Parameterkurve in der Grundebene berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4707,7 +4763,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 - 2.1 Punkt mit vorgegebenem Abstand zur Ebene auf der Lotgeraden bestimmen (6) → wortgleich; GK 1 (2025), Haupt 1 · LK 2 (2024, 2026), Haupt 2 · FHR 0
 - 2.2 Abstand eines Punktes von einer Ebene mit der Hesseschen Normalform berechnen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 2 (2017, 2022), Haupt 1 · FHR 0
-- 2.3 Punkt auf einer Strecke mit vorgegebenem Abstand zu einer Ebene bestimmen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
+- 2.3 Punkt auf einer Strecke mit vorgegebenem Abstand zu einer Ebene bestimmen (2) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 2.4 Lotgerade von einem Punkt auf eine Ebene angeben (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
 - 2.5 Aufgabenstellung zum Abstand eines Punktes von einer Scharebene aus dem Lösungsweg formulieren (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.6 Fehler finden (den Normalenvektor nicht normiert; den vollen statt den halben Spiegelbild-Abstand abgetragen; die volle Kantenlänge statt der halben; die Betragsgleichung nur mit einem Vorzeichen gelöst; die Einheit nicht in Längeneinheiten umgerechnet; einen Richtungsvektor der Ebene statt des Normalenvektors für die Lotgerade genommen) → didaktischer Typ, kein Prüfungstyp
@@ -4715,33 +4771,37 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 3 · Lotfußpunkt** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 3.1 Gerade in einer Ebene parallel zu einer Geraden mit kleinstem Abstand bestimmen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 3.2 Lotfußpunkt auf einer Geraden über das Skalarprodukt mit dem Richtungsvektor berechnen (2) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 3.1 Lotfußpunkt auf einer Geraden über das Skalarprodukt mit dem Richtungsvektor berechnen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 3.2 Gerade in einer Ebene parallel zu einer Geraden mit kleinstem Abstand bestimmen (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 3.3 Punkt auf einer Geraden mit vorgegebenem Abstand zu einer zweiten Geraden über eine Skizze und den Sinus berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.4 Gleichen Abstand eines Punktes zu einer Geradenschar über den Lotfußpunkt beurteilen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
-- 3.5 Lotfußpunkt aus Geradengleichung und Orthogonalitätsbedingung im Gleichungspaar deuten (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
-- 3.6 Lösungsweg für den Lotfußpunkt eines Punktes auf einer Geraden beschreiben (2) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 3.7 Rechenweg für die kürzeste Linie über eine Kante aus Lotfußpunkt und Symmetrie erläutern (2) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 3.8 Abstand eines Punktes von einer Geraden über Lotgerade und Schnittpunkt aus einem Lösungsweg erläutern (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 3.9 Aufgabenstellung zu einer Drehung um eine Kante aus Lotfußpunkt und Rechenweg formulieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.10 Lösungsweg für einen Punkt mit gleichem Abstand zu drei Strecken über Lotfußpunkt und Abstandsgleichheit erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.11 Fehler finden (den Mittelpunkt statt des Lotfußpunkts genommen; die Orthogonalität zum falschen Vektor gefordert; den Lotfußpunkt auf die falsche Kante bezogen; irgendeine parallele Gerade ohne den Lotfußpunkt angegeben; den Lotfußpunkt nur innerhalb der Strecke gesucht, obwohl er außerhalb liegt; Abstände für einzelne Parameterwerte berechnet und verallgemeinert) → didaktischer Typ, kein Prüfungstyp
-- 3.12 Begründen (warum das Gleichungspaar aus Geradengleichung und Skalarprodukt null immer einen Lotfußpunkt beschreibt; warum das Lot von P auf die Ebene senkrecht auf jeder Geraden durch den Lotfußpunkt in der Ebene steht) → didaktischer Typ, kein Prüfungstyp
+- 3.4 Radius der Kreisbahn eines Punkts bei Drehung um eine Achse als Abstand zur Achse über den Lotfußpunkt berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.5 Lösungsweg für den Lotfußpunkt eines Punktes auf einer Geraden beschreiben (3) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 3.6 Gleichen Abstand eines Punktes zu einer Geradenschar über den Lotfußpunkt beurteilen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
+- 3.7 Lotfußpunkt aus Geradengleichung und Orthogonalitätsbedingung im Gleichungspaar deuten (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
+- 3.8 Rechenweg für die kürzeste Linie über eine Kante aus Lotfußpunkt und Symmetrie erläutern (2) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 3.9 Abstand eines Punktes von einer Geraden über Lotgerade und Schnittpunkt aus einem Lösungsweg erläutern (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 3.10 Aufgabenstellung zu einer Drehung um eine Kante aus Lotfußpunkt und Rechenweg formulieren (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.11 Lösungsweg für einen Punkt mit gleichem Abstand zu drei Strecken über Lotfußpunkt und Abstandsgleichheit erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.12 Parameterpaare für Geradenpunkte gleichen Abstands zu einem Punkt über die Symmetrie zum Lotfußpunkt angeben (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.13 Fehler finden (den Mittelpunkt statt des Lotfußpunkts genommen; die Orthogonalität zum falschen Vektor gefordert; den Lotfußpunkt auf die falsche Kante bezogen; irgendeine parallele Gerade ohne den Lotfußpunkt angegeben; den Lotfußpunkt nur innerhalb der Strecke gesucht, obwohl er außerhalb liegt; Abstände für einzelne Parameterwerte berechnet und verallgemeinert) → didaktischer Typ, kein Prüfungstyp
+- 3.14 Begründen (warum das Gleichungspaar aus Geradengleichung und Skalarprodukt null immer einen Lotfußpunkt beschreibt; warum das Lot von P auf die Ebene senkrecht auf jeder Geraden durch den Lotfußpunkt in der Ebene steht) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Abstand als Argument** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Punkt mit gleichem Abstand zu allen Seitenflächen über die Symmetrieachse bestimmen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 4.2 Punkte mit gleichem Abstand zu drei Eckpunkten eines rechtwinkligen Dreiecks über den Thaleskreis ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.3 Strecke in einer geneigten Ebene über einen Höhenschnitt bestimmen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 4.4 Abstand zweier Punkte auf parallelen Ebenen mit dem Abstand der Ebenen vergleichen (2) → wortgleich; GK 2 (2020, 2023), Haupt 2 · LK 0 · FHR 0
-- 4.5 Verhältnis zweier Abstände über den Strahlensatz an der Pyramidenspitze begründen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 4.6 Abstand einer vertikalen Fläche zu einer Achse über den Mittelpunkt der Oberkante begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.7 Abstand eines Punktes zu einer Ebene über eine Schrägstrecke nach oben abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.8 Horizontalen Abstand zweier Punkte als kürzer als ihre Verbindungsstrecke begründen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
-- 4.9 Lotfußpunkt außerhalb einer Figur als Grund für größere Abstände aller Figurpunkte zeichnerisch begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.10 Lösungsweg für den Punkt gleichen Abstands zu allen Seitenflächen einer Pyramide erläutern (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 4.11 Fehler finden (die schräge Strecke als Abstand genommen; den Abstand zweier Ebenenpunkte mit dem Ebenenabstand gleichgesetzt; mit gerechneten Werten statt mit einer Begründung geantwortet; den Lotfußpunkt rechnerisch bestimmt, wo zeichnerisch zu begründen war; den Abstand einer Ecke statt des Kantenmittelpunkts zur Achse genommen; die Vordachlänge waagerecht statt in der geneigten Ebene gemessen; die Abstandsgleichung als Abstand zur Spitze gedeutet; drei Abstandsgleichungen angesetzt statt den Thaleskreis zu sehen) → didaktischer Typ, kein Prüfungstyp
-- 4.12 Begründen (warum das Lot die kürzeste Verbindung ist; warum die Symmetrieachse die Punkte gleichen Abstands trägt) → didaktischer Typ, kein Prüfungstyp
+- 4.1 Punkt mit gleichem Abstand zu allen Seitenflächen über die Symmetrieachse bestimmen (3) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 4.2 Strecke in einer geneigten Ebene über einen Höhenschnitt bestimmen (3) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 4.3 Punkte mit vorgegebenem Abstandsverhältnis zu zwei senkrechten Geraden über innere und äußere Teilung bestimmen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.4 Punkte mit gleichem Abstand zu drei Eckpunkten eines rechtwinkligen Dreiecks über den Thaleskreis ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.5 Abstand zweier Punkte auf parallelen Ebenen mit dem Abstand der Ebenen vergleichen (2) → wortgleich; GK 2 (2020, 2023), Haupt 2 · LK 0 · FHR 0
+- 4.6 Verhältnis zweier Abstände über den Strahlensatz an der Pyramidenspitze begründen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 4.7 Abstand einer vertikalen Fläche zu einer Achse über den Mittelpunkt der Oberkante begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.8 Abstand eines Punktes zu einer Ebene über eine Schrägstrecke nach oben abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.9 Gleichen Abstand zweier Punkte von einer Drehachse ohne Rechnung über die Symmetrie begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.10 Horizontalen Abstand zweier Punkte als kürzer als ihre Verbindungsstrecke begründen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 4.11 Lotfußpunkt außerhalb einer Figur als Grund für größere Abstände aller Figurpunkte zeichnerisch begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.12 Lösungsweg für den Punkt gleichen Abstands zu allen Seitenflächen einer Pyramide erläutern (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 4.13 Fehler finden (die schräge Strecke als Abstand genommen; den Abstand zweier Ebenenpunkte mit dem Ebenenabstand gleichgesetzt; mit gerechneten Werten statt mit einer Begründung geantwortet; den Lotfußpunkt rechnerisch bestimmt, wo zeichnerisch zu begründen war; den Abstand einer Ecke statt des Kantenmittelpunkts zur Achse genommen; die Vordachlänge waagerecht statt in der geneigten Ebene gemessen; die Abstandsgleichung als Abstand zur Spitze gedeutet; drei Abstandsgleichungen angesetzt statt den Thaleskreis zu sehen) → didaktischer Typ, kein Prüfungstyp
+- 4.14 Begründen (warum das Lot die kürzeste Verbindung ist; warum die Symmetrieachse die Punkte gleichen Abstands trägt) → didaktischer Typ, kein Prüfungstyp
 
 ### spiegelung
 
@@ -4767,13 +4827,14 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 3 · Symmetrieebenen von Körpern** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Symmetrieebenen eines Körpers aus den Koordinaten begründen (3; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.2 Symmetrie zweier Punkte bezüglich einer Koordinatenachse über die Koordinaten begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.3 Symmetrieebene eines geraden Prismas über die Symmetrieachse der Grundfläche begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.4 Symmetrieebene eines zusammengesetzten Körpers über verschiedene Höhen der Teilkörper ausschließen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Symmetrieebene eines Körpers unter vorgegebenen Gleichungen auswählen und eine ausschließen (5) → wortgleich; GK 1 (2022), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
-- 3.6 Symmetrieebene eines Körpers angeben und ihre Schnittfigur mit dem Körper einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Fehler finden (die waagerechte Ebene durch die Giebelspitzen gewählt; eine Ebene für symmetrisch gehalten, weil die Spitze in ihr liegt; die Diagonalebene mit der falschen Vorzeichenbedingung verwechselt; beim Rechteck eine Diagonalebene angegeben; die Mitte geschätzt statt den Mittelwert der Koordinaten zu bilden; die Symmetrie zur falschen Ebene behauptet; nur einzelne Punktepaare gespiegelt statt allgemein zu begründen; nur einen Parameterwert geprüft) → didaktischer Typ, kein Prüfungstyp
-- 3.8 Begründen (warum eine einzige Punktprobe zum Ausschließen genügt; warum beim geraden Prisma die Ebene durch die Symmetrieachse der Grundfläche senkrecht auf ihr stehen muss) → didaktischer Typ, kein Prüfungstyp
+- 3.2 Symmetrie einer geraden Pyramide bezüglich einer Koordinatenachse über Grundflächenmittelpunkt und Spitze begründen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.3 Symmetrie zweier Punkte bezüglich einer Koordinatenachse über die Koordinaten begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.4 Symmetrieebene eines geraden Prismas über die Symmetrieachse der Grundfläche begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.5 Symmetrieebene eines zusammengesetzten Körpers über verschiedene Höhen der Teilkörper ausschließen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.6 Symmetrieebene eines Körpers unter vorgegebenen Gleichungen auswählen und eine ausschließen (5) → wortgleich; GK 1 (2022), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
+- 3.7 Symmetrieebene eines Körpers angeben und ihre Schnittfigur mit dem Körper einzeichnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.8 Fehler finden (die waagerechte Ebene durch die Giebelspitzen gewählt; eine Ebene für symmetrisch gehalten, weil die Spitze in ihr liegt; die Diagonalebene mit der falschen Vorzeichenbedingung verwechselt; beim Rechteck eine Diagonalebene angegeben; die Mitte geschätzt statt den Mittelwert der Koordinaten zu bilden; die Symmetrie zur falschen Ebene behauptet; nur einzelne Punktepaare gespiegelt statt allgemein zu begründen; nur einen Parameterwert geprüft) → didaktischer Typ, kein Prüfungstyp
+- 3.9 Begründen (warum eine einzige Punktprobe zum Ausschließen genügt; warum beim geraden Prisma die Ebene durch die Symmetrieachse der Grundfläche senkrecht auf ihr stehen muss) → didaktischer Typ, kein Prüfungstyp
 
 ### scharen-von-geraden-und-ebenen
 
@@ -4795,9 +4856,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Parameter aus Lagebedingungen** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Scharparameter für Parallelität von Ebene und Gerade ermitteln (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 2.2 Existenz eines Scharparameters für eine Gerade in der Ebene untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.3 Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen (1) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.1 Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen (3) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 2.2 Scharparameter für Parallelität von Ebene und Gerade ermitteln (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 2.3 Existenz eines Scharparameters für eine Gerade in der Ebene untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Koordinatengleichung einer Ebene aufstellen und Parameter eines Scharpunkts in der Ebene bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.5 Parameter einer Geradenschar aus einem vorgegebenen Durchstoßpunkt bestimmen (1) → wortgleich; GK 0 · LK 1 (2018), Haupt 1 · FHR 0
 - 2.6 Scharparameter für Orthogonalität von Gerade und Ebene bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4858,17 +4919,19 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.8 Ebene Figur: Teilverhältnis auf einer Kante deuten und Teilfläche eines Rechtecks berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.9 Ebene Figur: Trapezfläche zwischen einer geneigten Ebene und einer waagerechten Ebene in einem Quader berechnen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 2.10 Ebene Figur: Zuschauerzahl aus dem Flächeninhalt eines Trapezes im Raum und dem Platzbedarf berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.11 Ebene Figur: Flächenformel einer Raute als halbes Diagonalenprodukt mit einer Skizze begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.12 Ebene Figur: Flächenverhältnis zweier Quadrate aus den Seitenlängen nachweisen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 2.13 Ebene Figur: Flächenterm eines Vierecks als Rechteck plus rechtwinkliges Dreieck erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.14 Fehler finden (eine Schenkellänge als Trapezhöhe genommen; die Rautenfläche als Seite mal Seite gerechnet; den halben Diagonalenabstand als Seitenlänge genommen; die Verschiebung nur auf einer Seite angesetzt; die Schnittgerade in der falschen Höhe bestimmt; das Netz mit der Seillänge statt dem Pfahlabstand gerechnet; die Formel nur zitiert statt am Rechteck zu begründen; nur eine Lösung der Wurzelgleichung ohne Begründung angegeben; den falschen Anteil der Fläche genommen) → didaktischer Typ, kein Prüfungstyp
-- 2.15 Begründen (warum die Trapezhöhe senkrecht zwischen den parallelen Seiten gemessen wird; warum das halbe Diagonalenprodukt am umschließenden Rechteck sichtbar wird) → didaktischer Typ, kein Prüfungstyp
+- 2.11 Ebene Figur: Flächeninhalt des Schattens eines geneigten Rechtecks bei senkrechtem Lichteinfall über eine Querschnittsskizze begründen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.12 Ebene Figur: Flächenformel einer Raute als halbes Diagonalenprodukt mit einer Skizze begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.13 Ebene Figur: Flächeninhalt eines Quadrats über die Seitenlänge nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.14 Ebene Figur: Flächenverhältnis zweier Quadrate aus den Seitenlängen nachweisen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 2.15 Ebene Figur: Flächenterm eines Vierecks als Rechteck plus rechtwinkliges Dreieck erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.16 Fehler finden (eine Schenkellänge als Trapezhöhe genommen; die Rautenfläche als Seite mal Seite gerechnet; den halben Diagonalenabstand als Seitenlänge genommen; die Verschiebung nur auf einer Seite angesetzt; die Schnittgerade in der falschen Höhe bestimmt; das Netz mit der Seillänge statt dem Pfahlabstand gerechnet; die Formel nur zitiert statt am Rechteck zu begründen; nur eine Lösung der Wurzelgleichung ohne Begründung angegeben; den falschen Anteil der Fläche genommen) → didaktischer Typ, kein Prüfungstyp
+- 2.17 Begründen (warum die Trapezhöhe senkrecht zwischen den parallelen Seiten gemessen wird; warum das halbe Diagonalenprodukt am umschließenden Rechteck sichtbar wird) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Volumen und Oberfläche von Pyramide und Prisma: Grundfläche mal Höhe, bei der Pyramide der Faktor ein Drittel; die Höhe als Abstand der Spitze zur Grundflächenebene (waagerechte Grundfläche: z-Differenz; senkrechte Kante über Skalarprodukte erkennen); die Grundfläche aus den Kästen eins und zwei (Drachen, Trapez, Raute, rechtwinkliges Dreieck); Oberflächen (Seitenhöhe über Pythagoras** – Abitur-Jahrgänge GK 5 von 9 (Haupt 4) · LK 5 von 7 (Haupt 5) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 3.1 Körper: Kürzeste und längste Kante und Volumen einer Pyramide über einem Drachenviereck berechnen (4) → wortgleich; GK 1 (2025), Haupt 1 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.2 Körper: Höhe einer Pyramide aus dem Volumen bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.3 Körper: Oberflächeninhalt einer quadratischen Pyramide berechnen (2) → wortgleich; GK 2 (2017, 2021), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
+- 3.2 Körper: Höhe einer Pyramide aus dem Volumen bestimmen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.3 Körper: Oberflächeninhalt einer quadratischen Pyramide berechnen (3) → wortgleich; GK 2 (2017, 2021), Haupt 1 · LK 1 (2024), Haupt 1 · FHR 0
 - 3.4 Körper: Pyramidenvolumen aus Grundfläche und Höhe berechnen (2) → wortgleich; GK 1 (2020), Haupt 1 · LK 1 (2018), Haupt 1 · FHR 0
 - 3.5 Körper: Volumen aus Prisma und aufgesetzter Pyramide berechnen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
 - 3.6 Körper: Höhe eines Prismas aus dem Mantelflächeninhalt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4909,8 +4972,8 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 1 · Matrizen als Rechenobjekte** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 1.1 Matrizenalgebra: Matrix-Vektor-Produkt berechnen (4) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.2 Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.3 Matrizenalgebra: Inverse Matrix über A · B = E bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.2 Matrizenalgebra: Inverse Matrix über A · B = E bestimmen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.3 Matrizenalgebra: Alle mit einer Matrix vertauschbaren Matrizen ermitteln (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Matrizenalgebra: Einträge einer Faktormatrix aus dem Produkt mit einer bekannten Matrix bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.5 Matrizenalgebra: Faktor aus M² als Vielfachem der Einheitsmatrix ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.6 Matrizenalgebra: Fehlende Einträge einer Matrixpotenz über Zeile mal Spalte und Spaltensumme berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -4918,37 +4981,39 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.8 Matrizenalgebra: Parameter aus der Gültigkeit der binomischen Formel für zwei Matrizen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.9 Matrizenalgebra: Parameter für gleiche Spur von Matrix und Inverser bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.10 Matrizenalgebra: Quadrat einer Matrix mit Parameter berechnen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.11 Matrizenalgebra: Hohe Potenz einer Vertauschungsmatrix über das Quadrat gleich Einheitsmatrix bestimmen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.12 Matrizenalgebra: Quadrat einer Summe zweier Matrizen mit C · D = −D · C vereinfachen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.13 Matrizenalgebra: Aufbau von Vertauschungsmatrizen mit vorgegebener Wirkung beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.14 Matrizenalgebra: Inverse einer Vertauschungsmatrix angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.15 Matrizenalgebra: Mögliche Formate einer Matrix aus der Bildbarkeit eines Produkts beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.16 Matrizenalgebra: Wirkung einer Permutationsmatrix beschreiben und Einträge aus M · A · M = A bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.17 Fehler finden (elementweise quadriert; Zeile mit Zeile multipliziert; die binomische Formel für Matrizen als allgemeingültig angesehen; die Inverse als Kehrwert-Matrix oder die Spur der Inversen als Kehrwert der Spur angesetzt; nur die Zeilen statt Zeilen und Spalten umsortiert; das Format nur ausgeschlossen statt beschrieben) → didaktischer Typ, kein Prüfungstyp
-- 1.18 Begründen (warum A · B und B · A verschieden sein können; warum M² = E hohe Potenzen auf M oder E zurückführt) → didaktischer Typ, kein Prüfungstyp
+- 1.11 Matrizenalgebra: Definiertheit von Summe und Produkt zweier Matrizen über die Formate entscheiden (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.12 Matrizenalgebra: Hohe Potenz einer Vertauschungsmatrix über das Quadrat gleich Einheitsmatrix bestimmen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.13 Matrizenalgebra: Quadrat einer Summe zweier Matrizen mit C · D = −D · C vereinfachen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.14 Matrizenalgebra: Aufbau von Vertauschungsmatrizen mit vorgegebener Wirkung beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.15 Matrizenalgebra: Inverse einer Vertauschungsmatrix angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.16 Matrizenalgebra: Mögliche Formate einer Matrix aus der Bildbarkeit eines Produkts beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.17 Matrizenalgebra: Wirkung einer Permutationsmatrix beschreiben und Einträge aus M · A · M = A bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.18 Fehler finden (elementweise quadriert; Zeile mit Zeile multipliziert; die binomische Formel für Matrizen als allgemeingültig angesehen; die Inverse als Kehrwert-Matrix oder die Spur der Inversen als Kehrwert der Spur angesetzt; nur die Zeilen statt Zeilen und Spalten umsortiert; das Format nur ausgeschlossen statt beschrieben) → didaktischer Typ, kein Prüfungstyp
+- 1.19 Begründen (warum A · B und B · A verschieden sein können; warum M² = E hohe Potenzen auf M oder E zurückführt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Vektoren unter Matrizen** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 2.1 Matrizenalgebra: Alle Vektoren mit M · v = t · v für festes t bestimmen (4) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.2 Matrizenalgebra: Parameter eines Vektors aus einer Matrix-Vektor-Gleichung bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.3 Matrizenalgebra: Abbildungsmatrix aus einer geometrischen Bedingung an den Bildpunkt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.4 Matrizenalgebra: Alle Vektoren mit M · v = t · v durch Fallunterscheidung bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.5 Matrizenalgebra: Gleichung mit inverser Matrix über die Eigenvektorbeziehung lösen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.2 Matrizenalgebra: Gleichung mit inverser Matrix über die Eigenvektorbeziehung lösen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.3 Matrizenalgebra: Parameter eines Vektors aus einer Matrix-Vektor-Gleichung bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.4 Matrizenalgebra: Abbildungsmatrix aus einer geometrischen Bedingung an den Bildpunkt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.5 Matrizenalgebra: Alle Vektoren mit M · v = t · v durch Fallunterscheidung bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.6 Matrizenalgebra: Kollinearität von M · x − x mit einem Vektor untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.7 Matrizenalgebra: Parameter einer Matrix aus der Orthogonalität von v und M · v bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.8 Matrizenalgebra: Parameter einer Matrix aus einer Matrix-Vektor-Gleichung untersuchen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.9 Matrizenalgebra: Parameterbereich für endliche Grenzwerte der Matrixpotenzen über eine Potenzfolge bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.10 Matrizenalgebra: Erhalt der Spaltensumme unter einer stochastischen Matrix allgemein nachweisen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.11 Matrizenalgebra: Bedingung für eine selbstinverse Matrix mit Parametern herleiten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.12 Matrizenalgebra: Existenz mehrerer Lösungen von M · a = 0 begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.13 Matrizenalgebra: Konstanten Faktor der Komponentensumme von Q · u über die Spaltensummen nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.14 Matrizenalgebra: Orthogonalität einer Matrix über das Produkt mit der Transponierten nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.15 Matrizenalgebra: Unlösbarkeit einer Matrix-Vektor-Gleichung über eine Nullzeile begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.16 Matrizenalgebra: Abbildungsmatrix als Spiegelung an einer Koordinatenachse deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.17 Matrizenalgebra: Existenz von Matrizen mit vorgegebener Eigenschaft über ein Gleichungssystem beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.18 Matrizenalgebra: Matrix mit vorgegebener Eigenschaft angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.19 Fehler finden (nur eine Lösung oder nur den Nullvektor gefunden; die Fallunterscheidung nach der Nullkomponente ausgelassen; die überzählige Gleichung nicht geprüft oder als Widerspruch gelesen; mit einer Zahlenmatrix statt allgemein gerechnet; die Spaltensummen nicht eingesetzt; nur eine Vorzeichenlösung genommen) → didaktischer Typ, kein Prüfungstyp
-- 2.20 Begründen (warum die Lösungen von M · v = t · v Vielfache bilden; warum die überzählige Gleichung die Probe ist) → didaktischer Typ, kein Prüfungstyp
+- 2.12 Matrizenalgebra: Beziehung zwischen den Komponenten eines Fixvektors über das Gleichungssystem N · u = u nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.13 Matrizenalgebra: Existenz mehrerer Lösungen von M · a = 0 begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.14 Matrizenalgebra: Konstanten Faktor der Komponentensumme von Q · u über die Spaltensummen nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.15 Matrizenalgebra: Orthogonalität einer Matrix über das Produkt mit der Transponierten nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.16 Matrizenalgebra: Unlösbarkeit einer Matrix-Vektor-Gleichung über eine Nullzeile begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.17 Matrizenalgebra: Abbildungsmatrix als Spiegelung an einer Koordinatenachse deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.18 Matrizenalgebra: Existenz von Matrizen mit vorgegebener Eigenschaft über ein Gleichungssystem beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.19 Matrizenalgebra: Matrix mit vorgegebener Eigenschaft angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.20 Fehler finden (nur eine Lösung oder nur den Nullvektor gefunden; die Fallunterscheidung nach der Nullkomponente ausgelassen; die überzählige Gleichung nicht geprüft oder als Widerspruch gelesen; mit einer Zahlenmatrix statt allgemein gerechnet; die Spaltensummen nicht eingesetzt; nur eine Vorzeichenlösung genommen) → didaktischer Typ, kein Prüfungstyp
+- 2.21 Begründen (warum die Lösungen von M · v = t · v Vielfache bilden; warum die überzählige Gleichung die Probe ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Verflechtung** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -4978,73 +5043,76 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 4 · Übergangsmodell** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 4.1 Übergangsprozess: Spanne einer Komponente nach einem Schritt bei teilweise bekannter Verteilung ermitteln (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.2 Übergangsprozess: Verteilung nach einem Übergang berechnen und einen Anteil angeben (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.3 Übergangsprozess: Anteil nach zwei Übergängen aus dem Diagramm berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.4 Übergangsprozess: Bereich eines Anteils in Abhängigkeit vom Matrixparameter über die Randwerte ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.5 Übergangsprozess: Eintrag von M² berechnen und Zeile von M² im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.6 Übergangsprozess: Größtmögliche Anzahl im Vorquartal über die inverse Matrix und Nichtnegativität bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.7 Übergangsprozess: Matrixeintrag aus einer Potenz der inversen Matrix bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.8 Übergangsprozess: Matrixparameter aus einer Komponente nach einem Schritt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.9 Übergangsprozess: Matrixparameter aus einer Komponente nach zwei Schritten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.10 Übergangsprozess: Mögliche Übergangsmatrix aus Ausgabe- und Rückgabezahlen zweier Stationen mit freiem Parameter ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.11 Übergangsprozess: Quadrat der Übergangsmatrix aus dem Diagramm berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.12 Übergangsprozess: Quadrat der Übergangsmatrix berechnen und M² · v als Zustand nach zwei Schritten deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.13 Übergangsprozess: Unbekannte Anzahl aus einer Bedingung an den Folgezustand berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.14 Übergangsprozess: Unbekannte Komponente der Ausgangsverteilung aus dem Ergebnisvektor über ein Gleichungssystem ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.15 Übergangsprozess: Verhältnis der Anfangsbestände aus einer Gleichverteilung nach einem Übergang bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.16 Übergangsprozess: Vorherige Verteilung über die inverse Matrix berechnen und prozentuale Abnahme einer Komponente angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.17 Übergangsprozess: Zustände nach einem und zwei Schritten aus einem Anfangszustand berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.18 Übergangsprozess: Fehler in einem Übergangsdiagramm gegen die Matrix begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.19 Übergangsprozess: Gleichung aus gleichen Komponentensummen von Ausgabe- und Rückgabevektor nachweisen und deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.20 Übergangsprozess: Unmöglichkeit einer Verteilung über eine negative Vorgängerkomponente begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.21 Übergangsprozess: Übergangsdiagramm aus der Übergangstabelle zeichnen (9) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.22 Übergangsprozess: Matrixeintrag im Sachzusammenhang deuten (5) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.23 Übergangsprozess: Term mit Matrixpotenz und Zugang im Sachzusammenhang auswählen und deuten (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.24 Übergangsprozess: Aussage über eine Komponente nach einem Übergang bei gleicher Ausgangsverteilung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.25 Übergangsprozess: Aussage über eine gleichbleibende Komponente aus einer Matrixzeile beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.26 Übergangsprozess: Aussagen über Anteile nach zwei Übergängen mit M² beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.27 Übergangsprozess: Diagramm der zeitlichen Entwicklung eines Zustands aus dem Übergangsdiagramm auswählen und begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.28 Übergangsprozess: Geänderte Übergangsmatrix aus zwei Vorschlägen nach dem beschriebenen Wechselverhalten auswählen und begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.29 Übergangsprozess: Gleichungssystem für die Verteilung vor einem Übergang aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.30 Übergangsprozess: Komponentensumme eines Produkts mit der diagonalfreien Matrix als Wechslerzahl deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.31 Übergangsprozess: Matrix bei geänderter Reihenfolge der Zustände angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.32 Übergangsprozess: Matrixeintrag und Spaltensumme eins im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.33 Übergangsprozess: Potenz der Übergangsmatrix als mehrschrittigen Übergang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.34 Übergangsprozess: Rückrechnung eines Verteilungsvektors über die Inverse von M² beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.35 Übergangsprozess: Spielregel zu den Übergangswahrscheinlichkeiten eines Feldes angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.36 Übergangsprozess: Term für die Verteilung mit zwischenzeitlichem Abgang über Diagonalmatrix und Matrixpotenzen angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.37 Übergangsprozess: Zeile der Übergangsmatrix aus dem Diagramm angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.38 Übergangsprozess: Zustand mit dem kleinsten Wechselanteil aus der Matrix ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.39 Übergangsprozess: Übergangsdiagramm zur Matrix auswählen und fehlende Werte angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.40 Übergangsprozess: Übergangsgleichung mit Matrix aus dem Diagramm aufstellen und Variablen deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.41 Übergangsprozess: Übergangsmatrix aus dem Diagramm unter zwei Darstellungen auswählen und ergänzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.42 Übergangsprozess: Übergangsmatrix aus dem Übergangsdiagramm aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 4.43 Fehler finden (Zeilen und Spalten vertauscht – das Kernfehlmuster des Themas; die Pfeilrichtung nach Zeilen statt Spalten; die Zugänge einer Zeile mit den Abgängen einer Spalte verwechselt; die Schrittzahl falsch gezählt oder den Zugang an die falsche Stelle des Terms gesetzt; vorwärts statt rückwärts gerechnet; die Summenbedingung der Gesamtheit vergessen) → didaktischer Typ, kein Prüfungstyp
-- 4.44 Begründen (warum die Spalten die Ausgangszustände tragen und die Spaltensumme eins die Erhaltung; warum M² der Übergang über zwei Schritte ist) → didaktischer Typ, kein Prüfungstyp
+- 4.1 Übergangsprozess: Verteilung nach einem Übergang berechnen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.2 Übergangsprozess: Spanne einer Komponente nach einem Schritt bei teilweise bekannter Verteilung ermitteln (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.3 Übergangsprozess: Unbekannte Anzahl aus einer Bedingung an den Folgezustand berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.4 Übergangsprozess: Anteil nach zwei Übergängen aus dem Diagramm berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.5 Übergangsprozess: Bereich eines Anteils in Abhängigkeit vom Matrixparameter über die Randwerte ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.6 Übergangsprozess: Eintrag von M² berechnen und Zeile von M² im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.7 Übergangsprozess: Größtmögliche Anzahl im Vorquartal über die inverse Matrix und Nichtnegativität bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.8 Übergangsprozess: Matrixeintrag aus einer Potenz der inversen Matrix bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.9 Übergangsprozess: Matrixparameter aus einer Komponente nach einem Schritt bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.10 Übergangsprozess: Matrixparameter aus einer Komponente nach zwei Schritten bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.11 Übergangsprozess: Matrixparameter aus einer Überlebensrate über zwei Stufen bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.12 Übergangsprozess: Mögliche Übergangsmatrix aus Ausgabe- und Rückgabezahlen zweier Stationen mit freiem Parameter ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.13 Übergangsprozess: Quadrat der Übergangsmatrix aus dem Diagramm berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.14 Übergangsprozess: Quadrat der Übergangsmatrix berechnen und M² · v als Zustand nach zwei Schritten deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.15 Übergangsprozess: Unbekannte Komponente der Ausgangsverteilung aus dem Ergebnisvektor über ein Gleichungssystem ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.16 Übergangsprozess: Verhältnis der Anfangsbestände aus einer Gleichverteilung nach einem Übergang bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.17 Übergangsprozess: Vorherige Verteilung über die inverse Matrix berechnen und prozentuale Abnahme einer Komponente angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.18 Übergangsprozess: Zustände nach einem und zwei Schritten aus einem Anfangszustand berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.19 Übergangsprozess: Fehler in einem Übergangsdiagramm gegen die Matrix begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.20 Übergangsprozess: Gleichung aus gleichen Komponentensummen von Ausgabe- und Rückgabevektor nachweisen und deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.21 Übergangsprozess: Unmöglichkeit einer Verteilung über eine negative Vorgängerkomponente begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.22 Übergangsprozess: Übergangsdiagramm aus der Übergangstabelle zeichnen (10) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.23 Übergangsprozess: Matrixeintrag im Sachzusammenhang deuten (6) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.24 Übergangsprozess: Term mit Matrixpotenz und Zugang im Sachzusammenhang auswählen und deuten (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.25 Übergangsprozess: Aussage über eine Komponente nach einem Übergang bei gleicher Ausgangsverteilung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.26 Übergangsprozess: Aussage über eine gleichbleibende Komponente aus einer Matrixzeile beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.27 Übergangsprozess: Aussagen über Anteile nach zwei Übergängen mit M² beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.28 Übergangsprozess: Diagramm der zeitlichen Entwicklung eines Zustands aus dem Übergangsdiagramm auswählen und begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.29 Übergangsprozess: Geänderte Übergangsmatrix aus zwei Vorschlägen nach dem beschriebenen Wechselverhalten auswählen und begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.30 Übergangsprozess: Gleichungssystem für die Verteilung vor einem Übergang aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.31 Übergangsprozess: Komponentensumme eines Produkts mit der diagonalfreien Matrix als Wechslerzahl deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.32 Übergangsprozess: Matrix bei geänderter Reihenfolge der Zustände angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.33 Übergangsprozess: Matrixeintrag und Spaltensumme eins im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.34 Übergangsprozess: Potenz der Übergangsmatrix als mehrschrittigen Übergang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.35 Übergangsprozess: Rückrechnung eines Verteilungsvektors über die Inverse von M² beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.36 Übergangsprozess: Spielregel zu den Übergangswahrscheinlichkeiten eines Feldes angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.37 Übergangsprozess: Term für die Verteilung mit zwischenzeitlichem Abgang über Diagonalmatrix und Matrixpotenzen angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.38 Übergangsprozess: Zeile der Übergangsmatrix aus dem Diagramm angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.39 Übergangsprozess: Zustand mit dem kleinsten Wechselanteil aus der Matrix ablesen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.40 Übergangsprozess: Übergangsdiagramm zur Matrix auswählen und fehlende Werte angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.41 Übergangsprozess: Übergangsgleichung mit Matrix aus dem Diagramm aufstellen und Variablen deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.42 Übergangsprozess: Übergangsmatrix aus dem Diagramm unter zwei Darstellungen auswählen und ergänzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.43 Übergangsprozess: Übergangsmatrix aus dem Übergangsdiagramm aufstellen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 4.44 Fehler finden (Zeilen und Spalten vertauscht – das Kernfehlmuster des Themas; die Pfeilrichtung nach Zeilen statt Spalten; die Zugänge einer Zeile mit den Abgängen einer Spalte verwechselt; die Schrittzahl falsch gezählt oder den Zugang an die falsche Stelle des Terms gesetzt; vorwärts statt rückwärts gerechnet; die Summenbedingung der Gesamtheit vergessen) → didaktischer Typ, kein Prüfungstyp
+- 4.45 Begründen (warum die Spalten die Ausgangszustände tragen und die Spaltensumme eins die Erhaltung; warum M² der Übergang über zwei Schritte ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 5 · Stationär und langfristig** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 5.1 Übergangsprozess: Unbekannte der Übergangsmatrix und des Bestands aus einem stationären Vektor bestimmen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.2 Übergangsprozess: Stationäre Verteilung mit vorgegebener Gesamtzahl berechnen und einen Anteil beurteilen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.3 Übergangsprozess: Zeitpunkt für das Unterschreiten eines Anteils der Populationsgröße über einen konstanten Faktor bestimmen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.2 Übergangsprozess: Zeitpunkt für das Unter- oder Überschreiten einer Schranke über einen konstanten Faktor bestimmen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.3 Übergangsprozess: Stationäre Verteilung mit vorgegebener Gesamtzahl berechnen und einen Anteil beurteilen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.4 Übergangsprozess: Anteil zu entfernender Individuen für einen stationären Zustand berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.5 Übergangsprozess: Kleinsten Zeitpunkt für das Unterschreiten eines Anteils aus dem Matrixterm bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.6 Übergangsprozess: Parameter einer Übergangsmatrix aus einer Zykluslänge bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.7 Übergangsprozess: Wechselzahlen nach einem Übergang berechnen und Gleichgewicht deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 5.8 Übergangsprozess: Exponentielles Wachstum aus einem Eigenvektor begründen und Kurve zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.9 Übergangsprozess: Konstante prozentuale Abnahme einer Gruppe ohne Zugänge aus der Matrix begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.10 Übergangsprozess: Monotone Entwicklung der Anteile aus der Übergangstabelle begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.11 Übergangsprozess: Unmöglichkeit eines konstanten Zustands über eine negative Lösung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.12 Übergangsprozess: Einträge der Grenzmatrix im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.13 Übergangsprozess: Entwicklung einer Population aus einer Potenz der inversen Matrix beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.14 Übergangsprozess: Langfristige Entwicklung aus M³ als Vielfachem der Einheitsmatrix durch Fallunterscheidung beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.15 Übergangsprozess: Langfristige Verteilung aus dem Übergangsdiagramm beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.16 Übergangsprozess: Potenz der Übergangsmatrix gleich Einheitsmatrix als Zyklus deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.17 Übergangsprozess: Stationäre Verteilung bei absorbierendem Zustand angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.18 Übergangsprozess: Übergangsverhalten einer parametrisierten Matrix nach Fällen im Sachzusammenhang beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 5.19 Fehler finden (den Fixvektor nur bis auf Vielfache bestimmt und die Gesamtzahl vergessen; alle drei Gleichungen aufgestellt und sich verloren; eine stationäre Verteilung mit lauter positiven Anteilen vermutet, obwohl ein Zustand absorbiert; den Zeitpunkt nicht aufgerundet oder um eins verfehlt; den Faktor rückwärts als Faktor vorwärts gelesen; nur den Faktor genannt, ohne die Fälle zu unterscheiden) → didaktischer Typ, kein Prüfungstyp
-- 5.20 Begründen (warum die Gesamtzahl eine Gleichung des Fixvektorsystems ersetzt; warum ein konstanter Faktor je Schritt eine Exponentialentwicklung liefert) → didaktischer Typ, kein Prüfungstyp
+- 5.9 Übergangsprozess: Jährlichen Wachstumsfaktor aus zwei Zuständen im Abstand mehrerer Schritte nachweisen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.10 Übergangsprozess: Konstante prozentuale Abnahme einer Gruppe ohne Zugänge aus der Matrix begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.11 Übergangsprozess: Monotone Entwicklung der Anteile aus der Übergangstabelle begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.12 Übergangsprozess: Unmöglichkeit eines konstanten Zustands über eine negative Lösung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.13 Übergangsprozess: Eignung eines Populationsmodells zur langfristigen Beschreibung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.14 Übergangsprozess: Einträge der Grenzmatrix im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.15 Übergangsprozess: Entwicklung einer Population aus einer Potenz der inversen Matrix beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.16 Übergangsprozess: Langfristige Entwicklung aus M³ als Vielfachem der Einheitsmatrix durch Fallunterscheidung beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.17 Übergangsprozess: Langfristige Verteilung aus dem Übergangsdiagramm beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.18 Übergangsprozess: Potenz der Übergangsmatrix gleich Einheitsmatrix als Zyklus deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.19 Übergangsprozess: Stationäre Verteilung bei absorbierendem Zustand angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.20 Übergangsprozess: Übergangsverhalten einer parametrisierten Matrix nach Fällen im Sachzusammenhang beschreiben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 5.21 Fehler finden (den Fixvektor nur bis auf Vielfache bestimmt und die Gesamtzahl vergessen; alle drei Gleichungen aufgestellt und sich verloren; eine stationäre Verteilung mit lauter positiven Anteilen vermutet, obwohl ein Zustand absorbiert; den Zeitpunkt nicht aufgerundet oder um eins verfehlt; den Faktor rückwärts als Faktor vorwärts gelesen; nur den Faktor genannt, ohne die Fälle zu unterscheiden) → didaktischer Typ, kein Prüfungstyp
+- 5.22 Begründen (warum die Gesamtzahl eine Gleichung des Fixvektorsystems ersetzt; warum ein konstanter Faktor je Schritt eine Exponentialentwicklung liefert) → didaktischer Typ, kein Prüfungstyp
 
 ### vierfeldertafel
 
@@ -5070,7 +5138,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 1 · Der Quotient** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 2 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 1.1 Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen (12) → wortgleich; GK 4 (2017, 2018, 2022, 2023), Haupt 4 · LK 2 (2017, 2018), Haupt 1 · FHR 0
+- 1.1 Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen (15) → wortgleich; GK 4 (2017, 2018, 2022, 2023), Haupt 4 · LK 2 (2017, 2018), Haupt 1 · FHR 0
 - 1.2 Bedingte Anteile aus der Vierfeldertafel vergleichen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.3 Bedingte Wahrscheinlichkeit aus der Vierfeldertafel mit absoluten Häufigkeiten angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.4 Fehler finden (die Bedingung vertauscht – durch den falschen Rand geteilt, das Kernfehlmuster des Themas; den Quotienten auf die Gesamtheit statt auf die Bedingungsgruppe bezogen; Schnittanteile direkt verglichen statt bedingte Anteile; absolute statt bedingte Anteile verglichen) → didaktischer Typ, kein Prüfungstyp
@@ -5078,7 +5146,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 2 · Bayes** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Bedingte Wahrscheinlichkeit über Bayes aus dem Baumdiagramm berechnen (8) → wortgleich; GK 1 (2020), Haupt 1 · LK 2 (2022, 2024), Haupt 2 · FHR 0
+- 2.1 Bedingte Wahrscheinlichkeit über Bayes aus dem Baumdiagramm berechnen (11) → wortgleich; GK 1 (2020), Haupt 1 · LK 2 (2022, 2024), Haupt 2 · FHR 0
 - 2.2 Bedingte Wahrscheinlichkeit aus dem Baumdiagramm mit einer Schranke vergleichen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.3 Bayes-Term für drei Behälter nachweisen und Kugelzahl bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.4 Bayes-Term im Sachzusammenhang deuten (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -5168,10 +5236,11 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.6 Erwartungswert eines Spielgewinns über die Pfade eines Baumdiagramms berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.7 Erwartungswert der Augensumme aus dem Erwartungswert der Trefferzahl berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 1.8 Erwartungswert einer weiteren Runde mit dem sicheren Betrag vergleichen und eine Empfehlung begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 1.9 Erwartungswert der Auszahlung mit dem Einsatz vergleichen (3) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 1.10 Summand eines Erwartungswertterms im Sachzusammenhang deuten (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 1.11 Fehler finden (Auszahlung als Gewinn gedeutet, Einsatz nicht gegengerechnet; falsche Gewichte; fehlende Wahrscheinlichkeit nicht ergänzt; Selbstkosten mit entgangenem Gewinn verwechselt; Abweichung auf die falsche Bezugsgröße bezogen) → didaktischer Typ, kein Prüfungstyp
-- 1.12 Begründen (warum der Erwartungswert kein möglicher Wert sein muss; warum „im Mittel gewinnbringend“ nichts über ein einzelnes Spiel sagt) → didaktischer Typ, kein Prüfungstyp
+- 1.9 Gesamtzahl der Gruppen aus der Personenzahl und der mittleren Gruppengröße unter einer vereinfachenden Annahme schätzen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.10 Erwartungswert der Auszahlung mit dem Einsatz vergleichen (3) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 1.11 Summand eines Erwartungswertterms im Sachzusammenhang deuten (2) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 1.12 Fehler finden (Auszahlung als Gewinn gedeutet, Einsatz nicht gegengerechnet; falsche Gewichte; fehlende Wahrscheinlichkeit nicht ergänzt; Selbstkosten mit entgangenem Gewinn verwechselt; Abweichung auf die falsche Bezugsgröße bezogen) → didaktischer Typ, kein Prüfungstyp
+- 1.13 Begründen (warum der Erwartungswert kein möglicher Wert sein muss; warum „im Mittel gewinnbringend“ nichts über ein einzelnes Spiel sagt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Rückwärts** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 6 von 7 (Haupt 6) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -5192,17 +5261,18 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 3 · Varianz und Standardabweichung: die allgemeinen Formeln (gewichtete quadrierte Abweichung, Wurzel), die Binomialformeln μ = n · p und σ = √(n · p · (1 − p)) vorwärts und rückwärts (Parameter aus Kenngrößen, Symmetrie liefert p), Argumente über die Formel (Parabel in p, Symmetrie von p und Gegenwahrscheinlichkeit, Wachstum mit der Wurzel aus n). (BB Q2 GK-Kern, BE Q4 GK binomial bzw. LK allgemein; [IQB-VER 4] vorausgesetzt) ← Eingabe „standardabweichung“, „varianz“, „sigma“, „streuung“** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 3.1 Parameter einer Binomialverteilung aus Erwartungswert und Standardabweichung bestimmen (2) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
-- 3.2 Standardabweichung einer Binomialverteilung aus n und Erwartungswert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.3 Parameter n aus Erwartungswert und Symmetrie einer Binomialverteilung ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.4 Verhältnis der Varianzen zweier Binomialverteilungen aus dem Erwartungswert im Diagramm bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.1 Parameter einer Binomialverteilung aus Erwartungswert und Standardabweichung bestimmen (3) → wortgleich; GK 1 (2026), Haupt 1 · LK 0 · FHR 0
+- 3.2 Stichprobenumfang aus einer vorgegebenen Standardabweichung der Binomialverteilung berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.3 Standardabweichung einer Binomialverteilung aus n und Erwartungswert berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.4 Parameter n aus Erwartungswert und Symmetrie einer Binomialverteilung ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.5 Verhältnis der Varianzen zweier Binomialverteilungen aus dem Erwartungswert im Diagramm bestimmen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.6 Standardabweichung über einen Summanden der Varianz abschätzen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.7 Gleiche Standardabweichung zweier komplementärer Zufallsgrößen begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.8 Monotonie der Varianz einer Binomialverteilung in p über die Parabel begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.9 Achsen des Graphen der Standardabweichung in Abhängigkeit von p skalieren und erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.10 Fehler finden (σ statt σ² in die Formel gesetzt; die Wurzel nur über einen Teil des Produkts gezogen; Varianz als Standardabweichung angegeben; n verdoppelt statt vervierfacht; mit gleichen Erwartungswerten statt mit der Symmetrie der Formel argumentiert) → didaktischer Typ, kein Prüfungstyp
-- 3.11 Begründen (warum die Varianz in p eine Parabel ist und was ihr Scheitel bedeutet; warum ein einzelner Summand die Varianz nach unten abschätzt) → didaktischer Typ, kein Prüfungstyp
+- 3.8 Unmöglichkeit einer Standardabweichung bei gegebener Versuchszahl über das Maximum von p · (1 − p) begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.9 Monotonie der Varianz einer Binomialverteilung in p über die Parabel begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.10 Achsen des Graphen der Standardabweichung in Abhängigkeit von p skalieren und erläutern (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.11 Fehler finden (σ statt σ² in die Formel gesetzt; die Wurzel nur über einen Teil des Produkts gezogen; Varianz als Standardabweichung angegeben; n verdoppelt statt vervierfacht; mit gleichen Erwartungswerten statt mit der Symmetrie der Formel argumentiert) → didaktischer Typ, kein Prüfungstyp
+- 3.12 Begründen (warum die Varianz in p eine Parabel ist und was ihr Scheitel bedeutet; warum ein einzelner Summand die Varianz nach unten abschätzt) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Kenngrößen am Säulendiagramm: den ganzzahligen Erwartungswert an der höchsten Säule ablesen und daraus p, n oder Verhältnisse bestimmen, die Parität von n aus zwei gleich hohen Säulen begründen, ein Sigma-Intervall auf ganze Werte übertragen und die Wahrscheinlichkeit als Summe der Säulenhöhen ablesen. (GOST-Inhalt „Eigenschaften auf der Grundlage graphischer Darstellungen“; OHiMi 2.4 „Histogramme“; alle Zeilen Teil A, gehäuft seit 2024) ← Eingabe „höchste säule“, „diagramm erwartungswert“, „sigma-intervall“, „säulendiagramm binomial“** – Abitur-Jahrgänge GK 2 von 9 (Haupt 2) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -5238,24 +5308,26 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.1 Erwartungswert einer Normalverteilung aus einer Wahrscheinlichkeitsvorgabe ermitteln und weitere Wahrscheinlichkeit berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.2 Parameter aus der Dichtefunktion ablesen und Bedingungen an Wahrscheinlichkeiten der Normalverteilung prüfen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.3 Parameter einer Normalverteilung aus dem Graphen der Verteilungsfunktion ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.4 Implikation zweier Wahrscheinlichkeitsbedingungen der Normalverteilung über eine Schranke für σ begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.5 Quantil einer Normalverteilung bestimmen und Wahrscheinlichkeit dafür bei einer zweiten Verteilung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.6 Maximale Wahrscheinlichkeit eines Intervalls fester Länge über die Lage um den Erwartungswert begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Fehler finden (σ falsch aus dem Vorfaktor des Dichteterms gelesen; die Achsenskalierung des Verteilungsfunktions-Graphen übersehen; μ gleich der vorgegebenen Grenze gesetzt; die Monotonie in σ nicht benannt und nur einen Einzelfall gerechnet; die Aufgabe bei unbekanntem μ für unlösbar gehalten) → didaktischer Typ, kein Prüfungstyp
-- 3.8 Begründen (warum die Stelle mit dem Verteilungsfunktionswert ein Halb der Erwartungswert ist; warum kleineres σ die Masse näher an μ zieht) → didaktischer Typ, kein Prüfungstyp
+- 3.4 Standardabweichung einer Normalverteilung aus einer vorgegebenen Wahrscheinlichkeit bei festem Erwartungswert ermitteln (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.5 Implikation zweier Wahrscheinlichkeitsbedingungen der Normalverteilung über eine Schranke für σ begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.6 Quantil einer Normalverteilung bestimmen und Wahrscheinlichkeit dafür bei einer zweiten Verteilung beurteilen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.7 Maximale Wahrscheinlichkeit eines Intervalls fester Länge über die Lage um den Erwartungswert begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.8 Fehler finden (σ falsch aus dem Vorfaktor des Dichteterms gelesen; die Achsenskalierung des Verteilungsfunktions-Graphen übersehen; μ gleich der vorgegebenen Grenze gesetzt; die Monotonie in σ nicht benannt und nur einen Einzelfall gerechnet; die Aufgabe bei unbekanntem μ für unlösbar gehalten) → didaktischer Typ, kein Prüfungstyp
+- 3.9 Begründen (warum die Stelle mit dem Verteilungsfunktionswert ein Halb der Erwartungswert ist; warum kleineres σ die Masse näher an μ zieht) → didaktischer Typ, kein Prüfungstyp
 
 ### hypothesentests
 
 **Einheit 1 · Entscheidungsregel bestimmen: die Nullhypothese liefert p und die Binomialverteilung der Testgröße, die Alternative die Seite des Ablehnungsbereichs (rechtsseitig bei „mehr als“, linksseitig bei „weniger als“); die Grenze über kumulierte Wahrscheinlichkeiten so wählen, dass das Signifikanzniveau eingehalten wird** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 1.1 Entscheidungsregel eines einseitigen Signifikanztests bestimmen (6) → wortgleich; GK 0 · LK 3 (2018, 2023, 2025), Haupt 3 · FHR 0
-- 1.2 Lücke in einem Lösungsweg zur Ablehnungsgrenze begründen und ergänzen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 1.3 Fehler finden (rechts- statt linksseitig getestet; die Grenze um eins verfehlt, weil das knapp überschrittene Niveau in Kauf genommen wurde; die Minimalität nicht oder in der falschen Richtung belegt) → didaktischer Typ, kein Prüfungstyp
-- 1.4 Begründen (warum die Seite des Ablehnungsbereichs aus der Alternative folgt; warum der Nachbarwert zur Begründung der Grenze gehört) → didaktischer Typ, kein Prüfungstyp
+- 1.1 Entscheidungsregel eines einseitigen Signifikanztests bestimmen (8) → wortgleich; GK 0 · LK 3 (2018, 2023, 2025), Haupt 3 · FHR 0
+- 1.2 Ablehnungsgrenze bei größerem Stichprobenumfang ohne höheren Fehler erster Art bestimmen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 1.3 Lücke in einem Lösungsweg zur Ablehnungsgrenze begründen und ergänzen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
+- 1.4 Fehler finden (rechts- statt linksseitig getestet; die Grenze um eins verfehlt, weil das knapp überschrittene Niveau in Kauf genommen wurde; die Minimalität nicht oder in der falschen Richtung belegt) → didaktischer Typ, kein Prüfungstyp
+- 1.5 Begründen (warum die Seite des Ablehnungsbereichs aus der Alternative folgt; warum der Nachbarwert zur Begründung der Grenze gehört) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 2 · Die Nullhypothese wählen: aus der Sicht des Entscheiders** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 2.1 Wahl der Nullhypothese aus der Sicht des Entscheiders begründen (5) → wortgleich; GK 0 · LK 2 (2022, 2024), Haupt 2 · FHR 0
+- 2.1 Wahl der Nullhypothese aus der Sicht des Entscheiders begründen (6) → wortgleich; GK 0 · LK 2 (2022, 2024), Haupt 2 · FHR 0
 - 2.2 Fehler finden (den Fehler zweiter Art als kontrolliert angesehen oder als Grund der Wahl genannt; die Überlegung ohne Bezug zum begrenzten Risiko formuliert) → didaktischer Typ, kein Prüfungstyp
 - 2.3 Begründen (warum nur der Fehler erster Art durch das Signifikanzniveau begrenzt ist; wem welcher Irrtum schadet) → didaktischer Typ, kein Prüfungstyp
 
@@ -5266,9 +5338,10 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 3.3 Fehler zweiter Art aus dem Graphen der Ablehnwahrscheinlichkeit ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.4 Stichprobenumfang eines Tests aus Ablehnungsgrenze und Fehler erster Art am Graphen ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 3.5 Untere Schranke für den Stichprobenumfang eines Tests über den Fehler erster Art am Graphen begründen (1) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
-- 3.6 Nutzen eines größeren Stichprobenumfangs über den Fehler zweiter Art an den Gütekurven begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.7 Fehler finden (p auf der Seite gewählt, wo die Nullhypothese wahr ist – dort gibt es keinen Fehler zweiter Art; den Fehler erster Art als zweiten gerechnet; das Komplement des Annahmebereichs verfehlt; am Graphen die falsche Stelle abgelesen; die Monotonie in n in der falschen Richtung) → didaktischer Typ, kein Prüfungstyp
-- 3.8 Begründen (warum der Fehler zweiter Art vom gewählten p abhängt und nahe eins liegen kann; warum größeres n ihn verkleinert) → didaktischer Typ, kein Prüfungstyp
+- 3.6 Fehlentscheidungen eines Tests im Sachzusammenhang beschreiben (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.7 Nutzen eines größeren Stichprobenumfangs über den Fehler zweiter Art an den Gütekurven begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.8 Fehler finden (p auf der Seite gewählt, wo die Nullhypothese wahr ist – dort gibt es keinen Fehler zweiter Art; den Fehler erster Art als zweiten gerechnet; das Komplement des Annahmebereichs verfehlt; am Graphen die falsche Stelle abgelesen; die Monotonie in n in der falschen Richtung) → didaktischer Typ, kein Prüfungstyp
+- 3.9 Begründen (warum der Fehler zweiter Art vom gewählten p abhängt und nahe eins liegen kann; warum größeres n ihn verkleinert) → didaktischer Typ, kein Prüfungstyp
 
 ### konfidenzintervalle
 
@@ -5285,8 +5358,9 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 2.1 Grenzen eines Konfidenzintervalls aus dem Stichprobenergebnis über die Näherungsformel berechnen und im Diagramm zuordnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.2 Konfidenzintervall aus dem Diagramm identifizieren und Stichprobenergebnis aus der Grenze berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 2.3 Kleinsten Stichprobenumfang für die Unverträglichkeit eines Anteils mit einer Annahme über die Näherungsformel ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.4 Fehler finden (die Gleichung in h statt in p gelöst – die bequeme Näherung liefert andere Grenzen; die Grenze mit dem Umfang multipliziert statt erst h aus der Grenzgleichung bestimmt; die Anzahl statt des Anteils in die Formel gesetzt) → didaktischer Typ, kein Prüfungstyp
-- 2.5 Begründen (warum die Grenzgleichung zwei Lösungen hat und beide Grenzen sind; warum Unverträglichkeit eine Ungleichung in n ist) → didaktischer Typ, kein Prüfungstyp
+- 2.4 Verträglichkeit einer vermuteten Trefferwahrscheinlichkeit über das 1,96σ-Intervall um den Erwartungswert prüfen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.5 Fehler finden (die Gleichung in h statt in p gelöst – die bequeme Näherung liefert andere Grenzen; die Grenze mit dem Umfang multipliziert statt erst h aus der Grenzgleichung bestimmt; die Anzahl statt des Anteils in die Formel gesetzt) → didaktischer Typ, kein Prüfungstyp
+- 2.6 Begründen (warum die Grenzgleichung zwei Lösungen hat und beide Grenzen sind; warum Unverträglichkeit eine Ungleichung in n ist) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Argumente über Formel und Verträglichkeit: die Länge des Intervalls bei doppeltem Umfang (Faktor eins durch Wurzel zwei** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
@@ -5335,36 +5409,38 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 3 · Pfadregeln bei unabhängigen Stufen** – Abitur-Jahrgänge GK 8 von 9 (Haupt 8) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 6 von 8 (Haupt 5).
 
-- 3.1 Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen (7) → wortgleich; GK 1 (2021), Haupt 1 · LK 2 (2017, 2022), Haupt 2 · FHR 0
+- 3.1 Pfadwahrscheinlichkeit einer vorgegebenen Ergebnisfolge als Produkt berechnen (8) → wortgleich; GK 1 (2021), Haupt 1 · LK 2 (2017, 2022), Haupt 2 · FHR 0
 - 3.2 Pfadwahrscheinlichkeit für lauter gleiche Ergebnisse als Potenz berechnen (6) → wortgleich; GK 1 (2024), Haupt 1 · LK 1 (2025), Haupt 1 · FHR 0
-- 3.3 Pfadwahrscheinlichkeit zweier Stufen aus dem Sachtext berechnen (3) → wortgleich; GK 2 (2017, 2019), Haupt 2 · LK 0 · FHR 0
+- 3.3 Pfadwahrscheinlichkeit zweier Stufen aus dem Sachtext berechnen (5) → wortgleich; GK 2 (2017, 2019), Haupt 2 · LK 0 · FHR 0
 - 3.4 Wahrscheinlichkeit einer vorgegebenen Augensumme bei zwei Würfen über Pfade berechnen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
 - 3.5 Wahrscheinlichkeit für mindestens oder höchstens einmal bei mehreren Stufen über das Gegenereignis berechnen (3) → wortgleich; GK 1 (2020), Haupt 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 3.6 Wahrscheinlichkeit einer ungeraden Summe über Pfade berechnen (2) → wortgleich; GK 1 (2025), Haupt 1 · LK 0 · FHR 0
 - 3.7 Wahrscheinlichkeit eines Vergleichs zweier Zufallsgeräte über Pfade berechnen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
-- 3.8 Pfadregel mehrstufig mit Zurücklegen anwenden (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 4 (2019, 2021, 2024, 2025), Haupt 1
-- 3.9 Wahrscheinlichkeit eines Spielausgangs über Pfade mit Abbruch berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.10 Wahrscheinlichkeit für das Erreichen eines Feldes über die Pfadregel berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.11 Wahrscheinlichkeit für mehrere Wiederholungen ohne Abbruch als Potenz berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.12 Wahrscheinlichkeit für mindestens einen von zwei unabhängigen Erfolgen über das Gegenereignis berechnen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
-- 3.13 Wahrscheinlichkeit für zwei gleichfarbige Kugeln beim Ziehen mit Zurücklegen als Summe zweier Pfade berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
-- 3.14 Gewinnwahrscheinlichkeiten in einem Wechselspiel vergleichen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 3.15 Behauptung über die größere Wahrscheinlichkeit einer Augensumme bei zwei Würfeln über die Pfade widerlegen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 3.16 Wahrscheinlichkeit eines Gewinns über alle günstigen Summenpfade nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 3.17 Baumdiagramm zweistufig darstellen (4; fhr) → wortgleich; GK 0 · LK 0 · FHR 3 (2019, 2022, 2026), Haupt 3
-- 3.18 Baumdiagramm mit Abbruchbedingung erstellen (2) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 3.19 Baumdiagramm mehrstufig mit Zurücklegen darstellen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 1 (2021), Haupt 1
-- 3.20 Wahrscheinlichkeitsverteilung aufstellen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 1 (2022), Haupt 1
-- 3.21 Fehler finden (Wahrscheinlichkeiten addiert oder vervielfacht statt multipliziert; einen Binomialkoeffizienten ergänzt, obwohl die Reihenfolge festliegt; die Potenz mit der Trefferwahrscheinlichkeit statt der Nietenwahrscheinlichkeit gebildet; nur einen von mehreren Pfaden gerechnet; beim Abbruch alle Pfade auf volle Länge gezeichnet; in einem Wechselspiel nur den ersten Zug des Zweiten berücksichtigt; „höchstens einmal“ als „genau einmal“ gelesen) → didaktischer Typ, kein Prüfungstyp
-- 3.22 Begründen (warum die Äste auf jeder Stufe gleich bleiben, wenn zurückgelegt wird oder verschiedene Geräte gedreht werden; warum „mindestens einmal in n Versuchen“ über das Gegenereignis eine Potenz wird; warum beim Abbruch die Pfade verschieden lang sind und sich trotzdem zu eins ergänzen) → didaktischer Typ, kein Prüfungstyp
+- 3.8 Gleich wahrscheinliche Ergebnisse eines zweistufigen Experiments über die Pfadwahrscheinlichkeiten ermitteln (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 3.9 Kosten je Erfolg zweier Varianten über Pfadwahrscheinlichkeiten vergleichen (1; Ermessen, siehe Offene Punkte) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.10 Pfadregel mehrstufig mit Zurücklegen anwenden (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 4 (2019, 2021, 2024, 2025), Haupt 1
+- 3.11 Wahrscheinlichkeit eines Spielausgangs über Pfade mit Abbruch berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.12 Wahrscheinlichkeit für das Erreichen eines Feldes über die Pfadregel berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.13 Wahrscheinlichkeit für mehrere Wiederholungen ohne Abbruch als Potenz berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.14 Wahrscheinlichkeit für mindestens einen von zwei unabhängigen Erfolgen über das Gegenereignis berechnen (1) → wortgleich; GK 1 (2022), Haupt 1 · LK 0 · FHR 0
+- 3.15 Wahrscheinlichkeit für zwei gleichfarbige Kugeln beim Ziehen mit Zurücklegen als Summe zweier Pfade berechnen (1) → wortgleich; GK 1 (2023), Haupt 1 · LK 0 · FHR 0
+- 3.16 Gewinnwahrscheinlichkeiten in einem Wechselspiel vergleichen (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 3.17 Behauptung über die größere Wahrscheinlichkeit einer Augensumme bei zwei Würfeln über die Pfade widerlegen (1) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 3.18 Wahrscheinlichkeit eines Gewinns über alle günstigen Summenpfade nachweisen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 3.19 Baumdiagramm zweistufig darstellen (4; fhr) → wortgleich; GK 0 · LK 0 · FHR 3 (2019, 2022, 2026), Haupt 3
+- 3.20 Baumdiagramm mit Abbruchbedingung erstellen (2) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 3.21 Baumdiagramm mehrstufig mit Zurücklegen darstellen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 1 (2021), Haupt 1
+- 3.22 Wahrscheinlichkeitsverteilung aufstellen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 1 (2022), Haupt 1
+- 3.23 Fehler finden (Wahrscheinlichkeiten addiert oder vervielfacht statt multipliziert; einen Binomialkoeffizienten ergänzt, obwohl die Reihenfolge festliegt; die Potenz mit der Trefferwahrscheinlichkeit statt der Nietenwahrscheinlichkeit gebildet; nur einen von mehreren Pfaden gerechnet; beim Abbruch alle Pfade auf volle Länge gezeichnet; in einem Wechselspiel nur den ersten Zug des Zweiten berücksichtigt; „höchstens einmal“ als „genau einmal“ gelesen) → didaktischer Typ, kein Prüfungstyp
+- 3.24 Begründen (warum die Äste auf jeder Stufe gleich bleiben, wenn zurückgelegt wird oder verschiedene Geräte gedreht werden; warum „mindestens einmal in n Versuchen“ über das Gegenereignis eine Potenz wird; warum beim Abbruch die Pfade verschieden lang sind und sich trotzdem zu eins ergänzen) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 4 · Ziehen ohne Zurücklegen und Umlegen** – Abitur-Jahrgänge GK 7 von 9 (Haupt 7) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 7).
 
 - 4.1 Ziehen ohne Zurücklegen: Wahrscheinlichkeit beim zweimaligen Ziehen ohne Zurücklegen berechnen (9) → wortgleich; GK 4 (2018, 2019, 2020, 2025), Haupt 4 · LK 0 · FHR 0
-- 4.2 Wahrscheinlichkeit bei zweistufigem Umlegen zwischen Urnen berechnen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
-- 4.3 Gegenereignis nutzen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2024, 2025, 2026), Haupt 1
-- 4.4 Pfadregel mehrstufig ohne Zurücklegen anwenden (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 5 (2020, 2021, 2023, 2024, 2025), Haupt 1
-- 4.5 Ziehen ohne Zurücklegen: Wahrscheinlichkeit für ausschließlich eine Sorte beim mehrfachen Ziehen als Produkt berechnen (1) → wortgleich; GK 2 (2017, 2023), Haupt 2 · LK 0 · FHR 0
+- 4.2 Ziehen ohne Zurücklegen: Wahrscheinlichkeit für ausschließlich eine Sorte beim mehrfachen Ziehen als Produkt berechnen (4) → wortgleich; GK 2 (2017, 2023), Haupt 2 · LK 0 · FHR 0
+- 4.3 Wahrscheinlichkeit bei zweistufigem Umlegen zwischen Urnen berechnen (2) → wortgleich; GK 0 · LK 1 (2017), Haupt 1 · FHR 0
+- 4.4 Gegenereignis nutzen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2024, 2025, 2026), Haupt 1
+- 4.5 Pfadregel mehrstufig ohne Zurücklegen anwenden (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 5 (2020, 2021, 2023, 2024, 2025), Haupt 1
 - 4.6 Ziehen ohne Zurücklegen: Wahrscheinlichkeit für spätestens den dritten Zug über das Gegenereignis berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
 - 4.7 Ziehen ohne Zurücklegen: Gleiche Chance verschiedener Ziehungspositionen beim Ziehen ohne Zurücklegen begründen (1) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
 - 4.8 Baumdiagramm mehrstufig ohne Zurücklegen darstellen (10; fhr) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2020, 2021, 2022, 2023, 2024, 2025), Haupt 7
@@ -5374,7 +5450,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 5 · Mammutbäume** – Abitur-Jahrgänge GK 5 von 9 (Haupt 5) · LK 2 von 7 (Haupt 2) · FHR-Jahrgänge 6 von 8 (Haupt 2).
 
-- 5.1 Wahrscheinlichkeit einer Summe über alle Ergebnisfolgen mit Reihenfolgen berechnen (3) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
+- 5.1 Wahrscheinlichkeit einer Summe über alle Ergebnisfolgen mit Reihenfolgen berechnen (4) → wortgleich; GK 1 (2021), Haupt 1 · LK 0 · FHR 0
 - 5.2 Term für die Wahrscheinlichkeit eines Produktereignisses bei n Würfen ermitteln (2) → wortgleich; GK 0 · LK 1 (2025), Haupt 1 · FHR 0
 - 5.3 Wahrscheinlichkeit für k Treffer unmittelbar hintereinander unter n Versuchen berechnen (2) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
 - 5.4 Wahrscheinlichkeit über mehrere Pfade summieren (2; fhr) → wortgleich; GK 0 · LK 0 · FHR 6 (2019, 2020, 2021, 2022, 2023, 2024), Haupt 2
@@ -5389,13 +5465,13 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 
 **Einheit 6 · Situationsbäume** – Abitur-Jahrgänge GK 6 von 9 (Haupt 6) · LK 7 von 7 (Haupt 6) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
-- 6.1 Fehlende Wahrscheinlichkeiten im Baumdiagramm über die Pfadregel ermitteln (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
-- 6.2 Anteil über die totale Wahrscheinlichkeit aus dem Baumdiagramm berechnen (2) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 6.3 Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen (2) → wortgleich; GK 1 (2017), Haupt 0 · LK 2 (2017, 2023), Haupt 1 · FHR 0
-- 6.4 Totale Wahrscheinlichkeit über die Pfadregeln nachweisen (4) → wortgleich; GK 3 (2017, 2021, 2025), Haupt 3 · LK 0 · FHR 0
+- 6.1 Wahrscheinlichkeit für ein zweistufiges Experiment mit zufälliger Urnenzusammensetzung berechnen (4) → wortgleich; GK 1 (2017), Haupt 0 · LK 2 (2017, 2023), Haupt 1 · FHR 0
+- 6.2 Anteil über die totale Wahrscheinlichkeit aus dem Baumdiagramm berechnen (3) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 6.3 Fehlende Wahrscheinlichkeiten im Baumdiagramm über die Pfadregel ermitteln (3) → wortgleich; GK 1 (2020), Haupt 1 · LK 0 · FHR 0
+- 6.4 Totale Wahrscheinlichkeit über die Pfadregeln nachweisen (6) → wortgleich; GK 3 (2017, 2021, 2025), Haupt 3 · LK 0 · FHR 0
 - 6.5 Absolute Anzahl aus einer Pfadwahrscheinlichkeit mit einer Schranke vergleichen (2) → wortgleich; GK 0 · LK 1 (2026), Haupt 1 · FHR 0
 - 6.6 Anzahlvergleich zweier Teilgruppen über Pfadwahrscheinlichkeiten nachweisen (2) → wortgleich; GK 0 · LK 1 (2023), Haupt 1 · FHR 0
-- 6.7 Baumdiagramm zu einer zweistufigen Situation erstellen (11) → wortgleich; GK 1 (2025), Haupt 1 · LK 5 (2017, 2018, 2023, 2024, 2025), Haupt 3 · FHR 0
+- 6.7 Baumdiagramm zu einer zweistufigen Situation erstellen (15) → wortgleich; GK 1 (2025), Haupt 1 · LK 5 (2017, 2018, 2023, 2024, 2025), Haupt 3 · FHR 0
 - 6.8 Verhältnis zweier Pfadwahrscheinlichkeiten im Baumdiagramm prüfen (5) → wortgleich; GK 1 (2026), Haupt 1 · LK 1 (2025), Haupt 1 · FHR 0
 - 6.9 Baumdiagramm mit aus einer Pfadwahrscheinlichkeit erschlossener Einzelwahrscheinlichkeit erstellen (4) → wortgleich; GK 1 (2024), Haupt 1 · LK 1 (2022), Haupt 1 · FHR 0
 - 6.10 Baumdiagramm eines Befragungsverfahrens mit unbekanntem Anteil vervollständigen (2) → wortgleich; GK 1 (2024), Haupt 1 · LK 0 · FHR 0
@@ -5406,7 +5482,7 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 **Einheit 7 · Term und Ereignis** – Abitur-Jahrgänge GK 4 von 9 (Haupt 4) · LK 4 von 7 (Haupt 4) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 
 - 7.1 Term und Ereignis: Wahrscheinlichkeitsterm über das Gegenereignis gleicher Ergebnisse begründen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 7.2 Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben (21) → wortgleich; GK 3 (2021, 2024, 2025), Haupt 2 · LK 3 (2018, 2023, 2026), Haupt 3 · FHR 0
+- 7.2 Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben (22) → wortgleich; GK 3 (2021, 2024, 2025), Haupt 2 · LK 3 (2018, 2023, 2026), Haupt 3 · FHR 0
 - 7.3 Term und Ereignis: Fehlende Werte in einem Wahrscheinlichkeitsterm bestimmen (8) → wortgleich; GK 2 (2021, 2026), Haupt 2 · LK 2 (2022, 2026), Haupt 2 · FHR 0
 - 7.4 Term und Ereignis: Produkt aus Potenz und Binomialterm als Ereignis mit festem Abschnitt deuten (2) → wortgleich; GK 0 · LK 1 (2022), Haupt 1 · FHR 0
 - 7.5 Term für die Wahrscheinlichkeit eines mehrstufigen Pfads angeben (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
@@ -5449,16 +5525,17 @@ Abitur-Jahrgänge aus abi-katalog.csv (GK: 9 erfasste Jahrgänge 2018–2026; LK
 - 1.7 Fehler finden (Fakultät statt Potenz, wo jede Kette mehrfach vergeben werden darf; nur die Fakultät der Gesamtzahl genommen und die gleichartigen Gruppen nicht herausdividiert; Produkt statt Potenz bei Zeichenfolgen mit Wiederholung; die Grundmenge falsch – alle Gäste statt der Kinder; durch die Summe statt durch das Produkt der bekannten Anzahlen geteilt; den Binomialkoeffizienten genommen, obwohl die Reihenfolge festgelegt wird) → didaktischer Typ, kein Prüfungstyp
 - 1.8 Begründen (warum eine Anordnung jede Reihenfolge zählt und deshalb die Fakultät entsteht; warum bei Wiederholung die Zahl der Möglichkeiten je Platz gleich bleibt und eine Potenz entsteht) → didaktischer Typ, kein Prüfungstyp
 
-**Einheit 2 · Auswahlen und Binomialkoeffizient** – Abitur-Jahrgänge GK 0 von 9 (Haupt 0) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
+**Einheit 2 · Auswahlen und Binomialkoeffizient** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 1 von 7 (Haupt 1) · FHR-Jahrgänge 8 von 8 (Haupt 8).
 
 - 2.1 Kombination ohne Wiederholung berechnen (9; fhr) → wortgleich; GK 0 · LK 0 · FHR 7 (2019, 2020, 2021, 2022, 2023, 2024, 2025), Haupt 7
 - 2.2 Anzahl der Kennwörter mit fester Buchstabenfolge und zwei Zusatzzeichen berechnen (2) → wortgleich; GK 0 · LK 1 (2024), Haupt 1 · FHR 0
-- 2.3 Anzahl der Kombinationen aus zwei getrennten Auswahlgruppen ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.4 Anzahl der Zahlenkombinationen mit einer vierfachen Ziffer aus drei Ziffern berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.5 Kombination mit Wiederholung berechnen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 1 (2026), Haupt 1
-- 2.6 Faktoren eines kombinatorischen Terms im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
-- 2.7 Fehler finden (die Reihenfolge mitgezählt und eine Variation statt des Binomialkoeffizienten gerechnet – der häufigste Fehler des Themas; bei der Kombination mit Wiederholung die Potenz genommen; die Reihenfolge der beiden übrigen Ziffern vergessen; Wiederholung der Zusatzzeichen zugelassen oder die festen Buchstaben nicht ausgeschlossen; bei getrennten Gruppen die Fälle multipliziert statt addiert; einen Faktor des Terms als Restanzahl gedeutet) → didaktischer Typ, kein Prüfungstyp
-- 2.8 Begründen (warum (n über k) gleich (n über n − k) ist – auswählen heißt liegen lassen; warum Auswahl mal Anordnung dasselbe ergibt wie die geordnete Auswahl) → didaktischer Typ, kein Prüfungstyp
+- 2.3 Anzahl ungeordneter Auswahlen ohne Wiederholung über den Binomialkoeffizienten berechnen (2; Ermessen, siehe Offene Punkte) → wortgleich; GK 1 (2017), Haupt 1 · LK 0 · FHR 0
+- 2.4 Anzahl der Kombinationen aus zwei getrennten Auswahlgruppen ermitteln (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.5 Anzahl der Zahlenkombinationen mit einer vierfachen Ziffer aus drei Ziffern berechnen (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.6 Kombination mit Wiederholung berechnen (1; fhr) → wortgleich; GK 0 · LK 0 · FHR 1 (2026), Haupt 1
+- 2.7 Faktoren eines kombinatorischen Terms im Sachzusammenhang deuten (1) → wortgleich; GK 0 · LK 0 · FHR 0 · nur Pool
+- 2.8 Fehler finden (die Reihenfolge mitgezählt und eine Variation statt des Binomialkoeffizienten gerechnet – der häufigste Fehler des Themas; bei der Kombination mit Wiederholung die Potenz genommen; die Reihenfolge der beiden übrigen Ziffern vergessen; Wiederholung der Zusatzzeichen zugelassen oder die festen Buchstaben nicht ausgeschlossen; bei getrennten Gruppen die Fälle multipliziert statt addiert; einen Faktor des Terms als Restanzahl gedeutet) → didaktischer Typ, kein Prüfungstyp
+- 2.9 Begründen (warum (n über k) gleich (n über n − k) ist – auswählen heißt liegen lassen; warum Auswahl mal Anordnung dasselbe ergibt wie die geordnete Auswahl) → didaktischer Typ, kein Prüfungstyp
 
 **Einheit 3 · Zählen mit Bedingungen und Wahrscheinlichkeitsterme** – Abitur-Jahrgänge GK 1 von 9 (Haupt 1) · LK 0 von 7 (Haupt 0) · FHR-Jahrgänge 0 von 8 (Haupt 0).
 

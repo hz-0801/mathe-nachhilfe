@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Normalverteilung und Sigma-Regeln (3 Zeilen)
-- iqb: Normalverteilung und Sigma-Regeln (17 Zeilen)
+- iqb: Normalverteilung und Sigma-Regeln (18 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -48,6 +48,9 @@ abitur/abitur-typen.csv (neu): μ als Stelle des Werts 0,5 und σ aus einem weit
 **Quantil einer Normalverteilung bestimmen und Wahrscheinlichkeit dafür bei einer zweiten Verteilung beurteilen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Aus P(V > c) = q den Wert c bestimmen und für eine zweite Normalverteilung die Wahrscheinlichkeit beurteilen, c zu erreichen.
 
+**Standardabweichung einer Normalverteilung aus einer vorgegebenen Wahrscheinlichkeit bei festem Erwartungswert ermitteln** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Bei festem Erwartungswert die Standardabweichung einer Normalverteilung so bestimmen, dass eine Intervallwahrscheinlichkeit einen vorgegebenen (etwa halbierten) Wert annimmt.
+
 **Wahrscheinlichkeit außerhalb eines symmetrischen Intervalls über die Symmetrie der Normalverteilung berechnen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Aus der Wahrscheinlichkeit eines um den Erwartungswert symmetrischen Intervalls die Wahrscheinlichkeit einer Seite außerhalb über die Symmetrie berechnen.
 
@@ -75,6 +78,7 @@ abitur/abitur-typen.csv (neu): Angeben, dass ein einzelner Wert einer normalvert
 2025MerhoehtBStochastikWTR1-2a | 5 | ja | Rechnung · Untersuchen Sie | Füllmenge in g normalverteilt mit φ(x) = 1/(2√(2π)) · e^{−1/2 ((x − 250)/2)²}; Minusabweichung 4,5 g; Bedingungen: I Erwartungswert ≥ 250, II P(Y ≤ 245,5) ≤ 6 %, III P(Y ≤ 241) ≤ 0,2 % → ob jede der drei Bedingungen erfüllt ist | Parameter ablesen, zwei Wahrscheinlichkeiten berechnen
 2024MerhoehtBStochastikWTR2-2c | 4 | ja | Rechnung · Ermitteln Sie | Z ~ N(μ; σ); Abbildung des Graphen von f(x) = P(Z ≤ 1000 · x) → μ und σ in km | μ am Wert 0,5, σ aus einem weiteren abgelesenen Punkt
 2024MerhoehtBStochastikWTR2-2b | 4 | ja | Begründung · Begründen Sie | V ~ N(6800; 530), H ~ N(4600; 480); Aussage: die Laufleistung, die ein Vorderradreifen mit 90 % übertrifft, unterschreitet ein Hinterradreifen nahezu sicher → Begründung, dass die Aussage wahr ist | c aus P(V > c) = 0,9, dann P(H ≥ c)
+2017MerhoehtBStochastikCAS2-3c | 4 | ja | Rechnung · Bestimmen Sie | Die Indikatormenge Z auf den Teststreifen ist normalverteilt; ein Streifen mit weniger als 15 mg ist unbrauchbar; vor der Verbesserung μ = 20 mg und σ = 4,0 mg; durch die Verbesserung wurde die Wahrscheinlichkeit für einen unbrauchbaren Streifen halbiert, μ blieb unverändert → die geänderte Standardabweichung | P(Z < 15) mit σ = 4 berechnen, halbieren und die Gleichung P(Z < 15) = 5,3 % nach σ lösen
 2026MerhoehtBStochastikWTR1-3b | 2 | ja | Begründung · Begründen Sie | C Anzahl der ausgegebenen Treuepunkte bei einem Einkauf von 95 bis 99,99 €; im Modell P(C = 1000) > 0 → Begründung, dass dies kein Argument gegen das Modell ist | Wahrscheinlichkeit als verschwindend gering einordnen
 2022MerhoehtAStochastik13-a | 2 | nein | Rechnung · Berechnen Sie | A normalverteilt, Dichte in der Abbildung mit Maximum bei 8; P(A in [6; 10]) ≈ 68 % → P(A > 10) | (100 % − 68 %)/2
 2026MerhoehtBStochastikWTR1-3c | 3 | ja | Begründung · Beurteilen Sie | Annahme: mit mindestens 50 % weicht die ausgegebene Anzahl von der dem Warenwert entsprechenden Anzahl um höchstens zwei ab; Einkauf 95 bis 99,99 €, ein Punkt je 5 € → Beurteilung der Annahme | Sollwert 19, Intervall 17 bis 21, Normalverteilung von 16,5 bis 21,5

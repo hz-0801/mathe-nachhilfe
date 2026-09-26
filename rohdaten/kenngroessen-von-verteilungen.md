@@ -4,9 +4,9 @@ Stufe: II
 
 - fhr: Erwartungswert (2 Zeilen)
 - abi: Kenngrößen von Verteilungen (23 Zeilen)
-- iqb: Kenngrößen von Verteilungen (51 Zeilen)
+- iqb: Kenngrößen von Verteilungen (52 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -75,6 +75,9 @@ abitur/abitur-typen.csv (neu): Den Erwartungswert der Auszahlung bei einer weite
 
 **Erwartungswert eines Spielgewinns über die Pfade eines Baumdiagramms berechnen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Den Erwartungswert des Gewinns eines zweistufigen Spiels aus allen Pfaden eines Baumdiagramms mit ihren Summen und Wahrscheinlichkeiten berechnen.
+
+**Gesamtzahl der Gruppen aus der Personenzahl und der mittleren Gruppengröße unter einer vereinfachenden Annahme schätzen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Aus einer Verteilung der Gruppengrößen mit offener oberer Klasse unter einer genannten Annahme die mittlere Gruppengröße als gewichtetes Mittel berechnen und die Gesamtzahl der Personen dadurch teilen.
 
 **Gleiche Standardabweichung zweier komplementärer Zufallsgrößen begründen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Begründen, dass die Trefferzahl und die Nichttrefferzahl einer Bernoulli-Kette dieselbe Standardabweichung haben, über die Symmetrie der Formel in p und 1 − p.
@@ -161,6 +164,7 @@ abitur/abitur-typen.csv (neu): Alle möglichen Erwartungswerte einer Zufallsgrö
 2019MgrundlegendBStochastikWTR2-2c | 4 | ja | Zeichnen¦Rechnung · Ermitteln Sie | Urne: 35 % der Kugeln mit „+1“, 25 % mit „+2“, die übrigen 40 % mit „−3“ beschriftet; Spiel: zweimal Ziehen mit Zurücklegen, Summe der Zahlen; positive Summe = Gewinn in Euro, negative Summe = Verlust → durchschnittlicher Verlust pro Spiel mithilfe eines Baumdiagramms | Alle neun Pfade mit Summe und Wahrscheinlichkeit, Erwartungswert bilden
 2021MerhoehtAStochastik22 | 5 | nein | Rechnung · Leiten Sie her¦Erläutern Sie | Glücksrad mit Sektoren 1 (120°), 2 (Wahrscheinlichkeit p) und 3; Einsatz 1 Euro, zwei Drehungen, Auszahlung der Summe bei Summe mindestens 5, sonst nichts; Einsätze und Auszahlungen gleichen sich auf lange Sicht aus → Herleitung einer Gleichung für p mit Erläuterung | Auszahlungsfälle bestimmen, Wahrscheinlichkeiten in p, Erwartungswert gleich 1
 2024MgrundlegendBStochastikWTR1-2c | 4 | ja | Rechnung · Zeigen Sie | anderes Glücksrad, P(5) = q je Drehung, Rabatt = Produkt der beiden Zahlen; Gleichung 9q² + 12q − 5 = 0 → Nachweis, dass die Gleichung den Wert q für einen mittleren Rabatt von 9 % liefert | Erwartungswert des Rabatts in q aufstellen, gleich 9 setzen, umformen
+2017MerhoehtBStochastikCAS1-5 | 4 | ja | Rechnung¦Begründung · Bestimmen Sie¦erläutern Sie | Anteile der Haushalte in Deutschland 2013 nach Größe: 1-Personen-Haushalte 40,5 %, 2-Personen-Haushalte 34,5 %, 3-Personen-Haushalte 12,5 %, 4-Personen-Haushalte 9,2 %, Haushalte mit mindestens 5 Personen 3,3 %; 2013 lebten in Deutschland insgesamt etwa 80 Millionen Menschen → Näherungswert für die Gesamtzahl der Haushalte 2013 mit Erläuterung des Vorgehens | Vereinfachend 5 Personen je Haushalt der letzten Gruppe; (1 · 0,405 + 2 · 0,345 + 3 · 0,125 + 4 · 0,092 + 5 · 0,033) · x = 80 000 000 nach x lösen
 2024MerhoehtAStochastik11-a | 2 | nein | Begründung · Begründen Sie | Glücksrad mit 20 gleich großen blauen oder gelben Sektoren, 100-mal gedreht; X zählt Blau, Y zählt Gelb, beide binomialverteilt → Begründung, dass X und Y dieselbe Standardabweichung haben | mit p für Blau ist 1 − p die Wahrscheinlichkeit für Gelb; σ hängt symmetrisch von p und 1 − p ab
 2019MgrundlegendBStochastikWTR3-2c | 4 | ja | Rechnung · Berechnen Sie | Urne mit fünf Kugeln: drei mit der Zahl 4, zwei mit der natürlichen Zahl x ≠ 4; Erwartungswert der Summe zweier gleichzeitig gezogener Kugeln 12 → die Zahl x | Verteilung der Summe ohne Zurücklegen aufstellen, Erwartungswert gleich 12 setzen
 2022MerhoehtAStochastik21 | 5 | nein | Rechnung · Ermitteln Sie | 100 Kugeln, b blaue vom Spieler gewählt; eine Kugel wird gezogen; rot: Auszahlung b Cent, blau: 10 Cent → Wahl von b, für die der Erwartungswert der Auszahlung möglichst groß ist | E(b) aufstellen, als Parabel deuten, Scheitel in der Mitte der Nullstellen

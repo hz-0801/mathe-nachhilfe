@@ -5,9 +5,9 @@ Stufe: II
 - fhr: Anstieg und Tangente (12 Zeilen)
 - fhr: Normale (3 Zeilen)
 - abi: Tangente, Normale, Schnittwinkel (57 Zeilen)
-- iqb: Tangente, Normale, Schnittwinkel (62 Zeilen)
+- iqb: Tangente, Normale, Schnittwinkel (69 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -77,8 +77,17 @@ abitur/abitur-typen.csv (neu): Den Anstieg der Tangente über die Ableitung best
 **Schranke für den Anstieg der Tangenten einer Schar begründen** · 2 Zeilen · abi 2 · Jahre 2017
 abitur/abitur-typen.csv (neu): Den Tangentenanstieg an einer festen Stelle als Term im Scharparameter aufstellen und durch Umformen oder Grenzwertbetrachtung zeigen, dass er eine Schranke nicht überschreitet.
 
+**Steigungswinkel des Graphen in einem Punkt über die Ableitung berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2020
+abitur/abitur-typen.csv (neu): Den Steigungswinkel eines Graphen in einem Punkt als Arkustangens des Ableitungswerts berechnen.
+
 **Tangente am gespiegelten Punkt über die Achsensymmetrie angeben** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Aus einer Tangente an einen achsensymmetrischen Graphen die Tangente am gespiegelten Punkt angeben und über die Symmetrie begründen.
+
+**Tangente an einer Stelle als Gerade durch zwei Punkte nachweisen** · 2 Zeilen · iqb 2 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Die Tangente an einer Stelle (im Ursprung oder in einem anderen Graphenpunkt) über Ableitung und Funktionswert aufstellen oder ihre Steigung mit der Steigung der Geraden vergleichen und zeigen, dass sie mit der Geraden durch zwei gegebene Punkte übereinstimmt.
+
+**Tangente aufstellen und weiteren gemeinsamen Punkt mit dem Graphen berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017–2023
+abitur/abitur-typen.csv (neu): Die Tangente in einem Graphenpunkt aus Funktionswert und Ableitung aufstellen und den weiteren gemeinsamen Punkt von Tangente und Graph über f(x) − t(x) = 0 berechnen (Ausklammern, Berührstelle als doppelte Lösung).
 
 **Tangente mit gegebener Gleichung in die Abbildung einzeichnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Eine Gerade mit vorgegebener Gleichung über zwei Punkte in ein vorhandenes Koordinatensystem einzeichnen.
@@ -121,6 +130,9 @@ abitur/abitur-typen.csv (neu): Den y-Achsenabschnitt der Tangente als Funktion d
 
 **Bereich der Stellen mit Mindeststeigungswinkel der Tangente über eine quadratische Ungleichung ermitteln** · 1 Zeile · abi 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Den Bereich der Stellen bestimmen, an denen die Tangente mindestens einen vorgegebenen Steigungswinkel hat: Winkel in eine Steigung umrechnen und f'(x) ≥ m lösen.
+
+**Berührpunkt einer Tangente durch einen vorgegebenen Punkt berechnen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Tangente in einem Punkt mit unbekannter Stelle u allgemein aufstellen, einen vorgegebenen Punkt (außerhalb des Graphen oder einen anderen Graphenpunkt) einsetzen und die Gleichung nach u lösen; unpassende Lösungen ausschließen.
 
 **Dreiecke aus Wendetangente, Normale und Koordinatenachsen einzeichnen und ihre Ähnlichkeit begründen** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Tangente und Normale in einem Graphenpunkt in die Abbildung zeichnen, die von ihnen mit den Achsen begrenzten Dreiecke markieren und an der Zeichnung begründen, dass beide rechtwinklig sind und in einem weiteren Winkel übereinstimmen, also ähnlich sind.
@@ -170,6 +182,9 @@ abitur/abitur-typen.csv (neu): Den Wert einer Tangente (lineare Näherung) an ei
 **Näherungsweise tangentiale Einmündung einer Geraden nachweisen** · 1 Zeile · abi 1 · Jahre 2017
 abitur/abitur-typen.csv (neu): Zeigen, dass eine Gerade an einer Anschlussstelle näherungsweise Tangente eines Graphen ist, indem Funktionswert und Anstieg mit den Werten der Geraden verglichen werden.
 
+**Parallelität der Wendetangenten einer Schar über eine parameterunabhängige Steigung nachweisen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Den Ableitungswert einer Schar an ihrer parameterabhängigen Wendestelle berechnen und zeigen, dass er nicht vom Parameter abhängt, sodass alle Wendetangenten parallel sind.
+
 **Parameter einer Logarithmusfunktion aus einer gemeinsamen Tangente mit einer Scharkurve berechnen und Tangentengleichung angeben** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Den Parameter k in k · ln x so berechnen, dass der Graph mit einem anderen Graphen in einem gemeinsamen Punkt dieselbe Tangente hat (Steigungen gleichsetzen), und die Tangentengleichung angeben.
 
@@ -197,8 +212,8 @@ abitur/abitur-typen.csv (neu): Die Schnittstelle eines Graphen mit einer waagere
 **Steigungen der Geraden durch den Wendepunkt mit genau einem gemeinsamen Punkt über die Wendetangente eingrenzen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Für Geraden durch den Wendepunkt eines Graphen die Menge der Steigungen bestimmen, bei denen kein weiterer gemeinsamer Punkt entsteht, mit der Wendetangentensteigung als Grenzwert und dem Graphen als Begründung.
 
-**Steigungswinkel des Graphen in einem Punkt über die Ableitung berechnen** · 1 Zeile · iqb 1 · Jahre 2020
-abitur/abitur-typen.csv (neu): Den Steigungswinkel eines Graphen in einem Punkt als Arkustangens des Ableitungswerts berechnen.
+**Steigungswinkel einer Tangente als größten Kippwinkel im Sachzusammenhang deuten** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Den Steigungswinkel einer Tangente an eine Profillinie, die zugleich durch einen Randpunkt geht, als größten Neigungswinkel deuten, bei dem ein auf der Profillinie kippender Körper mit dem Rand den Boden berührt.
 
 **Steigungswinkel einer Tangente berechnen und Aussage über den Schnittwinkel mit einer Geraden prüfen** · 1 Zeile · abi 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Den Steigungswinkel der Tangente in einem Punkt über die Ableitung berechnen und eine Aussage über den Schnittwinkel mit einer Geraden (etwa sin α = cos α, also 45°) über die Schnittwinkelformel prüfen.
@@ -221,17 +236,11 @@ abitur/abitur-typen.csv (neu): Die erste Ableitung einem vorgegebenen Anstieg gl
 **Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Aus einer faktorisiert vorgegebenen Ableitung die Nullstellen ablesen und als Stellen mit waagerechter Tangente bzw. als mögliche Extremstellen (notwendige Bedingung, ohne hinreichende Prüfung) angeben.
 
-**Tangente aufstellen und weiteren gemeinsamen Punkt mit dem Graphen berechnen** · 1 Zeile · abi 1 · Jahre 2023
-abitur/abitur-typen.csv (neu): Die Tangente in einem Graphenpunkt aus Funktionswert und Ableitung aufstellen und den weiteren gemeinsamen Punkt von Tangente und Graph über f(x) − t(x) = 0 berechnen (Ausklammern, Berührstelle als doppelte Lösung).
-
 **Tangente durch einen entfernten Punkt über die Rationalität der Steigung ausschließen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Für Geraden durch die Wendepunkte und einen festen Punkt die Steigung allgemein bilden und über rational gegen irrational (±π/2) ausschließen, dass eine davon Tangente ist.
 
 **Tangente durch einen vorgegebenen Punkt am Graphen einzeichnen und ihre Gleichung ablesen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Eine Tangente an einen abgebildeten Graphen durch einen vorgegebenen Punkt außerhalb des Graphen zeichnerisch anlegen und ihre Gleichung aus Achsenabschnitt und abgelesener Steigung angeben.
-
-**Tangente im Ursprung als Gerade durch zwei Punkte nachweisen** · 1 Zeile · iqb 1 · Jahre 2024
-abitur/abitur-typen.csv (neu): Die Tangente an einer Stelle über Ableitung und Funktionswert aufstellen und zeigen, dass sie mit der Geraden durch zwei gegebene Punkte übereinstimmt.
 
 **Tangente in das Koordinatensystem einzeichnen** · 1 Zeile · fhr 1 · Jahre 2025
 fhr/fhr-typen.csv (geprüft): Eine durch ihre Gleichung gegebene Tangente in ein vorhandenes Koordinatensystem eintragen.
@@ -253,6 +262,9 @@ abitur/abitur-typen.csv (neu): Für eine genannte Stelle (auch mit Wurzelterm) d
 
 **Weiteren Schnittpunkt von Tangente und Graph aus einer vorgegebenen Faktorisierung begründen** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Mit einer vorgegebenen Faktorisierung von f(x) − t(x) begründen, wie viele weitere gemeinsame Punkte Tangente und Graph neben dem Berührpunkt haben.
+
+**Zeitpunkt bei gleichbleibender Änderungsrate über den Schnitt der Tangente mit der Zeitachse grafisch bestimmen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Eine ab einem Zeitpunkt gleichbleibende momentane Änderungsrate als Tangente an den Graphen deuten, das Verfahren beschreiben und den Zeitpunkt als Schnittstelle der Tangente mit der Zeitachse ablesen.
 
 **Öffnungswinkel an der Spitze eines Rotationskörpers über die Tangentensteigung prüfen** · 1 Zeile · abi 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Den Winkel an der Spitze eines zur x-Achse symmetrischen Profils als doppelten Steigungswinkel der Tangente in der Spitze berechnen und mit einer Vorgabe vergleichen.
@@ -347,6 +359,7 @@ abitur/abitur-typen.csv (neu): Den Winkel an der Spitze eines zur x-Achse symmet
 2018MerhoehtAAnalysis2-b | 3 | nein | Rechnung · Berechnen Sie | f(x) = 4/x²; Tangente in Q(u ¦ f(u)) mit u > 0 schließt mit den Koordinatenachsen ein gleichschenkliges Dreieck ein → Koordinaten von Q | Bedingung in f'(u) = −1 übersetzen und lösen
 2026MerhoehtBAnalysisWTR3-1f | 4 | ja | Rechnung · Berechnen Sie | Tangente t an G_f mit Steigung −1 berührt in Q; Kontrolle x_Q = 5/3 ln 3 → Koordinaten von Q | f'(x) = −1 lösen, f(x_Q)
 2026MgrundlegendBAnalysisMMS2-1d | 2 | ja | Rechnung · Berechnen Sie | f wie in a; neben dem Wendepunkt zwei weitere Punkte mit Tangentenwinkel 45° → x-Koordinaten dieser beiden Punkte | f'(x) = 1 lösen
+2017MerhoehtBAnalysisCAS2-2d | 4 | ja | Rechnung · Bestimmen Sie | Cocktailglas der Serie: Längsschnitt f_3(x) = −9/512 · x^4 + 27/32 · x^2 für −2√6 <= x <= 2√6, Rotationsachse auf der y-Achse, 1 LE = 1 cm; im Glas steht ein 20 cm langer gerader Strohhalm (Durchmesser vernachlässigt), dessen unterer Endpunkt im Modell ein Punkt des Graphen von f_3 ist; die Lage wird so verändert, dass der untere Endpunkt P(−1; f_3(−1)) ist und der Strohhalm das Glas in Q(u; f_3(u)) mit u > 0 berührt → der Wert von u | Tangente in Q: y = f_3'(u) · (x − u) + f_3(u); P einsetzen: f_3(−1) = f_3'(u) · (−1 − u) + f_3(u) nach u > 0 lösen
 2025MerhoehtBAnalysisMMS2-2d | 5 | ja | Rechnung¦Begründung · Untersuchen Sie | Wasserrutsche: r(x) = 1/16 · x² · e^(−0,25x + 1) (= f_(0,25)), Graph G beschreibt für −4 ≤ x ≤ 10 die Profillinie der Rutschbahn, die x-Achse den Boden und die Wasseroberfläche, links ein horizontales Startpodest; 1 LE = 1 m; Kamera im Punkt (12 ¦ 3); Sichtlinie zu (a ¦ r(a)) mit −4 ≤ a ≤ 10 als Gerade g_a: y = (3 − r(a))/(12 − a) · x + (3 − (3 − r(a))/(12 − a) · 12) → rechnerische Untersuchung, ob der rechtsgekrümmte Teil der Rutschbahn von der Kamera vollständig einsehbar ist | Berührbedingung r'(a) = (3 − r(a))/(12 − a) mit dem Rechner lösen, Krümmung an der Lösung prüfen, verdeckten Bereich benennen
 2026MgrundlegendBAnalysisMMS1-2b | 3 | ja | Begründung · Interpretieren Sie | Lösungsschritte: f'(x) = h'(x) ⇔ x = 2 − ln 2; mit y = −2x + n und f(2 − ln 2) = 1 ergibt sich n = 5 − 2 · ln 2 → geometrische Bedeutung von n = 5 − 2 ln 2 | Schritte als Aufstellen der zu G_h parallelen Tangente erkennen, n als y-Achsenabschnitt deuten
 2025MerhoehtBAnalysisWTR1-1d | 6 | ja | Rechnung¦Begründung · Zeigen Sie¦Begründen Sie | f(x) = 1/3 x³ − 2x + 4 (= f_2); Tangente t in P(3 ¦ f(3)) mit y = 7x − 14; Behauptung f(x) − (7x − 14) = 1/3 (x − 3)² (x + 6) → rechnerischer Nachweis der Identität und Begründung genau eines weiteren gemeinsamen Punkts | beide Seiten ausmultiplizieren, dann Nullprodukt
@@ -366,18 +379,23 @@ abitur/abitur-typen.csv (neu): Den Winkel an der Spitze eines zur x-Achse symmet
 2021MerhoehtAAnalysis22-b | 4 | nein | Rechnung · Bestimmen Sie | Schar g_c mit c > 0, Graph von g_c aus G_f durch Streckung mit Faktor c in y-Richtung; f(0) = 2 und f'(0) = 1 aus der Abbildung → x-Koordinate des Schnittpunkts der Tangente an den Graphen von g_c in (0; g_c(0)) mit der x-Achse, rechnerisch | Tangentengleichung mit c aufstellen und null setzen
 2024MerhoehtBAnalysisWTR1-2c | 3 | ja | Rechnung · Untersuchen Sie | Tangente an den Graphen von w in (0 ¦ w(0)) mit Steigung 2 → ob die Tangente nach vier Jahren dieselbe Anzahl liefert wie w | beide Werte bei x = 4 berechnen und vergleichen
 2025MgrundlegendAAnalysis11-b | 2 | nein | Zeichnen · Skizzieren Sie | f(x) = 1/8 x^3 − 3/8 x^2 − 1, Graph G in der Abbildung; die Tangente t in P(4; 1) hat die Steigung 3; es gibt genau eine weitere Tangente an G, die parallel zu t verläuft → Skizze dieser weiteren Tangente in der Abbildung | f'(x) = 3 lösen: 3/8 x^2 − 3/4 x − 3 = 0, also x^2 − 2x − 8 = 0 mit den Stellen 4 und −2; Berührpunkt (−2; f(−2)) = (−2; −3,5), dort eine Gerade mit Steigung 3 einzeichnen
+2017MerhoehtBAnalysisWTR2-1f | 3 | ja | Begründung · Zeigen Sie | Für jedes k ∈ IR+ ist die Funktion f_k mit f_k(x) = k^2x^3 − 6kx^2 + 9x, x ∈ IR, gegeben; ihr Graph heißt G_k; f_k'(x) = 3 · (kx − 1) · (kx − 3); für jeden Wert von k wird die Tangente an G_k im Wendepunkt (2/k; 2/k) betrachtet → Nachweis, dass die Tangenten für unterschiedliche Werte von k parallel zueinander sind | f_k'(2/k) = 3 · (2 − 1) · (2 − 3) = −3 hängt nicht von k ab
 2026MerhoehtAAnalysis11-b | 4 | nein | Rechnung · Bestimmen Sie | k > 0; f(x) = 2e^(k · x) und g(x) = 2e^(−k · x), beide in IR definiert; die Graphen von f und g schneiden sich senkrecht → Wert von k | Schnittstelle aus 2e^(k · x) = 2e^(−k · x), also x = 0; f'(x) = 2k · e^(k · x), f'(0) = 2k und g'(0) = −2k; senkrechter Schnitt bei symmetrischen Steigungen heißt f'(0) = tan 45° = 1, also 2k = 1
 2026MerhoehtBAnalysisMMS2-2b | 3 | ja | Rechnung¦Kurzantwort · Berechnen Sie¦Geben Sie an | f_1(x) = 3/4 · (x² − 1) · e^(1 − x); h(x) = k · ln x auf IR⁺ mit k > 0; die Graphen von f_1 und h haben im Punkt (1; 0) eine gemeinsame Tangente → k und eine Gleichung der gemeinsamen Tangente | f_1'(1) berechnen (Rechner), mit h'(1) = k gleichsetzen; Tangente durch (1; 0) mit Steigung 3/2
 2023MgrundlegendBAnalysisWTR1-2c | 3 | ja | Begründung · Interpretieren Sie | Tangente y = t(x) an den Graphen von w im Punkt (1 ¦ w(1)); Aussage: für alle x ∈ [0,7; 1,4] gilt ¦(t(x) − w(x)) / w(x)¦ < 0,05 → Bedeutung der Aussage im Sachzusammenhang | Quotient als relative Abweichung erkennen, Zeitraum und Schranke in Worte fassen
 2022MgrundlegendBAnalysisWTR1-1d | 5 | ja | Rechnung¦Zeichnen · Weisen Sie nach¦Zeichnen Sie | f(x) = 1/80 x⁵ − 1/6 x³ + x, definiert in IR; Abbildung 1 zeigt G_f; W(2 ¦ f(2)) ist Wendepunkt; f'(x) = 1/16 (x − 2)² (x + 2)²; Tangente in O und Tangente in W → Nachweis, dass sich die Tangenten in (16/15 ¦ 16/15) schneiden; beide Tangenten in Abbildung 1 | Beide Tangentengleichungen aufstellen, Punkt einsetzen; zeichnen
 2023MgrundlegendBAnalysisWTR1-1c | 4 | ja | Rechnung · Berechnen Sie | s(x) = e^x; Gerade y = 4 → Größe des Schnittwinkels | Schnittstelle aus s(x) = 4, Steigung s'(x) = 4, Winkel über den Tangens
 2019MgrundlegendBAnalysisWTR1-2a | 3 | ja | Rechnung¦Begründung · Ermitteln Sie | k(x) = 1/40 · (x³ − 30x² + 288x − 815), in IR definiert; Abbildung 1 zeigt den Graphen; Laktattest: für 8,5 ≤ x ≤ 17,5 beschreibt k die Laktatkonzentration in mmol/l in Abhängigkeit von der Geschwindigkeit x in km/h; der Graph ist symmetrisch bezüglich seines Wendepunkts W(10 ¦ 13/8); betrachtet werden Geraden durch W; eine Gerade durch W mit negativer Steigung hat mit dem Graphen keinen weiteren Punkt gemeinsam → alle möglichen Steigungen dieser Geraden | k'(10) als Steigung der Wendetangente berechnen; mit dem Graphen begründen, dass alle steileren fallenden Geraden nur W treffen
+2017MerhoehtBAnalysisWTR3-2f | 2 | ja | Rechnung · Berechnen Sie | Die Gerade g ist die Tangente an den Graphen von p(x) = −1/48 · (x^4 − 18x^2) im Punkt (1; p(1)) mit der Steigung 2/3 → Größe des Steigungswinkels von g | α = arctan(2/3)
 2020MgrundlegendBAnalysisWTR2-1d | 2 | ja | Rechnung · Berechnen Sie | f(x) = 1/10 · x · (3 − x) · eˣ, x ∈ IR; Abbildung 1 zeigt den Graphen von f; f'(x) = −1/10 · (x² − x − 3) · eˣ → Größe des Steigungswinkels des Graphen im Koordinatenursprung | f'(0) berechnen und den Arkustangens bilden
+2017MerhoehtBAnalysisWTR3-2g | 2 | ja | Kurzantwort · Beschreiben Sie | Ein Trainingsgerät zur Schulung der Koordination besteht aus einem Unterbau und einem 2 cm dicken Standbrett (60 cm breit, 40 cm lang), das seitlich ohne Überstand mit dem Unterbau abschließt; das Gerät hat auf seiner gesamten Länge den gleichen Querschnitt; bei horizontal ausgerichtetem Standbrett wird die untere Profillinie des Unterbaus für −3 <= x <= 3 durch p(x) = −1/48 · (x^4 − 18x^2) beschrieben; der horizontale Untergrund ist die x-Achse, 1 LE = 1 dm; die Gerade g durch (1; p(1)) und (3; p(3)) ist die Tangente an den Graphen von p im Punkt (1; p(1)), ihr Steigungswinkel ist etwa 33,7°; er hat für das Gerät hinsichtlich dessen Bewegungsfreiheit eine besondere Bedeutung → Beschreibung dieser Bedeutung | Wird das Gerät gekippt, liegt der Boden als Tangente an der Profillinie; ist er die Gerade g, berührt der Rand (3; p(3)) den Boden – weiter lässt sich das Gerät nicht neigen
 2025MerhoehtBAnalysisMMS2-2b | 4 | ja | Zeichnen¦Kurzantwort · Zeichnen Sie¦Geben Sie an | Wasserrutsche: r(x) = 1/16 · x² · e^(−0,25x + 1) (= f_(0,25)), Graph G beschreibt für −4 ≤ x ≤ 10 die Profillinie der Rutschbahn, die x-Achse den Boden und die Wasseroberfläche, links ein horizontales Startpodest; 1 LE = 1 m; Gleichungen r'(−4) = tan α mit α ∈ ]−90°; 0°[ und β = 180° − ¦α¦ → Winkel α und β in Abbildung 1 einzeichnen; Bedeutung von β im Sachzusammenhang | α als Winkel zwischen Tangente im Startpunkt und Waagerechter, β als Nebenwinkel zum Podest eintragen
 2023MgrundlegendAAnalysis12-a | 2 | nein | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Funktion f mit zur y-Achse symmetrischem Graphen; Tangente t1 im Punkt (1; f(1)) hat die Gleichung y = 4/3 x + 4 → Gleichung der Tangente t2 im Punkt (−1; f(−1)) mit Begründung | t2 ist das Spiegelbild von t1 an der y-Achse: Steigung wechselt das Vorzeichen, Achsenabschnitt bleibt
+2017MerhoehtBAnalysisWTR3-2e | 3 | ja | Begründung · Weisen Sie nach | p(x) = −1/48 · (x^4 − 18x^2); die Gerade g verläuft durch die Punkte (1; p(1)) und (3; p(3)) → Nachweis, dass g die Tangente an den Graphen von p im Punkt (1; p(1)) ist | Die Steigung von g aus den beiden Punkten mit p'(1) vergleichen; g geht durch den Berührpunkt
+2024MerhoehtAAnalysis11-b | 3 | nein | Rechnung · Weisen Sie nach | f(x) = 2 · sin(1/2 x); Aussage: die Tangente an G_f im Koordinatenursprung ist die Gerade durch (−1; −1) und (1; 1) → rechnerischer Nachweis der Aussage | f' bilden, Steigung f'(0) und Punkt (0; 0) liefern y = x; die Gerade durch die beiden Punkte hat dieselbe Gleichung
+2017MerhoehtBAnalysisCAS2-2c | 4 | ja | Rechnung · Ermitteln Sie | Cocktailglas der Serie: Längsschnitt f_3(x) = −9/512 · x^4 + 27/32 · x^2 für −2√6 <= x <= 2√6, Rotationsachse auf der y-Achse, 1 LE = 1 cm; im Glas steht ein 20 cm langer gerader Strohhalm (Durchmesser vernachlässigt), dessen unterer Endpunkt im Modell ein Punkt des Graphen von f_3 ist; außerdem berührt der Strohhalm das Glas im Punkt (4; f_3(4)) → Länge des Abschnitts des Strohhalms zwischen dem Berührpunkt und seinem oberen Endpunkt | Tangente in (4; 9) aufstellen, weiteren Schnittpunkt mit dem Graphen im Glas bestimmen (Ursprung), Abstand zum Berührpunkt von 20 abziehen
 2022MerhoehtBAnalysisWTR1-2d | 3 | ja | Begründung¦Rechnung · Untersuchen Sie | Geraden durch je einen Wendepunkt und P(2022 ¦ 2022) → ob eine dieser Geraden im Wendepunkt Tangente ist | Steigung der Geraden allgemein in k, mit ±π/2 vergleichen
 2020MgrundlegendBAnalysisWTR2-1c | 3 | ja | Zeichnen¦Kurzantwort · Zeichnen Sie¦Geben Sie an | f(x) = 1/10 · x · (3 − x) · eˣ, x ∈ IR; Abbildung 1 zeigt den Graphen von f; f'(x) = −1/10 · (x² − x − 3) · eˣ; eine Tangente an den Graphen von f verläuft durch (0 ¦ 1/2) → diese Tangente in Abbildung 1; eine Gleichung der eingezeichneten Geraden | Lineal durch (0 ¦ 1/2) an den Graphen anlegen, Steigung ablesen
-2024MerhoehtAAnalysis11-b | 3 | nein | Rechnung · Weisen Sie nach | f(x) = 2 · sin(1/2 x); Aussage: die Tangente an G_f im Koordinatenursprung ist die Gerade durch (−1; −1) und (1; 1) → rechnerischer Nachweis der Aussage | f' bilden, Steigung f'(0) und Punkt (0; 0) liefern y = x; die Gerade durch die beiden Punkte hat dieselbe Gleichung
 2025MerhoehtAAnalysis23-a | 1 | nein | Zeichnen · Zeichnen Sie | f(x) = √(x − 2) für x ≥ 2, Graph G und Punkt P(3; 1) in der Abbildung; die Gerade y = 1/2 x − 1/2 ist die Tangente an G in P und hat mit G nur P gemeinsam → die Tangente in der Abbildung | zwei Punkte der Geraden bestimmen, etwa (1; 0) und (3; 1), und die Gerade durchziehen
 2020MerhoehtAAnalysis12-b | 2 | nein | Kurzantwort · Geben Sie an | f(x) = sin x, g(x) = x; gesuchte Tangente parallel zu g und nicht durch O → Gleichung einer solchen Tangente | Berührstelle mit cos x = 1 außer 0, z. B. 2π
 2024MgrundlegendBAnalysisWTR2-1c | 3 | ja | Zeichnen · Skizzieren Sie | P(0 ¦ −5/8); t aus b geht durch P → zwei weitere Tangenten durch P mit Steigungen verschiedenen Vorzeichens in Abbildung 1 | Geraden durch P an den Graphen anlegen
@@ -399,5 +417,6 @@ abitur/abitur-typen.csv (neu): Den Winkel an der Spitze eines zur x-Achse symmet
 2025MgrundlegendBAnalysisWTR1-1c | 3 | ja | Begründung · Begründen Sie | f(x) − (7x − 14) = 1/3 (x − 3)² (x + 6) für alle x; t: y = 7x − 14 berührt in P(3 ¦ 7) → Begründung, dass t und Gf neben P genau einen weiteren gemeinsamen Punkt haben | Differenz null setzen, Faktoren auswerten
 2023MerhoehtBAnalysisWTR2-1d | 5 | ja | Rechnung · Berechnen Sie | r wie in a; rechter Pfeiler senkrecht bei x = 20 → Winkel, unter dem das Abspannseil auf den Pfeiler trifft | Ableitung an der Stelle 20, Steigungswinkel, Ergänzung zum Winkel gegen die Senkrechte
 2026MerhoehtBAnalysisWTR2-2c | 3 | ja | Rechnung · Berechnen Sie | Profillinie f für −1,2 ≤ x ≤ 1,2; linke Seitenkante senkrecht bei x = −1,2 → Winkel zwischen Profillinie und linker Seitenkante | f'(−1,2), Winkel zur Senkrechten über den Tangens
+2017MerhoehtBAnalysisWTR1-1c | 3 | ja | Kurzantwort · Beschreiben Sie¦Geben Sie an | Abbildung 1 zeigt den Graphen einer Funktion f, die für 0 <= t <= 15 das Volumen des Wassers in einem Becken in Abhängigkeit von der Zeit beschreibt; t ist die seit Beobachtungsbeginn vergangene Zeit in Stunden, f(t) das Volumen in Kubikmetern; die fünfzehn Stunden nach Beobachtungsbeginn vorliegende momentane Änderungsrate bleibt bis zu dem Zeitpunkt erhalten, zu dem das Becken kein Wasser mehr enthält → Beschreibung eines Verfahrens, mit dem man diesen Zeitpunkt grafisch bestimmen kann; der Zeitpunkt | Die Tangente im Punkt (15; f(15)) einzeichnen; ihr Schnittpunkt mit der t-Achse liefert den Zeitpunkt
 2024MerhoehtAAnalysis21-b | 4 | nein | Begründung · Weisen Sie nach | f_a(x) = a · x², a > 0; für jedes reelle u die Tangente an den Graphen von f_a im Punkt (u; f_a(u)) → Nachweis, dass diese Tangente die y-Achse im Punkt (0; −f_a(u)) schneidet | Ansatz y = mx + n mit m = f_a'(u) = 2au, Berührpunkt einsetzen, n bestimmen
 2024MgrundlegendAAnalysis21-b | 4 | nein | Begründung · Weisen Sie nach | f(x) = 1/2 x²; für jedes reelle u die Tangente an den Graphen im Punkt (u; f(u)) → Nachweis, dass diese Tangente die y-Achse im Punkt (0; −f(u)) schneidet | Ansatz y = mx + n mit m = f'(u) = u; Berührpunkt einsetzen und n bestimmen

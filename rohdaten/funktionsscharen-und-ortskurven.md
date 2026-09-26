@@ -3,20 +3,20 @@
 Stufe: II
 
 - abi: Funktionsscharen und Ortskurven (62 Zeilen)
-- iqb: Funktionsscharen und Ortskurven (87 Zeilen)
+- iqb: Funktionsscharen und Ortskurven (103 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
-**Scharparameter aus einem Punkt des Graphen angeben** · 10 Zeilen · abi 4 iqb 6 · Jahre 2018–2025
+**Scharparameter aus einem Punkt des Graphen angeben** · 12 Zeilen · abi 4 iqb 8 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): Den Parameterwert einer Funktionsschar angeben oder durch exaktes Auflösen bestimmen, für den ein gegebener Punkt auf dem Graphen liegt oder ein Funktionswert eine Bedingung erfüllt.
+
+**Fläche zwischen Graph und x-Achse in Abhängigkeit vom Scharparameter berechnen** · 5 Zeilen · abi 2 iqb 3 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Nullstellen einer Schar bestimmen und den Inhalt der eingeschlossenen Fläche als Term im Scharparameter berechnen.
 
 **Parameterwerte nach der Anzahl der Extrempunkte über die Lösbarkeit der Extremstellengleichung begründen** · 5 Zeilen · abi 4 iqb 1 · Jahre 2018–2026
 abitur/abitur-typen.csv (neu): Aus der Lösungsanzahl einer vorgegebenen Gleichung für die Extremstellen (etwa a · x² = 1) die Parameterbereiche mit zwei bzw. keinem Extrempunkt angeben und begründen.
-
-**Fläche zwischen Graph und x-Achse in Abhängigkeit vom Scharparameter berechnen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2023–2024
-abitur/abitur-typen.csv (neu): Nullstellen einer Schar bestimmen und den Inhalt der eingeschlossenen Fläche als Term im Scharparameter berechnen.
 
 **Gemeinsamen Extrempunkt einer Funktionenschar nachweisen** · 4 Zeilen · abi 4 · Jahre 2017
 abitur/abitur-typen.csv (neu): Die Ableitung der Schar bilden, ihre Nullstelle als parameterunabhängig nachweisen und aus dem zugehörigen Funktionswert den für alle Graphen gemeinsamen Extrempunkt angeben.
@@ -39,6 +39,12 @@ abitur/abitur-typen.csv (neu): Hoch- und Tiefpunkte einer Schar aus der faktoris
 **Aussage über den Ableitungsgraphen einer Schar als Tangente an den Scharfgraphen beurteilen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Beurteilen, für welche Parameterwerte der Graph der Ableitungsfunktion Tangente an den Scharfgraphen ist: Geradenfälle eingrenzen, Berührbedingung (gleicher Wert und gleiche Steigung) prüfen.
 
+**Extrempunkt einer Schar mit Art nach dem Parametervorzeichen bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Den Extrempunkt einer Schar berechnen und seine Art in Abhängigkeit vom Vorzeichen des Parameters angeben.
+
+**Extrempunkte einer Schar mit Art in Abhängigkeit vom Parameter bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Extrempunkte einer Funktionenschar über die Nullstellen der ersten Ableitung und das Vorzeichen der zweiten Ableitung mit Koordinaten und Art in Abhängigkeit vom Parameter bestimmen, ohne Fallunterscheidung nach dem Parameter.
+
 **Folgerungen aus gemeinsamen Eigenschaften einer Schar für den Verlauf der Graphen angeben** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Vorgegebene Aussagen über Funktionswerte, Ableitungswerte und gemeinsame Punkte der Scharfunktionen in Aussagen über die Lage der Graphen zueinander übersetzen.
 
@@ -48,14 +54,23 @@ abitur/abitur-typen.csv (neu): Aus einem faktorisierten Scharterm (Produkt von Q
 **Gleichmäßige Streckung eines Scharfgraphen als Graph einer anderen Scharfunktion nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Nachweisen, dass k · f_a(x/k) wieder eine Funktion der Schar ist, und den zugehörigen Parameter angeben.
 
+**Graph der Schar zu einem Parameterwert in die Abbildung skizzieren** · 2 Zeilen · iqb 2 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Den Graphen eines Scharmitglieds zu einem vorgegebenen Parameterwert in eine Abbildung mit anderen Scharmitgliedern skizzieren.
+
 **Grenzverhalten einer Potenzschar nach der Parität des Exponenten begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Für eine Schar mit Leitterm x^k das Verhalten für x → −∞ getrennt nach geradem und ungeradem k angeben und über den Leitterm begründen.
 
 **Hochpunkt einer Parabelschar mit Parameterkoordinaten nachweisen** · 2 Zeilen · iqb 2 · Jahre 2018–2019
 abitur/abitur-typen.csv (neu): Für eine Parabelschar nachweisen, dass ein in Abhängigkeit vom Parameter angegebener Punkt Hochpunkt ist: Ableitung dort null, Funktionswert bestätigen, Öffnung nach unten.
 
+**Lage der Extrempunkte einer Schar auf einer gegebenen Kurve durch Einsetzen nachweisen** · 2 Zeilen · iqb 2 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die parameterabhängigen Koordinaten der Extrempunkte einer Schar in die Gleichung einer vorgegebenen Kurve einsetzen und die Gleichheit für alle Parameterwerte zeigen.
+
 **Mittelpunkte der Strecken zum Ursprung auf einem gegebenen Graphen allgemein nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Allgemein nachweisen, dass die Mittelpunkte der Strecken von Graphenpunkten zum Ursprung auf dem Graphen einer angegebenen Funktion liegen (Ortskurve).
+
+**Nullstellen einer Funktionenschar mit Fallunterscheidung ermitteln** · 2 Zeilen · abi 1 iqb 1 · Jahre 2017–2018
+abitur/abitur-typen.csv (neu): Die Anzahl und Lage der Nullstellen einer Schar in Abhängigkeit vom Parameter mit Fallunterscheidung bestimmen.
 
 **Ortskurve der Extrempunkte einer Schar als Gerade über Sonderfall und Streckungseigenschaft begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Begründen, dass alle Extrempunkte einer Schar auf y = x liegen, über einen Sonderfall mit bekanntem Extrempunkt und Symmetrie sowie die Streckungseigenschaft der Schar.
@@ -71,6 +86,9 @@ abitur/abitur-typen.csv (neu): Den Parameter bestimmen, für den ein aus dem Hoc
 
 **Scharparameter aus einem Punkt bestimmen und Wendepunkt nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Den Parameter einer Schar aus einem Punkt des Graphen berechnen und nachweisen, dass dieser Punkt Wendepunkt ist (f'' = 0, f''' ≠ 0).
+
+**Scharparameter den Graphen über die Lage der Hochpunkte zuordnen** · 2 Zeilen · iqb 2 · Jahre 2017
+abitur/abitur-typen.csv (neu): Abgebildete Graphen einer Schar vorgegebenen Parameterwerten zuordnen, indem die parameterabhängige Lage der Hochpunkte (Koordinaten, Höhe, Lage zur x-Achse) berechnet oder aus früheren Ergebnissen übernommen und mit den Graphen verglichen wird.
 
 **Scharparameter für eine vorgegebene Wendestelle berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Den Parameter einer Schar so berechnen, dass eine vorgegebene Stelle Wendestelle ist (zweite Ableitung mit Parameter gleich null).
@@ -111,6 +129,9 @@ abitur/abitur-typen.csv (neu): Nullstelle und y-Achsenabschnitt einer Schar in A
 **Anzahl der Nullstellen einer Schar in Abhängigkeit vom Parameter über die Diskriminante ermitteln** · 1 Zeile · abi 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Nullstellen einer Schar auf den quadratischen Faktor zurückführen und die Anzahl (keine, eine, zwei) über die Diskriminante nach Parameterbereichen angeben, mit Sonderfall linearer Faktor.
 
+**Anzahl gemeinsamer Punkte einer Schar mit einer waagerechten Geraden über die Höhe der Hochpunkte nach Parameterbereichen angeben** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die parameterabhängige Höhe der Hochpunkte einer Schar mit einer waagerechten Geraden vergleichen und die Anzahl der gemeinsamen Punkte für die Parameterbereiche darunter, gleich und darüber angeben.
+
 **Bedingungen für den sprungfreien Übergang von Funktionswert und Ableitung angeben** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Aus dem sprungfreien Anschluss an einen konstanten Verlauf die Bedingungen f_p(x₀) = c und f_p'(x₀) = 0 angeben.
 
@@ -132,8 +153,8 @@ abitur/abitur-typen.csv (neu): Rechnerisch zeigen, dass jeder Graph einer Schar 
 **Existenz von Scharparametern mit beliebig vielen Schnittstellen begründen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Begründen, dass es Parameterwerte gibt, für die eine Schar einen periodischen Graphen beliebig oft schneidet (Stauchung für kleine Parameter).
 
-**Extrempunkt einer Schar mit Art nach dem Parametervorzeichen bestimmen** · 1 Zeile · iqb 1 · Jahre 2024
-abitur/abitur-typen.csv (neu): Den Extrempunkt einer Schar berechnen und seine Art in Abhängigkeit vom Vorzeichen des Parameters angeben.
+**Extrempunkt einer trigonometrischen Schar ohne Ableitung über benachbarte Nullstellen bestimmen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Ohne Ableitungsfunktion die Extremstelle einer Schar wie c · sin(cx) als Mitte zweier benachbarter Nullstellen bestimmen, das Verfahren beschreiben und die Koordinaten in Abhängigkeit vom Parameter angeben.
 
 **Extrempunkte aller Scharkurven aus dem Ableitungsgraphen eines Scharmitglieds ohne Rechnung begründen** · 1 Zeile · abi 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Aus dem abgebildeten Ableitungsgraphen eines Scharmitglieds und der Beziehung f_a' = e^a · f_0' (positiver Faktor) begründen, dass alle Graphen der Schar genau einen Hoch- und einen Tiefpunkt an denselben Stellen haben, und deren Koordinaten angeben.
@@ -153,8 +174,8 @@ abitur/abitur-typen.csv (neu): Aus p_a(s) = 0 eine vorgegebene Gleichung herleit
 **Gleichungen eines Bestimmungssystems für Scharparameter im Sachzusammenhang deuten** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Gleichungen wie Anfangswert, Grenzwert und Wert an einer Stelle, die die Parameter einer Schar festlegen, im Sachzusammenhang deuten.
 
-**Graph der Schar zu einem Parameterwert in die Abbildung skizzieren** · 1 Zeile · iqb 1 · Jahre 2022
-abitur/abitur-typen.csv (neu): Den Graphen eines Scharmitglieds zu einem vorgegebenen Parameterwert in eine Abbildung mit anderen Scharmitgliedern skizzieren.
+**Graphen einer Scharfunktion und ihrer in y-Richtung verschobenen Fassung zuordnen und Parameter und Verschiebung bestimmen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Zwei abgebildete Graphen einer Scharfunktion f_k und von f_k + d über eine gemeinsame Eigenschaft der Schar (etwa Verlauf durch den Ursprung) zuordnen, d aus dem y-Achsenabschnitt und k aus der Lage der Extrempunkte bestimmen.
 
 **Grenzverhalten einer Schar angeben und parameterunabhängigen Funktionswert nachweisen** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Das Verhalten einer Funktionenschar für x → ±∞ angeben und zeigen, dass der Funktionswert an einer festen Stelle für alle Parameterwerte gleich ist.
@@ -176,9 +197,6 @@ abitur/abitur-typen.csv (neu): Die Wendestelle einer Schar über die zweite Able
 
 **Lage und Art der Extrempunkte einer Schar bestimmen und Parameter für einen vorgegebenen Abstand der Extrempunkte berechnen** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Die Extrempunkte einer Funktionenschar mit Art über erste und zweite Ableitung bestimmen und den Parameterwert numerisch berechnen, für den die Extrempunkte einen vorgegebenen Abstand haben.
-
-**Nullstellen einer Funktionenschar mit Fallunterscheidung ermitteln** · 1 Zeile · abi 1 · Jahre 2018
-abitur/abitur-typen.csv (neu): Die Anzahl und Lage der Nullstellen einer Schar in Abhängigkeit vom Parameter mit Fallunterscheidung bestimmen.
 
 **Nullstellen einer Schar am Term begründen und Tangentensteigungen dort nachweisen** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Aus dem faktorisierten Term einer Schar begründen, dass nur die angegebenen Nullstellen existieren, und die Steigungen in diesen Punkten über die Ableitung nachweisen (etwa die x-Achse als Tangente).
@@ -227,6 +245,9 @@ abitur/abitur-typen.csv (neu): Eine Identität der Form g_k(−x) = −g_{−k}(
 
 **Scharparameter aus Anfangswert und Grenzwert über das Vorzeichen des Exponenten bestimmen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Parameter einer Schar mit e^{cx} aus Anfangswert und Grenzwert bestimmen, wobei das Vorzeichen von c erst aus dem Vergleich beider Werte folgt.
+
+**Scharparameter aus dem Abstand der Extremstellen berechnen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Die Extremstellen einer Schar in Abhängigkeit vom Parameter bestimmen und den Parameter so berechnen, dass ihre Differenz einen vorgegebenen Wert hat.
 
 **Scharparameter aus der Differenz zweier Scharfunktionswerte über eine Potenzgleichung bestimmen** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die Differenz der Funktionswerte aufeinanderfolgender Scharmitglieder an einer Stelle als Potenz des Parameters vereinfachen und den Parameter aus einem vorgegebenen Wert bestimmen.
@@ -379,13 +400,19 @@ abitur/abitur-typen.csv (neu): Für eine Schar kubischer Parabeln den Wendepunkt
 2019MgrundlegendBAnalysisWTR2-1c | 2 | ja | Rechnung · Bestimmen Sie | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; Hochpunkt von G_k ist (4 ¦ 16k) → Abstand der Hochpunkte von G_k und G_(k+1) | y-Koordinaten der Hochpunkte subtrahieren
 2024MerhoehtBAnalysisWTR3-2c | 2 | ja | Rechnung · Berechnen Sie | G_k und G_{k+1} für k ≠ −1 → Abstand der Schnittpunkte mit der y-Achse | Differenz der Werte bei 0
 2025MerhoehtBAnalysisMMS1-1b | 4 | ja | Rechnung · Berechnen Sie | Schar f_k(x) = 1/(2k) · x² · (x − 2k)², k > 0, in IR definiert; Graph G_k; der Hochpunkt von G_k hat zu den beiden Tiefpunkten denselben Abstand → dieser Abstand | Extremstellen mit dem Rechner, Hochpunkt (k ¦ f_k(k)), Abstand zum Tiefpunkt (0 ¦ 0)
+2017MerhoehtBAnalysisWTR3-1d | 4 | ja | Rechnung¦Begründung · Untersuchen Sie | Gegeben ist die Schar der Funktionen f_k mit f_k(x) = −x^4 + 6kx^2, x ∈ IR und k ∈ IR; der Graph von f_k heißt G_k; k > 0; G_k hat die Hochpunkte (±√(3k); 9k^2) und im Ursprung einen Tiefpunkt → Untersuchung mithilfe der Lage eines der beiden Hochpunkte, wie viele gemeinsame Punkte G_k und die Gerade y = 4 haben, in Abhängigkeit von k | Hochpunkthöhe 9k^2 mit 4 vergleichen: 9k^2 = 4 ⇔ k = 2/3; liegt der Hochpunkt unter der Geraden, keine Schnittpunkte, auf ihr zwei Berührpunkte, darüber je Hälfte zwei, also vier
 2023MerhoehtBAnalysisWTR1-2c | 6 | ja | Begründung¦Rechnung · Beurteilen Sie | Aussage: es gibt genau einen Wert von k, für den der Graph von h_k' Tangente an den Graphen von h_k ist → Beurteilung der Aussage | Nur k = 1 und k = 2 liefern Geraden als Ableitungsgraphen; k = 1 ausschließen (parallele Gerade), für k = 2 Berührpunkt bei x = 4 nachweisen
 2022MerhoehtBAnalysisWTR1-1e | 2 | ja | Kurzantwort · Geben Sie an | f_p(x) = p/4 · x⁴ + (30 − p)x³ + (p − 90)x² + 240, p ∈ IR; Übergang bei 15:00 Uhr ohne Sprung in Geschwindigkeit und Änderungsrate → die beiden Bedingungen, die f_p erfüllen | Werte der konstanten Fahrt vor 15:00 Uhr (240, Rate 0) an der Stelle 0 fordern
 2022MerhoehtBAnalysisWTR1-1g | 4 | ja | Begründung · Beurteilen Sie | Für p ≠ 0: f_p'(x) = 0 hat neben 0 und 2 die Lösung x₃ = 1 − 90/p; x₃ ≤ 0 ⇔ 0 < p ≤ 90, x₃ ≥ 2 ⇔ −90 ≤ p < 0 → Beurteilung der Eignung von f_p mit p ≠ 0 | Eignung heißt kein Extremum in ]0; 2[, also x₃ außerhalb; Bedingungen an p übernehmen
 2023MgrundlegendBAnalysisWTR1-3a | 1 | ja | Kurzantwort · Beschreiben Sie | w_a(x) = 4(x² − x − 1)e^(−x) + a in IR, a ∈ IR; Extremstellen 0 und 3 unabhängig von a; w₄ ist w aus Aufgabe 2 → Einfluss von a auf den Graphen | a als Summand erkennen
 2025MerhoehtBAnalysisWTR1-1b | 5 | ja | Rechnung¦Kurzantwort · Zeigen Sie¦Geben Sie an | Schar f_a wie in a → Nachweis genau eines Wendepunkts je Graph und dessen Koordinaten | f'' = 0 lösen, f''' prüfen, f_a(0)
 2022MerhoehtAAnalysis13-b | 3 | nein | Begründung · Entscheiden Sie¦Begründen Sie | f(x) = cos x, g_k(x) = k · x² mit k > 0 → Entscheidung mit Begründung, ob es k gibt, für die f(x) = g_k(x) mehr als 2022 Lösungen hat | für beliebig kleine k ist die Parabel beliebig stark gestaucht und schneidet den Kosinusgraphen beliebig oft
+2017MerhoehtBAnalysisWTR3-1c | 5 | ja | Begründung¦Rechnung · Weisen Sie nach¦Bestimmen Sie | Gegeben ist die Schar der Funktionen f_k mit f_k(x) = −x^4 + 6kx^2, x ∈ IR und k ∈ IR; der Graph von f_k heißt G_k; k > 0; zur Kontrolle: Koordinaten eines Hochpunkts (√(3k); 9k^2) → Nachweis, dass G_k für k > 0 genau zwei Hochpunkte besitzt; Koordinaten dieser Hochpunkte in Abhängigkeit von k | f_k'(x) = 0 ⇔ x = 0 ∨ x = ±√(3k); f_k''(0) = 12k > 0 (Tiefpunkt), f_k''(±√(3k)) = −24k < 0 (Hochpunkte); Funktionswert 9k^2
 2024MerhoehtBAnalysisWTR3-2b | 5 | ja | Rechnung · Bestimmen Sie | Schar f_k wie in a; genau ein Extrempunkt je Graph → Koordinaten und Art des Extrempunkts in Abhängigkeit von k | f_k' faktorisieren, Nullstelle, Art nach k
+2017MerhoehtBAnalysisWTR1-3c | 3 | ja | Kurzantwort · Beschreiben Sie¦Geben Sie an | Für jeden Wert c ∈ IR+ ist die in IR definierte Funktion h_c mit h_c(x) = c · sin(cx) gegeben; die Nullstellen sind die Vielfachen von π/c → Beschreibung, wie man ohne Verwendung einer Ableitungsfunktion die Koordinaten eines Tiefpunkts in Abhängigkeit von c ermitteln kann; die Koordinaten eines Tiefpunkts | Die x-Koordinate eines Tiefpunkts ist der Mittelwert der Nullstellen π/c und 2π/c (dort ist der Graph unterhalb der x-Achse), die y-Koordinate der Funktionswert dort
+2017MerhoehtBAnalysisCAS1-1b | 7 | ja | Rechnung¦Begründung · Bestimmen Sie¦Begründen Sie¦beschreiben Sie | Für a ∈ IR+ ist die Schar der in IR definierten Funktionen f_a mit f_a(x) = x^2 · e^(−a · x) gegeben; der Graph von f_a heißt G_a; zur Kontrolle: Extremstellen x1 = 0, x2 = 2/a → Koordinaten und Art der Extrempunkte von G_a in Abhängigkeit von a; Begründung, dass der Hochpunkt für jedes a im ersten Quadranten liegt; Beschreibung, wie sich seine Lage mit a ändert | f_a'(x) = x · e^(−ax) · (2 − ax) = 0 liefert x = 0 und x = 2/a; f_a''(0) > 0, f_a''(2/a) < 0; Koordinaten einsetzen; beide Koordinaten des Hochpunkts sind für a > 0 positiv und fallen mit wachsendem a
+2017MerhoehtBAnalysisCAS2-1d | 5 | ja | Rechnung · Bestimmen Sie | f_k(x) = −3/512 · k · x^4 + 3/32 · k^2 · x^2, x ∈ IR, k ∈ IR+; zur Kontrolle: eine Extremstelle ist x = 2√(2k) → Lage und Art der Extremstellen von f_k | f_k'(x) = −3/128 · k · x^3 + 3/16 · k^2 · x = 0 liefert x = 0 und x^2 = 8k; Vorzeichen von f_k'' an den drei Stellen prüfen
+2017MerhoehtBAnalysisWTR1-3b | 5 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Berechnen Sie | Für jeden Wert c ∈ IR+ ist die in IR definierte Funktion h_c mit h_c(x) = c · sin(cx) gegeben; eine Nullstelle von h_c ist 0, die benachbarte positive Nullstelle heißt u → u in Abhängigkeit von c; Inhalt des Flächenstücks, das der Graph von h_c für 0 <= x <= u mit der x-Achse einschließt | sin(cx) = 0 ⇔ cx = kπ, also u = π/c; Stammfunktion −cos(cx), Integral von 0 bis π/c
 2023MerhoehtAAnalysis12-a | 2 | nein | Rechnung · Zeigen Sie | f(x) = −x² + 2ax, definiert in IR, a > 1; Nullstellen 0 und 2a → Nachweis, dass das Flächenstück zwischen Graph und x-Achse den Inhalt 4/3 a³ hat | Integral von 0 bis 2a mit Stammfunktion auswerten
 2024MerhoehtAAnalysis12-b | 4 | nein | Rechnung · Berechnen Sie | f_a(x) = a · x³ + a · x² mit a > 0; der Graph schließt mit der x-Achse eine Fläche ein → Inhalt dieser Fläche in Abhängigkeit von a | Nullstellen −1 und 0 bestimmen, das Integral über [−1; 0] mit der Stammfunktion auswerten (dort ist f_a ≥ 0)
 2022MerhoehtBAnalysisWTR2-2c | 3 | ja | Kurzantwort · Geben Sie an | Für alle a, a₁, a₂: f_a(0) = 0; f_a'(0) = f₀'(0); f_a1(x) = f_a2(x) ⇔ a₁ = a₂ ∨ x = 0 → Folgerungen für den Verlauf der Graphen | Jede Aussage in eine Lageeigenschaft übersetzen
@@ -397,17 +424,22 @@ abitur/abitur-typen.csv (neu): Für eine Schar kubischer Parabeln den Wendepunkt
 2022MerhoehtBAnalysisWTR2-2d | 3 | ja | Rechnung · Zeigen Sie | Aussage: wird der Graph von f_a mit demselben Faktor k > 0 in x- und y-Richtung gestreckt, entsteht wieder ein Graph der Schar → Nachweis für jedes a | Gestreckten Term k · f_a(x/k) bilden und als f_b mit b = a/k² erkennen
 2018MerhoehtBAnalysisWTR2-1i | 3 | ja | Rechnung · Leiten Sie her | Kugelstoßen im Koordinatensystem (1 LE = 1 m, x-Achse ist der Boden): Bahn von der Ruhelage R bis zum Abstoßpunkt A durch f(x) = 0,4 + 1,6 · e^(0,5x), x ∈ [−2; 0]; Flugkurven p_a(x) = −ax² + bx + 2, a > 0, ohne Knick in A; b = 0,8; Zusammenhang a = 0,8/s + 2/s² zwischen a und Stoßweite s > 0 → Herleitung dieser Gleichung | Nullstellenbedingung p_a(s) = 0 nach a auflösen
 2024MerhoehtBAnalysisWTR1-2d | 3 | ja | Kurzantwort · Interpretieren Sie | andere Funktion der Schar w_{a;b;c}; Gleichungen (1) a/(b + 1) = 20, (2) lim a/(b + e^{cx}) = 45 für x → +∞, (3) a/(b + e^{15c}) = 35 → Deutung jeder Gleichung | Stelle bzw. Grenzwert in Sachaussage übersetzen
+2017MerhoehtBAnalysisWTR1-3a | 4 | ja | Zeichnen · Skizzieren Sie | Für jeden Wert c ∈ IR+ ist die in IR definierte Funktion h_c mit h_c(x) = c · sin(cx) gegeben; Abbildung 2 zeigt den Graphen von h_1 → Skizze der Graphen von h_c für c = 1/2 und c = 2 in Abbildung 2 | h_(1/2): Amplitude 1/2, Periode 4π, Nullstellen bei Vielfachen von 2π; h_2: Amplitude 2, Periode π, Nullstellen bei Vielfachen von π/2
 2022MerhoehtAAnalysis13-a | 2 | nein | Zeichnen · Skizzieren Sie | f(x) = cos x, g_k(x) = k · x² mit k > 0; Abbildung mit den Graphen von f und g_(1/50) → Skizze des Graphen von g_(1/4) in der Abbildung | Stützpunkte (±2; 1), (±4; 4) einzeichnen und verbinden
 2024MerhoehtAAnalysis13-b | 3 | nein | Begründung · Entscheiden Sie¦Begründen Sie | Schar f_a(x) = x · e^(a · x), a ≠ 0, genau eine Extremstelle je Funktion; Abbildungen 1 und 2 zeigen je einen Graphen der Schar, einer davon für positives a → Entscheidung, welche Abbildung den Graphen zu positivem a zeigt, mit Begründung | für a > 0 wächst f_a für x → +∞ unbeschränkt; Abbildung 1 fällt rechts gegen die Achse und müsste dazu einen weiteren Extrempunkt haben, was ausgeschlossen ist
 2024MerhoehtBAnalysisWTR1-2a | 4 | ja | Kurzantwort¦Begründung · Ordnen Sie zu¦Begründen Sie | w_{a;b;c}(x) = a/(b + e^{cx}), a, b > 0; Graphen I, II, III zu c = −1, 0, 1 bei festen a, b → Zuordnung mit Begründung | c = 0 als Konstante, Vorzeichen von c über den Grenzwert
+2017MerhoehtBAnalysisWTR2-1g | 4 | ja | Kurzantwort¦Begründung · Ordnen Sie zu¦Begründen Sie¦Bestimmen Sie | Für jedes k ∈ IR+ ist die Funktion f_k mit f_k(x) = k^2x^3 − 6kx^2 + 9x, x ∈ IR, gegeben; ihr Graph heißt G_k; die Extremstellen von G_k sind 1/k und 3/k; Abbildung 1 zeigt für einen bestimmten Wert von k den Graphen von f_k und den Graphen der Funktion h mit h(x) = f_k(x) + d, d ∈ IR \ {0} → Zuordnung der beiden Funktionen zu den Graphen I und II mit Begründung; die Werte von k und d | Nur G_k geht durch den Ursprung, also ist II der Graph von f_k; d als y-Achsenabschnitt von I; k aus der Lage der Extremstellen von II (1/k = 3)
 2023MerhoehtBAnalysisWTR1-2a | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | h_k(x) = (x − 3)^k + 1 in IR, k ∈ IN ohne 0 → Verhalten für x → −∞ in Abhängigkeit von k mit Begründung | Leitterm x^k betrachten, Vorzeichen nach der Parität von k
 2025MerhoehtBAnalysisMMS2-1a | 3 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Zeigen Sie | Schar f_b(x) = 1/16 · x² · e^(−b · x + 4b), b > 0, in IR definiert; Graph G_b → Verhalten von f_b für x → −∞ und x → +∞; Nachweis, dass f_b(4) nicht von b abhängt | Grenzwerte am Term ablesen, x = 4 einsetzen
 2018MerhoehtBAnalysisWTR2-1g | 4 | ja | Rechnung · Zeigen Sie | Kugelstoßen im Koordinatensystem (1 LE = 1 m, x-Achse ist der Boden): Bahn von der Ruhelage R bis zum Abstoßpunkt A durch f(x) = 0,4 + 1,6 · e^(0,5x), x ∈ [−2; 0]; Flugkurven p_a(x) = −ax² + bx + 2, a > 0, ohne Knick in A; b = 0,8 → Nachweis, dass (0,4/a ¦ 2 + 0,16/a) Hochpunkt des Graphen von p_a ist | Parabel nach unten geöffnet, p_a'(0,4/a) = 0, Funktionswert einsetzen
 2019MgrundlegendBAnalysisWTR2-1b | 3 | ja | Begründung · Begründen Sie | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; Nullstellen 0 und 8 → Begründung, dass (4 ¦ 16k) der Hochpunkt von G_k ist | Öffnung und Symmetrie der Parabel nutzen, f_k(4) berechnen
 2020MerhoehtAAnalysis13-a | 2 | nein | Rechnung · Bestimmen Sie | f_k(x) = −k · (x⁴ − 4x³) mit k > 0; Nullstellen 0 und 4 → x-Koordinate des Hochpunkts von f_k | Ableitung faktorisieren, Vorzeichenwechsel
 2025MerhoehtBAnalysisWTR3-1c | 5 | ja | Begründung¦Rechnung · Begründen Sie¦Berechnen Sie | G_a hat genau zwei Extrempunkte, einer im Ursprung; Kontrolle x_T = −2/a → Begründung Hochpunkt im Ursprung und x-Koordinate des Tiefpunkts | Wertebeschränkung aus b nutzen, f_a' faktorisieren
+2017MerhoehtBAnalysisCAS1-1c | 2 | ja | Begründung · Zeigen Sie | Für a ∈ IR+ ist die Schar der in IR definierten Funktionen f_a mit f_a(x) = x^2 · e^(−a · x) gegeben; der Graph von f_a heißt G_a; Tiefpunkt (0; 0) und Hochpunkt (2/a; 4/(e^2a^2)) von G_a → Nachweis, dass die Extrempunkte von G_a für alle a auf dem Graphen der Funktion mit y = x^2/e^2 liegen | Die x-Koordinaten beider Extrempunkte in x^2/e^2 einsetzen und mit der y-Koordinate vergleichen
+2017MerhoehtBAnalysisCAS2-1e | 3 | ja | Begründung · Weisen Sie nach | f_k(x) = −3/512 · k · x^4 + 3/32 · k^2 · x^2, k ∈ IR+; die Extremstelle mit positiver x-Koordinate ist x = 2√(2k) → Nachweis, dass alle Extrempunkte mit positiver x-Koordinate auf dem Graphen der Funktion mit y = 3/4096 · x^6 liegen | f_k(2√(2k)) = 3/8 · k^3 berechnen und mit 3/4096 · (2√(2k))^6 = 3/4096 · 512 k^3 vergleichen
 2025MerhoehtBAnalysisMMS2-1b | 6 | ja | Rechnung · Bestimmen Sie¦Berechnen Sie | Schar f_b(x) = 1/16 · x² · e^(−b · x + 4b), b > 0, in IR definiert; Graph G_b → Lage und Art der beiden Extrempunkte von G_b; ein Wert von b, für den die Extrempunkte den Abstand 6 haben, auf Hundertstel | f_b' und f_b'' mit dem Rechner, Nullstellen und Vorzeichen; Abstandsgleichung numerisch lösen
 2024MerhoehtBAnalysisWTR2-1e | 4 | ja | Begründung · Begründen Sie | f(x) = x³ − 4x; h(x) = 4x³ − 4x; Aussage: der Mittelpunkt von P und O liegt für jeden Graphenpunkt P auf dem Graphen von h → Begründung der Aussage | Mittelpunkt allgemein ansetzen, in h einsetzen
+2017MerhoehtBAnalysisWTR3-1a | 4 | ja | Rechnung · Bestimmen Sie | Gegeben ist die Schar der Funktionen f_k mit f_k(x) = −x^4 + 6kx^2, x ∈ IR und k ∈ IR; der Graph von f_k heißt G_k → Anzahl der Nullstellen von f_k in Abhängigkeit von k | f_k(x) = −x^2 · (x^2 − 6k) = 0; x^2 = 6k hat für k > 0 zwei Lösungen, für k < 0 keine, für k = 0 fällt sie mit x = 0 zusammen
 2026MerhoehtBAnalysisMMS1-1a | 4 | ja | Begründung · Begründen Sie¦Zeigen Sie | f_a(x) = 60/a · x · (x − a)², a > 0; Graph G_a; Punkte A(0; 0) und B(a; 0) → Begründung, dass G_a die x-Achse nur in A und B schneidet; Nachweis f_a'(0) = 60a und x-Achse als Tangente in B | Faktoren des Terms null setzen; Ableitung bilden (Rechner), f_a'(0) und f_a'(a) auswerten, f_a(a) = 0 mit f_a'(a) = 0 als Tangente deuten
 2019MgrundlegendBAnalysisWTR2-1a | 2 | ja | Kurzantwort · Geben Sie an | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k → Nullstellen von f_k | Faktoren null setzen
 2026MerhoehtBAnalysisMMS2-2a | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | f_a(x) = 3/4 · (x² − a²) · e^(1 − x/a), a > 0; Graph G_a → Nullstellen von f_a; Begründung, dass G_a die y-Achse unterhalb der x-Achse schneidet | x² − a² = 0 lösen; f_a(0) berechnen und Vorzeichen begründen
@@ -422,10 +454,13 @@ abitur/abitur-typen.csv (neu): Für eine Schar kubischer Parabeln den Wendepunkt
 2025MerhoehtAAnalysis11-b | 2 | nein | Rechnung · Zeigen Sie | Schar f_a(x) = x · e^(−a · x²), a > 0 → Nachweis, dass alle Graphen der Schar punktsymmetrisch zum Ursprung sind | f_a(−x) bilden und mit −f_a(x) vergleichen
 2025MerhoehtBAnalysisWTR2-2b | 4 | ja | Rechnung¦Kurzantwort · Zeigen Sie¦Interpretieren Sie | Schar g_k wie in a; Gleichung g_k(−x) = −g_{−k}(x) → Nachweis für alle x und Deutung für die Graphen | rechte Seite umformen, Symmetrie deuten
 2024MerhoehtBAnalysisWTR1-2e | 5 | ja | Rechnung · Ermitteln Sie | Gleichungen (1) bis (3) aus d → Werte von a und b | aus (2) und (1) das Vorzeichen von c schließen, a/b = 45, in (1) einsetzen
+2017MerhoehtBAnalysisWTR2-1e | 4 | ja | Rechnung · Berechnen Sie | Für jedes k ∈ IR+ ist die Funktion f_k mit f_k(x) = k^2x^3 − 6kx^2 + 9x, x ∈ IR, gegeben; ihr Graph heißt G_k; f_k'(x) = 3 · (kx − 1) · (kx − 3); G_k hat zwei Extrempunkte → derjenige Wert von k, für den sich die x-Koordinaten der beiden Extrempunkte von G_k um 6 unterscheiden | Extremstellen 1/k und 3/k (Vorzeichenwechsel der Ableitung); 3/k − 1/k = 6 nach k auflösen
 2023MerhoehtAAnalysis12-b | 3 | nein | Rechnung · Bestimmen Sie | f(x) = −x² + 2ax mit a > 1; Flächenstück mit Inhalt 4/3 a³; Quadrat mit zwei Seiten auf den Koordinatenachsen, der Hochpunkt liegt auf einer Seite; Quadrat und Flächenstück sind inhaltsgleich → Wert von a | Hochpunkt (a; a²) bestimmen, Seitenlänge a², Gleichung (a²)² = 4/3 a³ lösen
 2018MerhoehtBAnalysisWTR2-1j | 4 | ja | Rechnung · Berechnen Sie | Kugelstoßen im Koordinatensystem (1 LE = 1 m, x-Achse ist der Boden): Bahn von der Ruhelage R bis zum Abstoßpunkt A durch f(x) = 0,4 + 1,6 · e^(0,5x), x ∈ [−2; 0]; Flugkurven p_a(x) = −ax² + bx + 2, a > 0, ohne Knick in A; a = 0,8/s + 2/s²; Hochpunkthöhe 2 + 0,16/a; Stoßweite 20 m → Höhe der Flugkurve | a aus s = 20, dann Hochpunkthöhe
 2021MerhoehtAAnalysis12-b | 4 | nein | Rechnung · Ermitteln Sie | f(x) = x⁴ − k · x² mit k > 0; f'(x) = 2x · (2x² − k); beide Tiefpunkte haben die y-Koordinate −1 → Wert von k | Tiefstellen ±√(k/2) aus f' = 0, Funktionswert gleich −1 setzen
 2026MerhoehtBAnalysisWTR1-1a | 5 | ja | Rechnung¦Begründung · Berechnen Sie¦Zeigen Sie | f_a(x) = 1/4 x³ + ax² + ax + 1/4 in IR, a ∈ IR; Punkt (1 ¦ −1) auf G_a → Wert von a und Nachweis, dass (1 ¦ −1) Wendepunkt ist | a aus f_a(1) = −1, Wendepunkt über f'' = 0 und f''' ≠ 0
+2017MerhoehtBAnalysisCAS1-1a | 2 | ja | Rechnung · Berechnen Sie | Für a ∈ IR+ ist die Schar der in IR definierten Funktionen f_a mit f_a(x) = x^2 · e^(−a · x) gegeben; der Graph von f_a heißt G_a → der Wert von a, für den der Punkt (1; 1/2) auf G_a liegt | f_a(1) = e^(−a) = 1/2 setzen und logarithmieren
+2017MerhoehtBAnalysisCAS2-1b | 2 | ja | Rechnung · Bestimmen Sie | Längsschnitte von fünf rotationssymmetrischen Gläsern einer Serie (Füße und Stiele nicht abgebildet); die Rotationsachsen liegen auf der y-Achse, 1 LE = 1 cm; jeder Längsschnitt wird durch eine der in IR definierten Funktionen f_k mit f_k(x) = −3/512 · k · x^4 + 3/32 · k^2 · x^2, k ∈ IR+, beschrieben; f_2 gehört zum Likörglas, f_3 zum Cocktailglas; das Sektglas ist 12 cm hoch, sein Rand hat einen Durchmesser von 6 cm; die Materialstärke wird vernachlässigt → der zum Sektglas gehörende Wert von k | Der Rand liegt bei x = 3 in der Höhe 12: f_k(3) = 12 nach k auflösen, k > 0
 2018MerhoehtBAnalysisWTR2-1e | 2 | ja | Rechnung · Berechnen Sie | Kugelstoßen im Koordinatensystem (1 LE = 1 m, x-Achse ist der Boden): Bahn von der Ruhelage R bis zum Abstoßpunkt A durch f(x) = 0,4 + 1,6 · e^(0,5x), x ∈ [−2; 0]; Flugkurven p_a(x) = −ax² + bx + 2, a > 0, ohne Knick in A; b = 0,8 → Wert von a, für den der Graph von p_a durch (3 ¦ 3,5) verläuft | Einsetzen und nach a auflösen
 2021MgrundlegendBAnalysisWTR-1d | 2 | ja | Rechnung · Bestimmen Sie | f(x) = −5/16 x⁴ + 5x³, in IR definiert; die Abbildung zeigt den Graphen von f; Schar h_a(x) = 5a x², a ∈ IR, in IR definiert → Wert von a, für den (4 ¦ f(4)) auf dem Graphen von h_a liegt | f(4) berechnen und h_a(4) = f(4) nach a lösen
 2022MerhoehtBAnalysisWTR2-2a | 3 | ja | Rechnung · Zeigen Sie¦Geben Sie an | f_a(x) = x · e^(−a · x²/2 + 1/2), a ∈ IR → Nachweis, dass genau ein Graph (1 ¦ 1) enthält; zugehöriges a | Punkt einsetzen, Gleichung eindeutig nach a lösen
@@ -436,6 +471,8 @@ abitur/abitur-typen.csv (neu): Für eine Schar kubischer Parabeln den Wendepunkt
 2024MerhoehtBAnalysisWTR2-1c | 7 | ja | Rechnung · Bestimmen Sie | Funktion der Schar mit Nullstelle 3, deren Graph im vierten Quadranten mit der x-Achse ein Flächenstück vom Inhalt 40,5 einschließt → a und b | b = 9a aus der Nullstelle, Integral von 0 bis 3 gleich −40,5
 2025MerhoehtBAnalysisWTR2-2a | 5 | ja | Kurzantwort · Geben Sie an¦Ordnen Sie zu | g_k(x) = −5x · e^{−kx}, k ≠ 0; Abbildung 3 mit Graphen zu k = −1, −0,5, 0,5, 1; Graph III entsteht durch Spiegeln von G an der x-Achse → k zu Graph III, Tiefpunkt von III, Zuordnung der übrigen k | Spiegelung erkennen, Extremstellen vergleichen
 2026MerhoehtBAnalysisWTR2-1b | 3 | ja | Kurzantwort¦Begründung · Ordnen Sie zu¦Begründen Sie | Abbildung mit Graphen von g_a zu a = 1/k, k, k² für ein k > 1 → Zuordnung mit Begründung | Schnittpunkte mit der y-Achse vergleichen
+2017MerhoehtBAnalysisCAS2-1a | 2 | ja | Kurzantwort · Ordnen Sie zu | Längsschnitte von fünf rotationssymmetrischen Gläsern einer Serie (Füße und Stiele nicht abgebildet); die Rotationsachsen liegen auf der y-Achse, 1 LE = 1 cm; jeder Längsschnitt wird durch eine der in IR definierten Funktionen f_k mit f_k(x) = −3/512 · k · x^4 + 3/32 · k^2 · x^2, k ∈ IR+, beschrieben; f_2 gehört zum Likörglas, f_3 zum Cocktailglas; das Sektglas ist 12 cm hoch, sein Rand hat einen Durchmesser von 6 cm; die Materialstärke wird vernachlässigt → Zuordnung der Graphen aus der Abbildung zum Likörglas und zum Cocktailglas | Charakteristische Werte von f_2 und f_3 berechnen (etwa die Hochpunkte (4; 3) und (4,9; 10,1)) und mit den Graphen vergleichen
+2017MerhoehtBAnalysisWTR3-1e | 3 | ja | Kurzantwort¦Begründung · Ordnen Sie zu¦Begründen Sie | Gegeben ist die Schar der Funktionen f_k mit f_k(x) = −x^4 + 6kx^2, x ∈ IR und k ∈ IR; der Graph von f_k heißt G_k; die Graphen in Abbildung 1 gehören zu k = −1/2, k = 1/2 und k = 1; für k <= 0 verläuft G_k nicht oberhalb der x-Achse, für k > 0 hat G_k die Hochpunkte (±√(3k); 9k^2) → Zuordnung der drei Werte von k zu den Graphen mit Begründung | Nur Graph III verläuft nicht oberhalb der x-Achse: k = −1/2; k = 1 hätte Hochpunkte der Höhe 9, Graph II hat sie nicht: k = 1 zu I, k = 1/2 zu II
 2022MerhoehtBAnalysisWTR1-1f | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Beurteilen Sie | f_p wie in e; Abbildung 2 mit G₋₈₀ und G₂₅₀ → p mit f_p = f; Eignung von f₋₈₀ und f₂₅₀ anhand der Graphen | p = 0 ablesen; Graphen auf Extrempunkte im Intervall prüfen (Geschwindigkeit muss abnehmen)
 2026MerhoehtBAnalysisMMS2-2d | 4 | ja | Rechnung · Bestimmen Sie | f_a(x) = 3/4 · (x² − a²) · e^(1 − x/a), a > 0; jeder Graph hat einen Tiefpunkt T_a und einen Hochpunkt H_a; für einen Wert von a sind T_a und H_a gegenüberliegende Ecken eines achsenparallelen Quadrats → dieser Wert von a auf Hundertstel gerundet | Extremstellen als Terme in a berechnen; Bedingung: waagerechter Abstand der Extremstellen gleich Differenz der Funktionswerte; Gleichung in a mit dem Rechner lösen
 2023MgrundlegendBAnalysisWTR1-3b | 4 | ja | Rechnung · Bestimmen Sie | w_a wie in a; Extremstellen 0 und 3 → a, für das der Mittelpunkt der Strecke zwischen den Extrempunkten auf der x-Achse liegt | Bedingung in 1/2(w_a(0) + w_a(3)) = 0 übersetzen und nach a auflösen

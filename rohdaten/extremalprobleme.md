@@ -4,9 +4,9 @@ Stufe: II
 
 - fhr: Extremwertaufgaben (9 Zeilen)
 - abi: Extremalprobleme (8 Zeilen)
-- iqb: Extremalprobleme (7 Zeilen)
+- iqb: Extremalprobleme (8 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -16,11 +16,11 @@ abitur/abitur-typen.csv (neu): Die Differenz zweier Funktionen als Zielfunktion 
 **Maximum der Zielfunktion bestimmen** · 3 Zeilen · fhr 3 · Jahre 2020–2025
 fhr/fhr-typen.csv (geprüft): Die Zielfunktion ableiten, die Extremstelle berechnen und daraus den größten Wert samt den zugehörigen Größen angeben.
 
+**Parameter für den größten Flächeninhalt über die Ableitung bestimmen** · 3 Zeilen · iqb 3 · Jahre 2017–2020
+abitur/abitur-typen.csv (neu): Den Parameterwert bestimmen, für den eine vorgegebene Flächeninhaltsfunktion maximal wird (Ableitung, Nullstelle mit Einschränkung des Parameters).
+
 **Zielfunktion aus Haupt- und Nebenbedingung aufstellen** · 3 Zeilen · fhr 3 · Jahre 2020–2025
 fhr/fhr-typen.csv (geprüft): Hauptbedingung und Nebenbedingung notieren, die Nebenbedingung nach einer Variablen umstellen und einsetzen, um eine Zielfunktion in einer Variablen zu erhalten.
-
-**Parameter für den größten Flächeninhalt über die Ableitung bestimmen** · 2 Zeilen · iqb 2 · Jahre 2019–2020
-abitur/abitur-typen.csv (neu): Den Parameterwert bestimmen, für den eine vorgegebene Flächeninhaltsfunktion maximal wird (Ableitung, Nullstelle mit Einschränkung des Parameters).
 
 **Achsenparalleles Rechteck maximaler Fläche zwischen Ursprung und Graphenpunkt bestimmen** · 1 Zeile · abi 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Den Punkt eines Graphen bestimmen, für den das achsenparallele Rechteck mit dem Ursprung als Gegenecke maximalen Flächeninhalt hat (Zielfunktion u · f(u), Ableitung, Nullstelle).
@@ -58,7 +58,7 @@ fhr/fhr-typen.csv (neu): Ein durch seine Eckpunkte gegebenes Rechteck in ein vor
 **Term für die Schenkellänge eines einbeschriebenen Trapezes aufstellen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Die Länge der gleich langen Schenkel eines einbeschriebenen Trapezes als Term im Parameter über den Abstand zweier Punkte angeben.
 
-**Nebentypen:** Ableitung ganzrationale Funktion (1) · Dreiecksfläche aus Punktkoordinaten berechnen (1) · Existenz eines Flächenmaximums ohne Rechnung begründen (1) · Flächeninhalt bei gegebener Nebenbedingung berechnen (1) · Flächeninhaltsterm eines Dreiecks unter dem Graphen begründen (1) · Maximum der Zielfunktion bestimmen (1) · Nullstellen über Substitution biquadratisch (1) · Zielfunktion aus Haupt- und Nebenbedingung aufstellen (1)
+**Nebentypen:** Flächeninhaltsterm eines Dreiecks unter dem Graphen begründen (2) · Ableitung ganzrationale Funktion (1) · Dreiecksfläche aus Punktkoordinaten berechnen (1) · Existenz eines Flächenmaximums ohne Rechnung begründen (1) · Flächeninhalt bei gegebener Nebenbedingung berechnen (1) · Maximum der Zielfunktion bestimmen (1) · Nullstellen über Substitution biquadratisch (1) · Zielfunktion aus Haupt- und Nebenbedingung aufstellen (1)
 
 ## B Zeilenliste
 
@@ -89,6 +89,7 @@ abitur/abitur-typen.csv (neu): Die Länge der gleich langen Schenkel eines einbe
 2019MgrundlegendBAnalysisWTR2-1f | 2 | ja | Zeichnen · Zeichnen Sie | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; k = 1/4; Trapeze mit den Ecken A(0 ¦ 0), B(8 ¦ 0), C_u(8 − u ¦ f_(1/4)(u)) und D_u(u ¦ f_(1/4)(u)) für 0 < u < 4 → Trapez für u = 1 in der Abbildung | D₁ und C₁ berechnen und mit A, B verbinden
 2020MerhoehtAAnalysis11-a | 2 | nein | Begründung · Begründen Sie | f(x) = x · e^(−x) in IR; Dreiecke mit O(0; 0), P(a; 0), Q(a; f(a)), a > 0 → Begründung, dass der Flächeninhalt 1/2 a² e^(−a) beträgt | Grundseite und Höhe einsetzen
 2019MgrundlegendBAnalysisWTR2-1h | 4 | ja | Begründung · Beschreiben Sie | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; k = 1/4; Trapeze mit den Ecken A(0 ¦ 0), B(8 ¦ 0), C_u(8 − u ¦ f_(1/4)(u)) und D_u(u ¦ f_(1/4)(u)) für 0 < u < 4; Flächenterm (8 − u) · f_(1/4)(u) → geometrische Überlegung, mit der sich der Term herleiten lässt | Mittelparallele als Mittelwert von 8 und 8 − 2u, Höhe als Funktionswert
+2017MerhoehtBAnalysisCAS1-1d | 5 | ja | Rechnung · Bestimmen Sie¦geben Sie an | f_0,2(x) = x^2 · e^(−0,2x) mit Graph G_0,2; für b ∈ IR+ die Punkte A(0; 0), B(b; 0) und C mit der x-Koordinate b auf G_0,2 → der Wert von b, für den der Flächeninhalt des Dreiecks ABC maximal ist, und der zugehörige Flächeninhalt | Rechter Winkel bei B: A(b) = 1/2 · b · f_0,2(b) = 1/2 · b^3 · e^(−0,2b); A'(b) = 0 für b > 0 liefert b = 15 (Vorzeichenwechsel von + nach −); A(15) berechnen
 2019MgrundlegendBAnalysisWTR2-1i | 5 | ja | Rechnung · Ermitteln Sie | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; k = 1/4; Trapeze mit den Ecken A(0 ¦ 0), B(8 ¦ 0), C_u(8 − u ¦ f_(1/4)(u)) und D_u(u ¦ f_(1/4)(u)) für 0 < u < 4; Flächeninhalt (8 − u) · f_(1/4)(u); eines der Trapeze hat den größten Inhalt → zugehöriger Wert von u | T(u) aufstellen, T' = 0 lösen, Lösung im Intervall wählen
 2020MerhoehtAAnalysis11-b | 3 | nein | Rechnung · Bestimmen Sie | Flächeninhalt A(a) = 1/2 a² e^(−a) aus a; unter den Dreiecken hat eines den größten Inhalt → zugehöriger Wert von a | A ableiten, Nullstelle mit a > 0
 2019MgrundlegendBAnalysisWTR2-1g | 2 | ja | Kurzantwort · Geben Sie an | Schar f_k(x) = −kx · (x − 8), k > 0, in IR definiert; Graph G_k; k = 1/4; Trapeze mit den Ecken A(0 ¦ 0), B(8 ¦ 0), C_u(8 − u ¦ f_(1/4)(u)) und D_u(u ¦ f_(1/4)(u)) für 0 < u < 4 → Term für die Länge der beiden gleich langen Schenkel | Abstand A–D_u mit dem Satz des Pythagoras

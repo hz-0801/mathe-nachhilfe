@@ -6,9 +6,9 @@ Stufe: II
 - fhr: Fläche zwischen zwei Graphen (6 Zeilen)
 - fhr: Körpervolumen aus Grundfläche und Länge (2 Zeilen)
 - abi: Flächeninhalt durch Integration (47 Zeilen)
-- iqb: Flächeninhalt durch Integration (65 Zeilen)
+- iqb: Flächeninhalt durch Integration (67 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
@@ -23,6 +23,9 @@ fhr/fhr-typen.csv (geprüft): Differenzfunktion bilden und über dem gegebenen I
 
 **Fläche: Fläche zwischen Graph und x-Achse aus zwei Flächenstücken berechnen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2021–2024
 abitur/abitur-typen.csv (neu): Den Inhalt der von Graph und x-Achse eingeschlossenen Fläche berechnen, wenn sie aus zwei Stücken ober- und unterhalb der Achse besteht: Nullstellen, Integrale je Stück mit Betrag oder Symmetrie.
+
+**Fläche: Volumen eines Körpers mit konstantem Querschnitt aus der Fläche zwischen Graph und waagerechter Gerade berechnen** · 4 Zeilen · abi 1 iqb 3 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Die Querschnittsfläche zwischen einem Profilgraphen und einer waagerechten Geraden (x-Achse, Wasserlinie, Oberkante; Grenzen gegebenenfalls als Schnittstellen) als bestimmtes Integral berechnen und mit der konstanten Tiefe oder Breite zum Volumen multiplizieren – im Sachzusammenhang weiter zu Masse oder Fassungsvermögen in Litern, mit einer Fließgeschwindigkeit zur Durchflussrate.
 
 **Fläche: Fläche zwischen Graph und x-Achse aus einem Flächenstück berechnen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): Den Inhalt einer von Graph und x-Achse begrenzten Fläche, die aus einem Stück ohne Vorzeichenwechsel des Integranden besteht, als ein bestimmtes Integral berechnen – zwischen zwei benachbarten Nullstellen oder, wenn die y-Achse Rand ist, von 0 bis zur Nullstelle –, unterhalb der Achse mit Betrag.
@@ -53,9 +56,6 @@ abitur/abitur-typen.csv (neu): Nachweisen, dass der Inhalt der Fläche zwischen 
 
 **Fläche: Senkrechte Gerade zur Halbierung einer Fläche über den Flächenterm bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Die senkrechte Gerade x = a bestimmen, die eine Fläche halbiert, indem der Flächenterm in der Grenze gleich der halben Gesamtfläche gesetzt wird (Exponentialgleichung, Logarithmus).
-
-**Fläche: Wasservolumen in einer Mulde aus Fläche zwischen Wasserlinie und Graph mal Breite berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2025
-abitur/abitur-typen.csv (neu): Die Schnittstellen einer waagerechten Wasserlinie mit dem Profilgraphen bestimmen, die Fläche dazwischen integrieren und mit der Breite zum Volumen in Litern umrechnen.
 
 **Integralwert: Eindeutige Lösung einer Flächengleichung über die Monotonie des Flächeninhalts begründen** · 2 Zeilen · iqb 2 · Jahre 2024–2026
 abitur/abitur-typen.csv (neu): Ohne Stammfunktion begründen, dass eine Gleichung zwischen einer festen Fläche und einer mit der Grenze wachsenden Fläche genau eine Lösung hat.
@@ -159,9 +159,6 @@ abitur/abitur-typen.csv (neu): Den Radius eines Halbkreises mit gleichem Fläche
 **Fläche: Verschiebung für die Halbierung einer Fläche über ein Integral bestimmen** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Den Verschiebungswert bestimmen, für den ein Graph eine symmetrische Figur in zwei inhaltsgleiche Teile teilt, indem die Bedingung als Integral gleich null formuliert wird.
 
-**Fläche: Volumen eines Körpers mit konstanter Tiefe aus der Fläche zwischen Graph und x-Achse berechnen** · 1 Zeile · abi 1 · Jahre 2017
-abitur/abitur-typen.csv (neu): Die Querschnittsfläche zwischen einem Graphen und der x-Achse über einem Intervall als bestimmtes Integral berechnen und mit einer konstanten Tiefe (Breite) zum Volumen eines prismatischen Bauteils im Sachzusammenhang multiplizieren.
-
 **Fläche: Änderung eines Flächeninhalts beim Ersetzen des Graphen durch die Sehne untersuchen** · 1 Zeile · abi 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Untersuchen, ob ein Flächeninhalt größer, kleiner oder gleich bleibt, wenn ein Graphenbogen durch die Sehne zwischen seinen Endpunkten ersetzt wird (Integral unter der Sehne mit dem Integral vergleichen).
 
@@ -197,6 +194,9 @@ abitur/abitur-typen.csv (neu): Integrationsgrenzen so wählen und begründen, da
 
 **Integralwert: Integral als Flächeninhalt zwischen Graph und x-Achse deuten und über die Stammfunktion berechnen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Ein bestimmtes Integral über einen nichtnegativen Integranden als Flächeninhalt zwischen Graph und x-Achse beschreiben und mit einer vorgegebenen Stammfunktion berechnen.
+
+**Integralwert: Integral der Differenz aus waagerechter Gerade und Funktion als Flächeninhalt mit einer Skizze deuten** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Ein Integral der Form ∫ (c − f(x)) dx mit c als Höhe eines Hochpunkts geometrisch als Inhalt der Fläche zwischen der Geraden y = c, dem Graphen und einer Achse deuten und in einer Skizze kennzeichnen.
 
 **Integralwert: Integral einer Differenzfunktion grafisch abschätzen** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Das Integral über die Differenz zweier Funktionen als Fläche zwischen ihren Graphen deuten, diese in der Abbildung markieren und mit einem Vergleichsrechteck gegen eine Schranke abschätzen.
@@ -353,6 +353,7 @@ fhr/fhr-typen.csv (geprüft): Eine berechnete Querschnittsfläche mit einer Län
 2026MgrundlegendBAnalysisMMS2-1g | 6 | ja | Rechnung · Bestimmen Sie | zweite Dachrinne: gleiche Länge 3 m, gleiche Blechdicke 0,07 cm, gleiches maximales Wasservolumen, Innenprofil Halbkreis; Dichte 8,96 g/cm³ → Masse des Stücks der zweiten Dachrinne | Innenradius aus der Flächengleichheit mit dem Integral über f, Blechquerschnitt als halber Kreisring, mal Länge mal Dichte
 2026MgrundlegendBAnalysisWTR2-1e | 3 | ja | Rechnung · Ermitteln Sie | Flächeninhalt 3 − 3e^u (aus d); u = −ln 5; die Gerade x = a teilt die Fläche in zwei inhaltsgleiche Teile → Wert von a | Fläche von a bis 0 gleich halber Gesamtfläche setzen
 2025MgrundlegendAAnalysis21-b | 4 | nein | Rechnung · Berechnen Sie | f(x) = x^4 − x^2; Quadrat mit den Ecken (±1; ±1); der Graph wird um c > 0 in y-Richtung verschoben, sodass er das Quadrat in zwei Flächen gleichen Inhalts teilt → Wert von c | der verschobene Graph x^4 − x^2 + c teilt das Quadrat genau dann in gleiche Teile, wenn er die x-Achse als Mittellinie im Mittel trifft: Integral von 0 bis 1 über x^4 − x^2 + c gleich 0 (Symmetrie zur y-Achse); 1/5 − 1/3 + c = 0
+2017MerhoehtBAnalysisWTR3-2d | 7 | ja | Rechnung · Berechnen Sie | Ein Trainingsgerät zur Schulung der Koordination besteht aus einem Unterbau und einem 2 cm dicken Standbrett (60 cm breit, 40 cm lang), das seitlich ohne Überstand mit dem Unterbau abschließt; das Gerät hat auf seiner gesamten Länge den gleichen Querschnitt; bei horizontal ausgerichtetem Standbrett wird die untere Profillinie des Unterbaus für −3 <= x <= 3 durch p(x) = −1/48 · (x^4 − 18x^2) beschrieben; der horizontale Untergrund ist die x-Achse, 1 LE = 1 dm; p(3) = 27/16; Unterbau und Standbrett sind ohne Hohlraum aus Holz; ein Kubikzentimeter des Holzes hat eine Masse von 0,5 g → Masse des Trainingsgeräts in Kilogramm | Querschnittsfläche des Unterbaus als Fläche zwischen der Geraden y = p(3) und dem Graphen von p über [−3; 3]; mal Länge 40 cm; Volumen des Bretts 60 · 40 · 2 cm^3 addieren; mit 0,5 g/cm^3 multiplizieren
 2017MgrundlegendBAnalysisWTR-1i | 5 | ja | Rechnung · Berechnen Sie | Querschnitt einer Senke mit Fluss: Profillinie f(x) = −5x^2 · e^x + 1 für −6 <= x <= 0; linke Uferzone waagerecht in Höhe f(−6) links von x = −6, rechte Uferzone waagerecht in Höhe 1 rechts von x = 0 (Strecken parallel zur x-Achse, lückenlos an den Graphen anschließend); die Wasseroberfläche ist ein Abschnitt der x-Achse; 1 LE = 1 m; gegeben f'(x) = −5x · (2 + x) · e^x, f''(x) = −10e^x − 20x · e^x − 5x^2 · e^x und die Stammfunktion F(x) = x − 5 · (x^2 − 2x + 2) · e^x; die Wasseroberfläche wird im Modell näherungsweise durch x ≈ −4,7 und x ≈ −0,6 begrenzt; Fließgeschwindigkeit 0,5 m/s; Durchflussrate = Flächeninhalt des Flussquerschnitts (in m^2) mal Fließgeschwindigkeit (in m/s) → Durchflussrate | Den Flächeninhalt des Flussquerschnitts als Betrag des Integrals von −4,7 bis −0,6 über f mit der Stammfunktion F berechnen und mit 0,5 multiplizieren
 2025MerhoehtBAnalysisMMS2-2c | 6 | ja | Rechnung · Berechnen Sie | Wasserrutsche: r(x) = 1/16 · x² · e^(−0,25x + 1) (= f_(0,25)), Graph G beschreibt für −4 ≤ x ≤ 10 die Profillinie der Rutschbahn, die x-Achse den Boden und die Wasseroberfläche, links ein horizontales Startpodest; 1 LE = 1 m; Rutschbahn 1,5 m breit mit senkrechten Wänden; Wasser in der Mulde an der tiefsten Stelle 5 cm hoch (Abb. 2) → Volumen des Wassers in der Mulde in Litern | Wasserlinie y = 0,05 mit G schneiden, Fläche dazwischen integrieren, mit 1,5 multiplizieren und in Liter umrechnen
 2025MerhoehtBAnalysisWTR1-1e | 4 | ja | Begründung · Untersuchen Sie | Gleichung ∫_k^{k+1} f(x) dx = 4; für −1,5 ≤ k ≤ 1,5 genau eine Lösung → Anzahl der Lösungen für k ≥ 1,5, grafisch mit Abbildung 1 | Streifen der Breite 1 nach rechts schieben, Inhalt vergleichen
@@ -365,6 +366,7 @@ fhr/fhr-typen.csv (geprüft): Eine berechnete Querschnittsfläche mit einer Län
 2019MgrundlegendBAnalysisWTR1-3d | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | h(x) = 40/13 · 1/(x − 5), x ≠ 5; Abbildung 2 zeigt den Graphen von h; g(x) = 13/40 · (x − 5) aus Aufgabe 2; a, b ∈ ]−∞; 5[ und c, d ∈ ]5; +∞[ mit ∫_a^b h(x) dx · ∫_c^d h(x) dx > 0 → eine Möglichkeit für a, b, c, d mit Begründung | Vorzeichen beider Integrale über Vorzeichen von h und Reihenfolge der Grenzen steuern
 2025MerhoehtBAnalysisMMS1-1c | 4 | ja | Begründung · Beurteilen Sie | Schar f_k(x) = 1/(2k) · x² · (x − 2k)², k > 0, in IR definiert; Graph G_k; Fläche zwischen G_k, x-Achse und den Geraden x = −1 und x = 1 aus mehreren Flächenstücken; Aussage: für jeden Wert von k gibt ∫₋₁¹ f_k(x) dx den Inhalt dieser Fläche an → Beurteilung der Aussage ohne Berechnung eines Integrals | Nichtnegativität von f_k am Produkt begründen
 2020MgrundlegendBAnalysisWTR2-1f | 3 | ja | Begründung¦Rechnung · Deuten Sie¦Berechnen Sie | f(x) = 1/10 · x · (3 − x) · eˣ, x ∈ IR; Abbildung 1 zeigt den Graphen von f; f'(x) = −1/10 · (x² − x − 3) · eˣ; F(x) = −1/10 · (x² − 5x + 5) · eˣ; Integral ∫₀³ f(x) dx → geometrische Deutung des Integrals und sein Wert | Fläche zwischen Graph und x-Achse über [0; 3] nennen, F(3) − F(0) berechnen
+2017MerhoehtBAnalysisWTR3-1f | 3 | ja | Zeichnen¦Begründung · Deuten Sie | Gegeben ist die Schar der Funktionen f_k mit f_k(x) = −x^4 + 6kx^2, x ∈ IR und k ∈ IR; der Graph von f_k heißt G_k; k > 0; Hochpunkt (√(3k); 9k^2); Integral ∫ von 0 bis √(3k) (9k^2 − f_k(x)) dx → geometrische Deutung des Integrals mithilfe einer geeigneten Skizze | 9k^2 ist die Höhe des Hochpunkts, der Integrand die Differenz zwischen der waagerechten Geraden y = 9k^2 und dem Graphen; das Integral ist der Inhalt der Fläche zwischen Gerade, Graph und y-Achse
 2026MgrundlegendAAnalysis14-b | 3 | nein | Zeichnen · Veranschaulichen Sie | Abbildung mit dem Graphen von f (Graph I, Hochpunkt (0; 2), Tiefpunkt (2; 0)) und dem Graphen von f' (Graph II, Nullstellen 0 und 2, Tiefpunkt bei etwa (1; −1,6)); Aussage: das Integral von −2 bis 2 über f(x) − f'(x) dx ist kleiner als 12 → grafische Veranschaulichung der Aussage durch Eintragungen in der Abbildung | die Fläche zwischen Graph I und Graph II von x = −2 bis x = 2 schraffieren und ein Rechteck von x = −2 bis 2 und y = −2 bis 1 (Fläche 4 · 3 = 12) eintragen, das die schraffierte Fläche ganz enthält
 2025MerhoehtAAnalysis13-a | 1 | nein | Kurzantwort · Geben Sie an | f(x) = 3 · cos(x), definiert in IR, Graph in der Abbildung; Integral von 0 bis π über f(x) dx → Wert des Integrals | am Graphen: die Fläche über der x-Achse in [0; π/2] ist so groß wie die darunter in [π/2; π], die orientierten Inhalte heben sich auf
 2026MerhoehtAAnalysis12-a | 2 | nein | Zeichnen · Veranschaulichen Sie | g(x) = −2x + 4, Graph in der Abbildung; k > 0 ist Lösung der Gleichung Integral von 0 bis k über g(x) dx = 0 → Veranschaulichung der geometrischen Bedeutung der Gleichung in der Abbildung | k = 4 erkennen; das Dreieck zwischen Graph und x-Achse von 0 bis 2 (über der Achse) und das Dreieck von 2 bis 4 (unter der Achse) markieren und als inhaltsgleich kennzeichnen

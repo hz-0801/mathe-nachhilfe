@@ -5,7 +5,7 @@ Stufe: II
 - abi: Ableitungsgraph und Funktionsgraph (11 Zeilen)
 - iqb: Ableitungsgraph und Funktionsgraph (12 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 

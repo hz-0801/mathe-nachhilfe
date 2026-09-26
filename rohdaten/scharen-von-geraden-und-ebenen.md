@@ -3,20 +3,20 @@
 Stufe: II
 
 - abi: Scharen von Geraden und Ebenen (23 Zeilen)
-- iqb: Scharen von Geraden und Ebenen (27 Zeilen)
+- iqb: Scharen von Geraden und Ebenen (28 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
 **Anzahl der Eckpunkte der Schnittfigur einer Ebenenschar mit einem Quader nach Parameterbereichen angeben** · 4 Zeilen · abi 1 iqb 3 · Jahre 2018–2022
 abitur/abitur-typen.csv (neu): Die Parameterwerte bestimmen, bei denen eine Ebene der Schar Quaderecken enthält, und für die Bereiche dazwischen die Eckenzahl der Schnittfigur angeben.
 
+**Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Den Parameter im Richtungsvektor einer Geradenschar so bestimmen, dass der Durchstoßpunkt durch eine Ebene in einem vorgegebenen Bereich liegt, und daraus zulässige ganzzahlige Werte angeben.
+
 **Zugehörigkeit einer Ebene zu einer Schar prüfen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2022–2024
 abitur/abitur-typen.csv (neu): Prüfen, ob eine gegebene Ebene zu einer Ebenenschar gehört, indem die Koordinatengleichung als Vielfaches der Schargleichung angesetzt und das Gleichungssystem auf Widerspruch geprüft wird.
-
-**Ganzzahligen Scharparameter aus einer Bereichsbedingung an den Durchstoßpunkt bestimmen** · 2 Zeilen · abi 2 · Jahre 2017
-abitur/abitur-typen.csv (neu): Den Parameter im Richtungsvektor einer Geradenschar so bestimmen, dass der Durchstoßpunkt durch eine Ebene in einem vorgegebenen Bereich liegt, und daraus zulässige ganzzahlige Werte angeben.
 
 **Gemeinsamen Punkt aller Ebenen einer Schar nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Durch Einsetzen nachweisen, dass ein Punkt in allen Ebenen einer Schar liegt.
@@ -105,7 +105,7 @@ abitur/abitur-typen.csv (neu): Für einen Parameterwert einer Ebenenschar nachwe
 **Weiteren Eckpunkt des Schnittdreiecks einer Scharebene mit einem Körper ermitteln** · 1 Zeile · abi 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Für eine feste Scharebene durch einen Eckpunkt eine Kante mit Vorzeichenwechsel der Ebenengleichung wählen und den Schnittpunkt als weitere Ecke der Schnittfigur berechnen.
 
-**Nebentypen:** Schnittpunkt von Gerade und Ebene berechnen (2) · Punkt: Mittelpunkt einer Strecke im Raum bestimmen (1) · Schnittwinkel zweier Geraden über das Skalarprodukt berechnen (1)
+**Nebentypen:** Schnittpunkt von Gerade und Ebene berechnen (3) · Punkt: Mittelpunkt einer Strecke im Raum bestimmen (1) · Schnittwinkel zweier Geraden über das Skalarprodukt berechnen (1)
 
 ## B Zeilenliste
 
@@ -140,6 +140,7 @@ abitur/abitur-typen.csv (neu): Für eine feste Scharebene durch einen Eckpunkt e
 2018MgrundlegendBAGLAA2WTR1-1f | 4 | ja | Kurzantwort¦Begründung · Geben Sie an¦Beschreiben Sie | E_t wie in e; die Schnittfigur des Quaders mit E_t ist für manche t ein Dreieck statt eines Vierecks → alle Werte von t mit Dreieck; Lage der Eckpunkte in Abhängigkeit von t | P_t innerhalb der Quaderhöhe (¦t¦ ≤ 3, t ≠ 0) liefert ein Dreieck; für t > 0 liegt die dritte Ecke auf BF, für t < 0 auf der Kante über dem Ursprung
 2022MerhoehtBAGLAA2WTR1-1f | 4 | ja | Kurzantwort · Geben Sie an | Für k = 6 enthält BCD_k die Ecke Q, für kleinere k schneidet die Fläche den Quader in einem Vieleck → Anzahl der Eckpunkte des Vielecks in Abhängigkeit von k | Übergangswerte k = 6, 4, 3 aus den Ecken Q, P/R, (0¦0¦3) bestimmen, Schnittfiguren zuordnen
 2021MerhoehtAAGLAA213-b | 3 | nein | Rechnung · Untersuchen Sie | E und g_a wie in a → Untersuchung, ob es ein a gibt, für das g_a in E liegt | Stützpunkt prüfen, Skalarprodukt Richtung mal Normalenvektor null setzen
+2017MerhoehtBAGLAA2CAS2-1f | 5 | ja | Rechnung · Ermitteln Sie¦geben Sie an | Ein geschlossenes Zelt auf horizontalem Untergrund hat die Form einer Pyramide mit quadratischer Grundfläche; die seitlichen Kanten bilden vier gleich lange Stangen; das Zelt ist 3,90 m hoch, die Seitenlänge des Zeltbodens beträgt 5,00 m; Modell: Pyramide ABCDS mit Spitze S, A im Koordinatenursprung, B auf dem positiven Teil der x-Achse, D auf dem positiven Teil der y-Achse, C(5; 5; 0), M Mittelpunkt der Grundfläche; das Dreieck ABS liegt in der Ebene E: −39y + 25z = 0; 1 LE = 1 m; betrachtet wird die Zeltwand CDS; ein Teil dieser Wand kann mit zwei weiteren Stangen zu einem horizontalen Vordach aufgespannt werden; die dadurch entstehende Öffnung in der Wand ist im Modell ein Rechteck, dessen eine Seite so auf der Strecke CD liegt, dass ihr einer Endpunkt von C ebenso weit entfernt ist wie der andere von D; nach Abbildung 2 liegt das Vordach 1,80 m über dem Boden, die Öffnung ist 1,40 m breit; die äußere Kante des Vordachs liegt bei y ≈ 5,98; Sonnenlicht fällt zu einem Zeitpunkt in parallelen Geraden mit dem Richtungsvektor (0,5; −4,2; a) und trifft durch ein kleines Loch im Vordach genau den Mittelpunkt M des Zeltbodens; für a kommen verschiedene ganzzahlige Werte infrage → einer dieser Werte von a und die Koordinaten des zugehörigen Punkts, der eine mögliche Position des Lochs darstellt | Loch (xP; yP; 1,8) mit xP ∈ [1,8; 3,2] und yP ∈ [3,85; 5,98]; (2,5; 2,5; 0) + t · (0,5; −4,2; a) = (xP; yP; 1,8); ganzzahlige a probieren
 2022MerhoehtAAGLAA222-a | 2 | nein | Begründung · Begründen Sie | Schar E_a: ax + y + 4z = 4, a reell; Gerade h in der yz-Ebene in der Abbildung → Begründung, dass alle Ebenen der Schar h enthalten | zwei Punkte von h ablesen und in die Schargleichung einsetzen; wegen x = 0 fällt a heraus
 2024MerhoehtBAGLAA2WTR1-1e | 1 | ja | Rechnung · Zeigen Sie | E_k: 4k · x + 4√(1 − k²) · y + 3z = 12, k ∈ [−1; 1]; S(0 ¦ 0 ¦ 4) → Nachweis S ∈ E_k für alle k | S einsetzen
 2025MerhoehtAAGLAA221-b | 3 | nein | Begründung · Beurteilen Sie | g_k: x = (5 − 6k; 3k; 4 − 9k) + r · (2; −1; 3), r reell; Aussage: alle Geraden g_k sind identisch → Beurteilung der Aussage | den Stützvektor als (5; 0; 4) − 3k · (2; −1; 3) schreiben; damit hat jede g_k die Darstellung (5; 0; 4) + r' · (2; −1; 3) mit r' = r − 3k

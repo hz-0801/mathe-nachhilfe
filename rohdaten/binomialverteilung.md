@@ -3,22 +3,22 @@
 Stufe: II
 
 - abi: Binomialverteilung (65 Zeilen)
-- iqb: Binomialverteilung (104 Zeilen)
+- iqb: Binomialverteilung (109 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
 **Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln** · 22 Zeilen · abi 6 iqb 16 · Jahre 2018–2026
 abitur/abitur-typen.csv (neu): Eine kumulierte Wahrscheinlichkeit einer Binomialverteilung (weniger als, mehr als, höchstens, mindestens) mit dem Rechner oder aus der Tabelle ermitteln; „mehr als“ über das Gegenereignis, ein Intervall als Differenz zweier kumulierter Werte mit richtig eingeschlossenen Grenzen.
 
-**Einzelwahrscheinlichkeit der Binomialverteilung mit dem Rechner ermitteln** · 14 Zeilen · abi 8 iqb 6 · Jahre 2017–2025
+**Einzelwahrscheinlichkeit der Binomialverteilung mit dem Rechner ermitteln** · 15 Zeilen · abi 8 iqb 7 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): P(X = k) einer Binomialverteilung mit dem Rechner ermitteln.
 
-**Kumulierte Binomialsumme als Sachaussage formulieren** · 12 Zeilen · abi 4 iqb 8 · Jahre 2017–2026
+**Kumulierte Binomialsumme als Sachaussage formulieren** · 13 Zeilen · abi 4 iqb 9 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Eine gegebene Summe von Binomialtermen mit ihrem Wert als Wahrscheinlichkeitsaussage („höchstens k von n“) im Sachzusammenhang beschreiben.
 
-**Binomialwahrscheinlichkeit mit der Bernoulli-Formel oder der Tabelle berechnen** · 11 Zeilen · abi 9 iqb 2 · Jahre 2017–2021
+**Binomialwahrscheinlichkeit mit der Bernoulli-Formel oder der Tabelle berechnen** · 12 Zeilen · abi 9 iqb 3 · Jahre 2017–2021
 abitur/abitur-typen.csv (neu): Einzelwahrscheinlichkeit P(X = k) mit der Bernoulli-Formel und kumulierte Wahrscheinlichkeit P(X ≤ k) aus der Tabelle der summierten Binomialverteilung (ohne Rechnerfunktion) bestimmen.
 
 **Anzahl von Versuchen einer Bernoulli-Kette für mindestens einen Treffer über das Gegenereignis bestimmen** · 10 Zeilen · abi 8 iqb 2 · Jahre 2017–2023
@@ -32,6 +32,9 @@ abitur/abitur-typen.csv (neu): Für vorgelegte Säulendiagramme begründen, dass
 
 **Aussage über die Stelle des Maximums der Binomialverteilung über den Erwartungswert beurteilen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2020–2025
 abitur/abitur-typen.csv (neu): Ohne Wahrscheinlichkeitsrechnung beurteilen, ob die Binomialverteilung an einer genannten Stelle ihr Maximum hat, über den Erwartungswert n · p.
+
+**Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k Treffern ermitteln** · 4 Zeilen · abi 1 iqb 3 · Jahre 2017–2024
+abitur/abitur-typen.csv (neu): Den kleinsten Stichprobenumfang n ermitteln, für den P(X > k) eine vorgegebene Schranke erreicht, durch Probieren am Rechner.
 
 **Trefferwahrscheinlichkeit aus einer Bedingung an die Wahrscheinlichkeit für null Treffer bestimmen** · 4 Zeilen · abi 2 iqb 2 · Jahre 2018–2022
 abitur/abitur-typen.csv (neu): Aus einer Mindestwahrscheinlichkeit für das Ausbleiben jedes Treffers die zulässige Trefferwahrscheinlichkeit bestimmen, indem der Ansatz (1 − p)ⁿ nach p aufgelöst wird.
@@ -57,9 +60,6 @@ abitur/abitur-typen.csv (neu): Das kleinste bzw. größte k ermitteln, für das 
 **Kleinsten Radius einer symmetrischen Umgebung um den Erwartungswert für eine Mindestwahrscheinlichkeit ermitteln** · 3 Zeilen · abi 1 iqb 2 · Jahre 2019–2023
 abitur/abitur-typen.csv (neu): Das kleinste ganzzahlige c ermitteln, für das P(μ − c ≤ X ≤ μ + c) eine vorgegebene Schranke erreicht, mit Nachbarwerten am Rechner.
 
-**Mindestumfang für eine Mindestwahrscheinlichkeit von mehr als k Treffern ermitteln** · 3 Zeilen · abi 1 iqb 2 · Jahre 2019–2024
-abitur/abitur-typen.csv (neu): Den kleinsten Stichprobenumfang n ermitteln, für den P(X > k) eine vorgegebene Schranke erreicht, durch Probieren am Rechner.
-
 **Modalwert einer Binomialverteilung bestimmen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2018
 abitur/abitur-typen.csv (neu): Die Trefferzahl mit der größten Einzelwahrscheinlichkeit bestimmen, indem die Werte in der Umgebung des Erwartungswerts verglichen werden.
 
@@ -77,6 +77,9 @@ abitur/abitur-typen.csv (neu): Eine Bedingung wie „mindestens viermal so viele
 
 **Sachaussage zu einer Ungleichung mit Binomialsumme formulieren** · 2 Zeilen · iqb 2 · Jahre 2020–2024
 abitur/abitur-typen.csv (neu): Eine gegebene Ungleichung mit kumulierter Binomialwahrscheinlichkeit, deren Parameter aus einer Gleichung im Sachzusammenhang stammt, als Aussage im Sachzusammenhang formulieren.
+
+**Wahrscheinlichkeit einer prozentualen Abweichung vom Erwartungswert nach beiden Seiten berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2019
+abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit berechnen, dass eine binomialverteilte Zufallsgröße um höchstens einen vorgegebenen Prozentsatz vom Erwartungswert abweicht, über ein symmetrisches Intervall.
 
 **Wahrscheinlichkeit einer relativen Abweichung vom Erwartungswert nach oben berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Den Erwartungswert berechnen, eine relative Abweichung nach oben in eine ganzzahlige Schranke übersetzen und P(X ≥ k) ermitteln.
@@ -165,9 +168,6 @@ abitur/abitur-typen.csv (neu): Den Parameter p einer Binomialverteilung mit dem 
 **Verteilung der Gegenzufallsgröße im Diagramm darstellen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeitsverteilung von n − X aus dem Diagramm von X durch Spiegeln der Säulen darstellen.
 
-**Wahrscheinlichkeit einer prozentualen Abweichung vom Erwartungswert nach beiden Seiten berechnen** · 1 Zeile · iqb 1 · Jahre 2019
-abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit berechnen, dass eine binomialverteilte Zufallsgröße um höchstens einen vorgegebenen Prozentsatz vom Erwartungswert abweicht, über ein symmetrisches Intervall.
-
 **Wahrscheinlichkeit eines symmetrischen Intervalls über die Symmetrie der Binomialverteilung berechnen** · 1 Zeile · iqb 1 · Jahre 2021
 abitur/abitur-typen.csv (neu): Für p = 0,5 die Wahrscheinlichkeit eines um den Erwartungswert symmetrischen Intervalls aus einer Randwahrscheinlichkeit über die Symmetrie berechnen.
 
@@ -183,7 +183,7 @@ abitur/abitur-typen.csv (neu): Ohne Rechnung beurteilen, wie sich ein kleinerer 
 **Zufallsgröße mit gleicher Binomialverteilung in einem anderen Experiment angeben** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): In einem anderen Zufallsexperiment ein Ereignis mit derselben Trefferwahrscheinlichkeit konstruieren und die zugehörige Trefferzahl als gleichverteilte Zufallsgröße begründen.
 
-**Nebentypen:** Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln (7) · Modalwert einer Binomialverteilung bestimmen (2) · Wahrscheinlichkeit für wenigstens einen Treffer über das Gegenereignis berechnen (2) · Trefferwahrscheinlichkeit beim Wechsel der Trefferdefinition anpassen (1) · Wahrscheinlichkeiten über den Erwartungswert vergleichen (1)
+**Nebentypen:** Kumulierte Binomialwahrscheinlichkeit mit dem Rechner ermitteln (8) · Modalwert einer Binomialverteilung bestimmen (2) · Wahrscheinlichkeit für wenigstens einen Treffer über das Gegenereignis berechnen (2) · Trefferwahrscheinlichkeit beim Wechsel der Trefferdefinition anpassen (1) · Wahrscheinlichkeiten über den Erwartungswert vergleichen (1)
 
 ## B Zeilenliste
 
@@ -273,11 +273,13 @@ abitur/abitur-typen.csv (neu): In einem anderen Zufallsexperiment ein Ereignis m
 2020MerhoehtAStochastik11-c | 2 | nein | Kurzantwort · Geben Sie an | Y binomialverteilt mit n = 40 und p_Y, 0 < p_Y < 1 → alle p_Y mit P(Y = 10) > P(Y = 30) | Lage von 10 und 30 zur Mitte 20 mit p vergleichen
 2020MgrundlegendBStochastikWTR2-1a | 2 | ja | Begründung · Begründen Sie | Postunternehmen Q befördert jährlich etwa 60 Millionen Briefe und stellt 95 % aller Briefe am ersten Werktag nach der Einlieferung zu; für 2000 zufällig ausgewählte Briefe wird untersucht, ob sie am ersten Werktag zugestellt werden → Begründung, dass die Binomialverteilung für Vorhersagen geeignet ist | Bernoulli-Bedingungen im Sachzusammenhang nennen
 2023MgrundlegendBStochastikWTR2-1a | 2 | ja | Begründung · Begründen Sie | Würfelnetz mit Zahlen 2, 4, 2, 4 und 2, 2; 30 Würfe; X Anzahl der „4“ → Begründung, dass X binomialverteilt mit p = 1/3 ist | Bernoulli-Bedingungen nennen und p aus dem Netz ablesen
+2017MerhoehtBStochastikWTR-1c | 3 | ja | Rechnung · Bestimmen Sie | Ein Großhändler bietet Samenkörner für Salatgurken in zwei Qualitätsstufen an: ein Samenkorn der Stufe A keimt mit 95 %, eines der Stufe B mit 70 %; ein Gemüseanbaubetrieb kauft Samenkörner beider Stufen, davon 65 % der Stufe A, und sät alle; E: von 200 gesäten Samenkörnern der Qualitätsstufe B keimen genau 140; F: von 200 gesäten Samenkörnern der Qualitätsstufe B keimen mehr als 130 und weniger als 150 → Wahrscheinlichkeiten der Ereignisse E und F | X binomialverteilt mit n = 200 und p = 0,7; P(X = 140) und P(131 <= X <= 149) = P(X <= 149) − P(X <= 130)
 2020MgrundlegendBStochastikWTR1-1c | 2 | ja | Rechnung · Bestimmen Sie | Großes Unternehmen, 29 % der Beschäftigten sind weiblich; 40 Beschäftigte werden zufällig ausgewählt, die Anzahl X der weiblichen darunter ist binomialverteilt (n = 40, p = 0,29) → Wahrscheinlichkeit, dass die Anzahl der nicht weiblichen dreimal so groß ist wie die der weiblichen | Anzahl 10 weibliche aus a + 3a = 40, dann P(X = 10)
 2021MgrundlegendBStochastikWTR2-1a | 2 | ja | Rechnung · Bestimmen Sie | Smartphone-Spiel: jeden Sonntag zehn Versuche, je Versuch mit 40 % ein Stern; X = Anzahl der Sterne bei zehn Versuchen, binomialverteilt (n = 10, p = 0,4) → Wahrscheinlichkeit, bei zehn Versuchen mehr als sechs Sterne zu gewinnen | 1 − P(X ≤ 6) mit dem Rechner
 2021MgrundlegendAStochastik2-b | 3 | nein | Rechnung · Berechnen Sie | symmetrische Verteilung von Y im Diagramm (Symmetrie um 13,5); P(Y ≤ 15) ≈ 0,78, P(Y = 12) ≈ 0,13 → P(Y = 14) aus diesen Werten | Symmetrie liefert P(Y = 15) und P(Y ≤ 13) = 0,5, dann Differenz
 2025MgrundlegendAStochastik21-b | 3 | nein | Rechnung · Berechnen Sie | X binomialverteilt mit p = 0,5, symmetrisch um 10,5; P(X >= 9) ≈ 0,81 und P(X = 12) ≈ 0,14 → Näherungswert für P(X = 10) unter Verwendung dieser Werte | wegen der Symmetrie P(X = 9) = P(X = 12) ≈ 0,14 und P(X >= 11) = 0,5; P(X = 10) = P(X >= 9) − P(X = 9) − P(X >= 11)
 2019MerhoehtAStochastik11-a | 2 | nein | Rechnung¦Eintragen · Zeichnen Sie ein¦Ermitteln Sie | Diagramm mit kumulierten Werten P(X ≤ k) einer Binomialverteilung mit n = 5 für k = 0 bis 4 → Säule für k = 5 und P(X = 2) | Säule der Höhe 1 ergänzen, Differenz zweier kumulierter Werte ablesen
+2017MerhoehtBStochastikCAS1-1a | 3 | ja | Rechnung · Berechnen Sie | Anteile der Haushalte in Deutschland 2013 nach Größe: 1-Personen-Haushalte 40,5 %, 2-Personen-Haushalte 34,5 %, 3-Personen-Haushalte 12,5 %, 4-Personen-Haushalte 9,2 %, Haushalte mit mindestens 5 Personen 3,3 %; für eine Umfrage 2013 werden 100 Haushalte zufällig ausgewählt; A: genau vierzig 1-Personen-Haushalte; B: mindestens die Hälfte der ausgewählten Haushalte sind Mehrpersonenhaushalte → Wahrscheinlichkeiten der Ereignisse A und B | X ~ B(100; 0,405): P(X = 40); Y ~ B(100; 0,595) für die Mehrpersonenhaushalte: P(Y >= 50)
 2017MgrundlegendBStochastikWTR2-1a | 3 | ja | Rechnung · Bestimmen Sie | 20 % aller Pkw eines bestimmten Herstellers sind Dieselfahrzeuge; die Anzahl der Dieselfahrzeuge in einer Stichprobe gilt modellhaft als binomialverteilt; 25 Pkw des Herstellers werden zufällig ausgewählt, davon sind drei rot; A: unter den ausgewählten Pkw sind genau acht Dieselfahrzeuge; B: unter den ausgewählten Pkw sind mindestens fünf Dieselfahrzeuge → Wahrscheinlichkeiten der Ereignisse A und B | X: Anzahl der Dieselfahrzeuge, B(25; 0,2); P(X = 8) und P(X ≥ 5) = 1 − P(X ≤ 4) mit dem Rechner
 2018MerhoehtBStochastikWTR1-1a | 3 | ja | Rechnung · Berechnen Sie | Kunststoffteile, 4 % fehlerhaft; die Anzahl fehlerhafter Teile unter zufällig ausgewählten ist binomialverteilt; 50 Teile zufällig ausgewählt → P(A): genau zwei fehlerhaft; P(B): mindestens 6 % fehlerhaft | Einzel- und kumulierte Wahrscheinlichkeit mit n = 50, p = 0,04
 2018MgrundlegendBStochastikWTR1-1d | 4 | ja | Rechnung · Bestimmen Sie | Jugendliche eines Landes: 49,20 % weiblich (W), 47,10 % erledigen Finanzangelegenheiten regelmäßig mit Smartphone oder Tablet (S), 19,68 % sind weiblich und tun das; 50 weibliche Jugendliche werden zufällig ausgewählt, P_W(S) = 40 % → P(A): genau die Hälfte erledigt Finanzangelegenheiten mit Smartphone oder Tablet; P(B): mehr als die Hälfte | X ~ B(50; 0,4): P(X = 25) und P(X ≥ 26) = 1 − P(X ≤ 25) am Rechner
@@ -292,6 +294,7 @@ abitur/abitur-typen.csv (neu): In einem anderen Zufallsexperiment ein Ereignis m
 2024MgrundlegendBStochastikWTR2-2b | 4 | ja | Rechnung · Berechnen Sie¦Ermitteln Sie | X wie in a; Bedingung P(μ − k ≤ X ≤ μ) ≥ 30 % → μ und kleinstes natürliches k | μ berechnen, Intervalle nach unten verlängern
 2019MgrundlegendBStochastikWTR3-1d | 5 | ja | Rechnung · Bestimmen Sie | 200 zufällig ausgewählte befragte Männer; X = Anzahl mit Anzeichen spielsüchtigen Verhaltens, binomialverteilt mit p = 0,025 → kleinstes um E(X) symmetrisches Intervall, in dem X mit mehr als 90 % liegt | E(X) = 5, Umgebungen [5 − r; 5 + r] mit wachsendem r prüfen
 2023MerhoehtBStochastikWTR2-2b | 4 | ja | Rechnung · Ermitteln Sie | 80 000 Teilnehmer; X Anzahl mit zwei Strandkörben, p = 8 · 10⁻⁴; Intervall [μ − c; μ + c] mit Wahrscheinlichkeit mindestens 80 % → kleinster ganzzahliger Wert von c | μ berechnen, symmetrische Intervalle mit wachsendem c am Rechner prüfen
+2017MerhoehtBStochastikCAS1-1b | 2 | ja | Kurzantwort · Beschreiben Sie | Anteile der Haushalte in Deutschland 2013 nach Größe: 1-Personen-Haushalte 40,5 %, 2-Personen-Haushalte 34,5 %, 3-Personen-Haushalte 12,5 %, 4-Personen-Haushalte 9,2 %, Haushalte mit mindestens 5 Personen 3,3 %; 100 Haushalte werden zufällig ausgewählt; Term 1 − (0,967^100 + 100 · 0,033 · 0,967^99) → Bedeutung des Terms im Sachzusammenhang | 0,033 ist der Anteil der Haushalte mit mindestens 5 Personen; die Summe ist P(X = 0) + P(X = 1), der Term also P(X >= 2)
 2017MgrundlegendBStochastikWTR1-2d | 4 | ja | Kurzantwort · Geben Sie an¦Beschreiben Sie | Ein Hersteller bringt ein neues Smartphone auf den Markt; die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 %; Term 200 · 0,98^s · 0,02 + 0,98^200 → ein Wert von s, für den mit dem Term im Sachzusammenhang die Wahrscheinlichkeit eines Ereignisses berechnet werden kann, und Beschreibung des zugehörigen Ereignisses | 0,02 ist der Fehleranteil in Werk D; 0,98^200 = P(X = 0) und 200 · 0,02 · 0,98^199 = P(X = 1) für n = 200, also s = 199 und die Summe P(X ≤ 1)
 2020MgrundlegendBStochastikWTR1-1b | 3 | ja | Begründung · Beschreiben Sie | Großes Unternehmen, 29 % der Beschäftigten sind weiblich; 40 Beschäftigte werden zufällig ausgewählt, die Anzahl X der weiblichen darunter ist binomialverteilt (n = 40, p = 0,29); Aussage Σ_(k=0)^10 (40 über k) · 0,29ᵏ · 0,71^(40−k) ≈ 0,36 → Bedeutung der Aussage im Sachzusammenhang | Summanden als P(X = k) deuten, Summe als P(X ≤ 10)
 2021MgrundlegendBStochastikWTR3-1d | 3 | ja | Begründung · Beschreiben Sie | Großes Unternehmen: 77 % aller Beschäftigten sind mit ihrem Gehalt zufrieden; 5 % aller Beschäftigten sind in der Werbeabteilung und nicht zufrieden; 12 % aller Beschäftigten gehören zur Werbeabteilung; Term 1 − Σ_(i=0)^400 (600 über i) · 0,23ⁱ · 0,77^(600−i) → Bedeutung des Terms im Sachzusammenhang | Erfolgswahrscheinlichkeit 0,23 als „nicht zufrieden“ erkennen, Summe als kumulierte Wahrscheinlichkeit, 1 − … als Gegenereignis
@@ -318,6 +321,7 @@ abitur/abitur-typen.csv (neu): In einem anderen Zufallsexperiment ein Ereignis m
 2026MgrundlegendBStochastikWTR2-1c | 2 | ja | Rechnung · Berechnen Sie | 20 zufällig ausgewählte Lieder, Anzahl der Hip-Hop-Songs binomialverteilt mit p = 0,32 → P(mehr als 5 Hip-Hop-Songs) | 1 − P(X ≤ 5) am Rechner
 2019MgrundlegendBStochastikWTR2-1a | 4 | ja | Rechnung · Ermitteln Sie | Urne: 35 % der Kugeln mit „+1“, 25 % mit „+2“, die übrigen 40 % mit „−3“ beschriftet; 100-mal Ziehen mit Zurücklegen; A: mehr als 35 Kugeln mit +1; B: die ersten drei Kugeln mit +1 → P(A) und P(B) | 1 − P(X ≤ 35) für B(100; 0,35); 0,35³
 2018MerhoehtBStochastikWTR1-1b | 4 | ja | Rechnung · Ermitteln Sie | Kunststoffteile, 4 % fehlerhaft; die Anzahl fehlerhafter Teile unter zufällig ausgewählten ist binomialverteilt → Mindestanzahl zufällig ausgewählter Teile, sodass mit mindestens 95 % mindestens drei fehlerfrei sind | n = 3 und n = 4 mit Y ~ B(n; 0,96) prüfen
+2017MerhoehtBStochastikCAS1-4 | 4 | ja | Rechnung · Ermitteln Sie | Anteile der Haushalte in Deutschland 2013 nach Größe: 1-Personen-Haushalte 40,5 %, 2-Personen-Haushalte 34,5 %, 3-Personen-Haushalte 12,5 %, 4-Personen-Haushalte 9,2 %, Haushalte mit mindestens 5 Personen 3,3 %; Anteil der 2-Personen-Haushalte 34,5 % → wie viele Haushalte man 2013 mindestens hätte auswählen müssen, damit darunter mit einer Wahrscheinlichkeit von mindestens 95 % mehr als zwanzig 2-Personen-Haushalte sind | Für Y ~ B(n; 0,345) das kleinste n mit P(Y > 20) >= 0,95 durch Probieren mit dem Rechner suchen
 2019MgrundlegendBStochastikWTR1-1b | 4 | ja | Rechnung · Ermitteln Sie | Land mit 80 % Führerscheinbesitz unter Erwachsenen; 200 zufällig ausgewählte Erwachsene, X = Anzahl mit Führerschein, binomialverteilt (n = 200, p = 0,8) → Mindestanzahl Erwachsener, damit mit mindestens 90 % mehr als 160 einen Führerschein besitzen | P(X > 160) für wachsendes n berechnen, bis 90 % erreicht sind
 2024MerhoehtBStochastikWTR1-1c | 4 | ja | Rechnung · Bestimmen Sie | 30 % der Abonnenten älter als 40; mit mindestens 99 % mehr als fünf Ältere unter n Ausgewählten → kleinstes n | P(X > 5) für n = 39 und 40 vergleichen
 2017MgrundlegendBStochastikWTR1-2c | 2 | ja | Rechnung · Ermitteln Sie | Ein Hersteller bringt ein neues Smartphone auf den Markt; die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 %; von im Werk A hergestellten Geräten werden 250 zufällig ausgewählt; X: Anzahl der fehlerhaften, binomialverteilt mit n = 250 und p = 0,05 → die Anzahl fehlerhafter Geräte, die darunter mit der größten Wahrscheinlichkeit auftritt | Erwartungswert 250 · 0,05 = 12,5 ist nicht ganzzahlig; P(X = 12) und P(X = 13) berechnen und vergleichen
@@ -347,6 +351,7 @@ abitur/abitur-typen.csv (neu): In einem anderen Zufallsexperiment ein Ereignis m
 2019MgrundlegendAStochastik12-b | 3 | nein | Begründung · Begründen Sie | zehnmal Ziehen mit Zurücklegen aus 3 roten und 7 weißen Kugeln; X Anzahl der weißen Kugeln; zwei Säulendiagramme I und II → Begründung ohne Berechnung von Wahrscheinlichkeiten, dass keines der Diagramme die Verteilung von X zeigt | I über den Erwartungswert 7 ausschließen, II über die Summe der Säulen
 2021MgrundlegendAStochastik12-b | 3 | nein | Begründung · Begründen Sie | 36 Würfe; X Anzahl der Würfe ohne 6, binomialverteilt mit p = 25/36; Abb. 1 bis 3 → je Abbildung eine Begründung, dass sie nicht die Verteilung von X zeigt | je ein Merkmal prüfen: Lage des Maximums, Summe, Wertebereich
 2024MerhoehtAStochastik23-a | 2 | nein | Zeichnen · Stellen Sie dar | Tetraeder mit Zahlen 1 bis 4, gleich wahrscheinlich, viermal geworfen; X zählt die Würfe mit 1, Verteilung in Abbildung 1; Y zählt die Würfe ohne 1 → Wahrscheinlichkeitsverteilung von Y in Abbildung 2 | Y = 4 − X, also die Säulen von Abbildung 1 in umgekehrter Reihenfolge eintragen
+2017MerhoehtBStochastikCAS2-2 | 4 | ja | Rechnung · Berechnen Sie | Bei 1 % der Bevölkerung Deutschlands liegt eine Glutenunverträglichkeit vor; für eine Studie werden 20 000 Personen zufällig ausgewählt; X ist die Anzahl der ausgewählten Personen mit Glutenunverträglichkeit → in einem geeigneten Modell die Wahrscheinlichkeit, dass X um mehr als 10 % vom Erwartungswert abweicht | X ~ B(20 000; 0,01), E(X) = 200; mehr als 10 % Abweichung heißt X < 180 oder X > 220; 1 − P(180 <= X <= 220)
 2019MgrundlegendBStochastikWTR1-1a | 4 | ja | Rechnung · Berechnen Sie | Land mit 80 % Führerscheinbesitz unter Erwachsenen; 200 zufällig ausgewählte Erwachsene, X = Anzahl mit Führerschein, binomialverteilt (n = 200, p = 0,8) → Wahrscheinlichkeit, dass X vom Erwartungswert um höchstens 5 % abweicht | Intervall [160 − 8; 160 + 8] bilden und kumuliert berechnen
 2025MerhoehtBStochastikWTR2-1b | 3 | ja | Rechnung · Ermitteln Sie | X wie in a → P(Anzahl um mindestens 10 % größer als der Erwartungswert) | μ berechnen, 1,1μ aufrunden, P(X ≥ 47)
 2017MgrundlegendAStochastik11-a | 2 | nein | Rechnung · Bestimmen Sie | Abbildung der Wahrscheinlichkeitsverteilung einer binomialverteilten Zufallsgröße X mit den Parametern n und p → P(5 <= X <= 7) mithilfe der Abbildung | Die Höhen der Säulen bei 5, 6 und 7 ablesen und addieren

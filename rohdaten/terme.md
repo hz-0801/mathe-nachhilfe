@@ -5,7 +5,7 @@ Stufe: I
 - msa: Terme umformen (2 Zeilen)
 - fhr: Terme umformen (2 Zeilen)
 
-Stand: 2026-09-25, Commit 25322c5
+Stand: 2026-09-26, Commit ca3237b
 
 ## A Typenprofil
 
