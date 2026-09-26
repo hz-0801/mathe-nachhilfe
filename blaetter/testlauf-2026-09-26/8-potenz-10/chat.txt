@@ -1,0 +1,21 @@
+Eingabe: potenz-exponentialfunktionen 10 – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Kl. 10 Oberschule, Gymnasium als Zusatz · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 10 · 5 Zweige · Zone aus 8 Fertigkeiten
+Einheit 1 von 5 · Lineares und exponentielles Wachstum unterscheiden — Hier lernst du, lineares und exponentielles Wachstum an Tabelle, Text und Graph zu unterscheiden · neu in diesem Jahr · P10 oft · baut auf: Punkte eintragen, gleicher Betrag je Schritt, Erhöhen um p %
+Einheit 2 von 5 · Wachstumsfaktor und Wachstumstabelle — Hier lernst du, aus einem Prozentsatz den Wachstumsfaktor zu bilden und Wachstumstabellen zu ergänzen · neu in diesem Jahr · P10 oft · baut auf: Differenz oder Quotient (Einheit 1), Erhöhen um p %, Quotient zweier Werte
+Einheit 3 von 5 · Exponentialfunktion aufstellen und auswerten — Hier lernst du, eine Wachstumsgleichung N(t) = N₀ · qᵗ aufzustellen, zu deuten und damit Werte und Schwellen zu berechnen · neu in diesem Jahr · P10 · baut auf: Wachstumsfaktor und Tabelle (Einheit 2), Potenz mit dem Taschenrechner
+Einheit 4 von 5 · Verdopplungs- und Halbwertszeit — Hier lernst du, die Zeit zu bestimmen, nach der sich ein Wert verdoppelt oder halbiert hat · neu in diesem Jahr · P10 · baut auf: Wachstumstabelle (Einheit 2), Wachstumsgleichung (Einheit 3), Werte am Graphen ablesen
+Einheit 5 von 5 · Potenzfunktionen mit natürlichem Exponenten — Hier lernst du Potenzfunktionen wie y = x³ und y = x⁴ kennen: Wertetabelle, Graph, Symmetrie und Funktionswerte · neu in diesem Jahr (am Gymnasium schon seit Klasse 9) · keine P10-Aufgabe · baut auf: Potenz mit dem Taschenrechner, Punkte eintragen, Normalparabel
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort: alle
+
+PotenzUndExponentialFkt_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+Antwort: weiter (aus der Eingabe)
+
+PotenzUndExponentialFkt_Lernblatt.pdf
+PotenzUndExponentialFkt_Gesamt.pdf
+PotenzUndExponentialFkt_Loesungen.pdf
+Abweichungen: kein Ausblick-Zweig (alle Marken bei Kl. 10 oder davor) · geteilte Hauptnummern: 23/24, 34/35/36, 58/59 · im Vorspann definiert: \leeresgitter (leeres Karo ohne Bezifferung für Nr. 25 „Achseneinteilung wählen“) · Einheit 5: Kette, Fehler finden und Decke nach Lehrwerk-Konvention (Eintrag ohne Sprossen, Fehler und Zielmarke, keine P10-Aufgabe) · Zwischensprosse 33 f (Wachstumsrate aus zwei nicht benachbarten Werten über q²) · Logarithmus (Vorrat) als oberste Sprosse 54 h · Kopfzeile der Zonen-Datei trägt „Kennst du schon“ doppelt (Kurzform der Vorlage zusätzlich zur Blattbezeichnung) · Zeiten: Stempel „e 1“ fehlt (nicht im Prüfaufruf gesetzt), „weiter“ ohne Klick
+Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Sprossen, Typische Fehler, Prüfungsform/Zielmarke; nicht gebraucht Merkkasten, Verortung, Grundvorstellung; gefehlt: Einheit 5 ohne Sprossen, Typische Fehler, Zielmarke und Blatt-0-Fertigkeit · Befund: Erkennungsschritte „Differenz oder Quotient?“ und „Welcher Schritt ist null?“ verlangen Zahlen – als Vorstufe ohne Ergebnis gesetzt (Nr. 14 mit vorgedruckten Differenzen und Quotienten, Nr. 40 nur Startjahr und Zieljahr markieren), das Rechnen steht in Nr. 16/17 und 44 f · keine Marke mit Spanne; Einheit 5 (OS 10 · GYM 9) als „neu in diesem Jahr (am Gymnasium schon seit Klasse 9)“; „nicht für alle“-Zusätze ohne Klassenzahl (Sekundo LVL/Zusatzstoff) nicht auf dem Blatt
+Protokoll-Archiv: PotenzUndExponentialFkt_2026-09-26_protokoll.zip

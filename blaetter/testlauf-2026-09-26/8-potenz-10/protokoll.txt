@@ -1,0 +1,199 @@
+Prompt: Unterrichtsblatt-Prompt v4.4
+Modell: Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-28a (Stufe 6: Bausteine aus den Lesebefunden des Lehrers vom 26.09.2026 zu zwei
+Katalog: potenz-exponentialfunktionen.md, Status: gegengelesen bis auf [FS] (2026-09-11i, vierzehnter Gegenlese-Block, Solo; Entwurf 2026-09-09d, Zitierform der LISUM-Zeile am 10e vereinheitlicht) · Stufe: Sek I · Bildungsgänge: Gymnasium Kl. 9–10 (RLP G = Kl. 9 laut Bildungsgangtabelle, H = Kl. 10; Lehrwerk Kl. 10 II; LISUM-Planungshilfe Jahrgangsstufe 10 in zwei Reihen – (EBR, FOR) und (Gym), je ca. 15 Stunden), Oberschule/Gesamtschule Kl. 10 (G, für den MSA nötig – die P10 prüft das Thema in sieben von dreizehn Jahrgängen), Förderschwerpunkt Lernen Kl. 9–10 (D–E) nicht – das Thema beginnt auf G (zur E-Zeile der Planungshilfe siehe Verortung und „Für schwache Schüler“) · gegengelesen: bis auf [FS]
+Bestellung: mit Wiederholung · mit Ausblick (kein Ausblick-Zweig: alle Marken bei Kl. 10 oder davor)
+Standpunkt: Kl. 10, Oberschule (ohne Schulform in der Eingabe; Gymnasium als Zusatz)
+
+Zweige (gebaut: alle 5; abgewählt: keine; Ausblick: keiner):
+Zone · Kennst du schon
+  1. Ich kann Dezimalzahlen multiplizieren und das Ergebnis runden.
+  2. Ich kann Punkte in ein Koordinatensystem eintragen.
+  3. Ich kann Punkte eintragen, wenn eine Achse in größeren Schritten eingeteilt ist.
+  4. Ich kann eine passende Einteilung für eine Achse wählen.
+  5. Ich kann einen Wert um einen Prozentsatz erhöhen oder senken.
+  6. Ich kann eine Zahlenfolge fortsetzen, wenn immer gleich viel dazukommt.
+  7. Ich kann zwei Zahlen durcheinander teilen und das Ergebnis als Dezimalzahl angeben.
+  8. Ich kann Prozentwert und Prozentsatz berechnen.
+  9. Ich kann ein Guthaben mit Zinseszins berechnen.
+  10. Ich kann Potenzen mit dem Taschenrechner berechnen.
+  11. Ich finde den Fehler in einer Zinseszinsrechnung.
+  12. Ich kann das Guthaben nach mehreren Jahren Zinseszins berechnen.
+Einheit 1 von 5 · Lineares und exponentielles Wachstum unterscheiden
+  Zweigzeile: Hier lernst du, lineares und exponentielles Wachstum an Tabelle, Text und Graph zu unterscheiden · neu in diesem Jahr · P10 oft · baut auf: Punkte eintragen, gleicher Betrag je Schritt, Erhöhen um p %
+  13. Ich erkenne, ob jedes Mal derselbe Betrag oder derselbe Prozentsatz dazukommt.
+  14. Ich erkenne, ob in einer Tabelle die Differenz oder der Quotient gleich bleibt.
+  15. Ich erkenne, wo ein Graph die senkrechte Achse trifft.
+  16. Ich kann prüfen, ob in einer Tabelle immer derselbe Betrag dazukommt.
+  17. Ich kann prüfen, ob in einer Tabelle immer mit derselben Zahl multipliziert wird.
+  18. Ich kann an einer Tabelle entscheiden, ob ein Wert linear oder exponentiell wächst.
+  19. Ich kann aus einem Text entscheiden, ob ein Wert linear oder exponentiell zu- oder abnimmt.
+  20. Ich erkenne, ob ein Graph eine Gerade oder eine gekrümmte Kurve ist.
+  21. Ich kann den passenden Graphen zu einem Wachstum auswählen.
+  22. Ich kann begründen, warum ein Graph nicht zu einem Wachstum passt.
+  23. Ich kann Wertepaare eines Wachstums als Punkte eintragen.
+  24. Ich kann Wertepaare eines Wachstums als Punkte eintragen – weiter.
+  25. Ich kann für Wertepaare eine passende Achseneinteilung wählen.
+  26. Ich finde den Fehler bei der Entscheidung zwischen linear und exponentiell.
+  27. Ich kann begründen, warum bei gleichem Prozentsatz der Zuwachs immer größer wird.
+  28. Ich kann Grenzen eines Wachstumsmodells nennen.
+  29. Ich kann zwei Sparangebote mit linearem und exponentiellem Wachstum vergleichen.
+Einheit 2 von 5 · Wachstumsfaktor und Wachstumstabelle
+  Zweigzeile: Hier lernst du, aus einem Prozentsatz den Wachstumsfaktor zu bilden und Wachstumstabellen zu ergänzen · neu in diesem Jahr · P10 oft · baut auf: Differenz oder Quotient (Einheit 1), Erhöhen um p %, Quotient zweier Werte
+  30. Ich erkenne am Faktor, ob ein Wert zunimmt oder abnimmt.
+  31. Ich kann aus einem Prozentsatz den Wachstumsfaktor bilden.
+  32. Ich kann aus einem Wachstumsfaktor die prozentuale Änderung ablesen.
+  33. Ich kann den Wachstumsfaktor als Quotient aus einer Tabelle bestimmen.
+  34. Ich kann eine Wachstumstabelle mit dem Faktor fortschreiben.
+  35. Ich kann eine Wachstumstabelle mit dem Faktor fortschreiben – weiter.
+  36. Ich kann eine Wachstumstabelle mit dem Faktor fortschreiben – weiter.
+  37. Ich finde den Fehler in einer Wachstumstabelle.
+  38. Ich kann begründen, woran man den Wachstumsfaktor erkennt.
+  39. Ich kann mit einer Wachstumstabelle eine Frage im Sachzusammenhang beantworten.
+Einheit 3 von 5 · Exponentialfunktion aufstellen und auswerten
+  Zweigzeile: Hier lernst du, eine Wachstumsgleichung N(t) = N₀ · qᵗ aufzustellen, zu deuten und damit Werte und Schwellen zu berechnen · neu in diesem Jahr · P10 · baut auf: Wachstumsfaktor und Tabelle (Einheit 2), Potenz mit dem Taschenrechner
+  40. Ich erkenne, welches Jahr der Schritt null ist.
+  41. Ich kann eine Wachstumsgleichung aufstellen.
+  42. Ich kann die passende Gleichung unter mehreren auswählen.
+  43. Ich kann die Teile einer Wachstumsgleichung im Sachzusammenhang deuten.
+  44. Ich kann mit einer Wachstumsgleichung den Wert nach einigen Schritten berechnen.
+  45. Ich kann eine Behauptung über ein Wachstum mit einer Rechnung prüfen.
+  46. Ich kann berechnen, wann ein Wert eine Schwelle überschreitet.
+  47. Ich finde den Fehler in einer Rechnung mit der Wachstumsgleichung.
+  48. Ich kann begründen, warum in der Wachstumsgleichung eine Potenz steht.
+  49. Ich kann mit Wachstumsgleichungen zwei Entwicklungen vergleichen.
+Einheit 4 von 5 · Verdopplungs- und Halbwertszeit
+  Zweigzeile: Hier lernst du, die Zeit zu bestimmen, nach der sich ein Wert verdoppelt oder halbiert hat · neu in diesem Jahr · P10 · baut auf: Wachstumstabelle (Einheit 2), Wachstumsgleichung (Einheit 3), Werte am Graphen ablesen
+  50. Ich erkenne, ob sich die Zeit oder der Bestand verdoppeln oder halbieren soll.
+  51. Ich kann den Zielwert für die Verdopplung oder Halbierung angeben.
+  52. Ich kann die Verdopplungs- oder Halbwertszeit aus einer Tabelle ablesen.
+  53. Ich kann die Verdopplungs- oder Halbwertszeit am Graphen ablesen.
+  54. Ich kann die Verdopplungs- oder Halbwertszeit durch Probieren mit dem Faktor bestimmen.
+  55. Ich finde den Fehler bei der Verdopplungs- oder Halbwertszeit.
+  56. Ich kann begründen, wann es eine feste Verdopplungszeit gibt.
+  57. Ich kann mit der Halbwertszeit eine Frage im Sachzusammenhang beantworten.
+Einheit 5 von 5 · Potenzfunktionen mit natürlichem Exponenten
+  Zweigzeile: Hier lernst du Potenzfunktionen wie y = x³ und y = x⁴ kennen: Wertetabelle, Graph, Symmetrie und Funktionswerte · neu in diesem Jahr (am Gymnasium schon seit Klasse 9) · keine P10-Aufgabe · baut auf: Potenz mit dem Taschenrechner, Punkte eintragen, Normalparabel
+  58. Ich kann eine Wertetabelle zu einer Potenzfunktion ausfüllen.
+  59. Ich kann eine Wertetabelle zu einer Potenzfunktion ausfüllen – weiter.
+  60. Ich kann den Graphen einer Potenzfunktion zeichnen.
+  61. Ich kann Funktionswerte einer Potenzfunktion berechnen.
+  62. Ich kann prüfen, ob ein Punkt auf dem Graphen einer Potenzfunktion liegt.
+  63. Ich kann zu einem Funktionswert das passende x bestimmen.
+  64. Ich kann am Funktionsterm erkennen, wie der Graph verläuft.
+  65. Ich kann Gleichung und Graph einander zuordnen.
+  66. Ich kann eine Potenzfunktion von einer Exponentialfunktion unterscheiden.
+  67. Ich finde den Fehler bei Funktionswerten einer Potenzfunktion.
+  68. Ich kann begründen, wie der Graph einer Potenzfunktion verläuft.
+  69. Ich kann mit einer Potenzfunktion eine Sachaufgabe zum Würfel lösen.
+
+Zählung aus der Textextraktion:
+Zone (PotenzUndExponentialFkt_KennstDuSchon.pdf): 12 Hauptnummern, 49 Teilaufgaben, 2 Grafiken (ksys/Gitter, aus dem Quelltext gezählt), 3 Seiten
+Lernblatt (PotenzUndExponentialFkt_Lernblatt.pdf): 57 Hauptnummern, 246 Teilaufgaben, 26 Grafiken (ksys/Gitter, aus dem Quelltext gezählt), 21 Seiten
+Gesamt (PotenzUndExponentialFkt_Gesamt.pdf): 69 Hauptnummern, 295 Teilaufgaben, 28 Grafiken (ksys/Gitter, aus dem Quelltext gezählt), 24 Seiten
+Lösungen (PotenzUndExponentialFkt_Loesungen.pdf): Lösungen zu 69 Nummern (1–69), 4 Seiten
+Verzeichniszeile Lernblatt: \verzeichniszeile{\verz{e1}{1 Linear oder exponentiell (Nr.~13–29)} \verztrenn \verz{e2}{2 Wachstumsfaktor und Tabelle (Nr.~30–39)} \verztrenn \verz{e3}{3 Exponentialfunktion (Nr.~40–49)} \verztrenn \verz{e4}{4 Verdopplungs- und Halbwertszeit (Nr.~50–57)} \verztrenn \verz{e5}{5 Potenzfunktionen (Nr.~58–69)} \verztrenn \verz{abhaken}{Das kann ich}}
+Verzeichniszeile Gesamt: \verzeichniszeile{\verz{zone}{Kennst du schon (Nr.~1–12)} \verztrenn \verz{e1}{1 Linear oder exponentiell (Nr.~13–29)} \verztrenn \verz{e2}{2 Wachstumsfaktor und Tabelle (Nr.~30–39)} \verztrenn \verz{e3}{3 Exponentialfunktion (Nr.~40–49)} \verztrenn \verz{e4}{4 Verdopplungs- und Halbwertszeit (Nr.~50–57)} \verztrenn \verz{e5}{5 Potenzfunktionen (Nr.~58–69)} \verztrenn \verz{abhaken}{Das kann ich}}
+
+Werkzeugaufrufe (Schritt · Anlass):
+1 · Read unterrichtsblatt.md Zeilen 1–754 · Prompt lesen
+2 · Read unterrichtsblatt.md Zeilen 755–1448 · Prompt zu Ende lesen
+3 · PowerShell · Zeitstempel t0
+4 · PowerShell curl · Themenregister und Register der Blätter holen (1.2)
+5 · Grep · Register nach potenz/exponential durchsuchen (Ausgabe zu groß für die Anzeige)
+6 · Grep · Zeile potenz-exponentialfunktionen im Register suchen
+7 · Read · Register der Blätter lesen (Thema nicht geführt → mit Ausblick)
+8 · PowerShell · Registerzeile des Themas ausgeben (lange Zeile)
+9 · PowerShell curl · Eintrag potenz-exponentialfunktionen.md holen und speichern
+10 · Read · Eintrag Zeilen 1–92
+11 · Read · Eintrag Zeilen 93–151 (Offene Punkte und Prüfliste mitgelesen, da im selben Leseschritt)
+12 · PowerShell curl · mathblatt.sty und Anleitung_mathblatt.md holen
+13 · Read · Anleitung Zeilen 1–275
+14 · Read · Anleitung Zeilen 276–391
+15 · PowerShell · Vorrechnung der Aufgabenwerte – Ergebnis: SyntaxError (Anführungszeichen von python -c in PowerShell verschluckt)
+16 · Write · vorrechnung.py
+17 · PowerShell · vorrechnung.py ausführen (Zahlenwahl)
+18 · Write · zone_a.tex
+19 · Write · zone_l.tex
+20 · Write · pruef.py (Zone)
+21 · Write · Rahmen PotenzUndExponentialFkt_KennstDuSchon.tex
+22 · Write · probe_l.tex (Prüfrahmen Lösungen)
+23 · PowerShell · Zone: pruef.py (0 Abweichungen), kompilieren, Log, Text; Stempel zone
+24 · Edit · Korrektur: Kopfzeile „Potenz- und Exponentialfunktionen · Kennst du schon · Kennst du schon“ doppelt – Versuch mit leerer Blattbezeichnung
+25 · PowerShell · neu kompilieren, Seiten 1–2 rendern – Ergebnis „· ·“, Versuch verworfen
+26 · Edit · Blattbezeichnung zurück auf „Kennst du schon“
+27 · Read · Render Zone Seite 1
+28 · Read · Render Zone Seite 2 – Nr. 6 d) Zeile sichtbar gedehnt vor den drei Feldern
+29 · Edit · zone_a.tex Nr. 6 d): \\ vor die Felder
+30 · PowerShell · Zone neu kompilieren (Zone fertig)
+31 · PowerShell · Stempel weiter
+32 · Write · e1_a.tex
+33 · Write · e1_l.tex
+34 · Edit · pruef.py Einheit 1
+35 · Edit · pruef.py Zeile 28a entfernt (Größenordnung als Sonderprüfung)
+36 · Edit · pruef.py Sonderprüfungen einhängen
+37 · Edit · e1_l.tex 28a: „viele Millionen Kilometer“ → „fast 10 000 km“ (Skript: ≈ 9900 km)
+38 · Write · probe_a.tex (Prüfrahmen Aufgaben, mit \leeresgitter)
+39 · Write · pruefe_einheit.ps1 (Prüfen, Kompilieren, Log, Seitenzählung, Rendern)
+40 · PowerShell · E1 prüfen (0 Abweichungen), kompilieren, 7 Seiten rendern
+41 · Read · Render E1 Seite 1
+42 · Read · Render E1 Seite 3
+43 · Read · Render E1 Seite 4 – Label J fehlt im Fisch-Graphen (\funktion-Label am rechten Rand verschwunden)
+44 · Read · Render E1 Seite 5 – Nr. 23 allein auf der Seite (331 Zeichen, überwiegend leer)
+45 · Read · Render E1 Seite 6
+46 · PowerShell · Korrektur E1: Labels J und E als \node, Nr. 23 ymax 900 → 500; neu prüfen (0 Abweichungen, 6 Seiten)
+47 · Read · Render E1 Seite 4 (Nr. 22 und 23 zusammen)
+48 · Read · Render E1 Seite 3
+49 · Edit · pruefe_einheit.ps1: Parameter Stempel
+50 · Edit · pruefe_einheit.ps1: alte Renders löschen, Stempel setzen
+51 · Write · e2_a.tex
+52 · Write · e2_l.tex
+53 · Edit · pruef.py Einheit 2
+54 · PowerShell · E2 prüfen (0 Abweichungen); Stempel e 2 – Log: „! Missing $ inserted“, „! Display math should end with $$“ (leere Zeitangabe in \wertetabelle)
+55 · PowerShell · Korrektur E2: leere x-Einträge als {\;}; neu prüfen, Seiten 2–3 rendern
+56 · Read · Render E2 Seite 3
+57 · Read · Render E2 Seite 2
+58 · Write · e3_a.tex
+59 · Write · e3_l.tex
+60 · Edit · pruef.py Einheit 3
+61 · PowerShell · E3 prüfen (0 Abweichungen); Stempel e 3 – Anweisung „auf zwei Nachkommastellen“ passt nicht zu Einwohnern (44 f); Seite 3 mit 588 Zeichen überwiegend leer
+62 · PowerShell · Korrektur E3: Anweisung „runde erst am Ende sinnvoll“, \clearpage vor Nr. 47; neu prüfen
+63 · Write · e4_a.tex
+64 · Write · e4_l.tex
+65 · Edit · pruef.py Einheit 4
+66 · PowerShell · E4 prüfen (0 Abweichungen), rendern; Stempel e 4 – Log: „! LaTeX Error: There's no line here to end.“ (2×, \\ nach \wertetabelle in Nr. 55)
+67 · Read · Render E4 Seite 1 – Nr. 51 d) gedehnt in teilezwei
+68 · Read · Render E4 Seite 2 – Nr. 54 e), f) gedehnt in teilezwei
+69 · PowerShell · Korrektur E4: Nr. 51 und 54 in teile, Nr. 55 Text vor Tabelle; neu prüfen
+70 · Write · e5_a.tex
+71 · Write · e5_l.tex
+72 · Edit · pruef.py Einheit 5
+73 · PowerShell · E5 prüfen (0 Abweichungen), rendern; Stempel e 5 – \punktprobenliste setzt „C(−3| − 27)“ mit Binärabstand
+74 · Read · Render E5 Seite 2
+75 · Read · Render E5 Seite 3 – Labels A und B in Nr. 65 überlagert
+76 · PowerShell · Korrektur E5: negative Koordinaten geklammert, Labels in Nr. 65 als \node; neu prüfen
+77 · Read · Render E5 Seite 3
+78 · Read · Render E5 Seite 1
+79 · Write · gen_abhaken.py (Abhakseite und Verzeichniszeilen aus den Quelltexten)
+80 · Write · Rahmen Lernblatt
+81 · Write · Rahmen Gesamt
+82 · Write · Rahmen Lösungen
+83 · PowerShell · Abhakseite erzeugen, Lernblatt zweimal kompilieren, Kopfzeilen und Nummern prüfen; Stempel lernblatt
+84 · PowerShell · Gesamt zweimal kompilieren, Abhakseite prüfen; Stempel gesamt
+85 · PowerShell · Lösungen kompilieren, Nummern 1–69 prüfen; Stempel loesungen
+86 · Write · archiv.py
+87 · PowerShell · protokoll.txt, chat.txt schreiben und Archiv packen
+
+Vorlage: fehlende Bausteine · \leeresgitter (leeres Achsenkreuz mit Karo ohne Bezifferung, für „Achseneinteilung wählen“); Warnungen aus dem Log · keine Package-mathblatt-Warnung; Kopfzeile der Zonen-Datei doppelt „Kennst du schon · Kennst du schon“
+
+Korrekturrunden: 10 von 87 Schritten (Schritte 24, 25, 26, 29, 30, 46, 55, 62, 69, 76)
+Zone: 652 s
+Weiter: 758 s (kein Klick im Testlauf; Stempel des ersten Aufrufs nach der Zone)
+E 1: Stempel fehlt
+E 2: 1065 s
+E 3: 1197 s
+E 4: 1315 s
+E 5: 1460 s
+Lernblatt: 1569 s
+Gesamt: 1593 s
+Lösungen: 1609 s

@@ -1,0 +1,99 @@
+% Einheit 4 – Nr. 50–57
+\setcounter{aufgabe}{49}
+\einheitenkopf[e4][4 Verdopplungs- und Halbwertszeit]{Einheit 4 von 5 · Verdopplungs- und Halbwertszeit}
+\zweigzeile{Hier lernst du, die Zeit zu bestimmen, nach der sich ein Wert verdoppelt oder halbiert hat · neu in diesem Jahr · P10 · baut auf: Wachstumstabelle (Einheit 2), Wachstumsgleichung (Einheit 3), Werte am Graphen ablesen}
+
+\begin{aufgabe}{Ich erkenne, ob sich die Zeit oder der Bestand verdoppeln oder halbieren soll.}
+Kreuze an, was sich verdoppeln oder halbieren soll. Rechne nichts.
+\begin{teile}
+\teil Nach wie vielen Jahren hat sich das Guthaben verdoppelt? \quad \kreuz{die Zeit}\kreuz{der Bestand}
+\teil Wie lange dauert es, bis nur noch die Hälfte des Wirkstoffs im Blut ist? \quad \kreuz{die Zeit}\kreuz{der Bestand}
+\teil Wie viele Tiere sind es, wenn man doppelt so lange wartet? \quad \kreuz{die Zeit}\kreuz{der Bestand}
+\teil Nach welcher Zeit sind aus 300 Bakterien 600 geworden? \quad \kreuz{die Zeit}\kreuz{der Bestand}
+\teil Wie viel ist nach der halben Beobachtungszeit noch da? \quad \kreuz{die Zeit}\kreuz{der Bestand}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann den Zielwert für die Verdopplung oder Halbierung angeben.}
+Gib den Wert an, der erreicht sein muss.
+\begin{teile}
+\teil Verdopplung, Start bei 40 \quad \leerfeld
+\teil Verdopplung, Start bei 250 \quad \leerfeld
+\teil Halbierung, Start bei 90 \quad \leerfeld
+\teil Halbierung, Start bei 3,6\,g \quad \leerfeld[g]
+\teil Ein Guthaben startet bei 500\,€ und hat nach fünf Jahren 700\,€. Welchen Betrag muss es für die Verdopplung erreichen? \leerfeld[€]
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Verdopplungs- oder Halbwertszeit aus einer Tabelle ablesen.}
+Lies die Verdopplungszeit ab.
+\begin{teile}
+\teil \wertetabelle[5,10,20,40]{t \text{ in h}}{N}{0,1,2,3} \quad \feld[h]{T}
+\end{teile}
+\anweisung{Der Zielwert liegt zwischen zwei Tabellenwerten. Gib die nächstliegende Zeit an.}
+\begin{teile}
+\teil Verdopplungszeit: \\ \wertetabelle[16,24,36,54,81]{t \text{ in Jahren}}{N}{0,1,2,3,4} \quad \feld[Jahre]{T}
+\teil Halbwertszeit: \\ \wertetabelle[80,56,{39{,}2},{27{,}44}]{t \text{ in h}}{m \text{ in mg}}{0,1,2,3} \quad \feld[h]{T}
+\teil Ein radioaktives Präparat zerfällt. Gib seine Halbwertszeit an. (P10 2016 OS) \\ \wertetabelle[12,{9{,}6},{7{,}68},{6{,}14},{4{,}92}]{t \text{ in Tagen}}{m \text{ in mg}}{0,2,4,6,8} \quad \feld[Tage]{T}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Verdopplungs- oder Halbwertszeit am Graphen ablesen.}
+Links: Wirkstoff im Blut ($t$ in Stunden, $m$ in mg). Rechts: Zahl der Kaninchen auf einer Insel ($t$ in Monaten).
+
+\begin{ksys}[xmin=0,xmax=8,ymin=0,ymax=400,ystep=50,ablesen,xlabel=$t$,ylabel=$m$]
+\funktion{400*0.8^\x}{}
+\end{ksys}\ksysabstand\begin{ksys}[xmin=0,xmax=10,ymin=0,ymax=180,ystep=20,ablesen,xlabel=$t$,ylabel=$N$]
+\funktion{60*1.12^\x}{}
+\end{ksys}
+
+\begin{teile}
+\teil Links: Lies ab, nach welcher Zeit nur noch die Hälfte des Wirkstoffs im Blut ist. \feld[h]{T}
+\teil Beschreibe in zwei Sätzen, wie du bei a) vorgegangen bist.
+\teil Rechts: Ermittle mithilfe des Graphen die Verdopplungszeit der Kaninchenzahl und beschreibe dein Vorgehen. (P10 2020 OS)
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann die Verdopplungs- oder Halbwertszeit durch Probieren mit dem Faktor bestimmen.}
+Bestimme durch Probieren, nach wie vielen ganzen Schritten sich der Wert ungefähr verdoppelt oder halbiert hat.
+\begin{teile}
+\teil Faktor 1,5, Verdopplung \quad \leerfeld
+\teil Faktor 1,25, Verdopplung \quad \leerfeld
+\teil Faktor 0,5, Halbierung \quad \leerfeld
+\teil Faktor 0,8, Halbierung \quad \leerfeld
+\teil Zunahme um 10\,\% je Schritt, Verdopplung \quad \leerfeld
+\teil Abnahme um 10\,\% je Schritt, Halbierung \quad \leerfeld
+\anweisung{Prüfe mit einer Rechnung.}
+\teil Ein Wert wächst jährlich um 10\,\%. Berechne für die Startwerte 80 und 500 den Wert nach sieben Jahren. Was fällt dir auf?
+\end{teile}
+\anweisung{Löse mit dem Logarithmus (Taste log).}
+\begin{teile}
+\teil Bestimme die Verdopplungszeit bei 10\,\% Zunahme pro Jahr auf zwei Nachkommastellen genau. \feld[Jahre]{T}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich finde den Fehler bei der Verdopplungs- oder Halbwertszeit.}
+Finde den Fehler, benenne ihn und korrigiere.
+\begin{teile}
+\teil Ein Bestand wächst. Paul sagt: „Die Verdopplungszeit ist 2 Jahre, denn 2 Jahre sind das Doppelte von 1 Jahr.“ \\ \wertetabelle[300,360,432,{518{,}4},{622{,}08}]{t \text{ in Jahren}}{N}{0,1,2,3,4}
+\teil Lea soll am Graphen die Halbwertszeit eines Stoffes ablesen, der mit 8\,mg beginnt. Sie sucht die 4 auf der waagerechten Achse, geht senkrecht bis zum Graphen und liest an der senkrechten Achse den Wert ab.
+\teil Ein Stoff zerfällt. Maja sagt: „Die Halbwertszeit ist 3 Stunden, weil 29,64 der letzte Wert über 25 ist.“ \\ \wertetabelle[50,42,{35{,}28},{29{,}64},{24{,}89}]{t \text{ in h}}{m \text{ in mg}}{0,1,2,3,4}
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann begründen, wann es eine feste Verdopplungszeit gibt.}
+Begründe.
+\begin{teile}
+\teil Ein Wert wächst jedes Jahr um 10\,\%. Warum dauert es von 100 bis 200 genauso lange wie von 1000 bis 2000?
+\teil Ein Wert wächst linear: 100; \ 120; \ 140; \ 160; \ … \ Gibt es eine feste Verdopplungszeit?
+\end{teile}
+\end{aufgabe}
+
+\begin{aufgabe}{Ich kann mit der Halbwertszeit eine Frage im Sachzusammenhang beantworten.}
+Ein Schmerzmittel hat im Blut eine Halbwertszeit von 6 Stunden. Um 8 Uhr sind 240\,mg im Blut.
+\begin{teile}
+\teil Wie viel ist um 14 Uhr, um 20 Uhr und um 2 Uhr nachts noch im Blut?
+\teil Eine neue Tablette darf erst genommen werden, wenn weniger als 70\,mg im Blut sind. Zu welcher der Uhrzeiten aus a) ist das zuerst der Fall?
+\teil Eine Freundin sagt: „Nach 24 Stunden ist nichts mehr im Blut.“ Stimmt das? Begründe mit einer Rechnung.
+\end{teile}
+\end{aufgabe}

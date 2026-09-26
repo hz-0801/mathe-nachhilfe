@@ -1,0 +1,58 @@
+Now the Eintrag and the Vorlage/Anleitung.
+
+Now the Zone sources.
+
+→ Lernblatt · Kl. 10 Oberschule, Gymnasium als Zusatz · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 10 · 5 Zweige · Zone aus 8 Fertigkeiten
+Einheit 1 von 5 · Lineares und exponentielles Wachstum unterscheiden — Hier lernst du, lineares und exponentielles Wachstum an Tabelle, Text und Graph zu unterscheiden · neu in diesem Jahr · P10 oft · baut auf: Punkte eintragen, gleicher Betrag je Schritt, Erhöhen um p %
+Einheit 2 von 5 · Wachstumsfaktor und Wachstumstabelle — Hier lernst du, aus einem Prozentsatz den Wachstumsfaktor zu bilden und Wachstumstabellen zu ergänzen · neu in diesem Jahr · P10 oft · baut auf: Differenz oder Quotient (Einheit 1), Erhöhen um p %, Quotient zweier Werte
+Einheit 3 von 5 · Exponentialfunktion aufstellen und auswerten — Hier lernst du, eine Wachstumsgleichung N(t) = N₀ · qᵗ aufzustellen, zu deuten und damit Werte und Schwellen zu berechnen · neu in diesem Jahr · P10 · baut auf: Wachstumsfaktor und Tabelle (Einheit 2), Potenz mit dem Taschenrechner
+Einheit 4 von 5 · Verdopplungs- und Halbwertszeit — Hier lernst du, die Zeit zu bestimmen, nach der sich ein Wert verdoppelt oder halbiert hat · neu in diesem Jahr · P10 · baut auf: Wachstumstabelle (Einheit 2), Wachstumsgleichung (Einheit 3), Werte am Graphen ablesen
+Einheit 5 von 5 · Potenzfunktionen mit natürlichem Exponenten — Hier lernst du Potenzfunktionen wie y = x³ und y = x⁴ kennen: Wertetabelle, Graph, Symmetrie und Funktionswerte · neu in diesem Jahr (am Gymnasium schon seit Klasse 9) · keine P10-Aufgabe · baut auf: Potenz mit dem Taschenrechner, Punkte eintragen, Normalparabel
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort (aus der Eingabe): alle
+
+PotenzUndExponentialFkt_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+Antwort (aus der Eingabe): weiter
+
+PotenzUndExponentialFkt_Lernblatt.pdf
+PotenzUndExponentialFkt_Gesamt.pdf
+PotenzUndExponentialFkt_Loesungen.pdf
+Abweichungen: kein Ausblick-Zweig, weil alle Marken bei Kl. 10 oder davor liegen · geteilte Hauptnummern: 23/24, 34/35/36, 58/59 · im Vorspann definiert: \leeresgitter (leeres Karo ohne Bezifferung für Nr. 25 „Achseneinteilung wählen“) · Einheit 5: Kette, Fehler finden und Decke nach Lehrwerk-Konvention, weil der Eintrag dafür keine Sprossen, keine Fehler, keine Zielmarke und keine P10-Aufgabe hat · Zwischensprosse 33 f (Wachstumsrate aus zwei nicht benachbarten Werten über q²) · Logarithmus (Vorrat) als oberste Sprosse 54 h · Kopfzeile der Zonen-Datei zeigt „Kennst du schon“ doppelt, weil die Vorlage die Kurzform zusätzlich zur Blattbezeichnung setzt · Zeiten: Stempel „e 1“ fehlt (nicht im Prüfaufruf gesetzt), „weiter“ ohne Klick
+Katalog: gebraucht wurden Lerneinheiten, Marken, Typen, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Sprossen, Typische Fehler, Prüfungsform/Zielmarke; nicht gebraucht Merkkasten, Verortung, Grundvorstellung · gefehlt: in Einheit 5 Sprossen, Typische Fehler, Zielmarke und Blatt-0-Fertigkeit · Befund: die Erkennungsschritte „Differenz oder Quotient?“ und „Welcher Schritt ist null?“ verlangen Zahlen; sie stehen als Vorstufe ohne Ergebnis auf dem Blatt (Nr. 14 mit vorgedruckten Differenzen und Quotienten, Nr. 40 markiert nur Start- und Zieljahr), das Rechnen folgt in Nr. 16/17 und 44 f · keine Marke mit Spanne; Einheit 5 (OS 10 · GYM 9) als „neu in diesem Jahr (am Gymnasium schon seit Klasse 9)“; die „nicht für alle“-Zusätze haben keine Klassenzahl (Sekundo LVL/Zusatzstoff) und stehen nicht auf dem Blatt
+Protokoll-Archiv: PotenzUndExponentialFkt_2026-09-26_protokoll.zip
+
+---
+Notiz für den Aufrufer (nicht Teil der Chatansicht):
+Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\8-potenz-10.
+
+Gebaut wurde Folgendes:
+- Zone: Nr. 1–12, 3 Seiten.
+- Lernblatt: Nr. 13–69, 21 Seiten.
+- Gesamt: 24 Seiten.
+- Lösungen: 4 Seiten, mit Lösungen zu allen 69 Nummern.
+
+Zur Prüfung:
+- pruef.py hat für die Zone und für E1–E5 jeweils 0 Abweichungen gemeldet.
+- Das Log zeigt keine mathblatt-Warnung.
+- Die Abhakseite im Gesamt enthält Nr. 1–69.
+
+Die Zone-Datei wurde mehrmals neu kompiliert, nachdem der Stempel „zone“ gesetzt war. Das betrifft die Korrektur der Kopfzeile und die Satzkorrektur in Nr. 6 d).
+
+Korrekturrunden: 10 von 87 Werkzeugaufrufen.
+
+Zeiten ab t0:
+- Zone: 652 s
+- E2: 1065 s
+- E3: 1197 s
+- E4: 1315 s
+- E5: 1460 s
+- Lernblatt: 1569 s
+- Gesamt: 1593 s
+- Lösungen: 1609 s
+
+Der Stempel für E1 fehlt.
+
+Abweichung vom Prompt: Beim Lesen des Eintrags wurden auch „Offene Punkte“ und „Prüfliste“ mitgelesen, weil sie in denselben Leseschritt fielen. Daraus stammt nur die Schreibweise N(t) = N₀ · qᵗ. Das steht in protokoll.txt.
+
+Ich habe den vollständigen Bericht über SubagentHandback an den Aufrufer übergeben.

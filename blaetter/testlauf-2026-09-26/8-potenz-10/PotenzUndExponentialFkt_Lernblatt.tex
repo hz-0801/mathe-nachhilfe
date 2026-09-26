@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% Im Vorspann ergänzt (fehlt in der Anleitung): leeres Gitter mit Achsenpfeilen, ohne Bezifferung,
+% Karo 8 mm – für Aufgaben, in denen der Schüler die Achseneinteilung selbst wählt (Nr. 25).
+\newcommand{\leeresgitter}[2]{\par\noindent\begin{tikzpicture}
+\draw[step=0.8cm,gray!45,very thin] (0,0) grid ({#1*0.8},{#2*0.8});
+\draw[->,thick] (0,0) -- ({#1*0.8+0.5},0);
+\draw[->,thick] (0,0) -- (0,{#2*0.8+0.5});
+\end{tikzpicture}\par}
+\newif\ifmitzone
+\mitzonefalse
+\begin{document}
+\blattkopf{Potenz- und Exponentialfunktionen}{Lernblatt}
+\weit
+\input{verz_lernblatt}
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{e4_a}
+\clearpage
+\input{e5_a}
+\input{abhaken}
+\end{document}
