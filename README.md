@@ -88,6 +88,7 @@ Profil abi:
 - `abi-vorgaben.md` – jährlicher Vorgabencheck (Prüfungsschwerpunkte beider Länder; gilt auch für iqb).
 - `abi-aufbau.md`, `abi-struktur.json` – nur für 2017/2018: Wahlstruktur, BE-Vektoren, Zwillingsnachweis.
 - `abi-be-gk-geltung.md`, `abi-be-lk-geltung.md`, `abi-bb-gk-geltung.md`, `abi-bb-ea-geltung.md` – je Zielprüfung Thema ja/nein, ausgeschlossene Aufgabenformen, Rechnerfassung.
+- `befund-eichung-2017-2026-09-28.md` – die abweichenden Zeilen der Poolstapel 2017 (ga-A, ga-B WTR; zum Vergleich ea-B WTR und CAS, der gescheiterte 2018-ea-B CAS) mit erster Schätzung, amtlichem Bereich, Grund der Korrektur und Regel der engen Fassung, dazu die Eichung je Pooljahr und Niveau (erster Lauf, heute); kein Urteil. Öffnen, wenn im Chat über die Eichung des Pools 2017 oder die Deutungsliste entschieden wird.
 - `befund-cas-berlin-2026-09-28.md` – Messung der vier Berliner CAS-Hefte 2017/2018 gegen die WTR-Fassung je Teilaufgabe (wortgleich/abweichend, Art der Abweichung, schon vorhandene Zeilen der BB-CAS-Hefte); kein Urteil. Öffnen, wenn im Chat die Abgrenzung nach abi.md § 9 entschieden wird.
 
 Profil iqb:

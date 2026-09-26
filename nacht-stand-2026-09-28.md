@@ -9,6 +9,6 @@ Auftrag: auftrag-nacht-2026-09-28.md. Start 2026-09-26 10:09 (Get-Date). Ein Neu
 | 3 Berliner CAS-Hefte messen | erledigt (10:26) | abitur/befund-cas-berlin-2026-09-28.md, werkzeuge/cas-vergleich.py; abweichend 16/19/16/16 | a1d8012 |
 | 4 Sek-II-Einträge nachziehen | offen | – | – |
 | 5 Prüfskript und Marken-Gegenprobe | erledigt (10:29) | blatt-pruef.py v0.4 (Eingabe 3: 173 Teilaufgaben), marken-bau.py GEGENPROBE auf Belegwerten | 0062451 |
-| 6 Eichungsfrage 2017 | läuft (seit 10:38) | Tabellen 2017-ga-A und 2017-ga-B aus bemerkung vorbereitet; Eichung je Pooljahr wartet auf Teil 2 | – |
+| 6 Eichungsfrage 2017 | erledigt (12:23) | abitur/befund-eichung-2017-2026-09-28.md mit Eichung je Pooljahr am Stand b90e574 | siehe Commit Befund Eichung Pool 2017 |
 | 7 Prüfstein Übersichtsblatt | erledigt (10:36) | quadratische-funktionen (3 Kompilierläufe, 4 Blöcke, 1 Seite) und prozentrechnung (2 Läufe, 5 Blöcke, 1 Seite) unter blaetter/uebersicht/ | 3474faa |
 | Abschluss | offen | – | – |
