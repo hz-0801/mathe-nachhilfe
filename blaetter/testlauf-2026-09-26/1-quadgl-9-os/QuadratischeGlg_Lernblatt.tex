@@ -1,0 +1,17 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% fehlender Baustein (nicht in der Anleitung): Quadrat mit Rand für Sachaufgaben (Nr. 44)
+\newcommand{\quadratrand}[2]{\begin{tikzpicture}\draw[thick] (0,0) rectangle (3.2,3.2);\fill[gray!15] (0.6,0.6) rectangle (2.6,2.6);\draw (0.6,0.6) rectangle (2.6,2.6);\node at (1.6,1.6) {Foto};\draw[<->] (0.6,0.3) -- (2.6,0.3) node[midway,below] {$#1$};\draw[<->] (0,1.6) -- (0.6,1.6); \node[left] at (0,1.6) {#2};\end{tikzpicture}}
+\begin{document}
+\blattkopf{Quadratische Gleichungen}{Lernblatt}
+\weit
+\verzeichniszeile{\verz{e1}{1 Wurzelziehen und Lösbarkeit (Nr. 12–23)} \verztrenn \verz{e2}{2 Normalform und p-q-Formel (Nr. 24–39)} \verztrenn \verz{e3}{3 Sachaufgaben (Nr. 40–46)} \verztrenn \verz{e4}{Ausblick 4 Satz vom Nullprodukt (Nr. 47–55)} \verztrenn \verz{abhaken}{Das kann ich}}
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{e4_a}
+\input{abhaken}
+\end{document}

@@ -1,0 +1,120 @@
+Prompt: Unterrichtsblatt-Prompt v4.4
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-28a (Stufe 6: Bausteine aus den Lesebefunden des Lehrers vom 26.09.2026 zu zwei
+Katalog: quadratische-gleichungen.md, Status: gegengelesen bis auf [FS] (2026-09-11h, dreizehnter Gegenlese-Block; Entwurf 2026-09-08i, LISUM-Planungshilfen am 10e nachgetragen) · Stufe: Sek I · Bildungsgänge: Gymnasium Kl. 9 (Lehrwerk Kl. 9 II; RLP G = Kl. 9), Oberschule/Gesamtschule Kl. 9–10 (F „in Teilen G“, für den MSA nötig; in der P10 als Verfahren hinter sieben Funktionen-Originalen 2017–2025, als eigenes Thema nur 2021 und 2025); nicht Förderschwerpunkt Lernen (D–E) · gegengelesen: bis auf [FS]
+Bestellung: mit Wiederholung · mit Ausblick
+Standpunkt: Kl. 9, Oberschule
+
+Zweige:
+Einheit 1 von 4 · Wurzelziehen und Lösbarkeit (gebaut, Nr. 12–23): Hier lernst du, Gleichungen wie x² = c durch Wurzelziehen zu lösen und zu sagen, ob es zwei, eine oder keine Lösung gibt · neu in diesem Jahr, je nach Buch bis Klasse 10 (am Gymnasium schon in Klasse 8 oder 9) · P10 · baut auf: Quadrieren, Wurzel ziehen, lineare Gleichungen, Scheitelpunktform
+Einheit 2 von 4 · Normalform und p-q-Formel (gebaut, Nr. 24–39): Hier lernst du, jede quadratische Gleichung zu ordnen und mit der p-q-Formel zu lösen · neu in diesem Jahr, je nach Buch bis Klasse 10 · P10 oft · baut auf: Wurzelziehen (Einheit 1), Ausmultiplizieren, Terme ordnen
+Einheit 3 von 4 · Sachaufgaben (gebaut, Nr. 40–46): Hier lernst du, Zahlenrätsel und Flächenaufgaben mit quadratischen Gleichungen zu lösen · neu in diesem Jahr, je nach Buch bis Klasse 10 · keine P10-Aufgabe · baut auf: Wurzelziehen (Einheit 1), p-q-Formel (Einheit 2)
+Ausblick Einheit 4 von 4 · Satz vom Nullprodukt (gebaut, Nr. 47–55): Hier lernst du, Gleichungen in Produktform mit dem Satz vom Nullprodukt zu lösen · kommt nächstes Jahr (am Gymnasium schon in Klasse 8 oder 9) · P10 · baut auf: Ausklammern, lineare Gleichungen, p-q-Formel (Einheit 2)
+Abgewählt: keine. Zone Kennst du schon: Nr. 1–11.
+
+Hauptnummern mit Titel:
+[zone_a.tex] Ich kann Zahlen quadrieren, auch negative Zahlen und Dezimalzahlen. | Ich kann mit Klammern und negativen Zahlen rechnen: Klammer zuerst, Punkt vor Strich. | Ich kann eine lineare Gleichung lösen. | Ich kann durch Einsetzen prüfen, ob eine Zahl eine Lösung ist. | Ich kann Quadratwurzeln ziehen. | Ich kann den Scheitel aus der Scheitelpunktform ablesen. | Ich kann Klammern ausmultiplizieren, auch mit den binomischen Formeln. | Ich kann ausklammern. | Ich kann Terme ordnen und zusammenfassen. | Ich finde den Fehler beim Auflösen einer quadrierten Klammer. | Ich kann eine quadrierte Klammer auflösen und zusammenfassen.
+[e1_a.tex] Ich erkenne, ob eine Gleichung quadratisch ist. | Ich erkenne, ob rechts eine positive Zahl, null oder eine negative Zahl steht. | Ich kann eine Gleichung $x^2 = c$ durch Wurzelziehen lösen. | Ich kann $x^2$ erst allein stellen und dann die Wurzel ziehen. | Ich kann eine Gleichung mit quadrierter Klammer rückwärts lösen. | Ich kann prüfen, ob eine Zahl eine quadratische Gleichung löst. | Ich kann am Graphen ablesen, wie viele Lösungen eine Gleichung hat. | Ich kann Gleichungen mit keiner, einer oder zwei Lösungen angeben. | Ich kann Aussagen über die Lösungen einer Gleichung beurteilen. | Ich finde den Fehler beim Wurzelziehen. | Ich kann begründen, wie viele Lösungen eine Gleichung hat. | Ich kann mit Wurzelziehen eine Länge berechnen.
+[e2_a.tex] Ich erkenne an der Form einer Gleichung, welcher Lösungsweg passt. | Ich erkenne p und q in einer Gleichung in Normalform. | Ich erkenne, ob vor $x^2$ eine Eins steht. | Ich kann eine Gleichung in Normalform mit der p-q-Formel lösen. (je nach Buch erst in Klasse 10) | Ich kann eine Gleichung in Normalform mit der p-q-Formel lösen – weiter. | Ich kann eine Gleichung erst ordnen und dann mit der p-q-Formel lösen. | Ich kann eine Gleichung mit einer Zahl vor $x^2$ lösen. | Ich kann eine Gleichung mit Klammern erst auflösen, ordnen und dann lösen. | Ich kann eine Gleichung mit genau einer Lösung lösen. | Ich kann erkennen, dass eine Gleichung keine Lösung hat. | Ich kann am Wert unter der Wurzel entscheiden, wie viele Lösungen es gibt. | Ich kann mit einer Probe prüfen, ob eine Lösung stimmt. | Ich kann den kürzesten Lösungsweg wählen. | Ich finde den Fehler beim Lösen mit der p-q-Formel. | Ich kann begründen, wann die p-q-Formel funktioniert. | Ich kann berechnen, wo sich eine Gerade und eine Parabel schneiden.
+[e3_a.tex] Ich erkenne, welche Lösung zur Frage passt. | Ich kann ein Zahlenrätsel mit dem Quadrat einer Zahl lösen. | Ich kann zu einem Zahlenrätsel selbst die Gleichung aufstellen. | Ich kann eine Rechteckaufgabe mit einer quadratischen Gleichung lösen. | Ich kann eine Flächenaufgabe mit Klammern lösen. | Ich finde den Fehler in einer Sachaufgabe. | Ich kann begründen, welche Lösungen im Sachzusammenhang gelten.
+[e4_a.tex] Ich erkenne, ob rechts eine Null steht. | Ich kann eine Gleichung in Produktform mit dem Satz vom Nullprodukt lösen. | Ich kann prüfen, welche Zahl eine Gleichung in Produktform erfüllt. | Ich kann eine Gleichung ohne Zahlglied durch Ausklammern lösen. | Ich kann eine Produktgleichung lösen, bei der rechts nicht null steht. | Ich kann eine Gleichung lösen, indem ich die linke Seite als Produkt schreibe. | Ich finde den Fehler beim Satz vom Nullprodukt. | Ich kann begründen, wann der Satz vom Nullprodukt gilt. | Ich kann mit dem Satz vom Nullprodukt eine Sachfrage beantworten.
+
+Zählung aus der Textextraktion der Kompilate:
+QuadratischeGlg_KennstDuSchon.pdf: Hauptnummern 11, Teilaufgaben 50, Grafiken 0, Seiten 3
+QuadratischeGlg_Lernblatt.pdf: Hauptnummern 44, Teilaufgaben 182, Grafiken 6, Seiten 23
+QuadratischeGlg_Gesamt.pdf: Hauptnummern 55, Teilaufgaben 232, Grafiken 6, Seiten 26
+QuadratischeGlg_Loesungen.pdf: Nummern mit Lösung 55, Seiten 3
+Verzeichniszeile Lernblatt: \verz{e1}{1 Wurzelziehen und Lösbarkeit (Nr. 12–23)} \verztrenn \verz{e2}{2 Normalform und p-q-Formel (Nr. 24–39)} \verztrenn \verz{e3}{3 Sachaufgaben (Nr. 40–46)} \verztrenn \verz{e4}{Ausblick 4 Satz vom Nullprodukt (Nr. 47–55)} \verztrenn \verz{abhaken}{Das kann ich}
+Verzeichniszeile Gesamt: \verz{zone}{Kennst du schon (Nr. 1–11)} \verztrenn \verz{e1}{1 Wurzelziehen und Lösbarkeit (Nr. 12–23)} \verztrenn \verz{e2}{2 Normalform und p-q-Formel (Nr. 24–39)} \verztrenn \verz{e3}{3 Sachaufgaben (Nr. 40–46)} \verztrenn \verz{e4}{Ausblick 4 Satz vom Nullprodukt (Nr. 47–55)} \verztrenn \verz{abhaken}{Das kann ich}
+
+Werkzeugaufrufe (Schritt · Anlass):
+1 · Read unterrichtsblatt.md Zeilen 1–754 · Anleitung lesen
+2 · Read unterrichtsblatt.md ab 755 · Anleitung bis zur letzten Zeile lesen
+3 · PowerShell: Arbeitsverzeichnis anlegen, Stempel t0 · Zeitmessung (im selben Aufruf wie das Anlegen des Verzeichnisses)
+4 · PowerShell: curl Themenregister und Register der Blätter · Katalog holen (1.2)
+5 · Grep in der gespeicherten Ausgabe · Zeile quadratische-gleichungen und Register finden
+6 · PowerShell: Index- und Registerzeilen ausgeben · Datei wählen, Register prüfen (Blatt „nullstellen“ vom 22.09. ist anderes Thema)
+7 · PowerShell: curl katalog/quadratische-gleichungen.md · Eintrag holen
+8 · Read Eintrag Zeilen 1–110 · Eintrag lesen
+9 · Read Eintrag ab 111 · Eintrag lesen (dabei versehentlich auch Offene Punkte und Prüfliste mitgelesen, nicht verwendet)
+10 · PowerShell: curl mathblatt.sty und Anleitung_mathblatt.md · Vorlage holen (4.5; Anleitung als Datei gespeichert, weil die Ausgabe zu lang ist)
+11 · Read Anleitung Zeilen 1–275 · Makros
+12 · Read Anleitung ab 276 · Makros
+13 · Write zone_a.tex · Zone
+14 · Write zone_l.tex · Lösungen Zone
+15 · Edit zone_l.tex · Zuordnungszeile als Absatz statt \zweigzeile
+16 · Write QuadratischeGlg_KennstDuSchon.tex · Rahmendatei Zone
+17 · Write pruef.py · Prüfskript (Abschnitt zone, Sperrprüfung)
+18 · PowerShell: pruef zone, xelatex, pdftoppm · Prüfung Zone
+19 · PowerShell: Abweichungen anzeigen · pruef meldete 8a ABWEICHUNG
+20 · Edit pruef.py · Skriptfehler: sympy wertete 4*(x+2) zu 4x+8 aus (evaluate=False)
+21 · Read zone_p-1.png · Seite ansehen (erste Nutzung der Makros)
+22 · Read zone_p-2.png · Seite ansehen
+23 · Read zone_p-3.png · Seite ansehen
+24 · PowerShell: Korrektur · \punktfeld setzt „S(“ selbst, sichtbar „SS(“; Kopfzeile „Kennst du schon · Kennst du schon“ mit leerem Blattnamen probiert
+25 · PowerShell: Korrektur · leerer Blattname ergab „Quadratische Gleichungen · · Kennst du schon“, zurückgesetzt; Stempel zone
+26 · Read zone_q-2.png · geänderte Seite ansehen
+27 · Write e1_a.tex · Einheit 1
+28 · PowerShell: Antwortfelder Nr. 23 auf \leerfeld[m] · Stempel weiter
+29 · Write e1_l.tex · Lösungen Einheit 1
+30 · Edit pruef.py · Abschnitt e1
+31 · Write testrahmen.tex · Prüfrahmen je Einheit (nicht übergeben)
+32 · PowerShell: abgelehnt · Remove-Item mit dem Argument \input vom Werkzeug gesperrt
+33 · PowerShell: Prüfrahmen je Einheit, pruef e1, xelatex · Sperrprüfung: 15a x² − 4 = 5 entspricht x² = 9 (Grundvorstellung)
+34 · Read e1_p-2.png · Seite ansehen
+35 · Read e1_p-5.png · Ablesegrafik Nr. 18
+36 · Read e1_p-6.png · Zylinder Nr. 23
+37 · PowerShell: Korrektur · Nr. 15 neue Gleichungen; Nr. 18 Labels y = … über der Achsenbezifferung (xmax 4, Label bei x = 3); Nr. 23 b Zeile gedehnt, Feld in eigene Zeile
+38 · PowerShell: Korrektur · Nr. 23 a doppelte Gleichung x² = 64 (auch Nr. 21 a) → 121 m²; Lösungen: x₁, ≈, ≠, π fehlen im Textfont
+39 · Write fix_uni.py · Unicode in Lösungen durch Mathematik ersetzen
+40 · Read e1_q-5.png · geänderte Seite ansehen
+41 · Read e1_q-6.png · geänderte Seite ansehen
+42 · PowerShell: fix_uni, Neukompilat, Stempel e 1
+43 · Write e2_a.tex · Einheit 2
+44 · Write e2_l.tex · Lösungen Einheit 2
+45 · Edit fix_uni.py · Indizes an S₁, S₂
+46 · Edit pruef.py · Abschnitt e2
+47 · PowerShell: pruef e2, xelatex, Seitenkarte · Prüfung Einheit 2
+48 · Read e2_p-5.png · Fehlgriff (Dateiname bei zehn Seiten zweistellig)
+49 · Read e2_p-9.png · Fehlgriff (Dateiname)
+50 · Read e2_p-05.png · Seitenhöhe Nr. 30
+51 · Read e2_p-09.png · Ablesegrafik Nr. 39
+52 · Write e3_a.tex · Einheit 3
+53 · Write e3_l.tex · Lösungen Einheit 3
+54 · Edit testrahmen.tex · fehlender Baustein \quadratrand im Vorspann
+55 · Edit pruef.py · Abschnitt e3
+56 · PowerShell: Stempel e 2, pruef e3, xelatex · Prüfung Einheit 3
+57 · Read e3_p-1.png · Rechteck-Skizze Nr. 43
+58 · Read e3_p-2.png · Skizzen Nr. 44: Label „2 cm“ liegt auf dem Rahmen
+59 · Write e4_a.tex · Ausblick Einheit 4
+60 · Write e4_l.tex · Lösungen Einheit 4
+61 · PowerShell: Korrektur · Nr. 55 c „zweite Lösung“ unklar; \quadratrand Label „2 cm“ nach links außen
+62 · Edit pruef.py · Abschnitt e4
+63 · PowerShell: Neukompilat Einheit 3, Stempel e 3, pruef e4, xelatex · Sperrprüfung: 52a x² + 5x + 6 = 0 entspricht Original x·(x + 5) = −6
+64 · Read e3_q-2.png · geänderte Seite ansehen
+65 · PowerShell: Korrektur · Nr. 52 a → x² + 8x + 15 = 0; pruef e4 null Abweichungen; Stempel e 4
+66 · Write abhaken.tex · Abhakseite
+67 · Write QuadratischeGlg_Lernblatt.tex · Rahmendatei
+68 · Write QuadratischeGlg_Gesamt.tex · Rahmendatei
+69 · Write QuadratischeGlg_Loesungen.tex · Rahmendatei
+70 · Write check_blatt.py · Prüfung Kompilat (Nummern, Kopfzeilen, Sprungziele, Abhakseite, Füllung)
+71 · PowerShell: Lernblatt und Gesamt je zweimal xelatex, Stempel lernblatt und gesamt, check_blatt · Abhak-Zählung im Skript fand 0 (Muster „□ n.“ nicht erfasst)
+72 · PowerShell: Abhakseite als Text, Seiten rendern · Muster klären
+73 · PowerShell: check_blatt korrigiert · Abhakseite 44 bzw. 55 Einträge gleich den Hauptnummern
+74 · Read lb_p-01.png · Verzeichniszeile und Zweigkopf
+75 · Read ge_p-25.png · Abhakseite
+76 · PowerShell: Lösungen zweimal xelatex, Stempel loesungen, Zählung, Titelgleichheit Abhakseite
+77 · Write archiv.py · Protokoll und Archiv
+78 · PowerShell: archiv.py · protokoll.txt, chat.txt, Zip
+
+Vorlage: fehlende Bausteine · \quadratrand (Quadrat mit Rand, Nr. 44; im Vorspann von Lernblatt, Gesamt und Prüfrahmen) · Warnungen aus dem Log: keine (keine Package mathblatt Warning, keine Overfull-Box)
+Korrekturrunden: 13 von 78 Schritten
+Zone: 723 s
+Weiter: 819 s (Stempel des simulierten Klicks)
+E 1: 965 s
+E 2: 1247 s
+E 3: 1362 s
+E 4: 1412 s
+Lernblatt: 1483 s
+Gesamt: 1496 s
+Lösungen: 1564 s

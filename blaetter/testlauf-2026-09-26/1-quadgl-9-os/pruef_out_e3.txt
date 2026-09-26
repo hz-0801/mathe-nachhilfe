@@ -1,0 +1,30 @@
+40a      | Skript: 9 | Blatt: 9 | OK
+40b      | Skript: beide | Blatt: beide | OK
+40c      | Skript: 6 | Blatt: 6 | OK
+40d      | Skript: 12 | Blatt: 12 | OK
+40e      | Skript: 7 | Blatt: 7 | OK
+41a      | Skript: [-13.0, 13.0] | Blatt: [-13, 13] | OK
+41b      | Skript: [-20.0, 20.0] | Blatt: [-20, 20] | OK
+41c      | Skript: [-8.0, 8.0] | Blatt: [-8, 8] | OK
+41d      | Skript: [-10.0, 10.0] | Blatt: [-10, 10] | OK
+42a      | Skript: [-9.0, 9.0] | Blatt: [-9, 9] | OK
+42b      | Skript: [-5.0, 5.0] | Blatt: [-5, 5] | OK
+42c      | Skript: [-8.0, 7.0] | Blatt: [-8, 7] | OK
+42d      | Skript: [-12.0, 11.0] | Blatt: [-12, 11] | OK
+43b      | Skript: [-8.0, 5.0] | Blatt: [-8, 5] | OK
+44a      | Skript: [-18.0, 10.0] | Blatt: [-18, 10] | OK
+44b      | Skript: [-9.0, 7.0] | Blatt: [-9, 7] | OK
+45a      | Skript: [-8.0, 3.0] | Blatt: [-8, 3] | OK
+45b      | Skript: [-8.0, 6.0] | Blatt: [-8, 6] | OK
+43b D    | Skript: 42.25 | Blatt: 42.25 | OK
+43d Probe | Skript: 40 | Blatt: 40 | OK
+44b Probe | Skript: 55 | Blatt: 55 | OK
+45a Länge | Skript: 8 | Blatt: 8 | OK
+45b Länge | Skript: 8 | Blatt: 8 | OK
+45b Vorgabe Mia | Skript: [11.0] | Blatt: [11] | OK
+45b Vorgabe | Skript: 11*13=143 | Blatt: ≠ 48 | OK
+42c Paare | Skript: (56, 56) | Blatt: 56 | OK
+42d Paar | Skript: (132,) | Blatt: 132 | OK
+46b      | Skript: 15^2 = (-15)^2 = 225 | Blatt: 225 | OK
+Sperrprüfung: 13 Gleichungen gegen 34 gesperrte, Treffer 0
+Abweichungen: 0

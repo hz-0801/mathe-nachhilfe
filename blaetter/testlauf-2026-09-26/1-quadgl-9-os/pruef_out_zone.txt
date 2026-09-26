@@ -1,0 +1,53 @@
+1a       | Skript: 36 | Blatt: 36 | OK
+1b       | Skript: 100 | Blatt: 100 | OK
+1c       | Skript: 64 | Blatt: 64 | OK
+1d       | Skript: 6.25 | Blatt: 6.25 | OK
+1e       | Skript: 0.25 | Blatt: 0.25 | OK
+2a       | Skript: 18 | Blatt: 18 | OK
+2b       | Skript: 8 | Blatt: 8 | OK
+2c       | Skript: -12 | Blatt: -12 | OK
+2d       | Skript: -20 | Blatt: -20 | OK
+2e       | Skript: 8 | Blatt: 8 | OK
+3a       | Skript: [6.0] | Blatt: [6] | OK
+3b       | Skript: [4.0] | Blatt: [4] | OK
+3c       | Skript: [6.5] | Blatt: [6.5] | OK
+3d       | Skript: [-6.0] | Blatt: [-6] | OK
+3e       | Skript: [8.0] | Blatt: [8] | OK
+3f       | Skript: [-7.0] | Blatt: [-7] | OK
+4a       | Skript: wA (8 / 8) | Blatt: wA | OK
+4b       | Skript: fA (8 / 10) | Blatt: fA | OK
+4c       | Skript: wA (3 / 3) | Blatt: wA | OK
+4d       | Skript: fA (7 / 3) | Blatt: fA | OK
+4e       | Skript: wA (-7 / -7) | Blatt: wA | OK
+5a       | Skript: 7 | Blatt: 7 | OK
+5b       | Skript: 10 | Blatt: 10 | OK
+5c       | Skript: 0.8 | Blatt: 0.8 | OK
+5d       | Skript: 14 | Blatt: 14 | OK
+5f       | Skript: 2.6458 | Blatt: 2.65 | OK
+5e       | Skript: sqrt(-9) nicht reell | Blatt: gibt es nicht | OK
+6a       | Skript: S(2, 1) | Blatt: S(2, 1) | OK
+6b       | Skript: S(4, 0) | Blatt: S(4, 0) | OK
+6c       | Skript: S(0, -5) | Blatt: S(0, -5) | OK
+6d       | Skript: S(-3, -2) | Blatt: S(-3, -2) | OK
+7a       | Skript: 2*x + 10 | Blatt: 2x+10 | OK
+7b       | Skript: x**2 + 3*x | Blatt: x^2+3x | OK
+7c       | Skript: x**2 - 6*x | Blatt: x^2-6x | OK
+7d       | Skript: x**2 + 12*x + 36 | Blatt: x^2+12x+36 | OK
+7e       | Skript: x**2 - 18*x + 81 | Blatt: x^2-18x+81 | OK
+8a       | Skript: 4*(x + 2) | Blatt: 4*(x+2) | OK
+8b       | Skript: x*(x + 3) | Blatt: x*(x+3) | OK
+8c       | Skript: x*(x - 9) | Blatt: x*(x-9) | OK
+8d       | Skript: 2*x*(x + 3) | Blatt: 2*x*(x+3) | OK
+8e       | Skript: x*(x - 1) | Blatt: x*(x-1) | OK
+9a       | Skript: x**2 + 2*x + 3 | Blatt: x^2+2x+3 | OK
+9b       | Skript: x**2 + 7*x + 1 | Blatt: x^2+7x+1 | OK
+9c       | Skript: x**2 + 5*x - 8 | Blatt: x^2+5x-8 | OK
+9d       | Skript: -x**2 + 2*x + 4 | Blatt: -x^2+2x+4 | OK
+9e       | Skript: x**2 - 2*x - 2 | Blatt: x^2-2x-2 | OK
+10       | Skript: x**2 + 10*x - 5 | Blatt: x^2+10x-5 | OK
+10 Vorgabe | Skript: x**2 + 10*x - 5 | Blatt: x^2-5 (Vorgabe falsch) | OK
+11a      | Skript: x**2 + 4*x - 3 | Blatt: x^2+4x-3 | OK
+11b      | Skript: x**2 - 2*x + 9 | Blatt: x^2-2x+9 | OK
+11c      | Skript: x**2 - 4*x + 6 | Blatt: x^2-4x+6 | OK
+Sperrprüfung: 6 Gleichungen gegen 34 gesperrte, Treffer 0
+Abweichungen: 0

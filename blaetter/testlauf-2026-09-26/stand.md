@@ -9,8 +9,8 @@ Katalog: live von raw.githubusercontent.com (origin/main 68a6401; lokal ein Comm
 
 ## Eingaben
 
-1 quadgl-9-os · wartet · Anläufe 0
-2 quadgl-9-gym · wartet · Anläufe 0
+1 quadgl-9-os · fertig · Anläufe 1 · Start 19:30 · Ende 20:00 · Aufrufe laut protokoll.txt 78, Umgebung 80
+2 quadgl-9-gym · läuft · Anläufe 1 · Start 20:00
 3 prozent-7-schwach · wartet · Anläufe 0
 4 linfkt-8-neu · wartet · Anläufe 0
 5 kreis-8-ausblick · wartet · Anläufe 0

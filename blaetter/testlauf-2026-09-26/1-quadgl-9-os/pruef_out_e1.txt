@@ -1,0 +1,50 @@
+14a      | Skript: [-4.0, 4.0] | Blatt: [-4, 4] | OK
+14b      | Skript: [-9.0, 9.0] | Blatt: [-9, 9] | OK
+14c      | Skript: [-2.0, 2.0] | Blatt: [-2, 2] | OK
+14d      | Skript: [-12.0, 12.0] | Blatt: [-12, 12] | OK
+14e      | Skript: [-3.1623, 3.1623] | Blatt: [-3.16, 3.16] | OK
+14f      | Skript: keine | Blatt: keine | OK
+15a      | Skript: [-4.0, 4.0] | Blatt: [-4, 4] | OK
+15b      | Skript: [-8.0, 8.0] | Blatt: [-8, 8] | OK
+15c      | Skript: [-5.0, 5.0] | Blatt: [-5, 5] | OK
+15d      | Skript: [-2.0, 2.0] | Blatt: [-2, 2] | OK
+15e      | Skript: keine | Blatt: keine | OK
+15f      | Skript: [0.0] | Blatt: [0] | OK
+16a      | Skript: [-1.0, 5.0] | Blatt: [-1, 5] | OK
+16b      | Skript: [-4.0, 6.0] | Blatt: [-4, 6] | OK
+16c      | Skript: [3.0, 7.0] | Blatt: [3, 7] | OK
+16d      | Skript: [2.0, 4.0] | Blatt: [2, 4] | OK
+16e      | Skript: [-7.0, 3.0] | Blatt: [-7, 3] | OK
+16f      | Skript: [-5.0] | Blatt: [-5] | OK
+18a      | Skript: [-3.0, 1.0] | Blatt: [-3, 1] | OK
+18b      | Skript: [-2.0, 0.0] | Blatt: [-2, 0] | OK
+18c      | Skript: [-1.0] | Blatt: [-1] | OK
+18d      | Skript: keine | Blatt: keine | OK
+20 A1    | Skript: [6.0] | Blatt: [6] | OK
+20 A2    | Skript: [-10.0, -2.0] | Blatt: [-10, -2] | OK
+21a      | Skript: [-8.0, 8.0] | Blatt: [-8, 8] | OK
+21b      | Skript: [-11.0, -7.0] | Blatt: [-11, -7] | OK
+21c      | Skript: keine | Blatt: keine | OK
+22c      | Skript: [9.0] | Blatt: [9] | OK
+14e Wurzel | Skript: 3.1623 | Blatt: 3.16 | OK
+20 A2 Vorgabe | Skript: 2 und 10 keine Lösungen | Blatt: falsch | OK
+17a      | Skript: wA (50 / 50) | Blatt: wA | OK
+17b      | Skript: wA (50 / 50) | Blatt: wA | OK
+17c      | Skript: fA (4 / 9) | Blatt: fA | OK
+17d      | Skript: wA (9 / 9) | Blatt: wA | OK
+17e      | Skript: fA (-2 / -8) | Blatt: fA | OK
+19a      | Skript: 1 Lösung(en) | Blatt: 1 | OK
+19b      | Skript: 2 Lösung(en) | Blatt: 2 | OK
+19c      | Skript: 0 Lösung(en) | Blatt: 0 | OK
+19d      | Skript: 0 Lösung(en) | Blatt: 0 | OK
+19e      | Skript: 0 Lösung(en) | Blatt: 0 | OK
+20b      | Skript: 0 Lösung(en) | Blatt: 0 | OK
+21a Vorgabe | Skript: x=8 allein unvollständig | Blatt: Fehler | OK
+21b Vorgabe | Skript: [-11, -7] | Blatt: 11, 7 falsch | OK
+23a      | Skript: [-11.0, 11.0] | Blatt: [-11, 11] | OK
+23a Länge | Skript: positive Lösung 11 | Blatt: 11 | OK
+23b      | Skript: 1.2 | Blatt: 1.2 | OK
+23c r^2  | Skript: 15.9155 | Blatt: 15.92 | OK
+23c r    | Skript: 3.9894 | Blatt: 3.99 | OK
+Sperrprüfung: 29 Gleichungen gegen 34 gesperrte, Treffer 0
+Abweichungen: 0

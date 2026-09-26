@@ -1,0 +1,12 @@
+﻿% Prüfrahmen je Einheit (nicht übergeben): Aufgaben, dann Lösungen
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% fehlender Baustein (nicht in der Anleitung): Quadrat mit Rand für Sachaufgaben
+\newcommand{\quadratrand}[2]{\begin{tikzpicture}\draw[thick] (0,0) rectangle (3.2,3.2);\fill[gray!15] (0.6,0.6) rectangle (2.6,2.6);\draw (0.6,0.6) rectangle (2.6,2.6);\node at (1.6,1.6) {Foto};\draw[<->] (0.6,0.3) -- (2.6,0.3) node[midway,below] {$#1$};\draw[<->] (0,1.6) -- (0.6,1.6); \node[left] at (0,1.6) {#2};\end{tikzpicture}}
+\begin{document}
+\blattkopf{Quadratische Gleichungen}{Prüfung}
+\weit
+\input{\einheit_a}
+\clearpage
+\input{\einheit_l}
+\end{document}

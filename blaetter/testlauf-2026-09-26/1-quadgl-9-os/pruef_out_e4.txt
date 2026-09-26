@@ -1,0 +1,45 @@
+47a      | Skript: gilt | Blatt: gilt | OK
+47b      | Skript: gilt nicht | Blatt: gilt nicht | OK
+47c      | Skript: gilt | Blatt: gilt | OK
+47d      | Skript: gilt nicht | Blatt: gilt nicht | OK
+47e      | Skript: gilt | Blatt: gilt | OK
+48a      | Skript: [2.0, 5.0] | Blatt: [2, 5] | OK
+48b      | Skript: [1.0, 6.0] | Blatt: [1, 6] | OK
+48c      | Skript: [3.0, 4.0] | Blatt: [3, 4] | OK
+48d      | Skript: [2.0, 7.0] | Blatt: [2, 7] | OK
+48e      | Skript: [-5.0, 1.0] | Blatt: [-5, 1] | OK
+48f      | Skript: [-6.0, 0.0] | Blatt: [-6, 0] | OK
+48g      | Skript: [8.0] | Blatt: [8] | OK
+50a      | Skript: [-4.0, 0.0] | Blatt: [-4, 0] | OK
+50b      | Skript: [-9.0, 0.0] | Blatt: [-9, 0] | OK
+50c      | Skript: [0.0, 1.0] | Blatt: [0, 1] | OK
+50d      | Skript: [0.0, 4.0] | Blatt: [0, 4] | OK
+50e      | Skript: [0.0, 5.0] | Blatt: [0, 5] | OK
+51a      | Skript: [-7.0, 5.0] | Blatt: [-7, 5] | OK
+51b      | Skript: [-5.0, 4.0] | Blatt: [-5, 4] | OK
+51c      | Skript: [-2.0, 5.0] | Blatt: [-2, 5] | OK
+52a      | Skript: [-5.0, -3.0] | Blatt: [-5, -3] | OK
+52b      | Skript: [3.0, 4.0] | Blatt: [3, 4] | OK
+52c      | Skript: [-3.0, 1.0] | Blatt: [-3, 1] | OK
+52d      | Skript: [-5.0, -2.0] | Blatt: [-5, -2] | OK
+53a      | Skript: [0.0, 3.0] | Blatt: [0, 3] | OK
+53b      | Skript: [-2.0, 6.0] | Blatt: [-2, 6] | OK
+53c      | Skript: [-4.0, 3.0] | Blatt: [-4, 3] | OK
+54b      | Skript: [0.0, 6.0] | Blatt: [0, 6] | OK
+52a Faktoren | Skript: (x + 3)*(x + 5) | Blatt: (x+3)*(x+5) | OK
+52b Faktoren | Skript: (x - 4)*(x - 3) | Blatt: (x-3)*(x-4) | OK
+52c Faktoren | Skript: (x - 1)*(x + 3) | Blatt: (x+3)*(x-1) | OK
+52d Faktoren | Skript: 2*(x + 2)*(x + 5) | Blatt: 2*(x+2)*(x+5) | OK
+50a Faktoren | Skript: x*(x + 4) | Blatt: x*(x+4) | OK
+50d Faktoren | Skript: 3*x*(x - 4) | Blatt: 3*x*(x-4) | OK
+49a      | Skript: wA (0 / 0) | Blatt: wA | OK
+49b      | Skript: wA (-4 / -4) | Blatt: wA | OK
+49c      | Skript: fA (12 / -4) | Blatt: fA | OK
+49d      | Skript: wA (-6 / -6) | Blatt: wA | OK
+49e      | Skript: fA (-9 / 9) | Blatt: fA | OK
+49f      | Skript: erfüllt: [-2] (Werte {2: 18, 5: 60, -2: -10, -10: 30}) | Blatt: [-2] | OK
+49f Gl.  | Skript: [-5.0, -2.0] | Blatt: [-5, -2] | OK
+55a      | Skript: -5*t*(t - 3) | Blatt: 5t*(3-t) | OK
+55b      | Skript: [0, 3] | Blatt: [0, 3] | OK
+Sperrprüfung: 24 Gleichungen gegen 34 gesperrte, Treffer 0
+Abweichungen: 0

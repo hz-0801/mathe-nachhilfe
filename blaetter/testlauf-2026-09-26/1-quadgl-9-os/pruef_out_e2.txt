@@ -1,0 +1,76 @@
+25a      | Skript: p=7, q=2 | Blatt: p=7, q=2 | OK
+25b      | Skript: p=-2, q=9 | Blatt: p=-2, q=9 | OK
+25c      | Skript: p=5, q=-1 | Blatt: p=5, q=-1 | OK
+25d      | Skript: p=-1, q=-20 | Blatt: p=-1, q=-20 | OK
+25e      | Skript: p=0, q=-11 | Blatt: p=0, q=-11 | OK
+26a      | Skript: Vorzahl 1 | Blatt: nicht teilen | OK
+26b      | Skript: Vorzahl 2 | Blatt: teilen durch 2 | OK
+26c      | Skript: Vorzahl -1 | Blatt: teilen durch -1 | OK
+26d      | Skript: Vorzahl 0.500000000000000 | Blatt: teilen durch 0.5 | OK
+26e      | Skript: Vorzahl 1 | Blatt: nicht teilen | OK
+24a      | Skript: Formel | Blatt: Formel | OK
+24b      | Skript: Wurzel | Blatt: Wurzel | OK
+24c      | Skript: rückwärts | Blatt: rückwärts | OK
+24d      | Skript: Wurzel | Blatt: Wurzel | OK
+24e      | Skript: Formel | Blatt: Formel | OK
+27a      | Skript: [-4.0, -2.0] | Blatt: [-4, -2] | OK
+27b      | Skript: [-8.0, -2.0] | Blatt: [-8, -2] | OK
+27c      | Skript: [-5.0, -1.0] | Blatt: [-5, -1] | OK
+27d      | Skript: [-7.0, -3.0] | Blatt: [-7, -3] | OK
+28a      | Skript: [-2.0, 6.0] | Blatt: [-2, 6] | OK
+28b      | Skript: [-5.0, 2.0] | Blatt: [-5, 2] | OK
+28c      | Skript: [0.2679, 3.7321] | Blatt: [0.27, 3.73] | OK
+28d      | Skript: [-2.3028, 1.3028] | Blatt: [-2.3, 1.3] | OK
+28e      | Skript: [2.5858, 5.4142] | Blatt: [2.59, 5.41] | OK
+29a      | Skript: [-4.0, 2.0] | Blatt: [-4, 2] | OK
+29b      | Skript: [1.0, 5.0] | Blatt: [1, 5] | OK
+29c      | Skript: [1.0, 4.0] | Blatt: [1, 4] | OK
+29d      | Skript: [-8.0, 2.0] | Blatt: [-8, 2] | OK
+30a      | Skript: [-1.0, 3.0] | Blatt: [-1, 3] | OK
+30b      | Skript: [-4.0, 1.0] | Blatt: [-4, 1] | OK
+30c      | Skript: [2.0, 4.0] | Blatt: [2, 4] | OK
+30d      | Skript: [-2.0, 4.0] | Blatt: [-2, 4] | OK
+30e      | Skript: [-3.0, 4.0] | Blatt: [-3, 4] | OK
+31a      | Skript: [-6.0, 2.0] | Blatt: [-6, 2] | OK
+31b      | Skript: [-2.0, 3.0] | Blatt: [-2, 3] | OK
+31c      | Skript: [0.0, 4.0] | Blatt: [0, 4] | OK
+31d      | Skript: [-1.0, 7.0] | Blatt: [-1, 7] | OK
+32a      | Skript: [-3.0] | Blatt: [-3] | OK
+32b      | Skript: [5.0] | Blatt: [5] | OK
+32c      | Skript: [0.5] | Blatt: [0.5] | OK
+32d      | Skript: [-1.5] | Blatt: [-1.5] | OK
+33a      | Skript: keine | Blatt: keine | OK
+33b      | Skript: keine | Blatt: keine | OK
+33c      | Skript: keine | Blatt: keine | OK
+33d      | Skript: keine | Blatt: keine | OK
+36a      | Skript: [-5.0, 5.0] | Blatt: [-5, 5] | OK
+36b      | Skript: [-6.0, 4.0] | Blatt: [-6, 4] | OK
+36c      | Skript: [-7.0, 1.0] | Blatt: [-7, 1] | OK
+36d      | Skript: [-2.0, 8.0] | Blatt: [-2, 8] | OK
+37a      | Skript: [-7.0, -1.0] | Blatt: [-7, -1] | OK
+37b      | Skript: [1.0, 9.0] | Blatt: [1, 9] | OK
+37c      | Skript: [2.0, 6.0] | Blatt: [2, 6] | OK
+38a      | Skript: [-4.0, 1.0] | Blatt: [-4, 1] | OK
+39a      | Skript: [-1.0, 4.0] | Blatt: [-1, 4] | OK
+28b D    | Skript: 12.25 | Blatt: 12.25 | OK
+28d D    | Skript: 3.25 | Blatt: 3.25 | OK
+33d D    | Skript: -2.5 | Blatt: -2.5 | OK
+33c D    | Skript: -0.75 | Blatt: -0.75 | OK
+34a      | Skript: D = 3, 2 Lösung(en) | Blatt: D = 3, 2 | OK
+34b      | Skript: D = 0, 1 Lösung(en) | Blatt: D = 0, 1 | OK
+34c      | Skript: D = -3, 0 Lösung(en) | Blatt: D = -3, 0 | OK
+34d      | Skript: D = 1.25, 2 Lösung(en) | Blatt: D = 1.25, 2 | OK
+34e      | Skript: D = -0.75, 0 Lösung(en) | Blatt: D = -0.75, 0 | OK
+34f      | Skript: D = 2, 2 Lösung(en) | Blatt: D = 2, 2 | OK
+35a      | Skript: wA (0 / 0) | Blatt: wA | OK
+35b      | Skript: fA (10 / 0) | Blatt: fA | OK
+35c      | Skript: wA (0 / 0) | Blatt: wA | OK
+35d      | Skript: fA (6 / 0) | Blatt: fA | OK
+35e      | Skript: wA (0 / 0) | Blatt: wA | OK
+37b Vorgabe | Skript: x=-1 in x^2-10x+9 | Blatt: ≠ 0 | OK
+37c Vorgabe | Skript: 4±sqrt(28) keine Lösung | Blatt: falsch | OK
+39b x=4  | Skript: 7 | Blatt: 7 | OK
+39b x=-1 | Skript: 2 | Blatt: 2 | OK
+39 Graph | Skript: x**2 - 2*x - 1 | Blatt: x^2-2x-1 | OK
+Sperrprüfung: 45 Gleichungen gegen 34 gesperrte, Treffer 0
+Abweichungen: 0
