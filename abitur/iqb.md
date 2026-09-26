@@ -1,5 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.18 · 29.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Version 1.19 · 29.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 1.18 (Auftrag Nacht 2026-09-29, Teil 4, vor dem Nachtrag der Berliner CAS-Hefte): § 1 Bestand nachgezogen – Delta-Stapel 2017-ga-B (CAS) wegen des Landesheftbezugs 2017-be-gk-cas 3.1 (= Stochastik CAS) geöffnet (Regel „Eine Vormerkung überlebt keinen Auftrag“, Abbruchkriterium unberührt); fünf CAS-Dateien, keine Dateidublette, eine Aufgabendublette (Stochastik CAS Aufgabe 1 = WTR 1 Aufgabe 1); Stand 1762 Zeilen in 43 Stapeln, 1417 Typen nach dem Stapellauf (kein Abgleichlauf, der folgt nach den Heften). Eichung 33 von 38 ohne Unterschreitung, EICHUNG_UNTERSCHRITTEN unverändert. Keine Regel geändert; die Bindung iqb.md v1.18 im Kopf von iqb-bau.py v1.10 bleibt sachlich gültig.
 Änderungen gegenüber 1.17 (Auftrag Nacht 2026-09-29, Teil 3; beschluss-2026-09-26.md Punkt 2): § 7 Absatz „Dokumentierte Unterschreitung“ – der Delta-Stapel 2018-ea-B (CAS) ist mit dokumentierter Unterschreitung der Eichschwelle erfasst (69 von 85, 81 %; Liste EICHUNG_UNTERSCHRITTEN in iqb-bau.py v1.10, Warnung statt Fehler), die Schwelle bleibt 85 % für alle Stapel; keine Wiedereinführung der Überschreibung je Stapel aus v1.4. § 1 Bestand nachgezogen (1724 Zeilen in 42 Stapeln, 1410 Typen nach Abgleichlauf 27). Bindung im Kopf von iqb-bau.py jetzt v1.18.
 Änderungen gegenüber 1.16 (Auftrag Nacht 2026-09-29, Teil 2; beschluss-2026-09-26.md Punkt 2): § 7 Deutungsliste um Eintrag (f) erweitert – „Mindestanzahl oder Mindestumfang für eine Mindestwahrscheinlichkeit bestimmen = III" (Belege: die fünf Poolfälle aus iqb-pruefungen.md § 4, alle amtlich III; die Bestandsprüfung fand einen sechsten, 2017-ea-B CAS Stochastik 1 Aufgabe 4, ebenfalls III). Der Kandidat „vom Text verlangte Fallunterscheidung ist amtlich II" ist nicht aufgenommen, bis er Belegzahlen hat. Fünf Poolschätzungen und eine wortgleiche Landeszeile per abitur-abgleich.py Lauf 26 auf III gesetzt (Grund in bemerkung); Eichung über den Bestand 1526 → 1531 von 1638. Keine Schwelle geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.15 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 2): § 1 Bestand nachgezogen – Delta-Stapel 2017-ea-B (CAS, 55 Zeilen) wegen der Landesheftverweise aus 2017-bb-ea-cas B3.1 geöffnet (keine Dateidublette, alle sechs CAS-Dateien, Abbruchkriterium unberührt); Stand 1639 Zeilen in 41 Stapeln, 1398 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
@@ -129,14 +130,14 @@ Abbruchkriterium ausgereizt am 14.09.2026, Pool 2017 und Beispielaufgaben
 Reserve), dann Prüfungsteil B (296 Dateien, 44 Stapel je Rechnerfassung; der
 WTR-Zweig beider Niveaus ist mit neun Stapeln 2026 bis 2022 ausgereizt,
 15.09.2026, MMS/CAS sind Delta nach § 7 und werden je Niveau an einem Stapel
-gemessen; alles Übrige Reserve, davon dreizehn Stapel wegen Landesheftverweisen
+gemessen; alles Übrige Reserve, davon vierzehn Stapel wegen Landesheftverweisen
 geöffnet: 2017-ea-A, 2018-ga-B, 2018-ea-B, 2022-ga-B, 2020-ga-B, 2021-ga-B,
 2025-ea-B-mms, 2019-ga-B, 2017-ga-A, 2017-ga-B (WTR), 2017-ea-B (WTR),
-2017-ea-B (CAS), 2018-ea-B (CAS); § 7).
-Stand 29.09.2026 nach dem Stapel 2018-ea-B (CAS) und Abgleichlauf 27: 1724 Zeilen
-in 42 Stapeln (20 Teil A, 17 Teil B WTR, 5 Teil B MMS/CAS), 1410 Typen in der
-gemeinsamen Liste (780 nur im Pool, 384 in beiden Katalogen), 193 Schnittwerte im
-Poolbestand (iqb-pruefungen.md § 2 und § 4).
+2017-ea-B (CAS), 2018-ea-B (CAS), 2017-ga-B (CAS); § 7).
+Stand 29.09.2026 nach dem Stapel 2017-ga-B (CAS): 1762 Zeilen in 43 Stapeln
+(20 Teil A, 17 Teil B WTR, 6 Teil B MMS/CAS), 1417 Typen in der gemeinsamen Liste
+(787 nur im Pool, 385 in beiden Katalogen), 193 Schnittwerte im Poolbestand
+(iqb-pruefungen.md § 2 und § 4).
 
 ## 2 Ablage und Quellen
 
