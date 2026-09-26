@@ -5,7 +5,7 @@ Stufe: II
 - abi: Uneigentliche Integrale (1 Zeilen)
 - iqb: Uneigentliche Integrale (2 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

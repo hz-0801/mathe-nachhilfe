@@ -5,7 +5,7 @@ Stufe: I
 - msa: Volumen und Oberfläche (19 Zeilen)
 - msa: Körper, Netze, Schrägbilder (12 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

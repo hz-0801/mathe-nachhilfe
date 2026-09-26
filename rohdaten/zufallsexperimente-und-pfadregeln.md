@@ -8,15 +8,15 @@ Stufe: II
 - abi: Baumdiagramm und Pfadregeln (46 Zeilen)
 - abi: Zufallsexperimente und Urnenmodelle (35 Zeilen)
 - abi: Ereignisse und Mengenoperationen (4 Zeilen)
-- iqb: Baumdiagramm und Pfadregeln (72 Zeilen)
-- iqb: Zufallsexperimente und Urnenmodelle (62 Zeilen)
+- iqb: Baumdiagramm und Pfadregeln (73 Zeilen)
+- iqb: Zufallsexperimente und Urnenmodelle (67 Zeilen)
 - iqb: Ereignisse und Mengenoperationen (9 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
-**Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben** · 22 Zeilen · abi 6 iqb 16 · Jahre 2017–2026
+**Term und Ereignis: Ereignis zu einem gegebenen Wahrscheinlichkeitsterm beschreiben** · 23 Zeilen · abi 6 iqb 17 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Zu einem gegebenen Term (Produkt, Summe, Potenz oder Quotient von Binomialkoeffizienten) das Ereignis und gegebenenfalls das Zufallsexperiment im Sachzusammenhang beschreiben.
 
 **Baumdiagramm zu einer zweistufigen Situation erstellen** · 15 Zeilen · abi 4 iqb 11 · Jahre 2017–2025
@@ -37,14 +37,14 @@ abitur/abitur-typen.csv (neu): Einen vorgegebenen Term mit Platzhaltern so ergä
 **Fehlenden Anteil im Baumdiagramm aus einer Randwahrscheinlichkeit berechnen** · 7 Zeilen · abi 4 iqb 3 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Einen unbekannten Ast-Anteil bestimmen, indem die Summe der Pfade zu einem Ergebnis der zweiten Stufe mit der gegebenen Randwahrscheinlichkeit gleichgesetzt wird.
 
+**Totale Wahrscheinlichkeit über die Pfadregeln nachweisen** · 7 Zeilen · abi 3 iqb 4 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Eine vorgegebene Gesamtwahrscheinlichkeit als Summe der Pfadwahrscheinlichkeiten nachweisen.
+
 **Laplace-Experiment: Vergleich zweier Wahrscheinlichkeiten über die Anzahl der Ergebnisse begründen** · 6 Zeilen · abi 2 iqb 4 · Jahre 2019–2025
 abitur/abitur-typen.csv (neu): Gleichheit oder Verhältnis der Wahrscheinlichkeiten zweier Ereignisse über die Anzahl ihrer gleich wahrscheinlichen Ergebnisse begründen.
 
 **Pfadwahrscheinlichkeit für lauter gleiche Ergebnisse als Potenz berechnen** · 6 Zeilen · abi 2 iqb 4 · Jahre 2021–2025
 abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass alle Versuche dasselbe Ergebnis liefern, als Potenz der Einzelwahrscheinlichkeit berechnen oder begründen, gegebenenfalls mit einer Schranke vergleichen.
-
-**Totale Wahrscheinlichkeit über die Pfadregeln nachweisen** · 6 Zeilen · abi 3 iqb 3 · Jahre 2017–2025
-abitur/abitur-typen.csv (neu): Eine vorgegebene Gesamtwahrscheinlichkeit als Summe der Pfadwahrscheinlichkeiten nachweisen.
 
 **Pfadwahrscheinlichkeit zweier Stufen aus dem Sachtext berechnen** · 5 Zeilen · abi 2 iqb 3 · Jahre 2017–2024
 abitur/abitur-typen.csv (neu): Aus bedingten Angaben im Text die Wahrscheinlichkeit eines zweistufigen Pfads als Produkt berechnen.
@@ -60,6 +60,12 @@ abitur/abitur-typen.csv (neu): Ein zweistufiges Baumdiagramm erstellen, dessen E
 
 **Baumdiagramm zweistufig darstellen** · 4 Zeilen · fhr 4 · Jahre 2019–2026
 fhr/fhr-typen.csv (geprüft): Ein zweistufiges Zufallsexperiment mit allen Ästen und Wahrscheinlichkeiten zeichnen.
+
+**Laplace-Experiment: Laplace-Wahrscheinlichkeit als Anteil der günstigen Fälle angeben** · 4 Zeilen · abi 1 iqb 3 · Jahre 2018–2025
+abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit eines Ergebnisses als Anteil der günstigen an allen gleich wahrscheinlichen Fällen angeben – Objekte beim ersten Ziehen oder Sektorwinkel am Vollwinkel beim Glücksrad.
+
+**Laplace-Experiment: Sektorwinkel eines Glücksrads aus einer Wahrscheinlichkeitsbedingung berechnen** · 4 Zeilen · iqb 4 · Jahre 2018–2026
+abitur/abitur-typen.csv (neu): Die Sektorwahrscheinlichkeiten eines Glücksrads (zwei oder drei Farben, als Vielfache einer Unbekannten) aus einer Bedingung an ein mehrstufiges Ergebnis über eine Gleichung in der Unbekannten bestimmen, unpassende Lösungen über die Sachbedingung ausschließen und in den Mittelpunktswinkel umrechnen.
 
 **Wahrscheinlichkeit einer Summe über alle Ergebnisfolgen mit Reihenfolgen berechnen** · 4 Zeilen · abi 1 iqb 3 · Jahre 2017–2021
 abitur/abitur-typen.csv (neu): Für eine feste Anzahl von Ziehungen mit tabellierter Verteilung alle Wertkombinationen mit vorgegebener Summe auflisten, ihre Reihenfolgen zählen und die Pfadwahrscheinlichkeiten addieren.
@@ -85,11 +91,8 @@ abitur/abitur-typen.csv (neu): In einem teilweise beschrifteten Baumdiagramm feh
 **Gewinnwahrscheinlichkeiten in einem Wechselspiel vergleichen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2020–2026
 abitur/abitur-typen.csv (neu): Für ein Spiel, in dem zwei Personen abwechselnd ziehen und der erste Treffer gewinnt, die Gewinnwahrscheinlichkeiten über die Pfade aufstellen und ihr Verhältnis beurteilen.
 
-**Laplace-Experiment: Laplace-Wahrscheinlichkeit als Anteil der günstigen Fälle angeben** · 3 Zeilen · abi 1 iqb 2 · Jahre 2019–2025
-abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit eines Ergebnisses als Anteil der günstigen an allen gleich wahrscheinlichen Fällen angeben – Objekte beim ersten Ziehen oder Sektorwinkel am Vollwinkel beim Glücksrad.
-
-**Laplace-Experiment: Sektorwinkel eines Glücksrads aus einer Wahrscheinlichkeitsbedingung berechnen** · 3 Zeilen · iqb 3 · Jahre 2018–2026
-abitur/abitur-typen.csv (neu): Die Sektorwahrscheinlichkeit eines zweifarbigen Glücksrads aus einer Bedingung an ein zweistufiges Ergebnis über eine quadratische Gleichung bestimmen und in den Mittelpunktswinkel umrechnen.
+**Laplace-Experiment: Wahrscheinlichkeit für drei verschiedene Ergebnisse über Pfadprodukt und Reihenfolgen nachweisen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2018–2020
+abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, bei drei Durchgängen drei verschiedene Ergebnisse zu erhalten, als Produkt der Einzelwahrscheinlichkeiten mal Anzahl der Reihenfolgen (3!) nachweisen.
 
 **Laplace-Wahrscheinlichkeit berechnen** · 3 Zeilen · fhr 3 · Jahre 2019–2022
 fhr/fhr-typen.csv (geprüft): Die Wahrscheinlichkeit eines Ereignisses im ein- oder mehrstufigen Laplace-Versuch als Anteil der günstigen an allen gleich wahrscheinlichen Ergebnissen berechnen.
@@ -132,9 +135,6 @@ abitur/abitur-typen.csv (neu): Ein Baumdiagramm zeichnen, dessen Pfade unterschi
 
 **Laplace-Experiment: Wahrscheinlichkeit eines Vergleichsereignisses beim Wurf zweier Würfel über die Ergebnistabelle nachweisen** · 2 Zeilen · abi 2 · Jahre 2019–2021
 abitur/abitur-typen.csv (neu): Für zwei nacheinander geworfene Würfel alle Ergebnisse auflisten, bei denen die erste Augenzahl kleiner (größer) als die zweite ist, und die Wahrscheinlichkeit als Anteil an den 36 gleich wahrscheinlichen Ergebnissen nachweisen.
-
-**Laplace-Experiment: Wahrscheinlichkeit für drei verschiedene Ergebnisse über Pfadprodukt und Reihenfolgen nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2018–2020
-abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, bei drei Durchgängen drei verschiedene Ergebnisse zu erhalten, als Produkt der Einzelwahrscheinlichkeiten mal Anzahl der Reihenfolgen (3!) nachweisen.
 
 **Term für die Wahrscheinlichkeit eines Produktereignisses bei n Würfen ermitteln** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Einen Term in n für die Wahrscheinlichkeit aufstellen, dass das Produkt von n Augenzahlen einen vorgegebenen Wert hat, über die möglichen Belegungen und die Pfadregel.
@@ -195,6 +195,9 @@ abitur/abitur-typen.csv (neu): Für zwei Varianten die Wahrscheinlichkeit eines 
 
 **Laplace-Bedingung begründen** · 1 Zeile · fhr 1 · Jahre 2019
 fhr/fhr-typen.csv (geprüft): Anhand der Versuchsbedingungen begründen, dass alle Ergebnisse gleich wahrscheinlich sind und damit ein Laplace-Experiment vorliegt.
+
+**Laplace-Experiment: Aussage über Wahrscheinlichkeiten aus absoluten Anzahlen ohne Grundgesamtheit beurteilen** · 1 Zeile · iqb 1 · Jahre 2018
+abitur/abitur-typen.csv (neu): Eine Aussage über das Verhältnis zweier Wahrscheinlichkeiten beurteilen, die aus absoluten Anzahlen (etwa eines Säulendiagramms) gezogen wird, und begründen, dass sie ohne die Größe der jeweiligen Grundgesamtheit nicht folgt.
 
 **Laplace-Experiment: Ergebnisse eines zusammengesetzten Experiments zu einem Zahlenwert aufzählen** · 1 Zeile · iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Alle Ergebnisse eines aus mehreren Zufallsgeräten zusammengesetzten Experiments angeben, die nach einer Rechenregel einen vorgegebenen Wert liefern.
@@ -481,12 +484,15 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2020MgrundlegendAStochastik11-b | 3 | nein | Rechnung · Weisen Sie nach | Behälter wieder mit drei blauen und zwei roten Kugeln; zwei Spielerinnen ziehen abwechselnd ohne Zurücklegen; wer zuerst rot zieht, gewinnt → Nachweis, dass die zuerst ziehende Spielerin im Vorteil ist | Gewinnwahrscheinlichkeit der ersten Spielerin über die Pfade 1. Zug rot und 3. Zug rot
 2026MerhoehtAStochastik12-b | 4 | nein | Begründung¦Rechnung · Beurteilen Sie | Glücksrad mit Trefferwahrscheinlichkeit 1/3; A und B drehen abwechselnd, höchstens je zweimal, A beginnt; wer zuerst Grün erzielt, gewinnt; Aussage: P(A gewinnt) ist das 1,5-Fache von P(B gewinnt) → Beurteilung der Aussage | P(A) = 1/3 + (2/3)^2 · 1/3 (erster oder dritter Dreh), P(B) = 2/3 · 1/3 + (2/3)^3 · 1/3 (zweiter oder vierter Dreh) = 2/3 · P(A); also P(A) = 1,5 · P(B)
 2017MerhoehtBStochastikWTR-1e | 6 | ja | Rechnung¦Begründung · Prüfen Sie | Ein Großhändler bietet Samenkörner für Salatgurken in zwei Qualitätsstufen an: ein Samenkorn der Stufe A keimt mit 95 %, eines der Stufe B mit 70 %; ein Gemüseanbaubetrieb kauft Samenkörner beider Stufen, davon 65 % der Stufe A, und sät alle; Preis je Samenkorn Stufe A 17 ct, Stufe B 12 ct; aus einem gekeimten Samenkorn wächst eine Gurkenpflanze, die mit 15 % (Stufe A) bzw. 25 % (Stufe B) wegen Wetter oder Schädlingen keine Früchte trägt; die mittlere Zahl geernteter Gurken je fruchttragender Pflanze ist unabhängig von der Stufe; alle Gurken werden zum gleichen Preis verkauft → Prüfung, ob es für den Anbaubetrieb finanziell sinnvoll wäre, sich auf Samenkörner der Qualitätsstufe B zu beschränken | Wahrscheinlichkeit einer fruchttragenden Pflanze je Samenkorn: A 0,95 · 0,85, B 0,7 · 0,75; Kosten je fruchttragender Pflanze als Preis durch diese Wahrscheinlichkeit vergleichen
+2018MerhoehtBStochastikCAS2-3b | 2 | ja | Begründung · Beurteilen Sie | In der ersten Hälfte des Jahres 2015 hat die Europäische Zentralbank von etwa 17 Milliarden im Umlauf befindlichen Geldscheinen insgesamt 454000 gefälschte Scheine aussortiert; Verteilung nach Abbildung 1: 5 €: 6800, 10 €: 10800, 20 €: 248500, 50 €: 142000, 100 €: 38600, 200 €: 5000, 500 €: 2300; Aussage: aus Abbildung 1 lässt sich schließen, dass die Wahrscheinlichkeit, dass ein unter allen umlaufenden Scheinen zufällig ausgewählter 20-€-Schein gefälscht ist, fast doppelt so hoch war wie bei einem zufällig ausgewählten 50-€-Schein → Beurteilung der Aussage | Die Wahrscheinlichkeit, dass ein 20-€-Schein gefälscht ist, ist der Anteil der Fälschungen an allen umlaufenden 20-€-Scheinen; die Abbildung nennt nur die Anzahl der Fälschungen, nicht die Zahl der umlaufenden Scheine je Wert
 2022MgrundlegendAStochastik11-a | 2 | nein | Kurzantwort · Geben Sie an | Münze mit + und −, blaues und grünes Tetraeder mit 1 bis 4; bei + Summe, bei − blau minus grün; Beispiel (−; 2; 3) liefert −1 → alle Ergebnisse mit Zahlenwert 3 | Summe 3 aus zwei Augenzahlen, Differenz 3 aus zwei Augenzahlen
 2019MgrundlegendBStochastikWTR2-1b | 2 | ja | Begründung · Zeigen Sie | Urne: 35 % der Kugeln mit „+1“, 25 % mit „+2“, die übrigen 40 % mit „−3“ beschriftet → Nachweis, dass die Gesamtzahl der Kugeln kleiner als 100 sein kann | Anteile mit dem Nenner 20 schreiben
 2021MerhoehtAStochastik21-b | 4 | nein | Rechnung · Ermitteln Sie | jede dritte Kugel gelb; zwei gelbe durch zwei blaue ersetzt; danach P(beide gelb) = 1/16 bei zweimaligem Ziehen mit Zurücklegen → Anzahl der gelben Kugeln nach dem Austausch | aus 1/16 den Anteil 1/4 folgern, Gesamtzahl 4x, Anteil vor dem Austausch (x + 2)/(4x) = 1/3
+2018MerhoehtBStochastikCAS2-2a | 3 | ja | Rechnung · Berechnen Sie | In einem Behälter befinden sich 380 Geldscheine: 44 zu 5 €, 60 zu 10 €, 72 zu 20 €, 204 zu 50 €; sechs davon sind nicht mehr umlauffähig, darunter zwei mit einem Wert von jeweils 50 €; ein Geldschein wird zufällig entnommen → Wahrscheinlichkeit, dass der Schein einen Wert unter 50 € hat und umlauffähig ist | Günstig sind die umlauffähigen Scheine unter 50 €: 176 Scheine unter 50 €, davon 4 nicht umlauffähig; Anteil an 380
 2019MgrundlegendAStochastik11-a | 1 | nein | Kurzantwort · Geben Sie an | Chor aus 12 Frauen und 9 Männern, eine Frau leitet; die Leiterin nimmt teil, das zweite Mitglied wird zufällig aus den übrigen gewählt → Wahrscheinlichkeit, dass das zweite Mitglied eine Frau ist | Anteil der Frauen unter den 20 übrigen
 2025MgrundlegendAStochastik22-a | 1 | nein | Kurzantwort · Geben Sie an | Behälter mit einer schwarzen und w weißen Kugeln, w >= 2; zweimal Ziehen ohne Zurücklegen; Annahme w = 3 → Wahrscheinlichkeit, dass die schwarze Kugel bereits im ersten Zug entnommen wird | eine von vier Kugeln ist schwarz
 2022MgrundlegendAStochastik2 | 5 | nein | Rechnung · Ermitteln Sie | Glücksrad mit blauem, rotem und gelbem Sektor, P(blau) = 1/5; zwei Drehungen; A: einmal rot und einmal gelb; der rote Sektor ist so gewählt, dass P(A) maximal ist → Mittelpunktswinkel des roten Sektors | P(A) als Term in p aufstellen, Maximum über die Symmetrie der Parabel, p in Grad umrechnen
+2018MerhoehtBStochastikCAS1-2c | 5 | ja | Rechnung · Bestimmen Sie | Glücksrad mit den Sektoren Blau 180°, Rot 120°, Grün 60°; Einsatz 5 Euro für drei Drehungen; dreimal die gleiche Farbe: 10 Euro Auszahlung; drei verschiedene Farben: anderer Betrag; sonst nichts; P(dreimal gleiche Farbe) = 1/6; die Sektorgrößen werden geändert, dabei wird der blaue Sektor vergrößert; Baumdiagramm für die drei Drehungen des geänderten Rads: P(R) = 2p, P(G) = p, Pfad Rot–Rot–Blau 0,036 → Größe des Mittelpunktswinkels des blauen Sektors | P(B) = 1 − 3p; Pfadregel 2p · 2p · (1 − 3p) = 0,036 nach p lösen; die Lösung mit P(B) > 0,5 (Blau vergrößert) wählen; Winkel P(B) · 360°
 2018MerhoehtBStochastikWTR1-2c | 5 | ja | Rechnung · Bestimmen Sie | Glücksrad mit den Sektoren Blau 180°, Rot 120°, Grün 60°; Einsatz 5 Euro für drei Drehungen; dreimal die gleiche Farbe: 10 Euro Auszahlung; drei verschiedene Farben: anderer Betrag; sonst nichts; P(dreimal gleiche Farbe) = 1/6; geändertes Rad mit verkleinertem grünen Sektor; Baumdiagramm: P(R) = 2p, P(G) = p, Pfad Rot–Blau 0,14 → Mittelpunktswinkel des blauen Sektors | P(B) = 1 − 3p, Pfadgleichung nach p lösen, kleinere Lösung wegen des verkleinerten grünen Sektors, Winkel
 2018MgrundlegendAStochastik2-a | 2 | nein | Rechnung · Ermitteln Sie | Glücksrad mit blauem, gelbem, rotem Sektor; P(Rot) = 1/3; P(zweimal Gelb bei zwei Drehungen) = 1/4 → Mittelpunktswinkel des gelben Sektors | p² = 1/4 lösen, Winkel als Anteil von 360°
 2026MgrundlegendAStochastik21 | 5 | nein | Rechnung · Ermitteln Sie | Glücksrad mit einem roten und einem weißen Sektor; die Wahrscheinlichkeit, beim zweimaligen Drehen zweimal die gleiche Farbe zu erzielen, beträgt 5/9 → Größe des Mittelpunktswinkels des kleineren Sektors | p für den kleineren Sektor ansetzen, p^2 + (1 − p)^2 = 5/9 aufstellen, die quadratische Gleichung 2p^2 − 2p + 4/9 = 0 lösen und die kleinere Lösung 1/3 mit 360° multiplizieren
@@ -498,6 +504,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2022MgrundlegendAStochastik11-b | 3 | nein | Rechnung · Bestimmen Sie | Zufallsexperiment aus a mit 2 · 4 · 4 gleich wahrscheinlichen Ergebnissen → Wahrscheinlichkeit für einen negativen Zahlenwert | günstige Ergebnisse (− und blau kleiner als grün) zählen, durch 32 teilen
 2025MgrundlegendBStochastikWTR2-1a | 3 | ja | Begründung · Begründen Sie | zwei Würfel mit 1 bis 6; Ereigniskarte bei Augensumme 8 oder 9 → Begründung, dass P(Ereigniskarte) = 1/4 | günstige Ergebnisse zählen, durch 36
 2023MerhoehtAStochastik13-b | 2 | nein | Begründung · Geben Sie an¦Begründen Sie | B1 fünf rote Kugeln, B2 zwei rote und sechs blaue; eine Kugel wird aus B2 nach B1 gelegt → Wahrscheinlichkeit, dass danach die Anzahl der roten Kugeln in B1 mit der Anzahl der blauen in B2 übereinstimmt, mit Begründung | beide Farben der umgelegten Kugel betrachten
+2018MerhoehtBStochastikCAS1-2a | 2 | ja | Rechnung · Zeigen Sie | Glücksrad mit den Sektoren Blau 180°, Rot 120°, Grün 60°; Einsatz 5 Euro für drei Drehungen; dreimal die gleiche Farbe: 10 Euro Auszahlung; drei verschiedene Farben: anderer Betrag; sonst nichts; P(dreimal gleiche Farbe) = 1/6 → Nachweis, dass P(drei verschiedene Farben) = 1/6 | Pfadprodukt mal 3! Reihenfolgen
 2018MerhoehtBStochastikWTR1-2a | 2 | ja | Rechnung · Zeigen Sie | Glücksrad mit den Sektoren Blau 180°, Rot 120°, Grün 60°; Einsatz 5 Euro für drei Drehungen; dreimal die gleiche Farbe: 10 Euro Auszahlung; drei verschiedene Farben: anderer Betrag; sonst nichts; P(dreimal gleiche Farbe) = 1/6 → Nachweis, dass P(drei verschiedene Farben) = 1/6 | Pfadprodukt mal 3! Reihenfolgen
 2018MgrundlegendBStochastikWTR3-2a | 2 | ja | Begründung · Begründen Sie | Zwölfseitiger Spielwürfel, alle Seiten gleich wahrscheinlich, nach dem abgebildeten Netz neun Seiten mit 1 und drei Seiten mit 2 beschriftet; je Spiel wird viermal geworfen → Begründung, dass die Summe 4 wahrscheinlicher ist als die Summe 8 | Summe 4 heißt viermal 1, Summe 8 viermal 2; die Mehrzahl der Seiten trägt die 1
 2019MgrundlegendBStochastikWTR2-3a | 2 | ja | Begründung · Begründen Sie | Urne: 35 % der Kugeln mit „+1“, 25 % mit „+2“, die übrigen 40 % mit „−3“ beschriftet; die Urne enthält n Kugeln; zwei Kugeln (+1 und +2) werden hinzugelegt, dann eine Kugel gezogen; Term (0,35n + 1)/(n + 2) → Begründung, dass der Term die Wahrscheinlichkeit für eine Kugel mit +1 angibt | Zähler und Nenner als Anzahlen deuten
@@ -518,6 +525,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2019MgrundlegendBStochastikWTR3-1b | 2 | ja | Kurzantwort · Beschreiben Sie | Befragung von 2 360 Männern und 2 200 Frauen (Glücksspielteilnahme): 2,5 % der Männer und 0,5 % der Frauen mit Anzeichen spielsüchtigen Verhaltens; M: Person ist ein Mann, S: Anzeichen spielsüchtigen Verhaltens; Terme P_M(S) und P(M ∩ S) → Bedeutung beider Terme im Sachzusammenhang | Bedingung und Schnitt in Worte fassen
 2017MerhoehtAStochastik11-a | 2 | nein | Kurzantwort · Interpretieren Sie | Glücksrad mit blauem, gelbem und rotem Sektor; P(blau) = p beim einmaligen Drehen; Term (1 − p)^7 → Bedeutung des Terms im Sachzusammenhang | 1 − p als Wahrscheinlichkeit für nicht blau, Potenz 7 als sieben Drehungen
 2017MerhoehtBStochastikWTR-1d | 2 | ja | Kurzantwort · Beschreiben Sie | Ein Großhändler bietet Samenkörner für Salatgurken in zwei Qualitätsstufen an: ein Samenkorn der Stufe A keimt mit 95 %, eines der Stufe B mit 70 %; ein Gemüseanbaubetrieb kauft Samenkörner beider Stufen, davon 65 % der Stufe A, und sät alle; Term 1 − (Σ von i = 0 bis 120 (200 über i) · 0,7^i · 0,3^(200 − i) + Σ von i = 160 bis 200 (200 über i) · 0,7^i · 0,3^(200 − i)) → Bedeutung des Terms im Sachzusammenhang | Die erste Summe ist P(X <= 120), die zweite P(X >= 160) für die Zahl X der keimenden unter 200 Samenkörnern der Stufe B; das Gegenereignis ist 121 <= X <= 159
+2018MerhoehtBStochastikCAS2-2b | 2 | ja | Kurzantwort · Beschreiben Sie¦Geben Sie an | In einem Behälter befinden sich 380 Geldscheine: 44 zu 5 €, 60 zu 10 €, 72 zu 20 €, 204 zu 50 €; sechs davon sind nicht mehr umlauffähig, darunter zwei mit einem Wert von jeweils 50 €; Term (6 über 2) · (374 über 5)/(380 über 7) → im Sachzusammenhang ein Zufallsexperiment, bei dem die Wahrscheinlichkeit eines Ereignisses mit dem Term berechnet werden kann; dieses Ereignis | 380 Scheine insgesamt, 7 gezogen; 6 nicht umlauffähige, davon 2 gezogen; 374 umlauffähige, davon 5 gezogen
 2018MgrundlegendAStochastik2-b | 3 | nein | Kurzantwort · Beschreiben Sie¦Geben Sie an | Glücksrad mit P(Rot) = 1/3, Spiel mit zwei Drehungen; Term Summe i = 0 bis 3 von (10 über i) · (1/9)^i · (8/9)^(10 − i) → ein Zufallsexperiment im Sachzusammenhang und das Ereignis, dessen Wahrscheinlichkeit der Term angibt | 1/9 als zweimal Rot in einem Spiel deuten, Binomialsumme als höchstens drei von zehn Spielen
 2019MgrundlegendAStochastik2-a | 1 | nein | Kurzantwort · Geben Sie an | Spiel mit P(Zitronenbonbon) = 30 %, P(Orangenbonbon) = 50 %, P(kein Gewinn) = 20 %; zehnmalige Teilnahme; Term (10 über 7) · 0,8⁷ · 0,2³ → ein Ereignis, dessen Wahrscheinlichkeit der Term angibt | 0,8 als Gewinnwahrscheinlichkeit deuten, Bernoulli-Term lesen
 2020MerhoehtAStochastik21-a | 1 | nein | Kurzantwort · Geben Sie an | Urne mit 100 Kugeln, 20 weiß; zwei Kugeln nacheinander ohne Zurücklegen; Term 20/100 · 19/99 → ein Ereignis mit dieser Wahrscheinlichkeit | Faktoren als zwei Züge deuten
@@ -542,6 +550,7 @@ abitur/abitur-typen.csv (neu): Die Wahrscheinlichkeit, dass ein Merkmal spätest
 2024MgrundlegendBStochastikWTR1-1a | 2 | ja | Kurzantwort · Interpretieren Sie | T Treuekunde (60 %), M Morgenkunde (20 %); P(nicht T ∩ M) = 0,05 → Bedeutung der Gleichung | Ereignis in Worte übersetzen
 2023MgrundlegendBStochastikWTR2-1e | 2 | ja | Begründung · Begründen Sie | Zwei Personen würfeln abwechselnd, bis eine Person eine andere Zahl erzielt als die andere beim unmittelbar vorhergehenden Wurf; die größere Zahl gewinnt; Term 1 − (1/3)³ − (2/3)³ → Begründung, dass der Term die Wahrscheinlichkeit für eine Entscheidung spätestens im dritten Wurf angibt | Nicht entschieden nach drei Würfen heißt dreimal dieselbe Zahl; Gegenereignis
 2019MgrundlegendBStochastikWTR3-2a | 2 | ja | Kurzantwort · Beschreiben Sie¦Geben Sie an | Urne mit fünf Kugeln: drei mit der Zahl 4, zwei mit der natürlichen Zahl x ≠ 4; Term 1 − 0,6³ → ein Zufallsexperiment und ein Ereignis mit dieser Wahrscheinlichkeit | 0,6³ als dreimal 4 mit Zurücklegen, 1 − … als Gegenereignis
+2017MgrundlegendBStochastikCAS-2a | 2 | ja | Rechnung · Weisen Sie nach | Ein Hersteller bringt ein neues Smartphone auf den Markt; die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 % → Nachweis, dass der Anteil der fehlerhaften Geräte unter allen hergestellten Geräten 3 % beträgt | Summe der Produkte aus Werksanteil und Fehleranteil (totale Wahrscheinlichkeit)
 2017MgrundlegendBStochastikWTR1-2a | 2 | ja | Rechnung · Weisen Sie nach | Ein Hersteller bringt ein neues Smartphone auf den Markt; die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 % → Nachweis, dass der Anteil der fehlerhaften Geräte unter allen hergestellten Geräten 3 % beträgt | Summe der Produkte aus Werksanteil und Fehleranteil (totale Wahrscheinlichkeit)
 2018MgrundlegendBStochastikWTR3-1b | 2 | ja | Rechnung · Weisen Sie nach | Hundefutter: 2/3 der Kunden kaufen Trockenfutter (T), davon 40 % die Light-Variante (L); von den Nassfutterkäufern wählen 25 % Light; eine Person wird zufällig ausgewählt → Nachweis, dass P(L) = 35 % | Beide Pfade zu L addieren
 2025MgrundlegendBStochastikWTR1-1b | 2 | ja | Rechnung · Zeigen Sie | Baumdiagramm aus a → Nachweis, dass etwa 9,18 % aller Haushalte überbelegt sind | beide Pfade zu B addieren

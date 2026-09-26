@@ -3,20 +3,20 @@
 Stufe: II
 
 - abi: Geraden (18 Zeilen)
-- iqb: Geraden (27 Zeilen)
+- iqb: Geraden (29 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
 **Punktprobe an einer Geraden durchführen** · 11 Zeilen · abi 4 iqb 7 · Jahre 2018–2026
 abitur/abitur-typen.csv (neu): Prüfen, ob ein Punkt auf einer Geraden in Parameterform liegt, indem der Parameter aus den Koordinaten bestimmt und auf Widerspruch geprüft wird; bei einer Strecke zusätzlich, ob der Parameter zwischen null und eins liegt.
 
+**Punkt auf einer Geraden mit vorgegebenem Abstand zu einem festen Punkt über eine quadratische Gleichung bestimmen** · 4 Zeilen · iqb 4 · Jahre 2017
+abitur/abitur-typen.csv (neu): Einen Punkt einer Geraden oder Strecke mit Parameter ansetzen, seinen Abstand zu einem festen Punkt außerhalb gleich einem vorgegebenen Wert setzen und die quadratische Gleichung lösen; die im Sachzusammenhang passende Lösung auswählen.
+
 **Geradengleichung durch zwei Punkte aufstellen und windschiefe Lage begründen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2018–2021
 abitur/abitur-typen.csv (neu): Die Parametergleichung einer Geraden durch zwei Punkte angeben und begründen, dass sie zu einer anderen Geraden windschief ist (kein gemeinsamer Punkt, nicht parallel), etwa über die Lage in einer Koordinatenebene.
-
-**Punkt auf einer Geraden mit vorgegebenem Abstand zu einem festen Punkt über eine quadratische Gleichung bestimmen** · 3 Zeilen · iqb 3 · Jahre 2017
-abitur/abitur-typen.csv (neu): Einen Punkt einer Geraden oder Strecke mit Parameter ansetzen, seinen Abstand zu einem festen Punkt außerhalb gleich einem vorgegebenen Wert setzen und die quadratische Gleichung lösen; die im Sachzusammenhang passende Lösung auswählen.
 
 **Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017–2019
 abitur/abitur-typen.csv (neu): Einen Punkt der Geraden bestimmen, der vom Aufpunkt einen vorgegebenen Abstand hat (Betrag des Richtungsvektors, passendes Vielfaches ansetzen).
@@ -35,6 +35,9 @@ abitur/abitur-typen.csv (neu): Ohne Zahlenrechnung beschreiben, wie ein gesuchte
 
 **Nichtidentität zweier Geraden über die Richtungsvektoren begründen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Begründen, dass zwei Geraden mit gemeinsamem Punkt nicht identisch sind, weil die Richtungsvektoren nicht kollinear sind.
+
+**Punkt auf einer Geraden mit vorgegebener Koordinate angeben** · 2 Zeilen · iqb 2 · Jahre 2017–2019
+abitur/abitur-typen.csv (neu): Einen Punkt der Geraden angeben, der eine Koordinatenbedingung erfüllt, über den passenden Parameterwert.
 
 **Echt parallele und senkrecht schneidende Gerade zu einer gegebenen Geraden angeben** · 1 Zeile · abi 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Zu einer Geraden in Parameterform eine echt parallele Gerade (gleicher Richtungsvektor, Stützpunkt außerhalb) und eine sie senkrecht schneidende Gerade (Richtungsvektor mit Skalarprodukt null, gemeinsamer Punkt) angeben.
@@ -74,9 +77,6 @@ abitur/abitur-typen.csv (neu): Die Richtungsvektoren zweier Geraden auf Kollinea
 
 **Parametergleichung einer Strecke im Sachzusammenhang deuten** · 1 Zeile · iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Eine Geradengleichung mit eingeschränktem Parameterbereich als Strecke zwischen zwei Sachpunkten deuten.
-
-**Punkt auf einer Geraden mit vorgegebener Koordinate angeben** · 1 Zeile · iqb 1 · Jahre 2019
-abitur/abitur-typen.csv (neu): Einen Punkt der Geraden angeben, der eine Koordinatenbedingung erfüllt, über den passenden Parameterwert.
 
 **Schnitt einer senkrecht schneidenden Geraden mit einer parallelen Geraden beurteilen** · 1 Zeile · abi 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Entscheiden und begründen, ob jede Gerade, die eine Gerade g senkrecht schneidet, auch eine zu g parallele Gerade schneidet – nein, weil sie windschief zur Parallelen liegen kann.
@@ -125,7 +125,9 @@ abitur/abitur-typen.csv (neu): Entscheiden und begründen, ob jede Gerade, die e
 2017MerhoehtBAGLAA2CAS1-1g | 4 | ja | Rechnung · Bestimmen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; zur Stabilisierung ist ein 2,10 m langer Balken mit einem Ende in 3,50 m Höhe am Pfosten AE befestigt, mit dem anderen Ende am darauf liegenden horizontalen Balken EF; der obere Befestigungspunkt teilt den Balken EF in zwei Abschnitte → Verhältnis der Längen der beiden Abschnitte | I(2; −3; 3,5) auf AE; J = OE + t · EF = (2 + t; −3 + 5t; 4) mit 0 <= t <= 1; ¦IJ¦ = 2,1 liefert t = 0,4; der Parameter teilt EF im Verhältnis 0,4 : 0,6
 2017MerhoehtBAGLAA2WTR1-1f | 5 | ja | Rechnung · Bestimmen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; zur Stabilisierung ist ein 2,10 m langer Balken mit einem Ende in 3,50 m Höhe am Pfosten AE befestigt, mit dem anderen Ende am darauf liegenden horizontalen Balken EF; der obere Befestigungspunkt teilt den Balken EF in zwei Abschnitte → Verhältnis der Längen der beiden Abschnitte | I(2; −3; 3,5) auf AE; J = OE + t · EF = (2 + t; −3 + 5t; 4) mit 0 <= t <= 1; ¦IJ¦ = 2,1 liefert t = 0,4; der Parameter teilt EF im Verhältnis 0,4 : 0,6
 2017MerhoehtBAGLAA2WTR3-1g | 7 | ja | Rechnung · Ermitteln Sie | Eine Radarstation überwacht ein Flugzeug; die x1x2-Ebene ist die Horizontale, 1 LE = 1 km; die Radarstation ist R(18; 0; −1); um 14.00 Uhr ist das Flugzeug in A(0; 0; 0), danach bewegt es sich entlang einer Geraden durch B(8; 4; 1), die Position um 14.02 Uhr; ab 14.14 Uhr fliegt es in gleicher Himmelsrichtung horizontal weiter und bleibt im Modell in der Ebene, die A und B enthält und zur x1x2-Ebene senkrecht steht; von 14.00 bis 14.14 Uhr fliegt es mit konstanter Geschwindigkeit; ist das Flugzeug mehr als 70 km von der Radarstation entfernt, kann es von dieser nicht mehr erfasst werden → Koordinaten des Punkts, an dem das Flugzeug nach 14.14 Uhr den Erfassungsbereich der Radarstation verlässt | Position um 14.14 Uhr 7 · AB = (56; 28; 7); Weiterflug mit Richtung (8; 4; 0); ¦OP − OR¦ = 70 ergibt eine quadratische Gleichung in u, positive Lösung einsetzen
+2017MgrundlegendBAGLAA2CAS1-1f | 4 | ja | Rechnung · Bestimmen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; zur Stabilisierung werden zusätzliche Balken der Länge 2,10 m verwendet; ein solcher Balken ist mit einem Ende in 3,50 m Höhe über dem Untergrund an dem Pfosten AE befestigt, mit dem anderen Ende an einem der beiden darauf liegenden horizontalen Balken; der obere Befestigungspunkt teilt diesen Balken in zwei Abschnitte → Verhältnis der Längen der beiden Abschnitte | I(2; −3; 3,5) auf AE; J auf der Geraden durch E und F: (2 + t; −3 + 5t; 4); ¦IJ¦ = 2,1 für 0 <= t <= 1 liefert t = 0,4; Verhältnis 0,4 : 0,6 (auf EH ebenso)
 2019MgrundlegendAAGLAA22-a | 2 | nein | Rechnung · Bestimmen Sie | A(0 ¦ 4 ¦ 2), B(0 ¦ 0 ¦ 0), C(0 ¦ 4 ¦ 0); Gerade g durch A mit Richtungsvektor (−2; 1; 2) → Koordinaten eines Punkts auf g mit Abstand 6 von A | Richtungsvektor auf Länge 6 strecken und an A ansetzen
+2017MgrundlegendBAGLAA2CAS2-1f | 3 | ja | Rechnung · Bestimmen Sie | Gerade Pyramide ABCDS mit A(0; 0; 0), B(5; 0; 0), C(5; 5; 0), D(0; 5; 0) und der Spitze S(2,5; 2,5; 3,9) in einem kartesischen Koordinatensystem; die Pyramide stellt modellhaft ein geschlossenes Zelt auf horizontalem Untergrund dar, 1 LE = 1 m; Sonnenlicht wird zu einem bestimmten Zeitpunkt durch parallele Geraden mit dem Richtungsvektor (7,5; −12,5; −3,9) beschrieben; es trifft durch ein kleines Loch L(x_L; y_L; 1,3) in einer Zeltwand genau auf den Eckpunkt B des Zeltbodens → Werte von x_L und y_L | (x_L; y_L; 1,3) + t · (7,5; −12,5; −3,9) = (5; 0; 0): aus der dritten Zeile t = 1/3, dann x_L und y_L
 2019MgrundlegendAAGLAA211-a | 2 | nein | Rechnung · Bestimmen Sie | A(0 ¦ 2 ¦ 2), B(4 ¦ −1 ¦ z_B), C(−3 ¦ y_C ¦ 6); B liegt auf der Geraden x = (0; 2; 2) + r · (−1; 0,75; −2) → Wert von z_B | r aus der x-Koordinate, z aus der Geradengleichung
 2018MerhoehtBAGLAA2WTR2-1d | 6 | ja | Begründung¦Rechnung¦Zeichnen · Zeigen Sie¦Berechnen Sie¦Stellen Sie dar | Kletteranlage im Koordinatensystem (x1x2-Ebene ist der Untergrund, 1 LE = 1 m): Pfähle durch P1(0 ¦ 0 ¦ 0) und P2(5 ¦ 10 ¦ 0); Kletterwand mit den Eckpunkten A(3 ¦ 0 ¦ 2), B(0 ¦ 3 ¦ 2), E(6 ¦ 0 ¦ 0), F(0 ¦ 6 ¦ 0); Plattform 2 mit den Eckpunkten R(5 ¦ 7 ¦ 3), S(8 ¦ 13 ¦ 3), T(2 ¦ 10 ¦ 3); Sonnenlicht als parallele Geraden; Schattenpunkte R'(4 ¦ 2 ¦ 0), S', T'(1 ¦ 5 ¦ 0) → Nachweis, dass T' auf der Strecke EF liegt; Koordinaten von S'; Schatten der Plattform 2 in der Abbildung | ET' = 5/6 · EF; S' = S + RR'; Dreieck R'S'T' einzeichnen
 2018MgrundlegendBAGLAA2WTR2-1d | 6 | ja | Begründung¦Rechnung¦Zeichnen · Zeigen Sie¦Berechnen Sie¦Stellen Sie dar | Kletteranlage im Koordinatensystem (x1x2-Ebene ist der Untergrund, 1 LE = 1 m): Pfähle durch P1(0 ¦ 0 ¦ 0) und P2(5 ¦ 10 ¦ 0); Kletterwand mit den Eckpunkten A(3 ¦ 0 ¦ 2), B(0 ¦ 3 ¦ 2), E(6 ¦ 0 ¦ 0), F(0 ¦ 6 ¦ 0); Plattform 2 mit den Eckpunkten R(5 ¦ 7 ¦ 3), S(8 ¦ 13 ¦ 3), T(2 ¦ 10 ¦ 3); Sonnenlicht als parallele Geraden; Schattenpunkte der Plattform 2: R'(4 ¦ 2 ¦ 0), S', T'(1 ¦ 5 ¦ 0) → Nachweis, dass T' auf der Strecke EF liegt; Koordinaten von S'; Schatten der Plattform 2 in der Abbildung | ET' = (−5; 5; 0) = 5/6 · EF mit 0 ≤ 5/6 ≤ 1; S' = S + (R' − R); Dreieck R'S'T' einzeichnen

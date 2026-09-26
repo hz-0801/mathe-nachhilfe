@@ -3,13 +3,13 @@
 Stufe: II
 
 - abi: Bedingte Wahrscheinlichkeit und Bayes (12 Zeilen)
-- iqb: Bedingte Wahrscheinlichkeit und Bayes (33 Zeilen)
+- iqb: Bedingte Wahrscheinlichkeit und Bayes (34 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
-**Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen** · 15 Zeilen · abi 5 iqb 10 · Jahre 2017–2026
+**Bedingte Wahrscheinlichkeit aus Anteil und Schnittanteil berechnen** · 16 Zeilen · abi 5 iqb 11 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Eine bedingte Wahrscheinlichkeit als Quotient aus dem Anteil des Schnitts und dem Anteil der Bedingung berechnen; die Anteile können im Text oder in einer Vierfeldertafel stehen.
 
 **Bedingte Wahrscheinlichkeit über Bayes aus dem Baumdiagramm berechnen** · 11 Zeilen · abi 3 iqb 8 · Jahre 2017–2024
@@ -73,6 +73,7 @@ abitur/abitur-typen.csv (neu): Eine bedingte Wahrscheinlichkeit als Quotient aus
 2024MerhoehtBStochastikWTR2-1b | 3 | ja | Begründung · Beurteilen Sie | Vierfeldertafel aus a; Aussage: P(Lastenrad ¦ ohne Pkw) ist mehr als dreimal so groß wie P(Lastenrad ¦ mit Pkw) → Beurteilung | P(B ¦ A) berechnen, verdreifachen, vergleichen
 2026MerhoehtBStochastikWTR2-1c | 3 | ja | Rechnung · Untersuchen Sie | Vierfeldertafel aus b → ob der Anteil der mindestens fünf Jahre alten Fahrzeuge unter den Pkw größer ist als unter den übrigen | beide bedingten Anteile berechnen
 2017MerhoehtBStochastikCAS1-2 | 3 | ja | Rechnung · Bestimmen Sie | Anteile der Haushalte in Deutschland 2013 nach Größe: 1-Personen-Haushalte 40,5 %, 2-Personen-Haushalte 34,5 %, 3-Personen-Haushalte 12,5 %, 4-Personen-Haushalte 9,2 %, Haushalte mit mindestens 5 Personen 3,3 %; ein 2013 zufällig ausgewählter Mehrpersonenhaushalt → Wahrscheinlichkeit, dass es sich um einen 3-Personen-Haushalt handelte | 0,125/(1 − 0,405) berechnen
+2017MgrundlegendBStochastikCAS-2b | 3 | ja | Rechnung · Berechnen Sie | Ein Hersteller bringt ein neues Smartphone auf den Markt; die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 %; Anteil fehlerhafter Geräte insgesamt 3 %; ein unter allen hergestellten Geräten zufällig ausgewähltes Gerät ist fehlerhaft → Wahrscheinlichkeit dafür, dass es im Werk A hergestellt wurde | Schnittanteil 0,1 · 0,05 durch den Gesamtanteil 0,03 teilen (Satz von Bayes)
 2017MgrundlegendBStochastikWTR1-2b | 3 | ja | Rechnung · Berechnen Sie | Ein Hersteller bringt ein neues Smartphone auf den Markt; die Geräte werden in vier Werken in jeweils großer Stückzahl hergestellt; Anteil an der Gesamtzahl: Werk A 10 %, B 30 %, C 20 %, D 40 %; Anteil der fehlerhaften Geräte unter den im Werk hergestellten: A 5 %, B 3 %, C 4 %, D 2 %; Anteil fehlerhafter Geräte insgesamt 3 %; ein unter allen hergestellten Geräten zufällig ausgewähltes Gerät ist fehlerhaft → Wahrscheinlichkeit dafür, dass es im Werk A hergestellt wurde | Schnittanteil 0,1 · 0,05 durch den Gesamtanteil 0,03 teilen (Satz von Bayes)
 2018MgrundlegendBStochastikWTR1-1c | 2 | ja | Rechnung · Zeigen Sie | Jugendliche eines Landes: 49,20 % weiblich (W), 47,10 % erledigen Finanzangelegenheiten regelmäßig mit Smartphone oder Tablet (S), 19,68 % sind weiblich und tun das → Nachweis, dass unter den weiblichen Jugendlichen 40 % ihre Finanzangelegenheiten mit Smartphone oder Tablet erledigen | Schnittanteil durch Randanteil
 2018MgrundlegendBStochastikWTR2-1f | 2 | ja | Rechnung · Berechnen Sie | Vierfeldertafel aus e (D∩N 1,0 %, D 10,7 %) → Wahrscheinlichkeit, dass ein Bildschirm mit defektem Display ein defektes Netzteil hat | Schnittanteil durch Randanteil von D

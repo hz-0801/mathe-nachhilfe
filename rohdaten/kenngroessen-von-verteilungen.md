@@ -4,16 +4,16 @@ Stufe: II
 
 - fhr: Erwartungswert (2 Zeilen)
 - abi: Kenngrößen von Verteilungen (23 Zeilen)
-- iqb: Kenngrößen von Verteilungen (52 Zeilen)
+- iqb: Kenngrößen von Verteilungen (54 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
-**Unbekannte Größe aus einer Erwartungswertbedingung bestimmen** · 20 Zeilen · abi 7 iqb 13 · Jahre 2017–2026
+**Unbekannte Größe aus einer Erwartungswertbedingung bestimmen** · 21 Zeilen · abi 7 iqb 14 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Eine unbekannte Auszahlung, einen Wert der Zufallsgröße oder eine Anzahl (etwa Kugeln) aus einer Bedingung an den Erwartungswert bestimmen, etwa Erwartungswert gleich Einsatz.
 
-**Erwartungswert einer Zufallsgröße im Sachzusammenhang berechnen** · 5 Zeilen · abi 5 · Jahre 2017–2021
+**Erwartungswert einer Zufallsgröße im Sachzusammenhang berechnen** · 6 Zeilen · abi 5 iqb 1 · Jahre 2017–2021
 abitur/abitur-typen.csv (neu): Die Werte einer Zufallsgröße aus einem Sachtext ablesen und den Erwartungswert als Summe der mit ihren Wahrscheinlichkeiten gewichteten Werte bilden.
 
 **Trefferwahrscheinlichkeit aus dem ganzzahligen Erwartungswert im Diagramm ermitteln** · 4 Zeilen · abi 1 iqb 3 · Jahre 2024–2026
@@ -160,6 +160,7 @@ abitur/abitur-typen.csv (neu): Alle möglichen Erwartungswerte einer Zufallsgrö
 2018MgrundlegendAStochastik12-b | 3 | nein | Rechnung¦Kurzantwort · Berechnen Sie¦Interpretieren Sie | X Auszahlung in Euro mit P(X = 1) = 4/9, P(X = 4) = 4/9, P(X = 16) = 1/9; Einsatz 4 Euro → Erwartungswert von X und Deutung unter Berücksichtigung des Einsatzes | Erwartungswert berechnen, mit dem Einsatz vergleichen
 2024MgrundlegendAStochastik12-b | 3 | nein | Begründung · Begründen Sie | Einsatz 3 €, zweimal drehen, 10 % grün, je grünem Sektor 10 € Auszahlung; P(genau einmal grün) = 0,18 → Begründung, dass der Veranstalter auf lange Sicht mehr einnimmt als auszahlt | Erwartungswert der Auszahlung 20 · 0,01 + 10 · 0,18 = 2 € berechnen und mit dem Einsatz 3 € vergleichen
 2021MgrundlegendBStochastikWTR1-1e | 4 | ja | Rechnung · Berechnen Sie | nach der Änderung: Motiv 6 mit Wahrscheinlichkeit 1/36, die anderen fünf Motive gleich wahrscheinlich (je 7/36); Paletten zu 20 Bechern; Kosten der Prämien je Becher: Motiv 1 und 2 je 4 Cent, Motiv 3 bis 5 je 2 Cent, Motiv 6 9 Cent → mittlere Kosten pro Becher | Wahrscheinlichkeiten 7/36 ergänzen, Erwartungswert der Kosten bilden
+2018MerhoehtBStochastikCAS2-3a | 3 | ja | Rechnung · Bestimmen Sie | In der ersten Hälfte des Jahres 2015 hat die Europäische Zentralbank von etwa 17 Milliarden im Umlauf befindlichen Geldscheinen insgesamt 454000 gefälschte Scheine aussortiert; Verteilung nach Abbildung 1: 5 €: 6800, 10 €: 10800, 20 €: 248500, 50 €: 142000, 100 €: 38600, 200 €: 5000, 500 €: 2300; einer der aussortierten gefälschten Scheine wird zufällig ausgewählt; X beschreibt seinen Wert in Euro → Erwartungswert von X | Werte mit den Anzahlen gewichten, summieren und durch 454000 teilen
 2023MerhoehtBStochastikWTR1-3b | 4 | ja | Rechnung¦Begründung · Berechnen Sie¦Geben Sie ab¦Begründen Sie | zweiter Spieler hat Summe 60; sofort beenden oder genau einmal weiterdrehen → Erwartungswert der Auszahlung bei einer weiteren Drehung; Empfehlung mit Begründung | Erwartungswert über die zehn gleich wahrscheinlichen Ausgänge, mit 60 vergleichen
 2019MgrundlegendBStochastikWTR2-2c | 4 | ja | Zeichnen¦Rechnung · Ermitteln Sie | Urne: 35 % der Kugeln mit „+1“, 25 % mit „+2“, die übrigen 40 % mit „−3“ beschriftet; Spiel: zweimal Ziehen mit Zurücklegen, Summe der Zahlen; positive Summe = Gewinn in Euro, negative Summe = Verlust → durchschnittlicher Verlust pro Spiel mithilfe eines Baumdiagramms | Alle neun Pfade mit Summe und Wahrscheinlichkeit, Erwartungswert bilden
 2021MerhoehtAStochastik22 | 5 | nein | Rechnung · Leiten Sie her¦Erläutern Sie | Glücksrad mit Sektoren 1 (120°), 2 (Wahrscheinlichkeit p) und 3; Einsatz 1 Euro, zwei Drehungen, Auszahlung der Summe bei Summe mindestens 5, sonst nichts; Einsätze und Auszahlungen gleichen sich auf lange Sicht aus → Herleitung einer Gleichung für p mit Erläuterung | Auszahlungsfälle bestimmen, Wahrscheinlichkeiten in p, Erwartungswert gleich 1
@@ -185,6 +186,7 @@ abitur/abitur-typen.csv (neu): Alle möglichen Erwartungswerte einer Zufallsgrö
 2025MerhoehtAStochastik12-b | 3 | nein | Begründung · Weisen Sie nach | X1 und X2 binomialverteilt mit Parametern n1, p1 bzw. n2, p2, Verteilungen in den Abbildungen 1 und 2; Erwartungswerte ganzzahlig; n1 = n2 → Nachweis mithilfe der Abbildungen, dass p2 = 4 · p1 gilt | Erwartungswerte als Lage der höchsten Säule ablesen (14 und 56), als n · p schreiben und wegen n1 = n2 dividieren
 2026MgrundlegendAStochastik11-a | 2 | nein | Rechnung · Ermitteln Sie | Säulendiagramm der Wahrscheinlichkeitsverteilung einer binomialverteilten Zufallsgröße X mit n = 20 und unbekanntem p; höchste Säule bei k = 4; der Erwartungswert von X ist ganzzahlig → Wert von p | der ganzzahlige Erwartungswert liegt an der höchsten Säule, also 20 · p = 4
 2017MerhoehtAStochastik2-b | 3 | nein | Rechnung · Ermitteln Sie | Urnen wie in a; Spiel: Einsatz 1 Euro, eine der drei Urnen wird zufällig gewählt, daraus eine Kugel gezogen; nur bei schwarz wird ein Betrag x ausgezahlt → Betrag, bei dem auf lange Sicht Einsätze und Auszahlungen ausgeglichen sind | P(schwarz) über die drei gleich wahrscheinlichen Urnen, Erwartungswert des Gewinns gleich null setzen
+2018MerhoehtBStochastikCAS1-2b | 3 | ja | Rechnung · Berechnen Sie | Glücksrad mit den Sektoren Blau 180°, Rot 120°, Grün 60°; Einsatz 5 Euro für drei Drehungen; dreimal die gleiche Farbe: 10 Euro Auszahlung; drei verschiedene Farben: anderer Betrag; sonst nichts; P(dreimal gleiche Farbe) = 1/6; Einsätze und Auszahlungen gleichen sich auf lange Sicht aus → Auszahlung bei drei verschiedenen Farben | Erwartungswert des Gewinns gleich null setzen
 2018MerhoehtBStochastikWTR1-2b | 3 | ja | Rechnung · Berechnen Sie | Glücksrad mit den Sektoren Blau 180°, Rot 120°, Grün 60°; Einsatz 5 Euro für drei Drehungen; dreimal die gleiche Farbe: 10 Euro Auszahlung; drei verschiedene Farben: anderer Betrag; sonst nichts; P(dreimal gleiche Farbe) = 1/6; Einsätze und Auszahlungen gleichen sich auf lange Sicht aus → Auszahlung bei drei verschiedenen Farben | Erwartungswert des Gewinns gleich null setzen
 2020MerhoehtAStochastik12-b | 3 | nein | Rechnung · Ermitteln Sie | Einsatz 5 Euro; Auszahlung nur bei genau einer 3 in den beiden Würfen; P(mindestens eine 3) = 3/8; Ausgleich von Einsätzen und Auszahlungen → Höhe der Auszahlung | P(genau eine 3) = 3/8 − P(zweimal 3), Erwartungswert gleich 5
 2020MerhoehtAStochastik13-b | 3 | nein | Rechnung · Ermitteln Sie | 1 und 3 werden durch neue Zahlen im Verhältnis 1 : 3 ersetzt; Erwartungswert der geworfenen Zahl 4 → die beiden neuen Zahlen | E(X) = 4 mit x und 3x lösen

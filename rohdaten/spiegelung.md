@@ -3,17 +3,20 @@
 Stufe: II
 
 - abi: Spiegelung (7 Zeilen)
-- iqb: Spiegelung (22 Zeilen)
+- iqb: Spiegelung (24 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
-**Symmetrieebene eines Körpers unter vorgegebenen Gleichungen auswählen und eine ausschließen** · 5 Zeilen · abi 2 iqb 3 · Jahre 2022–2026
+**Symmetrieebene eines Körpers unter vorgegebenen Gleichungen auswählen und eine ausschließen** · 6 Zeilen · abi 2 iqb 4 · Jahre 2018–2026
 abitur/abitur-typen.csv (neu): Unter mehreren Ebenengleichungen die Symmetrieebene eines Körpers (Pyramide, Quader) auswählen und für eine andere über eine Punktprobe oder einen Kantenmittelpunkt begründen, dass sie keine ist.
 
 **Spiegelebene aus Punkt und Spiegelpunkt bestimmen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2022–2026
 abitur/abitur-typen.csv (neu): Die Koordinatengleichung der Spiegelebene aus einem Punkt und seinem Spiegelpunkt aufstellen: Verbindungsvektor als Normalenvektor, Mittelpunkt in der Ebene.
+
+**Symmetrie einer geraden Pyramide bezüglich einer Koordinatenachse über Grundflächenmittelpunkt und Spitze begründen** · 3 Zeilen · iqb 3 · Jahre 2017
+abitur/abitur-typen.csv (neu): Begründen, dass eine gerade Pyramide mit quadratischer, zu einer Koordinatenebene paralleler Grundfläche symmetrisch zu einer Koordinatenachse ist, weil Grundflächenmittelpunkt und Spitze auf dieser Achse liegen.
 
 **Symmetrieebenen eines Körpers aus den Koordinaten begründen** · 3 Zeilen · iqb 3 · Jahre 2025–2026
 abitur/abitur-typen.csv (neu): Für einen Körper mit Parameter die Gleichungen seiner achsenparallelen Symmetrieebenen angeben und über Vorzeichenwechsel und Mittelwerte von Koordinaten begründen.
@@ -29,9 +32,6 @@ abitur/abitur-typen.csv (neu): Den Spiegelpunkt eines Punktes an einer Ebene bes
 
 **Spiegelpunkt an einer Ebene über die Lotgerade bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2021–2022
 abitur/abitur-typen.csv (neu): Den Spiegelpunkt eines Punktes an einer Ebene bestimmen: Lotgerade mit dem Normalenvektor, Schnitt mit der Ebene, Parameter verdoppeln.
-
-**Symmetrie einer geraden Pyramide bezüglich einer Koordinatenachse über Grundflächenmittelpunkt und Spitze begründen** · 2 Zeilen · iqb 2 · Jahre 2017
-abitur/abitur-typen.csv (neu): Begründen, dass eine gerade Pyramide mit quadratischer, zu einer Koordinatenebene paralleler Grundfläche symmetrisch zu einer Koordinatenachse ist, weil Grundflächenmittelpunkt und Spitze auf dieser Achse liegen.
 
 **Koordinaten gespiegelter Eckpunkte aus den Symmetrieebenen eines Körpers angeben** · 1 Zeile · iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Die Koordinaten weiterer Eckpunkte eines Körpers aus den gegebenen Punkten und den Symmetrieebenen (Koordinatenebenen) angeben.
@@ -84,8 +84,10 @@ abitur/abitur-typen.csv (neu): Begründen, dass eine Koordinatenebene für keine
 2021MerhoehtAAGLAA211-b | 4 | nein | Rechnung · Bestimmen Sie | P(−1; 7; 2), E: x1 + 3x2 = 0 → Koordinaten des Spiegelpunkts von P an E | Lotgerade aufstellen, Lotfußpunkt über λ, Parameter verdoppeln
 2017MerhoehtBAGLAA2CAS1-1c | 3 | ja | Begründung · Begründen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; H(−3; −2; 4); EFGH ist ein Quadrat → Begründung, dass die Pyramide EFGHS symmetrisch bezüglich der x3-Achse ist | Der Mittelpunkt der Grundfläche (Mitte von EG) ist (0; 0; 4) und liegt wie S auf der x3-Achse; die Grundfläche ist ein Quadrat parallel zur x1x2-Ebene, die Pyramide gerade
 2017MerhoehtBAGLAA2WTR1-1c | 3 | ja | Begründung · Begründen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; H(−3; −2; 4); EFGH ist ein Quadrat → Begründung, dass die Pyramide EFGHS symmetrisch bezüglich der x3-Achse ist | Der Mittelpunkt der Grundfläche (Mitte von EG) ist (0; 0; 4) und liegt wie S auf der x3-Achse; die Grundfläche ist ein Quadrat parallel zur x1x2-Ebene, die Pyramide gerade
+2017MgrundlegendBAGLAA2CAS1-1c | 3 | ja | Begründung · Begründen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; H(−3; −2; 4); EFGH ist ein Quadrat → Begründung, dass die Pyramide EFGHS symmetrisch bezüglich der x3-Achse ist | Der Mittelpunkt der Grundfläche (Mitte von EG) ist (0; 0; 4) und liegt wie S auf der x3-Achse; die Grundfläche ist ein Quadrat parallel zur x1x2-Ebene, die Pyramide gerade
 2022MerhoehtBAGLAA2WTR2-1a | 2 | ja | Begründung · Begründen Sie | Streckenzug A(11¦11¦0), B(−11¦11¦28), C(11¦−11¦28), D(−11¦−11¦0), Ecken eines Quaders; 1 LE = 1 m → Begründung, dass B und C symmetrisch zur x₃-Achse liegen | Koordinaten vergleichen
 2019MgrundlegendBAGLAA2WTR2-1b | 2 | ja | Kurzantwort¦Zeichnen · Geben Sie an¦Zeichnen Sie | Haus als Körper ABCDIJKL: Quader ABCDEFGH und Dachprisma EFGHIJKL; A(0 ¦ 0 ¦ 0), G(10 ¦ 6 ¦ 10), H(0 ¦ 6 ¦ 10), K(10 ¦ 6 ¦ 10,5), L(0 ¦ 6 ¦ 13); verglaste Fassade IEHL; 1 LE = 1 m → Gleichung der Symmetrieebene; Seiten der Schnittfigur in der Abbildung | Mittelebene y = 3 nennen und den Schnitt (Fünfeck) einzeichnen
+2018MerhoehtBAGLAA2CAS2-1e | 4 | ja | Kurzantwort¦Begründung · Entscheiden Sie¦Begründen Sie | Modell eines Obelisken (nicht maßstabsgetreu) im kartesischen Koordinatensystem; die xy-Ebene beschreibt den ebenen Untergrund, 1 LE = 1 m; der untere Teilkörper ABCDEFGH mit B(0,45; 0,45; 0) ist ein Stumpf einer geraden Pyramide, der Mittelpunkt des Quadrats ABCD ist der Koordinatenursprung, das Quadrat EFGH ist parallel zur xy-Ebene; der obere Teilkörper EFGHS mit E(0,35; −0,35; 7,16) ist eine gerade Pyramide, ihre Spitze S liegt auf der z-Achse und stellt die Spitze des Obelisken dar; Gleichungen I x = 0,45, II y = 0, III x − y = 0, IV x − z = 0 → für jede Gleichung die Entscheidung, ob sie eine Symmetrieebene des Obelisken beschreibt; für eine Gleichung die Begründung, dass sie keine solche Ebene darstellt | Symmetrieebenen enthalten die z-Achse und eine Seitenmitte oder eine Diagonale des Grundquadrats: y = 0 (Mitten von AB und CD) und x − y = 0 (durch B und D); x = 0,45 und x − z = 0 enthalten die z-Achse nicht
 2022MgrundlegendBAGLAA2WTR2-1c | 2 | ja | Kurzantwort¦Begründung · Geben Sie an¦Beschreiben Sie | Kirchturmdach: Eckpunkte A(0 ¦ 0 ¦ 0), B(8 ¦ 0 ¦ 0), C(8 ¦ 8 ¦ 0), D(0 ¦ 8 ¦ 0), E(4 ¦ 0 ¦ 6), F(8 ¦ 4 ¦ 6), G(4 ¦ 8 ¦ 6), H(0 ¦ 4 ¦ 6), S(4 ¦ 4 ¦ 12); vier gleiche viereckige Dachflächen (Rauten wie CGSF) und vier dreieckige Giebelflächen; 1 LE = 1 m; Ebenen M1: x = 8, M2: x − y = 0, M3: z = 6; eine ist Symmetrieebene des Dachs → diese Ebene mit Beschreibung ihrer Lage | M2 enthält die Diagonale AC und die Spitze S
 2024MerhoehtBAGLAA2WTR1-1b | 3 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Gleichungen (1) x − z = 0, (2) x + y + z = 4, (3) x + y = 0; genau eine beschreibt eine Symmetrieebene → die Symmetrieebene; Begründung für eine der anderen | Ebene durch S und O suchen, Gegenbeispiel über Punktprobe
 2026MgrundlegendBAGLAA2MMS2-1b | 3 | ja | Kurzantwort¦Begründung · Entscheiden Sie¦Begründen Sie | genau eine der Gleichungen I x + y = 0, II x − y = 0, III z = 2 beschreibt eine Symmetrieebene des Quaders → welche; Begründung für eine andere, dass sie keine ist | Diagonalebene durch O und B erkennen; für III die Kante AE betrachten

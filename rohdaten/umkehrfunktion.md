@@ -5,7 +5,7 @@ Stufe: II
 - abi: Umkehrfunktion (1 Zeilen)
 - iqb: Umkehrfunktion (6 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

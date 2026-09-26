@@ -3,18 +3,18 @@
 Stufe: II
 
 - fhr: Verhalten im Unendlichen (4 Zeilen)
-- abi: Grenzwerte und Verhalten im Unendlichen (12 Zeilen)
+- abi: Grenzwerte und Verhalten im Unendlichen (13 Zeilen)
 - iqb: Grenzwerte und Verhalten im Unendlichen (7 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
+**Nullstelle und Grenzverhalten eines Produkts aus Polynom und e-Funktion angeben** · 6 Zeilen · abi 4 iqb 2 · Jahre 2017–2025
+abitur/abitur-typen.csv (neu): Für ein Produkt aus linearem Faktor und e-Funktion die Nullstelle und das Verhalten für x → ±∞ angeben.
+
 **Grenzverhalten eines Produkts aus Polynom und e-Funktion angeben** · 5 Zeilen · abi 5 · Jahre 2019–2023
 abitur/abitur-typen.csv (neu): Für ein Produkt aus Polynom und e^x das Verhalten der Funktionswerte für x → +∞ und x → −∞ angeben (die e-Funktion bestimmt das Verhalten, für x → −∞ Annäherung an die x-Achse).
-
-**Nullstelle und Grenzverhalten eines Produkts aus Polynom und e-Funktion angeben** · 5 Zeilen · abi 3 iqb 2 · Jahre 2017–2025
-abitur/abitur-typen.csv (neu): Für ein Produkt aus linearem Faktor und e-Funktion die Nullstelle und das Verhalten für x → ±∞ angeben.
 
 **Grenzverhalten einer ganzrationalen Funktion angeben** · 4 Zeilen · abi 3 iqb 1 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Das Verhalten der Funktionswerte einer ganzrationalen Funktion für x → +∞ und x → −∞ aus dem Leitterm angeben.
@@ -57,6 +57,7 @@ fhr/fhr-typen.csv (geprüft): Aus Grad und Vorzeichen des Leitkoeffizienten das 
 2022-bebb-gk-B2.1b | 2 | ja | Kurzantwort · Geben Sie an¦Beschreiben Sie | f(x) = (x + 2) · e^(−x), definiert in IR, mit f'(x) = −(x + 1) · e^(−x) → Grenzwert von f für x → +∞; Verlauf des Graphen dort | e^(−x) fällt schneller als x + 2 wächst
 2017-bb-ea-B2.2a | 6 | ja | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie¦Weisen Sie nach | Funktionenschar f_a mit f_a(x) = e^(2ax) + e^(−2ax); x ∈ IR, a ∈ IR, a ≠ 0. Die zugehörigen Graphen sind G_a. → Verhalten der Funktionswerte für a > 0 bei x → +∞ und bei x → −∞; Begründung, dass keine Funktion f_a eine Nullstelle hat; Nachweis, dass alle Graphen G_a achsensymmetrisch zur y-Achse verlaufen | Für a > 0 wächst e^(2ax) bei x → +∞ unbeschränkt, während e^(−2ax) gegen null geht; bei x → −∞ vertauschen sich die Rollen. Beide Summanden sind stets positiv, also ist f_a(x) > 0. Für die Symmetrie f_a(−x) bilden und mit f_a(x) vergleichen.
 2018-be-gk-B1.2a | 2 | ja | Begründung · Untersuchen Sie | Funktion f mit f(x) = (x + 1) · e^(−0,5x). → Verhalten der Funktionswerte von f für x → +∞ | Der Faktor x + 1 wächst über alle Grenzen, der Faktor e^(−0,5x) fällt gegen null; die Exponentialfunktion ist dabei stärker, also gehen die Funktionswerte gegen null.
+2018-be-gk-cas-B1.2a | 4 | ja | Begründung · Untersuchen Sie | Funktionen f mit f(x) = (x + 1) · e^(−0,5x) und g mit g(x) = x + 1. → Verhalten der Funktionswerte von f für x → −∞ und für x → ∞ | Für x → ∞ wächst x + 1 über alle Grenzen, e^(−0,5x) fällt gegen null; die Exponentialfunktion ist stärker, also f(x) → 0. Für x → −∞ geht x + 1 gegen −∞ und e^(−0,5x) gegen +∞, das Produkt also gegen −∞ (mit dem CAS bestätigen).
 2025-bebb-gk-B2.2a | 3 | ja | Kurzantwort · Geben Sie an | f(x) = (2 − x) · e^x in IR; Graph in Abbildung 1 → Nullstelle und Verhalten für x → −∞ und x → +∞ | Faktoren betrachten
 ## iqb
 

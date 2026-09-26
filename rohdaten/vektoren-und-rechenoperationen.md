@@ -3,13 +3,13 @@
 Stufe: II
 
 - abi: Vektoren und Rechenoperationen (1 Zeilen)
-- iqb: Vektoren und Rechenoperationen (22 Zeilen)
+- iqb: Vektoren und Rechenoperationen (23 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
-**Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen** · 4 Zeilen · iqb 4 · Jahre 2017–2022
+**Vierten Eckpunkt eines Parallelogramms über eine Vektoraddition bestimmen** · 5 Zeilen · iqb 5 · Jahre 2017–2022
 abitur/abitur-typen.csv (neu): Den fehlenden Eckpunkt eines Parallelogramms – auch eines Rechtecks oder Quadrats – aus drei gegebenen Ecken über die Addition eines Seitenvektors bestimmen (OD = OA + BC).
 
 **Koordinate eines Vektors aus vorgegebener Länge bestimmen** · 2 Zeilen · iqb 2 · Jahre 2021–2025
@@ -57,7 +57,7 @@ abitur/abitur-typen.csv (neu): Zu einer vorgegebenen Raumdiagonale eines Würfel
 **Verschobenen Punkt über den Diagonalenschnittpunkt bestimmen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Den Bildpunkt einer Verschiebung bestimmen, die den Diagonalenschnittpunkt eines Körpers in den Ursprung bringt: Mittelpunkt berechnen, Verschiebungsvektor anwenden.
 
-**Nebentypen:** Ebene Figur: Quadrat über gleiche Gegenseitenvektoren, Orthogonalität und gleiche Seitenlängen nachweisen (2)
+**Nebentypen:** Ebene Figur: Quadrat über gleiche Gegenseitenvektoren, Orthogonalität und gleiche Seitenlängen nachweisen (3)
 
 ## B Zeilenliste
 
@@ -86,5 +86,6 @@ abitur/abitur-typen.csv (neu): Den Bildpunkt einer Verschiebung bestimmen, die d
 2024MgrundlegendAAGLAA211-b | 3 | nein | Rechnung · Ermitteln Sie | Quader mit A(1; 1; 0), G(4; 7; 4), H(1; 7; 4); der Quader wird parallel zu einer Geraden so verschoben, dass der Schnittpunkt seiner Raumdiagonalen im Ursprung liegt; es entsteht A'B'C'D'E'F'G'H' → Koordinaten von H' | Schnittpunkt S der Raumdiagonalen als Mittelpunkt von AG; Verschiebung um −OS auf H anwenden
 2017MerhoehtBAGLAA2CAS1-1b | 5 | ja | Kurzantwort¦Begründung · Geben Sie an¦Weisen Sie nach | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → Koordinaten des Punkts H; Nachweis, dass das Viereck EFGH ein Quadrat ist | OH = OE + FG; EF = HG zeigt das Parallelogramm, EF ∘ FG = 0 den rechten Winkel und ¦EF¦ = ¦FG¦ gleiche Seiten
 2017MerhoehtBAGLAA2WTR1-1b | 5 | ja | Kurzantwort¦Begründung · Geben Sie an¦Weisen Sie nach | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → Koordinaten des Punkts H; Nachweis, dass das Viereck EFGH ein Quadrat ist | OH = OE + FG; EF = HG zeigt das Parallelogramm, EF ∘ FG = 0 den rechten Winkel und ¦EF¦ = ¦FG¦ gleiche Seiten
+2017MgrundlegendBAGLAA2CAS1-1b | 5 | ja | Kurzantwort¦Begründung · Geben Sie an¦Weisen Sie nach | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → Koordinaten des Punkts H; Nachweis, dass das Viereck EFGH ein Quadrat ist | OH = OE + FG; EF = HG zeigt das Parallelogramm, EF ∘ FG = 0 den rechten Winkel und ¦EF¦ = ¦FG¦ gleiche Seiten
 2017MgrundlegendBAGLAA2WTR2-1c | 1 | ja | Rechnung · Bestimmen Sie | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem; das Dreieck ABC hat bei B einen rechten Winkel → Koordinaten des Punkts D, für den das Viereck ABCD ein Rechteck ist | OD = OA + BC
 2022MerhoehtBAGLAA1WTR-1b | 2 | ja | Rechnung · Bestimmen Sie | E auf der längeren Diagonale AC; BCDE Quadrat → Koordinaten von E | E = D + CB

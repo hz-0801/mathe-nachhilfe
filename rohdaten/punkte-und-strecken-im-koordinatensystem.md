@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Punkte und Strecken im Koordinatensystem (26 Zeilen)
-- iqb: Punkte und Strecken im Koordinatensystem (70 Zeilen)
+- iqb: Punkte und Strecken im Koordinatensystem (74 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
@@ -26,6 +26,9 @@ abitur/abitur-typen.csv (neu): Die Eckpunkte eines Vierecks aus ihren Koordinate
 
 **Körper: Koordinaten der Eckpunkte eines beschriebenen Körpers wählen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2020
 abitur/abitur-typen.csv (neu): Für einen nur durch Längen und rechte Winkel beschriebenen Körper passende Koordinaten der Eckpunkte angeben (rechte Winkel auf die Achsen legen).
+
+**Punkt: Unbekannte Höhenkoordinate eines Endpunkts einer senkrechten Strecke aus ihrer Länge bestimmen** · 3 Zeilen · iqb 3 · Jahre 2017
+abitur/abitur-typen.csv (neu): Bei einer senkrechten Strecke bekannter Länge mit bekanntem oberem Endpunkt die dritte Koordinate des unteren Endpunkts bestimmen und im Sachzusammenhang (etwa als Tiefe im Untergrund) angeben.
 
 **Ebene Figur: Ansatz für einen rechten Innenwinkel eines Vierecks über das Skalarprodukt mit unbekannter Koordinate erläutern** · 2 Zeilen · abi 1 iqb 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Einen vorgelegten Ansatz erläutern, in dem ein verschobener Eckpunkt mit unbekannter Koordinate angesetzt und der rechte Winkel über das Skalarprodukt der Nachbarseiten ausgedrückt wird.
@@ -51,6 +54,9 @@ abitur/abitur-typen.csv (neu): Ein Viereck im Raum als Raute nachweisen: gegenü
 **Ebene Figur: Rechtwinkliges gleichschenkliges Dreieck aus den Koordinaten begründen und Flächeninhalt angeben** · 2 Zeilen · iqb 2 · Jahre 2018
 abitur/abitur-typen.csv (neu): Aus achsenparallelen Koordinaten (etwa einem Quadrat) begründen, dass ein Dreieck rechtwinklig und gleichschenklig ist, und seinen Flächeninhalt ohne Vektorrechnung angeben.
 
+**Körper: Anteil der Bodenfläche unter einer Mindesthöhe über den Strahlensatz am Dachquerschnitt berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2019
+abitur/abitur-typen.csv (neu): Den Anteil einer Grundfläche bestimmen, über dem ein schräges Dach eine Mindesthöhe unterschreitet, über den linearen Höhenverlauf im Querschnitt.
+
 **Körper: Eckenzahl der Schnittvielecke einer Ebenenschar mit einem Körper und Sonderfälle angeben** · 2 Zeilen · iqb 2 · Jahre 2024
 abitur/abitur-typen.csv (neu): Für eine Schar von Ebenen die Eckenzahl des Schnittvielecks mit einem Körper in Abhängigkeit vom Parameter angeben und Sonderfälle (kongruente Schnitte, Symmetrieachsen) nennen.
 
@@ -63,6 +69,9 @@ abitur/abitur-typen.csv (neu): Die Länge einer Kante aus den Koordinaten berech
 **Körper: Kantenlänge eines Würfels aus gegenüberliegenden Oktaederecken nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Den Abstand zweier gegenüberliegender Flächenmittelpunkte als Kantenlänge des Würfels deuten und berechnen.
 
+**Körper: Körper in ein räumliches Koordinatensystem einzeichnen** · 2 Zeilen · iqb 2 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Einen durch Koordinaten gegebenen Körper als Schrägbild in ein vorgegebenes räumliches Koordinatensystem eintragen.
+
 **Punkt: Koordinaten eines Punktes auf einer Strecke in Abhängigkeit von seiner Höhe ermitteln** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Einen Punkt auf einer Strecke (etwa der Mittellinie einer Pyramidenfläche) in Abhängigkeit von seiner Höhe über die Parameterform der Strecke ermitteln.
 
@@ -71,9 +80,6 @@ abitur/abitur-typen.csv (neu): Nachweisen, dass ein Punkt Mittelpunkt einer Kant
 
 **Punkt: Mittelpunkt einer Strecke im Raum bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017
 abitur/abitur-typen.csv (neu): Den Mittelpunkt einer Strecke – auch einer Diagonalen eines Vierecks, also den Mittelpunkt der Figur – als halbe Summe der Ortsvektoren der Endpunkte berechnen.
-
-**Punkt: Unbekannte Höhenkoordinate eines Endpunkts einer senkrechten Strecke aus ihrer Länge bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017
-abitur/abitur-typen.csv (neu): Bei einer senkrechten Strecke bekannter Länge mit bekanntem oberem Endpunkt die dritte Koordinate des unteren Endpunkts bestimmen und im Sachzusammenhang (etwa als Tiefe im Untergrund) angeben.
 
 **Ebene Figur: Berührpunkt des Inkreises einer Raute über Lage auf der Seite und Orthogonalität zum Mittelpunkt begründen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Für einen vorgegebenen Punkt zeigen, dass er auf einer Rautenseite liegt und dass seine Verbindung zum Diagonalenschnittpunkt senkrecht auf der Seite steht, damit er Berührpunkt des einbeschriebenen Kreises ist.
@@ -120,6 +126,9 @@ abitur/abitur-typen.csv (neu): Ein Viereck über gleiche gegenüberliegende Verb
 **Ebene Figur: Projektion eines Parallelogramms in eine Koordinatenebene einzeichnen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Punkte parallel zu einer Achse in eine Koordinatenebene projizieren und fehlende Ecken eines Parallelogramms über den Diagonalenschnittpunkt ergänzen.
 
+**Ebene Figur: Quadrat in einer Koordinatenebene ohne Vektoren über Seitenlängen und Achsenlage begründen** · 1 Zeile · iqb 1 · Jahre 2017
+abitur/abitur-typen.csv (neu): Ohne Vektorrechnung begründen, dass ein Viereck in einer Koordinatenebene ein Quadrat ist: gleiche Seitenlängen aus den Koordinaten und ein rechter Winkel, weil zwei Seiten auf den Koordinatenachsen liegen.
+
 **Ebene Figur: Raute über gleiche Seitenvektoren nachweisen und Quadrat über das Skalarprodukt ausschließen** · 1 Zeile · iqb 1 · Jahre 2020
 abitur/abitur-typen.csv (neu): Ein Viereck über gleiche gegenüberliegende Seitenvektoren als Parallelogramm, über gleiche Seitenlängen als Raute nachweisen und mit einem Skalarprodukt ungleich null ausschließen, dass es ein Quadrat ist.
 
@@ -135,9 +144,6 @@ abitur/abitur-typen.csv (neu): Zu einem Dreieck ABC mit |CA| = |CB| den Punkt D 
 **Ebene Figur: Zwei Ecken eines gleichschenkligen Dreiecks mit gleichem Abstand zu einem Mittelpunkt angeben** · 1 Zeile · abi 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Zu einem Punkt A und einem Mittelpunkt M zwei Punkte B und C angeben, die von M denselben Abstand wie A haben und mit A ein gleichschenkliges Dreieck bilden (offene Aufgabe mit vielen Lösungen; etwa Gegenpunkt von A und ein zu AM senkrechter Vektor gleicher Länge).
 
-**Körper: Anteil der Bodenfläche unter einer Mindesthöhe über den Strahlensatz am Dachquerschnitt berechnen** · 1 Zeile · iqb 1 · Jahre 2019
-abitur/abitur-typen.csv (neu): Den Anteil einer Grundfläche bestimmen, über dem ein schräges Dach eine Mindesthöhe unterschreitet, über den linearen Höhenverlauf im Querschnitt.
-
 **Körper: Eckpunkt mit vorgegebenen Vorzeichen nach einer Verschiebung angeben** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Nach einer Verschiebung des Körpers den Eckpunkt angeben, dessen Koordinaten eine Vorzeichenbedingung erfüllen, aus der Lage relativ zum Mittelpunkt.
 
@@ -146,9 +152,6 @@ abitur/abitur-typen.csv (neu): Aus gegebenen Eckpunkten eines geraden quadratisc
 
 **Körper: Kantenlänge eines Würfels mit einer Ecke auf einer Pyramidenkante berechnen und Lage im Inneren begründen** · 1 Zeile · abi 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Für einen Würfel mit drei Seitenflächen in den Koordinatenebenen die Kantenlänge k bestimmen, für die die Ecke (k | k | k) auf einer Pyramidenkante liegt, und begründen, dass der Würfel ganz in der Pyramide liegt (Ecken gegen die Seitenflächenebenen prüfen, Konvexität).
-
-**Körper: Körper in ein räumliches Koordinatensystem einzeichnen** · 1 Zeile · iqb 1 · Jahre 2022
-abitur/abitur-typen.csv (neu): Einen durch Koordinaten gegebenen Körper als Schrägbild in ein vorgegebenes räumliches Koordinatensystem eintragen.
 
 **Körper: Lage des Höhenfußpunkts einer Pyramide über die Projektion in die Grundflächenebene entscheiden** · 1 Zeile · iqb 1 · Jahre 2018
 abitur/abitur-typen.csv (neu): Grundfläche und Spitze einer Pyramide mit achsenparalleler Höhe in die Grundflächenebene projizieren, in eine Abbildung eintragen und ablesen, ob der Höhenfußpunkt innerhalb der Grundfläche liegt.
@@ -259,6 +262,7 @@ abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zwei
 2021MerhoehtAAGLAA121-a | 1 | nein | Rechnung · Weisen Sie nach | A(0; 0; 0), B(3; 4; 1), C(1; 7; 3), D(−2; 3; 2) → Nachweis, dass ABCD ein Parallelogramm ist | zwei gegenüberliegende Verbindungsvektoren vergleichen
 2022MgrundlegendBAGLAA2WTR1-1a | 3 | ja | Rechnung · Weisen Sie nach | Kletterwand als ebenes Viereck mit A(6¦7¦4), B(10¦5¦5), C(9¦5,5¦8), D(5¦7,5¦7); x₁x₂-Ebene ist der Boden, 1 LE = 1 m → Nachweis, dass die Wand ein Parallelogramm, aber kein Rechteck ist | AB mit DC vergleichen, Skalarprodukt AB · AD
 2024MerhoehtAAGLAA211-a | 3 | nein | Zeichnen · Zeichnen Sie | B(4; 3; 12), C(2; 4; 10) Eckpunkte eines Parallelogramms ABCD mit Diagonalenschnittpunkt M(3; 2; 1); alle Punkte werden parallel zur x3-Achse in die x1x2-Ebene verschoben → A'B'C'D' und M' in der Abbildung | B', C', M' aus den ersten beiden Koordinaten eintragen; A' und D' durch Spiegelung von C' und B' an M'
+2017MgrundlegendBAGLAA2CAS2-1b | 2 | ja | Begründung · Begründen Sie | Gerade Pyramide ABCDS mit A(0; 0; 0), B(5; 0; 0), C(5; 5; 0), D(0; 5; 0) und der Spitze S(2,5; 2,5; 3,9) in einem kartesischen Koordinatensystem → Begründung ohne Verwendung von Vektoren, dass die Grundfläche der Pyramide ein Quadrat ist | Alle Seiten haben die Länge 5 (Differenz einer Koordinate); A ist der Ursprung, B und D liegen auf den Koordinatenachsen, also ist der Winkel bei A ein rechter
 2020MgrundlegendBAGLAA1WTR-2a | 3 | ja | Rechnung · Weisen Sie nach | Viereck ABCD mit A(5 ¦ 0 ¦ 0), B(0 ¦ 8 ¦ −6), C(−5 ¦ 0 ¦ 0) und D(0 ¦ −8 ¦ 6) → Nachweis, dass ABCD eine Raute, aber kein Quadrat ist | Seitenvektoren vergleichen, Längen berechnen, Skalarprodukt zweier benachbarter Seiten prüfen
 2022MgrundlegendBAGLAA2WTR2-1b | 2 | ja | Rechnung · Weisen Sie nach | Kirchturmdach: Eckpunkte A(0 ¦ 0 ¦ 0), B(8 ¦ 0 ¦ 0), C(8 ¦ 8 ¦ 0), D(0 ¦ 8 ¦ 0), E(4 ¦ 0 ¦ 6), F(8 ¦ 4 ¦ 6), G(4 ¦ 8 ¦ 6), H(0 ¦ 4 ¦ 6), S(4 ¦ 4 ¦ 12); vier gleiche viereckige Dachflächen (Rauten wie CGSF) und vier dreieckige Giebelflächen; 1 LE = 1 m → Nachweis, dass CGSF eine Raute ist | Vier Seitenlängen berechnen (oder CG = FS und CF = GS mit gleichen Längen)
 2025MgrundlegendBAGLAA1WTR-2a | 4 | ja | Begründung¦Rechnung · Zeigen Sie | A(−1 ¦ 7 ¦ m), B(2 ¦ 7 ¦ m), C(2 ¦ 2 ¦ 1), D(−1 ¦ 2 ¦ 1), m natürlich → Nachweis Rechteck und Seitenlänge √(25 + (1 − m)²) | Vektoren AB, DC, BC; Skalarprodukt; Betrag
@@ -273,6 +277,7 @@ abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zwei
 2026MgrundlegendBAGLAA2WTR2-1a | 3 | ja | Rechnung · Zeigen Sie¦Berechnen Sie | A(0 ¦ −2 ¦ 0), B(5 ¦ −1 ¦ 0), C(5 ¦ 1 ¦ 0), D(0 ¦ 2 ¦ 0), S(2 ¦ 0 ¦ 4); Pyramide symmetrisch zur xz-Ebene → Nachweis, dass ABCD ein Trapez ist, und sein Flächeninhalt | AD und BC vergleichen, Trapezformel mit Höhe 5
 2017MgrundlegendBAGLAA2WTR1-1a | 3 | ja | Zeichnen · Zeichnen Sie ein | Pagode mit drei Dachetagen aus je vier Dachflächen gleicher Form und Größe; die Dachflächen der mittleren und oberen Etage sind jeweils parallel zu einer Dachfläche der unteren Etage; die Dachflächen der unteren Etage sind Vierecke mit den Eckpunkten A1(5,5; −5,5; 6), B1(5,5; 5,5; 6), C1(−5,5; 5,5; 6), D1(−5,5; −5,5; 6), A2(2; −2; 8,1), B2(2; 2; 8,1), C2(−2; 2; 8,1) und D2(−2; −2; 8,1); die xy-Ebene ist die Horizontale, 1 LE = 1 m → die fehlenden Eckpunkte A2, B2, C2, D2 und die Strecken der Kanten der Dachflächen der unteren Etage im abgebildeten Koordinatensystem | A2 bis D2 im Schrägbild eintragen und die Vierecke A1B1B2A2, B1C1C2B2, C1D1D2C2 und D1A1A2D2 zeichnen
 2019MgrundlegendBAGLAA2WTR1-1a | 2 | ja | Zeichnen · Zeichnen Sie | Würfel ABCDEFGH mit G(5 ¦ 5 ¦ 5) und H(0 ¦ 5 ¦ 5) (A im Ursprung, Kantenlänge 5); I(5 ¦ 0 ¦ 1), J(2 ¦ 5 ¦ 0), K(0 ¦ 5 ¦ 2), L(1 ¦ 0 ¦ 5) auf Kanten des Würfels → Viereck IJKL in der Abbildung | Vier Punkte auf den Kanten eintragen und verbinden
+2017MgrundlegendBAGLAA2CAS2-1g | 5 | ja | Rechnung¦Zeichnen · Bestimmen Sie¦Veranschaulichen Sie | Gerade Pyramide ABCDS mit A(0; 0; 0), B(5; 0; 0), C(5; 5; 0), D(0; 5; 0) und der Spitze S(2,5; 2,5; 3,9) in einem kartesischen Koordinatensystem; die Pyramide stellt modellhaft ein geschlossenes Zelt auf horizontalem Untergrund dar, 1 LE = 1 m; auf einem Teil des Zeltbodens hat ein 1,20 m großes Kind die Möglichkeit, aufrecht zu stehen → Anteil des Flächeninhalts dieses Teils am Flächeninhalt des gesamten Zeltbodens; Veranschaulichung des Vorgehens an einer geeignet beschrifteten Skizze | Aufrecht stehen heißt Zelthöhe mindestens 1,2 m; die Höhe fällt von der Mitte (3,9 m) linear zum Rand; nach dem Strahlensatz ist der Randstreifen mit weniger als 1,2 m Höhe 1,2/3,9 · 2,5 m breit; die Stehfläche ist ein Quadrat mit der Seite 2 · (2,5 − 1,2/3,9 · 2,5) m; Anteil an (5 m)^2
 2019MgrundlegendBAGLAA2WTR2-1f | 3 | ja | Rechnung · Bestimmen Sie | Haus als Körper ABCDIJKL: Quader ABCDEFGH und Dachprisma EFGHIJKL; A(0 ¦ 0 ¦ 0), G(10 ¦ 6 ¦ 10), H(0 ¦ 6 ¦ 10), K(10 ¦ 6 ¦ 10,5), L(0 ¦ 6 ¦ 13); verglaste Fassade IEHL; 1 LE = 1 m; Raumteile mit höchstens 1 m Höhe zählen nicht zur Wohnfläche → prozentualer Anteil der Bodenfläche des Dachgeschosses, für den das gilt | Breite des Streifens mit Dachhöhe ≤ 1 über den Strahlensatz, Anteil an 10 × 6
 2024MgrundlegendBAGLAA2WTR1-1e | 4 | ja | Kurzantwort · Geben Sie an | Körper K mit Ecken A(3 ¦ 0 ¦ 0), B(0 ¦ 0 ¦ 0), C(1,5 ¦ −1,2 ¦ 1), D(3 ¦ 2 ¦ 0), E(0 ¦ 2 ¦ 0), F(1,5 ¦ 0,8 ¦ 1), fünf Begrenzungsflächen; Schnitt mit y = s für −1,2 < s < 2 → Eckenzahl des Schnittvielecks in Abhängigkeit von s; Intervall der s mit gleicher Form und gleichem Flächeninhalt | Lage der Ebene gegen die Ecken C, F, A, B, D, E vergleichen
 2024MgrundlegendBAGLAA2WTR2-1e | 4 | ja | Kurzantwort · Geben Sie an | Punkte S_t(t ¦ 0 ¦ 0), t ≥ 0; Ebene durch M, F, S_t schneidet das Prisma in einem Vieleck → Eckenzahl in Abhängigkeit von t; alle t mit zwei Symmetrieachsen | Schnitt der Ebene mit den Kanten des Prismas nach Lage von S_t
@@ -286,6 +291,7 @@ abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zwei
 2024MgrundlegendAAGLAA211-a | 1 | nein | Kurzantwort · Geben Sie an | Quader ABCDEFGH mit A(1; 1; 0), B(4; 1; 0), E(1; 1; 4), H(1; 7; 4), Abbildung → Koordinaten von G | G = B + AD + AE mit AD = EH = (0; 6; 0) und AE = (0; 0; 4)
 2026MerhoehtAAGLAA212-a | 1 | nein | Kurzantwort · Geben Sie an | gerades Prisma ABCDEF mit A(0; 0; 0), B(6; 0; 0), C(0; 4; 0) und D(0; 0; 3), Abbildung → Koordinaten des Punktes F | F liegt senkrecht über C in der Höhe von D
 2026MgrundlegendAAGLAA213-a | 1 | nein | Kurzantwort · Geben Sie an | gerades Prisma ABCDEF mit A(0; 0; 0), B(6; 0; 0), C(0; 4; 0) und D(0; 0; 3), Abbildung → Koordinaten des Punktes F | F liegt senkrecht über C in der Höhe von D
+2017MgrundlegendBAGLAA2CAS2-1a | 3 | ja | Zeichnen · Zeichnen Sie ein | Gerade Pyramide ABCDS mit A(0; 0; 0), B(5; 0; 0), C(5; 5; 0), D(0; 5; 0) und der Spitze S(2,5; 2,5; 3,9) in einem kartesischen Koordinatensystem → Zeichnung der Pyramide in einem Koordinatensystem | Eckpunkte im Schrägbild eintragen und verbinden, verdeckte Kanten gestrichelt
 2022MgrundlegendBAGLAA2WTR1-1d | 3 | ja | Zeichnen · Stellen Sie dar | Stahlseil zwischen zwei 8 m hohen Masten mit Fußpunkten F₁(0¦0¦0) und F₂(2,5¦6¦0), befestigt in 6 m bzw. 4,7 m Höhe, geradlinig → Darstellung der Masten und des Seils im Koordinatensystem | Fußpunkte, Mastspitzen und Befestigungspunkte eintragen und verbinden
 2018MgrundlegendAAGLAA212-b | 3 | nein | Kurzantwort¦Eintragen · Entscheiden Sie | Pyramide ABCS aus a; A' und B' (Projektionen in die x1x2-Ebene) in der Abbildung → Entscheidung mithilfe der ergänzten Abbildung, ob der Höhenfußpunkt innerhalb oder außerhalb der Grundfläche liegt | C' und S' eintragen, Dreieck A'B'C' zeichnen, Lage von S' ablesen
 2022MerhoehtBAGLAA2WTR2-1b | 3 | ja | Rechnung · Berechnen Sie | Streckenzug AB, BC, CD wie in a → Länge des Streckenzugs in der Wirklichkeit | Drei Streckenlängen addieren
@@ -304,4 +310,5 @@ abitur/abitur-typen.csv (neu): Zu einem Punkt A auf einer Geraden und einem zwei
 2024MgrundlegendBAGLAA2WTR1-1b | 2 | ja | Rechnung · Bestimmen Sie | Strebe von A(3 ¦ 0 ¦ 0) nach E(0 ¦ 2 ¦ 0); zwei Befestigungspunkte teilen sie in drei gleiche Abschnitte → Koordinaten eines Befestigungspunkts | A + 1/3 · AE
 2017MerhoehtBAGLAA2CAS1-1a | 1 | ja | Kurzantwort · Geben Sie an | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → wie tief die Pfosten in den Untergrund hineinreichen | z = 4 − 4,5 = −0,5; die Pfosten reichen 0,5 m unter die x1x2-Ebene
 2017MerhoehtBAGLAA2WTR1-1a | 1 | ja | Kurzantwort · Geben Sie an | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → wie tief die Pfosten in den Untergrund hineinreichen | z = 4 − 4,5 = −0,5; die Pfosten reichen 0,5 m unter die x1x2-Ebene
+2017MgrundlegendBAGLAA2CAS1-1a | 1 | ja | Kurzantwort · Geben Sie an | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m → wie tief die Pfosten in den Untergrund hineinreichen | z = 4 − 4,5 = −0,5; die Pfosten reichen 0,5 m unter die x1x2-Ebene
 2020MgrundlegendBAGLAA2WTR-1c | 3 | ja | Rechnung · Berechnen Sie | Sonnensegel als Dreieck ABC mit A(−1 ¦ 1 ¦ 2), B(−1 ¦ 5 ¦ 2), C(−4 ¦ 3 ¦ 3) zwischen drei Masten; Untergrund = x₁x₂-Ebene; 1 LE = 1 m; die Ebene des Dreiecks hat eine Gleichung der Form x₁ + 3x₃ = j; die zum Untergrund parallele Seite ist 4 % länger als vor dem ersten Aufspannen → Länge dieser Seite vor dem ersten Aufspannen | Seite AB als parallele Seite erkennen, Länge 4 durch 1,04 teilen

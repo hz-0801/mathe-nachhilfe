@@ -298,4 +298,9 @@ Beleg: wie 8.3; abi 2023-bebb-gk-B2.2e (Skizze aus berechneten Punkten H(3 | 4),
 
 ## Sek-II-Nachzug (Teil 4 Punkt 7)
 
-Folgt nach dem CAS-Nachtrag.
+**Ergebnis: kein Vorschlag für eine neue Einheit.** Der Nachzug hat die 155 Katalogzeilen des CAS-Nachtrags (Delta-Stapel 2018-ea-B-cas 85 und 2017-ga-B-cas 38, Nachträge 2017-be-gk-cas 16 und 2018-be-gk-cas 16; Kataloge auf Commit 3de052e) in 29 Sek-II-Einträge eingetragen. 27 neue Typen in 14 Einträgen sind dabei, alle in vorhandenen Einheiten, deren Titel sie tragen. Wo ein Titel einen Typ nur mittelbar trägt, steht die Zuordnung als Ermessen „Nachzug 2026-09-29“ in den Offenen Punkten des Eintrags. Kein Typ verlangt eine Einheit, die es noch nicht gibt.
+
+**Hinweis zu Katalogbefund 8 (kurvenuntersuchung.md).** Der Nachzug hat Einheit 4 drei Zeilen gegeben (2018MerhoehtBAnalysisCAS1-1a, 2018MerhoehtBAnalysisCAS3-1a, 2017MgrundlegendBAnalysisCAS-1c; alle Typ „Graphen einer Funktion in ein Koordinatensystem einzeichnen“). Die Zeilennummern Z. 28, 30 und 130 bleiben gleich. Für die Vorschläge heißt das:
+- **Vorschlag 8.3:** Die erste Klammer der Typzeile heißt jetzt „Graphen einer Funktion in ein Koordinatensystem einzeichnen (8)“ statt „(5)“. Sonst ist Z. 28 wortgleich zum Stand, auf dem der Vorschlag steht. Beim Übernehmen die „(5)“ im Codeblock als „(8)“ lesen. „Zählung Z. 30 unberührt“ gilt weiter; die Zählzeile selbst lautet jetzt „… 10 + 75 + 32 + 20 + 37 = 174 Zeilen“, Einheit 4 hat weiter 11 Haupttypen.
+- **Vorschlag 8.4:** Die Kette Z. 130 hat der Nachzug nicht geändert; der Vorschlag gilt wortgleich.
+- **8.1, 8.2 und 8.5** sind nicht betroffen.

@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Orthogonalität (14 Zeilen)
-- iqb: Orthogonalität (31 Zeilen)
+- iqb: Orthogonalität (32 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
@@ -18,6 +18,9 @@ abitur/abitur-typen.csv (neu): Die Parameterwerte ermitteln, für die ein Dreiec
 **Dreieck: Rechten Winkel eines Dreiecks mit Parameter nachweisen** · 5 Zeilen · abi 2 iqb 3 · Jahre 2018–2026
 abitur/abitur-typen.csv (neu): Zeigen, dass ein Dreieck, dessen Eckpunkt einen Parameter enthält, für jeden Parameterwert einen rechten Winkel hat, weil das Skalarprodukt der Seitenvektoren identisch null ist.
 
+**Dreieck: Nichtrechtwinkligkeit in einem Eckpunkt über das Skalarprodukt nachweisen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2018–2019
+abitur/abitur-typen.csv (neu): Zeigen, dass ein Dreieck in einem Eckpunkt keinen rechten Winkel hat, indem das Skalarprodukt der Schenkelvektoren als ungleich null nachgewiesen wird.
+
 **Dreieck: Rechten Winkel und Kathetenlängen eines Dreiecks nachweisen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2021–2026
 abitur/abitur-typen.csv (neu): Über das Skalarprodukt zweier Seitenvektoren den rechten Winkel eines Dreiecks nachweisen und die Längen der Katheten als Vektorbeträge berechnen.
 
@@ -29,9 +32,6 @@ abitur/abitur-typen.csv (neu): Prüfen, ob zwei Geraden senkrecht zueinander ver
 
 **Dreieck: Koordinate eines Punktes auf einer Kante für einen rechten Winkel über das Skalarprodukt berechnen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Die unbekannte Koordinate eines Punktes auf einer Kante so berechnen, dass ein Dreieck dort einen rechten Winkel hat (Skalarprodukt der Schenkelvektoren null, quadratische Gleichung, Bereich prüfen).
-
-**Dreieck: Nichtrechtwinkligkeit in einem Eckpunkt über das Skalarprodukt nachweisen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2018–2019
-abitur/abitur-typen.csv (neu): Zeigen, dass ein Dreieck in einem Eckpunkt keinen rechten Winkel hat, indem das Skalarprodukt der Schenkelvektoren als ungleich null nachgewiesen wird.
 
 **Geraden und Ebenen: Höhe eines Quaders aus der Orthogonalität der Raumdiagonalen bestimmen und Volumen oder Oberflächeninhalt berechnen** · 2 Zeilen · iqb 2 · Jahre 2026
 abitur/abitur-typen.csv (neu): Die unbekannte Höhe eines Quaders aus dem verschwindenden Skalarprodukt zweier Raumdiagonalen bestimmen und daraus das Volumen oder den Oberflächeninhalt berechnen; welches Maß, steht in der Zeile.
@@ -97,6 +97,7 @@ abitur/abitur-typen.csv (neu): Die unbekannte Koordinate eines Punktes so bestim
 2023MerhoehtAAGLAA221 | 5 | nein | Rechnung · Ermitteln Sie | Dreieck ABC mit A(0; 0; 0), B(3; 5; −4), gleichschenklig und rechtwinklig, AB Kathete, zweite Kathete in der x1x3-Ebene → Koordinaten eines möglichen Punktes C | rechter Winkel in A: Richtung (4; 0; 3) liegt in der x1x3-Ebene und ist senkrecht zu AB; auf die Länge ¦AB¦ bringen
 2020MgrundlegendBAGLAA2WTR-2 | 4 | ja | Begründung · Begründen Sie | Gerade t: x = (−2; 3; −1) + λ · (−1; 0; 3), λ ∈ IR, die die Gerade durch R(−1 ¦ 2 ¦ 3) und S(−1 ¦ 4 ¦ 3) nicht schneidet; zu jedem λ gehört der Punkt T_λ von t, jeder Punkt T_λ hat von R und S den gleichen Abstand; unter den Dreiecken RST_λ hat eines den kleinsten Flächeninhalt; Behauptung: der zugehörige Wert von λ löst (−1 − λ; 0; −4 + 3λ) · (−1; 0; 3) = 0 → Begründung der Gleichung | Flächeninhalt als 1/2 · ¦RS¦ · ¦MT_λ¦ schreiben, Minimum bei minimalem ¦MT_λ¦, d. h. MT_λ senkrecht zu t
 2023MerhoehtBAGLAA2WTR2-1f | 5 | ja | Rechnung · Bestimmen Sie | Q auf AD, R(0¦6¦2) auf BE; Dreieck FQR mit rechtem Winkel bei Q → x₃-Koordinate von Q | Q(6¦3¦q) ansetzen, QR · QF = 0 lösen, Lösung im Kantenbereich wählen
+2018MerhoehtBAGLAA2CAS1-1b | 3 | ja | Begründung · Weisen Sie nach | Das Gebäude eines Museums wird modellhaft durch den abgebildeten Körper ABCDEFG dargestellt; die obere Etage entspricht der Pyramide DEFG, die untere Etage dem Körper ABCDEF, der Teil der Pyramide DEFS ist; die Ebene, in der das Dreieck ABC liegt, beschreibt die Horizontale, das Dreieck DEF liegt parallel zu dieser Ebene; A(−5; 5; 0), B(−5; 25; 0), D(0; 0; 15), E(0; 30; 15), F(−25; 5; 15), G(−10; 10; 35); 1 LE = 1 m; die Bodenfläche der oberen Etage ist das Dreieck DEF → Nachweis, dass die Bodenfläche der oberen Etage nicht rechtwinklig ist | Für jede der drei Ecken das Skalarprodukt zweier Seitenvektoren berechnen; keines ist null, also hat das Dreieck keinen rechten Winkel
 2019MgrundlegendAAGLAA212-a | 2 | nein | Begründung · Zeigen Sie | gerades Prisma ABCDEF mit Grundfläche A(0 ¦ −4 ¦ 0), B(√20 ¦ 0 ¦ 0), C(0 ¦ 4 ¦ 0) → Nachweis, dass das Dreieck ABC bei B nicht rechtwinklig ist | Skalarprodukt der Schenkelvektoren bei B
 2025MerhoehtBAGLAA2MMS-1e | 6 | ja | Rechnung¦Begründung · Ermitteln Sie¦Erläutern Sie | Punkte A(2 ¦ 0 ¦ 0), B(−2 ¦ 0 ¦ 0), C(−2 ¦ 0 ¦ 3), D(2 ¦ 0 ¦ 3), S(0 ¦ −5 ¦ 0), E_k(0 ¦ k ¦ 0), F_k(0 ¦ k ¦ 30 − 3k) mit 0 < k ≤ 10; zusammengesetzter Körper aus der Pyramide ABCDS und dem Körper ABCDE_kF_k; ABCD ist ein Rechteck; Innenwinkel des Dreiecks DF_kC bei F_k → Wert von k, für den dieser Winkel maximal ist, mit Erläuterung des Lösungswegs | Winkelmaximum in die minimale Höhe MF_k übersetzen, Lotbedingung MF_k · (0; 1; −3) = 0 lösen
 2017MgrundlegendAAGLAA211-b | 2 | nein | Rechnung · Ermitteln Sie | Punkte A(−2 ¦ 1 ¦ −2), B(1 ¦ 2 ¦ −1), C(1 ¦ 1 ¦ 4) und für eine reelle Zahl d der Punkt D(d ¦ 1 ¦ 4); das Dreieck ABD ist im Punkt B rechtwinklig → Wert von d | Skalarprodukt der Schenkelvektoren in B mit d ansetzen und gleich null setzen

@@ -5,7 +5,7 @@ Stufe: II
 - abi: Zufallsgrößen und Verteilungen (1 Zeilen)
 - iqb: Zufallsgrößen und Verteilungen (5 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

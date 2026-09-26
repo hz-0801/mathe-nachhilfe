@@ -3,13 +3,13 @@
 Stufe: II
 
 - abi: Ebenen (21 Zeilen)
-- iqb: Ebenen (33 Zeilen)
+- iqb: Ebenen (34 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
-**Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen** · 25 Zeilen · abi 10 iqb 15 · Jahre 2017–2026
+**Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen** · 26 Zeilen · abi 10 iqb 16 · Jahre 2017–2026
 abitur/abitur-typen.csv (neu): Die Koordinatengleichung einer Ebene bestimmen, die durch drei Punkte oder durch zwei sich schneidende Geraden gegeben ist: Normalenvektor aus zwei Richtungsvektoren (Skalarprodukte oder Ansatz mit Einsetzen), Konstante aus einem Punkt.
 
 **Koordinatengleichung einer parallelen Ebene durch einen Punkt aufstellen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2019–2020
@@ -107,6 +107,7 @@ abitur/abitur-typen.csv (neu): Beurteilen, ob eine durch eine Gleichung gegebene
 2017MerhoehtBAGLAA2CAS1-1d | 3 | ja | Rechnung · Bestimmen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; die Punkte E, F und S liegen in einer Ebene L; zur Kontrolle: 5x1 − x2 + 13x3 = 65 → eine Gleichung von L in Koordinatenform | L: x = OE + r · EF + s · ES; aus x1 = 2 + r − 2s, x2 = −3 + 5r + 3s, x3 = 4 + s die Parameter eliminieren
 2017MerhoehtBAGLAA2WTR1-1d | 4 | ja | Rechnung · Bestimmen Sie | Ein Turm auf einem Spielplatz besteht aus vier 4,50 m langen, vertikal stehenden Pfosten, vier horizontalen Balken und einem Dach in Form einer geraden Pyramide; die Dicke der Bauteile wird vernachlässigt; die Enden der Pfosten sind A(2; −3; z), B, C und D(−3; −2; z) mit z ∈ IR sowie E(2; −3; 4), F(3; 2; 4), G(−2; 3; 4) und H; die Spitze des Dachs ist S(0; 0; 5); die x1x2-Ebene ist der Untergrund, 1 LE = 1 m; die Punkte E, F und S liegen in einer Ebene L → eine Gleichung von L in Koordinatenform | L: x = OE + r · EF + s · ES; aus x1 = 2 + r − 2s, x2 = −3 + 5r + 3s, x3 = 4 + s die Parameter eliminieren
 2017MerhoehtBAGLAA2WTR2-1c | 4 | ja | Rechnung · Ermitteln Sie | Viereck ABCD mit A(0; 0; 1), B(2; 6; 1), C(−4; 8; 5) und D(−6; 2; 5) in einem kartesischen Koordinatensystem; der Schnittpunkt der Diagonalen heißt M; das Rechteck ABCD liegt in einer Ebene E; zur Kontrolle 3x1 − x2 + 5x3 − 5 = 0 → eine Gleichung von E in Koordinatenform | Parameterform mit Stützvektor OA und Spannvektoren AB, AC aufstellen und die Parameter eliminieren (oder Normalenvektor über das Vektorprodukt)
+2017MgrundlegendBAGLAA2CAS2-1d | 3 | ja | Rechnung · Bestimmen Sie | Gerade Pyramide ABCDS mit A(0; 0; 0), B(5; 0; 0), C(5; 5; 0), D(0; 5; 0) und der Spitze S(2,5; 2,5; 3,9) in einem kartesischen Koordinatensystem; die Punkte A, B und S liegen in einer Ebene E; zur Kontrolle: E: −39y + 25z = 0 → Gleichung von E in Koordinatenform | Parameterform E: x = OA + r · AB + s · AS aufstellen und aus x = 5r + 2,5s, y = 2,5s, z = 3,9s die Parameter eliminieren (oder Normalenvektor AB × AS)
 2017MgrundlegendBAGLAA2WTR2-1d | 4 | ja | Rechnung · Ermitteln Sie | Punkte A(0; 0; 1), B(2; 6; 1) und C(−4; 8; 5) in einem kartesischen Koordinatensystem; D(−6; 2; 5); das Rechteck ABCD liegt in einer Ebene E; zur Kontrolle 3x1 − x2 + 5x3 − 5 = 0 → eine Gleichung von E in Koordinatenform | Parameterform mit Stützvektor OA und Spannvektoren AB, AC aufstellen, die Parameter eliminieren (oder Normalenvektor über das Vektorprodukt) und die Konstante mit A bestimmen
 2018MerhoehtAAGLAA212-b | 3 | nein | Rechnung · Bestimmen Sie | E enthält g und h aus a → Gleichung von E in Koordinatenform | Normalenvektor aus den Richtungsvektoren, Konstante über den Schnittpunkt
 2021MgrundlegendBAGLAA2WTR1-1b | 3 | ja | Rechnung · Bestimmen Sie | Holzkörper mit den Eckpunkten A(0 ¦ 0 ¦ 0), B(10 ¦ 0 ¦ 0), C(10 ¦ 10 ¦ 0), D(0 ¦ 10 ¦ 0) und E(0 ¦ 10 ¦ 6) (Pyramide über dem Quadrat ABCD, Spitze E senkrecht über D); B, D und E liegen in der Symmetrieebene des Körpers; 1 LE = 1 cm → Koordinatengleichung der Ebene L durch B, C, E | Parameterform aufstellen und Parameter eliminieren

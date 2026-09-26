@@ -3,10 +3,10 @@
 Stufe: II
 
 - fhr: Ableitungen bilden (8 Zeilen)
-- abi: Ableitungsregeln (8 Zeilen)
+- abi: Ableitungsregeln (9 Zeilen)
 - iqb: Ableitungsregeln (12 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
@@ -16,11 +16,11 @@ abitur/abitur-typen.csv (neu): Eine vorgegebene erste oder zweite Ableitung eine
 **Ableitung ganzrationale Funktion** · 6 Zeilen · fhr 6 · Jahre 2023–2026
 fhr/fhr-typen.csv (geprüft): Erste bis dritte Ableitung einer ganzrationalen Funktion mit Potenz-, Faktor- und Summenregel bilden.
 
+**Ableitung eines Produkts aus x und einer e-Funktion mit Produkt- und Kettenregel bilden** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017–2022
+abitur/abitur-typen.csv (neu): Die Ableitung eines Terms p(x) · e^(g(x)) (p Polynom, auch nur x) mit Produkt- und Kettenregel bilden und den gemeinsamen Faktor ausklammern.
+
 **Ableitung mit Parameter in faktorisierter Form nachweisen** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2025
 abitur/abitur-typen.csv (neu): Eine vorgegebene faktorisierte Ableitung einer ganzrationalen Funktion mit Parameter durch Ableiten und Ausklammern nachweisen.
-
-**Ableitung eines Produkts aus x und einer e-Funktion mit Produkt- und Kettenregel bilden** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
-abitur/abitur-typen.csv (neu): Die Ableitung eines Terms p(x) · e^(g(x)) (p Polynom, auch nur x) mit Produkt- und Kettenregel bilden und den gemeinsamen Faktor ausklammern.
 
 **Verhalten im Unendlichen bestimmen** · 2 Zeilen · fhr 2 · Jahre 2021–2022
 fhr/fhr-typen.csv (geprüft): Aus Grad und Vorzeichen des Leitkoeffizienten das Verhalten von f für x gegen plus und minus unendlich angeben.
@@ -46,7 +46,7 @@ abitur/abitur-typen.csv (neu): Aus den ersten Ableitungen einer Funktion wie c �
 **Verschiebung zwischen Graph und hundertster Ableitung berechnen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Für eine e-Funktion die n-te Ableitung als Vielfaches erkennen und die Verschiebung in x-Richtung, die den Graphen in den der Ableitung überführt, über eine Exponentialgleichung berechnen.
 
-**Nebentypen:** Ableitung ganzrationale Funktion (2) · Anstieg des Graphen an einer Stelle berechnen (2) · Krümmungsverhalten aus der zweiten Ableitung deuten (2) · Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen (1) · Extrempunkt über notwendige Bedingung ausschließen (1) · Punktprobe am Graphen (1) · Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben (1)
+**Nebentypen:** Ableitung ganzrationale Funktion (2) · Anstieg des Graphen an einer Stelle berechnen (2) · Krümmungsverhalten aus der zweiten Ableitung deuten (2) · Extrempunkt eines Produkts aus Polynom und e-Funktion berechnen (1) · Extrempunkt über notwendige Bedingung ausschließen (1) · Lage und Art aller lokalen Extrempunkte bestimmen (1) · Punktprobe am Graphen (1) · Stellen mit waagerechter Tangente aus der faktorisierten Ableitung angeben (1) · Wendepunkte über die zweite Ableitung berechnen (1)
 
 ## B Zeilenliste
 
@@ -62,6 +62,7 @@ abitur/abitur-typen.csv (neu): Für eine e-Funktion die n-te Ableitung als Vielf
 2022-B-1a | 5 | ja | Kurzantwort¦Rechnung · Geben Sie an¦Notieren Sie | f(x) = 3x^3 − x^2 − 20x − 12; x aus IR → Verhalten der Funktionswerte im Unendlichen¦erste, zweite und dritte Ableitung von f | am Summanden höchsten Grades das Verhalten für beide Richtungen ablesen, dann die Potenz-, Faktor- und Summenregel dreimal hintereinander anwenden
 ## abi
 
+2017-be-gk-cas-B1.2b | 9 | ja | Rechnung¦Kurzantwort · Bilden Sie¦Geben Sie an¦Bestimmen Sie¦Ermitteln Sie | Die äußere Kante eines geplanten Dachelements wird im Intervall [0; 2] annähernd durch f mit f(x) = (x² − 2x + 1) · e^(−x) beschrieben, 1 LE = 10 m. Der Graph von f hat zwei Wendepunkte. → erste Ableitung von f mit Angabe der verwendeten Ableitungsregeln; Art und Lage aller Extrempunkte des Graphen von f; Koordinaten der beiden Wendepunkte | Mit Produkt- und Kettenregel: f′(x) = (2x − 2) · e^(−x) − (x² − 2x + 1) · e^(−x) = (−x² + 4x − 3) · e^(−x). f′(x) = 0 liefert x = 1 und x = 3; die Art über f″(x) = (x² − 6x + 7) · e^(−x) oder über den Vorzeichenwechsel von f′. Die Wendestellen aus f″(x) = 0: x = 3 ± √2 (mit dem CAS), Funktionswerte einsetzen.
 2022-bebb-lk-B2.2b | 2 | ja | Rechnung · Bestimmen Sie | f wie in a; Kontrolle f'(x) = (1 − x²) · e^(−x²/2 + 1/2) → Term von f' | Produkt- und Kettenregel, ausklammern
 2018-bb-ea-B2.1e | 8 | ja | Rechnung¦Begründung · Weisen Sie nach¦Erläutern Sie | Die Funktion f_2 mit f_2(x) = (x² + 2) · e^(0,5 − x) aus der Schar f_a; ihre erste Ableitung ist f_2′(x) = (−x² + 2x − 2) · e^(0,5 − x). → Nachweis von f_2″(x) = (x − 2)² · e^(0,5 − x); Schlussfolgerungen über den Verlauf von G_2 | f_2′ nochmals mit Produkt- und Kettenregel ableiten und den Term als vollständiges Quadrat zusammenfassen. Dann das Vorzeichen beurteilen: Quadrat und Exponentialfaktor sind nicht negativ, die Nullstelle bei x = 2 ist doppelt, also ohne Vorzeichenwechsel.
 2018-bb-ea-cas-B2.1e | 7 | ja | Rechnung¦Begründung · Weisen Sie nach¦Erläutern Sie | Die Funktion f_2 mit f_2(x) = (x² + 2) · e^(0,5 − x) aus der Schar f_a mit f_a(x) = (x² + a) · e^(0,5 − x), a ∈ IR. → Nachweis von f_2″(x) = (x − 2)² · e^(0,5 − x); Schlussfolgerungen über den Verlauf von G_2 | f_2 zweimal ableiten (mit dem CAS oder mit Produkt- und Kettenregel, die erste Ableitung aus d) und den Term als vollständiges Quadrat zusammenfassen. Dann das Vorzeichen beurteilen: Quadrat und Exponentialfaktor sind nicht negativ, die Nullstelle bei x = 2 ist doppelt, also ohne Vorzeichenwechsel.

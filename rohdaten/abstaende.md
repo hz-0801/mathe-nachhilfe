@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Abstände (30 Zeilen)
-- iqb: Abstände (41 Zeilen)
+- iqb: Abstände (42 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
@@ -26,6 +26,9 @@ abitur/abitur-typen.csv (neu): Den Punkt einer Geraden berechnen, dessen Verbind
 
 **Lösungsweg für den Lotfußpunkt eines Punktes auf einer Geraden beschreiben** · 3 Zeilen · abi 1 iqb 2 · Jahre 2017–2022
 abitur/abitur-typen.csv (neu): Beschreiben, wie der Punkt einer Geraden mit kleinstem Abstand zu einem gegebenen Punkt bestimmt wird: Punkt der Geraden mit Parameter, Orthogonalität des Verbindungsvektors zum Richtungsvektor.
+
+**Punkt auf einer Strecke mit vorgegebenem Abstand zu einer Ebene bestimmen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2018
+abitur/abitur-typen.csv (neu): Den Parameter eines Punktes auf einer Strecke so bestimmen, dass sein über die Hessesche Normalform berechneter Abstand zu einer gegebenen Ebene einen vorgegebenen Wert annimmt.
 
 **Punkt mit gleichem Abstand zu allen Seitenflächen über die Symmetrieachse bestimmen** · 3 Zeilen · abi 2 iqb 1 · Jahre 2017
 abitur/abitur-typen.csv (neu): Aus der Symmetrie eines Körpers schließen, dass der gesuchte Punkt auf der Mittelsenkrechten liegt, und seine verbleibende Koordinate aus einer Abstandsbedingung zu einer Seitenfläche bestimmen.
@@ -50,9 +53,6 @@ abitur/abitur-typen.csv (neu): Ein vorgegebenes Gleichungspaar (Punkt auf einer 
 
 **Lösungsweg für den Punkt gleichen Abstands zu allen Seitenflächen einer Pyramide erläutern** · 2 Zeilen · abi 1 iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Einen vorgelegten Lösungsweg mit Lotgerade, Lotfußpunkt und Abstandsgleichheit zur Grundfläche für den Mittelpunkt der Inkugel einer Pyramide erläutern.
-
-**Punkt auf einer Strecke mit vorgegebenem Abstand zu einer Ebene bestimmen** · 2 Zeilen · abi 2 · Jahre 2018
-abitur/abitur-typen.csv (neu): Den Parameter eines Punktes auf einer Strecke so bestimmen, dass sein über die Hessesche Normalform berechneter Abstand zu einer gegebenen Ebene einen vorgegebenen Wert annimmt.
 
 **Punkte mit vorgegebenem Abstandsverhältnis zu zwei senkrechten Geraden über innere und äußere Teilung bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017
 abitur/abitur-typen.csv (neu): Punkte einer Koordinatenebene bestimmen, deren Abstände zu zwei senkrechten Geraden ein vorgegebenes Verhältnis haben, indem die Fußpunkte der Geraden verbunden und innerer und äußerer Teilpunkt der Verbindungsstrecke berechnet werden.
@@ -117,7 +117,7 @@ abitur/abitur-typen.csv (neu): Aus einer Parameterdarstellung einer Flugkurve de
 **Untere Schranke für den Abstand zweier Punkte mit einer unbekannten Koordinate nachweisen** · 1 Zeile · iqb 1 · Jahre 2019
 abitur/abitur-typen.csv (neu): Zeigen, dass der Abstand zweier Punkte, von denen einer eine unbekannte Koordinate hat, einen Wert nicht unterschreitet (Abstandsterm aufstellen, nichtnegatives Quadrat abschätzen).
 
-**Nebentypen:** Abstand eines Punktes von einer Ebene mit der Hesseschen Normalform berechnen (3) · Punkt: Mittelpunkt einer Strecke im Raum bestimmen (3) · Streckenlänge berechnen (3) · Beziehung zweier Parameter mit einer abgebildeten Geraden abgleichen (2) · Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen (2) · Gleichschenkligkeit eines dritten Dreiecks aus zwei Gleichschenkligkeiten begründen (1) · Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen (1) · Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen (1) · Neigung einer Strecke in Prozent aus Höhendifferenz und Horizontalabstand berechnen (1)
+**Nebentypen:** Abstand eines Punktes von einer Ebene mit der Hesseschen Normalform berechnen (3) · Punkt: Mittelpunkt einer Strecke im Raum bestimmen (3) · Streckenlänge berechnen (3) · Beziehung zweier Parameter mit einer abgebildeten Geraden abgleichen (2) · Koordinatengleichung einer Ebene aus Punkten oder Geraden bestimmen (2) · Punkt auf einer Geraden mit vorgegebenem Abstand zum Aufpunkt bestimmen (2) · Gleichschenkligkeit eines dritten Dreiecks aus zwei Gleichschenkligkeiten begründen (1) · Körper: Geschwindigkeit entlang einer Kante aus Kantenlänge und Zeit berechnen (1) · Neigung einer Strecke in Prozent aus Höhendifferenz und Horizontalabstand berechnen (1)
 
 ## B Zeilenliste
 
@@ -180,6 +180,7 @@ abitur/abitur-typen.csv (neu): Zeigen, dass der Abstand zweier Punkte, von denen
 2026MgrundlegendAAGLAA112-b | 3 | nein | Rechnung · Berechnen Sie | Dreieck ABC mit A(0; 0; 0), B(6; 2; 3) und C(t; −3t; 0), t positiv, rechtwinklig in A; das Dreieck ist gleichschenklig → Wert von t | im rechtwinkligen gleichschenkligen Dreieck sind die Katheten AB und AC gleich lang: ¦AB¦ = 7 und ¦AC¦ = √(t^2 + 9t^2) = √10 · t gleichsetzen
 2017MgrundlegendAAGLAA22-b | 3 | nein | Kurzantwort¦Begründung · Geben Sie an¦Begründen Sie | Punkt P(−3 ¦ 2 ¦ 1), Gerade g: x = OP + r · (1; 3; 0), r ∈ IR, und für eine reelle Zahl a der Punkt Q(0 ¦ a ¦ 0); die Strecke PQ steht senkrecht zu g; a = 1, also Q(0 ¦ 1 ¦ 0) (aus a); zwei Parameterwerte r1 und r2 liefern die Punkte R1 und R2 auf g → alle Wertepaare (r1; r2), für die R1 und R2 den gleichen Abstand von Q haben, mit Begründung | Weil PQ senkrecht zu g steht, ist P (r = 0) der Lotfußpunkt; nach Pythagoras haben R1 und R2 genau dann gleichen Abstand von Q, wenn sie gleich weit von P entfernt sind, also r2 = −r1
 2021MgrundlegendBAGLAA2WTR2-1e | 5 | ja | Zeichnen¦Rechnung · Berechnen Sie | Ebene Rasenfläche mit den Eckpunkten A(0 ¦ 0 ¦ 0), B(18 ¦ 0 ¦ 1,5), C(12 ¦ 10 ¦ 1), D(12 ¦ 15 ¦ 1), E(0 ¦ 15 ¦ 0); AB ∥ DE; 1 LE = 1 m; Mähroboter: Mittelpunkt der kreisförmigen Unterseite (Radius 20 cm) berührt die Fläche, Start P(3,6 ¦ 8 ¦ 0,3), Bewegung entlang der Geraden g durch P mit Richtungsvektor (12; −4; 1) auf den Rand BC zu; Q(15,6 ¦ 4 ¦ 1,3), Winkel φ ≈ 41°; der Roboter ändert die Richtung, sobald der Rand seiner Unterseite (Radius 0,2) den Rand BC erreicht; S = Position des Mittelpunkts in diesem Moment → Koordinaten von S mithilfe einer geeigneten Skizze | ¦QS¦ = 0,2/sin φ aus der Skizze, S von Q aus um ¦QS¦ entgegen der Bewegungsrichtung
+2018MerhoehtBAGLAA2CAS1-1f | 7 | ja | Rechnung · Berechnen Sie | Das Gebäude eines Museums wird modellhaft durch den abgebildeten Körper ABCDEFG dargestellt; die obere Etage entspricht der Pyramide DEFG, die untere Etage dem Körper ABCDEF, der Teil der Pyramide DEFS ist; die Ebene, in der das Dreieck ABC liegt, beschreibt die Horizontale, das Dreieck DEF liegt parallel zu dieser Ebene; A(−5; 5; 0), B(−5; 25; 0), D(0; 0; 15), E(0; 30; 15), F(−25; 5; 15), G(−10; 10; 35); 1 LE = 1 m; R(−50/7; 50/7; 15) ist der Schnittpunkt der Gerade AG mit der Ebene des Dreiecks DEF; an einer Metallstange, die durch die Strecke RG dargestellt wird, ist ein Scheinwerfer befestigt, dessen Größe vernachlässigt wird; er beleuchtet aus einer Entfernung von 5 m die Wand, die im Modell durch das Dreieck EFG dargestellt wird → Koordinaten des Punkts, der die Position des Scheinwerfers im Modell beschreibt | Ebene EFG aus x = OE + u · EF + v · EG in Koordinatenform bringen; Punkte der Strecke RG als (−5 − 5t; 5 + 5t; 35t) mit 3/7 <= t <= 1 ansetzen; Abstand zur Ebene gleich 5 setzen und die Lösung auf der Strecke wählen
 2017MerhoehtBAGLAA2CAS2-1c | 4 | ja | Rechnung · Ermitteln Sie | Ein geschlossenes Zelt auf horizontalem Untergrund hat die Form einer Pyramide mit quadratischer Grundfläche; die seitlichen Kanten bilden vier gleich lange Stangen; das Zelt ist 3,90 m hoch, die Seitenlänge des Zeltbodens beträgt 5,00 m; Modell: Pyramide ABCDS mit Spitze S, A im Koordinatenursprung, B auf dem positiven Teil der x-Achse, D auf dem positiven Teil der y-Achse, C(5; 5; 0), M Mittelpunkt der Grundfläche; das Dreieck ABS liegt in der Ebene E: −39y + 25z = 0; 1 LE = 1 m; im Zelt ist eine Lichtquelle so aufgehängt, dass sie von jeder der vier Wände einen Abstand von 80 cm hat → Koordinaten des Punkts, der die Lichtquelle im Modell darstellt | Wegen der Symmetrie liegt der Punkt auf der Achse durch M und S: (2,5; 2,5; z_L); ¦−39 · 2,5 + 25 · z_L¦/√(39^2 + 25^2) = 0,8 mit z_L <= 3,9 lösen
 2024MerhoehtAAGLAA221-b | 3 | nein | Rechnung · Bestimmen Sie | Oktaeder im Würfel der Kantenlänge 12; A(1; 2; 1), C(−3; −6; 9) in H: 2 x1 + x2 + 2 x3 = 6; zwei Ecken des Oktaeders liegen nicht in H → Koordinaten einer dieser beiden Ecken | Mittelpunkt M von AC ist der Würfelmittelpunkt; die fehlenden Ecken liegen im Abstand 6 (halbe Kante) senkrecht zu H, also M ± 6 · n/¦n¦
 2025MgrundlegendAAGLAA221-b | 3 | nein | Rechnung · Bestimmen Sie | E: x = (1; −3; 0) + r · (−3; 4; 1) + s · (3; −4; 0); (4; 3; 0) ist Normalenvektor von E; gesucht ist ein Punkt P, dessen Spiegelbild an E von P den Abstand 20 hat → Koordinaten eines solchen Punktes P | P muss Abstand 10 zu E haben; ¦(4; 3; 0)¦ = 5, also vom Ebenenpunkt (1; −3; 0) aus 2 · (4; 3; 0) abtragen

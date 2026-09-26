@@ -1,5 +1,5 @@
 # Verweise und Namen – Prüfung des Themenkatalogs
-Stand 2026-09-26, Katalog auf Commit ca3237b.
+Stand 2026-09-26, Katalog auf Commit 3de052e.
 Erzeugt von `werkzeuge/verweis-pruef.py` (v0.2) aus den Einträgen, `themen.csv`, `abitur/abitur-vokabular.md`, den vier `abitur/abi-*-geltung.md` und den Typenkatalogen `msa/msa-typen.csv` und `fhr/fhr-typen.csv`; abgeleitet, nie von Hand ändern. Fünf Prüfungen der inneren Stimmigkeit vor dem Umbau der Blatt-Prompte: Dateiverweise, Einheitennummern, Namensgleichheit, Gegenrichtung, Formlücke. Befunde werden berichtet, nicht behoben; wo eine Zuordnung nicht eindeutig ist, steht der Fall in einer eigenen Liste statt in einer Entscheidung.
 
 Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie in `werkzeuge/tragfaehigkeit.py` (v0.2), importiert, nicht nachgebaut: Verweis = Zeichenkette der Form `<name>.md` (auch in Klammern oder Backticks; ein Pfad davor wird mitgenommen), Blatt-0-Abschnitt = „### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, Nennung in Wortform = „Thema “ vor einem Großbuchstaben (Heuristik; folgt dem Titel unmittelbar „ (<name>.md“, ist es ein Verweis und keine Nennung in Wortform), Fundort einer Datei außerhalb von `katalog/` = Suche im Repo nach dem Dateinamen. Abschnitt einer Fundstelle = die nächste Überschrift davor (#, ##, ###); in den Listen abgekürzt: Kopf (Titel und Statuszeilen), Verortung, Lerneinheiten, Typen (Typen je Lerneinheit), Blatt 0, Merkkasten, Fehler (Typische Fehler), Schwache (Für schwache Schüler), Prüfungsform, Offene Punkte, Prüfliste. Zeilennummern zählen ab 1 in der Datei. Zahl der Lerneinheiten eines Eintrags = Zeilen im Abschnitt „### Lerneinheiten“, die mit „<n>. “ beginnen.
@@ -7,7 +7,7 @@ Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie i
 ## 1 Dateiverweise
 Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 0. Gruppe (a): das Ziel liegt in `katalog/` (Katalogeintrag, Selbstverweis, Katalogeintrag mit Pfadangabe oder eine andere Datei des Ordners); Gruppe (b): das Ziel liegt anderswo im Repo (ohne Pfadangabe über den Fundort, mit Pfadangabe über den Pfad relativ zur Wurzel); Gruppe (c): keine Datei dieses Namens im Repo. Gruppe (b) und (c) vollständig, je Ziel eine Zeile und darunter je Quelldatei die Abschnitte (×n = mehrfach im Abschnitt).
 
-2999 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2761 – davon 2619 auf andere Katalogeinträge, 54 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 87 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 238 Verweise auf 55 Dateien. Gruppe (c) Ziel gibt es nicht: 0 Verweise auf 0 Namen.
+3006 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2767 – davon 2625 auf andere Katalogeinträge, 54 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 87 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 239 Verweise auf 56 Dateien. Gruppe (c) Ziel gibt es nicht: 0 Verweise auf 0 Namen.
 
 ### Gruppe (b) – Ziel anderswo im Repo
 - **abi-pruefungen.md** (liegt in abitur/) – 4 Verweise aus 2 Einträgen
@@ -28,6 +28,8 @@ Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 
 - **befund-geltung-2026-09-21.md** (liegt in Wurzel) – 6 Verweise aus 2 Einträgen
   - konfidenzintervalle.md (Kopf, Prüfungsform, Offene Punkte)
   - matrizen-und-uebergangsprozesse.md (Kopf, Prüfungsform, Offene Punkte)
+- **befund-testlauf-2026-09-25.md** (liegt in Wurzel) – 1 Verweis aus 1 Eintrag
+  - quadratische-funktionen.md (Kopf)
 - **faellig.md** (liegt in Wurzel) – 53 Verweise aus 43 Einträgen
   - ableitung-und-aenderungsrate.md (Offene Punkte)
   - ableitungsgraph-und-funktionsgraph.md (Offene Punkte)
@@ -330,7 +332,7 @@ Verweise auf Katalogeinträge mit Pfadangabe (`katalog/<name>.md`; zählen in `t
 ## 2 Einheitennummern
 Eine Einheitenangabe ist „Einheit n“ oder „Einheiten n“ mit einer oder zwei Ziffern, fortgesetzt mit „und“, „bis“, „–“, Komma oder Schrägstrich („Einheit 6 und 8“, „Einheiten 2 bis 4“, „Einheit 2, 3 und 5“). Sie steht hinter einem Verweis, wenn zwischen `<name>.md` und „Einheit“ nur Leerraum, ein Komma oder eine öffnende Klammer steht („x.md Einheit 4“, „x.md, Einheit 4“, „x.md (Einheit 4)“) – oder, in der Klammerform der Blatt-0-Abschnitte seit Commit cfa4723, davor noch der Rest des Klammerinhalts und die schließende Klammer („Thema Terme (terme.md), Einheit 2“, „Kreis (kreis.md) Einheit 2“, „(x.md, Blatt 0), Einheit 2“; „Lineare Funktionen (lineare-funktionen.md, Blatt 0)“ ohne Angabe dahinter bekommt keine); dann wird die größte genannte Nummer gegen die Zahl der Lerneinheiten der Zieldatei gehalten. Nicht eindeutig zuordenbar und deshalb nur gelistet: (1) der Verweis davor steht in einer Reihung („a.md und b.md Einheit 2“, „a.md, b.md Einheit 2“) – welcher gemeint ist, steht nicht da; (2) zwischen Verweis und Angabe stehen bis zu 4 Wörter ohne Satz- oder Klammerende („x.md, dessen Einheit 5“, „x.md (Sek I, Einheit 3)“) – hier kann auch eine eigene Einheit gemeint sein; (3) die Angabe steht vor dem Verweis mit „in“, „im“, „von“, „aus“, „der“, „des“ oder „bei“ dazwischen („Einheit 4 in x.md“). Alle anderen Einheitenangaben – ohne Verweis in der Zeile, hinter einem Satzende oder weiter entfernt – gelten als eigene Einheiten des Eintrags und werden nicht geprüft; Angaben an Nennungen in Wortform („Thema Terme, Einheit 2“) haben keinen Verweis, dem sie zugeordnet werden könnten (die in Blatt 0 stehen unter Prüfung 5).
 
-3966 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 532 (532 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 25. Die übrigen 3409 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
+4029 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 532 (532 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 25. Die übrigen 3472 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
 
 ### Nummer größer als vorhanden
 - lineare-gleichungssysteme.md (Schwache, Zeile 122): „rekonstruktion-von-funktionsgleichungen.md … Einheit 5“ – 3 vorhanden; Zitat: …hungssystem ist dort Werkzeug der Rekonstruktion (rekonstruktion-von-funktionsgleichungen.md), Einheit 5 ist für fhr Vorrat.
@@ -422,7 +424,7 @@ Ohne `thema`-Wert in `themen.csv` (kein Prüfungsthema; H1 zum Nachlesen):
 ## 4 Gegenrichtung
 Nennt Eintrag A unter „Voraussetzungen (Blatt 0)“ den Eintrag B (Kante wie in `tragfaehigkeit.py`: Verweis `<B>.md` ohne Pfad, kein Selbstverweis), wird geprüft, ob B irgendwo in seinem Text `<A>.md` nennt (auch als `katalog/<A>.md`; Nennungen in Wortform zählen nicht). Fehlt das, ist (A, B) ein Paar. Nur aufgelistet, nicht bewertet.
 
-511 Blatt-0-Verweise auf andere Katalogeinträge (Kanten A → B); 282 davon ohne Gegenrichtung: B nennt A.md in keinem Abschnitt. Gruppiert nach B (dort stünde die Erwähnung), 46 Einträge B betroffen.
+511 Blatt-0-Verweise auf andere Katalogeinträge (Kanten A → B); 281 davon ohne Gegenrichtung: B nennt A.md in keinem Abschnitt. Gruppiert nach B (dort stünde die Erwähnung), 46 Einträge B betroffen.
 - **ableitungsregeln** (3): funktionsscharen-und-ortskurven, integrationsregeln, rekonstruktion-von-funktionsgleichungen
 - **abstaende** (1): flaecheninhalt-und-volumen-im-raum
 - **binomialverteilung** (1): konfidenzintervalle
@@ -435,7 +437,7 @@ Nennt Eintrag A unter „Voraussetzungen (Blatt 0)“ den Eintrag B (Kante wie i
 - **flaecheninhalt-durch-integration** (2): normalverteilung-und-sigma-regeln, umkehrfunktion
 - **funktionsklassen-und-eigenschaften** (1): rekonstruktion-von-bestaenden
 - **funktionsscharen-und-ortskurven** (1): lagebeziehungen
-- **gleichungen-loesen** (9): abstaende, bedingte-wahrscheinlichkeit-und-bayes, binomialverteilung, einheiten, extremalprobleme, konfidenzintervalle, scharen-von-geraden-und-ebenen, umkehrfunktion, zufallsexperimente-und-pfadregeln
+- **gleichungen-loesen** (8): abstaende, bedingte-wahrscheinlichkeit-und-bayes, binomialverteilung, einheiten, konfidenzintervalle, scharen-von-geraden-und-ebenen, umkehrfunktion, zufallsexperimente-und-pfadregeln
 - **grenzwerte-und-verhalten-im-unendlichen** (1): umkehrfunktion
 - **koerper** (6): ebenen, flaecheninhalt-und-volumen-im-raum, punkte-und-strecken-im-koordinatensystem, rotationsvolumen, schnittmengen, vektoren-und-rechenoperationen
 - **kreis** (9): abstaende, daten, flaecheninhalt-durch-integration, flaecheninhalt-und-volumen-im-raum, punkte-und-strecken-im-koordinatensystem, pythagoras, skalarprodukt-und-winkel, strahlensaetze, zufallsexperimente-und-pfadregeln

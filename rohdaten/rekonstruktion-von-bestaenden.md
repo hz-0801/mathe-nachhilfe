@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Rekonstruktion von Beständen (8 Zeilen)
-- iqb: Rekonstruktion von Beständen (22 Zeilen)
+- iqb: Rekonstruktion von Beständen (23 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
@@ -21,6 +21,9 @@ abitur/abitur-typen.csv (neu): Den Zeitpunkt des maximalen Bestands als die Null
 **Bestand nach einem Zeitraum aus Anfangsbestand und Integral der Änderungsrate berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2021
 abitur/abitur-typen.csv (neu): Den Bestand am Ende eines Zeitraums als Summe aus Anfangsbestand und bestimmtem Integral der Änderungsrate berechnen.
 
+**Bestandsänderung grafisch als Fläche unter dem Ratengraphen bestimmen** · 2 Zeilen · iqb 2 · Jahre 2017–2021
+abitur/abitur-typen.csv (neu): Die Änderung eines Bestands in einem Zeitraum als Fläche unter dem abgebildeten Graphen der Änderungsrate durch Auszählen der Kästchen näherungsweise bestimmen.
+
 **Funktion als Bestandsfunktion über Ableitung und Anfangswert begründen und Endwert bestätigen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2023
 abitur/abitur-typen.csv (neu): Begründen, dass eine gegebene Funktion s den Bestand beschreibt, weil s' gleich der Rate ist und s zum Startzeitpunkt den Anfangsbestand hat, und einen Bestandswert (etwa null am Ende) nachrechnen.
 
@@ -32,9 +35,6 @@ abitur/abitur-typen.csv (neu): Die Zunahme eines Bestands in einem Zeitraum als 
 
 **Anfangsbestand aus Endbestand und Fläche unter dem Ableitungsgraphen ermitteln** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Einen Bestand zu Beginn aus einem späteren Bestand und der am Ableitungsgraphen geschätzten Fläche (Integral der Änderungsrate) ermitteln.
-
-**Bestandsänderung grafisch als Fläche unter dem Ratengraphen bestimmen** · 1 Zeile · iqb 1 · Jahre 2021
-abitur/abitur-typen.csv (neu): Die Änderung eines Bestands in einem Zeitraum als Fläche unter dem abgebildeten Graphen der Änderungsrate durch Auszählen der Kästchen näherungsweise bestimmen.
 
 **Gleichheit der Flächen unter Eingangs- und Ausgangsrate als gleiche Gesamtzahl im Sachzusammenhang erläutern** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Die Flächen unter zwei Ratengraphen als Gesamtzahlen (Zugänge, Abgänge) deuten und daraus erläutern, dass zwei Teilflächen gleich groß sind, weil die Gesamtzahlen übereinstimmen.
@@ -66,7 +66,7 @@ abitur/abitur-typen.csv (neu): Die in einem Zeitraum zurückgelegte Strecke als 
 **Zurückgelegte Strecke aus dem Integral der Geschwindigkeit und einer Phase konstanter Geschwindigkeit berechnen** · 1 Zeile · iqb 1 · Jahre 2024
 abitur/abitur-typen.csv (neu): Einen Weg als Integral einer Geschwindigkeitsfunktion über die Beschleunigungsphase plus Produkt aus konstanter Geschwindigkeit und Zeit berechnen.
 
-**Nebentypen:** Prozentuale Abweichung eines Näherungswerts vom exakten Wert berechnen (2)
+**Nebentypen:** Prozentuale Abweichung eines Näherungswerts vom exakten Wert berechnen (2) · Graph einer Stammfunktion durch einen Punkt skizzieren (1)
 
 ## B Zeilenliste
 
@@ -85,6 +85,7 @@ abitur/abitur-typen.csv (neu): Einen Weg als Integral einer Geschwindigkeitsfunk
 2024MgrundlegendBAnalysisWTR1-2d | 4 | ja | Rechnung¦Zeichnen · Bestimmen Sie¦Veranschaulichen Sie | a(10) = 100 mg/m³; Graph von a' in Abbildung 3 → a(0) mit Veranschaulichung in Abbildung 3 | Dreiecksfläche unter a' schätzen, von a(10) abziehen
 2017MerhoehtBAnalysisWTR1-2c | 4 | ja | Rechnung · Bestimmen Sie | Für ein anderes Becken beschreibt g(t) = 0,4 · (2t^3 − 39t^2 + 180t) für 0 <= t <= 15 die momentane Änderungsrate des Wasservolumens in m^3/h, t in Stunden seit Beobachtungsbeginn; G(t) = 0,2 · (t^4 − 26t^3 + 180t^2) ist eine Stammfunktion von g; drei Stunden nach Beobachtungsbeginn sind im Becken 350 m^3 Wasser enthalten → Volumen des Wassers zu Beobachtungsbeginn | Die Zunahme von 0 bis 3 als ∫ von 0 bis 3 g(t) dt = G(3) − G(0) berechnen und von 350 abziehen
 2021MgrundlegendBAnalysisWTR-2d | 4 | ja | Rechnung · Berechnen Sie | Glyzerintank: f(x) = −5/16 x⁴ + 5x³ beschreibt für 0 ≤ x ≤ 20 die momentane Änderungsrate des Tankinhalts in kg/h, x Zeit in Stunden seit Beobachtungsbeginn; zu Beobachtungsbeginn 1200 kg im Tank; die Abbildung zeigt den Graphen von f → Glyzerinmenge im Tank 20 Stunden nach Beobachtungsbeginn | Integral der Rate von 0 bis 20 zum Anfangsbestand addieren
+2017MgrundlegendBAnalysisCAS-2e | 5 | ja | Rechnung¦Kurzantwort¦Zeichnen · Bestimmen Sie¦Geben Sie an¦Skizzieren Sie | Für einen gesteuerten Temperaturverlauf zeigt der Graph in Abbildung 2 die Änderungsrate der Temperatur in Grad pro Minute in Abhängigkeit von der Zeit in Minuten seit Beginn des Vorgangs; die Rate ist für 0 < t < 4 positiv und für t > 4 negativ → Näherungswert für die Änderung der Temperatur in den ersten vier Minuten und Angabe, ob die Temperatur zu- oder abnimmt; Skizze eines möglichen Temperaturverlaufs für die ersten zwölf Minuten | Fläche zwischen Ratengraph und Zeitachse von 0 bis 4 durch Auszählen der Kästchen abschätzen, positive Rate heißt Zunahme; Skizze: Temperatur steigt bis t = 4 (Hochpunkt), Wendepunkte an den Extremstellen der Rate, danach fallend
 2021MgrundlegendBAnalysisWTR-2c | 3 | ja | Zeichnen¦Rechnung · Bestimmen Sie | Glyzerintank: f(x) = −5/16 x⁴ + 5x³ beschreibt für 0 ≤ x ≤ 20 die momentane Änderungsrate des Tankinhalts in kg/h, x Zeit in Stunden seit Beobachtungsbeginn; zu Beobachtungsbeginn 1200 kg im Tank; die Abbildung zeigt den Graphen von f → grafisch bestimmte Zunahme des Tankinhalts zwischen acht und zehn Stunden | Fläche unter dem Graphen über [8; 10] schraffieren und die Kästchen auszählen
 2023MerhoehtBAnalysisWTR1-1e | 4 | ja | Begründung¦Rechnung · Begründen Sie¦Bestätigen Sie | s(x) = (x/4)² · (4 − x)³ = −1/16x⁵ + 3/4x⁴ − 3x³ + 4x²; Aussage: die Staulänge kann für jeden Zeitpunkt von 06:00 bis 10:00 Uhr durch s angegeben werden → Begründung der Aussage; rechnerische Bestätigung, dass sich der Stau um 10:00 Uhr aufgelöst hat | s' mit f vergleichen und s(0) = 0 prüfen; s(4) berechnen
 2026MerhoehtBAnalysisMMS1-1g | 4 | ja | Begründung · Erläutern Sie | g Eingangsrate, h Ausgangsrate in 1/h auf [0; 12]; die Graphen und die x-Achse schließen die Flächen I (unter g, links vom Schnittpunkt), II (unter beiden) und III (unter h, rechts) ein; außerhalb der Öffnungszeit ist kein Gast im Bad → Erläuterung im Sachzusammenhang, dass I und III gleichen Inhalt haben | Flächen unter g und unter h als Gesamtzahl der eintretenden bzw. gehenden Gäste deuten, beide gleich, gemeinsamer Teil II herausnehmen

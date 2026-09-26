@@ -5,7 +5,7 @@ Stufe: II
 - abi: Linearkombination und lineare Abhängigkeit (1 Zeilen)
 - iqb: Linearkombination und lineare Abhängigkeit (1 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

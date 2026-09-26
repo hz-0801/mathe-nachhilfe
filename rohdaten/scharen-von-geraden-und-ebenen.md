@@ -5,7 +5,7 @@ Stufe: II
 - abi: Scharen von Geraden und Ebenen (23 Zeilen)
 - iqb: Scharen von Geraden und Ebenen (28 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

@@ -6,7 +6,7 @@ Stufe: II
 - abi: Kombinatorik (5 Zeilen)
 - iqb: Kombinatorik (14 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

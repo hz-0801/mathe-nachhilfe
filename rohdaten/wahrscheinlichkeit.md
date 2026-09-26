@@ -6,7 +6,7 @@ Stufe: I
 - msa: Wahrscheinlichkeit einstufig (15 Zeilen)
 - msa: Zählen und Kombinatorik (6 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

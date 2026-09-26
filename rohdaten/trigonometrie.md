@@ -5,7 +5,7 @@ Stufe: I
 - msa: Trigonometrie im rechtwinkligen Dreieck (20 Zeilen)
 - msa: Sinus- und Kosinussatz (9 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 

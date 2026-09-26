@@ -3,9 +3,9 @@
 Stufe: II
 
 - abi: Stammfunktion und Hauptsatz (22 Zeilen)
-- iqb: Stammfunktion und Hauptsatz (35 Zeilen)
+- iqb: Stammfunktion und Hauptsatz (36 Zeilen)
 
-Stand: 2026-09-26, Commit ca3237b
+Stand: 2026-09-26, Commit 3de052e
 
 ## A Typenprofil
 
@@ -35,6 +35,9 @@ abitur/abitur-typen.csv (neu): Die allgemeine Stammfunktion bilden und die Integ
 
 **Funktionswert von f als Tangentensteigung am Graphen der Stammfunktion bestimmen** · 2 Zeilen · abi 1 iqb 1 · Jahre 2022
 abitur/abitur-typen.csv (neu): Einen Funktionswert von f als Steigung der Tangente an den abgebildeten Graphen der Stammfunktion ablesen und das Vorgehen einzeichnen.
+
+**Kurvenlänge über eine vorgegebene Integralformel berechnen** · 2 Zeilen · iqb 2 · Jahre 2017–2018
+abitur/abitur-typen.csv (neu): Die Länge eines Graphenstücks mit der vorgegebenen Formel ∫ √(1 + (f'(x))^2) dx numerisch berechnen – auch abschnittsweise für eine zusammengesetzte Bahn, zu der senkrechte Strecken addiert werden – und, wo verlangt, begründen, dass sie größer ist als die Länge jedes einbeschriebenen Streckenzugs.
 
 **Anzahl der Nullstellen einer Integralfunktion am Graphen beurteilen** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Eine Aussage über die Nullstellen einer Integralfunktion beurteilen, über die untere Grenze als Nullstelle, die Monotonie aus dem Vorzeichen des Integranden und die Flächenbilanz am abgebildeten Graphen.
@@ -68,9 +71,6 @@ abitur/abitur-typen.csv (neu): Über die Intervalladditivität zeigen, dass sich
 
 **Integrationsgrenzen mit Integral null über die zweite Ableitung am Graphen der Ableitung angeben** · 1 Zeile · abi 1 · Jahre 2025
 abitur/abitur-typen.csv (neu): Grenzen c ≠ d angeben, für die das Integral über die zweite Ableitung null ist, indem am Graphen der ersten Ableitung zwei Stellen mit gleichem Ableitungswert abgelesen werden (Hauptsatz), mit Begründung.
-
-**Kurvenlänge über eine vorgegebene Integralformel berechnen und mit der Länge von Streckenzügen vergleichen** · 1 Zeile · iqb 1 · Jahre 2017
-abitur/abitur-typen.csv (neu): Die Länge eines Graphenstücks mit der vorgegebenen Formel ∫ √(1 + (f'(x))^2) dx numerisch berechnen und begründen, dass sie größer ist als die Länge jedes einbeschriebenen Streckenzugs.
 
 **Maximum einer Integralfunktion über die Nullstelle des Integranden begründen und im Sachzusammenhang deuten** · 1 Zeile · iqb 1 · Jahre 2026
 abitur/abitur-typen.csv (neu): Für D(x) = ∫(g − h) begründen, dass das Maximum an der Schnittstelle der Graphen von g und h liegt (D' = g − h mit Vorzeichenwechsel von plus nach minus), und das Maximum als größten Bestand deuten.
@@ -153,6 +153,7 @@ abitur/abitur-typen.csv (neu): Die Wendestelle einer Integralfunktion über die 
 2022MerhoehtAAnalysis11-a | 2 | nein | Rechnung · Bestimmen Sie | f und F in IR, F Stammfunktion von f; Graph G_F in der Abbildung mit F(1) = 1 und F(7) = 5 → Wert des Integrals von 1 bis 7 über f(x) dx | Hauptsatz mit den abgelesenen Werten F(7) und F(1)
 2017MerhoehtBAnalysisWTR2-1k | 2 | ja | Begründung · Begründen Sie | f_1(x) = x^3 − 6x^2 + 9x mit Graph G_1 (Abbildung 2: Nullstelle 0 mit Vorzeichenwechsel von minus nach plus, Hochpunkt (1; 4), doppelte Nullstelle 3 im Tiefpunkt); betrachtet werden die in IR definierten Funktionen L und M mit L(x) = ∫ von 0 bis x f_1(t) dt und M(x) = ∫ von 3 bis x f_1(t) dt → Begründung, dass der Graph der Funktion M aus dem Graphen der Funktion L durch eine Verschiebung in negative y-Richtung hervorgeht | ∫ von 3 bis x = ∫ von 0 bis x − ∫ von 0 bis 3, also M(x) = L(x) − L(3); L(3) > 0, weil der Graph von f_1 zwischen 0 und 3 oberhalb der x-Achse liegt
 2017MerhoehtBAnalysisCAS1-2h | 4 | ja | Rechnung¦Begründung · Berechnen Sie¦Formulieren Sie¦Begründen Sie | Längsschnitt eines Schiffs mit horizontalem Deck; im Koordinatensystem mit Ursprung an der Bugspitze B und x-Achse entlang der Decklinie beschreibt k(x) = −0,3x^2 · e^(−0,2x) für 0 <= x <= 20 die Kiellinie; 1 LE = 1 m; für ein Kurvenstück einer in [a; b] definierten Funktion h gilt für die Länge s = ∫ von a bis b √(1 + (h'(x))^2) dx; Näherung durch den Streckenzug B–P–T–E: 21,0 → Länge der Kiellinie im Modell; allgemeine Aussage zur Länge der Kiellinie im Vergleich zur Länge der Streckenzüge aus Teilaufgabe g mit Begründung | ∫ von 0 bis 20 √(1 + (k'(x))^2) dx mit dem Rechner auswerten; jede Strecke eines Streckenzugs ist kürzer als das Graphenstück zwischen ihren Endpunkten
+2018MerhoehtBAnalysisCAS1-3c | 6 | ja | Rechnung · Ermitteln Sie | Papierflieger: Koordinatensystem mit der x-Achse entlang des horizontalen Bodens und der y-Achse durch den Abwurfpunkt; x ist die horizontale Entfernung vom Abwurfpunkt, der Funktionswert die Flughöhe, jeweils in Metern; die Größe der Papierflieger wird vernachlässigt; f_4(x) = −1/4 · x^2 + x + 2 (Funktion der Schar f_r(x) = −1/r · x^2 + 4/r · x + 2 für r = 4); Flugkurve vom Typ S: im ersten Teil durch f_4 beschrieben, ab einer horizontalen Entfernung von 0,5 m vom Abwurfpunkt durch s(x) = a/(x − 1,5) + b mit a, b ∈ IR; die Flugkurve hat keinen Knick; der Papierflieger steigt, bis er einen Steigungswinkel von 85° erreicht, und stürzt dann vertikal ab; s(x) = −0,75/(x − 1,5) + 1,6875; den Steigungswinkel 85° erreicht der Papierflieger bei x ≈ 1,24; ist ein Kurvenstück Graph einer in [a; b] definierten Funktion h mit Ableitung h', so gilt für seine Länge L = ∫ von a bis b √(1 + (h'(x))^2) dx → Länge der Flugkurve des Papierfliegers | Bogenlänge von f_4 über [0; 0,5] und von s über [0,5; 1,24] mit der Formel numerisch berechnen und die Länge s(1,24) des senkrechten Absturzes addieren
 2026MerhoehtBAnalysisMMS1-1h | 4 | ja | Begründung¦Kurzantwort · Begründen Sie¦Geben Sie an | D(x) = ∫₀^x (g(t) − h(t)) dt auf [0; 12]; D nimmt sein Maximum in [2; 11] an; dort schneiden sich die Graphen von g und h genau einmal, bei x_S → Begründung, dass das Maximum an der Stelle x_S liegt; Bedeutung des Maximums | D' = g − h, x_S als einzige Nullstelle mit Vorzeichenwechsel von plus nach minus (g > h davor, h > g danach); D als Zahl der anwesenden Gäste deuten
 2022MgrundlegendBAnalysisWTR1-1f | 4 | ja | Rechnung · Berechnen Sie | f(x) = 1/80 x⁵ − 1/6 x³ + x, definiert in IR; Abbildung 1 zeigt G_f; W(2 ¦ f(2)) ist Wendepunkt; Näherungswert 1/2 · (2 + 14/15) · 16/15 aus e → prozentuale Abweichung des Näherungswerts vom exakten Integralwert | Integral exakt berechnen, Differenz durch den exakten Wert teilen
 2020MerhoehtAAnalysis21-a | 1 | nein | Rechnung · Zeigen Sie | f_a(x) = a · (x − 2)³ für a ≠ 0; F(x) = 1/2 · (x − 2)⁴ + 3 → Nachweis, dass F Stammfunktion von f_2 ist | F ableiten
