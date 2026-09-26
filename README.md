@@ -15,7 +15,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 
 ## Wo fange ich an
 
-- `uebergabe.md` – Stand und nächster Arbeitsschritt der Prompt-Werkstatt; ein neuer Chat liest sie zuerst. Wird bei jedem Umzug ersetzt.
+- `uebergabe.md` – Stand und nächster Arbeitsschritt der Prompt-Werkstatt; ein neuer Chat liest sie zuerst. Stand 2026-09-26. Wird bei jedem Umzug ersetzt; die vorige liegt dann in `archiv/`.
 - `ziel.md` – das Ziel des Blattbaus: beide Blattsorten, Leiter, gemeinsame Regeln, Offenes. Ein neuer Chat liest sie nach uebergabe.md.
 - `CLAUDE.md` – wenn im Repo erfasst wird: Ablauf je Heft, Arbeitsregeln, Commit-Regel.
 - `katalog-prompt.md` – der Kern: Zeilenregel, die 37 Felder, Vokabular, Prüfung, Abgleichlauf. Gilt für alle Profile.
@@ -379,7 +379,9 @@ Datierte Befunde und Werkstattzettel. Beschreiben den Stand ihres Datums, werden
 fortgeschrieben, kein Chat muss sie lesen. `namensschema.md` liegt hier, weil der Umbau
 auf Ordner es überholt hat. `auftrag-testlauf-2026-09-25.md` ist der Auftrag des ersten Testlaufs
 des Unterrichtsblatt-Prompts; für einen neuen Lauf gilt seit 27.09.2026 die Vorlage
-`werkzeuge/testlauf-auftrag.md` (Posten in `faellig.md` § 2).
+`werkzeuge/testlauf-auftrag.md` (Posten in `faellig.md` § 2). Abgelöste Übergaben liegen als
+`uebergabe-<Kopfzeilendatum>.md`; zuletzt abgelegt `uebergabe-2026-09-25-abends.md` (abgelöst
+durch die Übergabe vom 26.09.2026; das Kopfzeilendatum folgt nicht der Ablagefolge).
 
 ## Nicht im Repo (lokal, `.gitignore`)
 

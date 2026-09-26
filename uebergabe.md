@@ -1,6 +1,6 @@
-# Übergabe verbessereBlaetter – 2026-09-25 (abends; Chat vom 25./26.09.)
+# Übergabe verbessereBlaetter – 2026-09-26 (Chat vom 26.09.)
 
-Vorherige Übergabe: archiv/uebergabe-2026-09-26.md.
+Vorherige Übergabe: archiv/uebergabe-2026-09-25-abends.md.
 
 ## 1 Ziel
 
@@ -12,169 +12,190 @@ Wörtern druckfertige Blätter bauen. Maßstab ist ziel.md
 ## 2 Arbeitsgrundlage
 
 - ziel.md (25.09.2026), unverändert.
-- Katalogeinträge mit Marken (Commit 7613213): je Lerneinheit
-  die Zeile „Marken: OS Kl. n · GYM Kl. n · Prüfungswort · nicht
-  für alle: …" (Sek II: „BE Qn · BB Qn · Kursart · Prüfungswort"),
-  Typklammern „[OS 5, GYM 6]" an Typen mit eigener Stelle.
-  Quelle der Zeile: werkzeuge/marken-bau.py aus den drei
-  Belegdateien, katalog/_marken-entscheidungen.md (Regeln A und
-  B, die 38 Fälle) und werkzeuge/marken-bau-stellen.txt.
-  bericht-marken.md: Zahlen, Gegenproben, eigene Entscheidungen
-  (19 Punkte), Listen (173 stehengebliebene Klammern, 20
-  verschobene Einführungsklassen).
-- Drei neue Katalogstellen (katalog/_marken-neue-einheiten.md):
-  potenz-exponentialfunktionen Einheit 5 (Potenzfunktionen),
-  daten Einheit 7 (Vierfeldertafel Sek I, Nummer hinter der
-  Sek-II-Einheit 6), daten Einheit 1 mit Klassen-Typen. Nur
-  Nummernzeile und Typen; Merkkasten, Sprossen, Blatt-0-Zeilen
-  fehlen (faellig).
-- blattbau/unterrichtsblatt.md v4.3 (Commit 512ae78),
-  CHANGELOG-Zeile dort nennt jede Änderung; Projektanweisung in
-  erzeugeUnterrichtsblatt() ist v4.3.
-- Testlauf: werkzeuge/testlauf-eingaben.csv (zehn Eingaben mit
-  Antworten und Prüfhinweisen), blaetter/testlauf-2026-09-25/
-  (je Eingabe PDFs, Protokoll, sitzung.txt; stand.md;
-  kennzahlen.md; lesezettel.md), bericht-testlauf-2026-09-25.md
-  in der Wurzel. Auftrag: archiv/auftrag-testlauf-2026-09-25.md.
+- befund-testlauf-2026-09-25.md (Wurzel, seit Nacht 28.09. Teil 1):
+  alle Befunde des Testlaufs v4.3 – Lesebefunde des Lehrers an
+  Eingabe 7 (Fokus, ganz) und Eingabe 3 (schwach, S. 1–6), dazu
+  die aus Bericht und Lesezettel –, sortiert nach Ziel: Prompt
+  (26 Punkte → v4.4), Vorlage (Stufe 6/7), Katalog (9), Werkzeug
+  (4), Beschluss (6). Das ist die Quelle für v4.4; nichts davon
+  wird hier wiederholt.
+- blattbau: unterrichtsblatt.md v4.3 (512ae78; Projektanweisung
+  ist v4.3); mathblatt.sty Stufe 6, Version 2026-09-28a (cad91ae)
+  mit Anleitung_mathblatt.md und referenz/probeblatt.pdf (154
+  Bausteine, 12 Seiten; referenz/probeblatt-pruef.py). Berichte
+  bericht-vorlage-stufe5-2026-09-27.md und -stufe6-2026-09-28.md.
+  Neue Namen, die v4.4 nennt: \zweigzeile, \verzeichniszeile mit
+  \verz, abhakseite mit \abhak/\abhakgruppe/\abhakauto,
+  \einheitenkopf[ziel][kurzform]{…}, \verfahren, \anweisung,
+  \rechenplatz{n} (12 mm je Zeile, [halb]), Umgebung beispiel,
+  \streifenleer[0], \streifenfeld, \swz/\swa/\swb/\swfrage.
+- Katalog: Marken-Zeilen in allen Einträgen (273 Zeilen, 262
+  Typklammern; Belegskripte seit 27.09. auf potenz 5, daten 7 und
+  die Klassen-Typen umgestellt, FHR-Wort an einheiten 1/3/4 und
+  daten 1/4); Vorrat-Verweise auf gost-*/fos-* umgestellt;
+  katalog/_vorschlaege-2026-09-27.md (312 Zeilen, vier
+  Abschnitte: Ausbau potenz 5 und daten 7, Niveaustufe G,
+  2025-GYM-K5d, 28 Namensabweichungen) – Vorschläge, nicht
+  entschieden.
+- Abitur: Stapel 2017-ea-B WTR und CAS erfasst, Abgleichlauf 25,
+  Typen 1393 (Zahlen in nacht-bericht-2026-09-28.md Teil 2).
+  2018-ea-B CAS nicht erfasst (Eichschwelle zweimal verfehlt);
+  Arbeitsstand unter abitur/arbeitsstand/2018-ea-B-cas/; eine
+  Vormerkung bleibt (2018-bb-ea-cas-B3.1f).
+- Befunde zum Urteil: abitur/befund-cas-berlin-2026-09-28.md
+  (abweichende Teilaufgaben je Heft 16, 19, 16, 16),
+  abitur/befund-eichung-2017-2026-09-28.md, Übersichtsblatt-
+  Prüfsteine blaetter/uebersicht/quadratische-funktionen/ und
+  /prozentrechnung/ (je 1 Seite, PNG neben dem PDF).
+- Berichte: nacht-bericht-2026-09-27.md (zehn Teile),
+  nacht-bericht-2026-09-28.md (sieben Teile, sechs fertig; im Chat
+  gelesen, Urteile offen).
+- Testlauf: blaetter/testlauf-2026-09-25/ (eingefroren),
+  bericht-testlauf-2026-09-25.md, werkzeuge/testlauf-auftrag.md
+  (Vorlage für den nächsten Lauf: nacheinander, Get-Date,
+  Regelweg claude -p zuerst), werkzeuge/testlauf-eingaben.csv.
 - Weiter gültig: katalog/_klassen-belege.md,
   _pruefungswort-belege.md, _sek2-ordnung-belege.md,
-  _klassen-ermessen.md; werkzeuge/blatt-pruef.py;
-  nacht-bericht-2026-09-25.md und -26.md.
+  _klassen-ermessen.md, bericht-marken.md; werkzeuge/blatt-pruef.py
+  (v0.4, zählt Schwach-Bausteine, Kennzahlen 13–17 für Stufe 6).
+- Katalog Sek II: alle Katalogzeilen vom 27./28.09. zugeordnet
+  (39 Einträge, 74 neue Typen); Kennzahl 5 = 28 (Rest msa/fhr).
 
 ## 3 Arbeitsstand
 
-Abgeschlossen: 38 Ermessensfälle entschieden; Marken in allen
-Einträgen (273 Zeilen, 262 Typklammern); v4.3 gebaut, im Repo
-und in der Projektanweisung; Nachtauftrag Testlauf gestartet
-(25.09. nachmittags, alle zehn parallel), Ergebnis nicht ausgewertet. Remote Control
-für Claude Code eingerichtet (Projektanweisung „Handy").
+Abgeschlossen: Nacht 27.09. (alle zehn Teile: Belegskripte,
+FHR-Wort, potenz 1 ohne Vorrat, Kleinposten, Vorrat-Verweise,
+cosh gesichert, Vorschläge, Prüfskript v0.3, CAS-Nachträge bb-ea,
+Stapel 2017 und 2017-be-gk mit Abgleichlauf 24); Vorlage Stufe 5
+und Stufe 6; Auswertung des Testlaufs an zwei Blättern mit dem
+Lehrer, Befunde als Datei; Beschluss „270 Paare ohne
+Gegenrichtung" geschlossen (kein Bedarf).
 
-Befunde, noch ohne Folge:
-- Gegenproben der Übergabe vom 26.09. waren zweimal falsch:
-  lineare-funktionen 4 hat „P10" (3 von 13), nicht „P10 oft";
-  quadratische-gleichungen 2 hat GYM Kl. 8–9 (Elemente 8), nicht
-  Kl. 9. Beide Belegwerte gelten.
-- kreis 1 stand vor Regel A bei „OS Kl. 5–8, GYM 5–6"; jetzt
-  „OS 7–8, GYM 7–8", Zeichnen-Typ „[OS 5–8, GYM 5–6]".
-- Zwanzig Einführungsklassen haben sich durch Regel A und B
-  verschoben (Liste in bericht-marken.md).
-- Testlauf (Bericht bericht-testlauf-2026-09-25.md): alle
-  zehn fertig im ersten Anlauf, Ersatzweg Sub-Agenten (claude.exe
-  „Not logged in" für -p – inzwischen angemeldet), alle zehn
-  parallel; sieben Blätter mit 74–124 Werkzeugaufrufen (Chat:
-  zwanzig); Vorlage ohne Zweigzeile, Abhakseite,
-  Verzeichniszeile, gleichungsraster-Umbruchfehler; Zonen von
-  Nr. 1 und 5 mit eigener Nummerierung (Nummern doppelt);
-  Nr. 9 (Kl. 12): alle Zweige vor der Eingabeklasse, 1.5 regelt
-  es nicht; drei Sitzungen lasen die Vorlage; „mit Ausblick" bei
-  kreis ohne Ausblick-Zweig, weil alle Marken bis Kl. 8 reichen
-  (CSV-Erwartung war falsch); protokoll.txt zählt Aufrufe zu
-  niedrig; blaetter/kennzahlen.md passt nicht mehr zum Katalog.
+Abgeschlossen außerdem: Nacht 28.09. (Befund abgelegt, Stapel
+2017-ea-B, Befund Berliner CAS-Hefte, Sek-II-Einträge
+nachgezogen, Prüfskript v0.4, marken-bau-Sollwerte, Befund
+Eichung 2017, Prüfsteine Übersichtsblatt); Projektanweisung
+Stand 27.09.b (Modellwechsel ansagen, Web-Sitzungen).
+
+Nicht begonnen: v4.4; Testlauf mit v4.4; Blatt-Chat; Urteile zu
+_vorschlaege-2026-09-27.md.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-Aus der Übergabe vom 26.09. gelten weiter: Marke = Klasse je
-Schulform aus den Lehrwerken, nicht der RLP-Buchstabe; Klasse und
-Schulform ordnen, filtern nicht; Zweigzeile Fertigkeit ·
-Zeitmarke · Prüfungswort; Prüfungswort-Schwelle 7 von 13 (Haupt
-oder Neben); Ich-kann-Titel; schwach ändert die Form; Bestellung
-„nur das Neue / mit Wiederholung / mit Ausblick"; Bigalke/Köhler
-nur Reihenfolge-Quelle; Kaufen nur zwei Förderhefte; fremde
-Sammlungen nur für die 22 Sprossen; Cloud-Sitzungen nur für
-Repo-und-Netz-Aufträge.
+Aus früheren Übergaben gelten weiter: Marke = Klasse je Schulform
+aus den Lehrwerken; Klasse und Schulform ordnen, filtern nicht;
+Zweigzeile Fertigkeit · Zeitmarke · Prüfungswort; Prüfungswort-
+Schwelle 7 von 13; Ich-kann-Titel; schwach ändert die Form;
+Bestellung „nur das Neue / mit Wiederholung / mit Ausblick";
+Regel A und B der Marken; Testlauf ist der Regeltest je Version,
+ein Blatt-Chat je Version danach; Zwei Sitzungen im selben
+Ordner: nur eine schreibt; Cloud-Sitzungen nur für Repo-und-Netz.
 
-Neu (25./26.09.):
-- Regel A: Eine Vorstufe setzt keine Einführungsklasse; sie wird
-  Typzeile am genannten Typ, sonst Zeile ohne Klassenwirkung. Nur
-  der Kern der Einheit (Nummernzeile) setzt die Klasse.
-- Regel B: Verlagsmarken (LVL, Streifzug, Üben, …) setzen keine
-  Klasse; sie stehen unter „nicht für alle". „Sonderfälle" und
-  unerklärte Symbolzeichen sind keine Marke.
-- Marken-Form im Eintrag: erzeugte Zeile unter der Nummernzeile,
-  Typklammer am Typ, reine „(Kl. n)"-Klammern entfernt; Klammern
-  mit mehr Inhalt bleiben als Herkunft. Nur die Marken-Zeile ist
-  Zeitquelle für den Prompt (v4.3, 1.5).
-- Sek-I-Lücken werden nachgezogen, wenn alle Lehrwerke den Stoff
-  führen (Potenzfunktionen, Vierfeldertafel, Klasseneinteilung);
-  Prüfungswort sagt dann „keine P10-Aufgabe".
-- v4.3-Festlegungen (in CHANGELOG): Standpunkt Oberschule ohne
-  Schulform, Spanne „je nach Buch", Eintragsfrage bei doppeltem
-  Stichwort, Zone „kennst du schon" mit Dateiname KennstDuSchon,
-  Abhakseite „Das kann ich", Sek-II-Zeitmarke mit Halbjahr je
-  Land, LK aus der Marke „nur LK".
-- Testlauf ist der Regeltest je Prompt-Version (zehn Eingaben,
-  feste Liste); ein Blatt-Chat je Version prüft danach den Weg,
-  den Code nicht geht. Ergebnisse zweier Läufe werden nebeneinander
-  gelegt, nicht einzeln beurteilt.
-- Aufträge, die schwer zurücknehmbare Dateien schreiben (Marken,
-  Prompt), laufen auf Opus, wenn sie je Stelle lesen müssen;
-  Sonnet nur, wenn nichts zu lesen bleibt.
-- Zwei Sitzungen im selben Ordner: nur eine schreibt.
+Neu (26.09.), Wortlaut in befund-testlauf-2026-09-25.md Abschnitt
+„Beschluss": Blatt liefert Aufgaben, Platz und Reihenfolge –
+Erklären, Beispiel und Gerüst sind Sache des Lehrers (kein
+gedrucktes Beispiel, kein gedrucktes Gerüst; Rechenplatz 12 mm;
+„mit beispiel" auf Zuruf); Übersichtsblatt je Thema für den
+Lehrer aus den Merkkästen, Bestellwort „mit übersicht", Prüfstein
+in Nacht 28.09.; „Das kennst du schon" bleibt, Nummern laufen
+durch; Struktur Einheit → Verfahrensüberschrift → Hauptnummer,
+keine Verzeichnisseite; Zone prüft Fertigkeiten in der Form, die
+das Blatt braucht (Klammer auflösen + zusammenfassen bleibt eine
+Aufgabe).
+
+Weitere Festlegungen 26.09.:
+- Vorlage: die Namen der Stufe 5/6 sind fest; v4.4 nennt sie, statt
+  Bausteine je Lauf bauen zu lassen. Jede Stufe muss das
+  Probeblatt kompilieren und erweitern.
+- marken-bau.py: die Gegenprobe-Sollwerte vom 26.09. waren falsch;
+  die Belegwerte gelten (lineare-funktionen 4 „P10", quadratische-
+  gleichungen 2 „GYM Kl. 8–9"); Nacht 28.09. Teil 5 stellt sie um.
+- CAS-Vormerkungen werden nach der Delta-Regel geschlossen
+  (Delta-Stapel aus den nicht wortgleichen CAS-Dateien; Muster
+  2026-ea-B-mms), nicht durch eine neue Vormerkungsform.
+- Sek II im Prompt: das Halbjahr ordnet; „kennst du seit Q1" ist
+  Zeitmarke, kein Zweig fällt in die Zone (Befund Prompt 20).
+- Sprossenregel für den Katalog: Vorformen vor dem Universal-
+  verfahren, Abkürzungen danach (Befund Katalog 2); Prüfung je
+  Eintrag beim nächsten Katalogauftrag.
+- Ein Nachtauftrag darf in das Nachbar-Repo schreiben, wenn dort
+  keine zweite Sitzung läuft; „nur lesen" gilt nur bei parallelen
+  Sitzungen. Je Nachricht ein Auftrag.
 
 ## 5 Offene Punkte und verworfene Ansätze
 
-Offen (Posten in faellig.md, soweit dort):
-- Auswertung des Testlaufs (nächster Schritt).
-- FHR-Wort an den acht Sek-I-Einheiten mit Sek-II-Zeilen.
-- Belegskripte (klassen-belege.py, pruefungswort-belege.py) auf
-  die drei neuen Katalogstellen umstellen; bis dahin bricht
-  klassen-belege.py beim Neubau ab.
-- potenz-exponentialfunktionen: alte Lesart in Einheit 1
-  („Potenzfunktion als zweiter Funktionstyp … Vorrat") und
-  doppeltes Eingabewort „potenzfunktion" bereinigen; Merkkasten,
-  Sprossen, Blatt-0-Zeilen für Einheit 5 und daten 7.
-- 173 Klammern mit Klassenangaben neben den Marken (zweimal
-  Wahrheit); erst bereinigen, wenn die Verortung umgebaut wird.
-- blattbau: core.autocrlf ohne .gitattributes.
-- klassen-ermessen.py: Zitatfehler bei Mehrfachfällen.
-- Testlauf-Auftrag: Reihenfolge statt Gleichzeitigkeit, Zeiten
-  aus Get-Date, Regelweg claude -p jetzt möglich (angemeldet);
-  nach der Auswertung ändern.
-- Vorlage Stufe 5: Zweigzeile, Abhakseite, Verzeichniszeile,
-  gleichungsraster-Umbruch (faellig, aus dem Testlauf).
-- Prüfskript: Lesart Merkkasten; Typen ohne Treffer von Hand
-  gegenlesen; vier neue Klassen-Typen als „ohne Treffer".
-- Einträge (Nacht 26.09.): flaechen.md Original-ids vertauscht;
-  zuordnungen.md und terme.md ohne neuere GYM-Typen; themen.csv
-  Maßstab bei zuordnungen statt strahlensaetze; 2025-GYM-K5d
-  Nebentyp prüfen; koerper 5 nennt keine Pyramide/Kegel/Kugel
-  als Teilkörper.
-- Fundamente B Qualifikationsphase nicht im Repo.
-- In etwa zwei Wochen: Fotos der Inhaltsverzeichnisse der
-  Schülerbücher; im Chat lesen, je Buch eine Zeile.
-- Förderhefte, wenn gekauft: Prüfstein-Befund.
-- Prüfungsheft: Umbau nach v4.3-Muster, Schwelle „selten".
-- Verschmelzung der Prompte: prüfen, sobald der Prüfungsprompt
-  Abschnitt 0–2 nachgezogen hat.
+Offen (Urteil im Chat, Material liegt oder kommt):
+- Aus nacht-bericht-2026-09-28.md fünf Urteile: Form des
+  Übersichtsblatts (zwei Prüfsteine); 2018-ea-B CAS (dokumentiert
+  unter Schwelle erfassen, Schwelle begründet ändern, Deutungs-
+  liste erweitern oder Vormerkung stehen lassen); Abgrenzung der
+  Berliner CAS-Hefte; Eichung Pool 2017 (erste Läufe aller
+  2017/2018-Stapel bei 62–70 %: eher Jahrgangseigenheit als
+  Fehler); Sollwert „kreis 1 Typ" in marken-bau.py.
+- _vorschlaege-2026-09-27.md: vier Abschnitte entscheiden; danach
+  Katalogauftrag (Einträge potenz 5, daten 7; Niveaustufe G;
+  GYM-K5d; Namensabweichungen; Merkkasten quadratische-gleichungen
+  „0 = f(x)"; Befund Katalog 3–8; Skizzenbeschreibung im
+  Merkkasten).
+- Prompt-Punkte, die v4.4 nicht trägt, weil der Katalog fehlt:
+  Skizzen (Katalog hält keine Abbildung).
+- Vorlage Stufe 7 (Posten faellig.md).
+- Fundamente B Qualifikationsphase: DNB fand nichts; Quelle beim
+  Lehrer oder Verlag.
+- Testlauf-Auftrag: Regelweg claude -p noch nie gelaufen; erster
+  Lauf mit v4.4 zeigt, ob der Ersatzweg (Sub-Agenten) bleibt.
+- Prüfungsheft: Umbau nach v4.4-Muster, Schwelle „selten";
+  Verschmelzung der Prompte danach prüfen.
+- Förderhefte (Prüfstein-Befund, wenn gekauft); Fotos der
+  Inhaltsverzeichnisse (etwa 10.10.); Berlin 2026 be-gk/lk.
+- Übersichtsblatt braucht einsortieren.py-Sorte „uebersicht"
+  (Posten aus Nacht 28.09.).
 
 Verworfen (mit Grund):
-- Blatt-Chat als erster Prüfstein von v4.3: zehn Blätter in
-  Code sind billiger und vergleichbar; der Chat prüft nur die
-  Interaktion, dafür einer je Version.
-- marken.csv als eigene Datei statt Zeile im Eintrag: ein
-  Abruf mehr je Blatt bei enger Werkzeuggrenze.
-- Vierfeldertafel als Einheit 6 mit Umnummerierung: „Einheit 6"
-  sitzt in Belegen, Niveaustufung und Verweisen fest.
-- Umzug in der Cloud-Sitzung parallel zum Nachtlauf: zwei
-  Schreiber im selben Repo.
+- Gedrucktes Gerüst und gedrucktes Beispiel im Regelfall: der
+  Lehrer schreibt das Gerüst selbst, er macht es besser.
+- Fettdruck der Fertigkeit im Titel: Fett in jedem Titel ist
+  Rauschen; die eigene Zeile hebt hervor.
+- Verzeichnisseite: kostet eine Seite für sieben Zeilen; die
+  Verzeichniszeile leistet es.
+- Feste Gliederung gegeben/gesucht/Lösung im Beispiel: passt nicht
+  zu Rechenverfahren, kostet Platz; Beispiel in Teilaufgaben-
+  Gestalt stattdessen.
+- Merkkasten oder Übersicht auf dem Fokus: Fokus setzt die
+  Einheit voraus; Übersicht ist eigenes Produkt je Thema.
+- Eigene Nummerierung der Zone (Z1, 1–7 doppelt): Nummer ist
+  Adresse.
+- Übersichtsblatt nur für Objektthemen: der Lehrer will die
+  Übersicht für sich bei jedem Thema; ob der Schüler sie sieht,
+  entscheidet er.
+- Zwei getrennte Nachtaufträge in zwei Ordnern gleichzeitig: ein
+  Auftrag mit Teilen, die ins Nachbar-Repo schreiben, ist
+  einfacher; getrennt nur, wenn zwei Sitzungen laufen sollen.
 
 ## 6 Nächster Arbeitsschritt
 
-Modell: Fable (Auswertung eines Laufs gegen ziel.md).
+Modell: Fable (Prompt-Umbau Abschnitt 0–2 mit Folgen; Urteile aus
+dem Nachtbericht).
 
-1. bericht-testlauf-2026-09-25.md, blaetter/testlauf-2026-09-25/
-   lesezettel.md und kennzahlen.md lesen; der Lehrer liest die
-   PDFs nach dem Lesezettel und meldet, was ihm auffällt.
-2. Je Eingabe gegen ziel.md § 1–3 und den Prompt v4.3 urteilen:
-   Zweigzeile, Zeitmarke (Nr. 1 gegen 2), schwach als Form
-   (Nr. 3), Zone/keine Zone (Nr. 4), Typklammer (Nr. 5),
-   Stufenschnitt (Nr. 6), Eintragsfrage (Nr. 7), neue Einheit
-   (Nr. 8), Sek II (Nr. 9), Klassenarbeit (Nr. 10). Befunde
-   trennen: Prompt (→ v4.4), Katalog (→ Eintrag), Werkzeug
-   (→ Testlauf-Auftrag, Prüfskript), Vorlage (→ Stufe 5).
-3. Erst dann ein Blatt-Chat mit „quadratische gleichungen 9
-   oberschule" im Projekt (Opus) für Planfrage, drei Antworten,
-   Werkzeuggrenze und Dateikarten; Protokoll-Archiv über
-   einsortieren.py ablegen.
-4. Nach den Befunden: Testlauf-Auftrag nachziehen (Reihenfolge,
-   Zeiten) und v4.4 nur aus Befunden, keine Regel aus Vermutung.
+1. Übersichtsblatt-Prüfsteine mit dem Lehrer ansehen (PNG unter
+   blaetter/uebersicht/…/pdf/) und die Form festlegen; danach die
+   vier Abitur-Urteile aus § 5 knapp fällen (Befunddateien liegen);
+   Ergebnisse in den Katalogauftrag (Punkt 3) oder als Posten.
+2. v4.4 bauen aus befund-testlauf-2026-09-25.md Abschnitt „Prompt"
+   (26 Punkte) und den Vorlagennamen der Stufe 5/6: Abschnitt 0–2
+   (Bestellwörter „mit beispiel", „mit übersicht"; Sek-II-Regel;
+   Fokus-Kopf; Anweisung und Fragewort; Rechenplatz statt
+   Beispiel; Verfahrensüberschrift; Kastenzahlen-Sperre enger;
+   Vorstufe ohne Ergebnis) und Abschnitt 3–6 (Bausteine nennen,
+   Aufrufplan 2.7 neu, Deutungszeile, Ausgabeblock, zeiten.txt).
+   Jede Regel aus einem Befund, keine aus Vermutung. Ausgabe:
+   Auftrag an blattbau mit dem vollständigen Text als Datei 2,
+   CHANGELOG-Zeile; dazu der Chat-Block für die Projektanweisung.
+3. Katalogauftrag aus den Urteilen (Punkt 1) und
+   _vorschlaege-2026-09-27.md (Opus): Einträge potenz 5, daten 7
+   ausbauen; Niveaustufe G; GYM-K5d; Namensabweichungen;
+   Merkkasten quadratische-gleichungen „0 = f(x)"; Befund Katalog
+   3–8.
+4. Testlauf mit v4.4 über werkzeuge/testlauf-auftrag.md (Nacht),
+   Ergebnisse neben die vom 25.09.; danach der Blatt-Chat
+   „quadratische gleichungen 9 oberschule".
