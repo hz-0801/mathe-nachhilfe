@@ -1,0 +1,34 @@
+Eingabe des Lehrers:
+prozentrechnung 7 schwach – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Kl. 7, Standpunkt Oberschule (Gymnasium als Zusatz) · mit Wiederholung, ohne Ausblick (Thema im Register der Blätter) · Einheit 1 „Prozente als Anteile“ (OS Kl. 6) liegt in der Zone · 4 Zweige · Zone aus 7 Fertigkeiten und dem Fehler-Paar (Nr. 1–11)
+1 · Prozentsatz berechnen: Hier lernst du auszurechnen, wie viel Prozent ein Teil vom Ganzen ist · neu in diesem Jahr · P10 oft · baut auf: Prozent am Streifen (Nr. 1–3), Bruch auf den Nenner 100 (Nr. 4), Runden (Nr. 6), Dreisatz (Nr. 8)
+2 · Prozentwert berechnen: Hier lernst du auszurechnen, wie viel ein Anteil in Prozent von einer Größe ist · neu in diesem Jahr · P10 · baut auf: Streifen einteilen (Nr. 13), Bruch als Dezimalzahl (Nr. 5), durch 100 teilen (Nr. 7), Dreisatz (Nr. 8), Bruchteil einer Größe (Nr. 9)
+3 · Grundwert berechnen: Hier lernst du, aus einem Teil und seinem Anteil in Prozent das Ganze auszurechnen · neu in diesem Jahr · P10 oft · baut auf: Prozentwert (Einheit 2), Streifen einteilen (Nr. 13), Dreisatz (Nr. 8)
+4 · Prozentuale Veränderung: Hier lernst du auszurechnen, wie sich ein Wert ändert, wenn er um einige Prozent steigt oder fällt · neu in diesem Jahr oder erst in Klasse 8 – je nach Buch (am Gymnasium in Klasse 7) · P10 oft · baut auf: Prozentsatz (Einheit 1), Prozentwert (Einheit 2), Grundwert (Einheit 3), Runden (Nr. 6)
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort: alle
+
+Prozentrechnung_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen.
+Antwort: weiter (aus der Eingabe)
+
+Ausgabeblock:
+Zone: Einheit 1 des Eintrags (Prozente als Anteile, Marke OS Kl. 6) steht als Fertigkeit in der Zone (Nr. 1–3 mit der Grundvorstellung), nicht als Zweig; kein Ausblick-Zweig, weil das Register der Blätter das Thema führt.
+Zone: Grundvorstellung auf drei Hauptnummern verteilt (Nr. 1 ablesen, Nr. 2 einzeichnen, Nr. 3 von 10 % auf das Ganze), weil es drei Antwortformen sind.
+Geteilte Hauptnummern: 15/16, 18/19, 24/25, 44/45.
+Zwischensprossen: Nr. 16 d (erst kürzen, dann erweitern), Nr. 17 b (Teil als Dezimalzahl), Nr. 26 b (Ganzes unter 100, 1 % als Dezimalzahl), Nr. 37 b (Rest zu 100 % zuerst bilden).
+Prüfungshöhe nicht in der letzten Verfahrens-Hauptnummer: Einheit 2 in Nr. 29 (P10 2021 OS), weil Nr. 30 (über 100 %) eine eigene Fertigkeit ist; Einheit 4 in Nr. 47 (P10 2026 FOR) und Nr. 51 (P10 2025 OS), weil die Kette dort nach Form zerfällt.
+Typ „Mehrwertsteuer in Euro“ (Einheit 2) steht in keiner Kette und ist die Anwendung Nr. 33.
+Im Quelltext definiert: \abhakverf (kursive Verfahrenszeile auf der Abhakseite über \abhakgruppe), weil die Vorlage nur eine Gruppenebene kennt.
+Vorlage: Kopfzeile der Zone doppelt („Prozentrechnung · Kennst du schon · Kennst du schon“); \dreieckrw setzt immer die Eckpunktnamen A, B, C (Nr. 51, gegen 3.6); Streifen in \swz ragen 2–12 pt über den Satzspiegel (Overfull hbox).
+Stempel „e 2“ in eigenem Aufruf direkt nach der Durchsicht gesetzt, nicht im Prüfaufruf.
+Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Für schwache Schüler (Sprossen, Grundvorstellung), Typische Fehler, Prüfungsform/Zielmarke, Merkkasten (bei schwach am Zweigende); nicht gebraucht Verortung. Befunde: Einheit 1 trägt OS Kl. 6, zwei ihrer Typen aber [OS 7] – bei Kl. 7 Oberschule fällt sie in die Zone, obwohl Typen neu sind; die Ketten „Prozentsatz“ und „Grundwert“ nennen als Vorstufe Streifenaufgaben mit Zahlergebnis (als Verfahrens-Hauptnummern Nr. 14 und 35 gesetzt); Kettenlücken Kürzen vor dem Erweitern (Einheit 2) und Rest zu 100 % (Einheit 4). Spannen: Einheit 5 „OS Kl. 7–8“ bei Eingabeklasse 7 als „neu in diesem Jahr oder erst in Klasse 8 – je nach Buch“ aufgelöst (die Regel „neu oder schon bekannt“ passt an der unteren Grenze nicht); Typ „Prozentsatz über 100 %“ [OS 7–8] als „je nach Buch erst in Klasse 8“; Typklammern [OS 9] Faktor, [OS 10] Steigung, [OS 7] Brutto/Netto am Titel.
+Protokoll-Archiv: Prozentrechnung_2026-09-26_protokoll.zip
+
+Übergebene Dateien:
+Prozentrechnung_KennstDuSchon.pdf
+Prozentrechnung_Lernblatt.pdf
+Prozentrechnung_Gesamt.pdf
+Prozentrechnung_Loesungen.pdf
+Prozentrechnung_2026-09-26_protokoll.zip

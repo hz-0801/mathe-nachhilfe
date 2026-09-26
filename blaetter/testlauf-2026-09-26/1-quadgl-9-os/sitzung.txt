@@ -1,5 +1,41 @@
 Now the Abhakseite and the frames.
 
+→ Lernblatt · mit Wiederholung · mit Ausblick (Register führt das Thema nicht; „nullstellen“ vom 22.09. ist ein anderes Blatt) · 3 Zweige, 1 Ausblick · Zone aus 8 Fertigkeiten
+Einheit 1 · Wurzelziehen und Lösbarkeit: Hier lernst du, Gleichungen wie x² = c durch Wurzelziehen zu lösen und zu sagen, ob es zwei, eine oder keine Lösung gibt · neu in diesem Jahr, je nach Buch bis Klasse 10 (am Gymnasium schon in Klasse 8 oder 9) · P10 · baut auf: Quadrieren, Wurzel ziehen, lineare Gleichungen, Scheitelpunktform
+Einheit 2 · Normalform und p-q-Formel: Hier lernst du, jede quadratische Gleichung zu ordnen und mit der p-q-Formel zu lösen · neu in diesem Jahr, je nach Buch bis Klasse 10 · P10 oft · baut auf: Wurzelziehen (Einheit 1), Ausmultiplizieren, Terme ordnen
+Einheit 3 · Sachaufgaben: Hier lernst du, Zahlenrätsel und Flächenaufgaben mit quadratischen Gleichungen zu lösen · neu in diesem Jahr, je nach Buch bis Klasse 10 · keine P10-Aufgabe · baut auf: Wurzelziehen (Einheit 1), p-q-Formel (Einheit 2)
+Ausblick: Einheit 4 · Satz vom Nullprodukt: Hier lernst du, Gleichungen in Produktform mit dem Satz vom Nullprodukt zu lösen · kommt nächstes Jahr (am Gymnasium schon in Klasse 8 oder 9) · P10 · baut auf: Ausklammern, lineare Gleichungen, p-q-Formel (Einheit 2)
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort aus der Eingabe: alle
+
+QuadratischeGlg_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen.
+Antwort aus der Eingabe: weiter
+
+QuadratischeGlg_Lernblatt.pdf
+QuadratischeGlg_Gesamt.pdf
+QuadratischeGlg_Loesungen.pdf
+QuadratischeGlg_2026-09-26_protokoll.zip
+Ausblick: Der Satz vom Nullprodukt (Oberschule erst Kl. 10) steht als Einheit 4 am Ende. Deshalb kommt die Wahl des Lösungswegs in Einheit 2 (Nr. 24, 36) ohne Nullprodukt aus.
+Geteilt: Nr. 27/28 (p-q-Formel, Grundfall und weiter). Nr. 14, 15 und 27–31 sind mit Rechenplatz und Raster etwa zwei Drittel Seite hoch, liegen damit über dem Halbseitenmaß (2.3 g) und stehen je allein auf ihrer Seite; sie sind nicht weiter geteilt.
+Im Vorspann definiert: \quadratrand (Quadrat mit Rand, Nr. 44), Kandidat für die Vorlage.
+Zone: Die Fertigkeit „Ausklammern, Ausmultiplizieren, binomische Formeln“ steht als zwei Nummern (7, 8); das Fehler-Paar 10/11 übt die binomische Formel.
+Höhe nach Lehrwerk: Einheit 3 hat kein P10-Original (Prüfungshöhe Nr. 44 b).
+Vorlage: Die Kopfzeile der Zone-Datei steht doppelt („Kennst du schon · Kennst du schon“). x₁, ≈, ≠ und π fehlen im Textfont der Lösungen und sind dort als Mathematik gesetzt.
+Zeiten gemessen (Zone 723 s, E 1–4 bis 1412 s, Lösungen 1564 s); „weiter“ ist im Testlauf ohne Gegenüber simuliert.
+Katalog: gebraucht wurden Lerneinheiten, Marken, Typen, Voraussetzungen, Sprossen, Typische Fehler und Prüfungsform/Zielmarke; nicht gebraucht Merkkasten, Grundvorstellung und Verortung · Befund: „Was sind p und q?“ und „durch welche Zahl teilen?“ verlangen Zahlen – die Vorstufen Nr. 25/26 kommen ohne Ergebnis aus, das Ablesen steht in Nr. 27 · Befund: Die Sperre nennt nur wörtliche Gleichungen. x² + 5x + 6 = 0 ist 2025-OS-B1h in Normalform, x² − 4 = 5 die umgestellte Grundvorstellung; pruef.py hat beide Treffer gemeldet und sie sind ersetzt · Spannen OS Kl. 9–10 (Einheit 1–3) stehen als „neu in diesem Jahr, je nach Buch bis Klasse 10“, weil „neu oder schon bekannt“ nicht passt, wenn die Eingabeklasse die Untergrenze ist · Die Typklammer p-q-Formel [OS 10] steht als „(je nach Buch erst in Klasse 10)“ an Nr. 27.
+Protokoll-Archiv: QuadratischeGlg_2026-09-26_protokoll.zip
+
+Hinweise für den Aufrufer (nicht Teil der Lehrer-Chatzeilen):
+- Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\1-quadgl-9-os
+- Umfang: Zone Nr. 1–11 (3 Seiten), Lernblatt Nr. 12–55 (23 Seiten), Gesamt 26 Seiten, Lösungen 3 Seiten.
+- Prüfungen: pruef.py meldet für zone und e1–e4 je null Abweichungen und null Sperrtreffer. Die Logs zeigen keine Package-mathblatt-Warnung und keine Overfull-Box. Die Nummern laufen lückenlos 1–55, jeder Link der Verzeichniszeile führt auf seinen Zweigkopf, die Abhakseite hat 44 bzw. 55 Einträge, und alle Titel stimmen wortgleich mit den Aufgabentiteln überein.
+- Abweichungen vom Ablauf, im Protokoll vermerkt:
+  - Der Stempel t0 stand im selben Aufruf wie das Anlegen des Arbeitsverzeichnisses.
+  - Beim Lesen des Eintrags wurden „Offene Punkte“ und die Prüfliste versehentlich mitgelesen; verwendet wurde daraus nichts.
+  - Der Stempel „weiter“ ist simuliert.
+- Die Prüfrahmen test_e1–e4 (nicht übergeben) liegen mit im Verzeichnis und im Archiv.
+
 The worksheet build ran through without stopping and my report has gone to the calling agent. Every result checked out with no errors.
 
 **Files** (all in `...\scratchpad\testlauf\1-quadgl-9-os`):

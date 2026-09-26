@@ -11,8 +11,8 @@ Katalog: live von raw.githubusercontent.com (origin/main 68a6401; lokal ein Comm
 
 1 quadgl-9-os · fertig · Anläufe 1 · Start 19:30 · Ende 20:00 · Aufrufe laut protokoll.txt 78, Umgebung 80
 2 quadgl-9-gym · fertig · Anläufe 1 · Start 20:00 · Ende 20:30 · Aufrufe laut protokoll.txt 76, Umgebung 77
-3 prozent-7-schwach · läuft · Anläufe 1 · Start 20:30
-4 linfkt-8-neu · wartet · Anläufe 0
+3 prozent-7-schwach · fertig · Anläufe 1 · Start 20:30 · Ende 20:57 · Aufrufe laut protokoll.txt 107, Umgebung 109
+4 linfkt-8-neu · läuft · Anläufe 1 · Start 20:57
 5 kreis-8-ausblick · wartet · Anläufe 0
 6 daten-7 · wartet · Anläufe 0
 7 nullstellen-fokus · wartet · Anläufe 0

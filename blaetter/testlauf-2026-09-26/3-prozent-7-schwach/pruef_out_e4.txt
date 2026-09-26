@@ -1,0 +1,43 @@
+44a    Skript 66  Blatt 66  OK
+44b    Skript 72  Blatt 72  OK
+44c    Skript 90  Blatt 90  OK
+44d    Skript 75  Blatt 75  OK
+45a    Skript 36  Blatt 36  OK
+45b1   Skript 27  Blatt 27  OK
+45b    Skript 63  Blatt 63  OK
+46a    Skript 48  Blatt 48  OK
+46b    Skript 56  Blatt 56  OK
+46c-Faktor Skript 1.05  Blatt 1.05  OK
+46c    Skript 210  Blatt 210  OK
+47a    Skript 20  Blatt 20  OK
+47b    Skript 25  Blatt 25  OK
+47c    Skript 6.1  Blatt 6.1  OK
+47c-Falle Skript 5.7  Blatt 5.7  OK
+48a1   Skript 0.4  Blatt 0.4  OK
+48a    Skript 40  Blatt 40  OK
+48b1   Skript 0.08  Blatt 0.08  OK
+48b    Skript 8  Blatt 8  OK
+49a1   Skript 38  Blatt 38  OK
+49a    Skript 238  Blatt 238  OK
+49b1   Skript 2.1  Blatt 2.1  OK
+49b    Skript 32.1  Blatt 32.1  OK
+49c1   Skript 0.5  Blatt 0.5  OK
+49c    Skript 50  Blatt 50  OK
+50a    Skript 10  Blatt 10  OK
+50b    Skript 25  Blatt 25  OK
+50c    Skript 30  Blatt 30  OK
+51a    Skript 12  Blatt 12  OK
+51b    Skript 5  Blatt 5  OK
+51c    Skript 4.6  Blatt 4.6  OK
+51c erlaubt? Skript 0  Blatt 0  OK
+52a    Skript 25  Blatt 25  OK
+52a-Nils Skript 20  Blatt 20  OK
+52b    Skript 20  Blatt 20  OK
+52b-Aylin Skript 25  Blatt 25  OK
+53b1   Skript 25  Blatt 25  OK
+53b2   Skript 20  Blatt 20  OK
+54a1   Skript 80  Blatt 80  OK
+54a    Skript 72  Blatt 72  OK
+54b    Skript 70  Blatt 70  OK
+54c B guenstiger Skript 1  Blatt 1  OK
+Abweichungen: 0

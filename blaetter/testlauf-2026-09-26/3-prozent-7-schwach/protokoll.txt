@@ -1,0 +1,175 @@
+Prompt: Unterrichtsblatt-Prompt v4.4
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: 2026-09-28a
+Katalog: prozentrechnung.md, Status: gegengelesen bis auf [FS] (2026-09-08d; offener Punkt Zinsen am 09c entschieden; LISUM-Planungshilfen am 10e nachgetragen; vierter Gegenlese-Block am 2026-09-10i: Zielmarke und Prüfungshöhe für alle fünf Einheiten gesetzt, Prüfungsform auf alle 22 Originale des Themas gebracht, vier fehlende Originale nachgetragen, 2015-OS-K7c aus daten.md zurückgeholt, 2015-OS-K2a als achter Fall der Gliederungsregel geführt, 2025-OS-K6b und 2021-OS-K5b als neunter und zehnter Fall verzeichnet, Sprosse „Jahreszinsen“ entschieden, 10e-Befund abgearbeitet) · Stufe: Sek I · Bildungsgänge: alle bis Kl. 10 · gegengelesen: bis auf [FS]
+Bestellung: mit Wiederholung (ohne Ausblick)
+Standpunkt: Kl. 7, Oberschule (Gymnasium als Zusatz); Option schwach
+
+Zweige (gebaut, alle nach Planfrage „alle“; abgewählt: keine; Ausblick: keiner; Katalog-Einheit 1 in der Zone):
+Einheit 1 von 4 · Prozentsatz berechnen
+  Hier lernst du auszurechnen, wie viel Prozent ein Teil vom Ganzen ist · neu in diesem Jahr · P10 oft · baut auf: Prozent am Streifen (Nr. 1–3), Bruch auf den Nenner 100 (Nr. 4), Runden (Nr. 6), Dreisatz (Nr. 8)
+  12. Ich erkenne, was das Ganze ist.
+  13. Ich kann einen Streifen in gleich große Teile einteilen.
+  14. Ich kann am Streifen ablesen, wie viel Prozent ein Teil vom Ganzen ist.
+  15. Ich kann durch Erweitern ausrechnen, wie viel Prozent ein Teil vom Ganzen ist.
+  16. Ich kann durch Erweitern ausrechnen, wie viel Prozent ein Teil vom Ganzen ist – weiter.
+  17. Ich kann mit dem Taschenrechner ausrechnen, wie viel Prozent ein Teil vom Ganzen ist.
+  18. Ich kann in einem Sachtext ausrechnen, wie viel Prozent ein Teil vom Ganzen ist.
+  19. Ich kann in einem Sachtext ausrechnen, wie viel Prozent ein Teil vom Ganzen ist – weiter.
+  20. Ich kann zu einem Prozentsatz passende Zahlen finden.
+  21. Ich finde den Fehler, wenn jemand ausrechnet, wie viel Prozent ein Teil ist.
+  22. Ich kann begründen, warum man durch das Ganze teilt.
+  23. Ich kann mit Prozent vergleichen, wer besser trifft.
+Einheit 2 von 4 · Prozentwert berechnen
+  Hier lernst du auszurechnen, wie viel ein Anteil in Prozent von einer Größe ist · neu in diesem Jahr · P10 · baut auf: Streifen einteilen (Nr. 13), Bruch als Dezimalzahl (Nr. 5), durch 100 teilen (Nr. 7), Dreisatz (Nr. 8), Bruchteil einer Größe (Nr. 9)
+  24. Ich kann am Streifen ausrechnen, wie viel ein einfacher Anteil in Prozent von einer Größe ist.
+  25. Ich kann am Streifen ausrechnen, wie viel ein einfacher Anteil in Prozent von einer Größe ist – weiter.
+  26. Ich kann über 1 % ausrechnen, wie viel ein Anteil in Prozent von einer Größe ist.
+  27. Ich kann über 10 % ausrechnen, wie viel ein Anteil in Prozent von einer Größe ist.
+  28. Ich kann einen Anteil in Prozent als Dezimalzahl mit einer Größe malnehmen.
+  29. Ich kann ausrechnen, wie viel man spart und wie viel man noch bezahlt.
+  30. Ich kann ausrechnen, wie viel mehr als 100 % von einer Größe sind (je nach Buch erst in Klasse 8).
+  31. Ich finde den Fehler, wenn jemand einen Anteil in Prozent von einer Größe ausrechnet.
+  32. Ich kann begründen, warum man für 1 % durch 100 teilt.
+  33. Ich kann mit der Mehrwertsteuer Preise vergleichen.
+Einheit 3 von 4 · Grundwert berechnen
+  Hier lernst du, aus einem Teil und seinem Anteil in Prozent das Ganze auszurechnen · neu in diesem Jahr · P10 oft · baut auf: Prozentwert (Einheit 2), Streifen einteilen (Nr. 13), Dreisatz (Nr. 8)
+  34. Ich erkenne, was gegeben und was gesucht ist.
+  35. Ich kann am Streifen ausrechnen, wie viel das Ganze ist.
+  36. Ich kann über 1 % ausrechnen, wie viel das Ganze ist.
+  37. Ich kann in einem Sachtext ausrechnen, wie viel das Ganze ist.
+  38. Ich kann unterscheiden, ob der Teil, der Anteil in Prozent oder das Ganze gesucht ist.
+  39. Ich finde den Fehler, wenn jemand das Ganze ausrechnet.
+  40. Ich kann begründen, warum man für das Ganze mal 100 rechnet.
+  41. Ich kann mit dem Ganzen planen, wie viele Plätze gebraucht werden.
+Einheit 4 von 4 · Prozentuale Veränderung
+  Hier lernst du auszurechnen, wie sich ein Wert ändert, wenn er um einige Prozent steigt oder fällt · neu in diesem Jahr oder erst in Klasse 8 – je nach Buch (am Gymnasium in Klasse 7) · P10 oft · baut auf: Prozentsatz (Einheit 1), Prozentwert (Einheit 2), Grundwert (Einheit 3), Runden (Nr. 6)
+  42. Ich erkenne, ob etwas um einen Prozentsatz oder auf einen Prozentsatz geändert wird.
+  43. Ich erkenne, welcher Wert der alte ist.
+  44. Ich kann ausrechnen, wie groß ein Wert nach einer Erhöhung oder Senkung ist.
+  45. Ich kann ausrechnen, wie groß ein Wert nach einer Erhöhung oder Senkung ist – weiter.
+  46. Ich kann den neuen Wert in einem Schritt ausrechnen (kommt in Klasse 9; am Gymnasium schon in Klasse 7).
+  47. Ich kann ausrechnen, um wie viel Prozent sich ein Wert verändert hat.
+  48. Ich kann aus dem neuen Wert den alten ausrechnen.
+  49. Ich kann Preise mit und ohne Mehrwertsteuer ausrechnen (neu in diesem Jahr).
+  50. Ich kann Prozentpunkte und Prozent unterscheiden.
+  51. Ich kann eine Steigung in Prozent ausrechnen (kommt in Klasse 10).
+  52. Ich finde den Fehler, wenn jemand eine Veränderung in Prozent ausrechnet.
+  53. Ich kann begründen, welcher Wert 100 % ist.
+  54. Ich kann zwei Rabattangebote vergleichen.
+Zone „Das kennst du schon“:
+  1. Ich kann ablesen, wie viel Prozent eines Streifens gefärbt sind.
+  2. Ich kann einen Anteil in Prozent in einen Streifen einzeichnen.
+  3. Ich kann von 10 % auf mehr Prozent und auf das Ganze schließen.
+  4. Ich kann einen Anteil als Bruch schreiben und auf den Nenner 100 erweitern.
+  5. Ich kann einen Bruch als Dezimalzahl schreiben und umgekehrt.
+  6. Ich kann auf eine Stelle nach dem Komma runden.
+  7. Ich kann durch 100 teilen und mit einer Dezimalzahl malnehmen.
+  8. Ich kann mit einer Tabelle über 1 Stück rechnen.
+  9. Ich kann einen Bruchteil einer Größe ausrechnen.
+  10. Ich finde den Fehler beim Umwandeln in eine Dezimalzahl.
+  11. Ich kann Hundertstel als Dezimalzahl schreiben und umgekehrt.
+
+Zählung aus der Textextraktion:
+Zone: Seiten 8 · Nummern 11 (1–11, durchlaufend: True) · Teilaufgaben 49 · Grafiken (Quelle) 40
+   Seiten unter 1/3 des Medians (290 Zeichen): []
+   Kopfzeilen: Prozentrechnung · Kennst du schon · Kennst du schon
+Lernblatt: Seiten 29 · Nummern 43 (12–54, durchlaufend: True) · Teilaufgaben 136 · Grafiken (Quelle) 63
+   Seiten unter 1/3 des Medians (529 Zeichen): []
+   Kopfzeilen: Prozentrechnung · Lernblatt · 1 Prozentsatz | Prozentrechnung · Lernblatt · 2 Prozentwert | Prozentrechnung · Lernblatt · 3 Grundwert | Prozentrechnung · Lernblatt · 4 Veränderung | Prozentrechnung · Lernblatt · Das kann ich
+Gesamt: Seiten 37 · Nummern 54 (1–54, durchlaufend: True) · Teilaufgaben 185 · Grafiken (Quelle) 103
+   Seiten unter 1/3 des Medians (472 Zeichen): []
+   Kopfzeilen: Prozentrechnung · Gesamt · 1 Prozentsatz | Prozentrechnung · Gesamt · 2 Prozentwert | Prozentrechnung · Gesamt · 3 Grundwert | Prozentrechnung · Gesamt · 4 Veränderung | Prozentrechnung · Gesamt · Das kann ich | Prozentrechnung · Gesamt · Kennst du schon
+Lösungen: Seiten 3 · Nummern 54 (1–54, durchlaufend: True) · Teilaufgaben 0 · Grafiken (Quelle) 0
+Verzeichniszeile Lernblatt: \verz{e1}{1 Prozentsatz (Nr.~12–23)} \verztrenn \verz{e2}{2 Prozentwert (Nr.~24–33)} \verztrenn \verz{e3}{3 Grundwert (Nr.~34–41)} \verztrenn \verz{e4}{4 Veränderung (Nr.~42–54)} \verztrenn \verz{abhaken}{Das kann ich}
+Verzeichniszeile Gesamt: \verz{zone}{Kennst du schon (Nr.~1–11)} \verztrenn \verz{e1}{1 Prozentsatz (Nr.~12–23)} \verztrenn \verz{e2}{2 Prozentwert (Nr.~24–33)} \verztrenn \verz{e3}{3 Grundwert (Nr.~34–41)} \verztrenn \verz{e4}{4 Veränderung (Nr.~42–54)} \verztrenn \verz{abhaken}{Das kann ich}
+
+Werkzeugaufrufe (Schritt · Anlass):
+1 · Read unterrichtsblatt.md Teil 1 · Anleitung lesen
+2 · Read unterrichtsblatt.md Teil 2 · Anleitung bis zur letzten Zeile lesen
+3 · PowerShell · Arbeitsverzeichnis anlegen, Themenregister und Register der Blätter holen (1.2)
+4 · Grep · Register nach „prozent“ durchsuchen (Abrufausgabe zu groß, ausgelagert)
+5 · Read · Register der Blätter lesen – Bestellung klären (Thema geführt → ohne Ausblick)
+6 · PowerShell · Stempel t0
+7 · PowerShell · Eintrag prozentrechnung.md, mathblatt.sty und Anleitung holen
+8 · Read · Eintrag lesen
+9 · Read · Anleitung Teil 1
+10 · Read · Anleitung ab Zeile 420 – leer (Datei hat 391 Zeilen)
+11 · Read · Anleitung Teil 2
+12 · Write · zone_a.tex
+13 · Write · zone_l.tex
+14 · Write · pruef.py (Zone)
+15 · Write · Rahmendatei Zone
+16 · Write · Rahmendatei Lösungen (vorläufig)
+17 · PowerShell · pruef zone, Zone und Lösungen kompilieren, Log, rendern → 0 Abweichungen, 8 Seiten
+18–25 · Read · Zone Seiten 1–8 ansehen (erster Lauf, Bausteine \swz, \swa, Streifen, Stellenwerttafel, Zahlenstrahl, Dreisatz)
+26 · PowerShell · Textextraktion: Dezimalkomma geprüft (sah im Render wie Punkt aus) → Komma korrekt
+27 · Edit · zone_a Nr. 5: vorbelegte Stellenwerttafel schmaler als die mit \leerzelle, verrutscht → Zellen mit \makebox
+28 · Edit · zone_a Nr. 11: dasselbe
+29 · PowerShell · Zone neu kompilieren (2 Läufe), Seite 4 rendern, Stempel zone
+30 · Read · Zone Seite 4 ansehen
+31 · PowerShell · Stempel weiter
+32 · Write · e1_a.tex
+33 · Write · e1_l.tex
+34 · Edit · pruef.py Einheit 1
+35 · Write · Rahmendatei Lernblatt (vorläufig, bindet vorhandene Einheiten ein)
+36 · PowerShell · pruef e1, kompilieren, rendern → 0 Abweichungen; Overfull 23–27 pt bei Streifen mit „Ganzes: ___“
+37–43 · Read · Lernblatt Seiten 1–7 ansehen
+44 · Edit · e1_a: Lücke im Zähler als \rule wirkte wie doppelter Bruchstrich → \hspace
+45 · Edit · e1_a: Streifenlabel „Ganzes: ___“ ragte über den Rand (Overfull hbox 23–27 pt) → nur Schreiblinie
+46 · PowerShell · neu kompilieren, Seite 4–5 rendern, Stempel e 1
+47 · Read · Seite 4 ansehen
+48 · Write · e2_a.tex
+49 · Write · e2_l.tex
+50 · Edit · pruef.py Einheit 2
+51 · PowerShell · pruef e2, kompilieren, rendern → 0 Abweichungen
+52 · PowerShell · Namen der gerenderten Seiten auflisten
+53–58 · Read · Seiten 8–13 ansehen
+59 · PowerShell · Stempel e 2
+60 · Write · e3_a.tex
+61 · Edit · e3_a: Prüfungshöhe Nr. 38 d als \swz statt teile mit \rechenplatz (Rechenplatz ist Gerüstplatz des Lehrers)
+62 · Write · e3_l.tex
+63 · Edit · pruef.py Einheit 3
+64 · PowerShell · pruef e3, kompilieren, rendern → 0 Abweichungen
+65–70 · Read · Seiten 14–19 ansehen
+71 · Edit · e3_a: Seite 19 trug nur den Merkkasten (unter 1/3 gefüllt) → \clearpage vor Nr. 41
+72 · PowerShell · neu kompilieren, Seite 19 rendern, Stempel e 3
+73 · Read · Seite 19 ansehen
+74 · Write · e4_a.tex
+75 · Edit · e4_a Nr. 50 b: Darstellung auf den alten Wert als Ganzes umgestellt
+76 · Write · e4_l.tex
+77 · Edit · pruef.py Einheit 4
+78 · PowerShell · pruef e4, kompilieren, rendern → 0 Abweichungen
+79–86 · Read · Seiten 20–27 ansehen
+87 · Edit · e4_a Nr. 51 a: \dreieckrw beschriftete „100 m“ an der Höhe → Labels getauscht
+88 · Edit · e4_a Nr. 51 b: dasselbe
+89 · PowerShell · neu kompilieren, Seite 25 rendern, Stempel e 4
+90 · Read · Seite 25 ansehen
+91 · Write · abhaken.tex (Handform, Zweige und Verfahren)
+92 · Write · Rahmendatei Lernblatt mit Verzeichniszeile
+93 · PowerShell · Lernblatt kompilieren (2 Läufe), Textextraktion, rendern, Stempel lernblatt
+94–96 · Read · Lernblatt Seite 1, 28, 29 ansehen (Verzeichniszeile, Abhakseite)
+97 · Write · Rahmendatei Gesamt
+98 · PowerShell · Gesamt kompilieren (2 Läufe), Textextraktion, Stempel gesamt
+99 · Read · Gesamt Seite 1 ansehen
+100 · Write · Rahmendatei Lösungen
+101 · PowerShell · Lösungen kompilieren (2 Läufe), Textextraktion, Stempel loesungen
+102 · Read · Lösungen Seite 1 ansehen
+103 · Write · zaehl.py
+104 · PowerShell · Zählung aus der Textextraktion, Seitenfüllung, Kopfzeilen
+105 · PowerShell · Sprungziele der Verzeichniszeile mit pypdf gegen die Einheitenköpfe geprüft
+106 · Write · make_archiv.py
+107 · PowerShell · protokoll.txt und chat.txt schreiben, Archiv packen
+
+Vorlage: fehlende Bausteine · keine; im Quelltext definiert: \abhakverf (Hilfsbefehl über \abhakgruppe) · Warnungen aus dem Log: keine „Package mathblatt Warning“; Overfull \hbox 2–12 pt an Streifen in \swz (rechte Spalte schmaler als 10 cm + Label); hyperref „Rerun“ nur im ersten Lauf
+
+Korrekturrunden: 4 von 8 Schritten (Zone, E1, E3, E4; E2, Lernblatt, Gesamt, Lösungen ohne)
+Zone: 657 s
+E 1: 822 s
+E 2: 947 s
+E 3: 1070 s
+E 4: 1236 s
+Lernblatt: 1290 s
+Gesamt: 1319 s
+Lösungen: 1341 s
+Weiter: 735 s (Stempel des Weiter-Schritts; keine Wartezeit, der Testlauf baut ohne Halt durch)

@@ -10,7 +10,9 @@ du die tatsächlichen Werkzeugaufrufe der Sitzung aus ihrer Ausgabe oder dem Sit
 <verlauf.jsonl> ist das Sitzungsprotokoll des Sub-Agenten (Ersatzweg), wie Claude Code es unter
 %USERPROFILE%\.claude\projects\<projekt>\<sitzung>\subagents\agent-<id>.jsonl ablegt (die
 Ausgabedatei tasks\<id>.output bleibt leer). Schreibt in den Zielordner:
-  sitzung.txt   alle Textblöcke der Sitzung in Reihenfolge; der letzte ist die Schlussnachricht
+  sitzung.txt   alle Textblöcke der Sitzung in Reihenfolge; der letzte ist die Schlussnachricht (auch
+                wenn sie als Aufruf „SubagentHandback“ übergeben wurde – der zählt als Werkzeugaufruf mit,
+                wie in der Meldung der Laufzeitumgebung „tool_uses“)
   aufrufe.txt   je Werkzeugaufruf eine Zeile „n · Werkzeug · Kurzform der Eingabe“, am Ende die Zahl
                 (Spalte „Aufrufe (Umgebung)“), erster und letzter Zeitstempel, Modell
 Gezählt wird jeder Block „tool_use“ in einer Nachricht des Assistenten, einmal je Block-id (der
@@ -57,6 +59,9 @@ def main():
                 texte.append(teil['text'].strip())
             elif teil.get('type') == 'tool_use' and teil.get('id') not in gesehen:
                 gesehen.add(teil.get('id'))
+                if teil.get('name') == 'SubagentHandback':
+                    # Schlussnachricht als Übergabeaufruf; zählt wie in der Meldung der Umgebung mit
+                    texte.append(str((teil.get('input') or {}).get('message', '')).strip())
                 aufrufe.append((teil.get('name'), kurz(teil.get('input') or {})))
     with open(ziel / 'sitzung.txt', 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n\n'.join(texte) + '\n')

@@ -1,0 +1,36 @@
+14a    Skript 30  Blatt 30  OK
+14b    Skript 50  Blatt 50  OK
+14c    Skript 25  Blatt 25  OK
+14d    Skript 20  Blatt 20  OK
+15a    Skript 5  Blatt 5  OK
+15b    Skript 15  Blatt 15  OK
+15c    Skript 35  Blatt 35  OK
+15d    Skript 60  Blatt 60  OK
+16a    Skript 26  Blatt 26  OK
+16b    Skript 24  Blatt 24  OK
+16c    Skript 35  Blatt 35  OK
+16d    Skript 30  Blatt 30  OK
+17a    Skript 45  Blatt 45  OK
+17b    Skript 25  Blatt 25  OK
+17c    Skript 15.6  Blatt 15.6  OK
+17d    Skript 13  Blatt 13.0  OK
+18a    Skript 36  Blatt 36  OK
+18b-G  Skript 20  Blatt 20  OK
+18b    Skript 40  Blatt 40  OK
+19a-R  Skript 20  Blatt 20  OK
+19a    Skript 25  Blatt 25  OK
+19b-G  Skript 22  Blatt 22  OK
+19b    Skript 13.6  Blatt 13.6  OK
+20a    Skript 50  Blatt 50  OK
+20b    Skript 25  Blatt 25  OK
+20c    Skript 10  Blatt 10  OK
+20d    Skript 75  Blatt 75  OK
+21a    Skript 25  Blatt 25  OK
+21b    Skript 30  Blatt 30  OK
+22a    Skript 75  Blatt 75  OK
+22b1   Skript 25  Blatt 25  OK
+22b2   Skript 20  Blatt 20  OK
+23a    Skript 75  Blatt 75  OK
+23b    Skript 70  Blatt 70  OK
+23c Mia>Sara Skript 1  Blatt 1  OK
+Abweichungen: 0

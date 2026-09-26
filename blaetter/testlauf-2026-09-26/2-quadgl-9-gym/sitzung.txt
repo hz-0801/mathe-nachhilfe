@@ -9,3 +9,66 @@ Unit 1 passed. Now unit 2.
 All four units passed. Now the Abhakseite (generated from the sources so the titles match word for word) and the frame files.
 
 Everything is built and checked. Writing the archive script (it creates protokoll.txt and chat.txt and zips everything in one call).
+
+→ Lernblatt · mit Wiederholung, ohne Ausblick (Register führt das Thema; kein Zweig nach Kl. 9) · 4 Zweige · Zone aus 8 Fertigkeiten
+
+Einheit 1 von 4 · Wurzelziehen und Lösbarkeit: Hier lernst du, Gleichungen mit x², aber ohne x-Glied durch Wurzelziehen zu lösen und zu sagen, wie viele Lösungen sie haben · neu oder schon bekannt – je nach Buch (an der Oberschule je nach Buch Kl. 9 oder 10) · P10 · baut auf: Quadrieren, Wurzelziehen, lineare Gleichungen, Scheitelpunktform
+Einheit 2 von 4 · Satz vom Nullprodukt: Hier lernst du, Gleichungen der Form Produkt gleich null mit dem Satz vom Nullprodukt zu lösen · neu oder schon bekannt – je nach Buch (an der Oberschule erst Kl. 10) · P10 · baut auf: lineare Gleichungen, Ausmultiplizieren und Ausklammern, Einsetzen
+Einheit 3 von 4 · Normalform und p-q-Formel: Hier lernst du, eine quadratische Gleichung in die Normalform zu bringen und mit der p-q-Formel zu lösen · neu in diesem Jahr (an der Oberschule je nach Buch Kl. 9 oder 10) · P10 oft · baut auf: Wurzelziehen (Einheit 1), Ausmultiplizieren und Ordnen (Einheit 2), binomische Formeln
+Einheit 4 von 4 · Sachaufgaben: Hier lernst du, zu Zahlenrätseln und Rechtecken eine quadratische Gleichung aufzustellen, sie zu lösen und die passende Lösung auszuwählen · neu in diesem Jahr (an der Oberschule je nach Buch Kl. 9 oder 10) · keine P10-Aufgabe · baut auf: Einheit 1 bis 3, Gleichungen aufstellen
+
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort aus der Eingabe: alle
+
+QuadratischeGlg_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen.
+(Testlauf ohne Halt: der Bau lief direkt weiter)
+
+QuadratischeGlg_Lernblatt.pdf
+QuadratischeGlg_Gesamt.pdf
+QuadratischeGlg_Loesungen.pdf
+QuadratischeGlg_2026-09-26_protokoll.zip
+
+1. Abweichungen: ohne Ausblick, weil das Register der Blätter das Thema schon führt (alle Marken liegen ohnehin bei oder vor Kl. 9) · Baustein im Vorspann von Lernblatt und Gesamt: \rechteckrand (Beet mit Weg, Nr. 47 f) · Höhe nach Lehrwerk: Einheit 4 (kein P10-Original, Zielmarke LS-AA Kl. 9 II 6) · Nr. 15, 35, 36 und 40 sind etwa zwei Drittel Seite hoch (unter dem Maß von zwölf Teilaufgaben, daher nicht geteilt), ihre Seiten tragen Restfläche · keine geteilten Hauptnummern, keine Zwischensprossen · Papier der OS-Originale als „FOR" angenommen · Kopfzeile der Zone zeigt „Kennst du schon" doppelt (Blattname und Kurzform der Vorlage) · kein Weiter-Stempel (Testlauf ohne Halt)
+2. Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen (8 Fertigkeiten; 7 Erkennungsschritte als Nr. 12, 13, 24, 32, 33, 34, 45), Sprossen, Typische Fehler, Prüfungsform und Zielmarke; nicht gebraucht Merkkasten, Grundvorstellung, Verortung · Befunde: der Erkennungsschritt „Zwei, eine oder keine?" braucht den Fall rechts null, x² = 0 ist aber Kastengleichung (ausgewichen auf 5x² = 0); die Prüfungshöhe von Einheit 1 (2021-OS-K7c) enthält „Gleichung ohne Lösung angeben", das die Kette davor als eigene Sprosse führt (hier verfremdet als „rechte Seite ändern"); der Typ „Quadrat mit Rand (Vorrat)" hat keine Sprosse in der Kette (in Nr. 47 f als Beet mit Weg gebaut); Einheit 3 führt vier Originale, das Blatt trägt je Hauptnummer eine Prüfungshöhe (2020-OS-K3e in Nr. 29, 2023-OS-K4c in Nr. 41, 2022-OS-K3c in Nr. 44; 2025-OS-K5c und 2017-OS-K5d nicht verwendet); der Eintrag nennt für die OS-Originale kein Papierkürzel · Spannen: Einheit 1 und 2 GYM Kl. 8–9 → „neu oder schon bekannt – je nach Buch"; Oberschul-Zusatz bei Einheit 1, 3, 4 „je nach Buch Kl. 9 oder 10", bei Einheit 2 „erst Kl. 10"
+4. Protokoll-Archiv: QuadratischeGlg_2026-09-26_protokoll.zip
+
+---
+Hinweise für den Koordinator (nicht Teil der Lehrer-Sicht):
+- Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\2-quadgl-9-gym. Die fertigen PDFs sind QuadratischeGlg_KennstDuSchon.pdf (3 Seiten, Nr. 1–11), QuadratischeGlg_Lernblatt.pdf (21 Seiten, Nr. 12–49), QuadratischeGlg_Gesamt.pdf (23 Seiten, Nr. 1–49) und QuadratischeGlg_Loesungen.pdf (3 Seiten, zu allen 49 Nummern eine Lösung). Daneben liegen das Archiv (58 Dateien), protokoll.txt, chat.txt und zeiten.txt.
+- Prüfungen: pruef.py meldet für Zone und Einheit 1 bis 4 jeweils 0 Abweichungen, und die Sperrliste (43 Gleichungen aus dem Eintrag) hat nirgends getroffen. kompilat_pruef.py meldet für Lernblatt und Gesamt 0 Befunde. Geprüft sind dabei: die Nummern laufen durch, jede Kopfzeile nennt die Einheit, jeder Link der Verzeichniszeile führt zu seinem Zweigkopf, und die Abhakseite hat 49 Einträge wortgleich zu den Titeln. Die LaTeX-Logs zeigen keine Fehler, keine mathblatt-Warnungen und keine Overfull-Boxen.
+- Zeiten ab t0: Zone 1028 s, E1 1150 s, E2 1226 s, E3 1337 s, E4 1415 s, Lernblatt 1502 s, Gesamt 1548 s, Lösungen 1565 s. Korrekturrunden: 3 von 76 Schritten.
+- Abweichung vom Prompt: Beim Lesen des Eintrags (Zeilen 111–150) wurden die Abschnitte „Offene Punkte" und „Prüfliste" mitgelesen, obwohl der Prompt sie ausschließt (2.1). Für das Blatt wurden sie nicht verwendet; protokoll.txt vermerkt das bei Schritt 12.
+- Die Vorlage ist mathblatt.sty in Version 2026-09-28a; die Anleitung nennt dieselbe Version.
+
+All five parts of the Lernblatt "Quadratische Gleichungen, Klasse 9, Gymnasium" are built and checked, and I've sent the report to the coordinating agent. The parts are the zone, units 1 to 4, Gesamt and Lösungen. Every result was recomputed by script with no mismatches, and the compiled PDFs passed their checks.
+
+**Files**, all in `...\scratchpad\testlauf\2-quadgl-9-gym`:
+- `QuadratischeGlg_KennstDuSchon.pdf`: the zone "Kennst du schon", 3 pages, tasks 1–11.
+- `QuadratischeGlg_Lernblatt.pdf`: 21 pages, tasks 12–49, ending with the "Das kann ich" checklist page.
+- `QuadratischeGlg_Gesamt.pdf`: zone plus all units, 23 pages, tasks 1–49.
+- `QuadratischeGlg_Loesungen.pdf`: 3 pages, a solution for all 49 tasks.
+- `QuadratischeGlg_2026-09-26_protokoll.zip`: 58 files, including `protokoll.txt`, `chat.txt` and `zeiten.txt`.
+
+**How the input was read:** Lernblatt, with a review zone and no Ausblick, because the sheet register already lists this topic. All four units were built, following the "alle" answer given in the input.
+
+**Checks:**
+- `pruef.py` found 0 mismatches for the zone and all four units.
+- None of my tasks reuses a whole equation from the catalog entry's boxes, examples or originals.
+- In Lernblatt and Gesamt the task numbers run without gaps, every page header names its unit, and every table-of-contents link lands on its unit heading.
+- The checklist page lists all 49 titles word for word.
+- The LaTeX logs show no errors, no template warnings and no overfull lines.
+- Times from the start stamp: zone 1028 s, units 1–4 at 1150 / 1226 / 1337 / 1415 s, Lösungen 1565 s. There were 3 correction rounds in 76 steps.
+
+**Deviations the teacher should know about:**
+- **Rule break:** when reading the catalog entry I also read the "Offene Punkte" and "Prüfliste" sections, which the prompt excludes (2.1). Nothing from them went into the sheet, and `protokoll.txt` notes it at step 12.
+- **Own drawing:** I defined one building block myself, a rectangle with a border (`\rechteckrand`, for the "Beet mit Weg" task, no. 47 f), because the template has none. It sits in the Lernblatt and Gesamt source files.
+- **Tall tasks not split:** nos. 15, 35, 36 and 40 are each about two thirds of a page. They stay under the "twelve subtasks" limit, so I didn't split them, and the pages they're on have some empty space left.
+- **Exam-paper label:** for the P10 originals the entry only says "OS", so I tagged them "FOR" as an assumption.
+- **Zone header:** the zone's page header shows "Kennst du schon" twice, once as the sheet name and once as the template's unit short form.
+- **Findings for the catalog entry:**
+  - The recognition step for "two, one or no solutions" needs an equation with 0 on the right, but x² = 0 is a box equation, so I used 5x² = 0 instead.
+  - Unit 3 lists four exam originals and the sheet uses three of them; 2025-OS-K5c and 2017-OS-K5d are not used.
+  - The type "Quadrat mit Rand" has no step in the chain, so I built it into the final task of unit 4.
+
+The full output block, the plan and the planning question with its answer are in `chat.txt`.

@@ -1,0 +1,75 @@
+→ Lernblatt · Kl. 7, Standpunkt Oberschule (Gymnasium als Zusatz) · mit Wiederholung, ohne Ausblick (das Register der Blätter führt das Thema schon) · Einheit 1 „Prozente als Anteile“ (OS Kl. 6) liegt in der Zone · 4 Zweige · Zone aus 7 Fertigkeiten und dem Fehler-Paar (Nr. 1–11)
+1 von 4 · Prozentsatz berechnen: Hier lernst du auszurechnen, wie viel Prozent ein Teil vom Ganzen ist · neu in diesem Jahr · P10 oft · baut auf: Prozent am Streifen (Nr. 1–3), Bruch auf den Nenner 100 (Nr. 4), Runden (Nr. 6), Dreisatz (Nr. 8)
+2 von 4 · Prozentwert berechnen: Hier lernst du auszurechnen, wie viel ein Anteil in Prozent von einer Größe ist · neu in diesem Jahr · P10 · baut auf: Streifen einteilen (Nr. 13), Bruch als Dezimalzahl (Nr. 5), durch 100 teilen (Nr. 7), Dreisatz (Nr. 8), Bruchteil einer Größe (Nr. 9)
+3 von 4 · Grundwert berechnen: Hier lernst du, aus einem Teil und seinem Anteil in Prozent das Ganze auszurechnen · neu in diesem Jahr · P10 oft · baut auf: Prozentwert (Einheit 2), Streifen einteilen (Nr. 13), Dreisatz (Nr. 8)
+4 von 4 · Prozentuale Veränderung: Hier lernst du auszurechnen, wie sich ein Wert ändert, wenn er um einige Prozent steigt oder fällt · neu in diesem Jahr oder erst in Klasse 8 – je nach Buch (am Gymnasium in Klasse 7) · P10 oft · baut auf: Prozentsatz (Einheit 1), Prozentwert (Einheit 2), Grundwert (Einheit 3), Runden (Nr. 6)
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus) – Antwort aus der Eingabe: alle
+
+Prozentrechnung_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 4, Gesamt und Lösungen. – Antwort aus der Eingabe: weiter
+
+Prozentrechnung_Lernblatt.pdf
+Prozentrechnung_Gesamt.pdf
+Prozentrechnung_Loesungen.pdf
+Prozentrechnung_2026-09-26_protokoll.zip
+
+Zone: Einheit 1 des Eintrags (Prozente als Anteile, Marke OS Kl. 6) steht als Fertigkeit in der Zone (Nr. 1–3 mit der Grundvorstellung), nicht als Zweig. Es gibt keinen Ausblick-Zweig, weil das Register der Blätter das Thema führt.
+Zone: Die Grundvorstellung ist auf drei Hauptnummern verteilt (Nr. 1 ablesen, Nr. 2 einzeichnen, Nr. 3 von 10 % auf das Ganze), weil es drei Antwortformen sind.
+Geteilte Hauptnummern: 15/16, 18/19, 24/25, 44/45.
+Zwischensprossen: Nr. 16 d (erst kürzen, dann erweitern), Nr. 17 b (Teil als Dezimalzahl), Nr. 26 b (Ganzes unter 100, 1 % als Dezimalzahl), Nr. 37 b (Rest zu 100 % zuerst bilden).
+Die Prüfungshöhe steht nicht in der letzten Verfahrens-Hauptnummer. Einheit 2 hat sie in Nr. 29 (P10 2021 OS), weil Nr. 30 (über 100 %) eine eigene Fertigkeit ist. Einheit 4 hat sie in Nr. 47 (P10 2026 FOR) und Nr. 51 (P10 2025 OS), weil die Kette dort nach Form zerfällt.
+Der Typ „Mehrwertsteuer in Euro“ (Einheit 2) steht in keiner Kette und ist deshalb die Anwendung Nr. 33.
+Im Quelltext definiert: \abhakverf (kursive Verfahrenszeile auf der Abhakseite über \abhakgruppe), weil die Vorlage nur eine Gruppenebene kennt.
+Vorlage (2026-09-28a): Die Kopfzeile der Zone ist doppelt („Prozentrechnung · Kennst du schon · Kennst du schon“). \dreieckrw setzt immer die Eckpunktnamen A, B, C (Nr. 51), was gegen 3.6 verstößt. Streifen in \swz ragen 2–12 pt über den Satzspiegel (Overfull hbox).
+Der Stempel „e 2“ steht in einem eigenen Aufruf direkt nach der Durchsicht, nicht im Prüfaufruf.
+Katalog, gebraucht: Lerneinheiten, Marken, Typen, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Für schwache Schüler (Sprossen, Grundvorstellung), Typische Fehler, Prüfungsform/Zielmarke, Merkkasten (bei schwach am Zweigende). Nicht gebraucht: Verortung.
+Katalog, Befunde: Einheit 1 trägt OS Kl. 6, zwei ihrer Typen aber [OS 7]; bei Kl. 7 Oberschule fällt sie deshalb in die Zone, obwohl diese Typen neu sind. Die Ketten „Prozentsatz“ und „Grundwert“ nennen als Vorstufe Streifenaufgaben mit Zahlergebnis; sie stehen als Verfahrens-Hauptnummern Nr. 14 und Nr. 35. Kettenlücken: Kürzen vor dem Erweitern (Einheit 2) und Rest zu 100 % (Einheit 4).
+Katalog, Spannen: Einheit 5 „OS Kl. 7–8“ ist bei Eingabeklasse 7 als „neu in diesem Jahr oder erst in Klasse 8 – je nach Buch“ aufgelöst, weil „neu oder schon bekannt“ an der unteren Grenze nicht passt. Der Typ „Prozentsatz über 100 %“ [OS 7–8] steht als „je nach Buch erst in Klasse 8“ am Titel. Die Typklammern [OS 9] Faktor, [OS 10] Steigung und [OS 7] Brutto/Netto stehen ebenfalls am Titel.
+Protokoll-Archiv: Prozentrechnung_2026-09-26_protokoll.zip
+
+Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\3-prozent-7-schwach.
+Prüfungen: pruef.py meldet für Zone und E1–E4 je 0 Abweichungen. Die Nummern laufen im Gesamt 1–54 durch. Die Sprungziele der Verzeichniszeile führen per pypdf-Prüfung an ihre Einheitenköpfe. Die Kopfzeile jeder Seite nennt die Einheit. Das Log zeigt keine „Package mathblatt Warning“.
+Umfang: Zone 8 Seiten, Lernblatt 29, Gesamt 37, Lösungen 3.
+Zeiten ab t0: Zone 657 s, E1 822 s, E2 947 s, E3 1070 s, E4 1236 s, Lernblatt 1290 s, Gesamt 1319 s, Lösungen 1341 s.
+
+Das Lernblatt „Prozentrechnung, Klasse 7, schwach“ ist fertig: vier PDFs und das Protokoll-Archiv liegen im Arbeitsverzeichnis. Das Prüfskript meldet für die Zone und alle vier Einheiten 0 Abweichungen.
+
+**Deutung:** Lernblatt, Klasse 7, Standpunkt Oberschule (Gymnasium als Zusatz). Die Wiederholungszone ist dabei, einen Ausblick gibt es nicht, weil das Register der Blätter das Thema schon führt. Die Katalog-Einheit 1 „Prozente als Anteile“ ist dort für Klasse 6 markiert und steht deshalb in der Zone statt als eigene Einheit. Auf die Frage nach dem Umfang galt die Antwort „alle“ aus der Eingabe.
+
+**Aufbau:**
+- **Zone „Das kennst du schon“, Nr. 1–11:** sieben Fertigkeiten und ein Paar aus Fehler finden und Nachrechnen.
+- **Einheit 1, Prozentsatz, Nr. 12–23:** neu in diesem Jahr, P10 oft.
+- **Einheit 2, Prozentwert, Nr. 24–33:** neu in diesem Jahr, P10.
+- **Einheit 3, Grundwert, Nr. 34–41:** neu in diesem Jahr, P10 oft.
+- **Einheit 4, Prozentuale Veränderung, Nr. 42–54:** je nach Buch neu in Klasse 7 oder erst in Klasse 8 (am Gymnasium Klasse 7), P10 oft.
+
+Die Option „schwach“ ist durchgehend umgesetzt: neben jeder Teilaufgabe eine Darstellung (Streifen, Dreisatz, Stellenwerttafel), Schreibzeilen für jeden Rechenschritt, Einstiegspäckchen mit der Frage „Was bleibt gleich, was ändert sich?“ und der Merkkasten am Ende jeder Einheit.
+
+**Umfang und Prüfung:** Zone 8 Seiten, Lernblatt 29, Gesamt 37, Lösungen 3. Die Nummern laufen im Gesamt von 1 bis 54 durch. Die Links der Inhaltszeile führen an die richtigen Einheiten, und jede Kopfzeile nennt ihre Einheit. Die Vorlage selbst hat keine Warnung gemeldet.
+
+**Abweichungen vom Prompt:**
+- Die letzte Aufgabe auf Prüfungsniveau steht nicht immer in der letzten Hauptnummer einer Einheit. In Einheit 2 steht sie in Nr. 29, weil Nr. 30 („mehr als 100 %“) eine eigene Fertigkeit ist. In Einheit 4 steht sie in Nr. 47 und Nr. 51.
+- Die Grundvorstellung der Zone ist auf drei Nummern verteilt (ablesen, einzeichnen, auf das Ganze schließen), weil es drei Antwortformen sind.
+- Vier Hauptnummern sind geteilt (15/16, 18/19, 24/25, 44/45). Vier Zwischenschritte habe ich selbst ergänzt (Nr. 16 d, 17 b, 26 b, 37 b).
+- Der Zeitstempel „e 2“ steht in einem eigenen Aufruf nach der Durchsicht, nicht im Prüfaufruf.
+
+**Befunde an der Vorlage:**
+- Die Kopfzeile der Zone lautet doppelt „Prozentrechnung · Kennst du schon · Kennst du schon“.
+- Das Dreieck-Makro setzt immer die Eckpunktnamen A, B, C (Nr. 51). Das verstößt gegen die Regel „keine unerklärten Buchstaben“.
+- Die Streifen neben den Teilaufgaben ragen 2–12 pt über den Rand.
+- Für die Verfahrenszeilen auf der „Das kann ich“-Seite habe ich einen eigenen Hilfsbefehl `\abhakverf` definiert, weil die Vorlage nur eine Gruppenebene kennt.
+
+**Befunde am Katalog:**
+- Einheit 1 ist für Klasse 6 markiert, zwei ihrer Aufgabentypen aber für Klasse 7. In Klasse 7 an der Oberschule landet sie deshalb in der Zone, obwohl diese Typen dort neu sind.
+- Die Ketten für Prozentsatz und Grundwert nennen als Vorstufe Streifenaufgaben, die eine Zahl als Ergebnis verlangen. Ich habe sie als normale Rechennummern gesetzt (Nr. 14 und 35).
+- Zwei Lücken in den Ketten: Kürzen vor dem Erweitern und „Rest zu 100 %“ beim Grundwert.
+- Für Einheit 5 sieht die Anleitung bei einer Klassenspanne 7–8 mit Eingabeklasse 7 den Text „neu oder schon bekannt“ vor. Das passt an der unteren Grenze nicht, deshalb steht dort „neu in diesem Jahr oder erst in Klasse 8“.
+
+**Zeiten ab Start:** Zone nach 657 s, Einheit 4 nach 1236 s, Lösungen fertig nach 1341 s. Der Schritt „weiter“ lag bei 735 s, ohne Wartezeit, weil der Testlauf ohne Halt durchgebaut hat.
+
+Dateien in `C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\3-prozent-7-schwach`:
+- Prozentrechnung_KennstDuSchon.pdf
+- Prozentrechnung_Lernblatt.pdf
+- Prozentrechnung_Gesamt.pdf
+- Prozentrechnung_Loesungen.pdf
+- Prozentrechnung_2026-09-26_protokoll.zip
