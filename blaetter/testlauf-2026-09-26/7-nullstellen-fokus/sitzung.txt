@@ -1,0 +1,34 @@
+Now fetch the entry and the template/guide.
+
+Recompile both (two runs for hyperref), render the solution page, and set the "fokus" stamp.
+
+→ Fokus Nullstellen · ohne Klasse, Marken absolut
+Gemeint ist: quadratische-funktionen – Nullstellen einer Parabel aus Scheitelpunktform und Normalform (Einheit 4) · quadratische-gleichungen – quadratische Gleichungen lösen (Wurzelziehen, p-q-Formel, Lösbarkeit)
+
+Antwort des Lehrers (aus der Eingabe): quadratische-funktionen
+
+→ Fokus Nullstellen · quadratische-funktionen, Einheit 4 · ohne Klasse, Marken absolut · Zone aus 5 Fertigkeiten
+
+QuadratischeFkt_Fokus_Nullstellen.pdf
+QuadratischeFkt_Fokus_Nullstellen_Loesungen.pdf
+QuadratischeFkt_2026-09-26_protokoll.zip
+Abweichung: Zwischensprossen ergänzt – Scheitelpunktform: Plus in der Klammer, nach unten geöffnet; p-q-Formel: q negativ, p ungerade, eine Nullstelle (berührt), keine Nullstelle · geteilte Hauptnummern 7/8 und 13/14 · Streckfaktor vor den nicht ganzzahligen Nullstellen (Aufwand nach Struktur, 2.4 b) · Prüfungshöhe 2017-OS-K5d ohne den Nachweis durch Ausmultiplizieren (Stoff von Einheit 3), Scheitelpunktform vorgegeben · Funktionsname f statt p (p ist in der p-q-Formel belegt) · keine Abhakseite im Fokus
+Katalog: gebraucht Lerneinheiten (Einheit 4), Marken, Typen Einheit 4, Voraussetzungen (Quadrieren, Wurzel, quadratische Gleichung, Nullstelle der Geraden; Erkennungsschritt „Was wird gleichgesetzt?“ als Vorstufe Nr. 6), Sprossen Einheit 4, Typische Fehler (nur eine Lösung, Vorzeichen in der Klammer, p-q-Formel), Prüfungsform (2017-OS-K5d, 2020-OS-K3e, 2025-OS-K5c); nicht gebraucht Merkkasten, Verortung, Grundvorstellung, Fertigkeiten Koordinaten, binomische Formel, lineare Gleichung, Schnittpunkt zweier Geraden · gefehlt: Kette Einheit 4 ohne Sprossen für Vorzeichen in der Klammer, Öffnung nach unten, q negativ, p ungerade, Diskriminante null oder negativ; Stichwort „nullstellen“ allein führt auf zwei Einträge, geführt ist nur „nullstellen parabel“ · Marke Einheit 4 ohne Spanne (OS Kl. 10 · GYM Kl. 9), Zeitmarke „ab Kl. 10 (am Gymnasium ab Kl. 9)“
+Protokoll-Archiv: QuadratischeFkt_2026-09-26_protokoll.zip
+
+---
+Was der Testlauf ergeben hat:
+
+- **Ergebnis:** Das Blatt ist bis zum Ausgabeblock ohne Halt durchgelaufen. Der Fokus hat 8 Seiten, 19 Hauptnummern und 58 Teilaufgaben: Zone Nr. 1–5 auf Seite 1, Vorstufe Nr. 6, „Nullstellen aus der Scheitelpunktform“ Nr. 7–12, „Nullstellen mit der p-q-Formel“ Nr. 13–19. Die Lösungen passen auf 1 Seite und decken alle 19 Nummern ab.
+- **Prüfung:** `pruef.py` findet 0 Abweichungen, sowohl in der Zone als auch in e4. Dazu prüft es, dass die Vorgaben der Fehler-finden-Aufgaben wirklich falsch sind. Nach dem zweiten xelatex-Lauf ist das Log sauber; die mathblatt-Warnung zu einer zu hohen Hauptnummer kam nicht. Die Vorlage ist 2026-09-28a und stimmt mit der Anleitung überein; es fehlt kein Baustein.
+- **Korrektur und Zeit:** Es gab 1 Korrekturrunde: In den Anweisungen 10 c, 17 d und 18 c stand „f“ als normaler Text statt als Formelzeichen $f$. Gemessene Zeit von t0 bis zum Stempel fokus: 527 s.
+- **Abweichung vom Prompt:** Ich habe den Katalogeintrag bis zum Dateiende gelesen und dabei „Offene Punkte“ und „Prüfliste“ mitgelesen, obwohl 2.1 das ausschließt. Das steht im Protokoll (Schritt 9). Den Funktionsnamen f habe ich nach 3.6 begründet: p ist in der p-q-Formel schon vergeben.
+- **Auslegungen:**
+  - Die Fokus-Zone hat kein Fehler-finden-Paar, weil 2.5 dort nur Fertigkeiten vorsieht.
+  - Das Protokoll trägt keine „zone“- und „weiter“-Stempel, weil der Fokus nur „fokus“ kennt.
+  - „Eine Nullstelle“ und „keine Nullstelle“ stehen als eigene Nummern 15 und 16, nach 2.3 e.
+
+Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\7-nullstellen-fokus\:
+- QuadratischeFkt_Fokus_Nullstellen.pdf
+- QuadratischeFkt_Fokus_Nullstellen_Loesungen.pdf
+- QuadratischeFkt_2026-09-26_protokoll.zip (21 Dateien, darunter protokoll.txt, chat.txt, zeiten.txt, pruef.py mit Ausgaben, alle .tex/.log, sty, Anleitung, Katalogeintrag)

@@ -1,0 +1,11 @@
+1a	Skript: [4.0]	Blatt: [4]	OK
+1b	Skript: [2.0]	Blatt: [2]	OK
+2a	Skript: 36.0	Blatt: 36	OK
+2b	Skript: 2.25	Blatt: 2.25	OK
+3a	Skript: 9.0	Blatt: 9	OK
+3b	Skript: 3.61	Blatt: 3.61	OK
+4a	Skript: [8.0, -8.0]	Blatt: [8, -8]	OK
+4b	Skript: []	Blatt: []	OK
+5a	Skript: [-3.0, -5.0]	Blatt: [-3, -5]	OK
+5b	Skript: [6.0, -4.0]	Blatt: [6, -4]	OK
+Abweichungen: 0
