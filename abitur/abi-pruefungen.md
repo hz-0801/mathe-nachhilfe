@@ -28,7 +28,7 @@ in abi-vorgaben.md.
 | 2018 | 2018-be-lk | BE | erhöht | WTR | 11 | 270 | 100 | teilweise abgedeckt · vier Aufgaben gleichlautend in 2018-bb-ea, zwei eigene noch nicht erfasst |
 | 2018 | 2018-bb-ea | BB | erhöht | WTR | 13 | 270 | 100 | **erfasst 2026-09-12, 41 Zeilen** (alle Aufgaben, beide Wahlwege) · Pool: Teil 1 (1.1, 1.2) = 2018 erhöht Teil A (4 „Dublette von:“); 3.1 Museum = 2018 erhöht Teil B AG/LA (A2) CAS 1 – seit Lauf 27 5 „Dublette von:“ (3.1 a–e; c mit 5 statt 4 BE) und 1 „Abgewandelt von:“ (3.1 f; § 4) |
 | 2018 | 2018-be-gk-cas | BE | grundlegend | CAS | 10 | 210 | 80 | **erfasst 2026-09-29, 16 Zeilen** (CAS-Nachtrag nach dem Beschluss vom 26.09.2026 Punkt 3, abi-bau.py v0.15: 12 eigene Zeilen für die Arten Werkzeug, Auftrag, Zuschnitt, ganze Aufgabe – 1.1 c, e, f, g; 1.2 a–h –, 3 Landes-Dubletten „Dublette von: <WTR-id>“ – 1.1 b, d nur BE, 3.1 b nur Zahl – und 1 Pool-Dublette – 3.2 a nur Zahl gegenüber dem WTR-Heft, aber wortgleich mit 2018MgrundlegendBStochastikWTR2-1a) mit 86 BE, dazu 34 BE wortgleich übernommen und 40 BE unverändert (2.1, 2.2) – 160 angeboten wie im WTR-Heft · 10 statt 11 Seiten: keine Anlagen (Graphen zu 1.2, Tafel zu 3.2) · WTR 1.1 f ohne eigenes CAS-Gegenstück (in 1.1 f aufgegangen, § 4) |
-| 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | zurückgestellt – Nachtrag nach WTR |
+| 2018 | 2018-be-lk-cas | BE | erhöht | CAS | 9 | 270 | 100 | **Nachtrag geprüft 2026-09-29, 0 Zeilen** (Beschluss vom 26.09.2026 Punkt 3): 16 abweichende Teilaufgaben – 13 in 1.1 Vase, 1.2 Gartenteich, 2.1 Museum sind schon Zeilen von 2018-bb-ea-cas (Verweis wie bei einem Zwilling, § 4); 3 in den eigenen Berliner Aufgaben 2.2 Quader, 3.1 Smartphone, deren WTR-Fassung keine Zeile hat, nicht erfasst (offener Posten in faellig.md); 3.2 Brillenträger ist die WTR-Fassung |
 | 2018 | 2018-bb-ea-cas | BB | erhöht | CAS | 12 | 270 | 100 | **erfasst 2026-09-27, 14 Zeilen** (CAS-Nachtrag: nur abweichende Teilaufgaben; 4 „CAS:“-Aufgaben – 2.1 Vase, 2.2 Gartenteich, 3.1 Museum, 4.2 Brillenträger) · Zeilen 2.1 c, d, e, f, g, h; 2.2 b, d, e, f, g, i; 3.1 f; 4.2 d mit 77 BE, dazu 73 BE wortgleich übernommen und 35 BE unverändert (Teil 1, 3.2, 4.1) – 185 angeboten wie im WTR-Heft · 12 statt 13 Seiten: die Anlage zu 4.2 (Tafel der summierten Binomialverteilungen) fehlt · 3.1 Museum ist die Poolaufgabe 2018MerhoehtBAGLAA2CAS1: im Heftlauf 1 Vormerkung (3.1 f), seit Lauf 27 (2026-09-29, Stapel 2018-ea-B-cas erfasst) „Abgewandelt von:“ (umformuliert, 6 statt 7 BE; § 4) |
 | 2019 | 2019-be-gk | BE | grundlegend | WTR | 46 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2019-be-gk.pdf) | – (nicht im Band) | 180 angeboten, 100 bearbeitet (Teil A 20 Pflicht in vier Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 40, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 45 Zeilen** (alle Aufgaben, alle Wahlwege; 4 Pool-Dubletten Teil A, 1 abgewandelt; 8 Dubletten und 1 abgewandelter Verweis auf den Pool 2019 Teil B seit Lauf 23) · Kopfzeile „Berlin – Mathematik Grundkurs 2019" · erstes Berliner Heft mit hilfsmittelfreiem Teil |
 | 2020 | 2020-be-gk | BE | grundlegend | WTR | 49 (Verlagsband, PDF mit Textebene; Aufgaben-, Tipp- und Lösungsseiten; Datei hefte/abi/2020-be-gk.pdf) | – (nicht im Band) | 175 angeboten, 100 bearbeitet (Teil A 25 Pflicht in fünf Einheiten; Teil B je eine Aufgabe aus 2.1/2.2 zu 35, 3.1/3.2 zu 20, 4.1/4.2 zu 20 BE) | **erfasst 2026-09-17, 51 Zeilen** (alle Aufgaben, alle Wahlwege; 3 Pool-Dubletten Teil A; 1 Dublette und 6 abgewandelte Verweise auf den Pool 2020 Teil B seit Lauf 23 – 4.2 e, f beim Stapellauf als abgewandelt befunden) · Kopfzeile „Berlin – Mathematik Grundkurs 2020" |
@@ -2141,6 +2141,31 @@ Aufträge zusammengelegt (1.1 f) und neue Rechenaufgaben, die ohne Rechner nicht
 zumutbar wären (1.1 g, 1.2 e, g, h); eine Kontrollangabe kommt dazu (1.2 f).
 Kennzahlen § 2.
 
+**2018-be-lk-cas, Nachtrag geprüft (29.09.2026, Auftrag Nacht 2026-09-29,
+Teil 4; Beschluss vom 26.09.2026 Punkt 3).** Keine Zeile. Das Heft
+(hefte/abi/2018-be-lk-cas.pdf, 18_Ma_LK_CAS_Aufgaben, 9 Seiten) hat nach der
+Messung (befund-cas-berlin-2026-09-28.md) 16 abweichende Teilaufgaben, davon 7
+nur BE. **Schon Zeile eines Brandenburger CAS-Hefts (13, Verweis nach abi.md
+§ 7 wie bei einem Zwilling des anderen Landes, keine zweite Zeile):** 1.1 Vase
+= 2018-bb-ea-cas 2.1 – 1.1 c → 2018-bb-ea-cas-B2.1c (nur BE), 1.1 d →
+2018-bb-ea-cas-B2.1d (Werkzeug), 1.1 e → 2018-bb-ea-cas-B2.1e (nur BE), 1.1 f →
+2018-bb-ea-cas-B2.1f (nur BE), 1.1 g → 2018-bb-ea-cas-B2.1g (Werkzeug), 1.1 h →
+2018-bb-ea-cas-B2.1h (ganze Aufgabe); 1.2 Gartenteich = 2018-bb-ea-cas 2.2 –
+1.2 b → 2018-bb-ea-cas-B2.2b (nur BE), 1.2 d → 2018-bb-ea-cas-B2.2d (Auftrag),
+1.2 e → 2018-bb-ea-cas-B2.2e (nur BE), 1.2 f → 2018-bb-ea-cas-B2.2f (Werkzeug),
+1.2 g → 2018-bb-ea-cas-B2.2g (nur BE), 1.2 i → 2018-bb-ea-cas-B2.2i (ganze
+Aufgabe); 2.1 Museum = 2018-bb-ea-cas 3.1 – 2.1 f → 2018-bb-ea-cas-B3.1f
+(Werkzeug). Die übrigen Teilaufgaben dieser drei Aufgaben sind wortgleich mit
+der WTR-Fassung und stehen über 2018-bb-ea im Katalog; 3.2 Brillenträger ist in
+der Berliner CAS-Fassung die WTR-Fassung (2018-bb-ea-cas 4.2 weicht davon ab).
+**Eigene Berliner Aufgaben ohne WTR-Zeile (3 abweichende Teilaufgaben, nicht
+erfasst):** 2.2 Quader c (nur BE), g (Werkzeug + Auftrag: Lösung t = ±2√2 nicht
+mehr angegeben, dazu alle Lösungen der Gleichung); 3.1 Smartphone a (Auftrag:
+zusätzliches Ereignis A3) – die WTR-Aufgaben 2018-be-lk 2.2, 3.1 sind selbst
+nicht erfasst; offener Posten in faellig.md (eigene Aufgaben der Berliner
+LK-Hefte 2017/2018, WTR und CAS). Gegenprobe gegen den Befund: 16 abweichend,
+7 nur BE, 13 schon Zeile.
+
 **Abgleichlauf 25 – Verweise 3.1 Zelt 2017 (28.09.2026, Auftrag Nacht
 2026-09-28, Teil 2 Punkt 4; abitur-abgleich.py v0.26).** Nach den
 Reserve-Stapeln 2017-ea-B (WTR) und 2017-ea-B-cas (CAS-Delta, iqb-pruefungen.md
@@ -2971,6 +2996,7 @@ dasselbe.
 
 | Datum | Änderung |
 |---|---|
+| 2026-09-29 | Nachtrag 2018-be-lk-cas geprüft (Auftrag Nacht 2026-09-29, Teil 4; Beschluss vom 26.09.2026 Punkt 3): 0 Zeilen. 13 abweichende Teilaufgaben sind schon Zeilen von 2018-bb-ea-cas (1.1 c–h → 2.1 c–h; 1.2 b, d, e, f, g, i → 2.2 b, d, e, f, g, i; 2.1 f → 3.1 f), Verweisliste in § 4; 3 abweichende Teilaufgaben der eigenen Berliner Aufgaben 2.2 und 3.1 nicht erfasst (offener Posten). Katalog unverändert. |
 | 2026-09-29 | Nachtrag 2018-be-gk-cas (Auftrag Nacht 2026-09-29, Teil 4; Beschluss vom 26.09.2026 Punkt 3): 16 Zeilen, 86 BE – 12 eigene Zeilen (1.1 c, e, f, g; 1.2 a–h), 3 Landes-Dubletten (1.1 b, d nur BE; 3.1 b nur Zahl, Ergebnis neu gerechnet), 1 Pool-Dublette (3.2 a „Dublette von: 2018MgrundlegendBStochastikWTR2-1a.“ – wortgleich mit dem Pool, nur gegenüber dem WTR-Heft andere Zahlen; eigene Entscheidung statt Landesverweis, § 4); 34 BE übernommen, 40 BE unverändert, 160 angeboten. abi-bau.py v0.15 unverändert im Modus. Katalog 887 Zeilen aus 21 Heften, Typenliste 1421 (2 neu, § 4). Lauf aus einer frischen Repo-Kopie byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Keine Umbenennung bestehender Typen. |
 | 2026-09-29 | Nachtrag 2017-be-lk-cas geprüft (Auftrag Nacht 2026-09-29, Teil 4; Beschluss vom 26.09.2026 Punkt 3): 0 Zeilen. 9 abweichende Teilaufgaben sind schon Zeilen von 2017-bb-ea-cas (1.2 b, d, g → 2.2 b, d, g; 2.2 c, e, f → 3.1 c, e, f; 3.2 a, b, d → 4.2 a, b, d), Verweisliste in § 4; 10 abweichende Teilaufgaben der eigenen Berliner Aufgaben 1.1, 2.1, 3.1 nicht erfasst (offener Posten). Katalog unverändert. |
 | 2026-09-29 | Nachtrag 2017-be-gk-cas (Auftrag Nacht 2026-09-29, Teil 4; Beschluss vom 26.09.2026 Punkt 3): 16 Zeilen, 86 BE – 11 eigene Zeilen (Werkzeug, Auftrag, Zuschnitt, ganze Aufgabe: 1.1 a, e, f; 1.2 a, b, d, f; 2.2 c; 3.1 e, g; 3.2 d), 5 Landes-Dubletten mit BE-Vermerk (1.1 b, c; 1.2 e; 2.2 d; 3.2 c); 54 BE übernommen, 20 BE unverändert, 160 angeboten. 3.1 e, g „Dublette von:“ auf die CAS-Poolfassung 2017MgrundlegendBStochastikCAS-2c, -2e. abi-bau.py v0.15: „Dublette von: <WTR-id>“ als Landes-Dublette (Prüfung: WTR-Zeile derselben Aufgabe, typ und afb_amtlich gleich, Vermerk „nur BE“/„nur Zahl“, Nachtragsvermerk auf dieselbe Zeile); Selbstprüfung des alten Bestands byteidentisch zu v0.14. Katalog 871 Zeilen aus 20 Heften, Typenliste 1419 (2 neu, § 4). Lauf aus einer frischen Repo-Kopie byteidentisch, Selbstprüfung beider Bau-Skripte bestanden. Keine Umbenennung bestehender Typen. |

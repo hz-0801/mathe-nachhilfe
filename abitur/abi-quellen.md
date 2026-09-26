@@ -265,7 +265,7 @@ dem CAS-Delta (Auftrag B, Teil 4):
 | 2018-be-gk.pdf | 18_Ma_GK_Aufgaben.pdf | 11 | ja | 3,1 MB | erfasst 2026-09-12, 36 Zeilen |
 | 2018-be-gk-cas.pdf | 18_Ma_GK_CAS_Aufgaben.pdf | 10 | ja | 2,2 MB | erfasst 2026-09-29 (CAS-Nachtrag, 16 Zeilen) |
 | 2018-be-lk.pdf | 18_Ma_LK_Aufgaben.pdf | 11 | ja | 1,9 MB | nicht erfasst |
-| 2018-be-lk-cas.pdf | 18_Ma_LK_CAS_Aufgaben.pdf | 9 | ja | 1,7 MB | nicht erfasst |
+| 2018-be-lk-cas.pdf | 18_Ma_LK_CAS_Aufgaben.pdf | 9 | ja | 1,7 MB | Nachtrag geprüft 2026-09-29, 0 Zeilen (Verweise auf 2018-bb-ea-cas, abi-pruefungen.md § 4) |
 
 **Verlagsfassungen zu amtlichen Heften** (STARK-Band zum Abitur 2021,
 Berlin Grundkurs; aus dem Download-Ordner des Lehrers, Auftrag N):
