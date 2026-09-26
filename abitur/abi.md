@@ -1,5 +1,14 @@
 # PROFIL ABI – Zentrale schriftliche Abiturprüfung, Mathematik, Berlin/Brandenburg
-Version 0.30 · 27.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Version 0.31 · 29.09.2026 · Kennung abi · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 0.30 (Auftrag Nacht 2026-09-29, Teil 4; beschluss-2026-09-26.md
+Punkt 3): § 7 „CAS-Hefte 2017/2018" – die Abgrenzung für die Berliner CAS-Hefte
+ist entschieden (eigene Zeile für Werkzeug, Auftrag, Zuschnitt, ganze Aufgabe;
+Landes-Dublette „Dublette von: <WTR-id>" für nur BE oder nur Zahl, abi-bau.py
+v0.15; schon als Zeile eines Brandenburger CAS-Hefts vorhandene Teilaufgaben
+nur mit Verweis); § 4 afb_amtlich der Landes-Dublette; § 9 der offene Punkt als
+beantwortet, der Punkt „Dublette zwischen zwei abi-Heften" mit Teilantwort.
+Umgesetzt an 2017-be-gk-cas und 2018-be-gk-cas (je 16 Zeilen), 2017-be-lk-cas
+und 2018-be-lk-cas (0 Zeilen, Verweise; abi-pruefungen.md § 2, § 4).
 Änderungen gegenüber 0.29 (Auftrag Nacht 2026-09-27, Teil 9): § 7 „CAS-Hefte
 2017/2018" um den Nachtragsmodus von abi-bau.py v0.14 ergänzt (erster Nachtrag
 2017-bb-ea-cas, 14 Zeilen; abi-pruefungen.md § 2, § 4).
@@ -313,7 +322,10 @@ CAS-Hefte sind durchgehend eigene Fassungen.
             Poolzeile, in allen Jahrgängen – Teil A der Bereichswert der
             Poolzeile, Teil B die AB-Spalte, die zusätzlich als „AB amtlich:
             X." in bemerkung steht; abi-bau.py prüft „gefüllt genau bei
-            Dublette". Schreibweise wie im Profil iqb: alle vorkommenden
+            Dublette". Ausnahme seit abi-bau.py v0.15: eine Landes-Dublette
+            eines CAS-Nachtrags („Dublette von: <id der WTR-Zeile>.", § 7)
+            trägt afb_amtlich ihrer WTR-Zeile – leer oder aus deren
+            Poolverweis. Schreibweise wie im Profil iqb: alle vorkommenden
             Werte I, II, III, aufsteigend, ohne Wiederholung, mit „|" getrennt
             (I|II); der Standardbezug des Pools ist eine Matrix Teilaufgabe ×
             K1–K6, eine Teilaufgabe trägt bis zu sechs Bereiche, die
@@ -499,8 +511,34 @@ einer Stichprobe, Lineare Gleichungssysteme und Matrizen und
   keine zweite Zeile. Der Eingriff ist punktuell und sitzt in `gegeben`,
   `gesucht`, `punkte` und teils `verfahren`; typisch wird ein im WTR-Heft
   vorgegebener Kontrollwert in der CAS-Fassung selbst bestimmt (CAS-Delta,
-  abi-pruefungen.md § 4). Für die Berliner CAS-Hefte, die durchgehend eigene
-  Fassungen ohne Präfix sind, ist die Abgrenzung nicht entschieden (§ 9).
+  abi-pruefungen.md § 4). **Berliner CAS-Hefte** (entschieden 26.09.2026,
+  beschluss-2026-09-26.md Punkt 3; Messung und Art je Teilaufgabe in
+  befund-cas-berlin-2026-09-28.md): Sie sind durchgehend eigene Fassungen ohne
+  „CAS:"-Präfix. Abweichend ist jede Teilaufgabe, die nicht wortgleich mit
+  gleichen BE in der WTR-Fassung steht (Textvergleich je Teilaufgabe; eine
+  Abweichung im Zwischenstamm gehört zur folgenden Teilaufgabe). Eine **eigene
+  Zeile** bekommt eine abweichende Teilaufgabe, deren Abweichung die Aufgabe für
+  den Schüler ändert: Werkzeug (eine Rechenhilfe fällt weg oder kommt dazu –
+  eine andere Sprosse), Auftrag, Zuschnitt, ganze Aufgabe, auch in Kombination
+  mit Zahl oder BE. **Nur BE oder nur Zahl** (auch beides): Zeile mit „Dublette
+  von: <id der WTR-Zeile>." am Anfang von bemerkung und dem Vermerk „nur BE: …",
+  „nur Zahl: …" oder „nur BE und Zahl: …" (Landes-Dublette), weil der Prompt
+  Zahlen ohnehin erfindet und Punkte keine Sprosse sind; die Zeile trägt die
+  Felder der WTR-Zeile (typ, typ_neben, leitidee, thema, niveau_geschaetzt,
+  afb_amtlich) mit den Fakten des CAS-Hefts (Seite, BE, bei „nur Zahl" Angaben
+  und neu gerechnetes Ergebnis). abi-bau.py v0.15 prüft: die WTR-Zeile steht im
+  WTR-Heft derselben Aufgabe, typ und afb_amtlich sind gleich, der Vermerk passt
+  zu den BE, der Nachtragsvermerk zeigt auf dieselbe Zeile; Poolquote und
+  geerbte Eichung zählen nur den Poolverweis. Steht die Teilaufgabe wortgleich im
+  Pool, geht der Poolverweis „Dublette von: <iqb-id>." vor (2018-be-gk-cas 3.2 a,
+  2017-be-gk-cas 3.1 e, g). Teilaufgaben, die **schon Zeile eines Brandenburger
+  CAS-Hefts** sind, bekommen keine zweite Zeile, sondern wie ein Zwilling des
+  anderen Landes den Verweis in abi-pruefungen.md § 4. **Eigene Aufgaben der
+  Berliner LK-Hefte** ohne WTR-Zeile (2017-be-lk 1.1, 2.1, 3.1; 2018-be-lk 2.2,
+  3.1) bleiben ein eigener Posten (faellig.md). Umgesetzt 29.09.2026:
+  2017-be-gk-cas und 2018-be-gk-cas je 16 Zeilen, 2017-be-lk-cas und
+  2018-be-lk-cas 0 Zeilen (9 und 13 Verweise auf 2017-bb-ea-cas und
+  2018-bb-ea-cas).
   **Nachtragsmodus** (abi-bau.py v0.14, 27.09.2026, erster Nachtrag
   2017-bb-ea-cas mit 14 Zeilen): KONFIG["nachtrag_zu"] nennt das WTR-Heft,
   „soll" je abweichender Aufgabe die BE der Zeilen, „uebernommen" die
@@ -612,7 +650,11 @@ deshalb nicht von ihm ab.
   eigener Zählung. 2026 war das nicht nötig: Aufgabe 3 und 4 stehen in beiden
   Heften, aber je aus der Pooldatei des eigenen Niveaus (grundlegend/erhöht),
   die Gleichheit der Hefte ist Poolgleichheit. Offen bleibt die Regel für den
-  Fall ohne Pool (Entscheidung des Lehrers).
+  Fall ohne Pool (Entscheidung des Lehrers). Teilantwort (29.09.2026, § 7): für
+  die Rechnerfassung eines Hefts im CAS-Nachtrag gibt es die Landes-Dublette
+  „Dublette von: <id der WTR-Zeile>." (nur BE oder nur Zahl, abi-bau.py v0.15,
+  eigene Zählung in der Selbstprüfung, nicht in der Poolquote); für andere
+  Heftpaare (etwa GK und LK desselben Landes) bleibt die Regel offen.
 - Beantwortet (13.09.2026): Land und Niveau des Schülers sind nicht auf eines
   festgelegt – der Schüler kann beides schreiben. Die frühere Annahme
   „Brandenburg, erhöhtes Niveau" ist gestrichen; die Leitfassungsregel in § 7
@@ -622,9 +664,13 @@ deshalb nicht von ihm ab.
 - Beantwortet (15.09.2026, abitur-vokabular.md § 2): Die Themenlücken aus § 6
   sind durch die Poolpraxis aufgelöst, ohne neues Thema und ohne Lockerung der
   Regel, dass leitidee das Sachgebiet der Aufgabenstellung trägt.
-- CAS-Hefte Berlin 2017/2018 (§ 7): sie sind durchgehend eigene Fassungen ohne
-  „CAS:"-Präfix; welche Teilaufgaben beim Nachtrag eine eigene Zeile bekommen
-  (Textvergleich mit dem WTR-Heft?), ist nicht entschieden.
+- Beantwortet (26.09.2026, beschluss-2026-09-26.md Punkt 3; umgesetzt
+  29.09.2026, § 7): CAS-Hefte Berlin 2017/2018 – durchgehend eigene Fassungen
+  ohne „CAS:"-Präfix. Eigene Zeile für die abweichenden Teilaufgaben der Arten
+  Werkzeug, Auftrag, Zuschnitt, ganze Aufgabe; nur BE oder nur Zahl als
+  Landes-Dublette „Dublette von: <WTR-id>." mit Vermerk (abi-bau.py v0.15);
+  Teilaufgaben, die schon Zeile eines Brandenburger CAS-Hefts sind, nur mit
+  Verweis; eigene LK-Aufgaben ohne WTR-Zeile als Posten.
 - Beantwortet: Brandenburg hat eine eigene zentrale Prüfung auf grundlegendem
   Niveau. Die Prüfungsschwerpunkte PS_Mathematik_GK_2027.pdf liegen auf dem
   Bildungsserver; nur die Aufgabenhefte werden nicht veröffentlicht. Damit ist

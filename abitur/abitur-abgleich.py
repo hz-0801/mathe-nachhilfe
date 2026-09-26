@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """abitur-abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.28 · 29.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.10 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
+Version 0.29 · 29.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.15 und iqb-bau.py v1.10 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb; bis 17.09.2026 abgleich.py – Auftrag F Punkt 2, Familienname wie abitur-typen.csv)
+0.29 (Auftrag Nacht 2026-09-29, Teil 4 Punkt 6): Lauf 28; Versionsbindung auf abi-bau.py v0.15 (Landes-Dublette); keine Regel eines früheren Laufs geändert.
 0.28 (Auftrag Nacht 2026-09-29, Teil 3 Punkt 4): Lauf 27; Versionsbindung auf iqb-bau.py v1.10; keine Regel eines früheren Laufs geändert.
 0.27 (Auftrag Nacht 2026-09-29, Teil 2 Punkt 2): Lauf 26; keine Regel eines früheren Laufs geändert.
 0.26 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 4): Lauf 25; keine Regel eines früheren Laufs geändert.
@@ -165,6 +166,15 @@ der 18 neuen Typen: keine Zusammenziehung eines neuen Typs, eine Zusammenziehung
 zweier vorhandener Etiketten derselben Fertigkeit (Mindestumfang für eine
 Mindestwahrscheinlichkeit), neun Umbenennungen neutral zur Verwendung, vier
 erweiterte Definitionen; 1411 → 1410.
+Lauf 28 (29.09.2026, nach dem Delta-Stapel 2017-ga-B-cas und den CAS-Nachträgen
+2017-be-gk-cas und 2018-be-gk-cas): Abgleich der 11 neuen Typen (7 des
+Stapels, je 2 der Nachträge) gegen alle Typen desselben Themas – keine
+Zusammenziehung; vier Umbenennungen neutral zur Verwendung (vertikaler Abstand
+größter oder kleinster; Zeitraum mit Mindest- oder Höchständerungsrate;
+stumpfer Winkel an einem Körper statt einer Pyramide; Wahrscheinlichkeit für
+eine Einheit statt Fehlerwahrscheinlichkeit), zwei erweiterte Definitionen und
+eine Feldkorrektur (Nebentyp von 2018-be-gk-cas-B1.2e nach dem Gegenstand
+Änderungsrate); Typen unverändert (1421).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -2176,6 +2186,102 @@ def zeile_27(d):
     return war
 
 
+# ======================================================================= Lauf 28
+# Nach dem Delta-Stapel 2017-ga-B-cas (38 Zeilen, Commit 708c4b2) und den CAS-Nachträgen
+# 2017-be-gk-cas und 2018-be-gk-cas (je 16 Zeilen, abi-bau.py v0.15), Auftrag Nacht 2026-09-29,
+# Teil 4 Punkt 6; 29.09.2026. Abgleich der 11 neuen Typen (Stapel: Intervall über eine
+# Ungleichung; zwei Parameter einer Exponentialfunktion aus Wert und Rate; Graph nicht zur Schar;
+# Scharparameter für eine Höhe des Hochpunkts; Nullvektor als einzige Lösung; Schattenpunkt auf
+# einer Kante; Quadrat ohne Vektoren – Nachträge: Lage eines Graphen zwischen zwei Geraden;
+# Trefferzahlen mit Einzelwahrscheinlichkeit über einer Schranke; Schnittpunkte durch Ausklammern;
+# einzige Stelle gleicher Steigung mit dem Rechner) gegen alle Typen desselben Themas (Wortmenge
+# von Name und Definition; Kandidaten an gegeben, gesucht und verfahren geprüft) und der
+# Etiketten, die die Nachtragszeilen mit Vorbehalt wiederverwendet haben.
+# Keine Zusammenziehung – die nächsten Nachbarn haben einen anderen Weg oder Gegenstand: Stelle
+# gleicher Steigung mit dem Rechner samt Eindeutigkeit gegen Zeitpunkte gleicher Änderungsrate von
+# Hand (2019-be-gk 2.1 d); Schnittpunkte über einen ausgeklammerten gemeinsamen Faktor gegen Kürzen
+# eines positiven Exponentialfaktors und gegen Stellen zu einem Funktionswert einer ganzrationalen
+# Funktion; Scharparameter für eine Höhe des Hochpunkts gegen aus dem Abstand der Extremstellen;
+# zwei Parameter aus Wert und Rate gegen einen Parameter aus der Anfangsrate; Intervall für einen
+# Funktionswert gegen Zeitraum für eine Änderungsrate (Gegenstand verschieden, Thema verschieden).
+# Vier Umbenennungen, neutral zur Verwendung (wie Lauf 24, 25, 27; der Name trug eine Einzelheit
+# der ersten Aufgabe, die neue Zeilen nicht haben): vertikaler Abstand über die Differenzfunktion
+# auch als kleinster Abstand und ohne Schranke (2017-be-gk-cas 1.1 e, 2018-be-gk-cas 1.2 g,
+# 2017MgrundlegendBAnalysisCAS-1f, 2020-be-gk 2.1 g); Zeitraum für eine Änderungsrate auch mit
+# Höchstwert oder als Intervall statt Länge (2018MerhoehtBAnalysisCAS2-2d zwischen −0,3 und +0,3,
+# 2018-be-gk-cas 1.2 e); stumpfer Winkel zweier Nachbarflächen auch an Stumpf und Deckel
+# (2017-be-gk-cas 2.2 c); binomial berechnete Wahrscheinlichkeit einer Einheit als p einer zweiten
+# Binomialverteilung auch ohne Fehler (2021MgrundlegendBStochastikWTR2-1c Sterne,
+# 2017-be-gk-cas 3.2 d Durchgänge). Zwei erweiterte Definitionen ohne neuen Namen (abschnittsweise
+# begrenzte Fläche auch am unteren Rand; Volumen mit konstantem Querschnitt auch bei
+# zusammengesetzter Querschnittsfläche). Feldkorrektur: 2018-be-gk-cas-B1.2e trägt als Nebentyp das
+# Intervall über eine Ungleichung für einen Funktionswert; gefragt ist das Intervall mit
+# f′(x) ≤ −0,2, der Gegenstand ist die Änderungsrate – Nebentyp auf den Zeitraumtyp umgestellt
+# (Kern § 6, Gegenstand plus Handlung). Abbruch, wenn die Zeile nicht genau so vorliegt.
+# Alle Paare im selben Thema, kein Präfix ändert sich.
+ZUSAMMEN_28 = {
+    "Maximalen vertikalen Abstand zweier Graphen über die Differenzfunktion nachweisen":
+        "Größten oder kleinsten vertikalen Abstand zweier Graphen über die Differenzfunktion bestimmen",
+    "Länge des Zeitraums mit Mindeständerungsrate über die Lösungen von f'(x) = c berechnen":
+        "Zeitraum mit einer Mindest- oder Höchständerungsrate über die Lösungen von f'(x) = c bestimmen",
+    "Stumpfen Winkel zwischen zwei benachbarten Seitenflächen einer Pyramide über die Normalenvektoren berechnen":
+        "Stumpfen Winkel zwischen zwei benachbarten Seitenflächen eines Körpers über die Normalenvektoren berechnen",
+    "Fehlerwahrscheinlichkeit einer Einheit binomial berechnen und als Trefferwahrscheinlichkeit einer zweiten Binomialverteilung verwenden":
+        "Wahrscheinlichkeit für eine Einheit binomial berechnen und als Trefferwahrscheinlichkeit einer zweiten Binomialverteilung verwenden",
+}
+NEUE_DEFINITION_28 = {
+    "Größten oder kleinsten vertikalen Abstand zweier Graphen über die Differenzfunktion bestimmen":
+        "Die Differenz zweier Funktionen als Zielfunktion aufstellen, ihre Extremstelle über die Ableitung (mit "
+        "den Randwerten des Intervalls) bestimmen und den größten oder kleinsten vertikalen Abstand angeben oder, "
+        "wo verlangt, gegen eine vorgegebene Schranke prüfen.",
+    "Zeitraum mit einer Mindest- oder Höchständerungsrate über die Lösungen von f'(x) = c bestimmen":
+        "Die Lösungen der Gleichung f'(x) = c (oder zweier solcher Gleichungen) mit dem Rechner bestimmen und "
+        "daraus den Zeitraum angeben, in dem die Rate mindestens oder höchstens c beträgt – als Intervall mit "
+        "gerundeten Grenzen oder als seine Länge.",
+    "Stumpfen Winkel zwischen zwei benachbarten Seitenflächen eines Körpers über die Normalenvektoren berechnen":
+        "Die Normalenvektoren zweier an einer Kante zusammenstoßender Flächen eines Körpers (Seitenflächen einer "
+        "Pyramide, Wand eines Stumpfs und Deckelfläche) bestimmen, etwa über die Symmetrie oder aus drei Punkten, "
+        "den Winkel zwischen den Normalenvektoren berechnen und den stumpfen Innenwinkel als Ergänzung zu 180° "
+        "angeben.",
+    "Wahrscheinlichkeit für eine Einheit binomial berechnen und als Trefferwahrscheinlichkeit einer zweiten Binomialverteilung verwenden":
+        "Die Wahrscheinlichkeit eines Ereignisses für eine Einheit (Verpackung, Spieler, Durchgang eines "
+        "Experiments) über eine Binomialverteilung berechnen und mit ihr als p die Wahrscheinlichkeit für eine "
+        "Anzahl solcher Einheiten bestimmen (Anteilsbedingung in eine Anzahl übersetzen).",
+    # erweiterte Definitionen ohne neuen Namen
+    "Fläche: Abschnittsweise begrenzte Fläche durch Integration berechnen":
+        "Eine Fläche, deren oberer oder unterer Rand abschnittsweise durch verschiedene Funktionen (auch Geraden "
+        "oder die x-Achse) gegeben ist, in Teilintegrale zerlegen und die Teilflächen addieren oder abziehen.",
+    "Fläche: Volumen eines Körpers mit konstantem Querschnitt aus der Fläche zwischen Graph und waagerechter Gerade berechnen":
+        "Die Querschnittsfläche zwischen einem Profilgraphen und einer waagerechten Geraden (x-Achse, Wasserlinie, "
+        "Oberkante; Grenzen gegebenenfalls als Schnittstellen) als bestimmtes Integral berechnen – ist sie "
+        "zusammengesetzt, etwa unten teils durch eine schräge Gerade begrenzt, über Teilflächen – und mit der "
+        "konstanten Tiefe oder Breite zum Volumen multiplizieren; im Sachzusammenhang weiter zu Masse oder "
+        "Fassungsvermögen in Litern, mit einer Fließgeschwindigkeit zur Durchflussrate.",
+}
+NEBEN_28 = {  # id → (Nebentyp alt, Nebentyp neu, Satz für bemerkung)
+    "2018-be-gk-cas-B1.2e": (
+        "Intervall, in dem eine Modellfunktion mindestens einen vorgegebenen Wert annimmt, über eine Ungleichung bestimmen",
+        "Zeitraum mit einer Mindest- oder Höchständerungsrate über die Lösungen von f'(x) = c bestimmen",
+        " Nebentyp in Lauf 28 vom Intervall für einen Funktionswert auf den Zeitraum für eine Änderungsrate "
+        "umgestellt (Gegenstand ist die Steigung f′, Kern § 6)."),
+}
+_PROTOKOLL_28 = []
+
+
+def zeile_28(d):
+    i = d["id"]
+    if i not in NEBEN_28:
+        return False
+    alt, neu, satz = NEBEN_28[i]
+    neben = [t for t in d["typ_neben"].split("|") if t]
+    if neben.count(alt) != 1 or neu in neben or d["typ"] in (alt, neu):
+        sys.exit(f"{i}: Nebentyp „{alt}“ nicht genau einmal oder Zieltyp schon vorhanden – Abbruch")
+    d["typ_neben"] = "|".join(neu if t == alt else t for t in neben)
+    d["bemerkung"] = d["bemerkung"] + satz
+    _PROTOKOLL_28.append((i, alt, neu))
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -2204,12 +2310,13 @@ LAEUFE = {
     25: ({}, ZUSAMMEN_25, NEUE_DEFINITION_25, {}),
     26: ({}, {}, {}, {}),
     27: ({}, ZUSAMMEN_27, NEUE_DEFINITION_27, {}),
+    28: ({}, ZUSAMMEN_28, NEUE_DEFINITION_28, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
                  18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)],
                  23: [("*", zeile_23)], 24: [("*", pruefe_24)], 25: [("*", zeile_25)], 26: [("*", zeile_26)],
-                 27: [("*", zeile_27)]}
+                 27: [("*", zeile_27)], 28: [("*", zeile_28)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -2360,6 +2467,15 @@ def main():
         rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
                 if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
         print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+    if LAUF == 28:
+        fehlt = sorted(set(NEBEN_28) - {i for i, _, _ in _PROTOKOLL_28})
+        if fehlt:
+            sys.exit(f"Lauf 28: Zeilen nicht gefunden: {fehlt}")
+        print(f"\nNebentyp umgestellt ({len(_PROTOKOLL_28)} Zeile):")
+        for i, alt, neu in _PROTOKOLL_28:
+            print(f"  {i}: {alt} → {neu}")
+        nur_def = [n for n in NEUE_DEFINITION_28 if n not in ZUSAMMEN_28.values()]
+        print("Erweiterte Definitionen ohne neuen Namen:", "; ".join(nur_def))
     if LAUF == 27:
         if len(_PROTOKOLL_27) != HOECHSTENS_27:
             sys.exit(f"Lauf 27: {len(_PROTOKOLL_27)} statt {HOECHSTENS_27} Zeilen angefasst")
