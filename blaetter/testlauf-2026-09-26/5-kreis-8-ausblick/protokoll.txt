@@ -1,0 +1,177 @@
+Prompt: Unterrichtsblatt-Prompt v4.4
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-28a (Stufe 6: Bausteine aus den Lesebefunden des Lehrers vom 26.09.2026 zu zwei
+Katalog: kreis.md, Status: gegengelesen bis auf [FS] (2026-09-08e; LISUM-Planungshilfen am 10d nachgetragen; Zitierform der LISUM-Zeile am 10e vereinheitlicht; Gegenlese im dritten Block 10h) · Stufe: Sek I · Bildungsgänge: alle bis Kl. 10 · gegengelesen: bis auf [FS]
+Bestellung: mit Ausblick (dazu mit Wiederholung: Zone)
+Standpunkt: Kl. 8, Oberschule (Gymnasium als Zusatz; Marken beider Schulformen gleich)
+
+Zweige:
+gebaut: Einheit 1 von 3 · Kreisumfang – Hier lernst du, den Umfang eines Kreises aus Radius oder Durchmesser zu berechnen und umgekehrt · neu oder schon bekannt – je nach Buch · P10 · baut auf: Kommazahlen und Runden, Umfang und Fläche, Formeln umstellen
+  10. Ich erkenne, ob Radius oder Durchmesser gegeben ist.
+  11. Ich erkenne, ob der Rand oder die Fläche gefragt ist.
+  12. Ich kann den Durchmesser aus dem Radius berechnen und umgekehrt.
+  13. Ich kann Mittelpunkt, Radius und Durchmesser in einen Kreis einzeichnen (kennst du seit Klasse 5).
+  14. Ich kann einen Kreis mit dem Zirkel zeichnen.
+  15. Ich kann Umfang und Durchmesser eines Kreises vergleichen.
+  16. Ich kann den Umfang eines Kreises berechnen.
+  17. Ich kann aus dem Umfang den Durchmesser und den Radius berechnen.
+  18. Ich kann die Länge von Kreisrändern in Figuren und Körpern berechnen.
+  19. Ich finde den Fehler in einer Umfangsrechnung.
+  20. Ich kann begründen, warum Umfang geteilt durch Durchmesser bei jedem Kreis gleich ist.
+  21. Ich kann ausrechnen, wie weit ein Rad rollt.
+gebaut: Einheit 2 von 3 · Kreisfläche – Hier lernst du, die Fläche eines Kreises zu berechnen und aus der Fläche den Radius · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Kreisumfang (Einheit 1), Quadrieren und Wurzelziehen, Formeln umstellen
+  22. Ich erkenne, welche Formel passt.
+  23. Ich kann die Fläche eines Kreises berechnen.
+  24. Ich kann die Fläche von Halbkreis und Viertelkreis berechnen.
+  25. Ich kann zu einer Kreisfigur den Term für die Fläche aufschreiben.
+  26. Ich kann zu einem Flächenterm die Kreisfigur angeben.
+  27. Ich kann in einer Tabelle Radius, Durchmesser, Umfang und Fläche ergänzen.
+  28. Ich kann zwischen Fläche, Radius und Durchmesser umrechnen.
+  29. Ich finde den Fehler in einer Flächenrechnung.
+  30. Ich kann begründen, wie die Fläche vom Radius abhängt.
+  31. Ich kann unterscheiden, ob Umfang oder Fläche gesucht ist.
+  32. Ich kann mit Kreisflächen Preise vergleichen.
+gebaut: Einheit 3 von 3 · Kreisteile – Hier lernst du, Anteil, Bogen und Fläche eines Kreisausschnitts aus dem Mittelpunktswinkel zu berechnen · neu oder schon bekannt – je nach Buch, manche Bücher erst Kl. 9 · P10 · baut auf: Kreisumfang (Einheit 1), Kreisfläche (Einheit 2), Winkel, Anteile als Bruch und Prozent
+  33. Ich erkenne, welcher Teil vom Kreis gemeint ist.
+  34. Ich kann den Anteil eines Kreisausschnitts am ganzen Kreis angeben.
+  35. Ich kann aus dem Anteil den Mittelpunktswinkel berechnen.
+  36. Ich kann die Länge eines Kreisbogens berechnen.
+  37. Ich kann die Fläche eines Kreisausschnitts berechnen.
+  38. Ich kann den Umfang eines Kreisausschnitts berechnen.
+  39. Ich kann die Fläche eines Kreisrings berechnen.
+  40. Ich finde den Fehler bei Kreisteilen.
+  41. Ich kann begründen, wie Mittelpunktswinkel und Anteil zusammenhängen.
+  42. Ich kann mit einem Kreisausschnitt eine Rasenfläche berechnen.
+  43. Ich kann ein Kreisdiagramm berechnen und zeichnen.
+abgewählt: keine (Planfrage entfällt, 3 Zweige)
+Ausblick: keiner – alle Marken bei oder vor Kl. 8 (E1, E2 Kl. 7–8; E3 Kl. 7–9)
+Zone (Kennst du schon):
+  1. Ich kann mit Kommazahlen malnehmen und teilen und das Ergebnis runden.
+  2. Ich kann Umfang und Flächeninhalt unterscheiden und mit der passenden Einheit angeben.
+  3. Ich kann eine Formel nach einer anderen Größe umstellen.
+  4. Ich kann Zahlen quadrieren und die Wurzel ziehen.
+  5. Ich finde den Fehler beim Quadrieren und Wurzelziehen.
+  6. Ich kann Quadrat und Doppeltes auseinanderhalten.
+  7. Ich kann Winkel messen und zum Vollwinkel ergänzen.
+  8. Ich kann einen Winkel mit dem Geodreieck zeichnen.
+  9. Ich kann einen Anteil als Bruch und in Prozent angeben.
+
+Zählung aus der Textextraktion:
+Kreis_KennstDuSchon.pdf: 9 Hauptnummern, 49 Teilaufgaben, 4 Grafiken, 3 Seiten
+Kreis_Lernblatt.pdf: 34 Hauptnummern, 122 Teilaufgaben, 21 Grafiken, 12 Seiten
+Kreis_Gesamt.pdf: 43 Hauptnummern, 171 Teilaufgaben, 25 Grafiken, 15 Seiten
+Kreis_Loesungen.pdf: Lösungen zu 43 Nummern (1–43), 1 Grafik, 2 Seiten
+Verzeichniszeile Lernblatt: 1 Kreisumfang (Nr. 10–21) • 2 Kreisfläche (Nr. 22–32) • 3 Kreisteile (Nr. 33–43) • Das kann ich
+Verzeichniszeile Gesamt: Kennst du schon (Nr. 1–9) • 1 Kreisumfang (Nr. 10–21) • 2 Kreisfläche (Nr. 22–32) • 3 Kreisteile (Nr. 33–43) • Das kann ich
+
+Schritte (Werkzeugaufruf · Anlass → Ergebnis):
+1 · Read unterrichtsblatt.md Z. 1–754 · Anleitung lesen → gelesen
+2 · Read unterrichtsblatt.md Z. 755–1448 · Anleitung zu Ende lesen → gelesen
+3 · PowerShell · Arbeitsverzeichnis anlegen, katalog/index.md und blaetter/index.md holen → Ausgabe in Datei umgeleitet (122 KB)
+4 · Grep „kreis“ im Themenregister · Eintrag wählen → kreis.md (Sek I, Kl. 7–8 / 8–9)
+5 · Grep Überschriften · Register der Blätter finden → Zeile 278
+6 · Read Register der Blätter · Thema schon gebaut? → Kreis nicht geführt
+7 · PowerShell curl kreis.md · Eintrag holen → 19911 Byte
+8 · Read kreis.md · Eintrag lesen → 3 Einheiten, 6 Fertigkeiten, 4 Erkennungsschritte
+9 · PowerShell · Stempel t0 → gesetzt
+10 · PowerShell curl mathblatt.sty und Anleitung_mathblatt.md · Vorlage holen → Version 2026-09-28a
+11 · Read Anleitung Z. 1–275 · Makronamen → gelesen
+12 · Read Anleitung Z. 276–391 · Makronamen → gelesen
+13 · Write probe.tex · Probe der Kreis-Bausteine (kreis, sektor, kreissektor, winkel, winkelstrahl, sachtabelle, eigener Zeichenplatz)
+14 · PowerShell · Probe kompilieren und rendern → fehlerfrei, 2 Seiten
+15 · Read probe-1.png · Sichtprüfung → \kreissektor 3,6 cm breit (fünf nicht in einer Zeile), \sektor in kreis färbt grau; Kopfzeile Zone verdoppelt
+16 · PowerShell · gerenderte Probeseiten auflisten → 2
+17 · Read probe-2.png · Sichtprüfung Tabelle, Kreuze, \kreisleer → brauchbar
+18 · Write zone_a.tex · Zone Nr. 1–9
+19 · Write zone_l.tex · Lösungen Zone
+20 · Write pruef.py · Prüfskript (Zone)
+21 · Write Kreis_KennstDuSchon.tex · Rahmen Zone
+22 · PowerShell · pruef zone, Zone kompilieren, rendern → 0 Abweichungen; Log: „Overfull \hbox (18.22049pt too wide) in paragraph at lines 19--24“, „Overfull \hbox (71.66432pt too wide) in paragraph at lines 100--106“; Kopfzeile „Kreis · Kennst du schon ·“
+23 · Read zone-2.png · Sichtprüfung Winkel → gut
+24 · Read zone-3.png · Sichtprüfung Winkelstrahlen, Nr. 9 → Prozentfelder rechts abgeschnitten (geruest), 110°-Schenkel läuft in den linken Rand
+25 · PowerShell · Korrektur per .NET-Ersetzung → fehlgeschlagen (relativer Pfad), nichts geschrieben
+26 · Edit zone_a.tex · Korrektur Overfull Z. 19–24: Einheitenwechsel von Nr. 2 d als \anweisung
+27 · Edit zone_a.tex · Korrektur Nr. 8 c: 100° statt 110° (Schenkel im Satzspiegel)
+28 · Edit zone_a.tex · Korrektur Overfull Z. 100–106: Nr. 9 von geruest nach teile
+29 · Edit Kreis_KennstDuSchon.tex · Korrektur Kopfzeile: Kurzform über \zonekurz
+30 · Edit zone_l.tex · Lösung 8 c auf 100°
+31 · PowerShell · Zone neu kompilieren, Stempel zone → fehlerfrei; Kopfzeile jetzt „Kreis · · Kennst du schon“
+32 · Edit zone_a.tex · Korrektur Kopfzeile: \zonekopf statt \einheitenkopf
+33 · Edit Kreis_KennstDuSchon.tex · \zonekopf als Untertitel, Kopfzeile „Kreis · Kennst du schon“
+34 · PowerShell · Zone neu kompilieren und rendern → Kopfzeile richtig, keine Warnung
+35 · Read zone-3.png · Sichtprüfung Nr. 9 → e) Feld bricht mitten in der Zeile um
+36 · Edit zone_a.tex · Korrektur Nr. 9 e: Felder in eigener Zeile
+37 · PowerShell · Stempel weiter, Zone neu kompilieren → fehlerfrei (Zone übergeben)
+38 · Write e1_a.tex · Einheit 1 Nr. 10–21
+39 · Edit e1_a.tex · Korrektur vor dem Kompilieren: „Kreis A/B“ kollidiert mit A = Fläche; Titel ohne „u : d“
+40 · Write e1_l.tex · Lösungen Einheit 1
+41 · Edit pruef.py · Einheit 1 ergänzt
+42 · Edit pruef.py · Aufrufliste
+43 · Edit pruef.py · Vergleich für Wortantworten (Ankreuzen)
+44 · Write einheit_pruef.tex · Prüfrahmen je Einheit mit \zeichenplatz
+45 · PowerShell · pruef e1, kompilieren (2×), rendern → 0 Abweichungen, keine Warnung, 4 Seiten
+46 · Read e1p-1.png · Sichtprüfung Nr. 10 Figur → gut
+47 · Read e1p-2.png · Sichtprüfung Kreise, Zeichenflächen, Tabelle → gut
+48 · Read e1p-3.png · Sichtprüfung Zylinder → gut
+49 · PowerShell · Stempel e 1
+50 · Write e2_a.tex · Einheit 2 Nr. 22–32
+51 · Write e2_l.tex · Lösungen Einheit 2
+52 · Edit pruef.py · Einheit 2 ergänzt
+53 · Edit pruef.py · Aufrufliste
+54 · Edit einheit_pruef.tex · auf e2_a
+55 · PowerShell · pruef e2, kompilieren (2×), rendern → 0 Abweichungen, keine Warnung, 3 Seiten
+56 · Read e2p-1.png · Sichtprüfung → Nr. 24 in teilezwei gedehnt („Viertelkreis, r = 12 cm:“ über die Zelle verteilt)
+57 · Read e2p-2.png · Sichtprüfung Tabelle, Fehlerrechnungen → gut
+58 · Edit e2_a.tex · Korrektur Nr. 24: teilezwei → teile
+59 · PowerShell · Einheit 2 neu kompilieren, Stempel e 2 → fehlerfrei
+60 · Write e3_a.tex · Einheit 3 Nr. 33–43
+61 · Write e3_l.tex · Lösungen Einheit 3
+62 · Edit pruef.py · Einheit 3 ergänzt
+63 · Edit pruef.py · Aufrufliste
+64 · Edit einheit_pruef.tex · auf e3_a
+65 · PowerShell · pruef e3, kompilieren (2×), rendern → 0 Abweichungen, keine Warnung, 3 Seiten
+66 · Read e3p-1.png · Sichtprüfung Sektoren, Glücksrad → Graufärbung bei 60 dpi fraglich
+67 · Read e3p-2.png · Sichtprüfung → gut
+68 · Read e3p-3.png · Sichtprüfung → Nr. 43 a/b Felder gedehnt, „zu Fuß“ getrennt
+69 · PowerShell · Ausschnitt Nr. 33 mit 110 dpi rendern
+70 · Read e3zoom-1.png · Graufärbung → vorhanden
+71 · Edit e3_a.tex · Korrektur Nr. 43: Felder in eigener Zeile, „zu~Fuß“
+72 · PowerShell · Einheit 3 neu kompilieren, Stempel e 3 → fehlerfrei
+73 · Write bau.py · Abhakseite und Verzeichniszeilen aus den Quelltexten
+74 · Write Kreis_Lernblatt.tex · Rahmen
+75 · Write Kreis_Gesamt.tex · Rahmen
+76 · Write Kreis_Loesungen.tex · Rahmen
+77 · PowerShell · bau.py, Lernblatt kompilieren (2×), Stempel lernblatt → Bereiche 10–21, 22–32, 33–43; 12 Seiten, keine Warnung
+78 · Read lb-11.png · Sichtprüfung Abhakseite → vollständig, 4 Zeilen auf Seite 12
+79 · PowerShell · Seitenfüllung Lernblatt → S. 4 und S. 7 unter einem Drittel, je eine Hauptnummer, Seite davor voll → kein Befund
+80 · PowerShell · Gesamt kompilieren (2×), Stempel gesamt → 15 Seiten, Nummern 1–43 lückenlos, keine Warnung
+81 · PowerShell · Lösungen kompilieren (2×), Stempel loesungen, rendern → 2 Seiten, keine Warnung
+82 · Read lsg-1.png · Sichtprüfung Lösungen → gut
+83 · Read lsg-2.png · Sichtprüfung Lösungsgrafik → gut
+84 · Write mkprotokoll.py · Protokoll, Chat und Archiv
+85 · Edit mkprotokoll.py · Korrektur der Zeile Korrekturrunden (Zählung falsch)
+86 · Edit mkprotokoll.py · Schrittliste ergänzt
+87 · Edit mkprotokoll.py · Zählausdruck für Teilaufgaben bereinigt
+88 · Edit mkprotokoll.py · Schrittliste an die tatsächlichen Aufrufe angepasst
+89 · Edit mkprotokoll.py · Zeile Korrekturrunden nachgezogen
+90 · Edit mkprotokoll.py · Ende der Schrittliste nachgezogen
+91 · Edit mkprotokoll.py · Zeile Korrekturrunden nachgezogen
+92 · Edit mkprotokoll.py · Gesamtzahl der Schritte aus der Schrittliste gezählt
+93 · Edit mkprotokoll.py · Ende der Schrittliste nachgezogen
+94 · Write chat_quelle.txt · Chattext wortgleich
+95 · PowerShell · mkprotokoll.py → protokoll.txt, chat.txt, Archiv
+
+Vorlage: fehlende Bausteine · Warnungen aus dem Log
+fehlende Bausteine: \zeichenplatz (leere Zeichenfläche mit vorgegebenem Mittelpunkt M zum Kreiszeichnen), im Vorspann von Lernblatt, Gesamt und Prüfrahmen; Zone-Untertitel \zonekopf im Vorspann der Zone-Rahmendatei, weil \einheitenkopf mit Kurzform die Kopfzeile verdoppelt („Kreis · Kennst du schon · Kennst du schon“) und mit leerer Kurzform einen leeren Punkt setzt („Kreis · · Kennst du schon“ bzw. „Kreis · Kennst du schon ·“)
+Warnungen aus dem Log: in den Endfassungen keine; unterwegs zwei Overfull \hbox in zone_a.tex (behoben)
+
+Korrekturrunden: 26 von 95 Schritten (25–34, 36–37, 39, 58–59, 71–72, 85–93; 85–93 betreffen nur das Protokoll)
+Zone: 664 s (Stempel vor zwei Kopfzeilen-Korrekturen gesetzt; Zone endgültig bei „weiter“)
+Weiter: 714 s
+E 1: 877 s (Stempel im Aufruf nach der Sichtprüfung)
+E 2: 1011 s
+E 3: 1150 s
+Lernblatt: 1201 s
+Gesamt: 1231 s
+Lösungen: 1247 s
+Wartezeit auf „weiter“: keine (unbeaufsichtigter Testlauf, Antwort in der Eingabe)

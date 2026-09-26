@@ -1,0 +1,39 @@
+Kreis not yet in register. Now fetching the entry.
+
+Also update the zone solution for 8c (100°).
+
+Now the E1 solutions, the pruef.py section and the check frame.
+
+→ Lernblatt · Kl. 8, Oberschule als Standpunkt (Gymnasium mit gleichen Marken) · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 8 · 3 Zweige · Zone aus 6 Fertigkeiten
+Einheit 1 · Kreisumfang: Hier lernst du, den Umfang eines Kreises aus Radius oder Durchmesser zu berechnen und umgekehrt · neu oder schon bekannt – je nach Buch · P10 · baut auf: Kommazahlen und Runden, Umfang und Fläche, Formeln umstellen
+Einheit 2 · Kreisfläche: Hier lernst du, die Fläche eines Kreises zu berechnen und aus der Fläche den Radius · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Kreisumfang (Einheit 1), Quadrieren und Wurzelziehen, Formeln umstellen
+Einheit 3 · Kreisteile: Hier lernst du, Anteil, Bogen und Fläche eines Kreisausschnitts aus dem Mittelpunktswinkel zu berechnen · neu oder schon bekannt – je nach Buch, manche Bücher erst Kl. 9 · P10 · baut auf: Kreisumfang (Einheit 1), Kreisfläche (Einheit 2), Winkel, Anteile als Bruch und Prozent
+
+Planfrage: keine (3 Zweige, der Eintrag ist Sek I). Die Antwort „alle“ aus der Eingabe passt dazu.
+
+Kreis_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 3, Gesamt und Lösungen.
+weiter (aus der Eingabe)
+
+Kreis_Lernblatt.pdf
+Kreis_Gesamt.pdf
+Kreis_Loesungen.pdf
+Kreis_2026-09-26_protokoll.zip
+
+Abweichung: Auf dem ganzen Blatt steht kein Rechenplatz, weil alle Verfahren Geometrie sind (2.3 b); die Umkehrungen haben je eine eigene Hauptnummer (Nr. 17, 28, 35).
+Abweichung: Das Original von Einheit 3 (Glücksrad, P10 2025 OS) steht am Ende von Nr. 34 (Anteil in Prozent), nicht in der letzten Verfahrensnummer. Bogen, Ausschnitt und Ring (Nr. 36–39) enden auf ihrer höchsten Sprosse. In Einheit 1 und 2 trägt die letzte Verfahrensnummer das Original (Nr. 18 Dosenetikett, P10 2022 OS; Nr. 28 Brunnen, P10 2016 OS).
+Abweichung: Zwischensprossen in Nr. 18 c (Halbkreis mit Durchmesser), Nr. 28 c (Durchmesser aus der Fläche) und Nr. 39 c (Ring aus der Breite). Bei Bogenlänge, Ausschnittsfläche, Ausschnittsumfang und Kreisring (Nr. 36–39) ist die Höhe nach Lehrwerk gesetzt, weil der Eintrag dort kein Original führt.
+Abweichung: Zwei Bausteine sind im Vorspann definiert: \zeichenplatz (Zeichenfläche mit vorgegebenem M, Nr. 14) und \zonekopf für das Zonen-PDF. \einheitenkopf verdoppelt dort die Kopfzeile („Kreis · Kennst du schon · Kennst du schon“) oder setzt bei leerer Kurzform einen leeren Punkt.
+Abweichung: Die Zeiten sind gemessen. Der Stempel „zone“ steht vor zwei Korrekturen der Kopfzeile, der Stempel „e 1“ im Aufruf nach der Sichtprüfung.
+Katalog: Gebraucht wurden Lerneinheiten, Marken, Typen, Voraussetzungen mit Erkennungsschritten, Typische Fehler, Sprossen, Prüfungsform und Zielmarke. Der Merkkasten diente nur als Sperrliste; Verortung und Grundvorstellung wurden nicht gebraucht.
+Katalog-Befund: Der Erkennungsschritt „Radius oder Durchmesser?“ verlangt eine Zahl (d → r). Die Vorstufe Nr. 10 ist deshalb Ankreuzen, das Umrechnen ist die erste Verfahrensnummer (Nr. 12). „Welcher Teil vom Kreis?“ verlangt einen Bruch; die Vorstufe Nr. 33 nutzt Wortnamen (Halbkreis …), der Bruch kommt erst in Nr. 34. Die Marken-Zeile von Einheit 1 sagt „P10“, die Prüfungsform nennt nur eine Nebenleistung. Zu Bogen, Ausschnitt und Ring gibt es kein Original.
+Katalog-Spannen: Einheit 1 und 2 liegen bei OS/GYM Kl. 7–8, Einheit 3 bei Kl. 7–9. Kl. 8 liegt jeweils in der Spanne, deshalb „neu oder schon bekannt – je nach Buch“, bei Einheit 3 mit „manche Bücher erst Kl. 9“. Die Typklammer [OS 5, GYM 5–6] ergibt „kennst du seit Klasse 5“ (Nr. 13); Kreis zeichnen [OS 5–8] steht wie die Einheit, ohne Klammer.
+Protokoll-Archiv: Kreis_2026-09-26_protokoll.zip
+
+---
+Hinweise zum Testlauf (nicht Teil des Chats):
+- Arbeitsverzeichnis: C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\5-kreis-8-ausblick. Das Archiv enthält 46 Dateien, darunter protokoll.txt, chat.txt, zeiten.txt, pruef.py mit seinen Ausgaben, alle .tex-Dateien, die Logs, die Vorlage 2026-09-28a und kreis.md.
+- Prüfung: pruef.py zeigt für Zone, E1, E2 und E3 je 0 Abweichungen. In den Endfassungen meldet das Log keine Overfull- und keine mathblatt-Warnungen. Das Gesamt hat die Nummern 1–43 lückenlos, die Lösungen decken 43 Nummern ab. Umfang: Zone 3 Seiten, Lernblatt 12, Gesamt 15, Lösungen 2.
+- Zeiten ab t0: Zone 664 s, Weiter 714 s, E1 877 s, E2 1011 s, E3 1150 s, Lernblatt 1201 s, Gesamt 1231 s, Lösungen 1247 s. Der Bau brauchte 95 Werkzeugaufrufe, davon 26 Korrekturen; 9 davon betrafen nur das Protokoll.
+- Befund für die Vorlage: \einheitenkopf kann im eigenständigen Zonen-PDF keine richtige Kopfzeile bilden, darum der Ersatz \zonekopf. Die Abhakseite läuft mit 4 Zeilen auf eine zweite Seite über.
+- Der Protokoll-Aufruf endete mit Exit-Code 255, weil ich die Ausgabe mit Select-Object -First abgeschnitten habe. Das Archiv war zu dem Zeitpunkt schon vollständig geschrieben; das habe ich danach geprüft.

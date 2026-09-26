@@ -1,0 +1,10 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% Baustein fehlt in der Anleitung: leere Zeichenfläche mit vorgegebenem Mittelpunkt M
+\newcommand{\zeichenplatz}[1][5]{\begin{tikzpicture}\path (0,0) rectangle (#1,#1);\fill (#1/2,#1/2) circle (0.06) node[below right]{$M$};\end{tikzpicture}}
+\newcommand{\einheitdatei}{e3_a}
+\begin{document}
+\blattkopf{Kreis}{Lernblatt}
+\weit
+\input{\einheitdatei}
+\end{document}

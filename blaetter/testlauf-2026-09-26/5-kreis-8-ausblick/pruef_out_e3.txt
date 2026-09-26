@@ -1,0 +1,45 @@
+33-1: Skript Halbkreis  Blatt Halbkreis  OK
+33-2: Skript Viertelkreis  Blatt Viertelkreis  OK
+33-3: Skript Dreiviertelkreis  Blatt Dreiviertelkreis  OK
+33-4: Skript Achtelkreis  Blatt Achtelkreis  OK
+33-5: Skript Drittelkreis  Blatt Drittelkreis  OK
+34a: Skript 1/4  Blatt 1/4  OK
+34b: Skript 1/2  Blatt 1/2  OK
+34c: Skript 1/6  Blatt 1/6  OK
+34d: Skript 1/3  Blatt 1/3  OK
+34e: Skript 10 -> 10.0  Blatt 10  OK
+34f: Skript 27.7778 -> 27.8  Blatt 27,8  OK
+34g: Skript 65.2778 -> 65.3  Blatt 65,3  OK
+35a: Skript 90 -> 90.0  Blatt 90  OK
+35b: Skript 240 -> 240.0  Blatt 240  OK
+35c: Skript 108 -> 108.0  Blatt 108  OK
+36a: Skript 6.28319 -> 6.3  Blatt 6,3  OK
+36b: Skript 9.42478 -> 9.4  Blatt 9,4  OK
+36c: Skript 18.8496 -> 18.8  Blatt 18,8  OK
+36d: Skript 10.9083 -> 10.9  Blatt 10,9  OK
+37a: Skript 12.5664 -> 12.6  Blatt 12,6  OK
+37b: Skript 37.6991 -> 37.7  Blatt 37,7  OK
+37c: Skript 98.1748 -> 98.2  Blatt 98,2  OK
+37d: Skript 53.0144 -> 53.0  Blatt 53,0  OK
+38a: Skript 14.2832 -> 14.3  Blatt 14,3  OK
+38b: Skript 36.5664 -> 36.6  Blatt 36,6  OK
+38c: Skript 23.09 -> 23.1  Blatt 23,1  OK
+39a: Skript 62.8319 -> 62.8  Blatt 62,8  OK
+39b: Skript 392.699 -> 392.7  Blatt 392,7  OK
+39c: Skript 141.372 -> 141.4  Blatt 141,4  OK
+40a: Skript 1/9  Blatt 1/9  OK
+40a-falsch: Skript 2/9  Blatt 2/9  OK
+40b-falsch: Skript 9.42478 -> 9.4  Blatt 9,4  OK
+40b: Skript 21.4248 -> 21.4  Blatt 21,4  OK
+40c-falsch: Skript 30.5556 -> 30.6  Blatt 30,6  OK
+40c: Skript 69.4444 -> 69.4  Blatt 69,4  OK
+42a: Skript 64.1409 -> 64.1  Blatt 64,1  OK
+42b: Skript 18.326 -> 18.3  Blatt 18,3  OK
+42c: Skript 187.088 -> 187.0  Blatt 187  OK
+43a-Rad: Skript 45 -> 45.0  Blatt 45  OK
+43a-Bus: Skript 30 -> 30.0  Blatt 30  OK
+43a-Fuss: Skript 25 -> 25.0  Blatt 25  OK
+43b-Rad: Skript 162 -> 162.0  Blatt 162  OK
+43b-Bus: Skript 108 -> 108.0  Blatt 108  OK
+43b-Fuss: Skript 90 -> 90.0  Blatt 90  OK
+Abweichungen: 0

@@ -1,0 +1,48 @@
+10a: Skript Radius  Blatt Radius  OK
+10b: Skript Durchmesser  Blatt Durchmesser  OK
+10c: Skript keins  Blatt keins  OK
+10d: Skript Durchmesser  Blatt Durchmesser  OK
+10e: Skript Radius  Blatt Radius  OK
+11a: Skript Umfang  Blatt Umfang  OK
+11b: Skript Fläche  Blatt Fläche  OK
+11c: Skript Fläche  Blatt Fläche  OK
+11d: Skript Umfang  Blatt Umfang  OK
+11e: Skript Umfang  Blatt Umfang  OK
+12a: Skript 6 -> 6.0  Blatt 6  OK
+12b: Skript 12 -> 12.0  Blatt 12  OK
+12c: Skript 7 -> 7.0  Blatt 7  OK
+12d: Skript 5 -> 5.0  Blatt 5  OK
+12e: Skript 7 -> 7.0  Blatt 7  OK
+12f: Skript 4.5 -> 4.5  Blatt 4,5  OK
+12g: Skript 4.8 -> 4.8  Blatt 4,8  OK
+12h: Skript 60 -> 60.0  Blatt 60  OK
+14b: Skript 1.5 -> 1.5  Blatt 1,5  OK
+14c: Skript 2.3 -> 2.3  Blatt 2,3  OK
+15Dose: Skript 3.13514 -> 3.14  Blatt 3,14  OK
+15Teller: Skript 3.14583 -> 3.15  Blatt 3,15  OK
+15Münze: Skript 3.13043 -> 3.13  Blatt 3,13  OK
+15Eimer: Skript 3.13333 -> 3.13  Blatt 3,13  OK
+15a: Skript 157.08 -> 157.0  Blatt 157  OK
+16a: Skript 9.42478 -> 9.4  Blatt 9,4  OK
+16b: Skript 18.8496 -> 18.8  Blatt 18,8  OK
+16c: Skript 28.2743 -> 28.3  Blatt 28,3  OK
+16d: Skript 62.8319 -> 62.8  Blatt 62,8  OK
+16e: Skript 25.1327 -> 25.1  Blatt 25,1  OK
+16f: Skript 11.3097 -> 11.3  Blatt 11,3  OK
+17a: Skript 14.9924 -> 15.0  Blatt 15,0  OK
+17b: Skript 28.0113 -> 28.0  Blatt 28,0  OK
+17c: Skript 6.00014 -> 6.0  Blatt 6,0  OK
+17d: Skript 15.9155 -> 15.9  Blatt 15,9  OK
+18a: Skript 18.8496 -> 18.8  Blatt 18,8  OK
+18b: Skript 21.9911 -> 22.0  Blatt 22,0  OK
+18c: Skript 30.8496 -> 30.8  Blatt 30,8  OK
+18d: Skript 23.8761 -> 23.9  Blatt 23,9  OK
+19a-falsch: Skript 21.9911 -> 22.0  Blatt 22,0  OK
+19a: Skript 43.9823 -> 44.0  Blatt 44,0  OK
+19b-falsch: Skript 113.097 -> 113.1  Blatt 113,1  OK
+19b: Skript 37.6991 -> 37.7  Blatt 37,7  OK
+21a: Skript 219.911 -> 219.9  Blatt 219,9  OK
+21b: Skript 1099.56 -> 1099.6  Blatt 1099,6  OK
+21c: Skript 2273.64 -> 2273.6  Blatt 2273,6  OK
+21c-ganz: Skript 2274 -> 2274.0  Blatt 2274  OK
+Abweichungen: 0

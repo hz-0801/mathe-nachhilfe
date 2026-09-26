@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\newcommand{\zeichenplatz}[1][5]{\begin{tikzpicture}\path (0,0) rectangle (#1,#1);\fill (#1/2,#1/2) circle (0.06) node[below right]{$M$};\end{tikzpicture}}
+\begin{document}
+\blattkopf{Kreis}{Kennst du schon}
+\weit
+\einheitenkopf[zone][Kennst du schon]{Das kennst du schon}
+\begin{aufgabe}{Ich kann einen Kreis mit dem Zirkel zeichnen.}
+Zeichne um $M$ den Kreis mit dem Zirkel.
+\begin{teile}
+\teil Radius $r = 2\,\text{cm}$ \quad \teil Durchmesser $d=3$ cm
+\end{teile}
+
+\zeichenplatz\hfill\zeichenplatz\hfill\zeichenplatz
+
+\end{aufgabe}
+\begin{aufgabe}{Probe Kreissektor.}
+\kreissektor{90}{}\hspace{5mm}\kreissektor{235}{}
+
+\begin{kreis}[1.3]\mittelpunkt{M}\radius{40}{1}\durchmesser{160}{2}\sehne{200}{280}{3}\end{kreis}
+\hspace{1cm}
+\begin{kreis}[1.2]\mittelpunkt{}\sektor{0}{90}{}\radius{0}{3\,\text{cm}}\end{kreis}
+\hspace{1cm}
+\begin{kreis}[1.2]\mittelpunkt{}\sektor{0}{150}{150^\circ}\radius{0}{7\,\text{m}}\end{kreis}
+
+\winkel[4]{65}{}
+
+\winkelstrahl[6]
+\end{aufgabe}
+\begin{aufgabe}{Tabelle.}
+\sachtabelle{lcccc}{ & Radius $r$ & Durchmesser $d$ & Umfang $u$ & Fläche $A$}{a) & $6\,$m & \leerzelle & \leerzelle & \leerzelle \\ b) & \leerzelle & $9$ cm & \leerzelle & \leerzelle}
+\begin{teile}\teil Strecke 1: \kreuz{Radius}\kreuz{Durchmesser}\kreuz{keins von beiden}
+\teil $u=4\cdot a$ \feld{u} \leerfeld[\%]
+\end{teile}
+\kreisleer[2]
+\end{aufgabe}
+\end{document}

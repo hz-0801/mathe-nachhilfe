@@ -1,0 +1,53 @@
+1a: Skript 4 -> 4.0  Blatt 4  OK
+1b: Skript 10 -> 10.0  Blatt 10  OK
+1c: Skript 4.8 -> 4.8  Blatt 4,8  OK
+1d: Skript 11.362 -> 11.4  Blatt 11,4  OK
+1e: Skript 7.8125 -> 7.8  Blatt 7,8  OK
+1f: Skript 19.998 -> 20.0  Blatt 20,0  OK
+1g: Skript 38.1 -> 38.1  Blatt 38,1  OK
+1g-zwischenrunden: Skript 38 -> 38.0  Blatt 38,0  OK
+2a-u: Skript 16 -> 16.0  Blatt 16  OK
+2a-A: Skript 15 -> 15.0  Blatt 15  OK
+2b-u: Skript 16 -> 16.0  Blatt 16  OK
+2b-A: Skript 16 -> 16.0  Blatt 16  OK
+2c-u: Skript 13 -> 13.0  Blatt 13  OK
+2c-A: Skript 10 -> 10.0  Blatt 10  OK
+2d-u: Skript 5 -> 5.0  Blatt 5  OK
+2d-A: Skript 1 -> 1.0  Blatt 1  OK
+3d: Skript 4.6 -> 4.6  Blatt 4,6  OK
+3e: Skript 3 -> 3.0  Blatt 3  OK
+4a: Skript 36 -> 36.0  Blatt 36  OK
+4b: Skript 7 -> 7.0  Blatt 7  OK
+4c: Skript 2.25 -> 2.25  Blatt 2,25  OK
+4d: Skript 0.25 -> 0.25  Blatt 0,25  OK
+4e: Skript 3.5 -> 3.5  Blatt 3,5  OK
+4f: Skript 5.47723 -> 5.5  Blatt 5,5  OK
+4g: Skript 6 -> 6.0  Blatt 6  OK
+4h: Skript 1.6 -> 1.6  Blatt 1,6  OK
+5a: Skript 12.25 -> 12.25  Blatt 12,25  OK
+5b: Skript 8 -> 8.0  Blatt 8  OK
+6a1: Skript 16 -> 16.0  Blatt 16  OK
+6a2: Skript 8 -> 8.0  Blatt 8  OK
+6b1: Skript 6.25 -> 6.25  Blatt 6,25  OK
+6b2: Skript 5 -> 5.0  Blatt 5  OK
+6c1: Skript 6 -> 6.0  Blatt 6  OK
+6c2: Skript 18 -> 18.0  Blatt 18  OK
+6d1: Skript 0.09 -> 0.09  Blatt 0,09  OK
+6d2: Skript 0.6 -> 0.6  Blatt 0,6  OK
+7a: Skript 360 -> 360.0  Blatt 360  OK
+7b: Skript 90 -> 90.0  Blatt 90  OK
+7c: Skript 180 -> 180.0  Blatt 180  OK
+7d: Skript 65 -> 65.0  Blatt 65  OK
+7e: Skript 230 -> 230.0  Blatt 230  OK
+7f: Skript 85 -> 85.0  Blatt 85  OK
+9a: Skript 1/4  Blatt 1/4  OK
+9a%: Skript 25 -> 25.0  Blatt 25  OK
+9b: Skript 1/2  Blatt 1/2  OK
+9b%: Skript 50 -> 50.0  Blatt 50  OK
+9c: Skript 7/20  Blatt 7/20  OK
+9c%: Skript 35 -> 35.0  Blatt 35  OK
+9d: Skript 5/36  Blatt 5/36  OK
+9d%: Skript 13.8889 -> 13.9  Blatt 13,9  OK
+9e: Skript 3/4  Blatt 3/4  OK
+9e%: Skript 75 -> 75.0  Blatt 75  OK
+Abweichungen: 0

@@ -1,0 +1,30 @@
+Eingabe des Lehrers:
+kreis 8 mit ausblick – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Kl. 8, Oberschule als Standpunkt (Gymnasium mit gleichen Marken) · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 8 · 3 Zweige · Zone aus 6 Fertigkeiten
+Einheit 1 · Kreisumfang: Hier lernst du, den Umfang eines Kreises aus Radius oder Durchmesser zu berechnen und umgekehrt · neu oder schon bekannt – je nach Buch · P10 · baut auf: Kommazahlen und Runden, Umfang und Fläche, Formeln umstellen
+Einheit 2 · Kreisfläche: Hier lernst du, die Fläche eines Kreises zu berechnen und aus der Fläche den Radius · neu oder schon bekannt – je nach Buch · P10 oft · baut auf: Kreisumfang (Einheit 1), Quadrieren und Wurzelziehen, Formeln umstellen
+Einheit 3 · Kreisteile: Hier lernst du, Anteil, Bogen und Fläche eines Kreisausschnitts aus dem Mittelpunktswinkel zu berechnen · neu oder schon bekannt – je nach Buch, manche Bücher erst Kl. 9 · P10 · baut auf: Kreisumfang (Einheit 1), Kreisfläche (Einheit 2), Winkel, Anteile als Bruch und Prozent
+
+Planfrage: keine (3 Zweige, Eintrag Sek I) – die Antwort „alle“ aus der Eingabe deckt sich damit.
+Rückfragen: keine.
+
+Kreis_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 3, Gesamt und Lösungen.
+weiter (aus der Eingabe)
+
+Kreis_Lernblatt.pdf
+Kreis_Gesamt.pdf
+Kreis_Loesungen.pdf
+Kreis_2026-09-26_protokoll.zip
+
+Ausgabeblock:
+Abweichung: kein Rechenplatz auf dem ganzen Blatt – alle Verfahren sind Geometrie (2.3 b); Umkehrungen als eigene Hauptnummer (Nr. 17, 28, 35).
+Abweichung: Original von Einheit 3 (Glücksrad, P10 2025 OS) am Ende von Nr. 34 (Anteil in Prozent), nicht in der letzten Verfahrensnummer – Bogen, Ausschnitt und Ring (Nr. 36–39) enden auf ihrer höchsten Sprosse; in Einheit 1 und 2 trägt die letzte Verfahrensnummer das Original (Nr. 18 Dosenetikett, P10 2022 OS; Nr. 28 Brunnen, P10 2016 OS).
+Abweichung: Zwischensprossen Nr. 18 c (Halbkreis mit Durchmesser), Nr. 28 c (Durchmesser aus der Fläche), Nr. 39 c (Ring aus der Breite); Höhe nach Lehrwerk bei Bogenlänge, Ausschnittsfläche, Ausschnittsumfang und Kreisring (Nr. 36–39), weil der Eintrag dort kein Original führt.
+Abweichung: im Vorspann definiert \zeichenplatz (Zeichenfläche mit vorgegebenem M, Nr. 14) und für das Zonen-PDF \zonekopf – \einheitenkopf verdoppelt dort die Kopfzeile („Kreis · Kennst du schon · Kennst du schon“) oder setzt bei leerer Kurzform einen leeren Punkt.
+Abweichung: Zeiten gemessen; Stempel zone vor zwei Kopfzeilen-Korrekturen gesetzt, Stempel e 1 im Aufruf nach der Sichtprüfung.
+Katalog: gebraucht Lerneinheiten, Marken, Typen, Voraussetzungen mit Erkennungsschritten, Typische Fehler, Sprossen, Prüfungsform und Zielmarke; Merkkasten nur als Sperrliste, Verortung und Grundvorstellung nicht.
+Katalog-Befund: Erkennungsschritt „Radius oder Durchmesser?“ verlangt eine Zahl (d → r) – Vorstufe Nr. 10 als Ankreuzen, Umrechnen als erste Verfahrensnummer Nr. 12; „Welcher Teil vom Kreis?“ verlangt einen Bruch – Vorstufe Nr. 33 mit Wortnamen (Halbkreis …), Bruch erst in Nr. 34; Marken-Zeile Einheit 1 sagt „P10“, Prüfungsform nur Nebenleistung; kein Original zu Bogen, Ausschnitt, Ring.
+Katalog-Spannen: Einheit 1 und 2 OS/GYM Kl. 7–8, Einheit 3 Kl. 7–9 – Kl. 8 liegt jeweils in der Spanne → „neu oder schon bekannt – je nach Buch“ (Einheit 3 mit „manche Bücher erst Kl. 9“); Typklammer [OS 5, GYM 5–6] → „kennst du seit Klasse 5“ (Nr. 13); [OS 5–8] Kreis zeichnen wie die Einheit, ohne Klammer.
+Protokoll-Archiv: Kreis_2026-09-26_protokoll.zip
