@@ -85,8 +85,13 @@ FHR_SCHWELLE = 1
 # - quadratische-gleichungen 2: „GYM Kl. 8–9“ statt „GYM Kl. 9“ – Quelle katalog/_klassen-belege.md, Elemente
 #   Kl. 8 (Ausgabe 2016) „1.12 Gleichungen vom Typ T v T2 = 0“ (Satz vom Nullprodukt, zählt: kein Stichwort der
 #   Regel A, nicht in Datei 2), neben LS 9 und Fundamente 9.
-# Die übrigen Sollwerte sind die der Übergabe vom 26.09.; kreis 1 (Typ) weicht weiter ab (bericht-marken.md
-# Gegenprobe 4, Posten in faellig.md).
+# Seit 29.09.2026 (Auftrag Nacht 2026-09-29, Teil 5; beschluss-2026-09-26.md Punkt 4) ebenso ein dritter:
+# - kreis 1, Typ „Kreis mit gegebenem Radius oder Durchmesser zeichnen“: „[OS 5–8, GYM 5–6]“ statt „[OS 5, GYM 6]“
+#   (Gedächtniswert der Übergabe) – Quelle bericht-marken.md Gegenprobe 4: nach Regel A und B gebaut aus den
+#   Typzeilen Mathematik 2023 Kl. 5, Mathematik heute Kl. 8 „Kreis - Kreisornamente“ (OS 5–8), Elemente Kl. 5
+#   „5.4 Kreise“, LS 6 „3 Kreise und Kreisfiguren“, Fundamente 6 „3.1 Kreis“ und 7 „4.1 Kreis“ (GYM 5–6; die
+#   7 von Fundamente liegt in der Spanne). Die Zeitmarke der Einheit trägt „OS Kl. 7–8“; die Typklammer ist Zusatz.
+# Die übrigen Sollwerte sind die der Übergabe vom 26.09.
 # Prüfung einer Marken-Zeile: Schulformangaben und Prüfungswort als ganzer Teil zwischen „ · “ (eine Spanne
 # darf ihre Reihenliste in Klammern tragen: „GYM Kl. 8–9“ trifft „GYM Kl. 8–9 (LS 9, …)“, nicht „GYM Kl. 7–9 (…)“;
 # „P10“ trifft nicht „P10 oft“), alles andere als Text.
@@ -96,7 +101,7 @@ GEGENPROBE = [
     ('quadratische-gleichungen', 2, 'Marken', ['OS Kl. 10', 'GYM Kl. 8–9']),
     ('prozentrechnung', 1, 'Marken', ['GYM Kl. 5']),
     ('kreis', 1, 'ohne Kl. 5/6', []),
-    ('kreis', 1, 'Typ', ['Kreis mit gegebenem Radius oder Durchmesser zeichnen', '[OS 5, GYM 6]']),
+    ('kreis', 1, 'Typ', ['Kreis mit gegebenem Radius oder Durchmesser zeichnen', '[OS 5–8, GYM 5–6]']),
     ('potenz-exponentialfunktionen', 5, 'Marken', ['OS Kl. 10', 'GYM Kl. 9', 'keine P10-Aufgabe']),
     ('daten', 7, 'Marken', ['keine P10-Aufgabe']),
     ('kurvenuntersuchung', 1, 'Marken', ['BE Q1 · BB Q1 · GK']),
