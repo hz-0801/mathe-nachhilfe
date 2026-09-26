@@ -1,0 +1,28 @@
+Eingabe des Lehrers:
+lineare funktionen 8 nur das neue – Antworten auf Planfrage und Zone: alle; baue ohne Halt bis zum Ausgabeblock durch
+
+→ Lernblatt · Oberschule als Standpunkt (Gymnasium gleich, alle Zweige Kl. 8) · 5 Zweige, alle neu in Kl. 8 · ohne Zone
+Einheit 1 von 5 · Proportionale Funktion – Hier lernst du, Funktionen y = m · x zu zeichnen, abzulesen und aufzustellen · neu in diesem Jahr · P10 oft · baut auf: Dreisatz, proportionale Zuordnung, Koordinatensystem
+Einheit 2 von 5 · Lineare Funktion f(x) = m · x + n – Hier lernst du, Geraden mit f(x) = m · x + n zu zeichnen und m und n abzulesen und zu deuten · neu in diesem Jahr · P10 oft · baut auf: proportionale Funktion (Einheit 1), Brüche, negative Zahlen
+Einheit 3 von 5 · Punkte und Werte – Hier lernst du, Funktionswerte zu berechnen, Punkte zu prüfen und Nullstellen und Achsenschnittpunkte zu bestimmen · neu in diesem Jahr · P10 oft · baut auf: lineare Funktion (Einheit 2), Gleichungen lösen, negative Zahlen
+Einheit 4 von 5 · Gleichung bestimmen – Hier lernst du, die Gleichung einer Geraden aus dem Graphen, aus Steigung und Punkt oder aus zwei Punkten zu bestimmen und Schnittpunkte zu berechnen · neu in diesem Jahr · P10 · baut auf: m und n ablesen (Einheit 2), Punktprobe (Einheit 3), Gleichungen lösen, Terme zusammenfassen
+Einheit 5 von 5 · Anwendungen – Hier lernst du, Sachsituationen mit linearen Funktionen zu beschreiben und Tarife zu berechnen und zu vergleichen · neu in diesem Jahr · P10 oft · baut auf: Gleichung bestimmen und Schnittpunkt (Einheit 4), Funktionswerte (Einheit 3), Dreisatz
+Alle Zweige, oder welche? (alle · Nummern · ein Typ für den Fokus)
+Antwort (aus der Eingabe): alle
+
+Rückfragen: keine.
+
+Übergebene Dateien:
+LinFkt_Lernblatt.pdf
+LinFkt_Gesamt.pdf
+LinFkt_Loesungen.pdf
+LinFkt_2026-09-26_protokoll.zip
+
+Ausgabeblock:
+Ohne Zone (Bestellung „nur das Neue“): keine Datei KennstDuSchon, das Gesamt ist inhaltsgleich mit dem Lernblatt (nur Kopfzeile „Gesamt“).
+Geteilte Hauptnummern nach 2.3 g: 4/5, 14/15, 26/27, 36/37, 39/40.
+Höhe nach Lehrwerk: Einheit 1 hat kein P10-Original, Zielmarke Nr. 9 nach RLP F und LISUM-PH Jg. 8; Nr. 18 (Parameter deuten), Nr. 28 (Achsenschnittpunkte) und Nr. 39/40 (Schnittpunkt rechnerisch) haben im Eintrag keine Sprossenkette, die Kette ist nach Lehrwerk gebildet und endet ohne Original.
+Über die Pflichtelemente jedes Zweigs (Fehler finden, Begründen, Anwendung) ist die Zwischenzeile „Prüfen, begründen, anwenden“ gesetzt, damit jede Hauptnummer unter einer Überschrift steht; sie ist keine Verfahrensüberschrift im Sinn von 2.3 b.
+Zeiten gemessen; Stempel „zone“ und „weiter“ fehlen, weil es ohne Zone keinen Halt gab; „e 1“ steht vor der Sichtprüfung, die Layoutkorrektur von Einheit 1 lag danach.
+Katalogzeile: gebraucht Lerneinheiten, Marken, Typen je Lerneinheit, Voraussetzungen (Erkennungsschritte → Vorstufen Nr. 10–12, 22, 45; Fertigkeiten nur für „baut auf“), Sprossen je Verfahrenstyp, Typische Fehler, Prüfungsform und Zielmarke; nicht gebraucht Merkkasten, Verortung, Grundvorstellung. Befund: Die Erkennungsschritte „Steigungsdreieck lesen“ (wie viel nach oben) und „Punkt einsetzen … rechne aus“ verlangen eine Zahl – umgesetzt als Einzeichnen (Nr. 12) und Einsetzen ohne Ausrechnen (Nr. 22), das Ausrechnen steht in Nr. 16 und Nr. 23. Für Einheit 4 fehlt eine Kette zum Schnittpunkt rechnerisch. Keine Marke trägt eine Spanne; alle Zweige sind OS Kl. 8 · GYM Kl. 8, Zeitmarke durchgehend „neu in diesem Jahr“.
+Protokoll-Archiv: LinFkt_2026-09-26_protokoll.zip

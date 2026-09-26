@@ -1,0 +1,35 @@
+1a       Skript=[0, 2, 4, 6]                 Blatt=[0, 2, 4, 6]                 OK
+1b       Skript=[0, 3, 6, 9]                 Blatt=[0, 3, 6, 9]                 OK
+1c       Skript=[0, 1, 2, 3]                 Blatt=[0, 1, 2, 3]                 OK
+1d       Skript=[0, 5, 10, 15]               Blatt=[0, 5, 10, 15]               OK
+1e       Skript=[0, 3/2, 3, 9/2]             Blatt=[0, 1.5, 3, 4.5]             OK
+1f       Skript=[0, 1/2, 1, 3/2]             Blatt=[0, 0.5, 1, 1.5]             OK
+1g       Skript=[0, -2, -4, -6]              Blatt=[0, -2, -4, -6]              OK
+2a       Skript=(1, 2)                       Blatt=(1, 2)                       OK
+2b       Skript=(2, 1)                       Blatt=(2, 1)                       OK
+2c       Skript=(1, -2)                      Blatt=(1, -2)                      OK
+3a       Skript=3                            Blatt=3                            OK
+3b       Skript=6                            Blatt=6                            OK
+3c       Skript=-3                           Blatt=-3                           OK
+3d       Skript=-4                           Blatt=-4                           OK
+3e       Skript=15                           Blatt=15                           OK
+3f       Skript=14                           Blatt=14                           OK
+4a       Skript=('ja', 3)                    Blatt=('ja', 3)                    OK
+4b       Skript=('nein',)                    Blatt=('nein',)                    OK
+4c       Skript=('ja', 5/2)                  Blatt=('ja', 2.5)                  OK
+4d       Skript=('nein',)                    Blatt=('nein',)                    OK
+5a       Skript=('ja', -1/2)                 Blatt=('ja', -0.5)                 OK
+5b       Skript=('ja', 4)                    Blatt=('ja', 4)                    OK
+5c       Skript=('nein',)                    Blatt=('nein',)                    OK
+5c-f(0)  Skript=5.0                          Blatt=5                            OK
+6a       Skript=12                           Blatt=12                           OK
+6b       Skript=10                           Blatt=10                           OK
+6c       Skript=9                            Blatt=9                            OK
+7a       Skript=('ja', 7/2)                  Blatt=('ja', 3.5)                  OK
+7b       Skript=('ja', -2)                   Blatt=('ja', -2)                   OK
+8a-y(0)  Skript=0                            Blatt=0                            OK
+8b       Skript=2                            Blatt=2                            OK
+9a       Skript=15                           Blatt=15                           OK
+9b       Skript=120                          Blatt=120                          OK
+9c       Skript=15                           Blatt=15                           OK
+Abweichungen: 0

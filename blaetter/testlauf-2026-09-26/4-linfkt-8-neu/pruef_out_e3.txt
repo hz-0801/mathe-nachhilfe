@@ -1,0 +1,54 @@
+23a      Skript=10                           Blatt=10                           OK
+23b      Skript=17                           Blatt=17                           OK
+23c      Skript=16                           Blatt=16                           OK
+23d      Skript=2                            Blatt=2                            OK
+23e      Skript=-1                           Blatt=-1                           OK
+23f      Skript=9                            Blatt=9                            OK
+23h      Skript=-8                           Blatt=-8                           OK
+23g      Skript=[7, 5, 3, 1, -1]             Blatt=[7, 5, 3, 1, -1]             OK
+24a      Skript=4                            Blatt=4                            OK
+24b      Skript=5                            Blatt=5                            OK
+24c      Skript=4                            Blatt=4                            OK
+24d      Skript=-2                           Blatt=-2                           OK
+24e      Skript=3                            Blatt=3                            OK
+24f      Skript=4                            Blatt=4                            OK
+25a      Skript=ja                           Blatt=ja                           OK
+25b      Skript=nein                         Blatt=nein                         OK
+25c      Skript=ja                           Blatt=ja                           OK
+25d      Skript=nein                         Blatt=nein                         OK
+25e      Skript=ja                           Blatt=ja                           OK
+25f      Skript=nein                         Blatt=nein                         OK
+25g      Skript=ja                           Blatt=ja                           OK
+25b-f(1) Skript=1                            Blatt=1                            OK
+25d-f(0) Skript=3                            Blatt=3                            OK
+25f-f(-2) Skript=5                            Blatt=5                            OK
+25g-f(-6) Skript=8                            Blatt=8                            OK
+26a      Skript=3                            Blatt=3                            OK
+26b      Skript=4                            Blatt=4                            OK
+26c      Skript=5                            Blatt=5                            OK
+26d      Skript=-2                           Blatt=-2                           OK
+27a      Skript=2                            Blatt=2                            OK
+27b      Skript=6                            Blatt=6                            OK
+27c      Skript=5/2                          Blatt=2.5                          OK
+28a      Skript=((0, -4), (2, 0))            Blatt=((0, -4), (2, 0))            OK
+28b      Skript=((0, 6), (2, 0))             Blatt=((0, 6), (2, 0))             OK
+28c      Skript=((0, 2), (-4, 0))            Blatt=((0, 2), (-4, 0))            OK
+28d      Skript=((0, 0), (0, 0))             Blatt=((0, 0), (0, 0))             OK
+28e      Skript=((0, -2), 'kein')            Blatt=((0, -2), 'kein')            OK
+29a      Skript=1                            Blatt=1                            OK
+29b      Skript=3                            Blatt=3                            OK
+29c      Skript=(0, 3)                       Blatt=(0, 3)                       OK
+29d      Skript=(2, 1)                       Blatt=(2, 1)                       OK
+30a      Skript=wahr                         Blatt=wahr                         OK
+30b      Skript=falsch                       Blatt=falsch                       OK
+30c      Skript=wahr                         Blatt=wahr                         OK
+30d      Skript=nein                         Blatt=nein                         OK
+30d-f(4) Skript=-3                           Blatt=-3                           OK
+31a      Skript=3                            Blatt=3                            OK
+31b      Skript=2                            Blatt=2                            OK
+32a      Skript=[]                           Blatt=[]                           OK
+32b      Skript=-3                           Blatt=-3                           OK
+33a      Skript=75                           Blatt=75                           OK
+33b      Skript=8                            Blatt=8                            OK
+33c      Skript=12                           Blatt=12                           OK
+Abweichungen: 0

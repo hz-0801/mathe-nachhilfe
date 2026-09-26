@@ -1,0 +1,33 @@
+45a      Skript=(4, 2.2)                     Blatt=(4, 2.2)                     OK
+45b      Skript=(80, -5)                     Blatt=(80, -5)                     OK
+45c      Skript=(25, 9.99)                   Blatt=(25, 9.99)                   OK
+45d      Skript=(45, 3)                      Blatt=(45, 3)                      OK
+45e      Skript=(12, 0.5)                    Blatt=(12, 0.5)                    OK
+46a      Skript=(2, 6)                       Blatt=(2, 6)                       OK
+46b      Skript=(3, 15)                      Blatt=(3, 15)                      OK
+46c      Skript=(0.3, 12)                    Blatt=(0.3, 12)                    OK
+46d      Skript=(1/20, 2)                    Blatt=(0.05, 2)                    OK
+47a      Skript=(4, 8)                       Blatt=(4, 8)                       OK
+47b      Skript=20                           Blatt=20                           OK
+47c      Skript=(-15, 250)                   Blatt=(-15, 250)                   OK
+47d      Skript=130                          Blatt=130                          OK
+47e-x    Skript=12.571428571428571           Blatt=12.571428571428571           OK
+47e      Skript=13                           Blatt=13                           OK
+47e-12M  Skript=480                          Blatt=480                          OK
+47e-13M  Skript=515                          Blatt=515                          OK
+48a      Skript=(2.5, 10)                    Blatt=(2.5, 10)                    OK
+48b      Skript=(-3, 60)                     Blatt=(-3, 60)                     OK
+49a      Skript=II                           Blatt=II                           OK
+49b      Skript=I                            Blatt=I                            OK
+49c      Skript=III                          Blatt=III                          OK
+50a      Skript=(21, 18, 'Süd')              Blatt=(21, 18, 'Süd')              OK
+50b      Skript=(33, 36, 'Nord')             Blatt=(33, 36, 'Nord')             OK
+50c      Skript=60                           Blatt=60                           OK
+51a      Skript=2                            Blatt=2                            OK
+51b      Skript=19/2                         Blatt=9.5                          OK
+51c      Skript=(13/2, 'Plus')               Blatt=(6.5, 'Plus')                OK
+52a      Skript=(1/5, 1.5)                   Blatt=(0.2, 1.5)                   OK
+52b      Skript=(45, 30)                     Blatt=(45, 30)                     OK
+53a      Skript=keiner                       Blatt=keiner                       OK
+53b      Skript=True                         Blatt=True                         OK
+Abweichungen: 0

@@ -1,0 +1,207 @@
+Prompt: Unterrichtsblatt-Prompt v4.4
+Modell: Claude Opus 5.5 (claude-opus-5-5)
+Vorlage: Version 2026-09-28a (Stufe 6: Bausteine aus den Lesebefunden des Lehrers vom 26.09.2026 zu zwei
+Katalog: lineare-funktionen.md, Status: gegengelesen bis auf [FS] (2026-09-08b; drei Originale des Typs „Funktionswert berechnen“ am 09d nach potenz-exponentialfunktionen.md geführt; Abschnitt „Offene Punkte des Eintrags“ und Zeile `Zuordnung:` am 2026-09-10c nachgetragen; LISUM-Planungshilfen am 10e nachgetragen; zweiter Gegenlese-Block am 2026-09-10g: Sprossenkette der Einheit 1 gebaut, Zielmarke-Zeile für alle fünf Einheiten angelegt, Original 2021-OS-K6b aufgenommen, Doppelnennung eines Typs aufgelöst, Gliederungsfrage geschlossen; Originale des Themas am 10h vollständig nachgetragen) · Stufe: Sek I · Bildungsgänge: alle bis Kl. 10 · gegengelesen: bis auf [FS]
+Bestellung: nur das Neue
+Standpunkt: Klasse 8, Oberschule (Gymnasium gleich)
+
+Zweige (gebaut, alle fünf; abgewählt: keine; Ausblick: keiner):
+Einheit 1 von 5 · Proportionale Funktion (Nr. 1–9) – Hier lernst du, Funktionen $y = m \cdot x$ zu zeichnen, abzulesen und aufzustellen · neu in diesem Jahr · P10 oft · baut auf: Dreisatz, proportionale Zuordnung, Koordinatensystem
+   Ich kann zu einer Gleichung $y = m \cdot x$ eine Wertetabelle ausfüllen.
+   Ich kann die Gerade zu $y = m \cdot x$ zeichnen.
+   Ich kann Werte am Graphen einer proportionalen Funktion ablesen und berechnen.
+   Ich kann entscheiden, ob eine Tabelle oder ein Text zu einer proportionalen Funktion gehört.
+   Ich kann entscheiden, ob eine Tabelle oder ein Text zu einer proportionalen Funktion gehört – weiter.
+   Ich kann einen Funktionswert mit dem Dreisatz kontrollieren.
+   Ich finde den Fehler beim Bestimmen des Faktors.
+   Ich kann begründen, ob eine Gerade zu einer proportionalen Funktion gehört.
+   Ich kann eine Sachaufgabe zur proportionalen Funktion lösen.
+Einheit 2 von 5 · Lineare Funktion $f(x) = m \cdot x + n$ (Nr. 10–21) – Hier lernst du, Geraden mit $f(x) = m \cdot x + n$ zu zeichnen und $m$ und $n$ abzulesen und zu deuten · neu in diesem Jahr · P10 oft · baut auf: proportionale Funktion (Einheit 1), Brüche, negative Zahlen
+   Ich erkenne $m$ und $n$ in der Gleichung.
+   Ich erkenne ohne Zeichnen, ob eine Gerade steigt oder fällt.
+   Ich kann an einer Geraden ein Steigungsdreieck einzeichnen.
+   Ich kann zu $f(x) = m \cdot x + n$ eine Wertetabelle anlegen und die Gerade zeichnen.
+   Ich kann eine Gerade mit $n$ und Steigungsdreieck zeichnen.
+   Ich kann eine Gerade mit $n$ und Steigungsdreieck zeichnen – weiter.
+   Ich kann $n$ und $m$ an einer Geraden ablesen.
+   Ich kann einer Gleichung die passende Gerade zuordnen.
+   Ich kann aus $m$ und $n$ ablesen, wie eine Gerade verläuft.
+   Ich finde den Fehler beim Ablesen der Steigung.
+   Ich kann begründen, welche Gerade steiler ist.
+   Ich kann $m$ und $n$ in einer Sachsituation deuten.
+Einheit 3 von 5 · Punkte und Werte (Nr. 22–33) – Hier lernst du, Funktionswerte zu berechnen, Punkte zu prüfen und Nullstellen und Achsenschnittpunkte zu bestimmen · neu in diesem Jahr · P10 oft · baut auf: lineare Funktion (Einheit 2), Gleichungen lösen, negative Zahlen
+   Ich kann einen $x$-Wert in die Gleichung einsetzen.
+   Ich kann einen Funktionswert berechnen.
+   Ich kann den $x$-Wert zu einem Funktionswert berechnen.
+   Ich kann prüfen, ob ein Punkt auf einer Geraden liegt.
+   Ich kann die Nullstelle einer Geraden berechnen.
+   Ich kann die Nullstelle einer Geraden berechnen – weiter.
+   Ich kann die Schnittpunkte einer Geraden mit den Achsen angeben.
+   Ich kann Nullstellen und Schnittpunkte am Graphen ablesen.
+   Ich kann Aussagen über eine Gerade prüfen.
+   Ich finde den Fehler bei Nullstelle und Punktprobe.
+   Ich kann begründen, ob und wo eine Gerade eine Nullstelle hat.
+   Ich kann mit Funktionswert und Nullstelle eine Sachaufgabe lösen.
+Einheit 4 von 5 · Gleichung bestimmen (Nr. 34–44) – Hier lernst du, die Gleichung einer Geraden aus dem Graphen, aus Steigung und Punkt oder aus zwei Punkten zu bestimmen und Schnittpunkte zu berechnen · neu in diesem Jahr · P10 · baut auf: $m$ und $n$ ablesen (Einheit 2), Punktprobe (Einheit 3), Gleichungen lösen, Terme zusammenfassen
+   Ich kann die Gleichung einer Geraden aus dem Graphen bestimmen.
+   Ich kann die Gleichung aus der Steigung und einem Punkt bestimmen.
+   Ich kann die Gleichung aus zwei Punkten bestimmen.
+   Ich kann die Gleichung aus zwei Punkten bestimmen – weiter.
+   Ich kann eine Gerade durch zwei Punkte zeichnen.
+   Ich kann den Schnittpunkt zweier Geraden berechnen.
+   Ich kann den Schnittpunkt zweier Geraden berechnen – weiter.
+   Ich finde den Fehler beim Bestimmen einer Geradengleichung.
+   Ich kann begründen, wie zwei Geraden zueinander liegen.
+   Ich kann eine Geradengleichung aus einer Sachsituation bestimmen.
+   Ich kann mit einem Schnittpunkt eine Sachaufgabe lösen.
+Einheit 5 von 5 · Anwendungen (Nr. 45–53) – Hier lernst du, Sachsituationen mit linearen Funktionen zu beschreiben und Tarife zu berechnen und zu vergleichen · neu in diesem Jahr · P10 oft · baut auf: Gleichung bestimmen und Schnittpunkt (Einheit 4), Funktionswerte (Einheit 3), Dreisatz
+   Ich erkenne im Text, was am Anfang da ist und was je Einheit dazukommt.
+   Ich kann einem Tarif die passende Gleichung zuordnen.
+   Ich kann zu einem Sachverhalt die Gleichung aufstellen und einen Wert berechnen.
+   Ich kann zu einer Gleichung eine passende Situation beschreiben.
+   Ich kann einem Tarif den passenden Graphen zuordnen.
+   Ich kann zwei Tarife vergleichen und mich entscheiden.
+   Ich kann Tarife mit Freiminuten berechnen und vergleichen.
+   Ich finde den Fehler beim Aufstellen einer Tarifgleichung.
+   Ich kann begründen, ob ein Tarif immer günstiger ist.
+
+Zählung aus der Textextraktion:
+LinFkt_Lernblatt.pdf: Hauptnummern 53, Teilaufgaben 194 (Buchstaben in der Textextraktion, einschließlich Abhakseite 0), Grafiken 21 Koordinatensysteme, Seiten 23
+LinFkt_Gesamt.pdf: Hauptnummern 53, Teilaufgaben 194 (Buchstaben in der Textextraktion, einschließlich Abhakseite 0), Grafiken 21 Koordinatensysteme, Seiten 23
+LinFkt_Loesungen.pdf: Nummern mit Lösung 53 (1–53), Grafiken 0, Seiten 3
+Verzeichniszeile (Lernblatt und Gesamt): 1 Proportionale Funktion (Nr. 1–9) · 2 Lineare Funktion (Nr. 10–21) · 3 Punkte und Werte (Nr. 22–33) · 4 Gleichung bestimmen (Nr. 34–44) · 5 Anwendungen (Nr. 45–53) · Das kann ich
+
+Schritte (Schritt · Anlass):
+1 Read unterrichtsblatt.md Teil 1 · Anleitung lesen
+2 Read unterrichtsblatt.md Teil 2 · Anleitung bis zur letzten Zeile
+3 PowerShell · Arbeitsverzeichnis, Stempel t0
+4 PowerShell curl · Themenregister und Register der Blätter (1.2)
+5 Grep · Themenregister nach „linear“ (Ausgabe zu lang für die Anzeige)
+6 Grep · Register der Blätter suchen
+7 Read · Register der Blätter lesen: lineare Funktionen noch nicht gebaut
+8 PowerShell curl · Eintrag lineare-funktionen.md
+9 Read · Eintrag ganz lesen
+10 PowerShell curl · mathblatt.sty und Anleitung (4.5)
+11 Read · Anleitung Teil 1
+12 Read · Anleitung Teil 2
+13 Write · einheit.tex (Prüfrahmen je Einheit)
+14 Write · einheit_l.tex (Prüfrahmen Lösungen)
+15 Write · e1_a.tex
+16 Write · e1_l.tex
+17 Write · pruef.py mit Einheit 1
+18 Edit · pruef.py, Prüfzeile 4g sauber modelliert
+19 PowerShell · pruef e1, Kompilieren, Rendern, Log
+20 Read · Seite E1-1: Tabellen in teilezwei überlappen (Overfull 19–27 pt, \wertetabelle zu breit)
+21 Read · Seite E1-2
+22 Read · Seite E1-3: Nr. 4 fast eine ganze Seite hoch, −2.5 mit Dezimalpunkt in \wertetabelle
+23 Read · Seite E1-4: Log „There's no line here to end.“ bei Nr. 6 (\\ nach \wertetabelle)
+24 Edit · Korrektur: Nr. 1 in teile statt teilezwei
+25 Edit · Korrektur: Nr. 4 geteilt (4/5), Tabelle ohne Dezimalwert
+26 Edit · Korrektur: Nr. 6 (jetzt 7) ohne \\ nach der Tabelle
+27 Write · e1_l.tex neu nummeriert
+28 Edit · pruef.py neu nummeriert
+29 PowerShell · Prüfung und Kompilat E1, Stempel e 1
+30 PowerShell · PIL vorhanden? (nein)
+31 Read · Seite E1-1
+32 Read · Seite E1-3
+33 Read · Seite E1-4
+34 Read · Lösungen E1
+35 Edit · Lösungen E1: (1|{-2}) statt binärem Minus
+36 Write · e2_a.tex
+37 Write · e2_l.tex
+38 Edit · pruef.py Einheit 2
+39 PowerShell · pruef e2 bricht ab („'BooleanTrue' object has no attribute 'evalf'“), Kompilat E2
+40 Edit · Korrektur Skript: Vergleich von Wahrheitswerten
+41 PowerShell · pruef e2 und e1 erneut: 0 Abweichungen
+42 Read · Seite E2-1
+43 Read · Seite E2-2
+44 Read · Seite E2-3
+45 Read · Seite E2-4: Labels 3 und 4 von Nr. 17 übereinander, Label 1 fehlt
+46 Read · Seite E2-5
+47 PowerShell · Ausschnitte vergrößern
+48 Read · Ausschnitt Nr. 17
+49 Read · Ausschnitt Nr. 12
+50 Edit · Korrektur \gerade-Labelstellen in Nr. 17
+51 PowerShell · Kompilat E2, Stempel e 2
+52 Read · Ausschnitt Nr. 17 nach Korrektur
+53 Write · e3_a.tex
+54 Write · e3_l.tex
+55 Edit · pruef.py Einheit 3
+56 PowerShell · pruef e3, Kompilat E3
+57 Read · Seite E3-1
+58 Read · Seite E3-2
+59 Read · Seite E3-3: \punktfeld setzt selbst „S(…|…)“, „S_y = S(…)“ doppelt
+60 Read · Seite E3-4
+61 Edit · Korrektur Nr. 28 ohne S_y/S_x
+62 Edit · Korrektur Anweisung Nr. 25 (y statt f)
+63 Edit · Korrektur Nr. 25 g) in derselben Schreibweise
+64 Edit · Lösungen E3: Buchstaben der geteilten Nummer 27 (a–c) und Nr. 28
+65 Edit · Lösungen E2: Buchstaben der geteilten Nummer 15 (a–d)
+66 Edit · Lösungen E1: Buchstaben der geteilten Nummer 5 (a–c)
+67 PowerShell · pruef.py Schlüssel an die Buchstaben angepasst
+68 PowerShell · pruef e1–e3, Kompilat E3, Stempel e 3
+69 Read · Seite E3-3 nach Korrektur
+70 Write · e4_a.tex
+71 Write · e4_l.tex
+72 PowerShell · Korrektur vor dem Kompilieren: Nr. 36 a) ergab y = 3x + 1 (Original 2021-OS-K2a), Werte getauscht; Nr. 42 a) angepasst
+73 PowerShell · Korrektur Nr. 39 c) (Zahlen des Fehlermusters 3x + 2 vermieden)
+74 Edit · pruef.py Einheit 4
+75 PowerShell · pruef e4, Kompilat E4
+76 Read · Seite E4-1
+77 Read · Seite E4-2
+78 Read · Seite E4-3
+79 Read · Seite E4-4
+80 Read · Seite E4-5
+81 PowerShell · Ausschnitte vergrößern
+82 Read · Ausschnitt Nr. 34: Labels t und r übereinander, t sehr steil
+83 Read · Ausschnitt Nr. 35 (leer, falscher Ausschnitt)
+84 PowerShell · Korrektur Gerade t in Nr. 34, Prüfung, Kompilat, Stempel e 4
+85 Read · Ausschnitt Nr. 34 nach Korrektur
+86 Write · e5_a.tex
+87 Write · e5_l.tex
+88 PowerShell · Korrektur vor dem Kompilieren: Tarif-Buchstaben A/B/C (Kollision mit Punkten A, B der Einheit 4) durch Namen ersetzt
+89 Edit · pruef.py Einheit 5
+90 PowerShell · pruef e5, Kompilat E5
+91 Read · Seite E5-1: Zeilen vor \leerfeld sichtbar gedehnt (Nr. 47 a, c)
+92 Read · Seite E5-2
+93 Read · Seite E5-3: Nr. 53 allein auf der Seite (unter einem Drittel gefüllt)
+94 PowerShell · Korrekturaufruf abgelehnt (Pfadschutz meldete „Remove-Item on system path '\quad' is blocked“)
+95 Read · e5_a.tex Zeilen 34–73
+96 Edit · Korrektur Nr. 47 a): \\ vor dem Feld
+97 Edit · Korrektur Nr. 47 c): \\ vor dem Feld
+98 Edit · Korrektur Nr. 49: Grafik und Teilaufgaben nebeneinander
+99 PowerShell · Kompilat E5: 2 Seiten
+100 Read · Seite E5-2 nach Korrektur
+101 Read · Seite E5-1 nach Korrektur
+102 PowerShell · pruef e5, Stempel e 5, Titelliste für die Abhakseite
+103 Write · abhaken.tex
+104 Write · verzeichnis.tex
+105 Write · lernblatt.tex
+106 Write · gesamt.tex
+107 Write · loesungen.tex
+108 Edit · Nr. 3: Geradenname g in Mathematik
+109 PowerShell · Lernblatt zweimal kompiliert, Kopfzeilen und Nummern je Seite, Stempel lernblatt
+110 PowerShell · Seiten rendern, Sprungziele der Verzeichniszeile prüfen
+111 Read · Lernblatt Seite 1
+112 Read · Lernblatt Seite 22 (Das kann ich)
+113 Read · Lernblatt Seite 23 (Das kann ich)
+114 PowerShell · Gesamt zweimal kompiliert, Kopfzeilen, Nummern 1–53 lückenlos, Stempel gesamt
+115 PowerShell · Lösungen kompiliert, 53 Nummern mit Lösung, Stempel loesungen
+116 Read · Lösungen Seite 1
+117 Write · chat.txt (Entwurf)
+118 Write · fertig.py
+119 PowerShell · fertig.py: protokoll.txt, chat.txt, Archiv
+
+Vorlage: fehlende Bausteine keine · Warnungen aus dem Log: keine Package mathblatt Warning; Overfull \hbox 4,4 pt (Nr. 12, kleine Systeme) und 5,9 pt (Nr. 49, Achsentitel neben der Grafik)
+Befunde zur Vorlage: \punktfeld setzt „S(…|…)“ mit S; \wertetabelle ist für teilezwei zu breit; \wertetabelle setzt Dezimalwerte mit Punkt.
+Korrekturrunden: 8 von 119 Schritten
+Zone: kein Stempel (ohne Zone, Bestellung „nur das Neue“)
+Weiter: kein Stempel (kein Halt, Bau in einem Durchgang)
+E 1: 720 s
+E 2: 944 s
+E 3: 1126 s
+E 4: 1301 s
+E 5: 1505 s
+Lernblatt: 1562 s
+Gesamt: 1605 s
+Lösungen: 1620 s

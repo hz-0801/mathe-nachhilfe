@@ -1,0 +1,60 @@
+10a      Skript=(3, 4)                       Blatt=(3, 4)                       OK
+10b      Skript=(5, -2)                      Blatt=(5, -2)                      OK
+10c      Skript=(-4, 1)                      Blatt=(-4, 1)                      OK
+10d      Skript=(-2, 7)                      Blatt=(-2, 7)                      OK
+10e      Skript=(0, -6)                      Blatt=(0, -6)                      OK
+11a      Skript=steigt                       Blatt=steigt                       OK
+11b      Skript=fällt                        Blatt=fällt                        OK
+11c      Skript=steigt                       Blatt=steigt                       OK
+11d      Skript=fällt                        Blatt=fällt                        OK
+11e      Skript=steigt                       Blatt=steigt                       OK
+12a-Punkt Skript=-1                           Blatt=-1                           OK
+12a      Skript=2                            Blatt=2                            OK
+12b-Punkt Skript=2                            Blatt=2                            OK
+12b      Skript=-3                           Blatt=-3                           OK
+12c-Punkt Skript=0                            Blatt=0                            OK
+12c      Skript=1                            Blatt=1                            OK
+12d-Punkt Skript=1                            Blatt=1                            OK
+12d      Skript=-2                           Blatt=-2                           OK
+13a      Skript=[1, 2, 3, 4]                 Blatt=[1, 2, 3, 4]                 OK
+13b      Skript=[-3, -1, 1, 3]               Blatt=[-3, -1, 1, 3]               OK
+13c      Skript=[-5, -2, 1, 4]               Blatt=[-5, -2, 1, 4]               OK
+14a      Skript=((0, 3), (1, 4))             Blatt=((0, 3), (1, 4))             OK
+14b      Skript=((0, 2), (1, 4))             Blatt=((0, 2), (1, 4))             OK
+14c      Skript=((0, 4), (1, 7))             Blatt=((0, 4), (1, 7))             OK
+14d      Skript=((0, 1), (1, 2))             Blatt=((0, 1), (1, 2))             OK
+15a      Skript=((0, 3), (1, 1))             Blatt=((0, 3), (1, 1))             OK
+15b      Skript=((0, 2), (2, 3))             Blatt=((0, 2), (2, 3))             OK
+15c      Skript=((0, -4), (1, -1))           Blatt=((0, -4), (1, -1))           OK
+15d      Skript=((0, -2), (3, 0))            Blatt=((0, -2), (3, 0))            OK
+16a      Skript=-1                           Blatt=-1                           OK
+16b      Skript=3                            Blatt=3                            OK
+16c      Skript=-2                           Blatt=-2                           OK
+16d      Skript=2                            Blatt=2                            OK
+16e      Skript=-1                           Blatt=-1                           OK
+16f      Skript=1/2                          Blatt=0.5                          OK
+16f-Gitter Skript=(-1, 0)                      Blatt=(-1, 0)                      OK
+17a      Skript=1                            Blatt=1                            OK
+17b      Skript=3                            Blatt=3                            OK
+17c      Skript=2                            Blatt=2                            OK
+17d      Skript=4                            Blatt=4                            OK
+17e      Skript=[True, True, True]           Blatt=[True, True, True]           OK
+17e-I    Skript=(-1/2, 2)                    Blatt=(-0.5, 2)                    OK
+17e-II   Skript=(2, -2)                      Blatt=(2, -2)                      OK
+17e-III  Skript=(0, 1)                       Blatt=(0, 1)                       OK
+18a      Skript=[1, 4, 6]                    Blatt=[1, 4, 6]                    OK
+18b      Skript=[2, 5]                       Blatt=[2, 5]                       OK
+18c      Skript=[3]                          Blatt=[3]                          OK
+18d      Skript=[(1, 4)]                     Blatt=[(1, 4)]                     OK
+18e      Skript=[5]                          Blatt=[5]                          OK
+18f      Skript=[(3, 6)]                     Blatt=[(3, 6)]                     OK
+18g      Skript=(-2, -1)                     Blatt=(-2, -1)                     OK
+19a      Skript=3.0                          Blatt=3                            OK
+19b      Skript=-2.0                         Blatt=-2                           OK
+20a      Skript=True                         Blatt=True                         OK
+20b      Skript=True                         Blatt=True                         OK
+21a      Skript=60                           Blatt=60                           OK
+21b      Skript=-4                           Blatt=-4                           OK
+21-Gitter Skript=(40, 20, 15)                 Blatt=(40, 20, 15)                 OK
+21c      Skript=(-4, 60)                     Blatt=(-4, 60)                     OK
+Abweichungen: 0
