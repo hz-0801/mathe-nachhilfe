@@ -1,0 +1,49 @@
+14a	Skript: 3.0	Blatt: 3	OK
+14b	Skript: 6.0	Blatt: 6	OK
+14c	Skript: 9.0	Blatt: 9	OK
+14d	Skript: 2.0	Blatt: 2	OK
+14e	Skript: 4.5	Blatt: 4.5	OK
+14f mm	Skript: 8	Blatt: 8	OK
+15a	Skript: 10.0	Blatt: 10	OK
+15b Summe	Skript: 100	Blatt: 100	OK
+15c zu Fuss	Skript: 25	Blatt: 25	OK
+15d Summe	Skript: 100	Blatt: 100	OK
+15d Wasser cm	Skript: 0.5	Blatt: 0.5	OK
+16a	Skript: 180.0	Blatt: 180	OK
+16b	Skript: 90.0	Blatt: 90	OK
+16c	Skript: 36.0	Blatt: 36	OK
+16d	Skript: 270.0	Blatt: 270	OK
+16e	Skript: 54.0	Blatt: 54	OK
+16f	Skript: 18.0	Blatt: 18	OK
+16g	Skript: 135.0	Blatt: 135	OK
+16h	Skript: 81.0	Blatt: 81	OK
+16i	Skript: 12.6	Blatt: 12.6	OK
+16j	Skript: 138.5	Blatt: 138.5	OK
+17c	Skript: 144.0	Blatt: 144	OK
+18a	Skript: [180.0, 90.0, 90.0]	Blatt: [180, 90, 90]	OK
+18b	Skript: [198.0, 108.0, 54.0]	Blatt: [198, 108, 54]	OK
+18c	Skript: [180.0, 120.0, 60.0]	Blatt: [180, 120, 60]	OK
+19a	Skript: 0.5	Blatt: 0.5	OK
+19b	Skript: 0.25	Blatt: 0.25	OK
+19c	Skript: 0.3333333333333333	Blatt: 0.3333333333333333	OK
+19d	Skript: 0.16666666666666666	Blatt: 0.16666666666666666	OK
+19e	Skript: 40.0	Blatt: 40	OK
+21d Summe	Skript: 490	Blatt: 490	OK
+21d Winkel	Skript: 12.5	Blatt: 12.5	OK
+22a richtig	Skript: 72.0	Blatt: 72	OK
+22a falsch	Skript: 20	Blatt: 20	OK
+22b richtig	Skript: 54.0	Blatt: 54	OK
+22b falsch	Skript: 60.0	Blatt: 60	OK
+23a	Skript: 3.6	Blatt: 3.6	OK
+23b Summe	Skript: 110	Blatt: 110	OK
+24 Summe	Skript: 240	Blatt: 240	OK
+24a Kletterpark %	Skript: 40.0	Blatt: 40	OK
+24a Kletterpark °	Skript: 144.0	Blatt: 144	OK
+24a Zoo %	Skript: 25.0	Blatt: 25	OK
+24a Zoo °	Skript: 90.0	Blatt: 90	OK
+24a Schwimmbad %	Skript: 21.25	Blatt: 21.25	OK
+24a Schwimmbad °	Skript: 76.5	Blatt: 76.5	OK
+24a Museum %	Skript: 13.75	Blatt: 13.75	OK
+24a Museum °	Skript: 49.5	Blatt: 49.5	OK
+24c Ziele >= 25 %	Skript: ['Kletterpark', 'Zoo']	Blatt: ['Kletterpark', 'Zoo']	OK
+Abweichungen: 0

@@ -1,0 +1,43 @@
+26a	Skript: True	Blatt: True	OK
+26b	Skript: False	Blatt: False	OK
+26c	Skript: True	Blatt: True	OK
+26d 50 Besucher	Skript: False	Blatt: False	OK
+26e	Skript: True	Blatt: True	OK
+26f	Skript: False	Blatt: False	OK
+27 Summe	Skript: 180	Blatt: 180	OK
+27a	Skript: False	Blatt: False	OK
+27b	Skript: True	Blatt: True	OK
+27c	Skript: True	Blatt: True	OK
+27d	Skript: False	Blatt: False	OK
+27d Anteil	Skript: 6.7	Blatt: 6.7	OK
+27f	Skript: False	Blatt: False	OK
+28a Höhe über 400	Skript: 2.0	Blatt: 2	OK
+28b	Skript: 4.8	Blatt: 4.8	OK
+29c	Skript: 33.3	Blatt: 33.3	OK
+30a Rückgänge	Skript: [80, 80, 80, 80, 40]	Blatt: [80, 80, 80, 80, 40]	OK
+30b mit -80	Skript: 0	Blatt: 0	OK
+30b mit -40	Skript: 80	Blatt: 80	OK
+31a jedes Jahr weniger	Skript: False	Blatt: False	OK
+31a Mio. über 90 (2019/2024)	Skript: [32, 6]	Blatt: [32, 6]	OK
+31a mehr als fünfmal	Skript: True	Blatt: True	OK
+31a Rückgang %	Skript: 21.0	Blatt: 21	OK
+32a	Skript: 260	Blatt: 260	OK
+32b	Skript: 450	Blatt: 450	OK
+32c	Skript: 340	Blatt: 340	OK
+32d	Skript: [310, 380]	Blatt: [310, 380]	OK
+32e	Skript: 190	Blatt: 190	OK
+32f	Skript: 75	Blatt: 75	OK
+33a	Skript: [3, 6, 9, 12, 18]	Blatt: [3, 6, 9, 12, 18]	OK
+33b	Skript: [4, 6.5, 10.0, 13.0, 17]	Blatt: [4, 6.5, 10, 13, 17]	OK
+33c	Skript: [5, 8.5, 11.5, 14.5, 19]	Blatt: [5, 8.5, 11.5, 14.5, 19]	OK
+34a Mediane	Skript: [13, 12]	Blatt: [13, 12]	OK
+34b Spannweiten	Skript: [13, 7]	Blatt: [13, 7]	OK
+34c Boxbreiten	Skript: [5, 3]	Blatt: [5, 3]	OK
+35a	Skript: 3.0	Blatt: 3	OK
+35a mehr %	Skript: 11.8	Blatt: 11.8	OK
+35b Spannweite	Skript: 29	Blatt: 29	OK
+35b Box	Skript: 15	Blatt: 15	OK
+37a A	Skript: [30, 3.1]	Blatt: [30, 3.1]	OK
+37a B	Skript: [40, 10.0]	Blatt: [40, 10]	OK
+37b Höhen über 950	Skript: 4.0	Blatt: 4	OK
+Abweichungen: 0

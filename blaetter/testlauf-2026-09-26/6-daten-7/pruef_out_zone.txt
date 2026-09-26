@@ -1,0 +1,44 @@
+1a	Skript: 30.0	Blatt: 30	OK
+1b	Skript: 25.0	Blatt: 25	OK
+1c	Skript: 45.0	Blatt: 45	OK
+1d	Skript: 87.5	Blatt: 87.5	OK
+1e	Skript: 41.7	Blatt: 41.7	OK
+2a	Skript: 0.5	Blatt: 0.5	OK
+2b	Skript: 0.25	Blatt: 0.25	OK
+2c	Skript: 0.125	Blatt: 0.125	OK
+2d	Skript: 0.05	Blatt: 0.05	OK
+3a	Skript: 8	Blatt: 8	OK
+3b	Skript: 20	Blatt: 20	OK
+3c Bruch	Skript: 0.4	Blatt: 0.4	OK
+3c %	Skript: 40.0	Blatt: 40	OK
+3d	Skript: 3.5	Blatt: 3.5	OK
+3e Bruch	Skript: 0.25	Blatt: 0.25	OK
+3e %	Skript: 25.0	Blatt: 25	OK
+4a	Skript: 4	Blatt: 4	OK
+4b	Skript: 3	Blatt: 3	OK
+4c	Skript: 2.75	Blatt: 2.75	OK
+4d	Skript: 3500.0	Blatt: 3500	OK
+5a	Skript: 0.5	Blatt: 0.5	OK
+5b	Skript: 0.25	Blatt: 0.25	OK
+5c	Skript: 0.3333333333333333	Blatt: 0.3333333333333333	OK
+5d	Skript: 0.125	Blatt: 0.125	OK
+5e	Skript: 72.0	Blatt: 72	OK
+7a	Skript: 30	Blatt: 30	OK
+7b	Skript: 5.0	Blatt: 5	OK
+7c	Skript: 45.0	Blatt: 45	OK
+7d	Skript: 0.7	Blatt: 0.7	OK
+7f	Skript: 35.0	Blatt: 35	OK
+8a	Skript: 7	Blatt: 7	OK
+8b	Skript: 15	Blatt: 15	OK
+8c	Skript: 8	Blatt: 8	OK
+8d	Skript: 11	Blatt: 11	OK
+8e	Skript: 7.0	Blatt: 7	OK
+9a	Skript: 40.0	Blatt: 40	OK
+9b	Skript: 70	Blatt: 70	OK
+9c	Skript: 100.0	Blatt: 100	OK
+9d	Skript: 160	Blatt: 160	OK
+9e	Skript: 150	Blatt: 150	OK
+10 richtig	Skript: 40.0	Blatt: 40	OK
+11a	Skript: 35.0	Blatt: 35	OK
+11b	Skript: 30.0	Blatt: 30	OK
+Abweichungen: 0

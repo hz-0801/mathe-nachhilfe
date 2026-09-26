@@ -14,8 +14,8 @@ Katalog: live von raw.githubusercontent.com (origin/main 68a6401; lokal ein Comm
 3 prozent-7-schwach · fertig · Anläufe 1 · Start 20:30 · Ende 20:57 · Aufrufe laut protokoll.txt 107, Umgebung 109
 4 linfkt-8-neu · fertig · Anläufe 1 · Start 20:57 · Ende 21:27 · Aufrufe laut protokoll.txt 119, Umgebung 120
 5 kreis-8-ausblick · fertig · Anläufe 1 · Start 21:27 · Ende 21:54 · Aufrufe laut protokoll.txt 95, Umgebung 97 · Sitzung legte zwei leere Dateien in der Repo-Wurzel an (Kreis_KennstDuSchon.tex, zone_a.tex, 21:39:58) – in den Scratchpad verschoben
-6 daten-7 · läuft · Anläufe 1 · Start 21:54
-7 nullstellen-fokus · wartet · Anläufe 0
+6 daten-7 · fertig · Anläufe 1 · Start 21:54 · Ende 22:17 · Aufrufe laut protokoll.txt 55, Umgebung 58
+7 nullstellen-fokus · läuft · Anläufe 1 · Start 22:17
 8 potenz-10 · wartet · Anläufe 0
 9 kurven-12-be · wartet · Anläufe 0
 10 ka-terme-8-gym · wartet · Anläufe 0

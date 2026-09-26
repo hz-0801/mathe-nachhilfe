@@ -1,0 +1,32 @@
+Now update pruef.py labels/values for the renumbered part.
+
+→ Lernblatt · Kl. 7, Standpunkt Oberschule (Gymnasium als Zusatz) · Sek I: Einheit 6 und die Sek-II-Zeilen weggelassen · mit Wiederholung, ohne Ausblick (das Register führt daten seit 22.09.): Einheit 7 Vierfeldertafel (Kl. 9) nicht gebaut · Einheit 1, 2 und 4 (Marke vor Kl. 7) als Fertigkeiten in der Zone · 2 Zweige · Zone aus 9 Fertigkeiten und dem Fehler-finden-Paar (Nr. 1–11)
+Einheit 1 von 2 · Streifen- und Kreisdiagramm: Hier lernst du, Anteile als Streifen und als Kreisdiagramm darzustellen · neu oder schon bekannt – je nach Buch (am Gymnasium schon seit Klasse 6) · P10 oft · baut auf: Prozentsatz (Nr. 1–2), relative Häufigkeit (Nr. 3), Winkel (Nr. 5–6), Längen (Nr. 7)
+Einheit 2 von 2 · Diagramme beurteilen und Boxplot: Hier lernst du, Aussagen zu Diagrammen zu prüfen, Täuschungen zu erkennen und Boxplots zu lesen · neu oder schon bekannt – je nach Buch (am Gymnasium neu in diesem Jahr) · P10 · baut auf: Säulendiagramme lesen (Nr. 4), Kenngrößen (Nr. 8), Bruchteile (Nr. 9), Prozentsatz (Nr. 1)
+Planfrage: keine. Die Klasse 7 legt die Stufe fest (Sek I), und der Plan hat weniger als vier Zweige. Die Antwort aus der Eingabe („sek i, alle“) deckt sich mit dem Plan.
+
+Daten_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 2, Gesamt und Lösungen.
+
+Daten_Lernblatt.pdf
+Daten_Gesamt.pdf
+Daten_Loesungen.pdf
+Daten_2026-09-26_protokoll.zip
+
+Zeitachse Kl. 7 (Standpunkt Oberschule): Einheit 1, 2 und 4 liegen mit ihrer Marke vor Kl. 7. Sie stehen nur mit ihrem Grundfall in der Zone (Nr. 3, 4, 8); ihre übrigen Typen (u. a. Klassen bilden und auszählen [OS 8–9], Achseneinteilung aus einer Säule, arithmetisches Mittel, fehlender Wert aus dem Mittel) stehen nicht auf dem Blatt.
+Weggelassen: Einheit 6 und die Sek-II-Zeilen der Einheiten 1 und 4 (Sek I). Einheit 7 Vierfeldertafel (Kl. 9) ist nicht gebaut, weil das Register daten schon führt und damit kein Ausblick bestellt ist.
+Keine Planfrage: Kl. 7 legt die Stufe fest, der Plan hat zwei Zweige; die Antwort „sek i, alle“ deckt sich damit.
+Zwischensprossen: Streifen ohne Teilstriche (Nr. 14 e–f), Anteil als Bruch zum Winkel (Nr. 16 g), fast gleich große Sektoren (Nr. 21 a).
+Höhe nach Lehrwerk: Boxplot (Nr. 32–34) hat kein P10-Original; Decke ist „zwei Boxplots vergleichen und beurteilen“. Nr. 14 und 16–19 enden auf ihrer höchsten Sprosse; die Originale stehen in Nr. 15 d, 21 b, 26 f, 27 f und 31 a.
+Reihenfolge: Boxplot steht als eigenes Verfahren nach dem Original 2019-OS-K5c (Nr. 31), nicht wie in der Kette davor.
+Geteilte Hauptnummern: 20/21 (Sektoren zuordnen), 30/31 (Trend und Zeitungsdiagramm).
+Keine im Vorspann definierten Bausteine, keine vereinfachten Grafiken; Zeiten gemessen.
+Katalog: Gebraucht wurden Lerneinheiten, Marken, Typen je Einheit, Voraussetzungen (Fertigkeiten und Erkennungsschritte), Sprossen, Typische Fehler und Prüfungsform (P10) mit Zielmarke. Der Merkkasten diente nur als Sperre. Nicht gebraucht wurden Verortung, Prüfungsform fhr/abi/iqb und die Sek-II-Teile.
+Befund Katalog: Der Erkennungsschritt „Wo fängt die Achse an?“ verlangt mit „sonst den Startwert notieren“ eine Zahl. Umgesetzt ist er als „umkreise den Startwert“ (Nr. 25).
+Befund Katalog: Die Kette der Einheit 5 stellt „Boxplot lesen (Vorrat)“ vor die Prüfungshöhe 2019-OS-K5c, die aber Verlauf und Achse prüft. Boxplot braucht eine eigene Kette mit eigener Decke. „Gedehnte Achse“ steht in keiner Kette und hat kein Original.
+Befund Katalog: „Addieren und Dividieren mit Dezimalzahlen und Runden“ trägt nur „– Einheit 4“, „Zahlen ordnen, Skalen ablesen“ nur „– Einheit 2 und 4“. Gebraucht werden beide auch in Einheit 3 (Winkel runden) und 5 (Skala, Boxplot); hier sind sie in Nr. 1 e und Nr. 4 und 8 aufgefangen.
+Spannen: Einheit 3 (OS Kl. 6–7) und Einheit 5 (OS Kl. 6–9) enthalten Kl. 7, deshalb „neu oder schon bekannt – je nach Buch“; beide stehen auf dem Blatt. Einheit 4 (GYM Kl. 6–7) wäre am Gymnasium ebenfalls ein Zweig; am Standpunkt Oberschule (OS Kl. 6) liegt sie in der Zone.
+Typklammern: Kreisdiagramm [OS 6] → „kennst du wahrscheinlich seit Klasse 6“, Trend [OS 9] → „kommt in Klasse 9“, Boxplot lesen [OS 8–9] → „kommt in Klasse 8, je nach Buch bis Kl. 9“.
+Protokoll-Archiv: Daten_2026-09-26_protokoll.zip
+
+(Für den Testlauf: Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\6-daten-7. pruef.py zeigt in allen drei Läufen 0 Abweichungen; die übergebenen Kompilate haben kein Overfull und keine mathblatt-Warnung. zeiten.txt: Zone 706 s, Weiter 809 s (Übergang, kein Klick), E 1 928 s, E 2 1095 s, Lernblatt 1104 s, Gesamt 1113 s, Lösungen 1115 s. Korrekturrunden: 12 von 55 Schritten. Das Gesamt hat 18 Seiten mit den Nummern 1–37, die Lösungen haben 2 Seiten. Kleinigkeit: In der Datei Daten_KennstDuSchon.pdf steht „Kennst du schon“ doppelt in der Kopfzeile, weil der Zonenkopf seine Kurzform zusätzlich zu \blattkopf setzt.)
