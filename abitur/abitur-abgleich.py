@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """abitur-abgleich.py – Abgleichlauf über die gemeinsame Typenliste der Profile abi und iqb (Kern § 9).
-Version 0.26 · 28.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
+Version 0.27 · 29.09.2026 · gilt mit abitur-vokabular.md v1.6, abi-bau.py v0.14 und iqb-bau.py v1.9 (Spalte dateidublette_von in iqb-quellen.csv, Auftrag E Punkt 4; Lauf 9 liest sie unter dem neuen Namen)
 (bis Lauf 11 als iqb-abgleich.py nur für das Profil iqb; bis 17.09.2026 abgleich.py – Auftrag F Punkt 2, Familienname wie abitur-typen.csv)
+0.27 (Auftrag Nacht 2026-09-29, Teil 2 Punkt 2): Lauf 26; keine Regel eines früheren Laufs geändert.
 0.26 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 4): Lauf 25; keine Regel eines früheren Laufs geändert.
 0.25 (Auftrag Nacht 2026-09-27, Teil 10 Punkt 4): Lauf 24; Versionsbindung auf abi-bau.py v0.14 (stand auf v0.12).
 0.24 (Auftrag G, Punkt 1 und 2): eigener Name im Kopf und im Aufrufbeispiel, befund-abi-iqb-typen.md statt abi-iqb-typen.md; Versionsbindung auf den geltenden Stand (stand auf abitur-vokabular.md v1.5, abi-bau.py v0.10, iqb-bau.py v1.7); keine Regel und kein Lauf geändert.
@@ -147,6 +148,11 @@ der 53 neuen Typen beider Stapel: vier Zusammenziehungen (Extremstelle einer
 Stammfunktion über den Vorzeichenwechsel; zwei linear eingehende Parameter aus
 zwei Punkten; Volumen eines Körpers mit konstantem Querschnitt; Abbildung
 zwischen zwei Graphen), neun Umbenennungen; 1398 → 1393.
+Lauf 26 (29.09.2026, Deutungsliste (f), beschluss-2026-09-26.md Punkt 2):
+Feldkorrektur niveau_geschaetzt in sechs Zeilen – fünf Poolzeilen „Mindestanzahl
+oder Mindestumfang für eine Mindestwahrscheinlichkeit“ von II auf III (amtlich
+III), die wortgleiche Landeszeile 2024-bebb-lk-B4c zieht nach; Typen unverändert
+(1393).
 """
 import csv, io, os, re, sys, collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -1875,6 +1881,48 @@ def zeile_25(d):
     return war
 
 
+# Lauf 26 (29.09.2026, Auftrag Nacht 2026-09-29 Teil 2; beschluss-2026-09-26.md Punkt 2):
+# Deutungsliste Eintrag (f) „Mindestanzahl oder Mindestumfang für eine Mindestwahrscheinlichkeit
+# bestimmen = III" (iqb.md v1.17 § 7). Bestandsprüfung: sechs Poolzeilen, auf die (f) zutrifft,
+# alle amtlich III; fünf davon geschätzt II – sie werden auf III gesetzt. Die wortgleiche
+# Landeszeile 2024-bebb-lk-B4c trägt die Schätzung ihrer Poolzeile (II) und zieht nach.
+# Abbruch, wenn eine Zeile fehlt, schon III trägt, einen Vermerk „Schätzung enge Fassung" hat
+# oder ihr amtlicher Bereich nicht III ist.
+KORREKTUR_26 = {  # id → Zielwert
+    "2017MgrundlegendBStochastikWTR1-2e": "III", "2017MgrundlegendBStochastikWTR2-1c": "III",
+    "2017MerhoehtBStochastikCAS1-4": "III", "2018MerhoehtBStochastikWTR1-1b": "III",
+    "2024MerhoehtBStochastikWTR1-1c": "III",
+    "2024-bebb-lk-B4c": "III",
+}
+F_SATZ_26 = ("Schätzung nach Deutungsliste (f) korrigiert (Lauf 26, iqb.md v1.17 § 7, Beschluss vom 26.09.2026 "
+             "Punkt 2): {neu} statt {alt} – Mindestanzahl oder Mindestumfang für eine Mindestwahrscheinlichkeit "
+             "bestimmen ist III (im Pool alle Fälle amtlich III).")
+_PROTOKOLL_26 = []
+
+
+def zeile_26(d):
+    if d["id"] not in KORREKTUR_26:
+        return False
+    neu, alt = KORREKTUR_26[d["id"]], d["niveau_geschaetzt"]
+    if alt == neu or ENG_20.search(d["bemerkung"]):
+        sys.exit(f"{d['id']}: Schätzung schon {alt} oder Vermerk enge Fassung vorhanden – Abbruch")
+    pool = poolzeilen_15()
+    if d["id"] in pool:
+        if amtlich_20(d) != neu:
+            sys.exit(f"{d['id']}: amtlicher Bereich {amtlich_20(d)}, nicht {neu} – Abbruch")
+        d["bemerkung"] += " " + F_SATZ_26.format(neu=neu, alt=alt)
+    else:  # Landeszeile: wortgleiche Dublette, zieht mit ihrer Poolzeile nach
+        m = re.match(r"Dublette von: ([A-Za-z0-9-]+)\.", d["bemerkung"])
+        q = pool.get(m.group(1)) if m else None
+        if q is None or m.group(1) not in KORREKTUR_26 or amtlich_20(q) != neu:
+            sys.exit(f"{d['id']}: keine Dublette einer Zeile dieses Laufs oder Zielwert {neu} nicht amtlich – Abbruch")
+        d["bemerkung"] += (f" Schätzung mit der Poolzeile nach Deutungsliste (f) nachgezogen (Lauf 26, iqb.md v1.17 "
+                           f"§ 7): {neu} statt {alt}.")
+    d["niveau_geschaetzt"] = neu
+    _PROTOKOLL_26.append((d["id"], alt, neu))
+    return True
+
+
 LAEUFE = {
     1: (PRAEFIX_1, ZUSAMMEN_1, NEUE_DEFINITION_1, NEUES_THEMA_1),
     2: ({}, ZUSAMMEN_2, NEUE_DEFINITION_2, {}),
@@ -1901,11 +1949,12 @@ LAEUFE = {
     23: ({}, {}, {}, {}),
     24: ({}, ZUSAMMEN_24, NEUE_DEFINITION_24, {}),
     25: ({}, ZUSAMMEN_25, NEUE_DEFINITION_25, {}),
+    26: ({}, {}, {}, {}),
 }
 FELDKORREKTUR = {5: [("bemerkung", bemerkung_5)], 7: [("*", zeile_7)], 12: [("*", zeile_12)],
                  13: [("*", zeile_13)], 14: [("*", zeile_14)], 15: [("*", zeile_15)], 16: [("*", zeile_16)],
                  18: [("*", zeile_18)], 20: [("*", zeile_20)], 22: [("*", zeile_22)],
-                 23: [("*", zeile_23)], 24: [("*", pruefe_24)], 25: [("*", zeile_25)]}
+                 23: [("*", zeile_23)], 24: [("*", pruefe_24)], 25: [("*", zeile_25)], 26: [("*", zeile_26)]}
 STREICHEN = {9: streiche_9}  # Lauf → fn(Zeile als dict) → True: Zeile entfällt
 LAUF = int(sys.argv[1]) if len(sys.argv) > 1 else max(LAEUFE)
 PRAEFIX, ZUSAMMEN, NEUE_DEFINITION, NEUES_THEMA = LAEUFE[LAUF]
@@ -2056,6 +2105,13 @@ def main():
         rest = [r[kopf_k.index("id")] for _, kopf_k, kat in kataloge for r in kat
                 if r[kopf_k.index("bemerkung")].startswith("Poolaufgabe (nicht erfasst")]
         print("  offen bleibende Vermerke:", ", ".join(rest) if rest else "keine")
+    if LAUF == 26:
+        fehlt = sorted(set(KORREKTUR_26) - {i for i, _, _ in _PROTOKOLL_26})
+        if fehlt:
+            sys.exit(f"Lauf 26: Zeilen nicht gefunden: {fehlt}")
+        print(f"\nSchätzungen nach Deutungsliste (f) gesetzt ({len(_PROTOKOLL_26)} Zeilen):")
+        for i, alt, neu in _PROTOKOLL_26:
+            print(f"  {i}: {alt} → {neu}")
     if LAUF == 25:
         if len(_PROTOKOLL_25) != HOECHSTENS_25:
             sys.exit(f"Lauf 25: {len(_PROTOKOLL_25)} statt {HOECHSTENS_25} Zeilen angefasst")

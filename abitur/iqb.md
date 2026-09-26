@@ -1,5 +1,6 @@
 # PROFIL IQB – Gemeinsame Abituraufgabenpools der Länder, Mathematik
-Version 1.16 · 28.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Version 1.17 · 29.09.2026 · Kennung iqb · gilt mit Kern v0.9 (Schema-Version 2)
+Änderungen gegenüber 1.16 (Auftrag Nacht 2026-09-29, Teil 2; beschluss-2026-09-26.md Punkt 2): § 7 Deutungsliste um Eintrag (f) erweitert – „Mindestanzahl oder Mindestumfang für eine Mindestwahrscheinlichkeit bestimmen = III" (Belege: die fünf Poolfälle aus iqb-pruefungen.md § 4, alle amtlich III; die Bestandsprüfung fand einen sechsten, 2017-ea-B CAS Stochastik 1 Aufgabe 4, ebenfalls III). Der Kandidat „vom Text verlangte Fallunterscheidung ist amtlich II" ist nicht aufgenommen, bis er Belegzahlen hat. Fünf Poolschätzungen und eine wortgleiche Landeszeile per abitur-abgleich.py Lauf 26 auf III gesetzt (Grund in bemerkung); Eichung über den Bestand 1526 → 1531 von 1638. Keine Schwelle geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.15 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 2): § 1 Bestand nachgezogen – Delta-Stapel 2017-ea-B (CAS, 55 Zeilen) wegen der Landesheftverweise aus 2017-bb-ea-cas B3.1 geöffnet (keine Dateidublette, alle sechs CAS-Dateien, Abbruchkriterium unberührt); Stand 1639 Zeilen in 41 Stapeln, 1398 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.14 (Auftrag Nacht 2026-09-28, Teil 2 Punkt 1): § 1 Bestand nachgezogen – Reserve-Stapel 2017-ea-B (WTR, 82 Zeilen) wegen der Landesheftverweise aus 2017-bb-ea-cas B3.1 geöffnet (WTR-Zweig vor dem CAS-Delta, Abbruchkriterium unberührt); Stand 1584 Zeilen in 40 Stapeln, 1385 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
 Änderungen gegenüber 1.13 (Auftrag Nacht 2026-09-27, Teil 10): § 1 Bestand nachgezogen – Reserve-Stapel 2017-ga-A (20 Zeilen) und 2017-ga-B (WTR, 39 Zeilen) wegen Landesheftverweisen des Hefts 2017-be-gk geöffnet (Abbruchkriterium unberührt); Stand 1502 Zeilen in 39 Stapeln, 1344 Typen. Keine Regel geändert; die Bindung iqb.md v1.13 im Kopf von iqb-bau.py v1.9 bleibt sachlich gültig.
@@ -567,7 +568,7 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   eine Bedingung erst gefunden, eine Symmetrie erst erkannt. Was der Text
   wörtlich vorgibt oder was sich als Identität mit mitgeführtem Parameter
   nachrechnen lässt, ist Routine und bleibt II. Deutungsliste (Stand v0.6,
-  13.09.2026): (a) eine Bedingung aus dem Sachverhalt oder der Geometrie
+  13.09.2026; (f) seit v1.17, 29.09.2026): (a) eine Bedingung aus dem Sachverhalt oder der Geometrie
   erst in eine Gleichung übersetzen (Flächenhalbierung als Integral gleich
   null, Abstand zum Spiegelbild als doppelter Abstand zur Ebene, mittlere
   Änderungsrate als Steigung der Sekante, Diagonalenschnittpunkt als
@@ -589,7 +590,19 @@ Thema wählen, „ersatzweise" in bemerkung, Entscheidung nach mehreren Stapeln
   (Extrempunkte von F aus dem Vorzeichen von f, Nullstellen einer
   Integralfunktion als Flächenbilanz; ergänzt nach 2024-ea-A) – nicht das
   Zuordnen von Graph und Ableitungsgraph über Nullstellen und Extremstellen,
-  das ist II. Das Prinzip schärft (a), (b) und (d) um die jeweils genannte
+  das ist II; (f) Mindestanzahl oder Mindestumfang für eine
+  Mindestwahrscheinlichkeit bestimmen = III (kleinstes n, für das mindestens
+  ein Treffer oder mehr als k Treffer mit mindestens p eintreten – über das
+  Gegenereignis mit Ungleichung für n oder durch Probieren an kumulierten
+  Werten; gesetzt 29.09.2026, Beschluss vom 26.09.2026: im Pool fünf von fünf
+  Fällen amtlich III – 2017-ga-B Stochastik WTR 1 2 e und WTR 2 1 c,
+  2018-ea-B Stochastik WTR 1 1 b, 2019-ga-B Stochastik WTR 1 1 b, 2024-ea-B
+  Stochastik WTR 1 1 c, iqb-pruefungen.md § 4; die Bestandsprüfung dazu fand
+  als sechsten 2017-ea-B Stochastik CAS 1 Aufgabe 4, ebenfalls III; nicht
+  gemeint ist eine Mindestanzahl aus einer Erwartungswertbedingung n · p > c,
+  amtlich II). Nicht aufgenommen, bis er Belegzahlen hat: „vom Text verlangte
+  Fallunterscheidung ist amtlich II" (Kandidat aus 2018-ea-B CAS). Das Prinzip
+  schärft (a), (b) und (d) um die jeweils genannte
   Ausnahme; (c) trug es schon. Gestrichen nach
   2024-ga-A: „faires Spiel als Erwartungswert gleich Einsatz" (in drei
   Fällen zweimal amtlich II) und „eine Aussage beurteilen" (feuert auch bei
