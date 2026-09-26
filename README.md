@@ -96,6 +96,7 @@ Profil iqb:
 - `iqb-pruefungen.md` – nächster Stapel, Reserven, Kennzahlen, Befunde, Änderungslog.
 - `iqb-katalog.csv` – der Katalog; nie von Hand ändern.
 - `iqb-bau.py` – Stapel erfassen oder Bestand prüfen.
+- `arbeitsstand/2018-ea-B-cas/` – Arbeitsstand des nicht erfassten Delta-Stapels 2018-ea-B (CAS) (Auftrag Nacht 2026-09-28: Eichschranke gerissen, iqb-pruefungen.md § 4): blinde und geprüfte Schätzungen, Typwahl je Zeile, Landesheftabgleich, `eichung.py` (aus `abitur/` starten, schreibt nichts). Öffnen für einen Wiederanlauf nach der Entscheidung des Lehrers.
 
 Gemeinsam:
 - `abitur-vokabular.md` – Themen, Gegenstandsklassen, Regel Zeilenthema = Typthema; Änderungen an Themen und Klassen nur hier.
