@@ -106,6 +106,7 @@ Lesezettel und wiederholen die folgenden.
     genannt (Eingabe 5, 8 tun es schon); CSV-Erwartung war falsch.
 26. Bestellwort „mit übersicht": legt das Übersichtsblatt des
     Themas (Beschluss 2) neben das Blatt; „mit beispiel" (Punkt 8).
+    Nachtrag 26.09.: vertagt, siehe beschluss-2026-09-26.md Punkt 1
 
 ## Vorlage (Stufe 6, blattbau)
 
@@ -182,6 +183,7 @@ Lesezettel und wiederholen die folgenden.
    der Schüler sie sieht, entscheidet der Lehrer. Bestellwort
    „mit übersicht". Prüfstein: quadratische Funktionen
    (Objektthema) und Prozentrechnung (Verfahrensthema).
+   Nachtrag 26.09.: vertagt, siehe beschluss-2026-09-26.md Punkt 1
 3. „Das kennst du schon" bleibt der Name der Zone; „Blatt 0" ist
    Werkstattwort. Nummern laufen durch.
 4. Klammer auflösen und zusammenfassen bleiben eine Zonenaufgabe
