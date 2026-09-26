@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+\newcommand{\flaechenbild}[8]{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[thick] (0,0) rectangle (4.5,-4.5);
+\draw (3,0) -- (3,-4.5);
+\draw (0,-3) -- (4.5,-3);
+\node at (1.5,0.3) {$#1$};
+\node at (3.75,0.3) {$#2$};
+\node at (-0.35,-1.5) {$#3$};
+\node at (-0.35,-3.75) {$#4$};
+\node at (1.5,-1.5) {$#5$};
+\node at (3.75,-1.5) {$#6$};
+\node at (1.5,-3.75) {$#7$};
+\node at (3.75,-3.75) {$#8$};
+\end{tikzpicture}}
+\begin{document}
+\blattkopf{Terme und binomische Formeln}{Test}
+\weit
+\einheitenkopf[e1][1 Klammern auflösen]{Einheit 1 von 5 · Klammern auflösen}
+\zweigzeile{Hier lernst du, Klammern aufzulösen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Terme zusammenfassen}
+\setcounter{aufgabe}{9}
+\begin{aufgabe}{Ich kann Klammern auflösen (neu in diesem Jahr).}
+\anweisung{Löse die Klammer auf.}
+\rechenplatz{2}
+\begin{gleichungsraster}[1]
+\gl{x + (y + 4)} & \gl{3x + (y - 2)} \\
+\gl{3\cdot(x + 5)} & \gl{-3\cdot(x - 4)} \\
+\end{gleichungsraster}
+\end{aufgabe}
+\begin{aufgabe}{Ich erkenne, was vor einer Klammer steht.}
+Kreuze an, was vor der Klammer steht.
+\begin{teile}
+\teil $5 + (x - 2)$ \hfill \kreuz{Plus}\kreuz{Minus}\kreuz{Zahl}
+\teil $2x - 4\cdot(x - 3)$ \hfill \kreuz{Plus}\kreuz{Minus}\kreuz{Zahl}
+\end{teile}
+\end{aufgabe}
+\begin{aufgabe}{Ich kann eine Sachaufgabe lösen.}
+Ein Garten ist $(x + 6)$\,m lang.
+
+\rechteck[seiten={x+6,x,,},punkte=]{4}{2.5}
+
+\flaechenbild{x}{3}{x}{2}{x^2}{}{}{}
+
+\begin{teile}
+\teil Stelle einen Term auf.
+\teil Wie viel?
+\end{teile}
+\end{aufgabe}
+\begin{aufgabe}{Ich finde den Fehler.}
+\begin{teile}
+\teil Ben rechnet: \rechnung{9x - (4x - 6) &= 9x - 4x - 6 \\ &= 5x - 6}
+\teil $(y+9)^2 = $\\ \kreuz{$y^2 + 81$}\\ \kreuz{$y^2 + 18y + 81$}
+\teil $6x + 10$ \hfill \janein
+\end{teile}
+\begin{teilezwei}
+\tz $2x + y$ für $x = 3$ und $y = 4$ \leerfeld & \tz $21^2$ \leerfeld \\
+\tz $(x+9)^2$: \feld{a} \feld{b} & \tz $4$ \\
+\end{teilezwei}
+\end{aufgabe}
+\erg{12}{a) $x + y + 4$ \quad b) $3x + y - 2$}
+\begin{abhakseite}
+\abhakgruppe{Einheit 1 · Klammern auflösen}
+\abhakgruppe{\itshape Plus oder Minus}
+\abhak{10}{Ich kann Klammern auflösen (neu in diesem Jahr).}
+\end{abhakseite}
+\end{document}

@@ -18,4 +18,4 @@ Katalog: live von raw.githubusercontent.com (origin/main 68a6401; lokal ein Comm
 7 nullstellen-fokus · fertig · Anläufe 1 · Start 22:17 · Ende 22:29 · Aufrufe laut protokoll.txt 37, Umgebung 39
 8 potenz-10 · fertig · Anläufe 1 · Start 22:29 · Ende 22:59 · Aufrufe laut protokoll.txt 87, Umgebung 88
 9 kurven-12-be · fertig · Anläufe 1 · Start 22:59 · Ende 23:33 · Aufrufe laut protokoll.txt 80, Umgebung 82
-10 ka-terme-8-gym · läuft · Anläufe 1 · Start 23:33
+10 ka-terme-8-gym · fertig · Anläufe 1 · Start 23:33 · Ende 00:00 (27.09.) · Aufrufe laut protokoll.txt 80, Umgebung 81

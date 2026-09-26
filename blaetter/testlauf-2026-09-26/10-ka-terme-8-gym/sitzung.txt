@@ -1,0 +1,30 @@
+Now the rendered pages of unit 4.
+
+→ Lernblatt · Einträge terme.md und binomische-formeln.md · mit Wiederholung · mit Ausblick: kein Zweig nach Kl. 8 · 5 Zweige · Terme Einheit 1 und 2 (GYM Kl. 6–7) in der Zone · Zone aus 7 Fertigkeiten und dem Fehler-finden-Paar
+Einheit 1 von 5 · Klammern auflösen: Hier lernst du, Klammern in Termen aufzulösen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Glieder zusammenfassen, Rechnen mit Vorzeichen
+Einheit 2 von 5 · Ausklammern: Hier lernst du, einen gemeinsamen Faktor auszuklammern · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Klammern auflösen (Einheit 1)
+Einheit 3 von 5 · Summe mal Summe: Hier lernst du, Terme mit zwei Variablen umzuformen und zwei Klammern miteinander malzunehmen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Klammern auflösen (Einheit 1), Terme malnehmen
+Einheit 4 von 5 · Binomische Formeln: Hier lernst du, Quadrate von Klammern mit den binomischen Formeln auszumultiplizieren · neu in diesem Jahr · P10 · baut auf: Klammer mal Klammer (Einheit 3), Quadratzahlen
+Einheit 5 von 5 · Faktorisieren: Hier lernst du, eine Summe mit den binomischen Formeln in ein Produkt zu verwandeln · neu in diesem Jahr · keine P10-Aufgabe · baut auf: Ausklammern (Einheit 2), binomische Formeln (Einheit 4), Quadratwurzeln
+
+(Planfrage: keine. Bei einer Klassenarbeit entfallen Umfangs- und Stufenfrage; das „alle“ aus der Eingabe wurde nicht gebraucht.)
+
+TermeBinomischeFormeln_KennstDuSchon.pdf
+Weiter baut Einheit 1 bis 5, Gesamt und Lösungen.
+(„weiter“ aus der Eingabe)
+
+TermeBinomischeFormeln_Lernblatt.pdf
+TermeBinomischeFormeln_Gesamt.pdf
+TermeBinomischeFormeln_Loesungen.pdf
+TermeBinomischeFormeln_2026-09-26_protokoll.zip
+1. Abweichungen: keine Planfrage (Klassenarbeit, 1.3), das „alle“ der Eingabe ist gegenstandslos · Zone und Rest in einem Durchgang (unbeaufsichtigt, „weiter“ aus der Eingabe) · Zwischensprossen: Nr. 12 k Variable mal Klammer (gebraucht für die Probe in Einheit 2), Nr. 24 Klammer mit zwei Variablen als eigene Hauptnummer mit Grundfall · Höhe ohne Original nach der Zielmarke des Eintrags: Nr. 13 g, 17 j, 25 j, 42 j · geteilte Hauptnummer: 32/33 · Original 2022-OS-K3c (Scheitelpunktform mit Gerade gleichsetzen) nicht verwendet, es braucht quadratische Gleichungen (Kl. 9); Nr. 33 f trägt 2022-GYM-B2b, Nr. 34 d trägt 2017-OS-K5d, Nr. 37 c trägt 2019-GYM-B1f · im Vorspann definierter Baustein: \flaechenbild (Rechteck mit geteilten Seiten und vier Teilflächen, Nr. 27, 38, 39) · Vorlage: Kopfzeile des Zone-PDFs trägt „Kennst du schon“ doppelt
+2. Katalog: gebraucht wurden Lerneinheiten, Marken, Typen, Voraussetzungen, Erkennungsschritte, Sprossen, Typische Fehler, Prüfungsform und Zielmarke beider Einträge; nicht gebraucht wurden Merkkasten (kein „mit kasten“), Grundvorstellung (nicht schwach) und Verortung (die Nachbarthemen Scheitelpunktform und Produktform stehen schon als Sprossen in der Kette) · Befunde: die Erkennungsschritte „Ist das ein Quadrat? … Wurzel daneben schreiben“ und „Passt das Mittelglied? … doppeltes Produkt bilden“ (binomische-formeln.md, vor Einheit 3) verlangen ein Ergebnis; auf dem Blatt sind sie ohne Ergebnis umgesetzt (Nr. 40 ankreuzen, Nr. 41 unterstreichen), das Ausrechnen steht in Nr. 42 · Die Voraussetzung „Scheitelpunktform lesen“ (Kl. 9) fehlt in Kl. 8 am Gymnasium; sie entfällt, weil der Nachweis 2017-OS-K5d rein algebraisch gestellt ist · Produktform gleich null und quadratische Ergänzung (RLP H) stehen in Einheit 3 ohne GYM-Typklammer, obwohl sie am Gymnasium nach Kl. 8 liegen · Spannen: terme.md Einheit 3 und 4 und binomische-formeln.md Einheit 1 (GYM Kl. 7–8) → „neu oder schon bekannt – je nach Buch“; terme.md Einheit 1 (GYM 6–7) und 2 (GYM 7) → Zone; Typklammern [GYM 8] (Minusklammer, Zahl mal Klammer, Zusammenfassen mit zwei Variablen) → „(neu in diesem Jahr)“ am Titel von Nr. 12 und 23
+3. Protokoll-Archiv: TermeBinomischeFormeln_2026-09-26_protokoll.zip
+
+Alle Dateien liegen in C:\Users\holge\AppData\Local\Temp\claude\C--Users-holge-mathe-mathe-nachhilfe\45e0e91d-0488-42ce-92c5-21c7c65e3c84\scratchpad\testlauf\10-ka-terme-8-gym:
+- Zone: 2 Seiten, Nr. 1–9
+- Lernblatt: 19 Seiten, Nr. 10–48
+- Gesamt: 22 Seiten
+- Lösungen: 3 Seiten, 48 Nummern mit Lösung
+
+pruef.py hat für jeden Teil die letzte Zeile „Abweichungen: 0“. Protokoll und chat.txt liegen im Zip. Die Stempel stehen in zeiten.txt. Den Stempel „zone“ hatte der erste, gescheiterte Zonenlauf zu früh geschrieben. Ich habe ihn vor dem erfolgreichen Lauf entfernt; protokoll.txt vermerkt das. Das Repo habe ich nicht angefasst.

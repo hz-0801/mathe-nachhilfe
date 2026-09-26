@@ -1,0 +1,56 @@
+40a	Skript: True	Blatt: True	OK
+40b	Skript: True	Blatt: True	OK
+40c	Skript: True	Blatt: True	OK
+40d	Skript: False	Blatt: False	OK
+40e	Skript: False	Blatt: False	OK
+40f	Skript: False	Blatt: False	OK
+40g	Skript: True	Blatt: True	OK
+41a	Skript: True	Blatt: True	OK
+41b	Skript: True	Blatt: True	OK
+41c	Skript: True	Blatt: True	OK
+41d	Skript: True	Blatt: True	OK
+41e	Skript: True	Blatt: True	OK
+42a	Skript: (x - 4)*(x + 4)	Blatt: (x+4)*(x-4)	OK
+42b	Skript: (x - 6)*(x + 6)	Blatt: (x+6)*(x-6)	OK
+42c	Skript: (y - 10)*(y + 10)	Blatt: (y+10)*(y-10)	OK
+42d	Skript: (x - 1)*(x + 1)	Blatt: (x+1)*(x-1)	OK
+42e	Skript: (x + 6)**2	Blatt: (x+6)^2	OK
+42f	Skript: (x - 8)**2	Blatt: (x-8)^2	OK
+42g	Skript: (3*x + 5)**2	Blatt: (3x+5)^2	OK
+42h	Skript: 2*(x - 6)*(x + 6)	Blatt: 2*(x+6)*(x-6)	OK
+42i	Skript: (x - 10)**2	Blatt: (x-10)^2	OK
+42j	Skript: 5*x*(x - 4)**2	Blatt: 5x*(x-4)^2	OK
+42h Zwischen	Skript: 2*x**2 - 72	Blatt: 2*(x^2-36)	OK
+42j Zwischen	Skript: 5*x**3 - 40*x**2 + 80*x	Blatt: 5x*(x^2-8x+16)	OK
+43a	Skript: [-9, 9]	Blatt: [-9, 9]	OK
+43b	Skript: [-12, 12]	Blatt: [-12, 12]	OK
+43c	Skript: [9]	Blatt: [9]	OK
+43d	Skript: [-4, 4]	Blatt: [-4, 4]	OK
+44a	Skript: x**2 + 4*x + 7	Blatt: (x+2)^2+3	OK
+44b	Skript: x**2 + 8*x + 20	Blatt: (x+4)^2+4	OK
+44c	Skript: x**2 - 12*x + 40	Blatt: (x-6)^2+4	OK
+44d	Skript: x**2 + 16*x + 50	Blatt: (x+8)^2-14	OK
+45a Vorgabe falsch	Skript: True	Blatt: True	OK
+45a nicht faktorisierbar	Skript: False	Blatt: False	OK
+45b Vorgabe falsch	Skript: True	Blatt: True	OK
+45b nicht binomisch	Skript: False	Blatt: False	OK
+45c Vorgabe falsch	Skript: True	Blatt: True	OK
+45c	Skript: 2*(x - 4)*(x + 4)	Blatt: 2*(x+4)*(x-4)	OK
+46a	Skript: True	Blatt: True	OK
+46b	Skript: False	Blatt: False	OK
+46c	Skript: True	Blatt: True	OK
+46d	Skript: False	Blatt: False	OK
+46e	Skript: True	Blatt: True	OK
+46f	Skript: False	Blatt: False	OK
+46a Form	Skript: (x + 11)**2	Blatt: (x+11)^2	OK
+46c Form	Skript: (y - 13)*(y + 13)	Blatt: (y+13)*(y-13)	OK
+46e Form	Skript: (2*x - 5)**2	Blatt: (2x-5)^2	OK
+47a	Skript: (x - 10)*(x + 10)	Blatt: (x+10)*(x-10)	OK
+47a x^2+100	Skript: False	Blatt: False	OK
+47b Mittelglied müsste	Skript: 12*x	Blatt: 12x	OK
+47b	Skript: False	Blatt: False	OK
+48a	Skript: (x + 9)**2	Blatt: (x+9)^2	OK
+48b	Skript: 4*x + 36	Blatt: 4x+36	OK
+48c Seite	Skript: 12	Blatt: 12	OK
+48c Fläche	Skript: 144	Blatt: 144	OK
+Abweichungen: 0

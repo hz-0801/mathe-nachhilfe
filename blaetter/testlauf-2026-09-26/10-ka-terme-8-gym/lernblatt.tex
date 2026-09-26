@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage{mathblatt}
+% im Vorspann definierter Baustein (fehlt in der Anleitung): Flächenbild eines Rechtecks
+% mit geteilten Seiten #1+#2 (oben) und #3+#4 (links), Innenfelder #5..#8
+\newcommand{\flaechenbild}[8]{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[thick] (0,0) rectangle (4.5,-4.5);
+\draw (3,0) -- (3,-4.5);
+\draw (0,-3) -- (4.5,-3);
+\node at (1.5,0.3) {$#1$};
+\node at (3.75,0.3) {$#2$};
+\node at (-0.4,-1.5) {$#3$};
+\node at (-0.4,-3.75) {$#4$};
+\node at (1.5,-1.5) {$#5$};
+\node at (3.75,-1.5) {$#6$};
+\node at (1.5,-3.75) {$#7$};
+\node at (3.75,-3.75) {$#8$};
+\end{tikzpicture}}
+
+\newif\ifmitzone
+\mitzonefalse
+\begin{document}
+\blattkopf{Terme und binomische Formeln}{Lernblatt}
+\weit
+\verzeichniszeile{\verz{e1}{1 Klammern auflösen (Nr. 10–16)} \verztrenn \verz{e2}{2 Ausklammern (Nr. 17–20)} \verztrenn \verz{e3}{3 Summe mal Summe (Nr. 21–28)} \verztrenn \verz{e4}{4 Binomische Formeln (Nr. 29–39)} \verztrenn \verz{e5}{5 Faktorisieren (Nr. 40–48)} \verztrenn \verz{abhaken}{Das kann ich}}
+
+\input{e1_a}
+\clearpage
+\input{e2_a}
+\clearpage
+\input{e3_a}
+\clearpage
+\input{e4_a}
+\clearpage
+\input{e5_a}
+\input{abhaken}
+\end{document}

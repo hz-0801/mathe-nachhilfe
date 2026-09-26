@@ -1,0 +1,42 @@
+10a	Skript: 6*x + 2*y - 5	Blatt: 6x+2y-5	OK
+10b	Skript: 3*x + y - 4	Blatt: 3x-4+y	OK
+10c	Skript: -x + 7*y - 2	Blatt: -x+7y-2	OK
+10d	Skript: -3*x - y + 8	Blatt: 8-3x-y	OK
+10e	Skript: -2*x - 5*y + 9	Blatt: -2x-5y+9	OK
+11a	Skript: 1	Blatt: 1	OK
+11b	Skript: -1	Blatt: -1	OK
+11c	Skript: 3	Blatt: 3	OK
+11d	Skript: -4	Blatt: -4	OK
+11e	Skript: -1	Blatt: -1	OK
+12a	Skript: x + y + 4	Blatt: x+y+4	OK
+12b	Skript: 3*x + y - 2	Blatt: 3x+y-2	OK
+12c	Skript: 2*x - y + 5	Blatt: 5+2x-y	OK
+12d	Skript: 3*x + 15	Blatt: 3x+15	OK
+12e	Skript: 2*y + 12	Blatt: 2y+12	OK
+12f	Skript: 5*x + 10	Blatt: 5x+10	OK
+12g	Skript: 4*y + 28	Blatt: 4y+28	OK
+12h	Skript: 4*x - y - 2	Blatt: 4x-y-2	OK
+12i	Skript: x - 3*y + z - 4	Blatt: x-3y+z-4	OK
+12j	Skript: 12 - 3*x	Blatt: -3x+12	OK
+12k	Skript: x**2 + 6*x	Blatt: x^2+6x	OK
+13a	Skript: 5*x + 4	Blatt: 5x+4	OK
+13b	Skript: 2*x + 8	Blatt: 2x+8	OK
+13c	Skript: 8*y - 6	Blatt: 8y-6	OK
+13d	Skript: 5*y - 5	Blatt: 5y-5	OK
+13e	Skript: 18 - 2*x	Blatt: 18-2x	OK
+13f	Skript: 6*x + 2	Blatt: 6x+2	OK
+13g	Skript: x**2 + 2*x - 10	Blatt: x^2+2x-10	OK
+13f Zwischen	Skript: 6*x + 2	Blatt: 2x+6+4x-4	OK
+13g Zwischen	Skript: x**2 + 2*x - 10	Blatt: 3x^2-6x-2x^2+8x-10	OK
+14a	Skript: 5*x + 6	Blatt: 5x+6	OK
+14a Vorgabe falsch	Skript: True	Blatt: True	OK
+14b	Skript: 18 - 3*x	Blatt: 18-3x	OK
+14b Vorgabe falsch	Skript: True	Blatt: True	OK
+15a gleichwertig?	Skript: False	Blatt: False	OK
+15a Probe x=1	Skript: 12	Blatt: 12	OK
+15a Probe x=1 rechts	Skript: 7	Blatt: 7	OK
+15b gleichwertig?	Skript: True	Blatt: True	OK
+15c gleichwertig?	Skript: True	Blatt: True	OK
+16a	Skript: 4*x + 9	Blatt: 4x+9	OK
+16b	Skript: 41	Blatt: 41	OK
+Abweichungen: 0

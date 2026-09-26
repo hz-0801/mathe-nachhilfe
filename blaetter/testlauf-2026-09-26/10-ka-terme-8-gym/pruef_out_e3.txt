@@ -1,0 +1,56 @@
+21a Pfeile	Skript: 4	Blatt: 4	OK
+21b Pfeile	Skript: 4	Blatt: 4	OK
+21c Pfeile	Skript: 4	Blatt: 4	OK
+21d Pfeile	Skript: 4	Blatt: 4	OK
+21e Pfeile	Skript: 4	Blatt: 4	OK
+22a	Skript: 10	Blatt: 10	OK
+22b	Skript: 17	Blatt: 17	OK
+22c	Skript: -1	Blatt: -1	OK
+22d	Skript: 13	Blatt: 13	OK
+22e	Skript: -16	Blatt: -16	OK
+22f	Skript: 3	Blatt: 3	OK
+22g	Skript: 22	Blatt: 22	OK
+23a	Skript: 7*x + 2*y	Blatt: 7x+2y	OK
+23b	Skript: 5*u + 3*v	Blatt: 5u+3v	OK
+23c	Skript: 5*x + 10*y	Blatt: 5x+10y	OK
+23d	Skript: 6*u + 8*v	Blatt: 6u+8v	OK
+23e	Skript: 4*x + 3*y	Blatt: 4x+3y	OK
+23f	Skript: 3*x**2 + 2*x*y + 5*x	Blatt: 3x^2+2xy+5x	OK
+23g	Skript: -3*x**2 + 7*x*y + 6*y	Blatt: 7xy-3x^2+6y	OK
+24a	Skript: 3*x + 6*y	Blatt: 3x+6y	OK
+24b	Skript: 8*x - 4*y	Blatt: 8x-4y	OK
+24c	Skript: 5*u + 5*v	Blatt: 5u+5v	OK
+24d	Skript: 6*x + 8*y	Blatt: 6x+8y	OK
+24e	Skript: x*y + 3*x	Blatt: xy+3x	OK
+24f	Skript: -2*x + 5*y	Blatt: -2x+5y	OK
+24g	Skript: 2*x**2 + 6*x*y	Blatt: 2x^2+6xy	OK
+24h	Skript: x + 11*y	Blatt: x+11y	OK
+25a	Skript: x*y + 4*x + 2*y + 8	Blatt: xy+4x+2y+8	OK
+25b	Skript: x*y + x + 5*y + 5	Blatt: xy+x+5y+5	OK
+25c	Skript: u*v + 6*u + 3*v + 18	Blatt: uv+6u+3v+18	OK
+25d	Skript: x*y + 2*x + 7*y + 14	Blatt: xy+2x+7y+14	OK
+25e	Skript: x**2 + 8*x + 12	Blatt: x^2+8x+12	OK
+25f	Skript: x**2 + 5*x - 36	Blatt: x^2+5x-36	OK
+25g	Skript: x**2 - 11*x + 24	Blatt: x^2-11x+24	OK
+25h	Skript: 2*x**2 + 15*x + 7	Blatt: 2x^2+15x+7	OK
+25i	Skript: 3*x**2 + 7*x*y + 2*y**2	Blatt: 3x^2+7xy+2y^2	OK
+25j	Skript: 6*x**2 - 19*x + 10	Blatt: 6x^2-19x+10	OK
+25e Zwischen	Skript: x**2 + 8*x + 12	Blatt: x^2+6x+2x+12	OK
+25f Zwischen	Skript: x**2 + 5*x - 36	Blatt: x^2+9x-4x-36	OK
+25g Zwischen	Skript: x**2 - 11*x + 24	Blatt: x^2-8x-3x+24	OK
+25h Zwischen	Skript: 2*x**2 + 15*x + 7	Blatt: 2x^2+14x+x+7	OK
+25i Zwischen	Skript: 3*x**2 + 7*x*y + 2*y**2	Blatt: 3x^2+xy+6xy+2y^2	OK
+25j Zwischen	Skript: 6*x**2 - 19*x + 10	Blatt: 6x^2-15x-4x+10	OK
+26a	Skript: x**2 + 10*x + 24	Blatt: x^2+10x+24	OK
+26a Vorgabe falsch	Skript: True	Blatt: True	OK
+26b	Skript: x**2 - 7*x + 10	Blatt: x^2-7x+10	OK
+26b Vorgabe falsch	Skript: True	Blatt: True	OK
+26c	Skript: x**2 + 8*x + 7	Blatt: x^2+8x+7	OK
+26c Vorgabe falsch	Skript: True	Blatt: True	OK
+27a Summe Teilflächen	Skript: x**2 + 5*x + 6	Blatt: x*x+3*x+x*2+3*2	OK
+27b richtig	Skript: x**2 + 5*x + 6	Blatt: x^2+5x+6	OK
+28a	Skript: x**2 + x - 6	Blatt: x^2+x-6	OK
+28b	Skript: x - 6	Blatt: x-6	OK
+28c x=4	Skript: -2	Blatt: -2	OK
+28c x=10	Skript: 4	Blatt: 4	OK
+Abweichungen: 0

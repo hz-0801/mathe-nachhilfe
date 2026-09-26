@@ -1,0 +1,63 @@
+29a	Skript: True	Blatt: True	OK
+29b	Skript: False	Blatt: False	OK
+29c	Skript: True	Blatt: True	OK
+29d	Skript: True	Blatt: True	OK
+29e	Skript: False	Blatt: False	OK
+30a	Skript: erste	Blatt: erste	OK
+30b	Skript: zweite	Blatt: zweite	OK
+30c	Skript: dritte	Blatt: dritte	OK
+30d	Skript: keine	Blatt: keine	OK
+30e	Skript: zweite	Blatt: zweite	OK
+31a	Skript: True	Blatt: True	OK
+31b	Skript: True	Blatt: True	OK
+31c	Skript: True	Blatt: True	OK
+31d	Skript: True	Blatt: True	OK
+31e	Skript: True	Blatt: True	OK
+32a	Skript: x**2 + 8*x + 16	Blatt: x^2+8x+16	OK
+32b	Skript: x**2 + 2*x + 1	Blatt: x^2+2x+1	OK
+32c	Skript: y**2 + 12*y + 36	Blatt: y^2+12y+36	OK
+32d	Skript: x**2 + 20*x + 100	Blatt: x^2+20x+100	OK
+32e	Skript: x**2 - 18*x + 81	Blatt: x^2-18x+81	OK
+32f	Skript: x**2 - 121	Blatt: x^2-121	OK
+32g	Skript: x**2 - 5*x - 24	Blatt: x^2-5x-24	OK
+32g Zwischen	Skript: x**2 - 5*x - 24	Blatt: x^2-8x+3x-24	OK
+33a	Skript: 9*x**2 + 24*x + 16	Blatt: 9x^2+24x+16	OK
+33b	Skript: x**2 - 10*x*y + 25*y**2	Blatt: x^2-10xy+25y^2	OK
+33c	Skript: 2*x**2 + 24*x + 72	Blatt: 2x^2+24x+72	OK
+33d	Skript: -x**2 + 16*x - 64	Blatt: -x^2+16x-64	OK
+33e	Skript: y**2 - 8*y + 6	Blatt: y^2-8y+6	OK
+33f	Skript: x**2 - 11*x + 44	Blatt: x^2-11x+44	OK
+33f Zwischen	Skript: x**2 - 11*x + 44	Blatt: x^2-12x+36-6x+8+7x	OK
+34a	Skript: x**2 + 4*x + 3	Blatt: x^2+4x+3	OK
+34b	Skript: x**2 + 2*x + 8	Blatt: x^2+2x+8	OK
+34c	Skript: x**2 - 8*x + 18	Blatt: x^2-8x+18	OK
+34d	Skript: x**2 + 12*x + 25	Blatt: x^2+12x+25	OK
+35a	Skript: 441	Blatt: 441	OK
+35b	Skript: 2601	Blatt: 2601	OK
+35c	Skript: 361	Blatt: 361	OK
+35d	Skript: 9604	Blatt: 9604	OK
+35e	Skript: 896	Blatt: 896	OK
+35f	Skript: 2475	Blatt: 2475	OK
+35a Weg	Skript: 441	Blatt: 400+40+1	OK
+35b Weg	Skript: 2601	Blatt: 2500+100+1	OK
+35c Weg	Skript: 361	Blatt: 400-40+1	OK
+35d Weg	Skript: 9604	Blatt: 10000-400+4	OK
+35e Weg	Skript: 896	Blatt: 900-4	OK
+35f Weg	Skript: 2475	Blatt: 2500-25	OK
+36a	Skript: x**2 + 12*x + 36	Blatt: x^2+12x+36	OK
+36a Vorgabe falsch	Skript: True	Blatt: True	OK
+36b	Skript: 9*x**2 - 12*x + 4	Blatt: 9x^2-12x+4	OK
+36b Vorgabe falsch	Skript: True	Blatt: True	OK
+36c	Skript: -x**2 - 18*x - 81	Blatt: -x^2-18x-81	OK
+36c Vorgabe falsch	Skript: True	Blatt: True	OK
+37a	Skript: y^2+18y+81	Blatt: y^2+18y+81	OK
+37b	Skript: x^2-100	Blatt: x^2-100	OK
+37c	Skript: 16-24y+9y^2	Blatt: 16-24y+9y^2	OK
+38a links	Skript: 64	Blatt: 64	OK
+38a rechts	Skript: 40	Blatt: 40	OK
+38a Mittelglied	Skript: 24	Blatt: 24	OK
+38b	Skript: x**2 + 4*x + 4	Blatt: x^2+4x+4	OK
+39a	Skript: x**2 + 24*x + 144	Blatt: x^2+24x+144	OK
+39b	Skript: 24*x + 144	Blatt: 24x+144	OK
+39c	Skript: 624	Blatt: 624	OK
+Abweichungen: 0

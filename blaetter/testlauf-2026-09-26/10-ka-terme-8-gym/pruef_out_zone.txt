@@ -1,0 +1,50 @@
+1a	Skript: -5	Blatt: -5	OK
+1b	Skript: -9	Blatt: -9	OK
+1c	Skript: -6	Blatt: -6	OK
+1d	Skript: 7	Blatt: 7	OK
+1e	Skript: -2	Blatt: -2	OK
+2a	Skript: -15	Blatt: -15	OK
+2b	Skript: 8	Blatt: 8	OK
+2c	Skript: 36	Blatt: 36	OK
+2d	Skript: 9	Blatt: 9	OK
+2e	Skript: 64	Blatt: 64	OK
+3a	Skript: 14	Blatt: 14	OK
+3b	Skript: 10	Blatt: 10	OK
+3c	Skript: -5	Blatt: -5	OK
+3d	Skript: 11	Blatt: 11	OK
+3e	Skript: -14	Blatt: -14	OK
+4a	Skript: 14	Blatt: 14	OK
+4b	Skript: 3	Blatt: 3	OK
+4c	Skript: -13	Blatt: -13	OK
+4d	Skript: 13	Blatt: 13	OK
+4e	Skript: 14	Blatt: 14	OK
+5a	Skript: 9*x	Blatt: 9x	OK
+5b	Skript: 6*y	Blatt: 6y	OK
+5c	Skript: 7*x + 7	Blatt: 7x+7	OK
+5d	Skript: 5*x	Blatt: 5x	OK
+5e	Skript: -7*y	Blatt: -7y	OK
+5f	Skript: 2*x	Blatt: 2x	OK
+6a	Skript: 15*x	Blatt: 15x	OK
+6b	Skript: 8*y	Blatt: 8y	OK
+6c	Skript: x**2	Blatt: x^2	OK
+6d	Skript: 8*x**2	Blatt: 8x^2	OK
+6e	Skript: -18*x	Blatt: -18x	OK
+6f	Skript: 20*x*y	Blatt: 20xy	OK
+7a	Skript: 3*x**2 + 7*x	Blatt: 3x^2+7x	OK
+7a Vorgabe falsch	Skript: True	Blatt: True	OK
+7b	Skript: 3*x + 4	Blatt: 4+3x	OK
+7b Vorgabe falsch	Skript: True	Blatt: True	OK
+8a	Skript: 5*x**2 + 5*x	Blatt: 5x^2+5x	OK
+8b	Skript: 3*x**2 + 4*x	Blatt: 3x^2+4x	OK
+8c	Skript: -2*x**2 + 7*x	Blatt: -2x^2+7x	OK
+8d	Skript: 2*x**2 + 7	Blatt: 2x^2+7	OK
+8e	Skript: 2*x + 8	Blatt: 2x+8	OK
+9a	Skript: 36	Blatt: 36	OK
+9b	Skript: 81	Blatt: 81	OK
+9c	Skript: 8	Blatt: 8	OK
+9d	Skript: 13	Blatt: 13	OK
+9e	Skript: 121	Blatt: 121	OK
+9f	Skript: 16*x**2	Blatt: 16x^2	OK
+9g	Skript: 36	Blatt: 6^2	OK
+9h	Skript: 9*x**2	Blatt: (3x)^2	OK
+Abweichungen: 0

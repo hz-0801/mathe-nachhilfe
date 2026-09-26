@@ -1,0 +1,180 @@
+Prompt: Unterrichtsblatt-Prompt v4.4
+Modell: Opus 5.5
+Vorlage: Version 2026-09-28a
+Katalog: terme.md, Status: gegengelesen bis auf [FS] (2026-09-08b; Abgrenzung der Einheit 4 zu binomische-formeln.md am 2026-09-08i; Abschnitt „Offene Punkte des Eintrags“ und Zeile `Zuordnung:` am 2026-09-10c nachgetragen; LISUM-Planungshilfen am 10e nachgetragen; erster Gegenlese-Block am 2026-09-10f: Zielmarken je Einheit, Kette Einheit 4 gebaut, Prüfungshöhe der Kette „Term aufstellen“ gesetzt; Originale des Themas am 10h vollständig nachgetragen) · Stufe: Sek I · Bildungsgänge: alle bis Kl. 10 · gegengelesen: bis auf [FS]
+Katalog: binomische-formeln.md, Status: gegengelesen bis auf [FS] (2026-09-08i; LISUM-Planungshilfen am 10e nachgetragen; erster Gegenlese-Block am 2026-09-10f: Zielmarke geschärft, Vorrat-Sprossen in der Kette markiert, Gliederung bestätigt) · Stufe: Sek I · Bildungsgänge: Gymnasium Kl. 8 (Lehrwerk Kl. 8 II; RLP F = Kl. 8 für Summe mal Summe, G = Kl. 9 für binomische Formeln), Oberschule/Gesamtschule Kl. 9–10 (F; binomische Formeln „in Teilen G“, für den MSA nötig – die P10 setzt sie 2017 und 2022 voraus); nicht Förderschwerpunkt Lernen (D–E) · gegengelesen: bis auf [FS]
+Bestellung: mit Wiederholung · mit Ausblick (kein Ausblick-Zweig: alle Marken bei oder vor Kl. 8)
+Standpunkt: Kl. 8, Gymnasium
+
+Zweige (gebaut, 5; abgewählt: keine; Ausblick: keiner; in der Zone statt als Zweig: terme.md Einheit 1 und 2):
+Das kennst du schon (Zone)
+   1. Ich kann negative Zahlen addieren und subtrahieren.
+   2. Ich kann Zahlen mit Vorzeichen malnehmen.
+   3. Ich kann Punkt vor Strich rechnen.
+   4. Ich kann den Wert eines Terms berechnen.
+   5. Ich kann gleichartige Glieder zusammenfassen.
+   6. Ich kann Terme malnehmen.
+   7. Ich finde den Fehler beim Zusammenfassen.
+   8. Ich kann Terme mit $x$ und $x^2$ richtig zusammenfassen.
+   9. Ich kann Quadratzahlen und Quadratwurzeln angeben.
+Einheit 1 von 5 · Klammern auflösen
+  Zweigzeile: Hier lernst du, Klammern in Termen aufzulösen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Glieder zusammenfassen, Rechnen mit Vorzeichen
+   10. Ich erkenne, welches Vorzeichen zu welchem Glied gehört.
+   11. Ich erkenne, was vor einer Klammer steht.
+   12. Ich kann Klammern auflösen (neu in diesem Jahr).
+   13. Ich kann Klammern auflösen und den Term zusammenfassen.
+   14. Ich finde den Fehler beim Auflösen einer Klammer.
+   15. Ich kann begründen, ob zwei Terme gleichwertig sind.
+   16. Ich kann eine Sachaufgabe mit Klammern lösen.
+Einheit 2 von 5 · Ausklammern
+  Zweigzeile: Hier lernst du, einen gemeinsamen Faktor auszuklammern · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Klammern auflösen (Einheit 1)
+   17. Ich kann einen gemeinsamen Faktor ausklammern.
+   18. Ich finde den Fehler beim Ausklammern.
+   19. Ich kann entscheiden, ob alle Glieder einen gemeinsamen Faktor haben.
+   20. Ich kann eine Sachaufgabe durch Ausklammern lösen.
+Einheit 3 von 5 · Summe mal Summe
+  Zweigzeile: Hier lernst du, Terme mit zwei Variablen umzuformen und zwei Klammern miteinander malzunehmen · neu oder schon bekannt – je nach Buch · keine P10-Aufgabe · baut auf: Klammern auflösen (Einheit 1), Terme malnehmen
+   21. Ich erkenne, was mit was malgenommen wird.
+   [Terme mit zwei Variablen]
+   22. Ich kann den Wert eines Terms mit zwei Variablen berechnen.
+   23. Ich kann Terme mit zwei Variablen zusammenfassen (neu in diesem Jahr).
+   24. Ich kann eine Klammer mit zwei Variablen auflösen.
+   [Klammer mal Klammer]
+   25. Ich kann zwei Klammern miteinander malnehmen.
+   26. Ich finde den Fehler beim Malnehmen zweier Klammern.
+   27. Ich kann am Rechteck begründen, warum vier Produkte entstehen.
+   28. Ich kann eine Sachaufgabe mit zwei Klammern lösen.
+Einheit 4 von 5 · Binomische Formeln
+  Zweigzeile: Hier lernst du, Quadrate von Klammern mit den binomischen Formeln auszumultiplizieren · neu in diesem Jahr · P10 · baut auf: Klammer mal Klammer (Einheit 3), Quadratzahlen
+   29. Ich erkenne, ob eine Klammer mit sich selbst malgenommen wird.
+   30. Ich erkenne, welche binomische Formel passt.
+   31. Ich erkenne, was $a$ und was $b$ ist.
+   [Ausmultiplizieren mit den Formeln]
+   32. Ich kann mit den binomischen Formeln ausmultiplizieren.
+   33. Ich kann mit den binomischen Formeln ausmultiplizieren – weiter.
+   [Zwei Terme als gleich nachweisen]
+   34. Ich kann nachweisen, dass zwei Terme gleich sind.
+   [Kopfrechnen mit den Formeln]
+   35. Ich kann mit den binomischen Formeln im Kopf rechnen.
+   36. Ich finde den Fehler beim Ausmultiplizieren mit einer binomischen Formel.
+   37. Ich kann entscheiden, welcher Term gleichwertig ist.
+   38. Ich kann begründen, warum beim Quadrat einer Summe ein Mittelglied entsteht.
+   39. Ich kann eine Sachaufgabe mit einer binomischen Formel lösen.
+Einheit 5 von 5 · Faktorisieren
+  Zweigzeile: Hier lernst du, eine Summe mit den binomischen Formeln in ein Produkt zu verwandeln · neu in diesem Jahr · keine P10-Aufgabe · baut auf: Ausklammern (Einheit 2), binomische Formeln (Einheit 4), Quadratwurzeln
+   40. Ich erkenne, ob ein Term ein Quadrat ist.
+   41. Ich erkenne die beiden Quadrate und das Mittelglied.
+   [Faktorisieren mit den Formeln]
+   42. Ich kann einen Term mit einer binomischen Formel faktorisieren.
+   [Gleichungen durch Faktorisieren lösen]
+   43. Ich kann eine Gleichung lösen, indem ich faktorisiere.
+   [Quadratische Ergänzung]
+   44. Ich kann einen Term als Quadrat einer Klammer plus eine Zahl schreiben.
+   45. Ich finde den Fehler beim Faktorisieren.
+   46. Ich kann entscheiden, ob sich ein Term mit einer binomischen Formel faktorisieren lässt.
+   47. Ich kann begründen, wann ein Term keine binomische Formel ist.
+   48. Ich kann eine Sachaufgabe durch Faktorisieren lösen.
+
+Zählung aus der Textextraktion der Kompilate (Grafiken aus dem Quelltext):
+TermeBinomischeFormeln_KennstDuSchon.pdf: 9 Hauptnummern, 47 Teilaufgaben, 0 Grafiken, 2 Seiten
+TermeBinomischeFormeln_Lernblatt.pdf: 39 Hauptnummern, 193 Teilaufgaben, 7 Grafiken, 19 Seiten
+TermeBinomischeFormeln_Gesamt.pdf: 48 Hauptnummern, 240 Teilaufgaben, 7 Grafiken, 22 Seiten
+TermeBinomischeFormeln_Loesungen.pdf: 48 Nummern mit Lösung, 3 Seiten
+Verzeichniszeile Lernblatt: 1 Klammern auflösen (Nr. 10–16) • 2 Ausklammern (Nr. 17–20) • 3 Summe mal Summe (Nr. 21–28) • 4 Binomische Formeln (Nr. 29–39) • 5 Faktorisieren (Nr. 40–48) • Das kann ich
+Verzeichniszeile Gesamt: Kennst du schon (Nr. 1–9) • 1 Klammern auflösen (Nr. 10–16) • 2 Ausklammern (Nr. 17–20) • 3 Summe mal Summe (Nr. 21–28) • 4 Binomische Formeln (Nr. 29–39) • 5 Faktorisieren (Nr. 40–48) • Das kann ich
+
+Schritte (Schritt · Anlass):
+1 · Read unterrichtsblatt.md Teil 1 · Anleitung lesen
+2 · Read unterrichtsblatt.md Teil 2 · Anleitung bis zur letzten Zeile
+3 · PowerShell · Arbeitsverzeichnis, Stempel t0 (allein)
+4 · PowerShell · katalog/index.md und blaetter/index.md holen
+5 · Grep · Register nach terme/binomische durchsuchen (Ausgabe zu groß für die Anzeige)
+6 · PowerShell · Registerzeilen terme.md, binomische-formeln.md und Blätterregister anzeigen (Thema nicht gebaut → mit Ausblick)
+7 · PowerShell · Einträge terme.md und binomische-formeln.md holen (Klassenarbeit, zwei Themen)
+8 · Read terme.md · Eintrag lesen
+9 · Read binomische-formeln.md · Eintrag lesen
+10 · PowerShell · mathblatt.sty und Anleitung_mathblatt.md holen
+11 · Read Anleitung Teil 1 · Makronamen
+12 · Read Anleitung Teil 2 · Makronamen bis zum Ende
+13 · Write test_bausteine.tex · Probe: Titel mit \anweisung, Kreuzzeile, \rechteck, Flächenbild, \erg, Abhakgruppe kursiv
+14 · PowerShell · Probe kompilieren und rendern
+15 · Read test_b-1.png · Probe ansehen
+16 · Read test_b-2.png · Probe ansehen
+17 · Write zone_a.tex · Zone Aufgaben
+18 · Write zone_l.tex · Zone Lösungen
+19 · Write pruef.py · Prüfskript, Teil zone
+20 · Write zone.tex · Rahmen Zone
+21 · Write probe.tex · Prüfrahmen je Einheit (Aufgaben und Lösungen)
+22 · PowerShell · pruef zone (0 Abweichungen), Probe zone; Korrektur nötig: -jobname=$j ohne Anführungszeichen nicht ersetzt, Datei „$j.pdf“; Stempel zone dabei verfrüht geschrieben
+23 · PowerShell · Dateiliste (Ursache $j.*)
+24 · PowerShell · $j.* gelöscht, verfrühten Stempel zone entfernt, Zone neu kompiliert, Stempel zone
+25 · Read zone_s-1.png · Zone Seite 1
+26 · Read zone_s-2.png · Zone Seite 2
+27 · Write e1_a.tex · Einheit 1 Aufgaben
+28 · Write e1_l.tex · Einheit 1 Lösungen
+29 · Edit pruef.py · Teil e1
+30 · PowerShell · Stempel weiter; pruef e1 (0), Probe e1, Stempel e 1
+31 · Read e1_s-1.png · Einheit 1 Seite 1
+32 · Read e1_s-2.png · Einheit 1 Seite 2
+33 · Read e1_s-3.png · Einheit 1 Seite 3 (Skizze)
+34 · Write e2_a.tex · Einheit 2 Aufgaben
+35 · Write e2_l.tex · Einheit 2 Lösungen
+36 · Edit e2_a.tex · \clearpage aus der Einheitsdatei in die Rahmen verlegt
+37 · Edit pruef.py · Teil e2
+38 · Edit pruef.py · Produktprüfung unausgewertet parsen (6*(x+1) wird sonst ausmultipliziert)
+39 · PowerShell · pruef e2 (0), Probe e2, Stempel e 2
+40 · Read e2_s-1.png · Einheit 2 Seite 1
+41 · Read e2_s-2.png · Einheit 2 Seite 2 (Skizze)
+42 · PowerShell · Korrektur Nr. 20: Schulhof „4x m breit“ ergab 40 m breit und 25 m lang – lang/breit getauscht
+43 · Write e3_a.tex · Einheit 3 Aufgaben
+44 · Write e3_l.tex · Einheit 3 Lösungen
+45 · Edit pruef.py · Teil e3
+46 · PowerShell · pruef e3 (0), Probe e3, Stempel e 3
+47 · Read e3_s-1.png · Einheit 3 Seite 1
+48 · Read e3_s-3.png · Einheit 3 Seite 3
+49 · Read e3_s-4.png · Einheit 3 Seite 4 (Flächenbild, Skizze)
+50 · PowerShell · Korrektur: Titel Nr. 27 brach „entste-hen“ – gekürzt; Felder Nr. 22 und Nr. 10 standen nicht in einer Flucht (\hfill in teile) – in geruest; e3 und e1 neu kompiliert
+51 · Read e3_k-1.png · geänderte Seite
+52 · Read e1_k-1.png · geänderte Seite
+53 · Write e4_a.tex · Einheit 4 Aufgaben
+54 · Write e4_l.tex · Einheit 4 Lösungen
+55 · Edit pruef.py · Teil e4
+56 · Edit pruef.py · Erkennung dritte Formel vereinfacht (Skriptfehler vor dem Lauf)
+57 · PowerShell · pruef e4: 1 Abweichung 29c (Skript: False, Blatt: True), Probe e4
+58 · PowerShell · Skript untersucht: unausgewertete Klammern (y - 1*2) werden nicht gleich erkannt
+59 · Edit pruef.py · ist_quadrat vergleicht über neu geparste Faktoren (Skript falsch modelliert)
+60 · PowerShell · pruef e4 (0), Stempel e 4
+61 · Read e4_s-2.png · Einheit 4 Seite 2
+62 · Read e4_s-3.png · Einheit 4 Seite 3
+63 · Read e4_s-4.png · Einheit 4 Seite 4 (Flächenbilder)
+64 · Read e4_s-1.png · Einheit 4 Seite 1 (Kreuzzeilen)
+65 · Write e5_a.tex · Einheit 5 Aufgaben
+66 · Write e5_l.tex · Einheit 5 Lösungen
+67 · Edit pruef.py · Teil e5
+68 · Edit pruef.py · Quadrat-Erkennung vereinfacht (vor dem Lauf)
+69 · PowerShell · pruef e5 (0), Probe e5, Stempel e 5
+70 · Read e5_s-1.png · Einheit 5 Seite 1
+71 · Read e5_s-4.png · Einheit 5 Seite 4 (Skizze)
+72 · Write bau_rahmen.py · Abhakseite, Verzeichniszeilen und Rahmen aus den Quelltexten
+73 · PowerShell · Rahmen erzeugt, Lernblatt zweimal kompiliert, Nummernfolge und Kopfzeilen geprüft, Stempel lernblatt
+74 · Read lb_s-01.png · Lernblatt Seite 1 (Verzeichniszeile)
+75 · Read lb_e-19.png · Abhakseite
+76 · PowerShell · Gesamt zweimal kompiliert, Nummernfolge 1–48 und Kopfzeilen geprüft, Stempel gesamt
+77 · PowerShell · Lösungen kompiliert, 48 Lösungsnummern, Abhakzeilen 48/39, Stempel loesungen
+78 · Read lo_s-1.png · Lösungen Seite 1
+79 · Write archiv.py · Protokoll, Chat, Archiv
+80 · PowerShell · archiv.py: protokoll.txt, chat.txt, Zip
+
+Vorlage: fehlende Bausteine · Warnungen aus dem Log: \flaechenbild (Rechteck mit geteilten Seiten) · keine
+Korrekturrunden: 6 von 80 Schritten (Zone-Jobname, Nr. 20 lang/breit, Nr. 27 Titel und Fluchten Nr. 10/22, pruef.py Produktprüfung, pruef.py 29c, pruef.py Formel- und Quadraterkennung vor dem Lauf)
+Zone: 816 s
+Weiter: 900 s
+E 1: 905 s
+E 2: 963 s
+E 3: 1050 s
+E 4: 1230 s
+E 5: 1335 s
+Lernblatt: 1402 s
+Gesamt: 1426 s
+Lösungen: 1443 s
+Hinweis: der Stempel zone wurde im ersten, gescheiterten Zonenlauf verfrüht geschrieben und vor dem erfolgreichen Lauf entfernt; die Datei trägt nur den Stempel des fertigen Laufs.
