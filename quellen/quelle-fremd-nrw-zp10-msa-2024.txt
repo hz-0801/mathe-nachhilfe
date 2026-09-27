@@ -1,0 +1,616 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau MSA, Prüfungsjahr 2024 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/314832/zentrale-pruefung-zp-10-msa-mathematik-2024 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/314972/pruefungsteil-1-2024; https://de.serlo.org/mathe/314973/pruefungsteil-2-2024
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 2024  (Serlo-ID 314972)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 315172 – https://de.serlo.org/mathe/315172/aufgabe – Lizenz 27]
+Ordne die Zahlen der Größe nach. Beginne mit der kleinsten Zahl. (2BE)
+-(3)/(8)            (2)/(5)           -2(1)/(6)           0,2
+Lösung:
+Lösungsidee:
+- Zum einfacheren Vergleich wandle die Dezimalzahl in einen Bruch um.
+- Beachte die Vorzeichen
+0,2= (1)/(5)
+
+-2(1)/(6) < -(3)/(8) <0,2 < (2)/(5)
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315174 – https://de.serlo.org/mathe/315174/aufgabengruppe – Lizenz 27]
+Eine Schülerfirma führt eine Tabellenkalkulation über ihre Verkaufsaktion zum Valentinstag
+(Abbildung 1).
+[Abbildung]
+
+Teilaufgabe a)
+
+Gib eine Formel an, mit der der Wert in Zelle F2 berechnet werden kann. (1BE)
+Lösung:
+Lösungsidee:
+Der Gesamtgewinn ergibt sich aus dem Produkt Gewinn pro Stück mal Anzahl verkaufte Blumen.
+Zelle F2:  B2*E2
+
+Teilaufgabe b)
+
+Die Schülerfirma erhält zusätzlich einen Rabatt auf den Einkaufspreis der Schokoladenherzen.
+
+Gib an, welche Zellen sich dadurch verändern. (2BE)
+Lösung:
+D3: Der Einkaufspreis ändert sich laut Angabe.
+E3: Damit wird der Gewinn pro Stück größer.
+F3: Der Gesamtgewinn für die Schokoladen ebenso.
+F4: Die Summe des Gesamtgewinns natürlich auch.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315176 – https://de.serlo.org/mathe/315176/aufgabengruppe – Lizenz 27]
+Gib das Ergebnis an.
+
+Teilaufgabe a)
+(3)/(4)  von 24 (1BE)
+[Eingabefeld – richtige Eingabe: 18 ]
+Lösung:
+Voraussetzung: Überblick – Einführung zu Brüchen
+(3)/(4) von 24 : Multipliziere die beiden Zahlen.
+ (3)/(4)· 24=(3·24)/(4)=\frac{3·\cancel{24} ^6}{\cancel{4} ^1}=18
+
+Teilaufgabe b)
+5 %von 160 (1BE)
+[Eingabefeld – richtige Eingabe: 8 ]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+Lösungsidee:
+Ermittle das Ergebnis mit Hilfe der Formel für den Prozentwert.
+W: Prozentwert
+G: Grundwert
+p: Prozentsatz
+
+    W = p · G
+
+5%  von  160:    (5)/(100)· 160= 8
+
+Teilaufgabe c)
+(-(5)/(2)) ·3 ·(-(4)/(15))
+(1BE)
+[Eingabefeld – richtige Eingabe: 2 ]
+Lösung:
+Voraussetzung: Brüche multiplizieren
+Lösungsidee:
+- Multipliziere nacheinander.
+- Beachte die Vorzeichen.
+- Kürze anschließend.
+Nach der Regel "Minus mal Minus gibt Plus" kannst du die beiden Minuszeichen weglassen. Multipliziere dann alle Nenner und Zähler jeweils miteinander.
+
+    = (-(5)/(2)) ·3 ·(-(4)/(15))
+      (Alle Zähler und Nenner multiplizieren)
+    = (5·3·4)/(2·15)
+      (Kürze die 5 und  die 3)
+    = \frac{\cancel5 ^1·\cancel3 ^1·4}{2·\cancel{15} ^1}
+      (Kürze 4 und 2)
+    = \frac{\cancel4 ^2}{\cancel2 ^1}
+    = 2
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315178 – https://de.serlo.org/mathe/315178/aufgabengruppe – Lizenz 27]
+In der Tabelle (Abbildung 2) sind die Einwohnerzahlen der fünf bevölkerungsreichsten Städte Deutschlands abgebildet (Stand: 2021, auf Hunderttausend Einwohner gerundet).
+[Abbildung]
+
+Teilaufgabe a)
+
+Gib den Median und die Spannweite an. (2BE)
+[Eingabefeld – richtige Eingabe: 2,9 Mio]
+Lösung:
+Voraussetzung: Median
+Median:
+Ordne die Zahlen nach der Größe:
+
+    0,8 < 1,1 < 1,5 < 1,9 < 3,7
+Der Median ist 1,5 Mio.
+
+Spannweite:
+Die Spannweite ergibt sich aus der Differenz zwischen dem größten und dem kleinsten Wert.
+3,7-0,8=2,9
+Die Spannweite ist 2,9 Mio.
+
+Teilaufgabe b)
+
+Bestätige mit einer Rechnung, dass das arithmetische Mittel 1,8 Mio. Einwohner beträgt. (2BE)
+[Eingabefeld – richtige Eingabe: 1,8 Mio]
+Lösung:
+Voraussetzung: Durchschnitt berechnen
+(0,8+1,1+1,5+1,9+3,7)/(5)=(9)/(5)=1,8
+Das arithmetische Mittel beträgt 1,8 Mio. Einwohner.
+
+Teilaufgabe c)
+
+Stuttgart hat weniger Einwohner als Frankfurt am Main und liegt auf Platz sechs dieser Rangliste. Erläutere, wie sich die Spannweite verändert, wenn zusätzlich Stuttgart berücksichtigt wird. (2BE)
+Lösung:
+Wenn Stuttgart weniger Einwohner hat als Frankfurt, dann ist die Differenz zwischen Berlin und Stuttgart größer als die Differenz zwischen Berlin und Frankfurt.
+Der Wert der Spannweite nimmt also zu.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315180 – https://de.serlo.org/mathe/315180/aufgabengruppe – Lizenz 27]
+Gegeben ist die Funktion f mit f(x)=-5x^2+20.
+
+Teilaufgabe a)
+
+Berechne f(1). (2BE)
+[Eingabefeld – richtige Eingabe: 15 ]
+Lösung:
+Voraussetzung: Funktionswert
+Setze für x den Wert 1 ein.
+f(1)=-5·1^2+20=-5+20=15
+
+Teilaufgabe b)
+
+Berechne die Lösung der Gleichung -5 x^{2}+20=0. (2BE)
+Lösung:
+    -5x^2+20 = 0   | +5x^2
+      (addiere)
+    20 = 5x^2   | :5
+      (dividiere)
+    4 = x^2
+      (ziehe die Wurzel)
+    ±2 = x
+
+==============================================================================
+Prüfungsteil 2 2024  (Serlo-ID 314973)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315461 – https://de.serlo.org/mathe/315461/aufgabengruppe – Lizenz 27]
+Fruchtfliegen
+
+Jasmin möchte für ein Biologieprojekt untersuchen, wie schnell sich Fruchtfliegen (Abbildung 1) vermehren. Sie kauft dazu zwei Zuchtboxen und bezeichnet diese mit A und B.
+[Abbildung]
+Zuchtbox A enthält anfänglich zehn Fruchtfliegen. Jasmin bewahrt die Box in ihrem warmen Zimmer auf und protokolliert in den folgenden Tagen die Anzahl der Tiere in der
+Box (Abbildung 2).
+[Abbildung]
+
+Teilaufgabe a)
+Die Anzahl der Fruchtfliegen in Zuchtbox A wächst täglich um ca. 30 %.
+Weise dies für den Übergang von Tag 0 auf Tag 1 nach.
+
+[2 Pkte]
+Lösung:
+Lösungsidee:
+- Bestimmte das Verhältnis der Fruchtfliegen von Tag 0 zu Tag 1.
+Das Verhältnis der Anzahl der Fliegen von Tag 1 zu Tag 0 ist gegeben durch
+
+    (13)/(10) = 1,3.
+Also ist die Anzahl der Fliegen um das 0,3-fache angestiegen, was genau 30% entspricht.
+
+Teilaufgabe b)
+Jasmin stellt die Funktion f mit der Funktionsgleichung  f(x) = 10 · 1,3^x  auf, um die Anzahl f(x) der Fruchtfliegen am Tag x zu berechnen.
+
+Bestimme die voraussichtliche Anzahl an Fruchtfliegen nach 30 Tagen.
+
+[2 Pkte]
+Lösung:
+Lösungsidee:
+- Überlege dir, welchem x der 30. Tag entspricht.
+- Setze dieses x in die Funktionsgleichung von f ein.
+Da die Funktionsgleichung die Anzahl der Fluchtfliegen am Tag x angibt, muss man das passende x in f(x) einsetzen.
+Weil die Erfassung der Anzahl der Fliegen bei Tag 0 beginnt, ist nach 30 Tagen der dreißigste Tag, das heißt x = 30.
+Das kann man jetzt in f(x) einsetzen:
+
+    f(30) = 10 · 1,3^{30}≈ 26 200.
+Nach 30 Tagen sind also voraussichtlich 26 200 Fruchtfliegen in Zuchtbox A.
+
+Teilaufgabe c)
+Bestimme, nach wie vielen Tagen die Anzahl der Fruchtfliegen erstmals größer als 100 000 sein müsste.
+
+[3 Pkte]
+Lösung:
+Lösungsidee:
+- Überlege dir zunächst mithilfe der vorherigen Aufgaben, wie viele Tage mindestens vergangen sein müssen, damit 100 000 Fliegen vorhanden sein können.
+- Probiere dann mithilfe des Taschenrechners systematisch aus, ab welchem Tag die Anzahl der Fliegen größer als 100 000 ist, indem du verschiedene x-Werte in f(x) einsetzt.
+Laut der vorherigen Aufgabe ist die Anzahl der Fruchtfliegen nach 30 Tagen ca. 26 200.
+Weil das kleiner als 100 000 ist, kann also erst nach mindestens 30 Tagen die Anzahl der Fliegen mehr als 100 000 betragen.
+Jetzt kannst du systematisch ausprobieren, indem du für x die Werte 31, 32, … nacheinander in f(x) einsetzt und schaust, wann das erste Mal etwas Größeres als 100 000 rauskommt.
+Mit dem Taschenrechner ergibt sich hierdurch schließlich:
+    f(35) = 10 · 1,3^{35} = 97 278,…
+    f(36) = 10 · 1,3^{36} = 126 462,…
+Also ist nach 36 Tagen die Anzahl der Fruchtfliegen erstmals größer als 100 000.
+[]
+Falls man den Logarithmus kennt, kann man auch diesen verwenden, um diese Aufgabe zu lösen.
+Dies gelingt, indem man die Gleichung f(x) = 100 000 nach x auflöst:
+    f(x) ≈ 100 000
+      (Einsetzen der Funktionsgleichung)
+    10· 1,3^x ≈ 100 000   | : 10
+    {1,3}^x ≈ 10 000   | \log_{1,3}( )
+    x = \log_{1,3}(10000) ≈ 35,1
+Damit sind erstmals nach 36 Tagen mehr als 100 000 Fruchtfliegen in Zuchtbox A.
+Du musst hier auf 36 aufrunden und nicht auf 35 abrunden, weil erst ab ungefähr 35.1 Tagen die Anzahl der Fruchtfliegen mehr als 100 000 beträgt.
+Damit ist ja nach 35 Tagen diese Anzahl noch ein wenig kleiner als 100 000 und erst nach einem weiteren Tag, also nach den oben genannte 36 Tagen sind genug Fliegen vorhanden.
+
+Teilaufgabe d)
+Zuchtbox B enthält anfänglich 20 Fruchtfliegen (x=0). Zur Berechnung der Anzahl der Fruchtfliegen in der Box an Tag  x nutzt Jasmin daher die Funktion g mit
+g(x)=20· q^x.
+Jasmin bewahrt die Zuchtbox B im kühleren Keller auf und stellt fest, dass sich die Fruchtfliegen dort langsamer vermehren als in ihrem warmen Zimmer. An Tag 11 sind es 77 Fliegen. Weise rechnerisch nach, dass q≈1,13 beträgt.
+
+[3 Pkte]
+Lösung:
+Lösungsidee:
+- Setze x = 11 in die Funktionsgleichung von g ein.
+- Löse dann nach q auf.
+An Tag 11 beträgt die Anzahl der Fruchtfliegen 77.
+Einsetzen von x = 11 in g(x), was Tag 11 entspricht, liefert:
+    g(11) = 77
+      (Einsetzen der Funktionsgleichung)
+    20· q^{11} = 77   | : 20
+    q^{11} = (77)/(20)   | \sqrt[11]{( )}
+      (Weil sich die Anzahl der Fruchtfliegen vermehrt, wissen wir, dass q > 0 und damit müssen wir uns keine Sorgen wegen des Vorzeichens machen)
+    q = \sqrt[11]{(77)/(20)} ≈ 1,13
+Also ist wie behauptet q ≈ 1,13.
+
+Teilaufgabe e)
+Jasmin vermutet: „Bei Zuchtbox B kommen in der zweiten Woche mehr als doppelt so viele Fruchtfliegen hinzu, als in der ersten Woche hinzugekommen sind.“
+Überprüfe ihre Vermutung mit einer Rechnung.
+
+[3 Pkte]
+Lösung:
+Lösungsidee:
+- Berechne mithilfe der Funktion g die Anzahl der Fliegen nach einer und nach zwei Wochen.
+- Ermittle dann die Differenzen, um herauszufinden, wie viele Fliegen in der ersten und in der zweiten Woche dazu gekommen sind.
+- Überprüfe nun, ob wirklich doppelt so viele Fliegen in der zweiten Woche hinzugekommen sind wie in der ersten Woche.
+
+Anzahl der Fliegen nach einer Woche und zwei Wochen
+Die Anzahl der Fliegen beträgt nach einer Woche, also an Tag 7
+
+    g(7) = 20 · 1,13^{7} ≈ {47}.
+Nach zwei Wochen, also an Tag 14, gilt
+
+    g(14) = 20 · 1,13^{14} ≈ {110}.
+
+Berechnen der Differenzen
+Zu Beginn, also an Tag 0 betrug die Anzahl der Fliegen {20}.
+Innerhalb der ersten Woche sind also
+
+    {47} - {20} = 27
+Fliegen dazu gekommen. Danach sind in der zweiten Woche
+
+    {110} - {47} = 63
+Fliegen dazu gekommen.
+
+Fazit
+Es gilt 2 · 27 = 54 < 63, also hat Jasmin recht: In der zweiten Woche sind tatsächlich mehr als doppelt so viele Fliegen hinzugekommen wie in der ersten Woche.
+
+Teilaufgabe f)
+In Abbildung 3 sind die Graphen A und B dargestellt.
+Begründe, dass
+(1) die Funktion f mit f(x)=10⋅1,3^x durch Graph A dargestellt wird und
+(2) die Funktion g mit g(x)=20⋅1,13^x durch Graph B dargestellt wird.
+[Abbildung]
+[3 Pkte]
+Lösung:
+Lösungsidee:
+- Ermittle aus der Abbildung für beide Graphen A und B jeweils zwei Punkte, durch welche sie verlaufen und überprüfe, dass diese mit den entsprechenden Werten von f und g übereinstimmen.
+Graph A verläuft durch die Punkte (0|10) und (3|22).
+Für die Funktion f gilt
+    f(0) = 10 · 1,3^{0} = 10
+    f(3) = 10 · 1,3^{3} = 21,97 ≈ 22
+und damit gehört Graph A zu f.
+
+Graph B hingegen verläuft durch die Punkte (0|20) und (3|29).
+Weil für die Funktion g gilt, dass
+    g(0) = 20· 1,13^0 = 20
+    g(3) = 20 · 1,13^3 = 28,8… ≈ 29
+gehört also Graph B zu g.
+[note: Du kannst auch andere Punkte als die Obigen benutzen]
+Anstatt zum Beispiel den Punkt (3|22) bei Graph A herzunehmen, könntest du auch mit dem Punkt (5|37) argumentieren.
+Wichtig ist eigentlich nur, dass du die Funktionen an jeweils zwei Punkten überprüfst.
+Es ist aber natürlich hilfreich, Punkte zu wählen, an denen man den Graph gut ablesen kann. Beispielsweise ist es für den x-Wert 6 schwieriger, den zugehörigen y-Wert von Graph A abzulesen.
+
+Teilaufgabe g)
+Bestimme mithilfe von Abbildung 3 den Tag, an dem die Zuchtboxen A und B etwa gleich viele Fruchtfliegen enthalten und gib die Anzahl an.
+
+[2 Pkte]
+Lösung:
+Lösungsidee:
+- Überlege dir, wie du in der Skizze erkennen kannst, wann die Anzahl der Fruchtfliegen in beiden Zuchtboxen ungefähr gleich groß ist.
+Die Anzahl der Fruchtfliegen in den Zuchtboxen A und B wird von den Funktionen fund g beschrieben. Sind also in beiden Zuchtboxen gleich viele Fliegen, so müssen sich die Graphen von f und g, also Graphen A und B schneiden.
+Aus der Abbildung erkennt man, dass der Schnittpunkt von Graph A und Graph B bei ca. (5|37) liegt.
+Also sind nach ungefähr 5 Tagen in beiden Zuchtboxen ca. 37 Fruchtfliegen vorhanden.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315465 – https://de.serlo.org/mathe/315465/aufgabengruppe – Lizenz 27]
+Lautsprecher
+Chris möchte sich einen Lautsprecher kaufen. Er vergleicht dazu Maße und Volumen des zylinderförmigen Modells Echo mit den Maßen und dem Volumen des näherungsweise kugelförmigen Modells Dot (Abbildung 1).
+[Abbildung]
+
+Teilaufgabe a)
+Das Volumen des zylinderförmigen Modells Echo beträgt ca. 906 cm^3.
+Berechne die Höhe des Lautsprechers.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Zylinder
+Lösungsidee:
+- Verwende die Formel für das Volumen eines Zylinders: V = π · r^2· h.
+- Berechne den Radius r durch Halbierung des Durchmessers r = (d)/(2).
+- Stelle die Formel nach der Höhe h um.
+
+Berechnung des Radius
+r = (d)/(2)=(8,8)/(2)=4,4
+
+Umstellen der Formel nach h
+V = π · r^2· h
+h = (V)/(π · r^2)
+
+Berechnung der Höhe
+h = (906)/(π · 4,4^2) = 14,90
+
+Die Höhe des Lautsprechers beträgt ca. 14,9 cm.
+
+Teilaufgabe b)
+Als Näherungslösung berechnet Chris für das Modell Dot das Kugelvolumen. Als Ergebnis erhält er ca. 524 cm^3.
+Bestätige durch eine Rechnung das Kugelvolumen.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Kugel
+Lösungsidee:
+- Verwende die Formel für das Volumen einer Kugel : V = (4)/(3)· π · r^3.
+- Berechne den Radius r durch Halbierung des Durchmessers r = (d)/(2).
+- Setzte den Wert für r in die Formel ein und berechne somit das Kugelvolumen.
+- Vergleiche deinen berechneten Wert mit dem Wert aus der Angabe.
+
+Berechnung des Radius
+r = (d)/(2)=(10)/(2)=5
+
+Berechnung des Volumens
+V = (4)/(3)· π · 5^3 = 523,60
+
+Das Kugelvolumen beträgt ca. 523,6 cm^3.  Das Ergebnis entspricht ungefähr der Berechnung von Chris: 523,6 cm^3 ≈ 524 cm^3
+
+Teilaufgabe c)
+Damit das Modell Dot stabil steht, hat der Hersteller unten ein Kugelsegment abgetrennt. Das Volumen des abgetrennten
+Kugelsegments (Abbildung 2) wird mit folgender Formel berechnet:
+
+V_{Kugelsegment} = π · b^2· (r- (b)/(3))
+
+b ist die Höhe des abgetrennten Kugelsegments und r der Radius der Kugel.
+Bestätige mit einer Rechnung, dass das Volumen des abgetrennten Kugelsegments ca.
+3 % des Kugelvolumens entspricht.
+[Abbildung]
+[4 Pkte]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+Lösungsidee:
+- Setze die bekannten Werte in die gegebene Formel ein und berechne das Volumen des Kugelsegments
+- Verwende das Volumen des kugelförmigen Modells aus Aufgabe b) und berechne den Anteil des abgetrennten Stücks am Gesamtvolumen
+Volumen des Kugelsegments
+
+Gegeben sind:
+- b=1,1 cm Höhe des abgetrennten Segments
+- r=5 cm Radius der Kugel
+V_Kugelsegment=π · b^2 · (r - (b)/(3) )
+
+Einsetzen der Werte
+V_Kugelsegment=π · 1,1^2 · ( 5-(1,1)/(3) )
+V_Kugelsegment≈ 17,61
+
+Das Volumen des Kugelsegments beträgt ≈ 17,61 cm^3
+
+Anteil berechnen
+
+(V_Kugelsegment)/(V_Kugel)=(17,61)/(524)≈ 0,03
+
+Das Volumen des Kugelsegments beträgt ca. 3% des gesamten Kugelvolumens.
+
+Teilaufgabe d)
+Chris hat sich das Modell Dot gekauft und erstellt eine Playlist mit Liedern seiner drei Lieblingskünstler (Abbildung 3).
+Die Lieder der Playlist lässt er in zufälliger Reihenfolge abspielen.
+Erläutere, dass die Wahrscheinlichkeit, als erstes ein Lied des Sängers Ed Sheeran zu hören, p = (3)/(10) beträgt.
+[Abbildung]
+[2 Pkte]
+Lösung:
+Voraussetzung: Wahrscheinlichkeit
+Lösungsidee:
+- Zähle die Anzahl der Lieder der Playlist
+- Zähle die Anzahl der Lieder von Ed Sheeran
+- Berechne daraus die Wahrscheinlichkeit
+Die Playlist umfasst insgesamt 10 Titel.
+Von diesen 10 Titeln stammen 3 Lieder von Ed Sheeran.
+Die Wahrscheinlichkeit als erstes ein Lied von Ed Sheeran zu hören, beträgt
+
+p=(Anzahl der Lieder von Ed Sheeran)/(Anzahl der Lieder in der Playlist)=(3)/(10)
+
+Teilaufgabe e)
+Bei der zufälligen Wiedergabe wird aus der Playlist jedes Lied nur genau einmal abgespielt.
+Von einer Künstlerin/einem Künstler können aber mehrere Lieder nacheinander gespielt werden. Das Baumdiagramm
+in Abbildung 4 stellt das Abspielen der ersten beiden Lieder dar.
+Ergänze die sechs fehlenden Wahrscheinlichkeiten im Baumdiagramm.
+[Abbildung]
+[3 Pkte]
+Lösung:
+Voraussetzung: Wahrscheinlichkeit
+Beim ersten Ziehen wird ein Lied aus einer Menge von 10 Liedern ausgewählt.
+
+Beim zweiten Ziehen besteht die Gesamtmenge, aus der ausgewählt wird, nur noch aus 9 Liedern, da jedes Lied nur genau einmal abgespielt wird.
+[Abbildung]
+
+Teilaufgabe f)
+Berechne die Wahrscheinlichkeit, dass die beiden ersten Lieder von Ed Sheeran stammen.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Wahrscheinlichkeit
+Lösungsidee:
+- Berechne die Wahrscheinlichkeit, dass das erste Lied von Ed Sheeran stammt.
+- Berechne mit der neuen Playlist die Wahrscheinlichkeit, dass auch das zweite Lied von Ed Sheeran stammt.
+- Multipliziere die beiden Wahrscheinlichkeiten
+Erstes Lied
+Bei Auswahl des ersten Lieds sind noch 10 Lieder in der Playlist. 3 Lieder davon sind von Ed Sheeran.
+Die Wahrscheinlichkeit, dass als Erstes ein Lied von Ed Sheeran gespielt wird, beträgt P_1=(3)/(10)
+
+Zweites Lied
+Bei der Auswahl des zweiten Lieds sind nur noch 9 Lieder in der Playlist. Davon sind noch 2 Lieder von Ed Sheeran.
+Die Wahrscheinlichkeit, dass als Zweites wieder ein Lied von Ed Sheeran gespielt wird, beträgt P_2=(2)/(9)
+
+Beide Lieder
+Die Wahrscheinlichkeit P, dass sowohl das erste als auch das zweite Lied von Ed Sheeran  ist, beträgt dann:
+
+P=P_1 · P_2=(3)/(10)·(2)/(9)=(1)/(15)≈ 6,7%
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315467 – https://de.serlo.org/mathe/315467/aufgabengruppe – Lizenz 27]
+Dreieck
+Abbildung 1 zeigt das Dreieck ABC mit
+vorgegebenen Maßangaben.
+[Abbildung]
+
+Teilaufgabe a)
+Begründe mithilfe einer Rechnung, dass das Dreieck ABC beim Punkt C einen rechten
+Winkel hat.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+- Entscheide, welche Seite des Dreiecks die Hypotenuse ist und welche Seiten die Katheten.
+- Berechne mit dem Satz des Pythagoras die Länge der Hypotenuse und vergleiche mit der Länge der Seite c.
+Aus der Abbildung kann man ablesen:
+- die längste Seite ist c=10 cm. Dies ist die Hypotenuse, wenn es sich um ein rechtwinkliges Dreieck handelt.
+- Seiten a=6 cm und b=8 cm. Dies sind die Katheten., wenn es sich um ein rechtwinkliges Dreieck handelt.
+Im rechtwinkligen Dreieck gilt der Satz des Pythagoras.
+a^2+b^2=c^2
+
+Setzt man die Werte für die Katheten ein und  löst nach c auf, erhält man:
+    c^2 = 6^2+8^2
+    c^2 = 36+64   | √()
+    c = √(36+64)
+    c = 10
+Damit ist rechnerisch gezeigt, dass es sich um ein rechtwinkliges Dreieck handelt.
+
+Teilaufgabe b)
+Zeige rechnerisch, dass der Flächeninhalt dieses Dreiecks 24 cm^2 groß ist.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Flächeninhalt eines Dreiecks
+Lösungsidee:
+Verwende die Formel zur Berechnung der Fläche rechtwinkliger Dreiecke
+Es handelt sich um ein rechtwinkliges Dreieck, dessen rechter Winkel bei C liegt.
+Der Flächeninhalt A_Δ des rechtwinkligen Dreiecks berechnet sich mit der Formel:
+A_Δ=(a· b)/(2)
+
+Einsetzen der Werte
+A_Δ=(6· 8)/(2)=24
+
+Der Flächeninhalt des Dreiecks beträgt 24 cm^2
+
+Teilaufgabe c)
+Begründe, dass die folgende Gleichung gilt:
+
+                                               (a· b)/(2)=(c· h_c)/(2)
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Flächeninhalt eines Dreiecks
+Lösungsidee:
+- Verwende die allgemeine Formel zur Berechnung des Flächeninhalts eines Dreiecks.
+- Bestimme und begründe, welche Seiten als Grundfläche und Höhe angenommen werden können.
+Der Flächeninhalt A_Δ eines Dreiecks wird allgemein berechnet nach der Formel:
+A_Δ=(Grundseite ·Höhe)/(2)
+
+Für das gegebene Dreieck ist das
+A_Δ=(c· h_c)/(2)
+
+Im rechtwinkligen Dreieck kann jede Kathete als Grundseite angenommen werden und die jeweils andere Kathete als Höhe des Dreiecks, sodass gilt:
+A_Δ=(a· b)/(2) bzw. A_Δ=(b· a)/(2)
+Beide Teile der Gleichung geben den Flächeninhalt des Dreiecks an.
+
+Teilaufgabe d)
+Bestimme rechnerisch die Länge der Strecke h_c.
+
+[2 Pkte]
+Lösung:
+Lösungsidee:
+- Verwende eine Formel zur Berechnung der Fläche
+- Setze bekannte Werte ein
+- Löse nach h_c auf
+Folgende Werte sind bekannt:
+- Fläche des Dreiecks 24 cm^2
+- Länge der Seite c=10 cm
+Mit diesen Werten kann man die Formel (s. Teilaufgabe c)
+A_Δ=(c· h_c)/(2)
+verwenden, um die Höhe h_c zu berechnen.
+    24 = (10· h_c)/(2)   | · 2
+    48 = 10· h_c   | : 10
+    4,8 = h_c
+Die Höhe h_c beträgt 4,8 cm.
+
+Teilaufgabe e)
+Bestimme rechnerisch die Größe des Winkels α.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Sinus, Kosinus und Tangens
+Lösungsidee:
+Verwende eine trigonometrische Gleichung
+Im rechtwinkligen Dreieck gilt:
+\cos{(α)}=(Ankathete)/(Hypotenuse)
+
+Einsetzen der Werte
+\cos{(α)}=(b)/(c)=(8)/(10)
+α≈ 36,9°
+[]
+Im rechtwinkligen Dreieck gilt auch:
+\sin{(α)}=(Gegenkathete)/(Hypotenuse)
+
+Einsetzen der Werte
+\sin{(α)}=(a)/(c)=(6)/(10)
+α≈ 36,9°
+
+Teilaufgabe f)
+Gegeben ist ein gleichschenkliges rechtwinkliges Dreieck mit der Basis c = 10 cm und den beiden Schenkeln a und b.
+(1) Skizziere eine geeignete Planfigur.
+(2) Berechne die Länge der Schenkel.
+
+[(1) 2 Pkte]
+[(2) 2 Pkte]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+In einem gleichschenkligen Dreieck sind 2 Seiten gleich lang.
+Für ein rechtwinkeliges gleichschenkliges Dreieck heißt das, dass die beiden Katheten a und b gleich lang sind.
+[Abbildung]
+Im rechtwinkligen Dreieck gilt der Satz des Pythagoras.
+c^2=a^2+b^2
+Für das gleichschenklige Dreieck gilt b=a
+Daher gilt für das rechtwinklige gleichschenklige Dreieck mit c=10:
+
+    10^2 = a^2+a^2
+    100 = 2a^2   | :2
+    50 = a^2   | √()
+    √(50) = a
+    7,07 ≈ a
+Die Länge der Seite a beträgt ≈ 7,07 cm.
+
+Teilaufgabe g)
+Kai behauptet: „Es gibt auch ein rechtwinkliges Dreieck, bei dem alle drei Seiten gleich lang sind.“
+Entscheide begründet, ob Kais Behauptung stimmt.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Gleichseitiges Dreieck
+Lösungsidee:
+Verwende zur Begründung die Eigenschaften gleichseitiger Dreiecke.
+Für ein gleichseitiges Dreieck gilt, dass alle Innenwinkel gleich groß sind.
+
+Die Summe der Innenwinkel eines Dreiecks beträgt 180°.
+Wenn alle Innenwinkel gleich groß sind, dann hat ein Winkel (180)/(3)=60°
+Es kann also kein rechtwinkliges Dreieck geben, bei dem alle Seiten gleich lang sind.
+
+Kais Behauptung stimmt nicht.

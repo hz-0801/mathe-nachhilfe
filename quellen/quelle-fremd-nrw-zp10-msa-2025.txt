@@ -1,0 +1,491 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau MSA, Prüfungsjahr 2025 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/325646/zentrale-pruefung-zp-10-msa-mathematik-2025 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/325647/pruefungsteil-1-2025; https://de.serlo.org/mathe/325648/pruefungsteil-2-2025
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“; Serlo-Standardvermerk Nr. 1 an einzelnen Aufgaben: „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 2025  (Serlo-ID 325647)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 325699 – https://de.serlo.org/mathe/325699/aufgabe – Lizenz 27]
+Schreibe als ganze Zahl
+
+[3 Pkte]
+[Lückentext:]
+0,6·10^4= [Lücke: 6000] ,  √(49)= [Lücke: 7] ,  (-2)^3 = [Lücke: -8]
+Lösung:
+0,6·10^4=0,6·10000=6000
+√(49)=7
+(-2)^3=(-2)·(-2)·(-2)=4·(-2)=-8
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 325701 – https://de.serlo.org/mathe/325701/aufgabe – Lizenz 27]
+Auf der Insel Texel in den Niederlanden sind die Orte Den Burg und De Koog ungefähr 5 km voneinander entfernt (siehe Abbildung).
+
+Schätze ab, wie lang die Insel von ihrem nördlichsten bis zu ihrem südlichsten Punkt ist und beschreibe, wie du vorgegangen bist.
+[Abbildung]
+[2 Pkte]
+Lösung:
+
+Länge der Insel schätzen.
+Die Länge der Insel ist  von ihrem nördlichsten bis zu ihrem südlichsten Punkt, ungefähr 5-mal so lang wie die Entfernung von Den Burg nach De Koog.
+Die Insel Texel ist dann ungefähr,  5·5=25 Kilometer lang.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325703 – https://de.serlo.org/mathe/325703/aufgabengruppe – Lizenz 27]
+[Abbildung]
+
+Teilaufgabe a)
+Berechne den Flächeninhalt der äußeren, schraffierten Fläche für
+𝑎 = 20 cm, 𝑏 = 8 cm und c=2 cm.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 112 cm²]
+Lösung:
+Voraussetzung: Rechteck
+A_{Rechteck}=l· b
+Die schraffierte Fläche besteht aus 4 Rechtecken. Zwei davon sind jeweils gleich.
+A_{schraffierte Fläche}= 2· a· c+2· b· c
+A_{schraffierte Fläche}=2·20·2+2·8·2=80+32=112
+
+Die schraffierte Fläche ist 112 cm^2 groß.
+
+Teilaufgabe b)
+Gib einen allgemeinen Term zur Berechnung des Flächeninhaltes der inneren, weißen Fläche an. Nutze die Variablen 𝑎, 𝑏 und 𝑐 .
+
+[2 Pkte]
+
+Lösung:
+Voraussetzung: Rechteck
+A_{Rechteck}=l· b
+l=a-2· c
+A_{Rechteck}=(a-2· c)· b
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325705 – https://de.serlo.org/mathe/325705/aufgabengruppe – Lizenz 27]
+Im Koordinatensystem ist der Graph der Funktion 𝑓 mit 𝑓(𝑥)=1,5⋅𝑥−1dargestellt
+[Abbildung]
+
+Teilaufgabe a)
+Bestätige rechnerisch, dass der Punkt 𝑃(4|5) auf der Geraden von 𝑓 liegt.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Lineare Funktion
+Setze die Koordinaten des Punktes P in die Funktionsgleichung ein.
+
+P(4|5)
+f(x)=1,5· x-1
+f(4)=1,5·4-1=6-1=5 \checkmark
+
+Teilaufgabe b)
+Ergänze die Gerade 𝑔(𝑥)=0,5𝑥+3im Koordinatensystem.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Lineare Funktion
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325707 – https://de.serlo.org/mathe/325707/aufgabengruppe – Lizenz 27]
+In einem Behälter befinden sich 3 weiße und 2 schwarze Kugeln. Es wird ohne hinzusehen gezogen.
+
+Teilaufgabe a)
+Begründe, dass die Wahrscheinlichkeit, bei einmaligem Ziehen eine schwarze Kugel zu ziehen, p=(2)/(5) beträgt.
+
+[1 Pkt]
+Lösung:
+Voraussetzung: Baumdiagramm und Pfadregeln
+Anzahl Kugeln gesamt: 5
+Anzahl schwarze Kugeln: 2
+Wahrscheinlichkeit bei einmaligem Ziehen eine schwarze Kugel zu ziehen: p=(2)/(5)
+
+Teilaufgabe b)
+Berechne die Wahrscheinlichkeit, bei zweimaligem Ziehen ohne Zurücklegen zwei weiße Kugeln zu ziehen.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 3/10 ]
+Lösung:
+Voraussetzung: Baumdiagramm und Pfadregeln
+Anzahl Kugeln gesamt: 5
+Anzahl weiße Kugeln: 3
+Wahrscheinlichkeit beim 1. Zug eine weiße Kugel zu ziehen: p=(3)/(5).
+Wahrscheinlichkeit beim 2. Zug eine weiße Kugel zu ziehen, wenn beim 1. Zug bereits eine weiße Kugel gezogen wurde: p=(2)/(4).
+Wahrscheinlichkeit bei zweimaligem Ziehen ohne Zurücklegen zwei weiße Kugeln zu ziehen: p=(3)/(5)·(2)/(4)=(6)/(20)=(3)/(10)
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 325709 – https://de.serlo.org/mathe/325709/aufgabe – Lizenz 1]
+Löse die Gleichung:
+(4)/(5)x+40=48
+Lösung:
+    (4)/(5)x+40 = 48   | ·5
+      (multipliziere)
+    4x+200 = 240   | -200
+      (subtrahiere)
+    4x = 40   | :4
+      (dividiere)
+    x = 10
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 326174 – https://de.serlo.org/mathe/326174/aufgabe – Lizenz 1]
+Löse die Gleichung:
+(4)/(5)x+40=48
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 10 ]
+Lösung:
+    (4)/(5)x+40 = 48   | -40
+      (subtrahiere)
+    (4)/(5)x = 8   | ·5
+      (multipliziere)
+    4x = 40   | :4
+      (dividiere)
+    x = 10
+
+==============================================================================
+Prüfungsteil 2 2025  (Serlo-ID 325648)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325711 – https://de.serlo.org/mathe/325711/aufgabengruppe – Lizenz 27]
+Aufgeblasen
+Lino möchte das Volumen eines Luftballons bestimmen. Er misst dafür bei einem Luftballon einen Umfang von 55,8 cm (Abbildung 1).
+[Abbildung]
+
+Teilaufgabe a)
+Lino betrachtet den Luftballon vereinfacht als Kugel.
+Bestätige durch eine Rechnung, dass er so das Volumen des Ballons mit 2950 cm^3 abschätzen kann.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Kugel
+V_{Kugel}=(4)/(3)· π· r^3
+V_{Kugel}=(4)/(3)· π· 8,9^3=2952,9...
+Das Volumen der Kugel beträgt ungefähr 2950 cm^3.
+
+Teilaufgabe b)
+
+Begründe, warum das tatsächliche Volumen des Luftballons größer sein muss als die Abschätzung durch diese Kugel.
+
+[3 Pkte]
+Lösung:
+Der horizontale Umfang und damit der Durchmesser ist kleiner als der vertikale Umfang, also die Höhe des Ballons.
+Deswegen ist das Volumen des Ballons größer als das einer Kugel mit dem Durchmesser aus der horizontalen Messung.
+
+Teilaufgabe c)
+Lino möchte das Volumen des Ballons noch genauer bestimmen. Dafür verwendet er einen Glaszylinder mit einer Grundfläche von 530 cm^2 und füllt 8 Liter Wasser hinein.
+Berechne die Höhe des Wasserstands in dem Glaszylinder.
+
+[3 Pkte]
+
+[Eingabefeld – richtige Eingabe: 15,1 cm]
+Lösung:
+Voraussetzung: Zylinder
+V_{Zylinder}=G· h
+h=(V)/(G)
+Volumeneinheiten:  1 l=1000 cm^3
+Volumen des Wassers: 8 l=8000 cm^3
+Grundfläche des Zylinders:  G=530 cm^3
+
+h=(8000)/(530)=15,09....≈ 15,1
+
+Das Wasser steht im Glaszylinder ca. 15,1 cm hoch.
+
+Teilaufgabe d)
+Nun taucht Lino den Ballon ganz in das Wasser. Der Ballon verdrängt dabei die Wassermenge, die seinem Volumen entspricht. Dadurch steigt der Wasserspiegel im Zylinder um 5,7 cm.
+(Abbildung 2).
+
+[3 Pkte]
+
+[Abbildung]
+Zeige, dass der Luftballon ein Volumen von ca. 3 020 cm^3 hat.
+Lösung:
+Voraussetzung: Zylinder
+Berechne den Zuwachs des Volumens, der durch die Verdängung der Wassermenge entsteht.
+V=G· h
+V=530·5,7=3021
+Der Luftballon hat ein Volumen von etwa 3020 cm^3.
+
+Teilaufgabe e)
+Berechne, um wie viel Prozent das durch eine Kugel abgeschätzte Volumen von 2 950 cm^3 kleiner ist als das durch Eintauchen bestimmte Volumen von 3 020 cm^3.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 2,3 %]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+p:  Prozentsatz
+W: Prozentwert
+G: Grundwert
+
+p=(W)/(G)
+p=(2590)/(3020)=0,9768...≈ 0,977
+100%-97,7%=2,3 %
+
+Die Näherung über die Kugel ist um 2,3 % kleiner als die Messung des Volumens durch das Eintauchen des Ballons ins Wasser.
+
+Teilaufgabe f)
+Lino möchte zum Geburtstag seines kleinen Bruders einen großen Karton komplett mit Luftballons füllen, die alle jeweils ein Volumen von etwa 3 Litern haben.
+Er behauptet: „Wenn ich den Rauminhalt des Kartons durch das Volumen eines Ballons teile, weiß ich genau, wie viele Ballons ich brauche.“
+Linos Behauptung ist falsch.
+Entscheide begründet, ob die Berechnung zu viele oder zu wenige Ballons ergibt.
+
+[3 Pkte]
+Lösung:
+Wenn man einen Karton mit Luftballons füllt, bleiben zwischen den einzelnen Ballons immer Zwischenräume frei. Teilt man den Rauminhalt des Kartons durch das Volumen eines Ballons, erhält man eine größere Anzahl Ballons.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325713 – https://de.serlo.org/mathe/325713/aufgabengruppe – Lizenz 27]
+Bienen
+
+In Deutschland werden immer mehr Bienenvölker gehalten. Abbildung 1 zeigt die Anzahl an Bienenvölkern in Tausend in Deutschland von 2007 bis 2022.
+[Abbildung]
+
+Teilaufgabe a)
+Beurteile die Aussagen mithilfe des Diagramms. Kreuze an.
+[Abbildung]
+[3 Pkte]
+[Auswahl:]
+  ( ) Die Anzahl an Bienenvölkern im Jahr 2007 hat sich bis 2022 um genau 50% erhöht.
+  ( ) In den angegebenen Jahren ist die Anzahl der Bienenvölker in Deutschland durchgängig gestiegen.
+  (x) Im Jahr 2022 gab es fast 1 Million Bienenvölker in Deutschland.
+  (x) Die Anzahl an Bienenvölkern ist 2013 auf 2016 am stärksten gewachsen.
+Lösung:
+1. Aussage:
+Anzahl der Bienenvölker in Tausend.
+Anzahl Bienenvölker im Jahr 2007: 670
+Anzahl Bienenvölker im Jahr 2022: 996
+670·0,50=335
+670+335=1005\ne996
+Die 1. Aussage ist falsch.
+
+2. Aussage:
+Anzahl der Bienenvölker in Tausend.
+Die Aussage ist falsch, weil die Anzahl der Bienenvölker zwischen 2010 und 2013 von 695 auf 685 gesunken ist.
+
+3. Aussage:
+Die Aussage ist richtig, denn mit 996 000 Bienenvölkern gab es 2022 fast
+1 Million Bienenvölker in Deutschland.
+
+4. Aussage:
+Wachstum von 2007 auf 2010: 695-670=25
+Wachstum von 2010 auf 2013: 685-695=-10
+Wachstum von 2013 auf 2016: 822-685=137
+Wachstum von 2016 auf 2019: 942-822=120
+Wachstum von 2019 auf 2022: 996-942=54
+Die Ausage ist richtig.
+[Abbildung]
+
+Teilaufgabe b)
+Caro behauptet: „Die prozentuale Zunahme der Anzahl der Bienenvölker ist von 2016 auf 2019 und von 2019 auf 2022 nahezu gleichgeblieben.“
+Entscheide begründet, ob die Behauptung stimmt.
+
+[3 Pkte]
+Lösung:
+Von 2016 auf 2019 kommen 120 Tsd. Bienenvölker hinzu.
+Von 2019 auf 2022 kommen 54 Tsd. Bienenvölker hinzu.
+Da von 2019 auf 2022 die absolute Anzahl der Bienenvölker, die dazu gekommen sind, abgenommen hat, kann der prozentuale Zuwachs nicht gleichgeblieben sein. Daher ist die Behauptung falsch.
+
+Teilaufgabe c)
+Bienen sammeln ihren Honig in Waben, die sie selbst bauen (Abbildung 2).
+1 dm^2 Waben besteht aus ca. 850 Zellen. Eine Zelle kann mit bis zu 0,42 g Honig gefüllt sein.
+Entscheide rechnerisch, ob 3 dm^2 Waben ausreichen können, um 1 kg Honig zu erhalten.
+
+[3 Pkte]
+Lösung:
+1 dm^2 besteht aus 850 Zellen.
+Eine Zelle kann mit bis zu 0,42 g Honig gefüllt sein.
+=>
+3 dm^2 bestehen aus 2550 Zellen.
+2550·0,42=1071
+1071 g=1,071 kg >1 kg
+3 dm^2 können also ausreichen um 1 Kilo Honig zu enthalten.
+
+Teilaufgabe d)
+Den Aufbau von Honigwaben kann man als mathematisches Muster betrachten. Man beginnt mit einer Anfangszelle. Alle anderen baugleichen sechseckigen Zellen werden lückenlos rings um diese Zelle gelegt.
+
+[Abbildung]
+Begründe mithilfe der Abbildung 3, dass die Anzahl der Zellen im Muster nicht linear wächst.
+
+[2 Pkte]
+Lösung:
+Bereits in den abgebildeten Waben mit einem und mit zwei Ringen erhöht sich die Anzahl der Zellen einmal um sechs und einmal um zwölf, also nicht gleichmäßig. Daher liegt kein lineares Wachstum vor.
+
+Teilaufgabe e)
+Die Anzahl der Zellen kann mit folgender Formel berechnet werden:
+s_n=1+3· n+3· n^2    (n: Anzahl an Ringen)
+Berechne die Anzahl der Zellen für 𝑛=3 Ringe.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 37 ]
+Lösung:
+s_n=1+3· n+3· n^2
+Berechnung für n=3.
+s_3=1+3·3+3·3^2=1+9+27=37
+
+Eine Wabe aus 3 Ringen besteht aus 37 Zellen.
+
+Teilaufgabe f)
+Bestimme rechnerisch die Anzahl der Zellen, die von einer Wabe mit 5 Ringen zu einer Wabe mit 6 Ringen neu hinzukommen.
+
+[3 Pkte]
+
+[Eingabefeld – richtige Eingabe: 36 ]
+Lösung:
+Wabe mit 5 Ringen: s_5=1+3·5+3·5^2=1+15+75=91
+Wabe mit 6 Ringen: s_6=1+3·6+3·6^2=1+18+108=127
+127-91=36
+Eine Wabe mit 6 Ringen hat 36 Zellen mehr, als eine Wabe mit 5 Ringen.
+
+Teilaufgabe g)
+Bestimme, aus wie vielen Ringen eine Wabe mit 217 Zellen besteht.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 8 ]
+Lösung:
+Bereits bekannt: s_6 besteht aus 127 Zellen.
+s_7=1+3·7+3·7^2=1+21+147=169
+s_8=1+3·8+3·8^2=1+24+192=217
+
+Eine Wabe mit 217 Zellen besteht aus 8 Ringen.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325715 – https://de.serlo.org/mathe/325715/aufgabengruppe – Lizenz 27]
+Dreieck und Parabel
+Meltem zeichnet durch die Punkte A(-3|0) , B(3|0) und C(0|4,5) das gleichschenklige Dreieck 𝐴BC
+(Abbildung 1)
+[Abbildung]
+
+Teilaufgabe a)
+Berechne den Flächeninhalt des Dreiecks.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 13,5 cm²]
+Lösung:
+Voraussetzung: Flächeninhalt eines Dreiecks
+A=(1)/(2)· g· h
+A=(1)/(2)·6·4,5=13,5
+Das Dreieck hat einen Flächeninhalt von 13,5 cm^2.
+
+Teilaufgabe b)
+Bestimme den Umfang des Dreiecks.
+
+[3 Pkte]
+
+(Runde auf eine Dezimalstelle)
+
+[Eingabefeld – richtige Eingabe: 16,8 cm]
+Lösung:
+Voraussetzung: Dreieck
+Umfang des Dreiecks: U= AB+BC+AC
+AC=BC
+
+Länge der Strecke AB: |AB|=6 cm
+
+Länge der Strecke AC:
+Verwende für die Berechnung den Satz des Pythagoras.
+|AC|=√(3^2+4,5^2)=5,408...
+Länge der Strecke AC: |AC|=5,408... cm
+
+U=|AB|+2·|AC|
+U=6+2·5,408...=16,816...≈16,8
+
+Das Dreieck hat einen Umfang von rund 16,8 cm.
+
+Teilaufgabe c)
+Berechne die Größe des Winkels α.
+
+[2 Pkte]
+
+(Runde auf eine Dezimalstelle)
+
+[Eingabefeld – richtige Eingabe: 56,3 Grad]
+Lösung:
+Voraussetzung: Sinus, Kosinus und Tangens
+Das Dreieck mit den Punkten A, dem Ursprung (0|0) und C ist rechtwinklig.
+Es gilt:
+\tan(α)=(Gegenkathete)/(Ankathete)
+\tan(α)=(4,5)/(3)=1,5
+
+α≈56,3°
+
+Teilaufgabe d)
+Meltem zeichnet über dem Dreieck die Parabel f. Die Parabel verläuft durch die Punkte A und B sowie den Punkt 𝐶 als Scheitelpunkt (Abbildung 2).
+[Abbildung]
+Begründe, dass die Funktionsgleichung  f(x)=a·(x+3)·(x-3)  zu der Parabel passt
+und a<0 sein muss.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Einfluss der Parameter in der Scheitelform
+In der Zeichnung kannst du erkennen, dass die Parabel bei x = 3 und x = −3 eine Nullstelle hat.
+
+Überprüfe die Funktionsgleichung für x = 3  und x = −3.
+f(3)=a·(3+3)·(3-3)=a·6·0=0
+f(-3)=a·(-3+3)·(-3-3)=a·0·(-6)=0
+
+Die dargestellte Parabel ist nach unten geöffnet, daher ist a < 0.
+
+Teilaufgabe e)
+Bestimme den Wert des Faktors a mithilfe des Punktes C.
+
+[3 Pkte]
+
+[Eingabefeld – richtige Eingabe: -0,5 ]
+Lösung:
+Voraussetzung: Einfluss der Parameter in der Scheitelform
+Lies die Koordinaten des Punktes C aus der Zeichnung ab:  C(0|4,5)
+⇒ f(0)=4,5
+
+Für die Funktionsgleichung ergibt sich:
+4,5=a·(0+3)·(0-3)
+4,5=a·3·(-3)
+4,5=a·(-9)
+a=(4,5)/(-9)=-(1)/(2)
+a=-(1)/(2)
+
+Teilaufgabe f)
+Meltem verschiebt nun den Punkt C entlang der y-Achse. Die Parabel verläuft weiterhin durch die drei Punkte A, B und C.
+Beurteile die folgenden Aussagen. Kreuze an.
+[Abbildung]
+[3 Pkte]
+[Auswahl:]
+  ( ) Verschiebt Meltem den Punkt C auf der y-Achse nach oben, wird die Parabel gestaucht.
+  (x) Verschiebt Meltem den Scheitelpunkt C auf den Punkt (0|-1), ist die Parabel nach oben geöffnet.
+  ( ) Der Flächeninhalt des Dreiecks bleibt unverändert, wenn Meltem den Punkt C entlang der y-Achse verschiebt.
+Lösung:
+Voraussetzung: Einfluss der Parameter in der Scheitelform
+[Abbildung]
+
+Teilaufgabe g)
+
+Meltem möchte nun erreichen, dass das Dreieck A B C einen rechten Winkel bei C(0 | 4,5) hat und zugleich die drei Punkte A, B und C eine neue Parabel festlegen. Sie möchte aber nur die Lage der Punkte A und B verändern.
+
+(1)  Beschreibe eine Möglichkeit, die Lage der Punkte A und B zu wählen, und  bestimme für diesen Fall die Koordinaten von A und B.
+
+(2) Bestimme die Funktionsgleichung der Parabel durch die drei Punkte.
+
+[3 Pkte]
+Lösung:
+(1) Eine Möglichkeit besteht darin, die Punkte A und B entlang der x-Achse nach außen zu verschieben, sodass ein gleichschenkliges Dreieck entsteht mit den Basiswinkeln von jeweils 45°. Dadurch wird der Winkel bei C genau 90° groß.
+Da in diesem Fall die Höhe des Dreiecks jeweils dem Abstand der Punkte A und B von der y-Achse entsprechen, ergeben sich die Koordinaten A (–4,5 | 0) und
+B (4,5 | 0) als Nullstellen der Parabel.
+
+(2) Über den Ansatz
+
+g(x)=a·(x+4,5)·(x-4,5)     siehe Teilaufgabe d)
+g(0)=4,5                                      Scheitelpunkt der Parabel
+
+=>   4,5=a·4,5·(-4,5)
+a=-(1)/(4,5)
+=>  g(x)=-(1)/(4,5)·(x+4,5)·(x-4,5)

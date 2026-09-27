@@ -1,0 +1,216 @@
+Quelle: Nordrhein-Westfalen, QUA-LiS NRW: „Beispiel für einen ersten Prüfungsteil auf dem Anforderungsniveau MSA mit Hinweisen und Lehrerunterlagen“ (Beispielaufgabe Zentrale Prüfungen 10 Mathematik ab 2023, Prüfungsteil 1 ohne Hilfsmittel; Aufgaben, Beispiellösungen, Bewertungsbogen mit Punkten). PDF-Metadaten: erstellt 2023-02-07.
+Adresse: https://www.standardsicherung.schulministerium.nrw.de/system/files/media/document/file/zp10_m_bsp_pt1_msa.pdf (verlinkt von https://www.standardsicherung.schulministerium.nrw.de/mathematik-msa und …/mathematik-eesa)
+Abruf: 2026-09-27 (curl, frei ohne Anmeldung)
+Seitenzahl: 5 (pdfinfo)
+Lizenzvermerk: kein Vermerk (weder auf der Seite noch in der Datei; Herausgeber QUA-LiS NRW)
+Textfassung: pdftotext -layout; Formeln mit mathematischen Sonderzeichen sind zum Teil verdoppelt oder zerlegt wiedergegeben (Kursivbuchstaben erscheinen doppelt: „𝑥𝑥“ = x), Abbildungen fehlen.
+                                                                                          M MSA A
+
+Name: ____________________________________                                   Klasse: _________
+
+
+
+        Beispielaufgabe Zentrale Prüfungen 10
+                 Mathematik ab 2023
+           Anforderungen für den Mittleren Schulabschluss (MSA)
+
+                  Prüfungsteil 1: Aufgaben ohne Hilfsmittel
+
+Aufgabe 1: Insektenhotel
+Schätze: Wie viele Röhrchen sind von dem Insektenhotel zu sehen?
+Beschreibe, wie du vorgegangen bist.
+
+
+
+
+Aufgabe 2: Größen und Einheiten
+Rechne die Größen in die angegebene Einheit um.
+
+
+2,5 h       = ___________ Sekunden
+1296 cm     = ___________ Meter
+50 g        = ___________ Kilogramm
+
+
+Aufgabe 3: Sonderangebot
+Eine Tüte mit 125 g Plätzchen kostet bisher 1,50 €.
+Ein Supermarkt wirbt: „Sonderangebot: 125 g + 20 % mehr Inhalt – jetzt für nur 1,89 €“.
+
+a) Berechne, wie viel Gramm Plätzchen im Sonderangebot in einer Tüte sind.
+
+
+b) Ist das Sonderangebot im Vergleich zu vorher günstiger? Begründe deine Entscheidung.
+
+
+
+
+                                       Beispielaufgabe ZP10 2023                          Seite 1 von 2
+                                                                                      M MSA A
+
+Name: ____________________________________                                 Klasse: _________
+
+Aufgabe 4: Pyramide
+Eine Pyramide aus Holz hat eine quadratische Grundfläche mit der Seitenlänge 15 cm und eine
+Höhe von 12 cm. 1 cm³ Holz wiegt 0,8 g.
+
+Berechne das Volumen und daraus das Gewicht der Pyramide.
+
+
+
+
+Aufgabe 5: Funktionen
+a) Ordne die rechts abgebildeten Funktionsgraphen von
+   𝑓𝑓, 𝑔𝑔 und ℎ den angegebenen Gleichungen zu.
+
+       𝑓𝑓                          𝑦𝑦 = −0,5𝑥𝑥 + 2
+
+       𝑔𝑔                          𝑦𝑦 = 0,5𝑥𝑥 + 3
+
+       ℎ                            𝑦𝑦 = 2𝑥𝑥 + 3
+
+
+
+
+b) Gib eine lineare Gleichung an, die zu folgender Wertetabelle passt:
+
+        𝒙𝒙      0       1      2
+        𝒚𝒚      2      3,5     5
+
+
+   𝑦𝑦 = _______________________
+
+
+
+Aufgabe 6: Gleichung
+Bestimme den Wert der Variablen 𝑥𝑥. Notiere deinen Lösungsweg.
+12𝑥𝑥 − 5 = 3𝑥𝑥 + 13
+
+
+
+
+                                        Beispielaufgabe ZP10 2023                    Seite 2 von 2
+Qualitäts- und UnterstützungsAgentur –
+Landesinsitut für Schule NRW
+                                                                              M MSA L
+
+
+                       Unterlagen für die Lehrkraft
+        Beispielaufgabe Zentrale Prüfungen 10
+                 Mathematik ab 2023
+               Anforderungen für den Mittleren Schulabschluss (MSA)
+
+
+Beispiellösungen
+Prüfungsteil 1: Aufgaben ohne Hilfsmittel
+Hilfsmittelfrei zu bearbeitende Aufgaben
+
+Aufgabe 1: Insektenhotel
+Das Insektenhotel hat die Form mehrerer Rechtecke.
+In jedem Feld liegen ungefähr 12 Röhrchen unterschiedlicher Größe übereinander
+und 9 Röhrchen nebeneinander, daher sind es insgesamt 12 ∙ 9 ⋅ 3 = 324 Röhrchen.
+
+Hinweis für die korrigierende Lehrkraft:
+Akzeptiert werden Werte, die auf plausiblen Annahmen und angemessenen Begründungen
+basieren.
+
+
+Aufgabe 2: Größen und Einheiten
+2,5 h     = 9 000 Sekunden
+1296 cm = 12,96 Meter
+50 g      = 0,05 Kilogramm
+
+
+Aufgabe 3: Sonderangebot
+a) 125 g : 5 = 25 g, also sind in einer Tüte 150 g.
+
+
+b) 1,50 € ⋅ 120 % = 1,80 € < 1,89 €. Das „Sonderangebot“ ist im Vergleich teurer.
+
+
+
+
+                                    Beispielaufgabe ZP10 2023                Seite 1 von 3
+Qualitäts- und UnterstützungsAgentur –
+Landesinsitut für Schule NRW
+                                                                    M MSA L
+
+Aufgabe 4: Pyramide
+             1
+(1)    V = 3 ∙ 152 ∙ 12 = 225 ⋅ 4 = 900 [cm³]
+
+       Die Pyramide hat ein Volumen von 900 cm³.
+
+                       g           8
+(2)    900 cm³ ∙ 0,8 cm3 �= 900 ⋅ 10 g� = 720 g.
+
+       Die Pyramide wiegt 720 g.
+
+
+Aufgabe 5: Funktionen
+a)
+        𝑓𝑓                      𝑦𝑦 = −0,5𝑥𝑥 + 2
+
+        𝑔𝑔                       𝑦𝑦 = 0,5𝑥𝑥 + 3
+
+        ℎ                          𝑦𝑦 = 2𝑥𝑥 + 3
+
+b) 𝑦𝑦 = 1,5 ⋅ 𝑥𝑥 + 2
+
+
+Aufgabe 6
+12𝑥𝑥 – 5 = 3𝑥𝑥 + 13
+     ⇒ 9𝑥𝑥 = 18
+     ⇒ 𝑥𝑥 = 2
+
+
+
+
+                                       Beispielaufgabe ZP10 2023   Seite 2 von 3
+Qualitäts- und UnterstützungsAgentur –
+Landesinsitut für Schule NRW
+                                                                                                             M MSA L
+
+    Bewertungsbogen zur Prüfungsarbeit im Fach Mathematik
+                    Anforderungen für den Mittleren Schulabschluss (MSA)
+
+
+
+Name des Prüflings: ___________________________                            Klasse/Kursbezeichnung: ______
+
+Schule: ___________________________________________________________________
+
+
+Prüfungsteil 1: Aufgaben ohne Hilfsmittel
+Aufgaben 1 – 6
+
+           Anforderungen                                                            Lösungsqualität
+
+                               Der Prüfling…                           maximal
+                                                                      erreichbare
+                                                                                     EK 1        ZK1           DK1
+                                                                                    Punktzahl   Punktzahl     Punktzahl
+                                                                      Punktzahl
+
+     1     wählt einen geeigneten Ansatz und schätzt die An-                2
+           zahl der Röhrchen.
+     2     rechnet jeweils die Größe in die angegebene Ein-                 3
+           heit um.
+    3a)    berechnet die Menge an Plätzchen.                                2
+    3b)    vergleicht die beiden Angebote.                                  2
+    4(1)   berechnet das Volumen der Pyramide.                              2
+    4(2)   berechnet die Masse der Pyramide.                                1
+    5a)    ordnet die Graphen den Funktionsgleichungen zu.                  2
+    5b)    gibt die lineare Gleichung zur Wertetabelle an.                  2
+     6     bestimmt den Wert der Variablen und notiert den                  2
+           Lösungsweg.
+
+
+           Summe Prüfungsteil 1                                             18
+
+
+
+
+1    EK = Erstkorrektur; ZK = Zweitkorrektur; DK = Drittkorrektur
+
+
+                                               Beispielaufgabe ZP10 2023                                    Seite 3 von 3

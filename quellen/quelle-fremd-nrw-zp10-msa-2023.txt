@@ -1,0 +1,712 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau MSA, Prüfungsjahr 2023 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/307337/zentrale-pruefung-zp-10-msa-mathematik-2023 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/307338/pruefungsteil-1-2023; https://de.serlo.org/mathe/307402/pruefungsteil-2-2023
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 2023  (Serlo-ID 307338)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307345 – https://de.serlo.org/mathe/307345/aufgabengruppe – Lizenz 27]
+Aufgabe 1
+
+Teilaufgabe a)
+Ordne die Zahlen der Größe nach. Beginne mit der kleinsten Zahl. (2 P)
+-0,45 0,38 -2/5
+[Lückentext:]
+[Lücke: -0,45] < [Lücke: -2/5]  < [Lücke: 0,38]
+Lösung:
+Voraussetzung: Umrechnen von Brüchen in Dezimalzahlen
+Lösungsidee:
+Rechne zum einfacheren Vergleich  -(2)/(5) in eine Dezimalzahl um.
+
+Zahlen ordnen
+Rechne den Bruch als Dezimalzahl um:   -(2)/(5)=-0,4
+-0,45<-(2)/(5)<0,38
+
+Teilaufgabe b)
+Gib an, zwischen welchen zwei aufeinanderfolgenden ganzen Zahlen √(20) liegt. (1 P)
+[Lückentext:]
+Zwischen [Lücke: 4] und [Lücke: 5] . (Hinweis: Nenne die kleinere Zahl zuerst. Du kannst die Zahlen in der Auswahl in die Antwortfelder schieben.)
+Lösung:
+Voraussetzung: Einführung in die Quadratwurzel
+Lösungsidee:
+Wähle zwei Quadratwurzeln, die dir bekannt sind, zwischen denen √(20) liegt.
+
+Lösung
+√(16)\lt √(20)\lt √(25)
+4\lt √(20)\lt5
+
+√(20) liegt zwischen den Zahlen 4 und 5.
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307347 – https://de.serlo.org/mathe/307347/aufgabe – Lizenz 27]
+Aufgabe 2
+Berechne das Volumen des abgebildeten Kartons.
+
+Gib dein Ergebnis in Litern ( \ell ) an. (3 P)
+[Abbildung]
+[Eingabefeld – richtige Eingabe: 60 Liter]
+Lösung:
+Voraussetzung: Quader
+Lösungsidee:
+- Berechne das Volumen des Kartons in cm^3
+- Rechne das Volumen in \ell um
+
+Volumen des Quaders
+ V=l· b· h
+V=50· 30· 40=60000
+
+Das Volumen des Kartons beträgt 60000 cm^3.
+
+Umrechnung in Liter
+Umrechnung von Volumeneinheiten:
+ 1\ell=1000cm^3
+Das Volumen des Kartons beträgt 60 \ell.
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307349 – https://de.serlo.org/mathe/307349/aufgabe – Lizenz 27]
+Aufgabe 3
+Löse das lineare Gleichungssystem.
+Notiere deinen Lösungsweg. (3 P)
+
+I 6 x-3 y=15
+II 6 x-8 y=10
+Lösung:
+Voraussetzung: Aufgaben mit zwei Unbekannten
+Lösungsidee:
+- Löse das Gleichungssystem, indem du die Zeilen voneinander subtrahierst.
+- Setze die Lösung für y in einer der Gleichungen ein und bestimme den Wert für x.
+
+Lineares Gleichungssystem lösen
+Ein Gleichungssystem zu lösen bedeutet alle Variablen so zu bestimmen, dass alle Gleichungen des Systems erfüllt werden. Es gibt verschiedene Verfahren, ein Gleichungssystem zu lösen.
+
+Lösungsverfahren:
+Gleichsetzungsverfahren:
+Löse beide Gleichungen nach der gleichen Variablen auf und setze die Ergebnisse gleich.
+
+Einsetzungsverfahren:
+Löse eine Gleichung nach einer Variablen auf und setze diesen Ausdruck in die andere Gleichung ein.
+
+Additionsverfahren:
+Multipliziere eine oder beide Gleichungen so, dass die Koeffizienten einer Variable entgegengesetzt sind und addiere dann die Gleichungen.
+
+Grafische Lösung:
+Zeichne die Geraden, die den Gleichungen entsprechen, und der Schnittpunkt ist die Lösung.
+
+1. Lösung mit dem Gleichsetzungsverfahren:
+
+ I 6x-3y=15
+II 6x-8y=10
+Löse Gleichung I und Gleichung II nach 6x auf.
+
+I' 6x=15+3y
+II' 6x=10+8y
+Da jetzt bei I' und II' die linken Seiten gleich sind, müssen auch die rechten Seiten gleich sein, also folgt:
+
+15+3y=10+8y ⇒Diesen Schritt nennt man "Gleichsetzen".
+
+Löse nach y auf:
+    15+3y = 10+8y   | -10
+    5+3y = 8y   | -3y
+    5 = 5y   | :5
+    1 = y
+Setze y=1 z.B. in Gleichung I' ein⇒ 6x=15+3· 1=18 ⇒ x=3.
+
+Gib die Lösungsmenge an:
+L={3;1}
+
+2. Lösung mit dem Einsetzungsverfahren:
+
+ I 6x-3y=15
+II 6x-8y=10
+Löse Gleichung I nach 6x auf:
+I' 6x=15+3y
+Setze I' in II ein:
+    15+3y-8y = 10
+      (Fasse zusammen.)
+    15-5y = 10   | -10
+      (Löse nach y auf.)
+    5-5y = 0   | +5y
+    5 = 5y   | :5
+    1 = y
+Setze y=1 z.B. in Gleichung I' ein⇒ 6x=15+3· 1=18 ⇒ x=3.
+
+Gib die Lösungsmenge an:
+L={3;1}
+
+3. Lösung mit dem Additionsverfahren:
+I 6x-3y=15
+II 6x-8y=10
+
+Subtrahiere I-II:
+    -3y-(-8y) = 15-10
+      (Fasse zusammen.)
+    5y = 5   | :5
+    y = 1
+Setze y=1 z.B. in I ein:⇒ 6x-3· 1=15 ⇒ 6x=18 ⇒ x=3
+
+Gib die Lösungsmenge an:
+L={3;1}
+
+4. Grafische Lösung
+ I 6x-3y=15
+II 6x-8y=10
+Löse Gleichung I und II jeweils nach y auf:
+I 6x-3y=15 ⇒ 6x-15=3y ⇒ y=2x-5
+II 6x-8y=10 ⇒ 6x-10=8y ⇒ y=(3)/(4)x-(5)/(4)
+[Abbildung: Grafische Lösung]
+Der Schnittpunkt der beiden Geraden S(3| 1) ist die Lösung des Gleichungssystems.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307351 – https://de.serlo.org/mathe/307351/aufgabengruppe – Lizenz 27]
+Aufgabe 4
+[Abbildung]
+
+Teilaufgabe a)
+Kreuze an, welche der angegebenen Funktionsgleichungen zu dem Graphen von f passt. (1 P)
+[Auswahl:]
+  ( ) f(x)=(x+2)^2-3
+  ( ) f(x)=-(x-2)^2+3
+  (x) f(x)=(x-2)^2+3
+Lösung:
+Voraussetzung: Allgemeine Form und Scheitelform einer quadratischen Funktion
+Lösungsidee:
+- Lies den Scheitelpunkt der Parabel aus der Zeichnung ab.
+- Erstelle die Funktionsgleichung in der Scheitelform.
+
+Scheitelpunkt
+ ⇒ S(2|3).
+
+Allgemeine Scheitelform
+f(x)=a(x-d)^2+e
+
+Der Scheitelpunkt hat die Koordinaten S(d|e).
+f(x)=a(x-2)^2+3
+
+Aus der Zeichnung folgt außerdem a=1.
+
+Funktionsgleichung
+f(x)=(x-2)^2+3
+
+Teilaufgabe b)
+Begründe deine Auswahl. (2 P)
+Lösung:
+Voraussetzung: Einfluss der Parameter in der Scheitelform
+
+Begründung
+Die seitliche Verschiebung der Parabel um +2 nach rechts ist aus der Klammer
+(x− 2)^2 ablesbar. +3 bedeutet eine Verschiebung nach oben. Außerdem ist die Parabel nach oben geöffnet.
+
+Es kommt also nur die folgende Funktionsgleichung infrage:
+f(x)=(x-2)^2+3
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307353 – https://de.serlo.org/mathe/307353/aufgabe – Lizenz 27]
+Aufgabe 5
+Linda möchte sich ein Paar Sneaker kaufen.
+Der ursprüngliche Preis beträgt 82 €.
+Die Sneaker werden mit 25 % Rabatt verkauft.
+Berechne den neuen Verkaufspreis. (3 P)
+[Abbildung: (Quelle: Sneaker: pixabay (verändert))]
+[Eingabefeld – richtige Eingabe: 61,50 €]
+Lösung:
+Voraussetzung: Dreisatz
+Lösungsidee:
+- Berechne den Rabatt.
+- Berechne den neuen Verkaufspreis durch Abzug des Rabatts.
+
+Verkaufspreis berechnen
+82 ≙ 100%
+20,50 ≙ 25%
+82,00€-20,50€=61,50€
+
+Der neue Verkaufspreis beträgt 61,50€.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307355 – https://de.serlo.org/mathe/307355/aufgabengruppe – Lizenz 27]
+Aufgabe 6
+Gegeben ist ein Parallelogramm mit den Seitenlängen
+5 cm und 4 cm sowie α=70°.
+[Abbildung]
+
+Teilaufgabe a)
+Gib die Größe des Winkels β an. (1 P)
+[Lückentext:]
+β= [Lücke: 110°/110]
+Lösung:
+Voraussetzung: Parallelogramm
+Lösungsidee:
+In einem Parallelogramm gilt:  α+β =180°
+
+Winkel bestimmen
+In einem Parallelogramm gilt: α+β =180°
+⇒   β=180°-70°=110°
+β=110°
+
+Teilaufgabe b)
+Max behauptet: „Das Parallelogramm hat einen Flächeninhalt von 20 cm^{2}.“
+
+Begründe, dass diese Aussage nicht stimmen kann. (2 P)
+Lösung:
+Voraussetzung: Parallelogramm
+Lösungsidee:
+Für den Flächeninhalt gilt:  A_{Parallelogramm}=a· h
+Untersuche die Länge der Seiten und begründe.
+
+Begründung
+A_{Parallelogramm}=a· h
+a=5 cm
+
+Für die Höhe h gilt aber, sie ist kleiner als die Seite b: h<4 cm
+(Siehe die folgende Abbildung.)
+
+[Abbildung: Parallelogramm mit Höhe]
+⇒   A_{Parallelogramm}<20 cm^2.
+
+==============================================================================
+Prüfungsteil 2 2023  (Serlo-ID 307402)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307414 – https://de.serlo.org/mathe/307414/aufgabengruppe – Lizenz 27]
+Aufgabe 1: Herzlich willkommen
+Eine Firma produziert herzförmige Dekoanhänger aus Metall. Jedes Herz besteht aus einem Quadrat mit der Kantenlänge 6 cm, an das zwei Halbkreise mit einem Radius von jeweils 3 cm angesetzt sind (Abbildung).
+[Abbildung: Abbildung: geometrische Form eines Herzens]
+
+Teilaufgabe a)
+Zeichne ein Herz in Originalgröße in dein Heft. (3 P)
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+- Zeichne erst das Quadrat. Berechne hierfür die Diagonale mit dem Satz des Pythagoras.
+- Ergänze die beiden Halbkreise an den oberen Seiten.
+
+Schritt 1: Zeichne das Quadrat
+Zeichne zuerst die senkrechte Linie.
+
+Berechne dazu die Länge der Strecke zwischen oberer und unterer Ecke.
+
+Hierfür verwenden wir den Satz des Pythagoras:
+
+    x^2=6^2+6^2\\x=√(72)\\x=8,5
+[Abbildung]
+- Der Mittelpunkt der Strecke liegt bei 8,5:2=4,25 cm.
+- Zeichne die waagerechte Linie mit 4,25 cm in jede Richtung.
+- Zuletzt verbinden wir die Eckpunkte und erhalten so unser Quadrat mit einer Seitenlänge von 6 cm.
+[Abbildung]
+
+Schritt 2: Ergänze die beiden Halbkreise
+Setze hierfür in den Mittelpunkt der beiden oberen Seiten deinen Zirkel mit dem Radius 3 cm an und zeichne jeweils einen Halbkreis.
+
+Teilaufgabe b)
+Bestätige rechnerisch, dass ein Herz einen Flächeninhalt von ca. 64,3cm^2 hat. (3 P)
+Lösung:
+Voraussetzung: Flächeninhalt zusammengesetzter Figuren
+Lösungsidee:
+- Berechne die einzelnen Teilflächeninhalte (Quadrat und zwei Halbkreise)
+- Berechne nun den Gesamtflächeninhalt
+
+Berechnung der Gesamtfläche
+A_{Quadrat}=6·6 = 36
+A_{Halbkreis}= (1)/(2)· π· 3^2=14,14
+
+A_{Gesamt}=A_{Quadrat}+2· A_{Halbkreis}=36+2· 14,14=64,3
+
+Das Herz hat also eine Gesamtfläche von 64,3 cm^2.
+
+[Abbildung]
+
+Teilaufgabe c)
+Die Herzen werden aus dünnen Metallblechen hergestellt. 1 dm^{2} des Metallblechs wiegt 117 g.
+
+Berechne das Gewicht eines Herzens. (2 P)
+[Eingabefeld – richtige Eingabe: 74,88, 75, 75,2, 74,9 g]
+Lösung:
+Voraussetzung: Flächeninhalt zusammengesetzter Figuren
+Lösungsidee:
+Du kennst das Gewicht für  1 dm^2.
+- Berechne mithilfe der Gesamtfläche das gesamte Gewicht eines Herzens.
+Wir wissen, dass 1 dm^2 117 g wiegt.
+Wir müssen also den Flächeninhalt zunächst in dm^2 umrechnen:
+64,3 cm^2 = 0,64 dm^2
+Daher gilt:
+
+    Gesamtgewicht=117· 0,64=74,88
+
+Ein Herz wiegt also 74,88 g
+
+Teilaufgabe d)
+Um die Breite b eines Herzens zu bestimmen, wird eine Skizze angefertigt (Abbildung). Hier gilt: Die Strecke A B entspricht der Breite b . A B geht durch die Mittelpunkte M_{1} und M_{2} der angesetzten Halbkreise.
+
+Zeige durch eine Rechnung, dass die Strecke M_1M_2 eine Länge von etwa 4,24 cm hat. (3 P)
+[Abbildung: Skizze zur Berechnung der Breite b und der Höhe h]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+- Bei \bigtriangleup M_1M_2C handelt es sich um ein rechtwinkliges Dreieck.
+- Wende den Satz des Pythagoras an.
+- Uns fällt auf, dass es sich bei \bigtriangleup M_1M_2C um ein rechtwinkliges Dreieck handelt.
+- Auch hier kennen wir bereits die Strecken CM_1 und M_2C. Es handelt sich wieder um den Radius.
+- Betrachtet man das Dreieck, handelt es sich bei M_1M_2 und die Hypotenuse.
+- Nach Satz des Pythagoras gilt:
+M_1M_2^2 = CM_1^2+M_2C ^2\\
+M_1M_2^2 = 3^2+3^2
+M_1M_2 = √(18)
+M_1M_2≈4,24
+
+Teilaufgabe e)
+Berechne die Breite b eines Herzens. (2 P)
+[Eingabefeld – richtige Eingabe: 10,24 cm]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+- Skizziere dir die Breite.
+- Untersuche, aus welchen Teilstrecken sie besteht.
+- Addiere nun alle Längen, die für die Breite des Herzes nötig sind.
+
+Formel für die Breite b
+b = AM_1 + M_1M_2 + M_2B
+AM_1 und M_2B kennen wir bereits: Es handelt sich dabei um den Radius der Halbkreise.
+
+Gesamte Breite b
+Wir setzten unsere Ergebnisse jetzt einfach in unsere Formel aus dem ersten Schritt und erhalten:
+
+b=3+3+4,24=10,24
+Das Herz hat also eine Breite von 10,24 cm.
+[Abbildung: Skizze Dreieck]
+
+Teilaufgabe f)
+Die Herzen werden in den Farben rot und weiß produziert und farblich gemischt in Kartons verpackt. Beim Fabrikverkauf werden die Herzen angeboten. Die Kunden dürfen ohne hinzusehen nacheinander zwei Herzen aus dem Karton ziehen. Zu diesem Zufallsversuch gehört das folgende Baumdiagramm.
+[Abbildung]
+In einem Karton sind 15 Herzen rot, die restlichen Herzen sind weiß.
+
+Begründe, dass sich in dem Karton insgesamt 20 Herzen befinden. (2 P)
+Lösung:
+Voraussetzung: Baumdiagramm und Vierfeldertafel
+Lösungsidee:
+- Betrachte das Baumdiagramm und überlege dir, wofür die angegebene Wahrscheinlichkeit steht.
+- Ordne die Wahrscheinlichkeit einer gegebenen Anzahl von Herzen zu.
+- Berechne mithilfe des Dreisatzes die gesuchten 100 %.
+
+Wir wissen...
+- In dem Karton befinden sich 15 rote Herzen.
+- p(rot)=(3)/(4)   ist die Wahrscheinlichkeit, ein rotes Herz zu ziehen.
+
+Dreisatz anwenden
+15 Herzen entsprechen 75% des Kartoninhalts. Nun berechnen wir die Gesamtanzahl (100%) der Herzen durch einen einfachen Dreisatz:
+    15 Herzen ≙ 75 %   | :15
+    1 Herz = 5 %   | ·20
+    20 Herzen = 100 %
+In dem Karton befinden sich also insgesamt 20 Herzen.
+
+Teilaufgabe g)
+Gesucht ist die Wahrscheinlichkeit, dass zwei verschiedenfarbige Herzen gezogen werden.
+
+(1) Ergänze im Baumdiagramm die dafür notwendigen Wahrscheinlichkeiten. (2 P)
+
+(2) Berechne die gesuchte Wahrscheinlichkeit. (2 P)
+Lösung:
+Voraussetzung: Baumdiagramm und Pfadregeln
+Lösungsidee:
+- Ergänze das Baumdiagramm, indem du dir überlegst, wie viele Herzen insgesamt im Karton ist und wie der Anteil der jeweiligen Farbe ist.
+- Vor dem Rechnen: Markiere diejenigen Kombinationen, die für die gesuchte Wahrscheinlichkeit relevant sind.
+- Berechne die einzelnen Wahrscheinlichkeiten mithilfe der Pfadregel und addiere die relevanten Kombinationen, um die gesuchte Gesamtwahrscheinlichkeit zu erhalten.
+
+Wir zeichnen zunächst das Baumdiagramm:
+- Berechne die Gegenwahrscheinlichkeit zu p(rot) und du erhältst p(weiß): 1-(3)/(4)=\underbrace{(1)/(4)}_{p(weiß)}
+- Wir betrachten zuerst die Pfade, wenn wir beim ersten Mal ein rotes Herz gezogen haben:   - Beim zweiten Zug enthält der Karton nur noch insgesamt 19 Herzen. Davon sind nur noch 14 rot, da beim ersten Zug schon ein rotes Herz weggenommen wurde, also (14)/(19)
+  - Für die Wahrscheinlichkeit, beim zweiten Zug ein weißes Herz zu ziehen, berechnen wir die Gegenwahrscheinlichkeit: 1-(14)/(19)=(5)/(19)
+- Dies wiederholen wir für die Wahrscheinlichkeiten, wenn beim ersten Mal ein weißes Herz gezogen wurde und erhalten so unser Baumdiagramm:
+[Abbildung: Baumdiagramm]
+
+Nun berechnen wir die gesuchte Wahrscheinlichkeit:
+- Wir überlegen uns, bei welchen Kombinationen zwei verschiedenfarbige Herzen gezogen werden:  - Dies ist der Fall für p(rot,weiß) und p(weiß,rot)
+- Hierfür berechnen wir die Wahrscheinlichkeiten mithilfe der Pfadregel:
+    p(verschiedenfarbige Herzen) = p(rot,weiß)+p(weiß,rot)
+    = (3)/(4)·(5)/(19)+(1)/(4)·(15)/(19)
+    = (15)/(38)
+Die Wahrscheinlichkeit, zwei verschiedenfarbige Herzen zu ziehen, beträgt (15)/(38).
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307421 – https://de.serlo.org/mathe/307421/aufgabengruppe – Lizenz 27]
+Aufgabe 2: Varroa-Milbe
+Die Varroa-Milbe ist ein Schädling, der in jedem Bienenvolk lebt. Die Schülerinnen und Schüler der Bienen-AG untersuchen die Milbe mit einem Mikroskop.
+[Abbildung: Abbildung 1: Varroa-Milbe (vergrößert) Quelle: https://www.mikroskopieforum.de/index.php?topic=16864.0 (verändert)]
+
+Teilaufgabe a)
+Berechne die Länge und Breite der Milbe durch Messen der Pfeillängen und Anwenden des Maßstabs (Abbildung 1). (3 P)
+[GeoGebra-Applet]
+[Lückentext:]
+Länge: [Lücke: 2,1] mm
+Breite: [Lücke: 1,6] mm
+Lösung:
+Voraussetzung: Maßstab
+Lösungsidee:
+- Bestimme die Pfeillängen, die die Länge und die Breite der Milbe in der Zeichnung markieren.
+- Bestimme den Maßstab: Wieviel mm entsprechen die angegebenen 0,5 mm in der Zeichnung?
+(Für diese beiden Schritte kannst du das GeoGebra Applet nutzen.)
+
+- Rechne die Pfeillängen mithilfe des Maßstabs um.
+
+Pfeillängen
+Miss die Pfeillängen, die die Länge und Breite der Milbe in der Zeichnung markieren:
+- Länge (Zeichnung): 63 mm
+- Breite (Zeichnung): 48 mm
+
+Maßstab
+Bestimme den Maßstab, in dem du misst, wie viel mm die angegebenen 0,5 mm in der Zeichnung entsprechen.
+- 0,5 mm (in echt) ≙ 15 mm (in der Zeichnung)
+
+Umrechnung
+Rechne die Pfeillängen mithilfe des Maßstabs um.
+- Länge (Zeichnung): 63 mm:15· 0,5 ≙ 2,1 mm (in echt)
+- Breite (Zeichnung): 48 mm:15· 0,5 ≙ 1,6 mm (in echt)
+arrow Die Milbe hat eine Länge von 2,1 mm und eine Breite von 1,6 mm.
+
+Teilaufgabe b)
+Im Frühjahr ermitteln sie die Anzahl der Milben im Bienenvolk.
+
+Im Internet finden sie die Faustregel, dass sich die Anzahl der Milben alle vier Wochen etwa verdoppelt. Sie kalkulieren die voraussichtliche Anzahl der Milben für die kommenden vier und acht Wochen. Die Werte halten sie in einer Tabelle fest.
+[Abbildung]
+Ergänze die fehlenden Werte in der Tabelle. (2 P)
+[Lückentext:]
+|  | Wert 1 | Wert 2 | Wert 3 |
+| Zeit in Wochen | 0 | 4 | 8 |
+| Anzahl der Milben | 308 | [Lücke: 616] | [Lücke: 1232] |
+Lösung:
+Voraussetzung: Exponentielles Wachstum
+Lösungsidee:
+- Berechne zunächst die Anzahl Milben nach 4 Wochen.
+- Nutze die Anzahl Milben nach 4 Wochen, um die Anzahl nach 8 Wochen zu berechnen.
+
+Tabelle vervollständigen
+Die Anzahl der Milben verdoppelt sich alle 4 Wochen. Nach 4 Wochen ist die Anzahl der Milben das doppelte des Ausgangswertes, also:  308 · 2=616 Milben
+
+Die Anzahl Milben nach 8 Wochen ist doppelt so groß, wie die Anzahl nach 4 Wochen. Der Wert nach 8 Wochen ist somit:  616·2=1232 Milben
+
+Trage die Werte in die Tabelle ein.
+|  | Wert 1 | Wert 2 | Wert 3 |
+| Zeit in Wochen | 0 | 4 | 8 |
+| Anzahl der Milben | 308 | 616 | 1232 |
+
+Teilaufgabe c)
+Um die Entwicklung der Milben pro Woche vorauszusagen, beschreiben sie die Anzahl der Milben mit der folgenden Exponentialfunktion f :
+
+f(x)=308 · 1,19^{x} x \text { ist die Zeit in Wochen, } x=0 \text { ist der Beobachtungsbeginn }
+Gib die Bedeutung der Werte 308 und 1,19 im Zusammenhang an. (2 P)
+Lösung:
+Voraussetzung: Exponentielles Wachstum
+Lösungsidee:
+Untersuche den Funktionsterm:
+- Der Faktor 308 hat eine Bedeutung für den Beobachtungsbeginn x=0.
+- Die Basis 1,19 haben mit der Entwicklung zu tun.
+
+Bedeutung im Sachzusammenhang
+Den Wert 308 nimmt die Funktion zum Zeitpunkt x=0 an, er ist also der Anfangswert.
+
+Der Wert 1,19 ist der Wachstumsfaktor. Er ist der Faktor, um den sich die Zahl der Milben innerhalb einer Woche vermehrt.
+
+Teilaufgabe d)
+Bestätige mithilfe der Funktionsgleichung, dass nach 12 Wochen ca. 2500 Milben vorhanden sind. (3 P)
+Lösung:
+Voraussetzung: Exponentielles Wachstum
+Lösungsidee:
+- Setze die gegebene Wochenzahl in die Funktionsgleichung ein.
+- Vergleiche dein Ergebnis mit dem gegebenen Wert.
+
+Anzahl der Milben nach 12 Wochen
+Da in der Funktionsgleichung das x für die Anzahl an Wochen steht, musst du für das x die 12 einsetzen und erhältst:
+
+    f(12)=308·1,19^{12}≈2484} Milben
+Nach 12 Wochen sind somit etwa 2482 Milben vorhanden, also fast 2500.
+
+Teilaufgabe e)
+Bei einer Anzahl von ca. 10000 Milben würde das Bienenvolk so großen Schaden nehmen, dass es nicht überleben kann.
+
+Bestimme, nach wie vielen Wochen die Anzahl von 10000 Milben überschritten wird. (3 P)
+[Eingabefeld – richtige Eingabe: 20,00675, 21 ]
+Lösung:
+Voraussetzung: Logarithmieren
+Lösungsidee:
+- Nutze die Funktionsgleichung aus Teilaufgabe c.
+- Berechne den x-Wert für den Funktionswert 10000.
+Mithilfe der Funktionsgleichung aus Teilaufgabe c kannst du die Anzahl der Wochen bestimmen.
+
+    f(x) = 308·1,19^x
+      (Setze die Anzahl der Milben (10000) für den Funktionswert ein.)
+    10000 = 308·1,19^x   | :308
+    (10000)/(308) = 1,19^x
+      (Logarithmieren)
+    x = \log_{1,19}((10000)/(308))
+    x ≈ 20,00675
+Da der Wert nach etwas mehr als 20 Wochen überschritten wird und wöchentlich gemessen wird, wird das Überschreiten nach 21 Wochen festgestellt.
+
+Teilaufgabe f)
+Damit das Bienenvolk überlebt, wird nach 12 Wochen Ameisensäure eingesetzt. Dadurch wird die Anzahl von ca. 2500 Milben einmalig um 90 % reduziert.
+
+Weise nach, dass durch die Behandlung mit der Ameisensäure die Anzahl von 10000 Milben 21 Wochen nach Beobachtungsbeginn nicht überschritten wird. (3 P)
+Lösung:
+Voraussetzung: Exponentielles Wachstum
+Lösungsidee:
+- Berechne die Milbenanzahl nach der Behandlung mit Ameisensäure.
+- Stelle mit dem berechneten Wert eine neue Funktionsgleichung auf.
+- Berechne die Milbenanzahl nach 21 Wochen.
+
+Anzahl der Milben nach der Behandlung mit Ameisensäure
+Berechne zunächst die Anzahl Milben, die nach der Behandlung mit Ameisensäure übrig sind. Da die Anzahl um 90 % reduziert wird bleiben 10 % Milben übrig.  Berechne die Anzahl Milben mit dem Dreisatz.
+    2500 Milben ≙ 100%
+    25 Milben ≙ 1%
+    250 Milben ≙ 10%
+Nach der Behandlung mit Ameisensäure bleiben 250 Milben übrig.
+
+Aufstellen der Funktionsgleichung
+Die 250 Milben sind nun der neue Ausgangswert. Stelle mithilfe von diesem Ausgangswert die neue Funktionsgleichung auf. Als Wachstumsfaktor kannst du die 1,19 aus Teilaufgabe c übernehmen. Die neue Funktionsgleichung lautet nun:
+
+    g(x)=250 · 1,19^{x}
+
+Berechnen der Milbenanzahl
+Berechne den Wert nach 21 Wochen. Da 12 Wochen bereits vergangen sind bleiben 21-12=9 Wochen der Beobachtung übrig. Setze diesen Wert in die neue Funktionsgleichung ein.
+
+    g(9)=250·1,19^9 ≈ 1196
+
+    1196<10000
+Nach 21 Wochen sind es 1196 Milben und damit deutlich weniger als 10000.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307416 – https://de.serlo.org/mathe/307416/aufgabengruppe – Lizenz 27]
+Aufgabe 3: Zahlenpaare
+Merle hat Spaß an Zahlen und ist immer auf der Suche nach Tricks, um den Rechenaufwand einer Aufgabe zu verringern. Bei der Addition der Zahlen von 1 bis 10 bemerkt sie:
+„Die beiden Zahlen 1 und 10 ergeben zusammen 11, ebenso wie die beiden Zahlen 2 und 9, die Zahlen 3 und 8 usw. Da ich so fünf Zahlenpaare jeweils mit dem Wert 11 bilden kann, muss ich nur 5 · 11 rechnen und erhalte das Ergebnis 55.“ (Abbildung 1)
+[Abbildung: Abbildung 1: Rechentrick für die Addition der Zahlen von 1 bis 10]
+
+Teilaufgabe a)
+Wende Merles Trick auf die Addition der Zahlen von 1 bis 6 an, indem du Abbildung 2 vervollständigst. (2 P)
+[Abbildung: Abbildung 2: Addition der Zahlen von 1 bis 6]
+Lösung:
+Lösungsidee:
+- Ermittle, wie viele Zahlenpaare den gleichen Wert ergeben.
+- Multipliziere mit dem Wert jedes Zahlenpaares
+[Abbildung]
+
+Teilaufgabe b)
+Merle verwendet den Trick für aufwendigere Additionen. Damit die Rechnungen übersichtlich bleiben, ersetzt sie fehlende Summanden durch Pünktchen. In Abbildung 3 ist Merles Berechnung für die Summe der Zahlen von 1 bis 30 dargestellt.
+[Abbildung: Abbildung 3: Addition der Zahlen von 1 bis 30]
+Begründe, dass in den Kästchen die Zahlen 15 bzw. 31 stehen müssen. (2 P)
+Lösung:
+Lösungsidee:
+- Ermittle, wie viele Zahlen addiert werden sollen und wie viele Zahlenpaare den gleichen Wert ergeben.
+- Die Anzahl der Zahlenpaare teilst du durch 2.
+- Bilde die Summe der Zahlenpaare.
+
+Begründung
+Die Anzahl der Zahlen, die addiert werden, beträgt 30. Dieser Wert wird durch 2 dividiert:
+
+    30 : 2 = 15}
+Es gibt also 15 Zahlenpaare. An der ersten Stelle muss deshalb 15} eingesetzt werden.
+Ermittlung des Werts des ersten Zahlenpaares.
+
+    1 + 30 = 31}
+Der Wert jedes Zahlenpaares ist also 31. An der zweiten Stelle muss deshalb 31} eingesetzt werden.
+
+Teilaufgabe c)
+Merle findet einen allgemeinen Term, um die Summe der Zahlen von 1 bis n zu berechnen.
+Sie notiert (1)/(2) n ·(n+1).
+
+(1) Berechne mit dem Term den Wert der Summe für n=40. (2 P)
+(2) Erläutere die Bedeutung der Faktoren (1)/(2) n und (n+1) im Zusammenhang mit dem Rechentrick. (2 P)
+Lösung:
+Voraussetzung: Grundrechenarten
+Lösungsidee:
+- Setze in der Formel für n den Wert 40 ein.
+- Untersuche, wofür die beiden Faktoren stehen.
+
+Berechnung mit n=40
+Einsetzen von n = 40 in die Formel
+    = (1)/(2)n·(n+1)
+      (Einsetzen von 40 für n)
+    = (1)/(2) · 40 · (40 + 1)
+    = 40 · 41 : 2
+    = 820
+
+Erläuterung der Faktoren
+Der zweite Faktor (n+1) ist die Summe eines Zahlenpaares.
+Insgesamt gibt es n Zahlenpaare. Würden jetzt alle n Zahlenpaare addiert, dann wäre jede Zahl zweimal addiert worden. Deshalb darf nur die Hälfte der Zahlenpaare addiert werden.
+
+Dies wird durch den ersten Faktor (1)/(2)n angegeben.
+
+Teilaufgabe d)
+Merle formt den Term um und erhält (1)/(2) n^{2}+(1)/(2) n.
+
+Berechne den Wert der Summe für n=100 mit diesem vereinfachten Term. (2 P)
+[Eingabefeld – richtige Eingabe: 5050 ]
+Lösung:
+Voraussetzung: Grundrechenarten
+Lösungsidee:
+Verwende den Term
+- Setze für n den Wert 100 ein.
+- Berechne das Ergebnis.
+
+Term verwenden und n=100 einsetzen
+    = (1)/(2)n^2+(1)/(2)n
+      (Einsetzen von n = 100)
+    = (1)/(2) · 100^2 + (1)/(2) · 100
+    = (1)/(2) · 10000 + (1)/(2) · 100
+    = 5000 + 50
+    = 5050
+
+Teilaufgabe e)
+(1) Berechne die beiden Lösungen der Gleichung (1)/(2) n^{2}+(1)/(2) n=2080. (4 P)
+(2) Erkläre, warum nur eine Lösung für den Kontext sinnvoll ist. (2 P)
+Lösung:
+Voraussetzung: Quadratische Gleichung
+Lösungsidee:
+- Untersuche, um welchen Typ von Gleichung es sich handelt.
+- Löse die Gleichung nach n auf
+
+Lösung berechnen
+Bei der Gleichung handelt es sich um eine quadratische Gleichung.
+
+Eine Möglichkeit, eine quadratische Gleichung zu lösen, ist die Verwendung der pq-Formel
+    (1)/(2)n^2 +(1)/(2)n = 2080   | -2080
+    (1)/(2)n^2+(1)/(2)n - 2080 = 0   | · 2
+    n^2 + n - 4160 = 0
+      (Anwendung der pq-Formel)
+    n_{1,2} = -(1)/(2) ± √((1)/(4) + 4160)
+    n_{1,2} = -0,5 ± √(4160,25)   | √()
+      (Wurzel berechnen)
+    n_{1,2} = -0,5 ± 64,5
+    n_1 = -0,5 + 64,5
+    n_1 = 64
+    n_2 = -0,5 - 64,5
+    n_2 = -65
+Die Lösung der Gleichung ist L={64;-65}
+
+Erklärung
+Da mit der Gleichung die Summe der natürlichen Zahlen von 1 bis n berechnet werden soll, ist die Lösung n_2 = -65 nicht sinnvoll.
+
+Teilaufgabe f)
+„Bei meinem Rechentrick muss man die Summanden paarweise zusammenfassen. Daher nehme ich an, dass meine Formel für ungerade Zahlen nicht gilt“, meint Merle.
+
+Für ungerade Zahlen n entwickeln Merle und ihr Freund Silas den Term (1)/(2)(n-1) · n+n.
+Silas behauptet: „Es ist egal, welchen Term wir nehmen, da die Terme (1)/(2)(n-1) · n+n und (1)/(2) n^{2}+(1)/(2) n gleichwertig sind."
+
+Zeige durch Termumformungen, dass Silas Behauptung stimmt. (3 P)
+Lösung:
+Voraussetzung: Klammern ausmultiplizieren
+
+Term umformen
+    = (1)/(2)(n-1)· n+n
+      (Klammer auflösen)
+    = (1)/(2)n^2-(1)/(2)n+n
+    = (1)/(2)n^2+(1)/(2)n

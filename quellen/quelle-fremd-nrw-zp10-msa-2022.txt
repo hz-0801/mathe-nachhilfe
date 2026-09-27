@@ -1,0 +1,721 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau MSA, Prüfungsjahr 2022 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/307339/zentrale-pruefung-zp-10-msa-mathematik-2022 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/307341/pruefungsteil-1-2022-variante-1; https://de.serlo.org/mathe/307342/pruefungsteil-1-2022-variante-2; https://de.serlo.org/mathe/307403/pruefungsteil-2-2022
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 2022 - Variante 1  (Serlo-ID 307341)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307357 – https://de.serlo.org/mathe/307357/aufgabengruppe – Lizenz 27]
+Aufgabe 1
+Kreuze an (2 P)
+
+Teilaufgabe a)
+10^{-1}>10^{-2}
+[Auswahl:]
+  (x) Richtig
+  ( ) Falsch
+Lösung:
+Voraussetzung: Potenzen
+Lösungsidee:
+Forme die Potenzen um, sodass du für die Ungleichung entscheiden kannst.
+
+Umformung der Potenzen
+10^{-1}=(1)/(10)
+10^{-2}=(1)/(100)
+(1)/(10)>(1)/(100)
+
+Die Aussage 10^{-1}>10^{-2} ist richtig.
+
+Teilaufgabe b)
+-4^2=(-4)^2
+[Auswahl:]
+  ( ) Richtig
+  (x) Falsch
+Lösung:
+Voraussetzung: Potenzen
+Lösungsidee:
+Multipliziere (-4) mit sich selbst und entscheide.
+
+Berechnung der Werte
+-4^2=-16
+(-4)^2=16
+Die Aussage -4^2=(-4)^2 ist falsch.
+
+Teilaufgabe c)
+2^2 ist die Hälfte von 2^4
+[Auswahl:]
+  ( ) Richtig
+  (x) Falsch
+Lösung:
+Voraussetzung: Potenzen
+Lösungsidee:
+Berechne die Werte und entscheide.
+
+Berechnung der Werte
+2^2=4
+2^4=16
+
+Die Aussage 2^2 ist die Hälfte von 2^4 ist falsch.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307360 – https://de.serlo.org/mathe/307360/aufgabengruppe – Lizenz 27]
+Aufgabe 2
+In dem abgebildeten Dreieck gilt: a=22,4 cm und c=25 cm.
+[Abbildung]
+
+Teilaufgabe a)
+Berechne die Länge der Seite b. (2 P)
+[Eingabefeld – richtige Eingabe: 11,1 cm]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+Berechne die Seite b mit Hilfe des Satzes von Pythagoras.
+
+Länge der Seite b
+Satz des Pythagoras:  a^2+b^2=c^2
+
+b^2=c^2-a^2
+b=√(c^2-a^2)
+b=√(25^2-22,4^2)
+b≈ 11,1
+
+Die Seite b ist ungefähr 11,1 cm lang.
+
+Teilaufgabe b)
+Berechne die Größe des Winkels α. (2 P)
+[Eingabefeld – richtige Eingabe: 63,6 °]
+Lösung:
+Voraussetzung: Sinus, Kosinus und Tangens
+Lösungsidee:
+Verwende eine geeignete Winkelfunktion, bspw. Sinus:
+
+    \sinα=(Gegenkathete)/(Ankathete)
+
+Winkel α
+In einem rechtwinkligen Dreieck gilt:
+
+\sin (α )=(Gegenkathete)/(Hypotenuse)
+\sin (α )=(a)/(c)=(22,4)/(25)=0,896
+α≈ 63,6°
+
+Der Winkel α ist ungefähr 63,6° groß.
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307362 – https://de.serlo.org/mathe/307362/aufgabe – Lizenz 27]
+Aufgabe 3
+Löse das lineare Gleichungssystem. Notiere deinen Lösungsweg. (3 P)
+I 2 x+3 y=20
+II -2 x+8 y=68
+Lösung:
+Voraussetzung: Additions-/Subtraktionsverfahren (1/2)
+Lösungsidee:
+Addiere die beiden Gleichungen um eine Variable zu entfernen.
+
+Addiere die beiden Gleichungen I und II
+    11y = 88   | : 11
+    y = 8
+Setze y in II ein
+    -2x+8·8 = 68   | -64
+    -2x = 4   | :(-2)
+    x = -2
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307364 – https://de.serlo.org/mathe/307364/aufgabe – Lizenz 27]
+Aufgabe 4
+Ergänze: (2 P)
+[Lückentext:]
+(2x+ [Lücke: 3y] )^2=4x^2+  [Lücke: 12xy] +9y^2
+Lösung:
+Voraussetzung: Binomische Formeln
+Lösungsidee:
+Vergleiche die Terme mit den Ergebnissen ersten binomischen Formel.
+1. Binomische Formel: (a+b)^2=a^2+2ab+b_{ }^2
+
+Vergleiche die Terme
+
+b=√(9y^2)=3y
+2ab=2x· 3y=12xy
+(2x+3y)^2=4x^2+12xy+9y^2
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307366 – https://de.serlo.org/mathe/307366/aufgabe – Lizenz 27]
+Aufgabe 5
+Der „General Sherman Tree“ ist ein Riesenmammutbaum und steht im US-Bundesstaat Kalifornien.
+
+Bestimme näherungsweise den Durchmesser des Baumes in Schulterhöhen des Mannes.
+
+Beschreibe dein Vorgehen. (3 P)
+[Abbildung: Quelle: https://pixabay.com/de/photos/mammutb%C3%A4ume-mammutbaum-holz-53184/]
+Lösung:
+
+Bestimmen des Durchmessers
+Der Durchmesser beträgt etwa vier Schulterhöhen des Mannes.
+
+Das kann zum Beispiel bestimmt werden, indem mit dem Lineal grob die Maße verglichen werden.
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307368 – https://de.serlo.org/mathe/307368/aufgabengruppe – Lizenz 27]
+Aufgabe 6
+Die Weltgesundheitsorganisation (WHO) empfiehlt eine körperliche Aktivität von mindestens 2,5 Stunden pro Woche.
+
+Das Diagramm zeigt den Anteil der Männer und Frauen, die mindestens 2,5 Stunden pro Woche körperlich aktiv sind. (4 P)
+
+Quelle: eigene Abbildung, Datengrundlage: WHO 2017 cc-by-sa 3.0
+[Abbildung]
+
+Teilaufgabe a)
+Entscheide mithilfe des Diagramms und kreuze an.
+
+Bei den 30-39-Jährigen ist der Anteil der Männer, die mindestens 2,5 Stunden/Woche körperlich aktiv sind, mehr als doppelt so groß wie bei den Frauen.
+[Auswahl:]
+  (x) Trifft zu
+  ( ) Trifft nicht zu
+Lösung:
+Voraussetzung: Säulendiagramm
+Lösungsidee:
+- Lies die entsprechenden Werte aus dem Säulendiagramm ab.
+- Vergleiche die Werte miteinander.
+
+Entscheidung
+Anteil Männer: 27%
+Anteil Frauen: 12%
+27>2· 12
+Die Aussage trifft zu.
+
+Teilaufgabe b)
+Entscheide mithilfe des Diagramms und kreuze an.
+
+Der Anteil der Männer, die mindestens 2,5 Stunden/Woche körperlich aktiv sind, ist in jeder Altersgruppe höher als der Anteil der Frauen der gleichen Altersgruppe.
+[Auswahl:]
+  (x) Trifft zu
+  ( ) Trifft nicht zu
+Lösung:
+Voraussetzung: Säulendiagramm
+Lösungsidee:
+Vergleiche in allen Altersgruppen die grauen und weißen Säulen miteinander.
+
+Entscheidung
+In allen Altersgruppen sind die grauen Säulen höher als die weißen Säulen.
+
+Die Aussage trifft zu.
+
+Teilaufgabe c)
+Entscheide mithilfe des Diagramms und kreuze an.
+
+Je älter Frauen werden, desto weniger entspricht ihre körperliche Aktivität der Empfehlung der WHO.
+[Auswahl:]
+  ( ) Trifft zu
+  (x) Trifft nicht zu
+Lösung:
+Voraussetzung: Säulendiagramm
+Lösungsidee:
+Vergleiche die Höhe der aufeinander folgenden weißen Säulen miteinander.
+
+Entscheidung
+z.B. Altersgruppe 40-49: 17% > Altersgruppe 30-39: 12%
+
+Die Aussage trifft nicht zu.
+
+Teilaufgabe d)
+In der Gruppe der 18- bis 29-Jährigen gaben 123 Männer an, dass sie mindestens 2,5 Stunden pro Woche körperlich aktiv sind.
+
+Berechne, wieviele Männer in dieser Altersgruppe befragt wurden.
+[Eingabefeld – richtige Eingabe: 300 Männer]
+Lösung:
+Voraussetzung: Dreisatz
+Lösungsidee:
+Berechne die Anzahl der Männer mit Hilfe des Dreisatzes.
+
+Berechnung der Zahl der Männer
+123 der befragten Männer entsprechen 41 %:
+123 ≙41%
+123:41 ≙1%
+(123:41)· 100≙100%
+300≙100%
+Es wurden 300 Männer befragt.
+
+==============================================================================
+Prüfungsteil 1 2022 - Variante 2  (Serlo-ID 307342)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307370 – https://de.serlo.org/mathe/307370/aufgabe – Lizenz 27]
+Aufgabe 1
+Wandle jeweils in die angegebene Größe um: (3 P)
+[Lückentext:]
+2,25 h=[Lücke: 135] min;
+1238,6 g=[Lücke: 1,2386] kg;
+0,12 m^{3}=[Lücke: 120] \ell
+Lösung:
+Voraussetzung: Umrechnen von Einheiten
+Lösungsidee:
+Rechne die Einheiten jeweils in die gesuchten Größen um.
+
+Umrechnen in die gesuchten Einheiten.
+Stunden (h) in Minuten (min):
+1 h=60 min ⇒ 2,25 h=2,25 · 60 min
+2,25 h=135 min}
+
+Gramm (g) in Kilogramm (kg):
+1 g=(1)/(1000) kg ⇒ 1238,6 g=1238,6·(1)/(1000) kg}
+1238,6 g=1,2386 kg}
+
+Kubikmeter (m^3) in Liter (l):
+1 m^3=1000 dm^3=1000 l ⇒ 0,12 m^3=0,12·1000 l
+0,12 m^3=120 l}
+
+Schreibe die Werte in die entsprechenden Lücken.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307372 – https://de.serlo.org/mathe/307372/aufgabengruppe – Lizenz 27]
+Aufgabe 2
+Gegeben ist der Funktionsgraph einer linearen Funktion.
+[Abbildung]
+
+Teilaufgabe a)
+Ergänze in der Wertetabelle die fehlenden Werte. (2 P)
+[Lückentext:]
+| x | -2 | 0 | 1 | 2 |
+| y | [Lücke: 3] | [Lücke: 2] | [Lücke: 1,5] | [Lücke: 1] |
+Lösung:
+Voraussetzung: Gerade im Koordinatensystem
+Lösungsidee:
+Lies die y-Koordinaten ab und ergänze die Tabelle.
+
+Ablesen der y-Koordinaten und ergänzen der Wertetabelle:
+[Abbildung]
+
+Teilaufgabe b)
+Bestimme die zugehörige Funktionsgleichung: (2 P)
+[Lückentext:]
+ y=[Lücke: -0,5x+2/-1/2x+2]
+Lösung:
+Voraussetzung: Geradengleichung
+Lösungsidee:
+Stelle zuerst die allgemeine Geradengleichung auf.
+
+Bestimmen der Funktionsgleichung:
+Die allgemeine Geradengleichung lautet:
+
+y=m· x+t
+Der y-Achsenabschnitt t ist bekannt ⇒ t=2; siehe Koordinatensystem.
+
+Berechne jetzt die Steigung m indem Du z. B. das Zahlenpaar (-2 | 3) und den y-Achsenabschnitt in die allgemeine Form der Geradengleichung einsetzt und die Gleichung nach m auflöst.
+
+\hspace{5mm}3=-2m+2
+-2m=1
+\hspace{5mm}m=-0,5
+
+Die Funktionsgleichung lautet dann:
+
+y=-0,5x+2 oder y= -(1)/(2)x+2}
+Schreibe eine der beiden Funktionsgleichungen in die Lücke.
+
+Teilaufgabe c)
+Die Gerade soll an der y-Achse gespiegelt werden. Zeichne die gespiegelte Gerade in das Koordinatensystem ein. (2 P)
+Lösung:
+Voraussetzung: Symmetrie von Graphen
+
+Einzeichnen der an der y-Achse gespiegelten Geraden:
+Lege eine Gerade durch die Punkte (-4|0) und (0|2).
+
+[Abbildung]
+
+==============================================================================
+Prüfungsteil 2 2022  (Serlo-ID 307403)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307405 – https://de.serlo.org/mathe/307405/aufgabengruppe – Lizenz 27]
+Aufgabe 1: Rösti
+Ein Unternehmen stellt nach eigenem Rezept aus Kartoffeln sogenannte Rösti her (Abbildung 1 und 2). Dazu wird der Teig in eine zylindrische Form gegossen (Abbildung 3) und anschließend gebacken. Für ein Rösti benötigt man 100 g Teig.
+[Abbildung: Abbildung 1: Rösti aus Kartoffeln]
+[Abbildung: Abbildung 2: Rezept für Rösti-Teig]
+[Abbildung: Abbildung 3: zylindrische Form]
+
+Teilaufgabe a)
+Zeige rechnerisch, dass aus der Teigmenge eines Rezeptes sieben Rösti hergestellt werden können (Abbildung 2). (2 P)
+Lösung:
+Lösungsidee:
+- Addiere die Masse der einzelnen Zutaten des Rezepts.
+- Teile das Gesamtgewicht des Teigs aus einem Rezept durch das Gewicht eines Rösti.
+
+Gesamtmasse des Rezepts
+Bestimme, wie viel der Teig eines Rezepts wiegt, indem du die Masse aller einzelner Zutaten addierst.
+M_{gesamt}=520 g+60 g+110 g+20 g=710 g
+
+Anzahl Röstis
+Teile die Gesamtmasse des Teigs 710 g durch die Teigmasse, die man für ein Rösti braucht. Dies sind 100 g.
+710 g:100 g=7,1
+
+arrow Aus der Teigmenge eines Rezepts können 7,1 - also 7 ganze - Röstis hergestellt werden.
+
+Teilaufgabe b)
+100 g Teig haben ein Volumen von 81 cm^{3}.
+
+Berechne, wie viel Gramm ein Kubikzentimeter Teig wiegt. (2 P)
+[Eingabefeld – richtige Eingabe: 1,23 g]
+Lösung:
+Lösungsidee:
+Teile die Masse durch das Volumen.
+
+Berechnung für einen Kubikzentimeter
+81 cm^3≙ 100g
+1cm^3 ≙100g:81
+1cm^3≈1,23g
+1 Kubikzentimeter wiegt 1,23g.
+
+Teilaufgabe c)
+Ein Rösti soll 2 cm dick sein und ein Volumen von 81 cm^{3} haben.
+
+ Zeige, dass die zylindrische Form einen Durchmesser von ca. 7,2 cm haben muss. (3 P)
+Lösung:
+Voraussetzung: Zylinder
+Lösungsidee:
+- Berechne den Radius des Zylinders mit Hilfe der Volumenformel.
+- Für den Durchmesser multipliziere den Radius mit 2.
+V_{Zylinder}=r^2· π· h
+81=r^2· 3,14· 2 |:(3,14· 2)
+r^2=81:6,28
+r=√( 12,89)
+r=3,59
+
+⇒ d=2· 3,59=7,18≈ 7,2
+Der Durchmesser muss 7,2 cm betragen.
+
+Teilaufgabe d)
+Das Unternehmen möchte zusätzlich Mini-Rösti herstellen. Ein Mini-Rösti soll auch 2 cm dick sein, aber nur das halbe Volumen haben. Ein Mitarbeiter behauptet: „Für ein Mini-Rösti brauchen wir eine Form mit halbem Durchmesser!“ Hat er recht?
+
+Begründe deine Entscheidung. (3 P)
+Lösung:
+Voraussetzung: Zylinder
+Lösungsidee:
+- Berechne das Volumen des Minirösti.
+- Berechne das Volumen des Zylinders mit halbem Durchmesser.
+- Vergleiche beide Werte.
+
+Volumen Minirösti
+ 81 cm^3:2=40,5 cm^3
+
+Volumen des Zylinders mit halbem Durchmesser
+V=r^2·π· h
+V=1,8^2· 3,14· 2
+V=20,35≈ 20,4
+
+Vergleiche die Werte
+20,4<40,5
+Der Mitarbeiter hat nicht Recht. Das Volumen des Zylinders mit halbem Durchmesser ist deutlich kleiner als das Volumen des Minirösti.
+
+Teilaufgabe e)
+Bevor die Rösti verpackt werden, wird zuerst das Gewicht und dann das Aussehen kontrolliert. Alle Rösti, deren Gewicht oder deren Aussehen nicht der Vorgabe entsprechen, werden aussortiert. Das Baumdiagramm zeigt die Anteile. Die Anteile werden im Folgenden als Wahrscheinlichkeiten gedeutet.
+[Abbildung]
+Ergänze die fehlenden Angaben im Baumdiagramm. (2 P)
+Lösung:
+Voraussetzung: Baumdiagramm und Pfadregeln
+
+Beschriftetes Baumdiagramm
+[Abbildung]
+
+Teilaufgabe f)
+Berechne, wie viel Prozent der Rösti insgesamt den Vorgaben entsprechen. (3 P)
+[Eingabefeld – richtige Eingabe: 97,02 %]
+Lösung:
+Voraussetzung: Pfadregeln
+Lösungsidee:
+- Berechne den Prozentwert mit der 1. Pfadregel (Produktregel).
+
+Berechnung mit der 1. Pfadregel (Produktregel)
+Markiere im Baumdiagramm, welcher Pfad die Röstis beschreibt, die den Vorgaben entsprechen:
+[Abbildung]
+Laut der 1. Pfadregel kannst du die Wahrscheinlichkeit entlang eines Pfades berechnen, indem du die Wahrscheinlichkeiten multiplizierst:
+98%·99%=0,98·0,99=0,9702=97,02%
+
+arrow 97,02% der Rösti entsprechen den Vorgaben.
+
+Teilaufgabe g)
+Das Unternehmen kontrolliert an einem Tag 10000 Rösti.
+Wie viele Rösti werden vermutlich aussortiert, weil sie nicht den Vorgaben entsprechen?
+Notiere deine Rechnung. (3 P)
+Lösung:
+Lösungsidee:
+- Berechne den Prozentsatz der Röstis, die nicht den Vorgaben entsprechen.
+- Berechne den Prozentwert.
+
+Prozentsatz bestimmen
+97,02% der Röstis entsprechen den Vorgaben (siehe Teilaufgabe e). Das heißt
+
+    100%-97,02%=2,98%
+ der Röstis entsprechen nicht den Vorgaben. Dies ist der Prozentsatz.
+
+Prozentwert berechnen
+Berechne den Prozentwert der Röstis, die nicht den Vorgaben entsprechen, mit der Prozentformel:
+    P = G· p
+    = 10000·2,98%
+    = 10000·0,0298
+    = 298
+arrow Von den 10000 sortierten Röstis müssen vermutlich 298 aussortiert werden, weil sie nicht den Vorgaben entsprechen.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307407 – https://de.serlo.org/mathe/307407/aufgabengruppe – Lizenz 27]
+Aufgabe 2: Wassermelonen
+Für ein Schulprojekt beschäftigt sich Sinja mit der Form und dem Wachstum von Wassermelonen.
+
+Sinja hat eine nahezu kugelförmige Wassermelone gekauft, die einen Durchmesser von ca. 25 cm hat (Abbildung 1).
+
+[Abbildung: Abbildung 1: aufgeschnittene Wassermelone]
+
+Teilaufgabe a)
+Zeige rechnerisch, dass diese Wassermelone ein Volumen von V ≈ 8200 cm^{3} hat. (3 P)
+Lösung:
+Voraussetzung: Kugel
+Lösungsidee:
+Berechne das Volumen der Kugel.
+
+Volumen berechnen
+
+V_{Kugel} = (4)/(3) · π · r^3
+r=(d)/(2)=12,5
+V_{Melone} = (4)/(3) · π· 12,5^3=8181,230≈8200
+Das Volumen der Wassermelone beträt rund 8200 cm^3.
+
+Teilaufgabe b)
+Die Schale der Wassermelone hat eine Dicke von 1,5 cm (Abbildung 1).
+
+Berechne den prozentualen Anteil des Fruchtfleisches an der ganzen Wassermelone. (3 P)
+[Eingabefeld – richtige Eingabe: 68, 67,99 %]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+Lösungsidee:
+- Berechne das Volumen des Fruchtfleisches.
+- Berechne den prozentualen Anteil des Fruchtfleisches an der Wassermelone.
+
+Volumen des Fruchtfleisches
+V_{Kugel}=4/3 · π · r^3
+r_{Fruchtfleisch}=12,5-1,5=11
+V_{Fruchtfleisch}=4/3 · 3,14· 11^3≈5575,279
+
+Prozentualer Anteil des Fruchtfleisches an der Wassermelone
+p=(W)/(G)
+
+p=(5575,279· 100)/(8200)=67,99≈ 68
+
+Der Anteil des Fruchtfleisches beträgt etwa 68%.
+
+Teilaufgabe c)
+Sinja entdeckt würfelförmige Wassermelonen, die in Japan verkauft werden (Abbildungen 2).
+
+Eine würfelförmige Wassermelone hat ebenfalls ein Volumen von V=8200 cm^3.
+
+Bestätige durch eine Rechnung, dass diese Wassermelone eine Kantenlänge von ca. 20,2 cm hat. (2 P)
+[Abbildung: Abbildung 2: würfelförmige Wassermelone]
+Lösung:
+Voraussetzung: Würfel (Kubus)
+Lösungsidee:
+Berechne die Kantenlänge anhand der Volumenformel eines Würfels.
+
+Kantenlänge berechnen
+V_{Würfel}=a^3
+V_{Würfel}=8200
+a=\sqrt[3]{8200}=20,16≈ 20,2
+
+Die Wassermelone hat eine Kantenlänge von etwa 20,2 cm.
+
+Teilaufgabe d)
+Entscheide durch eine Rechnung, ob die kugelförmige oder die würfelförmige Wassermelone eine größere Oberfläche hat. (4 P)
+Lösung:
+Voraussetzung: Kugel
+Lösungsidee:
+- Berechne die Oberflächen von Kugel und Würfel.
+- Vergleiche diese miteinander.
+
+Oberfläche Kugel
+ O_{Kugel}=4· π · r^2
+O_{Kugel}=4·3,14· 12,5^2=1962,5
+
+Oberfläche Würfel
+O_{Würfel}=a^2· 6
+O_{Würfel}=6· 20,2^2=2448,24
+
+Vergleiche
+2448,24>1962,5
+
+Bei gleichem Volumen hat die würfelförmige Wassermelone eine größere Oberfläche als die kugelförmige Wassermelone.
+
+Teilaufgabe e)
+Wassermelonen verdoppeln ihr Gewicht pro Woche unter idealen Wachstumsbedingungen. Sinja überlegt, wie sich das Gewicht einer 400 g schweren Wassermelone unter idealen Bedingungen voraussichtlich entwickelt. Sie erstellt dazu eine Tabelle. (2 P)
+
+[Abbildung]
+Berechne das Gewicht der Wassermelone nach 4 Wochen.
+[Eingabefeld – richtige Eingabe: 6400 g]
+Lösung:
+Lösungsidee:
+Verdopple den Wert des Gewichts für jede Woche.
+
+Gewicht nach 4 Wochen
+(1600· 2)· 2=6400
+Nach 4 Wochen wiegt die Wassermelone 6400 g.
+
+Teilaufgabe f)
+
+Sinja behauptet: „Der Graph in Abbildung 3 beschreibt das Wachstum dieser Wassermelone.“
+
+Hat Sinja recht? Begründe deine Entscheidung. (3 P)
+[Abbildung: Abbildung 3: Graph zum Wachstum der Wassermelone]
+Lösung:
+Voraussetzung: Wachstumsprozesse - eine Übersicht
+Lösungsidee:
+Untersuche, ob sich im Graph das Gewicht in gleichen Zeitabständen verdoppelt.
+
+Begründung
+Der Graph in der Abbildung 3 stellt ein lineares Wachstum dar, d.h. die Zunahme pro Zeitschritt ist immer gleich. Das Gewicht der Wassermelone verdoppelt sich jedoch pro Zeitschritt.
+
+Sinja hat nicht recht.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307409 – https://de.serlo.org/mathe/307409/aufgabengruppe – Lizenz 27]
+Aufgabe 3: Parabel und Rechteck
+Julia zeichnet mithilfe einer Geometriesoftware die Parabel f mit der Funktionsgleichung f(x)=-0,5 x^{2}+5,5 in ein Koordinatensystem (Abbildung 1).
+[Abbildung: Abbildung 1: Parabel f und Rechteck A_{1} B_{1} C_{1} D_{1}]
+
+Teilaufgabe a)
+Bestätige durch eine Rechnung, dass der Punkt A_{1} (3|1) auf der Parabel f liegt. (2 P)
+Lösung:
+Voraussetzung: Allgemeine Form und Scheitelform einer quadratischen Funktion
+Lösungsidee:
+Setze die x-Koordinate des Punktes A_1 in die Funktionsgleichung ein und überprüfe, ob sich aus der Rechnung der richtige y-Wert ergibt.
+
+Nachweis
+f(x)=-0,5 x^{2}+5,5
+
+Setzte x=3 in die Funktionsgleichung ein:
+
+f(3)=-0,5· 3^2+5,5
+f(3)=-4,5+5,5
+f(3)=1
+Der Punkt A_1=(3|1) liegt auf der Parabel.
+
+Teilaufgabe b)
+Begründe mit den Eigenschaften dieser Parabel, dass der Punkt B_{1}(-3 | 1) ebenfalls auf dem Graphen von f liegt. (3 P)
+Lösung:
+Voraussetzung: Symmetrie von Graphen
+Lösungsidee:
+Begründe mithilfe der Symmetrie der Parabel.
+
+Begründung
+Die Parabel ist achsensymmetrisch zur y-Achse. Spiegelt man den Punkt A_1(3|1) an der y-Achse, so erhält man den Punkt B_1(-3|1). Dieser liegt also ebenfalls auf dem Graphen von f.
+
+Teilaufgabe c)
+Die Punkte C_{1} und D_{1} liegen auf der x-Achse und bilden mit den Punkten A_{1} und B_{1} das Rechteck A_{1} B_{1} C_{1} D_{1}.
+
+Berechne den Umfang dieses Rechtecks. (2 P)
+[Eingabefeld – richtige Eingabe: 14 cm]
+Lösung:
+Voraussetzung: Rechteck
+Lösungsidee:
+- Bestimme die Seitenlängen des Rechtecks.
+- Berechne den Umfang des Rechtecks.
+
+Seitenlängen des Rechtecks
+U_{Rechteck}=2· a+2· b
+a=3+3=6
+b=1
+
+Umfang des Rechtecks
+U_{Rechteck}=2· a+2· b
+U_{Rechteck}=12+2=14
+Der Umfang des Rechtecks beträgt 14 cm.
+
+Teilaufgabe d)
+Ausgehend von anderen Punkten auf der Parabel f kann man auf die gleiche Art weitere Rechtecke zeichnen.
+
+(1) Zeichne den Punkt A_{2}(1 | 5) in Abbildung 1 ein. (1 P)
+(2) Ergänze die drei weiteren Punkte B_{2}, C_{2} und D_{2} und verbinde die vier Punkte zu dem Rechteck A_{2} B_{2} C_{2} D_{2}. (2 P)
+Lösung:
+Voraussetzung: Das Koordinatensystem
+
+Skizze
+[Abbildung]
+
+Teilaufgabe e)
+Mit dem Term\text { (I) }kann man den Umfang für jedes dieser Rechtecke berechnen
+
+\text { (I) } 2 · 2 x+2 ·(-0,5 x^{2}+5,5) \text {. }
+
+Dabei ist x>0 und steht für die x-Koordinate des zum Rechteck gehörenden Punktes A_{1}, A_{2} usw.
+
+Berechne mit dem Term\text { (I) }den Umfang des Rechtecks, das durch den Punkt A_2(1 | 5) festgelegt ist. (2 P)
+Lösung:
+Voraussetzung: Rechteck
+Lösungsidee:
+- Berechne den Umfang mithilfe des Terms (I). Setze dafür die x-Koordinate des Punktes ein.
+
+Berechnung
+    U_{Rechteck} = 2·2x+2·(-0,5x^2+5,5)
+      (Einsetzen der x-Koordinate)
+    = 2·2·1+2·(-0,5·1^2+5,5)
+    = 4+2·(-0,5+5,5)
+    = 4+2·5
+    = 14
+Der Umfang beträgt 14 cm.
+
+Teilaufgabe f)
+Julia vereinfacht den Term\text { (I) }zu\text { (II) }-x^{2}+4 x+11
+
+Zeige durch Termumformungen, dass die beiden Terme\text { (I) }und\text { (II) }gleichwertig sind. (3 P)
+Lösung:
+Voraussetzung: Vereinfachen von Termen mit Klammern
+Lösungsidee:
+- Löse die Klammer auf.
+- Sortiere nach den Exponenten.
+
+Termumformung
+2 · 2 x+2 ·(-0,5 x^{2}+5,5)
+=4x-x^2+11
+=-x^2+4x+11
+
+Teilaufgabe g)
+Julia stellt die folgende Gleichung auf:
+
+-x^{2}+4 x+11=14,75
+
+(1) Löse die Gleichung. (3 P)
+(2) Erkläre das Ergebnis in Bezug auf die Rechtecke unter der Parabel f. (1 P)
+[Lückentext:]
+Lösungen der Gleichung:  L={[Lücke: 1,5] , [Lücke: 2,5]}
+Lösung:
+Voraussetzung: Mitternachtsformel (Quadratische Lösungsformel)
+Lösungsidee:
+- Stelle den Term um, sodass rechts "0" steht.
+- Löse die Gleichung mit der Mitternachtsformel.
+
+Umformung der Gleichung
+    -x^2+4x+11 = 14,75   | -14,75
+    -x^2+4x-3,75 = 0   | ·(-1)
+    x^2-4x+3,75 = 0
+
+Lösung der Gleichung mit der Mitternachtsformel
+Mitternachtsformel:   x_{1,2}=(-b±√(b^2-4ac))/(2a)
+
+x_{1,2}=(4±√((-4)^2-4· 3,75))/(2)
+x_{1,2}=(4±√(16-15))/(2)
+x_1=2,5
+x_2=1,5
+
+Erklärung des Ergebnisses
+Als Lösung der Gleichung erhalten wir zwei x-Werte.   ⇒
+Es gibt es zwei Rechtecke unter dem Graphen, die beide den Umfang 14,75 cm haben.
+Bei einem Rechteck hat der Punkt A die x-Koordinate 2,5, bei dem anderen hat der Punkt A die x-Koordinate 1,5.

@@ -1,0 +1,603 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau EESA (2021/2022 noch HSA), Prüfungsjahr 2022 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/311012/zentrale-pruefung-zp-10-hsa-mathematik-2022 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/311016/pruefungsteil-1-variante-1-2022; https://de.serlo.org/mathe/311017/pruefungsteil-1-variante-2-2022; https://de.serlo.org/mathe/311018/pruefungsteil-2-2022
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 Variante 1 2022  (Serlo-ID 311016)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311075 – https://de.serlo.org/mathe/311075/aufgabe – Lizenz 27]
+Aufgabe 1
+Ordne die Zahlen der Größe nach. Beginne mit der kleinsten Zahl.
+
+             −2,2             -2,57             2,51             √5
+[3 Pkte]
+Lösung:
+Voraussetzung: Wurzelfunktion
+Lösungsidee:
+- Berechne die Wurzel √5 .
+- Ordne dann die Zahlen der Größe nach. Denke dabei an die Lage der Zahlen auf der Zahlengerade.
+√5≈ 2,24
+-2,57<-2,2<√5<2,51
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311078 – https://de.serlo.org/mathe/311078/aufgabengruppe – Lizenz 27]
+Aufgabe 2
+
+Teilaufgabe a)
+Berechne den Flächeninhalt des abgebildeten Quadrats.
+[Abbildung]
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 9 cm²]
+Lösung:
+Voraussetzung: Quadrat
+Fläche: A_{Quadrat}=a^2
+Gegeben: Seitenlänge a=3 cm
+A_{Quadrat}=(3 cm)^2=9 cm^2
+
+Teilaufgabe b)
+Berechne die Länge der Diagonalen d.
+
+[3 Pkte]
+(Berechne die Länge gerundet auf 2 Dezimalstellen)
+[Eingabefeld – richtige Eingabe: 4,24 ]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+In einem rechtwinkligen Dreieck gilt der Satz des Pythagoras.
+d^2=a^2+a^2
+d^2=3^2+3^2=18
+d=√(18)≈ 4,24
+Die Diagonale ist ungefähr 4,24 cm lang.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311081 – https://de.serlo.org/mathe/311081/aufgabengruppe – Lizenz 27]
+Aufgabe 3
+Im Jahr 2017 wurde in Nordrhein-Westfalen ein neuer Landtag gewählt. Das Ergebnis der Wahl ist in der Abbildung dargestellt.
+
+Teilaufgabe a)
+
+Bei der Landtagswahl gaben 8 487 413
+Personen ihre Stimme ab.
+
+Berechne, wie viele Stimmen die CDU
+erhielt.
+[Abbildung]
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 2800846 ]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+W: Prozentwert, G: Grundwert, p: Prozentsatz
+W=p· G
+W=33 % · 8 487 413=0,33· 8 487 413 =2800846,29
+Die CDU hat ungefähr 2 800 846 Stimmen erhalten.
+
+Teilaufgabe b)
+Kreuze an, ob die Aussage wahr oder falsch ist.
+
+[Abbildung]
+Kreuze die wahren Aussagen an.
+
+[2 Pkte]
+[Auswahl:]
+  (x) SPD und CDU erreichten zusammen über 50 % der Stimmen.
+  ( ) Jede fünfte Stimme wurde für „Die Linke" gegeben.
+  ( ) SPD, Grüne und „Die Linke" haben zusammen mehr Stimmen als CDU und FDP zusammen bekomme
+Lösung:
+Lösungsidee:
+Lies die entsprechenden Werte aus dem Balkendiagramm ab.
+SPD: 31,2%,  CDU: 33%
+SPD+CDU= 31,2%+33%=64,2%
+Die erste Aussage ist wahr.
+
+Jede 5. Stimme bedeutet 20%. Die Linke hat jedoch nur 4,9% der Stimmen erhalten.
+Die zweite Aussage ist falsch.
+
+SPD: 31,2%, Grüne: 6,4%, Linke: 4,9%,
+CDU=33%, FDP: 12,6%
+SPD+Grüne+Linke=31,2%+6,4%+4,9%=42,5%
+CDU+FDP =33%+12,6%=45,6%
+Die 3. Aussage ist falsch.
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311086 – https://de.serlo.org/mathe/311086/aufgabengruppe – Lizenz 27]
+Aufgabe 4
+Die Klasse 10e bastelt für das Schulfest ein Glücksrad.
+
+Das Glücksrad wird in verschiedene Felder aufgeteilt (vgl. Abbildung).
+
+H bedeutet „Hauptgewinn“.
+[Abbildung]
+
+Teilaufgabe a)
+Das Glücksrad wird einmal gedreht. Gib die Wahrscheinlichkeit für
+einen Hauptgewinn (H) an.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 1/4 ]
+Lösung:
+Voraussetzung: Relative Häufigkeit
+Lösungsidee:
+- Zähle die Gesamtanzahl der Felder.
+- Zähle die Anzahl der Felder mit einem H für Hauptgewinn.
+Gesamtanzahl der Felder: 12
+Anzahl der Felder mit einem H für Hauptgewinn: 3
+p(H)=(3)/(12)=(1)/(4)
+
+Teilaufgabe b)
+Das Glücksrad soll weiter beschriftet werden. 1/3 aller Felder sollen Nieten sein, die restlichen Felder sollen mit dem Wort „Trostpreis“ beschriftet werden.
+
+Markiere im Glücksrad 1/3 aller Felder als Niete (N).
+
+[2 Pkte]
+
+Lösung:
+Lösungsidee:
+Berechne (1)/(3) von 12.
+Gesamtanzahl der Felder: 12
+(1)/(3) von 12:   12:3=4.
+
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311089 – https://de.serlo.org/mathe/311089/aufgabe – Lizenz 27]
+Aufgabe 5
+Schätze die Anzahl der Pinnwand-Nadeln. Notiere deinen Lösungsweg.
+[Abbildung]
+[3 Pkte]
+Lösung:
+Lösungsidee:
+- Teile das Bild z.B. in 4· 4=16 gleich große Felder ein.
+- Zähle z.B. die Nadeln in zwei verschiedenen Feldern aus.
+[Abbildung]
+1. Feld 10 Nadeln
+2. Feld 11 Nadeln
+Diese 10+11=21 Nadeln stehen stellvertretend für 2 von 16 Feldern. Um die Summe für 16 Felder zu ermitten, musst du die 21 Nadeln mit 8 multiplizieren.
+(10+11)· 8=168
+
+Es sind also ungefähr 168 Nadeln auf dem Bild zu sehen.
+
+==============================================================================
+Prüfungsteil 1 Variante 2 2022  (Serlo-ID 311017)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311103 – https://de.serlo.org/mathe/311103/aufgabe – Lizenz 27]
+Aufgabe 1
+Ordne die Zahlen der Größe nach. Beginne mit der kleinsten Zahl.
+−2,2              − 2,57            2,51              √5
+[3 Pkte]
+Lösung:
+Lösungsidee:
+- Berechne die Wurzel \sqrt 5.
+- Ordne dann die Zahlen der Größe nach. Denke dabei an die Lage der Zahlen auf der Zahlengerade.
+√5≈ 2,24
+
+-2,57<-2,2<√5<2,51
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311105 – https://de.serlo.org/mathe/311105/aufgabengruppe – Lizenz 27]
+Aufgabe 2
+Im Folgenden gelten die im Dreieck üblichen Bezeichnungen.
+
+Teilaufgabe a)
+Zeichne ein Dreieck Δ ABC mit den Seitenlängen b = 3,7 cm, c = 4 cm und dem Winkel α = 35°.
+[Abbildung]
+[3 Pkte]
+Lösung:
+Zeichne die Strecke c mit den Endpunkten A und B. Trage in A den Winkel α = 35° an. Zeichne einen Kreis um A mit dem Radius 3,7 cm. Der Schnittpunk des Kreises mit dem freien Schenkel von α ist der gesucht Punkt C des Dreiecks.
+[Abbildung]
+
+Teilaufgabe b)
+Kann das oben abgebildete Dreieck mit den angegebenen Winkelmaßen gezeichnet werden?
+Entscheide und begründe deine Entscheidung.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Winkelsumme im Dreieck
+Lösungsidee:
+Ermittle die Summe der Innenwinkel in dem oben abgebildeten Dreieck.
+Die Summe der Innenwinkel in einem Dreieck beträgt 180°.
+Die Summe der Innenwinkel in dem oben abgebildeten Dreieck beträgt
+53°+57°+40°=150°
+Ein solches Dreieck kann also nicht existieren.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311107 – https://de.serlo.org/mathe/311107/aufgabengruppe – Lizenz 27]
+Aufgabe 3
+
+Im Jahr 2017 wurde in Nordrhein-Westfalen ein neuer Landtag gewählt.
+
+Das Ergebnis der Wahl ist in der Abbildung dargestellt.
+[Abbildung]
+
+Teilaufgabe a)
+Bei der Landtagswahl gaben 8 487 413 Personen ihre Stimme ab.
+
+Berechne, wie viele Stimmen die CDU erhielt.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 2800846 ]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+W: Prozentwert, G: Grundwert, p: Prozentsatz
+
+W=p⋅G
+
+W=33%⋅8487413=0,33⋅8487413=2800846,29
+
+Die CDU hat ungefähr 2800846 Stimmen erhalten.
+
+Teilaufgabe b)
+Kreuze an, ob die Aussage wahr oder falsch ist.
+[Abbildung]
+[2 Pkte]
+[Auswahl:]
+  (x) SPD und CDU erreichen zusammen über 50% der Stimmen.
+  ( ) Jede fünfte Stimme wurde für  "Die Linke" gegeben.
+  ( ) SPD, Grüne und "Die Linke" haben zusammen mehr Stimmen als CDU und FDP zusammen bekommen.
+Lösung:
+Lösungsidee:
+Lies die entsprechenden Werte aus dem Balkendiagramm ab.
+SPD: 31,2%, CDU: 33%
+
+SPD+CDU = 31,2%+33%=64,2%
+
+Die erste Aussage ist wahr.
+
+Jede 5. Stimme bedeutet
+20%. Die Linke hat jedoch nur
+4,9% der Stimmen erhalten.
+
+Die zweite Aussage ist falsch.
+
+SPD: 31,2%, Grüne: 6,4%, Linke: 4,9%,
+CDU: 33%, FDP: 12,6%
+
+SPD+Grüne+Linke =31,2%+6,4%+4,9%=42,5%
+CDU+FDP =33%+12,6%=45,6%
+
+Die 3. Aussage ist falsch.
+
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311109 – https://de.serlo.org/mathe/311109/aufgabe – Lizenz 27]
+Aufgabe 4
+
+Die abgebildeten Gefäße werden gleichmäßig
+gefüllt.
+
+Welcher Füllgraph gehört zu welchem Gefäß?
+
+Verbinde entsprechend.
+
+Ein Graph bleibt übrig.
+[Abbildung]
+[3 Pkte]
+Lösung:
+Lösungsidee:
+Überlege, wie sich die Form des Gefäßes und die Zunahme der Füllung in einem Graphen zeigt.
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311113 – https://de.serlo.org/mathe/311113/aufgabe – Lizenz 27]
+Aufgabe 5
+Schätze die Anzahl der Pinnwand-Nadeln. Notiere deinen Lösungsweg.
+
+[Abbildung]
+[3 Pkte]
+Lösung:
+Lösungsidee:
+- Teile das Bild z.B. in 4⋅4=16 gleich große Felder ein.
+- Zähle z.B. die Nadeln in zwei verschiedenen Feldern aus.
+[Abbildung]
+1. Feld: 10 Nadeln
+2. Feld: 11 Nadeln
+
+Diese 10+11=21 Nadeln stehen stellvertretend für 2 von 16 Feldern. Um die Summe für 16 Felder zu ermitteln, musst du die 21 Nadeln mit 8 multiplizieren.
+(10+11)⋅8=168
+
+Es sind also ungefähr 168 Nadeln auf dem Bild zu sehen.
+
+==============================================================================
+Prüfungsteil 2 2022  (Serlo-ID 311018)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311093 – https://de.serlo.org/mathe/311093/aufgabengruppe – Lizenz 27]
+Aufgabe 1: Hochbeet
+
+Emma und Pierre aus der Schulgarten-AG planen den Bau eines quaderförmigen Hochbeets.
+
+Die vier Seitenwände des Hochbeets bestehen aus jeweils fünf durchgehenden Holzbrettern.
+
+Oben und unten bleibt das Hochbeet offen (Abbildung 1).
+[Abbildung]
+
+Teilaufgabe a)
+Im Baumarkt kaufen Emma und Pierre Holzbretter für das Hochbeet. Die Holzbretter sind 200 cm lang und 14,5 cm breit. Bestimme die Anzahl der Holzbretter, die für den Bau des gesamten Hochbeets benötigt werden.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 15 ]
+Lösung:
+Für die beiden langen Seiten werden 2· 5=10 Bretter mit 200 cm Länge benötigt.
+Für die beiden kurzen Seiten werden 2· 5 Bretter mit 82 cm Länge benötigt. Aus einem 200 cm langen Brett kann man jeweils 2 Bretter mit einer Länge von 82 cm schneiden. (2· 82=164)
+
+Es werden also insgesamt 15 Bretter benötigt.
+
+Teilaufgabe b)
+Emma möchte die Außenflächen des Hochbeets mit Farbe anstreichen. Ein Eimer Farbe reicht für eine Fläche von ca. 6,5 m^2 .
+
+Entscheide durch eine Rechnung, ob ein Eimer Farbe ausreicht.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Rechteck
+Lösungsidee:
+- Berechne jeweils die Fläche einer kurzen und einer langen Seite.
+- Multipliziere die beiden Flächen mit 2 und addiere die Ergebnisse.
+A_{Rechteck}=Länge· Breite
+A_{kurze Seite}=82 cm· 72,5 cm=5945 cm^2
+A_{lange Seite}=200 cm·72,5 cm=14500 cm^2
+A_{gesamte Außenfläche}=2· 5945+2· 14500 cm^2=11890 cm^2+29000 cm^2=40890 cm^2=4,089 m^2<6,5 m^2
+
+Ein Eimer Farbe reicht zum Streichen des Hochbeets.
+
+Teilaufgabe c)
+Das Hochbeet wird zu einem Drittel mit Gartenerde befüllt.
+
+Berechne die benötigte Gartenerde in Kubikmeter (m^3).
+
+[2 Pkte]
+
+(Runde den Wert auf eine Dezimalstelle)
+[Eingabefeld – richtige Eingabe: 0,4 m³]
+Lösung:
+Voraussetzung: Quader
+Lösungsidee:
+- Rechne (1)/(3) des Volumens aus.
+V=Länge· Breite· Höhe
+V_{Hochbeet}=200 cm· 82 cm· 72,5 cm=1189000 cm^3=1,189m^3
+(1)/(3) des Hochbeets wird mit Gartenerde gefüllt.
+(1)/(3) von 1,189 m^3:   1,189 m^3:3=0,3963... m^3
+
+Es werden ≈0,4 m^3 Gartenerde benötigt.
+
+Teilaufgabe d)
+Emma und Pierre bepflanzen das neue Hochbeet mit Salat (Abbildung 2). Jeder Salat benötigt eine kreisförmige Fläche mit einem Durchmesser von 40 cm.
+
+Bestätige durch Messen und Rechnen, dass der Maßstab der Skizze ca. 1 ∶ 20 beträgt.
+[Abbildung]
+[2 Pkte]
+Lösung:
+Voraussetzung: Maßstab
+Lösungsidee:
+Miss den Durchmesser der Fläche, die pro Salat benötigt wird.
+2 cm ≙ 40 cm
+1 cm≙ 20 cm
+⇒  Der Maßstab ist  1:20.
+
+Teilaufgabe e)
+Es können höchstens zehn Salate in dem Hochbeet gepflanzt werden.
+
+Begründe diese maximale Anzahl.
+
+[2 Pkte]
+Lösung:
+Länge des Hochbeets: 200 cm
+Benötigte Breite pro Salatkopf: 40 cm
+200 cm:40 cm=5
+Es können höchstens 5 Salatköpfe nebeneinander gepflanzt werden.
+Breite des Hochbeets: 82 cm
+Benötigte Breite pro Salatkopf: 40 cm
+82 cm:40 cm=2,05
+Es können höchstens 2 Salatköpfe untereinander gepflanzt werden.
+
+⇒  In ein Hochbeet passen 2· 5=10 Salatköpfe in 2 Reihen.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311095 – https://de.serlo.org/mathe/311095/aufgabengruppe – Lizenz 27]
+Aufgabe 2: Führerschein
+Alina möchte ihren Autoführerschein machen. Zur Berechnung der Kosten für den Führerschein erstellt sie eine Tabelle mithilfe einer Tabellenkalkulation:
+[Abbildung]
+
+Teilaufgabe a)
+Alina hat bereits 1 500 € gespart. Sie kann jeden Monat weitere 40 € sparen.
+
+Wie viele Monate muss sie noch für den Führerschein sparen? Notiere deinen Rechenweg.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 4,5 Monate]
+Lösung:
+Lösungsidee:
+- Berechne wie viel Geld Alina noch für den Führereschein fehlt.
+- Dividiere diesen Betrag durch den Betrag, den Alina monatlich sparen kann.
+Gesamtkosten Führerschein:                 1680€
+Bisherige Ersparnisse:                              1500€
+Zukünftige monatliche Ersparnisse:      40€
+(1680-1500):40=180:40=4,5
+Alina muss noch 4,5, also rund 5 Monate für den Führerschein sparen.
+
+Teilaufgabe b)
+Berechne den Gesamtpreis für die Übungsstunden.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 450 €]
+Lösung:
+Einzelpreis pro Übungsstunde: 45€
+Anzahl Übungsstunden: 10
+Gesamtpreis für die Übungsstunden: 10· 45=450
+
+Der Gesamtpreis für die Übungsstunden beträgt 450€.
+
+Teilaufgabe c)
+Mit welcher Formel kann der Wert in Zelle D5 berechnet werden? Kreuze an.
+[Abbildung]
+[2 Pkte]
+[Auswahl:]
+  (x) =B5 * C5
+  ( ) =B5+C5
+  ( ) =SUMME(D2:D4)
+Lösung:
+Der Inhalt in Spalte D ist in jeder Zeile das Produkt aus den Inhalten der Spalten B und C.
+[Abbildung]
+
+Teilaufgabe d)
+Alina vermutet, dass sie mehr als zehn Übungsstunden benötigt.
+
+Welche Werte ändern sich in der Tabellenkalkulation, wenn Alina mehr als zehn Übungsstunden benötigt? Gib alle Zellen an, deren Wert sich ändert.
+
+[2 Pkte]
+Lösung:
+Wenn Alina mehr als 10 Überstunden benötigt ändert sich der Gesamtpereis der Überstunden in Spalte D4. Damit ändern sich auch die Gesamtkosten in Spalte D6.
+
+Teilaufgabe e)
+Alina nimmt an, dass sie 15 Übungsstunden benötigt.
+
+Bestimme die Gesamtkosten, die Alina für den Führerschein jetzt einplanen muss.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 1905 €]
+Lösung:
+Gesamtpreis für den Führerschein: 300+210+15· 45+60· 12=1905
+Für den Führerschein muss Alina bei 15 Überstunden 1905€ einplanen.
+
+Teilaufgabe f)
+Die Fahrschule wirbt mit einem neuen Angebot (Abbildung 2).
+
+Alina behauptet: „Ich spare damit
+etwa 33 % der Gesamtkosten für
+meinen Führerschein.“
+
+Hat Alina recht?
+
+Begründe deine Entscheidung.
+[2 Pkte]
+[Abbildung]
+Lösung:
+Alina hat nicht recht, denn nur die Kosten für den Grundbetrag werden um 33% reduziert und nicht die Gesamtkosten.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311101 – https://de.serlo.org/mathe/311101/aufgabengruppe – Lizenz 27]
+Aufgabe 3: Bambus
+Der Riesenbambus ist eine besondere Bambuspflanze, die sehr schnell und sehr hoch wachsen kann.
+
+Unter idealen Bedingungen wächst
+sie ca. 70 cm pro Tag. Ein Riesenbambus kann bis zu 35 Meter hoch werden.
+[Abbildung]
+
+Teilaufgabe a)
+Eine Bambuspflanze hat eine Höhe von 3 m. Bestimme die Höhe dieser Bambuspflanze nach 10 Tagen unter idealen Bedingungen.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 10 m]
+Lösung:
+Zu Beginn hat die Bambuspflanze eine Höhe von 3 m.
+Die Bambuspflanze wächst in 10 Tagen 10 · 70 cm = 7 m.
+Sie hat dann die Höhe 3 m +7 m = 10 m.
+
+Teilaufgabe b)
+Unter idealen Bedingungen kann das Wachstum der Bambus-
+pflanze mit der Gleichung  y=(7)/(10)x+3 beschrieben werden.
+
+Zeichne die Gerade in das Koordinatensystem ein (Abbildung 2).
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Gerade im Koordinatensystem
+Die Gerade geht durch die Punkte A(0|3) zum Zeitpunkt 0 und B(10|10)  nach 10 Tagen.
+
+[Bildergalerie]
+
+Teilaufgabe c)
+Berechne mithilfe der Gleichung, nach wie vielen Tagen die Bambuspflanze eine Höhe von 17,5 m erreicht.
+
+[2 Pkte]
+
+(Runde ab auf ganze Meter)
+[Eingabefeld – richtige Eingabe: 21 m]
+Lösung:
+Voraussetzung: Geradengleichung
+
+    Setze 17,5 für y ein und löse nach x auf
+    17,5 = x·0,7 + 3   | -3
+    14,5 = x·0,7   | : 0,7
+      (Seiten vertauschen)
+    x = 14,5 :0,7
+    x ≈ 20,71
+      (gerundet)
+    x ≈ 21
+Nach 21 Tagen hat die Pflanze eine Höhe von 17,5 m.
+
+Teilaufgabe d)
+Herr Paulsen möchte einen Zaun aus Bambusrohren bauen (Abbildung 3).
+
+Der Zaun soll eine Länge von 6,5 m haben.
+Die Bambusrohre sind annähernd zylinderförmig und haben einen Durchmesser von etwa 5 cm.
+[Abbildung]
+Berechne die Anzahl an Bambusrohren, die für den Zaun benötigt werden.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 130 ]
+Lösung:
+Für einen 6,5 m langen Zaun benötigt man 650 cm :5 cm = 130  Stämme.
+
+Teilaufgabe e)
+
+Bambusrohre sind innen hohl, außen bestehen sie aus Holz (Abbildung 4).
+
+Die Querschnittsfläche von einem Bambusrohr ist ein Kreisring (Abbildung 5).
+[Abbildung]
+[Abbildung]
+Die Bambusrohre für den Zaun haben folgende Maße:  Der Außenkreis hat einen Radius von r_1 = 2,5 cm und der Innenkreis einen Radius von r_2 = 2 cm.
+Zeige durch eine Rechnung, dass der Flächeninhalt des Kreisrings A ≈ 7,1 cm^2 beträgt.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Kreisumfang und Kreisfläche
+Berechne die Differenz zwischen der Kreisfläche mit dem Außenradius und der Kreisfläche mit dem Innenradius.
+    A = π·2,5^2-π· 2^2
+      (π ausklammern und quadrieren)
+    = π·(6,25-4)
+    ≈ 7,1
+
+Teilaufgabe f)
+Herr Paulsen kauft 130 Bambusrohre, die jeweils eine Länge von 180 cm haben.
+
+Ein Kubikzentimeter (cm^3) Bambusholz wiegt 0,7 Gramm (g).
+
+Zum Transport kann er einen Anhänger nutzen.
+
+Auf dem Anhänger dürfen bis zu 250 kg geladen werden.
+
+1. Berechne das Gewicht der gekauften Bambusrohre.
+2. Entscheide, ob das erlaubte Ladegewicht des Anhängers eingehalten wird.
+[f1) 1 Pkt]
+[f2) 1 Pkt]
+Lösung:
+Voraussetzung: Volumenberechnung
+Lösungsidee:
+Berechne das Volumen.
+1. Das Volumen an Holz eines Bambusstammes ist dann 7,1· 180 ≈ 1278 cm^3.
+
+Das Gewicht von 130 Stämmen ist dann
+
+    130· 1278· 0,7 : 1000 = 116,298 ≈ 116 kg
+
+2. Da 116 kg< 250 kg gilt, wird das erlaubte Ladegewicht eingehalten.

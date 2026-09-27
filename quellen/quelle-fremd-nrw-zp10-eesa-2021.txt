@@ -1,0 +1,569 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau EESA (2021/2022 noch HSA), Prüfungsjahr 2021 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/311013/zentrale-pruefung-zp-10-hsa-mathematik-2021 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/311019/pruefungsteil-1-variante-1-2021; https://de.serlo.org/mathe/311020/pruefungsteil-1-variante-2-2021; https://de.serlo.org/mathe/311021/pruefungsteil-2-2021
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 Variante 1 2021  (Serlo-ID 311019)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311028 – https://de.serlo.org/mathe/311028/aufgabe – Lizenz 27]
+Aufgabe 1
+Markiere die Zahlen auf dem Zahlenstrahl.
+0,4    ,     \frac6{10}       ,     1,8     ,    4/5
+[Abbildung]
+[3 Pkte]
+Lösung:
+Voraussetzung: Zahlengerade
+Lösungsidee:
+- Überlege, wie groß der Abstand zwischen den einzelnen Strichen auf dem Zahlenstrahl ist.
+- Rechne die Brüche in Dezimalzahlen um.
+Rechne die Brüche in Dezimalzahlen um.
+
+(6)/(10)=0,6
+
+(4)/(5)=(8)/(10)=0,8
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311030 – https://de.serlo.org/mathe/311030/aufgabe – Lizenz 27]
+Aufgabe 2
+Rechne die Größen in die angegebene Einheit um.
+
+[3 Pkte]
+[Lückentext:]
+250 cm = [Lücke: 2,5]m     ,    0,75 l = [Lücke: 0,75] dm^3   ,     2,5 h = [Lücke: 150] min
+Lösung:
+Voraussetzung: Umrechnen von Einheiten
+1 cm=0,01 m     ⇒    250 cm=2,5 m
+1 l=1 dm^3    ⇒    0,75 l=0,75 dm^3
+1 h=60 min    ⇒    2,5 h=2,5· 60 min=150 min
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311032 – https://de.serlo.org/mathe/311032/aufgabengruppe – Lizenz 27]
+Aufgabe 3
+Pia und Tom spielen Zahlenrätsel mit dem Term (x + 19) ⋅ 3.
+
+Teilaufgabe a)
+Tom setzt x = 6 in den Term ein. Berechne den Wert des Terms.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 75 ]
+Lösung:
+Setze für x die Zahl 6 ein:
+(6+19)· 3=25· 3=75
+
+Teilaufgabe b)
+Pia setzt für x eine Zahl ein und erhält das Ergebnis 63. Tom möchte Pias Zahl finden und notiert die folgende Rechnung:
+    (x+19)·3 = 63   | :3
+    x+19 = 63   | -19
+    x = 44
+Pia stellt fest: „Die Rechnung ist falsch.“
+Markiere den Fehler und bestimme Pias Zahl.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Äquivalenzumformungen
+Tom hat in der zweiten Zeile nur die linke Gleichungsseite durch 3 dividiert.
+    (x+19)·3 = 63   | :3
+    x+19 = 21   | -19
+    x = 2
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311034 – https://de.serlo.org/mathe/311034/aufgabengruppe – Lizenz 27]
+Aufgabe 4
+In einem Beutel befinden sich acht schwarze, sieben weiße und fünf blaue Kugeln. Pedro zieht eine Kugel heraus.
+
+Teilaufgabe a)
+Die Wahrscheinlichkeit, dass Pedro eine blaue Kugel zieht, beträgt 1/4.
+
+Bestätige dies durch eine Rechnung.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Relative Häufigkeit
+Gesamtzahl der Kugeln:  8+7+5=20
+Anzahl der blauen Kugeln: 5
+Wahrscheinlichkeit, dass Pedro eine blaue Kugel zieht:
+P(blau) = (5)/(20)=(1)/(4)
+
+Teilaufgabe b)
+Bestimme die Wahrscheinlichkeit, eine schwarze oder eine blaue Kugel zu ziehen.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 13/20 ]
+Lösung:
+Voraussetzung: Relative Häufigkeit
+Gesamtzahl der Kugeln:  8+7+5=20
+Anzahl der schwarzen und blauen Kugeln:  8+5=13
+Wahrscheinlichkeit, dass Pedro eine schwarze oder blaue Kugel zieht:
+P(schwarz oder blau) = (13)/(20)
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311036 – https://de.serlo.org/mathe/311036/aufgabengruppe – Lizenz 27]
+Aufgabe 5
+550 Personen wurden gefragt, wie sie ihren Weg zur Arbeit zurücklegen. Das Ergebnis ist in der
+Tabelle dargestellt:
+| Zu Fuß | Fahrrad | Öffentliche Verkehrsmittel | Auto (und sonstige Kraftfahrzeuge) |
+| 25% | 10% | 34% | 31% |
+
+Teilaufgabe a)
+Berechne, wie viele der gefragten Personen mit öffentlichen Verkehrsmitteln zur Arbeit fahren.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 187 ]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+Prozentwert: W=p· G
+W=0,34· 550=187
+187 der gefragten Personen sind mit öffentlichen Verkehrsmitteln zur Arbeit gefahren.
+
+Teilaufgabe b)
+
+Die Ergebnisse werden in einem Kreis Diagramm dargestellt.
+
+Vervollständige das Kreis Diagramm.
+
+[Abbildung]
+[2 Pkte]
+Lösung:
+Voraussetzung: Übersicht – Anwendungen und Vertiefung der Prozentrechnung
+Lösungsidee:
+- Rechne z.B. den Prozentanteil für die Fußgänger (25%) in die entsprechende Gradzahl für den Kreis um.
+- Trage diesen Winkel dann, z.B. links, neben den Fahrradfahrern an.
+100% entsprechen dem ganzen Kreis, also 360°.
+ Zum Beispiel entsprechen 25% einem Viertelkreis und somit (1)/(4)· 360°=90°
+[Abbildung]
+
+==============================================================================
+Prüfungsteil 1 Variante 2 2021  (Serlo-ID 311020)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311042 – https://de.serlo.org/mathe/311042/aufgabe – Lizenz 27]
+Aufgabe 1
+Markiere die Zahlen auf dem Zahlenstrahl.
+0,4     ,     \frac6{10}      ,     1,8     ,     4/5
+[Abbildung]
+Lösung:
+Lösung siehe Prüfungsteil 1 Variante 1:
+https://de.serlo.org/mathe/311019/pruefungsteil-1-variante-1-2021
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 311044 – https://de.serlo.org/mathe/311044/aufgabe – Lizenz 27]
+Aufgabe 2
+
+[Lückentext:]
+
+Rechne die Größen in die angegebene Einheit um.
+250 cm = [Lücke: 2,5] m    ,    0,75 l = [Lücke: 0,75] dm^3    ,    2,5 h = [Lücke: 150] min
+Lösung:
+Lösung siehe Prüfungsteil 1 Variante 1:
+https://de.serlo.org/mathe/311019/pruefungsteil-1-variante-1-2021
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311046 – https://de.serlo.org/mathe/311046/aufgabengruppe – Lizenz 27]
+Aufgabe 3
+Pia und Tom spielen Zahlenrätsel mit dem Term (x + 19) ⋅ 3.
+
+Teilaufgabe a)
+Tom setzt x = 6 in den Term ein. Berechne den Wert des Terms.
+[Eingabefeld – richtige Eingabe: 75 ]
+Lösung:
+Lösung siehe Prüfungsteil 1 Variante 1:
+https://de.serlo.org/mathe/311019/pruefungsteil-1-variante-1-2021
+
+Teilaufgabe b)
+Pia setzt für x eine Zahl ein und erhält das Ergebnis 63. Tom möchte Pias Zahl finden und notiert die folgende Rechnung:
+
+(x + 19) · 3 = 63 |: 3\\⇔ x + 19 = 63 | − 19\\⇔ x = 44
+
+Pia stellt fest: „Die Rechnung ist falsch.“
+Markiere den Fehler und bestimme Pias Zahl.
+Lösung:
+Lösung siehe Prüfungsteil 1 Variante 1:
+https://de.serlo.org/mathe/311019/pruefungsteil-1-variante-1-2021
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311051 – https://de.serlo.org/mathe/311051/aufgabengruppe – Lizenz 27]
+Aufgabe 4
+
+Teilaufgabe a)
+
+Berechne das Volumen des abgebildeten Körpers.
+
+Alle Maße sind in cm.
+[Abbildung]
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 150 cm³]
+Lösung:
+Voraussetzung: Quader
+Lösungsidee:
+- Der abgebildete Körper setzt sich aus 2 Quadern zusammen.
+- Berechne das Volumen der beiden Quader und bilde die Summe.
+V_{Quader}=l· b· h
+Quader 1: unterer Teil des Körpers: V_{Quader 1}=8·3·5=120
+Quader 2: oberer Teil des Körpers links: V_{Quader 2}=2· 3· 5=30
+
+Das Volumen des gesamten Körpers beträgt 150 cm^3.
+
+Teilaufgabe b)
+
+Welcher der beiden Würfelkörper hat das größere Volumen?
+
+ Kreuze an.
+[Abbildung]
+[1 Pkte]
+[Auswahl:]
+  ( ) Würfel A hat das größere Volumen.
+  (x) Würfel B hat das größere Volumen.
+Lösung:
+Lösungsidee:
+Zähle die Anzahl der einzelnen Würfel aus denen die Figuren zusammengesetzt sind.
+Körper A:  7 Würfel
+Körper B:   8 Würfel
+Der Würfelkörper B hat das größere Volumen.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311054 – https://de.serlo.org/mathe/311054/aufgabengruppe – Lizenz 27]
+Aufgabe 5
+Im Dezember 2020 kosteten 1 g Gold 48,46 €.
+
+Teilaufgabe a)
+Ergänze in der Tabelle die fehlenden Werte dieser proportionalen Zuordnung.
+| Gold [g] | 0,5 | 1 |  | 1000 |
+| Preis [€] |  | 48,46 | 96,92 |  |
+[3 Pkte]
+Lösung:
+Voraussetzung: Direkte Proportionalität
+Lösungsidee:
+Ermittle den Faktor für die direkte Proportionalität aus Spalte 3.
+Zwei Größen sind dann direkt proportional zueinander, wenn die eine Größe aus der anderen hervorgeht, indem man sie mit immer dem gleichen Faktor multipliziert.
+| Gold [g] | 0,5 | 1 | 2 | 1000 |
+| Preis [€] | 24,23 | 48,46 | 96,92 | 48 460 |
+
+Teilaufgabe b)
+Eine Kugel aus Gold hat einen Radius von 2,5 cm. Ein Kubikzentimeter [cm^3] Gold wiegt 19,8 g.  Berechne das Volumen dieser Kugel aus Gold.
+
+[2 Pkte]
+
+(Runde auf 2 Dezimalstellen)
+[Eingabefeld – richtige Eingabe: 65,45 cm³]
+Lösung:
+Voraussetzung: Kugel
+Lösungsidee:
+Beachte: Das Gewicht des Goldes benötigst du nicht für die Berechnung des Volumens des Kugel.
+V_{Kugel}=4/3 · π · r^3
+V_{Kugel}=4/3 · π · 2,5^3=65,45...
+
+Das Volumen der Kugel beträgt ungefähr 65,45 cm^3.
+
+==============================================================================
+Prüfungsteil 2 2021  (Serlo-ID 311021)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311057 – https://de.serlo.org/mathe/311057/aufgabengruppe – Lizenz 27]
+Aufgabe 1: Roller-Tour
+Melike und Robin planen eine Tour mit einem Motorroller. Sie wollen eine Woche unterwegs sein.
+Am ersten Tag wollen sie von Fröndenberg zu einem Campingplatz am Möhnesee fahren (Abbildung 1).
+[Abbildung]
+
+Teilaufgabe a)
+Die Strecke ist ungefähr 30 km lang. Bestätige dies durch Messen und mithilfe des Maßstabs.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Maßstab
+Lösungsidee:
+- Miss mit dem Lineal, wie lang die Strecke auf dem Bild ungefähr ist.
+- Multipliziere dein Messergebnis mit dem Maßstab.
+Die Strecke in der Abbildung ist ca. 15 cm lang.
+1 cm entspricht laut dem Maßstab  2 km.   ⇒   15 ⋅ 2 = 30
+
+Die Strecke ist also ca. 30 km lang.
+
+Teilaufgabe b)
+Melike und Robin gehen von einer durchschnittlichen Geschwindigkeit von 24 \frac{km}h aus.
+Berechne für die 30 km lange Strecke die Fahrzeit in Minuten. Notiere deinen Lösungsweg.
+[2 Pkte]
+[Lückentext:]
+Lösung:
+Voraussetzung: Übersicht – Einführung in die Geschwindigkeit
+Lösungsidee:
+- Dividiere die Streckenlänge durch die Geschwindigkeit
+- Rechne die Stunden in Minuten um
+Berechnung der Fahrzeit:
+
+{Geschwindigkeit}= \frac{\text {zurückgelegter Weg}}{benötigte Zeit}
+{benötigte Zeit}= \frac{\text {zurückgelegter Weg}}{Geschwindigkeit}
+
+30 km:24( km)/( h)=1,25 h
+
+Zur Umrechnung von Stunden in Minuten benötigst du folgendes Grundwissen: Zeiteinheiten
+1,25· 60=75
+
+Die Fahrzeit beträgt 75 min.
+
+Teilaufgabe c)
+Für die Tour wollen Melike und Robin einen Motorroller für eine Woche mieten. Robin findet zwei Angebote (Abbildung 2).
+[Abbildung]
+Die Kosten bei „Easy Rent“ können mit dem Term  0,2⋅x+80  berechnet werden.
+
+Gib die Bedeutung von x, von 0, 2 und von 80 im Zusammenhang mit den Kosten an.
+
+[3 Pkte]
+Lösung:
+Die Bedeutung von x, von 0, 2 und von 80 ist folgende:
+x:         Anzahl der gefahrenen Kilometer
+0,2 €:  Kosten pro gefahrenen Kilometer
+80 €:  Grundgebühr pro Woche
+
+Teilaufgabe d)
+Melike und Robin wollen die Angebote miteinander vergleichen und erstellen dazu eine Grafik (Abbildung 3).
+[Abbildung]
+Erkläre, warum der Graph zum Angebot von „Rollerverleih24 “ im ersten Abschnitt waagerecht verläuft.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Graph einer Funktion
+Bei dem Angebot von "Rollerverleih24" fallen für die ersten 100 km keine Kosten pro gefahrenen Kilometer an, lediglich eine Pauschale für die Grundgebühr in Höhe von 90€. Daher verläuft der Graph für die ersten 100 km waagrecht.
+
+Teilaufgabe e)
+Die beiden Graphen schneiden sich. Gib die Koordinaten der beiden Schnittpunkte an.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Das Koordinatensystem
+Lösungsidee:
+Lies die Koordinaten der beiden Schnittpinkte jeweils auf der x- und y-Achse ab.
+Die Koordinaten der beiden Schnittpunkte sind (50|90) und (150|110).
+
+Teilaufgabe f)
+Insgesamt wollen Melike und Robin ungefähr 170 km weit fahren.
+
+Welches Angebot ist günstiger? Gib die Kosten für das günstigere Angebot an.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Graph einer Funktion
+Lösungsidee:
+Vergleich die beiden Graphen an der Stelle x=170.
+Bei einer Fahrstrecke von 170 km ist das Angebot von "Easy Rent" günstiger. Es beträgt ca. 115€.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311059 – https://de.serlo.org/mathe/311059/aufgabengruppe – Lizenz 27]
+Aufgabe 2: Blumenbeet
+
+Maria und Leon gestalten ein Beet im Garten neu.
+
+Das quadratische Beet teilen sie mit einer Abtrennung diagonal in zwei gleiche Dreiecke (Abbildung 1).
+[Abbildung]
+
+Teilaufgabe a)
+Bestätige durch eine Rechnung, dass die diagonale Abtrennung ca. 170 cm lang sein muss.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+Berechne die Länge der diagonalen Abtrennung mit Hilfe des Satzes des Pythagoras.
+In einem rechtwinkligen Dreieck gilt  a^2+b^2=c^2, wenn c die Hypotenuse ist.
+120^2+120^2=14400+14400=28800
+c=√(28800)≈ 169,70...
+
+Die Abtrennung muss ca. 170 cm lang sein.
+
+Teilaufgabe b)
+In das obere Dreieck säen sie Samen von Sommerblumen.  Eine Packung Samen reicht für 4 m^2.  Zeige mit einer Rechnung, dass eine Packung ausreicht.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Quadrat
+Lösungsidee:
+- Berechne zunächst die Fläche des gesamten Qudrats.
+- Dividiere das Ergebnis dann durch 2.
+Fläche eines Quadrats:
+A_{Quadrat}=a^2
+A_{Quadrat}={120 cm}^2=14400 cm^2=1,44 m^2
+A_{Dreieck}=1,44 m^2:2=0,72 m^2
+
+0,72 m^2<4 m^2
+
+Die Packung mit Samen für 4 m^2 reicht für das Dreieck aus.
+
+Teilaufgabe c)
+Maria und Leon erweitern das quadratische Beet um einen Kreis. Der Kreis verläuft durch die vier Eckpunkte des Quadrats.
+
+Die Kreislinie gestalten sie mit einem Metallband. Die Flächen zwischen Quadrat und Kreislinie sollen mit Kieselsteinen bedeckt werden (Abbildung 2).
+[Abbildung]
+Zeige rechnerisch, dass das Metallband ca. 5,34 m lang sein muss.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Kreiszahl Pi
+Lösungsidee:
+Berechne den Umfang des Kreises.
+Kreisumfang:
+U_{Kreis}=2·π· r=π· d
+d=170 cm
+U_{Kreis}=3,14· 170 cm=533,8 cm≈ 5,34 m
+Das Metallband muss ca. 5,34 m lang sein.
+
+Teilaufgabe d)
+Berechne den Flächeninhalt der mit Kieselsteinen bedeckten Fläche.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 0,83 m²]
+Lösung:
+Voraussetzung: Kreiszahl Pi
+Lösungsidee:
+Subtrahiere den Flächeninhalt des Quadrats vom Flächeninhalt des Kreises.
+A_{Kreis}=π· r^2
+r=0,85 cm
+A_{Kreis}=3,14· {0,85 cm}^2≈ 2,27 m^2
+A_{Kreis}-A_{Quadrat}=2,27 m^2-1,44 m^2=0,83 m^2
+
+Der Flächeninhalt der mit Kieselsteinen belegte Fläche beträgt 0,83 m^2.
+
+Teilaufgabe e)
+Maria und Leon kaufen zwei Säcke mit Kieselsteinen und 6 m Metallband (Preise in Abbildung 3).
+
+Mit einem Gutschein erhalten sie 5 % Rabatt.
+[Abbildung]
+Berechne, wie viel Maria und Leon für zwei Säcke Kieselsteine und 6 m Metallband bezahlen müssen.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 32,66 €]
+Lösung:
+Kosten für die Kieselsteine
+2· 5,79=11,58
+
+Kosten für das Metallband
+6· 3,80=22,80
+
+Gesamtkosten
+11,58+22,80=34,38
+
+5% Rabatt
+34,38· 0,05≈ 1,72
+
+Gesamtkostenkosten nach Abzug des Rabatts
+34,38-1,72=32,66
+
+Maria und Leon müssen 32,66€ zahlen.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 311062 – https://de.serlo.org/mathe/311062/aufgabengruppe – Lizenz 27]
+Aufgabe 3: Kasimir Bastelt
+Kasimir zeichnet ein gleichseitiges Dreieck mit der Seitenlänge a = 10 cm und einer Höhe
+ h ≈ 8,7 cm (Abbildung 1).
+
+[Abbildung]
+
+Teilaufgabe a)
+Bestätige durch eine Rechnung, dass der Flächeninhalt des Dreiecks 43,5 cm^2 beträgt.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Flächeninhalt eines Dreiecks
+Lösungsidee:
+Berechne die Dreiecksfläche mit Hilfe der Flächenformel.
+g: Grundlinie
+h: Höhe
+A=(1)/(2)· 10· 8,7=43,5
+Der Flächeninhalt des Dreiecks beträgt 43,5 cm^2.
+
+Teilaufgabe b)
+
+Kasimir markiert auf jeder Dreieckseite den Mittelpunkt.
+
+Die Mittelpunkte verbindet er. Es entstehen vier gleiche kleine Dreiecke
+
+(Abbildung 2).
+[Abbildung]
+Zeichne die Figur (Abbildung 2) mit den Originalmaßen auf ein DIN-A4-Blatt.
+
+[3 Pkte]
+Lösung:
+[Abbildung]
+
+Teilaufgabe c)
+Bestätige durch eine Rechnung, dass der Flächeninhalt eines kleinen Dreiecks
+ca. 10,9 cm^2 beträgt.
+
+[2 Pkte]
+Lösung:
+Lösungsidee:
+Teile den Flächeninhalt des große Dreiecks durch 4, da das große Dreieck aus 4 gleichen , kleinen Dreiecken besteht.
+
+43,5:4=10,875
+Der Flächerninhalt eines kleinen Dreiecks beträgt ungefähr 10,9cm^2.
+
+Teilaufgabe d)
+Kasimir klappt die drei äußeren hellen Dreiecke nach oben.
+
+Es entsteht eine besondere Pyramide, die Tetraeder genannt wird (Abbildung 3).
+
+Die Kantenlänge des Tetraeders
+beträgt 5 cm. Der Flächeninhalt der Grundfläche beträgt ca. 10,9 cm^2.
+[Abbildung]
+Die Körperhöhe h_K eines Tetraeders kann mit folgender Formel berechnet werden:
+
+h_K = \frac {\sqrt 6}3 · b
+
+Zeige mit der Formel, dass h_K ≈ 4,1 cm lang ist.
+
+[2 Pkte]
+Lösung:
+h_k=\dfrac{\sqrt {6}}{3}· 5= 4,08...
+Die Körperhöhe des Tetraeders betragt ungefähr 4,1 cm.
+
+Teilaufgabe e)
+Berechne mit der Körperhöhe h_K das Volumen des Tetraeders.
+
+[2 Pkte]
+
+(Runde auf eine Dezimalstelle)
+[Eingabefeld – richtige Eingabe: 14,9 cm³]
+Lösung:
+Voraussetzung: Pyramide
+Lösungsidee:
+- Das gegebene Tetraeder ist eine Pyramide.
+- Verwende die Volumenformel für die Pyramide
+V_{Pyramide}=(1)/(3)· G· h
+G: Grundfläche
+h: Höhe
+
+Grundfläche: 10,9 cm^2
+Höhe: 4,1 cm
+V=(1)/(3)· 10,9· 4,1=14,896...
+Das Volumen des Tetraeders beträgt  ca. 14,9 cm^3.
+
+Teilaufgabe f)
+Abbildung 2 stellt das Netz eines Tetraeders dar.
+Welches Netz stellt ebenfalls das Netz eines Tetraeders dar? Kreuze an.
+[Abbildung]
+[1 Pkt]
+[Auswahl:]
+  ( ) Netz 1
+  ( ) Netz 2
+  (x) Netz 3
+Lösung:
+Voraussetzung: Tetraeder
+Netz 1 stellt kein Tetraeder dar, da in reguläres Tetraeder eine Pyramide ist, die vier kongruente gleichseitige Dreiecke als Fläche hat.
+Netz 2 kann nicht zu einer Pyramide zusammengeklappt werden.
+Netz 3 ist richtig.

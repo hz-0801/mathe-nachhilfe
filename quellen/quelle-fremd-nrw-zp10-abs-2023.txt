@@ -1,0 +1,830 @@
+Quelle: Nordrhein-Westfalen, QUA-LiS NRW: „Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023“ (Stand Dezember 2022; 72 nummerierte Aufgaben in vier Bereichen, ohne Lösungen und ohne Punktangaben; Aufgaben mit „(MSA)“ nur für das Anforderungsniveau MSA).
+Adresse: https://www.standardsicherung.schulministerium.nrw.de/system/files/media/document/file/zp10-2023_pt1_aufgabenbeispiele_ohne_hilfsmittel.pdf (verlinkt von https://www.standardsicherung.schulministerium.nrw.de/mathematik-msa und …/mathematik-eesa)
+Abruf: 2026-09-27 (curl, frei ohne Anmeldung)
+Seitenzahl: 20 (pdfinfo)
+Lizenzvermerk: kein Vermerk (weder auf der Seite noch in der Datei; Herausgeber QUA-LiS NRW)
+Textfassung: pdftotext -layout; Formeln mit mathematischen Sonderzeichen sind zum Teil verdoppelt oder zerlegt wiedergegeben (Kursivbuchstaben erscheinen doppelt: „𝑥𝑥“ = x), Abbildungen fehlen.
+       Aufgabenbeispiele
+für den ersten Prüfungsteil ohne
+Hilfsmittel der ZP10 Mathematik
+             ab 2023
+
+
+
+
+                  Herausgegeben von der
+          Qualitäts- und UnterstützungsAgentur –
+                 Landesinstitut für Schule
+     des Landes Nordrhein-Westfalen (QUA-LiS NRW)
+              Paradieser Weg 64, 59494 Soest
+                   Stand: Dezember 2022
+
+
+
+                                     Qualitäts- und
+             Arbeitsbereich 5        UnterstützungsAgentur –
+                                     Landesinstitut für Schule
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+Inhaltsverzeichnis
+
+Vorwort                                                                                           3
+
+Aufgabenbeispiele aus dem Bereich „Arithmetik/Algebra“                                            4
+
+Aufgabenbeispiele aus dem Bereich „Funktionen“                                                  10
+
+Aufgabenbeispiele aus dem Bereich „Geometrie“                                                   14
+
+Aufgabenbeispiele aus dem Bereich „Stochastik“                                                  18
+
+
+
+
+                                                                                             Seite 2 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+Vorwort
+
+Ab dem Prüfungsjahr 2023 sind für den ersten Prüfungsteil der Zentralen Prüfungen 10 (ZP10)
+im Fach Mathematik lediglich die Hilfsmittel Zirkel und Geodreieck zugelassen;
+Formelsammlung und Taschenrechner dürfen erst im zweiten Prüfungsteil genutzt werden.
+Die Ausrichtung des ersten Prüfungsteils auf das Arbeiten ohne die Hilfsmittel Formelsammlung
+und Taschenrechner wird durch die Beispielaufgaben in diesem Dokument exemplarisch
+illustriert. Die Sammlung ist weder vollständig noch abschließend. Viele Aufgaben aus dem
+ersten Prüfungsteil vergangener ZP10 sind ebenfalls unverändert für das Arbeiten ohne
+Hilfsmittel geeignet.
+Die dargestellten Beispiele für den ersten Prüfungsteil der ZP10 Mathematik ohne Hilfsmittel
+sind in der Regel für die beiden Anforderungsniveaus Erweiterter Erster Schulabschluss (EESA)
+(vormals Hauptschulabschluss nach Klasse 10) und den Mittleren Schulabschluss (MSA)
+geeignet. Wenige Aufgaben sind aber ausdrücklich dem MSA zugeordnet, da diese Kompetenzen
+in den Anforderungen für den EESA (vormals HSA 10) nicht bzw. nicht ohne Hilfsmittel erwartet
+werden. Im aktuellen Differenzierungskonzept für die teilnehmenden Gymnasien ist der erste
+Prüfungsteil mit dem MSA identisch (Stand 12/2021).
+Auch ohne die Hilfsmittel Taschenrechner und Formelsammlung fokussieren die Aufgaben im
+ersten Prüfungsteil weiterhin grundlegende Kompetenzen inhaltlicher Schwerpunkte und greifen
+Grundideen sowie Grundvorstellungen auf. Die Aufgaben können daher auch argumentative
+Anteile und Darstellungswechsel enthalten. Zur Bearbeitung der Aufgaben des ersten
+Prüfungsteils sind (neben Papier und Stift) weiterhin Zirkel und Geodreieck in den Prüfungen
+gemäß den Vorgaben 1 als Hilfsmittel zugelassen. Die Aufgabensammlung ist nach den
+Kernlehrplänen Mathematik des Landes Nordrhein-Westfalen entlang der inhaltlichen
+Kompetenzbereiche „Arithmetik/Algebra“, „Funktionen“, „Geometrie“ und „Stochastik“
+strukturiert.
+
+
+
+
+1 Vorgaben zu den unterrichtlichen Voraussetzungen für die zentralen Prüfungen am Ende der Klasse 10 im Jahr 2023 –
+
+ Mathematik, https://www.standardsicherung.schulministerium.nrw.de/cms/zentrale-pruefungen-10/faecher/, Stand 8.6.2021
+
+
+                                                                                                            Seite 3 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+Aufgabenbeispiele aus dem Bereich „Arithmetik/Algebra“
+
+    1. Kreuze die kleinste Zahl an.
+         □ −0,01         □ 10-³        □ (−10)²        □ −0,1
+
+
+    2. Kreuze an: Die größte Zahl ist
+         □ 90          □ √100          □ −200          □ 92
+
+
+    3. Trage die vier Zahlen auf der Zahlengeraden ein.
+                                       4                   2
+         0,4           −0,6            5
+                                                       − 10
+
+
+
+
+    4. Ordne der Größe nach. Beginne mit der kleinsten Zahl.
+                         7                 1
+         −0,7          100
+                                       −7              0,17
+
+
+                                                                35
+    5. Miriam behauptet: „65 % sind mehr als 50.“
+
+         Hat Miriam recht? Überprüfe die Behauptung durch eine Rechnung.
+
+
+    6. Ordne die Zahlen der Größe nach. Beginne mit der kleinsten Zahl.
+          6                                            1
+         10
+                       −0,626          −6,26           6
+
+
+
+    7. Vergleiche die Zahlen und setze das Zeichen >, < oder = ein.
+          5      5                                                                             1
+         10
+              □7                 0,05 □ 5 ∙ 10−3                               −0,1 □ − 10
+
+
+    8. (MSA) Kreuze an:
+         √63 =
+                       □ 3 ⋅ √7                        □ 7 ⋅ √3                        □ 6,3       □9
+
+
+    9. Kreuze an:
+         √5 ≈
+                       □ 1,4                           □ 1,8                           □ 2,2       □ 2,6
+
+                                                                                                    Seite 4 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+    10. Kreuze die richtigen Antworten an.
+          7
+         20
+              =
+                          14
+                       □ 40                            □ 35 %                          □ 7,2        □ 0,7
+
+
+    11. Gib die Zahl ohne Zehnerpotenz an.
+         2,1 ⋅ 10−4 = __________________
+
+
+    12. Welche vier mathematischen Ausdrücke haben den gleichen Wert? Kreise ein!
+         1                             1                50
+         4
+                       50 %            2               100
+                                                                       40 %            0,5     0,75
+
+
+                                                 1
+    13. Kennzeichne in der Figur 33 3 % der Gesamtfläche.
+
+
+
+
+                         6
+    14. Schraffiere 7 des Rechtecks.
+
+
+
+
+    15. Kreuze an, welcher Anteil markiert ist.
+
+
+
+
+              3                            3                              3                     5
+          □7                           □ 12                            □5                      □7
+
+
+    16. Notiere in der angegebenen Maßeinheit.
+         1,3 kg = _____________ g                                      0,5 cm = ____________ mm
+         1 600 mm = ____________ m                                     0,3 m² = ____________ cm²
+         1 234 cm³ = ____________ ℓ                                    2,25 h = ____________ min
+
+
+
+
+                                                                                                      Seite 5 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+    17. Welche Angabe passt? Kreuze an.
+         Größe eines Menschen:
+         □ 170 000 mm                  □ 17 000 mm                     □ 1 700 mm
+
+
+    18. Welche Angabe passt? Kreuze an.
+         Alter eines 15-jährigen Schülers:
+         □ 55 000 Tage                 □ 5 500 Tage                    □ 550 Tage
+
+
+    19. Entscheide, ob die folgenden Aussagen richtig oder falsch sind. Kreuze an
+                                               richtig falsch
+         0,25 kg = 250 g                                  
+         0,06 km = 600 m                                  
+         1,025 t = 1250 kg                                
+         40 cm² = 0,0040 m²                               
+
+
+    20. Berechne.
+         5 + 8 ⋅ (20 − 18)             = _________________
+         0,7 ⋅ 13 + 1,3 ⋅ 13 = _________________
+         0,2 ⋅ 0,3                     = _________________
+
+
+    21. Kreuze das richtige Ergebnis der folgenden Aufgabe an.
+         145,2 ∙ 29,8 =
+                       □ 43269,6                       □ 4326,96                       □ 432,96
+
+
+    22. Kreuze die Zahl an, die dem Ergebnis am nächsten liegt.
+         1947,328 ⋅ 0,11 =
+                       □ 20 000                        □ 2 000                         □ 200         □ 20
+    23. Überschlage durch eine geeignete Rechnung.
+         3 221 + 749 + 8 070 ≈ _____________                                 54 ∙ 64 ≈ _____________
+         851 ∙ 549 ≈ _____________                                           1269 ∶ 47 ≈ _____________
+
+
+    24. Kreuze die Aufgabe an, die das größte Ergebnis hat.
+         □ 36 + 6 ⋅ 2                  □ (36 + 6) ⋅ 2                  □ 36 + (6 ⋅ 2)             □ 36 + 6 + 2
+
+
+                                                                                                       Seite 6 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+
+    25. Denke dir eine Zahl 𝑥𝑥 aus. Addiere 6 und multipliziere das Ergebnis mit 3.
+         Kreuze an, welcher Term den Sachverhalt richtig darstellt.
+         □ 𝑥𝑥 ⋅ 3 + 6                  □ 𝑥𝑥 + 6 ⋅ 3                    □ 3 ⋅ (𝑥𝑥 + 6)        □ 𝑥𝑥
+
+
+    26. (MSA) Denke dir eine Zahl 𝑎𝑎 aus. Addiere 3 und multipliziere das Ergebnis mit 3.
+         Kreuze an, welcher Term den Sachverhalt richtig darstellt.
+         □ 𝑎𝑎 ⋅ 3 + 𝑎𝑎                 □ 3 ⋅ 𝑎𝑎 + 9                    □ 𝑎𝑎                  □ 𝑎𝑎 − 3
+
+
+    27. (MSA) Vereinfache den Term 2 ⋅ √3 ⋅ 2 ⋅ 27 schrittweise so weit wie möglich.
+
+
+    28. Löse die Klammer auf. Fasse anschließend den Term soweit wie möglich zusammen.
+         4 ⋅ (2 − 𝑥𝑥) + 3𝑥𝑥 =
+
+
+    29. Für die Klasse 8b sollen Taschenrechner bestellt werden.
+
+
+
+
+               a. Der Wert in Zelle B4 ist nicht mehr lesbar. Berechne den Wert für Zelle B4.
+
+               b. Welche Formel kann in Zelle D3 stehen?
+                    Kreuze jeweils an, ob die Formel geeignet oder nicht geeignet ist.
+                    Formel             geeignet        nicht geeignet
+                    =B3+C3                            
+                    =B3*C3                            
+                    =D3/C3                            
+
+
+
+
+                                                                                                    Seite 7 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+    30. Frau Sommer hat ein Bekleidungsgeschäft. Für die Rabattaktion „10 % Rabatt auf alle
+        Pullover“ möchte sie die neuen Preise mit einer Tabellenkalkulation berechnen.
+
+
+
+
+               a. Entscheide, mit welchen Formeln man den Wert in Zelle D3 berechnen kann.
+                    Kreuze an.
+                    Formel                             geeignet        nicht geeignet
+                    =B3*(1+B1/100)                                    
+                    =B3-C3                                            
+                    =B3*(1-B1/100)                                    
+                    =B3+C3                                            
+
+
+               b. Der Wert in Zelle B1 wird erhöht. Wie verändert sich der Wert in Zelle D4?
+                    Beschreibe den Zusammenhang.
+
+
+    31. Bestimme den Wert von 𝑥𝑥.
+
+
+               a. 18𝑥𝑥 − 3 = 0
+
+               b. 6𝑥𝑥 − 3 = 27𝑥𝑥
+
+               c. 22𝑥𝑥 − 6 = 14 − 8𝑥𝑥
+
+    32. (MSA) Christian hat versucht, drei aufeinanderfolgende natürliche Zahlen zu finden,
+        deren Summe 81 ist. Er hat folgende Gleichung aufgeschrieben:
+                                     (𝑛𝑛 – 1) + 𝑛𝑛 + (𝑛𝑛 + 1) = 81.
+        Kreuze an, wofür das 𝑛𝑛 steht.
+         □     Für die kleinste der drei natürlichen Zahlen.
+         □     Für die mittlere der drei natürlichen Zahlen.
+         □     Für die größte der drei natürlichen Zahlen.
+         □     Für die Differenz zwischen der kleinsten und der größten der drei
+                natürlichen Zahlen.
+
+
+
+
+                                                                                             Seite 8 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+    33. (MSA) Löse das lineare Gleichungssystem. Notiere deinen Lösungsweg.
+        I       2𝑥𝑥 + 𝑦𝑦 = 14
+        II      3𝑥𝑥 − 2𝑦𝑦 = 7
+
+    34. (MSA) Begründe, warum das folgende lineare Gleichungssystem keine Lösung hat.
+        I       𝑦𝑦 = 4𝑥𝑥 + 8
+        II      𝑦𝑦 = 4𝑥𝑥 + 5
+
+    35. (MSA) Löse das lineare Gleichungssystem. Notiere deinen Lösungsweg.
+        I       3𝑥𝑥 + 4𝑦𝑦 = 22
+        II      5𝑥𝑥 − 4𝑦𝑦 = −6
+
+    36. (MSA) Gib die Lösungen der folgenden Gleichung an:
+        (𝑥𝑥 − 8) ⋅ (𝑥𝑥 + 5) = 0
+
+    37. (MSA) Gib die Lösungen der folgenden Gleichung an:
+        𝑥𝑥 2 − 4𝑥𝑥 + 4 = 0
+
+    38. (MSA) Gib die Lösungen der folgenden Gleichung an:
+        𝑥𝑥 2 = 8
+
+
+
+
+                                                                                             Seite 9 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+Aufgabenbeispiele aus dem Bereich „Funktionen“
+
+   1. Tretbootverleih: Grundgebühr 6 €, pro Stunde 4 €.
+         Kreuze an, welcher Term passt.
+
+         □ 𝑦𝑦 = 6 𝑥𝑥 + 4               □ 𝑦𝑦 = 4 𝑥𝑥 + 6                 □ 𝑦𝑦 = 6 𝑥𝑥 + 6       □ 𝑦𝑦 = 4 𝑥𝑥 + 4
+
+     2. Vier Kinokarten kosten 52 Euro. Berechne den Preis für sieben Kinokarten.
+
+
+     3. Ein Paar Schuhe kostete ursprünglich 90 €. Es wird mit einem
+          Preisnachlass von 20 % verkauft.                                                            90 €
+          Berechne den neuen Verkaufspreis der Schuhe.
+
+
+     4. Ein quaderförmiges Schwimmbecken ist teilweise mit Wasser gefüllt. Es wird Wasser
+          gleichmäßig nachgefüllt. Die Variable 𝑥𝑥 entspricht der Zeit, die beim Nachfüllen
+          vergeht, 𝑦𝑦 entspricht der Wasserhöhe.
+          Kreuze an, welcher Graph zu der Situation passt.
+
+
+
+
+          □A           □B              □C              □D
+
+
+     5. Die Variable 𝑥𝑥 entspricht der Zeit (in Minuten), 𝑦𝑦 entspricht den Kosten (in €).
+          Welcher Graph beschreibt die Kosten einer Telefonflatrate? Kreuze an.
+
+
+
+
+          □A           □B              □C              □D
+
+
+     6. Eine Gerade hat die Steigung 𝑚𝑚 = 3 und geht durch den Punkt 𝑃𝑃(2 | 6).
+          Gib die Gleichung der Geraden an.
+
+
+     7. Eine Gerade geht durch die Punkte 𝐴𝐴(0|2) und B(5|0).
+          Gib die Gleichung der Geraden an.
+
+
+
+                                                                                                 Seite 10 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     8. (MSA) Für eine Funktion 𝑔𝑔 gilt: 𝑔𝑔(𝑥𝑥) = 𝑚𝑚 ⋅ 𝑥𝑥 + 𝑏𝑏 mit 𝑚𝑚 > 0 und 𝑏𝑏 < 0.
+          Kreuze die richtige Aussage an. Der Graph ist immer…
+
+          □ eine fallende Gerade.
+          □ eine Parabel.
+          □ eine Parallele zur 𝑥𝑥-Achse.
+          □ eine steigende Gerade.
+
+     9. Kreuze die richtige Aussage an.
+          Die Gerade mit der Gleichung 𝑦𝑦 = −2𝑥𝑥 + 8 …
+
+          □ schneidet nicht die 𝑥𝑥-Achse.
+          □ hat die Steigung 8.
+          □ schneidet die 𝑥𝑥-Achse bei 𝑥𝑥 = 4.
+          □ enthält den Punkt 𝑃𝑃(3|14).
+
+     10. In dem Koordinatensystem sind die Graphen A, B und C abgebildet.
+
+
+               a. Welche Gleichung gehört zu dem
+                  Graphen 𝐵𝐵?
+                  Begründe deine Entscheidung.
+                  (1) 𝑦𝑦 = 2𝑥𝑥 + 3
+                  (2) 𝑦𝑦 = 2𝑥𝑥 − 3
+
+
+               b. Der Graph 𝐴𝐴 kann mit der Gleichung
+                  𝑦𝑦 = −2𝑥𝑥 − 3 beschrieben werden.
+                  Prüfe, ob der Punkt 𝑃𝑃(4 | − 11) auf
+                  dem Graphen von 𝐴𝐴 liegt.
+
+
+
+
+                                                                                             Seite 11 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     11. Ordne die rechts abgebildeten Funktionsgraphen von
+          𝑓𝑓, 𝑔𝑔 und ℎ den angegebenen Gleichungen zu.
+
+               𝑓𝑓                              𝑦𝑦 = −0,5𝑥𝑥 + 2
+               𝑔𝑔                              𝑦𝑦 = 0,5𝑥𝑥 + 3
+               ℎ                                𝑦𝑦 = 2𝑥𝑥 + 3
+
+
+     12. Gib eine lineare Gleichung an, die zu folgender
+          Wertetabelle passt:
+                    𝑥𝑥        0       1         2
+                    𝑦𝑦        2      3,5        5
+
+
+                           𝑦𝑦 = _________________
+
+
+     13. Marlon zeichnet die Gerade 𝑔𝑔 mit 𝑔𝑔(𝑥𝑥) = 2𝑥𝑥 + 𝑏𝑏.
+
+
+               a. Gib für die abgebildete Gerade den Wert für 𝑏𝑏 an.
+
+
+               b. Marlon ändert den Wert von 𝑏𝑏 auf 𝑏𝑏 = 5.
+                         Zeichne die neue Gerade in das
+                         Koordinatensystem.
+
+
+
+     14. (MSA) Isabelle zeichnet mit einer Geometriesoftware den Graphen f einer
+          quadratischen Funktion mit: 𝑓𝑓(𝑥𝑥) = 𝑥𝑥 2 + 𝑐𝑐. Sie erstellt einen Schieberegler, mit dem
+          sie den Wert für 𝑐𝑐 verändern kann.
+
+               a. Gib für den abgebildeten Graphen
+                         den Wert für 𝑐𝑐 an.
+
+
+               b. Für welche Werte von 𝑐𝑐 verläuft
+                         der Graph 𝑓𝑓 vollständig oberhalb
+                         der 𝑥𝑥-Achse?
+                         Gib den Bereich für c an.
+
+
+
+
+                                                                                             Seite 12 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     15. (MSA) Ordne die rechts abgebildeten Funktionsgraphen von 𝑓𝑓, 𝑔𝑔 und ℎ den
+          angegebenen Gleichungen zu.
+
+         𝑓𝑓                                   𝑦𝑦 = (𝑥𝑥 − 3)2
+
+
+         𝑔𝑔                                     𝑦𝑦 = 3𝑥𝑥 2
+
+
+         ℎ                                     𝑦𝑦 = 𝑥𝑥 2 − 3
+
+
+
+
+     16. (MSA) Gib eine Gleichung der quadratischen Funktion an, die zu folgender
+          Wertetabelle passt:
+              𝑥𝑥       0        1         2
+              𝑦𝑦       2        3         6
+
+
+     17. (MSA) Begründe, welcher der drei Graphen zu der
+          Wertetabelle gehört.
+              𝑥𝑥      -1        1         4
+              𝑦𝑦      -1        -1       -16
+
+
+
+
+     18. (MSA) Bestimme die Nullstellen der folgenden Funktionen.
+
+
+               a. 𝑓𝑓(𝑥𝑥) = −𝑥𝑥 2 + 8
+
+
+               b. 𝑔𝑔(𝑥𝑥) = (𝑥𝑥 − 2)2
+
+
+               c. ℎ(𝑥𝑥) = 𝑥𝑥 2 − 𝑥𝑥 − 2
+
+
+               d. 𝑘𝑘(𝑥𝑥) = 𝑥𝑥 2 − 7𝑥𝑥 + 6
+
+
+
+
+                                                                                             Seite 13 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+Aufgabenbeispiele aus dem Bereich „Geometrie“
+
+     1. Gib eine Gleichung an, mit der man den Flächeninhalt der gesamten Fläche berechnen
+          kann.
+
+
+
+
+     2. Ergänze zu drei Rechtecken jeweils so, dass sie alle einen Flächeninhalt von 12 cm²
+          haben.
+          Die kleinen Quadrate haben eine Seitenlänge von 1 cm.
+
+
+
+
+     3. Das Dreieck ABC wird an der
+          Geraden 𝑔𝑔 gespiegelt.
+          Kreuze die richtigen Koordinaten der
+          dadurch entstehenden Bildfigur
+          𝐴𝐴′ 𝐵𝐵′ 𝐶𝐶′ an.
+          □ 𝐴𝐴′(8|7) 𝐵𝐵′(6|8) 𝐶𝐶′(9|11)
+          □ 𝐴𝐴′(2|9) 𝐵𝐵′(4|4) 𝐶𝐶′(1|7)
+          □ 𝐴𝐴′(1|8) 𝐵𝐵′(6|6) 𝐶𝐶′(3|9)
+          □ 𝐴𝐴′(8|1) 𝐵𝐵′(6|6) 𝐶𝐶′(9|3)
+
+
+
+                                                                                             Seite 14 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     4. In einem Dreieck ABC sind die folgenden Winkelgrößen bekannt:
+          𝛼𝛼 = 46°, 𝛽𝛽 = 44°, 𝛾𝛾 = 90°
+          Kreuze an, welche Aussage zutrifft.
+
+          □ Das Dreieck ist gleichschenklig.
+          □ Das Dreieck existiert nicht.
+          □ Das Dreieck ist rechtwinklig.
+          □ Das Dreieck ist spitzwinklig.
+
+     5. Gib die Anzahl der Kanten einer quadratischen Pyramide an.
+
+
+     6. Skizziere das Netz eines Kegels.
+
+
+     7. Ein Holzwürfel ist aus 27 kleinen Würfeln zusammengesetzt. Jeder kleine Würfel hat
+          ein Volumen von 1 cm³.
+          Welche Kantenlänge hat der Holzwürfel?
+
+
+     8. Betrachte das folgende Dreieck.
+
+              a. Zeige durch eine Rechnung, dass die
+                   Seite 𝑎𝑎 = 8 cm lang ist.
+
+
+              b. Berechne den Flächeninhalt des Dreiecks.
+
+
+     9. (MSA) Betrachte das folgende Dreieck.
+
+              a. Berechne die Länge der fehlenden Seite
+                 im Dreieck.
+
+
+              b. Entscheide, ob ein Dreieck mit den
+                 Seitenlängen
+                   𝑎𝑎 = 6 cm, 𝑏𝑏 = 8 cm und 𝑐𝑐 = 10 cm rechtwinklig ist.
+                   Begründe deine Antwort.
+
+
+
+
+                                                                                             Seite 15 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     10. (MSA) Ein Rechteck hat die Seitenlängen 𝑎𝑎 = 5 cm und 𝑏𝑏 = 3 cm.
+
+               a. Berechne die Länge der Diagonalen 𝑑𝑑.
+
+
+               b. Wie verändert sich der Flächeninhalt dieses
+                  Rechtecks, wenn man jede Seitenlänge verdoppelt?
+                  Begründe.
+
+               c. Ein anderes Rechteck hat einen Flächeninhalt von 24 cm².
+                  Wie lang könnten die Seiten sein? Gib zwei unterschiedliche Möglichkeiten
+                  an.
+
+
+     11. Karina kauft eine quadratische Pyramide aus Glas.
+
+               a. Die Kantenlänge der Grundfläche beträgt 4 cm. Die Pyramide ist 6 cm hoch.
+                  Bestätige durch eine Rechnung, dass die Pyramide ein Volumen von 32 cm³
+                  hat.
+
+
+               b. Ein Kubikzentimeter Glas wiegt 2,5 g. Der Hersteller gibt an: „Die Pyramide
+                  wiegt 80 g.“
+                  Kann diese Angabe stimmen? Überprüfe durch eine Rechnung.
+
+
+     12. (MSA) Ein Kegel hat eine Grundfläche von 27 cm² und ein Volumen von 81 cm³.
+          Berechne die Höhe des Kegels.
+
+
+     13. José kauft einen Quader aus Glas (vgl. Abbildung).
+
+               a. Bestätige durch eine Rechnung, dass der
+                  Quader ein Volumen von 80 cm³ hat.
+
+
+               b. Ein Kubikzentimeter Glas wiegt 2,5 g.
+                  Berechne das Gewicht des Quaders.
+
+
+
+
+                                                                                             Seite 16 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     14. Ein Quader hat die Maße 𝑎𝑎 = 25 cm, 𝑏𝑏 = 20 cm und 𝑐𝑐 = 70 cm.
+
+               a. Berechne das Volumen des Quaders. Notiere deinen
+                  Lösungsweg.
+
+
+               b. Elon behauptet: „Wenn ich die Höhe des Quaders
+                  verdopple, vervierfacht sich das Volumen“.
+                  Hat Elon recht? Begründe.
+
+
+     15. Ein Würfel hat eine Kantenlänge von 6 cm.
+
+               a. Berechne die Oberfläche des Würfels.
+
+
+               b. (MSA)
+                  Sina überlegt: „Wenn ich die Kantenlänge verdopple,
+                  dann verdoppelt sich auch die Oberfläche.“
+                  Hat Sina recht? Begründe deine Entscheidung.
+
+
+     16. (MSA) Ein Kreis hat den Radius 𝑟𝑟 = 4 cm.
+
+               a. Gib den Umfang des Kreises als Vielfaches von π an.
+
+
+               b. Gib den Flächeninhalt des Kreises als Vielfaches von π an.
+
+
+
+
+                                                                                             Seite 17 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+Aufgabenbeispiele aus dem Bereich „Stochastik“
+
+     1. Gib die Zahl mit der kleinsten Gewinnchance an.
+
+
+
+
+     2. (MSA) Es wird einmal mit zwei Würfeln geworfen und die Augensumme wird
+          gebildet.
+          Erkläre, warum die Wahrscheinlichkeiten für die verschiedenen Augensummen nicht
+          gleich sind und gib die Wahrscheinlichkeit für die Augensumme 7 an.
+
+
+     3. In einem Gefäß befinden sich schwarze und weiße Kugeln. Das Baumdiagramm zeigt
+          an, mit welcher Wahrscheinlichkeit eine schwarze oder weiße Kugel gezogen werden
+          kann.
+          Zeichne die fehlenden weißen Kugeln in das Gefäß ein.
+
+
+
+
+     4. Begründe, dass die Gewinnwahrscheinlichkeit für das Feld ❸ bei Glücksrad B größer
+          ist als bei Glücksrad A
+              Glücksrad A                               Glücksrad B
+
+
+
+
+                                                                                             Seite 18 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     5. In zwei Beuteln liegen jeweils schwarze und weiße
+          Kugeln (vergleiche Abbildung rechts).                                        Beutel A   Beutel B
+
+
+               a. Wie hoch ist die Wahrscheinlichkeit aus
+                    Beutel A eine weiße Kugel zu ziehen?
+
+
+               b. Ist die Wahrscheinlichkeit eine weiße
+                    Kugel zu ziehen bei beiden Beuteln gleich groß? Begründe deine
+                    Entscheidung.
+
+
+     6. In einem Losbehälter sind 200 Lose. Davon sind 3 Lose für Hauptgewinne und 33
+          Lose für Kleingewinne. Die restlichen Lose sind Nieten.
+
+
+               a. Gib die Wahrscheinlichkeit an, einen Hauptgewinn zu ziehen.
+
+
+               b. Wie hoch ist die Wahrscheinlichkeit eine Niete zu ziehen? Notiere deinen
+                    Lösungsweg.
+
+
+     7. (MSA) In einem Beutel befinden sich 8 rote, 2 blaue und 6 grüne Kugeln.
+
+
+               a.    Gib die Wahrscheinlichkeit an, eine blaue Kugel zu ziehen.
+
+
+               b. Bestimme die Wahrscheinlichkeit für das Ereignis „Es wird eine rote oder eine
+                    grüne Kugel gezogen“.
+
+
+     8. (MSA) In einem Beutel liegen 30 Kugeln, 10 weiße und 20 schwarze. Karl zieht ohne
+          hinzusehen und legt die Kugeln nach jedem Zug zurück.
+
+
+               a. Karl zieht eine Kugel. Gib die Wahrscheinlichkeit an, dass Karl eine schwarze
+                    Kugel zieht.
+
+
+               b. Karl zieht zweimal. Bestimme die Wahrscheinlichkeit, dass Karl zweimal
+                    hintereinander eine weiße Kugel zieht.
+
+
+
+
+                                                                                                  Seite 19 von 20
+Aufgabenbeispiele für den ersten Prüfungsteil ohne Hilfsmittel der ZP10 Mathematik ab 2023
+
+
+
+     9. Quentin zeichnet mit seiner Fitnessuhr die gelaufene Strecke pro Tag auf.
+
+            Tag                Montag            Dienstag           Mittwoch          Donnerstag       Freitag
+
+
+            Strecke in km            6,3                5,8                 6,0                  5,7        6,2
+
+
+
+                a. Bestimme die Spannweite und den Median der gelaufenen Strecke.
+
+
+                b. Berechne den Durchschnitt der gelaufenen Strecke. Nutze Rechenvorteile.
+
+
+     10. Miroslav und Nathalie machen in den Sommerferien eine dreitägige Fahrradtour.
+          Jeden Abend notieren sie die gefahrene Strecke in km:
+
+          Tag                                                          1                     2             3
+
+
+          Strecke in km                                                31                    34           36
+
+
+          Wie viele km sind sie durchschnittlich pro Tag gefahren? Berechne und runde das
+          Ergebnis auf eine Stelle nach dem Komma.
+
+
+
+
+                                                                                                           Seite 20 von 20

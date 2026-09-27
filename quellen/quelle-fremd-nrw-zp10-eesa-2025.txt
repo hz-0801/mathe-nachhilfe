@@ -1,0 +1,391 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau EESA (2021/2022 noch HSA), Prüfungsjahr 2025 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/325649/zentrale-pruefung-zp-10-eesa-mathematik-2025 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/325650/pruefungsteil-1-2025; https://de.serlo.org/mathe/325651/pruefungsteil-2-2025
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 2025  (Serlo-ID 325650)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 325680 – https://de.serlo.org/mathe/325680/aufgabe – Lizenz 27]
+Ordne die Zahlen der Größe nach. Beginne mit der kleinsten Zahl.
+ 3
+ 1,987
+ −5,1
+−3,16
+
+[3 Pkte]
+
+Lösung:
+Voraussetzung: Negative Zahlen
+-5,1 < -3,16 < 1,987 < 3
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 325684 – https://de.serlo.org/mathe/325684/aufgabe – Lizenz 27]
+[3 Pkte]
+[Lückentext:]
+5000 ml = [Lücke: 5] l,  6,3 m = [Lücke: 63] dm,  3321 g = [Lücke: 3,321] kg
+Lösung:
+Volumeneinheiten:
+1 ml=0,001 l
+5000 ml=5 l
+
+Längeneinheiten:
+1 m=10 dm
+6,3 m=63 dm
+
+ Gewichtseinheiten:
+1 kg=1000 g
+3321 g=3,321 kg
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325686 – https://de.serlo.org/mathe/325686/aufgabengruppe – Lizenz 27]
+[Abbildung]
+
+Teilaufgabe a)
+Bestimme den Umfang der abgebildeten Figur.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 28 cm]
+Lösung:
+Ergänze die fehlende Seitenlängen.
+
+[Abbildung]
+Addiere alle Seitenlängen.
+U=6 cm+8 cm+4 cm+4 cm+2 cm+4 cm=28 cm
+
+Die Figur hat einen Umfang von 28 cm.
+
+Teilaufgabe b)
+ Bestimme den Flächeninhalt der Figur.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 40 cm²]
+Lösung:
+Voraussetzung: Rechteck
+Zerlege die Figur in 2 Rechtecke.
+
+[Abbildung]
+Addiere den Flächeninhalt der beiden Rechtecke.
+A=2 cm· 4 cm+4 cm· 8 cm=8 cm^2+32 cm^2=40 cm^2
+
+Der Flächeninhalt der Figur beträgt 40cm^2.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325688 – https://de.serlo.org/mathe/325688/aufgabengruppe – Lizenz 27]
+Beim Schulfest stellt die Klasse 10b Glücksräder auf. Es darf einmal gedreht werden.
+[Abbildung]
+
+Teilaufgabe a)
+Bestimme für das linke Glücksrad A die Wahrscheinlichkeit für einen Gewinn (G).
+Notiere deinen Lösungsweg.
+
+[2 Pkte]
+Lösung:
+Gesamtzahl der Felder: 6
+Anzahl der Gewinnfelder: 2
+Die Gewinnwahrscheinlichkeit für Glücksrad „A“ liegt also bei (2)/(6).
+
+Teilaufgabe b)
+Für das rechte Glücksrad B soll die Wahrscheinlichkeit für einen Gewinn (G)p=(2)/(3)betragen.
+Beschrifte die Felder in dem Glücksrad B entsprechend.
+
+[2 Pkte]
+Lösung:
+Gesamtzahl der Felder: 12
+Wahrscheinlichkeit für einen Gewinn: (G)p=(2)/(3)=(8)/(12)
+In der Abbildung musst du 8 Felder auf dem Glücksrad B mit einem G markieren.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325690 – https://de.serlo.org/mathe/325690/aufgabengruppe – Lizenz 27]
+[Abbildung]
+
+Teilaufgabe a)
+Gib an, wie groß der Winkel α ist.
+
+[1 Pkt]
+[Eingabefeld – richtige Eingabe: 53 °]
+Lösung:
+Voraussetzung: Winkelsumme im Dreieck
+Die Winkelsumme im Dreieck beträg 180°.
+α=180°-90°-37°=53°
+
+α=53°
+
+Teilaufgabe b)
+Berechne mithilfe des Satzes von Pythagoras
+die Länge der Seite 𝑐.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 10 cm]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+a^2+b^2=c^2
+Setze die bekannten Werte ein.
+c^2=6^2+8^2=36+64=100
+c=√(100)=10
+Die Seite c ist 10 cm lang.
+
+==============================================================================
+Prüfungsteil 2 2025  (Serlo-ID 325651)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325692 – https://de.serlo.org/mathe/325692/aufgabengruppe – Lizenz 27]
+Falafel
+Dilek verkauft in ihrem Imbiss Falafeln in kleinen und großen Boxen (Abbildung 1).
+[Abbildung]
+
+Teilaufgabe a)
+Berechne den gesamten Preis für drei kleine und zwei große Boxen.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 31,50 €]
+Lösung:
+3·5,50 €+2·7,50 €=16,50 €+15,00 €=31,50€
+
+Teilaufgabe b)
+Entscheide rechnerisch, in welcher Box eine einzige Falafel günstiger ist.
+
+[2 Pkte]
+Lösung:
+Preis für eine Falafel in der kleinen Box:  5,50 €:5=1,10 €
+Preis für eine Falafel in der großen Box:  7,50 €:7=1,07 €
+1,07<1,10
+Der Preis pro Falafel in der großen Box ist günstiger.
+
+Teilaufgabe c)
+An einem Tag verkauft Dilek genau 400 Falafeln.
+Wie viele große Boxen und wie viele kleine Boxen könnte Dilek verkauft haben?
+Nenne zwei verschiedene Möglichkeiten.
+
+[2 Pkte]
+
+Lösung:
+Es gibt viele verschiedene Lösungen, z.B.
+[Abbildung]
+
+Teilaufgabe d)
+Aus 200 g Teig kann sie 8 Falafeln herstellen.
+Berechne, wie viel Kilogramm Teig sie für 400 Falafeln benötigt.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 10 kg]
+Lösung:
+200:8=25
+25·400=10000
+[Abbildung]
+10000 g=10 kg
+
+Für 400 Falafel benötigt Dilek 10 kg Teig.
+
+Teilaufgabe e)
+Bei der Herstellung der Falafeln wird Teig mit den Händen zu einer Kugel geformt.
+Schätze den Durchmesser der abgebildeten Falafel.
+Beschreibe deine Vorgehensweise.
+[Abbildung]
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 5 cm]
+Lösung:
+Lösungsidee:
+- Benutze zur Abschätzung des Durchmessers der Falafel ein Objekt in der Abbildung, dessen Größe du kennst oder messen kannst.
+- Vergleiche die Größe dieses Objekts mit der Falafel und schätze den Durchmesser
+Die Falafel hat einen Durchmesser, der etwa der Breite von drei Fingern entspricht.
+Wenn man drei Finger misst, sind sie etwa 5 cm breit.
+
+Die Falafel hat also einen Durchmesser von ca. 5 cm.
+
+Teilaufgabe f)
+Dilek behauptet: „Für eine Falafel mit doppeltem Durchmesser benötigt man auch doppelt so viel Teig.“
+Hat sie recht? Begründe deine Entscheidung.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Kugel
+Lösungsidee:
+- Berechne das Volumen einer Kugel mit 5 cm Durchmesser und das Volumen einer anderen Kugel mit 10 cm Durchmesser.
+- Vergleiche und entscheide
+Die Falafel ist eine Kugel. Das Volumen einer Kugel berechnet sich mit folgender Formel:
+V_{Kugel}=(4)/(3)·π· r^3
+
+Angenommen die Kugel hat einen Durchmesser von 5 cm, dann beträgt ihr Volumen
+V_{1}=(4)/(3)·π· 2,5^3≈ 65,45
+
+Ist der Durchmesser doppelt so groß, also 10 cm, dann beträgt das Volumen der Kugel
+V_{2}=(4)/(3)·π· 5^3≈ 523,6
+
+Das Volumen einer Kugel mit 10 cm Durchmesser ist deutlich größer als das Volumen einer Kugel mit 5 cm Durchmesser.
+
+Dilek hat nicht recht.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325695 – https://de.serlo.org/mathe/325695/aufgabengruppe – Lizenz 27]
+Smartphone-Nutzung
+In einer Zeitschrift sieht Jakub das Ergebnis einer Umfrage zur Mediennutzung in der Freizeit (Tabelle 1). Es wurden 1 050 Personen im Alter von 14–19 Jahren befragt.
+[Abbildung]
+
+Teilaufgabe a)
+1 040 Personen benutzen mehrmals pro Woche das Smartphone.
+Wie viel Prozent der befragten Personen entspricht dies?
+Berechne.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 99 %]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+G: Grundwert,
+W: Prozentwert
+p: Prozentsatz
+p=(W)/(G)
+p=(1040)/(1050)=0,99
+
+Etwa 99% der befragten Personen nutzen das Smartphone mehrmals die Woche.
+
+Teilaufgabe b)
+Die Summe aller Antworten ist größer als die Anzahl der befragten Personen.
+Jakub behauptet: „Das Ergebnis der Umfrage kann nicht stimmen.“
+Jakubs Behauptung ist falsch. Begründe.
+
+[2 Pkte]
+Lösung:
+Bei der Umfrage wurden die Personen danach gefragt, welche Medien und Geräte sie mehrmals pro Woche nutzen. Die Personen können angegeben haben, dass sie mehrere Medien und Geräte mehrmals pro Woche benutzen. Also ist die Summe aller Antworten größer als die Anzahl der befragten Personen.
+
+Teilaufgabe c)
+Jakub sieht mithilfe einer App, wie viel Zeit er am Smartphone verbringt. Aktuell wird seine Bildschirmzeit von Montag bis Donnerstag angezeigt (Abbildung 1).
+[Abbildung]
+Gib die maximale Bildschirmzeit an.
+
+[1 Pkt]
+[Eingabefeld – richtige Eingabe: 2 Std 43 Min ]
+Lösung:
+Die maximale Bildschirmzeit beträgt 2 Std 43 Min.
+
+Teilaufgabe d)
+Für Jugendliche wird eine durchschnittliche Bildschirmzeit von maximal 2 Stunden am Tag empfohlen.
+Entscheide rechnerisch, ob Jakub die Empfehlung zur durchschnittlichen Bildschirmzeit im Zeitraum von Montag bis Donnerstag eingehalten hat.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Durchschnitt berechnen
+Rechne die Zeitangaben in Minuten um.
+
+Empfehlung für die maximale Bildschirmzeit pro Tag:  2 Std=120 Min.
+
+Durchschnittliche Bildschirmzeit von Jakub:  (70 +126 +163 +49 )/(4)=(408)/(4)=102
+Die durchschnittliche Bildschirmzeit von Jakub beträgt 102 Min.
+102<120
+Jakub hat die Empfehlung eingehalten.
+
+Teilaufgabe e)
+Am Freitag beträgt Jakubs Bildschirmzeit 3 Std. 45 Min.
+Ergänze die entsprechende Säule in der Abbildung 1.
+
+[2 Pkte]
+Lösung:
+[Abbildung]
+
+Teilaufgabe f)
+Wie verändert sich die durchschnittliche Bildschirmzeit pro Tag, wenn Jakub nun den Zeitraum von Montag bis Freitag betrachtet? Kreuze an.
+
+Bildschirmzeit am Freitag:  3 Std.45 Min.=225 Min.
+
+Durchschnittliche Bildschirmzeit pro Tag: (408+225)/(5)=126,6
+Die durchschnittliche Bildschirmzeit pro Tag wird also größer.
+
+[1 Pkt]
+
+[Auswahl:]
+  ( ) Die durchschnittliche Bildschirmzeit pro Tag wird kleiner.
+  ( ) Die durchschnittliche Bildschirmzeit pro Tag bleibt gleich.
+  (x) Die durchschnittliche Bildschirmzeit pro Tag wird größer.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 325697 – https://de.serlo.org/mathe/325697/aufgabengruppe – Lizenz 27]
+Kerzenuhr
+Früher haben Menschen mithilfe von gleichmäßig abbrennenden Kerzen die Zeit gemessen. Hierfür markierten sie die Stunden in gleichen Abständen auf den Kerzen (Abbildung 1).
+Sofia möchte selbst solche Kerzenuhren herstellen. Sie hat zylinderförmige Kerzen. Jede Kerze ist 24 cm hoch und hat einen Durchmesser
+von 2,7 cm.
+[Abbildung]
+
+Teilaufgabe a)
+Zeige rechnerisch, dass eine Kerze ein Volumen von ca. 137 cm^3 hat.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Zylinder
+V=r^2π h
+h=24 cm
+d=2,7 cm
+r=(d)/(2)=1,35 cm
+V=1,35^2·π·24≈137
+
+Das Volumen der Kerze beträgt ungefähr 137 cm^3.
+
+Teilaufgabe b)
+Ein Kubikzentimeter (cm^3) Kerzenwachs wiegt 0,9 g.
+Berechne das Gewicht einer Kerze in Gramm.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 123,3 g]
+Lösung:
+Voraussetzung: Gewicht
+
+Berechnen des Gewichts einer Kerze in Gramm.
+Volumen: 137 cm^3
+Gewicht procm^3: 0,9g
+Gewicht der Kerze: 137·0,9=123,3
+
+Eine Kerze wiegt 123,3g.
+
+Teilaufgabe c)
+Um die Stunden auf ihren Kerzen zu markieren, lässt Sofia eine Kerze brennen. Nach jeder Stunde notiert sie die Höhe der Kerze in einer Tabelle (Tabelle 1).
+[Abbildung]
+Ergänze die zwei fehlenden Werte in der Tabelle
+
+[2 Pkte]
+Lösung:
+Pro Stunde verringert sich die Höhe der Kerze um 1,5 cm.
+[Abbildung]
+
+Teilaufgabe d)
+Sofia möchte die Höhe der Kerzen in cm nach 𝑥 Stunden bestimmen. Dafür nutzt sie die Funktionsgleichung:  𝑦=24−1,5𝑥.
+Berechne die Höhe der Kerze nach 7 Stunden.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 13,5 cm]
+Lösung:
+y=24-1,5· x
+x=7
+y=24-1,5·7=24-10,5=13,5
+
+Nach sieben Stunden ist die Kerze 13,5 cm hoch.
+
+Teilaufgabe e)
+Erkläre die Bedeutung von 24 und −1,5 im Zusammenhang mit dem Abbrennen der Kerze.
+
+[2 Pkte]
+
+Lösung:
+24 ist die Höhe der Kerze vor dem Anzünden.
+-1,5 gibt an, dass die Höhe der Kerze nach dem Anzünden um 1,5 cm pro Stunde abnimmt.
+
+Teilaufgabe f)
+Sofia zündet um 13:00 Uhr eine neue Kerze an.
+Bestimme die Höhe der Kerze um 17:30 Uhr.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 17,25 cm]
+Lösung:
+Zwischen 13:00 und 17:30 liegen 4,5 Stunden.
+y=24-1,5·4,5=24-6,75=17,25
+
+Die Kerze hat um 17:30 Uhr eine Höhe von 17,25 cm.

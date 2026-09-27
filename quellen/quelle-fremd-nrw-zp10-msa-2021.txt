@@ -1,0 +1,802 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau MSA, Prüfungsjahr 2021 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/307340/zentrale-pruefung-zp-10-msa-mathematik-2021 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/307343/pruefungsteil-1-2021-variante-1; https://de.serlo.org/mathe/307344/pruefungsteil-1-2021-variante-2; https://de.serlo.org/mathe/307404/pruefungsteil-2-2021
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“; Serlo-Standardvermerk Nr. 1 an einzelnen Aufgaben: „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 2021 - Variante 1  (Serlo-ID 307343)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307374 – https://de.serlo.org/mathe/307374/aufgabe – Lizenz 27]
+Aufgabe 1
+Schätze: Wie viele Röhrchen sind von dem Insektenhotel zu sehen? Beschreibe, wie du vorgegangen bist. (2 P)
+
+[Abbildung]
+Lösung:
+Voraussetzung: Schätzen
+Lösungsidee:
+- Zähle die Röhrchen in der 1. Reihe und in der 1. Spalte.
+- Berechne damit die Anzahl im ganzen linken Kasten durch Multiplikation.
+
+Bestimmung der Zahl der Röhrchen
+[Abbildung: Skizze]
+Wir bestimmen die Anzahl in einem der Kästen.
+Anzahl Röhrchen 1. Reihe:7
+Anzahl Röhrchen 1. Spalte: 14
+
+Anzahl Röhrchen 1. Rechteck =7·14=98 Röhrchen
+
+Ein Rechteck enthält etwa 98 Röhrchen;
+dann enthalten 3 Röhrchen 98·3=294 Röhrchen
+
+In dem Insektenhotel sind etwa 294 Röhrchen zu sehen.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307376 – https://de.serlo.org/mathe/307376/aufgabengruppe – Lizenz 1]
+Aufgabe 2
+Rechne die Größen in die angegebene Einheit um. (3 P)
+
+Teilaufgabe a)
+Rechne Stunden in Sekunden um.
+[Lückentext:]
+2,5 h= [Lücke: 9000] Sekunden
+Lösung:
+Voraussetzung: Umrechnen von Einheiten
+Lösungsidee:
+Überlege wie viele Sekunden eine Stunde hat.
+
+Umrechnen von Stunden in Sekunden.
+1 h = 3600 s ⇒2,5 h =2,5 \cancel{h}·3600 \dfrac{s}{\cancel{h}}=9000 s}
+
+2,5 Stunden entsprechen 9000} Sekunden.
+
+Schreibe den Wert in die Lücke.
+
+Teilaufgabe b)
+Rechne Zentimeter in Meter um.
+[Lückentext:]
+1296 cm=[Lücke: 12,96] Meter
+Lösung:
+Voraussetzung: Umrechnen von Einheiten
+Lösungsidee:
+Überlege wie viele Zentimeter ein Meter hat.
+
+Umrechnen von Zentimeter in Meter.
+1 m = 100 cm ⇒1296 =\dfrac{1296 \cancel{cm}· m}{100 \cancel{cm}}=12,96 m}
+
+1296 Zentimeter entsprechen 12,96} Meter.
+
+Schreibe denWert in die Lücke.
+
+Teilaufgabe c)
+Rechne Gramm in Kilogramm um.
+[Lückentext:]
+50 g=[Lücke: 0,05] Kilogramm
+Lösung:
+Voraussetzung: Umrechnen von Einheiten
+Lösungsidee:
+Überlege wie viel Gramm ein Kilogramm hat.
+
+Umrechnen von Gramm in Kilogramm.
+1 kg = 1000 g ⇒50 g =\dfrac{50 \cancel{g}· kg}{1000 \cancel{g}}=0,05 kg}
+
+50 Gramm entsprechen 0,05} Kilogramm.
+
+Schreibe den Wert in die Lücke.
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307378 – https://de.serlo.org/mathe/307378/aufgabe – Lizenz 27]
+Aufgabe 3
+Eine Pyramide aus Holz hat eine quadratische Grundfläche mit der Seitenlänge 15 cm und eine Höhe von 24 cm.
+
+Berechne das Volumen und das Gewicht der Pyramide, wenn 1 cm^{3} Holz 0,8 g wiegt. (3 P)
+[Lückentext:]
+Volumen der Pyramide: [Lücke: 1800] cm³
+Gewicht der Pyramide: [Lücke: 1440] g
+Lösung:
+Voraussetzung: Pyramide
+Lösungsidee:
+Berechne das Volumen und das Gewicht der Pyramide mit den entsprechenden Formeln.
+
+Berechnen des Volumens der Pyramide:
+Die Formel zur Berechnung des Volumens einer Pyramide lautet:
+
+V_{Pyramide}=(G· h)/(3); G=(15 cm)^2; h=24 cm}
+
+Einsetzen der Werte in die Formel:
+
+V_{Pyramide}=(225 cm^2· 24 cm)/(3) ⇒ V_{Pyramide}=1800 cm^3}
+
+Das Volumen der  Pyramide beträgt:1800 cm^3}
+____
+
+Berechnen des Gewichts der Pyramide:
+Die Formel zur Berechnung des Gewichts einer Pyramide lautet:
+
+m=V·\rho; \rho=0,8 (g)/(cm^3)}
+
+einsetzen der Werte in die Formel
+
+m_{Pyramide}=1800 cm^3· 0,8 (g)/(cm^3) ⇒ m_{Pyramide}=1440 g}
+
+Das Gewicht der Pyramide beträgt:1440 g}oder1,44 kg}
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307380 – https://de.serlo.org/mathe/307380/aufgabengruppe – Lizenz 1]
+Aufgabe 4
+
+Teilaufgabe a)
+Ordne die abgebildeten Funktionsgraphen von f, g und h den angegebenen Gleichungen zu. (2 P)
+
+[Abbildung]
+[Lückentext:]
+| Graph | Gleichung |
+| [Lücke: g] | y=-0,5x+2 |
+| [Lücke: h] | y=0,5x+3 |
+| [Lücke: f] | y=2x+3 |
+Lösung:
+Voraussetzung: Lineare Funktion
+Lösungsidee:
+Untersuche die verschiedenen Graphen auf:
+- den y-Achsenabschnittb
+- die Steigungm
+entscheide dann, welcher Graph zu welcher Gleichung passt.
+
+Allgemeine Geradengleichung:
+\hspace{20mm}\bold{f(x)=mx+b}
+| \bold{f(x)} | Steigung m | y-Achsenabschnitt b | Graph |
+| -0,5x+2 | -0,5 | 2 | g |
+| 0,5x+3 | 0,5 | 3 | h |
+| 2x+3 | 2 | 3 | f |
+
+Teilaufgabe b)
+Gib eine lineare Gleichung an, die zu folgender Wertetabelle passt: (3 P)
+
+[Abbildung]
+[Lückentext:]
+y= [Lücke: 1,5x+2/2+1,5x/3/2 x+2/3/2x+2]
+Lösung:
+Voraussetzung: Geradengleichung
+Lösungsidee:
+Die allgemeine Geradengleichung lautet:
+f(x)=m⋅x+b}
+bestimme m und b und stelle die Gleichung auf.
+wobei mdie Steigung und b der y-Achsenabschnitt ist.
+
+Berechnen des y-Achsenabschnitts b
+y=mx+b
+
+einsetzen des Wertepaars Spalte 1 der obigen Tabelle
+
+2=m·0+b ⇒ b=2
+____
+
+Berechnen der Steigung m
+Die Formel zur Berechnung der Steigung einer Geraden lautet:
+
+m=(y_2-y_1)/(x_2-x_1)}
+
+einsetzen der Wertepaare Spalte 1 und Spalte 2 der obigen Tabelle
+
+m=(3,5-2)/(1-0) ⇒ m=1,5}
+____
+
+Stelle jetzt die Gleichung auf
+
+y=1,5x+2}
+
+Schreibe die Gleichung in die Lücke.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307382 – https://de.serlo.org/mathe/307382/aufgabengruppe – Lizenz 27]
+Aufgabe 5
+Am 1. Juli 2020 wurde in Deutschland befristet die Mehrwertsteuer (= MwSt.) von 19 % auf 16 % gesenkt. Herr Meyer hat ein Geschäft für Bekleidung und hat die Senkung der Mehrwertsteuer an seine Kunden weitergegeben. Dafür hat er eine Excel-Tabelle angelegt:
+[Abbildung]
+
+Teilaufgabe a)
+Ergänze die fehlenden Werte in Zeile 4 für den Kapuzenpullover. (2 P)
+[Lückentext:]
+|  | A | B | C | D | E |
+| 1 | Produkt | Preis ohne MwSt. | Preis mit 19% MwSt. | Preis mit 16% MwSt. | Ersparnis in € |
+| 2 | T-shirt | 7,52 | 8,95 | 8,72 | 0,23 |
+| 3 | Pullover | 11,27 | 13,95 | 13,60 | 0,35 |
+| 4 | Kaputzenpullover | 33,57 | [Lücke: 39,95] | [Lücke: 38,94] | 1,01 |
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+Lösungsidee:
+Berechne die fehlenden Werte, indem du den Preis mit MwSt. 19 % und den Preis mit MwSt. 16 % berechnest und in die Tabelle einträgst.
+
+Ergänzen der fehlenden Werte in Zeile 4 für den Kapuzenpullover
+[Abbildung: Ausgefüllte Tabelle]
+
+Teilaufgabe b)
+Der Wert welcher Zelle lässt sich mit der Formel "=B3·1, 19-B3·1, 16 " berechnen?
+
+Gib die Zelle an. (1 P)
+[Lückentext:]
+Zelle [Lücke: E3/e3]
+Lösung:
+Voraussetzung: Prozentrechnung mittels Formeln
+
+Gesuchte Zelle
+Der Wert, der sich mit der Formel (=B3 · 1,19-B3· 1,16) berechnen lässt, ist der Wert in Zelle E3.
+[Abbildung: Tabelle]
+
+Teilaufgabe c)
+Herr Meyer stellt fest: „Obwohl die Mehrwertsteuer um 3 % abgesenkt wurde, betrug die Ersparnis für den Kunden nicht 3 %.“
+
+Begründe durch eine Rechnung, dass diese Aussage zutrifft. (2 P)
+Lösung:
+Voraussetzung: Vermehrter Grundwert
+Lösungsidee:
+Überlege von welchem Wert die Absenkung erfolgte.
+
+Begründen durch Rechnung, dass diese Aussage zutrifft
+Für die Beispielrechnung wählen wir den Pullover aus.
+
+Preis des Pullovers vor der Absenkung: 13,95 €
+
+Ersparnis nach der Absenkung der MwSt.: 0,35 €
+
+Ersparnis in Prozent:
+
+ p=(0,35)/(13,95)·100 % ⇒ p=2,51 %}
+
+Die Ersparnis beträgt 2,51 %}
+
+==============================================================================
+Prüfungsteil 1 2021 - Variante 2  (Serlo-ID 307344)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 307384 – https://de.serlo.org/mathe/307384/aufgabe – Lizenz 27]
+Aufgabe 2
+Ordne der Größe nach. Beginne mit der kleinsten Zahl: (2 P)
+(2)/(10) 0,15 10^{-1} 0,05
+Lösung:
+Voraussetzung: Umrechnen von Brüchen in Dezimalzahlen
+Lösungsidee:
+Um Zahlen der Größe nach zu ordnen, schreibe sie entweder alle als Brüche, oder alle als Dezimalzahlen. Hier bietet es sich an, alle als Dezimalzahlen zu schreiben, weil zwei Zahlen schon als Dezimalzahlen gegeben sind, und nur eine als Bruch.
+Schritt 1: Zahlen als Dezimalzahlen schreiben:
+\begin{array}{llrl}(2)/(10)&=&0,2 \\10^{-1}&=&(1)/(10)&=&0,1\end{array}
+
+Schritt 2: Jetzt kannst du die Zahlen der Größe nach ordnen:
+
+| 0,05 | 0,1 | 0,15 | 0,2 |
+| 0,05 | 10^{-1} | 0,15 | (2)/(10) |
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307386 – https://de.serlo.org/mathe/307386/aufgabengruppe – Lizenz 27]
+Aufgabe 3
+Herr Celik hat einen alten LKW gekauft.
+[Abbildung]
+
+Teilaufgabe a)
+Berechne das Volumen des quaderförmigen Laderaums. (1 P)
+[Lückentext:]
+Das Volumen des quaderförmigen Laderaums beträgt  [Lücke: 2,23] m^3
+Lösung:
+Voraussetzung: Quader
+Lösungsidee:
+Berechne das Volumen mit der Formel V_{Quader} = l · b · h
+V_{Quader} = l · b · h = 2,88 m · 1,94 m · 0,4 m ≈ 2,23 m^3}
+
+Antwort: Das Volumen des Quaders beträgt 2,23 m^3.
+
+Teilaufgabe b)
+Der Boden und die inneren Seitenwände des Laderaums müssen neu lackiert werden. Die Kosten für das Lackieren betragen 39 € pro angefangenen Quadratmeter ( m^{2} ).
+Berechne den Preis der neuen Lackierung. (3 P)
+[Lückentext:]
+Die neue Lackierung kostet  [Lücke: 390] €
+Lösung:
+Voraussetzung: Rechteck
+Lösungsidee:
+- Berechne den Flächeninhalt der einzelnen Flächen.
+- Berechne den Gesamtflächeninhalt.
+- Berechne den Preis pro angefangenem Quadratmeter.
+Gegeben:
+zu lackierende Flächen:
+1 x Boden
+2 x lange Seitenwand
+2 x kurze Seitenwand
+
+berechne den Flächeninhalt der einzelnen Flächen:
+A_{Boden} = l · b = 2,88 m · 1,94 m = 5,5872 m^2}
+A_{lange Seitenwand} = l · b = 2,88 m · 0,4 m = 1,152 m^2}
+A_{kurze Seitenwand} = l · b = 1,94 m · 0,4 m = 0,776 m^2}
+
+Jetzt kannst du die drei Flächen zusammenrechnen (Achtung: du brauchst die Seitenwände zweimal):
+
+A_{gesamt} = A_{Boden} + 2 · A_{lange Seitenwand} + 2 · A_{kurze Seitenwand}}\\= 5,5872 m^2 + 2 · 1,152 m^2 + 2 · 0,776 m^2 ≈ 9,44 m^2
+
+Die Lackierung kostet 39 € pro angefangenen Quadratmeter. Es sind 9,44 m^2 zu lackieren, das heißt der 10. Quadratmeter ist angefangen. Wir rechnen also 10 · 39 € = 390 €.
+
+Antwort: Die neue Lackierung kostet 390 €.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307388 – https://de.serlo.org/mathe/307388/aufgabengruppe – Lizenz 1]
+Aufgabe 4
+
+Teilaufgabe a)
+Löse das lineare Gleichungssystem. Notiere deinen Lösungsweg. (3 P)
+    6x-4y = -26
+    2x+4y = 2
+Lösung:
+Voraussetzung: Additionsverfahren
+Lösungsidee:
+- Löse das Gleichungssystem mit dem Additionsverfahren.
+Hier bietet sich das Additionsverfahren an, weil in beiden Gleichungen 4y vorkommt:
+
+\begin{array}{rrrcrlr}&I &6x&-&4y&=&-26\\+&II&2x&+&4y&=&2\\\hline&&8x&+&0&=&-24\end{array}
+
+Löse nach x auf:
+
+\begin{array}{llccll}8x&=&-24 |:8\\x&=&-3\end{array}
+
+Setze x in eine der Gleichungen ein:
+
+x in I:
+
+\begin{array}{llccll}6&·&(-3)&-&4y&=&-26\\-18&-&4y&=&-26&|+18&\\&-&4y&=-8&|:(-4)&\\&&y&=&2\end{array}
+
+Lösung: x = - 3 und y = 2.
+
+Teilaufgabe b)
+Ergänze den fehlenden Wert in Gleichung I so, dass das angegebene Gleichungssystem keine Lösung hat. Begründe deine Entscheidung. (2 P)
+[Lückentext:]
+I:   y=[Lücke: 3]x-7
+
+II:   y=3x+5
+Lösung:
+Voraussetzung: Lineares Gleichungssystem
+Wenn man in die Lücke 3 einsetzt, haben beide Gleichungen den identischen Teil y = 3x. Die Gleichungen unterscheiden sich also nur durch den Term - 7 bzw. + 5. Dadurch entsteht ein Widerspruch und das Gleichungssystem hat keine Lösung.
+
+==============================================================================
+Prüfungsteil 2 2021  (Serlo-ID 307404)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307439 – https://de.serlo.org/mathe/307439/aufgabengruppe – Lizenz 1]
+Aufgabe 1: Glaskugeln
+Ein Unternehmen stellt lackierte Glaskugeln her (Abbildung 1).
+Die Glaskugeln haben einen Durchmesser von 8 cm.
+
+[Abbildung: Abbildung 1: Glaskugel]
+
+Teilaufgabe a)
+Berechne das Volumen einer Glaskugel. (3 P)
+
+[Eingabefeld – richtige Eingabe: 268,08 ]
+Lösung:
+Voraussetzung: Volumen- und Oberflächenberechnung der Kugel
+Lösungsidee:
+Berechne das Volumen mit der Formel:  V=(4)/(3)r^3π.
+Berechne das Volumen mit der Formel:  V=(4)/(3)r^3π
+    Der Durchmesser beträgt 8 cm, also beträgt der Radius 4 cm.
+    V = (4)/(3)·4^3π
+    V ≈ 268,08cm^{3}
+
+Teilaufgabe b)
+Nach der Herstellung der Form wird die Kugeloberfläche lackiert.
+Mit einem Liter Farbe kann eine Fläche von 12 m^{2} lackiert werden.
+
+Berechne, wie viele Glaskugeln mit einem Liter Farbe lackiert werden können. (4 P)
+[Eingabefeld – richtige Eingabe: 596 Glaskugeln]
+Lösung:
+Voraussetzung: Kugel
+Lösungsidee:
+- Stelle die Formel für die Kugeloberfläche in einer passenden Flächeneinheit auf.
+- Setze die Fläche, die mit einem Liter Farbe bemalt werden kann, gleich mit der Kugeloberfläche, die wiederum multipliziert wird mit einer Unbekannten. Bestimme die Lösung der Unbekannten.
+- Achte darauf die Ergebnisse erst am Ende zu runden! Ist eher ab- oder aufrunden im Kontext der Aufgabe sinnvoll?
+
+Formel Kugeloberfläche
+O_{K} = 4 · π · r^{2}
+    r = (d)/(2)   | d = 8
+      (Durchmesser einsetzen und ausrechnen)
+    = 4   | ·(1)/(100)
+      (Zentimeter in Meter umrechnen)
+    = 0,04
+Wenn wir nun den Radius r in die Formel O_{K} einsetzen, dann kriegen wir die gewünschte Flächeneinheit in Quadratmeter. Den Radius r von Zentimeter in Meter umzurechnen ist zumeist weniger Fehleranfällig als die 12 m^{2} in cm^{2} umzurechnen.
+[Quadratmeter in Quadratzentimeter]
+12 = 12 · 100 · 100 = 120 000
+arrow 12 m^{2} = 120 000 cm^{2}
+
+Warum ist das so?
+Erinnere dich daran wie man eine Fläche berechnet:
+F= a · b
+Ohne Flächeneinheit (welche m^{2}, cm^{2}, etc. sind) berechnet man nur Zahlen. Erst die Interpretation im Kontext ändert die Art und Weise wie eine Zahl betrachtet wird. Wir berechnen sozusagen Meter x Meter oder Zentimeter x Zentimeter was nichts anderes als Meter^{2} oder Zentimeter^{2} ist.
+
+    Farbfläche gleichsetzen mit Kugeloberflächenformel multipliziert mit einer Unbekannten (hier x)
+    12 = 4 · π · r^{2} · x   | ·(1)/(4·π· r^2)
+      (nach x umstellen, für r = 0,04 einsetzen)
+    x = \frac{12}{4 · π · 0,04^{2}}
+      (ausrechnen)
+    x ≈ 596,83
+[Warum nicht 597 Glaskugeln?]
+
+[blank: Antwort]
+Es können 596 ganze Glaskugeln mit einem Liter Farbe lackiert werden.
+Die Aufgabenstellung fordert uns nicht dazu auf, aber es ist sinnvoll, auf ganze Kugeln zu runden:
+
+Stellen wir uns vor, wir sind der Verkäufer dieser Glaskugeln:
+Als Geschäftsmann oder -frau haben wir natürlich Interesse daran, nur ganze Kugeln zu verkaufen. Das gleiche gilt dann für die ganz lackierten Kugeln.
+
+Deshalb haben wir auf 596 ganze Kugeln gerundet. Für 597 hätte die Farbe nicht ausgereicht.
+
+Teilaufgabe c)
+Ein Praktikant behauptet: „Für eine Glaskugel mit doppeltem Durchmesser benötigt man auch doppelt so viel Farbe.“
+
+Hat der Praktikant recht? Begründe. (4 P)
+Lösung:
+Voraussetzung: Kugel
+Lösungsidee:
+- Stelle die Formel für die Oberfläche einer Kugel K_1 mit dem Radius r auf.
+- Berechne den Radius der Kugel bei doppeltem Durchmesser.
+- Stelle die Formel für die Kugel K_2 mit doppeltem Durchmesser auf.
+
+Oberfläche der Ausgangskugel K_1
+O_{K_1} = 4 · π · r^{2}
+
+Verdoppelung des Durchmessers
+⇒  Bei einer Verdoppelung des Durchmessers verdoppelt sich auch der Radius.
+Wir setzen den verdoppelten Radius in die Formel ein und untersuchen, wie sich die Oberfläche verändert:
+
+O_{K_2} = 4 · π · (2r)^{2}
+O_{K_2} = 4 · π · 4r^{2}
+O_{K_2} = 4·(4· π · r^{2})
+O_{K_2} = 4· O_{K1}
+Die Oberfläche einer Kugel mit doppeltem Durchmesser ist viermal so groß, wie die ursprüngliche Kugel. Der Praktikant hat nicht recht, denn für eine Glaskugel mit doppeltem Durchmesser benötigt man somit viermal so viel Farbe.
+
+Teilaufgabe d)
+Bevor die lackierten Glaskugeln verpackt werden, durchlaufen sie eine Qualitätskontrolle. Zuerst wird die Form, danach die Lackierung auf Fehler kontrolliert. Alle Glaskugeln mit einem Fehler werden direkt aussortiert. Das Baumdiagramm zeigt die Anteile. Die Anteile werden im Folgenden als Wahrscheinlichkeiten gedeutet.
+
+[Abbildung]
+Ergänze die drei fehlenden Angaben im Baumdiagramm. (2 P)
+[H5P-Element]
+Lösung:
+Voraussetzung: Abzählen mit dem Baumdiagramm
+Lösungsidee:
+Bei jeder Verzweigung ergibt die Summe der Äste 100%.
+
+Baumdiagramm
+3%  der Kugeln haben eine Form mit Fehlern.
+6% der Kugeln haben eine Form ohne Fehler, aber eine Lackierung mit Fehler.
+[Abbildung: Vollständiges Baumdiagramm]
+
+Teilaufgabe e)
+Begründe, warum der untere Ast des Baumdiagramms nicht fortgeführt ist. (2 P)
+Lösung:
+Voraussetzung: Abzählen mit dem Baumdiagramm
+
+Begründung
+Der untere Ast des Baumdiagramms wird nicht fortgeführt, weil alle Glaskugeln, die eine Form mit Fehlern haben, direkt aussortiert werden. Sie werden keiner weiteren Kontrolle unterzogen.
+
+Teilaufgabe f)
+Insgesamt werden 2000 Glaskugeln kontrolliert.
+
+Berechne, wie viele fehlerfreie Glaskugeln zu erwarten sind. (3 P)
+[Eingabefeld – richtige Eingabe: 1823 Fehlerfreie Kugeln sind zu erwarten.]
+Lösung:
+Voraussetzung: Abzählen mit dem Baumdiagramm
+Lösungsidee:
+Berechne die Erwartungswerte:  \mu=n· p
+
+Kugeln mit einer Form ohne Fehler
+2000· 0,97=1940
+
+Kugeln mit einer Form ohne Fehler und ohne Fehler bei der Lackierung
+1940· 0,94=1823,6
+Es werden etwa 1823 Kugeln ohne Fehler erwartet.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307441 – https://de.serlo.org/mathe/307441/aufgabengruppe – Lizenz 1]
+Aufgabe 2: Blobbing
+Blobbing ist eine Wassersportart im Freien (Abbildung 1).
+
+Eine vereinfachte Darstellung des Ablaufs ist in Abbildung 2 dargestellt. Beim Blobbing liegt ein mit Luft gefülltes Kissen im Wasser.
+
+(1) Der Jumper springt vom Turm auf das Luftkissen.
+
+(2) Auf der anderen Seite des Kissens ist der Blobber. Durch den Sprung befördert der Jumper den Blobber in die Luft.
+
+(3) Der Blobber wird in die Luft geschleudert und landet dann im Wasser.
+[Abbildung: Abbildung 1: Ablauf eines Blobbingsprunges als überlagerte Aufnahme]
+[Abbildung: Abbildung 2: Vereinfachte Darstellung des Blobbing-Ablaufs (nicht maßstabsgetreu)]
+Der Jumper kann zwischen verschiedenen Absprunghöhen wählen. Ein Sprung aus fünf Meter Höhe dauert ca. 1 Sekunde. Ein Sprung aus zehn Meter Höhe dauert ca. 1,42 Sekunden.
+[Abbildung: Tabelle 1: Sprungdauer in Abhängigkeit von der Absprunghöhe]
+[Abbildung]
+
+Teilaufgabe a)
+Skizziere zu den Werten aus Tabelle 1 den passenden Graphen in dem abgebildeten Koordinatensystem (Abbildung 3). (3 P)
+Lösung:
+Voraussetzung: Das zweidimensionale kartesische Koordinatensystem
+Lösungsidee:
+Übertrage die Werte aus der Tabelle in das Koordinatensystem, wobei die Absprunghöhe auf der x-Achse, die Sprungdauer auf der y-Achse liegt.
+
+Skizzieren des zur Tabelle passenden Graphen.
+[Abbildung]
+
+Teilaufgabe b)
+Überprüfe, ob es zwischen der Absprunghöhe und der Sprungdauer einen linearen Zusammenhang gibt. Notiere deinen Lösungsweg. (2 P)
+[Auswahl:]
+  ( ) Es gibt einen linearen Zusammenhang.
+  (x) Es gibt keinen linearen Zusammenhang.
+  ( ) Man kann nicht feststellen, ob es einen linearen Zusammenhang gibt.
+Lösung:
+Voraussetzung: Lineares Wachstum
+Lösungsidee:
+- Wähle zwei Punkte und berechne die Zunahme, indem du die Differenz der beiden Dauern berechnest.
+- Wähle zwei weitere Punkte mit demselben Abstand und berechne erneut die Zunahme.
+- Überlebe dir, wie sich die Zunahme bei einem linearen Wachstum verhalten muss und folgere so deine Entscheidung.
+
+Wir wählen zwei Punkte und überprüfen die Zunahme
+- Bei 0 Metern dauert der Sprung 0 Sekunden
+- Bei 5 Metern dauert der Sprung 1 Sekunde
+- Innerhalb von 5 Metern, nimmt die Dauer also um 1 Sekunde zu.
+
+[Abbildung]
+
+Wir überprüfen nun, ob bei zwei anderen Absprunghöhen mit 5 Metern Abstand die Dauer auch um 1 Sekunde zunimmt.
+- Zwischen 5 und 10 Metern liegt wieder derselbe Abstand vor, also müsste bei einem linearen Wachstum auch wieder die Dauer um 1 Sekunde zunehmen.
+- Dies ist nicht der Fall, deshalb handelt es sich um keinen linearen Zusammenhang
+[Abbildung]
+
+Teilaufgabe c)
+Abbildung 4 zeigt die Flugbahn eines Blobbers A.
+
+Begründe mithilfe der Abbildung 4, dass sich die Funktion f mit
+
+    f(x)=a·(x-5)^2+6 und a<0
+zur Modellierung der Flugbahn von Blobber A eignet. (3 P)
+[Abbildung: Abbildung 4: Flugbahn des Blobbers A]
+Lösung:
+Voraussetzung: Allgemeine Form und Scheitelform einer quadratischen Funktion
+Lösungsidee:
+Die Scheitelform lautet: f(x)=a·(x-d)^2+e
+Bestimme die Werte von d und e mithilfe eines geeigneten Punktes.
+
+Koordinaten des Scheitelpunkts
+Aus der Skizze lesen wir den Scheitel S(5|6) ab.
+
+Die Funktion hat dann allgemein den Funktionsterm:
+
+ f(x)=a·(x-5)^2+6
+
+Da die Parabel nach unten geöffnet ist muss a<0 sein.
+
+Teilaufgabe d)
+Zeige durch eine Rechnung, dass der Streckfaktor a hier a = - 0,2 beträgt. (2 P)
+Lösung:
+Voraussetzung: Allgemeine Form und Scheitelform einer quadratischen Funktion
+Lösungsidee:
+Setze den Punkt (0/1) in f(x) ein:
+Um a zu bekommen, setze den Punkt (0/1) in f(x) ein:
+
+    a(0 - 5)^2 + 6 = 1
+    25a + 6 = 1   | - 6
+    25a = - 5   | : 25
+    a = - 0,2
+
+Teilaufgabe e)
+Die Flugbahn von Blobber A kann somit durch die Funktion f mit f(x)=-0,2 ·(x-5)^{2}+6 beschrieben werden.
+
+Die Funktionsgleichung g mit g(x)=-0,2 · x^{2}+2 x+1 beschreibt dieselbe Flugbahn.
+
+Zeige durch Termumformungen, dass die Funktionsgleichungen von f und g dieselbe Parabel beschreiben. (3 P)
+Lösung:
+Voraussetzung: Allgemeine Form und Scheitelform einer quadratischen Funktion
+Lösungsidee:
+Wandle die Scheitelform von f(x) in die allgemeine Form um.
+
+Umwandeln von f(x) in die allgemeine Form:
+- auflösen der Klammer:
+f(x)=-0,2·(x^2-10x+25)+6
+f(x)=-0,2x^2+2x-5+6
+
+- zusammenfassen:
+f(x)=-0,2x^2+2x+1
+____
+
+f und g sind identisch:  f(x)=g(x)
+
+Teilaufgabe f)
+Berechne, wie weit Blobber A geflogen ist. (4 P)
+[Lückentext:]
+Blobber A ist etwa [Lücke: 10,5/10,475/10,48] Meter weit geflogen.
+Lösung:
+Voraussetzung: Quadratische Gleichung
+Lösungsidee:
+Ermittle die Nullstellen von f(x). Beachte, die Sprungweite kann nicht kleiner als Null sein.
+
+Lösen der quadratischen Gleichung mit der Mitternachtsformel.
+    setze f(x)=0
+    -0,2x^2+2x+1 = 0
+      (Mitternachtsformel)
+    x_{1/2}} = (-2±√(2^2+4·0,2·1))/(-0,4)
+    x_{1/2}} = (-2±√(4,8))/(-0,4)}
+    x_1 = (-2-2,19)/(-0,4)}
+    x_1 ≈ 10,475
+    x_2 = (-2+2,19)/(-0,4)
+    x_2 ≈ -0,475
+Blobber A ist etwa 10,5 Meter weit geflogen.
+(x_2 scheidet als Lösung aus, da die Flugweite nicht negativ sein kann)
+
+Teilaufgabe g)
+Die Flugbahn eines zweiten Blobbers B wird mit der Funktion h mit h(x)=-0,28·(x-5)^2+8 beschrieben.
+
+Nenne eine Gemeinsamkeit und einen Unterschied der Flugbahn des zweiten Blobbers B im Vergleich zur Flugbahn von Blobber A. (2 P)
+Lösung:
+Voraussetzung: Parabel
+Lösungsidee:
+- Vergleiche die Scheitelpunktsformen von f und h.
+- Leite daraus eine Gemeinsamkeit und einen Unterschied der Flugbahnen ab.
+
+Scheitelpunkte vergleichen:
+Betrachte die Scheitelpunktform der beiden Funktionen. Also ist f(x)=-0,2 ·(x-5)^{2}+6 und h(x)=-0,28(x-5)^2+8. Der Graph von  f hat den Scheitelpunkt S(5|6) und der Graph von h hat den Scheitelpunkt S(5|8).
+Daraus ergeben sich folgende Gemeinsamkeiten und Unterschiede:
+
+Mögliche Gemeinsamkeiten:
+- Die Flugbahnen sind beides Parabeln.
+- Beide Flugbahnen haben ihren höchsten Punkt nach 5 Metern.
+
+Mögliche Unterschiede:
+- Der Höchste Punkt von Blobber A ist 6 Meter hoch. Der höchste Punkt von Blobber B ist 8 Meter hoch.
+- Blobber A hat den Streckungsfaktor -0,2 und Blobber B den Streckungsfaktor -0,28. Dadurch ist die Flugbahn von B am Anfang steiler.
+Für deine Lösung reicht natürlich eine Gemeinsamkeit und einen Unterschied.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 307443 – https://de.serlo.org/mathe/307443/aufgabengruppe – Lizenz 1]
+Aufgabe 3: Muster
+Jan möchte ein Muster aus rechtwinkligen gleichschenkligen Dreiecken konstruieren. Er beginnt mit dem Dreieck D_{1} (Abbildung 1).
+[Abbildung: Abbildung 1: Dreieck D_{1}]
+
+Teilaufgabe a)
+Zeige mit einer Rechnung, dass die Länge der Hypotenuse von Dreieck D_{1} ca. 4,243 cm beträgt. (3 P)
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+Berechne die Hypotenuse des Dreiecks D_{1} mit dem Satz des Pythagoras.
+
+Berechnung der Länge der Hypotenuse
+Der Satz des Pythagoras lautet:
+
+c^2=a^2+b^2
+
+in dem gezeigten Dreieck D_{1} gilt:   a=b=3 cm
+
+Setze 3 in die Formel ein und berechne die Hypotenuse c.
+
+c=√(3^2+3^2) cm ⇒ c=√(18) cm}
+
+c≈4,243 cm
+
+Die Länge der Hypotenuse von Dreieck D_{1} beträgt ca. 4,243 cm}
+
+Teilaufgabe b)
+Jan setzt das Muster mit den beiden weiteren Dreiecken D_{2} und D_{3} fort (Abbildung 2).
+Ergänze das Dreieck D4 zeichnerisch in Abbildung 2. Beschreibe, wie du vorgegangen bist. (4 P)
+
+[Abbildung: Abbildung 2: Muster bis Dreieck D_{3} zu Teilaufgabe b) - d)]
+Lösung:
+Voraussetzung: Dreieck
+Lösungsidee:
+- Die Hypotenuse von D_3 wird eine der beiden Katheten von D_4.
+- Trage die zweite Kathete des Dreiecks D_4 im äußeren Punkt von D_3 an. Beachte dabei, dass das Dreieck D_4  - rechtwinklig und
+  - gleichschenklig ist.
+- Verbinde die beiden Schenkel von D_4.
+- Beschreibe alle Schritte genau, um dein Vorgehen zu erläutern.
+| Beschreibung | Zeichnung |
+| Die Hypotenuse von D_3 wird eine der beiden Katheten von D_4. | [Abbildung] |
+| Trage am äußeren Punkt von D_3einen rechten Winkel an. Hier entsteht die zweite Kathete von D_4. | [Abbildung] |
+| Miss die Länge der Hypotenuse von D_3. | [Abbildung] |
+| Zeichne die zweite Kathete von D_4 mit der gemessenen Länge ein. | [Abbildung] |
+| Verbinde die beiden Katheten von D_4 zur Hypotenuse. | [Abbildung] |
+
+Teilaufgabe c)
+Jan kann nur acht Dreiecke zeichnen, ohne dass die Dreiecke sich überschneiden. Begründe dies mithilfe der Winkel. (2 P)
+
+Lösung:
+Voraussetzung: Kreise und Kreisteile
+Lösungsidee:
+- Berechne, wie oft 45 in 360 enthalten ist.
+- Hinweis: Die Dreiecke sind gleichschenklig-rechtwinklig, die Basiswinkel sind also 45°. Ein Vollwinkel hat 360°.
+
+Skizze der Figur
+[Abbildung]
+
+Begründung
+Die Dreiecke sind gleichschenklig-rechtwinklig, das bedeutet die Basiswinkel
+betragen 45°.  Ein Vollkreis hat 360°. Die Anzahl der Dreiecke ist dann: (360)/(45)=8.
+Siehe Skizze.
+
+Teilaufgabe d)
+Zeige rechnerisch, dass der Flächeninhalt von Dreieck D_{2} doppelt so groß ist wie der Flächeninhalt von Dreieck D_{1}. (3 P)
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+Die Hypotenuse von Dreieck D_{1} wird zur Kathete von Dreieck D_{2}. Berechne die Flächeninhalte beider Dreiecke und vergleiche sie.
+
+Skizze der Figur
+[Abbildung]
+
+Berechnen der Hypotenuse von Dreieck D_{1}
+H_{{D}_{1}}=√(a^2+a^2)} ⇒ H_{D_1}=√(2a^2)}
+
+H_{D_1}=a√(2)}}
+
+Berechnen des Flächeninhalts von Dreieck D_1
+A_{D_1}=(a· a)/(2) ⇒ A_{D_1}=(a^2)/(2)}
+
+A_{D_1}=(1)/(2)· a^2}}
+
+Berechnen des Flächeninhalts von Dreiecks D_{2}
+A_{D_2}=(a√(2)· a√(2))/(2) ⇒ A_{D_2}=\dfrac{1}{\cancel{2}}· \cancel{2}a^2}
+
+A_{D_2}=a^2}}
+Der Flächeninhalt des Dreiecks D_1 beträgt (1)/(2)· a^2}},
+
+der Flächeninhalt des Dreiecks D_2 beträgt a^2}.
+
+Der Flächeninhalt des Dreiecks D_{2} ist also doppelt so groß wie der Flächeninhalt des Dreiecks D_{1}.
+
+Teilaufgabe e)
+Jan berechnet weitere Flächeninhalte der Dreiecke in seinem Muster (Abbildung 3) und hält die Ergebnisse in einer Tabelle fest.
+[Abbildung]
+[Abbildung: Abbildung 3: Muster bis Dreieck D_{5} verkleinert dargestellt]
+Begründe, dass kein Dreieck in dem Muster einen Flächeninhalt von genau 250 cm^{2} hat. (2 P)
+Lösung:
+Voraussetzung: Teiler und Vielfache
+Lösungsidee:
+Überlege, ob 250 ohne Rest durch 4,5 teilbar ist.
+Die Flächeninhalte der Dreiecke in dem Muster sind ein Vielfaches von 4,5.
+250 ist nicht ohne Rest durch 4,5 teilbar.
+
+250:4,5=55,5
+
+Teilaufgabe f)
+Jan möchte das Muster aus Papier herstellen. Dazu schneidet er die einzelnen Dreiecke aus DIN-A4-Blättern ( 21 cm · 29,7 cm) aus. Jan behauptet: „Auch das Dreieck D_{8} kann ich aus einem einzigen DIN-A4-Blatt ausschneiden.“
+
+Entscheide begründet, ob Jans Behauptung zutrifft. (3 P)
+[Auswahl:]
+  ( ) Jans Behauptung trifft zu.
+  (x) Jans Behauptung trifft nicht zu.
+  ( ) Man kann nicht feststellen, ob Jans Behauptung zutrifft.
+Lösung:
+Lösungsidee:
+Berechne die Kathetenlänge des Dreiecks D_8 und vergleich sie mit den Abmessungen eines DIN-A4-Blatts.
+
+Berechnen der Kathetenlänge des Dreiecks D_8
+
+Die Fläche des Dreiecks D_8berechnet sich:
+
+A_{D_8}=4,5·2^7=576 cm^2}
+
+Berechnen der Kathetenlänge des Dreiecks D_8
+
+Die Kathete eines rechtwinklig-gleichschenkligen Dreiecks berechnet sich:
+
+A_{D_8}=(a^2)/(2) ⇒ a=\sqrt{2· A_{D_8}}} einsetzen der Zahlenwerte
+
+a=√(2· 576 cm^2)}
+
+a≈33,94 cm
+
+Da die Länge der Kathete des Dreiecks D_8 ca. 33,94 cm, die längere Seite
+eines DIN-A4-Blatts aber nur 29,7 cm beträgt, ist es nicht möglich das Dreieck D_8
+aus einem einzigen DIN-A4-Blatt auszuschneiden.
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 323067 – https://de.serlo.org/mathe/323067/aufgabe – Lizenz 1]
+(keine Fassung)

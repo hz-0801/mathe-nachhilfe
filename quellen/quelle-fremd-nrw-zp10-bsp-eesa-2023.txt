@@ -1,0 +1,206 @@
+Quelle: Nordrhein-Westfalen, QUA-LiS NRW: „Beispiel für einen ersten Prüfungsteil auf dem Anforderungsniveau EESA (vormals HSA 10) mit Hinweisen und Lehrerunterlagen“ (Beispielaufgabe Zentrale Prüfungen 10 Mathematik ab 2023, Prüfungsteil 1 ohne Hilfsmittel; Aufgaben, Beispiellösungen, Bewertungsbogen mit Punkten). PDF-Metadaten: erstellt 2023-02-07.
+Adresse: https://www.standardsicherung.schulministerium.nrw.de/system/files/media/document/file/zp10_m_bsp_pt1_eesa.pdf (verlinkt von https://www.standardsicherung.schulministerium.nrw.de/mathematik-msa und …/mathematik-eesa)
+Abruf: 2026-09-27 (curl, frei ohne Anmeldung)
+Seitenzahl: 5 (pdfinfo)
+Lizenzvermerk: kein Vermerk (weder auf der Seite noch in der Datei; Herausgeber QUA-LiS NRW)
+Textfassung: pdftotext -layout; Formeln mit mathematischen Sonderzeichen sind zum Teil verdoppelt oder zerlegt wiedergegeben (Kursivbuchstaben erscheinen doppelt: „𝑥𝑥“ = x), Abbildungen fehlen.
+                                                                                             M EESA A
+
+Name: ____________________________________                                       Klasse: _________
+
+
+
+            Beispielaufgabe Zentrale Prüfungen 10
+                     Mathematik ab 2023
+   Anforderungen für den Erweiterten Ersten Schulabschluss (EESA)
+
+                   Prüfungsteil 1: Aufgaben ohne Hilfsmittel
+
+Aufgabe 1: Zahlvorstellung
+Markiere die Zahlen auf dem Zahlenstrahl.
+                    6                                 4
+   0,4                              1,8
+                    10                                5
+
+
+
+        0                                         1                                      2
+
+
+Aufgabe 2: Größen und Einheiten
+Rechne die Größen in die angegebene Einheit um.
+
+
+250 cm       = _________ m
+0,75 ℓ       = _________ dm³
+2,5 h        = _________ min
+
+
+
+Aufgabe 3: Zahlenrätsel
+Pia und Tom spielen Zahlenrätsel mit dem Term (𝑥𝑥 + 19) ⋅ 3.
+a) Tom setzt 𝑥𝑥 = 6 in den Term ein. Berechne den Wert des Terms.
+
+b) Pia setzt für 𝑥𝑥 eine Zahl ein und erhält das Ergebnis 63. Tom möchte Pias Zahl finden und notiert
+   die folgende Rechnung:
+                                      (𝑥𝑥 + 19) ∙ 3 = 63 |: 3
+                                        ⇔ 𝑥𝑥 + 19 = 63 | − 19
+                                                 ⇔ 𝑥𝑥 = 44
+   Pia stellt fest: „Die Rechnung ist falsch.“
+   (1) Markiere den Fehler und
+   (2) bestimme Pias Zahl.
+
+
+
+
+                                          Beispielaufgabe ZP10 2023                          Seite 1 von 2
+                                                                                             M EESA A
+
+Name: ____________________________________                                        Klasse: _________
+
+Aufgabe 4: Volumen
+Berechne das Volumen des abgebildeten Körpers. Alle Maße sind in cm.
+
+
+
+
+Aufgabe 5: Weg zur Arbeit
+500 Personen wurden gefragt, wie sie ihren Weg zur Arbeit zurücklegen. Das Ergebnis ist in der
+Tabelle dargestellt:
+
+       zu Fuß          Fahrrad           öffentliche                    Auto (und sonstige
+                                        Verkehrsmittel                   Kraftfahrzeuge)
+        25 %            10 %                 34 %                               31 %
+
+a) Berechne, wie viele der gefragten Personen mit öffentlichen Verkehrsmitteln zur Arbeit fahren.
+
+b) Die Ergebnisse werden in einem Kreisdiagramm dargestellt.
+   Vervollständige das Kreisdiagramm.
+
+
+
+
+                                                      Abbildung: Verkehrsmittel für den Arbeitsweg
+
+
+
+
+                                       Beispielaufgabe ZP10 2023                              Seite 2 von 2
+Qualitäts- und UnterstützungsAgentur –
+Landesinsitut für Schule NRW
+                                                                                         M EESA L
+
+
+                         Unterlagen für die Lehrkraft
+         Beispielaufgabe Zentrale Prüfungen 10
+                  Mathematik ab 2023
+          Anforderungen für den Erweiterten Ersten Schulabschluss (EESA)
+                   vormals Hauptschulabschluss nach Klasse 10
+
+
+Beispiellösungen
+Prüfungsteil 1: Aufgaben ohne Hilfsmittel
+Hilfsmittelfrei zu bearbeitende Aufgaben
+
+Aufgabe 1: Zahlvorstellung
+                          6       4                                     1,8
+                0,4
+                         10       5
+
+ 0                                        1                                       2
+
+Hinweis für die korrigierende Lehrkraft:
+Bei drei richtigen Einträgen gibt es zwei Punkte, bei zwei richtigen Einträgen gibt es einen Punkt.
+
+
+Aufgabe 2: Größen und Einheiten
+250 cm = 2,5 m;
+0,75 ℓ     = 0,75 dm³;
+2,5 h      = 150 min
+
+Aufgabe 3: Zahlenrätsel
+a) (6 + 19) ⋅ 3 = 25 ⋅ 3 = 75
+
+
+b) (1)
+
+
+     (2) … ⇔ 𝑥𝑥 + 19 = 21 ⇔ 𝑥𝑥 = 2
+
+
+
+
+                                        Beispielaufgabe ZP10 2023                         Seite 1 von 3
+Qualitäts- und UnterstützungsAgentur –
+Landesinsitut für Schule NRW
+                                                                                  M EESA L
+
+Aufgabe 4: Volumen
+𝑉𝑉 = 8 ⋅ 5 ⋅ 3 + 2 ⋅ 5 ⋅ 3 = 10 ⋅ 15 = 150
+
+
+Aufgabe 5: Weg zur Arbeit
+                          34
+a) 500 ⋅ 34 % = 500 ⋅ 100 = 170
+
+     170 (der 500 gefragten) Personen fahren mit öffentlichen Verkehrsmitteln zur Arbeit.
+
+
+
+
+b)
+
+
+
+
+                                      Beispielaufgabe ZP10 2023                   Seite 2 von 3
+Qualitäts- und UnterstützungsAgentur –
+Landesinsitut für Schule NRW
+                                                                                                            M EESA L
+
+     Bewertungsbogen zur Prüfungsarbeit im Fach Mathematik
+             Anforderungen für den Erweiterten Ersten Schulabschluss (EESA)
+                      vormals Hauptschulabschluss nach Klasse 10
+
+
+
+Name des Prüflings: ___________________________                            Klasse/Kursbezeichnung: ______
+
+Schule: ___________________________________________________________________
+
+
+Prüfungsteil 1: Aufgaben ohne Hilfsmittel
+Aufgaben 1 – 5
+
+           Anforderungen                                                            Lösungsqualität
+
+                               Der Prüfling…                           maximal
+                                                                      erreichbare
+                                                                                     EK 1        ZK1           DK1
+                                                                                    Punktzahl   Punktzahl     Punktzahl
+                                                                      Punktzahl
+
+     1     markiert die Zahlen auf dem Zahlenstrahl.                        3
+
+     2     wandelt jeweils die Größe in die angegebene Ein-                 3
+           heit um.
+     3a)   berechnet den Wert des Terms.                                    2
+    3b(1) markiert den Fehler.                                              1
+    3b(2) bestimmt Pias Zahl.                                               2
+     4     berechnet das Volumen des zusammengesetzten                      2
+           Körpers.
+     5a)   berechnet die Anzahl der gefragten Personen, die                 2
+           mit öffentlichen Verkehrsmitteln zur Arbeit fahren.
+    5b)    ergänzt in dem Kreisdiagramm den fehlenden An-                   3
+           teil und die Beschriftung.
+
+
+           Summe Prüfungsteil 1                                            18
+
+
+
+
+1    EK = Erstkorrektur; ZK = Zweitkorrektur; DK = Drittkorrektur
+
+
+                                               Beispielaufgabe ZP10 2023                                    Seite 3 von 3

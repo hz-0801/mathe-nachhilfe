@@ -1,0 +1,400 @@
+Quelle: Nordrhein-Westfalen, Zentrale Prüfungen 10 (ZP10) Mathematik, Anforderungsniveau EESA (2021/2022 noch HSA), Prüfungsjahr 2024 – Aufgaben mit Musterlösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/314829/zentrale-pruefung-zp-10-eesa-mathematik-2024 (Übersicht); Prüfungsteile: https://de.serlo.org/mathe/314830/pruefungsteil-1-2024; https://de.serlo.org/mathe/314831/pruefungsteil-2-2024
+Abruf: 2026-09-27 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Anforderungsniveau für alle Jahrgänge; Inhalt der Aufgaben-Seiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: Serlo-Lizenzvermerk Nr. 27 an den Aufgaben: „Diese Aufgabe stammt vom Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen“. Die Musterlösungen sind Serlo-Inhalte (CC BY-SA 4.0), nicht die amtliche Auswertungsanleitung.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung: Bildunterschrift]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort.
+
+==============================================================================
+Prüfungsteil 1 2024  (Serlo-ID 314830)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo Exercise 314953 – https://de.serlo.org/mathe/314953/aufgabe – Lizenz 27]
+Ordne die Zahlen der Größe nach. Beginne mit der kleinsten Zahl.
+
+[Abbildung]
+[2 Pkte]
+Lösung:
+Voraussetzung: Vergleich von Dezimalzahlen
+Lösungsidee:
+- Beachte die Vorzeichen der Zahlen
+- Überlege, wo die Zahlen auf der Zahlengeraden liegen
+−0,21 < −0,2 < 0,35 < 0,53
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 314958 – https://de.serlo.org/mathe/314958/aufgabe – Lizenz 27]
+Rechne die Größen in die angegebene Einheit um.
+[3 Pkte]
+[Lückentext:]
+300 cm = [Lücke: 3] m,  240 s = [Lücke: 4] min,  0,8 l = [Lücke: 800] ml
+Lösung:
+Voraussetzung: Umrechnen von Einheiten
+1m=100 cm
+300 cm=3 m
+
+1 min=60 s
+240 s=4 min
+
+1 l=1000 ml
+0,8 l=800 ml
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 314960 – https://de.serlo.org/mathe/314960/aufgabengruppe – Lizenz 27]
+Sonja übt Weitsprung. Ihre ersten fünf Sprünge hat sie in einer Tabelle notiert.
+[Abbildung]
+
+Teilaufgabe a)
+
+Gib die Spannweite und den Median der fünf Sprünge an.
+[2 Pkte]
+[Lückentext:]
+Spannweite: [Lücke: 0,70] m,  Median: [Lücke: 4,10] m
+Lösung:
+Voraussetzung: Median
+Die Spannweite bezeichnet die Differenz zwischen dem größten und dem kleinsten Wert.
+4,30-3,60=0,70
+Die Spannweite beträgt 0,70 m.
+Um den Median zu bestimmen, ordne die Werte zuerst der Größe nach:
+
+    3,60 \le 3,80 \le 4,10 \le4,20 \le 4,30
+ Nun ist der Median der mittlere Wert, also 4,10 m.
+
+Teilaufgabe b)
+Berechne die durchschnittliche Sprungweite aus den fünf Sprüngen.
+[2 Pkte]
+[Lückentext:]
+durchschnittliche Sprungweite: [Lücke: 4] m
+Lösung:
+Für den Durchschnitt berechne die Summe aller Sprünge und teile diese durch die Anzahl der Sprünge.
+(3,80+3,60+4,30+4,20+4,10):5=20:5=4
+Sonjas durchschnittliche Sprungweite aus den ersten fünf Sprüngen ist 4 m.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 314962 – https://de.serlo.org/mathe/314962/aufgabengruppe – Lizenz 27]
+(keine Fassung)
+
+------------------------------------------------------------------------------
+[Serlo Exercise 314965 – https://de.serlo.org/mathe/314965/aufgabe – Lizenz 27]
+Marlon möchte sich einen neuen Basketball kaufen.
+Ohne Rabatt kostet der Ball 60 €. Nun wird er mit 25 % Rabatt verkauft.
+Berechne den neuen Kaufpreis.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 45 €]
+Lösung:
+Voraussetzung: Dreisatz
+Lösungsidee:
+- Berechne 25% von 60 €
+- Subrtrahiere den Wert von 60€
+    60 ≙ 100%   | :4
+      (Teilen durch 4 liefert auf der rechten Seite 25%)
+    15 ≙ 25%
+60-15=45
+Wenn Marlon 25% Rabatt auf den Ball bekommt, beträgt der Kaufpreis also 45 €.
+
+
+------------------------------------------------------------------------------
+[Serlo Exercise 314967 – https://de.serlo.org/mathe/314967/aufgabe – Lizenz 27]
+Bestimme näherungsweise die Anzahl der Reiskörner auf dem Bild. Beschreibe, wie du vorgegangen bist.
+[Abbildung]
+[3 Pkte]
+Lösung:
+Unterteile das Bild in eine bestimmte Anzahl gleich großer Felder, z.B. in 8 Felder.
+
+[Abbildung]
+Zähle die Reiskörner in einem Feld und multipliziere diese Zahl mit 8.
+Anzahl der Reiskörner in einem Feld: ca. 50
+Anzahl der Reiskörner insgesamt: 50·8=400
+
+Auf dem Bild sind insgesamt ca. 400 Reiskörner zu sehen.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 314974 – https://de.serlo.org/mathe/314974/aufgabengruppe – Lizenz 27]
+Für den Jahrgang 7 einer Schule werden Tablets bestellt.
+[Abbildung]
+
+Teilaufgabe a)
+
+Berechne den Wert für Zelle B3.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 340 €]
+Lösung:
+Lösungsidee:
+Teile den Gesamtpreis durch die Anzahl der Tablets.
+6800 :20=340
+Der Kaufpreis für 1 Tablet beträgt 340 €.
+
+Teilaufgabe b)
+
+Welche Formel kann in Zelle D4 stehen?
+
+Kreuze an, ob die Formel geeignet ist.
+
+[2 Pkte]
+[Auswahl:]
+  ( ) =B3 \ast C
+  (x) =B4 \ast C4
+  ( ) =B4+C4
+Lösung:
+Der Gesamtpreis in Zelle D4 ergibt sich aus dem Produk des Einzelpreises ( B4) und der Anzahl der Schutzhüllen (C4).
+D4=B4· C4
+
+==============================================================================
+Prüfungsteil 2 2024  (Serlo-ID 314831)
+==============================================================================
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315083 – https://de.serlo.org/mathe/315083/aufgabengruppe – Lizenz 27]
+Garten
+Lisa arbeitet als Gärtnerin. Im Rahmen eines Projektes plant sie den Grundriss eines quadratischen Gartens. Dieser Garten soll achsensymmetrisch sein (Abbildung 1).
+
+[Abbildung]
+
+Teilaufgabe a)
+
+Gib die Anzahl der Symmetrieachsen des Gartens an.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 4 ]
+Lösung:
+Voraussetzung: Quadrat
+Sowohl die Diagonalen, als auch die Seitenhalbierenden des Quadrats sind Symmetrieachsen.
+Der Garten hat also 4 Symmetrieachsen.
+
+Teilaufgabe b)
+
+Bestätige durch eine Rechnung, dass die Seitenlänge des inneren Quadrats ca. 5,7 m beträgt.
+
+[3 Pkte]
+Lösung:
+Voraussetzung: Satz des Pythagoras
+Lösungsidee:
+Berechne die Seitenlänge des inneren Quadrats mit dem Satz des Pythagoras.
+Betrachte z.B. das Dreieck links unten. Es handelt sich um ein rechtwinkliges Dreieck. Die Länge der Katheten beträgt 8:2=4.
+Aus dem Satz des Pythagoras ergibt sich:
+4^2+4^2=c^2
+c=√(4^2+4^2)=√(32)≈5,7
+
+Die Seitenlänge des Quadrats beträgt ca. 5,7 m.
+
+Teilaufgabe c)
+
+Auf den Seiten des inneren Quadrats werden Buchsbäume im Abstand von 15 cm gepflanzt. Berechne die Anzahl der Buchsbäume.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 152 ]
+Lösung:
+Voraussetzung: Quadrat
+Lösungsidee:
+- Berechne den Umfang der inneren Quadrats.
+- Teile diesen durch den Abstand der Buchsbäume.
+U_{Quadrat}=4· a
+U≈4·5,7=22,8
+22,8:0,15=152
+Für das innere Quadrat benötigt Lisa 152 Buchsbäume.
+
+Teilaufgabe d)
+Ausgehend vom Mittelpunkt des Gartens möchte Lisa ein kreisförmiges Beet mit einem Radius von 2 m anlegen.
+Zeichne dieses Beet maßstabsgetreu in Abbildung 1 ein.
+
+[3 Pkte]
+Lösung:
+[Abbildung]
+
+Teilaufgabe e)
+
+In dem kreisförmigen Beet möchte sie eine Blumenwiese anlegen. Für einen Quadratmeter benötigt sie drei Gramm Blumensamen.
+
+Berechne, wie viel Gramm Blumensamen sie benötigt. Runde sinnvoll.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 38 g]
+Lösung:
+Voraussetzung: Kreiszahl Pi
+Lösungsidee:
+- Berechne die Fläche des kreisförmigen Beetes in Quadratmeter.
+- Multipliziere die Fläche des Beetes mit dem Gewicht der Samen pro Quadratmeter.
+A_{Kreis}=π· r^2,
+A=π·2^2≈12,56
+Die Kreisfläche ist 12,56 m^2 groß. Pro Quadratmeter benötigt Lisa 3 Gramm Blumensamen.
+12,56·3=37,69≈38
+Lisa benötigt ca. 38 g Blumensamen für das Beet.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315089 – https://de.serlo.org/mathe/315089/aufgabengruppe – Lizenz 27]
+E-Scooter
+Tom überlegt, mit einem geliehenen E-Scooter die 5 Kilometer vom Bahnhof zu seiner Arbeitsstelle zu fahren.
+
+Teilaufgabe a)
+
+Tom geht von einer durchschnittlichen Geschwindigkeit von 15 (km)/(h) aus. Bestätige durch eine Rechnung, dass Tom mit dem E-Scooter 20 Minuten bis zur Arbeit benötigt.
+
+[2 Pkte]
+Lösung:
+Voraussetzung: Dreisatz
+Lösungsidee:
+Berechne anhand der Geschwindigkeit, wie lange Tom für 5 km braucht.
+[Abbildung]
+Tom benötigt für die Strecke von 5 km mit seinen E-Scooter 20 Minuten.
+
+Teilaufgabe b)
+Der E-Scooter-Verleih „E-Line" berechnet eine Startgebühr und für jede genutzte Minute einen festen Preis.
+
+Tom nutzt den E-Scooter für den Hin- und Rückweg und muss daher zweimal die Startgebühr bezahlen. Berechne seine Kosten pro Tag.
+[Abbildung]
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 8 €]
+Lösung:
+Startgebühr: 2·1 €
+Gebühr für die genutzte Zeit: 2·20·0,15
+2·1+40·0,15=2+6=8
+Die Kosten betragen 8 € pro Tag.
+
+Teilaufgabe c)
+Wenn Tom den E-Scooter jeden Tag nutzt, muss er mit Kosten von 160 € pro Monat rechnen. Tom stellt für die Berechnung der Gesamtkosten die Funktionsgleichung auf: y=160 · x.
+Er zeichnet den dazugehörigen Graphen in das Koordinatensystem (Abbildung 1).
+[Abbildung]
+Gib die Bedeutung von y, von 160 und von x im Zusammenhang mit der Kostenberechnung an.
+
+[2 Pkte]
+Lösung:
+y:          Gesamtkosten je nach Nutzungsdauer
+160 €:  Kosten pro Monat
+x:           Anzahl Monate
+
+Teilaufgabe d)
+
+Bestimme die Gesamtkosten nach 2,5 Monaten.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 400 €]
+Lösung:
+Lösungsidee:
+Multipliziere die Kosten pro Monat mit 2,5.
+160·2,5=400
+
+Die Gesamtkosten nach 2,5 Monaten betragen 400 €.
+
+Teilaufgabe e)
+Tom überlegt: „Vielleicht kaufe ich besser einen E-Scooter." Der E-Scooter kostet
+750 €. Pro Monat plant er weitere 10 € ein
+(z. B. für Aufladen und Versicherung).
+
+Zeichne den Graphen der Gesamtkosten für diesen E-Scooter in das Koordinatensystem ein (Abbildung 1).
+
+[3 Pkte]
+
+Lösung:
+Lösungsidee:
+Zeichne eine Gerade, beginnend im Punkt P(0|750). Pro Monat wächst der Wert der y-Komponente dieser Geraden um 10.
+[Abbildung]
+
+Teilaufgabe f)
+
+Begründe, dass sich der Kauf des E-Scooters für ihn langfristig lohnt.
+
+[2 Pkte]
+Lösung:
+Der Schnittpunkt der beiden Geraden liegt bei P(5 | 800). Nach 5 Monaten sind die Kosten des geliehenen Rollers genauso hoch wie bei einem gekauften
+Roller. Wenn Tom länger als 5 Monate mit dem Roller  fahren möchte, lohnt sich
+der Kauf eines E-Scooters von Beginn an.
+
+
+------------------------------------------------------------------------------
+[Serlo ExerciseGroup 315093 – https://de.serlo.org/mathe/315093/aufgabengruppe – Lizenz 27]
+Würfel
+
+Selma hat eine Kiste mit kleinen Würfeln aus Holz (Abbildung 1). Jeder Würfel hat eine Kantenlänge von 2 cm .
+[Abbildung]
+
+Teilaufgabe a)
+Berechne das Volumen eines kleinen Würfels.
+
+[2 Pkte]
+[Eingabefeld – richtige Eingabe: 8 cm³]
+Lösung:
+Voraussetzung: Würfel (Kubus)
+V_{Würfel}=a^3
+V=2^3=8
+Ein Holzwürfel hat ein Volumen von 8 cm^3.
+
+Teilaufgabe b)
+Selma baut aus acht kleinen Würfeln einen größeren Würfel und aus acht weiteren Würfeln einen Quader (Abbildung 2).
+[Abbildung]
+
+Das Volumen des Quaders und das Volumen des größeren Würfels sind gleich groß. Begründe.
+
+[2 Pkte]
+Lösung:
+Das Volumen der neu zusammen gesetzten Körper ergibt sich aus der Summe der  Volumina der einzelnen kleinen Würfel. Da die beiden neuen Körper aus der gleiche Anzahl kleiner Würfel bestehen, ist ihr Volumen gleich.
+
+Teilaufgabe c)
+
+Die Oberflächen der beiden Körper sind unterschiedlich groß. Begründe.
+
+[2 Pkte]
+Lösung:
+Lösungsidee:
+Berechne die Oberflächen.
+Die Oberfläche des Würfels besteht aus 6·4=24 Quadraten.
+Die Oberfläche des Quaders besteht aus  2·8+2·4+2·2=28  Quadraten. Daher ist die Oberfläche des Quaders größer.
+
+Teilaufgabe d)
+Als nächstes baut Selma aus 27 kleinen Würfeln einen großen Würfel. Dieser hat eine Kantenlänge von 6 cm. Die sechs Außenflächen des großen Würfels lackiert Selma blau (Abbildung 3).
+[Abbildung]
+
+250 ml Lack reichen etwa für 5000 cm^2}.
+Berechne, wie viel Milliliter (ml) Lack sie benötigt.
+
+[3 Pkte]
+[Eingabefeld – richtige Eingabe: 10,8 ml]
+Lösung:
+Lösungsidee:
+- Berechne wieviel Lack Selma pro cm^2 benötigt.
+- Berechne die Oberfläche des Würfels mit der Oberflächenformel in cm^2.
+- Multipliziere die beiden Werte.
+250:5000=0,05
+Der Lackverbrauch beträgt 0,05 ml pro cm^2.
+O_{Würfel}=6· a^2
+O=6·6^2=216
+Die Oberfläche des Würfels ist 216 cm^2.
+
+216·0,05=10,8
+
+Selma benötigt 10,8 ml Lack.
+
+Teilaufgabe e)
+Durch die Lackierung unterscheiden sich die 27 kleinen Würfel. Sie haben unterschiedlich viele blaue Außenflächen. Selma zählt die Anzahl gleicher Würfel und trägt sie in eine Tabelle ein.
+
+ Vervollständige Selmas Tabelle.
+[Abbildung]
+[2 Pkte]
+Lösung:
+Die 4 Eckwürfel in der obersten und in der untersten Reihe haben 3 blaue Außenflächen, also insgesamt 8 Würfel.
+Der Würfel in der mittleren Reihe in der Mitte hat keine blaue Außenfläche, da er vollständig von anderen Würfeln umgeben ist.
+Die 4 mittleren Würfel in der Reihe in der Mitte und die beiden mittleren Würfel in der Spalte in der Mitte haben nur eine blaue Außenfläche.
+
+[Abbildung]
+
+Teilaufgabe f)
+
+Selma mischt die 27 kleinen Würfel und nimmt ohne hinzusehen einen Würfel.
+Bestimme die Wahrscheinlichkeit, dass der Würfel genau zwei blaue Außenflächen hat.
+
+[1 Pkt]
+[Eingabefeld – richtige Eingabe: 4/9 ]
+Lösung:
+Voraussetzung: Relative Häufigkeit
+Lösungsidee:
+Bestimme die relative Häufigkeit.
+Gesamtanzahl der Würfel:                                        27
+Anzahl der Würfel mit 2 blauen Außenflächen: 12
+P(genau zwei blaue Flächen) = (12)/(27)= (4)/(9)
+Die Wahrscheinlichkeit, dass ein belibig gezogener Würfel genau zwei blaue Außenflächen hat beträgt (4)/(9).
