@@ -4,7 +4,8 @@ Prüfungskataloge und Themenkatalog für Mathematik-Nachhilfe, Berlin/Brandenbur
 Vergangene Prüfungen werden Zeile für Zeile in Prüfungskataloge geschrieben, je
 Prüfungsart ein Profil. Der Themenkatalog beschreibt den Stoff, aus dem Blätter
 gebaut werden. Die Prompts und die LaTeX-Vorlage, die daraus Blätter machen, liegen
-im eigenen Repo `blattbau` (siehe unten).
+im eigenen Repo `blattbau` (siehe unten). Die Aufgabenbank, aus der Blätter künftig
+zusammengesetzt werden, hält das Repo `hz-0801/aufgabenbank` (Form und Regeln in `bank.md` dort).
 
 Diese Datei ist die einzige Landkarte. Wer eine Datei anlegt, umbenennt oder
 entfernt, trägt das hier ein – sonst nirgends.
@@ -15,7 +16,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 
 ## Wo fange ich an
 
-- `uebergabe.md` – Stand und nächster Arbeitsschritt der Prompt-Werkstatt; ein neuer Chat liest sie zuerst. Stand 2026-09-26. Wird bei jedem Umzug ersetzt; die vorige liegt dann in `archiv/`.
+- `uebergabe.md` – Stand und nächster Arbeitsschritt der Prompt-Werkstatt; ein neuer Chat liest sie zuerst. Stand 2026-09-27. Wird bei jedem Umzug ersetzt; die vorige liegt dann in `archiv/`.
 - `ziel.md` – das Ziel des Blattbaus: beide Blattsorten, Leiter, gemeinsame Regeln, Offenes. Ein neuer Chat liest sie nach uebergabe.md.
 - `CLAUDE.md` – wenn im Repo erfasst wird: Ablauf je Heft, Arbeitsregeln, Commit-Regel.
 - `katalog-prompt.md` – der Kern: Zeilenregel, die 37 Felder, Vokabular, Prüfung, Abgleichlauf. Gilt für alle Profile.
@@ -389,8 +390,10 @@ auf Ordner es überholt hat. `auftrag-testlauf-2026-09-25.md` ist der Auftrag de
 des Unterrichtsblatt-Prompts, `auftrag-testlauf-2026-09-26.md` der des zweiten (v4.4, mit
 Prüfpunkten und Vergleich); für einen neuen Lauf gilt seit 27.09.2026 die Vorlage
 `werkzeuge/testlauf-auftrag.md` (Posten in `faellig.md` § 2). Abgelöste Übergaben liegen als
-`uebergabe-<Kopfzeilendatum>.md`; zuletzt abgelegt `uebergabe-2026-09-25-abends.md` (abgelöst
-durch die Übergabe vom 26.09.2026; das Kopfzeilendatum folgt nicht der Ablagefolge).
+`uebergabe-<Kopfzeilendatum>.md`; zuletzt abgelegt `uebergabe-2026-09-26b.md` (Übergabe
+„Chat vom 26.09.“, abgelöst durch die vom 27.09.2026; „b“, weil `uebergabe-2026-09-26.md` schon
+belegt war; das Kopfzeilendatum folgt nicht der Ablagefolge). Abgelegte Umzugsaufträge liegen als
+`auftrag-umzug-<Datum>.md`.
 
 ## Nicht im Repo (lokal, `.gitignore`)
 
