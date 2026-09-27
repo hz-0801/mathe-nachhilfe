@@ -1,0 +1,878 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2024 MSA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=1b2db6841dffb015550fb92c03b1e17b
+ABRUF: 2026-09-27
+SEITEN: 20
+LIZENZVERMERK: © MBWFK, Kiel 2024; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2024
+
+
+
+
+   Korrekturanweisung
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWFK, Kiel 2024
+                     MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben                                                         Lösungen
+A1   Emily möchte die Aufgabe 20 ∙ 93 vorteilhaft rechnen. Sie beginnt mit
+     10 ∙ 93.
+
+     Wie muss sie anschließend weiterrechnen, um das richtige Ergebnis
+     zu erhalten? Kreuze an.
+
+     ☐ 10 addieren        ☐ durch 2 dividieren              ☒ mit 2 multiplizieren
+
+                                                                                     /1 P.
+
+A2   Entscheide, ob die folgenden Aussagen wahr sind.
+
+
+                                                                     wahr      falsch
+     Jeder stumpfe Winkel ist größer als 180°.                          ☐        ☒
+
+     Es gibt eine natürliche Zahl, die eine                             ☒        ☐
+     Quersumme von 21 hat.
+
+
+                                                                                     /2 P.
+
+A3   Gib die Seitenlängen a und b eines Rechtecks an, das den gleichen
+     Flächeninhalt wie das abgebildete Dreieck ABC hat.
+     Die Abbildung ist nicht maßstabsgerecht.
+
+
+
+
+     z.B.         a = 6 cm                 b = 4 cm
+
+                                                                                     /1 P.
+
+
+
+
+                                              3
+                      MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+                1 2
+A4   Es gilt:    
+                3 6
+
+     Veranschauliche durch Markierungen, dass dies stimmt.
+
+     Beispiele:
+
+
+                                                   =
+
+
+
+
+     oder
+
+
+                                                    =
+
+
+
+
+                                                                             /1 P.
+
+A5   Gegeben ist das folgende Baumdiagramm.
+
+
+
+
+     a) Ergänze die fehlenden Wahrscheinlichkeiten an den Ästen des
+        Baumdiagramms.
+
+                                                                             /2 P.
+
+
+
+                                               4
+                   MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+     b) Beschreibe eine Situation, die zu dem Baumdiagramm passt.
+
+
+     Es befinden sich 10 Kugeln in einem Gefäß. 4 davon sind rot,
+
+     6 sind blau. Es wird zweimal ohne Zurücklegen gezogen.
+
+
+
+
+                                                                              /2 P.
+
+A6   Kreuze an, welche Abbildung zu dem linearen Gleichungssystem
+     passt.
+
+                             3y  3x  6
+                             3y  3x  9
+
+
+
+
+             ☐                              ☐                             ☒
+
+                                                                              /1 P.
+
+A7   Bei dem Divisor fehlt jeweils ein Komma. Setze das Komma so, dass
+     die Rechnung stimmt.
+
+     0,8 : 3,20 = 0,25
+
+     1,608 : 13,4 = 0,12
+
+                                                                              /2 P.
+
+
+
+
+                                            5
+                     MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A8    Das Dreiecke ABC ist gleichschenklig. Gib die Größe des Basiswinkels α an.
+      Die Zeichnung ist nicht maßstabsgerecht.
+
+
+
+
+      α     ___65°____
+
+                                                                            /1 P.
+
+A9        0,0064 
+
+          ☒ 0,08               ☐0,008                ☐ 0,0008
+
+                                                                            /1 P.
+
+A10   Der Körper besteht aus fünf gleichen Würfeln mit einem Volumen von
+      jeweils 64 cm3 bei einer Kantenlänge von 4 cm.
+
+
+
+
+      a) Der Körper ist bis zu einer Höhe von 2 cm mit Wasser gefüllt.
+         Gib das Volumen des Wassers in cm3 an.
+
+           __128 cm³____
+
+                                                                            /1 P.
+
+
+
+
+                                              6
+                     MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+      b) Gib die Höhe des Wasserstands in cm bei gleicher Wassermenge
+         an, wenn der Körper so steht:
+
+
+
+
+                                                                  __4 cm__
+
+
+
+
+                                                                               /1 P.
+
+A11   Setze jeweils ein Rechenzeichen so ein, dass die Aussage wahr ist.
+
+      3
+        +1  1           9,3 – 5,6 < 4                     6,8 : 0,5 > 10
+      5  2
+
+      oder
+
+      3 1
+       :  1              9,3 : 5,6 < 4
+      5 2
+
+                                                                               /3 P.
+
+A12   Eine Karte ist im Maßstab 1 : 100 000 gezeichnet.
+
+      Gib an, wie viele Kilometer in der Natur einer 2 cm langen Strecke auf
+      der Karte entsprechen.
+
+      __2__ km
+
+                                                                               /1 P.
+
+A13   Vervollständige die Tabelle für die proportionale Zuordnung.
+
+
+
+                  Anzahl                                 Preis (€)
+
+                    12                                       144
+
+                     5                                       60
+                                                                               /1 P.
+
+
+
+
+                                              7
+                     MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A14   Zeichne zu zwei Dreiecksseiten die Mittelsenkrechten ein.
+
+
+
+
+Es genügen zwei der drei abgebildeten Mittelsenkrechten.
+
+                                                                                        /2 P.
+
+A15   Gegeben ist eine quadratische Funktion in Normalform.
+
+      f(x) = x2 − 6x − 8
+
+      Welche der folgenden Funktionsgleichungen stellt dieselbe
+      quadratische Funktion in der Scheitelpunktform dar? Kreuze an.
+
+      ☐ f(x)= (x –3)2 −8          ☐ f(x)= (x –3)2 −1            ☒ f(x)= (x –3)2−17
+
+                                                                                        /1 P.
+
+A16
+
+      a) Wiederlege die Aussage, z. B. indem du ein Gegenbeispiel angibst.
+
+         Aussage: „Jede quadratische Gleichung hat genau zwei Lösungen.“
+
+
+      z. B.:
+
+
+
+                                                                                        /1 P.
+
+      b) Gib die Lösungen der quadratischen Gleichung x2                    9 = 0 an.
+
+
+      x 1  3 , x 2  3
+
+
+
+                                                                                        /1 P.
+
+
+
+
+                                              8
+                     MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A17   Ein Körper hat zu Beginn eine Temperatur von 100°C. Nach jeweils
+      einer Stunde beträgt seine Temperatur jeweils 20% des Wertes, den
+      er zu Beginn der Stunde hatte.
+
+      Entscheide, welche der Funktionsgleichungen die Situation richtig
+      beschreibt und begründe deine Entscheidung.
+
+        ☐ f(x)= 100 – 0,2x
+
+        ☒ g(x)= 100 ∙ 0,2x
+
+        ☐ h(x)= 100 ∙ 0,2x                                                  (1)
+
+      Die Lösung sollte darauf eingehen, dass für g(x) der Anfangswert 100
+      x-mal mit dem Wachstumsfaktor 0,2 multipliziert wird.
+      Ebenso ist es möglich die Funktionen f(x) und h(x) aufgrund der
+      Subtraktion bzw. des Faktors x als unpassend anzugeben.        (1)
+                                                                                  /2 P.
+
+A18   Eine faire Münze mit den Seiten Kopf und Zahl wird zweimal
+      geworfen. Berechne jeweils die Wahrscheinlichkeit folgender
+      Ereignisse.
+
+      a) Es fällt mindestens einmal Kopf.
+
+
+
+                                                                                  /1 P.
+
+      b) Es fällt keinmal Kopf.
+
+
+
+
+                                                                                  /1 P.
+
+A19   In einer Schulklasse sind insgesamt 30 Schülerinnen und Schüler.
+      40% von ihnen sind Mädchen.
+
+      a) Wie viele Jungen sind in der Klasse? 18
+
+                                                                                  /1 P.
+
+      b) Bei einer Klassenarbeit erhielten 25% der Mädchen die Note „gut“.
+
+         Wie viele Mädchen erhielten die Note „gut“? 3
+                                                                                  /1 P.
+
+
+
+                                              9
+                       MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+B1 Trigonometrie Winkelhalbierende - Lösungen
+(1)
+      a) gesucht: Maß des Winkels
+                             .
+                                  β
+
+
+
+                                                                              (1)
+
+
+
+
+                                                                              (1)
+
+                                                                                    /2 P.
+
+      b) gesucht: Länge der Winkelhalbierenden w
+
+
+
+                                                                              (1)
+
+
+
+
+                                                                              (1)
+
+                                                                                    /2 P.
+
+      c) gesucht: Begründung, dass w die Seite AC nicht halbiert
+
+
+
+                                                                              (1)
+
+
+         CD  2,27
+
+         2,27  2,5                                                           (1)
+
+         Die Strecke       ist nicht halb so lang wie die Strecke AC .
+
+                                                                                    /2 P.
+
+
+
+
+                                               10
+                         MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+(2) gesucht: Maß des Winkels γ
+
+
+
+                                                                                (1)
+
+
+                                                                                (1)
+
+
+                                                                                (1)
+
+                                                                                      /3 P.
+
+
+Wahlteil zu B1
+(3)
+      a) gesucht: Länge der Höhe h
+
+
+                      115
+         cos(50)                                                              (1)
+                       h
+
+                115
+         h
+              cos(50)
+
+         h  179                                                                (1)
+
+                                                                                      /2 P.
+
+      b) gesucht: Mantelfläche der Pyramide
+
+
+
+         Flächeninhalt eines Dreiecks:
+             ah
+         A                                                                     (1)
+              2
+
+
+
+
+                                                                                (1)
+
+         Die Mantelfläche beträgt 82340 m2.
+
+         Sollte der Prüfling das ungerundete Ergebnis aus a) verwendet haben,
+         so ist das Ergebnis
+
+                      ebenfalls voll zu bepunkten.
+
+                                                                                      /2 P.
+
+
+
+                                                 11
+                 MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+  c) gesucht: Entscheidung:
+     Die Aussage stimmt nicht.                                           (1)
+
+     gesucht: Begründung der Entscheidung
+
+     Für den Winkel von 50°:
+
+
+
+
+     Für den Winkel von 10°:
+
+
+
+
+                                                                          (1)
+
+     Argumentative Begründungen ohne Rechnung, z.B. über den Verlauf der
+     Tangensfunktion als nicht linear, sind ebenfalls voll zu bepunkten.
+
+                                                                                /2 P.
+
+
+B2: Stereometrie                                                          Kreisel
+                                                                        Lösungen
+
+     gesucht: Bezeichnung von Körpern
+
+     Der Kreisel besteht aus einem Zylinder und einem Kegel.
+
+                                                                                /1 P.
+
+     a) gesucht: Volumen des Holzquaders
+
+         VQuader = 6 cm ∙ 6 cm ∙ 4 cm = 144 cm³
+
+                                                                                /1 P.
+
+
+
+
+                                         12
+               MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+b) gesucht: Verhältnis von Kegel- und Quadervolumen
+
+
+    VKegel =    𝜋 ∙ r² ∙ k
+
+
+      𝜋 ∙ 3² ∙ 4 ≈ 37,7                                               (1)
+
+                             ,
+    VKegel : VQuader =           ≈ 0,262                              (1)
+
+
+    Mark hat nicht recht, da der untere Teil des Kreisels ca. 26%
+    des Quadervolumens beträgt.                                (1)
+
+                                                                            /3 P.
+
+gesucht: Quadernetz
+
+Der Maßstab wurde richtig beachtet.                                   (1)
+
+Die Anordnung der 6 Flächen ist korrekt.                              (1)
+
+                                                                            /2 P.
+
+gesucht: Entscheidung und Begründung
+
+Lisa hat nicht recht.                                                 (1)
+
+Durch die Verdopplung aller Kantenlängen verachtfacht sich das
+Volumen des Quaders.                                        (1)
+
+                                                                            /2 P.
+
+
+
+
+                                       13
+                     MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+
+   a) gesucht: Oberfläche eines Zylinders
+
+   OZylinder = 2 𝜋 ∙ r² + 2 𝜋 ∙ r ∙ k                                       (1)
+
+           = 2 𝜋 ∙ (0,25 cm)² + 2 𝜋 ∙ 0,25 cm∙ 4 cm ≈ 6,68 cm²              (1)
+
+   Die lackierte Fläche hat einen Flächeninhalt von ungefähr 7 cm².
+
+                                                                                  /2 P.
+
+   b) gesucht: Länge der Mantellinie s
+
+      s² = r² + k²                (Ansatz Pythagoras)                       (1)
+
+
+      s=      3 cm          4 cm        = 5 cm                              (1)
+
+                                                                                  /2 P.
+
+   c) gesucht: Oberfläche eines Kegels
+
+   OKegel = r ∙ 𝜋 ∙ (r + s)                                                 (1)
+
+           = 3 cm ∙ 𝜋 ∙ (3 cm + 5 cm) ≈ 75,4 cm²                            (1)
+
+   Die lackierte Fläche hat einen Flächeninhalt von ca. 75 cm².
+
+                                                                                  /2 P.
+
+
+
+
+                                             14
+                      MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                Klimawandel – Lösungen
+
+(1)
+
+      a) gesucht: mittlere Temperatur für das Jahr 2030
+
+         10,4 °C (Werte zwischen 10,40 °C und 10,44 °C werden akzeptiert.)
+
+                                                                                   /1 P.
+
+      b) gesucht: Anzahl der Jahre ab 2020, bis die mittlere Temperatur
+                  um 1 °C gestiegen ist
+
+         Ablesen des Punktes (91|11)                                         (1)
+
+         Ermitteln des Zeitintervalls: 91 −70 =21                            (1)
+
+         Ab 2020 dauert es ca. 21 Jahre.
+
+                                                                                   /2 P.
+
+      c) gesucht: mittlere Temperatur für das Jahr 2050
+
+         Das Jahr 2050 entspricht im Diagramm der Stelle 100.                (1)
+
+          f (100)  0,0003 1002  8,5  11,5                                (1)
+
+                                                                                   /2 P.
+
+(2)
+      a) gesucht: Steigung der Geraden durch die Punkte P und R
+
+
+                                                                             (1)
+
+
+        Die Steigung der Geraden durch die Punkte P und R hat
+        dieselbe Steigung wie die Gerade g.                                  (1)
+
+                                                                                   /2 P.
+
+
+
+
+                                              15
+                      MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+      b) gesucht: Dauer, bis die Werte der Geraden g um eine Einheit
+                  gewachsen sind
+
+         möglicher Ansatz: Suche x mit g( x) - g(0)  1,
+         also 0,04  x + 7,2  7,2  1                                       (1)
+
+
+               1
+        x =         25                                                      (1)
+              0,04
+
+        Nach 25 Jahren ist die mittlere Temperatur um 1 °C gestiegen.
+                                                                                   /2 P.
+
+
+Wahlteil zu B3
+(3)
+      a) gesucht: Funktionsgleichung
+
+
+
+                                                                                   /1 P.
+
+      b) gesucht: Vergleich zweier Graphen im Sachzusammenhang
+
+         In Deutschland sind die mittleren Temperaturen geringer
+         als im globalen Durchschnitt.                                       (1)
+
+         Das Wachstum der mittleren Jahrestemperaturen in
+         Deutschland entspricht dem Wachstum der globalen
+         mittleren Temperaturen.                                             (1)
+
+                                                                                   /2 P.
+
+(4) gesucht: Überprüfung einer Aussage
+
+      Extremtemperatur vor 1990: ca. 18,5 °C                                       (1)
+
+      Durchschnitt der Tabellenwerte:
+
+      17,8  17,9  19,3  19,2  18,2
+                                        18,5                                      (1)
+                     5
+
+      Die Werte sind gleich, also ist die Aussage richtig.                 (1)
+      Alternativ kann die Argumentation auch durch Einzeichnen und Reflektieren
+      des Mittelwerts von 18,5 °C im Bereich der Jahre von 2016 bis 2020
+      erfolgen.
+                                                                            /3 P.
+
+
+
+
+                                              16
+                     MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+B4: Statistik und                                           Sonne – Lösungen
+    Wahrscheinlichkeit
+
+(1) gesucht: Länge der Nacht vom 24.05.2024 auf den 25.05.2024
+
+    7:30 h
+
+                                                                            /1 P.
+
+(2) a) gesucht: Formel in Zelle A147
+
+
+           =A146+1
+
+
+                                                                            /1 P.
+
+    b) gesucht: Erklärung für den Fehler beim Kopieren
+
+        Der Verweis beim Zeilenindex muss relativ und nicht absolut sein.
+
+                                                                            /1 P.
+
+(3) gesucht: Zelle, in der das Datum 01.05.2024 steht
+
+    A123
+
+                                                                            /1 P.
+
+
+
+
+                                             17
+                    MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+(4) a) gesucht: Begründung, dass die Umlaufbahn nicht kreisförmig ist
+
+        Die Entfernung der Erde von der Sonne bleibt nicht gleich.
+
+                                                                                 /1 P.
+
+    b) gesucht: Formel für die durchschnittliche Entfernung
+
+
+          =MITTELWERT(E146:E155)
+
+        =MITTELWERT                                                        (1)
+        (E146:E155)                                                        (1)
+
+        Alternative Formeln, die das arithmetische Mittel berechnen, sind
+        ebenso zulässig.
+
+                                                                                 /2 P.
+
+    c) gesucht: Median der Entfernung (für den gezeigten Ausschnitt)
+
+        Sortieren der Werte nach Größe beziehungsweise erkennen,
+        dass die Daten sortiert vorliegen                                  (1)
+
+        Bestimmen des arithmetischen Mittels der beiden
+        mittleren Werte:
+        (151,607+151,633):2 = 151,620 Mio. km                              (1)
+
+                                                                                 /2 P.
+
+
+
+
+                                            18
+                    MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B4
+
+(5) a) gesucht: Widerspruch zur Behauptung
+
+        Bei einer Parabel wird der Betrag der Steigung mit
+        zunehmendem Abstand vom Scheitelpunkt immer größer.
+
+                                                                                 /1 P.
+
+    b) gesucht: Beschreibung von Lucians Fehler
+
+        Lucian hat nicht bemerkt, dass die Hochachse nicht bei 0 beginnt.
+        (Er hat nur die Abstände der äußeren Werte und des mittleren Werts
+        von der 142,000-Millionen-Kilometer-Linie miteinander verglichen.)
+
+                                                                                 /1 P.
+
+    c) gesucht: ungefährer Unterschied
+
+        hinreichend genau abgelesene Werte:
+        akzeptiert werden Intervalle von 146,5 bis 147,5
+        bzw. 152,0 bis 152,5                                               (1)
+
+        Beispiel:
+        Ansatz Prozentrechnung:
+        152,1
+                                                                           (1)
+        147,1
+
+        Zuwachs in Prozent:
+        152,1
+               1, 0339  3, 4%                                            (1)
+        147,1
+
+                                                                                 /3 P.
+
+(6) gesucht: Markierung für den 01.07.2024
+
+    Die Markierung muss ungefähr in der Mitte des Diagramms sein.
+
+    Alle sinnvollen Markierung (Punkt auf der x-Achse, Punkt im Scheitelpunkt
+    und so weiter) werden akzeptiert.
+
+                                                                                 /1 P.
+
+
+
+
+                                            19
+                      MSA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+Bewertungsschlüssel MSA
+
+Punkte     Prozente      Mittlerer Schulabschluss (Note)
+
+
+ 72 - 80     ≥90                               1
+
+ 60 - 71     ≥75                               2
+
+ 48 - 59     ≥60                               3
+
+ 36 - 47     ≥45                               4
+
+ 18 - 35     ≥22                               5
+
+ 17 - 0      <22                               6
+
+
+
+
+                                              20
+

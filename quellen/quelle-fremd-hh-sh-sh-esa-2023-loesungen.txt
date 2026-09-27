@@ -1,0 +1,600 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2023 ESA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=30bfed142540d54f33de411096ccaa5f
+ABRUF: 2026-09-27
+SEITEN: 16
+LIZENZVERMERK: © MBWFK, Kiel 2023; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2023
+
+
+
+
+              Korrekturanweisung
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWFK, Kiel 2023
+                        ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben                                                            Lösungen
+
+A1   Gib den Wert für x an.
+
+     2⋅x= 3 ⋅x     24
+
+     x = 24
+
+                                                                                    /1 P.
+
+A2   Paul fährt von Niebüll nach Hamburg.
+
+     Gib an, wie lange Paul unterwegs ist.
+
+
+                                         an            ab
+      Westerland (Sylt)                              18:22
+      Niebüll                          18:58         19:02
+      Husum                            19:27         19:31
+      Elmshorn                         20:55         21:00
+      Hamburg                          21:21
+
+
+     Fahrzeit: 2 h 19 min oder 139 min
+
+                                                                                    /1 P.
+
+A3   Das Ganze ist schwarz umrandet. Gib den grau gefärbten Anteil des
+     Rechtecks als Bruch an.
+
+
+
+
+               1
+     Anteil:
+               2
+
+                                                                                    /1 P.
+
+
+
+
+                                                 3
+                     ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+                                             2     3
+A4   Gib einen Bruch an, der zwischen          und   liegt.
+                                             7     7
+
+                5
+     Lösung:
+               14
+
+     Jeder die Bedingung erfüllende Bruch wird akzeptiert.
+
+                                                                            /1 P.
+
+A5   Nur ein Netz kann zum abgebildeten Würfel passen.
+
+     Kreuze dieses Netz an.
+
+
+
+
+                                 ☒                                 ☐        ☐
+
+                                                                            / 1 P.
+
+                                3
+A6   Sahin hat 180 €. Er gibt     davon aus.
+                                4
+
+     Kreuze an, wie viel Euro Sahin noch übrig hat.
+
+     ☒ 45 €                      ☐ 4,50 €                          ☐ 60 €
+
+                                                                            /1 P.
+
+
+
+
+                                              4
+                       ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A7    Das Glücksrad wird einmal gedreht.
+
+
+
+
+     a) Gib die Wahrscheinlichkeit an, dass eine „3“ gedreht wird.
+
+                 3
+      Lösung:
+                12
+
+                                                                              /1 P.
+
+     b) Für dieses Glücksrad gibt es drei mögliche Spielregeln.
+
+      Kreuze an, bei welcher Regel man die höchste Gewinnchance hat.
+
+      ☐ Man gewinnt bei einer geraden Zahl.
+
+      ☒ Man gewinnt bei einer ungeraden Zahl.
+
+      ☐ Man gewinnt bei einer Zahl größer als 5.
+
+                                                                              /1 P.
+
+A8    Die Wertetabelle stellt eine antiproportionale Zuordnung dar.
+
+      Ergänze die fehlenden Werte.
+
+
+       Anzahl der Schüler                5            10           40
+
+       Preis je Schüler                20 €         10 €         2,50 €
+
+
+                                                                              /2 P.
+
+
+
+
+                                                5
+                     ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A9   Kreuze die richtige Umwandlung von 748 mm an.
+
+     ☐ 0,748 cm                  ☐ 7,48 cm                         ☒ 74,8 cm
+
+                                                                               /1 P.
+
+A10 Das Diagramm zeigt die Preise für 1 Liter Benzin an einer Tankstelle im
+Verlauf der Woche.
+
+
+
+
+     a) Gib an, wie hoch der größte Preisunterschied zwischen zwei
+        aufeinanderfolgenden Tagen war.
+
+        Lösung: 10 ct
+
+                                                                               /1 P.
+
+     b) Am Donnerstag wurde für 80 € getankt.
+
+        Gib an, wie viele Liter Benzin getankt wurden.
+
+        Lösung: 50 Liter Benzin
+
+                                                                               /1 P.
+
+
+
+
+                                              6
+                     ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A11 Kreuze die größte Zahl an.
+
+     ☐ 0,27                      ☒ 0,7                             ☐ 0,172
+
+                                                                             /1 P.
+
+A12 Gib an, wie groß der Winkel β ist.
+
+
+
+
+     Die Zeichnung ist nicht maßstabsgerecht.
+     Lösung: β = 77°
+
+                                                                             /1 P.
+
+A13 Gib an, welche der Geraden senkrecht auf der Geraden g steht.
+
+
+
+
+     Lösung: f
+
+                                                                             /1 P.
+
+
+                                              7
+                        ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A14 Eine Holzeisenbahn wurde aus verschieden langen Waggons und
+    Verbindungsstücken gebaut.
+
+                        l: Länge eines langen Waggons
+
+
+
+                        k: Länge eines kurzen Waggons
+
+
+                        v: Länge eines Verbindungsstücks
+
+
+
+
+    Kreuze an, welcher Term die Gesamtlänge der Eisenbahn beschreibt.
+
+    ☐ 2⋅l + 4⋅k + 6 ⋅ v
+
+    ☐ 2⋅ 4⋅5 + l⋅k ⋅ v
+
+    ☒ 2⋅l + 4⋅k + 5⋅ v
+
+                                                                               /1 P.
+
+A15 Maja sagt: „Mehr als 60% der Kreisfläche sind grau gefärbt.“
+
+
+
+
+    Begründe, warum Maja recht hat.
+
+               5
+    Mehr als       = 62,5 % > 60 % sind grau gefärbt.
+               8
+
+
+                                                                               /1 P.
+
+
+
+
+                                                 8
+                      ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A16 Bei einer quaderförmigen Verpackung werden die Länge und die Breite
+    verdoppelt.
+
+
+
+
+    Begründe, warum sich das Volumen der Verpackung dann vervierfacht.
+
+    Z. B. Begründung über die Formel: V = a ⋅ b ⋅ c, Vneu = 2 a ⋅ 2 b ⋅c = 4 ⋅ a ⋅ b ⋅ c
+
+    Jede weitere plausible Begründung ist zu akzeptieren.
+
+                                                                                    /1 P.
+
+A17 Wähle vier dieser Zahlenkärtchen aus. Bilde mit den gegebenen
+    Rechenzeichen eine passende Gleichung.
+
+
+
+
+    Mögliche Lösungen:
+
+
+
+
+                                                                                    /1 P.
+
+
+
+
+                                               9
+                       ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                      Covid-19 – Lösungen
+
+(1) a) gesucht: Gesamtdauer der Lüftungen
+
+                                                                              (1)
+
+
+
+
+                                                                              (1)
+
+        Maiks Klasse hatte die Fenster an einem Tag 105 Minuten geöffnet.
+
+                                                                                    /2 P.
+
+    b) gesucht: Lüftungsdauer pro Woche in Stunden
+
+                                                                              (1)
+
+                                                                              (1)
+
+        Die Maiks Klasse hatte die Fenster in einer Woche 8,75 Stunden
+        geöffnet.
+
+                                                                                    /2 P.
+
+(2) gesucht: Anzahl der möglichen Benutzungen pro
+    Desinfektionsmittelbehälter.
+
+    Ansatz: Volumenberechnung des Zylinders                                   (1)
+
+     = 4,2 : 2 = 2,1
+    r=
+
+    V =≈ π ⋅ 2,12 ⋅ 18 ≈ 249,38                                               (1)
+
+    249,38 : 5 ≈ 49,88                                                        (1)
+
+    Der Desinfektionsmittelbehälter kann 49-mal benutzt werden, bevor er leer
+    ist.
+
+    Die Lösung ca. 50 Benutzungen ist ebenfalls zulässig.
+
+                                                                                    /3 P.
+
+
+
+
+                                               10
+                      ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+(3) a) gesucht: Kostenvergleich
+       Maik hat 30 Unterrichtsstunden pro Woche.
+
+        Kosten für den Sparfuchs29-Tarif:
+
+        30 ⋅ 0, 3 ⋅ 4 = 36 Gigabyte für 4 Wochen                             (1)
+
+        (36 − 25) ⋅ 1,5 = 16,50 € zusätzlich zur Tarifgebühr                 (1)
+
+        16,50 + 9, 99 = 26, 49 € Gesamtkosten Sparfuchs29
+
+
+        Der Sparfuchs29-Tarif wäre für Maik günstiger gewesen.               (1)
+
+                                                                                   /3 P.
+
+    b) gesucht: Schwellenwert für die Flatrate
+
+        (30,50 − 9, 99) : 1,5 = 13, 67                                       (1)
+
+        Ab 14 + 25 = 39 Gigabyte hätte sich der Flatrate-Tarif
+        für Maik gelohnt.                                                    (1)
+
+        Das systematische Probieren bis zum Erreichen des Schwellenwerts ist
+        ebenfalls voll zu bepunkten.
+
+                                                                                   /2 P.
+
+
+
+
+                                              11
+                        ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+
+(4) gesucht: Anzahl der positiven Tests
+
+    Ansatz: Prozentrechnung                                                    (1)
+
+     550 ⋅ 2 = 1100 Tests in einer Woche                                       (1)
+
+                  2
+    W = 1100 ⋅       = 22                                                      (1)
+                 100
+
+    22 Tests waren in der ersten Woche positiv.
+
+                                                                                     /3 P.
+
+(5) a) gesucht: Anzahl der Möglichkeiten
+
+        Ansatz: Permutationen berechnen                                        (1)
+
+        4 ⋅ 3 ⋅ 2 ⋅ 1 = 24                                                     (1)
+
+        Es gibt 24 Möglichkeiten.
+
+                                                                                     /2 P.
+
+    b) gesucht: eine einschränkende Bedingung
+
+        Beispiel:
+
+        Am Fenster müssen immer ein Mädchen und ein Junge sitzen.
+
+                                                                                     /1 P.
+
+
+
+
+                                                12
+                      ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+Komplexaufgabe B2                                  Gartenpool – Lösungen
+
+(1) a) gesucht: Größe der rechteckigen Fläche in m2
+
+       6,5 ∙ 4,5 = 29,25                                                     (1)
+
+       Die rechteckige Fläche hat einen Flächeninhalt von 29,25m2.
+                                                                                   /1 P.
+
+
+   b) gesucht: Ausgetauschte Erde in m³
+
+       Ansatz: Volumen eines Quaders.                                        (1)
+
+       6,5 ∙ 4,5 ∙ 0,3 = 8,775                                               (1)
+
+       Ca. 8,8 m3 Erde müssen ausgetauscht werden.
+                                                                                   /2 P.
+
+
+(2) a) gesucht: Erläuterung, wie der Term zusammengesetzt ist
+
+
+
+        Die Grundfläche kann in ein Rechteck und einen Kreis bzw. zwei
+        Halbkreise zerlegt werden.                                     (1)
+
+        Das Rechteck hat die Seitenlängen 2,50 m und 3,60 m und
+        der Kreis hat einen Radius von r = 1,80 m.                           (1)
+
+        Das Volumen ergibt sich aus der Multiplikation des
+        Flächeninhalts der Grundfläche und der Höhe h = 1,22 m.              (1)
+                                                                                   /3 P.
+
+    b) gesucht: Zeit in Stunden
+
+        Ablesen eines Wertes: z. B. (2,5|3 000)                              (1)
+
+        Ansatz: proportionale Zuordnung                                      (1)
+
+                   2,5
+        23400 ⋅        = 19,5                                                (1)
+                  3000
+
+        Es dauert 19,5 Stunden, bis der Pool vollständig mit Wasser gefüllt ist.
+
+        Eine Zeitangabe zwischen 18,5 und 20 Stunden ist als richtig zu
+        bewerten.
+                                                                                   /3 P.
+
+
+
+                                              13
+                       ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+(3) gesucht: Vergleich der Betriebskosten zweier Filteranlagen für eine
+    Umwälzung pro Tag
+
+                23400
+        Flow:         ⋅ 11,5 ≈ 47,39                                          (1)
+                5678
+
+                   23400
+        Pazifik:         ⋅ 35 ≈ 74, 45                                        (1)
+                   11000
+
+        47,39 ct < 74,45 ct
+
+        Die Familie sollte die Filteranlage „Flow“ wählen, da die
+        Betriebskosten geringer sind.                                         (1)
+
+                                                                                    /3 P.
+
+
+Wahlteil zu B2
+
+(4) gesucht: Menge Desinfektionsmittel in g für eine Reinigung
+
+     23400 ⋅ 0,75 = 17550                                                     (1)
+
+     17550 mg= 17,55 g                                                        (1)
+                                                                                    /2 P.
+
+(5) gesucht: Abstand x zur Poolwand in Metern
+
+     Ansatz: Satz des Pythagoras                                              (1)
+
+
+      1,502 -1,302 ≈ 0,75                                                     (1)
+
+     Der Abstand x zur Poolwand beträgt ca. 0,75 m.
+                                                                                    /2 P.
+
+(6) gesucht: Nachweis, dass Esra und Tom dasselbe beschreiben
+
+     Argumentation über die Prozentangaben (1,5 = 150%, das sind 50% mehr)
+     oder
+     1125 : 1,5 = 750                                                 (1)
+     Der einfache Preis beträgt 750 €.
+     750 ∙ 0,5 = 375
+     750 + 375 = 1125                                                 (1)
+
+                                                                                    /2 P.
+
+
+
+
+                                               14
+                    ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte   Prozente           Erster allgemeinbildender
+                            Schulabschluss (Note)
+45-50    ≥90                     1
+38-44    ≥75                     2
+30-37    ≥60                     3
+23-29    ≥45                     4
+11-22    ≥22                     5
+ 0-10    <22                     6
+
+
+
+
+                                            15
+ESA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+                        16
+

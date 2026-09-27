@@ -1,0 +1,1000 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2024 MSA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=f5ab56e5909a5eac9d47b4b4bf6067c6
+ABRUF: 2026-09-27
+SEITEN: 10
+LIZENZVERMERK: © MBWFK, Kiel 2024; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2024
+
+
+
+
+      Mathematik Heft 1
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2024
+                       MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 1.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 30 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                      MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben
+A1   Emily möchte die Aufgabe 20 ∙ 93 vorteilhaft rechnen. Sie beginnt mit
+     10 ∙ 93.
+
+     Wie muss sie anschließend weiterrechnen, um das richtige Ergebnis
+     zu erhalten? Kreuze an.
+
+     ☐ 10 addieren       ☐ durch 2 dividieren               ☐ mit 2 multiplizieren
+
+                                                                                     /1 P.
+
+A2   Entscheide, ob die folgenden Aussagen wahr sind.
+
+
+                                                                    wahr       falsch
+     Jeder stumpfe Winkel ist größer als 180°.                           ☐       ☐
+
+     Es gibt eine natürliche Zahl, die eine                              ☐       ☐
+     Quersumme von 21 hat.
+
+
+                                                                                     /2 P.
+
+A3   Gib die Seitenlängen a und b eines Rechtecks an, das den gleichen
+     Flächeninhalt wie das abgebildete Dreieck ABC hat.
+     Die Abbildung ist nicht maßstabsgerecht.
+
+
+
+
+     a = __________              b = ___________
+
+                                                                                     /1 P.
+
+
+
+
+                                             4
+                     MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A4   Es gilt:
+
+
+     Veranschauliche durch Markierungen, dass dies stimmt.
+
+
+
+
+                               =
+
+
+
+
+                                                                        /1 P.
+
+A5   Gegeben ist das folgende Baumdiagramm.
+
+
+
+
+     a) Ergänze die fehlenden Wahrscheinlichkeiten an den Ästen des
+        Baumdiagramms.
+
+                                                                        /2 P.
+
+     b) Beschreibe eine Situation, die zu dem Baumdiagramm passt.
+
+
+
+
+                                                                        /2 P.
+
+
+                                            5
+                      MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A6   Kreuze an, welche Abbildung zu dem linearen Gleichungssystem
+     passt.
+
+
+
+
+              ☐                              ☐                           ☐
+
+                                                                             /1 P.
+
+A7   Bei dem Divisor fehlt jeweils ein Komma. Setze das Komma so, dass
+     die Rechnung stimmt.
+
+     0,8 : 3 2 0 = 0,25
+
+     1,608 : 1 3 4 = 0,12
+
+                                                                             /2 P.
+
+A8   Das Dreieck ABC ist gleichschenklig. Gib die Größe des Basiswinkels α an.
+     Die Zeichnung ist nicht maßstabsgerecht.
+
+
+
+
+     α   _______________
+
+                                                                             /1 P.
+
+
+
+                                             6
+                      MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A9
+
+        ☐ 0,08                 ☐ 0,008                  ☐ 0,0008
+
+                                                                                /1 P.
+
+A10   Der Körper besteht aus fünf gleichen Würfeln mit einem Volumen von
+      jeweils 64 cm3 bei einer Kantenlänge von 4 cm.
+
+
+
+
+      a) Der Körper ist bis zu einer Höhe von 2 cm mit Wasser gefüllt.
+         Gib das Volumen des Wassers in cm3 an.
+
+         ___________ cm3
+
+                                                                                /1 P.
+
+      b) Gib die Höhe des Wasserstands in cm bei gleicher Wassermenge
+         an, wenn der Körper so steht:
+
+
+
+
+                                                                __________ cm
+
+
+
+
+                                                                                /1 P.
+
+A11   Setze jeweils ein Rechenzeichen so ein, dass die Aussage wahr ist.
+
+
+        ☐ 12 > 1         9,3   ☐ 5,6 < 4                  6,8   ☐ 0,5 > 10
+                                                                                /3 P.
+
+
+
+
+                                             7
+                         MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A12   Eine Karte ist im Maßstab 1 : 100 000 gezeichnet.
+
+      Gib an, wie viele Kilometer in der Natur einer 2 cm langen Strecke auf
+      der Karte entsprechen.
+
+      ________ km
+
+                                                                                       /1 P.
+
+A13   Vervollständige die Tabelle für die proportionale Zuordnung.
+
+
+                  Anzahl                                   Preis (€)
+
+                    12                                         144
+
+                     5
+                                                                                       /1 P.
+
+A14   Zeichne zu zwei Dreiecksseiten die Mittelsenkrechten ein.
+
+
+
+
+                                                                                       /2 P.
+
+A15   Gegeben ist eine quadratische Funktion in Normalform.
+
+      f(x) = x2 − 6x − 8
+
+      Welche der folgenden Funktionsgleichungen stellt dieselbe
+      quadratische Funktion in der Scheitelpunktform dar? Kreuze an.
+
+      ☐ f(x)= (x –3)2 −8            ☐ f(x)= (x –3)2 −1            ☐ f(x)= (x –3)2−17
+
+                                                                                       /1 P.
+
+
+
+
+                                                8
+                      MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A16
+
+      a) Widerlege die Aussage, z. B. indem du ein Gegenbeispiel angibst.
+
+         Aussage: „Jede quadratische Gleichung hat genau zwei Lösungen.“
+
+
+
+
+                                                                                     /1 P.
+
+      b) Gib die Lösungen der quadratischen Gleichung x2                 9 = 0 an.
+
+
+
+
+                                                                                     /1 P.
+
+A17   Ein Körper hat zu Beginn eine Temperatur von 100°C. Nach jeweils
+      einer Stunde beträgt seine Temperatur 20% des Wertes, den er zu
+      Beginn der Stunde hatte.
+
+      Entscheide, welche der Funktionsgleichungen die Situation richtig
+      beschreibt und begründe deine Entscheidung.
+
+        ☐ f(x)= 100 – 0,2x
+
+        ☐ g(x)= 100 ∙ 0,2x
+
+        ☐ h(x)= 100 ∙ 0,2x
+
+
+
+
+                                                                                     /2 P.
+
+
+
+
+                                             9
+                       MSA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A18   Eine faire Münze mit den Seiten Kopf und Zahl wird zweimal
+      geworfen. Berechne jeweils die Wahrscheinlichkeit folgender
+      Ereignisse.
+
+      a) Es fällt mindestens einmal Kopf.
+
+         __________________________
+
+                                                                             /1 P.
+
+      b) Es fällt keinmal Kopf.
+
+         ___________________________
+
+                                                                             /1 P.
+
+A19   In einer Schulklasse sind insgesamt 30 Schülerinnen und Schüler.
+      40% von ihnen sind Mädchen.
+
+      a) Wie viele Jungen sind in der Klasse? _________
+
+                                                                             /1 P.
+
+      b) Bei einer Klassenarbeit erhielten 25% der Mädchen die Note „gut“.
+
+         Wie viele Mädchen erhielten die Note „gut“? __________
+
+                                                                             /1 P.
+
+
+
+
+                                             10
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2024 MSA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=5c314ec9b5054bfabbb66b84e2ed11cb
+ABRUF: 2026-09-27
+SEITEN: 18
+LIZENZVERMERK: © MBWFK, Kiel 2024; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2024
+
+
+
+
+      Mathematik Heft 2
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2024
+                       MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 2.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 30 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                       MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+B1 Trigonometrie                                            Winkelhalbierende
+(1) Im rechtwinkligen Dreieck ABC sind die Seitenlängen a = 7,5 cm und
+    b = 5 cm bekannt und die Winkelhalbierende w ist eingezeichnet.
+
+                         C
+                                                       Zeichnung nicht maßstabsgerecht
+
+
+
+
+                                                       a
+              b
+                  D
+
+                                                  w
+
+
+                                                                            
+                                                                                    B
+
+       A                                     c
+
+      a) Zeige rechnerisch, dass die Größe des Winkels ungefähr 33,7°
+         beträgt.
+                                                                                         /2 P.
+
+      b) Berechne die Länge der Strecke w, die den Winkel  halbiert
+                                                                                         /2 P.
+
+      c) Zeige, dass die Winkelhalbierende w die Seite AC nicht halbiert.
+                                                                                         /2 P.
+
+(2)    In einem anderen Dreieck sind die drei Seitenlängen a = 5 cm, b = 6 cm
+       und c = 7 cm bekannt.
+
+
+
+
+      Berechne die Größe des Winkels 𝛾.
+                                                                                         /3 P.
+
+
+
+
+                                              4
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst zwei der vier Wahlteile bearbeiten.
+
+(3) In einer geraden Pyramide mit quadratischer Grundfläche ist die
+    Seitenlänge a der Grundfläche mit a = 230 m bekannt.
+
+
+
+
+     a) Zeige, dass die Höhe h der Seitenfläche ungefähr 179 m beträgt.
+                                                                             /2 P.
+
+    b) Bestimme die Größe der Mantelfläche der Pyramide in m2.
+                                                                             /2 P.
+
+     c) Es wird behauptet: Fünftelt man den Winkel von 50° auf 10°, so ist
+        auch die Höhe k der Pyramide nur ein Fünftel so groß. Entscheide,
+        ob die Aussage stimmt und begründe deine Entscheidung.
+
+                                                                             /2 P.
+
+
+
+
+                                             5
+                         MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+B2: Stereometrie                                                            Kreisel
+
+Die 10a stellt für den Weihnachtsbasar so
+genannte „Kreisel“ her. Ein Kreisel besteht aus
+einem oberen und einem unteren Teil.
+
+
+
+
+(1) Benenne die beiden Körper, aus denen der Kreisel zusammengesetzt ist.
+
+                                                                                /1 P.
+
+(2) Jeder Schüler und jede Schülerin erhält einen Holzquader. Hieraus soll der
+    untere Teil des Kreisels hergestellt werden, so dass möglichst wenig Abfall
+    entsteht.
+
+
+                                               6 cm
+
+
+
+        4 cm
+
+
+                  6 cm
+
+      a) Zeige, dass das Volumen des Holzquaders 144 cm³ beträgt.
+
+                                                                                /1 P.
+
+      b) Mark behauptet: „Der untere Teil des Kreisels hat weniger als 25% des
+         Volumens vom Quader“.
+
+        Überprüfe, ob Mark recht hat.
+
+                                                                                /3 P.
+
+(3) Um die Kreisel zu verkaufen, werden diese in quaderförmige Verpackungen
+    mit den Kantenlängen a = 6 cm, b = 6 cm und c = 8 cm verstaut.
+
+     Zeichne ein dazugehöriges Quadernetz im Maßstab 1:4.
+                                                                                /2 P.
+
+
+
+
+                                                6
+                       MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+(4) Lisa möchte einen größeren Kreisel herstellen und überlegt: Wenn der
+    Holzquader für den unteren Teil des Kreisels doppelt so lange Kantenlängen
+    hat, dann verdoppelt sich auch das Volumen des unteren Teils.
+
+     Entscheide, ob Lisa recht hat und begründe deine Entscheidung.
+
+                                                                            /2 P.
+
+
+ Wahlteil zu B2
+ Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(5) Der „Stiel“ des Kreisels hat eine Höhe von 4 cm und einen Radius
+    von 0,25 cm. Bevor Lisa den Stiel an den unteren Teil anklebt, lackiert sie
+    den gesamten Stiel grün und den unteren Teil des Kreisels rot (Maße siehe
+    Aufgabe (2)).
+
+     a) Berechne den Flächeninhalt der grün lackierten Fläche in cm².
+                                                                            /2 P.
+
+     b) Zeige, dass s = 5 cm ist.
+
+
+
+
+                  s
+
+
+
+                                                                            /2 P.
+
+     c) Berechne den Flächeninhalt der rot lackierten Fläche in cm².
+
+                                                                            /2 P.
+
+
+
+
+                                              7
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                                           Klimawandel
+
+Der Umgang mit dem Klimawandel und der Erderwärmung gehört zu den großen
+Aufgaben unserer Gesellschaft. Funktionen können helfen, die Situation zu
+untersuchen.
+Greta hat weltweite mittlere Jahrestemperaturen seit dem Jahr 1950 in ein
+Koordinatensystem eingetragen. Durch die zugehörigen Punkte hat sie einen
+Graphen gelegt, der den Temperaturverlauf gut annähert.
+
+
+
+
+(1) a) Gib mithilfe des Graphen die mittlere Temperatur für das Jahr 2030 an.
+
+                                                                                 /1 P.
+
+
+
+
+                                             8
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+    b) Der Punkt R markiert die reale mittlere Temperatur für das Jahr 2020.
+
+        Ermittle mithilfe von Gretas Modell die ungefähre Anzahl der Jahre
+        ab 2020, bis die mittlere Temperatur um 1 °C gestiegen ist.
+
+                                                                             /2 P.
+
+
+    c) Der Graph f gehört zu der Funktionsgleichung                          .
+
+        Berechne mit dieser Funktion die mittlere Temperatur für das Jahr 2050.
+
+                                                                             /2 P.
+
+(2) Robert meint, dass die Entwicklung der letzten Jahre besser mit einer
+    linearen Funktion modelliert werden kann. Er zeichnet eine Gerade durch
+    die Punkte P und R und schlägt als Funktionsgleichung vor:
+
+
+
+
+    a) Überprüfe, ob die Steigung der Geraden durch die Punkte P und R
+       zu der Funktion g passt.
+
+                                                                             /2 P.
+
+    b) Ermittle mit Roberts Modell rechnerisch die Anzahl der Jahre,
+       bis die mittlere Temperatur um 1 °C gestiegen ist.
+                                                                             /2 P.
+
+
+
+
+                                             9
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B3
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) Greta möchte die weltweiten Temperaturangaben mit denen für
+    Deutschland vergleichen. Sie ergänzt fünf Datenpunkte in dem Diagramm,
+    in dem der Graph f für die weltweiten mittleren Temperaturen schon
+    eingetragen ist. Seine Funktionsgleichung lautet                     .
+
+
+
+
+    a) Greta stellt fest: „Wenn ich den Graphen von f ein Stück nach unten
+       verschiebe, dann liegen die neuen Punkte auf dem verschobenen
+       Graphen.“
+
+        Gib eine Funktionsgleichung für den verschobenen Graphen an.
+
+                                                                         /1 P.
+
+    b) Vergleiche den Verlauf der beiden Graphen im Sachzusammenhang,
+       indem du zwei passende Aussagen formulierst.
+
+                                                                         /2 P.
+
+
+                                            10
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+(4) In einem Internet-Artikel aus dem Jahr 2021 steht:
+
+
+      Neues Sommerklima:                                                 Jahr     mittlere
+      aus extrem wird normal                                                    Tagestemp.
+      Der Sommer ist in Deutschland ab den 1990er-                              im Sommer
+      Jahren massiv wärmer geworden.                                               in °C
+      Die Temperatur des extremsten Sommers vor                          2016     17,8
+      dem Jahr 1990 ist so hoch wie der Durchschnitt                     2017     17,9
+      der letzten 5 Sommer.
+                                                                         2018     19,3
+      Was früher ein extrem heißer Sommer war, ist
+      heute ein durchschnittlicher Sommer.                               2019     19,2
+                                                                         2020     18,2
+
+
+           Mittlere Tagestemperaturen im Sommer in Deutschland
+
+
+
+
+    Überprüfe die markierte Aussage.
+                                                                                         /3 P.
+
+
+
+
+                                            11
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+B4: Statistik und Wahrscheinlichkeit                                     Sonne
+
+Solano hat für Neumünster für das Jahr 2024 für zehn Tage im Mai und Juni
+folgende Daten zur Sonne zusammengestellt: Uhrzeiten des Aufgangs und des
+Untergangs, die zugehörigen Tageslängen und die Entfernung der Sonne zur
+Erde in Millionen Kilometern am jeweiligen Tag. Diese Daten hat er in ein
+Tabellenkalkulationsprogramm eingegeben. Die folgende Tabelle zeigt die Daten.
+
+
+
+
+(1) Gib an, wie lange es von Sonnenuntergang am 24.05.2024 bis zum
+    nächsten Sonnenaufgang am 25.05.2024 dauert.
+
+                                                                           /1 P.
+
+(2) a) Wenn man zu einem Datum 1 addiert, erhält man das Datum des
+       nächsten Tages. In Zelle A153 steht:
+
+
+          =A152+1
+
+
+        Gib an, welche Formel in Zelle A147 steht.
+
+                                                                           /1 P.
+
+
+
+
+                                            12
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+    b) Zunächst hatte Solano das Datum 01.01.2024 in Zelle A2 eingefügt
+       und folgende Eingabe in A3 gemacht:
+
+
+          =$A$2+1
+
+
+        Erkläre, warum dies beim Kopieren in die weiteren Zellen von
+        Spalte A zu einem Fehler führte.
+
+                                                                             /1 P.
+
+(3) Der Mai hat 31 Tage.
+
+    Gib an, in welcher Zelle das Datum 01.05.2024 steht.
+
+                                                                             /1 P.
+
+(4) a) Begründe mithilfe der Daten aus Spalte E, dass die Erde die Sonne
+       nicht kreisförmig umläuft.
+
+                                                                             /1 P.
+
+    b) Gib eine Formel an, mit der die durchschnittliche Entfernung der
+       Erde von der Sonne für die in der Tabelle in Spalte E dargestellten
+       Daten bestimmt werden kann.
+
+                                                                             /2 P.
+
+    c) Bestimme den Median für die in der Tabelle in Spalte E dargestellten
+       Daten.
+
+                                                                             /2 P.
+
+
+
+
+                                            13
+                        MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B4
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+Für das ganze Jahr 2024 vom 01.01.2024 bis zum 31.12.2024 hat Solano die
+Entfernung der Erde von der Sonne in einem Diagramm dargestellt.
+                          Entfernung Erde-Sonne
+                               im Jahr 2024
+ 154,000
+
+ 152,000
+
+ 150,000
+
+ 148,000
+
+ 146,000
+
+ 144,000
+
+ 142,000
+           01.01.2024
+
+
+
+
+                                                                           31.12.2024
+(5) a) Solanos Freund Lucian behauptet: „Das ist eine Parabel.“
+
+        Beschreibe, woran zu erkennen ist, dass der Graph keine Parabel ist.
+
+                                                                                        /1 P.
+
+     b) Lucian behauptet weiter: „Im Sommer ist die Entfernung der Sonne zur
+        Erde etwa doppelt so groß wie im Winter.“
+
+        Beschreibe den Fehler, den Lucian gemacht hat.
+
+                                                                                        /1 P.
+
+     c) In Wirklichkeit ist der Unterschied nur ungefähr 3,5 %.
+
+        Zeige dies durch eine Rechnung.
+
+                                                                                        /3 P.
+
+(6) Markiere im Diagramm die Stelle, an der ungefähr der 01.07.2024 ist.
+
+                                                                                        /1 P.
+
+
+                                              14
+MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+                      15
+MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+                      16
+                      MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+Bewertungsübersicht
+
+                                                          max.           erreichte
+                                                         Punkte           Punkte
+Heft 1                                                       32
+
+Heft 2:     B1                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B2                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B3                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B4                                                9
+
+      Wahlteil     ja        nein                           6
+
+Gesamtpunktzahl                                              80
+
+
+Bewertungsschlüssel MSA
+
+Punkte     Prozente   Mittlerer Schulabschluss (Note)
+
+
+ 72 - 80     ≥90                             1
+
+ 60 - 71     ≥75                             2
+
+ 48 - 59     ≥60                             3
+
+ 36 - 47     ≥45                             4
+
+ 18 - 35     ≥22                             5
+
+ 17 - 0      <22                             6
+
+
+
+
+                                             17
+MSA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+                      18
+

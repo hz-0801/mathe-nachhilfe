@@ -1,0 +1,845 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2023 ESA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=c809d502dc52eb6738125170f25fd21c
+ABRUF: 2026-09-27
+SEITEN: 10
+LIZENZVERMERK: © MBWFK, Kiel 2023; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2023
+
+
+
+
+                Mathematik Heft 1
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2023
+                        ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 1.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                          ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben
+
+A1   Gib den Wert für x an.
+
+     2 ⋅ x = 3 ⋅ x – 24
+
+     x = ________
+
+                                                                             /1 P.
+
+A2   Paul fährt von Niebüll nach Hamburg.
+
+     Gib an, wie lange Paul unterwegs ist.
+
+
+                                         an            ab
+      Westerland (Sylt)                              18:22
+      Niebüll                         18:58          19:02
+      Husum                           19:27          19:31
+      Elmshorn                        20:55          21:00
+      Hamburg                         21:21
+
+
+     Fahrzeit: ________
+
+                                                                             /1 P.
+
+A3   Das Ganze ist schwarz umrandet. Gib den grau gefärbten Anteil des
+     Rechtecks als Bruch an.
+
+
+
+
+     Anteil: ________
+
+                                                                             /1 P.
+
+
+
+
+                                                 4
+                       ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+                                             2     3
+A4   Gib einen Bruch an, der zwischen          und   liegt.
+                                             7     7
+
+
+
+
+     Lösung: ________
+
+                                                                             /1 P.
+
+A5   Nur ein Netz kann zum abgebildeten Würfel passen.
+
+     Kreuze dieses Netz an.
+
+
+
+
+                                ☐                                   ☐        ☐
+
+                                                                             /1 P.
+
+                                3
+A6   Sahin hat 180 €. Er gibt     davon aus.
+                                4
+
+     Kreuze an, wie viel Euro Sahin noch übrig hat.
+
+
+
+
+     ☐ 45 €                     ☐ 4,50 €                            ☐ 60 €
+
+                                                                             /1 P.
+
+
+
+
+                                              5
+                         ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A7    Das Glücksrad wird einmal gedreht.
+
+
+
+
+     a) Gib die Wahrscheinlichkeit an, dass eine „3“ gedreht wird.
+
+        Lösung: ________
+
+                                                                            /1 P.
+
+     b) Für dieses Glücksrad gibt es drei mögliche Spielregeln.
+
+        Kreuze an, bei welcher Regel man die höchste Gewinnchance hat.
+
+        ☐     Man gewinnt bei einer geraden Zahl.
+
+        ☐     Man gewinnt bei einer ungeraden Zahl.
+
+        ☐     Man gewinnt bei einer Zahl größer als 5.
+
+                                                                            /1 P.
+
+A8    Die Wertetabelle stellt eine antiproportionale Zuordnung dar.
+
+      Ergänze die fehlenden Werte.
+
+
+       Anzahl der Schüler                5            10
+
+       Preis je Schüler               20 €                       2,50 €
+
+
+                                                                            /2 P.
+
+
+
+
+                                                6
+                      ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A9   Kreuze die richtige Umwandlung von 748 mm an.
+
+     ☐ 0,748 cm                ☐ 7,48 cm                           ☐ 74,8 cm
+
+                                                                               /1 P.
+
+A10 Das Diagramm zeigt die Preise für 1 Liter Benzin an einer Tankstelle im
+    Verlauf der Woche.
+
+
+
+
+     a) Gib an, wie hoch der größte Preisunterschied zwischen zwei
+        aufeinanderfolgenden Tagen war.
+
+        Lösung: ________
+
+                                                                               /1 P.
+
+     b) Am Donnerstag wurde für 80 € getankt.
+
+        Gib an, wie viele Liter Benzin getankt wurden.
+
+
+
+
+        Lösung: ________
+
+                                                                               /1 P.
+
+
+
+
+                                             7
+                       ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A11 Kreuze die größte Zahl an.
+
+     ☐ 0,27                     ☐ 0,7                               ☐ 0,172
+
+                                                                              /1 P.
+
+A12 Gib an, wie groß der Winkel β ist.
+
+
+
+
+     Die Zeichnung ist nicht maßstabsgerecht.
+
+     Lösung: ______
+
+                                                                              /1 P.
+
+A13 Gib an, welche der Geraden senkrecht auf der Geraden g steht.
+
+
+
+
+Lösung: ______
+
+                                                                              /1 P.
+
+
+                                              8
+                           ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A14 Eine Holzeisenbahn wurde aus verschieden langen Waggons und
+    Verbindungsstücken gebaut.
+
+                  l: Länge eines langen Waggons
+
+
+                  k: Länge eines kurzen Waggons
+
+
+                  v: Länge eines Verbindungsstücks
+
+
+
+
+    Kreuze an, welcher Term die Gesamtlänge der Eisenbahn beschreibt.
+
+    ☐ 2⋅l + 4⋅k + 6 ⋅ v
+
+    ☐ 2 ⋅ 4 ⋅5 + l⋅k ⋅ v
+
+    ☐ 2 ⋅l + 4⋅k + 5⋅ v
+
+                                                                              /1 P.
+
+A15 Maja sagt: „Mehr als 60% der Kreisfläche sind grau gefärbt.“
+
+
+
+
+    Begründe, warum Maja recht hat.
+
+
+
+
+                                                                              /1 P.
+
+
+                                                  9
+                      ESA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A16 Bei einer quaderförmigen Verpackung werden die Länge und die Breite
+    verdoppelt.
+
+
+
+
+    Begründe, warum sich das Volumen der Verpackung dann vervierfacht.
+
+
+
+
+                                                                          /1 P.
+
+A17 Wähle vier dieser Zahlenkärtchen aus. Bilde mit den gegebenen
+    Rechenzeichen eine passende Gleichung.
+
+
+
+
+                                                                          /1 P.
+
+
+
+
+                                            10
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2023 ESA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=465ede2fd01bdb6ec7180a62be0cdf0d
+ABRUF: 2026-09-27
+SEITEN: 14
+LIZENZVERMERK: © MBWFK, Kiel 2023; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2023
+
+
+
+
+                Mathematik Heft 2
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2023
+                        ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 2.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                      ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                                              Covid-19
+
+Die Covid-19-Pandemie hat den Schulalltag in Schleswig-Holstein verändert. Der
+Schüler Maik erinnert sich an einige Besonderheiten aus dieser Zeit.
+
+(1) Zu Beginn des Schuljahres 2020/2021 durften alle Schülerinnen und
+    Schüler wieder in die Schule. In einer Doppelstunde wurde insgesamt
+    15 Minuten gelüftet. In den Pausen blieben die Fenster geöffnet.
+
+    Maiks Stundenplan
+
+           Zeit        MO             DI               MI                DO        FR
+      07:30 – 08:15    Mathe           NaWi            Mathe             Deutsch   WPU
+      08:15 – 09:00    Mathe           NaWi            Mathe             Deutsch   WPU
+          Pause
+      09:30 – 10:15    Deutsch         Religion        WPU               NaWi      Englisch
+      10:15 – 11:00    Deutsch         WiPo            WPU               NaWi      Englisch
+          Pause
+      11:30 – 12:15    Kunst          Englisch         WiPo              Weltkunde Weltkunde
+      12:15 – 13:00    Kunst          Englisch         WiPo              Weltkunde Weltkunde
+
+
+    a) Bestimme mit Hilfe des Stundenplans, wie lange Maiks Klasse an einem
+       Tag die Fenster geöffnet hatte.
+
+                                                                                         /2 P.
+
+    b) Ermittle, wie viele Stunden Maiks Klasse die Fenster in einer
+       Schulwoche geöffnet hatte.
+
+        Falls du in a) keine Lösung finden konntest, rechne mit 105 Minuten
+        weiter.
+
+                                                                                         /2 P.
+
+
+
+
+                                             4
+                        ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+(2) Um das Ansteckungsrisiko zu reduzieren, wurden in der Schule
+    zylinderförmige Behälter mit Desinfektionsmittel aufgestellt. Pro Benutzung
+    wurden 5 ml Desinfektionsmittel gebraucht.
+
+
+
+
+                    (1 ml  1 cm3 )
+
+     Berechne, wie oft der Behälter benutzt werden kann, bevor er leer ist.
+
+                                                                                      /3 P.
+
+(3) Im Lockdown fanden alle 30 Unterrichtsstunden der Woche online statt.
+    Dafür suchte Maik einen Datentarif. Er benötigte 0,3 Gigabyte
+    Datenvolumen pro Unterrichtsstunde. Er hatte die Wahl zwischen diesen
+    beiden Angeboten.
+
+
+      Flatrate-Tarif
+                                                        Sparfuchs29-Tarif
+      Surfe, so viel du willst!
+      Keine Datenbegrenzung                             25 Gigabyte inklusive
+
+
+      Nur 30,50 € für 4 Wochen                          Nur 9,99 € für 4 Wochen
+                                                        Jedes weitere Gigabyte
+                                                        Datenvolumen kostet 1,50 €.
+
+
+     a) Überprüfe, welcher Tarif für Maik nach vier Wochen günstiger gewesen
+        wäre, wenn er ihn nur für den Unterricht verwendet hätte.
+
+                                                                                      /3 P.
+
+     b) Ermittle, ab welcher Datenmenge sich der Flatrate-Tarif gelohnt hätte.
+
+                                                                                      /2 P.
+
+
+
+
+                                               5
+                        ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst einen der beiden Wahlteile bearbeiten.
+
+
+(4) Ab dem April 2021 durften alle 550 Schülerinnen und Schüler an Maiks
+    Schule zurück in den Unterricht. Alle Schülerinnen und Schüler mussten sich
+    zweimal pro Woche selbst testen. Am Ende der ersten Woche waren 98 %
+    aller Tests negativ.
+
+    Berechne die Anzahl der positiven Tests nach der ersten Woche.
+
+                                                                           /3 P.
+
+(5) Ab dem Schuljahr 2021/22 durfte im Unterricht wieder in Vierergruppen
+    gearbeitet werden.
+
+
+
+       Maik      Lena
+                               Fenster
+
+
+
+
+        Jule      Ali
+
+
+
+    a) Bestimme die Anzahl der Möglichkeiten, wie sich Maik, Lena, Jule und
+       Ali an ihren Vierertisch hinsetzen könnten.
+
+                                                                           /2 P.
+
+    b) Gib eine mögliche Bedingung für die Sitzordnung an, die die Anzahl der
+       Möglichkeiten begrenzen würde.
+
+                                                                           /1 P.
+
+
+
+
+                                               6
+                       ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+B2: Komplexaufgabe                                                        Gartenpool
+
+Familie Sachs möchte für ihren Garten einen Aufstellpool kaufen.
+
+(1)    Der Vater steckt folgende Fläche im Garten ab:
+
+
+
+
+                             6,50 m
+
+
+
+
+       4,50 m
+
+
+
+
+   a) Gib die Größe der Fläche in m2 an.
+
+                                                                                 /1 P.
+
+      Damit der Pool nicht absackt, muss ein Teil des Erdbodens ausgetauscht
+      werden.
+
+
+
+
+   b) Berechne, wie viel m³ Erde ausgetauscht werden müssen.
+
+                                                                                 /2 P.
+
+
+
+
+                                              7
+                        ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+(2) Die Abbildung zeigt die Grundfläche des Pools.
+
+    Der Pool ist 6,10 m lang, 3,60 m breit und 1,22 m hoch.
+
+
+
+
+                                                   2,50 m
+
+
+                       (Die Abbildung ist nicht maßstabsgerecht.)
+
+    a) Esra hat das Volumen des Pools mit folgendem Term berechnet:
+
+         V = (2,50 · 3,60 + 1,82 ·π ) · 1,22
+
+         V ≈ 23,4 m3
+
+        Erläutere, warum Esra das Volumen mit diesem Term berechnen kann.
+
+                                                                           /3 P.
+
+
+
+
+                                               8
+                         ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+    b) In den Pool der Familie passen 23 400 Liter Wasser. Im Diagramm ist
+       dargestellt, wie viele Liter Wasser sich in Abhängigkeit von der
+       vergangenen Zeit im Pool befinden.
+
+
+                 Liter
+        5000
+
+        4000
+
+        3000
+
+        2000
+
+        1000
+                                                                            Zeit in h
+        -1   0      1    2     3     4      5       6    7     8      9       10
+
+
+        Bestimme, wie lange es dauert, bis der Pool vollständig mit Wasser
+        gefüllt ist.
+
+                                                                                         /3 P.
+
+(3) Um das Wasser keimfrei zu halten, muss Familie Sachs eine Filterpumpe
+    kaufen. Diese wälzt die 23 400 Liter Wasser im Pool einmal am Tag um. Die
+    Betriebskosten sollen dabei möglichst gering sein.
+
+    Familie Sachs findet im Internet zwei Angebote:
+
+                             Filteranlage „Flow“                Filteranlage „Pazifik“
+      Betriebskosten
+                                         11,5 ct                               35 ct
+       pro Stunde
+     Umwälzung pro
+        Stunde                      5 678 Liter                           11 000 Liter
+
+
+
+
+   Überprüfe, welche Filteranlage die Familie kaufen sollte.
+
+                                                                                         /3 P.
+
+
+
+
+                                                9
+                       ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst einen der beiden Wahlteile bearbeiten.
+
+
+(4) Um das Wasser auch bei hohen Temperaturen
+    keimfrei zu halten, muss Familie Sachs
+    Desinfektionsmittel in ihren Pool geben. Pro Liter
+    Wasser werden 0,75 mg Desinfektionsmittel
+                                                                          Dessi
+    hinzugefügt.
+                                                                           für
+                                                                          Pools
+
+                                                                          1000 g
+
+
+
+     Berechne die Menge Desinfektionsmittel für eine Reinigung in g.
+
+                                                                                   /2 P.
+
+
+(5) Um den Einstieg in den Pool zu erleichtern, baut Familie Sachs eine
+    Holztreppe, die an die Poolwand gestellt wird.
+
+
+
+
+     Berechne den Abstand x zur Poolwand in Metern.
+
+                                                                                   /2 P.
+
+
+(6) Der Pool kostet jetzt im Internet 1 125 €.
+    Esra meint: „Das ist 1,5-mal so viel wie der Preis, den wir bezahlt haben.“
+    Tom behauptet: „Der Pool ist 50 % teurer als unser Pool war.“
+
+     Zeige, dass beide dasselbe beschreiben.
+                                                                                   /2 P.
+
+
+
+
+                                             10
+                     ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+                           Bewertungsübersicht
+
+
+
+                                max. Punkte                       erreichte Punkte
+Heft 1                                    20
+Heft 2: B1                                12
+     Wahlteil                             6
+Heft 2: B2                                12
+     Wahlteil                             6
+Gesamtpunktzahl                           50
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte    Prozente   Erster allgemeinbildender
+                     Schulabschluss (Note)
+  45-50     ≥90                             1
+
+  38-44     ≥75                             2
+
+  30-37     ≥60                             3
+
+  23-29     ≥45                             4
+
+  11-22     ≥22                             5
+
+  0-10      <22                             6
+
+
+
+
+                                           11
+ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+                      12
+ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+                      13
+ESA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+                      14
+

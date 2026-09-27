@@ -1,0 +1,3525 @@
+QUELLE: Hamburg, Erster allgemeinbildender Schulabschluss – Mathematik, Hinweise und Beispiele zu den zentralen Prüfungsaufgaben (BSFB, 3. überarbeitete Auflage, Hamburg, Januar 2026)
+ADRESSE: https://www.hamburg.de/resource/blob/133198/51edbfa5ee45a80b58026f6684d4be71/hinweise-und-beispiele-zu-den-zentralen-pruefungsaufgaben-im-fach-mathematik-data.pdf
+ABRUF: 2026-09-27
+SEITEN: 66
+LIZENZVERMERK: Alle Rechte vorbehalten. (Bildnachweis auf zwei Seiten: „© M. Waygood“)
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Erster allgemeinbildender Schulabschluss
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+          Schriftliche Prüfung zum
+        ersten allgemeinbildenden
+                    Schulabschluss
+
+
+                           Mathematik
+
+Hinweise und Beispiele zu den zentralen
+        schriftlichen Prüfungsaufgaben
+Beispiele für zentrale schriftliche Prüfungsaufgaben   Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+Impressum
+
+
+
+Herausgeber:
+Freie und Hansestadt Hamburg
+Behörde für Schule, Familie und Berufsbildung
+Hamburger Straße 31, 22083 Hamburg
+
+
+
+Referatsleitung Mathematisch-naturwissenschaftlich-technischer Unterricht:
+
+Dr. Najibulla Karim
+
+
+Fachreferentin Mathematik für Stadtteilschulen:
+
+Anna Catharina Serck
+
+
+Redaktion:
+
+Jirko Michalski
+Lis Nielsen
+Carsten Reich
+Anna Catharina Serck
+Christine Töllner
+Jennifer Waygood
+
+
+Urheberrechtliche Hinweise zu Änderungen ggü. der 2. Auflage:
+Vorwort, Liste der Arbeitsaufträge sowie Überarbeitung des Aufbaus und der Formatierung:
+Anna Catharina Serck und Dr. Najibulla Karim
+
+
+Alle Rechte vorbehalten.
+
+Internet: http://www.hamburg.de/abschlusspruefungen
+
+
+
+
+3. überarbeitete Auflage, Hamburg, Januar 2026
+Inhaltsverzeichnis
+
+
+  T   1. Vorwort .............................................................................................. 3
+
+  2. Liste der Arbeitsaufträge ....................................................................... 4
+
+  3. Aufgabenübersicht ................................................................................ 7
+
+  4. Aufgaben, die ohne Einsatz des Taschenrechners bearbeitet werden
+
+         4.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen ................ 10
+
+         4.2 Aufgaben zur Überprüfung der Kompetenzen - leitideenübergreifend ..... 23
+
+  5. Komplexe Aufgaben zu den Leitideen mit Einsatz des Taschenrechners
+
+         5.1 Aufgaben zur Leitidee Zahl und zur Leitidee Messen ............................ 39
+
+         5.2 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen ......... 39
+
+         5.3 Aufgaben zur Leitidee Funktionaler Zusammenhang ............................ 53
+
+         5.4 Aufgaben zur Leitidee Daten und Zufall ............................................. 59
+1. Vorwort
+
+Sehr geehrte Kolleginnen und Kollegen,
+
+die vorliegende Handreichung versteht sich als Ergänzung zu den Regelungen für die zentralen
+schriftlichen Prüfungsaufgaben und enthält Übungsaufgaben zur Vorbereitung auf die
+zentralen schriftlichen Abschlussprüfungen zum Erwerb des ersten allgemeinbildenden
+Schulabschlusses (ESA) im Fach Mathematik. Die Aufgaben dieser Handreichung basieren auf
+veränderten Aufgaben aus ehemailgen Prüfungen.
+
+Vor dem Hintergrund der veränderten Rahmenbedingungen der schriftlichen ESA-Prüfung,
+insbesondere der verkürzten Bearbeitungszeit sowie der angepassten Aufgabenformate,
+wurde die Handreichung überprüft und inhaltlich weiterentwickelt. Ziel ist es, Lehrkräften
+sowie Schülerinnen und Schülern eine verlässliche Orientierung und eine gezielte
+Vorbereitung auf die aktuellen Prüfungsanforderungen zu ermöglichen.
+
+Die Aufgabenstellungen berücksichtigen den Rahmenplan Mathematik für die Stadtteilschule
+sowie die in den Bildungsstandards der Kultusministerkonferenz für den ersten
+allgemeinbildenden Schulabschluss formulierten zentralen Ideen (Leitideen) und
+Anforderungen.
+
+Das Heft mit Übungsaufgaben wurde bereits mehrfach überarbeitet. Mit der nun vorliegenden
+Fassung erscheint die Handreichung in dritter, überarbeiteter Auflage. Neben formalen
+Anpassungen und einer weiteren Modifikation des Aufbaus wurden insbesondere folgende
+Aspekte berücksichtigt:
+
+   •   Für den hilfsmittelfreien Teil (Teil I) stehen den Prüflingen sechs Aufgabensätze zur
+       Verfügung, die Aufgaben zu verschiedenen Leitideen enthalten und in Umfang sowie
+       Struktur an die aktuellen Prüfungsformate angepasst sind. Die Tabellen mit den
+       zugehörigen Anforderungen, die eine Verknüpfung zwischen Aufgaben und
+       Anforderungen herstellen sollen, wurden beibehalten. Diese geben einen Überblick
+       über die mathematischen Inhalte der Leitideen, ohne Anspruch auf Vollständigkeit.
+   •   Um den Prüflingen im Teil II die Möglichkeit zu geben, mathematische Kompetenzen
+       gezielt bezogen auf jeweils eine Leitidee mit Einsatz eines Taschenrechners und der
+       zugelassenen Formelsammlung zu überprüfen und zu üben, gibt es im Vergleich zur
+       zweiten Auflage kürzere Aufgaben, die weniger textlastig und die an die veränderten
+       zeitlichen Rahmenbedingungen der Prüfung angepasst sind.
+   •   Für die Schülerinnen und Schüler gibt es unverändert eine Übersichtsseite, auf der
+       dokumentiert werden kann, welche Aufgaben wann und mit welchem Erfolg bearbeitet
+       wurden und eine unveränderte Übersicht über die in den Aufgaben verwendeten
+       Operatoren.
+
+Die Lösungen und Bewertungshinweise zu den Aufgaben werden in einem separaten Heft zur
+Verfügung gestellt.
+In der Hoffnung, dass die vorliegende Handreichung Sie bei Ihrer Unterrichtsarbeit sowie bei
+der Vorbereitung Ihrer Schülerinnen und Schüler auf die schriftliche Abschlussprüfung
+unterstützt, wünschen wir Ihnen und Ihren Schülerinnen und Schülern viel Erfolg.
+
+
+Anna Catharina Serck                                   Dr. Najibulla Karim
+Fachreferentin Mathematik                              Referatsleiter
+Stadtteilschulen                                       MINT-Referat
+
+
+
+
+                                                                                          3
+Beispiele für zentrale schriftliche Prüfungsaufgaben    Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+2. Liste der Arbeitsaufträge
+
+Mehr noch als bei dezentralen Aufgaben, die immer im Kontext gemeinsamer Erfahrungen
+der Lehrenden und Lernenden mit vorherigen Klassenarbeiten stehen, müssen zentrale Prü-
+fungsaufgaben für die Schülerinnen und Schüler eindeutig hinsichtlich des Arbeitsauftrages
+und der erwarteten Leistung formuliert sein. Die in den zentralen schriftlichen Prüfungsauf-
+gaben verwendeten Arbeitsaufträge (Operatoren) werden in der folgenden Tabelle definiert
+und inhaltlich gefüllt. Entsprechende Formulierungen in den vorausgehenden Klassenarbeiten
+sind ein wichtiger Teil der Vorbereitung auf den mittleren Schulabschluss.
+
+Neben Definitionen und Beispielen enthält die Tabelle auch Zuordnungen zu den Anforde-
+rungsbereichen I, II und III wobei die konkrete Zuordnung auch vom Kontext der Aufga-
+benstellung abhängen kann und eine scharfe Trennung der Anforderungsbereiche nicht immer
+möglich ist.
+
+Anforderungsbereich I: Reproduzieren
+Dieser Anforderungsbereich umfasst die Wiedergabe und direkte Anwendung von grundle-
+genden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem wiederho-
+lenden Zusammenhang.
+Anforderungsbereich II: Zusammenhänge herstellen
+Dieser Anforderungsbereich umfasst das Bearbeiten bekannter Sachverhalte, indem Kennt-
+nisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung mit Ma-
+thematik auf verschiedenen Gebieten erworben wurden.
+Anforderungsbereich III: Verallgemeinern und Reflektieren
+Dieser Anforderungsbereich umfasst das Bearbeiten komplexer Gegebenheiten u.a. mit dem
+Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen, Interpreta-
+tionen oder Wertungen zu gelangen.
+
+
+     Arbeitsaufträge                     Definitionen                          Beispiele
+
+    angeben,               Formulierung eines Sachverhaltes,     Gib an, wofür die Variable m in der
+    nennen                 aufzählen von Fakten etc. ohne Be-    Geradengleichung y = mx + b
+    I-II                   gründung und ohne Lösungsweg          steht.
+                                                                 Nenne ein Beispiel, in dem lineare
+                                                                 Funktionen in der Realität auftreten.
+
+    auseinanderset-        kreativer Prozess, mindestens auf     Setze dich mit den Äußerungen der
+    zen                    dem Anforderungsniveau II             Schülerinnen und Schüler ausei-
+    II-III                                                       nander. (z. B.: Aufgabe 11, Bil-
+                                                                 dungsstandards)
+
+    auswählen              ohne Begründung aus mehreren An-      Wähle ohne Hilfe des Taschenrech-
+    I-II                   geboten eines auswählen               ners diejenige Zahl aus, die dem
+                                                                 Wert von    199 am nächsten
+                                                                 kommt.
+
+    begründen              für einen angegebenen Sachverhalt     Begründe, warum der abgebildete
+    II-III                 einen Begründungszusammenhang         Graph die Situation nicht richtig be-
+                           herstellen                            schreibt.
+                                                                 Begründe, warum eine quadrati-
+                                                                 sche Gleichung höchstens zwei Lö-
+                                                                 sungen hat.
+
+
+
+
+4
+Erster allgemeinbildender Schulabschluss Mathematik        Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+       Arbeitsaufträge                Definitionen                               Beispiele
+
+   berechnen             Ergebnis von einem Ansatz ausge-         Berechne ohne Benutzung des Ta-
+   I-II                  hend durch nachvollziehbare              schenrechners den Wert des Terms
+                         Rechenoperationen gewinnen               23 + 32 .
+                         Die Wahl der Mittel kann einge-
+                         schränkt sein.
+
+   beschreiben           Darstellung eines Sachverhalts oder      Beschreibe, wie sich A ändert,
+   II-III                Verfahrens in Textform unter Ver-        wenn x größer wird.
+                         wendung der Fachsprache                  Beschreibe, wie man den Flächen-
+                         Hierbei sollten vollständige Sätze ge-   inhalt dieser Figur bestimmen kann.
+                         bildet werden. Es sind auch Ein-         Beschreibe in Stichworten.
+                         schränkungen möglich.
+
+   bestätigen            eine Aussage oder einen Sachverhalt      Bestätige rechnerisch, dass in die-
+   I-II                  durch Anwendung einfacher Mittel         sem Fall die Wahrscheinlichkeit un-
+                         (rechnerisch wie argumentativ) si-       ter 10 % liegt.
+                         chern
+
+   bestimmen,            Darstellung des Lösungsweges und         Bestimme die Lösung der Glei-
+   ermitteln             Formulierung des Ergebnisses             chung x + x = 12 .
+   II-III                Die Wahl der Mittel kann frei, unter     Bestimme die Lösung der Glei-
+                         Umständen auch eingeschränkt sein.       chung 3x – 5 = 5x + 3 durch
+                                                                  Äquivalenzumformungen.
+                                                                  Bestimme grafisch den Schnitt-
+                                                                  punkt.
+
+   beurteilen            zu einem Sachverhalt ein selbststän-     Beurteile, welche der beiden vor-
+   III                   diges Urteil unter Verwendung von        geschlagenen Funktionen das ur-
+                         Fachwissen und Fachmethoden for-         sprüngliche Problem besser dar-
+                         mulieren                                 stellt.
+                                                                  Beurteile die Diskussion von Yildiz
+                                                                  und Sven.
+
+   entscheiden           sich bei Alternativen begründet und      Entscheide, mit welchen der vor-
+   II-III                eindeutig auf eine Möglichkeit festle-   geschlagenen Formeln man das Vo-
+                         gen                                      lumen des abgebildeten Körpers be-
+                                                                  rechnen kann.
+                                                                  Entscheide, welcher Graph zu wel-
+                                                                  cher Funktionsgleichung gehört.
+
+   ergänzen, ver-        Tabellen, Ausdrücke oder Aussagen        Ergänze die fehlenden Werte.
+   vollständigen         nach bereits vorliegenden Kriterien,     Vervollständige die Tabelle.
+   I                     Formeln oder Mustern füllen
+
+   erstellen             einen Sachverhalt in übersichtlicher,    Erstelle eine Wertetabelle für die
+   I-II                  meist fachlich üblicher oder vorgege-    Funktion.
+                         bener Form darstellen                    Erstelle eine Planfigur.
+
+   interpretieren        die Ergebnisse einer mathematischen Interpretiere deine Lösung in Be-
+   II-III                Überlegung auf das ursprüngliche    zug auf die ursprüngliche Frage.
+                         Problem rückübersetzen              Interpretiere die Bedeutung der
+                                                             Variablen d vor dem Hintergrund
+                                                             des Problems.
+
+
+
+
+                                                                                                             5
+Beispiele für zentrale schriftliche Prüfungsaufgaben     Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+        Arbeitsaufträge                  Definitionen                            Beispiele
+
+    konstruieren           Die einzelnen Handlungsschritte zur    Konstruiere mit Hilfe von Zirkel
+    II-III                 Anfertigung einer genauen Zeichnung    und Lineal die Mittelsenkrechte der
+                           folgen einem mathematischen Kon-       Strecke AB .
+                           zept. Dies ist in der Zeichnung er-
+                                                                Konstruiere mit Hilfe des Geodrei-
+                           kennbar.                             ecks ein Dreieck ABC mit α = 25°,
+                           Die Hilfsmittel werden benannt, müs- c = 4 cm, hc = 1,5 cm.
+                           sen aber gegebenenfalls nicht alle
+                           verwendet werden.
+
+    skizzieren             grafische Darstellung der wesentli-    Skizziere den Verlauf des
+    I-II                   chen Eigenschaften eines Objektes,     Graphen.
+                           auch Freihandskizze möglich            Skizziere die Figur, die im Text be-
+                                                                  schrieben wird.
+
+    vergleichen            nach vorgegebenen oder selbst ge-      Vergleiche Umfang und Flächenin-
+    II-III                 wählten Gesichtspunkten Gemein-        halt der drei Figuren.
+                           samkeiten, Ähnlichkeiten und Unter-
+                           schiede ermitteln und darstellen
+
+    zeichnen               möglichst genaue Anfertigung einer     Zeichne den Graphen der Funktion.
+    I-II                   grafischen Darstellung
+
+    zeigen,                eine Aussage, einen Sachverhalt        Zeige, dass das betrachtete Viereck
+    nachweisen             nach gültigen Schlussregeln,           ein Drachenviereck ist.
+    III                    Berechnungen, Herleitungen oder lo-
+                           gischen Begründungen bestätigen
+
+    zuordnen               ohne tiefer gehende Erläuterung      Ordne die Füllgraphen den
+    I                      eine Verbindung zwischen zwei Listen Gefäßen zu.
+                           herstellen
+
+
+
+
+6
+Erster allgemeinbildender Schulabschluss Mathematik      Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+3. Aufgabenübersicht
+
+Aufgaben, die ohne Einsatz des Taschenrechners und ohne zugelas-
+sene Formelsammlung bearbeitet werden
+
+Aufgaben zur Überprüfung der Kompetenzen nach Leitideen
+           Leitidee              Seite      bearbeitet   kontrolliert      Punkte                       
+        Zahl – Teil 1             10
+
+        Zahl – Teil 2             12
+
+           Messen                 14
+
+      Raum und Form               16
+   Funktionaler Zusam-
+                                  18
+        menhang
+     Daten und Zufall             20
+
+
+
+Aufgaben zur Überprüfung der Kompetenzen - leitideenübergreifend
+          Aufgabe                Seite      bearbeitet   kontrolliert      Punkte                       
+         1. Beispiel              22
+
+         2. Beispiel              24
+
+         3. Beispiel              27
+
+         4. Beispiel              30
+
+         5. Beispiel              32
+
+         6. Beispiel              35
+
+
+
+Aufgaben zu den Leitideen mit Einsatz des Taschenrechners und
+zugelassener Formelsammlung
+
+Aufgaben zur Leitidee Zahl und zur Leitidee Messen
+                                 Seite      bearbeitet   kontrolliert      Punkte                       
+         Aufgabe 1                38
+
+         Aufgabe 2                38
+
+         Aufgabe 3                38
+
+         Aufgabe 4                39
+
+         Aufgabe 5                39
+
+
+
+                                                                                                           7
+Beispiele für zentrale schriftliche Prüfungsaufgaben        Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                   Seite       bearbeitet      kontrolliert    Punkte                     
+          Aufgabe 6                  39
+
+          Aufgabe 7                  40
+
+          Aufgabe 8                  40
+
+          Aufgabe 9                  41
+
+         Aufgabe 10                  41
+
+         Aufgabe 11                  41
+
+         Aufgabe 12                  42
+
+         Aufgabe 13                  42
+
+         Aufgabe 14                  42
+
+         Aufgabe 15                  42
+
+         Aufgabe 16                  43
+
+         Aufgabe 17                  43
+
+         Aufgabe 18                  44
+
+         Aufgabe 19                  44
+
+         Aufgabe 20                  45
+
+         Aufgabe 21                  45
+
+
+
+Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen
+              Titel                Seite       bearbeitet      kontrolliert    Punkte                     
+          Aufgabe 1                  46
+
+          Aufgabe 2                  46
+
+          Aufgabe 3                  47
+
+          Aufgabe 4                  47
+
+          Aufgabe 5                  48
+
+          Aufgabe 6                  48
+
+          Aufgabe 7                  48
+
+          Aufgabe 8                  49
+
+          Aufgabe 9                  50
+
+8
+Erster allgemeinbildender Schulabschluss Mathematik      Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+                                 Seite      bearbeitet   kontrolliert      Punkte                       
+        Aufgabe 10                50
+
+        Aufgabe 11                51
+
+        Aufgabe 12                51
+
+
+Aufgaben zur Leitidee Funktionaler Zusammenhang
+             Titel               Seite      bearbeitet   kontrolliert      Punkte                       
+         Aufgabe 1                52
+
+         Aufgabe 2                52
+
+         Aufgabe 3                53
+
+         Aufgabe 4                53
+
+         Aufgabe 5                53
+
+         Aufgabe 6                54
+
+         Aufgabe 7                54
+
+         Aufgabe 8                55
+
+         Aufgabe 9                56
+
+        Aufgabe 10                56
+
+        Aufgabe 11                57
+
+
+
+Aufgaben zur Leitidee Daten und Zufall
+             Titel               Seite      bearbeitet   kontrolliert      Punkte                       
+         Aufgabe 1                58
+
+         Aufgabe 2                58
+
+         Aufgabe 3                59
+
+         Aufgabe 4                59
+
+         Aufgabe 5                59
+
+         Aufgabe 6                60
+
+         Aufgabe 7                61
+
+         Aufgabe 8                62
+
+         Aufgabe 9                62
+
+
+                                                                                                           9
+Beispiele für zentrale schriftliche Prüfungsaufgaben            Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+4. Aufgaben, die ohne Einsatz des Taschenrechners bearbeitet
+   werden
+
+Der Teil I der schriftlichen ESA-Prüfung besteht aus Multiple Choice Aufgaben zu
+allen Leitideen und ist ohne den Einsatz eines Taschenrechners und ohne die zuge-
+lassene Formelsammlung zu bearbeiten.
+
+4.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen
+
+Mit den folgenden Tests kannst du deine Kompetenzen zu den verschiedenen Leitideen
+überprüfen und herausfinden, in welchen Bereichen du noch üben musst.
+Von den jeweils angebotenen Lösungen ist immer genau eine richtig. Überlege und schreibe
+den zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“. Eine Begründung wird
+nicht verlangt. Du darfst keinen Taschenrechner verwenden!
+
+                                          Leitidee „Zahl“ (Teil 1)
+
+
+        Aufgabe                       A                  B                C               D         Lösung
+
+ 1.     350 ⋅ 200 =                7 000               70 000         700 000        7 000 000
+
+ 2.     125 : 5 =                    10                 15               25              30
+
+ 3.     Sandra möchte
+        ein T-Shirt für
+        29,98 € kaufen.
+        Sie hat 25,50 €           3,48 €               4,48 €          4,98 €          5,48 €
+        gespart.
+        Es fehlen ihr
+        noch
+
+ 4.     52 – 15 ⋅ 5 =               –23                 –13             127              185
+
+ 5.     Welche Aufgabe                                              49 : (3 + 4)     (49 : 3) + 4
+                                 49 + 3 : 4        49 : 3 + 4
+        ergibt 7?
+
+ 6.     Richtig gerun-
+        det sind                 1,85 Mio.        1,86 Mio.          1,95 Mio.       1,96 Mio.
+        1 859 244
+
+ 7.     Welche Angabe
+                                  Schuh-           Telefon-          Körperge-
+        lässt sich sinn-                                                            Postleitzahl
+                                  größe            nummer              wicht
+        voll runden?
+
+ 8.     Welche Zahl ist
+                                 700 000          9 999 999           15 Mio.         0,5 Mrd.
+        die größte?
+
+ 9.     Welche Zahl ist
+                                   0,219                0,29             0,2           0,2009
+        die kleinste?
+
+ 10. Die Temperatur
+     fällt von 8°C auf
+     –4°C. Das ist                 12°C                 8°C             4°C              2°C
+     ein Unterschied
+     von
+
+
+
+10
+Erster allgemeinbildender Schulabschluss Mathematik        Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+       Aufgabe                     A                  B            C                D           Lösung
+
+ 11.   ( −8) ⋅ ( −5) =            –40             –13             13                40
+
+ 12.    −8 − 5 =                  –40             –13             13                40
+
+ 13. 112 =                         22             120            121               220
+
+ 14. 23 =                          6                  8           16                27
+
+ 15. (−1)5 =                       –5                 –1           1                 5
+
+
+                                                                                                    muss ich
+ KOMPETENZEN:                                                                         kann ich
+                                                                                                     üben
+ Ich kann …
+
+ … einfache Aufgaben im Kopf rechnen (Nr. 1, 2, 3).
+
+ … Rechenregeln anwenden (Nr. 4, 5).
+
+ … Ergebnisse sachgerecht runden (Nr. 6, 7).
+
+ … Zahlen einordnen (Nr. 8, 9).
+
+ … mit rationalen Zahlen rechnen (Nr. 10, 11, 12).
+
+ … die Potenzschreibweise nutzen (Nr. 13, 14, 15).
+
+
+
+
+                                                                                                            11
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+                                          Leitidee „Zahl“ (Teil 2)
+
+
+        Aufgabe                             A              B               C               D          Lösung
+
+ 1.     5, 3 − 2,1 =                       7,4            4,2             3,4             3,2
+
+ 2.     1, 2 + 0,15 + 0, 65 =              1,91          1,95              2              2,1
+
+ 3.     0, 6 ⋅ 0,5 =                      0,003          0,03             0,3               3
+
+ 4.     100 : 0, 2 =                       0,5             5              50              500
+
+ 5.     1 1                                  1             3               1               3
+         + =
+        4 8                                 12             8               2               4
+
+ 6.         1 3                              1             3               1               3
+        1    − =
+            4 4                             12             8               2               4
+
+ 7.     3 2                                 1              5               6               29
+         ⋅ =
+        4 9                                 6             13              13               30
+
+ 8.     3 1                                 3              3               3
+         : =                                                                                3
+        4 4                                16              8               4
+
+ 9.     2
+          von 1 Stunde sind              10 min         12 min          24 min          52 min
+        5
+
+ 10. Gib an, wie viel Pro-
+     zent vom Kreis ge-
+     färbt sind.
+                                                                         1
+                                         33, 3 %         30 %              %             0, 3 %
+                                                                         3
+
+
+
+
+ 11. 30 % von 450 g sind                   30 g          90 g           135 g            150 g
+
+ 12. „Doppelt so teuer!“
+     Das ist eine Erhö-                   20 %           50 %           100 %           200 %
+     hung um
+
+ 13. 4 von 20 Kindern ha-
+     ben kein Handy.                       4%            16 %            20 %            24 %
+     Das sind
+
+ 14. Ein Kleid kostet 50 €.
+     Die Kundin bekommt
+                                           60 €         48,40 €          40 €             42 €
+     20 % Rabatt. Das
+     Kleid kostet jetzt
+
+ 15. In einer 9. Klasse
+     sind 18 Schüler
+     16 Jahre alt. Das sind            36 Schüler      34 Schüler    32 Schüler       30 Schüler
+     60 % der Schüler.
+     Die Klasse hat also
+
+
+12
+Erster allgemeinbildender Schulabschluss Mathematik   Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+                                                                                               muss ich
+ KOMPETENZEN:                                                                    kann ich
+                                                                                                üben
+ Ich kann …
+
+ … mit Dezimalzahlen im Kopf rechnen (Nr. 1, 2, 3, 4).
+
+ … mit Brüchen rechnen (Nr. 5, 6, 7, 8, 9).
+
+ … Prozentsätze erkennen und berechnen (Nr. 10, 11, 12).
+
+ … Aufgaben zur Prozentrechnung lösen (Nr. 13, 14, 15).
+
+
+
+
+                                                                                                       13
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+                                              Leitidee „Messen“
+
+
+        Aufgabe                             A              B               C               D          Lösung
+
+ 1.     4 000 cm =                        4 km            4m             40 m            40 dm
+
+ 2.     2,5 kg sind mehr als             2 450 g        2 500 g        2 600 g          2,51 kg
+
+ 3.     0,027 km =                        2,7 m          27 m           270 m          2 700 m
+
+ 4.     Ein Volumen wird an-                            Quadrat-
+                                         Metern                         Litern        Kilogramm
+        gegeben in                                       metern
+
+ 5.     Eine Landstraße hat
+                                                                                      mehreren
+        eine ungefähre Breite              1m             8m             80 m
+                                                                                      Kilometern
+        von
+
+ 6.
+
+
+                                          140°            90°             60°             10°
+        Der Winkel β hat
+        eine Größe von etwa
+
+ 7.     Ein Zug fährt durch-
+        schnittlich
+                                      150 km ge-       200 km ge-    250 km ge-      275 km ge-
+        200 km/h. Nach
+                                        fahren           fahren        fahren          fahren
+        75 min ist er unge-
+        fähr
+
+ 8.     Abfahrt: 22:42 Uhr
+        Fahrzeit: 4:25 h
+                                       02:07 Uhr       03:07 Uhr      03:17 Uhr        4:07 Uhr
+        Die Ankunft ist dann
+        um
+
+ 9.     Ein Rechteck hat die
+        Seiten a = 9 cm;
+                                         21 cm           30 cm          39 cm            42 cm
+        b = 12 cm. Sein Um-
+        fang beträgt
+
+ 10. Ein Dreieck mit der
+     Grundseite 12 m und               Grundseite      Grundseite    Grundseite       Grundseite
+     der Höhe 5 m hat                  11 m und        10 m und       9 m und         15 m und
+     den gleichen                       der Höhe        der Höhe      der Höhe        der Höhe
+     Flächeninhalt wie ein                6m              7m            8m               4m
+     Dreieck mit der
+
+ 11. Bei einem Dreieck mit
+     α = 40° und γ = 50°
+                                           90°            80°             40°             10°
+        ist β =
+
+
+
+
+14
+Erster allgemeinbildender Schulabschluss Mathematik         Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+       Aufgabe                            A             B                  C                D          Lösung
+
+ 12. In einem Parallelo-
+     gramm ist Winkel
+     α = 44° groß. Be-                  46°           134°              136°              180°
+       stimme die Größe
+       von β .
+
+ 13. a = 6 cm; b = 8 cm
+
+
+
+                                       9 cm           10 cm            12 cm             15 cm
+
+
+       Die Länge der Seite c
+       beträgt
+
+ 14. Ein Würfel hat die
+     Kantenlänge a.
+                                         a2            6 a2               a6               6a6
+     Seine Oberfläche be-
+     trägt dann
+
+ 15. Das Volumen eines
+     Würfels beträgt
+     64 cm3 . Die Länge                12 cm          9 cm              6 cm              4 cm
+     einer Kante des Wür-
+     fels beträgt
+
+                                                                                                      muss ich
+  KOMPETENZEN:                                                                         kann ich
+                                                                                                       üben
+  Ich kann …
+
+  … Größen benennen und umrechnen (Nr. 1, 2, 3, 4).
+
+  … Größen (auch Winkelgrößen) schätzen (Nr. 5, 6).
+
+  … mit Größen rechnen (Nr. 7, 8).
+  … Flächeninhalte und Umfänge von Vierecken und Dreiecken
+    berechnen (Nr. 9, 10).
+  … Winkelsummensätze anwenden (Nr. 11, 12).
+
+  … den Satz des Pythagoras anwenden (Nr. 13).
+  … die Oberfläche und das Volumen von Prismen berechnen
+    (Nr. 14, 15).
+
+
+
+
+                                                                                                             15
+Beispiele für zentrale schriftliche Prüfungsaufgaben   Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+16
+Erster allgemeinbildender Schulabschluss Mathematik            Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+                                   Leitidee „Raum und Form“
+
+         Aufgabe                          A                B                  C                D          Lösung
+
+ 1.      Ein Quadrat ist                                                   eine              eine
+                                    eine Fläche       ein Körper
+                                                                          Strecke           Gerade
+
+ 2.
+                                        ein
+                                                         ein               ein               eine
+                                     Parallelo-
+                                                       Rechteck          Drachen            Raute
+                                      gramm
+         Dies ist
+
+ 3.      Ein Würfel hat              12 Ecken         12 Flächen        12 Kanten        12 Sehnen
+
+ 4.      Welches Netz ergibt
+         einen Würfel?
+
+
+
+
+ 5.      Bei einem recht-           alle Seiten       zwei Seiten        zwei Win-        der rechte
+         winkligen Dreieck          sind gleich       sind gleich         kel sind        Winkel ist
+         gilt immer                     lang             lang           gleich groß       der größte
+
+ 6.      Die Anzahl der
+         Symmetrieachsen
+                                          0                1                  2                4
+         in einem Quadrat
+         beträgt
+
+ 7.      Ein Quader ist auch         Parallelo-
+                                                        Prisma           Quadrat          Rechteck
+         ein                          gramm
+
+ 8.      In einem stumpf-             ist kein        ist ein Win-      sind zwei         sind alle
+         winkligen Dreieck          Winkel grö-        kel größer      Winkel grö-       Winkel grö-
+                                    ßer als 90°          als 90°       ßer als 90°       ßer als 90°
+
+ 9.      Zu einem Prisma
+         passt folgendes
+         Netz
+
+
+
+ 10.     Ein quadratisches                                                                 2 Paare
+                                                       3 gleiche
+         Prisma hat als Sei-                                            4 gleiche         verschie-
+                                    4 Dreiecke         Parallelo-
+         tenflächen                                                     Rechtecke        den großer
+                                                       gramme
+                                                                                         Rechtecke
+
+ 11.
+
+
+                                          3                4                  5                6
+
+         Die Anzahl der Kan-
+         ten beträgt
+
+
+
+
+                                                                                                                17
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+         Aufgabe                            A              B               C               D          Lösung
+
+ 12.     Ein Kegel hat die
+         Form
+
+
+
+
+ 13.     Die Diagonalen im                             sind immer
+                                       schneiden                     sind immer       sind immer
+         Rechteck                                       senkrecht
+                                       sich nicht                    gleich lang       3 cm lang
+                                                       zueinander
+
+ 14.     In einem                       sind alle        ist ein      sind zwei        ist eine
+         gleichschenkligen               Seiten          Winkel        Winkel            Seite
+         Dreieck                         immer         immer 90°        immer        genau 5 cm
+                                       gleich lang        groß       gleich groß         lang
+
+ 15.     Zu einem Quadrat
+         fehlt der Punkt mit
+         den Koordinaten
+
+
+                                         P (2 4)        P ( 4 2)        P (2 3)         P (3 2)
+
+
+
+
+                                                                                                    muss ich
+ KOMPETENZEN:                                                                         kann ich
+                                                                                                     üben
+ Ich kann …
+
+ … Vierecke benennen und kenne ihre Eigenschaften (Nr. 1, 2, 6, 13).
+ … Körper benennen und kenne ihre Eigenschaften
+   (Nr. 3, 4, 7, 9, 10, 11, 12).
+ … Dreiecksarten benennen und kenne ihre Eigenschaften
+   (Nr. 5, 8, 14).
+ … Symmetrieachsen erkennen (Nr. 6).
+
+ … die Koordinaten eines Punktes bestimmen und ablesen (Nr. 15).
+
+
+
+
+18
+Erster allgemeinbildender Schulabschluss Mathematik                          Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+                          Leitidee „Funktionaler Zusammenhang“
+
+       Aufgabe                              A                          B                          C                      D                  Lösung
+
+ 1.     4 Steine wiegen
+        24 kg, dann wiegen
+      1                                  36 kg                     54 kg                      72 kg                  216 kg
+        9 Steine der gleichen
+      .
+        Sorte
+
+ 2.    8 LKW fahren einen
+       Müllberg in 3 Tagen
+       weg. 4 LKW brau-                 2 Tage                    4 Tage                     6 Tage                  8 Tage
+       chen bei gleicher
+       Leistung
+
+ 3.    Vier Dosen Hunde-
+       futter kosten 1,96 €.
+                                        4,80 €                    4,90 €                      4,41 €                 3,90 €
+       Der Preis für 9 Dosen
+       beträgt
+
+ 4.    2 Pumpen benötigen
+       3 Stunden, um einen
+       Keller leer zu pum-               6                          3                         1,5                       1
+       pen. Eine Pumpe al-            Stunden                    Stunden                    Stunden                  Stunde
+       lein benötigt bei
+       gleicher Leistung
+
+ 5.     x+y+x+x+y =                     5⋅x ⋅y                    3x + 2y                     x3 + y2                   xy 5
+
+ 6.    Die Gleichung
+       2 x = 24                         x = 12                      x =6                       x =4                   x =2
+       hat die Lösung
+
+ 7.    x = 2,5 ist die Lö-
+                                      16 x = 32                 12 x = 48                  10 x = 80                8 x = 20
+       sung der Gleichung
+
+ 8.    5x − 3 = 4 x + 4
+                                         x =7                    2x = 8x                      9x = 7                −8 x = 7
+       ergibt umgeformt
+
+ 9.    2 ⋅ (x + 3) =                    2x + 3                     2x + 6                    2 x + 23                2x + 5
+
+                                    Höhe in cm                 Höhe in cm                 Höhe in cm             Höhe in cm
+ 10. Eine Kerze von 5 cm
+     Höhe brennt gleich-
+     mäßig ab. Dazu passt
+     der Graph                                   Zeit in min                Zeit in min            Zeit in min                Zeit in min
+
+
+
+ 11. Zu einer linearen
+     Funktion gehört der
+     Graph
+
+
+ 12. Der Term y = 3 x                Es ist 3°C                 Das Brot                   Jan wiegt               Lena ist
+       passt zu der                  kälter als                kostet 3 €                 3 kg weni-               3-mal so
+       Aussage:                       gestern.                   mehr.                    ger als Lia.           alt wie Tim.
+
+
+
+                                                                                                                                               19
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+        Aufgabe                             A              B               C               D          Lösung
+
+ 13. Im Rechteck ist eine
+     Seite 3-mal so lang
+     wie die andere. Der
+                                         u = 4x        u = 3x ⋅ x     u = 3x − x        u = 8x
+     Umfang lässt sich mit
+     folgendem Term
+     berechnen
+
+ 14. Ein zylinderförmiger
+     Tank wird mit unter-
+     schiedlich starkem
+     Wasserzulauf gefüllt.
+     Es passt der Graph
+
+ 15. Welcher Graph be-
+     schreibt die Kosten
+     einer Telefonflatrate?
+        x entspricht der Zeit;
+        y entspricht den Kos-
+        ten in Euro
+
+
+                                                                                          kann       muss ich
+  KOMPETENZEN:
+                                                                                           ich        üben
+  Ich kann …
+
+  … proportionale Zuordnungen erkennen und berechnen (Nr. 1, 3).
+
+  … antiproportionale Zuordnungen erkennen und berechnen (Nr. 2, 4).
+
+  … Terme zusammenfassen (Nr. 5, 9).
+
+  … einfache Gleichungen lösen (Nr. 6, 7, 8).
+
+  … Graphen lesen und interpretieren (Nr. 10, 11, 14, 15).
+
+  … Terme interpretieren und bilden (Nr. 12, 13).
+
+
+
+
+20
+Erster allgemeinbildender Schulabschluss Mathematik          Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+                                   Leitidee „Daten und Zufall“
+
+       Aufgabe                            A              B                  C                D          Lösung
+
+ 1.    Zu dieser Tabelle
+       passt das Diagramm:
+
+         Klasse    Siege
+           9a        3
+           9b        2
+           9c        5
+
+ 2.    Ein Verein hat von
+       34 Spielen 13 Spiele
+       gewonnen. Das ist                 13             21                 34                47
+       eine absolute Häufig-
+       keit von
+
+ 3.    30 Schüler wurden
+       befragt, wie viel Zeit
+       sie für Hausaufgaben
+       pro Woche brauchen:
+         Stunden Schüler
+             1          5
+             2         10                 3             2,5                 2               1,5
+             3         10
+             4          5
+       Im Durchschnitt
+       macht jeder Schüler
+       ___ Stunden Haus-
+       aufgaben.
+
+ 4.    7 von 25 Schülern
+       haben ihre Hausauf-
+       gaben nicht gemacht.
+                                          7             25               25 %              28 %
+       Das entspricht einer
+       relativen Häufigkeit
+       von
+
+ 5.    15 von 25 Schülern
+       haben Ebru zur Klas-
+       sensprecherin ge-
+                                         0,4           0,55               0,6              0,65
+       wählt. Das ist eine
+       relative Häufigkeit
+       von
+
+ 6.    Der Mittelwert von 6
+                                          6              7                  8                9
+       und 10 ist
+
+ 7.    Theo ist 7 Jahre,
+       Max 14 Jahre und
+       Kai 18 Jahre alt.              7 Jahre         11 Jahre         13 Jahre          39 Jahre
+       Die Spannweite
+       beträgt
+
+
+                                                                                                              21
+Beispiele für zentrale schriftliche Prüfungsaufgaben        Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                                         A          B             C            D        Lösung
+
+ 8.    Die Schuhgrößen der Familie
+       Alaj sind 27, 32, 39 und 42.                    29         35          35,5           37
+       Der Zentralwert beträgt.
+
+ 9.    Die Wahrscheinlichkeit dafür,
+       aus einem Kartenspiel mit
+                                                       4%        8%         12,5 %         32 %
+       32 Karten einen der vier Buben
+       zu ziehen, beträgt
+
+ 10. Die Wahrscheinlichkeit dafür,
+     von 4 Streichhölzern das kurze
+     Streichholz zu ziehen, beträgt
+                                                       1%        4%          25 %          40 %
+
+
+
+
+ 11. Die Wahrscheinlichkeit dafür,                     1          2             3            4
+     mit einem Spielwürfel eine ge-
+                                                       6          6             6            6
+     rade Zahl zu würfeln, beträgt
+
+ 12. Beim 1. Wurf mit einem nor-
+     malen Spielwürfel fällt eine
+                                                       1          2             5             1
+     „3“. Die Wahrscheinlichkeit,
+                                                       6          6             6            36
+     beim 2. Wurf eine „3“ zu wür-
+     feln, beträgt
+
+ 13. Die Wahrscheinlichkeit dafür,
+     aus den Zahlen von 1 bis 49                       3         5             9             12
+     eine Zahl zu ziehen, die durch                    49        49            49            49
+     5 teilbar ist, beträgt
+
+ 14. Die Wahrscheinlichkeit dafür,                     4          1             6            5
+     mit einem normalen Spielwür-
+                                                       1          4             5            6
+     fel keine 4 zu würfeln, beträgt
+
+ 15. In einem Säckchen liegen
+     15 Buchstaben des Wortes
+     ABSCHLUSSARBEIT. Welcher                           B         A             S            T
+     Buchstabe wird mit der Wahr-
+       scheinlichkeit 1 gezogen?
+                         5
+
+                                                                                          kann       muss ich
+ KOMPETENZEN:
+                                                                                           ich        üben
+ Ich kann …
+
+ … Tabellen und Diagramme lesen und erstellen (Nr. 1, 3).
+
+ … absolute und relative Häufigkeiten berechnen (Nr. 2, 4, 5).
+
+ … Zentralwert, Mittelwert und Spannweite bestimmen (Nr. 3, 6, 7, 8).
+ … Wahrscheinlichkeiten bei einfachen Zufallsexperimenten berechnen
+   und als Bruch, Dezimalzahl und in Prozent angeben
+   (Nr. 9, 10, 11, 12, 13, 14, 15).
+
+
+22
+Beispiele für zentrale schriftliche Prüfungsaufgaben     Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+4.2 Aufgaben zur Überprüfung der Kompetenzen - leitideenübergreifend
+
+Von den jeweils angebotenen Lösungen ist immer genau eine richtig.
+Schreibe den zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“.
+Eine Begründung wird nicht verlangt.
+
+Erstes Beispiel                                                                                   (25 P)
+
+         Aufgabe                              A           B               C               D         Lösung
+
+ 1.      1,20 m sind                       1,2 cm       12 cm         120 cm         1 200 cm
+
+ 2.       1
+            =                              15 %         25 %           35 %             45 %
+          4
+
+ 3.      Heute ist der 5. Mai.
+         In genau vier Wo-                30. Mai      31. Mai        02. Juni        04.Juni
+         chen ist der
+
+ 4.       80 − 26 − 4 =                      70          60              54              50
+
+ 5.       −78 : 10 =                         78          7,8            −7,8             −78
+
+ 6.       (8 − 2) ⋅ 2 =                      12          10               8               6
+
+ 7.           1
+          5     Stunden sind             550 min       440 min        330 min         220 min
+              2
+
+ 8.      Ein Quadrat hat ei-
+         nen Flächeninhalt
+         von 36 m2 . Wie lang             a=4m         a=6m           a=9m            a = 12 m
+         ist die Seite a des
+         Quadrats?
+
+ 9.       5 3                                 8          24              35              15
+           ⋅ =
+          8 7                                15          35              24              56
+
+ 10.                                     Parallelo-
+                                                       Rechteck       Drachen         Viereck
+         Dies ist kein                    gramm
+
+ 11.      0,5a + 1,5 = 3,5
+         Wie heißt die Lösung              a=1           a=2           a=3              a=4
+         für a?
+
+ 12.     Eine Tonne
+                                           10 kg       100 kg        1 000 kg        10 000 kg
+         entspricht
+
+ 13.
+                              c
+           a=3m
+
+                          b=4m            c=4m         c=5m           c=6m            c=7m
+
+         Wie lang ist
+         die Seite c?
+
+
+                                                                                                           23
+Erster allgemeinbildender Schulabschluss Mathematik         Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+         Aufgabe                           A             B                 C                 D          Lösung
+
+ 14.     Wie viel wiegt eine
+         Getränkedose mit
+                                         33 g          300 g             350 g            900 g
+         330 ml Inhalt unge-
+         fähr?
+
+ 15.     In einem Säckchen
+         befinden sich eine
+         gelbe und drei rote
+         Kugeln.
+         Es wird eine gelbe
+         Kugel gezogen und                              1                  1
+                                           0                                                 1
+         nicht wieder zurück-                           4                  3
+         gelegt. Die Wahr-
+         scheinlichkeit dafür,
+         beim nächsten Zie-
+         hen eine rote Kugel
+         zu ziehen, beträgt
+
+ 16.     3x + 3 = x + 5
+                                         x =1          x=2               x =5             x=6
+         Berechne x.
+
+ 17.     Ein Kreis hat einen
+         Radius von 2 m.
+         Die Größe des Flä-              3 m2          6 m2            12,5 m2            25 m2
+         cheninhalts des Krei-
+         ses beträgt etwa
+
+ 18.     Die Wahrscheinlich-
+         keit dafür, aus den
+         Zahlen von 1 bis 49              3             5                  9                12
+         eine Zahl zu ziehen,             49            49                 49               49
+         die durch 9 teilbar
+         ist, beträgt
+
+ 19.     Das Volumen eines
+         Würfels beträgt
+         0,125 cm3 . Dann ist           0,5 cm        0,12 cm          0,05 cm          0,02 cm
+         die Länge der
+         Kante a des Würfels
+
+ 20.
+
+
+
+         Der abgebildete Kör-
+         per sieht in der Sei-
+         tenansicht von
+         rechts so aus:
+
+ 21.     6 ist die Lösung von         2⋅ 2+2          3⋅ 2 +7         3⋅ 9 +7           2⋅ 6 +3
+
+24
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+         Aufgabe                              A              B              C               D          Lösung
+
+ 22.     Die Funktion mit der
+                                                                            3               4
+         Gleichung y = 3x + 4                 3              4
+                                                                            4               3
+         hat die Steigung
+
+ 23.
+
+                                               π ⋅ r2        π ⋅ r2         π ⋅ r2           π ⋅ r2
+                                         A=             A=             A=              A=
+         Für den Flächen-in-                      2              4              6               8
+         halt des schwarzen
+         Kreisausschnittes gilt
+
+ 24.     Von 400 Äpfeln sind
+                                            5%            10 %           20 %             40 %
+         20 verfault. Das sind
+
+ 25.     Mit 2a + 2b berech-
+         net man den Umfang              Quaders        Rechtecks      Dreiecks         Kreises
+         eines
+
+
+
+
+Zweites Beispiel                                                                                      (25 P)
+
+
+                Aufgabe                      A             B               C               D           Lösung
+
+ 1.    −100 + 98 =                          198            2              −2             −198
+
+ 2.    320 ⋅ 20 =                           64            640           6 400           64 000
+
+ 3.    3 ⋅ (4 − 8) ⋅ 0 =                   −12             0              12               36
+
+ 4.     1 3                                  1              4              3
+         + =                                                                              0,4
+        8 8                                  2             16             64
+
+ 5.    70 ⋅ (−300) =                     −21 000        −2 000          2 100           21 100
+
+ 6.    1,1 ist kleiner als                   1           1,011           1,01            1,11
+
+ 7.    1:2=                                  3             2               1              0,5
+
+ 8.    Der Temperaturunter-
+       schied zwischen –5° C               2° C          12° C          14° C            15° C
+       und 7° C beträgt
+
+
+
+
+                                                                                                               25
+Erster allgemeinbildender Schulabschluss Mathematik           Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+               Aufgabe                    A               B                  C                D          Lösung
+
+ 9.    Die Wahrscheinlichkeit
+       dafür, von 4 Streich-
+       hölzern nicht das
+       kurze Streichholz zu
+       ziehen, beträgt                   4%             20 %              25 %             75 %
+
+
+
+
+10.    Abfahrt eines Busses
+       in Hamburg 8:50 Uhr,
+       Ankunft in Berlin             3 h 20 min       3 h 40 min       4 h 20 min       4 h 40 min
+       12:10 Uhr. Der Bus
+       fährt
+
+11.    Ergänze:
+                                          18             19                 68               72
+       24 ⋅ 3 = 4 ⋅ ___
+
+12.    1 000 000 : 1 000 =               100            1 000            10 000           100 000
+
+13.    24 =                               4               8                 16               24
+
+14.    Bei einem Dreieck mit
+       α = 60° und γ = 50° ist           90°             70°               40°               10°
+       β =
+
+15.    Ein Rechteck mit den
+       Seitenlängen
+       a = 2,5 cm und                 123 cm3          90 cm2             17 cm           15 cm2
+       b = 6 cm hat den
+       Flächeninhalt
+
+16.    Eine Jeans kostete
+       120 €. Der Preis wird
+                                        12 €            98 €              108 €            112 €
+       um 10 % reduziert.
+       Die Jeans kostet jetzt
+
+17.    4 von 400 Sportlern
+       bekommen eine Me-                 1%              4%               10 %             40 %
+       daille. Das sind
+
+
+
+
+26
+Beispiele für zentrale schriftliche Prüfungsaufgaben        Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                Aufgabe                      A              B               C               D         Lösung
+
+18.    Welcher Prozentteil
+       des Kreises ist einge-
+       färbt?
+
+                                           8%             10 %          12,5 %            16 %
+
+
+
+
+19.    2 Schüler putzen bei
+       gleichbleibender Leis-
+       tung ihren Klassen-                 45            22,5             10               5
+       raum in 15 Minuten.               Minuten        Minuten         Minuten         Minuten
+       Ein dritter Schüler hilft
+       mit. Sie brauchen nun
+
+20.
+                                                        Ein zylin-                     Ein zylin-
+                                       Eine Kugel-      derförmi-                      derförmi-
+                                                                       Ein Flug-
+                                        vase wird       ges Glas                        ges Glas
+                                                                       zeug lan-
+                                       mit Wasser      wird mit Li-                    mit Limo-
+       Entscheide, welcher                                                det.
+                                         gefüllt.        monade                        nade wird
+       Füllgraph hier skizziert
+                                                         gefüllt.                       geleert.
+       wird:
+
+21.     4 ⋅ (2 x + 3 ) =                  8x + 3        8x + 12         2x + 12          8x + 7
+
+
+22.    Ein Motoradfahrer
+       fährt mit einer Ge-
+       schwindigkeit von
+       durchschnittlich
+       65 km/h eine Strecke            3 Stunden       4 Stunden       5 Stunden       6 Stunden
+       von 270 km.
+
+       Er benötigt ungefähr
+
+23.     π ist dasselbe wie                   4            d:U              3,6            U:d
+
+24.    4x – 10 = −2                        x=3            x=2            x = −2          x = −3
+
+25.    Ein Läufer liegt auf
+       Platz 3 und überholt
+       den Läufer auf Platz 2.               4              3               2               1
+       Auf welchem Platz
+       liegt er danach?
+
+
+
+
+                                                                                                             27
+Erster allgemeinbildender Schulabschluss Mathematik            Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Drittes Beispiel                                                                                        (25 P)
+
+     Aufgabe                              A                B                  C                D          Lösung
+
+1.   3 dm =                           30 mm             30 cm              30 m             30 km
+
+2.   Dieses Rechteck hat ei-
+     nen Flächeninhalt von
+
+                                       12 cm           12 cm2              14 cm           14 cm2
+
+
+
+
+3.   Wie viele Flächen hat
+                                          3                4                  5                6
+     ein Dreiecksprisma?
+
+4.   Dieser Winkel ist ein
+                                      rechter           spitzer          stumpfer          gerader
+                                      Winkel            Winkel            Winkel           Winkel
+
+
+
+5.   Der Pfeil zeigt auf
+                                         0,2              0,3                0,5              0,7
+
+
+
+6.   Die Lösung der Glei-
+     chung                             x = −1            x=0                x =1             x =2
+     20 = 10 x + 10 ist
+
+7.   Der Mittelwert aus die-
+     sen Daten
+
+
+                                    20 + 30 + 10      20 + 30 + 10
+                                                                           30 : 2           30 : 3
+                                         3                 2
+
+
+
+     kann berechnet werden
+     mit
+
+8.   Gestern zeigte das
+     Thermometer –5°C an,
+                                        4°C               5°C               6°C               7°C
+     heute zeigt es 1°C. Das
+     ist ein Unterschied von
+
+9.   3 Kugeln Eis kosten
+     3,60 €. Dann kosten               1,20 €           5,60 €             6,00 €           7,20 €
+     5 Kugeln
+
+10. Ein Würfel ist auch ein           Viereck          Rechteck           Quadrat           Quader
+
+
+28
+Beispiele für zentrale schriftliche Prüfungsaufgaben        Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+    Aufgabe                                  A              B               C               D          Lösung
+
+11. 4 000 : 200 =                           20             40              200             400
+
+12. Der Punkt A hat die Ko-
+    ordinaten
+
+
+
+                                          (4 | 3)         (3 | 2)         (3 | 4)         (3 | 5)
+
+
+
+
+13. 1 1                                     1               1               3
+     + =                                                                                     1
+    2 4                                     4               2               4
+
+14. Eine Aufteilung in
+    50 %, 30 %, 20 %
+    passt zu folgendem Di-
+    agramm
+
+
+15. Mehmets altes Handy
+    kostete 150 €. Das
+                                          135 €           140 €           160 €           165 €
+    neue Handy ist 10 %
+    teurer. Es kostet also
+
+16. Folgendes Ereignis hat
+    eine Wahrscheinlichkeit            mit einem
+                                                        ein Lego-
+    von 50 %                           normalen
+                                                       stein landet                     2 von 5
+                                      Spielwürfel                      das kurze
+                                                        auf einer                      Kugeln zie-
+                                      eine gerade                          von
+                                                       der großen                         hen
+                                        Zahl zu                        4 Streich-
+                                                         Flächen
+                                         werfen                         hölzern
+                                                                         ziehen
+
+17. Für dieses Dreieck gilt
+
+
+                                       c = 52 cm       c 2 = 52 cm2    c = 10 cm       c 2 = 10 cm2
+
+
+
+
+18. Eine Raute ist auch ein             Parallelo-
+                                                          Kreis         Oktaeder         Fünfeck
+                                         gramm
+
+19. Es gilt x = y ⋅ z
+                                            1               1
+    Wenn x = 18 und                                                         3              108
+                                            4               3
+    z = 6 ist, dann ist y =
+
+
+
+
+                                                                                                             29
+Erster allgemeinbildender Schulabschluss Mathematik          Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+     Aufgabe                              A              B                  C                D          Lösung
+
+20. Zu der linearen Funk-
+    tion mit der Funktions-
+    gleichung y = 2x + 3
+     passt folgender Graph:
+
+
+21. Ein Würfel hat einen
+    Oberflächeninhalt von
+                                        2 cm           4 cm               6 cm            12 cm
+    24 cm2 . Die Kanten-
+    länge beträgt
+
+22. Die Summe der Innen-
+    winkel in einem Trapez              90°            180°               270°             360°
+    beträgt
+
+23. In einem Säckchen be-
+    finden sich Kugeln mit
+    den Buchstaben
+    M-A-T-H-E-M-A-T-I-K.                  2              1                  1                2
+    Eine Kugel wird zufällig             10             10                  8                8
+    gezogen. Die Wahr-
+    scheinlichkeit dafür, ein
+    A zu ziehen, beträgt
+
+24. Der Graph passt zu fol-
+    gender Funktionsglei-
+    chung
+
+
+                                       y =5           y = x +5         y = x −5         y = 5x
+
+
+
+
+25. Minh ist 3 Jahre älter
+    als Alexej. In 5 Jahren
+    wird Minh doppelt so alt
+                                     10 Jahre         12 Jahre         13 Jahre          15 Jahre
+    sein wie Alexej vor
+    2 Jahren. Wie alt ist
+    Alexej jetzt?
+
+
+
+
+30
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Viertes Beispiel                                                                                    (25 P)
+
+     Aufgabe                                A             B                C               D          Lösung
+
+1.   2 m=                                20 cm          200 cm        2 000 cm        20 000 cm
+
+2.   −500 − 20 =                         −520            −480            480              520
+
+3.   Das Dreieck hat einen
+     Flächeninhalt von
+
+                                         6 cm2         7,5 cm2         12 cm2          20 cm2
+
+
+
+
+4.   Es ist 12:20 Uhr.
+     40 min früher war es              11:40 Uhr       11:50 Uhr     12:50 Uhr        13:00 Uhr
+
+
+5.   In einem Säckchen sind
+     8 Kugeln mit den Zah-
+     len 1 bis 8. Die Wahr-                 1             1                1               1
+     scheinlichkeit, die Kugel              8             6                4               3
+     mit der 1 oder 8 zu zie-
+     hen, beträgt
+
+6.   3 1                                    1             1                1               2
+      − =
+     4 2                                    8             4                2               2
+
+7.   Gestern zeigte das
+     Thermometer − 15 °C
+                                           9°C           11°C            17°C            19°C
+     an, heute −4°C . Das ist
+     ein Unterschied von
+
+8.   Ein Volumen kann an-               Kubik-         Quadrat-                          Dezi-
+     gegeben werden in                                                 Metern
+                                        metern          metern                          metern
+
+9.   Die Lösung der Glei-
+     chung 2 x + 7 = 15 ist              x = −5         x = −4          x=4              x =5
+
+
+10. Welche Abbildung zeigt
+    einen spitzen Winkel?
+
+
+
+
+11. Folgender Körper ist
+    ein(e):
+                                      Kreisbogen         Kegel           Kreis        Halbkugel
+
+
+
+
+                                                                                                             31
+Erster allgemeinbildender Schulabschluss Mathematik            Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+      Aufgabe                             A                B                  C                D          Lösung
+
+12.   ( −60 ) ⋅ ( −3) =                −180              − 63                57               180
+
+13. 5 kg Bananen kosten
+    7,50 €. Dann kosten                1,50 €           3,00 €            4,50 €            5,00 €
+    3 kg
+
+14. Welche Zahl ist die
+    größte?                           − 4, 058         − 4, 018           − 4, 015         − 4, 085
+
+
+15. Ein Auto soll 6 200 €
+    kosten. Der Käufer be-
+                                      5 580 €          5 890 €            6 138 €          6 169 €
+    kommt 5 % Rabatt. Es
+    kostet nun
+
+16. In einem Sack befinden
+    sich 12 Kugeln: 3 rote                                              eine rote
+                                     eine rote        eine blaue                             keine
+    und 9 blaue. Welches                                                oder eine
+                                     Kugel zu          Kugel zu                           Lösung ist
+    Ereignis hat eine Wahr-                                            blaue Kugel
+                                      ziehen            ziehen                              richtig
+    scheinlichkeit von                                                  zu ziehen
+    25 %?
+
+17. Den Umfang eines
+    gleichschenkligen
+                                                       (a + c )          a+b+c
+    Trapezes berechnet                a+b+c                       ⋅h                      a + 2b + c
+                                                          2                2
+    man mit folgendem
+    Term
+
+18. Zur Funktionsgleichung
+    y = 3 ⋅ x passt
+      folgender Graph
+
+
+
+19.    9 ⋅ 16 =
+                                          48               36                12               144
+
+
+20. Es wird mit einem nor-
+    malen Spielwürfel eine
+    6 gewürfelt. Die Wahr-                1                1                                   3
+                                                                              1
+    scheinlichkeit dafür,
+                                          6                5                  2                5
+    beim nächsten Wurf
+    wieder eine 6 zu wer-
+    fen, beträgt
+
+21. Auf der Geraden mit
+    der Funktionsgleichung
+                                      P (1 | 8)       P (2 | 10)          P (4 | 7)         P (8 | 1)
+    y = 3x + 5 befindet
+      sich folgender Punkt
+
+
+
+
+32
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+     Aufgabe                                A              B               C               D          Lösung
+
+22. Es gilt: z = a + b .
+    Wenn z = 15 und                       − 33            −5              −3                3
+    b = 18 ist, dann ist a =
+
+23. Wie lang ist die Diago-
+    nale des folgenden
+    Rechtecks?
+
+                                          11 cm          61 cm          11 cm            61 cm
+
+
+
+
+24. Ein Quader hat ein Vo-             a = 20 cm       a = 2 cm       a = 20 cm       a = 20 cm
+    lumen von 600 cm3 .
+                                       b = 1 dm        b = 10 cm      b = 10 cm       b = 10 dm
+    Dazu passen die Seiten-
+                                       c = 3 cm        c = 3 cm       c =3 m          c = 3 cm
+    längen
+
+25. Der Flächeninhalt eines
+    Kreises wird berechnet
+    mit: A = π ⋅ r 2 .
+                                         halb so       doppelt so      4 mal so        8 mal so
+     Der Radius eines Krei-               groß           groß            groß            groß
+     ses wird verdoppelt.
+     Der Flächeninhalt ist
+     dann
+
+
+
+
+Fünftes Beispiel                                                                                     (25 P)
+
+      Aufgabe                                A             B               C                D         Lösung
+
+1.    435 – 167 – 8 =                      245            260             270             276
+
+2.    1,2 ⋅ 1,2 =                          1,20           1,22            1,44            2,40
+
+3.    1
+        km =                              40 m           250 m           400 m          4 000 m
+      4
+
+4.    50 kg =                             500 g         5 000 g         0,500 t         0,050 t
+
+5.    Die Winkelsumme ei-
+                                           90°           180°            360°             400°
+      nes Rechtecks beträgt
+
+6.    0,027 km =                        2 700 m          270 m           27 m            2,7 m
+
+7.    x 2 = 361. Dann ist                x = 17          x = 18         x = 19           x = 23
+
+
+
+                                                                                                            33
+Erster allgemeinbildender Schulabschluss Mathematik            Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+      Aufgabe                             A                B                  C                 D          Lösung
+
+8.    400 000 : 80 =                   2 000             5 000             50 000          320 000
+
+9.    120 ⋅ 0,2 =                        24               60                 120              240
+
+10.   Eine Höhe im Dreieck                            verläuft im-
+                                    steht senk-                         verläuft pa-
+                                                       mer durch                          ist der Ab-
+                                     recht auf                           rallel zur
+                                                      den Mittel-                         stand zwi-
+                                    der zu-ge-                           zugehöri-
+                                                       punkt der                          schen zwei
+                                      hörigen                           gen Grund-
+                                                       Dreiecks-                            Punkten
+                                    Grundseite                              seite
+                                                          seite
+
+11.   8 gleiche Steine wie-
+      gen 40 kg. Dann wie-
+                                       10 kg             50 kg             80 kg            100 kg
+      gen 10 Steine der glei-
+      chen Sorte
+
+12.   Ein rechteckiges Zim-
+      mer ist 1,96 m breit
+      und 4,57 m lang. Die
+                                        6 m2             7 m2               9 m2             11 m2
+      Größe des Flächenin-
+      halts des Bodes be-
+      trägt ungefähr
+
+13.   2 Pumpen benötigen
+      3 Stunden, um einen
+                                         6                3                 1,5                1
+      Teich leer zu pumpen.
+                                      Stunden          Stunden            Stunden           Stunde
+      Eine Pumpe allein be-
+      nötigt
+
+14.   9 ⋅ 14 =                        44 + 58          112 + 41           97 + 65          76 + 50
+
+15.   2
+        von 80 kg sind                 16 kg            22,5 kg            32 kg             40 kg
+      5
+
+16.   Die Gleichung
+      2,5x – 8 = 12                    x=4               x=6                x=7              x=8
+      hat die Lösung
+
+17.   Dies ist
+
+                                     das Netz          das Netz          das Netz
+                                    eines Wür-          eines           eines Qua-        kein Netz.
+                                       fels.          Rechtecks.           ders.
+
+
+
+
+18.   Die Summe der Innen-
+      winkel in einem Vier-             180°             360°               540°              720°
+      eck beträgt
+
+
+34
+Beispiele für zentrale schriftliche Prüfungsaufgaben        Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+      Aufgabe                                A              B               C                D         Lösung
+
+19.   Aus einer gefüllten Ba-
+      dewanne wird Wasser
+      abgelassen. Welcher
+      Graph passt?
+
+      x entspricht der Zeit;
+      y entspricht der Füll-
+      höhe.
+
+20.   Welche Aussage ist                  Jeder           Jeder           Jeder           Jedes
+      falsch?                          Quader ist       Würfel ist     Quader ist      Quadrat ist
+                                       ein Würfel.     ein Quader.     ein Prisma.     eine Raute.
+
+21.   Eine Bakterienart
+      verdoppelt sich alle
+      6 Stunden.                          40               80             160             320
+      20 Bakterien vermeh-             Bakterien        Bakterien       Bakterien       Bakterien
+      ren sich innerhalb ei-
+      nes Tages auf
+
+22.   Das Volumen eines
+      Quaders wird vervier-                                                            Länge und
+                                        Breite            Höhe           Länge
+      facht. Welche Ände-                                                                Breite
+                                      verdoppeln       verdoppeln      verdoppeln
+      rung führt sicher zu                                                             verdoppeln
+      dem Ergebnis?
+
+23.   Die beiden Diagonalen                             schneiden                          Sind
+                                                                           sind
+      eines Quadrates                  schneiden        sich in ei-                     senkrecht
+                                                                       parallel zu-
+                                       sich nicht.     nem Winkel                        zueinan-
+                                                                        einander.
+                                                        von 180°.                          der.
+
+24.   Ein Auto kostet
+      24 000 €. Die zum
+      Preis hinzukommende                2 000 €         4 500 €         7 000 €         9 500 €
+      Mehrwertsteuer von
+      19 % beträgt ungefähr
+
+25.   Welches der Dreiecke              a = 2 cm         α = 30°         α = 40°        a = 3 cm
+      ist rechtwinklig?                 b = 4 cm        β = 70°          β = 70°        b = 4 cm
+                                        c = 6 cm         γ = 80°        c = 6 cm        c = 5 cm
+
+
+
+
+                                                                                                             35
+Erster allgemeinbildender Schulabschluss Mathematik            Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Sechstes Beispiel                                                                                       (25 P)
+
+
+      Aufgabe                             A                B                  C                 D          Lösung
+
+1.    Zum Volumen eines
+      Körpers passt die Maß-              m               m2                  m3               m4
+      einheit
+
+2.    7, 2 ⋅ 10 ⋅ 10 000 = =            720             7 200              72 000          720 000
+
+3.    Der Satz des                                     ist folgen-
+                                                                          kann bei
+      Pythagoras                                           der:
+                                                                           jedem
+                                                       Katheten-
+                                     gilt nur im                        rechtwink-         gilt auch
+                                                       quadrat =
+                                    gleichseiti-                        ligen Drei-        für einen
+                                                      Hypotenu-
+                                    gen Dreieck                          eck ange-           Kreis
+                                                      senquadrat
+                                                                        wandt wer-
+                                                        + Kathe-
+                                                                            den
+                                                      tenquadrat
+
+4.    12 : 1,2 =                        100               10                  1                0,1
+
+5.    Gib den Bruchteil des
+      Rechtecks an, der grau
+      gefärbt ist.
+                                          1                8                  4                 6
+                                          4                2                  1                 8
+
+
+
+
+6.    Dieses Rechteck hat
+      einen Umfang von
+
+                                       12 cm           12 cm2              14 cm            14 cm2
+
+
+
+
+7.    (64 − 4 ⋅ 15) : 4 =                 0                1                  2                19
+
+8.    43 =                               81               64                  16               12
+
+9.    Gib die Wahrschein-
+      lichkeit an, mit einem              1                6
+                                                                              6              20 %
+      normalen Spielwürfel                6                1
+      eine 6 zu würfeln.
+
+10.   1
+        =                               5%               15 %               20 %             25 %
+      5
+
+
+
+
+36
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+      Aufgabe                                A              B               C               D         Lösung
+
+11.    3
+         von 1 l sind                   750 cm3         700 cm3        650 cm3         600 cm3
+       4
+
+12.       1
+      3     Stunden sind                182 min         200 min         210 min         220 min
+          2
+
+13.   Wer 1 000 Monate alt             100 Jahre                       70 Jahre         60 Jahre
+                                                       80 Jahre alt
+      ist, ist etwa                       alt                             alt              alt
+
+14.   Auf einem Sparkonto
+      sind 484 €. Wie oft
+      kann man 160 € abhe-               einmal         zweimal         dreimal         viermal
+      ben und nicht ins Mi-
+      nus geraten?
+
+15.   Ein Pflasterstein misst
+      25 cm mal 50 cm. Für
+      einen Quadratmeter               20 Steine        16 Steine      10 Steine        8 Steine
+      Pflasterung braucht
+      man
+
+16.   An einem Langlauf
+      nehmen 900 Menschen
+      teil. 15 % erreichen
+                                           150             500            765             850
+      das Ziel nicht. Wie
+      viele Personen kom-
+      men ins Ziel?
+
+17.   „Sonderangebot: 40 %
+      Rabatt auf Hosen zu je
+                                           50 €           52 €            54 €            60 €
+      90 €“.
+      Eine Hose kostet jetzt
+
+18.   Ein gleichschenklig-                                               drei
+                                          eine
+      rechtwinkliges Dreieck                              zwei          gleich           zwei
+                                       6 cm lange
+      hat immer                                        30°-Winkel     lange Sei-      45°-Winkel
+                                       Grundseite
+                                                                         ten
+
+19.   Ein Rechteck hat die             Die Diago-                                        Jede
+                                                                      Die Diago-
+      Längen a = 3 cm und              nalen ste-      Die Diago-                     Diagonale
+                                                                      nalen sind
+      b = 4 cm. Welche Ei-             hen senk-        nalen hal-                     halbiert
+                                                                        jeweils
+      genschaft trifft nicht          recht aufei-     bieren sich.                   das Recht-
+                                                                      5 cm lang.
+      zu?                               nander.                                          eck.
+
+
+
+
+                                                                                                            37
+Erster allgemeinbildender Schulabschluss Mathematik           Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+
+      Aufgabe                             A               B                  C                 D          Lösung
+
+20.
+
+
+
+                                        48°              96°               144°              156°
+      Die Größe des Winkels
+      α beträgt 84°. Gib die
+      Größe von β an.
+
+21.   In einem Säckchen lie-
+      gen 9 Kugeln mit den
+      Zahlen 1 bis 9. Die
+                                          1               2                  4                 7
+      Wahrscheinlichkeit,
+                                          2               9                  9                 9
+      beim einmaligen Zie-
+      hen eine gerade Zahl
+      zu erhalten, beträgt
+
+22.   Wie viele unterschied-
+      liche dreistellige Zah-
+      len können mit drei                10               8                  6                 2
+      verschiedenen Ziffern
+      gebildet werden?
+
+23.
+
+
+                                       65 %             70 %               75 %             80 %
+      Die schwarz gefärbte
+      Fläche hat einen Anteil
+      von
+
+24.   100 Autos werden
+      kontrolliert. Jedes
+                                        5%              20 %               25 %             50 %
+      zwanzigste Auto hat
+      einen Mangel. Das sind
+
+25.   Denke dir eine Zahl a
+      aus, addiere 3, multi-
+                                                       das Dop-         die Hälfte       die Zahl a
+      pliziere mit 2 und sub-        die Zahl a
+                                                      pelte von a       der Zahl a         plus 3
+      trahiere 6. Das Ergeb-
+      nis ist
+
+
+
+
+38
+Beispiele für zentrale schriftliche Prüfungsaufgaben         Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+5. Aufgaben zu den Leitideen mit Einsatz des Taschenrechners
+
+Der Teil II der schriftlichen ESA-Prüfung umfasst kürzere Aufgaben zu allen
+Leitideen, die mit dem Taschenrechner und zugelassener Formelsammlung zu bear-
+beiten sind.
+
+5.1 Aufgaben zur Leitidee Zahl und zur Leitidee Messen
+
+Leitidee Zahl und Leitidee Messen
+
+Aufgabe 1:
+
+Es gibt in Deutschland 10 340 000 Jugendliche im Alter von 13 bis 24 Jahren.
+12 % dieser Jugendlichen haben Schulden, durchschnittlich 1 800 €.
+
+
+● Bestätige durch Rechnung, dass in Deutschland ungefähr 1 240 800
+ Jugendliche Schulden haben.
+
+
+● Berechne die Gesamtsumme der Schulden aller Jugendlichen im Alter
+ von 13 bis 24 Jahren.
+
+
+● Gib das Ergebnis gerundet auf Milliarden an.                                                        (5 P)
+
+
+
+
+Aufgabe 2:
+
+   Petra muss einen Kredit über 2 200 € aufnehmen. Sie bekommt 3 Angebote
+   (siehe Tabelle 1).
+
+
+
+               Angebot A                           Angebot B                          Angebot C
+         Zinssatz 5 % im Jahr                Zinssatz 6 % im Jahr                12 Raten zu 195 €
+      25 € Bearbeitungsgebühr                     keine Gebühr                      keine Gebühr
+
+                                                       Tabelle 1
+
+     ● Vergleiche jeweils die Gesamtkosten für ein Jahr.
+
+
+     ● Gib das günstigste Angebot an.                                                                 (5 P)
+
+
+
+Aufgabe 3:
+
+Asya hat 2 200 € Schulden. Can hat 1 000 € Schulden.
+Zusammen mit Henri haben sie durchschnittlich 1 700 € Schulden.
+
+
+Bestimme rechnerisch Henris Schulden.                                                                 (4 P)
+
+
+
+
+                                                                                                              39
+Erster allgemeinbildender Schulabschluss Mathematik      Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Zahl und Leitidee Messen
+
+Aufgabe 4:
+
+Eine Person verbraucht an einem Tag durchschnittlich folgende Wassermengen
+(siehe Abbildung 1):
+
+
+
+
+                                                                                               © M. Waygood
+                                                Abbildung 1
+
+
+Die vierköpfige Familie Kaya benötigt für die Toilettenspülung täglich 98 Liter Wasser.
+Berechne, um wie viel Prozent sie damit unter dem durchschnittlichen Verbrauch liegt.
+
+                                                                                                   (4 P)
+
+Aufgabe 5:
+
+Im Jahr 2016 verbrauchte Familie Kaya 182 m3 Wasser. Sie bezahlte dafür 820,82 €.
+
+
+● Berechne die Kosten für 1 m3 Wasser.
+
+
+● Bestimme rechnerisch den Preis für einen Liter Wasser.
+                                                                                                   (4 P)
+
+Aufgabe 6:
+
+Im Juli fallen pro Quadratmeter durchschnittlich 82 mm Niederschlag (siehe Abbildung 2).
+
+
+
+
+                                         Abbildung 2
+
+Ermittle die Niederschlagsmenge in Litern.                                                         (4 P)
+
+
+
+
+40
+Beispiele für zentrale schriftliche Prüfungsaufgaben          Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Zahl und Leitidee Messen
+
+Aufgabe 7:
+
+Der Speicher eines Smartphones ist bereits mit folgenden
+Datenmengen gefüllt (1 GB = 1 Gigabyte):
+
+Musik                   34 GB
+Fotos                   13 GB
+Video                    8 GB
+Programme                2 GB
+andere                   3 GB
+
+
+Die Speichernutzung wird auf dem Smartphone graphisch dargestellt.
+
+
+Zeichne das Säulendiagramm, das zu diesem Smartphone passt, in Abbildung 3.
+
+Speicherkapazität in GB
+             35
+
+             30
+
+             25
+
+             20
+
+             15
+
+             10
+
+               5
+
+               0
+                        Musik            Fotos             Video       Programme         andere
+
+                                                       Abbildung 3
+
+                                                                                                      (5 P)
+
+
+
+Aufgabe 8:
+
+34 GB Musik auf einem Telefon entsprechen 4 980 Musiktiteln.
+Hinweis: 1 GB = 1 024 MB (Megabyte)
+
+
+a) ● Bestimme die durchschnittliche Größe eines Musiktitels in MB.
+
+
+   ● Gib das Ergebnis gerundet an.                                                                      (4 P)
+
+
+b) Ermittle durch eine Abschätzung der Dauer eines Musiktitels die Abspieldauer
+   aller Musiktitel. Das Ergebnis ist in einer sinnvollen Maßeinheit anzugeben.
+                                                                                                        (4 P)
+
+
+                                                                                                                41
+Erster allgemeinbildender Schulabschluss Mathematik   Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Zahl und Leitidee Messen
+
+Aufgabe 9:
+
+Die 82,2 Millionen Einwohner Deutschlands essen jährlich rund 72 000 Tonnen
+Kartoffelchips.
+
+Berechne, wie viele Kilogramm Kartoffelchips jeder Einwohner im Durchschnitt
+im Jahr isst.                                                                                   (4 P)
+
+
+
+Aufgabe 10:
+In der Werbung erscheinen zwei Anzeigen:
+        200 Gramm Joe-Chips für 2,30 €
+        150 Gramm Fred-Chips für 1,99€
+
+
+Kaja meint, dass laut der Anzeigen die „Fred-Chips“ billiger sind als „Joe-Chips“.
+Timo behauptet das Gegenteil.
+
+
+Setze dich mit den Aussagen der beiden rechnerisch auseinander.                                (5 P)
+
+
+
+
+Aufgabe 11:
+Stapelchips werden in Dosen verkauft (siehe Abbildung 4).
+Die Dosen haben eine Höhe von 23 cm und einen Durch-
+messer von 7,5 cm.
+
+a) Berechne den Oberflächeninhalt der Dose.             (5 P)
+
+     Hinweis: Klebelaschen werden nicht berücksichtigt.
+
+
+b) Kaja benutzt eine der Dosen als eine Vase und gießt
+   0,5 Liter Wasser hinein.
+
+Zeige, dass die Dose damit in etwa zur Hälfte gefüllt ist.
+                                                      (4 P)
+
+
+
+                                                                              Abbildung 4
+                                                                       nicht maßstabsgerecht
+
+
+
+
+42
+Beispiele für zentrale schriftliche Prüfungsaufgaben   Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Zahl und Leitidee Messen
+
+Aufgabe 12:
+Die ringförmige U-Bahn-Strecke U3 hat eine Länge von 17,5 km.
+
+
+                              Streckenabschnitt                     Länge
+
+                      Rathaus – Barmbek                             6,6 km
+
+                      Barmbek – Kellinghusenstraße                  3,7 km
+
+                      Kellinghusenstraße – St. Pauli                4,7 km
+
+                      St. Pauli – Rathaus
+
+a) ● Berechne die fehlende Streckenlänge zwischen St. Pauli und Rathaus.
+   ● Gib dein Ergebnis auch in Metern an.                                                        (3 P)
+
+b) Die Strecke U3 hat 23 Haltestellen.
+   Berechne den durchschnittlichen Abstand zwischen zwei Haltestellen in Metern. (3 P)
+
+
+
+Aufgabe 13:
+Die neuesten Hamburger U-Bahn Fahrzeuge sind 39,60 m lang. Die Länge eines Modells des
+Fahrzeugs im Maßstab 1:87 beträgt 45 cm.
+Entscheide nach Rechnung, wie gut die Länge des Modells dem Maßstab entspricht. (4 P)
+Hinweis: Maßstab 1:87 bedeutet, dass ein Meter im Modell 87 Metern in der Wirklichkeit
+         entsprechen.
+
+
+Aufgabe 14:
+Der Fußboden der neuen Hamburger U-Bahn Fahrzeuge hat annähernd die Form eines
+Rechtecks. Er besitzt die Länge 38,90 m und die Breite 2,4 m.
+
+95 % des Fußbodens stehen für die Fahrgäste zur Verfügung. Im Zug sind 96 Sitzplätze und
+128 Stehplätze vorgesehen. Pro Sitzplatz sind 0,6 m2 eingeplant.
+
+Bestimme rechnerisch die Fläche, die für einen Stehplatz eingeplant ist.                        (5 P)
+
+
+
+Aufgabe 15:
+Der Taschenrechner gibt für die Kreiszahl π den Wert 3,141592654 aus.
+
+
+                           Runde auf …                   π≈
+
+                           … 4 Nachkommastellen
+
+                           … Hundertstel
+
+
+Gib in der Tabelle die gerundeten Werte von π an.                                                (2 P)
+
+
+
+                                                                                                         43
+Erster allgemeinbildender Schulabschluss Mathematik      Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Zahl und Leitidee Messen
+
+
+Aufgabe 16:
+Um einen Näherungswert für π mittels Messungen zu bestimmen, kann
+man eine der folgenden vier Gleichungen verwenden.
+
+● Wähle die richtige Gleichung durch Umranden aus.
+
+● Begründe deine Wahl.                                                                             (3 P)
+
+
+                                                  U
+                                            π=
+                                                  r
+
+
+
+                                                  r
+                                            π=
+                                                  U
+
+
+
+                                                 U
+                                           π=
+                                                 d
+
+
+
+                                                 d
+                                           π=
+                                                 U
+
+
+
+
+Aufgabe 17:
+Die Spezialität der Pizzeria „Alberto“ sind große, runde Pizzen:
+
+                              Durchmesser             Flächeninhalt
+
+ Party-Pizza                      2,4 m
+
+ Riesenpizza                        4m                 12,57 m2
+
+
+Hinweis: Benutze bei den folgenden Aufgaben immer die π -Taste deines Taschenrechners.
+
+
+Eine Kundin vermutet: „Der Flächeninhalt der Riesenpizza ist ungefähr dreimal so groß wie
+der Flächeninhalt der Party-Pizza.“
+
+
+● Berechne die Größe des Flächeninhalts der Party-Pizza.
+
+
+● Entscheide, ob die Kundin Recht hat.                                                             (5 P)
+
+
+
+
+44
+Beispiele für zentrale schriftliche Prüfungsaufgaben    Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Zahl und Leitidee Messen
+
+
+Aufgabe 18:
+
+Aus einem Viertel einer Riesenpizza (Radius: r = 2 m) wird ein quadratisches Stück
+herausgeschnitten (siehe Abbildung 5).
+
+
+
+
+                                                  Abbildung 5
+                                            nicht maßstabsgerecht
+
+
+Zeige, dass so ein quadratisches Stück 2 m2 groß ist.                                            (4 P)
+
+
+
+
+Aufgabe 19:
+
+Shila und Aron trainieren im Fitness-Studio.
+
+
+a)   Sie beginnen ihr Training um 15:47 Uhr und trainieren 1,5 Stunden lang.
+
+     Berechne die Uhrzeit, um die sie ihr Training beenden.                                       (2 P)
+
+
+
+b) Shila beginnt ihr Training mit Seilspringen.
+   In 2 Minuten schafft sie 180 Sprünge.
+
+     Berechne, wie viele Sprünge sie durchschnittlich pro Sekunde schafft.                        (3 P)
+
+
+c)   Aron beginnt sein Training ebenfalls mit Seilspringen.
+     Er erreicht 20 % mehr Sprünge als Shila.
+
+
+     Berechne die Anzahl von Arons Sprüngen nach 2 Minuten.                                       (3 P)
+
+
+
+
+                                                                                                          45
+Erster allgemeinbildender Schulabschluss Mathematik     Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Zahl und Leitidee Messen
+
+Aufgabe 20:
+Triathlon ist ein Wettkampf, der aus Schwimmen, Radfahren und Laufen besteht.
+Die Teilnehmerin Cessy benötigt für die 4 km lange Fahrradstrecke 15 Minuten.
+
+Ermittle rechnerisch ihre durchschnittliche Geschwindigkeit beim Radfahren in km/h
+(Kilometer pro Stunde).                                                                           (4 P)
+
+
+
+
+Aufgabe 21:
+Nach einem Wettkampf erhalten die besten Teilnehmer eine runde Medaille.
+
+
+
+a) Die Medaille beim Triathlon hat eine Dicke von 0,3 cm und ein Volumen von 15 cm3
+     (siehe Abbildung 6).
+
+
+     Zeige, dass die Medaille einen Durchmesser von etwa 8 cm hat.                                (6 P)
+
+
+
+
+                                                 Abbildung 6
+                                          nicht maßstabsgerecht
+
+
+
+
+b) An dem Rand der Medaille sind 5 Schmucksteine eingesetzt (siehe Abbildung 7).
+
+
+     Bestimme die Länge x des Kreisbogens zwischen 2 Schmucksteinen.                              (4 P)
+     (Hinweis: Die Größe der Schmucksteine wird vernachlässigt.)
+
+
+
+
+                                                 Abbildung 7
+                                          nicht maßstabsgerecht
+
+
+
+
+46
+Beispiele für zentrale schriftliche Prüfungsaufgaben        Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+5.2 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Aufgabe 1:
+
+
+a) In dieses Koordinatensystem
+   (siehe Abbildung 1) wurden
+   bereits vier Punkte eingezeichnet.
+
+    • Gib die Koordinaten von S und Z an.
+
+    • Nenne die Bezeichnung der
+      geometrischen Figur, die das
+      Viereck SZQP darstellt.                      (3 P)
+
+
+
+b) Zeichne die beiden Punkte
+     A ( 3,5 2 ) und B ( 7 4 ) in das
+    Koordinatensystem.                             (2 P)
+
+
+
+
+                                                                                     Abbildung 1
+
+Aufgabe 2:
+
+                                (     )        (       )
+a) Zeichne die Punkte A 1 2 und B 5 5 in das Koordinatensystem in Abbildung 2.
+                                                                                                      (2 P)
+
+
+
+
+                                              Abbildung 2
+
+
+b) Bestimme rechnerisch die Entfernung zwischen den Punkten A 1 2 und B 5 5 .    (       )      (     )
+   Hinweis: Nutze den Satz des Pythagoras.                                                            (4 P)
+
+
+                                                                                                              47
+Erster allgemeinbildender Schulabschluss Mathematik        Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Raum und Form und Leitidee Messen
+
+Aufgabe 3:
+Auf einer Ladefläche eines Umzugswagens sollen Umzugskartons transportiert werden.
+Die Maße der Ladefläche des Umzugswagons und eines Umzugskartons sind in Tabelle 1
+dargestellt.
+
+                                          Länge       Breite      Höhe
+
+ Laderaum des Umzugswagens                3,90 m      1,45 m    1,80 m
+
+ Maße eines Umzugskartons                 54 cm       35 cm      32 cm
+
+
+
+
+                                                                                                           © M. Waygood
+                                  Tabelle 1
+
+Die Kartons sollen im Umzugswagen nebeneinander                                          Abbildung 3
+auf der Ladefläche liegen und nicht übereinander gestapelt werden
+(siehe Abbildung 3).
+
+
+
+a) Gib die genaue mathematische Bezeichnung für die                                                   (1 P)
+   Form dieses Umzugskartons an (siehe Abbildung 3).
+
+b) Bestimme mit Hilfe der angegebenen Maße in der Tabelle 1 die                                       (6 P)
+   Anzahl der Umzugskartons, die auf der Ladefläche Platz finden.
+
+
+
+
+Aufgabe 4:
+
+
+                                           Länge       Breite     Höhe
+
+  Laderaum des Umzugswagens              3,90 m       1,45 m     1,80 m
+
+                                    Tabelle 2
+
+
+Auf einer Fahrt soll in dem Umzugswagen (siehe Abbildung 4)
+eine Holzplatte (2,55 m hoch; 2,20 m breit und 2 cm dick)                     1,80 m
+transportiert werden.
+
+Entscheide mit Hilfe einer Rechnung, ob die Holzplatte
+in den Laderaum des Umzugswagens passt.                (5 P)              .
+Hinweis: Benutze den Satz des Pythagoras
+                                                                                                 1,45 m
+
+
+                                                                                             Abbildung 4
+                                                                                       nicht maßstabsgerecht
+
+
+
+
+48
+Beispiele für zentrale schriftliche Prüfungsaufgaben          Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Raum und Form
+
+Aufgabe 5:
+
+
+
+
+                                                       Abbildung 5
+
+Gib die genaue mathematische Bezeichnung für die Körper der Gefäße an.                                  (4 P)
+
+           Form 1                 Form 2                    Form 3                  Form 4
+
+
+
+
+Aufgabe 6:
+Ein Gefäß in der Form eines Quaders ist 80 cm lang, 30 cm breit und 27 cm hoch.
+Es soll bis auf 1 cm unter dem Rand mit Blumenerde gefüllt werden.
+
+● Bestätige rechnerisch, dass 62 400 cm3 Blumenerde erforderlich sind.
+● Entscheide, ob hierfür ein 50-Liter-Sack Blumenerde ausreicht.                                        (6 P)
+
+
+
+Aufgabe 7:
+Tangram ist ein Spiel, bei dem aus sieben Teilen Figuren gelegt werden können.
+Alle Dreiecke sind rechtwinklig mit jeweils gleich langen Katheten (siehe Abbildung 6).
+
+
+
+
+                                                    Abbildung 6
+                                              nicht maßstabsgerecht
+
+Bestimme rechnerisch die Länge einer Kathete des Dreiecks g (siehe Abbildung 6) und
+runde auf eine Stelle hinter dem Komma.                                          (5 P)
+
+
+
+                                                                                                                49
+Erster allgemeinbildender Schulabschluss Mathematik       Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Raum und Form und Leitidee Messen
+
+Aufgabe 8:
+Tangram ist ein Spiel, bei dem aus sieben Teilen Figuren gelegt werden können.
+Alle Dreiecke sind rechtwinklig mit jeweils gleich langen Katheten (siehe Abbildung 7).
+
+
+
+
+                                            Abbildung 7
+                                      nicht maßstabsgerecht
+
+
+a) Gib durch Ankreuzen in Tabelle 3 jeweils an, ob die folgenden Aussagen zu den Dreiecken
+   in Abbildung 7 wahr oder falsch sind.                                          (4 P)
+
+                              Aussage                                            wahr            falsch
+
+       Alle Dreiecke haben zwei stumpfe Winkel.
+
+       Alle Dreiecke haben zwei spitze Winkel.
+
+       Alle Dreiecke sind gleichschenklig.
+
+       Alle Dreiecke sind gleichseitig.
+
+                                                  Tabelle 3
+
+
+
+b) Mit den kleinen Dreiecken a und b lassen sich andere Tangram-Teile legen.
+
+     Zeichne in die Abbildung 8 das kleine Dreieck b so hinzu, dass das Viereck d entsteht.
+                                                                                       (6 P)
+
+
+
+
+                                          Abbildung 8
+50                                  nicht maßstabsgerecht
+Beispiele für zentrale schriftliche Prüfungsaufgaben       Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Raum und Form und Leitidee Messen
+
+Aufgabe 9:
+Ein Pappkarton hat die folgenden Maße (siehe Abbildung 9):
+
+
+Es stehen zwei Netze zur Verfügung, mit denen der
+Pappkarton gefaltet werden soll.
+                                                                               Abbildung 9
+
+a) Begründe, dass die beiden hier abgebildeten Netze (siehe Abbildung 10) nicht
+   geeignet sind. Klebekanten brauchst Du in dabei nicht zu berücksichtigen.                         (2 P)
+
+
+
+
+                                                   Abbildung 10
+
+
+b) ● Zeichne ein geeignetes Netz ohne Klebelaschen im Maßstab 1 : 5.                                 (7 P)
+                                                                                     2
+    ● Bestätige, dass der Flächeninhalt Deines Karton-Netzes 1 300 cm beträgt.
+
+       Hinweis: Die Klebekanten bleiben unberücksichtigt.
+
+
+Aufgabe 10:
+
+
+
+
+a) Gib die Koordinaten für die Punkte A, C und F an.                                                 (3 P)
+
+b) Zeige, dass die Fläche des Vierecks CDFG dreimal so groß ist wie die
+    Dreiecksfläche DEF.                                                                              (4 P)
+
+
+                                                                                                             51
+Erster allgemeinbildender Schulabschluss Mathematik    Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Aufgabe 11:
+In Abbildung 11 ist eine Verkehrsinsel dargestellt.
+
+
+
+
+                                              Abbildung 11
+                                         nicht maßstabsgerecht
+
+
+Die Flächen 2 und 3 werden mit quadratischen Steinplatten ausgelegt. Die Steinplatten sind
+50 cm breit. Für die Fläche 2 werden durch das Zuschneiden entlang der diagonalen Kante
+20 % mehr Steinplatten benötigt, als es der tatsächliche Flächengröße entspricht.
+
+Bestimme die Anzahl der Steinplatten, die für Fläche 2 benötigt werden.                         (4 P)
+
+
+
+
+Aufgabe 12:
+
+
+
+
+                                               Abbildung 12
+                                          nicht maßstabsgerecht
+
+
+
+Die Flächen 1 und 4 sollen bepflanzt werden. Dazu müssen diese 11 cm hoch mit Erde
+aufgefüllt werden.
+Ermittle durch Rechnung, ob eine Lieferung von 1 m3 Erde ausreicht.                              (6 P)
+
+
+52
+Beispiele für zentrale schriftliche Prüfungsaufgaben   Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+5.3 Aufgaben zur Leitidee Funktionaler Zusammenhang
+
+Aufgabe 1:
+
+Vier Schnecken sollen eine Strecke von 100 cm zurücklegen.
+Die folgenden Graphen beschreiben die Bewegung der Schnecken:
+
+Schnecke 1                                             Schnecke 2
+
+
+
+
+Schnecke 3                                             Schnecke 4
+
+
+
+
+Die Schnecken sind während des Rennens unterschiedlich schnell.
+
+Berechne die höchste Geschwindigkeit in cm pro Minute, die eine der Schnecken
+erreicht hat.                                                                                    (3 P)
+
+
+
+Aufgabe 2:
+Die Bewegung der Schnecke 3 kann durch eine Funktionsgleichung beschrieben
+werden.
+
+
+
+
+Bestimme die Funktionsgleichung dieser Schnecke, die mathematisch ihre Bewegung
+beschreibt.                                                                   (4 P)
+
+
+
+                                                                                                         53
+Erster allgemeinbildender Schulabschluss Mathematik          Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+
+Aufgabe 3:
+Beim Kauf eines Tablets werden zwei Datentarife angeboten:
+          Tarif „Flat“: Unbegrenzt surfen für monatlich 25 Euro.
+      Tarif „Easy“: Jeden Monat 3 Euro als Grundgebühr und
+       für jedes Megabyte (MB) 2 Cent bezahlen.
+
+Ermittle, ab wie viel Megabyte (MB) der Tarif „Flat“ günstiger ist als der Tarif „Easy“. (4 P)
+
+
+
+Aufgabe 4:
+Bei den folgenden 4 Graphen ist x ist die Anzahl der genutzten Megabyte (MB) und y der mo-
+natliche Rechnungsbetrag in Euro.
+
+          Datentarif „Flat“: Unbegrenzt surfen für monatlich 25 Euro.
+          Datentarif „Easy“: Jeden Monat 3 Euro als Grundgebühr und für jedes Megabyte (MB)
+           2 Cent bezahlen.
+
+a) Wähle jeweils den Graphen aus, der zum Tarif „Flat“ und zum Tarif „Easy“ passt. (2 P)
+b) Begründe, warum die anderen Graphen nicht passen.                                                    (4 P)
+
+
+     (I)                                              (II)
+
+
+
+
+     (III)                                            (IV)
+
+
+
+
+Aufgabe 5:
+Die Klasse 9 a macht Kerzen selbst.
+Für jede selbst gemachte Kerze werden circa 15 cm Docht und 200 g Wachs benötigt.
+Es stehen 15 Kilogramm Wachs zur Verfügung.
+
+a) Bestätige rechnerisch, dass daraus 75 Kerzen gefertigt werden können.                               (2 P)
+
+b) Berechne die Länge des Dochtes in Metern, der dabei verarbeitet wird.                               (2 P)
+
+
+
+54
+Beispiele für zentrale schriftliche Prüfungsaufgaben          Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+
+Aufgabe 6:
+
+Eine bestimmte zylindrische Kerze ist anfangs 13,5 cm hoch und brennt pro Stunde
+um 1,5 cm herunter.
+
+
+a) Ergänze diese Tabelle 1:                                                                              (4 P)
+
+                       Zeit (h)                               0           1
+
+                       Höhe der Kerze (cm)                   13,5                      3
+
+                                                       Tabelle 1
+
+b) Begründe, welche Funktionsgleichung die Brenndauer dieser Kerze darstellt.                            (3 P)
+
+                 (1) y = 1,5x + 13,5           (2) y = − 1,5x − 13,5          (3) y = − 1,5x + 13,5
+
+
+        x entspricht der Zeit in Stunden und y entspricht der Höhe der Kerze in Zentimetern
+
+
+Aufgabe 7:
+Ein neues Motorrad verbraucht auf 100 km Strecke 6 Liter Benzin.
+
+a) Vervollständige dazu die Tabelle 2:                                                                 (4 P)
+
+
+      Weglänge in km                100                             150             200
+
+   Benzinverbrauch in l               6                7,5                                          15
+
+                                                  Tabelle 2
+
+b) Der Benzinverbrauch eines kleineren Motorrads ist schon im Koordinatensystem
+   dargestellt.
+   ● Gib an, wie viel Liter Benzin das kleinere Motorrad auf 100 km verbraucht.
+
+
+
+
+   ● Zeichne zusätzlich den Verbrauch des neuen Motorrads in das Koordinatensystem.
+                                                                                 (4 P)
+
+                                                                                                                 55
+Erster allgemeinbildender Schulabschluss Mathematik       Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+Aufgabe 8:
+Familie Behn hat ihre Wasserrechnung für den Verbrauch im Jahr 2025 bekommen
+(Tabelle 3):
+ Verbrauch              Verbrauchszeitraum                               Verbrauch          Wasserpreis
+                        von             bis               Tage              in m   3
+                                                                                             EUR/ m 3
+                     01.01.25            30.06.25         181                 33               1,61
+                     01.07.25            31.12.25         184                 37               1,65
+                                                  Tabelle 3
+
+Pro Jahr muss zusätzlich eine Grundgebühr von 26,76 € bezahlt werden.
+
+a) Berechne anhand der Tabelle 3 den Betrag, den Familie Behn insgesamt für das
+   Jahr 2025 bezahlen muss.                                                     (3 P)
+Hinweis: Beachte die Preiserhöhung zum 01.07.2025.
+
+
+Im Jahr 2026 soll es keine Preiserhöhung geben und der Verbrauch der Familie Behn bleibt
+gleich.
+
+b) Ergänze diese Wertetabelle (siehe Tabelle 4):                                                    (2 P)
+
+
+                       Verbrauch in m 3               0       20       35
+
+                            Preis in €           26,76
+
+                                                  Tabelle 4
+
+c) Zeichne den zugehörigen Graphen in dieses Koordinatensystem:                                     (3 P)
+
+
+
+
+56
+Beispiele für zentrale schriftliche Prüfungsaufgaben             Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+Aufgabe 9:
+Es sollen 100 Fotos in professioneller Weise auf Papier ausgedruckt werden.
+
+                                                       Geschäft                             Internet
+          Preis pro Foto                                0,25 €                               0,15 €
+          Versandkosten                                 keine                                5,00 €
+
+
+
+
+a) Die Kosten für das Ausdrucken in dem Geschäft lassen sich mit dieser Funktionsgleichung
+   ausrechnen:
+                                      y = 0, 25 ⋅ x
+    Trage die fehlenden Werte in die Tabelle ein.                                                         (4 P)
+
+
+     x               Anzahl der Fotos                     0            10          23                       100
+
+
+     y          Kosten im Geschäft in €                   0                                   8,25           25
+
+
+
+
+b) ● Zeichne den Graphen für die Kosten im Geschäft mit Hilfe der Tabellenwerte in das
+       Koordinatensystem. (Der Graph für die Bestellung im Internet ist schon eingezeichnet.)
+                                                                                                           (3 P)
+
+
+
+
+    ● Beschreibe, was der Schnittpunkt der beiden Graphen im Zusammenhang der
+       Foto-Bestellung bedeutet.                                                                           (2 P)
+
+
+
+
+Aufgabe 10:
+
+a) Bestimme den Wert von x durch Äquivalenzumformungen.                                                    (3 P)
+
+   4 x − 10 = −2 x + 5
+
+
+
+
+                                                                                                                   57
+Erster allgemeinbildender Schulabschluss Mathematik         Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+
+b) Bestimme den Wert von x durch Äquivalenzumformungen.                                               (3 P)
+
+     18 = 3 (2x − 6 )
+
+
+
+c) Bestimme den Wert von x durch Äquivalenzumformungen.                                               (3 P)
+
+          9
+     8+     = 11
+          x
+
+
+d) Bestimme den Wert von x durch Äquivalenzumformungen.                                               (3 P)
+
+          2
+     1+     x =5
+          3
+
+
+
+Aufgabe 11:
+
+      Ilayda trainiert auf einem Laufband.
+      In den ersten 5 Minuten läuft sie mit gleichbleibender Geschwindigkeit eine Strecke von
+      1 km.
+      Dann macht sie 2 Minuten Pause.
+      Nach dieser Pause läuft sie in 15 Minuten mit einer anderen gleichbleibenden
+      Geschwindigkeit eine Strecke von 2 km.
+      Zeichne den Graphen zu diesem Sachverhalt in das Koordinatensystem (Abbildung 1).
+                                                                                 (5 P)
+
+
+
+
+                                              Abbildung 1
+
+
+
+
+58
+Beispiele für zentrale schriftliche Prüfungsaufgaben           Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+5.3 Aufgaben zur Leitidee Daten und Zufall
+
+Leitidee Daten und Zufall
+
+
+Aufgabe 1:
+Die Abbildung 1 zeigt ein Glücksrad:
+
+
+
+
+                                                  Abbildung 1
+
+Gib die die Wahrscheinlichkeit in Prozent an, dass bei einem Spieldurchgang nicht C
+angezeigt wird.                                                                    (3 P)
+
+
+
+Aufgabe 2:
+Diese Tabelle 1 beschreibt die Wahrscheinlichkeiten für die Felder eines Glücksrads.
+Die Wahrscheinlichkeiten entsprechen dem Anteil der jeweiligen Felder A, B, C, D und E an
+der Kreisfläche.
+
+            Buchstabe                        A             B             C           D            E
+                                              1            1             1           1            1
+            Wahrscheinlichkeit
+                                             16            2             8           4           16
+
+                                                       Tabelle 1
+
+
+ a) Erstelle hier das dazugehörige Glücksrad
+    (siehe Abbildung 2).                             (5 P)
+  Hinweis: Die Felder können unterschiedlich groß sein.
+
+
+
+ b) Begründe, dass die Gewinnchance größer ist,
+    wenn der gesamte Einsatz nur auf das Feld B
+    gesetzt wird und man ihn nicht auf die Felder C und
+    D verteilt.                                  (4 P)
+
+
+
+
+                                                                                    Abbildung 2
+
+                                                                                                                59
+Erster allgemeinbildender Schulabschluss Mathematik       Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Daten und Zufall
+
+Aufgabe 3:
+
+
+                 A                                    B                                     C
+
+
+
+
+                                                Abbildung 3
+
+
+In Abbildung 3 sind drei Kugeltöpfe A, B und C mit verschieden farbigen Kugeln. Es wird
+(mit verbundenen Augen) jeweils immer eine Kugel gezogen und dann wieder zurückgelegt.
+
+a) Berechne die Wahrscheinlichkeit dafür, dass beim einmaligen Ziehen einer Kugel aus
+     Topf C keine weiße Kugel gezogen wird.                                                         (3 P)
+
+
+b)   Du möchtest gerne eine graue Kugel ziehen. Dazu darfst Du in genau                             (4 P)
+     einen der drei Töpfe greifen.
+     ● Entscheide, in welchen Topf Du greifen würdest.
+     ● Begründe Deine Wahl.
+Hinweis: Die Verteilung der Kugeln in den Töpfen A, B und C (siehe Abbildung 3) ist Dir
+          bekannt.
+
+
+
+
+Aufgabe 4:                                                                                      B
+Aus dem Kugeltopf B in Abbildung 4 werden nacheinander
+zwei Kugeln ohne Zurücklegen gezogen.
+Die erste Kugel ist weiß.
+
+Bestimme die Wahrscheinlichkeit dafür, dass dann
+auch die zweite Kugel weiß ist.                                 (3 P)
+
+                                                                                        Abbildung 4
+
+
+
+
+Aufgabe 5:
+Im September regnet es durchschnittlich an 11 Tagen.
+
+Bestimme die Wahrscheinlichkeit dafür, dass es am 05. September nicht regnet.                       (4 P)
+
+
+
+
+60
+Beispiele für zentrale schriftliche Prüfungsaufgaben         Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+Aufgabe 6:
+Im Jahrgang 9 einer Stadtteilschule haben alle 93 Jugendliche je einen Kurs gewählt
+(siehe Tabelle 2).
+                       Kurs                               Anzahl der Jugendlichen
+                       Hörbücher
+                       Comics zeichnen                                 10
+                       Fußball                                         22
+                       Gesellschaftsspiele                             16
+                       Angeln                                          12
+                       Ballspiele                                      20
+
+                                                        Tabelle 2
+
+
+a) Bestätige rechnerisch, dass 13 Jugendliche den Kurs „Hörbücher“ gewählt haben. (2 P)
+
+b) In dem Balkendiagramm in Abbildung 5 sind die Wahlergebnisse unvollständig dargestellt.
+
+
+
+
+                                                       Abbildung 5
+
+    Ergänze mithilfe der Tabelle 2 die beiden fehlenden Kurse und den fehlenden Balken im
+    Balkendiagramm in Abbildung 5.                                                (3 P)
+
+
+c) ● Gib den Kurs an, der am häufigsten gewählt wurde.
+    ● Berechne die Spannweite der Anzahl der Jugendlichen in den Kursen.
+    ● Bestimme die durchschnittliche Anzahl (arithmetisches Mittel) der Jugendlichen pro
+      Kurs.                                                                        (5 P)
+
+d) Ermittle den Anteil der Jugendlichen, die den Kurs „Gesellschaftsspiele“ gewählt haben,
+    in Prozent.                                                                                        (3 P)
+
+
+
+
+                                                                                                               61
+Erster allgemeinbildender Schulabschluss Mathematik          Beispiele für zentrale schriftliche Prüfungsaufgaben
+
+
+
+Leitidee Daten und Zufall
+
+Aufgabe 7:
+
+Eine Verkehrszählung an einer Hamburger Straßenkreuzung hat folgende Daten ergeben
+(siehe Tabelle 3):
+
+
+
+           Zeitraum
+                                    Fußgänger                Kraftfahrzeuge                 Fahrräder
+
+       8:00 – 9:00 Uhr                   56                         58                          58
+
+      9:00 – 10:00 Uhr                   44                         72                          44
+
+     10:00 – 11:00 Uhr                   38                         58                          57
+
+     11:00 – 12:00 Uhr                   57                         120                         72
+
+     12:00 – 13:00 Uhr                   62                         112                         99
+
+                                                  Tabelle 3
+
+     a) Gib den Zeitraum an, in dem die meisten Kraftfahrzeuge gezählt wurden.                         (2 P)
+
+
+     b) Die Werte der Tabelle 3 der Verkehrszählung wurden in Kreisdiagrammen dargestellt
+        (siehe Abbildung 6).
+
+
+        Entscheide und begründe, welches Kreisdiagramm dem Zeitraum
+        von 10:00 bis 11:00 Uhr zugeordnet werden kann.                                                (4 P)
+
+
+
+             Kreisdiagramm 1                   Kreisdiagramm 2                    Kreisdiagramm 3
+
+
+
+
+                                                      Abbildung 6
+
+
+
+
+62
+Beispiele für zentrale schriftliche Prüfungsaufgaben                  Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+Aufgabe 8:
+Es wurden 25 Jugendliche befragt, wie viele Stunden sie ihr Smartphone täglich
+etwa nutzen. In Tabelle 4 ist das Ergebnis dargestellt:
+
+    Zeit in
+                            0                      1                       2                        3         4
+   Stunden
+  Anzahl der
+                            1                      4                       5                                  7
+ Jugendlichen
+                                                           Tabelle 4
+
+
+a) Ermittle die Anzahl der Jugendlichen, die etwa 3 Stunden täglich ihr
+   Smartphone nutzen.                                                                                             (2 P)
+
+b) Einer dieser25 Jugendlichen wird zufällig ausgewählt
+
+    Bestimme die Wahrscheinlichkeit in Prozent dafür, dass dieser Jugendliche weniger
+    als 3 Stunden pro Tag ein Smartphone nutzt.                                   (3 P)
+
+
+
+Aufgabe 9:
+Das Diagramm in Abbildung 7 zeigt - bis auf den Monat März - an, wie viel Niederschlag in
+den letzten Jahren durchschnittlich pro Monat in einer Stadt gefallen ist.
+
+
+
+
+                                 Durchschnittliche Niederschlagsmenge pro m² in der betrachteten Stadt
+
+
+
+
+                                                        Abbildung 7
+
+          Gemessen wird die Höhe des Niederschlags in Millimetern pro Quadratmeter.
+
+
+Jährlich fallen durchschnittlich insgesamt 768 mm Regenwasser.
+
+
+● Bestätige rechnerisch, dass es im März durchschnittlich 56 mm Niederschlag gab.
+
+
+● Ergänze die fehlende Säule im Diagramm.
+                                                                                                                  (4 P)
+
+
+                                                                                                                          63
+

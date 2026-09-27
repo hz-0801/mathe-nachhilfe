@@ -1,0 +1,804 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2024 ESA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=7a9e18de067c7c3e246603149a958a8e
+ABRUF: 2026-09-27
+SEITEN: 10
+LIZENZVERMERK: © MBWFK, Kiel 2024; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2024
+
+
+
+
+                Mathematik Heft 1
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2024
+                        ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 1.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                         ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben
+
+A1   Ergänze die vier fehlenden Ziffern.
+
+
+         4   2   6
+
+     +               4
+
+             5   8   9
+
+                                                                            /1 P.
+
+A2   Cemal nutzt ein Tabellenkalkulationsprogramm, um das Volumen und den
+     Oberflächeninhalt von Quadern zu ermitteln.
+
+
+
+
+     a) Gib das Volumen und den Oberflächeninhalt des abgebildeten Quaders
+        an.
+
+
+
+                                               V = ________ cm³
+
+                                               O = ________ cm²
+
+
+
+
+                                                                            /1 P.
+
+     b) Welche Formel steht in der Zelle D2? Kreuze an.
+
+         ☐ =2*A2*B2+2*A2*C2+2*B2*C2
+
+         ☐ =A2*B2*C2
+
+         ☐ =4*A2+4*B2+4*C2
+
+                                                                            /1 P.
+
+
+                                                4
+                       ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A3   Der Punkt C (5│-2) wird an der y-Achse gespiegelt.
+     Kreuze den richtigen Spiegelpunkt C‘ an.
+
+     ☐ C' (5│2)                 ☐ C' (-5│-2)                        ☐ C' (2│-5)
+
+                                                                                           /1 P.
+
+A4   Es soll 13 ∙ 24 berechnet werden.
+     Prüfe jeweils, ob der angegebene Rechenweg richtig ist.
+
+     Kreuze an.
+
+
+                                                                 wahr             falsch
+
+
+                   13 ∙ 20 + 13 ∙ 4                                 ☐               ☐
+
+
+                   10 ∙ 20 + 3 ∙ 4                                  ☐               ☐
+
+
+          10 ∙ 20 + 10 ∙ 4 + 3 ∙ 20 + 3 ∙ 4                         ☐               ☐
+
+
+                                                                                           /2 P.
+
+A5   Weitere Würfelgebäude sollen nach gleichem Muster gebaut werden.
+
+
+
+
+     a) Gib die Würfelanzahl für das 5. Würfelgebäude an.
+
+      Lösung: _________ Würfel
+                                                                                           /1 P.
+
+     b) Gib die Würfelanzahl für das 9. Würfelgebäude an.
+
+      Lösung: _________ Würfel
+                                                                                           /1 P.
+
+
+
+
+                                              5
+                      ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A6   Der 9. Jahrgang der Gebrüder-Grimm-Schule besteht aus drei Klassen.
+
+
+
+
+     Welche Aussagen stimmen? Kreuze jeweils an.
+
+
+                                                                         wahr   falsch
+     Die Anzahl der Schülerinnen und Schüler aller
+                                                                          ☐       ☐
+     drei Klassen ist gleich groß.
+     In der Klasse 9b sind die meisten Jungen.                            ☐       ☐
+
+     Genau ein Drittel aller Schülerinnen und Schüler
+                                                                          ☐       ☐
+     des 9. Jahrgangs sind Jungen.
+
+
+                                                                                         /2 P.
+
+
+A7    150 liegt zwischen
+
+     ☐ 11 und 12               ☐ 12 und 13                         ☐ 13 und 14
+
+                                                                                         /1 P.
+
+A8   60% der Lehrkräfte einer Schule kommen mit dem Fahrrad zur Schule. Das
+     sind 45 Lehrkräfte. 12% kommen mit dem Auto.
+     Wie viele Lehrkräfte kommen mit dem Auto zur Schule?
+
+     Kreuze an.
+
+     ☐ 72                      ☐9                                  ☐ 28
+
+                                                                                         /1 P.
+
+
+                                             6
+                        ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A9   Prüfe, ob man die „die Hälfte der Zahl x“ so schreiben kann.
+
+     Kreuze an.
+
+
+                   ja         nein
+      1
+        x         ☐            ☐
+      2
+           1
+      x:           ☐            ☐
+           2
+
+                                                                           /1 P.
+
+A10 In einer Dose befinden sich verschiedenfarbige Gummibärchen:
+    11 rote, 8 gelbe und 5 grüne Gummibärchen.
+    Karla greift ohne hinzusehen einmal in die Dose.
+
+     a) Gib die Wahrscheinlichkeit an, dass sie ein gelbes Gummibärchen
+        bekommt.
+
+        Lösung: _______
+
+                                                                           /1 P.
+
+     b) Gib die Wahrscheinlichkeit an, dass sie kein rotes Gummibärchen
+        bekommt.
+
+        Lösung: _______
+
+                                                                           /1 P.
+
+A11 Auf dem Geobrett ist ein Parallelogramm gespannt.
+    Zeichne auf dem leeren Geobrett ein Rechteck mit einem gleichgroßen
+    Flächeninhalt ein.
+
+
+
+
+                                                                           /1 P.
+
+
+                                               7
+                       ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+A12 Die Punkte A, B und C sollen die Eckpunkte eines Dreiecks ABC sein.
+    Zeichne einen Punkt C so ein, dass das Dreieck stumpfwinklig ist.
+
+
+
+
+                                                                          /1 P.
+
+A13 Ergänze die Tabelle der proportionalen Zuordnung.
+
+
+       Anzahl         2                5
+        Preis        7€                               35 €
+
+
+                                                                          /2 P.
+
+A14 Zerlege das folgende Dreieck in zwei rechtwinklige Teildreiecke.
+    Zeichne eine Lösung ein.
+
+
+
+
+                                                                          /1 P.
+
+
+
+
+                                              8
+ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+                       9
+ESA Mathematik Prüfungsheft 1 2024 (c) MBWFK S-H
+
+
+
+
+                      10
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2024 ESA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=eb40181b950f860d4bdad7f22324c6b0
+ABRUF: 2026-09-27
+SEITEN: 14
+LIZENZVERMERK: © MBWFK, Kiel 2024; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2024
+
+
+
+
+                Mathematik Heft 2
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2024
+                        ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 2.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                      ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                                       Paketdienst
+
+(1) Ein Paketdienst hat Packstationen aufgestellt, an denen Pakete abgeholt
+    werden können.
+
+    Die Abbildung stellt dar, wie viele Packstationen es in verschiedenen Jahren
+    gab.
+
+
+
+
+    a) Gib an, wie viele Packstationen es im Jahr 2021 gab.
+
+                                                                                 /1 P.
+
+    b) Berechne um wie viel Prozent die Anzahl der Packstationen von 2008
+       bis 2023 angestiegen ist.
+
+                                                                                 /3 P.
+
+
+
+
+                                             4
+                        ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+(2) In der Tabelle ist eine Preisliste
+    verschiedener Paketgrößen
+    dargestellt.
+
+     Für das Porto sind das Gewicht
+     und die Maße entscheidend.
+
+
+
+
+     Ein Paket wiegt 3,7 kg und hat die Maße 453214 cm.
+
+     a) Gib die Portokosten in Euro an.
+
+                                                                           /1 P.
+
+     b) Berechne das Volumen von Paket XL in Kubikzentimeter.
+
+                                                                           /2 P.
+
+(3) Ein Online-Versandhaus versendet die Pakete mit drei verschiedenen
+    Paketdiensten.
+
+     Das Kreisdiagramm stellt den Anteil der Paketdienste am gesamten Versand dar.
+
+
+
+
+     a) Gib mithilfe des Kreisdiagramms an, wie groß der Anteil von
+        Paketdienst A ungefähr ist.
+
+                                                                           /1 P.
+
+     b) Insgesamt wurden 12 000 Pakete versendet.
+        Berechne, wie viele dieser Pakete von Paketdienst B versendet wurden.
+
+                                                                           /2 P.
+
+
+
+                                               5
+                      ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+(4) Ein Paketdienst wirbt mit dem folgenden Werbeslogan:
+
+
+
+
+                                                                  Hinweis
+                                                              Durchmesser Erde
+                                                                 12 740 km
+
+
+
+
+    Zeige, dass dieser Vergleich stimmt.
+
+                                                                                 /2 P.
+
+
+
+
+WAHLTEIL zu B1
+Du musst einen der beiden Wahlteile bearbeiten.
+
+
+
+
+(5) Mithilfe von Paket M möchte ein Versandhandel kleine Schachteln
+    versenden.
+
+
+
+
+    Das Paket wird nach dem folgenden Muster gepackt:
+
+
+
+
+    Überprüfe, ob durch dieses Muster mehr als 24 Schachteln hineinpassen.
+
+                                                                                 /3 P.
+
+
+
+
+                                             6
+                       ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+(6) Ein Paketdienstleister gibt in seinem Jahresbericht 2023 an, dass nur
+    0,03 % der Pakete verloren gehen. Das Unternehmen hat insgesamt
+    928 Mio. Pakete versendet.
+
+     a) Gib die Wahrscheinlichkeit, dass ein Paket verloren geht, als Bruch an.
+
+                                                                            /1 P.
+
+     b) Berechne die Anzahl der verlorenen Pakete im Jahr 2023.
+
+                                                                            /2 P.
+
+
+
+
+                                              7
+                       ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+B2: Komplexaufgabe                                                        Kieler Woche
+
+Die Kieler Woche ist ein großes Volksfest, bei dem Segelwettbewerbe stattfinden.
+
+(1) Die Abbildung zeigt die Besucherzahlen der Kieler Woche in verschiedenen
+    Jahren.
+
+
+                             Besucherzahlen Kieler Woche
+      4000000
+
+      3500000
+
+      3000000
+
+      2500000
+
+      2000000
+
+      1500000
+
+      1000000
+
+       500000
+
+           0
+                    2015                 2018                   2019           2022
+
+
+
+     a) Gib die Anzahl der Besucher der Kieler Woche im Jahr 2019 an.
+
+                                                                                      /1 P.
+
+     b) Merle sagt: „2022 hatte die Kieler Woche ca. 25 % weniger Besucher als
+        in 2015.“
+
+         Zeige, dass Merle recht hat.
+
+                                                                                      /2 P.
+
+
+
+
+                                                8
+                      ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+(2) Bei einer Segelwettfahrt der 470er-Klasse muss der Flächeninhalt des
+    dargestellten Segels 9,12 m2 betragen.
+
+
+
+
+        vereinfachte Darstellung
+
+
+
+
+    a) Überprüfe, ob das abgebildete Boot diese Bedingung erfüllt.
+
+                                                                           /3 P.
+
+    b) Bei der Wettfahrt müssen die Segler den abgebildeten Kurs einmal
+       umfahren.
+
+
+
+
+             Start/
+             Ziel
+
+
+
+
+    Bestimme die ungefähre Länge der zu segelnden Gesamtstrecke in
+    Kilometern.
+
+                                                                           /3 P.
+
+
+                                             9
+                      ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+(3) Während der Kieler Woche werden Fahrzeuge auf der abgebildeten
+    Parkplatzfläche abgestellt.
+
+
+
+
+    Bestimme den Flächeninhalt der gesamten Parkplatzfläche in
+    Quadratmetern.
+
+                                                                          /3 P.
+
+
+
+
+WAHLTEIL zu B2
+Du musst einen der beiden Wahlteile bearbeiten.
+
+
+
+
+(4) Während der Kieler Woche kann man Lose kaufen. In der Lostrommel liegen
+    500 Lose. Die Tabelle zeigt die jeweilige Anzahl der Arten von Losen.
+
+
+
+
+    a) Maria sagt: „Die Wahrscheinlichkeit, dass beim ersten Ziehen ein
+       mittlerer Gewinn gezogen wird, beträgt über 15%.
+
+        Zeige, dass Maria nicht recht hat.
+
+                                                                          /1 P.
+
+
+
+
+                                            10
+                 ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+b) Die ersten 40 gezogenen Lose waren alles Nieten.
+
+   Karl behauptet: „Die Wahrscheinlichkeit, als nächstes einen
+   Hauptgewinn zu ziehen, ist größer als am Anfang.“
+
+   Entscheide und begründe, ob Karl recht hat.
+
+                                                                       /2 P.
+
+c) Am Ende sind noch folgende Lose in der Lostrommel.
+
+
+
+
+   Gib an, wie viele Lose nacheinander höchstens gezogen werden
+   müssten, um sicher einen Gewinn zu ziehen.
+
+                                                                       /1 P.
+
+d) Als Ersatz für eine Lostrommel kann ein Glücksrad genutzt werden.
+
+
+
+
+   Die Wahrscheinlichkeiten aus 4c) sollen auf dieses Glücksrad übertragen
+   werden.
+
+   Beschrifte die Felder des Glückrades mit den Buchstaben N, K, M und H.
+
+                                                                       /2 P.
+
+
+
+
+                                       11
+                     ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+                           Bewertungsübersicht
+
+
+
+
+                                max. Punkte                       erreichte Punkte
+Heft 1                                    20
+Heft 2: B1                                12
+     Wahlteil                             6
+Heft 2: B2                                12
+     Wahlteil                             6
+Gesamtpunktzahl                           50
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte    Prozente   Erster allgemeinbildender
+                     Schulabschluss (Note)
+  45-50     ≥90                             1
+
+  38-44     ≥75                             2
+
+  30-37     ≥60                             3
+
+  23-29     ≥45                             4
+
+  11-22     ≥22                             5
+
+  0-10      <22                             6
+
+
+
+
+                                           12
+ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+                      13
+ESA Mathematik Prüfungsheft 2 2024 (c) MBWFK S-H
+
+
+
+
+                      14
+

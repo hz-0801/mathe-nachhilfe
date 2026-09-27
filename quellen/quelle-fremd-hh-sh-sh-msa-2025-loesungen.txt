@@ -1,0 +1,983 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2025 MSA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=0be53902268d05e4f497e9a28375e2b4
+ABRUF: 2026-09-27
+SEITEN: 24
+LIZENZVERMERK: © MBWFK, Kiel 2025; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2025
+
+
+
+
+   Korrekturanweisung
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWFK, Kiel 2025
+                      MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+Hinweise zur Korrektur:
+
+
+
+   Bei den Kurzformaufgaben (Heft 1) wird in der Regel keine Darstellung der
+    Lösungswege verlangt, es sei denn, die Operatoren verlangen dies im
+    konkreten Fall (siehe https://za.schleswig-holstein.de).
+
+
+   Grundsätzlich gilt, dass alle Lösungsvarianten, die über einen nachvollziehbar
+    richtigen Lösungsweg zu einem richtigen Ergebnis führen, mit voller Punktzahl
+    bewertet werden. Dies gilt gleichermaßen für Notationen von Formeln und
+    Prozessen abhängig von der Tabellenkalkulationssoftware.
+
+
+   Bei Prozent- und Zinsrechnungsaufgaben sind Lösungswege mit der Formel
+    oder über den Dreisatz gleichwertig.
+
+
+   Planskizzen werden nur dann erwartet und bepunktet, wenn dies ausdrücklich
+    in der Aufgabenstellung angegeben ist.
+
+
+   Antwortsätze werden nur dann bepunktet, wenn sie gegenüber dem
+    berechneten Ergebnis eine weitergehende Information enthalten.
+
+
+   Beim Rechnen mit Maßeinheiten können die Einheiten entweder in der
+    gesamten Rechnung mitgeführt oder weggelassen werden. Wenn in einer
+    Aufgabenstellung eine Einheit vorgegeben ist, führt das Fehlen der Einheit in
+    der Antwort nicht zu einem Punktabzug.
+
+
+   Die Ergebnisse sind entsprechend den Sachzusammenhängen sinnvoll zu
+    runden, wenn nicht in den Aufgabenstellungen eine spezifische
+    Rundungsweise gefordert wird. Dabei orientieren sich die Schülerinnen und
+    Schüler an den an der Schule üblichen Regeln.
+
+
+
+
+                                               3
+                    MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A Kurzformaufgaben                                                         Lösungen
+
+A1   Das Gesamtvermögen eines Milliardärs wurde im Jahr 2023 auf etwa
+     200 Milliarden Euro geschätzt.
+
+     Gib an, wie viele 100-Euro-Scheine das sind.
+
+     Lösung: 2 Milliarden
+
+                                                                                / 1 P.
+
+A2   Kreuze die Innenwinkelsumme des Sechsecks an.
+
+        720°
+
+        1080°
+
+        1440°
+
+
+
+
+                                                                                 /1 P.
+
+A3   Aus kleinen Holzwürfeln sind diese Figuren gebaut worden.
+
+
+
+
+     Aus Figur 3 soll nach dem gleichen Muster Figur 4 gebaut werden.
+
+     Kreuze an, wie viele kleine Holzwürfel zusätzlich benötigt werden.
+
+        12
+
+        24
+
+        36
+
+                                                                                 /1 P.
+
+
+
+                                             4
+                    MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A4   Kreuze an, welcher Begriff jeweils zu den zwei Wertetabellen gehört.
+
+                                                                           linear
+        x      0      1        2        3         4         5        6
+                                                                           quadratisch
+       f(x)    8      3        0        -1        0         3        8
+                                                                           exponentiell
+
+
+
+
+                                                                           linear
+        x      0      1        2        3         4         5        6
+                                                                           quadratisch
+       f(x)   0,8    3,2      5,6       8        10,4   12,8        15,2
+                                                                           exponentiell
+
+
+                                                                                    /2 P.
+
+A5   Die beiden Glücksräder sollen nacheinander gedreht werden.
+     Die Wahrscheinlichkeit P (H; H) für einen Hauptgewinn soll 10 %
+     betragen.
+
+     Es werden zwei Felder auf dem rechten Glücksrad mit einem „H“
+     markiert, z.B.
+
+
+
+
+                                                        H
+                                       H                        H
+
+     Beschrifte das rechte Glücksrad so, dass die Wahrscheinlichkeit für
+     einen Hauptgewinn P (H; H) bei 10 % liegt.
+
+                                                                                    /1 P.
+
+A6   Setze Klammern so, dass eine wahre Aussage entsteht.
+
+     12 – 2 · (4 – 2) = 8
+
+                                                                                    /1 P.
+
+
+
+
+                                             5
+                      MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A7   Der Flächeninhalt der abgebildeten Fläche soll bestimmt werden.
+
+
+
+
+     Kreuze die ungefähre Größe des Flächeninhalts an.
+
+        41 cm2
+
+        54 cm2
+
+        79 cm2
+
+                                                                             /1 P.
+
+A8   Bestimme den Abstand des Punktes P von der Geraden g.
+
+
+
+
+     Lösung: 2,5 cm
+
+                                                                             /1 P.
+
+
+
+
+                                               6
+                     MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A9   Im Koordinatensystem ist der Graph der Funktion f abgebildet.
+
+
+
+
+     a) Begründe, dass der Graph f die Funktionsgleichung
+        f ( x )  ( x  2)  ( x  4) abbildet.
+
+
+        Die Nullstellen der Funktion liegen bei x=2 und x=4.
+
+                                                                            /1 P.
+
+     b) Eine der drei folgenden Funktionsgleichungen wird nicht durch den
+        Graphen f abgebildet. Kreuze diese an.
+
+            f (x)  (x  3)2  1
+
+            f (x)  x 2  6 x  8
+
+            f (x)  3x 2  1
+
+                                                                            /1 P.
+
+
+
+
+                                              7
+                     MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A10   Die Grafik stellt den Verkauf von CD-Alben in den Jahren 2002 bis
+      2022 dar.
+
+
+
+
+      a) Gib die Anzahl der verkauften CD-Alben im Jahr 2002 an.
+
+         Lösung: 130 Millionen Stück
+
+                                                                                       /1 P.
+
+                                                                            2
+      b) Jonas behauptet: „Von 2017 bis 2022 ist der Verkauf um
+                                                                            3
+         zurückgegangen.“
+
+         Entscheide und begründe, ob Jonas mit dieser Aussage recht
+         hat.
+
+            Ja, Jonas hat recht.
+
+            Nein, Jonas hat nicht recht.
+
+         Begründung:
+
+         Die Begründung erfolgt über den Anteilsvergleich der Säulenhöhen
+         oder über den Vergleich der verkauften CD-Alben.
+
+         2 Punkte werden nur vergeben, wenn Entscheidung und
+         Begründung korrekt sind.
+
+                                                                                /0 oder 2 P.
+
+
+
+
+                                              8
+                         MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A11   Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+                                                                     wahr       falsch
+
+       54  252
+        9  7  16
+       0,1  0,2  0,2
+
+                                                                                         /3 P.
+
+A12   Gegeben ist die folgende Gleichung:
+
+      4x  7  41
+
+      Kreuze den Wert für x an.
+
+         x=8
+
+         x = 8,5
+
+         x = 12
+
+                                                                                         /1 P.
+
+A13   Gegeben ist der folgende Term: (x  3)2
+
+      Kreuze den gleichwertigen Term an.
+
+          x2  32
+
+          9x2
+
+          x2  6x  9
+
+                                                                                         /1 P.
+
+
+
+
+                                                  9
+                     MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A14   Gegeben ist das Dreieck ABC.
+
+
+
+
+      Anne berechnet die Seite a dieses Dreiecks auf die folgende Weise:
+
+      tan(21)  6,5 cm  a
+
+      Erkläre, warum Anna so nicht rechnen kann.
+
+      Erklärung:
+
+      Anna kann den Tangens nur in einem rechtwinkligen Dreieck nutzen.
+
+                                                                            /1 P.
+
+
+
+
+                                             10
+                     MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A15   Eine der drei kleinen Figuren ergänzt die große Figur zu einem
+      Quader.
+
+      a) Welche? Kreuze an.
+
+
+
+
+                                                                            /1 P.
+
+      b) Gib an, aus wie vielen kleinen Würfeln der vervollständigte
+         Quader aus a) besteht.
+
+         Lösung: 96 Würfel
+
+                                                                            / 1P.
+
+A16   Gegeben ist das Dreieck ABC mit den Seitenlängen a=3 cm, b=5 cm
+      und c=4 cm.
+
+      Es gilt die Umkehrung des Satzes des Pythagoras.
+
+      32 + 42 = 9 + 16 = 25 = 52
+
+                                                                            /1 P.
+
+
+
+
+                                             11
+                     MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A17   Das folgende Foto zeigt das Kunstwerk „Der Stuhl“.
+
+
+
+
+      Gib die Höhe des ganzen Stuhls an und beschreibe dein Vorgehen.
+
+      Ansatz, z.B. Vergleich Höhe des PKW mit dem Stuhl                     (1)
+
+      Ausgehend vom Ansatz richtige Lösung                                  (1)
+
+      Lösungsintervall: 5 m – 8 m
+
+                                                                                  /2 P.
+
+A18   Ein Blatt Papier ist ungefähr 0,1 mm dick.
+
+      Kreuze an, wie viele Blätter ungefähr in einem 2 cm hohen
+      Papierstapel sind.
+
+         20
+
+         200
+
+         2000
+
+                                                                                  /1 P.
+
+
+
+
+                                             12
+                     MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A19   Beschreibe einen zweistufigen Zufallsversuch, der durch dieses
+      Baumdiagramm dargestellt wird.
+
+
+
+
+      Schwarze und weiße Kugeln werden gezogen.                             (1)
+
+      Es wird ohne Zurücklegen gezogen.                                     (1)
+
+      Es ist nicht nötig, eine mögliche Anzahl schwarzer bzw. weißer Kugeln
+      zu nennen.
+
+                                                                                  /2 P.
+
+A20   Zeige, dass ein Zehntel des Kreises grau gefärbt ist.
+
+
+
+
+      Der Winkel ist 36° groß und das sind 10% des Vollwinkels.
+
+                                                                                  /1 P.
+
+
+
+
+                                             13
+                    MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A21   Die abgebildete Pyramide wird senkrecht zur Grundfläche in zwei
+      Teilkörper zerschnitten (siehe Abbildung).
+
+
+
+
+      Prüfe folgende Aussagen. Kreuze jeweils an.
+
+
+                                                                wahr       falsch
+       Das Volumen der beiden Teilkörper ist
+       zusammen genau so groß wie das Volumen
+       der Pyramide.
+       Der Oberflächeninhalt der beiden Teilkörper
+       ist zusammen genau so groß wie der
+       Oberflächeninhalt der Pyramide.
+       Die durch das Zerschneiden entstandenen
+       Teilkörper sind Prismen.
+
+
+                                                                                    /3 P.
+
+
+
+
+                                            14
+                       MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+B1: Trigonometrie                      Nord-Ostsee-Kanal – Lösung
+
+(1) a) gesucht: Größe des Winkels
+
+        24   8     180 
+
+          148 
+
+                                                                                    /1 P.
+
+    b) gesucht: Entfernung von Ben zum Turm
+
+                    Gegenkathete
+        tan( )                                                              (1)
+                     Ankathete
+
+                                  x
+        tan(90  24  8) 
+                                 20
+
+        x  32                                                                (1)
+
+                                                                                    /2 P.
+
+    c) gesucht: Breite des Kanals
+
+        Sichtlinie von Ben zum Turm:
+
+        s  20²  32²  37,74                                                 (1)
+
+        37,74       x
+                                                                             (1)
+        sin(8) sin(24)
+
+        x  110,3                                                             (1)
+
+        Der Nord-Ostsee-Kanal ist an der Stelle ungefähr 110 m breit.
+
+                                                                                    /3 P.
+
+(2) a) gesucht: Geschwindigkeit in km/h
+
+        100 m    m
+              4                                                              (1)
+         25 s    s
+
+            m         km
+        4      14, 4                                                         (1)
+            s          h
+
+                                                                                    /2 P.
+
+
+                                               15
+                        MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+    b) gesucht: mathematischer Satz
+
+        Jasper kann den Winkel  mit Hilfe des Kosinussatzes
+        bestimmen.
+
+                                                                                     /1 P.
+
+
+Wahlteil zu B1
+
+(3) a) gesucht: Größe des Winkels 
+
+        2    180  30
+
+          75
+
+                                                                                     /1 P.
+
+    b) gesucht: Flächeninhalt des Segels
+
+             1
+        A      a  b  sin( )                                               (1)
+             2
+
+             1
+        A      3,60  3,60  sin(30)                                        (1)
+             2
+
+        A  3,24                                                               (1)
+
+        Der Flächeninhalt des Segels beträgt 3,24 m².
+
+                                                                                     /3 P.
+
+    c) gesucht: Erklärung
+
+        Man erkennt an der Skizze, dass alle Seitenlängen
+        verdoppelt wurden.                                                     (1)
+
+        Durch die Verdopplung der Seitenlängen entstehen vier
+        gleichschenklige Dreiecke und damit hat sich der Flächeninhalt
+        vervierfacht.                                                  (1)
+
+                                                                                     /2 P.
+
+
+
+
+                                                16
+                        MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+B2: Stereometrie                           zylinderförmige Knetmasse
+                                                            – Lösung
+
+(1) gesucht: Volumen der Knetmasse
+
+     V    r2  k                                                            (1)
+
+     r  16 mm                                                                 (1)
+
+
+     V    162  72  57 905,84                                              (1)
+
+                                                                                     /3 P.
+
+(2) a) gesucht: Name des Körpers
+
+           Name: Zylinder
+
+                                                                                     /1 P.
+
+    b) gesucht: Anzahl der Scheiben
+
+           Anzahl: 24
+
+                                                                                     /1 P.
+
+(3) gesucht: Nachweis, dass das Material ausreicht
+
+           4
+     V         r3                                                          (1)
+           3
+
+           4
+    V          243  57 905, 84                                            (1)
+           3
+
+    Die Kugel hat das gleiche Volumen wie der Zylinder
+    (beziehungsweise 57 905,84 < 58 000)                                       (1)
+
+                                                                                     /3 P.
+
+(4) gesucht: Anzahl der nötigen Zylinder
+
+    Anzahl: 9
+
+                                                                                     /1 P.
+
+
+
+
+                                                17
+                     MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(5) a) gesucht: Breite der Schachtel
+
+        Breite: 160 mm
+
+                                                                                  /1 P.
+
+     b) gesucht: zusätzlicher Materialbedarf in Prozent
+
+
+                                                                            (1)
+
+         972,8  716,8    5
+                            35,71 %                                       (1)
+            716,8        14
+
+                                                                                  /2 P.
+
+     c) gesucht: Flächeninhalt eines Folienstücks
+
+         b  u5                                                            (1)
+
+         b    32  5  105,53                                            (1)
+
+         A  a  b  72  105,53  7598,16                                  (1)
+
+                                                                                  /3 P.
+
+
+
+
+                                             18
+                          MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                                     Welle – Lösungen
+
+(1)
+
+      a) gesucht: Anzahl Nullstellen
+
+              3
+
+                                                                                 /1 P.
+
+      b) gesucht: möglicher Scheitelpunkt der Näherungsparabel
+
+          z. B. (1|1,5)
+
+                                                                                 /1 P.
+
+(2)
+
+      a) gesucht: Wirkung des Parameters v bei Verkleinerung des Werts
+
+          Ein kleinerer Wert für v verschiebt die Parabel entlang der y-Achse
+          nach unten.
+
+                                                                                 /1 P.
+
+      b) gesucht: Wert für u
+
+          Angabe eines Werts im Intervall 0,8;1,2 
+
+
+                                                                                 /1 P.
+
+      c) gesucht: Nachweis zweier Nullstellen von i
+
+          Ansatz: Punktprobe                                                     (1)
+
+          i(0)  1,5  02  3  0  0                                           (1)
+
+          i(2)   1, 5  2 2  3  2  0                                        (1)
+
+          Somit hat i bei x1  0 und x2  2 Nullstellen.
+
+
+                                                                                 /3 P.
+
+
+
+
+                                                  19
+                        MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+      d) gesucht: Begründung, dass so keine Annäherung gefunden werden kann
+
+         Die Lösung muss folgende Aspekte enthalten:
+
+         Die Öffnung der Parabel müsste verändert werden.                      (1)
+         Die Schieberegler u und v können die Öffnung nicht verändern.         (1)
+
+
+                                                                                 /2 P.
+
+
+Wahlteil zu B3
+
+(3)
+
+      a) gesucht: korrekte Geradengleichung und Begründung
+
+         ☐     h1  x   2,2 x  4, 4
+
+         ☒     h2  x   2,2 x  4, 4
+
+         ☐     h3  x   2,2 x  4, 4
+
+                                                                                 /1 P.
+
+      b) gesucht: Geradengleichung
+
+              y2  y1
+         m                                                                      (1)
+              x2  x1
+
+              1,05   1,05
+         m                      2,1                                            (1)
+               0,5   0,5
+
+
+         Da die Gerade durch den Ursprung verläuft, ist der
+         y-Achsenabschnitt 0.
+
+         Die Geradengleichung lautet also k  x   2,1x                         (1)
+
+
+                                                                                 /3 P.
+
+
+
+
+                                                20
+                      MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+    c) gesucht: Überprüfung, ob B und C auf dem Graphen von e liegen
+
+           e(-0,5)= 0,2625
+           B liegt nicht auf dem Graphem von e.                                    (1)
+
+           e(0,5)=1,05
+           C liegt auf dem Graphen von e.                                          (1)
+
+
+
+                                                                                   /2 P.
+
+
+B4: Statistik und                                          Playlist – Lösungen
+    Wahrscheinlichkeit
+
+(1) gesucht: Wahrscheinlichkeit für das Lied Come on an erster
+   und zweiter Position
+
+           1 1
+     p                                                                     (1)
+          12 12
+
+           1
+     p        0,7 % (Prozentangabe wird nicht verlangt.)                   (1)
+          144
+
+                                                                                   /2 P.
+
+(2) a) gesucht: Term für die Anzahl von Kombinationen
+
+
+          124
+
+                                                                                   /1 P.
+
+    b) gesucht: passendes Zufallsexperiment
+
+          Zum Beispiel:
+          viermaliges Drehen eines Glücksrads                                (1)
+          mit 12 verschiedenen Sektoren                                      (1)
+
+                                                                                   /2 P.
+
+(3) a) gesucht: Interpretation einer Tabellen-Eingabe
+
+          In Zelle C5 wird ausgegeben, wie oft das Lied mit der Nummer 2
+          (BEE YOU) bei dieser simulierten Durchführung gespielt wird.
+
+                                                                                   /1 P.
+
+
+
+                                              21
+                    MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+    b) gesucht: Begründung für einen konstanten Wert in Zelle C16
+
+        In Zelle C16 wird die Summe der Anzahl der gespielten Lieder
+        angezeigt, und es sind immer 4 Lieder.
+
+                                                                                        /1 P.
+
+    c) gesucht: Entscheidung über den Wahrheitsgehalt zweier Aussagen
+
+
+                                                                           wahr   falsch
+         Die Simulation hat gezeigt, dass die                               ☐       ☒
+         Wahrscheinlichkeit für ein doppelt gespieltes Lied
+          3
+             beträgt.
+         10
+         Es kann sein, dass bei den nächsten 10                             ☒       ☐
+         Durchführungen der Simulation 7-mal ein Lied
+         doppelt gespielt wird.
+
+
+                                                                                        /2 P.
+
+
+Wahlteil zu B4
+
+(4) a) gesucht: Zweigwahrscheinlichkeit
+
+        1
+        4
+
+                                                                                        /1 P.
+
+    b) gesucht: Bedeutung eines Eintrags im Baumdiagramm
+
+        Wahrscheinlichkeit, dass Go als erstes Lied gespielt wird.
+
+                                                                                        /1 P.
+
+    c) gesucht: Beurteilung einer Aussage
+
+        Emre hat recht.                                                           (1)
+
+        Begründung, zum Beispiel:                                                 (1)
+        Wenn Go gespielt wird, kommt danach sicher ein anderes
+        Lied.
+
+                                                                                        /2 P.
+
+
+
+                                            22
+                        MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+   d) gesucht: Wahrscheinlichkeit dafür, dass Go als zweites Lied
+      gespielt wird
+
+          Zweigwahrscheinlichkeit für Go auf der zweiten Stufe des
+                            1
+          Baumdiagramms:                                                       (1)
+                            3
+
+                                            3 1 1
+           Anwenden der Pfadregel:              (Kürzen nicht erforderlich) (1)
+                                            4 3 4
+
+                                                                                     /2 P.
+
+
+
+
+Bewertungsschlüssel MSA
+
+Punkte       Prozente      Mittlerer Schulabschluss (Note)
+
+
+ 72 - 80       ≥90                               1
+
+ 60 - 71       ≥75                               2
+
+ 48 - 59       ≥60                               3
+
+ 36 - 47       ≥45                               4
+
+ 18 - 35       ≥22                               5
+
+ 17 - 0        <22                               6
+
+
+
+
+                                                23
+MSA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+                        24
+

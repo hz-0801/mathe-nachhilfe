@@ -1,0 +1,1127 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2025 MSA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=c202f9b8be915d794edbb52b553a4de1
+ABRUF: 2026-09-27
+SEITEN: 12
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                       MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 1.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 30 Minuten
+
+Bearbeitungszeit:         insgesamt 135 Minuten, davon höchstens
+                          45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                     MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A Kurzformaufgaben
+
+A1   Das Gesamtvermögen eines Milliardärs wurde im Jahr 2023 auf etwa
+     200 Milliarden Euro geschätzt.
+
+     Gib an, wie viele 100-Euro-Scheine das sind.
+
+     Lösung: _____________________________
+
+                                                                          / 1 P.
+
+A2   Kreuze die Innenwinkelsumme des Sechsecks an.
+
+        720°
+
+        1080°
+
+        1440°
+
+
+
+
+                                                                          /1 P.
+
+A3   Aus kleinen Holzwürfeln sind diese Figuren gebaut worden.
+
+
+
+
+     Aus Figur 3 soll nach dem gleichen Muster Figur 4 gebaut werden.
+
+     Kreuze an, wie viele kleine Holzwürfel zusätzlich benötigt werden.
+
+        12
+
+        24
+
+        36
+
+                                                                          /1 P.
+
+
+
+                                            4
+                     MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A4   Kreuze an, welcher Begriff jeweils zu den zwei Wertetabellen gehört.
+
+                                                                        linear
+        x      0      1       2        3         4        5        6
+                                                                        quadratisch
+       f(x)    8      3       0        -1        0        3        8
+                                                                        exponentiell
+
+
+
+
+                                                                        linear
+        x      0     1        2        3         4        5        6
+                                                                        quadratisch
+       f(x)   0,8   3,2     5,6        8        10,4   12,8      15,2
+                                                                        exponentiell
+
+
+                                                                                 /2 P.
+
+A5   Die beiden Glücksräder sollen nacheinander gedreht werden.
+     Die Wahrscheinlichkeit P (H; H) für einen Hauptgewinn soll 10 %
+     betragen.
+
+
+
+
+     Beschrifte das rechte Glücksrad so, dass die Wahrscheinlichkeit für
+     einen Hauptgewinn P (H; H) bei 10 % liegt.
+
+                                                                                 /1 P.
+
+A6   Setze Klammern so, dass eine wahre Aussage entsteht.
+
+     12 – 2 · 4 – 2 = 8
+
+                                                                                 /1 P.
+
+
+
+
+                                            5
+                     MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A7   Der Flächeninhalt der abgebildeten Fläche soll bestimmt werden.
+
+
+
+
+     Kreuze die ungefähre Größe des Flächeninhalts an.
+
+        41 cm2
+
+        54 cm2
+
+        79 cm2
+
+                                                                        /1 P.
+
+A8   Bestimme den Abstand des Punktes P von der Geraden g.
+
+
+
+
+     Lösung: _________ cm
+
+                                                                        /1 P.
+
+
+
+
+                                            6
+                         MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A9   Im Koordinatensystem ist der Graph der Funktion f abgebildet.
+
+
+
+
+     a) Begründe, dass der Graph f die Funktionsgleichung
+        f (x )  (x  2)  ( x  4) abbildet.
+
+
+
+
+                                                                            /1 P.
+
+     b) Eine der drei folgenden Funktionsgleichungen wird nicht durch den
+        Graphen f dargestellt. Kreuze diese an.
+
+            f (x )  (x  3)2  1
+
+
+            f (x )  x 2  6 x  8
+
+
+            f ( x )  3x 2  1
+
+                                                                            /1 P.
+
+
+
+
+                                                7
+                       MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A10   Die Grafik stellt den Verkauf von CD-Alben in den Jahren 2002 bis
+      2022 dar.
+
+
+
+
+      a) Gib die Anzahl der verkauften CD-Alben im Jahr 2002 an.
+
+         Lösung: ______ Millionen Stück
+
+                                                                                     /1 P.
+
+                                                                          2
+      b) Jonas behauptet: „Von 2017 bis 2022 ist der Verkauf um
+                                                                          3
+         zurückgegangen.“
+
+         Entscheide und begründe, ob Jonas mit dieser Aussage recht
+         hat.
+
+            Ja, Jonas hat recht.
+
+            Nein, Jonas hat nicht recht.
+
+         Begründung:
+
+
+
+
+                                                                              /0 oder 2 P.
+
+
+
+
+                                              8
+                           MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A11   Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+                                                                     wahr     falsch
+       54  252
+
+        9  7  16
+       0,1  0, 2  0, 2
+
+
+                                                                                       /3 P.
+
+A12   Gegeben ist die folgende Gleichung:
+
+      4 x  7  41
+
+      Kreuze die Lösung für x an.
+
+          x=8
+
+          x = 8,5
+
+          x = 12
+
+                                                                                       /1 P.
+
+                                                         2
+A13   Gegeben ist der folgende Term: (x  3)
+
+      Kreuze den gleichwertigen Term an.
+
+          x2  32
+
+          9x2
+
+          x2  6x  9
+
+                                                                                       /1 P.
+
+
+
+
+                                                  9
+                        MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A14   Gegeben ist das Dreieck ABC.
+
+
+
+
+      Anne berechnet die Seite a dieses Dreiecks auf die folgende Weise:
+
+      tan(21 °) ⋅ 6,5 cm = a
+
+      Erkläre, warum Anne so nicht rechnen kann.
+
+      Erklärung:
+
+
+
+
+                                                                           /1 P.
+
+
+
+
+                                              10
+                      MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A15   Eine der drei kleinen Figuren ergänzt die große Figur zu einem
+      Quader.
+
+      a) Welche? Kreuze an.
+
+
+
+
+                                                                         /1 P.
+
+      b) Gib an, aus wie vielen kleinen Würfeln der vervollständigte
+         Quader aus a) besteht.
+
+         Lösung: _____ Würfel
+
+                                                                         / 1P.
+
+A16   Gegeben ist das Dreieck ABC mit den Seitenlängen a=3 cm, b=5 cm
+      und c=4 cm.
+
+      Zeige, dass das Dreieck ABC rechtwinklig ist.
+
+
+
+
+                                                                         /1 P.
+
+
+
+
+                                            11
+                       MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A17   Das folgende Foto zeigt das Kunstwerk „Der Stuhl“.
+
+
+
+
+      Gib die Höhe des ganzen Stuhls an und beschreibe dein Vorgehen.
+
+
+
+
+                                                                          /2 P.
+
+A18   Ein Blatt Papier ist ungefähr 0,1 mm dick.
+
+      Kreuze an, wie viele Blätter ungefähr in einem 2 cm hohen
+      Papierstapel sind.
+
+         20
+
+         200
+
+         2000
+
+                                                                          /1 P.
+
+
+
+
+                                             12
+                      MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A19   Beschreibe einen zweistufigen Zufallsversuch, der durch dieses
+      Baumdiagramm dargestellt wird.
+
+
+
+
+                                                                         /2 P.
+
+A20   Zeige, dass ein Zehntel des Kreises grau gefärbt ist.
+
+
+
+
+                                                                         /1 P.
+
+
+                                            13
+                      MSA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A21   Die abgebildete Pyramide wird senkrecht zur Grundfläche in zwei
+      Teilkörper zerschnitten (siehe Abbildung).
+
+
+
+
+      Prüfe folgende Aussagen. Kreuze jeweils an.
+
+
+                                                                wahr     falsch
+       Das Volumen der beiden Teilkörper ist
+       zusammen genau so groß wie das Volumen
+       der Pyramide.
+       Der Oberflächeninhalt der beiden Teilkörper
+       ist zusammen genau so groß wie der
+       Oberflächeninhalt der Pyramide.
+       Die durch das Zerschneiden entstandenen
+       Teilkörper sind Prismen.
+
+                                                                                  /3 P.
+
+
+
+
+                                            14
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2025 MSA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=e15e32a9103ca97fabab3209e16dfe08
+ABRUF: 2026-09-27
+SEITEN: 20
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                       MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 2.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 30 Minuten
+
+Bearbeitungszeit:         insgesamt 135 Minuten, davon höchstens
+                          45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+B1: Trigonometrie                                         Nord-Ostsee-Kanal
+
+(1) Jasper steht auf einem 20 m hohen Aussichtsturm und blickt auf den Nord-
+    Ostsee-Kanal. Mit einem digitalen Winkelmessgerät misst er einige Winkel.
+    Am vorderen Ufer steht sein Freund Ben (siehe Skizze).
+    Die Skizze ist nicht maßstabsgetreu.
+
+
+
+
+    a) Gib die Größe des Winkels β an.
+
+                                                                          /1 P.
+
+    b) Zeige, dass Ben etwa 32 m vom Turm entfernt steht.
+
+                                                                          /2 P.
+
+    c) Berechne die ungefähre Breite des Nord-Ostsee-Kanals.
+
+                                                                          /3 P.
+
+
+
+
+                                             4
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+(2) Ein Schiff benötigt für die Strecke von A nach B 25 Sekunden.
+
+
+
+
+                                                         1 m/s = 3,6 km/h
+
+
+
+
+    a) Berechne die Geschwindigkeit des Schiffes in km/h.
+
+                                                                            /2 P.
+
+
+
+    b) Jasper möchte die Größe des Winkels α bestimmen.
+       Benenne den mathematischen Satz, den Jasper hierfür benötigt.
+
+                                                                            /1 P.
+
+
+
+
+                                             5
+                       MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) Das Segel eines Segelschiffes hat annähernd die Form eines
+    gleichschenkligen Dreiecks (siehe Skizze).
+
+
+
+
+     a) Gib die Größe des Winkels α an.
+
+                                                                             /1 P.
+
+     b) Berechne den Flächeninhalt des Segels in m².
+
+                                                                             /3 P.
+
+     c) Jasper möchte nachweisen, dass sich bei einer Verdopplung der
+        Seitenlängen der Flächeninhalt des Dreiecks vervierfacht. Dafür fertigt er
+        folgende Skizze an:
+
+
+
+
+        Erkläre, warum Jasper das mit der Skizze zeigt.
+
+                                                                             /2 P.
+
+
+                                              6
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+B2: Stereometrie                       zylinderförmige Knetmasse
+
+Eine Schulklasse arbeitet im Mathematik-Unterricht mit Knetmasse. Jede
+Schülerin und jeder Schüler bekommt ein zylinderförmiges Stück.
+
+
+
+
+(1) Berechne das Volumen dieses Zylinders in mm³.
+
+                                                                         /3 P.
+
+(2) a) Ein Schüler schneidet seine Knetmasse in Scheiben:
+
+
+
+
+        Nenne den Namen des entstandenen Körpers.
+
+                                                                         /1 P.
+
+    b) Gib an, wie viele dieser Scheiben er herstellen kann.
+
+                                                                         /1 P.
+
+
+
+
+                                             7
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+(3) Eine Schülerin möchte aus ihrer Knetmasse eine Kugel
+    mit einem Radius r = 24 mm formen.
+
+    Zeige, dass ihr Material dafür ausreicht.
+
+    Wenn du das Volumen des Zylinders nicht bestimmen
+    konntest, verwende V = 58 000 mm³.
+
+                                                                             /3 P.
+
+(4) Eine Gruppe von Schülerinnen und Schülern möchte gemeinsam aus
+    ihren Zylindern einen größeren Zylinder formen. Er soll den dreifachen
+    Radius haben; die Körperhöhe bleibt gleich.
+
+    Gib an, wie viele Stücke gebraucht werden.
+
+                                                                             /1 P.
+
+
+
+
+                                             8
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(5) Die Knetmasse-Zylinder sollen in einer Schachtel gelagert werden. Von
+    oben betrachtet sieht die Schachtel so aus:
+
+
+
+
+     a) Gib die Breite s der Schachtel an.
+
+                                                                            /1 P.
+
+     b) Ohne Deckel wird für die Schachtel Material mit einer Fläche
+        von 716,8 cm² verbraucht.
+
+        Die Schachtel soll nun einen Deckel erhalten. Die Fläche des
+        nötigen Materials erhöht sich dadurch auf 972,8 cm².
+
+        Berechne, um wieviel Prozent der Materialbedarf steigt.
+
+                                                                            /2 P.
+
+
+
+
+                                             9
+                 MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+c) Damit die Zylinder in der Schachtel nicht aneinanderkleben,
+   werden sie mit rechteckig zugeschnittener Folie umwickelt.
+
+   Die Folie überlappt sich um 5 mm.
+
+
+
+
+   Berechne den Flächeninhalt eines Folienstücks in mm².
+
+                                                                    /3 P.
+
+
+
+
+                                       10
+                       MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                                            Welle
+
+Johanna hat auf dem Tablet eine Kurve in einer Mathesoftware skizziert. Das
+Programm erkennt in Johannas Skizze eine Funktion und hat den abgebildeten
+Funktionsgraphen f daraus erstellt. Die zugehörige Funktionsgleichung ist ihr zu
+kompliziert. Daher versucht Johanna die Kurve abschnittweise mit ihr bekannten
+Funktionen anzunähern.
+
+
+
+
+(1) a) Gib die Anzahl der Nullstellen von f im abgebildeten Bereich an.
+
+                                                                            /1 P.
+
+     b) Zwischen dem Koordinatenursprung (0|0) und dem Punkt A (2|0) soll
+        der Graph von f mit einer Parabel angenähert werden.
+
+        Gib den Scheitelpunkt einer geeigneten Parabel an.
+
+                                                                            /1 P.
+
+
+
+
+                                             11
+                       MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+(2) Johanna gibt die Funktionsgleichung g(x )  1,5  x  u   v in die Software
+                                                                          2
+
+
+
+     ein. Um die zugehörige Parabel g zu verschieben, kann Johanna mit einem
+     Schieberegler für u und v verschiedene Werte zwischen −5 und 5 einstellen.
+
+
+
+
+     a) Beschreibe, wie sich die Position der Parabel g verändert, wenn am
+        Schieberegler für v ein kleinerer Wert eingestellt wird.
+
+                                                                              /1 P.
+
+     b) Johanna möchte, dass sich die Parabel g im Bereich zwischen dem
+        Koordinatenursprung und dem Punkt A möglichst gut dem Graphen von f
+        annähert.
+
+        Gib einen passenden Wert an, den Johanna am Schieberegler für u
+        einstellen kann.
+
+                                                                              /1 P.
+
+     c) Aus der Scheitelpunktform erhält Johanna die Funktion i mit der
+        Funktionsgleichung i  x   1,5x 2  3x
+        Die Funktion f hat zwei ihrer Nullstellen bei x1  0 und x2  2 .
+
+
+        Zeige, dass die Funktion i diese Nullstellen auch hat.
+                                                                              /3 P.
+
+
+
+                                             12
+                 MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+d) Johanna probiert verschiedene Werte für u und v aus. Es gelingt ihr aber
+   nicht, die Funktion f im Bereich zwischen dem Punkt (−2|0) und dem
+   Koordinatenursprung anzunähern.
+
+   Begründe, warum es ihr nicht gelingen kann.
+
+                                                                      /2 P.
+
+
+
+
+                                       13
+                       MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B3
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) Johanna nähert Abschnitte der Kurve mit Geraden an.
+
+
+
+
+     a) Eine Gerade h soll im Bereich um den Punkt (-2|0) den Graphen von f
+        möglichst gut annähern. Eine der folgenden Geradengleichungen erfüllt
+        diese Bedingung.
+
+
+
+        Kreuze an.
+
+        ☐ h1  2,2 x  4, 4
+
+        ☐ h2  2,2 x  4, 4
+
+        ☐ h3  2,2 x  4, 4
+
+                                                                            /1 P.
+
+     b) Johanna lässt sich mit der Software die Koordinaten zweier Punkte
+        B (–0,5|–1,05) und C (0,5|1,05) auf der Kurve anzeigen (siehe
+        Abbildung).
+
+        Bestimme die Gleichung der Geraden k, die durch die Punkte B und C
+        verläuft.
+
+                                                                            /3 P.
+
+
+                                             14
+                 MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+c) Johanna betrachtet den Verlauf des Graphen von f. Sie überlegt, ob es
+   anstatt der Geraden auch eine Exponentialfunktion gibt, die durch die
+   Punkte B (–0,5|–1,05) und C (0,5|1,05) verläuft. Sie wählt dafür die
+                                                 21 x
+   Funktion e mit der Funktionsgleichung e(x )     4 .
+                                                 40
+
+
+
+   Überprüfe jeweils, ob die Punkte B und C auf dem Graphen von e
+   liegen.
+
+                                                                      /2 P.
+
+
+
+
+                                       15
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+B4: Statistik und Wahrscheinlichkeit                                     Playlist
+
+Emre hat sich auf dem Handy eine Playlist aus 12 Liedern
+zusammengestellt. Er hat die SHUFFLE-Funktion für eine
+zufällige Wiedergabe der Lieder eingestellt.
+
+
+
+
+(1) Gestern hat Emre als erstes und zweites Lied
+    Come on gehört.
+
+    Bestimme die Wahrscheinlichkeit dafür,
+    dass Come on zufällig als erstes und gleich danach
+    noch einmal als zweites Lied gespielt wird.
+
+                                                                             /2 P.
+
+(2) Auf seinem Schulweg hört Emre immer vier Lieder. Dabei startet er niemals
+    mitten in einem Lied, sondern lässt sein Handy zum Anfang eines Liedes
+    springen.
+
+    a) Gib einen Term an, mit dem die Anzahl aller möglichen Kombinationen
+       von vier aufeinander folgenden Liedern berechnet werden kann.
+       Wiederholungen von Liedern sind erlaubt.
+
+                                                                             /1 P.
+
+    b) Beschreibe ein Zufallsexperiment, mit dem die zufällige Wiedergabe
+       einer Abfolge von vier Liedern aus Emres Playlist modelliert werden
+       kann.
+
+                                                                             /2 P.
+
+
+
+
+                                            16
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+(3) Häufig kommt bei den vier Liedern auf Emres Schulweg ein Lied doppelt
+    vor. Emre wundert sich darüber und simuliert das Zufallsexperiment
+    „zufällige Wiedergabe“ mit einer Tabellenkalkulation:
+
+
+
+
+    Das Tabellenkalkulationsprogramm erzeugt ganzzahlige Zufallszahlen im
+    Bereich von 1 bis 12. Die vier erzeugten Zufallszahlen stehen in den Zellen
+    D1 bis G1.
+
+    a) In Zelle C5 steht:
+
+
+          =ZÄHLENWENN(D1:G1;A5)
+
+
+        Beschreibe die Bedeutung der ausgegebenen Zahl in Zelle C5 im
+        Sachzusammenhang.
+
+                                                                           /1 P.
+
+    b) In Zelle C16 hat Emre folgende Formel eingegeben:
+
+
+          =SUMME(C4:C15)
+
+
+
+        Begründe, dass in Zelle C16 immer der Wert 4 angezeigt wird, auch
+        wenn sich die zufällige Liedauswahl in Zeile 1 ändert.
+
+                                                                           /1 P.
+
+
+
+
+                                            17
+                 MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+c) Emre lässt in den Zellen D1 bis G1 der Tabelle 10-mal die Zufallszahlen
+   neu ausgegeben. Dabei kam 3-mal ein Lied doppelt vor.
+
+   Entscheide jeweils durch Ankreuzen, ob die folgenden Aussagen wahr
+   oder falsch sind.
+
+
+                                                                    wahr   falsch
+    Die Simulation hat gezeigt, dass die                             ☐       ☐
+    Wahrscheinlichkeit für ein doppelt gespieltes Lied
+     3
+        beträgt.
+    10
+    Es kann sein, dass bei den nächsten 10                           ☐       ☐
+    Durchführungen der Simulation 7-mal ein Lied
+    doppelt gespielt wird.
+
+
+                                                                              /2 P.
+
+
+
+
+                                       18
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B4
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(4) Emre verändert seine Einstellung im Handy: Alle 12 Lieder der Playlist
+    werden in zufälliger Reihenfolge ohne Wiederholung abgespielt.
+    Auf dem nächsten Schulweg fehlen noch genau vier Lieder der Playlist.
+    Eines der vier Lieder ist Go.
+    Für die Abfolge der fehlenden vier Lieder beginnt Emre, ein Baumdiagramm
+    zu zeichnen:
+
+
+
+
+     a) Trage in den weißen Kasten die fehlende Wahrscheinlichkeit ein.
+
+                                                                           /1 P.
+
+     b) Gib die Bedeutung der Wahrscheinlichkeit in dem weißen Kasten im
+        Sachzusammenhang an.
+
+                                                                           /1 P.
+
+     c) Emre überlegt: „Wenn an einem Pfad des Baumdiagramms Go steht,
+        dann ist es unnötig, diesen Pfad noch weiter zu zeichnen.“
+
+        Beurteile Emres Überlegung.
+
+                                                                           /2 P.
+
+     d) Bestimme die Wahrscheinlichkeit dafür, dass Go als zweites Lied
+        gespielt wird.
+
+                                                                           /2 P.
+
+
+
+
+                                            19
+                      MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Bewertungsübersicht
+
+                                                          max.           erreichte
+                                                         Punkte           Punkte
+Heft 1                                                       32
+
+Heft 2:     B1                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B2                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B3                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B4                                                9
+
+      Wahlteil     ja        nein                           6
+
+Gesamtpunktzahl                                              80
+
+
+Bewertungsschlüssel MSA
+
+Punkte     Prozente   Mittlerer Schulabschluss (Note)
+
+
+ 72 - 80     ≥90                             1
+
+ 60 - 71     ≥75                             2
+
+ 48 - 59     ≥60                             3
+
+ 36 - 47     ≥45                             4
+
+ 18 - 35     ≥22                             5
+
+ 17 - 0      <22                             6
+
+
+
+
+                                             20
+MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+                      21
+MSA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+                      22
+

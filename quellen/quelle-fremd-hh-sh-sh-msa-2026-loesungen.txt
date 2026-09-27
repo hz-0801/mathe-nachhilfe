@@ -1,0 +1,898 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2026 MSA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=f0eebb8db07b9c32d83c1c1ff527249c
+ABRUF: 2026-09-27
+SEITEN: 24
+LIZENZVERMERK: © MBWFK, Kiel 2026; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2026
+
+
+
+
+   Korrekturanweisung
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+
+© MBWFK, Kiel 2026
+                     MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben                                                          Lösungen
+
+A1   Kreuze den Term an, der gleichwertig zu                          ist.
+
+                                 6
+
+                                                                                  /1 P.
+
+A2   Die Abbildung zeigt ein Punktemuster.
+
+
+
+
+        1. Figur         2. Figur            3. Figur            4. Figur
+
+
+     a) Gib die Anzahl der Punkte für die 3. Figur an.
+
+        8
+
+                                                                                  /1 P.
+
+     b) Mit welchem Term kann die Anzahl der Punkte der x-ten Figur
+        berechnet werden? Kreuze an.
+
+        6
+
+                                                                                  /1 P.
+
+A3   Zeichne die Senkrechte zu der Geraden g durch den Punkt P ein.
+
+
+
+
+                     g
+
+                                                                                  /1 P.
+
+
+                                              3
+                     MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A4   Der Graph zeigt die Länge der gefahrenen Strecke eines PKW in
+     Abhängigkeit von der Zeit.
+
+     Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+
+
+                                                                      wahr      falsch
+
+     Der PKW fährt die ersten zwei Stunden mit                              6
+     gleichbleibender Geschwindigkeit.
+
+     Nach der Pause ist die Geschwindigkeit höher als                             6
+     vor der Pause.
+
+     Die durchschnittliche Geschwindigkeit über die                         6
+     gesamte Fahrtstrecke beträgt 50 km/h.
+
+
+                                                                                         /3 P.
+
+
+
+
+                                              4
+                     MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A5   Gib die Länge der Strecke x an.
+
+
+
+
+     x = 9 cm
+
+                                                                                         /1 P.
+
+A6   Eine quadratische Funktion ist durch folgende Funktionsgleichung
+                                .
+
+     Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+                                                                      wahr      falsch
+
+     Die Parabel f hat genau eine Nullstelle.                               6
+
+     Im Vergleich zur Normalparabel ist diese                                     6
+     Parabel f nach rechts verschoben.
+
+     Der Scheitelpunkt dieser Parabel f liegt auf der                             6
+     y-Achse.
+
+
+                                                                                         /3 P.
+
+A7   Schreibe in der allgemeinen Form (Normalform).
+
+
+
+
+                                                                                         /1 P.
+
+
+
+
+                                              5
+                      MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A8   Widerlege jede Behauptung durch ein Gegenbeispiel.
+
+     a) Jede Primzahl ist ungerade.
+
+         2 ist eine Primzahl. 2 ist eine gerade Zahl.
+
+                                                                             /1 P.
+
+     b) Die Summe zweier Quadratzahlen ist ebenfalls eine Quadratzahl.
+
+         Zum Beispiel: 1² + 2² = 1 + 4 = 5. 5 ist keine Quadratzahl.
+
+                                                                             /1 P.
+
+     c) Das Quadrat der Zahl ist immer größer als die Zahl, die quadriert wurde.
+
+         Zum Beispiel: 1² = 1. 1² ist nicht größer als 1.
+
+                                                                             /1 P.
+
+A9   Setze Klammern so, dass eine wahre Aussage entsteht.
+
+
+
+
+                                                                             /1 P.
+
+A10 Ergänze die Abbildung zum Netz einer quadratischen Pyramide.
+
+     Beispiel:
+
+
+
+
+     Die Dreiecke sollen kongruent und gleichschenklig sein.
+     Die Höhe über der Basis im Dreieck muss größer als zwei Kästchen sein.
+
+                                                                             /1 P.
+
+
+
+
+                                               6
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A11 Zeichne eine Gerade g durch den Ursprung, deren Steigung doppelt so
+    groß ist wie die Steigung der dargestellten Geraden f.
+
+
+
+
+                                                                                  /1 P.
+
+A12 Der Würfel und der Quader haben das gleiche Volumen.
+    Kreuze die richtige Körperhöhe k an.
+
+
+
+
+       k = 12 cm                6 k = 24 cm                           k = 36 cm
+
+                                                                                  /1 P.
+
+
+
+
+                                             7
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A13 Auf dem Tisch liegen verdeckt 8 Karten. Jeweils 4 Karten mit dem Symbol
+    Herz und 4 mit dem Symbol Kreuz.
+
+
+
+
+    Dann sagt er zu Harry: „Du deckst die nächste Karte auf. Wenn diese wieder
+    Herz zeigt, gewinnst du. In allen anderen Fällen gewinne ich.“
+
+    Begründe, ob es sich um ein faires Spiel handelt.
+
+    Eine mögliche Lösung:
+    Die Wahrscheinlichkeit, eine weitere Herz-Karte zu ziehen, beträgt     und
+
+    ist dementsprechend geringer als die Wahrscheinlichkeit, eine Kreuz-Karte
+    zu ziehen. Die Wahrscheinlichkeit dafür liegt bei             .
+
+    Das Spiel ist dementsprechend nicht fair.
+
+                                                                            /1 P.
+
+A14 Bei einem Test sind 15 von 25 Antworten richtig.
+    Kreuze den passenden Prozentsatz an.
+
+       15 %                        30 %                           6 60 %
+
+                                                                            /1 P.
+
+
+
+
+                                             8
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A15 Zeichne alle Symmetrieachsen in dieses Drachenviereck ein.
+
+
+
+
+                                                                           /1 P.
+
+A16 Begründe, dass sich aus den folgenden Angaben kein Dreieck konstruieren
+    lässt.
+    a = 4 cm, b = 3 cm, c = 8 cm
+
+    Zum Beispiel: Die Seite c ist mit 8 cm zu lang. Ein Dreieck kann dann
+    konstruiert werden, wenn die beiden kürzeren Seiten zusammen länger sind
+    als die längste Seite im Dreieck.
+    (Ein Hinweis auf die Dreiecksungleichung ist ausreichend.)
+
+
+
+                                                                           /1 P.
+
+
+
+
+                                             9
+                      MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A17     des großen Quadrats soll grau gefärbt sein.
+
+      Gib den Anteil der Gesamtfläche an, der dafür noch gefärbt werden muss.
+
+
+
+
+      noch zu färbender Anteil:
+
+
+
+
+                                                                             /1 P.
+
+A18 Gib die Lösungen dieser Gleichung an.
+
+
+
+
+          4          −4
+
+                                                                             /1 P.
+
+A19 Gib den Anteil der grau gefärbten Fläche in Prozent an.
+
+
+
+
+                                          90 %
+
+                                                                             /1 P.
+
+
+
+
+                                              10
+                   MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A20 Vier Personen wurden nach der Größe ihrer Wohnungen gefragt.
+    Die durchschnittliche Wohnfläche der Befragten war 70 m².
+    Gib den fehlenden Wert an.
+
+    74 m²; 60 m²; 80 m²; 66 m²
+
+                                                                            /1 P.
+
+A21 Der achtjährige Johann steht in einem Objekt.
+    Kreuze den ungefähren Umfang des Objekts an.
+
+
+
+
+       3m                      6 8m                                  13 m
+
+                                                                            /1 P.
+
+A22 Kreuze die wahre Aussage an.
+
+                               6
+
+                                                                            /1 P.
+
+
+
+
+                                           11
+                     MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A23 Die graue Figur soll so auf drei Felder der Hundertertafel gelegt werden,
+    dass die Summe der abgedeckten Zahlen 75 beträgt.
+    Die Figur darf nicht gedreht werden.
+
+
+
+
+     a) Zeichne ein, wohin die Figur gelegt werden muss.
+
+
+
+
+                                                                                /1 P.
+
+     b) Gib die größte Summe an, die mit der grauen Figur abgedeckt werden
+        kann.
+
+        297 oder auch 98+99+100
+                                                                                /1 P.
+
+A24 Gib die Größe des grau gekennzeichneten Winkels an.
+
+
+
+
+                                                           125°
+
+
+
+
+     Abweichungen bis 2° werden akzeptiert.
+                                                                                /1 P.
+
+
+                                             12
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+B1: Trigonometrie                                       Fahrrad – Lösungen
+
+(1) a) gesucht: STR-Wert
+
+
+       STR-Wert:
+
+
+                                                                                 /1 P.
+
+    b) gesucht: Größe der Winkel und 
+
+       Ansatz: oder überTangens im rechtwinkligen Dreieck            (1)
+
+
+                                  oder                                     (1)
+
+
+                          oder
+
+                   oder                                                    (1)
+
+                                                                                 /3 P.
+
+    c) gesucht: entsprechendes Dreieck im Maßstab 1:5
+
+       Konstruktion der Strecken s und r mit den Längen
+       10,9 cm ≤ s ≤ 11,1 cm und 6,9 cm ≤ r ≤ 7,1 cm                       (1)
+
+       Konstruktion des rechten Winkels zwischen s und r
+       und Ergänzung zu einem Dreieck                                      (1)
+
+                                                                                 /2 P.
+
+
+
+
+                                            13
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+(2) a) gesucht: Kreisbogenlänge zwischen zwei Speichen in Zentimetern
+
+
+        Ansatz:    des Reifenumfangs                                       (1)
+
+
+                                                                           (1)
+
+
+                                                                                 /2 P.
+
+    b) gesucht: Größe des Mittelpunktswinkels 
+
+
+
+
+                                                                                 /1 P.
+
+
+Wahlteil zu B1
+
+(3) a) gesucht: Größe des Winkels 
+
+        Ansatz: Kosinussatz                                                (1)
+
+        Umstellen nach                                                    (1)
+
+
+                                                                           (1)
+
+
+                                                                                 /3 P.
+
+    b) gesucht: Seitenlänge b in Zentimetern
+
+        Berechnung von  über die Winkelsumme:
+
+                                                                           (1)
+
+        Ansatz: Sinussatz                                                  (1)
+
+
+                                                                           (1)
+
+
+                                                                                 /3 P.
+
+
+
+
+                                            14
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+B2: Stereometrie                           Mansarddach – Lösungen
+
+(1) gesucht: Zuordnung
+
+
+
+
+    der Begriffe mit den passenden Skizzen durch Pfeile werden ebenfalls
+    akzeptiert.
+
+                                                                                 /1 P.
+
+(2) gesucht: Berechnung der Länge s in Metern
+
+    Ansatz: Satz des Pythagoras                                            (1)
+
+    Bestimmung der fehlenden Seitenlänge im rechtwinkligen Dreieck:
+
+
+                                                                           (1)
+
+
+
+                                                                           (1)
+
+
+                                                                                 /3 P.
+
+
+
+
+                                            15
+                     MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+(3) a) gesucht: Anzahl der Ziegel
+
+                                                                            (1)
+
+                                                                            (1)
+
+
+                                                                            (1)
+
+
+                                                                                  /3 P.
+
+    b) gesucht: Nachweis, dass Enrico recht hat.
+
+                                                                            (1)
+
+        Möglicher Rückschluss:
+
+        3,686 t sind mehr als 3 t                                           (1)
+
+                                                                                  /2 P.
+
+
+
+
+                                             16
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+
+(4) a) gesucht: geometrischer Körper
+
+        (Dreiecks)prisma
+
+                                                                                 /1 P.
+
+    b) gesucht: Begründung
+
+        Die fehlerhafte Darstellung der Berechnung des Flächeninhalts des
+        Dreiecks im Term wird als Argument genannt.                    (1)
+
+        Begründungen, die berücksichtigen, dass mit dem gegebenen Term das
+        Volumen eines Quaders berechnet werden kann, es sich aber nicht um
+        ein Quader handelt, werden ebenso akzeptiert.
+
+                                                                                 /1 P.
+
+    c) gesucht: Volumen des Spitzdaches in Kubikmetern
+
+
+                                                                           (1)
+
+
+                                                                           (1)
+
+                                                                                 /2 P.
+
+    d) gesucht: Volumen des grau gefärbten Teils in Kubikmetern
+
+
+                                                                           (1)
+
+
+                                                                           (1)
+
+                                                                                 /2 P.
+
+
+
+
+                                            17
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                        Dynamisches Dreieck
+                                                              – Lösungen
+
+(1) a) gesucht: Einträge in der Wertetabelle
+
+
+            x           0           3             5            10
+
+            y           6         4,8             4             2
+
+
+                                                                                 /2 P.
+
+    b) gesucht: Nullstelle der Funktion g
+
+                                                                           (1)
+
+                                                                           (1)
+
+                                                                                 /2 P.
+
+(2) gesucht: Flächeninhalt des grauen Dreiecks
+
+
+                                                                           (1)
+
+
+                                                                           (1)
+
+
+                                                                                 /2 P.
+
+(3) a) gesucht: Koordinaten des Scheitelpunkts von f
+
+        x-Koordinate: 7,5                                                  (1)
+
+        y-Koordinate: ≈ 11,25                                              (1)
+
+        Schätzwerte für y mit 11,2 < y ≤12 werden akzeptiert.
+
+                                                                                 /2 P.
+
+    b) gesucht: Punktprobe für einen Punkt aus der Tabelle
+
+
+        Zum Beispiel:
+
+
+                                                                                 /1 P.
+
+
+
+                                            18
+                   MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B3
+
+(4) a) gesucht: Hypotenusenlänge
+
+       Ansatz: Satz des Pythagoras                                        (1)
+
+
+                                                                          (1)
+
+
+                                                                                /2 P.
+
+    b) gesucht: geometrische Überprüfung einer Abstandsbedingung
+
+       gesucht ist der (kürzeste) Abstand von B zur Geraden g.            (1)
+
+       Es genügt zu überprüfen, ob              senkrecht auf g steht.    (1)
+
+                                                                                /2 P.
+
+    c) gesucht: Geradengleichung für h
+
+
+       Steigung:                                                          (1)
+
+
+       y-Achsenabschnitt = 0                                              (1)
+
+
+
+       Beides kann durch die Geradengleichung
+
+
+
+
+       angegeben werden.
+
+
+
+                                                                                /2 P.
+
+
+
+
+                                           19
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+B4: Statistik und                                  10 Kugeln – Lösungen
+    Wahrscheinlichkeit
+
+(1) gesucht: Begründung
+
+    Beispiel: Es wären vor der zweiten Ziehung sonst 11 Kugeln in der
+    Schachtel. So viele stehen nicht zur Verfügung.
+
+                                                                           /1 P.
+
+(2) a) gesucht: Anzahl der Kugeln in der Schachtel
+
+        6 Kugeln
+
+                                                                           /1 P.
+
+    b) gesucht: fehlende Wahrscheinlichkeiten im Baumdiagramm
+
+
+
+
+        Je ein Punkt für die beiden Wahrscheinlichkeiten
+
+                                                                           /2 P.
+
+
+
+
+                                            20
+                     MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+(3) gesucht: Wahrscheinlichkeit für zwei Kugeln mit gleicher Farbe
+
+    Produkte:
+
+
+                                                                            (1)
+
+
+    Summe:
+
+
+                                                                            (1)
+
+
+                                                                                  /2 P.
+
+(4) a) gesucht: Begründung
+
+        Mögliche Begründung:
+
+        Nach dem Ziehen einer Kugel wird neben der zurückgelegten Kugel noch
+        eine weitere Kugel der gleichen Farbe hinzugefügt. Dementsprechend
+        gibt es dann vier Kugeln der gleichen Farbe. Damit sind nur Ereignisse
+        mit der Wahrscheinlichkeit 0 oder 1 möglich.
+
+                                                                                  /1 P.
+
+
+    b) gesucht: Ereignis, dessen Wahrscheinlichkeit                  ist.
+
+
+        Zum Beispiel:
+
+        Es werden zwei schwarze Kugeln gezogen.
+
+                                                                                  /1 P.
+
+    c) gesucht: unmögliches Ereignis
+
+        Zum Beispiel:
+
+        Eine der gezogenen Kugeln ist weiß.
+
+                                                                                  /1 P.
+
+
+
+
+                                             21
+                    MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B4
+
+(5) gesucht: Widerlegung der Behauptung
+
+    Zum Beispiel:
+    Im ersten Zug sind 9 und im zweiten Zug 10 Kugeln in der Schachtel.
+    Damit ist die Gesamtzahl aller möglichen Ergebnisse 90 und ein Ereignis mit
+                                   nicht möglich.
+
+
+                                                                                 /1 P.
+
+(6) gesucht: Grundwert
+
+    Ansatz: Prozentrechnung                                                (1)
+
+                                                                           (1)
+
+                                                                                 /2 P.
+
+(7) gesucht: Säulendiagramm
+
+
+
+
+    richtiger Diagrammtyp                                                  (1)
+
+    korrekte Säulenlängen                                                  (1)
+
+    Beschriftung                                                           (1)
+
+                                                                                 /3 P.
+
+
+
+
+                                            22
+                      MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+Bewertungsschlüssel MSA
+
+
+
+Punkte     Prozente      Mittlerer Schulabschluss (Note)
+
+ 72 - 80     ≥90                               1
+
+ 60 - 71     ≥75                               2
+
+ 48 - 59     ≥60                               3
+
+ 36 - 47     ≥45                               4
+
+ 18 - 35     ≥22                               5
+
+ 17 - 0      <22                               6
+
+
+
+
+                                              23
+MSA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+                        24
+

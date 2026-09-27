@@ -1,0 +1,522 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2024 ESA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=d9f7caa7f352c444e7722876efe839fa
+ABRUF: 2026-09-27
+SEITEN: 12
+LIZENZVERMERK: © MBWFK, Kiel 2024; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2024
+
+
+
+
+              Korrekturanweisung
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWFK, Kiel 2024
+                         ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben                                                             Lösungen
+
+A1   Ergänze die vier fehlenden Ziffern.
+
+
+         4   2   6   5
+
+     +       3   2   4
+
+         4   5   8   9
+
+                                                                                     /1 P.
+
+A2   Cemal nutzt ein Tabellenkalkulationsprogramm, um das Volumen und den
+     Oberflächeninhalt von Quadern zu ermitteln.
+
+
+
+
+     a) Gib das Volumen und den Oberflächeninhalt des abgebildeten Quaders
+        an.
+
+
+
+                                                 V = 24 cm³
+
+                                                 O = 52 cm²
+
+
+
+
+                                                                                     /1 P.
+
+     b) Welche Formel steht in der Zelle D2? Kreuze an.
+
+         ☐ =2*A2*B2+2*A2*C2+2*B2*C2
+
+         ☒ =A2*B2*C2
+
+         ☐ =4*A2+4*B2+4*C2
+
+                                                                                     /1 P.
+
+
+                                                  3
+                     ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A3   Der Punkt C (5│-2) wird an der y-Achse gespiegelt.
+     Kreuze den richtigen Spiegelpunkt C‘ an.
+
+     ☐ C' (5│2)                  ☒ C' (-5│-2)                      ☐ C' (2│-5)
+
+                                                                                          /1 P.
+
+A4   Es soll 13 ∙ 24 berechnet werden.
+     Prüfe jeweils, ob der angegebene Rechenweg richtig ist.
+
+     Kreuze an.
+
+
+                                                                 wahr            falsch
+
+
+                   13 ∙ 20 + 13 ∙ 4                                ☒               ☐
+
+
+                   10 ∙ 20 + 3 ∙ 4                                 ☐               ☒
+
+
+          10 ∙ 20 + 10 ∙ 4 + 3 ∙ 20 + 3 ∙ 4                        ☒               ☐
+
+     Zwei richtige Antworten 1 Punkt, drei richtige Antworten 2 Punkte
+
+                                                                                          /2 P.
+
+A5   Weitere Würfelgebäude sollen nach gleichem Muster gebaut werden.
+
+
+
+
+     a) Gib die Würfelanzahl für das 5. Würfelgebäude an.
+
+      Lösung: 20 Würfel
+                                                                                          /1 P.
+
+     b) Gib die Würfelanzahl für das 9. Würfelgebäude an.
+
+      Lösung: 36 Würfel
+                                                                                          /1 P.
+
+
+
+
+                                              4
+                     ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A6   Der 9. Jahrgang der Gebrüder-Grimm-Schule besteht aus drei Klassen.
+
+
+
+
+     Welche Aussagen stimmen? Kreuze jeweils an.
+
+
+                                                                      wahr      falsch
+     Die Anzahl der Schülerinnen und Schüler aller
+                                                                            ☒     ☐
+     drei Klassen ist gleich groß.
+     In der Klasse 9b sind die meisten Jungen.                              ☐     ☒
+
+     Genau ein Drittel aller Schülerinnen und Schüler
+                                                                            ☐     ☒
+     des 9. Jahrgangs sind Jungen.
+     Zwei richtige Antworten 1 Punkt, drei richtige Antworten 2 Punkte
+
+                                                                                         /2 P.
+
+
+A7    150 liegt zwischen
+
+     ☐ 11 und 12                 ☒ 12 und 13                       ☐ 13 und 14
+
+                                                                                         /1 P.
+
+A8   60% der Lehrkräfte einer Schule kommen mit dem Fahrrad zur Schule. Das
+     sind 45 Lehrkräfte. 12% kommen mit dem Auto.
+     Wie viele Lehrkräfte kommen mit dem Auto zur Schule?
+
+     Kreuze an.
+
+     ☐ 72                        ☒9                                ☐ 28
+
+                                                                                         /1 P.
+
+
+                                              5
+                        ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A9   Prüfe, ob man die „die Hälfte der Zahl x“ so schreiben kann.
+
+     Kreuze an.
+
+
+                   ja           nein
+      1
+        x          ☒             ☐
+      2
+           1
+      x:            ☐             ☒
+           2
+     Zwei richtige Antworten 1 Punkt
+
+                                                                               /1 P.
+
+A10 In einer Dose befinden sich verschiedenfarbige Gummibärchen:
+    11 rote, 8 gelbe und 5 grüne Gummibärchen.
+    Karla greift ohne hinzusehen einmal in die Dose.
+
+     a) Gib die Wahrscheinlichkeit an, dass sie ein gelbes Gummibärchen
+        bekommt.
+                   8
+        Lösung:
+                  24
+
+                                                                               /1 P.
+
+     b) Gib die Wahrscheinlichkeit an, dass sie kein rotes Gummibärchen
+        bekommt.
+                   13
+         Lösung:
+                   24
+                                                                               /1 P.
+
+A11 Auf dem Geobrett ist ein Parallelogramm gespannt.
+    Zeichne auf dem leeren Geobrett ein Rechteck mit einem gleichgroßen
+    Flächeninhalt ein.
+
+     Eine mögliche Lösung:
+
+
+
+
+                                                                               /1 P.
+
+
+                                                 6
+                     ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+A12 Die Punkte A, B und C sollen die Eckpunkte eines Dreiecks ABC sein.
+    Zeichne einen Punkt C so ein, dass das Dreieck stumpfwinklig ist.
+
+     Eine mögliche Lösung:
+
+
+
+
+                                                                            /1 P.
+
+A13 Ergänze die Tabelle der proportionalen Zuordnung.
+
+
+       Anzahl         2                5               10
+        Preis        7€           17,50 €             35 €
+
+
+                                                                            /2 P.
+
+A14 Zerlege das folgende Dreieck in zwei rechtwinklige Teildreiecke.
+    Zeichne eine Lösung ein.
+
+     Das Markieren des rechten Winkels ist nicht notwendig.
+
+
+
+
+     Mögliche Lösungen:
+
+
+
+
+                                                                            /1 P.
+
+
+
+
+                                              7
+                      ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                 Paketdienst – Lösungen
+(1)
+
+      a) gesucht: Anzahl der Packstationen im Jahr 2021
+
+      7000                                                                   (1)
+
+                                                                                   /1 P.
+
+      b) gesucht: Anstieg von 2008 bis 2023 in Prozent.
+
+      Anzahl 2008: 1500; Anzahl 2023: 15 000                                 (1)
+
+      15 000 : 1500 = 10                                                     (1)
+
+      Anstieg um 900 %                                                       (1)
+
+      Die Anzahl der Packstationen ist um 900 % gestiegen.
+
+                                                                                   /3 P.
+
+(2)
+
+      a) gesucht: Portokosten in Euro
+
+      10,49 Euro                                                             (1)
+
+                                                                                   /1 P.
+
+      b) gesucht: Volumen von Paket XL in Kubikzentimeter
+
+      Ansatz Quadervolumen                                                   (1)
+
+      V = 120 cm  60 cm  60 cm = 432 000 cm3                               (1)
+
+      Das Quadervolumen beträgt 432 000 cm3.
+
+                                                                                   /2 P.
+
+(3)
+      a) gesucht: Anteil von Paketdienst A
+
+                          1
+      ca. 33 % oder ca.                                                      (1)
+                          3
+
+                                                                                   /1 P.
+
+
+
+                                               8
+                        ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+      b) gesucht: Anzahl versendeter Pakete von Paketdienst B
+
+      p = 0,25                                                                 (1)
+
+      12 000 ⋅ 0,25 = 3 000                                                    (1)
+
+      Es wurden 3 000 Pakete von Paketdienst B versendet.
+
+                                                                                     /2 P.
+
+(4) gesucht: Nachweis, dass der Vergleich stimmt
+
+      Ansatz Kreisumfang                                                       (1)
+
+      u  30    12740  1200000                                             (1)
+
+                                                                                     /2 P.
+
+
+WAHLTEIL
+(5) gesucht: Nachweis, dass mehr als 24 Schachteln hineinpassen
+
+      Ansatz Parkettierung                                                     (1)
+
+      3  3  3 > 24                                                           (1)
+
+      Ja, das stimmt.                                                          (1)
+
+                                                                                     /3 P.
+
+(6)
+
+      a) gesucht: Wahrscheinlichkeit als Bruch
+
+        3
+                                                                               (1)
+      10000
+
+                                                                                     /1 P.
+
+      b) gesucht: Anzahl der verlorenen Pakete im Jahr 2023
+
+      Ansatz Prozentrechnung                                                   (1)
+
+      928 Mio.  0,0003 = 278 400                                              (1)
+
+      Es gingen 278 400 Pakete verloren.
+                                                                                     /2 P.
+
+                                                 9
+                       ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+B2: Komplexaufgabe                                  Kieler Woche – Lösung
+
+(1)
+      a) gesucht: Anzahl Besucher 2019
+
+         3 400 000                                                            (1)
+
+                                                                                    /1 P.
+
+      b) gesucht: Nachweis, dass Merle recht hat
+
+         Ansatz: Anteilsbestimmung                                            (1)
+
+         2 900 000 : 3 800 000 ≈ 0,76
+
+         alternativ: 3,8 Mio. ∙ 0,75 = 2,85 Mio. ≈ 2,9 Mio.                   (1)
+
+                                                                                / 2 P.
+
+(2)
+      a) gesucht: Überprüfung, ob die Segelfläche den Anforderungen entspricht
+
+
+
+         Ansatz: Flächeninhalt Dreieck                                        (1)
+
+         A = 4,93 ⋅ 3,70 ⋅ 0,5 ≈ 9,12                                         (1)
+
+         Das Boot erfüllt die Bedingung.                                      (1)
+
+                                                                                    /3 P.
+
+      b) gesucht: Bestimmung der Streckenlänge in Kilometern
+
+         Ansatz: Pythagoras                                                   (1)
+
+                  2     2
+         c=   2,8 +2,6 ≈ 3,8                                                  (1)
+
+
+         s ≈ 2,8 + 2,6 + 3,8      9,2                                         (1)
+
+         Die Strecke ist ungefähr 9,2 km lang.
+
+         Ein gerundeter Wert von 9 km ist ebenfalls zulässig.
+
+                                                                                    3 P.
+
+
+
+                                               10
+                      ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+(3) gesucht: Größe des Flächeninhalts
+    Ansatz Flächeninhaltsberechnung                                          (1)
+
+      A = 230 ⋅ 38 - 44 ⋅ 20 oder A = 186 ⋅ 38 + 44 ⋅ 18
+
+      oder A = 230 ⋅ 18    20 ⋅ 186                                          (1)
+
+      A = 7 860 m2                                                           (1)
+
+      Der Flächeninhalt der Parkplatzfläche beträgt 7 860 m².
+
+                                                                                   /3 P.
+
+
+WAHLTEIL
+(4)
+
+      a) gesucht: Wahrscheinlichkeit
+
+         60 : 500 = 12 %                                                     (1)
+
+                                                                                   /1 P.
+
+      b) gesucht: Entscheidung und Begründung
+
+         Die Anzahl der Hauptgewinne blieb gleich,
+
+         die Anzahl aller Lose sank.                                         (1)
+
+         Karl hat recht.                                                     (1)
+
+                                                                                   /2 P.
+
+      c) gesucht: Anzahl der mindestens zu ziehenden Lose
+
+         13 Lose                                                             (1)
+
+                                                                                   /1 P.
+
+      d) gesucht: Beschriftung des Glücksrades
+
+         Übertragung auf Zehntel                                             (1)
+
+         N: 6 Felder, K: 2 Felder, M: ein Feld, H: ein Feld                  (1)
+
+                                                                                   /2 P.
+
+
+
+
+                                              11
+                    ESA Mathematik Korrekturanweisung 2024 (c) MBWFK S-H
+
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte   Prozente           Erster allgemeinbildender
+                            Schulabschluss (Note)
+45-50    ≥90                     1
+38-44    ≥75                     2
+30-37    ≥60                     3
+23-29    ≥45                     4
+11-22    ≥22                     5
+ 0-10    <22                     6
+
+
+
+
+                                            12
+

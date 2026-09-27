@@ -1,0 +1,4630 @@
+QUELLE: Hamburg, Mittlerer Schulabschluss – Mathematik, Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben (BSFB, Hamburg, Februar 2026; überarbeitete Aufgaben aus ehemaligen Prüfungen)
+ADRESSE: https://www.hamburg.de/resource/blob/119936/b73233db5493c2d41a195f636073d0b6/msa-hinweise-und-beispiele-zu-den-zentralen-schriftlichen-pruefungsaufgaben-mathematik-data.pdf
+ABRUF: 2026-09-27
+SEITEN: 93
+LIZENZVERMERK: Alle Rechte vorbehalten.
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Mittlerer Schulabschluss – Mathematik
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+          Schriftliche Prüfung zum
+          mittleren Schulabschluss
+
+
+                           Mathematik
+
+Hinweise und Beispiele zu den zentralen
+         schriftlichen Prüfungsaufgaben
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+Impressum
+
+
+
+Herausgeber:
+Freie und Hansestadt Hamburg
+Behörde für Schule, Familie und Berufsbildung
+Hamburger Straße 31, 22083 Hamburg
+
+
+
+Referatsleitung Mathematisch-naturwissenschaftlich-technischer Unterricht:
+
+Dr. Najibulla Karim
+
+
+Fachreferentin Mathematik für Stadtteilschulen:
+
+Anna Catharina Serck
+
+
+
+
+Redaktion:
+
+Jirko Michalski
+Lis Nielsen
+Carsten Reich
+Anna Catharina Serck
+Christine Töllner
+
+
+Vorwort und Schlussredaktion:
+
+Dr. Najibulla Karim
+Anna Catharina Serck
+
+
+Alle Rechte vorbehalten.
+
+Internet: http://www.hamburg.de/abschlusspruefungen
+
+Hamburg, Februar 2026
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+
+Inhaltsverzeichnis
+
+
+1. Vorwort ............................................................................................ 4
+2. Liste der Arbeitsaufträge ..................................................................... 6
+3. Aufgabenübersicht .............................................................................. 9
+4. Aufgaben, die ohne Einsatz des Taschenrechners bearbeitet werden
+      4.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen ............ 11
+      4.2 Beispiele zu den zentralen Prüfungsaufgaben ................................ 34
+5. Komplexe Aufgaben zu den Leitideen mit Einsatz des Taschenrechners
+      5.1 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen ..... 57
+      5.2 Aufgaben zur Leitidee funktionaler Zusammenhang ........................ 69
+      5.3 Aufgaben zur Leitidee Daten und Zufall ......................................... 81
+
+
+
+
+                                                                                                            3
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+1. Vorwort
+
+Sehr geehrte Kolleginnen und Kollegen,
+
+die vorliegende Handreichung versteht sich als Ergänzung zu den Regelungen für die zentralen
+schriftlichen Prüfungsaufgaben und enthält Übungsaufgaben sowie Beispiele zur
+Vorbereitung auf die zentralen schriftlichen Abschlussprüfungen zum Erwerb des mittleren
+Schulabschlusses (MSA) im Fach Mathematik. Die Aufgaben dieser Handreichung basieren auf
+überarbeiteten Aufgaben aus ehemaligen Prüfungen.
+Vor dem Hintergrund der veränderten Rahmenbedingungen der schriftlichen MSA-Prüfung,
+insbesondere der Anpassung der Aufgabenstruktur und der Gewichtung der
+Aufgabenbereiche, wurde die Handreichung überprüft und inhaltlich weiterentwickelt. Ziel ist
+es, Lehrkräften sowie Schülerinnen und Schülern eine verlässliche Orientierung und eine
+gezielte Vorbereitung auf die aktuellen Prüfungsanforderungen zu ermöglichen.
+Die Aufgabenstellungen berücksichtigen den Rahmenplan Mathematik für die Stadtteilschule
+sowie die in den Bildungsstandards der Kultusministerkonferenz für den mittleren
+Schulabschluss formulierten zentralen Ideen (Leitideen) und Anforderungen.
+
+    •   Für den hilfsmittelfreien Teil stehen den Prüflingen mehrere Aufgabensätze zur
+        Verfügung, die in Umfang, Aufbau und Anforderungsniveau an das aktuelle
+        Prüfungsformat angepasst sind. Dieser Aufgabenteil ist für alle Prüflinge verpflichtend.
+    •   Im hilfsmittelgestützten Teil ist die Aufgabe zur Leitidee „Messen sowie Raum und
+        Form“ als Pflichtaufgabe vorgesehen und wird mit 25 Bewertungseinheiten gewichtet.
+    •   Zusätzlich beinhaltet die Prüfung eine Wahlaufgabe, bei der die Prüflinge zwischen
+        einer Aufgabe zur Leitidee „Funktionaler Zusammenhang“ und einer Aufgabe zur
+        Leitidee „Daten und Zufall“ wählen. Beide Aufgaben sind jeweils mit 20
+        Bewertungseinheiten gewichtet. Die Aufgaben im hilfsmittelgestützten Teil sind nach
+        Leitideen geordnet, berücksichtigen die aktuellen Schwerpunktsetzungen und sind
+        hinsichtlich Textumfang und Komplexität an die zeitlichen Rahmenbedingungen der
+        Prüfung angepasst.
+    •   Für die Schülerinnen und Schüler wurde eine Übersichtsseite aufgenommen, auf der
+        dokumentiert werden kann, welche Aufgaben wann und mit welchem Erfolg bearbeitet
+        wurden. Darüber hinaus enthält die Handreichung eine Übersicht über die in den
+        Aufgaben verwendeten verbindlichen Arbeitsaufträge (Operatoren).
+
+Die Lösungen und Bewertungshinweise zu den Aufgaben werden in einem separaten Heft zur
+Verfügung gestellt.
+
+In der Hoffnung, dass die vorliegende Handreichung Sie bei Ihrer Unterrichtsarbeit sowie bei
+der Vorbereitung Ihrer Schülerinnen und Schüler auf die schriftliche Abschlussprüfung
+unterstützt, wünschen wir Ihnen und Ihren Schülerinnen und Schülern viel Erfolg.
+
+Um die weitere Qualitätsentwicklung der Prüfungsaufgaben sind wir ständig bemüht, gern
+nehmen wir daher Ihre Rückmeldungen entgegen.
+
+
+Anna Catharina Serck                          Dr. Najibulla Karim
+Fachreferentin Mathematik                     Referatsleiter
+Stadtteilschulen                              MINT-Referat
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+2. Liste der Arbeitsaufträge
+
+Mehr noch als bei dezentralen Aufgaben, die immer im Kontext gemeinsamer Erfahrungen
+der Lehrenden und Lernenden mit vorherigen Klassenarbeiten stehen, müssen zentrale
+Prüfungsaufgaben für die Schülerinnen und Schüler eindeutig hinsichtlich des
+Arbeitsauftrages und der erwarteten Leistung formuliert sein. Die in den zentralen
+schriftlichen Prüfungsaufgaben verwendeten Arbeitsaufträge (Operatoren) werden in der
+folgenden Tabelle definiert und inhaltlich gefüllt. Entsprechende Formulierungen in den
+vorausgehenden Klassenarbeiten sind ein wichtiger Teil der Vorbereitung auf den mittleren
+Schulabschluss.
+
+Neben Definitionen und Beispielen enthält die Tabelle auch Zuordnungen zu den
+Anforderungsbereichen I, II und III wobei die konkrete Zuordnung auch vom Kontext der
+Aufgabenstellung abhängen kann und eine scharfe Trennung der Anforderungsbereiche nicht
+immer möglich ist.
+
+Anforderungsbereich I: Reproduzieren
+Dieser Anforderungsbereich umfasst die Wiedergabe und direkte Anwendung von
+grundlegenden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem
+wiederholenden Zusammenhang.
+Anforderungsbereich II: Zusammenhänge herstellen
+Dieser Anforderungsbereich umfasst das Bearbeiten bekannter Sachverhalte, indem
+Kenntnisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung
+mit Mathematik auf verschiedenen Gebieten erworben wurden.
+Anforderungsbereich III: Verallgemeinern und Reflektieren
+Dieser Anforderungsbereich umfasst das Bearbeiten komplexer Gegebenheiten u.a. mit dem
+Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen,
+Interpretationen oder Wertungen zu gelangen.
+
+
+    Arbeitsaufträge                    Definitionen                                Beispiele
+
+   angeben,               Formulierung eines Sachverhaltes,          Gib an, wofür die Variable m in der
+   nennen                 aufzählen von Fakten etc. ohne             Geradengleichung y = mx + b
+   I-II                   Begründung und ohne Lösungsweg             steht.
+                                                                     Nenne ein Beispiel, in dem lineare
+                                                                     Funktionen in der Realität auftreten.
+
+   auseinander-           kreativer Prozess, mindestens auf          Setze dich mit den Äußerungen der
+   setzen                 dem Anforderungsniveau II                  Schülerinnen und Schüler
+   II-III                                                            auseinander. (z. B.: Aufgabe 11,
+                                                                     Bildungsstandards)
+
+   auswählen              ohne Begründung aus mehreren               Wähle ohne Hilfe des
+   I-II                   Angeboten eines auswählen                  Taschenrechners diejenige Zahl
+                                                                     aus, die dem Wert von      199 am
+                                                                     nächsten kommt.
+
+   begründen              für einen angegebenen Sachverhalt          Begründe, warum der abgebildete
+   II-III                 einen Begründungszusammenhang              Graph die Situation nicht richtig
+                          herstellen                                 beschreibt.
+                                                                     Begründe, warum eine
+                                                                     quadratische Gleichung höchstens
+                                                                     zwei Lösungen hat.
+
+
+
+
+                                                                                                               5
+Mittlerer Schulabschluss Mathematik      Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+       Arbeitsaufträge                Definitionen                                Beispiele
+
+   berechnen              Ergebnis von einem Ansatz                Berechne ohne Benutzung des
+   I-II                   ausgehend durch nachvollziehbare         Taschenrechners den Wert des
+                          Rechenoperationen gewinnen               Terms 23 + 32 .
+                          Die Wahl der Mittel kann
+                          eingeschränkt sein.
+
+   beschreiben            Darstellung eines Sachverhalts oder      Beschreibe, wie sich A ändert,
+   II-III                 Verfahrens in Textform unter             wenn x größer wird.
+                          Verwendung der Fachsprache               Beschreibe, wie man den
+                          Hierbei sollten vollständige Sätze       Flächeninhalt dieser Figur
+                          gebildet werden. Es sind auch            bestimmen kann.
+                          Einschränkungen möglich.                 Beschreibe in Stichworten.
+
+
+   bestätigen             eine Aussage oder einen Sachverhalt      Bestätige rechnerisch, dass in
+   I-II                   durch Anwendung einfacher Mittel         diesem Fall die Wahrscheinlichkeit
+                          (rechnerisch wie argumentativ)           unter 10 % liegt.
+                          sichern
+
+   bestimmen,             Darstellung des Lösungsweges und         Bestimme die Lösung der
+   ermitteln              Formulierung des Ergebnisses             Gleichung x + x = 12 .
+   II-III                 Die Wahl der Mittel kann frei, unter     Bestimme die Lösung der
+                          Umständen auch eingeschränkt sein.       Gleichung 3x – 5 = 5x + 3 durch
+                                                                   Äquivalenzumformungen.
+                                                                   Bestimme grafisch den
+                                                                   Schnittpunkt.
+
+   beurteilen             zu einem Sachverhalt ein                 Beurteile, welche der beiden
+   III                    selbstständiges Urteil unter             vorgeschlagenen Funktionen das
+                          Verwendung von Fachwissen und            ursprüngliche Problem besser
+                          Fachmethoden formulieren                 darstellt.
+                                                                   Beurteile die Diskussion von Yildiz
+                                                                   und Sven.
+
+   entscheiden            sich bei Alternativen begründet und      Entscheide, mit welchen der
+   II-III                 eindeutig auf eine Möglichkeit           vorgeschlagenen Formeln man das
+                          festlegen                                Volumen des abgebildeten Körpers
+                                                                   berechnen kann.
+                                                                   Entscheide, welcher Graph zu
+                                                                   welcher Funktionsgleichung gehört.
+
+   ergänzen,              Tabellen, Ausdrücke oder Aussagen        Ergänze die fehlenden Werte.
+   vervollständigen       nach bereits vorliegenden Kriterien,     Vervollständige die Tabelle.
+   I                      Formeln oder Mustern füllen
+
+   erstellen              einen Sachverhalt in übersichtlicher,    Erstelle eine Wertetabelle für die
+   I-II                   meist fachlich üblicher oder             Funktion.
+                          vorgegebener Form darstellen             Erstelle eine Planfigur.
+
+   interpretieren         die Ergebnisse einer mathematischen Interpretiere deine Lösung in
+   II-III                 Überlegung auf das ursprüngliche    Bezug auf die ursprüngliche Frage.
+                          Problem rückübersetzen              Interpretiere die Bedeutung der
+                                                              Variablen d vor dem Hintergrund
+                                                              des Problems.
+
+
+
+
+   6
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Arbeitsaufträge                 Definitionen                                Beispiele
+
+   konstruieren           Die einzelnen Handlungsschritte zur        Konstruiere mit Hilfe von Zirkel
+   II-III                 Anfertigung einer genauen Zeichnung        und Lineal die Mittelsenkrechte der
+                          folgen einem mathematischen                Strecke AB .
+                          Konzept. Dies ist in der Zeichnung
+                                                                     Konstruiere mit Hilfe des
+                          erkennbar.
+                                                                     Geodreiecks ein Dreieck ABC mit
+                          Die Hilfsmittel werden benannt,            α = 25°, c = 4 cm, hc = 1,5 cm.
+                          müssen aber gegebenenfalls nicht
+                          alle verwendet werden.
+
+   skizzieren             grafische Darstellung der                  Skizziere den Verlauf des
+   I-II                   wesentlichen Eigenschaften eines           Graphen.
+                          Objektes, auch Freihandskizze              Skizziere die Figur, die im Text
+                          möglich                                    beschrieben wird.
+
+   vergleichen            nach vorgegebenen oder selbst         Vergleiche Umfang und
+   II-III                 gewählten Gesichtspunkten             Flächeninhalt der drei Figuren.
+                          Gemeinsamkeiten, Ähnlichkeiten und
+                          Unterschiede ermitteln und darstellen
+
+   zeichnen               möglichst genaue Anfertigung einer         Zeichne den Graphen der Funktion.
+   I-II                   grafischen Darstellung
+
+   zeigen,                eine Aussage, einen Sachverhalt            Zeige, dass das betrachtete Viereck
+   nachweisen             nach gültigen Schlussregeln,               ein Drachenviereck ist.
+   III                    Berechnungen, Herleitungen oder
+                          logischen Begründungen bestätigen
+
+   zuordnen               ohne tiefer gehende Erläuterung      Ordne die Füllgraphen den
+   I                      eine Verbindung zwischen zwei Listen Gefäßen zu.
+                          herstellen
+
+
+
+
+                                                                                                               7
+Mittlerer Schulabschluss Mathematik        Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+3. Aufgabenübersicht
+
+Aufgaben, die ohne Einsatz des Taschenrechners bearbeitet werden
+
+Aufgaben zur Überprüfung der Kompetenzen nach Leitideen
+
+           Leitidee              Seite       bearbeitet        kontrolliert     Punkte                      
+
+        Zahl – Teil 1                 10
+
+        Zahl – Teil 2                 12
+
+           Messen                     14
+
+       Raum und Form                  17
+      Funktionaler
+                                      20
+ Zusammenhang – Teil 1
+      Funktionaler
+                                      23
+ Zusammenhang – Teil 2
+   Daten und Zufall –
+                                      26
+         Teil 1
+   Daten und Zufall –
+                                      29
+         Teil 2
+
+
+Beispiele zu den zentralen Prüfungsaufgaben
+
+       Prüfungsaufgabe           Seite       bearbeitet        kontrolliert     Punkte                      
+
+         1. Beispiel                  33
+
+         2. Beispiel                  37
+
+         3. Beispiel                  41
+
+         4. Beispiel                  45
+
+         5. Beispiel                  49
+
+         6. Beispiel                  53
+
+
+
+
+   8
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Komplexe Aufgaben zu den Leitideen mit Einsatz des Taschenrechners
+
+Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen
+
+      Raum und Form
+                                  Seite      bearbeitet        kontrolliert    Punkte                        
+       sowie Messen
+         Wassertank                57
+
+         Kartenhaus                58
+
+          Windpark                 59
+     Der schiefe Turm
+                                   61
+         von Pisa
+            Billard                62
+
+        Ballschachtel              64
+
+    Water Walking Ball             65
+
+Aufgaben zur Leitidee funktionaler Zusammenhang
+
+        funktionaler
+                                  Seite      bearbeitet        kontrolliert    Punkte                        
+      Zusammenhang
+      Europa Passage               67
+ Feuerwerksraketen und
+                                   69
+     Wasserraketen
+    Besuch im Tierpark             71
+
+        Autofahrten                72
+
+         Parabelflug               74
+
+       Wasserfontäne               76
+
+            Flöhe                  77
+
+       Schützenfisch               78
+
+
+Aufgaben zur Leitidee Daten und Zufall
+
+     Daten und Zufall             Seite      bearbeitet        kontrolliert    Punkte                        
+
+        Schweinerei                79
+
+          Stadtbus                 81
+
+    (Gezinkte) Münzen              83
+
+       Klassendienste              85
+
+        Eiskunstlauf               87
+
+      Fremdsprachen                88
+
+        Blutgruppen                89
+
+    Hamburg-Marathon               91
+
+
+
+
+                                                                                                               9
+Mittlerer Schulabschluss Mathematik        Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+4.      Aufgaben, die ohne Einsatz des Taschenrechners
+        bearbeitet werden
+4.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen
+
+Mit den folgenden Tests kannst du deine Kompetenzen in den verschiedenen Leitideen
+überprüfen und herausfinden, in welchen Bereichen du noch üben musst.
+Von den jeweils angebotenen Lösungen ist immer genau eine richtig. Schreibe den
+zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“. Eine Begründung wird nicht
+verlangt.
+                                Leitidee „Zahl“ (Teil 1)
+
+
+        Aufgabe                            A               B                C                D          Lösung
+ 1.     33 ⋅ (−99) =                  −3 267                                               3 267
+                                                         −297              297
+ 2.
+        (−231) : (−3) =                −87                −77               77               87
+ 3.
+        (−3) + (−9) =                  −12                 −6               6                12
+
+ 4.
+        7 ⋅ 68 − 7 ⋅ 58 =               70                 98              156              544
+ 5.
+        6 − 4 : (7 − 3) =              0,25               0,5               5                25
+
+ 6.
+        12,755 auf
+        Hundertstel gerundet           12,7              12,75            12,76            12,8
+        ist
+ 7.
+        Die kleinste Zahl ist                                               1                1
+                                       0,2                0,5
+                                                                            7                8
+ 8.
+        Die größte Zahl ist           −0, 69            −0, 96           −0, 691          −0, 961
+
+ 9.
+        Genau in der Mitte
+                                       −1                −0,5               0               0,5
+        von −3 und +2 liegt
+ 10.
+
+                                       7,4                7,45             7,8              7,9
+        Der Pfeil markiert
+        den Wert
+ 11.
+        Wie groß ist die
+        Differenz von                      13              4                4                13
+                                       −
+         7       3                         40              2                40               40
+            und    ?
+        10       8
+ 12.
+        4 8                                1               2                21                  1
+         :   =                                                                              1
+        7 21                               6               3                56                  2
+ 13.
+        1
+          =                            0,01              0, 01             0,1              0, 1
+        9
+
+
+
+   10
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                             A                B              C                D          Lösung
+ 14.
+        1
+          − 0, 05 =                     0,075             0,12            0,2             1,75
+        8
+ 15.
+        a 1 2                             1                 b
+         ⋅ ⋅ ⋅b =                                                           1              2b
+        2 b a                             b2                a
+
+
+
+
+                                                                                                     muss ich
+  KOMPETENZEN:                                                                          kann ich
+                                                                                                      üben
+  Ich kann …
+
+  … mit rationalen Zahlen rechnen (Nr. 1, 2, 3).
+
+  … Rechenregeln anwenden (Nr. 4, 5).
+
+  … Ergebnisse sachgerecht runden (Nr. 6).
+
+  … Zahlen ordnen (Nr. 7, 8, 9, 10).
+
+  … mit Brüchen und Dezimalzahlen rechnen (Nr. 11, 12, 13, 14, 15).
+
+
+
+
+                                                                                                               11
+Mittlerer Schulabschluss Mathematik       Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                        Leitidee „Zahl“ (Teil 2)
+
+
+        Aufgabe                           A               B                C                D          Lösung
+ 1.
+        Welche graue Fläche
+        entspricht dem Anteil
+        von 60 %?
+
+ 2.
+        9 von 30 Kindern
+        haben kein Handy.                3%              9%              27 %             30 %
+        Das sind
+
+ 3.
+        Ein Kleid kostet 18 €.
+        Die Kundin bekommt
+                                       14,40 €           16 €             20 €           21,60 €
+        20 % Rabatt. Das
+        Kleid kostet jetzt
+
+ 4.
+        In einer 10. Klasse
+        sind 3 Schüler
+        18 Jahre alt. Das sind        12 Schüler     18 Schüler       24 Schüler       25 Schüler
+        12 % der Schüler.
+        Die Klasse hat also
+
+ 5.     Lena hat 480 € auf
+        ihrem Konto. Wie
+        hoch ist ihr Guthaben
+                                      472,80 €        487,20 €           552 €            720 €
+        nach einem Jahr bei
+        einem Zinssatz von
+        1,5 %?
+ 6.
+        Bei einem jährlichen
+        Zinssatz von 2 % ist
+        ein Kapital von
+                                      1 002,20 €       1 020 €        1 040,40 €         1 400 €
+        1 000 € nach zwei
+        Jahren angewachsen
+        auf
+ 7.     Joy überzieht ihr
+        Konto 3 Monate mit
+        500 €. Wie viel muss
+        sie bei einem                   500 €         512,50 €           550 €            650 €
+        jährlichen Zinssatz
+        von 10 % zurück
+        zahlen?
+ 8.
+        10 −4 =                        0,0001           0,001            1 000           10 000
+
+ 9.
+        0,064 =                        0, 0043          0, 043            0, 43             43
+
+ 10.
+        23 ⋅ 22 =                         25              26               45               46
+ 11.
+         8 liegt zwischen             1,5 und 2      2 und 2,5        2,5 und 3        3 und 3,5
+
+
+
+   12
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                             A                B              C                D          Lösung
+ 12.
+          25
+              =                           0,2              0, 3           0,4                6
+          625
+ 13.
+         3⋅ 3 =                             3               3            3⋅ 3               9
+
+ 14.         2
+        ( 8) =
+         3
+                                           2                4               6               8
+
+ 15.
+                                                                                      nicht lösbar
+         −4 =                             −2                2              16
+                                                                                         (in ℝ )
+
+
+
+                                                                                                     muss ich
+  KOMPETENZEN:                                                                          kann ich
+                                                                                                      üben
+  Ich kann …
+
+  … Aufgaben zur Prozentrechnung lösen (Nr. 1, 2, 3, 4).
+
+  … Aufgaben zur Zinsrechnung lösen (Nr. 5, 6, 7).
+  … die Potenzschreibweise anwenden und mit Potenzen rechnen
+    (Nr. 8, 9, 10).
+  … mit Wurzeln rechnen (Nr. 11, 12, 13, 14, 15).
+
+
+
+
+                                                                                                               13
+Mittlerer Schulabschluss Mathematik        Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                            Leitidee „Messen“
+
+
+        Aufgabe                            A               B                C                D          Lösung
+
+ 1.     Die Breite eines
+        Zeigefingers eines
+                                      0,0001 m          0,001 m          0,01 m            0,1 m
+        Erwachsenen beträgt
+        etwa
+
+ 2.     Der Winkel α hat
+        eine Größe von etwa
+                                          25°             115°            275°             335°
+
+
+
+
+ 3.     Die (Innen-)
+        Winkelsumme eines                 90°             180°            360°             540°
+        Drachens beträgt
+
+ 4.     α = 40°
+        β=                                70°             90°             110°             140°
+
+
+
+ 5.     In diesem Dreieck
+        gilt:
+                                      w 2 + v 2 = u2   v = w 2 − u2 w = u2 − v 2 u = v 2 − w 2
+
+
+
+
+ 6.     Ein Dreieck mit einer
+        Höhe von 6 cm und
+        einer Grundseite von
+        8 cm hat den                   a = 3 cm         a = 6 cm        a = 6 cm         a = 3 cm
+        gleichen                      b = 16 cm        b = 16 cm        b = 8 cm         b = 8 cm
+        Flächeninhalt wie ein
+        Rechteck mit den
+        Seiten
+
+ 7.     Der Umfang der Figur
+        beträgt
+
+
+                                       0,5⋅ π cm          π cm           2⋅ π cm          4⋅ π cm
+
+
+
+
+ 8. DEin Prisma hat eine
+    a Grundfläche von
+    s 7 cm2 und eine Höhe               28 cm3           28 cm2          14 cm3           14 cm2
+        von 4 cm. Das
+        Volumen beträgt
+
+
+   14
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                             A                B                C                D          Lösung
+
+ 9.    Ein Quader mit
+       einem                          a = 4 cm         a = 4 cm          a = 4 cm        a = 4 cm
+       Oberflächeninhalt              b = 3 cm         b = 3 cm          b = 2 cm        b = 3 cm
+       von 40 cm2 hat die
+                                      c = 1 cm         c = 2 cm          c = 2 cm         c = 3 cm
+       Kantenlängen
+
+ 10. Ein Rechteck mit
+     ganzzahligen
+     Seitenlängen hat
+     einen Umfang von                  14 cm2           20 cm2            32 cm2           35 cm2
+     24 cm. Der
+     Flächeninhalt ist
+     niemals
+
+ 11. Bestimme den
+     Umfang der Figur.
+
+                                        14 cm            16 cm             17 cm           18 cm
+
+
+
+       nicht maßstabsgerecht
+
+ 12. In diesem Dreieck
+     gilt:
+                                               b                 b                 c                b
+                                     tan β =           tan β =           tan γ =          tan γ =
+                                               a                 c                 a                c
+
+
+
+
+ 13. In einem
+     rechtwinkligen                   c ist die        a ist die          b ist die       b ist die
+     Dreieck ABC mit                 Hypotenuse       Ankathete          Hypotenuse      Ankathete
+     γ = 90° gilt nicht                 zu β            zu β                zu γ           zu α
+
+ 14. Die Größe des
+     Winkels α wird bei
+     der Taschenrechner-
+     eingabe angezeigt
+     mit
+                                     sin−1 (0,25)      sin−1 (0,5)        sin−1 (4)      sin−1 (40)
+
+
+
+
+       nicht maßstabsgerecht
+
+ 15. In folgendem Dreieck
+     gilt:
+
+                                       e    f           e     d            d     e        f     d
+                                         =                 =                  =              =
+                                     sinβ sinγ        sin β sin γ        sin β sin γ    sin β sin γ
+
+
+
+
+                                                                                                                 15
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                                muss ich
+ KOMPETENZEN:                                                                     kann ich
+                                                                                                 üben
+ Ich kann …
+
+ ... Winkel- und Alltagsgrößen schätzen (Nr. 1, 2).
+
+ ... die Winkelsumme in verschiedenen Flächen anwenden (Nr. 3, 4).
+
+ ... den Satz des Pythagoras anwenden (Nr. 5, 11).
+ ... den Umfang und den Flächeninhalt verschiedener Flächen
+     berechnen (Nr. 6, 7, 10).
+ ... das Volumen und den Oberflächeninhalt von Prismen berechnen
+     (Nr. 8, 9).
+ ... trigonometrische Beziehungen in einem rechtwinkligen Dreieck
+     bestimmen (Nr. 12, 13, 14).
+ ... den Sinussatz im beliebigen Dreieck anwenden (Nr. 15).
+
+
+
+
+   16
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+                                    Leitidee „Raum und Form“
+
+       Aufgabe                             A                B                C                D          Lösung
+
+ a)    Ein gestreckter
+                                          90°             180°             270°             360°
+       Winkel hat die Größe
+
+ b)    Welche Abbildung
+       zeigt einen stumpfen
+       Winkel?
+
+
+
+ c)    Dies ist kein
+
+                                      Parallelo-
+                                                        Drachen           Quadrat          Viereck
+                                       gramm
+
+
+
+ d)    Folgender Körper ist
+                                      Pyramide           Kegel             Würfel           Kugel
+       ein Prisma
+
+ e)    Die Oberfläche eines               2                2                  3              3
+       Dreiecksprismas                Dreiecken        Dreiecken          Dreiecken      Dreiecken
+       besteht aus                       und              und                und            und
+                                          3                2                  3              2
+                                     Rechtecken       Rechtecken         Rechtecken     Rechtecken
+
+ f)    Der Mantel eines
+       Zylinders hat die               Kreises         Dreiecks          Rechtecks       Kreisrings
+       Form eines
+
+ g)    Dieser
+       zusammengesetzte
+       Körper hat folgende
+       Teilflächen:
+                                                           1                 2
+                                                                                             2
+                                      2 Kreise         Halbkugel         Halbkugeln
+                                                                                        Halbkugeln
+                                        und               und               und
+                                                                                           und
+                                     1 Kreisring           2                 2
+                                                                                        1 Kreisring
+                                                       Kreisringe        Kreisringe
+
+
+
+
+ h)    Zu dem Körper passt
+       folgendes Netz:
+
+
+
+
+                                                                                                                 17
+Mittlerer Schulabschluss Mathematik         Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                            A                B                 C                D         Lösung
+
+ i)     Mit welchem der
+        angegebenen Punkte
+        lässt sich das
+        gleichschenklige
+        Trapez ABCD
+        zeichnen
+                                       D (4 1)           D (5 1)          D (1 4)          D (1 5)
+
+
+
+
+ j)     Der Punkt A (2 4)
+        wird um 3 Einheiten
+        nach links auf der             A' (5 4)          A' (5 1)         A' (5 7)         A' (−1 4)
+        x-Achse verschoben.
+        Er hat nun folgende
+        Koordinaten
+
+ k)     Der Punkt C (5 −2)
+        wird an der y-Achse
+                                       C' (5 2)        C' (−5 −2)        C' (−5 2)        C' (2 − 5)
+        gespiegelt.
+        Seine Koordinaten
+        lauten dann
+
+ l)     Ein gleichseitiges
+        Dreieck besitzt                     1                2                3                4
+        __ Symmetrieachsen
+
+ m) In folgendem Viereck                                                                  Parallelo-
+        liegt keine                    Rechteck         Drachen            Raute
+                                                                                           gramm
+        Punktsymmetrie vor
+
+ n)     Werden bei einem
+        Dreieck die
+        Grundseite und die                             doppelt so       dreifach so       vierfach so
+                                      gleich groß
+        Höhe verdoppelt, so                              groß              groß              groß
+        ist der neue
+        Flächeninhalt
+
+ o)     Das Volumen einer
+        Kugel berechnet sich
+                 4
+        mit V = π ⋅ r 3 .
+                 3                     4                  4             4                   4
+                                                                          π ⋅ (2 ⋅ r )
+                                                                                      3             2
+
+        Der Radius wird                  π ⋅ 2 ⋅ r3         π ⋅ r6                            π ⋅ r3
+                                       3                  3             3                   3
+        verdoppelt. Mit
+        welchem Term lässt
+        sich das Volumen
+        bestimmen?
+
+
+
+
+   18
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                                      muss ich
+  KOMPETENZEN:                                                                          kann ich
+                                                                                                       üben
+  Ich kann …
+
+  ... Winkel, Flächen und Körper klassifizieren (Nr. 1, 2, 3, 4).
+  ... Körper anhand ihrer Eigenschaften unterscheiden und zuordnen
+      (Nr. 5, 6, 7, 8).
+  ... in einem Koordinatensystem geometrische Figuren darstellen und
+      Punkte verschieben und spiegeln (Nr. 9, 10, 11).
+  ... Symmetrien erkennen (Nr. 12, 13).
+
+  ... Flächen und Körper gedanklich verändern (Nr. 14, 15).
+
+
+
+
+                                                                                                               19
+Mittlerer Schulabschluss Mathematik       Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                    Leitidee „Funktionaler Zusammenhang“ (Teil 1)
+
+        Aufgabe                           A               B                C                D          Lösung
+
+ 1.     Ein proportionaler
+        Zusammenhang wird
+        beschrieben durch                 1            −x + 1             2x             3x + 1
+        die Funktions-
+        gleichung f ( x ) =
+
+ 2.     Zur Funktion
+                 2
+        f ( x ) = x + 1 passt
+                 5
+        der Graph
+
+ 3.     Eine Gerade hat als
+        Graph die Funktions-                                                                2
+                                        2x 3             2x 2           2x + 1
+        gleichung f ( x ) =                                                                 x
+
+
+ 4.     Auf der Geraden g
+        mit der Funktions-
+        gleichung                     P (2 | −1)      P (1 | −1)       P (−1 | 1)      P (−1 | −1)
+        g ( x ) = 2x − 3
+        liegt der Punkt
+
+ 5.     Welcher Graph stellt
+        keine Funktion dar?
+
+
+
+
+ 6.     Für das Füllen eines
+        Beckens brauchen
+        2 gleichstarke
+        Pumpen 4 Std. Dann
+                                      1,4 Std.        1,6 Std.           2 Std.           9 Std.
+        brauchen
+        5 gleichstarke
+        Pumpen für das
+        Füllen dieses Beckens
+
+ 7.     Zwei Tickets kosten
+        46 €. Dann kosten               13 €             69 €             92 €            138 €
+        drei Tickets
+
+ 8.     Welche Gerade hat
+        die größte Steigung?          12               7                3                2
+                                         x − 16          x +3             x +6             x +9
+        f ( x) =                      13              13                5                5
+
+
+
+
+   20
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                              A               B                C              D          Lösung
+
+ 9.    In der Tabelle ist
+       eine antipropor-
+       tionale Zuordnung
+       dargestellt. Die
+       fehlende Länge
+       beträgt
+                                          0,20            0,40             0,80           1,80
+         Anzahl     Länge
+                     (m)
+
+            5       0,60
+
+           15
+
+
+ 10.
+
+
+
+
+                                            3               4
+                                                                            0,8             2
+                                            4               3
+
+
+       Die Gerade hat eine
+       Steigung von
+
+ 11. Eine proportionale
+                                                                            1
+     Zuordnung hat die                    ax 2             ax                 x            a2 x
+                                                                            a
+     allgemeine Form
+
+ 12. Welche der Geraden
+     g1 , g2 , g3 , g4
+                                       g1 ( x )        g2 ( x )          g3 ( x )        g4 ( x)
+       schneidet die Gerade
+       f ( x ) = 3x − 4               = 2x + 2         = 2x − 2          = x +2          = x −2
+
+       bei x = 2 ?
+
+ 13.    a  c                           ad − cb          ad − cb           a−c             a−c
+          − =
+        b d                              bd              b−d               bd             b−d
+
+ 14.    x5 ⋅ x3 ⋅ x4 =                     x−2             x12             3x 12           x 60
+
+ 15.    3b                                 1                                 1
+            =                                              3b                              33 b
+        32b                                3b                               33 b
+
+
+
+
+                                                                                                               21
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                                  muss ich
+  KOMPETENZEN:                                                                      kann ich
+                                                                                                   üben
+  Ich kann …
+  … proportionale und antiproportionale Zuordnungen erkennen und
+    berechnen (Nr. 1, 6, 7, 9, 11).
+  … Funktionen als eindeutige Zuordnung erkennen (Nr. 5).
+
+  … überprüfen, ob ein Punkt auf einer Geraden liegt (Nr. 4).
+  … bei einer linearen Funktion Funktionsgleichung und Graphen
+    zuordnen (Nr. 2, 3).
+  … anhand der Funktionsgleichung die Steigung des Graphen
+    beschreiben und bestimmen (Nr. 8, 10).
+  … die Koordinaten des Schnittpunkts zweier Geraden bestimmen
+    (Nr. 12).
+  … Terme umformen (Nr. 13, 14, 15).
+
+
+
+
+   22
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben      Mittlerer Schulabschluss Mathematik
+
+
+
+                    Leitidee „Funktionaler Zusammenhang“ (Teil 2)
+
+       Aufgabe                             A                  B                C                  D           Lösung
+
+ 1.    Welche Funktions-
+       gleichung stellt eine
+       nach oben geöffnete                1 2                 4 2            4
+       und gestauchte
+                                            x             −     x              x                3x 2
+                                          3                   3              3
+       Parabel dar?
+        f (x ) =
+
+
+ 2.    Auf der Parabel
+       mit der Funktions-
+       gleichung
+                                        P (2 | 3)         P (2 | 4)         P (2 | 6)        P (2 | 10 )
+                1
+        f (x ) = x 2 + 2
+                2
+       liegt der Punkt
+
+ 3.    Die Parabel mit der                               hat ihre
+       Funktionsgleichung             hat ihren         Nullstelle                           hat ihre
+                                                                          schneidet
+       f (x) = x 2 − 1                Scheitel-            im
+                                                                             die
+                                                                                            Nullstellen
+                                      punkt bei         Ursprung                                bei
+                                                                         y-Achse bei
+                                                       des Koordi-                           +1 und
+                                         (0 1)           naten-
+                                                                            y=1
+                                                                                                –1
+                                                        systems
+
+ 4.    Die Parabel mit der                               ihren             ihren
+       Funktionsgleichung               eine            Scheitel-         Scheitel-           keine
+       f ( x ) = x 2 − 2 hat          Nullstelle        punkt in          punkt in          Nullstellen
+                                      für x = 2          S (0 −2)          S (0 2)
+
+ 5.    Die Parabel mit der              ihre
+       Funktionsgleichung            Nullstellen           ihre             ihre
+                       2             bei x1 = 3                                               keine
+        f ( x) = ( x − 3) hat                           Nullstelle        Nullstelle
+                                                                                            Nullstellen
+                                         und            bei x = 3        bei x = −3
+                                       x2 = −3
+
+ 6.    Das Gleichungs-                                                                         hat
+                                                        hat genau        hat genau
+       system                         hat keine                                             unendlich
+       I. 2 x + 6y = 8                                     eine            zwei
+                                       Lösung                                                 viele
+                                                         Lösung          Lösungen
+        II. x + 3y = 4                                                                      Lösungen
+
+ 7.    Das Gleichungs-
+       system                           x = 16            x =8              x =4               x =8
+        I. 3x + 4y = 12
+                                        y = −7            y = −3            y = −1             y =3
+        II. 2 x + 4y = 4
+       hat die Lösung
+
+ 8.     (3 x − 5)( x + 4 ) =        3 x 2 + 17 x − 20 3 x 2 + 17 x + 20 3 x 2 + 7 x − 20   3 x 2 − 7 x + 20
+
+
+ 9.    Folgende Funktion
+       hat keine Nullstellen:           x2 − 1            x2 + 1          −x 2 + 1            −x2 + 2
+        f (x ) =
+
+
+
+                                                                                                                  23
+Mittlerer Schulabschluss Mathematik        Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                            A                B               C                D           Lösung
+
+ 10.
+
+
+
+
+                                                   2          2                  2               2
+                                        ( x −1)        ( x − 0) + 1     ( x + 0)        ( x + 0) − 1
+
+
+        Der Graph passt zur
+        Funktionsgleichung
+        f (x ) =
+
+ 11. Eine Parabel mit der
+                               2
+        Gleichung f ( x) = x
+        wird um 3 Einheiten
+        an der x-Achse nach             x2 + 3           ( x + 3)
+                                                                    2
+                                                                          x2 − 3          ( x − 3)
+                                                                                                     2
+
+        rechts verschoben.
+        Der neue
+        Funktionsterm ist
+        dann f ' ( x ) =
+
+ 12.    x1 = −4; x2 = 4
+                                               2                2
+        ist die Lösung der            ( x − 4) + 4     ( x + 4) − 4      x 2 − 16          x2 − 8
+        Gleichung
+        0=
+
+ 13. Eine Parabel der                  achsen-           achsen-         punkt-            punkt-
+     Form                                                               symme-
+                                       symme-            symme-                          symme-
+     f ( x ) = ax 2 + b                                                 trisch zu
+                                      trisch zur        trisch zur                      trisch zum
+        ist                            x-Achse           y-Achse         P (0 b)         Ursprung
+
+ 14. p % = 5 %
+        Somit beträgt die                0,05              0,5            1,05              1,5
+        Wachstumsrate a =
+
+ 15. Die Anzahl von
+     Bakterien eines
+     bestimmten
+     Bakteriums
+     verdoppelt sich alle
+     60 Minuten. Anfangs
+                                           4                5               6                7
+     wird eine Bakterie
+     auf eine Nährlösung
+     gegeben. Nach wie
+     vielen vollen Stunden
+     hat man mehr als
+     100 Bakterien?
+
+
+   24
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                                     muss ich
+  KOMPETENZEN:                                                                          kann ich
+                                                                                                      üben
+  Ich kann …
+  … die Eigenschaften einer Parabel anhand der Funktionsgleichung
+    erkennen (Nr. 1, 3, 13).
+  … überprüfen, ob eine Punkt auf einer Parabel liegt (Nr. 2).
+  … den Scheitelpunkt oder die Scheitelpunktsform einer Parabel
+    bestimmen (Nr. 4, 10, 11).
+  … die Nullstellen einer Parabel berechnen (Nr. 5, 9, 12).
+
+  … Gleichungssysteme rechnerisch lösen (Nr. 6, 7).
+
+  … das Distributivgesetz anwenden (Nr. 8).
+  … eine Wachstumsrate bestimmen oder ein exponentielles
+    Wachstum berechnen (Nr. 14, 15).
+
+
+
+
+                                                                                                               25
+Mittlerer Schulabschluss Mathematik       Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                Leitidee „Daten und Zufall“ (Teil 1)
+
+
+        Aufgabe                           A               B                C                D          Lösung
+
+ 1.     Folgendem
+        Diagramm entnimmt
+        man, dass
+                                      4 Kinder        3 Kinder         5 Kinder         4 Kinder
+                                         Cola           Milch            Limo             Milch
+                                       trinken         trinken          trinken          trinken
+
+
+
+
+ 2.     20 % der Schüler
+        einer Klasse haben
+        ein einfaches Handy,
+        60 % haben ein
+        Smartphone und der
+        Rest besitzt keines
+        von beiden. Zu dieser
+        Verteilung passt
+        folgendes Diagramm
+
+ 3.     Dieses Diagramm ist
+        ein                            Balken-        Säulen-          Streifen-         Kreis-
+                                      diagramm       diagramm         diagramm         diagramm
+
+
+ 4.     1
+             der Schüler einer
+        5
+        Klasse wählen Pizza
+        zum Mittagessen,
+         3
+           wählen Döner
+        10
+        und der Rest
+        entscheidet sich für
+        Spaghetti. Zu dieser
+        Verteilung passt
+        folgendes Diagramm
+
+ 5.     Welches Diagramm
+        passt zu folgender
+        Tabelle:
+            Klasse    Siege
+              9a        3
+              9b        2
+              9c        5
+
+ 6.     20 Schüler eines                                                Wahr-
+                                       relative       absolute                          absolute
+        Jahrgangs spielen                                             scheinlich-
+                                      Häufigkeit     Häufigkeit                        Häufigkeit
+        gerne Handball.                                                keit von
+                                      von 20 %         von 20                          von 20 %
+        Das ist eine                                                    20 %
+
+
+
+
+   26
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                             A                B                C                D          Lösung
+
+ 7.    17 von 51 Kindern
+       trinken gerne Kakao.                                                  1
+       Das entspricht einer               17             17 %                               30 %
+                                                                             3
+       relativen Häufigkeit
+       von
+
+ 8.
+           Farbe       Kinder
+
+            rot
+                                         eine             eine
+            blau                       relative         relative            eine           eine
+                                      Häufigkeit       Häufigkeit        Spannweite     Spannweite
+           weiß                        von 0,7         von 30 %            von 20         von 4
+                                       für weiß         für blau
+       Der Tabelle kann
+       man die folgende
+       Information
+       entnehmen
+
+ 9.    Ayse hat folgende
+       Noten:
+       Mathe: 1
+                                                                          1+3+2              3⋅3
+       Englisch: 3                    1+3+2           (1 + 3 + 2 ) ⋅ 3
+                                                                            3                 3
+       Deutsch: 2
+       Der Mittelwert wird
+       berechnet mit
+
+ 10. Den Unterschied
+     zwischen größter und              relative         Durch-
+                                                                         Mittelwert     Spannweite
+     kleinster Zahl einer             Häufigkeit        schnitt
+     Umfrage nennt man
+
+ 11. Familie Gür hat
+     folgende
+     Schuhgrößen:
+                                          37               38               38,5             39
+       23, 36, 38, 39, 41
+       und 45
+       Der Zentralwert ist
+
+ 12.
+
+
+                                       Balken-         Säulen-            Streifen-        Kreis-
+                                      diagramm        diagramm           diagramm        diagramm
+       Dieses Diagramm ist
+       ein
+
+
+
+
+                                                                                                                 27
+Mittlerer Schulabschluss Mathematik     Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                         A               B                C                D          Lösung
+
+ 13. Ein                               1: 1            1: 1             1: 0             1: 1
+     Notendurchschnitt                 2: 2            2: 2             2: 2             2: 2
+     von 3 passt zu                    3: 3            3: 3             3: 3             3: 3
+     folgender Verteilung              4: 2            4: 4             4: 2             4: 2
+                                       5: 1            5: 5             5: 1             5: 0
+
+ 14. 30 Schüler wurden
+     befragt, wie viel Zeit
+     sie für Hausaufgaben
+     pro Woche
+     aufwenden:
+
+         Stunden      Schüler
+             1            5
+                                        3              2,5               2               1,5
+             2           10
+             3           10
+             4            5
+
+        Im Durchschnitt
+        macht jeder Schüler
+        ___ Stunden
+        Hausaufgaben.
+
+ 15. Emil berichtet: „Ich
+     habe von Hamburg
+     nach München (etwa
+     800 km) 6,5 Stunden
+                                      80 km/h      120 km/h         180 km/h         250 km/h
+     gebraucht.“ Er fuhr
+     mit einer
+     durchschnittlichen
+     Geschwindigkeit von
+
+                                                                                                   muss ich
+ KOMPETENZEN:                                                                        kann ich
+                                                                                                    üben
+ Ich kann …
+
+ … Werte aus Diagrammen und Tabellen ablesen (Nr. 1, 2, 4, 5).
+
+ … Diagramme unterscheiden und benennen (Nr. 3, 12).
+
+ … absolute und relative Häufigkeiten berechnen (Nr. 6, 7).
+
+ … Spannweiten bestimmen (Nr. 8, 10).
+
+ … Zentralwerte bestimmen (Nr. 11).
+
+ … Mittelwerte berechnen (Nr. 9, 13, 14, 15).
+
+
+
+
+   28
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+                              Leitidee „Daten und Zufall“ (Teil 2)
+
+       Aufgabe                             A                B                  C              D          Lösung
+
+ 1.
+
+
+
+
+                                          1                1                   1              1
+                                          2                3                   4              8
+
+       Die Wahrscheinlich-
+       keit dafür, als
+       Ergebnis eine 4 zu
+       erhalten, beträgt
+
+ 2.    Die Wahrscheinlich-
+       keit dafür, mit einem
+       normalen Spielwürfel                6                3                   2             1
+       zweimal                            36               36                  36            36
+       hintereinander eine 3
+       zu würfeln, beträgt
+
+ 3.
+                                                                                          zweimal
+                                                                                         hinterein-
+                                       zweimal
+                                                                                         ander ein
+                                     hinterein-
+                                                                           2 von 4      Glücksrad
+                                     ander eine         zweimal
+                                                                           Streich-     mit 4 gleich
+                                        4 mit             eine
+                                                                           hölzern         großen
+                                        einem            Münze
+                                                                         ziehen, von      Feldern
+                                      normalen           werfen
+                                                                         denen eins        drehen
+                                     Spielwürfel
+       Zu dem                                                              kurz ist      (1 rotes,
+       Baumdiagramm                    würfeln
+                                                                                          3 blaue
+       passt das                                                                           Felder)
+       Zufallsereignis
+
+ 4.    Die
+       Wahrscheinlichkeit
+       dafür, bei einem
+       Wurf mit zwei                          1           1 1                  1 5          1 5
+       normalen                          2⋅                ⋅              2⋅    ⋅            ⋅
+       Spielwürfeln genau                     6           6 6                  6 6          6 6
+       eine 6 zu würfeln,
+       lässt sich berechnen
+       durch
+
+ 5.    In zwei Würfen eine
+       6 mit einem
+       normalen Spielwürfel
+       zu würfeln, passt zu
+       folgendem
+       Baumdiagramm mit
+       gerundeten
+       Wahrscheinlichkeiten
+
+
+
+
+                                                                                                                 29
+Mittlerer Schulabschluss Mathematik        Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                            A               B                C                D          Lösung
+
+ 6.     Die
+        Wahrscheinlichkeit
+        dafür, mit einer
+        Münze zweimal                    25 %          33,3 %             50 %            75 %
+        hintereinander das
+        gleiche Ergebnis zu
+        werfen, beträgt
+ 7.     Welches Ereignis hat
+        immer eine                         Eine          Das                           Das Ziehen
+        Wahrscheinlichkeit               zufällig      Würfeln        Das Ziehen          eines
+        von 50 %?                        ausge-         einer            einer           kurzen
+                                      wählte Zahl      geraden          blauen          Streich-
+                                        zwischen      Zahl mit           Kugel         holzes bei
+                                        1 und 10        einem         (2 rote und          drei
+                                       ist kleiner    normalen         3 blaue).        Streich-
+                                          als 5.     Spielwürfel.                       hölzern.
+
+
+ 8.     Ein Würfel mit
+        diesem Netz
+                                               1               1                1                1
+                                       P (1) =         P (1) =          P (1) =          P (1) =
+                                               3               2                6                3
+                                               1               3                1                1
+                                       P (2) =         P (2) =          P (2) =          P (2) =
+                                               2               3                6                3
+                                               1               1                1                1
+                                       P (3) =         P (3) =          P (3) =          P (3) =
+                                               6               5                6                3
+        hat die
+        Wahrscheinlichkeiten
+
+ 9.     Vier Plättchen
+        befinden sich in
+        einem Beutel. Darauf
+        stehen die Buch-
+        staben A, M, M und
+        A. Es wird ohne
+        Zurücklegen                        1                1               1                3
+        gezogen. Wie groß ist              8                6              12               16
+        die Wahrschein-
+        lichkeit dafür, dass in
+        der gezogenen
+        Reihenfolge das Wort
+        „MAMA“ gebildet
+        wird?
+
+ 10. Hendrik wirft eine
+     Münze und einen
+     normalen
+     Spielwürfel. Die                      1               1                 1               8
+     Wahrscheinlichkeit                    4              12                 6              12
+     für
+      P (Kopf;gerade Zahl)
+        beträgt
+
+
+
+   30
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                             A                B                C               D          Lösung
+
+ 11. Jens hat die letzte
+     Ziffer seiner PIN für
+     sein Handy
+     vergessen. Die                        9                1               72               81
+     Wahrscheinlichkeit                   10               12               90              100
+     dafür, dass er
+     zweimal falsch rät,
+     beträgt
+
+ 12. Die
+     Wahrscheinlichkeit
+     dafür, bei
+     einmaligem Würfeln                    1                                 1
+                                                            1                                1
+     mit einem normalen
+                                           6                4                3               2
+     Spielwürfel keine
+     Augenzahl kleiner als
+     5 zu bekommen,
+     beträgt
+
+ 13. 19-mal ist mit einem
+     normalen Spielwürfel
+     keine 6 gewürfelt                     0                                 1               5
+     worden. Die Wahr-                                      1
+                                           6                                 6               6
+     scheinlichkeit dafür,
+     dass beim 20. Wurf
+     eine 6 fällt, beträgt
+
+ 14. In einem Beutel
+     befinden sich 3 grüne
+     und 4 blaue Kugeln.
+     Zwei Kugeln werden
+     zusammen mit einem               3 4            3 4             3 4             3 4
+     Griff gezogen. Die               7 ⋅ 6  ⋅2      7 ⋅ 7  ⋅2       7 + 6  ⋅2        ⋅
+     Wahrscheinlichkeit                                                              7 6
+     dafü, eine grüne und
+     eine blaue in der
+     Hand zu haben,
+     beträgt
+
+ 15. Eine Münze wird
+     dreimal geworfen.
+                                               3             3                   3               3
+     Die Wahrscheinlich-                 1            1                 1            1
+     keit für mindestens                 2            2 ⋅2            1−          1−   ⋅2
+                                                                        2            2
+     einmal „Wappen“ und
+     „Zahl“ beträgt
+
+
+
+
+                                                                                                                31
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                                 muss ich
+ KOMPETENZEN:                                                                      kann ich
+                                                                                                  üben
+ Ich kann …
+ … (Laplace-)Wahrscheinlichkeiten bei einstufigen
+   Zufallsexperimenten bestimmen (Nr. 1, 7, 8).
+ … Wahrscheinlichkeiten bei mehrstufigen Zufallsexperimenten
+   berechnen (Nr. 2, 4, 6, 9, 10, 13, 14).
+ … Wahrscheinlichkeiten mithife von mehrstufigen Baumdiagrammen
+   berechnen (Nr. 3, 5).
+ … die Produkt- und die Summenregel (Pfadregel) anwenden
+   (Nr. 2, 10, 11).
+ … die Gegenwahrscheinlichkeit bei Zufallsexperimenten
+   berechnen (Nr. 12, 15).
+
+
+
+
+   32
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+4.2 Beispiele zu den zentralen Prüfungsaufgaben
+
+Erstes Beispiel zum hilfsmittelfreien Prüfungsteil                                                      (30 P)
+
+1. Von den jeweils angebotenen Lösungen ist immer genau eine richtig.
+   Schreibe den zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“.
+   Eine Begründung wird nicht verlangt.                                                                     (20 P)
+
+
+       Aufgabe                              A                B                 C                D           Lösung
+
+  a)    239 ⋅ 3 =                          697              707              717              727
+
+ b)     7, 2 ⋅ 1 000 : 10 =              7 200              720               72            0,00072
+
+  c)    242 − 42 ⋅ 2 + 32 =                432              358              210              190
+
+ d)     2
+          m=                              4 cm            40 cm             60 cm           120 cm
+        5
+
+  e)    − 44 − 44 =                       − 88               0                80               88
+
+  f)    5n = 625 ,
+                                               2             3                 4                5
+       n=
+
+ g)     122
+            =                                  3             4                 9               16
+         42
+
+ h)     (2 x − 3) ⋅ (3 + 4 x ) =     8 x 2 + 6 x − 9 12 x 2 − 6 x + 9    8 x 2 − 6 x − 9 6 x 2 + 12 x − 6
+
+  i)   Ein Fußballfeld hat
+       den Flächeninhalt                  1 m2              1a               1 ha            1 km2
+       von etwa
+
+  j)   Addiert man zu einer
+       Zahl 2 1 , so erhält
+             3                                 1                1                1                5
+                                           7                6                6                6
+       man 9 1 . Wie heißt                     3                2                6                6
+             6
+       die Zahl?
+
+  k)   Welcher Rauminhalt
+                                           40 l           0,4 m
+                                                                    3
+                                                                          400 cm3            4 dm3
+       ist der größte?
+
+  l)   Genau drei Wochen
+       nach dem 12. März ist            30. März         31. März          1. April         2. April
+       der
+
+
+
+
+                                                                                                                33
+Mittlerer Schulabschluss Mathematik       Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                            A                B                C                D          Lösung
+
+ m)     Ein Beutel enthält
+        4 rote, 3 gelbe und
+        2 blaue Kugeln.
+        Bestimme die                      4                 5                4                3
+        Wahrscheinlichkeit für            5                 9                9                5
+        das Ereignis „eine
+        gelbe oder eine blaue
+        Kugel ziehen“.
+
+ n)     Es soll ein Dreieck mit
+        folgenden
+        Winkelgrößen                                                   Das Dreieck
+                                      Das Dreieck     Das Dreieck                       Das Dreieck
+        konstruiert werden:                                             ABC kann
+                                        ABC ist         ABC ist                           ABC ist
+        α = 26°, β = 44°,                                                 nicht
+                                         spitz-         recht-                             gleich-
+                                                                       konstruiert
+        γ = 90°.                        winklig.        winklig.                         schenklig.
+                                                                         werden.
+        Welche Aussage trifft
+        zu?
+
+ o)     Ein Würfel hat einen
+        Oberflächeninhalt von
+        6 cm2 . Das Volumen              1 cm3            6 cm3           6 cm3           216 cm3
+        dieses Würfels beträgt
+        dann
+
+ p)     Subtrahiert man von
+        der Summe zweier
+        positiven Zahlen                2a − 2b            2a               2b             −a − b
+        a und b ihre Differenz,
+        erhält man
+
+ q)
+             v
+                          w
+                                                    2   2   2
+                                      u = v 2 + w2 v = w − u          w2 = u2 + v2     u = v 2 + w2
+                 u
+
+
+        Welche Gleichung gilt?
+
+  r)
+
+
+
+
+                                            3               3               1                 1
+                                            8              16               32                2
+        Wie groß ist die
+        Wahrscheinlichkeit,
+        bei zweimaligem
+        Drehen die Summe 15
+        zu erhalten?
+
+
+
+   34
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+         Aufgabe                            A                B                C               D          Lösung
+
+ s)      Eine Dreiecksfläche                            gleich groß      kleiner als     größer als
+         mit der                       kleiner als       wie eine           eine            eine
+         Grundseite 10 m und              eine          Rechteck-        Rechteck-       Rechteck-
+         der Höhe 4 m ist               Quadrat-        fläche mit       fläche mit      fläche mit
+                                       fläche mit        a=8m             a=8m            a=8m
+                                        a=4m                und              und             und
+                                                         b=3m             b=3m            b=3m
+
+  t)     Für eine Funktion
+         g ( x) gilt:                                                       eine
+                                          eine              eine
+         g ( x) = m ⋅ x + n                                                Gerade           eine
+                                       steigende          fallende
+                                                                         parallel zur      Parabel
+         (m, n < 0)                     Gerade            Gerade
+                                                                          x-Achse
+         Der Graph ist immer
+
+
+
+
+2.     In einem Beutel befinden sich 5 Kugeln: 4 blaue Kugeln und 1 gelbe Kugel.
+
+       Es sollen 2 Kugeln gezogen werden, ohne sie zurückzulegen.
+
+a) Zeichne ein Baumdiagramm für diesen Zufallsversuch.
+
+b) Bestimme die Wahrscheinlichkeit, dass keine gelbe Kugel gezogen wird.                                 (4 P)
+
+
+
+
+                                                                                                               35
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+3. In Abbildung 1 sind in einem Koordinatensystem die Punkte A, B und A ′ eingetragen.
+
+
+
+
+                                        Abbildung 1
+
+
+     a)   Gib die Koordinaten von A ′ an: A´( ___ ___ )                                           (2 P)
+     b)   Punkt B wird an der y-Achse gespiegelt, so dass B ′ entsteht.
+          Zeichne den Punkt B ′ in das Koordinatensystem.                                         (1 P)
+
+     c)   Nenne die genaue mathematische Bezeichnung für das Viereck ABB ′A ′.                    (1 P)
+
+          _________________________________________________________
+
+
+4. In der Abbildung 2 ist ein Würfel mit der Kantenlänge x dargestellt.
+   Aus dem Würfel wurde ein Quader herausgeschnitten.
+
+
+
+
+                                           Abbildung 2
+
+     Ermittle einen Term, mit dem die gesamte Oberfläche dieses Körpers
+     berechnet werden kann.                                                                       (4 P)
+
+
+
+
+   36
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+Zweites Beispiel zum hilfsmittelfreien Prüfungsteil                                                     (30 P)
+
+
+1. Von den jeweils angebotenen Lösungen ist immer genau eine richtig.
+   Schreibe den zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“. Eine
+   Begründung wird nicht verlangt.                                                 (20 P)
+
+
+       Aufgabe                              A                B               C               D         Lösung
+
+  a)   4,004 t =                       40,04 kg         4 004 kg          4 004 g      0,04004 kg
+
+ b)    Ein Zug fährt um
+       15:32 Uhr in
+       Hamburg-Altona ab
+                                      1 h 12 min       1 h 11 min        1 h 10 min     1 h 09 min
+       und erreicht Bremen
+       um 16:41 Uhr. Seine
+       Fahrzeit beträgt
+
+  c)   Ein Liter Milch kostet          zwischen         zwischen         zwischen        zwischen
+       ungefähr                       0,01 € und       0,60 € und         6 € und        10 € und
+                                        0,10 €            2€                8€             15 €
+
+ d)    9 532 ist teilbar durch              3                4               5               6
+
+  e)    0, 1 ⋅ 0,1 =                        1               0,1            0,01            0,001
+
+  f)   Der Preis eines
+       Pullovers ist um 40 %
+       reduziert worden.
+       Der Pullover kostet              25,20 €          58,80 €           70 €            105 €
+       jetzt 42 €. Wie teuer
+       war er vor der
+       Preisreduzierung?
+
+ g)     9                                                   22
+           =                              25 %                             0,36            0,925
+        25                                                  50
+
+ h)    Der Flächeninhalt
+                                                          den            genau eine       beide
+       eines Parallelogramms          alle Seiten
+                                                        Winkel α           Höhe           Höhen
+       verdoppelt sich, wenn          verdoppelt
+                                                       verdoppelt        verdoppelt     verdoppelt
+       man
+
+  i)    0,33 =                            0,09              0,9            0,027           0,27
+
+  j)
+
+
+
+
+                                          720°             540°            480°            360°
+
+       Die Summe der
+       Innenwinkel in dieser
+       Figur beträgt
+
+
+
+
+                                                                                                                37
+Mittlerer Schulabschluss Mathematik         Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                              A                 B               C                D        Lösung
+
+  k)
+
+
+
+
+        In der Abbildung
+        erkennst du, dass die               1                  1               2                3
+        Höhe des Würfels und                2                  3               1                1
+        die Höhe der Pyramide
+        übereinstimmen.
+        Dann gilt:
+
+         VolumenWürfel
+                        =
+        VolumenPyramide
+
+  l)    Eine Schnecke kriecht
+        mit einer                     1 mm pro          20 cm pro        1 cm pro        100 m pro
+        Geschwindigkeit von           Sekunde            Sekunde          Stunde          Stunde
+        etwa
+
+ m)      0, 0064 =                          0,8            0,32             0,08           0,0032
+
+ n)     Das Dreifache des                                      1               x3               3
+        Kehrwertes einer                    3x                   x
+                                                               3               3                x
+        Zahl x ist
+
+ o)     Ein Bakterium
+        vermehrt sich durch
+        ständige gleichmäßige
+        Zellteilung. Welche
+        Funktionsgleichung              x+x                    x2           log x               2x
+        kann zur Berechnung
+        benutzt werden?
+
+        f ( x) =
+
+ p)     Bei einem Glücksspiel             Einen           Ein Los       Einmal das       Einmal ein
+        soll die Chance auf            normalen         aus einem       Glücksrad         Glücksrad
+        einen Gewinn 20 %             Spielwürfel       Beutel mit        drehen.          drehen,
+        betragen. Für welches           zweimal          100 Ge-           Grau          wobei das
+        Glücksspiel trifft dies       hinterein-         winnen          gewinnt.         Glücksrad
+        zu?                              ander              und                          2 Gewinn-
+                                        werfen.         300 Nieten                       felder und
+                                          Zwei           ziehen.                         10 Verlust-
+                                         gleiche                                         felder hat.
+                                         Zahlen
+                                      gewinnen.
+
+ q)     Für das Volumen einer
+        Kugel gilt:
+                                            4⋅π                3⋅π             4 ⋅V             3 ⋅V
+            4                           3                  3               3                3
+        V=    π ⋅ r3                        3 ⋅V               4 ⋅V            3⋅π              4⋅π
+            3
+        Dann gilt: r =
+
+
+   38
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+
+       Aufgabe                              A                B               C               D         Lösung
+
+  r)   Der Wert des Terms
+       a2 − b beträgt
+                                           11                4              –7               –8
+       für a = − 3 und
+        b = −2
+
+  s)
+                                                 a                a                a              a
+                                       sin α =          sin α =          cos α =        cos α =
+                                                 b                c                b              c
+       In diesem Dreieck gilt:
+
+  t)
+
+                                       sin γ   b          α a            sin α   a       tan α   b
+                                             =             =                   =               =
+                                       sin β   c          β b            sin β   b       tan β   a
+
+       In diesem Dreieck gilt:
+
+
+
+
+2. Bestimme die Lösung des folgenden Gleichungssystems.                                               (4 P)
+
+                                         I.   2y − 4x = 6
+                                          II. 2y − 2x = 9
+
+
+
+
+                                                                                                                39
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+3. Vor Franks Haustür steht eine Fußgängerampel (ohne „Gelb“ und ohne Schaltung durch
+   Knopfdruck).
+   Wenn er aus dem Haus geht, zeigt die Fußgängerampel mit der Wahrscheinlichkeit von
+   0,8 rot an.                                                                     (6 P)
+
+a) Frank verlässt an einem bestimmten Tag zweimal das Haus.
+
+    Bestimme die Wahrscheinlichkeit dafür, dass die Fußgängerampel beide Male grün
+    anzeigt.
+
+
+
+
+b) An einem anderen Tag verlässt er dreimal das Haus.
+
+    Bestimme die Wahrscheinlichkeit dafür, dass die Fußgängerampel dann mindestens
+    einmal grün anzeigt.
+
+
+
+
+c) Frank verlässt im April täglich zweimal sein Haus.
+
+    Ermittle, wie oft er in diesem Monat durchschnittlich erwarten kann, dass die
+    Fußgängerampel rot anzeigt.
+
+
+
+
+   40
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Drittes Beispiel zum hilfsmittelfreien Prüfungsteil                                                    (30 P)
+
+
+1. Von den jeweils angebotenen Lösungen ist immer genau eine richtig. Schreibe den
+   zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“. Eine Begründung wird
+   nicht verlangt.                                                                 (20 P)
+
+
+       Aufgabe                              A                B               C              D          Lösung
+
+  a)             1
+        0, 2 ⋅     =                      0,01              0,1             0,4            0,04
+                 2
+
+ b)    1,3 cm =                        0,0013 m           0,13 m          13 mm         130 mm
+
+  c)   291 ist teilbar durch                3                6               9              12
+
+ d)    Die Hauptsaison eines
+       Hotels beginnt am
+       15. Juni und endet am            66 Tage          77 Tage         90 Tage        102 Tage
+       31. August desselben
+       Jahres. Das sind
+
+  e)    1
+          kg =                           0,8 kg           12,5 g           80 g           125 g
+        8
+
+  f)   132 : 12 = x : 24
+                                            11              66             264             288
+       Dann ist x =
+
+ g)               2
+        ( x + 2) = 16                     x =2            x =2            x = −2         x = −2
+                                          oder             oder            oder           oder
+       Dann gilt:                         x =6            x = −6          x =6           x = −6
+
+ h)
+
+
+                                            1                1               7              14
+                                            3                2              12              36
+
+       Welcher Flächenanteil
+       ist grau?
+
+  i)   Mit 20 % Rabatt kostet
+       eine Ledertasche 40 €.              48 €            50 €            54 €            60 €
+       Der Originalpreis war
+
+  j)
+                                                  v               v                w              w
+                                       cos α =          tan α =          sin α =        cos α =
+                                                  w               w                u              u
+
+       In diesem Dreieck gilt:
+
+  k)   Ein Kreissektor hat
+       einen Mittelpunkts-
+       winkel von 45°. Sein               50 %             45 %            25 %          12,5 %
+       Flächenanteil am
+       Vollkreis beträgt dann
+
+                                                                                                               41
+Mittlerer Schulabschluss Mathematik      Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                           A                B               C                D          Lösung
+
+  l)                                     nicht
+        Der Wert von      −9 ist                                           1
+                                        lösbar             3                               −3
+                                                                           3
+                                       (in ℝ )
+
+ m)     Die Wahrscheinlich-
+        keit, zweimal
+        hintereinander mit                 3               1                                1
+                                                                           1
+        einem normalen
+                                          36              36              12                6
+        Spielwürfel dieselbe
+        Zahl zu würfeln,
+        beträgt
+
+ n)     Genau vier                                                                       jedes
+                                                        jedes           jedes
+        Symmetrieachsen hat           jeder Kreis                                      Parallelo-
+                                                       Quadrat         Rechteck
+                                                                                        gramm
+
+ o)
+
+
+
+                                           r               s             sin β            sin β
+        Bei diesem Dreieck               sin β           sin β             r                s
+        gilt:
+        sin α
+              =
+          r
+
+ p)     Ein Kreis hat einen
+        Radius von 3 cm.
+                                       100 cm2         50 cm2           30 cm2          20 cm2
+        Sein Flächeninhalt
+        beträgt ungefähr
+
+ q)     Das Volumen eines
+        Kegels berechnet man
+        mit Hilfe der Formel            3 ⋅ π ⋅V         π ⋅ r2          3 ⋅V               V
+            1
+        V = ⋅ π ⋅ h ⋅ r2 .                  r2            3 ⋅V           π ⋅ r2          3π ⋅ r 2
+            3
+        Dann gilt: h =
+
+  r)    Ein Kühlschrank hat
+                                       1,5 dm3          15 m3          180 dm3          300 cm3
+        ein Volumen von etwa
+
+  s)    Die Geraden
+        y1 = −x + 2 und
+                                      bei x = 2       bei x = 0       bei x = –2       gar nicht
+        y2 = 4 − x schneiden
+        sich
+
+  t)    Wird bei einem Würfel
+        die Oberfläche                                 vervier-       versechs-         veracht-
+                                      verdoppelt
+        vervierfacht, dann                              facht           facht            facht
+        wird sein Volumen
+
+
+
+
+   42
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+2. Gib die Lösung der folgenden Gleichung an.                                                            (2 P)
+
+                                                x ⋅ ( x − 7) = 0
+
+
+
+
+3. Ermittle den Flächeninhalt der grauen Fläche in Abhängigkeit von der Länge a.                         (4 P)
+
+
+
+
+                                                   Abbildung 1
+
+
+
+
+                                                                                                               43
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+4. Lea steht zunächst auf dem Startfeld S (siehe Abbildung 2).
+
+
+
+
+                                              Abbildung 2
+
+   Würfelt sie mit einem normalen Spielwürfel eine „1“, springt sie ein Feld nach links, bei
+   allen anderen Zahlen ein Feld nach rechts.
+
+   Sie behauptet: „Die Wahrscheinlichkeit dafür, dass ich nach zwei Sprüngen wieder auf
+   dem Startfeld S stehe, beträgt 50 %.“
+
+   Zeige, dass diese Behauptung falsch ist.                                                       (4 P)
+
+
+
+
+   44
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+Viertes Beispiel zum hilfsmittelfreien Prüfungsteil                                                     (30 P)
+
+1. Von den jeweils angebotenen Lösungen ist immer genau eine richtig. Schreibe den
+   zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“. Eine Begründung wird
+   nicht verlangt.                                                                 (20 P)
+
+
+       Aufgabe                              A                B                C                D         Lösung
+
+  a)   Welche Zahl ist die
+                                         0,2111           0,1212          0,21212          0,12121
+       größte?
+
+ b)     1 1                                 2                3
+         + =                                                                 0,6              2,6
+        4 2                                 6                4
+
+  c)    3
+          =                                3,4             0,75             0,34              0,3
+        4
+
+ d)    0,202 =                           20,2 %           202 %            2,2 %           2,02 %
+
+  e)   1 ml =                             0,1 l           0,01 l          0,001 l         0,0001 l
+
+  f)    3 ⋅ ( x + 1) = 6
+                                         x = 0,5           x =1             x =2            x =3
+       Dann gilt
+
+ g)    40 % von 40 € sind                  4€              10 €             16 €             18 €
+
+ h)     ( x + 1) ⋅ ( x −1) =                x2             x2 + 1          x2 − 1             2x
+
+  i)   Schreibe in Kurzform
+       als Gleichung:
+       „Das Produkt aus                 x ⋅ ( x + 2)     x ⋅ x + 15         x⋅x             2x + 2
+       einer Zahl und der um               = 15             = 15          = 15 + 2          = 15
+       2 vergrößerten Zahl
+       ist 15.“
+
+  j)    3
+          von 80 € sind                   20 €             24 €             30 €             64 €
+        8
+
+  k)   Ein Hühnerei wiegt
+                                          2 kg            0,2 kg            45 g            0,5 g
+       ungefähr
+
+  l)   4 Freunde treffen sich.         zwölfmal         sechsmal         viermal die     dreimal die
+       Jeder gibt jedem die           die Hände        die Hände            Hände          Hände
+       Hand. Dann werden              geschüttelt      geschüttelt       geschüttelt     geschüttelt
+
+ m)    Die beiden Geraden zu             haben            haben
+                                         einen            einen          haben die
+        f (x ) = 2x − 2                                                   gleichen          sind
+                                        Schnitt-         Schnitt-
+        g ( x ) = 2x + 2                punkt in         punkt in        y-Achsen-         parallel
+                                                                         abschnitte
+                                          (1| 0)           (0|2)
+
+
+
+
+                                                                                                                45
+Mittlerer Schulabschluss Mathematik       Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+        Aufgabe                             A                  B                C                D         Lösung
+
+ n)
+
+
+        Welche Gleichung gilt
+
+
+                                      d 2 = c 2 + e2      d 2 = b2 + e2   d 2 = a2 + c 2   d 2 = a2 + b2
+
+        Für die
+        Raumdiagonale d des
+        Quaders gilt
+
+ o)     Wie viele dieser
+        Gleichungen sind
+        richtig vereinfacht?
+        y + y + y = 3y                   keine               eine             zwei             drei
+        3 + x = 3x
+        c + c + c + c = c + 2c
+        a + b − 2a + 2b = a + 3b
+
+ p)     Die Gerade g mit der           hat eine           enthält den      schneidet
+        Gleichung                      Nullstelle            Punkt        die y-Achse         steigt
+        g (x ) = − 2 x + 1                bei
+                                                           P (3 − 7 )     bei y = −2
+                                        x = 0,5
+
+ q)     In einem Beutel sind
+        5 Kugeln, darunter
+        genau 3 rote. Wie
+        groß ist die
+        Wahrscheinlichkeit,             3 2 1                3 3 3            3 1           1 1 1
+                                         ⋅ ⋅                  ⋅ ⋅              ⋅             + +
+        alle roten Kugeln bei           5 4 3                5 5 5            5 2           5 5 5
+        dreimaligem Ziehen
+        nacheinander ohne
+        Zurücklegen zufällig
+        zu ziehen?
+
+  r)    In diesem Dreieck gilt
+        nicht
+                                                      b              b                 c               b
+                                        sin β =            cos γ =         tan γ =          tan β =
+                                                      a              a                 a               c
+
+
+
+
+  s)    x2 − 2x + 1                                                                             1
+                    =                     x −1                3x 2           x2 − x
+           x −1                                                                               x −1
+
+
+  t)    Ein normaler
+        Spielwürfel wird
+        dreimal geworfen. Die              1 3               1                 5 3          5
+        Wahrscheinlichkeit                                3⋅             1 −        1−     ⋅3
+                                            6              6                 6          6
+        dafür, dass
+        mindestens einmal die
+        6 fällt, beträgt
+
+
+   46
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+2. Zeichne ein gleichschenkliges Trapez mit a = 7 cm, c = 3 cm und h = 5 cm.                             (4 P)
+
+
+
+
+                                                                           2
+3. Eine quadratische Funktion hat die Gleichung f ( x ) = ( x + d )            mit d > 0
+    ● Entscheide, welcher der abgebildeten Graphen zu der Funktionsgleichung gehört.
+
+    ● Begründe deine Entscheidung.                                                                       (3 P)
+
+
+
+
+             Graph 1                               Graph 2                             Graph 3
+
+
+
+
+                                                                                                               47
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+4. In einer Kiste liegen fünf Bälle, die sich nur in ihrer Beschriftung unterscheiden
+   (siehe Abbildung 1).                                                                              (3 P)
+
+
+
+
+                                        Abbildung 1
+
+     Es werden 4 Bälle zufällig gezogen und nicht wieder in die Kiste zurückgelegt.
+     Die Buchstaben werden in der gezogenen Reihenfolge nebeneinandergelegt.
+
+     Bestätige rechnerisch, dass die Wahrscheinlichkeit dafür, den Namen „ANNA“ zu
+              12
+     ziehen,     beträgt.
+             120
+
+
+
+
+   48
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+Fünftes Beispiel zum hilfsmittelfreien Prüfungsteil                                                      (30 P)
+
+1. Von den jeweils angebotenen Lösungen ist immer genau eine richtig. Schreibe den
+   zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“. Eine Begründung wird
+   nicht verlangt.                                                                 (20 P)
+
+
+     Aufgabe                               A                B                C                D          Lösung
+
+a)   Die Größe
+     des
+     Winkels                              30°             60°               90°             110°
+     beträgt
+     etwa
+
+b)   Welche graugefärbte
+     Fläche entspricht dem
+                3
+     Anteil von   ?
+                5
+c)   Ein Würfel hat genau              2 gleich         4 gleich          6 gleich        8 gleich
+                                        große            große             große           große
+                                       Flächen          Flächen           Flächen         Flächen
+
+d)   Die größte Länge ist              0,2 cm           0,02 dm           0,002 m       0,0002 km
+
+e)   Ein Smartphone hat im
+     Allgemeinen eine Länge            1,3 mm           1,3 cm            1,3 dm           1,3 m
+     von etwa
+
+f)   In einem Beutel
+     befinden sich 5 Kugeln:
+     2 grüne und 3 blaue. Es
+     werden ohne
+     Zurücklegen 2 grüne                                    1                3
+                                           0                                                  1
+     Kugeln gezogen. Wie                                    5                5
+     groß ist die
+     Wahrscheinlichkeit,
+     beim nächsten Zug eine
+     blaue Kugel zu ziehen?
+
+g)   4 1                                   3                1                2                7
+      − =
+     5 3                                   2                4               15               15
+
+h)   30 − 5 ⋅ 3 − 20 =                   −65               −5                5               35
+
+i)   Folgender Tabelle
+     entnimmt man
+      Sportart      Schüler              eine             eine
+                                       relative         relative            eine           eine
+      Fußball                        Häufigkeit       Häufigkeit         Spannweite     Spannweite
+                                     von 0,7 für      von 0,2 für          von 20         von 4
+      Handball                         Hockey          Handball
+
+
+      Hockey
+
+
+
+                                                                                                                 49
+Mittlerer Schulabschluss Mathematik         Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+     Aufgabe                                A               B                  C              D          Lösung
+
+j)    2 : 0, 2 =                           0,1               1                 5              10
+
+k)    (2 x − 4 ) ⋅ ( x + 4 ) =        2x 2 + 4x − 16   2x2 + 4x + 16   2x 2 + 12x − 16 2x 2 − 4x − 16
+
+
+l)         2     1                              1              3                3                1
+      −3     +1    =                      −4             −2                2                 4
+           5    10                              2             10               10                2
+
+m) Es wird zweimal mit
+   einem normalen
+   Spielwürfel gewürfelt.                   1               1                1                1
+   Die Wahrscheinlichkeit,                  2               6               18               36
+   eine 3 und eine 4 zu
+   werfen, beträgt
+
+n)    2
+        =                                 0,3              0, 3             0,6              0, 6
+      3
+
+o)   Die Parabel mit der                                  ihren            ihren
+     Funktionsgleichung                  eine           Scheitel-        Scheitel-         keine
+     f ( x ) = x 2 − n hat            Nullstelle        punkt bei        punkt bei       Nullstellen
+                                      bei x = n          S (0 −n)         S (0 n)
+
+p)   Die Größe des Winkels
+     α wird bei der
+     Taschenrechnereingabe
+     angezeigt mit
+                                      tan−1 (0,5)       tan−1 (2)       sin−1 (0,5)        sin−1 (2)
+
+
+
+
+     nicht maßstabsgerecht
+
+q)   Die Diagonale eines
+     Quadrates mit der
+     Seitenlänge a berechnet               2a2             2 + a2              2a            2a2
+     man mit folgender
+     Formel
+
+r)   Größer als −0, 023 ist            −0, 0239          −0, 024         −0, 0229         −0,0230
+
+s)   Zu welchem
+     Funktionsterm gehören
+                                         x2 − 2         −2 x 2 + 2     −x 2 + 3 x − 3    x2 + x − 7
+     ausschließlich negative
+     Funktionswerte?
+
+t)    a b                                a+b               2ab            a + 2b           2a + b
+       + =
+      2 4                                 6                 4               4                4
+
+
+
+
+     50
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+2. a) Das Schrägbild eines Prismas mit einem rechtwinkligen Dreieck als
+      Grundfläche ist unvollständig dargestellt (siehe Abbildung 1).
+
+
+
+
+                                                 Abbildung 1
+                                           (nicht maßstabsgerecht)
+
+
+        Zeichne die fehlende Kante in das Schrägbild.                                                 (1 P)
+
+    b) Abbildung 2 zeigt das Netz eines Dreiecksprismas.
+
+
+
+
+                                                  Abbildung 2
+                                            (nicht maßstabsgerecht)
+
+
+        Berechne mithilfe der Angaben in Abbildung 2 das Volumen dieses Dreiecksprismas.
+                                                                                    (3 P)
+
+
+
+
+                                                                                                               51
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+3. Bestimme die Lösungen der folgenden Gleichung.                                                    (4 P)
+
+     x2 − 6x − 7 = 0
+
+
+
+
+4. Ermittle die Steigung der Geraden g, die durch die Punkte A (3             4) und B (2 1) .
+   verläuft.                                                                                         (2 P)
+
+
+
+
+   52
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+Sechstes Beispiel zum hilfsmittelfreien Prüfungsteil                                                     (30 P)
+
+1. Von den jeweils angebotenen Lösungen ist immer genau eine richtig.
+   Schreibe den zugehörigen Buchstaben A, B, C oder D in die Spalte „Lösung“.
+   Eine Begründung wird nicht verlangt.                                                                  (20 P)
+
+
+     Aufgabe                               A                B                C                D          Lösung
+
+a)   5 ⋅ 99 =                            490              495               499              505
+
+b)   Wie viele Ecken hat
+     eine Pyramide mit
+                                           3                4                 5               6
+     dreieckiger
+     Grundfläche?
+
+c)   Welches Zufallsereignis                            Von vier
+     hat eine                                          Plättchen           Mit zwei
+     Wahrscheinlichkeit              Mit einem
+                                                        mit den            Münzen
+          1                           normalen
+     von    ?                                            Zahlen             einmal       Das kurze
+                                     Spielwürfel
+          4                                            1 – 4 eine         Kopf und          von
+                                       eine 4
+                                                         gerade          einmal Zahl     4 Streich-
+                                       werfen.
+                                                          Zahl             werfen.        hölzern
+                                                        ziehen.                           ziehen.
+
+d)   103 ⋅ 102 =                          10              103               105              106
+
+e)   (2 + 9) ⋅ (8 − 3 − 5) + 7 =          −7                0                 7              18
+
+f)   Die kürzeste Strecke
+                                       0,3 dm           0,03 m           0,003 km          0,3 cm
+     hat eine Länge von
+
+g)   7 1                                   3                6                13              29
+      − =
+     8 3                                   4                5                24              24
+
+h)   5 3                                   1                8                15              4
+      ⋅   =
+     9 10                                  6               19                19              45
+
+i)   Der Punkt P (3 5) liegt
+     auf der Geraden mit der
+                                        2x − 1           3x + 5            2x − 7          2x + 1
+     Funktionsgleichung
+     g ( x) =
+
+j)   Auf eine Rechnung über
+     1 200 € bekommt ein
+                                        840 €           1 164 €           1 188 €         1 236 €
+     Kunde 3 % Rabatt. Er
+     bezahlt
+
+
+
+
+                                                                                                                 53
+Mittlerer Schulabschluss Mathematik        Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+     Aufgabe                               A               B                C                D           Lösung
+
+k)   Die Gleichung
+                     2                  x1 = 8          x1 = −1          x1 = 7            x1 = 4
+      9 = (2x − 5) hat die
+                                        x2 = 2          x2 = −4          x2 = −2           x2 = 1
+     Lösungen
+
+l)
+
+
+
+
+                                        1                                1
+                                          x +2          2x + 2             x −2           2x − 2
+                                        2                                2
+
+     Zu dieser Geraden
+     gehört die Funktions-
+     vorschrift g ( x) =
+
+m) Die Gerade mit der
+   Funktionsgleichung
+   f ( x ) = 4x + 8 hat ihren         N (0 − 4)        N (−2 0)          N (2 0)        N (0 − 2)
+     Schnittpunkt mit der
+     x-Achse im Punkt
+
+n)
+      ( y + 1) ⋅ ( y + 1) =             y² + 2       y ² + 2y + 2         y² + 1       y ² + 2y + 1
+
+
+o)        5 ⋅ 20 =                        10              100               10               25
+
+p)   Die Figur hat folgenden
+     Umfang
+
+                                        1               1                1
+                                          ⋅π −2           ⋅π+2             ⋅ π +1          π+2
+                                        4               2                4
+
+
+
+     nicht maßstabsgerecht
+
+q)   Die Parabel mit der                keinen
+     Funktionsvorschrift              y-Achsen-         keine             eine            zwei
+                         2
+      f ( x ) = ( x + b) hat           schnitt-       Nullstellen       Nullstelle      Nullstellen
+                                        punkt
+
+r)   In folgendem Dreieck
+     gilt
+
+
+                                                5                6                 6                5
+                                      sin α =        sin α =            tan α =        cos α =
+                                                61               61                5                61
+
+
+
+     nicht maßstabsgerecht
+
+
+
+     54
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+
+     Aufgabe                               A                B                 C                D         Lösung
+
+s)   In einem Beutel sind
+     10 Kugeln, die mit den
+     Zahlen 1 bis 10
+     beschriftet sind.
+     Bestimme die                       1 2               5 2               5 7               5 2
+     Wahrscheinlichkeit                  ⋅                  ⋅                 ⋅                ⋅
+     – ohne Zurücklegen –              10 10             10 9              10 9              10 10
+     aus dem Beutel zuerst
+     eine gerade Zahl und
+     danach die „5“ oder „7“
+     zu ziehen.
+
+t)          3
+     (4 ) =
+       2b
+                                          45 b            42b + 3            46 b            42b − 3
+
+
+
+2. Die Gerade mit der Funktionsgleichung g ( x ) = m ⋅ x + 3 verläuft durch den Punkt P (2 7)
+     .
+     Berechne die Steigung m der Geraden.                                                                  (3 P)
+
+
+
+
+                                                                    4
+3. Das Volumen einer Kugel wird mit der Formel V =                    ⋅ π ⋅ r 3 berechnet.
+                                                                    3
+                                                                                       3
+     Bestimme den Radius der Kugel mit einem Volumen von 36 ⋅ π cm .                                       (4 P)
+
+
+
+
+                                                                                                                 55
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                      (
+4. Bestimme die Lösungen folgender Gleichung: 0 = ( x − 3 ) ⋅ x 2 − 8 x + 16 .        )              (3 P)
+
+
+
+
+   56
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+
+5. Komplexe Aufgaben zu den Leitideen mit Einsatz des
+   Taschenrechners
+5.1 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen
+    (Pflichtaufgabe)
+
+Wassertank                                                                                              (25 P)
+
+In der Abbildung 1 ist ein Wassertank dargestellt.
+Oben ist der Wassertank geschlossen.
+
+a) Gib an, aus welchen geometrischen Körpern der
+     Wassertank zusammengesetzt ist.                              (2 P)
+
+b) Der obere Teil des Wassertanks soll von außen einen
+     neuen Anstrich mit Farbe erhalten.
+     1 Liter Farbe reicht für 8 m 2 aus.
+
+     ● Bestätige, dass dazu eine Fläche von etwa 31,4 m 2
+       angestrichen werden muss.
+
+     ● Berechne die Menge an Farbe, die für den Anstrich
+       benötigt wird.
+                                                                  (4 P)            Abbildung 1
+                                                                             (nicht maßstabsgerecht)
+c) Bestätige rechnerisch, dass die beiden Teile des Tanks
+   zusammen das Volumen Vges = 15,7 m³ besitzen. (5 P)
+
+
+d) Ein anderer Wassertank hat dasselbe Volumen. Dieser ist kugelförmig.
+     Berechne den Radius dieses kugelförmigen Wassertanks.                         (5 P)
+
+
+e) Die untere Spitze B des Wassertanks ist 35 cm vom
+     Boden entfernt (siehe Abbildung 2).
+
+     Bestätige, dass die Außenseite des unteren Teils
+     des Wassertanks (Seite a) etwa 1,80 m
+     und die Seite c etwa 3,38 m lang ist.             (4 P)
+
+
+
+f)   Der Wassertank steht auf vier Standbeinen mit der
+     Länge b (siehe Abbildung 1 und 2).
+     Folgende Winkelgrößen sind bekannt:
+     α = 30° und γ = 70°.
+     Ermittle die Länge b eines Standbeins.            (5 P)                       Abbildung 2
+                                                                             nicht maßstabsgerecht
+
+
+
+
+                                                                                                                57
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Kartenhaus                                                                                         (25 P)
+
+Ein Kartenhaus wird normalerweise aus Spielkarten gebaut
+(siehe Abbildung 1).
+Eine Spielkarte ist 9 cm lang und 6 cm breit.
+
+
+a) Das bisher größte Kartenhaus bestand aus 91 800 Spielkarten.
+   Jan behauptet, dass die Gesamtfläche dieser Spielkarten genauso
+   groß sei wie ein Fußballfeld mit 7 140 m 2 .
+
+   Bestätige durch Rechnung, dass Jan nicht Recht hat.                 (3 P)
+
+b) Das Kartenhaus in Abbildung 1 ist zweistöckig.                                       Abbildung 1:
+   Es besteht aus 7 Spielkarten.                                                       BSFB Hamburg
+   Bestimme, wie viele Spielkarten man mindestens
+   benötigt, um ein vierstöckiges Kartenhaus zu bauen.                 (3 P)
+
+
+In der Frontalansicht (siehe Abbildung 2) bilden im Kartenhaus mit
+dem Boden als Grundseite zwei Spielkarten ein gleichschenkliges
+Dreieck.
+
+c) Zur besseren Stabilität wird am Boden ein Abstand von 5 cm
+   zwischen zwei Spielkarten gelassen.
+
+   • Berechne die Höhe h des Dreiecks.
+   • Bestimme die Größe der Winkel α, β und γ .                        (8 P)
+
+
+d) Zwischen zwei solchen Dreiecken entsteht der Winkel γ2 .
+                                                                                         Abbildung 2
+   (siehe Abbildung 3)                                                             nicht maßstabsgerecht
+
+   Begründe, ohne zu messen, dass der               (3 P)
+   Winkel γ 2 genauso groß ist wie der Winkel γ1 .
+
+
+
+e) Berechne die Gesamtfläche der Frontalansicht
+   eines dreistöckigen Kartenhauses.       (4 P)
+
+
+f) Sonja baut ein Kartenhaus aus Visitenkarten.
+   Am Boden lässt sie einen Abstand von 4 cm zwischen
+   zwei Karten. Der dem Boden gegenüberliegende
+   Winkel γ hat eine Größe
+   von 28°.
+
+   Bestimme die Länge einer Visitenkarte.           (4 P)
+                                                                                 Abbildung 3
+                                                                           nicht maßstabsgerecht
+
+
+
+
+   58
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Windpark                                                                                               (25 P)
+
+Für einen neuen Windpark sollen Windräder aufgestellt
+werden.
+Ein Windrad besteht aus einem Stahlturm auf dem eine
+Gondel mit drei Rotorblättern befestigt ist
+(siehe Abbildung 1).
+Ein Rotorblatt ist 75 m lang.
+
+a) Gib durch Abschätzung mit Hilfe der Abbildung 1
+   die ungefähre Höhe des Stahlturmes bis zur Stelle,
+   an der der Rotor befestigt ist, an.                        (2 P)
+
+
+b) Die sich drehenden Rotorblätter beschreiben eine
+   Kreisfläche.
+
+   Berechne die Größe der Kreisfläche.                        (3 P)
+
+
+
+c) Bei einer Windgeschwindigkeit von mehr als 25 Metern
+   in der Sekunde werden die Windräder aus                                          Abbildung 1
+   Sicherheitsgründen gestoppt.                                                    BSFB Hamburg
+
+   Bei dieser Windgeschwindigkeit drehen sich die
+   Rotorblätter in 10 Sekunden einmal.
+
+   ● Bestätige rechnerisch, dass die Spitze eines Rotorblattes bei einer Umdrehung etwa
+      470 Meter zurücklegt.
+                                                                                 km
+   ● Ermittle die Geschwindigkeit der Spitze eines Rotorblattes in                  bei einer
+                                                                                  h
+      Windgeschwindkeit von 25 Metern in der Sekunde.                                                    (6 P)
+
+
+
+d) Ein Spaziergänger sieht ein anderes Windrad und möchte wissen, wie hoch dieses ist.
+   Seine Aufgenhöhe beträgt 1,69 m (siehe Abbildung 2).
+   Er peilt die Spitze dieses Windrades aus einem Abstand von 400 m unter einem
+   Höhenwinkel von 18° an.
+
+
+
+
+                                               Abbildung 2
+                                         nicht maßstabsgerecht
+
+   Bestimme die Höhe des Windrades h*.                                                                   (4 P)
+
+
+                                                                                                               59
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+e) Für den Windpark sollen zunächst drei
+   Windräder an den Standorten A, B und C
+   aufgestellt werden (siehe Abbildung 3).
+   Aus Sicherheitsgründen müssen die Standorte
+   der Windräder mindestens 240 m jeweils
+   voneinander entfernt sein.
+   Die Standorte A und C erfüllen mit einem
+   Abstand von 273 m diese Bedingung.
+   Folgende weitere Daten sind bekannt:
+
+         α = 51°       β = 62°
+                                                                         Abbildung 3
+                                                                   nicht maßstabsgerecht
+
+   ● Entscheide, ob der Sicherheitsabstand
+        auch bei den Standorten B und C eingehalten wurde.
+
+
+   ● Der Standort D eines vierten Windrades soll spiegelbildlich zum Standort C bezüglich
+        AB liegen.
+        Bestimme die Entfernung zwischen den Standorten C und D.                                     (7 P)
+
+
+f) Windkraftanlagen üben starke negative Einflüsse auf rastende Vögel aus.
+   Besonders bei Wildgänsen und Watvögeln ist von einer Störwirkung im Umkreis von 500 m um
+   ein Windrad auszugehen.
+
+
+   Berechne die Größe der Fläche um ein einzelnes Windrad, die von Vögeln nicht aufgesucht
+   wird.
+   Gib das Ergebnis in Quadratkilometer an.                                                          (3 P)
+
+
+
+
+   60
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Der schiefe Turm von Pisa                                                                               (25 P)
+
+a)   Der Bau des Turmes begann im Jahr 1173 und
+     endete im Jahr 1372.
+     Gib die Länge der Bauzeit an.              (1 P)
+
+b)   Alle 30 Minuten werden höchstens 40 Personen auf den
+     Turm gelassen. Der Turm ist täglich - außer montags -
+     von 9 bis 18 Uhr geöffnet.
+     Der Eintritt kostet pro Person 18 €.
+     Berechne die maximalen Wocheneinnahmen. (4 P)
+
+
+Zur Sicherung des Turmes wurden verschiedene
+Sanierungsarbeiten durchgeführt.
+c) Zum Beispiel wurden Stahlringe um den Turm gelegt. Ein
+   Stahlring hatte einem Umfang von 48,6 m.
+   Bestimme den Durchmesser dieses Stahlrings. (3 P)
+
+                                                                                        Abbildung 1
+Heute beträgt die Neigung des Turmes 3,9 m am höchsten Punkt
+in 55 m Höhe (siehe Abbildung 1).
+
+
+d) ● Berechne die Höhe, die der Turm ohne Schieflage hätte.
+
+     ● Gib den Höhenunterschied zur derzeitigen Höhe
+       in Zentimetern an.                         (4 P)
+
+e) Vor dem Beginn der Sanierungsarbeiten betrug der Neigungswinkel α = 5,5° .
+     ● Vergleiche mit dem heutigen Neigungswinkel (siehe Abbildung 1).
+
+     ● Berechne den seitlichen Abstand, den der Turmmittelpunkt (auf halber Höhe)
+       zum Bodenmittelpunkt hatte, als der Neigungswinkel noch α = 5,5° betrug.   (7 P)
+
+
+f)   Während der Sanierungsarbeiten
+     sicherten 103 m lange Stahlseile den
+     Turm (siehe Abbildung 2).
+     Leon behauptet, dass die Stahlseile in
+     75 m Entfernung im Boden verankert
+     waren.
+
+     Entscheide, ob Leons Behauptung
+     stimmen kann.                 (6 P)
+
+
+
+
+                                                                               Abbildung 2
+                                                                         nicht maßstabsgerecht
+
+                                                                                                                61
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Billard                                                                                            (25 P)
+
+Die Spielfläche eines Billard-Tisches (siehe Abbildung 1)
+wird bei jedem Turnier mit einem neuen Stofftuch
+bezogen.
+Die Spielfläche ist 2,84 m lang und 1,42 m breit.
+
+a) Bestätige, dass die Spielfläche eine Größe
+    von ungefähr 4 m2 hat.                               (2 P)
+
+
+b) Für das Beziehen des Tisches mit einem neuen Stofftuch
+   benötigt man 15 % zusätzlichen Stoff.
+   Ein Quadratmeter kostet 47,59 €.
+
+   Berechne die Kosten für einen neuen Stoffbezug.
+                                                (4 P)
+
+
+c) Die lange Seite der Spielfläche ist durch 7 Punkte
+   in gleich große Abstände unterteilt,
+                                                                                Abbildung 1
+   die breite Seite durch 3 Punkte (siehe Abbildung 1).
+                                                                          nicht maßstabsgerecht
+
+   Bestätige, dass der Abstand zwischen 2 Punkten
+   jeweils 35,5 cm beträgt.                     (2 P)
+
+
+
+
+d) Für ein Spiel sind auf dem Tisch Markierungslinien eingezeichnet
+   (siehe Abbildungen 1 und 2).
+
+
+
+
+                                              Abbildung 2
+                                        nicht maßstabsgerecht
+
+
+   ● Berechne die Länge einer Markierungslinie.
+   ● Ermittle die Größen der Winkel α und β .                                                        (8 P)
+
+e) Die verwendeten Billardkugeln haben einen Durchmesser von 5,4 cm.
+
+    Bestimme rechnerisch das Volumen einer dieser Billardkugeln.                                     (3 P)
+
+
+
+   62
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+f) Die Kugeln 1, 2 und 3 sind auf der Spielfläche
+   verteilt (siehe Abbildung 3).
+   Die Entfernung zwischen Kugel 1 und Kugel 2
+   beträgt 72 cm.
+   Der direkte Abstand zwischen Kugel 1 und Kugel 3
+   beträgt 122 cm.
+   Ein Spieler will mit der Kugel 1 die Kugel 2 so
+   treffen, dass die Kugel 1 anschließend noch die
+   Kugel 3 trifft.
+   Die Pfeile stellen den Weg der Kugel 1 dar.
+
+   Bestimme die Länge des eingezeichneten Weges
+   von Kugel 1.
+   Hinweis: Die Größe der Kugeln wird nicht
+   berücksichtigt.                          (6 P)
+
+
+
+
+                                                                               Abbildung 3
+                                                                         nicht maßstabsgerecht
+
+
+
+
+                                                                                                               63
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Ballschachtel                                                                                      (25 P)
+
+Eine Sportartikelfirma verpackt jeweils drei Bälle in eine Ballschachtel
+(siehe Abbildung 1).
+
+a) In der Ballschachtel ist unten eine 3 cm hohe Styroporschicht, dann folgen
+   die drei Bälle, die jeweils alle sechs Seitenflächen von innen berühren.
+   Über den Bällen befindet sich wieder eine 3 cm hohe Styroporschicht.
+   Der Radius eines Balles beträgt ungefähr 8 cm.
+
+   Bestätige, dass die Ballschachtel ungefähr 54 cm hoch ist. (3 P)
+
+
+
+b) Skizziere ein mögliches Netz der Ballschachtel.                      (3 P)
+   Hinweis: Das Netz muss nicht maßstabsgerecht sein.
+
+                                                                                              Abbildung 1
+c) In Abbildung 2 ist die Grundfläche der Ballschachtel und der Grundriss               nicht maßstabsgerecht
+   eines Balles dargestellt.
+
+
+   ● Bestätige rechnerisch, dass der Radius eines Balles gerundet 7,8 cm groß ist.
+
+
+   ● Berechne das Volumen der drei Bälle                                                         (5 P)
+
+
+
+
+d) Es soll der Materialbedarf für eine Ballschachtel ermittelt werden.
+                                                             2
+   ● Bestätige, dass die Grundfläche in etwa 210 cm groß ist.
+
+   ● Berechne das Volumen der Ballschachtel.
+
+   ● Berechne den gesamten Materialbedarf für eine
+        Ballschachtel.                                                  (9 P)
+
+
+                                                                                      Abbildung 2
+                                                                                nicht maßstabsgerecht
+e) Ein Ball wird vom Spieler A zum
+   Spieler B geschlagen (siehe Abbildung 3).
+   Der Spieler B spielt den Tennisball zurück ins
+   Feld von Spieler A.
+   Es gilt:
+   z = 15 m; α = 25°; β = 18°
+
+
+   Bestimme die Länge des Weges x, die der                                   Abbildung 3
+                                                                       nicht maßstabsgerecht
+   Spieler A zurücklegen muss, um den Ball zu                          erreichen.                (5 P)
+   Hinweis: Die Flugbahn des Balles wird als Strecke                   angenommen.
+
+
+
+
+   64
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Raum und Form sowie Leitidee Messen
+
+Water Walking Ball                                                                                     (25 P)
+
+„Water Walking Balls“ sind aufgeblasene Kunststoffbälle, in
+denen man über das Wasser laufen kann (siehe Foto). Ein
+aufgepumpter Kunststoffball hat einen Durchmesser von 2,0 m.
+
+Theo hat an einem See einen nahezu rechteckigen Bereich mit
+Markierungen abgesichert (siehe Abbildung 1).
+Der Sicherheitsbereich ist 64 m lang und 32 m breit.
+
+
+a) Bestätige, dass die Wasseroberfläche des Sicherheitsbereichs                   Foto: BSFB Hamburg
+   2 048 m2 groß ist.                                                (2 P)
+
+
+
+An einem Steg werden die Bälle A und B an Seilen befestigt (siehe Abbildung 1).
+
+b) ● Bestimme durch Messen die Größe
+     des Winkels α , der durch die beiden
+      Seile gebildt wird.
+
+   ● Nenne die Winkelart.
+
+   ● Begründe, warum ein überstumpfer
+      Winkel nicht zustande kommen kann.
+
+                                               (4 P)
+
+
+                                                                                                          64 m
+Aufgrund der Seile kann man sich mit den
+Kunststoffbällen nur in einem begrenzten
+Bereich bis maximal zur gestrichelten Linie
+bewegen (siehe Abbildung 1).
+
+Die Seile sind 25 m lang, sodass der
+Abstand zwischen dem Befestigungspunkt
+am Steg und der Mitte des Balls 26 m
+beträgt. Der Gesamtradius aus Seilänge und
+Durchmesser des Balls beträgt 27 m.
+
+Der Teil des Sicherheitsbereichs, der
+außerhalb des Halbkreises liegt, kann mit                                        32 m
+den Kunststoffbällen nicht erreicht werden.                              Abbildung 1
+                                                                   nicht maßstabsgerecht
+
+c) ● Berechne, wie viel Prozent des Sicherheitsbereichs bei dieser Seillänge von den
+     Kunststoffbällen erreicht werden kann.
+
+   ● Bestimme durch Rechnungen den prozentualen Anteil des Sicherheitsbereichs, der
+     bei maximal zulässiger Verlängerung der Seile nicht erreicht werden könnte.
+                                                                                                     (7 P)
+
+
+
+                                                                                                               65
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Ein leerer Kunststoffball wird mit Hilfe eines elektrischen Gebläses mit Luft befüllt.
+Das Gebläse kann im Durchschnitt 520 Kubikmeter Luft pro Stunde in den Kunststoffball
+pumpen.
+
+
+
+d) Berechne, wie viele Sekunden benötigt werden, um einen Kunststoffball mit Luft zu
+   befüllen.                                                                                         (4 P)
+
+
+
+e) Caro hat eine Zeichnung angefertigt, in dem ein Seil straff gespannt ist und mit der
+   Wasseroberfläche einen Winkel von 2° bildet (siehe Abbildung 2).
+
+
+
+
+                                                                F
+
+
+
+
+                                            Abbildung 2
+                                      nicht maßstabsgerecht
+
+   Bestimme rechnerisch, die Höhe der Seilanbringung F über der Wasseroberfläche. (4 P)
+
+
+
+
+Theo dreht den Kunststoffball gleichmäßig
+und hat gemessen, dass er für eine
+vollständige Umdrehung des
+Kunststoffballes 5 Sekunden benötigt hat.
+Er zeichnet einen Querschnitt des
+Kunststoffballes in ein Koordinatensystem
+und markiert darauf den Punkt P (1 | 0)
+(siehe Abbildung 3).
+Nach einer Sekunde Drehung gegen den
+Uhrzeigersinn um den Ursprung als
+Drehpunkt befindet sich der Punkt an einer
+anderen Stelle.
+
+
+
+f) Ermittle die Koordinaten, an denen sich
+   der Punkt nach einer Sekunde befindet.                            Abbildung 3
+                                         (4 P)
+
+
+
+
+   66
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+5.2 Aufgaben zur Leitidee funktionaler Zusammenhang
+   (Wahlaufgabe)
+
+Europa Passage                                                                                         (20 P)
+
+Die Europa Passage ist ein Einkaufszentrum in Hamburg.
+
+Das Parkhaus der Europa Passage hat 700 Stellplätze.
+24 % der Stellplätze sind fest vermietet und kosten pro Stellplatz 65 € Miete im Monat.
+Der verbleibende Rest wird durch die sogenannte „Laufkundschaft“ genutzt, von der man
+annimmt, dass sie durchschnittlich 4,50 € pro Tag und Stellplatz an Parkgebühren bezahlt.
+
+
+
+a) Berechne die durchschnittlichen monatlichen Einnahmen für die Stellplätze.                            (6 P)
+   Hinweis: Nimm 30 Tage für einen Monat an.
+
+
+
+
+Die Europa Passage ist 160 m lang.
+Am Anfang und am Ende der Europa Passage befindet sich je ein Bogen.
+Diese Bögen stehen senkrecht im Raum und verbinden die Etagen miteinander.
+Zwischen dem Anfang und dem Ende sind weitere 19 Bögen in gleichmäßigen Abständen
+entlang der Europa Passage angeordnet.
+
+b) Berechne den Abstand zwischen zwei Bögen.                                                             (3 P)
+
+
+
+
+Die Bögen haben modellhaft die Form einer Parabel (siehe Anlage).
+
+c) Eine der folgenden Funktionsgleichungen beschreibt modellhaft den Verlauf der Parabel:
+
+
+   f1 ( x) = −1,2 ⋅ x2 − 18,5        f2 ( x) = 1,2 ⋅ x2 + 18,5      f3 ( x) = −1,2 ⋅ x2 + 18,5
+
+   Begründe, dass nur die dritte Funktionsgleichung in Frage kommt.                                      (2 P)
+
+
+
+
+d) ● Gib die Höhe eines Bogens (siehe Anlage) an.
+
+
+   ● Bestimme den Abstand zwischen den Punkten A und B.                                                  (5 P)
+
+
+
+                                                          2
+e) Der Graph mit der Funktionsgleichung f3 ( x) = −1,2 ⋅ x + 18,5 wird zuerst an der x-Achse
+   gespiegelt und dann um 2 Einheiten auf der x-Achse nach rechts verschoben.
+
+
+   Beschreibe, wie sich die Funktionsgleichung ändert.                                                   (4 P)
+
+
+
+
+                                                                                                               67
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+   Anlage zur Aufgabe "Europa Passage"
+
+
+
+
+   68
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+Feuerwerksraketen und Wasserraketen                                                                    (20 P)
+
+a) In der Silvesternacht werden in Deutschland insgesamt ungefähr 10 000 Tonnen
+   Feuerwerksartikel gezündet.
+   „Ein LKW kann mit 12,5 t geladen werden. Dieser müsste 800-mal fahren, um die
+   Feuerwerksartikel zu transportieren“, überlegt Sabrina.
+
+   Bestätige rechnerisch, dass Sabrina Recht hat.                                                        (2 P)
+
+
+
+
+In einem Schulprojekt werden Raketen in einem
+Versuch mit Hilfe von Wasserdruck angetrieben.
+
+b) Die Flugbahn einer solchen Rakete
+   (siehe Abbildung 1) lässt sich modellhaft
+   mithilfe einer Parabel darstellen.
+   Die Entfernung vom Abschussort x und
+   die Höhe y der Rakete sind jeweils in Metern
+   angegeben.
+
+
+
+
+                                                                                Abbildung 1
+   Gib durch Ablesen an:
+
+   ● Die maximale Höhe, die diese Rakete ungefähr erreicht, beträgt                    ___________ m.
+
+   ● Die ungefähre Entfernung zwischen dem
+     Start- und dem Landepunkt dieser Rakete beträgt                                   ___________ m.
+
+   ● Die fehlenden Angaben in der Wertetabelle sind:
+
+                              x         0           5
+
+                              y         0                      80         80
+
+
+
+   ● Begründe, warum zum Beispiel für x = 35 kein y-Wert mehr dargestellt wird.
+                                                                                                         (7 P)
+
+
+
+
+                                                                                                               69
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Die Funktionsgleichung f ( x ) = −0, 4x 2 + 12,2x beschreibt modellhaft die Flugbahn dieser
+Rakete. Dabei gibt x die Entfernung vom Abschussort der Rakete in Meter an,
+f ( x ) die Höhe der Rakete in Meter.
+
+c) ● Berechne die genaue Entfernung vom Startpunkt bis zur Landung.
+   ● Ermittle durch Rechnung die maximale Höhe, die die Rakete erreicht.                             (8 P)
+
+
+
+d) Die Rakete soll bei einer Entfernung von 4 m vom
+   Startpunkt ein Gebäude mit einer Höhe von 40 m
+   überfliegen (siehe Abbildung 2).
+
+    Entscheide mit Hilfe einer Rechnung, ob die Rakete
+    das Gebäude trifft.                        (3 P)
+
+
+
+
+                                                                               Abbildung 2
+
+
+
+
+   70
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee funktionaler Zusammenhang
+
+Besuch im Tierpark                                                                                     (20 P)
+
+29 Schülerinnen und Schüler sowie                                        Eintrittspreise
+2 Lehrer besuchen einen Tierpark.                       Einzelkarte
+Es wird sich für den Kauf einer                         Erwachsene                   8,50 €
+Gruppenkarte entschieden.                               Kinder (4-14 Jahre)          5,00 €
+a) Die Schülerinnen und Schüler sind                    Schüler und Studenten        6,00 €
+   15 und 16 Jahre alt.                                 Gruppenkarte
+                                                        (ab zehn zahlenden Personen)
+                                                        Erwachsene                   6,50 €
+   Berechne die gesamten Kosten für die
+   Eintrittskarten.             (2 P)                   Kinder (4-14 Jahre)          3,50 €
+                                                        Schüler und Studenten        4,50 €
+
+b) Lucie meint, dass ein Schüler durch
+   eine Einzelkarte etwa 33 % mehr als bei einer Gruppenkarte zahlen muss.
+
+    Bestätige rechnerisch, dass Lucie Recht hat.                                                         (3 P)
+
+Um das kreisförmige Gehege der Robben führt ein 280 m langer Rundweg.
+
+c) • Bestimme den Durchmesser des Geheges (Kontrollzahl: ≈ 89 m ).
+   • Berechne die Größe der Fläche des Geheges.                                                          (3 P)
+
+Einmal am Tag werden die Robben gefüttert.
+Den Robben werden Heringe im hohen Bogen zugeworfen
+(siehe Abbildung 1).
+Einem Tierpfleger gelingt es, so zu werfen, dass eine
+Robbe den Hering direkt auffangen kann.
+Die Flugbahn des Herings wird bei diesem Wurf
+modellhaft durch die folgende Funktionsgleichung
+beschrieben:
+                                                                                         Abbildung 1
+
+                                       f ( x) = −0,18x2 + 0,9x + 1,8
+        Dabei steht x für die Flugweite in Metern und f ( x) für die Flughöhe in Metern.
+                              Eine Längeneinheit entspricht einem Meter.
+
+d) • Ergänze die Wertetabelle um die fehlende Angabe.                                                    (2 P)
+
+                     x          3,00 m           4,00 m
+
+                   f (x)                         2,52 m
+
+e) • Bestimme die Entfernung der Robbe bis zum Tierpfleger.
+   • Ermittle die maximale Höhe der Flugbahn des Herings bei diesem Wurf.                                (7 P)
+
+
+f) Der Tierpfleger wirft noch zwei weiteren Robben jeweils einen Hering zu.
+   Die Flugbahnen von diesen Heringen lassen sich mit den Funktionsgleichungen
+                                                                     2
+   g ( x) = −0,2x2 + 0,6x + 1,8 und h ( x ) = −0, 6 ( x − 0, 5) + 1, 7 modellhaft beschreiben.
+
+   Vergleiche, wie sich die Flugbahnen g ( x ) und h ( x ) in Bezug auf die Abwurfhöhe
+   voneinander unterscheiden.                                                                            (3 P)
+
+                                                                                                               71
+Mittlerer Schulabschluss Mathematik          Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee funktionaler Zusammenhang
+
+Autofahrten                                                                                               (20 P)
+
+Emily plant, mit einem Leihwagen nach Bremen und Köln zu fahren.
+Sie stellt folgende Tabelle zusammen (siehe Tabelle 1):
+
+                 Start                Ziel                    Kilometer
+
+                 Hamburg              Bremen                     109
+
+                 Bremen               Köln                       317
+
+                 Ausflüge insgesamt (geschätzt)                  100
+
+                                       Tabelle 1
+
+Auf der Hin- und Rückreise möchte sie jeweils die gleiche Strecke fahren.
+
+
+Die Autovermietung AUTOFIX wirbt:
+
+                                  Leihwagen – pro Tag nur 23,20 €
+                              Gleich losfahren mit vollem Benzintank
+                                - Sie geben das Auto vollgetankt zurück. -
+
+
+Emily benötigt das Auto für eine Woche; angegeben ist ein durchschnittlicher
+Benzinverbrauch von 6 Liter pro 100 Kilometer.
+Sie geht von einem Benzinpreis von 1,339 € pro Liter aus.
+
+a) Berechne Emilys Kosten für den Leihwagen einschließlich Benzin.                                            (4 P)
+
+
+b) Der Benzinverbrauch eines Autos hängt unter anderem ab von der gefahrenen
+   Geschwindigkeit und in welchem Gang gefahren wird.
+   Die folgende Funktionsgleichung beschreibt dies modellhaft für eine Geschwindigkeit
+   zwischen 60 und 130 km/h und einer Fahrt im 5. Gang:
+
+                                  f ( x ) = 0, 0004x 2 − 0, 032x + 3,5144
+
+                         f ( x) steht für Benzinverbrauch in Liter pro 100 km;
+                              x entspricht der Geschwindigkeit in km/h
+
+    Die Funktion f ( x) ist in der Tabelle 2 und im Graphen (siehe Abbildung 1) dargestellt:
+
+
+
+             Geschwindigkeit
+   x               in                        60                         100             120             130
+                  km/h
+                ungefährer
+ f ( x)     Benzinverbrauch              3,0            3,5               4,3                           6,1
+          in Litern pro 100 km
+                                                    Tabelle 2
+
+
+
+
+   72
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben     Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                 Abbildung 1
+
+   ● Gib die fehlenden Werte in der Wertetabelle durch Ablesen aus dem Graphen an.
+
+   ● Bestimme rechnerisch, bei welcher Geschwindigkeit das Auto 6 Liter pro 100 km
+        verbraucht.                                                                                        (7 P)
+
+
+c) Begründe rechnerisch, dass die Funktion f ( x) auch dann keine Nullstelle(n) haben kann,
+   wenn man beliebige x-Werte zulässt.                                                                     (4 P)
+
+
+Matthias und Arslan haben sich Autos beim Autovermieter MOBILO gemietet.
+Die Mietkosten bei MOBILO setzen sich folgendermaßen zusammen:
+
+    -    Grundgebühr pro Tag
+
+    -    fester Preis pro gefahrenem Kilometer.
+
+Ihre Mietkosten wurden folgendermaßen abgerechnet:
+
+                      Matthias:                                                   Arslan:
+
+               Dauer:           2 Tage                                   Dauer:             5 Tage
+
+              Strecke:         160 km                                    Strecke:       615 km
+
+             Mietkosten:       134,80 €                                  Mietkosten:        414 €
+
+
+x soll für die Grundgebühr pro Tag und y für den Preis pro Kilometer stehen.
+Dann gilt: Mietkosten = x ⋅ Anzahl der Tage + y ⋅ Anzahl der Kilometer
+
+
+
+d) Bestimme die Grundgebühr pro Tag und den Preis pro gefahrenem Kilometer bei
+   MOBILO.                                                                                              (5 P)
+
+
+                                                                                                                 73
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee funktionaler Zusammenhang
+
+Parabelflug                                                                                        (20 P)
+
+Der Parabelflug (siehe Abbildung 1) ist ein besonderes
+Flugmanöver, bei dem für durchschnittlich
+22 Sekunden ein Zustand der Schwerelosigkeit erreicht
+wird.
+
+
+a) Während eines Fluges werden nach und nach
+   30 Parabeln geflogen.
+   Berechne, wie viele Minuten insgesamt der Zustand
+   der Schwerlosigkeit erreicht wird.
+                                           (3 P)
+                                                                            Abbildung 1
+
+Der Parabelflug startet erst bei einer Flughöhe von 7 500 m.
+Nach dem Abheben steigt das Flugzeug zunächst gleichmäßig an, um die gewünschte
+Flughöhe zu erreichen (siehe Abbildung 2).
+
+
+
+
+                                            Abbildung 2
+
+
+
+
+b) ● Wähle durch Ankreuzen aus, welche Funktionsgleichung den Steigflug modellhaft
+     beschreibt.
+                                      □ f1(x) = 6250x
+                                      □ f2(x) = 625x
+                                      □ f3(x) = 62,5x
+   ● Begründe deine Entscheidung.                                                                    (3 P)
+
+
+
+
+   74
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                             Abbildung 3
+
+Die Abbildung 3 zeigt die Flugbahn während des Parabelfluges.
+Das Koordinatensystem wurde so verschoben, dass der Start des Parabelfluges
+(in 7 500 m Höhe) im Ursprung liegt.
+
+Die Flugbahn kann mit folgender Funktionsgleichung modellhaft beschrieben werden:
+
+                                        f ( x ) = −8,26 x 2 + 181,72x
+
+
+   Dabei steht x für die Zeit in Sekunden; f ( x ) für die Höhe des Parabelfluges in Metern.
+
+
+
+c) Bestätige anhand der Funktionsgleichung, dass der Parabelflug genau 22 Sekunden
+   dauert.                                                                         (5 P)
+
+
+
+d) Berechne die Flughöhe, die das Flugzeug insgesamt erreicht.                                           (4 P)
+
+
+
+
+e) Bestimme die Funktionsgleichung eines Parabelflugs, der
+       → ebenfalls 22 Sekunden dauert,
+       → jedoch eine maximale Parabelhöhe von 1 210 Metern erreicht.
+   Tipp: Forme in die Scheitelpunktform um.                                                              (5 P)
+
+
+
+
+                                                                                                               75
+Mittlerer Schulabschluss Mathematik    Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+Wasserfontäne                                                                                       (20 P)
+
+In einem Park beträgt der Eintrittspreis 4,50 Euro pro Besucher.
+Pro Tag kamen durchschnittlich 1 140 Besucher.
+Es wurde als Attraktion eine große Wasserfontäne gebaut.
+Nun sind es durchschnittlich 2 964 Besucher pro Tag.
+
+a) Berechne die durchschnittlichen Einnahmen pro Tag vor und nach dem Bau der
+   Wasserfontäne.                                                                                     (2 P)
+
+b) Berechne, um wie viel Prozent die Besucherzahl gestiegen ist.                                      (2 P)
+
+
+Der Park soll mit den durchschnittlich 2 964 Besuchern pro Tag 16 000 Euro Einnahmen
+täglich erzielen.
+
+c) Berechne den Betrag, um den der Eintrittspreis steigen muss, damit diese Einnahmen
+   erzielt werden.                                                                 (3 P)
+
+Die Wasserfontäne tritt aus einer Öffnung im Boden aus
+(siehe Abbildung 1).
+Ihr Verlauf hat bis zum Aufprall annähernd die Form einer
+Parabel.
+Sie wird modellhaft beschrieben durch die Funktionsgleichung
+
+                         f ( x) = −x2 + 4x
+                                                                                     Abbildung 1
+             f ( x) entspricht der Höhe der Wasserfontäne;
+x entspricht der Entfernung von der Öffnung im Ursprung des Koordinatensystems.
+
+Eine Längeneinheit entspricht 1 m in der Wirklichkeit.
+
+d) Bestimme die Entfernung zwischen der Öffnung und der Stelle, an der das Wasser
+   wieder auf den Boden aufprallt.                                                (4 P)
+
+
+e) Ermittle die maximale Höhe, die die Wasserfontäne erreicht.                                        (4 P)
+
+
+Die Öffnung soll durch ein Rohr um 84 cm nach oben
+verschoben werden (siehe Abbildung 2).
+Die Form der austretenden Wasserfontäne soll dabei gleich
+bleiben.
+An der Stelle a trifft der Strahl auf den Boden.
+a darf höchstens 4,5 m vom Ursprung des
+Koordinatensystems entfernt sein, da sonst Besucher nass
+werden könnten.                                                                    Abbildung 2
+
+
+
+f) Begründe, ob die Öffnung 84 cm höher angebracht werden darf.                                       (5 P)
+
+
+
+
+   76
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+Flöhe                                                                                                  (20 P)
+
+Flöhe sind Schädlinge, die Menschen und Tiere befallen können.
+
+a) Isoldes Hund hat Flöhe.
+   In der Regel sind nur 5 % der Flöhe erwachsen.
+   Der Rest sind Eier, Larven und Puppen.
+
+   Berechne bei 20 erwachsenen Flöhen die Anzahl der Eier, Larven und Puppen,
+   die dieser Hund im Fell hat.                                                                          (3 P)
+
+b) Ein weiblicher Floh legt durchschnittlich 40 Eier am Tag.
+   Ein Floh hat bereits 278 Eier gelegt.
+
+   ● Wähle die Funktionsgleichung aus, die die Gesamtanzahl der Eier nach x Tagen
+     modellhaft beschreibt.
+
+                      (1) y = 40x − 278        (2) y = 40x 2 + 278       (3) y = 40x + 278
+                                       x steht für die Anzahl der Tage;
+                                    y steht für die Gesamtanzahl der Eier
+
+   ● Begründe deine Wahl.
+   ● Berechne die Anzahl der Tage, nach denen dieser Floh insgesamt 2 318 Eier
+     gelegt hat.                                                                                         (7 P)
+
+Flöhe können weit und hoch springen.
+
+c) Ein Sprung eines Flohs (siehe Abbildung 1) lässt sich mit dem Graphen der
+   Funktionsgleichung f ( x ) = − 0, 05x 2 + 30 annähernd modellhaft beschreiben:
+
+
+
+
+                                                   Abbildung 1
+
+           x entspricht der Entfernung in Metern; f ( x ) entspricht der Höhe des Sprungs
+
+   Bestimme die Höhe und die Weite des Sprungs dieses Flohs.                                             (6 P)
+
+d) Ein anderer Floh springt weiter als der erste Floh.
+
+   ● Ermittle eine mögliche Funktionsgleichung der Form f ( x ) = ax 2 + c , die den Sprung
+      dieses anderen Flohs darstellt, der weiter springt.
+
+   ● Begründe deine Wahl.                                                                                (4 P)
+
+
+
+
+                                                                                                               77
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee Funktionaler Zusammenhang
+
+Schützenfisch                                                                                      (20 P)
+
+a) Von den 230 000 bekannten Tierarten im Meer sind 12 % Fischarten.
+
+   Berechne die Anzahl der Fischarten.                                                               (3 P)
+
+b) Einige Raubfische können bei ihrer Jagd in 15 Minuten 7 000 m zurücklegen.
+
+   Berechne die durchschnittliche Geschwindigkeit in Kilometern pro Stunde, mit der einige
+   Raubfisch schwimmen können.                                                       (4 P)
+
+
+Schützenfische gehören zu den Raubfischen.
+Sie fangen Insekten, indem sie mit einem
+Wasserstrahl aus dem Wasser gegen die Insekten
+schießen (siehe Abbildung 1).
+
+c) Bei einem Versuch, ein Insekt zu fangen, lässt
+   sich der Wasserstrahl modellhaft mit einer der
+   folgenden Funktionsgleichung beschreiben, wobei
+   x der Entfernung in Metern entspricht;
+   f ( x ) entspricht der Höhe des Wasserstrahls in
+   Metern.                                                                       Abbildung 1
+
+                     1         2
+        f1 ( x ) = −   ( x − 2) + 2
+                     2
+                     1         2
+        f2 ( x ) = − ( x + 2) + 2
+                     2
+                   1         2
+        f3 ( x ) = ( x − 2) − 2
+                   2
+
+   ● Wähle die Funktionsgleichung aus, die diesen Wasserstrahl modellhaft beschreibt.
+
+   ● Begründe, dass die beiden anderen Funktionsgleichungen dafür nicht in Frage
+     kommen.                                                                                         (3 P)
+
+d) ● Gib die maximale Höhe des Wasserstrahls an.
+
+   ● Bestimme die Entfernung, nach der der Wasserstrahl wieder auf der
+     Wasseroberfläche auftrifft.                                                                     (6 P)
+
+e) Eine Mücke sitzt 1 m über der Wasseroberfläche an einem Schilfrohr.
+   Ein Schützenfisch schießt mit einem Wasserstrahl auf die Mücke.
+   Die getroffene Mücke fällt senkrecht auf die Wasseroberfläche.
+   Dieser Wasserstrahl lässt sich mit folgender Funktionsgleichung modellhaft beschreiben:
+
+                                                     1 2
+                                        g (x ) = −     x + 1, 05 x
+                                                     4
+
+   Ermittle die direkte Entfernung, die der Fisch zurücklegen muss, um die Mücke auf der
+   Wasseroberfläche zu erreichen.                                                    (4 P)
+
+
+
+   78
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+5.3 Aufgaben zur Leitidee Daten und Zufall
+    (Wahlaufgabe)
+
+Schweinerei                                                                                            (20 P)
+
+Bei dem Spiel „Schweinerei“ würfelt man mit kleinen Schweinen aus Plastik anstatt mit
+normalen Spielwürfeln.
+Die Schweine können dabei in unterschiedlichen Lagen landen (siehe Tabelle 1).
+Zu jeder dieser Lagen gibt der Hersteller eine Wahrscheinlichkeit an, mit der diese Lage
+auftritt.
+
+       Beschreibung                                                             Wahrscheinlichkeit
+                                          Bild                 Name
+         der Lage                                                                   der Lage
+
+
+  Das Schwein landet auf                                                              P (Sau) = 0,65
+                                                                „Sau“
+            der Seite.
+
+
+  Das Schwein landet auf                                                             P (Suhle) = 0,26
+                                                               „Suhle“
+         dem Rücken.
+
+
+  Das Schwein landet auf                                                             P (Haxe) = 0,06
+                                                               „Haxe“
+      allen vier Beinen.
+
+
+  Das Schwein landet auf                                                         P (Schnauze) = 0,03
+                                                            „Schnauze“
+        der Schnauze.
+
+                                     Tabelle 1 (Fotos: BSFB Hamburg)
+
+
+a) Ein kleines Schwein aus Plastik wurde getestet und wurde dafür 2 000-mal geworfen.
+   Die Ergebnisse wurden in der Tabelle 2 festgehalten.
+
+
+   Berechne schrittweise in geeigneter Reihenfolge die fehlenden Daten in der Tabelle 2.
+                                                                                                         (5 P)
+
+
+
+            Lage          „Sau“            „Suhle“           „Haxe“       „Schnauze“          Summe
+
+
+       absolute
+                                             498                                71             2 000
+      Häufigkeit
+
+       relative
+                                                             0,0645                               1
+      Häufigkeit
+
+                                                   Tabelle 2
+
+
+b) • Entscheide, ob die Daten in der Tabelle 2 die Herstellerangaben aus Tabelle 1
+      bestätigen.
+   • Interpretiere eventuelle Abweichungen.                                                              (3 P)
+
+                                                                                                               79
+Mittlerer Schulabschluss Mathematik     Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Für die weiteren Aufgabenteile sollen die Herstellerangaben (siehe Tabelle 1) zugrunde
+gelegt werden.
+
+
+c) Ein kleines Schwein aus Plastik wird nacheinander zweimal geworfen.
+
+
+   ● Ermittle die Wahrscheinlichkeit, dass das Schwein beide Male auf „Sau“ liegt.
+
+
+   ● Ermittle die Wahrscheinlichkeit, dass das Schwein beim ersten Mal auf „Haxe“
+        liegt und beim zweiten Mal nicht.                                                              (5 P)
+
+
+
+Auf einem Schulfest bietet die Klasse 10a ein Gewinnspiel an.
+Das kleine Schwein aus Plastik wird dabei dreimal geworfen.
+Sie berechnen die Gewinnwahrscheinlichkeiten und erstellen folgende Tabelle (siehe
+Tabelle 3) mit gerundeten Gewinnwahrscheinlichkeiten:
+
+                                                           mindestens
+          Ereignis               dreimal „Sau“                einmal               dreimal „Suhle“
+                                                           „Schnauze“
+
+          Gewinn-
+                                      27,5 %                   8,7 %                      1,8 %
+   wahrscheinlichkeit
+
+
+        Auszahlung                     2€                        3€                        5€
+
+
+                                               Tabelle 3
+
+d) Bestätige rechnerisch, dass die Wahrscheinlichkeit mindestens einmal „Schnauze“ zu
+   werfen, bei etwa 8,7 % liegt.                                                 (3 P)
+
+e) Der Einsatz beträgt 1 €.
+
+   Zeige, dass die Klasse 10a langfristig Einnahmen erwarten kann.                                     (4 P)
+
+
+
+
+   80
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+Stadtbus                                                                                                (20 P)
+
+Die Klasse 10b hat die Pünktlichkeit von drei Buslinien untersucht.
+Es wurden gleich viele Fahrten pro Buslinie beobachtet.
+Die Anzahl der Verspätungen ist in Tabelle 1 dargestellt:
+
+
+
+                               Nummer der Buslinie              6        39   145
+
+                            Anzahl der Verspätungen            75        57    18
+                                                   Tabelle 1
+
+
+a) Berechne die durchschnittliche Anzahl an Verspätungen der Buslinien.                                   (2 P)
+
+
+
+
+b) • Wähle das Kreisdiagramm aus, das die untersuchten Verspätungen der
+     drei Buslinien richtig darstellt (siehe Abbildung 1).
+
+   • Begründe, dass die anderen beiden Kreisdiagramme die Verteilung nicht darstellen.
+                                                                                    (5 P)
+
+
+
+
+                                                 Abbildung 1
+
+
+
+
+                                                                                                                81
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Auf der Buslinie 252 fahren 87 % der Busse pünktlich.
+Ist ein Bus verspätet, soll der Fahrer die Verspätung in einer App melden, was aber nur in
+65 % aller Fälle geschieht.
+
+c) ● Gib beim folgenden Baumdiagramm in den leeren Feldern die fehlenden
+     Beschriftungen und Wahrscheinlichkeiten an.
+
+
+
+
+   ● Bestimme die Wahrscheinlichkeit in Prozent dafür, dass ein Bus der Linie 252
+     verspätet ist und der Fahrer die Verspätung in der App meldet.               (8 P)
+
+
+
+d) Fiona behauptet: „Die Wahrscheinlichkeit, dass drei Busse hintereinander pünktlich sind,
+   ist größer als 50 %.“
+   Kubilay behauptet: „Die Wahrscheinlichkeit, dass mindestens einer von fünf Bussen
+   verspätet ist, beträgt 90 %.“
+
+   Beurteile die beiden Aussagen.                                                                    (5 P)
+
+
+
+
+   82
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+(Gezinkte) Münzen                                                                                      (20 P)
+In einer Dose hat Peter sechs 20-Cent-Münzen.
+Davon sind zwei Münzen gezinkt (manipuliert).
+Das sieht man den Münzen nicht an.
+
+                                                                         Foto: BSFB Hamburg
+
+
+a) Peter nimmt eine Münze aus der Dose. Er wirft seine Münze 25-mal.
+   Er notiert folgende Ergebnisse für die Ereignisse Kopf (K) und Zahl (Z):
+
+                 K K K Z K Z Z Z K Z Z K Z Z K Z K K Z K K K Z Z Z
+
+   Ergänze die fehlenden Werte in Tabelle 1:                                                             (5 P)
+
+                                                   relative Häufigkeit         relative Häufigkeit
+                      absolute Häufigkeit
+       Ergebnis                                        (als Bruch)                 (in Prozent)
+                                                            12
+       Kopf (K)                                             25
+
+       Zahl (Z)
+                                                           25
+       Summe                    25                                                    100 %
+                                                           25
+                                                   Tabelle 1
+
+
+b) Peter legt seine Münze zurück, Karl nimmt eine neue Münze aus der Dose.
+   Sie wissen nicht, dass diese Münze gezinkt ist.
+   Das heißt, dass in 55 % der Fälle „Kopf“ (K) gezeigt wird, wenn die Münze geworfen
+   wird.
+   Die andere Seite der Münze zeigt die „Zahl“ (Z).
+
+   Mit dreimaligen Werfen der Münze wollen sie entscheiden, wer den nächsten Film
+   aussuchen darf und vereinbaren die folgende Gewinnregel:
+
+
+                       Peter gewinnt, wenn mindestens zweimal „Kopf“ fällt.
+                               Karl gewinnt in den anderen Fällen.
+
+
+
+   ● Gib alle möglichen Ausgänge des Spiels an, bei denen Karl gewinnen würde.
+
+   ● Begründe, warum die Wahrscheinlichkeit für „Zahl“ bei einmaligem Wurf mit der
+                             9
+      gezinkten Münze          ist.                                                                      (4 P)
+                            20
+
+
+
+
+                                                                                                               83
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+c) ● Berechne die im Baumdiagramm fehlenden Wahrscheinlichkeiten.
+
+   ● Gib an, wer von den beiden jeweils gewinnt.                                                     (6 P)
+
+
+
+
+Peter vermutet, dass er mit einer Wahrscheinlichkeit von 50 % gewinnt.
+
+d) ● Ermittle den genauen Wert der Wahrscheinlichkeit dafür, dass Peter bei Verwendung
+     der gezinkten Münze und der oben genannten Gewinnregel gewinnt.
+
+   ● Bestimme die Wahrscheinlichkeit dafür, dass Peter zweimal hintereinander gewinnt.
+                                                                                   (5 P)
+
+
+
+
+   84
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+Klassendienste                                                                                         (20 P)
+
+In einer Klasse sind 25 Schülerinnen und Schüler.
+Für die Klassendienste werden 8 Kinder gebraucht.
+Sie werden einmal pro Woche ermittelt, indem ihr Namensschild zufällig aus einer Box
+gezogen wird.
+Nach der Ziehung werden die Namensschilder wieder in die Box gelegt.
+
+
+Der Klassenlehrer notiert sich während des Schuljahres, wer wie oft einen Klassendienst
+ausgeübt hat.
+Er stellt sein Ergebnis in einem Säulendiagramm dar (siehe Abbildung 1).
+
+
+
+
+                                                 Abbildung 1
+
+a) ● Berechne die Spannweite der Werte.
+
+
+   ● Interpretiere die Bedeutung der horizontalen Linie, die etwas dicker eingezeichnet
+      wurde.
+
+
+   ● Berechne den Schnittpunkt der y-Achse mit dieser Linie.                                             (6 P)
+
+
+
+b) Karl meint: „Ich habe nun dreimal hintereinander einen Klassendienst erledigen müssen.
+   Nun werde ich auf keinen Fall mehr dran kommen!“
+
+
+   Entscheide, ob Karl recht hat.                                                                        (3 P)
+
+
+
+c) Berechne die Wahrscheinlichkeit in Prozent dafür, einen Klassendienst dreimal
+   hintereinander ausführen zu müssen.                                                                   (3 P)
+
+                                                                                                               85
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Der Klassenlehrer entscheidet sich für das nächste Schuljahr, die gezogenen
+Namensschilder nach dem Ziehen nicht wieder in die Box zu legen.
+Erst nach 3 Durchgängen legt er die Namensschilder wieder zurück in die Box, so dass bis
+auf ein Kind alle drankommen.
+
+
+d) ● Vervollständige das Baumdiagramm.
+
+
+
+
+   ● Ermittle die Wahrscheinlichkeit dafür, bei diesem Verfahren innerhalb von 3 Wochen
+        keinen Klassendienst zugewiesen zu bekommen.                                                 (6 P)
+
+
+
+e) Beurteile, ob dieses Verfahren nach 6 gemeinsamen Schuljahren fairer ist als das
+   vorherige Verfahren.                                                                              (2 P)
+
+
+
+
+   86
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben    Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+Eiskunstlauf                                                                                            (20 P)
+
+Bei der Eiskunstlauf-Show „Holiday on Ice“ werden die folgenden Eintrittskarten verkauft
+(siehe Tabelle 1):
+
+                             Kategorie                   Parkett         Loge            VIP
+                     Preis pro Eintrittskarte            6 Euro          8 Euro       10 Euro
+                     Anzahl der verkauften
+                                                          3 600          2 400         1 200
+                        Eintrittskarten
+                                                   Tabelle 1
+
+a) Berechne die Gesamteinnahmen durch den Verkauf aller Eintrittskarten.                                  (3 P)
+
+
+
+
+b) Hannes hat zu den Anzahlen der verkauften Eintrittskarten aus
+   Tabelle 1 ein Kreisdiagramm gezeichnet (siehe Abbildung 1).
+
+   Nenne 5 Fehler dieses Kreisdiagramms.                        (5 P)
+
+
+
+
+c) Nala ist Eiskunstläuferin und möchte 2 Sprünge zeigen.
+                                                                                           Abbildung 1
+   Sie weiß, dass sie den ersten Sprung
+   mit einer Wahrscheinlichkeit von 0,95 fehlerfrei beherrscht,
+   den zweiten mit einer Wahrscheinlichkeit von 0,8.
+
+   • Zeichne ein vollständiges Baumdiagramm mit den Beschriftungen.
+
+   • Bestimme die Wahrscheinlichkeit in Prozent dafür, dass beide Sprünge fehlerfrei
+     gelingen.
+                                                                                                          (9 P)
+
+
+
+Nala kann mittlerweile 5 verschiedene Sprünge.
+Diese möchte sie hintereinander vorführen.
+Dabei darf sie die Reihenfolge selbst bestimmen.
+Sie meint, dass es mehr als 100 verschiedene Reihenfolgen gibt.
+
+d) Entscheide, ob diese Aussage wahr ist.                                                                 (3 P)
+
+
+
+
+                                                                                                                87
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee Daten und Zufall
+
+Fremdsprachen                                                                                       (20 P)
+
+Die Klasse 10a bearbeitet in der Projektwoche das Thema „Viele Sprachen – eine Welt“.
+Sie möchte wissen, welche Fremdsprachenkenntnisse die Menschen in Hamburg besitzen.
+Eine von der Klasse erstellte Umfrage führt zu dem folgenden Ergebnis:
+
+         Anzahl erlernter Fremdsprachen             0         1          2          3          4
+               absolute Häufigkeit                  9         54        279         90         18
+
+
+a) Berechne die durchschnittliche Anzahl erlernter Fremdsprachen.                                    (3 P)
+
+
+
+
+b) ● Berechne den prozentualen Anteil der
+     Befragten, die drei Fremdsprachen sprechen.
+   ● Vervollständige das Säulendiagramm
+     (mit Beschriftung), welches das
+     Umfrageergebnis mit relativen Häufigkeiten
+     angibt.                               (6 P)
+
+
+
+Der Hersteller vom Übersetzungsprogramm
+„LINGUA 7“ wirbt damit,
+dass ein Satz in 60 % aller Fälle richtig übersetzt
+wird.
+Die Schüler der Klasse 10a möchten nacheinander
+zwei Sätze übersetzen lassen.
+
+
+
+c) Inga erstellt zu der Werbung das folgende Baumdiagramm
+   (siehe Abbildung 1).
+
+   Nenne die drei Fehler in diesem Baumdiagramm.              (3 P)
+
+
+                                             R = richtige Übersetzung
+                                              F = falsche Übersetzung
+                                                                                       Abbildung 1
+d) Ermittle die Wahrscheinlichkeit in Prozent dafür, dass genau einer der
+   beiden Sätze richtig übersetzt wird.                                                              (4 P)
+
+
+
+Der Hersteller von LINGUA 7 liefert ein Update und wirbt nun mit dem Satz:
+
+„Die Anzahl falscher Sätze wurde halbiert, 90 % aller Sätze werden nun richtig übersetzt.“
+
+e) Beurteile diese Aussage.                                                                          (4 P)
+
+
+
+
+   88
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben   Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+Blutgruppen                                                                                            (20 P)
+
+Jeder Mensch besitzt eine ganz bestimmte Blutgruppe: A, B, AB oder 0.
+Die Verteilung der Blutgruppen ist von Land zu Land unterschiedlich.
+In Deutschland sieht die Verteilung der Blutgruppen folgendermaßen aus:
+
+
+  Blutgruppe          A           B          AB          0
+
+   Verteilung       43 %        11 %        5%
+
+
+
+a) Bestätige durch Rechnung, dass 41 % der Bevölkerung die Blutgruppe 0 haben.                           (1 P)
+
+
+
+Deutschland hat derzeit ungefähr 81,89 Millionen Einwohner.
+
+b) ● Wähle mit Hilfe der Tabelle die richtige Blutgruppe durch Ankreuzen aus.
+
+      Etwa 9 Mio. Einwohner haben …
+      o die Blutgruppe A.
+      o die Blutgruppe B.
+      o die Blutgruppe AB.
+      o die Blutgruppe 0.                                                                                (2 P)
+
+
+
+c) ● Wähle das Kreisdiagramm aus, welches die Verteilung der Blutgruppen in
+      Deutschland korrekt darstellt.
+
+
+   ● Begründe, warum die beiden anderen Kreisdiagramme die Verteilung nicht richtig
+      darstellen.                                                                                        (3 P)
+
+
+
+
+                                                                                                               89
+Mittlerer Schulabschluss Mathematik   Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Bei einer Blutspende wird dem Spender ungefähr 500 ml Blut entnommen.
+Zwischen zwei Blutspenden ist eine Ruhezeit von 58 Tagen vorgeschrieben.
+Der Spender muss mindestens 18 Jahre alt sein und darf das Alter von 69 Jahren nicht
+überschritten haben.
+
+
+Sebastian ist 47 Jahre alt und behauptet, er habe in seinem Leben schon über 100 Liter Blut
+gespendet.
+
+d) ● Berechne die maximale Anzahl der Jahre, in denen Sebastian Blut spenden konnte.
+   ● Entscheide, ob Sebastians Aussage stimmen kann.                                                 (4 P)
+
+
+Eine Blutstransfusion ist nur möglich, wenn Spender und Empfänger die gleiche Blutgruppe
+haben.
+Aus einer Kartei von Blutspendern werden zufällig zwei Personen ausgewählt.
+
+
+e) ● Berechne die Wahrscheinlichkeit dafür, dass beide Personen die Blutgruppe B haben.
+
+   ● Bestimme die Wahrscheinlichkeit dafür, dass beide Personen die gleiche Blutgruppe
+     haben.
+                                                                                    (7 P)
+
+
+In der Klasse 10b sind 21 Schülerinnen und Schüler.
+
+
+f) Bestimme die Wahrscheinlichkeit dafür, dass mindestens eine Schülerin oder ein Schüler
+   aus der Klasse die Blutgruppe AB besitzt.                                                         (3 P)
+
+
+
+
+   90
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben      Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee Daten und Zufall
+
+Hamburg-Marathon                                                                                          (20 P)
+
+Seit dem Jahr 1986 findet der Hamburg-Marathon jedes Jahr statt.
+Die Strecke ist 42,195 km lang.
+
+a) Der schnellste Läufer lief im Jahr 2015 die Strecke in
+   2 Stunden 7 Minuten und 17 Sekunden.
+   Berechne seine Durchschnittsgeschwindigkeit in km/h.                                                     (2 P)
+
+
+b) Georg brauchte beim Hamburg-Marathon durchschnittlich für
+   einen Kilometer 4,25 Minuten.
+   Entscheide mit Hilfe einer Rechnung, ob er die Strecke unter 3 Stunden geschafft hat.
+                                                                                     (2 P)
+
+In der folgenden Tabelle wird dargestellt, wie viele Läufer das Ziel erreicht haben.
+
+                             Jahr            Läufer gesamt               davon weiblich
+                             2015               14 753                       3 359
+                             1986                6 957                        633
+
+
+c) ● Bestätige, dass der prozentuale Anteil der
+     weiblichen Läufer, die das Ziel erreicht
+     haben, im Jahr 2015 etwa 23 % betrug.
+   ● Zeichne für das Jahr 2015 den Anteil der
+     weiblichen und männlichen Läufer, die das
+     Ziel erreicht haben, in das Kreisdiagramm.
+   ● Vervollständige das Kreisdiagramm mit
+     einer Beschriftung.                    (5 P)
+
+
+d) Georg behauptet, dass im Jahr 2015 ungefähr
+   fünfmal so viele Frauen ins Ziel gekommen
+   sind wie im Jahr 1986.
+   Vera meint, es wären zweieinhalbmal so viele,
+   wenn man die jeweiligen Anteile vergleicht.
+
+   Begründe, dass beide Aussagen richtig sind.                                                              (4 P)
+
+
+Jeder Läufer bekommt eine Startnummer, die er sichtbar auf der Brust tragen muss.
+Wir nehmen im Folgenden an, dass die Startnummern von 1 bis einschließlich 20 000
+fortlaufend vergeben werden.
+Georg glaubt, dass ihm die „4“ Glück bringt.
+
+e) Bestimme die Wahrscheinlichkeit dafür, dass Georgs Startnummer mit der Ziffer 4
+   beginnt.                                                                        (4 P)
+
+f) Ermittle die Wahrscheinlichkeit dafür, dass mindestens einmal die Ziffer 4 in seiner
+   Startnummer vorkommt.                                                                                    (3 P)
+
+
+
+                                                                                                                  91
+

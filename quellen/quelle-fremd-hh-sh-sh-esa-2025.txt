@@ -1,0 +1,739 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2025 ESA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=311cbca69a7ab717ddd7c97ecd51e1f9
+ABRUF: 2026-09-27
+SEITEN: 8
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                        ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 1.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 135 Minuten, davon höchstens
+                          45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                        ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben
+
+A1   Berechne.
+
+     6  3  4  ____
+
+                                                                              /1 P.
+
+A2   Zu einer Raute ABCD fehlt der Punkt C. Zeichne den Punkt C ein.
+
+
+
+
+                                                                              /1 P.
+
+A3   In einem Parallelogramm ist  = 44°. Wie groß ist der Winkel  ?
+     Kreuze an.
+
+
+
+
+     Die Abbildung ist nicht maßstabsgerecht.
+
+     ☐ 44°                       ☐ 136°                              ☐ 144°
+
+                                                                              /1 P.
+
+
+
+
+                                               4
+                      ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A4   Aus den folgenden Kärtchen wird verdeckt eine Karte gezogen.
+     Gib die Wahrscheinlichkeit an, dass der Buchstabe „N“ gezogen wird.
+
+
+
+
+     Wahrscheinlichkeit: _____
+
+                                                                           /1 P.
+
+A5   Zeichne ein weiteres Rechteck mit demselben Flächeninhalt und anderen
+     Seitenlängen als das dargestellte Rechteck.
+
+
+
+
+                                                                           /1 P.
+
+A6   Eine Hose kostet 50 €. Der Preis wird um 20 % gesenkt.
+
+
+
+
+     Die Hose kostet dann ______ €.
+
+                                                                           /1 P.
+
+
+
+
+                                             5
+                       ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+                1
+A7   Markiere     auf dem Zahlenstrahl.
+                5
+
+
+
+
+                                                                                        /1 P.
+
+A8   Die Darstellung zeigt ein Punktemuster.
+
+
+
+
+         Figur 1            Figur 2                   Figur 3             …   Figur 5
+
+     a) Das Muster soll fortgesetzt werden. Zeichne Figur 5.
+
+                                                                                        /1 P.
+
+     b) Gib an, aus wie vielen Punkten Figur 10 besteht: _____
+
+                                                                                        /1 P.
+
+A9   Kisten der Höhe 40 cm werden übereinander gestapelt.
+     Daneben werden Kisten der Höhe 30 cm gestapelt.
+     Gib die Höhe an, bei der die beiden Stapel erstmalig gleichhoch sind.
+
+     Höhe: ________ cm
+
+                                                                                        /1 P.
+
+
+
+
+                                              6
+                      ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A10 Maurice benutzt ein Tabellenkalkulationsprogramm, um die
+    Durchschnittstemperatur einer Woche zu ermitteln.
+
+
+
+
+    Gib eine Formel für Zelle B9 an.
+
+
+
+
+                                                                           /1 P.
+
+A11 Begründe, dass die Wahrscheinlichkeit eine weiße Kugel zu ziehen bei
+    Behälter A größer ist als bei Behälter B.
+
+
+
+
+                                                                           /1 P.
+
+
+                                             7
+                      ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A12 Thies geht spazieren. Dies ist im Diagramm dargestellt.
+
+
+
+
+     a) Gib an, welche Strecke Thies nach 10 Minuten zurückgelegt hat.
+
+        Ergebnis: ____________
+                                                                            /1 P.
+
+     b) An einem anderen Tag macht Thies wieder einen Spaziergang. Er geht
+        los und macht nach 10 Minuten eine Pause von 5 Minuten. Danach geht
+        er weiter und läuft dabei schneller als zu Beginn.
+        Zeichne einen passenden Graphen.
+
+
+
+
+                                                                            /1 P.
+
+                                          km
+A13 Ein Zug fährt durchschnittlich 90        .
+                                           h
+
+     Anne behauptet: „Für eine Strecke von 300 km benötigt er 3 Stunden.“
+     Zeige, dass Annes Behauptung nicht stimmt.
+
+
+
+
+                                                                            /1 P.
+
+
+
+                                             8
+                      ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A14 Eine Umfrage unter Jugendlichen ergab, dass 80 % den Messenger-Dienst
+    HelloThere nutzen.
+
+    Prüfe jeweils, ob die Aussage stimmt. Kreuze an.
+
+
+                                                                                  stimmt
+                                                                         stimmt
+                                                                                   nicht
+
+     4 von 5 nutzen HelloThere.                                            ☐        ☐
+
+
+     Jeder 8. nutzt HelloThere.                                            ☐        ☐
+
+     Unter 100 Jugendlichen nutzen durchschnittlich 15
+                                                                           ☐        ☐
+     HelloThere nicht.
+
+                                                                                     /2 P.
+
+A15 Das Diagramm stellt die Anzahl der Schülerinnen und Schüler im
+    9. Jahrgang dar.
+
+
+
+
+    a) Ergänze die fehlende Anzahl der 9b in der Tabelle.
+                                                                                     /1 P.
+
+    b) Ergänze die fehlende Säule im Diagramm.
+
+                                                                                     /1 P.
+
+
+
+
+                                             9
+                       ESA Mathematik Prüfungsheft 1 2025 (c) MBWFK S-H
+
+
+
+
+A16 Christian behauptet: „Die Kathete x ist ca. 7,4 cm lang.“
+
+
+
+
+     Die Abbildung ist nicht maßstabsgerecht.
+
+
+
+
+     Begründe, warum sein Ergebnis nicht stimmen kann.
+
+
+
+
+                                                                          /1 P.
+
+
+
+
+                                             10
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2025 ESA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=79814e3f97ad53352e8d47c7c33196a4
+ABRUF: 2026-09-27
+SEITEN: 12
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                        ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 2.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 135 Minuten, davon höchstens
+                          45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                      ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                                       Am Strand
+
+Kaya, Numi und Xaver verbringen einen Tag am Strand.
+
+(1) Kaya will den weiß eingezeichneten Kurs zwischen den beiden Stegen schwimmen.
+
+
+
+
+    a) Nenne den Namen des Vierecks, das den weißen Kurs beschreibt
+
+                                                                               /1 P.
+
+    b) Zeichne eine Hilfslinie ein, die den Kurs in ein Rechteck und ein Dreieck
+       zerlegt.
+
+                                                                               /1 P.
+
+    c) Die Stege haben voneinander einen Abstand von 400 m.
+
+        Zeige rechnerisch, dass x ungefähr 420 m lang ist.
+
+                                                                               /2 P.
+
+    d) Kaya behauptet, dass ihr geschwommener Kurs ungefähr 1 km lang ist.
+
+        Überprüfe, ob Kaya richtig schätzt.
+
+                                                                               /2 P.
+
+
+
+
+                                             4
+                      ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+(2) Numi und Xaver haben eine Sandburg gebaut (s. Foto). Sie fragen sich, wie
+    viel Sand sie insgesamt verbaut haben.
+
+
+
+
+   Numi hat ca. fünfzig 2-Liter-Eimer, Xaver hat ca. achtzig 5-Liter-Eimer
+   verbaut.
+
+   a) Berechne das gesamte Volumen der Sandburg in Litern.
+
+                                                                             /2 P.
+
+   b) Mit folgender Gleichung V = 2 ⋅ a + 5 ⋅ b können sie das Volumen der
+      Sandburg in Litern berechnen.
+
+      Gib an, wofür die Variablen a und b stehen.
+
+                                                                             /2 P.
+
+   c) Numi und Xaver haben einen 2-Liter-Eimer mit Herzmuscheln gesammelt,
+      um die Sandburg zu verzieren. Sie wollen die ungefähre Anzahl der
+      Herzmuscheln bestimmen.
+
+      Beschreibe ein Vorgehen, wie man die Anzahl der Herzmuscheln im
+      Eimer schätzen kann.
+
+                                                                             /1 P.
+
+
+
+
+                                             5
+                 ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+d) Numi und Xaver wetten mit Kaya. Sie legen drei Muscheln verdeckt in
+   den Sand. Unter einer Muschel verstecken sie einen Cent.
+
+
+
+
+  Gib die Wahrscheinlichkeit dafür an, dass Kaya nicht die Muschel tippt,
+  unter der der Cent liegt.
+
+                                                                      /1 P.
+
+
+
+
+                                        6
+                      ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst einen der beiden Wahlteile bearbeiten.
+
+(3) Am Strand stehen 1000 Strandkörbe. Sie sind in der Form eines Rechtecks
+    angeordnet, so dass je 125 nebeneinander und je 8 hintereinander stehen.
+
+
+
+
+    a) Gib zwei weitere Möglichkeiten an, wie viele Strandkörbe
+       nebeneinander und hintereinander aufgestellt sein können, wenn eine
+       rechteckige Anordnung gewählt wird.
+
+                                                                          /2 P.
+
+    b) In der Hochsaison werden weitere Strandkörbe dazugestellt, so dass ein
+       größeres Rechteck entsteht. Nebeneinander und hintereinander stehen
+       dann jeweils 5 Strandkörbe mehr. Xaver meint, dass es dann insgesamt
+       1025 Strandkörbe sind.
+
+
+        Entscheide, ob Xaver recht hat und begründe deine Entscheidung.
+
+                                                                          /2 P.
+
+
+
+
+                                             7
+                          ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+(4) Die drei Freunde überlegen, wann sie vom Strand aufbrechen sollen. Sie
+    wollen spätestens um 18:30 Uhr in Lübeck Hbf sein. Numi lässt sich die
+    Route zum Bahnhof Lübeck-Travemünde Strand anzeigen (Abb.1) und Xaver
+    schaut in die Fahrplan-App (Abb.2).
+
+
+
+
+        Bahnhof Travemünde Strand
+
+
+
+
+       Abb.1 Routenplaner                              Abb.2 Fahrplan-App
+
+    a) Nenne eine mögliche Abfahrtzeit vom Bahnhof Lübeck-Travemünde
+       Strand.
+
+                                                                             /1 P.
+
+    b) Gib an, um wie viel Uhr die drei am Strand hierfür spätestens
+       aufbrechen müssen.
+
+                                                                             /1 P.
+
+
+
+
+                                                 8
+               ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+B2: siehe nächste Seite
+
+
+
+
+                                      9
+                      ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+B2: Komplexaufgabe                                                       Influencerin
+Immer mehr Jugendliche geben den Berufswunsch „Influencer“ an. Daher
+beschäftigte sich eine 9.Klasse im WiPo-Unterricht genauer damit und sammelt
+einige Fakten.
+
+(1) Eine Influencerin verdient auf einer bekannten Videoplattform pro
+    1 000 Views 1,25 €.
+
+    a) Gib den Verdienst für 1,5 Millionen Views an.
+
+                                                                                  /1 P.
+
+    b) Das Jahreseinkommen eines deutschen Arbeitnehmenden beträgt
+       durchschnittlich 44 100 €.
+       Berechne die Anzahl der Views, um diesen Betrag zu erreichen.
+
+                                                                                  /2 P.
+
+(2) Die 9. Klasse findet ein Diagramm, das die Anzahl der Views einer
+    bekannten Influencerin zeigt.
+
+
+
+
+    a) Zu diesem Diagramm behauptet ein Teil der 9. Klasse, dass es sich bei
+       der Zunahme der Views zwischen 2020 und 2023 um ein lineares
+       Wachstum handelt.
+
+        Zeige, dass die Behauptung stimmt.
+
+                                                                                  /2 P.
+
+
+
+                                            10
+                      ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+    b) Ergänze die Säule und den dazugehörigen Wert für das Jahr 2024 für
+       den Fall, dass weiterhin lineares Wachstum vorliegt.
+
+                                                                            /2 P.
+
+    c) Ermittle, in welchem Jahr die Influencerin 12 Millionen Views erreicht,
+       wenn die Zunahme weiter linear verläuft.
+
+                                                                            /3 P.
+
+(3) Im Jahr 2023 verdiente eine andere Influencerin nur 6 000 € mit den Views.
+    Das Diagramm zeigt die Zusammensetzung aller ihrer Einnahmequellen.
+
+
+
+
+    Berechne die Gesamteinnahmen der Influencerin im Jahr 2023 in Euro.
+
+                                                                            /2 P.
+
+
+
+
+                                            11
+                      ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst einen der beiden Wahlteile bearbeiten.
+(4) Die Influencerin hat auch feste Ausgaben. Die vier größten Kostenpunkte
+    pro Jahr sind in der Tabelle aufgeführt. Dazu gibt es ein Kreisdiagramm.
+
+
+                         Ausgaben                  Ausgaben in €
+
+                        Ausrüstung                         800
+
+                    Internetanschluss                     1 000
+
+                          Software                         700
+
+                        Reisekosten                       1 500
+
+
+
+
+                                                                    4
+
+                                                                        3
+
+                                                                2
+
+
+    a) Gib an, welches Feld des Kreisdiagramms zu den Ausgaben für den
+       Internetanschluss passt.
+
+                                                                            /1 P.
+
+    b) Begründe, dass das Kreisdiagramm die Daten der Tabelle korrekt
+       darstellt.
+
+                                                                            /2 P.
+
+
+
+
+                                            12
+                      ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+(5) Auf einer großen Videoplattform gab es 2023 in Deutschland etwa 70 000
+    Influencerinnen und Influencer. Laut einer Statistik konnten nur 2 500 von
+    ihnen von den Einnahmen über diese Videoplattform leben.
+
+     Berechne den Anteil der Influencerinnen und Influencer in Prozent, die
+     nicht von ihren Einnahmen leben können.
+
+                                                                              /3 P.
+
+
+
+
+                                            13
+                     ESA Mathematik Prüfungsheft 2 2025 (c) MBWFK S-H
+
+
+
+
+                           Bewertungsübersicht
+
+
+
+
+                                max. Punkte                       erreichte Punkte
+Heft 1                                    20
+Heft 2: B1                                12
+     Wahlteil                             6
+Heft 2: B2                                12
+     Wahlteil                             6
+Gesamtpunktzahl                           50
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte    Prozente   Erster allgemeinbildender
+                     Schulabschluss (Note)
+  45-50     ≥90                             1
+
+  38-44     ≥75                             2
+
+  30-37     ≥60                             3
+
+  23-29     ≥45                             4
+
+  11-22     ≥22                             5
+
+  0-10      <22                             6
+
+
+
+
+                                           14
+

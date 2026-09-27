@@ -1,0 +1,592 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2022 ESA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=107aeab912656689a9e2f206a4327284
+ABRUF: 2026-09-27
+SEITEN: 16
+LIZENZVERMERK: © MBWK, Kiel 2022; Fußzeile jeder Seite: „(c) MBWK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2022
+
+
+
+
+              Korrekturanweisung
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Brunswiker Str. 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWK, Kiel 2022
+                      ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Grundsätzlich gilt, dass alle Rechenvarianten, die über einen nachvollziehbar
+richtigen Lösungsweg zu einem richtigen Ergebnis führen, mit voller Punktzahl
+bewertet werden.
+
+
+A Kurzformaufgaben                                                          Lösungen
+
+A1    In einer Abschlussklasse wurde gefragt, was die Schülerinnen und
+      Schüler nach dem Schulabschluss machen werden.
+      Das Ergebnis ist in dem Diagramm dargestellt.
+
+
+
+
+      Gib an, wie viele Jugendliche eine Ausbildung beginnen werden.
+
+      Lösung: 11
+                                                                                  /1 P.
+
+      Gib die Anzahl der Jungen dieser Klasse an.
+
+      Lösung: 13
+                                                                                  /1 P.
+
+      Gib an, wie viele Mädchen weiter zur Schule gehen werden.
+
+      Lösung: 8
+                                                                                  /1 P.
+
+A2    Kreuze den Wert des Terms an.
+      3  57  2 
+
+
+          40
+
+          58
+
+          72
+                                                                                  /1 P.
+
+
+                                              3
+                      ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A3   Setze drei verschiedene Faktoren so ein, dass sich das Produkt 66
+     ergibt.
+
+     66  2  3  11 oder gleichwertige Angabe
+
+                                                                                  /1 P.
+
+A4   Ein Kreis wird in 5 gleichgroße Teile geteilt.
+
+
+
+
+     Gib die Größe des Winkels β an.
+
+     β = 72°
+
+                                                                                  /1 P.
+
+A5   Ergänze die Tabelle der proportionalen Zuordnung.
+
+
+      Menge                   3                    4                   7     10
+
+      Preis in Euro         3,75                  5,00              8,75    12,50
+
+
+                                                                                  /2 P.
+
+A6   Simon berechnet 15 % von 380 im Kopf.
+
+     Er rechnet: 38  19  57
+
+     Erkläre Simons Rechenweg.
+
+
+     Simon rechnet schrittweise.
+
+     Er ermittelt erst 10 % vom Grundwert (von 380) und addiert dann
+
+     5 % (also die Hälfte dieses Werts, d. h. 5 % von 380).
+
+
+
+
+                                                                                  /1 P.
+
+
+
+                                              4
+                    ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A7   Die Diagonalen teilen das Rechteck in vier Dreiecke.
+
+
+
+
+     Kreuze die richtige Aussage an.
+
+     Alle vier Dreiecke…
+
+        haben den gleichgroßen Flächeninhalt.
+
+        haben den gleichlangen Umfang.
+
+        sind gleichseitige Dreiecke.
+
+                                                                                 /1 P.
+
+A8   Sophie schüttet folgende Zutaten zu einem Erfrischungsgetränk
+     zusammen:
+
+
+
+
+     Zeige, dass eine 1-Liter-Flasche zum Befüllen nicht ausreicht.
+
+
+     Der Nachweis basiert auf der Anteilsberechnung, z. B.
+     3 3 1   1                 1
+        1               1     Liter ist mehr als ein Liter.            oder
+     8 8 2   4                 4
+     3 3 6                     6
+                               Liter ist mehr als ein halber Liter.
+     8 8 8                     8
+
+
+
+
+                                                                                 /1 P.
+
+
+
+                                            5
+                     ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A9    Kreuze den ungefähren Umfang des Baumstammes an.
+
+
+
+
+         60 cm
+
+         120 cm
+
+         180 cm
+
+                                                                           /1 P.
+
+A10   Nenne eine Primzahl zwischen 12 und 20.
+
+      Lösung: 13 oder 17 oder 19
+
+                                                                           /1 P.
+
+A11   Das Glücksrad wird einmal gedreht.
+
+
+
+
+      Gib die Wahrscheinlichkeit an, WEISS zu drehen.
+
+                2
+      Lösung:
+                5
+
+                                                                           /1 P.
+
+
+
+
+                                             6
+                      ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A12   Zeichne eine Parallele f zur Geraden g durch den Punkt P (2 | -1).
+
+
+
+
+      Die Parallele f wird parallel zur Geraden g gezeichnet.               (1)
+
+      Die Parallele f geht durch den Punkt P (2 | -1).                      (1)
+
+                                                                                  /2 P.
+
+A13   Begründe mithilfe der Abbildung, dass es sich nicht um das Netz
+      eines Quaders handelt.
+
+
+
+
+      Aus der Begründung muss hervorgehen, dass die markierten Strecken
+
+      nicht die gleiche Länge haben.
+
+      Eine alleinige Markierung der Darstellung genügt, die erkennen lässt,
+
+      welche Kanten beim Zusammenfalten nicht zusammenpassen.
+
+
+                                                                                  /1 P.
+
+
+
+
+                                              7
+                     ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A14   Gib an, welche Masse ein Eisenwürfel mit einem Volumen von 5 cm³
+      etwa hat.
+
+
+
+
+      Lösung: etwa 40 g (Intervall zwischen 38g und 40g)
+
+                                                                                /1 P.
+
+A15   Schwarz gewinnt.
+
+      Für welches Zufallsgerät sollte sich Fabian entscheiden, um bei
+      SCHWARZ zu gewinnen?
+      Kreuze die richtige Aussage an.
+
+               Zufallsgerät A                                  Zufallsgerät B
+
+
+
+
+         Zufallsgerät A
+
+         Zufallsgerät B
+
+         Es ist egal, welches Zufallsgerät Fabian wählt.
+
+                                                                                /1 P.
+
+
+
+
+                                             8
+                       ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A16   Kreuze die falsche Aussage an.
+
+
+
+
+      Die Abbildung zeigt…
+
+         ein Rechteck.
+
+         ein Quadrat.
+
+         ein Trapez.
+
+                                                                             /1 P.
+
+
+
+
+                                               9
+                       ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+B1: Komplexaufgabe                                           Lösungen – Grillen
+
+(1)
+
+      a) gesucht: Anteil Gasgrill in Prozent
+
+         25 %                                                                (1)
+
+                                                                                   /1 P.
+
+      b) gesucht: Nachweis, dass Herr Schneider recht hat
+
+         Ansatz Anteilsbestimmung                                            (1)
+
+         Der Nachweis erfolgt auf Grundlage des Winkels > 120°               (1)
+
+                                                                                   /2 P.
+
+(2) gesucht: Vergleich zweier Flächeninhalte
+
+      Ansatz Flächeninhaltsbestimmung                                        (1)
+
+      AR  55  40 cm²  2200 cm²                                            (1)
+
+      AK    (24 cm)²  1810 cm²                                           (1)
+
+      1810 cm²  2200 cm²
+
+      Herr Schneider sollte den rechteckigen Grill wählen.                   (1)
+
+                                                                                   /4 P.
+
+(3) gesucht: Preis in Euro
+
+      Ansatz Prozentrechnung                                                 (1)
+
+      249 €  0,9  224,10 €                                                 (1)
+
+      Herr Schneider muss 224,10 Euro bezahlen.
+
+                                                                                   /2 P.
+
+
+
+
+                                               10
+                      ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+(4) gesucht: Nachweis, ob die Tochter recht hat
+
+    Ansatz Prozentrechnung                                                  (1)
+
+     76 cm : 30,5 cm  2, 49  Zunahme um 150 %                             (1)
+
+    Alternativ: Nachweis mit dem Argument: Es wurde die „Zunahme
+    um…“ mit der „Zunahme auf…“ verwechselt.
+
+    Die Tochter hat nicht recht.                                            (1)
+
+                                                                                  /3 P.
+
+
+Wahlteil zu B1
+
+(5) gesucht: Nachweis, ob der Nachbar recht hat
+
+    Ansatz Volumenberechnung                                                (1)
+
+     V    (15 cm)²  60 cm  42411,5 cm³                                 (1)
+
+     42411,5 cm³  42, 4115   50                                         (1)
+
+    Der Nachbar hat nicht recht.                                            (1)
+
+                                                                                  /4 P.
+
+(6) gesucht: Zeit in Stunden
+
+    Ansatz Proportionalität                                                 (1)
+
+      2h
+            11000 g  24, 4 h                                              (1)
+     900 g
+
+    Eine Zeitangabe zwischen 24 und 25 Stunden ist als richtig zu
+    bewerten.
+
+    Eine 11-kg-Gasflasche reicht für etwa 24 Stunden und 30 min.
+
+                                                                                  /2 P.
+
+
+
+
+                                              11
+                         ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+B2: Komplexaufgabe                                    Feuerwehr – Lösungen
+
+(1) gesucht: Gesamtgewicht
+
+      75  13  22  3  113                                                   (1)
+
+      Das Gesamtgewicht beträgt 113 Kilogramm.
+
+                                                                                     /1 P.
+
+(2) gesucht: Höhe des Zuschusses
+
+      Ansatz: Prozentrechnung                                                  (1)
+
+      76000
+              0, 302                                                          (1)
+      252000
+
+
+      Die Höhe des Zuschusses beträgt etwa 30 %.
+
+                                                                                     /2 P.
+
+(3)
+
+      a) gesucht: Begründung
+
+          Aus der Begründung muss hervorgehen, dass
+          man die 3 Teile der Steckleiter nicht einfach
+          aneinanderlegen kann;                                                (1)
+          sie müssen überlappen, damit die Leiter stabil ist.                  (1)
+
+          ( Länge der gesamten Leiter  3  2,70 )
+
+                                                                                     /2 P.
+
+      b) gesucht: Höhe
+
+          Ansatz: Pythagoras                                                   (1)
+
+
+          h   6,502  4, 002  5,12                                           (1)
+
+          Die Leiter reicht ca. 5,12 m hoch.
+
+                                                                                     /2 P.
+
+
+
+
+                                                 12
+                          ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+(4)
+
+      a) gesucht: Anzahl
+
+         105                                                                    (1)
+
+                                                                                      /1 P
+
+      b) gesucht: Begründung
+
+         Die Anzahl aller Mitglieder in der freiwilligen
+         Feuerwehr Brandhusen sinkt, während die Anzahl der
+         Frauen steigt.                                                         (1)
+
+          die Anzahl der Männer in den freiwilligen
+           Feuerwehr Brandhusen nimmt ab                                        (1)
+
+         Kevin hat recht.
+
+         Andere richtige Begründungen sind auch zu akzeptieren.
+
+                                                                                      /2 P.
+
+(5) gesucht: Zeitdauer
+
+       2000 : 800  2,5                                                         (1)
+
+       2,5 Minuten = 150 Sekunden                                               (1)
+
+       Es dauert 150 Sekunden, bis der Tank leer ist.
+
+                                                                                      /2 P.
+
+
+
+
+                                                  13
+                         ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B2
+
+(6) gesucht: Volumen eines Zylinders
+
+      Ansatz: Volumenberechnung Zylinder                                       (1)
+
+      r  0, 375 dm   k  200 dm                                               (1)
+
+
+      V    0,3752  200  88,36                                             (1)
+
+      Das Volumen des Schlauches beträgt ca. 88 Liter.
+
+                                                                                     /3 P.
+
+(7)
+
+      a) gesucht: Volumen des Schwimmbeckens
+
+          250                                                                  (1)
+
+          Das Volumen des Schwimmbeckens beträgt 250 m³.
+
+                                                                                     /1 P.
+
+      b) gesucht: Erläuterung
+
+          Aus der Erläuterung muss hervorgehen,
+          dass Mary zuerst den Flächeninhalt der Grundfläche
+          durch Subtraktion des kleinen Rechtecks
+          vom großen Rechteck berechnet                                        (1)
+          und dann diese Grundfläche mit der Höhe multipliziert hat.           (1)
+
+                                                                                     /2 P.
+
+
+
+
+                                                 14
+                    ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte   Prozente           Erster allgemeinbildender
+                            Schulabschluss (Note)
+45-50    ≥90                     1
+38-44    ≥75                     2
+30-37    ≥60                     3
+23-29    ≥45                     4
+11-22    ≥22                     5
+ 0-10    <22                     6
+
+
+
+
+                                            15
+ESA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+                        16
+

@@ -1,0 +1,1027 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2022 MSA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=f922dd86426a3273f785ff1b13b7cbf8
+ABRUF: 2026-09-27
+SEITEN: 24
+LIZENZVERMERK: © MBWK, Kiel 2022; Fußzeile jeder Seite: „(c) MBWK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2022
+
+
+
+
+   Korrekturanweisung
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Brunswiker Str. 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWK, Kiel 2022
+                       MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Grundsätzlich gilt, dass alle Rechenvarianten, die über einen nachvollziehbar
+richtigen Lösungsweg zu einem richtigen Ergebnis führen, mit voller Punktzahl
+bewertet werden.
+
+
+A Kurzformaufgaben                                                           Lösungen
+
+A1    Gegeben ist das folgende Quadermodell. Welche Kante steht
+      senkrecht auf der Kante AE ? Kreuze an.
+
+
+               H                                                   G
+
+      E                                                  F
+
+
+                   D                                               C
+
+
+          A                                           B
+
+
+
+              AF                         EH                             DH
+
+                                                                                   /1 P.
+
+A2    Vervollständige die Tabelle für die antiproportionale Zuordnung.
+
+
+                   Anzahl                               Dauer in h
+
+                    15                                       100
+
+                    60                                        25
+
+
+                                                                                   /1 P.
+
+A3    Bei einem Glücksspiel soll die Wahrscheinlichkeit für einen Gewinn
+      20 % betragen. Beschreibe ein Glücksspiel, auf das dies zutrifft.
+
+
+      Ein Glücksrad hat 5 gleich große Felder. Eines davon führt zu einem
+
+      Gewinn.
+      Auch andere passende Zufallsexperimente führen zu einem Punkt.
+
+                                                                                   /1 P.
+
+
+                                               3
+                     MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A4   Sieben Freunde haben ihr Taschengeld miteinander verglichen.
+     Angaben in Euro pro Woche: 5; 20; 15; 10; 12; 15; 21.
+
+     Gib die folgenden Mittelwerte an:
+
+     Arithmetisches Mittel: 14
+
+     Median, hier die mittlere Zahl, wenn man alle Zahlen der Größe nach
+     sortiert: 15
+
+                                                                                   /2 P.
+
+A5   Für die Strecke, die ein Körper im freien Fall bei Vernachlässigung des
+     Luftwiderstands zurücklegt, gilt folgende Regel:
+
+     Quadriere die Fallzeit (in s) und multipliziere das Ergebnis mit 5, so
+     erhältst du die Fallstrecke (in m).
+
+     Gabor hat nach dieser Regel mithilfe einer Tabellenkalkulation zu
+     unterschiedlichen Fallzeiten die zugehörigen Fallstrecken berechnet.
+
+
+
+
+     a) Ergänze die fehlenden Werte in den Zellen D2 und E2.
+
+                                                                                   /2 P.
+
+     b) Kreuze die Formel an, mit der der Wert in Zelle C2 berechnet
+        werden kann.
+
+             =C1*C1*5                 =B1*(1+C1/100)                       =B2*5
+
+                                                                                   /1 P.
+
+A6   Julia hat die letzte Ziffer ihrer PIN für ihr Handy vergessen. Die
+     Wahrscheinlichkeit, dass sie zweimal falsch rät, beträgt
+
+         9                    72                         81
+        10                    90                        100
+
+                                                                                   /1 P.
+
+
+
+
+                                             4
+                     MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A7   Ergänze zu einem Trapez ABCD. Winkel  =50 und AD ║ BC .
+
+
+
+
+                                                                                    /1 P.
+
+A8   Entscheide jeweils, ob die Aussage wahr oder falsch ist. Kreuze an.
+
+
+                                                      wahr                 falsch
+      140 = 1
+
+
+      2
+         60%
+      3
+
+       4  25  10
+
+
+      (22)3 = 64
+
+
+
+                                                                                    /4 P.
+
+A9   Gegeben ist die folgende quadratische Funktion in Normalform.
+
+     f(x) = x2 + 6x + 10
+
+     Welche der folgenden Funktionsgleichungen stellt dieselbe
+     quadratische Funktion in der Scheitelpunktform dar? Kreuze an.
+
+        g(x)=(x+3)2 + 10
+
+        h(x)=(x+3)2 + 9
+
+        i(x)=(x+3)2 + 1
+
+                                                                                    /1 P.
+
+
+
+
+                                             5
+                     MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A10   Ein 3500 m2 großer Platz erhält ein neues Pflaster. 600 m2 sind
+      bereits fertig. Stündlich werden 30 m2 zusätzlich gepflastert.
+
+      Entscheide, welche der Funktionsgleichungen die Situation richtig
+      beschreibt.
+
+         f(x)=600+30x                                                      (1)
+
+         g(x)=3500+30x
+
+         h(x)=600∙30x
+
+      Begründe deine Entscheidung.
+
+
+      Zu einem Anfangswert von 600 kommen stündlich 30 hinzu.                    (1)
+
+
+
+
+                                                                                       /2 P.
+
+A11   Ein Dreieck hat eine Grundseite von 5 cm und einen Flächeninhalt von
+      30 cm2.
+
+      Gib die Höhe h an.
+
+      h = 12 cm
+
+                                                                                       /1 P.
+
+A12   Ein Würfel hat die Kantenlänge 4 cm. Er wird in zwei gleichgroße
+      Quader zerschnitten.
+
+      Gib die Seitenlängen eines Quaders an.
+
+      a=2 cm, b=4 cm, c=4 cm                                                     (1)
+
+      (oder a=4 cm, b=4 cm, c=2 cm oder a=4 cm, b=2 cm, c=4 cm)
+
+
+
+
+      Gib das Volumen eines Quaders an. 32 cm3                                   (1)
+
+      Angenommen, der Würfel wird in 64 gleichgroße Quader zerteilt.
+      Welches Volumen hat dann einer dieser Quader? 1 cm3          (1)
+
+                                                                                       /3 P.
+
+                                             6
+                      MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A13   Bei einem Test ist das Verhältnis von richtigen zu falschen Antworten
+      4:3. Der Anteil falscher Antworten beträgt:
+
+         1                     3                         3
+         3                     4                         7
+                                                                                        /1 P.
+
+A14   Im Schaubild ist eine Parabel abgebildet. Ihre Funktionsgleichung
+      lautet f(x)=0,5x2.
+      Beschrifte beide Achsen so, dass sie zur abgebildeten Parabel passen.
+
+                                                y
+                                          3,5
+
+                                           3
+
+                                          2,5
+
+                                           2
+
+                                          1,5
+
+                                           1
+
+                                          0,5
+                                                                                        x
+          -5    -4    -3     -2      -1     0        1       2      3       4   5   6
+
+
+      Es genügt jeweils einen richtigen Wert an der x-Achse und an der
+      y-Achse zu beschriften.
+                                                                                        /1 P.
+
+A15   Ali sagt: „Bildet man aus allen fünf Ziffern 1; 2; 3; 4 und 5 eine
+      beliebige fünfstellige Zahl, so ist diese immer durch 3 teilbar.“
+      Begründe, dass dies stimmt.
+
+
+      Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar
+
+      ist. Jede Zahl, die sich aus den Ziffern 1, 2, 3, 4 und 5 bilden lässt,
+
+      hat die Quersumme 15 und ist somit durch 3 teilbar.
+
+
+      Andere Begründungen werden akzeptiert. Das Nennen der
+      Teilbarkeitsregeln allein genügt jedoch nicht.
+                                                                                        /1 P.
+
+
+                                                7
+                      MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A16   Josy sagt: „Wenn zwei Zahlen durch 5 teilbar sind, dann ist auch ihre
+      Summe immer durch 5 teilbar.“ Begründe, dass dies stimmt.
+
+
+      Eine Zahl ist durch 5 teilbar, wenn sie auf 0 oder auf 5 endet. Bei
+
+      der Addition von 5 und 0 bzw. 5 und 5 bzw. 0 und 0 endet die
+
+      Summe immer auf 5 oder 0 und ist somit durch 5 teilbar.
+
+      Andere Begründungen werden akzeptiert. Das Nennen der
+      Teilbarkeitsregel allein genügt jedoch nicht.
+                                                                                        /1 P.
+
+A17   Welche Dreiecke entstehen? Verbinde.
+
+      In ein Quadrat wird eine                                    Rechtwinklige,
+      Diagonale eingezeichnet.                                    allgemeine Dreiecke
+
+      In ein regelmäßiges                                         Rechtwinklige,
+      Sechseck werden drei                                        gleichschenklige
+      Diagonalen eingezeichnet.                                   Dreiecke
+
+      In ein gleichseitiges Dreieck                               Gleichseitige
+      wird eine Höhe                                              Dreiecke
+      eingezeichnet.
+
+
+
+      2 Punkte werden vergeben bei drei richtigen Zuordnungen.
+      1 Punkt wird vergeben bei einer richtigen Zuordnung./2 P.
+
+A18   Es wird mit zwei normalen sechsseitigen Spielwürfeln gewürfelt.
+
+      a) Die Wahrscheinlichkeit, dass ein Würfel eine 3 und ein Würfel eine
+         4 zeigt, beträgt:
+
+             1                  1                        1
+            36                 18                        6
+
+                                                                                        /1 P.
+
+      b) Die Wahrscheinlichkeit, zwei gleiche Zahlen zu würfeln, beträgt:
+
+             1                  1                        1
+            36                 12                        6
+
+                                                                                        /1 P.
+
+
+
+
+                                              8
+                        MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+A19   Gegeben ist die Gleichung 3x - 2y + 7 = 0.
+
+      Überprüfe durch eine geeignete Rechnung, ob das Zahlenpaar
+      (-7; -7) Lösung der Gleichung ist.
+
+      3x  2y  7  0
+      3(7)  2(7)  7  0
+      00
+
+                                                                                             /1 P.
+
+A20   Gleiche Buchstaben bezeichnen gleich große Winkel. Wie groß ist der
+      Winkel ?
+
+                                                                         180  90  (180 : 3)
+
+
+
+                                                                         30
+
+
+
+
+                                                                                             /1 P.
+
+A21   Ilka fährt mit dem Fahrrad von Itzehoe nach Hohenwestedt. Sie
+      benötigt für die 24 km lange Strecke insgesamt eine Fahrtzeit von 80
+      Minuten. Nach 45 Minuten macht sie eine Pause. Wie viele Kilometer
+      ist sie bis dann etwa gefahren?
+
+
+
+      13,5 km
+
+                                                                                             /1 P.
+
+
+
+
+                                                9
+                      MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+B1: Trigonometrie                                         Viereck – Lösungen
+
+(1)
+
+      a) gesucht: Länge der Strecke CD
+
+
+          CD  92  7,12                                                    (1)
+
+
+          CD  5,53                                                         (1)
+
+
+         Die Länge der Strecke CD beträgt 5,53 cm.
+
+                                                                                  /2 P.
+
+      b) gesucht: anderer Lösungsweg
+
+         mögliche Lösung:
+
+                                                        7,1
+         Ich berechne ∢CAD über cos(∢CAD) =                    ;            (1)
+                                                          9
+                                                              CD
+         dann berechne ich CD über sin(∢CAD) =                              (1)
+                                                              9
+
+         Auch andere Lösungen, z. B. ohne Zahlenangaben oder eine
+         zeichnerische Lösung sind als richtig zu bewerten.
+
+                                                                                  /2 P.
+
+(2)
+
+      a) gesucht: Ergänzung
+
+                                                                   7, 1
+         „Ich berechne zuerst ∢DCA über sin(∢DCA) =                     ;   (1)
+                                                                    9
+
+
+         dann berechne ich den Winkel ∢ACB über 120° - ∢DCA;(1)
+
+                  2
+         dann AB = 92 + 62 - 2  9  6  cos(∢ACB).“                        (1)
+
+
+          AB  8, 74 cm
+
+
+                                                                                  /3 P.
+
+
+
+
+                                              10
+                          MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+      b) gesucht: Umfang des Vierecks ABCD
+
+         u ABCD  8, 74  6  5,53  7,1  27, 37
+
+
+         Der Umfang des Vierecks ABCD beträgt 27,37 cm.
+
+                                                                                      /1 P.
+
+      c) gesucht: anderer Lösungsweg
+
+         möglicher Lösungsweg:
+
+         Berechne mit dem Sinussatz AB
+                    AB                6
+         oder                
+                sin(ACB)        sin(40, 41)
+
+                                                                                      /1 P
+
+
+
+
+Wahlteil zu B1
+
+(3)
+
+      a) gesucht: Flächeninhalt des Dreiecks ACD
+
+                   7,1  5,53
+          AACD                                                                 (1)
+                        2
+
+          AACD  19, 63                                                         (1)
+
+
+         Der Flächeninhalt des Dreiecks ACD beträgt 19,63 cm².
+
+                                                                                      /2 P.
+
+      b) gesucht: Höhe in Dreieck ABC
+
+                            h
+         sin(40, 41)                  h  5, 67 cm                           (1)
+                          8,74
+
+
+                                                                                      /1 P.
+
+
+
+
+                                                  11
+                   MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+c) gesucht: Flächeninhalt des Vierecks ABCD
+
+             9  5,67
+    AABC                                                                (1)
+                 2
+
+    AABC  25,52                                                         (1)
+
+    AABCD  19, 63  25,52  45,15                                       (1)
+
+
+   Der Flächeninhalt des Vierecks ABCD beträgt 45,15 cm².
+
+                                                                               /3 P.
+
+
+
+
+                                           12
+                        MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+B2: Stereometrie                                     Litfaßsäule – Lösungen
+
+
+(1)
+
+      a) gesucht: Term für die Höhe der beklebbaren Fläche
+
+             y k hp                     y k  hp                       y h k p          
+                                                                                                       /1 P.
+
+      b) gesucht: Term für die Breite der beklebbaren Fläche
+
+                                                                                    b
+             x   b                      x   d                           x        
+                                                                                    2
+
+                                                                                                       /1 P.
+
+      c) gesucht: Anzahl von Plakaten
+
+         Gemäß Abbildung ist die beklebbare Fläche 314 cm breit und 260 cm
+         hoch.
+
+         Plakate im Hochformat:
+
+         314 : 84,1  3,73 Plakate nebeneinander und
+
+         260 :118,9  2,19 Plakate übereinander                                              (1)
+
+         Insgesamt passen also 3  2  6 Plakate im Hochformat
+         auf die Säule.                                                                      (1)
+
+
+
+         Plakate im Querformat:
+
+         314 :118,9  2,64 Plakate nebeneinander und
+
+         260 : 84,1  3,09 Plakate übereinander
+
+         Insgesamt passen also 2  3  6 Plakate im Querformat auf die Säule.
+
+
+
+         Die zwei Punkte werden auch vergeben, wenn nur eine der
+         Ausrichtungen der Plakate korrekt untersucht wurde.
+
+                                                                                                       /2 P.
+
+
+                                                13
+                               MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+(2)
+
+      a) gesucht: Zylindervolumen in m3
+
+                          1
+         Radius r              b  0,60 m;          Höhe h  0,20 m                (1)
+                          2
+
+         VZylinder    r 2  h  0,23 m3                                           (1)
+
+
+                                                                                           /2 P.
+
+      b) gesucht: Vergleich von Zylinder- und Kegelvolumen
+
+         Mit dem Grundflächeninhalt A kann das Zylindervolumen in cm3
+         mit dem Term A  20 berechnet werden und das Kegelvolumen
+                                          1
+         in cm3 mit dem Term                   A  50 .                             (1)
+                                          3
+
+                    1
+         Wegen      50  16,67  20 ist das Kegelvolumen kleiner als
+                 3
+         das Zylindervolumen.                                                        (1)
+
+         Mögliche Alternative:
+                    1
+                                       0,5 m  0,19 m
+                                      2
+                           0,6 m
+                                                                3
+         VKegel 
+                    3
+         Das Kegelvolumen ist mit 0,19 m3 kleiner als das bei a) berechnete
+         Zylindervolumen.
+
+                                                                                           /2 P.
+
+      c) gesucht: Begründung für α                    45°
+
+         Wenn in einem rechtwinkligen Dreieck ein
+         Winkel 45° groß sein soll, dann müsste das
+         Dreieck gleichschenklig sein.
+         Das ist es aber nicht.
+
+         Alternative Ansätze:
+         Nachrechnen oder Nachmessen in einer maßstabsgetreuen Zeichnung
+         ergibt, dass der Neigungswinkel mit   39,8 zu klein ist.
+
+                                                                                           /1 P.
+
+
+
+
+                                                           14
+                     MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B2
+
+
+
+(3)
+
+      a) gesucht: Beschriftung
+
+
+
+
+         Der Punkt wird auch vergeben, wenn nur die Größen ohne Kontextbezug
+         eingetragen wurden.
+
+                                                                                 /1 P.
+
+      b) gesucht: Länge a von Lutz’ Schatten
+
+                           a       1,80
+         Strahlensatz:                                                    (1)
+                           4        3
+
+                          a  2,4 m                                        (1)
+
+         Der Schatten von Lutz ist 2,4 m lang.
+
+                                                                                 /2 P.
+
+
+                                             15
+                          MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+(4)
+
+      a) gesucht: Höhe des Modells
+
+         Das Modell ist 0,5 m hoch.
+
+                                                                                      /1 P.
+
+      b) gesucht: Bewertung der gegebenen Rechnung
+
+         Lutz hat nicht richtig gerechnet.                                      (1)
+
+         Beide Faktoren müssen dem Maßstab entsprechend
+         verkürzt werden, etwa so:                                              (1)
+
+          3,14 m : 6    2, 60 m : 6 
+
+         Alternative Begründung:
+         Bei maßstäblichen Veränderungen von Flächen geht der
+                                            1
+         Veränderungsfaktor, hier               , quadratisch ein.
+                                            6
+
+                                                                                      /2 P.
+
+
+
+
+                                                   16
+                       MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+B3: Funktionen                                Winterjacken – Lösungen
+
+(1)
+
+      a) gesucht: Anzahl der Winterjacken bei Kosten von 400 000 €, also
+                  Stelle x mit k(x) = 400 000
+
+          Es können 4 250 Winterjacken hergestellt werden.
+
+                                                                             /1 P.
+
+      b) gesucht: Anzahl verkaufter Winterjacken bei maximalem Erlös, also
+                  Stelle des Scheitelpunktes der Funktion e
+
+          Bei 2 000 verkauften Winterjacken ist der Erlös maximal.
+
+                                                                             /1 P.
+
+      c) gesucht: Erlös für 500 verkaufte Winterjacken, also e(500)
+
+          Der Erlös beträgt 175 000 €.
+
+                                                                             /1 P.
+
+(2)
+
+      a) gesucht: Stellen x mit e(x )  k (x )
+
+
+
+
+          Es muss das Intervall (200, 3 000) markiert werden.
+          Die linke Grenze wird zwischen x = 100 und x = 250 akzeptiert.
+
+                                                                             /1 P.
+
+
+
+                                               17
+                       MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+    b) gesucht: Anzahlen von Winterjacken, so dass Erlös und Kosten
+                gleich sind, also Stellen x mit e(x ) = k (x )
+
+         0,1x (4 000  x ) = 80x + 60 000                                             (1)
+
+
+         0,1x 2  320 x  60 000  0
+
+         x = 200 oder x = 3 000                                                       (2)
+
+         Bei 200 und bei 3 000 produzierten und verkauften Winterjacken sind
+         der Erlös und die Kosten jeweils gleich.
+
+                                                                                      /3 P.
+
+
+
+
+(3) gesucht: Gewinn, also Differenz von Erlös und Kosten, bei 2 000 Jacken
+
+
+                                                                
+     e(2 000)  k (2 000)  0,1  2 000  (4 000  2 000)  80  2 000  60 000      (1)
+
+
+                            400 000  220 000
+
+                            180 000                                                  (1)
+
+    Bei 2 000 produzierten und verkauften Winterjacken beträgt der Gewinn
+    180 000 €.
+
+                                                                                      /2 P.
+
+
+
+
+                                               18
+                       MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B3
+
+
+(4)
+
+      a) gesucht: Umformung des Funktionsterms von g
+
+          g(x )  0,1x (4000  x )  (80x  60000)
+          g( x)  4000x  0,1x 2  80x  60000
+
+         Beim Auflösen der ersten Klammer wurde 4000 nicht mit 0,1
+         multipliziert.                                                      (1)
+         Beim Auflösen der Minusklammer wurde das Rechenzeichen in
+         der Klammer nicht verändert.                                        (1)
+
+                                                                             /2 P.
+
+      b) gesucht: maximaler Gewinn und zugehörige Anzahl an Winterjacken,
+                  also Koordinaten des Scheitelpunkts der Funktion g
+
+         Scheitelpunktform: g(x)   0,1  (x  1600)2  196000
+
+         Der maximale Gewinn ist 196 000 €. Er wird bei 1 600
+         produzierten und verkauften Jacken erreicht.
+
+                                                                             /2 P.
+
+      c) gesucht: Anzahl benötigter Jacken für einen Gewinn von 115 000 €,
+                  also Stellen x mit g(x) = 115 000
+
+         115000   0,1x 2  320x  60000                                    (1)
+
+
+          x1 = 700 ; x 2 = 2500                                              (1)
+
+
+         Mit 700 und mit 2500 produzierten und verkauften Jacken wird ein
+         Gewinn von 115 000 € erzielt.
+
+                                                                             /2 P.
+
+
+
+
+                                               19
+                      MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+B4: Statistik und                                          Kugeln – Lösungen
+    Wahrscheinlichkeit
+
+
+(1)
+
+      a) gesucht: ergänztes Diagramm
+
+
+
+
+         Für drei korrekte Ergänzungen 1 Punkt; für sechs korrekte Ergänzungen
+         zwei Punkte
+
+                                                                            /2 P.
+
+      b) gesucht: Erläuterung
+         Nach dem ersten Ziehen ist eine Kugel weniger verfügbar.
+
+                                                                            /1 P.
+
+
+                                              20
+                 MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+c) gesucht: Gewinnwahrscheinlichkeit
+                                    18    9
+   Die Wahrscheinlichkeit beträgt          .
+                                    56 28
+   (Das Kürzen ist nicht erforderlich.)
+
+                                                                             /1 P.
+
+d) gesucht: Begründung:
+   Zähler: Es ist egal, ob man zuerst eine graue und dann
+   eine weiße oder zuerst eine weiße und dann eine graue
+   Kugel zieht.                                                        (1)
+   Nenner: Beim ersten Ziehen wird aus 8 Kugeln gezogen;
+   Beim zweiten Ziehen wird aus 7 Kugeln gezogen.
+   Insgesamt gibt es 56 Möglichkeiten.                                 (1)
+
+                                                                             /2 P.
+
+
+
+
+                                         21
+                      MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+(2)
+
+
+
+
+      a) gesucht: Anzahl der schwarzen Kugeln beim zehnten Spiel nach
+         Ziehung 1
+         Eine schwarze Kugel
+
+                                                                            /1 P.
+
+      b) gesucht: Prozentsatz
+         In 14 von 30 Spielen, also in ungefähr 46,7 % der Spiele.
+
+                                                                            /2 P.
+
+
+
+
+                                              22
+                        MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B4
+
+
+(3)
+
+      a) gesucht: Durchschnitt
+         7:20 = 0,35
+         0,35 Punkte
+
+                                                                              /1 P.
+
+      b) gesucht: Median
+         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2
+         Der Median ist 0.
+
+                                                                              /1 P.
+
+      c) gesucht: Begründung
+         Ist der Median gleich 0, so weiß man, dass mehr als 50 % der Spiele
+         verloren wurden. Es kann aber keine Aussage darüber getroffen werden,
+         bei wie vielen Spielen ein oder zwei Punkte erzielt wurden.
+
+          2 Punkte werden bei einer hinreichend schlüssigen Begründung
+          vergeben. Sind nur Ansätze erkennbar, kann nach Ermessen
+          1 Punkt vergeben werden.
+
+                                                                              /2 P.
+
+(4) gesucht: mögliche Anzahl
+    Die Summe der drei Anzahlen ist ein Vielfaches von 10.        (1)
+    (Der Punkt wird auch bei drei nicht passenden Anzahlen vergeben,
+    wenn deren Summe ein Vielfaches von 10 ist.)
+    Eine mögliche Kombination von Anzahlen ist genannt, z. B.:
+    3 schwarz, 3 grau, 4 weiß usw.                                (1)
+
+                                                                              /2 P.
+
+
+
+
+                                                23
+                     MSA Mathematik Korrekturanweisung 2022 (c) MBWK S-H
+
+
+
+
+Bewertungsschlüssel MSA
+
+Punkte    Prozente    Mittlerer Schulabschluss (Note)
+
+
+72 - 80     ≥90                             1
+
+60 - 71     ≥75                             2
+
+48 - 59     ≥60                             3
+
+36 - 47     ≥45                             4
+
+18 - 35     ≥22                             5
+
+ 17 - 0     <22                             6
+
+
+
+
+                                             24
+

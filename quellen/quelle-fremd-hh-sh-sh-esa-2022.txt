@@ -1,0 +1,817 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2022 ESA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=72ef8bdaef2f8e65e772ddb65a9f2767
+ABRUF: 2026-09-27
+SEITEN: 10
+LIZENZVERMERK: © 2022Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein; Fußzeile jeder Seite: „(c) MBWK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2022
+
+
+
+0DWKHPDWLN
+     +HIW
+(UVWHUDOOJHPHLQELOGHQGHU Schulabschluss
+Herausgeber
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Brunswiker Str. 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+© 2022Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+                        ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 1.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                      ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A Kurzformaufgaben
+
+A1   In einer Abschlussklasse wurde gefragt, was die Schülerinnen und
+     Schüler nach dem Schulabschluss machen werden.
+     Das Ergebnis ist in dem Diagramm dargestellt.
+
+
+
+
+     Gib an, wie viele Jugendliche eine Ausbildung beginnen werden.
+
+     Lösung: _____________
+
+                                                                        /1 P.
+
+     Gib die Anzahl der Jungen dieser Klasse an.
+
+     Lösung: _____________
+
+                                                                        /1 P.
+
+     Gib an, wie viele Mädchen weiter zur Schule gehen werden.
+
+     Lösung: _____________
+
+                                                                        /1 P.
+
+A2   Kreuze den Wert des Terms an.
+     3 57  2 
+
+        40
+
+        58
+
+        72
+
+                                                                        /1 P.
+
+
+                                            4
+                       ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A3   Setze drei verschiedene Faktoren so ein, dass sich das Produkt 66
+     ergibt.
+
+                     66
+
+                                                                                     /1 P.
+
+A4   Ein Kreis wird in 5 gleichgroße Teile geteilt.
+
+
+
+
+     Gib die Größe des Winkels β an.
+
+     β = ______°
+
+                                                                                     /1 P.
+
+A5   Ergänze die Tabelle der proportionalen Zuordnung.
+
+
+      Menge                  3                    4                      7
+
+      Preis in Euro        3,75                  5,00                        12,50
+
+
+                                                                                     /2 P.
+
+A6   Simon berechnet 15 % von 380 im Kopf.
+
+     Er rechnet: 38  19  57
+
+     Erkläre Simons Rechenweg.
+
+
+
+
+                                                                                     /1 P.
+
+
+
+                                             5
+                      ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A7   Die Diagonalen teilen das Rechteck in vier Dreiecke.
+
+
+
+
+     Kreuze die richtige Aussage an.
+
+     Alle vier Dreiecke…
+
+        haben den gleichgroßen Flächeninhalt.
+
+        haben den gleichlangen Umfang.
+
+        sind gleichseitige Dreiecke.
+
+                                                                        /1 P.
+
+A8   Sophie schüttet folgende Zutaten zu einem Erfrischungsgetränk
+     zusammen:
+
+
+
+
+     Zeige, dass eine 1-Liter-Flasche zum Befüllen nicht ausreicht.
+
+
+
+
+                                                                        /1 P.
+
+
+
+
+                                            6
+                      ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A9    Kreuze den ungefähren Umfang des Baumstammes an.
+
+
+
+
+         60 cm
+
+         120 cm
+
+         180 cm
+
+                                                                        /1 P.
+
+A10   Nenne eine Primzahl zwischen 12 und 20.
+
+      Lösung: __________
+
+                                                                        /1 P.
+
+A11   Das Glücksrad wird einmal gedreht.
+
+
+
+
+      Gib die Wahrscheinlichkeit an, WEISS zu drehen.
+
+      Lösung: _____________
+
+                                                                        /1 P.
+
+
+
+
+                                            7
+                       ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A12   Zeichne eine Parallele f zur Geraden g durch den Punkt P (2 | -1).
+
+
+
+
+                                                                           /2 P.
+
+A13   Begründe mithilfe der Abbildung, dass es sich nicht um das Netz
+      eines Quaders handelt.
+
+
+
+
+                                                                           /1 P.
+
+
+
+                                             8
+                       ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A14   Gib an, welche Masse ein Eisenwürfel mit einem Volumen von 5 cm³
+      etwa hat.
+
+
+
+
+      Lösung: etwa ______ g
+
+                                                                                /1 P.
+
+A15   Schwarz gewinnt.
+
+      Für welches Zufallsgerät sollte sich Fabian entscheiden, um bei
+      SCHWARZ zu gewinnen?
+      Kreuze die richtige Aussage an.
+
+               Zufallsgerät A                                  Zufallsgerät B
+
+
+
+
+         Zufallsgerät A
+
+         Zufallsgerät B
+
+         Es ist egal, welches Zufallsgerät Fabian wählt.
+
+                                                                                /1 P.
+
+
+
+
+                                             9
+                         ESA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A16   Kreuze die falsche Aussage an.
+
+
+
+
+      Die Abbildung zeigt…
+
+         ein Rechteck.
+
+         ein Quadrat.
+
+         ein Trapez.
+
+                                                                           /1 P.
+
+
+
+
+                                               10
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2022 ESA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=0e40fcba015d2041647bdd7d4de42087
+ABRUF: 2026-09-27
+SEITEN: 14
+LIZENZVERMERK: © 2022Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein; Fußzeile jeder Seite: „(c) MBWK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2022
+
+
+
+0DWKHPDWLN
+     +HIW
+(UVWHUDOOJHPHLQELOGHQGHU Schulabschluss
+Herausgeber
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Brunswiker Str. 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+© 2022Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+                        ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 2.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen Wahlteil
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                       ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+ B1: Komplexaufgabe                                                      Grillen
+
+Herr Schneider möchte sich für die nächste Grillsaison einen neuen Grill kaufen
+und informiert sich zuvor im Internet, welcher Grill für ihn der Richtige ist.
+
+(1) Es gibt verschiedene Arten von Grills.
+
+     Eine Online-Umfrage kam zu dem folgenden Ergebnis.
+
+
+
+
+     a) Gib an, wie viel Prozent der Befragten einen Gasgrill benutzen.
+
+                                                                             /1 P.
+
+     b) Herr Schneider behauptet: „Mehr als ein Drittel der Befragten nutzen
+        einen Kohlegrill.“
+
+        Zeige, dass Herr Schneider recht hat.
+
+                                                                             /2 P.
+
+
+
+
+                                             4
+                        ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(2) Herr Schneider möchte einen Kohlegrill kaufen. Im Internet findet er zwei
+    Angebote, zwischen denen er sich entscheiden muss.
+
+     Die Grillfläche soll dabei möglichst groß sein.
+
+
+
+
+     Überprüfe, welches Angebot Herr Schneider wählen sollte.
+
+                                                                           /4 P.
+
+(3) Herr Schneider entscheidet sich für das Modell „Fireplace“.
+
+
+
+
+     Er bekommt auf den angegebenen Preis einen Rabatt von 10 Prozent.
+
+     Berechne, wie viel Herr Schneider bezahlen muss.
+
+                                                                           /2 P.
+
+
+
+
+                                              5
+                       ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(4) Als Zubehör kauft Herr Schneider für seine Kinder eine Grillstange für
+    Marshmallows, die sich auf 76 cm verlängern lässt.
+
+
+
+
+     Die Tochter behauptet: „Die Länge der Stange lässt sich um etwa
+     250 Prozent verlängern.“
+
+     Überprüfe, ob die Tochter recht hat.
+
+                                                                             /3 P.
+
+
+
+
+                                             6
+                       ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst einen der beiden Wahlteile bearbeiten.
+
+
+
+
+(5) Der Nachbar von Herrn Schneider hat einen Gasgrill. Bei diesem Grill muss
+    regelmäßig die Gasflasche ausgewechselt werden.
+
+     Bei Gasflaschen wird die Füllmenge in Kilogramm
+     angegeben. Der Nachbar entscheidet sich für eine
+     11-Kilogramm-Flasche (siehe Abbildung).
+
+
+
+
+     Der Nachbar ist der Meinung, dass in die Flasche
+     mindestens 50 Liter Gas hineinpassen.
+
+     Überprüfe, ob der Nachbar recht hat.
+
+                                                                           /4 P.
+
+(6) In der Grafik ist der Verbrauch von Gas beim Grillen in Abhängigkeit von der
+    Zeit dargestellt.
+
+
+
+         g
+
+
+         g
+
+
+         g
+
+
+         g
+
+
+         g
+
+
+         g
+
+
+
+
+     Bestimme, für wie viele Stunden eine 11-kg-Gasflasche etwa reicht.
+
+                                                                           /2 P.
+
+
+
+
+                                             7
+                        ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+B2: Komplexaufgabe                                                        Feuerwehr
+
+Die Aufgabe der Feuerwehr ist es, zu löschen, zu retten, zu schützen und zu
+bergen.
+
+(1) Ein 75 kg schwerer Feuerwehrmann muss beim Einsatz nicht nur sein
+    eigenes Gewicht tragen, sondern auch noch diverse Ausrüstungs-
+    gegenstände:
+
+
+             Ausrüstungsgegenstand                 Gewicht in kg
+         persönliche Schutzausrüstung                   13 kg
+         Atemschutz                                     22 kg
+         Sondergeräte                                    3 kg
+
+     Gib das Gesamtgewicht des Feuerwehrmanns in Kilogramm an.
+
+                                                                                 /1 P.
+
+(2) Die freiwillige Feuerwehr in Brandhusen möchte sich ein neues
+    Feuerwehrfahrzeug kaufen. Dieses kostet 252 000 €.
+
+     Es gibt einen Zuschuss von 76 000 €.
+
+     Zeige, dass die Höhe des Zuschusses etwa 30 % beträgt.
+
+                                                                                 /2 P.
+
+
+
+
+                                              8
+                        ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(3) Auf dem Fahrzeug LF 20 befindet sich eine dreiteilige Steckleiter. Jedes Teil
+    der Steckleiter ist 2,70 m lang.
+
+     a) Begründe, warum die gesamte
+        Steckleiter kürzer als 8,10 m ist.
+
+
+
+
+                                                                             /2 P.
+
+     b) Eine andere Leiter wird an ein Haus gelehnt.
+
+
+
+
+        Berechne, wie hoch diese 6,50 m lange Leiter reicht.
+
+                                                                             /2 P.
+
+
+
+
+                                              9
+                                             ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(4) Im Diagramm sind die Mitgliederzahlen der freiwilligen Feuerwehr
+    Brandhusen dargestellt.
+
+
+                                    Mitgliederzahlen der freiwilligen Feuerwehr in Brandhusen
+
+
+                              140                                                                     Männer
+                                                                                                      Frauen
+
+                              120
+      Anzahl der Mitglieder
+
+
+
+
+                              100
+
+
+                               80
+
+
+                               60
+
+
+                               40
+
+
+                               20
+
+
+                                0
+                                      2000                2005                2010             2015      2016
+                                                                             Jahr
+
+
+    a) Gib die Anzahl der Mitglieder im Jahr 2005 an.
+
+                                                                                                          /1 P.
+
+    b) Kevin behauptet:
+
+                      „In der freiwilligen Feuerwehr Brandhusen wird der Anteil der
+                      Männer immer geringer.“
+
+                      Begründe, dass Kevin recht hat.
+
+                                                                                                          /2 P.
+
+(5) Der volle Wassertank eines Löschfahrzeugs fasst 2 000 Liter.
+
+    Die Pumpe dieses Fahrzeugs pumpt 800 Liter in der Minute in den Schlauch.
+
+    Berechne, nach wie vielen Sekunden der Tank dieses Fahrzeugs leer ist.
+
+                                                                                                          /2 P.
+
+
+
+
+                                                                   10
+                       ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst einen der beiden Wahlteile bearbeiten.
+
+
+
+
+(6) Ein sogenannter B-Schlauch ist 20 m lang und hat einen Durchmesser von
+    7,5 cm.
+
+
+
+
+    Berechne das Volumen eines B-Schlauches in Litern.
+
+                                                                         /3 P.
+
+(7) Die Feuerwehr Brandhusen soll ein Schwimmbecken mit Wasser füllen:
+
+
+
+
+    Mary berechnet, wie viel Kubikmeter Wasser in das Schwimmbecken
+    passen:
+
+                 Vges  (20  10  15  5)  2
+
+
+    a) Gib mithilfe der Gleichung die Größe des Volumens in Kubikmetern an.
+
+                                                                         /1 P.
+
+    b) Erläutere, warum Mary das Volumen mit dieser Gleichung berechnen
+       kann.
+
+                                                                         /2 P.
+
+
+
+
+                                             11
+                     ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+                          Bewertungsübersicht
+
+
+
+                               max. Punkte                       erreichte Punkte
+Heft 1                                   20
+Heft 2: B1                               12
+     Wahlteil                             6
+Heft 2: B2                               12
+     Wahlteil                             6
+Gesamtpunktzahl                          50
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte    Prozente   Erster allgemeinbildender
+                     Schulabschluss (Note)
+  45-50     ≥90                            1
+
+  38-44     ≥75                            2
+
+  30-37     ≥60                            3
+
+  23-29     ≥45                            4
+
+  11-22     ≥22                            5
+
+  0-10      <22                            6
+
+
+
+
+                                           12
+ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+                      13
+ESA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+                      14
+

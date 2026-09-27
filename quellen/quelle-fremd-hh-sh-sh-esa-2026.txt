@@ -1,0 +1,818 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2026 ESA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=eaf810a196f1795cbb066e9401208870
+ABRUF: 2026-09-27
+SEITEN: 12
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                        ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 1.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen
+Wahlteil bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 135 Minuten, davon höchstens
+                          45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                     ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben
+
+A1   Gib den Wert der markierten Zahl an.
+
+
+
+
+                                                                        /1 P.
+
+
+
+A2   Ergänze die Zahlenfolge.
+
+
+     -12; -7; -2; ____; 8
+
+                                                                        /1 P.
+
+
+
+A3   Vervollständige den Streifen zu 100 %.
+
+
+
+
+                                                                        /1 P.
+
+
+
+A4   Welche der Zahlen ist nicht durch 3 teilbar? Kreuze an.
+
+
+     ☐ 1671            ☐ 2115                     ☐ 3218
+
+                                                                        /1 P.
+
+
+
+
+                                            4
+                         ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+A5      Im Koordinatensystem sind das Dreieck ABC und der Punkt B’ abgebildet.
+
+
+
+
+                                                                    ’
+
+
+
+
+     a) Gib die Koordinaten des Punktes B’ an.
+
+        B’ (___ | ___)
+
+                                                                            /1 P.
+
+
+
+     b) Das Dreieck ABC wird nach A’B’C’ verschoben.
+        Ergänze die Punkte A’ und C’ im Koordinatensystem.
+
+                                                                            /1 P.
+
+
+
+
+                                                5
+                     ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+A6   Das Bild eines Turmes besteht aus einem Rechteck und einem Dreieck.
+
+
+
+
+     Jedes Bild soll anders aussehen.
+
+
+     Es gibt diese Möglichkeiten für das Rechteck                           und
+
+
+
+
+     diese Möglichkeiten für das Dreieck                                .
+
+
+     Gib an, wie viele verschiedene Bilder dieses Turms möglich sind.
+
+
+     Es sind _______ verschiedene Bilder des Turms möglich.
+
+                                                                              /1 P.
+
+
+
+
+                                            6
+                     ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A7   Tino will das Gewinnspiel auswählen, bei dem die
+     Gewinnwahrscheinlichkeit für „schwarz“ höher ist.
+
+
+
+
+     Entscheide und begründe, welches Gewinnspiel Tino wählen sollte.
+
+     ☐ Gewinnspiel A
+
+     ☐ Gewinnspiel B
+
+     ☐ Es ist egal, ob er Gewinnspiel A oder Gewinnspiel B wählt.
+
+     Begründung:
+
+
+
+
+                                                                        /1 P.
+
+
+
+
+                                            7
+                      ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A8   Das Schaubild stellt vereinfacht Pias Fahrt in einer Seilbahn dar.
+     Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+
+
+                                                                         wahr   falsch
+      Pia fährt mit der Seilbahn bergab.                                  ☐      ☐
+      Nach einer Minute befindet sich die Seilbahn auf
+                                                                          ☐      ☐
+      einer Höhe von ungefähr 175 m.
+      Nach 350 s endet Pias Fahrt in der Seilbahn.                        ☐      ☐
+
+                                                                                         /3 P.
+
+
+
+
+                                             8
+                      ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A9    Mit Hilfe einer Tabellenkalkulation wird das Volumen von Quadern
+      berechnet.
+
+
+
+
+      Gib eine Formel für Zelle D4 an, die das Volumen des Quaders
+      berechnet.
+
+
+       =
+
+                                                                         /1 P.
+
+
+
+A10   Gib den Abstand d der Parallelen an.
+
+
+
+
+      d = ________ cm
+
+                                                                         /1 P.
+
+
+
+
+                                             9
+                       ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+A11   Die abgebildete Figur mit einem Flächeninhalt von 80 cm² besteht aus fünf
+      gleich großen Quadraten.
+
+
+
+
+                                   Abbildung ist nicht maßstabsgerecht
+
+
+
+      Julia sagt: „Die Seitenlänge jedes dieser Quadrate beträgt 4 cm.“
+
+      Entscheide und begründe, ob Julia recht hat.
+
+      ☐ Julia hat recht.
+
+      ☐ Julia hat nicht recht.
+
+      Begründung:
+
+
+
+
+                                                                              /1 P.
+
+
+
+A12   Welches Viereck ist kein Parallelogramm? Kreuze an.
+
+
+
+
+                ☐                                 ☐                       ☐
+                                                                              /1 P.
+
+
+
+A13   Berechne.
+
+
+                  ____________
+
+                                                                              / 1 P.
+
+
+
+                                             10
+                      ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+A14   Ein Auto legt in 20 Minuten 30 Kilometer zurück.
+      Kreuze die Länge der zurückgelegten Strecke bei gleichbleibender
+      Geschwindigkeit nach einer Stunde an.
+
+
+      ☐ 50 km           ☐ 90 km                    ☐ 150 km
+
+                                                                         /1 P.
+
+
+
+A15   Aus einem Draht mit 60 cm Länge wird das Kantenmodell eines Würfels
+      hergestellt.
+
+
+
+
+       Abbildung: Foto eines Kantenmodells
+
+
+      Gib die Länge einer Würfelkante an.
+
+      _______ cm
+
+                                                                         /1 P.
+
+
+
+A16   Zeichne im Dreieck ABC die Höhe hb ein.
+
+
+
+
+                                                                         /1 P.
+
+
+
+
+                                            11
+                      ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A17   Gib den Flächeninhalt der grau markierten Fläche an.
+
+
+
+
+      A = ________ cm²
+
+                                                                         /1 P.
+
+
+
+
+                                            12
+ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+                      13
+ESA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+                      14
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2026 ESA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=26f78cedd4e19b2a0b53e5e1428a5b0d
+ABRUF: 2026-09-27
+SEITEN: 12
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                        ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die vorliegende Arbeit besteht aus zwei Teilen. Dies ist Heft 2.
+
+Heft 1        Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen. Den
+Taschenrechner darfst du hierbei nicht benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+
+
+Heft 2        Komplexaufgaben
+
+Heft 2 enthält zwei Komplexaufgaben, die von dir bearbeitet werden sollen. Am
+Ende jeder Komplexaufgabe gibt es einen Wahlteil. Du musst nur einen
+Wahlteil bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 20 Minuten
+
+Bearbeitungszeit:         insgesamt 135 Minuten, davon höchstens
+                          45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                      ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                 Travemünder Woche
+
+Die Travemünder Woche ist ein großes Volksfest, bei dem Segelwettbewerbe
+stattfinden.
+
+
+(1)   Die Abbildung zeigt die Besucherzahlen der Travemünder Woche im Jahr
+      2025 vom 18. bis 27. Juli.
+
+
+
+
+   a) Gib die ungefähre Besucheranzahl der Travemünder Woche am 25.7. an.
+
+                                                                           /1 P.
+
+
+
+   b) Eray sagt: „Am 26.7. waren ca. 300 % mehr Besucher auf der
+      Travemünder Woche als am 22.7.“
+      Zeige, dass Eray recht hat.
+
+                                                                           /2 P.
+
+
+
+
+                                             4
+                       ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+(2)   Auf der Travemünder Woche lernt Eray den Schweden Magnus kennen.
+      Dieser erzählt ihm, dass er für das Wochenende mit der Fähre aus
+      Trelleborg angereist ist (siehe Karte in der Abbildung).
+
+
+
+
+      Bestimme die ungefähre Entfernung in Kilometern.
+      Notiere deinen Lösungsweg.
+
+                                                                                /2 P.
+
+
+(3)   Auf der Fähre gibt es einen Glücksspielautomaten. Dieser zeigt zufällig
+      eine dreistellige Zahl an. An jeder Stelle können die Ziffern 0 bis 9
+      stehen. Wenn alle drei Ziffern gleich sind, hat man gewonnen.
+
+
+
+
+  a) Gib die Wahrscheinlichkeit dafür an, dass Magnus die 2 7 4 erhält.
+
+                                                                                /1 P.
+
+
+
+  b) Magnus behauptet: „Entweder man gewinnt oder man verliert. Also stehen
+     die Chancen 50:50.“
+      Entscheide und begründe, ob Magnus recht hat.
+
+                                                                                /2 P.
+
+
+
+
+                                              5
+                      ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+(4)   In der Nähe des Ufers gibt es die Beachbühne. Vor der Bühne befindet
+      sich eine trapezförmige Tanzfläche, die komplett eingezäunt werden
+      muss. Die Abbildung zeigt die Draufsicht auf das Gelände.
+
+
+
+
+  a) Gib an, wie viel Meter Zaun benötigt werden.
+
+                                                                             /1 P.
+
+
+
+  b) Das Sicherheitskonzept des Veranstalters sieht vor, dass auf der Tanzfläche
+     zwei Personen pro Quadratmeter zugelassen sind.
+      Zeige, dass sich etwa 1000 Besucher zeitgleich auf der Fläche aufhalten
+      dürfen.
+
+                                                                             /3 P.
+
+
+
+
+                                             6
+                      ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst einen der zwei Wahlteile bearbeiten.
+
+
+(5)   Die Abbildung zeigt das Programm der Beachbühne am
+      Eröffnungsabend.
+
+
+
+
+      Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+                                                                         wahr   falsch
+      Für den Auftritt von Leony ist die längste
+                                                                          ☐      ☐
+      Zeitspanne geplant.
+      Die durchschnittliche Dauer eines Auftritts
+                                                                          ☐      ☐
+      beträgt eine Stunde.
+      Laut Programm steht um 20:00 Uhr Torfrock auf
+                                                                          ☐      ☐
+      der Bühne.
+
+
+                                                                                         /3 P.
+
+
+
+
+                                             7
+                      ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+(6)   An einem Stand können Getränke und Speisen gekauft werden.
+
+
+
+
+  a) Eray bestellt zwei Cola und eine Bratwurst.
+
+      Bestimme, wie viel Euro er am Stand bezahlen muss.
+
+
+                                                                         /1 P.
+
+
+
+  b) Magnus muss insgesamt 17,00 € am Stand bezahlen.
+
+      Gib zwei mögliche Bestellungen an.
+
+
+                                                                         /2 P.
+
+
+
+
+                                             8
+               ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+B2: siehe nächste Seite
+
+
+
+
+                                      9
+                          ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+B2: Komplexaufgabe                                                           Terrasse
+
+Durch einen Sturmschaden muss Herr Nissen seine rechteckige Terrasse mit
+einem neuen Sichtschutzzaun ausbessern. Hierfür benötigt Herr Nissen fünf
+Zaunelemente und sechs Pfosten (s. Abbildung).
+
+
+
+
+(1)     Die fünf Zaunelemente kauft er im Baumarkt.
+
+         Benötigte                                       Maße in cm
+                     Modell                                                  Stückpreis
+          Anzahl                                       (Breite x Höhe)
+              1      Zaunelement S1                       180 x 180              179,00 €
+
+              1      Zaunelement S2                        90 x 180              109,00 €
+
+              1      Zaunelement S3                      90 x 180/90              89,99 €
+
+              2      Zaunelement S4                        180 x 90               89,99 €
+
+              3      Pfosten                                9 x 100               25,95 €
+
+              3      Pfosten                                9 x 190               42,95 €
+
+
+   a) Bestimme den Gesamtpreis für die fünf Zaunelemente in Euro.
+      Notiere deinen Lösungsweg.
+
+                                                                                          /2 P.
+
+
+   b) Für die sechs Pfosten würde Herr Nissen im Baumarkt 206,70 Euro
+      bezahlen. Herr Nissen kauft diese im Internet und spart dadurch
+      10 Prozent.
+        Bestimme den Preis in Euro, den Herr Nissen im Internet bezahlt.
+
+                                                                                          /2 P.
+
+
+      c) Prüfe, ob die Terrasse größer als 12 m2 ist.
+
+                                                                                          /3 P.
+
+
+
+
+                                                10
+                       ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+(2)   Die Pfosten werden mit Beton im Boden verankert (siehe Abbildung).
+
+      Für jeden Pfosten hebt Herr Nissen ein in etwa quaderförmiges Loch mit
+      den Maßen 30 cm x 30 cm x 50 cm aus.
+      Um herauszufinden, wie viel Beton er benötigt, findet er beim Hersteller
+      folgende Angaben:
+
+
+
+
+      Begründe, dass vier 25-Kilo-Säcke Beton für ein Loch ausreichen.
+
+                                                                            /3 P.
+
+
+(3)   Herr Nissen möchte die Zaunelemente selbst mit dem Transporter
+      abholen.
+
+      Er überlegt, ob er das große Zaunelement mit den Maßen 180 cm x 180 cm
+      in den Transporter laden kann.
+
+
+
+
+      Zeige, dass das möglich ist.
+
+                                                                            /2 P.
+
+
+
+
+                                             11
+                      ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst einen der zwei Wahlteile bearbeiten.
+
+
+(4)   Mithilfe eines Tabellenkalkulationsprogramms wurde das folgende
+      Diagramm erstellt.
+
+  a) Dieses Diagramm zeigt für die Jahre 2019 bis 2022 die jeweilige Anzahl
+     der Sturm- und Hagelschäden, die bei Versicherungen gemeldet wurden.
+
+
+
+
+      Ergänze die Säule für das Jahr 2020.
+
+                                                                         /1 P.
+
+
+
+  b) Berechne den Anstieg der gemeldeten Schäden von 2021 bis 2022 in
+     Prozent.
+
+                                                                         /2 P.
+
+
+
+
+                                            12
+                    ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+c) Bestimme die durchschnittliche Anzahl gemeldeter Schäden pro Jahr von
+   2019 bis 2022 in Millionen.
+
+                                                                         /2 P.
+
+
+
+d) Ergänze die Formel, mit deren Hilfe sich der Durchschnitt in der Zelle B4
+   berechnen lässt.
+
+
+     =Mittelwert(___________________)
+
+                                                                         /1 P.
+
+
+
+
+                                          13
+                     ESA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+                           Bewertungsübersicht
+
+
+
+
+                                max. Punkte                       erreichte Punkte
+Heft 1                                    20
+Heft 2: B1                                12
+     Wahlteil                              6
+Heft 2: B2                                12
+     Wahlteil                              6
+Gesamtpunktzahl                           50
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte    Prozente   Erster allgemeinbildender
+                     Schulabschluss (Note)
+  45-50     ≥90                             1
+
+  38-44     ≥75                             2
+
+  30-37     ≥60                             3
+
+  23-29     ≥45                             4
+
+  11-22     ≥22                             5
+
+  0-10      <22                             6
+
+
+
+
+                                           14
+

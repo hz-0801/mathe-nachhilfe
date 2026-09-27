@@ -1,0 +1,850 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2023 MSA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=e91f0384e4e5010f25a086e5868e3352
+ABRUF: 2026-09-27
+SEITEN: 20
+LIZENZVERMERK: © MBWFK, Kiel 2023; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2023
+
+
+
+
+   Korrekturanweisung
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWFK, Kiel 2023
+                     MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben                                                           Lösungen
+
+A1   Der Würfel wurde an einer Ecke eingefärbt. Zeichne im Würfelnetz die zwei
+     fehlenden farbigen Ecken ein.
+
+
+
+
+                                                                                   /1 P.
+
+A2   In einem Gefäß befinden sich insgesamt 200 Lose. 20 Lose sind Gewinne,
+     die anderen Lose sind Nieten. Die Lose werden ohne hinzusehen gezogen
+     und nicht wieder zurückgelegt.
+
+     a) Wie groß ist die Wahrscheinlichkeit, dass das erste gezogene Los ein
+        Gewinn ist? Kreuze an.
+
+        ☐ 1%                        ☐ 5%                             ☒ 10 %
+
+                                                                                   /1 P.
+
+     b) Aus den 200 Losen wurden 50 Nieten und kein Gewinn gezogen.
+
+        Welche Aussage trifft zu? Kreuze an.
+
+        ☒ Die Wahrscheinlichkeit, als nächstes einen Gewinn zu ziehen, ist
+          größer im Vergleich zur ersten Ziehung.
+
+        ☐ Die Wahrscheinlichkeit, als nächstes einen Gewinn zu ziehen, ist
+          kleiner im Vergleich zur ersten Ziehung.
+
+        ☐ Die Wahrscheinlichkeit, als nächstes einen Gewinn zu ziehen, ist
+          genauso groß wie bei der ersten Ziehung.
+
+                                                                                   /1 P.
+
+
+
+
+                                              3
+                     MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A3    8 liegt zwischen
+
+     ☐ 1,5 und 2                 ☐ 2 und 2,5                       ☒ 2,5 und 3
+
+                                                                                 /1 P.
+
+A4   Johanna hat ein Spiel für 8 € gekauft und dieses für 6 € an einen Freund
+     verkauft.
+
+     Zeige, dass ihr Verlust 25 % beträgt.
+
+     Der Verlust beträgt 2 €. 2 von 8 entspricht einem Viertel, also 25 %.
+
+                                                                                 /1 P.
+
+A5   Gleiche Buchstaben bezeichnen gleich große Winkel. Gleiche Buchstaben
+     bezeichnen gleich große Winkel. Gib die Größe der bezeichneten Winkel an.
+     Die Abbildung ist nicht maßstabsgerecht.
+
+
+
+                                                              β = 65°
+
+                                                              𝛿 = 130°
+
+
+
+
+                                                                                 /2 P.
+
+A6   Ergänze das unvollständige Schrägbild des Trapezprismas.
+
+
+
+
+                                                                                 /1 P.
+
+
+
+
+                                              4
+                     MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A7   Widerlege jede Aussage, z.B. indem du ein Gegenbeispiel angibst.
+
+     a) Aussage: „Je größer eine natürliche Zahl ist, desto größer ist ihre
+        Quersumme.“
+
+        31 ist größer als 13, aber beide Zahlen haben die Quersumme 4.
+
+                                                                                /1 P.
+
+     b) Aussage: „Wenn bei zwei Dreiecken die Längen der Grundseiten und die
+        Längen der Höhen auf dieser Grundseite gleich sind, dann sind die
+        Dreiecke kongruent.“
+
+
+
+
+        Jede aussagekräftige Zeichnung oder Erklärung wird akzeptiert.
+
+                                                                                /1 P.
+
+A8   In der ersten Reihe eines Theaters befinden sich 8 Plätze, in der zweiten
+     Reihe befinden sich 10 Plätze, in der dritten Reihe 12 Plätze. Die Zunahme
+     der Sitzplätze setzt sich in den weiteren Reihen genauso fort.
+
+
+
+
+     a) Wie viele Plätze befinden sich in Reihe 5?
+
+        Anzahl der Plätze in Reihe 5: 16
+
+                                                                                /1 P.
+
+     b) Welcher Term gibt die Anzahl der Plätze in der n-ten Reihe an?
+        Kreuze den zutreffenden Term an.
+
+        ☐ 8 + 2n                    ☒ 6 + 2n                         ☐ 8n + 2
+
+                                                                                /1 P.
+
+
+
+                                              5
+                         MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A9   Gegeben ist eine regelmäßige Pyramide mit quadratischer Grundfläche.
+     Ergänze die Formeln.
+
+                                                                   2                          2
+                                                      2
+                                                          a
+                                                          2                      2   2
+                                                                                        a
+                                                   h =s −            oder     h =k +  
+                                                          2                           2
+
+             s                     s                           k
+                                                   sin (α) =
+                                                               s
+                         k
+                                   h
+                                                             k
+                                                   tan (β) = a
+                                                               2
+
+                    a
+                                                                                                  /3 P.
+
+A10 Bei beiden Divisoren fehlt ein Komma. Setze das Komma jeweils so, dass
+    die Gleichung stimmt.
+
+     0,5 : 1 0,0 = 0,05
+
+     25 : 2,5 0 = 10
+
+                                                                                                  /2 P.
+
+A11 Gib den kleinsten und den größten Wert an:
+
+                             1
+     3−2;   − 32;       9;     ;    30
+                             9
+
+     kleinster Wert:         −32 = −9
+     größter Wert:            9 =3
+
+                                                                                                  /2 P.
+
+              2      2
+A12 Forme 25 a − 169b mit Hilfe einer binomischen Formel in ein Produkt um.
+
+
+     25 a2 − 169b2 = (5a + 13b)(5a − 13b)
+
+                                                                                                  /1 P.
+
+
+
+
+                                                  6
+                      MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A13 Ergänze jeweils so, dass die Gleichungen stimmen.
+
+    110 cm + 1,9 m = 3 m
+
+    120 dm2 + 1,8 m2 = 3 m2
+
+                                                                             /2 P.
+
+A14 Gegeben ist die folgende quadratische Funktion in Normalform:
+
+    f(x) = x2 + 6x + 8
+
+    Welche der folgenden Funktionsgleichungen stellt diese Funktion in der
+    Scheitelpunktform dar? Kreuze an.
+
+    ☐ f (x) = (x + 3)2 + 8
+
+
+    ☐ f (x) = (x + 3)2 + 1
+
+
+    ☒ f (x) = (x + 3)2 − 1
+
+                                                                             /1 P.
+
+A15 Verbinde jedes der drei Beispiele mit dem passenden Begriff.
+
+
+
+
+                                                                             /3 P.
+
+
+
+
+                                               7
+                      MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+A16 Wahr oder falsch? Kreuze jeweils an.
+
+
+                                                                              wahr   falsch
+      Alle Graphen linearer Funktionen verlaufen durch                          ☐      ☒
+      3 Quadranten des Koordinatensystems.
+
+      Der Graph der Funktion g mit g(x ) = 2x ⋅ x − 3   (      )                ☒      ☐
+
+      ist eine Parabel.
+
+      Der Graph der Funktion f mit f (x ) = x 2 + 3 ist                         ☒      ☐
+      gegenüber der Normalparabel nach oben verschoben.
+
+
+                                                                                        /3 P.
+
+A17 Soraya hat auf die Seitenflächen eines Würfels die Zahlen
+    − 5, − 3, − 1, 2, 4, 6 geschrieben. Sie würfelt mit diesem Würfel zweimal
+     hintereinander und addiert die beiden gewürfelten Zahlen. Welche Summe
+     kann sie nicht erhalten?
+
+     ☐3                           ☐5                                ☒7
+
+                                                                                        /1 P.
+
+A18 In einem Beutel befinden sich fünf Kugeln: 2 grüne und 3 blaue
+
+     a) Es werden zwei grüne Kugeln gezogen, die nicht wieder zurückgelegt
+        werden. Wie groß ist die Wahrscheinlichkeit beim nächsten Zug eine
+        blaue Kugel zu ziehen? Kreuze an.
+
+              1                          3
+          ☐                          ☐                                ☒1
+              3                          5
+
+                                                                                        /1 P.
+
+     b) Es wird dreimal gezogen und die Kugeln werden nicht wieder
+        zurückgelegt. Mit welchem Term lässt sich die Wahrscheinlichkeit
+        berechnen alle blauen Kugeln zu ziehen? Kreuze an.
+
+              3 2 1                      3 3 3                               1 1 1
+          ☒    ⋅ ⋅                   ☐    ⋅ ⋅                         ☐       + +
+              5 4 3                      5 5 5                               5 5 5
+
+                                                                                        /1 P.
+
+
+
+
+                                               8
+                           MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+B1: Trigonometrie                                                Halbkreis – Lösung
+
+(1)
+
+      a) gesucht: Länge der Strecke BC
+
+         90°-75°=15°                                                              (1)
+
+               2
+          BC       = 52 + 52 − 2 ⋅ 5 ⋅ 5 ⋅ cos(15°)                               (1)
+
+
+          BC ≈ 1,3                                                                (1)
+
+
+                                                                                        /3 P.
+
+      b) gesucht: Nachweis, dass der Abstand a = 2 ⋅ 5 cm beträgt.
+
+         Das Dreieck ACM ist rechtwinklig und es gilt der
+         Satz des Pythagoras.                                                     (1)
+
+         a = (5 cm)2 + (5 cm)2 = 2 ⋅ (5 cm)2 = 2 ⋅ 5 cm                           (1)
+
+                                                                                        /2 P.
+
+      c) gesucht: Größe des Winkels α
+
+         α = 60°                                                                  (1)
+
+                                                                                        /1 P.
+
+(2)
+
+      a) gesucht: Abstand der Punkte B und E zueinander
+
+         p = 8 cm          q = 2 cm                                               (1)
+
+          BE = p ⋅ q = 8 cm ⋅ 2 cm = 4 cm                                         (1)
+
+
+                                                                                        /2 P.
+
+
+
+
+                                                      9
+                      MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+    b) gesucht: Dreieck, das Mila nutzen kann
+
+
+
+
+        Das eingezeichnete Dreieck ist MEB.                                  (1)
+
+                                                                                   /1 P.
+
+
+Wahlteil zu B1
+
+(3) gesucht: Skizze
+
+    Die Punkte A, B und C liegen auf dem Halbkreis.                          (1)
+
+    α = β = 60°                                                              (1)
+
+
+
+
+                                                                                   /2 P.
+
+
+
+
+                                              10
+                     MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+(4)
+
+      a) gesucht: Entscheidung und Begründung, ob André die Gleichung nutzen
+         kann
+
+         André hat recht.                                                   (1)
+
+         André nutzt den Sinus im rechtwinkligen Dreieck.                   (1)
+
+                                        1
+         Die Gegenkathete hat die Länge   ⋅ y und die
+                                        2
+         Hypotenuse hat eine Länge von 5 cm.                                (1)
+
+                                                                                  /3 P.
+
+      b) gesucht: Bedeutung von sin(β) = 1
+
+         Der Abstand der Punkte B und C entspricht der Länge des
+         Durchmessers.                                                      (1)
+
+                                                                                  /1 P.
+
+
+
+
+                                             11
+                       MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+B2: Stereometrie                                         Hammer – Lösungen
+
+
+(1) a) gesucht: Fehler in der Zeichnung
+
+
+
+
+        Die fehlerhafte Stelle sollte deutlich zu erkennen sein.
+
+                                                                                    /1 P.
+
+    b) gesucht: Skizzen in den Schrägbildern
+
+        siehe oben
+
+        Der Punkt wird für die korrekte Lage zweier Augen vergeben,
+        auch bei Abweichungen von der ovalen Form.
+
+                                                                                    /1 P.
+
+(2) a) gesucht: Volumen des Hammerkopfs
+
+        Ansatz: V = VQuader + VDreieckprism a
+
+
+        VQuader = 23 ⋅ 23 ⋅ 58 = 30 682                                       (1)
+
+
+                            1
+        VDreieckprism a =     ⋅ 23 ⋅ (105 − 58) ⋅ 23 = 12 431, 5              (1)
+                            2
+
+        V = VQuader + VDreieckprism a = 43113, 5                              (1)
+
+
+        Das Volumen beträgt ungefähr 43 100 mm3 bzw. 43,1 cm3.
+
+                                                                                    /3 P.
+
+
+
+
+                                                12
+                  MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+b) gesucht: Bewertung einer Rechnung und Begründung
+
+   Die Dichte ergibt sich als Quotient aus Masse und Volumen
+   und hat in diesem Fall einen zu großen Divisor.                       (1)
+
+   Also ist das Ergebnis zu klein.                                       (1)
+
+                                                                               /2 P.
+
+c) gesucht: Abschätzung eines Flächeninhalts
+
+   In die Fläche passt ein Kreis mit dem Radius r = 0,7 cm,
+   also AAuge > π ⋅ 0,7 ≈ 1,54 > 1,5 .
+                          2
+                                                                         (1)
+
+
+   Die Fläche passt in ein Rechteck mit den Seitenlängen 1,4 cm
+   und 2,5 cm, also AAuge < 1,4 ⋅ 2,5 = 3,5                              (1)
+
+
+   Wer alternativ für die Abschätzung nach unten eine Raute mit
+   den Diagonalenlängen 1,4 cm und 2,5 cm betrachtet, erhält
+              1
+    AAuge >     ⋅ 1,4 ⋅ 2,5 = 1,75 > 1,5
+              2
+
+                                                                               /2 P.
+
+
+
+
+                                          13
+                   MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+
+(3) a) gesucht: Abschätzung des Hohlraumvolumens im Hammerkopf
+
+       Die Höhe des zylindrischen Hohlraums beträgt etwa 7 cm,
+       der Radius 1,5 cm.                                                 (1)
+
+       V = π ⋅1,52 ⋅ 7 ≈ 49,48 > 49                                       (1)
+
+                                                                                /2 P.
+
+    b) gesucht: Volumenberechnung und Bewertung des Ergebnisses
+
+       49 cm3 = 49 000 mm3                                                      (1)
+
+       Volumen für 2 000 Kugeln in mm3: V2000 = 2 000 ⋅14,1 ≈ 28200             (1)
+
+
+       Benötigter Raum: VFüllung ≈ 0,7 ⋅ 49 000 ≈ 34300                         (1)
+
+
+       28 200 < 34 300                                                          (1)
+
+       Der Hohlraum ist groß genug für 2 000 Kugeln.
+
+                                                                                /4 P.
+
+
+
+
+                                           14
+                      MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                 Tee & Kaffee – Lösungen
+
+(1) gegeben: t(x) = 90 ⋅ 0,7x
+
+     a) gesucht: Wert der Temperatur nach 2 min
+
+        t(2) = 44,1
+                                                                                   /1 P.
+
+     b) gesucht: Zeitpunkt x, zu dem der Tee 18 °C erreichen müsste
+
+         ⇔ 18 = 90 ⋅ 0,7 x                                                   (1)
+         ⇔ x = log0,7 0,2
+         ⇔ x ≈ 4,5                                                           (1)
+
+        Nach ungefähr 4,5 Minuten müsste der Tee auf 18 °C abgekühlt sein.
+                                                                         /2 P.
+
+     c) gesucht: Stellungnahme zur Frage, ob der Tee auf 0 °C abkühlen kann
+
+        Der Tee kann nicht unter die Umgebungstemperatur abkühlen.
+        oder: Die x-Achse ist Asymptote des Graphen der Funktion t, der Graph
+        hat keine Nullstelle.
+                                                                          /1 P.
+
+     d) gesucht: Skizze des Graphen gemäß der Modellierung
+
+
+
+
+        Es reicht aus, wenn der Graph bis 4,5 Minuten korrekt skizziert ist.
+                                                                                   /1 P.
+
+
+                                              15
+                       MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+(2) a) gesucht: Begründung, dass der Zusammenhang weder linear noch
+       antiproportional ist
+
+       Es liegt keine konstante Steigung vor, daher ist der Zusammenhang
+       nicht linear:
+
+
+
+
+       oder
+
+       Der k-fachen Zeit ist nicht der k-fache Temperaturwert zugeordnet.(1)
+
+       Es liegt keine Produktgleichheit vor, daher ist der Zusammenhang nicht
+       antiproportional:
+
+        0 ⋅ 100 = 0      1 ⋅ 89 = 89        2 ⋅ 79, 2 = 158, 4        3 ⋅ 70,5 = 211,5 (1)
+
+
+       oder
+
+       Der k-fachen Zeit ist nicht der 1/k-fache Temperaturwert zugeordnet.
+
+                                                                                             /2 P.
+
+    b) gesucht: Funktionsgleichung einer Exponentialfunktion, die den Prozess
+       annähert
+
+       Beispiel:      f (x) = 100 ⋅ 0,89x , wobei x die vergangene Zeit in Minuten
+       beschreibt
+
+       je (1) für Anfangswert und Wachstumsfaktor
+
+                                                                                             /2 P.
+
+
+
+
+                                               16
+                     MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B3
+
+(3) gegeben:
+
+    f (x) = b ⋅ ax
+
+    a) gesucht: Bedeutung der Parameter a und b im Kontext der Abkühlung
+       von Getränken
+
+        a beschreibt als Wachstumsfaktor, wie schnell das Getränk
+        abkühlt.                                                                   (1)
+
+        b beschreibt als Anfangswert, wie heiß das Getränk
+        zu Beginn war.                                                             (1)
+
+                                                                                         /2 P.
+
+    b) gesucht: Intervall für a
+
+        0< a<1                                                                     (1)
+
+                                                                                         /1 P.
+
+    c) gesucht: Zuordnung der Graphen zu den Funktionsgleichungen
+
+          I → h(x)                    II → g(x)                       III → i(x)
+
+        Ein Punkt wird vergeben, wenn zwei Zuordnungen korrekt angegeben
+        wurde.
+
+                                                                                         /2 P.
+
+    d) gesucht: Beschreibung der Auswirkung des Parameters d auf den
+       Graphen
+
+        Der Graph ist für d > 0 um d Einheiten nach oben verschoben,
+        und für d < 0 nach unten verschoben.
+
+                                                                                         /1 P.
+
+
+
+
+                                             17
+                     MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+B4: Statistik und                                          Würfel – Lösungen
+    Wahrscheinlichkeit
+
+(1) a)      gesucht: fehlende Werte
+
+
+
+                                        1         2        3         4       5    6         Summe
+          absolute Häufigkeit          55         58       88       75      114   110         500
+          relative Häufigkeit        0,110 0,116 0,176 0,150 0,228 0,220                       1
+
+
+         Ein Punkt, wenn zwei Werte korrekt sind; zwei Punkte, wenn alle Werte
+         korrekt sind.
+
+                                                                                            /2 P.
+
+    b) gesucht: Erklärung
+
+         Es ist kein Laplace-Experiment, da nicht alle Ergebnisse die gleiche
+         Wahrscheinlichkeit haben.
+
+                                                                                            /1 P.
+
+(2) a) gesucht: Wahrscheinlichkeit, zweimal die gleiche Zahl zu werfen
+
+         Ansatz Pfadregeln (Multiplikation und Addition)                              (1)
+
+         0,2882 + 0,1522 + 0,1962 + 0,032 + 0,1462 + 0,1882 ≈ 0,202                   (1)
+
+                                                                                            /2 P.
+
+    b) gesucht: Begründung, ob Merle recht hat.
+
+         Merle hat recht.                                                             (1)
+
+         Das Gegenereignis zu „zweimal gleiche Zahl“ ist „nicht zweimal
+         gleiche Zahl“ beziehungsweise „zwei verschiedene Zahlen“.      (1)
+
+         Der Begriff Gegenereignis muss nicht explizit genannt werden.
+
+                                                                                            /2 P.
+
+
+
+
+                                             18
+                     MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+(3) gesucht: Entscheidung und Begründung
+
+     Das Säulendiagramm kann nicht stimmen.                                 (1)
+
+     Addiert man alle Wahrscheinlichkeiten,
+     dann ergibt die Summe mehr als 1.                                      (1)
+
+                                                                                  /2 P.
+
+
+Wahlteil zu B4
+
+(4) gesucht: fehlende Werte und Beschriftungen
+
+
+
+
+    Ein Punkt für eine richtige Pfadbeschriftung; zwei Punkte für zwei richtige
+    Pfadbeschriftungen.
+                                                                              /2 P.
+(5) a) gesucht: Wahrscheinlichkeiten für „zweimal das Gleiche“
+        und „zwei verschiedene Farben“
+
+                                          2        2
+                                  2   1   5
+         P(zweimal das Gleiche) =   +   =                               (1)
+                                   3
+                                       3
+                                            9
+
+                                              2 1 1 2 4
+         P(zwei verschiedeneFarben) =          ⋅ + ⋅ =                      (1)
+                                              3 3 3 3 9
+
+         5 4
+          >
+         9 9
+
+         Der Lehrer hat recht. Die Wahrscheinlichkeit zweimal
+         hintereinander die gleiche Farbe zu werfen ist größer, als
+         dass der Würfel zweimal hintereinander unterschiedliche
+         Farben anzeigt.                                                    (1)
+
+                                                                                  /3 P.
+
+
+                                              19
+                        MSA Mathematik Korrekturanweisung 2023 (c) MBWFK S-H
+
+
+
+
+   b) gesucht: Wahrscheinlichkeit für mindestens einmal Grau
+
+                                                     2
+                                      2  2 1 1 2 8
+          P(mindestens einmal Grau) =   + ⋅ + ⋅ =                            (1)
+                                      3  3 3 3 3 9
+
+
+          Alternativ kann auch mit dem Gegenereignis gerechnet werden.
+
+                                                                                     /1 P.
+
+
+
+
+Bewertungsschlüssel MSA
+
+Punkte       Prozente      Mittlerer Schulabschluss (Note)
+
+
+ 72 - 80       ≥90                               1
+
+ 60 - 71       ≥75                               2
+
+ 48 - 59       ≥60                               3
+
+ 36 - 47       ≥45                               4
+
+ 18 - 35       ≥22                               5
+
+ 17 - 0        <22                               6
+
+
+
+
+                                                20
+

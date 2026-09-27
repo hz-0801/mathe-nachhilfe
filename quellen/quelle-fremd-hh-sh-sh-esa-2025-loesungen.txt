@@ -1,0 +1,695 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2025 ESA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=dd1f746826d0e3f6f4560eaf3d25b891
+ABRUF: 2026-09-27
+SEITEN: 20
+LIZENZVERMERK: © MBWFK, Kiel 2025; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2025
+
+
+
+
+              Korrekturanweisung
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWFK, Kiel 2025
+                      ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+Hinweise zur Korrektur:
+
+
+
+   Bei den Kurzformaufgaben (Heft 1) wird in der Regel keine Darstellung der
+    Lösungswege verlangt, es sei denn, die Operatoren verlangen dies im
+    konkreten Fall (siehe https://za.schleswig-holstein.de).
+
+
+   Grundsätzlich gilt, dass alle Lösungsvarianten, die über einen nachvollziehbar
+    richtigen Lösungsweg zu einem richtigen Ergebnis führen, mit voller Punktzahl
+    bewertet werden. Dies gilt gleichermaßen für Notationen von Formeln und
+    Prozessen abhängig von der Tabellenkalkulationssoftware.
+
+
+   Bei Prozent- und Zinsrechnungsaufgaben sind Lösungswege mit der Formel
+    oder über den Dreisatz gleichwertig.
+
+
+   Planskizzen werden nur dann erwartet und bepunktet, wenn dies ausdrücklich
+    in der Aufgabenstellung angegeben ist.
+
+
+   Antwortsätze werden nur dann bepunktet, wenn sie gegenüber dem
+    berechneten Ergebnis eine weitergehende Information enthalten.
+
+
+   Beim Rechnen mit Maßeinheiten können die Einheiten entweder in der
+    gesamten Rechnung mitgeführt oder weggelassen werden. Wenn in einer
+    Aufgabenstellung eine Einheit vorgegeben ist, führt das Fehlen der Einheit in
+    der Antwort nicht zu einem Punktabzug.
+
+
+   Die Ergebnisse sind entsprechend den Sachzusammenhängen sinnvoll zu
+    runden, wenn nicht in den Aufgabenstellungen eine spezifische
+    Rundungsweise gefordert wird. Dabei orientieren sich die Schülerinnen und
+    Schüler an den an der Schule üblichen Regeln.
+
+
+
+
+                                               3
+                      ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben                                                          Lösungen
+
+A1   Berechne.
+
+     6  3  4  18
+
+                                                                                  /1 P.
+
+A2   Zu einer Raute ABCD fehlt der Punkt C. Zeichne den Punkt C ein.
+
+
+
+
+     Das Einzeichnen der Raute wird nicht verlangt.
+     Der Punkt C muss nicht beschriftet werden.
+
+                                                                                  /1 P.
+
+A3   In einem Parallelogramm ist  = 44°. Wie groß ist der Winkel  ?
+     Kreuze an.
+
+
+
+
+     Die Abbildung ist nicht maßstabsgerecht.
+
+     ☐ 44°                        ☒ 136°                            ☐ 144°
+
+                                                                                  /1 P.
+
+
+                                               4
+                     ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A4   Aus den folgenden Kärtchen wird verdeckt eine Karte gezogen.
+     Gib die Wahrscheinlichkeit an, dass der Buchstabe „N“ gezogen wird.
+
+
+
+
+                           3      1
+     Wahrscheinlichkeit:     oder   oder 33,33%
+                           9      3
+
+     Wahrscheinlichkeit: 33 % ist keine richtige Lösung und gibt 0 Punkte.
+
+                                                                             /1 P.
+
+A5   Zeichne ein weiteres Rechteck mit demselben Flächeninhalt und anderen
+     Seitenlängen als das dargestellte Rechteck.
+
+
+
+
+     Kongruente Rechtecke werden nicht bepunktet.
+
+                                                                             /1 P.
+
+A6   Eine Hose kostet 50 €. Der Preis wird um 20 % gesenkt.
+
+     Die Hose kostet dann 40 €.
+
+                                                                             /1 P.
+
+
+
+
+                                              5
+                     ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+                1
+A7   Markiere     auf dem Zahlenstrahl.
+                5
+
+
+
+
+                                                                                          /1 P.
+
+A8   Die Darstellung zeigt ein Punktemuster.
+
+
+
+
+         Figur 1             Figur 2                  Figur 3               …   Figur 5
+
+     a) Das Muster soll fortgesetzt werden. Zeichne Figur 5.
+
+                                                                                          /1 P.
+
+     b) Gib an, aus wie vielen Punkten Figur 10 besteht: 21
+
+                                                                                          /1 P.
+
+A9   Kisten der Höhe 40 cm werden übereinander gestapelt.
+     Daneben werden Kisten der Höhe 30 cm gestapelt.
+     Gib die Höhe an, bei der die beiden Stapel erstmalig gleichhoch sind.
+
+     Höhe: 120 cm
+
+                                                                                          /1 P.
+
+
+
+
+                                              6
+                    ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A10 Maurice benutzt ein Tabellenkalkulationsprogramm, um die
+    Durchschnittstemperatur einer Woche zu ermitteln.
+
+
+
+
+    Gib eine Formel für Zelle B9 an.
+
+
+
+            MITTELWERT(B2:B8)
+
+
+      Weitere Möglichkeiten:
+      =SUMME(B2:B8)/7
+      =(B2+B3+B4+B5+B6+B7+B8)/7
+                                                                           /1 P.
+
+A11 Begründe, dass die Wahrscheinlichkeit eine weiße Kugel zu ziehen bei
+    Behälter A größer ist als bei Behälter B.
+
+
+
+
+                                                                           /1 P.
+
+
+
+                                             7
+                     ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A12 Thies geht spazieren. Dies ist im Diagramm dargestellt.
+
+
+
+
+    a) Gib an, welche Strecke Thies nach 10 Minuten zurückgelegt hat.
+
+        Ergebnis: 1 km
+                                                                            /1 P.
+
+    b) An einem anderen Tag macht Thies wieder einen Spaziergang. Er geht
+       los und macht nach 10 Minuten eine Pause von 5 Minuten. Danach geht
+       er weiter und läuft dabei schneller als zu Beginn.
+       Zeichne einen passenden Graphen.
+
+        Mögliche Lösung:
+
+
+
+
+        Durchgehend gezeichneter Graph mit folgenden Eigenschaften:
+
+        Abschnitt I: Gerade mit positiver Steigung, beginnend in (0|0)
+        Abschnitt II: Parallele zur x-Achse
+        Abschnitt III: Gerade mit größerer Steigung als in Abschnitt I
+                                                                            /1 P.
+
+
+
+
+                                              8
+                     ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+                                           km
+A13 Ein Zug fährt durchschnittlich 90         .
+                                            h
+
+     Anne behauptet: „Für eine Strecke von 300 km benötigt er 3 Stunden.“
+     Zeige, dass Annes Behauptung nicht stimmt.
+
+          km
+     90      ∙ 3 h = 270 km
+           h
+
+     Alternative:
+
+                          km
+     300 km : 3 h = 100
+                           h
+
+                                                                                        /1 P.
+
+A14 Eine Umfrage unter Jugendlichen ergab, dass 80 % den Messenger-Dienst
+    HelloThere nutzen.
+
+     Prüfe jeweils, ob die Aussage stimmt. Kreuze an.
+
+
+                                                                                     stimmt
+                                                                            stimmt
+                                                                                      nicht
+
+     4 von 5 nutzen HelloThere.                                               ☒        ☐
+
+
+     Jeder 8. nutzt HelloThere.                                               ☐        ☒
+
+     Unter 100 Jugendlichen nutzen durchschnittlich 15
+                                                                              ☐        ☒
+     HelloThere nicht.
+
+     Zwei richtige Antworten 1 Punkt, drei richtige Antworten 2 Punkte
+
+                                                                                        /2 P.
+
+
+
+
+                                              9
+                      ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+A15 Das Diagramm stellt die Anzahl der Schülerinnen und Schüler im
+    9. Jahrgang dar.
+
+
+
+
+     a) Ergänze die fehlende Anzahl der 9b in der Tabelle.
+                                                                             /1 P.
+
+     b) Ergänze die fehlende Säule im Diagramm.
+
+                                                                             /1 P.
+
+A16 Christian behauptet: „Die Kathete x ist ca. 7,4 cm lang.“
+
+
+
+
+     Begründe, warum sein Ergebnis nicht stimmen kann.
+
+     z.B.
+
+     Die Seite x kann nicht länger als die Hypotenuse mit 6,5 cm sein.
+
+     7, 4²  3,5²  6,5²
+
+                                                                             /1 P.
+
+
+
+
+                                              10
+                      ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                       Am Strand − Lösung
+(1)
+      a) gesucht: Angabe des Vierecks
+
+         Trapez
+
+                                                                                   /1 P.
+
+      b) gesucht: Hilfslinie (muss den Eckpunkt C treffen)
+
+
+
+
+                                                C
+
+
+
+
+                                                                                   /1 P.
+
+      c) gesucht: Bestätigung der Länge der Hypotenuse
+
+         Ansatz: Pythagoras                                                  (1)
+
+         x²=(150 – 20)² + 400²                                               (1)
+         x ≈ 420
+
+                                                                                   /2 P.
+
+      d) gesucht: Überprüfung der Länge des Kurses von 1 km
+
+         Ansatz: Umfangsberechnung am Trapez
+
+         u = 400 + 150 + 20 + 420 = 990                                      (1)
+
+         Kaya hat richtig geschätzt.                                         (1)
+
+                                                                                   /2 P.
+
+
+
+
+                                              11
+                       ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+(2) Numi hat ca. fünfzig 2-Liter-Eimer verbaut, Xaver hat ca. achtzig 5-Liter-
+    Eimer verbaut.
+
+   a) gesucht: Gesamtvolumen der Sandburg in Litern.
+
+       Ansatz: Termberechnung                                                 (1)
+
+       V  2  50  5  80
+       V  500                                                                (1)
+
+       Es wurden ca. 500 l Sand verbaut.
+
+                                                                                    /2 P.
+
+   b) gesucht: Bedeutung der Variablen a und b
+
+          a steht für die Anzahl der 2-Liter-Eimer                            (1)
+          b steht für die Anzahl der 5-Liter-Eimer                            (1)
+
+                                                                                    /2 P.
+
+   c) gesucht: Beschreibung eines Lösungsweges für die Schätzung
+
+       z.B. Zählen einer Schicht und der Anzahl der Schichten, Nutzung eines
+       kleineren Gefäßes, Ausschütten und Anordnung in einer Ebene
+
+       Korrekt gewertet werden alle sinnvollen Vorgehensweisen, alle Muscheln
+       zu zählen gilt nicht als Schätzung.
+
+                                                                                    /1 P.
+
+   d) gesucht: Wahrscheinlichkeit zu verlieren
+
+       2
+         oder 2 zu 1
+       3
+
+                                                                                    /1 P.
+
+
+
+
+                                               12
+                    ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1:                                                                  Strand
+
+
+(3) gegeben: 1000 Strandkörbe als Rechteck angeordnet, so dass je 125
+    nebeneinander und je 8 hintereinander stehen.
+
+    a) gesucht: zwei weitere Möglichkeiten der Anordnung
+
+        z.B. 20 und 50, 10 und 100
+
+                                                                                    /2 P
+
+    b) gesucht: Entscheidung, ob Xaver recht hat
+
+        Ansatz: Berechnung unter Beachtung des Distributivgesetzes
+
+        z.B. 130∙13 = 1690                                                 (1)
+
+        Xaver hat nicht recht.                                             (1)
+
+        Nachvollziehbare argumentative Begründungen werden voll bepunktet.
+
+                                                                                    /2 P.
+
+(4) gesucht: eine Aufbruchs- und passende Abfahrtzeit
+
+
+
+    a) z.B. 17:43 Uhr
+
+                                                                                    /1 P.
+
+    b) Dafür müssen sie spätestens 17:35 Uhr aufbrechen.
+
+
+
+                                                                                    /1 P.
+
+
+
+
+                                            13
+                       ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+B2: Komplexaufgabe                               Influencerin - Lösungen
+
+(1)
+      a) gesucht: Verdienst für 1,5 Millionen Views
+
+
+
+                                                                              (1)
+
+         Die Influencerin verdient mit 1,5 Millionen Views 1 875 €.
+
+                                                                                    /1 P.
+
+      b) gesucht: Anzahl der Views für 44 100 €
+
+         Ansatz: Dreisatz                                                     (1)
+
+          Anzahl der Views       Verdienst [€]
+
+          1 000                  1,25
+
+          800                    1
+
+          35 280 000             44 100
+
+                                                                              (1)
+
+         Alternative Berechnungen, die zum Ergebnis 35 280 000 führen,
+         sind ebenfalls zu bepunkten.
+
+         Eine Influencerin benötigt im Jahr 35,28 Millionen Views, um 44 100 € zu
+         verdienen.
+
+                                                                                    /2 P.
+
+
+
+
+                                               14
+                      ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+(2)
+      a) gesucht: Darstellung des linearen Wachstums
+
+
+
+
+         Die Verbindung der Säulen mit einer Geraden                         (1)
+         und der Verweis auf die gleichbleibende Steigung                    (1)
+        Die Berechnung der Steigungen in den drei Abschnitten über die Punkte
+        und der Vergleich der Steigungen sowie die Erkenntnis, dass die Steigung
+        in allen Abschnitten gleichgeblieben ist, ist ebenfalls voll zu bepunkten.
+
+                                                                                   /2 P.
+
+      b) gesucht: Fehlende Säule und fehlender Wert für 2024
+
+
+
+
+         Je einen Punkt gibt es für die fehlende Säule und den fehlenden Wert.
+
+                                                                                   /2 P.
+
+
+                                              15
+                    ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+    c) gesucht: Zeitpunkt, an dem 12 Millionen Views erreicht werden
+
+       Ansatz: Aufstellen und berechnen eines Terms
+
+                                                                           (1)
+
+                                                                           (1)
+
+       Im Jahr 2027 werden 12 Millionen Views erreicht.                    (1)
+
+       Ansätze, bei denen das Jahr durch Vorwärtsrechnen über den linearen
+       Zusammenhang und die Darstellung in b) ermittelt werden, sind ebenso
+       voll zu bepunkten.
+
+                                                                                 /3 P.
+
+(3) gesucht: Gesamteinnahmen in 2023
+
+    Ansatz: Anteilsberechnung                                              (1)
+
+
+
+
+    G = 150 000                                                            (1)
+
+    Die Influencerin verdient im Jahr 2023 insgesamt 150 000 €
+
+    Alternative Ansätze, z.B. Berechnungen mithilfe eines Dreisatzes, die
+    zum gesuchten Ergebnis führen, sind ebenso zu bepunkten.
+
+                                                                                 /2 P.
+
+
+
+
+                                            16
+                      ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+ Wahlteil zu B2
+ Du musst einen der beiden Wahlteile bearbeiten.
+(4)
+      a) gesucht: Das Feld, welches zu den Ausgaben für den Internetanschluss
+                  passt
+         Feld 1
+                                                                         /1 P.
+
+      b) gesucht: Begründung für die korrekte Darstellung des Sachverhalts
+                  durch das Diagramm
+
+         z.B. Alle Sektoren sind unterschiedlich groß.
+         Der Sektor 2 ist so groß wie die Sektoren 3 und 4 zusammen.          (1)
+         Der Sektor 1 nimmt ein Viertel (25%) der Kreisfläche ein.            (1)
+
+
+
+                                                                                   /2 P.
+
+
+
+(5) gesucht: Anteil der Influencerinnen und Influencer, die nicht von ihren
+             Einnahmen leben konnten.
+
+      Ansatz: Anteilsberechnung                                              (1)
+
+      70000  2500  67500                                                   (1)
+
+      67500
+             100  p%
+      70000
+      p%  96, 4                                                             (1)
+
+      Etwa 96 % der Influencerinnen und Influencer konnten nicht von ihren
+      Einnahmen leben.
+
+                                                                                   /3 P.
+
+
+
+
+                                              17
+                    ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte   Prozente           Erster allgemeinbildender
+                            Schulabschluss (Note)
+45-50    ≥90                     1
+38-44    ≥75                     2
+30-37    ≥60                     3
+23-29    ≥45                     4
+11-22    ≥22                     5
+ 0-10    <22                     6
+
+
+
+
+                                            18
+ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+                        19
+ESA Mathematik Korrekturanweisung 2025 (c) MBWFK S-H
+
+
+
+
+                        20
+

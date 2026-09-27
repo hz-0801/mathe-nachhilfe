@@ -1,0 +1,4482 @@
+QUELLE: Hamburg, Mittlerer Schulabschluss – Mathematik, Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben (BSFB, Hamburg, Februar 2026; überarbeitete Aufgaben aus ehemaligen Prüfungen) – Lösungen und Bewertungshinweise
+ADRESSE: https://www.hamburg.de/resource/blob/119990/ad0ed4c7a085a9ba05fd91624d587127/mathematik-loesungen-hinweise-und-beispiele-zu-zentralen-pruefungsaufgaben-msa-data.pdf
+ABRUF: 2026-09-27
+SEITEN: 84
+LIZENZVERMERK: Alle Rechte vorbehalten.
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Mittlerer Schulabschluss – Mathematik
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+ Schriftliche Prüfung zum
+ mittleren Schulabschluss
+
+
+                  Mathematik
+
+    Lösungen zu den zentralen
+schriftlichen Prüfungsaufgaben
+Mittlerer Schulabschluss Mathematik             Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+Impressum
+
+
+
+Herausgeber:
+Freie und Hansestadt Hamburg
+Behörde für Schule, Familie und Berufsbildung
+Hamburger Straße 31, 22083 Hamburg
+
+
+
+Referatsleitung Mathematisch-naturwissenschaftlich-technischer Unterricht:
+
+Dr. Najibulla Karim
+
+
+Fachreferentin Mathematik für Stadtteilschulen:
+
+Anna Catharina Serck
+
+
+
+
+Redaktion:
+
+Jirko Michalski
+Lis Nielsen
+Carsten Reich
+Anna Catharina Serck
+Christine Töllner
+
+
+Vorwort und Schlussredaktion:
+
+Dr. Najibulla Karim
+Anna Catharina Serck
+
+
+Alle Rechte vorbehalten.
+
+Internet: http://www.hamburg.de/abschlusspruefungen
+
+Hamburg, Februar 2026
+
+
+
+   2
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                  Mittlerer Schulabschluss Mathematik
+
+
+
+
+Inhaltsverzeichnis
+
+
+1. Vorwort ............................................................................................ 4
+2. Lösungen zu den Aufgaben ohne Einsatz des Taschenrechners
+    2.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen ................ 5
+    2.2 Beispiele zu den zentralen Prüfungsaufgaben .................................. 19
+3. Lösungen zu den komplexen Aufgaben mit Einsatz des Taschenrechners
+    3.1 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen ....... 37
+    3.2 Aufgaben zur Leitidee funktionaler Zusammenhang .......................... 53
+    3.3 Aufgaben zur Leitidee Daten und Zufall ........................................... 70
+
+
+
+
+                                                                                                            3
+Mittlerer Schulabschluss Mathematik             Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+1. Vorwort
+Sehr geehrte Kolleginnen und Kollegen,
+
+die vorliegende Handreichung versteht sich als Ergänzung zu den Regelungen für die zentralen
+schriftlichen Prüfungsaufgaben und enthält Lösungen und Bewertungshinweise zu den
+Übungsaufgaben sowie Beispielen zur Vorbereitung auf die zentralen schriftlichen
+Abschlussprüfungen zum Erwerb des mittleren Schulabschlusses (MSA) im Fach Mathematik.
+Die Aufgaben dieser Handreichung basieren auf überarbeiteten Aufgaben aus ehemaligen
+Prüfungen.
+Vor dem Hintergrund der veränderten Rahmenbedingungen der schriftlichen MSA-Prüfung,
+insbesondere der Anpassung der Aufgabenstruktur und der Gewichtung der
+Aufgabenbereiche, wurde die Handreichung überprüft und inhaltlich weiterentwickelt. Ziel ist
+es, Lehrkräften sowie Schülerinnen und Schülern eine verlässliche Orientierung und eine
+gezielte Vorbereitung auf die aktuellen Prüfungsanforderungen zu ermöglichen.
+Die Aufgabenstellungen berücksichtigen den Rahmenplan Mathematik für die Stadtteilschule
+sowie die in den Bildungsstandards der Kultusministerkonferenz für den mittleren
+Schulabschluss formulierten zentralen Ideen (Leitideen) und Anforderungen.
+
+    •   Für den hilfsmittelfreien Teil stehen den Prüflingen mehrere Aufgabensätze zur
+        Verfügung, die in Umfang, Aufbau und Anforderungsniveau an das aktuelle
+        Prüfungsformat angepasst sind. Dieser Aufgabenteil ist für alle Prüflinge verpflichtend.
+    •   Im hilfsmittelgestützten Teil ist die Aufgabe zur Leitidee „Messen sowie Raum und
+        Form“ als Pflichtaufgabe vorgesehen und wird mit 25 Bewertungseinheiten gewichtet.
+    •   Zusätzlich beinhaltet die Prüfung eine Wahlaufgabe, bei der die Prüflinge zwischen
+        einer Aufgabe zur Leitidee „Funktionaler Zusammenhang“ und einer Aufgabe zur
+        Leitidee „Daten und Zufall“ wählen. Beide Aufgaben sind jeweils mit 20
+        Bewertungseinheiten gewichtet. Die Aufgaben im hilfsmittelgestützten Teil sind nach
+        Leitideen geordnet, berücksichtigen die aktuellen Schwerpunktsetzungen und sind
+        hinsichtlich Textumfang und Komplexität an die zeitlichen Rahmenbedingungen der
+        Prüfung angepasst.
+    •   Für die Schülerinnen und Schüler wurde eine Übersichtsseite aufgenommen, auf der
+        dokumentiert werden kann, welche Aufgaben wann und mit welchem Erfolg bearbeitet
+        wurden. Darüber hinaus enthält die Handreichung eine Übersicht über die in den
+        Aufgaben verwendeten verbindlichen Arbeitsaufträge (Operatoren).
+
+In der Hoffnung, dass die vorliegende Handreichung Sie bei Ihrer Unterrichtsarbeit sowie bei
+der Vorbereitung Ihrer Schülerinnen und Schüler auf die schriftliche Abschlussprüfung
+unterstützt, wünschen wir Ihnen und Ihren Schülerinnen und Schülern viel Erfolg.
+
+Um die weitere Qualitätsentwicklung der Prüfungsaufgaben sind wir ständig bemüht, gern
+nehmen wir daher Ihre Rückmeldungen entgegen.
+
+
+Anna Catharina Serck                       Dr. Najibulla Karim
+Fachreferentin Mathematik                  Referatsleiter
+Stadtteilschulen                           MINT-Referat
+
+
+
+
+   4
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben             Mittlerer Schulabschluss Mathematik
+
+
+
+
+2. Lösungen zu den Aufgaben ohne Einsatz des
+   Taschenrechners
+2.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen
+
+Leitidee „Zahl“ (Teil 1)
+                                                                                        Zuordnung,
+                          Lösung: Leitidee „Zahl“ (Teil 1)                              Bewertung
+
+      Aufgabe                                              Lösung   Buchstabe       I      II        III
+
+1.    33 ⋅ (−99) =                                         −3 267       A           1
+
+2.    (−231) : (−3) =                                       77          C           1
+
+3.    (−3) + (−9) =                                         −12         A           1
+
+4.    7 ⋅ 68 − 7 ⋅ 58 =                                     70          A           1
+
+5.    6 − 4 : (7 − 3) =                                      5          C           1
+
+6.    12,755 auf Hundertstel gerundet ist                  12,76        C           1
+
+7.    Die kleinste Zahl ist                                     1
+                                                                        D                   1
+                                                                8
+
+8.    Die größte Zahl ist                                  −0, 69       A                   1
+
+9.    Genau in der Mitte von − 3 und +2
+                                                            −0,5        B                   1
+      liegt
+
+10.
+                                                            7,8         C           1
+      Der Pfeil markiert den Wert
+
+11. Wie groß ist die Differenz von                          13
+     7      3                                                           D           1
+        und    ?                                            40
+    10      8
+
+12. 4 : 8 =                                                 1
+                                                                1
+                                                                        D           1
+    7 21                                                        2
+
+13. 1 =                                                     0, 1        D           1
+    9
+
+14. 1 − 0, 05 =                                            0,075        A                   1
+    8
+
+15. a ⋅ 1 ⋅ 2 ⋅ b =                                          1          C                            1
+    2 b a
+
+
+
+
+                                                                                                           5
+Mittlerer Schulabschluss Mathematik             Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee „Zahl“ (Teil 2)
+
+                                                                                        Zuordnung,
+                          Lösung: Leitidee „Zahl“ (Teil 2)                              Bewertung
+
+       Aufgabe                                     Lösung          Buchstabe        I      II        III
+
+1.     Welche graue Fläche entspricht dem                               C           1
+       Anteil von 60 %?
+
+2.     9 von 30 Kindern haben kein Handy.
+                                                    30 %                D           1
+       Das sind
+
+3.     Das Kleid kostet 18 €. Die Kundin
+       bekommt 20 % Rabatt. Das Kleid              14,40 €              A                   1
+       kostet jetzt
+
+4.     In einer 10. Klasse sind 3 Schüler
+       18 Jahre alt. Das sind 12 % der           25 Schüler             D                   1
+       Schüler. Die Klasse hat also
+
+5.     Lena hat 480 € auf ihrem Konto. Wie
+       hoch ist ihr Guthaben nach einem           487,20 €              B                   1
+       Jahr bei einem Zinssatz von 1,5 % ?
+
+6.     Bei einem jährlichen Zinssatz von 2 %
+       ist ein Kapital von 1 000 € nach zwei     1 040,40 €             C                   1
+       Jahren angewachsen auf
+
+7.     Joy überzieht ihr Konto 3 Monate mit
+       500 €. Wie viel muss sie bei einem
+                                                  512,50 €              B                   1
+       jährlichen Zinsatz von 10 % zurück
+       zahlen?
+
+8.     10 −4 =                                     0,0001               A                   1
+
+9.     0,064 =                                       0, 43              C           1
+
+10. 23 ⋅ 22 =                                         25                A           1
+
+11.     8 liegt zwischen                         2,5 und 3              C                   1
+
+12.         25
+                =                                    0,2                A                   1
+            625
+
+13.     3⋅ 3 =                                        3                 B                   1
+
+14.          2
+       ( 8) =
+        3
+                                                      4                 B                   1
+
+
+15.                                             nicht lösbar
+        −4 =                                                            D                            1
+                                                   (in ℝ )
+
+
+
+
+   6
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben               Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee „Messen“
+                                                                                          Zuordnung,
+                             Lösung Leitidee „Messen“                                     Bewertung
+
+      Aufgabe                                              Lösung     Buchstabe       I      II        III
+
+1.    Die Breite eines Zeigefingers eines
+                                                           0,01 m         C           1
+      Erwachsenen beträgt etwa
+
+2.    Der Winkel α hat eine Größe von
+      etwa
+                                                            335°          D           1
+
+
+
+
+3.    Die (Innen-)Winkelsumme eines
+                                                            360°          C           1
+      Drachens beträgt
+
+4.    α = 40°
+      β=                                                     70°          A           1
+
+
+
+5.    In diesem Dreieck gilt:
+
+
+                                                       v = w 2 − u2       B                   1
+
+
+
+
+6.    Ein Dreieck mit einer Höhe von 6 cm
+      und einer Grundseite von 8 cm hat                    a = 3 cm
+      den gleichen Flächeninhalt wie ein                                  D           1
+                                                           b = 8 cm
+      Rechteck mit den Seiten
+
+7.    Der Umfang der Figur beträgt
+
+
+                                                            2⋅ π cm       C                   1
+
+
+
+
+8.    Ein Prisma hat eine Grundfläche von
+      7 cm2 und eine Höhe von 4 cm. Das                    28 cm3         A           1
+      Volumen beträgt
+
+9.    Ein Quader mit einem                                 a = 4 cm
+      Oberflächeninhalt von 40 cm2 hat die                 b = 2 cm       C                   1
+      Kantenlängen
+                                                           c = 2 cm
+
+10. Ein Rechteck mit ganzzahligen
+    Seitenlängen hat einen Umfang von                      14 cm2         A                   1
+    24 cm. Der Flächeninhalt ist niemals
+
+11. Bestimme den Umfang der Figur.                          18 cm         D                            1
+
+
+                                                                                                             7
+Mittlerer Schulabschluss Mathematik             Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                        Zuordnung,
+                               Lösung Leitidee „Messen“                                 Bewertung
+
+       Aufgabe                                     Lösung          Buchstabe        I      II        III
+
+
+
+
+       nicht maßstabsgerecht
+
+
+12. In diesem Dreieck gilt:
+
+
+                                                            b
+                                                  tan β =               B                   1
+                                                            c
+
+
+
+
+13. In einem rechtwinkligen Dreieck ABC           b ist die
+    mit γ = 90° gilt nicht                       Hypotenuse             C                   1
+                                                    zu γ
+
+
+14. Die Größe des Winkels α wird bei der
+    Taschenrechnereingabe angezeigt mit
+
+                                                 sin−1 (0,25)           A                            1
+
+
+
+       nicht maßstabsgerecht
+
+
+15. In folgendem Dreieck gilt:
+
+                                                   d       e
+                                                       =                C                            1
+                                                 sin β   sin γ
+
+
+
+
+   8
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                  Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee „Raum und Form“
+                                                                                             Zuordnung,
+                        Lösung Leitidee „Raum und Form“                                      Bewertung
+
+      Aufgabe                                               Lösung       Buchstabe       I      II        III
+
+1.    Ein gestreckter Winkel hat die Größe                   180°            B           1
+
+2.    Welche Abbildung zeigt einen
+      stumpfen Winkel?
+                                                                             A           1
+
+
+
+3.    Dies ist kein
+
+                                                           Quadrat           C           1
+
+
+
+
+4.    Folgender Körper ist ein Prisma                       Würfel           C           1
+
+5.    Die Oberfläche eines Dreiecksprismas             2 Dreiecken
+      besteht aus                                          und               A                   1
+                                                      3 Rechtecken
+
+6.    Der Mantel eines Zylinders hat die
+                                                           Rechtecks         C           1
+      Form eines
+
+7.    Dieser zusammengesetzte Körper hat
+      folgende Teilflächen:
+
+                                                       2 Halbkugeln
+                                                              und            D                   1
+                                                           1 Kreisring
+
+
+
+
+8.    Zu dem Körper passt folgendes Netz:
+
+
+
+                                                                             B                   1
+
+
+
+
+                                                                                                                9
+Mittlerer Schulabschluss Mathematik          Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                     Zuordnung,
+                        Lösung Leitidee „Raum und Form“                              Bewertung
+
+      Aufgabe                                   Lösung          Buchstabe        I      II        III
+
+9.    Mit welchem der angegebenen Punkte
+      lässt sich das gleichschenklige
+      Trapez ABCD zeichnen
+
+
+                                                D (4 1)              A                   1
+
+
+
+
+10. Der Punkt A (2 4) wird um 3 Einheiten
+      nach links auf der x-Achse               A' (−1 4)             D                   1
+      verschoben. Er hat nun folgende
+      Koordinaten
+
+11. Der Punkt C (5 −2) wird an der
+                                             C' (−5 − 2)             B                            1
+      y-Achse gespiegelt.
+      Seine Koordinaten lauten dann
+
+12. Ein gleichseitiges Dreieck besitzt              3                C                   1
+    __ Symmetrieachsen
+
+13. In folgendem Viereck liegt keine           Drachen               B                   1
+    Punktsymmetrie vor
+
+14. Werden bei einem Dreieck die              vierfach so
+    Grundseite und die Höhe verdoppelt,                              D                   1
+                                                 groß
+    so ist der neue Flächeninhalt
+
+15. Das Volumen einer Kugel berechnet
+                4
+    sich mit V = π ⋅ r 3 .
+                3                             4             3
+                                                π ⋅ (2 ⋅ r )         C                            1
+    Der Radius wird verdoppelt. Mit           3
+    welchem Term lässt sich das Volumen
+    bestimmen?
+
+
+
+
+   10
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                Mittlerer Schulabschluss Mathematik
+
+
+
+Leitidee „Funktionaler Zusammenhang“ (Teil 1)
+                                                                                           Zuordnung,
+         Lösung: Leitidee „Funktionaler Zusammenhang“ (Teil 1)                             Bewertung
+
+      Aufgabe                                               Lösung     Buchstabe       I      II        III
+
+1.    Ein proportionaler Zusammenhang
+      wird beschrieben durch die Funktions-                   2x           C                   1
+      gleichung f ( x ) =
+
+
+2.                             2
+      Zur Funktion f ( x ) =     x + 1 passt der
+                               5
+                                                                           A                   1
+      Graph
+
+
+3.    Eine Gerade hat als Graph die
+                                                            2x + 1         C                   1
+      Funktionsgleichung f ( x ) =
+
+
+4.    Auf der Geraden g mit der Funktions-
+      gleichung g ( x ) = 2x − 3                           P (1| −1)       B                   1
+      liegt der Punkt
+
+5.    Welcher Graph stellt keine Funktion
+      dar?
+                                                                           C           1
+
+
+
+
+6.    Für das Füllen eines Beckens
+      brauchen 2 gleichstarke Pumpen
+                                                           1,6 Std.        B                   1
+      4 Std. Dann brauchen 5 gleichstarke
+      Pumpen für das Füllen dieses Beckens
+
+7.    Zwei Tickets kosten 46 €. Dann
+      kosten drei Tickets                                    69 €          B           1
+
+
+8.    Welche Gerade hat die größte                         12
+                                                              x − 16       A                   1
+      Steigung? f ( x ) =                                  13
+
+9.    In der Tabelle ist eine antipropor-
+      tionale Zuordnung dargestellt.
+      Die fehlende Länge beträgt
+
+              Anzahl              Länge (m)                  0,20          A           1
+                5                     0,60
+                15
+
+
+10.
+
+                                                              4
+                                                                           B                   1
+                                                              3
+
+
+      Die Gerade hat eine Steigung von
+
+
+
+                                                                                                              11
+Mittlerer Schulabschluss Mathematik           Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                      Zuordnung,
+           Lösung: Leitidee „Funktionaler Zusammenhang“ (Teil 1)                      Bewertung
+
+      Aufgabe                                    Lösung          Buchstabe        I      II        III
+
+11. Eine proportionale Zuordnung hat die            ax                B                   1
+    allgemeine Form
+
+12. Welche der Geraden g1 , g2 , g3 , g4
+      schneidet die Gerade f ( x ) = 3x − 4   g2 ( x) = 2x − 2        B                   1
+      bei x = 2 ?
+
+13. a − c =                                      ad − cb
+                                                                      A                            1
+    b d                                            bd
+
+14. x 5 ⋅ x 3 ⋅ x 4 =                               x 12              B                            1
+
+      b
+15. 3                                               1
+        =                                                             A                            1
+    32b
+                                                    3b
+
+
+
+Leitidee „Funktionaler Zusammenhang“ (Teil 2)
+                                                                                      Zuordnung,
+           Lösung: Leitidee „Funktionaler Zusammenhang“ (Teil 2)                      Bewertung
+
+      Aufgabe                                    Lösung          Buchstabe        I      II        III
+
+1.    Welche Funktionsgleichung stellt eine
+      nach oben geöffnete und gestauchte           1 2
+      Parabel dar?                                   x                A           1
+                                                   3
+        f ( x) =
+
+
+2.    Auf der Parabel mit der Funktions-
+      gleichung
+              1                                  P (2 | 4)            B           1
+       f (x) = x2 + 2
+              2
+      liegt der Punkt
+
+3.    Die Parabel mit der Funktions-
+                                                 hat ihre
+      gleichung
+                                              Nullstellen bei         D                   1
+        f ( x ) = x² − 1                       +1 und –1
+
+
+4.    Die Parabel mit der Funktions-          ihren Scheitel-
+      gleichung f ( x ) = x 2 − 2 hat            punkt in             B                   1
+                                                  S (0 − 2)
+
+
+5.    Die Parabel mit der Funktions-          ihre Nullstelle
+                                  2                                   B                   1
+      gleichung f ( x) = ( x − 3) hat           bei x = 3
+
+
+6.    Das Gleichungssystem                     hat unendlich
+      I. 2x + 6y = 8                                viele             D                            1
+        II. x + 3y = 4                           Lösungen
+
+
+
+   12
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                      Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                                 Zuordnung,
+            Lösung: Leitidee „Funktionaler Zusammenhang“ (Teil 2)                                Bewertung
+
+      Aufgabe                                                Lösung          Buchstabe       I      II        III
+
+7.    Das Gleichungssystem
+       I. 3x + 4y = 12                                       x =8
+      II. 2 x + 4y = 4                                       y = −3              B                            1
+      hat die Lösung
+
+8.    (3x − 5)( x + 4) =                                   3x 2 + 7x − 20        C                   1
+
+9.    Folgende Funktion hat keine
+      Nullstellen: f ( x ) =                                  x2 + 1             B                   1
+
+
+10.
+
+
+
+                                                                     2
+                                                           ( x − 0) + 1          B                   1
+
+
+      Der Graph passt zur Funktions-
+      gleichung f ( x ) =
+
+
+11. Eine Parabel mit der Gleichung
+    f ( x ) = x 2 wird um 3 Einheiten auf der
+                                                                         2
+      x-Achse nach rechts verschoben.                        ( x − 3)            D                   1
+      Der neue Funktionsterm ist dann
+      f ' ( x) =
+
+
+12. x1 = −4; x2 = 4
+                                                             x 2 − 16            C                   1
+      ist die Lösung der Gleichung 0 =
+
+13. Eine Parabel der Form f ( x ) = ax 2 + b             achsen-
+                                                       symmetrisch               B                            1
+      ist                                              zur y-Achse
+
+14. p % = 5 %
+                                                               1,05              C                   1
+      Somit beträgt die Wachstumsrate a =
+
+15. Die Anzahl von Bakterien eines
+    bestimmten Bakteriums verdoppelt
+    sich alle 60 Minuten. Anfangs wird
+    eine Bakterie auf eine Nährlösung                            7               D                            1
+    gegeben. Nach wie vielen vollen
+    Stunden hat man mehr als 100
+    Bakterien?
+
+
+
+
+                                                                                                                    13
+Mittlerer Schulabschluss Mathematik             Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee „Daten und Zufall“ (Teil 1)
+                                                                                        Zuordnung,
+                 Lösung: Leitidee „Daten und Zufall“ (Teil 1)                           Bewertung
+
+      Aufgabe                                      Lösung          Buchstabe        I      II        III
+
+1.    Folgendem Diagramm entnimmt man,
+      dass
+
+                                                4 Kinder Milch
+                                                   trinken              D           1
+
+
+
+
+2.    20 % der Schüler einer Klasse haben
+      ein einfaches Handy, 60 % haben ein
+      Smartphone und der Rest besitzt                                   C                   1
+      keines von beiden. Zu dieser
+      Verteilung passt folgendes Diagramm
+
+3.    Dieses Diagramm ist ein                      Streifen-
+                                                  diagramm              C           1
+
+
+4.     1
+         der Schüler einer Klasse wählen
+       5
+                                3
+      Pizza zum Mittagessen,      wählen
+                               10                                       B                   1
+      Döner und der Rest entscheidet sich
+      für Spaghetti. Zu dieser Verteilung
+      passt folgendes Diagramm
+
+5.    Welches Diagramm passt zu folgender
+      Tabelle:
+       Klasse    Siege
+                                                                        A           1
+         9a        3
+         9b        2
+         9c        5
+
+6.    20 Schüler eines Jahrgangs spielen          absolute
+      gerne Handball. Das ist eine              Häufigkeit von          B           1
+                                                      20
+
+7.    17 von 51 Kindern trinken gerne                  1
+      Kakao. Das entspricht einer relativen                             C                   1
+                                                       3
+      Häufigkeit von
+
+8.
+         Farbe       Kinder      Der Tabelle
+                                 kann man die
+           rot                   folgende           eine
+                                 Information     Spannweite             D           1
+          blau                   entnehmen         von 4
+
+          weiß
+
+
+
+   14
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                 Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                            Zuordnung,
+                 Lösung: Leitidee „Daten und Zufall“ (Teil 1)                               Bewertung
+
+      Aufgabe                                               Lösung      Buchstabe       I      II        III
+
+9.    Ayse hat folgende Noten:
+      Mathe: 1
+                                                            1+3+2
+      Englisch: 3                                                           C                   1
+                                                              3
+      Deutsch: 2
+      Der Mittelwert wird berechnet mit
+
+10. Den Unterschied zwischen größter
+    und kleinster Zahl einer Umfrage                       Spannweite       D           1
+    nennt man
+
+11. Familie Gür hat folgende
+    Schuhgrößen:
+                                                              38,5          C                   1
+      23, 36, 38, 39, 41 und 45
+      Der Zentralwert ist
+
+12.
+
+                                                            Balken-
+                                                           diagramm         A           1
+
+
+      Dieses Diagramm ist ein
+
+13. Ein Notendurchschnitt von 3 passt zu                      1: 1
+    folgender Verteilung                                      2: 2
+                                                              3: 3          A                   1
+                                                              4: 2
+                                                              5: 1
+
+14. 30 Schüler wurden befragt, wie viel
+    Zeit sie für Hausaufgaben pro Woche
+    aufwenden:
+
+        Stunden      Schüler
+            1            5
+                                                              2,5           B                   1
+            2           10
+            3           10
+            4            5
+
+      Im Durchschnitt macht jeder Schüler
+      ___ Stunden Hausaufgaben.
+
+15. Emil berichtet: „Ich habe von
+    Hamburg nach München (etwa 800
+    km) 6,5 Stunden gebraucht.“ Er fuhr                    120 km/h         B                   1
+    mit einer durchschnittlichen
+    Geschwindigkeit von
+
+
+
+
+                                                                                                               15
+Mittlerer Schulabschluss Mathematik           Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Leitidee „Daten und Zufall“ (Teil 2) – Erwartungshorizont
+                                                                                      Zuordnung,
+                 Lösung: Leitidee „Daten und Zufall“ (Teil 2)                         Bewertung
+
+      Aufgabe                                    Lösung          Buchstabe        I      II        III
+
+1.
+
+
+
+                                                     1
+                                                                      C           1
+                                                     4
+
+
+      Die Wahrscheinlichkeit dafür, als
+      Ergebnis eine 4 zu erhalten, beträgt
+
+2.    Die Wahrscheinlichkeit dafür, mit
+      einem normalen Spielwürfel zweimal              1
+      hinter-einander eine 3 zu würfeln,                              D           1
+                                                     36
+      beträgt
+
+3.                                               2 mal
+                                               hinterein-
+                                               ander ein
+                                              Glücksrad
+                                              mit 4 gleich
+                                                großen                D                   1
+                                                Feldern
+                                                drehen
+                                               (1 rotes,
+      Zu dem Baumdiagramm                       3 blaue
+      passt das Zufallsereignis                 Felder)
+
+
+4.    Die Wahrscheinlichkeit dafür, bei
+      einem Wurf mit zwei normalen                   1 5
+                                                2⋅    ⋅               C                            1
+      Spielwürfeln genau eine 6 zu würfeln,          6 6
+      lässt sich berechnen durch
+
+5.    In zwei Würfen eine 6 mit einem
+      normalen Spielwürfel zu würfeln,
+      passt zu folgendem Baumdiagramm
+      mit gerundeten Wahrscheinlichkeiten                             A                   1
+
+
+
+
+6.    Die Wahrscheinlichkeit dafür, mit
+      einer Münze zweimal hintereinander
+                                                  50 %                C           1
+      das gleiche Ergebnis zu werfen,
+      beträgt
+                                              Das Würfeln
+7.    Welches Ereignis hat immer eine
+                                                 einer
+      Wahrscheinlichkeit von 50 %?
+                                               geraden                B           1
+                                               Zahl mit
+                                                einem
+
+
+
+   16
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                     Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                                Zuordnung,
+                 Lösung: Leitidee „Daten und Zufall“ (Teil 2)                                   Bewertung
+
+      Aufgabe                                               Lösung          Buchstabe       I      II        III
+                                                        normalen
+                                                       Spielwürfel.
+
+8.    Ein Würfel mit
+      diesem Netz
+                                                                    1
+                                                            P (1) =
+                                                                    3
+                                                                    1
+                                                            P (2) =             A           1
+                                                                    2
+                                                                    1
+                                                            P (3) =
+                                                                    6
+
+      hat die Wahrscheinlichkeiten
+
+9.    Vier Plättchen befinden sich in einem
+      Beutel. Darauf stehen die Buchstaben
+      A, M, M und A. Es wird ohne                                1
+      Zurücklegen gezogen. Wie groß ist die                                     B                            1
+                                                                 6
+      Wahrscheinlichkeit dafür, dass in der
+      gezogenen Reihenfolge das Wort
+      „MAMA“ gebildet wird?
+
+10. Hendrik wirft eine Münze und einen
+    normalen Spielwürfel. Die                                    1
+    Wahrscheinlichkeit für                                                      A                   1
+                                                                 4
+    P (Kopf;gerade Zahl) beträgt
+
+
+11. Jens hat die letzte Ziffer seiner PIN
+    für sein Handy vergessen. Die                               72
+    Wahrscheinlichkeit dafür, dass er                                           C                   1
+                                                                90
+    zweimal falsch rät, beträgt
+
+12. Die Wahrscheinlichkeit dafür, bei
+    einmaligem Würfeln mit einem                                 1
+    normalen Spielwürfel keine Augenzahl                                        C                            1
+                                                                 3
+    kleiner als 5 zu bekommen, beträgt
+
+13. 19-mal ist mit einem normalen
+    Spielwürfel keine 6 gewürfelt worden.                       1
+    Die Wahrscheinlichkeit dafür, dass                                          C           1
+                                                                6
+    beim 20. Wurf eine 6 fällt, beträgt
+
+14. In einem Beutel befinden sich 3 grüne
+    und 4 blaue Kugeln. Zwei Kugeln
+    werden zusammen mit einem Griff                          3 4 
+                                                             ⋅  ⋅ 2          A
+    gezogen. Die Wahrscheinlichkeit                           7 6                                        1
+    dafür, eine grüne und eine blaue in
+    der Hand zu haben, beträgt
+
+15. Eine Münze wird dreimal geworfen.                            1 3
+    Die Wahrscheinlichkeit für mindestens                  1 −   ⋅ 2       D                            1
+                                                                2 
+    einmal „Wappen“ und „Zahl“ beträgt
+
+
+
+
+                                                                                                                   17
+Mittlerer Schulabschluss Mathematik              Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+2.2 Beispiele zu den zentralen Prüfungsaufgaben
+Erstes Beispiel zum hilfsmittelfreien Prüfungsteil – Erwartungshorizont
+
+                                                                                         Zuordnung,
+          Lösung: Erstes Beispiel zum hilfsmittelfreien Prüfungsteil                     Bewertung
+
+
+ 1.     Aufgabe                                     Lösung          Buchstabe        I      II        III
+
+ a)     239 ⋅ 3 =                                      717               C           1
+
+ b)     7, 2 ⋅ 1 000 : 10 =                            720               B           1
+
+ c)     242 − 42 ⋅ 2 + 32 =                            190               D           1
+
+ d)     2
+          m=                                         40 cm               B           1
+        5
+
+ e)     − 44 − 44 =                                   − 88               A           1
+
+ f)     5n = 625 , n =                                  4                C                   1
+
+ g)     122
+            =                                           9                C                   1
+         42
+
+ h)     (2x − 3) ⋅ (3 + 4x) =                     8x 2 − 6 x − 9         C                   1
+
+ i)     Ein Fußballfeld hat den Flächeninhalt
+                                                      1 ha               C                   1
+        von etwa
+
+ j)                                   1
+        Addiert man zu einer Zahl 2     , so
+                                      3                    5
+                                                       6                 D                            1
+                       1                                   6
+        erhält man 9     . Wie heißt die Zahl?
+                       6
+
+ k) Welcher Rauminhalt ist der größte?               0,4 m3              B                   1
+
+ l)     Genau drei Wochen nach dem
+                                                     2. April            D           1
+        12. März ist der
+
+ m) Ein Beutel enthält 4 rote, 3 gelbe und
+    2 blaue Kugeln. Bestimme die
+                                                           5
+    Wahrscheinlichkeit für das Ereignis                                  B                   1
+                                                           9
+    „eine gelbe oder eine blaue Kugel
+    ziehen“.
+
+ n) Es soll ein Dreieck mit folgenden             Das Dreieck
+    Winkelgrößen konstruiert werden:               ABC kann
+    α = 26°, β = 44°, γ = 90° Welche                 nicht               C                   1
+        Aussage trifft zu?                        konstruiert
+                                                    werden.
+
+
+
+
+   18
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                      Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                                    Zuordnung,
+          Lösung: Erstes Beispiel zum hilfsmittelfreien Prüfungsteil                                Bewertung
+
+ 1. Aufgabe                                                   Lösung           Buchstabe        I      II    III
+
+ o) Ein Würfel hat einen Oberflächeninhalt
+    von 6 cm2 . Das Volumen dieses                             1 cm3                 A                           1
+    Würfels beträgt dann
+
+ p) Subtrahiert man von der Summe
+    zweier positiven Zahlen a und b ihre                         2b                  C                           1
+    Differenz, erhält man
+
+ q)
+                                  v
+       Welche Gleichung                       w
+       gilt?                                                u = v 2 + w2             A                  1
+
+                                      u
+
+
+ r)   Wie groß ist die
+      Wahrscheinlichkeit,
+                                                                 1
+      bei zweimaligem                                                                C                           1
+                                                                 32
+      Drehen die Summe
+      15 zu erhalten?
+
+ s)   Eine Dreiecksfläche mit der Grundseite               kleiner als eine
+      10 m und der Höhe 4 m ist                            Rechteckfläche
+                                                                                     C                  1
+                                                             mit a = 8 m
+                                                            und b = 3 m
+
+ t)   Für eine Funktion g ( x ) gilt:
+      g (x) = m ⋅ x + n                                     eine fallende
+                                                                                     B                           1
+      (m, n < 0)                                               Gerade
+
+      Der Graph ist immer
+
+
+
+
+                                                                                                                     19
+Mittlerer Schulabschluss Mathematik               Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                              Zuordnung,
+               Lösungsskizze: Erstes Beispiel zum hilfsmittelfreien                           Bewertung
+                                  Prüfungsteil
+                                                                                          I      II    III
+
+ 2.     a) Zeichnung des Baumdiagramms:
+
+
+
+
+         Der unterste Ast mit der Lösung 0 kann auch entfallen                                    1        1
+
+         b) Bestimmung der Wahrscheinlichkeit:
+                                         4 3  3
+               P (keine gelbe Kugel) =    ⋅ =
+                                         5 4  5
+              Die Wahrscheinlichkeit dafür, keine gelbe Kugel zu ziehen,
+                     3
+              beträgt .
+                     5                                                                            2
+
+ 3.     a) A ′ (− 4   0,5)
+                                                                                          1
+
+        b)
+
+
+
+
+                                                                                                  1
+
+         c) (symmetrisches oder gleichschenkliges) Trapez
+             Das Zeichnen des Trapezes wird nicht erwartet.                               1
+
+ 4.                    (           )
+        O = 4 x 2 + 2 ⋅ x 2 − a2 + 4ax
+                2      2       2
+        O = 4 x + 2 x − 2a + 4ax
+        O = 6 x 2 − 2a2 + 4ax                                                                              3
+
+                                                                Insgesamt 30 BWE          8      13        9
+
+
+
+
+   20
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                 Mittlerer Schulabschluss Mathematik
+
+
+
+Zweites Beispiel zum hilfsmittelfreien Prüfungsteil – Erwartungshorizont
+                                                                                               Zuordnung,
+         Lösung: Zweites Beispiel zum hilfsmittelfreien Prüfungsteil                           Bewertung
+
+ 1. Aufgabe                                                 Lösung        Buchstabe        I      II    III
+
+ a) 4,004 t =                                              4 004 kg            B          1
+
+ b) Ein Zug fährt um 15:32 Uhr in
+    Hamburg-Altona ab und erreicht
+                                                           1 h 09 min          D          1
+    Bremen um 16:41 Uhr. Seine Fahrzeit
+    beträgt
+
+ c)   Ein Liter Milch kostet ungefähr                  zwischen 0,60 €
+                                                                               B          1
+                                                           und 2 €
+
+ d) 9 532 ist teilbar durch                                    4               B          1
+
+ e)   0,1 ⋅ 0,1 =                                            0,01              C          1
+
+ f)   Der Preis eines Pullovers ist um 40 %
+      reduziert worden. Der Pullover kostet
+                                                             70 €              C                   1
+      jetzt 42 €. Wie teuer war er vor der
+      Preisreduzierung?
+
+ g)    9
+         =                                                   0,36              C          1
+      25
+
+ h) Der Flächeninhalt eines                                genau eine
+    Parallelogramms verdoppelt sich, wenn                    Höhe              C                   1
+    man                                                    verdoppelt
+
+ i)   0, 33 =                                                0,027             C          1
+
+ j)   Die Summe der
+      Innenwinkel in
+                                                             540°              B                   1
+      dieser Figur
+      beträgt
+
+ k)
+
+
+
+
+                                                               3
+                                                                               D                            1
+      In der Abbildung erkennst du, dass die                   1
+      Höhe des Würfels und die Höhe der
+      Pyramide übereinstimmen. Dann gilt:
+                     VolumenWürfel
+                                    =
+                    VolumenPyramide
+
+ l)   Eine Schnecke kriecht mit einer                      1 mm pro
+                                                                               A                   1
+      Geschwindigkeit von etwa                             Sekunde
+
+
+
+
+                                                                                                                21
+Mittlerer Schulabschluss Mathematik         Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                       Zuordnung,
+          Lösung: Zweites Beispiel zum hilfsmittelfreien Prüfungsteil                  Bewertung
+
+ 1. Aufgabe                                      Lösung           Buchstabe        I      II    III
+
+ m)      0, 0064 =                                  0,08               C                   1
+
+ n) Das Dreifache des Kehrwertes einer                 3
+                                                                       D                   1
+    Zahl x ist                                         x
+
+ o) Ein Bakterium vermehrt sich durch
+    ständige gleichmäßige Zellteilung.
+    Welche Funktionsgleichung kann zur
+                                                       2x              D                   1
+    Berechnung benutzt werden?
+        f ( x) =
+
+ p) Bei einem Glücksspiel soll die Chance      Einmal das
+    auf einen Gewinn 20 % betragen. Für         Glücksrad
+    welches Glücksspiel trifft dies zu?       drehen. Grau
+                                                gewinnt.
+                                                                       C                   1
+
+
+
+
+ q) Für das Volumen einer Kugel gilt:
+         4                                             3⋅V
+    V = π ⋅ r3                                     3                   D                            1
+         3                                             4⋅ π
+    Dann gilt: r =
+
+ r)     Der Wert des Terms a2 − b beträgt
+                                                       11              A                   1
+        für a = − 3 und b = − 2
+
+ s)
+                                                              a
+                                                 sin α =               A                   1
+                                                              b
+        In diesem Dreieck gilt:
+
+ t)
+
+
+                                                 sin α   a
+                                                       =               C                            1
+                                                 sin β   b
+
+        In diesem Dreieck gilt:
+
+
+
+
+   22
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                     Zuordnung,
+            Lösungsskizze: Zweites Beispiel zum hilfsmittelfreien                    Bewertung
+                               Prüfungsteil
+                                                                                 I      II    III
+
+ 2. Bestimmung der Lösungen für das Gleichungssystem zum Beispiel mit
+    Hilfe des Subtraktionsverfahrens:
+
+      I.   2y − 4x = 6
+       II. 2y − 2x = 9
+              −2x = −3
+                 x = 1,5
+
+      x-Wert einsetzen in II zur Bestimmung von y:
+
+      2y − 2 ⋅ 1,5 = 9
+      2y = 12
+      y =6
+                                                                                 1      3
+
+ 3. a)     P (Ampel grün) = 1 − 0, 8 = 0, 2
+           P ( Ampel beide Male grün) = 0, 22 = 0, 04 = 4 %
+      b)   P ( Ampel dreimal rot) = 0, 83 = 0,512
+           P (Ampel mindestens einmal grün)
+            = 1 − 0,512
+            = 0, 488
+            = 48, 8 %
+
+      c)   60 Versuche mit einer Erfolgswahrscheinlichkeit von 0,8 ergibt
+           eine zu erwartende Häufigkeit von 48-mal.                                          6
+
+                                                           Insgesamt 30 BWE      8      13    9
+
+
+
+
+                                                                                                    23
+Mittlerer Schulabschluss Mathematik            Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Drittes Beispiel zum hilfsmittelfreien Prüfungsteil – Erwartungshorizont
+                                                                                          Zuordnung,
+          Lösung: Drittes Beispiel zum hilfsmittelfreien Prüfungsteil                     Bewertung
+
+ 1.     Aufgabe                                     Lösung          Buchstabe         I       II   III
+
+ a)             1
+        0,2 ⋅     =                                    0,1                B          1
+                2
+
+ b)     1,3 cm =                                     13 mm                C          1
+
+ c)     291 ist teilbar durch                           3                 A          1
+
+ d)     Die Hauptsaison eines Hotels beginnt
+        am 15. Juni und endet am 31. August         77 Tage               B          1
+        desselben Jahres. Das sind
+
+ e)     1
+          kg =                                       125 g                D          1
+        8
+
+  f)    132 : 12 = x : 24
+                                                       264                C          1
+        Dann ist x =
+
+ g)              2
+        ( x + 2) = 16                               x =2
+                                                    oder                  B                   1
+        Dann gilt:                                  x = −6
+
+ h)
+
+                                                        1
+                                                                          A          1
+                                                        3
+
+        Welcher Flächenanteil ist grau?
+
+  i)    Mit 20 % Rabatt kostet eine
+        Ledertasche 40 €. Der Originalpreis           50 €                B                   1
+        war
+
+  j)
+                                                             w
+                                                   sin α =                C                   1
+                                                             u
+        In diesem Dreieck gilt:
+
+ k)     Ein Kreissektor hat einen
+        Mittelpunktswinkel von 45°. Sein
+                                                    12,5 %                D                   1
+        Flächenanteil am Vollkreis beträgt
+        dann
+
+
+
+
+   24
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                   Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                                 Zuordnung,
+          Lösung: Drittes Beispiel zum hilfsmittelfreien Prüfungsteil                            Bewertung
+
+ 1.    Aufgabe                                               Lösung         Buchstabe        I       II   III
+
+  l)                                                       nicht lösbar
+       Der Wert von      −9 ist                                                  A                   1
+                                                              (in ℝ )
+
+ m) Die Wahrscheinlichkeit, zweimal
+    hintereinander mit einem normalen                            1
+                                                                                 D                   1
+    Spielwürfel dieselbe Zahl zu würfeln,                        6
+    beträgt
+
+ n)    Genau vier Symmetrieachsen hat                      jedes Quadrat         B          1
+
+ o)
+
+
+                                                               sin β
+                                                                                 D                            1
+       Bei diesem Dreieck gilt:                                  s
+       sin α
+             =
+         r
+
+ p)    Ein Kreis hat einen Radius von 3 cm.
+                                                              30 cm2             C                   1
+       Sein Flächeninhalt beträgt ungefähr
+
+ q)    Das Volumen eines Kegels berechnet
+       man mit Hilfe der Formel
+                                                               3 ⋅V
+           1                                                                     C                   1
+       V = ⋅ π ⋅ h ⋅ r2 .                                      π ⋅ r2
+           3
+       Dann gilt: h =
+
+ r)    Ein Kühlschrank hat ein Volumen von
+                                                             180 dm3             C                   1
+       etwa
+
+ s)    Die Geraden y1 = −x + 2 und
+                                                             gar nicht           D                   1
+       y2 = 4 − x schneiden sich
+
+ t)    Wird bei einem Würfel die Oberfläche
+                                                           verachtfacht          D                            1
+       vervierfacht, dann wird sein Volumen
+
+
+
+
+                                                                                                                  25
+Mittlerer Schulabschluss Mathematik              Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                            Zuordnung,
+          Lösung: Drittes Beispiel zum hilfsmittelfreien Prüfungsteil                       Bewertung
+
+ 1.     Aufgabe                                       Lösung          Buchstabe         I       II   III
+                                                                                            Zuordnung,
+              Lösungsskizze: Drittes Beispiel zum hilfsmittelfreien                         Bewertung
+                                  Prüfungsteil
+                                                                                       I       II    III
+
+ 2.     x1 = 0
+        x2 = 7                                                                                  2
+
+ 3.                  2a ⋅ 2a
+        ADreieck =             = 2a2
+                       2
+        AQuadrat = 2a ⋅ 2a = 4a2
+        Agesamt = 4 ⋅ 2a2 + 4a2 = 12a2
+
+        Der Flächeninhalt der grauen Fläche berträgt 12a2 .                                              4
+
+ 4.     Die Wahrscheinlichkeit dafür, dass Lea ein Feld nach links springt,
+                 1                                       5
+        beträgt , dass sie ein Feld nach rechts springt .
+                 6                                       6
+        Definition:
+        L: ein Feld nach links springen
+        R: ein Feld nach rechts springen
+        Günstig sind die Ereignisse LR und RL.
+                       1 5 5 1
+        P (LR,RL ) =     ⋅ + ⋅
+                       6 6 6 6
+                       10
+                     =
+                       36
+                        5
+                     =    < 50 %
+                       18
+        Die Behauptung ist also falsch.                                                         1        3
+
+                                                              Insgesamt 30 BWE         8       13        9
+
+
+
+
+   26
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                    Mittlerer Schulabschluss Mathematik
+
+
+
+Viertes Beispiel zum hilfsmittelfreien Prüfungsteil – Erwartungshorizont
+                                                                                                 Zuordnung,
+         Lösung: Viertes Beispiel zum hilfsmittelfreien Prüfungsteil                             Bewertung
+
+ 1. Aufgabe                                                  Lösung          Buchstabe       I      II    III
+
+ a) Welche Zahl ist die größte?                              0,21212               C         1
+
+ b)   1 1                                                        3
+       + =                                                                         B         1
+      4 2                                                        4
+
+ c)   3
+        =                                                      0,75                B         1
+      4
+
+ d) 0,202 =                                                  20,2 %                A         1
+
+ e) 1 m l =                                                  0,001 l               C         1
+
+ f)   3 ⋅ ( x + 1) = 6
+                                                              x =1                 B         1
+      Dann gilt
+
+ g) 40 % von 40 € sind                                         16 €                C         1
+
+ h)   ( x + 1) ⋅ ( x − 1) =                                   x2 − 1               C                1
+
+ i)   Schreibe in Kurzform als Gleichung:
+                                                            x ⋅ ( x + 2)
+      „Das Produkt aus einer Zahl mit der um                                       A                1
+                                                               = 15
+      2 vergrößerten Zahl ist 15.“
+
+ j)   3
+        von 80 € sind                                          30 €                C         1
+      8
+
+ k) Ein Hühnerei wiegt ungefähr                                45 g                C                1
+
+ l)   4 Freunde treffen sich. Jeder gibt                   sechsmal die
+      jedem die Hand. Dann werden                             Hände                B                1
+                                                            geschüttelt
+
+ m) Die beiden Geraden zu
+      f ( x ) = 2x − 2                                     sind parallel           D                1
+      g ( x ) = 2x + 2
+
+ n)
+
+
+
+                                                           d 2 = c 2 + e2          A                1
+
+
+      Für die Raumdiagonale d des Quaders
+      gilt
+
+
+
+
+                                                                                                                27
+Mittlerer Schulabschluss Mathematik             Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                          Zuordnung,
+          Lösung: Viertes Beispiel zum hilfsmittelfreien Prüfungsteil                     Bewertung
+
+ 1. Aufgabe                                           Lösung          Buchstabe       I      II    III
+
+ o) Wie viele dieser Gleichungen sind
+    richtig vereinfacht?
+        y + y + y = 3y
+                                                        eine                B                1
+        3 + x = 3x
+        c + c + c + c = c + 2c
+        a + b − 2a + 2b = a + 3b
+
+ p) Die Gerade g mit der Gleichung                   hat eine
+        g (x ) = −2 x + 1                          Nullstelle bei           A
+                                                      x = 0,5                                1
+
+ q) In einem Beutel sind 5 Kugeln,
+    darunter genau 3 rote. Wie groß ist die           3 2 1
+    Wahrscheinlichkeit, alle roten Kugeln              ⋅ ⋅                  A                      1
+                                                      5 4 3
+    bei dreimaligem Ziehen nacheinander
+    ohne Zurücklegen zufällig zu ziehen?
+
+ r)     In diesem Dreieck gilt nicht
+
+
+                                                                c                                  1
+                                                     tan γ =                C
+                                                                a
+
+
+
+ s)     x 2 − 2x + 1
+                     =                                 x −1                 A                      1
+            x −1
+
+ t)     Ein normaler Spielwürfel wird dreimal
+        geworfen. Die Wahrscheinlichkeit                   5 3
+                                                     1 −               C
+        dafür, dass mindestens einmal die 6                6 
+        fällt, beträgt                                                                             1
+
+
+
+
+   28
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben             Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                          Zuordnung,
+             Lösungsskizze: Viertes Beispiel zum hilfsmittelfreien                        Bewertung
+                                 Prüfungsteil
+                                                                                      I      II    III
+
+ 2. a = 7 cm, c = 3 cm und h = 5 cm
+
+
+
+
+                                   Abbildung nicht maßstabsgerecht
+                                                                                              4
+
+ 3. ● Graph 1
+                                    2
+      ● Es gilt f (−d ) = (−d + d ) = 02 = 0
+        Der Punkt (−d | 0) , der auf der x-Achse liegt, ist also ein Punkt der
+        Parabel. Damit kommt Graph 2 nicht mehr infrage, weil hier kein
+        Punkt auf der x-Achse liegt.
+        Wegen d > 0 gilt −d < 0. Der Punkt (−d | 0) liegt also im negativen
+        Bereich der x-Achse. Damit kommt nur noch Graph 1 infrage.                                     3
+
+ 4. Bestätigung der Wahrscheinlichkeit:
+
+                        2 3 2 1
+           P (ANNA) =     ⋅ ⋅ ⋅
+                        5 4 3 2
+                         12
+                      =
+                        120
+                                                                           12
+      Der Name „ANNA“ wird mit einer Wahrscheinlichkeit von
+                                                                           120
+      gezogen.
+                                                                                              3
+
+                                                               Insgesamt 30 BWE       8      15        7
+
+
+
+
+                                                                                                           29
+Mittlerer Schulabschluss Mathematik         Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Fünftes Beispiel zum hilfsmittelfreien Prüfungsteil – Erwartungshorizont
+                                                                                    Zuordnung,
+         Lösung: Fünftes Beispiel zum hilfsmittelfreien Prüfungsteil                Bewertung
+
+
+ 1. Aufgabe                                    Lösung          Buchstabe        I      II        III
+
+ a) Die Größe des Winkels beträgt etwa
+
+                                                 60°                B           1
+
+
+
+
+ b) Welche graugefärbte Fläche entspricht
+                   3                                                C           1
+    dem Anteil von   ?
+                   5
+
+ c) Ein Würfel hat genau                    6 gleich große
+                                                                    C           1
+                                               Flächen
+
+ d) Die größte Länge ist                     0,0002 km              D                   1
+
+ e) Ein Smartphone hat im Allgemeinen          1,3 dm               C                   1
+    eine Länge von etwa
+
+ f)   In einem Beutel befinden sich
+      5 Kugeln: 2 grüne und 3 blaue. Es
+      werden ohne Zurücklegen 2 grüne
+                                                   1                D           1
+      Kugeln gezogen. Wie groß ist die
+      Wahrscheinlichkeit, beim nächsten
+      Zug eine blaue Kugel zu ziehen?
+
+ g)     4 1                                        7
+         − =                                                        D           1
+        5 3                                       15
+
+ h)     30 − 5 ⋅ 3 − 20 =                         −5                B           1
+
+ i)   Folgender Tabelle entnimmt man
+
+         Sportart     Schüler
+                                             eine relative
+         Fußball
+                                            Häufigkeit von
+                                                0,2 für             B                   1
+         Handball                              Handball
+
+
+         Hockey
+
+
+
+
+   30
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                      Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                                 Zuordnung,
+       Lösung: Fünftes Beispiel zum hilfsmittelfreien Prüfungsteil                               Bewertung
+
+
+ 1. Aufgabe                                                  Lösung          Buchstabe       I      II        III
+
+ j)   2 : 0,2 =                                                  10              D           1
+
+ k)   ( 2x − 4 ) ⋅ ( x + 4 ) =                             2 x 2 + 4x − 16       A                   1
+
+ l)        2     1                                                   3
+      −3     +1    =                                           −2                B                   1
+           5    10                                                  10
+
+m) Es wird zweimal mit einem normalen
+   Spielwürfel gewürfelt. Die                                    1
+                                                                                 C                   1
+   Wahrscheinlichkeit, eine 3 und eine 4                        18
+   zu werfen, beträgt
+
+ n)   2
+        =                                                       0, 6             D           1
+      3
+
+ o) Die Parabel mit der                                        ihren
+    Funktionsgleichung f ( x ) = x 2 − n hat                 Scheitel-
+                                                             punkt bei           B                            1
+                                                              S (0 −n)
+
+
+ p) Die Größe des Winkels α wird bei der
+    Taschenrechnereingabe angezeigt mit
+
+                                                            tan−1 (0,5)          A                            1
+
+
+
+
+ q) Die Diagonale eines Quadrates mit
+    der Seitenlänge a berechnet man mit                          2a2             A                            1
+    folgender Formel
+
+ r)   Größer als −0, 023 ist                                 −0, 0229            C                   1
+
+ s) Zu welchem Funktionsterm gehören
+    ausschließlich negative                            −x 2 + 3 x − 3            C                            1
+    Funktionswerte?
+
+ t)   a b                                                      2a + b
+       + =                                                                       D                            1
+      2 4                                                        4
+
+
+
+
+                                                                                                                    31
+Mittlerer Schulabschluss Mathematik             Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                          Zuordnung,
+              Lösungsskizze: Fünftes Beispiel zum hilfsmittelfreien                       Bewertung
+
+                                 Prüfungsteil
+                                                                                      I      II    III
+
+ 2. a) Zeichnung der Kante:
+
+
+
+
+                                                                                      1
+
+        b) Berechnung des Volumens:
+
+            VPrisma = G ⋅ hK
+                 g⋅h
+            G=
+                  2
+                 4⋅3
+            G=         =6
+                    2
+            VPrisma = 6 ⋅ 5
+            VPrisma = 30
+                                                            3
+        Das Volumen dieses Dreicksprismas beträgt 30 cm .                                    3
+
+ 3. Lösung mit quadratischer Ergänzung:
+          x2 − 6 x − 7 = 0
+                 2
+          ( x − 3) − 7 − 9 = 0
+                 2
+          ( x − 3) = 16
+          x1 − 3 = −4
+          x2 − 3 = 4
+          x1 = −1 und x2 = 7                                                                       4
+
+ 4.           y2 − y1
+        m=
+              x2 − x1
+             4 −1
+        m=        =3
+             3−2
+        Die Steigung der Geraden g ist 3.
+        Eine zeichnerische Lösung ist auch möglich.                                          2
+
+                                                             Insgesamt 30 BWE         8      13    9
+
+
+
+
+   32
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben               Mittlerer Schulabschluss Mathematik
+
+
+
+Sechstes Beispiel zum hilfsmittelfreien Prüfungsteil – Erwartungshorizont
+                                                                                          Zuordnung,
+      Lösung: Sechstes Beispiel zum hilfsmittelfreien Prüfungsteil                        Bewertung
+
+
+ 1. Aufgabe                                                Lösung     Buchstabe       I      II        III
+
+ a)   5 ⋅ 99 =                                               495          B           1
+
+ b) Wie viele Ecken hat eine Pyramide mit                     4           B           1
+    dreieckiger Grundfläche?
+
+ c) Welches Zufallsereignis hat eine
+                            1
+    Wahrscheinlichkeit von    ?
+                            4
+                                                      Das kurze von       D           1
+                                                        4 Streich-
+                                                         hölzern
+                                                         ziehen.
+
+ d) 10 ⋅ 10 =
+      3    2
+                                                            105           C           1
+
+ e)   ( 2 + 9 ) ⋅ ( 8 − 3 − 5) + 7 =                          7           C           1
+
+ f)   Die kürzeste Strecke hat eine Länge
+                                                           0,3 cm         D           1
+      von
+
+ g)   7 1                                                    13
+       − =                                                                C           1
+      8 3                                                    24
+
+ h)   5 3                                                     1
+       ⋅   =                                                              A           1
+      9 10                                                    6
+
+ i)   Der Punkt P (3 5) liegt auf der
+      Geraden mit der Funktionsgleichung                    2x − 1        A                   1
+      g (x) =
+
+
+ j)   Auf eine Rechnung über 1 200 €
+      bekommt ein Kunde 3 % Rabatt. Er                     1 164 €        B                   1
+      bezahlt
+
+                                       2
+ k) Die Gleichung 9 = (2x − 5) hat die                      x1 = 4
+                                                                          D                   1
+      Lösungen                                              x2 = 1
+
+
+ l)
+
+
+
+                                                           1
+                                                             x +2         A                   1
+                                                           2
+
+      Zu dieser Geraden gehört die
+      Funktionsvorschrift g ( x ) =
+
+
+
+
+                                                                                                             33
+Mittlerer Schulabschluss Mathematik                Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                           Zuordnung,
+        Lösung: Sechstes Beispiel zum hilfsmittelfreien Prüfungsteil                       Bewertung
+
+
+ 1. Aufgabe                                           Lösung          Buchstabe        I      II        III
+
+m) Die Gerade mit der
+   Funktionsgleichung f ( x ) = 4x + 8 hat
+                                                      N (− 2 0 )           B                   1
+      ihren Schnittpunkt mit der
+      x-Achse im Punkt
+
+ n)     ( y + 1) ⋅ ( y + 1) =                        y ² + 2y + 1          D                   1
+
+ o)      5 ⋅ 20 =                                        10                A                   1
+
+ p) Die Figur hat folgenden Umfang
+
+
+                                                       1
+                                                         π+2               B                            1
+                                                       2
+
+
+      nicht maßstabsgerecht
+
+ q) Die Parabel mit der
+                                          2        eine Nullstelle         C                            1
+      Funktionsvorschrift f ( x ) = ( x + b) hat
+
+ r)   In folgendem Dreieck gilt
+
+
+
+                                                               5
+                                                    sin α =                A                            1
+                                                               61
+
+
+
+      nicht maßstabsgerecht
+
+ s) In einem Beutel sind 10 Kugeln, die
+    mit den Zahlen 1 bis 10 beschriftet
+    sind. Bestimme die Wahrscheinlichkeit                5 2
+                                                           ⋅               B                            1
+    – ohne Zurücklegen – aus dem Beutel                 10 9
+    zuerst eine gerade Zahl und danach
+    die „5“ oder „7“ zu ziehen.
+
+ t)            3
+        (4 ) =
+          2b
+                                                         46b               C                   1
+
+
+
+
+   34
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                     Zuordnung,
+             Lösungsskizze: Sechstes Beispiel zum hilfsmittelfreien                  Bewertung
+
+                                 Prüfungsteil
+                                                                                 I      II    III
+
+ 2.   P (2 7) einsetzen in g ( x ) = m ⋅ x + 3 :
+
+      7 = 2⋅m+3                  −3
+      4 = 2⋅m                    :2
+      2=m
+      Die Steigung hat den Wert 2.                                                      3
+
+ 3.                4 3                4
+      36 ⋅ π =       ⋅r ⋅π        :
+                   3                  3
+           3
+      36 ⋅   ⋅ π = r3 ⋅ π
+           4
+      27 ⋅ π = r 3 ⋅ π            :π
+      27 = r 3                    3
+
+
+
+      r =3
+      Der Radius dieser Kugel beträgt 3 cm.                                                   4
+
+                             (
+ 4. Aus 0 = ( x − 3) ⋅ x 2 − 8 x + 16     )
+      folgt:
+
+      0 = x −3        ∨
+      0 = x − 8 x + 16
+               2
+
+
+
+      also ist x1 = 3
+
+                          −8
+      und x2/3 = −           ± 42 − 16 = 4
+                           2
+      Die Lösungen der Gleichung sind x1 = 3 und x2 = 4 .                               2     1
+
+                                                           Insgesamt 30 BWE      8      13    9
+
+
+
+
+                                                                                                    35
+Mittlerer Schulabschluss Mathematik                    Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+3. Lösungen zu den komplexen Aufgaben mit Einsatz des
+   Taschenrechners
+3.1 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen
+    (Pflichtaufgaben der Gruppe II)
+Wassertank
+                                                                                                   Zuordnung,
+                                                                                                   Bewertung
+                               Lösungsskizze: Wassertank
+                                                                                               I      II    III
+
+ a)     Zylinder und Kegel                                                                     2
+
+ b)     ● Berechnung der zu streichenden Fläche:
+        Oberfläche des vollständigen Zylinders:
+        O = 2 ⋅ π ⋅ r2 + 2 ⋅ π ⋅ r ⋅ h
+
+        Oberfläche des Zylinders ohne Boden:
+        O = 2 π r2 + 2 π r h − π r2 = π r2 + 2 π r h
+        O = π ⋅ 12 + 2 ⋅ π ⋅ 1 ⋅ 4,5 = 31, 415... ≈ 31, 4
+
+        Es müssen etwa 31, 4 m2 angestrichen werden.
+
+        ● Berechnung der benötigten Menge an Farbe:
+        31, 415... : 8 = 3, 92...
+
+        Alternative Berechnung mit dem Kontrollwert ergibt 3,925.
+        Man benötigt etwa 4 Liter Farbe.                                                       3      1
+
+ c)     Berechnung des Volumens eines Zylinders:
+             V = π ⋅ r2 ⋅ h
+               in diesem Fall also :
+               V = π ⋅ 12 ⋅ 4,5
+               V = 14,137...
+
+        Das Volumen des oberen Teils des Tanks beträgt ungefähr 14,1 m3 .
+
+        Berechnung des Volumens eines Kegels:
+                   1
+               V =   ⋅ π ⋅ r2 ⋅ h
+                   3
+               in diesem Fall also :
+                   1
+               V =   ⋅ π ⋅ 12 ⋅ 1,5
+                   3
+               V = 1,5708...
+
+        Das Volumen des unteren Teils des Tanks beträgt ungefähr 1,6 m3 .
+
+        Beide Teile zusammen besitzen das Volumen
+
+               Vges = 14,1 m3 + 1,6 m3 = 15,7 m3                                               5
+
+
+
+   36
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben         Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                        Zuordnung,
+                                                                                        Bewertung
+                                     Lösungsskizze: Wassertank
+                                                                                    I      II    III
+
+ d)    Die Formel für das Volumen einer Kugel wird schrittweise nach r
+       umgeformt:
+              4                  3
+        V =     ⋅ π ⋅ r3   | ⋅
+              3                  4
+        3 ⋅V
+             = π ⋅ r3 | : π
+         4
+        3 ⋅V
+             = r3 | 3
+        4⋅π
+                3 ⋅V
+        r =3
+                4⋅π
+       Durch das Einsetzen des gegeben Volumens V = 15,7 m³ erhält man
+
+                3 ⋅ 15,7 3
+        r =3            = 3,748 = 1,55
+                  4⋅π
+       Ein kugelförmiger Tank des Volumens V = 15,7 m³ besitzt den Radius
+       r = 1,55 m.                                                                         5
+
+
+
+
+                                                                                                     37
+Mittlerer Schulabschluss Mathematik            Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                           Zuordnung,
+                                                                                           Bewertung
+                               Lösungsskizze: Wassertank
+                                                                                       I      II    III
+
+ e)     Bestätigung der Seiten a und c über den Satz des Pythagoras:
+
+        a = 12 + 1,52
+          = 3, 25
+          = 1, 802...
+
+
+        c = 0, 352 + 3,362
+          = 11, 4121
+          = 3, 378...
+
+        Die Seite a ist etwa 1,80 m lang und die Seite c etwa 3,38 m.                         4
+
+ f)     Berechnung der fehlenden Winkelgröße:
+        β = 180° − 30° − 70°
+          = 80°
+
+        Ermittlung der Länge b des Standbeins über den Sinussatz:
+          b     c
+             =
+        sin β sin γ
+               c
+        b=         ⋅ sin β
+             sin γ
+            3,378...
+        b=           ⋅ sin80°
+             sin70°
+        b = 3,540...
+
+        Die Länge eines Standbeins beträgt etwa 3,5 m.
+        Alternative Berechnung mit dem Kontrollwert ergibt eine Länge von
+        b = 3,5422…                                                                                     5
+
+                                                             Insgesamt 25 BWE         10      10        5
+
+
+
+
+   38
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben         Mittlerer Schulabschluss Mathematik
+
+
+
+Kartenhaus (Leitidee Raum und Form sowie Leitidee Messen)
+
+                                                                                        Zuordnung,
+                                                                                        Bewertung
+                               Lösungsskizze: Kartenhaus
+                                                                                    I      II    III
+
+ a)   91 800 ⋅ 54 = 4 957 200
+      4 957 200 cm2 = 495, 72 m2
+
+      Die Spielkarten haben zusammen einen Flächeninhalt von
+                                                           2
+      4 957 200 cm2 . Das entspricht 495,72 m . Jan hat also nicht Recht.           3
+
+ b)
+
+
+
+                                Stockwerke: 2 + 4 + 6 + 8 = 20
+
+                                Zwischendecken: 1 + 2 + 3 = 6
+
+                                Insgesamt werden mindestens 26 Spielkarten
+                                benötigt.
+
+                                                                                           3
+
+ c)   ● Berechnung der Höhe h:
+
+       c  5
+         = = 2,5
+       2  2
+       h = 92 − 2,52
+         = 74, 75
+         = 8, 6458...
+
+      Die Höhe h beträgt etwa 8,6 cm.
+
+      ● Berechnung der Größe des Winkels α :
+
+               2,5
+      cos α =
+                9
+           α = 73, 872...°
+      Da das Dreieck gleichschenklig ist, gilt α = β .
+
+      Berechnung der Größe des Winkels γ :
+
+       γ = 180° − 2 ⋅ 73, 872...°
+       γ = 32,255...°
+      Die Winkel α und β sind etwa 74° und der Winkel γ ist etwa 32° groß.          3      5
+
+
+
+
+                                                                                                     39
+Mittlerer Schulabschluss Mathematik                      Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                                     Zuordnung,
+                                                                                                     Bewertung
+                                Lösungsskizze: Kartenhaus
+                                                                                                 I      II    III
+
+ d)     Da die Innenwinkelsumme im Dreieck 180° beträgt, gilt
+
+        α + β + γ1 = 180°
+        Da die drei Winkel α, β und γ2 an einer Geraden liegen, gilt auch
+
+        α + β + γ2 = 180°
+        Demnach müssen die Winkel γ1 und γ2 gleich groß sein:
+
+        α + β + γ1 = α + β + γ2              −α −β
+                γ1 = γ2                                                                                 2         1
+
+ e)     Die Frontalansicht des dreistöckigen Kartenhauses ist ein Dreieck.
+
+        Ermittlung der Gesamthöhe des dreistöckigen Kartenhause :
+
+        hges = 3 ⋅ h = 3 ⋅ 8, 6 = 25, 8 cm
+
+        Die Gesamtlänge der Grundlinie des dreistöckigen Kartenhause beträgt
+
+        g = 3 ⋅ c = 3 ⋅ 5 = 15 cm
+
+                                                              g ⋅ hges
+        Dessen Fläche wird mit der Gleichung             A=               berechnet.
+                                                                 2
+
+                                                  15 ⋅ 25, 8
+        Einsetzen der Werte ergibt           A=              = 193,5 cm2
+                                                       2
+
+        Die Frontalansicht des dreistöckigen Kartenhauses besitzt den
+        Flächeninhalt A = 193,5 cm².                                                             4
+
+ f)     Da das Dreieck gleichschenklig ist, gilt α = β .
+                180° − 28°
+        α=β=               = 76°
+                     2
+        Mit dem Sinussatz kann nun die Seite a berechnet werden.
+           a         4
+                =                ⋅ sin76°
+        sin 76° sin28°
+              a = 8,267...
+
+        Eine Visitenkarte hat eine Länge von ungefähr 8,3 cm.                                                     4
+
+                                                                         Insgesamt 25 BWE       10      10        5
+
+
+
+
+   40
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben      Mittlerer Schulabschluss Mathematik
+
+
+
+Windpark (Leitidee Raum und Form sowie Leitidee Messen)
+                                                                                     Zuordnung,
+                                                                                     Bewertung
+                                Lösungsskizze: Windpark
+                                                                                 I      II    III
+
+ a) Der Stahlmast hat eine Höhe von etwa 1,5 bis 2,5 Längen eines
+    Rotorblattes.
+      1,5 ⋅ 75 = 112,5
+      2,5 ⋅ 75 = 187,5
+
+      Die Höhe des Stahlturms bis zur Achse beträgt also zwischen 112,5 m
+      und 187,5 m.
+      Auch andere sinnvoll begründete Abschätzungen sind zulässig.               2
+
+ b) Berechnung des Kreisflächeninhalts mithilfe der Formel
+
+      A = π ⋅ r2
+      A = π ⋅ 752 = π ⋅ 5 625 = 17 671, 458...
+
+      Der Flächeninhalt des Kreises hat eine Größe von ungefähr 17 671 m2 .      3
+
+
+
+
+                                                                                                  41
+Mittlerer Schulabschluss Mathematik                     Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                                    Zuordnung,
+                                                                                                    Bewertung
+                                  Lösungsskizze: Windpark
+                                                                                                I      II    III
+
+ c)     ● Berechnung des Umfangs:
+        u = 2⋅ π⋅r
+        u = 2 ⋅ π ⋅ 75 = 471,238....
+
+        Die Spitzen der Rotorblätter legen bei einer Umdrehung etwa 470 m
+        zurück.
+        ● Berechnung der Geschwindigkeit:
+        Die Länge s des bei zwei Umdrehungen zurückgelegten Wegs ist dann:
+        s = 2 ⋅ π ⋅ r = 2 ⋅ π ⋅ 75 = 471, 238...
+
+        In 10 Sekunden legen die Blattspitzen also ungefähr 470 m zurück und
+                                                              m
+        sie drehen sich mit einer Geschwindigkeit von etwa 47   :
+                                                              s
+
+
+                 Zeit                               zurückgelegter Weg
+
+
+                10 s                               150π m = 471,238... m
+
+
+                                                   150 π
+                 1s                                      m = 47,123... m
+                                                    10
+
+                                                   150π
+                                                        ⋅ 3 600 m
+           3 600 s = 1h            150π
+                                        ⋅ 3 600 m = 10            km ≈ 170 km
+                                    10                 1 000
+
+        Die Blattspitzen drehen sich also mit einer Geschwindigkeit von
+                       km
+        ungefähr 170      .
+                        h
+        Alternative Berechnung mit dem Kontrollwert ergibt eine
+                                km
+                            169
+        Geschwindigkeit von      h .                                                            2      4
+
+ d) In dem dargestellten rechtwinkligen Dreieck gilt:
+                     h
+          tan18° =
+                    400
+                h = 400 ⋅ tan18°
+                h = 129, 967...
+
+        Zu diesem Wert muss noch die Augenhöhe addiert werden,
+        um die Höhe h* des Windrades zu ermitteln:
+          h* = 1, 69 + 400 ⋅ tan18° = 131, 657...
+
+        Das Windrad hat eine Höhe von etwa 131,7 m.                                                    4
+
+
+
+
+   42
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                       Zuordnung,
+                                                                                       Bewertung
+                                Lösungsskizze: Windpark
+                                                                                   I      II    III
+
+ e) ● Sicherheitsabstand zwischen B und C
+      Die Länge der Strecke lässt sich über den Sinussatz ermitteln.
+      Für den Abstand a von B zu C gilt dann:
+           a       273
+                =
+        sin 51°   sin 62°
+                  273 ⋅ sin 51°
+              a=
+                     sin 62°
+              a = 240, 287...
+
+      Der Sicherheitsabstand wurde zwischen B und C eingehalten.
+      ● Entfernung zwischen Standort C und neuem Standort D
+
+      Berechnung der Höhe hc des
+      Dreiecks ABC:
+                hc
+      sin51° =
+                b                                                hc
+           hc = 273 ⋅ sin51°
+           hc = 212,160...
+
+      Die Höhe im Dreieck beträgt
+      ungefähr 212 m.
+      Die Entfernung zwischen den
+      Standorten C und D entspricht der
+      doppelten Länge der Höhe hc :
+
+             2 ⋅ 212,160... = 424, 321...                       D
+
+      Die Entfernung zwischen den Standorten C und D
+      beträgt ungefähr 424 m.
+                                                                                          2         5
+
+ f)   Die kreisförmige Fläche um ein Windrad, die von Wildgänsen und
+      Watvögeln gemieden wird, hat den Radius r = 500m.
+      Die Größe dieser Fläche ist
+
+      A = π ⋅ r 2 = π ⋅ 5002 = 785.398,16 m2
+
+
+      1 km2 = 1.000.000 m2
+
+      Der Flächeninhalt beträgt 0,785 km2 .                                               3
+
+                                                           Insgesamt 25 BWE        7     13         5
+
+
+
+
+                                                                                                    43
+Mittlerer Schulabschluss Mathematik                  Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Der schiefe Turm von Pisa (Leitidee Raum und Form sowie Leitidee Messen)
+
+                                                                                               Zuordnung,
+                                                                                               Bewertung
+                         Lösungsskizze: Der schiefe Turm von Pisa
+                                                                                           I      II    III
+
+
+a)    Die Bauzeit betrug 199 Jahre.                                                        1
+
+
+b)    40 ⋅ 2 ⋅ 9 ⋅ 18 ⋅ 6 = 77 760
+      Die Wocheneinnahmen betragen maximal 77 760 Euro.                                    4
+
+
+c)    u = π⋅d           :π
+          u
+              =d
+          π
+               48,6
+          d=           = 15, 46986...
+                   π
+      Der Durchmesser dieses Stahlring beträgt rund 15,5 m.                                       3
+
+
+d)    ● h = 552 + 3, 92 = 3040, 21 = 55,138...
+
+              Die Höhe des Turmes ohne Schieflage beträgt etwa 55,14 m.                           2
+
+      ● 55,138... − 55 = 0,138... ≈ 0,14
+        0,14 m = 14 cm
+              Der Turm wäre ungefähr 14 cm höher.                                          2
+
+
+e)                 3, 9
+          tan α =                       tan−1
+                   55                           .
+               α = 4, 0560...°
+      Der Neigungswinkel beträgt heute nur noch etwa 4,1°. Er hat sich                            4
+      durch die Sanierung um etwa 1,4° verringert.
+
+      Der Mittelpunkt befindet sich in der Mitte der geneigten Längsachse
+      des Turmes, also bei b = 27,57 m. Diese halbe Längsachse ist die
+      Hypothenuse eines rechwinklichen Dreiecks (vergleichbar mit
+      Abbildung 1).
+                    a
+          tan α =                       ⋅ 27,57
+                 27,57
+          a = 27,57 ⋅ tan α
+          a = 27,57 ⋅ tan 5, 5° = 2, 654 ≈ 2, 65 m
+
+      Der Turmmittelpunkt hatte einen seitlichen Abstand von 2,65 m zum
+      Bodenmittelpunkt.                                                                    3
+
+
+
+
+     44
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                     Zuordnung,
+                                                                                     Bewertung
+                    Lösungsskizze: Der schiefe Turm von Pisa
+                                                                                 I      II    III
+
+f)   Zunächst wird davon ausgegangen dass Leon Recht hat.
+     Es muss die Größe des Winkels α ermittelt werden.
+          sin95° sin β
+                  =       ⋅ 75
+           103      75
+        0,72538... = sin β     sin−1
+      46,50084...° = β
+      α = 180° − 95° − 46,5...° = 38, 499...°
+     Anschließend kann die Seitenlänge a berechnet werden.
+            a           103
+                     =          ⋅ sin38, 499...°
+     sin 38, 499...° sin 95°
+                   a = 64,3627...
+     Da der Befestigungspunkt mit den von Leon behaupteten Angaben in
+     einer Höhe von etwa 64 Metern liegen würde, der Turm aber nur eine
+     Höhe von etwa 55 Metern hat, kann seine Behauptung nicht stimmen.                  1         5
+
+
+                                                           Insgesamt 25 BWE 10         10         5
+
+
+
+
+                                                                                                      45
+Mittlerer Schulabschluss Mathematik               Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Billard (Leitidee Raum und Form sowie Leitidee Messen)
+                                                                                            Zuordnung,
+                                                                                            Bewertung
+                                  Lösungsskizze: Billard
+                                                                                        I      II    III
+
+
+a)        A = 2,84 ⋅ 1,42 = 4,0328
+
+                                                      2
+      Die Spielfläche hat eine Größe von etwa 4 m .                                     2
+
+
+b)        4,0328 ⋅ 1,15 = 4,63772
+          4,63772 ⋅ 47,59 = 220,70909...
+
+      Die Kosten betragen etwa 220,71 €.
+
+      Alternativ mit dem gerundeten Flächeninhalt:
+
+          4 ⋅ 1,15 = 4,6
+          4,6 ⋅ 47,59 = 218,914                                                         4
+
+
+c)    2,84 : 8 = 0,355
+
+      1, 42 : 4 = 0,355
+      0,355 m = 35,5 cm
+
+      Der Abstand zwischen 2 Punkten beträgt 35,5 cm.                                   1      1
+
+
+d)    ● Länge einer Markierungslinie mit dem Satz des Pythagoras:
+
+            712 + 35,52
+      = 6 301,25
+      = 79,380...
+
+      Die Länge einer Markierungslinie beträgt etwa 79,4 cm.
+
+      ● Berechnung der Winkelgrößen α und β :
+
+                  Gegenkathete von α
+          tan α =
+                    Ankathete von α
+                  35, 5
+          tan α =
+                   71
+              α = 26, 565...°
+      β über Winkelsumme im Dreieck:
+      β =180° − 90° − 26,565...° = 63, 43....°
+      Der Winkel α hat eine Größe von etwa 26,6° und der Winkel β ist
+      rund 63,4° groß.                                                                         6     2
+
+
+
+
+     46
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                 Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                              Zuordnung,
+                                                                                              Bewertung
+                                 Lösungsskizze: Billard
+                                                                                          I      II    III
+
+e)   Der Durchmesser der hier genutzten Billardkugel ist d = 5,4 cm und
+     ihr Radius beträgt r = 2,7 cm.
+
+     Berechnung des Volumens
+
+             4            4
+      VK =     ⋅ π ⋅ r 3 = ⋅ π ⋅ 2, 73 = 82, 447... cm3
+             3            3
+
+     Das Volumen einer Billardkugel beträgt etwa 82 cm3 .                                 1      2
+
+
+f)   Über den Sinussatz lässt sich die fehlende Strecke
+     zwischen Kugel 2 und Kugel 3 berechnen.
+
+
+
+     Berechnung der Größe des Winkels α gegenüber
+     der Strecke 72 cm:
+
+      sin α   sin 93°
+            =
+       72      122
+                                                                  Abbildung nicht
+      α = 36,11...°                                               maßstabsgerecht
+
+     Fehlender Winkel β über Winkelsumme im Dreieck:
+
+      β = 180° − 93° − 36,11...° = 50,88...°
+     Berechnung der fehlenden Seite b über Sinussatz:
+
+            b            122
+                     =                         ⋅ sin 50, 88...°
+      sin 50, 88...°   sin 93°
+                         122
+                   b=          ⋅ sin50, 88...°
+                       sin 93°
+                   b = 94,792...
+
+     Berechnung der zurückgelegten Strecke:
+
+      72 + 94,792... = 166,792...
+
+     Die Länge des eingezeichneten Weges beträgt etwa 167 cm.                                    3     3
+
+
+                                                                  Insgesamt 25 BWE        8     12     5
+
+
+
+
+                                                                                                             47
+Mittlerer Schulabschluss Mathematik                  Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+Ballschachtel (Leitidee Raum und Form sowie Leitidee Messen)
+                                                                                                  Zuordnung,
+                                                                                                  Bewertung
+                              Lösungsskizze: Ballschachtel
+                                                                                              I      II    III
+
+ a)     In der Ballschachtel sind drei Bälle übereinander verpackt, zusätzlich
+        müssen zwei Lagen Styropor berücksichtigt werden.
+
+        Ein Ball hat einen Radius von etwa 8 cm.
+
+        Der Durchmesser beträgt also in etwa 16 cm.
+
+        Die Höhe der Schachtel kann daher wie folgt berechnet werden:
+        h = 3 + 16 + 16 + 16 + 3
+        h = 54
+
+        Die Ballschachtel ist 54 cm hoch.                                                    3
+
+ b)     Mögliche Netze:
+
+
+
+
+        In Skizzen kommt es nicht auf die zeichnerische Sorgfalt, sondern auf
+        die nachvollziehbare Anordnung der Seiten- und Grundflächen an.                      3
+
+ c)     ● Der Radius eines Balles entspricht der Höhe eines der gleichseitigen
+         Dreiecke. In dem grau unterlegten rechtwinkligen Dreieck gilt dann
+         mit dem Satz des Pythagoras:
+
+                       2
+                    9
+         r =   92 −  
+                    2
+         r =   60,75
+         r = 7,7942286...
+
+         Der Radius beträgt etwa 7,8 cm.                                                             3
+
+        ● Berechnung des Volumens eines Balles:
+              4           4
+          VB = ⋅ π ⋅ r 3 = ⋅ π ⋅ 7, 83 = 1.987, 798...
+              3           3
+
+         3 ⋅ VB = 3 ⋅ 1 987,798... ⋅ 3 = 5 963, 396...
+
+         Das Volumen der drei Bälle beträgt etwa 5 963 cm3 .                                 1       1
+
+
+
+
+   48
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+
+ d)   ● Zur Berechnung des Flächeninhalts der Grundfläche kann man das
+       Sechseck in sechs kongruente gleichseitige Dreiecke zerlegen.
+
+        Für jedes dieser Dreiecke gilt g = 9 cm und h = 7,7942286… cm.
+              9 ⋅ 7, 7942286...
+        G = 6⋅
+                       2
+        G = 210, 444173...
+
+        Der Flächeninhalt einer Grundfläche beträgt etwa
+        210 cm2 .
+
+      Alternative Berechnung mit h = 7,8 cm ergibt 210,6 cm2.
+
+      ● Berechnung des Volumens der Ballschachtel:
+
+        V = G⋅h
+        V = 210 ⋅ 54 = 11 340
+
+
+        Das Volumen der Ballschachtel beträgt etwa 11 340 cm3.
+
+      ● Der Mantel besteht aus sechs kongruenten Rechtecken.
+
+        Gegeben sind die Rechtecksseitenlängen a = 54 cm und b = 9 cm
+
+        M = 6 ⋅ 54 ⋅ 9 = 2 916
+
+        Der Flächeninhalt des Mantels beträgt 2 916 cm2.
+
+        O = 2 916 + 2 ⋅ 210, 444173...
+        O = 3 336,88834...
+
+        Der Materialbedarf für die Ballschachtel beträgt insgesamt etwa
+        3 336,9 cm2.
+
+      Alternative Berechnung mit dem Kontrollwert ergibt 3 336 cm2.                2     7
+
+ e)   Aus α = 25°; β = 18° lässt sich mit dem Innenwinkelsummensatz die
+      Größe des fehlenden Winkels γ berechnen, um den Sinussatz
+      anwenden zu können:
+
+       γ = 180° − 25° − 18°
+       γ = 137°
+
+             z          x
+                   =
+           sin γ       sin β
+          15              x
+                   =
+       sin 137°        sin18°
+                 x = 6,7965...
+
+      Der Spieler A muss etwa 6,8 m zurücklegen, um den Ball zu erreichen.                     5
+
+                                                           Insgesamt 25 BWE        9    11     5
+
+
+
+                                                                                               49
+Mittlerer Schulabschluss Mathematik                  Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Water Walking Ball (Leitidee Raum und Form sowie Leitidee Messen)
+                                                                                               Zuordnung,
+                                                                                               Bewertung
+                         Lösungsskizze: Water Walking Ball
+                                                                                           I      II    III
+
+
+ a)     A = 64 ⋅ 32 = 2 048
+                                                                              2
+      Die Wasseroberfläche des Sicherheitsbereichs beträgt 2 048 m .                       2
+
+
+b) ●       α = 58°
+           Eine Abweichung von zwei Grad ist zu tolerieren.
+      ●    Der Winkel α ist ein spitzer Winkel.
+      ●    Ein überstumpfer Winkel ist über 180° groß und kann durch die
+           Begrenzung des Steges nicht zustande kommen.                                    3      1
+
+
+ c)   Im ersten Fall beträgt der Gesamtadius r = 27 m
+
+                               r 2 ⋅ π 272 ⋅ π
+      Halbkreisfläche: A =            =        = 1.145,1105 ≈ 1.145,11
+                                  2      2
+                                         A 1.145,11
+      Anteil am Sicherheitsbereich:        =        = 0,5591 ≈ 56, 0 %
+                                         G   2 048
+
+      Mit der Seillänge 25 m und einem Gesamtradius r = 27 m sind etwa
+      56 % des Sicherheitsbereichs erreichbar.
+
+
+      Im zweiten Fall dürfen das Seil und der Balldurchmesser d= 2 m den
+      Gesamtradius r = 32 m nicht überschreiten. Das Seil ist dann also 30
+      m lang.
+
+                                   r 2 ⋅ π 322 ⋅ π
+      Halbkreisfläche:        A=          =        = 1.608, 495 ≈ 1.608,5
+                                      2      2
+                                            A 1.608,5
+      Anteil am Sicherheitsbereich:           =       = 0,7854 ≈ 78,5 %
+                                            G   2 048
+
+      100 % − 78,5 % = 21,5 %
+      Es sind in diesem Fall etwa 21,5 % des Sicherheitsbereichs nicht
+      erreichbar.                                                                          2      5
+
+
+
+
+   50
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben         Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                      Zuordnung,
+                                                                                      Bewertung
+                         Lösungsskizze: Water Walking Ball
+                                                                                  I      II    III
+
+
+d)          d
+      r =     =1
+            2
+            4
+      V =     ⋅ π ⋅ 1 = 4,18879...
+            3
+
+      Das Volumen eines Kunststoffballs beträgt rund 4,19 m3 .
+
+
+              520 m3 → 1h
+                           1      1             90
+                 1m3 →        h=     ⋅ 3600 s =    s
+                          520    520            13
+      4,18879...m3 → 28, 999...s
+
+
+
+      Das Gebläse benötigt rund 29 Sekunden zum Befüllen des
+      Kunststoffballs.                                                            1      3
+
+
+ e)
+
+
+
+
+                    x
+            sin2° =
+                   25
+      sin2° ⋅ 25 = x
+       0, 872... = x
+
+
+      Die Anbringung des Seils ist etwa 0,9 m über der Wasseroberfläche.                 3         1
+
+
+
+
+                                                                                                       51
+Mittlerer Schulabschluss Mathematik           Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                        Zuordnung,
+                                                                                        Bewertung
+                        Lösungsskizze: Water Walking Ball
+                                                                                    I      II    III
+
+
+ f)
+                                                       5 s → 360°
+                                                       1s → 72°
+
+
+
+
+                                                       Da r = 1:
+                                                        x = cos 72°
+                                                        x = 0, 30901699...
+                                                        y = sin 72°
+                                                        y = 0, 9510565...
+
+
+
+
+      Der Punkt P befindet sich nach 1 Sekunde bei etwa P´(0,31 0, 95) .                             4
+
+
+                                                          Insgesamt 25 BWE          8     12         5
+
+
+
+
+   52
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+3.2 Aufgaben zur Leitidee funktionaler Zusammenhang
+    (Wahlaufgabe)
+Europa Passage
+                                                                                      Zuordnung,
+                                                                                      Bewertung
+                           Lösungsskizze: Europa Passage
+                                                                                  I      II    III
+
+ a) Monatliche Einnahmen bei den vermieteten Stellplätzen:
+                                           Anzahl vermieteter
+                      %
+                                               Stellplätze
+                     100                            700
+
+                      1                               7
+
+                      24                            168
+
+      168 ⋅ 65 = 10 920
+
+      Monatliche Einnahmen durch feste Vermietung: 10 920 €
+      Anzahl der Parkplätze für „Laufkundschaft“:
+      700 − 168 = 532
+      Für die Laufkundschaft stehen 532 Stellplätze zur Verfügung.
+      532 ⋅ 4,5 ⋅ 30 = 71 820
+
+      Monatliche Einnahmen durch „Laufkundschaft“: 71 820 €
+      10 920 + 71 820 = 82 740
+
+      Die Gesamteinnahmen für das Parkhaus betragen im Monat
+      durchschnittlich 82 740 €.                                                 3        3
+
+ b) 19 Bögen + 2 Bögen = 21 Bögen
+      Bei 21 Bögen ergeben sich 20 Zwischenräume.
+      Also gilt: 160 : 20 = 8
+
+      Der Abstand zwischen den Bögen beträgt 8 m.                                2        1
+
+ c)   Nur die dritte Funktionsgleichung kommt in Frage, da der Koeffizient
+      von x 2 negativ und das konstante Glied (also +18,5) positiv ist.
+
+      Ein negativer Koeffizient von x 2 bedeutet, dass die Parabel nach
+      unten geöffnet ist. Das passt zur Abbildung.
+      Ein positiver Wert des konstanten Gliedes bedeutet, dass der Scheitel
+      der Parabel oberhalb der x-Achse liegt. Auch das passt zur Abbildung.
+                                                                                          2
+
+
+
+
+                                                                                                     53
+Mittlerer Schulabschluss Mathematik                  Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                                Zuordnung,
+                                                                                                Bewertung
+                            Lösungsskizze: Europa Passage
+                                                                                            I      II    III
+
+ d)      ● Höhe eine Bogens: 18,5 Meter
+         ● Zur Bestimmung des Abstands der Punkte A und B sind die
+           Nullstellen der Parabel zu berechnen.
+                    f (x ) = 0
+                2
+         −1, 2 x + 18,5 = 0
+                 −1, 2 x 2 = −18,5
+                             18,5
+                       x2 =
+                              1, 2
+                                 18,5
+                     x1,2 = ±
+                                  1, 2
+                     x1,2 = ±3, 9264...
+
+         2 ⋅ 3, 9264... = 7, 8528...
+
+         Der Abstand zwischen den Punkten A und B beträgt etwa 7,85 Meter. 1                        2        2
+
+ e) Wenn der Graph zur Funktionsgleichung f ( x ) = − 1, 2 ⋅ x 2 + 18, 5 an der
+    x-Achse gespiegelt wird, ändern sich die Vorzeichen des Koeffizienten
+    von x2 und des konstanten Gliedes. Man erhält folgende
+    Funktionsgleichung: f1 ( x ) = 1, 2 ⋅ x 2 − 18, 5
+        Wird der Graph zur Funktionsgleichung f1 ( x ) = 1, 2 ⋅ x 2 − 18, 5 dann in
+        Richtung der positiven x-Achse um 2 Einheiten verschoben, so steht
+                                                      2
+        anstelle von x 2 dementsprechend ( x − 2) in der Gleichung.
+
+        Die Parabel hat nun die Funktionsgleichung f2 ( x ) = 1, 2 ⋅ ( x − 2 ) − 18,5.
+                                                                              2
+                                                                                                    2        2
+
+                                                                  Insgesamt 20 BWE         6       10        4
+
+
+
+
+   54
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben         Mittlerer Schulabschluss Mathematik
+
+
+
+Feuerwerksraketen und Wasserraketen (Leitidee funktionaler Zusammenhang)
+
+                                                                                      Zuordnung,
+                                                                                      Bewertung
+           Lösungsskizze: Feuerwerksraketen und Wasserraketen
+                                                                                  I      II    III
+
+
+ a)   10 000 : 12,5 = 800
+      oder:
+      12,5 ⋅ 800 = 10 000
+
+      Sabrina hat Recht.                                                          2
+
+
+b) ●      ≈ 93 m (Toleranz: ±1 )
+
+      ●   ≈ 31 m (Toleranz: ±1 )
+      ●
+
+              x       0        5       ≈ 9,5     ≈ 21
+
+              y       0       51        80        80
+
+
+
+      Eine Ungenauigkeit für den y-Wert ist bis zu 5 m tolerabel.
+      Eine Ungenauigkeit für die x-Werte ist bis zu 2 m tolerabel.
+
+
+      ●   Die y-Werte x > 30,5 liegen hinter dem Landepunkt der Rakete.
+          Daher liegt x = 35 außerhalb der Flugkurve.                             4      3
+
+
+
+
+                                                                                                     55
+Mittlerer Schulabschluss Mathematik                       Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                                    Zuordnung,
+                                                                                                    Bewertung
+             Lösungsskizze: Feuerwerksraketen und Wasserraketen
+                                                                                                I      II    III
+
+      ● Berechnung der Nullstellen:
+ c)
+      0 = −0, 4 x 2 + 12, 2 x
+      0 = −0, 4 x ⋅ ( x − 30,5 )
+        x1 = 0; x2 = 30,5
+      Die Rakete landet in einer Entfernung von 30,5 m vom Startpunkt.
+
+
+
+      ● Bestimmung der Koordinaten des Scheitelpunktes:
+
+      Argumentation über die Symmetrieeigenschaft der Parabel:
+
+      für x = 30, 5 : 2 = 15, 25 gilt:
+
+        f ( x ) = −0, 4 ⋅ 15,252 + 12,2 ⋅ 15,25
+        f ( x ) = 93,025
+      S (15,25 | 93,025)
+
+      Argumentation über die Scheitelpunktform:
+
+        f ( x ) = −0, 4 x 2 + 12,2 x
+
+                          (
+        f ( x ) = −0, 4 ⋅ x 2 − 30,5x)
+        f ( x ) = −0, 4 ⋅ ( x − 30,5x + 15, 25 − 15,25 )
+                           2                    2     2
+
+
+
+        f ( x ) = −0, 4 ⋅ ( x − 15,25) − 232,5625
+                                            2
+
+                                                 
+        f ( x ) = −0, 4 ⋅ ( x − 15,25) + 93, 025
+                                        2
+
+
+
+      S (15, 25 | 93, 025)
+
+      Die Rakete erreicht bei einer Entfernung von 15,25 m des
+      Abschussortes eine maximale Höhe von ungefähr 93 m.                                              6         2
+
+
+d)      f ( x ) = −0, 4 x 2 + 12, 2 x
+        f ( 4 ) = −0, 4 ⋅ 42 + 12, 2 ⋅ 4
+               = 42, 4
+        42, 4 > 40
+
+      In 4 Metern Entfernung vom Startpunkt fliegt die Rakete in einer Höhe
+      von 42,4 m. Somit fliegt sie an einem 40 m hohen Gebäude vorbei.                                 1         2
+
+                                                                      Insgesamt 20 BWE          6     10         4
+
+
+
+
+   56
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+Besuch im Tierpark (Leitidee funktionaler Zusammenhang)
+
+                                                                                     Zuordnung,
+                                                                                     Bewertung
+                            Lösungsskizze: Besuch im Tierpark
+                                                                                 I      II    III
+
+
+ a) Kosten für Eintrittskarten mit Gruppenkarte:
+    29 ⋅ 4,50 = 130,50
+     2 ⋅ 6,50 = 13, 00
+    130,50 + 13, 00 = 143,50
+
+      Der Besuch im Tierpark kostet mit Gruppenkarte 143,50 €.                   2
+
+
+b) Für Schüler kostet die Einzelkarte 6,00 €, die Gruppenkarte 4,50 €.
+      6, 00
+            = 1, 333... = 133, 33... %
+      4,50
+
+      Die Einzelkarte für Schüler ist um etwa 33 % teurer als die
+      Gruppenkarte. Lucie hat Recht.                                             2      1
+
+
+ c)   ● Bestimmung des Durchmessers:
+      uKreis = π ⋅ d |: π
+      uKreis
+               =d
+        π
+                   280
+            d=           = 89,126...
+                    π
+      Der Durchmesser des kreisförmigen Geheges beträgt ungefähr 89 m.
+      ● Berechnung der Größe des Flächeninhalts:
+
+      AKreis = π ⋅ r2
+
+            d   89,126...
+      r=      =            = 44,563...
+            2         2
+      AKreis = π ⋅ r 2= 6 238, 873...
+
+      Die Anlage für Robben hat eine Flächengröße von ungefähr 6 239 m2
+      .
+      Falls mit d = 89 m gerechnet worden ist, ergibt sich ein Flächenhalt
+                                    2
+      von ungefähr 6 221 m .                                                     2      1
+
+
+d)    • f ( x ) = −0,18 ⋅ 32 + 0, 9 ⋅ 3 + 1, 8
+        f ( x ) = 2, 88
+
+
+               x           3,00 m        4,00 m
+                                                                                        2
+            f (x)          2,88 m        2,52 m
+
+
+
+
+                                                                                                    57
+Mittlerer Schulabschluss Mathematik                  Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                               Zuordnung,
+                                                                                               Bewertung
+                           Lösungsskizze: Besuch im Tierpark
+                                                                                           I      II    III
+
+
+ e)   • Entfernung der Robbe zum Tierpfleger (Bestimmung der Nullstelle):
+          0 = −0,18 x 2 + 0, 9 x + 1, 8 |: (−0,18)
+          0 = x 2 − 5x − 10
+                                 2
+                   −5      −5 
+        x1,2 = −      ±        + 10
+                   2        2 
+
+        x1,2 = 2,5 ± 16, 25
+         x1 = 2,5 + 4, 031... = 6,531...
+      [x2 = 2,5 − 4, 031... = −1,531...]
+
+      Die Robbe ist vom Tierpfleger ungefähr 6,5 m entfernt.
+      Der negative Wert hat keine Relevanz.
+      • Umformung in die Scheitelpunktform:
+        f ( x ) = −0,18 x 2 + 0, 9 x + 1, 8
+              = −0,18 ⋅ ( x 2 − 5x − 10)
+              = −0,18 ⋅ ( x 2 − 5x + 2,52 − 2,52 − 10)
+
+              = −0,18 ⋅ ( x − 2,5) − 16, 25
+                                    2
+
+                                             
+                                         2
+              = −0,18 ⋅ ( x − 2,5) + 2, 925
+              S (2,5 | 2, 925)
+      Die maximale Höhe der Flugbahn beträgt ungefähr 3 m.                                        5         2
+
+
+ f)   Die Abwurfhöhe ist der Schnittpunkt mit der y-Achse. Bei g ( x) wird
+      der Hering in einer Höhe von 1,8 m abgeworfen.
+
+      Umwandeln von h ( x) in die Normalform:
+                                     2
+        h ( x ) = −0, 6 ( x − 0,5) + 1,7
+              = − 0, 6 ( x 2 − x + 0,25) + 1, 7
+              = − 0, 6 x 2 + 0, 6 x − 0,15 + 1, 7
+              = − 0, 6 x 2 + 0, 6 x + 1,55
+
+      1,8 −1,55 = 0,25
+
+      In g ( x) ist die Abwurfhöhe um 25 cm höher als bei h ( x) .                                1         2
+
+                                                                 Insgesamt 20 BWE          6     10         4
+
+
+
+
+   58
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                 Mittlerer Schulabschluss Mathematik
+
+
+
+Autofahrten (Leitidee funktionaler Zusammenhang)
+
+                                                                                              Zuordnung,
+                                                                                              Bewertung
+                             Lösungsskizze: Autofahrten
+                                                                                          I      II    III
+
+
+ a) Kosten für die Miete des Leihwagens und den (voraussichtlichen)
+    Benzinkosten:
+      7 ⋅ 23, 20 + 9, 52 ⋅ 6 ⋅ 1,339 = 238, 88368
+
+     Die Kosten für den Leihwagen betragen voraussichtlich ungefähr
+     238,88 €.
+
+
+     Alternative Rechnung mit dem vorgegebenen Wert von 950 km ergibt
+     Kosten in Höhe von 238,72 €.                                                         3      1
+
+
+b) ● fehlende Werte in Tabelle 2
+
+                 Geschwindigkeit
+          x                            60        ≈ 80      100   120        130
+                    in km/h
+
+                    ungefährer
+                      Benzin-
+        f ( x)      verbrauch          3,0       3,5       4,3   ≈ 5,4      6,9
+                   in Litern pro
+                      100 km
+
+     Hinweis: Wenn anstelle von 5,4 der Wert 5,5 eingetragen ist, ist die
+                                                                                          2
+     Lösung ebenfalls als richtig zu bewerten.
+
+
+
+
+                                                                                                             59
+Mittlerer Schulabschluss Mathematik                  Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                               Zuordnung,
+                                                                                               Bewertung
+                               Lösungsskizze: Autofahrten
+                                                                                           I      II    III
+
+
+b) ● rechnerische Lösung:
+        f ( x ) = 0, 0004x 2 − 0,32x + 3,5144
+           6 = 0, 0004x 2 − 0, 032 x + 3,5144 | −6
+           0 = 0, 0004x 2 − 0, 032x − 2, 4856 |: 0, 0004
+           0 = x 2 − 80x − 6 214
+        Anwenden der p-q-Formel:
+                           2
+                   p    p
+        x1,2 = −     ±   −q
+                   2   2
+                                2
+                 −80      −80 
+        x1,2 = −     ±         + 6 214
+                  2       2 
+        x1,2 = 40 ± 88, 396...
+        x1 = 128, 396...
+        x2 = −48,396...
+
+      Anwenden der quadratischen Ergänzung:
+
+                    0 = x 2 − 80 x + 1 600 − 1 600 − 6 214
+                                 2
+                    0 = ( x − 40) − 7 814
+                                 2
+             7 814 = ( x − 40)
+        ±88,396... = x − 40
+                    x1 = 128, 396...
+                   x2 = −48, 396...
+
+      Der negative Wert hat für diese Fragestellung keine Relevanz und
+      bleibt daher unberücksichtigt.
+      Bei einer Geschwindigkeit von ungefähr 128 km/h verbraucht das
+      Auto 6 Liter pro 100 km.                                                                    4         1
+
+
+ c)   Als Nullstelle bezeichnet man den Schnittpunkt einer Funktion mit der
+      x-Achse. Die Anzahl der Nullstellen lässt sich anhand der
+      Diskriminante bzw. dem Term unter der Wurzel bestimmen. Zur
+      rechnerischen Bestimmung wird die Funktion „gleich Null“ gesetzt,
+      anschließend wird die Gleichung nach x aufgelöst.
+
+      0 = 0, 0004 x 2 − 0, 032 x + 3,5144 |: 0, 0004
+      0 = x 2 − 80 x + 8 786
+        Anwenden der p-q-Formel:
+                                2
+                   −80    −80 
+        x1,2 = −       ±       − 8 786
+                    2     2 
+        x1,2 = 40 ± 1 600 − 8 786
+        x1,2 = 40 ± −7 186
+
+      Der Radikand ist negativ. Daher hat die Funktion keine Nullstellen.                         2         2
+
+
+   60
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                     Zuordnung,
+                                                                                     Bewertung
+                              Lösungsskizze: Autofahrten
+                                                                                 I      II    III
+
+
+d) Lösung mit Hilfe des Gleichungssystems:
+      I. 2 x + 160y = 134, 80
+      II. 5 x + 615y = 414, 00
+      Gleichungen umformen:
+      I. 2 x + 160y = 134, 80 |: 2
+      II. 5 x + 615y = 414, 00 |: 5
+      
+      I. x + 80y = 67, 40       | −80y
+      II. x + 123y = 82, 80 | −123y
+      
+      I. x = 67, 40 − 80y
+      II. x = 82, 80 − 123y
+
+     Gleichungen I und II gleichsetzen:
+      67, 40 − 80y = 82, 80 − 123y        | +123y
+      67, 40 + 43y = 82, 20              | −67, 40
+                43y = 15, 40              |: 43
+                   y = 0, 358...
+
+      x ausrechnen:
+      x = 67, 4 − 80 ⋅ 0,358... = 38,748...
+     Die Grundgebühr für den Leihwagen beträgt etwa 38,75 € pro Tag, für
+     jeden gefahrenen Kilometer werden etwa 0,36 € berechnet.                    1      3         1
+
+                                                           Insgesamt 20 BWE      6     10         4
+
+
+
+
+                                                                                                      61
+Mittlerer Schulabschluss Mathematik                 Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Parabelflug (Leitidee funktionaler Zusammenhang)
+                                                                                              Zuordnung,
+                                                                                              Bewertung
+                                 Lösungsskizze: Parabelflug
+                                                                                          I      II    III
+
+a)    30 ⋅ 22 = 660
+      660 : 60 = 11
+      Bei 30 Parabelflügen werden durchschnittlich 660 Sekunden
+      Schwerelosigkeit erreicht. Das entspricht genau 11 Minuten.                         3
+
+
+b)    • f3 ( x ) = 62,5x
+
+                6 250
+      •a=             = 62, 5
+                 100
+      Da das Flugzeug nach 100 Sekunden eine Flughöhe von 6 250 Metern
+      erreicht, steigt es pro Sekunde 62,5 m.                                             1      2
+
+
+c)    Die Länge des Parabelfluges ist durch den Abstand der Nullstellen
+      definiert.
+
+      −8,26 x 2 + 181, 72 x = 0
+            −8, 26 x ⋅ ( x − 22) = 0
+                               x1 = 0
+                        x2 − 22 = 0       +22
+                              x2 = 22
+
+          x 2 + 181,72 x = 0            : (−8,26)
+                2
+              x − 22 x = 0
+      Lösung mit p-q-Formel p = −22, q = 0 :
+
+                                      2
+                    −22    −22 
+          x1,2 = −      ±      
+                    2      2 
+          x1,2 = 11 ± 11
+           x1 = 0; x 2 = 22
+
+      Lösung durch quadratische Ergänzung:
+                    2
+      ( x − 11) = 121
+            x − 11 = ±11           +11
+                x1 = 0 ; x2 = 22
+
+      Der Parabelflug dauert genau 22 Sekunden.                                           1      4
+
+
+
+
+     62
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben           Mittlerer Schulabschluss Mathematik
+
+
+
+                                                                                        Zuordnung,
+                                                                                        Bewertung
+                               Lösungsskizze: Parabelflug
+                                                                                    I      II    III
+
+d)   Die maximale Parabelhöhe wird im Scheitelpunkt erreicht.
+     Dieser liegt bei x = 11.
+
+      f ( x ) = −8,26 ⋅ 112 + 181,72 ⋅ 11
+      f ( x ) = 999, 46
+
+      7500 + 999, 46 = 8 499, 46
+     Da der Parabelflug auf einer Höhe von 7 500 m startet, beträgt die
+     maximale Flughöhe etwa 8 500 m.                                                1      3
+
+
+e)   Die Nullstellen und der Scheitelpunkt der Parabel sind gegeben:
+                       N1 (0 l 0) , N2 (22 l 0) und S (11 l 1210)
+     Vorläufige Scheitelpunktform der Parabel:
+                          2
+      f ( x ) = a ⋅ ( x − 11) + 1 210
+
+     a wird durch Einsetzen von einer der Nullstellen bestimmt.
+                               2
+             0 = a ⋅ (22 − 11) + 1 210
+             0 = 121a + 1 210                  − 1 210
+      −1 210 = 121a                                    :121
+         −10 = a
+
+                               2
+      f ( x ) = − 10 ⋅ ( x − 11) + 1 210                                                   1         4
+
+
+                                                              Insgesamt 20 BWE      6     10         4
+
+
+
+
+                                                                                                         63
+Mittlerer Schulabschluss Mathematik                Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Wasserfontäne (Leitidee funktionaler Zusammenhang)
+
+                                                                                             Zuordnung,
+                                                                                             Bewertung
+                                 Lösungsskizze: Wasserfontäne
+                                                                                         I      II    III
+
+
+ a)   1 140 ⋅ 4,5 = 5 130
+      2 964 ⋅ 4,5 = 13 338
+
+      Vor Eröffnung der Wasserfontäne betrugen die durchschnittlichen
+      Tageseinnahmen 5 130 Euro pro Tag, nach Eröffnung 13 338 Euro.                     2
+
+
+b)             2 964
+        p=           − 1 = 1,6 = 160 %
+               1 140
+
+      Die Besucherzahl ist um 160 % gestiegen.                                           1      1
+
+
+ c)   16 000 : 2 964 = 5,398... ≈ 5, 40
+      5, 40 − 4,50 = 0,90
+
+      Man muss den Eintrittspreis um ungefähr 0,90 Euro erhöhen, um
+      16 000 Euro Einnahmen zu generieren. (Das setzt natürlich voraus,
+      dass sich die Besucherzahlen trotz der Preiserhöhung nicht verändern.
+      „Praktisch“ wäre eine Erhöhung um 1 Euro.)                                         3
+
+
+d)             f ( x) = 0
+           2
+        −x + 4x = 0                     ⋅ (−1)
+           2
+          x − 4x = 0
+        x ⋅ ( x − 4) = 0 ⇒ x1 = 0 ; x2 = 4
+
+      An der Stelle x = 0 tritt die Wasserfontäne aus der Öffnung aus. Nach
+      4 Metern trifft sie wieder auf den Boden auf.                                             4
+
+
+ e) Überführung von der Normalform in die Scheitelpunktform:
+        f ( x ) = −x 2 + 4 x
+               = −  x 2 − 4 x + 4 − 4
+
+               = − ( x − 2) − 4
+                             2
+
+                                 
+                             2
+               = − ( x − 2) + 4
+
+      Die Wasserfontäne erreicht eine maximale Höhe von 4 Metern.
+
+      Hinweis: Eine Argumentation mit der Symmetrie ist möglich. Der
+      höchste Punkt muss an der Stelle x = 2 liegen f (2) = 4.                                  4
+
+
+
+
+   64
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                     Zuordnung,
+                                                                                     Bewertung
+                           Lösungsskizze: Wasserfontäne
+                                                                                 I      II    III
+
+
+ f)   Die Parabel soll um 0,84 Einheiten in positiver y-Richtung verschoben
+      werden, womit sich alle Funktionswerte um 0,84 vergrößern. Man
+      erhält die Funktionsgleichung:
+
+      f ( x) = −x2 + 4x + 0,84
+
+      a darf höchstens 4,5 sein und die Wasserfontäne darf an der Stelle
+      4,5 höchstens den Wert 0 annehmen, da die Wasserfontäne sonst
+      über den erlaubten Bereich hinauszielen würde. Zu untersuchen ist,
+      wie groß der Wert f (4,5) ist.
+
+      f (4,5) = −4,52 + 4 ⋅ 4,5 + 0,84 = −1, 41
+
+      Da der Wert negativ ist, prallt die Wasserfontäne innerhalb des
+      erlaubten Bereichs auf den Boden auf. Die Besucher werden nicht
+      nass. Die Öffnung darf also 84 cm über dem Erdboden angebracht
+      werden.
+
+      Alternativ könnte man mit der Lage der Nullstellen argumentieren.                 1         4
+
+
+                                                           Insgesamt 20 BWE      6     10         4
+
+
+
+
+                                                                                                      65
+Mittlerer Schulabschluss Mathematik                  Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Flöhe (Leitidee funktionaler Zusammenhang)
+
+                                                                                               Zuordnung,
+                                                                                               Bewertung
+                                  Lösungsskizze: Flöhe
+                                                                                           I      II    III
+
+
+ a)         5% ≙ 20
+          100% ≙ 400
+        400 − 20 = 380
+      Es sind 380 Eier, Larven und Puppen im Fell eines Hundes bei
+      20 erwachsenen Flöhen.                                                               3
+
+
+b) ● Auswahl:
+      (3) y = 40x + 278 ist die richtige Funktionsgleichung.
+      ● Begründung:
+      - Die Steigung beträgt 40, da 40 Eier pro Tag gelegt werden.
+      - Der y-Achsenabschnitt liegt bei +278, da die Anzahl der Eier schon
+      vorhanden ist.
+
+      ● Berechnung:
+            y = 40x + 278
+      2 318 = 40x + 278         − 278
+      2 040 = 40x               : 40
+          51 = x
+
+      Nach 51 weiteren Tagen ist die Anzahl der Eier erreicht.
+      Falls eine andere Funktionsgleichung gewählt wurde, ist auf
+      Folgefehler zu achten. Für (1) ergibt sich 64,9 und für (2) 7,141… als
+      Lösung.                                                                              3      4
+
+
+ c)   Dieser Floh springt 30 cm hoch.
+      Weite des Sprunges über Nullstellenberechnung:
+
+                   f1 ( x ) = − 0, 05x 2 + 30
+                       0 = − 0, 05x 2 + 30      + 0, 05x 2
+               0, 05 x 2 = 30                   :0, 05
+                      x 2 = 600
+                    x1,2 = ± 24, 494897...
+      24, 494897... ⋅ 2 = 48, 98979...
+
+      Dieser Floh springt etwa 49 cm weit.
+      Der negative Wert entfällt.                                                                 5         1
+
+
+
+
+   66
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben             Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                          Zuordnung,
+                                                                                          Bewertung
+                                  Lösungsskizze: Flöhe
+                                                                                      I      II    III
+
+
+d) ● Ausgangsgleichung: f ( x) = − 0,05x2 + 30
+
+     Variante 1:
+     Der Parameter a wird beibehalten, c wird geändert: c > 30
+
+     Begründung: Der Scheitelpunkt wird hochgesetzt, dadurch wird der
+     Abstand der Nullstellen zueinander größer.
+
+
+     Variante 2:
+     Der Parameter c = 30 wird beibehalten, a wird geändert:
+      −0,05 < a < 0
+
+     Begründung: Die Parabel wird stärker gestaucht, so dass die
+     Nullstellen weiter auseinander liegen.
+
+
+     Variante 3:
+                                                           c
+     Die Parameter a und c werden beide geändert:            > 600
+                                                           a
+
+     ● Begründung: Die Parabel muss für einen weiteren Sprung stärker
+     gestaucht sein und/oder einen höheren Scheitelpunkt haben.
+     Sollte Variante 3 gewählt worden sein, müssen a < 0 und c > 0 sein,
+     um einen Sprung dazustellen.                                                            1         3
+
+
+                                                             Insgesamt 20 BWE         6     10         4
+
+
+
+
+                                                                                                           67
+Mittlerer Schulabschluss Mathematik                   Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Schützenfisch (Leitidee funktionaler Zusammenhang)
+
+                                                                                                Zuordnung,
+                                                                                                Bewertung
+                              Lösungsskizze: Schützenfisch
+                                                                                            I      II    III
+
+
+ a)   100 % ≙ 230 000
+           1 % ≙ 2 300
+         12 % ≙ 27 600
+
+      Es gibt im Meer 27 600 Fischarten.                                                    2      1
+
+
+b)     15 min = 0,25 h
+      7 000 m = 7 km
+
+            s
+      v=
+            t
+              7
+      v=          = 28
+            0, 25
+
+      Ein solcher Raubfisch schwimmt mit einer Geschwindigkeit von
+           km
+      28      .
+            h                                                                               2      2
+
+
+ c)                    1         2
+      • f1 ( x ) = −     ( x − 2) + 2 ist die richtige Funktionsgleichung.
+                       2
+                     1         2
+      ● Bei f2 ( x ) = −
+                       ( x + 2) + 2 ist der Scheitelpunkt falsch angeben, er
+                     2
+      hätte die Koordinaten bei (−2 2) .
+
+                  1         2
+      Bei f3 ( x ) =( x − 2) − 2 ist (a) der Scheitelpunkt falsch angeben, er
+                  2
+      hätte die Koordinaten bei ( 2 − 2) oder (b) der Graph zu dieser
+      Funktionsgleichung ist nach oben geöffnet.                                            1      2
+
+
+d) ● Der Scheitelpunkt liegt bei (2 2) , es wird eine maximale Höhe von
+      2 Metern erreicht.
+      ● Bestimmung der Entfernung über Nullstellenberechnung:
+              1         2
+         0=−    ( x − 2) + 2        −2
+              2
+              1         2              1
+        −2 = − ( x − 2)            : − 
+              2                        2 
+                       2
+         4 = ( x − 2)
+        ±2 = x − 2                  +2
+         0 = x1
+         4 = x2
+
+      Der Wasserstrahl trifft nach 4 Metern wieder auf die
+      Wasseroberfläche.                                                                     1      5
+
+
+   68
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+
+                                                                                     Zuordnung,
+                                                                                     Bewertung
+                            Lösungsskizze: Schützenfisch
+                                                                                 I      II    III
+
+               1 2
+ e)   g (x) = −   x + 1, 05x
+               4
+                1
+          1 = − x 2 + 1, 05x             −1
+                4
+               1                    1
+          0 = − x 2 + 1, 05x − 1 :  − 
+               4                    4
+          0 = x − 4, 2 x + 4
+               2
+
+
+
+      Anwenden der p-q-Formel:
+
+      x1,2 = 2,1 ± 2,12 − 4
+      x1,2 = 2,1 ± 0, 41
+       x1 = 2,740...
+       x2 = 1, 459...
+      Das Insekt kann entweder ungefähr 2,7 Meter oder ungefähr
+      1,5 Meter entfernt vom Fisch auf die Wasseroberfläche fallen.                               4
+
+
+                                                           Insgesamt 20 BWE      6     10         4
+
+
+
+
+                                                                                                      69
+Mittlerer Schulabschluss Mathematik                       Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+3.3 Aufgaben zur Leitidee Daten und Zufall
+    (Wahlaufgabe)
+Schweinerei
+                                                                                                    Zuordnung,
+                                                                                                    Bewertung
+                             Lösungsskizze: Schweinerei
+                                                                                                I      II    III
+
+ a)         Lage         „Sau“         „Suhle“      „Haxe“     „Schnauze“       Summe
+          absolute
+                          1302           498            129          71           2000
+         Häufigkeit
+          relative
+                         0,651          0,249       0,0645         0,0355           1
+         Häufigkeit
+                                                                                                5
+
+ b)      • Die Ergebnisse in den Tabellen zeigen, dass die relativen
+           Häufigkeiten den vom Hersteller genannten Wahrscheinlichkeiten
+           sehr gut entsprechen.
+         • Eventuelle Abweichungen sind vermutlich darin begründet, dass
+           die Anzahl der Versuche nicht groß genug ist.
+         Es ist nicht korrekt, die Abweichungen als fehlerhafte
+         Herstellerangaben zu deuten. Auf Folgefehler ist zu achten.                                   3
+
+ c)      • P(Sau, Sau) = 0, 65 ⋅ 0, 65
+                          = 0, 4225
+
+           Die Wahrscheinlichkeit für dieses Ereignis beträgt etwa 42 %.
+         • P (Haxe, nicht Haxe ) = 0, 06 ⋅ (1 − 0, 06 )
+                                      = 0, 06 ⋅ 0, 94
+                                      = 0, 0564
+                                                                                                1      4
+           Die Wahrscheinlichkeit für dieses Ereignis beträgt etwa 3 %.
+ d)      P (Schwein liegt nicht auf "Schnauze") = 1 − 0, 03
+                                                         = 0, 97
+
+            P (mindestens ein Schwein liegt auf "Schnauze")
+         = 1 − P (drei Schweine liegen nicht auf "Schnauze")
+                    3
+         = 1 − 0, 97
+         = 0,087327
+         Die Wahrscheinlichkeit beträgt etwa 8,7 %.                                                    3
+        Mit diesen Daten kann man den Erwartungswert (E ) der Auszahlung
+ e)
+        des Glücksspiels ausrechnen:
+        E = 0,275 ⋅ 2 + 0,087 ⋅ 3 + 0,018 ⋅ 5 = 0,901
+        Da die Klasse pro Spiel 1 € einnehmen, aber im langfristigen Mittel
+        nur 90 Cent pro Spiel auszahlen müssen, können sie langfristig mit
+        Einnahmen rechnen.                                                                                   4
+
+                                                                       Insgesamt 20 BWE         6      10    4
+
+
+
+
+   70
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                  Mittlerer Schulabschluss Mathematik
+
+
+
+Stadtbus (Leitidee Daten und Zufall)
+                                                                                               Zuordnung,
+                                                                                               Bewertung
+                               Lösungsskizze: Stadtbus
+                                                                                           I      II    III
+
+ a)
+      150 : 3 = 50
+
+      Die durchschnittliche Anzahl an Verspätungen beträgt 50.
+                                                                                           2
+
+b)
+      ● Das Kreisdiagramm III stellt das Untersuchungsergebnis richtig dar.
+
+      ● Das Kreisdiagramm I ist falsch, da der Anteil für die Buslinie 6 nicht
+      50 % beträgt.
+
+       75  1
+          = = 0,5 = 50 % ≠ 45 %
+      150  2
+
+      Das Kreisdiagramm II ist falsch, da der Anteil der Buslinie 39 nicht
+      38 % beträgt.
+
+       57
+          = 0, 38 = 38 % ≠ 32 %
+      150
+                                                                                           1      4
+
+ c)
+      • Vollständiges Baumdiagramm:
+
+
+
+
+      • Bestimmen der Wahrscheinlichkeit:
+
+      P (verspätet,in App gemeldet) = 0,13 ⋅ 0, 65
+                                          = 0, 0845
+                                          = 8, 45 %
+
+
+      Die Wahrscheinlichkeit, dass ein Bus der Linie 252 verspätet ist und
+      der Fahrer die Verspätung in der App meldet, beträgt ungefähr 8,5 %.
+                                                                                           3      5
+
+d)
+      Fiona:
+
+      P (drei Busse sind hintereinander pünktlich) = 0, 873
+                                                           = 0, 6585... > 0, 5                    1         4
+
+
+                                                                                                                71
+Mittlerer Schulabschluss Mathematik              Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+                                                                                           Zuordnung,
+                                                                                           Bewertung
+                               Lösungsskizze: Stadtbus
+                                                                                       I      II    III
+
+
+     Kubilay:
+     Das Gegenereignis zu „mindestens einer von fünf Bussen ist
+     verspätet“ ist „keiner von fünf Bussen ist verspätet“:
+
+                                                                           5
+        P (mindestens einer von fünf Bussen ist verspätet) = 1 − (0, 87)
+                                                             = 0, 5015... ≠ 0, 9
+
+     Fionas Aussage ist wahr und Kubilays Aussage ist falsch.
+
+
+                                                             Insgesamt 20 BWE          6     10         4
+
+
+
+
+   72
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                 Mittlerer Schulabschluss Mathematik
+
+
+
+(Gezinkte) Münze (Leitidee Daten und Zufall)
+
+                                                                                              Zuordnung,
+                                                                                              Bewertung
+                          Lösungsskizze: (Gezinkte) Münze
+                                                                                          I      II    III
+
+ a)
+        Ergebnis         absolute          relative Häufigkeit   relative Häufigkeit
+                        Häufigkeit             (als Bruch)           (in Prozent)
+
+        Kopf (K)             12                    12                  48 %
+                                                   25
+
+        Zahl (Z)             13                    13                  52 %
+                                                   25
+
+        Summe                25                     25                 100 %
+                                                    25                                    3       2
+
+
+ b) ● (K, Z, Z); (Z, K, Z), (Z, Z, K); (Z, Z, Z)
+      ● Es gilt: P (Kopf ) = 55 % = 0,55
+
+      Weil „Zahl“ das Gegenereignis zu „Kopf“ ist, muss gelten:
+                                                 45   9
+      P (Zahl) = 1 − P (Kopf ) = 1 − 0,55 =         =
+                                                100 20                                    1       3
+
+
+ c)
+
+
+
+
+                                                                                          2       4
+
+
+
+
+                                                                                                             73
+Mittlerer Schulabschluss Mathematik                 Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                              Zuordnung,
+                                                                                              Bewertung
+                          Lösungsskizze: (Gezinkte) Münze
+                                                                                          I      II    III
+
+ d)     • P (Peter gewinnt) = 3 ⋅ 0,552 ⋅ 0, 45 + 0,553
+                              = 0,57475
+
+        Peter gewinnt mit einer Wahrscheinlichkeit von ungefähr 57,5 %.
+        • P (Peter gewinnt zweimal hintereinander ) = 0,574752
+                                                          = 0, 3303375625
+
+        Peter gewinnt mit einer Wahrscheinlichkeit von ungefähr 33 %
+        zweimal hintereinander.                                                                   1        4
+
+
+                                                                 Insgesamt 20 BWE         6      10        4
+
+
+
+
+   74
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben                                     Mittlerer Schulabschluss Mathematik
+
+
+
+Klassendienste (Leitidee Daten und Zufall)
+
+                                                                                                                  Zuordnung,
+                                                                                                                  Bewertung
+                               Lösungsskizze: Klassendienste
+                                                                                                              I      II    III
+
+ a) ● Der niedrigste Wert liegt bei 8 Klassendiensten, der höchste bei
+    17 Klassendiensten.
+
+      Die Spannweite ist demnach 17 − 8 = 9 .
+
+      ● Die horizontale Linie stellt den Mittelwert der erledigten
+      Klassendienste der Kinder dar. Mit ihrer Hilfe kann man auf einem
+      Blick erkennen, wer mehr oder weniger Dienste, als im Durchschnitt,
+      erledigt hat.
+
+      ● Berechnung der durchschnittlichen Wahrscheinlichkeit:
+         13+12 +11+9+15 +8 +10+13 +14+10 +11+16 +13+14 +10+14 +12+14+15+13+12 +9+17 +13+16
+                                                  25
+
+          314
+        =
+           25
+        = 12,56
+
+      Die Linie schneidet die y-Achse bei 12,56.                                                              4       2
+
+
+ b) Da immer wieder neu ermittelt wird, liegt die Wahrscheinlichkeit in
+    der nächsten Woche einen Klassendienst auszuüben wieder bei 32 %.
+    Insofern ist Karls Aussage falsch.                                                                                3
+
+
+ c)                          8 
+                                        3
+
+      P (Klassendienst ) =   = 0, 032768
+                            25 
+
+      Die Wahrscheinlichkeit, dreimal hintereinander einen Klassendienst
+      ausüben zu müssen, beträgt etwa 3,3 %.                                                                          3
+
+
+
+
+                                                                                                                                 75
+Mittlerer Schulabschluss Mathematik                 Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                              Zuordnung,
+                                                                                              Bewertung
+                            Lösungsskizze: Klassendienste
+                                                                                          I      II    III
+
+ d)
+
+
+
+
+                                      17 9 1   1
+        P (kein Klassendienst) =        ⋅  ⋅ =    = 0, 04 = 4 %
+                                      25 17 9  25
+
+        Die Wahrscheinlichkeit, keinen Klassendienst zugewiesen zu
+        bekommen, beträgt 4 %.                                                            2       2        2
+
+
+ e) Während im vorherigen Verfahren nach einem Schuljahr noch eine
+    relativ breite Streuung in der Anzahl zu sehen ist, müsste es nach der
+    Regel der großen Zahl im Laufe von 6 Schuljahren und somit rund
+    200 Schulwochen zwar wohl keine Gleichheit, aber schon eine
+    Angleichung in der Anzahl der auszuübenden Klassendienste
+    stattfinden. Da beide Verfahren auf dem Zufall beruhen, sind beide
+    Verfahren in gleich fair.                                                                              2
+
+                                                                 Insgesamt 20 BWE         6      10        4
+
+
+
+
+   76
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben           Mittlerer Schulabschluss Mathematik
+
+
+
+Eiskunstlauf (Leitidee Daten und Zufall)
+
+                                                                                        Zuordnung,
+                                                                                        Bewertung
+                             Lösungsskizze: Eiskunstlauf
+                                                                                    I      II    III
+
+
+ a)   3600 ⋅ 6 + 2 400 ⋅ 8 + 1200 ⋅ 10 = 52 800
+      Die Gesamteinnahmen durch den Verkauf der Eintrittskarten betragen
+      52 800 Euro.                                                                  2      1
+
+
+b) - Das Kreisdiagramm besteht aus mehr als drei Kreissektoren bzw.
+     weist einen Spalt auf.
+   - Die Beschriftung ist nicht vollständig.
+   - Der Halbkreis ist mit „Loge“ statt mit „Parkett“ beschriftet.
+   - Der mit „VIP“ beschriftete Anteil ist kleiner als ein Sechstel.
+   - Der Anteil für die Kategorie „Loge“ ist größer als ein Drittel.                3      2
+
+
+ c)   • Vollständiges Baumdiagramm (mit Beschriftung):
+
+
+
+
+      • Bestimmung der Wahrscheinlichkeit, dass beide Sprünge gelingen:
+
+        P (beide Sprünge gelingen) = 0, 95 ⋅ 0, 8 = 0, 76 = 76 %
+      Die Wahrscheinlichkeit, dass beide Sprünge gelingen, beträgt 76 %.            1      6         2
+
+
+d)    Anzahl der Reihenfolgen:
+      5! = 5 ⋅ 4 ⋅ 3 ⋅ 2 ⋅ 1 = 120
+
+      Nala hat Recht. Es gibt 120 verschiedene Reihenfolgen.                               1         2
+
+                                                           Insgesamt 20 BWE         6     10         4
+
+
+
+
+                                                                                                         77
+Mittlerer Schulabschluss Mathematik                    Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+Fremdsprachen (Leitidee Daten und Zufall)
+
+                                                                                                 Zuordnung,
+                                                                                                 Bewertung
+                           Lösungsskizze: Fremdsprachen
+                                                                                             I      II    III
+
+a)    9 ⋅ 0 + 54 ⋅ 1 + 279 ⋅ 2 + 90 ⋅ 3 + 18 ⋅ 4   954
+                                                 =     = 2,12
+                         450                       450
+
+     Die durchschnittliche Anzahl erlernter Fremdsprachen beträgt 2,12
+     bzw. ungefähr 2.                                                                        1      2
+
+
+b)      90
+     ●       = 0, 2 = 20 %
+        450
+     ● Vollständiges Säulen-
+     diagramm:
+      18
+           = 0, 04 = 4 %
+      450
+     Da der Balken für 3 Fremd-
+     sprachen 0,2 hoch ist, weiß
+     man, dass auf der Achse mit
+     den relativen Häufigkeiten
+     eine Einheit 0,1 lang ist.
+     Zu berechnen ist dann noch
+     die Höhe des Balkens
+     für 4 Fremdsprachen.
+
+     Eine Angabe in Prozent ist an der y-Achse ebenfalls möglich.                            5      1
+
+
+c)   Inga hat bei der 1. Stufe die Ereignisse R und F vertauscht.
+     Bei der 2. Stufe muss an den Pfaden, die zu R führen, jeweils die
+     Wahrscheinlichkeit 0,6 stehen, bei den Pfaden, die zu F führen, jeweils
+     die Wahrscheinlichkeit 0,4.                                                                    3
+
+
+d)    P (genau ein Satz richtig) = 0, 6 ⋅ 0, 4 + 0, 4 ⋅ 0, 6
+                                      = 0, 48 = 48 %
+     Die Wahrscheinlichkeit, dass genau einer der Sätze richtig übersetzt
+     wird, beträgt 48 %.                                                                            3         1
+
+
+e) Vor dem Update sind 4 von 10 Sätzen falsch übersetzt worden. Das
+   entspricht 40 %. Nach dem Update gibt es nur halb so viele
+   Fehlersätze, d.h. 2 von 10 Sätzen werden fehlerhaft übersetzt. Das
+   entspricht 20 %. Also werden nach dem Update 80 % aller Sätze
+   korrekt übersetzt, aber nicht 90 %.
+   Die Aussage des Herstellers ist somit falsch.                                                    1         3
+
+                                                                   Insgesamt 20 BWE          6     10         4
+
+
+
+
+   78
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben       Mittlerer Schulabschluss Mathematik
+
+
+
+Blutgruppen (Leitidee Daten und Zufall)
+
+                                                                                    Zuordnung,
+                                                                                    Bewertung
+                             Lösungsskizze: Blutgruppen
+                                                                                I      II    III
+
+a) 100 % – 43 % – 11 % – 5 % = 41 %
+     41 % der Deutschen haben die Blutgruppe 0.                                 1
+
+
+b) ● Auswahl:
+
+
+
+
+     Eine Rechnung hierzu ist:
+      9 000 000
+                 = 0,1099... ≈ 11 %
+      81 890 000
+
+     Eine Darstellung der Rechnung ist nicht gefordert, kann aber schon zu
+     einem Teilpunkt führen.                                                    2
+
+
+c)   • Kreisdiagramm C gibt die Verteilung der Blutgruppen richtig wieder.
+
+
+
+
+     • Mögliche Begründungen, warum A und B nicht stimmen:
+     In Diagramm A gibt es zwei Sektoren mit jeweils 25 %, welche in der
+     Verteilung jedoch nicht vorkommen.
+     Diagramm B kann nicht stimmen, weil keine der Blutgruppen zu mehr
+     als 50 % vorkommt.
+     Hinweis: Ein Folgefehler aus a) ist zu berücksichtigen.                    1      2
+
+
+
+
+                                                                                                   79
+Mittlerer Schulabschluss Mathematik                     Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                                  Zuordnung,
+                                                                                                  Bewertung
+                              Lösungsskizze: Blutgruppen
+                                                                                              I      II    III
+
+d) ● Mögliche Spenderjahre von Sebastian: 47 − 18 = 29
+       ● Anzahl der möglichen Blutspenden pro Jahr:                 365 : 58 = 6, 293...
+
+       Maximal gespendete Blutmenge pro Jahr: 365 : 58 ⋅ 0,5 = 3,14655...
+
+       Maximale Menge des gespendeten Bluts: 29 ⋅ 3,14655... = 91, 25
+
+       Sebastians Aussage ist falsch. Er kann bisher nicht mehr als rund
+       91 Liter Blut gespendet haben.
+       Gerundete Werte sollen als korrekt bewertet werden.
+       Wenn mit 30 Spenderjahren gerechnet wird, weil Sebastians erste
+       Spende an seinem 18. Geburtstag und seine letzte einen Tag vor
+       seinem 48. Geburtstag stattgefunden haben könnte, so ist das auch
+       als richtig zu bewerten. Auch diese maximal mögliche Menge an Blut
+       würde mit ungefähr 94,4 Litern noch unter 100 Liter liegen.                            1      3
+
+
+e)     • P (B,B ) = 0,11 ⋅ 0,11 = 0, 0121 ≈ 1 %
+
+       Die Wahrscheinlichkeit, dass beide Personen die Blutgruppe B
+       besitzen, liegt bei ungefähr 1%.
+
+       • P ( A,A ) = 0, 43 ⋅ 0, 43 = 0,1849 = 18, 49 %
+           P (B,B ) = 0,11 ⋅ 0,11 = 0, 0121 = 1, 21 %
+           P ( AB,AB ) = 0, 05 ⋅ 0, 05 = 0, 0025 = 0, 25 %
+           P ( 0, 0 ) = 0, 41 ⋅ 0, 41 = 0,1681 = 16, 81 %
+
+           P ( A,A ) + P (B,B) + P (AB,AB) + P (0, 0) = 0, 3676 = 36, 76 %
+
+       Die Wahrscheinlichkeit, dass beide Personen die gleiche Blutgruppe
+       haben, liegt bei 36,76 %.                                                              1      4         2
+
+
+ f)    Das Gegenereignis zu „mindestens einer“ ist „keiner“.
+       P (keiner AB) = 0, 9521
+                      = 0, 34056...
+
+       P (mindestens einer AB) = 1 − P (keiner AB)
+                                   = 1 − 0,34056...
+                                   = 0, 6594...
+       Die Wahrscheinlichkeit, dass mindestens ein Schüler oder eine
+       Schülerin in dieser Klasse die Blutgruppe AB besitzt, liegt in etwa bei
+       65,9 %.                                                                                       1         2
+
+
+                                                                    Insgesamt 20 BWE          6     10         4
+
+
+
+
+      80
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben        Mittlerer Schulabschluss Mathematik
+
+
+
+Hamburg-Marathon (Leitidee Daten und Zufall)
+
+                                                                                     Zuordnung,
+                                                                                     Bewertung
+                        Lösungsskizze: Hamburg-Marathon
+                                                                                 I      II    III
+
+
+ a) 2 Stunden 7 Minuten 17 Sekunden = 7 637 Sekunden
+      7 637 s → 42 195 m
+            1 s → 5, 525075... m
+      3 600 s → 19 890, 27... m = 19, 890... km
+
+      Der schnellste Läufer hatte eine Durchschnittsgeschwindigkeit von
+      ungefähr 19,9 km/h.                                                        2
+
+
+b)       4, 25 min → 1 km
+      179, 3... min → 42,195 km
+
+      179,3… min < 180 min bzw. 3 h
+      Georg schafft die Strecke in knapp unter 3 Stunden.                               2
+
+
+ c)        3359
+      ●         = 0,22768... = 22,768... %
+          14753
+
+      ● 22,768… % von 360° sind 81,9657…°
+      Die Winkelgröße für den weiblichen
+      Anteil sollte zwischen 81° und 83°
+      liegen.
+      Berechnung mit dem Kontrollwert:
+      23 % von 360° sind 82,8°
+      Diese Winkelgröße des Kontrollwerts für den weiblichen Anteil sollte
+      zwischen 82° und 84° liegen.
+      Die prozentualen Angaben sind als Beschriftung nicht zwingend
+      erforderlich.                                                              4      1
+
+
+d) Georg betrachtet die absolute Häufigkeit:
+      3359
+           = 5,306... ≈ 5
+       633
+      Vera geht von der relativen Häufigkeit aus:
+               633
+      1986:         = 0, 090987... ≈ 9,1%
+              6 957
+
+               3 359
+      2015:          = 0,22768... ≈ 22, 8 %
+              14 753
+
+       0, 22768...
+                   = 2,502... ≈ 2,5
+      0, 090987...
+
+      Wenn die Begriffe absolute und relative Häufigkeit nicht genannt
+      werden, aber durch Rechnung oder Beschreibung derselbe
+      Sachverhalt dargestellt wird, wird die volle Punktzahl gegeben.                   4
+
+
+
+                                                                                                    81
+Mittlerer Schulabschluss Mathematik                Lösungen zu den zentralen schriftlichen Prüfungsaufgaben
+
+
+
+
+                                                                                             Zuordnung,
+                                                                                             Bewertung
+                           Lösungsskizze: Hamburg-Marathon
+                                                                                         I      II    III
+
+
+ e) Startnummern, die mit der Ziffer 4 beginnen, und zwischen 1 und
+    20 000 liegen:
+      4, 40-49, 400-499, 4 000-4 999
+      Das sind insgesamt 1 + 10 + 100 + 1 000 = 1 111 Startnummern.
+
+         1 111
+               = 0,05555
+        20 000
+
+      Die Wahrscheinlichkeit, dass Georgs Startnummer mit der Ziffer 4
+      beginnt, liegt bei etwa 5,6 %.                                                            2         2
+
+
+ f)   Das Gegenereignis zu „mindestens eine 4“ ist „keine 4“. Da die
+      Startnummern nur bis 20 000 vergeben werden, kann an der ersten
+      Stelle nicht die Ziffer 4 vorkommen.
+                            9 9 9 9
+        P (keine 4) =1 ⋅     ⋅  ⋅  ⋅   = 0, 6561 = 65, 61 %
+                           10 10 10 10
+
+        P ( min eine 4 ) = 1 − 0,6561 = 0,3439 = 34,39 %
+
+      Die Wahrscheinlichkeit, dass mindestens eine „4“ in seiner
+      Startnummer vorkommt, liegt bei etwa 34 %.                                                1         2
+
+
+                                                               Insgesamt 20 BWE          6     10         4
+
+
+
+
+   82
+

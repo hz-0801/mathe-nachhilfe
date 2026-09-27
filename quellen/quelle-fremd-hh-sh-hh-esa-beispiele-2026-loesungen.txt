@@ -1,0 +1,2642 @@
+QUELLE: Hamburg, Erster allgemeinbildender Schulabschluss – Mathematik, Hinweise und Beispiele zu den zentralen Prüfungsaufgaben (BSFB, 3. überarbeitete Auflage, Hamburg, Januar 2026) – Lösungen und Bewertungshinweise
+ADRESSE: https://www.hamburg.de/resource/blob/133272/f2091f792939adfc9e183a2ef20741e4/mathematik-loesungen-hinweise-und-beispiele-fuer-zentrale-pruefungsaufgaben-data.pdf
+ABRUF: 2026-09-27
+SEITEN: 47
+LIZENZVERMERK: Alle Rechte vorbehalten.
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Erster allgemeinbildender Schulabschluss
+Hinweise und Beispiele zu den zentralen schriftlichen Prüfungsaufgaben
+ Schriftliche Prüfung zum
+ersten allgemeinbildenden
+            Schulabschluss
+
+
+                  Mathematik
+
+   Lösungen zu den zentralen
+schriftlichen Prüfungsaufgaben
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+Impressum
+
+
+
+Herausgeber:
+Freie und Hansestadt Hamburg
+Behörde für Schule, Familie und Berufsbildung
+Hamburger Straße 31, 22083 Hamburg
+
+
+
+Referatsleitung Mathematisch-naturwissenschaftlich-technischer Unterricht:
+
+Dr. Najibulla Karim
+
+
+Fachreferentin Mathematik für Stadtteilschulen:
+
+Anna Catharina Serck
+
+
+
+Redaktion:
+
+Jirko Michalski
+Lis Nielsen
+Carsten Reich
+Anna Catharina Serck
+Christine Töllner
+Jennifer Waygood
+
+
+Urheberrechtliche Hinweise zu Änderungen ggü. der 2. Auflage:
+Vorwort sowie Überarbeitung des Aufbaus, der Formatierung und Schlussredaktion:
+Anna Catharina Serck und Dr. Najibulla Karim
+
+
+Alle Rechte vorbehalten.
+
+Internet: http://www.hamburg.de/abschlusspruefungen
+
+
+
+3. überarbeitete Auflage, Hamburg, Januar 2026
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+Inhaltsverzeichnis
+
+
+1. Vorwort .............................................................................................. 3
+
+2.    Lösungen zu den Aufgaben ohne Einsatz des Taschenrechners
+
+      2.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen .............. 4
+
+      2.2 Aufgaben zur Überprüfung der Kompetenzen - leitideenübergreifend .. 11
+
+3.    Lösungen zu den komplexen Aufgaben mit Einsatz des Taschenrechners
+
+      3.1 Aufgaben zur Leitidee Zahl und zur Leitidee Messen ......................... 24
+
+      3.2 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen ...... 31
+
+      3.3 Aufgaben zur Leitidee Funktionaler Zusammenhang ......................... 37
+
+      3.4 Aufgaben zur Leitidee Daten und Zufall .......................................... 41
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+1. Vorwort
+Sehr geehrte Kolleginnen und Kollegen,
+
+die vorliegende Handreichung versteht sich als Ergänzung zu den „Regelungen für die
+zentralen   schriftlichen Prüfungsaufgaben“    und   enthält die   Lösungen    und
+Bewertungshinweise der Übungsaufgaben und Beispiele für Prüfungsaufgaben, wie sie
+für die zentralen schriftlichen Abschlussprüfungen zum Erwerb des ersten
+allgemeinbildenden Schulabschlusses gestaltet sein werden. Die Aufgaben dieser
+Handreichung basieren auf veränderten Aufgaben aus ehemailgen Prüfungen.
+
+Vor dem Hintergrund der veränderten Rahmenbedingungen der schriftlichen ESA-Prüfung,
+insbesondere der verkürzten Bearbeitungszeit sowie der angepassten Aufgabenformate,
+wurde die Handreichung überprüft und inhaltlich weiterentwickelt. Ziel ist es, Lehrkräften
+sowie Schülerinnen und Schülern eine verlässliche Orientierung und eine gezielte
+Vorbereitung auf die aktuellen Prüfungsanforderungen zu ermöglichen.
+
+Die Aufgabenstellungen berücksichtigen den Rahmenplan Mathematik für die
+Stadtteilschule sowie die in den Bildungsstandards der Kultusministerkonferenz für den
+ersten allgemeinbildenden Schulabschluss formulierten zentralen Ideen (Leitideen) und
+Anforderungen.
+
+Das Heft mit Übungsaufgaben wurde bereits mehrfach überarbeitet. Mit der nun
+vorliegenden Fassung erscheint die Handreichung in dritter, überarbeiteter Auflage. Neben
+formalen Anpassungen und einer weiteren Modifikation des Aufbaus wurden insbesondere
+folgende Aspekte gegenüber der vorhergehenden Auflage berücksichtigt:
+
+    •   Für den hilfsmittelfreien Teil (Teil I) stehen den Prüflingen sechs Aufgabensätze zur
+        Verfügung, die Aufgaben zu verschiedenen Leitideen enthalten und in Umfang sowie
+        Struktur an die aktuellen Prüfungsformate angepasst sind. Die Tabellen mit den
+        zugehörigen Anforderungen, die eine Verknüpfung zwischen Aufgaben und
+        Anforderungen herstellen sollen, wurden beibehalten. Diese geben einen Überblick
+        über die mathematischen Inhalte der Leitideen, ohne Anspruch auf Vollständigkeit.
+    •   Um den Prüflingen im Teil II die Möglichkeit zu geben, mathematische Kompetenzen
+        gezielt bezogen auf jeweils eine Leitidee mit Einsatz eines Taschenrechners und der
+        zugelassenen Formelsammlung zu überprüfen und zu üben, gibt es im Vergleich zur
+        zweiten Auflage kürzere Aufgaben, die weniger textlastig und die an die veränderten
+        zeitlichen Rahmenbedingungen der Prüfung angepasst sind.
+    •   Für die Schülerinnen und Schüler gibt es unverändert eine Übersichtsseite, auf der
+        dokumentiert werden kann, welche Aufgaben wann und mit welchem Erfolg
+        bearbeitet wurden und eine unveränderte Übersicht über die in den Aufgaben
+        verwendeten Operatoren.
+
+In der Hoffnung, dass die vorliegende Handreichung Sie bei Ihrer Unterrichtsarbeit sowie
+bei der Vorbereitung Ihrer Schülerinnen und Schüler auf die schriftliche Abschlussprüfung
+unterstützt, wünschen wir Ihnen und Ihren Schülerinnen und Schülern viel Erfolg.
+Um die weitere Qualitätsentwicklung der Prüfungsaufgaben sind wir ständig bemüht, gern
+nehmen wir daher Ihre Rückmeldungen entgegen.
+
+
+
+Anna Catharina Serck                                              Dr. Najibulla Karim
+Fachreferentin Mathematik                                         Referatsleiter
+Stadtteilschulen                                                  MINT-Referat
+
+
+
+
+                                                                                                         3
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+ 2.     Lösungen zu den Aufgaben ohne Einsatz des Taschenrechners
+
+ 2.1 Aufgaben zur Überprüfung der Kompetenzen nach Leitideen
+
+                               Leitidee „Zahl“ (Teil 1)                                         Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                               Lösung           Buchstabe         I      II       III
+
+1.    350 ⋅ 200 =                                           70 000                 B           1
+
+2.    125 : 5 =                                                25                  C           1
+
+3.    Sandra möchte ein T-Shirt für 29,98 €
+      kaufen. Sie hat 25,50 € gespart.                       4,48 €                B                  1
+      Es fehlen ihr noch
+
+4.    52 – 15 ⋅ 5 =                                           –23                  A           1
+
+5.    Welche Aufgabe ergibt 7?                             49 :(3 + 4)             C                  1
+
+6.    Richtig gerundet sind 1 859 244                      1,86 Mio.               B           1
+
+7.    Welche Angabe lässt sich sinnvoll
+                                                        Körpergewicht              C                  1
+      runden?
+
+8.    Welche Zahl ist die größte?                           0,5 Mrd.               D           1
+
+9.    Welche Zahl ist die kleinste?                            0,2                 C           1
+
+10. Die Temperatur fällt von 8°C auf
+                                                              12°C                 A                  1
+    –4°C. Das ist ein Unterschied von
+
+11.   ( −8) ⋅ ( −5) =                                          40                  D           1
+
+12. −8 − 5 =                                                  –13                  B           1
+
+13. 112 =                                                     121                  C           1
+
+14. 23 =                                                        8                  B           1
+
+15. ( − 1)5 =                                                  –1                  B                  1
+
+
+
+
+                                                                                                           4
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                               Leitidee „Zahl“ (Teil 2)                                         Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                Lösung           Buchstabe         I      II       III
+
+1.   5, 3 − 2,1 =                                              3,2                 D           1
+
+2.   1, 2 + 0,15 + 0, 65 =                                      2                  C           1
+
+3.   0, 6 ⋅ 0, 5 =                                             0,3                 C           1
+
+4.   100 : 0, 2 =                                             500                  D           1
+
+5.   1 1                                                        3
+      +  =                                                                         B           1
+     4 8                                                        8
+
+6.       1   3                                                  1
+     1     −   =                                                                   C           1
+         4   4                                                  2
+
+7.   3 2                                                        1
+      ⋅ =                                                                          A           1
+     4 9                                                        6
+
+     3 1
+8.    :  =                                                      3                  D           1
+     4 4
+
+9.   2
+       von 1 Stunde sind                                     24 min                C                  1
+     5
+
+10. Gib an, wie viel Prozent vom Kreis
+    gefärbt sind.
+
+                                                            33, 3 %                A           1
+
+
+
+
+11. 30 % von 450 g sind                                      135 g                 C           1
+
+12. Doppelt so teuer! Das ist eine Erhöhung
+                                                             100 %                 C                  1
+    um
+
+13. 4 von 20 Kindern haben kein Handy. Das
+                                                             20 %                  C           1
+    sind
+
+14. Ein Kleid kostet 50 €. Die Kundin
+    bekommt                                                   40 €                 C                  1
+    20 % Rabatt. Das Kleid kostet jetzt
+
+15. In einer 9. Klasse sind 18 Schüler
+    16 Jahre alt. Das sind 60 % der Schüler.              30 Schüler               D                  1
+    Die Klasse hat also
+
+
+
+
+                                                                                                           5
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                   Leitidee „Messen“                                            Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                Lösung           Buchstabe         I      II       III
+
+1.   4 000 cm =                                               40 m                 C           1
+
+2.   2,5 kg sind mehr als                                   2 450 g                A           1
+
+3.   0,027 km =                                               27 m                 B           1
+
+4.   Ein Volumen wird angegeben in                           Litern                C           1
+
+5.   Eine Landstraße hat eine ungefähre
+                                                              8m                   B                  1
+     Breite von
+
+6.   Der Winkel β hat eine
+                                                              60°                  C           1
+     Größe von etwa
+
+7.   Ein Zug fährt durchschnittlich                         250 km
+                                                                                   C                  1
+     200 km/h. Nach 75 min ist er ungefähr                 gefahren
+
+8.   Abfahrt: 22:42 Uhr
+     Fahrzeit: 4:25 h                                      03:07 Uhr               B                  1
+     Die Ankunft ist dann um
+
+9.   Ein Rechteck hat die Seiten a = 9 cm;
+                                                             42 cm                 D           1
+     b = 12 cm. Sein Umfang beträgt
+
+10. Ein Dreieck mit der Grundseite 12 m und               Grundseite
+    der Höhe 5 m hat den gleichen                        15 m und der              D                           1
+    Flächeninhalt wie ein Dreieck mit der                  Höhe 4 m
+
+11. Bei einem Dreieck mit
+     α = 40 ° und γ = 50° ist β =                             90°                  A           1
+
+
+12. In einem Parallelogramm ist Winkel
+    α = 44° groß. Bestimme die Größe von                      136°                 C                  1
+     β.
+
+13. a = 8 cm;
+    b = 6 cm
+                                                             10 cm                 B           1
+     Die Länge der
+     Seite c beträgt
+
+14. Ein Würfel hat die Kantenlänge a. Seine
+                                                              6 a2                 B           1
+    Oberfläche beträgt dann
+
+15. Das Volumen eines Würfels beträgt
+    64 cm3 . Die Länge einer Kante des                        4 cm                 D           1
+    Würfels beträgt
+
+
+
+
+                                                                                                           6
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                             Leitidee „Raum und Form“                                           Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                               Lösung           Buchstabe         I      II       III
+
+1.    Ein Quadrat ist                                     eine Fläche              A           1
+
+2.
+                                                         ein Parallelo-
+                                                                                   A           1
+                                                            gramm
+      Dies ist
+
+3.    Ein Würfel hat                                       12 Kanten               C           1
+
+4.    Welches Netz ergibt einen Würfel?
+                                                                                   C                  1
+
+
+5.    Bei einem rechtwinkligen Dreieck gilt               der rechte
+      immer                                              Winkel ist der            D           1
+                                                            größte
+
+6.    Die Anzahl der Symmetrieachsen in
+                                                                4                  D           1
+      einem Quadrat beträgt
+
+7.    Ein Quader ist auch ein                                Prisma                B           1
+
+8.    In einem stumpfwinkligen Dreieck                  ist ein Winkel
+                                                                                   B           1
+                                                        größer als 90°
+
+9.    Zu einem Prisma passt folgendes Netz
+                                                                                   A           1
+
+
+10. Ein quadratisches Prisma hat als                       4 gleiche
+                                                                                   C                  1
+    Seitenflächen                                          Rechtecke
+
+11. Die Anzahl der Kanten
+    beträgt                                                     6                  D           1
+
+
+
+12. Ein Kegel hat die Form
+                                                                                   B           1
+
+
+13. Die Diagonalen im Rechteck                            sind immer
+                                                                                   C                  1
+                                                          gleich lang
+14.                                                       sind zwei
+      In einem gleichschenkligen Dreieck                Winkel immer               C                  1
+                                                         gleich groß
+15. Zu einem Quadrat fehlt
+    der Punkt mit den
+                                                             P (2 3 )              C                  1
+    Koordinaten
+
+
+
+
+                                                                                                           7
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                      Leitidee „Funktionaler Zusammenhang“                                      Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                               Lösung              Buchstabe      I      II       III
+
+1.    4 Steine wiegen 24 kg wiegen, dann
+                                                              54 kg                B                  1
+      wiegen 9 Steine der gleichen Sorte
+
+2.    8 LKW fahren einen Müllberg in 3 Tagen
+      weg. 4 LKW brauchen bei gleicher                       6 Tage                C                  1
+      Leistung
+
+3.    Vier Dosen Hundefutter kosten 1,96 €.
+                                                             4,41 €                C                  1
+      Der Preis für 9 Dosen beträgt
+
+4.    2 Pumpen benötigen 3 Stunden, um
+      einen Keller leer zu pumpen. Eine Pumpe              6 Stunden               A                  1
+      allein benötigt bei gleicher Leistung
+
+5.    x+y+x+x+y =                                           3 x + 2y               B           1
+
+6.    Die Gleichung 2 x = 24 hat die Lösung                  x = 12                A           1
+
+7.    x = 2,5 ist die Lösung der Gleichung                  8 x = 20               D                  1
+
+8.    5x − 3 = 4 x + 4 ergibt umgeformt                       x =7                 A                  1
+
+9.    2 ⋅ (x + 3) =                                          2x + 6                B                  1
+
+10. Eine Kerze von 5 cm Höhe brennt                       Höhe in cm
+
+    gleichmäßig ab. Dazu passt der Graph                                           D                  1
+                                                                  Zeit in min
+
+
+11. Zu einer linearen Funktion gehört der
+    Graph                                                                          C           1
+
+
+
+12. Der Term y = 3 x passt zu der Aussage               Lena ist 3-mal
+                                                                                   D                  1
+                                                        so alt wie Tim
+
+13. Im Rechteck ist eine Seite 3-mal so lang
+    wie die andere. Der Umfang lässt sich                    u = 8x                D                           1
+    mit folgendem Term berechnen
+
+14.
+      Ein zylinderförmiger Tank wird mit
+      unterschiedlich starkem Wasserzulauf                                         A                  1
+      gefüllt. Es passt der Graph
+
+
+15. Welcher Graph beschreibt die Kosten
+    einer Telefonflatrate?
+                                                                                   B                           1
+    x entspricht der Zeit; y entspricht den
+    Kosten in Euro
+
+
+                                                                                                           8
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                            Leitidee „Daten und Zufall“                                         Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                Lösung           Buchstabe         I      II       III
+
+1.   Zu dieser Tabelle passt das Diagramm:
+      Klasse Siege
+        9a       3                                                                 A           1
+        9b       2
+        9c       5
+2.   Ein Verein hat von 34 Spielen 13 Spiele
+     gewonnen. Das ist eine absolute                           13                  A           1
+     Häufigkeit von
+
+3.   30 Schüler wurden befragt, wie viel Zeit
+     sie für Hausaufgaben pro Woche
+     brauchen:
+       Stunden Schüler
+           1         5
+           2        10                                         2,5                 B                  1
+           3        10
+           4         5
+     Im Durchschnitt macht jeder Schüler
+     ___ Stunden Hausaufgaben.
+
+4.   7 von 25 Schülern haben ihre
+     Hausaufgaben nicht gemacht. Das                         28 %                  D                  1
+     entspricht einer relativen Häufigkeit von
+
+5.   15 von 25 Schülern haben Ebru zur
+     Klassensprecherin gewählt. Das ist eine                   0,6                 C                  1
+     relative Häufigkeit von
+
+6.   Der Mittelwert von 6 und 10 ist                            8                  C           1
+
+7.   Theo ist 7 Jahre,
+     Max 14 Jahre und
+                                                            11 Jahre               B                  1
+     Kai 18 Jahre alt.
+     Die Spannweite beträgt
+8.   Die Schuhgrößen der Familie Alaj sind
+     27, 32, 39 und 42.                                       35,5                 C                  1
+     Der Zentralwert beträgt.
+
+9.   Die Wahrscheinlichkeit dafür, aus einem
+     Kartenspiel mit 32 Karten einen der vier               12,5 %                 C                  1
+     Buben zu ziehen, beträgt
+
+10. Die Wahrscheinlichkeit dafür, von 4
+    Streichhölzern das kurze Streichholz zu
+    ziehen, beträgt
+                                                             25 %                  C                  1
+
+
+
+
+                                                                                                           9
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                            Leitidee „Daten und Zufall“                                         Zuordnung,
+                                                                                                Bewertung
+
+    Aufgabe                                                 Lösung           Buchstabe         I      II        III
+
+11. Die Wahrscheinlichkeit dafür, mit einem
+                                                                3
+    Spielwürfel eine gerade Zahl zu würfeln,                    6
+                                                                                   C                  1
+    beträgt
+
+12. Beim 1. Wurf mit einem normalen
+    Spielwürfel fällt eine „3“. Die                             1
+                                                                                   A                  1
+    Wahrscheinlichkeit, beim 2. Wurf eine                       6
+    „3“ zu würfeln, beträgt
+
+13. Die Wahrscheinlichkeit dafür, aus den
+                                                               9
+    Zahlen von 1 bis 49 eine Zahl zu ziehen,                   49
+                                                                                   C                  1
+    die durch 5 teilbar ist, beträgt
+
+14. Die Wahrscheinlichkeit dafür, mit einem                     5
+    normalen Spielwürfel keine 4 zu würfeln,                                       D                  1
+                                                                6
+    beträgt
+
+15. In einem Säckchen liegen 15 Buchstaben
+    des Wortes ABSCHLUSSARBEIT. Welcher
+    Buchstabe wird mit einer                                    S                  C                            1
+    Wahrscheinlichkeit 1 gezogen?
+                       5
+
+
+
+
+                                                                                                           10
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+ 2.2 Aufgaben zur Überprüfung der Kompetenzen - leitideenübergreifend
+ Erstes Beispiel – Erwartungshorizont
+
+                                 Lösung: Erstes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                               Lösung           Buchstabe         I      II        III
+
+1.    1,20 m sind                                           120 cm                 C           1
+
+2.    1
+        =                                                    25 %                  B           1
+      4
+
+3.    Heute ist der 5. Mai. In genau vier
+                                                            02. Juni               C                  1
+      Wochen ist der
+
+4.    80 − 26 − 4 =                                            50                  D           1
+
+5.    −78 : 10 =                                              −7,8                 C           1
+
+6.    (8 − 2) ⋅ 2 =                                            12                  A                  1
+
+7.        1
+      5     Stunden sind                                    330 min                C           1
+          2
+
+8.    Ein Quadrat hat einen Flächeninhalt von
+      36 m2 . Wie lang ist die Seite a des                  a=6m                   B                  1
+      Quadrats?
+
+9.    5 3                                                      15
+       ⋅ =                                                                         D                  1
+      8 7                                                      56
+
+10.                       Dies ist kein…                    Drachen                C                  1
+
+11. 0,5a + 1,5 = 3,5
+                                                              a=4                  D                  1
+      Wie heißt die Lösung für a?
+
+12. Eine Tonne entspricht                                  1 000 kg                C           1
+
+13.
+                      c
+       a=3
+                                                           c = 5 cm                B                  1
+                 b=4
+
+      Wie lang ist die Seite c?
+
+14. Wie viel wiegt eine Getränkedose mit
+                                                             350 g                 C                  1
+    330 ml Inhalt ungefähr?
+
+15. In einem Säckchen befinden sich eine
+    gelbe und drei rote Kugeln. Es wird eine
+    gelbe Kugel gezogen und nicht wieder
+                                                                1                  D                  1
+    zurückgelegt. Die Wahrscheinlichkeit
+    dafür, beim nächsten Ziehen eine rote
+    Kugel zu ziehen, beträgt
+
+                                                                                                           11
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                 Lösung: Erstes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+    Aufgabe                                                 Lösung             Buchstabe       I      II        III
+
+16. 3x + 3 = x + 5
+                                                                x =1               A                  1
+    Berechne x.
+
+17. Ein Kreis hat einen Radius von 2 m. Die
+    Größe des Flächeninhalts des Kreises                    12,5 m2                C                  1
+    beträgt etwa
+
+18. Die Wahrscheinlichkeit dafür, aus den
+                                                                 5
+    Zahlen von 1 bis 49 eine Zahl zu ziehen,                                       B                  1
+                                                                 49
+    die durch 9 teilbar ist, beträgt
+
+19. Das Volumen eines Würfels beträgt
+    0,125 cm3 . Dann ist die Länge der                       0,5 cm                A                            1
+    Kante a des Würfels
+
+20. Der abgebildete Körper
+    sieht in der Seitenansicht                                                     C                  1
+    von rechts so aus:
+
+21. 6 ist die Lösung von                                   2⋅    6 +3              D                  1
+
+22. Die Funktion mit der Gleichung
+                                                                 3                 A           1
+    y = 3x + 4 hat die Steigung
+
+23. Für den Flächeninhalt des
+                                                                 π ⋅ r2
+    schwarzen Kreisausschnittes                            A=                      B                            1
+                                                                      4
+    gilt
+
+24. Von 400 Äpfeln sind 20 verfault. Das
+                                                                5%                 A                  1
+    sind
+
+25. 5Mit 2a + 2b berechnet man den Umfang
+                                                           Rechtecks               B           1
+    . eines
+
+                                                                          Insgesamt 25 BWE     8     15         2
+
+
+
+
+                                                                                                           12
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+ Zweites Beispiel - Erwartungshorizont
+
+                                Lösung: Zweites Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                Lösung           Buchstabe         I      II        III
+
+1.   −100 + 98 =                                               −2                  C           1
+
+2.   320 ⋅ 20 =                                              6 400                 C           1
+
+3.   3 ⋅ (4 − 8) ⋅ 0 =                                          0                  B           1
+
+4.   1 3                                                        1
+      + =                                                                          A           1
+     8 8                                                        2
+
+5.   70 ⋅ (−300) =                                          −21 000                A                  1
+
+6.   1,1 ist kleiner als                                      1,11                 D           1
+
+7.   1:2=                                                      0,5                 D           1
+
+8.   Der Temperaturunterschied zwischen
+                                                             12° C                 B           1
+     –5° C und 7° C beträgt
+
+9.   Die Wahrscheinlichkeit dafür, von
+     4 Streichhölzern nicht das kurze
+     Streichholz zu ziehen, beträgt                          75 %                  D                  1
+
+
+
+
+10. Abfahrt eines Busses in Hamburg 8:50
+    Uhr, Ankunft in Berlin 12:10 Uhr. Der                 3 h 20 min               A           1
+    Bus fährt
+
+11. Ergänze: 24 ⋅ 3 = 4 ⋅ ___                                  18                  A                  1
+
+12. 1 000 000 : 1 000 =                                      1 000                 B           1
+
+13. 24 =                                                       16                  C                  1
+
+14. Bei einem Dreieck mit α = 60° und
+                                                              70°                  B                  1
+    γ = 50° ist β =
+
+15. Ein Rechteck mit den Seitenlängen
+    a = 2,5 cm und b = 6 cm hat den                         15 cm2                 D                  1
+    Flächeninhalt
+
+
+
+
+                                                                                                           13
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                Lösung: Zweites Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                               Lösung           Buchstabe         I      II        III
+
+16. Eine Jeans kostete 120 €. Der Preis wird
+    um 10 % reduziert. Die Jeans kostet                      108 €                 C                  1
+    jetzt
+
+17. 4 von 400 Sportlern bekommen eine
+                                                              1%                   A                  1
+    Medaille. Das sind
+
+18. Welcher Prozentteil des
+                                                            12,5 %                 C                  1
+    Kreises ist eingefärbt?
+
+19. 2 Schüler putzen bei gleichbleibender
+    Leistung ihren Klassenraum in
+                                                          10 Minuten               C                            1
+    15 Minuten. Ein dritter Schüler hilft mit.
+    Sie brauchen nun
+
+20.
+                                                          ein zylinder-
+                                                         förmiges Glas
+                                                            wird mit               B                  1
+                                                           Limonade
+      Entscheide, welcher Füllgraph hier                     gefüllt
+      skizziert wird:
+
+21. 4 ⋅ (2 x + 3 ) =                                        8x + 12                B                  1
+
+22. Ein Motoradfahrer fährt mit einer
+    Geschwindigkeit von durchschnittlich
+    65 km/h eine Strecke von 270 km.                       4 Stunden               B                  1
+
+      Er benötigt ca.
+
+23.   π ist dasselbe wie                                      u:d                  D                            1
+
+24. 4x – 10 = −2                                             x=2                   B                  1
+
+25. Ein Wettläufer auf Position 3 überholt
+    den Wettläufer auf Position 2 und ist                       2                  C                  1
+    somit
+
+                                                                     Insgesamt 25 BWE          9     13         2
+
+
+
+
+                                                                                                           14
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+ Drittes Beispiel – Erwartungshorizont
+
+                                Lösung: Drittes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                Lösung           Buchstabe         I      II        III
+
+1.   3 dm =                                                  30 cm                 B           1
+
+2.   Dieses Rechteck
+     hat einen
+     Flächeninhalt von                                      12 cm2                 B           1
+
+
+
+3.   Wie viele Flächen hat ein
+                                                                5                  C           1
+     Dreiecksprisma?
+
+4.   Dieser Winkel ist ein
+
+                                                        rechter Winkel             A           1
+
+
+
+
+5.
+                                                               0,3                 B           1
+     Der Pfeil zeigt auf
+
+6.   Die Lösung der Gleichung 20 = 10x +10
+                                                             x =1                  C                  1
+     ist
+
+7.   Der Mittelwert aus diesen Daten
+
+
+                                                         20 + 30 + 10
+                                                                                   A                  1
+                                                              3
+
+
+     kann berechnet werden mit
+
+8.   Gestern zeigte das Thermometer –5°C
+     an, heute zeigt es 1°C. Das ist ein                      6°C                  C                  1
+     Unterschied von
+
+9.   3 Kugeln Eis kosten 3,60 €.
+                                                             6,00 €                C           1
+     Dann kosten 5 Kugeln
+
+
+
+
+                                                                                                           15
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                Lösung: Drittes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                               Lösung           Buchstabe         I      II        III
+
+10. Ein Würfel ist auch ein                                 Quader                 D                  1
+
+11. 4 000 : 200 =                                              20                  A                  1
+
+12. Der Punkt A hat die Koordinaten
+
+
+
+                                                             (3 | 4)               C           1
+
+
+
+
+13.   1   1                                                     3
+        +   =                                                                      C                  1
+      2   4                                                     4
+
+
+14. Eine Aufteilung in 50 %, 30 %, 20 %
+    passt zu folgendem Diagramm                                                    B                  1
+
+
+15. Mehmets altes Handy kostete 150 €.
+    Das neue Handy ist 10 % teurer. Es                       165 €                 D                  1
+    kostet also
+
+16. Folgendes Ereignis hat eine                           mit einem
+    Wahrscheinlichkeit von 50 %                           normalen
+                                                       Spielwürfel eine            A           1
+                                                       gerade Zahl zu
+                                                           werfen
+
+17. Für dieses Dreieck gilt
+
+                                                          c ² = 52 cm²             B                            1
+
+
+
+
+18.                                                        Parallelo-
+      Eine Raute ist auch ein                                                      A                  1
+                                                            gramm
+
+19. Es gilt x = y ⋅ z
+      Wenn x = 18 und z = 6 ist, dann ist                       3                  C                  1
+      y=
+
+20. Zu der linearen Funktion mit der
+    Funktionsgleichung y = 2 x + 3 passt                                           A                  1
+      folgender Graph
+
+
+
+
+                                                                                                           16
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                Lösung: Drittes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                Lösung           Buchstabe         I      II        III
+
+21. Ein Würfel hat einen Oberflächeninhalt
+                                                              2 cm                 A                   1
+    von 24 cm2 . Die Kantenlänge beträgt
+
+22. Die Summe der Innenwinkel in einem
+                                                              360°                 D                   1
+    Trapez beträgt
+
+23. In einem Säckchen befinden sich Kugeln
+    mit den Buchstaben M-A-T-H-E-M-A-T-I-
+                                                                2
+    K. Eine Kugel wird zufällig gezogen. Die                                       A                   1
+                                                               10
+    Wahrscheinlichkeit dafür, ein A zu
+    ziehen, beträgt
+
+24. Der Graph passt zu
+    folgender
+                                                              y =5                 A                            1
+    Funktionsgleichung
+
+
+
+25. Minh ist 3 Jahre älter als Alexej. In
+    5 Jahren wird Minh doppelt so alt sein
+                                                            12 Jahre               B                            1
+    wie Alexej vor 2 Jahren. Wie alt ist
+    Alexej jetzt?
+
+                                                                     Insgesamt 25 BWE          8      14        3
+
+
+
+
+ Viertes Beispiel – Erwartungshorizont
+
+                                 Lösung: Viertes Beispiel                                          Zuordnung,
+                                                                                                   Bewertung
+
+     Aufgabe                                                   Lösung         Buchstabe         I      II       III
+
+1.   2 m=                                                       200 cm              B           1
+
+2.   −500 − 20 =                                                 −520               A           1
+
+3.   Das Dreieck hat einen Flächeninhalt von
+
+                                                                6 cm2               A           1
+
+
+
+
+4.   Es ist 12:20 Uhr. 40 min früher war es                   11:40 Uhr             A           1
+
+
+
+
+                                                                                                           17
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                 Lösung: Viertes Beispiel                                       Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                                  Lösung         Buchstabe         I     II        III
+
+5.    In einem Säckchen sind 8 Kugeln mit den
+                                                                   1
+      Zahlen 1 bis 8. Die Wahrscheinlichkeit, die                                   C                  1
+                                                                   4
+      Kugel mit der 1 oder 8 zu ziehen, beträgt
+
+6.    3   1                                                        1
+        −   =                                                                       B           1
+      4   2                                                        4
+
+7.    Gestern zeigte das Thermometer −15°C an,
+                                                                  11°C              B                  1
+      heute −4°C . Das ist ein Unterschied von
+
+8.    Ein Volumen kann angegeben werden in                   Kubikmetern            A           1
+
+9.    Die Lösung der Gleichung 2x + 7 = 15 ist                   x =4               C                  1
+
+10. Welche Abbildung zeigt einen spitzen
+    Winkel?                                                                         D           1
+
+
+11. Folgender Körper ist ein(e):
+
+                                                              Halbkugel             D                  1
+
+
+
+12. (− 60) ⋅ (− 3) =                                              180               D           1
+
+13. 5 kg Bananen kosten 7,50 €. Dann kosten
+                                                                4,50 €              C                  1
+    3 kg
+
+14. Welche Zahl ist die größte?                                 −4,015              C                  1
+
+15. Ein Auto soll 6 200 € kosten. Der Käufer
+                                                                5 890 €             B           1
+    bekommt 5 % Rabatt. Es kostet nun
+
+16. In einem Sack befinden sich 12 Kugeln:
+    3 rote und 9 blaue.                                       eine rote
+                                                                                    A                  1
+    Welches Ereignis hat eine                                Kugel ziehen
+    Wahrscheinlichkeit von 25 %?
+
+17. Den Umfang eines gleichschenkliges
+    Trapezes berechnet man mit folgendem                      a + 2b + c            D                  1
+    Term
+
+18. Zur Funktionsgleichung y = 3 x passt
+      folgender Graph
+                                                                                    D                  1
+
+
+
+19.    9 ⋅ 16 =                                                    12               C                  1
+
+
+                                                                                                           18
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                 Lösung: Viertes Beispiel                                       Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                   Lösung         Buchstabe         I     II        III
+
+20. Es wird mit einem normalen Spielwürfel eine
+    6 gewürfelt. Die Wahrscheinlichkeit dafür,                      1
+                                                                                    A                  1
+    beim nächsten Wurf eine 6 zu werfen,                            6
+    beträgt
+
+21. Auf der Geraden mit der Funktionsgleichung
+                                                               P (1 | 8 )           A                  1
+    y = 3 x + 5 befindet sich folgender Punkt
+
+22. Es gilt: z = a + b . Wenn z = 15 und b = 18
+                                                                  −3                C                  1
+    ist, dann ist a =
+
+23. Wie lang ist die Diagonale
+    des folgenden Rechtecks?
+                                                                 61 cm              B                           1
+
+
+
+24. Ein Quader hat ein Volumen von 600 cm3 .                 a = 20 cm
+     Dazu passen die Seitenlängen                            b = 1 dm               A                           1
+                                                             c = 3 cm
+
+25. Der Flächeninhalt eines Kreises wird
+    berechnet mit: A = π ⋅ r 2 .
+                                                           4 mal so groß            C                           1
+     Der Radius eines Kreises wird verdoppelt.
+     Der Flächeninhalt ist dann
+
+                                                                        Insgesamt 25 BWE        9     13        3
+
+
+
+
+ Fünftes Beispiel – Erwartungshorizont
+
+                                Lösung: Fünftes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                   Lösung         Buchstabe         I     II        III
+
+1.   435 – 167 – 8 =                                             260                B           1
+
+2.   1,2 ⋅ 1,2 =                                                 1,44               C           1
+
+3.   1
+       km =                                                     250 m               B           1
+     4
+
+4.   50 kg =                                                   0,050 t              D           1
+
+5.   Die Winkelsumme eines Rechtecks beträgt                     360°               C           1
+
+
+                                                                                                           19
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                Lösung: Fünftes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                   Lösung         Buchstabe         I     II        III
+
+6.   0,027 km =                                                  27 m               C           1
+
+7.   x 2 = 361. Dann ist                                        x = 19              C                  1
+
+8.   400 000 : 80 =                                             5 000               B                  1
+
+9.   120 ⋅ 0,2 =                                                  24                A           1
+
+10. Eine Höhe im Dreieck                                       steht
+                                                           senkrecht auf
+                                                                der                 A           1
+                                                            zugehörigen
+                                                             Grundseite
+
+11. 8 gleiche Steine wiegen 40 kg. Dann wiegen
+                                                                50 kg               B                  1
+    10 Steine der gleichen Sorte
+
+12. Ein rechteckiges Zimmer ist 1,96 m breit
+    und 4,57 m lang. Die Größe des                               9 m2               C                  1
+    Flächeninhalts des Bodens beträgt ca.
+
+13. 2 Pumpen benötigen
+    3 Stunden, um einen Teich leer zu pumpen.                6 Stunden              A                  1
+    Eine Pumpe allein benötigt
+
+14. 9 ⋅ 14 =                                                   76 + 50              D                  1
+
+15. 2 von 80 kg sind
+                                                                32 kg               C                  1
+    5
+
+16. Die Gleichung 2,5x – 8 = 12 hat die
+                                                                x=8                 D                  1
+    Lösung
+
+17. Dies ist
+
+
+                                                              kein Netz.            D                  1
+
+
+
+
+18. Die Summe der Innenwinkel in einem
+                                                                 360°               B           1
+    Viereck beträgt
+
+19. Aus einer gefüllten Badewanne wird Wasser
+    abgelassen. Welcher Graph passt?
+                                                                                    A                  1
+     x entspricht der Zeit;
+     y entspricht der Füllhöhe
+
+
+
+                                                                                                           20
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                Lösung: Fünftes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                   Lösung         Buchstabe         I     II        III
+
+20. Welche Aussage ist falsch?                              jeder Quader
+                                                                                    A                  1
+                                                            ist ein Würfel
+
+21. Eine Bakterienart verdoppelt sich alle
+    6 Stunden. 20 Bakterien vermehren sich                 320 Bakterien            D                           1
+    innerhalb eines Tages auf
+
+22. Das Volumen eines Quaders wird                           Länge und
+    vervierfacht. Welche Änderung führt sicher                 Breite               D                           1
+    zu dem Ergebnis?                                         verdoppeln
+
+23. Die beiden Diagonalen eines Quadrates                        sind
+                                                              senkrecht             D                  1
+                                                             zueinander
+
+24. Ein Auto kostet 24 000 €. Die zum Preis
+    hinzukommende Mehrwertsteuer von 19 %                      4 500 €              B                  1
+    beträgt ungefähr
+
+25. Welches der Dreiecke ist rechtwinklig?                    a = 3 cm,
+                                                              b = 4 cm              D                           1
+                                                              c = 5 cm
+
+                                                                       Insgesamt 25 BWE         9     13        3
+
+
+
+
+ Sechstes Beispiel – Erwartungshorizont
+
+                               Lösung: Sechstes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+     Aufgabe                                                   Lösung         Buchstabe         I     II        III
+
+1.   Zum Volumen eines Körpers passt die
+                                                                  m3                C           1
+     Maßeinheit
+
+2.   7,2 ⋅ 10 ⋅ 10 000 = =                                     720 000              D           1
+
+3.   Der Satz des Pythagoras                                  kann bei
+                                                                jedem
+                                                            rechtwinklige
+                                                                                    C           1
+                                                              n Dreieck
+                                                             angewandt
+                                                               werden
+
+4.   12 : 1,2 =                                                   10                B           1
+
+
+
+
+                                                                                                           21
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                               Lösung: Sechstes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+      Aufgabe                                                  Lösung         Buchstabe         I     II        III
+
+5.    Gib den Bruchteil
+      des Rechtecks an,                                           1
+                                                                                    A           1
+                                                                  4
+      der grau gefärbt ist.
+
+
+6.    Dieses Rechteck hat
+      einen Umfang von
+                                                                14 cm               C           1
+
+
+
+7.    (64 − 4 ⋅ 15) : 4 =                                          1                B           1
+
+8.    43 =                                                        64                B                  1
+
+9.    Gib die Wahrscheinlichkeit an, mit einem                     1
+                                                                                    A           1
+      normalen Spielwürfel eine 6 zu würfeln.                      6
+
+
+10. 1
+      =                                                         20 %                C           1
+    5
+
+11. 3
+      von 1 l sind                                            750 cm3               A                  1
+    4
+
+12.       1
+      3     Stunden sind                                       210 min              C                  1
+          2
+
+13. Wer 1 000 Monate alt ist, ist etwa                       80 Jahre alt           B                  1
+
+14. Auf einem Sparkonto sind 484 €. Wie oft
+      kann man 160 € abheben und nicht ins                     dreimal              C                  1
+      Minus geraten?
+
+15. Ein Pflasterstein misst 25 cm mal 50 cm.
+                                                               8 Steine             D                  1
+      Für einen m² Pflasterung braucht man
+
+16. An einem Langlauf nehmen 900 Menschen
+      teil. 15 % erreichen das Ziel nicht. Wie viele             765                C                  1
+      Personen kommen ins Ziel?
+
+17. „Sonderangebot: 40 % Rabatt auf Hosen zu
+                                                                 54 €               C                  1
+      je 90 €“. Eine Hose kostet jetzt
+
+18. Ein gleichschenklig-rechtwinkliges Dreieck                  zwei
+                                                                                    D                  1
+      hat immer                                              45°-Winkel
+
+
+
+
+                                                                                                           22
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                               Lösung: Sechstes Beispiel                                        Zuordnung,
+                                                                                                Bewertung
+
+
+    Aufgabe                                                    Lösung         Buchstabe         I     II        III
+
+19. Ein Rechteck hat die Längen a = 3 cm und                     die
+    b = 4 cm. Welche Eigenschaft trifft nicht zu?            Diagonalen
+                                                               stehen               A                  1
+                                                              senkrecht
+                                                             zueinander
+
+20. Die Größe des Winkels
+    α beträgt 84°. Gib die                                       96°                B                  1
+    Größe von β an.
+
+21. In einem Säckchen liegen 9 Kugeln mit den
+    Zahlen 1 bis 9. Die Wahrscheinlichkeit, beim                   4
+                                                                                    C                  1
+    einmaligen Ziehen eine gerade Zahl zu                          9
+    erhalten, beträgt
+
+22. Drei verschiedene Ziffern liegen verdeckt
+    auf dem Tisch. Sie werden mehrfach
+    nacheinander gezogen und nebeneinander                         6                C                           1
+    gelegt. Wie viele unterschiedliche
+    dreistellige Zahlen können entstehen?
+
+23. Die schwarz gefärbte
+    Fläche hat einen                                            70 %                B                  1
+    Anteil von
+
+24. 100 Autos werden kontrolliert. Jedes
+                                                                 5%                 A                  1
+    zwanzigste Auto hat einen Mangel. Das sind
+
+25. Denke dir eine Zahl a aus, addiere 3,
+                                                            das Doppelte
+    multipliziere mit 2 und subtrahiere 6. Das                                      B                           1
+                                                               von a
+    Ergebnis ist
+
+                                                                       Insgesamt 25 BWE         9     14        2
+
+
+
+
+                                                                                                           23
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+3.    Lösungen zu den komplexen Aufgaben mit Einsatz des
+      Taschenrechners
+
+3.1 Aufgaben zur Leitidee Zahl und zur Leitidee Messen
+
+                                                                                                   Zuordnung
+             Lösungsskizze (Leitidee Zahl und Leitidee Messen)                                     Bewertung
+                                                                                                   I    II       III
+
+Aufgabe 1
+
+
+                       12
+      ● 10 340 000 ⋅       = 1 240 800
+                       100
+        Etwa 1 240 800 Jugendliche haben Schulden.
+
+
+      ● 1 240 800 ⋅ 1 800 = 2 233 440 000
+
+        Insgesamt haben diese 12 % der Jugendlichen im Alter von
+        13 bis 24 Jahren etwa 2 233 440 000 € Schulden.
+
+
+      ● 2 Mrd. € oder 2 000 000 000 €                                                             5
+
+
+Aufgabe 2
+
+      ● Angebot A:
+        2 200 ⋅ 1, 05 + 25 = 2 335
+        Die Gesamtkosten bei Angebot A betragen 2 335 €.
+       Angebot B:
+        2 200 ⋅ 1, 06 = 2 332
+        Die Gesamtkosten bei Angebot B betragen 2 332 €.
+       Angebot C:
+        195 ⋅ 12 = 2 340
+        Die Gesamtkosten bei Angebot C betragen 2 340 €.
+
+
+      ● Petra sollte das Angebot B wählen.                                                        1      4
+
+
+Aufgabe 3
+
+      1 700 ⋅ 3 = 5 100
+      5 100 − 2 200 − 1 000 = 1 900
+
+      Henri hat 1 900 € Schulden.                                                                                4
+
+
+
+
+                                                                                                       24
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+               Lösungsskizze (Leitidee Zahl und Leitidee Messen)                                   Bewertung
+
+                                                                                                   I    II       III
+
+Aufgabe 4
+
+
+      Durchschnittlicher Verbrauch: 35 ⋅ 4 = 140
+       98
+             = 0, 7 = 70 %
+      140
+
+      100 % − 70 % = 30 %
+      Der Wasserverbrauch von Familie Kaya liegt 30 % unter dem
+      durchschnittlichen Verbrauch.                                                               2      2       0
+
+
+Aufgabe 5
+
+
+            820, 82
+      ●               = 4,51
+             182
+
+            1 m3 Wasser kostet 4,51 €.
+
+      ●     1 m3 ≙ 1000 Liter
+            4,51 : 1 000 = 0, 00451
+
+            1 Liter Wasser kostet etwa 0,00451 € bzw. 0,45 ct.                                           2       2
+
+
+Aufgabe 6
+
+
+          1 dm3 ≙ 1 Liter
+      82 mm = 0, 82 dm
+            1 m = 10 dm
+               V = 10 ⋅ 10 ⋅ 0, 82
+               V = 82 dm3
+      Es fallen 82 Liter pro Quadratmeter.                                                               3       1
+
+
+Aufgabe 7
+
+
+       35
+       30
+       25
+       20
+       15
+       10
+        5
+        0
+                Musik          Fotos    Video     Programme     andere
+
+      Genauigkeit, Sauberkeit, Vollständigkeit, richtiges Eintragen                               5
+
+
+                                                                                                       25
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+             Lösungsskizze (Leitidee Zahl und Leitidee Messen)                                     Bewertung
+
+                                                                                                   I    II       III
+
+Aufgabe 8
+
+ a)   ● 34 ⋅ 1024 = 34 816
+
+        34 816 : 4 980 = 6,99116…
+       ● Ein Musiktitel nimmt etwa 7 MB Speicher ein.
+                                                                                                         2       2
+
+ b) Ein Titel könnte 4 min dauern, d.h.: 4 ⋅ 4 980 = 19 920
+      Bei 4 min Spielzeit eines Titels ergibt sich eine Gesamtspielzeit von
+      19 920 min.
+                                                                                                         1       3
+
+
+Aufgabe 9
+
+             1 t = 1 000 kg
+      72 000 t = 72 000 000 kg
+
+      72 000 000 : 82 200 000=0, 875912...
+
+      Im Durchschnitt verzehrt jeder Deutsche rund 0,876 kg Kartoffelchips im
+      Jahr.                                                                                       4
+
+
+Aufgabe 10
+
+
+      Kaja bezieht sich nur auf den absoluten Preis und nicht auf den Preis pro
+      100 g.
+      Vergleicht man die Preise pro 100 g, stellt man fest, dass „Joe-Chips“
+      günstiger sind:
+      „Joe-Chips“                       „Fred-Chips“
+                                        150 g → 1,99 €
+      200 g → 2, 30 €
+                                         50 g → 0,663 €
+      100 g → 1, 15 €
+                                        100 g → 1,326 €
+
+      Timo hat also Recht, was den relativen Preis angeht. Kaja hat Recht, wenn
+      der absolute Preis betrachtet wird.
+      Andere Begründungen sind möglich.                                                                  4       1
+
+
+
+
+                                                                                                       26
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+                                                                                                   Bewertung
+               Lösungsskizze (Leitidee Zahl und Leitidee Messen)
+                                                                                                   I    II       III
+
+Aufgabe 11
+
+
+ a)         d   7,5
+      r =     =     = 3, 75
+            2    2
+
+      A Mantel = 2 ⋅ π ⋅ r ⋅ h
+                 = 2 ⋅ π ⋅ 3,75 ⋅ 23
+                 = 541,9247...
+
+            ABoden = π ⋅ r 2
+                    = π ⋅ 3,752
+                    = 44,1786...
+
+
+      AMantel + ABoden = 541, 9247... + 44,1786...
+                          = 586,1033...
+
+      Die Pappe hat einen Flächeninhalt von etwa 586 cm2.                                         1      4
+
+
+ b) Die Berechnung über den halben Liter:
+      0,5 Liter ≙ 500 cm 3
+
+                  V = π ⋅ r2 ⋅ h
+               500 = π ⋅ 3,752 ⋅ h :(3,752 ⋅ π)
+      11,3176... = h
+      Die Wasserhöhe in der Dose beträgt etwa 11,3 cm.
+      h   23
+        =    = 1 1, 5
+      2   2
+
+      Die Dose ist in etwa zur Hälfte gefüllt. Es fehlen nur 2 mm.
+
+
+      Die Berechnung über die halbe Höhe:
+
+      V = π ⋅ r2 ⋅ h
+      V = π ⋅ 3,752 ⋅ 11,5
+      V = 508, 054...
+      Wird die Dose zur Hälfte mit Wasser gefüllt, entspricht das etwa einem
+      halben Liter.
+      Andere Lösungswege sind möglich.                                                                           4
+
+
+
+
+                                                                                                       27
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+             Lösungsskizze (Leitidee Zahl und Leitidee Messen)                                     Bewertung
+
+                                                                                                   I    II       III
+
+Aufgabe 12
+
+
+ a)   17,5 − 6,6 − 3,7 − 4,7 = 2,5
+      Die Strecke zwischen St. Pauli und Rathaus ist 2,5 km lang.
+
+      2,5 km = 2 500 m
+      Die Streckenlänge beträgt 2 500 m.                                                          3
+
+
+ b)   17,5 : 23 = 0,7608...
+      Der durchschnittliche Haltestellenabstand beträgt etwa 761 m.                               1      2
+
+
+Aufgabe 13
+
+
+      39,60 Meter entsprechen 3 960 Zentimetern.
+      3 960 : 87 = 45,517...
+
+      Das Modell ist also maßstabsgerecht.
+      Andere Rechenwege sind möglich. Wenn – bei richtiger Rechnung –
+      entschieden wird, dass der Maßstab nicht eingehalten wird, ist die volle
+      Punktzahl zu geben.                                                                                2       2
+
+
+Aufgabe 14
+
+
+      Die Grundfläche beträgt: 38,90 ⋅ 2, 4 = 93,36 m²
+
+      95 % davon sind: 93,36 :100 ⋅ 95 = 88,692 m²
+
+      Platzbedarf sitzend: 96 ⋅ 0, 6 = 57, 6 m²
+
+      Platz zum Stehen gesamt: 88,692 − 57,6 = 31,092 m²
+
+      Platz pro Stehplatz: 31,092 :128 = 0,2429... m²
+
+      Für einen Stehplatz sind ca. 0,24 m2 eingeplant.                                                   2       3
+
+
+Aufgabe 15
+
+
+           Rundung auf …                  …π ≈
+                                             3,1416
+           … 4 Nachkommastellen
+                                             3,14
+           … Hundertstel
+                                                                                                  2
+
+
+
+                                                                                                       28
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+              Lösungsskizze (Leitidee Zahl und Leitidee Messen)                                    Bewertung
+
+                                                                                                   I    II       III
+
+Aufgabe 16
+
+
+                      U                     r                  U                   d
+             □ π=                    □ π=               □ π=                □ π=
+                      r                     U                  d                   U
+      Die Begründung kann über die Bedeutung der Formel erfolgen, dass
+      der Quotient aus Umfang und Durchmesser die Kreiszahl Pi ergibt.                            1      2
+
+
+Aufgabe 17
+
+
+      ● Flächenberechnung:
+                               d       2, 4
+        AKreis = π ⋅ r 2 ; r =   ; r =      = 1, 2
+                               2        2
+        AKreis = π ⋅ 1, 22 = 4,523...
+
+        Die Größe der Grundfläche der Party-Pizza beträgt etwa 4,52 m2 .                          2
+
+      ● Vergleich der Pizzen:
+       Riesenpizza    12, 57
+                   =           = 2, 7785... ≈ 3
+       Party-Pizza   4, 523...
+
+               oder:
+       Party-Pizza   4, 523...               1
+                   =           = 0, 359... ≈
+       Riesenpizza    12, 57                 3
+
+      Ein Vergleich der beiden Pizzaflächen zeigt, dass die Kundin Recht hat.
+      Falls die Aussage durch die genauen Ergebnisse der Rechnungen verneint
+      wird, soll die volle Punktzahl gegeben werden.                                                     3
+
+
+Aufgabe 18
+
+
+      Möglich ist die Anwendung des Satzes des Pythagoras mit dem Ansatz:
+
+      x2 + x2 = r 2
+
+            2 x 2 = 22 |: 2
+              x2 = 2 | ±
+            x1/2 = ± 2
+      Der negative Wert hat hier keine Relevanz.
+                                 2
+      AQuadrat = x 2 =    ( 2) = 2
+      Das Pizza-Quadrat hat eine Fläche von 2 m2.
+      Andere Lösungen sind möglich, z.B. durch Zerlegen oder Zusammensetzen
+      von Flächen.                                                                                               4
+
+
+
+                                                                                                       29
+Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+              Lösungsskizze (Leitidee Zahl und Leitidee Messen)                                    Bewertung
+
+                                                                                                   I    II       III
+
+Aufgabe 19
+
+
+a)    1,5 Stunden = 1 Stunde 30 Minuten
+
+      15 : 47 Uhr
+      1 Stunde 30 Minuten später:
+      17 : 17 Uhr
+
+      Sie beenden ihr Training um 17:17 Uhr.                                                      2
+
+      2 Minuten = 120 Sekunden
+b)
+      180 : 120 = 1,5
+
+      Shila schafft pro Sekunde durchschnittlich 1,5 Sprünge.                                     2      1
+
+
+c)    180 ⋅ 1,2 = 216
+      Aron schafft in 2 Minuten 216 Sprünge.                                                      2      1
+
+
+Aufgabe 20
+
+      Cessys Geschwindigkeit:
+
+      15 min = 0, 25 h
+                    s
+            v =
+                    t
+                  4
+            v =
+                0, 25
+            v = 16
+
+                                                                                                         4
+      Cessy ist mit einer Geschwindigkeit von 16 km/h gefahren.
+
+Aufgabe 21
+
+
+a)    Die Medaille hat die Form eines Zylinders.
+
+      VZylinder = π ⋅ r 2 ⋅ h
+                        VZylinder
+              r =
+                          π⋅h
+                          15
+              r =
+                        π ⋅ 0,3
+             r = 3, 989...
+             d =2⋅r
+             d = 2 ⋅ 3, 989... = 7, 978...
+
+      Die Medaille hat einen Durchmesser von etwa 8 cm.                                                  3       3
+
+                                                                                                       30
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                     Zuordnung,
+               Lösungsskizze (Leitidee Zahl und Leitidee Messen)                                     Bewertung
+
+                                                                                                     I        II     III
+        Umfang der Medaille:
+ b)
+        u=2⋅π⋅r
+        u = 2 ⋅ π ⋅ 3, 989... = 25, 066...
+        25, 066... : 5 = 5, 013...
+
+        Lösung mit d = 8 cm
+        u =2⋅π⋅r = π⋅d
+        u = π ⋅ 8 = 25,1327...
+        25,1327...: 5 = 5, 0265...
+
+
+        Der Abstand zwischen den Schmucksteinen auf dem Kreisbogen
+        beträgt etwa 5 cm.                                                                                    2          2
+
+
+
+
+ 3.2 Aufgaben zur Leitidee Raum und Form sowie zur Leitidee Messen
+
+
+                                                                                                 Zuordnung,
+         Lösungsskizze (Leitidee Raum und Form sowie Messen)                                     Bewertung
+                                                                                                 I       II        III
+
+Aufgabe 1
+
+
+a)    • S( 0 4 ) , Z( 7 8 )
+
+      • Es handelt sich bei dem Viereck SZQP um ein Trapez.                                      3
+
+
+b)
+
+
+
+
+                                                                                                 2
+
+
+                                                                                                          31
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+        Lösungsskizze (Leitidee Raum und Form sowie Messen)                                      Bewertung
+                                                                                                 I     II    III
+
+Aufgabe 2
+
+
+a)
+
+
+
+
+                                                                                                 2
+
+
+
+
+b)   Die Strecke AB lässt sich über den Satz des Pythagoras berechnen:
+
+            (5 − 1) + (5 − 2 ) = 42 + 32
+                   2          2
+     AB =
+     AB =    25 = 5                                                                                    2     2
+
+
+Aufgabe 3
+
+
+a)   Ein Umzugskarton ist mathematisch betrachtet ein Quader oder Viereck-
+     Prisma.                                                                                     1
+
+                               3, 9
+b)   Beladung in der Länge:          = 7, 222...
+                              0, 54
+                             1, 45
+     Beladung in der Breite:        = 4,142...
+                             0, 35
+
+     Es können sieben Reihen mit jeweils vier Umzugskartons aufgeladen
+     werden. Die Ladefläche kann also mit 28 Umzugskartons beladen werden.
+
+     Andere Lösungswege sind möglich.
+     Die Seiten der Umzugskartons können vertauscht werden, die
+     Umzugskartons können hochkant gestapelt werden. Diese Möglichkeiten
+     entsprechen zwar nicht der Skizze, sollen aber trotzdem mit voller
+     Punktzahl bewertet werden.                                                                        6
+
+
+
+
+                                                                                                        32
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+        Lösungsskizze (Leitidee Raum und Form sowie Messen)                                      Bewertung
+
+                                                                                                 I     II    III
+
+
+Aufgabe 4
+
+
+    Zu berechnen ist die Länge der Diagonalen d mit Hilfe des Satzes des
+    Pythagoras:
+     d 2 = 1, 82 + 1, 452
+     d 2 = 5, 3425 |
+     d = 2, 311...
+
+    Die Diagonale des Laderaumes hat eine Länge von
+    etwa 2,31 m. Die Holzplatte passt in Schräglage
+    in den Umzugswagen.                                                                                      5
+
+
+Aufgabe 5
+
+
+          Form 1              Form 2               Form 3                Form 4
+          Quader              6-Eck-               Würfel               Zylinder
+                              Prisma
+
+    Statt 6-Eck-Prisma ist auch die Bezeichnung Prisma zulässig.                                 4
+
+
+Aufgabe 6
+
+
+
+      ● Bestätigung des Volumens:
+        V = a⋅b⋅c
+        V = 80 ⋅ 30 ⋅ (27 − 1 ) = 62 400
+       In das Gefäß lassen sich 62 400 cm3 Blumenerde einfüllen.
+
+
+      ● Vergleich des Volumens:
+
+       62 400 cm3 = 62, 4 dm3
+       62, 4 dm3 = 62, 4 Liter
+       62, 4 > 50
+       Ein 50–Liter-Sack-Blumenerde reicht nicht aus.                                            3     3
+
+
+
+
+                                                                                                        33
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+                                                                                                 Bewertung
+        Lösungsskizze (Leitidee Raum und Form sowie Messen)
+                                                                                                 I     II    III
+
+
+Aufgabe 7
+
+     Satz des Pythagoras:
+     a2 + b2 = c 2
+     Da die Katheten jeweils gleich lang sind, gilt:
+     x 2 + x 2 = 82
+         2 x 2 = 82 |: 2
+                  82
+           x2 =      |
+                  2
+                   82
+           x=         = 5, 65685...
+                   2
+     Eine Kathete hat im Dreieck g eine Länge von ungefähr 5,7 cm.
+     Andere Lösungswege sind möglich.                                                                        5
+
+
+Aufgabe 8
+
+
+a)
+                           Aussage                             wahr          falsch
+
+      Alle Dreiecke haben zwei stumpfe Winkel.                                   x
+
+      Alle Dreiecke haben zwei spitze Winkel.                    x
+
+      Alle Dreiecke sind gleichschenklig.                        x
+
+      Alle Dreiecke sind gleichseitig.                                           x               4
+
+
+b)
+
+
+
+
+     Zeichnung ist nicht maßstbsgerecht.
+     Punktabzüge bei unsorgfältigen Zeichnungen.                                                       6
+
+
+Aufgabe 9
+
+
+a)    Beide Netze lassen sich nicht zu dem gewünschten Karton falten, weil
+      bei...
+      ... Netz 1 die rechte Seitenfläche im Netz zu kurz ist.
+      ... Netz 2 die beiden oberen Seitenflächen doppelt überlappen würden.
+     Alternative Begründungen sind möglich.                                                                  2
+
+
+
+
+                                                                                                        34
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+                                                                                                 Bewertung
+        Lösungsskizze (Leitidee Raum und Form sowie Messen)
+                                                                                                 I     II    III
+
+
+b)   ● Maßstab 1:5 bedeutet, dass ein Zentimeter auf dem Papier 5 cm in
+       Wirklichkeit entsprechen.
+       Das heißt, im gezeichneten Netz gilt:
+       20 cm ≙ 4 cm;
+       15 cm ≙ 3 cm;
+       10 cm ≙ 2 cm.
+      Punktabzug bei ungenauer oder
+       unsorgfältiger Zeichnung
+
+
+      ● Flächeninhalt des Netzes:
+
+        O = 2( ab + ac + bc )
+        O = 2(15 ⋅ 20 + 10 ⋅ 20 + 10 ⋅ 15) = 1 300
+
+       Der Flächeninhalt des Netzes beträgt 1 300 m 3 .
+       Andere Lösungswege und andere Netzdarstellungen sind möglich.                             2     5
+
+
+Aufgabe 10
+
+
+a)   A (0 | − 6); C (3 | − 3) ; F (4, 5 | 1, 5)                                                        3
+
+
+b)   Rechnerische Lösung:
+                a+c       6+3
+     A Trapez =      ⋅h =       ⋅ 1,5 = 6, 75
+                 2          2
+                g ⋅ h 3 ⋅ 1,5
+     ADreieck =      =        = 2,25
+                 2        2
+
+     6,75 : 2,25 = 3
+
+     Alternativ lässt sich die Größe der Fläche auszählen
+               3                      1
+     (Trapez 6 Kästchen, Dreieck 2 Kästchen).
+                4                      4
+
+     Der Größe der Fläche des Trapezes ist also dreimal so groß wie die Größe
+     der Dreiecksfläche.
+     Andere Lösungswege sind möglich.                                                                        4
+
+
+
+
+                                                                                                        35
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+                                                                                                 Bewertung
+           Lösungsskizze (Leitidee Raum und Form sowie Messen)
+                                                                                                 I     II    III
+
+
+Aufgabe 11
+
+
+    Fläche 3 ist 5 m lang und 1,50 m hoch, es werden 10 ⋅ 3 = 30 Platten
+    benötigt und für Fläche 2 wird die Hälfte der Platten benötigt, also
+    15 Platten.
+    15 ⋅ 0,2 = 3
+    Bei 20 % Verschnitt sind 3 Platten zusätzlich einzuplanen.
+    Es werden also insgesamt 18 Platten benötigt.
+    Andere Lösungswege sind möglich.                                                                   4
+
+
+Aufgabe 12
+
+
+         ( ) (                       )
+     A 1 = π ⋅ r 2 : 2 = π ⋅ 0,752 : 2 = 0,883...
+     A = ( π ⋅ r ) : 2 = ( π ⋅ 1,5 ) : 2 = 3,534...
+       4
+                 2                2
+
+
+
+    Volumen für Fläche 1:
+     V1 = π ⋅ 0, 75 2 ⋅ 0, 11 : 2 = 0, 0971...
+
+    Volumen für Fläche 4:
+     V4 = π ⋅ 1, 5 2 ⋅ 0,11 : 2 = 0, 3887...
+
+    Summe: Vges = 0,0971... + 0,3887... = 0,4859...
+
+    Eine Lieferung von 1 m3 Erde reicht aus, da nur etwa 0,5 m3 benötigt
+    werden.                                                                                            1     5
+
+
+
+
+                                                                                                        36
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+ 3.3 Aufgaben zur Leitidee Funktionaler Zusammenhang
+
+
+                                                                                                 Zuordnung,
+             Lösungsskizze: (Leitidee funktionaler Zusammenhang)                                 Bewertung
+                                                                                                 I     II    III
+Aufgabe 1
+
+     Schnecke 1 hat im ersten Teilabschnitt die höchste Geschwindigkeit
+     erreicht, erkennbar an der höchsten Steigung.
+           s   80
+     v =     =    = 10
+           t    8
+
+     Schnecke 1 hat eine Geschwindigkeit von 10 cm erreicht
+                                                           m in                                        3
+
+Aufgabe 2
+
+     Der y-Achsenabschnitt ist 0 wegen 0 zurückgelegter Meter nach 0 Minuten.
+     Die Schnecke 3 hat nach 20 Minuten 100 cm zurückgelegt, das entspricht
+     5 cm/min. Die Steigung (zurückgelegte Meter pro Minute) beträgt also 5,
+     das heißt, die Funktionsgleichung lautet y = 5x.
+     Andere Lösungswege sind möglich.                                                                  1      3
+
+Aufgabe 3
+
+     Man darf im Tarif „Easy“ nicht mehr als 25 Euro ausgeben, da der Tarif
+     „Flat“ sonst günstiger ist.
+
+     Da man beim Tarif „Easy“ 3 Euro als Grundgebühr bezahlen muss, hat
+     man noch höchstens 25 Euro minus 3 Euro zum Surfen verfügbar.
+
+     Diese Differenz ist durch 0,02 Euro zu dividieren, um zu berechnen, wie
+     viele Megabyte (MB) man nutzen kann.
+
+     (25 − 3) : 0, 02 = 1 100
+
+
+     Der Tarif „Flat“ ist also günstiger, falls man mehr als 1 100 Megabyte (MB)
+     im Monat nutzen möchte.                                                                           3      1
+
+Aufgabe 4
+
+a)   Der Graph (II) gehört zum Tarif „Flat, der Graph (III) zum Tarif „Easy“.                          2
+
+b)
+     Der Graph (I) passt nicht, da er im Ursprung beginnt. Für 0 MB zahlt man
+     laut Abbildung 0 Euro. In den beiden genannten Tarifen zahlt man aber
+     auch dann, wenn man das Internet nicht nutzt.
+
+     Der Graph (IV) passt nicht: Je mehr Megabyte (MB) man nutzt, umso
+     kleiner wird der Rechnungsbetrag.
+     Andere Lösungswege sind möglich.                                                                         4
+
+
+
+                                                                                                        37
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+             Lösungsskizze: (Leitidee funktionaler Zusammenhang)                                 Bewertung
+                                                                                                 I     II    III
+Aufgabe 5
+
+a)   15 kg = 15 000 g
+     15 000 : 200 = 75
+
+     Sie können 75 Kerzen aus 15 Kilogramm Wachs fertigen.                                       2
+
+b)   15 ⋅ 75 = 1 125
+     1 125 cm = 11,25 m
+     Sie benötigen 11,25 m Docht.                                                                1     1
+
+Aufgabe 6
+
+a)                                 Zeit (h)               0    1         7
+
+                             Höhe der Kerze (cm)     13,5     12         3                       2     2
+
+b)   y 3 = − 1, 5 x + 13, 5 beschreibt die Brenndauer dieser Kerze.
+
+     Begründungen:
+     ● der y-Achsenabschnitt liegt bei +13,5
+     ● die Steigung muss negativ sein, da die Kerze abbrennt                                           1      2
+
+Aufgabe 7
+
+a)
+         Weglänge in km              100      125    150      200         250
+
+      Benzinverbrauch in l             6      7,5     9       12             15                  4
+
+b)   ● Das kleinere Motorrad verbraucht 5 Liter Benzin auf 100 km.
+     ● Zeichnung des Graphens:
+
+                        13
+                        12
+                        11
+                        10
+                         9
+                         8
+                Liter
+
+
+
+
+                         7
+                         6
+                         5
+                         4
+                         3
+                         2
+                         1
+                         0
+                             0          50          100         150               200
+                                                    km                                           1     3
+
+Aufgabe 8
+
+a)   33 ⋅ 1,61+37 ⋅ 1, 65 = 53,13+61, 05 = 114,18
+        114,18 + 26,76 = 140,94
+     Sie müssen für das Jahr 2025 einen Betrag von 140,94 Euro bezahlen.                         2     1
+
+
+                                                                                                        38
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+             Lösungsskizze: (Leitidee funktionaler Zusammenhang)                                 Bewertung
+                                                                                                 I     II    III
+b)    Verbrauch in m3               0                  20                   35
+
+          Preis in €             26,76               59,76                84,51                  2
+
+c)
+
+
+
+
+     Abzüge bei unsauberer Zeichnung oder ungenau eingezeichneten
+     Punkte.                                                                                           3
+
+Aufgabe 9
+
+a)
+
+      Anzahl der Fotos          0          10           23          33           100
+
+
+         Kosten in €            0         2,50        5,75         8,25          25
+
+     Die Ergebnisse für 10 und 23 Fotos geben je einen Punkt.
+     Die Rechnung von 8,25 Euro auf 33 Fotos gibt zwei Punkte.                                   2     2
+
+b)   ● Zeichnung des Graphen:
+
+
+
+
+     Ein korrektes und sauberes Zeichnen des Graphen ergibt die Punkte.
+     Auch das Eintragen der Punkte ohne Verbindung zu einem Graphen ergibt
+     volle Punktzahl                                                                             1     2
+
+
+
+                                                                                                        39
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+             Lösungsskizze: (Leitidee funktionaler Zusammenhang)                                 Bewertung
+                                                                                                 I     II    III
+     ● Beschreibung des Schnittpunkts:
+       (Der Schnittpunkt der beiden Graphen hat die Koordinaten S (50 12,5) .)
+       Der Schnittpunkt der Graphen kennzeichnet die Anzahl der Fotos, ab der
+       die Bestellung im Internet günstiger ist als der Ausdruck im Geschäft.
+       Andere Formulierungen sind möglich.                                                                    2
+
+Aufgabe 10
+
+a)   4x − 10 = −2x + 5
+     6 x − 10 = 5
+           6 x = 15
+             x = 2,5                                                                                   2      1
+
+b)   18 = 3 (2x − 6 )
+     18 = 6 x − 18
+     36 = 6 x
+      6=x                                                                                              2      1
+
+c)        9
+     8+     = 11
+          x
+          9
+            =3
+          x
+          9 = 3x
+          3= x                                                                                         2      1
+
+d)        2
+     1+     x =5
+          3
+          2
+            x =4
+          3
+            x =6                                                                                       1      2
+
+Aufgabe 11
+
+
+
+
+     Punktabzug bei unsorgfältiger Zeichnung.                                                    1     4
+
+
+
+
+                                                                                                        40
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+ 3.4 Aufgaben zur Leitidee Daten und Zufall
+
+
+                                                                                                 Zuordnung,
+                           Lösungsskizze (Daten und Zufall)                                      Bewertung
+                                                                                                  I    II    III
+Aufgabe 1
+
+     Die Wahrscheinlichkeit dafür, dass C nicht angezeigt wird,
+         10 − 4    6
+     ist        =    = 0, 6 = 60 %.
+           10     10
+     Eine Rechnung wird nicht verlangt.                                                           2     1
+
+Aufgabe 2
+
+a)   Hier sind mehrere Gestaltungsformen zulässig. Genaue
+     Winkelberechnungen sind nicht erforderlich. 4 Felder sind noch
+     darzustellen, pro Feld werden 2 P. vergeben, das 4. Feld ergibt sich von
+     selbst. Toleranz beim Zeichnen: ±1° .
+     Bei größerer Abweichung –1 P. pro Winkel.
+
+
+     Winkel Feld B: 3 6 0 ° ⋅ 1 = 1 8 0 °
+                               2
+                          1
+     Winkel Feld C: 360° ⋅ = 45 °
+                          8
+     Winkel Feld D: 3 6 0 ° ⋅ 1 = 9 0 °
+                               4
+                               1
+     Winkel Feld E: 360° ⋅       = 22,5 °
+                              16
+
+
+     Feld B hat eine Gewinnwahrscheinlichkeit von 1 = 5 0 % .
+                                                            2
+
+                                                            1
+     Feld C hat eine Gewinnwahrscheinlichkeit von             ,
+                                                            8
+     Feld D eine Gewinnwahrscheinlichkeit von 1 .
+                                                        4                                         2     3
+
+b)                                                                  1 1 3
+     Die Wahrscheinlichkeit für „C oder D“ beträgt damit             + = = 37,5 % .
+                                                                    8 4 8
+     Die Gewinnwahrscheinlichkeit für B ist deutlich größer als für „C oder D“.                         2     2
+
+Aufgabe 3
+
+a)   Die Wahrscheinlichkeit dafür, eine weiße Kugel aus Topf C zu ziehen,
+     beträgt 1 .
+               4
+     Die Wahrscheinlichkeit dafür, keine weiße Kugel zu ziehen, beträgt
+         1   3 oder 75 %.
+     1 −   =
+         4    4                                                                                   1     2
+
+
+
+
+                                                                                                        41
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+                           Lösungsskizze (Daten und Zufall)                                       Bewertung
+                                                                                                  I     II   III
+
+b)   Die Wahrscheinlichkeit dafür, eine graue Kugel zu ziehen, beträgt
+     bei Topf A:  1 oder 25 %,
+                      4
+                    3
+     bei Topf B:       oder 30 %,
+                   10
+                   4    1
+     bei Topf C:      =    oder 50 %.
+                   8    2
+     Damit sind die Chancen bei Topf C am größten.                                                      1     3
+
+
+Aufgabe 4
+
+
+     Nach dem Ziehen einer weißen Kugel sind noch 9 Kugeln im Topf B, davon
+     3 weiße. Die Wahrscheinlichkeit dafür, dass man beim 2. Zug wieder eine
+                                  3      1
+     weiße Kugel erhält, ist also   bzw.   oder 33, 3 % .                                               3
+                                  9      3
+
+Aufgabe 5
+
+
+     Der September hat 30 Tage.
+                                                  11
+     P (kein Regen am 5. September ) = 1 −           = 0, 6333...          oder
+                                                  30
+                                               30 − 11
+     P (kein Regen am 5. September ) =                 = 0, 6333...
+                                                 30
+     Die Wahrscheinlichkeit, dass es am 05. September trocken bleibt, liegt bei
+     ungefähr 63 %.                                                                                           4
+
+
+Aufgabe 6
+
+     93 − 10 − 22 − 16 − 12 − 20 = 13
+a)                                                                                                2
+
+     Zeichnung des Balkens für „Comics zeichnen“ und Beschriftungen für
+b)
+     „Fußball“ und „Ballspiele“ ergänzen:
+
+
+
+
+                                                                                                  3
+
+
+
+                                                                                                        42
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                  Zuordnung,
+                           Lösungsskizze (Daten und Zufall)                                       Bewertung
+                                                                                                  I     II   III
+     ●   Fußball
+c)                                                                                                1
+
+
+     ●   Spannweite:
+         22 − 10 = 12                                                                             1     1
+
+
+     ●   arithmetisches Mittel:
+         93
+            = 15,5
+         6                                                                                              2
+
+
+d)                                16
+     P (Gesellschaftsspiele) =      = 0,172...
+                                 93
+                      0,172... = 17,2... %
+
+     Der Anteil der Jugendlichen, die den Kurs „Gesellschaftsspiele“ gewählt
+     haben, liegt bei etwa 17 %.                                                                        3
+
+Aufgabe 7
+
+
+a)   In dem Zeitraum zwischen 11:00 und 12:00 Uhr wurden die meisten                              2
+     Kraftfahrzeuge gezählt.
+
+b)   Diagramm 1 ist richtig.
+                                                                                                        3     1
+     Begründung: Die Segmente „Kraftfahrzeuge“ und „Fahrräder“ sind ungefähr
+     gleich groß und beide sind größer als das Segment für „Fußgänger“.
+     Andere Begründungen sind möglich.
+
+Aufgabe 8
+
+
+a)   25 − 1 − 4 − 5 − 7 = 8
+
+     8 Jugendliche nutzen ihr Smartphone 3 Stunden täglich.                                       2
+
+
+b)                            (1 + 4 + 5)   10
+     P(weniger als 3 h) =                 =    = 0, 4 = 40 %
+                                  25        25
+     Die Wahrscheinlichkeit, dass ein zufällig ausgewählter Jugendlicher sein
+                                                                                                        1     2
+     Smartphone weniger als 3 Stunden nutzt, beträgt 40 %.
+
+
+
+
+                                                                                                        43
+ Lösungen zu den zentralen schriftlichen Prüfungsaufgaben - Erster allgemeinbildender Schulabschluss Mathematik
+
+
+
+
+                                                                                                 Zuordnung,
+                                                                                                 Bewertung
+                             Lösungsskizze (Daten und Zufall)
+                                                                                                  I     II   III
+
+
+Aufgabe 9
+
+
+     768 − 61 − 41 − 51 − 57 − 74 − 82 − 70 − 70 − 63 − 71 − 72 = 56
+    Es sind im März durchschnittlich 56 mm Niederschlag gefallen.
+    ●
+
+
+
+
+                      Durchschnittliche Niederschlagsmenge pro m² in der betrachteten Stadt
+
+
+    Punkte werden vergeben für die richtige Höhe der Säule und für die
+    Sauberkeit der Zeichnung.                                                                           4
+
+
+
+
+                                                                                                        44
+

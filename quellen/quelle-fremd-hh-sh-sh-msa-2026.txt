@@ -1,0 +1,1052 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2026 MSA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=87dd33a56fc9711fd73b215eef114668
+ABRUF: 2026-09-27
+SEITEN: 12
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                        MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 1.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die
+Punkte am Rand geben dir Hinweise.
+
+
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile
+bearbeiten, die Wahlteile der anderen beiden Komplexaufgaben musst du nicht
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                  30 Minuten
+
+Bearbeitungszeit:          insgesamt 135 Minuten, davon höchstens
+                           45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                      MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben
+
+A1   Kreuze den Term an, der gleichwertig zu                         ist.
+
+
+
+
+                                                                            /1 P.
+
+A2   Die Abbildung zeigt ein Punktemuster.
+
+
+
+
+        1. Figur       2. Figur             3. Figur             4. Figur
+
+
+     a) Gib die Anzahl der Punkte für die 3. Figur an.
+
+        ________
+
+                                                                            /1 P.
+
+     b) Mit welchem Term kann die Anzahl der Punkte der x-ten Figur
+        berechnet werden? Kreuze an.
+
+
+
+
+                                                                            /1 P.
+
+A3   Zeichne die Senkrechte zu der Geraden g durch den Punkt P ein.
+
+
+
+
+                                                                            /1 P.
+
+                                             4
+                      MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A4   Der Graph zeigt die Länge der gefahrenen Strecke eines PKW in
+     Abhängigkeit von der Zeit.
+
+     Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+
+
+                                                                         wahr   falsch
+
+     Der PKW fährt die ersten zwei Stunden mit
+     gleichbleibender Geschwindigkeit.
+
+     Nach der Pause ist die Geschwindigkeit höher als
+     vor der Pause.
+
+     Die durchschnittliche Geschwindigkeit über die
+     gesamte Fahrtstrecke beträgt 50 km/h.
+
+
+                                                                                         /3 P.
+
+
+
+
+                                             5
+                      MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A5   Gib die Länge der Strecke x an.
+
+
+
+
+     x = ________
+
+                                                                                         /1 P.
+
+A6   Eine quadratische Funktion ist durch folgende Funktionsgleichung
+                                .
+
+     Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+                                                                         wahr   falsch
+
+     Die Parabel f hat genau eine Nullstelle.
+
+     Im Vergleich zur Normalparabel ist diese
+     Parabel f nach rechts verschoben.
+
+     Der Scheitelpunkt dieser Parabel f liegt auf der
+     y-Achse.
+
+
+                                                                                         /3 P.
+
+A7   Schreibe in der allgemeinen Form (Normalform).
+
+
+
+
+     h(x)=________________
+
+                                                                                         /1 P.
+
+
+
+
+                                             6
+                      MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A8   Widerlege jede Behauptung durch ein Gegenbeispiel.
+
+     a) Jede Primzahl ist ungerade.
+
+
+
+
+                                                                           /1 P.
+
+     b) Die Summe zweier Quadratzahlen ist ebenfalls eine Quadratzahl.
+
+
+
+
+                                                                           /1 P.
+
+     c) Das Quadrat der Zahl ist immer größer als die Zahl, die quadriert wurde.
+
+
+
+
+                                                                           /1 P.
+
+A9   Setze Klammern so, dass eine wahre Aussage entsteht.
+
+
+
+
+                                                                           /1 P.
+
+A10 Ergänze die Abbildung zum Netz einer quadratischen Pyramide.
+
+
+
+
+                                                                           /1 P.
+
+
+                                             7
+                     MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A11 Zeichne eine Gerade g durch den Ursprung, deren Steigung doppelt so
+    groß ist wie die Steigung der dargestellten Geraden f.
+
+
+
+
+                                                                                    /1 P.
+
+A12 Der Würfel und der Quader haben das gleiche Volumen.
+    Kreuze die richtige Körperhöhe k an.
+
+
+
+
+       k = 12 cm                  k = 24 cm                             k = 36 cm
+
+                                                                                    /1 P.
+
+
+
+                                            8
+                      MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A13 Auf dem Tisch liegen verdeckt 8 Karten. Jeweils 4 Karten mit dem Symbol
+    Herz und 4 mit dem Symbol Kreuz.
+
+
+
+
+    Dann sagt er zu Harry: „Du deckst die nächste Karte auf. Wenn diese wieder
+    Herz zeigt, gewinnst du. In allen anderen Fällen gewinne ich.“
+
+    Begründe, dass es sich nicht um ein faires Spiel handelt.
+
+
+
+
+                                                                                /1 P.
+
+A14 Bei einem Test sind 15 von 25 Antworten richtig.
+    Kreuze den passenden Prozentsatz an.
+
+       15 %                        30 %                                  60 %
+
+                                                                                /1 P.
+
+
+
+
+                                             9
+                     MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A15 Zeichne alle Symmetrieachsen in dieses Drachenviereck ein.
+
+
+
+
+                                                                        /1 P.
+
+A16 Begründe, dass sich aus den folgenden Angaben kein Dreieck konstruieren
+    lässt.
+    a = 4 cm, b = 3 cm, c = 8 cm
+
+
+
+
+                                                                        /1 P.
+
+
+
+
+                                           10
+                       MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A17     des großen Quadrats soll grau gefärbt sein.
+
+      Gib den Anteil der Gesamtfläche an, der dafür noch gefärbt werden muss.
+
+
+
+
+                                 noch zu färbender Anteil:
+
+
+
+
+                                                                          /1 P.
+
+A18 Gib die Lösungen dieser Gleichung an.
+
+
+
+
+          ________ und         ________
+
+                                                                          /1 P.
+
+A19 Gib den Anteil der grau gefärbten Fläche in Prozent an.
+
+
+
+
+                                         ________ %
+
+                                                                          /1 P.
+
+
+
+
+                                             11
+                     MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A20 Vier Personen wurden nach der Größe ihrer Wohnungen gefragt.
+    Die durchschnittliche Wohnfläche der Befragten war 70 m².
+    Gib den fehlenden Wert an.
+
+    74 m²; 60 m²; 80 m²; ____ m²
+
+                                                                               /1 P.
+
+A21 Der achtjährige Johann steht in einem Objekt.
+    Kreuze den ungefähren Umfang des Objekts an.
+
+
+
+
+       3m                         8m                                    13 m
+
+                                                                               /1 P.
+
+A22 Kreuze die wahre Aussage an.
+
+
+
+
+                                                                               /1 P.
+
+
+
+
+                                           12
+                       MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+A23 Die graue Figur soll so auf drei Felder der Hundertertafel gelegt werden,
+    dass die Summe der abgedeckten Zahlen 75 beträgt.
+    Die Figur darf nicht gedreht werden.
+
+
+
+
+     a) Zeichne ein, wohin die Figur gelegt werden muss.
+
+
+
+
+                                                                                 /1 P.
+
+     b) Gib die größte Summe an, die mit der grauen Figur abgedeckt werden
+        kann.
+
+        _________
+                                                                                 /1 P.
+
+A24 Gib die Größe des grau gekennzeichneten Winkels an.
+
+
+
+
+                                                                             °
+                                                                  ________
+
+
+
+
+                                                                                 /1 P.
+
+
+
+                                             13
+MSA Mathematik Prüfungsheft 1 2026 (c) MBWFK S-H
+
+
+
+
+                      14
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2026 MSA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=de21839bb2c7b3de0ec0274d4cc2c705
+ABRUF: 2026-09-27
+SEITEN: 16
+LIZENZVERMERK: Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+                        MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 2.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 45 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die
+Punkte am Rand geben dir Hinweise.
+
+
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile
+bearbeiten, die Wahlteile der anderen beiden Komplexaufgaben musst du nicht
+bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                  30 Minuten
+
+Bearbeitungszeit:          insgesamt 135 Minuten, davon höchstens
+                           45 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                               3
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+B1: Trigonometrie                                                        Fahrrad
+
+Im Rahmen des Schulprojekts „Mathe und Sport“ arbeiten Kathi und Jan am
+Thema „Geometrie am Fahrrad“.
+
+(1) Dafür informieren sie sich im Internet und stoßen auf den STR-Wert
+    (Stack-to-Reach). Für die Berechnung werden die Längen der beiden
+    Strecken s und r (siehe Abbildung) ins Verhältnis gesetzt:
+
+
+
+
+    Die Abbildung ist nicht maßstabsgetreu.
+
+    Beim Beispiel, das sie finden, haben die Strecken folgende Längen:
+    s = 550 mm und r = 350 mm
+
+    a) Berechne den STR-Wert für dieses Beispiel.
+
+                                                                             /1 P.
+
+    b) Bestimme die Größen der Winkel  und für dieses Beispiel.
+
+                                                                             /3 P.
+
+    c) Jan und Kathi wollen eine Zeichnung anfertigen, die zu dem gefundenen
+       Beispiel passt.
+
+        Konstruiere das Dreieck im Maßstab 1 : 5.
+
+                                                                             /2 P.
+
+
+
+
+                                             4
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+(2) Ein Reifen von Jans Fahrrad hat 24 Speichen.
+
+
+
+
+    a) Berechne die Länge eines Kreisbogens zwischen zwei benachbarten
+       Speichen in Zentimetern.
+
+                                                                         /2 P.
+
+    b) Bestimme die Größe des Mittelpunktswinkels  zwischen zwei
+       Speichen.
+
+                                                                         /1 P.
+
+
+
+
+                                             5
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst zwei der vier Wahlteile bearbeiten.
+
+(3) Die Lenkung eines Rads wird vom Steuerrohr-Winkel  beeinflusst.
+
+
+
+
+     a) Berechne die Größe des Steuerrohr-Winkels  für die Längen
+        a = 110 cm, b = 70 cm und c = 112 cm.
+
+                                                                          /3 P.
+
+     b) Kathis Fahrrad hat einen Steuerrohr-Winkel von  = 75°. Die Länge der
+        Strecke c beträgt 112 cm und der Winkel  hat eine Größe von 72°.
+
+        Bestimme die Länge des Steuerrohrs b in Zentimetern.
+
+                                                                          /3 P.
+
+
+
+
+                                             6
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+B2: Stereometrie                                                         Mansarddach
+
+(1) Die abgebildete, grau eingefärbte Dachform heißt Mansarddach. Die unteren
+    Dachflächen haben eine andere Neigung als die oberen Dachflächen.
+
+    Ordne den Skizzen die Seitenansicht und die Draufsicht zu.
+
+
+
+
+                                                                                 /1 P.
+
+
+
+
+                                             7
+                         MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+(2) Die Zeichnung zeigt die Vorderansicht auf ein Mansarddach.
+
+
+
+
+      Berechne die Länge s in Metern.
+
+                                                                            /3 P.
+
+(3) Der obere Teil des Daches hat einen Flächeninhalt von 104 m². Diese Fläche
+    wird neu mit Dachziegeln gedeckt. Die Dachziegel werden so gelegt, dass
+    sie um 10 % überlappen1.
+
+
+
+
+      a) Bestimme die Anzahl der Dachziegel, die für die angegebene Fläche
+         mindestens benötigt werden.
+
+                                                                            /3 P.
+
+      b) Jeder Dachziegel wiegt 3,84 kg.
+         Enrico sagt: „Alle Dachziegel auf dem Dach zusammen wiegen mehr als
+         3 Tonnen.“
+
+          Zeige, dass Enrico recht hat.
+
+          Wenn du in a) keine Lösung gefunden hast, rechne mit 960 Dachziegeln
+          weiter.
+
+                                                                            /2 P.
+
+
+
+1   „überlappen“ bedeutet, dass die Ziegel zum Teil übereinander liegen.
+
+                                                8
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(4) Für die Belüftung des Hauses ist das Volumen des Dachraumes wichtig.
+
+
+
+
+     a) Gib an, welcher geometrische Körper das Volumen des Spitzdaches
+        beschreibt.
+
+                                                                           /1 P.
+
+     b) Enrico notiert folgenden Term, um das Volumen des Spitzdaches zu
+        berechnen. Dabei macht er einen Fehler.
+
+
+
+
+        Begründe, warum man mit diesem Term das Volumen des Spitzdaches
+        nicht korrekt berechnen kann.
+
+                                                                           /1 P.
+
+     c) Berechne das Volumen des Spitzdaches in Kubikmetern.
+
+                                                                           /2 P.
+
+     d) Berechne das Volumen des grau gefärbten Teils des Daches in
+        Kubikmetern.
+
+                                                                           /2 P.
+
+
+
+
+                                             9
+                        MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                         Dynamisches Dreieck
+
+Auf der Geraden g mit                            kann der Punkt P(x|y) verschoben
+werden. Dadurch verändert sich das rechtwinklige Dreieck PBC wie in den
+Abbildungen dargestellt. Der rechte Winkel bei Punkt C bleibt immer erhalten.
+
+
+
+
+(1) a) Ergänze in der Tabelle die fehlenden Koordinaten des Punktes P.
+
+
+         x              0                  3                               10
+
+         y              6                                       4          2
+
+
+                                                                                    /2 P.
+
+     b) Wenn der Punkt P auf der Geraden g weiter nach rechts verschoben
+        wird, trifft er an einer Stelle auf die x-Achse.
+
+        Berechne die x-Koordinate von P für diesen Fall.
+
+                                                                                    /2 P.
+
+(2) Der Punkt P wird auf die Koordinaten (6|3,6) verschoben.
+
+     Berechne den Flächeninhalt des zugehörigen grauen Dreiecks.
+
+                                                                                    /2 P.
+
+
+
+
+                                               10
+                         MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+(3)       x         2             5             7             8             10   11
+
+        a(x)       5,2           10          11,2          11,2             10   8,8
+
+
+      Die Wertepaare in der Tabelle gehören zu einer quadratischen Funktion a.
+      Die Funktion a ordnet jeder x-Koordinate von P den Flächeninhalt des
+      jeweils zugehörigen grauen Dreiecks PBC zu.
+
+      a) Gib mithilfe der Tabelle die x-Koordinate des Scheitelpunkts von a und
+         einen Schätzwert für dessen y-Koordinate an.
+
+                                                                                       /2 P.
+
+      b) Die Funktion a hat folgende Funktionsgleichung:
+
+
+
+
+         Zeige für ein Wertepaar aus der Tabelle, dass der zugehörige Punkt auf
+         dem Graphen von a liegt.
+
+                                                                                       /1 P.
+
+
+
+
+                                               11
+                       MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B3
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+
+
+Mit der Position von P ändert sich auch die Länge der Dreieckseite          .
+
+(4) a) Berechne die Länge von              in der abgebildeten Situation.
+
+                                                                                /2 P.
+
+     b) Behauptung: In der abgebildeten Position von P ist die
+        Dreieckseite   am kürzesten.
+
+        Begründe, dass es zum Überprüfen der Behauptung genügt, den
+        Winkel zwischen der Geraden g und der Strecke  zu kennen.
+
+                                                                                /2 P.
+
+     c) Die Gerade h verläuft durch die Punkte B und P(2,1|5,2).
+
+        Bestimme eine Gleichung für die Gerade h.
+
+                                                                                /2 P.
+
+
+
+
+                                             12
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+B4: Statistik und Wahrscheinlichkeit                                         10 Kugeln
+
+Für ein Zufallsexperiment stehen 10 Kugeln zur Verfügung. Die Kugeln sind
+schwarz oder weiß. Einige dieser Kugeln werden in eine Schachtel gelegt.
+Es müssen nicht alle 10 sein.
+
+Zwei Kugeln werden nacheinander aus dieser Schachtel gezogen.
+
+Es gibt immer folgende Regel:
+• Die zuerst gezogene Kugel wird in die Schachtel zurückgelegt.
+• Außerdem wird eine weitere Kugel dieser Farbe in die Schachtel hineingelegt.
+  („doppeltes Zurücklegen“)
+• Dann erst wird die zweite Kugel gezogen.
+
+Beispiel:
+
+
+                                                                         5 schwarze Kugeln,
+ vor dem 1. Ziehen:                                                      3 weiße Kugeln
+
+                                Ziehung einer Kugel
+
+                                                                         Eine schwarze Kugel
+                                                                         wurde gezogen.
+
+                                                                         6 schwarze Kugeln,
+ vor dem 2. Ziehen:                                                      3 weiße Kugeln
+
+
+(1) Ein Schüler behauptet:
+    „Wir können zu Beginn nicht alle 10 Kugeln in die Schachtel legen.“
+
+     Begründe, dass er recht hat.
+
+                                                                                         /1 P.
+
+
+
+
+                                            13
+                     MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+(2) Für ein weiteres solches Experiment wurde folgendes Baumdiagramm
+    gezeichnet:
+
+
+
+
+    a) Gib an, wie viele Kugeln zu Beginn in der Schachtel sind.
+
+                                                                        /1 P.
+
+
+
+    b) Ergänze die beiden fehlenden Wahrscheinlichkeiten
+       im Baumdiagramm.
+
+                                                                        /2 P.
+
+
+
+
+                                           14
+                     MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+(3) Für ein weiteres solches Experiment wurde folgendes Baumdiagramm
+    gezeichnet:
+
+
+
+
+    Berechne die Wahrscheinlichkeit dafür, dass zwei Kugeln mit gleicher Farbe
+    gezogen werden.
+
+                                                                          /2 P.
+
+
+
+
+                                           15
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+(4) Für ein weiteres solches Experiment wird die Schachtel zu Beginn mit
+    nur 3 Kugeln gefüllt.
+
+
+
+
+    Es soll ein Ereignis geben, das folgende Wahrscheinlichkeit hat:
+
+
+    a) Begründe, dass zu Beginn nicht drei Kugeln derselben Farbe in der
+       Schachtel sein können.
+
+                                                                           /1 P.
+
+    b) Zu Beginn sind zwei weiße Kugeln und eine schwarze Kugel in der
+       Schachtel.
+
+
+        Gib ein Ereignis mit folgender Wahrscheinlichkeit an:
+
+
+                                                                           /1 P.
+
+    c) Die Schachtel wird zu Beginn mit drei schwarzen Kugeln gefüllt.
+       Weiße Kugeln sind nicht dabei.
+
+        Gib ein Ereignis an, das unmöglich ist.
+
+                                                                           /1 P.
+
+
+
+
+                                            16
+                      MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B4
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(5) Eine Schülerin behauptet: „Ich befülle die Schachtel so mit insgesamt 9
+    schwarzen und weißen Kugeln, dass ich ein Ereignis mit folgender
+    Wahrscheinlichkeit angeben kann“:
+
+
+
+
+     Widerlege diese Behauptung.
+
+                                                                              /1 P.
+
+(6) Das Zufallsexperiment wird sehr häufig simuliert. Dabei werden in
+    195 Fällen zwei Kugeln mit gleicher Farbe gezogen. Das entspricht 12,5 %.
+
+     Berechne, wie oft die Simulation durchgeführt wurde.
+
+                                                                              /2 P.
+
+(7) Bei 100 anderen Simulationen ergeben sich folgende absolute Häufigkeiten:
+
+     60-mal wurden zwei Kugeln mit gleicher Farbe gezogen.
+     40-mal wurden zwei Kugeln mit unterschiedlichen Farben gezogen.
+
+     Stelle die Häufigkeiten in einem beschrifteten Säulendiagramm dar.
+
+                                                                              /3 P.
+
+
+
+
+                                            17
+                        MSA Mathematik Prüfungsheft 2 2026 (c) MBWFK S-H
+
+
+
+
+Bewertungsübersicht
+
+
+                                                            max.           erreichte
+                                                           Punkte           Punkte
+
+Heft 1                                                         32
+
+Heft 2:     B1                                                  9
+
+      Wahlteil     ja           nein                            6
+
+Heft 2:     B2                                                  9
+
+      Wahlteil     ja           nein                            6
+
+Heft 2:     B3                                                  9
+
+      Wahlteil     ja           nein                            6
+
+Heft 2:     B4                                                  9
+
+      Wahlteil     ja           nein                            6
+
+Gesamtpunktzahl                                                80
+
+
+
+
+Bewertungsschlüssel MSA
+
+
+
+Punkte     Prozente     Mittlerer Schulabschluss (Note)
+
+ 72 - 80     ≥90                               1
+
+ 60 - 71     ≥75                               2
+
+ 48 - 59     ≥60                               3
+
+ 36 - 47     ≥45                               4
+
+ 18 - 35     ≥22                               5
+
+ 17 - 0      <22                               6
+
+
+
+
+                                              18
+

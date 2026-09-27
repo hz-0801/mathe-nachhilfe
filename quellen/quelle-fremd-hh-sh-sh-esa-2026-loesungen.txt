@@ -1,0 +1,678 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2026 ESA Mathematik, Korrekturanweisung
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=3+ESA%7C5+Abschlussarbeiten&dHash=21a89834f0d5fa1e6e6f00f35c1d518f
+ABRUF: 2026-09-27
+SEITEN: 20
+LIZENZVERMERK: © MBWFK, Kiel 2026; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+          Zentrale Abschlussarbeit 2026
+
+
+
+
+              Korrekturanweisung
+Erster allgemeinbildender Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur
+des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+Druck
+Polyprint GmbH
+
+
+© MBWFK, Kiel 2026
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben                                                        Lösungen
+
+A1   Gib den Wert der markierten Zahl an.
+
+
+
+
+                                                                                 /1 P.
+
+
+
+A2   Ergänze die Zahlenfolge.
+
+
+     -12; -7; -2; 3; 8
+
+                                                                                 /1 P.
+
+
+
+A3   Vervollständige den Streifen zu 100 %.
+
+
+     Eine mögliche Lösung:
+
+
+
+
+                                                                                 /1 P.
+
+
+
+A4   Welche der Zahlen ist nicht durch 3 teilbar? Kreuze an.
+
+
+     ☐ 1671              ☐ 2115                    x 3218
+                                                   ☐
+
+                                                                                 /1 P.
+
+
+
+
+                                             3
+                       ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+A5      Im Koordinatensystem sind das Dreieck ABC und der Punkt B’ abgebildet.
+
+
+
+
+     a) Gib die Koordinaten des Punktes B’ an.
+
+        B’ (8 | 5)
+
+                                                                              /1 P.
+
+
+
+     b) Das Dreieck ABC wird nach A’B’C’ verschoben.
+        Ergänze die Punkte A’ und C’ im Koordinatensystem.
+
+        Das Eintragen der Punkte A’ und C’ ist ausreichend. Die Beschriftung der
+        Punkte ist nicht erforderlich.
+                                                                              /1 P.
+
+
+
+
+                                                4
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+A6   Das Bild eines Turmes besteht aus einem Rechteck und einem Dreieck.
+
+
+
+
+     Jedes Bild soll anders aussehen.
+
+
+     Es gibt diese Möglichkeiten für das Rechteck                          und
+
+
+
+
+     diese Möglichkeiten für das Dreieck                               .
+
+
+     Gib an, wie viele verschiedene Bilder dieses Turms möglich sind.
+
+     Es sind 6 verschiedene Bilder des Turms möglich.
+
+                                                                             /1 P.
+
+
+
+
+                                             5
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A7   Tino will das Gewinnspiel auswählen, bei dem die
+     Gewinnwahrscheinlichkeit für „schwarz“ höher ist.
+
+
+
+
+     Entscheide und begründe, welches Gewinnspiel Tino wählen sollte.
+
+     x Gewinnspiel A
+     ☐
+
+     ☐ Gewinnspiel B
+
+     ☐ Es ist egal, ob er Gewinnspiel A oder Gewinnspiel B wählt.
+
+     mögliche Begründung:
+
+
+
+
+     Der Punkt wird vergeben, wenn Gewinnspiel A angekreuzt und eine
+     passende Begründung angegeben wird.
+                                                                           /1 P.
+
+
+
+
+                                             6
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A8   Das Schaubild stellt vereinfacht Pias Fahrt in einer Seilbahn dar.
+     Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+
+
+
+                                                                      wahr     falsch
+      Pia fährt mit der Seilbahn bergab.                                   6    ☐
+      Nach einer Minute befindet sich die Seilbahn auf
+                                                                           6    ☐
+      einer Höhe von ungefähr 175 m.
+      Nach 350 s endet Pias Fahrt in der Seilbahn.                         ☐     6
+
+
+                                                                                        /3 P.
+
+
+
+
+                                             7
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A9    Mit Hilfe einer Tabellenkalkulation wird das Volumen von Quadern
+      berechnet.
+
+
+
+
+      Gib eine Formel für Zelle D4 an, die das Volumen des Quaders
+      berechnet.
+
+      Mögliche Lösungen:
+
+
+         =Produkt(A4:C4)
+
+         =A4*B4*C4
+
+         =3*4*5
+
+                                                                           /1 P.
+
+
+
+A10   Gib den Abstand d der Parallelen an.
+
+
+
+
+      d = 1,65 cm
+
+      +/- 1 mm Toleranz
+
+                                                                           /1 P.
+
+
+
+
+                                             8
+                     ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+A11   Die abgebildete Figur mit einem Flächeninhalt von 80 cm² besteht aus fünf
+      gleich großen Quadraten.
+
+
+
+
+                                     Abbildung nicht maßstabsgerecht
+
+
+      Julia sagt: „Die Seitenlänge jedes dieser Quadrate beträgt 4 cm.“
+
+      Entscheide und begründe, ob Julia recht hat.
+
+      x Julia hat recht.
+      ☐
+
+      ☐ Julia hat nicht recht.
+
+      Mögliche Begründung:
+
+      Jedes Quadrat hat einen Flächeninhalt von (80:5) cm² = 16 cm². Da 16=4²
+      ist, ergibt sich, dass jede Seitenlänge dieser Quadrate 4 cm beträgt.
+
+      Der Punkt wird vergeben, wenn „Julia hat recht“ angekreuzt und eine passende
+      Begründung angegeben wird.
+                                                                                /1 P.
+
+
+
+A12   Welches Viereck ist kein Parallelogramm? Kreuze an.
+
+
+
+
+                ☐                                 6                         ☐
+                                                                                /1 P.
+
+
+
+A13   Berechne.
+
+
+
+
+                                                                                / 1 P.
+
+
+
+
+                                              9
+                     ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+A14   Ein Auto legt in 20 Minuten 30 Kilometer zurück.
+      Kreuze die Länge der zurückgelegten Strecke bei gleichbleibender
+      Geschwindigkeit nach einer Stunde an.
+
+
+      ☐ 50 km             x 90 km
+                          ☐                         ☐ 150 km
+
+                                                                            /1 P.
+
+
+
+A15   Aus einem Draht mit 60 cm Länge wird das Kantenmodell eines Würfels
+      hergestellt.
+
+
+
+
+      Gib die Länge einer Würfelkante an.
+
+      5 cm
+
+                                                                            /1 P.
+
+
+
+A16   Zeichne im Dreieck ABC die Höhe hb ein.
+
+
+
+
+                                                                            /1 P.
+
+
+
+
+                                             10
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+A17   Gib den Flächeninhalt der grau markierten Fläche an.
+
+
+
+
+      A = 2 cm²
+
+                                                                           /1 P.
+
+
+
+
+                                            11
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+B1: Komplexaufgabe                                                         Lösungen
+
+(1)
+
+  a) gesucht: Besucheranzahl am 25.7.
+
+      77 000
+
+      Als richtig zu werten sind Angaben aus dem Intervall [75 500 ;78 500]
+                                                                                    /1 P.
+
+
+
+  b) Gesucht: Nachweis, dass Eray recht hat
+
+      Ansatz: Anteilsbestimmung                                               (1)
+
+      85 000 : 21 000 ≈ 4,05                                                  (1)
+      4,05 = 405%
+
+      Das entspricht einem Anstieg von 305%
+
+                                                                                    /2 P.
+
+
+(2)   gesucht: Entfernung in km und Lösungsweg
+
+      Die Entfernung beträgt etwa 200 km                                      (1)
+
+      Als richtig zu werten sind Angaben aus dem Intervall [175 ;250]
+
+      Der beschriebene Lösungsweg bezieht den in der
+      Karte angegebenen Maßstab ein.                                          (1)
+
+                                                                                    /2 P.
+
+
+
+
+                                            12
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+(3)
+
+  a) gesucht: Wahrscheinlichkeit dafür, dass Magnus die 2 7 4 erhält.
+
+
+
+
+                                                                                 /1 P.
+
+
+
+  b) gesucht: Entscheidung und Begründung, ob Magnus recht hat
+
+      Magnus hat nicht recht.                                              (1)
+
+      Es wird gezeigt, dass es weniger Möglichkeiten gibt, bei denen man
+      gewinnt, als solche, bei denen man verliert.                   (1)
+
+      Mögliche Lösung:
+      Es werden die 10 Beispiele, in denen man gewinnt und mindestens 11
+      Beispiele, in denen man verliert, angegeben.
+
+      Die exakten Wahrscheinlichkeiten müssen nicht angegeben werden.
+                                                                                 /2 P.
+
+
+(4)
+
+  a) gesucht: Länge des Zauns in m
+
+      94
+
+                                                                                 /1 P.
+
+
+
+  b) gesucht: Flächeninhalt der Trapezfläche
+
+      Ansatz: Flächenberechnung Trapez                                     (1)
+
+                                                                           (1)
+
+
+                                                                           (1)
+
+      Bei einer Fläche von 504 m² sind 1008 Besucher zugelassen.
+
+                                                                                 /3 P.
+
+
+
+
+                                            13
+                     ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B1
+Du musst einen der zwei Wahlteile bearbeiten.
+
+
+(5)
+
+      Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+
+                                                                       wahr     falsch
+      Für den Auftritt von Leony ist die längste
+                                                                            7    ☐
+      Zeitspanne geplant.
+      Die durchschnittliche Dauer eines Auftritts
+                                                                            7    ☐
+      beträgt eine Stunde.
+      Laut Programm steht um 20:00 Uhr Torfrock auf
+                                                                            ☐     7
+      der Bühne.
+
+
+                                                                                         /3 P.
+
+
+(6)
+
+  a) gesucht: Betrag in Euro, den Eray bezahlen muss
+
+
+
+
+                                                                                         /1 P.
+
+
+
+  b) gesucht: Zwei mögliche Bestellungen
+
+      Mögliche Lösungen
+
+      Magnus hat vier Bratwürste und einmal Pommes bestellt.                     (1)
+
+      Magnus hat zwei Bier und zweimal Bratwurst bestellt                        (1)
+
+      Lösungen, die den Pfand nicht berücksichtigen, sind ebenfalls voll zu
+      bepunkten.
+                                                                                         /2 P.
+
+
+
+
+                                             14
+                     ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+B2: Komplexaufgabe                                                          Lösungen
+
+(1)
+
+  a) gesucht: Gesamtpreis in Euro für die fünf Zaunelemente
+
+                                                                               (1)
+
+      = 557,97                                                                 (1)
+
+                                                                                     /2 P.
+
+
+
+  b) gesucht: Preis in Euro
+
+      Möglicher Rechenweg:
+
+      G = 206,70    q = 0,9                                                    (1)
+
+      206,7 · 0,9 = 186,03                                                     (1)
+
+                                                                                     /2 P.
+
+
+
+  c) gesucht: Überprüfung, ob die Terrasse größer ist als 12 m2.
+
+      Ansatz Flächenberechnung                                                 (1)
+
+      (1,8+1,8) · (1,8+0,9+0,9) = 12,96                                        (1)
+
+      12,96 > 12                                                               (1)
+
+      Rechenwege, in denen die Pfosten berücksichtigt sind, werden
+      ebenfalls voll bepunktet.
+                                                                                     /3 P.
+
+
+(2)   gesucht: Nachweis, dass vier 25-Kilo-Säcke für ein Loch ausreichen
+
+      Vier 25-Kilo-Säcke sind 100 Kilo                                         (1)
+
+      Ansatz Proportionalität                                                  (1)
+
+      Für ein Loch werden 90 kg benötigt.                                      (1)
+
+      Vier Säcke reichen aus.
+
+                                                                                     /3 P.
+
+
+
+                                             15
+                     ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+(3)   Gesucht: Nachweis, dass der Transporter das Element laden kann
+
+      Ansatz Pythagoras                                                     (1)
+
+
+                                                                            (1)
+
+      Der explizite Vergleich „2,20 m > 1,80 m“ wird nicht erwartet.
+
+
+
+                                                                                  /2 P.
+
+
+Wahlteil zu B2
+Du musst einen der zwei Wahlteile bearbeiten.
+
+
+(4)
+
+  a) gesucht: Säule für das Jahr 2020
+
+
+
+
+                                                                                  /1 P.
+
+
+
+  b) gesucht: Anstieg der gemeldeten Schäden in Prozent
+
+      Ansatz Prozentrechnung                                                (1)
+
+                                                                            (1)
+
+                                                                                  /2 P.
+
+
+
+
+                                             16
+                  ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+c) gesucht: durchschnittliche Anzahl gemeldeter Schäden
+
+                                                                         (1)
+
+
+   = 0,8                                                                 (1)
+
+                                                                               /2 P.
+
+
+
+d) gesucht: Formel, mit deren Hilfe sich der Durchschnitt in der Zelle B4
+   berechnen lässt.
+
+   Mögliche Lösung:
+
+
+
+     =Mittelwert(B2:E2)
+
+                                                                               /1 P.
+
+
+
+
+                                          17
+                    ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+Bewertungsschlüssel ESA
+
+Punkte   Prozente           Erster allgemeinbildender
+                            Schulabschluss (Note)
+45-50    ≥90                     1
+38-44    ≥75                     2
+30-37    ≥60                     3
+23-29    ≥45                     4
+11-22    ≥22                     5
+ 0-10    <22                     6
+
+
+
+
+                                            18
+ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+                        19
+ESA Mathematik Korrekturanweisung 2026 (c) MBWFK S-H
+
+
+
+
+                        20
+

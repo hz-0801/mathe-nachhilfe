@@ -1,0 +1,1080 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2022 MSA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=fdd9b7cdefc9eab6918eeb56518feec1
+ABRUF: 2026-09-27
+SEITEN: 10
+LIZENZVERMERK: © 2022 Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein; Fußzeile jeder Seite: „(c) MBWK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+  Zentrale Abschlussarbeit 2022
+
+
+
+Mathematik
+     Heft 1
+        Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Brunswiker Str. 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+© 2022 Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+                       MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 1.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                30 Minuten
+
+Bearbeitungszeit:        insgesamt 165 Minuten, davon höchstens
+                         60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                             3
+                             MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A Kurzformaufgaben
+
+A1   Gegeben ist das folgende Quadermodell. Welche Kante steht
+     senkrecht auf der Kante AE ? Kreuze an.
+
+
+                             H                                                      G
+
+                E                                                        F
+
+
+                                  D                                                 C
+
+
+                    A                                                  B
+
+
+
+           AF                                EH                                DH
+
+
+                                                                                        /1 P.
+
+A2   Vervollständige die Tabelle für die antiproportionale Zuordnung.
+
+
+                    Anzahl                                   Dauer in h
+
+                        15                                       100
+
+                        60
+
+
+
+                                                                                        /1 P.
+
+A3   Bei einem Glücksspiel soll die Wahrscheinlichkeit für einen Gewinn
+     20 % betragen. Beschreibe ein Glücksspiel, auf das dies zutrifft.
+
+
+
+
+                                                                                        /1 P.
+
+
+                                                   4
+                        MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A4   Sieben Freunde haben ihr Taschengeld miteinander verglichen.
+     Angaben in Euro pro Woche: 5; 20; 15; 10; 12; 15; 21.
+
+     Gib die folgenden Mittelwerte an:
+
+     Arithmetisches Mittel: ______
+
+     Median, hier die mittlere Zahl, wenn man alle Zahlen der Größe nach
+     sortiert: ______
+
+
+
+
+                                                                                  /2 P.
+
+A5   Für die Strecke, die ein Körper im freien Fall bei Vernachlässigung des
+     Luftwiderstands zurücklegt, gilt folgende Regel:
+
+     Quadriere die Fallzeit (in s) und multipliziere das Ergebnis mit 5, so
+     erhältst du die Fallstrecke (in m).
+
+     Gabor hat nach dieser Regel mithilfe einer Tabellenkalkulation zu
+     unterschiedlichen Fallzeiten die zugehörigen Fallstrecken berechnet.
+
+
+
+
+     a) Ergänze die fehlenden Werte in den Zellen D2 und E2.
+
+                                                                                  /2 P.
+
+     b) Kreuze die Formel an, mit der der Wert in Zelle C2 berechnet
+        werden kann.
+
+             =C1*C1*5                  =B1*(1+C1/100)                     =B2*5
+
+                                                                                  /1 P.
+
+A6   Julia hat die letzte Ziffer ihrer PIN für ihr Handy vergessen. Die
+     Wahrscheinlichkeit, dass sie zweimal falsch rät, beträgt
+
+         9                     72                         81
+        10                     90                        100
+
+                                                                                  /1 P.
+
+                                              5
+                      MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A7   Ergänze zu einem Trapez ABCD mit dem Winkel  =50 und
+     AD ║ BC .
+
+
+         D
+
+
+
+
+                ·
+         A                       B
+
+                                                                                 /1 P.
+
+A8   Entscheide jeweils, ob die Aussage wahr oder falsch ist. Kreuze an.
+
+
+                                                     wahr               falsch
+      140 = 1
+
+
+      2
+         60%
+      3
+
+       4  25  10
+
+
+      (22)3 = 64
+
+
+
+                                                                                 /4 P.
+
+A9   Gegeben ist die folgende quadratische Funktion in Normalform.
+
+     f(x) = x2 + 6x + 10
+
+     Welche der folgenden Funktionsgleichungen stellt dieselbe
+     quadratische Funktion in der Scheitelpunktform dar? Kreuze an.
+
+        g(x)=(x+3)2 + 10
+
+        h(x)=(x+3)2 + 9
+
+        i(x)=(x+3)2 + 1
+
+                                                                                 /1 P.
+
+
+
+                                            6
+                        MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A10   Ein 3500 m2 großer Platz erhält ein neues Pflaster. 600 m2 sind
+      bereits fertig. Stündlich werden 30 m2 zusätzlich gepflastert.
+
+      Entscheide, welche der Funktionsgleichungen die Situation richtig
+      beschreibt.
+
+         f(x)=600+30x
+
+         g(x)=3500+30x
+
+         h(x)=600∙30x
+
+      Begründe deine Entscheidung.
+
+
+
+
+                                                                             /2 P.
+
+A11   Ein Dreieck hat eine Grundseite von 5 cm und einen Flächeninhalt von
+      30 cm2.
+
+      Gib die Höhe h an.
+
+      h = ______________
+
+                                                                             /1 P.
+
+A12   Ein Würfel hat die Kantenlänge 4 cm. Er wird in zwei gleichgroße
+      Quader zerschnitten.
+
+
+
+
+      Gib die Seitenlängen eines Quaders an. a= _____ b= _____ c= ____
+
+      Gib das Volumen eines Quaders an. __________________________
+
+      Angenommen, der Würfel wird in 64 gleichgroße Quader zerteilt.
+      Welches Volumen hat dann einer dieser Quader?
+
+      ________________________________________
+
+                                                                             /3 P.
+
+                                              7
+                       MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A13   Bei einem Test ist das Verhältnis von richtigen zu falschen Antworten
+      4:3. Der Anteil falscher Antworten beträgt:
+
+         1                    3                         3
+         3                    4                         7
+
+                                                                              /1 P.
+
+A14   Im Schaubild ist eine Parabel abgebildet. Ihre Funktionsgleichung
+      lautet f(x)=0,5x2.
+
+      Beschrifte beide Achsen so, dass sie zur abgebildeten Parabel passen.
+
+                                              y
+
+
+
+
+                                                                              x
+
+
+
+                                                                              /1 P.
+
+A15   Ali sagt: „Bildet man aus allen fünf Ziffern 1; 2; 3; 4 und 5 eine
+      beliebige fünfstellige Zahl, so ist diese immer durch 3 teilbar.“
+
+      Begründe, dass dies stimmt.
+
+
+
+
+                                                                              /1 P.
+
+
+
+
+                                             8
+                       MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A16   Josy sagt: „Wenn zwei Zahlen durch 5 teilbar sind, dann ist auch ihre
+      Summe immer durch 5 teilbar.“
+
+      Begründe, dass dies stimmt.
+
+
+
+
+                                                                                        /1 P.
+
+A17   Welche Dreiecke entstehen? Verbinde.
+
+      In ein Quadrat wird eine                                    Rechtwinklige,
+      Diagonale eingezeichnet.                                    allgemeine Dreiecke
+
+      In ein regelmäßiges                                         Rechtwinklige,
+      Sechseck werden drei                                        gleichschenklige
+      Diagonalen eingezeichnet.                                   Dreiecke
+
+      In ein gleichseitiges Dreieck                               Gleichseitige
+      wird eine Höhe                                              Dreiecke
+      eingezeichnet.
+
+
+                                                                                        /2 P.
+
+A18   Es wird mit zwei normalen sechsseitigen Spielwürfeln gewürfelt.
+
+      a) Die Wahrscheinlichkeit, dass ein Würfel eine 3 und ein Würfel eine
+         4 zeigt, beträgt:
+
+             1                 1                        1
+            36                18                        6
+
+                                                                                        /1 P.
+
+      b) Die Wahrscheinlichkeit, zwei gleiche Zahlen zu würfeln, beträgt:
+
+             1                 1                        1
+            36                12                        6
+
+                                                                                        /1 P.
+
+
+
+
+                                             9
+                      MSA Mathematik Prüfungsheft 1 2022 (c) MBWK S-H
+
+
+
+
+A19   Gegeben ist die Gleichung 3x - 2y + 7 = 0.
+
+      Überprüfe durch eine geeignete Rechnung, ob das Zahlenpaar
+      (-7 ; -7) Lösung der Gleichung ist.
+
+
+
+
+                                                                                        /1 P.
+
+A20   Gleiche Buchstaben bezeichnen gleich große Winkel. Wie groß ist der
+      Winkel γ?
+
+
+
+
+                                                                          _____ 
+
+
+
+
+                                                                        Die Zeichnung ist nicht
+                                                                        maßstabsgetreu.
+
+
+
+                                                                                        /1 P.
+
+A21   Ilka fährt mit dem Fahrrad von Itzehoe nach Hohenwestedt. Sie
+      benötigt für die 24 km lange Strecke insgesamt eine Fahrtzeit von 80
+      Minuten. Nach 45 Minuten macht sie eine Pause. Wie viele Kilometer
+      ist sie bis dann etwa gefahren?
+
+
+
+
+      ___________________ km
+
+                                                                                        /1 P.
+
+
+
+
+                                            10
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2022 MSA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=eb1965a317d526aea3a861190d417c53
+ABRUF: 2026-09-27
+SEITEN: 18
+LIZENZVERMERK: © 2022Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein; Fußzeile jeder Seite: „(c) MBWK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+  Zentrale Abschlussarbeit 2022
+
+
+
+0DWKHPDWLN
+     +HIW
+       0LWWOHUHU Schulabschluss
+Herausgeber
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Brunswiker Str. 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+© 2022Ministerium für Bildung, Wissenschaft und Kultur des Landes Schleswig-Holstein
+                       MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 2.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                30 Minuten
+
+Bearbeitungszeit:        insgesamt 165 Minuten, davon höchstens
+                         60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                             3
+                        MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+B1: Trigonometrie                                                            Viereck
+
+Martha hat sich Gedanken über folgendes Viereck gemacht:
+
+
+
+
+                                                        Die Zeichnung ist nicht
+                                                        maßstabsgetreu.
+
+
+
+
+(1) Martha hat herausgefunden: Die Strecke CD ist 5,53 cm lang.
+
+    a) Zeige, dass Martha recht hat.
+
+                                                                                  /2 P.
+
+    b) Beschreibe einen anderen Lösungsweg, die Länge der Strecke CD zu
+       ermitteln.
+
+        Die Rechnung muss nicht ausgeführt werden.
+
+        Ergänze dazu gegebenenfalls die Bezeichnungen in der Planskizze.
+
+                                                                                  /2 P.
+
+(2) Martha möchte den Umfang des Vierecks ABCD bestimmen. Dazu berechnet
+    sie die Länge der Strecke AB mit dem Kosinussatz.
+
+    a) Fülle die drei Lücken in Marthas Beschreibung aus:
+
+        „Ich berechne zuerst ∢DCA über sin(∢DCA) =________________;
+
+        dann berechne ich den Winkel ∢ ____________ über 120° - ∢DCA;
+
+                  2
+        dann AB       =__________________________________________ .“
+
+
+         AB  8, 74 cm
+
+
+                                                                                  /3 P.
+
+                                              4
+                      MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+    b) Berechne den Umfang des Vierecks ABCD.
+
+                                                                        /1 P.
+
+    c) Gib eine andere Möglichkeit an, die Länge der Strecke AB rechnerisch
+       zu bestimmen.
+
+        Die Rechnung muss nicht ausgeführt werden.
+
+                                                                        /1 P.
+
+
+
+
+Wahlteil zu B1
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) Um den Flächeninhalt des Vierecks ABCD zu bestimmen, werden die
+    Teildreiecke ACD und ABC betrachtet.
+
+    a) Bestimme den Flächeninhalt des Dreiecks ACD.
+
+                                                                        /2 P.
+
+    b) Weise nach, dass im Dreieck ABC die Höhe auf der Seite AC
+       5,67 cm lang ist.
+
+                                                                        /1 P.
+
+    c) Berechne den Flächeninhalt des Vierecks ABCD.
+
+                                                                        /3 P.
+
+
+
+
+                                            5
+                         MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+ B2: Stereometrie                                                          Litfaßsäule
+
+
+
+In vielen Städten gibt es Litfaßsäulen. Das sind große Zylinder aus Beton, auf
+denen Plakate kleben. Lutz arbeitet bei einer Firma, die Litfaßsäulen beklebt.
+
+
+
+
+                        Die Abbildung ist nicht maßstabsgetreu.
+
+
+
+
+(1) Lutz überlegt, wie die abgebildete Säule beklebt werden soll. Dazu hat er
+    eine Skizze der beklebbaren Fläche angefertigt (siehe Abbildung).
+    Die Seitenlängen x und y berechnet ein Computerprogramm.
+
+     a) Kreuze an, wie y berechnet wurde.
+
+             y k hp                   y k  hp                      y h k p    
+                                                                                              /1 P.
+
+     b) Kreuze an, wie x berechnet wurde.
+
+                                                                                 b
+             x   b                     x   d                         x        
+                                                                                 2
+
+                                                                                              /1 P.
+
+
+
+                                               6
+                      MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+    c) Ein Plakat im DIN-A0-Format ist 118,9 cm lang und 84,1 cm breit.
+
+        Ermittle, wie viele DIN-A0-Plakate ohne Überlappung auf die Säule
+        geklebt werden können, wenn alle Plakate dieselbe Ausrichtung haben.
+
+                                                                                        /2 P.
+
+(2) Das zylindrische Dach der Litfaßsäule muss erneuert werden.
+
+    a) Berechne das Volumen des alten Daches in m3.
+
+                                                                                        /2 P.
+
+    b) Das neue Dach soll bei gleicher Grundfläche die Form eines Kegels haben
+       und 50 cm hoch sein.
+
+       Begründe, dass das neue Dach ein kleineres Volumen hat als das alte.
+
+                                                                                        /2 P.
+
+    c) Damit keine Tauben auf dem neuen Dach landen, soll der
+       Neigungswinkel  45° betragen.
+
+
+
+
+                                                              Die Abbildung ist nicht
+                                                              maßstabsgetreu.
+
+
+
+
+        Begründe, dass der Neigungswinkel die Bedingung nicht erfüllt.
+
+                                                                                        /1 P.
+
+
+
+
+                                            7
+                       MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+
+
+(3) Die 3 m hohe Litfaßsäule wirft einen Schatten auf den Boden. Der Schatten
+    ist 4 m lang. Lutz ist 1,80 m groß. Er möchte mit einem Experiment die
+    Länge seines Schattens herausfinden. Dazu stellt er sich so in den Schatten
+    der Litfaßsäule, dass sein eigener Schatten gerade im Schatten der
+    Litfaßsäule verschwindet.
+
+
+
+
+                         Die Abbildung ist nicht maßstabsgetreu.
+
+
+
+
+     a) Ergänze in der Abbildung die Größen aus dem Text.
+
+                                                                           /1 P.
+
+     b) Bestimme rechnerisch die Länge von Lutz’ Schatten.
+
+                                                                           /2 P.
+
+
+
+
+                                             8
+                       MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(4) Lutz hat ein Modell der Litfaßsäule im Maßstab 1:6 gebastelt.
+
+     a) Gib die Höhe des Modells an.
+
+                                                                           /1 P.
+
+     b) Lutz möchte wissen, wie groß die beklebbare Fläche seines Modells ist.
+        Dazu berechnet er den entsprechenden Flächeninhalt für die große
+        Litfaßsäule und dividiert diesen Wert durch 6, also
+
+                             3,14 m  2, 60 m : 6  1, 36 m        2
+
+
+
+
+        Entscheide, ob Lutz richtig gerechnet hat und begründe deine
+        Entscheidung.
+
+                                                                           /2 P.
+
+
+
+
+                                             9
+                        MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+ B3: Funktionen                                                           Winterjacken
+
+Die Firma Frosti stellt Winterjacken her. Sie möchte ihren Gewinn vergrößern und
+untersucht deshalb, wie die Herstellungskosten und der Erlös von der
+produzierten und verkauften Stückzahl x abhängen. Die Kostenfunktion wird mit
+k (x )  80x  60000 und die Erlösfunktion mit e (x)  0,1x (4000  x) beschrieben.
+
+(1) Die folgende Abbildung zeigt die Graphen der Kostenfunktion k und der
+    Erlösfunktion e.
+
+
+
+
+     a) Lies ab, wie viele Winterjacken bei Kosten von 400 000 € hergestellt
+        werden können.
+
+                                                                                   /1 P.
+
+     b) Gib an, für welche Anzahl an verkauften Winterjacken der Erlös
+        maximal ist.
+
+                                                                                   /1 P.
+
+     c) Gib den Erlös für 500 verkaufte Winterjacken an.
+
+                                                                                   /1 P.
+
+
+                                              10
+                      MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(2) Um Gewinn zu machen, muss der Erlös größer als die Kosten sein.
+
+    a) Markiere diesen Bereich auf der x-Achse.
+
+                                                                        /1 P.
+
+    b) Berechne, bei welchen Stückzahlen die Erlöse und die Kosten gleich
+       sind.
+
+                                                                        /3 P.
+
+(3) Um den Gewinn zu bestimmen, müssen bei gleicher Stückzahl die Kosten
+    vom Erlös subtrahiert werden.
+
+    Bestimme den Gewinn für 2 000 Jacken.
+
+                                                                        /2 P.
+
+
+
+
+                                            11
+                        MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B3
+ Du musst zwei der vier Wahlteile bearbeiten.
+
+
+
+(4) Um den Gewinn zu bestimmen, müssen die Kosten vom Erlös subtrahiert
+    werden. Es entsteht die Gewinnfunktion mit g( x )  e( x )  k ( x ) .
+
+
+
+    a) Bei der Umformung des Terms für g(x) sind zwei Fehler passiert.
+
+        g( x )  0,1x ( 4000  x )  ( 80x  60000)
+        g( x )  4000x  0,1x 2  80x  60000
+
+        Erläutere die beiden Fehler.
+
+                                                                               /2 P.
+
+    b) Die korrekte Funktionsgleichung lautet g( x )  0 ,1x 2  320 x  60 000 .
+
+       Bestimme damit den maximalen Gewinn und die zugehörige Anzahl der
+       verkauften Winterjacken.
+
+                                                                               /2 P.
+
+    c) Die Firma möchte einen Gewinn von 115 000 € erzielen.
+
+        Berechne, wie viele Jacken die Firma verkaufen muss, um diesen
+        Gewinn zu erzielen.
+
+                                                                               /2 P.
+
+
+
+
+                                              12
+                      MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+B4: Statistik und Wahrscheinlichkeit                                    Kugeln
+
+Bei einem Spiel sind eine schwarze, drei graue und vier weiße Kugeln in einer
+Schachtel. Es werden nacheinander zwei Kugeln gezogen. Dabei wird die zuerst
+gezogene Kugel nicht zurückgelegt.
+Das Spiel ist gewonnen, wenn beide gezogenen Kugeln die gleiche Farbe haben.
+
+(1) Kieron hat das Baumdiagramm dazu fast vollständig gezeichnet:
+
+
+
+
+    a) Petra bemängelt: „Das Baumdiagramm ist gar nicht fertig.“
+       Ergänze die fehlenden Wahrscheinlichkeiten in den Kästchen.
+
+                                                                            /2 P.
+
+    b) Erläutere, warum die Nenner aller Brüche in der zweiten Stufe
+       um eins niedriger sind als in der ersten Stufe.
+
+                                                                            /1 P.
+
+
+                                            13
+                  MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+c) Gib die Wahrscheinlichkeit dafür an, das Spiel zu gewinnen.
+
+                                                                       /1 P.
+
+d) Es fällt auf, dass Wahrscheinlichkeiten für zwei Kugeln verschiedener
+   Farben gleich sind, egal welche der beiden Farben zuerst gezogen
+   wurde. (Zum Beispiel Grau-Weiß oder Weiß-Grau)
+
+   Begründe, dass das immer so ist – unabhängig von der Anzahl der
+   Kugeln in der Schachtel.
+
+                                                                       /2 P.
+
+
+
+
+                                        14
+                       MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(2) Bei einem anderen Spiel wurde mit Hilfe einer Tabellenkalkulation simuliert.
+
+
+
+
+     a) Gib an, wie viele schwarze Kugeln beim zehnten Spiel nach der ersten
+        Ziehung noch in der Schachtel waren.
+
+                                                                            /1 P.
+
+     b) Berechne den Prozentsatz der simulierten Spiele, bei denen keine
+        graue Kugel gezogen wurde.
+
+                                                                            /2 P.
+
+
+
+
+                                             15
+                       MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Wahlteil zu B4
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) Es wird überlegt, für jedes Spiel Punkte zu vergeben:
+
+    0 Punkte für verschiedenfarbige Kugeln
+    1 Punkt für zwei weiße Kugeln
+    2 Punkte für zwei graue Kugeln
+
+    In 20 Spielen wurden nacheinander folgende Punktzahlen erzielt:
+    1, 0, 0, 0, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+
+    a) Berechne, wie viele Punkte durchschnittlich in diesen 20 Spielen
+       erzielt wurden.
+
+                                                                          /1 P.
+
+    b) Yasmine hat im Mathematik-Unterricht gelernt, einen anderen Mittelwert
+       als den Durchschnitt zu bestimmen. Er heißt „Median“. Dazu werden alle
+       Zahlen der Größe nach sortiert aufgeschrieben. Bei einer geraden
+       Anzahl von Spielen ist der Median der Durchschnitt der beiden Zahlen,
+       die in der Mitte stehen.
+
+        Bestimme den Median für diese 20 Punktzahlen.
+
+                                                                          /1 P.
+
+    c) Bei einem anderen Spiel wurden folgende Werte ermittelt:
+       Durchschnitt: 0,5
+       Median:       0
+
+        Begründe, warum der Median in diesem Fall nicht aussagekräftig ist.
+
+                                                                          /2 P.
+
+
+
+
+                                             16
+                      MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+(4) Für eine weitere Variante wurde ebenfalls ein Baumdiagramm angefertigt.
+    Auch hierbei wurde die erste gezogene Kugel nicht wieder zurückgelegt.
+
+
+
+
+      Gib eine Möglichkeit für die Anzahlen der schwarzen, der grauen und der
+      weißen Kugeln in der Schachtel an.
+
+                                                                          /2 P.
+
+
+
+
+                                            17
+                      MSA Mathematik Prüfungsheft 2 2022 (c) MBWK S-H
+
+
+
+
+Bewertungsübersicht
+
+                                                          max.          erreichte
+                                                         Punkte          Punkte
+Heft 1                                                      32
+
+Heft 2:     B1                                               9
+
+      Wahlteil     ja       nein                           6
+
+Heft 2:     B2                                               9
+
+      Wahlteil     ja       nein                           6
+
+Heft 2:     B3                                               9
+
+      Wahlteil     ja       nein                           6
+
+Heft 2:     B4                                               9
+
+      Wahlteil     ja       nein                           6
+
+Gesamtpunktzahl                                             80
+
+
+Bewertungsschlüssel MSA
+
+Punkte     Prozente   Mittlerer Schulabschluss (Note)
+
+
+ 72 - 80     ≥90                            1
+
+ 60 - 71     ≥75                            2
+
+ 48 - 59     ≥60                            3
+
+ 36 - 47     ≥45                            4
+
+ 18 - 35     ≥22                            5
+
+ 17 - 0      <22                            6
+
+
+
+
+                                            18
+

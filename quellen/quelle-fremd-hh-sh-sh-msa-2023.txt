@@ -1,0 +1,1133 @@
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2023 MSA Mathematik, Schülerheft 1 (Kurzformaufgaben, ohne Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=3b49f6966b08bc69b23e7effa88d6c1a
+ABRUF: 2026-09-27
+SEITEN: 10
+LIZENZVERMERK: © MBWFK, Kiel 2023; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2023
+
+
+
+
+      Mathematik Heft 1
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2023
+                       MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 1.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 30 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                      MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A: Kurzformaufgaben
+
+A1   Der Würfel wurde an einer Ecke eingefärbt. Zeichne im Würfelnetz die zwei
+     fehlenden farbigen Ecken ein.
+
+
+
+
+                                                                             /1 P.
+
+A2   In einem Gefäß befinden sich insgesamt 200 Lose. 20 Lose sind Gewinne,
+     die anderen Lose sind Nieten. Die Lose werden ohne hinzusehen gezogen
+     und nicht wieder zurückgelegt.
+
+     a) Wie groß ist die Wahrscheinlichkeit, dass das erste gezogene Los ein
+        Gewinn ist? Kreuze an.
+
+        ☐ 1%                       ☐ 5%                             ☐ 10 %
+
+                                                                             /1 P.
+
+     b) Aus den 200 Losen wurden 50 Nieten und kein Gewinn gezogen.
+
+        Welche Aussage trifft zu? Kreuze an.
+
+        ☐ Die Wahrscheinlichkeit, als nächstes einen Gewinn zu ziehen, ist
+          größer im Vergleich zur ersten Ziehung.
+
+        ☐ Die Wahrscheinlichkeit, als nächstes einen Gewinn zu ziehen, ist
+          kleiner im Vergleich zur ersten Ziehung.
+
+        ☐ Die Wahrscheinlichkeit, als nächstes einen Gewinn zu ziehen, ist
+          genauso groß wie bei der ersten Ziehung.
+
+                                                                             /1 P.
+
+
+
+
+                                             4
+                         MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A3    8 liegt zwischen
+
+     ☐ 1,5 und 2                   ☐ 2 und 2,5                        ☐ 2,5 und 3
+
+                                                                                    /1 P.
+
+A4   Johanna hat ein Spiel für 8 € gekauft und dieses für 6 € an einen Freund
+     verkauft.
+
+     Zeige, dass ihr Verlust 25 % beträgt.
+
+
+
+
+                                                                                    /1 P.
+
+A5   Die Geraden g und h sind parallel. Gleiche Buchstaben bezeichnen gleich
+     große Winkel. Gib die Größe der bezeichneten Winkel an. Die Abbildung ist
+     nicht maßstabsgerecht.
+
+
+
+
+                                                              β = ______
+
+
+                                                              𝛿 = ______
+
+
+
+                                                                                    /2 P.
+
+A6   Ergänze das unvollständige Schrägbild des Trapezprismas.
+
+
+
+
+                                                                                    /1 P.
+
+
+                                                5
+                       MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A7   Widerlege jede Aussage, z.B. indem du ein Gegenbeispiel angibst.
+
+     a) Aussage: „Je größer eine natürliche Zahl ist, desto größer ist ihre
+        Quersumme.“
+
+
+
+
+                                                                                /1 P.
+
+     b) Aussage: „Wenn bei zwei Dreiecken die Längen der Grundseiten und die
+        Längen der Höhen auf dieser Grundseite gleich sind, dann sind die
+        Dreiecke kongruent.“
+
+
+
+
+                                                                                /1 P.
+
+A8   In der ersten Reihe eines Theaters befinden sich 8 Plätze, in der zweiten
+     Reihe befinden sich 10 Plätze, in der dritten Reihe 12 Plätze. Die Zunahme
+     der Sitzplätze setzt sich in den weiteren Reihen genauso fort.
+
+
+
+
+     a) Wie viele Plätze befinden sich in Reihe 5?
+
+        Anzahl der Plätze in Reihe 5: ______
+
+                                                                                /1 P.
+
+     b) Welcher Term gibt die Anzahl der Plätze in der n-ten Reihe an?
+        Kreuze den zutreffenden Term an.
+
+        ☐ 8 + 2n                    ☐ 6 + 2n                         ☐ 8n + 2
+
+                                                                                /1 P.
+
+
+                                              6
+                            MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A9   Gegeben ist eine regelmäßige Pyramide mit quadratischer Grundfläche.
+     Ergänze die Formeln.
+
+
+                                                       h2 =
+
+
+
+                                                       sin (α) =
+               s                       s
+
+                            k
+                                       h               tan (β) =
+
+
+
+
+                       a
+                                                                               /3 P.
+
+A10 Bei beiden Divisoren fehlt ein Komma. Setze das Komma jeweils so, dass
+    die Gleichung stimmt.
+
+     0,5 : 1 0 0 = 0,05
+
+     25 : 2 5 0 = 10
+
+                                                                               /2 P.
+
+A11 Gib den kleinsten und den größten Wert an:
+
+                                1
+     3 −2 ;   − 32 ;   9;         ;   30
+                                9
+
+
+      kleinster Wert:
+      größter Wert:
+
+
+                                                                               /2 P.
+
+
+A12 Forme 25 a2 − 169b 2 mit Hilfe einer binomischen Formel in ein Produkt um.
+
+
+
+
+                                                                               /1 P.
+
+
+
+                                                   7
+                        MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A13 Ergänze jeweils so, dass die Gleichungen stimmen.
+
+    ______________ cm + 1,9 m = 3 m
+
+    120 dm2 + __________ m2 = 3 m2
+
+                                                                             /2 P.
+
+A14 Gegeben ist die folgende quadratische Funktion in Normalform:
+
+    f(x) = x2 + 6x + 8
+
+    Welche der folgenden Funktionsgleichungen stellt diese Funktion in der
+    Scheitelpunktform dar? Kreuze an.
+
+    ☐ f (x) = (x + 3)2 + 8
+
+
+    ☐ f (x) = (x + 3)2 + 1
+
+
+    ☐ f (x) = (x + 3)2 − 1
+
+                                                                             /1 P.
+
+A15 Verbinde jedes der drei Beispiele mit dem passenden Begriff.
+
+
+      1+2+2+ 4+5+5+8
+                                                           Rangliste
+             7
+
+                                                           arithmetischer
+                                                           Mittelwert
+
+
+     1; 2; 4; 5; 2; 5; 8                                   Maximum
+
+
+                                                           Urliste
+
+
+     8‒1=7                                                 Spannweite
+
+
+
+                                                                             /3 P.
+
+
+
+
+                                               8
+                          MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+A16 Wahr oder falsch? Kreuze jeweils an.
+
+
+                                                                              wahr   falsch
+      Alle Graphen linearer Funktionen verlaufen durch                         ☐       ☐
+      3 Quadranten des Koordinatensystems.
+
+      Der Graph der Funktion g mit g(x ) = 2x ⋅ x − 3     (       )            ☐       ☐
+
+      ist eine Parabel.
+
+      Der Graph der Funktion f mit f (x) = x 2 + 3 ist                         ☐       ☐
+      gegenüber der Normalparabel nach oben verschoben.
+
+
+                                                                                        /3 P.
+
+A17 Soraya hat auf die Seitenflächen eines Würfels die Zahlen − 5, − 3, − 1, 2, 4, 6
+     geschrieben. Sie würfelt mit diesem Würfel zweimal hintereinander und
+     addiert die beiden gewürfelten Zahlen. Welche Summe kann sie nicht
+     erhalten?
+
+     ☐3                             ☐5                                 ☐7
+
+                                                                                        /1 P.
+
+A18 In einem Beutel befinden sich fünf Kugeln: 2 grüne und 3 blaue
+
+     a) Es werden zwei grüne Kugeln gezogen, die nicht wieder zurückgelegt
+        werden. Wie groß ist die Wahrscheinlichkeit beim nächsten Zug eine
+        blaue Kugel zu ziehen? Kreuze an.
+
+              1                            3
+          ☐                            ☐                                ☐1
+              3                            5
+
+                                                                                        /1 P.
+
+     b) Es wird dreimal gezogen und die Kugeln werden nicht wieder
+        zurückgelegt. Mit welchem Term lässt sich die Wahrscheinlichkeit
+        berechnen alle blauen Kugeln zu ziehen? Kreuze an.
+
+              3 2 1                        3 3 3                             1 1 1
+          ☐    ⋅ ⋅                     ☐    ⋅ ⋅                         ☐     + +
+              5 4 3                        5 5 5                             5 5 5
+
+                                                                                        /1 P.
+
+
+
+
+                                                 9
+MSA Mathematik Prüfungsheft 1 2023 (c) MBWFK S-H
+
+
+
+
+                      10
+
+
+===== HEFT 2 =====
+
+QUELLE: Schleswig-Holstein, Zentrale Abschlussarbeit 2023 MSA Mathematik, Schülerheft 2 (Komplexaufgaben, mit Taschenrechner)
+ADRESSE: https://za.schleswig-holstein.de/?view=101&path=2+MSA%7C5+Abschlussarbeiten&dHash=6b74c1ef1ed3a0e44d13bb775c9f894e
+ABRUF: 2026-09-27
+SEITEN: 22
+LIZENZVERMERK: © MBWFK, Kiel 2023; Fußzeile jeder Seite: „(c) MBWFK S-H“
+TEXTFASSUNG: pdftotext -layout (poppler); Formeln, Grafiken und Ankreuzfelder sind im PDF Bilder oder Zeichnungen und fehlen im Text.
+
+Zentrale Abschlussarbeit 2023
+
+
+
+
+      Mathematik Heft 2
+     Mittlerer Schulabschluss
+Herausgeber
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Brunswiker Straße 16-22, 24105 Kiel
+
+Aufgabenentwicklung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+Institut für Qualitätsentwicklung an Schulen Schleswig-Holstein
+Fachkommissionen für die Zentralen Abschlussarbeiten in der Sekundarstufe I
+
+Umsetzung und Begleitung
+Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+zab1@bildungsdienste.landsh.de
+
+
+
+
+© MBWFK, Kiel 2023
+                       MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Liebe Schülerin, lieber Schüler!
+
+Die Arbeit besteht aus zwei Heften. Dies ist Heft 2.
+
+Heft 1         Kurzformaufgaben
+
+Diese Aufgaben sind ohne Taschenrechner in maximal 60 Minuten zu lösen. Die
+Formelsammlung und deine Zeichengeräte darfst du benutzen.
+
+Du bearbeitest die Aufgaben in dem Heft.
+
+Wenn du bei einer Aufgabe einmal etwas falsch angekreuzt hast, solltest du das
+Kreuz völlig durchstreichen.
+
+Es kann Aufgaben geben, bei denen mehrere Antworten möglich sind. Die Punkte
+am Rand geben dir Hinweise.
+
+Heft 2         Komplexaufgaben
+
+Heft 2 enthält 4 Komplexaufgaben, die alle bearbeitet werden müssen.
+
+Jede Komplexaufgabe hat einen Wahlteil. Du musst nur 2 Wahlteile bearbeiten,
+die Wahlteile der anderen beiden Komplexaufgaben musst du nicht bearbeiten.
+
+Die Bearbeitung der Aufgaben erfolgt auf dem bereitliegenden, gestempelten
+Papier. Es kann Aufgaben geben, bei denen du aufgefordert wirst, direkt in das
+Prüfungsheft zu schreiben.
+
+Den Taschenrechner, die Formelsammlung und deine Zeichengeräte darfst du
+benutzen.
+
+ACHTUNG !
+
+In beiden Teilen wechseln sich leichtere und schwierigere Aufgaben ab. So
+kommt oft nach einer schwierigen Aufgabe eine leichtere. Wenn du eine Aufgabe
+nicht lösen kannst, versuche erst einmal die nächsten zu bearbeiten.
+
+Nutze deine Lesezeit!
+Du darfst in der Lesezeit einen Stift zum Markieren benutzen.
+
+Lesezeit:                 30 Minuten
+
+Bearbeitungszeit:         insgesamt 165 Minuten, davon höchstens
+                          60 Minuten für die Kurzformaufgaben
+
+
+
+            Bitte schreibe deinen Namen auf beide Aufgabenhefte!
+
+Viel Erfolg!
+
+
+
+
+                                              3
+                      MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+B1: Trigonometrie                                                        Halbkreis
+
+André untersucht mithilfe einer Geometriesoftware Punkte auf einem Halbkreis
+mit dem Radius 5 cm um den Mittelpunkt M. Die Punkte A, B und C lassen sich
+auf der Kreislinie verschieben.
+
+
+
+
+(1) André untersucht die Abstände der Punkte A, B und C zueinander.
+
+    a) Berechne den Abstand der Punkte C und B in Zentimetern für α = 75 ° .
+
+                                                                               /3 P.
+
+    b) Der Abstand a der Punkte A und C zueinander ist a = 2 ⋅ 5 cm .
+
+        Zeige, dass das stimmt.
+
+                                                                               /2 P.
+
+    c) André verschiebt den Punkt B so, dass A und B den Abstand 5 cm
+       voneinander haben.
+
+        Gib die Größe des Winkels α an.
+
+                                                                               /1 P.
+
+
+
+
+                                             4
+                     MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+(2) André verschiebt den Punkt B so, dass der Punkt E den Durchmesser des
+    Halbkreises im Verhältnis 8:2 teilt.
+
+    a) André nutzt den Höhensatz zur Berechnung des Abstands der Punkte B
+       und E.
+
+
+
+
+        Berechne den Abstand der Punkte B und E mithilfe des
+        Höhensatzes.
+
+                                                                         /2 P.
+
+    b) Mila rechnet lieber mit dem Satz des Pythagoras.
+
+
+
+
+        Zeichne das Dreieck ein, mit dem Mila den Abstand der Punkte B
+        und E berechnen kann.
+
+                                                                         /1 P.
+
+
+
+
+                                            5
+                       MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+ Wahlteil zu B1
+ Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) André will die Punkte so auf der Kreislinie verschieben, dass sowohl der
+    Punkt A als auch der Punkt C vom Punkt B den Abstand 5 cm hat.
+
+
+
+
+     Zeichne den Sachverhalt in der Abbildung.
+
+                                                                                 /2 P.
+
+(4) André untersucht, wie sich der Winkel β ändert, wenn sich der Abstand
+     zwischen den Punkten B und C verändert.
+
+
+
+
+                                                                          0,5y
+     André sagt: „Zur Untersuchung kann ich die Gleichung sin(β ) =
+                                                                            5
+     nutzen.“
+
+     a) Entscheide und begründe, ob André recht hat.
+
+                                                                                 /3 P.
+
+     b) André erhält bei seiner Untersuchung das Ergebnis sin( β ) = 1 .
+
+        Stelle die Bedeutung dieses Wertes für die Punkte B und C dar.
+
+                                                                                 /1 P.
+
+
+                                              6
+MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+                       7
+                       MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+B2: Stereometrie                                                          Hammer
+
+Hämmer gibt es in verschiedenen Ausführungen. Hier ist ein sogenannter
+Schlosserhammer abgebildet.
+
+
+
+                   Hammerkopf
+
+
+                                                       Stiel
+
+                    Auge
+   (Öffnung für den Stiel)
+
+
+
+
+(1) Die folgende Abbildung zeigt verschiedene Schrägbilder des Hammerkopfs.
+
+
+
+
+    a) Eines der Schrägbilder hat einen Fehler.
+
+        Markiere diesen Fehler.
+
+                                                                             /1 P.
+
+    b) Skizziere in zwei richtigen Schrägbildern jeweils die Öffnung für den
+       Stiel.
+
+                                                                             /1 P.
+
+
+
+
+                                              8
+                        MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+(2)
+
+
+
+
+             105
+                                    58
+
+
+
+                                                   Alle Angaben in mm;
+                              23                   die Abbildung ist nicht maßstabsgerecht.
+                      23
+
+      a) Berechne das Volumen des abgebildeten Hammerkopfs, ohne die
+         Öffnung für den Stiel zu beachten.
+
+                                                                                       /3 P.
+
+      b) Thilo möchte überprüfen, ob der Hammerkopf wirklich aus Stahl
+         besteht. Er berechnet die Dichte ρ mit der Formel:
+
+          m =V ⋅ρ
+
+         Beim Volumen V beachtet er die Öffnung für den Stiel nicht und erhält
+         deshalb ein falsches Ergebnis.
+
+         Entscheide, ob Thilos Ergebnis für die Dichte zu groß oder zu klein ist
+         und begründe deine Meinung.
+
+                                                                                       /2 P.
+
+      c) Die Öffnung für den Stiel ist nicht kreisrund.
+
+
+
+
+            1,4 cm
+                                                       Die Abbildung ist nicht
+                                                       maßstabsgerecht.
+                           2,5 cm
+
+
+         Zeige, dass der Flächeninhalt der abgebildeten Öffnung zwischen
+         1,5 cm2 und 3,5 cm2 liegen muss.
+
+                                                                                       /2 P.
+
+
+                                               9
+                       MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B2
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) Bei einem Schonhammer hat der Hammerkopf die Form eines Zylinders.
+    Er ist mit kleinen Stahlkugeln gefüllt (siehe Skizze). Thilo möchte die Anzahl
+    der Kugeln in diesem Schonhammer abschätzen.
+
+
+      Thilos Hammer:
+
+
+                                                                          Skizze:
+
+
+
+
+           Durchmesser des
+           Hammerkopfs: 3 cm
+
+
+
+
+     a) Zeige durch eine Rechnung, dass der Hohlraum in diesem
+        Schonhammer größer ist als 49 cm3.
+
+                                                                                    /2 P.
+
+     b) Das Volumen der Kugeln nimmt nur etwa 70 % des Hohlraums ein. Jede
+        Kugel hat ein Volumen von 14,1 mm3.
+
+         Untersuche, ob der Hohlraum im Hammerkopf groß genug für 2 000
+         Kugeln ist.
+
+                                                                                    /4 P.
+
+
+
+
+                                             10
+    MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+°
+
+
+
+
+                          11
+                             MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+B3: Funktionen                                                                  Tee & Kaffee
+
+Die Phänomento-AG stellt Beispiele zusammen, wie man mit Mathematik und
+Naturwissenschaften alltägliche Dinge versteht. In diesem Halbjahr untersucht
+ein Team die Temperaturabnahme von Kaffee und Tee bei Raumtemperatur.
+
+(1) Ela und Ben beschreiben das Abkühlen von Tee mit folgender
+    Funktionsgleichung, die der vergangenen Zeit x in Minuten die Temperatur
+    t(x) zuordnet:
+
+     t ( x ) = 90 ⋅ 0, 7 x
+
+
+     a) Gib die Temperatur des Tees in °C nach 2 min an.
+
+                                                                                         /1 P.
+
+     b) Bestimme, nach wie vielen Minuten der Tee die Raumtemperatur von
+        18 °C erreichen müsste.
+
+                                                                                         /2 P.
+
+     c) Sanni fragt: „Wie lange dauert es, bis der Tee auf 0 °C abgekühlt ist?“
+        Ari entgegnet: „Das kann doch hier gar nicht passieren.“
+
+          Beurteile Aris Aussage.
+
+                                                                                         /1 P.
+
+
+
+
+                                                   12
+                     MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+    d) Skizziere den Graphen, der den Zusammenhang nach der Modellierung
+       dieser Gruppe darstellt.
+
+
+
+
+                                                                               /1 P.
+
+(2) Eine andere Gruppe misst die Temperatur beim Abkühlen von Kaffee, der
+    mit kochendem Wasser von 100 °C aufgegossen wurde.
+    Die Tabelle zeigt die Temperatur zu verschiedenen Zeitpunkten.
+
+
+     vergangene Zeit in min            0            1            2       3
+     Temperatur in °C               100,0         89,0        79,2      70,5
+
+
+    a) Ben behauptet, dass der Zusammenhang weder linear noch
+       antiproportional ist.
+
+        Begründe, dass Bens Behauptung korrekt ist.
+
+                                                                               /2 P.
+
+    b) Ela schlägt vor, die Abkühlung mit einer Exponentialfunktion zu
+       beschreiben.
+
+        Gib eine Funktionsgleichung an, die den Prozess annähert.
+                                                                               /2 P.
+
+
+                                           13
+                           MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B3
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(3) Peter und Paula wollen untersuchen, welchen Einfluss die
+    Anfangstemperatur auf die Dauer der Abkühlung von Getränken hat. Dazu
+    beschreiben sie die Funktion mit der folgenden Gleichung:
+
+     f (x) = b ⋅ ax
+
+
+     a) Beschreibe, was die Parameter a und b im Kontext der Abkühlung von
+        Getränken bedeuten.
+                                                                       /2 P.
+
+     b) Gib ein sinnvolles Intervall für a an.
+                                                                                                    /1 P.
+
+     c) Paula fragt „Was ändert sich, wenn wir zum Funktionsterm noch ein d
+        addieren?“ Die Funktionsgleichung sieht dann so aus:
+
+         f (x ) = b ⋅ ax + d
+
+
+         Ordne die Funktionsgleichungen den passsenden Graphen zu.
+
+
+
+
+                                                                              g( x ) = 90 ⋅ 0,5 x
+
+
+                                                                              h( x ) = 90 ⋅ 0, 5 x + 10
+
+
+                                                                              i ( x ) = 90 ⋅ 0, 5 x − 10
+
+
+
+
+                                                                                                    /2 P.
+
+     d) Beschreibe, wie sich die Veränderung des Parameters d auf den
+        Graphen auswirkt.
+
+                                                                                                    /1 P.
+
+
+
+                                                 14
+MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+                      15
+                         MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+B4: Statistik und                                                                   Würfel
+    Wahrscheinlichkeit
+
+Die Klasse 10b bekommt folgenden Arbeitsauftrag:
+
+
+
+
+„Verändert den Radiergummiwürfel. Würfelt dann 500-mal und notiert die
+absoluten und relativen Häufigkeiten der Augenzahlen.“
+
+(1)    Jonas schneidet mit einer Schere eine Ecke ab.
+       Dann würfelt er mit dem Würfel 500-mal und notiert seine Ergebnisse
+       in einer Tabelle.
+
+
+
+
+                   1           2            3           4            5       6       Summe
+   Absolute
+                  55          58           88                               110       500
+   Häufigkeit
+   Relative
+                 0,110                   0,176       0,150                  0,220      1
+   Häufigkeit
+
+
+      a) Ergänze die fehlenden Werte.
+
+                                                                                           /2 P.
+
+      b) Erkläre, warum es sich bei der hier vorliegenden relativen Häufigkeit
+         nicht um ein Laplace- Experiment handelt.
+
+                                                                                           /1 P.
+
+
+                                                16
+                           MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+(2)        Auch Merle hat von ihrem Würfel ein Stück abgeschnitten und
+           präsentiert ihre Ergebnisse.
+
+
+
+
+                    1            2            3           4            5       6      Summe
+      Absolute
+                   144          76           98          15           73       94      500
+      Häufigkeit
+
+      Relative
+                   0,288      0,152        0,196        0,03        0,146     0,188     1
+      Häufigkeit
+
+
+
+  Merle nimmt ihre relativen Häufigkeiten als Schätzwert für die
+  Wahrscheinlichkeit. Der Würfel wird zweimal gewürfelt.
+
+       a) Zeige, dass die Wahrscheinlichkeit, zweimal die gleiche Zahl zu werfen,
+          ungefähr 20% beträgt.
+
+                                                                                            /2 P.
+
+       b) Die Wahrscheinlichkeit, zweimal die gleiche Zahl zu werfen, ist ungefähr
+          20%. Merle behauptet: „Dann beträgt die Wahrscheinlichkeit, dass zwei
+          verschiedene Zahlen gewürfelt werden, ca. 80%.“
+
+           Überprüfe, ob Merle recht hat.
+
+                                                                                            /2 P.
+
+
+
+
+                                                  17
+                                  MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+(3)    Lasse stellt von seinem Würfel die Häufigkeitsverteilung in einem
+       Säulendiagramm dar.
+
+
+
+            relative Häufigkeit
+
+
+
+
+      Entscheide, ob das Säulendiagramm von Lasse stimmen kann, und
+      begründe deine Entscheidung.
+
+                                                                                     /2 P.
+
+
+
+
+                                                        18
+                      MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Wahlteil zu B4
+Du musst zwei der vier Wahlteile bearbeiten.
+
+
+(4)    Von den 25 Schülerinnen und Schülern der 10b haben acht den Würfel an
+       einer Ecke angeschnitten. Hiervon sind fünf weiblich.
+
+
+
+
+      Gib im Baumdiagramm die fehlenden Beschriftungen und
+      Wahrscheinlichkeiten in den Kästchen an.
+
+                                                                         /2 P.
+
+
+
+
+                                            19
+                       MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+(5)    Der Lehrer hat einen Würfel, bei dem zwei Felder weiß und vier Felder
+       grau sind. Der Würfel wird zweimal geworfen.
+
+
+
+
+      Der Lehrer behauptet: „Die Wahrscheinlichkeit, zweimal hintereinander
+      die gleiche Farbe zu werfen, ist größer, als dass der Würfel zweimal
+      hintereinander verschiedene Farben anzeigt.“
+
+      a) Überprüfe, ob er recht hat.
+
+                                                                               /3 P.
+
+      b) Bestimme die Wahrscheinlichkeit dafür, dass mindestens einmal grau
+         geworfen wird.
+
+                                                                               /1 P.
+
+
+
+
+                                             20
+                      MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+Bewertungsübersicht
+
+                                                          max.           erreichte
+                                                         Punkte           Punkte
+Heft 1                                                       32
+
+Heft 2:     B1                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B2                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B3                                                9
+
+      Wahlteil     ja        nein                           6
+
+Heft 2:     B4                                                9
+
+      Wahlteil     ja        nein                           6
+
+Gesamtpunktzahl                                              80
+
+
+Bewertungsschlüssel MSA
+
+Punkte     Prozente   Mittlerer Schulabschluss (Note)
+
+
+ 72 - 80     ≥90                             1
+
+ 60 - 71     ≥75                             2
+
+ 48 - 59     ≥60                             3
+
+ 36 - 47     ≥45                             4
+
+ 18 - 35     ≥22                             5
+
+ 17 - 0      <22                             6
+
+
+
+
+                                             21
+MSA Mathematik Prüfungsheft 2 2023 (c) MBWFK S-H
+
+
+
+
+                      22
+
